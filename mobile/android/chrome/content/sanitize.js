@@ -419,6 +419,7 @@ contentPrefs
 .
 removeGroupedPrefs
 (
+null
 )
 ;
 var

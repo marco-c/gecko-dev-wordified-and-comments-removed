@@ -137,6 +137,7 @@ lastDir
 "
 childValue
 "
+null
 )
 ;
 do_check_eq
@@ -155,6 +156,7 @@ upload
 .
 lastDir
 "
+null
 )
 "
 childValue
@@ -223,6 +225,7 @@ lastDir
 "
 childValue2
 "
+null
 )
 ;
 do_check_eq
@@ -239,6 +242,7 @@ upload
 .
 lastDir
 "
+null
 )
 "
 childValue2
@@ -261,6 +265,7 @@ upload
 .
 lastDir
 "
+null
 )
 "
 childValue

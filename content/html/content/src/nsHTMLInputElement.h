@@ -126,9 +126,9 @@ NS_DECL_NSIOBSERVER
 nsresult
 FetchLastUsedDirectory
 (
-nsIURI
+nsIDocument
 *
-aURI
+aDoc
 nsIFile
 *
 *
@@ -138,9 +138,9 @@ aFile
 nsresult
 StoreLastUsedDirectory
 (
-nsIURI
+nsIDocument
 *
-aURI
+aDoc
 nsIFile
 *
 aFile
