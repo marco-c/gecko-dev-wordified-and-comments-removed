@@ -425,11 +425,6 @@ BLOCK
 *
 *
 *
-const
-kNonStringDataLength
-=
-4
-;
 var
 nsTransferable
 =
@@ -2094,6 +2089,11 @@ if
 data
 )
 {
+const
+kNonStringDataLength
+=
+4
+;
 var
 length
 =
