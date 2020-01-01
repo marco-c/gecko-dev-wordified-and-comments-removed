@@ -4391,13 +4391,7 @@ content
 /
 doc
 /
-files2
-/
-core
-/
-iq
--
-js
+index
 .
 html
 '
