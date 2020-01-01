@@ -1896,11 +1896,9 @@ aTreeItem
 ;
 if
 (
-!
 treeNode
 )
-return
-;
+{
 PRInt32
 subDocumentsCount
 =
@@ -2017,6 +2015,7 @@ GetDocument
 )
 )
 ;
+}
 }
 ShutdownDocAccessible
 (
