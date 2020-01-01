@@ -650,10 +650,6 @@ urlparse_unx
 .
 dat
 \
-jarlist
-.
-dat
-\
 (
 NULL
 )
