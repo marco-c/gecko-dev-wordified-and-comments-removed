@@ -249,7 +249,6 @@ STATE_REMOTE_EXPLICIT
 2
 get
 state
-getState
 (
 )
 {
