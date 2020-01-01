@@ -1203,3 +1203,9 @@ BIN_SUFFIX
 "
 regOrderDir
 "
+GARBAGE
++
+=
+TestScriptable
+.
+h
