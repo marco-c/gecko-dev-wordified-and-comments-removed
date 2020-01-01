@@ -1174,6 +1174,8 @@ high
 "
 :
 "
+16
+*
 1024
 *
 1024
@@ -1182,7 +1184,7 @@ high
 n_buckets
 "
 :
-50
+200
 "
 description
 "
@@ -1348,7 +1350,9 @@ high
 "
 :
 "
-512
+16
+*
+1024
 *
 1024
 "
@@ -1356,7 +1360,7 @@ high
 n_buckets
 "
 :
-50
+200
 "
 description
 "
@@ -1493,6 +1497,8 @@ high
 "
 :
 "
+16
+*
 1024
 *
 1024
@@ -1501,7 +1507,7 @@ high
 n_buckets
 "
 :
-50
+200
 "
 description
 "
@@ -1628,6 +1634,8 @@ high
 "
 :
 "
+16
+*
 1024
 *
 1024
@@ -1636,7 +1644,7 @@ high
 n_buckets
 "
 :
-50
+200
 "
 description
 "
@@ -1673,7 +1681,7 @@ high
 n_buckets
 "
 :
-8
+32
 "
 description
 "
