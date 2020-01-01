@@ -15760,7 +15760,7 @@ JSObject
 *
 obj
 =
-GetWrapper
+GetWrapperPreserveColor
 (
 )
 ;
