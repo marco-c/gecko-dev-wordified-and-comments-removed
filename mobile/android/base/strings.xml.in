@@ -566,11 +566,11 @@ string
 name
 =
 "
-preferences
+settings
 "
 >
 &
-preferences
+settings
 ;
 <
 /
@@ -581,11 +581,11 @@ string
 name
 =
 "
-preferences_title
+settings_title
 "
 >
 &
-preferences_title
+settings_title
 ;
 <
 /
