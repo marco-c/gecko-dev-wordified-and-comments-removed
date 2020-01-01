@@ -16934,8 +16934,8 @@ data
 =
 =
 null
-&
-&
+|
+|
 resultCode
 !
 =
