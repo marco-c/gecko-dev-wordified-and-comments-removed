@@ -1848,8 +1848,14 @@ re
 compile
 (
 '
+\
+s
+*
 define
 |
+\
+s
+*
 endef
 '
 )
@@ -1950,6 +1956,10 @@ m
 group
 (
 0
+)
+.
+strip
+(
 )
             
 if
