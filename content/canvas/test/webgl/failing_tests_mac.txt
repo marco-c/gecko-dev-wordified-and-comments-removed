@@ -52,13 +52,6 @@ conformance
 /
 gl
 -
-teximage
-.
-html
-conformance
-/
-gl
--
 vertexattribpointer
 .
 html

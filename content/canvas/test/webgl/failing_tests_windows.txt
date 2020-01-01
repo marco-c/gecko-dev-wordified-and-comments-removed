@@ -38,13 +38,6 @@ conformance
 /
 gl
 -
-teximage
-.
-html
-conformance
-/
-gl
--
 uniform
 -
 bool
