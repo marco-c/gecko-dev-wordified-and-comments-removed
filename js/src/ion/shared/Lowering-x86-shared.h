@@ -114,6 +114,14 @@ MMod
 mod
 )
 ;
+bool
+lowerUrshD
+(
+MUrsh
+*
+mir
+)
+;
 }
 ;
 }

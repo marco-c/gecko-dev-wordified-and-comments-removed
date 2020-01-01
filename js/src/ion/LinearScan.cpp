@@ -6124,6 +6124,17 @@ New
 alloc
 )
 ;
+JS_ASSERT
+(
+!
+alloc
+-
+>
+isUse
+(
+)
+)
+;
 *
 alloc
 =

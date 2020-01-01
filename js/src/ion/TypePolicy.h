@@ -137,6 +137,16 @@ MInstruction
 def
 )
 ;
+MIRType
+specialization
+(
+)
+const
+{
+return
+specialization_
+;
+}
 }
 ;
 class

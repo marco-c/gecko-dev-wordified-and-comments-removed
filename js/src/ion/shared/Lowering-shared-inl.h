@@ -1823,6 +1823,16 @@ uint32
 reusedInput
 )
 {
+JS_ASSERT
+(
+input
+-
+>
+virtualRegister
+(
+)
+)
+;
 LDefinition
 t
 =
