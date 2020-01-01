@@ -2385,6 +2385,8 @@ BasicLayerManager
 :
 BufferMode
 aDoubleBuffering
+ScreenRotation
+aRotation
 )
 :
 mWidget
@@ -2446,6 +2448,7 @@ SetDefaultTarget
 (
 aTarget
 aDoubleBuffering
+aRotation
 )
 ;
 }
@@ -2518,6 +2521,7 @@ BasicLayerManager
 :
 :
 BUFFER_NONE
+ROTATION_0
 )
 ;
 }

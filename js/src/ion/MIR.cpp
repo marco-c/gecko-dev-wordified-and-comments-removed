@@ -6989,7 +6989,7 @@ New
 BooleanValue
 (
 !
-js_ValueToBoolean
+ToBoolean
 (
 v
 )

@@ -22223,6 +22223,17 @@ IDBConstant
 IDBTransaction
 ;
 }
+else
+{
+MOZ_NOT_REACHED
+(
+"
+unexpected
+IID
+"
+)
+;
+}
 for
 (
 int8_t

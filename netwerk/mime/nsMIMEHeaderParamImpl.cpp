@@ -480,6 +480,7 @@ get
 )
 false
 true
+1
 str2
 )
 )
@@ -1346,6 +1347,7 @@ get
 )
 false
 false
+1
 tmpDecoded
 )
 ;
@@ -3871,6 +3873,7 @@ get
 )
 true
 false
+1
 utf8
 )
 ;
@@ -3956,6 +3959,7 @@ aParamValue
 aCharset
 true
 true
+1
 aResult
 )
 ;
@@ -4815,6 +4819,7 @@ aLen
 aDefaultCharset
 skipCheck
 true
+1
 utf8Text
 )
 )
@@ -5547,6 +5552,7 @@ IS_7BIT_NON_ASCII_CHARSET
 charset
 )
 true
+1
 utf8Text
 )
 )

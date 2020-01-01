@@ -8179,7 +8179,7 @@ dbg
 bool
 enabled
 =
-js_ValueToBoolean
+ToBoolean
 (
 args
 [
@@ -11182,7 +11182,7 @@ false
 ;
 innermost
 =
-js_ValueToBoolean
+ToBoolean
 (
 innermostProperty
 )

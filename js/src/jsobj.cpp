@@ -6778,7 +6778,7 @@ true
 ;
 if
 (
-js_ValueToBoolean
+ToBoolean
 (
 v
 )
@@ -6832,7 +6832,7 @@ true
 ;
 if
 (
-js_ValueToBoolean
+ToBoolean
 (
 v
 )
@@ -6933,7 +6933,7 @@ true
 ;
 if
 (
-js_ValueToBoolean
+ToBoolean
 (
 v
 )

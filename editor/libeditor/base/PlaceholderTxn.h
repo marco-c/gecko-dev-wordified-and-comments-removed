@@ -114,7 +114,7 @@ aName
 nsSelectionState
 *
 aSelState
-nsIEditor
+nsEditor
 *
 aEditor
 )
@@ -186,7 +186,7 @@ mStartSel
 nsSelectionState
 mEndSel
 ;
-nsIEditor
+nsEditor
 *
 mEditor
 ;

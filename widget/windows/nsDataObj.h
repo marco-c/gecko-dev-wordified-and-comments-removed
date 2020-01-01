@@ -81,6 +81,9 @@ nsITimer
 .
 h
 "
+class
+nsIThread
+;
 #
 ifdef
 __IDataObjectAsyncCapability_INTERFACE_DEFINED__
@@ -261,6 +264,14 @@ IDataObject
 public
 IAsyncOperation
 {
+protected
+:
+nsCOMPtr
+<
+nsIThread
+>
+mIOThread
+;
 public
 :
 nsDataObj

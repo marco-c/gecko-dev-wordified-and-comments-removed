@@ -1957,7 +1957,7 @@ false
 ;
 if
 (
-js_ValueToBoolean
+ToBoolean
 (
 frame
 .

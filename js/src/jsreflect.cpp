@@ -16663,7 +16663,7 @@ JS_FALSE
 ;
 loc
 =
-js_ValueToBoolean
+ToBoolean
 (
 prop
 )
