@@ -21580,6 +21580,8 @@ bytes
 size_t
 *
 lengthp
+bool
+useCESU8
 )
 {
 size_t
@@ -21607,12 +21609,15 @@ lengthp
 if
 (
 js_CStringsAreUTF8
+|
+|
+useCESU8
 )
 {
 if
 (
 !
-js_InflateStringToBuffer
+js_InflateUTF8StringToBuffer
 (
 cx
 bytes
@@ -21620,6 +21625,7 @@ nbytes
 NULL
 &
 nchars
+useCESU8
 )
 )
 goto
@@ -21663,7 +21669,7 @@ ok
 =
 #
 endif
-js_InflateStringToBuffer
+js_InflateUTF8StringToBuffer
 (
 cx
 bytes
@@ -21671,6 +21677,7 @@ nbytes
 chars
 &
 nchars
+useCESU8
 )
 ;
 JS_ASSERT
@@ -22011,6 +22018,8 @@ jschar
 chars
 size_t
 nchars
+bool
+useCESU8
 )
 {
 size_t
@@ -22078,6 +22087,10 @@ c
 <
 =
 0xDFFF
+&
+&
+!
+useCESU8
 )
 {
 chars
@@ -22365,6 +22378,8 @@ dst
 size_t
 *
 dstlenp
+bool
+useCESU8
 )
 {
 size_t
@@ -22427,6 +22442,10 @@ c
 =
 0xDFFF
 )
+&
+&
+!
+useCESU8
 )
 goto
 badSurrogate
@@ -22441,6 +22460,9 @@ c
 c
 >
 0xDBFF
+|
+|
+useCESU8
 )
 {
 v
@@ -22827,6 +22849,8 @@ dst
 size_t
 *
 dstlenp
+bool
+useCESU8
 )
 {
 size_t
@@ -22974,6 +22998,10 @@ v
 >
 =
 0x10000
+&
+&
+!
+useCESU8
 )
 {
 v

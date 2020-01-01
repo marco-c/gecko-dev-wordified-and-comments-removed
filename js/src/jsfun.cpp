@@ -9414,7 +9414,7 @@ firstword
 if
 (
 !
-js_XDRScript
+js_XDRScriptAndSubscripts
 (
 xdr
 &
@@ -9958,7 +9958,7 @@ NULL
 NULL
 NULL
 NULL
-js_XDRFunctionObject
+NULL
 fun_hasInstance
 fun_trace
 }

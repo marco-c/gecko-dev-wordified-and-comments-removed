@@ -4209,6 +4209,10 @@ bytes
 size_t
 *
 length
+bool
+useCESU8
+=
+false
 )
 ;
 extern
@@ -4267,6 +4271,10 @@ chars
 size_t
 *
 charsLength
+bool
+useCESU8
+=
+false
 )
 ;
 extern
@@ -4297,6 +4305,10 @@ jschar
 chars
 size_t
 charsLength
+bool
+useCESU8
+=
+false
 )
 ;
 extern
@@ -4339,6 +4351,10 @@ bytes
 size_t
 *
 length
+bool
+useCESU8
+=
+false
 )
 ;
 extern
