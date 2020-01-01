@@ -778,14 +778,6 @@ GetChildLists
 aLists
 )
 ;
-mFrames
-.
-AppendIfNonempty
-(
-aLists
-kPrincipalList
-)
-;
 mCaptionFrames
 .
 AppendIfNonempty
