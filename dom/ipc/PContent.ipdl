@@ -186,6 +186,9 @@ include
 DOMTypes
 ;
 include
+JavaScriptTypes
+;
+include
 InputStreamParams
 ;
 include
@@ -868,6 +871,7 @@ BlobConstructorParams
 params
 )
 ;
+async
 PJavaScript
 (
 )
@@ -1508,6 +1512,10 @@ nsString
 aMessage
 ClonedMessageData
 aData
+CpowEntry
+[
+]
+aCpows
 )
 returns
 (
@@ -1987,6 +1995,10 @@ nsString
 aMessage
 ClonedMessageData
 aData
+CpowEntry
+[
+]
+aCpows
 )
 ;
 }

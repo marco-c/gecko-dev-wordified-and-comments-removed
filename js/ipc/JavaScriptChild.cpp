@@ -790,6 +790,13 @@ request
 cx
 )
 ;
+*
+result
+=
+void_t
+(
+)
+;
 RootedObject
 obj
 (
