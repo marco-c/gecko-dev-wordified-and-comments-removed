@@ -18591,6 +18591,9 @@ return
 true
 ;
 }
+#
+ifdef
+DEBUG
 void
 JSScript
 :
@@ -18988,6 +18991,8 @@ name
 }
 }
 }
+#
+endif
 void
 JSObject
 :

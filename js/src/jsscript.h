@@ -1313,6 +1313,9 @@ cx
 ;
 public
 :
+#
+ifdef
+DEBUG
 void
 typeCheckBytecode
 (
@@ -1332,6 +1335,8 @@ Value
 sp
 )
 ;
+#
+endif
 inline
 js
 :
