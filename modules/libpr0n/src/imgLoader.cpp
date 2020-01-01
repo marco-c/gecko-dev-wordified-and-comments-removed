@@ -5336,7 +5336,7 @@ entry
 ;
 if
 (
-aLoadFlags
+requestFlags
 &
 nsIRequest
 :
