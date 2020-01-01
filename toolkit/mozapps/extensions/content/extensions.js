@@ -10237,10 +10237,9 @@ selectedIndex
 }
 else
 {
-if
-(
-isSafeURI
-(
+var
+uri
+=
 gExtensionsView
 .
 selectedItem
@@ -10251,6 +10250,12 @@ getAttribute
 availableUpdateInfo
 "
 )
+;
+if
+(
+isSafeURI
+(
+uri
 )
 )
 UpdateInfoLoader
@@ -10258,8 +10263,6 @@ UpdateInfoLoader
 loadInfo
 (
 uri
-.
-spec
 )
 ;
 else
