@@ -269,6 +269,11 @@ JSOP_GT
 \
 _
 (
+JSOP_GETELEM
+)
+\
+_
+(
 JSOP_GETLOCAL
 )
 \
