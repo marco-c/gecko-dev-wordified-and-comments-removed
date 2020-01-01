@@ -1985,11 +1985,13 @@ notifyObservers
 (
 null
 "
-browser
--
-fullZoom
+FullZoom
 :
-locationChange
+TESTS
+:
+location
+-
+change
 "
 "
 "
