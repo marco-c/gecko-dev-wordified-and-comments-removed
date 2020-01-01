@@ -4835,6 +4835,8 @@ else
 SIGN_CMD
 =
 (
+strip
+(
 RUN_TEST_PROGRAM
 )
 (
@@ -4851,6 +4853,7 @@ BIN_SUFFIX
 v
 -
 i
+)
 endif
 endif
 SOFTOKN
