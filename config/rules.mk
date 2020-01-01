@@ -13164,6 +13164,8 @@ EXTRA_PP_COMPONENTS
 )
 )
 )
+ifndef
+NO_JS_MANIFEST
 (
 error
 .
@@ -13174,6 +13176,7 @@ matching
 .
 manifest
 )
+endif
 endif
 endif
 ifdef
