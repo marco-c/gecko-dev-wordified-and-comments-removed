@@ -3972,6 +3972,9 @@ mjitMemoryUsed
 ;
 #
 endif
+uint32
+stringMemoryUsed
+;
 JSRuntime
 (
 )
