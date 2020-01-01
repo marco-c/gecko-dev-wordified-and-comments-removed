@@ -535,6 +535,9 @@ mute
 cc_boolean
 is_video
 ;
+cc_boolean
+rtcp_mux
+;
 vcm_audioAttrs_t
 audio
 ;
