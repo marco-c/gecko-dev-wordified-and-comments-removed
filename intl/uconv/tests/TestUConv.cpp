@@ -36,7 +36,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -1173,7 +1173,10 @@ basicDecCount
 =
 0
 ;
-nsCStringArray
+nsTArray
+<
+nsCString
+>
 allCharsets
 ;
 nsCAutoString
@@ -1215,7 +1218,7 @@ res
 )
 allCharsets
 .
-AppendCString
+AppendElement
 (
 charset
 )
@@ -1239,7 +1242,7 @@ count
 =
 allCharsets
 .
-Count
+Length
 (
 )
 ;
@@ -1261,7 +1264,7 @@ i
 {
 const
 nsCString
-*
+&
 charset
 =
 allCharsets
@@ -1276,8 +1279,7 @@ printf
 s
 "
 charset
--
->
+.
 get
 (
 )
@@ -1288,8 +1290,7 @@ PrintSpaces
 24
 -
 charset
--
->
+.
 Length
 (
 )
@@ -1311,8 +1312,7 @@ ccMan
 GetUnicodeDecoder
 (
 charset
--
->
+.
 get
 (
 )
@@ -1418,8 +1418,7 @@ ccMan
 GetUnicodeEncoder
 (
 charset
--
->
+.
 get
 (
 )
@@ -1533,8 +1532,7 @@ ccMan
 GetCharsetData
 (
 charset
--
->
+.
 get
 (
 )
@@ -1596,8 +1594,7 @@ ccMan
 GetCharsetData
 (
 charset
--
->
+.
 get
 (
 )
@@ -1659,8 +1656,7 @@ ccMan
 GetCharsetData
 (
 charset
--
->
+.
 get
 (
 )
@@ -1722,8 +1718,7 @@ ccMan
 GetCharsetData
 (
 charset
--
->
+.
 get
 (
 )
@@ -1789,8 +1784,7 @@ ccMan
 GetCharsetTitle
 (
 charset
--
->
+.
 get
 (
 )

@@ -22,7 +22,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -41,7 +41,10 @@ Files
 h
 >
 static
-nsCStringArray
+nsTArray
+<
+nsCString
+>
 *
 gVolumeList
 =
@@ -69,7 +72,10 @@ gVolumeList
 gVolumeList
 =
 new
-nsCStringArray
+nsTArray
+<
+nsCString
+>
 ;
 if
 (
@@ -88,7 +94,7 @@ if
 gVolumeList
 -
 >
-Count
+Length
 (
 )
 )
@@ -163,7 +169,7 @@ length
 gVolumeList
 -
 >
-AppendCString
+AppendElement
 (
 volNameStr
 )

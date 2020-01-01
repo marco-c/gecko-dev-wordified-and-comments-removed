@@ -162,7 +162,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -1361,7 +1361,10 @@ nsCString
 *
 mShortestPathToExpectedGarbageEdgeName
 ;
-nsCStringArray
+nsTArray
+<
+nsCString
+>
 mEdgeNames
 ;
 #
@@ -1458,7 +1461,10 @@ mName
 mEdgeNames
 .
 ~
-nsCStringArray
+nsTArray
+<
+nsCString
+>
 (
 )
 ;
@@ -5196,7 +5202,7 @@ mCurrPi
 >
 mEdgeNames
 .
-AppendCString
+AppendElement
 (
 edgeName
 )
@@ -5300,7 +5306,7 @@ mCurrPi
 >
 mEdgeNames
 .
-AppendCString
+AppendElement
 (
 edgeName
 )
@@ -5472,7 +5478,7 @@ mCurrPi
 >
 mEdgeNames
 .
-AppendCString
+AppendElement
 (
 edgeName
 )
@@ -11722,11 +11728,9 @@ pi
 -
 >
 mEdgeNames
-.
-CStringAt
-(
+[
 i
-)
+]
 ;
 current
 -

@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -67,7 +67,10 @@ Enabled
 void
 GetPrinterList
 (
-nsCStringArray
+nsTArray
+<
+nsCString
+>
 &
 aList
 )

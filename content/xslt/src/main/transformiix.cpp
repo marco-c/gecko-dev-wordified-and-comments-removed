@@ -29,7 +29,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -332,7 +332,10 @@ aKey
 )
 {
 }
-nsCStringArray
+nsTArray
+<
+nsCString
+>
 mValues
 ;
 }
@@ -479,7 +482,7 @@ option
 >
 mValues
 .
-AppendCString
+AppendElement
 (
 nsCString
 (
@@ -761,7 +764,7 @@ option
 >
 mValues
 .
-Count
+Length
 (
 )
 >
@@ -776,8 +779,7 @@ mValues
 [
 0
 ]
--
->
+.
 EqualsLiteral
 (
 "
@@ -797,8 +799,7 @@ mValues
 [
 0
 ]
--
->
+.
 get
 (
 )
@@ -835,8 +836,7 @@ mValues
 [
 0
 ]
--
->
+.
 get
 (
 )
@@ -880,7 +880,7 @@ option
 >
 mValues
 .
-Count
+Length
 (
 )
 =
@@ -948,7 +948,7 @@ styleOption
 >
 mValues
 .
-Count
+Length
 (
 )
 =
@@ -962,7 +962,6 @@ proc
 .
 transform
 (
-*
 option
 -
 >
@@ -984,7 +983,6 @@ proc
 .
 transform
 (
-*
 option
 -
 >
@@ -992,7 +990,6 @@ mValues
 [
 0
 ]
-*
 styleOption
 -
 >

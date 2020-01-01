@@ -83,6 +83,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 nsInterfaceHashtable
 .
 h
@@ -503,7 +510,10 @@ base
 void
 EnumerateToArray
 (
-nsCStringArray
+nsTArray
+<
+nsCString
+>
 *
 a
 )

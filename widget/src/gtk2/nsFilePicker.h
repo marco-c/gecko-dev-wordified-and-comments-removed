@@ -30,7 +30,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -234,10 +234,16 @@ mDefault
 nsString
 mDefaultExtension
 ;
-nsCStringArray
+nsTArray
+<
+nsCString
+>
 mFilters
 ;
-nsCStringArray
+nsTArray
+<
+nsCString
+>
 mFilterNames
 ;
 private

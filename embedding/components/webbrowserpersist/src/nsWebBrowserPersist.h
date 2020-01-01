@@ -119,6 +119,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 nsInt64
 .
 h
@@ -981,7 +988,10 @@ mDocList
 nsVoidArray
 mCleanupList
 ;
-nsCStringArray
+nsTArray
+<
+nsCString
+>
 mFilenameList
 ;
 PRPackedBool

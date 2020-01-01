@@ -18,6 +18,13 @@ nsJAR
 .
 h
 "
+#
+include
+"
+nsTArray
+.
+h
+"
 class
 nsJARInputStream
 :
@@ -152,7 +159,10 @@ mBuffer
 PRUint32
 mArrPos
 ;
-nsCStringArray
+nsTArray
+<
+nsCString
+>
 mArray
 ;
 PRPackedBool

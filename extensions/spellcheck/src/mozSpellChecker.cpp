@@ -1997,7 +1997,10 @@ hasMoreEngines
 PRInt32
 i
 ;
-nsCStringArray
+nsTArray
+<
+nsCString
+>
 contractIds
 ;
 nsCOMPtr
@@ -2135,7 +2138,7 @@ rv
 ;
 contractIds
 .
-AppendCString
+AppendElement
 (
 contractId
 )
@@ -2143,7 +2146,7 @@ contractId
 }
 contractIds
 .
-AppendCString
+AppendElement
 (
 NS_LITERAL_CSTRING
 (
@@ -2159,10 +2162,13 @@ i
 ;
 i
 <
+PRInt32
+(
 contractIds
 .
-Count
+Length
 (
+)
 )
 ;
 i
@@ -2179,8 +2185,9 @@ PRUnichar
 *
 words
 ;
+const
 nsCString
-*
+&
 contractId
 =
 contractIds
@@ -2197,8 +2204,7 @@ engine
 do_GetService
 (
 contractId
--
->
+.
 get
 (
 )
@@ -2221,7 +2227,7 @@ i
 =
 contractIds
 .
-Count
+Length
 (
 )
 -
@@ -2302,7 +2308,6 @@ dictName
 new
 nsCString
 (
-*
 contractId
 )
 )

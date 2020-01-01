@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsVoidArray
+nsString
 .
 h
 "
@@ -50,7 +50,10 @@ nsIUTF8StringEnumerator
 aResult
 NS_OUTPARAM
 const
-nsCStringArray
+nsTArray
+<
+nsCString
+>
 *
 aArray
 )
@@ -99,7 +102,10 @@ nsIUTF8StringEnumerator
 *
 aResult
 NS_OUTPARAM
-nsCStringArray
+nsTArray
+<
+nsCString
+>
 *
 aArray
 )
@@ -114,7 +120,10 @@ nsIUTF8StringEnumerator
 aResult
 NS_OUTPARAM
 const
-nsCStringArray
+nsTArray
+<
+nsCString
+>
 *
 aArray
 nsISupports

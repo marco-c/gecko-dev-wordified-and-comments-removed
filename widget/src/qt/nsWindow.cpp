@@ -3321,7 +3321,10 @@ iconFile
 nsCAutoString
 path
 ;
-nsCStringArray
+nsTArray
+<
+nsCString
+>
 iconList
 ;
 const
@@ -3399,7 +3402,7 @@ extensions
 &
 iconList
 .
-Count
+Length
 (
 )
 )
@@ -3443,7 +3446,7 @@ path
 ;
 iconList
 .
-AppendCString
+AppendElement
 (
 path
 )
@@ -3454,7 +3457,7 @@ if
 (
 iconList
 .
-Count
+Length
 (
 )
 =
@@ -8649,7 +8652,10 @@ nsWindow
 SetWindowIconList
 (
 const
-nsCStringArray
+nsTArray
+<
+nsCString
+>
 &
 aIconList
 )

@@ -702,7 +702,7 @@ i
 ;
 mColumnNames
 .
-AppendCString
+AppendElement
 (
 nsDependentCString
 (
@@ -1494,8 +1494,7 @@ mColumnNames
 [
 i
 ]
--
->
+.
 Equals
 (
 aName

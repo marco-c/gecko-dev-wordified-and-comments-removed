@@ -108,7 +108,10 @@ nsString
 >
 *
 aNamespaceURIs
-nsCStringArray
+nsTArray
+<
+nsCString
+>
 *
 aContractIDs
 nsCOMArray
@@ -141,7 +144,10 @@ PRInt32
 >
 *
 aNamespaceIDs
-nsCStringArray
+nsTArray
+<
+nsCString
+>
 *
 aContractIDs
 nsCOMArray

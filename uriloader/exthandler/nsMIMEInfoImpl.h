@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -393,7 +393,7 @@ const
 return
 mExtensions
 .
-Count
+Length
 (
 )
 !
@@ -463,7 +463,10 @@ nsILocalFile
 aFile
 )
 ;
-nsCStringArray
+nsTArray
+<
+nsCString
+>
 mExtensions
 ;
 nsString
