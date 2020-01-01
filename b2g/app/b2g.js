@@ -137,16 +137,6 @@ scaleRatio
 pref
 (
 "
-ui
-.
-scrollbarsCanOverlapContent
-"
-1
-)
-;
-pref
-(
-"
 browser
 .
 ignoreNativeFrameTextSelection
