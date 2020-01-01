@@ -479,9 +479,9 @@ InvalidateChildren
 (
 )
 {
-mChildrenFlags
+mAreChildrenInitialized
 =
-eChildrenUninitialized
+PR_FALSE
 ;
 }
 PRBool
