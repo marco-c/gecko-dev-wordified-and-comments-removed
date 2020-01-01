@@ -911,7 +911,7 @@ rv
 .
 Throw
 (
-NS_ERROR_INVALID_ARG
+NS_ERROR_INVALID_POINTER
 )
 ;
 return
