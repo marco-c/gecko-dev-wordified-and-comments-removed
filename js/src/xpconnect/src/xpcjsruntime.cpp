@@ -74,9 +74,6 @@ __iterator__
 "
 __parent__
 "
-"
-__exposedProps__
-"
 }
 ;
 struct
