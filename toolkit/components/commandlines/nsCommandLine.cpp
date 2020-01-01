@@ -1932,12 +1932,6 @@ uint32_t
 aState
 )
 {
-NS_ENSURE_ARG_MIN
-(
-aState
-0
-)
-;
 NS_ENSURE_ARG_MAX
 (
 aState

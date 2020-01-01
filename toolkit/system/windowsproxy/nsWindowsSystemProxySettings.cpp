@@ -24,6 +24,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Util
 .
 h
@@ -81,6 +90,7 @@ h
 "
 class
 nsWindowsSystemProxySettings
+MOZ_FINAL
 :
 public
 nsISystemProxySettings
