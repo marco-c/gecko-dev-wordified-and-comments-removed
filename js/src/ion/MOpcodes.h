@@ -309,6 +309,11 @@ NewObject
 \
 _
 (
+NewDeclEnvObject
+)
+\
+_
+(
 NewCallObject
 )
 \

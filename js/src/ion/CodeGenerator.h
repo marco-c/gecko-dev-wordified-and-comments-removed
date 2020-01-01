@@ -541,6 +541,14 @@ ool
 )
 ;
 bool
+visitNewDeclEnvObject
+(
+LNewDeclEnvObject
+*
+lir
+)
+;
+bool
 visitNewCallObject
 (
 LNewCallObject
