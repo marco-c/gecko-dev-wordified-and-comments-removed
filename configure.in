@@ -77502,6 +77502,8 @@ ia32
 x64
 |
 arm
+|
+ppc
 }
 case
 "
@@ -77530,6 +77532,14 @@ x86
 WEBRTC_TARGET_ARCH
 =
 ia32
+;
+;
+ppc
+*
+)
+WEBRTC_TARGET_ARCH
+=
+ppc
 ;
 ;
 *
