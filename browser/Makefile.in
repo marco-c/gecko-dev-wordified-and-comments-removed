@@ -428,6 +428,8 @@ modules
 \
 themes
 \
+extensions
+\
 (
 NULL
 )
