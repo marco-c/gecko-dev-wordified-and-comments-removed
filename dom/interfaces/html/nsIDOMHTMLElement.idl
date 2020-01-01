@@ -389,6 +389,12 @@ attribute
 long
 tabIndex
 ;
+[
+binaryname
+(
+DOMFocus
+)
+]
 void
 focus
 (
