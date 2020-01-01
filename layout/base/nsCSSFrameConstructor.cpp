@@ -39292,6 +39292,15 @@ return
 }
 if
 (
+!
+aParentFrame
+-
+>
+IsGeneratedContentFrame
+(
+)
+&
+&
 iter
 .
 item
