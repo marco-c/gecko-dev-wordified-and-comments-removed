@@ -124,6 +124,12 @@ base
 ProcessHandle
 ProcessHandle
 ;
+static
+ChildPrivileges
+DefaultChildPrivileges
+(
+)
+;
 GeckoChildProcessHost
 (
 GeckoProcessType
