@@ -1846,9 +1846,7 @@ GetEffectProperty
 style
 -
 >
-SingleFilter
-(
-)
+mFilter
 aFrame
 FilterProperty
 (
@@ -2308,9 +2306,7 @@ StyleSVGReset
 )
 -
 >
-SingleFilter
-(
-)
+mFilter
 aFrame
 FilterProperty
 (
@@ -2448,9 +2444,7 @@ StyleSVGReset
 )
 -
 >
-SingleFilter
-(
-)
+mFilter
 )
 return
 nullptr
