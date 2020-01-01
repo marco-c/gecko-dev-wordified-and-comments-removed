@@ -3242,7 +3242,6 @@ mCloneBuffer
 .
 clear
 (
-aCx
 )
 ;
 NS_ENSURE_TRUE
@@ -4818,7 +4817,6 @@ index
 .
 clear
 (
-aCx
 )
 ;
 }
