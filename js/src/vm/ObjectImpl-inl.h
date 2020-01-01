@@ -1076,7 +1076,10 @@ compartment
 )
 ;
 }
-static
+#
+ifdef
+DEBUG
+inline
 bool
 IsValueInCompartment
 (
@@ -1130,6 +1133,8 @@ vcomp
 comp
 ;
 }
+#
+endif
 inline
 void
 js
