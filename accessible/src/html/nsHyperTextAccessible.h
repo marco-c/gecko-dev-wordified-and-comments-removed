@@ -167,6 +167,12 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 NS_HYPERTEXTACCESSIBLE_IMPL_CID
 )
 virtual
+PRInt32
+GetLevelInternal
+(
+)
+;
+virtual
 nsresult
 GetAttributesInternal
 (
