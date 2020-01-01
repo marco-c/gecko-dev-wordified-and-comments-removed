@@ -4803,7 +4803,10 @@ len
 0
 |
 |
+PRUint32
+(
 len
+)
 =
 =
 aCompositionString
@@ -5071,6 +5074,12 @@ widget
 GetClientBounds
 (
 widgetBounds
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 NS_ENSURE_TRUE
