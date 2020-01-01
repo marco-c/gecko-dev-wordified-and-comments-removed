@@ -113,6 +113,13 @@ BEHAVIOR_REJECT
 ;
 static
 const
+int32_t
+BEHAVIOR_LIMITFOREIGN
+=
+3
+;
+static
+const
 char
 kPrefCookieBehavior
 [
@@ -338,7 +345,7 @@ BEHAVIOR_ACCEPT
 val
 <
 =
-BEHAVIOR_REJECT
+BEHAVIOR_LIMITFOREIGN
 ?
 val
 :
@@ -411,6 +418,12 @@ mCookieBehavior
 =
 =
 BEHAVIOR_REJECTFOREIGN
+|
+|
+mCookieBehavior
+=
+=
+BEHAVIOR_LIMITFOREIGN
 |
 |
 mThirdPartySession
