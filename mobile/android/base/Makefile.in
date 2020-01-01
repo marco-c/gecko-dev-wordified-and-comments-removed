@@ -518,6 +518,10 @@ GeckoThread
 .
 java
 \
+GeckoJavaSampler
+.
+java
+\
 GlobalHistory
 .
 java
@@ -9395,6 +9399,14 @@ mozilla
 gecko
 .
 GeckoAppShell
+\
+org
+.
+mozilla
+.
+gecko
+.
+GeckoJavaSampler
 \
 (
 NULL
