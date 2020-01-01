@@ -12,7 +12,8 @@ ANDROID_PACKAGE_NAME
 *
 ;
 /
-/
+*
+*
 This
 patch
 tests
@@ -25,10 +26,13 @@ Settings
 Menu
 and
 the
+*
 default
 values
 for
 them
+*
+/
 public
 class
 testSettingsMenuItems

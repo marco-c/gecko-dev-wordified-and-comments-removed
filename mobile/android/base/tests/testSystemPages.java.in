@@ -34,6 +34,7 @@ Arrays
 ;
 /
 *
+*
 This
 patch
 tests
@@ -46,6 +47,7 @@ loading
 system
 pages
 from
+*
 the
 awesome
 bar
@@ -619,6 +621,8 @@ i
 )
 ;
 }
+else
+{
 /
 /
 Make
@@ -639,8 +643,6 @@ verify
 the
 page
 Url
-else
-{
 waitForPaint
 (
 paintExpecter
