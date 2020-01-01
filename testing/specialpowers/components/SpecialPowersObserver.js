@@ -152,10 +152,6 @@ js
 "
 )
 ;
-this
-.
-SpecialPowersObserver
-=
 function
 SpecialPowersObserver
 (

@@ -70,10 +70,6 @@ message
 ;
 }
 ;
-this
-.
-SpecialPowersObserverAPI
-=
 function
 SpecialPowersObserverAPI
 (
