@@ -358,6 +358,9 @@ eDOMClassInfoIDCount
 class
 nsIClassInfo
 ;
+#
+ifdef
+_IMPL_NS_LAYOUT
 extern
 nsIClassInfo
 *
@@ -423,5 +426,9 @@ NS_ERROR_OUT_OF_MEMORY
 \
 }
 else
+#
+else
+#
+endif
 #
 endif

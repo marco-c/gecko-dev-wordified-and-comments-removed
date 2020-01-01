@@ -719,3 +719,8 @@ xslt
 (
 NULL
 )
+DEFINES
++
+=
+-
+D_IMPL_NS_LAYOUT
