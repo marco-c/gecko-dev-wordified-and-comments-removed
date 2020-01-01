@@ -1093,9 +1093,6 @@ proxy
 >
 OnStopRequest
 (
-nsnull
-nsnull
-NS_BINDING_ABORTED
 PR_TRUE
 )
 ;
@@ -1321,8 +1318,6 @@ proxy
 >
 OnStartRequest
 (
-nsnull
-nsnull
 )
 ;
 if
@@ -1514,12 +1509,6 @@ proxy
 >
 OnStopRequest
 (
-nsnull
-nsnull
-GetResultFromImageStatus
-(
-mImageStatus
-)
 mHadLastPart
 )
 ;
@@ -3333,8 +3322,6 @@ GetNext
 >
 OnStartRequest
 (
-aRequest
-ctxt
 )
 ;
 }
@@ -3877,9 +3864,6 @@ GetNext
 >
 OnStopRequest
 (
-aRequest
-ctxt
-status
 mHadLastPart
 )
 ;
