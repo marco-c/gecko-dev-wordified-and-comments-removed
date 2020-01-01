@@ -74,6 +74,7 @@ events
 =
 filter
 (
+events
 function
 (
 {
@@ -84,6 +85,5 @@ isBrowser
 (
 target
 )
-events
 )
 ;
