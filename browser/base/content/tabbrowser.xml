@@ -4613,6 +4613,9 @@ false
 if
 (
 focusedWindow
+&
+&
+focusedWindow
 .
 top
 =
