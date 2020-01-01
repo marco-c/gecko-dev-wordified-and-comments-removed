@@ -94,16 +94,6 @@ xul
 )
 content
 /
-mozprefs
-.
-js
-(
-mozprefs
-.
-js
-)
-content
-/
 redirect
 .
 html
