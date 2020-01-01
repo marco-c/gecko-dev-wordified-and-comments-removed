@@ -409,10 +409,6 @@ Geolocation
 .
 webidl
 \
-History
-.
-webidl
-\
 HTMLAnchorElement
 .
 webidl
@@ -1866,6 +1862,10 @@ webidl_files
 =
 \
 BluetoothDeviceEvent
+.
+webidl
+\
+BluetoothManager
 .
 webidl
 \

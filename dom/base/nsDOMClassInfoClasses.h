@@ -8,6 +8,10 @@ Location
 )
 DOMCI_CLASS
 (
+History
+)
+DOMCI_CLASS
+(
 DOMPrototype
 )
 DOMCI_CLASS
@@ -313,10 +317,6 @@ endif
 #
 ifdef
 MOZ_B2G_BT
-DOMCI_CLASS
-(
-BluetoothManager
-)
 DOMCI_CLASS
 (
 BluetoothAdapter
