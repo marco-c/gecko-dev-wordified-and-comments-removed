@@ -1927,8 +1927,6 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_QName
 )
-|
-JSCLASS_FIXED_BINDING
 JS_PropertyStub
 JS_PropertyStub
 qname_getProperty
@@ -27076,8 +27074,6 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_XML
 )
-|
-JSCLASS_FIXED_BINDING
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
@@ -37941,9 +37937,7 @@ obj
 js_XMLList_str
 XMLList
 1
-JSPROP_READONLY
-|
-JSPROP_PERMANENT
+0
 )
 ;
 if
