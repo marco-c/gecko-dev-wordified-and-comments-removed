@@ -1562,7 +1562,7 @@ value
 +
 "
 key
-down
+up
 "
 ;
 synthesizeKeyExpectEvent
@@ -1582,17 +1582,7 @@ testname
 testtag_comparetime
 (
 tp
-testid
-+
-"
-"
-+
-value
-+
-"
-key
-up
-"
+testname
 uhour
 uminute
 usecond
