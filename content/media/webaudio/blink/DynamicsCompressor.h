@@ -107,6 +107,16 @@ setNumberOfChannels
 unsigned
 )
 ;
+unsigned
+numberOfChannels
+(
+)
+const
+{
+return
+m_numberOfChannels
+;
+}
 void
 setParameterValue
 (
