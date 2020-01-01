@@ -76,8 +76,13 @@ defined
 XP_UNIX
 )
 #
+ifndef
+ANDROID
+#
 define
 USE_BACKTRACE
+#
+endif
 #
 endif
 #
