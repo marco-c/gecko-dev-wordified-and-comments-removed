@@ -35,15 +35,6 @@ IAccessibleHypertext
 {
 public
 :
-STDMETHODIMP
-QueryInterface
-(
-REFIID
-void
-*
-*
-)
-;
 FORWARD_IACCESSIBLETEXT
 (
 ia2AccessibleText
