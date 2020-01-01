@@ -1906,10 +1906,10 @@ Unknown
 ;
 }
 }
-namespace
-js
-{
 bool
+js
+:
+:
 FoldConstants
 (
 JSContext
@@ -4479,5 +4479,4 @@ PN_NULLARY
 return
 true
 ;
-}
 }

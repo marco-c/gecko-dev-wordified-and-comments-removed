@@ -68,9 +68,6 @@ dn_uses
 #
 undef
 pn_offsetof
-namespace
-js
-{
 void
 ParseNode
 :
@@ -1695,7 +1692,6 @@ NameNode
 pn
 ;
 }
-}
 const
 char
 js_argument_str
@@ -1726,9 +1722,6 @@ js_unknown_str
 unknown
 "
 ;
-namespace
-js
-{
 const
 char
 *
@@ -2417,6 +2410,9 @@ pn
 endif
 ParseNode
 *
+js
+:
+:
 CloneLeftHandSide
 (
 ParseNode
@@ -2896,5 +2892,4 @@ tc
 return
 pn
 ;
-}
 }

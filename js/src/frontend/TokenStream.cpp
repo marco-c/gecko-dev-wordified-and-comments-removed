@@ -286,12 +286,12 @@ undef
 JS_KEYWORD
 }
 ;
-namespace
-js
-{
 const
 KeywordInfo
 *
+js
+:
+:
 FindKeyword
 (
 const
@@ -472,6 +472,9 @@ NULL
 ;
 }
 JSBool
+js
+:
+:
 IsIdentifier
 (
 JSLinearString
@@ -2230,6 +2233,9 @@ warning
 ;
 }
 bool
+js
+:
+:
 ReportStrictModeError
 (
 JSContext
@@ -2363,6 +2369,9 @@ result
 ;
 }
 bool
+js
+:
+:
 ReportCompileErrorNumber
 (
 JSContext
@@ -8586,12 +8595,6 @@ TSF_OPERAND
 )
 &
 &
-!
-isStrictMode
-(
-)
-&
-&
 (
 hasXML
 (
@@ -9943,7 +9946,6 @@ endif
 return
 TOK_ERROR
 ;
-}
 }
 JS_FRIEND_API
 (

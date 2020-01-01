@@ -59,9 +59,6 @@ js
 :
 frontend
 ;
-namespace
-js
-{
 BytecodeCompiler
 :
 :
@@ -2093,5 +2090,4 @@ pn
 =
 NULL
 ;
-}
 }
