@@ -1176,7 +1176,6 @@ e
 this
 PR_TRUE
 PR_TRUE
-1
 )
 ;
 NS_ENSURE_SUCCESS
