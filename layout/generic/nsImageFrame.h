@@ -810,6 +810,8 @@ aImage
 void
 RecalculateTransform
 (
+PRBool
+aInnerAreaChanged
 )
 ;
 PRBool
