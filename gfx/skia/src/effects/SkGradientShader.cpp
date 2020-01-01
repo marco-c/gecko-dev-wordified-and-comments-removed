@@ -10432,6 +10432,12 @@ fDiffRadius
 =
 =
 0
+&
+&
+fCenter1
+=
+=
+fCenter2
 )
 {
 sk_bzero
