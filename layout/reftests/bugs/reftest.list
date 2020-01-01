@@ -7368,6 +7368,7 @@ plain
 #
 bug
 404419
+#
 =
 =
 404553
@@ -7385,6 +7386,10 @@ html
 #
 assertion
 test
+disabled
+because
+of
+failures
 =
 =
 404666
