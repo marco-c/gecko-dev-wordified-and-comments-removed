@@ -395,6 +395,10 @@ HTMLModElement
 .
 webidl
 \
+HTMLObjectElement
+.
+webidl
+\
 HTMLOListElement
 .
 webidl
