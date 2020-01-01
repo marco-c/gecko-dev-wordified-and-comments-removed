@@ -744,6 +744,14 @@ PRBool
 aConsiderCurrentDocument
 )
 ;
+PRBool
+ShouldCheckAppCache
+(
+nsIURI
+*
+aURI
+)
+;
 virtual
 nsresult
 DoURILoad
