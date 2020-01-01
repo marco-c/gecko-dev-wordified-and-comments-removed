@@ -8502,7 +8502,7 @@ rv
 ccm
 -
 >
-GetUnicodeDecoderRawInternal
+GetUnicodeDecoderRaw
 (
 csName
 getter_AddRefs
