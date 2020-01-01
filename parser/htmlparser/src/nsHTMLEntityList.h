@@ -1066,12 +1066,12 @@ rfloor
 HTML_ENTITY
 (
 lang
-9001
+0x27E8
 )
 HTML_ENTITY
 (
 rang
-9002
+0x27E9
 )
 HTML_ENTITY
 (
