@@ -9994,6 +9994,13 @@ cameraCallbackBridge
 data
 )
 ;
+if
+(
+sCamera
+!
+=
+null
+)
 sCamera
 .
 addCallbackBuffer
