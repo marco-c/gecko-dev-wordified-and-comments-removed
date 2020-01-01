@@ -3917,7 +3917,7 @@ fopen
 (
 path
 "
-r
+rb
 "
 )
 ;
