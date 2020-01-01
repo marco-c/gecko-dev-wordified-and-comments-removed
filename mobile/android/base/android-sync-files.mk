@@ -5723,13 +5723,6 @@ res
 /
 layout
 /
-sync_custom_popup
-.
-xml
-res
-/
-layout
-/
 sync_list_item
 .
 xml

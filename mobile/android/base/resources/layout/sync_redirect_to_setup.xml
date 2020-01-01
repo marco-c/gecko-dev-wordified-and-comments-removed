@@ -95,7 +95,7 @@ text
 "
 string
 /
-sync_title_redirect_to_setup
+sync_title_redirect_to_set_up_sync
 "
 /
 >
@@ -145,7 +145,7 @@ text
 "
 string
 /
-sync_text_redirect_to_setup
+sync_text_redirect_to_set_up_sync
 "
 /
 >
@@ -212,7 +212,7 @@ text
 "
 string
 /
-sync_button_setup
+sync_button_set_up_sync
 "
 /
 >
