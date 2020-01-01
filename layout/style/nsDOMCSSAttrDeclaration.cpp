@@ -105,6 +105,13 @@ xpcpublic
 .
 h
 "
+#
+include
+"
+nsWrapperCacheInlines
+.
+h
+"
 namespace
 css
 =

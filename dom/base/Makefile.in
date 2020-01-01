@@ -251,6 +251,10 @@ nsWrapperCache
 .
 h
 \
+nsWrapperCacheInlines
+.
+h
+\
 nsContentPermissionHelper
 .
 h
