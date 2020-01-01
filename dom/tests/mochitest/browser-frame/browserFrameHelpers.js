@@ -693,6 +693,16 @@ true
 )
 ;
 }
+else
+{
+browserFrameHelpers
+.
+setOOPDisabledPref
+(
+false
+)
+;
+}
 addEventListener
 (
 '
