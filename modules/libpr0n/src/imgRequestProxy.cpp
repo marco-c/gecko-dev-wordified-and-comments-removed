@@ -935,10 +935,7 @@ NS_ERROR_FAILURE
 *
 aMimeType
 =
-nsCRT
-:
-:
-strdup
+NS_strdup
 (
 type
 )
