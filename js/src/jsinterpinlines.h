@@ -643,7 +643,7 @@ inline
 bool
 PRIMITIVE
 (
-call_NewIntValue
+call_NewIntInRootedValue
 )
 (
 JSContext

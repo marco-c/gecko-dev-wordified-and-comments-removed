@@ -1258,7 +1258,7 @@ i
 static
 inline
 bool
-call_NewIntValue
+call_NewIntInRootedValue
 (
 JSContext
 *
@@ -1286,7 +1286,7 @@ v
 )
 ;
 return
-interp_call_NewIntValue
+interp_call_NewIntInRootedValue
 (
 cx
 i
