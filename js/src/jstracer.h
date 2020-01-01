@@ -486,6 +486,14 @@ const
 void
 import
 (
+nanojit
+:
+:
+LIns
+*
+base
+unsigned
+slot
 jsval
 *
 p
