@@ -5953,6 +5953,10 @@ offset
 VMSideExit
 *
 exit
+bool
+force_double
+=
+false
 )
 ;
 JS_REQUIRES_STACK
