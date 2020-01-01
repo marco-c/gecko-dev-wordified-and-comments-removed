@@ -161,6 +161,14 @@ browser_privatebrowsing_popupblocker
 .
 js
 \
+browser_privatebrowsing_protocolhandler
+.
+js
+\
+browser_privatebrowsing_protocolhandler_page
+.
+html
+\
 browser_privatebrowsing_theming
 .
 js
