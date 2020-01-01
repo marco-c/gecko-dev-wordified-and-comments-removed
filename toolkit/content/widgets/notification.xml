@@ -131,6 +131,13 @@ hidden
 =
 notificationshidden
 "
+class
+=
+"
+notificationbox
+-
+stack
+"
 >
 <
 xul
