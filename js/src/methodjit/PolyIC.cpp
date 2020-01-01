@@ -12394,7 +12394,7 @@ id
 if
 (
 !
-js_OnUnknownMethod
+OnUnknownMethod
 (
 cx
 regs
@@ -17133,7 +17133,7 @@ thisObj
 if
 (
 !
-js_OnUnknownMethod
+OnUnknownMethod
 (
 cx
 f
