@@ -68,10 +68,6 @@ nsStyleContext
 const
 mStyleContext
 ;
-const
-nsPostResolveFunc
-mPostResolveCallback
-;
 nsCSSValue
 *
 const

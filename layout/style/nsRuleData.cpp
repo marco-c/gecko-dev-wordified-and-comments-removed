@@ -165,10 +165,6 @@ mStyleContext
 (
 aStyleContext
 )
-mPostResolveCallback
-(
-nullptr
-)
 mValueStorage
 (
 aValueStorage
