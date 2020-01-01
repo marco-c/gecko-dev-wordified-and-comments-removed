@@ -4928,6 +4928,12 @@ blur
 (
 )
 ;
+aEvent
+.
+stopPropagation
+(
+)
+;
 }
 else
 if
