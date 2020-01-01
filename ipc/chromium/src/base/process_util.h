@@ -831,12 +831,6 @@ GetPagefileUsage
 )
 const
 ;
-size_t
-GetPeakPagefileUsage
-(
-)
-const
-;
 int
 GetCPUUsage
 (
