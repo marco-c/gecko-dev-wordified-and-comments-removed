@@ -2815,7 +2815,7 @@ aIndex
 {
 nsCOMPtr
 <
-Element
+nsINode
 >
 option
 =
@@ -2831,6 +2831,11 @@ mOptions
 GetOptionIndex
 (
 option
+-
+>
+AsElement
+(
+)
 aStartIndex
 aForward
 aIndex

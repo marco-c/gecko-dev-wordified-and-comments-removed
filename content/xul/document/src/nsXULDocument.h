@@ -1253,7 +1253,7 @@ nsXULDocument
 *
 mDocument
 ;
-nsCOMPtr
+nsRefPtr
 <
 mozilla
 :

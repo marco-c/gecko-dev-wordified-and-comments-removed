@@ -9801,7 +9801,7 @@ rv
 return
 rv
 ;
-nsCOMPtr
+nsRefPtr
 <
 Element
 >
@@ -11622,7 +11622,7 @@ nsXULPrototypeElement
 childproto
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 Element
 >
@@ -14462,7 +14462,7 @@ get
 }
 #
 endif
-nsCOMPtr
+nsRefPtr
 <
 Element
 >
@@ -14698,7 +14698,7 @@ aResult
 nsresult
 rv
 ;
-nsCOMPtr
+nsRefPtr
 <
 Element
 >

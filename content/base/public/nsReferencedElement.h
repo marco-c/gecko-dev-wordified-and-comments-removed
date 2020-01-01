@@ -376,13 +376,13 @@ nsnull
 }
 protected
 :
-nsCOMPtr
+nsRefPtr
 <
 Element
 >
 mFrom
 ;
-nsCOMPtr
+nsRefPtr
 <
 Element
 >
@@ -479,7 +479,7 @@ nsIDocument
 >
 mWatchDocument
 ;
-nsCOMPtr
+nsRefPtr
 <
 Element
 >
