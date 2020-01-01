@@ -15733,6 +15733,10 @@ body
 CDATA
 [
 return
+Array
+.
+filter
+(
 document
 .
 getBindingParent
@@ -15741,6 +15745,11 @@ this
 )
 .
 childNodes
+this
+.
+_canScrollToElement
+this
+)
 ;
 ]
 ]
