@@ -118,7 +118,7 @@ public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSIIDBOBJECTSTORE
-NS_DECL_CYCLE_COLLECTION_CLASS
+NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 IDBObjectStore
 )
@@ -732,6 +732,15 @@ mName
 ;
 KeyPath
 mKeyPath
+;
+JS
+:
+:
+Value
+mCachedKeyPath
+;
+bool
+mRooted
 ;
 bool
 mAutoIncrement
