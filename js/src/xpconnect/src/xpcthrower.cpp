@@ -1096,7 +1096,7 @@ e
 {
 nsCOMPtr
 <
-nsXPCException
+nsIXPCException
 >
 xpcEx
 ;
@@ -1126,13 +1126,16 @@ e
 )
 &
 &
+NS_SUCCEEDED
+(
 xpcEx
 -
 >
-StealThrownJSVal
+StealJSVal
 (
 &
 thrown
+)
 )
 )
 {

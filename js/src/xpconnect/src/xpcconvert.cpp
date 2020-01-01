@@ -6419,7 +6419,7 @@ exceptn
 {
 nsCOMPtr
 <
-nsXPCException
+nsIXPCException
 >
 xpcEx
 =
@@ -6436,7 +6436,7 @@ xpcEx
 xpcEx
 -
 >
-StowThrownJSVal
+StowJSVal
 (
 cx
 *
