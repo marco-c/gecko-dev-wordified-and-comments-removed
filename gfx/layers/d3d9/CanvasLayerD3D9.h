@@ -66,6 +66,10 @@ mNeedsYFlip
 (
 PR_FALSE
 )
+mHasAlpha
+(
+PR_TRUE
+)
 {
 mImplData
 =
@@ -187,6 +191,9 @@ mDataIsPremultiplied
 ;
 PRPackedBool
 mNeedsYFlip
+;
+PRPackedBool
+mHasAlpha
 ;
 }
 ;
