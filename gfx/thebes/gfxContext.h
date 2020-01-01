@@ -90,6 +90,9 @@ struct
 _cairo
 cairo_t
 ;
+struct
+GlyphBufferAzure
+;
 template
 <
 typename
@@ -1095,6 +1098,10 @@ private
 friend
 class
 GeneralPattern
+;
+friend
+class
+GlyphBufferAzure
 ;
 typedef
 mozilla
