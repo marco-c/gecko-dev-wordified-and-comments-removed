@@ -7576,6 +7576,10 @@ MarkActive
 (
 )
 {
+mScrollingActive
+=
+true
+;
 if
 (
 IsAlwaysActive
@@ -7583,10 +7587,6 @@ IsAlwaysActive
 )
 )
 return
-;
-mScrollingActive
-=
-true
 ;
 if
 (
