@@ -242,13 +242,6 @@ JavaScript
 global
 -
 constructor
--
-maybe
-dom
-.
-mozContacts
-.
-enabled
 mozContact
 mozilla
 .
@@ -297,13 +290,6 @@ JavaScript
 navigator
 -
 property
--
-maybe
-dom
-.
-mozContacts
-.
-enabled
 mozContacts
 mozilla
 .
