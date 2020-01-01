@@ -752,7 +752,7 @@ ancestor
 "
 )
 ;
-nsISVGTextContentMetrics
+nsSVGTextContainerFrame
 *
 metrics
 =
@@ -4441,10 +4441,7 @@ return
 PR_FALSE
 ;
 }
-NS_IMETHODIMP_
-(
 PRUint32
-)
 nsSVGGlyphFrame
 :
 :
@@ -4485,10 +4482,7 @@ Length
 )
 ;
 }
-NS_IMETHODIMP_
-(
 float
-)
 nsSVGGlyphFrame
 :
 :
@@ -4503,10 +4497,7 @@ PR_FALSE
 )
 ;
 }
-NS_IMETHODIMP_
-(
 float
-)
 nsSVGGlyphFrame
 :
 :
@@ -4561,10 +4552,7 @@ advanceAppUnits
 metricsScale
 ;
 }
-NS_IMETHODIMP_
-(
 PRInt32
-)
 nsSVGGlyphFrame
 :
 :

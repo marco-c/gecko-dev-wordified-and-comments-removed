@@ -184,7 +184,6 @@ nsISVGChildFrame_id
 nsISVGGlyphFragmentLeaf_id
 nsISVGGlyphFragmentNode_id
 nsISVGSVGFrame_id
-nsISVGTextContentMetrics_id
 nsIScrollableFrame_id
 nsIScrollableViewProvider_id
 nsIScrollbarFrame_id
