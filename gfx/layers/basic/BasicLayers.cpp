@@ -12462,6 +12462,7 @@ aAttrs
 ImageLayerAttributes
 (
 mFilter
+mForceSingleTile
 )
 ;
 }

@@ -2852,6 +2852,14 @@ MaskLayerUserData
 )
 )
 ;
+result
+-
+>
+SetForceSingleTile
+(
+true
+)
+;
 }
 return
 result

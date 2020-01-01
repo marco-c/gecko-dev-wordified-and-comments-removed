@@ -3746,6 +3746,17 @@ GetContentType
 (
 )
 LOCAL_GL_CLAMP_TO_EDGE
+mForceSingleTile
+?
+TextureImage
+:
+:
+ForceSingleTile
+:
+TextureImage
+:
+:
+NoFlags
 )
 ;
 return
