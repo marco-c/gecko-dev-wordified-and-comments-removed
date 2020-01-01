@@ -184,6 +184,15 @@ shouldNotify
 (
 )
 )
+{
+nsCOMPtr
+<
+mozIStorageStatementCallback
+>
+callback
+=
+mCallback
+;
 (
 void
 )
@@ -195,6 +204,7 @@ HandleResult
 mResults
 )
 ;
+}
 return
 NS_OK
 ;
@@ -271,6 +281,15 @@ shouldNotify
 &
 mCallback
 )
+{
+nsCOMPtr
+<
+mozIStorageStatementCallback
+>
+callback
+=
+mCallback
+;
 (
 void
 )
@@ -282,6 +301,7 @@ HandleError
 mErrorObj
 )
 ;
+}
 return
 NS_OK
 ;
