@@ -3725,6 +3725,13 @@ enabled
 title
 ;
 "
+id
+=
+"
+plugins
+.
+enabled
+"
 onsynctopreference
 =
 "
