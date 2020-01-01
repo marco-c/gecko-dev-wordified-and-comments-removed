@@ -1320,6 +1320,10 @@ jsotypes
 .
 h
 \
+jsstddef
+.
+h
+\
 prmjtime
 .
 h
@@ -1351,6 +1355,15 @@ tbl
 (
 NULL
 )
+ifdef
+ENABLE_JIT
+OTHER_HFILES
++
+=
+builtins
+.
+tbl
+endif
 ifndef
 PREBUILT_CPUCFG
 OTHER_HFILES

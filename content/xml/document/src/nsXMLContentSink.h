@@ -151,7 +151,7 @@ nsContentSink
 )
 NS_DECL_NSIEXPATSINK
 NS_IMETHOD
-WillTokenize
+WillParse
 (
 void
 )
@@ -242,7 +242,7 @@ aStatus
 )
 ;
 static
-void
+PRBool
 ParsePIData
 (
 const
@@ -376,6 +376,10 @@ virtual
 nsresult
 FlushText
 (
+PRBool
+aReleaseTextNode
+=
+PR_TRUE
 )
 ;
 nsresult
@@ -417,7 +421,7 @@ HaveNotifiedForCurrentContent
 )
 const
 ;
-nsresult
+void
 ProcessBASETag
 (
 nsIContent
@@ -577,6 +581,15 @@ mTextSize
 ;
 PRInt32
 mNotifyLevel
+;
+nsCOMPtr
+<
+nsIContent
+>
+mLastTextNode
+;
+PRInt32
+mLastTextNodeSize
 ;
 PRUint8
 mConstrainSize
