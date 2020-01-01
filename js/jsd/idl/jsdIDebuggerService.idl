@@ -537,12 +537,6 @@ JSContext
 JSContext
 )
 ;
-native
-jsval
-(
-jsval
-)
-;
 /
 *
 interfaces

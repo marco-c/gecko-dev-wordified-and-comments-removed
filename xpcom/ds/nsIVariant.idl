@@ -811,12 +811,6 @@ h
 "
 %
 }
-native
-jsval
-(
-jsval
-)
-;
 /
 *
 *

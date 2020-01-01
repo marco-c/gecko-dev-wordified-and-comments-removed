@@ -998,6 +998,12 @@ AStringPtr
 ignored
 )
 ;
+native
+jsval
+(
+jsval
+)
+;
 %
 {
 C

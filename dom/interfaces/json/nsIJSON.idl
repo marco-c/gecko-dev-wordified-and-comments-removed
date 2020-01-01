@@ -459,12 +459,6 @@ h
 "
 %
 }
-native
-jsval
-(
-jsval
-)
-;
 [
 ptr
 ]

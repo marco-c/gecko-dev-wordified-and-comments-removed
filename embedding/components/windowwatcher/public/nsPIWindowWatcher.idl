@@ -485,15 +485,6 @@ h
 %
 }
 [
-ptr
-]
-native
-jsvalptr
-(
-jsval
-)
-;
-[
 uuid
 (
 8624594a
