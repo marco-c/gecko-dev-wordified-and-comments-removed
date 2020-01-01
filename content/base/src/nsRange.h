@@ -126,8 +126,6 @@ nsRange
 public
 nsIRange
 public
-nsIDOMRange
-public
 nsIDOMNSRange
 public
 nsStubMutationObserver
@@ -298,7 +296,7 @@ frag
 nsresult
 DoCloneRange
 (
-nsRange
+nsIRange
 *
 *
 aNewRange
