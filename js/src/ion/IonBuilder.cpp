@@ -14621,6 +14621,14 @@ false
 ;
 if
 (
+targetScript
+-
+>
+length
+>
+1
+&
+&
 calleeUses
 *
 js_IonOptions
