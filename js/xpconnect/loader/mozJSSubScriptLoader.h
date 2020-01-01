@@ -114,10 +114,16 @@ serv
 nsIPrincipal
 *
 principal
+bool
+reuseGlobal
 JSScript
 *
 *
 scriptp
+JSFunction
+*
+*
+functionp
 )
 ;
 nsCOMPtr
