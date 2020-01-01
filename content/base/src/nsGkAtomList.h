@@ -3804,6 +3804,17 @@ opaque
 )
 GK_ATOM
 (
+x_moz_errormessage
+"
+x
+-
+moz
+-
+errormessage
+"
+)
+GK_ATOM
+(
 msthemecompatible
 "
 msthemecompatible
