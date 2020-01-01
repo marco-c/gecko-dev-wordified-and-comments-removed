@@ -418,7 +418,13 @@ xul
 PARALLEL_DIRS
 =
 src
+ifdef
+ENABLE_TESTS
+PARALLEL_DIRS
++
+=
 test
+endif
 include
 (
 topsrcdir
