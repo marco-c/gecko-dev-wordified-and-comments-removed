@@ -1144,7 +1144,7 @@ shadowTransform
 aLayer
 -
 >
-GetTransform
+GetBaseTransform
 (
 )
 ;
@@ -2920,7 +2920,7 @@ aBuilder
 layer
 -
 >
-SetTransform
+SetBaseTransform
 (
 gfx3DMatrix
 :

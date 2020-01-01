@@ -2365,7 +2365,7 @@ SetShadowTransform
 aLayer
 -
 >
-GetTransform
+GetBaseTransform
 (
 )
 )
@@ -3404,7 +3404,7 @@ currentTransform
 layer
 -
 >
-GetTransform
+GetBaseTransform
 (
 )
 ;
