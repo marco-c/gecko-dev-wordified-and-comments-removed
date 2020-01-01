@@ -2336,6 +2336,15 @@ NULL
 }
 #
 endif
+#
+ifdef
+WINCE
+_MD_CleanupTime
+(
+)
+;
+#
+endif
 }
 #
 if
