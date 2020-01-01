@@ -496,6 +496,10 @@ browser_tabview_undo_group
 .
 js
 \
+browser_tabview_firstrun_pref
+.
+js
+\
 (
 NULL
 )
