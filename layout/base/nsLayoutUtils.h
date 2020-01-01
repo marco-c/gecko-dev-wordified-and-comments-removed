@@ -2973,6 +2973,12 @@ AreTransformAnimationsEnabled
 ;
 static
 bool
+AreAsyncAnimationsEnabled
+(
+)
+;
+static
+bool
 IsAnimationLoggingEnabled
 (
 )

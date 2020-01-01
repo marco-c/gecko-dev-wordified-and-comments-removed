@@ -16488,10 +16488,10 @@ aFlush
 mFlushAnimations
 &
 &
-CommonAnimationManager
+nsLayoutUtils
 :
 :
-ThrottlingEnabled
+AreAsyncAnimationsEnabled
 (
 )
 &

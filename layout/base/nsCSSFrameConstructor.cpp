@@ -48407,13 +48407,10 @@ true
 ;
 if
 (
-css
+nsLayoutUtils
 :
 :
-CommonAnimationManager
-:
-:
-ThrottlingEnabled
+AreAsyncAnimationsEnabled
 (
 )
 &

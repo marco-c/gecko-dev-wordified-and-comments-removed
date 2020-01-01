@@ -214,12 +214,6 @@ Value
 aComputedValue
 )
 ;
-static
-bool
-ThrottlingEnabled
-(
-)
-;
 protected
 :
 friend
