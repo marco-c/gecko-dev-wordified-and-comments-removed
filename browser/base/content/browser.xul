@@ -10829,6 +10829,17 @@ true
 "
 >
 <
+notificationbox
+id
+=
+"
+global
+-
+notificationbox
+"
+/
+>
+<
 toolbar
 id
 =
