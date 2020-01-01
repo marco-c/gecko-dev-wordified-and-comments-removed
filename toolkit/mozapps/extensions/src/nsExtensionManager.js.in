@@ -15258,6 +15258,7 @@ the
 right
 state
 .
+var
 id
 =
 stripPrefix
