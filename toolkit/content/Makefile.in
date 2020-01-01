@@ -450,6 +450,10 @@ PrivateBrowsingUtils
 .
 jsm
 \
+Task
+.
+jsm
+\
 (
 NULL
 )
