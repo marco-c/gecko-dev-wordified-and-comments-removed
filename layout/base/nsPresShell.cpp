@@ -29888,10 +29888,6 @@ n
 }
 #
 endif
-WillDoReflow
-(
-)
-;
 const
 PRIntervalTime
 deadline
@@ -29915,6 +29911,10 @@ PRIntervalTime
 {
 nsAutoScriptBlocker
 scriptBlocker
+;
+WillDoReflow
+(
+)
 ;
 AUTO_LAYOUT_PHASE_ENTRY_POINT
 (
