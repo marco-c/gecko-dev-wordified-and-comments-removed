@@ -690,6 +690,11 @@ ZIPWRITER_MODULE
 \
 MODULE
 (
+StartupCacheModule
+)
+\
+MODULE
+(
 nsPrefModule
 )
 \
