@@ -13667,6 +13667,8 @@ nsStyleBackground
 Layer
 &
 aLayer
+uint32_t
+aFlags
 )
 {
 nsBackgroundLayerState
@@ -13676,7 +13678,7 @@ PrepareBackgroundLayer
 (
 aPresContext
 aForFrame
-0
+aFlags
 aBorderArea
 aClipRect
 aBackground

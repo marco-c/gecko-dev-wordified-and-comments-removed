@@ -5805,6 +5805,9 @@ aDestRect
 nsRect
 GetBoundsInternal
 (
+nsDisplayListBuilder
+*
+aBuilder
 )
 ;
 void

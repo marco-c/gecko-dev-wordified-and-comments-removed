@@ -884,6 +884,8 @@ nsStyleBackground
 Layer
 &
 aLayer
+uint32_t
+aFlags
 )
 ;
 static

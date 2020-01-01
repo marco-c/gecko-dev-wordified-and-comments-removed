@@ -9357,6 +9357,7 @@ mBounds
 =
 GetBoundsInternal
 (
+aBuilder
 )
 ;
 }
@@ -12185,6 +12186,9 @@ nsDisplayBackgroundImage
 :
 GetBoundsInternal
 (
+nsDisplayListBuilder
+*
+aBuilder
 )
 {
 nsPresContext
@@ -12384,6 +12388,12 @@ clipRect
 *
 mBackgroundStyle
 layer
+aBuilder
+-
+>
+GetBackgroundPaintFlags
+(
+)
 )
 ;
 }
