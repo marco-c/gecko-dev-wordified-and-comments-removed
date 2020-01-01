@@ -289,6 +289,12 @@ setAdapter
 adapter
 )
 ;
+setCurrentItem
+(
+1
+false
+)
+;
 setVisibility
 (
 VISIBLE
