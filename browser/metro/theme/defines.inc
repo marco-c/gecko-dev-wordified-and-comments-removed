@@ -86,6 +86,10 @@ tabs_height
 178px
 %
 define
+findbar_height
+54px
+%
+define
 progress_height
 5px
 %
