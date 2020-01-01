@@ -5641,6 +5641,11 @@ false
 document
 .
 documentURIObject
+this
+.
+target
+.
+ownerDocument
 )
 ;
 }
@@ -6786,6 +6791,7 @@ false
 doc
 .
 documentURIObject
+doc
 )
 ;
 }
@@ -6821,6 +6827,7 @@ false
 doc
 .
 documentURIObject
+doc
 )
 ;
 }

@@ -416,7 +416,7 @@ org
 /
 image
 /
-cache
+tools
 ;
 1
 "
@@ -426,7 +426,12 @@ getService
 (
 Ci
 .
-imgICache
+imgITools
+)
+.
+getImgCacheForDocument
+(
+null
 )
 ;
 try
