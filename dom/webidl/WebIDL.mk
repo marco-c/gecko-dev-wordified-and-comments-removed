@@ -1509,6 +1509,10 @@ Window
 .
 webidl
 \
+WorkerNavigator
+.
+webidl
+\
 XMLDocument
 .
 webidl

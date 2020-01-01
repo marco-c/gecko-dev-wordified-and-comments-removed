@@ -170,6 +170,11 @@ FileReaderSync
 h
 '
 '
+Navigator
+.
+h
+'
+'
 TextDecoder
 .
 h
