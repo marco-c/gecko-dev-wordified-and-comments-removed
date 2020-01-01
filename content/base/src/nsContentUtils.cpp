@@ -748,6 +748,13 @@ h
 #
 include
 "
+nsINode
+.
+h
+"
+#
+include
+"
 nsINodeInfo
 .
 h
