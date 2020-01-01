@@ -397,7 +397,9 @@ left
 right
 )
 {
+const
 nsFrameList
+&
 frames
 (
 mFrame
@@ -408,7 +410,7 @@ GetParent
 )
 -
 >
-GetFirstChild
+GetChildList
 (
 nsnull
 )

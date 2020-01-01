@@ -1010,13 +1010,15 @@ block
 "
 )
 ;
+const
 nsFrameList
+&
 blockChildren
 (
 ancestor
 -
 >
-GetFirstChild
+GetChildList
 (
 nsnull
 )

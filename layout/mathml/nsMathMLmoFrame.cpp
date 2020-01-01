@@ -1169,13 +1169,15 @@ mFlags
 ~
 NS_MATHML_OPERATOR_EMBELLISH_ANCESTOR
 ;
+const
 nsFrameList
+&
 frameList
 (
 parentAncestor
 -
 >
-GetFirstChild
+GetChildList
 (
 nsnull
 )

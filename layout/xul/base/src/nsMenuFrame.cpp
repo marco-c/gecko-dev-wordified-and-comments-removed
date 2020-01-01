@@ -1426,7 +1426,11 @@ aListName
 )
 {
 return
+nsFrameList
+(
 mPopupFrame
+mPopupFrame
+)
 ;
 }
 return

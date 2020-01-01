@@ -5477,7 +5477,7 @@ else
 SetOverflowFrames
 (
 aPresContext
-aFromChild
+tail
 )
 ;
 }

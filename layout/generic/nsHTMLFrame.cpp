@@ -2983,7 +2983,11 @@ rv
 SetOverflowFrames
 (
 aPresContext
+nsFrameList
+(
 nextFrame
+nextFrame
+)
 )
 ;
 }

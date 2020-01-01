@@ -4685,6 +4685,7 @@ nsFrameList
 textList
 (
 mTextFrame
+mTextFrame
 )
 ;
 mDisplayFrame
