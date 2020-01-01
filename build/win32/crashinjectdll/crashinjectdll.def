@@ -1,0 +1,4 @@
+LIBRARY
+crashinjectdll
+EXPORTS
+DllMain

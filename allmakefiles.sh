@@ -514,6 +514,13 @@ build
 win32
 /
 Makefile
+build
+/
+win32
+/
+crashinjectdll
+/
+Makefile
 config
 /
 Makefile
