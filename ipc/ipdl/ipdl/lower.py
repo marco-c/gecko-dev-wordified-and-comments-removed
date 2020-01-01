@@ -1414,6 +1414,12 @@ _ipdl
 =
 None
                 
+ct
+.
+_side
+=
+None
+                
 cxxtypes
 .
 append
@@ -1477,6 +1483,12 @@ ActorHandle
 t
 .
 _ipdl
+=
+None
+;
+t
+.
+_side
 =
 None
         
@@ -1740,11 +1752,64 @@ _tag
 =
 enumv
             
+cxxtstorage
+=
+cxx
+.
+TypeArray
+(
+cxx
+.
+Type
+(
+'
+char
+'
+)
+                                        
+cxx
+.
+ExprSizeof
+(
+cxxt
+)
+)
+            
+cxxtstorage
+.
+_realtype
+=
+cxxt
+            
+cxxtstorage
+.
+_tag
+=
+cxxt
+.
+_tag
+            
+cxxtstorage
+.
+_ipdl
+=
+cxxt
+.
+_ipdl
+            
+cxxtstorage
+.
+_side
+=
+cxxt
+.
+_side
+            
 union
 .
 addComponent
 (
-cxxt
+cxxtstorage
 unionname
 )
             
@@ -13422,6 +13487,8 @@ cxx
 Decl
 (
 t
+.
+_realtype
 '
 __ua
 '
@@ -14672,6 +14739,9 @@ cxx
 Decl
 (
 t
+.
+_realtype
+                                                                 
 '
 __ua
 '
@@ -14730,6 +14800,8 @@ actorid
 )
                             
 t
+.
+_realtype
                             
 static
 =
@@ -16040,6 +16112,9 @@ cxx
 Decl
 (
 t
+.
+_realtype
+                                                             
 '
 __ua
 '
@@ -16079,6 +16154,8 @@ uavar
 actortype
 =
 t
+.
+_realtype
                             
 failcode
 =
@@ -17450,6 +17527,9 @@ cxx
 Decl
 (
 t
+.
+_realtype
+                                                             
 '
 __ua
 '
