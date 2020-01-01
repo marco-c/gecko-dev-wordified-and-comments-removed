@@ -919,10 +919,6 @@ jspropertytree
 .
 cpp
 \
-jsreflect
-.
-cpp
-\
 jsregexp
 .
 cpp
@@ -1162,10 +1158,6 @@ jsprvtd
 h
 \
 jspubtd
-.
-h
-\
-jsreflect
 .
 h
 \
@@ -2939,9 +2931,6 @@ jsfun
 .
 o
 jsinterp
-.
-o
-jsreflect
 .
 o
 jsregexp
