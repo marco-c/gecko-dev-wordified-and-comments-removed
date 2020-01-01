@@ -861,6 +861,10 @@ scale
 =
 Math
 .
+min
+(
+Math
+.
 max
 (
 thumbnailWidth
@@ -869,6 +873,8 @@ sw
 thumbnailHeight
 /
 sh
+)
+1
 )
 ;
 let
