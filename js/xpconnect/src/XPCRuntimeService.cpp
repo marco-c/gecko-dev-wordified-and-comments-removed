@@ -199,7 +199,7 @@ cx
 idArg
 )
 ;
-JSBool
+bool
 resolved
 ;
 *

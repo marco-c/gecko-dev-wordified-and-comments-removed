@@ -26328,7 +26328,7 @@ toString
 (
 )
 ;
-JSBool
+bool
 match
 ;
 if

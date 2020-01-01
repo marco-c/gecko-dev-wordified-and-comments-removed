@@ -1072,7 +1072,7 @@ name
 cs
 )
 {
-JSBool
+bool
 ok
 =
 JS_DefineProperty
@@ -1821,7 +1821,7 @@ JSObject
 constructor
 )
 {
-JSBool
+bool
 alreadyDefined
 ;
 if
@@ -3381,7 +3381,7 @@ domClass
 mParticipant
 ;
 }
-JSBool
+bool
 InstanceClassHasProtoAtDepth
 (
 JS
@@ -6911,7 +6911,7 @@ return
 true
 ;
 }
-JSBool
+bool
 hasProp
 ;
 if
@@ -9198,7 +9198,7 @@ ac
 )
 ;
 }
-JSBool
+bool
 InterfaceHasInstance
 (
 JSContext
@@ -9222,7 +9222,7 @@ JSObject
 *
 >
 instance
-JSBool
+bool
 *
 bp
 )
@@ -9582,7 +9582,7 @@ return
 true
 ;
 }
-JSBool
+bool
 InterfaceHasInstance
 (
 JSContext
@@ -9608,7 +9608,7 @@ JS
 Value
 >
 vp
-JSBool
+bool
 *
 bp
 )
@@ -9661,7 +9661,7 @@ bp
 )
 ;
 }
-JSBool
+bool
 InterfaceHasInstance
 (
 JSContext
@@ -9680,7 +9680,7 @@ JSObject
 *
 >
 instance
-JSBool
+bool
 *
 bp
 )

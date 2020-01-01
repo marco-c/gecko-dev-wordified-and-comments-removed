@@ -1732,7 +1732,7 @@ ifdef
 DEBUG
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 js_DisassembleAtPC
 (
@@ -1742,7 +1742,7 @@ cx
 JSScript
 *
 scriptArg
-JSBool
+bool
 lines
 jsbytecode
 *
@@ -2231,7 +2231,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js_Disassemble
 (
 JSContext
@@ -2239,7 +2239,7 @@ JSContext
 cx
 HandleScript
 script
-JSBool
+bool
 lines
 Sprinter
 *
@@ -2260,7 +2260,7 @@ sp
 }
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 js_DumpPC
 (
@@ -2316,7 +2316,7 @@ script
 )
 )
 ;
-JSBool
+bool
 ok
 =
 js_DisassembleAtPC
@@ -2354,7 +2354,7 @@ ok
 }
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 js_DumpScript
 (
@@ -2403,7 +2403,7 @@ cx
 scriptArg
 )
 ;
-JSBool
+bool
 ok
 =
 js_Disassemble
@@ -2435,7 +2435,7 @@ ok
 }
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 js_DumpScriptDepth
 (
@@ -2487,7 +2487,7 @@ cx
 scriptArg
 )
 ;
-JSBool
+bool
 ok
 =
 js_DisassembleAtPC
@@ -3078,7 +3078,7 @@ jsbytecode
 pc
 unsigned
 loc
-JSBool
+bool
 lines
 Sprinter
 *
@@ -5276,7 +5276,7 @@ uint32_t
 quote
 )
 {
-JSBool
+bool
 dontEscape
 =
 (

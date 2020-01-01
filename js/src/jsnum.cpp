@@ -8838,7 +8838,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js_strtod
 (
 ThreadSafeContext
@@ -8879,7 +8879,7 @@ istr
 *
 estr
 ;
-JSBool
+bool
 negative
 ;
 double

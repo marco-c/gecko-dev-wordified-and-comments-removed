@@ -630,7 +630,7 @@ printTiming
 false
 ;
 static
-JSBool
+bool
 SetTimeoutValue
 (
 JSContext
@@ -1542,7 +1542,7 @@ data
 ;
 }
 static
-JSBool
+bool
 ShellOperationCallback
 (
 JSContext
@@ -3802,7 +3802,7 @@ true
 ;
 }
 static
-JSBool
+bool
 LoadScript
 (
 JSContext
@@ -4638,7 +4638,7 @@ v
 )
 )
 {
-JSBool
+bool
 b
 ;
 if
@@ -4686,7 +4686,7 @@ v
 )
 )
 {
-JSBool
+bool
 b
 ;
 if
@@ -4734,7 +4734,7 @@ v
 )
 )
 {
-JSBool
+bool
 b
 ;
 if
@@ -5097,7 +5097,7 @@ v
 )
 )
 {
-JSBool
+bool
 b
 ;
 if
@@ -5145,7 +5145,7 @@ v
 )
 )
 {
-JSBool
+bool
 b
 ;
 if
@@ -6828,7 +6828,7 @@ true
 ;
 }
 static
-JSBool
+bool
 PrintInternal
 (
 JSContext
@@ -7279,7 +7279,7 @@ return
 false
 ;
 }
-JSBool
+bool
 same
 ;
 if
@@ -7674,7 +7674,7 @@ ok
 ;
 }
 static
-JSBool
+bool
 GetScriptAndPCArgs
 (
 JSContext
@@ -9772,7 +9772,7 @@ loop
 }
 ;
 static
-JSBool
+bool
 TryNotes
 (
 JSContext
@@ -13262,7 +13262,7 @@ outer
 ComplexObject
 ;
 static
-JSBool
+bool
 sandbox_enumerate
 (
 JSContext
@@ -13278,7 +13278,7 @@ v
 cx
 )
 ;
-JSBool
+bool
 b
 ;
 if
@@ -13319,7 +13319,7 @@ obj
 ;
 }
 static
-JSBool
+bool
 sandbox_resolve
 (
 JSContext
@@ -13341,7 +13341,7 @@ v
 cx
 )
 ;
-JSBool
+bool
 b
 resolved
 ;
@@ -14382,7 +14382,7 @@ true
 ;
 }
 static
-JSBool
+bool
 CopyProperty
 (
 JSContext
@@ -14801,7 +14801,7 @@ shortid
 ;
 }
 static
-JSBool
+bool
 resolver_resolve
 (
 JSContext
@@ -14855,7 +14855,7 @@ objp
 ;
 }
 static
-JSBool
+bool
 resolver_enumerate
 (
 JSContext
@@ -16015,7 +16015,7 @@ endif
 }
 }
 static
-JSBool
+bool
 SetTimeoutValue
 (
 JSContext
@@ -17485,7 +17485,7 @@ ptr
 }
 ;
 static
-JSBool
+bool
 ReadFile
 (
 JSContext
@@ -17678,7 +17678,7 @@ opt
 return
 false
 ;
-JSBool
+bool
 match
 ;
 if
@@ -22725,7 +22725,7 @@ ITS_CUSTOMNATIVE
 }
 ;
 static
-JSBool
+bool
 its_getter
 (
 JSContext
@@ -22740,7 +22740,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 its_setter
 (
 JSContext
@@ -22750,7 +22750,7 @@ HandleObject
 obj
 HandleId
 id
-JSBool
+bool
 strict
 MutableHandleValue
 vp
@@ -22911,15 +22911,15 @@ JSOP_NULLWRAPPER
 }
 ;
 static
-JSBool
+bool
 its_noisy
 ;
 static
-JSBool
+bool
 its_enum_fail
 ;
 static
-JSBool
+bool
 its_addProperty
 (
 JSContext
@@ -22995,7 +22995,7 @@ true
 ;
 }
 static
-JSBool
+bool
 its_delProperty
 (
 JSContext
@@ -23005,7 +23005,7 @@ HandleObject
 obj
 HandleId
 id
-JSBool
+bool
 *
 succeeded
 )
@@ -23070,7 +23070,7 @@ true
 ;
 }
 static
-JSBool
+bool
 its_getProperty
 (
 JSContext
@@ -23146,7 +23146,7 @@ true
 ;
 }
 static
-JSBool
+bool
 its_setProperty
 (
 JSContext
@@ -23156,7 +23156,7 @@ HandleObject
 obj
 HandleId
 id
-JSBool
+bool
 strict
 MutableHandleValue
 vp
@@ -23280,7 +23280,7 @@ true
 ;
 }
 static
-JSBool
+bool
 its_enumerate
 (
 JSContext
@@ -23445,7 +23445,7 @@ true
 ;
 }
 static
-JSBool
+bool
 its_resolve
 (
 JSContext
@@ -23515,7 +23515,7 @@ true
 ;
 }
 static
-JSBool
+bool
 its_convert
 (
 JSContext
@@ -23624,7 +23624,7 @@ its_finalize
 }
 ;
 static
-JSBool
+bool
 its_getter
 (
 JSContext
@@ -23679,7 +23679,7 @@ true
 ;
 }
 static
-JSBool
+bool
 its_setter
 (
 JSContext
@@ -23689,7 +23689,7 @@ HandleObject
 obj
 HandleId
 id
-JSBool
+bool
 strict
 MutableHandleValue
 vp
@@ -24043,7 +24043,7 @@ defined
 XP_UNIX
 )
 static
-JSBool
+bool
 Exec
 (
 JSContext
@@ -24389,7 +24389,7 @@ ok
 #
 endif
 static
-JSBool
+bool
 global_enumerate
 (
 JSContext
@@ -24418,7 +24418,7 @@ true
 endif
 }
 static
-JSBool
+bool
 global_resolve
 (
 JSContext
@@ -24437,7 +24437,7 @@ objp
 #
 ifdef
 LAZY_STANDARD_CLASSES
-JSBool
+bool
 resolved
 ;
 if
@@ -24775,7 +24775,7 @@ NULL
 }
 ;
 static
-JSBool
+bool
 env_setProperty
 (
 JSContext
@@ -24785,7 +24785,7 @@ HandleObject
 obj
 HandleId
 id
-JSBool
+bool
 strict
 MutableHandleValue
 vp
@@ -24991,7 +24991,7 @@ true
 ;
 }
 static
-JSBool
+bool
 env_enumerate
 (
 JSContext
@@ -25139,7 +25139,7 @@ true
 ;
 }
 static
-JSBool
+bool
 env_resolve
 (
 JSContext
@@ -26316,7 +26316,7 @@ true
 ;
 }
 static
-JSBool
+bool
 InstanceClassHasProtoAtDepth
 (
 HandleObject
@@ -28908,7 +28908,7 @@ shellTrustedPrincipals
 1
 }
 ;
-JSBool
+bool
 CheckObjectAccess
 (
 JSContext

@@ -6358,7 +6358,7 @@ return
 nullptr
 ;
 }
-JSBool
+bool
 IDBObjectStore
 :
 :

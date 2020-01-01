@@ -249,7 +249,7 @@ obj
 )
 ;
 static
-JSBool
+bool
 obj_lookupGeneric
 (
 JSContext
@@ -266,7 +266,7 @@ propp
 )
 ;
 static
-JSBool
+bool
 obj_lookupProperty
 (
 JSContext
@@ -283,7 +283,7 @@ propp
 )
 ;
 static
-JSBool
+bool
 obj_lookupElement
 (
 JSContext
@@ -300,7 +300,7 @@ propp
 )
 ;
 static
-JSBool
+bool
 obj_lookupSpecial
 (
 JSContext
@@ -317,7 +317,7 @@ propp
 )
 ;
 static
-JSBool
+bool
 obj_defineGeneric
 (
 JSContext
@@ -338,7 +338,7 @@ attrs
 )
 ;
 static
-JSBool
+bool
 obj_defineProperty
 (
 JSContext
@@ -359,7 +359,7 @@ attrs
 )
 ;
 static
-JSBool
+bool
 obj_defineElement
 (
 JSContext
@@ -380,7 +380,7 @@ attrs
 )
 ;
 static
-JSBool
+bool
 obj_defineSpecial
 (
 JSContext
@@ -401,7 +401,7 @@ attrs
 )
 ;
 static
-JSBool
+bool
 obj_getGeneric
 (
 JSContext
@@ -418,7 +418,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 obj_getProperty
 (
 JSContext
@@ -435,7 +435,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 obj_getElement
 (
 JSContext
@@ -452,7 +452,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 obj_getElementIfPresent
 (
 JSContext
@@ -472,7 +472,7 @@ present
 )
 ;
 static
-JSBool
+bool
 obj_getSpecial
 (
 JSContext
@@ -489,7 +489,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 obj_setGeneric
 (
 JSContext
@@ -501,12 +501,12 @@ HandleId
 id
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 ;
 static
-JSBool
+bool
 obj_setProperty
 (
 JSContext
@@ -518,12 +518,12 @@ HandlePropertyName
 name
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 ;
 static
-JSBool
+bool
 obj_setElement
 (
 JSContext
@@ -535,12 +535,12 @@ uint32_t
 index
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 ;
 static
-JSBool
+bool
 obj_setSpecial
 (
 JSContext
@@ -552,12 +552,12 @@ HandleSpecialId
 sid
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 ;
 static
-JSBool
+bool
 obj_getGenericAttributes
 (
 JSContext
@@ -573,7 +573,7 @@ attrsp
 )
 ;
 static
-JSBool
+bool
 obj_getPropertyAttributes
 (
 JSContext
@@ -589,7 +589,7 @@ attrsp
 )
 ;
 static
-JSBool
+bool
 obj_getElementAttributes
 (
 JSContext
@@ -605,7 +605,7 @@ attrsp
 )
 ;
 static
-JSBool
+bool
 obj_getSpecialAttributes
 (
 JSContext
@@ -621,7 +621,7 @@ attrsp
 )
 ;
 static
-JSBool
+bool
 obj_setGenericAttributes
 (
 JSContext
@@ -637,7 +637,7 @@ attrsp
 )
 ;
 static
-JSBool
+bool
 obj_setPropertyAttributes
 (
 JSContext
@@ -653,7 +653,7 @@ attrsp
 )
 ;
 static
-JSBool
+bool
 obj_setElementAttributes
 (
 JSContext
@@ -669,7 +669,7 @@ attrsp
 )
 ;
 static
-JSBool
+bool
 obj_setSpecialAttributes
 (
 JSContext
@@ -685,7 +685,7 @@ attrsp
 )
 ;
 static
-JSBool
+bool
 obj_deleteProperty
 (
 JSContext
@@ -695,13 +695,13 @@ HandleObject
 obj
 HandlePropertyName
 name
-JSBool
+bool
 *
 succeeded
 )
 ;
 static
-JSBool
+bool
 obj_deleteElement
 (
 JSContext
@@ -711,13 +711,13 @@ HandleObject
 obj
 uint32_t
 index
-JSBool
+bool
 *
 succeeded
 )
 ;
 static
-JSBool
+bool
 obj_deleteSpecial
 (
 JSContext
@@ -727,13 +727,13 @@ HandleObject
 obj
 HandleSpecialId
 sid
-JSBool
+bool
 *
 succeeded
 )
 ;
 static
-JSBool
+bool
 obj_enumerate
 (
 JSContext
@@ -1262,7 +1262,7 @@ TYPE_MAX
 ]
 ;
 static
-JSBool
+bool
 obj_lookupGeneric
 (
 JSContext
@@ -1279,7 +1279,7 @@ propp
 )
 ;
 static
-JSBool
+bool
 obj_lookupProperty
 (
 JSContext
@@ -1296,7 +1296,7 @@ propp
 )
 ;
 static
-JSBool
+bool
 obj_lookupElement
 (
 JSContext
@@ -1313,7 +1313,7 @@ propp
 )
 ;
 static
-JSBool
+bool
 obj_lookupSpecial
 (
 JSContext
@@ -1330,7 +1330,7 @@ propp
 )
 ;
 static
-JSBool
+bool
 obj_getGenericAttributes
 (
 JSContext
@@ -1346,7 +1346,7 @@ attrsp
 )
 ;
 static
-JSBool
+bool
 obj_getPropertyAttributes
 (
 JSContext
@@ -1362,7 +1362,7 @@ attrsp
 )
 ;
 static
-JSBool
+bool
 obj_getElementAttributes
 (
 JSContext
@@ -1378,7 +1378,7 @@ attrsp
 )
 ;
 static
-JSBool
+bool
 obj_getSpecialAttributes
 (
 JSContext
@@ -1394,7 +1394,7 @@ attrsp
 )
 ;
 static
-JSBool
+bool
 obj_setGenericAttributes
 (
 JSContext
@@ -1410,7 +1410,7 @@ attrsp
 )
 ;
 static
-JSBool
+bool
 obj_setPropertyAttributes
 (
 JSContext
@@ -1426,7 +1426,7 @@ attrsp
 )
 ;
 static
-JSBool
+bool
 obj_setElementAttributes
 (
 JSContext
@@ -1442,7 +1442,7 @@ attrsp
 )
 ;
 static
-JSBool
+bool
 obj_setSpecialAttributes
 (
 JSContext
@@ -2414,7 +2414,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 constructWithProto
 (
 JSContext
@@ -2428,7 +2428,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 construct
 (
 JSContext

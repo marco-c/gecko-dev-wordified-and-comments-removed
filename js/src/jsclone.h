@@ -650,7 +650,7 @@ void
 closure
 ;
 friend
-JSBool
+bool
 JS_ReadTypedArray
 (
 JSStructuredCloneReader
@@ -975,7 +975,7 @@ AutoObjectHashSet
 transferableObjects
 ;
 friend
-JSBool
+bool
 JS_WriteTypedArray
 (
 JSStructuredCloneWriter

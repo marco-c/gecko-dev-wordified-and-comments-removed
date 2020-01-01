@@ -178,7 +178,7 @@ C
 #
 endif
 static
-JSBool
+bool
 -
 global_enumerate
 (
@@ -227,7 +227,7 @@ obj
 )
 }
 static
-JSBool
+bool
 -
 global_resolve
 (

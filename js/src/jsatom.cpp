@@ -667,7 +667,7 @@ yield
 define
 JS_STRING_HASH_COUNT
 1024
-JSBool
+bool
 js
 :
 :

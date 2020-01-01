@@ -946,7 +946,7 @@ js_BooleanToString
 ExclusiveContext
 *
 cx
-JSBool
+bool
 b
 )
 {

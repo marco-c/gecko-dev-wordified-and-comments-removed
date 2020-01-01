@@ -1236,7 +1236,7 @@ isFlat
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ConvertArguments
 (
@@ -1260,7 +1260,7 @@ format
 va_list
 ap
 ;
-JSBool
+bool
 ok
 ;
 AssertHeapIsIdle
@@ -1296,7 +1296,7 @@ ok
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ConvertArgumentsVA
 (
@@ -1320,7 +1320,7 @@ jsval
 *
 sp
 ;
-JSBool
+bool
 required
 ;
 char
@@ -1536,7 +1536,7 @@ b
 va_arg
 (
 ap
-JSBool
+bool
 *
 )
 =
@@ -1967,7 +1967,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ConvertValue
 (
@@ -1990,7 +1990,7 @@ cx
 valueArg
 )
 ;
-JSBool
+bool
 ok
 ;
 RootedObject
@@ -2224,7 +2224,7 @@ ok
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ValueToObject
 (
@@ -2478,7 +2478,7 @@ value
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ValueToNumber
 (
@@ -2513,7 +2513,7 @@ dp
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DoubleIsInt32
 (
@@ -2571,7 +2571,7 @@ d
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ValueToECMAInt32
 (
@@ -2606,7 +2606,7 @@ ip
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ValueToECMAUint32
 (
@@ -2641,7 +2641,7 @@ ip
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ValueToInt64
 (
@@ -2676,7 +2676,7 @@ ip
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ValueToUint64
 (
@@ -2711,7 +2711,7 @@ ip
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ValueToInt32
 (
@@ -2872,7 +2872,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ValueToUint16
 (
@@ -2904,7 +2904,7 @@ ip
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ValueToBoolean
 (
@@ -2913,7 +2913,7 @@ JSContext
 cx
 jsval
 value
-JSBool
+bool
 *
 bp
 )
@@ -3030,7 +3030,7 @@ type
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_StrictlyEqual
 (
@@ -3041,7 +3041,7 @@ jsval
 value1
 jsval
 value2
-JSBool
+bool
 *
 equal
 )
@@ -3092,7 +3092,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_LooselyEqual
 (
@@ -3103,7 +3103,7 @@ jsval
 value1Arg
 jsval
 value2Arg
-JSBool
+bool
 *
 equal
 )
@@ -3168,7 +3168,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SameValue
 (
@@ -3179,7 +3179,7 @@ jsval
 value1
 jsval
 value2
-JSBool
+bool
 *
 same
 )
@@ -3230,7 +3230,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IsBuiltinEvalFunction
 (
@@ -3248,7 +3248,7 @@ fun
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IsBuiltinFunctionConstructor
 (
@@ -3282,7 +3282,7 @@ Uninitialized
 ;
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_Init
 (
@@ -4170,7 +4170,7 @@ endif
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IsInRequest
 (
@@ -4899,7 +4899,7 @@ JS_SetJitHardening
 JSRuntime
 *
 rt
-JSBool
+bool
 enabled
 )
 {
@@ -5309,7 +5309,7 @@ data
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_WrapObject
 (
@@ -5365,7 +5365,7 @@ objp
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_WrapValue
 (
@@ -5441,7 +5441,7 @@ ok
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_WrapId
 (
@@ -6182,7 +6182,7 @@ newWrapper
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_RefreshCrossCompartmentWrappers
 (
@@ -6212,7 +6212,7 @@ obj
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_InitStandardClasses
 (
@@ -7334,7 +7334,7 @@ undef
 EAGER_ATOM_AND_CLASP
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ResolveStandardClass
 (
@@ -7345,7 +7345,7 @@ HandleObject
 obj
 HandleId
 id
-JSBool
+bool
 *
 resolved
 )
@@ -7797,7 +7797,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_EnumerateStandardClasses
 (
@@ -7946,7 +7946,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetClassObject
 (
@@ -8014,7 +8014,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetClassPrototype
 (
@@ -8275,7 +8275,7 @@ global
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IsGlobalObject
 (
@@ -8749,7 +8749,7 @@ undef
 JS_AddRoot
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_AddValueRoot
 (
@@ -8782,7 +8782,7 @@ NULL
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_AddStringRoot
 (
@@ -8816,7 +8816,7 @@ NULL
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_AddObjectRoot
 (
@@ -8850,7 +8850,7 @@ NULL
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_AddNamedValueRoot
 (
@@ -8887,7 +8887,7 @@ name
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_AddNamedValueRootRT
 (
@@ -8914,7 +8914,7 @@ name
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_AddNamedStringRoot
 (
@@ -8952,7 +8952,7 @@ name
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_AddNamedObjectRoot
 (
@@ -8990,7 +8990,7 @@ name
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_AddNamedScriptRoot
 (
@@ -9287,7 +9287,7 @@ p
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_AddExtraGCRootsTracer
 (
@@ -9947,7 +9947,7 @@ void
 thing
 JSGCTraceKind
 kind
-JSBool
+bool
 details
 )
 {
@@ -10994,7 +10994,7 @@ next
 ;
 }
 static
-JSBool
+bool
 DumpNode
 (
 JSDumpingTracer
@@ -11315,7 +11315,7 @@ fp
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DumpHeap
 (
@@ -11707,7 +11707,7 @@ endif
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IsGCMarkingTracer
 (
@@ -11842,7 +11842,7 @@ cb
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IsAboutToBeFinalized
 (
@@ -11872,7 +11872,7 @@ unsafeGet
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IsAboutToBeFinalizedUnbarriered
 (
@@ -12581,7 +12581,7 @@ s
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IsExternalString
 (
@@ -12914,7 +12914,7 @@ ida
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ValueToId
 (
@@ -12985,7 +12985,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IdToValue
 (
@@ -13030,7 +13030,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DefaultValue
 (
@@ -13127,7 +13127,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_PropertyStub
 (
@@ -13148,7 +13148,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_StrictPropertyStub
 (
@@ -13159,7 +13159,7 @@ HandleObject
 obj
 HandleId
 id
-JSBool
+bool
 strict
 MutableHandleValue
 vp
@@ -13171,7 +13171,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DeletePropertyStub
 (
@@ -13182,7 +13182,7 @@ HandleObject
 obj
 HandleId
 id
-JSBool
+bool
 *
 succeeded
 )
@@ -13198,7 +13198,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_EnumerateStub
 (
@@ -13215,7 +13215,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ResolveStub
 (
@@ -13234,7 +13234,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ConvertStub
 (
@@ -13371,7 +13371,7 @@ static_fs
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_LinkConstructorAndPrototype
 (
@@ -13432,7 +13432,7 @@ getJSClass
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_InstanceOf
 (
@@ -13540,7 +13540,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_HasInstance
 (
@@ -13552,7 +13552,7 @@ JSObject
 objArg
 jsval
 valueArg
-JSBool
+bool
 *
 bp
 )
@@ -13707,7 +13707,7 @@ getPrivate
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetPrototype
 (
@@ -13748,7 +13748,7 @@ protop
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetPrototype
 (
@@ -13845,7 +13845,7 @@ getParent
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetParent
 (
@@ -14051,7 +14051,7 @@ toObject
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetObjectId
 (
@@ -14853,7 +14853,7 @@ obj
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IsExtensible
 (
@@ -14862,7 +14862,7 @@ JSContext
 cx
 HandleObject
 obj
-JSBool
+bool
 *
 extensible
 )
@@ -14898,7 +14898,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IsNative
 (
@@ -14944,7 +14944,7 @@ runtimeFromMainThread
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_FreezeObject
 (
@@ -14992,7 +14992,7 @@ obj
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DeepFreezeObject
 (
@@ -15147,7 +15147,7 @@ true
 ;
 }
 static
-JSBool
+bool
 LookupPropertyById
 (
 JSContext
@@ -15234,7 +15234,7 @@ n
 )
 )
 static
-JSBool
+bool
 LookupResult
 (
 JSContext
@@ -15421,7 +15421,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_LookupPropertyById
 (
@@ -15490,7 +15490,7 @@ vp
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_LookupElement
 (
@@ -15550,7 +15550,7 @@ vp
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_LookupProperty
 (
@@ -15607,7 +15607,7 @@ vp
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_LookupUCProperty
 (
@@ -15670,7 +15670,7 @@ vp
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_LookupPropertyWithFlagsById
 (
@@ -15805,7 +15805,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_LookupPropertyWithFlags
 (
@@ -15871,7 +15871,7 @@ vp
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_HasPropertyById
 (
@@ -15883,7 +15883,7 @@ JSObject
 objArg
 jsid
 idArg
-JSBool
+bool
 *
 foundp
 )
@@ -15914,7 +15914,7 @@ prop
 cx
 )
 ;
-JSBool
+bool
 ok
 =
 LookupPropertyById
@@ -15945,7 +15945,7 @@ ok
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_HasElement
 (
@@ -15957,7 +15957,7 @@ JSObject
 objArg
 uint32_t
 index
-JSBool
+bool
 *
 foundp
 )
@@ -16011,7 +16011,7 @@ foundp
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_HasProperty
 (
@@ -16025,7 +16025,7 @@ const
 char
 *
 name
-JSBool
+bool
 *
 foundp
 )
@@ -16069,7 +16069,7 @@ foundp
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_HasUCProperty
 (
@@ -16085,7 +16085,7 @@ jschar
 name
 size_t
 namelen
-JSBool
+bool
 *
 foundp
 )
@@ -16133,7 +16133,7 @@ foundp
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_AlreadyHasOwnPropertyById
 (
@@ -16145,7 +16145,7 @@ JSObject
 objArg
 jsid
 id_
-JSBool
+bool
 *
 foundp
 )
@@ -16283,7 +16283,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_AlreadyHasOwnElement
 (
@@ -16295,7 +16295,7 @@ JSObject
 objArg
 uint32_t
 index
-JSBool
+bool
 *
 foundp
 )
@@ -16349,7 +16349,7 @@ foundp
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_AlreadyHasOwnProperty
 (
@@ -16363,7 +16363,7 @@ const
 char
 *
 name
-JSBool
+bool
 *
 foundp
 )
@@ -16407,7 +16407,7 @@ foundp
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_AlreadyHasOwnUCProperty
 (
@@ -16423,7 +16423,7 @@ jschar
 name
 size_t
 namelen
-JSBool
+bool
 *
 foundp
 )
@@ -16524,7 +16524,7 @@ ret
 ;
 }
 static
-JSBool
+bool
 DefinePropertyById
 (
 JSContext
@@ -16910,7 +16910,7 @@ attrs
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DefinePropertyById
 (
@@ -16976,7 +16976,7 @@ attrs
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DefineElement
 (
@@ -17075,7 +17075,7 @@ attrs
 ;
 }
 static
-JSBool
+bool
 DefineProperty
 (
 JSContext
@@ -17222,7 +17222,7 @@ tinyid
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DefineProperty
 (
@@ -17283,7 +17283,7 @@ attrs
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DefinePropertyWithTinyId
 (
@@ -17348,7 +17348,7 @@ tinyid
 ;
 }
 static
-JSBool
+bool
 DefineUCProperty
 (
 JSContext
@@ -17455,7 +17455,7 @@ tinyid
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DefineUCProperty
 (
@@ -17513,7 +17513,7 @@ attrs
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DefineUCPropertyWithTinyId
 (
@@ -17576,7 +17576,7 @@ tinyid
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DefineOwnProperty
 (
@@ -17590,7 +17590,7 @@ jsid
 idArg
 jsval
 descriptorArg
-JSBool
+bool
 *
 bp
 )
@@ -17783,7 +17783,7 @@ nobj
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DefineConstDoubles
 (
@@ -17806,7 +17806,7 @@ cx
 objArg
 )
 ;
-JSBool
+bool
 ok
 ;
 unsigned
@@ -17915,7 +17915,7 @@ ok
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DefineProperties
 (
@@ -17938,7 +17938,7 @@ cx
 objArg
 )
 ;
-JSBool
+bool
 ok
 ;
 for
@@ -18005,7 +18005,7 @@ ok
 ;
 }
 static
-JSBool
+bool
 GetPropertyDescriptorById
 (
 JSContext
@@ -18017,7 +18017,7 @@ HandleId
 id
 unsigned
 flags
-JSBool
+bool
 own
 PropertyDescriptor
 *
@@ -18353,7 +18353,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetPropertyDescriptorById
 (
@@ -18420,7 +18420,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetPropertyAttrsGetterAndSetterById
 (
@@ -18435,7 +18435,7 @@ idArg
 unsigned
 *
 attrsp
-JSBool
+bool
 *
 foundp
 JSPropertyOp
@@ -18530,7 +18530,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetPropertyAttributes
 (
@@ -18547,7 +18547,7 @@ name
 unsigned
 *
 attrsp
-JSBool
+bool
 *
 foundp
 )
@@ -18594,7 +18594,7 @@ NULL
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetUCPropertyAttributes
 (
@@ -18613,7 +18613,7 @@ namelen
 unsigned
 *
 attrsp
-JSBool
+bool
 *
 foundp
 )
@@ -18664,7 +18664,7 @@ NULL
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetPropertyAttrsGetterAndSetter
 (
@@ -18681,7 +18681,7 @@ name
 unsigned
 *
 attrsp
-JSBool
+bool
 *
 foundp
 JSPropertyOp
@@ -18734,7 +18734,7 @@ setterp
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetUCPropertyAttrsGetterAndSetter
 (
@@ -18753,7 +18753,7 @@ namelen
 unsigned
 *
 attrsp
-JSBool
+bool
 *
 foundp
 JSPropertyOp
@@ -18810,7 +18810,7 @@ setterp
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetOwnPropertyDescriptor
 (
@@ -18861,7 +18861,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 SetPropertyAttributesById
 (
 JSContext
@@ -18873,7 +18873,7 @@ HandleId
 id
 unsigned
 attrs
-JSBool
+bool
 *
 foundp
 )
@@ -18929,7 +18929,7 @@ return
 true
 ;
 }
-JSBool
+bool
 ok
 =
 obj
@@ -18977,7 +18977,7 @@ ok
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetPropertyAttributes
 (
@@ -18993,7 +18993,7 @@ char
 name
 unsigned
 attrs
-JSBool
+bool
 *
 foundp
 )
@@ -19045,7 +19045,7 @@ foundp
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetUCPropertyAttributes
 (
@@ -19063,7 +19063,7 @@ size_t
 namelen
 unsigned
 attrs
-JSBool
+bool
 *
 foundp
 )
@@ -19119,7 +19119,7 @@ foundp
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetPropertyById
 (
@@ -19148,7 +19148,7 @@ vp
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ForwardGetPropertyTo
 (
@@ -19234,7 +19234,7 @@ vp
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetPropertyByIdDefault
 (
@@ -19289,7 +19289,7 @@ vp
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetElement
 (
@@ -19318,7 +19318,7 @@ vp
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ForwardGetElementTo
 (
@@ -19390,7 +19390,7 @@ vp
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetElementIfPresent
 (
@@ -19407,7 +19407,7 @@ JSObject
 onBehalfOfArg
 MutableHandleValue
 vp
-JSBool
+bool
 *
 present
 )
@@ -19483,7 +19483,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetProperty
 (
@@ -19540,7 +19540,7 @@ vp
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetPropertyDefault
 (
@@ -19607,7 +19607,7 @@ vp
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetUCProperty
 (
@@ -19670,7 +19670,7 @@ vp
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetPropertyById
 (
@@ -19749,7 +19749,7 @@ false
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetElement
 (
@@ -19813,7 +19813,7 @@ false
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetProperty
 (
@@ -19870,7 +19870,7 @@ v
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetUCProperty
 (
@@ -19933,7 +19933,7 @@ v
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DeletePropertyById2
 (
@@ -19987,7 +19987,7 @@ value
 cx
 )
 ;
-JSBool
+bool
 succeeded
 ;
 if
@@ -20067,7 +20067,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DeleteElement2
 (
@@ -20114,7 +20114,7 @@ cx
 0
 )
 ;
-JSBool
+bool
 succeeded
 ;
 if
@@ -20148,7 +20148,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DeleteProperty2
 (
@@ -20214,7 +20214,7 @@ atom
 return
 false
 ;
-JSBool
+bool
 succeeded
 ;
 if
@@ -20251,7 +20251,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DeleteUCProperty2
 (
@@ -20323,7 +20323,7 @@ atom
 return
 false
 ;
-JSBool
+bool
 succeeded
 ;
 if
@@ -20360,7 +20360,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DeletePropertyById
 (
@@ -20390,7 +20390,7 @@ junk
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DeleteElement
 (
@@ -20420,7 +20420,7 @@ junk
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DeleteProperty
 (
@@ -21268,7 +21268,7 @@ iterobj
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_NextProperty
 (
@@ -21763,7 +21763,7 @@ vector
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IsArrayObject
 (
@@ -21799,7 +21799,7 @@ cx
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetArrayLength
 (
@@ -21848,7 +21848,7 @@ lengthp
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetArrayLength
 (
@@ -21896,7 +21896,7 @@ length
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_CheckAccess
 (
@@ -21957,7 +21957,7 @@ obj
 id
 )
 ;
-JSBool
+bool
 status
 =
 CheckAccess
@@ -22765,7 +22765,7 @@ nargs
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ObjectIsFunction
 (
@@ -22791,7 +22791,7 @@ JSFunction
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ObjectIsCallable
 (
@@ -22814,7 +22814,7 @@ isCallable
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IsNativeFunction
 (
@@ -22879,7 +22879,7 @@ call
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IsConstructor
 (
@@ -23089,7 +23089,7 @@ vp
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DefineFunctions
 (
@@ -25068,7 +25068,7 @@ length
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_BufferIsCompilableUnit
 (
@@ -25093,7 +25093,7 @@ cx
 objArg
 )
 ;
-JSBool
+bool
 result
 ;
 JSExceptionState
@@ -26235,7 +26235,7 @@ JS_DONT_PRETTY_PRINT
 JS_NEVER_INLINE
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ExecuteScript
 (
@@ -26402,7 +26402,7 @@ rval
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ExecuteScriptVersion
 (
@@ -26884,7 +26884,7 @@ rval
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_EvaluateUCScriptForPrincipals
 (
@@ -26954,7 +26954,7 @@ rval
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_EvaluateUCScriptForPrincipalsVersion
 (
@@ -27032,7 +27032,7 @@ rval
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_EvaluateUCScriptForPrincipalsVersionOrigin
 (
@@ -27117,7 +27117,7 @@ rval
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_EvaluateUCScript
 (
@@ -27179,7 +27179,7 @@ rval
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_EvaluateScriptForPrincipals
 (
@@ -27249,7 +27249,7 @@ rval
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_EvaluateScriptForPrincipalsVersion
 (
@@ -27326,7 +27326,7 @@ rval
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_EvaluateScript
 (
@@ -27388,7 +27388,7 @@ rval
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_CallFunction
 (
@@ -27508,7 +27508,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_CallFunctionName
 (
@@ -27681,7 +27681,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_CallFunctionValue
 (
@@ -28109,7 +28109,7 @@ triggerOperationCallback
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IsRunning
 (
@@ -28129,7 +28129,7 @@ currentlyRunning
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SaveFrameChain
 (
@@ -28381,7 +28381,7 @@ str
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_StringHasBeenInterned
 (
@@ -29245,7 +29245,7 @@ chars
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_CompareStrings
 (
@@ -29285,7 +29285,7 @@ result
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_StringEqualsAscii
 (
@@ -29299,7 +29299,7 @@ const
 char
 *
 asciiBytes
-JSBool
+bool
 *
 match
 )
@@ -29349,7 +29349,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_FlatStringEqualsAscii
 (
@@ -29460,7 +29460,7 @@ quote
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_FileEscapedString
 (
@@ -29640,7 +29640,7 @@ rstr
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DecodeBytes
 (
@@ -30003,7 +30003,7 @@ necessaryLength
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_Stringify
 (
@@ -30143,7 +30143,7 @@ data
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ParseJSON
 (
@@ -30206,7 +30206,7 @@ vp
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ParseJSONWithReviver
 (
@@ -30278,7 +30278,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ReadStructuredClone
 (
@@ -30366,7 +30366,7 @@ closure
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_WriteStructuredClone
 (
@@ -30455,7 +30455,7 @@ transferable
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ClearStructuredClone
 (
@@ -30477,7 +30477,7 @@ nbytes
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_StructuredCloneHasTransferables
 (
@@ -30487,7 +30487,7 @@ uint64_t
 data
 size_t
 nbytes
-JSBool
+bool
 *
 hasTransferable
 )
@@ -30520,7 +30520,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_StructuredClone
 (
@@ -31074,7 +31074,7 @@ callbacks
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ReadUint32Pair
 (
@@ -31114,7 +31114,7 @@ p2
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ReadBytes
 (
@@ -31145,7 +31145,7 @@ len
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_WriteUint32Pair
 (
@@ -31175,7 +31175,7 @@ data
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_WriteBytes
 (
@@ -31430,7 +31430,7 @@ args
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ReportWarning
 (
@@ -31449,7 +31449,7 @@ format
 va_list
 ap
 ;
-JSBool
+bool
 ok
 ;
 AssertHeapIsIdle
@@ -31484,7 +31484,7 @@ ok
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ReportErrorFlagsAndNumber
 (
@@ -31509,7 +31509,7 @@ errorNumber
 va_list
 ap
 ;
-JSBool
+bool
 ok
 ;
 AssertHeapIsIdle
@@ -31547,7 +31547,7 @@ ok
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ReportErrorFlagsAndNumberUC
 (
@@ -31572,7 +31572,7 @@ errorNumber
 va_list
 ap
 ;
-JSBool
+bool
 ok
 ;
 AssertHeapIsIdle
@@ -31775,7 +31775,7 @@ msec
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ObjectIsDate
 (
@@ -32041,7 +32041,7 @@ objArg
 JSString
 *
 input
-JSBool
+bool
 multiline
 )
 {
@@ -32151,7 +32151,7 @@ clear
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ExecuteRegExp
 (
@@ -32172,7 +32172,7 @@ length
 size_t
 *
 indexp
-JSBool
+bool
 test
 jsval
 *
@@ -32393,7 +32393,7 @@ NULL
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ExecuteRegExpNoStatics
 (
@@ -32411,7 +32411,7 @@ length
 size_t
 *
 indexp
-JSBool
+bool
 test
 jsval
 *
@@ -32484,7 +32484,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ObjectIsRegExp
 (
@@ -32615,7 +32615,7 @@ getSource
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetDefaultLocale
 (
@@ -32715,7 +32715,7 @@ localeCallbacks
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IsExceptionPending
 (
@@ -32726,7 +32726,7 @@ cx
 {
 return
 (
-JSBool
+bool
 )
 cx
 -
@@ -32738,7 +32738,7 @@ isExceptionPending
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetPendingException
 (
@@ -32865,7 +32865,7 @@ clearPendingException
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ReportPendingException
 (
@@ -33174,7 +33174,7 @@ value
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ThrowReportedError
 (
@@ -33214,7 +33214,7 @@ NULL
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ThrowStopIteration
 (
@@ -33669,7 +33669,7 @@ TRUE
 endif
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IndexToId
 (
@@ -33714,7 +33714,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_CharsToId
 (
@@ -33814,7 +33814,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_IsIdentifier
 (
@@ -33824,7 +33824,7 @@ cx
 JSString
 *
 str
-JSBool
+bool
 *
 isIdentifier
 )
@@ -33875,7 +33875,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DescribeScriptedCaller
 (
@@ -34002,7 +34002,7 @@ PR_FAILURE
 endif
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_CallOnce
 (
@@ -34479,7 +34479,7 @@ global
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_PreventExtensions
 (

@@ -52,7 +52,7 @@ nsJSUtils
 public
 :
 static
-JSBool
+bool
 GetCallingLocation
 (
 JSContext
@@ -236,7 +236,7 @@ nsDependentJSString
 )
 {
 }
-JSBool
+bool
 init
 (
 JSContext
@@ -306,7 +306,7 @@ return
 true
 ;
 }
-JSBool
+bool
 init
 (
 JSContext

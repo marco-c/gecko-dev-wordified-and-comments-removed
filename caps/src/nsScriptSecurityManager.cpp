@@ -1703,7 +1703,7 @@ nsIXPCSecurityManager
 nsIChannelEventSink
 nsIObserver
 )
-JSBool
+bool
 nsScriptSecurityManager
 :
 :
@@ -1984,7 +1984,7 @@ return
 evalOK
 ;
 }
-JSBool
+bool
 nsScriptSecurityManager
 :
 :

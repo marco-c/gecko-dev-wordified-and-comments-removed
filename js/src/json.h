@@ -65,7 +65,7 @@ obj
 )
 ;
 extern
-JSBool
+bool
 js_Stringify
 (
 JSContext

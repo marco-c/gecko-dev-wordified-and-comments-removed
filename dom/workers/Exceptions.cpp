@@ -526,7 +526,7 @@ true
 ;
 }
 static
-JSBool
+bool
 GetProperty
 (
 JSContext
@@ -647,7 +647,7 @@ true
 ;
 }
 static
-JSBool
+bool
 GetConstant
 (
 JSContext

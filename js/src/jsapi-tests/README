@@ -304,7 +304,7 @@ member
 function
 that
 returns
-JSBool
+bool
 .
 The
 test

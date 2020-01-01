@@ -3939,7 +3939,7 @@ template
 UnaryMathFunctionType
 F
 >
-JSBool
+bool
 math_function
 (
 JSContext

@@ -2799,7 +2799,7 @@ formattedMessage
 ;
 }
 static
-JSBool
+bool
 PACResolve
 (
 const
@@ -4323,7 +4323,7 @@ rval
 cx
 )
 ;
-JSBool
+bool
 ok
 =
 JS_CallFunctionName

@@ -28,7 +28,7 @@ nsIPrincipal
 JSPrincipals
 {
 static
-JSBool
+bool
 Subsume
 (
 JSPrincipals

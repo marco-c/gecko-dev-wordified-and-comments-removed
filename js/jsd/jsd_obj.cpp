@@ -557,7 +557,7 @@ key
 2
 ;
 }
-JSBool
+bool
 jsd_InitObjectManager
 (
 JSDContext

@@ -733,7 +733,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 ConstructBasic
 (
 JSContext
@@ -784,7 +784,7 @@ obj
 )
 ;
 static
-JSBool
+bool
 PrototypeGetter
 (
 JSContext
@@ -799,7 +799,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 NameGetter
 (
 JSContext
@@ -814,7 +814,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 SizeGetter
 (
 JSContext
@@ -829,7 +829,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 PtrGetter
 (
 JSContext
@@ -886,7 +886,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 HasInstance
 (
 JSContext
@@ -896,7 +896,7 @@ HandleObject
 obj
 MutableHandleValue
 v
-JSBool
+bool
 *
 bp
 )
@@ -959,7 +959,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 ConstructData
 (
 JSContext
@@ -974,7 +974,7 @@ args
 )
 ;
 static
-JSBool
+bool
 TargetTypeGetter
 (
 JSContext
@@ -989,7 +989,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 ContentsGetter
 (
 JSContext
@@ -1004,7 +1004,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 ContentsSetter
 (
 JSContext
@@ -1014,7 +1014,7 @@ HandleObject
 obj
 HandleId
 idval
-JSBool
+bool
 strict
 MutableHandleValue
 vp
@@ -1063,7 +1063,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 OffsetBy
 (
 JSContext
@@ -1096,7 +1096,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 ConstructData
 (
 JSContext
@@ -1111,7 +1111,7 @@ args
 )
 ;
 static
-JSBool
+bool
 ElementTypeGetter
 (
 JSContext
@@ -1126,7 +1126,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 LengthGetter
 (
 JSContext
@@ -1141,7 +1141,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 Getter
 (
 JSContext
@@ -1156,7 +1156,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 Setter
 (
 JSContext
@@ -1166,7 +1166,7 @@ HandleObject
 obj
 HandleId
 idval
-JSBool
+bool
 strict
 MutableHandleValue
 vp
@@ -1205,7 +1205,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 ConstructData
 (
 JSContext
@@ -1220,7 +1220,7 @@ args
 )
 ;
 static
-JSBool
+bool
 FieldsArrayGetter
 (
 JSContext
@@ -1235,7 +1235,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 FieldGetter
 (
 JSContext
@@ -1250,7 +1250,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 FieldSetter
 (
 JSContext
@@ -1260,7 +1260,7 @@ HandleObject
 obj
 HandleId
 idval
-JSBool
+bool
 strict
 MutableHandleValue
 vp
@@ -1313,7 +1313,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 ConstructData
 (
 JSContext
@@ -1346,7 +1346,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 ArgTypesGetter
 (
 JSContext
@@ -1361,7 +1361,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 ReturnTypeGetter
 (
 JSContext
@@ -1376,7 +1376,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 ABIGetter
 (
 JSContext
@@ -1391,7 +1391,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 IsVariadicGetter
 (
 JSContext
@@ -1469,7 +1469,7 @@ obj
 )
 ;
 static
-JSBool
+bool
 ValueGetter
 (
 JSContext
@@ -1484,7 +1484,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 ValueSetter
 (
 JSContext
@@ -1494,7 +1494,7 @@ HandleObject
 obj
 HandleId
 idval
-JSBool
+bool
 strict
 MutableHandleValue
 vp
@@ -1572,7 +1572,7 @@ data
 )
 ;
 static
-JSBool
+bool
 ErrnoGetter
 (
 JSContext
@@ -1593,7 +1593,7 @@ defined
 XP_WIN
 )
 static
-JSBool
+bool
 LastErrorGetter
 (
 JSContext
@@ -3850,7 +3850,7 @@ NULL
 ;
 }
 static
-JSBool
+bool
 TypeError
 (
 JSContext
@@ -4368,7 +4368,7 @@ prototype
 ;
 }
 static
-JSBool
+bool
 DefineABIConstant
 (
 JSContext
@@ -4433,7 +4433,7 @@ obj
 ;
 }
 static
-JSBool
+bool
 InitTypeConstructor
 (
 JSContext
@@ -4947,7 +4947,7 @@ i
 ;
 }
 static
-JSBool
+bool
 InitTypeClasses
 (
 JSContext
@@ -5675,7 +5675,7 @@ ctypes
 ;
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_InitCTypesClass
 (
@@ -6000,7 +6000,7 @@ slot
 )
 )
 {
-JSBool
+bool
 owns
 =
 JSVAL_TO_BOOLEAN
@@ -8444,7 +8444,7 @@ result
 ;
 }
 static
-JSBool
+bool
 SizeTojsval
 (
 JSContext
@@ -9144,7 +9144,7 @@ max
 ;
 }
 static
-JSBool
+bool
 ConvertToJS
 (
 JSContext
@@ -9953,7 +9953,7 @@ baseTypeCode
 ;
 }
 static
-JSBool
+bool
 ImplicitConvert
 (
 JSContext
@@ -12142,7 +12142,7 @@ true
 ;
 }
 static
-JSBool
+bool
 ExplicitConvert
 (
 JSContext
@@ -12219,7 +12219,7 @@ case
 TYPE_bool
 :
 {
-JSBool
+bool
 result
 ;
 ASSERT_OK
@@ -13747,7 +13747,7 @@ break
 }
 }
 static
-JSBool
+bool
 BuildDataSource
 (
 JSContext
@@ -14845,7 +14845,7 @@ args
 ;
 }
 }
-JSBool
+bool
 CType
 :
 :
@@ -17022,7 +17022,7 @@ result
 )
 ;
 }
-JSBool
+bool
 CType
 :
 :
@@ -17129,7 +17129,7 @@ return
 true
 ;
 }
-JSBool
+bool
 CType
 :
 :
@@ -17204,7 +17204,7 @@ return
 true
 ;
 }
-JSBool
+bool
 CType
 :
 :
@@ -17276,7 +17276,7 @@ return
 true
 ;
 }
-JSBool
+bool
 CType
 :
 :
@@ -17863,7 +17863,7 @@ return
 true
 ;
 }
-JSBool
+bool
 CType
 :
 :
@@ -17876,7 +17876,7 @@ HandleObject
 obj
 MutableHandleValue
 v
-JSBool
+bool
 *
 bp
 )
@@ -18648,7 +18648,7 @@ return
 typeObj
 ;
 }
-JSBool
+bool
 PointerType
 :
 :
@@ -19085,7 +19085,7 @@ toObject
 )
 ;
 }
-JSBool
+bool
 PointerType
 :
 :
@@ -19312,7 +19312,7 @@ return
 true
 ;
 }
-JSBool
+bool
 PointerType
 :
 :
@@ -19621,7 +19621,7 @@ args
 )
 ;
 }
-JSBool
+bool
 PointerType
 :
 :
@@ -19829,7 +19829,7 @@ return
 true
 ;
 }
-JSBool
+bool
 PointerType
 :
 :
@@ -19842,7 +19842,7 @@ HandleObject
 obj
 HandleId
 idval
-JSBool
+bool
 strict
 MutableHandleValue
 vp
@@ -20469,7 +20469,7 @@ return
 typeObj
 ;
 }
-JSBool
+bool
 ArrayType
 :
 :
@@ -21473,7 +21473,7 @@ forget
 )
 ;
 }
-JSBool
+bool
 ArrayType
 :
 :
@@ -21552,7 +21552,7 @@ return
 true
 ;
 }
-JSBool
+bool
 ArrayType
 :
 :
@@ -21664,7 +21664,7 @@ return
 true
 ;
 }
-JSBool
+bool
 ArrayType
 :
 :
@@ -21876,7 +21876,7 @@ address
 )
 ;
 }
-JSBool
+bool
 ArrayType
 :
 :
@@ -21889,7 +21889,7 @@ HandleObject
 obj
 HandleId
 idval
-JSBool
+bool
 strict
 MutableHandleValue
 vp
@@ -22721,7 +22721,7 @@ nameid
 ;
 }
 static
-JSBool
+bool
 AddFieldToArray
 (
 JSContext
@@ -23149,7 +23149,7 @@ key
 )
 ;
 }
-JSBool
+bool
 StructType
 :
 :
@@ -24422,7 +24422,7 @@ arr
 )
 ;
 }
-JSBool
+bool
 StructType
 :
 :
@@ -25186,7 +25186,7 @@ return
 fieldsProp
 ;
 }
-JSBool
+bool
 StructType
 :
 :
@@ -25344,7 +25344,7 @@ return
 true
 ;
 }
-JSBool
+bool
 StructType
 :
 :
@@ -25501,7 +25501,7 @@ address
 )
 ;
 }
-JSBool
+bool
 StructType
 :
 :
@@ -25514,7 +25514,7 @@ HandleObject
 obj
 HandleId
 idval
-JSBool
+bool
 strict
 MutableHandleValue
 vp
@@ -26497,7 +26497,7 @@ result
 }
 static
 JS_ALWAYS_INLINE
-JSBool
+bool
 IsEllipsis
 (
 JSContext
@@ -26614,7 +26614,7 @@ true
 ;
 }
 static
-JSBool
+bool
 PrepareCIF
 (
 JSContext
@@ -27808,7 +27808,7 @@ return
 typeObj
 ;
 }
-JSBool
+bool
 FunctionType
 :
 :
@@ -27996,7 +27996,7 @@ AutoValue
 AutoValueAutoArray
 ;
 static
-JSBool
+bool
 ConvertArgument
 (
 JSContext
@@ -29186,7 +29186,7 @@ slot
 ;
 }
 static
-JSBool
+bool
 CheckFunctionType
 (
 JSContext
@@ -29239,7 +29239,7 @@ return
 true
 ;
 }
-JSBool
+bool
 FunctionType
 :
 :
@@ -29420,7 +29420,7 @@ return
 true
 ;
 }
-JSBool
+bool
 FunctionType
 :
 :
@@ -29467,7 +29467,7 @@ return
 true
 ;
 }
-JSBool
+bool
 FunctionType
 :
 :
@@ -29514,7 +29514,7 @@ return
 true
 ;
 }
-JSBool
+bool
 FunctionType
 :
 :
@@ -30706,7 +30706,7 @@ rval
 cx
 )
 ;
-JSBool
+bool
 success
 =
 JS_CallFunctionValue
@@ -31339,7 +31339,7 @@ slot
 )
 return
 ;
-JSBool
+bool
 owns
 =
 JSVAL_TO_BOOLEAN
@@ -31582,7 +31582,7 @@ obj
 sCDataProtoClass
 ;
 }
-JSBool
+bool
 CData
 :
 :
@@ -31662,7 +31662,7 @@ return
 true
 ;
 }
-JSBool
+bool
 CData
 :
 :
@@ -31675,7 +31675,7 @@ HandleObject
 obj
 HandleId
 idval
-JSBool
+bool
 strict
 MutableHandleValue
 vp
@@ -33221,7 +33221,7 @@ return
 true
 ;
 }
-JSBool
+bool
 CData
 :
 :
@@ -33285,7 +33285,7 @@ defined
 (
 XP_WIN
 )
-JSBool
+bool
 CData
 :
 :

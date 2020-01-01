@@ -19,7 +19,7 @@ XPCWrapper
 .
 h
 "
-JSBool
+bool
 XPCThrower
 :
 :
@@ -108,7 +108,7 @@ false
 ;
 }
 }
-JSBool
+bool
 XPCThrower
 :
 :
@@ -703,7 +703,7 @@ char
 sz
 )
 {
-JSBool
+bool
 success
 =
 false
@@ -880,7 +880,7 @@ rv
 isChrome
 ;
 }
-JSBool
+bool
 XPCThrower
 :
 :
@@ -894,7 +894,7 @@ nsIException
 e
 )
 {
-JSBool
+bool
 success
 =
 false

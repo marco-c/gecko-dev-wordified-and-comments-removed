@@ -808,7 +808,7 @@ TypeStrings
 ]
 ;
 extern
-JSBool
+bool
 InitAtoms
 (
 JSRuntime

@@ -492,7 +492,7 @@ jsdc
 JSDScript
 *
 jsdscript
-JSBool
+bool
 creating
 void
 *
@@ -1981,7 +1981,7 @@ jsstr
 jsval
 rval
 ;
-JSBool
+bool
 success
 ;
 int

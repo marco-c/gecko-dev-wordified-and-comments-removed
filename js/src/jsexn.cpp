@@ -218,7 +218,7 @@ obj
 )
 ;
 static
-JSBool
+bool
 exn_resolve
 (
 JSContext
@@ -2043,7 +2043,7 @@ priv
 }
 }
 static
-JSBool
+bool
 exn_resolve
 (
 JSContext
@@ -4871,7 +4871,7 @@ MSG_DEF
 ;
 #
 endif
-JSBool
+bool
 js_ErrorToException
 (
 JSContext
@@ -5285,7 +5285,7 @@ char
 filename_strp
 )
 {
-JSBool
+bool
 found
 ;
 if
@@ -5386,7 +5386,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js_ReportUncaughtException
 (
 JSContext

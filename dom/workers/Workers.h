@@ -540,7 +540,7 @@ false
 }
 }
 ;
-JSBool
+bool
 ResolveWorkerClasses
 (
 JSContext

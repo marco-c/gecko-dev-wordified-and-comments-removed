@@ -35,7 +35,7 @@ DOUBLE_TO_JSVAL
 0
 )
 ;
-JSBool
+bool
 same
 ;
 CHECK

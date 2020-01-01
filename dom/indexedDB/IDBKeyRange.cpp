@@ -631,7 +631,7 @@ val
 aCx
 )
 ;
-JSBool
+bool
 open
 =
 false
@@ -750,7 +750,7 @@ val
 aCx
 )
 ;
-JSBool
+bool
 open
 =
 false
@@ -873,7 +873,7 @@ upperVal
 aCx
 )
 ;
-JSBool
+bool
 lowerOpen
 =
 false
@@ -1087,7 +1087,7 @@ JS_FS_END
 undef
 KEYRANGE_FUNCTION_FLAGS
 }
-JSBool
+bool
 IDBKeyRange
 :
 :

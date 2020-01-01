@@ -2693,7 +2693,7 @@ proxy
 JSID_VOID
 )
 ;
-JSBool
+bool
 b
 ;
 RootedObject
@@ -3062,7 +3062,7 @@ hasPrototype
 )
 )
 ;
-JSBool
+bool
 found
 ;
 RootedObject
@@ -13610,7 +13610,7 @@ bp
 return
 true
 ;
-JSBool
+bool
 Bp
 ;
 INVOKE_ON_PROTOTYPE
@@ -15500,7 +15500,7 @@ toObjectOrNull
 ;
 }
 static
-JSBool
+bool
 proxy_LookupGeneric
 (
 JSContext
@@ -15577,7 +15577,7 @@ true
 ;
 }
 static
-JSBool
+bool
 proxy_LookupProperty
 (
 JSContext
@@ -15618,7 +15618,7 @@ propp
 ;
 }
 static
-JSBool
+bool
 proxy_LookupElement
 (
 JSContext
@@ -15666,7 +15666,7 @@ propp
 ;
 }
 static
-JSBool
+bool
 proxy_LookupSpecial
 (
 JSContext
@@ -15707,7 +15707,7 @@ propp
 ;
 }
 static
-JSBool
+bool
 proxy_DefineGeneric
 (
 JSContext
@@ -15791,7 +15791,7 @@ desc
 ;
 }
 static
-JSBool
+bool
 proxy_DefineProperty
 (
 JSContext
@@ -15838,7 +15838,7 @@ attrs
 ;
 }
 static
-JSBool
+bool
 proxy_DefineElement
 (
 JSContext
@@ -15892,7 +15892,7 @@ attrs
 ;
 }
 static
-JSBool
+bool
 proxy_DefineSpecial
 (
 JSContext
@@ -15939,7 +15939,7 @@ attrs
 ;
 }
 static
-JSBool
+bool
 proxy_GetGeneric
 (
 JSContext
@@ -15970,7 +15970,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 proxy_GetProperty
 (
 JSContext
@@ -16011,7 +16011,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 proxy_GetElement
 (
 JSContext
@@ -16059,7 +16059,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 proxy_GetElementIfPresent
 (
 JSContext
@@ -16094,7 +16094,7 @@ present
 ;
 }
 static
-JSBool
+bool
 proxy_GetSpecial
 (
 JSContext
@@ -16135,7 +16135,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 proxy_SetGeneric
 (
 JSContext
@@ -16147,7 +16147,7 @@ HandleId
 id
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 {
@@ -16167,7 +16167,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 proxy_SetProperty
 (
 JSContext
@@ -16179,7 +16179,7 @@ HandlePropertyName
 name
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 {
@@ -16208,7 +16208,7 @@ strict
 ;
 }
 static
-JSBool
+bool
 proxy_SetElement
 (
 JSContext
@@ -16220,7 +16220,7 @@ uint32_t
 index
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 {
@@ -16256,7 +16256,7 @@ strict
 ;
 }
 static
-JSBool
+bool
 proxy_SetSpecial
 (
 JSContext
@@ -16268,7 +16268,7 @@ HandleSpecialId
 sid
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 {
@@ -16297,7 +16297,7 @@ strict
 ;
 }
 static
-JSBool
+bool
 proxy_GetGenericAttributes
 (
 JSContext
@@ -16349,7 +16349,7 @@ true
 ;
 }
 static
-JSBool
+bool
 proxy_GetPropertyAttributes
 (
 JSContext
@@ -16388,7 +16388,7 @@ attrsp
 ;
 }
 static
-JSBool
+bool
 proxy_GetElementAttributes
 (
 JSContext
@@ -16434,7 +16434,7 @@ attrsp
 ;
 }
 static
-JSBool
+bool
 proxy_GetSpecialAttributes
 (
 JSContext
@@ -16473,7 +16473,7 @@ attrsp
 ;
 }
 static
-JSBool
+bool
 proxy_SetGenericAttributes
 (
 JSContext
@@ -16542,7 +16542,7 @@ desc
 ;
 }
 static
-JSBool
+bool
 proxy_SetPropertyAttributes
 (
 JSContext
@@ -16581,7 +16581,7 @@ attrsp
 ;
 }
 static
-JSBool
+bool
 proxy_SetElementAttributes
 (
 JSContext
@@ -16627,7 +16627,7 @@ attrsp
 ;
 }
 static
-JSBool
+bool
 proxy_SetSpecialAttributes
 (
 JSContext
@@ -16666,7 +16666,7 @@ attrsp
 ;
 }
 static
-JSBool
+bool
 proxy_DeleteGeneric
 (
 JSContext
@@ -16676,7 +16676,7 @@ HandleObject
 obj
 HandleId
 id
-JSBool
+bool
 *
 succeeded
 )
@@ -16717,7 +16717,7 @@ id
 ;
 }
 static
-JSBool
+bool
 proxy_DeleteProperty
 (
 JSContext
@@ -16727,7 +16727,7 @@ HandleObject
 obj
 HandlePropertyName
 name
-JSBool
+bool
 *
 succeeded
 )
@@ -16756,7 +16756,7 @@ succeeded
 ;
 }
 static
-JSBool
+bool
 proxy_DeleteElement
 (
 JSContext
@@ -16766,7 +16766,7 @@ HandleObject
 obj
 uint32_t
 index
-JSBool
+bool
 *
 succeeded
 )
@@ -16802,7 +16802,7 @@ succeeded
 ;
 }
 static
-JSBool
+bool
 proxy_DeleteSpecial
 (
 JSContext
@@ -16812,7 +16812,7 @@ HandleObject
 obj
 HandleSpecialId
 sid
-JSBool
+bool
 *
 succeeded
 )
@@ -17154,7 +17154,7 @@ obj
 ;
 }
 static
-JSBool
+bool
 proxy_Convert
 (
 JSContext
@@ -17242,7 +17242,7 @@ obj
 ;
 }
 static
-JSBool
+bool
 proxy_HasInstance
 (
 JSContext
@@ -17252,7 +17252,7 @@ HandleObject
 proxy
 MutableHandleValue
 v
-JSBool
+bool
 *
 bp
 )

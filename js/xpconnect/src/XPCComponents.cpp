@@ -269,7 +269,7 @@ NS_OK
 ;
 }
 static
-JSBool
+bool
 JSValIsInterfaceOfType
 (
 JSContext
@@ -7411,7 +7411,7 @@ MutableHandleValue
 rv
 )
 {
-JSBool
+bool
 found
 ;
 if
@@ -11834,7 +11834,7 @@ true
 ;
 }
 static
-JSBool
+bool
 sandbox_enumerate
 (
 JSContext
@@ -11853,7 +11853,7 @@ obj
 ;
 }
 static
-JSBool
+bool
 sandbox_resolve
 (
 JSContext
@@ -11865,7 +11865,7 @@ HandleId
 id
 )
 {
-JSBool
+bool
 resolved
 ;
 return
@@ -11938,7 +11938,7 @@ obj
 ;
 }
 static
-JSBool
+bool
 sandbox_convert
 (
 JSContext
@@ -12584,7 +12584,7 @@ true
 ;
 }
 extern
-JSBool
+bool
 XPC_WN_Helper_GetProperty
 (
 JSContext
@@ -12599,7 +12599,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 XPC_WN_Helper_SetProperty
 (
 JSContext
@@ -12609,7 +12609,7 @@ HandleObject
 obj
 HandleId
 id
-JSBool
+bool
 strict
 MutableHandleValue
 vp
@@ -14550,7 +14550,7 @@ char
 name
 MutableHandleValue
 prop
-JSBool
+bool
 *
 found
 )
@@ -14618,7 +14618,7 @@ value
 cx
 )
 ;
-JSBool
+bool
 found
 ;
 if
@@ -14702,7 +14702,7 @@ value
 cx
 )
 ;
-JSBool
+bool
 found
 ;
 if
@@ -14788,7 +14788,7 @@ value
 cx
 )
 ;
-JSBool
+bool
 found
 ;
 nsresult
@@ -15562,7 +15562,7 @@ NS_DECL_ISUPPORTS
 private
 :
 static
-JSBool
+bool
 ContextHolderOperationCallback
 (
 JSContext
@@ -15717,7 +15717,7 @@ mJSContext
 )
 ;
 }
-JSBool
+bool
 ContextHolder
 :
 :
@@ -15773,7 +15773,7 @@ JS_GetOperationCallback
 origCx
 )
 ;
-JSBool
+bool
 ok
 =
 true
@@ -17917,7 +17917,7 @@ vp
 )
 ;
 }
-JSBool
+bool
 WrapCallable
 (
 JSContext
@@ -20814,7 +20814,7 @@ NS_ERROR_XPC_CANT_MODIFY_PROP_ON_WN
 ;
 }
 static
-JSBool
+bool
 ContentComponentsGetterOp
 (
 JSContext
@@ -20940,7 +20940,7 @@ return
 true
 ;
 }
-JSBool
+bool
 nsXPCComponents
 :
 :

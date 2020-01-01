@@ -23,7 +23,7 @@ callCount
 0
 ;
 static
-JSBool
+bool
 addProperty
 (
 JSContext

@@ -545,7 +545,7 @@ aData
 )
 ;
 static
-JSBool
+bool
 ContextCallback
 (
 JSContext

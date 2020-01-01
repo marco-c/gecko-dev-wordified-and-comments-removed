@@ -95,7 +95,7 @@ gScriptSecurityManager
 ;
 }
 inline
-JSBool
+bool
 IsSecurityWrapper
 (
 JSObject

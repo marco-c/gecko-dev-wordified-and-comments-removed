@@ -702,7 +702,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 obj_lookupGeneric
 (
 JSContext
@@ -719,7 +719,7 @@ propp
 )
 ;
 static
-JSBool
+bool
 obj_lookupProperty
 (
 JSContext
@@ -736,7 +736,7 @@ propp
 )
 ;
 static
-JSBool
+bool
 obj_lookupElement
 (
 JSContext
@@ -753,7 +753,7 @@ propp
 )
 ;
 static
-JSBool
+bool
 obj_lookupSpecial
 (
 JSContext
@@ -770,7 +770,7 @@ propp
 )
 ;
 static
-JSBool
+bool
 obj_getGeneric
 (
 JSContext
@@ -787,7 +787,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 obj_getProperty
 (
 JSContext
@@ -804,7 +804,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 obj_getElement
 (
 JSContext
@@ -821,7 +821,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 obj_getElementIfPresent
 (
 JSContext
@@ -841,7 +841,7 @@ present
 )
 ;
 static
-JSBool
+bool
 obj_getSpecial
 (
 JSContext
@@ -858,7 +858,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 obj_setGeneric
 (
 JSContext
@@ -870,12 +870,12 @@ HandleId
 id
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 ;
 static
-JSBool
+bool
 obj_setProperty
 (
 JSContext
@@ -887,12 +887,12 @@ HandlePropertyName
 name
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 ;
 static
-JSBool
+bool
 obj_setElement
 (
 JSContext
@@ -904,12 +904,12 @@ uint32_t
 index
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 ;
 static
-JSBool
+bool
 obj_setSpecial
 (
 JSContext
@@ -921,12 +921,12 @@ HandleSpecialId
 sid
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 ;
 static
-JSBool
+bool
 obj_getGenericAttributes
 (
 JSContext
@@ -942,7 +942,7 @@ attrsp
 )
 ;
 static
-JSBool
+bool
 obj_getPropertyAttributes
 (
 JSContext
@@ -958,7 +958,7 @@ attrsp
 )
 ;
 static
-JSBool
+bool
 obj_getElementAttributes
 (
 JSContext
@@ -974,7 +974,7 @@ attrsp
 )
 ;
 static
-JSBool
+bool
 obj_getSpecialAttributes
 (
 JSContext
@@ -990,7 +990,7 @@ attrsp
 )
 ;
 static
-JSBool
+bool
 obj_enumerate
 (
 JSContext
@@ -1253,7 +1253,7 @@ obj
 )
 ;
 static
-JSBool
+bool
 obj_enumerate
 (
 JSContext
@@ -1270,7 +1270,7 @@ idp
 )
 ;
 static
-JSBool
+bool
 obj_getGeneric
 (
 JSContext
@@ -1287,7 +1287,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 obj_getProperty
 (
 JSContext
@@ -1304,7 +1304,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 obj_getSpecial
 (
 JSContext
@@ -1321,7 +1321,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 obj_setGeneric
 (
 JSContext
@@ -1333,12 +1333,12 @@ HandleId
 id
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 ;
 static
-JSBool
+bool
 obj_setProperty
 (
 JSContext
@@ -1350,7 +1350,7 @@ HandlePropertyName
 name
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 ;

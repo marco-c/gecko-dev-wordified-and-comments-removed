@@ -1288,7 +1288,7 @@ cx
 reportJSONEror
 )
 ;
-JSBool
+bool
 ok
 =
 JS_ParseJSON

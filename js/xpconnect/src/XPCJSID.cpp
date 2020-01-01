@@ -4071,7 +4071,7 @@ return
 nullptr
 ;
 }
-JSBool
+bool
 xpc_JSObjectIsID
 (
 JSContext

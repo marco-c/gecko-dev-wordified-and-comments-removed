@@ -36,7 +36,7 @@ XPCWrappedNative
 namespace
 xpc
 {
-JSBool
+bool
 holder_get
 (
 JSContext
@@ -59,7 +59,7 @@ MutableHandleValue
 vp
 )
 ;
-JSBool
+bool
 holder_set
 (
 JSContext
@@ -75,7 +75,7 @@ JS
 :
 HandleId
 id
-JSBool
+bool
 strict
 JS
 :

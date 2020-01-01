@@ -2236,7 +2236,7 @@ aObj
 )
 )
 ;
-JSBool
+bool
 hasIndexedDB
 ;
 if

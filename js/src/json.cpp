@@ -788,7 +788,7 @@ depth
 }
 ;
 static
-JSBool
+bool
 Str
 (
 JSContext
@@ -804,7 +804,7 @@ scx
 )
 ;
 static
-JSBool
+bool
 WriteIndent
 (
 JSContext
@@ -1458,7 +1458,7 @@ v
 ;
 }
 static
-JSBool
+bool
 JO
 (
 JSContext
@@ -1900,7 +1900,7 @@ append
 ;
 }
 static
-JSBool
+bool
 JA
 (
 JSContext
@@ -2191,7 +2191,7 @@ append
 ;
 }
 static
-JSBool
+bool
 Str
 (
 JSContext
@@ -2417,7 +2417,7 @@ depth
 +
 +
 ;
-JSBool
+bool
 ok
 ;
 if
@@ -2459,7 +2459,7 @@ return
 ok
 ;
 }
-JSBool
+bool
 js_Stringify
 (
 JSContext
@@ -3386,7 +3386,7 @@ isUndefined
 )
 )
 {
-JSBool
+bool
 succeeded
 ;
 if
@@ -3527,7 +3527,7 @@ isUndefined
 )
 )
 {
-JSBool
+bool
 succeeded
 ;
 if

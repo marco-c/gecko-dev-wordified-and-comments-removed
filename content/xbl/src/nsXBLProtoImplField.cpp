@@ -476,7 +476,7 @@ HAS_PRIVATE_NSISUPPORTS
 ;
 }
 static
-JSBool
+bool
 InstallXBLField
 (
 JSContext
@@ -1443,7 +1443,7 @@ address
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-JSBool
+bool
 found
 =
 false

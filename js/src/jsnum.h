@@ -423,7 +423,7 @@ vp
 ;
 }
 extern
-JSBool
+bool
 js_strtod
 (
 js

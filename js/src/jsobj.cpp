@@ -704,7 +704,7 @@ template
 AllowGC
 allowGC
 >
-JSBool
+bool
 js
 :
 :
@@ -958,7 +958,7 @@ true
 ;
 }
 template
-JSBool
+bool
 js
 :
 :
@@ -983,7 +983,7 @@ propp
 )
 ;
 template
-JSBool
+bool
 js
 :
 :
@@ -2826,7 +2826,7 @@ false
 ;
 }
 static
-JSBool
+bool
 Reject
 (
 JSContext
@@ -2865,7 +2865,7 @@ true
 ;
 }
 static
-JSBool
+bool
 Reject
 (
 JSContext
@@ -3130,7 +3130,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DefinePropertyOnObject
 (
 JSContext
@@ -4734,7 +4734,7 @@ if
 callDelProperty
 )
 {
-JSBool
+bool
 succeeded
 ;
 if
@@ -4779,7 +4779,7 @@ attrs
 ;
 }
 static
-JSBool
+bool
 DefinePropertyOnArray
 (
 JSContext
@@ -5255,7 +5255,7 @@ rval
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -5270,7 +5270,7 @@ HandleId
 id
 HandleValue
 descriptor
-JSBool
+bool
 *
 bp
 )
@@ -5342,7 +5342,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -5359,7 +5359,7 @@ const
 PropertyDescriptor
 &
 descriptor
-JSBool
+bool
 *
 bp
 )
@@ -5857,7 +5857,7 @@ true
 ;
 }
 extern
-JSBool
+bool
 js_PopulateObject
 (
 JSContext
@@ -9299,7 +9299,7 @@ return
 flags
 ;
 }
-JSBool
+bool
 JSObject
 :
 :
@@ -9314,7 +9314,7 @@ HandleId
 id
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 {
@@ -9385,7 +9385,7 @@ strict
 )
 ;
 }
-JSBool
+bool
 JSObject
 :
 :
@@ -9400,7 +9400,7 @@ uint32_t
 index
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 {
@@ -9506,7 +9506,7 @@ const
 Value
 &
 property
-JSBool
+bool
 *
 succeeded
 )
@@ -12935,7 +12935,7 @@ if
 named
 )
 {
-JSBool
+bool
 succeeded
 ;
 JSObject
@@ -17384,7 +17384,7 @@ return
 shape
 ;
 }
-JSBool
+bool
 baseops
 :
 :
@@ -17422,7 +17422,7 @@ attrs
 )
 ;
 }
-JSBool
+bool
 JSObject
 :
 :
@@ -17523,7 +17523,7 @@ attrs
 )
 ;
 }
-JSBool
+bool
 JSObject
 :
 :
@@ -17570,7 +17570,7 @@ attrs
 )
 ;
 }
-JSBool
+bool
 JSObject
 :
 :
@@ -17616,7 +17616,7 @@ attrs
 )
 ;
 }
-JSBool
+bool
 baseops
 :
 :
@@ -17718,7 +17718,7 @@ attrs
 )
 ;
 }
-JSBool
+bool
 JSObject
 :
 :
@@ -19234,7 +19234,7 @@ value
 }
 static
 JS_ALWAYS_INLINE
-JSBool
+bool
 CallResolveOp
 (
 JSContext
@@ -19946,7 +19946,7 @@ template
 AllowGC
 allowGC
 >
-JSBool
+bool
 baseops
 :
 :
@@ -20038,7 +20038,7 @@ propp
 ;
 }
 template
-JSBool
+bool
 baseops
 :
 :
@@ -20061,7 +20061,7 @@ propp
 )
 ;
 template
-JSBool
+bool
 baseops
 :
 :
@@ -20092,7 +20092,7 @@ Shape
 propp
 )
 ;
-JSBool
+bool
 JSObject
 :
 :
@@ -20161,7 +20161,7 @@ propp
 )
 ;
 }
-JSBool
+bool
 baseops
 :
 :
@@ -20615,7 +20615,7 @@ allowGC
 >
 static
 JS_ALWAYS_INLINE
-JSBool
+bool
 NativeGetInline
 (
 JSContext
@@ -21025,7 +21025,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js_NativeGet
 (
 JSContext
@@ -21074,7 +21074,7 @@ vp
 )
 ;
 }
-JSBool
+bool
 js_NativeSet
 (
 JSContext
@@ -21311,7 +21311,7 @@ allowGC
 >
 static
 JS_ALWAYS_INLINE
-JSBool
+bool
 GetPropertyHelperInline
 (
 JSContext
@@ -21942,7 +21942,7 @@ vp
 )
 ;
 }
-JSBool
+bool
 baseops
 :
 :
@@ -21976,7 +21976,7 @@ vp
 )
 ;
 }
-JSBool
+bool
 baseops
 :
 :
@@ -22810,7 +22810,7 @@ vp
 )
 ;
 }
-JSBool
+bool
 baseops
 :
 :
@@ -22864,7 +22864,7 @@ vp
 )
 ;
 }
-JSBool
+bool
 baseops
 :
 :
@@ -23357,7 +23357,7 @@ vp
 )
 ;
 }
-JSBool
+bool
 baseops
 :
 :
@@ -23376,7 +23376,7 @@ unsigned
 defineHow
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 {
@@ -24225,7 +24225,7 @@ vp
 )
 ;
 }
-JSBool
+bool
 baseops
 :
 :
@@ -24244,7 +24244,7 @@ unsigned
 defineHow
 MutableHandleValue
 vp
-JSBool
+bool
 strict
 )
 {
@@ -24284,7 +24284,7 @@ strict
 )
 ;
 }
-JSBool
+bool
 baseops
 :
 :
@@ -24386,7 +24386,7 @@ return
 true
 ;
 }
-JSBool
+bool
 baseops
 :
 :
@@ -24485,7 +24485,7 @@ return
 true
 ;
 }
-JSBool
+bool
 baseops
 :
 :
@@ -24625,7 +24625,7 @@ attrsp
 )
 ;
 }
-JSBool
+bool
 baseops
 :
 :
@@ -24774,7 +24774,7 @@ attrsp
 )
 ;
 }
-JSBool
+bool
 baseops
 :
 :
@@ -24787,7 +24787,7 @@ HandleObject
 obj
 HandleId
 id
-JSBool
+bool
 *
 succeeded
 )
@@ -25021,7 +25021,7 @@ id
 )
 ;
 }
-JSBool
+bool
 baseops
 :
 :
@@ -25034,7 +25034,7 @@ HandleObject
 obj
 HandlePropertyName
 name
-JSBool
+bool
 *
 succeeded
 )
@@ -25065,7 +25065,7 @@ succeeded
 )
 ;
 }
-JSBool
+bool
 baseops
 :
 :
@@ -25078,7 +25078,7 @@ HandleObject
 obj
 uint32_t
 index
-JSBool
+bool
 *
 succeeded
 )
@@ -25116,7 +25116,7 @@ succeeded
 )
 ;
 }
-JSBool
+bool
 baseops
 :
 :
@@ -25129,7 +25129,7 @@ HandleObject
 obj
 HandleSpecialId
 sid
-JSBool
+bool
 *
 succeeded
 )
@@ -25348,7 +25348,7 @@ vp
 }
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 js
 :
@@ -25841,7 +25841,7 @@ false
 }
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_EnumerateState
 (
@@ -25951,7 +25951,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -25974,7 +25974,7 @@ unsigned
 attrsp
 )
 {
-JSBool
+bool
 writing
 ;
 RootedObject
@@ -26808,7 +26808,7 @@ toBoolean
 )
 ;
 }
-JSBool
+bool
 js_PrimitiveToObject
 (
 JSContext
@@ -26851,7 +26851,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js_ValueToObjectOrNull
 (
 JSContext
@@ -27395,7 +27395,7 @@ KEY
 }
 }
 }
-JSBool
+bool
 js_ReportGetterOnlyAssignment
 (
 JSContext
@@ -27424,7 +27424,7 @@ JSMSG_GETTER_ONLY
 }
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 js_GetterOnlyPropertyStub
 (
@@ -27435,7 +27435,7 @@ HandleObject
 obj
 HandleId
 id
-JSBool
+bool
 strict
 MutableHandleValue
 vp

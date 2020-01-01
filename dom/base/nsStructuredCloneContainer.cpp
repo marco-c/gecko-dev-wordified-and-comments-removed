@@ -439,7 +439,7 @@ jsStateObj
 aCx
 )
 ;
-JSBool
+bool
 hasTransferable
 =
 false

@@ -846,7 +846,7 @@ data
 )
 ;
 static
-JSBool
+bool
 DOMOperationCallback
 (
 JSContext
@@ -1015,7 +1015,7 @@ void
 closure
 )
 ;
-JSBool
+bool
 NS_DOMWriteStructuredClone
 (
 JSContext

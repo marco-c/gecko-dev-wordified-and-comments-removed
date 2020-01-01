@@ -281,7 +281,7 @@ true
 endif
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_StartProfiling
 (
@@ -291,7 +291,7 @@ char
 profileName
 )
 {
-JSBool
+bool
 ok
 =
 true
@@ -330,7 +330,7 @@ ok
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_StopProfiling
 (
@@ -340,7 +340,7 @@ char
 profileName
 )
 {
-JSBool
+bool
 ok
 =
 true
@@ -396,14 +396,14 @@ ok
 ;
 }
 static
-JSBool
+bool
 ControlProfilers
 (
 bool
 toState
 )
 {
-JSBool
+bool
 ok
 =
 true
@@ -616,7 +616,7 @@ ok
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_PauseProfilers
 (
@@ -635,7 +635,7 @@ false
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ResumeProfilers
 (
@@ -654,7 +654,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DumpProfile
 (
@@ -668,7 +668,7 @@ char
 profileName
 )
 {
-JSBool
+bool
 ok
 =
 true
@@ -1716,7 +1716,7 @@ JS_FS_END
 endif
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DefineProfilingFunctions
 (
@@ -1765,7 +1765,7 @@ ifdef
 MOZ_CALLGRIND
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 js_StartCallgrind
 (
@@ -1787,7 +1787,7 @@ true
 }
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 js_StopCallgrind
 (
@@ -1804,7 +1804,7 @@ true
 }
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 js_DumpCallgrind
 (
@@ -1880,7 +1880,7 @@ perfPid
 =
 0
 ;
-JSBool
+bool
 js_StartPerf
 (
 )
@@ -2265,7 +2265,7 @@ false
 ;
 }
 }
-JSBool
+bool
 js_StopPerf
 (
 )

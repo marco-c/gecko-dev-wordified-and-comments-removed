@@ -1397,7 +1397,7 @@ get
 )
 )
 ;
-JSBool
+bool
 hasProp
 ;
 if

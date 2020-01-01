@@ -3116,7 +3116,7 @@ forget
 )
 ;
 }
-JSBool
+bool
 nsJSContext
 :
 :
@@ -3344,7 +3344,7 @@ cx
 unsigned
 lineno
 ;
-JSBool
+bool
 hasFrame
 =
 :
@@ -14500,7 +14500,7 @@ return
 nullptr
 ;
 }
-JSBool
+bool
 NS_DOMWriteStructuredClone
 (
 JSContext

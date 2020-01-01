@@ -752,7 +752,7 @@ Debugger
 >
 ;
 friend
-JSBool
+bool
 (
 :
 :
@@ -2953,7 +2953,7 @@ global
 ;
 }
 extern
-JSBool
+bool
 EvaluateInEnv
 (
 JSContext

@@ -27957,7 +27957,7 @@ nullptr
 ;
 }
 static
-JSBool
+bool
 PostMessageWriteStructuredClone
 (
 JSContext

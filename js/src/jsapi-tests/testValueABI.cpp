@@ -15,7 +15,7 @@ C
 "
 {
 extern
-JSBool
+bool
 C_ValueToObject
 (
 JSContext
@@ -92,7 +92,7 @@ address
 )
 )
 ;
-JSBool
+bool
 equal
 ;
 CHECK

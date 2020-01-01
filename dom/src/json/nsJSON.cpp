@@ -727,7 +727,7 @@ rv
 ;
 }
 static
-JSBool
+bool
 WriteCallback
 (
 const
@@ -2327,7 +2327,7 @@ Length
 )
 )
 ;
-JSBool
+bool
 ok
 =
 JS_ParseJSONWithReviver

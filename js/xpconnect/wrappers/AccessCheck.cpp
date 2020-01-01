@@ -1574,7 +1574,7 @@ cx
 wrappedObject
 )
 ;
-JSBool
+bool
 found
 =
 false

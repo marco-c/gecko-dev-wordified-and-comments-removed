@@ -206,7 +206,7 @@ cx
 )
 simpleSource
 (
-JSBool
+bool
 *
 )
 data
@@ -215,7 +215,7 @@ data
 *
 (
 (
-JSBool
+bool
 *
 )
 data
@@ -238,7 +238,7 @@ opts
 cx
 )
 ;
-JSBool
+bool
 match
 =
 false

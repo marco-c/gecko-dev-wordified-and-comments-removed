@@ -102,7 +102,7 @@ Workers
 .
 h
 "
-JSBool
+bool
 nsJSPrincipals
 :
 :

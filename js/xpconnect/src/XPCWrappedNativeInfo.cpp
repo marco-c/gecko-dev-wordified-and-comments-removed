@@ -38,7 +38,7 @@ using
 namespace
 mozilla
 ;
-JSBool
+bool
 XPCNativeMember
 :
 :
@@ -119,7 +119,7 @@ return
 true
 ;
 }
-JSBool
+bool
 XPCNativeMember
 :
 :
@@ -172,7 +172,7 @@ pval
 )
 ;
 }
-JSBool
+bool
 XPCNativeMember
 :
 :
@@ -1012,7 +1012,7 @@ nullptr
 int
 i
 ;
-JSBool
+bool
 failed
 =
 false

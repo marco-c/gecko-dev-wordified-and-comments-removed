@@ -2476,7 +2476,7 @@ isString
 return
 ;
 }
-JSBool
+bool
 match
 ;
 if

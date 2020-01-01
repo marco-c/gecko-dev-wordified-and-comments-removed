@@ -13,7 +13,7 @@ GeckoProfilerImpl
 h
 "
 static
-JSBool
+bool
 WriteCallback
 (
 const

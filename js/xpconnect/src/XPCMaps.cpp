@@ -2503,7 +2503,7 @@ mTable
 )
 ;
 }
-JSBool
+bool
 XPCNativeScriptableSharedMap
 :
 :

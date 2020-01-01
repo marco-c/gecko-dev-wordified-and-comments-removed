@@ -1357,7 +1357,7 @@ cx
 rs
 )
 ;
-JSBool
+bool
 found
 ;
 if
@@ -1929,7 +1929,7 @@ obj
 return
 false
 ;
-JSBool
+bool
 extensible
 ;
 if
@@ -2453,7 +2453,7 @@ v
 cx
 )
 ;
-JSBool
+bool
 found
 ;
 if
@@ -3042,7 +3042,7 @@ cx
 obj
 )
 ;
-JSBool
+bool
 tmp
 ;
 if

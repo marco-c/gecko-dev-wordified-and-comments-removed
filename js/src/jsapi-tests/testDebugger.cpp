@@ -47,9 +47,9 @@ JSAbstractFramePtr
 frame
 bool
 isConstructing
-JSBool
+bool
 before
-JSBool
+bool
 *
 ok
 void
@@ -218,9 +218,9 @@ JSAbstractFramePtr
 frame
 bool
 isConstructing
-JSBool
+bool
 before
-JSBool
+bool
 *
 ok
 void
@@ -511,9 +511,9 @@ JSAbstractFramePtr
 frame
 bool
 isConstructing
-JSBool
+bool
 before
-JSBool
+bool
 *
 ok
 void

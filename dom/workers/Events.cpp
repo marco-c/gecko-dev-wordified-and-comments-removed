@@ -729,9 +729,9 @@ aEvent
 JSString
 *
 aType
-JSBool
+bool
 aBubbles
-JSBool
+bool
 aCancelable
 bool
 aIsTrusted
@@ -909,7 +909,7 @@ aObj
 ;
 }
 static
-JSBool
+bool
 GetProperty
 (
 JSContext
@@ -1006,7 +1006,7 @@ true
 ;
 }
 static
-JSBool
+bool
 GetConstant
 (
 JSContext
@@ -1405,7 +1405,7 @@ type
 aCx
 )
 ;
-JSBool
+bool
 bubbles
 cancelable
 ;
@@ -2195,9 +2195,9 @@ aEvent
 JSString
 *
 aType
-JSBool
+bool
 aBubbles
-JSBool
+bool
 aCancelable
 JSString
 *
@@ -2341,7 +2341,7 @@ priv
 ;
 }
 static
-JSBool
+bool
 GetProperty
 (
 JSContext
@@ -2655,7 +2655,7 @@ origin
 aCx
 )
 ;
-JSBool
+bool
 bubbles
 cancelable
 ;
@@ -3264,9 +3264,9 @@ aEvent
 JSString
 *
 aType
-JSBool
+bool
 aBubbles
-JSBool
+bool
 aCancelable
 JSString
 *
@@ -3387,7 +3387,7 @@ aObj
 ;
 }
 static
-JSBool
+bool
 GetProperty
 (
 JSContext
@@ -3591,7 +3591,7 @@ filename
 aCx
 )
 ;
-JSBool
+bool
 bubbles
 cancelable
 ;
@@ -4124,11 +4124,11 @@ aEvent
 JSString
 *
 aType
-JSBool
+bool
 aBubbles
-JSBool
+bool
 aCancelable
-JSBool
+bool
 aLengthComputable
 double
 aLoaded
@@ -4247,7 +4247,7 @@ aObj
 ;
 }
 static
-JSBool
+bool
 GetProperty
 (
 JSContext
@@ -4974,7 +4974,7 @@ kFunctionName
 dispatchEvent
 "
 ;
-JSBool
+bool
 hasProperty
 ;
 if
@@ -4994,7 +4994,7 @@ return
 false
 ;
 }
-JSBool
+bool
 preventDefaultCalled
 =
 false

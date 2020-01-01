@@ -97,7 +97,7 @@ address
 )
 )
 ;
-JSBool
+bool
 hasProp
 =
 true

@@ -5,7 +5,7 @@ jsapi
 .
 h
 "
-JSBool
+bool
 C_ValueToObject
 (
 JSContext

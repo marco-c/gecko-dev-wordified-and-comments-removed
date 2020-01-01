@@ -1602,7 +1602,7 @@ method
 thisObject
 )
 ;
-JSBool
+bool
 ok
 =
 true

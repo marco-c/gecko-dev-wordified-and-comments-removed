@@ -121,7 +121,7 @@ filename
 FILE
 *
 file
-JSBool
+bool
 forceTTY
 )
 ;
@@ -184,7 +184,7 @@ mQuitting
 true
 ;
 }
-JSBool
+bool
 IsQuitting
 (
 )
@@ -209,7 +209,7 @@ private
 nsAutoJSValHolder
 mGlobalHolder
 ;
-JSBool
+bool
 mQuitting
 ;
 }

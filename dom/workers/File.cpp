@@ -468,7 +468,7 @@ blob
 ;
 }
 static
-JSBool
+bool
 GetSize
 (
 JSContext
@@ -573,7 +573,7 @@ true
 ;
 }
 static
-JSBool
+bool
 GetType
 (
 JSContext
@@ -1377,7 +1377,7 @@ file
 ;
 }
 static
-JSBool
+bool
 GetMozFullPath
 (
 JSContext
@@ -1518,7 +1518,7 @@ true
 ;
 }
 static
-JSBool
+bool
 GetName
 (
 JSContext
@@ -1645,7 +1645,7 @@ true
 ;
 }
 static
-JSBool
+bool
 GetLastModifiedDate
 (
 JSContext

@@ -348,7 +348,7 @@ return
 mType
 ;
 }
-JSBool
+bool
 GetPropertyHelper
 (
 NPIdentifier

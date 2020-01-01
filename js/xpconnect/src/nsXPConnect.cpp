@@ -356,7 +356,7 @@ gSelf
 =
 nullptr
 ;
-JSBool
+bool
 nsXPConnect
 :
 :
@@ -372,7 +372,7 @@ gReportAllJSExceptions
 =
 0
 ;
-JSBool
+bool
 xpc
 :
 :
@@ -380,7 +380,7 @@ gDebugMode
 =
 false
 ;
-JSBool
+bool
 xpc
 :
 :
@@ -1019,7 +1019,7 @@ GetRuntime
 )
 ;
 }
-JSBool
+bool
 nsXPConnect
 :
 :
@@ -1422,7 +1422,7 @@ return
 NS_OK
 ;
 }
-JSBool
+bool
 xpc_GCThingIsGrayCCThing
 (
 void

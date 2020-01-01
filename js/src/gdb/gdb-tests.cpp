@@ -87,7 +87,7 @@ ptr
 void
 checkBool
 (
-JSBool
+bool
 success
 )
 {

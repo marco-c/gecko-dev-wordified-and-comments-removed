@@ -121,7 +121,7 @@ NULL
 )
 {
 }
-JSBool
+bool
 SetCallback
 (
 JSContext
@@ -134,7 +134,7 @@ Value
 aCallback
 )
 ;
-JSBool
+bool
 RunCallback
 (
 const

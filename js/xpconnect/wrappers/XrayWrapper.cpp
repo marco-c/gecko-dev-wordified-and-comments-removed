@@ -2453,7 +2453,7 @@ id
 )
 ;
 }
-JSBool
+bool
 holder_get
 (
 JSContext
@@ -2581,7 +2581,7 @@ return
 true
 ;
 }
-JSBool
+bool
 holder_set
 (
 JSContext
@@ -2591,7 +2591,7 @@ HandleObject
 wrapper
 HandleId
 id
-JSBool
+bool
 strict
 MutableHandleValue
 vp
@@ -3650,7 +3650,7 @@ attrs
 ;
 }
 static
-JSBool
+bool
 wrappedJSObject_getter
 (
 JSContext
@@ -4059,7 +4059,7 @@ cx
 )
 )
 ;
-JSBool
+bool
 hasProp
 ;
 if
@@ -4486,7 +4486,7 @@ n
 ]
 )
 ;
-JSBool
+bool
 hasProp
 ;
 if
@@ -5933,7 +5933,7 @@ return
 true
 ;
 }
-JSBool
+bool
 found
 =
 false

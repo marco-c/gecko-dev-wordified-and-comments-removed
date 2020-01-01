@@ -77,7 +77,7 @@ JS
 :
 HandleObject
 obj
-JSBool
+bool
 keysonly
 )
 {

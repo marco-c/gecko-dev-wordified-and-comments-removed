@@ -660,7 +660,7 @@ address
 )
 )
 ;
-JSBool
+bool
 match
 ;
 CHECK

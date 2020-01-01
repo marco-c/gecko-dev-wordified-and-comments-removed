@@ -1518,7 +1518,7 @@ id
 vp
 )
 ;
-JSBool
+bool
 ok
 =
 op
@@ -1556,7 +1556,7 @@ HandleObject
 obj
 HandleId
 id
-JSBool
+bool
 strict
 MutableHandleValue
 vp
@@ -1602,7 +1602,7 @@ HandleObject
 receiver
 HandleId
 id
-JSBool
+bool
 *
 succeeded
 )
@@ -1648,7 +1648,7 @@ unsigned
 attrs
 unsigned
 shortid
-JSBool
+bool
 strict
 MutableHandleValue
 vp

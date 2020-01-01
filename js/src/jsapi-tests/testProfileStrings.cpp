@@ -1450,7 +1450,7 @@ rval
 cx
 )
 ;
-JSBool
+bool
 ok
 =
 JS_CallFunctionName

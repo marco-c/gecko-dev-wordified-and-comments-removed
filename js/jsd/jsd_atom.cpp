@@ -325,7 +325,7 @@ str
 )
 ;
 }
-JSBool
+bool
 jsd_CreateAtomTable
 (
 JSDContext

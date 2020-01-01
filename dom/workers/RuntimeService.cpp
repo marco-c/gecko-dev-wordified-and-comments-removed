@@ -2645,7 +2645,7 @@ aReport
 )
 ;
 }
-JSBool
+bool
 OperationCallback
 (
 JSContext
@@ -3015,7 +3015,7 @@ NS_OK
 }
 }
 ;
-JSBool
+bool
 ContentSecurityPolicyAllows
 (
 JSContext
@@ -3911,7 +3911,7 @@ NS_OK
 ;
 }
 BEGIN_WORKERS_NAMESPACE
-JSBool
+bool
 ResolveWorkerClasses
 (
 JSContext

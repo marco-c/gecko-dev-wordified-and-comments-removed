@@ -109,7 +109,7 @@ inl
 h
 "
 inline
-JSBool
+bool
 JSObject
 :
 :
@@ -185,7 +185,7 @@ attrsp
 ;
 }
 inline
-JSBool
+bool
 JSObject
 :
 :
@@ -237,7 +237,7 @@ attrsp
 ;
 }
 inline
-JSBool
+bool
 JSObject
 :
 :
@@ -297,7 +297,7 @@ attrsp
 ;
 }
 inline
-JSBool
+bool
 JSObject
 :
 :
@@ -413,7 +413,7 @@ js
 :
 HandlePropertyName
 name
-JSBool
+bool
 *
 succeeded
 )
@@ -527,7 +527,7 @@ HandleObject
 obj
 uint32_t
 index
-JSBool
+bool
 *
 succeeded
 )
@@ -654,7 +654,7 @@ js
 :
 HandleSpecialId
 sid
-JSBool
+bool
 *
 succeeded
 )
@@ -4461,7 +4461,7 @@ value
 ;
 }
 inline
-JSBool
+bool
 JSObject
 :
 :
@@ -4557,7 +4557,7 @@ vp
 ;
 }
 inline
-JSBool
+bool
 JSObject
 :
 :
@@ -4637,7 +4637,7 @@ vp
 ;
 }
 inline
-JSBool
+bool
 JSObject
 :
 :
@@ -4792,7 +4792,7 @@ vp
 ;
 }
 inline
-JSBool
+bool
 JSObject
 :
 :
@@ -7384,7 +7384,7 @@ propp
 ;
 }
 inline
-JSBool
+bool
 DefineProperty
 (
 ExclusiveContext

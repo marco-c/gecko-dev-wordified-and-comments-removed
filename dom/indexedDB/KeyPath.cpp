@@ -186,7 +186,7 @@ JSVAL_TO_STRING
 stringVal
 )
 ;
-JSBool
+bool
 isIdentifier
 =
 false
@@ -481,7 +481,7 @@ Length
 (
 )
 ;
-JSBool
+bool
 hasProp
 ;
 if
@@ -500,7 +500,7 @@ return
 NS_ERROR_DOM_INDEXEDDB_DATA_ERR
 ;
 }
-JSBool
+bool
 ok
 =
 JS_HasUCProperty
@@ -539,7 +539,7 @@ intermediate
 aCx
 )
 ;
-JSBool
+bool
 ok
 =
 JS_GetUCProperty

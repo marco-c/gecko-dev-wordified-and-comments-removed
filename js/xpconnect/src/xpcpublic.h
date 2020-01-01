@@ -459,7 +459,7 @@ nullptr
 ;
 }
 inline
-JSBool
+bool
 xpc_IsGrayGCThing
 (
 void
@@ -478,7 +478,7 @@ thing
 ;
 }
 extern
-JSBool
+bool
 xpc_GCThingIsGrayCCThing
 (
 void

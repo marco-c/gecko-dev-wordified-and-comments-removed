@@ -2045,7 +2045,7 @@ obj
 )
 )
 {
-JSBool
+bool
 found
 ;
 if

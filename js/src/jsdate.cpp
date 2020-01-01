@@ -1987,7 +1987,7 @@ milli
 ;
 }
 static
-JSBool
+bool
 date_convert
 (
 JSContext
@@ -2270,7 +2270,7 @@ ttb
 }
 ;
 static
-JSBool
+bool
 date_regionMatches
 (
 const
@@ -2291,7 +2291,7 @@ int
 ignoreCase
 )
 {
-JSBool
+bool
 result
 =
 false
@@ -2445,7 +2445,7 @@ define
 MAXARGS
 7
 static
-JSBool
+bool
 date_msecFromArgs
 (
 JSContext
@@ -2708,7 +2708,7 @@ true
 ;
 }
 static
-JSBool
+bool
 digits
 (
 size_t
@@ -2811,7 +2811,7 @@ init
 ;
 }
 static
-JSBool
+bool
 fractional
 (
 double
@@ -2926,7 +2926,7 @@ init
 ;
 }
 static
-JSBool
+bool
 ndigits
 (
 size_t
@@ -3032,7 +3032,7 @@ result
 ;
 }
 static
-JSBool
+bool
 date_parseISOString
 (
 JSLinearString
@@ -3781,7 +3781,7 @@ undef
 NEED_NDIGITS
 }
 static
-JSBool
+bool
 date_parseString
 (
 JSLinearString
@@ -3870,7 +3870,7 @@ prevc
 =
 0
 ;
-JSBool
+bool
 seenplusminus
 =
 false
@@ -3878,7 +3878,7 @@ false
 int
 temp
 ;
-JSBool
+bool
 seenmonthname
 =
 false
@@ -12583,7 +12583,7 @@ FORMATSPEC_TIME
 formatspec
 ;
 static
-JSBool
+bool
 date_format
 (
 JSContext
@@ -12609,7 +12609,7 @@ tzbuf
 100
 ]
 ;
-JSBool
+bool
 usetz
 ;
 size_t
@@ -15707,7 +15707,7 @@ dateTimeInfo
 }
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 js_DateIsValid
 (

@@ -3208,7 +3208,7 @@ aStatus
 )
 ;
 }
-JSBool
+bool
 CycleCollectedJSRuntime
 :
 :

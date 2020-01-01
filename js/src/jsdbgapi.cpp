@@ -207,7 +207,7 @@ PodZero
 ;
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetDebugMode
 (
@@ -232,14 +232,14 @@ debugMode
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetDebugMode
 (
 JSContext
 *
 cx
-JSBool
+bool
 debug
 )
 {
@@ -266,7 +266,7 @@ JS_SetRuntimeDebugMode
 JSRuntime
 *
 rt
-JSBool
+bool
 debug
 )
 {
@@ -601,7 +601,7 @@ interpreterFrame
 )
 )
 ;
-JSBool
+bool
 ok
 =
 okArg
@@ -936,14 +936,14 @@ status
 }
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_SetDebugModeForAllCompartments
 (
 JSContext
 *
 cx
-JSBool
+bool
 debug
 )
 {
@@ -1019,7 +1019,7 @@ true
 }
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 JS_SetDebugModeForCompartment
 (
@@ -1029,7 +1029,7 @@ cx
 JSCompartment
 *
 comp
-JSBool
+bool
 debug
 )
 {
@@ -1059,7 +1059,7 @@ dmgc
 ;
 }
 static
-JSBool
+bool
 CheckDebugMode
 (
 JSContext
@@ -1067,7 +1067,7 @@ JSContext
 cx
 )
 {
-JSBool
+bool
 debugMode
 =
 JS_GetDebugMode
@@ -1097,7 +1097,7 @@ debugMode
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetSingleStepMode
 (
@@ -1107,7 +1107,7 @@ cx
 JSScript
 *
 scriptArg
-JSBool
+bool
 singleStep
 )
 {
@@ -1148,7 +1148,7 @@ singleStep
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetTrap
 (
@@ -1390,7 +1390,7 @@ defaultFreeOp
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetInterrupt
 (
@@ -1455,7 +1455,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ClearInterrupt
 (
@@ -1523,7 +1523,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetWatchPoint
 (
@@ -1836,7 +1836,7 @@ closure
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ClearWatchPoint
 (
@@ -1897,7 +1897,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ClearWatchPointsForObject
 (
@@ -1945,7 +1945,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ClearAllWatchPoints
 (
@@ -2073,7 +2073,7 @@ length
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetLinePCs
 (
@@ -2379,7 +2379,7 @@ nargs
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_FunctionHasLocalNames
 (
@@ -3182,7 +3182,7 @@ callerdata
 ;
 }
 static
-JSBool
+bool
 GetPropertyDesc
 (
 JSContext
@@ -3226,7 +3226,7 @@ cx
 obj_
 )
 ;
-JSBool
+bool
 wasThrowing
 =
 cx
@@ -3447,7 +3447,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_GetPropertyDescArray
 (
@@ -4179,7 +4179,7 @@ length
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetDebuggerHandler
 (
@@ -4217,7 +4217,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetSourceHandler
 (
@@ -4255,7 +4255,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetExecuteHook
 (
@@ -4293,7 +4293,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetCallHook
 (
@@ -4331,7 +4331,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetThrowHook
 (
@@ -4369,7 +4369,7 @@ true
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_SetDebugErrorHook
 (
@@ -5126,7 +5126,7 @@ endif
 }
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 js_CallContextDebugHandler
 (
@@ -5649,11 +5649,11 @@ char
 buf
 int
 num
-JSBool
+bool
 showArgs
-JSBool
+bool
 showLocals
-JSBool
+bool
 showThisProps
 )
 {
@@ -7082,11 +7082,11 @@ cx
 char
 *
 buf
-JSBool
+bool
 showArgs
-JSBool
+bool
 showLocals
-JSBool
+bool
 showThisProps
 )
 {

@@ -910,7 +910,7 @@ jsval
 vp
 )
 {
-JSBool
+bool
 compartment
 =
 false

@@ -914,7 +914,7 @@ return
 NS_OK
 ;
 }
-JSBool
+bool
 match
 ;
 if

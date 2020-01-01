@@ -244,7 +244,7 @@ ths
 ;
 }
 static
-JSBool
+bool
 LocaleToUpperCase
 (
 JSContext
@@ -267,7 +267,7 @@ ToUpperCase
 ;
 }
 static
-JSBool
+bool
 LocaleToLowerCase
 (
 JSContext
@@ -290,7 +290,7 @@ ToLowerCase
 ;
 }
 static
-JSBool
+bool
 LocaleToUnicode
 (
 JSContext
@@ -323,7 +323,7 @@ rval
 ;
 }
 static
-JSBool
+bool
 LocaleCompare
 (
 JSContext
@@ -359,7 +359,7 @@ rval
 private
 :
 static
-JSBool
+bool
 ChangeCase
 (
 JSContext
@@ -458,7 +458,7 @@ return
 true
 ;
 }
-JSBool
+bool
 Compare
 (
 JSContext
@@ -674,7 +674,7 @@ return
 true
 ;
 }
-JSBool
+bool
 ToUnicode
 (
 JSContext

@@ -646,19 +646,19 @@ gIgnoreReportedErrors
 =
 false
 ;
-JSBool
+bool
 gQuitting
 =
 false
 ;
 static
-JSBool
+bool
 reportWarnings
 =
 true
 ;
 static
-JSBool
+bool
 compileOnly
 =
 false
@@ -676,7 +676,7 @@ gWorkingDirectory
 nullptr
 ;
 static
-JSBool
+bool
 GetLocationProperty
 (
 JSContext
@@ -1077,7 +1077,7 @@ line
 #
 endif
 static
-JSBool
+bool
 GetLine
 (
 JSContext
@@ -2452,7 +2452,7 @@ FILE
 *
 dumpFile
 ;
-JSBool
+bool
 ok
 ;
 jsval
@@ -3326,7 +3326,7 @@ char
 *
 names
 ;
-JSBool
+bool
 found
 ;
 optset
@@ -4247,7 +4247,7 @@ UndefinedValue
 )
 ;
 static
-JSBool
+bool
 XPCShellOperationCallback
 (
 JSContext
@@ -4789,7 +4789,7 @@ nullptr
 }
 ;
 static
-JSBool
+bool
 env_setProperty
 (
 JSContext
@@ -4799,7 +4799,7 @@ HandleObject
 obj
 HandleId
 id
-JSBool
+bool
 strict
 MutableHandleValue
 vp
@@ -5061,7 +5061,7 @@ true
 ;
 }
 static
-JSBool
+bool
 env_enumerate
 (
 JSContext
@@ -5072,7 +5072,7 @@ obj
 )
 {
 static
-JSBool
+bool
 reflected
 ;
 char
@@ -5088,7 +5088,7 @@ JSString
 *
 valstr
 ;
-JSBool
+bool
 ok
 ;
 if
@@ -5220,7 +5220,7 @@ true
 ;
 }
 static
-JSBool
+bool
 env_resolve
 (
 JSContext
@@ -5517,7 +5517,7 @@ filename
 FILE
 *
 file
-JSBool
+bool
 forceTTY
 )
 {
@@ -5544,7 +5544,7 @@ int
 lineno
 startline
 ;
-JSBool
+bool
 ok
 hitEOF
 ;
@@ -5987,7 +5987,7 @@ const
 char
 *
 filename
-JSBool
+bool
 forceTTY
 )
 {
@@ -6401,12 +6401,12 @@ filename
 =
 NULL
 ;
-JSBool
+bool
 isInteractive
 =
 true
 ;
-JSBool
+bool
 forceTTY
 =
 false

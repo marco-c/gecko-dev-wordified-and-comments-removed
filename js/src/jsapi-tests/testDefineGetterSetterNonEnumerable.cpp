@@ -255,7 +255,7 @@ JSPROP_PERMANENT
 )
 )
 ;
-JSBool
+bool
 found
 =
 false

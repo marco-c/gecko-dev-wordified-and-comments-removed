@@ -29,7 +29,7 @@ MAX_ARRAY_INDEX
 ;
 }
 inline
-JSBool
+bool
 js_IdIsIndex
 (
 jsid
@@ -276,7 +276,7 @@ canonicalized
 )
 ;
 extern
-JSBool
+bool
 GetLengthProperty
 (
 JSContext
@@ -290,7 +290,7 @@ lengthp
 )
 ;
 extern
-JSBool
+bool
 SetLengthProperty
 (
 JSContext
@@ -303,7 +303,7 @@ length
 )
 ;
 extern
-JSBool
+bool
 ObjectMayHaveExtraIndexedProperties
 (
 JSObject
@@ -475,7 +475,7 @@ vp
 #
 endif
 extern
-JSBool
+bool
 js_NewbornArrayPush
 (
 JSContext

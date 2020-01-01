@@ -4423,7 +4423,7 @@ JSObject
 obj
 )
 ;
-JSBool
+bool
 InstanceClassHasProtoAtDepth
 (
 JS
@@ -9131,7 +9131,7 @@ HandleObject
 aObj
 )
 ;
-JSBool
+bool
 InterfaceHasInstance
 (
 JSContext
@@ -9155,12 +9155,12 @@ JSObject
 *
 >
 instance
-JSBool
+bool
 *
 bp
 )
 ;
-JSBool
+bool
 InterfaceHasInstance
 (
 JSContext
@@ -9186,12 +9186,12 @@ JS
 Value
 >
 vp
-JSBool
+bool
 *
 bp
 )
 ;
-JSBool
+bool
 InterfaceHasInstance
 (
 JSContext
@@ -9210,7 +9210,7 @@ JSObject
 *
 >
 instance
-JSBool
+bool
 *
 bp
 )

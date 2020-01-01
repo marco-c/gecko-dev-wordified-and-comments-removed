@@ -1669,7 +1669,7 @@ copy
 #
 endif
 static
-JSBool
+bool
 args_delProperty
 (
 JSContext
@@ -1679,7 +1679,7 @@ HandleObject
 obj
 HandleId
 id
-JSBool
+bool
 *
 succeeded
 )
@@ -1809,7 +1809,7 @@ true
 ;
 }
 static
-JSBool
+bool
 ArgGetter
 (
 JSContext
@@ -1991,7 +1991,7 @@ true
 ;
 }
 static
-JSBool
+bool
 ArgSetter
 (
 JSContext
@@ -2001,7 +2001,7 @@ HandleObject
 obj
 HandleId
 id
-JSBool
+bool
 strict
 MutableHandleValue
 vp
@@ -2202,7 +2202,7 @@ callee
 )
 ;
 }
-JSBool
+bool
 succeeded
 ;
 return
@@ -2235,7 +2235,7 @@ attrs
 ;
 }
 static
-JSBool
+bool
 args_resolve
 (
 JSContext
@@ -2444,7 +2444,7 @@ true
 ;
 }
 static
-JSBool
+bool
 args_enumerate
 (
 JSContext
@@ -2599,7 +2599,7 @@ true
 ;
 }
 static
-JSBool
+bool
 StrictArgGetter
 (
 JSContext
@@ -2738,7 +2738,7 @@ true
 ;
 }
 static
-JSBool
+bool
 StrictArgSetter
 (
 JSContext
@@ -2748,7 +2748,7 @@ HandleObject
 obj
 HandleId
 id
-JSBool
+bool
 strict
 MutableHandleValue
 vp
@@ -2895,7 +2895,7 @@ length
 )
 ;
 }
-JSBool
+bool
 succeeded
 ;
 return
@@ -2928,7 +2928,7 @@ attrs
 ;
 }
 static
-JSBool
+bool
 strictargs_resolve
 (
 JSContext
@@ -3187,7 +3187,7 @@ true
 ;
 }
 static
-JSBool
+bool
 strictargs_enumerate
 (
 JSContext

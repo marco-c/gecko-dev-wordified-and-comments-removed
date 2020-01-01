@@ -290,7 +290,7 @@ mozilla
 :
 PointerRangeSize
 ;
-JSBool
+bool
 js
 :
 :
@@ -743,7 +743,7 @@ HandleObject
 obj
 double
 index
-JSBool
+bool
 *
 hole
 MutableHandleValue
@@ -862,7 +862,7 @@ HandleObject
 obj
 uint32_t
 index
-JSBool
+bool
 *
 hole
 MutableHandleValue
@@ -963,7 +963,7 @@ typename
 IndexType
 >
 static
-JSBool
+bool
 GetElement
 (
 JSContext
@@ -973,7 +973,7 @@ HandleObject
 obj
 IndexType
 index
-JSBool
+bool
 *
 hole
 MutableHandleValue
@@ -1345,7 +1345,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 SetArrayElement
 (
 JSContext
@@ -1622,7 +1622,7 @@ HandleObject
 obj
 double
 index
-JSBool
+bool
 *
 succeeded
 )
@@ -1791,7 +1791,7 @@ double
 index
 )
 {
-JSBool
+bool
 succeeded
 ;
 if
@@ -1861,7 +1861,7 @@ JSREPORT_ERROR
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -1910,7 +1910,7 @@ true
 ;
 }
 static
-JSBool
+bool
 array_length_getter
 (
 JSContext
@@ -1997,7 +1997,7 @@ true
 ;
 }
 static
-JSBool
+bool
 array_length_setter
 (
 JSContext
@@ -2007,7 +2007,7 @@ HandleObject
 obj
 HandleId
 id
-JSBool
+bool
 strict
 MutableHandleValue
 vp
@@ -2568,7 +2568,7 @@ oldLen
 -
 -
 ;
-JSBool
+bool
 deleteSucceeded
 ;
 if
@@ -2821,7 +2821,7 @@ indexes
 i
 ]
 ;
-JSBool
+bool
 deleteSucceeded
 ;
 if
@@ -3236,7 +3236,7 @@ JSMSG_CANT_DEFINE_PAST_ARRAY_LENGTH
 ;
 }
 static
-JSBool
+bool
 array_addProperty
 (
 JSContext
@@ -3347,7 +3347,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -3724,7 +3724,7 @@ index
 +
 )
 {
-JSBool
+bool
 hole
 ;
 if
@@ -4322,7 +4322,7 @@ cx
 return
 false
 ;
-JSBool
+bool
 hole
 ;
 if
@@ -4407,7 +4407,7 @@ cx
 return
 false
 ;
-JSBool
+bool
 hole
 ;
 if
@@ -5838,7 +5838,7 @@ i
 +
 )
 {
-JSBool
+bool
 hole
 hole2
 ;
@@ -8202,7 +8202,7 @@ cx
 return
 false
 ;
-JSBool
+bool
 hole
 ;
 if
@@ -8716,7 +8716,7 @@ true
 ;
 }
 JS_ALWAYS_INLINE
-JSBool
+bool
 NewbornArrayPushImpl
 (
 JSContext
@@ -8845,7 +8845,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js_NewbornArrayPush
 (
 JSContext
@@ -9268,7 +9268,7 @@ index
 -
 -
 ;
-JSBool
+bool
 hole
 ;
 if
@@ -9651,7 +9651,7 @@ newlen
 )
 ;
 }
-JSBool
+bool
 hole
 ;
 if
@@ -10074,7 +10074,7 @@ last
 -
 upperIndex
 ;
-JSBool
+bool
 hole
 ;
 if
@@ -10700,7 +10700,7 @@ k
 +
 )
 {
-JSBool
+bool
 hole
 ;
 if
@@ -10905,7 +10905,7 @@ cx
 return
 false
 ;
-JSBool
+bool
 hole
 ;
 if
@@ -11195,7 +11195,7 @@ itemCount
 -
 1
 ;
-JSBool
+bool
 hole
 ;
 if
@@ -11850,7 +11850,7 @@ slot
 +
 )
 {
-JSBool
+bool
 hole
 ;
 if
@@ -11955,7 +11955,7 @@ begin
 end
 slot
 ;
-JSBool
+bool
 hole
 ;
 CallArgs
@@ -12609,7 +12609,7 @@ cx
 return
 false
 ;
-JSBool
+bool
 kNotPresent
 ;
 if
@@ -12895,7 +12895,7 @@ js_Array
 ;
 }
 static
-JSBool
+bool
 ArrayFromCallArgs
 (
 JSContext

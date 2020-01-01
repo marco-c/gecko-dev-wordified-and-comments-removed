@@ -101,7 +101,7 @@ leaves
 }
 }
 static
-JSBool
+bool
 called2
 =
 false

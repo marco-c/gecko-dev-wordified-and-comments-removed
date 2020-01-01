@@ -63,7 +63,7 @@ XPCJSStackFrame
 (
 )
 ;
-JSBool
+bool
 IsJSFrame
 (
 )
@@ -627,7 +627,7 @@ XPCJSStackFrame
 stack
 )
 {
-JSBool
+bool
 failed
 =
 false

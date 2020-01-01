@@ -27,7 +27,7 @@ obj
 )
 ;
 extern
-JSBool
+bool
 js_ErrorToException
 (
 JSContext
@@ -48,7 +48,7 @@ userRef
 )
 ;
 extern
-JSBool
+bool
 js_ReportUncaughtException
 (
 JSContext

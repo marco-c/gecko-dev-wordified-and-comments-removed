@@ -284,7 +284,7 @@ nref
 }
 #
 endif
-JSBool
+bool
 jsd_IsValueObject
 (
 JSDContext
@@ -315,7 +315,7 @@ val
 )
 ;
 }
-JSBool
+bool
 jsd_IsValueNumber
 (
 JSDContext
@@ -336,7 +336,7 @@ val
 )
 ;
 }
-JSBool
+bool
 jsd_IsValueInt
 (
 JSDContext
@@ -357,7 +357,7 @@ val
 )
 ;
 }
-JSBool
+bool
 jsd_IsValueDouble
 (
 JSDContext
@@ -378,7 +378,7 @@ val
 )
 ;
 }
-JSBool
+bool
 jsd_IsValueString
 (
 JSDContext
@@ -399,7 +399,7 @@ val
 )
 ;
 }
-JSBool
+bool
 jsd_IsValueBoolean
 (
 JSDContext
@@ -420,7 +420,7 @@ val
 )
 ;
 }
-JSBool
+bool
 jsd_IsValueNull
 (
 JSDContext
@@ -441,7 +441,7 @@ val
 )
 ;
 }
-JSBool
+bool
 jsd_IsValueVoid
 (
 JSDContext
@@ -462,7 +462,7 @@ val
 )
 ;
 }
-JSBool
+bool
 jsd_IsValuePrimitive
 (
 JSDContext
@@ -483,7 +483,7 @@ val
 )
 ;
 }
-JSBool
+bool
 jsd_IsValueFunction
 (
 JSDContext
@@ -521,7 +521,7 @@ val
 )
 ;
 }
-JSBool
+bool
 jsd_IsValueNative
 (
 JSDContext
@@ -572,7 +572,7 @@ as
 cx
 )
 ;
-JSBool
+bool
 ok
 =
 false
@@ -621,7 +621,7 @@ val
 )
 ;
 }
-JSBool
+bool
 jsd_GetValueBoolean
 (
 JSDContext
@@ -1124,7 +1124,7 @@ val
 )
 )
 {
-JSBool
+bool
 ok
 ;
 JSAutoCompartment
@@ -1647,7 +1647,7 @@ GOT_PROPS
 ;
 }
 static
-JSBool
+bool
 _buildProps
 (
 JSDContext
@@ -2279,7 +2279,7 @@ attrs
 =
 0
 ;
-JSBool
+bool
 found
 ;
 JSPropertyDesc

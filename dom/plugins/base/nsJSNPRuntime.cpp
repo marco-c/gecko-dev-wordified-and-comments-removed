@@ -357,7 +357,7 @@ NP_Construct
 }
 ;
 static
-JSBool
+bool
 NPObjWrapper_AddProperty
 (
 JSContext
@@ -394,7 +394,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 NPObjWrapper_DelProperty
 (
 JSContext
@@ -417,13 +417,13 @@ Handle
 jsid
 >
 id
-JSBool
+bool
 *
 succeeded
 )
 ;
 static
-JSBool
+bool
 NPObjWrapper_SetProperty
 (
 JSContext
@@ -446,7 +446,7 @@ Handle
 jsid
 >
 id
-JSBool
+bool
 strict
 JS
 :
@@ -462,7 +462,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 NPObjWrapper_GetProperty
 (
 JSContext
@@ -499,7 +499,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 NPObjWrapper_newEnumerate
 (
 JSContext
@@ -528,7 +528,7 @@ idp
 )
 ;
 static
-JSBool
+bool
 NPObjWrapper_NewResolve
 (
 JSContext
@@ -565,7 +565,7 @@ objp
 )
 ;
 static
-JSBool
+bool
 NPObjWrapper_Convert
 (
 JSContext
@@ -642,7 +642,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 CreateNPObjectMember
 (
 NPP
@@ -749,7 +749,7 @@ npp
 NPObjectMemberPrivate
 ;
 static
-JSBool
+bool
 NPObjectMember_Convert
 (
 JSContext
@@ -2015,7 +2015,7 @@ message
 }
 }
 static
-JSBool
+bool
 ReportExceptionIfPending
 (
 JSContext
@@ -2245,7 +2245,7 @@ nullptr
 }
 }
 static
-JSBool
+bool
 GetProperty
 (
 JSContext
@@ -2428,7 +2428,7 @@ v
 cx
 )
 ;
-JSBool
+bool
 ok
 =
 GetProperty
@@ -3061,7 +3061,7 @@ nsJSObjWrapper
 )
 npobj
 ;
-JSBool
+bool
 found
 ok
 =
@@ -3549,7 +3549,7 @@ nsJSObjWrapper
 )
 npobj
 ;
-JSBool
+bool
 ok
 =
 false
@@ -3638,7 +3638,7 @@ ok
 deleted
 )
 {
-JSBool
+bool
 hasProp
 ;
 ok
@@ -4746,7 +4746,7 @@ obj
 ;
 }
 static
-JSBool
+bool
 NPObjWrapper_AddProperty
 (
 JSContext
@@ -4871,7 +4871,7 @@ JSIdToNPIdentifier
 id
 )
 ;
-JSBool
+bool
 hasProperty
 =
 npobj
@@ -4904,7 +4904,7 @@ hasProperty
 return
 true
 ;
-JSBool
+bool
 hasMethod
 =
 npobj
@@ -4960,7 +4960,7 @@ true
 ;
 }
 static
-JSBool
+bool
 NPObjWrapper_DelProperty
 (
 JSContext
@@ -4983,7 +4983,7 @@ Handle
 jsid
 >
 id
-JSBool
+bool
 *
 succeeded
 )
@@ -5074,7 +5074,7 @@ npobj
 )
 )
 {
-JSBool
+bool
 hasProperty
 =
 npobj
@@ -5144,7 +5144,7 @@ cx
 ;
 }
 static
-JSBool
+bool
 NPObjWrapper_SetProperty
 (
 JSContext
@@ -5167,7 +5167,7 @@ Handle
 jsid
 >
 id
-JSBool
+bool
 strict
 JS
 :
@@ -5296,7 +5296,7 @@ npobj
 )
 )
 {
-JSBool
+bool
 hasProperty
 =
 npobj
@@ -5381,7 +5381,7 @@ return
 false
 ;
 }
-JSBool
+bool
 ok
 =
 npobj
@@ -5443,7 +5443,7 @@ true
 ;
 }
 static
-JSBool
+bool
 NPObjWrapper_GetProperty
 (
 JSContext
@@ -5638,7 +5638,7 @@ actor
 return
 false
 ;
-JSBool
+bool
 success
 =
 actor
@@ -5878,7 +5878,7 @@ true
 ;
 }
 static
-JSBool
+bool
 CallNPMethodInternal
 (
 JSContext
@@ -6143,7 +6143,7 @@ argv
 ]
 )
 ;
-JSBool
+bool
 ok
 ;
 const
@@ -6545,7 +6545,7 @@ value
 }
 ;
 static
-JSBool
+bool
 NPObjWrapper_newEnumerate
 (
 JSContext
@@ -6924,7 +6924,7 @@ true
 ;
 }
 static
-JSBool
+bool
 NPObjWrapper_NewResolve
 (
 JSContext
@@ -7220,7 +7220,7 @@ true
 ;
 }
 static
-JSBool
+bool
 NPObjWrapper_Convert
 (
 JSContext
@@ -8603,7 +8603,7 @@ entry
 mNpp
 ;
 }
-JSBool
+bool
 CreateNPObjectMember
 (
 NPP
@@ -8940,7 +8940,7 @@ true
 ;
 }
 static
-JSBool
+bool
 NPObjectMember_Convert
 (
 JSContext
@@ -9412,7 +9412,7 @@ false
 NPVariant
 npv
 ;
-JSBool
+bool
 ok
 ;
 ok

@@ -1387,7 +1387,7 @@ eventType
 aCx
 )
 ;
-JSBool
+bool
 eventIsTrusted
 ;
 if
@@ -1767,7 +1767,7 @@ GetJSObject
 )
 )
 ;
-JSBool
+bool
 hasHandleEvent
 ;
 if

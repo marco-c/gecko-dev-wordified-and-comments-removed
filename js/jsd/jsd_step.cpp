@@ -93,7 +93,7 @@ JSAbstractFramePtr
 frame
 bool
 isConstructing
-JSBool
+bool
 before
 )
 {
@@ -296,7 +296,7 @@ indent
 }
 #
 endif
-JSBool
+bool
 _callHook
 (
 JSDContext
@@ -309,7 +309,7 @@ JSAbstractFramePtr
 frame
 bool
 isConstructing
-JSBool
+bool
 before
 unsigned
 type
@@ -328,7 +328,7 @@ JSScript
 *
 jsscript
 ;
-JSBool
+bool
 hookresult
 =
 true
@@ -949,9 +949,9 @@ JSAbstractFramePtr
 frame
 bool
 isConstructing
-JSBool
+bool
 before
-JSBool
+bool
 *
 ok
 void
@@ -1040,9 +1040,9 @@ JSAbstractFramePtr
 frame
 bool
 isConstructing
-JSBool
+bool
 before
-JSBool
+bool
 *
 ok
 void

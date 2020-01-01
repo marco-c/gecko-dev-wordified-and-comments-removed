@@ -2447,7 +2447,7 @@ endif
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_WriteTypedArray
 (
@@ -4190,7 +4190,7 @@ SCTAG_TYPED_ARRAY_V1_MIN
 }
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ReadTypedArray
 (

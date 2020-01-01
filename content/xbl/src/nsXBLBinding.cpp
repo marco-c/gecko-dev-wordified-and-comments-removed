@@ -399,7 +399,7 @@ Drop
 ;
 }
 static
-JSBool
+bool
 XBLEnumerate
 (
 JSContext

@@ -16,7 +16,7 @@ int
 called_test_prop_get
 ;
 static
-JSBool
+bool
 test_prop_get
 (
 JSContext

@@ -1845,7 +1845,7 @@ aSupports
 0
 ;
 typedef
-JSBool
+bool
 (
 *
 GetISupportsFun

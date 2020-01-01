@@ -497,7 +497,7 @@ nullptr
 )
 ;
 }
-JSBool
+bool
 Write
 (
 JSContext

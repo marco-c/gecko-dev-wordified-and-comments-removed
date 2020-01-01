@@ -280,7 +280,7 @@ NULL
 )
 ;
 }
-JSBool
+bool
 xpc_IsReportableErrorCode
 (
 nsresult
@@ -852,7 +852,7 @@ retObj
 cx
 )
 ;
-JSBool
+bool
 success
 =
 false
@@ -1333,7 +1333,7 @@ nullptr
 ;
 }
 static
-JSBool
+bool
 GetNamedPropertyAsVariantRaw
 (
 XPCCallContext
@@ -1438,7 +1438,7 @@ cx
 aJSObjArg
 )
 ;
-JSBool
+bool
 ok
 ;
 RootedId
@@ -1960,7 +1960,7 @@ NS_DEFINE_STATIC_IID_ACCESSOR
 WrappedJSIdentity
 NS_IXPCONNECT_WRAPPED_JS_IDENTITY_CLASS_IID
 )
-JSBool
+bool
 nsXPCWrappedJSClass
 :
 :
@@ -3156,7 +3156,7 @@ e
 )
 ;
 }
-JSBool
+bool
 nsXPCWrappedJSClass
 :
 :
@@ -3299,7 +3299,7 @@ return
 true
 ;
 }
-JSBool
+bool
 nsXPCWrappedJSClass
 :
 :
@@ -3885,7 +3885,7 @@ js_exception
 cx
 )
 ;
-JSBool
+bool
 is_js_exception
 =
 JS_GetPendingException
@@ -4659,10 +4659,10 @@ pending_result
 =
 NS_OK
 ;
-JSBool
+bool
 success
 ;
-JSBool
+bool
 readyToDoTheCall
 =
 false
@@ -4695,7 +4695,7 @@ info
 >
 name
 ;
-JSBool
+bool
 foundDependentParam
 ;
 JSContext
@@ -5166,7 +5166,7 @@ helper
 newThis
 )
 ;
-JSBool
+bool
 ok
 =
 XPCConvert

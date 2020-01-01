@@ -200,7 +200,7 @@ c
 0x80
 )
 )
-JSBool
+bool
 XPCConvert
 :
 :
@@ -362,7 +362,7 @@ return
 nullptr
 ;
 }
-JSBool
+bool
 XPCConvert
 :
 :
@@ -456,7 +456,7 @@ return
 iface
 ;
 }
-JSBool
+bool
 XPCConvert
 :
 :
@@ -1946,7 +1946,7 @@ retval
 )
 ;
 }
-JSBool
+bool
 XPCConvert
 :
 :
@@ -1961,7 +1961,7 @@ const
 nsXPTType
 &
 type
-JSBool
+bool
 useAllocator
 const
 nsID
@@ -1981,7 +1981,7 @@ param
 "
 )
 ;
-JSBool
+bool
 isDOMString
 =
 true
@@ -2682,7 +2682,7 @@ str
 =
 nullptr
 ;
-JSBool
+bool
 isNewString
 =
 false
@@ -4220,7 +4220,7 @@ true
 ;
 }
 inline
-JSBool
+bool
 CreateHolderIfNeeded
 (
 HandleObject
@@ -4280,7 +4280,7 @@ return
 true
 ;
 }
-JSBool
+bool
 XPCConvert
 :
 :
@@ -4924,7 +4924,7 @@ return
 true
 ;
 }
-JSBool
+bool
 XPCConvert
 :
 :
@@ -5832,7 +5832,7 @@ exceptn
 unsigned
 ignored
 ;
-JSBool
+bool
 found
 ;
 if
@@ -6036,7 +6036,7 @@ rv
 double
 number
 ;
-JSBool
+bool
 isResult
 =
 false
@@ -6572,7 +6572,7 @@ undef
 POPULATE
 #
 endif
-JSBool
+bool
 XPCConvert
 :
 :
@@ -7108,7 +7108,7 @@ undef
 POPULATE
 }
 static
-JSBool
+bool
 CheckTargetAndPopulate
 (
 const
@@ -7222,7 +7222,7 @@ return
 true
 ;
 }
-JSBool
+bool
 XPCConvert
 :
 :
@@ -7658,7 +7658,7 @@ return
 true
 ;
 }
-JSBool
+bool
 XPCConvert
 :
 :
@@ -8529,7 +8529,7 @@ false
 undef
 POPULATE
 }
-JSBool
+bool
 XPCConvert
 :
 :
@@ -8737,7 +8737,7 @@ return
 true
 ;
 }
-JSBool
+bool
 XPCConvert
 :
 :

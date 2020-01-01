@@ -750,7 +750,7 @@ principal
 ;
 }
 }
-JSBool
+bool
 XPCWrappedNativeScope
 :
 :

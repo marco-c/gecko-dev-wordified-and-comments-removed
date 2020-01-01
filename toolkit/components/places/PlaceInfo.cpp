@@ -489,7 +489,7 @@ jsobj
 )
 )
 ;
-JSBool
+bool
 rc
 =
 JS_SetElement

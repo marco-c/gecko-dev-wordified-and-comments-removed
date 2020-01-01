@@ -1239,7 +1239,7 @@ jsdframe
 )
 )
 {
-JSBool
+bool
 ok
 ;
 JS
@@ -1396,7 +1396,7 @@ return
 rv
 ;
 }
-JSBool
+bool
 jsd_IsStackFrameDebugger
 (
 JSDContext
@@ -1410,7 +1410,7 @@ JSDStackFrameInfo
 jsdframe
 )
 {
-JSBool
+bool
 rv
 =
 true
@@ -1451,7 +1451,7 @@ return
 rv
 ;
 }
-JSBool
+bool
 jsd_IsStackFrameConstructing
 (
 JSDContext
@@ -1465,7 +1465,7 @@ JSDStackFrameInfo
 jsdframe
 )
 {
-JSBool
+bool
 rv
 =
 true
@@ -1502,7 +1502,7 @@ return
 rv
 ;
 }
-JSBool
+bool
 jsd_EvaluateUCScriptInStackFrame
 (
 JSDContext
@@ -1526,7 +1526,7 @@ char
 filename
 unsigned
 lineno
-JSBool
+bool
 eatExceptions
 JS
 :
@@ -1535,10 +1535,10 @@ MutableHandleValue
 rval
 )
 {
-JSBool
+bool
 retval
 ;
-JSBool
+bool
 valid
 ;
 JSExceptionState
@@ -1660,7 +1660,7 @@ return
 retval
 ;
 }
-JSBool
+bool
 jsd_EvaluateScriptInStackFrame
 (
 JSDContext
@@ -1684,7 +1684,7 @@ char
 filename
 unsigned
 lineno
-JSBool
+bool
 eatExceptions
 JS
 :
@@ -1693,10 +1693,10 @@ MutableHandleValue
 rval
 )
 {
-JSBool
+bool
 retval
 ;
-JSBool
+bool
 valid
 ;
 JSExceptionState
@@ -1835,7 +1835,7 @@ jsval
 val
 )
 {
-JSBool
+bool
 valid
 ;
 JSString
@@ -1914,7 +1914,7 @@ return
 retval
 ;
 }
-JSBool
+bool
 jsd_IsValidThreadState
 (
 JSDContext
@@ -1994,7 +1994,7 @@ return
 false
 ;
 }
-JSBool
+bool
 jsd_IsValidFrameInThreadState
 (
 JSDContext
@@ -2068,7 +2068,7 @@ JSDThreadState
 jsdthreadstate
 )
 {
-JSBool
+bool
 valid
 ;
 JSD_LOCK_THREADSTATES
@@ -2158,7 +2158,7 @@ return
 NULL
 ;
 }
-JSBool
+bool
 jsd_SetException
 (
 JSDContext

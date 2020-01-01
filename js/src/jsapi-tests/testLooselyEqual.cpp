@@ -53,7 +53,7 @@ HandleValue
 y
 )
 {
-JSBool
+bool
 equal
 ;
 CHECK
@@ -105,7 +105,7 @@ HandleValue
 y
 )
 {
-JSBool
+bool
 equal
 ;
 CHECK

@@ -287,7 +287,7 @@ obj
 )
 ;
 static
-JSBool
+bool
 GetProperty
 (
 JSContext
@@ -304,7 +304,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 SetProperty
 (
 JSContext
@@ -331,7 +331,7 @@ SkPaint
 gPaint
 ;
 static
-JSBool
+bool
 Draw
 (
 JSContext
@@ -370,7 +370,7 @@ SkJSDisplayable
 :
 gPaint
 ;
-JSBool
+bool
 SkJSDisplayable
 :
 :
@@ -499,7 +499,7 @@ _class
 )
 \
 static
-JSBool
+bool
 _class
 #
 #
@@ -1207,7 +1207,7 @@ obj
 )
 ;
 }
-JSBool
+bool
 SkJSDisplayable
 :
 :
@@ -1653,7 +1653,7 @@ return
 true
 ;
 }
-JSBool
+bool
 SkJSDisplayable
 :
 :

@@ -144,7 +144,7 @@ return
 true
 ;
 }
-JSBool
+bool
 TestShellCommandParent
 :
 :
@@ -187,7 +187,7 @@ return
 true
 ;
 }
-JSBool
+bool
 TestShellCommandParent
 :
 :
@@ -325,7 +325,7 @@ rval
 mCx
 )
 ;
-JSBool
+bool
 ok
 =
 JS_CallFunctionValue

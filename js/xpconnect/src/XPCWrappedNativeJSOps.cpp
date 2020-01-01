@@ -55,7 +55,7 @@ namespace
 JS
 ;
 static
-JSBool
+bool
 Throw
 (
 nsresult
@@ -123,7 +123,7 @@ cx
 \
 PR_END_MACRO
 static
-JSBool
+bool
 ToStringGuts
 (
 XPCCallContext
@@ -763,7 +763,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 DefinePropertyIfFound
 (
 XPCCallContext
@@ -785,7 +785,7 @@ member
 XPCWrappedNativeScope
 *
 scope
-JSBool
+bool
 reflectToStringAndToSource
 XPCWrappedNative
 *
@@ -798,7 +798,7 @@ XPCNativeScriptableInfo
 scriptableInfo
 unsigned
 propFlags
-JSBool
+bool
 *
 resolved
 )
@@ -820,7 +820,7 @@ GetRuntime
 (
 )
 ;
-JSBool
+bool
 found
 ;
 const
@@ -1921,7 +1921,7 @@ propFlags
 ;
 }
 static
-JSBool
+bool
 XPC_WN_OnlyIWrite_AddPropertyStub
 (
 JSContext
@@ -1986,7 +1986,7 @@ cx
 ;
 }
 static
-JSBool
+bool
 XPC_WN_OnlyIWrite_SetPropertyStub
 (
 JSContext
@@ -1996,7 +1996,7 @@ HandleObject
 obj
 HandleId
 id
-JSBool
+bool
 strict
 MutableHandleValue
 vp
@@ -2013,7 +2013,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 XPC_WN_CannotModifyPropertyStub
 (
 JSContext
@@ -2036,7 +2036,7 @@ cx
 ;
 }
 static
-JSBool
+bool
 XPC_WN_CantDeletePropertyStub
 (
 JSContext
@@ -2046,7 +2046,7 @@ HandleObject
 obj
 HandleId
 id
-JSBool
+bool
 *
 succeeded
 )
@@ -2060,7 +2060,7 @@ cx
 ;
 }
 static
-JSBool
+bool
 XPC_WN_CannotModifyStrictPropertyStub
 (
 JSContext
@@ -2070,7 +2070,7 @@ HandleObject
 obj
 HandleId
 id
-JSBool
+bool
 strict
 MutableHandleValue
 vp
@@ -2087,7 +2087,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 XPC_WN_Shared_Convert
 (
 JSContext
@@ -2384,7 +2384,7 @@ false
 ;
 }
 static
-JSBool
+bool
 XPC_WN_Shared_Enumerate
 (
 JSContext
@@ -2875,7 +2875,7 @@ obj
 ;
 }
 static
-JSBool
+bool
 XPC_WN_NoHelper_Resolve
 (
 JSContext
@@ -3198,7 +3198,7 @@ XPC_WN_JSOp_ThisObject
 }
 ;
 static
-JSBool
+bool
 XPC_WN_MaybeResolvingPropertyStub
 (
 JSContext
@@ -3259,7 +3259,7 @@ cx
 ;
 }
 static
-JSBool
+bool
 XPC_WN_MaybeResolvingStrictPropertyStub
 (
 JSContext
@@ -3269,7 +3269,7 @@ HandleObject
 obj
 HandleId
 id
-JSBool
+bool
 strict
 MutableHandleValue
 vp
@@ -3286,7 +3286,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 XPC_WN_MaybeResolvingDeletePropertyStub
 (
 JSContext
@@ -3296,7 +3296,7 @@ HandleObject
 obj
 HandleId
 id
-JSBool
+bool
 *
 succeeded
 )
@@ -3481,7 +3481,7 @@ return
 retval
 ;
 static
-JSBool
+bool
 XPC_WN_Helper_AddProperty
 (
 JSContext
@@ -3514,7 +3514,7 @@ retval
 POST_HELPER_STUB
 }
 static
-JSBool
+bool
 XPC_WN_Helper_DelProperty
 (
 JSContext
@@ -3524,7 +3524,7 @@ HandleObject
 obj
 HandleId
 id
-JSBool
+bool
 *
 succeeded
 )
@@ -3542,7 +3542,7 @@ retval
 ;
 POST_HELPER_STUB
 }
-JSBool
+bool
 XPC_WN_Helper_GetProperty
 (
 JSContext
@@ -3574,7 +3574,7 @@ retval
 ;
 POST_HELPER_STUB
 }
-JSBool
+bool
 XPC_WN_Helper_SetProperty
 (
 JSContext
@@ -3584,7 +3584,7 @@ HandleObject
 obj
 HandleId
 id
-JSBool
+bool
 strict
 MutableHandleValue
 vp
@@ -3609,7 +3609,7 @@ retval
 POST_HELPER_STUB
 }
 static
-JSBool
+bool
 XPC_WN_Helper_Convert
 (
 JSContext
@@ -3642,7 +3642,7 @@ retval
 POST_HELPER_STUB
 }
 static
-JSBool
+bool
 XPC_WN_Helper_CheckAccess
 (
 JSContext
@@ -3904,7 +3904,7 @@ retval
 POST_HELPER_STUB
 }
 static
-JSBool
+bool
 XPC_WN_Helper_HasInstance
 (
 JSContext
@@ -3914,7 +3914,7 @@ HandleObject
 obj
 MutableHandleValue
 valp
-JSBool
+bool
 *
 bp
 )
@@ -3966,7 +3966,7 @@ WN_HELPER
 ;
 }
 static
-JSBool
+bool
 XPC_WN_Helper_NewResolve
 (
 JSContext
@@ -4066,7 +4066,7 @@ XPCWrappedNative
 *
 oldResolvingWrapper
 ;
-JSBool
+bool
 allowPropMods
 =
 si
@@ -4239,7 +4239,7 @@ XPCNativeInterface
 *
 iface
 ;
-JSBool
+bool
 IsLocal
 ;
 if
@@ -4313,7 +4313,7 @@ nullptr
 :
 wrapper
 ;
-JSBool
+bool
 resolved
 ;
 oldResolvingWrapper
@@ -4380,7 +4380,7 @@ return
 retval
 ;
 }
-JSBool
+bool
 XPC_WN_JSOp_Enumerate
 (
 JSContext
@@ -4916,7 +4916,7 @@ return
 nullptr
 ;
 }
-JSBool
+bool
 success
 ;
 XPCJSRuntime
@@ -5911,7 +5911,7 @@ member
 true
 )
 ;
-JSBool
+bool
 retval
 =
 XPCWrappedNative
@@ -5962,7 +5962,7 @@ ccx
 ;
 }
 static
-JSBool
+bool
 XPC_WN_Shared_Proto_Enumerate
 (
 JSContext
@@ -6302,7 +6302,7 @@ trc
 ;
 }
 static
-JSBool
+bool
 XPC_WN_ModsAllowed_Proto_Resolve
 (
 JSContext
@@ -6506,7 +6506,7 @@ XPC_WN_NoCall_ObjectOps
 }
 ;
 static
-JSBool
+bool
 XPC_WN_OnlyIWrite_Proto_AddPropertyStub
 (
 JSContext
@@ -6615,7 +6615,7 @@ cx
 ;
 }
 static
-JSBool
+bool
 XPC_WN_OnlyIWrite_Proto_SetPropertyStub
 (
 JSContext
@@ -6625,7 +6625,7 @@ HandleObject
 obj
 HandleId
 id
-JSBool
+bool
 strict
 MutableHandleValue
 vp
@@ -6642,7 +6642,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 XPC_WN_NoMods_Proto_Resolve
 (
 JSContext
@@ -6850,7 +6850,7 @@ XPC_WN_NoCall_ObjectOps
 }
 ;
 static
-JSBool
+bool
 XPC_WN_TearOff_Enumerate
 (
 JSContext
@@ -6981,7 +6981,7 @@ true
 ;
 }
 static
-JSBool
+bool
 XPC_WN_TearOff_Resolve
 (
 JSContext

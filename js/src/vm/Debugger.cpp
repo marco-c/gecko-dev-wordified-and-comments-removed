@@ -22051,7 +22051,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -26284,7 +26284,7 @@ nameArg
 return
 false
 ;
-JSBool
+bool
 succeeded
 ;
 ErrorCopier
@@ -30015,7 +30015,7 @@ JS_FS_END
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_DefineDebuggerObject
 (
