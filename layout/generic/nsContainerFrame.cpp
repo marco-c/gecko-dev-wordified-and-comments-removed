@@ -2608,7 +2608,8 @@ GetStyleMargin
 )
 ;
 nsStyleCoord
-tmp
+marginCoord
+paddingCoord
 ;
 aData
 -
@@ -2626,7 +2627,7 @@ mPadding
 Get
 (
 startSide
-tmp
+paddingCoord
 )
 0
 )
@@ -2649,7 +2650,7 @@ mMargin
 Get
 (
 startSide
-tmp
+marginCoord
 )
 0
 )
@@ -2790,7 +2791,7 @@ mPadding
 Get
 (
 endSide
-tmp
+paddingCoord
 )
 0
 )
@@ -2813,7 +2814,7 @@ mMargin
 Get
 (
 endSide
-tmp
+marginCoord
 )
 0
 )
