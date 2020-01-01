@@ -426,9 +426,6 @@ printingui_s
 LIBXUL_LIBRARY
 =
 1
-DIRS
-=
-printpde
 CMMSRCS
 =
 nsPrintingPromptServiceX
@@ -450,16 +447,6 @@ NULL
 )
 LOCAL_INCLUDES
 =
-\
--
-I
-(
-srcdir
-)
-/
-printpde
-/
-public
 \
 (
 NULL
