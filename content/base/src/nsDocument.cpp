@@ -3618,15 +3618,13 @@ if
 aViewer
 )
 {
+doc
+=
 aViewer
 -
 >
 GetDocument
 (
-getter_AddRefs
-(
-doc
-)
 )
 ;
 NS_ASSERTION

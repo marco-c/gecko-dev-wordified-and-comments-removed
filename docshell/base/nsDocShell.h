@@ -1772,6 +1772,12 @@ EnsureCommandHandler
 (
 )
 ;
+nsIChannel
+*
+GetCurrentDocChannel
+(
+)
+;
 protected
 :
 virtual
