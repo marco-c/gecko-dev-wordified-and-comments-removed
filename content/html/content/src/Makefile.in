@@ -178,10 +178,6 @@ HTMLLIElement
 .
 h
 \
-HTMLMenuElement
-.
-h
-\
 HTMLParagraphElement
 .
 h
@@ -376,7 +372,7 @@ nsHTMLMapElement
 .
 cpp
 \
-HTMLMenuElement
+nsHTMLMenuElement
 .
 cpp
 \
