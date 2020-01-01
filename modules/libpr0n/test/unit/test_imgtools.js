@@ -853,6 +853,12 @@ scaled
 PNG
 "
 ;
+if
+(
+!
+isWindows
+)
+{
 istream
 =
 imgTools
@@ -933,6 +939,7 @@ encodedBytes
 referenceBytes
 )
 ;
+}
 testnum
 +
 +
@@ -947,6 +954,12 @@ unscaled
 PNG
 "
 ;
+if
+(
+!
+isWindows
+)
+{
 istream
 =
 imgTools
@@ -1025,6 +1038,7 @@ encodedBytes
 referenceBytes
 )
 ;
+}
 testnum
 +
 +
