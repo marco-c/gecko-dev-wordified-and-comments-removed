@@ -526,13 +526,13 @@ IonScript
 {
 private
 :
-HeapPtr
+EncapsulatedPtr
 <
 IonCode
 >
 method_
 ;
-HeapPtr
+EncapsulatedPtr
 <
 IonCode
 >
@@ -701,7 +701,7 @@ bailoutTable_
 ]
 ;
 }
-HeapValue
+EncapsulatedValue
 *
 constants
 (
@@ -709,7 +709,7 @@ constants
 {
 return
 (
-HeapValue
+EncapsulatedValue
 *
 )
 &
@@ -1478,7 +1478,7 @@ this
 )
 ;
 }
-HeapValue
+EncapsulatedValue
 &
 getConstant
 (
