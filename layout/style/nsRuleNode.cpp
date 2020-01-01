@@ -3912,7 +3912,9 @@ SetGradientCoord
 gradient
 -
 >
-mBgPosX
+mBgPos
+.
+mXValue
 aPresContext
 aContext
 aResult
@@ -3926,7 +3928,9 @@ SetGradientCoord
 gradient
 -
 >
-mBgPosY
+mBgPos
+.
+mYValue
 aPresContext
 aContext
 aResult
