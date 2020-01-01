@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsILocale
-.
-h
-"
-#
-include
-"
 nsOS2Locale
 .
 h

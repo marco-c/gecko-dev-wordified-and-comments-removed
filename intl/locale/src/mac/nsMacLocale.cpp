@@ -38,13 +38,6 @@ h
 #
 include
 "
-nsILocale
-.
-h
-"
-#
-include
-"
 nsMacLocale
 .
 h

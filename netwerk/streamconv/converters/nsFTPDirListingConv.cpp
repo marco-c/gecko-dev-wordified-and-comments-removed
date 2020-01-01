@@ -85,13 +85,6 @@ h
 #
 include
 "
-nsILocaleService
-.
-h
-"
-#
-include
-"
 nsIComponentManager
 .
 h
