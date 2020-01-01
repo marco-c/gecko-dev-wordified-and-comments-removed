@@ -736,7 +736,9 @@ authentication
 this
 field
 is
-NULL
+an
+empty
+string
 .
 *
 /
@@ -791,7 +793,9 @@ authentication
 this
 field
 is
-NULL
+an
+empty
+string
 .
 *
 /
