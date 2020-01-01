@@ -445,6 +445,14 @@ GetRetentionBehavior
 (
 )
 ;
+nsresult
+ExecuteDesiredAction
+(
+nsDownload
+*
+aDownload
+)
+;
 static
 PRBool
 IsInFinalStage
@@ -673,6 +681,9 @@ private
 nsString
 mDisplayName
 ;
+nsCString
+mEntityID
+;
 nsCOMPtr
 <
 nsIURI
@@ -735,6 +746,9 @@ mLastUpdate
 ;
 PRBool
 mPaused
+;
+PRBool
+mWasResumed
 ;
 double
 mSpeed
