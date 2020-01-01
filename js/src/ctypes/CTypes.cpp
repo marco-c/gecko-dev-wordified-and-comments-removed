@@ -2401,6 +2401,15 @@ AddressOfElement
 1
 CDATAFN_FLAGS
 )
+JS_FN
+(
+"
+iterator
+"
+JS_ArrayIterator
+0
+CDATAFN_FLAGS
+)
 JS_FS_END
 }
 ;
