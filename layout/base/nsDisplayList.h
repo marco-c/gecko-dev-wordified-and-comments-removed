@@ -131,7 +131,6 @@ n
 #
 endif
 class
-NS_STACK_CLASS
 nsDisplayListBuilder
 {
 public
@@ -764,16 +763,6 @@ DestroyRect
 )
 private
 :
-void
-*
-operator
-new
-(
-size_t
-sz
-)
-CPP_THROW_NEW
-;
 struct
 PresShellState
 {

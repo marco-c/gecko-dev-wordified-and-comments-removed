@@ -186,6 +186,11 @@ mIsPaintingToWindow
 PR_FALSE
 )
 {
+MOZ_COUNT_CTOR
+(
+nsDisplayListBuilder
+)
+;
 PL_InitArenaPool
 (
 &
@@ -634,6 +639,11 @@ PL_FinishArenaPool
 (
 &
 mPool
+)
+;
+MOZ_COUNT_DTOR
+(
+nsDisplayListBuilder
 )
 ;
 }
