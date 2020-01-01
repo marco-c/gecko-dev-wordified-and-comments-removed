@@ -127,6 +127,10 @@ ImageWrapper
 .
 cpp
 \
+ClippedImage
+.
+cpp
+\
 Decoder
 .
 cpp
