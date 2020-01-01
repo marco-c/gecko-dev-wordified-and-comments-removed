@@ -3204,7 +3204,9 @@ script
 )
 -
 >
-source
+scriptSource
+(
+)
 &
 &
 !
@@ -3315,7 +3317,9 @@ sourceStart
 script
 -
 >
-source
+scriptSource
+(
+)
 -
 >
 argumentsNotIncluded
