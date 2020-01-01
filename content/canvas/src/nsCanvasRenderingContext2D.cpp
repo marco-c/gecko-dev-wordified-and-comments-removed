@@ -5527,7 +5527,7 @@ dy
 )
 )
 return
-NS_ERROR_DOM_SYNTAX_ERR
+NS_OK
 ;
 gfxMatrix
 matrix
