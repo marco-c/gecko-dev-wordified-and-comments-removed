@@ -1349,10 +1349,7 @@ Address
 base
 offset
 )
-ValueTypeFromMIRType
-(
 slotType
-)
 )
 ;
 storeUnboxedValue

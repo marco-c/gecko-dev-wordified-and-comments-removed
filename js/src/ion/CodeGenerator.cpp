@@ -1849,7 +1849,7 @@ Address
 base
 offset
 )
-JSVAL_TYPE_UNKNOWN
+MIRType_Value
 )
 ;
 masm
@@ -13554,7 +13554,7 @@ masm
 emitPreBarrier
 (
 address
-JSVAL_TYPE_UNKNOWN
+MIRType_Value
 )
 ;
 masm
@@ -13704,7 +13704,7 @@ masm
 emitPreBarrier
 (
 address
-JSVAL_TYPE_UNKNOWN
+MIRType_Value
 )
 ;
 masm
