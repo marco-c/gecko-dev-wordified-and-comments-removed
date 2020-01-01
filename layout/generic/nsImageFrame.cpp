@@ -8280,6 +8280,7 @@ LoadImage
 realURI
 nsnull
 nsnull
+nsnull
 loadGroup
 gIconLoad
 nsnull

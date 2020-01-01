@@ -285,6 +285,7 @@ uri
 null
 null
 null
+null
 listener
 null
 0
@@ -799,6 +800,7 @@ uri
 null
 null
 null
+null
 listener2
 null
 0
@@ -877,6 +879,7 @@ loader
 loadImage
 (
 uri
+null
 null
 null
 null

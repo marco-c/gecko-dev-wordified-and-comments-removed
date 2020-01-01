@@ -2331,6 +2331,7 @@ LoadImage
 aIconURI
 nsnull
 nsnull
+nsnull
 loadGroup
 this
 nsnull

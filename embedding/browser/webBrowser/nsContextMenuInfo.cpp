@@ -1417,6 +1417,7 @@ LoadImage
 bgUri
 nsnull
 nsnull
+principal
 nsnull
 nsnull
 nsnull

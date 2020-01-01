@@ -5167,6 +5167,9 @@ aProxyRequest
 nsIChannelPolicy
 *
 aPolicy
+nsIPrincipal
+*
+aLoadingPrincipal
 )
 {
 nsresult
@@ -5515,8 +5518,9 @@ aProxyRequest
 nsIChannelPolicy
 *
 aPolicy
-=
-nsnull
+nsIPrincipal
+*
+aLoadingPrincipal
 )
 {
 LOG_SCOPE
@@ -6037,6 +6041,7 @@ aLoadFlags
 aExistingRequest
 aProxyRequest
 aPolicy
+aLoadingPrincipal
 )
 ;
 }
@@ -6728,6 +6733,9 @@ aInitialDocumentURI
 nsIURI
 *
 aReferrerURI
+nsIPrincipal
+*
+aLoadingPrincipal
 nsILoadGroup
 *
 aLoadGroup
@@ -6962,6 +6970,7 @@ PR_TRUE
 aRequest
 _retval
 aPolicy
+aLoadingPrincipal
 )
 )
 {
@@ -7256,6 +7265,7 @@ newChannel
 entry
 cacheId
 aCX
+aLoadingPrincipal
 )
 ;
 nsCOMPtr
@@ -7778,6 +7788,8 @@ requestFlags
 PR_FALSE
 nsnull
 nsnull
+nsnull
+nsnull
 )
 )
 {
@@ -8069,6 +8081,7 @@ NS_GetCurrentThread
 (
 )
 aCX
+nsnull
 )
 ;
 ProxyListener
@@ -9382,6 +9395,19 @@ get
 ;
 #
 endif
+nsCOMPtr
+<
+nsIPrincipal
+>
+loadingPrincipal
+=
+mRequest
+-
+>
+GetLoadingPrincipal
+(
+)
+;
 mRequest
 -
 >
@@ -9431,6 +9457,7 @@ NS_GetCurrentThread
 (
 )
 mContext
+loadingPrincipal
 )
 ;
 ProxyListener

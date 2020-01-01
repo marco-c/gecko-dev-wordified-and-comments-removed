@@ -10244,6 +10244,7 @@ LoadImage
 aURI
 documentURI
 aReferrer
+aLoadingPrincipal
 loadGroup
 aObserver
 aLoadingDocument

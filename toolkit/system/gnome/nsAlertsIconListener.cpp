@@ -825,6 +825,7 @@ imageUri
 nsnull
 nsnull
 nsnull
+nsnull
 this
 nsnull
 nsIRequest
