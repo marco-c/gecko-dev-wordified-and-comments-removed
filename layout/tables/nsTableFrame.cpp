@@ -2664,7 +2664,6 @@ lastCol
 PR_FALSE
 )
 ;
-}
 if
 (
 lastColGroup
@@ -2689,6 +2688,7 @@ nsIFrame
 lastColGroup
 )
 ;
+}
 }
 removedFromCache
 =
