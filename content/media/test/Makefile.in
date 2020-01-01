@@ -362,6 +362,10 @@ can_play_type_webm
 .
 js
 \
+can_play_type_mpeg
+.
+js
+\
 cancellable_request
 .
 sjs
@@ -495,6 +499,10 @@ test_bug686942
 html
 \
 test_can_play_type
+.
+html
+\
+test_can_play_type_mpeg
 .
 html
 \

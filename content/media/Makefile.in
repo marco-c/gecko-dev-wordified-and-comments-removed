@@ -334,6 +334,13 @@ PARALLEL_DIRS
 =
 plugins
 endif
+ifdef
+MOZ_WMF
+PARALLEL_DIRS
++
+=
+wmf
+endif
 PARALLEL_DIRS
 +
 =
