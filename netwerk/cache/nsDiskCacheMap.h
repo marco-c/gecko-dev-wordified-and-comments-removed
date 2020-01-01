@@ -138,14 +138,6 @@ power
 of
 2
 !
-#
-define
-kPreallocateLimit
-1
-*
-1024
-*
-1024
 class
 nsDiskCacheRecord
 {
