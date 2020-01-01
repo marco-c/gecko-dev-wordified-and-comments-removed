@@ -6716,7 +6716,7 @@ label
 &
 cmd
 .
-showPreferences
+showPreferencesWin
 .
 label
 ;
@@ -6727,7 +6727,7 @@ tooltiptext
 &
 cmd
 .
-showPreferences
+showPreferencesWin
 .
 tooltip
 ;

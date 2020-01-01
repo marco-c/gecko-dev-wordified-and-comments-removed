@@ -807,7 +807,7 @@ label
 &
 cmd
 .
-preferences
+preferencesWin
 .
 label
 ;
@@ -818,7 +818,7 @@ accesskey
 &
 cmd
 .
-preferences
+preferencesWin
 .
 accesskey
 ;
@@ -3979,7 +3979,7 @@ label
 &
 detail
 .
-showPreferences
+showPreferencesWin
 .
 label
 ;
@@ -3990,7 +3990,7 @@ accesskey
 &
 detail
 .
-showPreferences
+showPreferencesWin
 .
 accesskey
 ;
@@ -4001,7 +4001,7 @@ tooltiptext
 &
 detail
 .
-showPreferences
+showPreferencesWin
 .
 tooltip
 ;
