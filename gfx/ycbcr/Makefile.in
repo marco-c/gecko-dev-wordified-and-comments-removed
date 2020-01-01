@@ -327,6 +327,8 @@ OS_TEST
 )
 )
 )
+ifdef
+HAVE_ARM_NEON
 CPPSRCS
 +
 =
@@ -337,6 +339,18 @@ cpp
 (
 NULL
 )
+ASFILES
+=
+yuv_row_arm
+.
+(
+ASM_SUFFIX
+)
+\
+(
+NULL
+)
+endif
 endif
 EXTRA_DSO_LDOPTS
 +
