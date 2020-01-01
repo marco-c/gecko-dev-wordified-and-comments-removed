@@ -467,6 +467,10 @@ DirectoryProvider
 .
 js
 \
+HelperAppDialog
+.
+js
+\
 Sidebar
 .
 js
@@ -498,10 +502,6 @@ XPIDialogService
 js
 \
 DownloadManagerUI
-.
-js
-\
-HelperAppDialog
 .
 js
 \
