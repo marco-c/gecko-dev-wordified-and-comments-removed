@@ -230,6 +230,9 @@ endif
 [
 xpcom
 ]
+#
+ifndef
+SYSTEM_LIBXUL
 BINPATH
 /
 dependentlibs
@@ -430,6 +433,8 @@ endif
 endif
 #
 endif
+#
+endif
 [
 browser
 ]
@@ -449,11 +454,16 @@ MOZ_APP_NAME
 exe
 #
 else
+#
+ifndef
+SYSTEM_LIBXUL
 BINPATH
 /
 MOZ_APP_NAME
 -
 bin
+#
+endif
 BINPATH
 /
 MOZ_APP_NAME
@@ -476,6 +486,9 @@ settings
 ini
 #
 endif
+#
+ifndef
+SYSTEM_LIBXUL
 BINPATH
 /
 platform
@@ -497,6 +510,8 @@ mozsqlt3
 DLL_SUFFIX
 #
 endif
+#
+endif
 BINPATH
 /
 blocklist
@@ -514,6 +529,9 @@ mozilla
 sh
 #
 ifndef
+SYSTEM_LIBXUL
+#
+ifndef
 XP_MACOSX
 BINPATH
 /
@@ -522,6 +540,8 @@ mozilla
 xremote
 -
 client
+#
+endif
 #
 endif
 #
@@ -537,6 +557,9 @@ components
 components
 .
 manifest
+#
+ifndef
+SYSTEM_LIBXUL
 BINPATH
 /
 components
@@ -603,6 +626,8 @@ components
 autoconfig
 .
 xpt
+#
+endif
 BINPATH
 /
 components
@@ -619,6 +644,9 @@ browser
 feeds
 .
 xpt
+#
+ifndef
+SYSTEM_LIBXUL
 BINPATH
 /
 components
@@ -1033,6 +1061,8 @@ components
 find
 .
 xpt
+#
+endif
 BINPATH
 /
 components
@@ -1040,6 +1070,9 @@ components
 fuel
 .
 xpt
+#
+ifndef
+SYSTEM_LIBXUL
 BINPATH
 /
 components
@@ -1176,6 +1209,8 @@ components
 lwbrk
 .
 xpt
+#
+endif
 BINPATH
 /
 components
@@ -1183,6 +1218,9 @@ components
 migration
 .
 xpt
+#
+ifndef
+SYSTEM_LIBXUL
 BINPATH
 /
 components
@@ -1382,6 +1420,8 @@ components
 saxparser
 .
 xpt
+#
+endif
 BINPATH
 /
 components
@@ -1389,6 +1429,9 @@ components
 sessionstore
 .
 xpt
+#
+ifndef
+SYSTEM_LIBXUL
 BINPATH
 /
 components
@@ -1400,6 +1443,8 @@ crypto
 component
 .
 xpt
+#
+endif
 BINPATH
 /
 components
@@ -1407,6 +1452,9 @@ components
 shellservice
 .
 xpt
+#
+ifndef
+SYSTEM_LIBXUL
 BINPATH
 /
 components
@@ -1641,9 +1689,14 @@ components
 telemetry
 .
 xpt
+#
+endif
 ;
 JavaScript
 components
+#
+ifndef
+SYSTEM_LIBXUL
 BINPATH
 /
 components
@@ -1686,6 +1739,8 @@ components
 FeedProcessor
 .
 js
+#
+endif
 BINPATH
 /
 components
@@ -1812,6 +1867,9 @@ components
 nsPrivateBrowsingService
 .
 js
+#
+ifndef
+SYSTEM_LIBXUL
 BINPATH
 /
 components
@@ -1995,6 +2053,8 @@ components
 GPSDGeolocationProvider
 .
 js
+#
+endif
 BINPATH
 /
 components
@@ -2009,6 +2069,9 @@ components
 nsSidebar
 .
 js
+#
+ifndef
+SYSTEM_LIBXUL
 BINPATH
 /
 components
@@ -2091,6 +2154,8 @@ components
 pluginGlue
 .
 manifest
+#
+endif
 BINPATH
 /
 components
@@ -2112,6 +2177,9 @@ components
 nsSessionStore
 .
 js
+#
+ifndef
+SYSTEM_LIBXUL
 BINPATH
 /
 components
@@ -2126,6 +2194,8 @@ components
 nsURLFormatter
 .
 js
+#
+endif
 #
 ifndef
 XP_OS2
@@ -2146,6 +2216,9 @@ brwsrcmp
 DLL_SUFFIX
 #
 endif
+#
+ifndef
+SYSTEM_LIBXUL
 BINPATH
 /
 components
@@ -2202,6 +2275,8 @@ components
 nsPlacesExpiration
 .
 js
+#
+endif
 BINPATH
 /
 components
@@ -2209,6 +2284,9 @@ components
 PlacesProtocolHandler
 .
 js
+#
+ifndef
+SYSTEM_LIBXUL
 BINPATH
 /
 components
@@ -2216,6 +2294,8 @@ components
 PlacesCategoriesStarter
 .
 js
+#
+endif
 BINPATH
 /
 components
@@ -2223,6 +2303,9 @@ components
 PageThumbsProtocol
 .
 js
+#
+ifndef
+SYSTEM_LIBXUL
 BINPATH
 /
 components
@@ -2538,6 +2621,8 @@ nsPrompter
 .
 js
 #
+endif
+#
 ifdef
 MOZ_SERVICES_SYNC
 BINPATH
@@ -2556,6 +2641,9 @@ Weave
 js
 #
 endif
+#
+ifndef
+SYSTEM_LIBXUL
 BINPATH
 /
 components
@@ -2626,6 +2714,8 @@ components
 ContactManager
 .
 manifest
+#
+endif
 ;
 Modules
 BINPATH
@@ -2653,6 +2743,9 @@ components
 nsSafebrowsingApplication
 .
 js
+#
+ifndef
+SYSTEM_LIBXUL
 BINPATH
 /
 components
@@ -2692,9 +2785,14 @@ classifier
 xpt
 #
 endif
+#
+endif
 ;
 GNOME
 hooks
+#
+ifndef
+SYSTEM_LIBXUL
 #
 ifdef
 MOZ_ENABLE_GNOME_COMPONENT
@@ -2705,6 +2803,8 @@ components
 DLL_PREFIX
 mozgnome
 DLL_SUFFIX
+#
+endif
 #
 endif
 ;
@@ -2842,6 +2942,9 @@ com
 xpi
 #
 endif
+#
+ifndef
+SYSTEM_LIBXUL
 BINPATH
 /
 chrome
@@ -2855,6 +2958,8 @@ chrome
 toolkit
 .
 manifest
+#
+endif
 #
 ifdef
 MOZ_GTK2
@@ -2978,6 +3083,9 @@ sync
 js
 #
 endif
+#
+ifndef
+SYSTEM_LIBXUL
 BINPATH
 /
 greprefs
@@ -3001,6 +3109,8 @@ autoconfig
 prefcalls
 .
 js
+#
+endif
 BINPATH
 /
 defaults
@@ -3016,6 +3126,9 @@ Layout
 Engine
 Resources
 ]
+#
+ifndef
+SYSTEM_LIBXUL
 ;
 Style
 Sheets
@@ -3407,6 +3520,8 @@ components
 dom_smil
 .
 xpt
+#
+endif
 ;
 [
 Personal
@@ -3414,6 +3529,9 @@ Security
 Manager
 ]
 ;
+#
+ifndef
+SYSTEM_LIBXUL
 ;
 NSS
 libraries
@@ -3536,6 +3654,8 @@ bin
 libfreebl_32int64_3
 .
 so
+#
+endif
 #
 endif
 ;
