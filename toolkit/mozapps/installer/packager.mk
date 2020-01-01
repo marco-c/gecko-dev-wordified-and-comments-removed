@@ -2732,8 +2732,14 @@ ap_
 (
 ZIP
 )
+(
+if
+(
+MOZ_ENABLE_SZIP
+)
 -
 0
+)
 (
 _ABS_DIST
 )
