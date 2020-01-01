@@ -622,6 +622,14 @@ dialog_dialogfocus
 .
 xul
 \
+test_screenPersistence
+.
+xul
+\
+window_screenPosSize
+.
+xul
+\
 (
 NULL
 )
