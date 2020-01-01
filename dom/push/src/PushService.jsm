@@ -2126,6 +2126,12 @@ enabled
 this
 )
 ;
+this
+.
+_started
+=
+true
+;
 }
 _shutdownWS
 :
