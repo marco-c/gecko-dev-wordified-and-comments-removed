@@ -104,6 +104,9 @@ class
 nsIEffectiveTLDService
 ;
 class
+nsIIDNService
+;
+class
 nsIPrefBranch
 ;
 class
@@ -410,6 +413,14 @@ Read
 )
 ;
 nsresult
+NormalizeHost
+(
+nsCString
+&
+aHost
+)
+;
+nsresult
 GetBaseDomain
 (
 nsIURI
@@ -420,7 +431,7 @@ nsCString
 aBaseDomain
 PRBool
 &
-aIsIPAddress
+aRequireHostMatch
 )
 ;
 nsresult
@@ -490,7 +501,7 @@ nsCString
 &
 aBaseDomain
 PRBool
-aIsIPAddress
+aRequireHostMatch
 nsDependentCString
 &
 aCookieHeader
@@ -605,7 +616,7 @@ nsCString
 &
 aBaseDomain
 PRBool
-aHostIsIPAddress
+aRequireHostMatch
 nsIURI
 *
 aFirstURI
@@ -625,7 +636,7 @@ nsCString
 &
 aBaseDomain
 PRBool
-aIsIPAddress
+aRequireHostMatch
 const
 char
 *
@@ -646,7 +657,7 @@ nsCString
 &
 aBaseDomain
 PRBool
-aIsIPAddress
+aRequireHostMatch
 )
 ;
 static
@@ -763,6 +774,12 @@ nsCOMPtr
 nsIEffectiveTLDService
 >
 mTLDService
+;
+nsCOMPtr
+<
+nsIIDNService
+>
+mIDNService
 ;
 DBState
 *
