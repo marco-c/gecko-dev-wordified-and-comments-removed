@@ -250,14 +250,6 @@ MarionetteException
     
 pass
 class
-NoSuchAttributeException
-(
-MarionetteException
-)
-:
-    
-pass
-class
 JavascriptException
 (
 MarionetteException
