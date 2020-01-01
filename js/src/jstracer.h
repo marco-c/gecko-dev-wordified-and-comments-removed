@@ -180,17 +180,6 @@ typeMap
 ;
 }
 ;
-struct
-VMSideExitInfo
-{
-uint8
-typeMap
-[
-0
-]
-;
-}
-;
 #
 define
 TYPEMAP_GET_TYPE

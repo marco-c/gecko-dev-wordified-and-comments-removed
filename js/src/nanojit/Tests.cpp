@@ -1915,18 +1915,6 @@ sp
 =
 NULL
 ;
-state
-.
-rp
-=
-NULL
-;
-state
-.
-f
-=
-NULL
-;
 frago
 -
 >
@@ -2011,7 +1999,7 @@ LIR_trace
 frag
 -
 >
-param0
+state
 =
 lirout
 -
