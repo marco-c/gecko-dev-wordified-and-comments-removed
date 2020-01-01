@@ -290,11 +290,8 @@ y
 )
 {
 #
-if
+ifdef
 __GNUC__
->
-=
-4
 return
 __builtin_hypot
 (

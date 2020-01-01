@@ -240,16 +240,8 @@ final
 #
 endif
 #
-if
-__GNUC_MINOR__
->
-=
-4
-#
 define
 MOZ_HAVE_CXX11_DELETE
-#
-endif
 #
 if
 __GNUC_MINOR__

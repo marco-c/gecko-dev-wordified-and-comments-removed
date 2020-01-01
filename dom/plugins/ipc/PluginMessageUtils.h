@@ -297,11 +297,9 @@ FULLFUNCTION
 __FUNCSIG__
 #
 elif
+defined
 (
 __GNUC__
->
-=
-4
 )
 #
 define
