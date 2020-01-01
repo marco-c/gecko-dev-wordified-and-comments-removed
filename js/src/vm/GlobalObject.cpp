@@ -443,6 +443,9 @@ JSScript
 Create
 (
 cx
+NullPtr
+(
+)
 false
 NULL
 NULL
