@@ -3774,8 +3774,6 @@ Layer
 *
 aAfter
 )
-=
-0
 ;
 virtual
 void
@@ -3785,8 +3783,6 @@ Layer
 *
 aChild
 )
-=
-0
 ;
 virtual
 void
@@ -3799,8 +3795,6 @@ Layer
 *
 aAfter
 )
-=
-0
 ;
 void
 SetFrameMetrics
@@ -4171,6 +4165,15 @@ protected
 friend
 class
 ReadbackProcessor
+;
+static
+bool
+HasOpaqueAncestorLayer
+(
+Layer
+*
+aLayer
+)
 ;
 void
 DidInsertChild
