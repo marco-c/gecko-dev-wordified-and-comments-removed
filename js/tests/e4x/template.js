@@ -13,7 +13,7 @@ summary
 section
 -
 description
-"
+'
 ;
 var
 BUGNUMBER
