@@ -1094,15 +1094,3 @@ return
 true
 ;
 }
-bool
-nsLookAndFeel
-:
-:
-GetEchoPasswordImpl
-(
-)
-{
-return
-true
-;
-}
