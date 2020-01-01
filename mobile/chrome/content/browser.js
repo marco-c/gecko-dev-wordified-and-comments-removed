@@ -5996,6 +5996,18 @@ aDirection
 )
 ;
 let
+adjusted
+=
+BrowserView
+.
+Util
+.
+adjustZoomLevel
+(
+zoomLevel
+)
+;
+let
 center
 =
 this
@@ -6029,7 +6041,7 @@ x
 center
 .
 y
-zoomLevel
+adjusted
 )
 )
 ;
