@@ -839,6 +839,8 @@ view
 class
 =
 "
+sidebar
+-
 placesTree
 "
 type
@@ -959,6 +961,13 @@ view
 bookmarks
 -
 view
+"
+class
+=
+"
+sidebar
+-
+placesTreechildren
 "
 flex
 =

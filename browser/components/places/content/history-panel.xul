@@ -1320,6 +1320,13 @@ id
 "
 historyTree
 "
+class
+=
+"
+sidebar
+-
+placesTree
+"
 flex
 =
 "
@@ -1409,6 +1416,13 @@ treecols
 >
 <
 treechildren
+class
+=
+"
+sidebar
+-
+placesTreechildren
+"
 flex
 =
 "
