@@ -930,6 +930,12 @@ SETTINGS_USB_DHCPSERVER_ENDIP
 this
 )
 ;
+this
+.
+setAndConfigureActive
+(
+)
+;
 }
 NetworkManager
 .
