@@ -417,7 +417,7 @@ false
 }
 protected
 :
-FallibleTArray
+nsTArray
 <
 nsString
 >

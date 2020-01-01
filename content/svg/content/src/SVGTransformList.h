@@ -393,7 +393,7 @@ aTransform
 }
 protected
 :
-FallibleTArray
+nsTArray
 <
 SVGTransform
 >

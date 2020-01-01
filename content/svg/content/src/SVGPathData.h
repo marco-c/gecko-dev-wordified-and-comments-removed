@@ -490,7 +490,7 @@ Length
 )
 ;
 }
-FallibleTArray
+nsTArray
 <
 float
 >

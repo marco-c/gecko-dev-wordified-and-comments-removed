@@ -394,7 +394,7 @@ aNumber
 }
 protected
 :
-FallibleTArray
+nsTArray
 <
 float
 >
