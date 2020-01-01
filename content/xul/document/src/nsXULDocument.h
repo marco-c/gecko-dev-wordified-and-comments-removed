@@ -1296,8 +1296,6 @@ const
 nsAString
 &
 aAttr
-PRBool
-aAddingListener
 )
 ;
 static
