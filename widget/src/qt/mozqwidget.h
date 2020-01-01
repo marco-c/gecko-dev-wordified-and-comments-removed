@@ -898,6 +898,9 @@ mStatusBar
 >
 appear
 (
+scene
+(
+)
 )
 ;
 connect
