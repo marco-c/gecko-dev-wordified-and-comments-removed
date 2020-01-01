@@ -2165,9 +2165,8 @@ Ci
 nsIDOMWindowUtils
 )
 ;
-let
-handled
-=
+if
+(
 utils
 .
 sendKeyEvent
@@ -2179,7 +2178,8 @@ keyCode
 0
 modifiers
 )
-;
+)
+{
 utils
 .
 sendKeyEvent
@@ -2190,10 +2190,9 @@ keypress
 0
 charCode
 modifiers
-!
-handled
 )
 ;
+}
 utils
 .
 sendKeyEvent

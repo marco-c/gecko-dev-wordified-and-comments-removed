@@ -588,6 +588,8 @@ interfaces
 nsIDOMWindowUtils
 )
 ;
+if
+(
 wutils
 .
 sendKeyEvent
@@ -599,7 +601,8 @@ key
 0
 modifier
 )
-;
+)
+{
 wutils
 .
 sendKeyEvent
@@ -612,6 +615,7 @@ key
 modifier
 )
 ;
+}
 wutils
 .
 sendKeyEvent
