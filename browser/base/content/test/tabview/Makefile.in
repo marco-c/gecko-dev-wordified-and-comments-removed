@@ -464,6 +464,10 @@ browser_tabview_bug591706
 .
 js
 \
+browser_tabview_apptabs
+.
+js
+\
 (
 NULL
 )
