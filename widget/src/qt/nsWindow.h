@@ -895,8 +895,11 @@ virtual
 nsEventStatus
 OnMotionNotifyEvent
 (
-QGraphicsSceneMouseEvent
-*
+QPointF
+Qt
+:
+:
+KeyboardModifiers
 )
 ;
 virtual

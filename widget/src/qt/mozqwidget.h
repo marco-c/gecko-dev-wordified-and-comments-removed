@@ -733,6 +733,11 @@ addItem
 aTopLevel
 )
 ;
+setMouseTracking
+(
+true
+)
+;
 }
 protected
 :
