@@ -8139,7 +8139,7 @@ aLoadInBackground
 ?
 null
 :
-gBrowser
+this
 .
 selectedTab
 ;
@@ -8167,7 +8167,7 @@ null
 else
 firstTabAdded
 =
-gBrowser
+this
 .
 addTab
 (
@@ -8193,7 +8193,7 @@ selectedIndex
 ;
 for
 (
-var
+let
 i
 =
 1
@@ -8209,10 +8209,10 @@ length
 i
 )
 {
-var
+let
 tab
 =
-gBrowser
+this
 .
 addTab
 (
