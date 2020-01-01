@@ -622,6 +622,16 @@ NPIdentifier
 aIdentifier
 )
 ;
+#
+ifdef
+OS_MACOSX
+void
+ProcessNativeEvents
+(
+)
+;
+#
+endif
 private
 :
 bool
