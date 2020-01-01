@@ -230,7 +230,7 @@ static
 HWND
 gParentWnd
 =
-NULL
+nullptr
 ;
 typedef
 struct
@@ -2006,7 +2006,7 @@ if
 radWnd
 !
 =
-NULL
+nullptr
 )
 {
 :
@@ -2082,7 +2082,7 @@ separateFramesWindows
 rad6
 }
 {
-NULL
+nullptr
 0
 }
 }
@@ -2113,7 +2113,7 @@ aRect
 :
 MapWindowPoints
 (
-NULL
+nullptr
 aParent
 (
 LPPOINT
@@ -2192,7 +2192,7 @@ str
 )
 )
 return
-NULL
+nullptr
 ;
 HWND
 hWnd
@@ -2235,7 +2235,7 @@ HMENU
 )
 aId
 aHInst
-NULL
+nullptr
 )
 ;
 if
@@ -2243,10 +2243,10 @@ if
 hWnd
 =
 =
-NULL
+nullptr
 )
 return
-NULL
+nullptr
 ;
 HFONT
 hFont
@@ -2275,7 +2275,7 @@ if
 hFont
 !
 =
-NULL
+nullptr
 )
 {
 :
@@ -2442,7 +2442,7 @@ i
 mKeyStr
 !
 =
-NULL
+nullptr
 )
 {
 SetText
@@ -2623,7 +2623,7 @@ if
 printDlg
 =
 =
-NULL
+nullptr
 )
 return
 0L
@@ -2671,7 +2671,7 @@ if
 hInst
 =
 =
-NULL
+nullptr
 )
 return
 0L
@@ -2692,7 +2692,7 @@ if
 wnd
 =
 =
-NULL
+nullptr
 )
 return
 0L
@@ -2722,7 +2722,7 @@ if
 wnd
 =
 =
-NULL
+nullptr
 )
 return
 0L
@@ -2752,7 +2752,7 @@ if
 wnd
 =
 =
-NULL
+nullptr
 )
 return
 0L
@@ -2782,7 +2782,7 @@ if
 wnd
 =
 =
-NULL
+nullptr
 )
 return
 0L
@@ -2813,7 +2813,7 @@ if
 okWnd
 =
 =
-NULL
+nullptr
 )
 return
 0L
@@ -2843,7 +2843,7 @@ if
 wnd
 =
 =
-NULL
+nullptr
 )
 return
 0L
@@ -2973,7 +2973,7 @@ if
 rad4Wnd
 =
 =
-NULL
+nullptr
 )
 return
 0L
@@ -3014,7 +3014,7 @@ if
 rad5Wnd
 =
 =
-NULL
+nullptr
 )
 {
 Show
@@ -3063,7 +3063,7 @@ if
 rad6Wnd
 =
 =
-NULL
+nullptr
 )
 {
 Show
@@ -3136,7 +3136,7 @@ if
 grpBoxWnd
 =
 =
-NULL
+nullptr
 )
 {
 Show
@@ -3241,7 +3241,7 @@ bottomGap
 SetWindowPos
 (
 hdlg
-NULL
+nullptr
 pr
 .
 left
@@ -3314,7 +3314,7 @@ top
 SetWindowPos
 (
 okWnd
-NULL
+nullptr
 okRect
 .
 left
@@ -3348,7 +3348,7 @@ if
 cancelWnd
 =
 =
-NULL
+nullptr
 )
 return
 0L
@@ -3381,7 +3381,7 @@ top
 SetWindowPos
 (
 cancelWnd
-NULL
+nullptr
 cancelRect
 .
 left
@@ -3433,12 +3433,12 @@ aPS
 HGLOBAL
 hGlobalDevMode
 =
-NULL
+nullptr
 ;
 HANDLE
 hPrinter
 =
-NULL
+nullptr
 ;
 LPWSTR
 printName
@@ -3466,7 +3466,7 @@ OpenPrinterW
 printName
 &
 hPrinter
-NULL
+nullptr
 )
 ;
 if
@@ -3490,8 +3490,8 @@ DocumentPropertiesW
 gParentWnd
 hPrinter
 printName
-NULL
-NULL
+nullptr
+nullptr
 0
 )
 ;
@@ -3504,7 +3504,7 @@ dwNeeded
 )
 {
 return
-NULL
+nullptr
 ;
 }
 pNewDevMode
@@ -3531,7 +3531,7 @@ if
 pNewDevMode
 )
 return
-NULL
+nullptr
 ;
 hGlobalDevMode
 =
@@ -3566,7 +3566,7 @@ pNewDevMode
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 dwRet
@@ -3579,7 +3579,7 @@ gParentWnd
 hPrinter
 printName
 pNewDevMode
-NULL
+nullptr
 DM_OUT_BUFFER
 )
 ;
@@ -3619,7 +3619,7 @@ hPrinter
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 LPDEVMODEW
@@ -3713,7 +3713,7 @@ hPrinter
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 :
@@ -3735,7 +3735,7 @@ hGlobalDevMode
 ;
 hGlobalDevMode
 =
-NULL
+nullptr
 ;
 }
 :
@@ -3762,7 +3762,7 @@ hPrinter
 else
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -3923,12 +3923,12 @@ false
 HGLOBAL
 hGlobalDevMode
 =
-NULL
+nullptr
 ;
 HGLOBAL
 hDevNames
 =
-NULL
+nullptr
 ;
 nsXPIDLString
 printerName
@@ -3964,7 +3964,7 @@ else
 HANDLE
 hPrinter
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3987,7 +3987,7 @@ get
 )
 &
 hPrinter
-NULL
+nullptr
 )
 )
 {
@@ -4218,7 +4218,7 @@ prntdlg
 .
 hDC
 =
-NULL
+nullptr
 ;
 prntdlg
 .
@@ -4336,37 +4336,37 @@ prntdlg
 .
 lpfnSetupHook
 =
-NULL
+nullptr
 ;
 prntdlg
 .
 lpSetupTemplateName
 =
-NULL
+nullptr
 ;
 prntdlg
 .
 hPrintTemplate
 =
-NULL
+nullptr
 ;
 prntdlg
 .
 hSetupTemplate
 =
-NULL
+nullptr
 ;
 prntdlg
 .
 hInstance
 =
-NULL
+nullptr
 ;
 prntdlg
 .
 lpPrintTemplateName
 =
-NULL
+nullptr
 ;
 if
 (
@@ -4386,7 +4386,7 @@ prntdlg
 .
 lpfnPrintHook
 =
-NULL
+nullptr
 ;
 }
 else
@@ -4454,7 +4454,7 @@ prntdlg
 hDevNames
 =
 =
-NULL
+nullptr
 )
 {
 :
@@ -4490,7 +4490,7 @@ if
 devnames
 =
 =
-NULL
+nullptr
 )
 {
 :
@@ -4934,7 +4934,7 @@ if
 devMode
 =
 =
-NULL
+nullptr
 )
 {
 :

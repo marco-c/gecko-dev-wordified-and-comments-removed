@@ -37,7 +37,7 @@ mNumStrings
 )
 mString
 (
-NULL
+nullptr
 )
 {
 for
@@ -92,7 +92,7 @@ if
 mString
 !
 =
-NULL
+nullptr
 )
 return
 NS_ERROR_ALREADY_INITIALIZED

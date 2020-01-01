@@ -855,7 +855,7 @@ NS_ERROR_INVALID_ARG
 *
 retval
 =
-NULL
+nullptr
 ;
 #
 ifdef
@@ -1309,7 +1309,7 @@ aArguments
 )
 {
 return
-NULL
+nullptr
 ;
 }
 nsCOMPtr
@@ -1350,7 +1350,7 @@ argc
 0
 )
 return
-NULL
+nullptr
 ;
 return
 array
@@ -1399,7 +1399,7 @@ argc
 )
 {
 return
-NULL
+nullptr
 ;
 }
 nsCOMPtr
@@ -1416,7 +1416,7 @@ NS_ARRAY_CONTRACTID
 NS_ENSURE_TRUE
 (
 mutableArray
-NULL
+nullptr
 )
 ;
 for
@@ -1468,7 +1468,7 @@ false
 NS_ENSURE_SUCCESS
 (
 rv
-NULL
+nullptr
 )
 ;
 }
@@ -1494,7 +1494,7 @@ NS_ARRAY_CONTRACTID
 NS_ENSURE_TRUE
 (
 singletonArray
-NULL
+nullptr
 )
 ;
 nsresult
@@ -1512,7 +1512,7 @@ false
 NS_ENSURE_SUCCESS
 (
 rv
-NULL
+nullptr
 )
 ;
 return
