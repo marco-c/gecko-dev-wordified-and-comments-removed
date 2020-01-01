@@ -227,7 +227,7 @@ nsAutoRules
 nsEditor
 *
 ed
-OperationID
+EditAction
 action
 nsIEditor
 :

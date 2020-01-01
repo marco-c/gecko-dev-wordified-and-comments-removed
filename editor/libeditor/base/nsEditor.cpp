@@ -836,7 +836,7 @@ mPlaceHolderBatch
 )
 mAction
 (
-OperationID
+EditAction
 :
 :
 none
@@ -3206,7 +3206,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 undo
@@ -3404,7 +3404,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 redo
@@ -5203,7 +5203,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 createNode
@@ -5392,7 +5392,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 insertNode
@@ -5537,7 +5537,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 splitNode
@@ -5809,7 +5809,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 joinNode
@@ -6010,7 +6010,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 createNode
@@ -8704,7 +8704,7 @@ nsEditor
 :
 StartOperation
 (
-OperationID
+EditAction
 opID
 nsIEditor
 :
@@ -8735,7 +8735,7 @@ EndOperation
 {
 mAction
 =
-OperationID
+EditAction
 :
 :
 none
@@ -11021,7 +11021,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 deleteText
@@ -17358,7 +17358,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 deleteSelection
@@ -20741,7 +20741,7 @@ nsEditor
 :
 HandleInlineSpellCheck
 (
-OperationID
+EditAction
 action
 nsISelection
 *

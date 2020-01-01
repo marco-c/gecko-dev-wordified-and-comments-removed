@@ -901,7 +901,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 loadHTML
@@ -929,7 +929,7 @@ selection
 nsTextRulesInfo
 ruleInfo
 (
-OperationID
+EditAction
 :
 :
 loadHTML
@@ -1320,7 +1320,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 htmlPaste
@@ -1800,7 +1800,7 @@ CollapseToStart
 nsTextRulesInfo
 ruleInfo
 (
-OperationID
+EditAction
 :
 :
 insertElement
@@ -8165,7 +8165,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 insertQuotation
@@ -8194,7 +8194,7 @@ NS_ERROR_NULL_POINTER
 nsTextRulesInfo
 ruleInfo
 (
-OperationID
+EditAction
 :
 :
 insertElement
@@ -9047,7 +9047,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 insertQuotation
@@ -9060,7 +9060,7 @@ eNext
 nsTextRulesInfo
 ruleInfo
 (
-OperationID
+EditAction
 :
 :
 insertElement
@@ -9424,7 +9424,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 insertQuotation
@@ -9437,7 +9437,7 @@ eNext
 nsTextRulesInfo
 ruleInfo
 (
-OperationID
+EditAction
 :
 :
 insertElement

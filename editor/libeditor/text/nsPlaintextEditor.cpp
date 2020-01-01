@@ -2408,7 +2408,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 insertText
@@ -2987,7 +2987,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 deleteSelection
@@ -3082,7 +3082,7 @@ eNone
 nsTextRulesInfo
 ruleInfo
 (
-OperationID
+EditAction
 :
 :
 deleteSelection
@@ -3200,10 +3200,10 @@ kungFuDeathGrip
 mRules
 )
 ;
-OperationID
+EditAction
 opID
 =
-OperationID
+EditAction
 :
 :
 insertText
@@ -3215,7 +3215,7 @@ mInIMEMode
 {
 opID
 =
-OperationID
+EditAction
 :
 :
 insertIMEText
@@ -3383,7 +3383,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 insertBreak
@@ -3435,7 +3435,7 @@ MaybeInvalidateCaretPosition
 nsTextRulesInfo
 ruleInfo
 (
-OperationID
+EditAction
 :
 :
 insertBreak
@@ -4704,7 +4704,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 undo
@@ -4717,7 +4717,7 @@ eNone
 nsTextRulesInfo
 ruleInfo
 (
-OperationID
+EditAction
 :
 :
 undo
@@ -4837,7 +4837,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 redo
@@ -4850,7 +4850,7 @@ eNone
 nsTextRulesInfo
 ruleInfo
 (
-OperationID
+EditAction
 :
 :
 redo
@@ -5471,7 +5471,7 @@ resultString
 nsTextRulesInfo
 ruleInfo
 (
-OperationID
+EditAction
 :
 :
 outputText
@@ -6111,7 +6111,7 @@ nsAutoRules
 beginRulesSniffing
 (
 this
-OperationID
+EditAction
 :
 :
 insertText
@@ -6124,7 +6124,7 @@ eNext
 nsTextRulesInfo
 ruleInfo
 (
-OperationID
+EditAction
 :
 :
 insertElement
@@ -6593,7 +6593,7 @@ nsPlaintextEditor
 :
 StartOperation
 (
-OperationID
+EditAction
 opID
 nsIEditor
 :

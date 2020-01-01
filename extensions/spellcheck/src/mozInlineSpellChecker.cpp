@@ -291,7 +291,7 @@ mozInlineSpellStatus
 :
 InitForEditorChange
 (
-OperationID
+EditAction
 aAction
 nsIDOMNode
 *
@@ -364,7 +364,7 @@ if
 aAction
 =
 =
-OperationID
+EditAction
 :
 :
 deleteSelection
@@ -493,7 +493,7 @@ if
 aAction
 =
 =
-OperationID
+EditAction
 :
 :
 insertText
@@ -2505,7 +2505,7 @@ status
 InitForEditorChange
 (
 (
-OperationID
+EditAction
 )
 aAction
 anchorNode
