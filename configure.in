@@ -37011,13 +37011,8 @@ PKG_CHECK_MODULES
 MOZ_QT
 QtGui
 QtNetwork
-QtScript
-QtTest
-QtAssistantClient
-QtXml
 QtUiTools
 QtCore
-QtSvg
 )
 AC_SUBST
 (
