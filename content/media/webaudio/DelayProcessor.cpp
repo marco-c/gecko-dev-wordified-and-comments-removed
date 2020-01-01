@@ -507,6 +507,8 @@ int
 numFrames
 =
 mMaxDelayFrames
++
+1
 ;
 for
 (
