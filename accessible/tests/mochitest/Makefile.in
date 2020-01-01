@@ -482,6 +482,10 @@ test_nsIAccessibleHyperLink
 .
 html
 \
+test_nsIAccessibleHyperLink
+.
+xul
+\
 test_nsIAccessibleHyperText
 .
 html
