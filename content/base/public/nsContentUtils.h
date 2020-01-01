@@ -2291,9 +2291,9 @@ static
 void
 GetOfflineAppManifest
 (
-nsIDOMWindow
+nsIDocument
 *
-aWindow
+aDocument
 nsIURI
 *
 *

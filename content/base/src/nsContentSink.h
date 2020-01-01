@@ -432,6 +432,9 @@ CACHE_SELECTION_UPDATE
 CACHE_SELECTION_RELOAD
 =
 2
+CACHE_SELECTION_RESELECT_WITHOUT_MANIFEST
+=
+3
 }
 ;
 nsresult
@@ -578,8 +581,6 @@ nsIURI
 *
 aManifestURI
 PRBool
-aIsTopDocument
-PRBool
 aFetchedWithHTTPGetOrEquiv
 CacheSelectionAction
 *
@@ -592,8 +593,6 @@ SelectDocAppCacheNoManifest
 nsIApplicationCache
 *
 aLoadApplicationCache
-PRBool
-aIsTopDocument
 nsIURI
 *
 *
