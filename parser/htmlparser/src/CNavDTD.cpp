@@ -4282,7 +4282,7 @@ GetAttributeCount
 (
 )
 ;
-nsVoidArray
+nsStringArray
 theContent
 ;
 nsAutoString
@@ -4394,10 +4394,6 @@ theIndex
 {
 theTextValue
 =
-(
-nsString
-*
-)
 theContent
 [
 theIndex
