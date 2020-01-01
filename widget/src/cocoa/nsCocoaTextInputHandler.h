@@ -12,9 +12,6 @@ nsCocoaUtils
 h
 "
 #
-ifdef
-NS_LEOPARD_AND_LATER
-#
 import
 <
 Carbon
@@ -957,7 +954,5 @@ nsCocoaTextInputHandler
 ;
 }
 ;
-#
-endif
 #
 endif

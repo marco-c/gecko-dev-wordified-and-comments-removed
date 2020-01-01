@@ -458,9 +458,6 @@ nsCocoaTextInputHandler
 h
 "
 #
-ifdef
-NS_LEOPARD_AND_LATER
-#
 include
 "
 nsChildView
@@ -7473,8 +7470,3 @@ langList
 )
 ;
 }
-#
-endif
-/
-/
-NS_LEOPARD_AND_LATER
