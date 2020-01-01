@@ -66,5 +66,6 @@ crasher
 .
 crash
 (
+crashType
 )
 ;

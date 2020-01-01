@@ -3,6 +3,7 @@ do_crash
 (
 setup
 callback
+canReturnZero
 )
 {
 let
@@ -290,6 +291,12 @@ ex
 )
 {
 }
+if
+(
+!
+canReturnZero
+)
+{
 do_check_neq
 (
 process
@@ -298,6 +305,7 @@ exitValue
 0
 )
 ;
+}
 let
 minidump
 =
