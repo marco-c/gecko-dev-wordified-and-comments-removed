@@ -36,17 +36,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-dom
-/
-SVGAnimatedLength
-.
-h
-"
-#
-include
 <
 algorithm
 >
@@ -60,6 +49,9 @@ mozilla
 namespace
 dom
 {
+class
+SVGAnimatedLength
+;
 JSObject
 *
 SVGRectElement

@@ -15,15 +15,6 @@ h
 #
 include
 "
-mozilla
-/
-Preferences
-.
-h
-"
-#
-include
-"
 nsComputedDOMStyle
 .
 h

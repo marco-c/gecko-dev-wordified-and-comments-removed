@@ -45,13 +45,6 @@ h
 #
 include
 "
-nsSVGElement
-.
-h
-"
-#
-include
-"
 nsTextFormatter
 .
 h
@@ -60,13 +53,6 @@ h
 include
 "
 prdtoa
-.
-h
-"
-#
-include
-"
-SVGAnimatedNumberList
 .
 h
 "

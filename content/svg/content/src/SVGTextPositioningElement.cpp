@@ -46,13 +46,6 @@ SVGContentUtils
 .
 h
 "
-#
-include
-"
-SVGLengthList
-.
-h
-"
 namespace
 mozilla
 {

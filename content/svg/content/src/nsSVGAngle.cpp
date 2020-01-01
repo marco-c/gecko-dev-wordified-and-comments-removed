@@ -95,15 +95,6 @@ SVGAnimatedAngle
 .
 h
 "
-#
-include
-"
-mozilla
-/
-Attributes
-.
-h
-"
 using
 namespace
 mozilla

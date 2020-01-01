@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsSVGElement
-.
-h
-"
-#
-include
-"
 nsSVGPathDataParser
 .
 h

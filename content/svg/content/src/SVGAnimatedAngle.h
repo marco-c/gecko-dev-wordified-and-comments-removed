@@ -1,6 +1,9 @@
 #
-pragma
-once
+ifndef
+mozilla_dom_SVGAnimatedAngle_h
+#
+define
+mozilla_dom_SVGAnimatedAngle_h
 #
 include
 "
@@ -12,13 +15,6 @@ h
 include
 "
 nsSVGElement
-.
-h
-"
-#
-include
-"
-SVGAngle
 .
 h
 "
@@ -40,6 +36,9 @@ mozilla
 namespace
 dom
 {
+class
+SVGAngle
+;
 class
 SVGAnimatedAngle
 MOZ_FINAL
@@ -143,3 +142,5 @@ mSVGElement
 ;
 }
 }
+#
+endif

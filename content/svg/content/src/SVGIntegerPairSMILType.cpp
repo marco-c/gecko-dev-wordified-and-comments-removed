@@ -26,13 +26,6 @@ nsDebug
 .
 h
 "
-#
-include
-<
-math
-.
-h
->
 namespace
 mozilla
 {

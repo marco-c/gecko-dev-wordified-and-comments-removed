@@ -32,13 +32,6 @@ h
 "
 #
 include
-<
-math
-.
-h
->
-#
-include
 "
 nsContentUtils
 .

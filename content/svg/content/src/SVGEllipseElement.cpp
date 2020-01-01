@@ -5,17 +5,6 @@ mozilla
 /
 dom
 /
-SVGAnimatedLength
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 SVGEllipseElement
 .
 h

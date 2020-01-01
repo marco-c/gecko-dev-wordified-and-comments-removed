@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsTextFormatter
-.
-h
-"
-#
-include
-"
 prdtoa
 .
 h

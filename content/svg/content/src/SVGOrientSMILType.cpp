@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsSVGViewBox
-.
-h
-"
-#
-include
-"
 nsSVGAngle
 .
 h

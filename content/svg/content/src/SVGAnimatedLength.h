@@ -14,10 +14,16 @@ h
 #
 include
 "
-nsSVGLength2
+nsIDOMSVGAnimatedLength
 .
 h
 "
+class
+nsSVGLength2
+;
+class
+nsIDOMSVGLength
+;
 namespace
 mozilla
 {

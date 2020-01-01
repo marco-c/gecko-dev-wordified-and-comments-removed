@@ -8,13 +8,6 @@ h
 #
 include
 "
-SVGAngle
-.
-h
-"
-#
-include
-"
 nsSVGAngle
 .
 h

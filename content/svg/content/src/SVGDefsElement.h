@@ -7,15 +7,6 @@ mozilla_dom_SVGDefsElement_h
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 SVGGraphicsElement
 .
 h
