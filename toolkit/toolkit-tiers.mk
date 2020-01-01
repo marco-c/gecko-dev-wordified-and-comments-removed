@@ -957,6 +957,8 @@ tier_platform_dirs
 services
 /
 crypto
+/
+component
 #
 JavaXPCOM
 JNI
