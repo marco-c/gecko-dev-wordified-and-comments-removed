@@ -802,6 +802,16 @@ Subscribe
 <
 !
 ENTITY
+feedSubscribe
+.
+accesskey
+"
+u
+"
+>
+<
+!
+ENTITY
 permTab
 "
 Permissions
