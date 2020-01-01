@@ -182,6 +182,10 @@ HTMLMapElement
 .
 h
 \
+HTMLModElement
+.
+h
+\
 HTMLParagraphElement
 .
 h
@@ -392,7 +396,7 @@ nsHTMLMeterElement
 .
 cpp
 \
-nsHTMLModElement
+HTMLModElement
 .
 cpp
 \
