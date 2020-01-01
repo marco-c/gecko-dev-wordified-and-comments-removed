@@ -1900,6 +1900,7 @@ exportToFile
 fp
 .
 file
+true
 )
 ;
 }
