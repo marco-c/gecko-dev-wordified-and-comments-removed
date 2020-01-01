@@ -32008,7 +32008,7 @@ doHashchange
 window
 -
 >
-DispatchSyncHashchange
+DispatchAsyncHashchange
 (
 )
 ;
