@@ -5797,9 +5797,6 @@ _
 (
 GNU_CC
 )
-(
-INTERNAL_TOOLS
-)
 WINNT_
 )
 #
