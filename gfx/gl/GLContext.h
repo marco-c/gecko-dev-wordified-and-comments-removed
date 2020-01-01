@@ -1430,6 +1430,12 @@ MOZ_WIDGET_ANDROID
 SurfaceTexture
 #
 endif
+#
+ifdef
+XP_MACOSX
+IOSurface
+#
+endif
 }
 ;
 virtual
