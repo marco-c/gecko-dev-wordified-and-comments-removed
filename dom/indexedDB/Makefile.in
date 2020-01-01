@@ -128,10 +128,6 @@ FileManager
 .
 cpp
 \
-FileStream
-.
-cpp
-\
 IDBCursor
 .
 cpp
@@ -445,10 +441,6 @@ nsIIDBOpenDBRequest
 idl
 \
 nsIIndexedDatabaseManager
-.
-idl
-\
-nsIStandardFileStream
 .
 idl
 \

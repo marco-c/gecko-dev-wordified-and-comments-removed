@@ -187,10 +187,6 @@ mozIStorageAsyncStatement
 .
 idl
 \
-mozIStorageServiceQuotaManagement
-.
-idl
-\
 mozIStorageVacuumParticipant
 .
 idl

@@ -85,8 +85,11 @@ amalgamation
 of
 sqlite
 .
-Also
-copy
+(
+We
+no
+longer
+use
 test_quota
 .
 h
@@ -94,12 +97,7 @@ and
 test_quota
 .
 c
-from
-the
-full
-source
-package
-.
+)
 Be
 sure
 to

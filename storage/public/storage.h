@@ -105,13 +105,6 @@ h
 #
 include
 "
-mozIStorageServiceQuotaManagement
-.
-h
-"
-#
-include
-"
 mozIStorageVacuumParticipant
 .
 h

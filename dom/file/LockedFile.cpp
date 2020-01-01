@@ -3712,9 +3712,9 @@ index
 {
 nsCOMPtr
 <
-nsIOutputStream
+nsIInputStream
 >
-ostream
+stream
 =
 do_QueryInterface
 (
@@ -3728,7 +3728,7 @@ if
 (
 NS_FAILED
 (
-ostream
+stream
 -
 >
 Close
@@ -3764,9 +3764,9 @@ mStream
 {
 nsCOMPtr
 <
-nsIOutputStream
+nsIInputStream
 >
-ostream
+stream
 =
 do_QueryInterface
 (
@@ -3777,7 +3777,7 @@ if
 (
 NS_FAILED
 (
-ostream
+stream
 -
 >
 Close
