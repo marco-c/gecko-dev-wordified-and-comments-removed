@@ -395,6 +395,10 @@ test_namedNoIndexed
 .
 html
 \
+test_bug759621
+.
+html
+\
 (
 NULL
 )
