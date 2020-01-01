@@ -1462,6 +1462,12 @@ JSScript
 *
 pendingRecompiles
 ;
+unsigned
+recompilations
+;
+unsigned
+frameExpansions
+;
 ArrayTypeTable
 *
 arrayTypeTable
@@ -1539,9 +1545,6 @@ TYPE_COUNT_LIMIT
 ;
 unsigned
 typeCountOver
-;
-unsigned
-recompilations
 ;
 void
 init
