@@ -15807,9 +15807,15 @@ status
 if
 (
 status
-!
+=
 =
 nsEventStatus_eConsumeNoDefault
+|
+|
+aMsg
+=
+=
+NS_DRAGDROP_EXIT
 )
 SetContentState
 (
