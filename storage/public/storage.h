@@ -112,7 +112,14 @@ h
 #
 include
 "
-mozIStorageVacuumParticipant
+mozIStorageCompletionCallback
+.
+h
+"
+#
+include
+"
+mozIStorageAsyncStatement
 .
 h
 "
