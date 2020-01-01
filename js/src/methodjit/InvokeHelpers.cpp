@@ -6047,6 +6047,12 @@ rejoin
 !
 =
 REJOIN_THIS_PROTOTYPE
+&
+&
+rejoin
+!
+=
+REJOIN_CHECK_ARGUMENTS
 )
 {
 nextDepth
