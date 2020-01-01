@@ -996,6 +996,14 @@ allocated
 ;
 if
 (
+IsBackgroundFinalized
+(
+getAllocKind
+(
+)
+)
+&
+&
 !
 compartment
 -
