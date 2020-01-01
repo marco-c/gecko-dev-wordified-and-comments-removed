@@ -12961,6 +12961,13 @@ next
 )
 )
 {
+c
+-
+>
+scheduledForDestruction
+=
+false
+;
 GlobalObject
 *
 global
