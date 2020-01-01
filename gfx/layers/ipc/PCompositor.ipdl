@@ -126,6 +126,15 @@ CompositorTypes
 h
 "
 ;
+include
+"
+mozilla
+/
+GfxMessageUtils
+.
+h
+"
+;
 using
 mozilla
 :
