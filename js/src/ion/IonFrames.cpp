@@ -7297,7 +7297,7 @@ script_
 callee_
 -
 >
-nonLazyScript
+getExistingScript
 (
 )
 ;
