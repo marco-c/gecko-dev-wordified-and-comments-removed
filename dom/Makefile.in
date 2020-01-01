@@ -488,10 +488,6 @@ geolocation
 \
 interfaces
 /
-threads
-\
-interfaces
-/
 notification
 \
 interfaces
@@ -537,6 +533,8 @@ indexedDB
 system
 \
 ipc
+\
+workers
 \
 (
 NULL

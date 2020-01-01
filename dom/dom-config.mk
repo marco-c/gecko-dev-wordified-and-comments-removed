@@ -40,9 +40,7 @@ notification
 \
 dom
 /
-src
-/
-threads
+workers
 \
 content
 /
