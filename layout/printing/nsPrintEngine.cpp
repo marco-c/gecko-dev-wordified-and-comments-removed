@@ -8668,6 +8668,11 @@ documentIsTopLevel
 =
 PR_TRUE
 ;
+if
+(
+mIsCreatingPrintPreview
+)
+{
 nsCOMPtr
 <
 nsIDocumentViewer
@@ -8693,6 +8698,7 @@ FindContainerView
 (
 )
 ;
+}
 }
 }
 NS_ASSERTION
