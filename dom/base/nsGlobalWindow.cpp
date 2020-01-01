@@ -33528,7 +33528,7 @@ NS_ERROR_UNEXPECTED
 ;
 for
 (
-PRUint32
+PRInt32
 i
 =
 0
