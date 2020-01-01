@@ -9283,6 +9283,7 @@ null
 function
 ChromeDebuggerActor
 (
+aConnection
 aHooks
 )
 {
