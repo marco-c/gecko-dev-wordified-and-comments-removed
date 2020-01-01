@@ -4103,6 +4103,10 @@ nsIProgrammingLanguage
 :
 JAVASCRIPT
 ;
+version
+=
+JSVERSION_LATEST
+;
 }
 else
 {

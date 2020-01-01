@@ -1960,7 +1960,7 @@ JSOPTION_XML
 JS_SetVersion
 (
 mContext
-JSVERSION_1_7
+JSVERSION_LATEST
 )
 ;
 #

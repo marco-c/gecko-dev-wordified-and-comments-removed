@@ -2803,7 +2803,7 @@ JSOPTION_XML
 JS_SetVersion
 (
 mJSContext
-JSVERSION_1_7
+JSVERSION_LATEST
 )
 ;
 mContextStack
