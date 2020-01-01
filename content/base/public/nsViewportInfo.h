@@ -7,7 +7,16 @@ nsViewportInfo_h___
 #
 include
 "
-nsContentUtils
+mozilla
+/
+StandardInteger
+.
+h
+"
+#
+include
+"
+nscore
 .
 h
 "
