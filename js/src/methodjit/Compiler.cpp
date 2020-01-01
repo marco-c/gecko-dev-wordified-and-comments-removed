@@ -6094,11 +6094,6 @@ Imm32
 StackFrame
 :
 :
-OVERRIDE_ARGS
-|
-StackFrame
-:
-:
 UNDERFLOW_ARGS
 |
 StackFrame

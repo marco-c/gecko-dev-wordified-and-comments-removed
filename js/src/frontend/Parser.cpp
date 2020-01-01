@@ -11067,7 +11067,11 @@ tc
 flags
 |
 =
+(
 TCF_FUN_HEAVYWEIGHT
+|
+TCF_FUN_LOCAL_ARGUMENTS
+)
 ;
 tc
 -
@@ -11177,7 +11181,11 @@ tc
 flags
 |
 =
+(
 TCF_FUN_HEAVYWEIGHT
+|
+TCF_FUN_LOCAL_ARGUMENTS
+)
 ;
 data
 -
@@ -19930,7 +19938,11 @@ tc
 flags
 |
 =
+(
 TCF_FUN_HEAVYWEIGHT
+|
+TCF_FUN_LOCAL_ARGUMENTS
+)
 ;
 }
 }
