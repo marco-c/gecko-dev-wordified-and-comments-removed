@@ -952,6 +952,9 @@ bool
 aInBrowserElement
 bool
 aIsPrivate
+nsIChannel
+*
+aChannel
 )
 ;
 bool
@@ -975,6 +978,9 @@ int64_t
 aServerTime
 bool
 aFromHttp
+nsIChannel
+*
+aChannel
 )
 ;
 void

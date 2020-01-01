@@ -6998,6 +6998,7 @@ aFromHttp
 appId
 inBrowserElement
 isPrivate
+aChannel
 )
 ;
 return
@@ -7030,6 +7031,9 @@ bool
 aInBrowserElement
 bool
 aIsPrivate
+nsIChannel
+*
+aChannel
 )
 {
 NS_ASSERTION
@@ -7235,6 +7239,7 @@ cookieStatus
 aCookieHeader
 serverTime
 aFromHttp
+aChannel
 )
 )
 {
@@ -11803,6 +11808,9 @@ int64_t
 aServerTime
 bool
 aFromHttp
+nsIChannel
+*
+aChannel
 )
 {
 NS_ASSERTION
@@ -12076,7 +12084,7 @@ mPermissionService
 CanSetCookie
 (
 aHostURI
-nullptr
+aChannel
 static_cast
 <
 nsICookie2
