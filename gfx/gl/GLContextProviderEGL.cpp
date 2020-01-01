@@ -852,6 +852,7 @@ LoadApitraceLibrary
 (
 )
 {
+static
 PRLibrary
 *
 sApitraceLibrary
