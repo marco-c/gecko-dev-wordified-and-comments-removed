@@ -1803,9 +1803,6 @@ UseAcceleratedCanvas
 )
 {
 return
-false
-&
-&
 OSXVersion
 (
 )
