@@ -151,7 +151,7 @@ o
 /
 #
 Bug
-874640
+869002
 touched
 webidl
 so
@@ -159,15 +159,6 @@ Windows
 needs
 to
 clobber
-+
-Bug
-854517
-:
-Integrate
-valgrind
-into
-B2G
-builds
 Alternative
 to
 clobber
