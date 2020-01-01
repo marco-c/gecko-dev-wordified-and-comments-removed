@@ -75939,22 +75939,7 @@ on
 bit
 systems
 .
-It
-should
-work
-on
-OS
-X
-10
-.
-4
-.
-5
-and
-up
-.
 We
-#
 (
 apparently
 )
@@ -75963,6 +75948,7 @@ need
 this
 hack
 when
+#
 egrep
 '
 s
@@ -75971,7 +75957,6 @@ pattern
 "
 is
 particularly
-#
 long
 (
 as
@@ -75981,6 +75966,7 @@ following
 code
 )
 .
+#
 See
 bug
 655339
@@ -75994,7 +75980,7 @@ in
 -
 apple
 -
-darwin
+darwin11
 *
 )
 FIXED_EGREP
