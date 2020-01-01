@@ -465,7 +465,7 @@ nsIDOMNavigatorGeolocation
 .
 idl
 \
-nsIGeolocationProvider
+nsIGeolocationPrompt
 .
 idl
 \

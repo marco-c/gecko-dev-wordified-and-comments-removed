@@ -455,6 +455,10 @@ nsIAccelerometer
 .
 idl
 \
+nsIGeolocationProvider
+.
+idl
+\
 (
 NULL
 )

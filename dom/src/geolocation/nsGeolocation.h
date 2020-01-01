@@ -149,6 +149,13 @@ nsIGeolocationProvider
 .
 h
 "
+#
+include
+"
+nsIGeolocationPrompt
+.
+h
+"
 class
 nsGeolocationService
 ;
