@@ -16,11 +16,6 @@ with
 }
 )
 ;
-dis
-(
-f
-)
-;
 trap
 (
 f
