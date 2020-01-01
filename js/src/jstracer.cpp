@@ -76902,7 +76902,7 @@ globalObj
 {
 JSClass
 *
-cls
+clasp
 =
 searchObj
 -
@@ -76913,7 +76913,7 @@ getClass
 ;
 if
 (
-cls
+clasp
 =
 =
 &
@@ -76928,7 +76928,7 @@ true
 else
 if
 (
-cls
+clasp
 =
 =
 &
