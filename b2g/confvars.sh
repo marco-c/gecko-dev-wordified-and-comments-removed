@@ -77,6 +77,8 @@ MOZ_B2G_VERSION
 0
 .
 0
+-
+prerelease
 MOZ_BRANDING_DIRECTORY
 =
 b2g
