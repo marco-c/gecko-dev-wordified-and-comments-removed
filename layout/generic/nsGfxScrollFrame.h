@@ -1241,11 +1241,6 @@ mIsRoot
 1
 ;
 bool
-mClipAllDescendants
-:
-1
-;
-bool
 mSupppressScrollbarUpdate
 :
 1
@@ -2474,8 +2469,6 @@ nsStyleContext
 aContext
 bool
 aIsRoot
-bool
-aClipAllDescendants
 )
 ;
 NS_IMETHOD
@@ -3571,8 +3564,6 @@ nsStyleContext
 aContext
 bool
 aIsRoot
-bool
-aClipAllDescendants
 )
 ;
 void

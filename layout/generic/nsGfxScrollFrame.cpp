@@ -3923,8 +3923,6 @@ nsStyleContext
 aContext
 bool
 aIsRoot
-bool
-aClipAllDescendants
 )
 {
 return
@@ -3937,7 +3935,6 @@ nsXULScrollFrame
 aPresShell
 aContext
 aIsRoot
-aClipAllDescendants
 )
 ;
 }
@@ -3958,8 +3955,6 @@ nsStyleContext
 aContext
 bool
 aIsRoot
-bool
-aClipAllDescendants
 )
 :
 nsBoxFrame
@@ -3981,12 +3976,6 @@ SetLayoutManager
 (
 nullptr
 )
-;
-mInner
-.
-mClipAllDescendants
-=
-aClipAllDescendants
 ;
 }
 nsMargin
@@ -6578,10 +6567,6 @@ mDidHistoryRestore
 false
 )
 mIsRoot
-(
-aIsRoot
-)
-mClipAllDescendants
 (
 aIsRoot
 )
@@ -9695,7 +9680,7 @@ mOuter
 ;
 if
 (
-mClipAllDescendants
+mIsRoot
 )
 {
 clipState
@@ -9735,7 +9720,7 @@ mOuter
 ;
 if
 (
-mClipAllDescendants
+mIsRoot
 )
 {
 #
