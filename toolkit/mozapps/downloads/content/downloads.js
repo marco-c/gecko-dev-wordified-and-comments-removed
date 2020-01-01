@@ -2705,6 +2705,11 @@ menuseparator_copy_location
 menuitem_copyLocation
 "
 ]
+[
+"
+menuitem_copyLocation
+"
+]
 ]
 ;
 function
