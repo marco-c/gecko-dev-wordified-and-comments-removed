@@ -4246,7 +4246,7 @@ if
 objTypes
 -
 >
-isLazyArguments
+isMagicArguments
 (
 cx
 )

@@ -139,6 +139,13 @@ f
 (
 )
 {
+eval
+(
+'
+arguments
+'
+)
+;
 debugger
 ;
 }

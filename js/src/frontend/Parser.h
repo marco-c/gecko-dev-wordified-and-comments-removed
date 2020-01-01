@@ -1120,17 +1120,6 @@ result
 ;
 }
 bool
-CheckStrictParameters
-(
-JSContext
-*
-cx
-TreeContext
-*
-tc
-)
-;
-bool
 DefineArg
 (
 ParseNode

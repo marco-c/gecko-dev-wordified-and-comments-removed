@@ -1477,6 +1477,14 @@ TreeContext
 tc
 )
 ;
+inline
+PropertyName
+*
+atom
+(
+)
+const
+;
 ParseNode
 *
 expr

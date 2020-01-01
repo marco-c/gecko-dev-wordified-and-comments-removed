@@ -126,7 +126,8 @@ gc
 FINALIZE_OBJECT4
 ;
 static
-bool
+ArgumentsObject
+*
 create
 (
 JSContext

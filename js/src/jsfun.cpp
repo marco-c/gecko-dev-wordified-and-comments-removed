@@ -2118,7 +2118,7 @@ script
 >
 bindings
 .
-countArgs
+numArgs
 (
 )
 )
@@ -4018,13 +4018,7 @@ result
 script
 -
 >
-code
-[
-0
-]
-=
-=
-JSOP_GENERATOR
+isGenerator
 ;
 }
 JS_SET_RVAL

@@ -5200,16 +5200,6 @@ typeInferenceEnabled
 return
 Compile_InlineAbort
 ;
-if
-(
-applyTricks
-=
-=
-LazyArgsObj
-)
-return
-Compile_InlineAbort
-;
 FrameEntry
 *
 origCallee

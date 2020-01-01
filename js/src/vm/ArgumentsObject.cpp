@@ -656,7 +656,8 @@ return
 argsobj
 ;
 }
-bool
+ArgumentsObject
+*
 ArgumentsObject
 :
 :
@@ -681,17 +682,6 @@ script
 -
 >
 needsArgsObj
-(
-)
-)
-;
-JS_ASSERT
-(
-!
-fp
--
->
-hasCallObj
 (
 )
 )

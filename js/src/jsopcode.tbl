@@ -1224,12 +1224,14 @@ OPDEF
 (
 JSOP_ARGUMENTS
 9
-js_arguments_str
-js_arguments_str
+"
+arguments
+"
+NULL
 1
 0
 1
-18
+0
 JOF_BYTE
 )
 OPDEF
