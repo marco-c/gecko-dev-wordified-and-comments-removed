@@ -2863,10 +2863,6 @@ TypeObject
 )
 ;
 }
-gcTypesMarked
-=
-true
-;
 }
 void
 JSCompartment
