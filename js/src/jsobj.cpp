@@ -4354,7 +4354,7 @@ cx
 JSLinearString
 *
 str
-JSStackFrame
+StackFrame
 *
 caller
 uintN
@@ -4816,7 +4816,7 @@ endif
 void
 lookupInEvalCache
 (
-JSStackFrame
+StackFrame
 *
 caller
 uintN
@@ -4931,7 +4931,7 @@ CallArgs
 call
 EvalType
 evalType
-JSStackFrame
+StackFrame
 *
 caller
 JSObject
@@ -5533,7 +5533,10 @@ script
 (
 )
 caller
-JSFRAME_EVAL
+StackFrame
+:
+:
+EVAL
 &
 call
 .
@@ -5570,7 +5573,7 @@ argc
 {
 if
 (
-JSStackFrame
+StackFrame
 *
 caller
 =
@@ -5731,7 +5734,7 @@ CallArgs
 call
 )
 {
-JSStackFrame
+StackFrame
 *
 caller
 =
@@ -5778,8 +5781,9 @@ cx
 -
 >
 regs
--
->
+(
+)
+.
 pc
 =
 =
@@ -5962,7 +5966,7 @@ calleePrincipals
 {
 if
 (
-JSStackFrame
+StackFrame
 *
 caller
 =
@@ -5982,6 +5986,10 @@ callerPrincipals
 caller
 -
 >
+scopeChain
+(
+)
+.
 principals
 (
 cx
@@ -6062,7 +6070,7 @@ cx
 {
 if
 (
-JSStackFrame
+StackFrame
 *
 caller
 =
@@ -6082,6 +6090,10 @@ subject
 caller
 -
 >
+scopeChain
+(
+)
+.
 principals
 (
 cx
@@ -15061,7 +15073,7 @@ flags
 =
 0
 ;
-JSStackFrame
+StackFrame
 *
 const
 fp
@@ -15085,8 +15097,9 @@ cx
 -
 >
 regs
--
->
+(
+)
+.
 pc
 )
 )
@@ -15643,7 +15656,7 @@ obj
 return
 NULL
 ;
-JSStackFrame
+StackFrame
 *
 priv
 =
@@ -15836,7 +15849,7 @@ cx
 JSObject
 *
 proto
-JSStackFrame
+StackFrame
 *
 fp
 )
@@ -15894,7 +15907,7 @@ clone
 return
 NULL
 ;
-JSStackFrame
+StackFrame
 *
 priv
 =
@@ -15971,7 +15984,7 @@ JSBool
 normalUnwind
 )
 {
-JSStackFrame
+StackFrame
 *
 const
 fp
@@ -16073,8 +16086,9 @@ cx
 -
 >
 regs
--
->
+(
+)
+.
 sp
 -
 fp
@@ -16097,8 +16111,9 @@ cx
 -
 >
 regs
--
->
+(
+)
+.
 sp
 -
 fp
@@ -16242,12 +16257,12 @@ obj
 )
 )
 ;
-JSStackFrame
+StackFrame
 *
 fp
 =
 (
-JSStackFrame
+StackFrame
 *
 )
 obj
@@ -16390,12 +16405,12 @@ obj
 )
 )
 ;
-JSStackFrame
+StackFrame
 *
 fp
 =
 (
-JSStackFrame
+StackFrame
 *
 )
 obj
@@ -20495,7 +20510,7 @@ Class
 clasp
 )
 {
-JSStackFrame
+StackFrame
 *
 fp
 ;
@@ -26044,7 +26059,7 @@ JSString
 propname
 )
 {
-JSStackFrame
+StackFrame
 *
 const
 fp
@@ -27976,7 +27991,7 @@ funobj
 {
 for
 (
-JSStackFrame
+StackFrame
 *
 fp
 =
@@ -29503,7 +29518,7 @@ if
 cx
 -
 >
-hasfp
+running
 (
 )
 )
@@ -33903,7 +33918,7 @@ js_DumpStackFrame
 JSContext
 *
 cx
-JSStackFrame
+StackFrame
 *
 start
 )
@@ -34012,7 +34027,7 @@ done
 i
 )
 {
-JSStackFrame
+StackFrame
 *
 const
 fp
@@ -34027,7 +34042,7 @@ fprintf
 (
 stderr
 "
-JSStackFrame
+StackFrame
 at
 %
 p

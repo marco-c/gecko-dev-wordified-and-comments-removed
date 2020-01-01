@@ -1352,7 +1352,7 @@ offsetIndex
 ;
 }
 ;
-JSStackFrame
+StackFrame
 *
 fp
 ;
@@ -1621,7 +1621,7 @@ Compiler
 JSContext
 *
 cx
-JSStackFrame
+StackFrame
 *
 fp
 )

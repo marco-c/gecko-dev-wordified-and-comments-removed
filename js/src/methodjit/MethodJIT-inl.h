@@ -48,7 +48,7 @@ cx
 JSScript
 *
 script
-JSStackFrame
+StackFrame
 *
 fp
 CompileRequest
@@ -160,7 +160,7 @@ cx
 JSScript
 *
 script
-JSStackFrame
+StackFrame
 *
 fp
 jsbytecode

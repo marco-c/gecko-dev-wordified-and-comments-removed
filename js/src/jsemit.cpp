@@ -10115,7 +10115,7 @@ isFree
 )
 )
 {
-JSStackFrame
+StackFrame
 *
 caller
 =

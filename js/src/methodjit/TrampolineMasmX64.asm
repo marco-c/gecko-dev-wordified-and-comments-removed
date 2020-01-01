@@ -453,7 +453,7 @@ JaegerTrampoline
 JSContext
 *
 cx
-JSStackFrame
+StackFrame
 *
 fp
 void

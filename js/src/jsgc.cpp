@@ -239,20 +239,6 @@ h
 #
 include
 "
-jscntxtinlines
-.
-h
-"
-#
-include
-"
-jsinterpinlines
-.
-h
-"
-#
-include
-"
 jsobjinlines
 .
 h
@@ -5158,6 +5144,8 @@ cx
 -
 >
 thread
+(
+)
 -
 >
 data
@@ -5177,6 +5165,8 @@ cx
 -
 >
 thread
+(
+)
 -
 >
 data
@@ -6538,6 +6528,8 @@ cx
 -
 >
 thread
+(
+)
 )
 ;
 #
@@ -8712,7 +8704,7 @@ js_TraceStackFrame
 JSTracer
 *
 trc
-JSStackFrame
+StackFrame
 *
 fp
 )
@@ -14222,6 +14214,8 @@ cx
 -
 >
 thread
+(
+)
 !
 =
 rt
@@ -14237,6 +14231,8 @@ cx
 -
 >
 thread
+(
+)
 -
 >
 data
@@ -14455,6 +14451,8 @@ cx
 -
 >
 thread
+(
+)
 )
 LetOtherGCFinish
 (
@@ -14493,6 +14491,8 @@ cx
 -
 >
 thread
+(
+)
 ;
 for
 (
@@ -14549,6 +14549,8 @@ cx
 -
 >
 thread
+(
+)
 )
 thread
 -
@@ -14568,6 +14570,8 @@ cx
 -
 >
 thread
+(
+)
 -
 >
 data
@@ -14684,6 +14688,8 @@ context
 -
 >
 thread
+(
+)
 )
 ;
 rt
@@ -14772,6 +14778,8 @@ cx
 -
 >
 thread
+(
+)
 )
 {
 LetOtherGCFinish
@@ -15349,6 +15357,8 @@ cx
 -
 >
 thread
+(
+)
 -
 >
 data
@@ -15700,6 +15710,8 @@ cx
 -
 >
 thread
+(
+)
 )
 {
 AutoGCSession

@@ -369,13 +369,13 @@ ctorPatches
 cx
 )
 ;
-JSStackFrame
+StackFrame
 *
 firstCtorFrame
 =
 NULL
 ;
-JSStackFrame
+StackFrame
 *
 firstNormalFrame
 =
@@ -413,7 +413,7 @@ f
 previous
 )
 {
-JSStackFrame
+StackFrame
 *
 end
 =
@@ -429,7 +429,7 @@ prev
 ;
 for
 (
-JSStackFrame
+StackFrame
 *
 fp
 =
@@ -913,7 +913,7 @@ Recompiler
 :
 recompile
 (
-JSStackFrame
+StackFrame
 *
 fp
 Vector

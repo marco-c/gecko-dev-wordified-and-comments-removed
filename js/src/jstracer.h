@@ -2472,7 +2472,7 @@ JSScript
 *
 entryScript
 ;
-JSStackFrame
+StackFrame
 *
 entryfp
 ;
@@ -2533,7 +2533,7 @@ maybeShortLoop
 struct
 InnerLoop
 {
-JSStackFrame
+StackFrame
 *
 entryfp
 ;
@@ -2553,7 +2553,7 @@ InnerLoop
 }
 InnerLoop
 (
-JSStackFrame
+StackFrame
 *
 entryfp
 jsbytecode
@@ -2783,7 +2783,7 @@ LoopProfile
 TraceMonitor
 *
 tm
-JSStackFrame
+StackFrame
 *
 entryfp
 jsbytecode
@@ -4061,7 +4061,7 @@ char
 prefix
 uintN
 index
-JSStackFrame
+StackFrame
 *
 fp
 )
@@ -4087,7 +4087,7 @@ char
 prefix
 uintN
 index
-JSStackFrame
+StackFrame
 *
 fp
 )
@@ -4597,7 +4597,7 @@ entryFrameIns
 const
 ;
 JS_REQUIRES_STACK
-JSStackFrame
+StackFrame
 *
 frameIfInRange
 (
@@ -6619,7 +6619,7 @@ callee
 )
 ;
 JS_REQUIRES_STACK
-JSStackFrame
+StackFrame
 *
 guardArguments
 (
@@ -8062,7 +8062,7 @@ cx
 uintN
 &
 inlineCallCount
-JSInterpMode
+InterpMode
 interpMode
 )
 ;

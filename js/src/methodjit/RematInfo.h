@@ -242,7 +242,7 @@ int32
 (
 sizeof
 (
-JSStackFrame
+StackFrame
 )
 )
 |

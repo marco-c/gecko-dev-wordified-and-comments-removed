@@ -2159,7 +2159,7 @@ setterOp
 =
 SetCallArg
 ?
-JSStackFrame
+StackFrame
 :
 :
 offsetOfFormalArg
@@ -2168,7 +2168,7 @@ fun
 slot
 )
 :
-JSStackFrame
+StackFrame
 :
 :
 offsetOfFixed
@@ -5393,7 +5393,7 @@ thisv
 JSFrameReg
 sizeof
 (
-JSStackFrame
+StackFrame
 )
 +
 thisvOffset
@@ -7440,7 +7440,7 @@ loadPtr
 Address
 (
 JSFrameReg
-JSStackFrame
+StackFrame
 :
 :
 offsetOfScopeChain
@@ -7937,7 +7937,7 @@ loadPtr
 Address
 (
 JSFrameReg
-JSStackFrame
+StackFrame
 :
 :
 offsetOfScopeChain
@@ -8201,7 +8201,7 @@ kind
 =
 ARG
 ?
-JSStackFrame
+StackFrame
 :
 :
 offsetOfFormalArg
@@ -8210,7 +8210,7 @@ fun
 slot
 )
 :
-JSStackFrame
+StackFrame
 :
 :
 offsetOfFixed
@@ -8866,8 +8866,9 @@ cx
 -
 >
 regs
--
->
+(
+)
+.
 pc
 +
 JSOP_NAME_LENGTH
@@ -9251,7 +9252,7 @@ loadPtr
 Address
 (
 JSFrameReg
-JSStackFrame
+StackFrame
 :
 :
 offsetOfScopeChain
@@ -10729,7 +10730,7 @@ f
 .
 cx
 ;
-JSFrameRegs
+FrameRegs
 &
 regs
 =
@@ -12696,8 +12697,9 @@ cx
 -
 >
 regs
--
->
+(
+)
+.
 sp
 [
 -
@@ -12708,7 +12710,7 @@ Address
 thisSlot
 (
 JSFrameReg
-JSStackFrame
+StackFrame
 :
 :
 offsetOfFixed

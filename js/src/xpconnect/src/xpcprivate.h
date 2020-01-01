@@ -368,7 +368,7 @@ include
 "
 mozilla
 /
-ReentrantMonitor
+Monitor
 .
 h
 "
@@ -1260,7 +1260,7 @@ typedef
 mozilla
 :
 :
-ReentrantMonitor
+Monitor
 XPCLock
 ;
 static
@@ -1347,7 +1347,7 @@ new
 mozilla
 :
 :
-ReentrantMonitor
+Monitor
 (
 name
 )
@@ -13779,6 +13779,8 @@ cx
 -
 >
 thread
+(
+)
 "
 Uh
 JS
@@ -13798,6 +13800,8 @@ cx
 -
 >
 thread
+(
+)
 =
 =
 sMainJSThread
@@ -14253,6 +14257,8 @@ cx
 -
 >
 thread
+(
+)
 =
 =
 sMainJSThread

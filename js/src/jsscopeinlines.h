@@ -61,14 +61,14 @@ h
 #
 include
 "
-jsgcinlines
+jscntxtinlines
 .
 h
 "
 #
 include
 "
-jscntxtinlines
+jsgcinlines
 .
 h
 "

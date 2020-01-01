@@ -190,13 +190,6 @@ h
 #
 include
 "
-jscntxtinlines
-.
-h
-"
-#
-include
-"
 jsinterpinlines
 .
 h
@@ -13100,8 +13093,6 @@ cx
 -
 >
 stack
-(
-)
 .
 pushInvokeArgs
 (
@@ -13203,7 +13194,6 @@ cx
 rdata
 .
 singleShot
-0
 )
 )
 return

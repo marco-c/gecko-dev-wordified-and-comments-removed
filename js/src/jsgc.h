@@ -3764,7 +3764,10 @@ js_TraceStackFrame
 JSTracer
 *
 trc
-JSStackFrame
+js
+:
+:
+StackFrame
 *
 fp
 )

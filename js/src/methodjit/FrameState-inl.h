@@ -3764,7 +3764,7 @@ locals
 )
 frameOffset
 =
-JSStackFrame
+StackFrame
 :
 :
 offsetOfFixed
@@ -3787,7 +3787,7 @@ args
 )
 frameOffset
 =
-JSStackFrame
+StackFrame
 :
 :
 offsetOfFormalArg
@@ -3811,7 +3811,7 @@ this_
 )
 frameOffset
 =
-JSStackFrame
+StackFrame
 :
 :
 offsetOfThis
@@ -3829,7 +3829,7 @@ callee_
 )
 frameOffset
 =
-JSStackFrame
+StackFrame
 :
 :
 offsetOfCallee

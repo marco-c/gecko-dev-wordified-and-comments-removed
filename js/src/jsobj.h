@@ -1535,7 +1535,10 @@ cx
 JSObject
 *
 proto
-JSStackFrame
+js
+:
+:
+StackFrame
 *
 priv
 )
@@ -2928,7 +2931,10 @@ callIsForEval
 const
 ;
 inline
-JSStackFrame
+js
+:
+:
+StackFrame
 *
 maybeCallObjStackFrame
 (
@@ -5733,7 +5739,10 @@ cx
 JSObject
 *
 proto
-JSStackFrame
+js
+:
+:
+StackFrame
 *
 fp
 )
@@ -7592,7 +7601,10 @@ js_DumpStackFrame
 JSContext
 *
 cx
-JSStackFrame
+js
+:
+:
+StackFrame
 *
 start
 =
