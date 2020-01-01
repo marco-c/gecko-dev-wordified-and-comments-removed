@@ -3974,14 +3974,9 @@ false
 if
 (
 !
-DirectWrapper
-:
-:
-nativeCall
+CallJSNative
 (
 cx
-wrapper
-clasp
 native
 dstArgs
 )
