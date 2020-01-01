@@ -1062,7 +1062,7 @@ gcEmptyArenaPoolLifespan
 ;
 volatile
 uint32_t
-gcNumArenasFreeCommitted
+gcNumFreeArenas
 ;
 uint32_t
 gcNumber
