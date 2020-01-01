@@ -473,12 +473,6 @@ user
 "
 )
 ;
-PL_FreeArenaPool
-(
-&
-mArena
-)
-;
 PL_FinishArenaPool
 (
 &
