@@ -233,6 +233,13 @@ compatible_version
 .
 1
 "
+"
+4
+.
+8
+.
+2
+"
 PR_VERSION
 }
 ;

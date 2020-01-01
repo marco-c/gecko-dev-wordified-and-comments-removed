@@ -7952,6 +7952,17 @@ nz
 }
 dig_done
 :
+if
+(
+nd
+>
+64
+*
+1024
+)
+goto
+ret0
+;
 e
 =
 0
