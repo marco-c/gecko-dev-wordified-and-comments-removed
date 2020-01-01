@@ -1490,6 +1490,12 @@ GetOrientationSyncMillis
 )
 const
 ;
+static
+bool
+DrawLayerBorders
+(
+)
+;
 protected
 :
 gfxPlatform

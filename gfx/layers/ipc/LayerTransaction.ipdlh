@@ -1052,6 +1052,14 @@ childLayer
 ;
 }
 ;
+struct
+OpSetColoredBorders
+{
+bool
+enabled
+;
+}
+;
 /
 /
 Paint
@@ -1199,6 +1207,8 @@ OpCreateCanvasLayer
 OpCreateRefLayer
 ;
 OpSetLayerAttributes
+;
+OpSetColoredBorders
 ;
 OpSetRoot
 ;
