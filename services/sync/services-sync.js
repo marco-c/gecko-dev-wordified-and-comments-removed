@@ -69,3 +69,15 @@ lastsync
 "
 )
 ;
+pref
+(
+"
+extensions
+.
+sync
+.
+remember
+"
+false
+)
+;
