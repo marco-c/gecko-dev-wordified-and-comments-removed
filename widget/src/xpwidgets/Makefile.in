@@ -497,6 +497,10 @@ nsClipboardPrivacyHandler
 .
 cpp
 \
+GfxInfoWebGL
+.
+cpp
+\
 (
 NULL
 )
