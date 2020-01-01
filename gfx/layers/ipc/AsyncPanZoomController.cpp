@@ -5113,7 +5113,7 @@ CalculateResolution
 (
 )
 ;
-LayoutDevicePoint
+LayerPoint
 translation
 =
 (
@@ -5126,7 +5126,9 @@ lastPaintScrollOffset
 *
 mLastContentPaintMetrics
 .
-mDevPixelsPerCSSPixel
+LayersPixelsPerCSSPixel
+(
+)
 ;
 return
 ViewTransform
