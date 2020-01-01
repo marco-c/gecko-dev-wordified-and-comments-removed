@@ -72832,9 +72832,11 @@ ACC_OTHER
 jsuint
 capacity
 =
-js_DenseArrayCapacity
-(
 obj
+-
+>
+getDenseArrayCapacity
+(
 )
 ;
 bool
