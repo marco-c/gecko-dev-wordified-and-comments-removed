@@ -2416,9 +2416,6 @@ sections
 =
 [
 "
-blocked
-"
-"
 dns
 "
 "
