@@ -91,10 +91,6 @@ const
 nsAString
 &
 aUrl
-const
-nsAString
-&
-aCrossOrigin
 )
 {
 NS_PRECONDITION
@@ -123,13 +119,6 @@ mUrl
 Assign
 (
 aUrl
-)
-;
-mCharsetOrCrossOrigin
-.
-Assign
-(
-aCrossOrigin
 )
 ;
 }
@@ -179,7 +168,7 @@ Assign
 aUrl
 )
 ;
-mCharsetOrCrossOrigin
+mCharset
 .
 Assign
 (
@@ -236,7 +225,7 @@ Assign
 aUrl
 )
 ;
-mCharsetOrCrossOrigin
+mCharset
 .
 Assign
 (
@@ -300,7 +289,7 @@ nsString
 mUrl
 ;
 nsString
-mCharsetOrCrossOrigin
+mCharset
 ;
 nsString
 mType
