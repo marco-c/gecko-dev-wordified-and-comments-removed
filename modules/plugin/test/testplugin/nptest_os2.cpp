@@ -5,6 +5,10 @@ nptest_platform
 .
 h
 "
+using
+namespace
+std
+;
 bool
 pluginSupportsWindowMode
 (

@@ -55,6 +55,10 @@ include
 <
 sstream
 >
+using
+namespace
+std
+;
 #
 define
 PLUGIN_NAME

@@ -55,6 +55,10 @@ gtk
 .
 h
 >
+using
+namespace
+std
+;
 struct
 _PlatformData
 {

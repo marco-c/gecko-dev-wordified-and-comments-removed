@@ -331,6 +331,10 @@ CoreServices
 .
 h
 >
+using
+namespace
+std
+;
 #
 ifdef
 __LP64__
