@@ -27312,6 +27312,15 @@ message
 =
 =
 NS_PLUGIN_ACTIVATE
+|
+|
+aEvent
+-
+>
+message
+=
+=
+NS_PLUGIN_FOCUS
 )
 )
 {
