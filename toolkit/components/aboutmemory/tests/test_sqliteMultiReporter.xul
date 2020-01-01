@@ -323,7 +323,7 @@ fake
 DB
 file
 .
-var
+let
 file
 =
 Cc
@@ -383,7 +383,7 @@ close
 the
 DB
 .
-var
+let
 storage
 =
 Cc
@@ -408,7 +408,7 @@ Ci
 mozIStorageService
 )
 ;
-var
+let
 db
 =
 storage
@@ -450,7 +450,7 @@ shouldn
 t
 crash
 .
-var
+let
 mgr
 =
 Cc
@@ -494,7 +494,7 @@ hasMoreElements
 )
 )
 {
-var
+let
 r
 =
 e

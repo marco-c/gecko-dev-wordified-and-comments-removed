@@ -269,7 +269,7 @@ Components
 .
 interfaces
 ;
-var
+let
 mgr
 =
 Cc
@@ -318,7 +318,7 @@ at
 the
 end
 .
-var
+let
 e
 =
 mgr
@@ -327,7 +327,7 @@ enumerateReporters
 (
 )
 ;
-var
+let
 realReporters
 =
 [
@@ -342,7 +342,7 @@ hasMoreElements
 )
 )
 {
-var
+let
 r
 =
 e
@@ -381,7 +381,7 @@ enumerateMultiReporters
 (
 )
 ;
-var
+let
 realMultiReporters
 =
 [
@@ -396,7 +396,7 @@ hasMoreElements
 )
 )
 {
-var
+let
 r
 =
 e
@@ -513,7 +513,7 @@ aAmount
 }
 ;
 }
-var
+let
 fakeReporters
 =
 [
@@ -605,7 +605,7 @@ MB
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -717,7 +717,7 @@ them
 .
 for
 (
-var
+let
 i
 =
 0
@@ -746,7 +746,7 @@ i
 }
 for
 (
-var
+let
 i
 =
 0
@@ -775,7 +775,7 @@ i
 }
 for
 (
-var
+let
 i
 =
 0
@@ -809,7 +809,7 @@ finish
 )
 ;
 }
-var
+let
 gHaveDumped
 =
 false
@@ -965,7 +965,7 @@ aExpectedText
 aNext
 )
 {
-var
+let
 win
 =
 document
@@ -979,7 +979,7 @@ amFrame
 .
 contentWindow
 ;
-var
+let
 node
 =
 win
@@ -1174,7 +1174,7 @@ chain
 ids
 )
 {
-var
+let
 x
 =
 ids
@@ -1224,7 +1224,7 @@ finish
 ;
 }
 }
-var
+let
 openExpected
 =
 "
@@ -1399,7 +1399,7 @@ n
 \
 "
 ;
-var
+let
 cClosedExpected
 =
 "
@@ -1546,7 +1546,7 @@ n
 \
 "
 ;
-var
+let
 aClosedExpected
 =
 "
@@ -1684,7 +1684,7 @@ check
 the
 output
 .
-var
+let
 idsToClick
 =
 [
