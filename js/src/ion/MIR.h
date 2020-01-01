@@ -9578,6 +9578,16 @@ return
 false
 ;
 }
+TypePolicy
+*
+typePolicy
+(
+)
+{
+return
+this
+;
+}
 }
 ;
 class
