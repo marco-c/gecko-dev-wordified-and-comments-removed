@@ -46,13 +46,6 @@ nsIDocument
 .
 h
 "
-#
-include
-"
-nsDOMMemoryReporter
-.
-h
-"
 class
 nsIAtom
 ;

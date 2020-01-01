@@ -46,13 +46,6 @@ h
 #
 include
 "
-nsDOMMemoryReporter
-.
-h
-"
-#
-include
-"
 nsError
 .
 h

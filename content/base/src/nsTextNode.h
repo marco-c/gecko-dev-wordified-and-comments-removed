@@ -33,13 +33,6 @@ nsThreadUtils
 .
 h
 "
-#
-include
-"
-nsDOMMemoryReporter
-.
-h
-"
 class
 nsTextNode
 :

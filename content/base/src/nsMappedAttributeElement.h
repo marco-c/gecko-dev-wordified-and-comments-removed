@@ -11,13 +11,6 @@ nsStyledElement
 .
 h
 "
-#
-include
-"
-nsDOMMemoryReporter
-.
-h
-"
 class
 nsMappedAttributes
 ;

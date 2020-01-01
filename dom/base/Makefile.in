@@ -617,7 +617,7 @@ nsStructuredCloneContainer
 .
 h
 \
-nsDOMMemoryReporter
+nsWindowMemoryReporter
 .
 h
 \
@@ -748,7 +748,7 @@ nsPerformance
 .
 cpp
 \
-nsDOMMemoryReporter
+nsWindowMemoryReporter
 .
 cpp
 \
