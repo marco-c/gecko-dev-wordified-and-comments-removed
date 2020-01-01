@@ -561,13 +561,6 @@ this
 )
 )
 ;
-notification
-.
-persistence
-=
--
-1
-;
 request
 .
 onUserNotifyComplete
