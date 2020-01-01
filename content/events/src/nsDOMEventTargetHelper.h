@@ -80,9 +80,6 @@ EventTarget
 .
 h
 "
-class
-nsDOMEvent
-;
 #
 define
 NS_DOMEVENTTARGETHELPER_IID

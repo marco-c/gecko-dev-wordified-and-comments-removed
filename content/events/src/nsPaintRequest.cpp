@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -31,6 +24,13 @@ mozilla
 dom
 /
 PaintRequestListBinding
+.
+h
+"
+#
+include
+"
+nsClientRect
 .
 h
 "

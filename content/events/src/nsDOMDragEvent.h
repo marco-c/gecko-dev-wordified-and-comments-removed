@@ -30,9 +30,6 @@ DragEventBinding
 h
 "
 class
-nsEvent
-;
-class
 nsDOMDragEvent
 :
 public

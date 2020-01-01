@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsString
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -56,9 +49,6 @@ Attributes
 h
 "
 class
-nsCompositionEvent
-;
-class
 nsDispatchingCallback
 ;
 class
@@ -66,9 +56,6 @@ nsIMEStateManager
 ;
 class
 nsIWidget
-;
-class
-nsPresContext
 ;
 namespace
 mozilla

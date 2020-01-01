@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsPresContext
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h
@@ -43,6 +36,9 @@ NotifyAudioAvailableEventBinding
 .
 h
 "
+class
+nsPresContext
+;
 class
 nsDOMNotifyAudioAvailableEvent
 :

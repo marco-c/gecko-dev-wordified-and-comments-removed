@@ -172,6 +172,13 @@ SVGDocumentWrapper
 .
 h
 "
+#
+include
+"
+nsIDOMEventListener
+.
+h
+"
 namespace
 mozilla
 {

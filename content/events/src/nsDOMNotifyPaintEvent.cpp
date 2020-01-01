@@ -53,13 +53,6 @@ nsPaintRequest
 .
 h
 "
-#
-include
-"
-nsIFrame
-.
-h
-"
 nsDOMNotifyPaintEvent
 :
 :

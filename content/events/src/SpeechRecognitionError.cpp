@@ -1,13 +1,6 @@
 #
 include
 "
-nsDOMClassInfoID
-.
-h
-"
-#
-include
-"
 SpeechRecognitionError
 .
 h

@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsIContent
-.
-h
-"
-#
-include
-"
 prtime
 .
 h

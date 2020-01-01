@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsString
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -37,7 +30,7 @@ TransitionEventBinding
 h
 "
 class
-nsTransitionEvent
+nsAString
 ;
 class
 nsDOMTransitionEvent

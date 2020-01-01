@@ -33,13 +33,6 @@ h
 #
 include
 "
-nsIPresShell
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestorUtils
 .
 h
@@ -83,13 +76,6 @@ h
 include
 "
 nsIFrame
-.
-h
-"
-#
-include
-"
-nsIScrollableFrame
 .
 h
 "
