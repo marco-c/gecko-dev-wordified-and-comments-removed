@@ -410,6 +410,13 @@ TabParent
 .
 h
 "
+#
+include
+"
+nsXULAppAPI
+.
+h
+"
 using
 namespace
 mozilla
@@ -6581,6 +6588,11 @@ mChildProcess
 SetBrowserDOMWindow
 (
 browserDOMWin
+)
+;
+XRE_SendParentChromeRegistry
+(
+mChildProcess
 )
 ;
 }

@@ -470,6 +470,10 @@ ContentProcessThread
 .
 h
 \
+TabParent
+.
+h
+\
 (
 NULL
 )
@@ -574,6 +578,16 @@ srcdir
 content
 /
 events
+/
+src
+\
+-
+I
+(
+topsrcdir
+)
+/
+chrome
 /
 src
 \
