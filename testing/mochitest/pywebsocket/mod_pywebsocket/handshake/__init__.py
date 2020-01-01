@@ -33,6 +33,10 @@ import
 logging
 from
 mod_pywebsocket
+import
+common
+from
+mod_pywebsocket
 .
 handshake
 import
@@ -65,6 +69,14 @@ handshake
 _base
 import
 HandshakeException
+from
+mod_pywebsocket
+.
+handshake
+.
+_base
+import
+VersionException
 _LOGGER
 =
 logging
@@ -172,7 +184,11 @@ _LOGGER
 debug
 (
 '
-Opening
+Client
+\
+'
+s
+opening
 handshake
 resource
 :
@@ -190,9 +206,12 @@ debug
 (
         
 '
-Opening
+Client
+\
+'
+s
+opening
 handshake
-request
 headers
 :
 %
@@ -288,7 +307,7 @@ handshakers
         
 _LOGGER
 .
-info
+debug
 (
 '
 Trying
@@ -308,6 +327,21 @@ do_handshake
 (
 )
             
+_LOGGER
+.
+info
+(
+'
+Established
+(
+%
+s
+protocol
+)
+'
+name
+)
+            
 return
         
 except
@@ -317,7 +351,7 @@ e
             
 _LOGGER
 .
-info
+debug
 (
                 
 '
@@ -354,6 +388,13 @@ e
 :
             
 raise
+        
+except
+VersionException
+e
+:
+            
+raise
     
 raise
 HandshakeException
@@ -370,4 +411,10 @@ all
 available
 protocols
 '
+        
+status
+=
+common
+.
+HTTP_STATUS_BAD_REQUEST
 )
