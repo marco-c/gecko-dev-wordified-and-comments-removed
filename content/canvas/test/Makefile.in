@@ -711,6 +711,10 @@ test_bug613794
 .
 html
 \
+test_drawImage_edge_cases
+.
+html
+\
 (
 NULL
 )
