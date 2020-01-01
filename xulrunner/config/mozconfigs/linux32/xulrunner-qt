@@ -137,17 +137,3 @@ ac_add_options
 disable
 -
 crashreporter
-.
-"
-topsrcdir
-/
-xulrunner
-/
-config
-/
-mozconfigs
-/
-common
-.
-override
-"
