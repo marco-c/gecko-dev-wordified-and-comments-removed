@@ -2313,6 +2313,13 @@ mDecoderPosition
 =
 aBytes
 ;
+mPlaybackStatistics
+.
+AddBytes
+(
+aBytes
+)
+;
 }
 }
 void
