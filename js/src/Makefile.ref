@@ -536,14 +536,6 @@ DEFINES
 Ivprof
 #
 endif
-ifdef
-NARCISSUS
-DEFINES
-+
-=
--
-DNARCISSUS
-endif
 #
 Look
 in
