@@ -6088,12 +6088,6 @@ SFE_WANT_IMAGE_SURFACE
 )
 ;
 return
-static_cast
-<
-gfxImageSurface
-*
->
-(
 result
 .
 mSurface
@@ -6102,9 +6096,11 @@ forget
 (
 )
 .
-get
+downcast
+<
+gfxImageSurface
+>
 (
-)
 )
 ;
 }
