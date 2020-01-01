@@ -3216,6 +3216,9 @@ nsIViewManager
 *
 vm
 =
+mShell
+-
+>
 GetViewManager
 (
 )
@@ -5096,6 +5099,9 @@ nscoord
 oldWidthAppUnits
 oldHeightAppUnits
 ;
+mShell
+-
+>
 GetViewManager
 (
 )
@@ -5176,6 +5182,9 @@ mFullZoom
 =
 aZoom
 ;
+mShell
+-
+>
 GetViewManager
 (
 )

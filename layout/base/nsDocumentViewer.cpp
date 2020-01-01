@@ -10375,7 +10375,7 @@ nsIViewManager
 UpdateViewBatch
 batch
 (
-pc
+shell
 -
 >
 GetViewManager
