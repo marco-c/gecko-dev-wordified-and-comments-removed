@@ -2485,6 +2485,11 @@ PRUint32
 aFlags
 )
 {
+if
+(
+aForChild
+)
+{
 const
 nsStyleDisplay
 *
@@ -2545,6 +2550,7 @@ aFlags
 }
 return
 ;
+}
 }
 nsBlockFrameSuper
 :
