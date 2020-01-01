@@ -1689,14 +1689,6 @@ setInWorklist
 #
 endif
 }
-add
-(
-new
-LLabel
-(
-)
-)
-;
 for
 (
 MInstructionIterator

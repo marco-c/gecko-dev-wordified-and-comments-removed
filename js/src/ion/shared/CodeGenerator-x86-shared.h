@@ -235,15 +235,6 @@ public
 :
 virtual
 bool
-visitLabel
-(
-LLabel
-*
-label
-)
-;
-virtual
-bool
 visitGoto
 (
 LGoto

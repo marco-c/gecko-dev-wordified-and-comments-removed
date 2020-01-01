@@ -13,11 +13,6 @@ _
 \
 _
 (
-Label
-)
-\
-_
-(
 MoveGroup
 )
 \
