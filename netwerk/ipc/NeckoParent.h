@@ -286,9 +286,6 @@ const
 URIParams
 &
 aFileURI
-PBrowserParent
-*
-aBrowser
 )
 MOZ_OVERRIDE
 ;
@@ -303,9 +300,6 @@ const
 URIParams
 &
 aFileURI
-PBrowserParent
-*
-aBrowser
 )
 MOZ_OVERRIDE
 ;

@@ -672,7 +672,6 @@ SendPRemoteOpenFileConstructor
 (
 this
 uri
-mTabChild
 )
 ;
 AddIPDLReference
