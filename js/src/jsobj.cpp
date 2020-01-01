@@ -8842,6 +8842,10 @@ runtime
 >
 atomState
 ;
+JSObject
+*
+desc
+;
 MUST_FLOW_THROUGH
 (
 "
@@ -8870,10 +8874,6 @@ attrs
 )
 goto
 drop_property
-;
-JSObject
-*
-desc
 ;
 desc
 =
