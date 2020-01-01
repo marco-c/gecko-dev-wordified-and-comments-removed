@@ -83,6 +83,16 @@ rv
 if
 (
 !
+doomed
+)
+{
+return
+NS_OK
+;
+}
+if
+(
+!
 target
 )
 {
