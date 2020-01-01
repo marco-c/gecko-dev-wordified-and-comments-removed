@@ -4498,6 +4498,15 @@ temp
 if
 (
 needsBogusContent
+&
+&
+mEditor
+-
+>
+IsModifiableNode
+(
+body
+)
 )
 {
 nsCOMPtr

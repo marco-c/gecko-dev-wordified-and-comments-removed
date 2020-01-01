@@ -16718,6 +16718,13 @@ IsModifiableNode
 (
 aNode
 )
+&
+&
+!
+IsMozEditorBogusNode
+(
+aNode
+)
 )
 {
 return
