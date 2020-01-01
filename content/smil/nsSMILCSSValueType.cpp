@@ -99,9 +99,6 @@ nsStyleAnimation
 Value
 &
 aValue
-nsPresContext
-*
-aPresContext
 )
 :
 mPropID
@@ -111,10 +108,6 @@ aPropID
 mCSSValue
 (
 aValue
-)
-mPresContext
-(
-aPresContext
 )
 {
 }
@@ -126,10 +119,6 @@ nsStyleAnimation
 :
 Value
 mCSSValue
-;
-nsPresContext
-*
-mPresContext
 ;
 }
 ;
@@ -1187,10 +1176,6 @@ ValueWrapper
 property
 *
 destValue
-valueToAddWrapper
--
->
-mPresContext
 )
 ;
 }
@@ -1602,10 +1587,6 @@ endWrapper
 >
 mPropID
 resultValue
-endWrapper
--
->
-mPresContext
 )
 ;
 return
@@ -1954,7 +1935,6 @@ ValueWrapper
 (
 aPropID
 parsedValue
-presContext
 )
 ;
 }
