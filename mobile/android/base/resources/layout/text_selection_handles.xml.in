@@ -169,7 +169,7 @@ src
 "
 drawable
 /
-handle_start
+handle_start_level
 "
 android
 :
@@ -291,7 +291,7 @@ src
 "
 drawable
 /
-handle_end
+handle_end_level
 "
 android
 :
