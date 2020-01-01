@@ -3204,6 +3204,7 @@ registerDirectory
 path
 :
 "
++
 dir
 .
 path
