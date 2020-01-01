@@ -123,6 +123,15 @@ define
 NS_HTML5_STREAM_PARSER_SNIFFING_BUFFER_SIZE
 1024
 enum
+eParserMode
+{
+NORMAL
+VIEW_SOURCE_HTML
+VIEW_SOURCE_XML
+PLAIN_TEXT
+}
+;
+enum
 eBomState
 {
 BOM_SNIFFING_NOT_STARTED
@@ -206,6 +215,8 @@ aExecutor
 nsHtml5Parser
 *
 aOwner
+eParserMode
+aMode
 )
 ;
 virtual
@@ -792,6 +803,9 @@ mFlushTimerArmed
 ;
 bool
 mFlushTimerEverFired
+;
+eParserMode
+mMode
 ;
 static
 PRInt32
