@@ -1084,13 +1084,11 @@ if
 mFrame
 -
 >
-IsFrameOfType
+GetStateBits
 (
-nsIFrame
-:
-:
-eSVG
 )
+&
+NS_FRAME_SVG_LAYOUT
 )
 {
 nsSVGUtils
