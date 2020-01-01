@@ -4549,14 +4549,6 @@ HasError
 return
 NS_ERROR_FAILURE
 ;
-if
-(
-!
-mSurface
-)
-return
-NS_ERROR_FAILURE
-;
 nsRefPtr
 <
 gfxPattern
