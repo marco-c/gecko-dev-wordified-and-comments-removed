@@ -456,8 +456,12 @@ FORCE_SHARED_LIB
 DIST_INSTALL
 =
 1
-EXPORTS
+EXPORTS_NAMESPACES
 =
+mozce_shunt
+EXPORTS_mozce_shunt
+=
+\
 include
 /
 windows
@@ -548,7 +552,7 @@ CXXFLAGS
 =
 -
 DMOZ_MEMORY
-EXPORTS
+EXPORTS_mozce_shunt
 +
 =
 (
