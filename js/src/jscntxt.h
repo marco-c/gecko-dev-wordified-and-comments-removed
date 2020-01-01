@@ -595,6 +595,7 @@ JSContext
 tracecx
 ;
 TraceNativeStorage
+*
 storage
 ;
 VMAllocator
