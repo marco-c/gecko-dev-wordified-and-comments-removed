@@ -6846,6 +6846,12 @@ cx
 -
 >
 methodJitEnabled
+|
+|
+IsBaselineEnabled
+(
+cx
+)
 )
 {
 if
