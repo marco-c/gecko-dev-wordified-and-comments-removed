@@ -1404,10 +1404,8 @@ exists
 )
 )
 ;
-do_timeout
+removeCallbackCopy
 (
-TEST_HELPER_TIMEOUT
-do_test_finished
 )
 ;
 }
