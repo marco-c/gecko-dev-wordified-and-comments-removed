@@ -8409,7 +8409,7 @@ JS_END_EXTERN_C
 namespace
 js
 {
-struct
+class
 AutoCompartment
 ;
 }
