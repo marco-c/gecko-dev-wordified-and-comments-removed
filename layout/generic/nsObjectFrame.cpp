@@ -820,11 +820,11 @@ endif
 #
 define
 NORMAL_PLUGIN_DELAY
-17
+20
 #
 define
 HIDDEN_PLUGIN_DELAY
-100
+250
 class
 nsPluginDOMContextMenuListener
 :
