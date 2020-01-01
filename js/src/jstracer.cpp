@@ -28289,7 +28289,6 @@ innermost
 >
 nativeCalleeWord
 )
-{
 SynthesizeSlowNativeFrame
 (
 cx
@@ -28303,7 +28302,6 @@ nativeVp
 =
 NULL
 ;
-}
 #
 ifdef
 DEBUG
