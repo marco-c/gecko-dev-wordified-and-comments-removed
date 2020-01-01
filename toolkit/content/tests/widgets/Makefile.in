@@ -575,6 +575,10 @@ test_tree_hier_cell
 .
 xul
 \
+test_tree_column_reorder
+.
+xul
+\
 tree_shared
 .
 js
