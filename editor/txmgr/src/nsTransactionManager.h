@@ -52,9 +52,6 @@ class
 nsTransactionStack
 ;
 class
-nsTransactionRedoStack
-;
-class
 nsTransactionManager
 :
 public
@@ -73,7 +70,7 @@ mDoStack
 nsTransactionStack
 mUndoStack
 ;
-nsTransactionRedoStack
+nsTransactionStack
 mRedoStack
 ;
 nsCOMArray
