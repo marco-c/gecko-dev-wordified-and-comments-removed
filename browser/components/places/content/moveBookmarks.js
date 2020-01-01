@@ -202,7 +202,7 @@ push
 new
 PlacesUtils
 .
-txn
+ptm
 .
 moveItem
 (
@@ -214,7 +214,7 @@ i
 ]
 .
 itemId
-selectedFolderId
+selectedFolderID
 -
 1
 )
