@@ -582,6 +582,10 @@ timespans
 .
 js
 \
+browser_bug279022
+.
+js
+\
 browser_bug405137
 .
 js
