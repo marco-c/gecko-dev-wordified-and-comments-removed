@@ -144,7 +144,7 @@ SetEOF
 (
 )
 ;
-void
+nsresult
 ClearBinding
 (
 )

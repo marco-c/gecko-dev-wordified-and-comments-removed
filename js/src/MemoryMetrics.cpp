@@ -1076,10 +1076,6 @@ data
 mallocSizeOf
 (
 rt
-sizeof
-(
-JSRuntime
-)
 )
 ;
 size_t

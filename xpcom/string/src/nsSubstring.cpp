@@ -1334,12 +1334,6 @@ return
 aMallocSizeOf
 (
 this
-sizeof
-(
-nsStringBuffer
-)
-+
-mStorageSize
 )
 ;
 }

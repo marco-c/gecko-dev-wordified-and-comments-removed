@@ -645,10 +645,6 @@ IntermTraverse
 .
 cpp
 \
-MozAngleLink
-.
-cpp
-\
 parseConst
 .
 cpp
@@ -859,6 +855,10 @@ CPPSRCS
 =
 \
 debug
+.
+cpp
+\
+RefCountObject
 .
 cpp
 \

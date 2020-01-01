@@ -212,7 +212,6 @@ gHunspellAllocatedSize
 HunspellMallocSizeOfForCounterInc
 (
 ptr
-0
 )
 ;
 }
@@ -230,7 +229,6 @@ gHunspellAllocatedSize
 HunspellMallocSizeOfForCounterDec
 (
 ptr
-0
 )
 ;
 }

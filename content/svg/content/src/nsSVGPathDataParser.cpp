@@ -35,6 +35,13 @@ h
 "
 #
 include
+"
+nsIDOMSVGPathSeg
+.
+h
+"
+#
+include
 <
 stdlib
 .

@@ -647,10 +647,6 @@ IntermTraverse
 .
 cpp
 \
-MozAngleLink
-.
-cpp
-\
 parseConst
 .
 cpp
@@ -897,6 +893,10 @@ Program
 cpp
 \
 RefCountObject
+.
+cpp
+\
+Query
 .
 cpp
 \

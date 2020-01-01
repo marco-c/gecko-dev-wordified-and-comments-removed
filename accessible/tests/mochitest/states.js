@@ -181,6 +181,13 @@ nsIAccessibleStates
 EXT_STATE_EDITABLE
 ;
 const
+EXT_STATE_ENABLED
+=
+nsIAccessibleStates
+.
+EXT_STATE_ENABLED
+;
+const
 EXT_STATE_EXPANDABLE
 =
 nsIAccessibleStates
@@ -200,6 +207,13 @@ EXT_STATE_MULTI_LINE
 nsIAccessibleStates
 .
 EXT_STATE_MULTI_LINE
+;
+const
+EXT_STATE_SENSITIVE
+=
+nsIAccessibleStates
+.
+EXT_STATE_SENSITIVE
 ;
 const
 EXT_STATE_SINGLE_LINE

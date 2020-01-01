@@ -47,6 +47,13 @@ nsSVGAttrTearoffTable
 .
 h
 "
+#
+include
+"
+SVGPathSegUtils
+.
+h
+"
 namespace
 mozilla
 {

@@ -54,6 +54,13 @@ nsSMILFloatType
 .
 h
 "
+#
+include
+"
+nsIDOMSVGNumber
+.
+h
+"
 class
 DOMSVGNumber
 :

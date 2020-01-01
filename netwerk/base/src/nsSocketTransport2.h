@@ -545,6 +545,9 @@ mDNSRecord
 PRNetAddr
 mNetAddr
 ;
+bool
+mNetAddrIsSet
+;
 void
 SendStatus
 (

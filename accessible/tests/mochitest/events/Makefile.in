@@ -445,12 +445,6 @@ rules
 .
 mk
 #
-test_docload
-.
-xul
-docload_wnd
-.
-xul
 test_scroll
 .
 xul
@@ -518,6 +512,10 @@ html
 test_docload
 .
 html
+\
+test_docload
+.
+xul
 \
 test_dragndrop
 .

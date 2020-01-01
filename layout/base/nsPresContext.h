@@ -3099,10 +3099,6 @@ return
 aMallocSizeOf
 (
 this
-sizeof
-(
-nsPresContext
-)
 )
 +
 SizeOfExcludingThis
@@ -3972,10 +3968,6 @@ return
 aMallocSizeOf
 (
 this
-sizeof
-(
-nsRootPresContext
-)
 )
 +
 SizeOfExcludingThis

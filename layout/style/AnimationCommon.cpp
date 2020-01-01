@@ -320,10 +320,6 @@ return
 aMallocSizeOf
 (
 this
-sizeof
-(
-CommonAnimationManager
-)
 )
 +
 SizeOfExcludingThis
