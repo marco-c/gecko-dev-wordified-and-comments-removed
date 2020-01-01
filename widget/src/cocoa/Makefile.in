@@ -622,6 +622,10 @@ nsPrintSessionX
 .
 mm
 \
+nsIdleServiceX
+.
+mm
+\
 (
 NULL
 )
@@ -962,6 +966,10 @@ IOKit
 -
 framework
 Cocoa
+\
+-
+framework
+Foundation
 \
 (
 NULL
