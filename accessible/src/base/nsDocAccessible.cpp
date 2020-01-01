@@ -5614,6 +5614,13 @@ GetPrimaryFrameFor
 aContent
 )
 ;
+if
+(
+!
+frame
+)
+return
+;
 rv
 =
 textAccessible
