@@ -18,6 +18,10 @@ js1_1
 regress
 /
 script
+perfect
+.
+js
+script
 function
 -
 001
