@@ -277,7 +277,7 @@ body
 scrollWidth
 |
 |
-0
+1
 html
 .
 scrollWidth
@@ -295,7 +295,7 @@ body
 scrollHeight
 |
 |
-0
+1
 html
 .
 scrollHeight
