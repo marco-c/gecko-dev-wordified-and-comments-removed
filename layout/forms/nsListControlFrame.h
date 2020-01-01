@@ -675,6 +675,12 @@ IsInDropDownMode
 )
 const
 ;
+static
+void
+Shutdown
+(
+)
+;
 #
 ifdef
 ACCESSIBILITY
@@ -1099,6 +1105,11 @@ static
 nsListControlFrame
 *
 mFocused
+;
+static
+nsString
+*
+sIncrementalString
 ;
 #
 ifdef
