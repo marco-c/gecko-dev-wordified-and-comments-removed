@@ -389,6 +389,12 @@ return
 mProperties
 ;
 }
+imgStatusTracker
+&
+GetStatusTracker
+(
+)
+;
 void
 SetCacheEntry
 (

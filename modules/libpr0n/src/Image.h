@@ -50,16 +50,6 @@ return
 mStatusTracker
 ;
 }
-PRBool
-IsInitialized
-(
-)
-const
-{
-return
-mInitialized
-;
-}
 static
 const
 PRUint32
