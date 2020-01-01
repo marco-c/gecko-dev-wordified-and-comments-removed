@@ -5674,6 +5674,7 @@ out_obj
 NewOutObject
 (
 cx
+obj
 )
 ;
 if
@@ -7266,6 +7267,9 @@ NewOutObject
 JSContext
 *
 cx
+JSObject
+*
+scope
 )
 {
 return
@@ -7274,7 +7278,11 @@ JS_NewObject
 cx
 nsnull
 nsnull
-nsnull
+JS_GetGlobalForObject
+(
+cx
+scope
+)
 )
 ;
 }
