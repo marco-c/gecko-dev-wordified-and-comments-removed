@@ -271,6 +271,7 @@ createReftestProfile
 self
 options
 profileDir
+manifest
 server
 =
 '
@@ -280,6 +281,9 @@ localhost
 :
     
 "
+"
+"
+      
 Sets
 up
 a
@@ -287,6 +291,54 @@ profile
 for
 reftest
 .
+      
+'
+manifest
+'
+is
+the
+path
+to
+the
+reftest
+.
+list
+file
+we
+want
+to
+test
+with
+.
+This
+is
+used
+in
+      
+the
+remote
+subclass
+in
+remotereftest
+.
+py
+so
+we
+can
+write
+it
+to
+a
+preference
+for
+the
+      
+bootstrap
+extension
+.
+    
+"
+"
 "
     
 self
@@ -846,6 +898,9 @@ runTests
 self
 testPath
 options
+cmdlineArgs
+=
+None
 )
 :
     
@@ -876,6 +931,32 @@ None
 try
 :
       
+reftestlist
+=
+self
+.
+getManifestPath
+(
+testPath
+)
+      
+if
+cmdlineArgs
+=
+=
+None
+:
+        
+cmdlineArgs
+=
+[
+'
+-
+reftest
+'
+reftestlist
+]
+      
 profileDir
 =
 mkdtemp
@@ -896,6 +977,7 @@ createReftestProfile
 (
 options
 profileDir
+reftestlist
 )
       
 self
@@ -951,15 +1033,6 @@ n
 "
 )
       
-reftestlist
-=
-self
-.
-getManifestPath
-(
-testPath
-)
-      
 status
 =
 self
@@ -975,13 +1048,7 @@ options
 app
 profileDir
                                  
-[
-"
--
-reftest
-"
-reftestlist
-]
+cmdlineArgs
                                  
 utilityPath
 =
