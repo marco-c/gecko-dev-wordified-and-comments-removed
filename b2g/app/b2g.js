@@ -3560,11 +3560,9 @@ boot2gecko
 .
 org
 /
-m2
-.
-5
+nightly
 /
-updates
+update
 .
 xml
 "
@@ -3579,7 +3577,7 @@ update
 .
 interval
 "
-3600
+86400
 )
 ;
 pref
@@ -3591,7 +3589,7 @@ update
 .
 timerFirstInterval
 "
-30000
+3600000
 )
 ;
 pref
@@ -3603,7 +3601,7 @@ update
 .
 timerMinimumDelay
 "
-30
+3600
 )
 ;
 pref
