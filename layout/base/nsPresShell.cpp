@@ -41083,6 +41083,10 @@ FrameConstructor
 GetAbsoluteContainingBlock
 (
 aFrame
+nsCSSFrameConstructor
+:
+:
+ABS_POS
 )
 ;
 }
