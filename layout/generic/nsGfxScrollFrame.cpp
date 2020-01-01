@@ -8140,6 +8140,17 @@ aOwnLayer
 {
 if
 (
+aSource
+-
+>
+IsEmpty
+(
+)
+)
+return
+;
+if
+(
 aOwnLayer
 )
 {
