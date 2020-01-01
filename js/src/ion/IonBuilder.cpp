@@ -7817,11 +7817,11 @@ jsid
 id
 bool
 *
-result
+isKnownConstant
 )
 {
 *
-result
+isKnownConstant
 =
 false
 ;
@@ -7984,7 +7984,7 @@ true
 ;
 }
 *
-result
+isKnownConstant
 =
 true
 ;
@@ -8487,7 +8487,7 @@ singleton
 )
 {
 bool
-result
+isKnownConstant
 ;
 if
 (
@@ -8498,7 +8498,7 @@ cx
 globalObj
 id
 &
-result
+isKnownConstant
 )
 )
 return
@@ -8506,7 +8506,7 @@ false
 ;
 if
 (
-result
+isKnownConstant
 )
 return
 pushConstant
