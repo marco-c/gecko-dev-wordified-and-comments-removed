@@ -9957,10 +9957,6 @@ opaqueRegion
 IsEmpty
 (
 )
-&
-&
-!
-mHideChrome
 )
 {
 nsIntRect
