@@ -41202,9 +41202,6 @@ AC_DEFINE
 (
 XP_BEOS
 )
-MOZ_MOVEMAIL
-=
-1
 elif
 test
 "
@@ -41224,9 +41221,6 @@ AC_DEFINE
 (
 UNIX_ASYNC_DNS
 )
-MOZ_MOVEMAIL
-=
-1
 elif
 test
 "
@@ -41282,14 +41276,7 @@ AC_DEFINE
 (
 UNIX_ASYNC_DNS
 )
-MOZ_MOVEMAIL
-=
-1
 fi
-AC_SUBST
-(
-MOZ_MOVEMAIL
-)
 AC_ARG_ENABLE
 (
 threadsafe
