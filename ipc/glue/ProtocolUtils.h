@@ -397,6 +397,7 @@ base
 :
 ProcessHandle
 ProtocolId
+ProtocolId
 )
 ;
 bool
@@ -415,6 +416,7 @@ Transport
 :
 :
 Mode
+ProtocolId
 ProtocolId
 )
 ;
