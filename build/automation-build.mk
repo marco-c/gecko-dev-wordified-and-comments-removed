@@ -445,3 +445,6 @@ GARBAGE
 automation
 .
 py
+automation
+.
+pyc

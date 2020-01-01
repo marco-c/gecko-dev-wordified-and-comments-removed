@@ -1841,6 +1841,12 @@ DIST
 /
 bin
 endif
+GARBAGE
++
+=
+automationutils
+.
+pyc
 endif
 #
 ENABLE_TESTS
