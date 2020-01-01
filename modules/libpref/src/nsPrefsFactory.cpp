@@ -28,9 +28,13 @@ prefapi
 .
 h
 "
+using
+namespace
+mozilla
+;
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
-nsPrefService
+Preferences
 Init
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
@@ -81,7 +85,7 @@ kPrefCIDs
 kPrefServiceCID
 true
 NULL
-nsPrefServiceConstructor
+PreferencesConstructor
 }
 {
 &

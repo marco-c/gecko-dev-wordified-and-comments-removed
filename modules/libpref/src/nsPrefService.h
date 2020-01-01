@@ -49,8 +49,11 @@ h
 class
 nsIFile
 ;
+namespace
+mozilla
+{
 class
-nsPrefService
+Preferences
 :
 public
 nsIPrefService
@@ -81,13 +84,13 @@ mRootBranch
 >
 )
 NS_DECL_NSIOBSERVER
-nsPrefService
+Preferences
 (
 )
 ;
 virtual
 ~
-nsPrefService
+Preferences
 (
 )
 ;
@@ -173,5 +176,6 @@ mCurrentFile
 ;
 }
 ;
+}
 #
 endif
