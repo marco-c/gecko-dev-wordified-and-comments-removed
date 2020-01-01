@@ -3218,6 +3218,10 @@ cx
 obj
 OBJECT_TO_JSVAL
 (
+(
+JSObject
+*
+)
 wp
 -
 >

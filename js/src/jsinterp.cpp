@@ -17875,6 +17875,12 @@ ops
 \
 if
 (
+JSVAL_IS_OBJECT
+(
+rval
+)
+&
+&
 obj2
 =
 =

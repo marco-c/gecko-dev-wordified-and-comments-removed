@@ -569,6 +569,7 @@ __attribute__
 always_inline
 )
 )
+JS_INLINE
 #
 else
 #

@@ -106,7 +106,7 @@ JSVAL_ERROR_COOKIE
 OBJECT_TO_JSVAL
 (
 (
-void
+JSObject
 *
 )
 0x10
