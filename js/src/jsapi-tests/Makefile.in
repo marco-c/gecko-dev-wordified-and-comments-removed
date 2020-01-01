@@ -525,6 +525,10 @@ testBug604087
 .
 cpp
 \
+testThreads
+.
+cpp
+\
 testTrap
 .
 cpp
