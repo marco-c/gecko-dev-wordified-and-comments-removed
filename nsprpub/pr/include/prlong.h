@@ -60,6 +60,13 @@ PR_BYTES_PER_LONG
 =
 =
 8
+&
+&
+!
+defined
+(
+__APPLE__
+)
 #
 define
 LL_MAXINT

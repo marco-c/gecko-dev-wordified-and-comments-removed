@@ -13011,10 +13011,6 @@ rv
 struct
 _MD_IOVector
 _md_iovector
-=
-{
-open
-}
 ;
 #
 if

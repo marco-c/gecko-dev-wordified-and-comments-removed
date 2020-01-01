@@ -10390,9 +10390,6 @@ op
 syserrno
 ;
 }
-#
-ifdef
-_PR_HAVE_SOCKADDR_LEN
 if
 (
 bytes
@@ -10401,6 +10398,9 @@ bytes
 0
 )
 {
+#
+ifdef
+_PR_HAVE_SOCKADDR_LEN
 if
 (
 addr
@@ -10425,7 +10425,6 @@ addr
 >
 sa_family
 ;
-}
 }
 #
 endif
@@ -10460,12 +10459,8 @@ PR_AF_INET6
 ;
 #
 endif
-if
-(
-bytes
-<
-0
-)
+}
+else
 pt_MapError
 (
 _PR_MD_MAP_RECVFROM_ERROR
