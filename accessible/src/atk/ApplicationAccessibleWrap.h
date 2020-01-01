@@ -50,12 +50,6 @@ ApplicationAccessibleWrap
 )
 ;
 virtual
-void
-Init
-(
-)
-;
-virtual
 mozilla
 :
 :

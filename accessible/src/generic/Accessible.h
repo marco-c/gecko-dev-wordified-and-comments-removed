@@ -306,12 +306,6 @@ Shutdown
 ;
 virtual
 void
-Init
-(
-)
-;
-virtual
-void
 Description
 (
 nsString

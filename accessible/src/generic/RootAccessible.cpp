@@ -664,7 +664,7 @@ const
 char
 *
 const
-docEvents
+kEventTypes
 [
 ]
 =
@@ -758,7 +758,7 @@ const
 *
 e
 =
-docEvents
+kEventTypes
 *
 const
 *
@@ -766,7 +766,7 @@ e_end
 =
 ArrayEnd
 (
-docEvents
+kEventTypes
 )
 ;
 e
@@ -863,7 +863,7 @@ const
 *
 e
 =
-docEvents
+kEventTypes
 *
 const
 *
@@ -871,7 +871,7 @@ e_end
 =
 ArrayEnd
 (
-docEvents
+kEventTypes
 )
 ;
 e
