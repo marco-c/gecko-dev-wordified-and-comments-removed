@@ -143,6 +143,10 @@ DelayNode
 .
 webidl
 \
+CaretPosition
+.
+webidl
+\
 DOMImplementation
 .
 webidl
