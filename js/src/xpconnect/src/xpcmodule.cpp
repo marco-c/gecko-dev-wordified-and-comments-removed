@@ -202,6 +202,10 @@ NS_CLASSINFO_NAME
 (
 nsXPCException
 )
+nsIClassInfo
+:
+:
+DOM_OBJECT
 }
 {
 nsnull

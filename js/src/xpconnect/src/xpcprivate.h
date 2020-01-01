@@ -10091,13 +10091,6 @@ nsXPCException
 :
 public
 nsIXPCException
-#
-ifdef
-XPC_USE_SECURITY_CHECKED_COMPONENT
-public
-nsISecurityCheckedComponent
-#
-endif
 {
 public
 :
@@ -10108,12 +10101,6 @@ NS_XPCEXCEPTION_CID
 NS_DECL_ISUPPORTS
 NS_DECL_NSIEXCEPTION
 NS_DECL_NSIXPCEXCEPTION
-#
-ifdef
-XPC_USE_SECURITY_CHECKED_COMPONENT
-NS_DECL_NSISECURITYCHECKEDCOMPONENT
-#
-endif
 static
 nsresult
 NewException
