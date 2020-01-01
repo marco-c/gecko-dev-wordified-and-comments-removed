@@ -303,6 +303,10 @@ file_bug781476
 .
 html
 \
+test_bug789713
+.
+html
+\
 file_nodelists
 .
 html

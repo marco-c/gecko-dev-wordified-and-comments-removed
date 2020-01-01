@@ -901,7 +901,7 @@ scope
 AccessCheck
 :
 :
-subsumes
+subsumesIgnoringDomain
 (
 js
 :
