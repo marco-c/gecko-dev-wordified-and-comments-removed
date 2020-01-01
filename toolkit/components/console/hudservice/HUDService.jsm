@@ -4351,6 +4351,12 @@ unregisterDisplay
 hudId
 )
 ;
+window
+.
+focus
+(
+)
+;
 }
 clearDisplay
 :
