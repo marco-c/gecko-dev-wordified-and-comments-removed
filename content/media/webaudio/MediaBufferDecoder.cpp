@@ -3373,6 +3373,11 @@ eDOM_PROPERTIES
 errorMessage
 )
 ;
+if
+(
+mFailureCallback
+)
+{
 ErrorResult
 rv
 ;
@@ -3384,6 +3389,7 @@ Call
 rv
 )
 ;
+}
 mContext
 -
 >
