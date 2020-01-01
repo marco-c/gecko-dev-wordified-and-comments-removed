@@ -508,13 +508,11 @@ Services
 .
 wm
 .
-getMostRecentWindow
+getOuterWindowWithId
 (
-"
-navigator
-:
-browser
-"
+msg
+.
+windowID
 )
 }
 ;
