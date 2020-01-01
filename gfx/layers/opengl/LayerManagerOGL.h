@@ -1041,6 +1041,17 @@ OGL
 }
 #
 endif
+const
+nsIntSize
+&
+GetWigetSize
+(
+)
+{
+return
+mWidgetSize
+;
+}
 private
 :
 nsIWidget
