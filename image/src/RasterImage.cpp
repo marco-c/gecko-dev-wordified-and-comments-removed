@@ -14654,6 +14654,11 @@ mRequest
 -
 >
 mBytesToDecode
+&
+&
+bytesDecoded
+>
+0
 )
 {
 DecodePool
