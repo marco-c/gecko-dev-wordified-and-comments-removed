@@ -830,6 +830,12 @@ eANIMATION
 <
 <
 10
+eFILTER
+=
+1
+<
+<
+11
 }
 ;
 virtual
