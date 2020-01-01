@@ -451,6 +451,10 @@ NULL
 DIRS
 +
 =
+browser
+DIRS
++
+=
 chrome
 include
 (
