@@ -863,17 +863,6 @@ browser
 /
 components
 /
-places
-/
-tests
-/
-perf
-/
-Makefile
-browser
-/
-components
-/
 privatebrowsing
 /
 test
