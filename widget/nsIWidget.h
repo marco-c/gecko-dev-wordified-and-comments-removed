@@ -56,13 +56,6 @@ h
 #
 include
 "
-nsNativeWidget
-.
-h
-"
-#
-include
-"
 nsWidgetInitData
 .
 h
@@ -182,6 +175,11 @@ nsGUIEvent
 *
 event
 )
+;
+typedef
+void
+*
+nsNativeWidget
 ;
 #
 define
