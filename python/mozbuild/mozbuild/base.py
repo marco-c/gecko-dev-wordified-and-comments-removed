@@ -1377,9 +1377,12 @@ _ensure_objdir_exists
         
 args
 =
+list
+(
 self
 .
 _make_path
+)
         
 if
 directory
