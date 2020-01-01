@@ -833,6 +833,15 @@ learnThisIsObject
 inline
 FrameEntry
 *
+getStack
+(
+uint32
+slot
+)
+;
+inline
+FrameEntry
+*
 getLocal
 (
 uint32

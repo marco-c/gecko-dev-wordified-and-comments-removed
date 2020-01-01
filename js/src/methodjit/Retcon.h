@@ -237,8 +237,7 @@ recompile
 (
 Vector
 <
-JSStackFrame
-*
+PatchableFrame
 >
 &
 frames
