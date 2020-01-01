@@ -443,6 +443,10 @@ helpers
 .
 js
 \
+test_add_twice_failure
+.
+html
+\
 test_create_objectStore
 .
 html
