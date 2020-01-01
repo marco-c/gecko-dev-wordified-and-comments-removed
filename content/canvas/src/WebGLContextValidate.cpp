@@ -2319,12 +2319,6 @@ mBoundRenderbuffer
 =
 nsnull
 ;
-mMapBuffers
-.
-Clear
-(
-)
-;
 mMapPrograms
 .
 Clear
