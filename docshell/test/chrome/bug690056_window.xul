@@ -234,6 +234,7 @@ nextTest
 )
 ;
 yield
+undefined
 ;
 /
 /
@@ -355,6 +356,7 @@ nextTest
 )
 ;
 yield
+undefined
 ;
 /
 /
@@ -465,6 +467,7 @@ nextTest
 )
 ;
 yield
+undefined
 ;
 /
 /
@@ -574,6 +577,7 @@ nextTest
 )
 ;
 yield
+undefined
 ;
 function
 generateDetector
@@ -730,6 +734,7 @@ docShellIsActive
 false
 ;
 yield
+undefined
 ;
 /
 /
@@ -813,6 +818,7 @@ nextTest
 )
 ;
 yield
+undefined
 ;
 generateDetector
 (
@@ -852,6 +858,7 @@ docShellIsActive
 true
 ;
 yield
+undefined
 ;
 /
 /
@@ -961,6 +968,7 @@ nextTest
 )
 ;
 yield
+undefined
 ;
 /
 /
@@ -995,6 +1003,7 @@ finish
 )
 ;
 yield
+undefined
 ;
 }
 ]

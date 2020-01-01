@@ -261,6 +261,7 @@ finish
 )
 ;
 yield
+undefined
 ;
 }
 ]

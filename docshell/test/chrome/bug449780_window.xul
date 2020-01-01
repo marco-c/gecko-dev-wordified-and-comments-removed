@@ -452,6 +452,7 @@ href
 doc2
 ;
 yield
+undefined
 ;
 (
 "
@@ -464,6 +465,7 @@ goBack
 )
 ;
 yield
+undefined
 ;
 is
 (
@@ -493,6 +495,7 @@ goForward
 )
 ;
 yield
+undefined
 ;
 /
 /
@@ -557,6 +560,7 @@ goBack
 )
 ;
 yield
+undefined
 ;
 is
 (
@@ -590,6 +594,7 @@ finish
 )
 ;
 yield
+undefined
 ;
 }
 )

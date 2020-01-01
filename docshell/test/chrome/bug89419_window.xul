@@ -428,6 +428,7 @@ true
 )
 ;
 yield
+undefined
 ;
 var
 first
@@ -458,6 +459,7 @@ nextTest
 )
 ;
 yield
+undefined
 ;
 var
 second
@@ -528,6 +530,7 @@ nextTest
 )
 ;
 yield
+undefined
 ;
 var
 third
@@ -618,6 +621,7 @@ finish
 )
 ;
 yield
+undefined
 ;
 }
 ]

@@ -667,6 +667,7 @@ test1DocURI
 )
 ;
 yield
+undefined
 ;
 var
 test2Doc
@@ -779,6 +780,7 @@ test2Doc
 )
 ;
 yield
+undefined
 ;
 /
 /
@@ -857,6 +859,7 @@ goBack
 )
 ;
 yield
+undefined
 ;
 }
 ]

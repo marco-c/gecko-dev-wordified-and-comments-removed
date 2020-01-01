@@ -282,6 +282,7 @@ nextTest
 )
 ;
 yield
+undefined
 ;
 /
 /
@@ -448,6 +449,7 @@ nextTest
 )
 ;
 yield
+undefined
 ;
 /
 /
@@ -602,6 +604,7 @@ finish
 )
 ;
 yield
+undefined
 ;
 }
 ]

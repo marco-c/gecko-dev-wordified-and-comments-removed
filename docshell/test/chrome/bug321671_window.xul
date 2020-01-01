@@ -700,6 +700,7 @@ nextTest
 )
 ;
 yield
+undefined
 ;
 is
 (
@@ -934,6 +935,7 @@ nextTest
 )
 ;
 yield
+undefined
 ;
 is
 (
@@ -1113,6 +1115,7 @@ nextTest
 )
 ;
 yield
+undefined
 ;
 is
 (
@@ -1173,6 +1176,7 @@ finish
 )
 ;
 yield
+undefined
 ;
 }
 ]

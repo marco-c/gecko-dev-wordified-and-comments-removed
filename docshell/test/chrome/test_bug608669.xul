@@ -711,6 +711,7 @@ onload
 nextTest
 ;
 yield
+undefined
 ;
 is
 (
@@ -770,6 +771,7 @@ onload
 nextTest
 ;
 yield
+undefined
 ;
 is
 (
@@ -844,6 +846,7 @@ onload
 nextTest
 ;
 yield
+undefined
 ;
 is
 (
@@ -908,6 +911,7 @@ finish
 )
 ;
 yield
+undefined
 ;
 }
 ]

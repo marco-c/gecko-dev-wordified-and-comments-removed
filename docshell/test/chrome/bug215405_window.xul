@@ -472,6 +472,7 @@ nostoreURI
 )
 ;
 yield
+undefined
 ;
 /
 /
@@ -674,6 +675,7 @@ simple
 )
 ;
 yield
+undefined
 ;
 /
 /
@@ -698,6 +700,7 @@ goBack
 )
 ;
 yield
+undefined
 ;
 /
 /
@@ -824,6 +827,7 @@ nocacheURI
 )
 ;
 yield
+undefined
 ;
 /
 /
@@ -968,6 +972,7 @@ simple
 )
 ;
 yield
+undefined
 ;
 /
 /
@@ -992,6 +997,7 @@ goBack
 )
 ;
 yield
+undefined
 ;
 /
 /
@@ -1111,6 +1117,7 @@ nextTest
 )
 ;
 yield
+undefined
 ;
 }
 ]

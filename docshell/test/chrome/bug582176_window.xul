@@ -505,6 +505,7 @@ html
 )
 ;
 yield
+undefined
 ;
 is
 (
@@ -577,6 +578,7 @@ html
 )
 ;
 yield
+undefined
 ;
 is
 (
@@ -618,6 +620,7 @@ goBack
 )
 ;
 yield
+undefined
 ;
 is
 (
@@ -682,6 +685,7 @@ xml
 )
 ;
 yield
+undefined
 ;
 is
 (
@@ -766,6 +770,7 @@ finish
 )
 ;
 yield
+undefined
 ;
 }
 ]
