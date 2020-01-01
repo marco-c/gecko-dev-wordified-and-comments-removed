@@ -665,6 +665,10 @@ test_menuitem_commands
 .
 xul
 \
+test_popup_moveToAnchor
+.
+xul
+\
 (
 NULL
 )
