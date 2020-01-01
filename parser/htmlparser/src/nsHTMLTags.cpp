@@ -3579,7 +3579,7 @@ i
 ;
 maxTagNameLength
 =
-PR_MAX
+NS_MAX
 (
 len
 maxTagNameLength

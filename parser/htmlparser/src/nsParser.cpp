@@ -1761,7 +1761,7 @@ start
 .
 advance
 (
-PR_MIN
+NS_MIN
 (
 mNumConsumed
 -
@@ -12259,7 +12259,7 @@ Substring
 aBytes
 aBytes
 +
-PR_MIN
+NS_MIN
 (
 aLen
 2048
