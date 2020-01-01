@@ -12724,6 +12724,18 @@ idsToInit
 0
 ]
 )
+                 
+CGGeneric
+(
+"
+NS_IsMainThread
+(
+)
+&
+&
+"
+)
+                 
 initIds
 ]
                 
