@@ -5684,6 +5684,16 @@ update
 TOOLBARSTATE_LOADED
 )
 ;
+this
+.
+browser
+.
+docShell
+.
+isOffScreenBrowser
+=
+true
+;
 }
 }
 _documentStop
