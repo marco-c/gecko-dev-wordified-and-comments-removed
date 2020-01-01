@@ -15,11 +15,6 @@ doNothing
 )
 {
 }
-dis
-(
-myparent
-)
-;
 function
 myparent
 (
