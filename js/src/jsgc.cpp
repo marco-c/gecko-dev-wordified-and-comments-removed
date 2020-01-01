@@ -305,12 +305,6 @@ windows
 h
 >
 #
-elif
-defined
-(
-__SYMBIAN32__
-)
-#
 else
 #
 if
@@ -12946,10 +12940,13 @@ argsobj
 JS_CALL_OBJECT_TRACER
 (
 trc
+JSVAL_TO_OBJECT
+(
 fp
 -
 >
 argsobj
+)
 "
 arguments
 "

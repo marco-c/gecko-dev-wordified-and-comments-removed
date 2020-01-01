@@ -74,8 +74,7 @@ JSObject
 *
 callobj
 ;
-JSObject
-*
+jsval
 argsobj
 ;
 JSObject

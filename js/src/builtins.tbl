@@ -843,12 +843,13 @@ INT32
 1
 1
 )
-BUILTIN1
+BUILTIN2
 (
 extern
 OBJECT
 js_Arguments
 CONTEXT
+OBJECT
 0
 0
 )

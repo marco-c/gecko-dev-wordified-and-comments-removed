@@ -5712,6 +5712,8 @@ frame
 .
 callobj
 =
+NULL
+;
 frame
 .
 argsobj
@@ -6955,6 +6957,8 @@ frame
 .
 callobj
 =
+NULL
+;
 frame
 .
 argsobj

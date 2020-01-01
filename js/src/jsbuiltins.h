@@ -2474,6 +2474,10 @@ js_AllocFlatClosure
 )
 JS_DECLARE_CALLINFO
 (
+js_PutArguments
+)
+JS_DECLARE_CALLINFO
+(
 js_NumberToString
 )
 JS_DECLARE_CALLINFO
