@@ -397,6 +397,12 @@ createElementNS
 in
 DOMString
 namespaceURI
+[
+Null
+(
+Stringify
+)
+]
 in
 DOMString
 qualifiedName
