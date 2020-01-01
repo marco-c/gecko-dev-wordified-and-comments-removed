@@ -25049,7 +25049,7 @@ getStringOption
 "
 ion
 -
-edgecase
+range
 -
 analysis
 "
@@ -25074,7 +25074,7 @@ ion
 :
 js_IonOptions
 .
-edgeCaseAnalysis
+rangeAnalysis
 =
 true
 ;
@@ -25097,7 +25097,7 @@ ion
 :
 js_IonOptions
 .
-edgeCaseAnalysis
+rangeAnalysis
 =
 false
 ;
@@ -25108,7 +25108,7 @@ OptionFailure
 "
 ion
 -
-edgecase
+range
 -
 analysis
 "
@@ -26982,7 +26982,7 @@ addStringOption
 "
 ion
 -
-edgecase
+range
 -
 analysis
 "
@@ -26992,14 +26992,8 @@ on
 off
 "
 "
-Find
-edge
-cases
-where
-Ion
-can
-avoid
-bailouts
+Range
+Analysis
 (
 default
 :
