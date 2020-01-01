@@ -4094,7 +4094,7 @@ browser
 .
 send_pings
 "
-true
+false
 )
 ;
 pref
