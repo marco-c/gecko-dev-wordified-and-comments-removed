@@ -11047,9 +11047,6 @@ return
 NS_OK
 ;
 }
-nsAutoString
-tmp
-;
 UnsetAttr
 (
 nsid
