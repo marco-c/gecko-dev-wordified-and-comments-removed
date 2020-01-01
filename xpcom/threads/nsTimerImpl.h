@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsVoidArray
-.
-h
-"
-#
-include
-"
 nsIThread
 .
 h
@@ -213,7 +206,7 @@ Fire
 (
 )
 ;
-void
+nsresult
 PostTimerEvent
 (
 )
