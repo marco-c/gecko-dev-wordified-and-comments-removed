@@ -120,17 +120,6 @@ CheckedInt
 h
 "
 #
-include
-"
-mozilla
-/
-dom
-/
-ImageData
-.
-h
-"
-#
 ifdef
 XP_MACOSX
 #
@@ -326,6 +315,9 @@ WebGLVertexArray
 namespace
 dom
 {
+class
+ImageData
+;
 struct
 WebGLContextAttributes
 ;

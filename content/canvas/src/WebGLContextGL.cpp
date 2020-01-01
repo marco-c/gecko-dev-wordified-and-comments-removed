@@ -204,6 +204,17 @@ BindingUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+ImageData
+.
+h
+"
 using
 namespace
 mozilla

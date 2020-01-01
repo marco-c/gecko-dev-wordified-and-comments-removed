@@ -100,17 +100,6 @@ mozilla
 /
 dom
 /
-ImageData
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 CanvasGradient
 .
 h
@@ -166,6 +155,9 @@ dom
 {
 class
 HTMLImageElementOrHTMLCanvasElementOrHTMLVideoElement
+;
+class
+ImageData
 ;
 class
 StringOrCanvasGradientOrCanvasPattern
