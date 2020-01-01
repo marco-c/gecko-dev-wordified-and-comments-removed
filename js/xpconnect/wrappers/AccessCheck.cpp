@@ -1967,7 +1967,6 @@ nsJSUtils
 :
 GetStaticScriptGlobal
 (
-cx
 wrapper
 )
 )

@@ -8331,7 +8331,6 @@ nsJSUtils
 :
 GetStaticScriptGlobal
 (
-cx
 obj
 )
 )

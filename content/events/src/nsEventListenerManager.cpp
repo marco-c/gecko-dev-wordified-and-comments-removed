@@ -5515,7 +5515,6 @@ nsJSUtils
 :
 GetStaticScriptContext
 (
-cx
 aScope
 )
 ;
