@@ -35,9 +35,7 @@ include
 "
 pixman
 -
-fast
--
-path
+inlines
 .
 h
 "

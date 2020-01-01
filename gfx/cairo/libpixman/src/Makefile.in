@@ -865,6 +865,12 @@ c
 \
 pixman
 -
+noop
+.
+c
+\
+pixman
+-
 radial
 -
 gradient
