@@ -240,6 +240,10 @@ test_performance_now
 .
 html
 \
+test_interfaces
+.
+html
+\
 (
 NULL
 )
