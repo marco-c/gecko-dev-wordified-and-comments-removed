@@ -1368,7 +1368,7 @@ MediaDecoder
 FrameStats
 "
 )
-mPlaybackJitter
+mTotalFrameDelay
 (
 0
 .
@@ -1434,7 +1434,7 @@ mPresentedFrames
 ;
 }
 double
-GetPlaybackJitter
+GetTotalFrameDelay
 (
 )
 {
@@ -1445,7 +1445,7 @@ mReentrantMonitor
 )
 ;
 return
-mPlaybackJitter
+mTotalFrameDelay
 ;
 }
 void
@@ -1506,10 +1506,10 @@ mPresentedFrames
 ;
 }
 void
-NotifyPlaybackJitter
+NotifyFrameDelay
 (
 double
-aDisplayError
+aFrameDelay
 )
 {
 ReentrantMonitorAutoEnter
@@ -1518,10 +1518,10 @@ mon
 mReentrantMonitor
 )
 ;
-mPlaybackJitter
+mTotalFrameDelay
 +
 =
-aDisplayError
+aFrameDelay
 ;
 }
 private
@@ -1530,7 +1530,7 @@ ReentrantMonitor
 mReentrantMonitor
 ;
 double
-mPlaybackJitter
+mTotalFrameDelay
 ;
 uint32_t
 mParsedFrames

@@ -78,7 +78,7 @@ aDroppedFrames
 uint64_t
 aCorruptedFrames
 double
-aPlaybackJitter
+aTotalFrameDelay
 )
 :
 mElement
@@ -101,9 +101,9 @@ mCorruptedFrames
 (
 aCorruptedFrames
 )
-mPlaybackJitter
+mTotalFrameDelay
 (
-aPlaybackJitter
+aTotalFrameDelay
 )
 {
 SetIsDOMBinding

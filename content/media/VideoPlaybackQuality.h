@@ -73,7 +73,7 @@ aDroppedFrames
 uint64_t
 aCorruptedFrames
 double
-aPlaybackJitter
+aTotalFrameDelay
 )
 ;
 HTMLMediaElement
@@ -140,12 +140,12 @@ mCorruptedFrames
 ;
 }
 double
-PlaybackJitter
+TotalFrameDelay
 (
 )
 {
 return
-mPlaybackJitter
+mTotalFrameDelay
 ;
 }
 private
@@ -169,7 +169,7 @@ uint64_t
 mCorruptedFrames
 ;
 double
-mPlaybackJitter
+mTotalFrameDelay
 ;
 }
 ;

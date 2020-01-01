@@ -196,7 +196,7 @@ corruptedVideoFrames
 readonly
 attribute
 double
-playbackJitter
+totalFrameDelay
 ;
 }
 ;
