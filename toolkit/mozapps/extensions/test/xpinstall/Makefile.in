@@ -636,6 +636,10 @@ browser_httphash5
 .
 js
 \
+browser_badargs
+.
+js
+\
 unsigned
 .
 xpi
