@@ -403,6 +403,10 @@ HTMLHtmlElement
 .
 webidl
 \
+HTMLIFrameElement
+.
+webidl
+\
 HTMLImageElement
 .
 webidl

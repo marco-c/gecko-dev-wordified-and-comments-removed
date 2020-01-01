@@ -1,4 +1,10 @@
 #
+ifndef
+nsGenericHTMLFrameElement_h
+#
+define
+nsGenericHTMLFrameElement_h
+#
 include
 "
 nsGenericHTMLElement
@@ -371,3 +377,5 @@ mFrameLoaderCreationDisallowed
 ;
 }
 ;
+#
+endif
