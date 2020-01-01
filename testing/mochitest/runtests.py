@@ -1678,7 +1678,7 @@ add_option
 "
 -
 -
-loops
+repeat
 "
                     
 action
@@ -1695,12 +1695,12 @@ int
 dest
 =
 "
-loops
+repeat
 "
 metavar
 =
 "
-LOOPS
+REPEAT
 "
                     
 help
@@ -1718,26 +1718,24 @@ given
 number
 of
 times
-"
-                           
-"
-without
-restarting
+ie
+:
+repeat
+=
+1
+will
+run
 the
-browser
-(
-given
-number
->
-0
-)
+test
+twice
+.
 "
 )
     
 defaults
 [
 "
-loops
+repeat
 "
 ]
 =
@@ -3395,7 +3393,7 @@ testPath
 and
 options
 .
-loops
+repeat
 >
 0
 :
@@ -4237,16 +4235,27 @@ timeout
 in
 seconds
         
-loops
+repeat
 -
 -
 How
 many
 times
 to
+repeat
+the
+test
+ie
+:
+repeat
+=
+1
+will
 run
 the
 test
+twice
+.
     
 "
 "
@@ -4547,7 +4556,7 @@ hideResultsTable
 if
 options
 .
-loops
+repeat
 :
         
 self
@@ -4557,7 +4566,7 @@ urlOpts
 append
 (
 "
-loops
+repeat
 =
 %
 d
@@ -4565,7 +4574,7 @@ d
 %
 options
 .
-loops
+repeat
 )
       
 if
@@ -4603,7 +4612,7 @@ testPath
 and
 options
 .
-loops
+repeat
 >
 0
 :
