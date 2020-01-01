@@ -3156,6 +3156,15 @@ tests
 windows
 /
 Makefile
+xpcom
+/
+tests
+/
+static
+-
+checker
+/
+Makefile
 "
 MAKEFILES_xpinstall
 =
