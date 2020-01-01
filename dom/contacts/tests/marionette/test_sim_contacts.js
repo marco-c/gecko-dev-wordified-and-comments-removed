@@ -90,6 +90,17 @@ result
 ;
 is
 (
+Array
+.
+isArray
+(
+simContacts
+)
+true
+)
+;
+is
+(
 simContacts
 [
 0
