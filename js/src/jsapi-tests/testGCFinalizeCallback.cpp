@@ -1,12 +1,5 @@
 #
 include
-<
-stdarg
-.
-h
->
-#
-include
 "
 jscntxt
 .
