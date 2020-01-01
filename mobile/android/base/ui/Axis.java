@@ -534,7 +534,7 @@ private
 float
 mVelocity
 ;
-public
+private
 boolean
 mScrollingDisabled
 ;
