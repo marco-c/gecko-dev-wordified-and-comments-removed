@@ -459,11 +459,11 @@ script
 ;
 extern
 void
-js_MarkScript
+js_TraceScript
 (
-JSContext
+JSTracer
 *
-cx
+trc
 JSScript
 *
 script

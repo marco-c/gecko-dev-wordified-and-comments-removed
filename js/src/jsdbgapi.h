@@ -271,11 +271,11 @@ ifdef
 JS_HAS_OBJ_WATCHPOINT
 extern
 void
-js_MarkWatchPoints
+js_TraceWatchPoints
 (
-JSContext
+JSTracer
 *
-cx
+trc
 )
 ;
 extern

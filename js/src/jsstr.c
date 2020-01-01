@@ -27680,13 +27680,6 @@ DEBUG
 \
 defined
 (
-GC_MARK_DEBUG
-)
-|
-|
-\
-defined
-(
 DUMP_CALL_TABLE
 )
 |
