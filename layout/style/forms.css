@@ -625,6 +625,12 @@ style
 :
 inherit
 ;
+display
+:
+inline
+-
+block
+;
 ime
 -
 mode
