@@ -609,15 +609,6 @@ BINPATH
 AccessibleMarshal
 .
 dll
-BINPATH
-/
-components
-/
-accessibility
--
-msaa
-.
-xpt
 #
 endif
 BINPATH
