@@ -219,7 +219,7 @@ else
 STYLE_STRUCT_INHERITED
 (
 Text
-nsnull
+CheckTextCallback
 (
 )
 )
