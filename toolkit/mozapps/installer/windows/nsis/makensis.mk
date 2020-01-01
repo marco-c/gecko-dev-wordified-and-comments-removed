@@ -512,7 +512,7 @@ INSTALL
 (
 addprefix
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 toolkit
@@ -536,7 +536,7 @@ CONFIG_DIR
 INSTALL
 )
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 toolkit
@@ -820,7 +820,7 @@ INSTALL
 (
 addprefix
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 toolkit
@@ -844,7 +844,7 @@ CONFIG_DIR
 INSTALL
 )
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 toolkit
