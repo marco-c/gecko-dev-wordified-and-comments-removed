@@ -5,6 +5,15 @@ NETWERK_SCTP_DATACHANNEL_DATACHANNEL_H_
 define
 NETWERK_SCTP_DATACHANNEL_DATACHANNEL_H_
 #
+ifdef
+MOZ_WEBRTC_SIGNALING
+#
+define
+SCTP_DTLS_SUPPORTED
+1
+#
+endif
+#
 include
 <
 string
@@ -94,9 +103,7 @@ SCTP_DTLS_SUPPORTED
 #
 include
 "
-talk
-/
-base
+mtransport
 /
 sigslot
 .
