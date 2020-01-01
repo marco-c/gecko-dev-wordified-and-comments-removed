@@ -5321,11 +5321,11 @@ info
 )
 ;
 }
-NS_IMETHODIMP
+void
 WebGLContext
 :
 :
-Notify
+RobustnessTimerCallback
 (
 nsITimer
 *
@@ -5343,7 +5343,6 @@ mCanvasElement
 )
 {
 return
-NS_OK
 ;
 }
 if
@@ -5448,7 +5447,6 @@ SetupContextLossTimer
 )
 ;
 return
-NS_OK
 ;
 }
 mContextStatus
@@ -5498,7 +5496,6 @@ MaybeRestoreContext
 )
 ;
 return
-NS_OK
 ;
 }
 void
@@ -6140,10 +6137,6 @@ nsICanvasRenderingContextInternal
 NS_INTERFACE_MAP_ENTRY
 (
 nsISupportsWeakReference
-)
-NS_INTERFACE_MAP_ENTRY
-(
-nsITimerCallback
 )
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
