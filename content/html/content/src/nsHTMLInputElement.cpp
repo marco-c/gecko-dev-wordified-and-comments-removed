@@ -1065,9 +1065,8 @@ NS_ERROR_FAILURE
 if
 (
 mPopupControlState
-!
-=
-openAllowed
+>
+openControlled
 )
 {
 nsCOMPtr
