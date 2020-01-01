@@ -229,6 +229,9 @@ mCurrentPass
 PRUint8
 mLastFlushedPass
 ;
+PRUint8
+mColorMask
+;
 PRPackedBool
 mGIFOpen
 ;
