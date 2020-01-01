@@ -852,6 +852,14 @@ test_bug519987
 .
 html
 \
+test_bug523771
+.
+html
+\
+form_submit_server
+.
+sjs
+\
 (
 NULL
 )
