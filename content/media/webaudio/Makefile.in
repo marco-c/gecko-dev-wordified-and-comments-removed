@@ -161,6 +161,10 @@ PannerNode
 .
 cpp
 \
+ThreeDPoint
+.
+cpp
+\
 (
 NULL
 )
