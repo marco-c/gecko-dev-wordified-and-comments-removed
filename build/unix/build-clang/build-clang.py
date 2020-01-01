@@ -1,7 +1,7 @@
 llvm_revision
 =
 "
-169139
+169730
 "
 moz_version
 =
@@ -145,6 +145,8 @@ build_package
 package_source_dir
 package_build_dir
 configure_args
+                  
+make_args
 )
 :
     
@@ -197,6 +199,8 @@ make
 j8
 "
 ]
++
+make_args
 )
     
 run_in
@@ -762,6 +766,14 @@ build_package
 llvm_source_dir
 build_dir
 configure_opts
+                  
+[
+"
+CLANG_IS_PRODUCTION
+=
+1
+"
+]
 )
 if
 isDarwin
