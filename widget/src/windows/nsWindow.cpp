@@ -14429,11 +14429,11 @@ PluginHasFocus
 return
 PR_FALSE
 ;
-nsGUIEvent
+nsPluginEvent
 event
 (
 PR_TRUE
-NS_PLUGIN_EVENT
+NS_PLUGIN_INPUT_EVENT
 this
 )
 ;
@@ -14488,6 +14488,12 @@ void
 )
 &
 pluginEvent
+;
+event
+.
+retargetToFocusedDocument
+=
+PR_TRUE
 ;
 return
 DispatchWindowEvent
