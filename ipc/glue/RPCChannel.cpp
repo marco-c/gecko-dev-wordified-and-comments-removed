@@ -279,6 +279,9 @@ RPCChannel
 )
 ;
 }
+#
+ifdef
+OS_WIN
 int
 RPCChannel
 :
@@ -287,6 +290,8 @@ sInnerEventLoopDepth
 =
 0
 ;
+#
+endif
 bool
 RPCChannel
 :
