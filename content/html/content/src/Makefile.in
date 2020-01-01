@@ -274,6 +274,10 @@ HTMLSharedListElement
 .
 h
 \
+HTMLSharedObjectElement
+.
+h
+\
 HTMLSpanElement
 .
 h
@@ -492,7 +496,7 @@ HTMLObjectElement
 .
 cpp
 \
-nsHTMLSharedObjectElement
+HTMLSharedObjectElement
 .
 cpp
 \
