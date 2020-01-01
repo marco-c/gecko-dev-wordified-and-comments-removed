@@ -1,4 +1,10 @@
 #
+ifndef
+nsScriptElement_h
+#
+define
+nsScriptElement_h
+#
 include
 "
 mozilla
@@ -87,3 +93,5 @@ MOZ_OVERRIDE
 ;
 }
 ;
+#
+endif
