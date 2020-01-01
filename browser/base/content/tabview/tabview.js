@@ -1,8 +1,3 @@
-#
-include
-profile
-.
-js
 Components
 .
 utils
