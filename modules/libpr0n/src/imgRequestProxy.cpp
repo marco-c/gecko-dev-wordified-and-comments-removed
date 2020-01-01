@@ -2434,6 +2434,11 @@ animated
 ;
 if
 (
+!
+mImage
+|
+|
+(
 NS_SUCCEEDED
 (
 mImage
@@ -2449,6 +2454,7 @@ animated
 &
 !
 animated
+)
 )
 {
 NS_ADDREF
@@ -2705,8 +2711,7 @@ aImage
 {
 NS_ABORT_IF_FALSE
 (
-!
-mImage
+aImage
 "
 Setting
 null
