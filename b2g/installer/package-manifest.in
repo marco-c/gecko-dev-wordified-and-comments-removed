@@ -4357,6 +4357,13 @@ components
 TelProtocolHandler
 .
 js
+BINPATH
+/
+components
+/
+B2GAboutRedirector
+.
+js
 #
 ifdef
 XP_MACOSX
