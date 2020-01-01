@@ -188,6 +188,15 @@ FileVersion
 AppVersion
 }
 "
+VIAddVersionKey
+"
+ProductVersion
+"
+"
+{
+AppVersion
+}
+"
 ;
 VIAddVersionKey
 "
