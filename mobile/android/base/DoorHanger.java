@@ -250,15 +250,6 @@ setOrientation
 VERTICAL
 )
 ;
-setBackgroundResource
-(
-R
-.
-drawable
-.
-doorhanger_shadow_bg
-)
-;
 LayoutInflater
 .
 from
