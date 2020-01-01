@@ -2077,8 +2077,14 @@ nsILocalFile
 ;
 if
 (
+(
+!
+aSkipPrompt
+|
+|
 !
 useDownloadDir
+)
 &
 &
 lastDir
