@@ -573,7 +573,7 @@ nsIPrincipal
 >
 mPrincipal
 ;
-nsRefPtr
+nsAutoPtr
 <
 imgStatusTracker
 >
