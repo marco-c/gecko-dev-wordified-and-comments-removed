@@ -2134,7 +2134,6 @@ if
 (
 mFlags
 &
-&
 FLAG_SIMPLIFY_OPERATORS
 )
 {
