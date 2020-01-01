@@ -1,7 +1,3 @@
-from
-__future__
-import
-print_function
 '
 '
 '
@@ -24,6 +20,10 @@ output
 '
 '
 '
+from
+__future__
+import
+with_statement
 import
 sys
 import
@@ -110,15 +110,11 @@ File
 not
 found
 :
-{
-0
-}
+%
+s
 "
-.
-format
-(
+%
 arg
-)
 )
         
 elif
@@ -194,15 +190,11 @@ File
 not
 found
 :
-{
-0
-}
+%
+s
 "
-.
-format
-(
+%
 arg
-)
 )
     
 return
@@ -344,14 +336,12 @@ outfile
 :
         
 print
-(
+>
+>
+outfile
 generate
 (
 args
-)
-file
-=
-outfile
 )
     
 if
@@ -386,23 +376,19 @@ depfile
 write
 (
 "
-{
-0
-}
+%
+s
 :
-{
-1
-}
+%
+s
 \
 n
 "
-.
-format
+%
 (
 options
 .
 output
-                                               
 '
 '
 .
