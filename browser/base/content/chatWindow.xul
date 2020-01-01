@@ -761,12 +761,17 @@ sets
 .
 inc
 #
+ifdef
+XP_MACOSX
+#
 include
 browser
 -
 menubar
 .
 inc
+#
+endif
 <
 popupset
 id
