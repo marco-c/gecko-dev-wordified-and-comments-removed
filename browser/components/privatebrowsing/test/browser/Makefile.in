@@ -493,6 +493,10 @@ browser_privatebrowsing_import
 .
 js
 \
+browser_privatebrowsing_newwindow_stopcmd
+.
+js
+\
 browser_privatebrowsing_opendir
 .
 js
