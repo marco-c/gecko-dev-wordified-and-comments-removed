@@ -509,6 +509,7 @@ prepareWarning
 :
 function
 (
+aDontShowItemList
 )
 {
 var
@@ -529,6 +530,11 @@ warningStringID
 sanitizeSelectedWarning
 "
 ;
+if
+(
+!
+aDontShowItemList
+)
 this
 .
 showItemList
@@ -664,6 +670,7 @@ this
 .
 prepareWarning
 (
+true
 )
 ;
 return
