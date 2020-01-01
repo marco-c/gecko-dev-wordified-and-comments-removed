@@ -27133,7 +27133,6 @@ if
 !
 js_DoubleToECMAInt32
 (
-cx
 d
 &
 i
@@ -27147,7 +27146,6 @@ if
 !
 js_DoubleToECMAInt32
 (
-cx
 d2
 &
 j
@@ -27190,7 +27188,6 @@ if
 !
 js_DoubleToECMAUint32
 (
-cx
 d
 &
 u
@@ -27204,7 +27201,6 @@ if
 !
 js_DoubleToECMAInt32
 (
-cx
 d2
 &
 j
@@ -30195,7 +30191,6 @@ if
 !
 js_DoubleToECMAInt32
 (
-cx
 d
 &
 i

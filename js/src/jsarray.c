@@ -457,7 +457,6 @@ if
 !
 js_DoubleToECMAUint32
 (
-cx
 d
 (
 uint32

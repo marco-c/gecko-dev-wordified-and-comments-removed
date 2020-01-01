@@ -3673,7 +3673,6 @@ JS_FALSE
 return
 js_DoubleToECMAInt32
 (
-cx
 d
 ip
 )
@@ -3682,9 +3681,6 @@ ip
 JSBool
 js_DoubleToECMAInt32
 (
-JSContext
-*
-cx
 jsdouble
 d
 int32
@@ -3824,7 +3820,6 @@ JS_FALSE
 return
 js_DoubleToECMAUint32
 (
-cx
 d
 ip
 )
@@ -3833,9 +3828,6 @@ ip
 JSBool
 js_DoubleToECMAUint32
 (
-JSContext
-*
-cx
 jsdouble
 d
 uint32
