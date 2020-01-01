@@ -107,7 +107,7 @@ gsmTimerList_t
 ;
 extern
 cprMsgQueue_t
-gsm_msg_queue
+gsm_msgq
 ;
 extern
 void

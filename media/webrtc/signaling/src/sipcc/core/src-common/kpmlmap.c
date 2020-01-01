@@ -816,7 +816,7 @@ timer
 "
 GSM_KPML_INTER_DIGIT_TIMER
 TIMER_EXPIRATION
-gsm_msg_queue
+gsm_msgq
 )
 ;
 kpml_data
@@ -832,7 +832,7 @@ timer
 "
 GSM_KPML_CRITICAL_DIGIT_TIMER
 TIMER_EXPIRATION
-gsm_msg_queue
+gsm_msgq
 )
 ;
 kpml_data
@@ -848,7 +848,7 @@ timer
 "
 GSM_KPML_EXTRA_DIGIT_TIMER
 TIMER_EXPIRATION
-gsm_msg_queue
+gsm_msgq
 )
 ;
 if
@@ -2004,7 +2004,7 @@ timer
 "
 GSM_KPML_SUBSCRIPTION_TIMER
 TIMER_EXPIRATION
-gsm_msg_queue
+gsm_msgq
 )
 ;
 kpml_data
