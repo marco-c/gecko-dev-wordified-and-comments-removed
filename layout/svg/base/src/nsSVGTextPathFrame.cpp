@@ -738,15 +738,9 @@ if
 length
 -
 >
-GetSpecifiedUnitType
+IsPercentage
 (
 )
-=
-=
-nsIDOMSVGLength
-:
-:
-SVG_LENGTHTYPE_PERCENTAGE
 )
 {
 nsRefPtr

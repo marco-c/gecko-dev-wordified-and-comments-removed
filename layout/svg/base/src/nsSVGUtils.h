@@ -830,13 +830,13 @@ aFrame
 ;
 static
 void
-NotifyChildrenCanvasTMChanged
+NotifyChildrenOfSVGChange
 (
 nsIFrame
 *
 aFrame
-PRBool
-suppressInvalidation
+PRUint32
+aFlags
 )
 ;
 static
