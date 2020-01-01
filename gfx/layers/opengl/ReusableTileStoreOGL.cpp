@@ -41,7 +41,7 @@ MakeCurrent
 ;
 for
 (
-int
+PRUint32
 i
 =
 0
@@ -166,7 +166,7 @@ MakeCurrent
 ;
 for
 (
-int
+PRUint32
 i
 =
 0
@@ -898,7 +898,7 @@ aRenderOffset
 {
 for
 (
-size_t
+PRUint32
 i
 =
 0
