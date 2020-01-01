@@ -1418,9 +1418,6 @@ callHook
 #
 endif
 JSCList
-trapList
-;
-JSCList
 watchPointList
 ;
 JSCList
