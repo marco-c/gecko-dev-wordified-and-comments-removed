@@ -9364,6 +9364,16 @@ YMost
 -
 oldYMost
 ;
+aState
+.
+mPresContext
+-
+>
+CheckForInterrupt
+(
+this
+)
+;
 }
 else
 {
@@ -9608,9 +9618,8 @@ aState
 mPresContext
 -
 >
-CheckForInterrupt
+HasPendingInterrupt
 (
-this
 )
 )
 {
