@@ -1731,12 +1731,12 @@ height
 width
 /
 =
-20
+TWIPS_PER_POINT_FLOAT
 ;
 height
 /
 =
-20
+TWIPS_PER_POINT_FLOAT
 ;
 DO_PR_DEBUG_LOG
 (

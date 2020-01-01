@@ -147,6 +147,9 @@ mMargin
 nsMargin
 mEdge
 ;
+nsMargin
+mUnwriteableMargin
+;
 PRInt32
 mPrintOptions
 ;

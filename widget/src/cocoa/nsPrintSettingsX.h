@@ -83,6 +83,11 @@ nsIPrintSettings
 aPS
 )
 ;
+nsresult
+InitUnwriteableMargin
+(
+)
+;
 OSStatus
 CreateDefaultPageFormat
 (
