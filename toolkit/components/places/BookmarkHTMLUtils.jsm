@@ -2340,6 +2340,11 @@ setAndFetchFaviconForPage
 aPageURI
 aIconURI
 false
+PlacesUtils
+.
+favicons
+.
+FAVICON_LOAD_NON_PRIVATE
 )
 ;
 return
@@ -2446,6 +2451,11 @@ setAndFetchFaviconForPage
 aPageURI
 faviconURI
 false
+PlacesUtils
+.
+favicons
+.
+FAVICON_LOAD_NON_PRIVATE
 )
 ;
 }

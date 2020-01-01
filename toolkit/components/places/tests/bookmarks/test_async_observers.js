@@ -423,6 +423,11 @@ rk
 )
 SMALLPNG_DATA_URI
 true
+PlacesUtils
+.
+favicons
+.
+FAVICON_LOAD_NON_PRIVATE
 )
 ;
 }

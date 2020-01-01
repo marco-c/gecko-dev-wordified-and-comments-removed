@@ -122,6 +122,11 @@ setAndFetchFaviconForPage
 pageURI
 faviconURI
 true
+PlacesUtils
+.
+favicons
+.
+FAVICON_LOAD_NON_PRIVATE
 function
 CFDC_verify
 (

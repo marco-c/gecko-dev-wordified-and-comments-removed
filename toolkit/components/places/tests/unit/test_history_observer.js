@@ -764,6 +764,11 @@ setAndFetchFaviconForPage
 testuri
 SMALLPNG_DATA_URI
 false
+PlacesUtils
+.
+favicons
+.
+FAVICON_LOAD_NON_PRIVATE
 null
 )
 ;

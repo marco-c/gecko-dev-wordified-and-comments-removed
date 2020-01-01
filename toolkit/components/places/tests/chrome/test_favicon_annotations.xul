@@ -1995,6 +1995,9 @@ testURIs
 ]
 )
 true
+fs
+.
+FAVICON_LOAD_NON_PRIVATE
 )
 ;
 /

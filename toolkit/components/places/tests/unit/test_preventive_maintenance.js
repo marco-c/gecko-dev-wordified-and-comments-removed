@@ -8541,6 +8541,11 @@ this
 _uri2
 SMALLPNG_DATA_URI
 false
+PlacesUtils
+.
+favicons
+.
+FAVICON_LOAD_NON_PRIVATE
 )
 ;
 bs

@@ -6366,6 +6366,11 @@ uri
 )
 faviconURI
 false
+this
+.
+favicons
+.
+FAVICON_LOAD_NON_PRIVATE
 )
 ;
 }
@@ -6426,6 +6431,11 @@ aData
 iconUri
 )
 false
+this
+.
+favicons
+.
+FAVICON_LOAD_NON_PRIVATE
 )
 ;
 }
