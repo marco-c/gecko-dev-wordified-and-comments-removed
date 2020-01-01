@@ -211,7 +211,7 @@ aURL
 nsNPAPIPluginInstance
 *
 aInstance
-nsIPluginStreamListener
+nsNPAPIPluginStreamListener
 *
 aListener
 )

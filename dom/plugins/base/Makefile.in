@@ -462,10 +462,6 @@ nsIPluginStreamInfo
 .
 idl
 \
-nsIPluginStreamListener
-.
-idl
-\
 nsIPluginTag
 .
 idl
