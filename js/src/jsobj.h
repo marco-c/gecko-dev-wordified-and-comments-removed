@@ -1570,8 +1570,6 @@ Value
 pthis
 )
 ;
-private
-:
 static
 const
 uint32
@@ -1579,6 +1577,8 @@ JSSLOT_ARRAY_LENGTH
 =
 JSSLOT_PRIVATE
 ;
+private
+:
 static
 const
 uint32

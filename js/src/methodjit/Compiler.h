@@ -283,6 +283,9 @@ Label
 storeBack
 ;
 Label
+typeCheck
+;
+Label
 slowPathStart
 ;
 RegisterID
@@ -290,6 +293,9 @@ shapeReg
 ;
 RegisterID
 objReg
+;
+RegisterID
+typeReg
 ;
 Label
 shapeGuard
@@ -302,6 +308,9 @@ objRemat
 ;
 Call
 callReturn
+;
+bool
+hasTypeCheck
 ;
 }
 ;
@@ -745,6 +754,11 @@ jsop_getprop
 (
 uint32
 atomIndex
+)
+;
+void
+jsop_length
+(
 )
 ;
 void
