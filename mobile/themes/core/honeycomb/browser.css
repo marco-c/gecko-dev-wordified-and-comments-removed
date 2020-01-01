@@ -6670,6 +6670,8 @@ hover
 :
 active
 >
+vbox
+>
 stack
 >
 .
@@ -6684,6 +6686,8 @@ selected
 true
 "
 ]
+>
+vbox
 >
 stack
 >
@@ -6789,6 +6793,8 @@ true
 "
 ]
 >
+vbox
+>
 stack
 >
 hbox
@@ -6879,6 +6885,8 @@ documenttab
 only
 -
 child
+>
+vbox
 >
 stack
 >
@@ -6977,6 +6985,8 @@ true
 "
 ]
 >
+vbox
+>
 stack
 >
 .
@@ -7000,6 +7010,8 @@ true
 "
 ]
 >
+vbox
+>
 stack
 >
 .
@@ -7013,6 +7025,16 @@ display
 moz
 -
 box
+;
+}
+.
+documenttab
+-
+title
+{
+display
+:
+none
 ;
 }
 #
