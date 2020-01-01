@@ -2512,11 +2512,11 @@ addResult
 new
 testResult
 (
-false
+true
 msg
 "
 "
-false
+true
 )
 )
 ;
