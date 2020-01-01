@@ -5430,8 +5430,6 @@ self
 Process
 (
 [
-this
-.
 PERL
 os
 .
