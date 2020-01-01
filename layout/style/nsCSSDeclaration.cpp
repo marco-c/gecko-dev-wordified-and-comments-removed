@@ -6224,13 +6224,13 @@ shorthand
 =
 =
 eCSSProperty_font
-&
-&
-haveSystemFont
 )
 {
 if
 (
+haveSystemFont
+&
+&
 !
 didSystemFont
 )
@@ -6304,6 +6304,9 @@ eCSSProperty__x_system_font
 |
 |
 (
+haveSystemFont
+&
+&
 val
 &
 &
