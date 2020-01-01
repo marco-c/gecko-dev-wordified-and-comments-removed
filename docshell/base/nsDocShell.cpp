@@ -32145,6 +32145,15 @@ rv
 rv
 )
 ;
+AutoRestore
+<
+PRUint32
+>
+loadTypeResetter
+(
+mLoadType
+)
+;
 mLoadType
 =
 aLoadType
