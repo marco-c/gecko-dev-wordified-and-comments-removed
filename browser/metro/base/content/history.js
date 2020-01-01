@@ -1063,14 +1063,6 @@ _toRemove
 =
 null
 ;
-this
-.
-_set
-.
-clearSelection
-(
-)
-;
 }
 break
 ;
