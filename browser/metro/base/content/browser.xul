@@ -3072,11 +3072,6 @@ tray
 -
 toolbar
 "
-visible
-=
-"
-true
-"
 observes
 =
 "
