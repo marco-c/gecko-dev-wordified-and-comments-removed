@@ -381,7 +381,7 @@ string
 message
 )
 ;
-bool
+void
 SendCompleted
 (
 bool
