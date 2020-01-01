@@ -514,6 +514,12 @@ CPPSRCS
 EventTracer
 .
 cpp
+EXPORTS
++
+=
+EventTracer
+.
+h
 endif
 DEFINES
 +
@@ -581,6 +587,7 @@ DUNICODE
 -
 D_UNICODE
 EXPORTS
++
 =
 nsWindowsDllInterceptor
 .
@@ -599,6 +606,7 @@ nsNativeAppSupportCocoa
 .
 mm
 EXPORTS
++
 =
 MacQuirks
 .
