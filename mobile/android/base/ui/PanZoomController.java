@@ -4134,6 +4134,17 @@ getMetrics
 zoomFactor
 )
 ;
+if
+(
+event
+=
+=
+null
+)
+{
+return
+;
+}
 GeckoAppShell
 .
 sendEventToGecko
