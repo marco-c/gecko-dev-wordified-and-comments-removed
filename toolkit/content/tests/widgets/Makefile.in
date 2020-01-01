@@ -587,6 +587,10 @@ tree_shared
 .
 js
 \
+test_textbox_emptytext
+.
+xul
+\
 test_textbox_number
 .
 xul
