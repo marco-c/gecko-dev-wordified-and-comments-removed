@@ -699,12 +699,17 @@ gfxContext
 h
 "
 #
+ifdef
+MOZ_MEDIA
+#
 include
 "
 nsVideoFrame
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -25228,6 +25233,9 @@ nsIContent
 aContent
 )
 {
+#
+ifdef
+MOZ_MEDIA
 nsVideoFrame
 *
 frame
@@ -25290,6 +25298,8 @@ Freeze
 ;
 }
 }
+#
+endif
 }
 PR_STATIC_CALLBACK
 (
@@ -25495,6 +25505,9 @@ nsIContent
 aContent
 )
 {
+#
+ifdef
+MOZ_MEDIA
 nsVideoFrame
 *
 frame
@@ -25557,6 +25570,8 @@ Thaw
 ;
 }
 }
+#
+endif
 }
 PR_STATIC_CALLBACK
 (
