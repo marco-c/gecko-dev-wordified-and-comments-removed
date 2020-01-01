@@ -29,7 +29,7 @@ h
 #
 include
 "
-jsutil
+jsapi
 .
 h
 "
