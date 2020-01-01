@@ -2030,7 +2030,11 @@ top
 var
 bottom
 =
-20
+TabItems
+.
+tabHeight
++
+10
 ;
 var
 width
