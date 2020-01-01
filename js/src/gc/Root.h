@@ -1368,6 +1368,7 @@ public
 :
 Rooted
 (
+MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
 )
 :
 ptr
@@ -1383,6 +1384,8 @@ initial
 )
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 init
 (
 JS
@@ -1398,6 +1401,7 @@ const
 T
 &
 initial
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 ptr
@@ -1405,6 +1409,8 @@ ptr
 initial
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 init
 (
 JS
@@ -1419,6 +1425,7 @@ Rooted
 JSRuntime
 *
 rt
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 ptr
@@ -1434,6 +1441,8 @@ initial
 )
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 init
 (
 rt
@@ -1447,6 +1456,7 @@ JSRuntime
 rt
 T
 initial
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 ptr
@@ -1454,6 +1464,8 @@ ptr
 initial
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 init
 (
 rt
@@ -1465,6 +1477,7 @@ Rooted
 JSContext
 *
 cx
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 ptr
@@ -1480,6 +1493,8 @@ initial
 )
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 init
 (
 cx
@@ -1493,6 +1508,7 @@ JSContext
 cx
 T
 initial
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 ptr
@@ -1500,6 +1516,8 @@ ptr
 initial
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 init
 (
 cx
@@ -1715,6 +1733,7 @@ endif
 T
 ptr
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 Rooted
 (
 const
