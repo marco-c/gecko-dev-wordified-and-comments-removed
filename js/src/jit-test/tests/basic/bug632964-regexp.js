@@ -74,6 +74,13 @@ Date
 (
 )
 ;
+print
+(
+end
+-
+start
+)
+;
 assertEq
 (
 match

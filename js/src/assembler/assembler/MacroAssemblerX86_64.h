@@ -137,7 +137,7 @@ convertInt32ToDouble
 void
 add32
 (
-TrustedImm32
+Imm32
 imm
 AbsoluteAddress
 address
@@ -197,7 +197,7 @@ scratchRegister
 void
 or32
 (
-TrustedImm32
+Imm32
 imm
 AbsoluteAddress
 address
@@ -227,7 +227,7 @@ scratchRegister
 void
 sub32
 (
-TrustedImm32
+Imm32
 imm
 AbsoluteAddress
 address
@@ -405,7 +405,7 @@ dest
 void
 store32
 (
-TrustedImm32
+Imm32
 imm
 void
 *
@@ -1323,7 +1323,7 @@ base
 void
 storePtr
 (
-TrustedImmPtr
+ImmPtr
 imm
 BaseIndex
 address
@@ -1475,7 +1475,7 @@ scratchRegister
 void
 storePtr
 (
-TrustedImmPtr
+ImmPtr
 imm
 ImplicitAddress
 address
@@ -2378,7 +2378,7 @@ cond
 DataLabelPtr
 moveWithPatch
 (
-TrustedImmPtr
+ImmPtr
 initialValue
 RegisterID
 dest
@@ -2478,7 +2478,7 @@ scratchRegister
 DataLabelPtr
 storePtrWithPatch
 (
-TrustedImmPtr
+ImmPtr
 initialValue
 ImplicitAddress
 address
