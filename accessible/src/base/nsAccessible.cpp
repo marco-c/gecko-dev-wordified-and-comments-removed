@@ -4341,8 +4341,12 @@ if
 content
 -
 >
-IsXUL
+IsNodeOfType
 (
+nsINode
+:
+:
+eXUL
 )
 )
 if
@@ -13803,8 +13807,12 @@ if
 content
 -
 >
-IsXUL
+IsNodeOfType
 (
+nsINode
+:
+:
+eXUL
 )
 )
 if
