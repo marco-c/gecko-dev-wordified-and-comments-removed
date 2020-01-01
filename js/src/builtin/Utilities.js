@@ -199,6 +199,15 @@ prototype
 split
 ;
 var
+std_String_startsWith
+=
+String
+.
+prototype
+.
+startsWith
+;
+var
 std_String_substring
 =
 String
