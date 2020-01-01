@@ -203,7 +203,7 @@ aMsg
 }
 /
 /
-Hacks
+Hack
 to
 make
 xul
@@ -211,17 +211,6 @@ xul
 tabbrowser
 work
 .
-var
-handleDroppedLink
-=
-null
-;
-/
-/
-needed
-for
-tabbrowser
-usage
 Components
 .
 utils
