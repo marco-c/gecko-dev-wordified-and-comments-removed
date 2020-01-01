@@ -706,7 +706,7 @@ GetAdjustedSize
 .
 0
 nsnull
-TRUE
+FALSE
 FALSE
 FALSE
 &

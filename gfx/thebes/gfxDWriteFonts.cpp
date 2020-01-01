@@ -2148,7 +2148,7 @@ GetAdjustedSize
 .
 0f
 nsnull
-TRUE
+FALSE
 &
 aGID
 1
