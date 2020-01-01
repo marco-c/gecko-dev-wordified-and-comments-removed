@@ -304,6 +304,14 @@ lir
 )
 ;
 bool
+visitMoveGroup
+(
+LMoveGroup
+*
+group
+)
+;
+bool
 visitValueToInt32
 (
 LValueToInt32

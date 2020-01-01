@@ -429,15 +429,6 @@ ins
 ;
 virtual
 bool
-visitMoveGroup
-(
-LMoveGroup
-*
-group
-)
-;
-virtual
-bool
 visitShiftI
 (
 LShiftI

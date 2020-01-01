@@ -502,15 +502,6 @@ ins
 ;
 virtual
 bool
-visitMoveGroup
-(
-LMoveGroup
-*
-group
-)
-;
-virtual
-bool
 visitTestIAndBranch
 (
 LTestIAndBranch
