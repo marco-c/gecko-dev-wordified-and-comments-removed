@@ -674,6 +674,12 @@ browser_dbg_source_maps
 .
 js
 \
+browser_dbg_source_maps
+-
+02
+.
+js
+\
 head
 .
 js
