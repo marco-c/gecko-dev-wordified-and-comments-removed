@@ -238,6 +238,10 @@ nsIDragService
 :
 DRAGDROP_ACTION_NONE
 )
+mCursorState
+(
+PR_FALSE
+)
 mReadOnly
 (
 PR_TRUE
@@ -296,6 +300,8 @@ const
 PRUint32
 aEffectAllowed
 PRBool
+aCursorState
+PRBool
 aIsExternal
 PRBool
 aUserCancelled
@@ -331,6 +337,10 @@ DRAGDROP_ACTION_NONE
 mEffectAllowed
 (
 aEffectAllowed
+)
+mCursorState
+(
+aCursorState
 )
 mReadOnly
 (
@@ -2250,6 +2260,7 @@ nsDOMDataTransfer
 (
 aEventType
 mEffectAllowed
+mCursorState
 mIsExternal
 aUserCancelled
 mItems
