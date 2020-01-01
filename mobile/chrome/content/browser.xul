@@ -3163,6 +3163,13 @@ overflow
 :
 hidden
 ;
+border
+:
+5px
+solid
+#
+FF0000
+;
 "
 flex
 =
@@ -3199,6 +3206,13 @@ hidden
 position
 :
 relative
+;
+border
+:
+5px
+solid
+#
+0000FF
 ;
 "
 onnewtab
