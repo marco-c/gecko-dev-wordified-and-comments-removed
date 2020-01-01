@@ -522,8 +522,6 @@ NS_LITERAL_CSTRING
 (
 "
 INSERT
-OR
-REPLACE
 INTO
 moz_favicons
 (
