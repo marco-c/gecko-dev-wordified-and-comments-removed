@@ -16734,8 +16734,7 @@ bool
 added
 bool
 strict
-Value
-*
+MutableHandleValue
 vp
 )
 {
@@ -16789,7 +16788,6 @@ shape
 propid
 (
 )
-*
 vp
 )
 ;
@@ -16799,7 +16797,6 @@ obj
 nativeSetSlot
 (
 slot
-*
 vp
 )
 ;
@@ -16836,10 +16833,9 @@ cx
 ;
 }
 RootedValue
-nvp
+ovp
 (
 cx
-*
 vp
 )
 ;
@@ -16866,8 +16862,7 @@ cx
 obj
 receiver
 strict
-&
-nvp
+vp
 )
 )
 return
@@ -16920,8 +16915,7 @@ shape
 propid
 (
 )
-*
-vp
+ovp
 )
 ;
 obj
@@ -16935,15 +16929,10 @@ shape
 slot
 (
 )
-nvp
+vp
 )
 ;
 }
-*
-vp
-=
-nvp
-;
 return
 true
 ;
@@ -18993,10 +18982,6 @@ shape
 added
 strict
 vp
-.
-address
-(
-)
 )
 ;
 }
