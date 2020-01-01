@@ -900,6 +900,9 @@ mSendSecureXSiteReferrer
 PRPackedBool
 mEnablePersistentHttpsCaching
 ;
+PRPackedBool
+mDoNotTrackEnabled
+;
 }
 ;
 extern
