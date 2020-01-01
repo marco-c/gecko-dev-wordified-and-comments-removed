@@ -462,6 +462,14 @@ url_worker
 .
 js
 \
+test_bug911085
+.
+html
+\
+bug911085_worker
+.
+js
+\
 (
 NULL
 )
