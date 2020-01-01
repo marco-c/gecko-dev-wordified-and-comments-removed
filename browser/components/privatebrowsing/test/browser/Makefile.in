@@ -217,6 +217,10 @@ browser_privatebrowsing_protocolhandler_page
 .
 html
 \
+browser_privatebrowsing_sidebar
+.
+js
+\
 browser_privatebrowsing_theming
 .
 js
