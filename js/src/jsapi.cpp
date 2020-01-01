@@ -21083,6 +21083,7 @@ cx
 fp
 (
 )
+ORIGIN_CLONE_FUNOBJ
 )
 ;
 if

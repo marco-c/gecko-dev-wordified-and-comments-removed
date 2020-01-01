@@ -6571,6 +6571,7 @@ GetScopeChain
 (
 cx
 fp
+ORIGIN_GET_FRAME_SCOPE_CHAIN
 )
 ;
 }
@@ -6659,6 +6660,7 @@ js_GetCallObject
 (
 cx
 fp
+ORIGIN_GET_FRAME_OBJ
 )
 ;
 }

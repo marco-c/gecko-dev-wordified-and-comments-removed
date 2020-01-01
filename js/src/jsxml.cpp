@@ -8339,6 +8339,7 @@ GetScopeChain
 (
 cx
 fp
+ORIGIN_LAME
 )
 ;
 JSObject

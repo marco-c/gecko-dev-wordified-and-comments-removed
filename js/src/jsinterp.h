@@ -2648,6 +2648,7 @@ cx
 JSStackFrame
 *
 fp
+Origins
 )
 ;
 extern
@@ -2665,6 +2666,7 @@ JSOp
 op
 size_t
 oplen
+Origins
 )
 ;
 void
@@ -2700,6 +2702,7 @@ T
 v
 )
 ;
+inline
 void
 PutActivationObjects
 (
