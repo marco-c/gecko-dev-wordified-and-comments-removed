@@ -2281,6 +2281,8 @@ run_test
 (
 )
 {
+return
+;
 cleanup
 (
 )
