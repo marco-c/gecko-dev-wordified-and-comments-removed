@@ -45,9 +45,9 @@ nsXULTabAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+nsIWeakReference
 *
-aDoc
+aShell
 )
 ;
 NS_IMETHOD
@@ -126,9 +126,9 @@ nsXULTabsAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+nsIWeakReference
 *
-aDoc
+aShell
 )
 ;
 NS_IMETHOD
@@ -181,9 +181,9 @@ nsXULTabpanelsAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+nsIWeakReference
 *
-aDoc
+aShell
 )
 ;
 virtual
@@ -213,9 +213,9 @@ nsXULTabpanelAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+nsIWeakReference
 *
-aDoc
+aShell
 )
 ;
 virtual

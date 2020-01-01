@@ -24,9 +24,9 @@ nsXULColorPickerTileAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+nsIWeakReference
 *
-aDoc
+aShell
 )
 ;
 NS_IMETHOD
@@ -78,9 +78,9 @@ nsXULColorPickerAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+nsIWeakReference
 *
-aDoc
+aShell
 )
 ;
 virtual

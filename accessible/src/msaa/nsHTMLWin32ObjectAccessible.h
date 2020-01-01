@@ -34,9 +34,9 @@ nsHTMLWin32ObjectOwnerAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+nsIWeakReference
 *
-aDoc
+aShell
 void
 *
 aHwnd

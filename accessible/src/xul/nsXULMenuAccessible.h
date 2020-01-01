@@ -45,9 +45,9 @@ nsXULMenuitemAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+nsIWeakReference
 *
-aDoc
+aShell
 )
 ;
 NS_IMETHOD
@@ -184,9 +184,9 @@ nsXULMenuSeparatorAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+nsIWeakReference
 *
-aDoc
+aShell
 )
 ;
 NS_IMETHOD
@@ -254,9 +254,9 @@ nsXULMenupopupAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+nsIWeakReference
 *
-aDoc
+aShell
 )
 ;
 virtual
@@ -330,9 +330,9 @@ nsXULMenubarAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+nsIWeakReference
 *
-aDoc
+aShell
 )
 ;
 virtual
