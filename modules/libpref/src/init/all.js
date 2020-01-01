@@ -1422,6 +1422,16 @@ false
 pref
 (
 "
+gfx
+.
+show_checkerboard_pattern
+"
+true
+)
+;
+pref
+(
+"
 browser
 .
 frames
