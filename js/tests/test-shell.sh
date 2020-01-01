@@ -1,10 +1,6 @@
 #
 !
 /
-usr
-/
-local
-/
 bin
 /
 bash
