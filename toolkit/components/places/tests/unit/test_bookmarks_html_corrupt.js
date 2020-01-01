@@ -688,9 +688,7 @@ do_check_eq
 rootNode
 .
 childCount
-DEFAULT_BOOKMARKS_ON_MENU
-+
-1
+2
 )
 ;
 var
@@ -700,7 +698,7 @@ rootNode
 .
 getChild
 (
-DEFAULT_BOOKMARKS_ON_MENU
+1
 )
 ;
 do_check_eq
