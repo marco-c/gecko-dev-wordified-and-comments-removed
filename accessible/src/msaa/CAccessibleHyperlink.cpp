@@ -396,10 +396,14 @@ uri
 ;
 if
 (
-NS_SUCCEEDED
+NS_FAILED
 (
 rv
 )
+|
+|
+!
+uri
 )
 return
 E_FAIL
@@ -419,7 +423,7 @@ prePath
 ;
 if
 (
-NS_SUCCEEDED
+NS_FAILED
 (
 rv
 )
@@ -442,7 +446,7 @@ path
 ;
 if
 (
-NS_SUCCEEDED
+NS_FAILED
 (
 rv
 )
