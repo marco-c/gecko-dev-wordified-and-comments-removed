@@ -245,6 +245,17 @@ cubeb
 context
 )
 ;
+int
+cubeb_get_max_channel_count
+(
+cubeb
+*
+context
+uint32_t
+*
+max_channels
+)
+;
 void
 cubeb_destroy
 (
