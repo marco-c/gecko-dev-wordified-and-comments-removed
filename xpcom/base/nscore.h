@@ -341,8 +341,13 @@ define
 NS_STDCALL
 __stdcall
 #
+ifndef
+_WIN64
+#
 define
 NS_HAVE_STDCALL
+#
+endif
 #
 define
 NS_FROZENCALL
