@@ -159,6 +159,10 @@ browser_styleeditor_bug_826982_location_changed
 .
 js
 \
+browser_styleeditor_bug_851132_middle_click
+.
+js
+\
 head
 .
 js

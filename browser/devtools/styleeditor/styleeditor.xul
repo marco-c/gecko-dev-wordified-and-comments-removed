@@ -1111,10 +1111,10 @@ stylesheet
 -
 name
 "
-href
+tabindex
 =
 "
-#
+0
 "
 >
 <
@@ -1209,11 +1209,6 @@ class
 stylesheet
 -
 saveButton
-"
-href
-=
-"
-#
 "
 title
 =
