@@ -12220,11 +12220,8 @@ nsISupports
 *
 mOuter
 ;
-nsCOMPtr
-<
-nsIThread
->
-mThread
+bool
+mMainThread
 ;
 }
 ;
