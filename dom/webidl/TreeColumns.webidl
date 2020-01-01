@@ -62,6 +62,9 @@ MozTreeBoxObject
 interface
 MozTreeColumn
 ;
+[
+ChromeOnly
+]
 interface
 TreeColumns
 {
