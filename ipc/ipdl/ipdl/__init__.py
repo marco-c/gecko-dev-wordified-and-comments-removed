@@ -63,10 +63,13 @@ specstring
 filename
 =
 '
-<
+/
 stdin
->
 '
+includedirs
+=
+[
+]
 )
 :
     
@@ -78,7 +81,15 @@ Parser
 parse
 (
 specstring
+os
+.
+path
+.
+abspath
+(
 filename
+)
+includedirs
 )
 def
 typecheck
