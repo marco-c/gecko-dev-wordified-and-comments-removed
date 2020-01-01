@@ -571,9 +571,17 @@ moveToFirst
 (
 )
 )
+{
+c
+.
+close
+(
+)
+;
 return
 null
 ;
+}
 String
 url
 =
