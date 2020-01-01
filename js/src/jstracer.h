@@ -3247,7 +3247,7 @@ blacklist
 ;
 }
 JS_REQUIRES_STACK
-bool
+void
 adjustCallerTypes
 (
 nanojit
@@ -3272,13 +3272,6 @@ nanojit
 Fragment
 *
 f
-nanojit
-:
-:
-Fragment
-*
-*
-empty
 )
 ;
 JS_REQUIRES_STACK
