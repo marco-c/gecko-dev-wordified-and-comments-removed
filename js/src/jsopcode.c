@@ -2776,7 +2776,10 @@ c
 ;
 JS_ReportErrorFlagsAndNumber
 (
-cx
+sp
+-
+>
+context
 JSREPORT_ERROR
 js_GetErrorMessage
 NULL
