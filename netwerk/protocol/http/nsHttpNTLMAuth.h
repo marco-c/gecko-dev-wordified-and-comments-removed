@@ -33,6 +33,11 @@ nsHttpNTLMAuth
 )
 {
 }
+private
+:
+bool
+mUseNative
+;
 }
 ;
 #
