@@ -2574,6 +2574,7 @@ OP_CALL
 OP_FWDJUMP
 OP_NEW
 OP_RECURSIVE
+OP_ARRAY_READ
 OP_TYPED_ARRAY
 OP_LIMIT
 }
@@ -2597,6 +2598,9 @@ hits
 ;
 bool
 profiled
+;
+bool
+undecided
 ;
 bool
 traceOK
@@ -2633,6 +2637,12 @@ shortLoop
 ;
 bool
 maybeShortLoop
+;
+bool
+expensive
+;
+bool
+unprofitable
 ;
 struct
 InnerLoop
@@ -2895,6 +2905,11 @@ jsbytecode
 bottom
 )
 ;
+void
+reset
+(
+)
+;
 enum
 ProfileAction
 {
@@ -2974,8 +2989,6 @@ isCompilationExpensive
 JSContext
 *
 cx
-uintN
-depth
 )
 ;
 bool
@@ -2985,7 +2998,7 @@ JSContext
 *
 cx
 uintN
-depth
+goodOps
 )
 ;
 void
@@ -8115,6 +8128,11 @@ traceData
 uintN
 *
 traceEpoch
+uint32
+*
+loopCounter
+uint32
+hits
 )
 ;
 extern
