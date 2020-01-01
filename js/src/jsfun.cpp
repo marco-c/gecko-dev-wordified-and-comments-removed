@@ -12765,6 +12765,12 @@ localKind
 =
 =
 JSLOCAL_ARG
+&
+&
+localKind
+=
+=
+JSLOCAL_ARG
 )
 ;
 dup
