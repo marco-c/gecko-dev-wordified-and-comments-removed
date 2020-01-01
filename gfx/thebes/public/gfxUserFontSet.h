@@ -81,6 +81,12 @@ nsIURI
 >
 mURI
 ;
+nsCOMPtr
+<
+nsIURI
+>
+mReferrer
+;
 PRUint32
 mFormatFlags
 ;
@@ -398,7 +404,7 @@ class
 LoaderContext
 ;
 typedef
-PRBool
+nsresult
 (
 *
 LoaderCallback
@@ -410,6 +416,9 @@ aFontToLoad
 nsIURI
 *
 aSrcURL
+nsIURI
+*
+aReferrerURI
 LoaderContext
 *
 aContextData
