@@ -252,7 +252,6 @@ ExecutableAllocator
 enum
 CodeKind
 {
-JAEGER_CODE
 ION_CODE
 BASELINE_CODE
 REGEXP_CODE
@@ -307,9 +306,6 @@ m_allocation
 ;
 unsigned
 m_refCount
-;
-size_t
-m_jaegerCodeBytes
 ;
 size_t
 m_ionCodeBytes
@@ -401,10 +397,6 @@ m_refCount
 (
 1
 )
-m_jaegerCodeBytes
-(
-0
-)
 m_ionCodeBytes
 (
 0
@@ -493,16 +485,6 @@ switch
 kind
 )
 {
-case
-JAEGER_CODE
-:
-m_jaegerCodeBytes
-+
-=
-n
-;
-break
-;
 case
 ION_CODE
 :

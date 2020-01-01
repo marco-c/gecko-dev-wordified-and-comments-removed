@@ -331,9 +331,6 @@ struct
 CodeSizes
 {
 size_t
-jaeger
-;
-size_t
 ion
 ;
 size_t
@@ -822,10 +819,6 @@ scriptData
 (
 0
 )
-jaegerData
-(
-0
-)
 baselineData
 (
 0
@@ -973,12 +966,6 @@ other
 .
 scriptData
 )
-jaegerData
-(
-other
-.
-jaegerData
-)
 baselineData
 (
 other
@@ -1086,9 +1073,6 @@ shapesCompartmentTables
 ;
 size_t
 scriptData
-;
-size_t
-jaegerData
 ;
 size_t
 baselineData
@@ -1222,11 +1206,6 @@ shapesCompartmentTables
 ADD
 (
 scriptData
-)
-;
-ADD
-(
-jaegerData
 )
 ;
 ADD
