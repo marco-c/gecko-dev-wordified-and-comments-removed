@@ -149,6 +149,9 @@ mVariations
 nsString
 mName
 ;
+PRPackedBool
+mIsBadUnderlineFont
+;
 private
 :
 PRBool

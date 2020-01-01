@@ -923,6 +923,16 @@ k
 }
 }
 }
+fe
+-
+>
+mIsBadUnderlineFont
+=
+ff
+-
+>
+mIsBadUnderlineFont
+;
 logFont
 .
 lfCharSet
