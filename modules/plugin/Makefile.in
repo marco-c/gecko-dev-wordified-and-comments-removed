@@ -434,6 +434,8 @@ gtk2
 TOOL_DIRS
 +
 =
+sdk
+/
 samples
 /
 unixprinting
