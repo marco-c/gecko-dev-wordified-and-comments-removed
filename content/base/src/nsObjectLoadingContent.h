@@ -440,6 +440,12 @@ PR_BIT
 (
 1
 )
+eParamContentTypeChanged
+=
+PR_BIT
+(
+2
+)
 }
 ;
 void
