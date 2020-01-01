@@ -6941,9 +6941,9 @@ runtime
 -
 >
 gcIncrementalState
+!
 =
-=
-MARK
+NO_INCREMENTAL
 &
 &
 cx
@@ -7710,9 +7710,9 @@ runtime
 -
 >
 gcIncrementalState
+!
 =
-=
-MARK
+NO_INCREMENTAL
 &
 &
 xdr
@@ -8109,9 +8109,9 @@ rt
 -
 >
 gcIncrementalState
+!
 =
-=
-MARK
+NO_INCREMENTAL
 &
 &
 rt
