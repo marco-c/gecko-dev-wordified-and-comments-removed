@@ -167,7 +167,7 @@ open
 (
 path
 '
-w
+wb
 '
 )
 )

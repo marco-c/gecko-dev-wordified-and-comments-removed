@@ -91,6 +91,14 @@ Includes
 (
     
 '
+base
+/
+basictypes
+.
+h
+'
+    
+'
 nscore
 .
 h
