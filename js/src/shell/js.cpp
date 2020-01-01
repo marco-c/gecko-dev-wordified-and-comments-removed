@@ -4183,7 +4183,7 @@ case
 d
 '
 :
-JS_SetDebugMode
+js_SetDebugMode
 (
 cx
 JS_TRUE
@@ -7914,7 +7914,7 @@ return
 JS_FALSE
 ;
 }
-JS_SetDebugMode
+js_SetDebugMode
 (
 cx
 JSVAL_TO_BOOLEAN
