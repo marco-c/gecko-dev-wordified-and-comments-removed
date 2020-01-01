@@ -230,6 +230,10 @@ HTMLModElement
 .
 h
 \
+HTMLObjectElement
+.
+h
+\
 HTMLOptionElement
 .
 h
