@@ -597,6 +597,16 @@ startup
 )
 ;
 "
+onunload
+=
+"
+Browser
+.
+shutdown
+(
+)
+;
+"
 windowtype
 =
 "
