@@ -49,9 +49,6 @@ nsScriptErrorEvent
 class
 nsIScriptGlobalObject
 ;
-enum
-nsEventStatus
-;
 struct
 JSObject
 ;
