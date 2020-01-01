@@ -153,6 +153,10 @@ test_bug875402
 .
 html
 \
+test_bug894150
+.
+html
+\
 test_analyserNode
 .
 html
