@@ -2286,8 +2286,10 @@ case
 LAYERS_D3D9
 :
 {
+nsRefPtr
+<
 LayerManagerD3D9
-*
+>
 layerManagerD3D9
 =
 static_cast
@@ -2592,6 +2594,12 @@ endif
 mPainting
 =
 false
+;
+listener
+=
+GetPaintListener
+(
+)
 ;
 if
 (
