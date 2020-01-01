@@ -2258,6 +2258,15 @@ mh
 cygwin
 -
 msvc
+-
+o
+icu_cv_host_frag
+=
+mh
+-
+msys
+-
+msvc
 then
 AC_COMPILE_IFELSE
 (
