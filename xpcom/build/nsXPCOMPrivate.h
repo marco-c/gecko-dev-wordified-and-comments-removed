@@ -1293,6 +1293,10 @@ extern
 bool
 gXPCOMShuttingDown
 ;
+extern
+bool
+gXPCOMThreadsShutDown
+;
 namespace
 mozilla
 {

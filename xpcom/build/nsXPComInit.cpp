@@ -1059,6 +1059,11 @@ gXPCOMShuttingDown
 =
 false
 ;
+bool
+gXPCOMThreadsShutDown
+=
+false
+;
 static
 NS_DEFINE_CID
 (
@@ -2530,6 +2535,10 @@ nullptr
 NS_XPCOM_SHUTDOWN_THREADS_OBSERVER_ID
 nullptr
 )
+;
+gXPCOMThreadsShutDown
+=
+true
 ;
 nsCycleCollector_shutdownThreads
 (
