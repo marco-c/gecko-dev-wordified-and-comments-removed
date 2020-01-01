@@ -9944,6 +9944,13 @@ IsEmpty
 PRBool
 repaint
 =
+PR_FALSE
+;
+#
+ifndef
+NP_NO_QUICKDRAW
+repaint
+=
 child
 -
 >
@@ -9965,6 +9972,8 @@ pluginDrawingModel
 =
 NPDrawingModelQuickDraw
 ;
+#
+endif
 child
 -
 >
