@@ -7190,9 +7190,6 @@ internal
 prepare
 -
 package
-(
-PACKAGE_XULRUNNER
-)
 make
 -
 sourcestamp
