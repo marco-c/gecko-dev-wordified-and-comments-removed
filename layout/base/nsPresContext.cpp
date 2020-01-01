@@ -6166,11 +6166,13 @@ PRBool
 nsPresContext
 :
 :
-HasAuthorSpecifiedBorderOrBackground
+HasAuthorSpecifiedRules
 (
 nsIFrame
 *
 aFrame
+PRUint32
+ruleTypeMask
 )
 const
 {
@@ -6178,7 +6180,7 @@ return
 nsRuleNode
 :
 :
-HasAuthorSpecifiedBorderOrBackground
+HasAuthorSpecifiedRules
 (
 aFrame
 -
@@ -6186,6 +6188,7 @@ aFrame
 GetStyleContext
 (
 )
+ruleTypeMask
 )
 ;
 }
