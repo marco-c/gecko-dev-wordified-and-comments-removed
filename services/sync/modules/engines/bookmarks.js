@@ -5777,7 +5777,7 @@ BMT__upScore
 {
 this
 .
-_score
+score
 +
 =
 10

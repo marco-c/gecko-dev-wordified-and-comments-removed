@@ -1018,7 +1018,7 @@ _logName
 ;
 this
 .
-_score
+score
 =
 0
 ;
@@ -1097,7 +1097,7 @@ isSession
 {
 this
 .
-_score
+score
 +
 =
 10

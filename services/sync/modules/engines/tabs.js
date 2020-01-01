@@ -2225,10 +2225,10 @@ timeStamp
 ;
 this
 .
-_score
+score
 +
 =
-50
+1
 ;
 }
 onTabClosed
@@ -2241,10 +2241,10 @@ event
 {
 this
 .
-_score
+score
 +
 =
-10
+1
 ;
 }
 onTabSelected
@@ -2282,10 +2282,10 @@ timeStamp
 ;
 this
 .
-_score
+score
 +
 =
-10
+1
 ;
 }
 get
@@ -2303,7 +2303,7 @@ if
 (
 this
 .
-_score
+score
 >
 0
 )

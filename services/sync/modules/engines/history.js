@@ -1651,7 +1651,7 @@ BMT__upScore
 {
 this
 .
-_score
+score
 +
 =
 1
@@ -1754,10 +1754,10 @@ onClearHistory
 ;
 this
 .
-_score
+score
 +
 =
-50
+500
 ;
 }
 }

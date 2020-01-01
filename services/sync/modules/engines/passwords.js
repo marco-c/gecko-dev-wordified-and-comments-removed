@@ -1276,7 +1276,7 @@ nsILoginMetaInfo
 ;
 this
 .
-_score
+score
 +
 =
 15
@@ -1325,10 +1325,10 @@ aData
 ;
 this
 .
-_score
+score
 +
 =
-50
+500
 ;
 break
 ;
