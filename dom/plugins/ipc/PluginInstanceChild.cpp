@@ -240,6 +240,13 @@ plugins
 ;
 using
 namespace
+mozilla
+:
+:
+layers
+;
+using
+namespace
 std
 ;
 #

@@ -82,13 +82,6 @@ ImageContainer
 ;
 }
 }
-using
-namespace
-mozilla
-:
-:
-layers
-;
 namespace
 mozilla
 {
@@ -336,6 +329,12 @@ GetImageContainer
 (
 NPP
 instance
+mozilla
+:
+:
+layers
+:
+:
 ImageContainer
 *
 *

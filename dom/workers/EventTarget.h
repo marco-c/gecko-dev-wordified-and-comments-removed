@@ -54,13 +54,6 @@ ErrorResult
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-dom
-;
 BEGIN_WORKERS_NAMESPACE
 class
 EventTarget

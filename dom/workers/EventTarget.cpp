@@ -12,6 +12,13 @@ mozilla
 :
 ErrorResult
 ;
+using
+namespace
+mozilla
+:
+:
+dom
+;
 void
 EventTarget
 :
