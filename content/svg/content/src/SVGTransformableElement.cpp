@@ -124,10 +124,6 @@ DO_ALLOCATE
 )
 this
 )
-.
-get
-(
-)
 ;
 }
 NS_IMETHODIMP_

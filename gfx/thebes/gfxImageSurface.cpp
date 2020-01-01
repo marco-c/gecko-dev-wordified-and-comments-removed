@@ -1248,10 +1248,6 @@ image
 forget
 (
 )
-.
-get
-(
-)
 ;
 }
 gfxSubimageSurface

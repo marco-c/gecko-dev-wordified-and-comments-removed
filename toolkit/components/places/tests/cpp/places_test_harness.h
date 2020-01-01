@@ -905,8 +905,10 @@ do_check_true
 database
 )
 ;
+nsCOMPtr
+<
 mozIStorageConnection
-*
+>
 dbConn
 ;
 nsresult
@@ -917,8 +919,10 @@ database
 >
 GetDBConnection
 (
-&
+getter_AddRefs
+(
 dbConn
+)
 )
 ;
 do_check_success
@@ -928,6 +932,10 @@ rv
 ;
 return
 dbConn
+.
+forget
+(
+)
 ;
 }
 void

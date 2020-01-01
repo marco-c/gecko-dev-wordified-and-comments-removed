@@ -2408,10 +2408,6 @@ imageSurface
 forget
 (
 )
-.
-get
-(
-)
 ;
 }
 already_AddRefed

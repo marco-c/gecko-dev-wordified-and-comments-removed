@@ -16931,9 +16931,11 @@ StyleSet
 (
 )
 ;
+nsRefPtr
+<
 nsStyleContext
-*
-aScrolledChildStyle
+>
+scrolledChildStyle
 =
 styleSet
 -
@@ -16942,10 +16944,6 @@ ResolveAnonymousBoxStyle
 (
 aScrolledPseudo
 contentStyle
-)
-.
-get
-(
 )
 ;
 if
@@ -16964,7 +16962,11 @@ anonymousItems
 ;
 }
 return
-aScrolledChildStyle
+scrolledChildStyle
+.
+forget
+(
+)
 ;
 }
 void

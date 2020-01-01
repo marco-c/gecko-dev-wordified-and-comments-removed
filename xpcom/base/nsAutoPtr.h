@@ -3430,7 +3430,13 @@ temp
 )
 ;
 return
+already_AddRefed
+<
+T
+>
+(
 temp
+)
 ;
 }
 template
