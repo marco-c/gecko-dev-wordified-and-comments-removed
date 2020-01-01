@@ -697,10 +697,10 @@ BUILDSTYLE
 (
 PBBUILD_ARG
 )
-echo
--
-n
+printf
+"
 NSPLMOSS
+"
 >
 "
 (
