@@ -5016,7 +5016,7 @@ ctor
 )
 {
 return
-NULL
+false
 ;
 }
 JSObject
@@ -5038,7 +5038,7 @@ if
 prototype
 )
 return
-NULL
+false
 ;
 if
 (
@@ -5060,7 +5060,7 @@ sCDataFinalizerFunctions
 )
 )
 return
-NULL
+false
 ;
 if
 (
@@ -5086,7 +5086,7 @@ JSPROP_PERMANENT
 )
 )
 return
-NULL
+false
 ;
 if
 (
@@ -5112,7 +5112,7 @@ JSPROP_PERMANENT
 )
 )
 return
-NULL
+false
 ;
 return
 JS_FreezeObject
