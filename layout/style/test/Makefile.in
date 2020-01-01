@@ -448,6 +448,10 @@ test_bug798567
 .
 html
 \
+test_bug798843_pref
+.
+html
+\
 test_cascade
 .
 html
