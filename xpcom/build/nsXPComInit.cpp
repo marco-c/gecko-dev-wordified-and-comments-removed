@@ -2577,10 +2577,6 @@ nsDirectoryService
 gService
 )
 ;
-nsCycleCollector_shutdown
-(
-)
-;
 SAMPLE_MARKER
 (
 "
@@ -2593,6 +2589,10 @@ mozilla
 :
 :
 PoisonWrite
+(
+)
+;
+nsCycleCollector_shutdown
 (
 )
 ;
