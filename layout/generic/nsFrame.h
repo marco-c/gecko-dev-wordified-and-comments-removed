@@ -1734,10 +1734,11 @@ nsDisplayListSet
 aLists
 bool
 aForceBackground
-nsDisplayBackgroundImage
+bool
 *
-*
-aBackground
+aAppendedThemedBackground
+=
+nullptr
 )
 ;
 void

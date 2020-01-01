@@ -5497,10 +5497,9 @@ aFrame
 nsDisplayList
 *
 aList
-nsDisplayBackgroundImage
+bool
 *
-*
-aBackground
+aAppendedThemedBackground
 =
 nullptr
 )
