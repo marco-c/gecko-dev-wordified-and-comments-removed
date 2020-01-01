@@ -1031,8 +1031,6 @@ itemSize
 FLOAT
 scaleFactor
 =
-GetDeviceCaps
-(
 gfxWindowsPlatform
 :
 :
@@ -1041,15 +1039,9 @@ GetPlatform
 )
 -
 >
-GetScreenDC
+GetDPIScale
 (
 )
-LOGPIXELSY
-)
-/
-96
-.
-0
 ;
 int
 iconDevicePixels
