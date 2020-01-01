@@ -606,6 +606,16 @@ aCallbackData
 =
 0
 ;
+virtual
+bool
+DoEmptyTransaction
+(
+)
+{
+return
+false
+;
+}
 PRBool
 IsSnappingEffectiveTransforms
 (
