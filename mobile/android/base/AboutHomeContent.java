@@ -1019,6 +1019,13 @@ Configuration
 newConfig
 )
 {
+if
+(
+mTopSitesGrid
+!
+=
+null
+)
 mTopSitesGrid
 .
 setNumColumns
@@ -1028,6 +1035,13 @@ getNumberOfColumns
 )
 )
 ;
+if
+(
+mTopSitesAdapter
+!
+=
+null
+)
 mTopSitesAdapter
 .
 notifyDataSetChanged
