@@ -413,17 +413,18 @@ MODULE
 plugin
 DIRS
 =
+\
 base
 /
 public
-ifdef
-MOZ_PLUGINS
-DIRS
-+
-=
+\
 base
 /
 src
+\
+(
+NULL
+)
 #
 These
 subdirs
@@ -468,9 +469,6 @@ DIRS
 test
 endif
 endif
-endif
-#
-MOZ_PLUGINS
 include
 (
 topsrcdir
@@ -481,8 +479,6 @@ config
 rules
 .
 mk
-ifdef
-MOZ_PLUGINS
 (
 DIST
 )
@@ -506,4 +502,3 @@ DIST
 bin
 /
 plugins
-endif

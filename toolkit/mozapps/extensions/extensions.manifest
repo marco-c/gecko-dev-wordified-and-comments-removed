@@ -212,9 +212,6 @@ listener
 -
 9b694de1d04a
 }
-#
-ifdef
-MOZ_PLUGINS
 category
 addon
 -
@@ -233,5 +230,3 @@ modules
 PluginProvider
 .
 jsm
-#
-endif

@@ -1470,8 +1470,6 @@ tar
 xf
 -
 )
-ifdef
-MOZ_PLUGINS
 (
 cd
 (
@@ -1507,4 +1505,3 @@ tar
 xf
 -
 )
-endif
