@@ -177,7 +177,7 @@ locale
 accWrap
 -
 >
-Language
+GetLanguage
 (
 locale
 )

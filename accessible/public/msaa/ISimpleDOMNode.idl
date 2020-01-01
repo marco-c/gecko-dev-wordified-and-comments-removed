@@ -2882,8 +2882,8 @@ casts
 to
 an
 XPCOM
-nsAccessNode
-object
+nsIAccessNode
+interface
 pointer
 "
 )
