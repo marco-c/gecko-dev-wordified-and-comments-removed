@@ -86,9 +86,6 @@ config
 autoconf
 .
 mk
-XPCSHELL_TESTS
-=
-unit
 include
 (
 topsrcdir
