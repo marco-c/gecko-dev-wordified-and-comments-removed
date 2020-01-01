@@ -324,6 +324,11 @@ JSObject
 aObject
 )
 ;
+void
+TeardownProtoChain
+(
+)
+;
 bool
 DoNewResolve
 (

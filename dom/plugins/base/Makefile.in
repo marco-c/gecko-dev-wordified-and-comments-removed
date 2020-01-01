@@ -148,6 +148,10 @@ nsPluginHost
 .
 h
 \
+nsJSNPRuntime
+.
+h
+\
 nsPluginInstanceOwner
 .
 h
