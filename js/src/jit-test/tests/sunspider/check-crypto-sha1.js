@@ -1480,6 +1480,14 @@ plainText
 plainText
 ;
 }
+if
+(
+relaxRootChecks
+)
+relaxRootChecks
+(
+)
+;
 var
 sha1Output
 =

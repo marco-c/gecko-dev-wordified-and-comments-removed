@@ -3855,6 +3855,14 @@ front
 value
 }
 ;
+AutoValueArray
+root
+(
+cx
+pair
+2
+)
+;
 JSObject
 *
 pairobj
@@ -4618,10 +4626,10 @@ next
 )
 )
 {
-JSObject
-*
+RootedObject
 pairobj
-=
+(
+cx
 js_ValueToNonNullObject
 (
 cx
@@ -4629,6 +4637,7 @@ iter
 .
 value
 (
+)
 )
 )
 ;
