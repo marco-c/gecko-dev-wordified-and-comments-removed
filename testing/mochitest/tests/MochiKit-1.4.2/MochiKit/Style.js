@@ -2945,8 +2945,6 @@ tableCell
 if
 (
 /
-Gecko
-|
 Opera
 /
 .
