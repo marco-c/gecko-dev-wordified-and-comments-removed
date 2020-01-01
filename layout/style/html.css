@@ -3297,8 +3297,10 @@ important
 frame
 {
 border
+-
+radius
 :
-none
+0
 !
 important
 ;
