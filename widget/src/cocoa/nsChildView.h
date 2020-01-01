@@ -553,7 +553,7 @@ nsIWidget
 *
 aParent
 const
-nsIntRect
+nsRect
 &
 aRect
 EVENT_CALLBACK
@@ -584,7 +584,7 @@ Create
 nsNativeWidget
 aNativeParent
 const
-nsIntRect
+nsRect
 &
 aRect
 EVENT_CALLBACK
@@ -617,7 +617,7 @@ nsIWidget
 *
 aParent
 const
-nsIntRect
+nsRect
 &
 aRect
 EVENT_CALLBACK
@@ -755,7 +755,7 @@ NS_IMETHOD
 SetBounds
 (
 const
-nsIntRect
+nsRect
 &
 aRect
 )
@@ -763,7 +763,7 @@ aRect
 NS_IMETHOD
 GetBounds
 (
-nsIntRect
+nsRect
 &
 aRect
 )
@@ -779,7 +779,7 @@ NS_IMETHOD
 Invalidate
 (
 const
-nsIntRect
+nsRect
 &
 aRect
 PRBool
@@ -826,7 +826,7 @@ PRInt32
 aDx
 PRInt32
 aDy
-nsIntRect
+nsRect
 *
 aClipRect
 )
@@ -835,10 +835,10 @@ NS_IMETHOD
 WidgetToScreen
 (
 const
-nsIntRect
+nsRect
 &
 aOldRect
-nsIntRect
+nsRect
 &
 aNewRect
 )
@@ -847,10 +847,10 @@ NS_IMETHOD
 ScreenToWidget
 (
 const
-nsIntRect
+nsRect
 &
 aOldRect
-nsIntRect
+nsRect
 &
 aNewRect
 )
@@ -922,7 +922,7 @@ aY
 void
 LocalToWindowCoordinate
 (
-nsIntPoint
+nsPoint
 &
 aPoint
 )
@@ -959,7 +959,7 @@ aY
 void
 LocalToWindowCoordinate
 (
-nsIntRect
+nsRect
 &
 aRect
 )

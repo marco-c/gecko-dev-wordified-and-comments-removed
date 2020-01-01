@@ -515,9 +515,9 @@ PRInt32
 outHeight
 )
 {
-nsIntRect
+nsRect
 r
-(
+=
 nsCocoaUtils
 :
 :
@@ -527,7 +527,6 @@ CocoaRectToGeckoRect
 mScreen
 frame
 ]
-)
 )
 ;
 *
@@ -582,9 +581,9 @@ PRInt32
 outHeight
 )
 {
-nsIntRect
+nsRect
 r
-(
+=
 nsCocoaUtils
 :
 :
@@ -594,7 +593,6 @@ CocoaRectToGeckoRect
 mScreen
 visibleFrame
 ]
-)
 )
 ;
 *

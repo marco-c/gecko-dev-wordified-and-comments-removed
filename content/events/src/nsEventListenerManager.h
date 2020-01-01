@@ -525,7 +525,7 @@ aEventWidget
 nsIPresShell
 *
 aShell
-nsIntPoint
+nsPoint
 &
 aTargetPt
 )
@@ -542,7 +542,7 @@ aPresContext
 nsIPresShell
 *
 aPresShell
-nsIntPoint
+nsPoint
 &
 aTargetPt
 )

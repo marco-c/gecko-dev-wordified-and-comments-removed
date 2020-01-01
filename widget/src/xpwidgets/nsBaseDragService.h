@@ -126,7 +126,7 @@ PRInt32
 aScreenX
 PRInt32
 aScreenY
-nsIntRect
+nsRect
 *
 aScreenDragRect
 gfxASurface
@@ -155,7 +155,7 @@ PRInt32
 aScreenX
 PRInt32
 aScreenY
-nsIntRect
+nsRect
 *
 aScreenDragRect
 gfxASurface

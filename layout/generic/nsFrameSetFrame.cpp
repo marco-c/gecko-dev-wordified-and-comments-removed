@@ -3387,7 +3387,7 @@ aIndexInParent
 nsSize
 &
 aSize
-nsIntPoint
+nsPoint
 &
 aCellIndex
 )
@@ -3467,8 +3467,6 @@ aSize
 .
 height
 =
-0
-;
 aCellIndex
 .
 x
@@ -3532,7 +3530,7 @@ aChild
 child
 )
 {
-nsIntPoint
+nsPoint
 ignore
 ;
 GetSizeOfChildAt
@@ -3915,7 +3913,7 @@ aOffset
 nsSize
 &
 aSize
-nsIntPoint
+nsPoint
 *
 aCellIndex
 )
@@ -4934,7 +4932,7 @@ childX
 +
 )
 {
-nsIntPoint
+nsPoint
 cellIndex
 ;
 GetSizeOfChildAt

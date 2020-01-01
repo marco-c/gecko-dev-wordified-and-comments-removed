@@ -656,7 +656,7 @@ Create
 nsNativeWidget
 aParent
 const
-nsIntRect
+nsRect
 &
 aRect
 EVENT_CALLBACK
@@ -688,7 +688,7 @@ nsIWidget
 *
 aParent
 const
-nsIntRect
+nsRect
 &
 aRect
 EVENT_CALLBACK
@@ -726,7 +726,7 @@ nsIWidget
 *
 aParent
 const
-nsIntRect
+nsRect
 &
 aRect
 EVENT_CALLBACK
@@ -837,10 +837,10 @@ NS_IMETHOD
 WidgetToScreen
 (
 const
-nsIntRect
+nsRect
 &
 aOldRect
-nsIntRect
+nsRect
 &
 aNewRect
 )
@@ -849,10 +849,10 @@ NS_IMETHOD
 ScreenToWidget
 (
 const
-nsIntRect
+nsRect
 &
 aOldRect
-nsIntRect
+nsRect
 &
 aNewRect
 )
@@ -936,7 +936,7 @@ aRepaint
 NS_IMETHOD
 GetScreenBounds
 (
-nsIntRect
+nsRect
 &
 aRect
 )
@@ -973,7 +973,7 @@ NS_IMETHOD
 Invalidate
 (
 const
-nsIntRect
+nsRect
 &
 aRect
 PRBool
@@ -999,7 +999,7 @@ PRInt32
 aDx
 PRInt32
 aDy
-nsIntRect
+nsRect
 *
 alCipRect
 )

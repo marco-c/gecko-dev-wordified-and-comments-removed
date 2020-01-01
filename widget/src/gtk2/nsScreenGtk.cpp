@@ -255,7 +255,7 @@ mAvailRect
 =
 mRect
 =
-nsIntRect
+nsRect
 (
 0
 0
@@ -417,7 +417,7 @@ i
 4
 )
 {
-nsIntRect
+nsRect
 workarea
 (
 workareas
@@ -498,7 +498,7 @@ XineramaScreenInfo
 aScreenInfo
 )
 {
-nsIntRect
+nsRect
 xineRect
 (
 aScreenInfo

@@ -10574,7 +10574,7 @@ SetEndPageRange
 endPageNum
 )
 ;
-nsIntMargin
+nsMargin
 marginTwips
 (
 0
@@ -10583,7 +10583,7 @@ marginTwips
 0
 )
 ;
-nsIntMargin
+nsMargin
 unwrtMarginTwips
 (
 0

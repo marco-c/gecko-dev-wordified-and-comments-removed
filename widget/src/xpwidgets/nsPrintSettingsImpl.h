@@ -141,13 +141,13 @@ aJust
 nsWeakPtr
 mSession
 ;
-nsIntMargin
+nsMargin
 mMargin
 ;
-nsIntMargin
+nsMargin
 mEdge
 ;
-nsIntMargin
+nsMargin
 mUnwriteableMargin
 ;
 PRInt32

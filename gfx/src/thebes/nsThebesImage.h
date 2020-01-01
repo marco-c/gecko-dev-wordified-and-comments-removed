@@ -170,7 +170,7 @@ nsIDeviceContext
 aContext
 PRUint8
 aFlags
-nsIntRect
+nsRect
 *
 aUpdateRect
 )
@@ -562,7 +562,7 @@ mHeight
 PRInt32
 mStride
 ;
-nsIntRect
+nsRect
 mDecoded
 ;
 PRPackedBool

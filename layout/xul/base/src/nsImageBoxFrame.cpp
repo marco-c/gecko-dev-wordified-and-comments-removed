@@ -2187,7 +2187,7 @@ container
 gfxIImageFrame
 *
 newframe
-nsIntRect
+nsRect
 *
 dirtyRect
 )
@@ -2350,7 +2350,7 @@ container
 gfxIImageFrame
 *
 newframe
-nsIntRect
+nsRect
 *
 dirtyRect
 )
