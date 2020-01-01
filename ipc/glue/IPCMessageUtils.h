@@ -239,7 +239,7 @@ template
 typename
 E
 E
-lowBound
+smallestLegal
 E
 highBound
 >
@@ -261,7 +261,7 @@ aValue
 )
 {
 return
-lowBound
+smallestLegal
 <
 =
 aValue
