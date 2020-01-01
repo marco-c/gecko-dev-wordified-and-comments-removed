@@ -273,12 +273,12 @@ ImmWord
 (
 fun
 )
-ReturnReg
+CallReg
 )
 ;
 call
 (
-ReturnReg
+CallReg
 )
 ;
 freeStack
