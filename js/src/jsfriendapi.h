@@ -4925,7 +4925,7 @@ JSObject
 obj
 JSContext
 *
-cx
+maybecx
 )
 ;
 extern
@@ -4940,7 +4940,7 @@ JSObject
 obj
 JSContext
 *
-cx
+maybecx
 )
 ;
 extern
@@ -4955,7 +4955,7 @@ JSObject
 obj
 JSContext
 *
-cx
+maybecx
 )
 ;
 extern
@@ -4971,7 +4971,7 @@ JSObject
 obj
 JSContext
 *
-cx
+maybecx
 )
 ;
 extern
@@ -5062,7 +5062,7 @@ JSObject
 obj
 JSContext
 *
-cx
+maybecx
 )
 ;
 extern
@@ -5078,7 +5078,7 @@ JSObject
 obj
 JSContext
 *
-cx
+maybecx
 )
 ;
 extern
@@ -5094,7 +5094,7 @@ JSObject
 obj
 JSContext
 *
-cx
+maybecx
 )
 ;
 extern
@@ -5110,7 +5110,7 @@ JSObject
 obj
 JSContext
 *
-cx
+maybecx
 )
 ;
 extern
@@ -5126,7 +5126,7 @@ JSObject
 obj
 JSContext
 *
-cx
+maybecx
 )
 ;
 extern
@@ -5142,7 +5142,7 @@ JSObject
 obj
 JSContext
 *
-cx
+maybecx
 )
 ;
 extern
@@ -5158,7 +5158,7 @@ JSObject
 obj
 JSContext
 *
-cx
+maybecx
 )
 ;
 extern
@@ -5174,7 +5174,7 @@ JSObject
 obj
 JSContext
 *
-cx
+maybecx
 )
 ;
 extern
@@ -5190,7 +5190,7 @@ JSObject
 obj
 JSContext
 *
-cx
+maybecx
 )
 ;
 extern
@@ -5206,7 +5206,7 @@ JSObject
 obj
 JSContext
 *
-cx
+maybecx
 )
 ;
 JS_FRIEND_API
@@ -5237,7 +5237,7 @@ JSObject
 obj
 JSContext
 *
-cx
+maybecx
 )
 ;
 JS_FRIEND_API
@@ -5251,7 +5251,7 @@ JSObject
 obj
 JSContext
 *
-cx
+maybecx
 )
 ;
 JS_FRIEND_API
@@ -5266,7 +5266,7 @@ JSObject
 obj
 JSContext
 *
-cx
+maybecx
 )
 ;
 #
