@@ -474,6 +474,15 @@ kCache32Bits
 )
 -
 1
+kCache32ClampLower
+=
+-
+1
+kCache32ClampUpper
+=
+kCache32Count
+*
+2
 }
 ;
 protected
