@@ -4121,10 +4121,6 @@ dtoaState
 (
 NULL
 )
-pendingProxyOperation
-(
-NULL
-)
 trustedPrincipals_
 (
 NULL

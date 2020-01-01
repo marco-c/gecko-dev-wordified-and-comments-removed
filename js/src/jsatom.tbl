@@ -423,6 +423,13 @@ prototype
 )
 DEFINE_ATOM
 (
+construct
+"
+construct
+"
+)
+DEFINE_ATOM
+(
 columnNumber
 "
 columnNumber
@@ -433,6 +440,13 @@ DEFINE_ATOM
 constructor
 "
 constructor
+"
+)
+DEFINE_ATOM
+(
+deleteProperty
+"
+deleteProperty
 "
 )
 DEFINE_ATOM

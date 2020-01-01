@@ -660,6 +660,11 @@ true
 )
 ;
 void
+complete
+(
+)
+;
+void
 initFromPropertyDescriptor
 (
 const
