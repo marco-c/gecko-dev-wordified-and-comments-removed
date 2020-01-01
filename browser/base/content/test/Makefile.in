@@ -629,6 +629,10 @@ bug386835
 .
 html
 \
+browser_bug422590
+.
+js
+\
 (
 NULL
 )

@@ -17155,8 +17155,14 @@ sheetWidth
 0
 )
 ;
+return
+sheetFrame
+.
+contentWindow
+;
 #
 else
+return
 window
 .
 openDialog
