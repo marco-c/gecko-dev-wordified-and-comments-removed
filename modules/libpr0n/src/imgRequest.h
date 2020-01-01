@@ -119,6 +119,13 @@ h
 #
 include
 "
+imgStatusTracker
+.
+h
+"
+#
+include
+"
 nsIAsyncVerifyRedirectCallback
 .
 h
@@ -481,6 +488,12 @@ nsCOMPtr
 nsIPrincipal
 >
 mPrincipal
+;
+nsAutoPtr
+<
+imgStatusTracker
+>
+mStatusTracker
 ;
 nsRefPtr
 <

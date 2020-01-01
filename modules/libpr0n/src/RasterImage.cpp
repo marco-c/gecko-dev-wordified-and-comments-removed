@@ -393,8 +393,15 @@ RasterImage
 :
 RasterImage
 (
+imgStatusTracker
+*
+aStatusTracker
 )
 :
+Image
+(
+aStatusTracker
+)
 mSize
 (
 0
@@ -1098,7 +1105,8 @@ img
 -
 >
 mStatusTracker
-.
+-
+>
 RecordLoaded
 (
 )
@@ -1107,7 +1115,8 @@ img
 -
 >
 mStatusTracker
-.
+-
+>
 RecordDecoded
 (
 )

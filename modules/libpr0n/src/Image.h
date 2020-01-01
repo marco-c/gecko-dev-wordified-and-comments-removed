@@ -46,6 +46,7 @@ GetStatusTracker
 )
 {
 return
+*
 mStatusTracker
 ;
 }
@@ -163,9 +164,15 @@ protected
 :
 Image
 (
+imgStatusTracker
+*
+aStatusTracker
 )
 ;
+nsAutoPtr
+<
 imgStatusTracker
+>
 mStatusTracker
 ;
 PRPackedBool

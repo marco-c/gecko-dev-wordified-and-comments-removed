@@ -162,6 +162,11 @@ NS_DECL_NSITIMERCALLBACK
 NS_DECL_NSIPROPERTIES
 RasterImage
 (
+imgStatusTracker
+*
+aStatusTracker
+=
+nsnull
 )
 ;
 virtual
