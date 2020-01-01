@@ -3169,6 +3169,15 @@ cx
 typeInferenceEnabled
 (
 )
+|
+|
+!
+fp
+-
+>
+jit
+(
+)
 )
 {
 cx
