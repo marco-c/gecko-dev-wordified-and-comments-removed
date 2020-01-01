@@ -121,7 +121,7 @@ history
 ENTITY
 privatebrowsingpage
 .
-recentHistory
+clearRecentHistory
 .
 label
 "
@@ -135,7 +135,7 @@ History
 ENTITY
 privatebrowsingpage
 .
-recentHistory
+clearRecentHistory
 .
 accesskey
 "
