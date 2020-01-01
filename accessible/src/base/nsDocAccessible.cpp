@@ -5048,7 +5048,7 @@ rv
 textAccessible
 -
 >
-DOMPointToOffset
+DOMPointToHypertextOffset
 (
 node
 start
@@ -5342,7 +5342,7 @@ rv
 textAccessible
 -
 >
-DOMPointToOffset
+DOMPointToHypertextOffset
 (
 parentNode
 aIndexInContainer
@@ -5606,7 +5606,7 @@ rv
 textAccessible
 -
 >
-DOMPointToOffset
+DOMPointToHypertextOffset
 (
 parentNode
 aIndexInContainer

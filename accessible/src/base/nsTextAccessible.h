@@ -65,11 +65,15 @@ _retval
 )
 ;
 NS_IMETHOD
-GetContentText
+AppendTextTo
 (
 nsAString
 &
 aText
+PRUint32
+aStartOffset
+PRUint32
+aLength
 )
 ;
 }
