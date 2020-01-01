@@ -76,14 +76,6 @@ config
 autoconf
 .
 mk
-include
-(
-srcdir
-)
-/
-objs
-.
-mk
 LIBRARY_NAME
 =
 jar
