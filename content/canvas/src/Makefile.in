@@ -165,10 +165,6 @@ ImageData
 .
 cpp
 \
-WebGLExtensionCompressedTextureS3TC
-.
-cpp
-\
 (
 NULL
 )
@@ -211,6 +207,10 @@ WebGLExtensionLoseContext
 cpp
 \
 WebGLTexelConversions
+.
+cpp
+\
+WebGLExtensionCompressedTextureS3TC
 .
 cpp
 \

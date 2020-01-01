@@ -192,6 +192,12 @@ mOriginalURI
 ;
 nsCOMPtr
 <
+nsIURI
+>
+mAppURI
+;
+nsCOMPtr
+<
 nsISupports
 >
 mOwner

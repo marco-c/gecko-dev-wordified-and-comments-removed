@@ -1061,6 +1061,18 @@ mRoleMapEntry
 aRoleMapEntry
 ;
 }
+bool
+Accessible
+:
+:
+Init
+(
+)
+{
+return
+true
+;
+}
 NS_IMETHODIMP
 Accessible
 :
@@ -6975,7 +6987,7 @@ AsElement
 aState
 |
 =
-nsARIAMap
+aria
 :
 :
 UniversalStatesFor

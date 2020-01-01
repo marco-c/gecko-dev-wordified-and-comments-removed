@@ -1260,9 +1260,6 @@ mSentInitialTopLevelWindowEvent
 ;
 #
 endif
-bool
-mAsyncHidePluginWindow
-;
 PRUint32
 mLastEventloopNestingLevel
 ;

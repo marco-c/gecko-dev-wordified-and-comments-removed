@@ -250,7 +250,6 @@ BytecodeEmitter
 const
 parent
 ;
-const
 Rooted
 <
 JSScript

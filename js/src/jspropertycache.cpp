@@ -948,9 +948,8 @@ JS_ASSERT
 pobj
 -
 >
-nativeContains
+nativeContainsNoAllocation
 (
-cx
 NameToId
 (
 name

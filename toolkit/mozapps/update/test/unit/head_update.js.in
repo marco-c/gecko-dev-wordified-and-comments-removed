@@ -612,7 +612,7 @@ test
 const
 TEST_HELPER_TIMEOUT
 =
-1000
+2000
 ;
 /
 /

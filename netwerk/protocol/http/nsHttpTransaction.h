@@ -288,6 +288,14 @@ return
 mClassification
 ;
 }
+void
+PrintDiagnostics
+(
+nsCString
+&
+log
+)
+;
 private
 :
 nsresult

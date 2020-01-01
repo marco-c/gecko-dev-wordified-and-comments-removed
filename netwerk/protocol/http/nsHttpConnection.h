@@ -539,6 +539,14 @@ return
 mTotalBytesWritten
 ;
 }
+void
+PrintDiagnostics
+(
+nsCString
+&
+log
+)
+;
 private
 :
 nsresult

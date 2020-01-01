@@ -507,6 +507,14 @@ return
 mServerInitialWindow
 ;
 }
+void
+PrintDiagnostics
+(
+nsCString
+&
+log
+)
+;
 private
 :
 enum

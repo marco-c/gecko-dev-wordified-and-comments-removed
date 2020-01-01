@@ -40229,7 +40229,7 @@ NS_LITERAL_STRING
 mozvisibilitychange
 "
 )
-false
+true
 false
 )
 ;

@@ -1727,6 +1727,15 @@ settings_title
 "
 android
 :
+configChanges
+=
+"
+orientation
+|
+screenSize
+"
+android
+:
 excludeFromRecents
 =
 "
