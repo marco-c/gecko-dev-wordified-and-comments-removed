@@ -77,13 +77,6 @@ h
 #
 include
 "
-nsIDOMEventListener
-.
-h
-"
-#
-include
-"
 nsFixedSizeAllocator
 .
 h
@@ -173,8 +166,6 @@ nsXULTemplateBuilder
 public
 nsIXULTemplateBuilder
 public
-nsIDOMEventListener
-public
 nsStubDocumentObserver
 {
 public
@@ -209,7 +200,6 @@ nsXULTemplateBuilder
 nsIXULTemplateBuilder
 )
 NS_DECL_NSIXULTEMPLATEBUILDER
-NS_DECL_NSIDOMEVENTLISTENER
 NS_DECL_NSIMUTATIONOBSERVER_ATTRIBUTECHANGED
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTREMOVED
 NS_DECL_NSIMUTATIONOBSERVER_NODEWILLBEDESTROYED
