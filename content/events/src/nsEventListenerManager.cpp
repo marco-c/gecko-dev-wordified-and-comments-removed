@@ -5945,6 +5945,11 @@ if
 document
 )
 {
+*
+_retval
+=
+PR_TRUE
+;
 return
 NS_OK
 ;
