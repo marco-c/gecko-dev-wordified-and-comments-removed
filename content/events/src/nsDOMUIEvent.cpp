@@ -118,6 +118,13 @@ Assertions
 .
 h
 "
+#
+include
+"
+nsDOMClassInfoID
+.
+h
+"
 using
 namespace
 mozilla

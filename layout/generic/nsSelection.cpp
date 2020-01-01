@@ -294,6 +294,13 @@ h
 #
 include
 "
+nsDOMClassInfoID
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h

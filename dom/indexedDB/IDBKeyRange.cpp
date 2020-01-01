@@ -45,6 +45,13 @@ h
 #
 include
 "
+nsDOMClassInfoID
+.
+h
+"
+#
+include
+"
 Key
 .
 h

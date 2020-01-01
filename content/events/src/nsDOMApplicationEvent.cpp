@@ -19,6 +19,13 @@ DictionaryHelpers
 .
 h
 "
+#
+include
+"
+nsDOMClassInfoID
+.
+h
+"
 DOMCI_DATA
 (
 MozApplicationEvent

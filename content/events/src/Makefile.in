@@ -173,14 +173,6 @@ nsDOMPopupBlockedEvent
 .
 cpp
 \
-nsDOMDeviceProximityEvent
-.
-cpp
-\
-nsDOMUserProximityEvent
-.
-cpp
-\
 nsDOMDeviceLightEvent
 .
 cpp
@@ -310,10 +302,6 @@ nsDOMContactChangeEvent
 cpp
 \
 nsDOMTouchEvent
-.
-cpp
-\
-nsDOMCustomEvent
 .
 cpp
 \

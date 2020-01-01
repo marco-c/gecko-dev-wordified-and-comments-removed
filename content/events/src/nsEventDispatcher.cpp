@@ -130,6 +130,13 @@ sampler
 h
 "
 #
+include
+"
+GeneratedEvents
+.
+h
+"
+#
 define
 NS_TARGET_CHAIN_FORCE_CONTENT_DISPATCH
 (

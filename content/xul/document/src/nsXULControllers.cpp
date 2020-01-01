@@ -33,6 +33,13 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+nsDOMClassInfoID
+.
+h
+"
 nsXULControllers
 :
 :

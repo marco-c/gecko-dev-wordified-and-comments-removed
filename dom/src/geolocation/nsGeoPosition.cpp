@@ -12,6 +12,13 @@ nsDOMClassInfoID
 .
 h
 "
+#
+include
+"
+nsIClassInfo
+.
+h
+"
 nsGeoPositionCoords
 :
 :
