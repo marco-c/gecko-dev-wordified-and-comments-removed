@@ -329,7 +329,7 @@ const
 nsString
 &
 aURL
-nsNPAPIPluginInstance
+nsIPluginInstance
 *
 aInstance
 nsIPluginStreamListener
@@ -355,7 +355,7 @@ aHeadersDataLen
 nsresult
 GetURLWithHeaders
 (
-nsNPAPIPluginInstance
+nsISupports
 *
 pluginInst
 const
@@ -404,7 +404,7 @@ NULL
 nsresult
 DoURLLoadSecurityCheck
 (
-nsNPAPIPluginInstance
+nsIPluginInstance
 *
 aInstance
 const
@@ -622,7 +622,7 @@ aURL
 nsIPluginInstanceOwner
 *
 aOwner
-nsNPAPIPluginInstance
+nsIPluginInstance
 *
 aInstance
 nsIStreamListener
@@ -640,7 +640,7 @@ aURL
 nsIPluginInstanceOwner
 *
 aOwner
-nsNPAPIPluginInstance
+nsIPluginInstance
 *
 aInstance
 )
@@ -655,7 +655,7 @@ aStreamListener
 nsIURI
 *
 aURI
-nsNPAPIPluginInstance
+nsIPluginInstance
 *
 aInstance
 )
