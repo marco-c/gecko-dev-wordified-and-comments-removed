@@ -449,6 +449,10 @@ mk
 _BROWSER_TEST_FILES
 =
 \
+browser_346337
+.
+js
+\
 browser_350525
 .
 js
