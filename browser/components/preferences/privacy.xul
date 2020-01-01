@@ -1496,6 +1496,11 @@ inline
 -
 link
 "
+href
+=
+"
+#
+"
 onclick
 =
 "
@@ -1505,6 +1510,9 @@ clearPrivateDataNow
 (
 false
 )
+;
+return
+false
 ;
 "
 >
@@ -1539,6 +1547,11 @@ inline
 -
 link
 "
+href
+=
+"
+#
+"
 onclick
 =
 "
@@ -1547,6 +1560,9 @@ gPrivacyPane
 showCookies
 (
 )
+;
+return
+false
 ;
 "
 >
@@ -1685,6 +1701,11 @@ inline
 -
 link
 "
+href
+=
+"
+#
+"
 onclick
 =
 "
@@ -1694,6 +1715,9 @@ clearPrivateDataNow
 (
 true
 )
+;
+return
+false
 ;
 "
 >
