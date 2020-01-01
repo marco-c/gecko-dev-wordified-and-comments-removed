@@ -10674,6 +10674,14 @@ TOK_VAR
 "
 ;
 case
+TOK_CONST
+:
+return
+"
+TOK_CONST
+"
+;
+case
 TOK_WITH
 :
 return

@@ -539,6 +539,8 @@ ParseNode
 *
 variables
 (
+ParseNodeKind
+kind
 bool
 inLetHead
 )
