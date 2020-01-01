@@ -797,9 +797,6 @@ class
 nsIPlugin
 ;
 class
-nsIEventHandler
-;
-class
 nsIPluginInstance
 ;
 class

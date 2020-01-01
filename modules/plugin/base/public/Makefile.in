@@ -519,10 +519,6 @@ nsIHTTPHeaderListener
 .
 idl
 \
-nsIEventHandler
-.
-idl
-\
 nsIWindowlessPlugInstPeer
 .
 idl

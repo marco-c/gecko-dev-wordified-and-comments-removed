@@ -392,7 +392,6 @@ nsIEntropyCollector
 nsIEnumerator
 nsIErrorService
 nsIEvaluateStringProxy
-nsIEventHandler
 nsIEventQueue
 nsIEventQueueService
 nsIException
