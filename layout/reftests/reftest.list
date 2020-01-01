@@ -733,6 +733,14 @@ reftest
 .
 list
 #
+scrolling
+include
+scrolling
+/
+reftest
+.
+list
+#
 selection
 include
 selection
