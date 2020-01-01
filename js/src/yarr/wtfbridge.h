@@ -39,9 +39,6 @@ Platform
 h
 "
 #
-if
-ENABLE_YARR_JIT
-#
 include
 "
 assembler
@@ -52,8 +49,6 @@ ExecutableAllocator
 .
 h
 "
-#
-endif
 namespace
 JSC
 {
