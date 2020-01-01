@@ -5713,6 +5713,21 @@ aConnection
 objectDataId
 )
 ;
+if
+(
+rv
+=
+=
+NS_ERROR_STORAGE_CONSTRAINT
+)
+{
+return
+nsIIDBDatabaseException
+:
+:
+CONSTRAINT_ERR
+;
+}
 NS_ENSURE_SUCCESS
 (
 rv
@@ -6505,6 +6520,7 @@ updateInfo
 info
 .
 unique
+mOverwrite
 )
 ;
 NS_ENSURE_TRUE
@@ -8894,6 +8910,7 @@ IndexUpdateStatement
 (
 mAutoIncrement
 mUnique
+false
 )
 ;
 NS_ENSURE_TRUE
