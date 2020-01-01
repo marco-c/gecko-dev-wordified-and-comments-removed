@@ -38806,7 +38806,6 @@ rv
 ;
 if
 (
-!
 ObjectIsNativeWrapper
 (
 cx
