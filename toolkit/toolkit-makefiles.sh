@@ -756,6 +756,11 @@ gfx
 tests
 /
 Makefile
+gfx
+/
+qcms
+/
+Makefile
 "
 MAKEFILES_htmlparser
 =
@@ -4654,7 +4659,6 @@ MAKEFILES_accessible
 MAKEFILES_zlib
 MAKEFILES_libmar
 MAKEFILES_lcms
-MAKEFILES_qcms
 "
 #
 #
