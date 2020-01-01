@@ -8582,13 +8582,6 @@ getPageBounds
 (
 )
 ;
-bounds
-.
-bottom
--
-=
-20
-;
 var
 count
 =
