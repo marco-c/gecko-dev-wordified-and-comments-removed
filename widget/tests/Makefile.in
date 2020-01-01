@@ -380,6 +380,10 @@ test_taskbar_progress
 .
 xul
 \
+test_secure_input
+.
+html
+\
 (
 NULL
 )
