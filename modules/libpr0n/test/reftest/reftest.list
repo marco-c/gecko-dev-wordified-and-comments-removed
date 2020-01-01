@@ -152,3 +152,9 @@ zlib
 reftest
 .
 list
+include
+generic
+/
+reftest
+.
+list

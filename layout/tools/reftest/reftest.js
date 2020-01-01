@@ -365,6 +365,19 @@ if
 (
 gServer
 )
+{
+gServer
+.
+registerContentType
+(
+"
+sjs
+"
+"
+sjs
+"
+)
+;
 gServer
 .
 start
@@ -372,6 +385,7 @@ start
 HTTP_SERVER_PORT
 )
 ;
+}
 StartCurrentTest
 (
 )
