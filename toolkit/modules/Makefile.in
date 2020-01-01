@@ -135,6 +135,10 @@ PrivateBrowsingUtils
 .
 jsm
 \
+Promise
+.
+jsm
+\
 PropertyListUtils
 .
 jsm
