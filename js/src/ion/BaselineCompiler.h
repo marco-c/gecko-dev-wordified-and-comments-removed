@@ -329,6 +329,16 @@ JSOP_MUL
 \
 _
 (
+JSOP_DIV
+)
+\
+_
+(
+JSOP_MOD
+)
+\
+_
+(
 JSOP_LT
 )
 \
