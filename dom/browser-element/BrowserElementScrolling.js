@@ -1103,12 +1103,6 @@ if
 isPan
 )
 {
-evt
-.
-preventDefault
-(
-)
-;
 return
 ;
 }
