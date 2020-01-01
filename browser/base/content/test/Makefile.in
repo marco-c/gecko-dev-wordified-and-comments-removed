@@ -917,6 +917,10 @@ browser_tabs_owner
 .
 js
 \
+browser_unloaddialogs
+.
+js
+\
 browser_urlbarAutoFillTrimURLs
 .
 js

@@ -1568,6 +1568,8 @@ ConfirmDialogIfNeeded
 void
 PreventFurtherDialogs
 (
+bool
+aPermanent
 )
 ;
 virtual
@@ -3510,6 +3512,9 @@ mLastDialogQuitTime
 ;
 bool
 mStopAbuseDialogs
+;
+bool
+mDialogsPermanentlyDisabled
 ;
 nsRefPtr
 <
