@@ -94,9 +94,11 @@ inline
 float
 DOT
 (
+const
 float
 *
 a
+const
 float
 *
 b
