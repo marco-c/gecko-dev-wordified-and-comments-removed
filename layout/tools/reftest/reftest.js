@@ -2673,6 +2673,7 @@ manifest
 ReadManifest
 (
 url
+EXPECTED_PASS
 )
 ;
 }
@@ -2680,6 +2681,7 @@ function
 ReadManifest
 (
 aURL
+inherited_status
 )
 {
 var
@@ -3560,6 +3562,16 @@ true
 }
 }
 }
+expected_status
+=
+Math
+.
+max
+(
+expected_status
+inherited_status
+)
+;
 if
 (
 minAsserts
@@ -3860,6 +3872,7 @@ DISALLOW_SCRIPT
 ReadManifest
 (
 incURI
+expected_status
 )
 ;
 }
