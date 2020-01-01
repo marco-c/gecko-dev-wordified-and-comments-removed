@@ -5668,7 +5668,7 @@ if
 (
 buf
 )
-PR_Free
+NS_Free
 (
 buf
 )
@@ -6021,7 +6021,7 @@ if
 (
 buf
 )
-PR_Free
+NS_Free
 (
 buf
 )
@@ -6129,7 +6129,7 @@ if
 (
 buf
 )
-PR_Free
+NS_Free
 (
 buf
 )
@@ -6495,7 +6495,7 @@ if
 (
 buf
 )
-PR_Free
+NS_Free
 (
 buf
 )
@@ -10017,7 +10017,7 @@ if
 (
 buf
 )
-PR_Free
+NS_Free
 (
 buf
 )
@@ -10599,7 +10599,7 @@ if
 (
 buf
 )
-PR_Free
+NS_Free
 (
 buf
 )
@@ -11448,7 +11448,7 @@ if
 (
 buf
 )
-PR_Free
+NS_Free
 (
 buf
 )
