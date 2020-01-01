@@ -527,6 +527,16 @@ Window
 <
 !
 ENTITY
+closeWindow
+.
+accesskey
+"
+d
+"
+>
+<
+!
+ENTITY
 bookmarksMenu
 .
 label
