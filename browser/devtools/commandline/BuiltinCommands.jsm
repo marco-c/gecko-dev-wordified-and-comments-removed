@@ -11886,7 +11886,7 @@ gcli
 lookup
 (
 '
-paintflashingOnDesc
+paintflashingToggleDesc
 '
 )
 manual
