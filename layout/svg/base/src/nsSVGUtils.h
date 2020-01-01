@@ -753,6 +753,17 @@ aFrame
 )
 ;
 static
+void
+NotifyChildrenCanvasTMChanged
+(
+nsIFrame
+*
+aFrame
+PRBool
+suppressInvalidation
+)
+;
+static
 nsRect
 GetCoveredRegion
 (

@@ -638,6 +638,10 @@ mCanvasTM
 =
 nsnull
 ;
+NotifyGlyphMetricsChange
+(
+)
+;
 return
 nsSVGTextFrameBase
 :
