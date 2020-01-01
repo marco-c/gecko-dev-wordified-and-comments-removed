@@ -627,12 +627,6 @@ data
 )
 ;
 }
-aSummary
-.
-scrollIntoView
-(
-)
-;
 }
 get
 activeDetails
