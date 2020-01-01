@@ -168,17 +168,6 @@ this
 true
 )
 ;
-window
-.
-addEventListener
-(
-"
-mouseout
-"
-this
-true
-)
-;
 let
 stack
 =
