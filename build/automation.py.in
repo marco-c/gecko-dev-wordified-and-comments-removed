@@ -7698,6 +7698,7 @@ s
 "
 extensionSource
 )
+return
 if
 (
 not
@@ -7736,6 +7737,7 @@ s
 "
 profileDir
 )
+return
 #
 See
 if
