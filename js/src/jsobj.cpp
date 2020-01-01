@@ -15830,7 +15830,7 @@ DECLARE_PROTOTYPE_CLASS_INIT
 undef
 DECLARE_PROTOTYPE_CLASS_INIT
 static
-JSClassInitializerOp
+ClassInitializerOp
 lazy_prototype_init
 [
 JSProto_LIMIT
@@ -16340,7 +16340,7 @@ NULL
 ;
 if
 (
-JSClassInitializerOp
+ClassInitializerOp
 init
 =
 lazy_prototype_init

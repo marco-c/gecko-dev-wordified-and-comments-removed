@@ -6404,7 +6404,7 @@ typedef
 struct
 JSStdName
 {
-JSClassInitializerOp
+ClassInitializerOp
 init
 ;
 size_t
