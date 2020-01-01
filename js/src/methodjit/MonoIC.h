@@ -415,6 +415,8 @@ mic
 JSFunction
 *
 fun
+bool
+isNew
 )
 ;
 #
