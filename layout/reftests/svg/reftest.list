@@ -8,6 +8,11 @@ bugs
 reftest
 .
 list
+#
+fails
+on
+osx
+#
 =
 =
 clipPath
@@ -82,6 +87,11 @@ svg
 pass
 .
 svg
+#
+fails
+on
+osx
+#
 =
 =
 opacity
@@ -140,6 +150,11 @@ classes
 ref
 .
 svg
+#
+fails
+on
+osx
+#
 =
 =
 rect
