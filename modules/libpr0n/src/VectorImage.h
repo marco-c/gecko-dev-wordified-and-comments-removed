@@ -108,7 +108,12 @@ aRect
 )
 ;
 PRUint32
-GetDataSize
+GetDecodedDataSize
+(
+)
+;
+PRUint32
+GetSourceDataSize
 (
 )
 ;
@@ -179,11 +184,6 @@ mHaveAnimations
 ;
 PRPackedBool
 mHaveRestrictedRegion
-:
-1
-;
-PRPackedBool
-mError
 :
 1
 ;

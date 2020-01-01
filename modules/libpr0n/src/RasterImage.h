@@ -251,11 +251,6 @@ nsIntRect
 aRect
 )
 ;
-PRUint32
-GetDataSize
-(
-)
-;
 static
 NS_METHOD
 WriteToRasterImage
@@ -938,11 +933,6 @@ mWorkerPending
 ;
 PRPackedBool
 mInDecoder
-:
-1
-;
-PRPackedBool
-mError
 :
 1
 ;

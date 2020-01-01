@@ -439,6 +439,10 @@ imgutils
 .
 js
 \
+lime100x100
+.
+svg
+\
 test_bug399925
 .
 html
@@ -560,6 +564,10 @@ bug497665
 sjs
 \
 test_bug553982
+.
+html
+\
+test_bug601470
 .
 html
 \
