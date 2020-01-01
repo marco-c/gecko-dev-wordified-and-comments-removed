@@ -479,6 +479,14 @@ mozStorageStatementWrapper
 .
 cpp
 \
+mozStorageStatementParams
+.
+cpp
+\
+mozStorageStatementRow
+.
+cpp
+\
 mozStorageValueArray
 .
 cpp
