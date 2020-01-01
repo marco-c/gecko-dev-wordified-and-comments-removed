@@ -4542,7 +4542,7 @@ fileuri
 .
 strict_origin_policy
 "
-true
+false
 )
 ;
 pref
