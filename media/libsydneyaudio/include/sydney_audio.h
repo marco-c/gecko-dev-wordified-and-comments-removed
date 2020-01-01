@@ -42,6 +42,12 @@ defined
 (
 __FreeBSD__
 )
+|
+|
+defined
+(
+ANDROID
+)
 #
 include
 <
