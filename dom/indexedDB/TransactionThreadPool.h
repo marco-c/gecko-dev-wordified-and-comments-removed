@@ -150,6 +150,14 @@ nsIRunnable
 aCallback
 )
 ;
+void
+AbortTransactionsForDatabase
+(
+IDBDatabase
+*
+aDatabase
+)
+;
 bool
 HasTransactionsForDatabase
 (

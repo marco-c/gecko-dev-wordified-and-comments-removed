@@ -219,7 +219,7 @@ aHelper
 )
 ;
 void
-CloseDatabasesForWindow
+AbortCloseDatabasesForWindow
 (
 nsPIDOMWindow
 *

@@ -463,6 +463,10 @@ helpers
 .
 js
 \
+leaving_page_iframe
+.
+html
+\
 test_add_twice_failure
 .
 html
@@ -548,6 +552,10 @@ test_indexes_bad_values
 html
 \
 test_key_requirements
+.
+html
+\
+test_leaving_page
 .
 html
 \
