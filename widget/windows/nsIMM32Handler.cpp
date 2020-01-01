@@ -528,9 +528,6 @@ nsIMM32Handler
 :
 CanOptimizeKeyAndIMEMessages
 (
-MSG
-*
-aNextKeyOrIMEMessage
 )
 {
 return

@@ -715,6 +715,16 @@ OnCompositionTimer
 ;
 }
 static
+bool
+CanOptimizeKeyAndIMEMessages
+(
+)
+{
+return
+true
+;
+}
+static
 void
 *
 GetNativeData
