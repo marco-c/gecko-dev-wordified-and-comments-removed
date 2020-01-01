@@ -1519,11 +1519,11 @@ mActiveMenuBar
 ;
 nsMenuChainItem
 *
-mCurrentMenu
+mPopups
 ;
 nsMenuChainItem
 *
-mPanels
+mNoHidePanels
 ;
 nsCOMPtr
 <

@@ -474,11 +474,11 @@ mActiveMenuBar
 (
 nsnull
 )
-mCurrentMenu
+mPopups
 (
 nsnull
 )
-mPanels
+mNoHidePanels
 (
 nsnull
 )
@@ -499,11 +499,11 @@ nsXULPopupManager
 NS_ASSERTION
 (
 !
-mCurrentMenu
+mPopups
 &
 &
 !
-mPanels
+mNoHidePanels
 "
 XUL
 popups
@@ -894,7 +894,7 @@ nsMenuChainItem
 *
 item
 =
-mPanels
+mNoHidePanels
 ;
 while
 (
@@ -1113,7 +1113,7 @@ nsMenuChainItem
 *
 item
 =
-mCurrentMenu
+mPopups
 ;
 while
 (
@@ -2522,10 +2522,10 @@ item
 >
 SetParent
 (
-mPanels
+mNoHidePanels
 )
 ;
-mPanels
+mNoHidePanels
 =
 item
 ;
@@ -2540,11 +2540,11 @@ nsnull
 ;
 if
 (
-mCurrentMenu
+mPopups
 )
 oldmenu
 =
-mCurrentMenu
+mPopups
 -
 >
 Content
@@ -2556,10 +2556,10 @@ item
 >
 SetParent
 (
-mCurrentMenu
+mPopups
 )
 ;
-mCurrentMenu
+mPopups
 =
 item
 ;
@@ -2652,7 +2652,7 @@ nsMenuChainItem
 *
 item
 =
-mPanels
+mNoHidePanels
 ;
 while
 (
@@ -2706,7 +2706,7 @@ nsnull
 ;
 item
 =
-mCurrentMenu
+mPopups
 ;
 while
 (
@@ -3046,7 +3046,7 @@ nsMenuChainItem
 *
 item
 =
-mPanels
+mNoHidePanels
 ;
 while
 (
@@ -3072,7 +3072,7 @@ item
 Detach
 (
 &
-mPanels
+mNoHidePanels
 )
 ;
 break
@@ -3096,7 +3096,7 @@ item
 {
 item
 =
-mCurrentMenu
+mPopups
 ;
 while
 (
@@ -3122,7 +3122,7 @@ item
 Detach
 (
 &
-mCurrentMenu
+mPopups
 )
 ;
 SetCaptureState
@@ -3228,7 +3228,7 @@ nsMenuChainItem
 *
 item
 =
-mCurrentMenu
+mPopups
 ;
 while
 (
@@ -3724,7 +3724,7 @@ nsMenuChainItem
 *
 item
 =
-mCurrentMenu
+mPopups
 ;
 while
 (
@@ -3794,7 +3794,7 @@ item
 Detach
 (
 &
-mCurrentMenu
+mPopups
 )
 ;
 delete
@@ -3815,7 +3815,7 @@ parent
 }
 item
 =
-mPanels
+mNoHidePanels
 ;
 while
 (
@@ -3885,7 +3885,7 @@ item
 Detach
 (
 &
-mPanels
+mNoHidePanels
 )
 ;
 delete
@@ -4798,7 +4798,7 @@ nsMenuChainItem
 *
 item
 =
-mCurrentMenu
+mPopups
 ;
 while
 (
@@ -4890,7 +4890,7 @@ GetParent
 }
 item
 =
-mPanels
+mNoHidePanels
 ;
 while
 (
@@ -5125,10 +5125,10 @@ aType
 ePopupTypePanel
 &
 &
-mPanels
+mNoHidePanels
 )
 return
-mPanels
+mNoHidePanels
 -
 >
 Frame
@@ -5211,7 +5211,7 @@ nsMenuChainItem
 *
 item
 =
-mCurrentMenu
+mPopups
 ;
 while
 (
@@ -5738,7 +5738,7 @@ nsMenuChainItem
 *
 item
 =
-mPanels
+mNoHidePanels
 ;
 while
 (
@@ -5764,7 +5764,7 @@ item
 Detach
 (
 &
-mPanels
+mNoHidePanels
 )
 ;
 delete
@@ -5792,7 +5792,7 @@ popupsToHide
 ;
 item
 =
-mCurrentMenu
+mPopups
 ;
 while
 (
@@ -5913,7 +5913,7 @@ item
 Detach
 (
 &
-mCurrentMenu
+mPopups
 )
 ;
 delete
@@ -8539,7 +8539,7 @@ meta
 {
 if
 (
-mCurrentMenu
+mPopups
 )
 Rollup
 (
@@ -8720,7 +8720,7 @@ PRBool
 consume
 =
 (
-mCurrentMenu
+mPopups
 |
 |
 mActiveMenuBar
