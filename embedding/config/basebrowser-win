@@ -166,7 +166,7 @@ xpcom_nativeapp
 xpt
 components
 \
-xpcom_thread
+xpcom_threads
 .
 xpt
 components
@@ -414,7 +414,7 @@ docshell
 dll
 components
 \
-docshell_base
+docshell
 .
 xpt
 components

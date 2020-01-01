@@ -425,17 +425,9 @@ javaxpcomglue
 LIBRARY_NAME
 =
 javaxpcomglue
-ifeq
-(
-(
-OS_ARCH
-)
-OS2
-)
 SHORT_LIBNAME
 =
 jxpcmglu
-endif
 #
 On
 Mac

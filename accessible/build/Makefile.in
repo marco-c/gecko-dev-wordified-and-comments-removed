@@ -427,17 +427,9 @@ accessibility
 EXPORT_LIBRARY
 =
 1
-ifneq
-(
-(
-OS_ARCH
-)
-WINNT
-)
 SHORT_LIBNAME
 =
 access
-endif
 IS_COMPONENT
 =
 1

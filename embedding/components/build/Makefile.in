@@ -419,17 +419,9 @@ embedcomponents
 EXPORT_LIBRARY
 =
 1
-ifneq
-(
-(
-OS_ARCH
-)
-WINNT
-)
 SHORT_LIBNAME
 =
 embedcmp
-endif
 IS_COMPONENT
 =
 1

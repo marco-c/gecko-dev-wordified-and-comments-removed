@@ -422,17 +422,9 @@ gfx
 LIBRARY_NAME
 =
 gkgfxthebes
-ifneq
-(
-(
-OS_ARCH
-)
-WINNT
-)
 SHORT_LIBNAME
 =
 gkgfxthb
-endif
 EXPORT_LIBRARY
 =
 1

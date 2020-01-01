@@ -1,9 +1,14 @@
-ifeq
+ifneq
 (
 (
-USE_SHORT_LIBNAME
+filter
+OS2
+WINCE
+WINNT
+(
+OS_ARCH
 )
-1
+)
 )
 PROGRAM
 =

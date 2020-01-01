@@ -437,17 +437,9 @@ autoconfig
 LIBRARY_NAME
 =
 autoconfig
-ifneq
-(
-(
-OS_ARCH
-)
-WINNT
-)
 SHORT_LIBNAME
 =
 autocfg
-endif
 EXPORT_LIBRARY
 =
 1

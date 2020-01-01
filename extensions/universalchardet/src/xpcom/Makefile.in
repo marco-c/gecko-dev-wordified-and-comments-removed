@@ -452,17 +452,9 @@ IS_COMPONENT
 MODULE_NAME
 =
 nsUniversalCharDetModule
-ifneq
-(
-(
-OS_ARCH
-)
-WINNT
-)
 SHORT_LIBNAME
 =
 ucdet
-endif
 LIBXUL_LIBRARY
 =
 1

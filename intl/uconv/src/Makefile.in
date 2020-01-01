@@ -441,13 +441,6 @@ GRE_MODULE
 LIBXUL_LIBRARY
 =
 1
-ifneq
-(
-(
-OS_ARCH
-)
-WINNT
-)
 #
 To
 avoid
@@ -463,7 +456,6 @@ dll
 SHORT_LIBNAME
 =
 mozuconv
-endif
 CPPSRCS
 =
 \

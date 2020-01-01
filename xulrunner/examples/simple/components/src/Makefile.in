@@ -447,17 +447,9 @@ simple
 LIBRARY_NAME
 =
 simpletest
-ifneq
-(
-(
-OS_ARCH
-)
-WINNT
-)
 SHORT_LIBNAME
 =
 simpltst
-endif
 IS_COMPONENT
 =
 1

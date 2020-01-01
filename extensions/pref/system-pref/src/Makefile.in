@@ -434,17 +434,9 @@ LIBRARY_NAME
 system
 -
 pref_s
-ifneq
-(
-(
-OS_ARCH
-)
-WINNT
-)
 SHORT_LIBNAME
 =
 syspref
-endif
 #
 We
 want

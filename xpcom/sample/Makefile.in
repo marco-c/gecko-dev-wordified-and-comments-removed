@@ -511,9 +511,6 @@ LIBRARY_NAME
 xpcomsample
 #
 On
-MS
-Windows
-and
 OS
 /
 2
@@ -524,13 +521,13 @@ to
 generate
 a
 library
-#
 with
 an
 8
 .
 3
 filename
+#
 e
 .
 g
