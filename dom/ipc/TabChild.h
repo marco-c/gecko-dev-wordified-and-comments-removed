@@ -78,6 +78,13 @@ nsIInterfaceRequestor
 .
 h
 "
+#
+include
+"
+nsIWindowProvider
+.
+h
+"
 namespace
 mozilla
 {
@@ -131,6 +138,8 @@ public
 nsIWebBrowserChromeFocus
 public
 nsIInterfaceRequestor
+public
+nsIWindowProvider
 {
 public
 :
@@ -161,6 +170,7 @@ NS_DECL_NSIEMBEDDINGSITEWINDOW
 NS_DECL_NSIEMBEDDINGSITEWINDOW2
 NS_DECL_NSIWEBBROWSERCHROMEFOCUS
 NS_DECL_NSIINTERFACEREQUESTOR
+NS_DECL_NSIWINDOWPROVIDER
 virtual
 bool
 RecvcreateWidget
