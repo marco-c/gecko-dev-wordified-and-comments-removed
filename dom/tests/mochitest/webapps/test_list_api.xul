@@ -272,6 +272,11 @@ QueryInterface
 "
 function
 "
+isInstalled
+:
+"
+function
+"
 getInstalled
 :
 "
