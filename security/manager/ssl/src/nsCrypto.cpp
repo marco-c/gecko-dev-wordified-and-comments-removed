@@ -11393,6 +11393,8 @@ isUIForbidden
 {
 PRBool
 checkState
+=
+PR_FALSE
 ;
 prompter
 -

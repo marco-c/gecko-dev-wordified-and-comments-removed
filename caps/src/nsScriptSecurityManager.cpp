@@ -10816,6 +10816,8 @@ GetCurrentJSContext
 ;
 PRBool
 remember
+=
+PR_FALSE
 ;
 if
 (

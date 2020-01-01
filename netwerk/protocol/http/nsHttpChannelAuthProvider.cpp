@@ -4714,6 +4714,8 @@ choice
 ;
 PRBool
 checkState
+=
+PR_FALSE
 ;
 rv
 =

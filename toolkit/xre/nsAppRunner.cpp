@@ -7622,6 +7622,8 @@ button
 ;
 PRBool
 checkState
+=
+PR_FALSE
 ;
 rv
 =
