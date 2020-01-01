@@ -707,6 +707,10 @@ test_bug548545
 .
 xhtml
 \
+test_bug558663
+.
+html
+\
 test_bug559499
 .
 html
