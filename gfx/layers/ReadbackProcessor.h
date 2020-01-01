@@ -6,8 +6,15 @@ define
 GFX_READBACKPROCESSOR_H
 #
 include
+<
+stdint
+.
+h
+>
+#
+include
 "
-ThebesLayerBuffer
+nsRect
 .
 h
 "
@@ -18,6 +25,9 @@ nsTArray
 .
 h
 "
+class
+nsIntRegion
+;
 namespace
 mozilla
 {
@@ -29,6 +39,9 @@ ContainerLayer
 ;
 class
 ReadbackLayer
+;
+class
+ThebesLayer
 ;
 class
 ReadbackProcessor
