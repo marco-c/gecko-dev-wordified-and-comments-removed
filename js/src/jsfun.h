@@ -1026,6 +1026,16 @@ fp
 )
 ;
 extern
+JSFunction
+*
+js_GetCallObjectFunction
+(
+JSObject
+*
+obj
+)
+;
+extern
 JSBool
 js_GetCallArg
 (
