@@ -2484,7 +2484,7 @@ parentDocument
 mParent
 -
 >
-GetDocAccessible
+Document
 (
 )
 ;

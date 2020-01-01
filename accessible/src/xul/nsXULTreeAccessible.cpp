@@ -2086,7 +2086,7 @@ treeItem
 {
 if
 (
-GetDocAccessible
+Document
 (
 )
 -
@@ -2145,7 +2145,7 @@ nsDocAccessible
 *
 document
 =
-GetDocAccessible
+Document
 (
 )
 ;
@@ -2600,7 +2600,7 @@ if
 (
 reorderEvent
 )
-GetDocAccessible
+Document
 (
 )
 -

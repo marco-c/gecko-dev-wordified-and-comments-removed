@@ -776,7 +776,7 @@ DispatchFocusEvent
 target
 -
 >
-GetDocAccessible
+Document
 (
 )
 target
@@ -1352,7 +1352,7 @@ targetDocument
 target
 -
 >
-GetDocAccessible
+Document
 (
 )
 ;

@@ -166,7 +166,7 @@ GetApplicationAccessible
 ;
 nsDocAccessible
 *
-GetDocAccessible
+Document
 (
 )
 const

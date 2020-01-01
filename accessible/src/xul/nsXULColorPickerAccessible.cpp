@@ -508,7 +508,7 @@ child
 return
 ;
 }
-GetDocAccessible
+Document
 (
 )
 -
