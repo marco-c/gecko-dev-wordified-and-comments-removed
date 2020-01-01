@@ -628,6 +628,9 @@ AutoDisableSpew
 (
 )
 {
+#
+ifdef
+DEBUG
 if
 (
 enabled_
@@ -637,6 +640,8 @@ EnableChannel
 Channel
 )
 ;
+#
+endif
 }
 }
 ;
