@@ -131,6 +131,7 @@ skip
 -
 if
 (
+(
 !
 xulRuntime
 .
@@ -138,6 +139,10 @@ shell
 &
 &
 isDebugBuild
+)
+|
+|
+Android
 )
 script
 regress
@@ -172,6 +177,9 @@ if
 xulRuntime
 .
 shell
+|
+|
+Android
 )
 slow
 script

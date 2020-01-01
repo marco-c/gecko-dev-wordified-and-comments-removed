@@ -97,6 +97,12 @@ no
 prototype
 .
 js
+skip
+-
+if
+(
+Android
+)
 script
 Function
 -

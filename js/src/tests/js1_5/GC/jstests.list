@@ -188,6 +188,12 @@ js
 #
 slow
 killed
+skip
+-
+if
+(
+Android
+)
 script
 regress
 -
@@ -244,6 +250,12 @@ regress
 418128
 .
 js
+skip
+-
+if
+(
+Android
+)
 script
 regress
 -

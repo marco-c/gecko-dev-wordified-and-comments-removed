@@ -93,6 +93,9 @@ match
 x86_64
 /
 )
+|
+|
+Android
 )
 script
 regress
@@ -168,6 +171,9 @@ match
 x86_64
 /
 )
+|
+|
+Android
 )
 script
 regress

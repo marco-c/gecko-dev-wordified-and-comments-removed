@@ -302,6 +302,12 @@ regress
 476653
 .
 js
+skip
+-
+if
+(
+Android
+)
 script
 regress
 -
