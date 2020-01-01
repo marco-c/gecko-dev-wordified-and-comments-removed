@@ -525,6 +525,14 @@ slow
 .
 sjs
 \
+test_bug599584
+.
+html
+\
+iframe_bug599584
+.
+html
+\
 (
 NULL
 )
