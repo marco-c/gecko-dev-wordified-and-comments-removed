@@ -5895,7 +5895,16 @@ components
 /
 passwordmgr
 /
-base
+public
+/
+Makefile
+toolkit
+/
+components
+/
+passwordmgr
+/
+src
 /
 Makefile
 toolkit

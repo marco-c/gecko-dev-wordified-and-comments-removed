@@ -452,6 +452,8 @@ browsercomps
 \
 toolkitcomps
 \
+passwordmgr
+\
 pref
 \
 rdf

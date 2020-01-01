@@ -503,6 +503,9 @@ html
 (
 NULL
 )
+XPCSHELL_TESTS
+=
+unit
 #
 This
 test

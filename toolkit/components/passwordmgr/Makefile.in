@@ -200,6 +200,15 @@ brianryner
 com
 >
 #
+Justin
+Dolske
+<
+dolske
+mozilla
+.
+com
+>
+#
 #
 Alternatively
 the
@@ -421,7 +430,8 @@ autoconf
 mk
 DIRS
 =
-base
+public
+src
 content
 ifdef
 ENABLE_TESTS

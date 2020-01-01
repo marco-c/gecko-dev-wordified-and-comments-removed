@@ -4094,13 +4094,6 @@ gPasswordManagerInitialized
 =
 PR_TRUE
 ;
-NS_CreateServicesFromCategory
-(
-NS_PASSWORDMANAGER_CATEGORY
-nsnull
-NS_PASSWORDMANAGER_CATEGORY
-)
-;
 }
 if
 (
