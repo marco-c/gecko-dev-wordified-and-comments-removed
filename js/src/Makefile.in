@@ -1541,6 +1541,10 @@ BaselineJIT
 .
 cpp
 \
+BaselineInspector
+.
+cpp
+\
 BaselineBailouts
 .
 cpp
