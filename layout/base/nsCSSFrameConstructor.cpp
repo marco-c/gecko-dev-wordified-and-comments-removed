@@ -1213,6 +1213,13 @@ h
 #
 include
 "
+nsMenuPopupFrame
+.
+h
+"
+#
+include
+"
 nsPopupSetFrame
 .
 h
