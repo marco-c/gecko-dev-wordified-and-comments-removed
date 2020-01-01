@@ -6369,13 +6369,6 @@ prepareTreeCall
 TreeFragment
 *
 inner
-nanojit
-:
-:
-LIns
-*
-&
-inner_sp_ins
 )
 ;
 JS_REQUIRES_STACK
@@ -6388,12 +6381,6 @@ inner
 VMSideExit
 *
 exit
-nanojit
-:
-:
-LIns
-*
-inner_sp_ins
 )
 ;
 JS_REQUIRES_STACK
