@@ -4155,6 +4155,15 @@ caretRect
 ;
 this
 .
+_updateSuggestionsFor
+(
+this
+.
+_currentElement
+)
+;
+this
+.
 _currentBrowser
 .
 scrollSync
