@@ -3660,9 +3660,6 @@ EndIf
 {
 EndIf
 }
-{
-EndUnless
-}
 ;
 Adds
 a
@@ -3679,6 +3676,9 @@ details
 .
 {
 MigrateTaskBarShortcut
+}
+{
+EndUnless
 }
 {
 GetShortcutsLogPath
