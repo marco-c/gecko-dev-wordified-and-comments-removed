@@ -503,10 +503,6 @@ nsIXPathEvaluatorInternal
 .
 h
 \
-mozISanitizingSerializer
-.
-h
-\
 nsCaseTreatment
 .
 h

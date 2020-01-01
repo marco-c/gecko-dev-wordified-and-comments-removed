@@ -528,10 +528,6 @@ src
 CPPSRCS
 =
 \
-mozSanitizingSerializer
-.
-cpp
-\
 nsAtomListUtils
 .
 cpp
