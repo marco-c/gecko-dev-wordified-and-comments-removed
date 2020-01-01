@@ -152,6 +152,7 @@ def
 upgrade_mercurial
 (
 self
+current
 )
 :
         
