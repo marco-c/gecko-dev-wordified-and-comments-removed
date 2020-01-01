@@ -91,13 +91,6 @@ DIST
 )
 /
 branding
-ifeq
-(
-(
-MOZ_WIDGET_TOOLKIT
-)
-gtk2
-)
 cp
 (
 addprefix
@@ -125,4 +118,3 @@ DIST
 )
 /
 install
-endif
