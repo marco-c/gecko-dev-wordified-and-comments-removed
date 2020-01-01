@@ -1635,17 +1635,6 @@ FirstChild
 )
 ;
 }
-virtual
-nsIFrame
-*
-GetLastChild
-(
-nsIAtom
-*
-aListName
-)
-const
-;
 nsIFrame
 *
 GetNextSibling

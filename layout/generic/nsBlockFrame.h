@@ -354,17 +354,6 @@ aListName
 const
 ;
 virtual
-nsIFrame
-*
-GetLastChild
-(
-nsIAtom
-*
-aListName
-)
-const
-;
-virtual
 nscoord
 GetBaseline
 (
