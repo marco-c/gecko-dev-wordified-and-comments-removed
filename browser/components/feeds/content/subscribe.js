@@ -66,7 +66,7 @@ close
 subscribe
 :
 function
-FH_subscribe
+SH_subscribe
 (
 )
 {
