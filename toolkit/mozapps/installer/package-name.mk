@@ -1138,3 +1138,14 @@ source
 endif
 #
 MOZ_PKG_PRETTYNAMES
+TEST_PACKAGE
+=
+(
+PKG_BASENAME
+)
+.
+tests
+.
+tar
+.
+bz2
