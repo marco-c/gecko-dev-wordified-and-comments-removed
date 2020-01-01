@@ -9197,6 +9197,11 @@ timer
 "
 )
 ;
+if
+(
+mTimer
+)
+{
 mTimer
 -
 >
@@ -9211,6 +9216,7 @@ nsITimer
 TYPE_ONE_SHOT
 )
 ;
+}
 }
 }
 void
