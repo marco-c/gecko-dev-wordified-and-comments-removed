@@ -1171,7 +1171,10 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+NS_IMETHODIMP_
+(
+void
+)
 nsSoftwareUpdate
 :
 :
@@ -1238,7 +1241,6 @@ PR_Unlock
 mLock
 )
 ;
-return
 RunNextInstall
 (
 )
