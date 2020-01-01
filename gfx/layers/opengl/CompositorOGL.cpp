@@ -6447,6 +6447,16 @@ case
 EFFECT_COMPONENT_ALPHA
 :
 {
+MOZ_ASSERT
+(
+gfxPlatform
+:
+:
+ComponentAlphaEnabled
+(
+)
+)
+;
 EffectComponentAlpha
 *
 effectComponentAlpha

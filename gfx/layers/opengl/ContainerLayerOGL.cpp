@@ -1273,12 +1273,7 @@ mode
 gfxPlatform
 :
 :
-GetPlatform
-(
-)
--
->
-UsesSubpixelAATextRendering
+ComponentAlphaEnabled
 (
 )
 ?
@@ -1318,12 +1313,7 @@ mSupportsComponentAlphaChildren
 gfxPlatform
 :
 :
-GetPlatform
-(
-)
--
->
-UsesSubpixelAATextRendering
+ComponentAlphaEnabled
 (
 )
 ;
