@@ -4856,6 +4856,15 @@ aTypeHint
 IsEmpty
 (
 )
+&
+&
+GetTypeOfContent
+(
+aTypeHint
+)
+=
+=
+eType_Null
 )
 {
 UpdateFallbackState
