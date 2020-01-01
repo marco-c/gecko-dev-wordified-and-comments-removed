@@ -298,7 +298,7 @@ h
 #
 include
 "
-nsIWebProgressListener
+nsIWebProgressListener2
 .
 h
 "
@@ -770,6 +770,10 @@ FireOnLocationChange
 this
 nsnull
 mCurrentURI
+nsIWebProgressListener2
+:
+:
+LOCATION_CHANGE_SAME_DOCUMENT
 )
 ;
 }
@@ -1585,6 +1589,8 @@ nsIRequest
 aRequest
 PRBool
 aFireOnLocationChange
+PRUint32
+aLocationFlags
 )
 ;
 PRBool
