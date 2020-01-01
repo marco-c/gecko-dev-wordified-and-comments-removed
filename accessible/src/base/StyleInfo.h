@@ -175,6 +175,17 @@ nsAString
 aFormattedValue
 )
 ;
+static
+void
+FormatTextDecorationStyle
+(
+PRUint8
+aValue
+nsAString
+&
+aFormattedValue
+)
+;
 private
 :
 StyleInfo
