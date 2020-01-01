@@ -7789,6 +7789,9 @@ RefreshDriver
 (
 )
 ;
+#
+ifdef
+MOZ_SMIL
 if
 (
 mDocument
@@ -7813,6 +7816,8 @@ rd
 )
 ;
 }
+#
+endif
 rd
 -
 >

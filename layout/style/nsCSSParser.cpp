@@ -3318,11 +3318,16 @@ SetQuirkMode
 PR_FALSE
 )
 ;
+#
+ifdef
+MOZ_SVG
 SetSVGMode
 (
 PR_FALSE
 )
 ;
+#
+endif
 SetChildLoader
 (
 nsnull
