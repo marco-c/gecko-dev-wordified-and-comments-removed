@@ -1351,6 +1351,16 @@ aFrame
 static
 nsIFrame
 *
+GetParentOrPlaceholderForCrossDoc
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
+nsIFrame
+*
 GetNextContinuationOrSpecialSibling
 (
 nsIFrame
