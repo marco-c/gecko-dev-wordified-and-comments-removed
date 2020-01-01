@@ -14908,7 +14908,7 @@ aManager
 >
 GetProgram
 (
-BGRARectLayerProgramType
+RGBARectLayerProgramType
 )
 ;
 aManager
