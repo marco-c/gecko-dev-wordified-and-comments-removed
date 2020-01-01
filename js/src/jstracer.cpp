@@ -9344,8 +9344,9 @@ x
 lir
 -
 >
-insLoadi
+insLoad
 (
+LIR_ld
 cx_ins
 offsetof
 (
@@ -12868,8 +12869,9 @@ ins
 lir
 -
 >
-insLoadi
+insLoad
 (
+LIR_ld
 base
 offset
 )
@@ -14515,7 +14517,7 @@ oprnd2
 x
 -
 >
-immdisp
+disp
 (
 )
 )
@@ -14532,7 +14534,7 @@ oprnd2
 x
 -
 >
-immdisp
+disp
 (
 )
 )
@@ -53335,13 +53337,7 @@ insLoad
 (
 loadOp
 outp
-lir
--
->
-insImm
-(
 0
-)
 )
 ;
 if
