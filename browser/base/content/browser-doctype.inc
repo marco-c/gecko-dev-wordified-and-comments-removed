@@ -116,5 +116,17 @@ safebrowsingDTD
 ;
 #
 endif
+<
+!
+ENTITY
+%
+aboutHomeDTD
+SYSTEM
+"
+chrome
+:
+%
+aboutHomeDTD
+;
 ]
 >

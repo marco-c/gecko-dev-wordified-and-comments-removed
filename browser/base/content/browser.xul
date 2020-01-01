@@ -7737,6 +7737,15 @@ event
 )
 ;
 "
+aboutHomeOverrideTooltip
+=
+"
+&
+abouthome
+.
+pageTitle
+;
+"
 /
 >
 <
