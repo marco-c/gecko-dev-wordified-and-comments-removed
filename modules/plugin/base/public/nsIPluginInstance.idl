@@ -473,7 +473,7 @@ JSContext
 struct
 JSObject
 ;
-struct
+class
 gfxASurface
 ;
 #
