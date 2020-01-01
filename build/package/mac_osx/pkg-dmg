@@ -964,7 +964,7 @@ I
 .
 sparseimage
 >
-UDZO
+UDBZ
 is
 the
 default
@@ -3608,7 +3608,7 @@ format
 outputFormat
 =
 '
-UDZO
+UDBZ
 '
 ;
 #
