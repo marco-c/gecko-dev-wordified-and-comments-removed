@@ -16537,6 +16537,10 @@ CFLAGS
 "
 CFLAGS
 -
+fpascal
+-
+strings
+-
 fno
 -
 common
@@ -16545,6 +16549,10 @@ CXXFLAGS
 =
 "
 CXXFLAGS
+-
+fpascal
+-
+strings
 -
 fno
 -
