@@ -161,7 +161,7 @@ GetChannel
 )
 )
 ;
-Callinit
+Sendinit
 (
 parentWidget
 )
@@ -225,7 +225,7 @@ GetSpec
 spec
 )
 ;
-CallloadURL
+SendloadURL
 (
 spec
 .
@@ -251,7 +251,7 @@ PRUint32
 height
 )
 {
-Callmove
+Sendmove
 (
 x
 y

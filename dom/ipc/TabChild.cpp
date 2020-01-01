@@ -130,7 +130,7 @@ nsresult
 TabChild
 :
 :
-Answerinit
+Recvinit
 (
 const
 MagicWindowHandle
@@ -286,14 +286,14 @@ webBrowser
 )
 ;
 return
-NS_ERROR_NOT_IMPLEMENTED
+NS_OK
 ;
 }
 nsresult
 TabChild
 :
 :
-AnswerloadURL
+RecvloadURL
 (
 const
 String
@@ -354,7 +354,7 @@ nsresult
 TabChild
 :
 :
-Answermove
+Recvmove
 (
 const
 PRUint32

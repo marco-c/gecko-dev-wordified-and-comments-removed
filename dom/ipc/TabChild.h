@@ -91,7 +91,7 @@ aChannel
 ;
 virtual
 nsresult
-Answerinit
+Recvinit
 (
 const
 MagicWindowHandle
@@ -101,7 +101,7 @@ parentWidget
 ;
 virtual
 nsresult
-AnswerloadURL
+RecvloadURL
 (
 const
 String
@@ -111,7 +111,7 @@ uri
 ;
 virtual
 nsresult
-Answermove
+Recvmove
 (
 const
 PRUint32
