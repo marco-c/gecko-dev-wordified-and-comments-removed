@@ -440,10 +440,6 @@ unicharutil
 \
 thebes
 \
-js
-\
-xpconnect
-\
 (
 NULL
 )
