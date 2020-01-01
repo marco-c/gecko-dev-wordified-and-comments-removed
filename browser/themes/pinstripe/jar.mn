@@ -2463,13 +2463,13 @@ browser
 /
 devtools
 /
-gcli
+commandline
 .
 css
 (
 devtools
 /
-gcli
+commandline
 .
 css
 )
