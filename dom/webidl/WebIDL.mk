@@ -283,6 +283,10 @@ DOMImplementation
 .
 webidl
 \
+DOMMMIError
+.
+webidl
+\
 DOMParser
 .
 webidl
