@@ -419,10 +419,7 @@ mDisplayPort
 CSSRect
 mCriticalDisplayPort
 ;
-gfx
-:
-:
-Rect
+CSSRect
 mViewport
 ;
 mozilla
