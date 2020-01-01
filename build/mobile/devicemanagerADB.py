@@ -2031,16 +2031,21 @@ readline
 (
 )
     
-ret
-.
-pop
+if
 (
 len
 (
 ret
 )
--
-1
+>
+0
+)
+:
+      
+ret
+.
+pop
+(
 )
     
 return
