@@ -170,6 +170,11 @@ Remove
 aDocument
 )
 ;
+RemoveListeners
+(
+aDocument
+)
+;
 }
 #
 ifdef
@@ -238,6 +243,14 @@ nsIDocument
 aDocument
 bool
 aAddPageShowListener
+)
+;
+void
+RemoveListeners
+(
+nsIDocument
+*
+aDocument
 )
 ;
 DocAccessible
