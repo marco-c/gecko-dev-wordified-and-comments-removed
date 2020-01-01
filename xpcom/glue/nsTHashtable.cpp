@@ -228,13 +228,6 @@ code
 =
 0
 ;
-const
-char
-*
-origStr
-=
-str
-;
 while
 (
 *
@@ -272,13 +265,6 @@ PRUint32
 code
 =
 0
-;
-const
-PRUnichar
-*
-origStr
-=
-str
 ;
 while
 (
