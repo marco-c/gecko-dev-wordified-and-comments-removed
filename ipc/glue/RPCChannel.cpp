@@ -392,7 +392,7 @@ switch
 (
 static_cast
 <
-Listener
+RPCListener
 *
 >
 (

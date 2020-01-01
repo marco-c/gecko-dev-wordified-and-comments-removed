@@ -131,13 +131,9 @@ aReply
 ;
 }
 ;
-typedef
-SyncListener
-Listener
-;
 SyncChannel
 (
-Listener
+SyncListener
 *
 aListener
 )
