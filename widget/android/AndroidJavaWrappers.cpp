@@ -5601,10 +5601,6 @@ AndroidGeckoLayerClient
 :
 :
 jViewportCtor
-x
-y
-width
-height
 pageLeft
 pageTop
 pageRight
@@ -5613,6 +5609,14 @@ cssPageLeft
 cssPageTop
 cssPageRight
 cssPageBottom
+x
+y
+x
++
+width
+y
++
+height
 zoom
 )
 ;
