@@ -1223,6 +1223,12 @@ aStyleContext
 =
 0
 ;
+nsCSSShadowArray
+*
+GetEffectiveBoxShadows
+(
+)
+;
 nsIFrame
 *
 GetParent
