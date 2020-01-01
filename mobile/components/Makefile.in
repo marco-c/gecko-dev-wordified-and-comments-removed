@@ -545,10 +545,6 @@ UpdatePrompt
 .
 js
 \
-SSLCertErrorDialog
-.
-js
-\
 (
 NULL
 )
