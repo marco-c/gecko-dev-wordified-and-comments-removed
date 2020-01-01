@@ -157,6 +157,10 @@ nsIDOMCSSMozDocumentRule
 .
 idl
 \
+nsIDOMCSSSupportsRule
+.
+idl
+\
 nsIDOMMozCSSKeyframeRule
 .
 idl

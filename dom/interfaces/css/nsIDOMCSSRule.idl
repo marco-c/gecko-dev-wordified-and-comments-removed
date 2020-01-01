@@ -245,6 +245,13 @@ NAMESPACE_RULE
 =
 10
 ;
+const
+unsigned
+short
+SUPPORTS_RULE
+=
+12
+;
 readonly
 attribute
 unsigned

@@ -617,6 +617,10 @@ test_style_struct_copy_constructors
 .
 html
 \
+test_supports_rules
+.
+html
+\
 test_system_font_serialization
 .
 html
