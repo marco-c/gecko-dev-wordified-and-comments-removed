@@ -539,12 +539,6 @@ srcdir
 .
 /
 build
-EXTRA_PP_COMPONENTS
-=
-\
-(
-NULL
-)
 EXTRA_COMPONENTS
 =
 \
