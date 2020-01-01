@@ -285,6 +285,10 @@ test_delayNode
 .
 html
 \
+test_delayNodeAtMax
+.
+html
+\
 test_delayNodeSmallMaxDelay
 .
 html
