@@ -1096,8 +1096,9 @@ g_type_class_ref
 slaveType
 )
 ;
-gtk_xim_context_class
-=
+(
+void
+)
 gtk_xim_context_class
 ;
 }
@@ -1125,8 +1126,9 @@ g_type_class_ref
 slaveType
 )
 ;
-gtk_iiim_context_class
-=
+(
+void
+)
 gtk_iiim_context_class
 ;
 }
