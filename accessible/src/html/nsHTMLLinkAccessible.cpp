@@ -434,7 +434,7 @@ bool
 nsHTMLLinkAccessible
 :
 :
-IsHyperLink
+IsLink
 (
 )
 {

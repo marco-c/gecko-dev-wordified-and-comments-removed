@@ -177,7 +177,7 @@ NativeState
 ;
 virtual
 bool
-IsHyperLink
+IsLink
 (
 )
 ;

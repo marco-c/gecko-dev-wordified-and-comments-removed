@@ -70,7 +70,7 @@ NS_ENSURE_TRUE
 accWrap
 -
 >
-IsHyperLink
+IsLink
 (
 )
 nsnull

@@ -618,7 +618,7 @@ bool
 nsXULLinkAccessible
 :
 :
-IsHyperLink
+IsLink
 (
 )
 {
@@ -639,7 +639,7 @@ if
 nsAccessible
 :
 :
-IsHyperLink
+IsLink
 (
 )
 )
@@ -670,7 +670,7 @@ if
 nsAccessible
 :
 :
-IsHyperLink
+IsLink
 (
 )
 )

@@ -1545,11 +1545,10 @@ MAI_INTERFACE_IMAGE
 }
 if
 (
-IsHyperLink
+IsLink
 (
 )
 )
-{
 interfacesBits
 |
 =
@@ -1558,7 +1557,6 @@ interfacesBits
 <
 MAI_INTERFACE_HYPERLINK_IMPL
 ;
-}
 if
 (
 !

@@ -548,7 +548,7 @@ NS_ASSERTION
 mActionAcc
 -
 >
-IsHyperLink
+IsLink
 (
 )
 "
@@ -566,7 +566,7 @@ if
 mActionAcc
 -
 >
-IsHyperLink
+IsLink
 (
 )
 )
