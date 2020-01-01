@@ -10390,6 +10390,14 @@ View
 GONE
 )
 ;
+GeckoApp
+.
+surfaceView
+.
+hideStartupBitmap
+(
+)
+;
 }
 }
 )
