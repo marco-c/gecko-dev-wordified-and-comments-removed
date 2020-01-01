@@ -6719,7 +6719,7 @@ allocKind
 templateObject
 -
 >
-getAllocKind
+tenuredGetAllocKind
 (
 )
 ;

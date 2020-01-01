@@ -2386,7 +2386,7 @@ allocKind
 templateObject
 -
 >
-getAllocKind
+tenuredGetAllocKind
 (
 )
 ;
@@ -2630,7 +2630,7 @@ allocKind
 templateObject
 -
 >
-getAllocKind
+tenuredGetAllocKind
 (
 )
 ;

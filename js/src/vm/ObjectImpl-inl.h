@@ -1692,7 +1692,7 @@ js
 ObjectImpl
 :
 :
-sizeOfThis
+tenuredSizeOfThis
 (
 )
 const
@@ -1709,7 +1709,7 @@ Arena
 :
 thingSize
 (
-getAllocKind
+tenuredGetAllocKind
 (
 )
 )

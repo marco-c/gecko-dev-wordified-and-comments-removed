@@ -30,14 +30,8 @@ str
 {
 JS_ASSERT
 (
-gc
-:
-:
-GetGCKindSlots
+numFixedSlots
 (
-getAllocKind
-(
-)
 )
 =
 =
