@@ -3586,7 +3586,7 @@ _tracker
 score
 +
 "
-exceeds
+reaches
 threshold
 "
 +
@@ -3703,7 +3703,7 @@ score
 "
 does
 not
-exceed
+reach
 threshold
 "
 +
