@@ -2282,7 +2282,7 @@ mChannel
 ;
 if
 (
-mEngineReceiving
+mEngineTransmitting
 )
 {
 if
@@ -2434,7 +2434,7 @@ __FUNCTION__
 )
 ;
 return
-0
+len
 ;
 }
 else
@@ -2522,7 +2522,7 @@ __FUNCTION__
 )
 ;
 return
-0
+len
 ;
 }
 else
