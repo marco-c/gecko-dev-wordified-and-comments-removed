@@ -87,6 +87,10 @@ MOCHITEST_FILES
 :
 =
 \
+audioBufferSourceNodeNeutered_worker
+.
+js
+\
 webaudio
 .
 js
@@ -218,6 +222,10 @@ test_audioBufferSourceNodeLoopStartEnd
 html
 \
 test_audioBufferSourceNodeLoopStartEndSame
+.
+html
+\
+test_audioBufferSourceNodeNeutered
 .
 html
 \
