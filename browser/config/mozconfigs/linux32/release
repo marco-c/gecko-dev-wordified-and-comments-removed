@@ -35,7 +35,7 @@ unix
 /
 mozconfig
 .
-linux
+linux32
 #
 Avoid
 dependency
