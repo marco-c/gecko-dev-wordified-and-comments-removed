@@ -133,6 +133,13 @@ h
 #
 include
 "
+nsILocalFile
+.
+h
+"
+#
+include
+"
 nsDNSPrefetch
 .
 h
@@ -1235,6 +1242,12 @@ mOfflineCacheAccess
 ;
 nsCString
 mOfflineCacheClientID
+;
+nsCOMPtr
+<
+nsILocalFile
+>
+mProfileDirectory
 ;
 nsCOMPtr
 <
