@@ -383,6 +383,9 @@ mCMEE
 bool
 mCMER
 ;
+bool
+mFirstCKPD
+;
 int
 mNetworkSelectionMode
 ;

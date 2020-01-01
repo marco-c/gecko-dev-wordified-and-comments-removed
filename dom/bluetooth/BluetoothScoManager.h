@@ -126,6 +126,11 @@ Listen
 (
 )
 ;
+bool
+IsConnected
+(
+)
+;
 private
 :
 friend
