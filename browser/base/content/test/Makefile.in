@@ -1396,6 +1396,11 @@ browser_private_no_prompt
 .
 js
 \
+browser_blob
+-
+channelname
+.
+js
 (
 NULL
 )
