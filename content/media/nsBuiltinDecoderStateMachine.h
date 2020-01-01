@@ -634,6 +634,11 @@ mStartTime
 mCurrentFrameTime
 ;
 }
+PRInt64
+GetDecodedAudioDuration
+(
+)
+;
 Monitor
 mAudioMonitor
 ;
