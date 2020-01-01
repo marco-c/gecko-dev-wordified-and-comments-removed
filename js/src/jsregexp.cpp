@@ -9886,6 +9886,9 @@ insImmPtr
 (
 charSet
 )
+(
+int
+)
 offsetof
 (
 RECharSet
