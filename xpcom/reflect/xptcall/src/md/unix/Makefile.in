@@ -877,10 +877,10 @@ arm
 CPPSRCS
 :
 =
-xptcinvoke_arm
+xptcinvoke_nto_arm
 .
 cpp
-xptcstubs_arm
+xptcstubs_nto_arm
 .
 cpp
 endif
