@@ -437,6 +437,8 @@ ifeq
 MOZ_BUILD_APP
 )
 mobile
+/
+xul
 )
 PROGRAM
 =
