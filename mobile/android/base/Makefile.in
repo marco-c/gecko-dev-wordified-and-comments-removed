@@ -920,7 +920,7 @@ res
 /
 menu
 -
-large
+xlarge
 -
 v11
 /
@@ -1897,14 +1897,14 @@ xml
 (
 NULL
 )
-RES_LAYOUT_LARGE
+RES_LAYOUT_XLARGE
 =
 \
 res
 /
 layout
 -
-large
+xlarge
 /
 awesomebar_search
 .
@@ -1914,7 +1914,7 @@ res
 /
 layout
 -
-large
+xlarge
 /
 awesomebar_tab_indicator
 .
@@ -1924,7 +1924,7 @@ res
 /
 layout
 -
-large
+xlarge
 /
 browser_toolbar
 .
@@ -1934,7 +1934,7 @@ res
 /
 layout
 -
-large
+xlarge
 /
 browser_toolbar_menu
 .
@@ -1944,7 +1944,7 @@ res
 /
 layout
 -
-large
+xlarge
 /
 doorhangerpopup
 .
@@ -1954,7 +1954,7 @@ res
 /
 layout
 -
-large
+xlarge
 /
 gecko_app
 .
@@ -1964,7 +1964,7 @@ res
 /
 layout
 -
-large
+xlarge
 /
 remote_tabs_child
 .
@@ -1974,7 +1974,7 @@ res
 /
 layout
 -
-large
+xlarge
 /
 remote_tabs_group
 .
@@ -1984,7 +1984,7 @@ res
 /
 layout
 -
-large
+xlarge
 /
 site_identity_popup
 .
@@ -1994,7 +1994,7 @@ res
 /
 layout
 -
-large
+xlarge
 /
 tabs_panel_toolbar
 .
@@ -2004,7 +2004,7 @@ res
 /
 layout
 -
-large
+xlarge
 /
 tabs_panel_toolbar_menu
 .
@@ -2014,7 +2014,7 @@ res
 /
 layout
 -
-large
+xlarge
 /
 tabs_row
 .
@@ -2117,14 +2117,14 @@ xml
 (
 NULL
 )
-RES_VALUES_LARGE
+RES_VALUES_XLARGE
 =
 \
 res
 /
 values
 -
-large
+xlarge
 /
 dimens
 .
@@ -2134,7 +2134,7 @@ res
 /
 values
 -
-large
+xlarge
 /
 styles
 .
@@ -6163,14 +6163,14 @@ png
 (
 NULL
 )
-RES_DRAWABLE_LARGE_MDPI
+RES_DRAWABLE_XLARGE_MDPI
 =
 \
 res
 /
 drawable
 -
-large
+xlarge
 -
 mdpi
 /
@@ -6182,7 +6182,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 mdpi
 /
@@ -6194,7 +6194,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 mdpi
 /
@@ -6206,7 +6206,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 mdpi
 /
@@ -6218,7 +6218,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 mdpi
 /
@@ -6232,7 +6232,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 mdpi
 /
@@ -6246,7 +6246,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 mdpi
 /
@@ -6260,7 +6260,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 mdpi
 /
@@ -6274,7 +6274,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 mdpi
 /
@@ -6288,7 +6288,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 mdpi
 /
@@ -6300,7 +6300,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 mdpi
 /
@@ -6312,7 +6312,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 mdpi
 /
@@ -6324,7 +6324,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 mdpi
 /
@@ -6336,7 +6336,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 mdpi
 /
@@ -6348,7 +6348,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 mdpi
 /
@@ -6360,7 +6360,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 mdpi
 /
@@ -6372,7 +6372,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 mdpi
 /
@@ -6384,7 +6384,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 mdpi
 /
@@ -6396,7 +6396,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 mdpi
 /
@@ -6408,7 +6408,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 mdpi
 /
@@ -6420,7 +6420,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 mdpi
 /
@@ -6432,7 +6432,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 mdpi
 /
@@ -6444,7 +6444,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 mdpi
 /
@@ -6456,7 +6456,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 mdpi
 /
@@ -6468,7 +6468,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 mdpi
 /
@@ -6480,7 +6480,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 mdpi
 /
@@ -6492,7 +6492,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 mdpi
 /
@@ -6504,7 +6504,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 mdpi
 /
@@ -6516,7 +6516,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 mdpi
 /
@@ -6528,7 +6528,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 mdpi
 /
@@ -6540,7 +6540,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 mdpi
 /
@@ -6551,14 +6551,14 @@ png
 (
 NULL
 )
-RES_DRAWABLE_LARGE_HDPI
+RES_DRAWABLE_XLARGE_HDPI
 =
 \
 res
 /
 drawable
 -
-large
+xlarge
 -
 hdpi
 /
@@ -6570,7 +6570,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 hdpi
 /
@@ -6582,7 +6582,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 hdpi
 /
@@ -6594,7 +6594,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 hdpi
 /
@@ -6608,7 +6608,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 hdpi
 /
@@ -6622,7 +6622,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 hdpi
 /
@@ -6636,7 +6636,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 hdpi
 /
@@ -6650,7 +6650,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 hdpi
 /
@@ -6664,7 +6664,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 hdpi
 /
@@ -6676,7 +6676,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 hdpi
 /
@@ -6688,7 +6688,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 hdpi
 /
@@ -6700,7 +6700,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 hdpi
 /
@@ -6712,7 +6712,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 hdpi
 /
@@ -6724,7 +6724,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 hdpi
 /
@@ -6736,7 +6736,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 hdpi
 /
@@ -6748,7 +6748,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 hdpi
 /
@@ -6760,7 +6760,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 hdpi
 /
@@ -6772,7 +6772,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 hdpi
 /
@@ -6784,7 +6784,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 hdpi
 /
@@ -6796,7 +6796,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 hdpi
 /
@@ -6808,7 +6808,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 hdpi
 /
@@ -6820,7 +6820,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 hdpi
 /
@@ -6832,7 +6832,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 hdpi
 /
@@ -6844,7 +6844,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 hdpi
 /
@@ -6856,7 +6856,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 hdpi
 /
@@ -6868,7 +6868,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 hdpi
 /
@@ -6880,7 +6880,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 hdpi
 /
@@ -6892,7 +6892,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 hdpi
 /
@@ -6903,14 +6903,14 @@ png
 (
 NULL
 )
-RES_DRAWABLE_LARGE_XHDPI
+RES_DRAWABLE_XLARGE_XHDPI
 =
 \
 res
 /
 drawable
 -
-large
+xlarge
 -
 xhdpi
 /
@@ -6922,7 +6922,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 xhdpi
 /
@@ -6934,7 +6934,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 xhdpi
 /
@@ -6946,7 +6946,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 xhdpi
 /
@@ -6960,7 +6960,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 xhdpi
 /
@@ -6974,7 +6974,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 xhdpi
 /
@@ -6988,7 +6988,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 xhdpi
 /
@@ -7002,7 +7002,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 xhdpi
 /
@@ -7016,7 +7016,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 xhdpi
 /
@@ -7028,7 +7028,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 xhdpi
 /
@@ -7040,7 +7040,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 xhdpi
 /
@@ -7052,7 +7052,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 xhdpi
 /
@@ -7064,7 +7064,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 xhdpi
 /
@@ -7076,7 +7076,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 xhdpi
 /
@@ -7088,7 +7088,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 xhdpi
 /
@@ -7100,7 +7100,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 xhdpi
 /
@@ -7112,7 +7112,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 xhdpi
 /
@@ -7124,7 +7124,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 xhdpi
 /
@@ -7136,7 +7136,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 xhdpi
 /
@@ -7148,7 +7148,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 xhdpi
 /
@@ -7160,7 +7160,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 xhdpi
 /
@@ -7172,7 +7172,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 xhdpi
 /
@@ -7184,7 +7184,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 xhdpi
 /
@@ -7196,7 +7196,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 xhdpi
 /
@@ -7208,7 +7208,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 xhdpi
 /
@@ -7220,7 +7220,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 xhdpi
 /
@@ -7232,7 +7232,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 xhdpi
 /
@@ -7244,7 +7244,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 xhdpi
 /
@@ -8062,7 +8062,7 @@ RES_LAYOUT
 RES_LAYOUT_LAND_V14
 )
 (
-RES_LAYOUT_LARGE
+RES_LAYOUT_XLARGE
 )
 (
 RES_VALUES
@@ -8071,13 +8071,13 @@ RES_VALUES
 RES_VALUES_V11
 )
 (
-RES_VALUES_LARGE
+RES_VALUES_XLARGE
 )
 (
 RES_VALUES_LAND_V14
 )
 (
-RES_VALUES_LARGE_V14
+RES_VALUES_XLARGE_V14
 )
 (
 RES_XML
@@ -8122,13 +8122,13 @@ RES_DRAWABLE_LAND_HDPI_V14
 RES_DRAWABLE_LAND_XHDPI_V14
 )
 (
-RES_DRAWABLE_LARGE_MDPI
+RES_DRAWABLE_XLARGE_MDPI
 )
 (
-RES_DRAWABLE_LARGE_HDPI
+RES_DRAWABLE_XLARGE_HDPI
 )
 (
-RES_DRAWABLE_LARGE_XHDPI
+RES_DRAWABLE_XLARGE_XHDPI
 )
 (
 RES_COLOR
@@ -8158,7 +8158,7 @@ res
 /
 layout
 -
-large
+xlarge
 \
 res
 /
@@ -8174,7 +8174,7 @@ res
 /
 values
 -
-large
+xlarge
 \
 res
 /
@@ -8188,7 +8188,7 @@ res
 /
 values
 -
-large
+xlarge
 -
 v14
 \
@@ -8300,7 +8300,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 mdpi
 \
@@ -8308,7 +8308,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 hdpi
 \
@@ -8316,7 +8316,7 @@ res
 /
 drawable
 -
-large
+xlarge
 -
 xhdpi
 \
@@ -8338,7 +8338,7 @@ res
 /
 menu
 -
-large
+xlarge
 -
 v11
 \
