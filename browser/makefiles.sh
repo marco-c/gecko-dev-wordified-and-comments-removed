@@ -852,14 +852,6 @@ windows
 ]
 ;
 then
-if
-[
-"
-MOZ_INSTALLER
-"
-]
-;
-then
 add_makefiles
 "
 browser
@@ -870,7 +862,6 @@ windows
 /
 Makefile
 "
-fi
 fi
 if
 [

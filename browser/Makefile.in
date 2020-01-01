@@ -448,15 +448,12 @@ OS_ARCH
 )
 WINNT
 )
-ifdef
-MOZ_INSTALLER
 DIRS
 +
 =
 installer
 /
 windows
-endif
 endif
 include
 (
@@ -475,8 +472,6 @@ OS_ARCH
 )
 WINNT
 )
-ifdef
-MOZ_INSTALLER
 #
 For
 Windows
@@ -524,6 +519,5 @@ installer
 /
 windows
 maintenanceservice_installer
-endif
 endif
 endif

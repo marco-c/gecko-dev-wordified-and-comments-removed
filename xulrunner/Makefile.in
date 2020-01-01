@@ -449,15 +449,12 @@ OS_ARCH
 )
 WINNT
 )
-ifdef
-MOZ_INSTALLER
 DIRS
 +
 =
 installer
 /
 windows
-endif
 endif
 ifeq
 (
