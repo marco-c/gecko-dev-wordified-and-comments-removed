@@ -466,7 +466,7 @@ ContentProcessParent
 .
 h
 \
-ContentProcessThread
+ContentProcessProcess
 .
 h
 \
@@ -476,7 +476,7 @@ NULL
 CPPSRCS
 =
 \
-ContentProcessThread
+ContentProcessProcess
 .
 cpp
 \
@@ -602,6 +602,12 @@ src
 \
 (
 NULL
+)
+CXXFLAGS
++
+=
+(
+TK_CFLAGS
 )
 DEFINES
 +

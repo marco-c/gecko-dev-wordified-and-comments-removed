@@ -1145,6 +1145,12 @@ include
 (
 NULL
 )
+CXXFLAGS
++
+=
+(
+TK_CFLAGS
+)
 DEFINES
 +
 =
