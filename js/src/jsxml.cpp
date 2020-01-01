@@ -23126,7 +23126,7 @@ false
 *
 isIndex
 =
-js_StringIsIndex
+StringIsArrayIndex
 (
 str
 indexp
