@@ -2816,14 +2816,6 @@ flavorStr
 .
 EqualsLiteral
 (
-kJPGImageMime
-)
-|
-|
-flavorStr
-.
-EqualsLiteral
-(
 kGIFImageMime
 )
 )
