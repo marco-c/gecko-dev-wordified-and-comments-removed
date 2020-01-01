@@ -27556,6 +27556,9 @@ isWindowLevelMouseExit
 nsPoint
 eventPoint
 ;
+uint32_t
+flags
+;
 if
 (
 aEvent
@@ -27567,6 +27570,11 @@ message
 NS_TOUCH_START
 )
 {
+flags
+|
+=
+INPUT_IGNORE_ROOT_SCROLL_FRAME
+;
 nsTouchEvent
 *
 touchEvent
@@ -27674,11 +27682,6 @@ nullptr
 )
 )
 {
-uint32_t
-flags
-=
-0
-;
 eventPoint
 =
 nsLayoutUtils
@@ -27994,11 +27997,6 @@ frame
 )
 ;
 }
-uint32_t
-flags
-=
-0
-;
 if
 (
 aEvent
