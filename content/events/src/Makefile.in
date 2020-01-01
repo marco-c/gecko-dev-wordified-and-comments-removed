@@ -598,6 +598,10 @@ nsDOMTouchEvent
 .
 cpp
 \
+nsDOMCustomEvent
+.
+cpp
+\
 (
 NULL
 )

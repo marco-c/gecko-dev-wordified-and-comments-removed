@@ -1476,3 +1476,7 @@ DOMCI_CLASS
 (
 MediaQueryList
 )
+DOMCI_CLASS
+(
+CustomEvent
+)
