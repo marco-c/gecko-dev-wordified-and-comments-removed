@@ -13161,11 +13161,11 @@ if
 app
 .
 installState
-=
+!
 =
 =
 "
-installed
+pending
 "
 )
 {
