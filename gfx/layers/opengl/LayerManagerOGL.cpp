@@ -2291,6 +2291,8 @@ LOCAL_GL_FRAMEBUFFER
 0
 )
 ;
+return
+;
 }
 if
 (
