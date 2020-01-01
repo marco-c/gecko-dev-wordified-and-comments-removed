@@ -1534,7 +1534,7 @@ hide
 toggleHTMLPanel
 :
 function
-TP_toggleHTMLPanel
+IUI_toggleHTMLPanel
 (
 )
 {
@@ -3304,6 +3304,7 @@ select
 (
 aNode
 aScroll
+aFrom
 )
 ;
 this
