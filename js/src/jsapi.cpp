@@ -26073,6 +26073,14 @@ ifdef
 JS_TRACER
 JS_ASSERT_IF
 (
+cx
+-
+>
+thread
+(
+)
+&
+&
 JS_ON_TRACE
 (
 cx
