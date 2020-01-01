@@ -68,16 +68,6 @@ tm
 def
 STL_FLAGS
 =
-CSRCS
-=
-\
-nsTraceMalloc
-.
-c
-\
-(
-NULL
-)
 DEFINES
 +
 =

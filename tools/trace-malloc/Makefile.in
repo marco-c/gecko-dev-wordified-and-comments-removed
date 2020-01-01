@@ -98,15 +98,6 @@ OBJ_SUFFIX
 )
 )
 endif
-CSRCS
-+
-=
-(
-EXTRACSRCS
-)
-(
-PROGCSRCS
-)
 CPPSRCS
 +
 =
