@@ -246,6 +246,11 @@ ContextStack
 "
 )
 ;
+JS_BeginRequest
+(
+cx
+)
+;
 JSContext
 *
 currentCX
@@ -567,6 +572,11 @@ fp
 mFrame
 .
 down
+;
+JS_EndRequest
+(
+mContext
+)
 ;
 }
 NS_IMPL_AGGREGATED

@@ -70,13 +70,6 @@ h
 #
 include
 "
-nsIControllers
-.
-h
-"
-#
-include
-"
 nsIDocShellTreeOwner
 .
 h
@@ -398,6 +391,9 @@ nsIDOMEvent
 ;
 class
 nsIScrollableView
+;
+class
+nsIControllers
 ;
 class
 nsBarProp
