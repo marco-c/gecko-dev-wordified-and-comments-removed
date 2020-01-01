@@ -12283,6 +12283,16 @@ continue
 ;
 }
 }
+cx
+-
+>
+addTypePropertyId
+(
+ntype
+JSID_VOID
+v
+)
+;
 if
 (
 !
