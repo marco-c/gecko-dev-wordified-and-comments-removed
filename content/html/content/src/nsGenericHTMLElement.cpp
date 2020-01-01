@@ -1156,8 +1156,6 @@ nsCOMPtr
 nsICSSRule
 >
 ruleClone
-;
-rv
 =
 value
 -
@@ -1169,17 +1167,6 @@ GetCSSStyleRuleValue
 >
 Clone
 (
-*
-getter_AddRefs
-(
-ruleClone
-)
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 nsCOMPtr
