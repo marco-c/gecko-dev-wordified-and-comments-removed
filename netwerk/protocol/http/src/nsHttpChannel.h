@@ -1288,6 +1288,11 @@ mTracingEnabled
 :
 1
 ;
+PRUint32
+mForceAllowThirdPartyCookie
+:
+1
+;
 class
 nsContentEncodings
 :
