@@ -51,7 +51,7 @@ MoveOperand
 bool
 inCycle_
 ;
-MacroAssembler
+MacroAssemblerARM
 &
 masm
 ;
@@ -193,7 +193,7 @@ public
 :
 MoveEmitterARM
 (
-MacroAssembler
+MacroAssemblerARM
 &
 masm
 )

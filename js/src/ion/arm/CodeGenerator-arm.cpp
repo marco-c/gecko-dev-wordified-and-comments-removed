@@ -2630,12 +2630,6 @@ __aeabi_idiv
 )
 )
 ;
-masm
-.
-finishABICall
-(
-)
-;
 #
 if
 0
