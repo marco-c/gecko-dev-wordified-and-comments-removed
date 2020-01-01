@@ -84,6 +84,13 @@ notification
 "
 desktopNotification
 "
+"
+contacts
+"
+:
+"
+contacts
+"
 }
 ;
 function
