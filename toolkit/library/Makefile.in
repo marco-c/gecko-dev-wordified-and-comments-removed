@@ -1166,6 +1166,10 @@ EXTRA_DSO_LDOPTS
 \
 -
 framework
+SystemConfiguration
+\
+-
+framework
 QuickTime
 \
 -
