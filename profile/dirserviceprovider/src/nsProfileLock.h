@@ -58,6 +58,13 @@ XP_UNIX
 )
 #
 include
+<
+signal
+.
+h
+>
+#
+include
 "
 prclist
 .
@@ -165,6 +172,12 @@ FatalSignalHandler
 (
 int
 signo
+siginfo_t
+*
+info
+void
+*
+context
 )
 ;
 static
