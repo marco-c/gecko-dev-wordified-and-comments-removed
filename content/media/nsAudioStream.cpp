@@ -520,7 +520,9 @@ mOwner
 -
 >
 mRate
-MOZ_AUDIO_DATA_FORMAT
+Format
+(
+)
 )
 )
 ;
