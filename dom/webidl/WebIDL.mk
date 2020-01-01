@@ -423,6 +423,10 @@ HTMLMapElement
 .
 webidl
 \
+HTMLMediaElement
+.
+webidl
+\
 HTMLMenuElement
 .
 webidl
