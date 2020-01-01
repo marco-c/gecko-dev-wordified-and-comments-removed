@@ -2294,6 +2294,17 @@ const
 =
 0
 ;
+virtual
+TabChild
+*
+GetOwningTabChild
+(
+)
+{
+return
+nullptr
+;
+}
 protected
 :
 nsCOMPtr

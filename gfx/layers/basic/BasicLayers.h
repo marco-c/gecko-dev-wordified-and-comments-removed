@@ -621,6 +621,15 @@ return
 PR_INT32_MAX
 ;
 }
+bool
+CompositorMightResample
+(
+)
+{
+return
+mCompositorMightResample
+;
+}
 protected
 :
 enum
@@ -747,6 +756,9 @@ mCachedSurfaceInUse
 ;
 bool
 mTransactionIncomplete
+;
+bool
+mCompositorMightResample
 ;
 }
 ;
