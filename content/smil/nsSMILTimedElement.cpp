@@ -2827,6 +2827,16 @@ nsresult
 aParseResult
 )
 {
+NS_ABORT_IF_FALSE
+(
+aContextNode
+"
+missing
+context
+node
+"
+)
+;
 bool
 foundMatch
 =
