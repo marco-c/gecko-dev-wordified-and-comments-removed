@@ -1653,15 +1653,6 @@ nsIURI
 aURI
 )
 ;
-static
-PRBool
-IsAboutBlank
-(
-nsIURI
-*
-aURI
-)
-;
 PRBool
 IsOKToLoadURI
 (
