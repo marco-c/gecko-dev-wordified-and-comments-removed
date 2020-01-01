@@ -319,8 +319,13 @@ line_
 )
 ;
 \
-NanoAssertFail
+avmplus
+:
+:
+AvmAssertFail
 (
+"
+"
 )
 ;
 \
