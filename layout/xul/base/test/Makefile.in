@@ -110,6 +110,10 @@ test_bug477754
 .
 xul
 \
+test_popupSizeTo
+.
+xul
+\
 test_stack
 .
 xul
