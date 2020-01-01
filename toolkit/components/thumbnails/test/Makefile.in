@@ -118,6 +118,10 @@ browser_thumbnails_bug727765
 .
 js
 \
+browser_thumbnails_update
+.
+js
+\
 head
 .
 js
