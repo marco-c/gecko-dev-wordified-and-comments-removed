@@ -21760,6 +21760,9 @@ if
 NS_SMILEnabled
 (
 )
+|
+|
+mLoadedAsData
 )
 return
 nsnull
