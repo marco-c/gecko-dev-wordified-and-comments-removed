@@ -444,7 +444,7 @@ WebGLContext
 :
 CreateFloatArray
 (
-nsICanvasFloatArray
+nsIWebGLFloatArray
 *
 *
 retval
@@ -568,7 +568,7 @@ WebGLContext
 :
 CreateByteArray
 (
-nsICanvasByteArray
+nsIWebGLByteArray
 *
 *
 retval
@@ -692,7 +692,7 @@ WebGLContext
 :
 CreateUnsignedByteArray
 (
-nsICanvasUnsignedByteArray
+nsIWebGLUnsignedByteArray
 *
 *
 retval
@@ -816,7 +816,7 @@ WebGLContext
 :
 CreateShortArray
 (
-nsICanvasShortArray
+nsIWebGLShortArray
 *
 *
 retval
@@ -940,7 +940,7 @@ WebGLContext
 :
 CreateUnsignedShortArray
 (
-nsICanvasUnsignedShortArray
+nsIWebGLUnsignedShortArray
 *
 *
 retval
@@ -1064,7 +1064,7 @@ WebGLContext
 :
 CreateIntArray
 (
-nsICanvasIntArray
+nsIWebGLIntArray
 *
 *
 retval
@@ -1188,7 +1188,7 @@ WebGLContext
 :
 CreateUnsignedIntArray
 (
-nsICanvasUnsignedIntArray
+nsIWebGLUnsignedIntArray
 *
 *
 retval
@@ -2555,7 +2555,7 @@ argv
 {
 nsCOMPtr
 <
-nsICanvasArray
+nsIWebGLArray
 >
 canvasArrayObj
 ;
@@ -2588,7 +2588,7 @@ argv
 )
 NS_GET_IID
 (
-nsICanvasArray
+nsIWebGLArray
 )
 getter_AddRefs
 (
@@ -2610,7 +2610,7 @@ canvasArrayObj
 {
 nsCOMPtr
 <
-nsICanvasArrayBuffer
+nsIWebGLArrayBuffer
 >
 arrayBuf
 ;
@@ -2640,7 +2640,7 @@ argv
 )
 NS_GET_IID
 (
-nsICanvasArrayBuffer
+nsIWebGLArrayBuffer
 )
 getter_AddRefs
 (
@@ -2883,7 +2883,7 @@ argv
 {
 nsCOMPtr
 <
-nsICanvasArray
+nsIWebGLArray
 >
 canvasArrayObj
 ;
@@ -2916,7 +2916,7 @@ argv
 )
 NS_GET_IID
 (
-nsICanvasArray
+nsIWebGLArray
 )
 getter_AddRefs
 (
@@ -2938,7 +2938,7 @@ canvasArrayObj
 {
 nsCOMPtr
 <
-nsICanvasArrayBuffer
+nsIWebGLArrayBuffer
 >
 arrayBuf
 ;
@@ -2968,7 +2968,7 @@ argv
 )
 NS_GET_IID
 (
-nsICanvasArrayBuffer
+nsIWebGLArrayBuffer
 )
 getter_AddRefs
 (
@@ -11215,7 +11215,7 @@ name
 (
 GLint
 idx
-nsICanvasArray
+nsIWebGLArray
 *
 v
 )
@@ -11652,7 +11652,7 @@ name
 (
 GLuint
 idx
-nsICanvasArray
+nsIWebGLArray
 *
 v
 )
@@ -12085,7 +12085,7 @@ GLint
 location
 GLboolean
 transpose
-nsICanvasArray
+nsIWebGLArray
 *
 value
 )
@@ -14608,7 +14608,7 @@ NS_ERROR_DOM_SYNTAX_ERR
 }
 nsCOMPtr
 <
-nsICanvasArray
+nsIWebGLArray
 >
 arrayObj
 ;
@@ -15496,7 +15496,7 @@ NS_ERROR_DOM_SYNTAX_ERR
 }
 nsCOMPtr
 <
-nsICanvasArray
+nsIWebGLArray
 >
 arrayObj
 ;
