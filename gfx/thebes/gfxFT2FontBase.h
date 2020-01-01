@@ -93,6 +93,15 @@ GetSpaceGlyph
 (
 )
 ;
+virtual
+hb_blob_t
+*
+GetFontTable
+(
+PRUint32
+aTag
+)
+;
 cairo_scaled_font_t
 *
 CairoScaledFont
