@@ -913,7 +913,9 @@ virtual
 void
 AdjustPopupsOnWindowChange
 (
-void
+nsPIDOMWindow
+*
+aWindow
 )
 ;
 static
