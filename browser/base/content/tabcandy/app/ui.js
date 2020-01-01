@@ -3759,8 +3759,10 @@ isTabCandyFocused
 (
 )
 )
+{
 return
 ;
+}
 }
 var
 items
