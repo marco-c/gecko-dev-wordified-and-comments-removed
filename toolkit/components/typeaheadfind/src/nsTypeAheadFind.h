@@ -99,13 +99,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsISound
 .
 h

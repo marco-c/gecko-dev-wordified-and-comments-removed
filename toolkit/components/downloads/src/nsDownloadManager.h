@@ -133,13 +133,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsCOMArray
 .
 h
