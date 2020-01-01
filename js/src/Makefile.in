@@ -2044,17 +2044,6 @@ config
 .
 status
 \
-config
-/
-myrules
-.
-mk
-config
-/
-myconfig
-.
-mk
-\
 unallmakefiles
 js
 -
