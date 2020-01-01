@@ -351,6 +351,9 @@ mHTMLCommandControllerId
 nsWeakPtr
 mDocShell
 ;
+nsWeakPtr
+mExistingEditor
+;
 }
 ;
 #

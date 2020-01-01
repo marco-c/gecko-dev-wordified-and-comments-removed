@@ -531,6 +531,10 @@ test_bug611182
 .
 html
 \
+test_bug612447
+.
+html
+\
 test_CF_HTML_clipboard
 .
 html
