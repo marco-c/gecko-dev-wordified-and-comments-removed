@@ -343,7 +343,7 @@ if
 frame
 )
 return
-NULL
+nullptr
 ;
 unhand
 (
@@ -422,7 +422,7 @@ if
 pcOb
 )
 return
-NULL
+nullptr
 ;
 return
 pcOb
@@ -1395,13 +1395,13 @@ JHandle
 *
 msg
 =
-NULL
+nullptr
 ;
 JHandle
 *
 filename
 =
-NULL
+nullptr
 ;
 int
 lineno
@@ -1412,7 +1412,7 @@ JHandle
 *
 linebuf
 =
-NULL
+nullptr
 ;
 int
 tokenOffset
@@ -1735,22 +1735,22 @@ else
 JSD_SetDebugBreakHook
 (
 context
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 JSD_SetErrorReporter
 (
 context
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 JSD_SetScriptHook
 (
 context
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 context
@@ -2044,7 +2044,7 @@ controller
 jsdframe
 )
 return
-NULL
+nullptr
 ;
 filenameC
 =
@@ -2059,7 +2059,7 @@ if
 filenameC
 )
 return
-NULL
+nullptr
 ;
 srcC
 =
@@ -2080,7 +2080,7 @@ filenameC
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 srclen
@@ -2121,7 +2121,7 @@ if
 success
 )
 return
-NULL
+nullptr
 ;
 if
 (
@@ -2137,7 +2137,7 @@ rval
 )
 )
 return
-NULL
+nullptr
 ;
 jsstr
 =
@@ -2155,7 +2155,7 @@ if
 jsstr
 )
 return
-NULL
+nullptr
 ;
 return
 makeJavaString
@@ -2381,7 +2381,7 @@ context
 controller
 )
 return
-NULL
+nullptr
 ;
 jsdstate
 =
@@ -2403,7 +2403,7 @@ if
 jsdstate
 )
 return
-NULL
+nullptr
 ;
 jsdframe
 =
@@ -2419,7 +2419,7 @@ if
 jsdframe
 )
 return
-NULL
+nullptr
 ;
 return
 (
@@ -2473,7 +2473,7 @@ context
 controller
 )
 return
-NULL
+nullptr
 ;
 jsdframeCur
 =
@@ -2495,7 +2495,7 @@ if
 jsdframeCur
 )
 return
-NULL
+nullptr
 ;
 threadState
 =
@@ -2518,7 +2518,7 @@ if
 threadState
 )
 return
-NULL
+nullptr
 ;
 jsdthreadstate
 =
@@ -2540,7 +2540,7 @@ if
 jsdthreadstate
 )
 return
-NULL
+nullptr
 ;
 jsdframeCaller
 =
@@ -2557,7 +2557,7 @@ if
 jsdframeCaller
 )
 return
-NULL
+nullptr
 ;
 return
 (
@@ -2631,7 +2631,7 @@ controller
 ee
 )
 return
-NULL
+nullptr
 ;
 jsdframe
 =
@@ -2653,7 +2653,7 @@ if
 jsdframe
 )
 return
-NULL
+nullptr
 ;
 threadState
 =
@@ -2676,7 +2676,7 @@ if
 threadState
 )
 return
-NULL
+nullptr
 ;
 jsdthreadstate
 =
@@ -2698,7 +2698,7 @@ if
 jsdthreadstate
 )
 return
-NULL
+nullptr
 ;
 jsdscript
 =
@@ -2715,7 +2715,7 @@ if
 jsdscript
 )
 return
-NULL
+nullptr
 ;
 script
 =
@@ -2731,7 +2731,7 @@ if
 script
 )
 return
-NULL
+nullptr
 ;
 pc
 =
@@ -2748,7 +2748,7 @@ if
 pc
 )
 return
-NULL
+nullptr
 ;
 return
 (
@@ -2820,7 +2820,7 @@ controller
 ee
 )
 return
-NULL
+nullptr
 ;
 script
 =
@@ -2838,7 +2838,7 @@ if
 script
 )
 return
-NULL
+nullptr
 ;
 jsdscript
 =
@@ -2860,7 +2860,7 @@ if
 jsdscript
 )
 return
-NULL
+nullptr
 ;
 pc
 =
@@ -2905,7 +2905,7 @@ if
 newPCOb
 )
 return
-NULL
+nullptr
 ;
 return
 (
@@ -2956,7 +2956,7 @@ url
 )
 {
 return
-NULL
+nullptr
 ;
 }
 void

@@ -113,7 +113,7 @@ script
 )
 )
 return
-NULL
+nullptr
 ;
 JSDScript
 *
@@ -154,7 +154,7 @@ lineno
 0
 )
 return
-NULL
+nullptr
 ;
 jsdscript
 =
@@ -177,7 +177,7 @@ if
 jsdscript
 )
 return
-NULL
+nullptr
 ;
 raw_filename
 =
@@ -255,7 +255,7 @@ jsdscript
 >
 data
 =
-NULL
+nullptr
 ;
 jsdscript
 -
@@ -636,13 +636,13 @@ JSDScript
 *
 iterp
 =
-NULL
+nullptr
 ;
 JSDScript
 *
 jsdscript
 =
-NULL
+nullptr
 ;
 OutputDebugString
 (
@@ -658,7 +658,7 @@ n
 ;
 while
 (
-NULL
+nullptr
 !
 =
 (
@@ -1439,7 +1439,7 @@ script
 >
 profileData
 =
-NULL
+nullptr
 ;
 }
 }
@@ -1550,7 +1550,7 @@ jsdc
 scripts
 )
 return
-NULL
+nullptr
 ;
 *
 iterp
@@ -1750,7 +1750,7 @@ if
 fun
 )
 return
-NULL
+nullptr
 ;
 str
 =
@@ -2323,7 +2323,7 @@ JSDScript
 *
 jsdscript
 =
-NULL
+nullptr
 ;
 JSDContext
 *
@@ -2485,7 +2485,7 @@ JSDScript
 *
 jsdscript
 =
-NULL
+nullptr
 ;
 JSDContext
 *
@@ -2605,7 +2605,7 @@ jsdc
 >
 scriptHook
 :
-NULL
+nullptr
 ;
 hookData
 =
@@ -2754,7 +2754,7 @@ jsdhook
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 static
@@ -2942,7 +2942,7 @@ JSD_LOCK
 ;
 if
 (
-NULL
+nullptr
 =
 =
 (
@@ -3371,8 +3371,8 @@ jsbytecode
 *
 )
 pc
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 }
@@ -3501,7 +3501,7 @@ JSDScript
 *
 iterp
 =
-NULL
+nullptr
 ;
 JSD_LOCK
 (
@@ -3509,7 +3509,7 @@ JSD_LOCK
 ;
 while
 (
-NULL
+nullptr
 !
 =
 (

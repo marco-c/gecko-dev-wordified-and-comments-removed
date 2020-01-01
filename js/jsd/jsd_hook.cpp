@@ -491,7 +491,7 @@ if
 hook
 &
 &
-NULL
+nullptr
 !
 =
 (
@@ -652,7 +652,7 @@ if
 hook
 &
 &
-NULL
+nullptr
 !
 =
 (
@@ -758,8 +758,8 @@ jsdc
 -
 >
 jsrt
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 jsdc
@@ -767,7 +767,7 @@ jsdc
 >
 interruptHook
 =
-NULL
+nullptr
 ;
 JSD_UNLOCK
 (
@@ -833,7 +833,7 @@ jsdc
 >
 debugBreakHook
 =
-NULL
+nullptr
 ;
 JSD_UNLOCK
 (
@@ -899,7 +899,7 @@ jsdc
 >
 debuggerHook
 =
-NULL
+nullptr
 ;
 JSD_UNLOCK
 (
@@ -965,7 +965,7 @@ jsdc
 >
 throwHook
 =
-NULL
+nullptr
 ;
 JSD_UNLOCK
 (
@@ -1031,7 +1031,7 @@ jsdc
 >
 functionHook
 =
-NULL
+nullptr
 ;
 JSD_UNLOCK
 (
@@ -1097,7 +1097,7 @@ jsdc
 >
 toplevelHook
 =
-NULL
+nullptr
 ;
 JSD_UNLOCK
 (

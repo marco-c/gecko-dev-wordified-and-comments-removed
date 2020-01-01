@@ -234,14 +234,14 @@ he
 >
 value
 =
-NULL
+nullptr
 ;
 he
 -
 >
 key
 =
-NULL
+nullptr
 ;
 return
 HT_ENUMERATE_NEXT
@@ -344,8 +344,8 @@ JS_NewHashTable
 JS_HashString
 _compareAtomKeys
 _compareAtoms
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 #
@@ -390,7 +390,7 @@ jsdc
 >
 atoms
 _atom_smasher
-NULL
+nullptr
 )
 ;
 JS_HashTableDestroy
@@ -406,7 +406,7 @@ jsdc
 >
 atoms
 =
-NULL
+nullptr
 ;
 }
 }
@@ -439,7 +439,7 @@ JS_ASSERT
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 JSD_LOCK_ATOMS
@@ -543,7 +543,7 @@ atom
 ;
 atom
 =
-NULL
+nullptr
 ;
 }
 }
