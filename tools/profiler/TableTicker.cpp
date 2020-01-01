@@ -301,7 +301,7 @@ ThreadLocal
 <
 ProfileStack
 >
-pkey_stack
+tlsStack
 ;
 mozilla
 :
@@ -310,7 +310,7 @@ ThreadLocal
 <
 TableTicker
 >
-pkey_ticker
+tlsTicker
 ;
 bool
 stack_key_initialized
@@ -1211,7 +1211,7 @@ TableTicker
 *
 t
 =
-pkey_ticker
+tlsTicker
 .
 get
 (
@@ -2846,7 +2846,7 @@ mozilla_sampler_init
 if
 (
 !
-pkey_stack
+tlsStack
 .
 init
 (
@@ -2854,7 +2854,7 @@ init
 |
 |
 !
-pkey_ticker
+tlsTicker
 .
 init
 (
@@ -2887,7 +2887,7 @@ ProfileStack
 (
 )
 ;
-pkey_stack
+tlsStack
 .
 set
 (
@@ -2980,7 +2980,7 @@ TableTicker
 *
 t
 =
-pkey_ticker
+tlsTicker
 .
 get
 (
@@ -3020,7 +3020,7 @@ TableTicker
 *
 t
 =
-pkey_ticker
+tlsTicker
 .
 get
 (
@@ -3120,7 +3120,7 @@ TableTicker
 *
 t
 =
-pkey_ticker
+tlsTicker
 .
 get
 (
@@ -3224,7 +3224,7 @@ ProfileStack
 *
 stack
 =
-pkey_stack
+tlsStack
 .
 get
 (
@@ -3262,7 +3262,7 @@ aFeatures
 aFeatureCount
 )
 ;
-pkey_ticker
+tlsTicker
 .
 set
 (
@@ -3286,7 +3286,7 @@ TableTicker
 *
 t
 =
-pkey_ticker
+tlsTicker
 .
 get
 (
@@ -3308,7 +3308,7 @@ Stop
 (
 )
 ;
-pkey_ticker
+tlsTicker
 .
 set
 (
@@ -3325,7 +3325,7 @@ TableTicker
 *
 t
 =
-pkey_ticker
+tlsTicker
 .
 get
 (
