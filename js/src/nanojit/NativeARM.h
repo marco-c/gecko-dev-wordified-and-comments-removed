@@ -123,7 +123,7 @@ NJ_VFP_MAX_REGISTERS
 #
 define
 NJ_MAX_STACK_ENTRY
-4096
+1024
 #
 define
 NJ_MAX_PARAMETERS
@@ -911,18 +911,6 @@ int32_t
 off
 bool
 chk
-)
-;
-\
-int32_t
-asm_str
-(
-Register
-rt
-Register
-rr
-int32_t
-off
 )
 ;
 \
@@ -4851,9 +4839,7 @@ NanoAssert
 isU12
 (
 -
-(
 _off
-)
 )
 )
 ;
@@ -4899,9 +4885,7 @@ _d
 (
 (
 -
-(
 _off
-)
 )
 &
 0xfff
@@ -5050,9 +5034,7 @@ NanoAssert
 isU8
 (
 -
-(
 _off
-)
 )
 )
 ;
@@ -5108,9 +5090,7 @@ _d
 (
 (
 -
-(
 _off
-)
 )
 &
 0xf0
@@ -5123,9 +5103,7 @@ _off
 (
 (
 -
-(
 _off
-)
 )
 &
 0xf
@@ -5296,9 +5274,7 @@ NanoAssert
 isU8
 (
 -
-(
 _off
-)
 )
 )
 ;
@@ -5354,9 +5330,7 @@ _d
 (
 (
 -
-(
 _off
-)
 )
 &
 0xf0
@@ -5369,9 +5343,7 @@ _off
 (
 (
 -
-(
 _off
-)
 )
 &
 0xf
@@ -5542,9 +5514,7 @@ NanoAssert
 isU8
 (
 -
-(
 _off
-)
 )
 )
 ;
@@ -5600,9 +5570,7 @@ _d
 (
 (
 -
-(
 _off
-)
 )
 &
 0xf0
@@ -5615,9 +5583,7 @@ _off
 (
 (
 -
-(
 _off
-)
 )
 &
 0xf
@@ -5780,9 +5746,7 @@ _off
 isU12
 (
 -
-(
 _off
-)
 )
 )
 ;
@@ -5971,9 +5935,7 @@ _off
 isU12
 (
 -
-(
 _off
-)
 )
 )
 ;
@@ -6172,9 +6134,7 @@ NanoAssert
 isU8
 (
 -
-(
 _off
-)
 )
 )
 ;
