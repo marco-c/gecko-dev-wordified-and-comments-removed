@@ -651,6 +651,14 @@ ScrollToRef
 (
 )
 ;
+nsresult
+RefreshIfEnabled
+(
+nsIViewManager
+*
+vm
+)
+;
 public
 :
 void
