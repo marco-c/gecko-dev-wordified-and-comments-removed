@@ -1541,10 +1541,6 @@ mRenderer
 -
 1
 )
-mDebugMode
-(
-0
-)
 mCreationFormat
 (
 aFormat
@@ -3984,6 +3980,8 @@ mVendor
 PRInt32
 mRenderer
 ;
+public
+:
 enum
 {
 DebugEnabled
@@ -4006,10 +4004,11 @@ DebugAbortOnError
 2
 }
 ;
+static
 PRUint32
-mDebugMode
+sDebugMode
 ;
-inline
+static
 PRUint32
 DebugMode
 (
@@ -4019,7 +4018,7 @@ DebugMode
 ifdef
 DEBUG
 return
-mDebugMode
+sDebugMode
 ;
 #
 else
@@ -4029,6 +4028,8 @@ return
 #
 endif
 }
+protected
+:
 ContextFormat
 mCreationFormat
 ;
