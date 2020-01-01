@@ -2411,6 +2411,13 @@ kTextAlignLastKTable
 static
 const
 int32_t
+kTextBlinkKTable
+[
+]
+;
+static
+const
+int32_t
 kTextDecorationLineKTable
 [
 ]
