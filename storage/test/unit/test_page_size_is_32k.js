@@ -88,6 +88,9 @@ exists
 )
 )
 ;
+return
+file
+;
 }
 function
 run_test
