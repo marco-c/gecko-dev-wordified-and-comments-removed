@@ -4270,11 +4270,6 @@ IsProcessingAnimationStyleChange
 )
 )
 {
-if
-(
-et
-)
-{
 nsRestyleHint
 hint
 =
@@ -4307,7 +4302,6 @@ mElement
 hint
 )
 ;
-}
 return
 ;
 }
