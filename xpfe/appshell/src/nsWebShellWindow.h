@@ -75,6 +75,9 @@ Initialize
 nsIXULWindow
 *
 aParent
+nsIXULWindow
+*
+aOpener
 nsIAppShell
 *
 aShell
