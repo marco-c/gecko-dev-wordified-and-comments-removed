@@ -10441,6 +10441,7 @@ ArrayBuffer
 :
 :
 obj_getElement
+NULL
 ArrayBuffer
 :
 :
@@ -10936,6 +10937,13 @@ _typedArray
 :
 :
 obj_getElement
+\
+NULL
+/
+*
+getElementIfPresent
+*
+/
 \
 _typedArray
 :

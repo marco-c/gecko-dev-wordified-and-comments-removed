@@ -5246,6 +5246,13 @@ getElement
 nsnull
 /
 *
+getElementIfPresent
+*
+/
+\
+nsnull
+/
+*
 getSpecial
 *
 /
@@ -5458,6 +5465,13 @@ nsnull
 /
 *
 getElement
+*
+/
+\
+nsnull
+/
+*
+getElementIfPresent
 *
 /
 \

@@ -5960,6 +5960,7 @@ array_defineSpecial
 array_getGeneric
 array_getProperty
 array_getElement
+NULL
 array_getSpecial
 array_setGeneric
 array_setProperty
