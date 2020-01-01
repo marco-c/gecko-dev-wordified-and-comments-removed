@@ -3291,9 +3291,6 @@ cardState
 RIL
 .
 GECKO_CARDSTATE_UNKNOWN
-retryCount
-:
-0
 networkSelectionMode
 :
 RIL
