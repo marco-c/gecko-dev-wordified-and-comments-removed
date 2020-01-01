@@ -870,11 +870,7 @@ nsIRunnable
 >
 ev
 =
-new
-nsRunnableMethod
-<
-nsWyciwygChannel
->
+NS_NewRunnableMethod
 (
 this
 &

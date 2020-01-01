@@ -12896,10 +12896,13 @@ nsContentUtils
 :
 AddScriptRunner
 (
-NS_NEW_RUNNABLE_METHOD
+NS_NewRunnableMethod
 (
-nsXULDocument
 this
+&
+nsXULDocument
+:
+:
 MaybeBroadcast
 )
 )

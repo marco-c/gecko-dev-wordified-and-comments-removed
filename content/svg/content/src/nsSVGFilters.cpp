@@ -25734,11 +25734,7 @@ nsContentUtils
 :
 AddScriptRunner
 (
-new
-nsRunnableMethod
-<
-nsSVGFEImageElement
->
+NS_NewRunnableMethod
 (
 this
 &

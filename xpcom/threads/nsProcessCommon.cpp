@@ -1022,11 +1022,7 @@ nsIRunnable
 >
 event
 =
-new
-nsRunnableMethod
-<
-nsProcess
->
+NS_NewRunnableMethod
 (
 process
 &

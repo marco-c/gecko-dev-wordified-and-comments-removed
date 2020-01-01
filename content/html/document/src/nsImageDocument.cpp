@@ -2197,10 +2197,13 @@ nsIRunnable
 >
 runnable
 =
-NS_NEW_RUNNABLE_METHOD
+NS_NewRunnableMethod
 (
-nsImageDocument
 this
+&
+nsImageDocument
+:
+:
 DefaultCheckOverflowing
 )
 ;

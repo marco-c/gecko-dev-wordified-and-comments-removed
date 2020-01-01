@@ -1761,13 +1761,7 @@ event
 ;
 mProcessLinkHeaderEvent
 =
-new
-nsRunnableMethod
-<
-nsContentSink
-void
-false
->
+NS_NewNonOwningRunnableMethod
 (
 this
 &
@@ -6839,11 +6833,7 @@ nsIRunnable
 >
 ev
 =
-new
-nsRunnableMethod
-<
-nsContentSink
->
+NS_NewRunnableMethod
 (
 this
 &

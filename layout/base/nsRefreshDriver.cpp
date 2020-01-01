@@ -717,10 +717,13 @@ ObserverCount
 {
 NS_DispatchToCurrentThread
 (
-NS_NEW_RUNNABLE_METHOD
+NS_NewRunnableMethod
 (
-nsRefreshDriver
 this
+&
+nsRefreshDriver
+:
+:
 DoRefresh
 )
 )

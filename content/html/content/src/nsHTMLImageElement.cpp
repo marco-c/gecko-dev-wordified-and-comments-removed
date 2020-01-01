@@ -2120,11 +2120,7 @@ nsContentUtils
 :
 AddScriptRunner
 (
-new
-nsRunnableMethod
-<
-nsHTMLImageElement
->
+NS_NewRunnableMethod
 (
 this
 &

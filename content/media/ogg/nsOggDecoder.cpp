@@ -559,10 +559,13 @@ nsIRunnable
 >
 event
 =
-NS_NEW_RUNNABLE_METHOD
+NS_NewRunnableMethod
 (
-nsOggDecoder
 this
+&
+nsOggDecoder
+:
+:
 Stop
 )
 ;
