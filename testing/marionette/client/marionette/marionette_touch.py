@@ -1,5 +1,9 @@
 import
 os
+from
+errors
+import
+ElementNotVisibleException
 "
 "
 "
@@ -114,12 +118,39 @@ library
 )
     
 def
+check_element
+(
+self
+element
+)
+:
+        
+if
+not
+element
+.
+is_displayed
+(
+)
+:
+            
+raise
+ElementNotVisibleException
+    
+def
 tap
 (
 self
 element
 )
 :
+        
+self
+.
+check_element
+(
+element
+)
         
 send_all
 =
@@ -190,6 +221,13 @@ element
         
 self
 .
+check_element
+(
+element
+)
+        
+self
+.
 execute_script
 (
 "
@@ -224,6 +262,13 @@ holdtime
 2000
 )
 :
+        
+self
+.
+check_element
+(
+element
+)
         
 self
 .
@@ -271,6 +316,13 @@ duration
 200
 )
 :
+        
+self
+.
+check_element
+(
+element
+)
         
 self
 .
