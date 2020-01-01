@@ -7733,7 +7733,10 @@ GetStyleVisibility
 )
 -
 >
-mPointerEvents
+GetEffectivePointerEvents
+(
+f
+)
 !
 =
 NS_STYLE_POINTER_EVENTS_NONE

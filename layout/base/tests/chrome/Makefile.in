@@ -245,6 +245,14 @@ blue
 .
 png
 \
+test_passpointerevents
+.
+html
+\
+passpointerevents_window
+.
+html
+\
 (
 NULL
 )

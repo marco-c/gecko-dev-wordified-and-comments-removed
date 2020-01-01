@@ -3938,6 +3938,13 @@ mozfullscreenerror
 )
 GK_ATOM
 (
+mozpasspointerevents
+"
+mozpasspointerevents
+"
+)
+GK_ATOM
+(
 mozpointerlockchange
 "
 mozpointerlockchange

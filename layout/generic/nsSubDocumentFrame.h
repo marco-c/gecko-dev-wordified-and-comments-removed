@@ -459,6 +459,11 @@ ObtainIntrinsicSizeFrame
 (
 )
 ;
+bool
+PassPointerEventsToChildren
+(
+)
+;
 nsRefPtr
 <
 nsFrameLoader
