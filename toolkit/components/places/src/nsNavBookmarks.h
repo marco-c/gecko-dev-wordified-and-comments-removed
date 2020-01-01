@@ -216,11 +216,6 @@ aPlaceId
 )
 ;
 nsresult
-OnQuit
-(
-)
-;
-nsresult
 BeginUpdateBatch
 (
 )

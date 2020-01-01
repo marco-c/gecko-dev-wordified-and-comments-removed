@@ -3195,7 +3195,7 @@ history_expire_days
 ;
 do_timeout
 (
-3600
+600
 "
 checkExpireNeither
 (
@@ -3457,7 +3457,7 @@ history_expire_days
 ;
 do_timeout
 (
-3600
+600
 "
 checkExpireDaysOnly
 (
@@ -3742,7 +3742,7 @@ history_expire_days_min
 ;
 do_timeout
 (
-3600
+600
 "
 checkExpireBoth
 (
@@ -3954,7 +3954,7 @@ history_expire_days
 ;
 do_timeout
 (
-3600
+600
 "
 checkExpireNeitherOver
 (
@@ -4125,7 +4125,7 @@ history_expire_days
 ;
 do_timeout
 (
-3600
+600
 "
 checkExpireHistoryDisabled
 (
@@ -4310,7 +4310,7 @@ history_expire_days
 ;
 do_timeout
 (
-3600
+600
 "
 checkExpireBadPrefs
 (
