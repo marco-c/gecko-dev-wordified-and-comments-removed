@@ -2987,6 +2987,12 @@ VerifyQueriesParsed
 (
 )
 ;
+nsNavHistoryQueryOptions
+*
+Options
+(
+)
+;
 PRBool
 mContentsValid
 ;
