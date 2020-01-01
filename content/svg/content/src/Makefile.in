@@ -345,6 +345,10 @@ SVGFEBlendElement
 .
 cpp
 \
+SVGFEMergeElement
+.
+cpp
+\
 SVGFilterElement
 .
 cpp
@@ -711,6 +715,10 @@ SVGEllipseElement
 h
 \
 SVGFEBlendElement
+.
+h
+\
+SVGFEMergeElement
 .
 h
 \

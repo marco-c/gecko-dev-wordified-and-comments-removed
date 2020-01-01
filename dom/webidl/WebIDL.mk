@@ -699,6 +699,10 @@ SVGFEFuncRElement
 .
 webidl
 \
+SVGFEMergeElement
+.
+webidl
+\
 SVGFitToViewBox
 .
 webidl

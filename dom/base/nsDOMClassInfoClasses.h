@@ -372,10 +372,6 @@ SVGFEImageElement
 )
 DOMCI_CLASS
 (
-SVGFEMergeElement
-)
-DOMCI_CLASS
-(
 SVGFEMergeNodeElement
 )
 DOMCI_CLASS
