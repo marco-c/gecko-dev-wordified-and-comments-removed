@@ -1245,6 +1245,12 @@ nsCOMPtr
 <
 mozIStorageStatement
 >
+mDBSetPlaceTitle
+;
+nsCOMPtr
+<
+mozIStorageStatement
+>
 mDBVisitToURLResult
 ;
 nsCOMPtr
