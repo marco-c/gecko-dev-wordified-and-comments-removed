@@ -1543,6 +1543,18 @@ self
 .
 remoteBinDir
         
+if
+(
+self
+.
+device
+.
+getAppRoot
+(
+)
+)
+:
+          
 shellArgs
 +
 =

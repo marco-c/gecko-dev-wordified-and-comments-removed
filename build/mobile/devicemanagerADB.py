@@ -73,6 +73,12 @@ useRunAs
 =
 False
     
+self
+.
+packageName
+=
+None
+    
 if
 packageName
 =
