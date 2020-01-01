@@ -190,11 +190,9 @@ android
 background
 =
 "
-android
-:
-color
+drawable
 /
-black
+menu_button
 "
 android
 :
