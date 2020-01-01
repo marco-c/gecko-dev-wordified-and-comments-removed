@@ -474,6 +474,10 @@ test_videocontrols
 .
 html
 \
+test_videocontrols_standalone
+.
+html
+\
 test_videocontrols_video_direction
 .
 html
