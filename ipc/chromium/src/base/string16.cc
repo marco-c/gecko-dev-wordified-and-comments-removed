@@ -317,6 +317,9 @@ base
 string16_char_traits
 >
 ;
+#
+ifndef
+CHROMIUM_MOZILLA_BUILD
 std
 :
 :
@@ -348,5 +351,7 @@ str
 )
 ;
 }
+#
+endif
 #
 endif

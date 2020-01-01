@@ -33,9 +33,14 @@ PR_BEGIN_EXTERN_C
 #
 endif
 #
+ifndef
+CHROMIUM_MOZILLA_BUILD
+#
 define
 PR_ASSERT
 DCHECK
+#
+endif
 #
 define
 LL_I2L
