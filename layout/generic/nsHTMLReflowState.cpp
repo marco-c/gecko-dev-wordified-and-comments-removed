@@ -7506,6 +7506,11 @@ nullptr
 =
 =
 parentReflowState
+|
+|
+mFlags
+.
+mDummyParentReflowState
 )
 {
 InitOffsets
