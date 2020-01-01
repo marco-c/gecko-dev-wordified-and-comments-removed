@@ -8,7 +8,7 @@ h
 #
 include
 "
-jemalloc
+mozmemory
 .
 h
 "
@@ -29,7 +29,7 @@ size
 size_t
 adv
 =
-je_malloc_usable_size_in_advance
+malloc_good_size
 (
 req
 )
@@ -66,7 +66,7 @@ usable
 fail
 (
 "
-je_malloc_usable_size_in_advance
+malloc_good_size
 (
 %
 d
@@ -249,7 +249,7 @@ NS_ERROR_UNEXPECTED
 passed
 (
 "
-je_malloc_usable_size_in_advance
+malloc_good_size
 "
 )
 ;

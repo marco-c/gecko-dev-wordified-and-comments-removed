@@ -293,7 +293,7 @@ Makefile
 if
 [
 "
-MOZ_JEMALLOC
+MOZ_JEMALLOC3
 "
 -
 a
@@ -324,6 +324,9 @@ MOZ_MEMORY
 then
 add_makefiles
 "
+memory
+/
+Makefile
 memory
 /
 mozjemalloc

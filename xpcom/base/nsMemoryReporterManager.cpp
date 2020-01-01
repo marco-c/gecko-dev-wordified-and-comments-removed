@@ -159,7 +159,7 @@ HAVE_JEMALLOC_STATS
 #
 include
 "
-jemalloc
+mozmemory
 .
 h
 "

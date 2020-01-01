@@ -1678,9 +1678,6 @@ JavaVM
 jni
 .
 h
-jemalloc
-.
-h
 JManager
 .
 h

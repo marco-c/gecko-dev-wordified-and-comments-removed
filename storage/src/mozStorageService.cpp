@@ -1914,7 +1914,7 @@ MOZ_STORAGE_MEMORY
 #
 include
 "
-jemalloc
+mozmemory
 .
 h
 "
@@ -1988,7 +1988,7 @@ n
 {
 n
 =
-je_malloc_usable_size_in_advance
+malloc_good_size
 (
 n
 )
