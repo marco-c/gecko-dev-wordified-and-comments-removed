@@ -111,7 +111,7 @@ THUMBNAIL_ASPECT_RATIO
 =
 0
 .
-714f
+571f
 ;
 private
 static
