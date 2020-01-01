@@ -1089,7 +1089,7 @@ SetInitialValues
 )
 ;
 bool
-DependsOnPositioningAreaSize
+DependsOnFrameSize
 (
 )
 const
@@ -1334,7 +1334,7 @@ mWidthType
 mHeightType
 ;
 bool
-DependsOnPositioningAreaSize
+DependsOnFrameSize
 (
 const
 nsStyleImage
@@ -1568,7 +1568,7 @@ SetInitialValues
 )
 ;
 bool
-RenderingMightDependOnPositioningAreaSizeChange
+RenderingMightDependOnFrameSize
 (
 )
 const
