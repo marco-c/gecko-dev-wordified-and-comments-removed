@@ -746,6 +746,10 @@ onDetach
 (
 )
 ;
+mInflater
+=
+null
+;
 mUrlOpenListener
 =
 null
