@@ -6796,9 +6796,6 @@ item
 }
 else
 {
-nscolor
-color
-;
 if
 (
 item
@@ -6807,8 +6804,6 @@ item
 IsUniform
 (
 aBuilder
-&
-color
 )
 )
 {
