@@ -1431,9 +1431,13 @@ OffsetNumTables
 ;
 PRUint32
 keepOffset
+=
+0
 ;
 PRUint32
 keepFormat
+=
+0
 ;
 PRUint8
 *
