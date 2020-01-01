@@ -235,15 +235,13 @@ nsISupports
 nsITransactionManager
 )
 NS_INTERFACE_MAP_END
-NS_IMPL_CYCLE_COLLECTING_ADDREF_AMBIGUOUS
+NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
 nsTransactionManager
-nsITransactionManager
 )
-NS_IMPL_CYCLE_COLLECTING_RELEASE_AMBIGUOUS
+NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
 nsTransactionManager
-nsITransactionManager
 )
 NS_IMETHODIMP
 nsTransactionManager

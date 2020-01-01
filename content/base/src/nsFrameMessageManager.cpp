@@ -365,15 +365,13 @@ mChrome
 mIsProcessManager
 )
 NS_INTERFACE_MAP_END
-NS_IMPL_CYCLE_COLLECTING_ADDREF_AMBIGUOUS
+NS_IMPL_CYCLE_COLLECTING_ADDREF
 (
 nsFrameMessageManager
-nsIContentFrameMessageManager
 )
-NS_IMPL_CYCLE_COLLECTING_RELEASE_AMBIGUOUS
+NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
 nsFrameMessageManager
-nsIContentFrameMessageManager
 )
 NS_IMETHODIMP
 nsFrameMessageManager
