@@ -17,7 +17,7 @@ nsTextFrameTextRunCache
 public
 :
 static
-nsresult
+void
 Init
 (
 )
