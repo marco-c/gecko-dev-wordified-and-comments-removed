@@ -282,6 +282,10 @@ nsIRollupListener
 .
 h
 \
+nsIWidgetListener
+.
+h
+\
 (
 NULL
 )
