@@ -4515,9 +4515,11 @@ Menu
 Folder
 StrCpy
 TmpVal
+"
 {
 BrandFullName
 }
+"
 ;
 Prior
 to
