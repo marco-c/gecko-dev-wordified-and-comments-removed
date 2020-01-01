@@ -611,12 +611,13 @@ Password
 ENTITY
 getPassword
 .
-tokenName
+tokenName2
 .
 label
 "
 Security
 Device
+:
 "
 >
 <
