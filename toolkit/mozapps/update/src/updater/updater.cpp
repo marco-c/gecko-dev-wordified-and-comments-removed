@@ -4739,7 +4739,7 @@ NS_T
 "
 %
 s
-/
+.
 update_in_progress
 .
 lock
@@ -4747,7 +4747,7 @@ lock
 )
 argv
 [
-3
+4
 ]
 )
 ;
