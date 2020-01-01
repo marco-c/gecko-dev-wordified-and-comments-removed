@@ -900,6 +900,12 @@ nsLineList
 :
 iterator
 *
+aStartIterator
+nsLineList
+:
+:
+iterator
+*
 aEndIterator
 PRBool
 *
