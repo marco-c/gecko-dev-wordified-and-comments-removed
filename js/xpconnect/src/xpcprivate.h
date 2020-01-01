@@ -5323,11 +5323,7 @@ bool
 AllowXBLScope
 (
 )
-{
-return
-mAllowXBLScope
 ;
-}
 protected
 :
 virtual
