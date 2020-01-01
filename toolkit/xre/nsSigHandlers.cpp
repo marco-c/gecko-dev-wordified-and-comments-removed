@@ -1727,7 +1727,7 @@ _M_IA32
 )
 |
 |
-define
+defined
 (
 _M_X64
 )
