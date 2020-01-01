@@ -1181,6 +1181,12 @@ sPlatformFontList
 ;
 }
 virtual
+nsresult
+InitFontList
+(
+)
+;
+virtual
 gfxFontEntry
 *
 GetDefaultFont
@@ -1251,12 +1257,6 @@ gfxGDIFontList
 ;
 void
 InitializeFontEmbeddingProcs
-(
-)
-;
-virtual
-void
-InitFontList
 (
 )
 ;

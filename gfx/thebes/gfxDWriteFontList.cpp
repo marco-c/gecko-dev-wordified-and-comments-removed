@@ -1780,7 +1780,7 @@ return
 entry
 ;
 }
-void
+nsresult
 gfxDWriteFontList
 :
 :
@@ -1876,6 +1876,18 @@ failed
 "
 )
 ;
+if
+(
+FAILED
+(
+hr
+)
+)
+{
+return
+NS_ERROR_FAILURE
+;
+}
 for
 (
 UINT32
@@ -2155,6 +2167,9 @@ StartLoader
 kDelayBeforeLoadingFonts
 kIntervalBetweenLoadingFonts
 )
+;
+return
+NS_OK
 ;
 }
 static

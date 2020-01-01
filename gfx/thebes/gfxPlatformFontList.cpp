@@ -331,7 +331,7 @@ observer
 }
 }
 }
-void
+nsresult
 gfxPlatformFontList
 :
 :
@@ -408,6 +408,13 @@ SetRange
 0x7f
 0x9f
 )
+;
+sPlatformFontList
+=
+this
+;
+return
+NS_OK
 ;
 }
 void

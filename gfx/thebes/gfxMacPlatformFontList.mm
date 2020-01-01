@@ -3449,7 +3449,7 @@ sharedFontManager
 ]
 ;
 }
-void
+nsresult
 gfxMacPlatformFontList
 :
 :
@@ -3487,6 +3487,7 @@ mATSGeneration
 currentGeneration
 )
 return
+NS_OK
 ;
 mATSGeneration
 =
@@ -3867,6 +3868,9 @@ StartLoader
 kDelayBeforeLoadingCmaps
 kIntervalBetweenLoadingCmaps
 )
+;
+return
+NS_OK
 ;
 }
 void

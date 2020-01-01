@@ -1137,7 +1137,7 @@ SetRange
 #
 endif
 }
-void
+nsresult
 gfxFT2FontList
 :
 :
@@ -1155,6 +1155,9 @@ InitFontList
 FindFonts
 (
 )
+;
+return
+NS_OK
 ;
 }
 struct

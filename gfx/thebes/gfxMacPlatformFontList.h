@@ -293,7 +293,7 @@ gfxMacPlatformFontList
 )
 ;
 virtual
-void
+nsresult
 InitFontList
 (
 )
