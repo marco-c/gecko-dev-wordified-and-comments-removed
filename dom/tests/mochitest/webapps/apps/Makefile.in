@@ -151,6 +151,17 @@ webapp
 headers
 ^
 \
+invalid_launch_path2
+.
+webapp
+\
+invalid_launch_path2
+.
+webapp
+^
+headers
+^
+\
 invalid_entry_point
 .
 webapp
