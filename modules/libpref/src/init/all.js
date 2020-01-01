@@ -30328,7 +30328,7 @@ mem
 .
 min_discard_timeout_ms
 "
-120000
+10000
 )
 ;
 pref
