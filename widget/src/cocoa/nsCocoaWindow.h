@@ -691,6 +691,13 @@ aShouldHide
 )
 ;
 NS_IMETHOD
+MakeFullScreen
+(
+PRBool
+aFullScreen
+)
+;
+NS_IMETHOD
 Resize
 (
 PRInt32
@@ -1129,6 +1136,9 @@ mWindowMadeHere
 ;
 PRPackedBool
 mSheetNeedsShow
+;
+PRPackedBool
+mFullScreen
 ;
 PRPackedBool
 mModal

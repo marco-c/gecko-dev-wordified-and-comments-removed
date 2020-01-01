@@ -233,6 +233,17 @@ aPoint
 )
 ;
 static
+void
+HideOSChromeOnScreen
+(
+PRBool
+aShouldHide
+NSScreen
+*
+aScreen
+)
+;
+static
 nsIWidget
 *
 GetHiddenWindowWidget
