@@ -173,6 +173,10 @@ JS_CPU_X64
 |
 defined
 JS_CPU_X86
+|
+|
+defined
+JS_CPU_SPARC
 JSC
 :
 :
@@ -241,6 +245,10 @@ JS_CPU_X64
 |
 defined
 JS_CPU_ARM
+|
+|
+defined
+JS_CPU_SPARC
 repatch
 (
 label
@@ -320,6 +328,10 @@ JS_CPU_ARM
 |
 defined
 JS_CPU_X64
+|
+|
+defined
+JS_CPU_SPARC
 (
 void
 )
