@@ -3050,6 +3050,9 @@ x86
 linux
 -
 gcc
+OpenBSD
+/
+i386
 and
 Solaris
 x86
@@ -3125,6 +3128,9 @@ x86_64
 linux
 -
 gcc
+OpenBSD
+/
+amd64
 and
 Solaris
 x86_64
