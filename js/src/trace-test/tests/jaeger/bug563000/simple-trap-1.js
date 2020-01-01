@@ -1,3 +1,8 @@
+setDebug
+(
+true
+)
+;
 var
 x
 =

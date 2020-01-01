@@ -221,6 +221,12 @@ false
 false
 false
 true
+#
+ifdef
+JS_METHODJIT
+false
+#
+endif
 const_cast
 <
 jsbytecode
