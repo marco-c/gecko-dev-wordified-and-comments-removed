@@ -133,12 +133,6 @@ sHModMMIO
 =
 NULLHANDLE
 ;
-static
-HMODULE
-sHModMDM
-=
-NULLHANDLE
-;
 HMMIO
 (
 *
@@ -295,6 +289,11 @@ LoadError
 CCHMAXPATH
 ]
 ;
+HMODULE
+hModMDM
+=
+NULLHANDLE
+;
 ulrc
 =
 DosLoadModule
@@ -319,7 +318,7 @@ CCHMAXPATH
 MDM
 "
 &
-sHModMDM
+hModMDM
 )
 ;
 if
@@ -413,7 +412,7 @@ ulrc
 =
 DosQueryProcAddr
 (
-sHModMDM
+hModMDM
 0L
 "
 mciSendCommand
@@ -488,7 +487,7 @@ ulrc
 =
 DosQueryProcAddr
 (
-sHModMDM
+hModMDM
 0L
 "
 mciGetErrorString
@@ -2141,14 +2140,6 @@ ulrc
 DosFreeModule
 (
 sHModMMIO
-)
-;
-ulrc
-+
-=
-DosFreeModule
-(
-sHModMDM
 )
 ;
 if
