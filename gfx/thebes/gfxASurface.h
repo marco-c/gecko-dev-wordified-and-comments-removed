@@ -551,6 +551,16 @@ aFile
 void
 DumpAsDataURL
 (
+FILE
+*
+aOutput
+=
+stdout
+)
+;
+void
+PrintAsDataURL
+(
 )
 ;
 void

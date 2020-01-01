@@ -402,6 +402,11 @@ MOZ_DUMP_PAINTING
 void
 DumpRetainedLayerTree
 (
+FILE
+*
+aFile
+=
+stdout
 )
 ;
 #
