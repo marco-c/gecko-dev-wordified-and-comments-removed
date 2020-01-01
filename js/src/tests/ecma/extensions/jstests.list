@@ -341,3 +341,7 @@ script
 1
 .
 js
+script
+testflatclosure
+.
+js
