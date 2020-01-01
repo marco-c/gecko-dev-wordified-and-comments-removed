@@ -101,7 +101,8 @@ mjit
 ;
 #
 if
-ENABLE_PIC
+defined
+JS_POLYIC
 static
 const
 uint32

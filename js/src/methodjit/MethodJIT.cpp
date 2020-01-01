@@ -2648,6 +2648,10 @@ front
 (
 )
 ;
+#
+if
+defined
+JS_POLYIC
 ic
 :
 :
@@ -2657,6 +2661,14 @@ cx
 script
 )
 ;
+#
+endif
+#
+if
+defined
+JS_MONOIC
+#
+endif
 }
 picScripts
 .
@@ -3063,7 +3075,8 @@ jitLength
 endif
 #
 if
-ENABLE_PIC
+defined
+JS_POLYIC
 if
 (
 script
@@ -3187,6 +3200,10 @@ nmap
 NULL
 ;
 }
+#
+if
+defined
+JS_MONOIC
 if
 (
 script
@@ -3214,6 +3231,8 @@ mics
 NULL
 ;
 }
+#
+endif
 #
 if
 0

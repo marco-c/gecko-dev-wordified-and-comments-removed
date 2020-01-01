@@ -7,6 +7,10 @@ jsjaeger_mono_ic_h__
 &
 defined
 JS_METHODJIT
+&
+&
+defined
+JS_MONOIC
 #
 define
 jsjaeger_mono_ic_h__
@@ -30,10 +34,6 @@ MethodJIT
 .
 h
 "
-#
-define
-ENABLE_MIC
-1
 namespace
 js
 {
