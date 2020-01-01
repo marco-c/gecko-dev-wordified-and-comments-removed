@@ -9305,7 +9305,10 @@ if
 obj
 -
 >
-isNative
+is
+<
+ArrayObject
+>
 (
 )
 &
