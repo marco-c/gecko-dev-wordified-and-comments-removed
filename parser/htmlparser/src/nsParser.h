@@ -704,6 +704,9 @@ mCommandStr
 bool
 mProcessingNetworkData
 ;
+bool
+mIsAboutBlank
+;
 static
 nsICharsetConverterManager
 *
