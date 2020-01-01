@@ -2928,6 +2928,16 @@ UpdatePluginGeometry
 this
 )
 ;
+if
+(
+parentWidget
+=
+=
+GetWindow
+(
+)
+)
+{
 mWidget
 -
 >
@@ -2936,6 +2946,7 @@ Show
 PR_TRUE
 )
 ;
+}
 }
 if
 (
