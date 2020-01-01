@@ -171,10 +171,6 @@ protected
 :
 MacOSFontEntry
 (
-const
-nsAString
-&
-aPostscriptName
 ATSUFontID
 aFontID
 PRUint16
