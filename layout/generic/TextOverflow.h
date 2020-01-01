@@ -329,7 +329,7 @@ void
 Init
 (
 const
-nsStyleTextOverflow
+nsStyleTextOverflowSide
 &
 aStyle
 )
@@ -383,7 +383,7 @@ nsString
 mMarkerString
 ;
 const
-nsStyleTextOverflow
+nsStyleTextOverflowSide
 *
 mStyle
 ;
