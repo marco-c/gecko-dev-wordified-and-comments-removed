@@ -3947,7 +3947,6 @@ type
 =
 NSKeyUp
 )
-)
 {
 NS_WARNING
 (
