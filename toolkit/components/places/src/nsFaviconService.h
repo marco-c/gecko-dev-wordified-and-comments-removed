@@ -183,12 +183,15 @@ DoSetAndLoadFaviconForPage
 (
 nsIURI
 *
-aPage
+aPageURI
 nsIURI
 *
-aFavicon
+aFaviconURI
 PRBool
 aForceReload
+nsIFaviconDataCallback
+*
+aCallback
 )
 ;
 nsresult
