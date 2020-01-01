@@ -2155,15 +2155,9 @@ realFocusedNode
 mDOMNode
 )
 {
-if
-(
-focusFrame
-)
-{
 return
 PR_FALSE
 ;
-}
 }
 }
 FireDelayedAccessibleEvent
