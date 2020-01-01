@@ -1521,7 +1521,7 @@ internalIndex
 ]
 )
 ;
-uint32_t
+int32_t
 oldArgCount
 =
 SVGPathSegUtils
@@ -1532,7 +1532,7 @@ ArgCountForType
 oldType
 )
 ;
-uint32_t
+int32_t
 newArgCount
 =
 SVGPathSegUtils
@@ -1623,7 +1623,7 @@ IsAnimValList
 )
 )
 ;
-uint32_t
+int32_t
 delta
 =
 newArgCount
@@ -1826,7 +1826,7 @@ internalIndex
 ]
 )
 ;
-uint32_t
+int32_t
 argCount
 =
 SVGPathSegUtils
@@ -1867,7 +1867,6 @@ aIndex
 UpdateListIndicesFromIndex
 (
 aIndex
-0
 -
 (
 argCount
@@ -2076,7 +2075,7 @@ MaybeRemoveItemFromAnimValListAt
 (
 uint32_t
 aIndex
-uint32_t
+int32_t
 aArgCountForItem
 )
 {
@@ -2199,7 +2198,6 @@ animVal
 UpdateListIndicesFromIndex
 (
 aIndex
-0
 -
 (
 1
