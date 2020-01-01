@@ -78,6 +78,9 @@ const
 nsACString
 &
 aScheme
+PRBool
+*
+found
 )
 ;
 nsresult

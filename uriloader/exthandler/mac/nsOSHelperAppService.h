@@ -101,6 +101,9 @@ const
 nsACString
 &
 aScheme
+PRBool
+*
+found
 )
 ;
 virtual
