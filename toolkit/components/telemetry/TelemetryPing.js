@@ -1478,6 +1478,11 @@ this
 getHistograms
 (
 )
+slowSQL
+:
+Telemetry
+.
+slowSQL
 }
 ;
 let
