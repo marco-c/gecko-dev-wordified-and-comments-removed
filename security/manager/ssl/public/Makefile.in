@@ -478,6 +478,10 @@ nsIX509CertValidity
 .
 idl
 \
+nsINSSVersion
+.
+idl
+\
 (
 NULL
 )
