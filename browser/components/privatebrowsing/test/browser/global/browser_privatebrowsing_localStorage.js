@@ -122,6 +122,8 @@ test
 /
 browser
 /
+global
+/
 '
 +
 '
@@ -219,6 +221,8 @@ privatebrowsing
 test
 /
 browser
+/
+global
 /
 '
 +

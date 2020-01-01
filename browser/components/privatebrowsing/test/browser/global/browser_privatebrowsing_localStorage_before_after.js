@@ -29,6 +29,8 @@ test
 /
 browser
 /
+global
+/
 '
 ;
 waitForExplicitFinish
