@@ -2785,6 +2785,9 @@ class
 LPhi
 ;
 class
+LMoveGroup
+;
+class
 LBlock
 :
 public
@@ -2812,6 +2815,10 @@ instructions_
 Label
 label_
 ;
+LMoveGroup
+*
+entryMoveGroup_
+;
 LBlock
 (
 MBasicBlock
@@ -2822,6 +2829,10 @@ block
 block_
 (
 block
+)
+entryMoveGroup_
+(
+NULL
 )
 {
 }
@@ -3064,6 +3075,12 @@ return
 label_
 ;
 }
+LMoveGroup
+*
+getEntryMoveGroup
+(
+)
+;
 }
 ;
 template

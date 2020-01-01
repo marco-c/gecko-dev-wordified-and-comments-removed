@@ -668,6 +668,15 @@ NULL
 ;
 MBasicBlock
 *
+addBlock
+(
+MBasicBlock
+*
+block
+)
+;
+MBasicBlock
+*
 newBlock
 (
 MBasicBlock
