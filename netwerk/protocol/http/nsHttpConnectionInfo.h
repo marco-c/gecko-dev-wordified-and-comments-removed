@@ -461,6 +461,17 @@ ShouldForceConnectMethod
 (
 )
 ;
+const
+nsCString
+&
+GetHost
+(
+)
+{
+return
+mHost
+;
+}
 private
 :
 nsrefcnt
