@@ -125,6 +125,13 @@ nsIAccessibleRole
 ROLE_ENTRY
 ;
 const
+ROLE_FOOTER
+=
+nsIAccessibleRole
+.
+ROLE_FOOTER
+;
+const
 ROLE_FLAT_EQUATION
 =
 nsIAccessibleRole
@@ -158,6 +165,13 @@ ROLE_GROUPING
 nsIAccessibleRole
 .
 ROLE_GROUPING
+;
+const
+ROLE_HEADER
+=
+nsIAccessibleRole
+.
+ROLE_HEADER
 ;
 const
 ROLE_HEADING

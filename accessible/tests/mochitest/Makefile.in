@@ -632,6 +632,10 @@ test_editabletext_2
 .
 html
 \
+test_elm_landmarks
+.
+html
+\
 test_elm_listbox
 .
 xul
