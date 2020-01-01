@@ -451,6 +451,14 @@ test_ariadialog
 .
 html
 \
+test_colorpicker
+.
+xul
+\
+test_contextmenu
+.
+xul
+\
 test_doc
 .
 html
@@ -468,6 +476,10 @@ test_list
 html
 \
 test_menu
+.
+xul
+\
+test_menubutton
 .
 xul
 \

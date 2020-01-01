@@ -555,11 +555,6 @@ subscribeUsingDescription
 xul
 :
 menupopup
-menugenerated
-=
-"
-true
-"
 anonid
 =
 "

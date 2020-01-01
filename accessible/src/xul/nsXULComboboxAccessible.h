@@ -85,12 +85,6 @@ aName
 )
 ;
 virtual
-PRBool
-Init
-(
-)
-;
-virtual
 PRUint32
 NativeRole
 (

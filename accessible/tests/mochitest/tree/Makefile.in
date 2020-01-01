@@ -475,10 +475,6 @@ test_button
 .
 xul
 \
-test_colorpicker
-.
-xul
-\
 test_combobox
 .
 xul
@@ -530,10 +526,6 @@ html
 test_media
 .
 html
-\
-test_menu
-.
-xul
 \
 test_select
 .

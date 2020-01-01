@@ -200,12 +200,6 @@ _retval
 )
 ;
 virtual
-PRBool
-Init
-(
-)
-;
-virtual
 nsresult
 GetNameInternal
 (

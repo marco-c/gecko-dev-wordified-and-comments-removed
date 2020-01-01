@@ -57,13 +57,6 @@ button
 )
 ACCESSIBILITY_ATOM
 (
-menugenerated
-"
-menugenerated
-"
-)
-ACCESSIBILITY_ATOM
-(
 multiple
 "
 multiple
