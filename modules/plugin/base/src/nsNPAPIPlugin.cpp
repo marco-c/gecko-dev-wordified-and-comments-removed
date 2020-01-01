@@ -7160,12 +7160,6 @@ cx
 false
 )
 ;
-JSAutoRequest
-req
-(
-cx
-)
-;
 nsCOMPtr
 <
 nsIScriptContext
@@ -7181,6 +7175,12 @@ NS_ENSURE_TRUE
 (
 scx
 false
+)
+;
+JSAutoRequest
+req
+(
+cx
 )
 ;
 JSObject
