@@ -2993,3 +2993,12 @@ OnConnectError
 )
 {
 }
+void
+BluetoothOppManager
+:
+:
+OnDisconnect
+(
+)
+{
+}

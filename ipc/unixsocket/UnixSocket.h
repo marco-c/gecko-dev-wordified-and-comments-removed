@@ -282,6 +282,14 @@ OnConnectError
 =
 0
 ;
+virtual
+void
+OnDisconnect
+(
+)
+=
+0
+;
 void
 NotifySuccess
 (
@@ -289,6 +297,11 @@ NotifySuccess
 ;
 void
 NotifyError
+(
+)
+;
+void
+NotifyDisconnect
 (
 )
 ;

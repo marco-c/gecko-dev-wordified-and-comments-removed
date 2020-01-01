@@ -214,6 +214,13 @@ OnConnectError
 )
 MOZ_OVERRIDE
 ;
+virtual
+void
+OnDisconnect
+(
+)
+MOZ_OVERRIDE
+;
 int
 mCurrentVgs
 ;

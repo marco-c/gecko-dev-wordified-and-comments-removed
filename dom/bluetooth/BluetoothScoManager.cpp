@@ -767,3 +767,12 @@ OnConnectError
 )
 {
 }
+void
+BluetoothScoManager
+:
+:
+OnDisconnect
+(
+)
+{
+}
