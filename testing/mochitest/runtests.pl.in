@@ -5159,6 +5159,17 @@ MOZILLA_FIVE_HOME
 =
 dist_bin
 ;
+ENV
+{
+'
+GNOME_DISABLE_CRASH_DIALOG
+'
+}
+=
+'
+1
+'
+;
 }
 for
 my

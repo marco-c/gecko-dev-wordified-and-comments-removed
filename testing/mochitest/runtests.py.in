@@ -2138,6 +2138,16 @@ MOZILLA_FIVE_HOME
 automation
 .
 DIST_BIN
+browserEnv
+[
+"
+GNOME_DISABLE_CRASH_DIALOG
+"
+]
+=
+"
+1
+"
 for
 v
 in
