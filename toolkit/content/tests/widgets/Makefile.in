@@ -459,6 +459,10 @@ test_popup_recreate
 .
 xul
 \
+test_progressmeter
+.
+xul
+\
 (
 NULL
 )
