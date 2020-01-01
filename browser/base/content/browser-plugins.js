@@ -3052,6 +3052,7 @@ mimetype
 )
 )
 return
+false
 ;
 let
 pluginIdentifier
@@ -3069,6 +3070,7 @@ if
 pluginIdentifier
 )
 return
+false
 ;
 let
 displayName
