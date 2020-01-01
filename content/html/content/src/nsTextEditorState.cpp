@@ -4254,6 +4254,14 @@ nsIPlaintextEditor
 :
 eEditorUseAsyncUpdatesMask
 ;
+editorFlags
+|
+=
+nsIPlaintextEditor
+:
+:
+eEditorSkipSpellCheck
+;
 bool
 shouldInitializeEditor
 =
