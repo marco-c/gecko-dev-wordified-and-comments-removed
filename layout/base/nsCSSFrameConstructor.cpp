@@ -21578,6 +21578,16 @@ nsIFormControl
 "
 )
 ;
+if
+(
+!
+control
+)
+{
+return
+nsnull
+;
+}
 return
 FindDataByInt
 (
