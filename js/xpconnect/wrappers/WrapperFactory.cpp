@@ -1155,19 +1155,6 @@ isSafeToUnwrap
 else
 if
 (
-AccessCheck
-:
-:
-needsSystemOnlyWrapper
-(
-obj
-)
-)
-{
-}
-else
-if
-(
 handler
 =
 =
@@ -1705,7 +1692,7 @@ wrapper
 FilteringWrapper
 <
 CrossCompartmentSecurityWrapper
-OnlyIfSubjectIsSystem
+Opaque
 >
 :
 :
@@ -2389,7 +2376,7 @@ obj
 FilteringWrapper
 <
 SameCompartmentSecurityWrapper
-OnlyIfSubjectIsSystem
+Opaque
 >
 :
 :

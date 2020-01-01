@@ -46,12 +46,6 @@ WAIVE_XRAY_WRAPPER_FLAG
 <
 <
 1
-SOW_FLAG
-=
-IS_XRAY_WRAPPER_FLAG
-<
-<
-1
 }
 ;
 static
