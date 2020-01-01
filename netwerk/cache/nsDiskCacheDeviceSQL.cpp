@@ -2652,7 +2652,7 @@ NS_IMETHODIMP
 nsApplicationCache
 :
 :
-GetCacheDirectory
+GetProfileDirectory
 (
 nsIFile
 *
