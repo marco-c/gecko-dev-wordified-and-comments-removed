@@ -1422,6 +1422,7 @@ class
 =
 "
 small
+advancedSearchMinus
 "
 oncommand
 =
@@ -1462,6 +1463,7 @@ class
 =
 "
 small
+advancedSearchPlus
 "
 command
 =
