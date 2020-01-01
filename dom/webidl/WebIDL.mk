@@ -291,6 +291,10 @@ HTMLCollection
 .
 webidl
 \
+HTMLDataElement
+.
+webidl
+\
 HTMLDataListElement
 .
 webidl

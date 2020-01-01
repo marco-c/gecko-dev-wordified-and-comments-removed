@@ -131,6 +131,11 @@ TableCol
 )
 HTML_TAG
 (
+data
+Data
+)
+HTML_TAG
+(
 datalist
 DataList
 )

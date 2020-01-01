@@ -448,6 +448,13 @@ index
 )
 EDITOR_ATOM
 (
+data
+"
+data
+"
+)
+EDITOR_ATOM
+(
 datalist
 "
 datalist

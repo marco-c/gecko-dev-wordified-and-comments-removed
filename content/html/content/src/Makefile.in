@@ -150,6 +150,10 @@ HTMLButtonElement
 .
 h
 \
+HTMLDataElement
+.
+h
+\
 HTMLDataListElement
 .
 h
@@ -381,6 +385,10 @@ HTMLButtonElement
 cpp
 \
 HTMLCanvasElement
+.
+cpp
+\
+HTMLDataElement
 .
 cpp
 \
