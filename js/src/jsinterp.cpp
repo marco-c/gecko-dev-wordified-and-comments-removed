@@ -8050,9 +8050,9 @@ static
 void
 MeterRepr
 (
-JSStackFrame
+JSContext
 *
-fp
+cx
 )
 {
 if
@@ -8078,7 +8078,7 @@ op
 JSOp
 (
 *
-fp
+cx
 -
 >
 regs
@@ -8087,7 +8087,7 @@ regs
 pc
 )
 ;
-unsigned
+int
 nuses
 =
 js_GetStackUses
@@ -8098,7 +8098,7 @@ js_CodeSpec
 op
 ]
 op
-fp
+cx
 -
 >
 regs
@@ -8115,7 +8115,7 @@ op
 ;
 for
 (
-unsigned
+int
 i
 =
 0
@@ -8132,7 +8132,7 @@ i
 jsval
 v
 =
-fp
+cx
 -
 >
 regs
@@ -9188,7 +9188,7 @@ JS_REPRMETER
 define
 METER_REPR
 (
-fp
+cx
 )
 (
 reprmeter
@@ -9196,7 +9196,7 @@ reprmeter
 :
 MeterRepr
 (
-fp
+cx
 )
 )
 #
@@ -9205,7 +9205,7 @@ else
 define
 METER_REPR
 (
-fp
+cx
 )
 (
 (
@@ -10634,7 +10634,7 @@ n
 \
 METER_REPR
 (
-fp
+cx
 )
 ;
 \
