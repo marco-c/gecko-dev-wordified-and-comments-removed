@@ -11245,6 +11245,13 @@ GetPresContext
 Reflow
 )
 ;
+mDirtyRoots
+.
+RemoveElement
+(
+rootFrame
+)
+;
 DoReflow
 (
 rootFrame
