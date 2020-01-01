@@ -3128,7 +3128,7 @@ __GNUC__
 &
 &
 defined
-__i486__
+__i386__
 )
 inline
 void
