@@ -4354,13 +4354,6 @@ TraceJS
 this
 )
 ;
-JS_SetGCParameter
-(
-mJSRuntime
-JSGC_TRIGGER_FACTOR
-1600
-)
-;
 }
 if
 (
