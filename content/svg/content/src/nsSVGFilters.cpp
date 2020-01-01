@@ -680,7 +680,7 @@ return
 result
 ;
 }
-float
+gfxFloat
 kernelX
 =
 aInstance
@@ -699,7 +699,7 @@ nsSVGNumberPair
 eFirst
 )
 ;
-float
+gfxFloat
 kernelY
 =
 aInstance
