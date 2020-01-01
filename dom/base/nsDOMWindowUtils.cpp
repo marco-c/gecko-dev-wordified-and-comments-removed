@@ -2239,7 +2239,7 @@ result
 widget
 :
 :
-MODIFIER_SCROLL
+MODIFIER_SCROLLLOCK
 ;
 }
 if
@@ -2277,7 +2277,7 @@ result
 widget
 :
 :
-MODIFIER_WIN
+MODIFIER_OS
 ;
 }
 return

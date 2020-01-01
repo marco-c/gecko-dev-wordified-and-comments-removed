@@ -2972,7 +2972,7 @@ MODIFIER_META
 ;
 }
 bool
-IsWin
+IsOS
 (
 )
 const
@@ -2988,7 +2988,7 @@ mozilla
 widget
 :
 :
-MODIFIER_WIN
+MODIFIER_OS
 )
 !
 =
@@ -3088,7 +3088,7 @@ mozilla
 widget
 :
 :
-MODIFIER_SCROLL
+MODIFIER_SCROLLLOCK
 )
 !
 =

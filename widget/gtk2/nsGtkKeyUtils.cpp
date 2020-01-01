@@ -2242,7 +2242,7 @@ aInputEvent
 modifiers
 |
 =
-MODIFIER_WIN
+MODIFIER_OS
 ;
 }
 if
@@ -2322,7 +2322,7 @@ aInputEvent
 modifiers
 |
 =
-MODIFIER_SCROLL
+MODIFIER_SCROLLLOCK
 ;
 }
 PR_LOG
@@ -2367,7 +2367,7 @@ Alt
 s
 "
 "
-Win
+OS
 :
 %
 s
@@ -2424,7 +2424,7 @@ aInputEvent
 .
 modifiers
 &
-MODIFIER_WIN
+MODIFIER_OS
 )
 GetBoolName
 (
@@ -2456,7 +2456,7 @@ aInputEvent
 .
 modifiers
 &
-MODIFIER_SCROLL
+MODIFIER_SCROLLLOCK
 )
 )
 )
