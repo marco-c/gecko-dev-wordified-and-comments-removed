@@ -1322,6 +1322,13 @@ aSubject
 =
 aSubject
 .
+QueryInterface
+(
+Ci
+.
+nsIArray
+)
+.
 queryElementAt
 (
 1
@@ -1340,10 +1347,6 @@ case
 removeLogin
 '
 :
-{
-let
-metaInfo
-=
 aSubject
 .
 QueryInterface
@@ -1372,7 +1375,7 @@ aData
 :
 "
 +
-metaInfo
+aSubject
 .
 guid
 )
@@ -1381,12 +1384,11 @@ this
 .
 addChangedID
 (
-metaInfo
+aSubject
 .
 guid
 )
 ;
-}
 break
 ;
 case
