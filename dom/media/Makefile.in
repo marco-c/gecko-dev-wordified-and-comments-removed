@@ -151,7 +151,7 @@ idl
 (
 NULL
 )
-EXPORTS_NAMESPACE
+EXPORTS_NAMESPACES
 =
 mozilla
 EXPORTS_mozilla
