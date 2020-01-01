@@ -541,6 +541,13 @@ CanvasImageCache
 .
 h
 "
+#
+include
+"
+nsHyphenationManager
+.
+h
+"
 extern
 void
 NS_ShutdownChainItemPool
@@ -1709,6 +1716,13 @@ DestroyUploadLastDir
 )
 ;
 nsLayoutUtils
+:
+:
+Shutdown
+(
+)
+;
+nsHyphenationManager
 :
 :
 Shutdown
