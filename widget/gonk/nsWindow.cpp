@@ -256,6 +256,14 @@ sGLContext
 sFramebufferOpen
 )
 {
+hal
+:
+:
+SetScreenEnabled
+(
+true
+)
+;
 gNativeWindow
 =
 new
