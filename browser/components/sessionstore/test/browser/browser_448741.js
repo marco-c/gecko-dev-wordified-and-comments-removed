@@ -157,7 +157,9 @@ value
 let
 state
 =
-eval
+JSON
+.
+parse
 (
 aSubject
 .
@@ -248,7 +250,9 @@ aSubject
 .
 data
 =
-uneval
+JSON
+.
+stringify
 (
 state
 )

@@ -1378,9 +1378,11 @@ value
 itself
 (
 use
-toSource
+JSON
+.
+stringify
 /
-eval
+parse
 before
 setting
 JS
@@ -1531,9 +1533,11 @@ value
 itself
 (
 use
-toSource
+JSON
+.
+stringify
 /
-eval
+parse
 before
 setting
 JS
