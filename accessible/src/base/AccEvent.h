@@ -62,6 +62,7 @@ eCoalesceReorder
 eCoalesceMutationTextChange
 eCoalesceOfSameType
 eCoalesceSelectionChange
+eCoalesceStateChange
 eRemoveDupes
 eDoNotEmit
 }
@@ -260,7 +261,7 @@ nsIAccessibleEvent
 EVENT_STATE_CHANGE
 aAccessible
 aIsFromUserInput
-eAllowDupes
+eCoalesceStateChange
 )
 mState
 (
@@ -291,7 +292,7 @@ nsIAccessibleEvent
 EVENT_STATE_CHANGE
 aAccessible
 eAutoDetect
-eAllowDupes
+eCoalesceStateChange
 )
 mState
 (
@@ -382,6 +383,10 @@ mState
 ;
 bool
 mIsEnabled
+;
+friend
+class
+NotificationController
 ;
 }
 ;
