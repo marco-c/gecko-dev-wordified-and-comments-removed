@@ -4,13 +4,6 @@ WEBGLARRAY_H_
 #
 define
 WEBGLARRAY_H_
-#
-include
-"
-nsICanvasRenderingContextWebGL
-.
-h
-"
 nsresult
 NS_NewCanvasFloatArray
 (

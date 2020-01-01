@@ -27341,6 +27341,16 @@ q
 "
 )
 ;
+pref
+(
+"
+webgl
+.
+enabled_for_all_sites
+"
+false
+)
+;
 #
 ifdef
 XP_WIN

@@ -227,9 +227,7 @@ prefService
 GetBoolPref
 (
 "
-layout
-.
-canvas3d
+webgl
 .
 enabled_for_all_sites
 "
@@ -396,7 +394,7 @@ contentURI
 NS_LITERAL_STRING
 (
 "
-canvas3d
+webgl
 .
 enabled
 "
