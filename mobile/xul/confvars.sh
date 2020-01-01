@@ -512,3 +512,16 @@ select
 MOZ_USE_NATIVE_POPUP_WINDOWS
 =
 1
+MOZ_APP_ID
+=
+{
+a23983c0
+-
+fd0e
+-
+11dc
+-
+95ff
+-
+0800200c9a66
+}
