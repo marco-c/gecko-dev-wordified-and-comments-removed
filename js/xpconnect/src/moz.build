@@ -118,6 +118,11 @@ XPCJSMemoryReporter
 h
 '
 '
+nsCxPusher
+.
+h
+'
+'
 qsObjectHelper
 .
 h

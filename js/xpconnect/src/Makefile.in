@@ -92,6 +92,10 @@ LIBXUL_LIBRARY
 CPPSRCS
 =
 \
+nsCxPusher
+.
+cpp
+\
 nsScriptError
 .
 cpp
