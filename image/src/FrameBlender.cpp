@@ -542,6 +542,7 @@ return
 false
 ;
 }
+const
 FrameDataPair
 &
 prevFrame
@@ -551,6 +552,7 @@ mFrames
 aPrevFrameIndex
 ]
 ;
+const
 FrameDataPair
 &
 nextFrame
@@ -2070,6 +2072,7 @@ FrameBlender
 :
 CopyFrameImage
 (
+const
 uint8_t
 *
 aDataSrc
@@ -2149,6 +2152,7 @@ FrameBlender
 :
 DrawFrameTo
 (
+const
 uint8_t
 *
 aSrcData
@@ -2386,6 +2390,7 @@ dest
 "
 )
 ;
+const
 uint8_t
 *
 srcPixels
@@ -2407,12 +2412,14 @@ uint32_t
 aDstPixels
 )
 ;
+const
 uint32_t
 *
 colormap
 =
 reinterpret_cast
 <
+const
 uint32_t
 *
 >
@@ -2605,7 +2612,14 @@ uint32_t
 *
 >
 (
+const_cast
+<
+uint8_t
+*
+>
+(
 aSrcData
+)
 )
 aSrcRect
 .
