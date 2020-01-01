@@ -67,7 +67,7 @@ nsThreadUtils
 .
 h
 "
-class
+struct
 ElementDependentRuleProcessorData
 ;
 class
