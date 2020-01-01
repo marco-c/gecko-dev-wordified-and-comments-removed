@@ -473,12 +473,6 @@ java
 \
 db
 /
-BrowserContract
-.
-java
-\
-db
-/
 AndroidBrowserDB
 .
 java
@@ -760,6 +754,12 @@ NotificationHandler
 java
 \
 Restarter
+.
+java
+\
+db
+/
+BrowserContract
 .
 java
 \
