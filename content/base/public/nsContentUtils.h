@@ -2210,9 +2210,9 @@ static
 PRBool
 DOMEventToNativeKeyEvent
 (
-nsIDOMEvent
+nsIDOMKeyEvent
 *
-aDOMEvent
+aKeyEvent
 nsNativeKeyEvent
 *
 aNativeEvent
