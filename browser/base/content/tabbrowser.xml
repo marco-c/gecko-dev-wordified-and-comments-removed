@@ -4859,6 +4859,8 @@ CDATA
 [
 if
 (
+window
+.
 TabView
 &
 &
