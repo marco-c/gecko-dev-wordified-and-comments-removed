@@ -977,6 +977,7 @@ _OS_LIBS
 usp10
 msimg32
 ole32
+version
 endif
 CPPSRCS
 +
