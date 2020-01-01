@@ -1340,8 +1340,14 @@ CreateInterfaceObjects
 JSContext
 *
 cx
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 global
 JS
 :

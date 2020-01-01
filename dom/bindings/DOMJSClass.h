@@ -462,8 +462,14 @@ ProtoGetter
 JSContext
 *
 aCx
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aGlobal
 )
 ;

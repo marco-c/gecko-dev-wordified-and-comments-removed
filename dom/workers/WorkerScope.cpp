@@ -4432,10 +4432,17 @@ JS_ASSERT
 worker
 )
 ;
+JS
+:
+:
+Rooted
+<
 JSObject
 *
+>
 global
-=
+(
+aCx
 JS_NewGlobalObject
 (
 aCx
@@ -4447,6 +4454,7 @@ Class
 )
 GetWorkerPrincipal
 (
+)
 )
 )
 ;
