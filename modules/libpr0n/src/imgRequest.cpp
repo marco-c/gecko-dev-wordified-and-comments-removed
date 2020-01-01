@@ -6,6 +6,13 @@ imgRequest
 h
 "
 #
+include
+"
+ImageLogging
+.
+h
+"
+#
 undef
 LoadImage
 #
@@ -40,13 +47,6 @@ h
 include
 "
 imgILoader
-.
-h
-"
-#
-include
-"
-ImageLogging
 .
 h
 "
