@@ -1873,6 +1873,15 @@ v
 )
 MOZ_DELETE
 ;
+void
+operator
+=
+(
+MutableHandle
+other
+)
+MOZ_DELETE
+;
 }
 ;
 typedef

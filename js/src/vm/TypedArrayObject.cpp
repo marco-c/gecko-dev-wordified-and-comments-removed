@@ -10764,8 +10764,8 @@ args
 [
 0
 ]
-=
-NumberValue
+.
+setNumber
 (
 byteOffset
 )
@@ -10774,8 +10774,8 @@ args
 [
 1
 ]
-=
-Int32Value
+.
+setInt32
 (
 lengthInt
 )
@@ -10784,8 +10784,8 @@ args
 [
 2
 ]
-=
-ObjectValue
+.
+setObject
 (
 *
 proto
@@ -15066,8 +15066,8 @@ args2
 [
 argc
 ]
-=
-ObjectValue
+.
+setObject
 (
 *
 proto
@@ -16095,11 +16095,9 @@ WebIDLCast
 (
 cx
 args
-.
-handleAt
-(
+[
 1
-)
+]
 &
 value
 )
