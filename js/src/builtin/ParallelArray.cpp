@@ -7792,11 +7792,7 @@ getDenseInitializedLength
 (
 )
 dimArray
--
->
-getDenseElements
-(
-)
+0
 )
 )
 ;
