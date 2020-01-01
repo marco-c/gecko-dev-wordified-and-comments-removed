@@ -626,6 +626,10 @@ const
 PRUnichar
 *
 aTargetSpec
+const
+nsAString
+&
+aFileName
 nsIInputStream
 *
 aPostDataStream
@@ -649,6 +653,10 @@ const
 PRUnichar
 *
 aTargetSpec
+const
+nsAString
+&
+aFileName
 nsIInputStream
 *
 aPostDataStream
@@ -942,6 +950,10 @@ const
 char
 *
 aTypeHint
+const
+nsAString
+&
+aFileName
 nsIInputStream
 *
 aPostData

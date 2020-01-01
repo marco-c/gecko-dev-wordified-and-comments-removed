@@ -426,6 +426,12 @@ nsHTMLAreaElement
 Shape
 shape
 )
+NS_IMPL_STRING_ATTR
+(
+nsHTMLAreaElement
+Download
+download
+)
 int32_t
 nsHTMLAreaElement
 :

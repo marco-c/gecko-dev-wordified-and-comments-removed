@@ -204,6 +204,12 @@ this
 )
 ;
 }
+NS_IMPL_STRING_ATTR
+(
+nsSVGAElement
+Download
+download
+)
 nsresult
 nsSVGAElement
 :
