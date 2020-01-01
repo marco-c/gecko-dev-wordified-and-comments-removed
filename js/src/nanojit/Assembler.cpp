@@ -7407,7 +7407,7 @@ case
 LIR_orq
 :
 case
-LIR_qxor
+LIR_xorq
 :
 countlir_alu
 (
