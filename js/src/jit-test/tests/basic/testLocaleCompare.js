@@ -59,7 +59,7 @@ localeCompare
 b
 "
 "
-a
+en
 "
 )
 -
@@ -93,7 +93,7 @@ localeCompare
 a
 "
 "
-b
+en
 "
 )
 1
@@ -126,10 +126,7 @@ localeCompare
 a
 "
 "
-b
-"
-"
-c
+en
 "
 )
 0
