@@ -912,14 +912,8 @@ aState
 PRBool
 BreakWordBetweenPunctuation
 (
-const
-PeekWordState
-*
-aState
 PRBool
-aPunctAfter
-PRBool
-aWhitespaceAfter
+aAfterPunct
 PRBool
 aIsKeyboardSelect
 )
