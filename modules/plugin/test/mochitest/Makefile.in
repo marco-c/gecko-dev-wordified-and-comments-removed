@@ -431,6 +431,16 @@ config
 rules
 .
 mk
+#
+Test
+disabled
+for
+now
+due
+to
+leaks
+.
+#
 _TEST_FILES
 =
 test_npruntime
