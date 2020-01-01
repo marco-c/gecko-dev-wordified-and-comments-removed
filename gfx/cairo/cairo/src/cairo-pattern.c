@@ -11193,10 +11193,7 @@ type
 CAIRO_PATTERN_TYPE_SURFACE
 )
 return
-_cairo_error
-(
 CAIRO_STATUS_PATTERN_TYPE_MISMATCH
-)
 ;
 if
 (
