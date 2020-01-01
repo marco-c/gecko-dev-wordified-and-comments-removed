@@ -73,15 +73,13 @@ const
 uint32
 JSSLOT_WN_OBJ
 =
-JSSLOT_PRIVATE
+0
 ;
 static
 const
 uint32
 JSSLOT_RESOLVING
 =
-JSSLOT_PRIVATE
-+
 1
 ;
 static
@@ -89,8 +87,6 @@ const
 uint32
 JSSLOT_EXPANDO
 =
-JSSLOT_PRIVATE
-+
 2
 ;
 class
