@@ -1380,6 +1380,13 @@ PRUint32
 aHeight
 )
 ;
+BOOL
+NotifyForeignChildWindows
+(
+HWND
+aWnd
+)
+;
 enum
 {
 CREATE
