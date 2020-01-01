@@ -132,7 +132,7 @@ aFile
 NS_IMETHOD
 GetFileURL
 (
-nsIFileURL
+nsIURI
 *
 *
 aFileURL
