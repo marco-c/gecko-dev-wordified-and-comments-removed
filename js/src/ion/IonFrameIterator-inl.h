@@ -179,6 +179,7 @@ start
 unsigned
 count
 )
+const
 {
 unsigned
 nactual

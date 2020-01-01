@@ -43,6 +43,7 @@ FrameType
 IonFrame_JS
 IonFrame_Entry
 IonFrame_Rectifier
+IonFrame_Bailed_JS
 IonFrame_Bailed_Rectifier
 IonFrame_Exit
 IonFrame_Osr
@@ -447,6 +448,12 @@ machineState
 )
 const
 ;
+void
+dump
+(
+)
+const
+;
 }
 ;
 class
@@ -843,6 +850,7 @@ start
 unsigned
 count
 )
+const
 ;
 JSScript
 *
@@ -901,6 +909,12 @@ operator
 +
 (
 )
+;
+void
+dump
+(
+)
+const
 ;
 }
 ;

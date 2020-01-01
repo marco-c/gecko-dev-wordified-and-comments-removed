@@ -455,6 +455,14 @@ typeInferenceEnabled
 )
 ;
 }
+void
+forbidIonCompilation
+(
+JSScript
+*
+script
+)
+;
 }
 }
 #

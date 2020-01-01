@@ -119,6 +119,11 @@ Call
 \
 _
 (
+ApplyArgs
+)
+\
+_
+(
 BitNot
 )
 \

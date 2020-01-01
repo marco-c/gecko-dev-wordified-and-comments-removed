@@ -1253,6 +1253,13 @@ argc
 )
 ;
 bool
+jsop_funapply
+(
+uint32
+argc
+)
+;
+bool
 jsop_call
 (
 uint32

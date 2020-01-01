@@ -375,6 +375,12 @@ ionScript
 )
 ;
 }
+void
+dump
+(
+)
+const
+;
 }
 ;
 bool

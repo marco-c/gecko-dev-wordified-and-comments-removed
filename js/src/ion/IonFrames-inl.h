@@ -94,6 +94,9 @@ Size
 case
 IonFrame_JS
 :
+case
+IonFrame_Bailed_JS
+:
 return
 IonJSFrameLayout
 :
