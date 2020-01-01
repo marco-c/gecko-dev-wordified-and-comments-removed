@@ -1781,6 +1781,10 @@ nationalPrefixForParsing
 md
 .
 nationalPrefixTransformRule
+|
+|
+'
+'
 )
 ;
 ret
