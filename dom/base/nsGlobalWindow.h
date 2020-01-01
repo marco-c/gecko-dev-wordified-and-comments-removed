@@ -2245,13 +2245,6 @@ px
 )
 ;
 virtual
-nsIContent
-*
-GetFocusedNode
-(
-)
-;
-virtual
 void
 SetFocusedNode
 (
@@ -2652,12 +2645,6 @@ mPendingStorageEventsObsolete
 ;
 PRUint32
 mTimeoutsSuspendDepth
-;
-nsCOMPtr
-<
-nsIContent
->
-mFocusedNode
 ;
 PRUint32
 mFocusMethod

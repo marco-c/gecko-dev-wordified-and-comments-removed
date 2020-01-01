@@ -18870,7 +18870,7 @@ nsIContent
 aContent
 )
 {
-nsIFocusManager
+nsFocusManager
 *
 fm
 =

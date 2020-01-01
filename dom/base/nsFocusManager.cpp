@@ -3339,7 +3339,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsFocusManager
 :
 :
@@ -3382,10 +3382,8 @@ window
 return
 NS_OK
 ;
-nsCOMPtr
-<
 nsIContent
->
+*
 content
 =
 window

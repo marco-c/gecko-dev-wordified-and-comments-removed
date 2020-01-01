@@ -116,6 +116,17 @@ return
 mFocusedContent
 ;
 }
+nsresult
+ContentRemoved
+(
+nsIDocument
+*
+aDocument
+nsIContent
+*
+aContent
+)
+;
 static
 nsIContent
 *

@@ -2166,13 +2166,6 @@ GetScopeObject
 )
 ;
 virtual
-nsPIDOMWindow
-*
-GetWindow
-(
-)
-;
-virtual
 nsScriptLoader
 *
 ScriptLoader
@@ -3493,6 +3486,13 @@ nsAString
 aType
 PRBool
 aPersisted
+)
+;
+virtual
+nsPIDOMWindow
+*
+GetWindowInternal
+(
 )
 ;
 virtual
