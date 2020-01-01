@@ -5998,9 +5998,13 @@ mDOMRule
 ;
 PRUint32
 mLineNumber
+:
+31
 ;
-PRPackedBool
+PRUint32
 mWasMatched
+:
+1
 ;
 }
 ;
