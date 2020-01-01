@@ -1859,13 +1859,6 @@ h
 #
 include
 "
-nsISelection3
-.
-h
-"
-#
-include
-"
 nsIBoxObject
 .
 h
@@ -11088,10 +11081,6 @@ nsISelection
 DOM_CLASSINFO_MAP_ENTRY
 (
 nsISelection
-)
-DOM_CLASSINFO_MAP_ENTRY
-(
-nsISelection3
 )
 DOM_CLASSINFO_MAP_END
 #
