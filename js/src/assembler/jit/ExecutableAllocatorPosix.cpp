@@ -43,15 +43,6 @@ h
 namespace
 JSC
 {
-#
-if
-!
-(
-WTF_PLATFORM_DARWIN
-&
-&
-WTF_CPU_X86_64
-)
 void
 ExecutableAllocator
 :
@@ -168,8 +159,6 @@ result
 )
 ;
 }
-#
-endif
 #
 if
 WTF_ENABLE_ASSEMBLER_WX_EXCLUSIVE
