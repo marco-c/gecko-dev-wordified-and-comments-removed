@@ -420,16 +420,6 @@ progressDlg
 XPIDL_MODULE
 =
 progressDlg
-XPIDLSRCS
-=
-\
-nsIProgressDialog
-.
-idl
-\
-(
-NULL
-)
 EXTRA_COMPONENTS
 =
 nsProgressDialog

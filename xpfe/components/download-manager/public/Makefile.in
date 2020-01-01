@@ -428,6 +428,17 @@ nsIDownloadProgressListener
 .
 idl
 \
+nsIDownload
+.
+idl
+\
+nsIProgressDialog
+.
+idl
+\
+(
+NULL
+)
 include
 (
 topsrcdir

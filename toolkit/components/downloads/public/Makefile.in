@@ -427,6 +427,10 @@ nsIDownloadProgressListener
 .
 idl
 \
+nsIDownload
+.
+idl
+\
 (
 NULL
 )
