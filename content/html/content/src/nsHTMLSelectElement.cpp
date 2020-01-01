@@ -212,6 +212,13 @@ Element
 .
 h
 "
+#
+include
+"
+mozAutoDocUpdate
+.
+h
+"
 using
 namespace
 mozilla
@@ -624,6 +631,13 @@ if
 doc
 )
 {
+MOZ_AUTO_DOC_UPDATE
+(
+doc
+UPDATE_CONTENT_STATE
+PR_TRUE
+)
+;
 doc
 -
 >
