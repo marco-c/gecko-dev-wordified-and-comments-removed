@@ -3600,6 +3600,11 @@ validate
 "
 never
 "
+pageproxystate
+=
+"
+invalid
+"
 ondraggesture
 =
 "
