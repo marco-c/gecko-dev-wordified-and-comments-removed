@@ -1124,6 +1124,14 @@ JSContext
 cx
 )
 ;
+bool
+heavyweightFunPrologue
+(
+JSContext
+*
+cx
+)
+;
 void
 initArgsObj
 (

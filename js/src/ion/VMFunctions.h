@@ -2717,6 +2717,17 @@ frame
 )
 ;
 bool
+HeavyweightFunPrologue
+(
+JSContext
+*
+cx
+BaselineFrame
+*
+frame
+)
+;
+bool
 NewArgumentsObject
 (
 JSContext
