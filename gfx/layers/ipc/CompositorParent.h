@@ -76,6 +76,11 @@ AnswerStop
 (
 )
 ;
+void
+RequestComposition
+(
+)
+;
 virtual
 mozilla
 :
