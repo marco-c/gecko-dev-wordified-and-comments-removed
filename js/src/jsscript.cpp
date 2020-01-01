@@ -4951,7 +4951,9 @@ compiler
 >
 tokenStream
 .
-filename
+getFilename
+(
+)
 ;
 if
 (

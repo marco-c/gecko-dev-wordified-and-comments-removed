@@ -9288,6 +9288,9 @@ line1
 +
 +
 )
+(
+void
+)
 fgets
 (
 linebuf

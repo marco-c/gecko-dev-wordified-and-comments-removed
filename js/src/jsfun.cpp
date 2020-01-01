@@ -10945,7 +10945,6 @@ ts
 .
 init
 (
-cx
 collected_args
 args_length
 NULL
@@ -11003,10 +11002,10 @@ after_args
 ;
 atom
 =
-CURRENT_TOKEN
-(
-&
 ts
+.
+currentToken
+(
 )
 .
 t_atom
@@ -11155,7 +11154,6 @@ ts
 .
 close
 (
-cx
 )
 ;
 JS_ARENA_RELEASE
