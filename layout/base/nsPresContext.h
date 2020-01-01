@@ -265,9 +265,6 @@ class
 nsIURI
 ;
 class
-nsILookAndFeel
-;
-class
 nsICSSPseudoComparator
 ;
 class
@@ -844,16 +841,6 @@ aMode
 }
 #
 endif
-nsILookAndFeel
-*
-LookAndFeel
-(
-)
-{
-return
-mLookAndFeel
-;
-}
 nsIAtom
 *
 Medium
@@ -3425,10 +3412,6 @@ mDeviceContext
 nsEventStateManager
 *
 mEventManager
-;
-nsILookAndFeel
-*
-mLookAndFeel
 ;
 nsRefPtr
 <
