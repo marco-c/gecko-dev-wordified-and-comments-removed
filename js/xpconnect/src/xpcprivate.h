@@ -9465,8 +9465,9 @@ initStandardClasses
 JS
 :
 :
-ZoneSpecifier
-zoneSpec
+CompartmentOptions
+&
+aOptions
 XPCWrappedNative
 *
 *
@@ -13991,8 +13992,9 @@ principal
 JS
 :
 :
-ZoneSpecifier
-zoneSpec
+CompartmentOptions
+&
+aOptions
 )
 ;
 }

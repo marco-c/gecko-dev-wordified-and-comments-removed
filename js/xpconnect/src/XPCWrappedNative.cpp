@@ -1271,8 +1271,12 @@ nsIPrincipal
 principal
 bool
 initStandardClasses
-ZoneSpecifier
-zoneSpec
+JS
+:
+:
+CompartmentOptions
+&
+aOptions
 XPCWrappedNative
 *
 *
@@ -1408,7 +1412,7 @@ CreateGlobalObject
 cx
 clasp
 principal
-zoneSpec
+aOptions
 )
 )
 ;

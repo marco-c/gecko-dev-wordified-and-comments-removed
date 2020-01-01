@@ -4538,6 +4538,12 @@ atomsZone
 return
 false
 ;
+JS
+:
+:
+CompartmentOptions
+options
+;
 ScopedJSDeletePtr
 <
 JSCompartment
@@ -4554,6 +4560,7 @@ atomsZone
 get
 (
 )
+options
 )
 )
 ;
@@ -15554,11 +15561,13 @@ clasp
 JSPrincipals
 *
 principals
+const
 JS
 :
 :
-ZoneSpecifier
-zoneSpec
+CompartmentOptions
+&
+options
 )
 {
 AssertHeapIsIdle
@@ -15609,6 +15618,8 @@ zone
 ;
 if
 (
+options
+.
 zoneSpec
 =
 =
@@ -15627,6 +15638,8 @@ systemZone
 else
 if
 (
+options
+.
 zoneSpec
 =
 =
@@ -15647,6 +15660,8 @@ zone
 JSObject
 *
 )
+options
+.
 zoneSpec
 )
 -
@@ -15664,6 +15679,7 @@ NewCompartment
 cx
 zone
 principals
+options
 )
 ;
 if
@@ -15676,6 +15692,8 @@ NULL
 ;
 if
 (
+options
+.
 zoneSpec
 =
 =

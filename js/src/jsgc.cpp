@@ -22463,6 +22463,13 @@ zone
 JSPrincipals
 *
 principals
+const
+JS
+:
+:
+CompartmentOptions
+&
+options
 )
 {
 JSRuntime
@@ -22584,6 +22591,7 @@ JSCompartment
 >
 (
 zone
+options
 )
 )
 ;
