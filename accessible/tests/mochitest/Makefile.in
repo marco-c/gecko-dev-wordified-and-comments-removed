@@ -616,6 +616,10 @@ test_events_caretmove
 .
 html
 \
+test_events_focus
+.
+xul
+\
 test_events_mutation
 .
 html
@@ -734,6 +738,10 @@ html
 test_relations
 .
 xul
+\
+test_relations_table
+.
+html
 \
 test_role_nsHyperTextAcc
 .
