@@ -148,7 +148,11 @@ weave
 encryption
 "
 "
-XXTEA
+aes
+-
+256
+-
+cbc
 "
 )
 ;

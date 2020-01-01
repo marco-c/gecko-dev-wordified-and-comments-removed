@@ -822,7 +822,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 Handling
