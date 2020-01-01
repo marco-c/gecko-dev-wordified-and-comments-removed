@@ -112,7 +112,7 @@ AUS_Ci
 nsIFile
 .
 DIRECTORY_TYPE
-0755
+PERMS_DIRECTORY
 )
 ;
 var
@@ -179,7 +179,7 @@ data
 /
 aus
 -
-0110_general_ref_image1
+0110_general_ref_image
 .
 png
 "
@@ -385,9 +385,7 @@ data
 /
 aus
 -
-0110_general
--
-2
+0111_general
 .
 mar
 "
@@ -405,6 +403,7 @@ mar
 "
 )
 ;
+var
 exitValue
 =
 runUpdate
@@ -524,6 +523,7 @@ n
 "
 )
 ;
+var
 refImage
 =
 do_get_file
@@ -533,12 +533,13 @@ data
 /
 aus
 -
-0110_general_ref_image2
+0111_general_ref_image
 .
 png
 "
 )
 ;
+var
 srcImage
 =
 getTestFile
@@ -617,10 +618,6 @@ n
 )
 ;
 }
-removeUpdateDirsAndFiles
-(
-)
-;
 cleanUp
 (
 )

@@ -112,7 +112,7 @@ AUS_Ci
 nsIFile
 .
 DIRECTORY_TYPE
-0755
+PERMS_DIRECTORY
 )
 ;
 var
@@ -142,7 +142,7 @@ AUS_Ci
 nsIFile
 .
 NORMAL_FILE_TYPE
-0644
+PERMS_FILE
 )
 ;
 var
@@ -334,8 +334,6 @@ data
 aus
 -
 0110_general
--
-1
 .
 mar
 "
@@ -458,7 +456,7 @@ data
 /
 aus
 -
-0110_general_ref_image1
+0110_general_ref_image
 .
 png
 "
