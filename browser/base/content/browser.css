@@ -250,6 +250,9 @@ tabs
 )
 ;
 }
+%
+ifdef
+XP_MACOSX
 .
 tabbrowser
 -
@@ -282,6 +285,8 @@ arrowscrollbox
 )
 ;
 }
+%
+endifmake
 .
 tabs
 -
@@ -321,11 +326,6 @@ popup
 .
 tabbrowser
 -
-tabs
->
-.
-tabbrowser
--
 tab
 {
 -
@@ -355,11 +355,6 @@ tab
 )
 ;
 }
-.
-tabbrowser
--
-tabs
->
 .
 tabbrowser
 -
@@ -375,13 +370,6 @@ button
 tabbrowser
 -
 tabs
-.
-tabs
--
-closebutton
--
-box
->
 .
 tabs
 -
