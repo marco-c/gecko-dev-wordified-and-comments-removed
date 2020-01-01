@@ -540,7 +540,7 @@ function
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -622,7 +622,7 @@ DTI_destroy
 )
 {
 return
-Promise
+promise
 .
 defer
 (

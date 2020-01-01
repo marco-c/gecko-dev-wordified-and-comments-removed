@@ -33,6 +33,8 @@ TOOL_DELAY
 let
 {
 Promise
+:
+promise
 }
 =
 Cu
@@ -453,7 +455,7 @@ clicks
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -1032,7 +1034,7 @@ TargetFactory
 =
 Services
 =
-Promise
+promise
 =
 require
 =

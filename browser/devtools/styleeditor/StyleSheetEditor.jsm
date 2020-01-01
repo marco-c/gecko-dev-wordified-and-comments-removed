@@ -34,6 +34,9 @@ Components
 .
 utils
 ;
+let
+promise
+=
 Cu
 .
 import
@@ -58,6 +61,8 @@ promise
 js
 "
 )
+.
+Promise
 ;
 Cu
 .
@@ -966,7 +971,7 @@ function
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -980,7 +985,7 @@ sourceEditor
 )
 {
 return
-Promise
+promise
 .
 resolve
 (

@@ -96,6 +96,9 @@ js
 "
 )
 ;
+let
+promise
+=
 Cu
 .
 import
@@ -120,6 +123,8 @@ promise
 js
 "
 )
+.
+Promise
 ;
 Cu
 .
@@ -727,7 +732,7 @@ hostType
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -751,7 +756,7 @@ toolbox
 )
 {
 let
-promise
+hostPromise
 =
 (
 hostType
@@ -775,7 +780,7 @@ switchHost
 hostType
 )
 :
-Promise
+promise
 .
 resolve
 (
@@ -798,9 +803,9 @@ currentToolId
 toolId
 )
 {
-promise
+hostPromise
 =
-promise
+hostPromise
 .
 then
 (
@@ -821,7 +826,7 @@ toolId
 ;
 }
 return
-promise
+hostPromise
 .
 then
 (

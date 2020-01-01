@@ -91,6 +91,9 @@ jsm
 "
 )
 ;
+let
+promise
+=
 Cu
 .
 import
@@ -115,6 +118,8 @@ promise
 js
 "
 )
+.
+Promise
 ;
 Cu
 .

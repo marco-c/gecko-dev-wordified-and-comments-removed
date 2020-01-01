@@ -90,7 +90,7 @@ tempScope
 FileUtils
 ;
 let
-Promise
+promise
 =
 tempScope
 .
@@ -421,7 +421,7 @@ aTests
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -553,7 +553,7 @@ aTests
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (

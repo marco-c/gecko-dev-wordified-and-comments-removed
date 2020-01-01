@@ -50,6 +50,8 @@ jsm
 let
 {
 Promise
+:
+promise
 }
 =
 Cu
@@ -572,7 +574,7 @@ aUrl
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -748,7 +750,7 @@ aUrl
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -859,7 +861,7 @@ monitor
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -948,7 +950,7 @@ monitor
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -999,7 +1001,7 @@ aPostRequests
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (

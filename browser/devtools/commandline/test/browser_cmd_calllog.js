@@ -211,7 +211,7 @@ options
 var
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -452,7 +452,7 @@ function
 var
 deferred
 =
-Promise
+promise
 .
 defer
 (

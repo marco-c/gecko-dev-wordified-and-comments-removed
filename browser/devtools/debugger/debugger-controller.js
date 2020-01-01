@@ -137,6 +137,9 @@ jsm
 "
 )
 ;
+let
+promise
+=
 Cu
 .
 import
@@ -161,6 +164,8 @@ promise
 js
 "
 )
+.
+Promise
 ;
 Cu
 .
@@ -512,7 +517,7 @@ this
 .
 _startup
 =
-Promise
+promise
 .
 defer
 (
@@ -633,7 +638,7 @@ this
 .
 _shutdown
 =
-Promise
+promise
 .
 defer
 (
@@ -738,7 +743,7 @@ this
 .
 _connection
 =
-Promise
+promise
 .
 defer
 (
@@ -4277,7 +4282,7 @@ _fetched
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -4399,7 +4404,7 @@ aUrls
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (

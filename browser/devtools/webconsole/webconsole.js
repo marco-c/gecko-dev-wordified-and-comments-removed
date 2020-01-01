@@ -194,7 +194,7 @@ defineLazyModuleGetter
 (
 this
 "
-Promise
+promise
 "
 "
 resource
@@ -214,6 +214,9 @@ core
 promise
 .
 js
+"
+"
+Promise
 "
 )
 ;
@@ -1004,7 +1007,7 @@ WCF_getSaveRequestAndResponseBodies
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -1096,7 +1099,7 @@ aValue
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -1239,7 +1242,7 @@ this
 .
 _initDefer
 =
-Promise
+promise
 .
 defer
 (
@@ -11736,7 +11739,7 @@ this
 .
 _destroyer
 =
-Promise
+promise
 .
 defer
 (
@@ -13139,7 +13142,7 @@ aOptions
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -13466,7 +13469,7 @@ view
 }
 ;
 let
-promise
+openPromise
 ;
 if
 (
@@ -13478,13 +13481,13 @@ targetElement
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
 )
 ;
-promise
+openPromise
 =
 deferred
 .
@@ -13591,7 +13594,7 @@ _createSidebar
 )
 ;
 }
-promise
+openPromise
 =
 this
 .
@@ -13601,7 +13604,7 @@ _addVariablesViewSidebarTab
 ;
 }
 return
-promise
+openPromise
 .
 then
 (
@@ -13686,7 +13689,7 @@ JST__addVariablesViewSidebarTab
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -18534,7 +18537,7 @@ this
 .
 _connectDefer
 =
-Promise
+promise
 .
 defer
 (
@@ -18594,7 +18597,7 @@ TYPE_ONE_SHOT
 )
 ;
 let
-promise
+connPromise
 =
 this
 .
@@ -18602,7 +18605,7 @@ _connectDefer
 .
 promise
 ;
-promise
+connPromise
 .
 then
 (
@@ -18830,7 +18833,7 @@ _attachConsole
 )
 ;
 return
-promise
+connPromise
 ;
 }
 _connectionTimeout
@@ -19536,7 +19539,7 @@ this
 .
 _disconnecter
 =
-Promise
+promise
 .
 defer
 (

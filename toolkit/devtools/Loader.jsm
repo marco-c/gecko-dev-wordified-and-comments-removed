@@ -181,7 +181,7 @@ js
 Loader
 ;
 let
-Promise
+promise
 =
 Cu
 .
@@ -379,7 +379,7 @@ loaderGlobals
 )
 ;
 return
-Promise
+promise
 .
 resolve
 (
@@ -710,7 +710,7 @@ filename
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -820,7 +820,7 @@ data
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (

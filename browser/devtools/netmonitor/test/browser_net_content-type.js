@@ -1607,7 +1607,7 @@ incorrect
 )
 ;
 return
-Promise
+promise
 .
 resolve
 (
@@ -1753,7 +1753,7 @@ image
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (

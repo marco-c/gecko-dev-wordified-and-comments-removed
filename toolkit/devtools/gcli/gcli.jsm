@@ -1165,7 +1165,7 @@ strict
 '
 ;
 var
-Promise
+promise
 =
 require
 (
@@ -1694,7 +1694,7 @@ text
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -1910,7 +1910,7 @@ g
 )
 ;
 return
-Promise
+promise
 .
 resolve
 (
@@ -2280,7 +2280,7 @@ length
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -2343,7 +2343,7 @@ text
 )
 ;
 return
-Promise
+promise
 .
 resolve
 (
@@ -2419,7 +2419,7 @@ text
 )
 ;
 return
-Promise
+promise
 .
 resolve
 (
@@ -2476,7 +2476,7 @@ max
 )
 ;
 return
-Promise
+promise
 .
 resolve
 (
@@ -2533,7 +2533,7 @@ min
 )
 ;
 return
-Promise
+promise
 .
 resolve
 (
@@ -2551,7 +2551,7 @@ message
 ;
 }
 return
-Promise
+promise
 .
 resolve
 (
@@ -2955,7 +2955,7 @@ TrueNamedArgument
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -2982,7 +2982,7 @@ FalseNamedArgument
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -3069,7 +3069,7 @@ Status
 VALID
 '
 '
-Promise
+promise
 .
 resolve
 (
@@ -3473,7 +3473,7 @@ context
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -3762,7 +3762,7 @@ subArgParse
 )
 ;
 return
-Promise
+promise
 .
 all
 (
@@ -4719,7 +4719,7 @@ event
 }
 ;
 var
-Promise
+promise
 =
 require
 (
@@ -4875,7 +4875,7 @@ length
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -4887,7 +4887,7 @@ resolve
 var
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -4987,7 +4987,7 @@ index
 array
 )
 ;
-Promise
+promise
 .
 resolve
 (
@@ -7361,7 +7361,7 @@ util
 )
 ;
 var
-Promise
+promise
 =
 require
 (
@@ -7958,7 +7958,7 @@ predictions
 ;
 }
 return
-Promise
+promise
 .
 resolve
 (
@@ -7993,7 +7993,7 @@ null
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -11845,7 +11845,7 @@ strict
 '
 ;
 var
-Promise
+promise
 =
 require
 (
@@ -12339,7 +12339,7 @@ neverForceAsync
 var
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -12351,7 +12351,7 @@ function
 (
 )
 {
-Promise
+promise
 .
 resolve
 (
@@ -12409,7 +12409,7 @@ promise
 ;
 }
 return
-Promise
+promise
 .
 resolve
 (
@@ -12525,7 +12525,7 @@ context
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -13124,7 +13124,7 @@ Status
 .
 ERROR
 msg
-Promise
+promise
 .
 resolve
 (
@@ -13170,7 +13170,7 @@ Status
 VALID
 '
 '
-Promise
+promise
 .
 resolve
 (
@@ -13190,7 +13190,7 @@ Status
 INCOMPLETE
 '
 '
-Promise
+promise
 .
 resolve
 (
@@ -13227,7 +13227,7 @@ function
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -14098,7 +14098,7 @@ strict
 '
 ;
 var
-Promise
+promise
 =
 require
 (
@@ -14459,7 +14459,7 @@ cliUnusedArg
 )
 ;
 return
-Promise
+promise
 .
 resolve
 (
@@ -14920,7 +14920,7 @@ strict
 '
 ;
 var
-Promise
+promise
 =
 require
 (
@@ -17405,7 +17405,7 @@ strict
 '
 ;
 var
-Promise
+promise
 =
 require
 (
@@ -18142,7 +18142,7 @@ length
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -18293,7 +18293,7 @@ text
 )
 ;
 return
-Promise
+promise
 .
 resolve
 (
@@ -18320,7 +18320,7 @@ millis
 ;
 }
 return
-Promise
+promise
 .
 resolve
 (
@@ -18682,7 +18682,7 @@ strict
 '
 ;
 var
-Promise
+promise
 =
 require
 (
@@ -18927,7 +18927,7 @@ typed
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -18962,7 +18962,7 @@ typed
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -19004,7 +19004,7 @@ false
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -19035,7 +19035,7 @@ err
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -19068,7 +19068,7 @@ COMPLEX
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -19095,7 +19095,7 @@ NORMAL
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -19204,7 +19204,7 @@ null
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -19239,7 +19239,7 @@ prop
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -19269,7 +19269,7 @@ prop
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -19298,7 +19298,7 @@ ex
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -19359,7 +19359,7 @@ z
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -19396,7 +19396,7 @@ prop
 )
 ;
 return
-Promise
+promise
 .
 resolve
 (
@@ -19437,7 +19437,7 @@ z
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -19461,7 +19461,7 @@ scope
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -19629,7 +19629,7 @@ ex
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -20110,7 +20110,7 @@ predictions
 ;
 }
 return
-Promise
+promise
 .
 resolve
 (
@@ -20121,7 +20121,7 @@ typed
 arg
 status
 message
-Promise
+promise
 .
 resolve
 (
@@ -21096,7 +21096,7 @@ strict
 '
 ;
 var
-Promise
+promise
 =
 require
 (
@@ -21431,7 +21431,7 @@ text
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -21470,7 +21470,7 @@ ex
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -21506,7 +21506,7 @@ length
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -21568,7 +21568,7 @@ true
 )
 ;
 return
-Promise
+promise
 .
 resolve
 (
@@ -21612,7 +21612,7 @@ length
 )
 ;
 return
-Promise
+promise
 .
 resolve
 (
@@ -21799,7 +21799,7 @@ text
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -21838,7 +21838,7 @@ ex
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -21880,7 +21880,7 @@ allowEmpty
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -21913,7 +21913,7 @@ false
 )
 ;
 return
-Promise
+promise
 .
 resolve
 (
@@ -22067,7 +22067,7 @@ strict
 '
 ;
 var
-Promise
+promise
 =
 require
 (
@@ -23232,7 +23232,7 @@ _getAllScripts
 ;
 }
 return
-Promise
+promise
 .
 resolve
 (
@@ -25627,7 +25627,7 @@ strict
 '
 ;
 var
-Promise
+promise
 =
 require
 (
@@ -26045,7 +26045,7 @@ isInName
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -27155,7 +27155,7 @@ function
 )
 {
 return
-Promise
+promise
 .
 defer
 (
@@ -27459,7 +27459,7 @@ function
 )
 {
 return
-Promise
+promise
 .
 defer
 (
@@ -28806,7 +28806,7 @@ this
 ;
 }
 return
-Promise
+promise
 .
 resolve
 (
@@ -29058,7 +29058,7 @@ commandAssignment
 )
 ;
 var
-promise
+assignmentPromise
 =
 this
 .
@@ -29076,9 +29076,9 @@ prediction
 incomplete
 )
 {
-promise
+assignmentPromise
 =
-promise
+assignmentPromise
 .
 then
 (
@@ -29141,12 +29141,12 @@ outstanding
 .
 push
 (
-promise
+assignmentPromise
 )
 ;
 }
 return
-Promise
+promise
 .
 all
 (
@@ -29297,7 +29297,7 @@ arg
 else
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -31028,7 +31028,7 @@ this
 executionContext
 )
 ;
-Promise
+promise
 .
 resolve
 (
@@ -32636,7 +32636,7 @@ argsUsed
 1
 ;
 var
-promise
+parsePromise
 ;
 var
 commandType
@@ -32729,7 +32729,7 @@ arg
 ]
 )
 ;
-promise
+parsePromise
 =
 commandType
 .
@@ -32747,7 +32747,7 @@ util
 .
 synchronize
 (
-promise
+parsePromise
 )
 ;
 if
@@ -32760,7 +32760,7 @@ value
 null
 )
 {
-promise
+parsePromise
 =
 commandType
 .
@@ -32778,14 +32778,14 @@ util
 .
 synchronize
 (
-promise
+parsePromise
 )
 ;
 }
 }
 else
 {
-promise
+parsePromise
 =
 commandType
 .
@@ -32803,7 +32803,7 @@ util
 .
 synchronize
 (
-promise
+parsePromise
 )
 ;
 }
@@ -32962,7 +32962,7 @@ args
 )
 ;
 return
-Promise
+promise
 .
 all
 (
@@ -32988,7 +32988,7 @@ setBlankArguments
 )
 ;
 return
-Promise
+promise
 .
 all
 (
@@ -33015,7 +33015,7 @@ args
 )
 ;
 return
-Promise
+promise
 .
 all
 (
@@ -33100,7 +33100,7 @@ noArgUp
 )
 ;
 return
-Promise
+promise
 .
 all
 (
@@ -33673,7 +33673,7 @@ args
 )
 ;
 return
-Promise
+promise
 .
 all
 (
@@ -33803,7 +33803,7 @@ this
 .
 _deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -38099,7 +38099,7 @@ i
 +
 )
 {
-Promise
+promise
 .
 resolve
 (
@@ -38240,7 +38240,7 @@ function
 (
 )
 {
-Promise
+promise
 .
 resolve
 (
@@ -38530,7 +38530,7 @@ strict
 '
 ;
 var
-Promise
+promise
 =
 require
 (
@@ -38740,7 +38740,7 @@ function
 ev
 )
 {
-Promise
+promise
 .
 resolve
 (
@@ -39419,7 +39419,7 @@ util
 )
 ;
 var
-Promise
+promise
 =
 require
 (
@@ -40143,7 +40143,7 @@ requisition
 executionContext
 )
 ;
-Promise
+promise
 .
 resolve
 (
@@ -40211,7 +40211,7 @@ currentTarget
 .
 item
 ;
-Promise
+promise
 .
 resolve
 (
@@ -41859,7 +41859,7 @@ strict
 '
 ;
 var
-Promise
+promise
 =
 require
 (
@@ -42109,7 +42109,7 @@ name
 }
 )
 ;
-Promise
+promise
 .
 resolve
 (
@@ -42820,7 +42820,7 @@ requisition
 executionContext
 )
 ;
-Promise
+promise
 .
 resolve
 (
@@ -42888,7 +42888,7 @@ currentTarget
 .
 item
 ;
-Promise
+promise
 .
 resolve
 (
@@ -43979,7 +43979,7 @@ jsm
 DebuggerClient
 ;
 var
-Promise
+promise
 =
 require
 (
@@ -44206,7 +44206,7 @@ function
 var
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -44309,7 +44309,7 @@ function
 var
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -44486,7 +44486,7 @@ force
 var
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -44563,7 +44563,7 @@ this
 .
 _deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -46033,7 +46033,7 @@ util
 )
 ;
 var
-Promise
+promise
 =
 require
 (
@@ -47131,7 +47131,7 @@ to
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -47140,7 +47140,7 @@ data
 ;
 }
 return
-Promise
+promise
 .
 resolve
 (
@@ -50343,7 +50343,7 @@ strict
 '
 ;
 var
-Promise
+promise
 =
 require
 (
@@ -50429,7 +50429,7 @@ css
 var
 RESOLVED
 =
-Promise
+promise
 .
 resolve
 (
@@ -53293,7 +53293,7 @@ strict
 '
 ;
 var
-Promise
+promise
 =
 require
 (
@@ -53902,7 +53902,7 @@ function
 var
 promisedDirectTabText
 =
-Promise
+promise
 .
 defer
 (
@@ -53911,7 +53911,7 @@ defer
 var
 promisedArrowTabText
 =
-Promise
+promise
 .
 defer
 (
@@ -53920,7 +53920,7 @@ defer
 var
 promisedEmptyParameters
 =
-Promise
+promise
 .
 defer
 (
@@ -54018,7 +54018,7 @@ ex
 ;
 }
 ;
-Promise
+promise
 .
 resolve
 (

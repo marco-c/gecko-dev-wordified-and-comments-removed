@@ -122,7 +122,7 @@ openTwoTabs
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -224,7 +224,7 @@ startTwoProfiles
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -344,7 +344,7 @@ stopFirstProfile
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -419,7 +419,7 @@ stopSecondProfile
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (

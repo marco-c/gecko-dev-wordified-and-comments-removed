@@ -28,7 +28,7 @@ gFocusedWindow
 =
 null
 ;
-Promise
+promise
 .
 _reportErrors
 =

@@ -64,6 +64,9 @@ jsm
 "
 )
 ;
+let
+promise
+=
 Cu
 .
 import
@@ -88,6 +91,8 @@ promise
 js
 "
 )
+.
+Promise
 ;
 Cu
 .
@@ -300,14 +305,14 @@ function
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
 )
 ;
 let
-promise
+targetPromise
 ;
 if
 (
@@ -319,7 +324,7 @@ target
 isRemote
 )
 {
-promise
+targetPromise
 =
 this
 .
@@ -332,9 +337,9 @@ makeRemote
 }
 else
 {
-promise
+targetPromise
 =
-Promise
+promise
 .
 resolve
 (
@@ -344,7 +349,7 @@ target
 )
 ;
 }
-promise
+targetPromise
 .
 then
 (
@@ -619,7 +624,7 @@ destroy
 ;
 }
 return
-Promise
+promise
 .
 resolve
 (

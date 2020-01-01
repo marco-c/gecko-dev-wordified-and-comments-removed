@@ -121,7 +121,7 @@ startRecording
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -311,7 +311,7 @@ stopRecording
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -483,7 +483,7 @@ startRecordingAgain
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -608,7 +608,7 @@ switchBackToTheFirstOne
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (

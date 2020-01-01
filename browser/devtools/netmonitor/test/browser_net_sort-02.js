@@ -2296,7 +2296,7 @@ true
 )
 ;
 return
-Promise
+promise
 .
 resolve
 (

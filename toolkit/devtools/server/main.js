@@ -137,6 +137,9 @@ addDebuggerToGlobal
 this
 )
 ;
+let
+promise
+=
 Cu
 .
 import
@@ -161,6 +164,8 @@ promise
 js
 "
 )
+.
+Promise
 ;
 const
 {
@@ -170,7 +175,7 @@ reject
 all
 }
 =
-Promise
+promise
 ;
 Cu
 .

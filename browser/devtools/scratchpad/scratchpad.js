@@ -201,6 +201,9 @@ jsm
 "
 )
 ;
+let
+promise
+=
 Cu
 .
 import
@@ -225,6 +228,8 @@ promise
 js
 "
 )
+.
+Promise
 ;
 XPCOMUtils
 .
@@ -1277,7 +1282,7 @@ aString
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -1416,7 +1421,7 @@ SP_run
 )
 {
 let
-promise
+execPromise
 =
 this
 .
@@ -1424,7 +1429,7 @@ execute
 (
 )
 ;
-promise
+execPromise
 .
 then
 (
@@ -1462,7 +1467,7 @@ deselect
 )
 ;
 return
-promise
+execPromise
 ;
 }
 inspect
@@ -1475,7 +1480,7 @@ SP_inspect
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -1614,7 +1619,7 @@ SP_reloadAndRun
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -1756,7 +1761,7 @@ SP_display
 )
 {
 let
-promise
+execPromise
 =
 this
 .
@@ -1764,7 +1769,7 @@ execute
 (
 )
 ;
-promise
+execPromise
 .
 then
 (
@@ -1805,7 +1810,7 @@ aResult
 )
 ;
 return
-promise
+execPromise
 ;
 }
 writeAsComment
@@ -2121,7 +2126,7 @@ getText
 )
 ;
 let
-promise
+writePromise
 =
 OS
 .
@@ -2147,7 +2152,7 @@ tmp
 }
 )
 ;
-promise
+writePromise
 .
 then
 (
@@ -5756,7 +5761,7 @@ show
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -5988,7 +5993,7 @@ aObject
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (

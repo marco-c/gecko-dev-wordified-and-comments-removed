@@ -16,7 +16,7 @@ chrome
 )
 ;
 let
-Promise
+promise
 =
 require
 (
@@ -136,7 +136,7 @@ BH_create
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -461,7 +461,7 @@ frame
 ;
 }
 return
-Promise
+promise
 .
 resolve
 (
@@ -521,7 +521,7 @@ SH_create
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -846,7 +846,7 @@ frame
 ;
 }
 return
-Promise
+promise
 .
 resolve
 (
@@ -922,7 +922,7 @@ WH_create
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -1195,7 +1195,7 @@ close
 ;
 }
 return
-Promise
+promise
 .
 resolve
 (

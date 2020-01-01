@@ -76,7 +76,7 @@ gDevTools
 )
 ;
 var
-Promise
+promise
 =
 require
 (

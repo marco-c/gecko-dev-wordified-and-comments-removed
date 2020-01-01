@@ -53,7 +53,7 @@ defineLazyModuleGetter
 (
 this
 "
-Promise
+promise
 "
 "
 resource
@@ -73,6 +73,9 @@ core
 promise
 .
 js
+"
+"
+Promise
 "
 )
 ;
@@ -210,7 +213,7 @@ frame
 let
 deferredIframe
 =
-Promise
+promise
 .
 defer
 (
@@ -323,7 +326,7 @@ else
 {
 promiseTarget
 =
-Promise
+promise
 .
 resolve
 (

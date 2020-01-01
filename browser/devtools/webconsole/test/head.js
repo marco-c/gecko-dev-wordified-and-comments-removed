@@ -150,7 +150,7 @@ tempScope
 console
 ;
 let
-Promise
+promise
 =
 Cu
 .
@@ -1784,7 +1784,7 @@ aRules
 )
 ;
 return
-Promise
+promise
 .
 all
 (
@@ -1910,7 +1910,7 @@ rule
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -1921,7 +1921,7 @@ null
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -2035,7 +2035,7 @@ onFailure
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -2219,7 +2219,7 @@ aResult
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -2601,7 +2601,7 @@ outstanding
 .
 push
 (
-Promise
+promise
 .
 resolve
 (
@@ -2610,7 +2610,7 @@ true
 )
 ;
 return
-Promise
+promise
 .
 all
 (
@@ -2669,7 +2669,7 @@ Iterator
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -2680,7 +2680,7 @@ true
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -2787,7 +2787,7 @@ jsterm
 let
 lastDeferred
 =
-Promise
+promise
 .
 defer
 (
@@ -2829,7 +2829,7 @@ onexpand
 )
 ;
 return
-Promise
+promise
 .
 reject
 (
@@ -2840,7 +2840,7 @@ aProp
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -3305,7 +3305,7 @@ selectedTab
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -3606,7 +3606,7 @@ false
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (

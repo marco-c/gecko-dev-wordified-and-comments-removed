@@ -30,7 +30,7 @@ jsm
 )
 ;
 var
-Promise
+promise
 =
 require
 (
@@ -1014,7 +1014,7 @@ _destroyed
 )
 {
 return
-Promise
+promise
 .
 resolve
 (
@@ -1174,7 +1174,7 @@ _toolPanel
 null
 ;
 return
-Promise
+promise
 .
 resolve
 (

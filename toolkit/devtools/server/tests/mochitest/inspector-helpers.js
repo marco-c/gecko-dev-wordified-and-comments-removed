@@ -449,7 +449,7 @@ event
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -917,7 +917,7 @@ actorID
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -958,7 +958,7 @@ actorID
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -1029,7 +1029,7 @@ actorID
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -1067,7 +1067,7 @@ actorID
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -1461,7 +1461,7 @@ mutations
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (

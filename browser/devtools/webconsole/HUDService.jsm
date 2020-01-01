@@ -200,7 +200,7 @@ defineLazyModuleGetter
 (
 this
 "
-Promise
+promise
 "
 "
 resource
@@ -220,6 +220,9 @@ core
 promise
 .
 js
+"
+"
+Promise
 "
 )
 ;
@@ -1468,7 +1471,7 @@ this
 .
 _destroyer
 =
-Promise
+promise
 .
 defer
 (
@@ -1856,7 +1859,7 @@ this
 .
 _bc_destroyer
 =
-Promise
+promise
 .
 defer
 (
@@ -2154,7 +2157,7 @@ this
 .
 _browserConsoleDefer
 =
-Promise
+promise
 .
 defer
 (
@@ -2168,7 +2171,7 @@ connect
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (
@@ -2361,7 +2364,7 @@ aTarget
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (

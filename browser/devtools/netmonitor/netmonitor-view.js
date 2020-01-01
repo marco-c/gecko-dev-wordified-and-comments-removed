@@ -793,7 +793,7 @@ aId
 let
 deferred
 =
-Promise
+promise
 .
 defer
 (

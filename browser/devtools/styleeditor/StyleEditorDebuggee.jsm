@@ -105,7 +105,7 @@ defineLazyModuleGetter
 (
 this
 "
-Promise
+promise
 "
 "
 resource
@@ -125,6 +125,9 @@ core
 promise
 .
 js
+"
+"
+Promise
 "
 )
 ;

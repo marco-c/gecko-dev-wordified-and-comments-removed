@@ -153,6 +153,9 @@ js
 "
 )
 ;
+let
+promise
+=
 Cu
 .
 import
@@ -177,6 +180,8 @@ promise
 js
 "
 )
+.
+Promise
 ;
 XPCOMUtils
 .
