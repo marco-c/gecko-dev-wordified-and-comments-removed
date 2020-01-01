@@ -612,6 +612,11 @@ nsPISocketTransportService
 .
 idl
 '
+'
+nsPILoadGroupInternal
+.
+idl
+'
 ]
 if
 CONFIG
