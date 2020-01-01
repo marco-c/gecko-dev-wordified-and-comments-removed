@@ -11,13 +11,6 @@ nsBoxFrame
 .
 h
 "
-#
-include
-"
-nsIScrollbarFrame
-.
-h
-"
 class
 nsIScrollbarMediator
 ;
@@ -38,8 +31,6 @@ nsScrollbarFrame
 :
 public
 nsBoxFrame
-public
-nsIScrollbarFrame
 {
 public
 :
@@ -64,6 +55,10 @@ nsnull
 )
 {
 }
+NS_DECL_QUERYFRAME_TARGET
+(
+nsScrollbarFrame
+)
 #
 ifdef
 DEBUG
@@ -182,7 +177,6 @@ GetType
 )
 const
 ;
-virtual
 void
 SetScrollbarMediatorContent
 (
@@ -191,7 +185,6 @@ nsIContent
 aMediator
 )
 ;
-virtual
 nsIScrollbarMediator
 *
 GetScrollbarMediator

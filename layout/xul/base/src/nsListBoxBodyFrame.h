@@ -233,7 +233,7 @@ aModType
 NS_IMETHOD
 PositionChanged
 (
-nsIScrollbarFrame
+nsScrollbarFrame
 *
 aScrollbar
 PRInt32
@@ -246,7 +246,7 @@ aNewIndex
 NS_IMETHOD
 ScrollbarButtonPressed
 (
-nsIScrollbarFrame
+nsScrollbarFrame
 *
 aScrollbar
 PRInt32

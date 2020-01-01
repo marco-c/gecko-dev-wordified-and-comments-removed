@@ -119,7 +119,7 @@ h
 #
 include
 "
-nsIScrollbarFrame
+nsScrollbarFrame
 .
 h
 "
@@ -576,7 +576,7 @@ aSelector
 NS_IMETHOD
 PositionChanged
 (
-nsIScrollbarFrame
+nsScrollbarFrame
 *
 aScrollbar
 PRInt32
@@ -589,7 +589,7 @@ aNewIndex
 NS_IMETHOD
 ScrollbarButtonPressed
 (
-nsIScrollbarFrame
+nsScrollbarFrame
 *
 aScrollbar
 PRInt32
@@ -707,7 +707,7 @@ nsTreeColumn
 struct
 ScrollParts
 {
-nsIScrollbarFrame
+nsScrollbarFrame
 *
 mVScrollbar
 ;
@@ -717,7 +717,7 @@ nsIContent
 >
 mVScrollbarContent
 ;
-nsIScrollbarFrame
+nsScrollbarFrame
 *
 mHScrollbar
 ;

@@ -113,7 +113,7 @@ h
 #
 include
 "
-nsIScrollbarFrame
+nsScrollbarFrame
 .
 h
 "
@@ -1081,7 +1081,7 @@ current
 =
 max
 ;
-nsIScrollbarFrame
+nsScrollbarFrame
 *
 scrollbarFrame
 =
@@ -3417,7 +3417,7 @@ mUserChanged
 =
 PR_TRUE
 ;
-nsIScrollbarFrame
+nsScrollbarFrame
 *
 scrollbarFrame
 =
