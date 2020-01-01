@@ -1047,6 +1047,15 @@ MOZ_CAIRO_CFLAGS
 (
 NULL
 )
+ifdef
+MOZ_ENABLE_GTK2
+CXXFLAGS
++
+=
+(
+MOZ_GTK2_CFLAGS
+)
+endif
 libs
 :
 :
