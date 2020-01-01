@@ -3439,7 +3439,13 @@ index
 if
 (
 !
-XP_IS_SPACE
+mozilla
+:
+:
+dom
+:
+:
+IsSpaceCharacter
 (
 textFrag
 -
