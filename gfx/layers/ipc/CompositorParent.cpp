@@ -709,13 +709,13 @@ mResumeCompositionMonitor
 ResumeCompositionMonitor
 "
 )
-mForceCompositionTask
-(
-nullptr
-)
 mOverrideComposeReadiness
 (
 false
+)
+mForceCompositionTask
+(
+nullptr
 )
 {
 NS_ABORT_IF_FALSE
