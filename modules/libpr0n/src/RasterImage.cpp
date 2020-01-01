@@ -3291,7 +3291,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 RasterImage
 :
 :
@@ -3354,9 +3354,6 @@ ImageUpdated
 (
 aUpdatedRect
 )
-;
-return
-NS_OK
 ;
 }
 nsresult
