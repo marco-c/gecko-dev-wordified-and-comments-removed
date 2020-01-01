@@ -14,12 +14,7 @@ UniversalXPConnect
 const
 Ci
 =
-SpecialPowers
-.
-wrap
-(
 Components
-)
 .
 interfaces
 ;
@@ -38,12 +33,7 @@ Ci
 const
 Cc
 =
-SpecialPowers
-.
-wrap
-(
 Components
-)
 .
 classes
 ;

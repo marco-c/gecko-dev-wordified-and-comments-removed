@@ -549,10 +549,6 @@ test_bug_444968
 .
 html
 \
-test_bug_627616
-.
-html
-\
 test_master_password
 .
 html
