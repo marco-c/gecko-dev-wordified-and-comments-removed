@@ -2720,7 +2720,7 @@ NS_OK
 *
 outCmdEnabled
 =
-true
+false
 ;
 bool
 docIsEmpty
