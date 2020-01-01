@@ -17293,10 +17293,9 @@ change
 cx
 sprop
 attrs
-sprop
--
->
-attrs
+JSPROP_GETTER
+|
+JSPROP_SETTER
 (
 attrs
 &
