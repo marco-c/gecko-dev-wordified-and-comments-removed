@@ -2135,7 +2135,10 @@ BACKEND_CAIRO
 uint32_t
 contentMask
 =
-0
+1
+<
+<
+BACKEND_CAIRO
 ;
 if
 (
