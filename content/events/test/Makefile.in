@@ -472,6 +472,10 @@ test_bug855741
 .
 html
 \
+test_dblclick_explicit_original_target
+.
+html
+\
 (
 NULL
 )

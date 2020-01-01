@@ -19764,6 +19764,11 @@ return
 NS_OK
 ;
 }
+nsWeakFrame
+currentTarget
+=
+mCurrentTarget
+;
 ret
 =
 presShell
@@ -19773,7 +19778,7 @@ HandleEventWithTarget
 (
 &
 event
-mCurrentTarget
+currentTarget
 mouseContent
 aStatus
 )
@@ -19886,7 +19891,7 @@ HandleEventWithTarget
 (
 &
 event2
-mCurrentTarget
+currentTarget
 mouseContent
 aStatus
 )
