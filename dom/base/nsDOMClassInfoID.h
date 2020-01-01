@@ -138,6 +138,7 @@ eDOMClassInfo_TreeContentView_id
 endif
 eDOMClassInfo_Crypto_id
 eDOMClassInfo_CRMFObject_id
+eDOMClassInfo_Pkcs11_id
 eDOMClassInfo_TreeWalker_id
 eDOMClassInfo_CSSRect_id
 eDOMClassInfo_ChromeWindow_id
