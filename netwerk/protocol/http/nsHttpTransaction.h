@@ -518,6 +518,9 @@ mContentLength
 nsInt64
 mContentRead
 ;
+PRUint32
+mInvalidResponseBytesRead
+;
 nsHttpChunkedDecoder
 *
 mChunkedDecoder
