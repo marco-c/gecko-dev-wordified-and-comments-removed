@@ -3013,6 +3013,10 @@ success
 GetTextExtentExPointI
 (
 aDC
+(
+WORD
+*
+)
 aGlyphs
 length
 INT_MAX
@@ -3287,6 +3291,10 @@ GetGlyphIndicesA
 dc
 aString
 aLength
+(
+WORD
+*
+)
 glyphArray
 .
 Elements
@@ -3419,6 +3427,10 @@ GetGlyphIndicesW
 dc
 aString
 aLength
+(
+WORD
+*
+)
 glyphArray
 .
 Elements
