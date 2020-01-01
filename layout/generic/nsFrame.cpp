@@ -21922,10 +21922,6 @@ nsPoint
 )
 scaleFactor
 nullptr
-nullptr
-nullptr
-nullptr
-nullptr
 aOutAncestor
 )
 ;
