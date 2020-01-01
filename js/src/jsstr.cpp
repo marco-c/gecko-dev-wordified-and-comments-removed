@@ -6409,6 +6409,14 @@ chars
 (
 )
 ;
+SkipRoot
+skipPat
+(
+cx
+&
+pat
+)
+;
 uint32_t
 start
 ;

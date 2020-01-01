@@ -710,7 +710,7 @@ ArrayBufferObject
 arrayBuffer
 JSObject
 *
-proto
+protoArg
 )
 {
 JS_ASSERT
@@ -727,6 +727,13 @@ byteLength
 <
 =
 INT32_MAX
+)
+;
+RootedObject
+proto
+(
+cx
+protoArg
 )
 ;
 RootedObject

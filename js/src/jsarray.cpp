@@ -17555,14 +17555,8 @@ protoArg
 )
 PoisonPtr
 (
-reinterpret_cast
-<
-uintptr_t
-*
->
-(
+&
 protoArg
-)
 )
 ;
 if
