@@ -901,7 +901,7 @@ ActivityHandlerHelper
 )
 ;
 static
-NotificationServiceClient
+NotificationClient
 sNotificationClient
 ;
 public
@@ -6524,7 +6524,7 @@ static
 void
 setNotificationClient
 (
-NotificationServiceClient
+NotificationClient
 client
 )
 {
@@ -6545,7 +6545,7 @@ else
 {
 Log
 .
-w
+d
 (
 LOGTAG
 "
