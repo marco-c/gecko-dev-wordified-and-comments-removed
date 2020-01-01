@@ -408,7 +408,7 @@ getPreferencesElements
 (
 )
 {
-var
+let
 prefElements
 =
 {
@@ -521,7 +521,7 @@ document
 getElementById
 (
 "
-select
+menulist
 -
 container
 "
