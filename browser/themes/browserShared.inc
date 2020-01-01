@@ -74,3 +74,15 @@ button
 fullscreen
 -
 button
+#
+zoom
+-
+out
+-
+button
+#
+zoom
+-
+in
+-
+button
