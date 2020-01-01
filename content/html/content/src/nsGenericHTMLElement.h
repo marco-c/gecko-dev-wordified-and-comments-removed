@@ -410,6 +410,11 @@ PRUint8
 optional_argc
 )
 ;
+nsresult
+MozRequestFullScreen
+(
+)
+;
 NS_IMETHOD
 Focus
 (
