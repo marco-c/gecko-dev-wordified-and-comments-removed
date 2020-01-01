@@ -5700,15 +5700,6 @@ thingKind
 AutoLockGC
 maybeLock
 ;
-JS_ASSERT
-(
-!
-comp
--
->
-scheduledForDestruction
-)
-;
 #
 ifdef
 JS_THREADSAFE
