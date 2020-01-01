@@ -526,10 +526,6 @@ nsIDOMSimpleGestureEvent
 .
 idl
 \
-nsIDOMNSMouseEvent
-.
-idl
-\
 nsIDOMMozTouchEvent
 .
 idl

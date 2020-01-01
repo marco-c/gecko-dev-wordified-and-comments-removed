@@ -112,7 +112,7 @@ mEvent
 >
 inputSource
 =
-nsIDOMNSMouseEvent
+nsIDOMMouseEvent
 :
 :
 MOZ_SOURCE_UNKNOWN
@@ -259,10 +259,6 @@ nsDOMMouseEvent
 NS_INTERFACE_MAP_ENTRY
 (
 nsIDOMMouseEvent
-)
-NS_INTERFACE_MAP_ENTRY
-(
-nsIDOMNSMouseEvent
 )
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 (

@@ -140,6 +140,13 @@ nsUXThemeData
 .
 h
 "
+#
+include
+"
+nsIDOMMouseEvent
+.
+h
+"
 class
 nsNativeDragTarget
 ;
@@ -883,7 +890,7 @@ eLeftButton
 PRUint16
 aInputSource
 =
-nsIDOMNSMouseEvent
+nsIDOMMouseEvent
 :
 :
 MOZ_SOURCE_MOUSE

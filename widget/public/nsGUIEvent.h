@@ -63,7 +63,7 @@ h
 #
 include
 "
-nsIDOMNSMouseEvent
+nsIDOMMouseEvent
 .
 h
 "
@@ -2754,7 +2754,7 @@ pressure
 )
 inputSource
 (
-nsIDOMNSMouseEvent
+nsIDOMMouseEvent
 :
 :
 MOZ_SOURCE_MOUSE
