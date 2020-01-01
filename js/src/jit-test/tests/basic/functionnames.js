@@ -474,6 +474,8 @@ add
 '
 Fuz
 .
+prototype
+.
 add
 '
 )
