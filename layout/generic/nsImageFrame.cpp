@@ -2952,13 +2952,9 @@ SourceRectToDest
 aDirtyRect
 )
 ;
-InvalidateLayer
+Invalidate
 (
 r
-nsDisplayItem
-:
-:
-TYPE_IMAGE
 )
 ;
 return
