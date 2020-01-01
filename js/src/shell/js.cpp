@@ -5090,7 +5090,9 @@ cx
 fp
 -
 >
-script
+getScript
+(
+)
 -
 >
 nmap

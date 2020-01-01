@@ -334,7 +334,9 @@ fp
 )
 -
 >
-script
+maybeScript
+(
+)
 =
 =
 script

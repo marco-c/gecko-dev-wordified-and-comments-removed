@@ -3212,7 +3212,9 @@ script
 fp
 -
 >
-script
+getScript
+(
+)
 ;
 JS_ASSERT
 (
@@ -3321,16 +3323,10 @@ d
 \
 n
 "
-fp
--
->
 script
 -
 >
 filename
-fp
--
->
 script
 -
 >

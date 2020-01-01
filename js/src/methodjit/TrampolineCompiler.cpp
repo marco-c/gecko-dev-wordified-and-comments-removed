@@ -514,10 +514,11 @@ Address
 rval
 (
 JSFrameReg
-offsetof
-(
 JSStackFrame
-rval
+:
+:
+offsetReturnValue
+(
 )
 )
 ;
