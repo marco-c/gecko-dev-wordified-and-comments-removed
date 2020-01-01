@@ -164,7 +164,7 @@ h
 #
 include
 <
-Corelocation
+CoreLocation
 /
 CLError
 .
@@ -173,7 +173,7 @@ h
 #
 include
 <
-Corelocation
+CoreLocation
 /
 CLLocation
 .
@@ -182,7 +182,7 @@ h
 #
 include
 <
-Corelocation
+CoreLocation
 /
 CLLocationManager
 .
@@ -191,7 +191,7 @@ h
 #
 include
 <
-Corelocation
+CoreLocation
 /
 CLLocationManagerDelegate
 .
