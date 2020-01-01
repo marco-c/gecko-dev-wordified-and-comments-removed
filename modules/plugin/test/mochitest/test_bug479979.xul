@@ -74,9 +74,10 @@ title
 =
 "
 NPAPI
-Private
-Mode
-Tests
+Set
+Undefined
+Value
+Test
 "
 xmlns
 :
@@ -127,9 +128,10 @@ xul
 title
 >
 NPAPI
-Private
-Mode
-Tests
+Set
+Undefined
+Value
+Test
 <
 /
 title
