@@ -747,7 +747,7 @@ searchEngine
 ;
 mIconView
 .
-updateImage
+updateAndScaleImage
 (
 mSearchEngine
 .

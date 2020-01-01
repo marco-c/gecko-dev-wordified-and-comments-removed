@@ -519,4 +519,14 @@ false
 )
 ;
 }
+public
+Bitmap
+getBitmap
+(
+)
+{
+return
+mIconBitmap
+;
+}
 }
