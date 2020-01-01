@@ -3228,6 +3228,9 @@ String
 Script
 "
 "
+IonCode
+"
+"
 Xml
 "
 "
