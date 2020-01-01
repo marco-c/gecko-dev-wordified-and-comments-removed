@@ -369,6 +369,14 @@ GDK_DISPLAY
 if
 (
 !
+display
+)
+return
+nsnull
+;
+if
+(
+!
 UseGlitz
 (
 )
