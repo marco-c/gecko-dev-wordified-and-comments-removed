@@ -4505,6 +4505,16 @@ hint
 ;
 #
 endif
+if
+(
+hint
+&
+XPCNW
+)
+hint
+=
+SJOW
+;
 return
 hint
 ;
