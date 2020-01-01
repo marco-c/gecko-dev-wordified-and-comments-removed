@@ -542,7 +542,7 @@ B
 <
 !
 ENTITY
-addCurPageAsCmd
+bookmarkThisPageCmd
 .
 label
 "
@@ -554,7 +554,7 @@ Page
 <
 !
 ENTITY
-addCurPageAsCmd
+bookmarkThisPageCmd
 .
 commandkey
 "

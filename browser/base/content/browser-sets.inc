@@ -3302,7 +3302,7 @@ key
 =
 "
 &
-addCurPageAsCmd
+bookmarkThisPageCmd
 .
 commandkey
 ;
@@ -3347,7 +3347,7 @@ key
 =
 "
 &
-addCurPageAsCmd
+bookmarkThisPageCmd
 .
 commandkey
 ;
