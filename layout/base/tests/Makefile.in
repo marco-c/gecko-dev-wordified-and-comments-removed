@@ -808,6 +808,10 @@ test_bug761572
 .
 html
 \
+test_maxLineBoxWidth
+.
+html
+\
 (
 NULL
 )
