@@ -2724,7 +2724,7 @@ temp1
 if
 (
 !
-useBoxAtStart
+useBox
 (
 lir
 LIsNullOrLikeUndefinedAndBranch
