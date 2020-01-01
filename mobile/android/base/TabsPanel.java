@@ -1702,10 +1702,6 @@ dispatchLayoutChange
 0
 )
 ;
-mPanel
-=
-null
-;
 }
 }
 public
