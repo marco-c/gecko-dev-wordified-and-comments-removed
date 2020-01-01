@@ -2064,9 +2064,6 @@ if
 count
 )
 {
-if
-(
-!
 element
 -
 >
@@ -2076,9 +2073,6 @@ SetCapacity
 (
 count
 )
-)
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
 for
 (
