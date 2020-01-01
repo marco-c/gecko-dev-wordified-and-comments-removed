@@ -1095,6 +1095,22 @@ browser_dump
 )
 )
     
+utils
+.
+stamped_msg
+(
+"
+Transmitting
+test
+:
+"
++
+res
+"
+Started
+"
+)
+    
 filename
 =
 tempfile
@@ -1620,6 +1636,22 @@ links
 +
 =
 chunk_link
+    
+utils
+.
+stamped_msg
+(
+"
+Transmitting
+test
+:
+"
++
+res
+"
+Stopped
+"
+)
   
 first_results
 =
@@ -2582,6 +2614,19 @@ results_link
 )
 :
     
+utils
+.
+stamped_msg
+(
+"
+Sending
+results
+"
+"
+Started
+"
+)
+    
 send_to_graph
 (
 results_server
@@ -2590,6 +2635,20 @@ title
 date
 browser_config
 results
+)
+    
+utils
+.
+stamped_msg
+(
+"
+Completed
+sending
+results
+"
+"
+Stopped
+"
 )
   
 if
