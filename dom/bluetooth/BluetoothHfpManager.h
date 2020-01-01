@@ -443,7 +443,7 @@ const
 char
 *
 aCommand
-uint8_t
+uint32_t
 aValue
 =
 0
@@ -489,6 +489,9 @@ mCurrentVgs
 ;
 int
 mCurrentVgm
+;
+bool
+mBSIR
 ;
 bool
 mCCWA
