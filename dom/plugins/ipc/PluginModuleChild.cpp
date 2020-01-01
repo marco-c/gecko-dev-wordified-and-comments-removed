@@ -4755,9 +4755,6 @@ NPNVSupportsXEmbedBool
 case
 NPNVSupportsWindowless
 :
-case
-NPNVprivateModeBool
-:
 {
 NPError
 result
