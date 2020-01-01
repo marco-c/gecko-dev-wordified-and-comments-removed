@@ -113,15 +113,6 @@ test_app_update
 .
 html
 \
-(
-NULL
-)
-ifdef
-MOZ_B2G
-MOCHITEST_FILES
-+
-=
-\
 file_packaged_app
 .
 sjs
@@ -145,7 +136,6 @@ html
 (
 NULL
 )
-endif
 MOCHITEST_CHROME_FILES
 =
 \
