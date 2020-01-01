@@ -2802,13 +2802,6 @@ JS_BIT
 (
 13
 )
-#
-define
-JSOPTION_METHODJIT
-JS_BIT
-(
-14
-)
 extern
 JS_PUBLIC_API
 (
@@ -5203,8 +5196,6 @@ JSCLASS_IS_GLOBAL
 JSCLASS_HAS_RESERVED_SLOTS
 (
 JSProto_LIMIT
-*
-2
 )
 )
 #
@@ -10449,6 +10440,7 @@ ptr
 ;
 }
 ;
+VALUE_ALIGNMENT_BEFORE
 class
 Value
 {
@@ -11248,7 +11240,7 @@ i32
 i
 ;
 }
-int32_t
+int32
 &
 asInt32Ref
 (
@@ -12346,7 +12338,7 @@ u32
 ;
 }
 }
-VALUE_ALIGNMENT
+VALUE_ALIGNMENT_AFTER
 ;
 static
 inline
