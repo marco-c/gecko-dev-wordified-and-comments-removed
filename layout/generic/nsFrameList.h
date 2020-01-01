@@ -253,6 +253,11 @@ DestroyFrame
 nsIFrame
 *
 aFrame
+nsIFrame
+*
+aPrevSiblingHint
+=
+nsnull
 )
 ;
 void
