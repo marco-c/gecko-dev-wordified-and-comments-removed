@@ -607,8 +607,10 @@ bool
 aInterruptable
 )
 ;
+nsCOMPtr
+<
 nsIContent
-*
+>
 mDocElement
 ;
 nsCOMPtr
