@@ -420,6 +420,13 @@ srcdir
 VPATH
 =
 srcdir
+relativesrcdir
+=
+toolkit
+/
+crashreporter
+/
+client
 include
 (
 DEPTH

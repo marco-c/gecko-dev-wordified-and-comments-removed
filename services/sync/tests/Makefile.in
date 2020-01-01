@@ -402,6 +402,13 @@ srcdir
 VPATH
 =
 srcdir
+relativesrcdir
+=
+services
+/
+sync
+/
+tests
 include
 (
 DEPTH
