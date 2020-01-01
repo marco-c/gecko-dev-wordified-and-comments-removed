@@ -1928,14 +1928,6 @@ test_bug571390
 .
 xul
 \
-test_websocket_hello
-.
-html
-\
-file_websocket_hello_wsh
-.
-py
-\
 (
 NULL
 )
