@@ -5348,13 +5348,12 @@ false
 if
 (
 !
-JSObject
-:
-:
+self
+-
+>
 setSlotSpan
 (
 cx
-self
 BOUND_FUNCTION_RESERVED_SLOTS
 +
 argslen

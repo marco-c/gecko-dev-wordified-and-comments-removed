@@ -1282,7 +1282,8 @@ MarkInternal
 trc
 reinterpret_cast
 <
-RawObject
+JSObject
+*
 *
 >
 (
@@ -1300,7 +1301,8 @@ MarkInternal
 trc
 reinterpret_cast
 <
-RawString
+JSString
+*
 *
 >
 (
@@ -1318,7 +1320,8 @@ MarkInternal
 trc
 reinterpret_cast
 <
-RawScript
+JSScript
+*
 *
 >
 (
@@ -1355,7 +1358,8 @@ MarkInternal
 trc
 reinterpret_cast
 <
-RawBaseShape
+BaseShape
+*
 *
 >
 (
@@ -3218,7 +3222,8 @@ ScanBaseShape
 GCMarker
 *
 gcmarker
-RawBaseShape
+BaseShape
+*
 base
 )
 ;
@@ -3229,7 +3234,8 @@ PushMarkStack
 GCMarker
 *
 gcmarker
-RawBaseShape
+BaseShape
+*
 thing
 )
 {
@@ -3285,10 +3291,6 @@ shape
 -
 >
 base
-(
-)
-.
-unsafeGet
 (
 )
 )
@@ -3380,7 +3382,8 @@ ScanBaseShape
 GCMarker
 *
 gcmarker
-RawBaseShape
+BaseShape
+*
 base
 )
 {
@@ -4142,7 +4145,8 @@ MarkChildren
 JSTracer
 *
 trc
-RawBaseShape
+BaseShape
+*
 base
 )
 {
@@ -4162,9 +4166,11 @@ MarkCycleCollectorChildren
 JSTracer
 *
 trc
-RawBaseShape
+BaseShape
+*
 base
-RawObject
+JSObject
+*
 *
 prevParent
 )
@@ -4335,7 +4341,8 @@ Shape
 shape
 )
 {
-RawObject
+JSObject
+*
 prevParent
 =
 NULL
@@ -4349,10 +4356,6 @@ shape
 -
 >
 base
-(
-)
-.
-unsafeGet
 (
 )
 &
@@ -6956,7 +6959,8 @@ MarkChildren
 trc
 static_cast
 <
-RawObject
+JSObject
+*
 >
 (
 thing
@@ -6973,7 +6977,8 @@ MarkChildren
 trc
 static_cast
 <
-RawString
+JSString
+*
 >
 (
 thing
@@ -6990,7 +6995,8 @@ MarkChildren
 trc
 static_cast
 <
-RawScript
+JSScript
+*
 >
 (
 thing
@@ -7046,7 +7052,8 @@ MarkChildren
 trc
 static_cast
 <
-RawBaseShape
+BaseShape
+*
 >
 (
 thing
