@@ -731,10 +731,6 @@ vertex
 do_GetAtom
 (
 toStr
-.
-get
-(
-)
 )
 ;
 if

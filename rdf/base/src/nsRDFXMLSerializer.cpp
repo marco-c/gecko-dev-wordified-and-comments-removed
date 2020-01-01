@@ -1027,7 +1027,7 @@ EnsureNewPrefix
 (
 )
 {
-nsCAutoString
+nsAutoString
 qname
 ;
 nsCOMPtr
