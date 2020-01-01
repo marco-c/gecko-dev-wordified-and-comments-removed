@@ -4757,16 +4757,8 @@ GetFrameMessageManager
 (
 )
 ;
-AutoPushJSContext
+AutoSafeJSContext
 ctx
-(
-manager
--
->
-GetJSContext
-(
-)
-)
 ;
 uint32_t
 len
