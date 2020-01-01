@@ -458,9 +458,6 @@ c
 #
 include
 "
-.
-.
-/
 typedefs
 .
 h
@@ -726,9 +723,6 @@ r
 #
 include
 "
-.
-.
-/
 typedefs
 .
 h
