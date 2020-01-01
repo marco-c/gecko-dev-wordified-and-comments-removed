@@ -19157,11 +19157,10 @@ if
 scaledSource
 |
 |
-!
 scaledSource
 -
 >
-Data
+CairoStatus
 (
 )
 |
@@ -19170,11 +19169,10 @@ Data
 scaledTarget
 |
 |
-!
 scaledTarget
 -
 >
-Data
+CairoStatus
 (
 )
 )
