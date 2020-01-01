@@ -851,11 +851,9 @@ desc
 "
 Weave
 .
-Str
+Utils
 .
-errors
-.
-get
+getErrorString
 (
 login
 )
