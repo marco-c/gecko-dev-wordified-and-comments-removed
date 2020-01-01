@@ -3032,15 +3032,7 @@ lir
 insGuard
 (
 LIR_loop
-writer
-.
-lir
--
->
-insImm
-(
-1
-)
+NULL
 exitIns
 )
 ;
