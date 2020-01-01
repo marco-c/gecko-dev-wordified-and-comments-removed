@@ -3520,6 +3520,8 @@ exceptionEntry
 {
 unsigned
 tryOffset
+=
+0
 ;
 JSTryNote
 *
