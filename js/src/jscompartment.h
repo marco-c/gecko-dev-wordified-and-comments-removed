@@ -1194,9 +1194,9 @@ base
 js
 :
 :
-Shape
+ShapeKindArray
 *
-shape
+shapes
 ;
 typedef
 const

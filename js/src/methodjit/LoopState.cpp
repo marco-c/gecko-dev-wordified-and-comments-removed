@@ -1939,10 +1939,13 @@ return
 constant
 >
 =
+(
+int32
+)
 JSObject
 :
 :
-NSLOTS_LIMIT
+NELEMENTS_LIMIT
 ;
 }
 if

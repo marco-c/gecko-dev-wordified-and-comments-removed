@@ -1826,8 +1826,7 @@ singleton
 js
 :
 :
-EmptyShape
-*
+ShapeKindArray
 *
 emptyShapes
 ;
