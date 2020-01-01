@@ -1,10 +1,3 @@
-README
-for
-the
-plugin
-event
-sample
-.
 INTENT
 :
 -
@@ -403,6 +396,4 @@ NOTES
 No
 Mac
 support
-at
-all
 .
