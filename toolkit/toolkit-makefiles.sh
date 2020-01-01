@@ -6025,6 +6025,15 @@ video
 src
 /
 Makefile
+content
+/
+media
+/
+video
+/
+test
+/
+Makefile
 "
 fi
 if
