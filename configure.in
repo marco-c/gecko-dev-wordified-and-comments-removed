@@ -35864,6 +35864,9 @@ MOZ_IMG_ENCODERS_DEFAULT
 png
 jpeg
 "
+MOZ_IPC
+=
+1
 MOZ_JAVAXPCOM
 =
 MOZ_JSDEBUGGER
@@ -41094,9 +41097,6 @@ dnl
 =
 =
 =
-MOZ_IPC
-=
-1
 case
 "
 {
