@@ -589,6 +589,10 @@ browser_console_keyboard_accessibility
 .
 js
 \
+browser_console_filters
+.
+js
+\
 head
 .
 js
