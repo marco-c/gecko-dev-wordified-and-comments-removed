@@ -552,10 +552,6 @@ hasHadScriptObject
 NS_ENSURE_STATE
 (
 scriptObject
-|
-|
-!
-hasHadScriptObject
 )
 ;
 nsIScriptContext
