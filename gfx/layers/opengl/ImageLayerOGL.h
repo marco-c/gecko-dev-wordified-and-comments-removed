@@ -299,6 +299,17 @@ GetLayer
 )
 ;
 virtual
+bool
+LoadAsTexture
+(
+GLuint
+aTextureUnit
+gfxIntSize
+*
+aSize
+)
+;
+virtual
 void
 RenderLayer
 (
@@ -496,6 +507,9 @@ gl
 :
 ShaderProgramType
 mLayerProgram
+;
+gfxIntSize
+mTextureSize
 ;
 }
 ;

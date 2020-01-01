@@ -615,6 +615,14 @@ return
 mTexCoordMultiplierUniformLocation
 ;
 }
+bool
+LoadMask
+(
+Layer
+*
+aLayer
+)
+;
 void
 SetLayerTransform
 (
