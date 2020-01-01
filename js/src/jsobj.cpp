@@ -18827,7 +18827,12 @@ name
 "
 prototype
 "
-parent_proto
+proto
+-
+>
+getProto
+(
+)
 )
 ;
 if
