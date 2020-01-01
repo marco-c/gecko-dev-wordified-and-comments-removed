@@ -2406,7 +2406,7 @@ handleSize
 minimumDataSize
 )
 {
-PR_Free
+free
 (
 frozenHandle
 )
@@ -2436,7 +2436,7 @@ decodedDataHandle
 handleSize
 )
 ;
-PR_Free
+free
 (
 frozenHandle
 )
@@ -2806,7 +2806,7 @@ frozenHandle
 FrozenHandle
 *
 )
-PR_Malloc
+malloc
 (
 frozenDataSize
 )
@@ -2862,7 +2862,7 @@ nsnull
 )
 )
 ;
-PR_Free
+free
 (
 frozenHandle
 )
