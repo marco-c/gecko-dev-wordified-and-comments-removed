@@ -349,6 +349,7 @@ Downloads
 init
 :
 function
+dl_init
 (
 )
 {
@@ -995,6 +996,7 @@ aTarget
 uninit
 :
 function
+dl_uninit
 (
 )
 {
@@ -1163,6 +1165,7 @@ cancel
 observe
 :
 function
+dl_observe
 (
 aSubject
 aTopic
@@ -1287,6 +1290,7 @@ break
 _moveDownloadAfterActive
 :
 function
+dl_moveDownloadAfterActive
 (
 aItem
 )
@@ -1362,6 +1366,7 @@ ex
 _inProgress
 :
 function
+dl_inProgress
 (
 aState
 )
@@ -1411,6 +1416,7 @@ aState
 _insertDownloadRow
 :
 function
+dl_insertDownloadRow
 (
 aDownload
 )
@@ -1536,6 +1542,7 @@ item
 _getDownloadSize
 :
 function
+dl_getDownloadSize
 (
 aSize
 )
@@ -1585,6 +1592,7 @@ unknownSize
 _getState
 :
 function
+dl_getState
 (
 aState
 )
@@ -1673,6 +1681,7 @@ str
 _getStateString
 :
 function
+dl_getStateString
 (
 aState
 )
@@ -1796,6 +1805,7 @@ str
 _updateItem
 :
 function
+dl_updateItem
 (
 aItem
 aValues
@@ -2377,6 +2387,7 @@ delay
 getDownloads
 :
 function
+dl_getDownloads
 (
 )
 {
@@ -2527,6 +2538,7 @@ _stepDownloads
 _getElementForDownload
 :
 function
+dl_getElementForDownload
 (
 aKey
 )
@@ -2558,6 +2570,7 @@ aKey
 _getDownloadForElement
 :
 function
+dl_getDownloadForElement
 (
 aElement
 )
@@ -2591,7 +2604,7 @@ id
 _removeItem
 :
 function
-dv__removeItem
+dl_removeItem
 (
 aItem
 )
@@ -2645,6 +2658,7 @@ itemCount
 openDownload
 :
 function
+dl_openDownload
 (
 aItem
 )
@@ -2702,6 +2716,7 @@ ex
 removeDownload
 :
 function
+dl_removeDownload
 (
 aItem
 )
@@ -2794,6 +2809,7 @@ ex
 pauseDownload
 :
 function
+dl_pauseDownload
 (
 aItem
 )
@@ -2859,6 +2875,7 @@ ex
 resumeDownload
 :
 function
+dl_resumeDownload
 (
 aItem
 )
@@ -2924,6 +2941,7 @@ ex
 retryDownload
 :
 function
+dl_retryDownload
 (
 aItem
 )
@@ -2989,6 +3007,7 @@ ex
 cancelDownload
 :
 function
+dl_cancelDownload
 (
 aItem
 )
@@ -3076,6 +3095,7 @@ ex
 _updateDownloadRow
 :
 function
+dl_updateDownloadRow
 (
 aItem
 )
