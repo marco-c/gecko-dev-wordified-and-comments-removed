@@ -10,12 +10,9 @@ branch
 1
 sourcepath
 =
-/
-work
-/
-mozilla
-/
-builds
+{
+BUILDDIR
+}
 /
 1
 .
