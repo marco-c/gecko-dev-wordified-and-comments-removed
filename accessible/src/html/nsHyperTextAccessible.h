@@ -625,12 +625,6 @@ aAttributes
 ;
 private
 :
-nsAutoPtr
-<
-AccCollector
->
-mLinks
-;
 nsTArray
 <
 PRUint32
