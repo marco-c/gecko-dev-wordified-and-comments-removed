@@ -24736,13 +24736,6 @@ JSBool
 strict
 )
 {
-JSXML
-*
-xml
-;
-jsval
-idval
-;
 uint32_t
 index
 ;
@@ -24753,13 +24746,16 @@ nameqn
 jsid
 funid
 ;
+Value
 idval
 =
-IdToJsval
+IdToValue
 (
 id
 )
 ;
+JSXML
+*
 xml
 =
 (
@@ -24844,7 +24840,7 @@ funid
 )
 )
 return
-js_DeleteProperty
+js_DeleteGeneric
 (
 cx
 obj
@@ -24883,7 +24879,7 @@ nativeEmpty
 &
 &
 !
-js_DeleteProperty
+js_DeleteGeneric
 (
 cx
 obj
@@ -26632,7 +26628,6 @@ xml_setGenericAttributes
 xml_setPropertyAttributes
 xml_setElementAttributes
 xml_setSpecialAttributes
-xml_deleteGeneric
 xml_deleteProperty
 xml_deleteElement
 xml_deleteSpecial
