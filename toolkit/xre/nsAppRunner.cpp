@@ -12156,7 +12156,7 @@ overridePathW
 ;
 #
 else
-nsAutoCString
+nsCAutoString
 overridePath
 ;
 overrideini
