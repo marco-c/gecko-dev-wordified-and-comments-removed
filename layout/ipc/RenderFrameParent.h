@@ -41,7 +41,7 @@ h
 #
 include
 "
-Layers
+LayersBackend
 .
 h
 "
@@ -159,7 +159,10 @@ RenderFrameParent
 nsFrameLoader
 *
 aFrameLoader
-LayerManager
+mozilla
+:
+:
+layers
 :
 :
 LayersBackend

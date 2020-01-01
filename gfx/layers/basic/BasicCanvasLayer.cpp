@@ -44,6 +44,13 @@ nsXULAppAPI
 .
 h
 "
+#
+include
+"
+LayersBackend
+.
+h
+"
 using
 namespace
 mozilla
@@ -1734,7 +1741,10 @@ GetParentBackendType
 )
 =
 =
-LayerManager
+mozilla
+:
+:
+layers
 :
 :
 LAYERS_OPENGL

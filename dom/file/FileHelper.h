@@ -18,6 +18,13 @@ nsIRequestObserver
 .
 h
 "
+#
+include
+"
+nsThreadUtils
+.
+h
+"
 class
 nsIFileStorage
 ;

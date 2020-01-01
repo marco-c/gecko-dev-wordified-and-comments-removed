@@ -74,6 +74,13 @@ nsIRollupListener
 .
 h
 "
+#
+include
+"
+LayersBackend
+.
+h
+"
 class
 nsIContent
 ;
@@ -457,7 +464,10 @@ nsnull
 LayersBackend
 aBackendHint
 =
-LayerManager
+mozilla
+:
+:
+layers
 :
 :
 LAYERS_NONE

@@ -112,6 +112,9 @@ using
 mozilla
 :
 :
+layers
+:
+:
 LayersBackend
 ;
 using

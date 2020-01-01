@@ -26,6 +26,13 @@ gfxLineSegment
 .
 h
 "
+#
+include
+"
+Layers
+.
+h
+"
 namespace
 mozilla
 {

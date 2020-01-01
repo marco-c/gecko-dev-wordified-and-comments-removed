@@ -117,6 +117,13 @@ nsXULAppAPI
 .
 h
 "
+#
+include
+"
+LayersBackend
+.
+h
+"
 using
 namespace
 mozilla
@@ -518,7 +525,10 @@ mMaxTextureSize
 )
 mParentBackend
 (
-LayerManager
+mozilla
+:
+:
+layers
 :
 :
 LAYERS_NONE

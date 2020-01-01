@@ -655,7 +655,10 @@ nsnull
 LayersBackend
 aBackendHint
 =
-LayerManager
+mozilla
+:
+:
+layers
 :
 :
 LAYERS_NONE

@@ -76,6 +76,13 @@ gfxPlatform
 h
 "
 #
+include
+"
+LayersBackend
+.
+h
+"
+#
 ifdef
 XP_MACOSX
 #
@@ -241,9 +248,6 @@ ImageBackendData
 *
 GetBackendData
 (
-LayerManager
-:
-:
 LayersBackend
 aBackend
 )
@@ -258,9 +262,6 @@ aBackend
 void
 SetBackendData
 (
-LayerManager
-:
-:
 LayersBackend
 aBackend
 ImageBackendData
@@ -303,7 +304,10 @@ ImageBackendData
 >
 mBackendData
 [
-LayerManager
+mozilla
+:
+:
+layers
 :
 :
 LAYERS_LAST

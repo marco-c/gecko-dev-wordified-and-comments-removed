@@ -7,7 +7,7 @@ GFX_LAYERSORTER_H
 #
 include
 "
-Layers
+nsTArray
 .
 h
 "
@@ -17,6 +17,9 @@ mozilla
 namespace
 layers
 {
+class
+Layer
+;
 void
 SortLayersBy3DZOrder
 (

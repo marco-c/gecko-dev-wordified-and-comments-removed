@@ -988,7 +988,10 @@ GetLayerManager
 ;
 if
 (
-LayerManager
+mozilla
+:
+:
+layers
 :
 :
 LAYERS_OPENGL
@@ -1046,7 +1049,10 @@ event
 else
 if
 (
-LayerManager
+mozilla
+:
+:
+layers
 :
 :
 LAYERS_BASIC
@@ -2492,7 +2498,10 @@ GetBackendType
 )
 =
 =
-LayerManager
+mozilla
+:
+:
+layers
 :
 :
 LAYERS_OPENGL

@@ -147,13 +147,6 @@ ShadowLayerForwarder
 {
 public
 :
-typedef
-LayerManager
-:
-:
-LayersBackend
-LayersBackend
-;
 LayerManagerD3D10
 (
 nsIWidget

@@ -4404,9 +4404,6 @@ nsnull
 nsnull
 )
 ;
-LayerManager
-:
-:
 LayersBackend
 be
 ;

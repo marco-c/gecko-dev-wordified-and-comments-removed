@@ -4697,7 +4697,10 @@ GetBackendType
 )
 {
 case
-LayerManager
+mozilla
+:
+:
+layers
 :
 :
 LAYERS_BASIC
@@ -4773,7 +4776,10 @@ break
 ;
 }
 case
-LayerManager
+mozilla
+:
+:
+layers
 :
 :
 LAYERS_OPENGL
@@ -5380,7 +5386,10 @@ GetBackendType
 )
 =
 =
-LayerManager
+mozilla
+:
+:
+layers
 :
 :
 LAYERS_BASIC

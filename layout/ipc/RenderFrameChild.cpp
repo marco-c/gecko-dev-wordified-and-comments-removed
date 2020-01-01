@@ -16,6 +16,13 @@ ShadowLayersChild
 .
 h
 "
+#
+include
+"
+LayersBackend
+.
+h
+"
 using
 mozilla
 :

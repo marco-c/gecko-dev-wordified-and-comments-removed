@@ -34,6 +34,13 @@ Observer
 .
 h
 "
+#
+include
+"
+nsIEventTarget
+.
+h
+"
 BEGIN_BLUETOOTH_NAMESPACE
 class
 BluetoothManager

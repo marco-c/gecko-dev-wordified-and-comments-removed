@@ -18,13 +18,6 @@ h
 #
 include
 "
-ImageLayers
-.
-h
-"
-#
-include
-"
 nsSize
 .
 h

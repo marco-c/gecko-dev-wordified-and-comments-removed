@@ -5663,9 +5663,6 @@ GetParentBackendType
 )
 =
 =
-LayerManager
-:
-:
 LAYERS_OPENGL
 )
 {
