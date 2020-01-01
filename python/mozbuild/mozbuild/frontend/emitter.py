@@ -28,6 +28,8 @@ import
     
 ConfigFileSubstitution
     
+Defines
+    
 DirectoryTraversal
     
 Exports
@@ -600,12 +602,6 @@ CSRCS
 CSRCS
 '
             
-DEFINES
-=
-'
-DEFINES
-'
-            
 EXPORT_LIBRARY
 =
 '
@@ -842,6 +838,28 @@ NO_DIST_INSTALL
 '
 False
 )
+)
+        
+defines
+=
+sandbox
+.
+get
+(
+'
+DEFINES
+'
+)
+        
+if
+defines
+:
+            
+yield
+Defines
+(
+sandbox
+defines
 )
         
 program
