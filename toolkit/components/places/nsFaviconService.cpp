@@ -657,8 +657,6 @@ NS_ENSURE_ARG
 aFaviconURI
 )
 ;
-ENSURE_NOT_PRIVATE_BROWSING
-;
 if
 (
 mFaviconsExpirationRunning

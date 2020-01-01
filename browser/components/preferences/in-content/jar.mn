@@ -153,7 +153,6 @@ content
 tabs
 .
 js
-*
 content
 /
 browser
@@ -167,7 +166,6 @@ content
 privacy
 .
 xul
-*
 content
 /
 browser

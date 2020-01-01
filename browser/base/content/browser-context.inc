@@ -330,9 +330,6 @@ openLink
 "
 /
 >
-#
-ifdef
-MOZ_PER_WINDOW_PRIVATE_BROWSING
 <
 menuitem
 id
@@ -372,8 +369,6 @@ openLinkInPrivateWindow
 "
 /
 >
-#
-endif
 <
 menuseparator
 id

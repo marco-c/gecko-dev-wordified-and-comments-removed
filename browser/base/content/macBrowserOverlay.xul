@@ -601,9 +601,6 @@ OpenBrowserWindowFromDockMenu
 "
 /
 >
-#
-ifdef
-MOZ_PER_WINDOW_PRIVATE_BROWSING
 <
 menuitem
 label
@@ -630,8 +627,6 @@ true
 "
 /
 >
-#
-endif
 <
 /
 menupopup

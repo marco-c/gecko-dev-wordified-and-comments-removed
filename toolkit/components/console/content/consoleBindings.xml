@@ -1267,9 +1267,6 @@ chrome
 )
 return
 ;
-#
-ifdef
-MOZ_PER_WINDOW_PRIVATE_BROWSING
 /
 /
 filter
@@ -1283,8 +1280,6 @@ isFromPrivateWindow
 )
 return
 ;
-#
-endif
 this
 .
 appendError

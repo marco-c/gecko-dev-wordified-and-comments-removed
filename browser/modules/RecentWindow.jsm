@@ -79,9 +79,6 @@ RW_getMostRecentBrowserWindow
 aOptions
 )
 {
-#
-ifdef
-MOZ_PER_WINDOW_PRIVATE_BROWSING
 let
 checkPrivacy
 =
@@ -100,15 +97,6 @@ private
 in
 aOptions
 ;
-#
-else
-let
-checkPrivacy
-=
-false
-;
-#
-endif
 function
 isSuitableBrowserWindow
 (

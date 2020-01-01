@@ -86,15 +86,6 @@ head
 .
 js
 \
-(
-NULL
-)
-ifdef
-MOZ_PER_WINDOW_PRIVATE_BROWSING
-MOCHITEST_BROWSER_FILES
-+
-=
-\
 browser_bug627234_perwindowpb
 .
 js
@@ -102,7 +93,6 @@ js
 (
 NULL
 )
-endif
 include
 (
 topsrcdir

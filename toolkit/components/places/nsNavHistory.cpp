@@ -15107,8 +15107,6 @@ NS_ENSURE_ARG
 aURI
 )
 ;
-ENSURE_NOT_PRIVATE_BROWSING
-;
 nsresult
 rv
 ;
@@ -16067,8 +16065,6 @@ isPrivate
 )
 return
 NS_OK
-;
-ENSURE_NOT_PRIVATE_BROWSING
 ;
 nsCOMPtr
 <
@@ -23172,8 +23168,6 @@ nsIAutoCompleteController
 aController
 )
 {
-ENSURE_NOT_PRIVATE_BROWSING
-;
 nsCOMPtr
 <
 mozIStorageAsyncStatement

@@ -332,7 +332,6 @@ preferences
 preferences
 .
 xul
-*
 content
 /
 browser
@@ -342,7 +341,6 @@ preferences
 privacy
 .
 xul
-*
 content
 /
 browser

@@ -92,15 +92,6 @@ subtst_privbrowsing
 .
 html
 \
-(
-NULL
-)
-ifdef
-MOZ_PER_WINDOW_PRIVATE_BROWSING
-MOCHITEST_BROWSER_FILES
-+
-=
-\
 browser_privbrowsing_perwindowpb
 .
 js
@@ -108,7 +99,6 @@ js
 (
 NULL
 )
-endif
 include
 (
 topsrcdir

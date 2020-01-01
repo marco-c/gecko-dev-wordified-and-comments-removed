@@ -10313,8 +10313,6 @@ NS_ENSURE_ARG
 aSource
 )
 ;
-ENSURE_NOT_PRIVATE_BROWSING
-;
 if
 (
 mShuttingDown

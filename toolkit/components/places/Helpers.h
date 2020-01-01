@@ -539,11 +539,6 @@ mStart
 ;
 }
 ;
-void
-EnsureNotGlobalPrivateBrowsing
-(
-)
-;
 }
 }
 #

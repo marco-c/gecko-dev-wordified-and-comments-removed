@@ -1530,8 +1530,6 @@ NS_ENSURE_ARG
 aURI
 )
 ;
-ENSURE_NOT_PRIVATE_BROWSING
-;
 nsresult
 rv
 =
@@ -1806,8 +1804,6 @@ NS_ENSURE_ARG
 aURI
 )
 ;
-ENSURE_NOT_PRIVATE_BROWSING
-;
 nsresult
 rv
 =
@@ -2080,8 +2076,6 @@ NS_ENSURE_ARG
 aURI
 )
 ;
-ENSURE_NOT_PRIVATE_BROWSING
-;
 nsresult
 rv
 =
@@ -2353,8 +2347,6 @@ NS_ENSURE_ARG
 (
 aURI
 )
-;
-ENSURE_NOT_PRIVATE_BROWSING
 ;
 nsresult
 rv
@@ -2659,8 +2651,6 @@ NS_ENSURE_ARG
 (
 aURI
 )
-;
-ENSURE_NOT_PRIVATE_BROWSING
 ;
 nsresult
 rv
@@ -7320,8 +7310,6 @@ NS_ENSURE_ARG
 (
 aDestURI
 )
-;
-ENSURE_NOT_PRIVATE_BROWSING
 ;
 mozStorageTransaction
 transaction
