@@ -249,6 +249,8 @@ aPresShell
 nsStyleContext
 *
 aContext
+PRUint32
+aFlags
 )
 {
 return
@@ -256,7 +258,7 @@ NS_NewAreaFrame
 (
 aPresShell
 aContext
-0
+aFlags
 )
 ;
 }
