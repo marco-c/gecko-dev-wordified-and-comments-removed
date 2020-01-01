@@ -33,6 +33,15 @@ Layers
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Assertions
+.
+h
+"
 namespace
 mozilla
 {
@@ -1387,6 +1396,11 @@ ElementAt
 last
 )
 ;
+MOZ_ASSERT
+(
+layer
+)
+;
 noIncoming
 .
 RemoveElementAt
@@ -1589,6 +1603,11 @@ break
 }
 }
 }
+if
+(
+minNode
+)
+{
 graph
 .
 RemoveEdgesTo
@@ -1603,6 +1622,7 @@ AppendElement
 minNode
 )
 ;
+}
 }
 }
 while
