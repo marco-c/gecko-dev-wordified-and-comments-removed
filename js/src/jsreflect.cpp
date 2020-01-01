@@ -830,7 +830,7 @@ loc
 }
 ;
 return
-ExternalInvoke
+Invoke
 (
 cx
 userv
@@ -856,7 +856,7 @@ NullValue
 }
 ;
 return
-ExternalInvoke
+Invoke
 (
 cx
 userv
@@ -914,7 +914,7 @@ loc
 }
 ;
 return
-ExternalInvoke
+Invoke
 (
 cx
 userv
@@ -938,7 +938,7 @@ v1
 }
 ;
 return
-ExternalInvoke
+Invoke
 (
 cx
 userv
@@ -1002,7 +1002,7 @@ loc
 }
 ;
 return
-ExternalInvoke
+Invoke
 (
 cx
 userv
@@ -1027,7 +1027,7 @@ v2
 }
 ;
 return
-ExternalInvoke
+Invoke
 (
 cx
 userv
@@ -1094,7 +1094,7 @@ loc
 }
 ;
 return
-ExternalInvoke
+Invoke
 (
 cx
 userv
@@ -1120,7 +1120,7 @@ v3
 }
 ;
 return
-ExternalInvoke
+Invoke
 (
 cx
 userv
@@ -1190,7 +1190,7 @@ loc
 }
 ;
 return
-ExternalInvoke
+Invoke
 (
 cx
 userv
@@ -1217,7 +1217,7 @@ v4
 }
 ;
 return
-ExternalInvoke
+Invoke
 (
 cx
 userv
@@ -1290,7 +1290,7 @@ loc
 }
 ;
 return
-ExternalInvoke
+Invoke
 (
 cx
 userv
@@ -1318,7 +1318,7 @@ v5
 }
 ;
 return
-ExternalInvoke
+Invoke
 (
 cx
 userv

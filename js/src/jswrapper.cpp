@@ -2322,6 +2322,17 @@ toObject
 isError
 (
 )
+&
+&
+exc
+.
+toObject
+(
+)
+.
+getPrivate
+(
+)
 )
 {
 cx

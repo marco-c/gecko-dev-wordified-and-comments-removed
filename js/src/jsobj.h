@@ -4322,7 +4322,7 @@ decl
 )
 ;
 inline
-JSLinearString
+JSAtom
 *
 getQNameLocalName
 (
@@ -4340,7 +4340,7 @@ inline
 void
 setQNameLocalName
 (
-JSLinearString
+JSAtom
 *
 name
 )
