@@ -14291,7 +14291,7 @@ case
 MIRType_Int32
 :
 return
-define
+defineReuseInput
 (
 new
 LClampIToUint8
@@ -14302,6 +14302,7 @@ in
 )
 )
 ins
+0
 )
 ;
 case
