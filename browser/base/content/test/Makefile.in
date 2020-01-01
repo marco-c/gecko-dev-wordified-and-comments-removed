@@ -1271,6 +1271,10 @@ download_page
 .
 html
 \
+browser_URLBarSetURI
+.
+js
+\
 (
 NULL
 )
