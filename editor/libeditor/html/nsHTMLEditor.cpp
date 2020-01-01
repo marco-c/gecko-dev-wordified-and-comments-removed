@@ -2143,8 +2143,6 @@ eSpecial
 )
 )
 {
-res
-=
 GetNodeLocation
 (
 visNode
@@ -2154,12 +2152,6 @@ selNode
 )
 &
 selOffset
-)
-;
-NS_ENSURE_SUCCESS
-(
-res
-res
 )
 ;
 done
@@ -2188,8 +2180,6 @@ visNode
 )
 )
 {
-res
-=
 GetNodeLocation
 (
 visNode
@@ -2199,12 +2189,6 @@ selNode
 )
 &
 selOffset
-)
-;
-NS_ENSURE_SUCCESS
-(
-res
-res
 )
 ;
 done
@@ -2233,8 +2217,6 @@ isEmptyBlock
 isEmptyBlock
 )
 {
-res
-=
 GetNodeLocation
 (
 visNode
@@ -2244,12 +2226,6 @@ curNode
 )
 &
 curOffset
-)
-;
-NS_ENSURE_SUCCESS
-(
-res
-res
 )
 ;
 +

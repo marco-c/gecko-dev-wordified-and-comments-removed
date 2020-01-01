@@ -255,7 +255,7 @@ PRInt32
 aPosition
 )
 ;
-nsresult
+void
 SelAdjDeleteNode
 (
 nsIDOMNode

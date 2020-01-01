@@ -1261,7 +1261,7 @@ aParent
 )
 ;
 static
-nsresult
+void
 GetNodeLocation
 (
 nsIDOMNode
@@ -1272,10 +1272,10 @@ nsCOMPtr
 nsIDOMNode
 >
 *
-aParent
+outParent
 PRInt32
 *
-aOffset
+outOffset
 )
 ;
 static

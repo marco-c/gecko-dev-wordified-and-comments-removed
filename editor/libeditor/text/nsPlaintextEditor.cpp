@@ -1973,8 +1973,6 @@ res
 res
 )
 ;
-res
-=
 GetNodeLocation
 (
 node
@@ -1984,12 +1982,6 @@ tmp
 )
 &
 offset
-)
-;
-NS_ENSURE_SUCCESS
-(
-res
-res
 )
 ;
 }
@@ -2082,8 +2074,6 @@ parent
 PRInt32
 offset
 ;
-res
-=
 GetNodeLocation
 (
 *
@@ -2094,12 +2084,6 @@ parent
 )
 &
 offset
-)
-;
-NS_ENSURE_SUCCESS
-(
-res
-res
 )
 ;
 nsCOMPtr
@@ -2382,8 +2366,6 @@ res
 res
 )
 ;
-res
-=
 GetNodeLocation
 (
 *
@@ -2394,12 +2376,6 @@ selNode
 )
 &
 selOffset
-)
-;
-NS_ENSURE_SUCCESS
-(
-res
-res
 )
 ;
 nsCOMPtr
@@ -6700,8 +6676,6 @@ parentNode
 PRInt32
 parentOffset
 ;
-rv
-=
 GetNodeLocation
 (
 childNode
@@ -6711,12 +6685,6 @@ parentNode
 )
 &
 parentOffset
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 return
