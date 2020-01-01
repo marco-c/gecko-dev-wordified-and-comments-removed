@@ -1290,6 +1290,12 @@ DoGetMozTabSize
 ;
 nsIDOMCSSValue
 *
+DoGetTextSizeAdjust
+(
+)
+;
+nsIDOMCSSValue
+*
 DoGetOpacity
 (
 )
