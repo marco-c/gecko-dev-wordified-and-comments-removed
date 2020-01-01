@@ -339,7 +339,18 @@ const
 char
 *
 langgroup
+=
+"
+(
+null
+)
+"
 ;
+if
+(
+aLangGroup
+)
+{
 aLangGroup
 -
 >
@@ -349,6 +360,7 @@ GetUTF8String
 langgroup
 )
 ;
+}
 char
 *
 family
