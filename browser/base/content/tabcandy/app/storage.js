@@ -41,7 +41,13 @@ try
 var
 alreadyReady
 =
-false
+Utils
+.
+getCurrentWindow
+(
+)
+.
+__SSi
 ;
 if
 (
@@ -53,7 +59,7 @@ callback
 ;
 else
 {
-let
+var
 obsService
 =
 Components
@@ -82,7 +88,7 @@ interfaces
 nsIObserverService
 )
 ;
-let
+var
 observer
 =
 {
