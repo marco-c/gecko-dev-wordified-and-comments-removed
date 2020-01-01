@@ -3593,7 +3593,7 @@ width
 =
 indicator_size
 +
-3
+2
 *
 indicator_spacing
 ;
