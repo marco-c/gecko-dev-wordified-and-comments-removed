@@ -1513,16 +1513,6 @@ aVal
 ;
 }
 static
-bool
-RootSVGElementHasViewbox
-(
-const
-nsIContent
-*
-aRootSVGElem
-)
-;
-static
 void
 GetFallbackOrPaintColor
 (

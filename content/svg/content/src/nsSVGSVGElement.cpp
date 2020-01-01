@@ -3390,9 +3390,7 @@ viewBox
 ;
 if
 (
-mViewBox
-.
-IsValid
+HasViewBox
 (
 )
 )
@@ -3969,9 +3967,7 @@ w
 ;
 if
 (
-mViewBox
-.
-IsValid
+HasViewBox
 (
 )
 )
@@ -4588,7 +4584,7 @@ const
 NS_ABORT_IF_FALSE
 (
 !
-HasValidViewbox
+HasViewBox
 (
 )
 "
@@ -4709,7 +4705,7 @@ endif
 if
 (
 !
-HasValidViewbox
+HasViewBox
 (
 )
 &
@@ -4731,9 +4727,7 @@ true
 if
 (
 !
-mViewBox
-.
-IsValid
+HasViewBox
 (
 )
 )
@@ -4867,7 +4861,7 @@ false
 if
 (
 !
-HasValidViewbox
+HasViewBox
 (
 )
 &

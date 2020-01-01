@@ -444,9 +444,7 @@ IsPercentage
 svg
 -
 >
-mViewBox
-.
-IsValid
+HasViewBox
 (
 )
 &
@@ -576,9 +574,7 @@ if
 svg
 -
 >
-mViewBox
-.
-IsValid
+HasViewBox
 (
 )
 )

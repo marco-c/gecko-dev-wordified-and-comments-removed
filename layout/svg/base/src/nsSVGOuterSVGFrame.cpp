@@ -991,9 +991,7 @@ if
 content
 -
 >
-mViewBox
-.
-IsValid
+HasViewBox
 (
 )
 )
