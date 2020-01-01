@@ -2600,7 +2600,15 @@ aRenderingContext
 nscoord
 result
 =
-0
+mInner
+.
+mScrolledFrame
+-
+>
+GetMinWidth
+(
+aRenderingContext
+)
 ;
 DISPLAY_MIN_WIDTH
 (
