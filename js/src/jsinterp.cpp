@@ -1350,10 +1350,9 @@ v
 obj
 -
 >
-fslots
-[
-JSSLOT_PRIMITIVE_THIS
-]
+getPrimitiveThis
+(
+)
 ;
 }
 *
