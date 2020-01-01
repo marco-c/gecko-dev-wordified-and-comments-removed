@@ -816,6 +816,9 @@ stepCountMask
 ;
 public
 :
+#
+ifdef
+JS_METHODJIT
 class
 JITScriptHandle
 {
@@ -987,6 +990,8 @@ staticAsserts
 ;
 }
 ;
+#
+endif
 public
 :
 js
