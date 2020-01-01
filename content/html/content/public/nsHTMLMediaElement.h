@@ -1146,6 +1146,9 @@ aValue
 void
 SetupSrcMediaStreamPlayback
 (
+nsDOMMediaStream
+*
+aStream
 )
 ;
 void
