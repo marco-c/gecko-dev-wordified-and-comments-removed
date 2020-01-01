@@ -85,17 +85,9 @@ jumpRelocTableBytes_
 uint32
 dataRelocTableBytes_
 ;
-#
-if
-defined
-(
-JS_NUNBOX32
-)
 uint32
 padding_
 ;
-#
-endif
 IonCode
 (
 )
