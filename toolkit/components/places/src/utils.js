@@ -5491,15 +5491,9 @@ aJSNode
 .
 title
 =
-unescape
-(
-encodeURIComponent
-(
 aPlacesNode
 .
 title
-)
-)
 ;
 var
 id
