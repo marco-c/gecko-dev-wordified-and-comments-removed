@@ -1336,6 +1336,7 @@ ARMRegisters
 :
 :
 d1
+;
 #
 else
 #

@@ -209,7 +209,7 @@ JS_CPU_X86
 |
 defined
 (
-JS_CPU_ARM
+JS_CPU_X64
 )
 static
 const
@@ -325,7 +325,7 @@ JSFrameReg
 JSC
 :
 :
-X86Registers
+ARMRegisters
 :
 :
 r11
@@ -549,6 +549,9 @@ intptr_t
 fun
 )
 )
+JSC
+:
+:
 ARMRegisters
 :
 :
