@@ -5046,6 +5046,11 @@ dsymutil
 s
 %
 s
+>
+/
+dev
+/
+null
 "
 %
 (
