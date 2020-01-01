@@ -1739,7 +1739,7 @@ funcpn
 HandlePropertyName
 name
 bool
-destructuringArg
+disallowDuplicateArgs
 =
 false
 Definition
