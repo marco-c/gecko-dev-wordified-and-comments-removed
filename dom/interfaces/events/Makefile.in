@@ -210,6 +210,10 @@ nsIDOMDeviceMotionEvent
 .
 idl
 \
+nsIDOMElementReplaceEvent
+.
+idl
+\
 nsIDOMScrollAreaEvent
 .
 idl

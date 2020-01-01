@@ -177,6 +177,9 @@ MozCellBroadcastEvent
 #
 endif
 '
+ElementReplaceEvent
+'
+'
 DeviceStorageChangeEvent
 '
 '
