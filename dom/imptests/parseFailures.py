@@ -5,6 +5,8 @@ os
 import
 sys
 import
+collections
+import
 writeMakefile
 def
 extractLines
@@ -189,6 +191,11 @@ json
 loads
 (
 objstr
+object_pairs_hook
+=
+collections
+.
+OrderedDict
 )
         
 formattedobj
@@ -198,9 +205,6 @@ json
 dumps
 (
 obj
-sort_keys
-=
-True
 indent
 =
 2
