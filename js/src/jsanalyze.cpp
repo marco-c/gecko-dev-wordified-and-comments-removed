@@ -3789,6 +3789,12 @@ nop
 =
 =
 JSOP_TRACE
+|
+|
+nop
+=
+=
+JSOP_NOTRACE
 )
 ;
 codeArray
