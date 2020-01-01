@@ -1030,12 +1030,6 @@ getValidViewportMetrics
 )
 )
 ;
-mTarget
-.
-forceRedraw
-(
-)
-;
 }
 break
 ;
