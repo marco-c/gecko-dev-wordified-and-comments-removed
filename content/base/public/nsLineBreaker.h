@@ -284,7 +284,7 @@ AppendText
 (
 nsIAtom
 *
-aLangGroup
+aHyphenationLanguage
 const
 PRUnichar
 *
@@ -303,7 +303,7 @@ AppendText
 (
 nsIAtom
 *
-aLangGroup
+aHyphenationLanguage
 const
 PRUint8
 *
@@ -394,11 +394,11 @@ FlushCurrentWord
 )
 ;
 void
-UpdateCurrentWordLangGroup
+UpdateCurrentWordLanguage
 (
 nsIAtom
 *
-aLangGroup
+aHyphenationLanguage
 )
 ;
 void
@@ -436,7 +436,7 @@ mTextItems
 ;
 nsIAtom
 *
-mCurrentWordLangGroup
+mCurrentWordLanguage
 ;
 bool
 mCurrentWordContainsMixedLang
