@@ -475,6 +475,10 @@ test_bug566629
 .
 xhtml
 \
+test_exslt_regex
+.
+html
+\
 (
 NULL
 )
