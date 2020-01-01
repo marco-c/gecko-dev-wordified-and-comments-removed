@@ -2741,8 +2741,7 @@ nsIFrame
 aNewFrame
 )
 ;
-nsIFrame
-*
+void
 MoveFramesToEndOfIBSplit
 (
 nsFrameConstructorState
@@ -2751,14 +2750,6 @@ aState
 nsIFrame
 *
 aExistingEndFrame
-PRBool
-aIsPositioned
-nsIContent
-*
-aContent
-nsStyleContext
-*
-aStyleContext
 nsIFrame
 *
 aFramesToMove
