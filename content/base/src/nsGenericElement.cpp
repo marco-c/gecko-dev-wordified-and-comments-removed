@@ -23981,12 +23981,6 @@ CSSLoader
 )
 )
 ;
-NS_ENSURE_TRUE
-(
-parser
-NS_ERROR_OUT_OF_MEMORY
-)
-;
 nsCSSSelectorList
 *
 selectorList
