@@ -20928,6 +20928,9 @@ if
 rootFrame
 )
 {
+nsAutoDisableGetUsedXAssertions
+disableAssert
+;
 nsDisplayListBuilder
 builder
 (
