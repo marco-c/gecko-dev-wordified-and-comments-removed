@@ -183,6 +183,10 @@ test_audioParamSetTargetAtTime
 .
 html
 \
+test_audioParamSetValueAtTime
+.
+html
+\
 test_audioParamTimelineDestinationOffset
 .
 html
