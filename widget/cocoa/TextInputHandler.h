@@ -851,6 +851,11 @@ nsAString
 aUnmodifiedCharacters
 )
 ;
+NSInteger
+GetWindowLevel
+(
+)
+;
 static
 bool
 IsSpecialGeckoKey

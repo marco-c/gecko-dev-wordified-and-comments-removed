@@ -707,6 +707,7 @@ mozAccessible
 endif
 mozView
 NSTextInput
+NSTextInputClient
 >
 {
 private
