@@ -433,6 +433,11 @@ MODULE
 update
 ifdef
 MOZ_UPDATER
+DEFINES
++
+=
+-
+DMOZ_UPDATER
 DIRS
 =
 updater
