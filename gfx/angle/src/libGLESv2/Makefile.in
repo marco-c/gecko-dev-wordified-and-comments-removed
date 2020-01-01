@@ -529,7 +529,6 @@ OS_CPPFLAGS
 )
 LOCAL_INCLUDES
 =
-\
 -
 I
 (
@@ -543,7 +542,6 @@ srcdir
 .
 /
 include
-\
 -
 I
 (
@@ -552,7 +550,6 @@ srcdir
 /
 .
 .
-\
 -
 I
 "
@@ -562,17 +559,6 @@ DXSDK_DIR
 /
 include
 "
-\
--
-I
-"
-(
-MOZ_DIRECTX_SDK_PATH
-)
-/
-include
-"
-\
 VPATH
 +
 =
@@ -930,7 +916,9 @@ MOZ_DIRECTX_SDK_PATH
 /
 lib
 /
-x86
+(
+MOZ_DIRECTX_SDK_CPU_SUFFIX
+)
 /
 d3d9
 .
@@ -944,7 +932,9 @@ MOZ_DIRECTX_SDK_PATH
 /
 lib
 /
-x86
+(
+MOZ_DIRECTX_SDK_CPU_SUFFIX
+)
 /
 d3dx9
 .
@@ -958,7 +948,9 @@ MOZ_DIRECTX_SDK_PATH
 /
 lib
 /
-x86
+(
+MOZ_DIRECTX_SDK_CPU_SUFFIX
+)
 /
 D3DCompiler
 .
