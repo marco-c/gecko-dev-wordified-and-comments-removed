@@ -3951,6 +3951,11 @@ PRUint32
 aDisplayItemKey
 )
 ;
+void
+InvalidateTransformLayer
+(
+)
+;
 enum
 {
 INVALIDATE_IMMEDIATE
