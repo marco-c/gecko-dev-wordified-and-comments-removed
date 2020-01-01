@@ -764,8 +764,6 @@ endif
 return
 nsIMEUpdatePreference
 (
-false
-false
 )
 ;
 }

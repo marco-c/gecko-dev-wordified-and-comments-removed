@@ -3222,7 +3222,10 @@ aPreference
 >
 mWantUpdates
 =
-false
+nsIMEUpdatePreference
+:
+:
+NOTIFY_NOTHING
 ;
 aPreference
 -

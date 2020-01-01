@@ -978,12 +978,11 @@ nsIMEUpdatePreference
 GetIMEUpdatePreference
 (
 )
+MOZ_OVERRIDE
 {
 return
 nsIMEUpdatePreference
 (
-false
-false
 )
 ;
 }
