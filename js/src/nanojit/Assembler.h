@@ -780,6 +780,16 @@ allow
 )
 ;
 void
+resetInstructionPointer
+(
+)
+;
+void
+recordStartingInstructionPointer
+(
+)
+;
+void
 codeAlloc
 (
 NIns
