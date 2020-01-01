@@ -3814,7 +3814,7 @@ NULL
 ;
 nsAutoTArray
 <
-PRUint8
+uint8_t
 100
 >
 buffer
@@ -3910,7 +3910,7 @@ Buffer
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

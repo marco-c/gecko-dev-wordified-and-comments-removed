@@ -4702,7 +4702,7 @@ bool
 aSystemEventGroup
 )
 {
-PRInt32
+int32_t
 flags
 =
 aUseCapture
@@ -4759,7 +4759,7 @@ bool
 aSystemEventGroup
 )
 {
-PRInt32
+int32_t
 flags
 =
 aUseCapture

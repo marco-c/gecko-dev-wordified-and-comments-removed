@@ -1622,7 +1622,7 @@ outbuf
 =
 NULL
 ;
-PRUint32
+uint32_t
 len
 ;
 rv
