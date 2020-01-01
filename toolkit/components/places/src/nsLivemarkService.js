@@ -453,6 +453,11 @@ nsIScriptSecurityManager
 .
 DISALLOW_INHERIT_PRINCIPAL
 ;
+const
+NS_BINDING_ABORTED
+=
+0x804b0002
+;
 var
 gExpiration
 =
@@ -1110,8 +1115,6 @@ loadGroup
 .
 cancel
 (
-Cr
-.
 NS_BINDING_ABORTED
 )
 ;
@@ -2251,8 +2254,6 @@ loadGroup
 .
 cancel
 (
-Cr
-.
 NS_BINDING_ABORTED
 )
 ;
