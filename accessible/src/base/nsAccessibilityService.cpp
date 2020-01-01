@@ -66,6 +66,13 @@ h
 #
 include
 "
+HTMLImageMapAccessible
+.
+h
+"
+#
+include
+"
 HTMLListAccessible
 .
 h
@@ -109,13 +116,6 @@ h
 include
 "
 nsHTMLCanvasAccessible
-.
-h
-"
-#
-include
-"
-nsHTMLImageMapAccessible
 .
 h
 "
@@ -1182,7 +1182,7 @@ Accessible
 accessible
 =
 new
-nsHTMLImageMapAccessible
+HTMLImageMapAccessible
 (
 aContent
 GetDocAccessible
@@ -2467,7 +2467,7 @@ if
 accessible
 )
 {
-nsHTMLImageMapAccessible
+HTMLImageMapAccessible
 *
 imageMap
 =

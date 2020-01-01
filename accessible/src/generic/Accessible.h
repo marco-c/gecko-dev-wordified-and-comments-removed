@@ -114,9 +114,6 @@ Accessible
 class
 HyperTextAccessible
 ;
-class
-nsHTMLImageMapAccessible
-;
 struct
 nsRoleMapEntry
 ;
@@ -129,6 +126,9 @@ mozilla
 namespace
 a11y
 {
+class
+HTMLImageMapAccessible
+;
 class
 HTMLLIAccessible
 ;
@@ -1166,7 +1166,13 @@ mFlags
 eImageMapAccessible
 ;
 }
-nsHTMLImageMapAccessible
+mozilla
+:
+:
+a11y
+:
+:
+HTMLImageMapAccessible
 *
 AsImageMap
 (

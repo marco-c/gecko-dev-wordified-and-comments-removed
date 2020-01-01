@@ -1,7 +1,7 @@
 #
 include
 "
-nsHTMLImageMapAccessible
+HTMLImageMapAccessible
 .
 h
 "
@@ -89,10 +89,10 @@ mozilla
 :
 a11y
 ;
-nsHTMLImageMapAccessible
+HTMLImageMapAccessible
 :
 :
-nsHTMLImageMapAccessible
+HTMLImageMapAccessible
 (
 nsIContent
 *
@@ -116,11 +116,11 @@ eImageMapAccessible
 }
 NS_IMPL_ISUPPORTS_INHERITED0
 (
-nsHTMLImageMapAccessible
+HTMLImageMapAccessible
 ImageAccessible
 )
 role
-nsHTMLImageMapAccessible
+HTMLImageMapAccessible
 :
 :
 NativeRole
@@ -135,7 +135,7 @@ IMAGE_MAP
 ;
 }
 PRUint32
-nsHTMLImageMapAccessible
+HTMLImageMapAccessible
 :
 :
 AnchorCount
@@ -150,7 +150,7 @@ ChildCount
 }
 Accessible
 *
-nsHTMLImageMapAccessible
+HTMLImageMapAccessible
 :
 :
 AnchorAt
@@ -170,7 +170,7 @@ already_AddRefed
 <
 nsIURI
 >
-nsHTMLImageMapAccessible
+HTMLImageMapAccessible
 :
 :
 AnchorURIAt
@@ -221,7 +221,7 @@ nsnull
 ;
 }
 void
-nsHTMLImageMapAccessible
+HTMLImageMapAccessible
 :
 :
 UpdateChildAreas
@@ -432,7 +432,7 @@ Accessible
 area
 =
 new
-nsHTMLAreaAccessible
+HTMLAreaAccessible
 (
 areaContent
 mDoc
@@ -549,7 +549,7 @@ reorderEvent
 }
 }
 void
-nsHTMLImageMapAccessible
+HTMLImageMapAccessible
 :
 :
 CacheChildren
@@ -562,10 +562,10 @@ false
 )
 ;
 }
-nsHTMLAreaAccessible
+HTMLAreaAccessible
 :
 :
-nsHTMLAreaAccessible
+HTMLAreaAccessible
 (
 nsIContent
 *
@@ -583,7 +583,7 @@ aDoc
 {
 }
 nsresult
-nsHTMLAreaAccessible
+HTMLAreaAccessible
 :
 :
 GetNameInternal
@@ -649,7 +649,7 @@ NS_OK
 ;
 }
 void
-nsHTMLAreaAccessible
+HTMLAreaAccessible
 :
 :
 Description
@@ -691,7 +691,7 @@ aDescription
 ;
 }
 bool
-nsHTMLAreaAccessible
+HTMLAreaAccessible
 :
 :
 IsPrimaryForNode
@@ -705,7 +705,7 @@ false
 }
 Accessible
 *
-nsHTMLAreaAccessible
+HTMLAreaAccessible
 :
 :
 ChildAtPoint
@@ -723,7 +723,7 @@ this
 ;
 }
 PRUint32
-nsHTMLAreaAccessible
+HTMLAreaAccessible
 :
 :
 StartOffset
@@ -737,7 +737,7 @@ IndexInParent
 ;
 }
 PRUint32
-nsHTMLAreaAccessible
+HTMLAreaAccessible
 :
 :
 EndOffset
@@ -753,7 +753,7 @@ IndexInParent
 ;
 }
 void
-nsHTMLAreaAccessible
+HTMLAreaAccessible
 :
 :
 CacheChildren
@@ -762,7 +762,7 @@ CacheChildren
 {
 }
 void
-nsHTMLAreaAccessible
+HTMLAreaAccessible
 :
 :
 GetBoundsRect
