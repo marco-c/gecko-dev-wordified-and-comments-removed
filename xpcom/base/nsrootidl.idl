@@ -998,6 +998,9 @@ AStringPtr
 ignored
 )
 ;
+[
+jsval
+]
 native
 jsval
 (
