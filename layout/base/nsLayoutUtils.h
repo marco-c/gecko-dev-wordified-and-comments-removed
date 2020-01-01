@@ -3141,6 +3141,17 @@ InvalidationDebuggingIsEnabled
 {
 return
 sInvalidationDebuggingIsEnabled
+|
+|
+getenv
+(
+"
+MOZ_DUMP_INVALIDATION
+"
+)
+!
+=
+0
 ;
 }
 static
