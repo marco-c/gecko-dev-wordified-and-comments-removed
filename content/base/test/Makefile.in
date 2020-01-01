@@ -1912,6 +1912,14 @@ file_bug548193
 .
 sjs
 \
+test_html_colors_quirks
+.
+html
+\
+test_html_colors_standards
+.
+html
+\
 (
 NULL
 )
