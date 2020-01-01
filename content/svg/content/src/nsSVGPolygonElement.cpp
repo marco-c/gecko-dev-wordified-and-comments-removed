@@ -12,6 +12,13 @@ nsIDOMSVGPolygonElement
 .
 h
 "
+#
+include
+"
+gfxContext
+.
+h
+"
 typedef
 nsSVGPolyElement
 nsSVGPolygonElementBase
@@ -84,7 +91,7 @@ virtual
 void
 ConstructPath
 (
-cairo_t
+gfxContext
 *
 aCtx
 )
@@ -301,7 +308,7 @@ nsSVGPolygonElement
 :
 ConstructPath
 (
-cairo_t
+gfxContext
 *
 aCtx
 )
@@ -314,9 +321,11 @@ ConstructPath
 aCtx
 )
 ;
-cairo_close_path
-(
 aCtx
+-
+>
+ClosePath
+(
 )
 ;
 }

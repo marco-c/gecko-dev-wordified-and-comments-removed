@@ -46,13 +46,6 @@ nsTArray
 .
 h
 "
-#
-include
-<
-cairo
-.
-h
->
 class
 nsSVGPathList
 ;

@@ -21,7 +21,7 @@ h
 #
 include
 "
-cairo
+gfxPath
 .
 h
 "
@@ -60,10 +60,10 @@ aAngle
 }
 ;
 class
-nsSVGFlattenedPath
+nsIDOMSVGMatrix
 ;
 class
-nsIDOMSVGMatrix
+gfxContext
 ;
 typedef
 nsSVGGraphicElement
@@ -115,7 +115,7 @@ virtual
 void
 ConstructPath
 (
-cairo_t
+gfxContext
 *
 aCtx
 )
@@ -123,8 +123,10 @@ aCtx
 0
 ;
 virtual
-nsSVGFlattenedPath
-*
+already_AddRefed
+<
+gfxFlattenedPath
+>
 GetFlattenedPath
 (
 nsIDOMSVGMatrix

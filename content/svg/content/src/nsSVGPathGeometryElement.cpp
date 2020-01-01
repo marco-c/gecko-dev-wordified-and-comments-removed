@@ -109,8 +109,10 @@ aMarks
 )
 {
 }
-nsSVGFlattenedPath
-*
+already_AddRefed
+<
+gfxFlattenedPath
+>
 nsSVGPathGeometryElement
 :
 :
