@@ -605,6 +605,17 @@ keys2
 )
 ;
 }
+reportCompare
+(
+actual
+expect
+"
+Object
+.
+keys
+"
+)
+;
 printStatus
 (
 "
