@@ -498,7 +498,6 @@ nsIHttpChannel
 nsIHttpChannelInternal
 nsISupportsPriority
 )
-;
 NS_IMETHODIMP
 HttpBaseChannel
 :
