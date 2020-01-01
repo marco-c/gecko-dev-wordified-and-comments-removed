@@ -198,6 +198,9 @@ nsDocAccessible
 >
 mDocument
 ;
+PRInt32
+mFlushingEventsCount
+;
 nsTArray
 <
 nsRefPtr
