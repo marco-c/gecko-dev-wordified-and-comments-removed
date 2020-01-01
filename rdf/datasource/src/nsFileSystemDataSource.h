@@ -221,12 +221,6 @@ aResult
 ;
 nsCOMPtr
 <
-nsISupportsArray
->
-mObservers
-;
-nsCOMPtr
-<
 nsIRDFService
 >
 mRDFService

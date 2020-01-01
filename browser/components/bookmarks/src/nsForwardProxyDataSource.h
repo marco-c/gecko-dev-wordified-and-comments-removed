@@ -32,6 +32,13 @@ nsIRDFDataSource
 .
 h
 "
+#
+include
+"
+nsCycleCollectionParticipant
+.
+h
+"
 class
 nsForwardProxyDataSource
 :
@@ -52,7 +59,12 @@ Init
 void
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
+(
+nsForwardProxyDataSource
+nsIRDFInferDataSource
+)
 NS_DECL_NSIRDFDATASOURCE
 NS_DECL_NSIRDFOBSERVER
 NS_DECL_NSIRDFINFERDATASOURCE

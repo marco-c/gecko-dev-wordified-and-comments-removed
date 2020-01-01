@@ -43,6 +43,13 @@ nsCOMArray
 .
 h
 "
+#
+include
+"
+nsCycleCollectionParticipant
+.
+h
+"
 class
 nsChromeUIDataSource
 :
@@ -53,7 +60,12 @@ nsIRDFObserver
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
+(
+nsChromeUIDataSource
+nsIRDFDataSource
+)
 NS_DECL_NSIRDFDATASOURCE
 NS_DECL_NSIRDFOBSERVER
 nsChromeUIDataSource
