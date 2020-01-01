@@ -164,6 +164,13 @@ mList
 ;
 }
 ;
+interface
+GeckoNSApplication
+:
+NSApplication
+{
+}
+end
 class
 AppShellDelegate
 ;
