@@ -1844,9 +1844,8 @@ UpdatePanFeedbackX
 (
 HWND
 hWnd
-nsMouseScrollEvent
-&
-evt
+PRInt32
+scrollOverflow
 PRBool
 &
 endFeedback
@@ -1854,8 +1853,6 @@ endFeedback
 {
 if
 (
-evt
-.
 scrollOverflow
 !
 =
@@ -1944,9 +1941,8 @@ UpdatePanFeedbackY
 (
 HWND
 hWnd
-nsMouseScrollEvent
-&
-evt
+PRInt32
+scrollOverflow
 PRBool
 &
 endFeedback
@@ -1954,8 +1950,6 @@ endFeedback
 {
 if
 (
-evt
-.
 scrollOverflow
 !
 =
