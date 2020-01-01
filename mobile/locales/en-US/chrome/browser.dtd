@@ -906,6 +906,17 @@ Image
 <
 !
 ENTITY
+contextBookmarkLink
+.
+label
+"
+Bookmark
+Link
+"
+>
+<
+!
+ENTITY
 contextSaveVideo
 .
 label
