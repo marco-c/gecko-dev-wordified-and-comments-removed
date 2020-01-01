@@ -1228,6 +1228,8 @@ gfxFontEntry
 aFontEntry
 PRBool
 useFullName
+=
+PR_FALSE
 )
 ;
 nsString

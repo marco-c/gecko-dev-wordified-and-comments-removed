@@ -291,17 +291,6 @@ nsAString
 aFamilyName
 )
 ;
-void
-GetLocalizedFamilyName
-(
-gfxFontFamily
-*
-aFamily
-nsAString
-&
-aLocalizedName
-)
-;
 static
 void
 ATSNotification
