@@ -137,6 +137,10 @@ browser_context_menu_tests
 .
 js
 \
+browser_sanitize_ui
+.
+js
+\
 browser_context_menu_tests_01
 .
 html

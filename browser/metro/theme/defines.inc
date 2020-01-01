@@ -213,6 +213,10 @@ metro_border_xthick
 4px
 %
 define
+metro_font_snormal
+14px
+%
+define
 metro_font_normal
 15px
 %
