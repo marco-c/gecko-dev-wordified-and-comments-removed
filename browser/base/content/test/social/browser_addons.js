@@ -2528,8 +2528,10 @@ uninstallProvider
 addonManifest
 .
 origin
+function
+(
 )
-;
+{
 gBrowser
 .
 removeTab
@@ -2539,6 +2541,9 @@ tab
 ;
 next
 (
+)
+;
+}
 )
 ;
 }
