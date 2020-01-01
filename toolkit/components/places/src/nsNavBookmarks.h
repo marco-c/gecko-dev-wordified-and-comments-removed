@@ -302,11 +302,14 @@ PRInt32
 aDelta
 )
 ;
-PRInt32
+nsresult
 FolderCount
 (
 PRInt64
-aFolder
+aFolderId
+PRInt32
+*
+aFolderCount
 )
 ;
 nsresult
