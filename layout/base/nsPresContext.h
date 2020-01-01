@@ -2401,14 +2401,6 @@ mIsRenderingOnlySelection
 }
 NS_HIDDEN_
 (
-PRBool
-)
-IsTopLevelWindowInactive
-(
-)
-;
-NS_HIDDEN_
-(
 nsITheme
 *
 )
