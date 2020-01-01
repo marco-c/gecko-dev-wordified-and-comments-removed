@@ -690,6 +690,10 @@ mInitialized
 (
 PR_FALSE
 )
+mEGLLibrary
+(
+nsnull
+)
 {
 mHave_EGL_KHR_image_base
 =
