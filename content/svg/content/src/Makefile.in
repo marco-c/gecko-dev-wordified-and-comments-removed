@@ -213,6 +213,10 @@ nsSVGFilters
 .
 cpp
 \
+nsSVGGradientElement
+.
+cpp
+\
 nsSVGInteger
 .
 cpp
@@ -242,10 +246,6 @@ nsSVGNumberPair
 cpp
 \
 nsSVGPathDataParser
-.
-cpp
-\
-nsSVGPathElement
 .
 cpp
 \
@@ -381,10 +381,6 @@ SVGGElement
 .
 cpp
 \
-SVGGradientElement
-.
-cpp
-\
 SVGGraphicsElement
 .
 cpp
@@ -458,6 +454,10 @@ SVGOrientSMILType
 cpp
 \
 SVGPathData
+.
+cpp
+\
+SVGPathElement
 .
 cpp
 \
@@ -698,10 +698,6 @@ SVGGElement
 .
 h
 \
-SVGGradientElement
-.
-h
-\
 SVGGraphicsElement
 .
 h
@@ -723,6 +719,10 @@ SVGMetadataElement
 h
 \
 SVGMPathElement
+.
+h
+\
+SVGPathElement
 .
 h
 \
