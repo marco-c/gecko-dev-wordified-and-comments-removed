@@ -10175,6 +10175,14 @@ lastClosedWindowsCopy
 length
 >
 0
+&
+&
+this
+.
+_loadState
+=
+=
+STATE_QUITTING
 )
 {
 do
