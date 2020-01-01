@@ -3872,6 +3872,16 @@ getOperand
 )
 )
 ;
+if
+(
+lhs
+.
+isInfinite
+(
+)
+)
+return
+;
 int64_t
 a
 =
