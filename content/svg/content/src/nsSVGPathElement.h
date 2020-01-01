@@ -132,6 +132,10 @@ friend
 class
 nsSVGPathFrame
 ;
+friend
+class
+nsSVGTextPathFrame
+;
 protected
 :
 friend
