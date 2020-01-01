@@ -28,6 +28,12 @@ prototype
 .
 js
 script
+arraybuffer
+-
+prototype
+.
+js
+script
 typedarray
 -
 subarray
