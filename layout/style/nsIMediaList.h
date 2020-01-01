@@ -340,7 +340,7 @@ nsPresContext
 *
 aPresContext
 nsMediaQueryResultCacheKey
-&
+*
 aKey
 )
 const
@@ -411,7 +411,7 @@ nsPresContext
 *
 aPresContext
 nsMediaQueryResultCacheKey
-&
+*
 aKey
 )
 ;
