@@ -7764,6 +7764,16 @@ this
 browser
 .
 contentDocument
+|
+|
+!
+this
+.
+browser
+.
+contentDocument
+.
+body
 )
 return
 1
