@@ -1355,10 +1355,8 @@ aSourceBufferLen
 if
 (
 aSourceBufferLen
-=
-=
--
-1
+<
+0
 )
 {
 aSourceBufferLen
@@ -1374,7 +1372,10 @@ aSourceBuffer
 }
 if
 (
+PRUint32
+(
 aSourceBufferLen
+)
 >
 =
 (
