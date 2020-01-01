@@ -998,7 +998,7 @@ setAttribute
 type
 "
 "
-checkbox
+radio
 "
 )
 ;
