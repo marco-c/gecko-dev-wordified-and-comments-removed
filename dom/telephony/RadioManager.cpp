@@ -1,7 +1,7 @@
 #
 include
 "
-Radio
+RadioManager
 .
 h
 "
@@ -145,7 +145,7 @@ change
 USING_TELEPHONY_NAMESPACE
 namespace
 {
-Radio
+RadioManager
 *
 gInstance
 =
@@ -796,10 +796,10 @@ argv
 ;
 }
 }
-Radio
+RadioManager
 :
 :
-Radio
+RadioManager
 (
 )
 :
@@ -836,11 +836,11 @@ instance
 )
 ;
 }
-Radio
+RadioManager
 :
 :
 ~
-Radio
+RadioManager
 (
 )
 {
@@ -883,7 +883,7 @@ nsnull
 ;
 }
 nsresult
-Radio
+RadioManager
 :
 :
 Init
@@ -1183,7 +1183,7 @@ NS_OK
 ;
 }
 void
-Radio
+RadioManager
 :
 :
 Shutdown
@@ -1217,9 +1217,9 @@ true
 }
 already_AddRefed
 <
-Radio
+RadioManager
 >
-Radio
+RadioManager
 :
 :
 FactoryCreate
@@ -1240,7 +1240,7 @@ thread
 ;
 nsRefPtr
 <
-Radio
+RadioManager
 >
 instance
 (
@@ -1256,7 +1256,7 @@ instance
 instance
 =
 new
-Radio
+RadioManager
 (
 )
 ;
@@ -1294,7 +1294,7 @@ already_AddRefed
 <
 nsIRadioInterface
 >
-Radio
+RadioManager
 :
 :
 GetRadioInterface
@@ -1343,11 +1343,11 @@ nsnull
 }
 NS_IMPL_ISUPPORTS1
 (
-Radio
+RadioManager
 nsIObserver
 )
 NS_IMETHODIMP
-Radio
+RadioManager
 :
 :
 Observe

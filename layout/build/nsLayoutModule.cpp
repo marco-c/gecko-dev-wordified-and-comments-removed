@@ -588,7 +588,7 @@ MOZ_B2G_RIL
 #
 include
 "
-Radio
+RadioManager
 .
 h
 "
@@ -602,7 +602,7 @@ dom
 telephony
 :
 :
-Radio
+RadioManager
 ;
 #
 endif
@@ -1494,8 +1494,8 @@ ifdef
 MOZ_B2G_RIL
 NS_GENERIC_FACTORY_SINGLETON_CONSTRUCTOR
 (
-Radio
-Radio
+RadioManager
+RadioManager
 :
 :
 FactoryCreate
@@ -1533,7 +1533,7 @@ nsIRadioInterface
 >
 inst
 =
-Radio
+RadioManager
 :
 :
 GetRadioInterface
@@ -4658,7 +4658,7 @@ MOZ_B2G_RIL
 kTELEPHONYRADIO_CID
 true
 NULL
-RadioConstructor
+RadioManagerConstructor
 }
 {
 &
