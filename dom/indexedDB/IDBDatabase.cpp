@@ -1932,6 +1932,14 @@ RemoveObjectStore
 aName
 )
 ;
+transaction
+-
+>
+ReleaseCachedObjectStore
+(
+aName
+)
+;
 return
 NS_OK
 ;
