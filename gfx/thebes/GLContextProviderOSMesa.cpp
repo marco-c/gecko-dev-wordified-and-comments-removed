@@ -1064,18 +1064,6 @@ return
 nsnull
 ;
 }
-ContextFormat
-actualFormat
-(
-aFormat
-)
-;
-actualFormat
-.
-samples
-=
-0
-;
 nsRefPtr
 <
 GLContextOSMesa
@@ -1085,7 +1073,7 @@ glContext
 new
 GLContextOSMesa
 (
-actualFormat
+aFormat
 )
 ;
 if
