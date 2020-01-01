@@ -303,11 +303,6 @@ nsIDOMHTMLParagraphElement
 idl
 '
 '
-nsIDOMHTMLParamElement
-.
-idl
-'
-'
 nsIDOMHTMLPreElement
 .
 idl
