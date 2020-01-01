@@ -1198,6 +1198,16 @@ spellcheckDefault
 pref
 (
 "
+dom
+.
+experimental_forms
+"
+true
+)
+;
+pref
+(
+"
 xpinstall
 .
 whitelist
