@@ -21218,7 +21218,7 @@ NS_NewBRFrame
 SIMPLE_TAG_CREATE
 (
 wbr
-NS_NewBRFrame
+NS_NewWBRFrame
 )
 SIMPLE_TAG_CHAIN
 (
