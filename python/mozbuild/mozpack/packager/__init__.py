@@ -23,6 +23,8 @@ import
     
 Manifest
     
+ManifestChrome
+    
 ManifestInterfaces
     
 is_manifest
@@ -874,6 +876,14 @@ CallDeque
         
 self
 .
+_chrome_queue
+=
+CallDeque
+(
+)
+        
+self
+.
 _file_queue
 =
 CallDeque
@@ -1117,6 +1127,36 @@ open
 :
             
 if
+isinstance
+(
+e
+ManifestChrome
+)
+:
+                
+self
+.
+_chrome_queue
+.
+append
+(
+self
+.
+formatter
+.
+add_manifest
+                                          
+e
+.
+move
+(
+e
+.
+base
+)
+)
+            
+elif
 not
 isinstance
 (
@@ -1309,6 +1349,14 @@ formatter
 add_base
 (
 base
+)
+        
+self
+.
+_chrome_queue
+.
+execute
+(
 )
         
 self

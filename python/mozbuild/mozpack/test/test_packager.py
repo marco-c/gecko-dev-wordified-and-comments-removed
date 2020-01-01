@@ -1227,13 +1227,13 @@ bar
 manifest
 '
 )
-1
+2
 )
              
 '
 add_manifest
 '
-ManifestResource
+ManifestContent
 (
 '
 foo
@@ -1266,13 +1266,13 @@ bar
 manifest
 '
 )
-2
+1
 )
              
 '
 add_manifest
 '
-ManifestContent
+ManifestResource
 (
 '
 foo
