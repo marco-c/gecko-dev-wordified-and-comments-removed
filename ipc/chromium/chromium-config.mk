@@ -103,16 +103,6 @@ chromium
 config
 .
 mk
-DEFINES
-+
-=
-\
--
-DEXCLUDE_SKIA_DEPENDENCIES
-\
-(
-NULL
-)
 LOCAL_INCLUDES
 +
 =

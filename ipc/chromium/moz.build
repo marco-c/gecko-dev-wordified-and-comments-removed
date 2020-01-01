@@ -343,11 +343,6 @@ ipc_message
 cc
 '
 '
-ipc_message_utils
-.
-cc
-'
-'
 ipc_sync_channel
 .
 cc
