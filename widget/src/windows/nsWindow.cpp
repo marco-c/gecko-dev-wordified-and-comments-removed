@@ -9297,6 +9297,13 @@ NS_ERROR_NOT_AVAILABLE
 HCURSOR
 cursor
 ;
+gfxIntSize
+size
+(
+0
+0
+)
+;
 rv
 =
 nsWindowGfx
@@ -9308,6 +9315,7 @@ aCursor
 PR_TRUE
 aHotspotX
 aHotspotY
+size
 &
 cursor
 )

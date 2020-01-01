@@ -485,6 +485,16 @@ img
 PR_FALSE
 0
 0
+nsWindowGfx
+:
+:
+GetIconMetrics
+(
+nsWindowGfx
+:
+:
+kRegularIcon
+)
 &
 Button
 (
