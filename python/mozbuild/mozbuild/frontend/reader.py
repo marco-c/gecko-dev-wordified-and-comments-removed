@@ -1324,6 +1324,9 @@ reldir
 static
 =
 False
+external
+=
+False
 )
 :
         
@@ -1393,6 +1396,13 @@ static
 :
 [
 ]
+                
+'
+external
+'
+:
+[
+]
             
 }
         
@@ -1405,8 +1415,43 @@ if
 static
 else
 '
+external
+'
+if
+external
+else
+'
 regular
 '
+        
+if
+external
+and
+static
+:
+            
+raise
+Exception
+(
+'
+Only
+one
+of
+external
+or
+static
+can
+be
+set
+at
+the
+'
+                
+'
+same
+time
+'
+)
         
 for
 path

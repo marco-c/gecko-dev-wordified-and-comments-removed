@@ -71,7 +71,7 @@ js
 /
 src
 '
-static
+external
 =
 True
 )
