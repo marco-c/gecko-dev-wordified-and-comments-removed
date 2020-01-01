@@ -459,6 +459,13 @@ BINPATH
 /
 components
 /
+components
+.
+list
+BINPATH
+/
+components
+/
 alerts
 .
 xpt
