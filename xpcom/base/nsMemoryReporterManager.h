@@ -111,6 +111,12 @@ nsIMemoryReporter
 >
 mReporters
 ;
+nsCOMArray
+<
+nsIMemoryMultiReporter
+>
+mMultiReporters
+;
 Mutex
 mMutex
 ;
