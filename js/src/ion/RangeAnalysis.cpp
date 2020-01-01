@@ -112,6 +112,12 @@ using
 mozilla
 :
 :
+CountLeadingZeroes32
+;
+using
+mozilla
+:
+:
 ExponentComponent
 ;
 using
@@ -2622,14 +2628,14 @@ UINT32_MAX
 >
 Min
 (
-js_bitscan_clz32
+CountLeadingZeroes32
 (
 lhs
 -
 >
 upper_
 )
-js_bitscan_clz32
+CountLeadingZeroes32
 (
 rhs
 -
@@ -2654,7 +2660,7 @@ upper_
 unsigned
 leadingOnes
 =
-js_bitscan_clz32
+CountLeadingZeroes32
 (
 ~
 lhs
@@ -2700,7 +2706,7 @@ upper_
 unsigned
 leadingOnes
 =
-js_bitscan_clz32
+CountLeadingZeroes32
 (
 ~
 rhs
@@ -2934,7 +2940,7 @@ lower
 unsigned
 lhsLeadingZeros
 =
-js_bitscan_clz32
+CountLeadingZeroes32
 (
 lhsUpper
 )
@@ -2942,7 +2948,7 @@ lhsUpper
 unsigned
 rhsLeadingZeros
 =
-js_bitscan_clz32
+CountLeadingZeroes32
 (
 rhsUpper
 )

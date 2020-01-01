@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+MathAlgorithms
+.
+h
+"
+#
+include
+"
+mozilla
+/
 MemoryChecking
 .
 h
@@ -738,6 +747,9 @@ defaultChunkSize
 {
 JS_ASSERT
 (
+mozilla
+:
+:
 RoundUpPow2
 (
 defaultChunkSize

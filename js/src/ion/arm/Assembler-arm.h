@@ -2890,7 +2890,10 @@ Imm8mData
 int
 left
 =
-js_bitscan_clz32
+mozilla
+:
+:
+CountLeadingZeroes32
 (
 imm
 )
@@ -2972,7 +2975,10 @@ right
 32
 -
 (
-js_bitscan_clz32
+mozilla
+:
+:
+CountLeadingZeroes32
 (
 no_imm
 )

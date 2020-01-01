@@ -92,7 +92,15 @@ TestCasting
 .
 cpp
 \
+TestCeilingFloor
+.
+cpp
+\
 TestCheckedInt
+.
+cpp
+\
+TestCountZeroes
 .
 cpp
 \
