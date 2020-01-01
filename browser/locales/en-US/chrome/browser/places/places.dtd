@@ -458,11 +458,12 @@ i
 ENTITY
 cmd
 .
-export
+exportHTML
 .
 label
 "
 Export
+HTML
 "
 >
 <
@@ -470,7 +471,7 @@ Export
 ENTITY
 cmd
 .
-export
+exportHTML
 .
 accesskey
 "
@@ -482,11 +483,12 @@ E
 ENTITY
 cmd
 .
-import
+importHTML
 .
 label
 "
 Import
+HTML
 "
 >
 <
@@ -494,7 +496,7 @@ Import
 ENTITY
 cmd
 .
-import
+importHTML
 .
 accesskey
 "
@@ -530,7 +532,7 @@ B
 ENTITY
 cmd
 .
-restore
+restore2
 .
 label
 "

@@ -1418,7 +1418,7 @@ label
 =
 "
 &
-importFromFile
+importFromHTMLFile
 .
 label
 ;
@@ -1427,7 +1427,7 @@ accesskey
 =
 "
 &
-importFromFile
+importFromHTMLFile
 .
 accesskey
 ;
