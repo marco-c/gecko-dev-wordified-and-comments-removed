@@ -118,6 +118,9 @@ friend
 class
 AutoResetInShow
 ;
+#
+ifdef
+MOZ_IPC
 typedef
 mozilla
 :
@@ -138,6 +141,8 @@ dom
 TabParent
 TabParent
 ;
+#
+endif
 protected
 :
 nsFrameLoader
