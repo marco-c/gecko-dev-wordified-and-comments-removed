@@ -2108,7 +2108,7 @@ result
 {
 nsRefPtr
 <
-WindowsRegKey
+nsWindowsRegKey
 >
 key
 =
