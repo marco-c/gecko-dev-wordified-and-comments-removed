@@ -401,7 +401,7 @@ src
 void
 add32
 (
-TrustedImm32
+Imm32
 imm
 RegisterID
 dest
@@ -418,7 +418,7 @@ dest
 void
 add32
 (
-TrustedImm32
+Imm32
 imm
 RegisterID
 src
@@ -478,7 +478,7 @@ dataTempRegister
 void
 add32
 (
-TrustedImm32
+Imm32
 imm
 Address
 address
@@ -570,7 +570,7 @@ dest
 void
 add32
 (
-TrustedImm32
+Imm32
 imm
 AbsoluteAddress
 address
@@ -875,7 +875,7 @@ src
 void
 or32
 (
-TrustedImm32
+Imm32
 imm
 RegisterID
 dest
@@ -1094,7 +1094,7 @@ src
 void
 sub32
 (
-TrustedImm32
+Imm32
 imm
 RegisterID
 dest
@@ -1152,7 +1152,7 @@ dataTempRegister
 void
 sub32
 (
-TrustedImm32
+Imm32
 imm
 Address
 address
@@ -1244,7 +1244,7 @@ dest
 void
 sub32
 (
-TrustedImm32
+Imm32
 imm
 AbsoluteAddress
 address
@@ -1337,7 +1337,7 @@ src
 void
 xor32
 (
-TrustedImm32
+Imm32
 imm
 RegisterID
 dest
@@ -2214,7 +2214,7 @@ address
 void
 store32
 (
-TrustedImm32
+Imm32
 imm
 ImplicitAddress
 address
@@ -2274,7 +2274,7 @@ makeUInt16
 void
 store32
 (
-TrustedImm32
+Imm32
 imm
 void
 *
@@ -2892,7 +2892,7 @@ dataTempRegister
 void
 move
 (
-TrustedImm32
+Imm32
 imm
 RegisterID
 dest
@@ -3037,7 +3037,7 @@ src
 void
 move
 (
-TrustedImmPtr
+ImmPtr
 imm
 RegisterID
 dest
@@ -3354,7 +3354,7 @@ Condition
 cond
 RegisterID
 left
-TrustedImm32
+Imm32
 right
 )
 {
@@ -3433,7 +3433,7 @@ Condition
 cond
 Address
 left
-TrustedImm32
+Imm32
 right
 )
 {
@@ -3459,7 +3459,7 @@ Condition
 cond
 BaseIndex
 left
-TrustedImm32
+Imm32
 right
 )
 {
@@ -3485,7 +3485,7 @@ Condition
 cond
 BaseIndex
 left
-TrustedImm32
+Imm32
 right
 )
 {
@@ -3539,7 +3539,7 @@ Condition
 cond
 AbsoluteAddress
 left
-TrustedImm32
+Imm32
 right
 )
 {
@@ -4875,7 +4875,7 @@ makeUInt16
 DataLabel32
 moveWithPatch
 (
-TrustedImm32
+Imm32
 imm
 RegisterID
 dst
@@ -4897,7 +4897,7 @@ this
 DataLabelPtr
 moveWithPatch
 (
-TrustedImmPtr
+ImmPtr
 imm
 RegisterID
 dst
@@ -5000,7 +5000,7 @@ dataTempRegister
 DataLabelPtr
 storePtrWithPatch
 (
-TrustedImmPtr
+ImmPtr
 initialValue
 ImplicitAddress
 address
@@ -5506,7 +5506,7 @@ addressTempRegister
 void
 moveFixedWidthEncoding
 (
-TrustedImm32
+Imm32
 imm
 RegisterID
 dst
