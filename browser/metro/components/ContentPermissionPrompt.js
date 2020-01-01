@@ -394,6 +394,8 @@ wrappedJSObject
 let
 windowID
 =
+request
+.
 window
 .
 QueryInterface
