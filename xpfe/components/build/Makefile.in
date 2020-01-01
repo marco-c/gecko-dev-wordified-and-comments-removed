@@ -445,6 +445,8 @@ config
 config
 .
 mk
+ifndef
+MOZ_THUNDERBIRD
 #
 General
 includes
@@ -477,19 +479,7 @@ srcdir
 .
 /
 directory
-#
-Non
--
-Mac
-Browser
-requirements
-ifneq
-(
-(
-MOZ_BUILD_APP
-)
-macbrowser
-)
+endif
 SHARED_LIBRARY_LIBS
 +
 =
@@ -529,7 +519,6 @@ srcdir
 browser
 /
 src
-endif
 ifeq
 (
 (
