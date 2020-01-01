@@ -427,15 +427,6 @@ config
 rules
 .
 mk
-DEFINES
-+
-=
--
-DFIREFOX_VERSION
-=
-(
-FIREFOX_VERSION
-)
 FILES
 :
 =
