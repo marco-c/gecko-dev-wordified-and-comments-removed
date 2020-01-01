@@ -1446,6 +1446,16 @@ copy
 string
 :
 text
+xPos
+:
+aEvent
+.
+clientX
+yPos
+:
+aEvent
+.
+clientY
 }
 }
 )
