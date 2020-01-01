@@ -195,6 +195,13 @@ OPCODE_LEN
 static
 const
 unsigned
+BRAZERO_LEN
+=
+OPCODE_LEN
+;
+static
+const
+unsigned
 BRA_NEST_SIZE
 =
 2
@@ -8445,6 +8452,8 @@ maxRepeats
 -
 minRepeats
 duplength
++
+BRAZERO_LEN
 +
 BRA_LEN
 +
