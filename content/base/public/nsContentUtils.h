@@ -2631,6 +2631,12 @@ AddScriptBlocker
 ;
 static
 void
+AddScriptBlockerAndPreventAddingRunners
+(
+)
+;
+static
+void
 RemoveScriptBlocker
 (
 )
@@ -3210,6 +3216,10 @@ sBlockedScriptRunners
 static
 PRUint32
 sRunnersCountAtFirstBlocker
+;
+static
+PRUint32
+sScriptBlockerCountWhereRunnersPrevented
 ;
 static
 nsIInterfaceRequestor
