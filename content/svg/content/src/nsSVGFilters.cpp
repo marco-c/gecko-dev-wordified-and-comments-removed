@@ -19878,7 +19878,7 @@ NS_SVG_OFFSCREEN_MAX_DIMENSION
 return
 NS_ERROR_FAILURE
 ;
-nsAutoPtr
+nsAutoArrayPtr
 <
 float
 >
