@@ -111,6 +111,9 @@ size_t
 )
 raw_
 ;
+#
+ifdef
+JS_SMALL_BRANCH
 size_t
 jumpTableEntryOffset
 =
@@ -122,6 +125,8 @@ size_t
 jumpTableEntry_
 )
 ;
+#
+endif
 if
 (
 masm

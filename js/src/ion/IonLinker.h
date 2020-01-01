@@ -106,12 +106,17 @@ IonCompartment
 comp
 )
 {
+#
+ifndef
+JS_CPU_ARM
 masm
 .
 flush
 (
 )
 ;
+#
+endif
 if
 (
 masm
