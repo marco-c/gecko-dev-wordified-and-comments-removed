@@ -2116,16 +2116,6 @@ catch
 ex
 )
 {
-print
-(
-'
-Preferences_clearPref
-:
-'
-+
-ex
-)
-;
 }
 }
 Preferences
