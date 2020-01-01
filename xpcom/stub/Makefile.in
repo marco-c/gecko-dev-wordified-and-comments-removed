@@ -584,7 +584,7 @@ DEPENDENT_LIBS_LIST
 =
 \
 (
-LIB_PREFIX
+DLL_PREFIX
 )
 nspr4
 (
@@ -592,7 +592,7 @@ DLL_SUFFIX
 )
 \
 (
-LIB_PREFIX
+DLL_PREFIX
 )
 plc4
 (
@@ -600,7 +600,7 @@ DLL_SUFFIX
 )
 \
 (
-LIB_PREFIX
+DLL_PREFIX
 )
 plds4
 (
@@ -608,7 +608,7 @@ DLL_SUFFIX
 )
 \
 (
-LIB_PREFIX
+DLL_PREFIX
 )
 mozalloc
 (
@@ -625,7 +625,7 @@ DEPENDENT_LIBS_LIST
 =
 \
 (
-LIB_PREFIX
+DLL_PREFIX
 )
 nssutil3
 (
@@ -633,7 +633,7 @@ DLL_SUFFIX
 )
 \
 (
-LIB_PREFIX
+DLL_PREFIX
 )
 softokn3
 (
@@ -641,7 +641,7 @@ DLL_SUFFIX
 )
 \
 (
-LIB_PREFIX
+DLL_PREFIX
 )
 nss3
 (
@@ -649,7 +649,7 @@ DLL_SUFFIX
 )
 \
 (
-LIB_PREFIX
+DLL_PREFIX
 )
 ssl3
 (
@@ -657,7 +657,7 @@ DLL_SUFFIX
 )
 \
 (
-LIB_PREFIX
+DLL_PREFIX
 )
 smime3
 (
@@ -673,7 +673,7 @@ DEPENDENT_LIBS_LIST
 +
 =
 (
-LIB_PREFIX
+DLL_PREFIX
 )
 mozjs
 (
@@ -700,7 +700,7 @@ DEPENDENT_LIBS_LIST
 +
 =
 (
-LIB_PREFIX
+DLL_PREFIX
 )
 mozsqlite3
 (
@@ -737,7 +737,7 @@ DEPENDENT_LIBS_LIST
 +
 =
 (
-LIB_PREFIX
+DLL_PREFIX
 )
 xul
 (
@@ -769,7 +769,7 @@ DEPENDENT_LIBS_LIST
 +
 =
 (
-LIB_PREFIX
+DLL_PREFIX
 )
 xpcom_core
 (
