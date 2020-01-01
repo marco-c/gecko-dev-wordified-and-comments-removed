@@ -1,16 +1,5 @@
 conformance
 /
-canvas
-/
-buffer
--
-preserve
--
-test
-.
-html
-conformance
-/
 context
 /
 context

@@ -1264,6 +1264,10 @@ friend
 class
 WebGLExtensionLoseContext
 ;
+friend
+class
+WebGLContextUserData
+;
 public
 :
 WebGLContext
