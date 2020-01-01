@@ -7518,7 +7518,7 @@ animator
 new
 PropertyAnimator
 (
-300
+250
 )
 ;
 animator
