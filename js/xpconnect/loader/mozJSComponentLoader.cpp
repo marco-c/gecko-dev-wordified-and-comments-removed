@@ -6002,11 +6002,8 @@ JS_GetElement
 mContext
 symbolsObj
 i
+&
 value
-.
-address
-(
-)
 )
 |
 |

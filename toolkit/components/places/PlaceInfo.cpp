@@ -497,11 +497,8 @@ JS_SetElement
 aContext
 visits
 idx
+&
 wrappedVisit
-.
-address
-(
-)
 )
 ;
 NS_ENSURE_TRUE

@@ -3969,11 +3969,8 @@ JS_GetElement
 aCx
 array
 arrayIndex
+&
 arrayItem
-.
-address
-(
-)
 )
 )
 {

@@ -1170,11 +1170,8 @@ JS_GetElement
 aCx
 obj
 i
+&
 element
-.
-address
-(
-)
 )
 )
 return

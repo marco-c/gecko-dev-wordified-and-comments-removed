@@ -1146,11 +1146,8 @@ JS_GetElement
 aCx
 seq
 i
+&
 temp
-.
-address
-(
-)
 )
 )
 {

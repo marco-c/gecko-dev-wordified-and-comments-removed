@@ -797,11 +797,8 @@ JS_GetElement
 cx
 array
 i
+&
 val
-.
-address
-(
-)
 )
 )
 return

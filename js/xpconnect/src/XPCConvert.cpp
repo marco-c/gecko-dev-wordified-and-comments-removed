@@ -6719,11 +6719,8 @@ JS_SetElement
 cx
 array
 i
+&
 current
-.
-address
-(
-)
 )
 )
 \
@@ -7955,11 +7952,8 @@ JS_GetElement
 cx
 jsarray
 initedCount
+&
 current
-.
-address
-(
-)
 )
 |
 |

@@ -787,11 +787,8 @@ JS_SetElement
 aCx
 attachmentArray
 i
+&
 val
-.
-address
-(
-)
 )
 )
 {

@@ -14336,11 +14336,8 @@ JS_GetElement
 cx
 arrayObj
 i
+&
 allowed
-.
-address
-(
-)
 )
 )
 return

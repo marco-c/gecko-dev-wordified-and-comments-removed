@@ -376,11 +376,8 @@ JS_SetElement
 aCx
 array
 index
+&
 val
-.
-address
-(
-)
 )
 )
 {
