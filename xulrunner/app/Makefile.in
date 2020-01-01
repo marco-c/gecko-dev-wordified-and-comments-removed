@@ -292,15 +292,6 @@ MOZ_WINCONSOLE
 0
 endif
 endif
-DEFINES
-+
-=
--
-DMOZ_WINCONSOLE
-=
-(
-MOZ_WINCONSOLE
-)
 #
 This
 switches

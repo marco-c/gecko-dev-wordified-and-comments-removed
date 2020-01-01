@@ -91,6 +91,9 @@ CPPSRCS
 windbgdlg
 .
 cpp
+MOZ_WINCONSOLE
+=
+0
 include
 (
 topsrcdir
