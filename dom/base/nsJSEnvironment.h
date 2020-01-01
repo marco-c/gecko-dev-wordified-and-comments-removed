@@ -230,14 +230,6 @@ GetNativeContext
 MOZ_OVERRIDE
 ;
 virtual
-JSObject
-*
-GetNativeGlobal
-(
-)
-MOZ_OVERRIDE
-;
-virtual
 nsresult
 InitContext
 (
@@ -552,7 +544,7 @@ JSObject
 *
 global
 =
-GetNativeGlobal
+GetWindowProxy
 (
 )
 ;
