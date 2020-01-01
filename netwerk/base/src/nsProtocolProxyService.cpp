@@ -3692,13 +3692,10 @@ PR_Now
 ;
 int64_t
 diff
-;
-LL_SUB
-(
-diff
+=
 now
+-
 mSessionStart
-)
 ;
 PRTime
 ups

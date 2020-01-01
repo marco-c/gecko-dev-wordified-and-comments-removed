@@ -1511,13 +1511,10 @@ totalTime32
 ;
 uint64_t
 totalTime64
-;
-LL_SUB
-(
-totalTime64
+=
 finish
+-
 start
-)
 ;
 LL_L2UI
 (

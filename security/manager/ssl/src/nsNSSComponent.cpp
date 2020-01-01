@@ -6252,12 +6252,11 @@ now
 nextFiring
 )
 {
-LL_SUB
-(
 diff
+=
 nextFiring
+-
 now
-)
 ;
 LL_L2UI
 (
