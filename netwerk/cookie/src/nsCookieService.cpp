@@ -4609,6 +4609,7 @@ hostIndex
 ;
 if
 (
+(
 isDomain
 &
 &
@@ -4630,6 +4631,7 @@ First
 '
 .
 '
+)
 |
 |
 host
