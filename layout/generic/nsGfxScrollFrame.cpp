@@ -15197,6 +15197,9 @@ ReflowFinished
 (
 )
 {
+nsAutoScriptBlocker
+scriptBlocker
+;
 mPostedReflowCallback
 =
 false
