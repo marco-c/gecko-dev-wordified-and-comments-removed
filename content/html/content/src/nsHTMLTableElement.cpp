@@ -347,9 +347,6 @@ GetNodeAt
 (
 PRUint32
 aIndex
-nsresult
-*
-aResult
 )
 ;
 virtual
@@ -932,9 +929,6 @@ GetNodeAt
 (
 PRUint32
 aIndex
-nsresult
-*
-aResult
 )
 {
 DO_FOR_EACH_ROWGROUP
@@ -983,11 +977,6 @@ count
 ;
 )
 ;
-*
-aResult
-=
-NS_OK
-;
 return
 nsnull
 ;
@@ -1006,9 +995,6 @@ nsIDOMNode
 aReturn
 )
 {
-nsresult
-rv
-;
 nsISupports
 *
 node
@@ -1016,8 +1002,6 @@ node
 GetNodeAt
 (
 aIndex
-&
-rv
 )
 ;
 if
@@ -1032,7 +1016,7 @@ aReturn
 nsnull
 ;
 return
-rv
+NS_OK
 ;
 }
 return

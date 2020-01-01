@@ -175,9 +175,6 @@ GetNodeAt
 (
 PRUint32
 aIndex
-nsresult
-*
-aResult
 )
 ;
 virtual

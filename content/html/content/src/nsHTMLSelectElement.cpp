@@ -7808,9 +7808,6 @@ nsIDOMNode
 aReturn
 )
 {
-nsresult
-rv
-;
 nsISupports
 *
 item
@@ -7818,8 +7815,6 @@ item
 GetNodeAt
 (
 aIndex
-&
-rv
 )
 ;
 if
@@ -7834,7 +7829,7 @@ aReturn
 nsnull
 ;
 return
-rv
+NS_OK
 ;
 }
 return
@@ -7854,16 +7849,8 @@ GetNodeAt
 (
 PRUint32
 aIndex
-nsresult
-*
-aResult
 )
 {
-*
-aResult
-=
-NS_OK
-;
 return
 static_cast
 <
