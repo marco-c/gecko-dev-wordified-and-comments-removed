@@ -86,10 +86,7 @@ sys
 .
 exit
 (
-args
-[
 0
-]
 )
   
 return
