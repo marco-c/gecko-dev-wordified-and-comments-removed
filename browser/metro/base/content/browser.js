@@ -3527,6 +3527,12 @@ updateURI
 (
 )
 ;
+BrowserUI
+.
+update
+(
+)
+;
 let
 event
 =
