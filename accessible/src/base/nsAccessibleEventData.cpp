@@ -1558,6 +1558,10 @@ eDoNotEmit
 }
 break
 ;
+default
+:
+break
+;
 }
 }
 }
