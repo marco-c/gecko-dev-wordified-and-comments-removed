@@ -9281,6 +9281,10 @@ true
 ;
 }
 }
+gInstalling
+=
+true
+;
 gExtensionManager
 .
 addDownloads
@@ -9291,10 +9295,6 @@ items
 length
 aManager
 )
-;
-gInstalling
-=
-true
 ;
 updateOptionalViews
 (
@@ -14690,6 +14690,10 @@ length
 0
 )
 {
+gInstalling
+=
+true
+;
 gExtensionManager
 .
 addDownloads
@@ -14700,10 +14704,6 @@ items
 length
 null
 )
-;
-gInstalling
-=
-true
 ;
 showView
 (
@@ -16786,6 +16786,10 @@ id
 )
 )
 ;
+gInstalling
+=
+true
+;
 gExtensionManager
 .
 addDownloads
@@ -16796,10 +16800,6 @@ item
 1
 null
 )
-;
-gInstalling
-=
-true
 ;
 updateOptionalViews
 (
