@@ -415,6 +415,8 @@ GRE_MODULE
 DIRS
 =
 \
+MoreFiles
+\
 typelib
 \
 string
