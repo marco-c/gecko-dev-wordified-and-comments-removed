@@ -249,6 +249,9 @@ ConvertTimeToTickHelper
 Convert
 &
 ctth
+IdealAudioRate
+(
+)
 )
 ;
 }

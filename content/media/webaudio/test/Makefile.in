@@ -159,6 +159,10 @@ test_audioParamLinearRamp
 .
 html
 \
+test_audioParamSetTargetAtTime
+.
+html
+\
 test_audioBufferSourceNode
 .
 html
