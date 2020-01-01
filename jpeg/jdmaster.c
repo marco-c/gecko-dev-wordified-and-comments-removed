@@ -2573,8 +2573,6 @@ JSAMPLE
 ;
 #
 endif
-!
-0
 }
 LOCAL
 (

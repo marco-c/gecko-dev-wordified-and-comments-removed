@@ -1515,8 +1515,6 @@ ONE_HALF
 }
 #
 endif
-!
-0
 }
 METHODDEF
 (
