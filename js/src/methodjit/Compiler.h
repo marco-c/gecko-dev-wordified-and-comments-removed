@@ -264,6 +264,9 @@ tempReg
 struct
 TraceGenInfo
 {
+bool
+initialized
+;
 Label
 stubEntry
 ;
@@ -280,6 +283,16 @@ traceHint
 MaybeJump
 slowTraceHint
 ;
+TraceGenInfo
+(
+)
+:
+initialized
+(
+false
+)
+{
+}
 }
 ;
 public
