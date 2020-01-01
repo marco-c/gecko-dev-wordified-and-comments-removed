@@ -1223,6 +1223,8 @@ buf
 length
 +
 PAGE_SIZE
+-
+1
 )
 &
 PAGE_MASK
@@ -1498,14 +1500,11 @@ GetLength
 )
 +
 PAGE_SIZE
-)
-&
-~
-(
-PAGE_SIZE
 -
 1
 )
+&
+PAGE_MASK
 )
 PAGE_SIZE
 )
