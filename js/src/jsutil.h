@@ -701,7 +701,7 @@ true
 ;
 }
 void
-SetStatementDone
+setStatementDone
 (
 bool
 *
@@ -764,7 +764,7 @@ JSGuardObjectNotifier
 aNotifier
 )
 .
-SetStatementDone
+setStatementDone
 (
 &
 mStatementDone

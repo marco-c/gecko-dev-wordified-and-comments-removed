@@ -2765,7 +2765,7 @@ undef
 START_ASSERT_SAME_COMPARTMENT
 inline
 JSBool
-callJSNative
+CallJSNative
 (
 JSContext
 *
@@ -2834,7 +2834,7 @@ ok
 }
 inline
 JSBool
-callJSFastNative
+CallJSFastNative
 (
 JSContext
 *
@@ -2895,7 +2895,7 @@ ok
 }
 inline
 JSBool
-callJSPropertyOp
+CallJSPropertyOp
 (
 JSContext
 *
@@ -2956,7 +2956,7 @@ ok
 }
 inline
 JSBool
-callJSPropertyOpSetter
+CallJSPropertyOpSetter
 (
 JSContext
 *
