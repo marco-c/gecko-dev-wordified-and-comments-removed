@@ -5245,9 +5245,6 @@ maptsv
 mfc
 *
 \
-mkdepend
-*
-\
 msdump
 *
 \
