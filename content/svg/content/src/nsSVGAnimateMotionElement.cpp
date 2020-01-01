@@ -156,6 +156,11 @@ NS_IMPL_RELEASE_INHERITED
 nsSVGAnimateMotionElement
 nsSVGAnimateMotionElementBase
 )
+DOMCI_DATA
+(
+SVGAnimateMotionElement
+nsSVGAnimateMotionElement
+)
 NS_INTERFACE_TABLE_HEAD
 (
 nsSVGAnimateMotionElement
@@ -169,9 +174,9 @@ nsIDOMSVGElement
 nsIDOMSVGAnimationElement
 nsIDOMSVGAnimateMotionElement
 )
-NS_INTERFACE_MAP_ENTRY_CONTENT_CLASSINFO
+NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 (
-SVGAnimateElement
+SVGAnimateMotionElement
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
