@@ -71654,6 +71654,17 @@ WINNT
 o
 "
 {
+OS_ARCH
+}
+"
+=
+"
+Darwin
+"
+-
+o
+"
+{
 MOZ_WIDGET_TOOLKIT
 }
 "
