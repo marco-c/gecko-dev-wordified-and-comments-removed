@@ -151,6 +151,9 @@ AdjustAfterInsertion
 (
 nsINode
 *
+aRoot
+nsINode
+*
 aContainer
 PRInt32
 aIndexInContainer
