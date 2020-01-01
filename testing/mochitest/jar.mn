@@ -124,6 +124,16 @@ js
 )
 content
 /
+manifestLibrary
+.
+js
+(
+manifestLibrary
+.
+js
+)
+content
+/
 dynamic
 /
 getMyDirectory
