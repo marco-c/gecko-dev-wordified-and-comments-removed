@@ -691,6 +691,3 @@ nsIDOMCRMFObject
 interface
 nsIDOMCrypto
 ;
-interface
-nsIDOMPkcs11
-;
