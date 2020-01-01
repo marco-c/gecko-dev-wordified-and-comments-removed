@@ -69,6 +69,13 @@ nsIObserverService
 h
 "
 #
+include
+"
+nsIChannelPolicy
+.
+h
+"
+#
 ifdef
 LOADER_THREADSAFE
 #
@@ -978,6 +985,9 @@ imgIRequest
 *
 *
 aProxyRequest
+nsIChannelPolicy
+*
+aPolicy
 )
 ;
 PRBool
@@ -1013,6 +1023,9 @@ imgIRequest
 *
 *
 aProxyRequest
+nsIChannelPolicy
+*
+aPolicy
 )
 ;
 nsresult
