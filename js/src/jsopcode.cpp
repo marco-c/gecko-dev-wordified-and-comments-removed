@@ -29659,6 +29659,14 @@ spindex
 JSDVG_SEARCH_STACK
 )
 ;
+#
+ifdef
+JS_MORE_DETERMINISTIC
+goto
+do_fallback
+;
+#
+endif
 if
 (
 !
