@@ -64,7 +64,14 @@ mozilla
 namespace
 dom
 {
-NS_INTERFACE_MAP_BEGIN
+NS_IMPL_CYCLE_COLLECTION_INHERITED_1
+(
+SpeechSynthesisUtterance
+nsDOMEventTargetHelper
+mVoice
+)
+;
+NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
 (
 SpeechSynthesisUtterance
 )
