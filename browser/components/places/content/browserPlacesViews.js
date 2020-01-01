@@ -1889,6 +1889,12 @@ _startMarker
 ;
 aPopup
 .
+_lmStatusMenuItem
+=
+lmStatusElt
+;
+aPopup
+.
 _startMarker
 +
 +
