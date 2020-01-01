@@ -66,6 +66,9 @@ srcdir
 VPATH
 =
 srcdir
+relativesrcdir
+=
+relativesrcdir
 LOCALE_SRCDIR
 =
 (
