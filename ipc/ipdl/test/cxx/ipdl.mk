@@ -65,6 +65,10 @@ PTestShutdownSubsub
 .
 ipdl
 \
+PTestSyncWakeup
+.
+ipdl
+\
 (
 NULL
 )
