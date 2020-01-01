@@ -677,7 +677,7 @@ null
 var
 lineCount
 =
-0
+1
 ;
 while
 (
