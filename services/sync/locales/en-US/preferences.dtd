@@ -305,6 +305,16 @@ Data
 <
 !
 ENTITY
+tabsCheckbox
+.
+label
+"
+Tabs
+"
+>
+<
+!
+ENTITY
 addonsGroupbox
 .
 description
