@@ -40,6 +40,10 @@ nsDOMEventTargetWrapperCache
 {
 public
 :
+friend
+class
+SmsRequestManager
+;
 enum
 ErrorType
 {

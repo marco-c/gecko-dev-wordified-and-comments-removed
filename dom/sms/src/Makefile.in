@@ -531,6 +531,10 @@ SmsMessage
 .
 h
 \
+SmsRequestManager
+.
+h
+\
 (
 NULL
 )
@@ -578,6 +582,10 @@ SmsDatabaseService
 cpp
 \
 SmsRequest
+.
+cpp
+\
+SmsRequestManager
 .
 cpp
 \
