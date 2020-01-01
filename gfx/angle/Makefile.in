@@ -838,6 +838,7 @@ Release
 endif
 ifdef
 MOZ_DIRECTX_SDK_PATH
+export
 INCLUDE
 :
 =
@@ -850,6 +851,7 @@ MOZ_DIRECTX_SDK_PATH
 )
 \
 include
+export
 LIB
 :
 =
