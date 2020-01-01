@@ -335,7 +335,11 @@ HINTRIGHT
 1
 }
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTION_CLASS
+(
+nsFrameSelection
+)
 void
 Init
 (
@@ -788,12 +792,6 @@ nsFrameSelection
 (
 )
 ;
-virtual
-~
-nsFrameSelection
-(
-)
-;
 void
 StartBatchChanges
 (
@@ -1063,8 +1061,10 @@ SelectionType
 aType
 )
 ;
+nsRefPtr
+<
 nsTypedSelection
-*
+>
 mDomSelections
 [
 nsISelectionController
