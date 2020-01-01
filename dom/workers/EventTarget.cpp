@@ -126,6 +126,7 @@ aCx
 JSObject
 *
 aObj
+const
 char
 *
 aFunctionName
