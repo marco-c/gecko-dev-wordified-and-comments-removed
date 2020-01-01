@@ -3746,12 +3746,6 @@ history
 if
 (
 textValue
-&
-&
-!
-gPrivateBrowsingUI
-.
-privateWindow
 )
 {
 try
