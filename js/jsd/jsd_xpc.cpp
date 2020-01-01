@@ -2045,6 +2045,13 @@ JSContext
 cx
 )
 {
+if
+(
+!
+gJsds
+)
+return
+;
 nsCOMPtr
 <
 jsdIScriptHook
