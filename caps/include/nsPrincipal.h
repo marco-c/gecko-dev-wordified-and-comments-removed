@@ -315,6 +315,12 @@ mTrusted
 PRPackedBool
 mInitialized
 ;
+PRPackedBool
+mCodebaseImmutable
+;
+PRPackedBool
+mDomainImmutable
+;
 }
 ;
 #
