@@ -204,6 +204,14 @@ GetContextPPC
 const
 ;
 const
+MDRawContextAMD64
+*
+GetContextAMD64
+(
+)
+const
+;
+const
 MDRawContextSPARC
 *
 GetContextSPARC
@@ -253,6 +261,9 @@ u_int32_t
 context_cpu_type
 )
 ;
+u_int32_t
+context_flags_
+;
 union
 {
 MDRawContextBase
@@ -266,6 +277,10 @@ x86
 MDRawContextPPC
 *
 ppc
+;
+MDRawContextAMD64
+*
+amd64
 ;
 MDRawContextSPARC
 *
@@ -887,6 +902,9 @@ max_misc_bytes_
 ;
 bool
 module_valid_
+;
+bool
+has_debug_info_
 ;
 MDRawModule
 module_

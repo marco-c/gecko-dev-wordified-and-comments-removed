@@ -670,6 +670,7 @@ std
 :
 string
 response
+error
 ;
 bool
 success
@@ -701,6 +702,8 @@ options
 proxy_user_pwd
 &
 response
+&
+error
 )
 ;
 if
@@ -733,10 +736,17 @@ to
 send
 symbol
 file
-.
+:
+%
+s
 \
 n
 "
+error
+.
+c_str
+(
+)
 )
 ;
 printf

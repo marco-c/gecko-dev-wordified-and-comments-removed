@@ -696,6 +696,7 @@ userData
 {
 string
 response
+error
 ;
 bool
 success
@@ -720,6 +721,8 @@ upload_file_minidump
 "
 &
 response
+&
+error
 )
 ;
 if
@@ -747,7 +750,10 @@ Crash
 report
 submission
 failed
+:
 "
++
+error
 )
 ;
 }

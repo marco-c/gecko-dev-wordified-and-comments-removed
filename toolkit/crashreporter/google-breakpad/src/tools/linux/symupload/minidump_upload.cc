@@ -125,6 +125,7 @@ std
 :
 string
 response
+error
 ;
 bool
 success
@@ -156,6 +157,8 @@ options
 proxy_user_pwd
 &
 response
+&
+error
 )
 ;
 if
@@ -187,9 +190,17 @@ Failed
 to
 send
 minidump
+:
+%
+s
 \
 n
 "
+error
+.
+c_str
+(
+)
 )
 ;
 printf

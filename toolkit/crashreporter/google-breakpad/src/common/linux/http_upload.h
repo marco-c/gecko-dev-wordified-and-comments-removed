@@ -69,6 +69,9 @@ proxy_user_pwd
 string
 *
 response_body
+string
+*
+error_description
 )
 ;
 private

@@ -754,8 +754,6 @@ OS_LIBS
 (
 MOZ_GTK2_LIBS
 )
--
-lcurl
 CPPSRCS
 +
 =
