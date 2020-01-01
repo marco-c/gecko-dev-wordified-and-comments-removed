@@ -690,7 +690,7 @@ SetReturnValueWasSet
 PR_TRUE
 )
 ;
-int
+uint32
 n
 =
 0
