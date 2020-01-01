@@ -262,6 +262,15 @@ updater
 .
 /
 update
+#
+FIXME
+remove
+once
+fix
+in
+401608
+has
+shipped
 .
 .
 /
@@ -279,6 +288,8 @@ updater
 /
 update
 0
+blah
+blah
 cd
 .
 .
