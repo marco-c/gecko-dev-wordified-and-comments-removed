@@ -210,10 +210,6 @@ nsHttpPipeline
 (
 )
 :
-mConnection
-(
-nullptr
-)
 mStatus
 (
 NS_OK
@@ -275,11 +271,6 @@ nsHttpPipeline
 Close
 (
 NS_ERROR_ABORT
-)
-;
-NS_IF_RELEASE
-(
-mConnection
 )
 ;
 if
@@ -1545,12 +1536,9 @@ connection
 "
 )
 ;
-NS_IF_ADDREF
-(
 mConnection
 =
 conn
-)
 ;
 }
 nsAHttpConnection
@@ -1585,6 +1573,10 @@ n
 "
 this
 mConnection
+.
+get
+(
+)
 )
 )
 ;
