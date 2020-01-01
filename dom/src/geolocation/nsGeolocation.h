@@ -475,6 +475,8 @@ aSomewhere
 nsresult
 StartDevice
 (
+bool
+aRequestPrivate
 )
 ;
 void
