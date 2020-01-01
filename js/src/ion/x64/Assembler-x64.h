@@ -1083,6 +1083,11 @@ addPatchableJump
 (
 JmpSrc
 src
+Relocation
+:
+:
+Kind
+reloc
 )
 ;
 public
@@ -2708,7 +2713,7 @@ reloc
 Relocation
 :
 :
-EXTERNAL
+HARDCODED
 )
 {
 JmpSrc
@@ -2745,7 +2750,7 @@ reloc
 Relocation
 :
 :
-EXTERNAL
+HARDCODED
 )
 {
 JmpSrc
@@ -2797,7 +2802,7 @@ raw
 Relocation
 :
 :
-CODE
+IONCODE
 )
 ;
 }
@@ -2823,7 +2828,7 @@ raw
 Relocation
 :
 :
-CODE
+IONCODE
 )
 ;
 }
@@ -2856,7 +2861,7 @@ raw
 Relocation
 :
 :
-CODE
+IONCODE
 )
 ;
 }

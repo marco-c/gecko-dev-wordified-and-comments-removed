@@ -6263,7 +6263,7 @@ kind
 Relocation
 :
 :
-CODE
+IONCODE
 )
 writeRelocation
 (

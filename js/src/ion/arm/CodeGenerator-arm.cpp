@@ -1384,7 +1384,7 @@ raw
 Relocation
 :
 :
-CODE
+IONCODE
 )
 ;
 }
@@ -1480,7 +1480,7 @@ code
 Relocation
 :
 :
-EXTERNAL
+HARDCODED
 condition
 )
 ;
@@ -1640,7 +1640,7 @@ code
 Relocation
 :
 :
-EXTERNAL
+HARDCODED
 )
 ;
 return

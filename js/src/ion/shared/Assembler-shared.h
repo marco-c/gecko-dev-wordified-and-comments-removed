@@ -194,8 +194,8 @@ public
 enum
 Kind
 {
-EXTERNAL
-CODE
+HARDCODED
+IONCODE
 }
 ;
 }

@@ -1426,7 +1426,7 @@ raw
 Relocation
 :
 :
-CODE
+IONCODE
 )
 ;
 }
@@ -1486,7 +1486,7 @@ code
 Relocation
 :
 :
-EXTERNAL
+HARDCODED
 )
 ;
 }
@@ -1565,7 +1565,7 @@ code
 Relocation
 :
 :
-EXTERNAL
+HARDCODED
 )
 ;
 }
