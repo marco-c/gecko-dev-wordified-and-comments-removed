@@ -6155,6 +6155,16 @@ Intl
 js
 \
 (
+srcdir
+)
+/
+builtin
+/
+IntlData
+.
+js
+\
+(
 NULL
 )
 selfhosted_out_h_deps
