@@ -330,6 +330,11 @@ struct
 JSStructuredCloneCallbacks
 JSStructuredCloneCallbacks
 ;
+typedef
+struct
+JSPropertyName
+JSPropertyName
+;
 #
 ifdef
 __cplusplus
