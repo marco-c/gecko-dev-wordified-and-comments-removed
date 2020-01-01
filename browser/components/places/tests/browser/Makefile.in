@@ -447,6 +447,10 @@ mk
 _BROWSER_TEST_FILES
 =
 \
+browser_0_library_left_pane_migration
+.
+js
+\
 browser_425884
 .
 js
