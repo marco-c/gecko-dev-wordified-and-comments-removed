@@ -11266,7 +11266,7 @@ GetAtomId
 JSContext
 *
 cx
-HandleScript
+UnrootedScript
 script
 const
 jsbytecode
@@ -11313,7 +11313,7 @@ UseNewType
 JSContext
 *
 cx
-HandleScript
+UnrootedScript
 script
 jsbytecode
 *

@@ -5046,8 +5046,7 @@ const
 CallArgs
 &
 args
-JSFunction
-&
+HandleFunction
 callee
 HandleScript
 script
@@ -5072,8 +5071,7 @@ const
 CallArgs
 &
 args
-JSFunction
-&
+HandleFunction
 callee
 HandleScript
 script

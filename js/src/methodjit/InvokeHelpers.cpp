@@ -1771,7 +1771,6 @@ pushInlineFrame
 cx
 regs
 args
-*
 newfun
 newscript
 initial

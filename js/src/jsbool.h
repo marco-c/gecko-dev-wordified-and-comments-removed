@@ -55,8 +55,7 @@ BooleanGetPrimitiveValue
 JSContext
 *
 cx
-JSObject
-&
+HandleObject
 obj
 Value
 *

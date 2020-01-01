@@ -12948,7 +12948,6 @@ pushInlineFrame
 cx
 regs
 args
-*
 fun
 funScript
 initial

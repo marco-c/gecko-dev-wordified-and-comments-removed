@@ -1121,7 +1121,6 @@ pushInlineFrame
 cx
 regs
 inlineArgs
-*
 fun
 script
 flags

@@ -57,8 +57,7 @@ BooleanGetPrimitiveValueSlow
 (
 JSContext
 *
-JSObject
-&
+HandleObject
 Value
 *
 )
@@ -70,8 +69,7 @@ BooleanGetPrimitiveValue
 JSContext
 *
 cx
-JSObject
-&
+HandleObject
 obj
 Value
 *
@@ -81,7 +79,8 @@ vp
 if
 (
 obj
-.
+-
+>
 isBoolean
 (
 )
@@ -93,7 +92,8 @@ vp
 BooleanValue
 (
 obj
-.
+-
+>
 asBoolean
 (
 )

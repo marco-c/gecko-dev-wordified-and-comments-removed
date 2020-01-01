@@ -274,8 +274,11 @@ TypeScript
 GetPcScript
 (
 cx
-&
 script
+.
+address
+(
+)
 &
 pc
 )

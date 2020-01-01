@@ -3168,7 +3168,7 @@ UseNewType
 JSContext
 *
 cx
-HandleScript
+UnrootedScript
 script
 jsbytecode
 *
@@ -3476,7 +3476,9 @@ GetPcScript
 JSContext
 *
 cx
-MutableHandleScript
+JSScript
+*
+*
 script
 jsbytecode
 *
