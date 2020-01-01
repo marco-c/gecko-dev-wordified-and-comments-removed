@@ -577,10 +577,6 @@ DOMCI_CLASS
 (
 DOMStringList
 )
-DOMCI_CLASS
-(
-NameList
-)
 #
 ifdef
 MOZ_XUL
