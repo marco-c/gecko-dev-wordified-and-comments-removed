@@ -1833,6 +1833,9 @@ CancelableTask
 *
 mTapHoldTimer
 ;
+bool
+mAppPackageFileDescriptorRecved
+;
 nsAutoTArray
 <
 nsAutoPtr
