@@ -43,6 +43,15 @@ waitable_event
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 base
 {
@@ -111,6 +120,7 @@ flag_
 ;
 class
 AsyncWaiter
+MOZ_FINAL
 :
 public
 WaitableEvent
