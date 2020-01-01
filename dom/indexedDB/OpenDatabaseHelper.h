@@ -208,6 +208,11 @@ DispatchErrorEvent
 (
 )
 ;
+void
+ReleaseMainThreadObjects
+(
+)
+;
 nsresult
 DoDatabaseWork
 (

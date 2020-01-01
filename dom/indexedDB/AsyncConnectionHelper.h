@@ -118,6 +118,12 @@ aRequest
 )
 {
 }
+virtual
+~
+HelperBase
+(
+)
+;
 nsresult
 WrapNative
 (
@@ -130,6 +136,12 @@ aNative
 jsval
 *
 aResult
+)
+;
+virtual
+void
+ReleaseMainThreadObjects
+(
 )
 ;
 nsRefPtr
