@@ -2934,7 +2934,7 @@ woffDirEntry
 *
 dirEntry
 ;
-uint32_t
+uint64_t
 tableTotal
 =
 0
@@ -3085,7 +3085,7 @@ numTables
 i
 )
 {
-uint32_t
+uint64_t
 offs
 =
 READ32BE
@@ -3096,7 +3096,7 @@ dirEntry
 offset
 )
 ;
-uint32_t
+uint64_t
 orig
 =
 READ32BE
@@ -3107,7 +3107,7 @@ dirEntry
 origLen
 )
 ;
-uint32_t
+uint64_t
 comp
 =
 READ32BE
@@ -3152,13 +3152,16 @@ orig
 ~
 3
 ;
+tableTotal
++
+=
+orig
+;
 if
 (
 tableTotal
 >
 0xffffffffU
--
-orig
 )
 {
 return
