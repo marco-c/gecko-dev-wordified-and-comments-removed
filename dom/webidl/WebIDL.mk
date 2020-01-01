@@ -535,6 +535,10 @@ SVGPreserveAspectRatio
 .
 webidl
 \
+SVGRectElement
+.
+webidl
+\
 SVGScriptElement
 .
 webidl

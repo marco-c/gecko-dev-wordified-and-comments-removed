@@ -293,10 +293,6 @@ nsSVGRect
 .
 cpp
 \
-nsSVGRectElement
-.
-cpp
-\
 nsSVGSVGElement
 .
 cpp
@@ -418,6 +414,10 @@ SVGPointList
 cpp
 \
 SVGPreserveAspectRatio
+.
+cpp
+\
+SVGRectElement
 .
 cpp
 \
@@ -691,6 +691,10 @@ SVGPolygonElement
 h
 \
 SVGPolylineElement
+.
+h
+\
+SVGRectElement
 .
 h
 \
