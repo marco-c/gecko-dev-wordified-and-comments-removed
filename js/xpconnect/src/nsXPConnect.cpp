@@ -10292,7 +10292,10 @@ obj
 )
 ;
 }
+NS_EXPORT_
+(
 bool
+)
 Base64Encode
 (
 JSContext
@@ -10432,7 +10435,10 @@ return
 true
 ;
 }
+NS_EXPORT_
+(
 bool
+)
 Base64Decode
 (
 JSContext
