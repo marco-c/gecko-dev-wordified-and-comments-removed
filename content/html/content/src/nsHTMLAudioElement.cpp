@@ -291,7 +291,6 @@ nodeInfo
 forget
 (
 )
-aFromParser
 )
 ;
 }
@@ -344,14 +343,11 @@ already_AddRefed
 nsINodeInfo
 >
 aNodeInfo
-FromParser
-aFromParser
 )
 :
 nsHTMLMediaElement
 (
 aNodeInfo
-aFromParser
 )
 {
 }

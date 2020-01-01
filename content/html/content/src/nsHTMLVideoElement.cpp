@@ -180,7 +180,7 @@ mozilla
 :
 dom
 ;
-NS_IMPL_NS_NEW_HTML_ELEMENT_CHECK_PARSER
+NS_IMPL_NS_NEW_HTML_ELEMENT
 (
 Video
 )
@@ -308,14 +308,11 @@ already_AddRefed
 nsINodeInfo
 >
 aNodeInfo
-FromParser
-aFromParser
 )
 :
 nsHTMLMediaElement
 (
 aNodeInfo
-aFromParser
 )
 {
 }
