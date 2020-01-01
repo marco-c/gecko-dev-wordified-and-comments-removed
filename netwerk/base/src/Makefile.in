@@ -462,6 +462,10 @@ nsBufferedStreams
 .
 cpp
 \
+nsChannelClassifier
+.
+cpp
+\
 nsDirectoryIndexStream
 .
 cpp

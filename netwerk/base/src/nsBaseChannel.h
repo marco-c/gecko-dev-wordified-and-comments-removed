@@ -513,6 +513,11 @@ nsIChannel
 newChannel
 )
 ;
+void
+ClassifyURI
+(
+)
+;
 class
 RedirectRunnable
 :
