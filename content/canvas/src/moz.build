@@ -230,6 +230,16 @@ WebGLContextValidate
 cpp
 '
 '
+WebGLContextFramebufferOperations
+.
+cpp
+'
+'
+WebGLContextVertexArray
+.
+cpp
+'
+'
 WebGLElementArrayCache
 .
 cpp
