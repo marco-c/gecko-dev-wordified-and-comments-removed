@@ -1722,7 +1722,7 @@ xbl
 /
 builtin
 /
-gtk2
+mac
 /
 Makefile
 content
@@ -1731,7 +1731,7 @@ xbl
 /
 builtin
 /
-mac
+unix
 /
 Makefile
 content
