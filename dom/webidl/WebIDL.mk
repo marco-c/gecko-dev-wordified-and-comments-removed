@@ -119,6 +119,10 @@ CanvasRenderingContext2D
 .
 webidl
 \
+CaretPosition
+.
+webidl
+\
 ClientRectList
 .
 webidl

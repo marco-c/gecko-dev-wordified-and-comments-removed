@@ -2222,6 +2222,14 @@ test_bug647518
 .
 html
 \
+test_bug654352
+.
+html
+\
+Ahem
+.
+ttf
+\
 test_bug664916
 .
 html
