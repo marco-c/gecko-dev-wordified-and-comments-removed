@@ -24,9 +24,6 @@ class
 nsIWidget
 ;
 class
-nsIFocusController
-;
-class
 nsTextStateManager
 ;
 class

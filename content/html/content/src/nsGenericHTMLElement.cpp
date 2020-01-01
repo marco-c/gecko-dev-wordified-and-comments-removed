@@ -488,13 +488,6 @@ mozAutoDocUpdate
 .
 h
 "
-#
-include
-"
-nsIFocusController
-.
-h
-"
 class
 nsINodeInfo
 ;

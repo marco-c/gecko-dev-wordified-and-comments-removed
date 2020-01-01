@@ -2028,6 +2028,12 @@ fc
 >
 GetControllers
 (
+mDocument
+-
+>
+GetWindow
+(
+)
 aResult
 )
 ;
@@ -2068,6 +2074,12 @@ fc
 >
 GetControllerForCommand
 (
+mDocument
+-
+>
+GetWindow
+(
+)
 aCommand
 _retval
 )

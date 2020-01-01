@@ -118,9 +118,6 @@ class
 nsIDocShellTreeItem
 ;
 class
-nsIFocusController
-;
-class
 imgIContainer
 ;
 class

@@ -57,13 +57,6 @@ h
 #
 include
 "
-nsIFocusController
-.
-h
-"
-#
-include
-"
 nsContentList
 .
 h
