@@ -2310,14 +2310,6 @@ lastModified4
 lastModified4
 )
 ;
-do_check_true
-(
-lastModified4
->
-=
-lastModified3
-)
-;
 do_check_eq
 (
 annoObserver
