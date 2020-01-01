@@ -497,6 +497,11 @@ get_modules_under
 uri
 )
 ;
+ignoreReportedErrors
+(
+true
+)
+;
 for
 each
 (
@@ -538,6 +543,11 @@ e
 {
 }
 }
+ignoreReportedErrors
+(
+false
+)
+;
 }
 function
 resolveResource
