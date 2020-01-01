@@ -531,6 +531,13 @@ m
 (
 NULL
 )
+ifeq
+(
+(
+HOST_OS_ARCH
+)
+Darwin
+)
 HOST_CPPSRCS
 =
 (
@@ -546,6 +553,7 @@ mm
 (
 NULL
 )
+endif
 #
 need
 static
