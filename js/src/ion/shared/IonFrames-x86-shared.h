@@ -951,6 +951,8 @@ argc_
 class
 IonOOLNativeGetterExitFrameLayout
 {
+protected
+:
 IonExitFooterFrame
 footer_
 ;
@@ -1034,6 +1036,8 @@ return
 class
 IonOOLPropertyOpExitFrameLayout
 {
+protected
+:
 IonExitFooterFrame
 footer_
 ;
