@@ -146,8 +146,6 @@ apply
 /
 interface
 MediaStream
-:
-EventTarget
 {
 /
 /
