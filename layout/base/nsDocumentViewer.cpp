@@ -10054,9 +10054,7 @@ GetFullZoom
 (
 )
 :
-1
-.
-0f
+mPageZoom
 ;
 return
 NS_OK
