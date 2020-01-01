@@ -4116,10 +4116,7 @@ MDDEPDIR
 )
 /
 (
-basename
-(
 F
-)
 )
 .
 pp
@@ -4167,10 +4164,7 @@ MDDEPDIR
 )
 /
 (
-basename
-(
 F
-)
 )
 .
 pp

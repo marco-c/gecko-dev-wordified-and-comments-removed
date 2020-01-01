@@ -1700,10 +1700,6 @@ MDDEPDIR
 (
 OBJS
 :
-.
-(
-OBJ_SUFFIX
-)
 =
 .
 pp
