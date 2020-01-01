@@ -1143,6 +1143,16 @@ bool
 isForBrowser
 )
 ;
+sync
+GetXPCOMProcessAttributes
+(
+)
+returns
+(
+bool
+isOffline
+)
+;
 PAudio
 (
 int32_t
