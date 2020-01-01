@@ -394,12 +394,6 @@ no
 resize
 .
 html
-random
--
-if
-(
-gtk2Widget
-)
 !
 =
 textarea
@@ -414,9 +408,6 @@ no
 resize
 .
 html
-#
-bug
-558201
 =
 =
 textarea
