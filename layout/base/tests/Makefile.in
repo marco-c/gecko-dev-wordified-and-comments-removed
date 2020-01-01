@@ -94,10 +94,6 @@ preserve3d_sorting_hit_testing_iframe
 .
 html
 \
-test_image_layers
-.
-html
-\
 image_rgrg
 -
 256x256
