@@ -58024,6 +58024,10 @@ GLContextProvider
 MOZ_GL_PROVIDER
 )
 fi
+AC_SUBST
+(
+MOZ_GL_DEFAULT_PROVIDER
+)
 dnl
 =
 =
