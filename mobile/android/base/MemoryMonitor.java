@@ -696,11 +696,11 @@ MEMORY_PRESSURE_MEDIUM
 {
 if
 (
-GeckoApp
+GeckoThread
 .
 checkLaunchState
 (
-GeckoApp
+GeckoThread
 .
 LaunchState
 .
@@ -918,11 +918,11 @@ run
 if
 (
 !
-GeckoApp
+GeckoThread
 .
 checkLaunchState
 (
-GeckoApp
+GeckoThread
 .
 LaunchState
 .

@@ -195,11 +195,11 @@ activity
 {
 if
 (
-GeckoApp
+GeckoThread
 .
 checkLaunchState
 (
-GeckoApp
+GeckoThread
 .
 LaunchState
 .

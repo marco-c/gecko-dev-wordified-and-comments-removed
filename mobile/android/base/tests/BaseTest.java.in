@@ -365,7 +365,7 @@ mozilla
 .
 gecko
 .
-GeckoApp
+GeckoThread
 "
 )
 ;
@@ -383,7 +383,7 @@ mozilla
 .
 gecko
 .
-GeckoApp
+GeckoThread
 LaunchState
 "
 )

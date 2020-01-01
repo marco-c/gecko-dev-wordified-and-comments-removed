@@ -3369,11 +3369,11 @@ e
 {
 if
 (
-GeckoApp
+GeckoThread
 .
 checkLaunchState
 (
-GeckoApp
+GeckoThread
 .
 LaunchState
 .
@@ -4427,11 +4427,11 @@ onXreExit
 (
 )
 {
-GeckoApp
+GeckoThread
 .
 setLaunchState
 (
-GeckoApp
+GeckoThread
 .
 LaunchState
 .

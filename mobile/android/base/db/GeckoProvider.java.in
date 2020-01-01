@@ -127,7 +127,7 @@ mozilla
 .
 gecko
 .
-GeckoApp
+GeckoAppShell
 ;
 import
 org
@@ -136,7 +136,7 @@ mozilla
 .
 gecko
 .
-GeckoAppShell
+GeckoEvent
 ;
 import
 org
@@ -154,7 +154,7 @@ mozilla
 .
 gecko
 .
-GeckoEvent
+GeckoThread
 ;
 import
 org
@@ -837,11 +837,11 @@ us
 if
 (
 !
-GeckoApp
+GeckoThread
 .
 checkLaunchState
 (
-GeckoApp
+GeckoThread
 .
 LaunchState
 .
