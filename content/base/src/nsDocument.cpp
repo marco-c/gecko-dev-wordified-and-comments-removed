@@ -578,6 +578,13 @@ h
 #
 include
 "
+nsCharsetSource
+.
+h
+"
+#
+include
+"
 nsIParser
 .
 h

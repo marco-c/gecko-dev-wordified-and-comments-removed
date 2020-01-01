@@ -22,6 +22,13 @@ h
 #
 include
 "
+nsCharsetSource
+.
+h
+"
+#
+include
+"
 nsIRDFContentSink
 .
 h

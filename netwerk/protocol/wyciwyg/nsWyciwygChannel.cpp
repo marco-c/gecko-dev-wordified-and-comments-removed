@@ -64,7 +64,7 @@ h
 #
 include
 "
-nsIParser
+nsCharsetSource
 .
 h
 "

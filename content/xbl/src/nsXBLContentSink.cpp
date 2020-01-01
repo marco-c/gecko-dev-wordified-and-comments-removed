@@ -38,13 +38,6 @@ h
 #
 include
 "
-nsIParser
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h
