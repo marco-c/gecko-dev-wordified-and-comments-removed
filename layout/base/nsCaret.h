@@ -333,9 +333,6 @@ mBidiIndicatorSize
 nscoord
 mCaretWidth
 ;
-PRUint32
-mAppPerDev
-;
 }
 ;
 Metrics
