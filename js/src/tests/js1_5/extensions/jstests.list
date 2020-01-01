@@ -1108,9 +1108,6 @@ OS
 "
 WINNT
 "
-&
-&
-isDebugBuild
 )
 script
 regress
