@@ -3598,7 +3598,6 @@ numStr
 }
 JSString
 *
-JS_FASTCALL
 js_NumberToString
 (
 JSContext
