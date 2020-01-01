@@ -31,6 +31,16 @@ XErrorEvent
 ev
 )
 {
+if
+(
+!
+sXErrorPtr
+-
+>
+mError
+.
+error_code
+)
 sXErrorPtr
 -
 >
