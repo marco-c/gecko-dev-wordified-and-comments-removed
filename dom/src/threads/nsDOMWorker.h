@@ -157,6 +157,10 @@ class
 nsDOMWorkerXHR
 ;
 friend
+class
+nsReportErrorRunnable
+;
+friend
 JSBool
 DOMWorkerOperationCallback
 (

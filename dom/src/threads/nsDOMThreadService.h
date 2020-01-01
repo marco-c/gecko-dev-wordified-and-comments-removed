@@ -165,6 +165,10 @@ class
 nsLayoutStatics
 ;
 friend
+class
+nsReportErrorRunnable
+;
+friend
 void
 DOMWorkerErrorReporter
 (
