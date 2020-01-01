@@ -431,11 +431,6 @@ PlaybackEnded
 )
 ;
 void
-BufferingStopped
-(
-)
-;
-void
 SeekingStopped
 (
 )
@@ -450,6 +445,11 @@ PlaybackPositionChanged
 (
 )
 ;
+void
+UpdateReadyStateForData
+(
+)
+;
 private
 :
 void
@@ -459,11 +459,6 @@ RegisterShutdownObserver
 ;
 void
 UnregisterShutdownObserver
-(
-)
-;
-void
-UpdateReadyStateForData
 (
 )
 ;
