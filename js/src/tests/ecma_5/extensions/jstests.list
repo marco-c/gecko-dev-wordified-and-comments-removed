@@ -17,6 +17,12 @@ ecma_5
 /
 extensions
 /
+fails
+-
+if
+(
+Android
+)
 script
 8
 .

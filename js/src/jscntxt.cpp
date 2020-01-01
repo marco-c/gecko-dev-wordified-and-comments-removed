@@ -9771,6 +9771,11 @@ blacklist
 =
 {
 "
+SCH
+-
+I400
+"
+"
 SGH
 -
 T959
