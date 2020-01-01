@@ -1514,6 +1514,9 @@ aToSave
 nsresult
 CheckXPCPermissions
 (
+JSContext
+*
+cx
 nsISupports
 *
 aObj

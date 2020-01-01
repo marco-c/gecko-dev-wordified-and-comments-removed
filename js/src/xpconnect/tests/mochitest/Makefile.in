@@ -504,6 +504,10 @@ test_bug500691
 .
 html
 \
+test_bug502959
+.
+html
+\
 test_bug503926
 .
 html
