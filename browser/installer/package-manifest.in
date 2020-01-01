@@ -3197,9 +3197,6 @@ PeerConnection
 manifest
 #
 endif
-#
-ifdef
-ENABLE_MARIONETTE
 BINPATH
 /
 chrome
@@ -3227,8 +3224,6 @@ components
 marionettecomponent
 .
 js
-#
-endif
 #
 ifdef
 MOZ_WEBSPEECH
