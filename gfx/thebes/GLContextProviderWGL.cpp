@@ -2718,12 +2718,6 @@ return
 nsnull
 ;
 }
-ContextFormat
-actualFormat
-(
-aFormat
-)
-;
 nsRefPtr
 <
 GLContextWGL
@@ -2781,7 +2775,7 @@ glContext
 CreatePBufferOffscreenContext
 (
 aSize
-actualFormat
+aFormat
 )
 ;
 }
@@ -2795,7 +2789,7 @@ glContext
 =
 CreateWindowOffscreenContext
 (
-actualFormat
+aFormat
 )
 ;
 }
