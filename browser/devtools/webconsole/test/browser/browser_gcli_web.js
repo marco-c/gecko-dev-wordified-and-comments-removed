@@ -61,7 +61,7 @@ define
 '
 gclitest
 /
-index
+suite
 '
 [
 '
@@ -10253,7 +10253,7 @@ modules
 '
 gclitest
 /
-index
+suite
 '
 ]
 ;
@@ -10375,7 +10375,7 @@ modules
 '
 gclitest
 /
-index
+suite
 '
 ]
 ;

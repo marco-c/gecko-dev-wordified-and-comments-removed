@@ -868,11 +868,15 @@ browser_webconsole_bug_664131_console_group
 .
 js
 \
-browser_gcli_require
+browser_gcli_inspect
 .
 js
 \
 browser_gcli_integrate
+.
+js
+\
+browser_gcli_require
 .
 js
 \
@@ -1603,6 +1607,10 @@ file
 location
 .
 js
+\
+browser_gcli_inspect
+.
+html
 \
 (
 NULL
