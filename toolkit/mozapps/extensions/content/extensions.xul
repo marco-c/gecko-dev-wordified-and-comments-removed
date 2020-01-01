@@ -3454,6 +3454,11 @@ command
 "
 cmd_continue
 "
+hidden
+=
+"
+true
+"
 /
 >
 <
@@ -3616,6 +3621,11 @@ command
 =
 "
 cmd_continue
+"
+hidden
+=
+"
+true
 "
 /
 >
