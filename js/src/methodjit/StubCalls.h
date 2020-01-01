@@ -515,6 +515,17 @@ VMFrame
 f
 )
 ;
+void
+JS_FASTCALL
+Iter
+(
+VMFrame
+&
+f
+uint32
+flags
+)
+;
 JSBool
 JS_FASTCALL
 ValueToBoolean
