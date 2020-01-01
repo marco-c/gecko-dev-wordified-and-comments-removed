@@ -315,6 +315,10 @@ HTMLAreaElement
 .
 webidl
 \
+HTMLAudioElement
+.
+webidl
+\
 HTMLBaseElement
 .
 webidl
