@@ -823,7 +823,7 @@ label
 =
 "
 &
-addDevice
+pairDevice
 .
 title
 .
@@ -844,7 +844,7 @@ onPageShow
 description
 >
 &
-addDevice
+pairDevice
 .
 dialog
 .
@@ -2248,7 +2248,7 @@ label
 =
 "
 &
-addDevice
+pairDevice
 .
 title
 .
@@ -2278,7 +2278,7 @@ onPageShow
 description
 >
 &
-addDevice
+pairDevice
 .
 setup
 .
