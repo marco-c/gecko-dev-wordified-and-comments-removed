@@ -17,6 +17,13 @@ STACK_SLOT_SIZE
 =
 8
 ;
+static
+const
+uint32
+MAX_STACK_SLOTS
+=
+256
+;
 class
 RegisterCodes
 {
