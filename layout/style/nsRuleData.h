@@ -256,9 +256,6 @@ aProperty
 }
 #
 define
-CSS_PROP_INCLUDE_NOT_CSS
-#
-define
 CSS_PROP_DOMPROP_PREFIXED
 (
 prop_
@@ -498,9 +495,6 @@ nsCSSPropList
 .
 h
 "
-#
-undef
-CSS_PROP_INCLUDE_NOT_CSS
 #
 undef
 CSS_PROP

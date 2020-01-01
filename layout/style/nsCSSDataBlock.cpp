@@ -1450,6 +1450,14 @@ datastruct_
 member_
 )
 #
+define
+CSS_PROP_STUB_NOT_CSS
+size_t
+(
+-
+1
+)
+#
 include
 "
 nsCSSPropList
@@ -1459,6 +1467,9 @@ h
 #
 undef
 CSS_PROP
+#
+undef
+CSS_PROP_STUB_NOT_CSS
 }
 ;
 void

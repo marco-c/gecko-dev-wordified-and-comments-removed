@@ -6547,9 +6547,6 @@ aResult
 }
 #
 define
-CSS_PROP_INCLUDE_NOT_CSS
-#
-define
 CHECK_DATA_FOR_PROPERTY
 (
 name_
@@ -7129,9 +7126,6 @@ undef
 CSS_PROP_COLUMN
 }
 ;
-#
-undef
-CSS_PROP_INCLUDE_NOT_CSS
 #
 undef
 CHECK_DATA_FOR_PROPERTY
