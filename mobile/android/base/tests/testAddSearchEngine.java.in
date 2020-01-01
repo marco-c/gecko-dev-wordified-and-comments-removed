@@ -1240,8 +1240,11 @@ views
 =
 mSolo
 .
-getCurrentListViews
+getCurrentViews
 (
+ListView
+.
+class
 )
 ;
 for

@@ -801,8 +801,11 @@ listView
 :
 mSolo
 .
-getCurrentListViews
+getCurrentViews
 (
+ListView
+.
+class
 )
 )
 {
