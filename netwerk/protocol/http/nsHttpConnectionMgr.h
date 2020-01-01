@@ -268,6 +268,10 @@ nsHttpConnectionInfo
 *
 nsIInterfaceRequestor
 *
+uint32_t
+caps
+=
+0
 )
 ;
 nsresult

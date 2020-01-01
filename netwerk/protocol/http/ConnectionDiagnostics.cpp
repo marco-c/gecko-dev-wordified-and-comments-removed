@@ -1103,7 +1103,7 @@ npncomplete
 =
 %
 d
-setupNPNCalled
+setupSSLCalled
 =
 %
 d
@@ -1111,7 +1111,7 @@ d
 n
 "
 mNPNComplete
-mSetupNPNCalled
+mSetupSSLCalled
 )
 ;
 log

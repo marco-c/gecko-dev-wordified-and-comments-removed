@@ -557,6 +557,18 @@ nsCString
 log
 )
 ;
+void
+SetTransactionCaps
+(
+uint32_t
+aCaps
+)
+{
+mTransactionCaps
+=
+aCaps
+;
+}
 private
 :
 nsresult
@@ -609,7 +621,7 @@ EnsureNPNComplete
 )
 ;
 void
-SetupNPN
+SetupSSL
 (
 uint32_t
 caps
@@ -771,7 +783,7 @@ bool
 mNPNComplete
 ;
 bool
-mSetupNPNCalled
+mSetupSSLCalled
 ;
 uint8_t
 mUsingSpdyVersion
@@ -796,6 +808,9 @@ mReportedSpdy
 ;
 bool
 mEverUsedSpdy
+;
+uint32_t
+mTransactionCaps
 ;
 }
 ;
