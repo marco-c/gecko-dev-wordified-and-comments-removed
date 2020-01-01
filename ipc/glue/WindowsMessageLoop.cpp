@@ -2383,6 +2383,7 @@ msg
 MonitorAutoLock
 lock
 (
+*
 mMonitor
 )
 ;
@@ -2491,7 +2492,8 @@ WaitForNotify
 )
 {
 mMonitor
-.
+-
+>
 AssertCurrentThreadOwns
 (
 )
@@ -2525,6 +2527,7 @@ frame
 MonitorAutoUnlock
 unlock
 (
+*
 mMonitor
 )
 ;
@@ -2649,6 +2652,7 @@ msg
 MonitorAutoLock
 lock
 (
+*
 mMonitor
 )
 ;
@@ -2822,7 +2826,8 @@ WaitForNotify
 )
 {
 mMonitor
-.
+-
+>
 AssertCurrentThreadOwns
 (
 )
@@ -2887,6 +2892,7 @@ frame
 MonitorAutoUnlock
 unlock
 (
+*
 mMonitor
 )
 ;
@@ -3106,6 +3112,7 @@ msg
 MonitorAutoLock
 lock
 (
+*
 mMonitor
 )
 ;
@@ -3284,7 +3291,8 @@ NotifyWorkerThread
 )
 {
 mMonitor
-.
+-
+>
 AssertCurrentThreadOwns
 (
 )
