@@ -2875,6 +2875,88 @@ n
 "
 )
 class
+CGTemplatedType
+(
+CGWrapper
+)
+:
+    
+def
+__init__
+(
+self
+templateName
+child
+isConst
+=
+False
+isReference
+=
+False
+)
+:
+        
+const
+=
+"
+const
+"
+if
+isConst
+else
+"
+"
+        
+pre
+=
+"
+%
+s
+%
+s
+<
+"
+%
+(
+const
+templateName
+)
+        
+ref
+=
+"
+&
+"
+if
+isReference
+else
+"
+"
+        
+post
+=
+"
+>
+%
+s
+"
+%
+ref
+        
+CGWrapper
+.
+__init__
+(
+self
+child
+pre
+=
+pre
+post
+=
+post
+)
+class
 CGNamespace
 (
 CGWrapper
@@ -17639,26 +17721,10 @@ sequences
         
 typeName
 =
-CGWrapper
+CGTemplatedType
 (
-elementDeclType
-                             
-pre
-=
-(
-"
-%
-s
-<
-"
-%
 sequenceClass
-)
-post
-=
-"
->
-"
+elementDeclType
 )
         
 sequenceType
@@ -17675,20 +17741,12 @@ nullable
             
 typeName
 =
-CGWrapper
+CGTemplatedType
 (
-typeName
-pre
-=
 "
 Nullable
-<
 "
-post
-=
-"
->
-"
+typeName
 )
             
 arrayRef
@@ -19574,39 +19632,25 @@ Value
             
 declType
 =
-CGWrapper
+CGTemplatedType
 (
-declType
-pre
-=
 "
-const
 Optional
-<
 "
-post
+declType
+isConst
 =
-"
->
-"
+True
 )
             
 holderType
 =
-CGWrapper
+CGTemplatedType
 (
-holderType
-pre
-=
 "
 Maybe
-<
 "
-post
-=
-"
->
-"
+holderType
 )
             
 constructDecl
@@ -19695,20 +19739,12 @@ nullable
                 
 holderType
 =
-CGWrapper
+CGTemplatedType
 (
-holderType
-pre
-=
 "
 Maybe
-<
 "
-post
-=
-"
->
-"
+holderType
 )
                 
 constructHolder
@@ -24145,20 +24181,12 @@ originalHolderName
             
 mutableHolderType
 =
-CGWrapper
+CGTemplatedType
 (
-holderType
-pre
-=
 "
 Optional
-<
 "
-post
-=
-"
->
-"
+holderType
 )
             
 holderType
@@ -24262,20 +24290,12 @@ originalDeclName
             
 mutableDeclType
 =
-CGWrapper
+CGTemplatedType
 (
-declType
-pre
-=
 "
 Optional
-<
 "
-post
-=
-"
->
-"
+declType
 )
             
 declType
@@ -25272,20 +25292,12 @@ seqType
 "
 ]
 =
-CGWrapper
+CGTemplatedType
 (
-elementDeclType
-pre
-=
 "
 AutoSequence
-<
 "
-post
-=
-"
->
-"
+elementDeclType
 )
 .
 define
@@ -28381,20 +28393,12 @@ nullable
             
 result
 =
-CGWrapper
+CGTemplatedType
 (
-result
-pre
-=
 "
 Nullable
-<
 "
-post
-=
-"
->
-"
+result
 )
         
 return
@@ -28515,20 +28519,12 @@ resultAlreadyAddRefed
             
 result
 =
-CGWrapper
+CGTemplatedType
 (
-result
-pre
-=
 "
 nsRefPtr
-<
 "
-post
-=
-"
->
-"
+result
 )
         
 else
@@ -28693,20 +28689,12 @@ True
         
 result
 =
-CGWrapper
+CGTemplatedType
 (
-result
-pre
-=
 "
 nsTArray
-<
 "
-post
-=
-"
->
-"
+result
 )
         
 if
@@ -28715,20 +28703,12 @@ nullable
             
 result
 =
-CGWrapper
+CGTemplatedType
 (
-result
-pre
-=
 "
 Nullable
-<
 "
-post
-=
-"
->
-"
+result
 )
         
 return
@@ -28785,20 +28765,12 @@ nullable
             
 result
 =
-CGWrapper
+CGTemplatedType
 (
-result
-pre
-=
 "
 Nullable
-<
 "
-post
-=
-"
->
-"
+result
 )
         
 return
@@ -37707,21 +37679,15 @@ True
         
 typeName
 =
-CGWrapper
+CGTemplatedType
 (
-elementDeclType
-pre
-=
 "
 Sequence
-<
 "
-post
+elementDeclType
+isReference
 =
-"
->
-&
-"
+True
 )
         
 if
@@ -37730,21 +37696,15 @@ nullable
             
 typeName
 =
-CGWrapper
+CGTemplatedType
 (
-typeName
-pre
-=
 "
 Nullable
-<
 "
-post
+typeName
+isReference
 =
-"
->
-&
-"
+True
 )
         
 return
@@ -37777,21 +37737,15 @@ nullable
             
 typeName
 =
-CGWrapper
+CGTemplatedType
 (
-typeName
-pre
-=
 "
 Nullable
-<
 "
-post
+typeName
+isReference
 =
-"
->
-&
-"
+True
 )
         
 return
@@ -38219,21 +38173,15 @@ nullable
         
 typeName
 =
-CGWrapper
+CGTemplatedType
 (
-typeName
-pre
-=
 "
 Nullable
-<
 "
-post
+typeName
+isReference
 =
-"
->
-&
-"
+True
 )
     
 return
@@ -53823,20 +53771,12 @@ dealWithOptional
             
 declType
 =
-CGWrapper
+CGTemplatedType
 (
-declType
-pre
-=
 "
 Optional
-<
 "
-post
-=
-"
->
-"
+declType
 )
         
 return
@@ -57394,20 +57334,12 @@ nullable
                 
 result
 =
-CGWrapper
+CGTemplatedType
 (
-result
-pre
-=
 "
 Nullable
-<
 "
-post
-=
-"
->
-"
+result
 )
                 
 defaultReturnArg
@@ -58313,23 +58245,15 @@ True
             
 type
 =
-CGWrapper
+CGTemplatedType
 (
+"
+nsTArray
+"
 CGGeneric
 (
 elementDecl
 )
-pre
-=
-"
-nsTArray
-<
-"
-post
-=
-"
->
-"
 )
             
 if
@@ -58338,20 +58262,12 @@ nullable
                 
 type
 =
-CGWrapper
+CGTemplatedType
 (
-type
-pre
-=
 "
 Nullable
-<
 "
-post
-=
-"
->
-"
+type
 )
             
 args
@@ -58651,10 +58567,8 @@ type
 .
 inner
             
-decl
+argType
 =
-CGWrapper
-(
 self
 .
 getArgType
@@ -58667,18 +58581,15 @@ True
 [
 0
 ]
-                             
-pre
+            
+decl
 =
+CGTemplatedType
+(
 "
 Sequence
-<
 "
-post
-=
-"
->
-"
+argType
 )
             
 return
@@ -59365,20 +59276,12 @@ nullable
             
 decl
 =
-CGWrapper
+CGTemplatedType
 (
-decl
-pre
-=
 "
 Nullable
-<
 "
-post
-=
-"
->
-"
+decl
 )
             
 ref
@@ -59405,23 +59308,10 @@ nsTArray
             
 decl
 =
-CGWrapper
+CGTemplatedType
 (
-decl
-pre
-=
-"
-%
-s
-<
-"
-%
 arrayType
-post
-=
-"
->
-"
+decl
 )
             
 ref
@@ -59434,20 +59324,12 @@ optional
             
 decl
 =
-CGWrapper
+CGTemplatedType
 (
-decl
-pre
-=
 "
 Optional
-<
 "
-post
-=
-"
->
-"
+decl
 )
             
 ref
