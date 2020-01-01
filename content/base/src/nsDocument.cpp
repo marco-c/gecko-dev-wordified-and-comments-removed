@@ -6027,10 +6027,6 @@ aContentType
 nsIDocument
 (
 )
-mVisible
-(
-PR_TRUE
-)
 {
 mContentType
 =

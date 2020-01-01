@@ -4011,17 +4011,7 @@ mIsGoingAway
 1
 ;
 PRPackedBool
-mRemovedFromDocShell
-:
-1
-;
-PRPackedBool
 mInDestructor
-:
-1
-;
-PRPackedBool
-mVisible
 :
 1
 ;
