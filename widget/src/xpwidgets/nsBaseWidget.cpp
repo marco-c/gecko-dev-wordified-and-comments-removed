@@ -4099,7 +4099,7 @@ _value
 :
 eventName
 .
-AssignWithConversion
+AssignLiteral
 (
 _name
 )
@@ -4484,11 +4484,10 @@ aGuiEvent
 message
 )
 ;
-eventName
-.
-AssignWithConversion
+CopyASCIItoUTF16
 (
 buf
+eventName
 )
 ;
 }
@@ -5080,12 +5079,8 @@ event_dumping
 )
 return
 ;
-nsCAutoString
+NS_LossyConvertUTF16toASCII
 tempString
-;
-tempString
-.
-AssignWithConversion
 (
 debug_GuiEventToString
 (
