@@ -750,15 +750,6 @@ sMutationCount
 =
 0
 ;
-nsresult
-NS_NewContentIterator
-(
-nsIContentIterator
-*
-*
-aInstancePtrResult
-)
-;
 nsINode
 :
 :
