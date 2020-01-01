@@ -653,6 +653,14 @@ Tab
 <
 !
 ENTITY
+contextmenu_remove_bookmark
+"
+Remove
+"
+>
+<
+!
+ENTITY
 contextmenu_add_to_launcher
 "
 Add
