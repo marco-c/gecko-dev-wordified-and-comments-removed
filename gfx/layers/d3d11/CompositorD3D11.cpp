@@ -3364,13 +3364,11 @@ projection
 )
 ;
 }
-const
-nsIntSize
-&
+void
 CompositorD3D11
 :
 :
-GetWidgetSize
+EnsureSize
 (
 )
 {
@@ -3392,9 +3390,6 @@ rect
 Size
 (
 )
-;
-return
-mSize
 ;
 }
 void
