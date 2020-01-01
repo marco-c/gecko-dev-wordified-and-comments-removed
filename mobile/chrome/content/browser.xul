@@ -6544,7 +6544,7 @@ checkbox
 autocheck
 =
 "
-true
+false
 "
 checked
 =
