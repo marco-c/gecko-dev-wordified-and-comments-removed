@@ -7661,10 +7661,13 @@ stubcc
 masm
 )
 ;
+frame
+.
+sync
+(
 stubcc
 .
-syncExit
-(
+masm
 Uses
 (
 2
