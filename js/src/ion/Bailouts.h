@@ -61,7 +61,7 @@ const
 uint32
 BAILOUT_KIND_BITS
 =
-1
+2
 ;
 static
 const
