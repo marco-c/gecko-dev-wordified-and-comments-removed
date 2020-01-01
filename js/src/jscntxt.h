@@ -1650,9 +1650,6 @@ next
 ;
 }
 ;
-#
-define
-JS_PROTO_CACHE_METERING
 struct
 JSClassProtoCache
 {
