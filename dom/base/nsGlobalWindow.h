@@ -775,17 +775,6 @@ NS_HIDDEN_
 (
 void
 )
-SetActive
-(
-PRBool
-aActive
-)
-;
-virtual
-NS_HIDDEN_
-(
-void
-)
 SetChromeEventHandler
 (
 nsPIDOMEventTarget

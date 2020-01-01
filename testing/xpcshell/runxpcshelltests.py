@@ -1480,6 +1480,8 @@ singleFile
 :
       
 if
+self
+.
 singleFile
 in
 [
@@ -1508,6 +1510,8 @@ path
 join
 (
 testdir
+self
+.
 singleFile
 )
 ]
@@ -2635,6 +2639,8 @@ testdir
 )
       
 if
+self
+.
 testPath
 and
 not
@@ -2642,6 +2648,8 @@ testdir
 .
 endswith
 (
+self
+.
 testPath
 )
 :
