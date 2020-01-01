@@ -138,6 +138,12 @@ nsnull
 ;
 }
 virtual
+~
+gfxPlatformFontList
+(
+)
+;
+virtual
 nsresult
 InitFontList
 (
