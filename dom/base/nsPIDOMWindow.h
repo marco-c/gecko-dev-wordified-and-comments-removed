@@ -229,6 +229,7 @@ return
 mIsActive
 ;
 }
+virtual
 void
 SetIsBackground
 (
