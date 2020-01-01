@@ -82,6 +82,9 @@ mk
 MODULE
 =
 xpcom
+FAIL_ON_WARNINGS
+=
+1
 DIRS
 =
 \
