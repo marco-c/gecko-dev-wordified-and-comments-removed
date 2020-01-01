@@ -302,6 +302,10 @@ mIMECompositionEnding
 (
 PR_FALSE
 )
+mIMESeqno
+(
+0
+)
 mDPI
 (
 0
