@@ -9269,6 +9269,11 @@ state
 STATE_UNENTERED
 ;
 }
+void
+leave
+(
+)
+;
 ~
 JSAutoEnterCompartment
 (
