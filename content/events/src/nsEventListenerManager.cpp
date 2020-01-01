@@ -4726,10 +4726,11 @@ aPusher
 aEvent
 -
 >
-flags
-|
+mFlags
+.
+mExceptionHasBeenRisen
 =
-NS_EVENT_FLAG_EXCEPTION_THROWN
+true
 ;
 }
 }

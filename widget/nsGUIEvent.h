@@ -274,10 +274,6 @@ NS_PRIV_EVENT_UNTRUSTED_PERMITTED
 0x8000
 #
 define
-NS_EVENT_FLAG_EXCEPTION_THROWN
-0x10000
-#
-define
 NS_EVENT_RETARGET_TO_NON_NATIVE_ANONYMOUS
 0x40000
 #
@@ -1888,6 +1884,11 @@ mDispatchedAtLeastOnce
 ;
 bool
 mIsSynthesizedForTests
+:
+1
+;
+bool
+mExceptionHasBeenRisen
 :
 1
 ;
