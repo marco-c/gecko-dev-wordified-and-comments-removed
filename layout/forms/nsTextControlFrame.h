@@ -581,12 +581,6 @@ aPhonetic
 )
 ;
 virtual
-nsresult
-EnsureEditorInitialized
-(
-)
-;
-virtual
 nsIAtom
 *
 GetType
@@ -798,7 +792,7 @@ PR_TRUE
 mFrame
 -
 >
-EnsureEditorInitialized
+DelayedEditorInit
 (
 )
 ;
@@ -825,6 +819,11 @@ nsTextControlFrame
 mFrame
 ;
 }
+;
+void
+DelayedEditorInit
+(
+)
 ;
 nsresult
 DOMPointToOffset
@@ -858,6 +857,11 @@ IsScrollable
 (
 )
 const
+;
+nsresult
+InitEditor
+(
+)
 ;
 void
 RemoveNewlines
