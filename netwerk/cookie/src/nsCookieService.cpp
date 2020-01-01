@@ -2838,6 +2838,11 @@ RemoveAllFromMemory
 ;
 if
 (
+mDBConn
+)
+{
+if
+(
 !
 nsCRT
 :
@@ -2858,9 +2863,6 @@ get
 (
 )
 )
-&
-&
-mDBConn
 )
 {
 nsresult
@@ -2909,6 +2911,7 @@ mDBConn
 =
 nsnull
 ;
+}
 }
 else
 if
