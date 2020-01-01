@@ -2361,6 +2361,8 @@ unwrap
 aObject
 )
 {
+try
+{
 return
 XPCNativeWrapper
 .
@@ -2369,6 +2371,16 @@ unwrap
 aObject
 )
 ;
+}
+catch
+(
+e
+)
+{
+return
+aObject
+;
+}
 }
 function
 NetworkPanel
