@@ -204,6 +204,13 @@ body
 )
 ACCESSIBILITY_ATOM
 (
+caption
+"
+caption
+"
+)
+ACCESSIBILITY_ATOM
+(
 choices
 "
 choices

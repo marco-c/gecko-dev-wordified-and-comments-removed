@@ -85,6 +85,17 @@ return
 NS_OK
 ;
 }
+NS_IMETHOD
+GetAccessibleRelated
+(
+PRUint32
+aRelationType
+nsIAccessible
+*
+*
+aRelated
+)
+;
 }
 ;
 class
