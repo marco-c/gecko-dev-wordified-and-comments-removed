@@ -43,7 +43,7 @@ const
 int
 kVersion
 =
-2
+6
 ;
 struct
 CIDEntry
