@@ -9891,6 +9891,13 @@ obj
 jsdouble
 msec_time
 ;
+JS_ASSERT
+(
+mon
+<
+12
+)
+;
 msec_time
 =
 date_msecFromDate
@@ -10347,6 +10354,13 @@ month
 {
 jsdouble
 local
+;
+JS_ASSERT
+(
+month
+<
+12
+)
 ;
 if
 (

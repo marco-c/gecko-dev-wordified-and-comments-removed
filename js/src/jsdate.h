@@ -198,7 +198,7 @@ JSObject
 *
 obj
 int
-year
+month
 )
 ;
 extern
