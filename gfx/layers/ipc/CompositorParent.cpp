@@ -664,6 +664,9 @@ worldTransform
 )
 ;
 #
+if
+0
+#
 ifdef
 MOZ_WIDGET_ANDROID
 gfx3DMatrix
@@ -703,6 +706,8 @@ transform
 transformUserData
 )
 ;
+#
+endif
 #
 endif
 mLayerManager
