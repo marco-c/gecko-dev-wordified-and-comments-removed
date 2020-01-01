@@ -103,10 +103,6 @@ LIBXUL_LIBRARY
 CPPSRCS
 =
 \
-CryptoTask
-.
-cpp
-\
 nsCERTValInParamWrapper
 .
 cpp
@@ -373,10 +369,6 @@ NULL
 EXPORTS
 +
 =
-\
-CryptoTask
-.
-h
 \
 nsNSSShutDown
 .
