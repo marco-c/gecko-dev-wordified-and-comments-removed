@@ -13755,6 +13755,16 @@ mPresContext
 NS_ERROR_FAILURE
 )
 ;
+if
+(
+!
+mDidInitialReflow
+)
+{
+return
+NS_OK
+;
+}
 NS_ASSERTION
 (
 mViewManager
