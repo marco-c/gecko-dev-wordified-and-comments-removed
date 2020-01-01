@@ -184,6 +184,10 @@ AudioChannelService
 .
 h
 \
+AudioChannelServiceChild
+.
+h
+\
 AudioChannelCommon
 .
 h
@@ -192,6 +196,10 @@ CPPSRCS
 =
 \
 AudioChannelService
+.
+cpp
+\
+AudioChannelServiceChild
 .
 cpp
 \

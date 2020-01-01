@@ -431,6 +431,12 @@ child
 ;
 virtual
 bool
+RecvAudioChannelNotify
+(
+)
+;
+virtual
+bool
 RecvDumpMemoryReportsToFile
 (
 const
