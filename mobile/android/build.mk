@@ -553,12 +553,15 @@ ANDROID_SERIAL
 MOZ_ANDROID_INSTALL_TARGET
 )
 endif
-ifeq
+ifneq
 (
 (
 ANDROID_SERIAL
 )
 )
+export
+ANDROID_SERIAL
+else
 #
 Determine
 if
@@ -621,8 +624,6 @@ exit
 1
 endif
 endif
-export
-ANDROID_SERIAL
 install
 :
 :
