@@ -517,6 +517,14 @@ AsyncFaviconHelpers
 .
 cpp
 \
+PlaceInfo
+.
+cpp
+\
+VisitInfo
+.
+cpp
+\
 (
 NULL
 )
