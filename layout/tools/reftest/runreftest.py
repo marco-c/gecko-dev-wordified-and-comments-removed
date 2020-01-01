@@ -887,8 +887,6 @@ options
 app
 profileDir
                                
-extraArgs
-=
 [
 "
 -
@@ -896,17 +894,17 @@ silent
 "
 ]
                                
-symbolsPath
+xrePath
 =
 options
 .
-symbolsPath
+xrePath
                                
-xrePath
+symbolsPath
 =
 options
 .
-xrePath
+symbolsPath
 )
     
 automation
@@ -999,8 +997,6 @@ options
 app
 profileDir
                                
-extraArgs
-=
 [
 "
 -
@@ -1009,17 +1005,17 @@ reftest
 reftestlist
 ]
                                
-symbolsPath
+xrePath
 =
 options
 .
-symbolsPath
+xrePath
                                
-xrePath
+symbolsPath
 =
 options
 .
-xrePath
+symbolsPath
 )
     
 automation
