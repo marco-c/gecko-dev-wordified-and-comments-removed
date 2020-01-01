@@ -42,6 +42,7 @@ OS
 Darwin
 "
 )
+slow
 script
 regress
 -
@@ -50,8 +51,6 @@ regress
 2
 .
 js
-#
-slow
 script
 regress
 -
@@ -123,6 +122,7 @@ xulRuntime
 .
 shell
 )
+slow
 script
 regress
 -
@@ -131,8 +131,6 @@ regress
 01
 .
 js
-#
-slow
 skip
 script
 regress

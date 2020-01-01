@@ -252,6 +252,7 @@ xulRuntime
 .
 shell
 )
+slow
 script
 regress
 -
@@ -260,8 +261,6 @@ regress
 01
 .
 js
-#
-slow
 skip
 -
 if
@@ -271,6 +270,7 @@ xulRuntime
 .
 shell
 )
+slow
 script
 regress
 -
@@ -279,8 +279,6 @@ regress
 02
 .
 js
-#
-slow
 fails
 -
 if
