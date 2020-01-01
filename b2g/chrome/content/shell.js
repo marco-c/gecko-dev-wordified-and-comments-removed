@@ -322,6 +322,11 @@ offline
 -
 app
 '
+'
+content
+-
+camera
+'
 ]
 ;
 urls
