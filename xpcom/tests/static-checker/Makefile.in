@@ -684,6 +684,12 @@ OverrideOK2
 .
 cpp
 \
+OverrideOK3
+-
+NamespaceTypedef
+.
+cpp
+\
 (
 NULL
 )
@@ -715,6 +721,14 @@ OVERRIDE_PASS_TESTCASES
 override
 -
 pass
+.
+cpp
+\
+override
+-
+namespace
+-
+typedef
 .
 cpp
 \
