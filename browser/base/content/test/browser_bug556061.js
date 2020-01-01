@@ -143,6 +143,12 @@ value
 =
 testActionURL
 ;
+gURLBar
+.
+valueIsTyped
+=
+true
+;
 is
 (
 gURLBar
@@ -346,6 +352,12 @@ gURLBar
 value
 =
 testActionURL
+;
+gURLBar
+.
+valueIsTyped
+=
+true
 ;
 is
 (
