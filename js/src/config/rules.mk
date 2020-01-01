@@ -5415,7 +5415,7 @@ endif
 #
 _LIBNAME_RELATIVE_PATHS
 #
-Dependancies
+Dependencies
 which
 if
 modified
@@ -8260,7 +8260,7 @@ endif
 EXPAND_FAKELIBS
 endif
 #
-SHARED_LIBARY_LIBS
+SHARED_LIBRARY_LIBS
 endif
 ifdef
 MOZILLA_PROBE_LIBS
@@ -11060,7 +11060,9 @@ a
 file
 or
 a
-nonexistent
+non
+-
+existent
 path
 we
 cannot
