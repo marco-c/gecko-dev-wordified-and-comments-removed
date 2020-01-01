@@ -3346,9 +3346,7 @@ gWindow
 )
 return
 ;
-Utils
-.
-timeout
+setTimeout
 (
 function
 (
@@ -3393,9 +3391,7 @@ gWindow
 )
 return
 ;
-Utils
-.
-timeout
+setTimeout
 (
 function
 (
@@ -3440,9 +3436,7 @@ gWindow
 )
 return
 ;
-Utils
-.
-timeout
+setTimeout
 (
 function
 (
@@ -4198,9 +4192,7 @@ _tabsWaitingForUpdate
 length
 )
 {
-Utils
-.
-timeout
+setTimeout
 (
 function
 (
@@ -4722,9 +4714,7 @@ showCachedData
 tabData
 )
 ;
-Utils
-.
-timeout
+setTimeout
 (
 function
 (

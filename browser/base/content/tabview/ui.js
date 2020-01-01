@@ -1445,9 +1445,7 @@ showTabView
 )
 ;
 }
-Utils
-.
-timeout
+setTimeout
 (
 function
 (
@@ -1528,9 +1526,7 @@ gWindow
 )
 return
 ;
-Utils
-.
-timeout
+setTimeout
 (
 function
 (
@@ -1691,9 +1687,7 @@ _closedSelectedTabInTabView
 =
 false
 ;
-Utils
-.
-timeout
+setTimeout
 (
 function
 (
