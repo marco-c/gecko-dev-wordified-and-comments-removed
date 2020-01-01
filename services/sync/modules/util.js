@@ -651,7 +651,7 @@ rng
 =
 =
 "
-integer
+number
 "
 &
 &
@@ -660,9 +660,11 @@ code
 =
 rng
 )
+{
 return
 true
 ;
+}
 }
 let
 log
