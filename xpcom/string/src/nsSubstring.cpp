@@ -67,6 +67,13 @@ pratom
 .
 h
 "
+#
+include
+"
+prprf
+.
+h
+"
 static
 PRUnichar
 gNullChar
