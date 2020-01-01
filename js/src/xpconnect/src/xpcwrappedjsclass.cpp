@@ -4982,6 +4982,7 @@ nsnull
 newThis
 newWrapperIID
 nsnull
+nsnull
 obj
 PR_FALSE
 PR_FALSE
