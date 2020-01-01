@@ -1988,7 +1988,10 @@ mode
 )
 ;
 return
+SpewEndOp
+(
 ExecutionFatal
+)
 ;
 }
 break

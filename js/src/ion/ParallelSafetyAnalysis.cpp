@@ -921,7 +921,7 @@ UNSAFE_OP
 (
 SetPropertyPolymorphic
 )
-UNSAFE_OP
+SAFE_OP
 (
 GetElementCache
 )

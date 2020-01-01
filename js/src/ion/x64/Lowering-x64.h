@@ -138,6 +138,15 @@ MGetPropertyCache
 ins
 )
 ;
+LGetElementCacheT
+*
+newLGetElementCacheT
+(
+MGetElementCache
+*
+ins
+)
+;
 public
 :
 bool
