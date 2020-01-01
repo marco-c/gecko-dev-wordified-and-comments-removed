@@ -2893,9 +2893,6 @@ const
 ContextFormat
 &
 aFormat
-const
-ContextFlags
-flags
 )
 {
 ContextFormat

@@ -43,8 +43,6 @@ gfxIntSize
 const
 ContextFormat
 &
-const
-ContextFlags
 )
 {
 return

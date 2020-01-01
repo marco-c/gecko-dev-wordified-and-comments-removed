@@ -1631,17 +1631,6 @@ ReportOutstandingNames
 endif
 }
 enum
-ContextFlags
-{
-ContextFlagsNone
-=
-0x0
-ContextFlagsGlobal
-=
-0x1
-}
-;
-enum
 GLContextType
 {
 ContextTypeUnknown
