@@ -11876,6 +11876,7 @@ fragSink
 >
 GetFragment
 (
+PR_TRUE
 getter_AddRefs
 (
 contextfrag

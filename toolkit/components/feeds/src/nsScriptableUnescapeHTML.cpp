@@ -894,6 +894,7 @@ sink
 >
 GetFragment
 (
+PR_TRUE
 aReturn
 )
 ;
