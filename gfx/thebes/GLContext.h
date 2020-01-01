@@ -334,7 +334,7 @@ TextureImage
 {
 }
 virtual
-gfxContext
+gfxASurface
 *
 BeginUpdate
 (
@@ -618,7 +618,7 @@ mUpdateOffset
 {
 }
 virtual
-gfxContext
+gfxASurface
 *
 BeginUpdate
 (
@@ -683,7 +683,7 @@ const
 return
 !
 !
-mUpdateContext
+mUpdateSurface
 ;
 }
 virtual
@@ -707,9 +707,9 @@ mGLContext
 ;
 nsRefPtr
 <
-gfxContext
+gfxASurface
 >
-mUpdateContext
+mUpdateSurface
 ;
 nsIntRegion
 mUpdateRegion
