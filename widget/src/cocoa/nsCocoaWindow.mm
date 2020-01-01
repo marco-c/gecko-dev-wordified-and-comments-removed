@@ -11101,6 +11101,11 @@ forActiveWindow
 aActive
 ]
 ;
+[
+self
+redrawTitlebar
+]
+;
 NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
