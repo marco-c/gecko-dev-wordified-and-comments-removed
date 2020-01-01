@@ -1517,8 +1517,6 @@ aIndent
 )
 const
 ;
-#
-endif
 nsIFrame
 *
 LastChild
@@ -1526,15 +1524,8 @@ LastChild
 )
 const
 ;
-bool
-IsLastChild
-(
-nsIFrame
-*
-aFrame
-)
-const
-;
+#
+endif
 PRInt32
 IndexOf
 (
