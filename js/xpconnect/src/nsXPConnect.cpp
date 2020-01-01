@@ -6435,10 +6435,6 @@ aNewParent
 nsISupports
 *
 aCOMObj
-nsIXPConnectJSObjectHolder
-*
-*
-_retval
 )
 {
 XPCCallContext
@@ -6507,12 +6503,6 @@ scope
 scope2
 aNewParent
 aCOMObj
-(
-XPCWrappedNative
-*
-*
-)
-_retval
 )
 ;
 }

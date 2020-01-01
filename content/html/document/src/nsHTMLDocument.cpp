@@ -6434,12 +6434,6 @@ XPConnect
 (
 )
 ;
-nsCOMPtr
-<
-nsIXPConnectJSObjectHolder
->
-ignored
-;
 rv
 =
 xpc
@@ -6467,10 +6461,6 @@ nsINode
 >
 (
 this
-)
-getter_AddRefs
-(
-ignored
 )
 )
 ;
