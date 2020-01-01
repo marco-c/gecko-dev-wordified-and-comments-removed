@@ -714,10 +714,6 @@ nsIDOMNSHTMLElement
 .
 idl
 \
-nsIDOMNSHTMLFormElement
-.
-idl
-\
 nsIDOMNSHTMLFrameElement
 .
 idl
