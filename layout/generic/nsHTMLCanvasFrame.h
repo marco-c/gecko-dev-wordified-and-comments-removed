@@ -127,6 +127,12 @@ aRenderingContext
 ;
 virtual
 nsSize
+GetIntrinsicRatio
+(
+)
+;
+virtual
+nsSize
 ComputeSize
 (
 nsIRenderingContext
