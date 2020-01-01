@@ -32,10 +32,6 @@ nsBuiltinDecoderReader
 .
 h
 "
-using
-namespace
-mozilla
-;
 class
 nsAudioAvailableEventManager
 {
@@ -72,6 +68,9 @@ aCurrentTime
 void
 QueueWrittenAudioData
 (
+mozilla
+:
+:
 AudioDataValue
 *
 aAudioData
@@ -138,6 +137,9 @@ nsIRunnable
 >
 mPendingEvents
 ;
+mozilla
+:
+:
 ReentrantMonitor
 mReentrantMonitor
 ;
