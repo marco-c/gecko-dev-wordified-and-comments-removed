@@ -1128,12 +1128,6 @@ target
 ;
 MDefinition
 *
-createThisNative
-(
-)
-;
-MDefinition
-*
 createThisScripted
 (
 MDefinition
@@ -1147,8 +1141,6 @@ createThisScriptedSingleton
 (
 HandleFunction
 target
-HandleObject
-proto
 MDefinition
 *
 callee
