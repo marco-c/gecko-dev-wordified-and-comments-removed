@@ -27606,10 +27606,9 @@ lval
 )
 )
 ;
-js_ReportValueError
+js_ReportIsNullOrUndefined
 (
 cx
-JSMSG_NO_PROPERTIES
 -
 2
 lval
