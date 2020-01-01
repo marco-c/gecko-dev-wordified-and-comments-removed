@@ -67,6 +67,13 @@ nsIJSNativeInitializer
 .
 h
 "
+#
+include
+"
+nsCycleCollectionParticipant
+.
+h
+"
 class
 nsIDOMNode
 ;
@@ -171,7 +178,12 @@ txMozillaXSLTProcessor
 (
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
+(
+txMozillaXSLTProcessor
+nsIXSLTProcessor
+)
 NS_DECL_NSIXSLTPROCESSOR
 NS_DECL_NSIXSLTPROCESSOROBSOLETE
 NS_DECL_NSIXSLTPROCESSORPRIVATE
