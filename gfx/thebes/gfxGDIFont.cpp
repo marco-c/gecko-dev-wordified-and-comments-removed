@@ -1356,9 +1356,7 @@ mFUnitsConvFactor
 =
 float
 (
-GetAdjustedSize
-(
-)
+mAdjustedSize
 /
 oMetrics
 .

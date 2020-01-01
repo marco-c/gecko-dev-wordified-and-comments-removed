@@ -978,6 +978,7 @@ usp10
 msimg32
 ole32
 version
+advapi32
 endif
 CPPSRCS
 +
