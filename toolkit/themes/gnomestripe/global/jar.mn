@@ -116,6 +116,16 @@ classic
 /
 global
 /
+headsUpDisplay
+.
+css
++
+skin
+/
+classic
+/
+global
+/
 listbox
 .
 css
