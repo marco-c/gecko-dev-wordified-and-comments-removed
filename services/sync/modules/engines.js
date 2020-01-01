@@ -3969,7 +3969,16 @@ guid
 username
 )
 {
-return
+let
+self
+=
+yield
+;
+self
+.
+done
+(
+)
 ;
 }
 sync
