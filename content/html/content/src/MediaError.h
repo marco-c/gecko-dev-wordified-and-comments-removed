@@ -1,4 +1,10 @@
 #
+ifndef
+mozilla_dom_MediaError_h
+#
+define
+mozilla_dom_MediaError_h
+#
 include
 "
 nsIDOMMediaError
@@ -21,8 +27,14 @@ Attributes
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+dom
+{
 class
-nsMediaError
+MediaError
 MOZ_FINAL
 :
 public
@@ -30,7 +42,7 @@ nsIDOMMediaError
 {
 public
 :
-nsMediaError
+MediaError
 (
 uint16_t
 aCode
@@ -45,3 +57,7 @@ mCode
 ;
 }
 ;
+}
+}
+#
+endif

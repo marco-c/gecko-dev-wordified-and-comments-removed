@@ -571,6 +571,10 @@ HTMLSourceElement
 .
 h
 \
+MediaError
+.
+h
+\
 (
 NULL
 )
@@ -586,7 +590,7 @@ nsHTMLMediaElement
 .
 cpp
 \
-nsMediaError
+MediaError
 .
 cpp
 \
