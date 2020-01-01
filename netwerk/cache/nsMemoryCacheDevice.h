@@ -205,6 +205,11 @@ PRInt64
 entrySize
 )
 ;
+size_t
+TotalSize
+(
+)
+;
 private
 :
 friend
