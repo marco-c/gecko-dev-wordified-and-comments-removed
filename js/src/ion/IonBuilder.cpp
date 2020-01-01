@@ -29305,6 +29305,12 @@ id
 =
 idInt32
 ;
+MDefinition
+*
+newValue
+=
+value
+;
 if
 (
 oracle
@@ -29339,7 +29345,7 @@ add
 valueDouble
 )
 ;
-value
+newValue
 =
 valueDouble
 ;
@@ -29397,7 +29403,7 @@ New
 obj
 elements
 id
-value
+newValue
 )
 ;
 store
@@ -29483,7 +29489,7 @@ New
 (
 elements
 id
-value
+newValue
 needsHoleCheck
 )
 ;
