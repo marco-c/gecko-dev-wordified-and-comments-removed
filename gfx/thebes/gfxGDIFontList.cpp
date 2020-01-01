@@ -3879,6 +3879,9 @@ return
 nsnull
 ;
 PRBool
+hasVertical
+;
+PRBool
 isCFF
 =
 gfxFontUtils
@@ -3887,6 +3890,7 @@ gfxFontUtils
 IsCffFont
 (
 aFontData
+hasVertical
 )
 ;
 nsresult
@@ -4256,6 +4260,10 @@ numFonts
 !
 =
 1
++
+!
+!
+hasVertical
 )
 {
 RemoveFontMemResourceEx
