@@ -1077,6 +1077,11 @@ AnimationNeedsResample
 }
 #
 endif
+if
+(
+aSVGElement
+)
+{
 aSVGElement
 -
 >
@@ -1086,6 +1091,7 @@ mAttrEnum
 PR_TRUE
 )
 ;
+}
 return
 NS_OK
 ;
@@ -1345,10 +1351,6 @@ mBaseVal
 ifdef
 MOZ_SMIL
 else
-if
-(
-aSVGElement
-)
 {
 aSVGElement
 -
