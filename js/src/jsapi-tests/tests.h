@@ -23,6 +23,13 @@ h
 #
 include
 "
+jscntxt
+.
+h
+"
+#
+include
+"
 jsprvtd
 .
 h
@@ -38,13 +45,6 @@ h
 include
 "
 jsgc
-.
-h
-"
-#
-include
-"
-jsgcinlines
 .
 h
 "

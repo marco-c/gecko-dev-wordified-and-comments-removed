@@ -50,17 +50,6 @@ IonSpewer
 .
 h
 "
-#
-include
-"
-ion
-/
-LIR
--
-inl
-.
-h
-"
 using
 namespace
 js

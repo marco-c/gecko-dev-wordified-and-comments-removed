@@ -39,17 +39,6 @@ include
 "
 ion
 /
-LIR
--
-inl
-.
-h
-"
-#
-include
-"
-ion
-/
 shared
 /
 CodeGenerator
