@@ -1843,7 +1843,7 @@ d
 size
 =
 %
-d
+f
 \
 n
 "
@@ -4666,6 +4666,14 @@ aClosure
 ;
 if
 (
+!
+aFontName
+.
+IsEmpty
+(
+)
+&
+&
 sa
 -
 >
