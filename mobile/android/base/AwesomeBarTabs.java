@@ -786,6 +786,7 @@ filter
 (
 "
 "
+null
 )
 ;
 }
@@ -1545,6 +1546,8 @@ filter
 (
 String
 searchTerm
+AutocompleteHandler
+handler
 )
 {
 mSearching
@@ -1597,6 +1600,7 @@ allPages
 filter
 (
 searchTerm
+handler
 )
 ;
 findViewById
