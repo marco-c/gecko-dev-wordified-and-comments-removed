@@ -347,7 +347,9 @@ LValueToInt32
 NORMAL
 )
 ;
-emitDoubleToInt32
+masm
+.
+convertDoubleToInt32
 (
 temp
 output
@@ -885,7 +887,9 @@ output
 )
 )
 ;
-emitDoubleToInt32
+masm
+.
+convertDoubleToInt32
 (
 input
 output
@@ -3111,7 +3115,9 @@ tempInt
 (
 )
 ;
-emitDoubleToInt32
+masm
+.
+convertDoubleToInt32
 (
 ToFloatRegister
 (
@@ -3293,7 +3299,9 @@ value
 floatIndex
 )
 ;
-emitDoubleToInt32
+masm
+.
+convertDoubleToInt32
 (
 floatIndex
 index
