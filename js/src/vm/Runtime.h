@@ -5122,7 +5122,7 @@ const
 {
 #
 ifdef
-JS_THREADSAFE
+JS_WORKER_THREADS
 if
 (
 requestedHelperThreadCount
@@ -5136,8 +5136,6 @@ js
 GetCPUCount
 (
 )
--
-1
 ;
 return
 requestedHelperThreadCount
