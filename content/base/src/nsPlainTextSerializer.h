@@ -849,7 +849,7 @@ dom
 :
 Element
 >
-mContent
+mElement
 ;
 nsAutoTArray
 <
