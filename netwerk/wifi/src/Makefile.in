@@ -455,6 +455,11 @@ CPPSRCS
 nsWifiScannerMac
 .
 cpp
+CMMSRCS
+=
+osx_corewlan
+.
+mm
 else
 ifneq
 (
