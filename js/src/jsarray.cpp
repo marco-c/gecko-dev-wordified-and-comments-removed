@@ -6865,6 +6865,7 @@ SortComparatorNumerics
 =
 {
 NULL
+NULL
 ComparatorNumericLeftMinusRight
 ComparatorNumericRightMinusLeft
 }
@@ -6972,6 +6973,7 @@ SortComparatorInt32s
 =
 {
 NULL
+NULL
 ComparatorInt32LeftMinusRight
 ComparatorInt32RightMinusLeft
 }
@@ -6980,6 +6982,8 @@ enum
 ComparatorMatchResult
 {
 Match_Failure
+=
+0
 Match_None
 Match_LeftMinusRight
 Match_RightMinusLeft
