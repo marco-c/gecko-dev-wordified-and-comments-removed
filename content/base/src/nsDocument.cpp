@@ -7593,7 +7593,7 @@ WantDebugInfo
 char
 name
 [
-72
+512
 ]
 ;
 PRUint32
