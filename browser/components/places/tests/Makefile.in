@@ -414,6 +414,15 @@ srcdir
 VPATH
 =
 srcdir
+relativesrcdir
+=
+browser
+/
+components
+/
+places
+/
+tests
 include
 (
 DEPTH

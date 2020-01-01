@@ -409,6 +409,15 @@ srcdir
 VPATH
 =
 srcdir
+relativesrcdir
+=
+modules
+/
+libjar
+/
+zipwriter
+/
+test
 include
 (
 DEPTH

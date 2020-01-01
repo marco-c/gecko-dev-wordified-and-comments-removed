@@ -1225,8 +1225,10 @@ ifdef
 ENABLE_TESTS
 ifdef
 XPCSHELL_TESTS
+#
 ifndef
 MODULE
+#
 (
 error
 Must
@@ -1237,6 +1239,7 @@ defining
 XPCSHELL_TESTS
 .
 )
+#
 endif
 testxpcobjdir
 =
@@ -1325,7 +1328,7 @@ testxpcobjdir
 )
 /
 (
-MODULE
+relativesrcdir
 )
 /
 (
@@ -1402,7 +1405,7 @@ list
 (
 addprefix
 (
-MODULE
+relativesrcdir
 )
 /
 (
@@ -1519,7 +1522,7 @@ testxpcobjdir
 )
 /
 (
-MODULE
+relativesrcdir
 )
 /
 (
@@ -1657,7 +1660,7 @@ testxpcobjdir
 )
 /
 (
-MODULE
+relativesrcdir
 )
 /
 (
@@ -1770,7 +1773,7 @@ testxpcobjdir
 )
 /
 (
-MODULE
+relativesrcdir
 )
 /
 (

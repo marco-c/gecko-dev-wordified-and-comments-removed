@@ -403,6 +403,9 @@ srcdir
 VPATH
 =
 srcdir
+relativesrcdir
+=
+embedding
 include
 (
 DEPTH
