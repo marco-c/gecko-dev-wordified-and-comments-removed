@@ -2368,6 +2368,13 @@ function
 "
 "
     
+cmd
+=
+wrapCommand
+(
+cmd
+)
+    
 proc
 =
 Popen
