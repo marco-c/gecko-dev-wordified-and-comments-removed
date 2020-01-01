@@ -1031,6 +1031,11 @@ tid
 tid
                 
 if
+not
+self
+.
+_ignore_children
+and
 canCreateJob
 :
                     
@@ -2049,6 +2054,16 @@ if
 hasattr
 (
 self
+"
+_procmgrthread
+"
+)
+:
+                    
+if
+hasattr
+(
+self
 .
 _procmgrthread
 '
@@ -2056,7 +2071,7 @@ is_alive
 '
 )
 :
-                    
+                        
 threadalive
 =
 self
@@ -2066,10 +2081,10 @@ _procmgrthread
 is_alive
 (
 )
-                
+                    
 else
 :
-                    
+                        
 threadalive
 =
 self
@@ -2196,6 +2211,11 @@ else
                     
 if
 MOZPROCESS_DEBUG
+and
+not
+self
+.
+_ignore_children
 :
                         
 print
