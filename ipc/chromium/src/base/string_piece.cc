@@ -6,7 +6,7 @@ algorithm
 #
 include
 <
-iostream
+ostream
 >
 #
 include
