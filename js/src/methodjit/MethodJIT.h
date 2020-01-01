@@ -2713,6 +2713,9 @@ ExecutablePool
 *
 shimPool
 ;
+uint32_t
+ionCalls
+;
 bool
 mustDestroyEntryChunk
 ;
