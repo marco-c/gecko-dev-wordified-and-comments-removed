@@ -64,6 +64,14 @@ PRInt32
 _retval
 )
 ;
+NS_IMETHOD
+GetContentText
+(
+nsAString
+&
+aText
+)
+;
 }
 ;
 #
