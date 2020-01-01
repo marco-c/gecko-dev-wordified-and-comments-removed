@@ -526,9 +526,14 @@ test_bug420863
 .
 html
 \
+(
+warning
 test_childAtPoint
 .
 xul
+temporarily
+disabled
+)
 \
 test_cssattrs
 .
