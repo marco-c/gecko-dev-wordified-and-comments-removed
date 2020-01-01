@@ -483,6 +483,10 @@ test_cssoverflow
 .
 html
 \
+test_dochierarchy
+.
+html
+\
 test_filectrl
 .
 html
