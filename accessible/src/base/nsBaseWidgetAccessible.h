@@ -183,16 +183,7 @@ aIndexInParent
 ;
 nsAccessible
 *
-GetActionAccessible
-(
-)
-const
-;
-nsCOMPtr
-<
-nsIContent
->
-mActionContent
+mActionAcc
 ;
 PRPackedBool
 mIsLink
