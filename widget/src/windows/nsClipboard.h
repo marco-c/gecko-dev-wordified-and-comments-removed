@@ -151,6 +151,10 @@ UINT
 aIndex
 UINT
 aFormat
+const
+char
+*
+aMIMEImageFormat
 void
 *
 *

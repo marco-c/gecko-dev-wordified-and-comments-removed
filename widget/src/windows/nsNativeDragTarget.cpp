@@ -923,6 +923,7 @@ RegisterClipboardFormat
 (
 CFSTR_PREFERREDDROPEFFECT
 )
+nsnull
 &
 tempOutData
 &
