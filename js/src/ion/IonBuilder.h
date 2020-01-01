@@ -31,6 +31,14 @@ public
 MIRGenerator
 {
 enum
+InlinePolymorphism
+{
+Inline_Monomorphic
+Inline_Polymorphic
+Inline_PolymorphicFinal
+}
+;
+enum
 ControlStatus
 {
 ControlStatus_Error
@@ -416,8 +424,8 @@ thisDefn
 MDefinitionVector
 &
 args
-int
-polymorphic
+InlinePolymorphism
+polymorphism
 )
 ;
 private
@@ -1761,8 +1769,8 @@ IonAllocPolicy
 >
 &
 retvalDefns
-int
-polymorphic
+InlinePolymorphism
+polymorphism
 )
 ;
 bool
@@ -1791,7 +1799,7 @@ jsop_call_fun_barrier
 AutoObjectVector
 &
 targets
-int
+uint32_t
 numTargets
 uint32
 argc
