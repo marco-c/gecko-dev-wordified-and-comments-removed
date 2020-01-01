@@ -433,6 +433,8 @@ DIRS
 =
 src
 ui
+TEST_DIRS
+=
 tests
 include
 (
