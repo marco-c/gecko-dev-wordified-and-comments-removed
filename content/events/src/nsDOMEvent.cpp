@@ -397,6 +397,10 @@ mPresContext
 =
 aPresContext
 ;
+mPrivateDataDuplicated
+=
+PR_FALSE
+;
 if
 (
 aEvent
@@ -4618,6 +4622,10 @@ mPresContext
 nsnull
 ;
 mEventIsInternal
+=
+PR_TRUE
+;
+mPrivateDataDuplicated
 =
 PR_TRUE
 ;

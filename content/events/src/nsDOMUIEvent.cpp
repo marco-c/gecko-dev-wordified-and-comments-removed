@@ -890,7 +890,13 @@ y
 ;
 }
 return
+mPrivateDataDuplicated
+?
 mPagePoint
+:
+GetClientPoint
+(
+)
 ;
 }
 NS_IMETHODIMP

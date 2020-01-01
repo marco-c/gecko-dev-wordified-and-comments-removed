@@ -349,6 +349,9 @@ mExplicitOriginalTarget
 PRPackedBool
 mEventIsInternal
 ;
+PRPackedBool
+mPrivateDataDuplicated
+;
 }
 ;
 #
