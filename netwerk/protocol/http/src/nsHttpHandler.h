@@ -63,13 +63,6 @@ h
 #
 include
 "
-nsVoidArray
-.
-h
-"
-#
-include
-"
 nsIHttpProtocolHandler
 .
 h

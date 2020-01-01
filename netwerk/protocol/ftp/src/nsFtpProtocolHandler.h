@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -236,7 +236,11 @@ void
 aClosure
 )
 ;
-nsVoidArray
+nsTArray
+<
+timerStruct
+*
+>
 mRootConnectionList
 ;
 nsCOMPtr

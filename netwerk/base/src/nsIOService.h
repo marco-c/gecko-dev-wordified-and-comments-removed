@@ -30,7 +30,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -512,7 +512,10 @@ nsIContentSniffer
 >
 mContentSniffers
 ;
-nsVoidArray
+nsTArray
+<
+PRInt32
+>
 mRestrictedPortList
 ;
 public
