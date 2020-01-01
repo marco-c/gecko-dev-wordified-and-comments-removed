@@ -2704,7 +2704,7 @@ value
 (
 )
 .
-asInt32
+toInt32
 (
 )
 :
@@ -2716,7 +2716,7 @@ value
 (
 )
 .
-asDouble
+toDouble
 (
 )
 )

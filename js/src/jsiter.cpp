@@ -1968,7 +1968,7 @@ cx
 Value
 arg
 =
-BooleanTag
+BooleanValue
 (
 (
 flags
@@ -2014,7 +2014,7 @@ cx
 JSMSG_BAD_TRAP_RETURN_VALUE
 -
 1
-ObjectTag
+ObjectValue
 (
 *
 obj
@@ -2314,7 +2314,7 @@ js_IteratorClass
 base
 NULL
 NULL
-NullTag
+NullValue
 (
 )
 )
@@ -3802,7 +3802,7 @@ if
 vp
 -
 >
-asBoolean
+toBoolean
 (
 )
 )
@@ -3906,7 +3906,7 @@ obj
 vp
 -
 >
-asObject
+toObject
 (
 )
 ;
@@ -4150,7 +4150,7 @@ obj
 &
 v
 .
-asObject
+toObject
 (
 )
 ;
@@ -5046,7 +5046,7 @@ i
 rval
 -
 >
-asInt32
+toInt32
 (
 )
 )
@@ -6057,7 +6057,7 @@ js_ReportValueError
 cx
 JSMSG_NESTING_GENERATOR
 JSDVG_SEARCH_STACK
-ObjectOrNullTag
+ObjectOrNullValue
 (
 obj
 )
@@ -6188,7 +6188,10 @@ JSGENOP_CLOSE
 SetPendingException
 (
 cx
+MagicValue
+(
 JS_GENERATOR_CLOSING
+)
 )
 ;
 gen
@@ -6929,7 +6932,7 @@ cx
 JSGENOP_CLOSE
 obj
 gen
-UndefinedTag
+UndefinedValue
 (
 )
 )
@@ -7145,11 +7148,8 @@ vp
 2
 ]
 :
-Value
+UndefinedValue
 (
-UndefinedTag
-(
-)
 )
 )
 ;
@@ -7211,11 +7211,8 @@ vp
 2
 ]
 :
-Value
+UndefinedValue
 (
-UndefinedTag
-(
-)
 )
 )
 )

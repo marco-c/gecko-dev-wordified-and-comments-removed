@@ -309,14 +309,8 @@ slot
 js
 :
 :
-Value
+UndefinedValue
 (
-js
-:
-:
-UndefinedTag
-(
-)
 )
 ;
 }
@@ -493,7 +487,7 @@ fslots
 JSSLOT_DENSE_ARRAY_MINLENCAP
 ]
 .
-asPrivateUint32
+toPrivateUint32
 (
 )
 ;
@@ -524,7 +518,7 @@ fslots
 JSSLOT_ARRAY_LENGTH
 ]
 .
-asPrivateUint32
+toPrivateUint32
 (
 )
 ;
@@ -664,7 +658,7 @@ fslots
 JSSLOT_DENSE_ARRAY_COUNT
 ]
 .
-asPrivateUint32
+toPrivateUint32
 (
 )
 ;
@@ -721,7 +715,7 @@ fslots
 JSSLOT_DENSE_ARRAY_COUNT
 ]
 .
-asPrivateUint32Ref
+getPrivateUint32Ref
 (
 )
 +
@@ -752,7 +746,7 @@ fslots
 JSSLOT_DENSE_ARRAY_COUNT
 ]
 .
-asPrivateUint32Ref
+getPrivateUint32Ref
 (
 )
 -
@@ -779,7 +773,7 @@ dslots
 1
 ]
 .
-asPrivateUint32Ref
+toPrivateUint32
 (
 )
 :
@@ -1187,7 +1181,7 @@ fslots
 JSSLOT_ARGS_LENGTH
 ]
 .
-asInt32
+toInt32
 (
 )
 )
@@ -1228,7 +1222,7 @@ fslots
 JSSLOT_ARGS_LENGTH
 ]
 .
-asInt32Ref
+getInt32Ref
 (
 )
 |
@@ -1270,7 +1264,7 @@ return
 (
 v
 .
-asInt32
+toInt32
 (
 )
 &
@@ -2001,7 +1995,7 @@ fslots
 JSSLOT_WITH_THIS
 ]
 .
-asObject
+toObject
 (
 )
 ;
@@ -2128,7 +2122,7 @@ dslots
 1
 ]
 .
-asPrivateUint32
+toPrivateUint32
 (
 )
 >
@@ -2696,7 +2690,7 @@ obj
 setSlot
 (
 freeslot
-UndefinedTag
+UndefinedValue
 (
 )
 )
@@ -3116,7 +3110,7 @@ proto
 &
 v
 .
-asObject
+toObject
 (
 )
 ;

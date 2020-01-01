@@ -466,14 +466,14 @@ jsdouble
 )
 v
 .
-asInt32
+toInt32
 (
 )
 ;
 return
 v
 .
-asDouble
+toDouble
 (
 )
 ;
@@ -506,7 +506,7 @@ isInt32
 return
 v
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -515,7 +515,7 @@ js_DoubleToECMAInt32
 (
 v
 .
-asDouble
+toDouble
 (
 )
 )
@@ -1456,7 +1456,7 @@ initSharingEmptyScope
 js_FunctionClass
 proto
 parent
-PrivateTag
+PrivateValue
 (
 fun
 )

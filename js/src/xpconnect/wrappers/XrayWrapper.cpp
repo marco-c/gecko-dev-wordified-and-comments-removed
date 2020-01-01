@@ -265,7 +265,7 @@ getSlot
 JSSLOT_WN_OBJ
 )
 .
-asObjectOrNull
+toObjectOrNull
 (
 )
 ;

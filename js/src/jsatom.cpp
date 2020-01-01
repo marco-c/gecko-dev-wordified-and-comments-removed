@@ -275,7 +275,7 @@ return
 js_ValueToPrintableString
 (
 cx
-StringTag
+StringValue
 (
 ATOM_TO_STRING
 (
@@ -5314,7 +5314,7 @@ OBJECT_TO_JSID
 &
 idval
 .
-asObject
+toObject
 (
 )
 )
@@ -5332,7 +5332,7 @@ cx
 &
 idval
 .
-asObject
+toObject
 (
 )
 idp
@@ -5408,7 +5408,7 @@ idobj
 =
 idval
 .
-asObject
+toObject
 (
 )
 ;
@@ -5442,7 +5442,7 @@ cx
 &
 idval
 .
-asObject
+toObject
 (
 )
 idp

@@ -321,7 +321,7 @@ id
 )
 )
 return
-StringTag
+StringValue
 (
 JSID_TO_STRING
 (
@@ -340,7 +340,7 @@ id
 )
 )
 return
-Int32Tag
+Int32Value
 (
 JSID_TO_INT
 (
@@ -359,7 +359,7 @@ id
 )
 )
 return
-ObjectTag
+ObjectValue
 (
 *
 JSID_TO_OBJECT
@@ -383,7 +383,7 @@ id
 )
 ;
 return
-UndefinedTag
+UndefinedValue
 (
 )
 ;

@@ -5249,7 +5249,7 @@ getDateUTCTime
 (
 )
 .
-asNumber
+toNumber
 (
 )
 ;
@@ -5381,7 +5381,7 @@ obj
 >
 setDateUTCTime
 (
-DoubleTag
+DoubleValue
 (
 t
 )
@@ -5456,7 +5456,7 @@ getDateLocalTime
 (
 )
 .
-asNumber
+toNumber
 (
 )
 ;
@@ -5477,7 +5477,7 @@ getDateUTCTime
 (
 )
 .
-asDouble
+toDouble
 (
 )
 ;
@@ -5501,7 +5501,7 @@ obj
 >
 setDateLocalTime
 (
-DoubleTag
+DoubleValue
 (
 result
 )

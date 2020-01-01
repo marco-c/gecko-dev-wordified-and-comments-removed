@@ -488,7 +488,7 @@ newscope
 -
 >
 freeslot
-UndefinedTag
+UndefinedValue
 (
 )
 )
@@ -2733,7 +2733,7 @@ str
 js_ValueToString
 (
 cx
-ObjectOrNullTag
+ObjectOrNullValue
 (
 object
 )
@@ -5186,7 +5186,7 @@ methodObject
 &
 prev
 .
-asObject
+toObject
 (
 )
 )

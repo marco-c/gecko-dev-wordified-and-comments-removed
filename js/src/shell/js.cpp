@@ -10166,7 +10166,7 @@ obj
 =
 value
 .
-asObjectOrNull
+toObjectOrNull
 (
 )
 ;
@@ -14703,7 +14703,7 @@ AutoValueRooter
 root
 (
 cx
-BooleanTag
+BooleanValue
 (
 lazy
 )

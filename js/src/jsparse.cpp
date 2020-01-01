@@ -14058,7 +14058,7 @@ blockObj
 setSlot
 (
 slot
-PrivateTag
+PrivateValue
 (
 pn
 )
@@ -17319,11 +17319,8 @@ atomState
 .
 emptyAtom
 )
-Value
+UndefinedValue
 (
-UndefinedTag
-(
-)
 )
 NULL
 NULL
@@ -35793,7 +35790,7 @@ if
 js_ValueToAtom
 (
 context
-DoubleTag
+DoubleValue
 (
 pn3
 -
@@ -35983,7 +35980,7 @@ if
 js_ValueToAtom
 (
 context
-DoubleTag
+DoubleValue
 (
 pn3
 -
@@ -38067,7 +38064,7 @@ if
 ValueToNumber
 (
 cx
-StringTag
+StringValue
 (
 ATOM_TO_STRING
 (
@@ -41942,7 +41939,7 @@ xmlbox
 Value
 v
 =
-StringTag
+StringValue
 (
 ATOM_TO_STRING
 (
@@ -41988,7 +41985,7 @@ newObjectBox
 &
 v
 .
-asObject
+toObject
 (
 )
 )

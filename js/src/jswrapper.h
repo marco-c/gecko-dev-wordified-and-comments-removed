@@ -544,7 +544,7 @@ getProxyPrivate
 (
 )
 .
-asObjectOrNull
+toObjectOrNull
 (
 )
 ;

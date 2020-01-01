@@ -527,7 +527,7 @@ i
 vp
 -
 >
-asInt32
+toInt32
 (
 )
 ;
@@ -764,7 +764,7 @@ value
 (
 )
 .
-asInt32
+toInt32
 (
 )
 )
@@ -863,7 +863,7 @@ return
 js_ValueToStringId
 (
 cx
-StringTag
+StringValue
 (
 str
 )
@@ -1402,7 +1402,10 @@ i
 setDenseArrayElement
 (
 i
+MagicValue
+(
 JS_ARRAY_HOLE
+)
 )
 ;
 }
@@ -1430,7 +1433,7 @@ return
 js_ValueToStringId
 (
 cx
-DoubleTag
+DoubleValue
 (
 index
 )
@@ -2091,7 +2094,10 @@ obj
 setDenseArrayElement
 (
 idx
+MagicValue
+(
 JS_ARRAY_HOLE
+)
 )
 ;
 return
@@ -4044,7 +4050,7 @@ dense_grow
 cx
 obj
 i
-Int32Tag
+Int32Value
 (
 j
 )
@@ -4088,7 +4094,7 @@ dense_grow
 cx
 obj
 i
-NumberTag
+NumberValue
 (
 d
 )
@@ -4430,7 +4436,10 @@ obj
 setDenseArrayElement
 (
 i
+MagicValue
+(
 JS_ARRAY_HOLE
+)
 )
 ;
 }
@@ -4906,7 +4915,7 @@ if
 ValueToId
 (
 cx
-Int32Tag
+Int32Value
 (
 i
 )
@@ -4939,7 +4948,7 @@ obj
 setDenseArrayElement
 (
 i
-UndefinedTag
+UndefinedValue
 (
 )
 )
@@ -6676,7 +6685,7 @@ cx
 Value
 idval
 =
-DoubleTag
+DoubleValue
 (
 MAXINDEX
 )
@@ -6736,7 +6745,7 @@ JS_FALSE
 }
 idval
 .
-asDoubleRef
+getDoubleRef
 (
 )
 +
@@ -8338,12 +8347,12 @@ ca
 >
 fval
 ;
+*
 sp
 +
 +
--
->
-setNull
+=
+NullValue
 (
 )
 ;
@@ -8553,13 +8562,13 @@ js_CompareStrings
 av
 -
 >
-asString
+toString
 (
 )
 bv
 -
 >
-asString
+toString
 (
 )
 )
@@ -9417,11 +9426,8 @@ obj
 newlen
 +
 +
-Value
+UndefinedValue
 (
-UndefinedTag
-(
-)
 )
 )
 )
@@ -10393,7 +10399,10 @@ obj
 setDenseArrayElement
 (
 length
+MagicValue
+(
 JS_ARRAY_HOLE
+)
 )
 ;
 obj
@@ -10708,7 +10717,10 @@ obj
 setDenseArrayElement
 (
 i
+MagicValue
+(
 JS_ARRAY_HOLE
+)
 )
 ;
 }
@@ -11989,7 +12001,7 @@ aobj
 &
 v
 .
-asObject
+toObject
 (
 )
 ;
@@ -12724,11 +12736,8 @@ vp
 2
 ]
 :
-Value
+UndefinedValue
 (
-UndefinedTag
-(
-)
 )
 ;
 }
@@ -14587,7 +14596,7 @@ proto
 getParent
 (
 )
-NullTag
+NullValue
 (
 )
 )
@@ -15296,7 +15305,7 @@ vi
 =
 v
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -15347,7 +15356,7 @@ vd
 =
 v
 .
-asDouble
+toDouble
 (
 )
 ;
@@ -15767,7 +15776,7 @@ js_MakeStringImmutable
 cx
 val
 .
-asString
+toString
 (
 )
 )

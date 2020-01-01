@@ -627,7 +627,7 @@ out
 =
 v
 .
-asNumber
+toNumber
 (
 )
 ;
@@ -762,7 +762,7 @@ out
 =
 v
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -831,7 +831,7 @@ uint32_t
 )
 v
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -897,7 +897,7 @@ out
 =
 v
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -966,7 +966,7 @@ uint16_t
 )
 v
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -2025,7 +2025,7 @@ pi
 =
 v
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -2045,7 +2045,7 @@ JSDOUBLE_IS_INT32
 (
 v
 .
-asDouble
+toDouble
 (
 )
 pi

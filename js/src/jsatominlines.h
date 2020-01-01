@@ -59,7 +59,7 @@ str
 =
 v
 .
-asString
+toString
 (
 )
 ;
@@ -225,7 +225,7 @@ INT_FITS_IN_JSID
 (
 idval
 .
-asInt32
+toInt32
 (
 )
 )
@@ -323,7 +323,7 @@ INT_FITS_IN_JSID
 (
 idval
 .
-asInt32
+toInt32
 (
 )
 )
@@ -476,7 +476,7 @@ cx
 js
 :
 :
-StringTag
+StringValue
 (
 str
 )

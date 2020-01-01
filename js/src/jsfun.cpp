@@ -521,7 +521,7 @@ obj
 &
 v
 .
-asObject
+toObject
 (
 )
 ;
@@ -775,7 +775,7 @@ init
 js_ArgumentsClass
 proto
 parent
-PrivateTag
+PrivateValue
 (
 NULL
 )
@@ -786,7 +786,7 @@ argsobj
 >
 setArgsCallee
 (
-ObjectOrNullTag
+ObjectOrNullValue
 (
 callee
 )
@@ -1019,7 +1019,7 @@ argv
 2
 ]
 .
-asObject
+toObject
 (
 )
 )
@@ -1312,7 +1312,7 @@ obj
 setArgsElement
 (
 arg
-Value
+MagicValue
 (
 JS_ARGS_HOLE
 )
@@ -1368,7 +1368,7 @@ obj
 >
 setArgsCallee
 (
-Value
+MagicValue
 (
 JS_ARGS_HOLE
 )
@@ -2887,7 +2887,7 @@ cx
 &
 v
 .
-asObject
+toObject
 (
 )
 )
@@ -3276,7 +3276,7 @@ valid
 Value
 tmp
 =
-UndefinedTag
+UndefinedValue
 (
 )
 ;
@@ -3883,7 +3883,7 @@ init
 js_CallClass
 NULL
 scopeChain
-PrivateTag
+PrivateValue
 (
 NULL
 )
@@ -3972,7 +3972,7 @@ fp
 -
 >
 scopeChain
-PrivateTag
+PrivateValue
 (
 fp
 )
@@ -4361,7 +4361,7 @@ callobj
 setSlot
 (
 JSSLOT_CALLEE
-ObjectTag
+ObjectValue
 (
 *
 callee
@@ -4452,7 +4452,7 @@ cx
 &
 v
 .
-asObject
+toObject
 (
 )
 )
@@ -4562,7 +4562,7 @@ callobj
 setSlot
 (
 JSSLOT_CALL_ARGUMENTS
-ObjectOrNullTag
+ObjectOrNullValue
 (
 fp
 -
@@ -5166,7 +5166,7 @@ getSlot
 JSSLOT_CALLEE
 )
 .
-asObject
+toObject
 (
 )
 ;
@@ -5992,7 +5992,7 @@ cx
 &
 callee
 .
-asObject
+toObject
 (
 )
 )
@@ -6222,11 +6222,8 @@ js_DefineNativeProperty
 cx
 obj
 id
-Value
+UndefinedValue
 (
-UndefinedTag
-(
-)
 )
 getter
 setter
@@ -6282,11 +6279,8 @@ js_DefineNativeProperty
 cx
 obj
 id
-Value
+UndefinedValue
 (
-UndefinedTag
-(
-)
 )
 GetCallArguments
 SetCallArguments
@@ -6767,7 +6761,7 @@ if
 vp
 -
 >
-asObject
+toObject
 (
 )
 .
@@ -7286,7 +7280,7 @@ ATOM_TO_JSID
 (
 atom
 )
-Int32Tag
+Int32Value
 (
 fun
 -
@@ -7391,11 +7385,8 @@ ATOM_TO_JSID
 (
 atom
 )
-Value
+UndefinedValue
 (
-UndefinedTag
-(
-)
 )
 fun_getProperty
 PropertyStub
@@ -8606,7 +8597,7 @@ cx
 JSMSG_BAD_PROTOTYPE
 -
 1
-ObjectTag
+ObjectValue
 (
 *
 obj
@@ -8627,7 +8618,7 @@ cx
 &
 pval
 .
-asObject
+toObject
 (
 )
 *
@@ -9460,7 +9451,7 @@ argv
 0
 ]
 .
-asObject
+toObject
 (
 )
 ;
@@ -9534,7 +9525,7 @@ getvp
 1
 ]
 =
-ObjectOrNullTag
+ObjectOrNullValue
 (
 obj
 )
@@ -9761,7 +9752,7 @@ vp
 3
 ]
 .
-asObject
+toObject
 (
 )
 ;
@@ -9822,7 +9813,7 @@ vp
 2
 ]
 .
-asObject
+toObject
 (
 )
 ;
@@ -9900,7 +9891,7 @@ sp
 +
 +
 =
-ObjectOrNullTag
+ObjectOrNullValue
 (
 obj
 )
@@ -10176,7 +10167,7 @@ vp
 2
 ]
 .
-asObject
+toObject
 (
 )
 !
@@ -10285,7 +10276,7 @@ sp
 +
 +
 =
-NullTag
+NullValue
 (
 )
 ;
@@ -10559,7 +10550,7 @@ argv
 2
 ]
 .
-asObject
+toObject
 (
 )
 .
@@ -10952,7 +10943,7 @@ argv
 i
 ]
 .
-asString
+toString
 (
 )
 ;
@@ -12106,7 +12097,7 @@ dslots
 1
 ]
 .
-asPrivateUint32
+toPrivateUint32
 (
 )
 )
@@ -12328,7 +12319,7 @@ ATOM_TO_JSID
 (
 atom
 )
-ObjectTag
+ObjectValue
 (
 *
 fun
@@ -12594,7 +12585,7 @@ callable
 vp
 -
 >
-asObject
+toObject
 (
 )
 ;

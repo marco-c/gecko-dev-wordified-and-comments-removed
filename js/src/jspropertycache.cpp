@@ -426,7 +426,7 @@ sprop
 slot
 )
 .
-asObject
+toObject
 (
 )
 )

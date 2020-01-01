@@ -5602,7 +5602,7 @@ cx
 Function
 )
 )
-ObjectTag
+ObjectValue
 (
 *
 ctor
@@ -5824,7 +5824,7 @@ ATOM_TO_JSID
 (
 atom
 )
-UndefinedTag
+UndefinedValue
 (
 )
 PropertyStub
@@ -7143,7 +7143,7 @@ ATOM_TO_JSID
 (
 atom
 )
-UndefinedTag
+UndefinedValue
 (
 )
 PropertyStub
@@ -7608,7 +7608,7 @@ ATOM_TO_JSID
 (
 atom
 )
-UndefinedTag
+UndefinedValue
 (
 )
 PropertyStub
@@ -13076,7 +13076,7 @@ return
 &
 cval
 .
-asObject
+toObject
 (
 )
 ;
@@ -13172,7 +13172,7 @@ js_SetReservedSlot
 cx
 obj
 JSRESERVED_GLOBAL_COMPARTMENT
-PrivateTag
+PrivateValue
 (
 cx
 -
@@ -13758,7 +13758,7 @@ cx
 &
 v
 .
-asObject
+toObject
 (
 )
 deep
@@ -15821,7 +15821,7 @@ DefineProperty
 cx
 obj
 name
-ObjectTag
+ObjectValue
 (
 *
 nobj
@@ -15887,7 +15887,7 @@ cds
 Value
 value
 =
-DoubleTag
+DoubleValue
 (
 cds
 -
@@ -15989,7 +15989,7 @@ ps
 -
 >
 name
-UndefinedTag
+UndefinedValue
 (
 )
 Valueify
@@ -18619,7 +18619,7 @@ fslots
 JSSLOT_ITER_INDEX
 ]
 .
-asInt32
+toInt32
 (
 )
 >
@@ -18685,7 +18685,7 @@ fslots
 JSSLOT_ITER_INDEX
 ]
 .
-asInt32
+toInt32
 (
 )
 <
@@ -18992,7 +18992,7 @@ fslots
 JSSLOT_ITER_INDEX
 ]
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -19170,7 +19170,7 @@ iterobj
 setSlot
 (
 JSSLOT_ITER_INDEX
-Int32Tag
+Int32Value
 (
 i
 )
@@ -19898,7 +19898,7 @@ js_FunctionClass
 Value
 v
 =
-ObjectTag
+ObjectValue
 (
 *
 funobj
@@ -20016,7 +20016,7 @@ dslots
 1
 ]
 .
-asPrivateUint32
+toPrivateUint32
 (
 )
 )
@@ -20380,7 +20380,7 @@ JSFunctionSpec
 vp
 -
 >
-asObject
+toObject
 (
 )
 .
@@ -20389,7 +20389,7 @@ getReservedSlot
 0
 )
 .
-asPrivate
+toPrivate
 (
 )
 ;
@@ -20604,7 +20604,7 @@ argv
 2
 ]
 .
-asObject
+toObject
 (
 )
 .
@@ -20613,7 +20613,7 @@ getReservedSlot
 0
 )
 .
-asPrivate
+toPrivate
 (
 )
 ;
@@ -20778,7 +20778,7 @@ argv
 1
 ]
 .
-asObject
+toObject
 (
 )
 argc
@@ -20957,7 +20957,7 @@ extra
 Value
 priv
 =
-PrivateTag
+PrivateValue
 (
 fs
 )
@@ -22409,7 +22409,7 @@ ATOM_TO_JSID
 (
 funAtom
 )
-ObjectTag
+ObjectValue
 (
 *
 fun
@@ -23309,7 +23309,7 @@ InternalCall
 (
 cx
 obj
-ObjectTag
+ObjectValue
 (
 *
 fun
@@ -23649,7 +23649,7 @@ vp
 0
 ]
 .
-asObjectOrNull
+toObjectOrNull
 (
 )
 :

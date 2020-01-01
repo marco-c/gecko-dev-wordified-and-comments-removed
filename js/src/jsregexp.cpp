@@ -26626,7 +26626,7 @@ out
 }
 DEFVAL
 (
-StringTag
+StringValue
 (
 matchstr
 )
@@ -26815,7 +26815,7 @@ index
 Value
 tmp
 =
-UndefinedTag
+UndefinedValue
 (
 )
 ;
@@ -26885,7 +26885,7 @@ out
 Value
 tmp
 =
-StringTag
+StringValue
 (
 parstr
 )
@@ -26979,7 +26979,7 @@ test
 {
 DEFVAL
 (
-Int32Tag
+Int32Value
 (
 start
 +
@@ -27003,7 +27003,7 @@ indexAtom
 ;
 DEFVAL
 (
-StringTag
+StringValue
 (
 str
 )
@@ -27137,7 +27137,7 @@ obj
 >
 setRegExpLastIndex
 (
-NumberTag
+NumberValue
 (
 lastIndex
 )
@@ -27696,7 +27696,7 @@ js_DefineNativeProperty
 cx
 obj
 id
-UndefinedTag
+UndefinedValue
 (
 )
 lastIndex_getter
@@ -27786,7 +27786,7 @@ js_DefineNativeProperty
 cx
 obj
 id
-UndefinedTag
+UndefinedValue
 (
 )
 lazy
@@ -28763,7 +28763,7 @@ argv
 2
 ]
 .
-asObject
+toObject
 (
 )
 argc
@@ -29649,7 +29649,7 @@ argv
 0
 ]
 .
-asObjectOrNull
+toObjectOrNull
 (
 )
 ;
@@ -30379,7 +30379,7 @@ getRegExpLastIndex
 (
 )
 .
-asNumber
+toNumber
 (
 )
 ;
@@ -30888,7 +30888,7 @@ argv
 0
 ]
 .
-asObject
+toObject
 (
 )
 .

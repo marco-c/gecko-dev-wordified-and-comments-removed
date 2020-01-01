@@ -966,7 +966,7 @@ isPrimitive
 &
 val
 .
-asObject
+toObject
 (
 )
 .
@@ -1229,7 +1229,7 @@ isObject
 return
 v
 .
-asObject
+toObject
 (
 )
 .
@@ -5900,7 +5900,7 @@ JSDOUBLE_IS_INT32
 (
 v
 .
-asDouble
+toDouble
 (
 )
 &
@@ -5939,7 +5939,7 @@ isInt32
 return
 v
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -5955,7 +5955,7 @@ JSDOUBLE_IS_INT32
 (
 v
 .
-asDouble
+toDouble
 (
 )
 &
@@ -5970,7 +5970,7 @@ jsint
 (
 v
 .
-asDouble
+toDouble
 (
 )
 )
@@ -6009,7 +6009,7 @@ isObject
 return
 v
 .
-asObject
+toObject
 (
 )
 .
@@ -6065,7 +6065,7 @@ JSDOUBLE_IS_INT32
 (
 v
 .
-asDouble
+toDouble
 (
 )
 &
@@ -6089,7 +6089,7 @@ isObject
 return
 v
 .
-asObject
+toObject
 (
 )
 .
@@ -14064,7 +14064,7 @@ gcthings
 .
 addUnique
 (
-ObjectTag
+ObjectValue
 (
 *
 obj
@@ -14105,7 +14105,7 @@ gcthings
 .
 addUnique
 (
-ObjectTag
+ObjectValue
 (
 *
 fun
@@ -14146,7 +14146,7 @@ gcthings
 .
 addUnique
 (
-StringTag
+StringValue
 (
 str
 )
@@ -14782,7 +14782,7 @@ isInt32
 ?
 v
 .
-asInt32
+toInt32
 (
 )
 :
@@ -14791,7 +14791,7 @@ int32_t
 )
 v
 .
-asDouble
+toDouble
 (
 )
 ;
@@ -14807,7 +14807,7 @@ slot
 =
 v
 .
-asNumber
+toNumber
 (
 )
 ;
@@ -14862,7 +14862,7 @@ JSObject
 slot
 v
 .
-asObject
+toObject
 (
 )
 .
@@ -14901,7 +14901,7 @@ JSDOUBLE_IS_INT32
 (
 v
 .
-asDouble
+toDouble
 (
 )
 &
@@ -15138,7 +15138,7 @@ cx
 &
 v
 .
-asObject
+toObject
 (
 )
 )
@@ -15884,12 +15884,12 @@ void
 &
 v
 .
-asObject
+toObject
 (
 )
 v
 .
-asObject
+toObject
 (
 )
 .
@@ -15918,7 +15918,7 @@ d
 "
 v
 .
-asInt32
+toInt32
 (
 )
 )
@@ -15940,7 +15940,7 @@ g
 "
 v
 .
-asNumber
+toNumber
 (
 )
 )
@@ -15966,7 +15966,7 @@ void
 )
 v
 .
-asString
+toString
 (
 )
 )
@@ -16001,7 +16001,7 @@ d
 "
 v
 .
-asBoolean
+toBoolean
 (
 )
 )
@@ -16065,7 +16065,7 @@ cx
 &
 v
 .
-asObject
+toObject
 (
 )
 )
@@ -16090,7 +16090,7 @@ void
 &
 v
 .
-asObject
+toObject
 (
 )
 fun
@@ -21182,7 +21182,7 @@ dslots
 1
 ]
 .
-asPrivateUint32
+toPrivateUint32
 (
 )
 -
@@ -22053,7 +22053,7 @@ return
 vp
 -
 >
-asObject
+toObject
 (
 )
 .
@@ -23072,7 +23072,7 @@ gcthings
 .
 addUnique
 (
-ObjectTag
+ObjectValue
 (
 *
 fp
@@ -30985,8 +30985,8 @@ newfp
 -
 >
 rval
-.
-setUndefined
+=
+UndefinedValue
 (
 )
 ;
@@ -31291,7 +31291,7 @@ nativeVp
 0
 ]
 .
-asObject
+toObject
 (
 )
 ;
@@ -31424,8 +31424,8 @@ fp
 -
 >
 rval
-.
-setUndefined
+=
+UndefinedValue
 (
 )
 ;
@@ -34661,7 +34661,7 @@ JSDOUBLE_IS_INT32
 (
 v
 .
-asDouble
+toDouble
 (
 )
 &
@@ -34873,7 +34873,7 @@ isObject
 !
 v
 .
-asObject
+toObject
 (
 )
 .
@@ -34914,7 +34914,7 @@ isObject
 &
 v
 .
-asObject
+toObject
 (
 )
 .
@@ -35324,7 +35324,7 @@ if
 !
 IsEntryTypeCompatible
 (
-ObjectOrNullTag
+ObjectOrNullValue
 (
 *
 p
@@ -35716,7 +35716,7 @@ fp
 {
 checkSlot
 (
-ObjectOrNullTag
+ObjectOrNullValue
 (
 *
 p
@@ -46658,7 +46658,7 @@ d
 =
 v
 .
-asNumber
+toNumber
 (
 )
 ;
@@ -46728,7 +46728,7 @@ cond
 =
 v
 .
-asString
+toString
 (
 )
 -
@@ -47224,7 +47224,7 @@ d
 =
 v
 .
-asNumber
+toNumber
 (
 )
 ;
@@ -47282,7 +47282,7 @@ INS_CONSTSTR
 (
 v
 .
-asString
+toString
 (
 )
 )
@@ -47584,7 +47584,7 @@ alu
 LIR_addd
 v
 .
-asNumber
+toNumber
 (
 )
 incr
@@ -47649,7 +47649,7 @@ obj
 &
 l
 .
-asObject
+toObject
 (
 )
 ;
@@ -47800,7 +47800,7 @@ isPrimitive
 &
 l
 .
-asObject
+toObject
 (
 )
 .
@@ -48189,12 +48189,12 @@ js_EqualStrings
 (
 l
 .
-asString
+toString
 (
 )
 r
 .
-asString
+toString
 (
 )
 )
@@ -48283,14 +48283,14 @@ JSVAL_TYPE_DOUBLE
 ?
 l
 .
-asNumber
+toNumber
 (
 )
 =
 =
 r
 .
-asNumber
+toNumber
 (
 )
 :
@@ -48518,7 +48518,7 @@ clasp
 =
 l
 .
-asObject
+toObject
 (
 )
 .
@@ -48659,12 +48659,12 @@ js_EqualStrings
 (
 l
 .
-asString
+toString
 (
 )
 r
 .
-asString
+toString
 (
 )
 )
@@ -48693,14 +48693,14 @@ cond
 (
 l
 .
-asNumber
+toNumber
 (
 )
 =
 =
 r
 .
-asNumber
+toNumber
 (
 )
 )
@@ -48814,7 +48814,7 @@ cond
 (
 l
 .
-asNumber
+toNumber
 (
 )
 =
@@ -48824,7 +48824,7 @@ js_StringToNumber
 cx
 r
 .
-asString
+toString
 (
 )
 )
@@ -48885,7 +48885,7 @@ js_StringToNumber
 cx
 l
 .
-asString
+toString
 (
 )
 )
@@ -48893,7 +48893,7 @@ asString
 =
 r
 .
-asNumber
+toNumber
 (
 )
 )
@@ -49433,12 +49433,12 @@ EvalCmp
 op
 l
 .
-asString
+toString
 (
 )
 r
 .
-asString
+toString
 (
 )
 )
@@ -50151,7 +50151,7 @@ leftIsNumber
 ?
 l
 .
-asNumber
+toNumber
 (
 )
 :
@@ -50173,7 +50173,7 @@ rightIsNumber
 ?
 r
 .
-asNumber
+toNumber
 (
 )
 :
@@ -50226,7 +50226,7 @@ js_StringToNumber
 cx
 l
 .
-asString
+toString
 (
 )
 )
@@ -50283,7 +50283,7 @@ js_StringToNumber
 cx
 r
 .
-asString
+toString
 (
 )
 )
@@ -50313,7 +50313,7 @@ lnum
 =
 l
 .
-asBoolean
+toBoolean
 (
 )
 ;
@@ -50371,7 +50371,7 @@ rnum
 =
 r
 .
-asBoolean
+toBoolean
 (
 )
 ;
@@ -53162,7 +53162,7 @@ type
 =
 v
 .
-asObject
+toObject
 (
 )
 .
@@ -54324,7 +54324,7 @@ type
 =
 v
 .
-asObject
+toObject
 (
 )
 .
@@ -54987,7 +54987,7 @@ this_ins
 Value
 original
 =
-NullTag
+NullValue
 (
 )
 ;
@@ -55030,7 +55030,7 @@ if
 (
 original
 .
-asObject
+toObject
 (
 )
 .
@@ -55193,7 +55193,7 @@ clasp
 =
 original
 .
-asObject
+toObject
 (
 )
 .
@@ -55759,7 +55759,7 @@ obj
 &
 v
 .
-asObject
+toObject
 (
 )
 ;
@@ -59751,7 +59751,7 @@ isInt32
 |
 v
 .
-asInt32
+toInt32
 (
 )
 !
@@ -59774,7 +59774,7 @@ JSDOUBLE_IS_NEGZERO
 (
 v
 .
-asDouble
+toDouble
 (
 )
 )
@@ -59784,7 +59784,7 @@ asDouble
 -
 v
 .
-asNumber
+toNumber
 (
 )
 =
@@ -59795,7 +59795,7 @@ int
 -
 v
 .
-asNumber
+toNumber
 (
 )
 )
@@ -60426,7 +60426,7 @@ proto
 &
 pval
 .
-asObject
+toObject
 (
 )
 ;
@@ -61498,7 +61498,7 @@ argc
 )
 )
 .
-asObject
+toObject
 (
 )
 ;
@@ -61530,7 +61530,7 @@ gcthings
 .
 addUnique
 (
-ObjectTag
+ObjectValue
 (
 *
 funobj
@@ -62009,7 +62009,7 @@ INS_CONSTOBJ
 &
 fval
 .
-asObject
+toObject
 (
 )
 )
@@ -62033,7 +62033,7 @@ getClassPrototype
 &
 fval
 .
-asObject
+toObject
 (
 )
 *
@@ -62510,7 +62510,7 @@ vp
 0
 ]
 .
-asObject
+toObject
 (
 )
 ;
@@ -63265,7 +63265,7 @@ vp
 1
 ]
 .
-asObject
+toObject
 (
 )
 .
@@ -63927,7 +63927,7 @@ cx
 &
 fval
 .
-asObject
+toObject
 (
 )
 )
@@ -64058,7 +64058,7 @@ newArray
 &
 fval
 .
-asObject
+toObject
 (
 )
 argc
@@ -64094,7 +64094,7 @@ newString
 &
 fval
 .
-asObject
+toObject
 (
 )
 1
@@ -64246,7 +64246,7 @@ obj
 Value
 v
 =
-BooleanTag
+BooleanValue
 (
 false
 )
@@ -64281,7 +64281,7 @@ cx
 return
 v
 .
-asBoolean
+toBoolean
 (
 )
 ;
@@ -64321,7 +64321,7 @@ obj
 Value
 v
 =
-BooleanTag
+BooleanValue
 (
 false
 )
@@ -64335,7 +64335,7 @@ if
 js_ValueToStringId
 (
 cx
-StringTag
+StringValue
 (
 str
 )
@@ -64364,7 +64364,7 @@ cx
 return
 v
 .
-asBoolean
+toBoolean
 (
 )
 ;
@@ -64423,7 +64423,7 @@ if
 &
 lval
 .
-asObject
+toObject
 (
 )
 =
@@ -64585,7 +64585,7 @@ if
 &
 lval
 .
-asObject
+toObject
 (
 )
 =
@@ -64945,7 +64945,7 @@ if
 (
 r
 .
-asObject
+toObject
 (
 )
 .
@@ -65467,7 +65467,7 @@ obj
 &
 l
 .
-asObject
+toObject
 (
 )
 ;
@@ -65718,7 +65718,7 @@ methodWriteBarrier
 (
 cx
 sprop
-ObjectTag
+ObjectValue
 (
 *
 tvr
@@ -65934,7 +65934,7 @@ obj
 &
 l
 .
-asObject
+toObject
 (
 )
 ;
@@ -68867,7 +68867,7 @@ INS_CONSTOBJ
 &
 getter
 .
-asObject
+toObject
 (
 )
 )
@@ -68910,7 +68910,7 @@ INS_CONSTOBJ
 &
 getter
 .
-asObject
+toObject
 (
 )
 )
@@ -68990,7 +68990,7 @@ INS_CONSTOBJ
 &
 getter
 .
-asObject
+toObject
 (
 )
 )
@@ -69002,7 +69002,7 @@ sp
 1
 ]
 =
-ObjectTag
+ObjectValue
 (
 *
 obj
@@ -69177,7 +69177,7 @@ i
 =
 lval
 .
-asString
+toString
 (
 )
 -
@@ -69284,7 +69284,7 @@ obj
 &
 lval
 .
-asObject
+toObject
 (
 )
 ;
@@ -69386,7 +69386,7 @@ int_idx
 =
 idx
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -70786,7 +70786,7 @@ obj
 &
 lval
 .
-asObject
+toObject
 (
 )
 ;
@@ -71698,7 +71698,7 @@ if
 (
 idx
 .
-asInt32
+toInt32
 (
 )
 <
@@ -72951,7 +72951,7 @@ callee_obj
 &
 callee
 .
-asObject
+toObject
 (
 )
 ;
@@ -73316,7 +73316,7 @@ if
 (
 fval
 .
-asObject
+toObject
 (
 )
 .
@@ -73458,7 +73458,7 @@ gcthings
 .
 addUnique
 (
-ObjectTag
+ObjectValue
 (
 *
 fp
@@ -73975,7 +73975,7 @@ vp
 0
 ]
 .
-asObject
+toObject
 (
 )
 ;
@@ -74159,7 +74159,7 @@ vp
 3
 ]
 .
-asObject
+toObject
 (
 )
 ;
@@ -75041,7 +75041,7 @@ funobj
 Value
 v
 =
-ObjectTag
+ObjectValue
 (
 *
 funobj
@@ -75087,7 +75087,7 @@ value
 (
 )
 .
-asObject
+toObject
 (
 )
 ;
@@ -75959,7 +75959,7 @@ obj
 &
 oval
 .
-asObject
+toObject
 (
 )
 ;
@@ -75978,7 +75978,7 @@ idx
 =
 ival
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -76366,7 +76366,7 @@ obj
 &
 oval
 .
-asObject
+toObject
 (
 )
 ;
@@ -76385,7 +76385,7 @@ idx
 =
 ival
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -77073,7 +77073,7 @@ getProp
 &
 v
 .
-asObject
+toObject
 (
 )
 get
@@ -77150,7 +77150,7 @@ pc
 )
 ]
 .
-asDouble
+toDouble
 (
 )
 ;
@@ -78274,7 +78274,7 @@ AutoValueRooter
 tvr
 (
 cx
-ObjectTag
+ObjectValue
 (
 *
 obj
@@ -78320,7 +78320,7 @@ value
 (
 )
 .
-asObject
+toObject
 (
 )
 ;
@@ -78639,7 +78639,7 @@ iterobj
 &
 iterobj_val
 .
-asObject
+toObject
 (
 )
 ;
@@ -79010,7 +79010,7 @@ if
 js_CloseIterator
 (
 cx
-ObjectTag
+ObjectValue
 (
 *
 iterobj
@@ -79271,7 +79271,7 @@ iterobj
 &
 iterobj_val
 .
-asObject
+toObject
 (
 )
 ;
@@ -80420,7 +80420,7 @@ obj
 callee
 -
 >
-asObject
+toObject
 (
 )
 .
@@ -80684,7 +80684,7 @@ obj
 &
 rval
 .
-asObject
+toObject
 (
 )
 ;
@@ -80722,7 +80722,7 @@ js_Int32ToId
 cx
 lval
 .
-asInt32
+toInt32
 (
 )
 &
@@ -81607,7 +81607,7 @@ isPrimitive
 &
 lval
 .
-asObject
+toObject
 (
 )
 .
@@ -82898,7 +82898,7 @@ slot
 =
 slotval
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -82992,7 +82992,7 @@ slot
 =
 slotval
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -83087,7 +83087,7 @@ slot
 =
 slotval
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -83178,7 +83178,7 @@ slot
 =
 slotval
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -83270,7 +83270,7 @@ slot
 =
 slotval
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -83362,7 +83362,7 @@ slot
 =
 slotval
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -83924,7 +83924,7 @@ obj
 &
 l
 .
-asObject
+toObject
 (
 )
 ;
@@ -84881,7 +84881,7 @@ JS_ASSERT
 (
 arrayval
 .
-asObject
+toObject
 (
 )
 .
@@ -85073,7 +85073,7 @@ fp
 >
 thisv
 .
-asObject
+toObject
 (
 )
 this_ins
@@ -85253,7 +85253,7 @@ slot
 =
 slotval
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -85574,7 +85574,7 @@ obj
 &
 l
 .
-asObject
+toObject
 (
 )
 ;
