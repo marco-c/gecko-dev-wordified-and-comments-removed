@@ -339,6 +339,9 @@ while
 resultNode
 &
 &
+node
+&
+&
 !
 nsEditor
 :
