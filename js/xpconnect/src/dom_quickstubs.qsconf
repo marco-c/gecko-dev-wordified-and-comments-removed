@@ -5741,11 +5741,6 @@ False
 #
 WebGL
 '
-nsIDOMWebGLRenderingContext_BufferSubData
-'
-:
-CUSTOM_QS
-'
 nsIDOMWebGLRenderingContext_ReadPixels
 '
 :
