@@ -98,6 +98,11 @@ requestAnimationFrame
 window
 .
 mozRequestAnimationFrame
+inspectorUI
+:
+window
+.
+InspectorUI
 onError
 :
 function
