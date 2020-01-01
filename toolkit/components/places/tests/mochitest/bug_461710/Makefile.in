@@ -110,6 +110,10 @@ link_page
 .
 html
 \
+iframe
+.
+html
+\
 (
 NULL
 )
