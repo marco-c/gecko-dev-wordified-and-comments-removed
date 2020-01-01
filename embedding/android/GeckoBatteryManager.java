@@ -82,6 +82,17 @@ private
 final
 static
 double
+kDefaultRemainingTime
+=
+-
+1
+.
+0
+;
+private
+final
+static
+double
 kUnknownRemainingTime
 =
 -
@@ -126,7 +137,7 @@ static
 double
 sRemainingTime
 =
-kUnknownRemainingTime
+kDefaultRemainingTime
 ;
 ;
 Override
@@ -571,7 +582,7 @@ kDefaultCharging
 ;
 sRemainingTime
 =
-kUnknownRemainingTime
+kDefaultRemainingTime
 ;
 }
 if
