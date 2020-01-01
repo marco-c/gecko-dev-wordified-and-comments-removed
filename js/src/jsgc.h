@@ -741,7 +741,7 @@ FINALIZE_XML
 #
 endif
 struct
-JSGCArenaInfo
+JSGCArena
 ;
 struct
 JSGCChunkInfo
@@ -749,11 +749,11 @@ JSGCChunkInfo
 struct
 JSGCArenaList
 {
-JSGCArenaInfo
+JSGCArena
 *
 head
 ;
-JSGCArenaInfo
+JSGCArena
 *
 cursor
 ;
@@ -768,11 +768,11 @@ thingSize
 struct
 JSGCDoubleArenaList
 {
-JSGCArenaInfo
+JSGCArena
 *
 head
 ;
-JSGCArenaInfo
+JSGCArena
 *
 cursor
 ;

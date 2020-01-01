@@ -1365,7 +1365,7 @@ gcCallback
 ptrdiff_t
 gcMallocBytes
 ;
-JSGCArenaInfo
+JSGCArena
 *
 gcUnmarkedArenaStackTop
 ;
