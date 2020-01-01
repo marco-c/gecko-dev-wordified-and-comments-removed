@@ -18,6 +18,13 @@ nsStyleStructFwd
 .
 h
 "
+#
+include
+"
+nsTArray
+.
+h
+"
 class
 nsPresContext
 ;
@@ -65,8 +72,11 @@ nsStyleContext
 *
 mStyleContext
 ;
+nsTArray
+<
 nsPostResolveFunc
-mPostResolveCallback
+>
+mPostResolveCallbacks
 ;
 nsRuleDataFont
 *
@@ -148,10 +158,6 @@ aContext
 mStyleContext
 (
 aStyleContext
-)
-mPostResolveCallback
-(
-nsnull
 )
 mFontData
 (
