@@ -2449,10 +2449,6 @@ file_html_in_xhr
 .
 sjs
 \
-file_html_in_xhr_slow
-.
-sjs
-\
 test_bug664916
 .
 html
