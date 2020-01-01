@@ -226,8 +226,8 @@ colors
 right
 :
 [
-0
-0
+255
+255
 255
 ]
 bottom
@@ -242,8 +242,8 @@ bottom
 right
 :
 [
-0
-0
+255
+255
 255
 ]
 bottom
@@ -258,8 +258,8 @@ bottom
 right
 :
 [
-0
-0
+255
+255
 255
 ]
 bottom
@@ -375,8 +375,8 @@ right
 bottom
 :
 [
-255
-255
+0
+0
 255
 ]
 }
