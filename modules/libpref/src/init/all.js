@@ -10967,7 +10967,7 @@ pixels
 .
 durationMaxMS
 "
-800
+400
 )
 ;
 pref
