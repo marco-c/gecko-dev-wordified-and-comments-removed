@@ -383,6 +383,10 @@ BLOCK
 IPDLSRCS
 =
 \
+PAudio
+.
+ipdl
+\
 PBrowser
 .
 ipdl

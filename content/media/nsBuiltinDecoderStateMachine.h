@@ -687,7 +687,7 @@ mEndTime
 PRInt64
 mSeekTime
 ;
-nsAutoPtr
+nsRefPtr
 <
 nsAudioStream
 >

@@ -443,6 +443,10 @@ BLOCK
 /
 include
 protocol
+PAudio
+;
+include
+protocol
 PBrowser
 ;
 include
@@ -530,6 +534,9 @@ rpc
 protocol
 PContent
 {
+manages
+PAudio
+;
 manages
 PBrowser
 ;
@@ -628,6 +635,16 @@ parent
 :
 PNecko
 (
+)
+;
+PAudio
+(
+PRInt32
+aNumChannels
+PRInt32
+aRate
+PRInt32
+aFormat
 )
 ;
 /

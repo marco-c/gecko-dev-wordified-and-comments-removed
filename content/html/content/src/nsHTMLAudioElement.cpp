@@ -536,8 +536,10 @@ Shutdown
 }
 mAudioStream
 =
-new
 nsAudioStream
+:
+:
+AllocateStream
 (
 )
 ;

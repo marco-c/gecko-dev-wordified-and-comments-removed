@@ -662,7 +662,7 @@ nsMediaStream
 *
 mStream
 ;
-nsAutoPtr
+nsRefPtr
 <
 nsAudioStream
 >
@@ -2893,8 +2893,10 @@ OpenAudioStream
 {
 mAudioStream
 =
-new
 nsAudioStream
+:
+:
+AllocateStream
 (
 )
 ;
