@@ -126,6 +126,13 @@ h
 #
 include
 "
+nsIDownloadHistory
+.
+h
+"
+#
+include
+"
 nsIPrefService
 .
 h
@@ -300,6 +307,8 @@ nsIBrowserHistory
 public
 nsIGlobalHistory3
 public
+nsIDownloadHistory
+public
 nsIAutoCompleteSearch
 public
 nsIAutoCompleteSimpleResultListener
@@ -322,6 +331,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSINAVHISTORYSERVICE
 NS_DECL_NSIGLOBALHISTORY2
 NS_DECL_NSIGLOBALHISTORY3
+NS_DECL_NSIDOWNLOADHISTORY
 NS_DECL_NSIBROWSERHISTORY
 NS_DECL_NSIOBSERVER
 NS_DECL_NSIAUTOCOMPLETESEARCH
