@@ -1483,9 +1483,6 @@ aId
 return
 ;
 }
-#
-ifdef
-MOZ_B2G
 this
 .
 _readManifests
@@ -1571,8 +1568,6 @@ this
 )
 )
 ;
-#
-endif
 }
 updateOfflineCacheForApp
 :
@@ -6843,9 +6838,6 @@ aData
 app
 )
 ;
-#
-ifdef
-MOZ_B2G
 PermissionsInstaller
 .
 installPermissions
@@ -6868,8 +6860,6 @@ manifestURL
 true
 )
 ;
-#
-endif
 this
 .
 broadcastMessage
@@ -8060,9 +8050,6 @@ app
 origin
 )
 ;
-#
-ifdef
-MOZ_B2G
 PermissionsInstaller
 .
 installPermissions
@@ -8087,8 +8074,6 @@ manifestURL
 true
 )
 ;
-#
-endif
 app
 .
 name
@@ -11378,9 +11363,6 @@ aData
 isPackage
 )
 {
-#
-ifdef
-MOZ_B2G
 PermissionsInstaller
 .
 installPermissions
@@ -11425,8 +11407,6 @@ this
 )
 )
 ;
-#
-endif
 }
 [
 "
@@ -11807,9 +11787,6 @@ aManifest
 appObject
 )
 ;
-#
-ifdef
-MOZ_B2G
 PermissionsInstaller
 .
 installPermissions
@@ -11832,8 +11809,6 @@ manifestURL
 true
 )
 ;
-#
-endif
 debug
 (
 "
