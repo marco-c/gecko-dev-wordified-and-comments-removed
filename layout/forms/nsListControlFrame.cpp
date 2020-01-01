@@ -9739,6 +9739,10 @@ if
 isControl
 &
 &
+!
+isShift
+&
+&
 charcode
 !
 =
