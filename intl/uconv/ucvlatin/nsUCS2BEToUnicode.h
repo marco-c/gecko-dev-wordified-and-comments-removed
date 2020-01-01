@@ -67,6 +67,9 @@ mOddByte
 PRUnichar
 mOddHighSurrogate
 ;
+PRUnichar
+mOddLowSurrogate
+;
 }
 ;
 class
