@@ -45,6 +45,9 @@ nsIDOMCharacterData
 class
 nsISelection
 ;
+class
+nsRange
+;
 struct
 nsRangeStore
 {
@@ -68,10 +71,8 @@ aRange
 nsresult
 GetRange
 (
-nsCOMPtr
-<
-nsIDOMRange
->
+nsRange
+*
 *
 outRange
 )

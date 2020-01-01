@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsIRange
+nsRange
 .
 h
 "
@@ -184,7 +184,7 @@ InitForSelection
 nsresult
 InitForRange
 (
-nsIRange
+nsRange
 *
 aRange
 )
@@ -236,9 +236,9 @@ eOpResume
 Operation
 mOp
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIRange
+nsRange
 >
 mRange
 ;
@@ -248,9 +248,9 @@ nsIDOMRange
 >
 mCreatedRange
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIRange
+nsRange
 >
 mNoCheckRange
 ;
@@ -708,7 +708,7 @@ nsIDOMNode
 aEndNode
 PRInt32
 aEndOffset
-nsIRange
+nsRange
 *
 *
 aRange

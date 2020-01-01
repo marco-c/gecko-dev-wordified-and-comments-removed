@@ -103,7 +103,7 @@ nsRefreshDriver
 h
 "
 class
-nsIRange
+nsRange
 ;
 class
 nsIDragService
@@ -2035,7 +2035,7 @@ aBuilder
 nsDisplayList
 *
 aList
-nsIRange
+nsRange
 *
 aRange
 )

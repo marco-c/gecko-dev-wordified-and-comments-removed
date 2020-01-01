@@ -815,7 +815,7 @@ const
 RealWord
 &
 aWord
-nsIRange
+nsRange
 *
 *
 aRange
@@ -865,7 +865,7 @@ nsIDOMNode
 aWordNode
 PRInt32
 aWordOffset
-nsIRange
+nsRange
 *
 *
 aRange
@@ -1056,7 +1056,7 @@ GetNextWord
 nsAString
 &
 aText
-nsIRange
+nsRange
 *
 *
 aRange
@@ -1224,7 +1224,7 @@ NodeOffset
 aBegin
 NodeOffset
 aEnd
-nsIRange
+nsRange
 *
 *
 aRange

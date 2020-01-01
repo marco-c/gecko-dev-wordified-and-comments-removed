@@ -74,6 +74,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+nsRange
+.
+h
+"
 class
 nsIDOMElement
 ;
@@ -2011,9 +2018,9 @@ nsHTMLEditor
 *
 mHTMLEditor
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMRange
+nsRange
 >
 mDocChangeRange
 ;
@@ -2032,9 +2039,9 @@ mDidRangedDelete
 bool
 mRestoreContentEditableCount
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMRange
+nsRange
 >
 mUtilRange
 ;

@@ -35,7 +35,7 @@ h
 #
 include
 "
-nsIDOMRange
+nsRange
 .
 h
 "
@@ -93,15 +93,6 @@ nsresult
 Init
 (
 nsIDOMRange
-*
-aRange
-)
-;
-virtual
-nsresult
-Init
-(
-nsIRange
 *
 aRange
 )

@@ -487,10 +487,6 @@ nsINodeList
 .
 h
 \
-nsIRange
-.
-h
-\
 nsIRangeUtils
 .
 h

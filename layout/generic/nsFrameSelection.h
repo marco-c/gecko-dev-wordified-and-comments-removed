@@ -65,7 +65,7 @@ h
 #
 include
 "
-nsIRange
+nsRange
 .
 h
 "
@@ -1182,13 +1182,13 @@ PRInt32
 aColIndex
 )
 ;
-nsIRange
+nsRange
 *
 GetFirstCellRange
 (
 )
 ;
-nsIRange
+nsRange
 *
 GetNextCellRange
 (
@@ -1198,7 +1198,7 @@ nsIContent
 *
 GetFirstCellNodeInRange
 (
-nsIRange
+nsRange
 *
 aRange
 )
@@ -1278,9 +1278,9 @@ mSelectingTableCellMode
 PRInt32
 mSelectedCellIndex
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIRange
+nsRange
 >
 mMaintainRange
 ;

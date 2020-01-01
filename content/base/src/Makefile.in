@@ -460,6 +460,10 @@ nsPropertyTable
 .
 h
 \
+nsRange
+.
+h
+\
 nsScriptLoader
 .
 h
