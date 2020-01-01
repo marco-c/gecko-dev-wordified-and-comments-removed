@@ -103,6 +103,11 @@ autoconf
 mk
 '
 '
+emptyvars
+.
+mk
+'
+'
 doxygen
 .
 cfg

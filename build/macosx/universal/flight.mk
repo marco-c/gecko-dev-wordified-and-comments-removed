@@ -145,6 +145,11 @@ topsrcdir
 (
 TOPSRCDIR
 )
+DEPTH
+=
+(
+OBJDIR
+)
 include
 (
 OBJDIR
