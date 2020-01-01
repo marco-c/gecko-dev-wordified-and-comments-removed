@@ -3466,6 +3466,23 @@ XPCOM_DEBUG_BREAK
 warn
 "
     
+env
+[
+"
+ASAN_OPTIONS
+"
+]
+=
+"
+quarantine_size
+=
+1
+:
+redzone
+=
+32
+"
+    
 if
 self
 .
