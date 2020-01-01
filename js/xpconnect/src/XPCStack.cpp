@@ -277,11 +277,6 @@ MAX_FRAMES
 =
 100
 ;
-unsigned
-numFrames
-=
-0
-;
 nsRefPtr
 <
 XPCJSStackFrame
