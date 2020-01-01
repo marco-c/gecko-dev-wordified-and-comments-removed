@@ -603,7 +603,7 @@ aInPrivateBrowsing
 *
 Returns
 true
-iif
+iff
 the
 load
 is
