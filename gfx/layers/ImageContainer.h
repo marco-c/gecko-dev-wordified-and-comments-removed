@@ -1147,9 +1147,6 @@ gfxIntSize
 mYSize
 ;
 int32_t
-mYOffset
-;
-int32_t
 mYSkip
 ;
 uint8_t
@@ -1167,13 +1164,7 @@ gfxIntSize
 mCbCrSize
 ;
 int32_t
-mCbOffset
-;
-int32_t
 mCbSkip
-;
-int32_t
-mCrOffset
 ;
 int32_t
 mCrSkip
