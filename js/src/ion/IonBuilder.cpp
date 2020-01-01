@@ -3057,6 +3057,12 @@ true
 case
 JSOP_CALL
 :
+case
+JSOP_FUNCALL
+:
+case
+JSOP_FUNAPPLY
+:
 return
 jsop_call
 (
