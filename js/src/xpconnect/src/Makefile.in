@@ -432,6 +432,9 @@ mk
 MODULE
 =
 xpconnect
+DIRS
+=
+wrappers
 ifeq
 (
 xpconnect
