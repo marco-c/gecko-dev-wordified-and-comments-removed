@@ -16774,6 +16774,7 @@ keyword
 "
 ]
 }
+window
 )
 ;
 }
@@ -30638,6 +30639,7 @@ keyword
 "
 ]
 }
+window
 )
 ;
 event
@@ -36080,6 +36082,7 @@ folderPicker
 "
 ]
 }
+window
 )
 ;
 }

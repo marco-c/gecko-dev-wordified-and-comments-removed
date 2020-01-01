@@ -2108,6 +2108,7 @@ keyword
 "
 ]
 }
+window
 )
 ;
 }
@@ -2132,6 +2133,7 @@ itemId
 :
 itemId
 }
+window
 )
 ;
 }
@@ -2266,6 +2268,7 @@ description
 "
 ]
 }
+window
 )
 ;
 }
@@ -2436,6 +2439,7 @@ description
 "
 ]
 }
+window
 )
 ;
 }

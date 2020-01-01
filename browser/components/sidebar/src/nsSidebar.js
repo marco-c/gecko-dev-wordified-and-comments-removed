@@ -889,6 +889,9 @@ keyword
 location
 "
 "
+folderPicker
+"
+"
 loadInSidebar
 "
 ]
@@ -903,7 +906,6 @@ loadBookmarkInSidebar
 true
 }
 win
-true
 )
 ;
 }
