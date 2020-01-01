@@ -592,6 +592,12 @@ flags
 PNG_FLAG_ASSUME_sRGB
 ;
 #
+else
+PNG_UNUSED
+(
+png_ptr
+)
+#
 endif
 if
 (
