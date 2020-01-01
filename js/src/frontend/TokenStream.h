@@ -3083,7 +3083,7 @@ size_t
 length
 )
 ;
-JSBool
+bool
 IsIdentifier
 (
 JSLinearString

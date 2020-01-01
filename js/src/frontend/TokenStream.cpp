@@ -473,7 +473,7 @@ return
 NULL
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -2653,7 +2653,7 @@ int
 c
 d
 ;
-JSBool
+bool
 ispair
 ;
 jschar
@@ -3712,7 +3712,7 @@ c
 )
 )
 {
-JSBool
+bool
 sawColon
 =
 false
@@ -10052,7 +10052,7 @@ n
 i
 c
 ;
-JSBool
+bool
 crflag
 ;
 n
