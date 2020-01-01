@@ -288,10 +288,6 @@ INACTIVE_COMPONENT
 =
 1
 endif
-DIRS
-+
-=
-faststartupqt
 include
 (
 topsrcdir
