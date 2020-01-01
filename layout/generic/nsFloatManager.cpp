@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsHashSets
-.
-h
-"
-#
-include
-"
 nsBlockDebugFlags
 .
 h
@@ -1400,7 +1393,13 @@ return
 NS_OK
 ;
 }
-nsVoidHashSet
+nsTHashtable
+<
+nsPtrHashKey
+<
+nsIFrame
+>
+>
 frameSet
 ;
 frameSet
@@ -1432,7 +1431,7 @@ GetNextSibling
 {
 frameSet
 .
-Put
+PutEntry
 (
 f
 )
