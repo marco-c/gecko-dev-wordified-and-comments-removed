@@ -6481,6 +6481,7 @@ mBeganUpdate
 +
 mInNotification
 ;
+{
 mozAutoDocUpdate
 updateBatch
 (
@@ -6604,6 +6605,7 @@ stackLen
 -
 1
 ;
+}
 -
 -
 mInNotification

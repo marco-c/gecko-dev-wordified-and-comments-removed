@@ -5250,6 +5250,7 @@ mSink
 mInNotification
 )
 ;
+{
 mozAutoDocUpdate
 updateBatch
 (
@@ -5500,6 +5501,7 @@ mStackPos
 -
 1
 ;
+}
 -
 -
 (
