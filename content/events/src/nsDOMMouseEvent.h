@@ -67,16 +67,4 @@ aWhich
 }
 ;
 #
-define
-NS_FORWARD_TO_NSDOMMOUSEEVENT
-\
-NS_FORWARD_NSIDOMMOUSEEVENT
-(
-nsDOMMouseEvent
-:
-:
-)
-\
-NS_FORWARD_TO_NSDOMUIEVENT
-#
 endif

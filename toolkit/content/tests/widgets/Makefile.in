@@ -663,10 +663,6 @@ test_tabindex
 .
 xul
 \
-test_mousescroll
-.
-xul
-\
 test_scrollbar
 .
 xul

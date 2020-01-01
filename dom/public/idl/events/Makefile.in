@@ -463,10 +463,6 @@ nsIDOMMouseEvent
 .
 idl
 \
-nsIDOMMouseScrollEvent
-.
-idl
-\
 nsIDOMUIEvent
 .
 idl
