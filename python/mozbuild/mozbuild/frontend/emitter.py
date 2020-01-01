@@ -594,6 +594,12 @@ DEFINES
 DEFINES
 '
             
+EXPORT_LIBRARY
+=
+'
+EXPORT_LIBRARY
+'
+            
 EXTRA_COMPONENTS
 =
 '
@@ -622,6 +628,18 @@ FAIL_ON_WARNINGS
 =
 '
 FAIL_ON_WARNINGS
+'
+            
+FORCE_SHARED_LIB
+=
+'
+FORCE_SHARED_LIB
+'
+            
+FORCE_STATIC_LIB
+=
+'
+FORCE_STATIC_LIB
 '
             
 GTEST_CMMSRCS
@@ -658,6 +676,12 @@ HOST_LIBRARY_NAME
 =
 '
 HOST_LIBRARY_NAME
+'
+            
+IS_COMPONENT
+=
+'
+IS_COMPONENT
 '
             
 JS_MODULES_PATH
