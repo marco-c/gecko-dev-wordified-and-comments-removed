@@ -11,7 +11,7 @@ kinfo_proc
 kinfo_proc
 ;
 int
-get_proc_list
+psutil_get_proc_list
 (
 kinfo_proc
 *
@@ -23,7 +23,7 @@ procCount
 )
 ;
 int
-get_kinfo_proc
+psutil_get_kinfo_proc
 (
 pid_t
 pid
@@ -34,13 +34,13 @@ kp
 )
 ;
 int
-get_argmax
+psutil_get_argmax
 (
 void
 )
 ;
 int
-pid_exists
+psutil_pid_exists
 (
 long
 pid
@@ -62,7 +62,7 @@ size
 ;
 PyObject
 *
-get_arg_list
+psutil_get_arg_list
 (
 long
 pid

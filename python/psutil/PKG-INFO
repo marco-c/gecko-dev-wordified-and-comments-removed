@@ -12,7 +12,7 @@ Version
 :
 0
 .
-6
+7
 .
 1
 Summary
@@ -93,7 +93,7 @@ psutil
 -
 0
 .
-6
+7
 .
 1
 .
@@ -2211,6 +2211,18 @@ Python
 3
 .
 2
+Classifier
+:
+Programming
+Language
+:
+:
+Python
+:
+:
+3
+.
+3
 Classifier
 :
 Topic

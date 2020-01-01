@@ -91,7 +91,7 @@ _psutil_common
 h
 "
 int
-pid_exists
+psutil_pid_exists
 (
 long
 pid
@@ -146,7 +146,7 @@ return
 ;
 }
 int
-get_proc_list
+psutil_get_proc_list
 (
 kinfo_proc
 *
@@ -400,7 +400,7 @@ ENOMEM
 ;
 }
 int
-get_argmax
+psutil_get_argmax
 (
 )
 {
@@ -453,7 +453,7 @@ return
 }
 PyObject
 *
-get_arg_list
+psutil_get_arg_list
 (
 long
 pid
@@ -524,7 +524,7 @@ Py_BuildValue
 }
 argmax
 =
-get_argmax
+psutil_get_argmax
 (
 )
 ;
@@ -618,7 +618,7 @@ errno
 {
 if
 (
-pid_exists
+psutil_pid_exists
 (
 pid
 )
@@ -863,7 +863,7 @@ NULL
 ;
 }
 int
-get_kinfo_proc
+psutil_get_kinfo_proc
 (
 pid_t
 pid
@@ -1007,7 +1007,7 @@ ret
 if
 (
 !
-pid_exists
+psutil_pid_exists
 (
 pid
 )

@@ -168,14 +168,8 @@ pBuffer
 NULL
 )
 {
-PyErr_SetFromWindowsErr
+PyErr_NoMemory
 (
-0
-)
-;
-free
-(
-pBuffer
 )
 ;
 return
