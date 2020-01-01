@@ -84,16 +84,6 @@ bogus
 #
 test
 data
-NOWARN_AUTOTARGETS
-=
-1
-#
-Unit
-test
-includes
-makefile
-twice
-.
 undefine
 USE_AUTOTARGETS_MK
 undefine
