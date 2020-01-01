@@ -903,9 +903,17 @@ unit2
 ;
 if
 (
+(
 aSeconds
 <
 3600
+&
+&
+time1
+>
+=
+4
+)
 |
 |
 time2
