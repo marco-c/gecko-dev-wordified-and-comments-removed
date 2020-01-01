@@ -347,12 +347,6 @@ chunkifyTests
 js
 \
 harness
--
-overlay
-.
-xul
-\
-harness
 .
 xul
 \
