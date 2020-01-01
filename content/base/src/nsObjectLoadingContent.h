@@ -386,6 +386,15 @@ PRBool
 aFlushLayout
 )
 ;
+void
+HandleBeingBlockedByContentPolicy
+(
+nsresult
+aStatus
+PRInt16
+aRetval
+)
+;
 nsresult
 TryInstantiate
 (
