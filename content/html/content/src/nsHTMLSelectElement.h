@@ -98,6 +98,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsXPCOM
 .
 h
