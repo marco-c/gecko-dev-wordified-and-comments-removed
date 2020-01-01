@@ -515,7 +515,7 @@ gcliterm
 .
 opts
 .
-display
+console
 .
 inputter
 .

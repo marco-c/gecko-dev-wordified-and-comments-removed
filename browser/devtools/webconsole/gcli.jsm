@@ -2504,7 +2504,7 @@ gcli
 /
 ui
 /
-display
+console
 '
 ]
 function
@@ -2648,7 +2648,7 @@ cli
 Requisition
 ;
 var
-Display
+Console
 =
 require
 (
@@ -2657,11 +2657,11 @@ gcli
 /
 ui
 /
-display
+console
 '
 )
 .
-Display
+Console
 ;
 var
 cli
@@ -2783,10 +2783,10 @@ chromeDocument
 }
 opts
 .
-display
+console
 =
 new
-Display
+Console
 (
 opts
 )
@@ -2801,7 +2801,7 @@ opts
 {
 opts
 .
-display
+console
 .
 destroy
 (
@@ -2810,7 +2810,7 @@ destroy
 delete
 opts
 .
-display
+console
 ;
 opts
 .
@@ -22896,7 +22896,7 @@ gcli
 /
 ui
 /
-display
+console
 '
 [
 '
@@ -23009,7 +23009,7 @@ focus
 FocusManager
 ;
 function
-Display
+Console
 (
 options
 )
@@ -23294,7 +23294,7 @@ this
 )
 ;
 }
-Display
+Console
 .
 prototype
 .
@@ -23456,7 +23456,7 @@ hintElement
 ;
 }
 ;
-Display
+Console
 .
 prototype
 .
@@ -23669,9 +23669,9 @@ white
 ;
 exports
 .
-Display
+Console
 =
-Display
+Console
 ;
 }
 )
