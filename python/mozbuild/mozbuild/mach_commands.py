@@ -2804,6 +2804,12 @@ get_binary_path
 app
 '
 )
+'
+-
+no
+-
+remote
+'
 ]
         
 except
@@ -3008,6 +3014,11 @@ args
 =
 [
 debugger
+'
+-
+-
+args
+'
 self
 .
 get_binary_path
@@ -3016,6 +3027,12 @@ get_binary_path
 app
 '
 )
+'
+-
+no
+-
+remote
+'
 ]
         
 except
@@ -3065,18 +3082,6 @@ return
 if
 params
 :
-            
-args
-.
-insert
-(
-1
-'
--
--
-args
-'
-)
             
 args
 .
