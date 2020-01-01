@@ -11800,10 +11800,6 @@ GetOrMakeFont
 fe
 &
 mStyle
-mFontNeedsBold
-[
-i
-]
 )
 ;
 if
