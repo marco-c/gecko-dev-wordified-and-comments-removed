@@ -5114,7 +5114,7 @@ sp
 >
 setMagic
 (
-JS_ARRAY_HOLE
+JS_ELEMENTS_HOLE
 )
 #
 define
@@ -16097,7 +16097,7 @@ JS_ASSERT
 obj
 -
 >
-isDenseArray
+isArray
 (
 )
 )
