@@ -1880,7 +1880,7 @@ SetProcessPriority
 getpid
 (
 )
-PROCESS_PRIORITY_FOREGROUND
+mProcessPriority
 )
 ;
 }
