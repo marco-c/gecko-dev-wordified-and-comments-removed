@@ -539,8 +539,6 @@ xuldoc
 \
 xultmpl
 \
-widget
-\
 (
 NULL
 )
