@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -431,12 +424,6 @@ mInternalState
 ;
 PRUint32
 mExpatBuffered
-;
-nsCOMPtr
-<
-nsIContentSink
->
-mOriginalSink
 ;
 nsCOMPtr
 <
