@@ -9983,6 +9983,17 @@ gDebugMode
 gDesiredDebugMode
 )
 {
+if
+(
+!
+NS_IsMainThread
+(
+)
+)
+{
+return
+;
+}
 nsresult
 rv
 ;

@@ -437,6 +437,10 @@ test_bug507448
 .
 html
 \
+bug507448
+.
+js
+\
 (
 NULL
 )
