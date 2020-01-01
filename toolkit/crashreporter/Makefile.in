@@ -788,6 +788,16 @@ DIRS
 +
 =
 fileid
+#
+NDK5
+workarounds
+DEFINES
++
+=
+-
+D_STLP_CONST_CONSTRUCTOR_BUG
+-
+D_STLP_NO_MEMBER_TEMPLATES
 endif
 DIRS
 +
