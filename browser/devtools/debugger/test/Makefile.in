@@ -374,6 +374,10 @@ windows
 .
 js
 \
+browser_dbg_menustatus
+.
+js
+\
 head
 .
 js

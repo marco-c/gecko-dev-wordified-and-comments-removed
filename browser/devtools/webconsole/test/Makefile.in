@@ -495,6 +495,10 @@ browser_bug664688_sandbox_update_after_navigation
 .
 js
 \
+browser_webconsole_menustatus
+.
+js
+\
 head
 .
 js
