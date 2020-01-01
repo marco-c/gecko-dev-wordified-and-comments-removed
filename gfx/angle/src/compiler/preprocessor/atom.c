@@ -545,7 +545,7 @@ strlen
 s
 )
 ;
-if
+while
 (
 stable
 -
@@ -616,6 +616,18 @@ stable
 strings
 =
 str
+;
+stable
+-
+>
+size
+=
+stable
+-
+>
+size
+*
+2
 ;
 }
 loc
