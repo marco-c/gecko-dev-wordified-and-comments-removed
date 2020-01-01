@@ -220,6 +220,11 @@ QueryDuration
 (
 )
 ;
+nsresult
+CheckSupportedFormats
+(
+)
+;
 static
 void
 PlayBinSourceSetupCb
