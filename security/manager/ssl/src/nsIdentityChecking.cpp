@@ -2294,6 +2294,8 @@ reader_position
 =
 pos_issuer
 ;
+continue
+;
 }
 else
 if
@@ -2324,6 +2326,8 @@ reader_position
 =
 pos_serial
 ;
+continue
+;
 }
 else
 if
@@ -2331,7 +2335,7 @@ if
 reader_position
 =
 =
-pos_readable_oid
+pos_serial
 &
 &
 descriptor
