@@ -7286,6 +7286,10 @@ conservativeStats
 ;
 #
 endif
+eagerlyTraceWeakMaps
+=
+JS_FALSE
+;
 }
 GCMarker
 :
@@ -7380,7 +7384,7 @@ static
 void
 MarkDelayedChildren
 (
-JSTracer
+GCMarker
 *
 trc
 Arena

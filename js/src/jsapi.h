@@ -5352,6 +5352,9 @@ debugPrintArg
 size_t
 debugPrintIndex
 ;
+JSBool
+eagerlyTraceWeakMaps
+;
 }
 ;
 extern
@@ -5693,6 +5696,16 @@ size_t
 )
 -
 1
+;
+\
+(
+trc
+)
+-
+>
+eagerlyTraceWeakMaps
+=
+JS_TRUE
 ;
 \
 JS_END_MACRO
