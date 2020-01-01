@@ -506,6 +506,10 @@ helper
 .
 svg
 \
+test_isSupported
+.
+xhtml
+\
 test_pathSeg
 .
 xhtml
