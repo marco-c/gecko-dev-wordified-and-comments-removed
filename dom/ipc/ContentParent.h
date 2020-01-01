@@ -678,14 +678,12 @@ Init
 )
 ;
 void
-TransformPreallocatedIntoApp
+SetManifestFromPreallocated
 (
 const
 nsAString
 &
 aAppManifestURL
-ChildPrivileges
-aPrivs
 )
 ;
 void
