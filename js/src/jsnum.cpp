@@ -3568,7 +3568,7 @@ args
 #
 if
 !
-ENABLE_INTL_API
+EXPOSE_INTL_API
 JS_ALWAYS_INLINE
 bool
 num_toLocaleString_impl
@@ -5122,7 +5122,7 @@ js_num_toString
 )
 #
 if
-ENABLE_INTL_API
+EXPOSE_INTL_API
 {
 js_toLocaleString_str
 {
@@ -5976,7 +5976,7 @@ MinDoubleValue
 #
 if
 !
-ENABLE_INTL_API
+EXPOSE_INTL_API
 const
 char
 *
@@ -6201,7 +6201,7 @@ true
 #
 if
 !
-ENABLE_INTL_API
+EXPOSE_INTL_API
 void
 js
 :

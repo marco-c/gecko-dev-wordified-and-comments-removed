@@ -4302,7 +4302,7 @@ propertyRemovals
 #
 if
 !
-ENABLE_INTL_API
+EXPOSE_INTL_API
 const
 char
 *
