@@ -1364,6 +1364,14 @@ FormData
 )
 DOMCI_CLASS
 (
+DesktopNotification
+)
+DOMCI_CLASS
+(
+DesktopNotificationCenter
+)
+DOMCI_CLASS
+(
 WebSocket
 )
 DOMCI_CLASS

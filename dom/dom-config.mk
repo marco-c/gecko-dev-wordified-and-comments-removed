@@ -36,6 +36,12 @@ dom
 /
 src
 /
+notification
+\
+dom
+/
+src
+/
 threads
 \
 content

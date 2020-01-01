@@ -140,6 +140,13 @@ h
 #
 include
 "
+nsIDOMNavigatorDesktopNotification
+.
+h
+"
+#
+include
+"
 nsIDOMLocation
 .
 h
@@ -2957,6 +2964,8 @@ public
 nsIDOMClientInformation
 public
 nsIDOMNavigatorGeolocation
+public
+nsIDOMNavigatorDesktopNotification
 {
 public
 :
@@ -2977,6 +2986,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMNAVIGATOR
 NS_DECL_NSIDOMCLIENTINFORMATION
 NS_DECL_NSIDOMNAVIGATORGEOLOCATION
+NS_DECL_NSIDOMNAVIGATORDESKTOPNOTIFICATION
 void
 SetDocShell
 (

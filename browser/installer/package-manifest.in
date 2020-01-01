@@ -742,6 +742,13 @@ BINPATH
 /
 components
 /
+dom_notification
+.
+xpt
+BINPATH
+/
+components
+/
 dom_html
 .
 xpt
