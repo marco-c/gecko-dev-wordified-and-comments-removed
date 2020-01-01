@@ -381,6 +381,11 @@ PromiseCallback
 aRejectCallback
 )
 ;
+void
+MaybeReportRejected
+(
+)
+;
 nsRefPtr
 <
 nsPIDOMWindow
@@ -428,6 +433,9 @@ mState
 ;
 bool
 mTaskPending
+;
+bool
+mHadRejectCallback
 ;
 }
 ;
