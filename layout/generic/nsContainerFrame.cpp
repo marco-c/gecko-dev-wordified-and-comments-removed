@@ -1801,7 +1801,7 @@ GetWidget
 )
 -
 >
-SetWindowTranslucency
+SetHasTransparentBackground
 (
 nsLayoutUtils
 :

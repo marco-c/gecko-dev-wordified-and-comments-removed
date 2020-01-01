@@ -1060,7 +1060,7 @@ GetWidget
 )
 -
 >
-SetWindowTranslucency
+SetHasTransparentBackground
 (
 viewHasTransparentContent
 )
