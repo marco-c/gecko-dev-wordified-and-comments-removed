@@ -75,10 +75,6 @@ config
 autoconf
 .
 mk
-STANDALONE_MAKEFILE
-:
-=
-1
 NO_PKG_FILES
 =
 \
