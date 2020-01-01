@@ -1082,7 +1082,7 @@ key
 l10n
 (
 "
-open
+debuggerMenu
 .
 commandkey
 "

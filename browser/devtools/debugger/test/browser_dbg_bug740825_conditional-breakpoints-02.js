@@ -495,10 +495,10 @@ testBreakpoint
 (
 gSources
 .
-selectedBreakpoint
+selectedBreakpointItem
 gSources
 .
-selectedClient
+selectedBreakpointClient
 gSources
 .
 selectedValue
@@ -565,10 +565,10 @@ testBreakpoint
 (
 gSources
 .
-selectedBreakpoint
+selectedBreakpointItem
 gSources
 .
-selectedClient
+selectedBreakpointClient
 gSources
 .
 selectedValue
@@ -635,10 +635,10 @@ testBreakpoint
 (
 gSources
 .
-selectedBreakpoint
+selectedBreakpointItem
 gSources
 .
-selectedClient
+selectedBreakpointClient
 gSources
 .
 selectedValue
@@ -705,10 +705,10 @@ testBreakpoint
 (
 gSources
 .
-selectedBreakpoint
+selectedBreakpointItem
 gSources
 .
-selectedClient
+selectedBreakpointClient
 gSources
 .
 selectedValue
@@ -780,7 +780,7 @@ is
 (
 gSources
 .
-selectedClient
+selectedBreakpointClient
 .
 conditionalExpression
 "
@@ -1075,10 +1075,10 @@ testBreakpoint
 (
 gSources
 .
-selectedBreakpoint
+selectedBreakpointItem
 gSources
 .
-selectedClient
+selectedBreakpointClient
 gSources
 .
 selectedValue
@@ -1146,7 +1146,7 @@ is
 (
 gSources
 .
-selectedBreakpoint
+selectedBreakpointItem
 null
 "
 There
@@ -1234,10 +1234,10 @@ testBreakpoint
 (
 gSources
 .
-selectedBreakpoint
+selectedBreakpointItem
 gSources
 .
-selectedClient
+selectedBreakpointClient
 gSources
 .
 selectedValue
@@ -1271,7 +1271,7 @@ isnot
 (
 gSources
 .
-selectedBreakpoint
+selectedBreakpointItem
 null
 "
 There
@@ -1292,7 +1292,7 @@ is
 (
 gSources
 .
-selectedBreakpoint
+selectedBreakpointItem
 .
 attachment
 .
@@ -1317,7 +1317,7 @@ is
 (
 gSources
 .
-selectedBreakpoint
+selectedBreakpointItem
 .
 attachment
 .
@@ -1430,7 +1430,7 @@ isnot
 (
 gSources
 .
-selectedBreakpoint
+selectedBreakpointItem
 null
 "
 There
@@ -1451,7 +1451,7 @@ is
 (
 gSources
 .
-selectedBreakpoint
+selectedBreakpointItem
 .
 attachment
 .
@@ -1476,7 +1476,7 @@ is
 (
 gSources
 .
-selectedBreakpoint
+selectedBreakpointItem
 .
 attachment
 .
@@ -1589,7 +1589,7 @@ isnot
 (
 gSources
 .
-selectedBreakpoint
+selectedBreakpointItem
 null
 "
 There
@@ -1610,7 +1610,7 @@ is
 (
 gSources
 .
-selectedBreakpoint
+selectedBreakpointItem
 .
 attachment
 .
@@ -1635,7 +1635,7 @@ is
 (
 gSources
 .
-selectedBreakpoint
+selectedBreakpointItem
 .
 attachment
 .
@@ -1748,7 +1748,7 @@ is
 (
 gSources
 .
-selectedBreakpoint
+selectedBreakpointItem
 null
 "
 There
@@ -1859,7 +1859,7 @@ is
 (
 gSources
 .
-selectedBreakpoint
+selectedBreakpointItem
 null
 "
 There
@@ -2030,7 +2030,7 @@ isnot
 (
 gSources
 .
-selectedBreakpoint
+selectedBreakpointItem
 null
 "
 There
@@ -2051,7 +2051,7 @@ is
 (
 gSources
 .
-selectedBreakpoint
+selectedBreakpointItem
 .
 attachment
 .
@@ -2076,7 +2076,7 @@ is
 (
 gSources
 .
-selectedBreakpoint
+selectedBreakpointItem
 .
 attachment
 .
@@ -2213,7 +2213,7 @@ isnot
 (
 gSources
 .
-selectedBreakpoint
+selectedBreakpointItem
 null
 "
 There
@@ -2234,7 +2234,7 @@ is
 (
 gSources
 .
-selectedBreakpoint
+selectedBreakpointItem
 .
 attachment
 .
@@ -2259,7 +2259,7 @@ is
 (
 gSources
 .
-selectedBreakpoint
+selectedBreakpointItem
 .
 attachment
 .
@@ -2396,7 +2396,7 @@ isnot
 (
 gSources
 .
-selectedBreakpoint
+selectedBreakpointItem
 null
 "
 There
@@ -2417,7 +2417,7 @@ is
 (
 gSources
 .
-selectedBreakpoint
+selectedBreakpointItem
 .
 attachment
 .
@@ -2442,7 +2442,7 @@ is
 (
 gSources
 .
-selectedBreakpoint
+selectedBreakpointItem
 .
 attachment
 .
@@ -2588,7 +2588,7 @@ is
 (
 gSources
 .
-selectedBreakpoint
+selectedBreakpointItem
 null
 "
 There
@@ -2671,7 +2671,7 @@ is
 (
 gSources
 .
-selectedBreakpoint
+selectedBreakpointItem
 null
 "
 There
@@ -3174,7 +3174,7 @@ if
 (
 gSources
 .
-selectedClient
+selectedBreakpointClient
 !
 =
 =
@@ -3185,7 +3185,7 @@ expected
 (
 gSources
 .
-selectedClient
+selectedBreakpointClient
 |
 |
 bogusClient
