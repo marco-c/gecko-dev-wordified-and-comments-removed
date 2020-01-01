@@ -474,9 +474,6 @@ nsIDOMEventListener
 interface
 nsIDOMTelephonyCall
 ;
-interface
-nsIDOMTelephonyCallArray
-;
 [
 scriptable
 builtinclass
@@ -555,7 +552,7 @@ connected
 .
 readonly
 attribute
-nsIDOMTelephonyCallArray
+jsval
 calls
 ;
 void

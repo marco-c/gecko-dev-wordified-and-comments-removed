@@ -582,10 +582,6 @@ nsIDOMPerformanceNavigation
 .
 idl
 \
-nsIDOMTelephonyCallArray
-.
-idl
-\
 (
 NULL
 )
