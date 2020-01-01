@@ -11555,6 +11555,10 @@ PZ_DestroyLock
 certRefCountLock
 )
 ;
+certRefCountLock
+=
+NULL
+;
 return
 SECFailure
 ;

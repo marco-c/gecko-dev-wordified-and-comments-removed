@@ -124,6 +124,13 @@ lg_nsslowkey_RSAPrivateKeyTemplate
 extern
 const
 SEC_ASN1Template
+lg_nsslowkey_RSAPrivateKeyTemplate2
+[
+]
+;
+extern
+const
+SEC_ASN1Template
 lg_nsslowkey_DSAPrivateKeyTemplate
 [
 ]

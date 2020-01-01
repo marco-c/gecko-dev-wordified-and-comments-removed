@@ -3129,8 +3129,7 @@ temp
 .
 data
 +
-=
-1
++
 ;
 break
 ;
