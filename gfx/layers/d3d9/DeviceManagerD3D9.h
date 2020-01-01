@@ -235,6 +235,15 @@ return
 mNv3DVUtils
 ;
 }
+bool
+DeviceWasRemoved
+(
+)
+{
+return
+mDeviceWasRemoved
+;
+}
 nsTArray
 <
 LayerD3D9
@@ -336,6 +345,9 @@ mFocusWnd
 ;
 bool
 mHasDynamicTextures
+;
+bool
+mDeviceWasRemoved
 ;
 nsAutoPtr
 <
