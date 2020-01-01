@@ -843,6 +843,8 @@ PRInt16
 mode
 PRInt16
 selectedType
+PRBool
+addToRecentDocs
 nsString
 title
 nsString

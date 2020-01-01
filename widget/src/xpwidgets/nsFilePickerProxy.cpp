@@ -473,6 +473,7 @@ SendShowFilePicker
 (
 mMode
 mSelectedType
+mAddToRecentDocs
 mTitle
 mDefault
 mDefaultExtension

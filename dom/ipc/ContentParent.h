@@ -646,6 +646,10 @@ PRInt16
 &
 selectedType
 const
+PRBool
+&
+addToRecentDocs
+const
 nsString
 &
 title

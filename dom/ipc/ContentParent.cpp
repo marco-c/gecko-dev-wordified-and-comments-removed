@@ -4040,6 +4040,10 @@ PRInt16
 &
 selectedType
 const
+PRBool
+&
+addToRecentDocs
+const
 nsString
 &
 title
@@ -4164,6 +4168,14 @@ result
 )
 return
 true
+;
+filePicker
+-
+>
+SetAddToRecentDocs
+(
+addToRecentDocs
+)
 ;
 PRUint32
 count
