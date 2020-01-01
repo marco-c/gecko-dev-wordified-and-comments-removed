@@ -180,6 +180,12 @@ NS_SUCCEEDED
 (
 rv
 )
+|
+|
+bytes
+=
+=
+0
 )
 {
 return

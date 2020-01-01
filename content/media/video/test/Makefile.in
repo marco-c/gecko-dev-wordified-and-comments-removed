@@ -448,10 +448,6 @@ test_autoplay
 .
 html
 \
-test_bug461281
-.
-html
-\
 test_constants
 .
 html
@@ -545,10 +541,6 @@ test_volume
 html
 \
 320x240
-.
-ogg
-\
-bug461281
 .
 ogg
 \
