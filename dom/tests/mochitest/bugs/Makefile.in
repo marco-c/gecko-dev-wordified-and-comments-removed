@@ -892,6 +892,10 @@ iframe_bug38959
 .
 html
 \
+test_onerror_message
+.
+html
+\
 (
 NULL
 )
