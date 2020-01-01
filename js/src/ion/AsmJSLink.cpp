@@ -1805,6 +1805,8 @@ asm
 .
 js
 code
+:
+0
 "
 this
 )
