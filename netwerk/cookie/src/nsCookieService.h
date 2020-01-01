@@ -450,7 +450,7 @@ nsCookie
 *
 aCookie
 PRInt64
-aCurrentTimeInUsec
+aCurrentTime
 nsIURI
 *
 aHostURI
@@ -599,10 +599,10 @@ RemoveAllFromMemory
 )
 ;
 void
-PurgeCookies
+RemoveExpiredCookies
 (
 PRInt64
-aCurrentTimeInUsec
+aCurrentTime
 )
 ;
 PRBool
@@ -625,6 +625,14 @@ nsListIter
 aIter
 PRInt64
 aCurrentTime
+)
+;
+void
+FindOldestCookie
+(
+nsEnumerationData
+&
+aData
 )
 ;
 PRUint32
@@ -650,9 +658,9 @@ aHostURI
 void
 NotifyChanged
 (
-nsISupports
+nsICookie2
 *
-aSubject
+aCookie
 const
 PRUnichar
 *
@@ -722,9 +730,6 @@ nsCookieEntry
 >
 mPrivateHostTable
 ;
-PRInt64
-mCookieOldestTime
-;
 PRUint32
 mCookieCount
 ;
@@ -737,9 +742,6 @@ mMaxNumberOfCookies
 PRUint16
 mMaxCookiesPerHost
 ;
-PRUint64
-mCookiePurgeAge
-;
 static
 nsCookieService
 *
@@ -747,7 +749,7 @@ gCookieService
 ;
 friend
 PLDHashOperator
-purgeCookiesCallback
+removeExpiredCallback
 (
 nsCookieEntry
 *

@@ -536,10 +536,6 @@ file_loopback_inner
 .
 html
 \
-test_eviction
-.
-html
-\
 (
 NULL
 )
