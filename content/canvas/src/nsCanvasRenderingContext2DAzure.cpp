@@ -20297,6 +20297,7 @@ gfxASurface
 :
 :
 ImageFormatARGB32
+false
 )
 ;
 if
