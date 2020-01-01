@@ -45,14 +45,4 @@ IonCode
 0x4
 )
 #
-define
-ION_FRAME_OOL_PROPERTY_OP
-(
-(
-IonCode
-*
-)
-0x5
-)
-#
 endif
