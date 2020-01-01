@@ -4830,6 +4830,14 @@ mFrameMetrics
 )
 )
 ;
+mFrameMetrics
+.
+mPresShellId
+=
+mLastContentPaintMetrics
+.
+mPresShellId
+;
 mLastPaintRequestMetrics
 =
 mFrameMetrics

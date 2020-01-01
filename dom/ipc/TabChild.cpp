@@ -6527,7 +6527,10 @@ presShellId
 )
 {
 return
-true
+ProcessUpdateFrame
+(
+mLastMetrics
+)
 ;
 }
 return
