@@ -539,6 +539,10 @@ test_localStorageCookieSettings
 .
 html
 \
+test_localStorageEnablePref
+.
+html
+\
 test_localStorageOriginsEquals
 .
 html
