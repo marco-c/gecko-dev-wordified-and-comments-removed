@@ -2401,12 +2401,8 @@ XPIDL_LINK
 PYTHON
 )
 (
-LIBXUL_SDK
+SDK_BIN_DIR
 )
-/
-sdk
-/
-bin
 /
 xpt
 .
