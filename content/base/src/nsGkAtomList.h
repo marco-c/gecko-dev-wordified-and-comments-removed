@@ -11544,13 +11544,6 @@ Deleting
 )
 GK_ATOM
 (
-Remote
-"
-remote
-"
-)
-GK_ATOM
-(
 scrollbar_start_backward
 "
 scrollbar

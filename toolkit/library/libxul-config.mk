@@ -609,8 +609,6 @@ STATIC_LIBS
 +
 =
 \
-domipc_s
-\
 domplugins_s
 \
 mozipc_s
@@ -618,8 +616,6 @@ mozipc_s
 mozipdlgen_s
 \
 chromium_s
-\
-ipcshell_s
 \
 gfxipc_s
 \
