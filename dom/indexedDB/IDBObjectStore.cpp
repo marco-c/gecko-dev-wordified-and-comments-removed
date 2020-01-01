@@ -3574,7 +3574,7 @@ endif
 }
 static
 inline
-jsdouble
+double
 SwapBytes
 (
 PRUint64
@@ -3676,7 +3676,7 @@ u
 #
 else
 return
-jsdouble
+double
 (
 u
 )
@@ -8769,7 +8769,7 @@ IsEmpty
 {
 union
 {
-jsdouble
+double
 d
 ;
 PRUint64
@@ -12931,7 +12931,7 @@ JS_NewNumberValue
 aCx
 static_cast
 <
-jsdouble
+double
 >
 (
 mCount

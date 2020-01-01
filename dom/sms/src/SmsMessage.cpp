@@ -329,7 +329,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-jsdouble
+double
 number
 =
 aTimestamp

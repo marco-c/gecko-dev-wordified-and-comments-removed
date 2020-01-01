@@ -3531,9 +3531,9 @@ JSString
 aType
 bool
 aLengthComputable
-jsdouble
+double
 aLoaded
-jsdouble
+double
 aTotal
 )
 {
@@ -3756,9 +3756,9 @@ JSBool
 aCancelable
 JSBool
 aLengthComputable
-jsdouble
+double
 aLoaded
-jsdouble
+double
 aTotal
 bool
 aIsTrusted
@@ -4036,7 +4036,7 @@ bubbles
 cancelable
 lengthComputable
 ;
-jsdouble
+double
 loaded
 total
 ;
@@ -4485,9 +4485,9 @@ JSString
 aType
 bool
 aLengthComputable
-jsdouble
+double
 aLoaded
-jsdouble
+double
 aTotal
 )
 {

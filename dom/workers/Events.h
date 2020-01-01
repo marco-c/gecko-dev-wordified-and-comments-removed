@@ -124,9 +124,9 @@ JSString
 aType
 bool
 aLengthComputable
-jsdouble
+double
 aLoaded
-jsdouble
+double
 aTotal
 )
 ;
