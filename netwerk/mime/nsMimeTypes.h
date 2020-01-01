@@ -602,6 +602,14 @@ mp4
 "
 #
 define
+AUDIO_AMR
+"
+audio
+/
+amr
+"
+#
+define
 BINARY_OCTET_STREAM
 "
 binary
