@@ -43,8 +43,13 @@ icall
 puts
 cdecl
 ptr
-ret
+nn
+=
+ge
 ss
+zero
+ret
+nn
 .
 end
 .
