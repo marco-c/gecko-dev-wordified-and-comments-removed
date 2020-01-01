@@ -30,6 +30,11 @@ EPSILON
 001
 ;
 const
+SOURCE_SYNTAX_HIGHLIGHT_MAX_FILE_SIZE
+=
+102400
+;
+const
 RESIZE_REFRESH_RATE
 =
 50
@@ -8072,6 +8077,15 @@ setText
 aString
 )
 ;
+if
+(
+aString
+.
+length
+<
+SOURCE_SYNTAX_HIGHLIGHT_MAX_FILE_SIZE
+)
+{
 for
 (
 let
@@ -8102,6 +8116,7 @@ key
 ;
 break
 ;
+}
 }
 }
 }

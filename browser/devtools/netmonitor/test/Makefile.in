@@ -167,6 +167,12 @@ browser_net_cyrillic
 .
 js
 \
+browser_net_large
+-
+response
+.
+js
+\
 browser_net_status
 -
 codes
