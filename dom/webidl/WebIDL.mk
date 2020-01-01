@@ -1569,6 +1569,10 @@ WheelEvent
 .
 webidl
 \
+WifiOptions
+.
+webidl
+\
 Window
 .
 webidl

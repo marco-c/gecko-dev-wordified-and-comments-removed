@@ -233,6 +233,17 @@ OpenWindowEventDetail
 arg
 )
 ;
+void
+WifiOptions
+(
+optional
+WifiCommandOptions
+arg1
+optional
+WifiResultOptions
+arg2
+)
+;
 }
 ;
 interface
