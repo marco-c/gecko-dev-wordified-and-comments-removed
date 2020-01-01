@@ -433,6 +433,8 @@ autoconf
 mk
 DIRS
 =
+sign
+verify
 src
 tool
 include
