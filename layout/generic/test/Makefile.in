@@ -346,6 +346,10 @@ test_bug666225
 .
 html
 \
+test_bug904810
+.
+html
+\
 test_image_selection
 .
 html
