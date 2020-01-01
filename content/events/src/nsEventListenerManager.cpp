@@ -1862,8 +1862,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN
 (
 nsEventListenerManager
 )
-PRInt32
-i
+PRUint32
 count
 =
 tmp
@@ -1877,6 +1876,7 @@ Length
 ;
 for
 (
+PRUint32
 i
 =
 0
@@ -1903,8 +1903,7 @@ ElementAt
 (
 i
 )
--
->
+.
 mListener
 .
 get
@@ -2267,10 +2266,8 @@ ifaceListener
 nsListenerStruct
 *
 ls
-=
-nsnull
 ;
-PRInt32
+PRUint32
 count
 =
 mListeners
@@ -2281,7 +2278,7 @@ Length
 ;
 for
 (
-PRInt32
+PRUint32
 i
 =
 0
@@ -2297,6 +2294,7 @@ i
 {
 ls
 =
+&
 mListeners
 .
 ElementAt
@@ -2368,8 +2366,9 @@ nsnull
 ;
 ls
 =
-new
-nsListenerStruct
+mListeners
+.
+AppendElement
 (
 )
 ;
@@ -2427,13 +2426,6 @@ ls
 mTypeData
 =
 aTypeData
-;
-mListeners
-.
-AppendElement
-(
-ls
-)
 ;
 if
 (
@@ -2669,8 +2661,6 @@ NS_EVENT_FLAG_SYSTEM_EVENT
 nsListenerStruct
 *
 ls
-=
-nsnull
 ;
 aFlags
 &
@@ -2678,7 +2668,7 @@ aFlags
 ~
 NS_PRIV_EVENT_UNTRUSTED_PERMITTED
 ;
-PRInt32
+PRUint32
 count
 =
 mListeners
@@ -2689,7 +2679,7 @@ Length
 ;
 for
 (
-PRInt32
+PRUint32
 i
 =
 0
@@ -2705,6 +2695,7 @@ i
 {
 ls
 =
+&
 mListeners
 .
 ElementAt
@@ -3075,7 +3066,7 @@ nsListenerStruct
 *
 ls
 ;
-PRInt32
+PRUint32
 count
 =
 mListeners
@@ -3086,7 +3077,7 @@ Length
 ;
 for
 (
-PRInt32
+PRUint32
 i
 =
 0
@@ -3102,6 +3093,7 @@ i
 {
 ls
 =
+&
 mListeners
 .
 ElementAt
@@ -3984,9 +3976,20 @@ ls
 {
 mListeners
 .
-RemoveElement
+RemoveElementAt
+(
+PRUint32
 (
 ls
+-
+&
+mListeners
+.
+ElementAt
+(
+0
+)
+)
 )
 ;
 mNoListenerForEvent
@@ -5348,10 +5351,7 @@ found
 :
 nsAutoTObserverArray
 <
-nsAutoPtr
-<
 nsListenerStruct
->
 2
 >
 :
@@ -5392,6 +5392,7 @@ nsListenerStruct
 *
 ls
 =
+&
 iter
 .
 GetNext
@@ -7561,7 +7562,7 @@ if
 mMayHaveMutationListeners
 )
 {
-PRInt32
+PRUint32
 count
 =
 mListeners
@@ -7572,7 +7573,7 @@ Length
 ;
 for
 (
-PRInt32
+PRUint32
 i
 =
 0
@@ -7590,6 +7591,7 @@ nsListenerStruct
 *
 ls
 =
+&
 mListeners
 .
 ElementAt
@@ -7649,8 +7651,7 @@ if
 mMayHaveMutationListeners
 )
 {
-PRInt32
-i
+PRUint32
 count
 =
 mListeners
@@ -7661,6 +7662,7 @@ Length
 ;
 for
 (
+PRUint32
 i
 =
 0
@@ -7678,6 +7680,7 @@ nsListenerStruct
 *
 ls
 =
+&
 mListeners
 .
 ElementAt
@@ -7888,8 +7891,7 @@ nsnull
 }
 found
 :
-PRInt32
-i
+PRUint32
 count
 =
 mListeners
@@ -7900,6 +7902,7 @@ Length
 ;
 for
 (
+PRUint32
 i
 =
 0
@@ -7917,6 +7920,7 @@ nsListenerStruct
 *
 ls
 =
+&
 mListeners
 .
 ElementAt
@@ -7962,7 +7966,7 @@ HasUnloadListeners
 (
 )
 {
-PRInt32
+PRUint32
 count
 =
 mListeners
@@ -7973,7 +7977,7 @@ Length
 ;
 for
 (
-PRInt32
+PRUint32
 i
 =
 0
@@ -7991,6 +7995,7 @@ nsListenerStruct
 *
 ls
 =
+&
 mListeners
 .
 ElementAt
