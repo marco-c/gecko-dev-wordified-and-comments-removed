@@ -3116,6 +3116,13 @@ AB_CD
 )
 .
 manifest
+langpack
+:
+langpack
+-
+(
+AB_CD
+)
 #
 This
 is
