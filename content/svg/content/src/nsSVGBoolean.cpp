@@ -396,7 +396,7 @@ nsSVGBoolean
 :
 ToDOMAnimatedBoolean
 (
-nsIDOMSVGAnimatedBoolean
+nsISupports
 *
 *
 aResult

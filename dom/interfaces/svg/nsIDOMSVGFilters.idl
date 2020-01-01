@@ -123,9 +123,6 @@ nsIDOMSVGAnimatedNumberList
 interface
 nsIDOMSVGAnimatedInteger
 ;
-interface
-nsIDOMSVGAnimatedBoolean
-;
 [
 scriptable
 uuid
@@ -1148,7 +1145,7 @@ kernelUnitLengthY
 ;
 readonly
 attribute
-nsIDOMSVGAnimatedBoolean
+nsISupports
 preserveAlpha
 ;
 }
