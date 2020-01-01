@@ -952,6 +952,14 @@ flexbox_layout_testcases
 .
 js
 \
+file_flexbox_min_size_auto
+.
+html
+\
+test_flexbox_min_size_auto
+.
+html
+\
 file_flexbox_order
 .
 html
