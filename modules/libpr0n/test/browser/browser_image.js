@@ -2,6 +2,11 @@ waitForExplicitFinish
 (
 )
 ;
+requestLongerTimeout
+(
+2
+)
+;
 var
 gTimer
 ;
