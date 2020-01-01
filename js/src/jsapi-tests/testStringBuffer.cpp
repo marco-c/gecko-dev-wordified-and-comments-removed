@@ -22,7 +22,11 @@ h
 #
 include
 "
-jsstrinlines
+vm
+/
+StringBuffer
+-
+inl
 .
 h
 "

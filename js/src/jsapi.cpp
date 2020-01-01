@@ -457,6 +457,17 @@ inl
 h
 "
 #
+include
+"
+vm
+/
+StringBuffer
+-
+inl
+.
+h
+"
+#
 if
 ENABLE_YARR_JIT
 #
