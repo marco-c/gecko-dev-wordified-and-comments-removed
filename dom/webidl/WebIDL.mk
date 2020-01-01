@@ -467,6 +467,10 @@ SVGStopElement
 .
 webidl
 \
+SVGStyleElement
+.
+webidl
+\
 SVGTitleElement
 .
 webidl
