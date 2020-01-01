@@ -4623,7 +4623,7 @@ plugins
 .
 click_to_play
 "
-false
+true
 )
 ;
 pref
