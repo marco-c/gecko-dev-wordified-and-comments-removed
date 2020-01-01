@@ -3535,13 +3535,6 @@ BINPATH
 /
 components
 /
-LoginManager
-.
-js
-BINPATH
-/
-components
-/
 LoginManagerPrompter
 .
 js

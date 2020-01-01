@@ -1100,6 +1100,16 @@ txt
 pref
 (
 "
+signon
+.
+debug
+"
+false
+)
+;
+pref
+(
+"
 formhelper
 .
 mode
