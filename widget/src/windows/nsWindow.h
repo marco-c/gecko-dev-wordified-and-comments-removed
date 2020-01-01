@@ -2118,6 +2118,11 @@ info
 )
 ;
 void
+OnSysColorChanged
+(
+)
+;
+void
 UserActivity
 (
 )
