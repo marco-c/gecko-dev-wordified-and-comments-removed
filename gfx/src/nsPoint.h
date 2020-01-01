@@ -16,6 +16,8 @@ include
 "
 mozilla
 /
+gfx
+/
 BaseSize
 .
 h
@@ -24,6 +26,8 @@ h
 include
 "
 mozilla
+/
+gfx
 /
 BasePoint
 .
@@ -46,6 +50,9 @@ public
 mozilla
 :
 :
+gfx
+:
+:
 BasePoint
 <
 nscoord
@@ -54,6 +61,9 @@ nsPoint
 {
 typedef
 mozilla
+:
+:
+gfx
 :
 :
 BasePoint
@@ -143,6 +153,9 @@ public
 mozilla
 :
 :
+gfx
+:
+:
 BasePoint
 <
 PRInt32
@@ -151,6 +164,9 @@ nsIntPoint
 {
 typedef
 mozilla
+:
+:
+gfx
 :
 :
 BasePoint

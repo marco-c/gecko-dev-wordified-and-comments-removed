@@ -44,6 +44,8 @@ include
 "
 mozilla
 /
+gfx
+/
 BaseMargin
 .
 h
@@ -52,6 +54,8 @@ h
 include
 "
 mozilla
+/
+gfx
 /
 BaseRect
 .
@@ -71,6 +75,9 @@ public
 mozilla
 :
 :
+gfx
+:
+:
 BaseMargin
 <
 gfxFloat
@@ -79,6 +86,9 @@ gfxMargin
 {
 typedef
 mozilla
+:
+:
+gfx
 :
 :
 BaseMargin
@@ -314,6 +324,9 @@ public
 mozilla
 :
 :
+gfx
+:
+:
 BaseRect
 <
 gfxFloat
@@ -325,6 +338,9 @@ gfxMargin
 {
 typedef
 mozilla
+:
+:
+gfx
 :
 :
 BaseRect

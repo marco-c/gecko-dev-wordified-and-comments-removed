@@ -16,6 +16,8 @@ include
 "
 mozilla
 /
+gfx
+/
 BaseSize
 .
 h
@@ -24,6 +26,8 @@ h
 include
 "
 mozilla
+/
+gfx
 /
 BasePoint
 .
@@ -62,6 +66,9 @@ public
 mozilla
 :
 :
+gfx
+:
+:
 BaseSize
 <
 gfxFloat
@@ -70,6 +77,9 @@ gfxSize
 {
 typedef
 mozilla
+:
+:
+gfx
 :
 :
 BaseSize
@@ -132,6 +142,9 @@ public
 mozilla
 :
 :
+gfx
+:
+:
 BasePoint
 <
 gfxFloat
@@ -140,6 +153,9 @@ gfxPoint
 {
 typedef
 mozilla
+:
+:
+gfx
 :
 :
 BasePoint

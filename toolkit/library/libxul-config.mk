@@ -616,6 +616,8 @@ mozipdlgen_s
 \
 ipcshell_s
 \
+gfx2d
+\
 gfxipc_s
 \
 (

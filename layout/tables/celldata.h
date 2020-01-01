@@ -21,7 +21,11 @@ h
 #
 include
 "
-gfxCore
+mozilla
+/
+gfx
+/
+Types
 .
 h
 "

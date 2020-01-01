@@ -30,6 +30,8 @@ include
 "
 mozilla
 /
+gfx
+/
 BaseMargin
 .
 h
@@ -41,6 +43,9 @@ public
 mozilla
 :
 :
+gfx
+:
+:
 BaseMargin
 <
 nscoord
@@ -49,6 +54,9 @@ nsMargin
 {
 typedef
 mozilla
+:
+:
+gfx
 :
 :
 BaseMargin
@@ -111,6 +119,9 @@ public
 mozilla
 :
 :
+gfx
+:
+:
 BaseMargin
 <
 PRInt32
@@ -119,6 +130,9 @@ nsIntMargin
 {
 typedef
 mozilla
+:
+:
+gfx
 :
 :
 BaseMargin
