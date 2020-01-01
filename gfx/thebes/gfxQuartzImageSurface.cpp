@@ -40,14 +40,6 @@ if
 imageSurface
 -
 >
-CairoStatus
-(
-)
-|
-|
-imageSurface
--
->
 CairoSurface
 (
 )

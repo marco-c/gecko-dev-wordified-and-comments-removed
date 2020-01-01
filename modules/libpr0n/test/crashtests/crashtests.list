@@ -78,10 +78,6 @@ tiny
 actual
 content
 .
-asserts
-(
-2
-)
 load
 delaytest
 .
@@ -92,9 +88,6 @@ html
 1
 .
 gif
-#
-Bug
-564231
 load
 delaytest
 .
