@@ -39,6 +39,9 @@ class
 nsIWebNavigationInfo
 ;
 class
+nsIHttpChannel
+;
+class
 nsDSURIContentListener
 :
 public
@@ -95,9 +98,9 @@ request
 bool
 CheckOneFrameOptionsPolicy
 (
-nsIRequest
+nsIHttpChannel
 *
-request
+httpChannel
 const
 nsAString
 &
