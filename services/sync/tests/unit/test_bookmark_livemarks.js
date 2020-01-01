@@ -1101,10 +1101,9 @@ true
 ;
 Utils
 .
-delay
+nextTick
 (
 run_next_test
-0
 )
 ;
 }

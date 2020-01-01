@@ -316,7 +316,7 @@ addVisit
 ;
 Utils
 .
-delay
+nextTick
 (
 function
 (
@@ -345,7 +345,6 @@ run_next_test
 )
 ;
 }
-0
 )
 ;
 }
@@ -663,7 +662,7 @@ addVisit
 ;
 Utils
 .
-delay
+nextTick
 (
 function
 (
@@ -692,7 +691,6 @@ run_next_test
 )
 ;
 }
-0
 )
 ;
 }
@@ -743,7 +741,7 @@ addVisit
 ;
 Utils
 .
-delay
+nextTick
 (
 function
 (
@@ -772,7 +770,6 @@ run_next_test
 )
 ;
 }
-0
 )
 ;
 }

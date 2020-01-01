@@ -2825,7 +2825,7 @@ delayAbort
 {
 Utils
 .
-delay
+namedTimer
 (
 this
 .

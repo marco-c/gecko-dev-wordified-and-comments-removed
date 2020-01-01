@@ -327,11 +327,9 @@ this
 ;
 Utils
 .
-delay
+nextTick
 (
 callback
-0
-this
 )
 ;
 }

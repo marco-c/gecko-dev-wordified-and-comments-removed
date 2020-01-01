@@ -2025,7 +2025,7 @@ continue
 }
 Utils
 .
-delay
+nextTick
 (
 function
 (
@@ -2063,7 +2063,6 @@ value
 )
 ;
 }
-0
 this
 )
 ;

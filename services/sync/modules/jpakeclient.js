@@ -629,7 +629,7 @@ JPAKE_ERROR_NODATA
 {
 Utils
 .
-delay
+namedTimer
 (
 function
 (
@@ -1092,7 +1092,7 @@ _channel
 ;
 Utils
 .
-delay
+namedTimer
 (
 function
 (
@@ -1300,7 +1300,7 @@ etag
 ;
 Utils
 .
-delay
+namedTimer
 (
 function
 (
@@ -1549,7 +1549,7 @@ _pollTries
 ;
 Utils
 .
-delay
+namedTimer
 (
 function
 (
@@ -3421,7 +3421,7 @@ true
 ;
 Utils
 .
-delay
+namedTimer
 (
 function
 (
