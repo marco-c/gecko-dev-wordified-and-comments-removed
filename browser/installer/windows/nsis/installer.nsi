@@ -8418,7 +8418,7 @@ Field
 "
 Bottom
 "
-15
+25
 "
 WriteINIStr
 "
@@ -8501,7 +8501,7 @@ Field
 "
 Top
 "
-20
+27
 "
 WriteINIStr
 "
@@ -8517,7 +8517,7 @@ Field
 "
 Bottom
 "
-30
+37
 "
 WriteINIStr
 "
