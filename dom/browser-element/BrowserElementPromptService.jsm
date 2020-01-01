@@ -877,6 +877,8 @@ this
 _getOuterWindowID
 (
 win
+.
+top
 )
 ]
 ;
