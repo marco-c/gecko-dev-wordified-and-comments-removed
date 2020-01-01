@@ -919,9 +919,6 @@ nsSVGGeometryFrame
 :
 HasStroke
 (
-gfxContext
-*
-aContext
 )
 {
 return
@@ -1188,7 +1185,6 @@ if
 !
 HasStroke
 (
-aContext
 )
 )
 {

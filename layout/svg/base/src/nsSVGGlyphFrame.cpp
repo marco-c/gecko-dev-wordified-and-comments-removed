@@ -1494,7 +1494,6 @@ hasStroke
 =
 HasStroke
 (
-tmpCtx
 )
 ;
 if

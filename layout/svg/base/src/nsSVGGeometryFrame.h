@@ -127,9 +127,6 @@ aContext
 PRBool
 HasStroke
 (
-gfxContext
-*
-aContext
 )
 ;
 void

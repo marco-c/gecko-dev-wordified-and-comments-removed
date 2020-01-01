@@ -984,8 +984,6 @@ if
 (
 HasStroke
 (
-&
-context
 )
 )
 {
