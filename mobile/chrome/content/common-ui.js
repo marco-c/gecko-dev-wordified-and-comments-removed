@@ -5281,6 +5281,17 @@ getValueAt
 i
 )
 ;
+if
+(
+value
+=
+=
+aElement
+.
+value
+)
+continue
+;
 suggestions
 .
 push
