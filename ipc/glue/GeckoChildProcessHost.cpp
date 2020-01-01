@@ -2942,6 +2942,15 @@ process
 arch
 )
 ;
+GetChannel
+(
+)
+-
+>
+CloseClientFileDescriptor
+(
+)
+;
 #
 ifdef
 MOZ_WIDGET_COCOA

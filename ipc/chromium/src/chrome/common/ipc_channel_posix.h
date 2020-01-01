@@ -189,6 +189,11 @@ return
 pipe_
 ;
 }
+void
+CloseClientFileDescriptor
+(
+)
+;
 private
 :
 void

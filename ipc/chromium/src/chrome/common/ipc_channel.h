@@ -236,6 +236,11 @@ GetServerFileDescriptor
 )
 const
 ;
+void
+CloseClientFileDescriptor
+(
+)
+;
 #
 elif
 defined
