@@ -740,7 +740,9 @@ nsPurpleBufferEntry
 CycleCollectorSuspect2Func
 )
 (
-nsISupports
+void
+*
+nsCycleCollectionParticipant
 *
 )
 ;
