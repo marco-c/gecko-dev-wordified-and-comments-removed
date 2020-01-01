@@ -39,7 +39,7 @@ exception
 "
 )
 ;
-ok
+is
 (
 ex
 .
