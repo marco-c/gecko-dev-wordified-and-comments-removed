@@ -17,7 +17,7 @@ if
 !
 defined
 (
-XP_WIN
+OS_WIN
 )
 #
 include
