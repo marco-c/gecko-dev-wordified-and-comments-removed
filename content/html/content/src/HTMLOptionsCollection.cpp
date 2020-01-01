@@ -30,6 +30,17 @@ mozilla
 /
 dom
 /
+BindingUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Element
 .
 h
