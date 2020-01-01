@@ -349,6 +349,16 @@ BluetoothReplyRunnable
 aRunnable
 )
 ;
+virtual
+nsresult
+PrepareAdapterInternal
+(
+const
+nsAString
+&
+aPath
+)
+;
 private
 :
 nsresult

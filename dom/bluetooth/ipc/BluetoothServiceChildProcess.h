@@ -399,6 +399,17 @@ aSignalPath
 )
 MOZ_OVERRIDE
 ;
+virtual
+nsresult
+PrepareAdapterInternal
+(
+const
+nsAString
+&
+aPath
+)
+MOZ_OVERRIDE
+;
 }
 ;
 END_BLUETOOTH_NAMESPACE
