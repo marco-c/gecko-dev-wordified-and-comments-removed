@@ -92,6 +92,12 @@ gfxTextRun
 aTextRun
 )
 ;
+static
+void
+Flush
+(
+)
+;
 protected
 :
 friend
