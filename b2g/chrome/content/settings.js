@@ -1004,7 +1004,7 @@ enabled
 false
 function
 (
-enabled
+value
 )
 {
 Services
@@ -1023,6 +1023,15 @@ remote
 enabled
 '
 value
+)
+;
+Services
+.
+prefs
+.
+savePrefFile
+(
+null
 )
 ;
 }
