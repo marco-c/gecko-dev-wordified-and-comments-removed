@@ -3026,10 +3026,9 @@ init
 "
 )
 ;
-nsIInterfaceInfoManager
-*
-iim
-=
+(
+void
+)
 xptiInterfaceInfoManager
 :
 :
