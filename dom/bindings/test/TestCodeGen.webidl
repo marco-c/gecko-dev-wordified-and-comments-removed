@@ -649,6 +649,11 @@ arg1
 IndirectlyImplementedInterface
 iface
 )
+Constructor
+(
+Date
+arg1
+)
 /
 /
 Constructor
