@@ -1115,7 +1115,7 @@ js_CompileFunctionBody
 JSContext
 *
 cx
-JSFunction
+JSScriptedFunction
 *
 fun
 JSPrincipals

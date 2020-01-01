@@ -1564,12 +1564,10 @@ JSFUN_THISP_TEST
 (
 JSFUN_THISP_FLAGS
 (
+FUN_FLAGS
 (
 fun
 )
--
->
-flags
 )
 \
 js_PrimitiveTestFlags
