@@ -31,13 +31,6 @@ h
 #
 include
 "
-nsIJSContextStack
-.
-h
-"
-#
-include
-"
 nsISupports
 .
 h
@@ -357,12 +350,6 @@ nsCOMPtr
 nsIJSRuntimeService
 >
 mRuntimeService
-;
-nsCOMPtr
-<
-nsIThreadJSContextStack
->
-mContextStack
 ;
 nsCOMPtr
 <
