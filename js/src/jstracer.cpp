@@ -52518,9 +52518,6 @@ JS_ASSERT
 cx
 -
 >
-thread
--
->
 requestDepth
 )
 ;

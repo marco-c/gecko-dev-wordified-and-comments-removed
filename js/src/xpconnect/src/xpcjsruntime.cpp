@@ -1750,10 +1750,13 @@ GetXPConnect
 )
 -
 >
-GetOutstandingRequests
+GetRequestDepth
 (
 acx
 )
+!
+=
+0
 )
 continue
 ;
@@ -1918,7 +1921,6 @@ acx
 )
 &
 &
-!
 nsXPConnect
 :
 :
@@ -1927,10 +1929,13 @@ GetXPConnect
 )
 -
 >
-GetOutstandingRequests
+GetRequestDepth
 (
 acx
 )
+=
+=
+0
 )
 {
 JS_ClearNewbornRoots
