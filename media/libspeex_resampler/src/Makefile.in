@@ -177,7 +177,15 @@ NULL
 EXPORTS_speex
 =
 \
+speex_config_types
+.
+h
+\
 speex_resampler
+.
+h
+\
+speex_types
 .
 h
 \
