@@ -9402,6 +9402,8 @@ types
 TypeSet
 *
 types
+=
+NULL
 ;
 if
 (
