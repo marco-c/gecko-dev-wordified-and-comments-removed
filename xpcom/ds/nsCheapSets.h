@@ -11,6 +11,13 @@ nsHashSets
 .
 h
 "
+#
+include
+<
+stdint
+.
+h
+>
 class
 nsCheapStringSet
 {
