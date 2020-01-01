@@ -1435,7 +1435,10 @@ error
 ;
 if
 (
+NS_FAILED
+(
 error
+)
 )
 aRowIndex
 =
@@ -3353,7 +3356,10 @@ error
 ;
 if
 (
+NS_FAILED
+(
 error
+)
 |
 |
 rowspan
@@ -3461,7 +3467,10 @@ error
 ;
 if
 (
+NS_FAILED
+(
 error
+)
 |
 |
 colspan

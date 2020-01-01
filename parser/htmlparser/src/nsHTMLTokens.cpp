@@ -8159,10 +8159,10 @@ kAutoDetect
 ;
 if
 (
-0
-=
-=
+NS_SUCCEEDED
+(
 err
+)
 )
 {
 AppendNCR
