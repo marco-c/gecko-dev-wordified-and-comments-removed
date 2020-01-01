@@ -1143,6 +1143,15 @@ wrapper
 HasExternalReference
 (
 )
+&
+&
+!
+wrapper
+-
+>
+IsWrapperExpired
+(
+)
 )
 {
 JSTracer
