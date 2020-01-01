@@ -725,6 +725,16 @@ LOCAL_INCLUDES
 (
 NSS_CFLAGS
 )
+#
+ifdef
+XP_MACOSX
+NSS_LIBS
++
+=
+-
+lsqlite3
+#
+endif
 EXTRA_DSO_LDOPTS
 +
 =
