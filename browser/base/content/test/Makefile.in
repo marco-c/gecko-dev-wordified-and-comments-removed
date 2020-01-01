@@ -1377,7 +1377,6 @@ bug
 browser_maconly_carbon_mismatch_plugin
 .
 js
-\
 endif
 #
 bug
