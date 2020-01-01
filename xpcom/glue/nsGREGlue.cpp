@@ -725,15 +725,13 @@ p
 '
 )
 {
-unsigned
-short
+WCHAR
 dir
 [
 MAX_PATH
 ]
 ;
-unsigned
-short
+WCHAR
 path
 [
 MAX_PATH
