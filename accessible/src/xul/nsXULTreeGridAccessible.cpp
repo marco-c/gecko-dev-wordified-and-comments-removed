@@ -4576,6 +4576,14 @@ do_QueryInterface
 accessible
 )
 ;
+if
+(
+!
+tableAccessible
+)
+return
+NS_ERROR_FAILURE
+;
 PRInt32
 colIdx
 =
