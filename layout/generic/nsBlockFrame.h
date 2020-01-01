@@ -739,17 +739,6 @@ nsIFrame
 aPlaceholder
 )
 ;
-void
-UndoSplitPlaceholders
-(
-nsBlockReflowState
-&
-aState
-nsIFrame
-*
-aLastPlaceholder
-)
-;
 PRBool
 HandleOverflowPlaceholdersForPulledFrame
 (
@@ -1189,7 +1178,7 @@ PRBool
 aKeepReflowGoing
 )
 ;
-PRBool
+void
 PlaceLine
 (
 nsBlockReflowState
@@ -1360,9 +1349,6 @@ nsBlockReflowState
 aState
 line_iterator
 aLine
-nsIFrame
-*
-aLastPlaceholder
 PRBool
 &
 aKeepReflowGoing
