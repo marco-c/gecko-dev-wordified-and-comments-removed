@@ -265,11 +265,6 @@ special_includes
 =
 [
 '
-DictionaryHelpers
-.
-h
-'
-'
 nsContentUtils
 .
 h

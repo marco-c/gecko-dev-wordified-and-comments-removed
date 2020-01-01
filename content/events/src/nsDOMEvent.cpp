@@ -184,13 +184,6 @@ h
 #
 include
 "
-nsDOMClassInfoID
-.
-h
-"
-#
-include
-"
 nsDOMEventTargetHelper
 .
 h

@@ -79,13 +79,6 @@ h
 #
 include
 "
-nsIJSNativeInitializer
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
