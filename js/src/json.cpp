@@ -159,6 +159,10 @@ jsatominlines
 .
 h
 "
+using
+namespace
+js
+;
 #
 ifdef
 _MSC_VER
@@ -2447,8 +2451,15 @@ vp
 ;
 numStr
 =
-JS_dtostr
+js_dtostr
 (
+JS_THREAD_DATA
+(
+cx
+)
+-
+>
+dtoaState
 numBuf
 sizeof
 numBuf
@@ -4780,7 +4791,7 @@ len
 jsval
 keyword
 ;
-JSTokenType
+TokenKind
 tt
 =
 js_CheckKeyword

@@ -1,6 +1,13 @@
 #
 include
 "
+jscntxt
+.
+h
+"
+#
+include
+"
 nsJSNPRuntime
 .
 h
@@ -86,13 +93,6 @@ h
 include
 "
 nsIContent
-.
-h
-"
-#
-include
-"
-jscntxt
 .
 h
 "

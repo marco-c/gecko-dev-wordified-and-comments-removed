@@ -644,7 +644,7 @@ JSContext
 *
 context
 ;
-JSTokenStream
+TokenStream
 *
 tokenStream
 ;
@@ -1598,7 +1598,7 @@ tokenStream
 )
 {
 return
-js_ReportCompileErrorNumber
+ReportCompileErrorNumber
 (
 state
 -
@@ -9229,7 +9229,7 @@ CompileRegExpToAST
 JSContext
 *
 cx
-JSTokenStream
+TokenStream
 *
 ts
 JSString
@@ -12291,6 +12291,7 @@ insLoad
 LIR_ld
 pos
 0
+ACC_OTHER
 )
 ;
 LIns
@@ -14869,6 +14870,7 @@ offsetof
 REGlobalData
 stateStack
 )
+ACC_OTHER
 )
 ;
 LIns
@@ -14920,6 +14922,7 @@ offsetof
 REGlobalData
 stateStack
 )
+ACC_OTHER
 )
 ;
 targetCurrentPoint
@@ -14946,6 +14949,7 @@ offsetof
 REGlobalData
 stateStack
 )
+ACC_OTHER
 )
 "
 pos
@@ -14982,6 +14986,7 @@ offsetof
 REGlobalData
 stateStack
 )
+ACC_OTHER
 )
 ;
 LInsList
@@ -15020,6 +15025,7 @@ offsetof
 REGlobalData
 stateStack
 )
+ACC_OTHER
 )
 ;
 targetCurrentPoint
@@ -15047,6 +15053,7 @@ offsetof
 REGlobalData
 stateStack
 )
+ACC_OTHER
 )
 "
 pos
@@ -15288,6 +15295,7 @@ offsetof
 REGlobalData
 stateStack
 )
+ACC_OTHER
 )
 ;
 LIns
@@ -15324,6 +15332,7 @@ offsetof
 REGlobalData
 stateStack
 )
+ACC_OTHER
 )
 "
 pos
@@ -15412,6 +15421,7 @@ offsetof
 REGlobalData
 stateStack
 )
+ACC_OTHER
 )
 ;
 lir
@@ -15690,6 +15700,7 @@ offsetof
 REGlobalData
 stateStack
 )
+ACC_OTHER
 )
 ;
 lir
@@ -15884,6 +15895,7 @@ offsetof
 REGlobalData
 skipped
 )
+ACC_OTHER
 )
 ;
 return
@@ -15918,7 +15930,10 @@ debug_only_stmt
 lirbuf
 -
 >
-names
+printer
+-
+>
+lirNameMap
 -
 >
 addName
@@ -16207,34 +16222,18 @@ lirbuf
 #
 ifdef
 DEBUG
-LabelMap
-*
-labels
-=
-new
-(
-tempAlloc
-)
-LabelMap
-(
-tempAlloc
-&
-LogController
-)
-;
 lirbuf
 -
 >
-names
+printer
 =
 new
 (
 tempAlloc
 )
-LirNameMap
+LInsPrinter
 (
 tempAlloc
-labels
 )
 ;
 #
@@ -16403,7 +16402,7 @@ lir
 lirbuf
 -
 >
-names
+printer
 &
 LogController
 )
@@ -16423,6 +16422,10 @@ new
 ValidateWriter
 (
 lir
+lirbuf
+-
+>
+printer
 "
 regexp
 writer
@@ -16608,6 +16611,7 @@ offsetof
 REGlobalData
 skipped
 )
+ACC_OTHER
 )
 "
 start
@@ -16705,10 +16709,7 @@ verbose_only
 lirbuf
 -
 >
-names
--
->
-labels
+printer
 )
 )
 ;
@@ -17147,7 +17148,7 @@ js_NewRegExp
 JSContext
 *
 cx
-JSTokenStream
+TokenStream
 *
 ts
 JSString
@@ -30846,9 +30847,10 @@ js_NewRegExpObject
 JSContext
 *
 cx
-JSTokenStream
+TokenStream
 *
 ts
+const
 jschar
 *
 chars
