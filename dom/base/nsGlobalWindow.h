@@ -914,6 +914,12 @@ aFireTimeouts
 )
 ;
 virtual
+bool
+IsBlackForCC
+(
+)
+;
+virtual
 nsIPrincipal
 *
 GetPrincipal
@@ -1649,7 +1655,7 @@ friend
 class
 WindowStateHolder
 ;
-NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_AMBIGUOUS
+NS_DECL_CYCLE_COLLECTION_SKIPPABLE_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 (
 nsGlobalWindow
 nsIScriptGlobalObject
@@ -1929,6 +1935,11 @@ SizeOf
 (
 )
 const
+;
+void
+UnmarkGrayTimers
+(
+)
 ;
 private
 :
