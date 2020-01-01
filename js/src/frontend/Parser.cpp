@@ -19656,9 +19656,9 @@ tt
 TOK_PLUS
 )
 ?
-PNK_PLUS
+PNK_ADD
 :
-PNK_MINUS
+PNK_SUB
 ;
 pn
 =
@@ -21668,7 +21668,7 @@ TOK_PLUS
 return
 unaryOpExpr
 (
-PNK_PLUS
+PNK_POS
 JSOP_POS
 )
 ;
@@ -21678,7 +21678,7 @@ TOK_MINUS
 return
 unaryOpExpr
 (
-PNK_MINUS
+PNK_NEG
 JSOP_NEG
 )
 ;
