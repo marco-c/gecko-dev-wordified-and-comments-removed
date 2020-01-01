@@ -544,7 +544,6 @@ check
 (
 aDescription
 aFiredOnCapture
-aPreventedOnCapture
 aFiredOnBubbling
 aPreventedOnBubbling
 )
@@ -594,25 +593,6 @@ phase
 ;
 is
 (
-capturingPhase
-.
-prevented
-aPreventedOnCapture
-getDesciption
-(
-aPreventedOnCapture
-)
-+
-"
-prevented
-on
-capture
-phase
-"
-)
-;
-is
-(
 bubblingPhase
 .
 fired
@@ -630,6 +610,67 @@ phase
 "
 )
 ;
+/
+/
+If
+the
+event
+is
+fired
+on
+bubbling
+phase
+and
+it
+was
+already
+prevented
+/
+/
+on
+capture
+phase
+it
+must
+be
+prevented
+on
+bubbling
+phase
+too
+.
+if
+(
+capturingPhase
+.
+prevented
+)
+{
+todo
+(
+false
+aDescription
++
+"
+was
+consumed
+already
+so
+we
+cannot
+test
+the
+editor
+behavior
+actually
+"
+)
+;
+aPreventedOnBubbling
+=
+true
+;
+}
 is
 (
 bubblingPhase
@@ -855,7 +896,6 @@ aDescription
 Meta
 "
 true
-false
 true
 !
 aIsReadonly
@@ -884,7 +924,6 @@ aDescription
 Shift
 "
 true
-false
 true
 !
 aIsReadonly
@@ -913,7 +952,6 @@ aDescription
 Control
 "
 true
-false
 true
 !
 aIsReadonly
@@ -977,7 +1015,6 @@ aDescription
 Alt
 "
 true
-false
 true
 !
 aIsReadonly
@@ -1061,7 +1098,6 @@ aDescription
 Backspace
 "
 true
-false
 true
 true
 )
@@ -1094,7 +1130,6 @@ Shift
 Backspace
 "
 true
-false
 true
 true
 )
@@ -1132,7 +1167,6 @@ Ctrl
 Backspace
 "
 true
-false
 true
 aIsReadonly
 |
@@ -1178,7 +1212,6 @@ Alt
 Backspace
 "
 true
-false
 true
 aIsReadonly
 |
@@ -1217,7 +1250,6 @@ Meta
 Backspace
 "
 true
-false
 true
 aIsReadonly
 )
@@ -1301,7 +1333,6 @@ aDescription
 Delete
 "
 true
-false
 true
 !
 aIsReadonly
@@ -1348,7 +1379,6 @@ Shift
 Delete
 "
 true
-false
 true
 kIsWin
 |
@@ -1394,7 +1424,6 @@ Ctrl
 Delete
 "
 true
-false
 true
 kIsWin
 |
@@ -1435,7 +1464,6 @@ Alt
 Delete
 "
 true
-false
 true
 kIsMac
 )
@@ -1476,7 +1504,6 @@ Meta
 Delete
 "
 true
-false
 true
 kIsLinux
 )
@@ -1588,7 +1615,6 @@ aDescription
 Return
 "
 true
-false
 true
 !
 aIsSingleLine
@@ -1655,7 +1681,6 @@ Shift
 Return
 "
 true
-false
 true
 !
 aIsSingleLine
@@ -1724,7 +1749,6 @@ Ctrl
 Return
 "
 true
-false
 true
 false
 )
@@ -1775,7 +1799,6 @@ Alt
 Return
 "
 true
-false
 true
 false
 )
@@ -1826,7 +1849,6 @@ Meta
 Return
 "
 true
-false
 true
 false
 )
@@ -1927,7 +1949,6 @@ aDescription
 Enter
 "
 true
-false
 true
 !
 aIsSingleLine
@@ -1994,7 +2015,6 @@ Shift
 Enter
 "
 true
-false
 true
 !
 aIsSingleLine
@@ -2063,7 +2083,6 @@ Ctrl
 Enter
 "
 true
-false
 true
 false
 )
@@ -2114,7 +2133,6 @@ Alt
 Enter
 "
 true
-false
 true
 false
 )
@@ -2165,7 +2183,6 @@ Meta
 Enter
 "
 true
-false
 true
 false
 )
@@ -2245,7 +2262,6 @@ aDescription
 Tab
 "
 true
-false
 true
 !
 aIsTabbable
@@ -2351,7 +2367,6 @@ Shift
 Tab
 "
 true
-false
 true
 false
 )
@@ -2398,10 +2413,18 @@ Tab
 Ctrl
 +
 Tab
-is
+may
+be
 consumed
 by
 tabbrowser
+but
+editor
+shouldn
+'
+t
+consume
+this
 .
 reset
 (
@@ -2433,8 +2456,7 @@ Tab
 "
 true
 true
-true
-true
+false
 )
 ;
 is
@@ -2503,7 +2525,6 @@ Alt
 Tab
 "
 true
-false
 true
 false
 )
@@ -2574,7 +2595,6 @@ Meta
 Tab
 "
 true
-false
 true
 false
 )
@@ -2656,7 +2676,6 @@ aDescription
 Esc
 "
 true
-false
 true
 false
 )
@@ -2690,7 +2709,6 @@ Shift
 Esc
 "
 true
-false
 true
 false
 )
@@ -2724,7 +2742,6 @@ Ctrl
 Esc
 "
 true
-false
 true
 false
 )
@@ -2758,7 +2775,6 @@ Alt
 Esc
 "
 true
-false
 true
 false
 )
@@ -2792,7 +2808,6 @@ Meta
 Esc
 "
 true
-false
 true
 false
 )
@@ -2829,7 +2844,6 @@ aDescription
 M
 "
 true
-false
 true
 !
 aIsReadonly
@@ -2852,7 +2866,6 @@ aDescription
 o
 "
 true
-false
 true
 !
 aIsReadonly
@@ -2875,7 +2888,6 @@ aDescription
 z
 "
 true
-false
 true
 !
 aIsReadonly
@@ -2898,7 +2910,6 @@ aDescription
 i
 "
 true
-false
 true
 !
 aIsReadonly
@@ -2921,7 +2932,6 @@ aDescription
 l
 "
 true
-false
 true
 !
 aIsReadonly
@@ -2944,7 +2954,6 @@ aDescription
 l
 "
 true
-false
 true
 !
 aIsReadonly
@@ -2967,7 +2976,6 @@ aDescription
 a
 "
 true
-false
 true
 !
 aIsReadonly
@@ -2990,7 +2998,6 @@ aDescription
 '
 "
 true
-false
 true
 !
 aIsReadonly
