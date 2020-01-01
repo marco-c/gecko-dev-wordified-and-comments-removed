@@ -223,14 +223,13 @@ true
 }
 }
 ;
-NS_IMPL_ISUPPORTS_INHERITED4
+NS_IMPL_ISUPPORTS_INHERITED3
 (
 SVGPatternElement
 SVGPatternElementBase
 nsIDOMNode
 nsIDOMElement
 nsIDOMSVGElement
-nsIDOMSVGUnitTypes
 )
 SVGPatternElement
 :

@@ -131,11 +131,6 @@ nsIDOMSVGStringList
 idl
 '
 '
-nsIDOMSVGUnitTypes
-.
-idl
-'
-'
 nsIDOMSVGZoomEvent
 .
 idl
