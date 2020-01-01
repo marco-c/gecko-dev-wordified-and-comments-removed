@@ -1511,8 +1511,8 @@ True
 try
 :
         
-success
-=
+if
+not
 xpcsh
 .
 runTests
@@ -1546,6 +1546,14 @@ options
 .
 __dict__
 )
+:
+            
+sys
+.
+exit
+(
+1
+)
     
 except
 :
@@ -1573,16 +1581,6 @@ sys
 exit
 (
 1
-)
-    
-sys
-.
-exit
-(
-int
-(
-success
-)
 )
 if
 __name__
