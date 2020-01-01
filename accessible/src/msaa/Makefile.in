@@ -143,6 +143,10 @@ Platform
 .
 cpp
 \
+ServiceProvider
+.
+cpp
+\
 RootAccessibleWrap
 .
 cpp
