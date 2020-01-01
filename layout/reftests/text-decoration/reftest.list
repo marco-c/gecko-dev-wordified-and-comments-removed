@@ -2364,6 +2364,12 @@ button
 ref
 .
 html
+fails
+-
+if
+(
+winWidget
+)
 =
 =
 underline
@@ -2382,3 +2388,14 @@ button
 ref
 .
 html
+#
+On
+windows
+the
+underline
+spacing
+inside
+the
+button
+is
+different
