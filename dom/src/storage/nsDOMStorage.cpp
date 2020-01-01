@@ -5327,6 +5327,15 @@ CacheKeysFromDB
 (
 )
 ;
+entry
+=
+mItems
+.
+GetEntry
+(
+aKey
+)
+;
 nsAutoString
 value
 ;
