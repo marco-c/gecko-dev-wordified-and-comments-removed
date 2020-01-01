@@ -414,6 +414,31 @@ Binding
 changedDeps
 )
         
+if
+len
+(
+toRegenerate
+)
+=
+=
+0
+and
+len
+(
+changedDeps
+)
+=
+=
+1
+:
+            
+toRegenerate
+=
+allWebIDLFiles
+        
+else
+:
+            
 toRegenerate
 =
 map
@@ -437,6 +462,7 @@ Binding
 .
 webidl
 "
+                               
 toRegenerate
 )
     
