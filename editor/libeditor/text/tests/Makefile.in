@@ -441,10 +441,6 @@ test_bug471722
 .
 html
 \
-test_texteditor_keyevent_handling
-.
-html
-\
 (
 NULL
 )

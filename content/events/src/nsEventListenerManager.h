@@ -67,13 +67,6 @@ nsTObserverArray
 .
 h
 "
-#
-include
-"
-nsGUIEvent
-.
-h
-"
 class
 nsIDOMEvent
 ;
@@ -91,9 +84,6 @@ EventTypeData
 ;
 class
 nsEventTargetChainItem
-;
-class
-nsPIDOMWindow
 ;
 typedef
 struct
@@ -519,13 +509,6 @@ NS_DECL_NSIDOM3EVENTTARGET
 static
 void
 Shutdown
-(
-)
-;
-static
-nsIDOMEventGroup
-*
-GetSystemEventGroup
 (
 )
 ;
