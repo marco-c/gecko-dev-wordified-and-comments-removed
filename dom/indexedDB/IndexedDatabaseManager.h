@@ -417,6 +417,8 @@ const
 nsACString
 &
 aOrigin
+FactoryPrivilege
+aPrivilege
 nsIFile
 *
 *

@@ -68,6 +68,8 @@ PRUint64
 aRequestedVersion
 bool
 aForDeletion
+FactoryPrivilege
+aPrivilege
 )
 :
 HelperBase
@@ -93,6 +95,10 @@ aRequestedVersion
 mForDeletion
 (
 aForDeletion
+)
+mPrivilege
+(
+aPrivilege
 )
 mDatabaseId
 (
@@ -345,6 +351,9 @@ mRequestedVersion
 ;
 bool
 mForDeletion
+;
+FactoryPrivilege
+mPrivilege
 ;
 nsCOMPtr
 <
