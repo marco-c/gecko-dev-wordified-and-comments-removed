@@ -424,13 +424,6 @@ DIRS
 =
 browser
 endif
-ifdef
-MOZ_THUNDERBIRD
-DIRS
-+
-=
-communicator
-endif
 ifndef
 MOZ_XUL_APP
 DIRS
