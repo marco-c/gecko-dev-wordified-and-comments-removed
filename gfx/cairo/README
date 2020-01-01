@@ -1768,6 +1768,16 @@ addressed
 upstream
 by
 be1ff2f45fdbc69537e513834fcffa0435e63073
+gdi
+-
+RGB24
+-
+ARGB32
+.
+patch
+:
+bug
+788794
 =
 =
 =
