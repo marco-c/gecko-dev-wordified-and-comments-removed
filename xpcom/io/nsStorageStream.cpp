@@ -55,6 +55,13 @@ prlog
 h
 "
 #
+include
+"
+nsInt64
+.
+h
+"
+#
 if
 defined
 (

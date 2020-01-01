@@ -73,6 +73,13 @@ h
 #
 include
 "
+nsInt64
+.
+h
+"
+#
+include
+"
 nsIClassInfoImpl
 .
 h
@@ -387,7 +394,7 @@ mPipe
 nsrefcnt
 mReaderRefCnt
 ;
-PRInt64
+nsInt64
 mLogicalOffset
 ;
 PRPackedBool
@@ -515,7 +522,7 @@ mPipe
 nsrefcnt
 mWriterRefCnt
 ;
-PRInt64
+nsInt64
 mLogicalOffset
 ;
 PRPackedBool

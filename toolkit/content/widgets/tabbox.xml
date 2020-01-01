@@ -3040,11 +3040,7 @@ commandDispatcher
 .
 advanceFocusIntoSubtree
 (
-this
-.
-tabbox
-.
-selectedPanel
+aNewTab
 )
 ;
 /

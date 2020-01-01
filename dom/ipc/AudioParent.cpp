@@ -12,15 +12,6 @@ h
 #
 include
 "
-mozilla
-/
-unused
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h
@@ -391,9 +382,6 @@ GetSampleOffset
 (
 )
 ;
-unused
-<
-<
 SendSampleOffsetUpdate
 (
 offset
@@ -691,9 +679,6 @@ Shutdown
 (
 )
 ;
-unused
-<
-<
 PAudioParent
 :
 :

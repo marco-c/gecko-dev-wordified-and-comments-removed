@@ -1,12 +1,10 @@
-var
-timer
-;
 function
 armTimer
 (
 response
 )
 {
+var
 timer
 =
 Components

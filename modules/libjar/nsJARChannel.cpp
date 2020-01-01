@@ -36,6 +36,13 @@ h
 #
 include
 "
+nsInt64
+.
+h
+"
+#
+include
+"
 nsEscape
 .
 h

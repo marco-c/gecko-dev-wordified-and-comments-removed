@@ -6447,6 +6447,8 @@ fileChan
 nsnull
 ;
 mContentLength
+.
+mValue
 =
 GetContentLengthAsInt64
 (

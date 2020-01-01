@@ -3833,7 +3833,7 @@ absoluteOffset
 (
 PRInt32
 )
-PRInt64
+nsInt64
 (
 absoluteOffset64
 )
@@ -4154,7 +4154,7 @@ absoluteOffset
 (
 PRInt32
 )
-PRInt64
+nsInt64
 (
 absoluteOffset64
 )

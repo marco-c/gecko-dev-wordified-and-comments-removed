@@ -98,9 +98,6 @@ postMessage
 message
 )
 ;
-return
-worker
-;
 }
 }
 ;
