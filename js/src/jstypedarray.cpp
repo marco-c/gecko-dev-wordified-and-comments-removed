@@ -2230,6 +2230,9 @@ cx
 JSObject
 *
 obj
+JSObject
+*
+receiver
 jsid
 id
 Value
