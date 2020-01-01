@@ -494,8 +494,6 @@ aItemId
 BookmarkData
 &
 _bookmark
-bool
-aInvalidateCache
 )
 ;
 nsresult
@@ -1210,7 +1208,6 @@ FetchItemInfo
 (
 mID
 folder
-true
 )
 ;
 mParent
