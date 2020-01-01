@@ -75,6 +75,13 @@ nsIScrollbarOwner
 {
 public
 :
+typedef
+mozilla
+:
+:
+CSSIntPoint
+CSSIntPoint
+;
 NS_DECL_QUERYFRAME_TARGET
 (
 nsIScrollableFrame
@@ -272,9 +279,6 @@ void
 ScrollToCSSPixels
 (
 const
-mozilla
-:
-:
 CSSIntPoint
 &
 aScrollPosition
@@ -298,7 +302,7 @@ aScrollPosition
 0
 ;
 virtual
-nsIntPoint
+CSSIntPoint
 GetScrollPositionCSSPixels
 (
 )

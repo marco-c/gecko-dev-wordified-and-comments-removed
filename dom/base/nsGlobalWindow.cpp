@@ -20358,7 +20358,7 @@ true
 )
 ;
 }
-nsIntPoint
+CSSIntPoint
 scrollPosCSSPixels
 =
 sf
@@ -25513,17 +25513,11 @@ sf
 CSSIntPoint
 scrollPos
 =
-CSSIntPoint
-:
-:
-FromAppUnitsRounded
-(
 sf
 -
 >
-GetScrollPosition
+GetScrollPositionCSSPixels
 (
-)
 )
 +
 CSSIntPoint
