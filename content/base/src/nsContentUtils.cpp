@@ -321,6 +321,13 @@ h
 #
 include
 "
+nsDataHashtable
+.
+h
+"
+#
+include
+"
 nsDocShellCID
 .
 h
