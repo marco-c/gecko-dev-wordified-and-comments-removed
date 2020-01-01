@@ -1116,9 +1116,12 @@ nsAccEvent
 :
 ApplyEventRules
 (
-nsCOMArray
+nsTArray
+<
+nsCOMPtr
 <
 nsIAccessibleEvent
+>
 >
 &
 aEventsToFire
@@ -1129,7 +1132,7 @@ numQueuedEvents
 =
 aEventsToFire
 .
-Count
+Length
 (
 )
 ;
@@ -1577,9 +1580,12 @@ nsAccEvent
 :
 ApplyToSiblings
 (
-nsCOMArray
+nsTArray
+<
+nsCOMPtr
 <
 nsIAccessibleEvent
+>
 >
 &
 aEventsToFire
