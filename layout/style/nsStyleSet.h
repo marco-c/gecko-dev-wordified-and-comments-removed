@@ -93,7 +93,8 @@ public
 nsIStyleRule
 {
 NS_DECL_ISUPPORTS
-NS_IMETHOD
+virtual
+void
 MapRuleInfoInto
 (
 nsRuleData
@@ -104,7 +105,8 @@ aRuleData
 #
 ifdef
 DEBUG
-NS_IMETHOD
+virtual
+void
 List
 (
 FILE

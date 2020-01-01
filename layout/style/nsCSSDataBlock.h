@@ -54,7 +54,7 @@ friend
 class
 nsCSSDeclaration
 ;
-nsresult
+void
 MapRuleInfoInto
 (
 nsRuleData

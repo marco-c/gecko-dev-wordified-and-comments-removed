@@ -773,7 +773,7 @@ CSS_PROPERTY_START_IMAGE_LOADS
 )
 ;
 }
-nsresult
+void
 nsCSSCompressedDataBlock
 :
 :
@@ -798,7 +798,6 @@ mStyleBits
 )
 )
 return
-NS_OK
 ;
 nsIDocument
 *
@@ -1618,9 +1617,6 @@ inconsistent
 data
 "
 )
-;
-return
-NS_OK
 ;
 }
 const

@@ -106,7 +106,8 @@ aRule
 )
 ;
 \
-NS_IMETHOD
+virtual
+void
 MapRuleInfoInto
 (
 nsRuleData
@@ -160,7 +161,8 @@ DECL_STYLE_RULE_INHERIT_NO_DOMRULE
 #
 ifdef
 DEBUG
-NS_IMETHOD
+virtual
+void
 List
 (
 FILE
@@ -355,7 +357,8 @@ NS_DECL_ISUPPORTS_INHERITED
 #
 ifdef
 DEBUG
-NS_IMETHOD
+virtual
+void
 List
 (
 FILE
@@ -485,7 +488,8 @@ NS_DECL_ISUPPORTS_INHERITED
 #
 ifdef
 DEBUG
-NS_IMETHOD
+virtual
+void
 List
 (
 FILE
@@ -761,7 +765,8 @@ NS_DECL_ISUPPORTS_INHERITED
 #
 ifdef
 DEBUG
-NS_IMETHOD
+virtual
+void
 List
 (
 FILE

@@ -822,7 +822,7 @@ mSheet
 aSheet
 ;
 }
-NS_IMETHODIMP
+void
 nsMappedAttributes
 :
 :
@@ -848,14 +848,11 @@ aRuleData
 )
 ;
 }
-return
-NS_OK
-;
 }
 #
 ifdef
 DEBUG
-NS_IMETHODIMP
+void
 nsMappedAttributes
 :
 :
@@ -1022,9 +1019,6 @@ out
 )
 ;
 }
-return
-NS_OK
-;
 }
 #
 endif

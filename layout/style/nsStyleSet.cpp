@@ -133,7 +133,7 @@ NS_IMPL_ISUPPORTS1
 nsEmptyStyleRule
 nsIStyleRule
 )
-NS_IMETHODIMP
+void
 nsEmptyStyleRule
 :
 :
@@ -144,14 +144,11 @@ nsRuleData
 aRuleData
 )
 {
-return
-NS_OK
-;
 }
 #
 ifdef
 DEBUG
-NS_IMETHODIMP
+void
 nsEmptyStyleRule
 :
 :
@@ -165,9 +162,6 @@ aIndent
 )
 const
 {
-return
-NS_OK
-;
 }
 #
 endif

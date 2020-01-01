@@ -368,7 +368,8 @@ HTMLColorRule
 {
 }
 NS_DECL_ISUPPORTS
-NS_IMETHOD
+virtual
+void
 MapRuleInfoInto
 (
 nsRuleData
@@ -379,7 +380,8 @@ aRuleData
 #
 ifdef
 DEBUG
-NS_IMETHOD
+virtual
+void
 List
 (
 FILE
@@ -422,7 +424,8 @@ GenericTableRule
 {
 }
 NS_DECL_ISUPPORTS
-NS_IMETHOD
+virtual
+void
 MapRuleInfoInto
 (
 nsRuleData
@@ -433,7 +436,8 @@ aRuleData
 #
 ifdef
 DEBUG
-NS_IMETHOD
+virtual
+void
 List
 (
 FILE
@@ -472,7 +476,8 @@ TableTHRule
 )
 {
 }
-NS_IMETHOD
+virtual
+void
 MapRuleInfoInto
 (
 nsRuleData

@@ -306,7 +306,12 @@ this
 ;
 }
 \
-NS_IMETHODIMP
+/
+*
+virtual
+*
+/
+void
 _class
 :
 :
@@ -317,9 +322,6 @@ nsRuleData
 aRuleData
 )
 {
-return
-NS_OK
-;
 }
 #
 define
@@ -375,7 +377,12 @@ aRule
 ;
 }
 \
-NS_IMETHODIMP
+/
+*
+virtual
+*
+/
+void
 _class
 :
 :
@@ -386,9 +393,6 @@ nsRuleData
 aRuleData
 )
 {
-return
-NS_OK
-;
 }
 class
 CSSGroupRuleRuleListImpl
@@ -726,7 +730,8 @@ DECL_STYLE_RULE_INHERIT
 #
 ifdef
 DEBUG
-NS_IMETHOD
+virtual
+void
 List
 (
 FILE
@@ -893,7 +898,7 @@ nsCSSRule
 #
 ifdef
 DEBUG
-NS_IMETHODIMP
+void
 CSSCharsetRuleImpl
 :
 :
@@ -962,9 +967,6 @@ n
 "
 out
 )
-;
-return
-NS_OK
 ;
 }
 #
@@ -1315,7 +1317,8 @@ DECL_STYLE_RULE_INHERIT
 #
 ifdef
 DEBUG
-NS_IMETHOD
+virtual
+void
 List
 (
 FILE
@@ -1575,7 +1578,7 @@ nsCSSRule
 #
 ifdef
 DEBUG
-NS_IMETHODIMP
+void
 CSSImportRuleImpl
 :
 :
@@ -1675,9 +1678,6 @@ n
 "
 out
 )
-;
-return
-NS_OK
 ;
 }
 #
@@ -2562,7 +2562,7 @@ aSheet
 #
 ifdef
 DEBUG
-NS_IMETHODIMP
+void
 nsCSSGroupRule
 :
 :
@@ -2635,9 +2635,6 @@ n
 "
 out
 )
-;
-return
-NS_OK
 ;
 }
 #
@@ -3552,7 +3549,7 @@ aSheet
 #
 ifdef
 DEBUG
-NS_IMETHODIMP
+void
 nsCSSMediaRule
 :
 :
@@ -3629,7 +3626,6 @@ out
 )
 ;
 }
-return
 nsCSSGroupRule
 :
 :
@@ -4130,7 +4126,7 @@ NS_INTERFACE_MAP_END
 #
 ifdef
 DEBUG
-NS_IMETHODIMP
+void
 nsCSSDocumentRule
 :
 :
@@ -4329,7 +4325,6 @@ get
 out
 )
 ;
-return
 nsCSSGroupRule
 :
 :
@@ -4985,7 +4980,8 @@ DECL_STYLE_RULE_INHERIT
 #
 ifdef
 DEBUG
-NS_IMETHOD
+virtual
+void
 List
 (
 FILE
@@ -5191,7 +5187,7 @@ nsCSSRule
 #
 ifdef
 DEBUG
-NS_IMETHODIMP
+void
 CSSNameSpaceRuleImpl
 :
 :
@@ -5303,9 +5299,6 @@ n
 "
 out
 )
-;
-return
-NS_OK
 ;
 }
 #
@@ -7333,7 +7326,7 @@ nsCSSRule
 #
 ifdef
 DEBUG
-NS_IMETHODIMP
+void
 nsCSSFontFaceRule
 :
 :
@@ -7571,9 +7564,6 @@ get
 (
 )
 )
-;
-return
-NS_OK
 ;
 }
 #

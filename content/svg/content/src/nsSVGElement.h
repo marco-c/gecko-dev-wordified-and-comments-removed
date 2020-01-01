@@ -119,6 +119,9 @@ nsSVGPreserveAspectRatio
 class
 nsSVGString
 ;
+struct
+gfxMatrix
+;
 typedef
 nsStyledElement
 nsSVGElementBase

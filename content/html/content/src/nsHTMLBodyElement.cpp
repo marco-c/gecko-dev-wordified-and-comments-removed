@@ -170,7 +170,8 @@ BodyRule
 )
 ;
 NS_DECL_ISUPPORTS
-NS_IMETHOD
+virtual
+void
 MapRuleInfoInto
 (
 nsRuleData
@@ -181,7 +182,8 @@ aRuleData
 #
 ifdef
 DEBUG
-NS_IMETHOD
+virtual
+void
 List
 (
 FILE
@@ -380,7 +382,7 @@ NS_IMPL_ISUPPORTS1
 BodyRule
 nsIStyleRule
 )
-NS_IMETHODIMP
+void
 BodyRule
 :
 :
@@ -422,7 +424,6 @@ mMarginData
 mPart
 )
 return
-NS_OK
 ;
 PRInt32
 bodyMarginWidth
@@ -1463,14 +1464,11 @@ eCSSUnit_Pixel
 }
 }
 }
-return
-NS_OK
-;
 }
 #
 ifdef
 DEBUG
-NS_IMETHODIMP
+void
 BodyRule
 :
 :
@@ -1484,9 +1482,6 @@ aIndent
 )
 const
 {
-return
-NS_OK
-;
 }
 #
 endif

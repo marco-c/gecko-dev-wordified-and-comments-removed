@@ -4280,7 +4280,8 @@ aImportantBlock
 )
 ;
 NS_DECL_ISUPPORTS
-NS_IMETHOD
+virtual
+void
 MapRuleInfoInto
 (
 nsRuleData
@@ -4291,7 +4292,8 @@ aRuleData
 #
 ifdef
 DEBUG
-NS_IMETHOD
+virtual
+void
 List
 (
 FILE
@@ -4360,7 +4362,7 @@ NS_IMPL_ISUPPORTS1
 CSSImportantRule
 nsIStyleRule
 )
-NS_IMETHODIMP
+void
 CSSImportantRule
 :
 :
@@ -4371,7 +4373,6 @@ nsRuleData
 aRuleData
 )
 {
-return
 mImportantBlock
 -
 >
@@ -4384,7 +4385,7 @@ aRuleData
 #
 ifdef
 DEBUG
-NS_IMETHODIMP
+void
 CSSImportantRule
 :
 :
@@ -4447,9 +4448,6 @@ get
 )
 )
 )
-;
-return
-NS_OK
 ;
 }
 #
@@ -5885,7 +5883,8 @@ PRBool
 aHandleContainer
 )
 ;
-NS_IMETHOD
+virtual
+void
 MapRuleInfoInto
 (
 nsRuleData
@@ -5896,7 +5895,8 @@ aRuleData
 #
 ifdef
 DEBUG
-NS_IMETHOD
+virtual
+void
 List
 (
 FILE
@@ -6728,7 +6728,7 @@ return
 clone
 ;
 }
-NS_IMETHODIMP
+void
 CSSStyleRuleImpl
 :
 :
@@ -6754,7 +6754,6 @@ RuleMatched
 "
 )
 ;
-return
 mNormalBlock
 -
 >
@@ -6767,7 +6766,7 @@ aRuleData
 #
 ifdef
 DEBUG
-NS_IMETHODIMP
+void
 CSSStyleRuleImpl
 :
 :
@@ -6879,9 +6878,6 @@ n
 "
 out
 )
-;
-return
-NS_OK
 ;
 }
 #

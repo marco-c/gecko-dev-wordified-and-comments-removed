@@ -59,7 +59,8 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_ISTYLE_RULE_IID
 )
-NS_IMETHOD
+virtual
+void
 MapRuleInfoInto
 (
 nsRuleData
@@ -84,7 +85,8 @@ nsnull
 #
 ifdef
 DEBUG
-NS_IMETHOD
+virtual
+void
 List
 (
 FILE

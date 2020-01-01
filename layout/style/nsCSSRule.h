@@ -98,7 +98,8 @@ nsICSSGroupRule
 aRule
 )
 ;
-NS_IMETHOD
+virtual
+void
 MapRuleInfoInto
 (
 nsRuleData

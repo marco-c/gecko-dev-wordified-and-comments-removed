@@ -144,7 +144,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsCSSRule
 :
 :
@@ -164,8 +164,5 @@ nsCSSRule
 MapRuleInfoInto
 "
 )
-;
-return
-NS_OK
 ;
 }
