@@ -4305,20 +4305,27 @@ retVal
 =
 1
         
-if
-retVal
-=
-=
-0
+else
 :
             
-retVal
+overallResult
 =
 mochitest
 .
 printLog
 (
 )
+            
+if
+retVal
+=
+=
+0
+:
+                
+retVal
+=
+overallResult
     
 else
 :
