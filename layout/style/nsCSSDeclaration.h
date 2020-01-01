@@ -56,7 +56,7 @@ h
 #
 include
 "
-nsValueArray
+nsTArray
 .
 h
 "
@@ -174,7 +174,15 @@ Count
 (
 )
 const
+{
+return
+mOrder
+.
+Length
+(
+)
 ;
+}
 nsresult
 GetNthProperty
 (
@@ -774,7 +782,7 @@ void
 nsCSSProperty
 OrderValueAt
 (
-nsValueArrayIndex
+PRUint32
 aValue
 )
 const
@@ -784,7 +792,7 @@ nsCSSProperty
 (
 mOrder
 .
-ValueAt
+ElementAt
 (
 aValue
 )
@@ -793,7 +801,11 @@ aValue
 }
 private
 :
-nsValueArray
+nsAutoTArray
+<
+PRUint8
+8
+>
 mOrder
 ;
 nsAutoRefCnt
