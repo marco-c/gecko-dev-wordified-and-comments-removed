@@ -12337,6 +12337,13 @@ SVGOuterSVGFrame
 )
 GK_ATOM
 (
+svgOuterSVGAnonChildFrame
+"
+SVGOuterSVGAnonChildFrame
+"
+)
+GK_ATOM
+(
 svgPathGeometryFrame
 "
 SVGPathGeometryFrame

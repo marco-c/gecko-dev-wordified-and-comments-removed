@@ -577,6 +577,10 @@ nsSVGOuterSVGFrame
 )
 FRAME_ID
 (
+nsSVGOuterSVGAnonChildFrame
+)
+FRAME_ID
+(
 nsSVGPaintServerFrame
 )
 FRAME_ID
