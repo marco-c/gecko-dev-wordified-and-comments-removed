@@ -385,12 +385,7 @@ this
 )
 )
 return
-gen
--
->
-error
-(
-)
+false
 ;
 JS_ASSERT
 (
@@ -629,7 +624,7 @@ MAX_VIRTUAL_REGISTERS
 gen
 -
 >
-error
+abort
 (
 "
 max
