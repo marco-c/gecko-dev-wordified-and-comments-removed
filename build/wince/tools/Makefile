@@ -1438,6 +1438,8 @@ export
 (
 SDK_TOOLS
 )
+ifdef
+MOZCE_NOT_CONFIGURE
 mkdir
 -
 p
@@ -1461,3 +1463,4 @@ dist
 sdk
 /
 bin
+endif
