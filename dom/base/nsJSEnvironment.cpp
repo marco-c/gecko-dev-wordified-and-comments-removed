@@ -6637,6 +6637,10 @@ aIsUndefined
 }
 else
 {
+ReportPendingException
+(
+)
+;
 if
 (
 aIsUndefined

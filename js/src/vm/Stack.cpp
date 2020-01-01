@@ -2669,6 +2669,17 @@ InvokeArgsGuard
 iag
 )
 {
+JS_ASSERT
+(
+argc
+<
+=
+StackSpace
+:
+:
+ARGS_LENGTH_MAX
+)
+;
 uintN
 nvars
 =
