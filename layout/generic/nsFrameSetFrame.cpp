@@ -3639,20 +3639,11 @@ nsDisplayListSet
 aLists
 )
 {
-nsresult
-rv
-=
 BuildDisplayListForInline
 (
 aBuilder
 aDirtyRect
 aLists
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 if
@@ -3668,8 +3659,6 @@ IsForEventDelivery
 )
 )
 {
-rv
-=
 aLists
 .
 Content
@@ -3692,7 +3681,7 @@ this
 ;
 }
 return
-rv
+NS_OK
 ;
 }
 void
@@ -7712,7 +7701,6 @@ nsDisplayListSet
 aLists
 )
 {
-return
 aLists
 .
 Content
@@ -7732,6 +7720,9 @@ aBuilder
 this
 )
 )
+;
+return
+NS_OK
 ;
 }
 void
@@ -8745,7 +8736,6 @@ nsDisplayListSet
 aLists
 )
 {
-return
 aLists
 .
 Content
@@ -8765,5 +8755,8 @@ aBuilder
 this
 )
 )
+;
+return
+NS_OK
 ;
 }

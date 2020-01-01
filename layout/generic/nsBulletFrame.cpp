@@ -1080,7 +1080,6 @@ nsBulletFrame
 "
 )
 ;
-return
 aLists
 .
 Content
@@ -1100,6 +1099,9 @@ aBuilder
 this
 )
 )
+;
+return
+NS_OK
 ;
 }
 void

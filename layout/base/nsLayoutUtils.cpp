@@ -8533,9 +8533,6 @@ aFrame
 aTarget
 )
 ;
-nsresult
-rv
-=
 aFrame
 -
 >
@@ -8554,12 +8551,6 @@ LeavePresShell
 (
 aFrame
 aTarget
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 nsAutoTArray
@@ -8800,9 +8791,6 @@ aFrame
 target
 )
 ;
-nsresult
-rv
-=
 aFrame
 -
 >
@@ -8821,12 +8809,6 @@ LeavePresShell
 (
 aFrame
 target
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 #
@@ -9513,9 +9495,6 @@ canvasFrame
 }
 }
 }
-nsresult
-rv
-;
 nsRect
 dirtyRect
 =
@@ -9547,8 +9526,6 @@ BuildDisplayList
 "
 )
 ;
-rv
-=
 aFrame
 -
 >
@@ -9624,12 +9601,6 @@ aFrame
 ;
 while
 (
-NS_SUCCEEDED
-(
-rv
-)
-&
-&
 (
 currentFrame
 =
@@ -9670,8 +9641,6 @@ ToReferenceFrame
 currentFrame
 )
 ;
-rv
-=
 currentFrame
 -
 >
@@ -9725,8 +9694,6 @@ GetSize
 )
 )
 ;
-rv
-=
 presShell
 -
 >
@@ -9763,8 +9730,6 @@ GetBounds
 )
 )
 ;
-rv
-=
 presShell
 -
 >
@@ -9857,12 +9822,6 @@ LeavePresShell
 (
 aFrame
 dirtyRect
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 if
