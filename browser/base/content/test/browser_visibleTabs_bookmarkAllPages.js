@@ -107,9 +107,7 @@ uris
 =
 PlacesCommandHook
 .
-_getUniqueTabInfo
-(
-)
+uniqueCurrentPages
 ;
 is
 (
