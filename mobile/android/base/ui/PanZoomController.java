@@ -5585,7 +5585,7 @@ return
 true
 ;
 }
-public
+private
 boolean
 animatedZoomTo
 (
