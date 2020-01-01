@@ -657,8 +657,6 @@ _uri
 (
 TEST_URL
 )
-{
-}
 )
 ;
 is
@@ -1136,8 +1134,6 @@ _uri
 (
 TEST_URL
 )
-{
-}
 )
 ;
 is
@@ -1597,8 +1593,6 @@ _uri
 (
 TEST_URL
 )
-{
-}
 )
 ;
 is
@@ -2076,8 +2070,6 @@ _uri
 (
 TEST_URL
 )
-{
-}
 )
 ;
 is

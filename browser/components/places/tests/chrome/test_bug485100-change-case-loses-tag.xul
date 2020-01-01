@@ -1060,8 +1060,6 @@ ts
 getTagsForURI
 (
 testURI
-{
-}
 )
 [
 0
@@ -1116,8 +1114,6 @@ ts
 getTagsForURI
 (
 testURI
-{
-}
 )
 [
 0

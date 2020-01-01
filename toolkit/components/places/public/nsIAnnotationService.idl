@@ -2312,6 +2312,9 @@ getPagesWithAnnotation
 in
 AUTF8String
 name
+[
+optional
+]
 out
 unsigned
 long
@@ -2335,6 +2338,9 @@ getItemsWithAnnotation
 in
 AUTF8String
 name
+[
+optional
+]
 out
 unsigned
 long
@@ -2393,6 +2399,9 @@ getPageAnnotationNames
 in
 nsIURI
 aURI
+[
+optional
+]
 out
 unsigned
 long
@@ -2417,6 +2426,9 @@ in
 long
 long
 aItemId
+[
+optional
+]
 out
 unsigned
 long

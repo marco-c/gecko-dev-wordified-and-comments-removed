@@ -604,10 +604,6 @@ query
 .
 getFolders
 (
-{
-}
-{
-}
 )
 [
 0

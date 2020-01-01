@@ -711,8 +711,6 @@ _ans
 getItemsWithAnnotation
 (
 LMANNO_FEEDURI
-{
-}
 )
 ;
 for

@@ -130,8 +130,6 @@ bookmarks
 getBookmarkIdsForURI
 (
 bookmarkURI
-{
-}
 )
 .
 length

@@ -476,8 +476,6 @@ _uri
 (
 TEST_URL
 )
-{
-}
 )
 ;
 is
@@ -936,8 +934,6 @@ _uri
 (
 MOZURISPEC
 )
-{
-}
 )
 ;
 ok
@@ -1007,8 +1003,6 @@ histNode
 .
 uri
 )
-{
-}
 )
 ;
 ok
@@ -1158,8 +1152,6 @@ _uri
 (
 TEST_URL
 )
-{
-}
 )
 ;
 is

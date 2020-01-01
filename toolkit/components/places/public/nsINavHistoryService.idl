@@ -2980,6 +2980,9 @@ nodes
 void
 getQueries
 (
+[
+optional
+]
 out
 unsigned
 long
@@ -7059,6 +7062,9 @@ folders
 void
 getFolders
 (
+[
+optional
+]
 out
 unsigned
 long

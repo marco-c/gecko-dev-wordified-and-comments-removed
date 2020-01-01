@@ -1870,6 +1870,9 @@ aFaviconURI
 out
 AUTF8String
 aMimeType
+[
+optional
+]
 out
 unsigned
 long

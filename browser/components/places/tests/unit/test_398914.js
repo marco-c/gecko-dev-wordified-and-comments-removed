@@ -859,8 +859,6 @@ bmsvc
 getBookmarkIdsForURI
 (
 testURI
-{
-}
 )
 ;
 do_check_eq

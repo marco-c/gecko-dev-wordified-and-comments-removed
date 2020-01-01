@@ -2715,8 +2715,6 @@ _ans
 getItemsWithAnnotation
 (
 ANNO_MICSUM_GEN_URI
-{
-}
 )
 ;
 this

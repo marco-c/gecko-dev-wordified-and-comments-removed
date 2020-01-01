@@ -1534,8 +1534,6 @@ tagging
 getTagsForURI
 (
 u
-{
-}
 )
 ;
 dump

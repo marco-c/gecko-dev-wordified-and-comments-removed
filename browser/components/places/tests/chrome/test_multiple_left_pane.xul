@@ -867,8 +867,6 @@ as
 getItemsWithAnnotation
 (
 ORGANIZER_FOLDER_ANNO
-{
-}
 )
 ;
 /
@@ -969,8 +967,6 @@ as
 getItemsWithAnnotation
 (
 ORGANIZER_FOLDER_ANNO
-{
-}
 )
 ;
 is

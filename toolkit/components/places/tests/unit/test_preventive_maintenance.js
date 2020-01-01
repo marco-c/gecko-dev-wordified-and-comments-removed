@@ -7090,7 +7090,7 @@ _uri1
 spec
 )
 ;
-do_check_true
+do_check_eq
 (
 bs
 .
@@ -7100,8 +7100,6 @@ this
 .
 _folderId
 )
-=
-=
 0
 )
 ;
@@ -7135,7 +7133,7 @@ bs
 TYPE_SEPARATOR
 )
 ;
-do_check_true
+do_check_eq
 (
 ts
 .
@@ -7144,13 +7142,9 @@ getTagsForURI
 this
 .
 _uri1
-{
-}
 )
 .
 length
-=
-=
 1
 )
 ;

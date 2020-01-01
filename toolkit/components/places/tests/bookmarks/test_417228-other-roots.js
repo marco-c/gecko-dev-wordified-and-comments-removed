@@ -341,8 +341,6 @@ getTagsForURI
 this
 .
 _testURI
-{
-}
 )
 ;
 do_check_eq

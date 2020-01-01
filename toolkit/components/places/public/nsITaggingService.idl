@@ -735,6 +735,9 @@ getTagsForURI
 in
 nsIURI
 aURI
+[
+optional
+]
 out
 unsigned
 long

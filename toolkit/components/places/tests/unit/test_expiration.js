@@ -3234,8 +3234,6 @@ annosvc
 getPageAnnotationNames
 (
 testURI
-{
-}
 )
 .
 length
@@ -3249,8 +3247,6 @@ annosvc
 getPageAnnotationNames
 (
 triggerURI
-{
-}
 )
 .
 length
@@ -3487,8 +3483,6 @@ annosvc
 getPageAnnotationNames
 (
 testURI
-{
-}
 )
 .
 length
@@ -3513,8 +3507,6 @@ annosvc
 getPageAnnotationNames
 (
 unexpirableURI
-{
-}
 )
 .
 length
@@ -3772,8 +3764,6 @@ annosvc
 getPageAnnotationNames
 (
 testURI
-{
-}
 )
 .
 length
@@ -3787,8 +3777,6 @@ annosvc
 getPageAnnotationNames
 (
 triggerURI
-{
-}
 )
 .
 length
@@ -3993,8 +3981,6 @@ annosvc
 getPageAnnotationNames
 (
 testURI
-{
-}
 )
 .
 length
@@ -4008,8 +3994,6 @@ annosvc
 getPageAnnotationNames
 (
 triggerURI
-{
-}
 )
 .
 length
@@ -4166,8 +4150,6 @@ annosvc
 getPageAnnotationNames
 (
 testURI
-{
-}
 )
 .
 length
@@ -4349,8 +4331,6 @@ annosvc
 getPageAnnotationNames
 (
 testURI
-{
-}
 )
 .
 length

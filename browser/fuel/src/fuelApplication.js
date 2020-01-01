@@ -1309,8 +1309,6 @@ getItemAnnotationNames
 this
 .
 _id
-{
-}
 )
 ;
 }

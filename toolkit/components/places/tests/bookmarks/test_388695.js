@@ -164,8 +164,6 @@ bmsvc
 getBookmarkIdsForURI
 (
 gURI
-{
-}
 )
 ;
 do_check_eq
@@ -220,8 +218,6 @@ bmsvc
 getBookmarkIdsForURI
 (
 gURI
-{
-}
 )
 ;
 do_check_eq

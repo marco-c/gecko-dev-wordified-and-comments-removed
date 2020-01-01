@@ -553,8 +553,6 @@ _bms
 getBookmarkIdsForURI
 (
 aURI
-{
-}
 )
 ;
 for
@@ -1016,8 +1014,6 @@ this
 getTagsForURI
 (
 aURI
-{
-}
 )
 ;
 }
@@ -1358,8 +1354,6 @@ _bms
 getBookmarkIdsForURI
 (
 aURI
-{
-}
 )
 ;
 for
@@ -1446,6 +1440,10 @@ toLowerCase
 }
 )
 ;
+if
+(
+aCount
+)
 aCount
 .
 value
@@ -1744,8 +1742,6 @@ _bms
 getBookmarkIdsForURI
 (
 aURI
-{
-}
 )
 ;
 for

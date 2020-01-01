@@ -438,8 +438,6 @@ tagssvc
 getTagsForURI
 (
 uri1
-{
-}
 )
 ;
 do_check_eq
@@ -482,8 +480,6 @@ tagssvc
 getTagsForURI
 (
 uri2
-{
-}
 )
 ;
 do_check_eq
@@ -711,8 +707,6 @@ tagssvc
 getTagsForURI
 (
 uri3
-{
-}
 )
 ;
 do_check_true
@@ -786,8 +780,6 @@ tagssvc
 getTagsForURI
 (
 uri3
-{
-}
 )
 ;
 do_check_eq
@@ -869,8 +861,6 @@ tagssvc
 getTagsForURI
 (
 uri4
-{
-}
 )
 ;
 do_check_eq

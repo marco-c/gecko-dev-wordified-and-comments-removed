@@ -647,10 +647,6 @@ aQuery1
 .
 getFolders
 (
-{
-}
-{
-}
 )
 ;
 var
@@ -660,10 +656,6 @@ aQuery2
 .
 getFolders
 (
-{
-}
-{
-}
 )
 ;
 if

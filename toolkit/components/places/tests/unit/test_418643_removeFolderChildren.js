@@ -491,8 +491,6 @@ bmSvc
 getBookmarkIdsForURI
 (
 bookmarkedURI
-{
-}
 )
 ;
 for
@@ -650,8 +648,6 @@ annoSvc
 getItemsWithAnnotation
 (
 deletedAnnoName
-{
-}
 )
 ;
 do_check_eq

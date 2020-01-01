@@ -140,8 +140,6 @@ annotations
 getItemsWithAnnotation
 (
 ORGANIZER_FOLDER_ANNO
-{
-}
 )
 ;
 is
@@ -341,8 +339,6 @@ annotations
 getItemsWithAnnotation
 (
 ORGANIZER_FOLDER_ANNO
-{
-}
 )
 ;
 if
@@ -473,8 +469,6 @@ annotations
 getItemsWithAnnotation
 (
 ORGANIZER_FOLDER_ANNO
-{
-}
 )
 ;
 is

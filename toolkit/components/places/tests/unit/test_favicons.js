@@ -361,8 +361,6 @@ getFaviconData
 (
 iconURI
 mimeTypeOutparam
-{
-}
 )
 ;
 return
@@ -1901,8 +1899,6 @@ getFaviconData
 (
 savedIcon1URI
 out1MimeType
-{
-}
 )
 ;
 do_check_eq
@@ -1934,8 +1930,6 @@ getFaviconData
 (
 savedIcon2URI
 out2MimeType
-{
-}
 )
 ;
 do_check_eq
@@ -1967,8 +1961,6 @@ getFaviconData
 (
 savedIcon3URI
 out3MimeType
-{
-}
 )
 ;
 do_check_eq
@@ -2103,8 +2095,6 @@ getFaviconData
 (
 savedFaviconURI
 outMimeType
-{
-}
 )
 ;
 do_check_eq
