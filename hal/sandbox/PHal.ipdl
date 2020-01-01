@@ -543,6 +543,16 @@ aTimezoneSpec
 )
 ;
 sync
+GetTimezone
+(
+)
+returns
+(
+nsCString
+aTimezoneSpec
+)
+;
+sync
 SetLight
 (
 LightType

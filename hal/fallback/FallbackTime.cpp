@@ -29,5 +29,16 @@ aTimezoneSpec
 )
 {
 }
+nsCString
+GetTimezone
+(
+)
+{
+return
+EmptyCString
+(
+)
+;
+}
 }
 }

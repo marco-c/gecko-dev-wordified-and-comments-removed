@@ -463,6 +463,11 @@ nsCString
 aTimezoneSpec
 )
 ;
+nsCString
+GetTimezone
+(
+)
+;
 void
 Reboot
 (
