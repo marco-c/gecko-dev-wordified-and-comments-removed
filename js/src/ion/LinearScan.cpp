@@ -7457,6 +7457,9 @@ reg
 (
 )
 ;
+#
+ifdef
+JS_NUNBOX32
 if
 (
 IsNunbox
@@ -7481,6 +7484,8 @@ canonicalSpillSlot
 )
 )
 ;
+#
+endif
 return
 dead
 -
