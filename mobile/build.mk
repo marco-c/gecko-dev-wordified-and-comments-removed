@@ -448,8 +448,9 @@ NULL
 endif
 endif
 include
-.
-.
+(
+topsrcdir
+)
 /
 toolkit
 /
