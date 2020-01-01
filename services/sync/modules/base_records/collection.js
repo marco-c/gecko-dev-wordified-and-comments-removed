@@ -669,12 +669,6 @@ record
 )
 ;
 }
-Cu
-.
-forceGC
-(
-)
-;
 }
 ;
 }
