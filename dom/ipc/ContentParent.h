@@ -608,6 +608,12 @@ ContentParent
 >
 MaybeTakePreallocatedAppProcess
 (
+const
+nsAString
+&
+aAppManifestURL
+ChildPrivileges
+aPrivs
 )
 ;
 static
@@ -659,7 +665,7 @@ Init
 (
 )
 ;
-void
+bool
 TransformPreallocatedIntoApp
 (
 const
