@@ -261,7 +261,12 @@ e
 target
 .
 tagName
+.
+toUpperCase
+(
+)
 !
+=
 =
 '
 DIV
