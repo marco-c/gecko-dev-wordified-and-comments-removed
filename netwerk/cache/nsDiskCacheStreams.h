@@ -256,12 +256,6 @@ mOutStream
 int32_t
 mInStreamCount
 ;
-nsCOMPtr
-<
-nsIFile
->
-mLocalFile
-;
 PRFileDesc
 *
 mFD
