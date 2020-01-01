@@ -1579,6 +1579,11 @@ id
 "
 configTreeBody
 "
+alternatingbackground
+=
+"
+true
+"
 ondblclick
 =
 "
