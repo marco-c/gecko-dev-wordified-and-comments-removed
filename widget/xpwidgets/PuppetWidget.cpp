@@ -762,9 +762,9 @@ PuppetWidget
 :
 Resize
 (
-int32_t
+double
 aWidth
-int32_t
+double
 aHeight
 bool
 aRepaint
@@ -781,8 +781,14 @@ SizeTo
 (
 nsIntSize
 (
+NSToIntRound
+(
 aWidth
+)
+NSToIntRound
+(
 aHeight
+)
 )
 )
 ;
