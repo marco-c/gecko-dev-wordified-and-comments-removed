@@ -452,12 +452,5 @@ _bkp
 store
 ;
 }
-_ensureOnlyOneRunningDebugger
-:
-function
-(
-)
-{
-}
 }
 ;
