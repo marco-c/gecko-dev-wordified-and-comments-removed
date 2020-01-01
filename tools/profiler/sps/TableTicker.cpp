@@ -2609,9 +2609,17 @@ MOZ_PROFILING
 )
 &
 &
+(
 defined
 (
 USE_BACKTRACE
+)
+|
+|
+defined
+(
+USE_NS_STACKWALK
+)
 )
 "
 stackwalk
