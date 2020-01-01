@@ -1030,7 +1030,7 @@ aPrintToFileName
 )
 {
 return
-NS_ERROR_NOT_IMPLEMENTED
+NS_OK
 ;
 }
 nsresult
@@ -1042,7 +1042,7 @@ EndPrinting
 )
 {
 return
-NS_ERROR_NOT_IMPLEMENTED
+NS_OK
 ;
 }
 nsresult
@@ -1054,7 +1054,7 @@ AbortPrinting
 )
 {
 return
-NS_ERROR_NOT_IMPLEMENTED
+NS_OK
 ;
 }
 nsresult
@@ -1066,7 +1066,7 @@ BeginPage
 )
 {
 return
-NS_ERROR_NOT_IMPLEMENTED
+NS_OK
 ;
 }
 nsresult
@@ -1078,6 +1078,6 @@ EndPage
 )
 {
 return
-NS_ERROR_NOT_IMPLEMENTED
+NS_OK
 ;
 }
