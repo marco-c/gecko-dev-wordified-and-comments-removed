@@ -1457,7 +1457,10 @@ GetFrameTransparency
 (
 nsIFrame
 *
-aFrame
+aBackgroundFrame
+nsIFrame
+*
+aCSSRootFrame
 )
 ;
 static

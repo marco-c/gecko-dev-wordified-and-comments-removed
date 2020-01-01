@@ -1049,6 +1049,7 @@ nsLayoutUtils
 GetFrameTransparency
 (
 this
+this
 )
 ;
 PRBool
