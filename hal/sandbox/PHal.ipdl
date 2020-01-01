@@ -467,7 +467,7 @@ hal
 struct
 BatteryInformation
 {
-float
+double
 level
 ;
 bool
