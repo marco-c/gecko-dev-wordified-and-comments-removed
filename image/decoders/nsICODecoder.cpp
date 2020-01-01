@@ -503,6 +503,13 @@ height
 )
 ;
 height
+=
+abs
+(
+height
+)
+;
+height
 /
 =
 2
