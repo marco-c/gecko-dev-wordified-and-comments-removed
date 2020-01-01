@@ -2179,6 +2179,16 @@ return
 0
 ;
 }
+virtual
+bool
+HasGLContext
+(
+)
+{
+return
+false
+;
+}
 protected
 :
 nsCOMPtr
