@@ -77,7 +77,7 @@ load
 arguments
 .
 callee
-false
+true
 )
 ;
 browser
@@ -159,7 +159,7 @@ SSTabRestored
 arguments
 .
 callee
-false
+true
 )
 ;
 let
