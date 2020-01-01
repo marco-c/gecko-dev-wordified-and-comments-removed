@@ -7,6 +7,15 @@ nsInstantiationNode_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsRuleNetwork
 .
 h
@@ -57,6 +66,7 @@ bool
 &
 aMatched
 )
+MOZ_OVERRIDE
 ;
 protected
 :

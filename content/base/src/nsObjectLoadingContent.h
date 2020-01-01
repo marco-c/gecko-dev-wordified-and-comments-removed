@@ -7,6 +7,15 @@ NSOBJECTLOADINGCONTENT_H_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsImageLoadingContent
 .
 h
@@ -829,6 +838,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 ;
 private
 :

@@ -7,6 +7,15 @@ mozilla_dom_HTMLOptionElement_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsGenericHTMLElement
 .
 h
@@ -168,6 +177,7 @@ int32_t
 aModType
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -185,6 +195,7 @@ aValue
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 void
 SetSelectedInternal
@@ -211,6 +222,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -225,6 +237,7 @@ aNullParent
 =
 true
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsEventStates
@@ -232,6 +245,7 @@ IntrinsicState
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -246,6 +260,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 nsresult
 CopyInnerTo
@@ -267,6 +282,7 @@ nsIDOMNode
 AsDOMNode
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -278,6 +294,7 @@ IsDisabled
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 HasAttr

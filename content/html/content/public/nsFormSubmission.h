@@ -7,6 +7,15 @@ nsIFormSubmission_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h
@@ -316,6 +325,7 @@ nsAString
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -333,6 +343,7 @@ nsString
 &
 aFilename
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -346,6 +357,7 @@ nsIInputStream
 *
 aPostDataStream
 )
+MOZ_OVERRIDE
 ;
 void
 GetContentType

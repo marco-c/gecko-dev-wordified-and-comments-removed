@@ -7,6 +7,15 @@ mozilla_dom_SVGPolygonElement_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsSVGPolyElement
 .
 h
@@ -105,6 +114,7 @@ nsSVGMark
 *
 aMarks
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -114,6 +124,7 @@ gfxContext
 *
 aCtx
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult

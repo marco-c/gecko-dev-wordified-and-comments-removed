@@ -7,6 +7,15 @@ nsAsyncDOMEvent_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -125,6 +134,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 ;
 nsresult
 PostDOMEvent

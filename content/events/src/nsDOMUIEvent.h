@@ -7,6 +7,15 @@ nsDOMUIEvent_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIDOMUIEvent
 .
 h
@@ -84,6 +93,7 @@ NS_IMETHOD
 DuplicatePrivateData
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -100,6 +110,7 @@ aMsg
 bool
 aSerializeInterfaceType
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -119,6 +130,7 @@ void
 *
 aIter
 )
+MOZ_OVERRIDE
 ;
 static
 nsIntPoint

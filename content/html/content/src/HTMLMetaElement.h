@@ -7,6 +7,15 @@ mozilla_dom_HTMLMetaElement_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsGenericHTMLElement
 .
 h
@@ -70,6 +79,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -84,6 +94,7 @@ aNullParent
 =
 true
 )
+MOZ_OVERRIDE
 ;
 void
 CreateAndDispatchEvent
@@ -110,6 +121,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIDOMNode
@@ -117,6 +129,7 @@ nsIDOMNode
 AsDOMNode
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -244,6 +257,7 @@ nsAString
 &
 text
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -254,6 +268,7 @@ nsAString
 &
 text
 )
+MOZ_OVERRIDE
 ;
 }
 ;

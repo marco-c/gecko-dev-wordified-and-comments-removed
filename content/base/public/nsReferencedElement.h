@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 Element
@@ -315,6 +324,7 @@ NS_IMETHOD
 Run
 (
 )
+MOZ_OVERRIDE
 {
 if
 (

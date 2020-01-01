@@ -7,6 +7,15 @@ mozilla_dom_XMLDocument_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsDocument
 .
 h
@@ -83,6 +92,7 @@ nsILoadGroup
 *
 aLoadGroup
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -98,6 +108,7 @@ nsIPrincipal
 *
 aPrincipal
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -130,12 +141,14 @@ aSink
 =
 nullptr
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 EndLoad
 (
 )
+MOZ_OVERRIDE
 ;
 NS_DECL_NSIDOMXMLDOCUMENT
 virtual
@@ -143,6 +156,7 @@ nsresult
 Init
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -157,6 +171,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -167,6 +182,7 @@ nsWindowSizes
 aWindowSizes
 )
 const
+MOZ_OVERRIDE
 ;
 bool
 Load

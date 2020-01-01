@@ -7,6 +7,15 @@ nsXULPrototypeDocument_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h
@@ -257,6 +266,7 @@ nsIScriptGlobalObject
 GetScriptGlobalObject
 (
 )
+MOZ_OVERRIDE
 ;
 void
 MarkInCCGeneration

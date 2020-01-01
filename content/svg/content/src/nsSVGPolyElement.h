@@ -7,6 +7,15 @@ NS_SVGPOLYELEMENT_H_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsSVGPathGeometryElement
 .
 h
@@ -101,12 +110,14 @@ nsIAtom
 *
 aName
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 IsMarkable
 (
 )
+MOZ_OVERRIDE
 {
 return
 true
@@ -123,6 +134,7 @@ nsSVGMark
 *
 aMarks
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -132,6 +144,7 @@ gfxContext
 *
 aCtx
 )
+MOZ_OVERRIDE
 ;
 already_AddRefed
 <

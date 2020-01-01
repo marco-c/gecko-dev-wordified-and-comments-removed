@@ -7,6 +7,15 @@ mozilla_dom_HTMLLegendElement_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLLegendElement
 .
 h
@@ -95,6 +104,7 @@ aKeyCausesActivation
 bool
 aIsTrustedEvent
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -112,6 +122,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -126,6 +137,7 @@ aNullParent
 =
 true
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -144,6 +156,7 @@ nsAttrValue
 &
 aResult
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsChangeHint
@@ -157,6 +170,7 @@ int32_t
 aModType
 )
 const
+MOZ_OVERRIDE
 ;
 nsresult
 SetAttr
@@ -204,6 +218,7 @@ aValue
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -217,6 +232,7 @@ aAttribute
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -231,6 +247,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 Element
 *
@@ -270,6 +287,7 @@ nsIDOMNode
 AsDOMNode
 (
 )
+MOZ_OVERRIDE
 {
 return
 this

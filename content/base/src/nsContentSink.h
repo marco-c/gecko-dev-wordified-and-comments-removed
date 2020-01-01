@@ -7,6 +7,15 @@ _nsContentSink_h_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsICSSLoaderObserver
 .
 h
@@ -254,6 +263,7 @@ aWasAlternate
 nsresult
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult

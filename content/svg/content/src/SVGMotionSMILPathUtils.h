@@ -7,6 +7,15 @@ MOZILLA_SVGMOTIONSMILPATHUTILS_H_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 gfxContext
 .
 h
@@ -254,6 +263,7 @@ nsAString
 &
 aValueStr
 )
+MOZ_OVERRIDE
 ;
 protected
 :

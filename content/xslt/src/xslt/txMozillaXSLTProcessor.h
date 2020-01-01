@@ -194,6 +194,7 @@ nsIPrincipal
 *
 aPrincipal
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetTransformObserver
@@ -202,6 +203,7 @@ nsITransformObserver
 *
 aObserver
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 LoadStyleSheet
@@ -213,6 +215,7 @@ nsILoadGroup
 *
 aLoadGroup
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetSourceContentModel
@@ -221,11 +224,13 @@ nsIDOMNode
 *
 aSource
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 CancelLoads
 (
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK
@@ -243,6 +248,7 @@ nsString
 &
 aNamespace
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AddXSLTParam
@@ -267,6 +273,7 @@ nsIDOMNode
 *
 aContext
 )
+MOZ_OVERRIDE
 ;
 NS_DECL_NSIMUTATIONOBSERVER_CHARACTERDATACHANGED
 NS_DECL_NSIMUTATIONOBSERVER_ATTRIBUTECHANGED

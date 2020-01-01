@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 CanvasRenderingContext2DBinding
@@ -182,6 +191,7 @@ JSObject
 >
 aScope
 )
+MOZ_OVERRIDE
 {
 return
 CanvasPatternBinding

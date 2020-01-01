@@ -7,6 +7,15 @@ mozilla_dom_SVGAnimatedLength_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsSVGElement
 .
 h
@@ -83,6 +92,7 @@ nsIDOMSVGLength
 *
 aBaseVal
 )
+MOZ_OVERRIDE
 {
 *
 aBaseVal
@@ -107,6 +117,7 @@ nsIDOMSVGLength
 *
 aAnimVal
 )
+MOZ_OVERRIDE
 {
 *
 aAnimVal

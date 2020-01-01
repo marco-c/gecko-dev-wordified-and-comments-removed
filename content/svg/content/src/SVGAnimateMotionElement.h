@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 SVGAnimationElement
@@ -117,6 +126,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsSMILAnimationFunction
@@ -153,6 +163,7 @@ GetPathDataAttrName
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsGkAtoms
