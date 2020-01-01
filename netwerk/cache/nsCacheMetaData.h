@@ -55,14 +55,10 @@ mMetaSize
 =
 0
 ;
-moz_free
+PR_FREEIF
 (
 mBuffer
 )
-;
-mBuffer
-=
-nullptr
 ;
 }
 const
