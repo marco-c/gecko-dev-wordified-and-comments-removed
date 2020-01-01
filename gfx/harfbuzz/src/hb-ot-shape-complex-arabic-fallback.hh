@@ -1124,6 +1124,18 @@ i
 fallback_plan
 -
 >
+digest_array
+[
+i
+]
+.
+init
+(
+)
+;
+fallback_plan
+-
+>
 mask_array
 [
 i
@@ -1319,6 +1331,7 @@ OT
 hb_apply_context_t
 c
 (
+0
 font
 buffer
 fallback_plan
@@ -1328,6 +1341,7 @@ mask_array
 [
 i
 ]
+true
 )
 ;
 fallback_plan

@@ -165,13 +165,6 @@ space
 buffer
 -
 >
-guess_segment_properties
-(
-)
-;
-buffer
--
->
 clear_positions
 (
 )
