@@ -1407,6 +1407,10 @@ ScrollContentIntoView
 content
 vPercent
 hPercent
+nsIPresShell
+:
+:
+SCROLL_OVERFLOW_HIDDEN
 )
 ;
 }

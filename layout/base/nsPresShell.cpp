@@ -3231,6 +3231,8 @@ PRIntn
 aVPercent
 PRIntn
 aHPercent
+PRUint32
+aFlags
 )
 ;
 virtual
@@ -4262,6 +4264,8 @@ PRIntn
 aVPercent
 PRIntn
 aHPercent
+PRUint32
+aFlags
 )
 ;
 friend
@@ -16244,6 +16248,7 @@ ScrollContentIntoView
 content
 NS_PRESSHELL_SCROLL_TOP
 NS_PRESSHELL_SCROLL_ANYWHERE
+SCROLL_OVERFLOW_HIDDEN
 )
 ;
 NS_ENSURE_SUCCESS
@@ -16752,6 +16757,7 @@ ScrollContentIntoView
 mLastAnchorScrolledTo
 NS_PRESSHELL_SCROLL_TOP
 NS_PRESSHELL_SCROLL_ANYWHERE
+SCROLL_OVERFLOW_HIDDEN
 )
 ;
 mLastAnchorScrolledTo
@@ -17651,6 +17657,8 @@ PRIntn
 aVPercent
 PRIntn
 aHPercent
+PRUint32
+aFlags
 )
 {
 nsCOMPtr
@@ -17729,6 +17737,7 @@ DoScrollContentIntoView
 content
 aVPercent
 aHPercent
+aFlags
 )
 ;
 }
@@ -17749,6 +17758,8 @@ PRIntn
 aVPercent
 PRIntn
 aHPercent
+PRUint32
+aFlags
 )
 {
 NS_ASSERTION
@@ -17877,7 +17888,7 @@ container
 frameBounds
 aVPercent
 aHPercent
-SCROLL_OVERFLOW_HIDDEN
+aFlags
 )
 ;
 }
@@ -20367,6 +20378,7 @@ DoScrollContentIntoView
 mContentToScrollTo
 mContentScrollVPosition
 mContentScrollHPosition
+SCROLL_OVERFLOW_HIDDEN
 )
 ;
 mContentToScrollTo
@@ -30334,6 +30346,7 @@ ScrollContentIntoView
 content
 NS_PRESSHELL_SCROLL_IF_NOT_VISIBLE
 NS_PRESSHELL_SCROLL_IF_NOT_VISIBLE
+SCROLL_OVERFLOW_HIDDEN
 )
 ;
 NS_ENSURE_SUCCESS
@@ -30600,6 +30613,7 @@ ScrollContentIntoView
 focusedContent
 NS_PRESSHELL_SCROLL_ANYWHERE
 NS_PRESSHELL_SCROLL_ANYWHERE
+SCROLL_OVERFLOW_HIDDEN
 )
 ;
 nsPresContext

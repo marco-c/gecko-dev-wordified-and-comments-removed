@@ -676,6 +676,10 @@ browser_webconsole_bug_595934_message_categories
 .
 js
 \
+browser_webconsole_bug_601352_scroll
+.
+js
+\
 head
 .
 js
