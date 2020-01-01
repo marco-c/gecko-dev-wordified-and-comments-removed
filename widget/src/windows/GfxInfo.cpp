@@ -1895,6 +1895,16 @@ vendor
 adapterVendor
 |
 |
+(
+info
+-
+>
+device
+!
+=
+ANY_DEVICE
+&
+&
 info
 -
 >
@@ -1902,6 +1912,7 @@ device
 !
 =
 adapterDeviceID
+)
 )
 {
 info
