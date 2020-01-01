@@ -1247,6 +1247,10 @@ result_format
 (
 val
 res
++
+'
+_loadtime
+'
 tbox
 i
 date
