@@ -703,6 +703,15 @@ aURI
 const
 ;
 void
+GetHrefURIToMutate
+(
+nsIURI
+*
+*
+aURI
+)
+;
+void
 Compact
 (
 )
@@ -1603,6 +1612,8 @@ aAttr
 nsIAtom
 *
 aBaseAttr
+PRBool
+aCloneIfCached
 nsIURI
 *
 *
