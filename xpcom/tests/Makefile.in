@@ -604,6 +604,10 @@ TestCheckedInt
 .
 cpp
 \
+TestTArray
+.
+cpp
+\
 (
 NULL
 )
