@@ -657,6 +657,13 @@ const
 uint32
 MAX_INFO_VALUE
 =
+(
+1
+<
+<
+PART_INFO_BITS
+)
+-
 1
 ;
 static
