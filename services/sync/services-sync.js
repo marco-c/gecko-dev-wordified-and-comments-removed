@@ -556,3 +556,17 @@ enabled
 false
 )
 ;
+pref
+(
+"
+extensions
+.
+weave
+.
+authenticator
+.
+enabled
+"
+false
+)
+;
