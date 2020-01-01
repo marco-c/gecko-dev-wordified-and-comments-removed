@@ -370,9 +370,6 @@ cx
 JSObject
 *
 wrapper
-JSObject
-*
-receiver
 uintN
 argc
 jsval
@@ -831,9 +828,6 @@ cx
 JSObject
 *
 wrapper
-JSObject
-*
-receiver
 uintN
 argc
 jsval
