@@ -59,6 +59,12 @@ aFromParser
 )
 {
 }
+virtual
+nsresult
+FireErrorEvent
+(
+)
+;
 protected
 :
 virtual
