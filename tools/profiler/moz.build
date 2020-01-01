@@ -248,11 +248,6 @@ ProfilerIOInterposeObserver
 .
 cpp
 '
-'
-SQLiteInterposer
-.
-cpp
-'
 ]
 if
 CONFIG
@@ -411,11 +406,6 @@ mozilla
 [
 '
 IOInterposer
-.
-h
-'
-'
-SQLiteInterposer
 .
 h
 '
