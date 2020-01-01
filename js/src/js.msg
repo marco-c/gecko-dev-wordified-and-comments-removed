@@ -5915,7 +5915,7 @@ MSG_DEF
 (
 JSMSG_USE_ASM_TYPE_OK
 344
-0
+1
 JSEXN_ERR
 "
 successfully
@@ -5924,6 +5924,11 @@ asm
 .
 js
 code
+(
+{
+0
+}
+)
 "
 )
 MSG_DEF

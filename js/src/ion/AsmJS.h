@@ -421,6 +421,9 @@ LIRGraph
 *
 lir
 ;
+unsigned
+compileTime
+;
 AsmJSParallelTask
 (
 size_t
@@ -442,6 +445,10 @@ NULL
 lir
 (
 NULL
+)
+compileTime
+(
+0
 )
 {
 }
