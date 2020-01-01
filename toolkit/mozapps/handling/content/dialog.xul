@@ -694,7 +694,7 @@ flex
 "
 >
 <
-description
+label
 id
 =
 "
@@ -703,6 +703,11 @@ item
 action
 -
 text
+"
+for
+=
+"
+items
 "
 /
 >
