@@ -1548,9 +1548,11 @@ nsSVGPatternElement
 mContent
 )
 ;
-nsAutoString
+const
+nsString
+&
 href
-;
+=
 pattern
 -
 >
@@ -1564,8 +1566,6 @@ HREF
 .
 GetAnimValue
 (
-href
-pattern
 )
 ;
 if

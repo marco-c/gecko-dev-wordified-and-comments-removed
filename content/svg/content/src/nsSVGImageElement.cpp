@@ -390,7 +390,7 @@ GetBaseURI
 ;
 nsAutoString
 href
-;
+(
 mStringAttributes
 [
 HREF
@@ -398,8 +398,7 @@ HREF
 .
 GetAnimValue
 (
-href
-this
+)
 )
 ;
 href
