@@ -5945,6 +5945,9 @@ reset
 "
 button
 "
+"
+image
+"
 ]
 ;
 let
