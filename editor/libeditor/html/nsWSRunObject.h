@@ -422,10 +422,10 @@ nsIDOMNode
 >
 mEndNode
 ;
-PRInt16
+PRInt32
 mStartOffset
 ;
-PRInt16
+PRInt32
 mEndOffset
 ;
 PRInt16
@@ -668,7 +668,7 @@ GetPreviousWSNode
 nsIDOMNode
 *
 aStartNode
-PRInt16
+PRInt32
 aOffset
 nsIDOMNode
 *
@@ -720,7 +720,7 @@ GetNextWSNode
 nsIDOMNode
 *
 aStartNode
-PRInt16
+PRInt32
 aOffset
 nsIDOMNode
 *
