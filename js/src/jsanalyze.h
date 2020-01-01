@@ -180,11 +180,6 @@ accessGetter
 :
 1
 ;
-bool
-notIdempotent
-:
-1
-;
 uint32_t
 stackDepth
 ;

@@ -1465,11 +1465,6 @@ failedBoundsCheck
 #
 endif
 bool
-invalidatedIdempotentCache
-:
-1
-;
-bool
 callDestroyHook
 :
 1
