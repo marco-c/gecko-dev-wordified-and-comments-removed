@@ -307,7 +307,7 @@ s
 type
 *
 /
-EventExpecter
+RepeatedEventExpecter
 expectGeckoEvent
 (
 String
