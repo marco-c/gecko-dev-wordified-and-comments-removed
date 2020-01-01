@@ -4557,9 +4557,9 @@ aForceReuseInnerWindow
 ;
 protected
 :
-nsCOMPtr
+nsRefPtr
 <
-nsIVariant
+DialogValueHolder
 >
 mReturnValue
 ;
