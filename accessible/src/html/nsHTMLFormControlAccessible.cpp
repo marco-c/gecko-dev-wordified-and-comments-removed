@@ -2658,8 +2658,12 @@ legendContent
 )
 {
 return
-AppendFlatStringFromSubtree
+nsTextEquivUtils
+:
+:
+AppendTextEquivFromContent
 (
+this
 legendContent
 &
 aName

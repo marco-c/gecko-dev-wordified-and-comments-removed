@@ -597,14 +597,9 @@ test_nsIAccessible_name_link
 .
 html
 \
-(
-warning
 test_nsIAccessible_name
 .
 xul
-temporarily
-disabled
-)
 \
 test_nsIAccessible_selects
 .

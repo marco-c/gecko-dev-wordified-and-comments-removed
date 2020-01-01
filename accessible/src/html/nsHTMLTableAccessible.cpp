@@ -4316,8 +4316,12 @@ if
 captionContent
 )
 {
-AppendFlatStringFromSubtree
+nsTextEquivUtils
+:
+:
+AppendTextEquivFromContent
 (
+this
 captionContent
 &
 aDescription

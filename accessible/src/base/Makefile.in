@@ -517,10 +517,6 @@ nsAccUtils
 .
 cpp
 \
-nsNameUtils
-.
-cpp
-\
 nsRelUtils
 .
 cpp
@@ -562,6 +558,10 @@ nsCaretAccessible
 cpp
 \
 nsTextAccessible
+.
+cpp
+\
+nsTextEquivUtils
 .
 cpp
 \

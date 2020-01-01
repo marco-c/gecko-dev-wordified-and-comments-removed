@@ -881,8 +881,12 @@ description
 nsresult
 rv
 =
-GetTextFromRelationID
+nsTextEquivUtils
+:
+:
+GetTextEquivFromIDRefs
 (
+this
 nsAccessibilityAtoms
 :
 :
