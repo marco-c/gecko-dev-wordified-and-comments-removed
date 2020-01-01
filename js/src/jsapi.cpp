@@ -14022,6 +14022,7 @@ res
 regexp_statics_construct
 (
 cx
+obj
 )
 ;
 if
