@@ -245,8 +245,10 @@ NULL
 #
 ifdef
 MOZILLA_CLIENT
-delete
+free
+(
 csconv
+)
 ;
 #
 endif
