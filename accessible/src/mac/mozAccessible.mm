@@ -2558,7 +2558,7 @@ role
 {
 #
 ifdef
-DEBUG_A11Y
+DEBUG
 NS_ASSERTION
 (
 nsAccUtils

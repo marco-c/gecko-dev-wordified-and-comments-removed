@@ -1406,7 +1406,7 @@ CO_E_OBJNOTCONNECTED
 ;
 #
 ifdef
-DEBUG_A11Y
+DEBUG
 NS_ASSERTION
 (
 nsAccUtils
@@ -6840,7 +6840,7 @@ id
 }
 #
 ifdef
-DEBUG_A11Y
+DEBUG
 printf
 (
 "

@@ -479,7 +479,7 @@ aValue
 ;
 #
 ifdef
-DEBUG_A11Y
+DEBUG
 static
 bool
 IsTextInterfaceSupportCorrect
