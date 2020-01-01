@@ -847,7 +847,7 @@ if
 f
 )
 return
-0
+1
 ;
 size
 =

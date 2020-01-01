@@ -509,10 +509,6 @@ cmssiginfo
 .
 c
 \
-cmsudf
-.
-c
-\
 cmsutil
 .
 c

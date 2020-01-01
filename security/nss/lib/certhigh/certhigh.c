@@ -4541,7 +4541,6 @@ CERTCertificateList
 *
 CERT_DupCertList
 (
-const
 CERTCertificateList
 *
 oldList

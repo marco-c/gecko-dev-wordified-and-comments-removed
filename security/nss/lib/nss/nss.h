@@ -67,15 +67,12 @@ NSS_VERSION
 .
 12
 .
-10
+9
 .
 0
 "
 _NSS_ECC_STRING
 _NSS_CUSTOMIZED
-"
-Beta
-"
 #
 define
 NSS_VMAJOR
@@ -87,7 +84,7 @@ NSS_VMINOR
 #
 define
 NSS_VPATCH
-10
+9
 #
 define
 NSS_VBUILD
@@ -95,7 +92,7 @@ NSS_VBUILD
 #
 define
 NSS_BETA
-PR_TRUE
+PR_FALSE
 #
 ifndef
 RC_INVOKED

@@ -5286,7 +5286,6 @@ ss
 CERTCertificate
 *
 cert
-const
 CERTCertificateList
 *
 certChain

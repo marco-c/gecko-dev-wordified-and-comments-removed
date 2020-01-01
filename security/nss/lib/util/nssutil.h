@@ -24,10 +24,9 @@ NSSUTIL_VERSION
 .
 12
 .
-10
+9
 .
 0
-Beta
 "
 #
 define
@@ -40,7 +39,7 @@ NSSUTIL_VMINOR
 #
 define
 NSSUTIL_VPATCH
-10
+9
 #
 define
 NSSUTIL_VBUILD
@@ -48,6 +47,6 @@ NSSUTIL_VBUILD
 #
 define
 NSSUTIL_BETA
-PR_TRUE
+PR_FALSE
 #
 endif

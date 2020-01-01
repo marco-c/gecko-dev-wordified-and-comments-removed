@@ -218,7 +218,7 @@ MP_MACRO
 #
 define
 MP_MACRO
-1
+0
 /
 *
 use

@@ -298,16 +298,6 @@ SECMODModule
 *
 )
 ;
-void
-secmod_SetInternalKeySlotFlag
-(
-SECMODModule
-*
-mod
-PRBool
-val
-)
-;
 typedef
 struct
 SECMODConfigListStr
