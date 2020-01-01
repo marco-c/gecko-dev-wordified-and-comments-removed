@@ -1058,6 +1058,11 @@ statements
 )
 ;
 Node
+blockStatement
+(
+)
+;
+Node
 ifStatement
 (
 )
