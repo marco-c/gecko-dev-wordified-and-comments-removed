@@ -4848,6 +4848,9 @@ CanContinueTextRun
 (
 )
 ;
+PRBool
+optionalBreakAfterFits
+;
 if
 (
 CanPlaceFrame
@@ -4862,6 +4865,8 @@ savedOptionalBreakContent
 nsnull
 metrics
 aReflowStatus
+&
+optionalBreakAfterFits
 )
 )
 {
@@ -4945,7 +4950,7 @@ GetContent
 (
 )
 PR_INT32_MAX
-PR_TRUE
+optionalBreakAfterFits
 )
 )
 {
@@ -5290,6 +5295,9 @@ aMetrics
 nsReflowStatus
 &
 aStatus
+PRBool
+*
+aOptionalBreakAfterFits
 )
 {
 NS_PRECONDITION
@@ -5311,6 +5319,11 @@ frame
 data
 "
 )
+;
+*
+aOptionalBreakAfterFits
+=
+PR_TRUE
 ;
 if
 (
@@ -5672,6 +5685,11 @@ return
 PR_TRUE
 ;
 }
+*
+aOptionalBreakAfterFits
+=
+PR_FALSE
+;
 if
 (
 0
