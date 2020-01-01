@@ -481,12 +481,6 @@ load
 1
 .
 html
-skip
--
-if
-(
-gtk2Widget
-)
 load
 580233
 -
