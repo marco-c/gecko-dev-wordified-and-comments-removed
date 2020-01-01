@@ -10382,6 +10382,10 @@ inFrame
 )
 )
 {
+mWindow
+=
+nil
+;
 mGeckoChild
 =
 inChild
