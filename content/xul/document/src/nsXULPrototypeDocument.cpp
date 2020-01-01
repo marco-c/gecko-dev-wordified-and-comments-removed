@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsXULDocument
+XULDocument
 .
 h
 "
@@ -198,6 +198,15 @@ mozilla
 :
 :
 AutoPushJSContext
+;
+using
+mozilla
+:
+:
+dom
+:
+:
+XULDocument
 ;
 static
 NS_DEFINE_CID
@@ -2625,7 +2634,7 @@ nsXULPrototypeDocument
 :
 AwaitLoadDone
 (
-nsXULDocument
+XULDocument
 *
 aDocument
 bool

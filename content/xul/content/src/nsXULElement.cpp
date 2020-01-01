@@ -348,7 +348,7 @@ h
 #
 include
 "
-nsXULDocument
+XULDocument
 .
 h
 "
@@ -597,6 +597,13 @@ h
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
+:
+:
+dom
 ;
 static
 NS_DEFINE_CID
@@ -2059,7 +2066,7 @@ new
 nsContentList
 (
 this
-nsXULDocument
+XULDocument
 :
 :
 MatchAttribute
@@ -2237,7 +2244,7 @@ new
 nsContentList
 (
 this
-nsXULDocument
+XULDocument
 :
 :
 MatchAttribute

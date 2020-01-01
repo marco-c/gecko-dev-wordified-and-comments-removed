@@ -101,7 +101,7 @@ nsXULContentSink
 .
 cpp
 \
-nsXULDocument
+XULDocument
 .
 cpp
 \
