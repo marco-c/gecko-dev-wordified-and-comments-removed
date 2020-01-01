@@ -3185,10 +3185,13 @@ length
 0
 )
 return
+decodeURIComponent
+(
 aURL
+)
 ;
 return
-decodeURI
+decodeURIComponent
 (
 url
 .
