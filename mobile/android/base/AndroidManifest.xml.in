@@ -91,7 +91,7 @@ android
 minSdkVersion
 =
 "
-5
+8
 "
 android
 :
