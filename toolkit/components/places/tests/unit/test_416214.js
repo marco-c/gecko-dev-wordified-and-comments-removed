@@ -1,8 +1,3 @@
-version
-(
-180
-)
-;
 try
 {
 var
@@ -194,6 +189,11 @@ searchTerm
 +
 "
 /
+blocking
+-
+firefox3
+%
+2B
 "
 ;
 var
@@ -541,7 +541,9 @@ getValueAt
 (
 0
 )
-decoded
+url
+.
+spec
 )
 ;
 do_test_finished
