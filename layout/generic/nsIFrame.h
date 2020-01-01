@@ -3148,6 +3148,10 @@ OptionallyBreak
 nsIRenderingContext
 *
 aRenderingContext
+nscoord
+aHyphenWidth
+=
+0
 )
 ;
 nsIFrame
