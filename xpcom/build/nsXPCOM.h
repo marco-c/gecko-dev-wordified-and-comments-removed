@@ -472,17 +472,6 @@ nsCycleCollectionParticipant
 p
 )
 ;
-XPCOM_API
-(
-bool
-)
-NS_CycleCollectorForget2
-(
-nsPurpleBufferEntry
-*
-e
-)
-;
 #
 endif
 #
