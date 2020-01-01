@@ -110,16 +110,6 @@ cpp
 (
 NULL
 )
-#
-unnecessary
-PGO
-for
-js
-shell
-NO_PROFILE_GUIDED_OPTIMIZE
-:
-=
-1
 DEFINES
 +
 =
