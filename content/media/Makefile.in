@@ -103,6 +103,10 @@ AudioSegment
 .
 h
 \
+DecoderTraits
+.
+h
+\
 FileBlockCache
 .
 h
@@ -182,6 +186,10 @@ CPPSRCS
 =
 \
 AudioSegment
+.
+cpp
+\
+DecoderTraits
 .
 cpp
 \
