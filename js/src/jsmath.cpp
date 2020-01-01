@@ -2372,7 +2372,9 @@ js_Math_str
 &
 js_MathClass
 NULL
-0
+JSPROP_READONLY
+|
+JSPROP_PERMANENT
 )
 ;
 if

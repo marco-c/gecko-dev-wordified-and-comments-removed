@@ -3874,6 +3874,11 @@ src
 end
 )
 {
+JSBool
+canStartRange
+=
+JS_TRUE
+;
 uintN
 localMax
 =
@@ -4132,6 +4137,10 @@ case
 d
 '
 :
+canStartRange
+=
+JS_FALSE
+;
 if
 (
 inRange
@@ -4185,6 +4194,10 @@ case
 W
 '
 :
+canStartRange
+=
+JS_FALSE
+;
 if
 (
 inRange
@@ -4462,6 +4475,9 @@ else
 {
 if
 (
+canStartRange
+&
+&
 src
 <
 end
@@ -17750,7 +17766,7 @@ pool
 "
 RegExpPool
 "
-8096
+12288
 4
 &
 cx
@@ -20184,6 +20200,8 @@ JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_RegExp
 )
+|
+JSCLASS_FIXED_BINDING
 JS_PropertyStub
 JS_PropertyStub
 regexp_getProperty
