@@ -480,12 +480,12 @@ aTerminated
 )
 ;
 virtual
-nsresult
+void
 SetTerminationFunction
 (
 nsScriptTerminationFunc
 aFunc
-nsISupports
+nsIDOMWindow
 *
 aRef
 )
