@@ -33,6 +33,16 @@ pref
 "
 security
 .
+enable_md5_signatures
+"
+true
+)
+;
+pref
+(
+"
+security
+.
 ssl
 .
 allow_unrestricted_renego_everywhere__temporarily_available_pref
