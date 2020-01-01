@@ -20296,15 +20296,6 @@ nsIDocument
 aDocument
 )
 {
-NS_PRECONDITION
-(
-aDocument
-"
-Null
-document
-"
-)
-;
 #
 ifdef
 MOZ_XUL
@@ -20322,6 +20313,9 @@ GetInstance
 if
 (
 pm
+&
+&
+aDocument
 )
 {
 nsCOMPtr

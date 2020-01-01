@@ -4517,10 +4517,6 @@ status
 #
 ifdef
 MOZ_XUL
-if
-(
-mDocument
-)
 nsContentUtils
 :
 :
