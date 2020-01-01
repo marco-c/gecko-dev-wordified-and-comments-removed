@@ -176,8 +176,15 @@ notification
 .
 buttons
 {
+display
+:
+block
+;
 padding
 :
+padding_normal
+padding_normal
+0
 padding_normal
 ;
 }
