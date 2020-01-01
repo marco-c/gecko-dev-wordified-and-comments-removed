@@ -1,9 +1,3 @@
-fails
--
-if
-(
-Android
-)
 =
 =
 background
@@ -40,12 +34,6 @@ html
 about
 :
 blank
-fails
--
-if
-(
-Android
-)
 =
 =
 image
