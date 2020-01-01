@@ -496,6 +496,9 @@ load
 1
 .
 xhtml
+#
+Bug
+540078
 asserts
 -
 if
@@ -514,6 +517,9 @@ load
 1
 .
 html
+#
+Bug
+540078
 load
 382199
 -
