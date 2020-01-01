@@ -128,11 +128,6 @@ InlineString
 class
 JSRope
 ;
-ForwardDeclareJS
-(
-FlatString
-)
-;
 namespace
 js
 {

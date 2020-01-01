@@ -658,7 +658,8 @@ c
 '
 )
 {
-RawFlatString
+JSFlatString
+*
 str
 =
 (

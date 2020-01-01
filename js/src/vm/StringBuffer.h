@@ -38,11 +38,6 @@ Vector
 .
 h
 "
-ForwardDeclareJS
-(
-FlatString
-)
-;
 namespace
 js
 {
@@ -517,10 +512,8 @@ length
 )
 ;
 }
-js
-:
-:
-RawFlatString
+JSFlatString
+*
 finishString
 (
 )
