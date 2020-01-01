@@ -5,6 +5,14 @@ _nsAccessNodeWrap_H_
 define
 _nsAccessNodeWrap_H_
 #
+pragma
+warning
+(
+disable
+:
+4509
+)
+#
 include
 "
 nsCOMPtr

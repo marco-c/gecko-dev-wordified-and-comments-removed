@@ -153,14 +153,6 @@ nsArrayUtils
 h
 "
 #
-pragma
-warning
-(
-disable
-:
-4509
-)
-#
 ifdef
 DEBUG_LEAKS
 static
