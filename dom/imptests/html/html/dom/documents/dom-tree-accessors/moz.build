@@ -16,8 +16,8 @@ DIRS
 =
 [
 '
-doc
+document
 .
-gEBN
+getElementsByName
 '
 ]

@@ -45,9 +45,9 @@ MOCHITEST_FILES
 :
 =
 \
-test_doc
+test_document
 .
-gEBN
+getElementsByName
 -
 newelements
 .
