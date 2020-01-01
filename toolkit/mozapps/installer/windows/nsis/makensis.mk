@@ -536,6 +536,8 @@ PKG_INST_BASENAME
 .
 exe
 "
+ifdef
+MOZ_STUB_INSTALLER
 cp
 (
 CONFIG_DIR
@@ -578,6 +580,7 @@ stub
 .
 exe
 "
+endif
 ifdef
 MOZ_EXTERNAL_SIGNING_FORMAT
 (
