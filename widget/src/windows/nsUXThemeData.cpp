@@ -1472,7 +1472,7 @@ wc
 HWND
 hWnd
 =
-CreateWindowEx
+CreateWindowExW
 (
 WS_EX_NOACTIVATE
 |
