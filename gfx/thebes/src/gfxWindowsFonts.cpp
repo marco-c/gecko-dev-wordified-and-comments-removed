@@ -353,6 +353,8 @@ nsnull
 mAdjustedSize
 (
 0
+.
+0f
 )
 mScriptCache
 (
@@ -925,6 +927,17 @@ size
 ;
 if
 (
+mMetrics
+-
+>
+xHeight
+!
+=
+0
+.
+0f
+&
+&
 GetStyle
 (
 )
@@ -933,6 +946,8 @@ GetStyle
 sizeAdjust
 >
 0
+.
+0f
 )
 {
 if

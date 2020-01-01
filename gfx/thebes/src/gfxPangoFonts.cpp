@@ -1047,6 +1047,11 @@ gfxFloat
 size
 =
 mAdjustedSize
+!
+=
+0
+.
+0f
 ?
 mAdjustedSize
 :
@@ -1168,6 +1173,8 @@ mAdjustedSize
 !
 =
 0
+.
+0f
 )
 return
 ;
@@ -1186,6 +1193,8 @@ mAdjustedSize
 =
 =
 0
+.
+0f
 |
 |
 GetStyle
@@ -1197,6 +1206,8 @@ sizeAdjust
 =
 =
 0
+.
+0f
 )
 return
 ;
