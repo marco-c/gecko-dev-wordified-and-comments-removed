@@ -937,7 +937,7 @@ mBrowserToolbar
 new
 BrowserToolbar
 (
-mAppContext
+this
 )
 ;
 mBrowserToolbar
