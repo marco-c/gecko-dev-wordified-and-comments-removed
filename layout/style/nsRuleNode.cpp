@@ -928,6 +928,11 @@ GetRootElement
 (
 )
 ;
+if
+(
+docElement
+)
+{
 rootStyle
 =
 aPresContext
@@ -958,6 +963,8 @@ GetStyleFont
 (
 )
 ;
+}
+}
 rootFontSize
 =
 rootStyleFont
@@ -967,7 +974,6 @@ mFont
 .
 size
 ;
-}
 }
 return
 ScaleCoord
