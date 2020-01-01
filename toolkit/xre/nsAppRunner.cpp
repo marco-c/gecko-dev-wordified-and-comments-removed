@@ -18248,6 +18248,8 @@ xreMainPtr
 nsresult
 XRE_metroStartup
 (
+bool
+runXREMain
 )
 {
 nsresult
@@ -18317,6 +18319,11 @@ rv
 rv
 )
 ;
+if
+(
+runXREMain
+)
+{
 rv
 =
 xreMainPtr
@@ -18332,6 +18339,7 @@ rv
 rv
 )
 ;
+}
 return
 NS_OK
 ;
