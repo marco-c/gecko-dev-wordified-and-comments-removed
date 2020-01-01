@@ -3447,11 +3447,6 @@ LookAndFeel
 :
 :
 eColorID__moz_mac_disabledtoolbartext
-eCSSKeyword__moz_mac_alternateprimaryhighlight
-LookAndFeel
-:
-:
-eColorID__moz_mac_alternateprimaryhighlight
 eCSSKeyword__moz_mac_secondaryhighlight
 LookAndFeel
 :

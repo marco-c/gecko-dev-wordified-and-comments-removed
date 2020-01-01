@@ -611,16 +611,6 @@ moz
 -
 mac
 -
-alternateprimaryhighlight
-_moz_mac_alternateprimaryhighlight
-)
-CSS_KEY
-(
--
-moz
--
-mac
--
 chrome
 -
 active

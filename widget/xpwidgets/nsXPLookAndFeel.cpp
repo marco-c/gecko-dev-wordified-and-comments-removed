@@ -929,16 +929,6 @@ moz
 -
 mac
 -
-alternateprimaryhighlight
-"
-"
-ui
-.
--
-moz
--
-mac
--
 secondaryhighlight
 "
 "
