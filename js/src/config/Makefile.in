@@ -499,9 +499,6 @@ PLSRCS
 nfspwd
 .
 pl
-revdepth
-.
-pl
 TARGETS
 =
 (
