@@ -5549,6 +5549,9 @@ length
 )
 ;
 }
+jsterm
+:
+null
 createConsoleInput
 :
 function
@@ -5607,8 +5610,9 @@ aExistingConsole
 outputCSSClassOverride
 )
 ;
-let
-inputNode
+this
+.
+jsterm
 =
 new
 JSTerm
