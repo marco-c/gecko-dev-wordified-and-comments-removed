@@ -394,6 +394,7 @@ PRBool
 IsPaintingToWindow
 (
 )
+const
 {
 return
 mIsPaintingToWindow

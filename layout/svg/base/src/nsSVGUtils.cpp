@@ -8393,6 +8393,10 @@ mRenderingContext
 (
 aContext
 )
+mPaintingToWindow
+(
+PR_FALSE
+)
 {
 mGfxContext
 =
@@ -8422,6 +8426,10 @@ mGfxContext
 (
 aContext
 )
+mPaintingToWindow
+(
+PR_FALSE
+)
 {
 }
 nsSVGRenderState
@@ -8437,6 +8445,10 @@ aSurface
 mRenderMode
 (
 NORMAL
+)
+mPaintingToWindow
+(
+PR_FALSE
 )
 {
 mGfxContext
