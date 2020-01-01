@@ -9297,6 +9297,11 @@ rv
 rv
 )
 ;
+if
+(
+feedURI
+)
+{
 nsCString
 feedSpec
 ;
@@ -9378,6 +9383,7 @@ rv
 rv
 )
 ;
+}
 nsCOMPtr
 <
 nsIURI
