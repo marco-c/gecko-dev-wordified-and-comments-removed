@@ -1167,9 +1167,6 @@ h
 iconv
 .
 h
-IDL
-.
-h
 ieeefp
 .
 h
@@ -1547,11 +1544,6 @@ vfs
 standard
 -
 callbacks
-.
-h
-libIDL
-/
-IDL
 .
 h
 lib
