@@ -789,10 +789,6 @@ test_table_2
 .
 html
 \
-test_table_3
-.
-html
-\
 test_table_4
 .
 html
@@ -802,6 +798,10 @@ test_table_indexes
 html
 \
 test_table_indexes_ariagrid
+.
+html
+\
+test_table_sels
 .
 html
 \
