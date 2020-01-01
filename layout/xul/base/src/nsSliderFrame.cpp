@@ -3059,16 +3059,6 @@ SetRect
 newThumbRect
 )
 ;
-InvalidateWithFlags
-(
-clientRect
-aImmediateRedraw
-?
-INVALIDATE_IMMEDIATE
-:
-0
-)
-;
 mCurPos
 =
 curPos

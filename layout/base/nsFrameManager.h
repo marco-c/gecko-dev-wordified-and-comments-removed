@@ -263,10 +263,6 @@ aListID
 nsIFrame
 *
 aOldFrame
-bool
-aInvalidate
-=
-true
 )
 ;
 NS_HIDDEN_
