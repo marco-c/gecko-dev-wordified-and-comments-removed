@@ -16259,17 +16259,6 @@ mWidth
 ;
 return
 (
-GetStyleDisplay
-(
-)
--
->
-mDisplay
-=
-=
-NS_STYLE_DISPLAY_INLINE_TABLE
-&
-&
 width
 .
 GetUnit
