@@ -1205,6 +1205,15 @@ cr
 =
 PR_FALSE
 ;
+list_state
+state
+;
+state
+.
+magic
+=
+0
+;
 while
 (
 line
@@ -1277,9 +1286,6 @@ cr
 PR_FALSE
 ;
 }
-list_state
-state
-;
 list_result
 result
 ;
