@@ -289,6 +289,10 @@ test_transaction_abort
 .
 js
 \
+test_transaction_abort_hang
+.
+js
+\
 test_transaction_lifetimes
 .
 js
