@@ -10763,21 +10763,22 @@ n
 %
 getParentProto
         
-needConstructor
-=
+if
 (
 needInterfaceObject
 and
-                           
-not
+            
 self
 .
 descriptor
 .
-hasInstanceInterface
+needsConstructHookHolder
+(
 )
-        
-constructHook
+)
+:
+            
+constructHookHolder
 =
 "
 &
@@ -10787,6 +10788,15 @@ CONSTRUCT_HOOK_NAME
 +
 "
 _holder
+"
+        
+else
+:
+            
+constructHookHolder
+=
+"
+nullptr
 "
         
 if
@@ -10893,6 +10903,34 @@ interfaceClass
 InterfaceObjectClass
 .
 mBase
+"
+            
+elif
+self
+.
+descriptor
+.
+interface
+.
+isCallback
+(
+)
+:
+                
+interfaceClass
+=
+"
+js
+:
+:
+Jsvalify
+(
+&
+js
+:
+:
+ObjectClass
+)
 "
             
 else
@@ -11127,13 +11165,7 @@ protoClass
 protoCache
             
 interfaceClass
-constructHook
-if
-needConstructor
-else
-"
-nullptr
-"
+constructHookHolder
             
 constructArgs
 interfaceCache
@@ -47451,6 +47483,14 @@ properties
 )
 )
             
+if
+descriptor
+.
+needsConstructHookHolder
+(
+)
+:
+                
 cgThings
 .
 append
