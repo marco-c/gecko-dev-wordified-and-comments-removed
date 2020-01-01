@@ -6291,11 +6291,6 @@ anchor
 -
 icon
 "
-role
-=
-"
-button
-"
 /
 >
 <
@@ -6317,11 +6312,6 @@ notification
 anchor
 -
 icon
-"
-role
-=
-"
-button
 "
 /
 >
