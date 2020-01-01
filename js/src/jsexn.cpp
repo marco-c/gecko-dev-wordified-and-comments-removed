@@ -1249,8 +1249,14 @@ fp
 argv
 )
 {
-NullValue
+Value
 v
+;
+v
+.
+setNull
+(
+)
 ;
 if
 (

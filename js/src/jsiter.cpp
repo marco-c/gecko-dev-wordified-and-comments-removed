@@ -325,7 +325,7 @@ trc
 {
 for
 (
-jsval
+Value
 *
 vp
 =
@@ -353,7 +353,7 @@ props_array
 )
 )
 ;
-js_CallValueTracerIfGCThing
+CallGCMarkerIfGCThing
 (
 trc
 *

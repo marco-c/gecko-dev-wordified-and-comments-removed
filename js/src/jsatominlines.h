@@ -244,13 +244,7 @@ return
 js_ValueToStringId
 (
 cx
-js
-:
-:
-Value
-(
 str
-)
 id
 )
 ;
