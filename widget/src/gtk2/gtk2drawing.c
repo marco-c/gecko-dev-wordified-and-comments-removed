@@ -2004,12 +2004,12 @@ indicator_spacing
 =
 default_indicator_spacing
 ;
-g_free
+gtk_requisition_free
 (
 tmp_indicator_size
 )
 ;
-g_free
+gtk_border_free
 (
 tmp_indicator_spacing
 )
