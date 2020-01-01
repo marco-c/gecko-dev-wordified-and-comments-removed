@@ -863,4 +863,9 @@ result
 .
 )
 ;
+NS_EXPORT
+extern
+RECT
+data_rect
+;
 }
