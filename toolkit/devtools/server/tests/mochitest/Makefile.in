@@ -136,6 +136,12 @@ html
 \
 test_inspector
 -
+retain
+.
+html
+\
+test_inspector
+-
 traversal
 .
 html
