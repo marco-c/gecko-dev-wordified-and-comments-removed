@@ -286,7 +286,7 @@ used
 ;
 }
 virtual
-void
+bool
 EnsureTextureHost
 (
 TextureIdentifier

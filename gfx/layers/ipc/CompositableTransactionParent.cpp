@@ -431,11 +431,6 @@ GetBounds
 )
 ;
 }
-if
-(
-compositable
-)
-{
 const
 SurfaceDescriptor
 &
@@ -563,7 +558,6 @@ ScheduleComposition
 (
 )
 ;
-}
 }
 }
 if

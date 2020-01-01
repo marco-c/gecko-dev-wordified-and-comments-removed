@@ -446,7 +446,7 @@ aUpdatedRegionBack
 )
 ;
 virtual
-void
+bool
 EnsureTextureHost
 (
 TextureIdentifier
@@ -563,7 +563,7 @@ aUpdatedRegionBack
 )
 ;
 virtual
-void
+bool
 EnsureTextureHost
 (
 TextureIdentifier
