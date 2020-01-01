@@ -4561,11 +4561,6 @@ nsIXPConnect
 :
 :
 INIT_JS_STANDARD_CLASSES
-|
-nsIXPConnect
-:
-:
-FLAG_SYSTEM_GLOBAL_OBJECT
 ;
 JS_SetContextPrivate
 (
