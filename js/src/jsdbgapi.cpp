@@ -3987,10 +3987,12 @@ obj
 ;
 obj
 =
-js_GetWrappedObject
+obj
+-
+>
+wrappedObject
 (
 cx
-obj
 )
 ;
 OBJ_TO_INNER_OBJECT

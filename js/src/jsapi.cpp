@@ -18288,10 +18288,12 @@ obj
 )
 {
 return
-js_GetWrappedObject
+obj
+-
+>
+wrappedObject
 (
 cx
-obj
 )
 -
 >
