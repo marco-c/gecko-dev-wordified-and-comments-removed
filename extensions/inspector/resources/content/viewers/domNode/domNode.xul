@@ -590,7 +590,7 @@ localName
 label
 ;
 "
-for
+control
 =
 "
 tx_localName
@@ -639,7 +639,7 @@ namespaceURI
 label
 ;
 "
-for
+control
 =
 "
 tx_namespace
@@ -688,7 +688,7 @@ nodeType
 label
 ;
 "
-for
+control
 =
 "
 tx_nodeType
