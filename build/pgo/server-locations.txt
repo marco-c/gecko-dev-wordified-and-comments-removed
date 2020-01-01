@@ -1989,3 +1989,15 @@ com
 :
 80
 privileged
+http
+:
+/
+/
+bug702292
+.
+example
+.
+com
+:
+80
+privileged

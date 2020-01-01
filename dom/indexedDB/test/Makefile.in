@@ -845,6 +845,14 @@ browser_quotaPromptDatabases
 .
 js
 \
+browser_quotaPromptDelete
+.
+html
+\
+browser_quotaPromptDelete
+.
+js
+\
 head
 .
 js
