@@ -52,7 +52,7 @@ namespace
 mozilla
 {
 namespace
-tabs
+dom
 {
 class
 TabParent
@@ -275,7 +275,7 @@ MOZ_IPC
 mozilla
 :
 :
-tabs
+dom
 :
 :
 TabParent

@@ -1,9 +1,9 @@
 #
 ifndef
-dom_tabs_TabThread_h
+dom_tabs_ContentProcessThread_h
 #
 define
-dom_tabs_TabThread_h
+dom_tabs_ContentProcessThread_h
 1
 #
 include
@@ -39,7 +39,7 @@ h
 #
 include
 "
-TabChild
+ContentProcessChild
 .
 h
 "
@@ -56,7 +56,7 @@ printf
 (
 "
 [
-TabThread
+ContentProcessThread
 ]
 %
 s
@@ -67,10 +67,10 @@ namespace
 mozilla
 {
 namespace
-tabs
+dom
 {
 class
-TabThread
+ContentProcessThread
 :
 public
 mozilla
@@ -83,12 +83,12 @@ GeckoThread
 {
 public
 :
-TabThread
+ContentProcessThread
 (
 )
 ;
 ~
-TabThread
+ContentProcessThread
 (
 )
 ;
@@ -106,8 +106,8 @@ CleanUp
 (
 )
 ;
-TabChild
-mTab
+ContentProcessChild
+mContentProcess
 ;
 IPC
 :
@@ -118,7 +118,7 @@ mChannel
 ;
 DISALLOW_EVIL_CONSTRUCTORS
 (
-TabThread
+ContentProcessThread
 )
 ;
 }

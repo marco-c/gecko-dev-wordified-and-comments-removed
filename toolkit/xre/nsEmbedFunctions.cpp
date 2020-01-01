@@ -217,7 +217,7 @@ h
 #
 include
 "
-TabThread
+ContentProcessThread
 .
 h
 "
@@ -345,10 +345,10 @@ using
 mozilla
 :
 :
-tabs
+dom
 :
 :
-TabThread
+ContentProcessThread
 ;
 using
 mozilla
@@ -1017,7 +1017,7 @@ GeckoChildProcess_Tab
 mainThread
 =
 new
-TabThread
+ContentProcessThread
 (
 )
 ;

@@ -1,6 +1,10 @@
 IPDLSRCS
 =
 \
+ContentProcess
+.
+ipdl
+\
 IFrameEmbedding
 .
 ipdl
