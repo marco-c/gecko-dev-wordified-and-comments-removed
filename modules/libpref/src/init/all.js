@@ -1363,7 +1363,7 @@ webaudio
 .
 enabled
 "
-false
+true
 )
 ;
 pref
@@ -7132,16 +7132,6 @@ handler
 expose
 -
 all
-"
-true
-)
-;
-pref
-(
-"
-network
-.
-warnOnAboutNetworking
 "
 true
 )
