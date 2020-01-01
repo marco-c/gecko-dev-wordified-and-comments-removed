@@ -285,6 +285,15 @@ nsNPObjWrapper
 public
 :
 static
+void
+OnDestroy
+(
+NPObject
+*
+npobj
+)
+;
+static
 JSObject
 *
 GetNewOrUsed
