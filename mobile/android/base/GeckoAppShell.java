@@ -5549,9 +5549,11 @@ take
 return
 (
 ret
-=
-=
+.
+equals
+(
 EMPTY_STRING
+)
 ?
 null
 :
