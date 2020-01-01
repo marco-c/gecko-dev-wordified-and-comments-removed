@@ -509,6 +509,10 @@ testOps
 .
 cpp
 \
+testParseJSON
+.
+cpp
+\
 testPropCache
 .
 cpp
