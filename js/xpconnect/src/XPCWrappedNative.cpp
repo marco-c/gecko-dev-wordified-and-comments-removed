@@ -10237,6 +10237,8 @@ DoesValNeedCleanup
 {
 JSUint32
 array_count
+=
+0
 ;
 nsXPTType
 datum_type
@@ -10937,6 +10939,8 @@ v
 ;
 JSUint32
 array_count
+=
+0
 ;
 nsXPTType
 datum_type
@@ -12567,6 +12571,8 @@ datum_type
 ;
 JSUint32
 array_count
+=
+0
 ;
 bool
 isArray
