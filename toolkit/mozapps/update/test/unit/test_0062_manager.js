@@ -41,7 +41,9 @@ removeUpdateDirsAndFiles
 var
 defaults
 =
-gPrefs
+getPrefBranch
+(
+)
 .
 QueryInterface
 (
@@ -165,6 +167,10 @@ activeUpdate
 .
 state
 STATE_DOWNLOADING
+)
+;
+cleanUp
+(
 )
 ;
 }

@@ -621,6 +621,10 @@ removeUpdateDirsAndFiles
 (
 )
 ;
+cleanUp
+(
+)
+;
 }
 function
 runUpdate

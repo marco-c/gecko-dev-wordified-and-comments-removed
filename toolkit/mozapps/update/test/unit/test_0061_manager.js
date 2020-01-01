@@ -42,7 +42,9 @@ removeUpdateDirsAndFiles
 var
 defaults
 =
-gPrefs
+getPrefBranch
+(
+)
 .
 QueryInterface
 (
@@ -151,6 +153,10 @@ gUpdateManager
 .
 updateCount
 0
+)
+;
+cleanUp
+(
 )
 ;
 }
