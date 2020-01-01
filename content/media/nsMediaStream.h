@@ -573,6 +573,14 @@ IsSuspendedByCache
 0
 ;
 virtual
+PRBool
+IsSuspended
+(
+)
+=
+0
+;
+virtual
 nsresult
 ReadFromCache
 (
@@ -907,6 +915,12 @@ aOffset
 virtual
 PRBool
 IsSuspendedByCache
+(
+)
+;
+virtual
+PRBool
+IsSuspended
 (
 )
 ;
