@@ -50,6 +50,9 @@ class
 gfxTextRun
 ;
 class
+nsIFrame
+;
+class
 nsFontFaceList
 :
 public
@@ -79,6 +82,9 @@ PRUint32
 aOffset
 PRUint32
 aLength
+nsIFrame
+*
+aFrame
 )
 ;
 protected
