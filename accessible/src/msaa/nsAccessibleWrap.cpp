@@ -2111,7 +2111,6 @@ PRUint32
 state
 =
 0
-extraState
 ;
 if
 (
@@ -2124,8 +2123,7 @@ GetFinalState
 (
 &
 state
-&
-extraState
+nsnull
 )
 )
 )
