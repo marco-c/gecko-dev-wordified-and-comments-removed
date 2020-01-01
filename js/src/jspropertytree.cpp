@@ -1270,12 +1270,6 @@ first
 0
 DUMP_FLAG
 (
-ALIAS
-alias
-)
-;
-DUMP_FLAG
-(
 HAS_SHORTID
 has_shortid
 )
