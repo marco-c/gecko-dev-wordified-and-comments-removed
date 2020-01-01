@@ -2897,9 +2897,6 @@ JNIEnv
 *
 env
 =
-AndroidBridge
-:
-:
 GetJNIEnv
 (
 )
@@ -2968,9 +2965,6 @@ JNIEnv
 *
 env
 =
-AndroidBridge
-:
-:
 GetJNIEnv
 (
 )
@@ -3234,9 +3228,6 @@ JNIEnv
 *
 env
 =
-AndroidBridge
-:
-:
 GetJNIEnv
 (
 )
@@ -12565,9 +12556,6 @@ JNIEnv
 *
 env
 =
-AndroidBridge
-:
-:
 GetJNIEnv
 (
 )
@@ -12579,9 +12567,6 @@ env
 )
 return
 ;
-AndroidBridge
-:
-:
 AutoLocalJNIFrame
 frame
 (
@@ -12689,9 +12674,6 @@ env
 )
 return
 ;
-AndroidBridge
-:
-:
 AutoLocalJNIFrame
 frame
 (
@@ -12907,9 +12889,6 @@ JNIEnv
 *
 jenv
 =
-AndroidBridge
-:
-:
 GetJNIEnv
 (
 )
@@ -13052,9 +13031,6 @@ rv
 rv
 )
 ;
-AndroidBridge
-:
-:
 AutoLocalJNIFrame
 jniFrame
 (
@@ -13126,9 +13102,6 @@ JNIEnv
 *
 jenv
 =
-AndroidBridge
-:
-:
 GetJNIEnv
 (
 )
