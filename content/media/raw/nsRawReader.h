@@ -221,6 +221,17 @@ PRInt64
 aEndOffset
 )
 ;
+virtual
+nsresult
+GetBuffered
+(
+nsHTMLTimeRanges
+*
+aBuffered
+PRInt64
+aStartTime
+)
+;
 private
 :
 PRBool
