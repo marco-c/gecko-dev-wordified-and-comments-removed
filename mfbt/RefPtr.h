@@ -90,7 +90,7 @@ RefPtr
 T
 >
 ;
-protected
+public
 :
 RefCounted
 (
@@ -112,12 +112,11 @@ MOZ_ASSERT
 refCnt
 =
 =
-0xffffdead
+-
+0xdead
 )
 ;
 }
-public
-:
 void
 AddRef
 (
@@ -163,7 +162,8 @@ ifdef
 DEBUG
 refCnt
 =
-0xffffdead
+-
+0xdead
 ;
 #
 endif
