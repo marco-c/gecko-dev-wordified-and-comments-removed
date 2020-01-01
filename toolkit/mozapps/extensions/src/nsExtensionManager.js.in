@@ -32149,6 +32149,8 @@ return
 (
 type
 &
+Ci
+.
 nsIUpdateItem
 .
 TYPE_ANY
