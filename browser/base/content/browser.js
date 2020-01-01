@@ -18012,6 +18012,16 @@ aMimeType
 "
 application
 /
+javascript
+"
+|
+|
+aMimeType
+=
+=
+"
+application
+/
 xml
 "
 |
