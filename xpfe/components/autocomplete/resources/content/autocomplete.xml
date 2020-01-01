@@ -177,6 +177,15 @@ pref
 "
 >
 <
+children
+includes
+=
+"
+menupopup
+"
+/
+>
+<
 xul
 :
 hbox
