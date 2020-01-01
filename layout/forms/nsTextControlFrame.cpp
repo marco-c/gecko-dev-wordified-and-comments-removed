@@ -5848,7 +5848,6 @@ AddStateBits
 NS_FRAME_REFLOW_ROOT
 )
 ;
-}
 nsCOMPtr
 <
 nsITextControlElement
@@ -5882,6 +5881,7 @@ InitializeKeyboardEventListeners
 (
 )
 ;
+}
 return
 rv
 ;
