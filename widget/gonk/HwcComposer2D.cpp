@@ -905,12 +905,6 @@ nsIntRect
 aClip
 )
 {
-const
-bool
-TESTING
-=
-true
-;
 bool
 fillColor
 =
@@ -1003,10 +997,6 @@ false
 }
 if
 (
-!
-TESTING
-&
-&
 visibleRegion
 .
 GetNumRects
