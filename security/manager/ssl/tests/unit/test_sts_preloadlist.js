@@ -854,6 +854,7 @@ getPBSvc
 (
 )
 )
+{
 getPBSvc
 (
 )
@@ -862,6 +863,14 @@ privateBrowsingEnabled
 =
 true
 ;
+}
+else
+{
+run_next_test
+(
+)
+;
+}
 }
 function
 test_private_browsing1
