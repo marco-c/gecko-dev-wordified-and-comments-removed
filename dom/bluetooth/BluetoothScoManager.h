@@ -160,9 +160,8 @@ nsAString
 aAddress
 )
 ;
-enum
 SocketConnectionStatus
-mSocketStatus
+mPrevSocketStatus
 ;
 nsRefPtr
 <
