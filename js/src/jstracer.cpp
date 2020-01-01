@@ -77419,7 +77419,6 @@ vp
 addr_ins
 0
 exit
-true
 )
 ;
 if
