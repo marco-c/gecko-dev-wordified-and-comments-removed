@@ -55,9 +55,6 @@ nsIDOMBlob
 *
 GetDOMBlobFromJSObject
 (
-JSContext
-*
-aCx
 JSObject
 *
 aObj
@@ -79,9 +76,6 @@ nsIDOMFile
 *
 GetDOMFileFromJSObject
 (
-JSContext
-*
-aCx
 JSObject
 *
 aObj
