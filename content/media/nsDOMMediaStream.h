@@ -32,6 +32,14 @@ nsIPrincipal
 .
 h
 "
+#
+ifdef
+GetCurrentTime
+#
+undef
+GetCurrentTime
+#
+endif
 class
 nsDOMMediaStream
 :
