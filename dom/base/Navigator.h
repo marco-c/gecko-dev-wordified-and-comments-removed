@@ -1148,6 +1148,17 @@ JSObject
 ;
 #
 endif
+static
+bool
+HasPushNotificationsSupport
+(
+JSContext
+*
+JSObject
+*
+aGlobal
+)
+;
 nsPIDOMWindow
 *
 GetParentObject
