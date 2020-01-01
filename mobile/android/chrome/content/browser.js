@@ -11743,7 +11743,7 @@ browser
 .
 style
 .
-width
+minWidth
 )
 ;
 this
@@ -11862,7 +11862,7 @@ browser
 .
 style
 .
-width
+minWidth
 )
 ;
 return
@@ -11934,7 +11934,7 @@ browser
 .
 style
 .
-width
+minWidth
 =
 aWidth
 +
@@ -11948,7 +11948,7 @@ browser
 .
 style
 .
-height
+minHeight
 =
 aHeight
 +
