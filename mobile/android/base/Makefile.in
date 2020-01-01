@@ -9514,6 +9514,9 @@ sync
 repositories
 /
 android
+background
+/
+announcements
 )
 \
 (
