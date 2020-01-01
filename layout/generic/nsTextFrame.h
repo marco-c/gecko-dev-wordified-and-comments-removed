@@ -1060,6 +1060,10 @@ aDirtyRect
 PropertyProvider
 &
 aProvider
+PRUint32
+aContentOffset
+PRUint32
+aContentLength
 nsTextPaintStyle
 &
 aTextPaintStyle
@@ -1093,6 +1097,10 @@ aDirtyRect
 PropertyProvider
 &
 aProvider
+PRUint32
+aContentOffset
+PRUint32
+aContentLength
 nsTextPaintStyle
 &
 aTextPaintStyle
@@ -1125,6 +1133,10 @@ aDirtyRect
 PropertyProvider
 &
 aProvider
+PRUint32
+aContentOffset
+PRUint32
+aContentLength
 nsTextPaintStyle
 &
 aTextPaintStyle
