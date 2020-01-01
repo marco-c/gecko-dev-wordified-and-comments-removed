@@ -1286,7 +1286,9 @@ on
 Windows
 bug
 455818
-todo_is
+/
+/
+is
 (
 testPageMoveCommand
 (
@@ -1350,7 +1352,9 @@ on
 Windows
 bug
 455818
-todo_is
+/
+/
+is
 (
 testPageSelectCommand
 (
