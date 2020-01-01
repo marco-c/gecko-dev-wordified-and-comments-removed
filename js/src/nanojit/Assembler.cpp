@@ -6430,7 +6430,14 @@ oprnd1
 (
 )
 ;
+findMemFor
+(
+op1
+)
+;
 if
+(
+!
 (
 op1
 -
@@ -6455,12 +6462,7 @@ isconstq
 (
 )
 )
-findMemFor
-(
-op1
 )
-;
-else
 findRegFor
 (
 op1
