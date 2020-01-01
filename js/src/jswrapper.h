@@ -243,7 +243,7 @@ virtual
 bool
 finalizeInBackground
 (
-Value
+HandleValue
 priv
 )
 MOZ_OVERRIDE

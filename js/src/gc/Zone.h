@@ -262,7 +262,7 @@ js
 gc
 :
 :
-VerifierNursery
+Nursery
 gcNursery
 ;
 js

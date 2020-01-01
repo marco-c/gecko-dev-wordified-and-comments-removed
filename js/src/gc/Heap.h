@@ -171,7 +171,7 @@ const
 ;
 inline
 AllocKind
-tenuredGetAllocKind
+getAllocKind
 (
 )
 const
@@ -218,7 +218,7 @@ const
 inline
 Zone
 *
-tenuredZone
+zone
 (
 )
 const
@@ -3304,7 +3304,7 @@ AllocKind
 Cell
 :
 :
-tenuredGetAllocKind
+getAllocKind
 (
 )
 const
@@ -3449,7 +3449,7 @@ Zone
 Cell
 :
 :
-tenuredZone
+zone
 (
 )
 const

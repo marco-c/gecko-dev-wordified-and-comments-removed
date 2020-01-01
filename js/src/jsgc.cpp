@@ -1125,14 +1125,7 @@ isTenured
 const
 {
 return
-!
-IsInsideNursery
-(
-runtime
-(
-)
-this
-)
+true
 ;
 }
 #
@@ -8560,7 +8553,7 @@ p
 )
 -
 >
-tenuredZone
+zone
 (
 )
 -
@@ -8928,7 +8921,7 @@ thing
 )
 -
 >
-tenuredZone
+zone
 (
 )
 ;
@@ -12675,7 +12668,7 @@ JS_ASSERT
 thing
 -
 >
-tenuredZone
+zone
 (
 )
 =
@@ -12689,7 +12682,7 @@ zone
 thing
 -
 >
-tenuredZone
+zone
 (
 )
 =
@@ -13541,7 +13534,7 @@ wrapped
 dst
 -
 >
-tenuredZone
+zone
 (
 )
 -
@@ -15471,7 +15464,7 @@ w
 other
 -
 >
-tenuredZone
+zone
 (
 )
 ;
@@ -15534,7 +15527,7 @@ w
 other
 -
 >
-tenuredZone
+zone
 (
 )
 ;
