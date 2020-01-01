@@ -829,8 +829,9 @@ sys
 .
 path
 .
-append
+insert
 (
+0
 self
 .
 mozharness_dir
