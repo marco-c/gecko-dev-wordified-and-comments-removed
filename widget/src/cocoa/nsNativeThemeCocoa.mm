@@ -1314,7 +1314,7 @@ if
 MAC_OS_X_VERSION_MAX_ALLOWED
 >
 =
-MAX_OS_X_VERSION_10_4
+MAC_OS_X_VERSION_10_4
 /
 /
 graphicsContextWithGraphicsPort
@@ -1381,7 +1381,7 @@ if
 MAC_OS_X_VERSION_MAX_ALLOWED
 >
 =
-MAX_OS_X_VERSION_10_4
+MAC_OS_X_VERSION_10_4
 [
 NSGraphicsContext
 restoreGraphicsState
