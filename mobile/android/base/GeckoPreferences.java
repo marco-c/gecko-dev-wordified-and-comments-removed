@@ -588,6 +588,12 @@ getKey
 if
 (
 prefName
+!
+=
+null
+&
+&
+prefName
 .
 equals
 (
