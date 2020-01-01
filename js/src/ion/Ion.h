@@ -78,6 +78,9 @@ inlining
 bool
 edgeCaseAnalysis
 ;
+bool
+rangeAnalysis
+;
 uint32
 usesBeforeCompile
 ;
@@ -147,6 +150,10 @@ true
 edgeCaseAnalysis
 (
 true
+)
+rangeAnalysis
+(
+false
 )
 usesBeforeCompile
 (
