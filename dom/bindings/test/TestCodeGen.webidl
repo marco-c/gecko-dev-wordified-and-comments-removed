@@ -1835,6 +1835,9 @@ Dict
 :
 ParentDict
 {
+TestEnum
+someEnum
+;
 long
 x
 ;
