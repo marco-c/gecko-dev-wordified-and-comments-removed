@@ -2952,10 +2952,6 @@ mScriptRequested
 (
 false
 )
-mSrcStreamLoading
-(
-false
-)
 {
 }
 nsObjectLoadingContent
@@ -5323,10 +5319,8 @@ else
 {
 newMime
 .
-Assign
+Truncate
 (
-"
-"
 )
 ;
 stateInvalid
@@ -5818,10 +5812,8 @@ true
 ;
 channelType
 .
-Assign
+Truncate
 (
-"
-"
 )
 ;
 }
