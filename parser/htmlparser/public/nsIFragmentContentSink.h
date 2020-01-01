@@ -42,7 +42,7 @@ define
 NS_I_PARANOID_FRAGMENT_CONTENT_SINK_IID
 \
 {
-0x59ec77f5
+0x69ec77f5
 0x9e9b
 0x4040
 \
@@ -135,6 +135,14 @@ NS_I_PARANOID_FRAGMENT_CONTENT_SINK_IID
 virtual
 void
 AllowStyles
+(
+)
+=
+0
+;
+virtual
+void
+AllowComments
 (
 )
 =
