@@ -105,7 +105,7 @@ false
 #
 define
 LOGS_TO_KEEP
-5
+10
 BOOL
 GetLogDirectoryPath
 (

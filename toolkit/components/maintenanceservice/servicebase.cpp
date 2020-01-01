@@ -52,7 +52,9 @@ NULL
 ;
 if
 (
-!
+INVALID_HANDLE_VALUE
+=
+=
 file1
 )
 {
@@ -77,7 +79,9 @@ NULL
 ;
 if
 (
-!
+INVALID_HANDLE_VALUE
+=
+=
 file2
 )
 {
