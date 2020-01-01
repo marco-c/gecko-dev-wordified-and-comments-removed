@@ -127,6 +127,10 @@ gfxPointH3D
 .
 h
 \
+gfxQuad
+.
+h
+\
 gfxQuaternion
 .
 h
