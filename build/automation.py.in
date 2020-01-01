@@ -1830,6 +1830,16 @@ false
 user_pref
 (
 "
+test
+.
+mousescroll
+"
+true
+)
+;
+user_pref
+(
+"
 security
 .
 default_personal_cert
