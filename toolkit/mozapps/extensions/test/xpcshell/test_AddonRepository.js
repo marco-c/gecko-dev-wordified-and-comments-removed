@@ -382,6 +382,12 @@ full1
 .
 png
 "
+width
+:
+400
+height
+:
+300
 thumbnailURL
 :
 BASE_URL
@@ -394,6 +400,12 @@ thumbnail1
 .
 png
 "
+thumbnailWidth
+:
+200
+thumbnailHeight
+:
+150
 caption
 :
 "
