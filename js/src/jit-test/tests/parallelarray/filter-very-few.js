@@ -44,7 +44,9 @@ i
 i
 >
 =
-1022
+minItemsTestingThreshold
+-
+2
 ;
 }
 )
