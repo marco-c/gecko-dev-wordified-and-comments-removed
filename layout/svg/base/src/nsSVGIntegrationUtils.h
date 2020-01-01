@@ -123,14 +123,14 @@ aPreEffectsOverflowRect
 )
 ;
 static
-nsRect
+nsIntRect
 AdjustInvalidAreaForSVGEffects
 (
 nsIFrame
 *
 aFrame
 const
-nsRect
+nsIntRect
 &
 aInvalidRect
 )

@@ -3254,14 +3254,6 @@ PositionChildViews
 aFloat
 )
 ;
-FrameLayerBuilder
-:
-:
-InvalidateThebesLayersInSubtree
-(
-aFloat
-)
-;
 }
 mFloatOverflowAreas
 .

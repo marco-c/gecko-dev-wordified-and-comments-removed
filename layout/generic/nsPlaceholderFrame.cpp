@@ -421,13 +421,6 @@ if
 oof
 )
 {
-oof
--
->
-InvalidateFrameSubtree
-(
-)
-;
 shell
 -
 >
@@ -500,7 +493,6 @@ RemoveFrame
 (
 listId
 oof
-false
 )
 ;
 }

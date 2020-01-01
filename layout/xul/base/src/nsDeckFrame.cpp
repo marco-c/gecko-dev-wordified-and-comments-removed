@@ -333,7 +333,7 @@ mIndex
 )
 return
 ;
-InvalidateOverflowRect
+InvalidateFrame
 (
 )
 ;
