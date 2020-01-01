@@ -59,6 +59,13 @@ struct
 WebAudioUtils
 {
 static
+const
+uint32_t
+MaxChannelCount
+=
+10000
+;
+static
 bool
 FuzzyEqual
 (
