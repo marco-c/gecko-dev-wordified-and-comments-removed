@@ -128,6 +128,14 @@ js
 \
 browser_dbg_breakpoints
 -
+disabled
+-
+reload
+.
+js
+\
+browser_dbg_breakpoints
+-
 editor
 .
 js
