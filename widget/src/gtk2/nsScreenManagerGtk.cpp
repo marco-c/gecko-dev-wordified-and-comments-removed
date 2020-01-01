@@ -834,8 +834,6 @@ EnsureInit
 failed
 from
 ScreenForRect
-\
-n
 "
 )
 ;
@@ -1038,8 +1036,6 @@ EnsureInit
 failed
 from
 GetPrimaryScreen
-\
-n
 "
 )
 ;
@@ -1107,8 +1103,6 @@ EnsureInit
 failed
 from
 GetNumberOfScreens
-\
-n
 "
 )
 ;
@@ -1173,8 +1167,6 @@ EnsureInit
 failed
 from
 ScreenForNativeWidget
-\
-n
 "
 )
 ;

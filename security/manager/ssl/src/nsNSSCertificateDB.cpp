@@ -1590,8 +1590,6 @@ cert
 from
 DER
 blob
-\
-n
 "
 )
 ;
@@ -1958,8 +1956,6 @@ cert
 from
 DER
 blob
-\
-n
 "
 )
 ;
@@ -7488,8 +7484,6 @@ cert
 from
 DER
 blob
-\
-n
 "
 )
 ;

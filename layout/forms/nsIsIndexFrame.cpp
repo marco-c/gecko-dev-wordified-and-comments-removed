@@ -1383,8 +1383,6 @@ in
 Form
 Submit
 !
-\
-n
 "
 )
 ;
@@ -1494,8 +1492,6 @@ in
 form
 submit
 !
-\
-n
 "
 )
 ;

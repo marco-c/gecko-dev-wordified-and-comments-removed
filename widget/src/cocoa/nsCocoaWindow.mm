@@ -1595,8 +1595,6 @@ allowed
 is
 %
 d
-\
-n
 "
 aWidth
 SIZE_LIMIT
@@ -1639,8 +1637,6 @@ allowed
 is
 %
 d
-\
-n
 "
 aHeight
 SIZE_LIMIT

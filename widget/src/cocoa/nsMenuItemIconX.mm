@@ -915,8 +915,6 @@ No
 native
 menu
 item
-\
-n
 "
 )
 ;

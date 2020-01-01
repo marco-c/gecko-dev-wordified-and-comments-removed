@@ -2203,8 +2203,6 @@ execute
 key
 binding
 !
-\
-n
 "
 )
 ;

@@ -1460,8 +1460,6 @@ window
 in
 hierarchy
 !
-\
-n
 "
 )
 ;

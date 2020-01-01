@@ -7872,8 +7872,6 @@ to
 create
 text
 store
-\
-n
 "
 )
 ;

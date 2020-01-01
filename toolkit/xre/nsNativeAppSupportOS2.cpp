@@ -6452,8 +6452,6 @@ URL
 to
 extant
 window
-\
-n
 "
 )
 ;

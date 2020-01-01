@@ -3081,8 +3081,6 @@ NS_ERROR
 FBO
 not
 supported
-\
-n
 "
 )
 ;
@@ -3238,8 +3236,6 @@ NS_ERROR
 Unexpected
 OpenGL
 Error
-\
-n
 "
 )
 ;
@@ -3619,8 +3615,6 @@ NS_ERROR
 Unexpected
 OpenGL
 Error
-\
-n
 "
 )
 ;
