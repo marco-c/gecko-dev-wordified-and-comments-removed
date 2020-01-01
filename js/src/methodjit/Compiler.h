@@ -964,6 +964,14 @@ jsop_instanceof
 )
 ;
 void
+jsop_name
+(
+JSAtom
+*
+atom
+)
+;
+void
 jsop_binary
 (
 JSOp
