@@ -428,6 +428,14 @@ csp_worker
 .
 js
 \
+test_transferable
+.
+html
+\
+transferable_worker
+.
+js
+\
 (
 NULL
 )

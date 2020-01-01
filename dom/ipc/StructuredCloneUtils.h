@@ -90,7 +90,6 @@ ReadStructuredClone
 JSContext
 *
 aCx
-const
 uint64_t
 *
 aData
