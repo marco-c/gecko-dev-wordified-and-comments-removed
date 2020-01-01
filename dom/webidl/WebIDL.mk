@@ -699,6 +699,10 @@ ScrollAreaEvent
 .
 webidl
 \
+SimpleGestureEvent
+.
+webidl
+\
 StyleSheet
 .
 webidl
