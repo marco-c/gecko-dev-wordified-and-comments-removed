@@ -59,16 +59,6 @@ namespace
 mozilla
 ;
 static
-const
-char
-*
-gFunction
-=
-"
-main
-"
-;
-static
 int
 callbackCount
 =
