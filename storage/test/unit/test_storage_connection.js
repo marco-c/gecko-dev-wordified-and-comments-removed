@@ -1349,15 +1349,6 @@ finalize
 (
 )
 ;
-let
-deferred
-=
-Promise
-.
-defer
-(
-)
-;
 yield
 asyncClose
 (
@@ -1708,7 +1699,6 @@ finalize
 )
 ;
 }
-let
 name
 =
 "
