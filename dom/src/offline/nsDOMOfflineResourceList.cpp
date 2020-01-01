@@ -106,13 +106,6 @@ h
 #
 include
 "
-nsIJSContextStack
-.
-h
-"
-#
-include
-"
 nsEventDispatcher
 .
 h

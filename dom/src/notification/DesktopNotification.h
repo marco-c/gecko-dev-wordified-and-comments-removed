@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsIJSContextStack
-.
-h
-"
-#
-include
-"
 nsIAlertsService
 .
 h

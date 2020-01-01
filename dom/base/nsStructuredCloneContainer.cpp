@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsIJSContextStack
-.
-h
-"
-#
-include
-"
 nsIScriptContext
 .
 h

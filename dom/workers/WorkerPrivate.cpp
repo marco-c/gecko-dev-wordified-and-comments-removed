@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsIJSContextStack
-.
-h
-"
-#
-include
-"
 nsIMemoryReporter
 .
 h

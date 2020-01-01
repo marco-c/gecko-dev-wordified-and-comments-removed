@@ -341,13 +341,6 @@ h
 #
 include
 "
-nsIJSContextStack
-.
-h
-"
-#
-include
-"
 nsIJSRuntimeService
 .
 h

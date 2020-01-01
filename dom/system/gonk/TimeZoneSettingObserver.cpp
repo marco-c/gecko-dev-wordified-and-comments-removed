@@ -76,13 +76,6 @@ h
 #
 include
 "
-nsIJSContextStack
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h

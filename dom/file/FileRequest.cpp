@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsIJSContextStack
-.
-h
-"
-#
-include
-"
 DOMFileRequest
 .
 h
