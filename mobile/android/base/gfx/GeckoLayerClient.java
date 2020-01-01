@@ -1886,15 +1886,6 @@ abortPanZoomAnimation
 (
 )
 ;
-mView
-.
-setPaintState
-(
-LayerView
-.
-PAINT_BEFORE_FIRST
-)
-;
 }
 DisplayPortCalculator
 .
