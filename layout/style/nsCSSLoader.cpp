@@ -7224,7 +7224,7 @@ for
 data
 0x
 %
-s
+x
 .
 wasAlternate
 :
