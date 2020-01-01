@@ -382,7 +382,7 @@ connect
 self
 timeout
 =
-180
+240
 .
 0
 )
