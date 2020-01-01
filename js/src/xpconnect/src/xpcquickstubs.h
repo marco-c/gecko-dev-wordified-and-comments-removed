@@ -583,6 +583,8 @@ JSContext
 *
 cx
 jsval
+v
+jsval
 *
 pval
 )
@@ -607,6 +609,8 @@ JSContext
 *
 cx
 jsval
+v
+jsval
 *
 pval
 )
@@ -630,6 +634,8 @@ xpc_qsACString
 JSContext
 *
 cx
+jsval
+v
 jsval
 *
 pval
@@ -734,6 +740,8 @@ JSContext
 *
 cx
 jsval
+v
+jsval
 *
 pval
 char
@@ -748,6 +756,8 @@ xpc_qsJsvalToWcharStr
 JSContext
 *
 cx
+jsval
+v
 jsval
 *
 pval

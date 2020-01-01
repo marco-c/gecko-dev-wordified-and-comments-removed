@@ -979,13 +979,6 @@ aNewlineTerminate
 )
 ;
 nsresult
-ScriptWriteCommon
-(
-PRBool
-aNewlineTerminate
-)
-;
-nsresult
 OpenCommon
 (
 const
