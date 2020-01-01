@@ -4222,7 +4222,7 @@ nsILayoutHistoryState
 aHistoryState
 )
 ;
-nsresult
+void
 WrapFramesInFirstLineFrame
 (
 nsFrameConstructorState
@@ -4242,7 +4242,7 @@ nsFrameItems
 aFrameItems
 )
 ;
-nsresult
+void
 AppendFirstLineFrames
 (
 nsFrameConstructorState

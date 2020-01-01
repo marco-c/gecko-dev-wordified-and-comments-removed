@@ -41496,8 +41496,6 @@ if
 haveFirstLineStyle
 )
 {
-rv
-=
 WrapFramesInFirstLineFrame
 (
 aState
@@ -41842,7 +41840,7 @@ return
 rv
 ;
 }
-nsresult
+void
 nsCSSFrameConstructor
 :
 :
@@ -41865,11 +41863,6 @@ nsFrameItems
 aFrameItems
 )
 {
-nsresult
-rv
-=
-NS_OK
-;
 nsFrameList
 :
 :
@@ -41928,7 +41921,6 @@ IsEmpty
 )
 {
 return
-NS_OK
 ;
 }
 if
@@ -42018,11 +42010,6 @@ frame
 )
 ;
 }
-if
-(
-aLineFrame
-)
-{
 ReparentFrames
 (
 this
@@ -42077,18 +42064,7 @@ firstLineChildren
 ;
 }
 }
-else
-{
-rv
-=
-NS_ERROR_OUT_OF_MEMORY
-;
-}
-return
-rv
-;
-}
-nsresult
+void
 nsCSSFrameConstructor
 :
 :
@@ -42129,7 +42105,6 @@ IsEmpty
 )
 )
 {
-return
 WrapFramesInFirstLineFrame
 (
 aState
@@ -42138,6 +42113,8 @@ aBlockFrame
 nullptr
 aFrameItems
 )
+;
+return
 ;
 }
 nsIFrame
@@ -42167,10 +42144,8 @@ lineFrame
 )
 {
 return
-NS_OK
 ;
 }
-return
 WrapFramesInFirstLineFrame
 (
 aState
