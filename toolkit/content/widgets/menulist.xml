@@ -2797,10 +2797,8 @@ getter
 [
 CDATA
 [
-<
-!
--
--
+/
+/
 Droppable
 is
 currently
@@ -2811,9 +2809,6 @@ Firefox
 bookmarks
 dialog
 only
--
--
->
 return
 (
 this
