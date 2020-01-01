@@ -157,6 +157,14 @@ browser_topsites
 .
 js
 \
+browser_form_auto_complete
+.
+js
+\
+browser_form_auto_complete
+.
+html
+\
 (
 NULL
 )
