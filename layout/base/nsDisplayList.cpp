@@ -16543,10 +16543,6 @@ isOK
 =
 true
 ;
-nsSVGClipPathFrame
-*
-clipPathFrame
-=
 effectProperties
 .
 GetClipPathFrame
@@ -16555,10 +16551,6 @@ GetClipPathFrame
 isOK
 )
 ;
-nsSVGMaskFrame
-*
-maskFrame
-=
 effectProperties
 .
 GetMaskFrame
@@ -16567,10 +16559,6 @@ GetMaskFrame
 isOK
 )
 ;
-nsSVGFilterFrame
-*
-filterFrame
-=
 effectProperties
 .
 GetFilterFrame
