@@ -288,7 +288,11 @@ typedef
 uint32
 JSIntervalTime
 ;
+extern
+JS_FRIEND_API
+(
 JSIntervalTime
+)
 js_IntervalNow
 (
 )

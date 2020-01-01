@@ -11129,7 +11129,10 @@ prinrval
 .
 h
 "
+JS_FRIEND_API
+(
 uint32
+)
 js_IntervalNow
 (
 )
@@ -11148,7 +11151,10 @@ PR_IntervalNow
 }
 #
 else
+JS_FRIEND_API
+(
 uint32
+)
 js_IntervalNow
 (
 )
