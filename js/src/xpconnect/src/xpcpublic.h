@@ -517,6 +517,15 @@ XPC_GC_COLOR_GRAY
 ;
 }
 extern
+JSBool
+xpc_GCThingIsGrayCCThing
+(
+void
+*
+thing
+)
+;
+extern
 void
 xpc_UnmarkGrayObjectRecursive
 (
