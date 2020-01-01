@@ -210,7 +210,6 @@ new
 nsContextMenu
 (
 contentAreaContextMenu
-gBrowser
 )
 ;
 contextMenu
@@ -370,7 +369,6 @@ new
 nsContextMenu
 (
 contentAreaContextMenu
-gBrowser
 )
 ;
 gBrowser
@@ -554,7 +552,6 @@ new
 nsContextMenu
 (
 contentAreaContextMenu
-gBrowser
 )
 ;
 Services
