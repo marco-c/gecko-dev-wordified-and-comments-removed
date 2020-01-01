@@ -5491,8 +5491,6 @@ JSStackFrame
 fp
 *
 caller
-*
-callerFrame
 ;
 JSBool
 indirectCall
@@ -6406,6 +6404,14 @@ nextToGC
 ;
 }
 }
+if
+(
+!
+script
+)
+{
+JSStackFrame
+*
 callerFrame
 =
 (
@@ -6419,12 +6425,6 @@ caller
 :
 NULL
 ;
-if
-(
-!
-script
-)
-{
 script
 =
 JSCompiler
@@ -6514,7 +6514,7 @@ js_Execute
 cx
 scopeobj
 script
-callerFrame
+caller
 JSFRAME_EVAL
 rval
 )
@@ -10045,7 +10045,6 @@ JSObject
 js_NewGCFunction
 (
 cx
-GCX_OBJECT
 )
 ;
 #
@@ -10100,7 +10099,6 @@ obj
 js_NewGCObject
 (
 cx
-GCX_OBJECT
 )
 ;
 }
@@ -10219,10 +10217,7 @@ cx
 >
 weakRoots
 .
-newborn
-[
-GCX_OBJECT
-]
+newbornObject
 =
 =
 obj
@@ -10294,10 +10289,7 @@ cx
 >
 weakRoots
 .
-newborn
-[
-GCX_OBJECT
-]
+newbornObject
 =
 obj
 ;
@@ -10599,7 +10591,6 @@ obj
 js_NewGCObject
 (
 cx
-GCX_OBJECT
 )
 ;
 if
@@ -12257,7 +12248,6 @@ clone
 js_NewGCObject
 (
 cx
-GCX_OBJECT
 )
 ;
 if
@@ -15137,7 +15127,6 @@ obj
 js_NewGCObject
 (
 cx
-GCX_OBJECT
 )
 ;
 if
@@ -25348,12 +25337,9 @@ cx
 >
 weakRoots
 .
-newborn
-[
-GCX_OBJECT
-]
+newbornObject
 =
-JSVAL_TO_GCTHING
+JSVAL_TO_OBJECT
 (
 v
 )
