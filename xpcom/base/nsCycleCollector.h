@@ -116,6 +116,17 @@ false
 ifdef
 DEBUG_CC
 void
+nsCycleCollector_logPurpleAddition
+(
+void
+*
+aObject
+nsCycleCollectionParticipant
+*
+cp
+)
+;
+void
 nsCycleCollector_logPurpleRemoval
 (
 void
