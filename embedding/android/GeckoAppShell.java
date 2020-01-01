@@ -352,14 +352,6 @@ public
 static
 native
 void
-onCriticalOOM
-(
-)
-;
-public
-static
-native
-void
 callObserver
 (
 String
@@ -622,7 +614,6 @@ putenv
 "
 MALLOC_OPTIONS
 =
--
 o
 "
 )
