@@ -2073,7 +2073,7 @@ Makefile
 .
 in
 (
-PYTHON
+PERL
 )
 (
 topsrcdir
@@ -2081,9 +2081,9 @@ topsrcdir
 /
 config
 /
-Preprocessor
+preprocessor
 .
-py
+pl
 -
 Fsubstitution
 (
