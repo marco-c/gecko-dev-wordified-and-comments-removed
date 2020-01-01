@@ -441,6 +441,9 @@ gcArenaList
 GC_NUM_FREELISTS
 ]
 ;
+JSGCDoubleArenaList
+gcDoubleArenaList
+;
 JSDHashTable
 gcRootsHash
 ;
@@ -1861,6 +1864,10 @@ localRootStack
 JSTempValueRooter
 *
 tempValueRooters
+;
+JSGCDoubleCell
+*
+doubleFreeList
 ;
 JSDebugHooks
 *
