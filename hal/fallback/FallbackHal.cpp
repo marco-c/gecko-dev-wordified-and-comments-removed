@@ -234,17 +234,5 @@ network
 kDefaultCanBeMetered
 ;
 }
-void
-Reboot
-(
-)
-{
-}
-void
-PowerOff
-(
-)
-{
-}
 }
 }
