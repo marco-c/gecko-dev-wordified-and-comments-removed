@@ -23028,6 +23028,15 @@ useCountAddress
 if
 (
 isConstructing
+&
+&
+outerScript
+-
+>
+code
+=
+=
+PC
 )
 return
 ;
