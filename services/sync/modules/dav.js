@@ -1020,7 +1020,7 @@ i
 '
 '
 )
-break
+continue
 ;
 path2
 =

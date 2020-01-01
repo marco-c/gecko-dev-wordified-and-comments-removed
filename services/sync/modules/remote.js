@@ -8,6 +8,9 @@ Resource
 '
 RemoteStore
 '
+'
+JsonFilter
+'
 ]
 ;
 const
