@@ -4475,6 +4475,15 @@ true
 ;
 if
 (
+HasLockSurface
+(
+)
+)
+return
+true
+;
+if
+(
 Renderer
 (
 )
