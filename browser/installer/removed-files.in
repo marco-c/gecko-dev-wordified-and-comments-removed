@@ -328,6 +328,11 @@ nsXmlRpcClient
 js
 components
 /
+pluginGlue
+.
+js
+components
+/
 sidebar
 .
 xpt
@@ -4656,6 +4661,9 @@ README
 libwidget
 .
 rsrc
+plugin
+-
+container
 plugins
 /
 Default
