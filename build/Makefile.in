@@ -992,6 +992,11 @@ APP_INI_DEPS
 )
 ifdef
 MOZ_APP_STATIC_INI
+DEFINES
++
+=
+-
+DMOZ_APP_STATIC_INI
 application
 .
 ini
