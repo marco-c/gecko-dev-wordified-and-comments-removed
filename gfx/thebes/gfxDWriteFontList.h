@@ -603,7 +603,6 @@ IFACEMETHOD
 DrawGlyphRun
 )
 (
-__maybenull
 void
 *
 clientDrawingContext
@@ -613,17 +612,14 @@ FLOAT
 baselineOriginY
 DWRITE_MEASURING_MODE
 measuringMode
-__in
 DWRITE_GLYPH_RUN
 const
 *
 glyphRun
-__in
 DWRITE_GLYPH_RUN_DESCRIPTION
 const
 *
 glyphRunDescription
-__maybenull
 IUnknown
 *
 clientDrawingEffect
@@ -634,7 +630,6 @@ IFACEMETHOD
 DrawUnderline
 )
 (
-__maybenull
 void
 *
 clientDrawingContext
@@ -642,12 +637,10 @@ FLOAT
 baselineOriginX
 FLOAT
 baselineOriginY
-__in
 DWRITE_UNDERLINE
 const
 *
 underline
-__maybenull
 IUnknown
 *
 clientDrawingEffect
@@ -662,7 +655,6 @@ IFACEMETHOD
 DrawStrikethrough
 )
 (
-__maybenull
 void
 *
 clientDrawingContext
@@ -670,12 +662,10 @@ FLOAT
 baselineOriginX
 FLOAT
 baselineOriginY
-__in
 DWRITE_STRIKETHROUGH
 const
 *
 strikethrough
-__maybenull
 IUnknown
 *
 clientDrawingEffect
@@ -690,7 +680,6 @@ IFACEMETHOD
 DrawInlineObject
 )
 (
-__maybenull
 void
 *
 clientDrawingContext
@@ -705,7 +694,6 @@ BOOL
 isSideways
 BOOL
 isRightToLeft
-__maybenull
 IUnknown
 *
 clientDrawingEffect
@@ -720,11 +708,9 @@ IFACEMETHOD
 IsPixelSnappingDisabled
 )
 (
-__maybenull
 void
 *
 clientDrawingContext
-__out
 BOOL
 *
 isDisabled
@@ -744,11 +730,9 @@ IFACEMETHOD
 GetCurrentTransform
 )
 (
-__maybenull
 void
 *
 clientDrawingContext
-__out
 DWRITE_MATRIX
 *
 transform
@@ -793,11 +777,9 @@ IFACEMETHOD
 GetPixelsPerDip
 )
 (
-__maybenull
 void
 *
 clientDrawingContext
-__out
 FLOAT
 *
 pixelsPerDip
@@ -972,7 +954,6 @@ mFamilyName
 }
 protected
 :
-unsigned
 long
 mRefCount
 ;
