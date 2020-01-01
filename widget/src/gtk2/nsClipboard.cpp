@@ -2956,10 +2956,9 @@ UTF
 return
 ;
 }
+const
 nsDependentCString
 htmlStr
-=
-nsDependentCString
 (
 (
 const

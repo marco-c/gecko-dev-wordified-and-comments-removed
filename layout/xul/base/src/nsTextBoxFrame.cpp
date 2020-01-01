@@ -2652,6 +2652,7 @@ return
 }
 const
 nsDependentString
+&
 kEllipsis
 =
 nsContentUtils
@@ -3361,6 +3362,7 @@ return
 }
 const
 nsDependentString
+&
 kEllipsis
 =
 nsContentUtils

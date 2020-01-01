@@ -5809,6 +5809,7 @@ maxWidth
 {
 const
 nsDependentString
+&
 kEllipsis
 =
 nsContentUtils
