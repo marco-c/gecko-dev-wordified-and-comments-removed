@@ -781,6 +781,10 @@ BluetoothAdapter
 (
 )
 {
+Unroot
+(
+)
+;
 BluetoothService
 *
 bs
@@ -807,10 +811,6 @@ NS_LITERAL_STRING
 KEY_ADAPTER
 )
 this
-)
-;
-Unroot
-(
 )
 ;
 }
