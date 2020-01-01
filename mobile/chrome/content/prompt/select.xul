@@ -170,7 +170,7 @@ getElementById
 '
 prompt
 -
-alert
+select
 -
 dialog
 '
@@ -202,7 +202,7 @@ getElementById
 '
 prompt
 -
-alert
+select
 -
 dialog
 '
@@ -334,7 +334,6 @@ command
 =
 "
 cmd_ok
-;
 "
 /
 >
