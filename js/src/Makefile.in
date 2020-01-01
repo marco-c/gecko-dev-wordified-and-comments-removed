@@ -1683,9 +1683,15 @@ endif
 ifeq
 (
 (
+filter
+-
+out
+powerpc
+sparc
+(
 TARGET_CPU
 )
-powerpc
+)
 )
 VPATH
 +
