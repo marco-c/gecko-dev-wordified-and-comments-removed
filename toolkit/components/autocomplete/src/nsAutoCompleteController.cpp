@@ -4534,6 +4534,16 @@ OpenPopup
 )
 ;
 else
+if
+(
+result
+!
+=
+nsIAutoCompleteResult
+:
+:
+RESULT_NOMATCH_ONGOING
+)
 ClosePopup
 (
 )
