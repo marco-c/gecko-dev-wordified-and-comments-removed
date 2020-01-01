@@ -828,7 +828,6 @@ aName
 )
 const
 ;
-virtual
 bool
 AttrValueIs
 (
@@ -845,12 +844,7 @@ nsCaseTreatment
 aCaseSensitive
 )
 const
-{
-return
-false
 ;
-}
-virtual
 bool
 AttrValueIs
 (
@@ -866,11 +860,7 @@ nsCaseTreatment
 aCaseSensitive
 )
 const
-{
-return
-false
 ;
-}
 enum
 {
 ATTR_MISSING
