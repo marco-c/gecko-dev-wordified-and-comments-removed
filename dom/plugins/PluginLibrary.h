@@ -26,6 +26,9 @@ nscore
 .
 h
 "
+class
+nsNPAPIPlugin
+;
 namespace
 mozilla
 {
@@ -41,6 +44,17 @@ PluginLibrary
 )
 {
 }
+virtual
+void
+SetPlugin
+(
+nsNPAPIPlugin
+*
+plugin
+)
+=
+0
+;
 virtual
 bool
 HasRequiredFunctions

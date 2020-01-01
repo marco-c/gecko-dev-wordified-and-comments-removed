@@ -247,6 +247,16 @@ aRefNum
 ;
 #
 endif
+#
+ifdef
+MOZ_IPC
+void
+PluginCrashed
+(
+)
+;
+#
+endif
 protected
 :
 static

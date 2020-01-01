@@ -230,6 +230,15 @@ PluginPRLibrary
 {
 }
 virtual
+void
+SetPlugin
+(
+nsNPAPIPlugin
+*
+)
+{
+}
+virtual
 bool
 HasRequiredFunctions
 (
