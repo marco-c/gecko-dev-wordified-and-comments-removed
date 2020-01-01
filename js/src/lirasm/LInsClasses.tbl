@@ -1199,7 +1199,7 @@ LCALL_F_F8
 LIR_fcall
 CL_64
 (
-LCALL_N_IQF
+LCALL_V_IQF
 1
 )
 /
