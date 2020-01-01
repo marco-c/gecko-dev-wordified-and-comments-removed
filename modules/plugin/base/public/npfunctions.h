@@ -14,6 +14,15 @@ pack
 1
 )
 #
+define
+NP_LOADDS
+_System
+#
+else
+#
+define
+NP_LOADDS
+#
 endif
 #
 include
@@ -33,6 +42,7 @@ typedef
 void
 (
 *
+NP_LOADDS
 NPP_InitializeProcPtr
 )
 (
@@ -42,6 +52,7 @@ typedef
 void
 (
 *
+NP_LOADDS
 NPP_ShutdownProcPtr
 )
 (
@@ -51,6 +62,7 @@ typedef
 NPError
 (
 *
+NP_LOADDS
 NPP_NewProcPtr
 )
 (
@@ -81,6 +93,7 @@ typedef
 NPError
 (
 *
+NP_LOADDS
 NPP_DestroyProcPtr
 )
 (
@@ -96,6 +109,7 @@ typedef
 NPError
 (
 *
+NP_LOADDS
 NPP_SetWindowProcPtr
 )
 (
@@ -110,6 +124,7 @@ typedef
 NPError
 (
 *
+NP_LOADDS
 NPP_NewStreamProcPtr
 )
 (
@@ -131,6 +146,7 @@ typedef
 NPError
 (
 *
+NP_LOADDS
 NPP_DestroyStreamProcPtr
 )
 (
@@ -147,6 +163,7 @@ typedef
 int32_t
 (
 *
+NP_LOADDS
 NPP_WriteReadyProcPtr
 )
 (
@@ -161,6 +178,7 @@ typedef
 int32_t
 (
 *
+NP_LOADDS
 NPP_WriteProcPtr
 )
 (
@@ -182,6 +200,7 @@ typedef
 void
 (
 *
+NP_LOADDS
 NPP_StreamAsFileProcPtr
 )
 (
@@ -200,6 +219,7 @@ typedef
 void
 (
 *
+NP_LOADDS
 NPP_PrintProcPtr
 )
 (
@@ -214,6 +234,7 @@ typedef
 int16_t
 (
 *
+NP_LOADDS
 NPP_HandleEventProcPtr
 )
 (
@@ -228,6 +249,7 @@ typedef
 void
 (
 *
+NP_LOADDS
 NPP_URLNotifyProcPtr
 )
 (
@@ -248,6 +270,7 @@ typedef
 NPError
 (
 *
+NP_LOADDS
 NPP_GetValueProcPtr
 )
 (
@@ -264,6 +287,7 @@ typedef
 NPError
 (
 *
+NP_LOADDS
 NPP_SetValueProcPtr
 )
 (
