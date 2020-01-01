@@ -121,10 +121,7 @@ isVFPPresent
 {
 #
 if
-WTF_OS_LINUX
-|
-|
-WTF_OS_ANDROID
+WTF_PLATFORM_LINUX
 int
 fd
 =
