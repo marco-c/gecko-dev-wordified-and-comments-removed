@@ -1282,6 +1282,9 @@ homedir
 =
 None
                  
+app
+=
+None
 bin
 =
 None
@@ -1384,6 +1387,12 @@ self
 homedir
 =
 homedir
+        
+self
+.
+app
+=
+app
         
 self
 .
@@ -1940,6 +1949,7 @@ Marionette
 host
 =
 host
+                                         
 port
 =
 int
@@ -1947,11 +1957,18 @@ int
 port
 )
                                          
+app
+=
+self
+.
+app
+                                         
 bin
 =
 self
 .
 bin
+                                         
 profile
 =
 self
@@ -4945,6 +4962,39 @@ add_option
 '
 -
 -
+app
+'
+dest
+=
+'
+app
+'
+action
+=
+'
+store
+'
+                      
+default
+=
+None
+                      
+help
+=
+'
+application
+to
+use
+'
+)
+    
+parser
+.
+add_option
+(
+'
+-
+-
 binary
 '
 dest
@@ -5629,6 +5679,12 @@ logcat_dir
 options
 .
 logcat_dir
+                          
+app
+=
+options
+.
+app
                           
 bin
 =
