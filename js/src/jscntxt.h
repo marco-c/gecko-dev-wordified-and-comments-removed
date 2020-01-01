@@ -804,8 +804,9 @@ endif
 struct
 JSThreadData
 {
-JSGCFreeLists
-gcFreeLists
+JSGCDoubleCell
+*
+doubleFreeList
 ;
 JSGSNCache
 gsnCache
@@ -938,6 +939,13 @@ id
 JSTitle
 *
 titleToShare
+;
+JSGCThing
+*
+gcFreeLists
+[
+FINALIZE_LIMIT
+]
 ;
 JSThreadData
 data

@@ -17432,10 +17432,7 @@ cx
 >
 weakRoots
 .
-finalizableNewborns
-[
-FINALIZE_OBJECT
-]
+newbornObject
 =
 JSVAL_TO_OBJECT
 (

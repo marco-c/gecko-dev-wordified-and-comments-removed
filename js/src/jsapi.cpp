@@ -22464,12 +22464,12 @@ cx
 >
 weakRoots
 .
-finalizableNewborns
-[
-FINALIZE_FUNCTION
-]
+newbornObject
 =
+FUN_OBJECT
+(
 fun
+)
 ;
 JS_POP_TEMP_ROOT
 (
