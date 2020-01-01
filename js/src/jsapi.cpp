@@ -3442,6 +3442,10 @@ gcStartNumber
 (
 0
 )
+gcIsFull
+(
+false
+)
 gcTriggerReason
 (
 gcreason

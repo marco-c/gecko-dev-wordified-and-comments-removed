@@ -945,6 +945,9 @@ gcNumber
 uint64_t
 gcStartNumber
 ;
+bool
+gcIsFull
+;
 js
 :
 :
