@@ -2421,8 +2421,10 @@ lookup
 typedef
 HashSet
 <
+ReadBarriered
+<
 TypeObject
-*
+>
 TypeObjectEntry
 SystemAllocPolicy
 >
@@ -3077,8 +3079,10 @@ typedef
 HashMap
 <
 ArrayTableKey
+ReadBarriered
+<
 TypeObject
-*
+>
 ArrayTableKey
 SystemAllocPolicy
 >
@@ -3107,8 +3111,10 @@ typedef
 HashMap
 <
 AllocationSiteKey
+ReadBarriered
+<
 TypeObject
-*
+>
 AllocationSiteKey
 SystemAllocPolicy
 >

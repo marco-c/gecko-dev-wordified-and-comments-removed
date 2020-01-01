@@ -1101,8 +1101,10 @@ lookup
 typedef
 HashSet
 <
+ReadBarriered
+<
 UnownedBaseShape
-*
+>
 BaseShapeEntry
 SystemAllocPolicy
 >
@@ -3346,11 +3348,10 @@ proto
 struct
 InitialShapeEntry
 {
-js
-:
-:
+ReadBarriered
+<
 Shape
-*
+>
 shape
 ;
 JSObject

@@ -6160,7 +6160,7 @@ compartment
 (
 )
 ;
-JS_ASSERT
+if
 (
 comp
 -
@@ -6169,7 +6169,6 @@ needsBarrier
 (
 )
 )
-;
 MarkTypeObjectUnbarriered
 (
 comp
