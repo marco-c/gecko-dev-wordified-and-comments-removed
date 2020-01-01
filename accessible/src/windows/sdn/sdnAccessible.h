@@ -54,6 +54,15 @@ mNode
 aNode
 )
 {
+if
+(
+!
+mNode
+)
+MOZ_CRASH
+(
+)
+;
 }
 ~
 sdnAccessible
