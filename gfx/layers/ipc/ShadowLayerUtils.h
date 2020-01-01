@@ -52,6 +52,17 @@ endif
 if
 defined
 (
+XP_MACOSX
+)
+#
+define
+MOZ_HAVE_PLATFORM_SPECIFIC_LAYER_BUFFERS
+#
+endif
+#
+if
+defined
+(
 MOZ_X11
 )
 #

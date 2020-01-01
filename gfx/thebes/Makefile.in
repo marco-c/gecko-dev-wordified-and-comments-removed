@@ -234,6 +234,10 @@ gfxSharedImageSurface
 .
 h
 \
+gfxSharedQuartzSurface
+.
+h
+\
 gfxReusableSurfaceWrapper
 .
 h
