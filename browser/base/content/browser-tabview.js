@@ -1276,7 +1276,9 @@ altKey
 charCode
 =
 =
-32
+KeyEvent
+.
+DOM_VK_SPACE
 )
 {
 #
