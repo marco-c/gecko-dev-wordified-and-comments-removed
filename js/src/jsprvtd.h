@@ -386,7 +386,7 @@ class
 ParseMapPool
 ;
 class
-DefnOrHeader
+DefinitionList
 ;
 typedef
 InlineMap
@@ -408,16 +408,6 @@ jsatomid
 24
 >
 AtomIndexMap
-;
-typedef
-InlineMap
-<
-JSAtom
-*
-DefnOrHeader
-24
->
-AtomDOHMap
 ;
 typedef
 Vector
