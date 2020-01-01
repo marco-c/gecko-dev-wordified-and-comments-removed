@@ -6372,6 +6372,16 @@ surface
 )
 ;
 cairo_private
+int
+_cairo_surface_get_text_path_fill_threshold
+(
+const
+cairo_surface_t
+*
+surface
+)
+;
+cairo_private
 void
 _cairo_surface_set_device_scale
 (
