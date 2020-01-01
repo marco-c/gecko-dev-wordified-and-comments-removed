@@ -339,6 +339,15 @@ reftest
 .
 list
 #
+syncbase
+tests
+include
+syncbase
+/
+reftest
+.
+list
+#
 General
 tests
 =
