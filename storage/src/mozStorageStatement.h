@@ -78,7 +78,7 @@ aSQLStatement
 inline
 sqlite3_stmt
 *
-NativeStatement
+nativeStatement
 (
 )
 {
