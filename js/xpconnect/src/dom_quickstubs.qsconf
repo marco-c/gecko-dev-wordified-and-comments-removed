@@ -2622,11 +2622,6 @@ nsIIndexedDatabaseManager
 .
 *
 '
-'
-nsIDOMDOMError
-.
-*
-'
 ]
 #
 Most
