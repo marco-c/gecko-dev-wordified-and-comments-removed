@@ -202,15 +202,6 @@ nsIFrame
 aFrame
 )
 ;
-static
-void
-BreakFromPrevFlow
-(
-nsIFrame
-*
-aFrame
-)
-;
 protected
 :
 nsSplittableFrame
