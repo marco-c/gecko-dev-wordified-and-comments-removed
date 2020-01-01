@@ -721,6 +721,8 @@ jar
 VERSION_NUMBER
 )
 \
+startupcache
+\
 pref
 \
 htmlpars
