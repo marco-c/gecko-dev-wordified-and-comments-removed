@@ -92,6 +92,13 @@ SVG_STITCHTYPE_NOSTITCH
 =
 2
 ;
+static
+const
+int32_t
+MAX_OCTAVES
+=
+10
+;
 JSObject
 *
 SVGFETurbulenceElement
@@ -616,6 +623,11 @@ GetAnimValue
 int32_t
 octaves
 =
+std
+:
+:
+min
+(
 mIntegerAttributes
 [
 OCTAVES
@@ -623,6 +635,8 @@ OCTAVES
 .
 GetAnimValue
 (
+)
+MAX_OCTAVES
 )
 ;
 uint16_t
