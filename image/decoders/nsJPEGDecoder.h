@@ -127,6 +127,11 @@ aImage
 imgIDecoderObserver
 *
 aObserver
+Decoder
+:
+:
+DecodeStyle
+aDecodeStyle
 )
 ;
 virtual
@@ -244,6 +249,13 @@ mTransform
 ;
 bool
 mReading
+;
+const
+Decoder
+:
+:
+DecodeStyle
+mDecodeStyle
 ;
 uint32_t
 mCMSMode

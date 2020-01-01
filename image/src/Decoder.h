@@ -230,6 +230,13 @@ DECODER_NO_COLORSPACE_CONVERSION
 0x4
 }
 ;
+enum
+DecodeStyle
+{
+PROGRESSIVE
+SEQUENTIAL
+}
+;
 void
 SetDecodeFlags
 (
