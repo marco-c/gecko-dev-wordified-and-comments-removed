@@ -972,6 +972,10 @@ place
 !
 =
 placeURI
+|
+|
+!
+resetSearchBox
 )
 this
 .
