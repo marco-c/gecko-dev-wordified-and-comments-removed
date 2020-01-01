@@ -2074,6 +2074,11 @@ flex
 "
 400
 "
+persist
+=
+"
+width
+"
 title
 =
 "
@@ -2859,6 +2864,11 @@ flex
 =
 "
 100
+"
+persist
+=
+"
+width
 "
 >
 <
@@ -3713,6 +3723,7 @@ container
 go
 -
 container
+splitter
 search
 -
 container
@@ -3746,6 +3757,7 @@ container
 go
 -
 container
+splitter
 search
 -
 container
