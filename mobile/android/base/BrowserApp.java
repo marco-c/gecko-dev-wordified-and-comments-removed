@@ -2621,6 +2621,14 @@ setToolbarMargin
 }
 else
 {
+if
+(
+mAboutHomeContent
+!
+=
+null
+)
+{
 mAboutHomeContent
 .
 setPadding
@@ -2631,6 +2639,7 @@ setPadding
 0
 )
 ;
+}
 mBrowserToolbar
 .
 cancelVisibilityAnimation
