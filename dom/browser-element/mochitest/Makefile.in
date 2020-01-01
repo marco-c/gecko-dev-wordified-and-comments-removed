@@ -334,6 +334,10 @@ browserElement_FirstPaint
 .
 js
 \
+file_browserElement_FirstPaint
+.
+html
+\
 test_browserElement_inproc_FirstPaint
 .
 html
