@@ -16,6 +16,13 @@ h
 "
 #
 endif
+#
+include
+"
+nsIWeakReference
+.
+h
+"
 typedef
 nsCOMPtr
 <

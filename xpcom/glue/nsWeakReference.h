@@ -7,13 +7,6 @@ nsWeakReference_h__
 #
 include
 "
-nsIWeakReference
-.
-h
-"
-#
-include
-"
 nsIWeakReferenceUtils
 .
 h
