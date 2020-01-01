@@ -1485,11 +1485,6 @@ break
 ;
 case
 '
-s
-'
-:
-case
-'
 S
 '
 :
