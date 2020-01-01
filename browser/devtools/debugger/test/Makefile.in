@@ -95,17 +95,9 @@ browser_dbg_cmd
 .
 js
 \
-(
 browser_dbg_cmd_break
 .
 js
-disabled
-until
-bug
-722727
-is
-fixed
-)
 \
 (
 browser_dbg_createRemote
