@@ -403,6 +403,12 @@ _loadHomePage
 (
 )
 ;
+MasterPasswordUI
+.
+updatePreference
+(
+)
+;
 }
 _loadLocales
 :
