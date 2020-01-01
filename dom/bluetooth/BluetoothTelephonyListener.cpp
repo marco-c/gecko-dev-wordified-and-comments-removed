@@ -160,6 +160,9 @@ bool
 aIsEmergency
 bool
 aIsConference
+bool
+*
+aResult
 )
 {
 BluetoothHfpManager
@@ -187,6 +190,11 @@ aNumber
 aIsOutgoing
 false
 )
+;
+*
+aResult
+=
+true
 ;
 return
 NS_OK
@@ -339,7 +347,7 @@ provider
 =
 do_GetService
 (
-TELEPHONY_PROVIDER_CONTRACTID
+NS_RILCONTENTHELPER_CONTRACTID
 )
 ;
 NS_ENSURE_TRUE
@@ -354,7 +362,7 @@ rv
 provider
 -
 >
-RegisterListener
+RegisterTelephonyMsg
 (
 mTelephonyListener
 )
@@ -385,7 +393,7 @@ provider
 =
 do_GetService
 (
-TELEPHONY_PROVIDER_CONTRACTID
+NS_RILCONTENTHELPER_CONTRACTID
 )
 ;
 NS_ENSURE_TRUE
@@ -400,7 +408,7 @@ rv
 provider
 -
 >
-UnregisterListener
+UnregisterTelephonyMsg
 (
 mTelephonyListener
 )
