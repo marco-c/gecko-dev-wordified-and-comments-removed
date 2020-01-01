@@ -17683,7 +17683,7 @@ mSelectionTextColor
 NS_DONT_CHANGE_COLOR
 )
 {
-nscoord
+nscolor
 frameColor
 =
 mFrame
