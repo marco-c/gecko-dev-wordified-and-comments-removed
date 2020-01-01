@@ -460,6 +460,7 @@ tErr
 }
 ;
 static
+const
 Type
 StateTable
 [
@@ -495,6 +496,7 @@ resultID
 ;
 }
 ;
+const
 XPCArrayHomogenizer
 :
 :
