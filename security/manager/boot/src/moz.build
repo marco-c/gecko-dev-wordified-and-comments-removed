@@ -118,6 +118,11 @@ nsSecureBrowserUIImpl
 cpp
 '
 '
+nsSecurityHeaderParser
+.
+cpp
+'
+'
 nsSecurityWarningDialogs
 .
 cpp
