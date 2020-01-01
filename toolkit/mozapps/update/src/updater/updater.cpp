@@ -2017,6 +2017,10 @@ d
 n
 "
 sfile
+.
+get
+(
+)
 spath
 errno
 )
