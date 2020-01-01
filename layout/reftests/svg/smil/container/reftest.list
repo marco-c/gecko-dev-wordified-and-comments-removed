@@ -71,6 +71,7 @@ tree
 ref
 .
 xhtml
+random
 =
 =
 moved
@@ -89,6 +90,9 @@ tree
 ref
 .
 xhtml
+#
+bug
+470868
 =
 =
 deferred
