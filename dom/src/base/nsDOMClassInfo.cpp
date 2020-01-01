@@ -26628,6 +26628,13 @@ NS_ERROR_UNEXPECTED
 ;
 nsRefPtr
 <
+nsXBLBinding
+>
+binding
+;
+{
+nsRefPtr
+<
 nsStyleContext
 >
 sc
@@ -26705,12 +26712,6 @@ xblService
 NS_ERROR_NOT_AVAILABLE
 )
 ;
-nsRefPtr
-<
-nsXBLBinding
->
-binding
-;
 xblService
 -
 >
@@ -26727,6 +26728,7 @@ binding
 dummy
 )
 ;
+}
 if
 (
 binding
