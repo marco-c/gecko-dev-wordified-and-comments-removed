@@ -1484,6 +1484,10 @@ MIR
 .
 cpp
 \
+BacktrackingAllocator
+.
+cpp
+\
 Bailouts
 .
 cpp
