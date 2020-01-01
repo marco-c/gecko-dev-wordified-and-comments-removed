@@ -128,10 +128,6 @@ worker_xhr
 .
 js
 \
-worker_localStorage
-.
-js
-\
 browser_frameworker
 .
 js
