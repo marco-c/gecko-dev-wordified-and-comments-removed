@@ -587,6 +587,10 @@ test_autocomplete3
 .
 xul
 \
+test_autocomplete4
+.
+xul
+\
 test_keys
 .
 xul
