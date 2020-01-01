@@ -2206,6 +2206,13 @@ size
 )
 ;
 }
+ShadowLayerManager
+:
+:
+PlatformSyncBeforeReplyUpdate
+(
+)
+;
 Frame
 (
 )
