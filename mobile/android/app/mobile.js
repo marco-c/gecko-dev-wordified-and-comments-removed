@@ -5598,7 +5598,7 @@ draw
 -
 fps
 "
-true
+false
 )
 ;
 pref

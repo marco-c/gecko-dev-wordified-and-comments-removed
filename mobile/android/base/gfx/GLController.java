@@ -1221,7 +1221,8 @@ getHolder
 (
 )
 ;
-mEGLSurface
+EGLSurface
+surface
 =
 mEGL
 .
@@ -1235,13 +1236,13 @@ null
 ;
 if
 (
-mEGLSurface
+surface
 =
 =
 null
 |
 |
-mEGLSurface
+surface
 =
 =
 EGL10
@@ -1267,7 +1268,7 @@ created
 ;
 }
 return
-mEGLSurface
+surface
 ;
 }
 public

@@ -130,10 +130,6 @@ mPosition
 new
 Rect
 (
-0
-0
-0
-0
 )
 ;
 }
