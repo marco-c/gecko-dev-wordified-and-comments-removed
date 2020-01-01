@@ -1160,12 +1160,6 @@ UseProgressiveTilePainting
 ;
 static
 bool
-UseAzureContentDrawing
-(
-)
-;
-static
-bool
 OffMainThreadCompositingEnabled
 (
 )
