@@ -1139,7 +1139,6 @@ EXTRA_BUILDID
 MOZ_SYMBOLS_EXTRA_BUILDID
 )
 endif
-export
 SYMBOL_INDEX_NAME
 =
 \
@@ -1431,6 +1430,9 @@ tools
 upload_symbols
 .
 sh
+(
+SYMBOL_INDEX_NAME
+)
 "
 (
 DIST
