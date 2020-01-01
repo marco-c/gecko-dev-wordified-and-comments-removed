@@ -4943,6 +4943,16 @@ true
 pref
 (
 "
+media
+.
+useAudioChannelService
+"
+true
+)
+;
+pref
+(
+"
 b2g
 .
 version

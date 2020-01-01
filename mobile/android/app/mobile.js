@@ -6384,3 +6384,13 @@ enabled
 false
 )
 ;
+pref
+(
+"
+media
+.
+useAudioChannelService
+"
+true
+)
+;
