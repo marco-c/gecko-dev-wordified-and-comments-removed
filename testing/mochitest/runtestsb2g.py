@@ -3220,6 +3220,16 @@ mm
 addMessageListener
 (
 "
+SPPrefService
+"
+specialPowersObserver
+)
+;
+mm
+.
+addMessageListener
+(
+"
 SPProcessCrashService
 "
 specialPowersObserver
