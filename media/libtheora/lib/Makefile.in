@@ -457,6 +457,13 @@ OS_ARCH
 )
 WINNT
 )
+ifneq
+(
+(
+OS_ARCH
+)
+SunOS
+)
 DEFINES
 +
 =
@@ -464,6 +471,7 @@ DEFINES
 DOC_X86ASM
 -
 DUSE_ASM
+endif
 endif
 endif
 VPATH
