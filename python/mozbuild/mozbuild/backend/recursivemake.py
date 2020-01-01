@@ -25,7 +25,12 @@ mozpack
 .
 manifests
 import
+(
+    
+InstallManifest
+    
 PurgeManifest
+)
 from
 .
 base
@@ -835,6 +840,14 @@ autoconf
 mk
 '
 )
+)
+        
+self
+.
+_install_manifests
+=
+dict
+(
 )
         
 self
@@ -2090,8 +2103,26 @@ managed_count
         
 self
 .
-_write_purge_manifests
+_write_manifests
 (
+'
+install
+'
+self
+.
+_install_manifests
+)
+        
+self
+.
+_write_manifests
+(
+'
+purge
+'
+self
+.
+_purge_manifests
 )
     
 def
@@ -2776,9 +2807,11 @@ manifest
 )
     
 def
-_write_purge_manifests
+_write_manifests
 (
 self
+dest
+manifests
 )
 :
         
@@ -2799,9 +2832,7 @@ topobjdir
 _build_manifests
 '
             
-'
-purge
-'
+dest
 )
         
 purger
@@ -2814,9 +2845,7 @@ for
 k
 manifest
 in
-self
-.
-_purge_manifests
+manifests
 .
 items
 (
