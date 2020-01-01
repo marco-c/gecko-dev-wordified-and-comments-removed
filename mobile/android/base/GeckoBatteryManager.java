@@ -101,8 +101,7 @@ static
 double
 kDefaultRemainingTime
 =
--
-1
+0
 .
 0
 ;
@@ -151,7 +150,6 @@ double
 sRemainingTime
 =
 kDefaultRemainingTime
-;
 ;
 private
 static
@@ -549,9 +547,7 @@ sCharging
 {
 sRemainingTime
 =
-0
-.
-0
+kDefaultRemainingTime
 ;
 }
 else
@@ -730,7 +726,7 @@ kDefaultCharging
 ;
 sRemainingTime
 =
-0
+kDefaultRemainingTime
 ;
 }
 if
