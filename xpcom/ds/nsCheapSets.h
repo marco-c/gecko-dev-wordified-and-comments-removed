@@ -391,6 +391,9 @@ void
 *
 )
 (
+intptr_t
+)
+(
 (
 aInt
 <
