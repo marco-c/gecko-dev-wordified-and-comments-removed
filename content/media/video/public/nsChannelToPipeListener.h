@@ -76,10 +76,6 @@ nsChannelToPipeListener
 nsMediaDecoder
 *
 aDecoder
-PRBool
-aSeeking
-=
-PR_FALSE
 )
 ;
 nsresult
@@ -152,9 +148,6 @@ mIntervalEnd
 ;
 PRInt64
 mTotalBytes
-;
-PRPackedBool
-mSeeking
 ;
 }
 ;
