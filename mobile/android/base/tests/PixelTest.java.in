@@ -22,7 +22,7 @@ final
 long
 PAINT_CLEAR_DELAY
 =
-500
+1000
 ;
 /
 /
