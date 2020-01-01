@@ -762,6 +762,11 @@ PR_FALSE
 PR_TRUE
 )
 ;
+if
+(
+aBaseURI
+)
+{
 aBaseURI
 -
 >
@@ -833,6 +838,7 @@ GetNextSibling
 (
 )
 ;
+}
 }
 }
 if
