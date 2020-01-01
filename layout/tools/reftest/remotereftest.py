@@ -1455,9 +1455,16 @@ self
 .
 _httpdPath
 =
+os
+.
+path
+.
+abspath
+(
 options
 .
 httpdPath
+)
         
 self
 .
