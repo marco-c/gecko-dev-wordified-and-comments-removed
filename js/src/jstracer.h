@@ -1222,7 +1222,8 @@ double
 *
 sp
 ;
-void
+FrameInfo
+*
 *
 rp
 ;
