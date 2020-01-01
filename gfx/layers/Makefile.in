@@ -656,6 +656,10 @@ LayerManagerD3D10
 .
 h
 \
+ReadbackManagerD3D10
+.
+h
+\
 (
 NULL
 )
@@ -684,6 +688,10 @@ ColorLayerD3D10
 cpp
 \
 CanvasLayerD3D10
+.
+cpp
+\
+ReadbackManagerD3D10
 .
 cpp
 \
