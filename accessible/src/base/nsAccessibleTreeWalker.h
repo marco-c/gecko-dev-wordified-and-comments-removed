@@ -179,10 +179,8 @@ PopState
 )
 ;
 void
-UpdateFrame
+WalkFrames
 (
-PRBool
-aTryFirstChild
 )
 ;
 void
