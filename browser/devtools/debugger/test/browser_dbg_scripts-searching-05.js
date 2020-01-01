@@ -873,8 +873,6 @@ gSearchView
 _cache
 .
 size
-(
-)
 0
 "
 The

@@ -340,8 +340,6 @@ this
 mPluginRequests
 .
 size
-(
-)
 )
 *
 100
@@ -364,8 +362,6 @@ this
 mPluginRequests
 .
 size
-(
-)
 )
 {
 if

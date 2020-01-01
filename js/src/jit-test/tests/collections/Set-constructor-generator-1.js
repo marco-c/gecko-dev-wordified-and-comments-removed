@@ -44,8 +44,6 @@ assertEq
 s
 .
 size
-(
-)
 256
 )
 ;

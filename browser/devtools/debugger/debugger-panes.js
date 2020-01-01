@@ -3238,8 +3238,6 @@ this
 _cache
 .
 size
-(
-)
 =
 =
 aLocations
@@ -3329,8 +3327,6 @@ this
 _cache
 .
 size
-(
-)
 =
 =
 this
@@ -4575,8 +4571,6 @@ this
 _store
 .
 size
-(
-)
 _store
 :
 null

@@ -48,8 +48,6 @@ assertEq
 s
 .
 size
-(
-)
 i
 )
 ;
@@ -69,8 +67,6 @@ assertEq
 s
 .
 size
-(
-)
 i
 )
 ;
@@ -92,8 +88,6 @@ assertEq
 s
 .
 size
-(
-)
 i
 -
 1
@@ -117,8 +111,6 @@ assertEq
 s
 .
 size
-(
-)
 i
 -
 1
