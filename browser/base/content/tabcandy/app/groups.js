@@ -6409,8 +6409,6 @@ function
 {
 UI
 .
-tabBar
-.
 showOnlyTheseTabs
 (
 Groups
@@ -7875,8 +7873,6 @@ _activeGroup
 )
 UI
 .
-tabBar
-.
 showOnlyTheseTabs
 (
 this
@@ -7897,8 +7893,6 @@ _activeGroup
 null
 )
 UI
-.
-tabBar
 .
 showOnlyTheseTabs
 (
