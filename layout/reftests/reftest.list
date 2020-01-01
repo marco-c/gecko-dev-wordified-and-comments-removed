@@ -255,3 +255,16 @@ columns
 reftest
 .
 list
+#
+image
+-
+region
+/
+include
+image
+-
+region
+/
+reftest
+.
+list
