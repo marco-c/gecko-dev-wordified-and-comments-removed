@@ -239,6 +239,13 @@ Shutdown
 (
 )
 {
+nsSHistory
+:
+:
+Shutdown
+(
+)
+;
 nsSHEntry
 :
 :

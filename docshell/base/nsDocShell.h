@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsIPrefBranch
-.
-h
-"
-#
-include
-"
 nsInterfaceHashtable
 .
 h
@@ -1876,12 +1869,6 @@ mParentWidget
 ;
 nsCOMPtr
 <
-nsIPrefBranch
->
-mPrefs
-;
-nsCOMPtr
-<
 nsIURI
 >
 mCurrentURI
@@ -2016,6 +2003,9 @@ mPreviousTransIndex
 ;
 PRInt32
 mLoadedTransIndex
+;
+PRPackedBool
+mCreated
 ;
 PRPackedBool
 mAllowSubframes

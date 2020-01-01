@@ -7,13 +7,6 @@ NSDEFAULTURIFIXUP_H
 #
 include
 "
-nsIPrefBranch
-.
-h
-"
-#
-include
-"
 nsIURIFixup
 .
 h
@@ -142,12 +135,6 @@ char
 GetCharsetForUrlBar
 (
 )
-;
-nsCOMPtr
-<
-nsIPrefBranch
->
-mPrefBranch
 ;
 nsCString
 mFsCharset
