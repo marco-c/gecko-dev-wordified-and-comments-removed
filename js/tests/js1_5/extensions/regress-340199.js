@@ -168,6 +168,13 @@ ex
 )
 {
 }
+delete
+Object
+.
+prototype
+.
+__iterator__
+;
 }
 reportCompare
 (
