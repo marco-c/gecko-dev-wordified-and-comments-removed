@@ -745,6 +745,7 @@ fp
 )
 ;
 extern
+JS_REQUIRES_STACK
 void
 js_TraceRuntime
 (
@@ -756,6 +757,7 @@ allAtoms
 )
 ;
 extern
+JS_REQUIRES_STACK
 JS_FRIEND_API
 (
 void

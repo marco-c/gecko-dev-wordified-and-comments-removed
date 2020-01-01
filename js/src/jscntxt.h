@@ -2215,6 +2215,7 @@ JSRuntime
 *
 runtime
 ;
+JS_REQUIRES_STACK
 JSArenaPool
 stackPool
 ;

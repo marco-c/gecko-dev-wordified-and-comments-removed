@@ -6754,6 +6754,7 @@ vp
 }
 #
 endif
+JS_REQUIRES_STACK
 JSBool
 js_fun_call
 (
@@ -7027,6 +7028,7 @@ return
 ok
 ;
 }
+JS_REQUIRES_STACK
 JSBool
 js_fun_apply
 (
@@ -7454,6 +7456,7 @@ ok
 ifdef
 NARCISSUS
 static
+JS_REQUIRES_STACK
 JSBool
 fun_applyConstructor
 (

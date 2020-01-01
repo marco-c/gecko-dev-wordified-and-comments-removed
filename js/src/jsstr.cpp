@@ -155,6 +155,13 @@ h
 #
 include
 "
+jsstaticcheck
+.
+h
+"
+#
+include
+"
 jsstr
 .
 h
@@ -8138,6 +8145,11 @@ mark
 ;
 JSBool
 ok
+;
+JS_ASSERT_NOT_ON_TRACE
+(
+cx
+)
 ;
 JSRegExpStatics
 save
