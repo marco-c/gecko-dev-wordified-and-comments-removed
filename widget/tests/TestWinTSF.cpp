@@ -619,6 +619,8 @@ aRequest
 nsIURI
 *
 aLocation
+PRUint32
+aFlags
 )
 {
 return

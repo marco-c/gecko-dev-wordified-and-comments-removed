@@ -60,7 +60,7 @@ aQName
 txNamespaceMap
 *
 aResolver
-MBool
+bool
 aUseDefault
 )
 {
@@ -819,7 +819,7 @@ conversionLoop
 ;
 }
 }
-MBool
+bool
 XMLUtils
 :
 :

@@ -4517,6 +4517,7 @@ v
 jsval
 *
 pval
+const
 PRUnichar
 *
 *
@@ -4616,9 +4617,10 @@ JS_FALSE
 *
 pstr
 =
-const_cast
+static_cast
 <
-jschar
+const
+PRUnichar
 *
 >
 (

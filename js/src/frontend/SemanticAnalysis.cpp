@@ -35,6 +35,13 @@ h
 #
 include
 "
+jsobjinlines
+.
+h
+"
+#
+include
+"
 jsfuninlines
 .
 h
@@ -354,7 +361,7 @@ pn
 >
 isKind
 (
-TOK_UPVARS
+PNK_UPVARS
 )
 )
 {
@@ -737,7 +744,7 @@ pn
 >
 isKind
 (
-TOK_UPVARS
+PNK_UPVARS
 )
 )
 {
@@ -1548,7 +1555,7 @@ pn2
 >
 isKind
 (
-TOK_UPVARS
+PNK_UPVARS
 )
 )
 pn2
@@ -1565,7 +1572,7 @@ pn2
 >
 isKind
 (
-TOK_ARGSBODY
+PNK_ARGSBODY
 )
 )
 pn2
@@ -1585,7 +1592,7 @@ pn2
 >
 isKind
 (
-TOK_LC
+PNK_LC
 )
 )
 returnsExpr
@@ -1842,7 +1849,7 @@ pn
 >
 isKind
 (
-TOK_UPVARS
+PNK_UPVARS
 )
 )
 {
@@ -2065,7 +2072,7 @@ pn
 >
 isKind
 (
-TOK_UPVARS
+PNK_UPVARS
 )
 )
 {

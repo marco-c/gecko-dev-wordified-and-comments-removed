@@ -998,6 +998,13 @@ defined
 (
 XP_MACOSX
 )
+&
+&
+!
+defined
+(
+MOZ_WIDGET_GONK
+)
 virtual
 nsresult
 NP_Initialize

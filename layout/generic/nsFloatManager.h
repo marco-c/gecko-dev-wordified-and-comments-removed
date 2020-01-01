@@ -7,6 +7,15 @@ nsFloatManager_h_
 #
 include
 "
+mozilla
+/
+Types
+.
+h
+"
+#
+include
+"
 nsIntervalSet
 .
 h
@@ -658,6 +667,7 @@ const
 nsFloatManager
 &
 )
+MOZ_DELETE
 ;
 void
 operator
@@ -667,6 +677,7 @@ const
 nsFloatManager
 &
 )
+MOZ_DELETE
 ;
 }
 ;

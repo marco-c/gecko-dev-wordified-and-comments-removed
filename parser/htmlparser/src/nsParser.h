@@ -469,13 +469,11 @@ nsIDTD
 aDTD
 )
 ;
-NS_IMETHOD
-GetStreamListener
-(
+virtual
 nsIStreamListener
 *
-*
-aListener
+GetStreamListener
+(
 )
 ;
 bool

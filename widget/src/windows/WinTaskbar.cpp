@@ -1011,7 +1011,7 @@ profileDir
 ;
 NS_GetSpecialDirectory
 (
-NS_APP_PROFILE_DEFAULTS_50_DIR
+NS_APP_USER_PROFILE_50_DIR
 getter_AddRefs
 (
 profileDir

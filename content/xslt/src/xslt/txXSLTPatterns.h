@@ -49,7 +49,7 @@ txPattern
 ;
 }
 virtual
-MBool
+bool
 matches
 (
 const
@@ -159,7 +159,7 @@ endif
 define
 TX_DECL_PATTERN_BASE
 \
-MBool
+bool
 matches
 (
 const

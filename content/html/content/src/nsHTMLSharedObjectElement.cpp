@@ -84,17 +84,6 @@ nsIDOMSVGDocument
 .
 h
 "
-#
-ifdef
-XP_WIN
-#
-undef
-GetClassName
-#
-undef
-GetObject
-#
-endif
 using
 namespace
 mozilla
@@ -385,7 +374,7 @@ GetDesiredIMEState
 )
 ;
 virtual
-nsresult
+void
 DoneAddingChildren
 (
 bool
@@ -717,7 +706,7 @@ return
 mIsDoneAddingChildren
 ;
 }
-nsresult
+void
 nsHTMLSharedObjectElement
 :
 :
@@ -751,9 +740,6 @@ aHaveNotified
 ;
 }
 }
-return
-NS_OK
-;
 }
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (

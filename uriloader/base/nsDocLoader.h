@@ -485,6 +485,8 @@ aRequest
 nsIURI
 *
 aUri
+PRUint32
+aFlags
 )
 ;
 bool

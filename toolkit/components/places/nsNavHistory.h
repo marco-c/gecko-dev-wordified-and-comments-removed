@@ -98,13 +98,6 @@ h
 #
 include
 "
-nsICharsetResolver
-.
-h
-"
-#
-include
-"
 nsMaybeWeakPtr
 .
 h
@@ -284,8 +277,6 @@ public
 nsIBrowserHistory
 public
 nsIDownloadHistory
-public
-nsICharsetResolver
 public
 nsPIPlacesDatabase
 public
@@ -1271,7 +1262,6 @@ DecayFrecency
 (
 )
 ;
-NS_DECL_NSICHARSETRESOLVER
 nsresult
 CalculateFrecency
 (

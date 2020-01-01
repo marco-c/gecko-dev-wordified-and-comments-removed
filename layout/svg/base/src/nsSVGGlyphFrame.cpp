@@ -2695,7 +2695,7 @@ pathScale
 textPath
 -
 >
-GetPathScale
+GetOffsetScale
 (
 )
 ;
@@ -3535,7 +3535,7 @@ pathScale
 textPath
 -
 >
-GetPathScale
+GetOffsetScale
 (
 )
 ;
@@ -4649,7 +4649,7 @@ pathScale
 textPath
 -
 >
-GetPathScale
+GetOffsetScale
 (
 )
 ;

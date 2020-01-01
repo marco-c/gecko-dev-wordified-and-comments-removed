@@ -2717,6 +2717,13 @@ if
 is
 )
 {
+if
+(
+NS_BOOTSTRAPPED_LOCATION
+!
+=
+aType
+)
 LogMessage
 (
 "
@@ -2987,6 +2994,13 @@ GetNativePath
 path
 )
 ;
+if
+(
+NS_BOOTSTRAPPED_LOCATION
+!
+=
+aType
+)
 LogMessage
 (
 "

@@ -376,6 +376,9 @@ mSizeDecode
 bool
 mInFrame
 ;
+bool
+mIsAnimated
+;
 }
 ;
 }

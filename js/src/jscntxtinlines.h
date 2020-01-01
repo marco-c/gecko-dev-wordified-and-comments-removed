@@ -321,6 +321,9 @@ trc
 )
 ;
 JSXMLArray
+<
+JSObject
+>
 array
 ;
 }
@@ -883,8 +886,6 @@ isCachedEval
 script
 -
 >
-u
-.
 globalObject
 )
 check
@@ -892,8 +893,6 @@ check
 script
 -
 >
-u
-.
 globalObject
 )
 ;

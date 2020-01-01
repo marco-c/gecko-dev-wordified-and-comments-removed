@@ -206,12 +206,12 @@ void
 objPtr
 )
 ;
-MBool
+bool
 hasNext
 (
 )
 ;
-MBool
+bool
 hasPrevious
 (
 )
@@ -271,7 +271,7 @@ txList
 *
 list
 ;
-MBool
+bool
 atEndOfList
 ;
 }

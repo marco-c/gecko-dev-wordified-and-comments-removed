@@ -13489,7 +13489,6 @@ CompileScript
 (
 aText
 aTextLength
-nsnull
 aDocument
 -
 >

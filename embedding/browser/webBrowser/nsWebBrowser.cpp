@@ -3464,6 +3464,8 @@ aRequest
 nsIURI
 *
 location
+PRUint32
+aFlags
 )
 {
 if
@@ -3480,6 +3482,7 @@ OnLocationChange
 aWebProgress
 aRequest
 location
+aFlags
 )
 ;
 }

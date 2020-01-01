@@ -3264,6 +3264,13 @@ defined
 (
 XP_MACOSX
 )
+&
+&
+!
+defined
+(
+MOZ_WIDGET_GONK
+)
 nsresult
 PluginModuleParent
 :

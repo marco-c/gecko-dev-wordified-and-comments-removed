@@ -554,6 +554,12 @@ return
 NS_OK
 ;
 }
+using
+nsXBLProtoImplMethod
+:
+:
+Write
+;
 nsresult
 Write
 (

@@ -702,7 +702,7 @@ addAndTransfer
 newSet
 )
 ;
-MBool
+bool
 filterWS
 =
 aContext

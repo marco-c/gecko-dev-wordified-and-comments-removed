@@ -379,16 +379,7 @@ OnStateMachineThread
 (
 )
 const
-{
-return
-IsCurrentThread
-(
-GetStateMachineThread
-(
-)
-)
 ;
-}
 nsresult
 GetBuffered
 (

@@ -5219,6 +5219,8 @@ aRequest
 nsIURI
 *
 aLocation
+PRUint32
+aFlags
 )
 {
 #
@@ -5399,8 +5401,9 @@ away
 }
 if
 (
-!
-aRequest
+aFlags
+&
+LOCATION_CHANGE_SAME_DOCUMENT
 )
 return
 NS_OK

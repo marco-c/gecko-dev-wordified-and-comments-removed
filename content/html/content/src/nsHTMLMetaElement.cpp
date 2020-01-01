@@ -430,11 +430,6 @@ true
 true
 )
 ;
-if
-(
-event
-)
-{
 event
 -
 >
@@ -442,5 +437,4 @@ PostDOMEvent
 (
 )
 ;
-}
 }

@@ -353,10 +353,10 @@ rv
 nsAutoString
 baseURI
 ;
-MBool
+bool
 baseURISet
 =
-MB_FALSE
+false
 ;
 if
 (
@@ -399,7 +399,7 @@ rv
 ;
 baseURISet
 =
-MB_TRUE
+true
 ;
 if
 (

@@ -129,6 +129,14 @@ aLastPart
 )
 ;
 NS_IMETHOD
+OnImageIsAnimated
+(
+imgIRequest
+*
+aRequest
+)
+;
+NS_IMETHOD
 FrameChanged
 (
 imgIContainer
@@ -207,6 +215,9 @@ nsRefPtr
 nsImageLoader
 >
 mNextLoader
+;
+bool
+mRequestRegistered
 ;
 }
 ;

@@ -295,6 +295,8 @@ mLastSegmentNum
 =
 0
 )
+if
+(
 mSegmentedBuffer
 -
 >
@@ -302,7 +304,8 @@ ReallocLastSegment
 (
 mSegmentSize
 )
-;
+)
+{
 rv
 =
 Seek
@@ -320,6 +323,7 @@ rv
 return
 rv
 ;
+}
 NS_ADDREF
 (
 this

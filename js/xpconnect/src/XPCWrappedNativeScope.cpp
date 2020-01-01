@@ -3948,6 +3948,10 @@ mGlobalJSObject
 x
 "
 mGlobalJSObject
+.
+get
+(
+)
 )
 )
 ;
@@ -3960,6 +3964,10 @@ mPrototypeJSObject
 x
 "
 mPrototypeJSObject
+.
+get
+(
+)
 )
 )
 ;
@@ -3972,6 +3980,10 @@ mPrototypeJSFunction
 x
 "
 mPrototypeJSFunction
+.
+get
+(
+)
 )
 )
 ;

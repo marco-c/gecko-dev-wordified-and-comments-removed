@@ -2313,7 +2313,7 @@ BeginAddingChildren
 )
 ;
 }
-nsresult
+void
 nsXTFElementWrapper
 :
 :
@@ -2340,9 +2340,6 @@ GetXTFElement
 DoneAddingChildren
 (
 )
-;
-return
-NS_OK
 ;
 }
 already_AddRefed

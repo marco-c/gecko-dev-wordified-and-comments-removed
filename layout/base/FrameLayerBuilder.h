@@ -912,6 +912,15 @@ class
 LayerManagerData
 ;
 static
+void
+FlashPaint
+(
+gfxContext
+*
+aContext
+)
+;
+static
 nsTArray
 <
 DisplayItemData

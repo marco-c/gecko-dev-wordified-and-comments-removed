@@ -8579,9 +8579,15 @@ IsBackgroundOnly
 return
 NS_OK
 ;
+nsIFrame
+*
+child
+=
+aChild
+;
 if
 (
-aChild
+child
 -
 >
 GetStateBits
@@ -8615,7 +8621,7 @@ DISPLAY_CHILD_INLINE
 &
 &
 !
-aChild
+child
 -
 >
 IsFrameOfType
@@ -8634,7 +8640,7 @@ dirty
 =
 aDirtyRect
 -
-aChild
+child
 -
 >
 GetOffsetTo
@@ -8646,7 +8652,7 @@ nsIAtom
 *
 childType
 =
-aChild
+child
 -
 >
 GetType
@@ -8674,10 +8680,10 @@ nsPlaceholderFrame
 *
 >
 (
-aChild
+child
 )
 ;
-aChild
+child
 =
 placeholder
 -
@@ -8688,7 +8694,7 @@ GetOutOfFlowFrame
 ;
 NS_ASSERTION
 (
-aChild
+child
 "
 No
 out
@@ -8702,7 +8708,7 @@ frame
 if
 (
 !
-aChild
+child
 |
 |
 nsLayoutUtils
@@ -8710,7 +8716,19 @@ nsLayoutUtils
 :
 IsPopup
 (
-aChild
+child
+)
+|
+|
+(
+child
+-
+>
+GetStateBits
+(
+)
+&
+NS_FRAME_IS_PUSHED_FLOAT
 )
 )
 return
@@ -8722,7 +8740,7 @@ nsnull
 ;
 if
 (
-aChild
+child
 -
 >
 GetStateBits
@@ -8744,7 +8762,7 @@ nsRect
 *
 >
 (
-aChild
+child
 -
 >
 Properties
@@ -8787,7 +8805,7 @@ pseudoStackingContext
 true
 ;
 }
-aChild
+child
 -
 >
 MarkAbsoluteFramesForDisplayList
@@ -8815,7 +8833,7 @@ GetSelectedFramesOnly
 )
 &
 &
-aChild
+child
 -
 >
 IsLeaf
@@ -8825,7 +8843,7 @@ IsLeaf
 &
 !
 (
-aChild
+child
 -
 >
 GetStateBits
@@ -8851,7 +8869,7 @@ GetIncludeAllOutOfFlows
 &
 &
 (
-aChild
+child
 -
 >
 GetStateBits
@@ -8864,7 +8882,7 @@ NS_FRAME_OUT_OF_FLOW
 {
 dirty
 =
-aChild
+child
 -
 >
 GetVisualOverflowRect
@@ -8877,7 +8895,7 @@ if
 (
 !
 (
-aChild
+child
 -
 >
 GetStateBits
@@ -8890,7 +8908,7 @@ NS_FRAME_FORCE_DISPLAY_LIST_DESCEND_INTO
 {
 if
 (
-aChild
+child
 !
 =
 aBuilder
@@ -8912,7 +8930,7 @@ childDirty
 IntersectRect
 (
 dirty
-aChild
+child
 -
 >
 GetVisualOverflowRect
@@ -8969,7 +8987,7 @@ nsStyleDisplay
 *
 disp
 =
-aChild
+child
 -
 >
 GetStyleDisplay
@@ -8990,7 +9008,7 @@ mOpacity
 0f
 |
 |
-aChild
+child
 -
 >
 IsTransformed
@@ -9003,7 +9021,7 @@ nsSVGIntegrationUtils
 :
 UsingEffectsForFrame
 (
-aChild
+child
 )
 ;
 bool
@@ -9059,7 +9077,7 @@ applyOverflowClip
 ApplyOverflowClipping
 (
 aBuilder
-aChild
+child
 disp
 &
 overflowClip
@@ -9070,7 +9088,7 @@ if
 applyOverflowClip
 )
 {
-aChild
+child
 -
 >
 GetPaddingBoxBorderRadii
@@ -9108,7 +9126,7 @@ rv
 BuildDisplayListWithOverflowClip
 (
 aBuilder
-aChild
+child
 dirty
 aLists
 overflowClip
@@ -9120,7 +9138,7 @@ else
 {
 rv
 =
-aChild
+child
 -
 >
 BuildDisplayList
@@ -9145,7 +9163,7 @@ aBuilder
 >
 DisplayCaret
 (
-aChild
+child
 dirty
 aLists
 .
@@ -9162,7 +9180,7 @@ NS_DEBUG
 DisplayDebugBorders
 (
 aBuilder
-aChild
+child
 aLists
 )
 ;
@@ -9183,7 +9201,7 @@ nsStylePosition
 *
 pos
 =
-aChild
+child
 -
 >
 GetStylePosition
@@ -9222,7 +9240,7 @@ DISPLAY_CHILD_FORCE_STACKING_CONTEXT
 {
 rv
 =
-aChild
+child
 -
 >
 BuildDisplayListForStackingContext
@@ -9248,7 +9266,7 @@ aBuilder
 >
 DisplayCaret
 (
-aChild
+child
 dirty
 &
 list
@@ -9268,7 +9286,7 @@ ApplyAbsPosClipping
 (
 aBuilder
 disp
-aChild
+child
 &
 clipRect
 )
@@ -9298,7 +9316,7 @@ aBuilder
 >
 ToReferenceFrame
 (
-aChild
+child
 )
 )
 ;
@@ -9313,7 +9331,7 @@ rv
 BuildDisplayListWithOverflowClip
 (
 aBuilder
-aChild
+child
 clippedDirtyRect
 pseudoStack
 overflowClip
@@ -9325,7 +9343,7 @@ else
 {
 rv
 =
-aChild
+child
 -
 >
 BuildDisplayList
@@ -9350,7 +9368,7 @@ aBuilder
 >
 DisplayCaret
 (
-aChild
+child
 dirty
 pseudoStack
 .
@@ -9387,7 +9405,7 @@ wrapper
 WrapListsInPlace
 (
 aBuilder
-aChild
+child
 pseudoStack
 )
 ;
@@ -9465,7 +9483,7 @@ NS_DEBUG
 DisplayDebugBorders
 (
 aBuilder
-aChild
+child
 aLists
 )
 ;
@@ -9511,7 +9529,7 @@ aBuilder
 nsDisplayWrapList
 (
 aBuilder
-aChild
+child
 &
 list
 )
@@ -9553,7 +9571,7 @@ aBuilder
 nsDisplayWrapList
 (
 aBuilder
-aChild
+child
 &
 list
 )

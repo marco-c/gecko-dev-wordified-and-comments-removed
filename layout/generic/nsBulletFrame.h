@@ -202,6 +202,14 @@ aStatusArg
 )
 ;
 NS_IMETHOD
+OnImageIsAnimated
+(
+imgIRequest
+*
+aRequest
+)
+;
+NS_IMETHOD
 FrameChanged
 (
 imgIContainer
@@ -325,6 +333,11 @@ mOrdinal
 ;
 bool
 mTextIsRTL
+;
+private
+:
+bool
+mRequestRegistered
 ;
 }
 ;

@@ -222,7 +222,7 @@ h
 endif
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 #
 include
 "
@@ -5398,7 +5398,7 @@ downloadDir
 elif
 defined
 (
-ANDROID
+MOZ_WIDGET_ANDROID
 )
 char
 *
@@ -10503,7 +10503,7 @@ XP_MACOSX
 |
 defined
 (
-ANDROID
+MOZ_WIDGET_ANDROID
 )
 nsCOMPtr
 <
@@ -10676,7 +10676,7 @@ observedObject
 endif
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 nsCOMPtr
 <
 nsIMIMEInfo
@@ -11453,6 +11453,8 @@ aRequest
 nsIURI
 *
 aLocation
+PRUint32
+aFlags
 )
 {
 return

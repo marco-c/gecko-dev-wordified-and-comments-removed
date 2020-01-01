@@ -129,7 +129,7 @@ aQName
 txNamespaceMap
 *
 aResolver
-MBool
+bool
 aUseDefault
 )
 ;
@@ -191,7 +191,7 @@ return
 this
 ;
 }
-MBool
+bool
 operator
 =
 =
@@ -226,7 +226,7 @@ mNamespaceID
 )
 ;
 }
-MBool
+bool
 operator
 !
 =
@@ -328,7 +328,7 @@ src
 )
 ;
 static
-MBool
+bool
 isWhitespace
 (
 const
@@ -511,7 +511,7 @@ aChar
 ;
 }
 static
-MBool
+bool
 getXMLSpacePreserve
 (
 const

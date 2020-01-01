@@ -10006,6 +10006,7 @@ function
 aWebProgress
 aRequest
 aLocation
+aFlags
 )
 {
 if
@@ -15996,6 +15997,14 @@ _addon
 optionsURL
 false
 )
+;
+xhr
+.
+responseType
+=
+"
+document
+"
 ;
 xhr
 .

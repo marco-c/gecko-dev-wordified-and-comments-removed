@@ -1281,6 +1281,10 @@ aRequest
 in
 nsIURI
 location
+in
+unsigned
+long
+aFlags
 )
 ;
 *
@@ -1300,6 +1304,8 @@ aRequest
 nsIURI
 *
 location
+PRUint32
+aFlags
 )
 {
 return

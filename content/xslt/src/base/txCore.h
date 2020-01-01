@@ -146,17 +146,5 @@ typedef
 txDouble
 Double
 ;
-typedef
-bool
-MBool
-;
-#
-define
-MB_TRUE
-true
-#
-define
-MB_FALSE
-false
 #
 endif

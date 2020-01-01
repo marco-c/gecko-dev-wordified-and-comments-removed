@@ -597,9 +597,6 @@ CaptureRollupEvents
 nsIRollupListener
 *
 aListener
-nsIMenuRollup
-*
-aMenuRollup
 bool
 aDoCapture
 bool
@@ -1806,9 +1803,8 @@ void
 PostSleepWakeNotification
 (
 const
-char
-*
-aNotification
+bool
+aIsSleepMode
 )
 ;
 PRInt32
@@ -2648,11 +2644,6 @@ static
 nsIRollupListener
 *
 sRollupListener
-;
-static
-nsIMenuRollup
-*
-sMenuRollup
 ;
 static
 POINT

@@ -2154,11 +2154,6 @@ nsFormSubmission
 aFormSubmission
 )
 {
-nsresult
-rv
-=
-NS_OK
-;
 if
 (
 aFormSubmission
@@ -2216,6 +2211,7 @@ NS_OK
 nsAutoString
 value
 ;
+nsresult
 rv
 =
 GetValue
@@ -2235,8 +2231,7 @@ return
 rv
 ;
 }
-rv
-=
+return
 aFormSubmission
 -
 >
@@ -2245,9 +2240,6 @@ AddNameValuePair
 name
 value
 )
-;
-return
-rv
 ;
 }
 void

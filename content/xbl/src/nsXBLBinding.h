@@ -435,7 +435,7 @@ aClassName
 nsXBLPrototypeBinding
 *
 aProtoBinding
-void
+JSObject
 *
 *
 aClassObject

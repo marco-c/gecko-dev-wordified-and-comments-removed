@@ -577,14 +577,6 @@ testStringBuffer
 .
 cpp
 \
-testThreadGC
-.
-cpp
-\
-testThreads
-.
-cpp
-\
 testTrap
 .
 cpp

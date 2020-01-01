@@ -95,7 +95,7 @@ return
 nsnull
 ;
 }
-MBool
+bool
 BooleanResult
 :
 :

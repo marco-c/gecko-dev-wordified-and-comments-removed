@@ -4789,6 +4789,8 @@ aRequest
 nsIURI
 *
 aUri
+PRUint32
+aFlags
 )
 {
 nsCOMPtr
@@ -4896,6 +4898,7 @@ OnLocationChange
 aWebProgress
 aRequest
 aUri
+aFlags
 )
 ;
 }
@@ -4918,6 +4921,7 @@ FireOnLocationChange
 aWebProgress
 aRequest
 aUri
+aFlags
 )
 ;
 }

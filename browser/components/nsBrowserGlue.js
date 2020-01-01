@@ -3901,7 +3901,7 @@ true
 )
 ;
 var
-box
+notification
 =
 notifyBox
 .
@@ -3920,11 +3920,12 @@ PRIORITY_INFO_LOW
 buttons
 )
 ;
-box
+notification
 .
 persistence
 =
-3
+-
+1
 ;
 }
 _showUpdateNotification
@@ -4391,7 +4392,7 @@ url
 ]
 ;
 let
-box
+notification
 =
 notifyBox
 .
@@ -4412,11 +4413,12 @@ PRIORITY_INFO_LOW
 buttons
 )
 ;
-box
+notification
 .
 persistence
 =
-3
+-
+1
 ;
 }
 if
@@ -4872,7 +4874,7 @@ browserBundle
 GetStringFromName
 (
 "
-telemetryYesButtonLabel
+telemetryYesButtonLabel2
 "
 )
 accessKey
@@ -4996,7 +4998,8 @@ notification
 .
 persistence
 =
-6
+-
+1
 ;
 let
 XULNS
@@ -5111,7 +5114,6 @@ notification
 true
 )
 ;
-var
 notifyBox
 =
 browser
@@ -5120,6 +5122,8 @@ getNotificationBox
 (
 )
 ;
+notification
+=
 notifyBox
 .
 appendNotification
@@ -5134,6 +5138,13 @@ notifyBox
 PRIORITY_INFO_LOW
 buttons
 )
+;
+notification
+.
+persistence
+=
+-
+1
 ;
 }
 false
@@ -6385,7 +6396,7 @@ getNotificationBox
 )
 ;
 var
-box
+notification
 =
 notifyBox
 .
@@ -6400,7 +6411,7 @@ PRIORITY_CRITICAL_MEDIUM
 buttons
 )
 ;
-box
+notification
 .
 persistence
 =

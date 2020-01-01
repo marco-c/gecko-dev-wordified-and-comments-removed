@@ -77,12 +77,6 @@ abort
 "
 #
 define
-TIMEOUT_EVT_STR
-"
-timeout
-"
-#
-define
 VERSIONCHANGE_EVT_STR
 "
 versionchange

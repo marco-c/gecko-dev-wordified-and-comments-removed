@@ -235,7 +235,7 @@ d
 ;
 }
 gfxFloat
-GetScale
+GetPathLengthScale
 (
 )
 ;

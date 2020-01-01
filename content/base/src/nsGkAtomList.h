@@ -3171,6 +3171,13 @@ lang
 )
 GK_ATOM
 (
+language
+"
+language
+"
+)
+GK_ATOM
+(
 last
 "
 last
@@ -13848,13 +13855,6 @@ GK_ATOM
 itemset
 "
 itemset
-"
-)
-GK_ATOM
-(
-language
-"
-language
 "
 )
 GK_ATOM

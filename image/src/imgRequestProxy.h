@@ -431,6 +431,11 @@ OnDiscard
 )
 ;
 void
+OnImageIsAnimated
+(
+)
+;
+void
 FrameChanged
 (
 imgIContainer
