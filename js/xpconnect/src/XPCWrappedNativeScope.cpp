@@ -2664,12 +2664,8 @@ scope
 return
 scope
 ;
-JSAutoEnterCompartment
+JSAutoCompartment
 ac
-;
-ac
-.
-enterAndIgnoreErrors
 (
 cx
 obj

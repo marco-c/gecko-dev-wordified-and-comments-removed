@@ -10217,45 +10217,13 @@ NULL
   
 }
   
-JSAutoEnterCompartment
+JSAutoCompartment
 ac
-;
-  
-if
-(
-js
-:
-:
-GetGlobalForObjectCrossCompartment
-(
-parent
-)
-!
-=
-aScope
-)
-{
-    
-if
-(
-!
-ac
-.
-enter
 (
 aCx
 parent
 )
-)
-{
-      
-return
-NULL
 ;
-    
-}
-  
-}
   
 JSObject
 *

@@ -378,15 +378,8 @@ ar
 cx
 )
 ;
-JSAutoEnterCompartment
+JSAutoCompartment
 ac
-;
-if
-(
-!
-ac
-.
-enter
 (
 cx
 JS_GetGlobalForFrame
@@ -394,9 +387,6 @@ JS_GetGlobalForFrame
 fp
 )
 )
-)
-return
-buf
 ;
 if
 (

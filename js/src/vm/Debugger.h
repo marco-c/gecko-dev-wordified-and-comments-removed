@@ -262,7 +262,10 @@ debugEnum
 JSTrapStatus
 handleUncaughtException
 (
+Maybe
+<
 AutoCompartment
+>
 &
 ac
 Value
@@ -275,7 +278,10 @@ callHook
 JSTrapStatus
 parseResumptionValue
 (
+Maybe
+<
 AutoCompartment
+>
 &
 ac
 bool
@@ -1185,7 +1191,10 @@ result
 bool
 receiveCompletionValue
 (
+Maybe
+<
 AutoCompartment
+>
 &
 ac
 bool
