@@ -3054,6 +3054,10 @@ _notifyStopped
 (
 )
 ;
+gc
+(
+)
+;
 }
 _requestQuit
 :
