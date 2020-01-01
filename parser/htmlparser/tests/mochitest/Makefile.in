@@ -647,10 +647,6 @@ test_viewsource
 .
 html
 \
-test_bug709083
-.
-html
-\
 test_bug715112
 .
 html
