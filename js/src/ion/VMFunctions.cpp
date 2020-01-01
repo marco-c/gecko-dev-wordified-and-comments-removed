@@ -219,12 +219,10 @@ script
 false
 )
 ;
+ForbidCompilation
+(
 script
--
->
-ion
-=
-ION_DISABLED_SCRIPT
+)
 ;
 }
 }
