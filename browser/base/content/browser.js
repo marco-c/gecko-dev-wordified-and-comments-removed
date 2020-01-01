@@ -7002,12 +7002,6 @@ BrowserOnCommand
 false
 )
 ;
-tabPreviews
-.
-init
-(
-)
-;
 ctrlTab
 .
 readPref
@@ -7300,12 +7294,6 @@ allTabs
 .
 prefName
 allTabs
-)
-;
-tabPreviews
-.
-uninit
-(
 )
 ;
 ctrlTab
