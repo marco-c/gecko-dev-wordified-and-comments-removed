@@ -1193,10 +1193,6 @@ social_panel
 .
 html
 \
-social_share_image
-.
-png
-\
 social_sidebar
 .
 html
