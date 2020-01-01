@@ -1385,9 +1385,9 @@ const
 nsRect
 &
 aFloatAvailableSpace
-nsPlaceholderFrame
+nsIFrame
 *
-aPlaceholder
+aFloat
 )
 ;
 nsresult
@@ -1400,9 +1400,9 @@ const
 nsRect
 &
 aFloatAvailableSpace
-nsPlaceholderFrame
+nsIFrame
 *
-aPlaceholder
+aFloat
 nsMargin
 &
 aFloatMargin

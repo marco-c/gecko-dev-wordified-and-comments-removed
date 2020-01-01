@@ -22,6 +22,13 @@ h
 #
 include
 "
+nsPlaceholderFrame
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h
