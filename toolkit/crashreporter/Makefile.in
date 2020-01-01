@@ -508,6 +508,10 @@ CrashSubmit
 .
 jsm
 \
+KeyValueParser
+.
+jsm
+\
 (
 NULL
 )

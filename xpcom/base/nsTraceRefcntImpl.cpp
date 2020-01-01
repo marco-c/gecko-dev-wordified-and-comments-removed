@@ -3198,6 +3198,18 @@ nullptr
 ;
 }
 }
+#
+if
+defined
+(
+NS_IMPL_REFCNT_LOGGING
+)
+&
+&
+defined
+(
+HAVE_CPP_DYNAMIC_CAST_TO_VOID_PTR
+)
 static
 int32_t
 *
@@ -3267,6 +3279,8 @@ nullptr
 ;
 }
 }
+#
+endif
 static
 void
 RecycleSerialNumberPtr
