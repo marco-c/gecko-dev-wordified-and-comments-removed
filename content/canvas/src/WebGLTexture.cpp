@@ -28,6 +28,13 @@ include
 <
 algorithm
 >
+#
+include
+"
+nsContentUtils
+.
+h
+"
 using
 namespace
 mozilla

@@ -12,6 +12,13 @@ WebGLExtensions
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 using
 namespace
 mozilla

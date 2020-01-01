@@ -18,6 +18,13 @@ nsIDOMHTMLTableSectionElement
 .
 h
 "
+#
+include
+"
+nsContentList
+.
+h
+"
 namespace
 mozilla
 {

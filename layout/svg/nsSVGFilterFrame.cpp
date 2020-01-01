@@ -82,6 +82,13 @@ nsSVGUtils
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 nsIFrame
 *
 NS_NewSVGFilterFrame

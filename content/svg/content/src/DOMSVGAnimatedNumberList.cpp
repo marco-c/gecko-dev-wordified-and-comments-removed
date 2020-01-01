@@ -51,6 +51,13 @@ SVGAnimatedNumberListBinding
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 namespace
 mozilla
 {

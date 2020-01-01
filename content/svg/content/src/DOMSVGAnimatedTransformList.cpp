@@ -37,6 +37,13 @@ SVGAnimatedTransformListBinding
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 namespace
 mozilla
 {
