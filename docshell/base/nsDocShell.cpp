@@ -35543,6 +35543,14 @@ GoToAnchor
 (
 uStr
 scroll
+&
+&
+!
+uStr
+.
+IsEmpty
+(
+)
 )
 ;
 }
