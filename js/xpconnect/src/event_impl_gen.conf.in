@@ -229,6 +229,9 @@ PopupBlockedEvent
 '
 BlobEvent
 '
+'
+RecordErrorEvent
+'
 #
 ifdef
 MOZ_GAMEPAD

@@ -293,6 +293,11 @@ nsIDOMProgressEvent
 idl
 '
 '
+nsIDOMRecordErrorEvent
+.
+idl
+'
+'
 nsIDOMScrollAreaEvent
 .
 idl

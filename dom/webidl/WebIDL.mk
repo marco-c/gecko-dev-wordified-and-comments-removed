@@ -1738,6 +1738,10 @@ BlobEvent
 .
 webidl
 \
+RecordErrorEvent
+.
+webidl
+\
 (
 NULL
 )
