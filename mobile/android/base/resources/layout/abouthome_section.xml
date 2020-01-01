@@ -345,7 +345,9 @@ android
 layout_height
 =
 "
-47dip
+dimen
+/
+abouthome_rowitem_height
 "
 android
 :
