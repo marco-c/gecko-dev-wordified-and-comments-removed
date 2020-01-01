@@ -1516,9 +1516,6 @@ mIsTransparent
 gfxSurfaceType
 mSurfaceType
 ;
-bool
-mPendingForcePaint
-;
 CancelableTask
 *
 mCurrentInvalidateTask
