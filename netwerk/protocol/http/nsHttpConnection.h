@@ -472,10 +472,6 @@ nsHttpConnectionInfo
 *
 mConnInfo
 ;
-PRLock
-*
-mLock
-;
 PRUint32
 mLastReadTime
 ;
