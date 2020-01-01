@@ -1,13 +1,6 @@
 #
 include
 "
-nsDOMClassInfoID
-.
-h
-"
-#
-include
-"
 nsDOMSimpleGestureEvent
 .
 h
@@ -174,11 +167,6 @@ NS_IMPL_RELEASE_INHERITED
 nsDOMSimpleGestureEvent
 nsDOMUIEvent
 )
-DOMCI_DATA
-(
-SimpleGestureEvent
-nsDOMSimpleGestureEvent
-)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMSimpleGestureEvent
@@ -186,10 +174,6 @@ nsDOMSimpleGestureEvent
 NS_INTERFACE_MAP_ENTRY
 (
 nsIDOMSimpleGestureEvent
-)
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
-(
-SimpleGestureEvent
 )
 NS_INTERFACE_MAP_END_INHERITING
 (

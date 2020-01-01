@@ -263,16 +263,3 @@ isChar
 ;
 }
 ;
-dictionary
-UIEventInit
-:
-EventInit
-{
-nsIDOMWindow
-view
-;
-long
-detail
-;
-}
-;

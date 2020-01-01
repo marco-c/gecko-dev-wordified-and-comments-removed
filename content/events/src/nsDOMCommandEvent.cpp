@@ -1,13 +1,6 @@
 #
 include
 "
-nsDOMClassInfoID
-.
-h
-"
-#
-include
-"
 nsDOMCommandEvent
 .
 h
@@ -121,11 +114,6 @@ nullptr
 ;
 }
 }
-DOMCI_DATA
-(
-CommandEvent
-nsDOMCommandEvent
-)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMCommandEvent
@@ -133,10 +121,6 @@ nsDOMCommandEvent
 NS_INTERFACE_MAP_ENTRY
 (
 nsIDOMCommandEvent
-)
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
-(
-CommandEvent
 )
 NS_INTERFACE_MAP_END_INHERITING
 (

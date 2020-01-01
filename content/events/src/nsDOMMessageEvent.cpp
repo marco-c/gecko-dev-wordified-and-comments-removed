@@ -19,13 +19,6 @@ jsapi
 .
 h
 "
-#
-include
-"
-nsDOMClassInfoID
-.
-h
-"
 using
 namespace
 mozilla
@@ -74,11 +67,6 @@ NS_IMPL_CYCLE_COLLECTION_TRACE_JSVAL_MEMBER_CALLBACK
 mData
 )
 NS_IMPL_CYCLE_COLLECTION_TRACE_END
-DOMCI_DATA
-(
-MessageEvent
-nsDOMMessageEvent
-)
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
 (
 nsDOMMessageEvent
@@ -86,10 +74,6 @@ nsDOMMessageEvent
 NS_INTERFACE_MAP_ENTRY
 (
 nsIDOMMessageEvent
-)
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
-(
-MessageEvent
 )
 NS_INTERFACE_MAP_END_INHERITING
 (

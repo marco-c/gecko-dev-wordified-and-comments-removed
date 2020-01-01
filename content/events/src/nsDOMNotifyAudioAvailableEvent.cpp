@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsDOMClassInfoID
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
@@ -119,11 +112,6 @@ SetIsDOMBinding
 )
 ;
 }
-DOMCI_DATA
-(
-NotifyAudioAvailableEvent
-nsDOMNotifyAudioAvailableEvent
-)
 NS_IMPL_ADDREF_INHERITED
 (
 nsDOMNotifyAudioAvailableEvent
@@ -185,10 +173,6 @@ nsDOMNotifyAudioAvailableEvent
 NS_INTERFACE_MAP_ENTRY
 (
 nsIDOMNotifyAudioAvailableEvent
-)
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
-(
-NotifyAudioAvailableEvent
 )
 NS_INTERFACE_MAP_END_INHERITING
 (

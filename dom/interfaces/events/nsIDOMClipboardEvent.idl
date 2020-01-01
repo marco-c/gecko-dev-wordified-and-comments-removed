@@ -174,16 +174,3 @@ clipboardData
 ;
 }
 ;
-dictionary
-ClipboardEventInit
-:
-EventInit
-{
-DOMString
-data
-;
-DOMString
-dataType
-;
-}
-;

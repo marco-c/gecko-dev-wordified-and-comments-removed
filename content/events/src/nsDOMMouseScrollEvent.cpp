@@ -5,13 +5,6 @@ nsDOMMouseScrollEvent
 .
 h
 "
-#
-include
-"
-nsDOMClassInfoID
-.
-h
-"
 nsDOMMouseScrollEvent
 :
 :
@@ -204,11 +197,6 @@ NS_IMPL_RELEASE_INHERITED
 nsDOMMouseScrollEvent
 nsDOMMouseEvent
 )
-DOMCI_DATA
-(
-MouseScrollEvent
-nsDOMMouseScrollEvent
-)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMMouseScrollEvent
@@ -216,10 +204,6 @@ nsDOMMouseScrollEvent
 NS_INTERFACE_MAP_ENTRY
 (
 nsIDOMMouseScrollEvent
-)
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
-(
-MouseScrollEvent
 )
 NS_INTERFACE_MAP_END_INHERITING
 (

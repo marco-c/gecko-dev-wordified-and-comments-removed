@@ -51,13 +51,6 @@ nsIFrame
 .
 h
 "
-#
-include
-"
-nsDOMClassInfoID
-.
-h
-"
 nsDOMNotifyPaintEvent
 :
 :
@@ -126,11 +119,6 @@ SetIsDOMBinding
 )
 ;
 }
-DOMCI_DATA
-(
-NotifyPaintEvent
-nsDOMNotifyPaintEvent
-)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMNotifyPaintEvent
@@ -138,10 +126,6 @@ nsDOMNotifyPaintEvent
 NS_INTERFACE_MAP_ENTRY
 (
 nsIDOMNotifyPaintEvent
-)
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
-(
-NotifyPaintEvent
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
