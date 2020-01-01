@@ -762,7 +762,7 @@ error
 substr
 (
 0
-32
+42
 )
 "
 Record
@@ -770,6 +770,8 @@ SHA256
 HMAC
 mismatch
 :
+should
+be
 foo
 "
 )
