@@ -442,17 +442,6 @@ MemoryPressure
 =
 0
 ;
-virtual
-const
-nsIntRegion
-&
-GetValidLowPrecisionRegion
-(
-)
-const
-=
-0
-;
 }
 ;
 static
