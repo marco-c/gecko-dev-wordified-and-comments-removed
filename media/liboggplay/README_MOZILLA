@@ -320,3 +320,14 @@ callback
 reaches
 EOF
 .
+bug523816
+.
+patch
+:
+Correct
+CMML
+data
+buffer
+size
+calculation
+.
