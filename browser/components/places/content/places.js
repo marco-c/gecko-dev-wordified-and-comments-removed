@@ -2581,6 +2581,11 @@ PlacesUtils
 restoreBookmarksFromJSONFile
 (
 aFile
+[
+PlacesUIUtils
+.
+leftPaneFolderId
+]
 )
 ;
 }
@@ -2843,6 +2848,11 @@ backupBookmarksToFile
 fp
 .
 file
+[
+PlacesUIUtils
+.
+leftPaneFolderId
+]
 )
 ;
 var
@@ -2856,6 +2866,10 @@ getMostRecentBackup
 ;
 if
 (
+!
+latestBackup
+|
+|
 latestBackup
 !
 =
