@@ -363,6 +363,12 @@ GetDPI
 (
 )
 ;
+virtual
+gfxImageFormat
+GetOffscreenFormat
+(
+)
+;
 protected
 :
 static
