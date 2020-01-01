@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsIObserver
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -36,6 +43,13 @@ h
 include
 "
 nsXPIDLString
+.
+h
+"
+#
+include
+"
+nsWeakReference
 .
 h
 "
@@ -78,6 +92,10 @@ nsWindowMediator
 :
 public
 nsIWindowMediator
+public
+nsIObserver
+public
+nsSupportsWeakReference
 {
 friend
 class
@@ -126,6 +144,7 @@ Init
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIWINDOWMEDIATOR
+NS_DECL_NSIOBSERVER
 private
 :
 PRInt32
@@ -210,6 +229,9 @@ mTimeStamp
 ;
 PRBool
 mSortingZOrder
+;
+PRBool
+mReady
 ;
 PRLock
 *
