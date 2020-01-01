@@ -79,6 +79,9 @@ config
 autoconf
 .
 mk
+LIBRARY_NAME
+=
+domfmradio_s
 include
 (
 topsrcdir
