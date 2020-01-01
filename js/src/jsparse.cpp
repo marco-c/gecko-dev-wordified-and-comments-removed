@@ -717,6 +717,10 @@ varobj
 cx
 -
 >
+stack
+(
+)
+.
 containingSegment
 (
 cfp

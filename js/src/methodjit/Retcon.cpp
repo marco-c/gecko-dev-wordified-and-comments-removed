@@ -1870,6 +1870,10 @@ seg
 cx
 -
 >
+stack
+(
+)
+.
 containingSegment
 (
 f
@@ -2375,6 +2379,12 @@ pc
 cx
 next
 )
+;
+frame
+.
+scriptedCall
+=
+false
 ;
 if
 (
