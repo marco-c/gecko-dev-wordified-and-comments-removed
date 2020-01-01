@@ -345,7 +345,7 @@ NULL
 ;
 }
 static
-bool
+JSBool
 FoldType
 (
 JSContext
@@ -524,7 +524,7 @@ true
 ;
 }
 static
-bool
+JSBool
 FoldBinaryNumeric
 (
 JSContext
@@ -880,7 +880,7 @@ true
 if
 JS_HAS_XML_SUPPORT
 static
-bool
+JSBool
 FoldXMLConstants
 (
 JSContext

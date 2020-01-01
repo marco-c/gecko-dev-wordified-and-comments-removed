@@ -69,6 +69,13 @@ h
 #
 include
 "
+jsbool
+.
+h
+"
+#
+include
+"
 jscntxt
 .
 h
@@ -296,7 +303,7 @@ js
 frontend
 ;
 static
-bool
+JSBool
 NewTryNote
 (
 JSContext
@@ -316,7 +323,7 @@ end
 )
 ;
 static
-bool
+JSBool
 SetSrcNoteOffset
 (
 JSContext
@@ -2141,7 +2148,7 @@ delta_
 \
 JS_END_MACRO
 static
-bool
+JSBool
 UpdateLineNumberNotes
 (
 JSContext
@@ -2673,7 +2680,7 @@ i
 \
 JS_END_MACRO
 static
-bool
+JSBool
 FlushPops
 (
 JSContext
@@ -2771,7 +2778,7 @@ true
 ;
 }
 static
-bool
+JSBool
 EmitNonLocalJumpFixup
 (
 JSContext
@@ -3237,7 +3244,7 @@ lastp
 ;
 }
 static
-bool
+JSBool
 BackPatch
 (
 JSContext
@@ -3516,7 +3523,7 @@ return
 true
 ;
 }
-bool
+JSBool
 frontend
 :
 :
@@ -7308,7 +7315,7 @@ true
 ;
 }
 static
-bool
+JSBool
 CheckSideEffects
 (
 JSContext
@@ -7320,12 +7327,12 @@ bce
 ParseNode
 *
 pn
-bool
+JSBool
 *
 answer
 )
 {
-bool
+JSBool
 ok
 ;
 ParseNode
@@ -8303,7 +8310,7 @@ result
 ;
 }
 static
-bool
+JSBool
 EmitNameOp
 (
 JSContext
@@ -8315,7 +8322,7 @@ bce
 ParseNode
 *
 pn
-bool
+JSBool
 callContext
 )
 {
@@ -8776,7 +8783,7 @@ op
 BytecodeEmitter
 *
 bce
-bool
+JSBool
 callContext
 )
 {
@@ -9752,7 +9759,7 @@ true
 ;
 }
 static
-bool
+JSBool
 EmitElemOp
 (
 JSContext
@@ -10442,7 +10449,7 @@ true
 ;
 }
 static
-bool
+JSBool
 EmitNumberOp
 (
 JSContext
@@ -10756,7 +10763,7 @@ off
 }
 MOZ_NEVER_INLINE
 static
-bool
+JSBool
 EmitSwitch
 (
 JSContext
@@ -10773,7 +10780,7 @@ pn
 JSOp
 switchOp
 ;
-bool
+JSBool
 ok
 hasDefault
 ;
@@ -11826,7 +11833,7 @@ caseNoteIndex
 -
 1
 ;
-bool
+JSBool
 beforeCases
 =
 true
@@ -12751,7 +12758,7 @@ goto
 out
 ;
 }
-bool
+JSBool
 frontend
 :
 :
@@ -13271,7 +13278,7 @@ InitializeVars
 if
 JS_HAS_DESTRUCTURING
 typedef
-bool
+JSBool
 (
 *
 DestructuringDeclEmitter
@@ -13291,7 +13298,7 @@ pn
 )
 ;
 static
-bool
+JSBool
 EmitDestructuringDecl
 (
 JSContext
@@ -13355,7 +13362,7 @@ NULL
 ;
 }
 static
-bool
+JSBool
 EmitDestructuringDecls
 (
 JSContext
@@ -13528,7 +13535,7 @@ true
 ;
 }
 static
-bool
+JSBool
 EmitDestructuringOpsHelper
 (
 JSContext
@@ -13545,7 +13552,7 @@ emitOption
 )
 ;
 static
-bool
+JSBool
 EmitDestructuringLHS
 (
 JSContext
@@ -13891,7 +13898,7 @@ true
 ;
 }
 static
-bool
+JSBool
 EmitDestructuringOpsHelper
 (
 JSContext
@@ -13924,7 +13931,7 @@ pn2
 *
 pn3
 ;
-bool
+JSBool
 doElemOp
 ;
 #
@@ -14853,7 +14860,7 @@ true
 }
 ;
 static
-bool
+JSBool
 EmitDestructuringOps
 (
 JSContext
@@ -14959,7 +14966,7 @@ emitOption
 ;
 }
 static
-bool
+JSBool
 EmitGroupAssignment
 (
 JSContext
@@ -15643,7 +15650,7 @@ true
 #
 endif
 static
-bool
+JSBool
 EmitVariables
 (
 JSContext
@@ -17796,7 +17803,7 @@ true
 ifdef
 DEBUG
 static
-bool
+JSBool
 GettableNoteForNextOp
 (
 BytecodeEmitter
@@ -17892,7 +17899,7 @@ false
 #
 endif
 static
-bool
+JSBool
 EmitFunctionDefNop
 (
 JSContext
@@ -25067,7 +25074,7 @@ wantval
 =
 false
 ;
-bool
+JSBool
 useful
 =
 false
@@ -25517,7 +25524,7 @@ break
 default
 :
 {
-bool
+JSBool
 useful
 =
 false
@@ -29257,7 +29264,7 @@ return
 true
 ;
 }
-bool
+JSBool
 frontend
 :
 :
@@ -29287,7 +29294,7 @@ elm
 bce
 )
 ;
-bool
+JSBool
 ok
 =
 true
@@ -32821,7 +32828,7 @@ index
 ;
 }
 static
-bool
+JSBool
 GrowSrcNotes
 (
 JSContext
@@ -33103,7 +33110,7 @@ sn
 ;
 }
 static
-bool
+JSBool
 SetSrcNoteOffset
 (
 JSContext
@@ -33584,7 +33591,7 @@ fp
 }
 #
 endif
-bool
+JSBool
 frontend
 :
 :
@@ -33903,7 +33910,7 @@ true
 ;
 }
 static
-bool
+JSBool
 NewTryNote
 (
 JSContext

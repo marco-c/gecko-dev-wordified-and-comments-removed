@@ -956,7 +956,7 @@ size_t
 extra
 )
 ;
-bool
+JSBool
 DefineCompileTimeConstant
 (
 JSContext
@@ -973,7 +973,7 @@ ParseNode
 pn
 )
 ;
-bool
+JSBool
 EmitTree
 (
 JSContext
@@ -987,7 +987,7 @@ ParseNode
 pn
 )
 ;
-bool
+JSBool
 EmitFunctionScript
 (
 JSContext
@@ -1577,7 +1577,7 @@ ptrdiff_t
 delta
 )
 ;
-bool
+JSBool
 FinishTakingSrcNotes
 (
 JSContext
