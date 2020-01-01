@@ -120,6 +120,7 @@ xul
 title
 =
 "
+Accessibility
 Chrome
 Test
 Harness
@@ -154,7 +155,7 @@ javascript
 gDir
 =
 "
-chrome
+ally
 "
 ;
 <
