@@ -472,6 +472,14 @@ StartUp
 (
 )
 {
+if
+(
+sCompositorThreadID
+)
+{
+return
+;
+}
 MOZ_ASSERT
 (
 !
