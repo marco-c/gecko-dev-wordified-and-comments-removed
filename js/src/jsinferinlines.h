@@ -3021,9 +3021,7 @@ typeInferenceEnabled
 script
 -
 >
-hasGlobal
-(
-)
+compileAndGo
 |
 |
 offset

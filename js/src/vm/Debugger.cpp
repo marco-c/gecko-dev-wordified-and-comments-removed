@@ -11340,9 +11340,7 @@ if
 script
 -
 >
-hasGlobal
-(
-)
+compileAndGo
 &
 &
 !
