@@ -451,6 +451,10 @@ window_resizer
 .
 xul
 \
+window_resizer_element
+.
+xul
+\
 test_bug477754
 .
 xul
