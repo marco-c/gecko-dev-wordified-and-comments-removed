@@ -1012,7 +1012,7 @@ template
 AllowGC
 allowGC
 >
-inline
+extern
 JSAtom
 *
 ToAtom
