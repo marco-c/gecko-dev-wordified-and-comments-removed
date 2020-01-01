@@ -126,6 +126,8 @@ MOZBASE_PACKAGES
 \
 manifestdestiny
 \
+mozfile
+\
 mozhttpd
 \
 mozinfo
