@@ -1742,13 +1742,15 @@ aRenderingContext
 imgIContainer
 *
 aImage
+GraphicsFilter
+aGraphicsFilter
 const
 nsPoint
 &
 aDest
 const
 nsRect
-&
+*
 aDirty
 PRUint32
 aImageFlags
