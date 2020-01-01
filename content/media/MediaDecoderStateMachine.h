@@ -526,11 +526,6 @@ GetStateMachineThread
 (
 )
 ;
-nsresult
-ScheduleStateMachine
-(
-)
-;
 void
 ScheduleStateMachineWithLockAndWakeDecoder
 (
@@ -541,6 +536,8 @@ ScheduleStateMachine
 (
 int64_t
 aUsecs
+=
+0
 )
 ;
 nsresult
@@ -1173,6 +1170,12 @@ mozilla
 :
 MediaMetadataManager
 mMetadataManager
+;
+MediaDecoderOwner
+:
+:
+NextFrameStatus
+mLastFrameStatus
 ;
 }
 ;
