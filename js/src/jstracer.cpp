@@ -10396,7 +10396,10 @@ record_JSOP_NEG
 )
 {
 return
-false
+unary
+(
+LIR_fneg
+)
 ;
 }
 bool
