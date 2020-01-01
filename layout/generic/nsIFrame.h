@@ -4043,6 +4043,12 @@ eShrinkWrap
 <
 <
 0
+eUseAutoHeight
+=
+1
+<
+<
+1
 }
 ;
 virtual
