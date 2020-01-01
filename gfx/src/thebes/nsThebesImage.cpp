@@ -257,7 +257,7 @@ mWinSurface
 mWinSurface
 -
 >
-Status
+CairoStatus
 (
 )
 =
@@ -326,7 +326,7 @@ mImageSurface
 mImageSurface
 -
 >
-Status
+CairoStatus
 (
 )
 )
@@ -882,7 +882,7 @@ mImageSurface
 mImageSurface
 -
 >
-Status
+CairoStatus
 (
 )
 )
@@ -1908,7 +1908,7 @@ surface
 surface
 -
 >
-Status
+CairoStatus
 (
 )
 )
