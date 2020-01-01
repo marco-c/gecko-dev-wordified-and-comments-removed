@@ -161,6 +161,9 @@ String
 "
 title
 "
+"
+url
+"
 }
 ;
 private
@@ -201,6 +204,11 @@ R
 id
 .
 tab
+R
+.
+id
+.
+url
 }
 ;
 public

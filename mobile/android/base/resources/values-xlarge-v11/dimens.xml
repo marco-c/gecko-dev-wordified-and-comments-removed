@@ -193,7 +193,7 @@ name
 remote_tab_child_row_height
 "
 >
-48dp
+56dp
 <
 /
 dimen
@@ -206,7 +206,7 @@ name
 remote_tab_group_row_height
 "
 >
-28dp
+34dp
 <
 /
 dimen
@@ -220,6 +220,19 @@ tabs_counter_size
 "
 >
 26sp
+<
+/
+dimen
+>
+<
+dimen
+name
+=
+"
+tabs_panel_list_padding
+"
+>
+8dip
 <
 /
 dimen
