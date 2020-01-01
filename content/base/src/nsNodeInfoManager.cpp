@@ -223,7 +223,7 @@ mNameString
 )
 ;
 }
-PRIntn
+int
 nsNodeInfoManager
 :
 :
@@ -807,7 +807,7 @@ return
 NS_OK
 ;
 }
-PRIntn
+int
 nsNodeInfoManager
 :
 :
@@ -816,7 +816,7 @@ DropNodeInfoDocument
 PLHashEntry
 *
 he
-PRIntn
+int
 hashIndex
 void
 *

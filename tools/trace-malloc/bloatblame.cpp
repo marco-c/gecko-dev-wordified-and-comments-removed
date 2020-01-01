@@ -1165,13 +1165,13 @@ next
 \
 PR_END_MACRO
 static
-PRIntn
+int
 tabulate_node
 (
 PLHashEntry
 *
 he
-PRIntn
+int
 i
 void
 *

@@ -109,7 +109,7 @@ nsMathMLmstyleFrame
 )
 ;
 virtual
-PRIntn
+int
 GetSkipSides
 (
 )

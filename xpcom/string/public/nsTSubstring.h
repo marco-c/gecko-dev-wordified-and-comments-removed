@@ -2844,7 +2844,7 @@ mFlags
 ;
 }
 static
-PRIntn
+int
 AppendFunc
 (
 void

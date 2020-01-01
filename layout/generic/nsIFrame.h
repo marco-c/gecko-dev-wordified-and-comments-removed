@@ -2220,7 +2220,7 @@ const
 nsSize
 &
 aBorderArea
-PRIntn
+int
 aSkipSides
 nscoord
 aRadii
@@ -4682,7 +4682,7 @@ ClearOverflowRects
 )
 ;
 virtual
-PRIntn
+int
 GetSkipSides
 (
 )

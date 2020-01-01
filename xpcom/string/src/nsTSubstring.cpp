@@ -2872,7 +2872,7 @@ to
 mData
 ;
 }
-PRIntn
+int
 nsTSubstring_CharT
 :
 :
@@ -3070,7 +3070,7 @@ double
 fval
 )
 {
-PRIntn
+int
 decpt
 sign
 numdigits

@@ -153,7 +153,7 @@ nsBorderColors
 const
 *
 aCompositeColors
-PRIntn
+int
 aSkipSides
 nscolor
 aBackgroundColor
@@ -207,7 +207,7 @@ mCompositeColors
 PRInt32
 mAUPP
 ;
-PRIntn
+int
 mSkipSides
 ;
 nscolor
@@ -317,7 +317,7 @@ const
 gfxFloat
 *
 aBorderSizes
-PRIntn
+int
 aSides
 const
 gfxRGBA
@@ -328,14 +328,14 @@ aColor
 void
 DrawBorderSides
 (
-PRIntn
+int
 aSides
 )
 ;
 void
 DrawBorderSidesCompositeColors
 (
-PRIntn
+int
 aSides
 const
 nsBorderColors

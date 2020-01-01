@@ -782,7 +782,7 @@ return
 result
 ;
 }
-PRIntn
+int
 Instantiation
 :
 :

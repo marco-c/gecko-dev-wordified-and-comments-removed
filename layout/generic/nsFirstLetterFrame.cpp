@@ -174,7 +174,7 @@ nsGkAtoms
 letterFrame
 ;
 }
-PRIntn
+int
 nsFirstLetterFrame
 :
 :

@@ -408,7 +408,7 @@ GetIntrinsicHeight
 )
 ;
 virtual
-PRIntn
+int
 GetSkipSides
 (
 )

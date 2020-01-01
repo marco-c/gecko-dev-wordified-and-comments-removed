@@ -1002,7 +1002,7 @@ usage
 argv
 )
 ;
-PRIntn
+int
 i
 =
 0

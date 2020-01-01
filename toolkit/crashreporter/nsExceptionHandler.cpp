@@ -8999,7 +8999,7 @@ PRFileDesc
 *
 fd
 ;
-PRIntn
+int
 truncOrAppend
 =
 truncate

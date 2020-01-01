@@ -221,7 +221,7 @@ nsMathMLmactionFrame
 )
 ;
 virtual
-PRIntn
+int
 GetSkipSides
 (
 )

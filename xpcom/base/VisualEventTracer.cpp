@@ -590,7 +590,7 @@ eventName
 64
 ]
 ;
-PRIntn
+int
 evlen
 =
 strlen
@@ -962,7 +962,7 @@ false
 ;
 static
 const
-PRIntn
+int
 kBufferSize
 =
 2048

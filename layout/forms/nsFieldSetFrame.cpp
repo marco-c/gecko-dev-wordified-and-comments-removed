@@ -396,7 +396,7 @@ endif
 protected
 :
 virtual
-PRIntn
+int
 GetSkipSides
 (
 )
@@ -981,7 +981,7 @@ PRUint32
 aBGFlags
 )
 {
-PRIntn
+int
 skipSides
 =
 GetSkipSides
@@ -2530,7 +2530,7 @@ return
 NS_OK
 ;
 }
-PRIntn
+int
 nsFieldSetFrame
 :
 :

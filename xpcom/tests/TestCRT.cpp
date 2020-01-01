@@ -29,10 +29,10 @@ h
 namespace
 TestCRT
 {
-PRIntn
+int
 sign
 (
-PRIntn
+int
 val
 )
 {
@@ -76,14 +76,14 @@ const
 char
 *
 s2
-PRIntn
+int
 n
 )
 {
 #
 ifdef
 DEBUG
-PRIntn
+int
 clib
 =
 #
@@ -97,7 +97,7 @@ s2
 #
 ifdef
 DEBUG
-PRIntn
+int
 clib_n
 =
 #
@@ -152,7 +152,7 @@ get
 #
 ifdef
 DEBUG
-PRIntn
+int
 u2
 =
 #
@@ -169,7 +169,7 @@ us2
 #
 ifdef
 DEBUG
-PRIntn
+int
 u2_n
 =
 #
@@ -232,7 +232,7 @@ char
 *
 s2
 ;
-PRIntn
+int
 n
 ;
 }

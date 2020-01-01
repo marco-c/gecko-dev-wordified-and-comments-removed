@@ -3606,7 +3606,7 @@ SetDirtyNextLine
 ;
 }
 }
-PRIntn
+int
 nsInlineFrame
 :
 :
@@ -3615,7 +3615,7 @@ GetSkipSides
 )
 const
 {
-PRIntn
+int
 skip
 =
 0
@@ -3778,7 +3778,7 @@ GetStyleVisibility
 mDirection
 )
 ;
-PRIntn
+int
 startBit
 =
 (
@@ -3794,7 +3794,7 @@ NS_SIDE_RIGHT
 )
 )
 ;
-PRIntn
+int
 endBit
 =
 (

@@ -2614,7 +2614,7 @@ aURI
 )
 ;
 }
-PRIntn
+int
 txXPathNodeUtils
 :
 :

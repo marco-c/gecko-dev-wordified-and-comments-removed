@@ -358,7 +358,7 @@ const
 protected
 :
 virtual
-PRIntn
+int
 GetSkipSides
 (
 )

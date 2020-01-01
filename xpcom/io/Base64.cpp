@@ -72,7 +72,7 @@ PRUint32
 )
 0
 ;
-PRIntn
+int
 i
 j
 =

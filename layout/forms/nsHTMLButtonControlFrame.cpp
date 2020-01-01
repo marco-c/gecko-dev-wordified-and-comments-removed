@@ -1404,7 +1404,7 @@ ascent
 yoff
 ;
 }
-PRIntn
+int
 nsHTMLButtonControlFrame
 :
 :

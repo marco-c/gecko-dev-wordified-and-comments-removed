@@ -565,7 +565,7 @@ UpdateOverflow
 protected
 :
 virtual
-PRIntn
+int
 GetSkipSides
 (
 )

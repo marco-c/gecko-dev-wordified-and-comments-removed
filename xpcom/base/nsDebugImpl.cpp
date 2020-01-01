@@ -1026,7 +1026,7 @@ curlen
 }
 ;
 static
-PRIntn
+int
 StuffFixedBuffer
 (
 void

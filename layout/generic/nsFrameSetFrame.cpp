@@ -3171,7 +3171,7 @@ DEFAULT_BORDER_WIDTH_PX
 )
 ;
 }
-PRIntn
+int
 nsHTMLFramesetFrame
 :
 :

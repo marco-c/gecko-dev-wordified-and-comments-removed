@@ -389,7 +389,7 @@ aBorderArea
 nsStyleContext
 *
 aStyleContext
-PRIntn
+int
 aSkipSides
 =
 0
@@ -423,7 +423,7 @@ aBorderStyle
 nsStyleContext
 *
 aStyleContext
-PRIntn
+int
 aSkipSides
 =
 0

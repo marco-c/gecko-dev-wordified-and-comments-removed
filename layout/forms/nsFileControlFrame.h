@@ -496,7 +496,7 @@ eReplacedContainsBlock
 ;
 }
 virtual
-PRIntn
+int
 GetSkipSides
 (
 )

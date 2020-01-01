@@ -379,7 +379,7 @@ return
 hash
 ;
 }
-PRIntn
+int
 nsLocale
 :
 :
@@ -417,7 +417,7 @@ s2
 )
 ;
 }
-PRIntn
+int
 nsLocale
 :
 :
@@ -426,7 +426,7 @@ Hash_EnumerateDelete
 PLHashEntry
 *
 he
-PRIntn
+int
 hashIndex
 void
 *

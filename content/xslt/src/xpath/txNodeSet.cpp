@@ -2146,7 +2146,7 @@ aLast
 pos
 )
 {
-PRIntn
+int
 cmp
 =
 txXPathNodeUtils
@@ -2205,7 +2205,7 @@ aFirst
 /
 2
 ;
-PRIntn
+int
 cmp
 =
 txXPathNodeUtils

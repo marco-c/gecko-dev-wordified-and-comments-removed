@@ -3653,7 +3653,7 @@ key
 ;
 }
 static
-PRIntn
+int
 HTMLTagsKeyCompareUCPtr
 (
 const

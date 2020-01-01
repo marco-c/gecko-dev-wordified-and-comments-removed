@@ -496,7 +496,7 @@ const
 #
 endif
 virtual
-PRIntn
+int
 GetSkipSides
 (
 )

@@ -1685,7 +1685,7 @@ aKey
 )
 ;
 static
-PRIntn
+int
 Compare
 (
 const

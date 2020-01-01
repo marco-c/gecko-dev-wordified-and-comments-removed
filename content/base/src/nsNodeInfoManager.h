@@ -294,7 +294,7 @@ aPrincipal
 private
 :
 static
-PRIntn
+int
 NodeInfoInnerKeyCompare
 (
 const
@@ -318,13 +318,13 @@ key
 )
 ;
 static
-PRIntn
+int
 DropNodeInfoDocument
 (
 PLHashEntry
 *
 he
-PRIntn
+int
 hashIndex
 void
 *

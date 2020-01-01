@@ -2167,7 +2167,7 @@ tc
 )
 ;
 }
-PRIntn
+int
 nsFileControlFrame
 :
 :

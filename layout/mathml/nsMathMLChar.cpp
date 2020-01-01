@@ -8039,7 +8039,7 @@ nsRenderingContext
 aCtx
 )
 {
-PRIntn
+int
 skipSides
 =
 0
