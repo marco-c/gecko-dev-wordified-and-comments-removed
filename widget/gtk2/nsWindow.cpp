@@ -13789,6 +13789,14 @@ SetCanDrop
 false
 )
 ;
+dragService
+-
+>
+FireDragEventAtSource
+(
+NS_DRAGDROP_DRAG
+)
+;
 nsDragEvent
 event
 (
