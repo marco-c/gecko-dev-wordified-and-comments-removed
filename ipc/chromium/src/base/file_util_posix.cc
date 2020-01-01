@@ -190,15 +190,6 @@ time
 .
 h
 "
-#
-ifndef
-HAVE_STAT64
-#
-define
-stat64
-stat
-#
-endif
 namespace
 file_util
 {
