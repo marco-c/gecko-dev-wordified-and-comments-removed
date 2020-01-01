@@ -4508,12 +4508,6 @@ return
 NS_OK
 ;
 }
-AtkTableChange
-*
-pAtkTableChange
-=
-nsnull
-;
 switch
 (
 type
