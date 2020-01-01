@@ -2294,6 +2294,13 @@ location
 :
         
 if
+not
+root
+:
+            
+continue
+        
+if
 basename
 in
 EXCLUDED
@@ -2301,10 +2308,6 @@ EXCLUDED
             
 continue
         
-if
-root
-:
-            
 filename
 =
 os
