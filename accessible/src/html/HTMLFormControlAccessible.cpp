@@ -1,7 +1,7 @@
 #
 include
 "
-nsHTMLFormControlAccessible
+HTMLFormControlAccessible
 .
 h
 "
@@ -175,10 +175,10 @@ mozilla
 :
 a11y
 ;
-nsHTMLCheckboxAccessible
+HTMLCheckboxAccessible
 :
 :
-nsHTMLCheckboxAccessible
+HTMLCheckboxAccessible
 (
 nsIContent
 *
@@ -188,7 +188,7 @@ nsDocAccessible
 aDoc
 )
 :
-nsFormControlAccessible
+nsLeafAccessible
 (
 aContent
 aDoc
@@ -196,7 +196,7 @@ aDoc
 {
 }
 role
-nsHTMLCheckboxAccessible
+HTMLCheckboxAccessible
 :
 :
 NativeRole
@@ -211,7 +211,7 @@ CHECKBUTTON
 ;
 }
 PRUint8
-nsHTMLCheckboxAccessible
+HTMLCheckboxAccessible
 :
 :
 ActionCount
@@ -223,7 +223,7 @@ return
 ;
 }
 NS_IMETHODIMP
-nsHTMLCheckboxAccessible
+HTMLCheckboxAccessible
 :
 :
 GetActionName
@@ -306,7 +306,7 @@ NS_ERROR_INVALID_ARG
 ;
 }
 NS_IMETHODIMP
-nsHTMLCheckboxAccessible
+HTMLCheckboxAccessible
 :
 :
 DoAction
@@ -334,7 +334,7 @@ NS_OK
 ;
 }
 PRUint64
-nsHTMLCheckboxAccessible
+HTMLCheckboxAccessible
 :
 :
 NativeState
@@ -344,7 +344,7 @@ NativeState
 PRUint64
 state
 =
-nsFormControlAccessible
+nsLeafAccessible
 :
 :
 NativeState
@@ -433,7 +433,7 @@ state
 ;
 }
 bool
-nsHTMLCheckboxAccessible
+HTMLCheckboxAccessible
 :
 :
 IsWidget
@@ -445,10 +445,10 @@ return
 true
 ;
 }
-nsHTMLRadioButtonAccessible
+HTMLRadioButtonAccessible
 :
 :
-nsHTMLRadioButtonAccessible
+HTMLRadioButtonAccessible
 (
 nsIContent
 *
@@ -458,7 +458,7 @@ nsDocAccessible
 aDoc
 )
 :
-nsRadioButtonAccessible
+RadioButtonAccessible
 (
 aContent
 aDoc
@@ -466,7 +466,7 @@ aDoc
 {
 }
 PRUint64
-nsHTMLRadioButtonAccessible
+HTMLRadioButtonAccessible
 :
 :
 NativeState
@@ -537,7 +537,7 @@ state
 ;
 }
 void
-nsHTMLRadioButtonAccessible
+HTMLRadioButtonAccessible
 :
 :
 GetPositionAndSizeInternal
@@ -849,10 +849,10 @@ aSetSize
 count
 ;
 }
-nsHTMLButtonAccessible
+HTMLButtonAccessible
 :
 :
-nsHTMLButtonAccessible
+HTMLButtonAccessible
 (
 nsIContent
 *
@@ -870,7 +870,7 @@ aDoc
 {
 }
 PRUint8
-nsHTMLButtonAccessible
+HTMLButtonAccessible
 :
 :
 ActionCount
@@ -882,7 +882,7 @@ return
 ;
 }
 NS_IMETHODIMP
-nsHTMLButtonAccessible
+HTMLButtonAccessible
 :
 :
 GetActionName
@@ -920,7 +920,7 @@ NS_ERROR_INVALID_ARG
 ;
 }
 NS_IMETHODIMP
-nsHTMLButtonAccessible
+HTMLButtonAccessible
 :
 :
 DoAction
@@ -948,7 +948,7 @@ NS_OK
 ;
 }
 PRUint64
-nsHTMLButtonAccessible
+HTMLButtonAccessible
 :
 :
 State
@@ -1034,7 +1034,7 @@ state
 ;
 }
 PRUint64
-nsHTMLButtonAccessible
+HTMLButtonAccessible
 :
 :
 NativeState
@@ -1088,7 +1088,7 @@ state
 ;
 }
 role
-nsHTMLButtonAccessible
+HTMLButtonAccessible
 :
 :
 NativeRole
@@ -1103,7 +1103,7 @@ PUSHBUTTON
 ;
 }
 nsresult
-nsHTMLButtonAccessible
+HTMLButtonAccessible
 :
 :
 GetNameInternal
@@ -1275,7 +1275,7 @@ NS_OK
 ;
 }
 bool
-nsHTMLButtonAccessible
+HTMLButtonAccessible
 :
 :
 IsWidget
@@ -1287,10 +1287,10 @@ return
 true
 ;
 }
-nsHTMLTextFieldAccessible
+HTMLTextFieldAccessible
 :
 :
-nsHTMLTextFieldAccessible
+HTMLTextFieldAccessible
 (
 nsIContent
 *
@@ -1309,14 +1309,14 @@ aDoc
 }
 NS_IMPL_ISUPPORTS_INHERITED3
 (
-nsHTMLTextFieldAccessible
+HTMLTextFieldAccessible
 nsAccessible
 nsHyperTextAccessible
 nsIAccessibleText
 nsIAccessibleEditableText
 )
 role
-nsHTMLTextFieldAccessible
+HTMLTextFieldAccessible
 :
 :
 NativeRole
@@ -1358,7 +1358,7 @@ ENTRY
 ;
 }
 nsresult
-nsHTMLTextFieldAccessible
+HTMLTextFieldAccessible
 :
 :
 GetNameInternal
@@ -1458,7 +1458,7 @@ NS_OK
 ;
 }
 void
-nsHTMLTextFieldAccessible
+HTMLTextFieldAccessible
 :
 :
 Value
@@ -1543,7 +1543,7 @@ aValue
 }
 }
 void
-nsHTMLTextFieldAccessible
+HTMLTextFieldAccessible
 :
 :
 ApplyARIAState
@@ -1581,7 +1581,7 @@ aState
 ;
 }
 PRUint64
-nsHTMLTextFieldAccessible
+HTMLTextFieldAccessible
 :
 :
 State
@@ -1666,7 +1666,7 @@ state
 ;
 }
 PRUint64
-nsHTMLTextFieldAccessible
+HTMLTextFieldAccessible
 :
 :
 NativeState
@@ -1970,7 +1970,7 @@ state
 ;
 }
 PRUint8
-nsHTMLTextFieldAccessible
+HTMLTextFieldAccessible
 :
 :
 ActionCount
@@ -1982,7 +1982,7 @@ return
 ;
 }
 NS_IMETHODIMP
-nsHTMLTextFieldAccessible
+HTMLTextFieldAccessible
 :
 :
 GetActionName
@@ -2020,18 +2020,18 @@ NS_ERROR_INVALID_ARG
 ;
 }
 NS_IMETHODIMP
-nsHTMLTextFieldAccessible
+HTMLTextFieldAccessible
 :
 :
 DoAction
 (
 PRUint8
-index
+aIndex
 )
 {
 if
 (
-index
+aIndex
 =
 =
 0
@@ -2053,7 +2053,6 @@ if
 (
 element
 )
-{
 return
 element
 -
@@ -2062,7 +2061,6 @@ Focus
 (
 )
 ;
-}
 return
 NS_ERROR_FAILURE
 ;
@@ -2075,7 +2073,7 @@ already_AddRefed
 <
 nsIEditor
 >
-nsHTMLTextFieldAccessible
+HTMLTextFieldAccessible
 :
 :
 GetEditor
@@ -2200,7 +2198,7 @@ forget
 ;
 }
 bool
-nsHTMLTextFieldAccessible
+HTMLTextFieldAccessible
 :
 :
 IsWidget
@@ -2214,7 +2212,7 @@ true
 }
 nsAccessible
 *
-nsHTMLTextFieldAccessible
+HTMLTextFieldAccessible
 :
 :
 ContainerWidget
@@ -2244,10 +2242,10 @@ mParent
 nsnull
 ;
 }
-nsHTMLFileInputAccessible
+HTMLFileInputAccessible
 :
 :
-nsHTMLFileInputAccessible
+HTMLFileInputAccessible
 (
 nsIContent
 *
@@ -2270,7 +2268,7 @@ eHTMLFileInputAccessible
 ;
 }
 role
-nsHTMLFileInputAccessible
+HTMLFileInputAccessible
 :
 :
 NativeRole
@@ -2285,7 +2283,7 @@ TEXT_CONTAINER
 ;
 }
 nsresult
-nsHTMLFileInputAccessible
+HTMLFileInputAccessible
 :
 :
 HandleAccEvent
@@ -2535,10 +2533,10 @@ return
 NS_OK
 ;
 }
-nsHTMLGroupboxAccessible
+HTMLGroupboxAccessible
 :
 :
-nsHTMLGroupboxAccessible
+HTMLGroupboxAccessible
 (
 nsIContent
 *
@@ -2556,7 +2554,7 @@ aDoc
 {
 }
 role
-nsHTMLGroupboxAccessible
+HTMLGroupboxAccessible
 :
 :
 NativeRole
@@ -2572,7 +2570,7 @@ GROUPING
 }
 nsIContent
 *
-nsHTMLGroupboxAccessible
+HTMLGroupboxAccessible
 :
 :
 GetLegend
@@ -2639,7 +2637,7 @@ nsnull
 ;
 }
 nsresult
-nsHTMLGroupboxAccessible
+HTMLGroupboxAccessible
 :
 :
 GetNameInternal
@@ -2709,7 +2707,7 @@ NS_OK
 ;
 }
 Relation
-nsHTMLGroupboxAccessible
+HTMLGroupboxAccessible
 :
 :
 RelationByType
@@ -2752,10 +2750,10 @@ return
 rel
 ;
 }
-nsHTMLLegendAccessible
+HTMLLegendAccessible
 :
 :
-nsHTMLLegendAccessible
+HTMLLegendAccessible
 (
 nsIContent
 *
@@ -2773,7 +2771,7 @@ aDoc
 {
 }
 Relation
-nsHTMLLegendAccessible
+HTMLLegendAccessible
 :
 :
 RelationByType
@@ -2844,7 +2842,7 @@ rel
 ;
 }
 role
-nsHTMLLegendAccessible
+HTMLLegendAccessible
 :
 :
 NativeRole
@@ -2858,10 +2856,10 @@ roles
 LABEL
 ;
 }
-nsHTMLFigureAccessible
+HTMLFigureAccessible
 :
 :
-nsHTMLFigureAccessible
+HTMLFigureAccessible
 (
 nsIContent
 *
@@ -2879,7 +2877,7 @@ aDoc
 {
 }
 nsresult
-nsHTMLFigureAccessible
+HTMLFigureAccessible
 :
 :
 GetAttributesInternal
@@ -2929,7 +2927,7 @@ NS_OK
 ;
 }
 role
-nsHTMLFigureAccessible
+HTMLFigureAccessible
 :
 :
 NativeRole
@@ -2944,7 +2942,7 @@ FIGURE
 ;
 }
 nsresult
-nsHTMLFigureAccessible
+HTMLFigureAccessible
 :
 :
 GetNameInternal
@@ -3014,7 +3012,7 @@ NS_OK
 ;
 }
 Relation
-nsHTMLFigureAccessible
+HTMLFigureAccessible
 :
 :
 RelationByType
@@ -3059,7 +3057,7 @@ rel
 }
 nsIContent
 *
-nsHTMLFigureAccessible
+HTMLFigureAccessible
 :
 :
 Caption
@@ -3126,10 +3124,10 @@ return
 nsnull
 ;
 }
-nsHTMLFigcaptionAccessible
+HTMLFigcaptionAccessible
 :
 :
-nsHTMLFigcaptionAccessible
+HTMLFigcaptionAccessible
 (
 nsIContent
 *
@@ -3147,7 +3145,7 @@ aDoc
 {
 }
 role
-nsHTMLFigcaptionAccessible
+HTMLFigcaptionAccessible
 :
 :
 NativeRole
@@ -3162,7 +3160,7 @@ CAPTION
 ;
 }
 Relation
-nsHTMLFigcaptionAccessible
+HTMLFigcaptionAccessible
 :
 :
 RelationByType

@@ -1,14 +1,14 @@
 #
 include
 "
-Role
+FormControlAccessible
 .
 h
 "
 #
 include
 "
-nsFormControlAccessible
+Role
 .
 h
 "
@@ -72,7 +72,7 @@ ProgressMeterAccessible
 <
 Max
 >
-nsFormControlAccessible
+nsLeafAccessible
 )
 template
 <
@@ -85,7 +85,7 @@ ProgressMeterAccessible
 <
 Max
 >
-nsFormControlAccessible
+nsLeafAccessible
 )
 template
 <
@@ -98,7 +98,7 @@ ProgressMeterAccessible
 <
 Max
 >
-nsFormControlAccessible
+nsLeafAccessible
 nsIAccessibleValue
 )
 template
@@ -143,7 +143,7 @@ NativeState
 PRUint64
 state
 =
-nsFormControlAccessible
+nsLeafAccessible
 :
 :
 NativeState
@@ -226,7 +226,7 @@ nsString
 aValue
 )
 {
-nsFormControlAccessible
+nsLeafAccessible
 :
 :
 Value
@@ -347,7 +347,7 @@ aMaximumValue
 nsresult
 rv
 =
-nsFormControlAccessible
+nsLeafAccessible
 :
 :
 GetMaximumValue
@@ -435,7 +435,7 @@ aMinimumValue
 nsresult
 rv
 =
-nsFormControlAccessible
+nsLeafAccessible
 :
 :
 GetMinimumValue
@@ -484,7 +484,7 @@ aMinimumIncrement
 nsresult
 rv
 =
-nsFormControlAccessible
+nsLeafAccessible
 :
 :
 GetMinimumIncrement
@@ -533,7 +533,7 @@ aCurrentValue
 nsresult
 rv
 =
-nsFormControlAccessible
+nsLeafAccessible
 :
 :
 GetCurrentValue
@@ -635,10 +635,10 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsRadioButtonAccessible
+RadioButtonAccessible
 :
 :
-nsRadioButtonAccessible
+RadioButtonAccessible
 (
 nsIContent
 *
@@ -648,7 +648,7 @@ nsDocAccessible
 aDoc
 )
 :
-nsFormControlAccessible
+nsLeafAccessible
 (
 aContent
 aDoc
@@ -656,7 +656,7 @@ aDoc
 {
 }
 PRUint8
-nsRadioButtonAccessible
+RadioButtonAccessible
 :
 :
 ActionCount
@@ -668,7 +668,7 @@ return
 ;
 }
 NS_IMETHODIMP
-nsRadioButtonAccessible
+RadioButtonAccessible
 :
 :
 GetActionName
@@ -706,7 +706,7 @@ NS_ERROR_INVALID_ARG
 ;
 }
 NS_IMETHODIMP
-nsRadioButtonAccessible
+RadioButtonAccessible
 :
 :
 DoAction
@@ -734,7 +734,7 @@ NS_OK
 ;
 }
 role
-nsRadioButtonAccessible
+RadioButtonAccessible
 :
 :
 NativeRole
@@ -749,7 +749,7 @@ RADIOBUTTON
 ;
 }
 bool
-nsRadioButtonAccessible
+RadioButtonAccessible
 :
 :
 IsWidget

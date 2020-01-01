@@ -437,7 +437,7 @@ nsHTMLCanvasAccessible
 .
 cpp
 \
-nsHTMLFormControlAccessible
+HTMLFormControlAccessible
 .
 cpp
 \
@@ -476,10 +476,6 @@ EXPORTS
 =
 \
 nsHyperTextAccessible
-.
-h
-\
-nsHTMLFormControlAccessible
 .
 h
 \

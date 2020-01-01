@@ -512,10 +512,6 @@ nsEventShell
 .
 cpp
 \
-nsFormControlAccessible
-.
-cpp
-\
 nsRootAccessible
 .
 cpp

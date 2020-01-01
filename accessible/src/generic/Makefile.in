@@ -98,6 +98,10 @@ ARIAGridAccessible
 .
 cpp
 \
+FormControlAccessible
+.
+cpp
+\
 OuterDocAccessible
 .
 cpp

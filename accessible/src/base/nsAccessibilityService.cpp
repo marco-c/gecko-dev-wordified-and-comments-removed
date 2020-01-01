@@ -383,7 +383,7 @@ h
 #
 include
 "
-nsXULFormControlAccessible
+XULFormControlAccessible
 .
 h
 "
@@ -830,7 +830,7 @@ nsAccessible
 accessible
 =
 new
-nsHTMLButtonAccessible
+HTMLButtonAccessible
 (
 aContent
 nsAccUtils
@@ -959,7 +959,7 @@ nsAccessible
 accessible
 =
 new
-nsHTMLCheckboxAccessible
+HTMLCheckboxAccessible
 (
 aContent
 nsAccUtils
@@ -1088,7 +1088,7 @@ nsAccessible
 accessible
 =
 new
-nsHTMLFileInputAccessible
+HTMLFileInputAccessible
 (
 aContent
 nsAccUtils
@@ -1217,7 +1217,7 @@ nsAccessible
 accessible
 =
 new
-nsHTMLGroupboxAccessible
+HTMLGroupboxAccessible
 (
 aContent
 nsAccUtils
@@ -1615,7 +1615,7 @@ nsAccessible
 accessible
 =
 new
-nsHTMLRadioButtonAccessible
+HTMLRadioButtonAccessible
 (
 aContent
 nsAccUtils
@@ -1787,7 +1787,7 @@ nsAccessible
 accessible
 =
 new
-nsHTMLTextFieldAccessible
+HTMLTextFieldAccessible
 (
 aContent
 nsAccUtils
@@ -6507,7 +6507,7 @@ XULButton
 accessible
 =
 new
-nsXULButtonAccessible
+XULButtonAccessible
 (
 aContent
 aDoc
@@ -6524,7 +6524,7 @@ XULCheckbox
 accessible
 =
 new
-nsXULCheckboxAccessible
+XULCheckboxAccessible
 (
 aContent
 aDoc
@@ -6592,7 +6592,7 @@ XULDropmarker
 accessible
 =
 new
-nsXULDropmarkerAccessible
+XULDropmarkerAccessible
 (
 aContent
 aDoc
@@ -6609,7 +6609,7 @@ XULGroupbox
 accessible
 =
 new
-nsXULGroupboxAccessible
+XULGroupboxAccessible
 (
 aContent
 aDoc
@@ -6914,7 +6914,7 @@ XULStatusBar
 accessible
 =
 new
-nsXULStatusBarAccessible
+XULStatusBarAccessible
 (
 aContent
 aDoc
@@ -6948,7 +6948,7 @@ XULRadioButton
 accessible
 =
 new
-nsXULRadioButtonAccessible
+XULRadioButtonAccessible
 (
 aContent
 aDoc
@@ -6965,7 +6965,7 @@ XULRadioGroup
 accessible
 =
 new
-nsXULRadioGroupAccessible
+XULRadioGroupAccessible
 (
 aContent
 aDoc
@@ -7050,7 +7050,7 @@ XULTextBox
 accessible
 =
 new
-nsXULTextFieldAccessible
+XULTextFieldAccessible
 (
 aContent
 aDoc
@@ -7131,7 +7131,7 @@ XULToolbar
 accessible
 =
 new
-nsXULToolbarAccessible
+XULToolbarAccessible
 (
 aContent
 aDoc
@@ -7148,7 +7148,7 @@ XULToolbarSeparator
 accessible
 =
 new
-nsXULToolbarSeparatorAccessible
+XULToolbarSeparatorAccessible
 (
 aContent
 aDoc
@@ -7182,7 +7182,7 @@ XULToolbarButton
 accessible
 =
 new
-nsXULToolbarButtonAccessible
+XULToolbarButtonAccessible
 (
 aContent
 aDoc
@@ -7577,7 +7577,7 @@ nsAccessible
 accessible
 =
 new
-nsHTMLFigcaptionAccessible
+HTMLFigcaptionAccessible
 (
 aContent
 aDoc
@@ -7608,7 +7608,7 @@ nsAccessible
 accessible
 =
 new
-nsHTMLFigureAccessible
+HTMLFigureAccessible
 (
 aContent
 aDoc
@@ -7639,7 +7639,7 @@ nsAccessible
 accessible
 =
 new
-nsHTMLLegendAccessible
+HTMLLegendAccessible
 (
 aContent
 aDoc

@@ -38,13 +38,6 @@ h
 #
 include
 "
-nsXULFormControlAccessible
-.
-h
-"
-#
-include
-"
 Role
 .
 h
@@ -53,6 +46,13 @@ h
 include
 "
 States
+.
+h
+"
+#
+include
+"
+XULFormControlAccessible
 .
 h
 "
