@@ -2523,17 +2523,6 @@ JS_FALSE
 }
 else
 {
-resultString
-.
-AppendLiteral
-(
-"
-[
-object
-XPCCrossOriginWrapper
-"
-)
-;
 wrapperStr
 =
 wrappedNative
@@ -2567,6 +2556,11 @@ JS_smprintf_free
 wrapperStr
 )
 ;
+if
+(
+isNativeWrapper
+)
+{
 resultString
 .
 Append
@@ -2576,6 +2570,7 @@ Append
 '
 )
 ;
+}
 str
 =
 :
