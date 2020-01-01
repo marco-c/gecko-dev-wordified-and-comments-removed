@@ -460,6 +460,16 @@ nsIGfxInfo
 :
 nsISupports
 {
+/
+*
+*
+These
+are
+win32
+-
+specific
+*
+/
 readonly
 attribute
 boolean

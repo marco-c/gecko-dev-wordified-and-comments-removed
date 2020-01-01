@@ -584,6 +584,10 @@ nsStandaloneNativeMenu
 .
 mm
 \
+GfxInfo
+.
+mm
+\
 (
 NULL
 )
