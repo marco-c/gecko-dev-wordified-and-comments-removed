@@ -1129,6 +1129,10 @@ file_bug607529
 .
 html
 \
+test_bug667512
+.
+html
+\
 test_bug677878
 .
 html
