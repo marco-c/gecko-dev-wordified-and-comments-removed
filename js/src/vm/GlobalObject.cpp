@@ -1780,7 +1780,7 @@ self
 {
 intrinsicsHolder
 =
-this
+self
 ;
 }
 else
