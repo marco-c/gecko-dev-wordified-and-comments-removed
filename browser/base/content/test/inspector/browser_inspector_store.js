@@ -5,6 +5,8 @@ test
 {
 ok
 (
+window
+.
 InspectorUI
 "
 InspectorUI

@@ -9280,7 +9280,7 @@ inspector
 .
 enabled
 "
-false
+true
 )
 ;
 pref
