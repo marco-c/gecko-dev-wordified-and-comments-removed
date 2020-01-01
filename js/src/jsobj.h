@@ -2854,10 +2854,6 @@ JSFunction
 fun
 =
 NULL
-bool
-markUnknown
-=
-false
 )
 ;
 #
@@ -2882,6 +2878,14 @@ endif
 inline
 bool
 setIteratedSingleton
+(
+JSContext
+*
+cx
+)
+;
+bool
+setNewTypeUnknown
 (
 JSContext
 *
