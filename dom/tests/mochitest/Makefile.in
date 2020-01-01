@@ -449,8 +449,6 @@ whatwg
 \
 geolocation
 \
-globalstorage
-\
 localstorage
 \
 sessionstorage
