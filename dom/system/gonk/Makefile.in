@@ -221,6 +221,10 @@ nsIWorkerHolder
 .
 idl
 \
+nsIAudioChannelManager
+.
+idl
+\
 (
 NULL
 )
