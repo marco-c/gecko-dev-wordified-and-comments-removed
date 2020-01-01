@@ -3679,7 +3679,7 @@ Create
 win_private
 )
 {
-NS_ERROR
+NS_WARNING
 (
 "
 Something
