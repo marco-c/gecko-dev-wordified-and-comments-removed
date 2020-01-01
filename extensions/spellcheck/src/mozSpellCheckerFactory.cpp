@@ -7,7 +7,7 @@ h
 "
 #
 ifdef
-MOZ_WIDGET_COCOA
+MOZ_MACBROWSER
 #
 include
 "
@@ -143,7 +143,7 @@ A01A
 }
 #
 ifdef
-MOZ_WIDGET_COCOA
+MOZ_MACBROWSER
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 mozOSXSpell
@@ -292,7 +292,7 @@ components
 {
 #
 ifdef
-MOZ_WIDGET_COCOA
+MOZ_MACBROWSER
 {
 "
 OSX

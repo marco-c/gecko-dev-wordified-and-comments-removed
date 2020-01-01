@@ -424,9 +424,9 @@ idl
 locales
 ifeq
 (
-cocoa
+camino
 (
-MOZ_WIDGET_TOOLKIT
+MOZ_BUILD_APP
 )
 )
 DIRS
