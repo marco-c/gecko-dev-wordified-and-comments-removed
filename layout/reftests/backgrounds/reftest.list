@@ -194,6 +194,12 @@ color
 ref
 .
 html
+fails
+-
+if
+(
+Android
+)
 =
 =
 viewport
@@ -214,6 +220,12 @@ color
 ref
 .
 html
+fails
+-
+if
+(
+Android
+)
 =
 =
 viewport
