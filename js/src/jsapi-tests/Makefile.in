@@ -201,10 +201,6 @@ testGCOutOfMemory
 .
 cpp
 \
-testOOM
-.
-cpp
-\
 testGetPropertyDefault
 .
 cpp
@@ -242,6 +238,14 @@ testLooselyEqual
 cpp
 \
 testNewObject
+.
+cpp
+\
+testObjectEmulatingUndefined
+.
+cpp
+\
+testOOM
 .
 cpp
 \
