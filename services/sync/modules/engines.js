@@ -2691,8 +2691,6 @@ decrypt
 catch
 (
 ex
-)
-{
 if
 (
 Utils
@@ -2707,6 +2705,7 @@ this
 .
 handleHMACMismatch
 (
+)
 )
 )
 {
@@ -2732,13 +2731,6 @@ decrypt
 (
 )
 ;
-}
-else
-{
-throw
-ex
-;
-}
 }
 if
 (
@@ -2805,11 +2797,8 @@ id
 catch
 (
 ex
-)
-{
 if
 (
-!
 Utils
 .
 isHMACMismatch
@@ -2817,11 +2806,8 @@ isHMACMismatch
 ex
 )
 )
+)
 {
-throw
-ex
-;
-}
 this
 .
 _log
