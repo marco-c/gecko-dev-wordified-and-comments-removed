@@ -3548,6 +3548,10 @@ JSEmptyScope
 *
 emptyBlockScope
 ;
+JSEmptyScope
+*
+emptyCallScope
+;
 #
 ifdef
 JS_DUMP_ENUM_CACHE_STATS

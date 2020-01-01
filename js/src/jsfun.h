@@ -657,6 +657,15 @@ i
 nvars
 ;
 }
+enum
+{
+MAX_ARGS_AND_VARS
+=
+2
+*
+UINT16_MAX
+}
+;
 uintN
 countArgsAndVars
 (

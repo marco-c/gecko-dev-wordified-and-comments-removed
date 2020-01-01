@@ -1130,9 +1130,12 @@ EMPTY_ARGUMENTS_SHAPE
 EMPTY_BLOCK_SHAPE
 =
 2
+EMPTY_CALL_SHAPE
+=
+3
 LAST_RESERVED_SHAPE
 =
-2
+3
 }
 ;
 }
@@ -1165,7 +1168,8 @@ JSClass
 clasp
 )
 ;
-void
+JSEmptyScope
+*
 hold
 (
 )
@@ -1183,6 +1187,9 @@ JS_ATOMIC_INCREMENT
 &
 nrefs
 )
+;
+return
+this
 ;
 }
 void
