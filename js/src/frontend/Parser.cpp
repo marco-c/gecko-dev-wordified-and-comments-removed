@@ -2053,7 +2053,7 @@ args
 break
 ;
 case
-ParseExtraWarning
+ParseStrictWarning
 :
 result
 =
@@ -2406,7 +2406,7 @@ if
 context
 -
 >
-hasExtraWarningsOption
+hasStrictOption
 (
 )
 )
@@ -3911,7 +3911,7 @@ ENDS_IN_RETURN
 reportBadReturn
 (
 pn
-ParseExtraWarning
+ParseStrictWarning
 JSMSG_NO_RETURN_VALUE
 JSMSG_ANON_NO_RETURN_VALUE
 )
@@ -5315,7 +5315,7 @@ if
 context
 -
 >
-hasExtraWarningsOption
+hasStrictOption
 (
 )
 &
@@ -8217,7 +8217,7 @@ if
 context
 -
 >
-hasExtraWarningsOption
+hasStrictOption
 (
 )
 |
@@ -8257,7 +8257,7 @@ Definition
 CONST
 )
 ?
-ParseExtraWarning
+ParseStrictWarning
 :
 ParseError
 ;
@@ -12581,7 +12581,7 @@ PNK_ASSIGN
 !
 report
 (
-ParseExtraWarning
+ParseStrictWarning
 false
 null
 (
@@ -13986,7 +13986,7 @@ parser
 >
 report
 (
-ParseExtraWarning
+ParseStrictWarning
 false
 pn
 JSMSG_VAR_HIDES_ARG
@@ -14054,7 +14054,7 @@ if
 cx
 -
 >
-hasExtraWarningsOption
+hasStrictOption
 (
 )
 ?
@@ -14088,7 +14088,7 @@ error
 ?
 ParseError
 :
-ParseExtraWarning
+ParseStrictWarning
 ;
 if
 (
@@ -15705,7 +15705,7 @@ if
 context
 -
 >
-hasExtraWarningsOption
+hasStrictOption
 (
 )
 &
@@ -15726,7 +15726,7 @@ funHasReturnVoid
 reportBadReturn
 (
 pn
-ParseExtraWarning
+ParseStrictWarning
 JSMSG_NO_RETURN_VALUE
 JSMSG_ANON_NO_RETURN_VALUE
 )
@@ -21299,7 +21299,7 @@ thenBranch
 !
 report
 (
-ParseExtraWarning
+ParseStrictWarning
 false
 null
 (

@@ -2655,7 +2655,7 @@ js_options
 "
 strict
 "
-JSOPTION_EXTRA_WARNINGS
+JSOPTION_STRICT
 }
 {
 "
@@ -26599,7 +26599,7 @@ s
 JS_ToggleOptions
 (
 cx
-JSOPTION_EXTRA_WARNINGS
+JSOPTION_STRICT
 )
 ;
 if

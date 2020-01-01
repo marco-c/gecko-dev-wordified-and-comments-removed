@@ -2544,7 +2544,7 @@ if
 cx
 -
 >
-hasExtraWarningsOption
+hasStrictOption
 (
 )
 )
@@ -2575,7 +2575,7 @@ if
 cx
 -
 >
-hasExtraWarningsOption
+hasStrictOption
 (
 )
 )
