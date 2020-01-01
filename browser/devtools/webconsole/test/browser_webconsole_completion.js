@@ -301,15 +301,15 @@ value
 "
 window
 .
-O
+Ob
 "
 ;
 input
 .
 setSelectionRange
 (
-8
-8
+9
+9
 )
 ;
 jsterm
@@ -338,7 +338,7 @@ Object
 '
 window
 .
-O
+Ob
 '
 tab
 completion
