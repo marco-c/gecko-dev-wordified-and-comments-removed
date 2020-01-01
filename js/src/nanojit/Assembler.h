@@ -364,6 +364,7 @@ NInsList
 ;
 class
 Assembler
+MMGC_SUBCLASS_DECL
 {
 friend
 class
@@ -1369,6 +1370,19 @@ _fpuStkDepth
 ;
 )
 }
+#
+ifdef
+AVMPLUS_PORTING_API
+void
+*
+_endJit1Addr
+;
+void
+*
+_endJit2Addr
+;
+#
+endif
 }
 ;
 inline

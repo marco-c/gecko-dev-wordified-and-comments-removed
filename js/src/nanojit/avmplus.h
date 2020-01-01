@@ -560,6 +560,9 @@ GCObject
 {
 }
 ;
+#
+define
+MMGC_SUBCLASS_DECL
 class
 GCFinalizedObject
 {
@@ -2955,6 +2958,10 @@ lo
 }
 }
 ;
+#
+define
+GCSortedMap
+SortedMap
 class
 BitSet
 {

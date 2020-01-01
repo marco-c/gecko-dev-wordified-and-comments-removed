@@ -89,7 +89,7 @@ typedef
 avmplus
 :
 :
-SortedMap
+GCSortedMap
 <
 const
 void
