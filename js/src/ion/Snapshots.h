@@ -705,6 +705,9 @@ nslots_
 uint32
 slotsWritten_
 ;
+SnapshotOffset
+lastStart_
+;
 void
 writeSlotHeader
 (
