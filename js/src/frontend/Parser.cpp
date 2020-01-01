@@ -1017,9 +1017,6 @@ funbox
 >
 tcflags
 =
-TCF_IN_FUNCTION
-|
-(
 tc
 -
 >
@@ -1029,7 +1026,6 @@ sc
 flags
 &
 TCF_STRICT_MODE_CODE
-)
 ;
 if
 (
@@ -1056,8 +1052,6 @@ sc
 -
 >
 inFunction
-(
-)
 )
 {
 JSObject
@@ -1311,6 +1305,7 @@ SharedContext
 globalsc
 (
 context
+false
 )
 ;
 TreeContext
@@ -2142,8 +2137,6 @@ sc
 -
 >
 inFunction
-(
-)
 )
 ;
 return
@@ -2534,8 +2527,6 @@ sc
 -
 >
 inFunction
-(
-)
 )
 ;
 if
@@ -2945,8 +2936,6 @@ sc
 -
 >
 inFunction
-(
-)
 )
 ;
 StmtInfo
@@ -5158,8 +5147,6 @@ sc
 -
 >
 inFunction
-(
-)
 )
 ;
 if
@@ -5285,8 +5272,6 @@ sc
 -
 >
 inFunction
-(
-)
 ?
 NULL
 :
@@ -7374,8 +7359,6 @@ sc
 -
 >
 inFunction
-(
-)
 )
 {
 unsigned
@@ -7486,6 +7469,7 @@ SharedContext
 funsc
 (
 context
+true
 )
 ;
 TreeContext
@@ -8297,8 +8281,6 @@ sc
 -
 >
 inFunction
-(
-)
 &
 &
 bodyLevel
@@ -9849,8 +9831,6 @@ sc
 -
 >
 inFunction
-(
-)
 )
 ;
 ParseNode
@@ -9950,8 +9930,6 @@ sc
 -
 >
 inFunction
-(
-)
 )
 ;
 JS_ASSERT
@@ -10759,8 +10737,6 @@ sc
 -
 >
 inFunction
-(
-)
 )
 return
 BindFunctionLocal
@@ -11067,8 +11043,6 @@ sc
 -
 >
 inFunction
-(
-)
 &
 &
 pn
@@ -12384,8 +12358,6 @@ sc
 -
 >
 inFunction
-(
-)
 )
 {
 reportErrorNumber
@@ -23046,8 +23018,6 @@ sc
 -
 >
 inFunction
-(
-)
 )
 {
 parser
@@ -25278,6 +25248,7 @@ SharedContext
 gensc
 (
 context
+true
 )
 ;
 TreeContext
@@ -30160,6 +30131,7 @@ SharedContext
 xmlsc
 (
 context
+false
 )
 ;
 TreeContext

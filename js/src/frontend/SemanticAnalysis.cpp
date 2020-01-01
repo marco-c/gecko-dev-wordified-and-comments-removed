@@ -70,6 +70,8 @@ funbox
 uint32_t
 *
 tcflags
+bool
+topInFunction
 )
 {
 unsigned
@@ -144,12 +146,7 @@ if
 funbox
 &
 &
-(
-*
-tcflags
-&
-TCF_IN_FUNCTION
-)
+topInFunction
 )
 *
 tcflags
@@ -168,6 +165,8 @@ funbox
 uint32_t
 *
 tcflags
+bool
+topInFunction
 bool
 isDirectEval
 )
@@ -231,6 +230,7 @@ funbox
 >
 kids
 tcflags
+topInFunction
 isDirectEval
 )
 ;
@@ -514,6 +514,7 @@ FlagHeavyweights
 lexdep
 funbox
 tcflags
+topInFunction
 )
 ;
 }
@@ -696,6 +697,10 @@ sc
 -
 >
 flags
+sc
+-
+>
+inFunction
 isDirectEval
 )
 ;

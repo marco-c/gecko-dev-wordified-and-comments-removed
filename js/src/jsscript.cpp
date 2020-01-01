@@ -7302,8 +7302,6 @@ sc
 -
 >
 inFunction
-(
-)
 ?
 bce
 -
@@ -7989,8 +7987,6 @@ sc
 -
 >
 inFunction
-(
-)
 )
 {
 JS_ASSERT

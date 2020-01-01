@@ -586,8 +586,6 @@ sc
 -
 >
 inFunction
-(
-)
 )
 return
 false

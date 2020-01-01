@@ -448,6 +448,7 @@ SharedContext
 sc
 (
 cx
+false
 )
 ;
 TreeContext
@@ -1213,6 +1214,7 @@ SharedContext
 funsc
 (
 cx
+true
 )
 ;
 TreeContext
@@ -1264,13 +1266,6 @@ init
 )
 return
 false
-;
-funsc
-.
-flags
-|
-=
-TCF_IN_FUNCTION
 ;
 funsc
 .

@@ -3509,8 +3509,6 @@ sc
 -
 >
 inFunction
-(
-)
 |
 |
 bce
@@ -3600,8 +3598,6 @@ sc
 -
 >
 inFunction
-(
-)
 )
 {
 if
@@ -5593,8 +5589,6 @@ sc
 -
 >
 inFunction
-(
-)
 )
 {
 slot
@@ -7975,8 +7969,6 @@ sc
 -
 >
 inFunction
-(
-)
 )
 {
 JSObject
@@ -13505,8 +13497,6 @@ sc
 -
 >
 inFunction
-(
-)
 |
 |
 (
@@ -13581,8 +13571,6 @@ sc
 -
 >
 inFunction
-(
-)
 &
 &
 JOF_OPTYPE
@@ -21845,8 +21833,6 @@ sc
 -
 >
 inFunction
-(
-)
 )
 )
 {
@@ -23835,8 +23821,6 @@ sc
 -
 >
 inFunction
-(
-)
 )
 ;
 return
@@ -23878,6 +23862,7 @@ SharedContext
 sc
 (
 cx
+true
 )
 ;
 BytecodeEmitter
@@ -23927,8 +23912,6 @@ pn_funbox
 -
 >
 tcflags
-|
-TCF_IN_FUNCTION
 |
 (
 bce
@@ -24135,8 +24118,6 @@ sc
 -
 >
 inFunction
-(
-)
 )
 {
 JS_ASSERT
@@ -25431,8 +25412,6 @@ sc
 -
 >
 inFunction
-(
-)
 )
 ;
 if
@@ -25707,8 +25686,6 @@ sc
 -
 >
 inFunction
-(
-)
 )
 {
 JS_ASSERT
@@ -29724,8 +29701,6 @@ sc
 -
 >
 inFunction
-(
-)
 )
 ;
 if
