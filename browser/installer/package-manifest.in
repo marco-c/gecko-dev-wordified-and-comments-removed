@@ -2067,8 +2067,6 @@ BrowserPlaces
 manifest
 BINPATH
 /
-browser
-/
 components
 /
 BrowserPageThumbs
@@ -2520,8 +2518,6 @@ ColorAnalyzer
 .
 js
 BINPATH
-/
-browser
 /
 components
 /

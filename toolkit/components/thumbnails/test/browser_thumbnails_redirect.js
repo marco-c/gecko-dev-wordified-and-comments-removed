@@ -14,7 +14,7 @@ test
 /
 browser
 /
-browser
+toolkit
 /
 components
 /
