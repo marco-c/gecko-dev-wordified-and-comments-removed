@@ -5202,7 +5202,7 @@ height
 )
 {
 return
-cairo_meta_surface_create
+_cairo_meta_surface_create
 (
 content
 width
@@ -7531,8 +7531,6 @@ switch
 filter
 )
 {
-default
-:
 case
 CAIRO_FILTER_GOOD
 :
