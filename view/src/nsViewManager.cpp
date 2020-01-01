@@ -5505,6 +5505,15 @@ NS_IS_FOCUS_EVENT
 (
 aEvent
 )
+&
+&
+aEvent
+-
+>
+eventStructType
+!
+=
+NS_ACCESSIBLE_EVENT
 )
 {
 view
