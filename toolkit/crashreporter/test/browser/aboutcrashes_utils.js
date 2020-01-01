@@ -315,6 +315,13 @@ nsIProperties
 ;
 dirSvc
 .
+QueryInterface
+(
+Ci
+.
+nsIDirectoryService
+)
+.
 unregisterProvider
 (
 _provider
