@@ -69,7 +69,7 @@ var
 result
 =
 "
-fail
+pass
 "
 ;
 var
@@ -110,8 +110,9 @@ e
 result
 =
 "
-pass
+fail
 "
+;
 exception
 =
 e
