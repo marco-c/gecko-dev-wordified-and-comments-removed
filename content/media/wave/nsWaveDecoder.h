@@ -53,7 +53,7 @@ nsWaveDecoder
 ;
 }
 virtual
-nsBuiltinDecoderStateMachine
+nsDecoderStateMachine
 *
 CreateStateMachine
 (

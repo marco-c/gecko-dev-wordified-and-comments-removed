@@ -19,7 +19,7 @@ nsOggDecoder
 .
 h
 "
-nsBuiltinDecoderStateMachine
+nsDecoderStateMachine
 *
 nsOggDecoder
 :

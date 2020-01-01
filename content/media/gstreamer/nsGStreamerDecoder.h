@@ -38,7 +38,7 @@ nsGStreamerDecoder
 ;
 }
 virtual
-nsBuiltinDecoderStateMachine
+nsDecoderStateMachine
 *
 CreateStateMachine
 (

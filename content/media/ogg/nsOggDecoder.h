@@ -53,7 +53,7 @@ nsOggDecoder
 ;
 }
 virtual
-nsBuiltinDecoderStateMachine
+nsDecoderStateMachine
 *
 CreateStateMachine
 (

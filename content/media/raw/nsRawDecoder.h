@@ -53,7 +53,7 @@ nsRawDecoder
 ;
 }
 virtual
-nsBuiltinDecoderStateMachine
+nsDecoderStateMachine
 *
 CreateStateMachine
 (
