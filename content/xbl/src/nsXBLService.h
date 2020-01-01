@@ -311,6 +311,10 @@ static
 PRUint32
 gClassLRUListQuota
 ;
+static
+PRBool
+gAllowDataURIs
+;
 nsFixedSizeAllocator
 mPool
 ;
