@@ -2581,7 +2581,7 @@ rootRect
 rootFrame
 -
 >
-GetScreenRectExternal
+GetScreenRect
 (
 )
 ;
@@ -2594,11 +2594,11 @@ presContext
 DevPixelsToIntCSSPixels
 (
 aX
+)
 -
 rootRect
 .
 x
-)
 ;
 PRInt32
 clientY
@@ -2609,11 +2609,11 @@ presContext
 DevPixelsToIntCSSPixels
 (
 aY
+)
 -
 rootRect
 .
 y
-)
 ;
 PRInt32
 row
