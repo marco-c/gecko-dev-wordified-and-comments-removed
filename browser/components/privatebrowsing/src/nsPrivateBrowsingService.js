@@ -3226,14 +3226,10 @@ i
 let
 uri
 =
-{
-host
-:
 names
 [
 i
 ]
-}
 ;
 let
 enumerator
