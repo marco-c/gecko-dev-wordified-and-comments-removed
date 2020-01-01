@@ -56,7 +56,7 @@ h
 #
 include
 "
-nsHtml5UTF16Buffer
+nsHtml5OwningUTF16Buffer
 .
 h
 "
@@ -389,6 +389,11 @@ ret
 #
 endif
 void
+MarkAsBroken
+(
+)
+;
+void
 Interrupt
 (
 )
@@ -671,11 +676,11 @@ mReparseForbidden
 ;
 nsRefPtr
 <
-nsHtml5UTF16Buffer
+nsHtml5OwningUTF16Buffer
 >
 mFirstBuffer
 ;
-nsHtml5UTF16Buffer
+nsHtml5OwningUTF16Buffer
 *
 mLastBuffer
 ;

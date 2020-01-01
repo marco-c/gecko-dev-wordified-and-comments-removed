@@ -7,7 +7,7 @@ nsHtml5Speculation_h__
 #
 include
 "
-nsHtml5UTF16Buffer
+nsHtml5OwningUTF16Buffer
 .
 h
 "
@@ -56,7 +56,7 @@ public
 :
 nsHtml5Speculation
 (
-nsHtml5UTF16Buffer
+nsHtml5OwningUTF16Buffer
 *
 aBuffer
 PRInt32
@@ -73,7 +73,7 @@ nsHtml5Speculation
 (
 )
 ;
-nsHtml5UTF16Buffer
+nsHtml5OwningUTF16Buffer
 *
 GetBuffer
 (
@@ -135,7 +135,7 @@ private
 :
 nsRefPtr
 <
-nsHtml5UTF16Buffer
+nsHtml5OwningUTF16Buffer
 >
 mBuffer
 ;

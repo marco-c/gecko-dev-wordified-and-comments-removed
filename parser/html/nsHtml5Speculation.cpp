@@ -10,7 +10,7 @@ nsHtml5Speculation
 :
 nsHtml5Speculation
 (
-nsHtml5UTF16Buffer
+nsHtml5OwningUTF16Buffer
 *
 aBuffer
 PRInt32

@@ -126,7 +126,7 @@ h
 #
 include
 "
-nsHtml5UTF16Buffer
+nsHtml5OwningUTF16Buffer
 .
 h
 "
@@ -620,11 +620,11 @@ mRootContextKey
 ;
 nsRefPtr
 <
-nsHtml5UTF16Buffer
+nsHtml5OwningUTF16Buffer
 >
 mFirstBuffer
 ;
-nsHtml5UTF16Buffer
+nsHtml5OwningUTF16Buffer
 *
 mLastBuffer
 ;
