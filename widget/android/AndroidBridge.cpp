@@ -5318,10 +5318,16 @@ nsAppShell
 gAppShell
 -
 >
-AddObserver
+PostEvent
+(
+AndroidGeckoEvent
+:
+:
+MakeAddObserver
 (
 aAlertName
 aAlertListener
+)
 )
 ;
 }
