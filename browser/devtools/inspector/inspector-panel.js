@@ -1687,6 +1687,14 @@ fontinspector
 enabled
 "
 )
+&
+&
+!
+this
+.
+target
+.
+isRemote
 )
 {
 this
