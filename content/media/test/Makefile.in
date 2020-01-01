@@ -697,10 +697,6 @@ test_autoplay_contentEditable
 .
 html
 \
-test_buffered
-.
-html
-\
 test_bug448534
 .
 html
@@ -1040,6 +1036,10 @@ and
 Bug
 864682
 :
+#
+test_buffered
+.
+html
 #
 test_bug465498
 .
