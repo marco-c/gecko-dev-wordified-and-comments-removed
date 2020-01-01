@@ -27439,7 +27439,7 @@ PNK_VAR
 ;
 stmt
 =
-NextNode
+NextNonEmptyStatement
 (
 stmt
 )
