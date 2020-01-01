@@ -290,3 +290,14 @@ x
 symbol
 "
 )
+GFX_ATOM
+(
+x_user_def
+"
+x
+-
+user
+-
+def
+"
+)

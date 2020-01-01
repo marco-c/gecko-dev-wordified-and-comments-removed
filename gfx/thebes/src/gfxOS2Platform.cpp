@@ -679,7 +679,7 @@ GetStyle
 )
 -
 >
-langGroup
+language
 generic
 fontList
 )
