@@ -602,7 +602,7 @@ asm_align_code
 )
 {
 static
-char
+uint8_t
 nop
 [
 ]
