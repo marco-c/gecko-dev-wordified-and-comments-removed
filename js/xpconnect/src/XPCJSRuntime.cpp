@@ -12127,6 +12127,7 @@ nsPrintfCString
 "
 zone
 (
+0x
 %
 p
 )
