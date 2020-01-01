@@ -1267,6 +1267,9 @@ nsInputEvent
 aOutEvent
 )
 ;
+bool
+mIsDestroyed
+;
 }
 ;
 }
