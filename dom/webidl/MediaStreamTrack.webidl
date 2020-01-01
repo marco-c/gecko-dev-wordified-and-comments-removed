@@ -162,8 +162,6 @@ attribute
 DOMString
 label
 ;
-/
-/
 attribute
 boolean
 enabled
