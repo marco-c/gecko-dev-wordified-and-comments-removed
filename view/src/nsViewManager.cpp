@@ -155,6 +155,13 @@ Preferences
 h
 "
 #
+include
+"
+nsContentUtils
+.
+h
+"
+#
 define
 NSCOORD_NONE
 INT32_MIN
