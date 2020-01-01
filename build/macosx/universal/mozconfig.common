@@ -413,6 +413,11 @@ universal
 flight
 .
 mk
+DARWIN_VERSION
+=
+uname
+-
+r
 ac_add_app_options
 ppc
 -
@@ -424,6 +429,7 @@ powerpc
 apple
 -
 darwin
+DARWIN_VERSION
 ac_add_app_options
 i386
 -
@@ -435,6 +441,7 @@ i386
 apple
 -
 darwin
+DARWIN_VERSION
 ac_add_app_options
 x86_64
 -
@@ -446,6 +453,7 @@ x86_64
 apple
 -
 darwin
+DARWIN_VERSION
 ac_add_app_options
 ppc
 -

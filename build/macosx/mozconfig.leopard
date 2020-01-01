@@ -61,16 +61,6 @@ i386
 ac_add_options
 -
 -
-target
-=
-i386
--
-apple
--
-darwin
-ac_add_options
--
--
 with
 -
 macos
