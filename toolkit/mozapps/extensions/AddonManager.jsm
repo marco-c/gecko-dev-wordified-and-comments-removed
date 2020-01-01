@@ -1594,6 +1594,9 @@ return
 true
 ;
 }
+return
+false
+;
 }
 installAddonsFromWebpage
 :
