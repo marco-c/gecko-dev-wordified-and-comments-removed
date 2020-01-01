@@ -1740,9 +1740,8 @@ JS_DefinePropertyById
 cx
 innerObj
 interned_id
-desc
-.
-value
+*
+vp
 desc
 .
 getter
