@@ -113,9 +113,6 @@ h
 ifdef
 NS_BUILD_REFCNT_LOGGING
 #
-define
-DEBUG_DUMP_URLS_AT_SHUTDOWN
-#
 endif
 class
 nsIBinaryInputStream
