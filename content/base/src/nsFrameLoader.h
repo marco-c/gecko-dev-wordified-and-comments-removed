@@ -1167,12 +1167,6 @@ mVisible
 :
 1
 ;
-nsCOMPtr
-<
-nsIObserver
->
-mChildHost
-;
 RenderFrameParent
 *
 mCurrentRemoteFrame
