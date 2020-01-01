@@ -913,6 +913,16 @@ request
 .
 status
 )
+&
+&
+(
+this
+.
+expectedCode
+!
+=
+407
+)
 )
 do_throw
 (

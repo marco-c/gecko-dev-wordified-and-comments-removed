@@ -1347,6 +1347,11 @@ mAuthRetryPending
 1
 ;
 uint32_t
+mProxyAuthPending
+:
+1
+;
+uint32_t
 mResuming
 :
 1
