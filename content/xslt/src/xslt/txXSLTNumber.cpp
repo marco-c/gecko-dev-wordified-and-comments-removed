@@ -396,7 +396,7 @@ numberValue
 ;
 if
 (
-Double
+txDouble
 :
 :
 isInfinite
@@ -405,7 +405,7 @@ value
 )
 |
 |
-Double
+txDouble
 :
 :
 isNaN
@@ -421,7 +421,7 @@ value
 5
 )
 {
-Double
+txDouble
 :
 :
 toString
@@ -1216,7 +1216,7 @@ rv
 double
 size
 =
-Double
+txDouble
 :
 :
 toDouble

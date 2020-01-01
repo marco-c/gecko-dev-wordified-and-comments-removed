@@ -45,13 +45,6 @@ h
 #
 include
 "
-jsbuiltins
-.
-h
-"
-#
-include
-"
 jscompartment
 .
 h

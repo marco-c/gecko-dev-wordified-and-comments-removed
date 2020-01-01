@@ -288,11 +288,6 @@ nsIDOMEvent
 aEvent
 )
 ;
-bool
-IsInputAutoCompleteOff
-(
-)
-;
 nsCOMPtr
 <
 nsIAutoCompleteController

@@ -506,6 +506,12 @@ JS_FALSE
 ;
 }
 }
+else
+{
+return
+JS_FALSE
+;
+}
 JS_SET_RVAL
 (
 cx

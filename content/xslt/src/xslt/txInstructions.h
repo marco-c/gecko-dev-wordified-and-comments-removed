@@ -70,7 +70,7 @@ class
 txInstruction
 :
 public
-TxObject
+txObject
 {
 public
 :

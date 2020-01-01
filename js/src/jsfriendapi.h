@@ -1489,10 +1489,6 @@ enumerable
 properties
 *
 /
-#
-define
-JSFUN_TRCINFO
-0x2000
 }
 #
 endif

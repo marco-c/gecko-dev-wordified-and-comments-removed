@@ -7,6 +7,15 @@ nsCSSStyleSheet_h_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
@@ -299,7 +308,6 @@ NS_CSS_STYLE_SHEET_IMPL_CID
 }
 }
 class
-NS_FINAL_CLASS
 nsCSSStyleSheet
 :
 public
@@ -940,6 +948,7 @@ nsCSSStyleSheet
 &
 aCopy
 )
+MOZ_DELETE
 ;
 nsCSSStyleSheet
 &
@@ -951,6 +960,7 @@ nsCSSStyleSheet
 &
 aCopy
 )
+MOZ_DELETE
 ;
 protected
 :

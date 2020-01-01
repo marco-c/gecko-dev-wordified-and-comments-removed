@@ -1910,7 +1910,7 @@ mPrio
 ;
 if
 (
-Double
+txDouble
 :
 :
 isNaN
@@ -1931,7 +1931,7 @@ getDefaultPriority
 NS_ASSERTION
 (
 !
-Double
+txDouble
 :
 :
 isNaN

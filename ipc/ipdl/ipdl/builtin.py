@@ -181,6 +181,14 @@ Includes
 (
     
 '
+mozilla
+/
+Attributes
+.
+h
+'
+    
+'
 base
 /
 basictypes

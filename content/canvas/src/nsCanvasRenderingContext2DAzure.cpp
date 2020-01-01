@@ -15481,13 +15481,12 @@ NS_ERROR_NOT_AVAILABLE
 }
 if
 (
-!
 res
 .
 mSurface
 -
 >
-CairoSurface
+CairoStatus
 (
 )
 )

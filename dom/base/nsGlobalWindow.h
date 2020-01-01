@@ -1429,6 +1429,12 @@ PreventFurtherDialogs
 (
 )
 ;
+virtual
+void
+SetHasAudioAvailableEventListeners
+(
+)
+;
 nsIScriptContext
 *
 GetContextInternal

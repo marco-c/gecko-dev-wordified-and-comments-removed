@@ -293,7 +293,7 @@ class
 GlobalVariable
 :
 public
-TxObject
+txObject
 {
 public
 :

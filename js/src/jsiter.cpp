@@ -66,13 +66,6 @@ h
 #
 include
 "
-jsbuiltins
-.
-h
-"
-#
-include
-"
 jscntxt
 .
 h
@@ -1803,11 +1796,6 @@ runningWithTrustedPrincipals
 +
 +
 sCustomIteratorCount
-;
-LeaveTrace
-(
-cx
-)
 ;
 Value
 arg
@@ -6757,11 +6745,6 @@ uintN
 argc
 )
 {
-LeaveTrace
-(
-cx
-)
-;
 CallArgs
 args
 =

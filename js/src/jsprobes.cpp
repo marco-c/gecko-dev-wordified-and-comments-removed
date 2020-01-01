@@ -1057,17 +1057,6 @@ nullName
 ;
 if
 (
-!
-(
-fun
--
->
-flags
-&
-JSFUN_TRCINFO
-)
-&
-&
 fun
 -
 >
