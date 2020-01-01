@@ -55,6 +55,10 @@ MAC_OS_X_VERSION_10_5_HEX
 define
 MAC_OS_X_VERSION_10_6_HEX
 0x00001060
+#
+define
+MAC_OS_X_VERSION_10_7_HEX
+0x00001070
 class
 nsToolkit
 :
@@ -84,6 +88,12 @@ OSXVersion
 static
 PRBool
 OnSnowLeopardOrLater
+(
+)
+;
+static
+PRBool
+OnLionOrLater
 (
 )
 ;
