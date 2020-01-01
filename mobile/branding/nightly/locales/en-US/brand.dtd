@@ -3,7 +3,7 @@
 ENTITY
 brandShortName
 "
-Fennec
+Nightly
 "
 >
 <
@@ -12,7 +12,7 @@ ENTITY
 brandFullName
 "
 Mozilla
-Fennec
+Nightly
 "
 >
 <

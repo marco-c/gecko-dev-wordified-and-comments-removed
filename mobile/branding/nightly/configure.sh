@@ -1,6 +1,6 @@
 MOZ_APP_DISPLAYNAME
 =
-Fennec
+Nightly
 MOZ_UPDATER
 =
 1
