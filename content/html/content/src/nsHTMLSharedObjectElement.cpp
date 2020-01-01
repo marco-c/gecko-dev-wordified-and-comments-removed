@@ -1016,7 +1016,7 @@ nsHTMLSharedObjectElement
 :
 GetSVGDocument
 (
-nsIDOMSVGDocument
+nsIDOMDocument
 *
 *
 aResult
