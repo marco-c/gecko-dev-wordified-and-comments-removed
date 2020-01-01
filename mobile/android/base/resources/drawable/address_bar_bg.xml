@@ -90,7 +90,7 @@ android
 tileMode
 =
 "
-mirror
+repeat
 "
 android
 :
