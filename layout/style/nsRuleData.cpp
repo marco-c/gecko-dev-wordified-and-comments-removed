@@ -8,7 +8,9 @@ h
 #
 include
 "
-nsPresArena
+mozilla
+/
+Poison
 .
 h
 "
@@ -100,10 +102,7 @@ unsigned
 uintptr_t
 framePoisonValue
 =
-nsPresArena
-:
-:
-GetPoisonValue
+mozPoisonValue
 (
 )
 ;
