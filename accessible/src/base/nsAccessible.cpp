@@ -7404,7 +7404,7 @@ if
 (
 attrFlags
 &
-ATTR_EXPOSEOBJ
+ATTR_BYPASSOBJ
 )
 continue
 ;

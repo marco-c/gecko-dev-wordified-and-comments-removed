@@ -48,7 +48,7 @@ ePoliteLiveAttr
 ;
 const
 PRUint8
-ATTR_EXPOSEOBJ
+ATTR_BYPASSOBJ
 =
 0x0001
 ;
