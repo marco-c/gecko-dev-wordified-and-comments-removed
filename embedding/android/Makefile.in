@@ -446,6 +446,10 @@ GeckoSurfaceView
 .
 java
 \
+GeckoInputConnection
+.
+java
+\
 (
 NULL
 )
