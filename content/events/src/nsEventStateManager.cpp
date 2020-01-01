@@ -21187,6 +21187,15 @@ GetPresContext
 )
 ;
 }
+nsIMEStateManager
+:
+:
+OnRemoveContent
+(
+mPresContext
+aContent
+)
+;
 nsFocusManager
 *
 fm

@@ -265,6 +265,10 @@ DOMWheelEvent
 .
 cpp
 \
+TextComposition
+.
+cpp
+\
 (
 NULL
 )

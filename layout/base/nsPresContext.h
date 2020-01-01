@@ -534,6 +534,17 @@ GetToplevelContentDocumentPresContext
 (
 )
 ;
+nsIWidget
+*
+GetNearestWidget
+(
+nsPoint
+*
+aOffset
+=
+nullptr
+)
+;
 nsRootPresContext
 *
 GetRootPresContext

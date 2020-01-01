@@ -617,6 +617,13 @@ DateCacheCleaner
 .
 h
 "
+#
+include
+"
+nsIMEStateManager
+.
+h
+"
 extern
 void
 NS_ShutdownChainItemPool
@@ -1415,6 +1422,13 @@ Shutdown
 )
 ;
 nsEventListenerManager
+:
+:
+Shutdown
+(
+)
+;
+nsIMEStateManager
 :
 :
 Shutdown
