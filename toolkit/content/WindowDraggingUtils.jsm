@@ -98,6 +98,9 @@ radiogroup
 "
 deck
 "
+"
+scrollbox
+"
 ]
 handleEvent
 :
