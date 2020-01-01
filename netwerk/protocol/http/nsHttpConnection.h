@@ -444,7 +444,7 @@ OnSocketReadable
 )
 ;
 nsresult
-SetupSSLProxyConnect
+SetupProxyConnect
 (
 )
 ;
@@ -490,7 +490,7 @@ nsCOMPtr
 <
 nsIInputStream
 >
-mSSLProxyConnectStream
+mProxyConnectStream
 ;
 nsCOMPtr
 <
@@ -556,7 +556,7 @@ PRPackedBool
 mIsReused
 ;
 PRPackedBool
-mCompletedSSLConnect
+mCompletedProxyConnect
 ;
 PRPackedBool
 mLastTransactionExpectedNoContent

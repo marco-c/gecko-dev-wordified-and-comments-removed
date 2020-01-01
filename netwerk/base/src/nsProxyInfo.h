@@ -138,6 +138,10 @@ mFlags
 (
 0
 )
+mResolveFlags
+(
+0
+)
 mTimeout
 (
 PR_UINT32_MAX
@@ -172,6 +176,9 @@ mPort
 ;
 PRUint32
 mFlags
+;
+PRUint32
+mResolveFlags
 ;
 PRUint32
 mTimeout

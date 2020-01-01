@@ -456,6 +456,11 @@ A
 )
 ;
 }
+PRBool
+ShouldForceConnectMethod
+(
+)
+;
 private
 :
 nsrefcnt

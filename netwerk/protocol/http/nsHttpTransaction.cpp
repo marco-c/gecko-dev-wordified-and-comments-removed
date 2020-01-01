@@ -811,6 +811,15 @@ pruneProxyHeaders
 cinfo
 -
 >
+ShouldForceConnectMethod
+(
+)
+|
+|
+(
+cinfo
+-
+>
 UsingSSL
 (
 )
@@ -821,6 +830,7 @@ cinfo
 >
 UsingHttpProxy
 (
+)
 )
 ;
 mReqHeaderBuf

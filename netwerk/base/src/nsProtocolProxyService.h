@@ -203,6 +203,8 @@ const
 char
 *
 proxy
+PRUint32
+aResolveFlags
 nsProxyInfo
 *
 *
@@ -233,6 +235,8 @@ const
 nsCString
 &
 pacString
+PRUint32
+aResolveFlags
 nsIProxyInfo
 *
 *
@@ -331,6 +335,8 @@ timeout
 nsIProxyInfo
 *
 next
+PRUint32
+aResolveFlags
 nsIProxyInfo
 *
 *
