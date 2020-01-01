@@ -1,6 +1,3 @@
-Testing
-new
-branch
 An
 explanation
 of
