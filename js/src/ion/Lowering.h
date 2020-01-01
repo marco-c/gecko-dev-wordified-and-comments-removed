@@ -1127,6 +1127,14 @@ ins
 )
 ;
 bool
+visitIn
+(
+MIn
+*
+ins
+)
+;
+bool
 visitInstanceOf
 (
 MInstanceOf
