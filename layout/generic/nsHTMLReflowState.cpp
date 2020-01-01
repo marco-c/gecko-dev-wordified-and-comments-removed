@@ -4277,15 +4277,6 @@ mPosition
 =
 =
 NS_STYLE_POSITION_FIXED
-&
-&
-nsLayoutUtils
-:
-:
-IsReallyFixedPos
-(
-frame
-)
 )
 {
 cbOffset
