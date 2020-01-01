@@ -138,6 +138,10 @@ file_SpecialPowersFrame1
 .
 html
 \
+test_bug816847
+.
+html
+\
 (
 NULL
 )
