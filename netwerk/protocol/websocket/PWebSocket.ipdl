@@ -475,6 +475,12 @@ IPC
 :
 URI
 ;
+using
+IPC
+:
+:
+InputStream
+;
 namespace
 mozilla
 {
@@ -529,6 +535,14 @@ SendBinaryMsg
 (
 nsCString
 aMsg
+)
+;
+SendBinaryStream
+(
+InputStream
+aStream
+PRUint32
+aLength
 )
 ;
 DeleteSelf

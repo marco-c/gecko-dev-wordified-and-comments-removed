@@ -79,7 +79,6 @@ WebSocketChannelChild
 )
 ;
 NS_DECL_ISUPPORTS
-NS_SCRIPTABLE
 NS_IMETHOD
 AsyncOpen
 (
@@ -98,7 +97,6 @@ nsISupports
 aContext
 )
 ;
-NS_SCRIPTABLE
 NS_IMETHOD
 Close
 (
@@ -110,7 +108,6 @@ nsACString
 reason
 )
 ;
-NS_SCRIPTABLE
 NS_IMETHOD
 SendMsg
 (
@@ -120,7 +117,6 @@ nsACString
 aMsg
 )
 ;
-NS_SCRIPTABLE
 NS_IMETHOD
 SendBinaryMsg
 (
@@ -130,7 +126,16 @@ nsACString
 aMsg
 )
 ;
-NS_SCRIPTABLE
+NS_IMETHOD
+SendBinaryStream
+(
+nsIInputStream
+*
+aStream
+PRUint32
+aLength
+)
+;
 NS_IMETHOD
 GetSecurityInfo
 (
