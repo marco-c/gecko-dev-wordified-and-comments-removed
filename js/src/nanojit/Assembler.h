@@ -389,6 +389,7 @@ None
 0
 StackFull
 UnknownBranch
+ConditionalBranchTooFar
 }
 ;
 typedef
