@@ -12046,6 +12046,9 @@ mSlots
 >
 mDropOrient
 ;
+#
+ifndef
+XP_MACOSX
 PRInt16
 lastScrollLines
 =
@@ -12054,6 +12057,8 @@ mSlots
 >
 mScrollLines
 ;
+#
+endif
 PRUint32
 lastDragAction
 =
