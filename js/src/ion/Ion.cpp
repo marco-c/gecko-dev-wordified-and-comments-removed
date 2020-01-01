@@ -9290,7 +9290,7 @@ fp
 break
 ;
 case
-IonFrame_Bailed_JS
+IonFrame_Unwound_OptimizedJS
 :
 JS_NOT_REACHED
 (
@@ -9302,7 +9302,7 @@ invalid
 break
 ;
 case
-IonFrame_Bailed_Rectifier
+IonFrame_Unwound_Rectifier
 :
 IonSpew
 (
@@ -9311,7 +9311,7 @@ IonSpew_Invalidate
 #
 %
 d
-bailed
+unwound
 rectifier
 frame
 %

@@ -43,8 +43,8 @@ FrameType
 IonFrame_OptimizedJS
 IonFrame_Entry
 IonFrame_Rectifier
-IonFrame_Bailed_JS
-IonFrame_Bailed_Rectifier
+IonFrame_Unwound_OptimizedJS
+IonFrame_Unwound_Rectifier
 IonFrame_Exit
 IonFrame_Osr
 }

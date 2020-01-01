@@ -382,7 +382,7 @@ IonRectifierFrameLayout
 }
 ;
 class
-IonBailedRectifierFrameLayout
+IonUnwoundRectifierFrameLayout
 :
 public
 IonJSFrameLayout
@@ -399,7 +399,7 @@ Size
 return
 sizeof
 (
-IonBailedRectifierFrameLayout
+IonUnwoundRectifierFrameLayout
 )
 ;
 }

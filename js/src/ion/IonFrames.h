@@ -702,6 +702,14 @@ rfe
 )
 ;
 void
+EnsureExitFrame
+(
+IonCommonFrameLayout
+*
+frame
+)
+;
+void
 MarkIonActivations
 (
 JSRuntime
