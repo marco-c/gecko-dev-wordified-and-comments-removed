@@ -425,7 +425,7 @@ MOZ_OVERRIDE
 ;
 static
 nsresult
-ConvertCloneReadInfosToArray
+ConvertToArrayAndCleanup
 (
 JSContext
 *

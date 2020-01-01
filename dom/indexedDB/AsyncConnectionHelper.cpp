@@ -2466,7 +2466,7 @@ nsresult
 AsyncConnectionHelper
 :
 :
-ConvertCloneReadInfosToArray
+ConvertToArrayAndCleanup
 (
 JSContext
 *
