@@ -726,7 +726,7 @@ cmd_delete
 class
 =
 "
-downloadRemoveFromListMenuItem
+downloadRemoveFromHistoryMenuItem
 "
 label
 =
