@@ -6509,7 +6509,7 @@ standard_class_names
 =
 {
 {
-js_InitObjectClass
+js_InitEval
 EAGER_ATOM
 (
 eval
