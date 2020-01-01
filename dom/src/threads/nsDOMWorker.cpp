@@ -5360,7 +5360,7 @@ eKilled
 return
 ;
 }
-DOMWorkerStatus
+Status
 oldStatus
 =
 mStatus

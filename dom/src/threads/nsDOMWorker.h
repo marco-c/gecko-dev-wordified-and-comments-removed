@@ -464,7 +464,7 @@ GetExpirationTime
 #
 endif
 enum
-DOMWorkerStatus
+Status
 {
 eRunning
 =
@@ -695,7 +695,7 @@ mURI
 PRInt32
 mErrorHandlerRecursionCount
 ;
-DOMWorkerStatus
+Status
 mStatus
 ;
 PRIntervalTime
