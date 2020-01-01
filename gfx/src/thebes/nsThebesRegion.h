@@ -196,6 +196,12 @@ nsRegionRectSet
 aRects
 )
 ;
+nsIntRegion
+GetUnderlyingRegion
+(
+)
+const
+;
 NS_IMETHOD
 GetNativeRegion
 (
@@ -226,7 +232,7 @@ const
 ;
 protected
 :
-nsRegion
+nsIntRegion
 mRegion
 ;
 }

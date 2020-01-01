@@ -95,7 +95,7 @@ aHeight
 {
 mRegion
 =
-nsRect
+nsIntRect
 (
 aX
 aY
@@ -165,7 +165,7 @@ mRegion
 And
 (
 mRegion
-nsRect
+nsIntRect
 (
 aX
 aY
@@ -236,7 +236,7 @@ mRegion
 Or
 (
 mRegion
-nsRect
+nsIntRect
 (
 aX
 aY
@@ -307,7 +307,7 @@ mRegion
 Sub
 (
 mRegion
-nsRect
+nsIntRect
 (
 aX
 aY
@@ -394,7 +394,7 @@ PRInt32
 aHeight
 )
 {
-nsRect
+nsIntRect
 BoundRect
 ;
 BoundRect
@@ -471,7 +471,7 @@ PRInt32
 aHeight
 )
 {
-nsRegion
+nsIntRegion
 TmpRegion
 ;
 TmpRegion
@@ -479,7 +479,7 @@ TmpRegion
 And
 (
 mRegion
-nsRect
+nsIntRect
 (
 aX
 aY
@@ -662,7 +662,7 @@ aRects
 =
 pRegionSet
 ;
-nsRegionRectIterator
+nsIntRegionRectIterator
 ri
 (
 mRegion
@@ -682,7 +682,7 @@ mRects
 ]
 ;
 const
-nsRect
+nsIntRect
 *
 pSrc
 ;
@@ -781,6 +781,19 @@ aRects
 ;
 return
 NS_OK
+;
+}
+nsIntRegion
+nsThebesRegion
+:
+:
+GetUnderlyingRegion
+(
+)
+const
+{
+return
+mRegion
 ;
 }
 NS_IMETHODIMP
