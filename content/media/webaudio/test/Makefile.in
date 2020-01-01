@@ -115,10 +115,6 @@ test_gainNode
 .
 html
 \
-test_pannerNode
-.
-html
-\
 test_singleSourceDest
 .
 html
