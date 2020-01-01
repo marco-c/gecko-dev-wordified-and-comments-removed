@@ -988,7 +988,7 @@ d
 mEndings
 =
 =
-EndingTypesValues
+EndingTypes
 :
 :
 Native
@@ -1047,7 +1047,7 @@ d
 mEndings
 =
 =
-EndingTypesValues
+EndingTypes
 :
 :
 Native

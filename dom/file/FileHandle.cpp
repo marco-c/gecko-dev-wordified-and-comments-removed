@@ -269,7 +269,7 @@ readwrite
 {
 mode
 =
-FileModeValues
+FileMode
 :
 :
 Readwrite
@@ -290,7 +290,7 @@ readonly
 {
 mode
 =
-FileModeValues
+FileMode
 :
 :
 Readonly
@@ -307,7 +307,7 @@ else
 {
 mode
 =
-FileModeValues
+FileMode
 :
 :
 Readonly
@@ -402,7 +402,7 @@ static_cast
 uint32_t
 >
 (
-FileModeValues
+FileMode
 :
 :
 Readonly
@@ -435,7 +435,7 @@ static_cast
 uint32_t
 >
 (
-FileModeValues
+FileMode
 :
 :
 Readwrite
@@ -473,15 +473,18 @@ LockedFile
 Create
 (
 this
-static_cast
-<
 LockedFile
 :
 :
 Mode
+(
+static_cast
+<
+int
 >
 (
 aMode
+)
 )
 )
 ;

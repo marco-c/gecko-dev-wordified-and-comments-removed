@@ -242,7 +242,7 @@ aDirection
 )
 {
 case
-NotificationDirectionValues
+NotificationDirection
 :
 :
 Ltr
@@ -256,7 +256,7 @@ ltr
 )
 ;
 case
-NotificationDirectionValues
+NotificationDirection
 :
 :
 Rtl

@@ -918,6 +918,9 @@ type
 )
 ;
 return
+XMLHttpRequestResponseType
+:
+:
 _empty
 ;
 }
@@ -5570,7 +5573,7 @@ aWorkerPrivate
 )
 mResponseType
 (
-XMLHttpRequestResponseTypeValues
+XMLHttpRequestResponseType
 :
 :
 Text
@@ -8276,7 +8279,7 @@ if
 aResponseType
 =
 =
-XMLHttpRequestResponseTypeValues
+XMLHttpRequestResponseType
 :
 :
 Document

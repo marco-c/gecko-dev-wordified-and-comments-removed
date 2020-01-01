@@ -328,7 +328,7 @@ readyState
 )
 {
 case
-DOMRequestReadyStateValues
+DOMRequestReadyState
 :
 :
 Pending
@@ -345,7 +345,7 @@ pending
 break
 ;
 case
-DOMRequestReadyStateValues
+DOMRequestReadyState
 :
 :
 Done

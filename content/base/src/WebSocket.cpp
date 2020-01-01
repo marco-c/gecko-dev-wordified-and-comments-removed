@@ -1937,7 +1937,10 @@ mOutgoingBufferedAmount
 )
 mBinaryType
 (
-BinaryTypeValues
+dom
+:
+:
+BinaryType
 :
 :
 Blob
@@ -3823,7 +3826,10 @@ if
 mBinaryType
 =
 =
-BinaryTypeValues
+dom
+:
+:
+BinaryType
 :
 :
 Blob
@@ -3854,7 +3860,10 @@ if
 mBinaryType
 =
 =
-BinaryTypeValues
+dom
+:
+:
+BinaryType
 :
 :
 Arraybuffer

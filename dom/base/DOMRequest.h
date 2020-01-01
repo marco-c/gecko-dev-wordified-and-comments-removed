@@ -141,12 +141,12 @@ const
 return
 mDone
 ?
-DOMRequestReadyStateValues
+DOMRequestReadyState
 :
 :
 Done
 :
-DOMRequestReadyStateValues
+DOMRequestReadyState
 :
 :
 Pending

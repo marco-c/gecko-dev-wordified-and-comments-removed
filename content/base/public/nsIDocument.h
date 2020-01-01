@@ -5056,7 +5056,7 @@ mozilla
 dom
 :
 :
-VisibilityStateValues
+VisibilityState
 :
 :
 Visible
