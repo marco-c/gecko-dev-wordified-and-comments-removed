@@ -4173,14 +4173,14 @@ IsDestroyed
 )
 )
 {
-mGLContext
+ctx
 -
 >
 MakeCurrent
 (
 )
 ;
-mGLContext
+ctx
 -
 >
 fDeleteTextures
