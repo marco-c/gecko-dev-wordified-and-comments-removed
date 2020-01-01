@@ -457,6 +457,7 @@ this
 _inspector
 .
 selection
+true
 )
 ;
 }
@@ -1156,6 +1157,7 @@ this
 showNode
 (
 node
+false
 )
 ;
 this
@@ -1544,6 +1546,7 @@ function
 MT_showNode
 (
 aNode
+centered
 )
 {
 this
@@ -1599,7 +1602,7 @@ aNode
 editor
 .
 elt
-false
+centered
 )
 ;
 }
