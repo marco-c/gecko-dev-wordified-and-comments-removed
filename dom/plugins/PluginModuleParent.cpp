@@ -949,6 +949,7 @@ CreatePairedMinidumps
 OtherProcess
 (
 )
+0
 &
 mHangID
 getter_AddRefs
