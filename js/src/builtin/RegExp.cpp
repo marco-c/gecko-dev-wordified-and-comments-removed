@@ -95,7 +95,7 @@ js_DefineProperty
 (
 cx
 array
-ATOM_TO_JSID
+AtomToId
 (
 name
 )
@@ -2463,7 +2463,7 @@ createConstructor
 (
 cx
 regexp_construct
-CLASS_ATOM
+CLASS_NAME
 (
 cx
 RegExp

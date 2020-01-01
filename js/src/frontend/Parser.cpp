@@ -9199,7 +9199,7 @@ redeclared
 jsid
 id
 =
-ATOM_TO_JSID
+AtomToId
 (
 atom
 )

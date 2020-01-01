@@ -1108,7 +1108,7 @@ DefineNativeProperty
 (
 cx
 scopeChain
-ATOM_TO_JSID
+AtomToId
 (
 lambdaName
 )
@@ -1890,7 +1890,7 @@ cx
 jsid
 id
 =
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -2548,7 +2548,7 @@ with_LookupGeneric
 (
 cx
 obj
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -2710,7 +2710,7 @@ with_GetGeneric
 cx
 obj
 receiver
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -4241,7 +4241,7 @@ cx
 jsid
 id
 =
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -4957,7 +4957,7 @@ runtime
 >
 emptyString
 ?
-ATOM_TO_JSID
+AtomToId
 (
 atom
 )

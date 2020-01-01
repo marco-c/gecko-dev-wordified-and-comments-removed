@@ -2790,7 +2790,7 @@ popCopy
 jsid
 propid
 =
-ATOM_TO_JSID
+AtomToId
 (
 &
 valueStack

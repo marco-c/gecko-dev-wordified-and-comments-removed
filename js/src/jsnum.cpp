@@ -5132,7 +5132,7 @@ createConstructor
 (
 cx
 Number
-CLASS_ATOM
+CLASS_NAME
 (
 cx
 Number
@@ -5208,7 +5208,7 @@ DefineNativeProperty
 (
 cx
 global
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -5242,7 +5242,7 @@ DefineNativeProperty
 (
 cx
 global
-ATOM_TO_JSID
+NameToId
 (
 cx
 -

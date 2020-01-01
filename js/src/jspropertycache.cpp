@@ -933,12 +933,9 @@ pobj
 nativeContains
 (
 cx
-js_CheckForStringIndex
-(
-ATOM_TO_JSID
+NameToId
 (
 name
-)
 )
 )
 )

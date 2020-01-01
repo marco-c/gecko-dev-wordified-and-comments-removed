@@ -885,7 +885,7 @@ JS_FALSE
 *
 idp
 =
-ATOM_TO_JSID
+NON_INTEGER_ATOM_TO_JSID
 (
 atom
 )
@@ -1053,7 +1053,7 @@ idp
 )
 {
 return
-js_ValueToStringId
+ValueToId
 (
 cx
 DoubleValue
@@ -3194,7 +3194,7 @@ array_lookupGeneric
 (
 cx
 obj
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -3548,7 +3548,7 @@ RootedVarObject
 cx
 receiver
 )
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -4296,7 +4296,7 @@ array_setGeneric
 (
 cx
 obj
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -4860,7 +4860,7 @@ array_defineGeneric
 (
 cx
 obj
-ATOM_TO_JSID
+NameToId
 (
 name
 )
@@ -5866,7 +5866,7 @@ const
 jsid
 lengthId
 =
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -7415,7 +7415,7 @@ false
 jsid
 id
 =
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -8293,7 +8293,7 @@ vector
 if
 (
 !
-js_ValueToStringId
+ValueToId
 (
 cx
 idval
@@ -17626,7 +17626,7 @@ createConstructor
 (
 cx
 js_Array
-CLASS_ATOM
+CLASS_NAME
 (
 cx
 Array

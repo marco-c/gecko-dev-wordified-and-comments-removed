@@ -160,7 +160,7 @@ self
 nativeLookupNoAllocation
 (
 cx
-ATOM_TO_JSID
+NameToId
 (
 cx
 -

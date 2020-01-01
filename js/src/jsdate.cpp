@@ -12690,7 +12690,7 @@ createConstructor
 (
 cx
 js_Date
-CLASS_ATOM
+CLASS_NAME
 (
 cx
 Date
@@ -12752,7 +12752,7 @@ toUTCStringFun
 jsid
 toUTCStringId
 =
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -12768,7 +12768,7 @@ toUTCStringAtom
 jsid
 toGMTStringId
 =
-ATOM_TO_JSID
+NameToId
 (
 cx
 -

@@ -832,7 +832,7 @@ js_DefineFunction
 (
 cx
 objRoot
-ATOM_TO_JSID
+AtomToId
 (
 atom
 )
@@ -1315,7 +1315,7 @@ js_DefineFunction
 (
 cx
 objRoot
-ATOM_TO_JSID
+AtomToId
 (
 atom
 )

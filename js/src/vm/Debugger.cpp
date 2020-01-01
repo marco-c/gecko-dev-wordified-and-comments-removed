@@ -3663,7 +3663,7 @@ JSTRAP_RETURN
 :
 key
 =
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -3683,7 +3683,7 @@ JSTRAP_THROW
 :
 key
 =
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -3946,7 +3946,7 @@ shape
 jsid
 returnId
 =
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -3962,7 +3962,7 @@ returnAtom
 jsid
 throwId
 =
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -4233,7 +4233,7 @@ js_GetMethod
 (
 cx
 obj
-ATOM_TO_JSID
+AtomToId
 (
 atom
 )
@@ -16963,7 +16963,7 @@ DefineNativeProperty
 (
 cx
 argsobj
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
