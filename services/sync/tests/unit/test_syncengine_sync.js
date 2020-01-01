@@ -5189,9 +5189,7 @@ engine
 :
 sync
 :
-apply
--
-failed
+applied
 "
 function
 (
@@ -5217,6 +5215,12 @@ counts
 =
 count
 ;
+if
+(
+count
+.
+newFailed
+)
 called
 +
 +
