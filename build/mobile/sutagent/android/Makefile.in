@@ -455,10 +455,6 @@ FindProcThread
 .
 java
 \
-NtpMessage
-.
-java
-\
 Power
 .
 java

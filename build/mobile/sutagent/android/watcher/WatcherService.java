@@ -3873,6 +3873,8 @@ theArgs
 "
 pm
 install
+-
+r
 "
 +
 sApp
