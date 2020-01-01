@@ -952,7 +952,7 @@ win
 win
 -
 >
-HasDestroyStarted
+Destroyed
 (
 )
 )

@@ -147,6 +147,16 @@ mLastData
 ;
 }
 bool
+IsSynthesizedForTests
+(
+)
+const
+{
+return
+mIsSynthesizedForTests
+;
+}
+bool
 MatchesNativeContext
 (
 nsIWidget
@@ -202,6 +212,9 @@ mNativeContext
 ;
 nsString
 mLastData
+;
+bool
+mIsSynthesizedForTests
 ;
 TextComposition
 (

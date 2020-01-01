@@ -790,6 +790,10 @@ mPrevSibling
 (
 nullptr
 )
+mOnDestroyCalled
+(
+false
+)
 {
 }
 NS_IMETHOD
@@ -903,6 +907,16 @@ void
 =
 0
 ;
+bool
+Destroyed
+(
+)
+const
+{
+return
+mOnDestroyCalled
+;
+}
 NS_IMETHOD
 SetParent
 (
@@ -2350,6 +2364,9 @@ mNextSibling
 nsIWidget
 *
 mPrevSibling
+;
+bool
+mOnDestroyCalled
 ;
 }
 ;
