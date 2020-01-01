@@ -3526,7 +3526,7 @@ TextureImage
 ThreadShared
 )
 return
-nsnull
+0
 ;
 if
 (
@@ -3534,7 +3534,7 @@ if
 mShareWithEGLImage
 )
 return
-nsnull
+0
 ;
 MakeCurrent
 (
@@ -3610,7 +3610,7 @@ tex
 )
 ;
 return
-nsnull
+0
 ;
 }
 return
@@ -3649,7 +3649,7 @@ TextureImage
 ThreadShared
 )
 return
-nsnull
+0
 ;
 switch
 (
@@ -3686,7 +3686,7 @@ GL_OES_EGL_image_external
 )
 ;
 return
-nsnull
+0
 ;
 }
 return
@@ -3721,7 +3721,7 @@ if
 mShareWithEGLImage
 )
 return
-nsnull
+0
 ;
 GLuint
 texture
@@ -3769,7 +3769,7 @@ delete
 tex
 ;
 return
-nsnull
+0
 ;
 }
 return
@@ -3793,7 +3793,7 @@ type
 )
 ;
 return
-nsnull
+0
 ;
 }
 }
