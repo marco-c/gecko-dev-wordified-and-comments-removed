@@ -732,6 +732,17 @@ const
 0
 ;
 virtual
+bool
+IsValid
+(
+)
+const
+{
+return
+true
+;
+}
+virtual
 TemporaryRef
 <
 DataSourceSurface
