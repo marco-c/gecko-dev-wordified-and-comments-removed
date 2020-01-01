@@ -146,6 +146,13 @@ nspr
 .
 h
 "
+#
+include
+"
+nsXULAppAPI
+.
+h
+"
 extern
 PRLogModuleInfo
 *
@@ -1104,7 +1111,7 @@ rv
 =
 NS_GetSpecialDirectory
 (
-NS_XPCOM_CURRENT_PROCESS_DIR
+XRE_EXECUTABLE_FILE
 getter_AddRefs
 (
 jsFile
@@ -1126,7 +1133,7 @@ rv
 jsFile
 -
 >
-AppendNative
+SetNativeLeafName
 (
 nsDependentCString
 (
