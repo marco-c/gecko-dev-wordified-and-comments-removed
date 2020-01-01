@@ -301,6 +301,12 @@ IsShorthand
 (
 mPropID
 )
+|
+|
+mPropID
+=
+=
+eCSSProperty_display
 )
 {
 nsSMILValue
