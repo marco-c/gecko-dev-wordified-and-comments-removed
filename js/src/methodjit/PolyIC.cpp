@@ -9606,7 +9606,6 @@ obj
 ;
 }
 void
-JS_FASTCALL
 ic
 :
 :
