@@ -2009,14 +2009,6 @@ no
 )
 )
 ;
-Weave
-.
-Service
-.
-startOver
-(
-)
-;
 }
 finally
 {
