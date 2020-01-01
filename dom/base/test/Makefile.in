@@ -197,6 +197,10 @@ test_messageChannel_transferable
 .
 html
 \
+test_messageChannel_start
+.
+html
+\
 (
 NULL
 )
