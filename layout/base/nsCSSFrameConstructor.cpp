@@ -19367,7 +19367,7 @@ NS_NewSVGContainerFrame
 )
 SIMPLE_SVG_CREATE
 (
-generic
+generic_
 NS_NewSVGGenericContainerFrame
 )
 {
