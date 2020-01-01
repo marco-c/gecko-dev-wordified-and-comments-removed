@@ -64,11 +64,11 @@ MPL
 ENTITY
 checkbox
 .
-yes
+on
 .
 label
 "
-Yes
+On
 "
 >
 <
@@ -76,10 +76,10 @@ Yes
 ENTITY
 checkbox
 .
-no
+off
 .
 label
 "
-No
+Off
 "
 >

@@ -229,7 +229,7 @@ value
 &
 checkbox
 .
-yes
+on
 .
 label
 ;
@@ -265,7 +265,7 @@ value
 &
 checkbox
 .
-no
+off
 .
 label
 ;
