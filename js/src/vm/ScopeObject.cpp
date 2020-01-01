@@ -830,9 +830,10 @@ cx
 compartment
 -
 >
-getEmptyType
+getNewType
 (
 cx
+NULL
 )
 )
 ;
@@ -1314,9 +1315,10 @@ cx
 compartment
 -
 >
-getEmptyType
+getNewType
 (
 cx
+NULL
 )
 )
 ;
@@ -1533,7 +1535,10 @@ getInitialShape
 cx
 &
 WithClass
+TaggedProto
+(
 proto
+)
 &
 enclosing
 -
@@ -3326,9 +3331,10 @@ cx
 compartment
 -
 >
-getEmptyType
+getNewType
 (
 cx
+NULL
 )
 )
 ;

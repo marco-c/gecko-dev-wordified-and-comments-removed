@@ -188,7 +188,10 @@ getInitialShape
 (
 cx
 clasp
+TaggedProto
+(
 proto
+)
 proto
 -
 >

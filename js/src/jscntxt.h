@@ -972,8 +972,10 @@ entry
 Class
 *
 clasp
-JSObject
-*
+js
+:
+:
+TaggedProto
 proto
 gc
 :
