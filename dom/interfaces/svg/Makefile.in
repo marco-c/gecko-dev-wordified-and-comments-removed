@@ -168,10 +168,6 @@ nsIDOMSVGRect
 .
 idl
 \
-nsIDOMSVGRectElement
-.
-idl
-\
 nsIDOMSVGScriptElement
 .
 idl
