@@ -964,7 +964,7 @@ vbox
 pack
 =
 "
-start
+center
 "
 >
 <
@@ -1230,7 +1230,7 @@ vbox
 pack
 =
 "
-start
+center
 "
 >
 <
@@ -1567,7 +1567,7 @@ vbox
 pack
 =
 "
-start
+center
 "
 >
 <
@@ -1904,7 +1904,7 @@ vbox
 pack
 =
 "
-start
+center
 "
 >
 <
@@ -2240,7 +2240,7 @@ vbox
 pack
 =
 "
-start
+center
 "
 >
 <
@@ -2576,7 +2576,7 @@ vbox
 pack
 =
 "
-start
+center
 "
 >
 <
@@ -2912,7 +2912,7 @@ vbox
 pack
 =
 "
-start
+center
 "
 >
 <
@@ -3195,7 +3195,7 @@ vbox
 pack
 =
 "
-start
+center
 "
 >
 <
@@ -3467,7 +3467,7 @@ vbox
 pack
 =
 "
-start
+center
 "
 >
 <
