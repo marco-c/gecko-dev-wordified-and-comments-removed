@@ -1670,6 +1670,10 @@ permissions
 AddonManager
 .
 PERM_CAN_UNINSTALL
+|
+AddonManager
+.
+PERM_CAN_DISABLE
 )
 ;
 do_check_eq
@@ -2076,6 +2080,10 @@ permissions
 AddonManager
 .
 PERM_CAN_UNINSTALL
+|
+AddonManager
+.
+PERM_CAN_DISABLE
 )
 ;
 do_check_neq
@@ -2121,7 +2129,7 @@ permissions
 AddonManager
 .
 PERM_CAN_UNINSTALL
-+
+|
 AddonManager
 .
 PERM_CAN_ENABLE
