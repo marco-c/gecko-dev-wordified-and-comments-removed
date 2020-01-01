@@ -58,6 +58,12 @@ emms
 define
 MMX_MOVNTQ
 "
+movq
+"
+#
+define
+SSE_MOVNTQ
+"
 movntq
 "
 #
