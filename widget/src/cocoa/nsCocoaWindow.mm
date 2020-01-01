@@ -486,13 +486,6 @@ h
 #
 include
 "
-nsCocoaUtils
-.
-h
-"
-#
-include
-"
 nsChildView
 .
 h
@@ -9529,10 +9522,10 @@ void
 *
 aInfo
 const
-float
+CGFloat
 *
 aIn
-float
+CGFloat
 *
 aOut
 )
@@ -11622,8 +11615,7 @@ aContentRect
 styleMask
 :
 (
-unsigned
-int
+NSUInteger
 )
 aStyle
 backing
@@ -13278,7 +13270,7 @@ CGColorSpaceRelease
 patternSpace
 )
 ;
-float
+CGFloat
 component
 =
 1
@@ -14406,8 +14398,7 @@ contentRect
 styleMask
 :
 (
-unsigned
-int
+NSUInteger
 )
 styleMask
 backing
