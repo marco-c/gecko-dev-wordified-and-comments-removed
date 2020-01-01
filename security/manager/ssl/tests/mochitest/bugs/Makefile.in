@@ -453,6 +453,10 @@ test_bug480509
 .
 html
 \
+test_bug483440
+.
+html
+\
 test_bug484111
 .
 html
