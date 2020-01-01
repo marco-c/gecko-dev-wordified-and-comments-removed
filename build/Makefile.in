@@ -910,8 +910,8 @@ false
 \
 fi
 if
-!
 test
+!
 -
 f
 .
@@ -1131,8 +1131,8 @@ false
 \
 fi
 if
-!
 test
+!
 -
 f
 .
