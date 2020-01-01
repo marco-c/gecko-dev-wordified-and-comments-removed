@@ -3663,12 +3663,6 @@ rejoin
 ;
 masm
 .
-checkStackAlignment
-(
-)
-;
-masm
-.
 callIon
 (
 objreg
