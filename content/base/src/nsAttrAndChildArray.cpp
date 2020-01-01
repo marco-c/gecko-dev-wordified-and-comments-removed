@@ -3531,12 +3531,12 @@ else
 {
 size
 =
-PR_BIT
-(
+1u
+<
+<
 PR_CeilingLog2
 (
 minSize
-)
 )
 ;
 }
