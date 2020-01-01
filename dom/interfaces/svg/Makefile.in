@@ -284,10 +284,6 @@ nsIDOMSVGSymbolElement
 .
 idl
 \
-nsIDOMSVGTests
-.
-idl
-\
 nsIDOMSVGTextContentElement
 .
 idl
