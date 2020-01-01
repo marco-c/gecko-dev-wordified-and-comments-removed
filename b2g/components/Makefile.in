@@ -455,6 +455,10 @@ MozKeyboard
 .
 js
 \
+DirectoryProvider
+.
+js
+\
 (
 NULL
 )

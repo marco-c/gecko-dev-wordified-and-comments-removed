@@ -466,7 +466,7 @@ manifest
 (
 NULL
 )
-EXTRA_JS_MODULES
+EXTRA_PP_JS_MODULES
 +
 =
 Webapps
