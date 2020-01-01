@@ -4526,10 +4526,6 @@ c_str
 SetTimer
 (
 hwndDlg
-success
-?
-1
-:
 0
 5000
 NULL
@@ -4623,7 +4619,7 @@ WM_TIMER
 EndCrashReporterDialog
 (
 hwndDlg
-wParam
+1
 )
 ;
 return
@@ -4989,7 +4985,7 @@ MB_ICONSTOP
 )
 ;
 }
-void
+bool
 UIShowCrashUI
 (
 const
@@ -5201,6 +5197,7 @@ gRestartArgs
 =
 restartArgs
 ;
+return
 DialogBoxParam
 (
 NULL
@@ -5215,6 +5212,9 @@ DLGPROC
 CrashReporterDialogProc
 0
 )
+=
+=
+1
 ;
 }
 void

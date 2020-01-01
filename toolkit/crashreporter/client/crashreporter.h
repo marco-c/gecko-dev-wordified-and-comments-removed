@@ -481,6 +481,11 @@ string
 message
 )
 ;
+void
+DeleteDump
+(
+)
+;
 }
 bool
 UIInit
@@ -497,7 +502,7 @@ UIShowDefaultUI
 (
 )
 ;
-void
+bool
 UIShowCrashUI
 (
 const
