@@ -115,6 +115,14 @@ public
 nsCycleCollectionLanguageRuntime
 {
 virtual
+bool
+NeedCollect
+(
+)
+=
+0
+;
+virtual
 void
 Collect
 (
