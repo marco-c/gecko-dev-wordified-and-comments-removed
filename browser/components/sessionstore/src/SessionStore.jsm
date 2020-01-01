@@ -442,11 +442,9 @@ modules
 /
 commonjs
 /
-sdk
+promise
 /
 core
-/
-promise
 .
 js
 "
@@ -6751,6 +6749,7 @@ tabState
 0
 0
 0
+true
 )
 ;
 return
@@ -13870,6 +13869,9 @@ aTabData
 aSelectTab
 aIx
 aCount
+aRestoreImmediately
+=
+false
 )
 {
 var
@@ -13957,6 +13959,7 @@ aIx
 aCount
 +
 1
+aRestoreImmediately
 )
 ;
 }
@@ -14394,6 +14397,7 @@ aTabs
 aTabData
 idMap
 docIdentMap
+aRestoreImmediately
 )
 ;
 }
@@ -14407,6 +14411,7 @@ aTabs
 aTabData
 aIdMap
 aDocIdentMap
+aRestoreImmediately
 )
 {
 var
@@ -14841,6 +14846,7 @@ aTabs
 aTabData
 aIdMap
 aDocIdentMap
+aRestoreImmediately
 )
 ;
 }
@@ -14849,6 +14855,9 @@ aDocIdentMap
 ;
 if
 (
+aRestoreImmediately
+|
+|
 aWindow
 .
 gBrowser
