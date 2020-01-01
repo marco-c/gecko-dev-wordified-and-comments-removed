@@ -2459,6 +2459,9 @@ GetContent
 ;
 if
 (
+content
+&
+&
 nsAccUtils
 :
 :
