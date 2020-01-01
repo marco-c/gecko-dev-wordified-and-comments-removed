@@ -446,9 +446,14 @@ nsSMILInstanceTime
 aTime
 )
 {
+#
+ifdef
+DEBUG
 PRBool
 found
 =
+#
+endif
 mDependentTimes
 .
 RemoveElementSorted
@@ -472,10 +477,5 @@ delete
 .
 "
 )
-;
-(
-void
-)
-found
 ;
 }
