@@ -472,6 +472,10 @@ window_bug478536
 .
 xul
 \
+test_bug517396
+.
+xul
+\
 test_keycodes
 .
 xul

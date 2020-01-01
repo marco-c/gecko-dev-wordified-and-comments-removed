@@ -2361,14 +2361,6 @@ PRInt32
 aY
 )
 {
-mWindow
--
->
-SetSizeMode
-(
-nsSizeMode_Normal
-)
-;
 NS_ENSURE_SUCCESS
 (
 mWindow
