@@ -957,6 +957,10 @@ nsIFrame
 *
 aFrame
 const
+nsPoint
+&
+aToReferenceFrame
+const
 nsIntRect
 &
 aInvalidRect
@@ -1070,6 +1074,8 @@ aFrame
 GetVisualOverflowRect
 (
 )
++
+aToReferenceFrame
 ;
 return
 overflow
@@ -1095,6 +1101,11 @@ GetOffsetToUserSpace
 (
 firstFrame
 )
+;
+toUserSpace
+-
+=
+aToReferenceFrame
 ;
 nsRect
 preEffectsRect

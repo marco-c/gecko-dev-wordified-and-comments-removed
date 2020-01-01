@@ -134,6 +134,10 @@ nsIFrame
 *
 aFrame
 const
+nsPoint
+&
+aToReferenceFrame
+const
 nsIntRect
 &
 aInvalidRect

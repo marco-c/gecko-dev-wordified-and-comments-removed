@@ -11094,6 +11094,12 @@ aItem
 GetUnderlyingFrame
 (
 )
+aItem
+-
+>
+ToReferenceFrame
+(
+)
 invalid
 .
 GetBounds
