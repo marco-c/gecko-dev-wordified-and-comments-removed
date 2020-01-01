@@ -740,10 +740,15 @@ uninstall
 next
 )
 {
-app
+navigator
+.
+mozApps
+.
+mgmt
 .
 uninstall
 (
+app
 )
 .
 onsuccess
