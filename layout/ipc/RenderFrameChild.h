@@ -47,11 +47,6 @@ CancelDefaultPanZoom
 )
 ;
 void
-DetectScrollableSubframe
-(
-)
-;
-void
 Destroy
 (
 )
