@@ -1797,6 +1797,11 @@ mDelayedAttrChangeBroadcasts
 PRBool
 mHandlingDelayedAttrChange
 ;
+void
+MaybeBroadcast
+(
+)
+;
 private
 :
 }
