@@ -1713,6 +1713,8 @@ size_t
 height
 size_t
 srcStride
+size_t
+dstStride
 const
 PRUint8
 *
