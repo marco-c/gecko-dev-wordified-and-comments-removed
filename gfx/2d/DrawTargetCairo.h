@@ -696,6 +696,15 @@ MarkSnapshotsIndependent
 (
 )
 ;
+void
+ClearSurfaceForUnboundedSource
+(
+const
+CompositionOp
+&
+aOperator
+)
+;
 private
 :
 cairo_t
