@@ -1,8 +1,0 @@
-namespace
-google
-{
-namespace
-protobuf
-{
-}
-}
