@@ -523,7 +523,7 @@ b
 *
 (
 (
-bool
+PRUint32
 *
 )
 ap

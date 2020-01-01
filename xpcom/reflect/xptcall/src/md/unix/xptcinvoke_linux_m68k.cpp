@@ -539,7 +539,7 @@ T_BOOL
 *
 (
 (
-bool
+PRUint32
 *
 )
 d
