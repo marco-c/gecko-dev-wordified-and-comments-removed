@@ -716,7 +716,7 @@ void
 nsXBLPrototypeHandler
 :
 :
-UnlinkJSObjects
+Unlink
 (
 )
 {

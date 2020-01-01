@@ -2411,7 +2411,7 @@ NS_IMETHODIMP
 nsXPConnect
 :
 :
-RootAndUnlinkJSObjects
+Root
 (
 void
 *
@@ -3585,7 +3585,7 @@ nsCycleCollectionParticipant
 public
 :
 NS_IMETHOD
-RootAndUnlinkJSObjects
+Root
 (
 void
 *

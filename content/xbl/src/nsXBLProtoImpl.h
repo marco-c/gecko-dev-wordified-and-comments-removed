@@ -209,7 +209,7 @@ aClosure
 const
 ;
 void
-UnlinkJSObjects
+Unlink
 (
 )
 ;

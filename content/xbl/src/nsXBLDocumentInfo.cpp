@@ -1695,7 +1695,7 @@ kHashEnumerateNext
 static
 PRIntn
 PR_CALLBACK
-UnlinkProtoJSObjects
+UnlinkProtos
 (
 nsHashKey
 *
@@ -1724,7 +1724,7 @@ aData
 proto
 -
 >
-UnlinkJSObjects
+Unlink
 (
 )
 ;
@@ -1809,7 +1809,7 @@ NS_IMPL_CYCLE_COLLECTION_CLASS
 (
 nsXBLDocumentInfo
 )
-NS_IMPL_CYCLE_COLLECTION_ROOT_BEGIN
+NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 nsXBLDocumentInfo
 )
@@ -1829,16 +1829,11 @@ mBindingTable
 >
 Enumerate
 (
-UnlinkProtoJSObjects
+UnlinkProtos
 nsnull
 )
 ;
 }
-NS_IMPL_CYCLE_COLLECTION_ROOT_END
-NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
-(
-nsXBLDocumentInfo
-)
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
 (
 mDocument
