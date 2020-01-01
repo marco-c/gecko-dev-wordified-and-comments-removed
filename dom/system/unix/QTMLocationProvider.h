@@ -54,6 +54,9 @@ void
 positionUpdated
 (
 const
+QtMobility
+:
+:
 QGeoPositionInfo
 &
 )
