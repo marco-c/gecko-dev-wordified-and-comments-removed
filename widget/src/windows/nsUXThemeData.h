@@ -249,10 +249,6 @@ PRPackedBool
 sIsVistaOrLater
 ;
 static
-PRPackedBool
-sHaveCompositor
-;
-static
 PRBool
 sTitlebarInfoPopulated
 ;
@@ -957,13 +953,11 @@ compositionIsEnabled
 #
 endif
 return
-sHaveCompositor
-=
 (
 compositionIsEnabled
 !
 =
-0
+FALSE
 )
 ;
 }
