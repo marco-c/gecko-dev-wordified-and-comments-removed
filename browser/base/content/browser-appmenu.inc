@@ -1426,11 +1426,6 @@ hidden
 "
 true
 "
-type
-=
-"
-checkbox
-"
 label
 =
 "
