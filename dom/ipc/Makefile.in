@@ -661,3 +661,9 @@ BIN_SUFFIX
 )
 "
 '
+CXXFLAGS
++
+=
+(
+TK_CFLAGS
+)
