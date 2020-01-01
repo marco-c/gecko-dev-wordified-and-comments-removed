@@ -123,6 +123,10 @@ BatteryManager
 .
 webidl
 \
+BeforeUnloadEvent
+.
+webidl
+\
 BiquadFilterNode
 .
 webidl
