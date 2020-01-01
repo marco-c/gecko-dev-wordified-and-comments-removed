@@ -200,6 +200,11 @@ JSOP_LT
 \
 _
 (
+JSOP_GT
+)
+\
+_
+(
 JSOP_GETLOCAL
 )
 \
@@ -341,6 +346,11 @@ EMIT_OP
 #
 undef
 EMIT_OP
+bool
+emitCompare
+(
+)
+;
 }
 ;
 }
