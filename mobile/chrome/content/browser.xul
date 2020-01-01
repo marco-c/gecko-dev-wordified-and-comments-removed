@@ -3646,7 +3646,7 @@ flex
 seltype
 =
 "
-text
+cell
 "
 hidecolumnpicker
 =
@@ -3657,6 +3657,11 @@ editable
 =
 "
 true
+"
+textboxtype
+=
+"
+clearable
 "
 >
 <
