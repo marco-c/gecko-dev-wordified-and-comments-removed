@@ -523,6 +523,10 @@ SVGTransform
 .
 webidl
 \
+SVGTransformableElement
+.
+webidl
+\
 SVGTransformList
 .
 webidl

@@ -561,6 +561,10 @@ SVGStyleElement
 .
 cpp
 \
+SVGTransformableElement
+.
+cpp
+\
 SVGTransformListSMILType
 .
 cpp
@@ -675,6 +679,10 @@ SVGStyleElement
 h
 \
 SVGTitleElement
+.
+h
+\
+SVGTransformableElement
 .
 h
 \
