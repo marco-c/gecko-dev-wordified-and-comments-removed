@@ -50,6 +50,8 @@ ErrorType
 eNoError
 =
 0
+eNoSignalError
+eUnknownError
 eInternalError
 }
 ;

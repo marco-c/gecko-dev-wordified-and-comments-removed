@@ -545,6 +545,16 @@ PRUint64
 aProcessId
 )
 ;
+NotifyRequestSmsSendFailed
+(
+PRInt32
+aError
+PRInt32
+aRequestId
+PRUint64
+aProcessId
+)
+;
 parent
 :
 sync
