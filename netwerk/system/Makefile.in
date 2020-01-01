@@ -445,6 +445,13 @@ DIRS
 =
 mac
 endif
+ifdef
+MOZ_ENABLE_LIBCONIC
+DIRS
++
+=
+maemo
+endif
 include
 (
 topsrcdir

@@ -249,6 +249,12 @@ defined
 (
 XP_WIN
 )
+|
+|
+defined
+(
+MOZ_ENABLE_LIBCONIC
+)
 #
 include
 "
@@ -4004,6 +4010,12 @@ if
 defined
 (
 XP_WIN
+)
+|
+|
+defined
+(
+MOZ_ENABLE_LIBCONIC
 )
 if
 (
