@@ -208,7 +208,7 @@ app
 DENY_ACTION
 privileged
 :
-PROMPT_ACTION
+DENY_ACTION
 certified
 :
 ALLOW_ACTION
@@ -1528,8 +1528,6 @@ permName
 channels
 )
 {
-AllPossiblePermissions
-=
 AllPossiblePermissions
 .
 concat
