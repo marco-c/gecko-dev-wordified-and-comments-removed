@@ -990,6 +990,7 @@ uint8
 raw
 (
 )
+const
 {
 JS_ASSERT
 (
@@ -1005,6 +1006,7 @@ uint8
 offset
 (
 )
+const
 {
 JS_ASSERT
 (
