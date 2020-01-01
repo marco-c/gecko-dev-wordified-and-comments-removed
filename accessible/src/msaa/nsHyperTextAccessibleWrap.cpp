@@ -49,7 +49,16 @@ eventType
 nsIAccessibleEvent
 :
 :
-EVENT_TEXT_CHANGED
+EVENT_TEXT_REMOVED
+|
+|
+eventType
+=
+=
+nsIAccessibleEvent
+:
+:
+EVENT_TEXT_INSERTED
 )
 {
 nsCOMPtr

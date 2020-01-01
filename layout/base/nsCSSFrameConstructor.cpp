@@ -46095,12 +46095,12 @@ newFrame
 nsIAccessibleEvent
 :
 :
-EVENT_REORDER
+EVENT_ASYNCH_SIGNIFICANT_CHANGE
 :
 nsIAccessibleEvent
 :
 :
-EVENT_HIDE
+EVENT_ASYNCH_HIDE
 ;
 }
 else
@@ -46110,7 +46110,7 @@ event
 nsIAccessibleEvent
 :
 :
-EVENT_SHOW
+EVENT_ASYNCH_SHOW
 ;
 }
 nsCOMPtr

@@ -5628,12 +5628,12 @@ isVisible
 nsIAccessibleEvent
 :
 :
-EVENT_HIDE
+EVENT_ASYNCH_HIDE
 :
 nsIAccessibleEvent
 :
 :
-EVENT_SHOW
+EVENT_ASYNCH_SHOW
 )
 ;
 }

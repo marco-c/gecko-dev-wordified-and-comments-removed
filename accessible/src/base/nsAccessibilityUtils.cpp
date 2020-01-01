@@ -608,6 +608,8 @@ aEventType
 nsIAccessible
 *
 aAccessible
+PRBool
+aIsAsynch
 )
 {
 NS_ENSURE_ARG
@@ -652,6 +654,7 @@ nsAccEvent
 aEventType
 aAccessible
 nsnull
+aIsAsynch
 )
 ;
 NS_ENSURE_TRUE

@@ -285,6 +285,10 @@ PRBool
 aAllowDupes
 =
 PR_FALSE
+PRBool
+aIsAsynch
+=
+PR_FALSE
 )
 ;
 nsresult
@@ -295,6 +299,10 @@ nsIAccessibleEvent
 aEvent
 PRBool
 aAllowDupes
+=
+PR_FALSE
+PRBool
+aIsAsynch
 =
 PR_FALSE
 )
@@ -350,8 +358,6 @@ RefreshNodes
 nsIDOMNode
 *
 aStartNode
-PRUint32
-aChangeEvent
 )
 ;
 static

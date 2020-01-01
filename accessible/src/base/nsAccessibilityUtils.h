@@ -151,6 +151,10 @@ aEventType
 nsIAccessible
 *
 aAccessible
+PRBool
+aIsAsynch
+=
+PR_FALSE
 )
 ;
 }
