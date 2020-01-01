@@ -490,8 +490,6 @@ manager
 remove
 -
 download
--
-guid
 "
 ;
 let
@@ -525,7 +523,7 @@ QueryInterface
 (
 Ci
 .
-nsISupportsCString
+nsISupportsPRUint32
 )
 ;
 do_check_eq
@@ -533,7 +531,7 @@ do_check_eq
 id
 .
 data
-theGUID
+theId
 )
 ;
 histobs
