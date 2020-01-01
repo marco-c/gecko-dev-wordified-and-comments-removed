@@ -5904,7 +5904,7 @@ components
 /
 passwordmgr
 /
-resources
+content
 /
 Makefile
 toolkit
