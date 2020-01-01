@@ -5757,6 +5757,9 @@ ac
 ;
 if
 (
+targetObject
+&
+&
 !
 ac
 .
@@ -5801,6 +5804,9 @@ globalObj
 ;
 if
 (
+globalObj
+&
+&
 !
 JS_WrapObject
 (
