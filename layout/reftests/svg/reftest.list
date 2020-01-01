@@ -1726,6 +1726,16 @@ pass
 svg
 =
 =
+path
+-
+03
+.
+svg
+pass
+.
+svg
+=
+=
 pattern
 -
 invalid
