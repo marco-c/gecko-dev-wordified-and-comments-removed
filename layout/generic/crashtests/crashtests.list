@@ -509,6 +509,8 @@ MOZ_WIDGET_TOOLKIT
 "
 gtk2
 "
+0
+-
 1
 )
 load
