@@ -1751,7 +1751,6 @@ SHOW_ELEMENT
 this
 .
 _filterRadioGroup
-true
 )
 ;
 while

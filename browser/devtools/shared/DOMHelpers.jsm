@@ -343,7 +343,6 @@ createTreeWalker
 node
 SHOW_ALL
 null
-false
 )
 ;
 return

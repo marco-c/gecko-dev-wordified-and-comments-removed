@@ -1399,7 +1399,6 @@ NodeFilter
 .
 SHOW_ELEMENT
 filter
-false
 )
 ;
 labelElm

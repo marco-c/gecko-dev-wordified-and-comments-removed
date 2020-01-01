@@ -13820,7 +13820,7 @@ nsIDOMNodeFilter
 :
 SHOW_TEXT
 nullptr
-false
+1
 getter_AddRefs
 (
 walker

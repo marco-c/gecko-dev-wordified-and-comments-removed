@@ -6273,7 +6273,7 @@ nsIDOMNodeFilter
 :
 SHOW_PROCESSING_INSTRUCTION
 nullptr
-true
+1
 getter_AddRefs
 (
 walker

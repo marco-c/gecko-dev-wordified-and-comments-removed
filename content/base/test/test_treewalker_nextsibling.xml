@@ -287,7 +287,6 @@ nsIDOMNodeFilter
 .
 SHOW_DOCUMENT
 null
-true
 )
 ;
 setPass
@@ -470,7 +469,6 @@ nsIDOMNodeFilter
 .
 SHOW_TEXT
 null
-true
 )
 ;
 while

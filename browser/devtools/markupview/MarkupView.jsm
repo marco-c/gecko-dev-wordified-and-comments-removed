@@ -610,7 +610,6 @@ nsIDOMNodeFilter
 FILTER_SKIP
 ;
 }
-false
 )
 ;
 walker
@@ -6384,7 +6383,6 @@ nsIDOMNodeFilter
 .
 SHOW_ALL
 whitespaceTextFilter
-false
 )
 ;
 }
@@ -6424,7 +6422,6 @@ DocumentWalker
 aNode
 aShow
 aFilter
-aExpandEntityReferences
 )
 {
 let
@@ -6449,7 +6446,6 @@ aNode
 )
 aShow
 aFilter
-aExpandEntityReferences
 )
 ;
 this

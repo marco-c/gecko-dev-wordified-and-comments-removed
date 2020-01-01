@@ -2169,7 +2169,6 @@ nsIDOMNodeFilter
 .
 SHOW_ALL
 null
-false
 )
 ;
 var
@@ -2188,7 +2187,6 @@ nsIDOMNodeFilter
 .
 SHOW_ALL
 null
-false
 )
 ;
 do

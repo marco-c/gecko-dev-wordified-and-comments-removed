@@ -590,7 +590,6 @@ createTreeWalker
 aContextNode
 targetType
 filter
-true
 )
 ;
 var
@@ -851,7 +850,6 @@ nsIDOMNodeFilter
 .
 SHOW_CDATA_SECTION
 isWhitespace
-false
 )
 ;
 while
@@ -1319,7 +1317,6 @@ nsIDOMNodeFilter
 .
 SHOW_ALL
 null
-false
 )
 ;
 var
@@ -1486,7 +1483,6 @@ nsIDOMNodeFilter
 .
 SHOW_ALL
 null
-false
 )
 ;
 foundStart
