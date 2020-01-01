@@ -416,7 +416,13 @@ SUITE_USING_XPFE_DM
 DIRS
 =
 src
+ifdef
+ENABLE_TESTS
+DIRS
++
+=
 tests
+endif
 endif
 include
 (
