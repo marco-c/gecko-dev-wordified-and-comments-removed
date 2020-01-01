@@ -460,10 +460,6 @@ nsLookAndFeel
 .
 cpp
 \
-nsScreenManagerGonk
-.
-cpp
-\
 nsIdleServiceGonk
 .
 cpp
