@@ -2388,7 +2388,7 @@ i
 +
 +
 )
-printf
+nj_dprintf
 (
 "
 %
@@ -2420,7 +2420,7 @@ n
 >
 1
 )
-printf
+nj_dprintf
 (
 "
 \
