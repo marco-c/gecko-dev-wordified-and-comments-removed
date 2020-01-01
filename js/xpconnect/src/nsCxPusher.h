@@ -184,6 +184,7 @@ JSContext
 *
 (
 )
+const
 ;
 protected
 :
