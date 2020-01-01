@@ -1719,6 +1719,12 @@ buildIDTempFile
 "
 )
 ;
+chmod
+(
+0644
+buildIDTempFile
+)
+;
 my
 buildIDFile
 =
@@ -1745,6 +1751,10 @@ cmdArgs
 =
 >
 [
+'
+-
+p
+'
 buildIDTempFile
 stagingUser
 .
