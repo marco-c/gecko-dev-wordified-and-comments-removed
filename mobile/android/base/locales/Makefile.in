@@ -755,7 +755,6 @@ bookmarks
 .
 inc
 )
-)
 else
 BOOKMARKSPATH
 =
