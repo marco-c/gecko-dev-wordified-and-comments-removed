@@ -215,6 +215,14 @@ PR_AF_INET6
 #
 endif
 #
+define
+PR_AF_INET_SDP
+101
+#
+define
+PR_AF_INET6_SDP
+102
+#
 ifndef
 PR_AF_UNSPEC
 #

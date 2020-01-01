@@ -26970,6 +26970,14 @@ else
 CPU_ARCH
 =
 i386
+CC
+=
+"
+CC
+-
+arch
+i386
+"
 fi
 ;
 ;
@@ -26978,6 +26986,14 @@ fi
 CPU_ARCH
 =
 ppc
+CC
+=
+"
+CC
+-
+arch
+ppc
+"
 ;
 ;
 esac
@@ -33234,7 +33250,7 @@ echo
 "
 configure
 :
-4743
+4745
 :
 checking
 for
@@ -33296,7 +33312,7 @@ ac_ext
 EOF
 #
 line
-4748
+4750
 "
 configure
 "
@@ -33341,7 +33357,7 @@ eval
 echo
 configure
 :
-4753
+4755
 :
 \
 "
@@ -37026,7 +37042,7 @@ echo
 "
 configure
 :
-5402
+5404
 :
 checking
 for
@@ -37120,7 +37136,7 @@ ac_ext
 EOF
 #
 line
-5410
+5412
 "
 configure
 "
@@ -37198,7 +37214,7 @@ eval
 echo
 configure
 :
-5421
+5423
 :
 \
 "
@@ -37361,7 +37377,7 @@ echo
 "
 configure
 :
-5438
+5440
 :
 checking
 for
@@ -37421,7 +37437,7 @@ ac_ext
 EOF
 #
 line
-5443
+5445
 "
 configure
 "
@@ -37464,7 +37480,7 @@ eval
 echo
 configure
 :
-5448
+5450
 :
 \
 "
@@ -37680,7 +37696,7 @@ echo
 "
 configure
 :
-5481
+5483
 :
 checking
 whether
@@ -37754,7 +37770,7 @@ ac_ext
 EOF
 #
 line
-5487
+5489
 "
 configure
 "
@@ -37845,7 +37861,7 @@ ac_ext
 EOF
 #
 line
-5505
+5507
 "
 configure
 "
@@ -37966,7 +37982,7 @@ echo
 "
 configure
 :
-5529
+5531
 :
 checking
 for
@@ -38024,7 +38040,7 @@ ac_ext
 EOF
 #
 line
-5534
+5536
 "
 configure
 "
@@ -38193,7 +38209,7 @@ eval
 echo
 configure
 :
-5557
+5559
 :
 \
 "
@@ -38514,7 +38530,7 @@ echo
 "
 configure
 :
-5608
+5610
 :
 checking
 for
@@ -38907,7 +38923,7 @@ echo
 "
 configure
 :
-5667
+5669
 :
 checking
 for
@@ -39154,7 +39170,7 @@ echo
 "
 configure
 :
-5709
+5711
 :
 checking
 for
@@ -39362,7 +39378,7 @@ echo
 "
 configure
 :
-5731
+5733
 :
 checking
 for
@@ -39570,7 +39586,7 @@ echo
 "
 configure
 :
-5753
+5755
 :
 checking
 for
@@ -39778,7 +39794,7 @@ echo
 "
 configure
 :
-5775
+5777
 :
 checking
 for
@@ -40429,7 +40445,7 @@ echo
 "
 configure
 :
-5893
+5895
 :
 checking
 whether
@@ -40643,7 +40659,7 @@ echo
 "
 configure
 :
-5916
+5918
 :
 checking
 whether
