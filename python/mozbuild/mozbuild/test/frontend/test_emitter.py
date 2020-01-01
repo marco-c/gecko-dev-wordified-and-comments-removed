@@ -1073,6 +1073,12 @@ c
 '
 ]
             
+HOST_LIBRARY_NAME
+=
+'
+host_fans
+'
+            
 SIMPLE_PROGRAMS
 =
 [

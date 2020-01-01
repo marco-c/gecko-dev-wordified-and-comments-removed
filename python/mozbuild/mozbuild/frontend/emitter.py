@@ -427,6 +427,12 @@ HOST_CSRCS
 HOST_CSRCS
 '
             
+HOST_LIBRARY_NAME
+=
+'
+HOST_LIBRARY_NAME
+'
+            
 MODULE
 =
 '
