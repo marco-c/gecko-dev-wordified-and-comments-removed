@@ -71,13 +71,6 @@ h
 #
 include
 "
-localgl
-.
-h
-"
-#
-include
-"
 CanvasUtils
 .
 h
