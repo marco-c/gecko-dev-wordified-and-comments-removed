@@ -78,6 +78,11 @@ test
 (
 )
 {
+requestLongerTimeout
+(
+2
+)
+;
 let
 ss
 =
