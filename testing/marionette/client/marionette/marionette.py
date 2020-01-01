@@ -831,9 +831,7 @@ emulatorImg
 None
 emulator_res
 =
-'
-480x800
-'
+None
 gecko_path
 =
 None
