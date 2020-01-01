@@ -466,6 +466,10 @@ test_basic_form
 .
 html
 \
+test_basic_form_html5
+.
+html
+\
 test_basic_form_2
 .
 html
