@@ -31787,9 +31787,9 @@ VMSideExit
 exit
 )
 {
-CallStackSegment
+StackSegment
 *
-css
+seg
 ;
 JSStackFrame
 *
@@ -31805,7 +31805,7 @@ stack
 getSynthesizedSlowNativeFrame
 (
 cx
-css
+seg
 fp
 )
 ;
@@ -32036,7 +32036,7 @@ stack
 pushSynthesizedSlowNativeFrame
 (
 cx
-css
+seg
 fp
 state
 .
