@@ -17,7 +17,7 @@ brandShortName
 ENTITY
 firstrun
 .
-heading
+heading2
 "
 Welcome
 to
@@ -75,12 +75,14 @@ mobile
 ENTITY
 firstrun
 .
-starter
+addons
 .
 title
 "
 Get
-Addons
+Add
+-
+ons
 "
 >
 <
@@ -88,7 +90,7 @@ Addons
 ENTITY
 firstrun
 .
-starter
+addons
 .
 description
 "
@@ -110,7 +112,7 @@ experience
 ENTITY
 firstrun
 .
-tour
+home
 .
 title
 "
@@ -123,7 +125,7 @@ Started
 ENTITY
 firstrun
 .
-tour
+home
 .
 description
 "
@@ -147,7 +149,9 @@ Web
 ENTITY
 firstrun
 .
-features
+relNotes
+.
+label
 "
 See
 the
