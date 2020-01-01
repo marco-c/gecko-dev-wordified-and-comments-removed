@@ -486,6 +486,10 @@ LazyIdleThread
 .
 cpp
 \
+TransactionThreadPool
+.
+cpp
+\
 (
 NULL
 )
