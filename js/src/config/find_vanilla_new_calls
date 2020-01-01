@@ -687,6 +687,7 @@ specially
 .
 grep
 '
+^
 operator
 new
 (
@@ -700,6 +701,7 @@ tmpfile1
 tmpfile2
 grep
 '
+^
 operator
 new
 (
@@ -713,6 +715,7 @@ tmpfile1
 tmpfile2
 grep
 '
+^
 operator
 new
 \
@@ -732,6 +735,7 @@ tmpfile1
 tmpfile2
 grep
 '
+^
 operator
 new
 \
