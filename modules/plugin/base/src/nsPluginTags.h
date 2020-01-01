@@ -277,6 +277,13 @@ aType
 ePluginRegister
 )
 ;
+void
+RemoveJavaSentinel
+(
+PRInt32
+sentinelIndex
+)
+;
 nsRefPtr
 <
 nsPluginTag
