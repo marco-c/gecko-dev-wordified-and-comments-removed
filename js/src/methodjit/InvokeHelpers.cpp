@@ -4972,8 +4972,9 @@ js_InternalThrow
 f
 )
 ;
-if
+JS_ASSERT
 (
+!
 cx
 -
 >
@@ -4983,14 +4984,6 @@ compartment
 debugMode
 (
 )
-)
-js
-:
-:
-ScriptDebugPrologue
-(
-cx
-fp
 )
 ;
 break
