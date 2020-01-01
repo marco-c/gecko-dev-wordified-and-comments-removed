@@ -69,6 +69,8 @@ slots
 RESERVED_SLOTS
 +
 argsVars
++
+1
 ;
 gc
 :

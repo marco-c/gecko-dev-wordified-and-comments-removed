@@ -192,7 +192,7 @@ struct
 JSFunction
 :
 public
-JSObject_Slots2
+JSObject_Slots4
 {
 uint16
 nargs

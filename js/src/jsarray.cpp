@@ -5677,8 +5677,6 @@ SlowArrayClass
 "
 Array
 "
-JSCLASS_HAS_PRIVATE
-|
 JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Array

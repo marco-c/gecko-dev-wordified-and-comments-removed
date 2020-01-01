@@ -250,6 +250,7 @@ obj
 >
 getPrivate
 (
+NUM_FIXED_SLOTS
 )
 ;
 }
