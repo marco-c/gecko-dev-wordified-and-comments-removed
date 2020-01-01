@@ -179,6 +179,14 @@ arg
 )
 ;
 void
+funcDNSLookupDict
+(
+optional
+DNSLookupDict
+arg
+)
+;
+void
 funcConnStatusDict
 (
 optional
