@@ -836,6 +836,16 @@ SCOPE_SET_BRANDED
 scope
 )
 ;
+if
+(
+OBJ_SCOPE
+(
+obj
+)
+=
+=
+scope
+)
 kshape
 =
 scope
