@@ -1878,14 +1878,6 @@ allowDefaultTimer
 null
 ;
 }
-if
-(
-aValue
-=
-=
-allowDefaultActions
-)
-{
 allowDefaultActions
 =
 !
@@ -1917,7 +1909,6 @@ processEventQueue
 (
 )
 ;
-}
 }
 }
 public
