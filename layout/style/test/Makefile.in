@@ -613,6 +613,10 @@ test_rem_unit
 .
 html
 \
+test_rule_insertion
+.
+html
+\
 test_rule_serialization
 .
 html
