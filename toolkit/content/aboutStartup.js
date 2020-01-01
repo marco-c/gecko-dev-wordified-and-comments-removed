@@ -471,7 +471,7 @@ legend
 {
 show
 :
-false
+true
 position
 :
 "
@@ -579,6 +579,13 @@ true
 }
 options
 {
+legend
+:
+{
+show
+:
+false
+}
 xaxis
 :
 {
