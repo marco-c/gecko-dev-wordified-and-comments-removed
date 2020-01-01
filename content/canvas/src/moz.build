@@ -107,6 +107,11 @@ dom
 =
 [
 '
+CanvasGradient
+.
+h
+'
+'
 CanvasPattern
 .
 h
