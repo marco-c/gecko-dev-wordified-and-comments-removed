@@ -934,6 +934,17 @@ id
 "
 downloadsListBox
 "
+style
+=
+"
+width
+:
+&
+downloads
+.
+width
+;
+"
 class
 =
 "
