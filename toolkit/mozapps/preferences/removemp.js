@@ -495,6 +495,7 @@ getButton
 accept
 "
 )
+;
 this
 .
 _okButton
