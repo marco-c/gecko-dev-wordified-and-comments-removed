@@ -12653,6 +12653,11 @@ dumpShapes
 cx
 )
 ;
+TIMESTAMP
+(
+sweepShapeEnd
+)
+;
 ExpireGCChunks
 (
 rt
@@ -13065,6 +13070,11 @@ PropertyTree
 dumpShapes
 (
 cx
+)
+;
+TIMESTAMP
+(
+sweepShapeEnd
 )
 ;
 SweepCompartments
