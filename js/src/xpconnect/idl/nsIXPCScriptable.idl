@@ -969,6 +969,15 @@ WANT_OUTER_OBJECT
 <
 29
 ;
+const
+PRUint32
+USE_STUB_EQUALITY_HOOK
+=
+1
+<
+<
+30
+;
 /
 /
 The

@@ -7693,6 +7693,14 @@ GET_IT
 (
 DONT_REFLECT_INTERFACE_NAMES
 )
+JSBool
+UseStubEqualityHook
+(
+)
+GET_IT
+(
+USE_STUB_EQUALITY_HOOK
+)
 #
 undef
 GET_IT
