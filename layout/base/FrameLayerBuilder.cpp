@@ -18467,17 +18467,6 @@ MaskLayerImageCache
 :
 MaskLayerImageKey
 (
-aLayer
--
->
-Manager
-(
-)
--
->
-GetBackendType
-(
-)
 )
 )
 ;
