@@ -6686,7 +6686,7 @@ document
 aAccessible
 -
 >
-GetDocAccessible
+Document
 (
 )
 ;
@@ -7417,7 +7417,7 @@ nsDocAccessible
 *
 document
 =
-GetDocAccessible
+Document
 (
 )
 ;

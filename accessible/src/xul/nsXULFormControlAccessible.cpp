@@ -822,7 +822,7 @@ break
 }
 else
 {
-GetDocAccessible
+Document
 (
 )
 -

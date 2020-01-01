@@ -1614,7 +1614,7 @@ document
 aDescendant
 -
 >
-GetDocAccessible
+Document
 (
 )
 ;
@@ -2329,7 +2329,7 @@ document
 aAccessNode
 -
 >
-GetDocAccessible
+Document
 (
 )
 ;

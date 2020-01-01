@@ -549,7 +549,7 @@ mParent
 mParent
 -
 >
-GetDocAccessible
+Document
 (
 )
 :

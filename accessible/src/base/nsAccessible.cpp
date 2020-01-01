@@ -1261,7 +1261,7 @@ NS_IF_ADDREF
 *
 aDocument
 =
-GetDocAccessible
+Document
 (
 )
 )
@@ -1718,7 +1718,7 @@ isXUL
 XULDescriptionIterator
 iter
 (
-GetDocAccessible
+Document
 (
 )
 mContent
@@ -1927,7 +1927,7 @@ IsHTML
 HTMLLabelIterator
 iter
 (
-GetDocAccessible
+Document
 (
 )
 this
@@ -1960,7 +1960,7 @@ IsXUL
 XULLabelIterator
 iter
 (
-GetDocAccessible
+Document
 (
 )
 mContent
@@ -3146,7 +3146,7 @@ nsDocAccessible
 *
 document
 =
-GetDocAccessible
+Document
 (
 )
 ;
@@ -3642,7 +3642,7 @@ nsDocAccessible
 *
 accDocument
 =
-GetDocAccessible
+Document
 (
 )
 ;
@@ -4946,7 +4946,7 @@ nsnull
 HTMLLabelIterator
 iter
 (
-GetDocAccessible
+Document
 (
 )
 this
@@ -5187,7 +5187,7 @@ nsnull
 XULLabelIterator
 iter
 (
-GetDocAccessible
+Document
 (
 )
 mContent
@@ -8986,7 +8986,7 @@ rel
 new
 RelatedAccIterator
 (
-GetDocAccessible
+Document
 (
 )
 mContent
@@ -9081,7 +9081,7 @@ AppendIter
 new
 HTMLLabelIterator
 (
-GetDocAccessible
+Document
 (
 )
 this
@@ -9107,7 +9107,7 @@ AppendIter
 new
 XULLabelIterator
 (
-GetDocAccessible
+Document
 (
 )
 mContent
@@ -9156,7 +9156,7 @@ AppendIter
 new
 XULDescriptionIterator
 (
-GetDocAccessible
+Document
 (
 )
 mContent
@@ -9180,7 +9180,7 @@ rel
 new
 RelatedAccIterator
 (
-GetDocAccessible
+Document
 (
 )
 mContent
@@ -9246,7 +9246,7 @@ rel
 new
 RelatedAccIterator
 (
-GetDocAccessible
+Document
 (
 )
 mContent
@@ -9403,7 +9403,7 @@ Relation
 new
 RelatedAccIterator
 (
-GetDocAccessible
+Document
 (
 )
 mContent
@@ -9442,7 +9442,7 @@ AppendIter
 new
 HTMLOutputIterator
 (
-GetDocAccessible
+Document
 (
 )
 mContent
@@ -9485,7 +9485,7 @@ Relation
 new
 RelatedAccIterator
 (
-GetDocAccessible
+Document
 (
 )
 mContent
@@ -13266,7 +13266,7 @@ nsDocAccessible
 *
 document
 =
-GetDocAccessible
+Document
 (
 )
 ;
@@ -13457,7 +13457,7 @@ nsDocAccessible
 *
 doc
 =
-GetDocAccessible
+Document
 (
 )
 ;

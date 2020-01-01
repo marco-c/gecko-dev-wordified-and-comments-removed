@@ -2835,7 +2835,7 @@ cell
 {
 if
 (
-GetDocAccessible
+Document
 (
 )
 -

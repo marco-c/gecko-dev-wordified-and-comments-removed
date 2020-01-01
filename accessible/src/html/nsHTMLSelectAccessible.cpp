@@ -419,7 +419,7 @@ nsDocAccessible
 *
 document
 =
-GetDocAccessible
+Document
 (
 )
 ;
@@ -1866,7 +1866,7 @@ mDoc
 if
 (
 !
-GetDocAccessible
+Document
 (
 )
 -
@@ -2434,7 +2434,7 @@ nsDocAccessible
 *
 document
 =
-GetDocAccessible
+Document
 (
 )
 ;

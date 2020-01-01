@@ -3351,7 +3351,7 @@ docAcc
 accWrap
 -
 >
-GetDocAccessible
+Document
 (
 )
 ;
