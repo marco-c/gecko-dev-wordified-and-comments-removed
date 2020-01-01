@@ -102,9 +102,7 @@ java
 .
 util
 .
-concurrent
-.
-SynchronousQueue
+Queue
 ;
 abstract
 class
@@ -124,7 +122,7 @@ GeckoFilePickerResultHandler
 ;
 protected
 final
-SynchronousQueue
+Queue
 <
 String
 >
@@ -133,7 +131,7 @@ mFilePickerResult
 protected
 FilePickerResultHandler
 (
-SynchronousQueue
+Queue
 <
 String
 >
