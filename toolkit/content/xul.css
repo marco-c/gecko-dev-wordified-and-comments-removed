@@ -1480,10 +1480,7 @@ important
 ;
 }
 %
-endif
-%
-ifdef
-XP_WIN
+else
 toolbar
 [
 type
