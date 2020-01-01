@@ -116,6 +116,10 @@ mKind
 aKind
 )
 {
+mHasCurrentData
+=
+true
+;
 }
 ~
 AudioNodeStream
