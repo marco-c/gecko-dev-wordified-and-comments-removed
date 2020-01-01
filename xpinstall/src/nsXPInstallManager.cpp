@@ -2348,8 +2348,11 @@ _blank
 "
 "
 chrome
-centerscreen
-titlebar
+menubar
+extra
+-
+chrome
+toolbar
 dialog
 =
 no
