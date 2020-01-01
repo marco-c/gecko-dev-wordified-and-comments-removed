@@ -536,6 +536,10 @@ browser_tabview_firstrun_pref
 .
 js
 \
+head
+.
+js
+\
 search1
 .
 html
