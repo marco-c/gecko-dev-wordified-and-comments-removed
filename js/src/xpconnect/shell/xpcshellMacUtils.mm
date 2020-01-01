@@ -34,6 +34,9 @@ offset
 *
 -
 *
+/
+/
+*
 vim
 :
 set
@@ -49,6 +52,8 @@ tw
 80
 :
 *
+/
+/
 *
 *
 *
@@ -205,8 +210,10 @@ Original
 Code
 is
 *
+the
 Mozilla
-Messaging
+Foundation
+.
 *
 Portions
 created
