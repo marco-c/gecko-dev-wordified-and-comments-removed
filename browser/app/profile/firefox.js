@@ -750,6 +750,10 @@ VERSION
 %
 OS
 %
+/
+%
+COMPATIBILITY_MODE
+%
 "
 )
 ;
