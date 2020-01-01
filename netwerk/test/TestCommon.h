@@ -18,6 +18,15 @@ nsThreadUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 inline
 int
 test_common_init
@@ -44,6 +53,7 @@ false
 ;
 class
 nsQuitPumpingEvent
+MOZ_FINAL
 :
 public
 nsIRunnable

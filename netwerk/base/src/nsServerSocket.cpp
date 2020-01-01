@@ -61,6 +61,15 @@ prio
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 using
 namespace
 mozilla
@@ -1046,6 +1055,7 @@ namespace
 {
 class
 ServerSocketListenerProxy
+MOZ_FINAL
 :
 public
 nsIServerSocketListener

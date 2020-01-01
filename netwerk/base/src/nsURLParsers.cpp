@@ -122,7 +122,12 @@ count
 }
 NS_IMPL_THREADSAFE_ISUPPORTS1
 (
-nsBaseURLParser
+nsAuthURLParser
+nsIURLParser
+)
+NS_IMPL_THREADSAFE_ISUPPORTS1
+(
+nsNoAuthURLParser
 nsIURLParser
 )
 #

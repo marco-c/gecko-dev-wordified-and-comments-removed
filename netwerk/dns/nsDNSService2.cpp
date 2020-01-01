@@ -168,6 +168,15 @@ FunctionTimer
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 using
 namespace
 mozilla
@@ -957,6 +966,7 @@ NS_OK
 }
 class
 nsDNSAsyncRequest
+MOZ_FINAL
 :
 public
 nsResolveHostCallback
@@ -1946,6 +1956,7 @@ namespace
 {
 class
 DNSListenerProxy
+MOZ_FINAL
 :
 public
 nsIDNSListener

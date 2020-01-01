@@ -19,6 +19,15 @@ nsString
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_PROXYINFO_IID
 \
@@ -57,6 +66,7 @@ abeb
 }
 class
 nsProxyInfo
+MOZ_FINAL
 :
 public
 nsIProxyInfo

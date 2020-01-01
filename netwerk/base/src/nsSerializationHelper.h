@@ -18,6 +18,15 @@ nsISerializationHelper
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsISerializable
 ;
@@ -50,6 +59,7 @@ obj
 ;
 class
 nsSerializationHelper
+MOZ_FINAL
 :
 public
 nsISerializationHelper

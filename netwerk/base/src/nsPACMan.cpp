@@ -164,6 +164,7 @@ result
 }
 class
 PendingPACQuery
+MOZ_FINAL
 :
 public
 PRCList

@@ -124,6 +124,15 @@ prclist
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 ifdef
 NS_BUILD_REFCNT_LOGGING
 #
@@ -344,6 +353,7 @@ mLen
 ;
 class
 nsPrefObserver
+MOZ_FINAL
 :
 public
 nsIObserver

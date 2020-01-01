@@ -87,6 +87,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nspr
 .
 h
@@ -140,6 +149,7 @@ NS_STREAMCONVERTERSERVICE_CID
 ;
 class
 EndListener
+MOZ_FINAL
 :
 public
 nsIStreamListener

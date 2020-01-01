@@ -33,6 +33,15 @@ nsCOMPtr
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 ALGO_SPECIFIED
 0x01
@@ -66,6 +75,7 @@ NONCE_COUNT_LENGTH
 8
 class
 nsHttpDigestAuth
+MOZ_FINAL
 :
 public
 nsIHttpAuthenticator

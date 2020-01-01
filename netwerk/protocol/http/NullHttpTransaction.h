@@ -46,6 +46,15 @@ nsHttpRequestHead
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -54,6 +63,7 @@ net
 {
 class
 NullHttpTransaction
+MOZ_FINAL
 :
 public
 nsAHttpTransaction

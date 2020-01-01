@@ -11,6 +11,15 @@ nsAHttpTransaction
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -19,6 +28,7 @@ net
 {
 class
 SpdyStream3
+MOZ_FINAL
 :
 public
 nsAHttpSegmentReader

@@ -469,6 +469,7 @@ NS_OK
 }
 class
 nsPassErrorToWifiListeners
+MOZ_FINAL
 :
 public
 nsIRunnable
@@ -755,6 +756,7 @@ NS_OK
 }
 class
 nsCallWifiListeners
+MOZ_FINAL
 :
 public
 nsIRunnable

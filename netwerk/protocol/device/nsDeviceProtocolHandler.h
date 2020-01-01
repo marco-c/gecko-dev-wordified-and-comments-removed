@@ -19,6 +19,15 @@ nsString
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_DEVICEPROTOCOLHANDLER_CID
 \
@@ -40,6 +49,7 @@ NS_DEVICEPROTOCOLHANDLER_CID
 }
 class
 nsDeviceProtocolHandler
+MOZ_FINAL
 :
 public
 nsIProtocolHandler
