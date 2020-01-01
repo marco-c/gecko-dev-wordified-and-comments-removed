@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsIDOMPkcs11
+nsIPKCS11
 .
 h
 "
@@ -216,7 +216,7 @@ class
 nsPkcs11
 :
 public
-nsIDOMPkcs11
+nsIPKCS11
 {
 public
 :
@@ -231,7 +231,7 @@ nsPkcs11
 )
 ;
 NS_DECL_ISUPPORTS
-NS_DECL_NSIDOMPKCS11
+NS_DECL_NSIPKCS11
 }
 ;
 #

@@ -494,10 +494,6 @@ nsIDOMNavigator
 .
 idl
 \
-nsIDOMPkcs11
-.
-idl
-\
 nsIDOMPlugin
 .
 idl
