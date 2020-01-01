@@ -4568,7 +4568,7 @@ aParentPopup
 .
 childNodes
 [
-this
+aParentPopup
 .
 _endMarker
 +
