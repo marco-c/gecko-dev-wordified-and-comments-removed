@@ -482,6 +482,10 @@ xpwidgets_s
 LIB_SUFFIX
 )
 \
+gkgfx
+\
+thebes
+\
 (
 DIST
 )
@@ -508,6 +512,12 @@ MOZ_UNICHARUTIL_LIBS
 (
 NULL
 )
+EXTRA_DSO_LDOPTS
++
+=
+(
+LIBS_DIR
+)
 OS_LIBS
 +
 =
@@ -516,6 +526,11 @@ call
 EXPAND_LIBNAME
 ole32
 shell32
+comctl32
+comdlg32
+imm32
+shlwapi
+winspool
 )
 CPP_UNIT_TESTS
 =
