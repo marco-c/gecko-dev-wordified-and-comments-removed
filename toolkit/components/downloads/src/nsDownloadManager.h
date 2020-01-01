@@ -670,7 +670,7 @@ mStartTime
 PRTime
 mLastUpdate
 ;
-PRUint64
+PRInt64
 mResumedAt
 ;
 double
