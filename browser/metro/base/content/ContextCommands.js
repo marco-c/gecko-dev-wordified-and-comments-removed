@@ -163,7 +163,6 @@ SelectionHelperUI
 .
 closeEditSession
 (
-false
 true
 )
 ;
@@ -244,10 +243,7 @@ SelectionHelperUI
 .
 closeEditSession
 (
-(
-false
 true
-)
 )
 ;
 }
