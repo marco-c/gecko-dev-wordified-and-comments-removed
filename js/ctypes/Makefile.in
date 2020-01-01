@@ -480,7 +480,7 @@ NULL
 XPIDLSRCS
 =
 \
-nsINativeTypes
+nsIForeignLibrary
 .
 idl
 \
@@ -504,15 +504,15 @@ IS_COMPONENT
 CPPSRCS
 =
 \
-nsNativeMethod
+Function
 .
 cpp
 \
-nsNativeTypes
+Library
 .
 cpp
 \
-nsNativeModule
+Module
 .
 cpp
 \

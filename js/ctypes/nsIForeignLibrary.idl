@@ -512,7 +512,7 @@ c45079d8f087
 )
 ]
 interface
-nsINativeTypes
+nsIForeignLibrary
 :
 nsISupports
 {
@@ -847,8 +847,10 @@ attempts
 to
 call
 *
-nsINativeMethod
 functions
+on
+this
+interface
 will
 fail
 .

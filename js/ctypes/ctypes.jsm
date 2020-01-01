@@ -29,7 +29,7 @@ types
 :
 Ci
 .
-nsINativeTypes
+nsIForeignLibrary
 open
 :
 function
@@ -57,7 +57,7 @@ createInstance
 (
 Ci
 .
-nsINativeTypes
+nsIForeignLibrary
 )
 ;
 let
