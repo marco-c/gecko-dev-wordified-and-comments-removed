@@ -313,13 +313,17 @@ False
 append_env
 =
 {
+b
 '
 PYTHONDONTWRITEBYTECODE
 '
 :
+str
+(
 '
 1
 '
+)
 }
 )
     
@@ -707,13 +711,17 @@ test
 append_env
 =
 {
+b
 '
 PYTHONDONTWRITEBYTECODE
 '
 :
+str
+(
 '
 1
 '
+)
 }
                 
 line_handler
