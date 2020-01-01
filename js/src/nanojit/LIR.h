@@ -892,7 +892,7 @@ _abi
 :
 3
 ;
-uint8_t
+uint32_t
 _isPure
 :
 1
