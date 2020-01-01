@@ -9884,7 +9884,7 @@ if
 master_list_p
 =
 =
-remote_payload_types
+remote_codecs
 )
 {
 remote_pt
