@@ -814,6 +814,10 @@ value
 aValue
 )
 ;
+if
+(
+aImage
+)
 newitem
 .
 setAttribute
