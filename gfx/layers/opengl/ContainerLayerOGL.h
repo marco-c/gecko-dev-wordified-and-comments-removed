@@ -103,6 +103,11 @@ RenderLayer
 (
 int
 aPreviousFrameBuffer
+DrawThebesLayerCallback
+aCallback
+void
+*
+aCallbackData
 )
 ;
 private
