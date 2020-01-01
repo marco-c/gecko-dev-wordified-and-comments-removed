@@ -539,6 +539,9 @@ gStorageManager
 =
 nsnull
 ;
+#
+ifdef
+MOZ_STORAGE
 delete
 nsDOMStorage
 :
@@ -552,6 +555,8 @@ gStorageDB
 =
 nsnull
 ;
+#
+endif
 }
 PR_STATIC_CALLBACK
 (
