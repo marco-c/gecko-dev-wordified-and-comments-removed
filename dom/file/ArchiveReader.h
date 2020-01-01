@@ -248,14 +248,8 @@ status
 }
 mData
 ;
-mozilla
-:
-:
-idl
-:
-:
-ArchiveReaderOptions
-mOptions
+nsString
+mEncoding
 ;
 }
 ;
