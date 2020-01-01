@@ -139,11 +139,6 @@ Release
 ;
 }
 }
-template
-<
-typename
-U
->
 RefPtr
 <
 T
@@ -155,7 +150,7 @@ operator
 const
 RefPtr
 <
-U
+T
 >
 aPtr
 )
@@ -163,6 +158,8 @@ aPtr
 assignPtr
 (
 aPtr
+.
+mPtr
 )
 ;
 return
@@ -268,7 +265,6 @@ T
 *
 (
 )
-const
 {
 return
 mPtr

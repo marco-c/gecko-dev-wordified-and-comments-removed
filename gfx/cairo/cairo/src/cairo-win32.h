@@ -303,6 +303,11 @@ refcount
 ;
 }
 ;
+typedef
+struct
+_cairo_device
+cairo_device_t
+;
 cairo_device_t
 *
 cairo_d2d_create_device

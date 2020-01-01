@@ -8,7 +8,7 @@ h
 #
 include
 <
-d2d1
+D2d1
 .
 h
 >
@@ -20,10 +20,13 @@ WINAPI
 DWriteCreateFactoryFunc
 )
 (
+__in
 DWRITE_FACTORY_TYPE
 factoryType
+__in
 REFIID
 iid
+__out
 IUnknown
 *
 *
