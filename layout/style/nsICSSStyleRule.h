@@ -735,8 +735,10 @@ void
 void
 AddSelector
 (
-const
+nsAutoPtr
+<
 nsCSSSelector
+>
 &
 aSelector
 )

@@ -3033,8 +3033,10 @@ nsCSSSelectorList
 :
 AddSelector
 (
-const
+nsAutoPtr
+<
 nsCSSSelector
+>
 &
 aSelector
 )
@@ -3045,7 +3047,7 @@ newSel
 =
 aSelector
 .
-Clone
+forget
 (
 )
 ;
