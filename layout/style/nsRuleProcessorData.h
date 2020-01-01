@@ -78,6 +78,10 @@ nsIContent
 *
 mScopedRoot
 ;
+const
+PRPackedBool
+mIsHTMLDocument
+;
 TreeMatchContext
 (
 PRBool
@@ -87,6 +91,8 @@ nsRuleWalker
 :
 VisitedHandlingType
 aVisitedHandling
+PRBool
+aIsHTMLDocument
 )
 :
 mForStyling
@@ -104,6 +110,10 @@ aVisitedHandling
 mScopedRoot
 (
 nsnull
+)
+mIsHTMLDocument
+(
+aIsHTMLDocument
 )
 {
 }
@@ -417,12 +427,6 @@ mContentTag
 nsIAtom
 *
 mContentID
-;
-PRPackedBool
-mIsHTMLContent
-;
-PRPackedBool
-mIsHTML
 ;
 PRPackedBool
 mHasAttributes
