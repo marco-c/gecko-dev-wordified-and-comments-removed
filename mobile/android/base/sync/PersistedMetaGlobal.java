@@ -92,6 +92,10 @@ public
 MetaGlobal
 metaGlobal
 (
+String
+metaUrl
+String
+credentials
 )
 {
 String
@@ -140,8 +144,8 @@ mg
 new
 MetaGlobal
 (
-null
-null
+metaUrl
+credentials
 )
 ;
 mg

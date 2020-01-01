@@ -110,6 +110,15 @@ sync
 /
 config
 /
+activities
+/
+SelectEnginesActivity
+.
+java
+sync
+/
+config
+/
 ClientRecordTerminator
 .
 java
