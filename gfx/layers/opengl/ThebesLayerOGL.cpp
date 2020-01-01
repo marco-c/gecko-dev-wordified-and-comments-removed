@@ -444,6 +444,16 @@ IsRGB
 )
 )
 ;
+gl
+(
+)
+-
+>
+fActiveTexture
+(
+LOCAL_GL_TEXTURE0
+)
+;
 if
 (
 !

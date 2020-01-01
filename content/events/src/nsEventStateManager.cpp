@@ -811,6 +811,14 @@ sUserInputEventDepth
 =
 0
 ;
+PRBool
+nsEventStateManager
+:
+:
+sNormalLMouseEventInProcess
+=
+PR_FALSE
+;
 static
 PRUint32
 gMouseOrKeyboardEventCounter
@@ -3534,10 +3542,6 @@ mRClickCount
 (
 0
 )
-mNormalLMouseEventInProcess
-(
-PR_FALSE
-)
 m_haveShutdown
 (
 PR_FALSE
@@ -5512,7 +5516,7 @@ aEvent
 aStatus
 )
 ;
-mNormalLMouseEventInProcess
+sNormalLMouseEventInProcess
 =
 PR_TRUE
 ;
@@ -5644,7 +5648,7 @@ StopTrackingDragGesture
 ;
 #
 endif
-mNormalLMouseEventInProcess
+sNormalLMouseEventInProcess
 =
 PR_FALSE
 ;
@@ -12665,7 +12669,7 @@ eLeftButton
 &
 &
 !
-mNormalLMouseEventInProcess
+sNormalLMouseEventInProcess
 )
 {
 nsIPresShell
@@ -19908,7 +19912,7 @@ eLeftButton
 if
 (
 !
-mNormalLMouseEventInProcess
+sNormalLMouseEventInProcess
 )
 {
 *

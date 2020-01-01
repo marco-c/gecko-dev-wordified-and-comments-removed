@@ -1,8 +1,14 @@
 #
-bugs
-/
+svg
+-
+as
+-
+an
+-
+image
+tests
 include
-bugs
+image
 /
 reftest
 .
