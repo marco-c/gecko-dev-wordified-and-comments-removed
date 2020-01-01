@@ -936,6 +936,7 @@ nsPLDOMEvent
 (
 this
 aEventName
+PR_TRUE
 )
 ;
 if
