@@ -4730,9 +4730,11 @@ I
 MOZILLA_DIR
 )
 /
-xpinstall
+toolkit
 /
-packager
+mozapps
+/
+installer
 -
 e
 '
@@ -5350,9 +5352,11 @@ PERL
 MOZILLA_DIR
 )
 /
-xpinstall
+toolkit
 /
-packager
+mozapps
+/
+installer
 /
 xptlink
 .

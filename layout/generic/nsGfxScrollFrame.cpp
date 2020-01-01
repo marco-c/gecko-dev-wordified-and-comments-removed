@@ -9763,6 +9763,13 @@ getter_AddRefs
 (
 fm
 )
+nsLayoutUtils
+:
+:
+FontSizeInflationFor
+(
+mOuter
+)
 )
 ;
 NS_ASSERTION
