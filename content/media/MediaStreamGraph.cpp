@@ -8819,6 +8819,14 @@ mListener
 ;
 }
 ;
+if
+(
+!
+IsDestroyed
+(
+)
+)
+{
 GraphImpl
 (
 )
@@ -8834,6 +8842,7 @@ aListener
 )
 )
 ;
+}
 }
 void
 SourceMediaStream
