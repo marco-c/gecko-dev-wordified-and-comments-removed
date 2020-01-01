@@ -19,6 +19,13 @@ gfxContext
 .
 h
 "
+#
+include
+"
+nsSVGUtils
+.
+h
+"
 typedef
 nsSVGPolyElement
 nsSVGPolygonElementBase
