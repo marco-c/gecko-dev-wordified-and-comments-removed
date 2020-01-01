@@ -559,6 +559,13 @@ EndSecureKeyboardInput
 (
 )
 ;
+NS_IMETHOD
+SetWindowTitlebarColor
+(
+nscolor
+aColor
+)
+;
 virtual
 void
 ConvertToDeviceCoordinates

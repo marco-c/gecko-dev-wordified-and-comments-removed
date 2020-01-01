@@ -2368,6 +2368,13 @@ PRBool
 aShouldHide
 )
 ;
+void
+SetTitlebarColor
+(
+nscolor
+aColor
+)
+;
 const
 nsAttrName
 *
