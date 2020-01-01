@@ -1,3 +1,13 @@
+assertEq
+(
+typeof
+evalcx
+"
+function
+"
+"
+"
+)
 var
 cx
 =
