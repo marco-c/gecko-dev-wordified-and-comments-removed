@@ -15,6 +15,10 @@ data
 text
 /
 html
+;
+charset
+=
+utf8
 test
 for
 bug
