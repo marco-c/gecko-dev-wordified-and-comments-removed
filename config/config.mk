@@ -2783,7 +2783,7 @@ xpcom
 /
 analysis
 /
-stack
+final
 .
 js
 \
@@ -2802,6 +2802,18 @@ xpcom
 analysis
 /
 outparams
+.
+js
+\
+(
+topsrcdir
+)
+/
+xpcom
+/
+analysis
+/
+stack
 .
 js
 \
