@@ -2916,8 +2916,10 @@ break
 ;
 if
 (
-!
 username
+=
+=
+null
 |
 |
 !
