@@ -1054,6 +1054,10 @@ sOnreadystatechange_id
 ;
 static
 jsid
+sOnpageshow_id
+;
+static
+jsid
 sOnpagehide_id
 ;
 static

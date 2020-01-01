@@ -5854,10 +5854,9 @@ cx
 return
 obj
 ;
-Outerize
+OBJ_TO_OUTER_OBJECT
 (
 cx
-&
 obj
 )
 ;

@@ -3332,7 +3332,7 @@ JSVAL_TO_OBJECT
 *
 tvr
 .
-addr
+jsval_addr
 (
 )
 )
@@ -4798,7 +4798,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 %
 s
@@ -5561,7 +5561,7 @@ pthisval
 '
 tvr
 .
-addr
+jsval_addr
 (
 )
 '
@@ -6566,7 +6566,7 @@ thisval
 *
 tvr
 .
-addr
+jsval_addr
 (
 )
 '
