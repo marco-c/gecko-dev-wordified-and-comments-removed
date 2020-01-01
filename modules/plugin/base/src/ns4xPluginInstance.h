@@ -363,6 +363,9 @@ mCached
 ;
 public
 :
+PRPackedBool
+mInPluginInitCall
+;
 PRLibrary
 *
 fLibrary

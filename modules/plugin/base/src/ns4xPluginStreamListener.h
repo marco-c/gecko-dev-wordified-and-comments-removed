@@ -74,7 +74,7 @@ NS_DECL_NSITIMERCALLBACK
 NS_DECL_NSIHTTPHEADERLISTENER
 ns4xPluginStreamListener
 (
-nsIPluginInstance
+ns4xPluginInstance
 *
 inst
 void
@@ -143,6 +143,11 @@ StopDataPump
 (
 )
 ;
+PRBool
+PluginInitJSLoadInProgress
+(
+)
+;
 protected
 :
 void
@@ -184,6 +189,9 @@ mCallNotify
 ;
 PRPackedBool
 mIsSuspended
+;
+PRPackedBool
+mIsPluginInitJSStream
 ;
 nsCString
 mResponseHeaders
