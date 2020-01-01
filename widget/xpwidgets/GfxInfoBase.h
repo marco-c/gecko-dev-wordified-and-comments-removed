@@ -67,6 +67,15 @@ nsIGfxInfoDebug
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Mutex
+.
+h
+"
 namespace
 mozilla
 {
@@ -360,6 +369,9 @@ mFailures
 ;
 uint32_t
 mFailureCount
+;
+Mutex
+mMutex
 ;
 }
 ;
