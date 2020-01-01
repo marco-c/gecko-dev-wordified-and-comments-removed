@@ -1649,10 +1649,6 @@ mIsFixedPosition
 (
 false
 )
-mHasPendingMutationForNextTransaction
-(
-false
-)
 mDebugColorIndex
 (
 0
