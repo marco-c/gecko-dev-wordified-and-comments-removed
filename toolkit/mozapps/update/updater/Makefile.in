@@ -404,6 +404,12 @@ DELAYLOAD
 crypt32
 .
 dll
+-
+DELAYLOAD
+:
+userenv
+.
+dll
 endif
 ifdef
 MOZ_WIDGET_GTK
