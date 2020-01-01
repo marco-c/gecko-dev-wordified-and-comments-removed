@@ -1289,6 +1289,14 @@ kExcessOverflowContainersList
 )
 ;
 }
+nsSplittableFrame
+:
+:
+GetChildLists
+(
+aLists
+)
+;
 }
 NS_IMETHODIMP
 nsContainerFrame

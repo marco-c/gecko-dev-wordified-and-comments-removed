@@ -881,10 +881,6 @@ mPrefWidth
 (
 NS_INTRINSIC_WIDTH_UNKNOWN
 )
-mAbsoluteContainer
-(
-kAbsoluteList
-)
 {
 #
 ifdef
@@ -1880,11 +1876,6 @@ nsBlockReflowState
 friend
 class
 nsBlockInFlowLineIterator
-;
-private
-:
-nsAbsoluteContainingBlock
-mAbsoluteContainer
 ;
 #
 ifdef
