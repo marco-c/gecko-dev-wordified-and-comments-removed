@@ -117,3 +117,10 @@ p3
 TypeFromSize
 .
 patch
+patch
+-
+p3
+<
+QuellGccWarnings
+.
+patch

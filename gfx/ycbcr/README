@@ -244,3 +244,16 @@ from
 plane
 sizes
 .
+QuellGccWarnings
+.
+patch
+:
+Bug
+711895
+-
+Avoid
+some
+GCC
+compilation
+warnings
+.
