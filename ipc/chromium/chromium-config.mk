@@ -442,6 +442,10 @@ chromium
 config
 .
 mk
+ifdef
+MOZ_IPC
+#
+{
 DEFINES
 +
 =
@@ -678,6 +682,9 @@ OS_CFLAGS
 (
 MOZ_GTK2_CFLAGS
 )
+endif
+#
+}
 endif
 #
 }
