@@ -2226,7 +2226,7 @@ Components
 .
 interfaces
 .
-nsIDirectoryProvider
+nsIDirectoryServiceProvider
 )
 |
 |

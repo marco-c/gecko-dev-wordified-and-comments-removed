@@ -242,7 +242,7 @@ equals
 (
 Ci
 .
-nsIDirectoryProvider
+nsIDirectoryServiceProvider
 )
 |
 |

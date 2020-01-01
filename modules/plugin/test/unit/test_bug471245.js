@@ -184,7 +184,7 @@ Components
 .
 interfaces
 .
-nsIDirectoryProvider
+nsIDirectoryServiceProvider
 )
 |
 |
