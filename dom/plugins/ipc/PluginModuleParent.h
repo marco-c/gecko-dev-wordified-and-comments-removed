@@ -355,6 +355,11 @@ NPIdentifier
 aIdentifier
 )
 ;
+void
+ProcessRemoteNativeEventsInRPCCall
+(
+)
+;
 #
 ifdef
 OS_MACOSX

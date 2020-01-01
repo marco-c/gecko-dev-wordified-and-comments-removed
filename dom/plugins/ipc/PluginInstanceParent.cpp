@@ -7535,6 +7535,7 @@ ar
 (
 mInAnswerFocusChange
 )
+;
 mInAnswerFocusChange
 =
 true

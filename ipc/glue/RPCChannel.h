@@ -291,6 +291,14 @@ return
 RRPChildWins
 ;
 }
+virtual
+void
+ProcessRemoteNativeEventsInRPCCall
+(
+)
+{
+}
+;
 }
 ;
 RPCChannel
@@ -412,6 +420,12 @@ ifdef
 OS_WIN
 void
 ProcessNativeEventsInRPCCall
+(
+)
+;
+static
+void
+NotifyGeckoEventDispatch
 (
 )
 ;
