@@ -99,6 +99,15 @@ GetSpaceGlyph
 )
 ;
 virtual
+hb_blob_t
+*
+GetFontTable
+(
+uint32_t
+aTag
+)
+;
+virtual
 bool
 ProvidesGetGlyph
 (
