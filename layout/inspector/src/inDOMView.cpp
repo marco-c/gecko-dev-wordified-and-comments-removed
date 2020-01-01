@@ -2534,15 +2534,10 @@ nsIDOMAttr
 >
 domAttr
 ;
-nsAutoString
+nsDependentAtomString
 attrStr
-;
-aAttribute
--
->
-ToString
 (
-attrStr
+aAttribute
 )
 ;
 if

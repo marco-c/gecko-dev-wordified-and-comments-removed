@@ -1113,7 +1113,7 @@ nsMappedAttributes
 GetExistingAttrNameFromQName
 (
 const
-nsACString
+nsAString
 &
 aName
 )
@@ -1169,7 +1169,7 @@ Atom
 )
 -
 >
-EqualsUTF8
+Equals
 (
 aName
 )

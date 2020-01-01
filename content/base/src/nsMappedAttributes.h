@@ -238,7 +238,7 @@ nsAttrName
 GetExistingAttrNameFromQName
 (
 const
-nsACString
+nsAString
 &
 aName
 )

@@ -2327,7 +2327,7 @@ nsAttrAndChildArray
 GetExistingAttrNameFromQName
 (
 const
-nsACString
+nsAString
 &
 aName
 )

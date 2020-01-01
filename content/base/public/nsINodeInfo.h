@@ -603,7 +603,7 @@ aNameAtom
 return
 QualifiedNameEqualsInternal
 (
-nsAtomCString
+nsDependentAtomString
 (
 aNameAtom
 )
@@ -614,7 +614,7 @@ PRBool
 QualifiedNameEquals
 (
 const
-nsACString
+nsAString
 &
 aQualifiedName
 )
@@ -633,7 +633,7 @@ mInner
 mName
 -
 >
-EqualsUTF8
+Equals
 (
 aQualifiedName
 )
@@ -668,7 +668,7 @@ PRBool
 QualifiedNameEqualsInternal
 (
 const
-nsACString
+nsAString
 &
 aQualifiedName
 )

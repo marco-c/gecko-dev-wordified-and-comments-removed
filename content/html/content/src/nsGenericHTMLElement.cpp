@@ -12987,10 +12987,7 @@ mAttrsAndChildren
 .
 GetExistingAttrNameFromQName
 (
-NS_ConvertUTF16toUTF8
-(
 lower
-)
 )
 ;
 }
@@ -12999,10 +12996,7 @@ mAttrsAndChildren
 .
 GetExistingAttrNameFromQName
 (
-NS_ConvertUTF16toUTF8
-(
 aStr
-)
 )
 ;
 }
