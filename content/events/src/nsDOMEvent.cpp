@@ -1882,6 +1882,13 @@ aEventPhase
 {
 if
 (
+(
+mEvent
+-
+>
+currentTarget
+&
+&
 mEvent
 -
 >
@@ -1892,6 +1899,7 @@ mEvent
 -
 >
 target
+)
 |
 |
 (
@@ -1970,7 +1978,10 @@ else
 *
 aEventPhase
 =
-0
+nsIDOMEvent
+:
+:
+NONE
 ;
 }
 return
