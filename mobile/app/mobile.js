@@ -35,6 +35,9 @@ extra
 mobile
 "
 "
+APP_UA_NAME_EXTRA
+/
+APP_VERSION_EXTRA
 APP_UA_NAME
 /
 APP_VERSION
