@@ -55,7 +55,7 @@ Basic
 usage
 :
 python
-jit_test
+trace_test
 .
 py
 <
@@ -131,7 +131,7 @@ slow
 tests
 :
 python
-jit_test
+trace_test
 .
 py
 <
@@ -149,7 +149,7 @@ more
 options
 :
 python
-jit_test
+trace_test
 .
 py
 -
@@ -282,7 +282,7 @@ example
 /
 /
 |
-jit
+trace
 -
 test
 |
@@ -314,7 +314,7 @@ cookie
 =
 "
 |
-jit
+trace
 -
 test
 |

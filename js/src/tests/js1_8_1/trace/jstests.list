@@ -20,7 +20,7 @@ trace
 script
 math
 -
-jit
+trace
 -
 tests
 .
