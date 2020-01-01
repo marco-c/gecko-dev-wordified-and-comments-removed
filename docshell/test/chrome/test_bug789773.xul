@@ -425,7 +425,7 @@ true
 if
 (
 /
-aboutHome
+mozilla
 .
 xhtml
 /
@@ -548,7 +548,7 @@ open
 "
 about
 :
-home
+mozilla
 "
 "
 _blank
