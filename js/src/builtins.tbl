@@ -662,3 +662,14 @@ jsint
 1
 1
 )
+BUILTIN1
+(
+Math_random
+LO
+F
+jsdouble
+JSRuntime
+*
+1
+1
+)
