@@ -245,6 +245,10 @@ installer
 -
 help
 /
+?
+channel
+=
+release
 "
 #
 The
