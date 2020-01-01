@@ -221,10 +221,10 @@ D7
 23
 FirstFloatReg
 =
-16
+D0
 LastFloatReg
 =
-22
+D6
 FirstReg
 =
 0

@@ -81,7 +81,7 @@ NANOJIT_PPC
 #
 include
 "
-NativePpc
+NativePPC
 .
 h
 "

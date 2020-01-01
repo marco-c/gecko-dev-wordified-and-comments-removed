@@ -5,9 +5,6 @@ nanojit
 .
 h
 "
-#
-undef
-MEMORY_INFO
 namespace
 nanojit
 {
