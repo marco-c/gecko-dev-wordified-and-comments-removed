@@ -1053,10 +1053,8 @@ nsnull
 return
 ;
 }
-nsRefPtr
-<
 nsHyperTextAccessible
->
+*
 textAcc
 =
 nsAccUtils
@@ -1142,11 +1140,8 @@ mLastCaretOffset
 caretOffset
 ;
 mLastTextAccessible
-.
-swap
-(
+=
 textAcc
-)
 ;
 nsRefPtr
 <
@@ -1194,10 +1189,8 @@ nsISelection
 aSelection
 )
 {
-nsRefPtr
-<
 nsHyperTextAccessible
->
+*
 textAcc
 =
 nsAccUtils
