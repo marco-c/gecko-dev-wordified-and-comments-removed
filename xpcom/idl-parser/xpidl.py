@@ -5063,6 +5063,10 @@ binaryname
 =
 None
     
+optional_argc
+=
+False
+    
 def
 __init__
 (
@@ -5209,6 +5213,21 @@ notxpcom
 self
 .
 notxpcom
+=
+True
+            
+elif
+name
+=
+=
+'
+optional_argc
+'
+:
+                
+self
+.
+optional_argc
 =
 True
             
