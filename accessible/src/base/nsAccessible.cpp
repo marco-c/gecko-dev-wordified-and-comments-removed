@@ -6444,6 +6444,16 @@ accessible
 =
 this
 ;
+if
+(
+!
+aFromValue
+)
+{
+return
+NS_OK
+;
+}
 }
 else
 {
