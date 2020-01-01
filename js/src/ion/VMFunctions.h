@@ -2187,8 +2187,7 @@ InvokeFunction
 JSContext
 *
 cx
-JSFunction
-*
+HandleFunction
 fun
 uint32_t
 argc

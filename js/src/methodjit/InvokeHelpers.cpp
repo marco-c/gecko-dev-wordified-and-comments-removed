@@ -1359,12 +1359,13 @@ RootedScript
 newscript
 (
 cx
-newfun
--
->
+JSFunction
+:
+:
 getOrCreateScript
 (
 cx
+newfun
 )
 )
 ;
