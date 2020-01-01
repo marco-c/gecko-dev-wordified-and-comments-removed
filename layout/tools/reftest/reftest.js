@@ -120,7 +120,7 @@ helper
 const
 LOAD_FAILURE_TIMEOUT
 =
-90000
+120000
 ;
 var
 gBrowser
