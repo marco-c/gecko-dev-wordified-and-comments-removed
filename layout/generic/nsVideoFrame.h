@@ -134,7 +134,7 @@ aPt
 )
 ;
 nsSize
-GetIntrinsicSize
+GetVideoIntrinsicSize
 (
 nsIRenderingContext
 *

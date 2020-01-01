@@ -1684,7 +1684,7 @@ aShrinkWrap
 nsSize
 size
 =
-GetIntrinsicSize
+GetVideoIntrinsicSize
 (
 aRenderingContext
 )
@@ -1751,7 +1751,7 @@ aRenderingContext
 nscoord
 result
 =
-GetIntrinsicSize
+GetVideoIntrinsicSize
 (
 aRenderingContext
 )
@@ -1782,7 +1782,7 @@ aRenderingContext
 nscoord
 result
 =
-GetIntrinsicSize
+GetVideoIntrinsicSize
 (
 aRenderingContext
 )
@@ -1808,7 +1808,7 @@ GetIntrinsicRatio
 )
 {
 return
-GetIntrinsicSize
+GetVideoIntrinsicSize
 (
 nsnull
 )
@@ -1965,7 +1965,7 @@ nsSize
 nsVideoFrame
 :
 :
-GetIntrinsicSize
+GetVideoIntrinsicSize
 (
 nsIRenderingContext
 *
