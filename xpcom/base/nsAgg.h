@@ -958,7 +958,6 @@ mRefCnt
 .
 stabilizeForDeletion
 (
-this
 )
 ;
 \
