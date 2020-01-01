@@ -27117,6 +27117,7 @@ IsFocusable
 (
 &
 tabIndex
+aWithMouse
 )
 ;
 if

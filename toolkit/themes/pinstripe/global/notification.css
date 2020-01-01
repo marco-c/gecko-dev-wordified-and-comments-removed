@@ -570,7 +570,10 @@ png
 .
 messageCloseButton
 :
-focus
+-
+moz
+-
+focusring
 >
 .
 toolbarbutton

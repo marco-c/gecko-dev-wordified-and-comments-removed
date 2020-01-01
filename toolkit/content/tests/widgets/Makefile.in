@@ -687,10 +687,6 @@ test_mousecapture_area
 .
 html
 \
-test_focus
-.
-xul
-\
 test_focus_anons
 .
 xul

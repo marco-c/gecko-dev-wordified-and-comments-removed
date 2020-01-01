@@ -484,6 +484,10 @@ test_clipboard_events
 .
 html
 \
+test_focusrings
+.
+xul
+\
 (
 warning
 test_nodesFromRect

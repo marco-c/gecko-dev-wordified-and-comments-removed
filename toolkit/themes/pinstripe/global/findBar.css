@@ -341,7 +341,10 @@ container
 >
 toolbarbutton
 :
-focus
+-
+moz
+-
+focusring
 {
 position
 :
@@ -476,7 +479,10 @@ hover
 :
 active
 :
-focus
+-
+moz
+-
+focusring
 {
 text
 -
@@ -757,7 +763,10 @@ container
 >
 checkbox
 :
-focus
+-
+moz
+-
+focusring
 >
 .
 checkbox

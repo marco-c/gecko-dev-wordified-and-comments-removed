@@ -393,6 +393,8 @@ IsFocusable
 PRInt32
 *
 aTabIndex
+PRBool
+aWithMouse
 )
 {
 nsCOMPtr
