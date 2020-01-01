@@ -93,6 +93,10 @@ browser_profiler_bug_834878_source_buttons
 .
 js
 \
+browser_profiler_cmd
+.
+js
+\
 head
 .
 js
