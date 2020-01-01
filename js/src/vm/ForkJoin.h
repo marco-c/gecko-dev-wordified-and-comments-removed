@@ -324,6 +324,12 @@ releaseContext
 (
 )
 ;
+bool
+hasAcquiredContext
+(
+)
+const
+;
 static
 inline
 ForkJoinSlice
@@ -374,6 +380,9 @@ ForkJoinShared
 *
 const
 shared
+;
+bool
+acquiredContext_
 ;
 }
 ;
@@ -533,6 +542,11 @@ false
 #
 endif
 }
+bool
+InSequentialOrExclusiveParallelSection
+(
+)
+;
 bool
 ParallelTestsShouldPass
 (
