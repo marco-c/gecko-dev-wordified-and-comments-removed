@@ -90,7 +90,7 @@ mHeld
 {
 if
 (
-JS_AddNamedRootRT
+js_AddGCThingRootRT
 (
 aRt
 &
@@ -150,7 +150,7 @@ if
 mHeld
 )
 {
-JS_RemoveRootRT
+js_RemoveRoot
 (
 mRt
 &

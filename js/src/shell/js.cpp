@@ -774,7 +774,7 @@ cx
 )
 ;
 }
-JS_AddNamedRoot
+JS_AddNamedStringRoot
 (
 cx
 &
@@ -792,7 +792,7 @@ ToString
 (
 )
 {
-JS_RemoveRoot
+JS_RemoveStringRoot
 (
 cx
 &
@@ -16289,7 +16289,7 @@ JSVAL_VOID
 ;
 ok
 =
-JS_AddRoot
+JS_AddValueRoot
 (
 cx
 &
@@ -16315,7 +16315,7 @@ i
 >
 0
 )
-JS_RemoveRoot
+JS_RemoveValueRoot
 (
 cx
 &
@@ -16446,7 +16446,7 @@ JSVAL_NULL
 ;
 ok
 =
-JS_AddRoot
+JS_AddValueRoot
 (
 cx
 &
@@ -16486,7 +16486,7 @@ fn
 )
 )
 {
-JS_RemoveRoot
+JS_RemoveValueRoot
 (
 cx
 &
@@ -16519,7 +16519,7 @@ i
 >
 0
 )
-JS_RemoveRoot
+JS_RemoveValueRoot
 (
 cx
 &
@@ -16866,7 +16866,7 @@ i
 +
 )
 {
-JS_RemoveRoot
+JS_RemoveValueRoot
 (
 cx
 &
@@ -16938,7 +16938,7 @@ i
 +
 +
 )
-JS_RemoveRoot
+JS_RemoveValueRoot
 (
 cx
 &
@@ -21723,7 +21723,7 @@ JS_FALSE
 if
 (
 !
-JS_AddRoot
+JS_AddValueRoot
 (
 cx
 val
@@ -21752,7 +21752,7 @@ val
 )
 )
 {
-JS_RemoveRoot
+JS_RemoveValueRoot
 (
 cx
 val
@@ -22894,7 +22894,7 @@ if
 rootedVal
 )
 {
-JS_RemoveRoot
+JS_RemoveValueRoot
 (
 cx
 rootedVal
@@ -25664,7 +25664,7 @@ hooks
 if
 (
 !
-JS_AddNamedRoot
+JS_AddNamedObjectRoot
 (
 cx
 &
@@ -25725,7 +25725,7 @@ cx
 gWorkers
 )
 ;
-JS_RemoveRoot
+JS_RemoveObjectRoot
 (
 cx
 &

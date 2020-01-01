@@ -74,7 +74,7 @@ value
 if
 (
 !
-JS_AddRoot
+JS_AddValueRoot
 (
 cx
 &
@@ -109,7 +109,7 @@ jsvalRoot
 (
 )
 {
-JS_RemoveRoot
+JS_RemoveValueRoot
 (
 cx
 &
