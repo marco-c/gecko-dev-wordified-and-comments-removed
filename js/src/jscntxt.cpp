@@ -1978,13 +1978,6 @@ finish
 (
 )
 ;
-rt
--
->
-finishSelfHosting
-(
-)
-;
 JS
 :
 :
@@ -2004,6 +1997,13 @@ gcreason
 :
 :
 LAST_CONTEXT
+)
+;
+rt
+-
+>
+finishSelfHosting
+(
 )
 ;
 }
