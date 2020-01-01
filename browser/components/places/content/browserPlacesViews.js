@@ -8372,7 +8372,7 @@ ind
 .
 style
 .
-MozTransform
+transform
 =
 "
 translate

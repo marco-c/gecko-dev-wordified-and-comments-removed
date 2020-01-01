@@ -202,7 +202,7 @@ target
 .
 style
 .
-MozTransform
+transform
 )
 {
 transformChanged
@@ -253,9 +253,6 @@ the
 CSS
 class
 '
--
-moz
--
 transform
 '
 was

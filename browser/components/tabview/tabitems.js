@@ -2581,9 +2581,6 @@ css
 (
 {
 '
--
-moz
--
 transform
 '
 :
@@ -2744,9 +2741,6 @@ css
 (
 {
 '
--
-moz
--
 transform
 -
 origin
@@ -2762,9 +2756,6 @@ animate
 (
 {
 '
--
-moz
--
 transform
 '
 :
@@ -2869,9 +2860,6 @@ canvas
 css
 (
 "
--
-moz
--
 transform
 "
 null
@@ -2962,9 +2950,6 @@ css
 (
 {
 '
--
-moz
--
 transform
 '
 :
@@ -2972,9 +2957,6 @@ transform
 .
 transform
 '
--
-moz
--
 transform
 -
 origin
@@ -2992,9 +2974,6 @@ animate
 (
 {
 "
--
-moz
--
 transform
 "
 :

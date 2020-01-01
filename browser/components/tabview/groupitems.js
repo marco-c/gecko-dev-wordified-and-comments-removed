@@ -3103,9 +3103,6 @@ opacity
 :
 0
 "
--
-moz
--
 transform
 "
 :
@@ -3198,9 +3195,6 @@ opacity
 :
 0
 "
--
-moz
--
 transform
 "
 :
@@ -3533,9 +3527,6 @@ animate
 (
 {
 "
--
-moz
--
 transform
 "
 :
@@ -3570,9 +3561,6 @@ css
 (
 {
 "
--
-moz
--
 transform
 "
 :
@@ -4234,9 +4222,6 @@ height
 /
 2
 "
--
-moz
--
 transform
 "
 :
@@ -4273,9 +4258,6 @@ animate
 (
 {
 "
--
-moz
--
 transform
 "
 :
