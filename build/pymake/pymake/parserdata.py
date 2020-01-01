@@ -1205,22 +1205,6 @@ makefile
 variables
 )
         
-assert
-len
-(
-targets
-)
-=
-=
-1
-        
-target
-=
-targets
-[
-0
-]
-        
 rule
 =
 data
@@ -1243,6 +1227,12 @@ weakdeps
 True
 )
         
+for
+target
+in
+targets
+:
+            
 makefile
 .
 gettarget
@@ -1254,7 +1244,7 @@ addrule
 (
 rule
 )
-        
+            
 makefile
 .
 foundtarget
