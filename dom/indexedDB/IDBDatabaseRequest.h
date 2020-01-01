@@ -136,6 +136,11 @@ mConnectionThread
 ;
 }
 void
+FireCloseConnectionRunnable
+(
+)
+;
+void
 OnObjectStoreCreated
 (
 const
