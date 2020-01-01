@@ -456,11 +456,6 @@ kDialog
 dialog
 "
 ;
-"
-use
-strict
-"
-;
 var
 gButtons
 =

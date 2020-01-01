@@ -388,11 +388,6 @@ BLOCK
 *
 *
 *
-"
-use
-strict
-"
-;
 Components
 .
 utils
