@@ -404,6 +404,13 @@ aWhichChild
 )
 ;
 virtual
+nsAccessible
+*
+FocusedChild
+(
+)
+;
+virtual
 PRInt32
 GetLevelInternal
 (
