@@ -30,6 +30,13 @@ h
 #
 include
 "
+nsChangeObserver
+.
+h
+"
+#
+include
+"
 nsINativeMenuService
 .
 h
@@ -53,9 +60,6 @@ nsMenuX
 ;
 class
 nsMenuItemX
-;
-class
-nsChangeObserver
 ;
 class
 nsIWidget
@@ -291,6 +295,8 @@ nsMenuBarX
 :
 public
 nsMenuGroupOwnerX
+public
+nsChangeObserver
 {
 public
 :
@@ -332,6 +338,7 @@ nsIContent
 >
 mQuitItemContent
 ;
+NS_DECL_CHANGEOBSERVER
 void
 *
 NativeData
