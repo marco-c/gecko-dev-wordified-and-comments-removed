@@ -2344,6 +2344,10 @@ SHGetSpecialFolderPathW
 SHGetSpecialFolderPath
 #
 define
+SHGetFileInfoW
+SHGetFileInfo
+#
+define
 SHGetPathFromIDListW
 SHGetPathFromIDList
 #
