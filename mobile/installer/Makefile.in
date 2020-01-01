@@ -823,6 +823,9 @@ rdfcat
 rdfpoll
 *
 \
+dictionaries
+*
+\
 (
 NULL
 )
