@@ -82,7 +82,7 @@ Nv3DVUtils
 :
 m3DVStreaming
 (
-NULL
+nullptr
 )
 {
 }
@@ -170,7 +170,7 @@ hr
 CoCreateInstance
 (
 CLSID_NV3DVStreaming
-NULL
+nullptr
 CLSCTX_INPROC_SERVER
 IID_INV3DVStreaming
 (
@@ -293,7 +293,7 @@ Pointer
 IUnknown
 )
 is
-NULL
+nullptr
 .
 \
 n

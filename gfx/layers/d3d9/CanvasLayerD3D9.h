@@ -51,7 +51,7 @@ aManager
 CanvasLayer
 (
 aManager
-NULL
+nullptr
 )
 LayerD3D9
 (

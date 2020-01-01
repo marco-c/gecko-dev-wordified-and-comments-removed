@@ -542,7 +542,7 @@ GetNv3DVUtils
 (
 )
 :
-NULL
+nullptr
 ;
 }
 static
@@ -898,7 +898,7 @@ LockRect
 0
 &
 mR
-NULL
+nullptr
 0
 )
 ;

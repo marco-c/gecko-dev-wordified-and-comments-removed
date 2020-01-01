@@ -1267,7 +1267,7 @@ getter_AddRefs
 (
 mTexture
 )
-NULL
+nullptr
 )
 ;
 }
@@ -1296,7 +1296,7 @@ getter_AddRefs
 (
 mTexture
 )
-NULL
+nullptr
 )
 ;
 }

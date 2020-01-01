@@ -1124,7 +1124,7 @@ getter_AddRefs
 (
 renderTexture
 )
-NULL
+nullptr
 )
 ;
 if
@@ -2015,7 +2015,7 @@ aManager
 ContainerLayer
 (
 aManager
-NULL
+nullptr
 )
 LayerD3D9
 (

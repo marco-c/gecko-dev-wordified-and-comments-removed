@@ -44,7 +44,7 @@ aManager
 ReadbackLayer
 (
 aManager
-NULL
+nullptr
 )
 LayerD3D9
 (
