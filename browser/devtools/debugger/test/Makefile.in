@@ -378,6 +378,10 @@ browser_dbg_menustatus
 .
 js
 \
+browser_dbg_bfcache
+.
+js
+\
 head
 .
 js
