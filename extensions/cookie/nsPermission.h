@@ -34,10 +34,6 @@ const
 nsACString
 &
 aHost
-uint32_t
-aAppId
-bool
-aIsInBrowserElement
 const
 nsACString
 &
@@ -55,8 +51,6 @@ virtual
 nsPermission
 (
 )
-{
-}
 ;
 protected
 :
@@ -74,12 +68,6 @@ mExpireType
 ;
 int64_t
 mExpireTime
-;
-uint32_t
-mAppId
-;
-bool
-mIsInBrowserElement
 ;
 }
 ;
