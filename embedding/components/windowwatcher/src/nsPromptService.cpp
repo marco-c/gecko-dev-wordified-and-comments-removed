@@ -1412,10 +1412,9 @@ tempInt
 *
 checkValue
 =
-PRBool
-(
+!
+!
 tempInt
-)
 ;
 return
 rv

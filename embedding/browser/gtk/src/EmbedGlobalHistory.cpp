@@ -669,9 +669,10 @@ HistoryEntry
 entry
 )
 {
-NS_ENSURE_ARG
+NS_ENSURE_TRUE
 (
 entry
+PR_FALSE
 )
 ;
 return

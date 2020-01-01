@@ -2890,6 +2890,8 @@ mDocShell
 >
 SetAllowPlugins
 (
+!
+!
 aValue
 )
 ;
@@ -2930,6 +2932,8 @@ mDocShell
 >
 SetAllowJavascript
 (
+!
+!
 aValue
 )
 ;
@@ -2970,6 +2974,8 @@ mDocShell
 >
 SetAllowMetaRedirects
 (
+!
+!
 aValue
 )
 ;
@@ -3010,6 +3016,8 @@ mDocShell
 >
 SetAllowSubframes
 (
+!
+!
 aValue
 )
 ;
@@ -3050,6 +3058,8 @@ mDocShell
 >
 SetAllowImages
 (
+!
+!
 aValue
 )
 ;
@@ -3089,6 +3099,8 @@ rv
 =
 EnableGlobalHistory
 (
+!
+!
 aValue
 )
 ;

@@ -5010,9 +5010,17 @@ embedPrivate
 FindText
 (
 string
+!
+!
 reverse
+!
+!
 whole_word
+!
+!
 case_sensitive
+!
+!
 restart
 )
 ;

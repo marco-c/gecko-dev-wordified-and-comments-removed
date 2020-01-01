@@ -839,9 +839,10 @@ nsIDOMNode
 aDOMNode
 )
 {
-NS_ENSURE_ARG
+NS_ENSURE_TRUE
 (
 aDOMNode
+PR_FALSE
 )
 ;
 nsCOMPtr
