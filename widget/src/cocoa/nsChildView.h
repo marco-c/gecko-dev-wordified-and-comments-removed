@@ -138,6 +138,9 @@ gfxASurface
 class
 nsChildView
 ;
+class
+nsCocoaWindow
+;
 union
 nsPluginPort
 ;
@@ -1251,6 +1254,12 @@ inFrame
 ;
 void
 TearDownView
+(
+)
+;
+nsCocoaWindow
+*
+GetXULWindowWidget
 (
 )
 ;
