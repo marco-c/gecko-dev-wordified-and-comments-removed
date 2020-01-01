@@ -171,6 +171,16 @@ drawableState
 ;
 }
 public
+boolean
+isPrivateMode
+(
+)
+{
+return
+mIsPrivate
+;
+}
+public
 void
 setPrivateMode
 (
