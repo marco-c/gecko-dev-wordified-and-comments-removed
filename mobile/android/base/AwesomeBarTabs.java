@@ -1502,6 +1502,12 @@ equals
 (
 BOOKMARKS_TAB
 )
+|
+|
+mBookmarksAdapter
+=
+=
+null
 )
 return
 false
