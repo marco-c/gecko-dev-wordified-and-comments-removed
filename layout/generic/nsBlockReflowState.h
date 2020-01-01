@@ -530,6 +530,14 @@ SetupFloatContinuationList
 (
 )
 ;
+aFloatCont
+-
+>
+AddStateBits
+(
+NS_FRAME_IS_FLOAT_CONTINUATION
+)
+;
 mFloatContinuations
 .
 AppendFrame
