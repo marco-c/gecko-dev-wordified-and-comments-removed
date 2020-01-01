@@ -30440,6 +30440,16 @@ pref
 "
 webgl
 .
+shader_validator
+"
+false
+)
+;
+pref
+(
+"
+webgl
+.
 software_render
 "
 false
