@@ -5904,12 +5904,17 @@ script
 -
 >
 usesEval
+#
+ifdef
+JS_METHODJIT
 |
 |
 script
 -
 >
 debugMode
+#
+endif
 )
 {
 CopyValuesToCallObject
