@@ -4082,16 +4082,6 @@ mNodeInfo
 =
 aNodeInfo
 ;
-prototype
--
->
-mScriptTypeID
-=
-nsIProgrammingLanguage
-:
-:
-JAVASCRIPT
-;
 AddAttributesToXULPrototype
 (
 aAtts
