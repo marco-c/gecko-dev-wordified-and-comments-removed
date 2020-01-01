@@ -2469,7 +2469,6 @@ selectedIndex
 )
 {
 return
-false
 ;
 }
 var
