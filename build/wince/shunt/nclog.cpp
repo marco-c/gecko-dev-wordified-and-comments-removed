@@ -6,9 +6,6 @@ mozce_internal
 h
 "
 #
-define
-USE_NC_LOGGING
-#
 ifdef
 USE_NC_LOGGING
 #

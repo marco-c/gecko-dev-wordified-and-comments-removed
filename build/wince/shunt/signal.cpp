@@ -51,10 +51,9 @@ int
 inSignal
 )
 {
-MOZCE_PRECHECK
 #
 ifdef
-DEBUG
+API_LOGGING
 mozce_printf
 (
 "
@@ -131,10 +130,9 @@ _sigsig
 inFunc
 )
 {
-MOZCE_PRECHECK
 #
 ifdef
-DEBUG
+API_LOGGING
 mozce_printf
 (
 "
