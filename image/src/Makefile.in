@@ -137,6 +137,10 @@ DiscardTracker
 .
 cpp
 \
+FrozenImage
+.
+cpp
+\
 RasterImage
 .
 cpp
