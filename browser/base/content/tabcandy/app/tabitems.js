@@ -2914,13 +2914,6 @@ items
 :
 [
 ]
-init
-:
-function
-(
-)
-{
-}
 register
 :
 function

@@ -12,14 +12,14 @@ others
 include
 core
 /
-iq
+utils
 .
 js
 #
 include
 core
 /
-utils
+iq
 .
 js
 #

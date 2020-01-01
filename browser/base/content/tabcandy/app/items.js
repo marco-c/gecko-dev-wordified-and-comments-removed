@@ -3793,13 +3793,6 @@ Items
 defaultGutter
 :
 15
-init
-:
-function
-(
-)
-{
-}
 item
 :
 function
@@ -5025,12 +5018,4 @@ bounds
 }
 }
 }
-;
-window
-.
-Items
-.
-init
-(
-)
 ;
