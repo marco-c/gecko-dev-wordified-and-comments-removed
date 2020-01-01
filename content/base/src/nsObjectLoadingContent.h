@@ -725,6 +725,10 @@ aLoadingChannel
 ParameterUpdateFlags
 UpdateObjectParameters
 (
+bool
+aJavaURI
+=
+false
 )
 ;
 void
