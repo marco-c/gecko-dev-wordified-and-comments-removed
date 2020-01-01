@@ -18,7 +18,7 @@ numInts
 )
 iPair
 (
-0
+nullptr
 )
 {
 }
@@ -336,6 +336,7 @@ i
 +
 +
 )
+{
 tpair
 [
 i
@@ -346,6 +347,7 @@ iPair
 i
 ]
 ;
+}
 for
 (
 i
@@ -360,6 +362,7 @@ i
 +
 +
 )
+{
 tpair
 [
 i
@@ -372,6 +375,7 @@ iPair
 i
 ]
 ;
+}
 +
 +
 numInts

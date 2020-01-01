@@ -2006,7 +2006,7 @@ NULL
 }
 static
 long
-timerMiliSec
+timerMilliSec
 =
 50
 ;
@@ -2679,7 +2679,7 @@ rtcHz
 )
 startSignalCounter
 (
-timerMiliSec
+timerMilliSec
 )
 ;
 }
@@ -2864,7 +2864,7 @@ tmp
 3
 )
 {
-timerMiliSec
+timerMilliSec
 =
 static_cast
 <
@@ -2904,7 +2904,7 @@ n
 tmp
 )
 ;
-timerMiliSec
+timerMilliSec
 =
 1
 ;
@@ -3074,7 +3074,7 @@ JP_RTC_HZ
 )
 )
 ;
-timerMiliSec
+timerMilliSec
 =
 0
 ;
@@ -3561,7 +3561,7 @@ rtcHz
 ?
 rtcHz
 :
-timerMiliSec
+timerMilliSec
 rtcHz
 ?
 "
@@ -3633,7 +3633,7 @@ firstDelay
 *
 1000
 +
-timerMiliSec
+timerMilliSec
 )
 ;
 }
