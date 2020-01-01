@@ -292,6 +292,8 @@ Watch
 nsIGeolocationUpdate
 *
 aCallback
+bool
+aRequestPrivate
 )
 {
 mCallback
