@@ -1448,7 +1448,7 @@ EventUtils
 synthesizeKey
 (
 "
-VK_ESC
+VK_ESCAPE
 "
 {
 }
