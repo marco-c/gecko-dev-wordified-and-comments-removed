@@ -3162,10 +3162,13 @@ bsearch
 &
 aTableTag
 dir
+uint16_t
+(
 header
 -
 >
 numTables
+)
 sizeof
 (
 TableDirEntry
