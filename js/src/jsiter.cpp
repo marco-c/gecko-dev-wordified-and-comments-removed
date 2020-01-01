@@ -1205,7 +1205,7 @@ if
 pobj
 -
 >
-getDenseArrayCount
+getArrayLength
 (
 )
 >
