@@ -127,17 +127,6 @@ PCWSTR
 )
 ;
 typedef
-void
-(
-WINAPI
-*
-ILFreePtr
-)
-(
-LPITEMIDLIST
-)
-;
-typedef
 HRESULT
 (
 WINAPI
@@ -145,7 +134,7 @@ WINAPI
 SHOpenFolderAndSelectItemsPtr
 )
 (
-LPCITEMIDLIST
+PCIDLIST_ABSOLUTE
 UINT
 PCUITEMID_CHILD_ARRAY
 DWORD
@@ -354,10 +343,6 @@ RevealUsingShell
 static
 ILCreateFromPathWPtr
 sILCreateFromPathW
-;
-static
-ILFreePtr
-sILFree
 ;
 static
 SHOpenFolderAndSelectItemsPtr
