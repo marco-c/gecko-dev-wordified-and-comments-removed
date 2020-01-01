@@ -13336,6 +13336,12 @@ onLowMemory
 (
 )
 ;
+GeckoAppShell
+.
+geckoEventSync
+(
+)
+;
 }
 Override
 public
