@@ -248,6 +248,13 @@ Count
 )
 ;
 }
+PRBool
+SetCount
+(
+PRInt32
+aNewCount
+)
+;
 nsISupports
 *
 ObjectAt

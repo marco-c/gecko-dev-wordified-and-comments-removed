@@ -110,6 +110,13 @@ mCount
 0
 ;
 }
+PRBool
+SetCount
+(
+PRInt32
+aNewCount
+)
+;
 inline
 PRInt32
 GetArraySize

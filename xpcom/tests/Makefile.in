@@ -518,6 +518,10 @@ TestAutoPtr
 .
 cpp
 \
+TestCOMArray
+.
+cpp
+\
 TestCOMPtr
 .
 cpp
