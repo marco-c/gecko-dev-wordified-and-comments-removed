@@ -23139,12 +23139,6 @@ aRequest
 {
 aBrowser
 .
-_clickToPlayDoorhangerShown
-=
-false
-;
-aBrowser
-.
 _clickToPlayPluginsActivated
 =
 false
