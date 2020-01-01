@@ -2123,6 +2123,7 @@ m_buffer
 }
 for
 (
+unsigned
 int
 i
 =
@@ -2175,6 +2176,7 @@ real_offset
 }
 for
 (
+unsigned
 int
 i
 =
@@ -3282,6 +3284,7 @@ locs
 {
 for
 (
+unsigned
 int
 idx
 =
@@ -3690,15 +3693,6 @@ i
 +
 )
 {
-CodeLabel
-*
-label
-=
-codeLabels_
-[
-i
-]
-;
 JS_NOT_REACHED
 (
 "
@@ -6642,7 +6636,7 @@ lt
 ;
 ONES
 =
-0xffffffff
+0xfu
 ;
 destReg
 =
@@ -6707,7 +6701,7 @@ lt
 ;
 ONES
 =
-0xffffffff
+0xfu
 ;
 destReg
 =
@@ -7917,15 +7911,6 @@ ret
 =
 as_nop
 (
-)
-;
-Instruction
-*
-i
-=
-editSrc
-(
-ret
 )
 ;
 as_b
@@ -11437,12 +11422,6 @@ next
 (
 )
 {
-Assembler
-:
-:
-Condition
-c
-;
 Instruction
 *
 ret

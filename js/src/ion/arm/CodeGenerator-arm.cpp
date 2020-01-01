@@ -2231,7 +2231,7 @@ rest
 if
 (
 (
-1
+1u
 <
 <
 shift_rest
