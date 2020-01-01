@@ -168,7 +168,6 @@ OggPlayReader
 *
 oggplay_file_reader_new
 (
-const
 char
 *
 filename
@@ -178,11 +177,9 @@ OggPlayReader
 *
 oggplay_tcp_reader_new
 (
-const
 char
 *
 uri
-const
 char
 *
 proxy
