@@ -719,7 +719,11 @@ update
 item
 ]
 1
-2
+Ci
+.
+nsIExtensionManager
+.
+UPDATE_SYNC_COMPATIBILITY
 null
 )
 ;
