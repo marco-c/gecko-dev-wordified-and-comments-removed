@@ -564,6 +564,14 @@ test_frameWrapping
 .
 html
 \
+test_bug589028
+.
+html
+\
+bug589028_helper
+.
+html
+\
 (
 NULL
 )
