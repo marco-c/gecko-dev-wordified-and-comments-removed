@@ -739,6 +739,9 @@ NULL
 }
 #
 endif
+#
+ifdef
+SA_SIGINFO
 static
 void
 fpehandler
@@ -1298,6 +1301,8 @@ endif
 #
 endif
 }
+#
+endif
 void
 InstallSignalHandlers
 (
@@ -1432,6 +1437,9 @@ crap_handler
 }
 #
 endif
+#
+ifdef
+SA_SIGINFO
 struct
 sigaction
 sa
@@ -1470,6 +1478,8 @@ sa
 osa
 )
 ;
+#
+endif
 #
 if
 defined
