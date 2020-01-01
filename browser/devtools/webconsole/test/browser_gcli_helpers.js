@@ -1,3 +1,9 @@
+let
+tmp
+=
+{
+}
+;
 Components
 .
 utils
@@ -16,7 +22,15 @@ gcli
 .
 jsm
 "
+tmp
 )
+;
+let
+gcli
+=
+tmp
+.
+gcli
 ;
 let
 hud

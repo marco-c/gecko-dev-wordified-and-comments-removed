@@ -1,3 +1,9 @@
+let
+tmp
+=
+{
+}
+;
 Components
 .
 utils
@@ -17,7 +23,15 @@ AddonRepository
 .
 jsm
 "
+tmp
 )
+;
+let
+AddonRepository
+=
+tmp
+.
+AddonRepository
 ;
 var
 gManagerWindow
