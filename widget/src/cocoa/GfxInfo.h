@@ -240,6 +240,13 @@ Init
 (
 )
 ;
+#
+ifdef
+DEBUG
+NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_NSIGFXINFODEBUG
+#
+endif
 protected
 :
 virtual
