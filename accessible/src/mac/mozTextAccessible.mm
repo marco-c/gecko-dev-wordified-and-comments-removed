@@ -591,7 +591,7 @@ mGeckoEditableTextAccessible
 )
 return
 (
-mGeckoEditableTextAccessible
+mGeckoAccessible
 -
 >
 State
