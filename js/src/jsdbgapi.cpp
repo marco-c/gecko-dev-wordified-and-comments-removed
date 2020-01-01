@@ -138,6 +138,13 @@ jsstr
 .
 h
 "
+#
+include
+"
+jsautooplen
+.
+h
+"
 typedef
 struct
 JSTrap

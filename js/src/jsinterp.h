@@ -1925,6 +1925,17 @@ vp2
 ;
 extern
 void
+js_TraceOpcode
+(
+JSContext
+*
+cx
+jsint
+len
+)
+;
+extern
+void
 js_MeterOpcodePair
 (
 JSOp
