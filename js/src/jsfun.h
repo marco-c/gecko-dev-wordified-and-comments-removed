@@ -654,6 +654,14 @@ countLocalNames
 0
 ;
 }
+int
+sharpSlotBase
+(
+JSContext
+*
+cx
+)
+;
 uint32
 countInterpretedReservedSlots
 (

@@ -119,13 +119,6 @@ JSObject
 *
 blockChain
 ;
-uintN
-sharpDepth
-;
-JSObject
-*
-sharpArray
-;
 uint32
 flags
 ;
