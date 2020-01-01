@@ -635,6 +635,7 @@ null
 ;
 var
 progress
+progressListener
 ;
 function
 runTest
@@ -703,7 +704,6 @@ interfaces
 nsIWebProgress
 )
 ;
-var
 progressListener
 =
 new
