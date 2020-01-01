@@ -1319,6 +1319,17 @@ return
 mAbove
 ;
 }
+PRBool
+RecomputeVisibility
+(
+nsDisplayListBuilder
+*
+aBuilder
+nsRegion
+*
+aVisibleRegion
+)
+;
 protected
 :
 friend
