@@ -27836,6 +27836,7 @@ ionCompartment
 >
 getArgumentsRectifier
 (
+SequentialExecution
 )
 ;
 masm
@@ -30332,6 +30333,7 @@ ionCompartment
 >
 getArgumentsRectifier
 (
+SequentialExecution
 )
 ;
 masm
@@ -33113,6 +33115,7 @@ ionCompartment
 >
 getArgumentsRectifier
 (
+SequentialExecution
 )
 ;
 masm
