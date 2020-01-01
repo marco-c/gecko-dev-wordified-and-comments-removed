@@ -23,13 +23,6 @@ h
 #
 include
 "
-nsObjCExceptions
-.
-h
-"
-#
-include
-"
 imgIContainer
 .
 h
@@ -45,6 +38,13 @@ h
 include
 "
 npapi
+.
+h
+"
+#
+include
+"
+nsObjCExceptions
 .
 h
 "

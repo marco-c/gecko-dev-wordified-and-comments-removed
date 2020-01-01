@@ -1,4 +1,10 @@
 #
+undef
+try
+#
+undef
+catch
+#
 ifndef
 nsObjCExceptions_h_
 #
@@ -83,6 +89,12 @@ nsError
 .
 h
 "
+#
+undef
+try
+#
+undef
+catch
 __attribute__
 (
 (
