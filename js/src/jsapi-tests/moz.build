@@ -240,11 +240,6 @@ testGCOutOfMemory
 cpp
 '
 '
-testGetPropertyDefault
-.
-cpp
-'
-'
 testHashTable
 .
 cpp
