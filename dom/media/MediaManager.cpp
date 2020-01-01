@@ -4224,6 +4224,16 @@ ElementAt
 i
 )
 ;
+if
+(
+listener
+-
+>
+Stream
+(
+)
+)
+{
 listener
 -
 >
@@ -4231,6 +4241,7 @@ Invalidate
 (
 )
 ;
+}
 listener
 -
 >
