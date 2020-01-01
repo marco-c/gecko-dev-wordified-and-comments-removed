@@ -771,7 +771,6 @@ GetStateBits
 (
 )
 &
-&
 NS_FRAME_IS_SPECIAL
 )
 )
@@ -883,7 +882,6 @@ aFrame
 GetStateBits
 (
 )
-&
 &
 NS_FRAME_IS_SPECIAL
 )
