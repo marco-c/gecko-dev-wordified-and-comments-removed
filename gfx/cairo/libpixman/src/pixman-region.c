@@ -8536,6 +8536,10 @@ numRects
 1
 )
 {
+if
+(
+box
+)
 *
 box
 =
@@ -8621,6 +8625,10 @@ x2
 )
 continue
 ;
+if
+(
+box
+)
 *
 box
 =

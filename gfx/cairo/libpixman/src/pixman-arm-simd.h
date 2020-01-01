@@ -9,11 +9,11 @@ h
 "
 #
 ifdef
-USE_ARM
+USE_ARM_SIMD
 static
 inline
 pixman_bool_t
-pixman_have_arm
+pixman_have_arm_simd
 (
 void
 )
@@ -26,7 +26,7 @@ TRUE
 else
 #
 define
-pixman_have_arm
+pixman_have_arm_simd
 (
 )
 FALSE
@@ -34,7 +34,7 @@ FALSE
 endif
 #
 ifdef
-USE_ARM
+USE_ARM_SIMD
 void
 fbCompositeSrcAdd_8000x8000arm
 (
