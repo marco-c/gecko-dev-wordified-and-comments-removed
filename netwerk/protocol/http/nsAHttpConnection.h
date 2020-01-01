@@ -171,6 +171,14 @@ length
 ;
 virtual
 bool
+IsProxyConnectInProgress
+(
+)
+=
+0
+;
+virtual
+bool
 LastTransactionExpectedNoContent
 (
 )
@@ -300,6 +308,12 @@ const
 char
 *
 PRUint32
+)
+;
+\
+bool
+IsProxyConnectInProgress
+(
 )
 ;
 \
