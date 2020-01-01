@@ -4728,11 +4728,6 @@ tokenStream_
 reportAsmJSError
 (
 errorNode_
--
->
-pn_pos
-.
-begin
 JSMSG_USE_ASM_TYPE_FAIL
 errorString_
 )

@@ -344,10 +344,10 @@ notes
 ptrdiff_t
 lastNoteOffset
 ;
-uint32_t
+unsigned
 currentLine
 ;
-uint32_t
+unsigned
 lastColumn
 ;
 EmitSection
@@ -355,8 +355,8 @@ EmitSection
 JSContext
 *
 cx
-uint32_t
-lineNum
+unsigned
+lineno
 )
 :
 code
@@ -373,7 +373,7 @@ lastNoteOffset
 )
 currentLine
 (
-lineNum
+lineno
 )
 lastColumn
 (
@@ -495,8 +495,8 @@ HandleScript
 evalCaller
 bool
 hasGlobalScope
-uint32_t
-lineNum
+unsigned
+lineno
 bool
 selfHostingMode
 =
