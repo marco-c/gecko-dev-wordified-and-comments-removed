@@ -659,7 +659,7 @@ aRemove
 )
 ;
 void
-ClearIntervalProgress
+ClearIntervals
 (
 )
 ;
