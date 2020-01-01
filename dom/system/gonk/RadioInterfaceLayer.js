@@ -2434,7 +2434,7 @@ return
 }
 target
 .
-syncAsyncMessage
+sendAsyncMessage
 (
 requestType
 options
