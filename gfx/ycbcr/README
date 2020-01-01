@@ -209,3 +209,13 @@ C
 implementation
 on
 SPARC
+add_scale
+.
+patch
+:
+re
+-
+adds
+Chromium
+scaling
+code
