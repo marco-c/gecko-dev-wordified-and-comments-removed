@@ -2628,6 +2628,8 @@ PKG_ARG
 )
 )
 )
+ifdef
+MOZ_OPTIONAL_PKG_LIST
 (
 call
 PACKAGER_COPY
@@ -2674,6 +2676,7 @@ PKG_ARG
 )
 )
 )
+endif
 (
 PERL
 )
