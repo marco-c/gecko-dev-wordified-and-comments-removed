@@ -1027,7 +1027,7 @@ const
 int
 kMagicChildCrashReportFd
 =
-42
+4
 ;
 #
 endif
