@@ -2052,7 +2052,7 @@ html
 ref
 .
 html
-random
+fails
 =
 =
 351641
@@ -2077,15 +2077,6 @@ bug
 -
 19
 )
-;
-random
-instead
-of
-fails
-because
-of
-bug
-372629
 =
 =
 359903
