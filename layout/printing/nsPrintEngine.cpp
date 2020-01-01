@@ -8481,12 +8481,11 @@ if
 frame
 )
 {
+SetPrintPO
+(
 aPO
--
->
-mDontPrint
-=
-PR_TRUE
+PR_FALSE
+)
 ;
 return
 NS_OK
