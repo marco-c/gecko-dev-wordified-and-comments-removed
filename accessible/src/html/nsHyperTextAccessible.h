@@ -205,6 +205,15 @@ InvalidateChildren
 (
 )
 ;
+virtual
+PRBool
+RemoveChild
+(
+nsAccessible
+*
+aAccessible
+)
+;
 static
 nsresult
 ContentToRenderedOffset
