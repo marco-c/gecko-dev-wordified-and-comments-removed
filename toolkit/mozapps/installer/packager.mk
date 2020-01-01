@@ -2077,6 +2077,12 @@ defaults
 \
 modules
 \
+hyphenation
+/
+hyph_en_US
+.
+dic
+\
 res
 \
 lib
