@@ -9698,3 +9698,15 @@ properties
 "
 )
 ;
+pref
+(
+"
+browser
+.
+panorama
+.
+animate_zoom
+"
+true
+)
+;
