@@ -8395,6 +8395,14 @@ compartment
 c
 )
 {
+IonContext
+ictx
+(
+NULL
+c
+NULL
+)
+;
 AutoFlushCache
 afc
 (
@@ -9320,14 +9328,6 @@ false
 {
 if
 (
-comp
-=
-=
-NULL
-)
-{
-if
-(
 CurrentIonContext
 (
 )
@@ -9349,7 +9349,6 @@ ionCompartment
 (
 )
 ;
-}
 if
 (
 comp
