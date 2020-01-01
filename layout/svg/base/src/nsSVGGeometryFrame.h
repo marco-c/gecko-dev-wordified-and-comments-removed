@@ -191,7 +191,7 @@ float
 MaybeOptimizeOpacity
 (
 float
-aOpacity
+aFillOrStrokeOpacity
 )
 ;
 }
