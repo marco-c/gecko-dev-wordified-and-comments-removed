@@ -1115,14 +1115,6 @@ reset
 ;
 NetMonitorView
 .
-Sidebar
-.
-reset
-(
-)
-;
-NetMonitorView
-.
 NetworkDetails
 .
 reset
