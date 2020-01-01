@@ -420,6 +420,10 @@ accessibility
 LIBRARY_NAME
 =
 accessibility_toolkit_s
+EXPORT_LIBRARY
+=
+.
+.
 LIBXUL_LIBRARY
 =
 1
