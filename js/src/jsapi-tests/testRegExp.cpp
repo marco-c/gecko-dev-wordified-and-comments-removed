@@ -221,9 +221,11 @@ obj
 )
 =
 =
+(
 JSREG_FOLD
 |
 JSREG_GLOB
+)
 )
 ;
 return
