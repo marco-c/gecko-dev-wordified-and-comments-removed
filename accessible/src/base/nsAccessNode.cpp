@@ -213,15 +213,6 @@ mDoc
 aDoc
 )
 {
-#
-ifdef
-DEBUG_A11Y
-mIsInitialized
-=
-false
-;
-#
-endif
 }
 nsAccessNode
 :
