@@ -881,6 +881,14 @@ png_const_bytep
 prev_row
 )
 ;
+#
+ifdef
+PNG_SET_OPTION_SUPPORTED
+png_byte
+options
+;
+#
+endif
 }
 ;
 #

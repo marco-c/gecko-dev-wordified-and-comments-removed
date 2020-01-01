@@ -2336,6 +2336,9 @@ NULL
 )
 ;
 }
+#
+ifdef
+PNG_WRITE_WEIGHTED_FILTER_SUPPORTED
 static
 void
 png_reset_filter_heuristics
@@ -2344,6 +2347,8 @@ png_structp
 png_ptr
 )
 ;
+#
+endif
 PNG_FUNCTION
 (
 png_structp
