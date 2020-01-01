@@ -191,6 +191,13 @@ PRInt32
 capacity
 )
 ;
+void
+SetMaxEntrySize
+(
+PRInt32
+maxSizeInKilobytes
+)
+;
 bool
 EntryIsTooBig
 (
@@ -297,6 +304,9 @@ mEntryCount
 ;
 PRInt32
 mMaxEntryCount
+;
+PRInt32
+mMaxEntrySize
 ;
 }
 ;

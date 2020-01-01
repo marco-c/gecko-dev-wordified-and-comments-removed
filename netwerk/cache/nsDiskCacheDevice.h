@@ -235,6 +235,13 @@ capacity
 )
 ;
 void
+SetMaxEntrySize
+(
+PRInt32
+maxSizeInKilobytes
+)
+;
+void
 getCacheDirectory
 (
 nsILocalFile
@@ -381,6 +388,9 @@ mBindery
 ;
 PRUint32
 mCacheCapacity
+;
+PRInt32
+mMaxEntrySize
 ;
 nsDiskCacheMap
 mCacheMap
