@@ -139,6 +139,11 @@ SessionStorage
 jsm
 '
 '
+SessionWorker
+.
+js
+'
+'
 XPathGenerator
 .
 jsm

@@ -122,7 +122,7 @@ test_nothing_to_backup
 yield
 _SessionFile
 .
-createUpgradeBackupCopy
+createBackupCopy
 (
 "
 "
@@ -189,7 +189,7 @@ created
 yield
 _SessionFile
 .
-createUpgradeBackupCopy
+createBackupCopy
 (
 ext
 )
@@ -260,7 +260,7 @@ backup
 yield
 _SessionFile
 .
-removeUpgradeBackup
+removeBackupCopy
 (
 ext
 )

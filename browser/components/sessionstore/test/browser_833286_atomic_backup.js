@@ -441,7 +441,7 @@ array
 yield
 _SessionFile
 .
-createBackupCopy
+moveToBackupPath
 (
 )
 ;
