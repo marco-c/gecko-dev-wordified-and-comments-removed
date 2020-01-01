@@ -17595,7 +17595,7 @@ UnitInfo
 char
 name
 [
-5
+6
 ]
 ;
 PRUint32
@@ -17718,6 +17718,16 @@ mm
 "
 )
 eCSSUnit_Millimeter
+VARIANT_LENGTH
+}
+{
+STR_WITH_LEN
+(
+"
+mozmm
+"
+)
+eCSSUnit_PhysicalMillimeter
 VARIANT_LENGTH
 }
 {
