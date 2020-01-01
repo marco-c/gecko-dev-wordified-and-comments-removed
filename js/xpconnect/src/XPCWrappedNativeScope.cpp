@@ -1157,10 +1157,6 @@ mGlobalJSObject
 =
 aGlobal
 ;
-mPrototypeNoHelper
-=
-nullptr
-;
 }
 XPCWrappedNativeScope
 :
@@ -3045,6 +3041,10 @@ RemoveWrappedNativeProtos
 (
 )
 {
+mPrototypeNoHelper
+=
+nullptr
+;
 XPCAutoLock
 al
 (
