@@ -746,6 +746,9 @@ mResumedAt
 double
 mSpeed
 ;
+PRBool
+mHasMultipleFiles
+;
 enum
 AutoResume
 {
