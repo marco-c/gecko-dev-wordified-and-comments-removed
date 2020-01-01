@@ -800,6 +800,14 @@ test_unseekable
 .
 html
 \
+test_VideoPlaybackQuality
+.
+html
+\
+test_VideoPlaybackQuality_disabled
+.
+html
+\
 test_webvtt_disabled
 .
 html
