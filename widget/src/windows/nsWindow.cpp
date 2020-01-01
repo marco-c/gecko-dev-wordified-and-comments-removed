@@ -16866,6 +16866,7 @@ WM_MOUSEWHEEL
 case
 WM_MOUSEHWHEEL
 :
+{
 if
 (
 OnMouseWheel
@@ -16881,6 +16882,7 @@ aRetValue
 return
 result
 ;
+}
 break
 ;
 #
@@ -19498,7 +19500,8 @@ if
 (
 result
 )
-result
+*
+aRetValue
 =
 isVertical
 ?
