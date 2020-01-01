@@ -69,6 +69,9 @@ PluginHangUIParent
 PluginModuleParent
 *
 aModule
+const
+int32_t
+aHangUITimeoutPref
 )
 ;
 virtual
@@ -208,6 +211,10 @@ private
 PluginModuleParent
 *
 mModule
+;
+const
+uint32_t
+mTimeoutPrefMs
 ;
 MessageLoop
 *

@@ -2748,6 +2748,14 @@ new
 PluginHangUIParent
 (
 this
+Preferences
+:
+:
+GetInt
+(
+kHangUITimeoutPref
+0
+)
 )
 ;
 nsAutoString
