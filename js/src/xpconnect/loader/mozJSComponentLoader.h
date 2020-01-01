@@ -316,9 +316,6 @@ char
 *
 *
 location
-jsval
-*
-exception
 )
 ;
 nsresult
