@@ -801,6 +801,10 @@ Buffer
 ;
 #
 endif
+NS_SetHasLoadedNewDLLs
+(
+)
+;
 return
 stub_LdrLoadDll
 (
