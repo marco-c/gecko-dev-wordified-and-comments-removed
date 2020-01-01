@@ -692,6 +692,10 @@ window_bug596600
 .
 xul
 \
+test_bug673301
+.
+xul
+\
 (
 NULL
 )
