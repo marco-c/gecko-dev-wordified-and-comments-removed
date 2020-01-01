@@ -98,7 +98,6 @@ data
 )
 ;
 }
-;
 #
 define
 ok
