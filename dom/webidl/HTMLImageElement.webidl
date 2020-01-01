@@ -382,6 +382,14 @@ attribute
 DOMString
 border
 ;
+}
+;
+[
+NoInterfaceObject
+]
+interface
+MozImageLoadingContent
+{
 /
 /
 Mirrored
@@ -536,4 +544,8 @@ aState
 )
 ;
 }
+;
+HTMLImageElement
+implements
+MozImageLoadingContent
 ;

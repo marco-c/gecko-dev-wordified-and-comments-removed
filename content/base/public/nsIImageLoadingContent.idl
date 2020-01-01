@@ -341,13 +341,10 @@ sure
 to
 update
 the
-HTMLImageElement
-and
-SVGImageElement
+MozImageLoadingContent
+WebIDL
 *
-Web
-IDL
-interfaces
+interface
 to
 mirror
 this
