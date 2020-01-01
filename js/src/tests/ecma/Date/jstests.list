@@ -633,6 +633,8 @@ Linux
 "
 &
 &
+xulRuntime
+.
 XPCOMABI
 .
 match
@@ -866,6 +868,8 @@ Linux
 "
 &
 &
+xulRuntime
+.
 XPCOMABI
 .
 match

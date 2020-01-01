@@ -1181,7 +1181,7 @@ widgetToolkit
 :
 xr
 .
-widgettoolkit
+widgetToolkit
 OS
 :
 xr
@@ -1192,6 +1192,8 @@ OS
 try
 {
 sandbox
+.
+xulRuntime
 .
 XPCOMABI
 =
@@ -1205,6 +1207,15 @@ catch
 e
 )
 {
+sandbox
+.
+xulRuntime
+.
+XPCOMABI
+=
+"
+"
+;
 }
 var
 hh
