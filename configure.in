@@ -36220,6 +36220,9 @@ TK_LIBS
 '
 -
 framework
+CoreLocation
+-
+framework
 QuartzCore
 -
 framework

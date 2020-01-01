@@ -1371,3 +1371,15 @@ OscillatorNode
 true
 )
 ;
+user_pref
+(
+"
+geo
+.
+provider
+.
+testing
+"
+true
+)
+;
