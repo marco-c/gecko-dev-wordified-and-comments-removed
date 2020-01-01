@@ -490,6 +490,10 @@ nsSMILInstanceTime
 .
 cpp
 \
+nsSMILInterval
+.
+cpp
+\
 nsSMILNullType
 .
 cpp

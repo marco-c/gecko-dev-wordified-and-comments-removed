@@ -476,6 +476,10 @@ test_smilChangeAfterFrozen
 .
 xhtml
 \
+test_smilContainerBinding
+.
+xhtml
+\
 test_smilCrossContainer
 .
 xhtml
