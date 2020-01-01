@@ -77652,7 +77652,6 @@ quasit
 :
 [
 '
-!
 foo
 [
 bar
