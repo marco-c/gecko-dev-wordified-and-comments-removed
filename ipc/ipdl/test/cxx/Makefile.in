@@ -494,6 +494,8 @@ TestSanity
 \
 TestRPCErrorCleanup
 \
+TestCrashCleanup
+\
 TestLatency
 \
 TestRPCRaces

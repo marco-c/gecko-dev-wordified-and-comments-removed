@@ -61,6 +61,8 @@ mozilla
 namespace
 _ipdltest
 {
+namespace
+{
 void
 DeleteSubprocess
 (
@@ -205,6 +207,7 @@ passed
 __FILE__
 )
 ;
+}
 }
 TestRPCErrorCleanupParent
 :

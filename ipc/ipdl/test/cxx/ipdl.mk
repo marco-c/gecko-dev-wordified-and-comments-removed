@@ -9,6 +9,10 @@ PTestArraysSub
 .
 ipdl
 \
+PTestCrashCleanup
+.
+ipdl
+\
 PTestDesc
 .
 ipdl
