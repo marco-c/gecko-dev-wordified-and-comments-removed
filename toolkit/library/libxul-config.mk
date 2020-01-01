@@ -1369,3 +1369,12 @@ MOZ_ALSA_LIBS
 )
 endif
 endif
+ifdef
+HAVE_CLOCK_MONOTONIC
+EXTRA_DSO_LDOPTS
++
+=
+(
+REALTIME_LIBS
+)
+endif
