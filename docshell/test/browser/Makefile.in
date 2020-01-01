@@ -430,6 +430,16 @@ mk
 _BROWSER_TEST_FILES
 =
 \
+browser_bug92473
+.
+js
+\
+test
+-
+form_sjis
+.
+html
+\
 browser_bug349769
 .
 js
