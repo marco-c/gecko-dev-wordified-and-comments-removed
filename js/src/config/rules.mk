@@ -11425,7 +11425,7 @@ py
 cachedir
 =
 (
-DEPTH
+topsrcdir
 )
 /
 xpcom
