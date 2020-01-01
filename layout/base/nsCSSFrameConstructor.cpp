@@ -32874,6 +32874,14 @@ nsChangeHint_RepaintFrame
 }
 }
 }
+primaryFrame
+-
+>
+ContentStatesChanged
+(
+aStateMask
+)
+;
 }
 nsRestyleHint
 rshint

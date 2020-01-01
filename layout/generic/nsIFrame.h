@@ -2806,6 +2806,16 @@ aModType
 0
 ;
 virtual
+void
+ContentStatesChanged
+(
+nsEventStates
+aStates
+)
+{
+}
+;
+virtual
 nsSplittableType
 GetSplittableType
 (
