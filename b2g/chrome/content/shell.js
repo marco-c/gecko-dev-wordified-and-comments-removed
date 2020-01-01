@@ -3872,7 +3872,7 @@ screen
 .
 timeout
 '
-30
+idleTimeout
 function
 (
 value
