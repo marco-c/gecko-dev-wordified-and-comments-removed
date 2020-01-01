@@ -3492,6 +3492,9 @@ gDialogWasExtended
 =
 PR_TRUE
 ;
+return
+TRUE
+;
 }
 return
 0L
@@ -5709,6 +5712,9 @@ howToEnableFrameUI
 gDialogWasExtended
 =
 PR_TRUE
+;
+return
+TRUE
 ;
 }
 return
