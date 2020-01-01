@@ -19545,7 +19545,13 @@ TOK_STAR
 tt
 =
 =
-TOK_DIVOP
+TOK_DIV
+|
+|
+tt
+=
+=
+TOK_MOD
 )
 )
 {
