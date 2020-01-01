@@ -597,6 +597,14 @@ GL_PROVIDER
 =
 EGL
 endif
+ifdef
+MOZ_GL_PROVIDER
+GL_PROVIDER
+=
+(
+MOZ_GL_PROVIDER
+)
+endif
 #
 Mac
 is

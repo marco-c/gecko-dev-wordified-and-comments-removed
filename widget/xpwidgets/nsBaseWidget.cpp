@@ -2462,6 +2462,12 @@ MOZ_PLATFORM_MAEMO
 >
 5
 )
+|
+|
+defined
+(
+MOZ_GL_PROVIDER
+)
 bool
 accelerateByDefault
 =
