@@ -573,12 +573,9 @@ getFunction
 )
 )
 argslot
-temp
+tempFixed
 (
-LDefinition
-:
-:
-GENERAL
+ArgumentsRectifierReg
 )
 temp
 (
