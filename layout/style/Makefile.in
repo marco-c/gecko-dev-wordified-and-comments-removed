@@ -508,10 +508,6 @@ nsICSSDeclaration
 .
 h
 \
-nsICSSGroupRule
-.
-h
-\
 nsICSSLoaderObserver
 .
 h
@@ -609,6 +605,10 @@ css
 =
 \
 Declaration
+.
+h
+\
+GroupRule
 .
 h
 \

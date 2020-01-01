@@ -12,7 +12,11 @@ h
 #
 include
 "
-nsICSSGroupRule
+mozilla
+/
+css
+/
+GroupRule
 .
 h
 "
@@ -5473,7 +5477,7 @@ return
 NS_OK
 ;
 }
-nsICSSGroupRule
+GroupRule
 *
 rule
 =
@@ -6068,7 +6072,7 @@ StyleRule
 :
 SetParentRule
 (
-nsICSSGroupRule
+GroupRule
 *
 aRule
 )

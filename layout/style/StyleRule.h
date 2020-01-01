@@ -1183,7 +1183,7 @@ return
 mSheet
 ;
 }
-nsICSSGroupRule
+GroupRule
 *
 GetParentRule
 (
@@ -1240,7 +1240,7 @@ virtual
 void
 SetParentRule
 (
-nsICSSGroupRule
+GroupRule
 *
 aRule
 )
