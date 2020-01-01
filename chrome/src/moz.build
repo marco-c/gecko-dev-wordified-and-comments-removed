@@ -137,3 +137,6 @@ nsChromeRegistryContent
 cpp
 '
 ]
+LIBXUL_LIBRARY
+=
+True

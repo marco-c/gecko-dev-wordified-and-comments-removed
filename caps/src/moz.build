@@ -143,3 +143,6 @@ LIBRARY_NAME
 '
 caps_s
 '
+LIBXUL_LIBRARY
+=
+True

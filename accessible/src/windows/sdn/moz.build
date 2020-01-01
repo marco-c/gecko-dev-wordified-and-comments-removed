@@ -113,3 +113,6 @@ sdnTextAccessible
 cpp
 '
 ]
+LIBXUL_LIBRARY
+=
+True

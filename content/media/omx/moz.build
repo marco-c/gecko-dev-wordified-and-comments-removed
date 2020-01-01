@@ -143,3 +143,6 @@ OMXCodecProxy
 cpp
 '
 ]
+LIBXUL_LIBRARY
+=
+True

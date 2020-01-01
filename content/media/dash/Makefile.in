@@ -145,10 +145,6 @@ config
 autoconf
 .
 mk
-LIBXUL_LIBRARY
-:
-=
-1
 include
 (
 topsrcdir

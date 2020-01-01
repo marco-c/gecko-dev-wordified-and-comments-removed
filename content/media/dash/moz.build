@@ -148,3 +148,6 @@ LIBRARY_NAME
 '
 gkcondash_s
 '
+LIBXUL_LIBRARY
+=
+True

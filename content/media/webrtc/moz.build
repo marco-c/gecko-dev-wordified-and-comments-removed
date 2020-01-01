@@ -161,3 +161,6 @@ MediaEngineDefault
 cpp
 '
 ]
+LIBXUL_LIBRARY
+=
+True

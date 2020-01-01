@@ -728,3 +728,6 @@ AudioNodeEngineNEON
 cpp
 '
 ]
+LIBXUL_LIBRARY
+=
+True

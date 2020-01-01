@@ -338,3 +338,6 @@ LIBRARY_NAME
 '
 accessibility_base_s
 '
+LIBXUL_LIBRARY
+=
+True

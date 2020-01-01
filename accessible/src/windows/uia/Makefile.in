@@ -82,9 +82,6 @@ EXPORT_LIBRARY
 =
 .
 .
-LIBXUL_LIBRARY
-=
-1
 #
 The
 midl

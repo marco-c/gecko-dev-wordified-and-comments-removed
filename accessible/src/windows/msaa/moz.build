@@ -245,3 +245,6 @@ XULTreeGridAccessibleWrap
 cpp
 '
 ]
+LIBXUL_LIBRARY
+=
+True
