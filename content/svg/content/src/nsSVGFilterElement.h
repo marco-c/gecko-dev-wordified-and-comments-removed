@@ -35,7 +35,7 @@ h
 #
 include
 "
-nsSVGGraphicElement
+nsSVGElement
 .
 h
 "

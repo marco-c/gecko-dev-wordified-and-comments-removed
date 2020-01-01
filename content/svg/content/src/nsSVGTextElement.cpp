@@ -10,7 +10,7 @@ h
 #
 include
 "
-nsSVGGraphicElement
+SVGGraphicsElement
 .
 h
 "
@@ -110,7 +110,10 @@ namespace
 mozilla
 ;
 typedef
-nsSVGGraphicElement
+dom
+:
+:
+SVGGraphicsElement
 nsSVGTextElementBase
 ;
 class

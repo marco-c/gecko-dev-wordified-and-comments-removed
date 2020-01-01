@@ -245,10 +245,6 @@ nsSVGGradientElement
 .
 cpp
 \
-nsSVGGraphicElement
-.
-cpp
-\
 nsSVGImageElement
 .
 cpp
@@ -410,6 +406,10 @@ SVGAnimatedTransformList
 cpp
 \
 SVGFragmentIdentifier
+.
+cpp
+\
+SVGGraphicsElement
 .
 cpp
 \
@@ -651,6 +651,10 @@ SVGAnimatedBoolean
 h
 \
 SVGDescElement
+.
+h
+\
+SVGGraphicsElement
 .
 h
 \

@@ -46,7 +46,7 @@ h
 #
 include
 "
-nsSVGGraphicElement
+SVGGraphicsElement
 .
 h
 "
@@ -120,7 +120,13 @@ aFromParser
 )
 ;
 typedef
-nsSVGGraphicElement
+mozilla
+:
+:
+dom
+:
+:
+SVGGraphicsElement
 nsSVGUseElementBase
 ;
 class
