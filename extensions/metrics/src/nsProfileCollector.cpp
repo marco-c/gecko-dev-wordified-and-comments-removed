@@ -160,6 +160,13 @@ nsToolkitCompsCID
 h
 "
 #
+include
+"
+nsXPCOMCIDInternal
+.
+h
+"
+#
 define
 nsString_h___
 #

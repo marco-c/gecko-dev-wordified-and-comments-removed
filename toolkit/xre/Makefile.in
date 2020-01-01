@@ -516,10 +516,6 @@ nsINativeAppSupport
 .
 idl
 \
-nsIXULRuntime
-.
-idl
-\
 (
 NULL
 )

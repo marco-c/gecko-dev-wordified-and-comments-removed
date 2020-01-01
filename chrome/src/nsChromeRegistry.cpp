@@ -186,6 +186,13 @@ h
 #
 include
 "
+nsXPCOMCIDInternal
+.
+h
+"
+#
+include
+"
 nsXPIDLString
 .
 h

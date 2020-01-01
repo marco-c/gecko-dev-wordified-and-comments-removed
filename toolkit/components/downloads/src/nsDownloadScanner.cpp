@@ -76,6 +76,13 @@ nsIPrefBranch2
 h
 "
 #
+include
+"
+nsXPCOMCIDInternal
+.
+h
+"
+#
 define
 PREF_BDM_SKIPWINPOLICYCHECKS
 "
