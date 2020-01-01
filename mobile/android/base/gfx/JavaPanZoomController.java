@@ -330,6 +330,14 @@ MAX_ZOOM_DELTA
 125f
 ;
 private
+static
+final
+int
+BOUNCE_ANIMATION_DURATION
+=
+250
+;
+private
 enum
 PanZoomState
 {
@@ -3552,7 +3560,7 @@ mBounceFrame
 int
 )
 (
-256f
+BOUNCE_ANIMATION_DURATION
 /
 Axis
 .
@@ -3609,7 +3617,7 @@ Axis
 .
 MS_PER_FRAME
 /
-256f
+BOUNCE_ANIMATION_DURATION
 )
 ;
 ImmutableViewportMetrics
