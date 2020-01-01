@@ -31,3 +31,13 @@ f
 (
 )
 ;
+Object
+.
+getOwnPropertyDescriptor
+(
+this
+"
+customNative
+"
+)
+;
