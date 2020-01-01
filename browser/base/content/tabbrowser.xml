@@ -17115,8 +17115,6 @@ parentNode
 .
 parentNode
 .
-parentNode
-.
 removeCurrentTab
 (
 )
@@ -17507,6 +17505,8 @@ disableBackgroundClose
 :
 this
 .
+tabbox
+.
 _updateDisableBackgroundClose
 (
 )
@@ -17553,6 +17553,8 @@ nsIPrefBranch2
 ;
 this
 .
+tabbox
+.
 mCloseButtons
 =
 pb2
@@ -17569,6 +17571,8 @@ closeButtons
 )
 ;
 this
+.
+tabbox
 .
 adjustTabstrip
 (
