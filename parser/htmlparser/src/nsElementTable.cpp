@@ -2400,6 +2400,8 @@ gInHead
 0
 0
 0
+kAllTags
+-
 kHeadContent
 kNone
 kNone
