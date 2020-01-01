@@ -927,7 +927,7 @@ return
 gap
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMathMLmfracFrame
 :
 :

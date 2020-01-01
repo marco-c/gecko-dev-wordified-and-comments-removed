@@ -1063,7 +1063,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsMathMLmactionFrame
 :
 :

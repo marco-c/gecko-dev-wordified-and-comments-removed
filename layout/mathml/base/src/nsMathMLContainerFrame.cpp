@@ -4637,7 +4637,7 @@ leftCorrection
 }
 }
 ;
-NS_IMETHODIMP
+nsresult
 nsMathMLContainerFrame
 :
 :

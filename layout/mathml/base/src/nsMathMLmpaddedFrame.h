@@ -65,7 +65,8 @@ nsReflowStatus
 aStatus
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 Place
 (
 nsIRenderingContext

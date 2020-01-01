@@ -119,7 +119,8 @@ nsIRenderingContext
 aRenderingContext
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 Place
 (
 nsIRenderingContext
