@@ -3199,10 +3199,7 @@ identFromURI
 |
 |
 (
-nsCRT
-:
-:
-strcmp
+NS_strcmp
 (
 ident
 -
@@ -5662,10 +5659,7 @@ ident
 ;
 if
 (
-nsCRT
-:
-:
-strcmp
+NS_strcmp
 (
 ident
 .

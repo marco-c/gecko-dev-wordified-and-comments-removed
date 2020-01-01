@@ -218,10 +218,7 @@ b
 emptyStr
 ;
 return
-nsCRT
-:
-:
-strcmp
+NS_strcmp
 (
 a
 b
