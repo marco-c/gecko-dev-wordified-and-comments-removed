@@ -17,6 +17,9 @@ run_test
 (
 )
 {
+let
+profile
+=
 do_get_profile
 (
 )
@@ -303,6 +306,7 @@ true
 ;
 do_reload_profile
 (
+profile
 cso
 )
 ;
@@ -334,6 +338,7 @@ host
 ;
 do_reload_profile
 (
+profile
 cso
 "
 shutdown
@@ -412,6 +417,7 @@ true
 ;
 do_reload_profile
 (
+profile
 cso
 )
 ;
