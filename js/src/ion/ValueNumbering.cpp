@@ -39,7 +39,7 @@ MIRGraph
 &
 graph
 bool
-pessimistic
+optimistic
 )
 :
 graph_
@@ -48,7 +48,8 @@ graph
 )
 pessimisticPass_
 (
-pessimistic
+!
+optimistic
 )
 {
 }

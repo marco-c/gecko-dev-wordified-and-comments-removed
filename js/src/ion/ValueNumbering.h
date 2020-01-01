@@ -18,10 +18,6 @@ MIRGraph
 .
 h
 "
-#
-define
-ION_GVN_PESSIMISTIC
-false
 namespace
 js
 {
@@ -177,7 +173,7 @@ MIRGraph
 &
 graph
 bool
-pessimistic
+optimistic
 )
 ;
 bool
