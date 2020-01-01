@@ -498,14 +498,6 @@ passwords
 <
 !
 ENTITY
-pref_locale
-"
-Language
-"
->
-<
-!
-ENTITY
 pref_cookies
 "
 Enable
