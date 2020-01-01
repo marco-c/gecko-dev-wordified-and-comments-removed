@@ -2698,8 +2698,6 @@ PostIndex
 CodeOffsetLabel
 toggledJump
 (
-bool
-enabled
 Label
 *
 label
