@@ -468,6 +468,14 @@ browser_privileges
 .
 js
 \
+browser_popupNode
+.
+js
+\
+browser_popupNode_check
+.
+js
+\
 #
 Disabled
 these

@@ -1368,6 +1368,12 @@ false
 }
 }
 ;
+document
+.
+popupNode
+=
+null
+;
 let
 time
 =
