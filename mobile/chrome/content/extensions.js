@@ -2627,6 +2627,14 @@ type
 "
 )
 {
+aItem
+.
+_engine
+.
+hidden
+=
+false
+;
 this
 .
 _search
