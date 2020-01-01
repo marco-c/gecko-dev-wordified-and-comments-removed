@@ -747,6 +747,7 @@ port
 host
 &
 &
+*
 host
 !
 =
