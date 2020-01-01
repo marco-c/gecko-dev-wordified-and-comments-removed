@@ -14990,6 +14990,9 @@ isCmp
 {
 if
 (
+0
+&
+&
 knownCmpValues
 .
 containsKey
