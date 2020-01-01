@@ -3802,13 +3802,13 @@ regs
 num
 ]
 =
+(
+&
 mcontext
 .
-gregs
+arm_r0
+)
 [
-R
-#
-#
 num
 ]
 REPLACE_REG
