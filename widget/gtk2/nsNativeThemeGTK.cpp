@@ -2703,9 +2703,11 @@ true
 }
 #
 if
-defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
+=
+=
+2
 )
 class
 ThemeRenderer
@@ -3581,9 +3583,11 @@ gdk_error_trap_push
 }
 #
 if
-defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
+=
+=
+2
 )
 GdkRectangle
 gdk_clip

@@ -268,9 +268,11 @@ moz_gtk_shutdown
 ;
 #
 if
-defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
+=
+=
+2
 )
 GdkColormap
 *
@@ -282,9 +284,11 @@ moz_gtk_widget_get_colormap
 endif
 #
 if
-defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
+=
+=
+2
 )
 gint
 moz_gtk_widget_paint

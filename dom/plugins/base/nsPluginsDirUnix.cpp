@@ -236,9 +236,11 @@ DEFAULT_X11_PATH
 endif
 #
 if
-defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
+=
+=
+2
 )
 #
 define
@@ -1410,9 +1412,11 @@ get
 ;
 #
 if
-defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
+=
+=
+2
 )
 #
 if

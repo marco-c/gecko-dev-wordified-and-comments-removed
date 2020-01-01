@@ -2971,9 +2971,11 @@ window
 ;
 #
 if
-defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
+=
+=
+2
 )
 |
 |
