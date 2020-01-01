@@ -2567,9 +2567,6 @@ spec
 ;
 if
 (
-useLocal
-|
-|
 hasLocal
 !
 =
