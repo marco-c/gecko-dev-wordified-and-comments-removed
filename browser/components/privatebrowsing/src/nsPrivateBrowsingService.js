@@ -1100,9 +1100,7 @@ plainURL
 =
 win
 .
-getBrowser
-(
-)
+gBrowser
 .
 currentURI
 .
