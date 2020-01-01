@@ -3516,12 +3516,19 @@ text
 ]
         
 if
-cdata
-is
 not
-None
+isinstance
+(
+cdata
+str
+)
 :
             
+cdata
+=
+"
+"
+        
 cdata
 =
 cdata
