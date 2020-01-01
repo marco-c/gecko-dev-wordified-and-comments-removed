@@ -7613,7 +7613,7 @@ mHost
 .
 mLen
 ;
-uint32_t
+int32_t
 lengthToCut
 =
 mPath

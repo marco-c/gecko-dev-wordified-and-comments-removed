@@ -575,7 +575,7 @@ mOffset
 ;
 }
 }
-uint32_t
+uint64_t
 max
 =
 mLimit
@@ -607,7 +607,13 @@ max
 )
 count
 =
+static_cast
+<
+uint32_t
+>
+(
 max
+)
 ;
 nsresult
 rv
@@ -1159,7 +1165,7 @@ mOffset
 ;
 }
 }
-uint32_t
+uint64_t
 max
 =
 mLimit
@@ -1191,7 +1197,13 @@ max
 )
 count
 =
+static_cast
+<
+uint32_t
+>
+(
 max
+)
 ;
 nsresult
 rv

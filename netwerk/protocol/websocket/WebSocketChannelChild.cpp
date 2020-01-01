@@ -8,6 +8,15 @@ h
 #
 include
 "
+base
+/
+compiler_specific
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -204,6 +213,8 @@ bool
 aSecure
 )
 :
+ALLOW_THIS_IN_INITIALIZER_LIST
+(
 mEventQ
 (
 static_cast
@@ -213,6 +224,7 @@ nsIWebSocketChannel
 >
 (
 this
+)
 )
 )
 mIPCOpen

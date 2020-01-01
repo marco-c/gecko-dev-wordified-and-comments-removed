@@ -91,16 +91,10 @@ necko_dns
 GRE_MODULE
 =
 1
-ifndef
-_MSC_VER
 FAIL_ON_WARNINGS
 :
 =
 1
-endif
-#
-!
-_MSC_VER
 XPIDLSRCS
 =
 \

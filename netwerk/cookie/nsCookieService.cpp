@@ -425,6 +425,10 @@ ADD_TEN_PERCENT
 (
 i
 )
+static_cast
+<
+uint32_t
+>
 (
 (
 i

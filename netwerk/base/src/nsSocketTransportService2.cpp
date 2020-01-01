@@ -2775,8 +2775,14 @@ this
 ;
 srand
 (
+static_cast
+<
+unsigned
+>
+(
 PR_Now
 (
+)
 )
 )
 ;

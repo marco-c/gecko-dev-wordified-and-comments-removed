@@ -8,6 +8,15 @@ h
 #
 include
 "
+base
+/
+compiler_specific
+.
+h
+"
+#
+include
+"
 mozilla
 /
 net
@@ -159,6 +168,8 @@ mSentAppData
 (
 false
 )
+ALLOW_THIS_IN_INITIALIZER_LIST
+(
 mEventQ
 (
 NS_ISUPPORTS_CAST
@@ -166,6 +177,7 @@ NS_ISUPPORTS_CAST
 nsIWyciwygChannel
 *
 this
+)
 )
 )
 {
