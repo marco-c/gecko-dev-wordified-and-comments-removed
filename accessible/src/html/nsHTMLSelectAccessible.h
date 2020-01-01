@@ -450,6 +450,11 @@ GetSelectState
 PRUint32
 *
 aState
+PRUint32
+*
+aExtraState
+=
+nsnull
 )
 ;
 }
