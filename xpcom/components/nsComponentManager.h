@@ -690,6 +690,12 @@ return
 mModule
 ;
 }
+nsCString
+Description
+(
+)
+const
+;
 private
 :
 const
