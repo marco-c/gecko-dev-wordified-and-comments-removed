@@ -168,6 +168,13 @@ DidBuildModel
 void
 )
 ;
+virtual
+PRBool
+ReadyToCallDidBuildModel
+(
+void
+)
+;
 NS_IMETHOD
 WillInterrupt
 (
