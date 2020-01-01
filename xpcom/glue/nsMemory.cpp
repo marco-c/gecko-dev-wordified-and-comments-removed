@@ -96,7 +96,7 @@ const
 void
 *
 ptr
-PRSize
+size_t
 size
 )
 {

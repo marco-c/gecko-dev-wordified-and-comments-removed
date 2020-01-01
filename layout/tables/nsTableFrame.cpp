@@ -6147,7 +6147,7 @@ IsBorderCollapse
 )
 )
 {
-PRIntn
+int
 skipSides
 =
 GetSkipSides
@@ -6204,7 +6204,7 @@ aPt
 }
 }
 }
-PRIntn
+int
 nsTableFrame
 :
 :
@@ -6213,7 +6213,7 @@ GetSkipSides
 )
 const
 {
-PRIntn
+int
 skip
 =
 0

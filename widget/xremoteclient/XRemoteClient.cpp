@@ -2123,7 +2123,7 @@ data_return
 )
 continue
 ;
-PRFloat64
+double
 version
 =
 PR_strtod

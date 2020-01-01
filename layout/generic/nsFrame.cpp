@@ -4218,7 +4218,7 @@ aMargin
 )
 const
 {
-PRIntn
+int
 skipSides
 =
 GetSkipSides
@@ -4837,7 +4837,7 @@ const
 nsSize
 &
 aBorderArea
-PRIntn
+int
 aSkipSides
 nscoord
 aRadii
@@ -37808,7 +37808,7 @@ aFrame
 nsIContent
 *
 aContent
-PRIntn
+int
 aResultSize
 char
 *

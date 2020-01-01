@@ -230,7 +230,7 @@ bool
 &
 aIsBrowserElement
 const
-PRUint32
+AppId
 &
 aAppId
 )

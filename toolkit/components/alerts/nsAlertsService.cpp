@@ -25,7 +25,7 @@ h
 "
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 #
 include
 "
@@ -363,7 +363,7 @@ NS_OK
 }
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 mozilla
 :
 :
@@ -472,6 +472,14 @@ return
 NS_OK
 ;
 }
+#
+ifdef
+XP_MACOSX
+return
+NS_ERROR_NOT_IMPLEMENTED
+;
+#
+endif
 nsCOMPtr
 <
 nsIWindowWatcher
@@ -910,7 +918,7 @@ aAlertText
 {
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 mozilla
 :
 :
@@ -955,7 +963,7 @@ aAlertName
 {
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 mozilla
 :
 :

@@ -1341,7 +1341,7 @@ aReflowState
 )
 ;
 virtual
-PRIntn
+int
 GetSkipSides
 (
 )

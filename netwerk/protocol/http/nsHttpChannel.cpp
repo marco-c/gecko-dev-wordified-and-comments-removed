@@ -710,11 +710,11 @@ d
 "
 channel
 cacheEntry
-PRIntn
+int
 (
 cacheAccess
 )
-PRIntn
+int
 (
 rv
 )
@@ -755,7 +755,7 @@ d
 "
 channel
 cacheEntry
-PRIntn
+int
 (
 cacheAccess
 )
@@ -12064,7 +12064,7 @@ get
 entry
 access
 status
-PRIntn
+int
 (
 mRunCount
 )
@@ -24414,7 +24414,7 @@ s
 "
 this
 clientID
-PRIntn
+int
 (
 storagePolicy
 )
@@ -24545,7 +24545,7 @@ d
 "
 this
 clientID
-PRIntn
+int
 (
 storagePolicy
 )
@@ -24554,7 +24554,7 @@ key
 get
 (
 )
-PRIntn
+int
 (
 rv
 )

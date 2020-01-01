@@ -4392,7 +4392,7 @@ if
 ordinalBegin
 )
 {
-PRIntn
+int
 n
 =
 atoi
@@ -4712,7 +4712,7 @@ if
 ordinalBegin
 )
 {
-PRIntn
+int
 n
 =
 atoi

@@ -3192,6 +3192,11 @@ bool
 aScriptable
 )
 ;
+void
+CreatePerformanceObjectIfNeeded
+(
+)
+;
 bool
 mIsFrozen
 :

@@ -2242,7 +2242,7 @@ mInput
 get
 (
 )
-PRIntn
+int
 (
 rv
 )

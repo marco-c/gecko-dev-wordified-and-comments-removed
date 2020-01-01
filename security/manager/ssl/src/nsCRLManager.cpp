@@ -1855,7 +1855,7 @@ cycleCnt
 PRInt64
 secsInDayCnt
 ;
-PRFloat64
+double
 tmpData
 ;
 LL_L2F

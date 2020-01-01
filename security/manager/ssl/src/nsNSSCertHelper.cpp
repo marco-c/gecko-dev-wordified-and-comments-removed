@@ -4213,7 +4213,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-PRIntn
+int
 escapedValueCapacity
 =
 decodeItem

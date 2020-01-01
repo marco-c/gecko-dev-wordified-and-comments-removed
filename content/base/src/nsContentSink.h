@@ -163,7 +163,7 @@ _lm
 _bit
 )
 (
-PRIntn
+int
 (
 (
 _lm

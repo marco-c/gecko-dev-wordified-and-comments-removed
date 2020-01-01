@@ -1719,7 +1719,7 @@ const
 char
 *
 path
-PRIntn
+int
 flags
 mode_t
 mode
@@ -1757,7 +1757,7 @@ const
 char
 *
 path
-PRIntn
+int
 flags
 mode_t
 mode
@@ -1788,7 +1788,7 @@ CreateAndKeepOpen
 (
 PRUint32
 type
-PRIntn
+int
 flags
 PRUint32
 permissions
@@ -1826,7 +1826,7 @@ createFunc
 const
 char
 *
-PRIntn
+int
 mode_t
 PRFileDesc
 *
@@ -4302,7 +4302,7 @@ modtime
 time_t
 )
 (
-PRFloat64
+double
 (
 aLastModTime
 )

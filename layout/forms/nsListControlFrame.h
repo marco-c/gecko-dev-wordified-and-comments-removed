@@ -382,7 +382,7 @@ CreateAccessible
 #
 endif
 virtual
-PRIntn
+int
 GetSkipSides
 (
 )

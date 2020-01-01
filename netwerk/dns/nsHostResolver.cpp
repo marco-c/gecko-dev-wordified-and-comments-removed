@@ -4326,7 +4326,7 @@ host
 )
 )
 ;
-PRIntn
+int
 flags
 =
 PR_AI_ADDRCONFIG

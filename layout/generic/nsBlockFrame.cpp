@@ -1075,7 +1075,7 @@ record
 2
 ]
 ;
-PRIntn
+int
 index
 =
 0
@@ -28242,7 +28242,7 @@ y
 ;
 }
 }
-PRIntn
+int
 nsBlockFrame
 :
 :
@@ -28273,7 +28273,7 @@ NS_SIDE_TOP
 NS_SIDE_BOTTOM
 )
 ;
-PRIntn
+int
 skip
 =
 0

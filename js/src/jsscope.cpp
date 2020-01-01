@@ -106,6 +106,15 @@ include
 "
 js
 /
+HashTable
+.
+h
+"
+#
+include
+"
+js
+/
 MemoryMetrics
 .
 h
@@ -695,7 +704,10 @@ bool
 adding
 )
 {
-JSHashNumber
+js
+:
+:
+HashNumber
 hash0
 hash1
 hash2

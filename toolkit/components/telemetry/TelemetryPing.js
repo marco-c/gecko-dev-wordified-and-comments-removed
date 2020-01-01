@@ -179,6 +179,11 @@ RW_OWNER
 0600
 ;
 const
+RWX_OWNER
+=
+0700
+;
+const
 MEM_HISTOGRAMS
 =
 {
@@ -4671,6 +4676,12 @@ isDirectory
 )
 )
 {
+directory
+.
+permissions
+=
+RWX_OWNER
+;
 return
 directory
 ;
@@ -4695,7 +4706,7 @@ Ci
 nsIFile
 .
 DIRECTORY_TYPE
-RW_OWNER
+RWX_OWNER
 )
 ;
 return

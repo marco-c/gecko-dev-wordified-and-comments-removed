@@ -488,7 +488,7 @@ aURI
 )
 ;
 static
-PRIntn
+int
 comparePosition
 (
 const

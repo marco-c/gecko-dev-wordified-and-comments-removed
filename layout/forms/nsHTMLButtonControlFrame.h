@@ -433,7 +433,7 @@ nsReflowStatus
 aStatus
 )
 ;
-PRIntn
+int
 GetSkipSides
 (
 )

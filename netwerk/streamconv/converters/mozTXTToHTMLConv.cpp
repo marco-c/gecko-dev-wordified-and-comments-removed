@@ -81,7 +81,7 @@ h
 #
 endif
 const
-PRFloat64
+double
 growthRate
 =
 1

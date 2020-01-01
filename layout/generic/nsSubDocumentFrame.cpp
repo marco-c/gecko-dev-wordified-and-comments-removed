@@ -889,7 +889,7 @@ didCreateDoc
 }
 }
 }
-PRIntn
+int
 nsSubDocumentFrame
 :
 :

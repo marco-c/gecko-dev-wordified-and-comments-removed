@@ -13340,7 +13340,7 @@ PRInt32
 )
 (
 (
-PRFloat64
+double
 )
 currBytes
 /

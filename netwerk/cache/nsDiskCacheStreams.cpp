@@ -514,7 +514,7 @@ error
 s
 "
 this
-PRIntn
+int
 (
 rv
 )
@@ -2661,7 +2661,7 @@ nsDiskCacheStreamIO
 :
 OpenCacheFile
 (
-PRIntn
+int
 flags
 PRFileDesc
 *

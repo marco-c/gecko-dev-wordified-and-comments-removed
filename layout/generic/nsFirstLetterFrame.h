@@ -305,7 +305,7 @@ nscoord
 mBaseline
 ;
 virtual
-PRIntn
+int
 GetSkipSides
 (
 )

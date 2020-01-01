@@ -1719,7 +1719,7 @@ aBorderArea
 nsStyleContext
 *
 aStyleContext
-PRIntn
+int
 aSkipSides
 )
 {
@@ -1882,7 +1882,7 @@ aStyleBorder
 nsStyleContext
 *
 aStyleContext
-PRIntn
+int
 aSkipSides
 )
 {
@@ -11144,7 +11144,7 @@ state
 .
 mDestArea
 ;
-PRIntn
+int
 repeatX
 =
 aLayer
@@ -11153,7 +11153,7 @@ mRepeat
 .
 mXRepeat
 ;
-PRIntn
+int
 repeatY
 =
 aLayer

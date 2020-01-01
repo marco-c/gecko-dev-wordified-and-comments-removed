@@ -425,7 +425,7 @@ aContext
 {
 }
 virtual
-PRIntn
+int
 GetSkipSides
 (
 )
