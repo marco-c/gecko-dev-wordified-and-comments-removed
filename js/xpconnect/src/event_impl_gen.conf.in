@@ -184,7 +184,7 @@ CFStateChangeEvent
 DataErrorEvent
 '
 '
-ICCCardLockErrorEvent
+IccCardLockErrorEvent
 '
 '
 MozWifiStatusChangeEvent

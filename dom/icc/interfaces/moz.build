@@ -103,7 +103,7 @@ SimToolKit
 idl
 '
 '
-nsIDOMICCCardLockErrorEvent
+nsIDOMIccCardLockErrorEvent
 .
 idl
 '
