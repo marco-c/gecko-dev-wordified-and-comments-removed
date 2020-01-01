@@ -803,6 +803,10 @@ MutationObserver
 .
 webidl
 \
+Navigator
+.
+webidl
+\
 NetDashboard
 .
 webidl
