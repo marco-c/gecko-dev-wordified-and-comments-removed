@@ -39,6 +39,13 @@ nsCycleCollectionParticipant
 .
 h
 "
+#
+include
+"
+nsTransactionStack
+.
+h
+"
 class
 nsITransaction
 ;
@@ -47,9 +54,6 @@ nsITransactionListener
 ;
 class
 nsTransactionItem
-;
-class
-nsTransactionStack
 ;
 class
 nsTransactionManager

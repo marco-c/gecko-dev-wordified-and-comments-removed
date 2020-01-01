@@ -176,6 +176,7 @@ transactions
 /
 [
 scriptable
+builtinclass
 uuid
 (
 58e330c2
