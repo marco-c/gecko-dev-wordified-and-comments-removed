@@ -7842,6 +7842,12 @@ return
 case
 SHAPE
 :
+Shape
+:
+:
+trace
+(
+trc
 static_cast
 <
 AutoShapeRooter
@@ -7853,11 +7859,6 @@ this
 -
 >
 shape
--
->
-trace
-(
-trc
 )
 ;
 return
