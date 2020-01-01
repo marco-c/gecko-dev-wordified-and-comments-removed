@@ -464,6 +464,9 @@ BINPATH
 application
 .
 ini
+#
+ifdef
+MOZ_UPDATER
 BINPATH
 /
 update
@@ -471,6 +474,8 @@ update
 settings
 .
 ini
+#
+endif
 BINPATH
 /
 platform
