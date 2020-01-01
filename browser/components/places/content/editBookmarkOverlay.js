@@ -3953,7 +3953,7 @@ aggregate
 onDescriptionFieldBlur
 :
 function
-EIO_onDescriptionFieldInput
+EIO_onDescriptionFieldBlur
 (
 )
 {
