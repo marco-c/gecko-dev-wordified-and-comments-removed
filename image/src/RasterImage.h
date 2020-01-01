@@ -1355,6 +1355,11 @@ mAnimationFinished
 :
 1
 ;
+bool
+mFinishing
+:
+1
+;
 nsresult
 WantDecodedFrames
 (

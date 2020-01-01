@@ -667,6 +667,10 @@ mAnimationFinished
 (
 false
 )
+mFinishing
+(
+false
+)
 {
 mDiscardTrackerNode
 .
@@ -9185,6 +9189,10 @@ mDecoder
 =
 nullptr
 ;
+mFinishing
+=
+true
+;
 mInDecoder
 =
 true
@@ -9197,6 +9205,10 @@ Finish
 )
 ;
 mInDecoder
+=
+false
+;
+mFinishing
 =
 false
 ;
@@ -9555,6 +9567,13 @@ mDecoder
 IsSizeDecode
 (
 )
+)
+return
+NS_OK
+;
+if
+(
+mFinishing
 )
 return
 NS_OK
