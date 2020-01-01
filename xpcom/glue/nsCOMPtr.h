@@ -5,6 +5,15 @@ nsCOMPtr_h___
 define
 nsCOMPtr_h___
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 ifndef
 nsDebug_h___
 #
@@ -402,8 +411,8 @@ const
 class
 NS_COM_GLUE
 NS_STACK_CLASS
-NS_FINAL_CLASS
 nsQueryInterface
+MOZ_FINAL
 {
 public
 :
@@ -1005,8 +1014,8 @@ class
 T
 >
 class
-NS_FINAL_CLASS
 nsCOMPtr
+MOZ_FINAL
 #
 ifdef
 NSCAP_FEATURE_USE_BASE

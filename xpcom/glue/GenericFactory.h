@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Module
 .
 h
@@ -18,6 +27,7 @@ mozilla
 {
 class
 GenericFactory
+MOZ_FINAL
 :
 public
 nsIFactory

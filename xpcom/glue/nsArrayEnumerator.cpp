@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsArrayEnumerator
 .
 h
@@ -35,6 +44,7 @@ h
 "
 class
 nsSimpleArrayEnumerator
+MOZ_FINAL
 :
 public
 nsISimpleEnumerator
@@ -320,6 +330,7 @@ NS_OK
 }
 class
 nsCOMArrayEnumerator
+MOZ_FINAL
 :
 public
 nsISimpleEnumerator

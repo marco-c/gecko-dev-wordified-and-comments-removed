@@ -7,6 +7,15 @@ nsErrorService_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIErrorService
 .
 h
@@ -62,6 +71,7 @@ mHashtable
 ;
 class
 nsErrorService
+MOZ_FINAL
 :
 public
 nsIErrorService

@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsEnumeratorUtils
 .
 h
@@ -239,6 +248,7 @@ NS_OK
 }
 class
 nsSingletonEnumerator
+MOZ_FINAL
 :
 public
 nsISimpleEnumerator

@@ -7,6 +7,15 @@ nsTreeBodyFrame_h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsLeafBoxFrame
 .
 h
@@ -174,8 +183,8 @@ listener
 }
 ;
 class
-NS_FINAL_CLASS
 nsTreeBodyFrame
+MOZ_FINAL
 :
 public
 nsLeafBoxFrame

@@ -319,7 +319,6 @@ class
 nsIScrollableFrame
 ;
 class
-NS_FINAL_CLASS
 nsFrameSelection
 :
 public

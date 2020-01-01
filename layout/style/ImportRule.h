@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 css
 /
 Rule
@@ -42,8 +51,8 @@ namespace
 css
 {
 class
-NS_FINAL_CLASS
 ImportRule
+MOZ_FINAL
 :
 public
 Rule
