@@ -11960,6 +11960,13 @@ setter
 ;
 #
 endif
+JSAutoResolveFlags
+rf
+(
+cx
+JSRESOLVE_INFER
+)
+;
 #
 ifdef
 __GNUC__

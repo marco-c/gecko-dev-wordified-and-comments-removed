@@ -22293,7 +22293,10 @@ js_LookupPropertyWithFlags
 cx
 aobj
 id
-0
+cx
+-
+>
+resolveFlags
 &
 obj2
 &

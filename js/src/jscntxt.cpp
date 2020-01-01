@@ -1049,6 +1049,13 @@ return
 NULL
 ;
 }
+cx
+-
+>
+resolveFlags
+=
+0
+;
 if
 (
 first
