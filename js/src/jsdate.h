@@ -12,7 +12,10 @@ jsobj
 h
 "
 extern
-JSClass
+js
+:
+:
+Class
 js_DateClass
 ;
 inline

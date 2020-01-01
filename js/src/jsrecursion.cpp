@@ -3271,9 +3271,11 @@ jsval
 *
 stack
 =
-StackBase
-(
 fp
+-
+>
+base
+(
 )
 ;
 LIns
@@ -3315,9 +3317,11 @@ sp
 (
 )
 -
-StackBase
-(
 fp
+-
+>
+base
+(
 )
 )
 ;

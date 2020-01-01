@@ -1756,11 +1756,6 @@ init
 (
 )
 ;
-bool
-init
-(
-)
-;
 ~
 JSCodeGenerator
 (

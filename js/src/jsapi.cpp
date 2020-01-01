@@ -13295,7 +13295,7 @@ DefineProperty
 cx
 obj
 name
-Value
+ToValue
 (
 nobj
 )
@@ -19239,7 +19239,11 @@ js_FunctionClass
 {
 Value
 v
+;
+SetObject
 (
+&
+v
 funobj
 )
 ;
@@ -19349,7 +19353,13 @@ length
 clone
 -
 >
-dslotLength
+dslots
+[
+-
+1
+]
+.
+asPrivateUint32
 (
 )
 )
@@ -19766,6 +19776,7 @@ argc
 js_ReportMissingArg
 (
 cx
+*
 vp
 0
 )
@@ -19988,9 +19999,12 @@ argc
 js_ReportMissingArg
 (
 cx
+*
+(
 argv
 -
 2
+)
 0
 )
 ;

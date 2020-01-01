@@ -14758,9 +14758,11 @@ regs
 >
 sp
 -
-StackBase
-(
 fp
+-
+>
+base
+(
 )
 )
 )
@@ -14782,9 +14784,11 @@ regs
 >
 sp
 -
-StackBase
-(
 fp
+-
+>
+base
+(
 )
 -
 depth
@@ -25029,7 +25033,7 @@ jsid
 idp
 )
 {
-JSClass
+Class
 *
 clasp
 =
