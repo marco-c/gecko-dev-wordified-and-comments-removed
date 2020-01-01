@@ -1337,6 +1337,14 @@ PRBool
 nsContentUtils
 :
 :
+sIsHandlingKeyBoardEvent
+=
+PR_FALSE
+;
+PRBool
+nsContentUtils
+:
+:
 sInitialized
 =
 PR_FALSE
