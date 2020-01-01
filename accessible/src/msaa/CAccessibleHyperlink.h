@@ -14,7 +14,7 @@ h
 #
 include
 "
-CAccessibleAction
+ia2AccessibleAction
 .
 h
 "
@@ -29,7 +29,7 @@ class
 CAccessibleHyperlink
 :
 public
-CAccessibleAction
+ia2AccessibleAction
 public
 IAccessibleHyperlink
 {
@@ -46,7 +46,7 @@ void
 ;
 FORWARD_IACCESSIBLEACTION
 (
-CAccessibleAction
+ia2AccessibleAction
 )
 virtual
 HRESULT

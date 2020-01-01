@@ -1,7 +1,7 @@
 #
 include
 "
-CAccessibleAction
+ia2AccessibleAction
 .
 h
 "
@@ -20,7 +20,7 @@ nsAccessibleWrap
 h
 "
 STDMETHODIMP
-CAccessibleAction
+ia2AccessibleAction
 :
 :
 QueryInterface
@@ -84,7 +84,7 @@ E_NOINTERFACE
 ;
 }
 STDMETHODIMP
-CAccessibleAction
+ia2AccessibleAction
 :
 :
 nActions
@@ -172,7 +172,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-CAccessibleAction
+ia2AccessibleAction
 :
 :
 doAction
@@ -261,7 +261,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-CAccessibleAction
+ia2AccessibleAction
 :
 :
 get_description
@@ -407,7 +407,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-CAccessibleAction
+ia2AccessibleAction
 :
 :
 get_keyBinding
@@ -655,7 +655,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-CAccessibleAction
+ia2AccessibleAction
 :
 :
 get_name
@@ -801,7 +801,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-CAccessibleAction
+ia2AccessibleAction
 :
 :
 get_localizedName
