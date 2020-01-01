@@ -3002,6 +3002,11 @@ nextLink
 =
 aUnmovedLink
 ;
+*
+nextLink
+;
+)
+{
 ScrollRect
 *
 otherRect
@@ -3009,8 +3014,6 @@ otherRect
 *
 nextLink
 ;
-)
-{
 NS_ASSERTION
 (
 otherRect
