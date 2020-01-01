@@ -296,7 +296,11 @@ mDocumentWeak
 (
 nsnull
 )
-mFrame
+mOuterFrame
+(
+nsnull
+)
+mInnerFrame
 (
 nsnull
 )
@@ -948,7 +952,7 @@ GetPresContext
 NS_ERROR_NOT_AVAILABLE
 )
 ;
-mFrame
+mOuterFrame
 =
 mPresShell
 -
@@ -958,10 +962,14 @@ GetPrimaryFrameFor
 mContent
 )
 ;
+mInnerFrame
+=
+mOuterFrame
+;
 if
 (
 !
-mFrame
+mOuterFrame
 |
 |
 mPseudo
@@ -992,18 +1000,12 @@ nsIAtom
 *
 type
 =
-mFrame
+mOuterFrame
 -
 >
 GetType
 (
 )
-;
-nsIFrame
-*
-frame
-=
-mFrame
 ;
 if
 (
@@ -1016,9 +1018,9 @@ nsGkAtoms
 tableOuterFrame
 )
 {
-frame
+mInnerFrame
 =
-frame
+mOuterFrame
 -
 >
 GetFirstChild
@@ -1028,7 +1030,7 @@ nsnull
 ;
 NS_ASSERTION
 (
-frame
+mInnerFrame
 "
 Outer
 table
@@ -1042,7 +1044,7 @@ inner
 NS_ASSERTION
 (
 !
-frame
+mInnerFrame
 -
 >
 GetNextSibling
@@ -1068,7 +1070,7 @@ table
 }
 mStyleContextHolder
 =
-frame
+mInnerFrame
 -
 >
 GetStyleContext
@@ -1227,7 +1229,11 @@ aReturn
 nsnull
 ;
 }
-mFrame
+mOuterFrame
+=
+nsnull
+;
+mInnerFrame
 =
 nsnull
 ;
@@ -10869,7 +10875,7 @@ PR_FALSE
 ;
 if
 (
-mFrame
+mInnerFrame
 )
 {
 calcHeight
@@ -10898,7 +10904,7 @@ NS_STYLE_DISPLAY_INLINE
 &
 !
 (
-mFrame
+mInnerFrame
 -
 >
 IsFrameOfType
@@ -10931,7 +10937,7 @@ val
 >
 SetAppUnits
 (
-mFrame
+mInnerFrame
 -
 >
 GetContentRect
@@ -11042,7 +11048,7 @@ PR_FALSE
 ;
 if
 (
-mFrame
+mInnerFrame
 )
 {
 calcWidth
@@ -11071,7 +11077,7 @@ NS_STYLE_DISPLAY_INLINE
 &
 !
 (
-mFrame
+mInnerFrame
 -
 >
 IsFrameOfType
@@ -11104,7 +11110,7 @@ val
 >
 SetAppUnits
 (
-mFrame
+mInnerFrame
 -
 >
 GetContentRect
@@ -11663,7 +11669,7 @@ container
 =
 GetContainingBlockFor
 (
-mFrame
+mOuterFrame
 )
 ;
 if
@@ -11674,7 +11680,7 @@ container
 nsMargin
 margin
 =
-mFrame
+mOuterFrame
 -
 >
 GetUsedMargin
@@ -11703,7 +11709,7 @@ scrollbarSizes
 nsRect
 rect
 =
-mFrame
+mOuterFrame
 -
 >
 GetRect
@@ -12314,7 +12320,7 @@ NS_ERROR_OUT_OF_MEMORY
 if
 (
 !
-mFrame
+mInnerFrame
 )
 {
 nsStyleCoord
@@ -12349,7 +12355,7 @@ val
 >
 SetAppUnits
 (
-mFrame
+mInnerFrame
 -
 >
 GetUsedPadding
@@ -12819,7 +12825,7 @@ width
 ;
 if
 (
-mFrame
+mInnerFrame
 )
 {
 FlushPendingReflows
@@ -12828,7 +12834,7 @@ FlushPendingReflows
 ;
 width
 =
-mFrame
+mInnerFrame
 -
 >
 GetUsedBorder
@@ -13027,7 +13033,7 @@ NS_ERROR_OUT_OF_MEMORY
 if
 (
 !
-mFrame
+mInnerFrame
 )
 {
 nsStyleCoord
@@ -13062,7 +13068,7 @@ val
 >
 SetAppUnits
 (
-mFrame
+mInnerFrame
 -
 >
 GetUsedMargin
@@ -13737,7 +13743,7 @@ aWidth
 if
 (
 !
-mFrame
+mOuterFrame
 )
 {
 return
@@ -13750,7 +13756,7 @@ container
 =
 GetContainingBlockFor
 (
-mFrame
+mOuterFrame
 )
 ;
 if
@@ -13796,7 +13802,7 @@ aHeight
 if
 (
 !
-mFrame
+mOuterFrame
 )
 {
 return
@@ -13809,7 +13815,7 @@ container
 =
 GetContainingBlockFor
 (
-mFrame
+mOuterFrame
 )
 ;
 if
@@ -13855,7 +13861,7 @@ aWidth
 if
 (
 !
-mFrame
+mInnerFrame
 )
 {
 return
@@ -13868,7 +13874,7 @@ FlushPendingReflows
 ;
 aWidth
 =
-mFrame
+mInnerFrame
 -
 >
 GetSize

@@ -1894,7 +1894,11 @@ mPseudo
 ;
 nsIFrame
 *
-mFrame
+mOuterFrame
+;
+nsIFrame
+*
+mInnerFrame
 ;
 nsIPresShell
 *
