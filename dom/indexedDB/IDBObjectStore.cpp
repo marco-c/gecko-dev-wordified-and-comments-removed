@@ -6446,6 +6446,12 @@ if
 aOptionalArgCount
 <
 2
+|
+|
+aLimit
+=
+=
+0
 )
 {
 aLimit

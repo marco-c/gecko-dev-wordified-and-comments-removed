@@ -1973,6 +1973,12 @@ if
 aOptionalArgCount
 <
 2
+|
+|
+aLimit
+=
+=
+0
 )
 {
 aLimit
@@ -2141,6 +2147,12 @@ if
 aOptionalArgCount
 <
 2
+|
+|
+aLimit
+=
+=
+0
 )
 {
 aLimit
