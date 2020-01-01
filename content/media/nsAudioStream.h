@@ -68,7 +68,7 @@ nsAudioStream
 (
 )
 ;
-void
+nsresult
 Init
 (
 PRInt32
@@ -84,7 +84,7 @@ Shutdown
 (
 )
 ;
-void
+nsresult
 Write
 (
 const
@@ -126,6 +126,11 @@ Resume
 ;
 PRInt64
 GetPosition
+(
+)
+;
+PRInt64
+GetSampleOffset
 (
 )
 ;

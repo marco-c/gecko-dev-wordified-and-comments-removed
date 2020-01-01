@@ -1523,6 +1523,14 @@ NS_MEDIA_EVENT_START
 19
 )
 #
+define
+NS_MOZAUDIOAVAILABLE
+(
+NS_MEDIA_EVENT_START
++
+20
+)
+#
 endif
 #
 define
