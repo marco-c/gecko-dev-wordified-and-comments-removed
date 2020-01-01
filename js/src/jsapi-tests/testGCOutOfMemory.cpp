@@ -63,12 +63,6 @@ root
 cx
 )
 ;
-JS_ToggleOptions
-(
-cx
-JSOPTION_JIT
-)
-;
 static
 const
 char
@@ -184,12 +178,6 @@ errorCount
 JS_GC
 (
 cx
-)
-;
-JS_ToggleOptions
-(
-cx
-JSOPTION_JIT
 )
 ;
 EVAL
