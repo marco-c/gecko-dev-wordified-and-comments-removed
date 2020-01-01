@@ -118,7 +118,15 @@ TextDecoder
 .
 h
 \
+TextDecoderBase
+.
+h
+\
 TextEncoder
+.
+h
+\
+TextEncoderBase
 .
 h
 \

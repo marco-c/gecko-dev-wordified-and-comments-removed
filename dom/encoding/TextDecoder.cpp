@@ -61,7 +61,7 @@ PRUnichar
 )
 ;
 void
-TextDecoder
+TextDecoderBase
 :
 :
 Init
@@ -71,8 +71,7 @@ nsAString
 &
 aEncoding
 const
-TextDecoderOptions
-&
+bool
 aFatal
 ErrorResult
 &
@@ -121,8 +120,6 @@ return
 mFatal
 =
 aFatal
-.
-mFatal
 ;
 nsCOMPtr
 <
@@ -202,7 +199,7 @@ kOnError_Signal
 }
 }
 void
-TextDecoder
+TextDecoderBase
 :
 :
 Decode
@@ -212,9 +209,8 @@ ArrayBufferView
 *
 aView
 const
-TextDecodeOptions
-&
-aOptions
+bool
+aStream
 nsAString
 &
 aOutDecodedString
@@ -415,9 +411,7 @@ outLen
 if
 (
 !
-aOptions
-.
-mStream
+aStream
 )
 {
 mDecoder
@@ -478,7 +472,7 @@ NS_ERROR_DOM_ENCODING_DECODE_ERR
 }
 }
 void
-TextDecoder
+TextDecoderBase
 :
 :
 GetEncoding
