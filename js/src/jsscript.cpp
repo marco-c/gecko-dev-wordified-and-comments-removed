@@ -6640,10 +6640,10 @@ imacpc
 fp
 -
 >
-regs
--
->
 pc
+(
+cx
+)
 )
 ;
 }

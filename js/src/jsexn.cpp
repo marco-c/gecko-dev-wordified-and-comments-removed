@@ -1609,7 +1609,10 @@ if
 fp
 -
 >
-regs
+pc
+(
+cx
+)
 )
 elem
 -
@@ -3691,7 +3694,10 @@ fp
 fp
 -
 >
-regs
+pc
+(
+cx
+)
 )
 ?
 js_FramePCToLineNumber
