@@ -11459,7 +11459,9 @@ nsAccUtils
 :
 MustPrune
 (
-this
+GetParent
+(
+)
 )
 )
 {
