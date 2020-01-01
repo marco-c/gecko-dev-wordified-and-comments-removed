@@ -166,7 +166,7 @@ iid
 const
 xpc_qsHashEntry
 *
-p
+entry
 =
 LookupEntry
 (
@@ -178,7 +178,7 @@ iid
 if
 (
 !
-p
+entry
 )
 {
 nsCOMPtr
@@ -213,6 +213,7 @@ info
 return
 nsnull
 ;
+const
 nsIID
 *
 piid
@@ -255,7 +256,7 @@ NS_FAILED
 parent
 -
 >
-GetInterfaceIID
+GetIIDShared
 (
 &
 piid
@@ -266,7 +267,7 @@ piid
 break
 ;
 }
-p
+entry
 =
 LookupEntry
 (
@@ -278,7 +279,7 @@ piid
 ;
 if
 (
-p
+entry
 )
 break
 ;
@@ -292,7 +293,7 @@ parent
 }
 }
 return
-p
+entry
 ;
 }
 static
