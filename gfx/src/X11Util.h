@@ -292,6 +292,8 @@ class
 NS_GFX
 ScopedXErrorHandler
 {
+public
+:
 struct
 ErrorEvent
 {
@@ -315,6 +317,8 @@ ErrorEvent
 }
 }
 ;
+private
+:
 ErrorEvent
 mXError
 ;
