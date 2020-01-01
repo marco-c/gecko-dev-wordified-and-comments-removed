@@ -1643,12 +1643,10 @@ setTimeout
 (
 function
 (
-textbox
+input
 )
 {
-textbox
-.
-inputField
+input
 .
 removeAttribute
 (
@@ -1660,6 +1658,8 @@ emptytextdelay
 }
 100
 this
+.
+inputField
 )
 ;
 try
