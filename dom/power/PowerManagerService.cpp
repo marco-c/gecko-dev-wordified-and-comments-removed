@@ -573,6 +573,10 @@ SyncProfile
 (
 )
 ;
+sync
+(
+)
+;
 _exit
 (
 0
