@@ -134,6 +134,13 @@ gfxDrawable
 class
 nsLayoutUtils
 {
+typedef
+gfxPattern
+:
+:
+GraphicsFilter
+GraphicsFilter
+;
 public
 :
 static
@@ -1643,9 +1650,6 @@ aFrame
 )
 ;
 static
-gfxPattern
-:
-:
 GraphicsFilter
 GetGraphicsFilterForFrame
 (
@@ -1664,9 +1668,6 @@ aRenderingContext
 imgIContainer
 *
 aImage
-gfxPattern
-:
-:
 GraphicsFilter
 aGraphicsFilter
 const
@@ -1711,9 +1712,6 @@ aRenderingContext
 gfxDrawable
 *
 aDrawable
-gfxPattern
-:
-:
 GraphicsFilter
 aFilter
 const
@@ -1772,9 +1770,6 @@ aRenderingContext
 imgIContainer
 *
 aImage
-gfxPattern
-:
-:
 GraphicsFilter
 aGraphicsFilter
 const
