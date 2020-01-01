@@ -15159,7 +15159,11 @@ if
 (
 format
 &
-JOF_ASSIGNING
+(
+JOF_SET
+|
+JOF_FOR
+)
 )
 |
 |
