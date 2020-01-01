@@ -1623,6 +1623,14 @@ nsAString
 state
 )
 ;
+void
+GetGfxInfoData
+(
+nsACString
+&
+aRet
+)
+;
 protected
 :
 static
@@ -1950,6 +1958,9 @@ jPumpMessageLoop
 ;
 jmethodID
 jNotifyWakeLockChanged
+;
+jmethodID
+jGetGfxInfoData
 ;
 jclass
 jSurfaceClass

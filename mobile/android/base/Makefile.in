@@ -561,6 +561,12 @@ java
 \
 gfx
 /
+GfxInfoThread
+.
+java
+\
+gfx
+/
 GLController
 .
 java
