@@ -2717,7 +2717,7 @@ uri
 mRequest
 -
 >
-GetKeyURI
+GetURI
 (
 getter_AddRefs
 (
@@ -2761,7 +2761,7 @@ uri
 mRequest
 -
 >
-GetKeyURI
+GetURI
 (
 getter_AddRefs
 (
@@ -3640,7 +3640,7 @@ uri
 req
 -
 >
-GetKeyURI
+GetURI
 (
 getter_AddRefs
 (
@@ -5585,7 +5585,7 @@ uri
 req
 -
 >
-GetKeyURI
+GetURI
 (
 getter_AddRefs
 (
@@ -6876,7 +6876,7 @@ NS_SUCCEEDED
 request
 -
 >
-GetKeyURI
+GetURI
 (
 getter_AddRefs
 (
