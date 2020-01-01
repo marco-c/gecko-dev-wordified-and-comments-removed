@@ -493,6 +493,10 @@ nsAccessibleEventData
 .
 cpp
 \
+nsARIAGridAccessible
+.
+cpp
+\
 nsARIAMap
 .
 cpp
