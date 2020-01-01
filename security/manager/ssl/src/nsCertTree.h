@@ -231,6 +231,9 @@ nsCertOverride
 OverrideBits
 mOverrideBits
 ;
+PRBool
+mIsTemporary
+;
 }
 ;
 class

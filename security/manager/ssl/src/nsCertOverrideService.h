@@ -120,6 +120,12 @@ other
 .
 mHostWithPortUTF8
 ;
+mIsTemporary
+=
+other
+.
+mIsTemporary
+;
 mFingerprintAlgOID
 =
 other
@@ -151,6 +157,9 @@ this
 }
 nsCString
 mHostWithPortUTF8
+;
+PRBool
+mIsTemporary
 ;
 nsCString
 mFingerprint
@@ -456,6 +465,9 @@ const
 nsACString
 &
 hostWithPortUTF8
+const
+PRBool
+aIsTemporary
 const
 nsACString
 &
