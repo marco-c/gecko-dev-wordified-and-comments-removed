@@ -543,15 +543,6 @@ aNewBreakType
 )
 ;
 static
-PRBool
-IsRootElementFrame
-(
-nsIFrame
-*
-aFrame
-)
-;
-static
 nsPoint
 GetDOMEventCoordinatesRelativeTo
 (
