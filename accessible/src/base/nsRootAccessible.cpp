@@ -3218,6 +3218,14 @@ return
 NS_OK
 ;
 }
+if
+(
+gLastFocusedNode
+!
+=
+aTargetNode
+)
+{
 nsCOMPtr
 <
 nsIDOMNode
@@ -3246,6 +3254,7 @@ aTargetNode
 return
 NS_OK
 ;
+}
 }
 FireCurrentFocusEvent
 (
