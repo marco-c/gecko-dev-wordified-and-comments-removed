@@ -52799,7 +52799,8 @@ TEST_BRANCH
 1
 TEST_REPO
 =
-tracemonkey
+.
+*
 TEST_BUILDTYPE
 =
 debug
@@ -52886,7 +52887,8 @@ TEST_BRANCH
 1
 TEST_REPO
 =
-tracemonkey
+.
+*
 TEST_BUILDTYPE
 =
 debug
@@ -52972,7 +52974,8 @@ TEST_BRANCH
 1
 TEST_REPO
 =
-tracemonkey
+.
+*
 TEST_BUILDTYPE
 =
 debug
