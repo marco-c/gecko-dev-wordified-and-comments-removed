@@ -58,6 +58,9 @@ h
 class
 nsIXPConnect
 ;
+struct
+sqlite3_vfs
+;
 namespace
 mozilla
 {
@@ -136,6 +139,10 @@ Service
 ;
 Mutex
 mMutex
+;
+sqlite3_vfs
+*
+mSqliteVFS
 ;
 void
 shutdown
