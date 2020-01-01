@@ -642,6 +642,10 @@ test_bug876098
 .
 html
 \
+test_toJSON
+.
+html
+\
 (
 NULL
 )

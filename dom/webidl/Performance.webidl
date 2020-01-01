@@ -169,5 +169,7 @@ attribute
 PerformanceNavigation
 navigation
 ;
+jsonifier
+;
 }
 ;
