@@ -476,6 +476,8 @@ xulapp
 \
 exthandler
 \
+docshell
+\
 (
 NULL
 )
