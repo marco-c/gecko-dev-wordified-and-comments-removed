@@ -3336,6 +3336,15 @@ _result
 )
 return
 ;
+window
+.
+updateCommands
+(
+"
+sort
+"
+)
+;
 var
 columns
 =
