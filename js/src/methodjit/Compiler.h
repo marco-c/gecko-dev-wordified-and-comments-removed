@@ -1600,9 +1600,6 @@ addTraceHints
 bool
 recompiling
 ;
-#
-ifdef
-JS_TYPE_INFERENCE
 bool
 hasThisType
 ;
@@ -1629,8 +1626,6 @@ JSValueType
 >
 localTypes
 ;
-#
-endif
 bool
 oomInVector
 ;
@@ -1825,6 +1820,19 @@ JITScript
 jitp
 )
 ;
+CompileStatus
+prepareInferenceTypes
+(
+const
+Vector
+<
+JSStackFrame
+*
+>
+*
+frames
+)
+;
 void
 fixDoubleTypes
 (
@@ -1921,8 +1929,6 @@ pc
 void
 markPushedOverflow
 (
-uint32
-pushed
 )
 ;
 void
@@ -3011,7 +3017,7 @@ bool
 popped
 )
 ;
-void
+bool
 jsop_newinit
 (
 )

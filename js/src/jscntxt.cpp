@@ -4979,10 +4979,6 @@ cx
 ;
 #
 endif
-#
-ifdef
-JS_TYPE_INFERENCE
-{
 AutoLockGC
 lock
 (
@@ -5044,9 +5040,6 @@ compartment
 +
 ;
 }
-}
-#
-endif
 js_FinishRuntimeNumberState
 (
 cx
@@ -10318,9 +10311,6 @@ updateJITEnabled
 )
 {
 #
-ifndef
-JS_TYPE_INFERENCE
-#
 ifdef
 JS_TRACER
 traceJitEnabled
@@ -10336,6 +10326,14 @@ JSOPTION_JIT
 !
 IsJITBrokenHere
 (
+)
+&
+&
+!
+(
+runOptions
+&
+JSOPTION_TYPE_INFERENCE
 )
 &
 &
@@ -10369,8 +10367,6 @@ debuggerInhibitsJIT
 )
 )
 ;
-#
-endif
 #
 endif
 #

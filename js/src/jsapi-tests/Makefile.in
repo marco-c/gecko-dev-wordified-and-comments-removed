@@ -574,14 +574,6 @@ LIB_SUFFIX
 (
 NSPR_LIBS
 )
-ifdef
-JS_TYPE_INFERENCE
-LIBS
-+
-=
--
-lz
-endif
 LOCAL_INCLUDES
 +
 =

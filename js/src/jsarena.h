@@ -1382,6 +1382,8 @@ T
 )
 ;
 return
+v
+?
 new
 (
 v
@@ -1389,6 +1391,8 @@ v
 T
 (
 )
+:
+NULL
 ;
 }
 template
@@ -1428,6 +1432,8 @@ T
 )
 ;
 return
+v
+?
 new
 (
 v
@@ -1436,6 +1442,8 @@ T
 (
 a
 )
+:
+NULL
 ;
 }
 template
@@ -1481,6 +1489,8 @@ T
 )
 ;
 return
+v
+?
 new
 (
 v
@@ -1490,6 +1500,8 @@ T
 a
 b
 )
+:
+NULL
 ;
 }
 template
@@ -1541,6 +1553,8 @@ T
 )
 ;
 return
+v
+?
 new
 (
 v
@@ -1551,6 +1565,8 @@ a
 b
 c
 )
+:
+NULL
 ;
 }
 template
@@ -1608,6 +1624,8 @@ T
 )
 ;
 return
+v
+?
 new
 (
 v
@@ -1619,6 +1637,8 @@ b
 c
 d
 )
+:
+NULL
 ;
 }
 template
@@ -1682,6 +1702,8 @@ T
 )
 ;
 return
+v
+?
 new
 (
 v
@@ -1694,6 +1716,8 @@ c
 d
 e
 )
+:
+NULL
 ;
 }
 }

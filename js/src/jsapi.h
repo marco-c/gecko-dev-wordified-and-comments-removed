@@ -3234,6 +3234,13 @@ JS_BIT
 )
 #
 define
+JSOPTION_TYPE_INFERENCE
+JS_BIT
+(
+17
+)
+#
+define
 JSCOMPILEOPTION_MASK
 (
 JSOPTION_XML
@@ -3246,7 +3253,7 @@ JSRUNOPTION_MASK
 (
 JS_BITMASK
 (
-17
+18
 )
 &
 ~
@@ -7591,7 +7598,7 @@ bp
 extern
 JS_PUBLIC_API
 (
-void
+JSBool
 )
 JS_AddTypeProperty
 (
@@ -7612,7 +7619,7 @@ value
 extern
 JS_PUBLIC_API
 (
-void
+JSBool
 )
 JS_AddTypePropertyById
 (

@@ -4841,6 +4841,9 @@ setObject
 fun
 )
 ;
+if
+(
+!
 cx
 -
 >
@@ -4855,6 +4858,9 @@ getType
 id
 rval
 )
+)
+return
+false
 ;
 }
 else

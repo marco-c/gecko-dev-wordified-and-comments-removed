@@ -2751,7 +2751,7 @@ getArrayLength
 const
 ;
 inline
-void
+bool
 setArrayLength
 (
 JSContext
@@ -2771,6 +2771,14 @@ inline
 uint32
 getDenseArrayInitializedLength
 (
+)
+;
+inline
+void
+setDenseArrayLength
+(
+uint32
+length
 )
 ;
 inline
@@ -2849,7 +2857,7 @@ isPackedDenseArray
 )
 ;
 inline
-void
+bool
 setDenseArrayNotPacked
 (
 JSContext
@@ -6665,6 +6673,7 @@ defineHow
 0
 )
 {
+return
 JS_AddTypePropertyById
 (
 cx
@@ -6675,8 +6684,8 @@ Jsvalify
 value
 )
 )
-;
-return
+&
+&
 js_DefineNativeProperty
 (
 cx

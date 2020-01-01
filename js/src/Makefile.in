@@ -844,6 +844,10 @@ jshash
 .
 cpp
 \
+jsinfer
+.
+cpp
+\
 jsinterp
 .
 cpp
@@ -2488,15 +2492,6 @@ INSTALLED_HEADERS
 jscpucfg
 .
 h
-endif
-ifdef
-JS_TYPE_INFERENCE
-CPPSRCS
-+
-=
-jsinfer
-.
-cpp
 endif
 EXPORTS
 =

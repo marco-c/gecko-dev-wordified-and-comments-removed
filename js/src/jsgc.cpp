@@ -14570,6 +14570,7 @@ compartment
 >
 init
 (
+cx
 )
 )
 {
