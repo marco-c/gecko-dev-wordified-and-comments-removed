@@ -1940,10 +1940,13 @@ ib
 ;
 JS_ASSERT
 (
+InternBehavior
+(
 entryRef
 .
 isInterned
 (
+)
 )
 >
 =
