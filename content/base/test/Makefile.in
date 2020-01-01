@@ -1000,6 +1000,10 @@ test_bug422537
 .
 html
 \
+test_bug424212
+.
+html
+\
 (
 NULL
 )
