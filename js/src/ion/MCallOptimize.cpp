@@ -1124,6 +1124,16 @@ peek
 -
 1
 )
+-
+>
+toPassArg
+(
+)
+-
+>
+getArgument
+(
+)
 ;
 if
 (
