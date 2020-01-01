@@ -606,6 +606,8 @@ OpenOfflineCacheEntryForWriting
 nsresult
 GenerateCacheKey
 (
+PRUint32
+postID
 nsACString
 &
 key
@@ -688,6 +690,16 @@ offset
 ;
 nsresult
 InstallOfflineCacheListener
+(
+)
+;
+void
+MaybeInvalidateCacheEntryForSubsequentGet
+(
+)
+;
+nsCacheStoragePolicy
+DetermineStoragePolicy
 (
 )
 ;
