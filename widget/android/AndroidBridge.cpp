@@ -10940,6 +10940,8 @@ nsIntRect
 aDisplayPort
 float
 aDisplayResolution
+bool
+aLayersUpdated
 nsIntPoint
 &
 aScrollOffset
@@ -10971,6 +10973,7 @@ SyncViewportInfo
 (
 aDisplayPort
 aDisplayResolution
+aLayersUpdated
 aScrollOffset
 aScaleX
 aScaleY

@@ -119,6 +119,10 @@ mIsFirstPaint
 (
 false
 )
+mLayersUpdated
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -1330,10 +1334,15 @@ displayPort
 1
 /
 rootScaleX
+mLayersUpdated
 mScrollOffset
 mXScale
 mYScale
 )
+;
+mLayersUpdated
+=
+false
 ;
 }
 if
@@ -1472,6 +1481,10 @@ mIsFirstPaint
 |
 |
 isFirstPaint
+;
+mLayersUpdated
+=
+true
 ;
 const
 nsTArray
