@@ -468,6 +468,10 @@ NULL
 EXTRA_PP_COMPONENTS
 =
 \
+extensions
+.
+manifest
+\
 nsBlocklistService
 .
 js

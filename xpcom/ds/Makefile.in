@@ -658,10 +658,6 @@ nsCharSeparatedTokenizer
 .
 h
 \
-CheckedInt
-.
-h
-\
 (
 NULL
 )
@@ -817,6 +813,10 @@ EXTRA_COMPONENTS
 nsINIProcessor
 .
 js
+\
+nsINIProcessor
+.
+manifest
 \
 (
 NULL

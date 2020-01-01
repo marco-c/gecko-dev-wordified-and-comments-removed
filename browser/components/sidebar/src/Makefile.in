@@ -414,6 +414,11 @@ config
 autoconf
 .
 mk
+EXTRA_COMPONENTS
+=
+nsSidebar
+.
+manifest
 EXTRA_PP_COMPONENTS
 =
 nsSidebar

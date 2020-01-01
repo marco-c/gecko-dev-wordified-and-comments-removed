@@ -434,6 +434,10 @@ nsPrompter
 .
 js
 \
+nsPrompter
+.
+manifest
+\
 (
 NULL
 )

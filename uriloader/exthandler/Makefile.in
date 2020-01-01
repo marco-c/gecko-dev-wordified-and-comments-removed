@@ -827,9 +827,17 @@ nsHandlerService
 .
 js
 \
+nsHandlerService
+.
+manifest
+\
 nsWebHandlerApp
 .
 js
+\
+nsWebHandlerApp
+.
+manifest
 \
 (
 NULL

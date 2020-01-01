@@ -414,6 +414,11 @@ mk
 MODULE
 =
 helperAppDlg
+EXTRA_COMPONENTS
+=
+nsHelperAppDlg
+.
+manifest
 EXTRA_PP_COMPONENTS
 =
 nsHelperAppDlg

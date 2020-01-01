@@ -418,6 +418,16 @@ config
 autoconf
 .
 mk
+EXTRA_COMPONENTS
+=
+\
+nsURLFormatter
+.
+manifest
+\
+(
+NULL
+)
 EXTRA_PP_COMPONENTS
 =
 \

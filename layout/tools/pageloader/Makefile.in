@@ -444,6 +444,12 @@ cmdline
 .
 js
 \
+tp
+-
+cmdline
+.
+manifest
+\
 (
 NULL
 )

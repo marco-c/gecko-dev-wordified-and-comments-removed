@@ -430,6 +430,10 @@ loginmgr
 EXTRA_COMPONENTS
 =
 \
+passwordmgr
+.
+manifest
+\
 nsLoginManager
 .
 js

@@ -429,6 +429,9 @@ EXTRA_COMPONENTS
 nsContentDispatchChooser
 .
 js
+nsContentDispatchChooser
+.
+manifest
 include
 (
 topsrcdir

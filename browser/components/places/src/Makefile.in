@@ -431,6 +431,14 @@ mk
 EXTRA_COMPONENTS
 =
 \
+BrowserPlaces
+.
+manifest
+\
+nsPlacesTransactionsService
+.
+js
+\
 PlacesProtocolHandler
 .
 js

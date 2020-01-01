@@ -428,6 +428,9 @@ EXTRA_COMPONENTS
 nsContentPrefService
 .
 js
+nsContentPrefService
+.
+manifest
 include
 (
 topsrcdir

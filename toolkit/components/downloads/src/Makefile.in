@@ -518,6 +518,10 @@ nsDownloadManagerUI
 .
 js
 \
+nsDownloadManagerUI
+.
+manifest
+\
 (
 NULL
 )

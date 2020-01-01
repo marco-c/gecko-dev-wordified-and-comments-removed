@@ -95,6 +95,11 @@ SQLITE_CFLAGS
 (
 NULL
 )
+EXTRA_COMPONENTS
+=
+nsURLClassifier
+.
+manifest
 #
 Same
 as

@@ -458,6 +458,16 @@ MOZ_APP_DISPLAYNAME
 (
 NULL
 )
+EXTRA_COMPONENTS
+=
+\
+BrowserFeeds
+.
+manifest
+\
+(
+NULL
+)
 EXTRA_PP_COMPONENTS
 =
 \

@@ -411,13 +411,6 @@ config
 autoconf
 .
 mk
-PARALLEL_DIRS
-=
-hudservice
-\
-(
-NULL
-)
 EXTRA_PP_COMPONENTS
 =
 jsconsole
@@ -425,6 +418,11 @@ jsconsole
 clhandler
 .
 js
+jsconsole
+-
+clhandler
+.
+manifest
 include
 (
 topsrcdir

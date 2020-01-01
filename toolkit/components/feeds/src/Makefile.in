@@ -443,6 +443,9 @@ EXTRA_COMPONENTS
 FeedProcessor
 .
 js
+FeedProcessor
+.
+manifest
 include
 (
 topsrcdir

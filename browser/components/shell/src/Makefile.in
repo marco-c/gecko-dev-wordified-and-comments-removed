@@ -485,6 +485,9 @@ EXTRA_COMPONENTS
 nsSetDefaultBrowser
 .
 js
+nsSetDefaultBrowser
+.
+manifest
 include
 (
 topsrcdir

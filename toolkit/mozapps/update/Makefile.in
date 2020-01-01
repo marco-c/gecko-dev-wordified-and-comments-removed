@@ -442,6 +442,9 @@ EXTRA_PP_COMPONENTS
 nsUpdateTimerManager
 .
 js
+nsUpdateTimerManager
+.
+manifest
 ifdef
 MOZ_UPDATER
 DIRS
@@ -473,6 +476,10 @@ js
 nsUpdateServiceStub
 .
 js
+\
+nsUpdateService
+.
+manifest
 \
 (
 NULL
