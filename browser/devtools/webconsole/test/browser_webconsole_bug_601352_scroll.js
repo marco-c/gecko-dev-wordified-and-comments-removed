@@ -58,7 +58,7 @@ i
 +
 )
 {
-HUD
+content
 .
 console
 .
@@ -73,7 +73,7 @@ i
 )
 ;
 }
-HUD
+content
 .
 console
 .
@@ -98,7 +98,7 @@ i
 +
 )
 {
-HUD
+content
 .
 console
 .

@@ -243,6 +243,10 @@ index
 ;
 hud
 .
+browser
+.
+contentWindow
+.
 console
 .
 log
