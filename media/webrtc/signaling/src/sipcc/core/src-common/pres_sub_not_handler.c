@@ -4466,12 +4466,9 @@ cmd
 d
 msg_p
 =
-0x
 %
-X
+p
 )
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (

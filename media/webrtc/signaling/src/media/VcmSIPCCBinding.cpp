@@ -1574,7 +1574,7 @@ s
 :
 Got
 %
-d
+lu
 candidates
 "
 __FUNCTION__

@@ -1093,13 +1093,7 @@ failed
 to
 send
 shutdownCCAck
-(
-%
-d
-)
 msg
-\
-n
 "
 fname
 )
@@ -1519,13 +1513,7 @@ failed
 to
 send
 Logout_Reset
-(
-%
-d
-)
 msg
-\
-n
 "
 fname
 )

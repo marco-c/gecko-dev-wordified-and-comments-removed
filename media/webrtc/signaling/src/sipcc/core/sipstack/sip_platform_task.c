@@ -1475,12 +1475,8 @@ CCSIP_DEBUG_ERROR
 (
 SIP_F_PREFIX
 "
-%
-d
 sending
 IPC
-\
-n
 "
 fname
 )

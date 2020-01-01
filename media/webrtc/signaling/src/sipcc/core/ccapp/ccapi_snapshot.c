@@ -2912,6 +2912,8 @@ line_info
 -
 >
 mwi
+.
+status
 )
 ;
 CCAPP_DEBUG

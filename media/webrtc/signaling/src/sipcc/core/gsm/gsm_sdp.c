@@ -1751,9 +1751,7 @@ dynamic
 pool
 media
 %
-x
-\
-n
+p
 "
 DEB_F_PREFIX_ARGS
 (
@@ -1911,14 +1909,11 @@ DEB_F_PREFIX
 "
 free
 media
-0x
 %
-x
+p
 to
 dynamic
 pool
-\
-n
 "
 DEB_F_PREFIX_ARGS
 (

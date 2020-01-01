@@ -3064,9 +3064,7 @@ DEB_F_PREFIX
 "
 returned
 %
-x
-\
-n
+p
 "
 DEB_F_PREFIX_ARGS
 (

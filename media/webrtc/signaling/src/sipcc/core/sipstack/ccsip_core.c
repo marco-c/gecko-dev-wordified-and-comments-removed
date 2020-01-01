@@ -3565,6 +3565,9 @@ d
 \
 n
 "
+DEB_L_C_F_PREFIX_ARGS
+(
+SIP_CALL_STATUS
 ccb
 -
 >
@@ -3574,6 +3577,7 @@ ccb
 >
 gsm_id
 fname
+)
 ccb
 -
 >
@@ -10439,6 +10443,9 @@ CFWDAll
 \
 n
 "
+DEB_L_C_F_PREFIX_ARGS
+(
+SIP_TIMER
 ccb
 -
 >
@@ -10448,6 +10455,7 @@ ccb
 >
 gsm_id
 fname
+)
 ccb
 -
 >
@@ -24790,9 +24798,8 @@ d
 :
 -
 -
-0x
 %
-08lx
+p
 -
 -
 %
@@ -25830,8 +25837,7 @@ CC
 event
 :
 %
--
-6d
+p
 :
 SM
 :
@@ -25860,9 +25866,6 @@ ccb
 >
 gsm_id
 fname
-)
-(
-long
 )
 buf
 sip_util_state2string
@@ -31095,7 +31098,7 @@ d
 ccb
 =
 %
-d
+p
 .
 Throwing
 away
@@ -31909,9 +31912,8 @@ response
 "
 ccb
 =
-0x
 %
-x
+p
 %
 d
 cseq
@@ -38573,7 +38575,7 @@ of
 messagebody
 =
 %
-d
+lu
 \
 n
 "
@@ -42560,6 +42562,9 @@ d
 \
 n
 "
+DEB_L_C_F_PREFIX_ARGS
+(
+SIP_CALL_STATUS
 ccb
 -
 >
@@ -42569,6 +42574,7 @@ ccb
 >
 gsm_id
 fname
+)
 ccb
 -
 >
