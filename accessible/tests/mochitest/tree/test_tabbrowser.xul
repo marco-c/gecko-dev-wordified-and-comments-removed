@@ -998,17 +998,6 @@ flex
 /
 >
 <
-toolbar
-id
-=
-"
-addon
--
-bar
-"
-/
->
-<
 /
 vbox
 >

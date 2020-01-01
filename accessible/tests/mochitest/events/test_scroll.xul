@@ -1141,17 +1141,6 @@ flex
 vbox
 >
 <
-toolbar
-id
-=
-"
-addon
--
-bar
-"
-/
->
-<
 /
 hbox
 >
