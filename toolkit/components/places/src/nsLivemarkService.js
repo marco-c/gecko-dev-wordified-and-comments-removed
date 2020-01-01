@@ -934,6 +934,15 @@ LS__shutdown
 (
 )
 {
+this
+.
+_bms
+.
+removeObserver
+(
+this
+)
+;
 for
 (
 var
