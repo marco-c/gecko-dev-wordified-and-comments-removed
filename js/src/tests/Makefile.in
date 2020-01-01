@@ -135,9 +135,6 @@ user
 .
 js
 \
-e4x
-/
-\
 ecma
 /
 \
@@ -154,6 +151,9 @@ ecma_5
 /
 \
 ecma_6
+/
+\
+Intl
 /
 \
 js1_1
