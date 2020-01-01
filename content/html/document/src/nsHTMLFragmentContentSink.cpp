@@ -4856,9 +4856,6 @@ if
 style
 )
 {
-nsresult
-rv
-=
 style
 -
 >
@@ -4867,14 +4864,6 @@ RemoveProperty
 eCSSProperty_binding
 )
 ;
-if
-(
-NS_SUCCEEDED
-(
-rv
-)
-)
-{
 style
 -
 >
@@ -4883,7 +4872,6 @@ ToString
 aRuleText
 )
 ;
-}
 }
 }
 NS_IMETHODIMP

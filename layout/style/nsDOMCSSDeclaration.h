@@ -191,9 +191,6 @@ NS_DECL_NSIDOMNSCSS2PROPERTIES
 protected
 :
 virtual
-nsresult
-GetCSSDeclaration
-(
 mozilla
 :
 :
@@ -202,8 +199,8 @@ css
 :
 Declaration
 *
-*
-aDecl
+GetCSSDeclaration
+(
 PRBool
 aAllocate
 )

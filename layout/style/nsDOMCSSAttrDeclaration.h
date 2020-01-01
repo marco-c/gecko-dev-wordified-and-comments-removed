@@ -79,9 +79,6 @@ nsDOMCSSAttributeDeclaration
 nsICSSDeclaration
 )
 virtual
-nsresult
-GetCSSDeclaration
-(
 mozilla
 :
 :
@@ -90,8 +87,8 @@ css
 :
 Declaration
 *
-*
-aDecl
+GetCSSDeclaration
+(
 PRBool
 aAllocate
 )

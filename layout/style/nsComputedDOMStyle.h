@@ -229,9 +229,6 @@ aExpose
 ;
 }
 virtual
-nsresult
-GetCSSDeclaration
-(
 mozilla
 :
 :
@@ -240,7 +237,8 @@ css
 :
 Declaration
 *
-*
+GetCSSDeclaration
+(
 PRBool
 )
 ;
