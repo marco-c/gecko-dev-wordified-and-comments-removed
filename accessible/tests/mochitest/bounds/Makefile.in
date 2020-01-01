@@ -92,6 +92,10 @@ test_select
 .
 html
 \
+test_zoom_text
+.
+html
+\
 test_zoom
 .
 html
