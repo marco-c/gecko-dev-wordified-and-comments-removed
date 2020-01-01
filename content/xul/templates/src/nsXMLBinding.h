@@ -18,6 +18,13 @@ nsIAtom
 .
 h
 "
+#
+include
+"
+nsCycleCollectionParticipant
+.
+h
+"
 class
 nsXULTemplateResultXML
 ;
@@ -120,6 +127,10 @@ Release
 )
 ;
 NS_DECL_OWNINGTHREAD
+NS_DECL_CYCLE_COLLECTION_NATIVE_CLASS
+(
+nsXMLBindingSet
+)
 nsresult
 AddBinding
 (
