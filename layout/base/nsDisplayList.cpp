@@ -3527,7 +3527,13 @@ if
 mIsThemed
 )
 return
-PR_FALSE
+mThemeTransparency
+=
+=
+nsITheme
+:
+:
+eOpaque
 ;
 nsStyleContext
 *
