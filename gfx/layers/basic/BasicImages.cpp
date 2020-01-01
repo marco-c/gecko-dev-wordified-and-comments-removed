@@ -1064,14 +1064,11 @@ gfxImageFormat
 ;
 BasicImageContainer
 (
-BasicLayerManager
-*
-aManager
 )
 :
 ImageContainer
 (
-aManager
+nsnull
 )
 mMonitor
 (
@@ -1617,10 +1614,6 @@ return
 PR_FALSE
 ;
 }
-mManager
-=
-aManager
-;
 return
 PR_TRUE
 ;
@@ -1645,7 +1638,6 @@ container
 new
 BasicImageContainer
 (
-this
 )
 ;
 static_cast
