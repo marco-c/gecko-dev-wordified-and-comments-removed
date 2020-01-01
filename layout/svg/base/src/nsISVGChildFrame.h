@@ -26,13 +26,13 @@ nsRect
 h
 "
 class
-gfxMatrix
-;
-class
 nsIFrame
 ;
 class
 nsRenderingContext
+;
+struct
+gfxMatrix
 ;
 struct
 nsPoint
