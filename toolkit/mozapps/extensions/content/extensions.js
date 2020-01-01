@@ -2747,6 +2747,10 @@ null
 ]
 ]
 ;
+showCheckUpdatesAll
+=
+false
+;
 break
 ;
 case
