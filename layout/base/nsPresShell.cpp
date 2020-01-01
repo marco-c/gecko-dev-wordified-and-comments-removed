@@ -7692,7 +7692,7 @@ GetProperty
 nsGkAtoms
 :
 :
-scriptEnabledBeforePrintPreview
+scriptEnabledBeforePrintOrPreview
 )
 )
 )
