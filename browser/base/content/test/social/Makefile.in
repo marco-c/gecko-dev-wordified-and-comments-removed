@@ -117,6 +117,10 @@ browser_social_multiprovider
 .
 js
 \
+browser_social_errorPage
+.
+js
+\
 social_panel
 .
 html

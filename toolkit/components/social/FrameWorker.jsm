@@ -1135,6 +1135,7 @@ stack
 ;
 notifyWorkerError
 (
+worker
 )
 ;
 return
