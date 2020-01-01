@@ -728,6 +728,13 @@ StartAnimation
 (
 )
 {
+if
+(
+!
+mViewer
+)
+return
+;
 nsIDocument
 *
 doc
