@@ -96,6 +96,13 @@ DEFAULT_VIDEO_HEIGHT
 =
 480
 ;
+static
+const
+int
+DEFAULT_AUDIO_TIMER_MS
+=
+10
+;
 virtual
 void
 EnumerateVideoDevices
