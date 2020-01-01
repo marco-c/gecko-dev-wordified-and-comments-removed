@@ -521,6 +521,14 @@ version
 h
 endif
 endif
+#
+FIXME
+:
+bug
+419893
+NO_PROFILE_GUIDED_OPTIMIZE
+=
+1
 ifdef
 GNU_CC
 MODULE_OPTIMIZE_FLAGS

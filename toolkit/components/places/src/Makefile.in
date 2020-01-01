@@ -419,6 +419,14 @@ config
 autoconf
 .
 mk
+#
+FIXME
+:
+bug
+419893
+NO_PROFILE_GUIDED_OPTIMIZE
+=
+1
 MODULE
 =
 places
