@@ -959,7 +959,7 @@ clipRect
 ctx
 -
 >
-SetMatrix
+Multiply
 (
 GetImageTransform
 (
