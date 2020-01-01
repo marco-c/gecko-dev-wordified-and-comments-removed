@@ -825,9 +825,11 @@ entry
 "
 )
 ;
-PR_REMOVE_AND_INIT_LINK
-(
 descriptor
+-
+>
+CloseOutput
+(
 )
 ;
 descriptor
@@ -835,6 +837,11 @@ descriptor
 >
 ClearCacheEntry
 (
+)
+;
+PR_REMOVE_AND_INIT_LINK
+(
+descriptor
 )
 ;
 if
