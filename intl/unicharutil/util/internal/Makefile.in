@@ -474,6 +474,9 @@ unicharutil
 LIBRARY_NAME
 =
 unicharutil_s
+SUPPRESS_FAKELIB
+=
+1
 DIST_INSTALL
 =
 1
