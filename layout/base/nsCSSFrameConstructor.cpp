@@ -45634,9 +45634,6 @@ DEBUG
 if
 (
 gNoisyContentUpdates
-|
-|
-1
 )
 {
 printf
