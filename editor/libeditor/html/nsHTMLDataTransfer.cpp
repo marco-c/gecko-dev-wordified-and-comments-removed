@@ -491,13 +491,6 @@ h
 #
 include
 "
-TextEditorTest
-.
-h
-"
-#
-include
-"
 nsEditorUtils
 .
 h
@@ -555,6 +548,13 @@ h
 include
 "
 nsIDocShellTreeItem
+.
+h
+"
+#
+include
+"
+nsContentUtils
 .
 h
 "

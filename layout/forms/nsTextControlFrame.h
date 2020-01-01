@@ -74,6 +74,13 @@ nsIStatefulFrame
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 class
 nsIEditor
 ;

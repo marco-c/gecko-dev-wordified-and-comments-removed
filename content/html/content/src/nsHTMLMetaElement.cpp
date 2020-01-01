@@ -40,6 +40,13 @@ nsPLDOMEvent
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 class
 nsHTMLMetaElement
 :

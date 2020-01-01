@@ -82,6 +82,13 @@ nsThreadUtils
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 class
 nsXMLStylesheetPI
 :

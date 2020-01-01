@@ -337,6 +337,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsIPrefBranch
 .
 h

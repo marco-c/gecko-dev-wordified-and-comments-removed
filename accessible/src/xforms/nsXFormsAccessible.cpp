@@ -89,6 +89,13 @@ nsIPlaintextEditor
 .
 h
 "
+#
+include
+"
+nsINodeList
+.
+h
+"
 using
 namespace
 mozilla

@@ -5,6 +5,13 @@ nsDOMClassInfoID_h__
 define
 nsDOMClassInfoID_h__
 #
+include
+"
+nsIXPCScriptable
+.
+h
+"
+#
 define
 DOMCI_CLASS
 (

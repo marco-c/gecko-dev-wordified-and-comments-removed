@@ -40,6 +40,13 @@ nsISMILAttr
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 using
 namespace
 mozilla

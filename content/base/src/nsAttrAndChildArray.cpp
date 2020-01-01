@@ -69,6 +69,13 @@ nsAutoPtr
 h
 "
 #
+include
+"
+nsContentUtils
+.
+h
+"
+#
 define
 CACHE_POINTER_SHIFT
 5

@@ -99,6 +99,13 @@ h
 #
 include
 "
+nsIDOMNodeList
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLCollection
 .
 h
@@ -177,6 +184,13 @@ h
 include
 "
 nsArrayUtils
+.
+h
+"
+#
+include
+"
+nsComponentManagerUtils
 .
 h
 "

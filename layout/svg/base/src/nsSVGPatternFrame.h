@@ -25,6 +25,13 @@ gfxMatrix
 .
 h
 "
+#
+include
+"
+nsIDOMSVGAnimTransformList
+.
+h
+"
 class
 nsIFrame
 ;

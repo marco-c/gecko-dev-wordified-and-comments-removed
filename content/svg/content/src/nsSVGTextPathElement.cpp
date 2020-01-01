@@ -47,6 +47,13 @@ nsDOMError
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 nsSVGElement
 :
 :

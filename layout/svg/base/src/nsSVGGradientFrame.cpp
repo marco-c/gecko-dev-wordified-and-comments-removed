@@ -75,6 +75,13 @@ gfxPattern
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 nsSVGGradientFrame
 :
 :

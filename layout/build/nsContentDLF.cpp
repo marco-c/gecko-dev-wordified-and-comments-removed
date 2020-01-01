@@ -153,6 +153,13 @@ endif
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 imgILoader
 .
 h

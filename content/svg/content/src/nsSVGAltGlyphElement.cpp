@@ -33,6 +33,13 @@ nsSVGTextPositioningElement
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 typedef
 nsSVGTextPositioningElement
 nsSVGAltGlyphElementBase

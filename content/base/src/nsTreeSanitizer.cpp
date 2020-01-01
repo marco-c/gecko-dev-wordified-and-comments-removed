@@ -108,6 +108,13 @@ nsNullPrincipal
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 nsIAtom
 *
 *

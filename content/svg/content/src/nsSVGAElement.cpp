@@ -54,6 +54,13 @@ nsGkAtoms
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 nsSVGElement
 :
 :

@@ -71,7 +71,7 @@ h
 #
 include
 "
-nsIDOMText
+nsContentUtils
 .
 h
 "

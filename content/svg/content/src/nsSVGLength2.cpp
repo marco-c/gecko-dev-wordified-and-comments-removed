@@ -50,7 +50,7 @@ h
 #
 include
 "
-nsMathUtils
+nsContentUtils
 .
 h
 "

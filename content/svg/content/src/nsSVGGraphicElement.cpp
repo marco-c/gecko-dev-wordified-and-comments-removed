@@ -89,6 +89,13 @@ nsSVGRect
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 NS_IMPL_ADDREF_INHERITED
 (
 nsSVGGraphicElement

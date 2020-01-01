@@ -89,6 +89,13 @@ nsRuleData
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 class
 nsHTMLTableRowElement
 :

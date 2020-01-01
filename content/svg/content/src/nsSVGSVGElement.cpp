@@ -160,6 +160,13 @@ nsContentErrors
 h
 "
 #
+include
+"
+nsContentUtils
+.
+h
+"
+#
 ifdef
 MOZ_SMIL
 #

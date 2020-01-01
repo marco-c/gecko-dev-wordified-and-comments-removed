@@ -96,6 +96,13 @@ nsThreadUtils
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 class
 nsHTMLStyleElement
 :

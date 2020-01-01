@@ -26,6 +26,13 @@ nsSVGTextPositioningElement
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 typedef
 nsSVGTextPositioningElement
 nsSVGTSpanElementBase

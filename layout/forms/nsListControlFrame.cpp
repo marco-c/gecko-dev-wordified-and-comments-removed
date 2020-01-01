@@ -318,6 +318,13 @@ nsDisplayList
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 const
 nscoord
 kMaxDropDownRows

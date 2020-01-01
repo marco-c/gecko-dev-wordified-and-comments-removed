@@ -61,6 +61,13 @@ nsHTMLCanvasElement
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 namespace
 mozilla
 {

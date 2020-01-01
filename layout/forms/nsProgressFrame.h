@@ -26,6 +26,9 @@ nsCOMPtr
 h
 "
 class
+nsBaseContentList
+;
+class
 nsProgressFrame
 :
 public

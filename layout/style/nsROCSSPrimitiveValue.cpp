@@ -33,6 +33,13 @@ nsIDOMRect
 .
 h
 "
+#
+include
+"
+nsDOMClassInfoID
+.
+h
+"
 nsROCSSPrimitiveValue
 :
 :

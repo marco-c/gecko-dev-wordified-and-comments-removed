@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsGenericElement
+.
+h
+"
+#
+include
+"
 nsDOMMemoryReporter
 .
 h

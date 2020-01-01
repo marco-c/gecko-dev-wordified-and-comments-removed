@@ -26,6 +26,13 @@ nsCSSParser
 .
 h
 "
+#
+include
+"
+nsDOMClassInfoID
+.
+h
+"
 nsDOMMediaQueryList
 :
 :

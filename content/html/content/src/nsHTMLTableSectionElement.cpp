@@ -75,6 +75,13 @@ nsIDocument
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 class
 nsHTMLTableSectionElement
 :
