@@ -273,6 +273,14 @@ browser_net_resend
 .
 js
 \
+browser_net_req
+-
+resp
+-
+bodies
+.
+js
+\
 head
 .
 js

@@ -604,7 +604,7 @@ finish
 ;
 aDebuggee
 .
-performRequest
+performRequests
 (
 )
 ;
