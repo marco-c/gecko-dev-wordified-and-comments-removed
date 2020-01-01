@@ -49,6 +49,9 @@ CoreServices
 .
 h
 >
+namespace
+google_breakpad
+{
 #
 define
 PRINT_MACH_RESULT
@@ -434,7 +437,7 @@ MachMsgPortDescriptor
 desc
 )
 ;
-int
+mach_msg_size_t
 CalculateSize
 (
 )
@@ -494,6 +497,7 @@ ReceivePort
 {
 public
 :
+explicit
 ReceivePort
 (
 const
@@ -502,6 +506,7 @@ char
 receive_port_name
 )
 ;
+explicit
 ReceivePort
 (
 mach_port_t
@@ -559,6 +564,7 @@ MachPortSender
 {
 public
 :
+explicit
 MachPortSender
 (
 const
@@ -567,6 +573,7 @@ char
 receive_port_name
 )
 ;
+explicit
 MachPortSender
 (
 mach_port_t
@@ -600,5 +607,6 @@ init_result_
 ;
 }
 ;
+}
 #
 endif

@@ -21,6 +21,13 @@ Breakpad
 h
 "
 #
+import
+"
+GTMDefines
+.
+h
+"
+#
 define
 kClientIdPreferenceKey
 "
@@ -50,8 +57,7 @@ LengthLimitingTextField
 NSTextField
 {
 private
-unsigned
-int
+NSUInteger
 maximumLength_
 ;
 }
@@ -62,8 +68,7 @@ void
 setMaximumLength
 :
 (
-unsigned
-int
+NSUInteger
 )
 maxLength
 ;

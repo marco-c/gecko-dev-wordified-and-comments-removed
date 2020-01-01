@@ -24,7 +24,7 @@ Dump
 dump
 )
 :
-TestAssembler
+test_assembler
 :
 :
 Section
@@ -43,7 +43,7 @@ Section
 :
 CiteLocationIn
 (
-TestAssembler
+test_assembler
 :
 :
 Section
@@ -94,7 +94,7 @@ Stream
 :
 CiteStreamIn
 (
-TestAssembler
+test_assembler
 :
 :
 Section
@@ -462,7 +462,7 @@ String
 :
 CiteStringIn
 (
-TestAssembler
+test_assembler
 :
 :
 Section
@@ -486,7 +486,7 @@ Memory
 :
 CiteMemoryIn
 (
-TestAssembler
+test_assembler
 :
 :
 Section
@@ -1139,7 +1139,7 @@ u_int32_t
 date_time_stamp
 )
 :
-TestAssembler
+test_assembler
 :
 :
 Section
@@ -1486,7 +1486,7 @@ Append
 (
 static_cast
 <
-TestAssembler
+test_assembler
 :
 :
 Section

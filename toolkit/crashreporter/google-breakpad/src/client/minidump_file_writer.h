@@ -287,7 +287,13 @@ MDLocationDescriptor
 location
 =
 {
+static_cast
+<
+int
+>
+(
 size_
+)
 position_
 }
 ;
@@ -428,8 +434,7 @@ count
 bool
 AllocateObjectAndArray
 (
-unsigned
-int
+size_t
 count
 size_t
 size

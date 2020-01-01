@@ -510,10 +510,16 @@ object_files_
 .
 size
 =
+static_cast
+<
+uint32_t
+>
+(
 buffer_
 .
 Size
 (
+)
 )
 ;
 object_files_

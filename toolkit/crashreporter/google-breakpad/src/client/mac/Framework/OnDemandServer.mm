@@ -1022,7 +1022,7 @@ server_port_
 ;
 server_port_
 =
-NULL
+MACH_PORT_DEAD
 ;
 /
 /

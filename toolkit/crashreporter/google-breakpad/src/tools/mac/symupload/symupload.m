@@ -1413,7 +1413,7 @@ stdout
 Result
 :
 %
-d
+lu
 bytes
 \
 n
@@ -1868,7 +1868,7 @@ symbolsPath
 =
 [
 NSString
-stringWithCString
+stringWithUTF8String
 :
 argv
 [
@@ -1883,7 +1883,7 @@ uploadURLStr
 =
 [
 NSString
-stringWithCString
+stringWithUTF8String
 :
 argv
 [

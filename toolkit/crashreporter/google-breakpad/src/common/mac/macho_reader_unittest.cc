@@ -4755,7 +4755,13 @@ cpu_subtype
 ;
 EXPECT_EQ
 (
+static_cast
+<
+uint32_t
+>
+(
 MH_EXECUTE
+)
 reader
 .
 file_type
@@ -4895,7 +4901,13 @@ cpu_subtype
 ;
 EXPECT_EQ
 (
+static_cast
+<
+uint32_t
+>
+(
 MH_EXECUTE
+)
 reader
 .
 file_type

@@ -248,7 +248,7 @@ back
 )
 )
 ;
-u_int32_t
+u_int64_t
 stack_pointer
 =
 last_frame

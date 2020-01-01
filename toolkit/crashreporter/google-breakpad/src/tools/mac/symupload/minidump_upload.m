@@ -1068,7 +1068,7 @@ product
 =
 [
 NSString
-stringWithCString
+stringWithUTF8String
 :
 optarg
 ]
@@ -1087,7 +1087,7 @@ version
 =
 [
 NSString
-stringWithCString
+stringWithUTF8String
 :
 optarg
 ]
@@ -1167,7 +1167,7 @@ minidumpPath
 =
 [
 NSString
-stringWithCString
+stringWithUTF8String
 :
 argv
 [
@@ -1182,7 +1182,7 @@ uploadURLStr
 =
 [
 NSString
-stringWithCString
+stringWithUTF8String
 :
 argv
 [

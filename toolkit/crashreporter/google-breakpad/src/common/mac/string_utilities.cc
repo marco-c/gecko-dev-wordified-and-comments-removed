@@ -168,7 +168,8 @@ found
 =
 0
 ;
-size_t
+unsigned
+int
 result
 =
 0

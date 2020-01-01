@@ -52,7 +52,7 @@ file_num
 uint64
 address
 ;
-uint64
+uint32
 line_num
 ;
 uint32

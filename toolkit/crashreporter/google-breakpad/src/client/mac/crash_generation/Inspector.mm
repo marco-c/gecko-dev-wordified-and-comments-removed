@@ -414,6 +414,13 @@ h
 "
 #
 import
+"
+GTMDefines
+.
+h
+"
+#
+import
 <
 Foundation
 /
@@ -720,7 +727,7 @@ diff
 pathComponents
 ]
 ;
-unsigned
+NSUInteger
 count
 =
 [
@@ -763,7 +770,7 @@ common
 ;
 for
 (
-unsigned
+NSUInteger
 i
 =
 0
@@ -2846,7 +2853,7 @@ i
 )
 {
 MachReceiveMessage
-message
+parameter_message
 ;
 result
 =
@@ -2855,7 +2862,7 @@ receive_port
 WaitForMessage
 (
 &
-message
+parameter_message
 1000
 )
 ;
@@ -2876,7 +2883,7 @@ KeyValueMessageData
 &
 )
 *
-message
+parameter_message
 .
 GetData
 (
@@ -3233,7 +3240,7 @@ sprintf
 processUptimeString
 "
 %
-d
+zd
 "
 processUptime
 )
@@ -3252,7 +3259,7 @@ sprintf
 processCrashtimeString
 "
 %
-d
+zd
 "
 tv
 .

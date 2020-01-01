@@ -322,6 +322,13 @@ TestClass
 h
 "
 #
+import
+"
+GTMDefines
+.
+h
+"
+#
 include
 <
 unistd
@@ -420,7 +427,7 @@ id
 )
 sender
 {
-int
+NSInteger
 tag
 =
 [
@@ -533,6 +540,8 @@ resourcePath
 NSString
 *
 execProgname
+=
+nil
 ;
 if
 (
@@ -830,7 +839,7 @@ id
 )
 sender
 {
-int
+NSInteger
 tag
 =
 [
@@ -867,6 +876,8 @@ nil
 afterDelay
 :
 10
+.
+0
 ]
 ;
 [

@@ -29,6 +29,13 @@ std
 string
 &
 obj_file
+const
+std
+:
+:
+string
+&
+debug_dir
 FILE
 *
 sym_file

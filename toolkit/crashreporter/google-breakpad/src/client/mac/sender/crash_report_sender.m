@@ -459,7 +459,7 @@ void
 breakpad_shiftVertically
 :
 (
-float
+CGFloat
 )
 offset
 ;
@@ -481,7 +481,7 @@ void
 breakpad_shiftHorizontally
 :
 (
-float
+CGFloat
 )
 offset
 ;
@@ -498,7 +498,7 @@ void
 breakpad_shiftVertically
 :
 (
-float
+CGFloat
 )
 offset
 {
@@ -534,7 +534,7 @@ void
 breakpad_shiftHorizontally
 :
 (
-float
+CGFloat
 )
 offset
 {
@@ -600,7 +600,7 @@ void
 breakpad_adjustHeight
 :
 (
-float
+CGFloat
 )
 heightDelta
 ;
@@ -617,7 +617,7 @@ void
 breakpad_adjustHeight
 :
 (
-float
+CGFloat
 )
 heightDelta
 {
@@ -749,7 +749,7 @@ height
 .
 -
 (
-float
+CGFloat
 )
 breakpad_adjustHeightToFit
 ;
@@ -791,7 +791,7 @@ width
 .
 -
 (
-float
+CGFloat
 )
 breakpad_adjustWidthToFit
 ;
@@ -803,7 +803,7 @@ ResizabilityExtentions
 )
 -
 (
-float
+CGFloat
 )
 breakpad_adjustHeightToFit
 {
@@ -928,7 +928,7 @@ oldFrame
 }
 -
 (
-float
+CGFloat
 )
 breakpad_adjustWidthToFit
 {
@@ -1009,7 +1009,7 @@ width
 .
 -
 (
-float
+CGFloat
 )
 breakpad_smartSizeToFit
 ;
@@ -1021,7 +1021,7 @@ ResizabilityExtentions
 )
 -
 (
-float
+CGFloat
 )
 breakpad_smartSizeToFit
 {
@@ -1605,7 +1605,7 @@ loop
 .
 -
 (
-int
+NSInteger
 )
 runModalWindow
 :
@@ -3028,6 +3028,9 @@ one
 !
 srandom
 (
+(
+int
+)
 [
 [
 NSDate
@@ -3191,7 +3194,7 @@ NSString
 *
 logPath
 ;
-int
+size_t
 logFileTailSize
 =
 [
@@ -4140,7 +4143,7 @@ self
 messageTimeout
 ]
 ;
-int
+NSInteger
 buttonPressed
 =
 NSAlertAlternateReturn
@@ -4486,7 +4489,7 @@ commentsMsg
 ]
 ]
 ;
-float
+CGFloat
 commentHeightDelta
 =
 [
@@ -4554,7 +4557,7 @@ emailMsg
 )
 ]
 ;
-float
+CGFloat
 emailHeightDelta
 =
 [
@@ -4618,7 +4621,7 @@ emailLabel
 )
 ]
 ;
-float
+CGFloat
 emailLabelWidthDelta
 =
 [
@@ -4705,7 +4708,7 @@ privacyLabel
 )
 ]
 ;
-float
+CGFloat
 privacyLabelWidthDelta
 =
 [
@@ -4752,7 +4755,7 @@ sendReportButton
 )
 ]
 ;
-float
+CGFloat
 sendButtonWidthDelta
 =
 [
@@ -4803,7 +4806,7 @@ setHidden
 YES
 ]
 ;
-float
+CGFloat
 emailSectionHeight
 =
 NSHeight
@@ -4837,7 +4840,7 @@ emailSectionHeight
 }
 -
 (
-int
+NSInteger
 )
 runModalWindow
 :
@@ -4945,7 +4948,7 @@ activateIgnoringOtherApps
 YES
 ]
 ;
-int
+NSInteger
 returnMethod
 =
 [
@@ -5490,6 +5493,9 @@ purposes
 displayedTimeLeft
 =
 (
+int
+)
+(
 remainingDialogTime_
 /
 60
@@ -5534,11 +5540,14 @@ else
 {
 displayedTimeLeft
 =
+(
+int
+)
 remainingDialogTime_
 ;
 if
 (
-remainingDialogTime_
+displayedTimeLeft
 =
 =
 1
@@ -6050,7 +6059,7 @@ setObject
 :
 [
 NSNumber
-numberWithFloat
+numberWithDouble
 :
 now
 ]
@@ -7819,8 +7828,7 @@ void
 setMaximumLength
 :
 (
-unsigned
-int
+NSUInteger
 )
 maxLength
 {
@@ -7945,7 +7953,7 @@ account
 user
 selections
 .
-int
+NSUInteger
 newStringLength
 =
 [
@@ -8057,8 +8065,7 @@ single
 Command
 "
 modifier
-unsigned
-int
+NSUInteger
 modifiers
 =
 [

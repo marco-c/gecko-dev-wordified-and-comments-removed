@@ -305,6 +305,13 @@ HTTPMultipartUpload
 .
 h
 "
+#
+import
+"
+GTMDefines
+.
+h
+"
 interface
 HTTPMultipartUpload
 (
@@ -2235,10 +2242,6 @@ NSMutableData
 data
 ]
 ;
-int
-i
-count
-;
 [
 req
 setValue
@@ -2290,6 +2293,7 @@ NSString
 *
 key
 ;
+NSInteger
 count
 =
 [
@@ -2299,6 +2303,7 @@ count
 ;
 for
 (
+NSInteger
 i
 =
 0
@@ -2368,6 +2373,7 @@ count
 ;
 for
 (
+NSInteger
 i
 =
 0

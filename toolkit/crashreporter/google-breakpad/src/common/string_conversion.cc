@@ -289,6 +289,11 @@ result
 conversionOK
 )
 return
+static_cast
+<
+int
+>
+(
 source_ptr
 -
 reinterpret_cast
@@ -299,6 +304,7 @@ UTF8
 >
 (
 in
+)
 )
 ;
 source_ptr
@@ -742,7 +748,7 @@ size
 (
 )
 ;
-int
+size_t
 target_capacity
 =
 in
@@ -825,14 +831,8 @@ get
 )
 )
 ;
-string
-result
-(
-targetPtr
-)
-;
 return
-result
+targetPtr
 ;
 }
 return

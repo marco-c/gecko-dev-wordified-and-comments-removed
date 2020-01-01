@@ -457,7 +457,7 @@ AddressSize
 1
 )
 ;
-size_t
+off_t
 offset
 =
 skew
