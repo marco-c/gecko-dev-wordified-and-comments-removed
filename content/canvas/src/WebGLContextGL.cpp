@@ -20553,17 +20553,12 @@ SH_ENFORCE_PACKING_RESTRICTIONS
 ;
 #
 ifndef
-XP_WIN
-#
-ifndef
 XP_MACOSX
 compileOptions
 |
 =
 SH_CLAMP_INDIRECT_ARRAY_BOUNDS
 ;
-#
-endif
 #
 endif
 if
