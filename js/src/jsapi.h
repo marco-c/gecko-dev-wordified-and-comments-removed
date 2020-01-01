@@ -119,6 +119,10 @@ jsint
 0x7fffffff
 )
 #
+define
+JS_Assert
+MOZ_Assert
+#
 ifdef
 __cplusplus
 namespace
