@@ -569,7 +569,6 @@ gTest
 length
 &
 &
-!
 gTest
 .
 createExpectedBuffers
