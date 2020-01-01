@@ -451,6 +451,10 @@ bug482976_helper
 .
 xul
 \
+test_bug504311
+.
+xul
+\
 test_printpreview
 .
 xul
