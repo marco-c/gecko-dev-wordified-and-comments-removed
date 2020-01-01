@@ -540,6 +540,9 @@ start_pos
 int64_t
 *
 end_pos
+uint64_t
+*
+tstamp
 )
 ;
 int
