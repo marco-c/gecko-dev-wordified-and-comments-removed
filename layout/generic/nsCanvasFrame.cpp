@@ -649,8 +649,8 @@ aListID
 !
 =
 kPrincipalList
-|
-|
+&
+&
 aListID
 !
 =
