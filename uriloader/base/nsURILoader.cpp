@@ -364,7 +364,7 @@ nsURILoader
 aURILoader
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 nsresult
 Prepare
 (
@@ -455,11 +455,11 @@ mURILoader
 ;
 }
 ;
-NS_IMPL_THREADSAFE_ADDREF
+NS_IMPL_ADDREF
 (
 nsDocumentOpenInfo
 )
-NS_IMPL_THREADSAFE_RELEASE
+NS_IMPL_RELEASE
 (
 nsDocumentOpenInfo
 )

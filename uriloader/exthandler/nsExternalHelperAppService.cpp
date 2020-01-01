@@ -4772,11 +4772,11 @@ return
 NS_OK
 ;
 }
-NS_IMPL_THREADSAFE_ADDREF
+NS_IMPL_ADDREF
 (
 nsExternalAppHandler
 )
-NS_IMPL_THREADSAFE_RELEASE
+NS_IMPL_RELEASE
 (
 nsExternalAppHandler
 )
