@@ -268,15 +268,13 @@ nsIContent
 aContent
 )
 ;
-NS_IMETHOD
+virtual
+PRInt32
 GetContentState
 (
 nsIContent
 *
 aContent
-PRInt32
-&
-aState
 )
 ;
 virtual

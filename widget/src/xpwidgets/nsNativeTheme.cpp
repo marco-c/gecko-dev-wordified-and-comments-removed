@@ -265,11 +265,10 @@ shell
 return
 0
 ;
-PRInt32
-flags
+nsIEventStateManager
+*
+esm
 =
-0
-;
 shell
 -
 >
@@ -281,6 +280,11 @@ GetPresContext
 EventStateManager
 (
 )
+;
+PRInt32
+flags
+=
+esm
 -
 >
 GetContentState
@@ -291,7 +295,6 @@ aFrame
 GetContent
 (
 )
-flags
 )
 ;
 if

@@ -17369,7 +17369,7 @@ return
 false
 ;
 }
-NS_IMETHODIMP
+PRInt32
 nsEventStateManager
 :
 :
@@ -17378,12 +17378,10 @@ GetContentState
 nsIContent
 *
 aContent
-PRInt32
-&
-aState
 )
 {
-aState
+PRInt32
+state
 =
 aContent
 -
@@ -17401,7 +17399,7 @@ mActiveContent
 )
 )
 {
-aState
+state
 |
 =
 NS_EVENT_STATE_ACTIVE
@@ -17416,7 +17414,7 @@ mHoverContent
 )
 )
 {
-aState
+state
 |
 =
 NS_EVENT_STATE_HOVER
@@ -17456,7 +17454,7 @@ aContent
 focusedContent
 )
 {
-aState
+state
 |
 =
 NS_EVENT_STATE_FOCUS
@@ -17501,7 +17499,7 @@ ShouldShowFocusRing
 )
 )
 {
-aState
+state
 |
 =
 NS_EVENT_STATE_FOCUSRING
@@ -17517,7 +17515,7 @@ aContent
 mDragOverContent
 )
 {
-aState
+state
 |
 =
 NS_EVENT_STATE_DRAGOVER
@@ -17531,14 +17529,14 @@ aContent
 mURLTargetContent
 )
 {
-aState
+state
 |
 =
 NS_EVENT_STATE_URLTARGET
 ;
 }
 return
-NS_OK
+state
 ;
 }
 static
