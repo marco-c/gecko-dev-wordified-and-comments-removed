@@ -2541,8 +2541,6 @@ script
 ensureRanAnalysis
 (
 cx
-&
-scopeChain
 )
 )
 return
