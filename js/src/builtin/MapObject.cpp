@@ -1424,7 +1424,7 @@ vp
 {
 THIS_MAP
 (
-get
+size
 cx
 argc
 vp
@@ -2330,7 +2330,7 @@ vp
 {
 THIS_SET
 (
-has
+size
 cx
 argc
 vp
