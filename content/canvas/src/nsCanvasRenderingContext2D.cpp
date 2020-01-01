@@ -5304,7 +5304,7 @@ y
 )
 )
 return
-NS_ERROR_DOM_SYNTAX_ERR
+NS_OK
 ;
 mThebes
 -
