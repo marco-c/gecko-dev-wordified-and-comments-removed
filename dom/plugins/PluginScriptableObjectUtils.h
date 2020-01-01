@@ -1114,4 +1114,13 @@ false
 }
 }
 #
+include
+"
+PluginScriptableObjectUtils
+-
+inl
+.
+h
+"
+#
 endif
