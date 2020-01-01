@@ -134,13 +134,6 @@ h
 #
 include
 "
-nsStyleConsts
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h
@@ -184,13 +177,6 @@ h
 include
 "
 nsFrameManager
-.
-h
-"
-#
-include
-"
-nsCSSRendering
 .
 h
 "

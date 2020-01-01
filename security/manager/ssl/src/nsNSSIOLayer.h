@@ -142,9 +142,6 @@ h
 namespace
 mozilla
 {
-class
-MutexAutoLock
-;
 namespace
 psm
 {

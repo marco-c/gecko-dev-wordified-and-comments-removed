@@ -662,12 +662,12 @@ OnWrapperDestroyed
 )
 ;
 static
-JSBool
+void
 DelayedReleaseGCCallback
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 JSGCStatus
 status
 )
@@ -751,9 +751,6 @@ OnWrapperDestroyed
 }
 }
 }
-return
-JS_TRUE
-;
 }
 static
 void

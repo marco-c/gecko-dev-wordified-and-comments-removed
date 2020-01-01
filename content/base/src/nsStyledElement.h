@@ -66,11 +66,6 @@ aNodeInfo
 }
 public
 :
-NS_DECL_AND_IMPL_DOM_MEMORY_REPORTER_SIZEOF
-(
-nsStyledElementNotElementCSSInlineStyle
-nsStyledElementBase
-)
 virtual
 nsIAtom
 *
@@ -248,13 +243,6 @@ nsStyledElement
 public
 nsStyledElementNotElementCSSInlineStyle
 {
-public
-:
-NS_DECL_AND_IMPL_DOM_MEMORY_REPORTER_SIZEOF
-(
-nsStyledElement
-nsStyledElementNotElementCSSInlineStyle
-)
 protected
 :
 inline

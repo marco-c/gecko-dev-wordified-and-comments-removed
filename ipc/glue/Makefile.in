@@ -463,6 +463,10 @@ BrowserProcessSubThread
 .
 h
 \
+CrossProcessMutex
+.
+h
+\
 GeckoChildProcessHost
 .
 h
@@ -697,6 +701,10 @@ WindowsMessageLoop
 .
 cpp
 \
+CrossProcessMutex_windows
+.
+cpp
+\
 (
 NULL
 )
@@ -712,6 +720,10 @@ SharedMemory_posix
 cpp
 \
 Transport_posix
+.
+cpp
+\
+CrossProcessMutex_unimplemented
 .
 cpp
 \

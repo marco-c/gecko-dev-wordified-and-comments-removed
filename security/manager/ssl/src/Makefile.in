@@ -661,6 +661,10 @@ PSMRunnable
 .
 cpp
 \
+nsNSSVersion
+.
+cpp
+\
 (
 NULL
 )

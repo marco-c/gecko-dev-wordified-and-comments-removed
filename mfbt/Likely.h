@@ -1,4 +1,10 @@
 #
+ifndef
+Likely_h_
+#
+define
+Likely_h_
+#
 if
 defined
 (
@@ -69,5 +75,7 @@ x
 (
 x
 )
+#
+endif
 #
 endif

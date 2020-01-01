@@ -885,6 +885,17 @@ tab
 if
 (
 alt
+&
+&
+getBoolPref
+(
+"
+browser
+.
+altClickSave
+"
+false
+)
 )
 return
 "

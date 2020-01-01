@@ -531,6 +531,7 @@ SizeOfExcludingThis
 nsMallocSizeOfFun
 mallocSizeOf
 )
+const
 {
 return
 mArray

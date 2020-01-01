@@ -147,10 +147,6 @@ typedef
 uint32_t
 jsuint
 ;
-typedef
-int32_t
-jsrefcount
-;
 #
 ifdef
 WIN32

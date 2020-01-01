@@ -1046,7 +1046,7 @@ true
 ;
 static
 bool
-IsPunctuationMark
+IsFirstLetterPunctuation
 (
 PRUint32
 aChar
@@ -1054,7 +1054,7 @@ aChar
 ;
 static
 bool
-IsPunctuationMarkAt
+IsFirstLetterPunctuationAt
 (
 const
 nsTextFragment

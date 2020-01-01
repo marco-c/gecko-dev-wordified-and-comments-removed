@@ -450,9 +450,11 @@ ATTRCHILD_ARRAY_MAX_ATTR_COUNT
 )
 ;
 }
-PRInt64
-SizeOf
+size_t
+SizeOfExcludingThis
 (
+nsMallocSizeOfFun
+aMallocSizeOf
 )
 const
 ;

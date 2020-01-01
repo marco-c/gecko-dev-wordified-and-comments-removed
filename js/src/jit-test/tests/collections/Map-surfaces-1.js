@@ -62,7 +62,7 @@ assertEq
 Map
 .
 length
-0
+1
 )
 ;
 assertEq
@@ -259,6 +259,14 @@ arity
 )
 ;
 }
+checkMethod
+(
+"
+size
+"
+0
+)
+;
 checkMethod
 (
 "
