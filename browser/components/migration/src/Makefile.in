@@ -448,14 +448,6 @@ nsBrowserProfileMigratorUtils
 .
 cpp
 \
-nsNetscapeProfileMigratorBase
-.
-cpp
-\
-nsSeamonkeyProfileMigrator
-.
-cpp
-\
 (
 NULL
 )
