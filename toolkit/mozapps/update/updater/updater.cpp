@@ -11969,6 +11969,11 @@ defined
 (
 MOZ_WIDGET_GONK
 )
+umask
+(
+0022
+)
+;
 {
 GonkAutoMounter
 mounter
