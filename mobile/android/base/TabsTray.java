@@ -481,6 +481,7 @@ onTabChanged
 (
 null
 null
+null
 )
 ;
 }
@@ -541,6 +542,8 @@ Tabs
 .
 TabEvents
 msg
+Object
+data
 )
 {
 if
