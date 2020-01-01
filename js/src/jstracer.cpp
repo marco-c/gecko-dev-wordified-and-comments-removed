@@ -61275,10 +61275,8 @@ JSVAL_IS_PRIMITIVE
 lval
 )
 )
-{
-AbortRecording
+RETURN_STOP_A
 (
-cx
 "
 JSOP_DELELEM
 on
@@ -61288,10 +61286,6 @@ expression
 "
 )
 ;
-return
-ARECORD_STOP
-;
-}
 jsval
 &
 idx
@@ -61394,9 +61388,8 @@ args
 }
 else
 {
-AbortRecording
+RETURN_STOP_A
 (
-cx
 "
 JSOP_DELELEM
 on
@@ -61409,9 +61402,6 @@ string
 index
 "
 )
-;
-return
-ARECORD_STOP
 ;
 }
 set
