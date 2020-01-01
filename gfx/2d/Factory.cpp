@@ -223,6 +223,7 @@ cpuid
 h
 >
 static
+inline
 bool
 HasCPUIDBit
 (
@@ -587,6 +588,7 @@ endif
 ifdef
 HAVE_CPU_DETECTION
 static
+inline
 bool
 HasCPUIDBit
 (
