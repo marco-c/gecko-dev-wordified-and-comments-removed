@@ -3608,6 +3608,11 @@ changes
 let
 batchSize
 =
+this
+.
+downloadLimit
+|
+|
 Infinity
 ;
 let
