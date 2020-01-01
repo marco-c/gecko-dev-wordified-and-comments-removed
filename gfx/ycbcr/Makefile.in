@@ -72,6 +72,10 @@ yuv_row_table
 .
 cpp
 \
+ycbcr_to_rgb565
+.
+cpp
+\
 (
 NULL
 )
