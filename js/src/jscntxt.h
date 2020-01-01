@@ -2169,7 +2169,10 @@ MarkingValidator
 ;
 }
 class
+JS_FRIEND_API
+(
 AutoEnterPolicy
+)
 ;
 }
 struct

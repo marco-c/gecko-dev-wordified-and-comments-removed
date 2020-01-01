@@ -1916,6 +1916,12 @@ frontend
 :
 :
 Parser
+<
+frontend
+:
+:
+FullParseHandler
+>
 *
 >
 (

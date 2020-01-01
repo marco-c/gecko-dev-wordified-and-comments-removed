@@ -14252,10 +14252,8 @@ target
 =
 =
 calleeObs
-)
-{
-JS_ASSERT
-(
+&
+&
 callerObs
 -
 >
@@ -14267,7 +14265,7 @@ excluded
 type
 )
 )
-;
+{
 if
 (
 excluded
