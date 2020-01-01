@@ -180,6 +180,10 @@ nsEmbedFunctions
 .
 cpp
 \
+ProfileReset
+.
+cpp
+\
 (
 NULL
 )
