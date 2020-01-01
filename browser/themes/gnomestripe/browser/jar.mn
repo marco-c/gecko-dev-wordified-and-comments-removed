@@ -122,6 +122,17 @@ aboutCertError
 .
 css
 )
+skin
+/
+classic
+/
+browser
+/
+actionicon
+-
+tab
+.
+png
 *
 skin
 /
