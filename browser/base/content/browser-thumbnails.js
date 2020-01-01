@@ -9,7 +9,7 @@ gBrowserThumbnails
 {
 _captureDelayMS
 :
-2000
+1000
 _timeouts
 :
 null
@@ -419,6 +419,18 @@ Thumbnails_shouldCapture
 aBrowser
 )
 {
+if
+(
+aBrowser
+!
+=
+gBrowser
+.
+selectedBrowser
+)
+return
+false
+;
 if
 (
 gPrivateBrowsingUI
