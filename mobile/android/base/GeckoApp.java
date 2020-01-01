@@ -13091,6 +13091,13 @@ newConfig
 .
 orientation
 ;
+if
+(
+mFormAssistPopup
+!
+=
+null
+)
 mFormAssistPopup
 .
 hide
