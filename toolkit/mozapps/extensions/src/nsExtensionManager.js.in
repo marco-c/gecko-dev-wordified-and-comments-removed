@@ -40996,13 +40996,15 @@ EMFEATURES
 =
 "
 chrome
-centerscreen
+menubar
 extra
 -
 chrome
+toolbar
 dialog
+=
+no
 resizable
-modal
 "
 ;
 var
