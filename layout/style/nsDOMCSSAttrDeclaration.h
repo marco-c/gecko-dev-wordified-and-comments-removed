@@ -45,6 +45,7 @@ Element
 }
 class
 nsDOMCSSAttributeDeclaration
+MOZ_FINAL
 :
 public
 nsDOMCSSDeclaration
