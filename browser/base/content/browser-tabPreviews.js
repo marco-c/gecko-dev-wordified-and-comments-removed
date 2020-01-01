@@ -1814,14 +1814,11 @@ if
 (
 this
 .
-panel
-.
-state
+_selectedIndex
 =
 =
-"
-open
-"
+-
+1
 )
 {
 if
