@@ -658,6 +658,13 @@ nsMediaStream
 )
 ;
 }
+void
+ModifyLoadFlags
+(
+nsLoadFlags
+aFlags
+)
+;
 nsMediaDecoder
 *
 mDecoder
