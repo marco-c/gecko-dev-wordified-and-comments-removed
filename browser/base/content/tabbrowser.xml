@@ -5656,7 +5656,9 @@ mCurrentTab
 =
 this
 .
-selectedTab
+tabContainer
+.
+selectedItem
 ;
 this
 .
@@ -14179,9 +14181,7 @@ getter
 return
 this
 .
-mTabBox
-.
-selectedTab
+mCurrentTab
 ;
 <
 /
