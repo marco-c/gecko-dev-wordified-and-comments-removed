@@ -234,13 +234,10 @@ _retval
 )
 ;
 virtual
-void
-GetPopupNode
-(
 nsIDOMNode
 *
-*
-aNode
+GetPopupNode
+(
 )
 ;
 virtual

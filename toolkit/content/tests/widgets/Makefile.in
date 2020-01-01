@@ -559,6 +559,10 @@ window_popup_attribute
 .
 xul
 \
+popup_childframe_node
+.
+xul
+\
 test_tooltip
 .
 xul
@@ -716,6 +720,10 @@ test_sorttemplate
 xul
 \
 test_contextmenu_list
+.
+xul
+\
+test_contextmenu_nested
 .
 xul
 \
