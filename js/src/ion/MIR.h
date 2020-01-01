@@ -1072,6 +1072,17 @@ inWorklist_
 false
 ;
 }
+MSnapshot
+*
+snapshot
+(
+)
+const
+{
+return
+snapshot_
+;
+}
 inline
 void
 assignSnapshot
