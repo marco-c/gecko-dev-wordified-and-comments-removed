@@ -2902,6 +2902,11 @@ locale
 dir
 ;
 "
+newlines
+=
+"
+replacewithspaces
+"
 /
 >
 <
