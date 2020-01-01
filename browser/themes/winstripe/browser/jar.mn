@@ -2616,6 +2616,17 @@ ui
 .
 css
 )
+skin
+/
+classic
+/
+aero
+/
+browser
+/
+inspector
+.
+css
 *
 skin
 /
