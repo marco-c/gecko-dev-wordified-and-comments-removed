@@ -70,7 +70,10 @@ pn_op
 8
 pn_arity
 :
-6
+5
+pn_parens
+:
+1
 pn_used
 :
 1
