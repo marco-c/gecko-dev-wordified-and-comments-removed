@@ -7715,6 +7715,8 @@ rect
 x
 +
 offset
++
+3
 ;
 y
 =
