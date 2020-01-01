@@ -218,13 +218,6 @@ global
 aboutNetworking
 .
 xhtml
-content
-/
-global
-/
-aboutNetworking
-.
-css
 *
 content
 /
