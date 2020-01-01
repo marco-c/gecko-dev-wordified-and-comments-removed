@@ -799,9 +799,6 @@ uint32
 poke
 ;
 uint32
-nopoke
-;
-uint32
 afree
 ;
 uint32
