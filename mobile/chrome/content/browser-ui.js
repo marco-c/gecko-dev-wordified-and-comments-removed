@@ -1695,6 +1695,13 @@ break
 case
 TOOLBARSTATE_LOADING
 :
+this
+.
+showToolbar
+(
+URLBAR_FORCE
+)
+;
 icons
 .
 setAttribute
@@ -1705,13 +1712,6 @@ mode
 "
 loading
 "
-)
-;
-this
-.
-showToolbar
-(
-URLBAR_FORCE
 )
 ;
 this
