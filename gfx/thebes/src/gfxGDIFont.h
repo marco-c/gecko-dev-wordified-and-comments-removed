@@ -168,12 +168,6 @@ gfxFloat
 aSize
 )
 ;
-nsAutoPtr
-<
-gfxFontShaper
->
-mUniscribeShaper
-;
 gfxFloat
 mAdjustedSize
 ;
