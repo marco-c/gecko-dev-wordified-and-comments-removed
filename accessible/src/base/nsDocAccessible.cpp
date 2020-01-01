@@ -7586,6 +7586,10 @@ Clear
 (
 )
 ;
+mInFlushPendingEvents
+=
+PR_FALSE
+;
 NS_RELEASE_THIS
 (
 )
@@ -7596,10 +7600,6 @@ nsAccEvent
 ResetLastInputState
 (
 )
-;
-mInFlushPendingEvents
-=
-PR_FALSE
 ;
 }
 void
