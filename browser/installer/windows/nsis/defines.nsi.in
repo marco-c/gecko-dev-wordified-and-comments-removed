@@ -322,7 +322,8 @@ MinSupportedVer
 "
 Microsoft
 Windows
-2000
+XP
+SP2
 "
 #
 endif
