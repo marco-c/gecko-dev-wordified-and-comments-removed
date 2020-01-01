@@ -2437,14 +2437,14 @@ of
 the
 found
 item
-*
-throws
+-
+1
 if
 the
 item
 does
 not
-exist
+exists
 *
 /
 long
