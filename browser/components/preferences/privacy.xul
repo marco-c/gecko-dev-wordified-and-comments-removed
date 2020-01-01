@@ -714,6 +714,16 @@ updatePrivacyMicroControls
 )
 ;
 "
+#
+ifdef
+MOZ_PER_WINDOW_PRIVATE_BROWSING
+instantApply
+=
+"
+true
+"
+#
+endif
 type
 =
 "
@@ -721,6 +731,9 @@ bool
 "
 /
 >
+#
+ifndef
+MOZ_PER_WINDOW_PRIVATE_BROWSING
 <
 preference
 id
@@ -753,6 +766,8 @@ bool
 "
 /
 >
+#
+endif
 <
 /
 preferences
