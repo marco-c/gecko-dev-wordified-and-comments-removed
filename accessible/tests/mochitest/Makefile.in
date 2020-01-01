@@ -655,6 +655,10 @@ test_events_doc
 .
 html
 \
+test_events_draganddrop
+.
+html
+\
 test_events_focus
 .
 xul
