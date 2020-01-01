@@ -387,6 +387,16 @@ true
 pref
 (
 "
+dom
+.
+always_allow_move_resize_window
+"
+true
+)
+;
+pref
+(
+"
 plugin
 .
 allowed_types
