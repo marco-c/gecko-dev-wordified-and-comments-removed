@@ -46,6 +46,7 @@ NP_LOADDS
 NPP_InitializeProcPtr
 )
 (
+void
 )
 ;
 typedef
@@ -56,6 +57,7 @@ NP_LOADDS
 NPP_ShutdownProcPtr
 )
 (
+void
 )
 ;
 typedef
@@ -609,6 +611,7 @@ void
 NPN_GetJavaEnvProcPtr
 )
 (
+void
 )
 ;
 typedef
@@ -1537,6 +1540,7 @@ char
 NP_GetMIMEDescriptionProcPtr
 )
 (
+void
 )
 ;
 typedef
@@ -1799,12 +1803,14 @@ NPError
 NP_ShutdownFunc
 )
 (
+void
 )
 ;
 NPError
 OSCALL
 NP_Shutdown
 (
+void
 )
 ;
 typedef
@@ -1815,12 +1821,14 @@ char
 NP_GetMIMEDescriptionFunc
 )
 (
+void
 )
 ;
 char
 *
 NP_GetMIMEDescription
 (
+void
 )
 ;
 #
@@ -1865,6 +1873,7 @@ char
 NP_GetPluginVersionFunc
 )
 (
+void
 )
 ;
 NP_EXPORT
@@ -1874,6 +1883,7 @@ char
 )
 NP_GetPluginVersion
 (
+void
 )
 ;
 typedef
@@ -1884,6 +1894,7 @@ char
 NP_GetMIMEDescriptionFunc
 )
 (
+void
 )
 ;
 NP_EXPORT
@@ -1893,6 +1904,7 @@ char
 )
 NP_GetMIMEDescription
 (
+void
 )
 ;
 #
@@ -1980,6 +1992,7 @@ NPError
 NP_ShutdownFunc
 )
 (
+void
 )
 ;
 NP_EXPORT
@@ -1988,6 +2001,7 @@ NPError
 )
 NP_Shutdown
 (
+void
 )
 ;
 typedef
