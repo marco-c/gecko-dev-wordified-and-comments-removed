@@ -963,7 +963,7 @@ enableOCSP
 .
 accesskey
 "
-E
+U
 "
 >
 <
@@ -991,7 +991,7 @@ certOCSP
 .
 accesskey
 "
-C
+V
 "
 >
 <
@@ -1019,7 +1019,7 @@ proxyOCSP
 .
 accesskey
 "
-O
+a
 "
 >
 <
@@ -1097,6 +1097,6 @@ requireOCSP
 .
 accesskey
 "
-V
+W
 "
 >
