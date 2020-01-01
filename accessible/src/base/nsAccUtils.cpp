@@ -2008,9 +2008,6 @@ textAcc
 return
 textAcc
 ;
-}
-while
-(
 accessible
 =
 accessible
@@ -2019,6 +2016,11 @@ accessible
 Parent
 (
 )
+;
+}
+while
+(
+accessible
 )
 ;
 NS_NOTREACHED
