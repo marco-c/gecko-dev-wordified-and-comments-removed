@@ -104,6 +104,10 @@ test_contextmenu
 .
 xul
 \
+test_deck
+.
+xul
+\
 test_doc
 .
 html

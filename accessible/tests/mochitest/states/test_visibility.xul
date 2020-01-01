@@ -221,16 +221,6 @@ doTest
 testStates
 (
 "
-deck_pane1
-"
-STATE_INVISIBLE
-0
-STATE_OFFSCREEN
-)
-;
-testStates
-(
-"
 deck_pane2
 "
 0

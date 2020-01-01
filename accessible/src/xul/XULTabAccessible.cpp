@@ -530,7 +530,7 @@ eNameOK
 ;
 }
 role
-XULDeckAccessible
+XULTabpanelsAccessible
 :
 :
 NativeRole
