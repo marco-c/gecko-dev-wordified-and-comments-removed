@@ -116,7 +116,7 @@ CategoryCleared
 }
 ;
 class
-NS_COM
+NS_COM_GLUE
 nsCategoryObserver
 :
 public

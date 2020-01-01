@@ -438,10 +438,6 @@ nsCategoryManager
 .
 cpp
 \
-nsCategoryCache
-.
-cpp
-\
 nsComponentManager
 .
 cpp
@@ -465,10 +461,6 @@ EXPORTS
 =
 \
 nsCategoryManagerUtils
-.
-h
-\
-nsCategoryCache
 .
 h
 \

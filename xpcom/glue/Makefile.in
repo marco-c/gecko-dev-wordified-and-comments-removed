@@ -524,6 +524,10 @@ nsBaseHashtable
 .
 h
 \
+nsCategoryCache
+.
+h
+\
 nsCOMArray
 .
 h

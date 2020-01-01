@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsObserverService
-.
-h
-"
-#
-include
-"
 nsCategoryCache
 .
 h
@@ -178,7 +171,7 @@ GetData
 categoryEntry
 )
 ;
-nsXPIDLCString
+nsCString
 entryValue
 ;
 catMan
@@ -433,12 +426,11 @@ nsDependentString
 aData
 )
 .
-EqualsASCII
+Equals
+(
+NS_ConvertASCIItoUTF16
 (
 mCategory
-.
-get
-(
 )
 )
 )
@@ -503,7 +495,7 @@ catMan
 return
 NS_OK
 ;
-nsXPIDLCString
+nsCString
 entryValue
 ;
 catMan

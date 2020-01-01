@@ -417,6 +417,10 @@ nsArrayUtils
 .
 cpp
 \
+nsCategoryCache
+.
+cpp
+\
 nsCOMPtr
 .
 cpp
