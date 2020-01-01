@@ -26,8 +26,6 @@ styleinspector
 /
 test
 /
-browser
-/
 browser_bug683672
 .
 html
