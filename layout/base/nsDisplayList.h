@@ -6492,8 +6492,8 @@ nullptr
 ;
 }
 static
-bool
-ChildrenCanBeInactive
+LayerState
+RequiredLayerStateForChildren
 (
 nsDisplayListBuilder
 *
