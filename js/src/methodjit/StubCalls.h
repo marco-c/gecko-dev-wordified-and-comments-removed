@@ -1529,6 +1529,15 @@ VMFrame
 f
 )
 ;
+void
+JS_FASTCALL
+UndefinedHelper
+(
+VMFrame
+&
+f
+)
+;
 }
 template
 <
