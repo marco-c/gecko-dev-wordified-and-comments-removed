@@ -1624,6 +1624,10 @@ first
 second
 )
 {
+var
+firstLower
+secondLower
+;
 if
 (
 first
