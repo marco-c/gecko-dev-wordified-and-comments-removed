@@ -133,6 +133,13 @@ type
 )
 {
 }
+virtual
+~
+JumpListItem
+(
+)
+{
+}
 NS_DECL_ISUPPORTS
 NS_DECL_NSIJUMPLISTITEM
 protected
