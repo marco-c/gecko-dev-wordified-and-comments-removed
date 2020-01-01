@@ -2212,6 +2212,13 @@ LirBufWriter
 mParent
 .
 mLirbuf
+nanojit
+:
+:
+AvmCore
+:
+:
+config
 )
 ;
 if
@@ -11217,7 +11224,7 @@ AvmCore
 :
 config
 .
-arch
+arm_arch
 =
 arm_arch
 ;
@@ -11229,7 +11236,7 @@ AvmCore
 :
 config
 .
-vfp
+arm_vfp
 =
 arm_vfp
 ;
@@ -11254,7 +11261,7 @@ AvmCore
 :
 config
 .
-thumb2
+arm_thumb2
 =
 (
 arm_arch
