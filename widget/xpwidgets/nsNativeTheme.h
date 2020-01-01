@@ -164,6 +164,14 @@ aFrame
 )
 ;
 bool
+IsHTMLContent
+(
+nsIFrame
+*
+aFrame
+)
+;
+bool
 IsDefaultButton
 (
 nsIFrame
