@@ -410,6 +410,9 @@ DEPTH
 /
 .
 .
+/
+.
+.
 topsrcdir
 =
 top_srcdir
@@ -429,11 +432,6 @@ config
 autoconf
 .
 mk
-DIRS
-=
-global
-mozapps
-help
 include
 (
 topsrcdir
