@@ -6699,6 +6699,16 @@ interpMode
 =
 JSINTERP_NORMAL
 ;
+if
+(
+interpMode
+=
+=
+JSINTERP_RETHROW
+)
+goto
+error
+;
 JSOp
 op
 ;
