@@ -8198,6 +8198,16 @@ seeking
 )
 )
 ;
+DispatchAsyncSimpleEvent
+(
+NS_LITERAL_STRING
+(
+"
+timeupdate
+"
+)
+)
+;
 }
 void
 nsHTMLMediaElement
