@@ -1171,7 +1171,10 @@ JSObject
 obj
 )
 ;
+JS_FRIEND_API
+(
 JSBool
+)
 js_PutArgsObject
 (
 JSContext
@@ -2477,14 +2480,6 @@ callobj
 return
 callobj
 ;
-JS_ASSERT
-(
-fp
--
->
-fun
-)
-;
 if
 (
 !
@@ -2601,7 +2596,10 @@ JSObject
 obj
 )
 ;
+JS_FRIEND_API
+(
 JSBool
+)
 js_PutCallObject
 (
 JSContext
