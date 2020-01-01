@@ -2829,7 +2829,6 @@ dataLength
 break
 ;
 }
-const
 NSString
 *
 pboardType
@@ -3415,10 +3414,11 @@ NS_OK
 }
 }
 }
-const
 NSString
 *
 pboardType
+=
+nil
 ;
 if
 (
