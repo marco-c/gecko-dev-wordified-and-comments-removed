@@ -1976,6 +1976,14 @@ PRUint32
 chunkSize
 =
 0
+PRBool
+closeSource
+=
+PR_TRUE
+PRBool
+closeSink
+=
+PR_TRUE
 )
 {
 nsresult
@@ -2015,6 +2023,8 @@ target
 sourceBuffered
 sinkBuffered
 chunkSize
+closeSource
+closeSink
 )
 ;
 if
