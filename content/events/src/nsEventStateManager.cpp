@@ -356,12 +356,17 @@ nsIObjectFrame
 h
 "
 #
+ifdef
+MOZ_XUL
+#
 include
 "
 nsXULPopupManager
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -14504,6 +14509,9 @@ menuPopupFrame
 )
 ;
 }
+#
+ifdef
+MOZ_XUL
 else
 {
 nsXULPopupManager
@@ -14534,6 +14542,8 @@ ePopupTypePanel
 ;
 }
 }
+#
+endif
 if
 (
 popupFrame
