@@ -34386,6 +34386,10 @@ mFont
 size
 )
 {
+newContext
+=
+nullptr
+;
 DoRebuildAllStyleData
 (
 aRestyleTracker
