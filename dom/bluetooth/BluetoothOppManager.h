@@ -375,9 +375,6 @@ mSocketStatus
 bool
 mConnected
 ;
-int
-mConnectionId
-;
 nsString
 mConnectedDeviceAddress
 ;
