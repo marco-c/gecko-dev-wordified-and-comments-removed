@@ -4832,7 +4832,7 @@ false
 ;
 masm
 .
-branchIfFunctionIsNative
+branchIfFunctionHasNoScript
 (
 calleereg
 &
@@ -6509,7 +6509,7 @@ hasSingleTarget
 {
 masm
 .
-branchIfFunctionIsNative
+branchIfFunctionHasNoScript
 (
 calleereg
 &

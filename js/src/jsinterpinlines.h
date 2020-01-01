@@ -5851,7 +5851,7 @@ if
 fun
 -
 >
-isInterpreted
+hasScript
 (
 )
 )
