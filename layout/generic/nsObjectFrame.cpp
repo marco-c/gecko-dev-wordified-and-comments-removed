@@ -8460,6 +8460,15 @@ gfxRect
 aRect
 )
 {
+if
+(
+!
+mInstanceOwner
+)
+{
+return
+;
+}
 #
 ifdef
 XP_MACOSX
@@ -8550,6 +8559,9 @@ Image
 :
 :
 MAC_IO_SURFACE
+&
+&
+mObjectFrame
 )
 {
 MacIOSurfaceImage
