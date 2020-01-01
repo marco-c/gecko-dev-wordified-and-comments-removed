@@ -3569,8 +3569,6 @@ SetData
 Substring
 (
 aData
-aData
-+
 aLength
 )
 )

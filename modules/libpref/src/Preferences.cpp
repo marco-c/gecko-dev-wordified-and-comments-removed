@@ -4283,8 +4283,6 @@ AppendElement
 Substring
 (
 entryName
-entryName
-+
 entryNameLen
 )
 )
@@ -4665,8 +4663,6 @@ AppendElement
 Substring
 (
 entryName
-entryName
-+
 entryNameLen
 )
 )
