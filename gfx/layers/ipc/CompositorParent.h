@@ -592,12 +592,6 @@ uint64_t
 id
 )
 ;
-Layer
-*
-GetPrimaryScrollableLayer
-(
-)
-;
 void
 TransformFixedLayers
 (

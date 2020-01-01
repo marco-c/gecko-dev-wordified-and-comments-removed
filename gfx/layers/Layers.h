@@ -689,6 +689,12 @@ return
 mRoot
 ;
 }
+Layer
+*
+GetPrimaryScrollableLayer
+(
+)
+;
 #
 ifdef
 DEBUG
