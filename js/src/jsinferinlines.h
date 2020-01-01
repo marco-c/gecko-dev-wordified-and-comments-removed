@@ -3091,7 +3091,7 @@ isArrow
 )
 )
 return
-true
+false
 ;
 if
 (
