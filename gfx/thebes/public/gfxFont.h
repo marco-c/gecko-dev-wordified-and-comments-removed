@@ -1425,9 +1425,6 @@ aLength
 PRPackedBool
 *
 aBreakBefore
-gfxContext
-*
-aRefContext
 )
 ;
 class
@@ -1567,9 +1564,6 @@ aLineBreakAfter
 gfxFloat
 *
 aAdvanceWidthDelta
-gfxContext
-*
-aRefContext
 )
 ;
 PRUint32
