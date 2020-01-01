@@ -5871,17 +5871,6 @@ refreshBrowser
 false
 )
 ;
-gBrowser
-.
-addEventListener
-(
-"
-NewTab
-"
-BrowserOpenTab
-false
-)
-;
 window
 .
 addEventListener

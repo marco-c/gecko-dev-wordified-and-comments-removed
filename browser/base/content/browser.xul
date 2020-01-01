@@ -5831,14 +5831,6 @@ contentcontextmenu
 "
 contentAreaContextMenu
 "
-onnewtab
-=
-"
-BrowserOpenTab
-(
-)
-;
-"
 autocompletepopup
 =
 "
