@@ -508,6 +508,8 @@ d
 ifdef
 WIN32
 return
+!
+!
 _finite
 (
 d
@@ -2672,9 +2674,13 @@ sNumLivingContexts
 )
 {
 delete
+[
+]
 sUnpremultiplyTable
 ;
 delete
+[
+]
 sPremultiplyTable
 ;
 sUnpremultiplyTable
@@ -6905,6 +6911,7 @@ Init
 drawExtents
 blurRadius
 nsnull
+nsnull
 )
 ;
 if
@@ -9193,7 +9200,10 @@ stretch
 NSAppUnitsToFloatPixels
 (
 fontSize
+float
+(
 aupcp
+)
 )
 language
 fontStyle
@@ -14956,8 +14966,14 @@ CheckSurfaceSize
 (
 gfxIntSize
 (
+PRInt32
+(
 aW
+)
+PRInt32
+(
 aH
+)
 )
 0xffff
 )

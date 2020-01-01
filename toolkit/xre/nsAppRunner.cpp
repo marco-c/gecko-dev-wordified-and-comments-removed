@@ -1061,6 +1061,35 @@ h
 endif
 static
 void
+SaveToEnv
+(
+const
+char
+*
+putenv
+)
+{
+char
+*
+expr
+=
+strdup
+(
+putenv
+)
+;
+if
+(
+expr
+)
+PR_SetEnv
+(
+expr
+)
+;
+}
+static
+void
 SaveWordToEnv
 (
 const
@@ -6678,7 +6707,7 @@ gRestartArgc
 nsnull
 ;
 }
-PR_SetEnv
+SaveToEnv
 (
 "
 MOZ_LAUNCHED_CHILD
@@ -6697,6 +6726,7 @@ SetupMacCommandLine
 (
 gRestartArgc
 gRestartArgv
+PR_TRUE
 )
 ;
 LaunchChildMac
@@ -8106,6 +8136,7 @@ SetupMacCommandLine
 (
 gRestartArgc
 gRestartArgv
+PR_TRUE
 )
 ;
 #
@@ -8420,7 +8451,7 @@ if
 offline
 )
 {
-PR_SetEnv
+SaveToEnv
 (
 "
 XRE_START_OFFLINE
@@ -8452,7 +8483,7 @@ aNative
 nsresult
 rv
 ;
-PR_SetEnv
+SaveToEnv
 (
 "
 XRE_IMPORT_PROFILES
@@ -8500,6 +8531,7 @@ SetupMacCommandLine
 (
 gRestartArgc
 gRestartArgv
+PR_TRUE
 )
 ;
 #
@@ -13146,7 +13178,7 @@ psn
 }
 #
 endif
-PR_SetEnv
+SaveToEnv
 (
 "
 MOZ_LAUNCHED_CHILD
@@ -13437,7 +13469,7 @@ ar
 ARG_FOUND
 )
 {
-PR_SetEnv
+SaveToEnv
 (
 "
 MOZ_NO_REMOTE
@@ -15449,7 +15481,7 @@ SaveStateForAppInitiatedRestart
 (
 )
 ;
-PR_SetEnv
+SaveToEnv
 (
 "
 XRE_PROFILE_PATH
@@ -15457,7 +15489,7 @@ XRE_PROFILE_PATH
 "
 )
 ;
-PR_SetEnv
+SaveToEnv
 (
 "
 XRE_PROFILE_LOCAL_PATH
@@ -15465,7 +15497,7 @@ XRE_PROFILE_LOCAL_PATH
 "
 )
 ;
-PR_SetEnv
+SaveToEnv
 (
 "
 XRE_PROFILE_NAME
@@ -15473,7 +15505,7 @@ XRE_PROFILE_NAME
 "
 )
 ;
-PR_SetEnv
+SaveToEnv
 (
 "
 XRE_START_OFFLINE
@@ -15481,7 +15513,7 @@ XRE_START_OFFLINE
 "
 )
 ;
-PR_SetEnv
+SaveToEnv
 (
 "
 XRE_IMPORT_PROFILES
@@ -15489,7 +15521,7 @@ XRE_IMPORT_PROFILES
 "
 )
 ;
-PR_SetEnv
+SaveToEnv
 (
 "
 NO_EM_RESTART
@@ -15497,7 +15529,7 @@ NO_EM_RESTART
 "
 )
 ;
-PR_SetEnv
+SaveToEnv
 (
 "
 XUL_APP_FILE
@@ -15505,7 +15537,7 @@ XUL_APP_FILE
 "
 )
 ;
-PR_SetEnv
+SaveToEnv
 (
 "
 XRE_BINARY_PATH
@@ -15551,6 +15583,7 @@ SetupMacCommandLine
 (
 gArgc
 gArgv
+PR_FALSE
 )
 ;
 rv
@@ -15897,6 +15930,7 @@ SetupMacCommandLine
 (
 gRestartArgc
 gRestartArgv
+PR_TRUE
 )
 ;
 #
@@ -15953,7 +15987,7 @@ noEMRestart
 noEMRestart
 )
 {
-PR_SetEnv
+SaveToEnv
 (
 "
 NO_EM_RESTART
@@ -15965,7 +15999,7 @@ NO_EM_RESTART
 }
 else
 {
-PR_SetEnv
+SaveToEnv
 (
 "
 NO_EM_RESTART
@@ -16553,16 +16587,6 @@ SetErrorMode
 realMode
 )
 ;
-#
-ifdef
-DEBUG
-_set_sbh_threshold
-(
-0
-)
-;
-#
-endif
 #
 endif
 #

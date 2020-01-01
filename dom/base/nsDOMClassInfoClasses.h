@@ -176,10 +176,6 @@ HTMLBaseElement
 )
 DOMCI_CLASS
 (
-HTMLBaseFontElement
-)
-DOMCI_CLASS
-(
 HTMLBodyElement
 )
 DOMCI_CLASS
@@ -1241,6 +1237,10 @@ endif
 DOMCI_CLASS
 (
 Worker
+)
+DOMCI_CLASS
+(
+ChromeWorker
 )
 DOMCI_CLASS
 (

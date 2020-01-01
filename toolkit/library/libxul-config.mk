@@ -674,6 +674,8 @@ ucvutil_s
 \
 gkgfx
 \
+gfxutils
+\
 (
 NULL
 )
@@ -1331,6 +1333,15 @@ EXTRA_DSO_LDOPTS
 =
 (
 MOZ_HUNSPELL_LIBS
+)
+endif
+ifdef
+MOZ_NATIVE_LIBEVENT
+EXTRA_DSO_LDOPTS
++
+=
+(
+MOZ_LIBEVENT_LIBS
 )
 endif
 ifdef

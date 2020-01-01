@@ -235,6 +235,9 @@ class
 MozQWidget
 ;
 class
+nsIdleService
+;
+class
 nsWindow
 :
 public
@@ -1193,6 +1196,12 @@ gfxASurface
 >
 mThebesSurface
 ;
+nsCOMPtr
+<
+nsIdleService
+>
+mIdleService
+;
 PRBool
 mIsTransparent
 ;
@@ -1364,6 +1373,11 @@ mask
 }
 PRInt32
 mQCursor
+;
+void
+UserActivity
+(
+)
 ;
 QRegion
 mDirtyScrollArea
