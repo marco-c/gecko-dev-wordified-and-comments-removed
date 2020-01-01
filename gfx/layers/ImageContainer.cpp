@@ -844,7 +844,7 @@ else
 mImageContainerChild
 -
 >
-DispatchSetIdle
+SetIdle
 (
 )
 ;
