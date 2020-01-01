@@ -169,7 +169,7 @@ flags
 =
 0
 ;
-if
+while
 (
 wrapped
 -
