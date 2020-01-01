@@ -328,7 +328,7 @@ template
 <
 typename
 >
-class
+struct
 Nullable
 ;
 }
@@ -481,7 +481,7 @@ WebGLMemoryPressureObserver
 ;
 friend
 class
-WebGLMemoryMultiReporterWrapper
+WebGLMemoryReporterWrapper
 ;
 friend
 class
