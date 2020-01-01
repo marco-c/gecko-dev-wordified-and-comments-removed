@@ -283,6 +283,7 @@ nsISupports
 )
 NS_INTERFACE_MAP_END
 static
+signed
 char
 binhex_decode
 [
