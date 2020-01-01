@@ -41,14 +41,6 @@ nsIAnonymousContentCreator
 .
 h
 "
-#
-ifdef
-ACCESSIBILITY
-class
-nsIAccessible
-;
-#
-endif
 class
 nsGfxButtonControlFrame
 :
