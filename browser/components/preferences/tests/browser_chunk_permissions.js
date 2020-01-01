@@ -122,11 +122,6 @@ PERM_DENY
 2
 ;
 const
-PERM_SESION
-=
-8
-;
-const
 TEST_PERMS
 =
 {
