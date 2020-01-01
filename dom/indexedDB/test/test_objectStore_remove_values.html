@@ -281,7 +281,7 @@ Lincoln
 }
 keyName
 :
-null
+undefined
 keyValue
 :
 undefined
@@ -313,7 +313,8 @@ Lincoln
 }
 keyName
 :
-null
+"
+"
 keyValue
 :
 1
@@ -384,12 +385,18 @@ createObjectStore
 test
 .
 name
+{
+keyPath
+:
 test
 .
 keyName
+autoIncrement
+:
 test
 .
 autoIncrement
+}
 )
 ;
 request
