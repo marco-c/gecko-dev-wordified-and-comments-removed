@@ -6145,6 +6145,11 @@ xpcshell
 example
 /
 Makefile
+testing
+/
+firebug
+/
+Makefile
 toolkit
 /
 components
