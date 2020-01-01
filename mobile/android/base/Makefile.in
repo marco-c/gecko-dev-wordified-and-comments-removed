@@ -881,6 +881,10 @@ GeckoEventResponder
 .
 java
 \
+GeckoHalDefines
+.
+java
+\
 GeckoInputConnection
 .
 java
@@ -1751,6 +1755,14 @@ res
 layout
 /
 awesomebar
+.
+xml
+\
+res
+/
+layout
+/
+awesomebar_actionbar
 .
 xml
 \
