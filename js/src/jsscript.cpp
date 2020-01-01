@@ -10395,6 +10395,9 @@ analysis
 hasFunctionCalls
 (
 )
+#
+ifdef
+JS_METHODJIT
 &
 &
 getMaxLoopCount
@@ -10402,6 +10405,8 @@ getMaxLoopCount
 )
 <
 40
+#
+endif
 ;
 }
 bool

@@ -24,6 +24,9 @@ MethodJIT
 h
 "
 #
+ifdef
+JS_ION
+#
 include
 "
 ion
@@ -50,6 +53,8 @@ Bailouts
 .
 h
 "
+#
+endif
 #
 include
 "

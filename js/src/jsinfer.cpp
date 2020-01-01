@@ -118,6 +118,9 @@ jsworkers
 h
 "
 #
+ifdef
+JS_ION
+#
 include
 "
 ion
@@ -135,6 +138,8 @@ IonCompartment
 .
 h
 "
+#
+endif
 #
 include
 "

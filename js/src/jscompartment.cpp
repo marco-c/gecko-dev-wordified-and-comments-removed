@@ -173,6 +173,9 @@ jsscopeinlines
 h
 "
 #
+ifdef
+JS_ION
+#
 include
 "
 ion
@@ -190,6 +193,8 @@ Ion
 .
 h
 "
+#
+endif
 #
 if
 ENABLE_YARR_JIT
