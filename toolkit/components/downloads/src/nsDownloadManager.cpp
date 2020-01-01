@@ -7416,6 +7416,12 @@ nsIDownloadManager
 :
 DOWNLOAD_CANCELED
 :
+case
+nsIDownloadManager
+:
+:
+DOWNLOAD_FAILED
+:
 mDownloadManager
 -
 >
