@@ -4115,6 +4115,11 @@ PROFILE_DIRECTORY
 silent
 "
 ]
+utilityPath
+=
+options
+.
+utilityPath
 xrePath
 =
 options
