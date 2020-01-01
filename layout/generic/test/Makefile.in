@@ -842,6 +842,12 @@ fuchsia
 .
 png
 \
+test_selection_splitText
+-
+normalize
+.
+html
+\
 (
 NULL
 )
