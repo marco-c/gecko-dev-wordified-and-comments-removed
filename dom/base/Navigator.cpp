@@ -2406,7 +2406,7 @@ NS_NAMED_LITERAL_STRING
 (
 visibilitychange
 "
-mozvisibilitychange
+visibilitychange
 "
 )
 ;
@@ -2585,7 +2585,7 @@ NS_NAMED_LITERAL_STRING
 (
 visibilitychange
 "
-mozvisibilitychange
+visibilitychange
 "
 )
 ;

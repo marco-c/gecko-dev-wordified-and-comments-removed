@@ -23,7 +23,7 @@ document
 addEventListener
 (
 "
-mozvisibilitychange
+visibilitychange
 "
 function
 (

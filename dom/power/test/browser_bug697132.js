@@ -845,7 +845,7 @@ doc2
 addEventListener
 (
 "
-mozvisibilitychange
+visibilitychange
 "
 function
 onVisibilityChange
@@ -866,7 +866,7 @@ doc2
 removeEventListener
 (
 "
-mozvisibilitychange
+visibilitychange
 "
 onVisibilityChange
 )

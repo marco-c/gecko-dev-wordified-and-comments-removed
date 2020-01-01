@@ -273,7 +273,7 @@ pageshow
 pagehide
 "
 "
-mozvisibilitychange
+visibilitychange
 "
 ]
 expectedEvents
@@ -299,7 +299,7 @@ true
 type
 :
 "
-mozvisibilitychange
+visibilitychange
 "
 title
 :
@@ -377,7 +377,7 @@ pageshow
 pagehide
 "
 "
-mozvisibilitychange
+visibilitychange
 "
 ]
 expectedEvents
@@ -403,7 +403,7 @@ true
 type
 :
 "
-mozvisibilitychange
+visibilitychange
 "
 title
 :
@@ -424,7 +424,7 @@ true
 type
 :
 "
-mozvisibilitychange
+visibilitychange
 "
 title
 :
@@ -486,7 +486,7 @@ pageshow
 pagehide
 "
 "
-mozvisibilitychange
+visibilitychange
 "
 ]
 expectedEvents
@@ -512,7 +512,7 @@ true
 type
 :
 "
-mozvisibilitychange
+visibilitychange
 "
 title
 :
@@ -533,7 +533,7 @@ true
 type
 :
 "
-mozvisibilitychange
+visibilitychange
 "
 title
 :
@@ -661,7 +661,7 @@ content
 removeEventListener
 (
 "
-mozvisibilitychange
+visibilitychange
 "
 detector
 true
@@ -684,7 +684,7 @@ content
 addEventListener
 (
 "
-mozvisibilitychange
+visibilitychange
 "
 detector
 true
@@ -760,7 +760,7 @@ pageshow
 pagehide
 "
 "
-mozvisibilitychange
+visibilitychange
 "
 ]
 expectedEvents
@@ -803,7 +803,7 @@ unexpectedEvents
 :
 [
 "
-mozvisibilitychange
+visibilitychange
 "
 ]
 onNavComplete
@@ -873,7 +873,7 @@ pageshow
 pagehide
 "
 "
-mozvisibilitychange
+visibilitychange
 "
 ]
 expectedEvents
@@ -899,7 +899,7 @@ true
 type
 :
 "
-mozvisibilitychange
+visibilitychange
 "
 title
 :
@@ -920,7 +920,7 @@ true
 type
 :
 "
-mozvisibilitychange
+visibilitychange
 "
 title
 :

@@ -1529,7 +1529,7 @@ _window
 addEventListener
 (
 '
-mozvisibilitychange
+visibilitychange
 '
 this
 .
