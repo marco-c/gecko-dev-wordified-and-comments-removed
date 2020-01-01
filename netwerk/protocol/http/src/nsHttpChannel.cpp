@@ -8783,6 +8783,11 @@ doValidation
 =
 PR_FALSE
 ;
+PRBool
+canAddImsHeader
+=
+PR_TRUE
+;
 mRequestHead
 .
 ClearHeader
@@ -9026,6 +9031,10 @@ n
 "
 )
 )
+;
+canAddImsHeader
+=
+PR_FALSE
 ;
 doValidation
 =
@@ -9338,6 +9347,11 @@ char
 *
 val
 ;
+if
+(
+canAddImsHeader
+)
+{
 val
 =
 mCachedResponseHead
@@ -9369,6 +9383,7 @@ val
 )
 )
 ;
+}
 val
 =
 mCachedResponseHead
