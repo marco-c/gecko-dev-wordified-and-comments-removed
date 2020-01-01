@@ -337,6 +337,10 @@ stdin
 write
 (
 sym
+[
+1
+:
+]
 +
 "
 \
