@@ -65,6 +65,10 @@ app_libxul_dirs
 =
 [
 ]
+app_libxul_static_dirs
+=
+[
+]
 include
 (
 '

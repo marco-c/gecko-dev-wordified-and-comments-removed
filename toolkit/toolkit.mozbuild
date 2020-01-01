@@ -1424,6 +1424,16 @@ add_tier_dir
 '
 platform
 '
+app_libxul_static_dirs
+static
+=
+True
+)
+add_tier_dir
+(
+'
+platform
+'
 '
 toolkit
 /
