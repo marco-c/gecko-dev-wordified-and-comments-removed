@@ -692,6 +692,11 @@ GetActiveRollupListener
 (
 )
 ;
+NS_ENSURE_TRUE_VOID
+(
+rollupListener
+)
+;
 nsCOMPtr
 <
 nsIWidget
@@ -705,10 +710,11 @@ GetRollupWidget
 (
 )
 ;
-if
+NS_ENSURE_TRUE_VOID
 (
 rollupWidget
 )
+;
 rollupListener
 -
 >

@@ -4838,6 +4838,11 @@ GetActiveRollupListener
 (
 )
 ;
+if
+(
+rollupListener
+)
+{
 nsCOMPtr
 <
 nsIWidget
@@ -4872,6 +4877,7 @@ cancelTracking
 ;
 return
 ;
+}
 }
 mGeckoMenu
 -
