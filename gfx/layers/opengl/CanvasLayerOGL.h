@@ -7,13 +7,6 @@ GFX_CANVASLAYEROGL_H
 #
 include
 "
-GLContext
-.
-h
-"
-#
-include
-"
 GLContextTypes
 .
 h

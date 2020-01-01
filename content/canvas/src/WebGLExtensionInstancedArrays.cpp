@@ -23,6 +23,13 @@ WebGLRenderingContextBinding
 .
 h
 "
+#
+include
+"
+GLContext
+.
+h
+"
 using
 namespace
 mozilla

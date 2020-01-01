@@ -1230,6 +1230,11 @@ CompositableTransactionParent
 cpp
 '
 '
+CompositingRenderTargetOGL
+.
+cpp
+'
+'
 Compositor
 .
 cpp

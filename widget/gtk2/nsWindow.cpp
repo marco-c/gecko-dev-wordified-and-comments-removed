@@ -362,6 +362,13 @@ nsIPropertyBag2
 h
 "
 #
+include
+"
+GLContext
+.
+h
+"
+#
 ifdef
 ACCESSIBILITY
 #

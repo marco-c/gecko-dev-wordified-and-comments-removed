@@ -285,6 +285,13 @@ h
 #
 include
 "
+GLContext
+.
+h
+"
+#
+include
+"
 TexturePoolOGL
 .
 h
@@ -615,7 +622,7 @@ sPluginContext
 >
 CreateSharedHandle
 (
-GLContext
+gl
 :
 :
 SameProcess
@@ -626,7 +633,7 @@ void
 mTextureInfo
 .
 mTexture
-GLContext
+gl
 :
 :
 TextureID
@@ -4610,12 +4617,12 @@ sPluginContext
 >
 CreateSharedHandle
 (
-GLContext
+gl
 :
 :
 SameProcess
 mContentSurface
-GLContext
+gl
 :
 :
 SurfaceTexture

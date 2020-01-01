@@ -7,13 +7,6 @@ GFX_IMAGELAYEROGL_H
 #
 include
 "
-GLContext
-.
-h
-"
-#
-include
-"
 GLContextTypes
 .
 h

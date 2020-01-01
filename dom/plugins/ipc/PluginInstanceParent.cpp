@@ -3200,7 +3200,7 @@ data
 .
 mShareType
 =
-GLContext
+gl
 :
 :
 SameProcess
@@ -3218,7 +3218,7 @@ data
 .
 mShareType
 ioSurface
-GLContext
+gl
 :
 :
 IOSurface

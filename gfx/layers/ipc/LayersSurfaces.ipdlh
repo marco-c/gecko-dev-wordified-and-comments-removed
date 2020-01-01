@@ -80,6 +80,13 @@ Types
 h
 "
 ;
+include
+"
+nsRegion
+.
+h
+"
+;
 using
 gfx3DMatrix
 ;
@@ -169,9 +176,6 @@ mozilla
 :
 :
 gl
-:
-:
-GLContext
 :
 :
 SharedTextureShareType

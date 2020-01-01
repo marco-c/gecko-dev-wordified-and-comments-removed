@@ -82,9 +82,6 @@ mHandle
 gl
 :
 :
-GLContext
-:
-:
 SharedTextureShareType
 mShareType
 ;

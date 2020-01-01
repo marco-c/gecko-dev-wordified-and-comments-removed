@@ -120,6 +120,13 @@ h
 #
 include
 "
+GLContext
+.
+h
+"
+#
+include
+"
 GeckoProfiler
 .
 h

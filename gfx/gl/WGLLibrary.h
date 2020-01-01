@@ -1,10 +1,13 @@
 #
 include
 "
-GLContext
+GLContextTypes
 .
 h
 "
+struct
+PRLibrary
+;
 namespace
 mozilla
 {
@@ -459,9 +462,6 @@ LibraryType
 SelectLibrary
 (
 const
-GLContext
-:
-:
 ContextFlags
 &
 aFlags

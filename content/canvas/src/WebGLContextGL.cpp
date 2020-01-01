@@ -127,6 +127,13 @@ h
 #
 include
 "
+GLContext
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

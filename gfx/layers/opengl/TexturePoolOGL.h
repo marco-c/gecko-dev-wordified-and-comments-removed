@@ -18,9 +18,6 @@ namespace
 gl
 {
 class
-GLContext
-;
-class
 TexturePoolOGL
 {
 public

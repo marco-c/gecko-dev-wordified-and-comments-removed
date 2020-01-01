@@ -5357,15 +5357,7 @@ MakeContextCurrent
 (
 )
 const
-{
-gl
--
->
-MakeCurrent
-(
-)
 ;
-}
 void
 TexImage2D_base
 (
