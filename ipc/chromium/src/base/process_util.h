@@ -825,12 +825,6 @@ ProcessMetrics
 (
 )
 ;
-size_t
-GetPagefileUsage
-(
-)
-const
-;
 int
 GetCPUUsage
 (
