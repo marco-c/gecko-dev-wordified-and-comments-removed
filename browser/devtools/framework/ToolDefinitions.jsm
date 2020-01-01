@@ -698,6 +698,8 @@ browser
 /
 content
 /
+devtools
+/
 debugger
 .
 xul
@@ -996,6 +998,8 @@ chrome
 browser
 /
 content
+/
+devtools
 /
 styleeditor
 .
