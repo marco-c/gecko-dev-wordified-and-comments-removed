@@ -62,7 +62,10 @@ PRUint8
 mState
 ;
 PRUint8
-mData
+mOddByte
+;
+PRUnichar
+mOddHighSurrogate
 ;
 }
 ;
