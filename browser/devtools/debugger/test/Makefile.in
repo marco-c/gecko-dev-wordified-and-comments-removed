@@ -619,6 +619,10 @@ contextmenu
 .
 js
 \
+browser_dbg_displayName
+.
+js
+\
 head
 .
 js
@@ -690,6 +694,10 @@ test
 editor
 -
 mode
+\
+browser_dbg_displayName
+.
+html
 \
 (
 NULL
