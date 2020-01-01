@@ -11899,6 +11899,7 @@ OS_TEST
 ;
 ;
 arm
+*
 )
 CPU_ARCH
 =
