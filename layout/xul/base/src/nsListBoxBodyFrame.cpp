@@ -6017,16 +6017,6 @@ NS_NewListBoxLayout
 (
 )
 ;
-if
-(
-!
-layout
-)
-{
-return
-nullptr
-;
-}
 return
 new
 (

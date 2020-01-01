@@ -63,16 +63,6 @@ NS_NewGridRowGroupLayout
 (
 )
 ;
-if
-(
-!
-layout
-)
-{
-return
-nullptr
-;
-}
 return
 new
 (
