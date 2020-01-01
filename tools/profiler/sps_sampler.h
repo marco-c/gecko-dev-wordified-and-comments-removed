@@ -707,7 +707,10 @@ return
 }
 if
 (
+size_t
+(
 mMarkerPointer
+)
 =
 =
 mozilla
@@ -801,7 +804,10 @@ aName
 {
 if
 (
+size_t
+(
 mStackPointer
+)
 >
 =
 mozilla
