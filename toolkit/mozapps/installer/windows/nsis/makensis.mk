@@ -132,10 +132,6 @@ setup
 .
 ico
 \
-version
-.
-nsh
-\
 (
 NULL
 )
