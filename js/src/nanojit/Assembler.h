@@ -1275,8 +1275,6 @@ cond
 NIns
 *
 targ
-bool
-isfar
 )
 ;
 void

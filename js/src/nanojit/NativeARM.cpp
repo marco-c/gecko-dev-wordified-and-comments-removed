@@ -7014,15 +7014,8 @@ cond
 NIns
 *
 targ
-bool
-isfar
 )
 {
-(
-void
-)
-isfar
-;
 LOpcode
 condop
 =
