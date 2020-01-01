@@ -921,7 +921,7 @@ useRegister
 (
 left
 )
-useOrConstant
+useAnyOrConstant
 (
 right
 )
@@ -1207,7 +1207,7 @@ useRegister
 (
 left
 )
-useOrConstant
+useAnyOrConstant
 (
 right
 )
@@ -2350,17 +2350,6 @@ ins
 -
 >
 lhs
-(
-)
-;
-MDefinition
-*
-rhs
-=
-ins
--
->
-rhs
 (
 )
 ;

@@ -701,6 +701,9 @@ IsDTRMask
 )
 =
 =
+(
+uint32
+)
 IsDTR
 ;
 }

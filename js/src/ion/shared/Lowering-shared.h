@@ -247,6 +247,15 @@ mir
 ;
 inline
 LAllocation
+useAnyOrConstant
+(
+MDefinition
+*
+mir
+)
+;
+inline
+LAllocation
 useKeepaliveOrConstant
 (
 MDefinition
