@@ -1239,8 +1239,10 @@ sInstanceCount
 ;
 if
 (
-!
 sInstanceCount
+=
+=
+0
 )
 {
 #
@@ -1296,6 +1298,16 @@ Terminate
 (
 )
 ;
+#
+endif
+}
+#
+if
+!
+defined
+(
+WINCE
+)
 NS_IF_RELEASE
 (
 mNativeDragTarget
@@ -1303,7 +1315,6 @@ mNativeDragTarget
 ;
 #
 endif
-}
 }
 NS_IMPL_ISUPPORTS_INHERITED0
 (

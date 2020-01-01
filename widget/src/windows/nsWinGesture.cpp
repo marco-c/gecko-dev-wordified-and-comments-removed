@@ -1,10 +1,4 @@
 #
-ifndef
-WinGesture_cpp__
-#
-define
-WinGesture_cpp__
-#
 include
 "
 nscore
@@ -2335,5 +2329,3 @@ return
 PR_FALSE
 ;
 }
-#
-endif
