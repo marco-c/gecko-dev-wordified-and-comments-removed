@@ -2104,13 +2104,6 @@ char
 msg
 )
 {
-if
-(
-LoggingEnabled
-(
-)
-)
-{
 printf_stderr
 (
 "
@@ -2152,7 +2145,6 @@ channelName
 msg
 )
 ;
-}
 }
 bool
 AsyncChannel
