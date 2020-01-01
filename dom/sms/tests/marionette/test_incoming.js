@@ -193,6 +193,16 @@ body
 body
 )
 ;
+is
+(
+message
+.
+messageClass
+"
+normal
+"
+)
+;
 ok
 (
 message
