@@ -3240,8 +3240,8 @@ mDirection
 NS_STRETCH_DIRECTION_UNSUPPORTED
 ;
 mBoundingMetrics
-.
-Clear
+=
+nsBoundingMetrics
 (
 )
 ;

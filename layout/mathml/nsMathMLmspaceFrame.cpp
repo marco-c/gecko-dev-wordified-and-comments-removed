@@ -346,8 +346,8 @@ aPresContext
 )
 ;
 mBoundingMetrics
-.
-Clear
+=
+nsBoundingMetrics
 (
 )
 ;

@@ -1039,8 +1039,8 @@ ascent
 0
 ;
 mBoundingMetrics
-.
-Clear
+=
+nsBoundingMetrics
 (
 )
 ;
@@ -1157,8 +1157,8 @@ ascent
 0
 ;
 mBoundingMetrics
-.
-Clear
+=
+nsBoundingMetrics
 (
 )
 ;

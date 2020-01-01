@@ -1817,8 +1817,8 @@ aLength
 )
 {
 aBoundingMetrics
-.
-Clear
+=
+nsBoundingMetrics
 (
 )
 ;
@@ -1893,8 +1893,8 @@ aLength
 )
 {
 aBoundingMetrics
-.
-Clear
+=
+nsBoundingMetrics
 (
 )
 ;

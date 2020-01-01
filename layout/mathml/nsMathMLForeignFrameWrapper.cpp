@@ -164,8 +164,8 @@ aDesiredSize
 ascent
 ;
 mBoundingMetrics
-.
-Clear
+=
+nsBoundingMetrics
 (
 )
 ;

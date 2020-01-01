@@ -4854,9 +4854,8 @@ size
 ;
 aRenderingContext
 .
-GetColor
+PushState
 (
-oldColor
 )
 ;
 aRenderingContext
@@ -4901,9 +4900,8 @@ twoPX
 ;
 aRenderingContext
 .
-SetColor
+PopState
 (
-oldColor
 )
 ;
 }

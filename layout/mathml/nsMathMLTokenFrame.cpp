@@ -549,8 +549,8 @@ ascent
 aDesiredSize
 .
 mBoundingMetrics
-.
-Clear
+=
+nsBoundingMetrics
 (
 )
 ;
@@ -690,8 +690,8 @@ aDesiredSize
 )
 {
 mBoundingMetrics
-.
-Clear
+=
+nsBoundingMetrics
 (
 )
 ;
