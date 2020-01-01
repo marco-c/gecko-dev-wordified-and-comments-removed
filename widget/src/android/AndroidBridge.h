@@ -747,6 +747,13 @@ nsAString
 result
 )
 ;
+void
+SetKeepScreenOn
+(
+bool
+on
+)
+;
 protected
 :
 static
@@ -869,6 +876,9 @@ jHideProgressDialog
 ;
 jmethodID
 jPerformHapticFeedback
+;
+jmethodID
+jSetKeepScreenOn
 ;
 jclass
 jEGLSurfaceImplClass
