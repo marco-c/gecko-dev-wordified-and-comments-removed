@@ -159,3 +159,10 @@ p3
 bug577645_movntq
 .
 patch
+patch
+-
+p3
+<
+add_scale
+.
+patch
