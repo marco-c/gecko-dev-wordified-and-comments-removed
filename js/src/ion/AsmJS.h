@@ -172,9 +172,6 @@ AsmJSModule
 &
 module_
 ;
-unsigned
-entryIndex_
-;
 AsmJSActivation
 *
 prev_
@@ -202,8 +199,6 @@ const
 AsmJSModule
 &
 module
-unsigned
-entryIndex
 )
 ;
 ~
