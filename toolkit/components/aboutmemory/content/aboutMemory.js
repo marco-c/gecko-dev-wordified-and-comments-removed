@@ -903,7 +903,7 @@ kUnknown
 1
 ;
 const
-kTreeUnsafeDescriptions
+kTreeDescriptions
 =
 {
 '
@@ -2208,7 +2208,7 @@ aUnsafePath
 aKind
 aUnits
 aAmount
-aUnsafeDesc
+aDescription
 )
 {
 this
@@ -2237,9 +2237,9 @@ aAmount
 ;
 this
 .
-_unsafeDescription
+_description
 =
-aUnsafeDesc
+aDescription
 ;
 }
 Report
@@ -2472,7 +2472,7 @@ aUnsafePath
 aKind
 aUnits
 aAmount
-aUnsafeDesc
+aDescription
 )
 {
 let
@@ -2501,7 +2501,7 @@ aUnsafePath
 aKind
 aUnits
 aAmount
-aUnsafeDesc
+aDescription
 )
 ;
 if
@@ -2976,11 +2976,11 @@ true
 }
 u
 .
-_unsafeDescription
+_description
 =
 r
 .
-_unsafeDescription
+_description
 ;
 u
 .
@@ -3136,7 +3136,7 @@ childrenBytes
 ;
 aT
 .
-_unsafeDescription
+_description
 =
 "
 The
@@ -3148,9 +3148,12 @@ below
 '
 "
 +
+flipBackslashes
+(
 aT
 .
 _unsafeName
+)
 +
 "
 '
@@ -3258,9 +3261,9 @@ _kids
 }
 t
 .
-_unsafeDescription
+_description
 =
-kTreeUnsafeDescriptions
+kTreeDescriptions
 [
 t
 .
@@ -3513,7 +3516,7 @@ true
 }
 heapUnclassifiedT
 .
-_unsafeDescription
+_description
 =
 kindToString
 (
@@ -3840,7 +3843,7 @@ aggBytes
 ;
 aggT
 .
-_unsafeDescription
+_description
 =
 nAgg
 +
@@ -5061,7 +5064,7 @@ appendMrNameSpan
 aP
 aKind
 aKidsState
-aUnsafeDesc
+aDescription
 aUnsafeName
 aIsUnknown
 aIsInvalid
@@ -5219,10 +5222,7 @@ kindToString
 aKind
 )
 +
-flipBackslashes
-(
-aUnsafeDesc
-)
+aDescription
 ;
 if
 (
@@ -6143,7 +6143,7 @@ kind
 kidsState
 aT
 .
-_unsafeDescription
+_description
 aT
 .
 _unsafeName
@@ -6447,7 +6447,7 @@ OtherReport
 aUnsafePath
 aUnits
 aAmount
-aUnsafeDesc
+aDescription
 aNMerged
 )
 {
@@ -6496,9 +6496,9 @@ aAmount
 }
 this
 .
-_unsafeDescription
+_description
 =
-aUnsafeDesc
+aDescription
 ;
 this
 .
@@ -6828,7 +6828,7 @@ r
 _amount
 r
 .
-_unsafeDescription
+_description
 )
 ;
 otherReports
@@ -6947,7 +6947,7 @@ KIND_OTHER
 kNoKids
 o
 .
-_unsafeDescription
+_description
 o
 .
 _unsafePath
@@ -7346,7 +7346,7 @@ aUnsafePath
 aKind
 aUnits
 aAmount
-aDesc
+aDescription
 )
 {
 let
@@ -7406,7 +7406,7 @@ amount
 ;
 assert
 (
-aDesc
+aDescription
 =
 =
 =
