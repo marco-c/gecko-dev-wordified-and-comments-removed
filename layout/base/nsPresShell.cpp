@@ -14304,9 +14304,9 @@ nsIPresShell
 :
 PostRecreateFramesFor
 (
-nsIContent
+Element
 *
-aContent
+aElement
 )
 {
 FrameConstructor
@@ -14316,7 +14316,7 @@ FrameConstructor
 >
 PostRestyleEvent
 (
-aContent
+aElement
 eRestyle_Self
 nsChangeHint_ReconstructFrame
 )
@@ -14328,9 +14328,9 @@ nsIPresShell
 :
 RestyleForAnimation
 (
-nsIContent
+Element
 *
-aContent
+aElement
 )
 {
 FrameConstructor
@@ -14340,7 +14340,7 @@ FrameConstructor
 >
 PostAnimationRestyleEvent
 (
-aContent
+aElement
 eRestyle_Self
 NS_STYLE_HINT_NONE
 )
