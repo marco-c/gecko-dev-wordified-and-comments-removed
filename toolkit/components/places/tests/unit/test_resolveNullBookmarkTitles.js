@@ -394,4 +394,10 @@ title
 "
 )
 ;
+root
+.
+containerOpen
+=
+false
+;
 }

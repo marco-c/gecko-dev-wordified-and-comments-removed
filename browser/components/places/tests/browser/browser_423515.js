@@ -1415,6 +1415,12 @@ node
 "
 )
 ;
+readOnlyFolder
+.
+containerOpen
+=
+false
+;
 }
 }
 )
@@ -1451,6 +1457,12 @@ validate
 ;
 }
 )
+;
+rootNode
+.
+containerOpen
+=
+false
 ;
 PlacesUtils
 .

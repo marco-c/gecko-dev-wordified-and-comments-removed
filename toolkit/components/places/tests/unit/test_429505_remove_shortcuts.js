@@ -99,4 +99,10 @@ oldCount
 1
 )
 ;
+root
+.
+containerOpen
+=
+false
+;
 }

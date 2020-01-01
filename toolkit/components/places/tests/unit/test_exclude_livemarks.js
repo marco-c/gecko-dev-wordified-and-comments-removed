@@ -460,6 +460,12 @@ itemId
 nonLivemarkItem
 )
 ;
+rootNode
+.
+containerOpen
+=
+false
+;
 options
 =
 histsvc
@@ -555,5 +561,11 @@ node
 itemId
 nonLivemarkItem
 )
+;
+rootNode
+.
+containerOpen
+=
+false
 ;
 }

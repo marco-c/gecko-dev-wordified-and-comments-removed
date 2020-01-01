@@ -679,6 +679,12 @@ id3
 id2
 )
 ;
+root
+.
+containerOpen
+=
+false
+;
 do_test_finished
 (
 )

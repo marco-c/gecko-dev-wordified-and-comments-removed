@@ -200,4 +200,10 @@ foo
 "
 )
 ;
+root
+.
+containerOpen
+=
+false
+;
 }

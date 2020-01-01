@@ -826,4 +826,10 @@ root
 )
 )
 ;
+root
+.
+containerOpen
+=
+false
+;
 }
