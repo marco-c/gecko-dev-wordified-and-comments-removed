@@ -5613,6 +5613,17 @@ open
 "
 )
 ;
+focus
+(
+win2
+)
+.
+then
+(
+function
+(
+)
+{
 tabs
 .
 on
@@ -5721,6 +5732,9 @@ win1
 .
 focus
 (
+)
+;
+}
 )
 ;
 }
