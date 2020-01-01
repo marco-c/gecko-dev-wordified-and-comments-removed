@@ -3545,11 +3545,13 @@ nsContentUtils
 IsJavaScriptLanguage
 (
 lang
-&
-version
 )
 )
 {
+version
+=
+JSVERSION_DEFAULT
+;
 langID
 =
 nsIProgrammingLanguage

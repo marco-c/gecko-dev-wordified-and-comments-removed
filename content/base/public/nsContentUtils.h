@@ -3864,9 +3864,6 @@ const
 nsString
 &
 aName
-uint32_t
-*
-aVerFlags
 )
 ;
 static

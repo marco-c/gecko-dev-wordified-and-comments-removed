@@ -2030,9 +2030,6 @@ IsEmpty
 )
 )
 {
-uint32_t
-dummy
-;
 if
 (
 !
@@ -2042,8 +2039,6 @@ nsContentUtils
 IsJavaScriptLanguage
 (
 language
-&
-dummy
 )
 )
 {
