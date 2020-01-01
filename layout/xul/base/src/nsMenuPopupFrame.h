@@ -427,11 +427,6 @@ PRBool
 aSizedToPopup
 )
 ;
-void
-AdjustView
-(
-)
-;
 nsIView
 *
 GetRootViewForPopup
@@ -649,7 +644,7 @@ PRInt32
 aYPos
 )
 ;
-PRBool
+void
 ShowPopup
 (
 PRBool
