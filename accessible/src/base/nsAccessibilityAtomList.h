@@ -276,6 +276,13 @@ article
 )
 ACCESSIBILITY_ATOM
 (
+aside
+"
+aside
+"
+)
+ACCESSIBILITY_ATOM
+(
 autocomplete
 "
 autocomplete

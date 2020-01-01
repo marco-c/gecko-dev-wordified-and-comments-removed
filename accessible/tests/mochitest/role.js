@@ -251,6 +251,13 @@ nsIAccessibleRole
 ROLE_NOTHING
 ;
 const
+ROLE_NOTE
+=
+nsIAccessibleRole
+.
+ROLE_NOTE
+;
+const
 ROLE_OPTION
 =
 nsIAccessibleRole
