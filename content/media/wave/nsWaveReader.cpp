@@ -1214,15 +1214,14 @@ NS_ASSERTION
 mDecoder
 -
 >
-OnStateMachineThread
+OnDecodeThread
 (
 )
 "
 Should
 be
 on
-state
-machine
+decode
 thread
 .
 "
