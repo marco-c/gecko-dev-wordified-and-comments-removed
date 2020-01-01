@@ -56,6 +56,13 @@ Components
 .
 interfaces
 ;
+this
+.
+EXPORTED_SYMBOLS
+=
+[
+]
+;
 Cu
 .
 import
