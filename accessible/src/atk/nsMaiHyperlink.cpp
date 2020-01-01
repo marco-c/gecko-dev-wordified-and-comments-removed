@@ -1004,7 +1004,7 @@ rv
 accHyperlink
 -
 >
-GetAnchorsCount
+GetAnchorCount
 (
 &
 count

@@ -88,11 +88,11 @@ index
 )
 ;
 NS_IMETHOD
-GetAnchorsCount
+GetAnchorCount
 (
 PRInt32
 *
-aAnchors
+aAnchorCount
 )
 ;
 NS_IMETHOD
