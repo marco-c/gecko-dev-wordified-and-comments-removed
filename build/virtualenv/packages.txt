@@ -96,9 +96,7 @@ setup
 .
 py
 :
-build
-/
-pylib
+python
 /
 blessings
 :
