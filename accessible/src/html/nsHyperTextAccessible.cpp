@@ -6811,6 +6811,15 @@ aCaretOffset
 ;
 if
 (
+IsDefunct
+(
+)
+)
+return
+NS_ERROR_FAILURE
+;
+if
+(
 !
 IsDoc
 (
