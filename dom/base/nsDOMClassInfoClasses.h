@@ -1264,6 +1264,10 @@ MozSmsCursor
 )
 DOMCI_CLASS
 (
+MozConnection
+)
+DOMCI_CLASS
+(
 CSSFontFaceRule
 )
 DOMCI_CLASS

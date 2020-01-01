@@ -82,6 +82,9 @@ nsDesktopNotificationCenter
 class
 nsPIDOMWindow
 ;
+class
+nsIDOMMozConnection
+;
 #
 ifdef
 MOZ_B2G_RIL
@@ -280,6 +283,12 @@ mTelephony
 ;
 #
 endif
+nsCOMPtr
+<
+nsIDOMMozConnection
+>
+mConnection
+;
 nsWeakPtr
 mWindow
 ;

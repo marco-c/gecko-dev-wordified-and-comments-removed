@@ -467,6 +467,10 @@ NULL
 CPPSRCS
 =
 \
+Connection
+.
+cpp
+\
 (
 NULL
 )
