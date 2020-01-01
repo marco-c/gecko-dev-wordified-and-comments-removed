@@ -925,6 +925,14 @@ test_flexbox_order
 .
 html
 \
+file_flexbox_order_table
+.
+html
+\
+test_flexbox_order_table
+.
+html
+\
 (
 NULL
 )

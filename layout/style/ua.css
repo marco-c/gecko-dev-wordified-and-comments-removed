@@ -250,6 +250,13 @@ inherit
 -
 moz
 -
+order
+:
+inherit
+;
+-
+moz
+-
 transform
 :
 inherit
