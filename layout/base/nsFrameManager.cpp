@@ -4959,6 +4959,10 @@ break
 }
 if
 (
+!
+pseudoTag
+&
+&
 localContent
 &
 &

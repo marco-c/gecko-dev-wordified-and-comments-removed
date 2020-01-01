@@ -468,10 +468,12 @@ nsStyleContext
 *
 parentStyleContext
 =
-aParent
+GetStyleContext
+(
+)
 -
 >
-GetStyleContext
+GetParent
 (
 )
 ;
