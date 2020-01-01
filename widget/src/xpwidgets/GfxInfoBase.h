@@ -159,8 +159,6 @@ aDriverInfo
 }
 ;
 }
-;
 }
-;
 #
 endif
