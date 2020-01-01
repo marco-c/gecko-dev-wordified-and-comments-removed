@@ -785,9 +785,9 @@ getBookmarkURI
 aItem
 )
 ;
-Browser
-.
-content
+getBrowser
+(
+)
 .
 loadURI
 (

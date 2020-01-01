@@ -946,9 +946,9 @@ function
 (
 )
 {
-Browser
-.
-content
+getBrowser
+(
+)
 .
 loadURI
 (
@@ -1009,9 +1009,9 @@ btnG
 Search
 "
 ;
-Browser
-.
-content
+getBrowser
+(
+)
 .
 loadURI
 (

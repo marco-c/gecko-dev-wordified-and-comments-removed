@@ -79,16 +79,6 @@ false
 pref
 (
 "
-general
-.
-smoothScroll
-"
-false
-)
-;
-pref
-(
-"
 browser
 .
 cache
