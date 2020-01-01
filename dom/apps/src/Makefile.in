@@ -122,17 +122,6 @@ jsm
 (
 NULL
 )
-EXTRA_JS_MODULES
-+
-=
-\
-PermissionsTable
-.
-jsm
-\
-(
-NULL
-)
 include
 (
 topsrcdir
