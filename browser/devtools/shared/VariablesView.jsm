@@ -2237,6 +2237,9 @@ this
 hideArrow
 (
 )
+showDescriptorTooltip
+:
+true
 allowNameInput
 :
 false
@@ -4366,6 +4369,15 @@ this
 .
 document
 ;
+if
+(
+this
+.
+ownerView
+.
+showDescriptorTooltip
+)
+{
 let
 tooltip
 =
@@ -4518,6 +4530,7 @@ tooltip
 id
 )
 ;
+}
 if
 (
 this
