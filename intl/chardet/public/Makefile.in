@@ -464,10 +464,6 @@ nsIStringCharsetDetector
 .
 h
 \
-nsMetaCharsetCID
-.
-h
-\
 nsXMLEncodingCID
 .
 h

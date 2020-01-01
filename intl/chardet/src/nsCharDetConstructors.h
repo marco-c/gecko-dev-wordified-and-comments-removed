@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsMetaCharsetCID
-.
-h
-"
-#
-include
-"
 nsICharsetDetector
 .
 h
