@@ -54,9 +54,6 @@ padding
 }
 groupbox
 :
-not
-(
-:
 -
 moz
 -
@@ -66,10 +63,7 @@ metric
 (
 windows
 -
-default
--
-theme
-)
+classic
 )
 {
 border

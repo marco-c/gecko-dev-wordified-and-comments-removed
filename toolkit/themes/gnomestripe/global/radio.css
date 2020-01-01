@@ -236,8 +236,6 @@ true
 color
 :
 GrayText
-!
-important
 ;
 }
 .
@@ -382,6 +380,17 @@ none
 ;
 }
 radio
+:
+not
+(
+[
+disabled
+=
+"
+true
+"
+]
+)
 :
 hover
 {
