@@ -2724,6 +2724,15 @@ _getTextContent
 (
 node
 )
+|
+|
+addon
+[
+STRING_KEY_MAP
+[
+localName
+]
+]
 ;
 continue
 ;
