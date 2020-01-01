@@ -343,6 +343,10 @@ HTMLLIElement
 .
 webidl
 \
+HTMLLinkElement
+.
+webidl
+\
 HTMLMapElement
 .
 webidl
