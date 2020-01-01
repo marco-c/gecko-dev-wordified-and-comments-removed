@@ -1144,6 +1144,12 @@ base
 ;
 if
 (
+argc
+!
+=
+0
+&
+&
 !
 JSVAL_IS_VOID
 (
@@ -1360,7 +1366,7 @@ if
 num_toString
 (
 cx
-argc
+0
 vp
 )
 )
@@ -2296,7 +2302,7 @@ JS_FN
 (
 js_toString_str
 num_toString
-1
+0
 1
 JSFUN_THISP_NUMBER
 )
