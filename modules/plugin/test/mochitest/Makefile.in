@@ -695,10 +695,6 @@ test_crash_notify_no_report
 .
 xul
 \
-test_crash_submit
-.
-xul
-\
 test_npruntime
 .
 xul
