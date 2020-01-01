@@ -175,9 +175,6 @@ document
 *
 /
 interface
-DOMStringMap
-;
-interface
 HTMLElement
 :
 Element
