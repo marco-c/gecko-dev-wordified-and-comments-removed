@@ -330,9 +330,6 @@ base
 SharedMemory
 shared_memory_
 ;
-uint32_t
-sequence_num_
-;
 #
 elif
 defined
@@ -352,6 +349,14 @@ x_shm_
 Display
 *
 display_
+;
+#
+endif
+#
+ifdef
+OS_WIN
+uint32_t
+sequence_num_
 ;
 #
 endif
