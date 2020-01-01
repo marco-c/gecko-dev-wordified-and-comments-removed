@@ -20793,7 +20793,7 @@ getProto
 obj
 -
 >
-getParent
+getGlobal
 (
 )
 &
