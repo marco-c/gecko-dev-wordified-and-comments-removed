@@ -3023,6 +3023,11 @@ tabs
 -
 menuitem
 "
+class
+=
+"
+syncTabsMenuItem
+"
 label
 =
 "
