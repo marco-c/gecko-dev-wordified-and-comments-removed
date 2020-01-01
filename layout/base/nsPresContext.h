@@ -3593,13 +3593,6 @@ mLanguage
 ;
 public
 :
-nsIFrame
-*
-mCurrentInflationContainer
-;
-nscoord
-mCurrentInflationContainerWidth
-;
 bool
 mInflationDisabledForShrinkWrap
 ;
