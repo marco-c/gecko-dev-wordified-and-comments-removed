@@ -548,7 +548,12 @@ outputNode
 querySelectorAll
 (
 "
-description
+.
+gcliterm
+-
+msg
+-
+body
 "
 )
 ;
@@ -557,7 +562,7 @@ is
 nodes
 .
 length
-2
+1
 "
 Right
 number
