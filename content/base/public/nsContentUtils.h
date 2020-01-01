@@ -3323,6 +3323,16 @@ aReturn
 )
 ;
 static
+nsIWidget
+*
+WidgetForDocument
+(
+nsIDocument
+*
+aDoc
+)
+;
+static
 already_AddRefed
 <
 mozilla

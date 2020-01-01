@@ -872,6 +872,16 @@ false
 )
 ;
 NS_IMETHOD
+SetEventCallback
+(
+EVENT_CALLBACK
+aEventFunction
+nsDeviceContext
+*
+aContext
+)
+;
+NS_IMETHOD
 AttachViewToTopLevel
 (
 EVENT_CALLBACK

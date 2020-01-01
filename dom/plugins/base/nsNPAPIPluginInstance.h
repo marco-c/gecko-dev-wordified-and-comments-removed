@@ -556,13 +556,6 @@ aWindowless
 )
 ;
 NPError
-SetWindowlessLocal
-(
-bool
-aWindowlessLocal
-)
-;
-NPError
 SetTransparent
 (
 bool
@@ -971,9 +964,6 @@ mRunning
 ;
 bool
 mWindowless
-;
-bool
-mWindowlessLocal
 ;
 bool
 mTransparent
