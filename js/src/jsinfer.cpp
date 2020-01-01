@@ -34616,6 +34616,9 @@ SizeOfScriptTypeInferenceData
 (
 RawScript
 script
+JS
+:
+:
 TypeInferenceSizes
 *
 sizes
@@ -34752,6 +34755,9 @@ JSCompartment
 :
 sizeOfTypeInferenceData
 (
+JS
+:
+:
 TypeInferenceSizes
 *
 sizes

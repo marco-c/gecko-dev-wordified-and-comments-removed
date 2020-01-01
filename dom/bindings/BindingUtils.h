@@ -2241,7 +2241,7 @@ toString
 ;
 if
 (
-js
+JS
 :
 :
 GetGCThingZone

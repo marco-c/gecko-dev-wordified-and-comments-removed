@@ -3537,13 +3537,13 @@ GCSliceCallback
 JSRuntime
 *
 rt
-js
+JS
 :
 :
 GCProgress
 progress
 const
-js
+JS
 :
 :
 GCDescription
@@ -3580,7 +3580,7 @@ SetGarbageCollecting
 progress
 =
 =
-js
+JS
 :
 :
 GC_CYCLE_BEGIN
@@ -3589,7 +3589,7 @@ GC_CYCLE_BEGIN
 progress
 =
 =
-js
+JS
 :
 :
 GC_SLICE_BEGIN
@@ -3723,7 +3723,7 @@ false
 ;
 if
 (
-js
+JS
 :
 :
 WasIncrementalGC
@@ -5563,7 +5563,7 @@ MOZ_ASSERT
 mReleaseRunnable
 )
 ;
-js
+JS
 :
 :
 SetGCSliceCallback
@@ -14344,7 +14344,7 @@ GCCallback
 ;
 mPrevGCSliceCallback
 =
-js
+JS
 :
 :
 SetGCSliceCallback
@@ -15678,7 +15678,7 @@ GetXPConnect
 (
 )
 )
-js
+JS
 :
 :
 PokeGC

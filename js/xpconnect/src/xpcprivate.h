@@ -2742,13 +2742,13 @@ GCSliceCallback
 JSRuntime
 *
 rt
-js
+JS
 :
 :
 GCProgress
 progress
 const
-js
+JS
 :
 :
 GCDescription
@@ -3419,7 +3419,7 @@ XPCIncrementalReleaseRunnable
 >
 mReleaseRunnable
 ;
-js
+JS
 :
 :
 GCSliceCallback
@@ -6413,13 +6413,13 @@ XPCWrappedNativeScope
 *
 mNext
 ;
-js
+JS
 :
 :
 ObjectPtr
 mGlobalJSObject
 ;
-js
+JS
 :
 :
 ObjectPtr
@@ -9411,7 +9411,7 @@ rt
 {
 if
 (
-js
+JS
 :
 :
 IsIncrementalBarrierNeeded
@@ -9580,7 +9580,7 @@ XPCWrappedNativeScope
 *
 mScope
 ;
-js
+JS
 :
 :
 ObjectPtr
@@ -11426,7 +11426,7 @@ JSObject
 obj
 )
 {
-js
+JS
 :
 :
 IncrementalObjectBarrier

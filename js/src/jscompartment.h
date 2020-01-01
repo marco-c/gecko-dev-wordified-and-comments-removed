@@ -1678,6 +1678,9 @@ GC
 (
 rt
 GC_NORMAL
+JS
+:
+:
 gcreason
 :
 :

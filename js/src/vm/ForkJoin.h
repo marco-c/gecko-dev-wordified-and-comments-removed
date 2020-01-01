@@ -161,6 +161,9 @@ isMainThread
 void
 requestGC
 (
+JS
+:
+:
 gcreason
 :
 :
@@ -177,6 +180,9 @@ JS
 Zone
 *
 zone
+JS
+:
+:
 gcreason
 :
 :

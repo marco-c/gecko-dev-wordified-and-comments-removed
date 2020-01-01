@@ -5370,7 +5370,7 @@ nsJSContext
 :
 GarbageCollectNow
 (
-js
+JS
 :
 :
 gcreason
@@ -13075,7 +13075,7 @@ NS_ERROR_DOM_SECURITY_ERR
 *
 aResult
 =
-js
+JS
 :
 :
 IsIncrementalGCEnabled

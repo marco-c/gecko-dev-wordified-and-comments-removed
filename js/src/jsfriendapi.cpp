@@ -597,6 +597,9 @@ rt
 if
 (
 !
+JS
+:
+:
 IsIncrementalGCInProgress
 (
 rt
@@ -3886,6 +3889,9 @@ empty
 }
 JS_FRIEND_API
 (
+JS
+:
+:
 GCSliceCallback
 )
 JS
@@ -3900,6 +3906,9 @@ GCSliceCallback
 callback
 )
 {
+JS
+:
+:
 GCSliceCallback
 old
 =
@@ -4138,6 +4147,9 @@ return
 }
 if
 (
+JS
+:
+:
 IsIncrementalGCInProgress
 (
 rt
@@ -4151,6 +4163,9 @@ rt
 gcInterFrameGC
 )
 {
+JS
+:
+:
 PrepareForIncrementalGC
 (
 rt

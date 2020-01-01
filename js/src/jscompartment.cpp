@@ -4153,6 +4153,9 @@ mallocSizeOf
 size_t
 *
 compartmentObject
+JS
+:
+:
 TypeInferenceSizes
 *
 tiSizes

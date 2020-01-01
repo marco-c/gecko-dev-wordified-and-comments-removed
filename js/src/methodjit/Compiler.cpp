@@ -7052,6 +7052,9 @@ masm
 .
 storeValue
 (
+JS
+:
+:
 ObjectValueCrashOnTouch
 (
 )

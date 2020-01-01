@@ -8146,6 +8146,9 @@ return
 if
 (
 !
+JS
+:
+:
 GCThingIsMarkedGray
 (
 thing
@@ -8240,6 +8243,9 @@ do
 JS_ASSERT
 (
 !
+JS
+:
+:
 GCThingIsMarkedGray
 (
 thing
@@ -8300,6 +8306,9 @@ JSTRACE_SHAPE
 if
 (
 !
+JS
+:
+:
 GCThingIsMarkedGray
 (
 thing

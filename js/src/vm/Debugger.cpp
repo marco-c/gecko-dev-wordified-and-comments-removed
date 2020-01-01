@@ -13340,6 +13340,9 @@ if
 global
 )
 {
+JS
+:
+:
 ExposeGCThingToActiveJS
 (
 global

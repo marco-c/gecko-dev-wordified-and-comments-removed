@@ -200,6 +200,9 @@ bool
 append
 (
 const
+JS
+:
+:
 CharPtr
 chars
 size_t
@@ -368,6 +371,9 @@ void
 infallibleAppend
 (
 const
+JS
+:
+:
 CharPtr
 chars
 size_t

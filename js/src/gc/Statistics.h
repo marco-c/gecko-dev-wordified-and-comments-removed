@@ -164,6 +164,9 @@ int
 zoneCount
 int
 compartmentCount
+JS
+:
+:
 gcreason
 :
 :
@@ -298,6 +301,9 @@ SliceData
 {
 SliceData
 (
+JS
+:
+:
 gcreason
 :
 :
@@ -332,6 +338,9 @@ phaseTimes
 )
 ;
 }
+JS
+:
+:
 gcreason
 :
 :
@@ -512,6 +521,9 @@ int
 zoneCount
 int
 compartmentCount
+JS
+:
+:
 gcreason
 :
 :

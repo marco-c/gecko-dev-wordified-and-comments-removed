@@ -91,10 +91,6 @@ mozilla
 namespace
 js
 {
-using
-namespace
-JS
-;
 }
 #
 define

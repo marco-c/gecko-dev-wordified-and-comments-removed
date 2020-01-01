@@ -542,6 +542,9 @@ if
 closurep
 )
 {
+JS
+:
+:
 ExposeGCThingToActiveJS
 (
 p
@@ -796,6 +799,9 @@ slot
 ;
 }
 }
+JS
+:
+:
 ExposeGCThingToActiveJS
 (
 closure
