@@ -189,6 +189,11 @@ nsIntSize
 aViewportSize
 )
 ;
+void
+FlushPreserveAspectRatioOverride
+(
+)
+;
 PRBool
 IsAnimated
 (

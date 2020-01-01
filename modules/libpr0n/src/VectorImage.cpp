@@ -1832,6 +1832,13 @@ mLastRenderedSize
 aViewportSize
 ;
 }
+mSVGDocumentWrapper
+-
+>
+FlushPreserveAspectRatioOverride
+(
+)
+;
 nsIntSize
 imageSize
 =
