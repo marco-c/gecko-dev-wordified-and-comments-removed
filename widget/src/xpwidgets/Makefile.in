@@ -501,6 +501,10 @@ GfxInfoWebGL
 .
 cpp
 \
+GfxDriverInfo
+.
+cpp
+\
 (
 NULL
 )
