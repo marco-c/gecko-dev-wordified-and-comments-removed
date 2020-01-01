@@ -2328,6 +2328,19 @@ linkExitFrame
 (
 )
 ;
+masm
+.
+Push
+(
+ImmWord
+(
+uintptr_t
+(
+NULL
+)
+)
+)
+;
 if
 (
 !
@@ -2414,7 +2427,7 @@ StackPointer
 IonExitFrameLayout
 :
 :
-Size
+SizeWithFooter
 (
 )
 )
@@ -2460,7 +2473,7 @@ adjustStack
 IonExitFrameLayout
 :
 :
-Size
+SizeWithFooter
 (
 )
 -

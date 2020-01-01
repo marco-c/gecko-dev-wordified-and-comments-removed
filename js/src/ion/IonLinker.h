@@ -268,6 +268,13 @@ copyFrom
 masm
 )
 ;
+masm
+.
+link
+(
+code
+)
+;
 return
 code
 ;
