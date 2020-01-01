@@ -93,15 +93,3 @@ MPL
 0
 /
 .
-DIRS
-+
-=
-[
-'
-non
--
-conf
--
-tests
-'
-]
