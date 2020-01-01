@@ -341,12 +341,6 @@ os
 .
 path
 .
-abspath
-(
-os
-.
-path
-.
 join
 (
 self
@@ -355,7 +349,6 @@ topobjdir
 '
 _tests
 '
-)
 )
         
 mochitest_dir
