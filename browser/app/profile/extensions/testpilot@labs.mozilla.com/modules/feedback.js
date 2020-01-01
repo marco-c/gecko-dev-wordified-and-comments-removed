@@ -333,6 +333,8 @@ Ci
 nsIIOService
 )
 ;
+try
+{
 let
 uri
 =
@@ -413,6 +415,16 @@ return
 true
 ;
 }
+}
+}
+catch
+(
+e
+)
+{
+return
+false
+;
 }
 return
 false
