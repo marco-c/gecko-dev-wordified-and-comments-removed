@@ -5555,6 +5555,11 @@ return
 true
 ;
 }
+jsval
+dummy
+=
+JSVAL_VOID
+;
 geo
 -
 >
@@ -5562,6 +5567,7 @@ WatchPosition
 (
 this
 nsnull
+dummy
 nsnull
 &
 mGeolocationWatchID
