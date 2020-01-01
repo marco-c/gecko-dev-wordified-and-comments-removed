@@ -578,10 +578,6 @@ nsXULPrototypeElement
 (
 )
 {
-UnlinkJSObjects
-(
-)
-;
 Unlink
 (
 )
@@ -738,11 +734,6 @@ aValue
 nsIURI
 *
 aDocumentURI
-)
-;
-void
-UnlinkJSObjects
-(
 )
 ;
 void
