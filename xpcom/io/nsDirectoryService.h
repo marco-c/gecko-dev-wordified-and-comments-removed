@@ -40,6 +40,15 @@ nsIAtom
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_XPCOM_INIT_CURRENT_PROCESS_DIR
 "
@@ -73,6 +82,7 @@ NS_DIRECTORY_SERVICE_CID
 }
 class
 nsDirectoryService
+MOZ_FINAL
 :
 public
 nsIDirectoryService

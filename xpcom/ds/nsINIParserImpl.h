@@ -19,6 +19,15 @@ nsIFactory
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_INIPARSERFACTORY_CID
 \
@@ -59,6 +68,7 @@ factory
 "
 class
 nsINIParserFactory
+MOZ_FINAL
 :
 public
 nsIINIParserFactory

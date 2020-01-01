@@ -12,6 +12,15 @@ nsIScriptableBase64Encoder
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_SCRIPTABLEBASE64ENCODER_CID
 \
@@ -46,6 +55,7 @@ scriptablebase64encoder
 "
 class
 nsScriptableBase64Encoder
+MOZ_FINAL
 :
 public
 nsIScriptableBase64Encoder

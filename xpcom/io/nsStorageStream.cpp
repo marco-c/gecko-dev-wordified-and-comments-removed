@@ -62,6 +62,15 @@ prlog
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 if
 defined
 (
@@ -1143,6 +1152,7 @@ NS_OK
 }
 class
 nsStorageInputStream
+MOZ_FINAL
 :
 public
 nsIInputStream

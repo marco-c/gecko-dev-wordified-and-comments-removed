@@ -26,6 +26,15 @@ nsCOMPtr
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_SCRIPTABLEINPUTSTREAM_CID
 \
@@ -66,6 +75,7 @@ Stream
 "
 class
 nsScriptableInputStream
+MOZ_FINAL
 :
 public
 nsIScriptableInputStream

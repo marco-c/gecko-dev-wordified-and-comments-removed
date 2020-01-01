@@ -5,6 +5,15 @@ nsUnicodeToUTF8_h___
 define
 nsUnicodeToUTF8_h___
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_UNICODETOUTF8_CID
 \
@@ -47,6 +56,7 @@ UTF
 "
 class
 nsUnicodeToUTF8
+MOZ_FINAL
 :
 public
 nsIUnicodeEncoder

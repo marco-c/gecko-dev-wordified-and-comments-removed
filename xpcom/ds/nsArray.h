@@ -33,6 +33,15 @@ nsCycleCollectionParticipant
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_ARRAY_CLASSNAME
 \
@@ -92,6 +101,7 @@ NS_DECL_NSIARRAY
 NS_DECL_NSIMUTABLEARRAY
 protected
 :
+virtual
 ~
 nsArray
 (
@@ -104,6 +114,7 @@ mArray
 ;
 class
 nsArrayCC
+MOZ_FINAL
 :
 public
 nsArray

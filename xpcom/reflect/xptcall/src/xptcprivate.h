@@ -18,6 +18,15 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 xptiInterfaceEntry
 ;
@@ -206,6 +215,7 @@ n
 ;
 class
 nsXPTCStubBase
+MOZ_FINAL
 :
 public
 nsIXPTCStubBase

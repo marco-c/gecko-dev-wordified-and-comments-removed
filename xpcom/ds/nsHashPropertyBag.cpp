@@ -47,6 +47,15 @@ nsVariant
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 nsresult
 NS_NewHashPropertyBag
 (
@@ -348,6 +357,7 @@ NS_OK
 }
 class
 nsSimpleProperty
+MOZ_FINAL
 :
 public
 nsIProperty

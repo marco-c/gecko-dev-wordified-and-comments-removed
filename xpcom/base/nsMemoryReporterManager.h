@@ -24,6 +24,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -36,6 +45,7 @@ Mutex
 ;
 class
 nsMemoryReporter
+MOZ_FINAL
 :
 public
 nsIMemoryReporter

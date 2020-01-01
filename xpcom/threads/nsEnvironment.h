@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Mutex
 .
 h
@@ -56,6 +65,7 @@ environment
 "
 class
 nsEnvironment
+MOZ_FINAL
 :
 public
 nsIEnvironment

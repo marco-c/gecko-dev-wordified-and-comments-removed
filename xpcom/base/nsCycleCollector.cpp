@@ -182,6 +182,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsICycleCollectorListener
 .
 h
@@ -4687,6 +4696,7 @@ mType
 ;
 class
 nsCycleCollectorLogger
+MOZ_FINAL
 :
 public
 nsICycleCollectorListener
