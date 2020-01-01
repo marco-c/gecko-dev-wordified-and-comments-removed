@@ -1399,7 +1399,10 @@ NSAccessibilityRoleDescription
 self
 role
 ]
-nil
+[
+self
+subrole
+]
 )
 ;
 }

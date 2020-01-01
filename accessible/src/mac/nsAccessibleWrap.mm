@@ -813,6 +813,12 @@ roles
 :
 TEXT_LEAF
 :
+case
+roles
+:
+:
+PASSWORD_TEXT
+:
 /
 /
 normal
