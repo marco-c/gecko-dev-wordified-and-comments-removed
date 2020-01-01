@@ -460,7 +460,9 @@ modified
 define
 BrandFullNameInternal
 "
-Namoroka
+Mozilla
+Developer
+Preview
 "
 !
 define

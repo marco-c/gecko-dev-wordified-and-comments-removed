@@ -3,7 +3,9 @@
 ENTITY
 brandShortName
 "
-Namoroka
+Mozilla
+Developer
+Preview
 "
 >
 <
@@ -11,7 +13,9 @@ Namoroka
 ENTITY
 brandFullName
 "
-Namoroka
+Mozilla
+Developer
+Preview
 "
 >
 <
@@ -78,7 +82,7 @@ org
 /
 projects
 /
-namoroka
+devpreview
 /
 releases
 /
