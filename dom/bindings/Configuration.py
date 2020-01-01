@@ -1492,21 +1492,6 @@ isCallback
 )
 :
             
-if
-self
-.
-workers
-:
-                
-nativeTypeDefault
-=
-"
-JSObject
-"
-            
-else
-:
-                
 nativeTypeDefault
 =
 "
