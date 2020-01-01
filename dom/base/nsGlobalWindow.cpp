@@ -24775,7 +24775,7 @@ nullptr
 ;
 }
 return
-JS_FALSE
+nullptr
 ;
 }
 static
