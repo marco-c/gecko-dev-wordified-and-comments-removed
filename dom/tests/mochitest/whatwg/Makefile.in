@@ -570,6 +570,10 @@ jar
 headers
 ^
 \
+test_bug477323
+.
+html
+\
 (
 NULL
 )
