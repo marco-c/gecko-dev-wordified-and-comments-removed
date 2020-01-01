@@ -3244,7 +3244,8 @@ get
 "
 Mozilla
 Services
-Password
+Encryption
+Passphrase
 "
 )
 ;
@@ -3259,8 +3260,7 @@ get
 "
 Mozilla
 Services
-Encryption
-Passphrase
+Password
 "
 )
 ;
