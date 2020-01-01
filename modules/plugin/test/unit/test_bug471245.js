@@ -275,8 +275,6 @@ host
 .
 getPluginTags
 (
-{
-}
 )
 ;
 for

@@ -890,6 +890,9 @@ aPluginArray
 void
 getPluginTags
 (
+[
+optional
+]
 out
 unsigned
 long

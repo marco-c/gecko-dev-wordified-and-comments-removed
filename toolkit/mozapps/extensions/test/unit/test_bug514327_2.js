@@ -56,8 +56,6 @@ host
 .
 getPluginTags
 (
-{
-}
 )
 ;
 for

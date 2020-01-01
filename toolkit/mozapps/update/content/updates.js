@@ -2190,8 +2190,6 @@ phs
 .
 getPluginTags
 (
-{
-}
 )
 ;
 var

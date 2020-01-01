@@ -86,8 +86,6 @@ ph
 .
 getPluginTags
 (
-{
-}
 )
 ;
 for
