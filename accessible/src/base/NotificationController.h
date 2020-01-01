@@ -528,6 +528,16 @@ nsIPresShell
 *
 mPresShell
 ;
+enum
+eTreeConstructedState
+{
+eTreeConstructed
+eTreeConstructionPending
+}
+;
+eTreeConstructedState
+mTreeConstructedState
+;
 class
 ContentInsertion
 {
