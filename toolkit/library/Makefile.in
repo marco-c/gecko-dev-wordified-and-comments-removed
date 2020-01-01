@@ -1651,6 +1651,9 @@ lhardware_legacy
 -
 lhardware
 \
+-
+lutils
+\
 (
 NULL
 )
