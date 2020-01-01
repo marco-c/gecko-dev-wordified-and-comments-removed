@@ -237,7 +237,7 @@ tabs
 3
 ]
 "
-TabPin
+TabPinned
 "
 )
 ;
@@ -258,7 +258,7 @@ eh
 eventCount
 2
 "
-TabPin
+TabPinned
 event
 should
 be
@@ -300,7 +300,7 @@ tabs
 1
 ]
 "
-TabPin
+TabPinned
 "
 )
 ;
@@ -321,7 +321,7 @@ eh
 eventCount
 2
 "
-TabPin
+TabPinned
 event
 should
 be
@@ -427,7 +427,7 @@ tabs
 1
 ]
 "
-TabUnpin
+TabUnpinned
 "
 )
 ;
@@ -448,7 +448,7 @@ eh
 eventCount
 2
 "
-TabUnpin
+TabUnpinned
 event
 should
 be
@@ -487,7 +487,7 @@ tabs
 3
 ]
 "
-TabUnpin
+TabUnpinned
 "
 )
 ;
@@ -508,7 +508,7 @@ eh
 eventCount
 2
 "
-TabUnpin
+TabUnpinned
 event
 should
 be

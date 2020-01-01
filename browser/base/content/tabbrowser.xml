@@ -1591,7 +1591,7 @@ event
 initEvent
 (
 "
-TabPin
+TabPinned
 "
 true
 false
@@ -1724,7 +1724,7 @@ event
 initEvent
 (
 "
-TabUnpin
+TabUnpinned
 "
 true
 false
