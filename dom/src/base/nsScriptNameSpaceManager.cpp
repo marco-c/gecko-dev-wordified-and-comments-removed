@@ -1909,6 +1909,10 @@ return
 NS_OK
 ;
 }
+#
+define
+GLOBALNAME_HASHTABLE_INITIAL_SIZE
+1024
 nsresult
 nsScriptNameSpaceManager
 :
@@ -1945,7 +1949,7 @@ sizeof
 (
 GlobalNameMapEntry
 )
-128
+GLOBALNAME_HASHTABLE_INITIAL_SIZE
 )
 ;
 NS_ENSURE_TRUE

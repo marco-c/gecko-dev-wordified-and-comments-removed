@@ -2449,6 +2449,10 @@ return
 wrapper
 ;
 }
+#
+define
+ATOM_HASHTABLE_INITIAL_SIZE
+4096
 static
 inline
 AtomTableEntry
@@ -2494,7 +2498,7 @@ sizeof
 (
 AtomTableEntry
 )
-2048
+ATOM_HASHTABLE_INITIAL_SIZE
 )
 )
 {
@@ -2578,7 +2582,7 @@ sizeof
 (
 AtomTableEntry
 )
-2048
+ATOM_HASHTABLE_INITIAL_SIZE
 )
 )
 {
