@@ -229,6 +229,15 @@ NativeMenuItem
 (
 )
 ;
+static
+PRBool
+IsXULHelpMenu
+(
+nsIContent
+*
+aMenuContent
+)
+;
 protected
 :
 void
