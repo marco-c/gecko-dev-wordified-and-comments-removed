@@ -447,6 +447,10 @@ test_add_twice_failure
 .
 html
 \
+test_create_index
+.
+html
+\
 test_create_objectStore
 .
 html
@@ -460,6 +464,10 @@ test_event_source
 html
 \
 test_global_data
+.
+html
+\
+test_indexes
 .
 html
 \
@@ -503,6 +511,10 @@ test_readonly_transactions
 .
 html
 \
+test_remove_index
+.
+html
+\
 test_remove_objectStore
 .
 html
@@ -520,14 +532,6 @@ test_setVersion
 html
 \
 test_writer_starvation
-.
-html
-\
-test_create_index
-.
-html
-\
-test_remove_index
 .
 html
 \
