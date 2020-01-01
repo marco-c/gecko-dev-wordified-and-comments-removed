@@ -25488,9 +25488,10 @@ FrameChanged
 imgIContainer
 *
 aContainer
+const
 nsIntRect
 *
-dirtyRect
+aDirtyRect
 )
 ;
 NS_IMETHOD
@@ -26479,9 +26480,10 @@ FrameChanged
 imgIContainer
 *
 aContainer
+const
 nsIntRect
 *
-dirtyRect
+aDirtyRect
 )
 {
 nsresult
@@ -26493,7 +26495,7 @@ nsImageLoadingContent
 FrameChanged
 (
 aContainer
-dirtyRect
+aDirtyRect
 )
 ;
 Invalidate

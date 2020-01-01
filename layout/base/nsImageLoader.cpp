@@ -547,9 +547,10 @@ FrameChanged
 imgIContainer
 *
 aContainer
+const
 nsIntRect
 *
-dirtyRect
+aDirtyRect
 )
 {
 if
@@ -573,7 +574,7 @@ NS_OK
 nsRect
 r
 =
-dirtyRect
+aDirtyRect
 -
 >
 ToAppUnits

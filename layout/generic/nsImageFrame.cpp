@@ -2482,6 +2482,7 @@ FrameChanged
 imgIContainer
 *
 aContainer
+const
 nsIntRect
 *
 aDirtyRect
@@ -8395,6 +8396,7 @@ FrameChanged
 imgIContainer
 *
 aContainer
+const
 nsIntRect
 *
 aDirtyRect
@@ -8599,9 +8601,10 @@ FrameChanged
 imgIContainer
 *
 aContainer
+const
 nsIntRect
 *
-dirtyRect
+aDirtyRect
 )
 {
 if
@@ -8619,7 +8622,7 @@ mFrame
 FrameChanged
 (
 aContainer
-dirtyRect
+aDirtyRect
 )
 ;
 }
