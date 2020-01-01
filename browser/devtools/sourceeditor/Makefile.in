@@ -453,14 +453,6 @@ source
 -
 editor
 -
-textarea
-.
-jsm
-\
-source
--
-editor
--
 ui
 .
 jsm
