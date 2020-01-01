@@ -571,12 +571,6 @@ PRBool
 aCancel
 )
 ;
-nsIDOMNode
-*
-GetBody
-(
-)
-;
 nsPlaintextEditor
 *
 mEditor
@@ -595,12 +589,6 @@ nsCOMPtr
 nsIDOMNode
 >
 mBogusNode
-;
-nsCOMPtr
-<
-nsIDOMNode
->
-mBody
 ;
 nsCOMPtr
 <
