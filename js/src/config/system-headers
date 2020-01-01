@@ -1971,6 +1971,9 @@ h
 nssilock
 .
 h
+nsswitch
+.
+h
 objbase
 .
 h
@@ -2802,6 +2805,11 @@ h
 sys
 /
 syssgi
+.
+h
+sys
+/
+system_properties
 .
 h
 sys
