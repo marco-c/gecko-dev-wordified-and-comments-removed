@@ -85,6 +85,13 @@ h
 #
 include
 "
+jsgcmark
+.
+h
+"
+#
+include
+"
 jslock
 .
 h

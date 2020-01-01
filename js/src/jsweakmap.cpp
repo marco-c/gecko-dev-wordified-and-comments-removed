@@ -50,6 +50,13 @@ h
 #
 include
 "
+jsgcmark
+.
+h
+"
+#
+include
+"
 jsweakmap
 .
 h

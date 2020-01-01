@@ -142,6 +142,13 @@ h
 #
 include
 "
+jsgcmark
+.
+h
+"
+#
+include
+"
 jsiter
 .
 h
