@@ -8600,6 +8600,16 @@ NS_THEME_WINDOW_BUTTON_BOX
 case
 NS_THEME_WINDOW_BUTTON_BOX_MAXIMIZED
 :
+if
+(
+nsUXThemeData
+:
+:
+CheckForCompositor
+(
+)
+)
+{
 QueryForButtonData
 (
 aFrame
@@ -8672,6 +8682,9 @@ PR_FALSE
 ;
 return
 NS_OK
+;
+}
+break
 ;
 case
 NS_THEME_WINDOW_FRAME_LEFT
