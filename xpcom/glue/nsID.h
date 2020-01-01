@@ -53,9 +53,13 @@ other
 const
 {
 return
-(
-PRBool
-)
+this
+=
+=
+&
+other
+|
+|
 (
 (
 (
