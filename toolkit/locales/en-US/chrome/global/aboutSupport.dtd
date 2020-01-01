@@ -191,9 +191,9 @@ Directory
 ENTITY
 aboutSupport
 .
-appBasicsPlugins
+appBasicsEnabledPlugins
 "
-Installed
+Enabled
 Plugins
 "
 >
