@@ -587,6 +587,10 @@ window_preferences3
 .
 xul
 \
+window_preferences_commandretarget
+.
+xul
+\
 test_autocomplete2
 .
 xul
