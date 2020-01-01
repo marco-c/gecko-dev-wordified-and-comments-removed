@@ -491,10 +491,6 @@ AndroidGraphicBuffer
 .
 cpp
 \
-AndroidBackingSurface
-.
-cpp
-\
 AndroidJNI
 .
 cpp
@@ -601,9 +597,6 @@ AndroidJavaWrappers
 .
 h
 AndroidFlexViewWrapper
-.
-h
-AndroidBackingSurface
 .
 h
 include
