@@ -46,6 +46,13 @@ nsIDocument
 .
 h
 "
+#
+include
+"
+nsCSSProperty
+.
+h
+"
 class
 nsIAtom
 ;
