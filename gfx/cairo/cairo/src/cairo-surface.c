@@ -3494,7 +3494,7 @@ surface
 pixman_image
 pixman_image_get_component_alpha
 (
-surface
+image
 -
 >
 pixman_image
