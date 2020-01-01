@@ -1095,6 +1095,9 @@ mMightNeedSecondPass
 nscoord
 mLastDropdownComputedHeight
 ;
+nscolor
+mLastDropdownBackstopColor
+;
 nsRefPtr
 <
 nsListEventListener
