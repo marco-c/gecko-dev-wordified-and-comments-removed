@@ -1791,7 +1791,6 @@ LInsp
 i
 Reservation
 *
-unused
 Register
 r
 )
@@ -2847,6 +2846,10 @@ else
 FSTQ
 (
 pop
+?
+1
+:
+0
 dr
 rb
 )
@@ -6945,6 +6948,12 @@ rr
 gr
 )
 ;
+SSE_XORPDr
+(
+rr
+rr
+)
+;
 }
 else
 {
@@ -6977,7 +6986,6 @@ asm_prep_fcall
 (
 Reservation
 *
-unused
 LInsp
 ins
 )
@@ -7096,6 +7104,12 @@ SSE_CVTSI2SD
 (
 rr
 gr
+)
+;
+SSE_XORPDr
+(
+rr
+rr
 )
 ;
 LIns
