@@ -163,10 +163,6 @@ manifest
 (
 NULL
 )
-TEST_DIRS
-+
-=
-tests
 PREF_JS_EXPORTS
 =
 (

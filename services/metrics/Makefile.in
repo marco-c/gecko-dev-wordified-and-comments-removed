@@ -152,10 +152,6 @@ PP_TARGETS
 +
 =
 MAIN_JS_MODULE
-TEST_DIRS
-+
-=
-tests
 JS_MODULES
 :
 =
