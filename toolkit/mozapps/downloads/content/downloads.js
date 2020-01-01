@@ -5735,7 +5735,7 @@ if
 (
 combinedSearch
 .
-search
+indexOf
 (
 term
 )
