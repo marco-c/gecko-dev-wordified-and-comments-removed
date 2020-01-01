@@ -844,7 +844,7 @@ value
 =
 attrValue
 .
-ToFloat
+ToDouble
 (
 &
 error

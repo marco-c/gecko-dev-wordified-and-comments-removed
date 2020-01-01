@@ -807,7 +807,7 @@ duration
 =
 durationText
 .
-ToFloat
+ToDouble
 (
 &
 ec

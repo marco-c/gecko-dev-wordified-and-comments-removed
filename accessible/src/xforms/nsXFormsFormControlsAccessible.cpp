@@ -1011,7 +1011,7 @@ aMaximumValue
 =
 value
 .
-ToFloat
+ToDouble
 (
 &
 error
@@ -1080,7 +1080,7 @@ aMinimumValue
 =
 value
 .
-ToFloat
+ToDouble
 (
 &
 error
@@ -1149,7 +1149,7 @@ aMinimumIncrement
 =
 value
 .
-ToFloat
+ToDouble
 (
 &
 error
@@ -1218,7 +1218,7 @@ aCurrentValue
 =
 value
 .
-ToFloat
+ToDouble
 (
 &
 error
