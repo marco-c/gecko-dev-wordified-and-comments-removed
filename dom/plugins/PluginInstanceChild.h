@@ -426,6 +426,12 @@ AnswerSetPluginFocus
 (
 )
 ;
+virtual
+bool
+AnswerUpdateWindow
+(
+)
+;
 public
 :
 PluginInstanceChild
