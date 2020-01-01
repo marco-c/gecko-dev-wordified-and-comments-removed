@@ -162,13 +162,6 @@ h
 #
 include
 "
-nsFrameWindow
-.
-h
-"
-#
-include
-"
 nsIdleServiceOS2
 .
 h
@@ -195,7 +188,7 @@ nsFilePicker
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
-nsFrameWindow
+nsChildWindow
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
@@ -322,7 +315,7 @@ os2
 ;
 1
 "
-nsWindowConstructor
+nsChildWindowConstructor
 }
 {
 "
@@ -476,7 +469,6 @@ nsToolkitConstructor
 OS
 /
 2
-Frame
 Window
 "
 NS_WINDOW_CID
@@ -493,7 +485,7 @@ os2
 ;
 1
 "
-nsFrameWindowConstructor
+nsWindowConstructor
 }
 {
 "

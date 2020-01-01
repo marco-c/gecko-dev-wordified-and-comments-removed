@@ -471,7 +471,7 @@ nsFilePicker
 .
 cpp
 \
-nsFrameWindow
+os2FrameWindow
 .
 cpp
 \
