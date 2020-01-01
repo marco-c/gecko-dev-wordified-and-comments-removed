@@ -150,6 +150,14 @@ GetScrollState
 (
 )
 ;
+NS_HIDDEN_
+(
+void
+)
+ClearNonScrollState
+(
+)
+;
 protected
 :
 nsInterfaceHashtable

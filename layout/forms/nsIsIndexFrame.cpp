@@ -278,6 +278,13 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+nsLayoutErrors
+.
+h
+"
 nsIFrame
 *
 NS_NewIsIndexFrame
@@ -2343,6 +2350,13 @@ res
 res
 )
 ;
+if
+(
+res
+=
+=
+NS_STATE_PROPERTY_EXISTS
+)
 SetInputValue
 (
 stateString

@@ -5327,10 +5327,10 @@ state
 ;
 if
 (
-NS_SUCCEEDED
-(
 rv
-)
+=
+=
+NS_STATE_PROPERTY_EXISTS
 )
 {
 RestoreStateTo
