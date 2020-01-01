@@ -453,6 +453,10 @@ DirectoryProvider
 .
 js
 \
+Sidebar
+.
+js
+\
 (
 NULL
 )
