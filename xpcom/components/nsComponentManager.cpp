@@ -3905,6 +3905,12 @@ Clear
 (
 )
 ;
+delete
+sStaticModules
+;
+delete
+sModuleLocations
+;
 mNativeModuleLoader
 .
 UnloadLibraries
