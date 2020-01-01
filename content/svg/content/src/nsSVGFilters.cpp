@@ -13193,8 +13193,8 @@ sIntegerInfo
 ;
 enum
 {
-STITCHTILES
 TYPE
+STITCHTILES
 }
 ;
 nsSVGEnum
@@ -13205,13 +13205,13 @@ mEnumAttributes
 ;
 static
 nsSVGEnumMapping
-sStitchTilesMap
+sTypeMap
 [
 ]
 ;
 static
 nsSVGEnumMapping
-sTypeMap
+sStitchTilesMap
 [
 ]
 ;
