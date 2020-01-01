@@ -985,6 +985,11 @@ InterAppConnectionRequest
 webidl
 '
 '
+InterAppMessageEvent
+.
+webidl
+'
+'
 InterAppMessagePort
 .
 webidl
