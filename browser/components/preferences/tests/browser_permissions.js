@@ -136,6 +136,11 @@ popup
 "
 :
 PERM_DENY
+"
+plugins
+"
+:
+PERM_ALLOW
 }
 ;
 const
@@ -153,7 +158,7 @@ indexedDB
 const
 TEST_PERMS_COUNT
 =
-5
+6
 ;
 function
 test

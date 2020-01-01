@@ -1339,6 +1339,14 @@ plugin_both2
 .
 html
 \
+plugin_clickToPlayAllow
+.
+html
+\
+plugin_clickToPlayDeny
+.
+html
+\
 alltabslistener
 .
 html
