@@ -666,9 +666,10 @@ BeginUpdate
 mRestyleManager
 -
 >
-mInStyleRefresh
-=
+SetInStyleRefresh
+(
 true
+)
 ;
 while
 (
@@ -1106,9 +1107,10 @@ FlushOverflowChangedTracker
 mRestyleManager
 -
 >
-mInStyleRefresh
-=
+SetInStyleRefresh
+(
 false
+)
 ;
 mRestyleManager
 -
