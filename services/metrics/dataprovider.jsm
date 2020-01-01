@@ -1798,9 +1798,9 @@ function
 )
 {
 return
-Promise
+CommonUtils
 .
-resolve
+laterTickResolvingPromise
 (
 )
 ;
@@ -1812,9 +1812,9 @@ function
 )
 {
 return
-Promise
+CommonUtils
 .
-resolve
+laterTickResolvingPromise
 (
 )
 ;
@@ -1826,9 +1826,9 @@ function
 )
 {
 return
-Promise
+CommonUtils
 .
-resolve
+laterTickResolvingPromise
 (
 )
 ;
@@ -1840,9 +1840,9 @@ function
 )
 {
 return
-Promise
+CommonUtils
 .
-resolve
+laterTickResolvingPromise
 (
 )
 ;
