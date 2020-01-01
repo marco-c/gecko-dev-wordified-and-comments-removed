@@ -238,9 +238,6 @@ store
 createRecord
 (
 id
-baseuri
-+
-id
 )
 ;
 _
@@ -299,13 +296,6 @@ store
 .
 createRecord
 (
-"
-deleted
-!
-!
-"
-baseuri
-+
 "
 deleted
 !

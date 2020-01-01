@@ -236,11 +236,6 @@ createRecord
 "
 pos5
 "
-baseuri
-+
-"
-pos5
-"
 )
 ;
 do_check_eq
@@ -275,11 +270,6 @@ store
 .
 createRecord
 (
-"
-pos10
-"
-baseuri
-+
 "
 pos10
 "
@@ -383,11 +373,6 @@ createRecord
 "
 pos0
 "
-baseuri
-+
-"
-pos0
-"
 )
 .
 predecessorid
@@ -400,11 +385,6 @@ store
 .
 createRecord
 (
-"
-pos1
-"
-baseuri
-+
 "
 pos1
 "

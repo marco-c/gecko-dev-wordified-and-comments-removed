@@ -2295,8 +2295,8 @@ createRecord
 function
 createRecord
 (
-guid
-uri
+id
+collection
 )
 {
 let
@@ -2306,7 +2306,7 @@ this
 .
 _findURLByGUID
 (
-guid
+id
 )
 ;
 let
@@ -2315,7 +2315,8 @@ record
 new
 HistoryRec
 (
-uri
+collection
+id
 )
 ;
 if

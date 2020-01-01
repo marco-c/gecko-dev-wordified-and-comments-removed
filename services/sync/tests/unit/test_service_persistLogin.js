@@ -45,6 +45,16 @@ try
 {
 Weave
 .
+Svc
+.
+Login
+.
+removeAllLogins
+(
+)
+;
+Weave
+.
 Service
 .
 username
@@ -70,8 +80,7 @@ Service
 passphrase
 =
 "
-my
-preciousss
+abbbbbcccccdddddeeeeefffff
 "
 ;
 _
@@ -287,8 +296,7 @@ logins
 .
 password
 "
-my
-preciousss
+abbbbbcccccdddddeeeeefffff
 "
 )
 ;

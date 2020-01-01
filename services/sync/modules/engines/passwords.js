@@ -941,8 +941,8 @@ createRecord
 function
 createRecord
 (
-guid
-uri
+id
+collection
 )
 {
 let
@@ -951,7 +951,8 @@ record
 new
 LoginRec
 (
-uri
+collection
+id
 )
 ;
 let
@@ -961,7 +962,7 @@ this
 .
 _getLoginFromGUID
 (
-guid
+id
 )
 ;
 if

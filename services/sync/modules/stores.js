@@ -308,7 +308,8 @@ function
 Store_createRecord
 (
 id
-uri
+collection
+id
 )
 {
 throw

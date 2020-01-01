@@ -24,13 +24,6 @@ js
 "
 base_records
 /
-keys
-.
-js
-"
-"
-base_records
-/
 wbo
 .
 js

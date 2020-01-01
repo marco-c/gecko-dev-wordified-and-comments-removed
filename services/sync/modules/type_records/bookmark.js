@@ -96,7 +96,8 @@ js
 function
 PlacesItem
 (
-uri
+collection
+id
 type
 )
 {
@@ -105,7 +106,8 @@ CryptoWrapper
 call
 (
 this
-uri
+collection
+id
 )
 ;
 this
@@ -130,8 +132,6 @@ decrypt
 function
 PlacesItem_decrypt
 (
-passphrase
-keyUri
 )
 {
 let
@@ -302,7 +302,8 @@ type
 function
 Bookmark
 (
-uri
+collection
+id
 type
 )
 {
@@ -311,7 +312,8 @@ PlacesItem
 call
 (
 this
-uri
+collection
+id
 type
 |
 |
@@ -373,7 +375,8 @@ keyword
 function
 BookmarkMicsum
 (
-uri
+collection
+id
 )
 {
 Bookmark
@@ -381,7 +384,8 @@ Bookmark
 call
 (
 this
-uri
+collection
+id
 "
 microsummary
 "
@@ -428,7 +432,8 @@ staticTitle
 function
 BookmarkQuery
 (
-uri
+collection
+id
 )
 {
 Bookmark
@@ -436,7 +441,8 @@ Bookmark
 call
 (
 this
-uri
+collection
+id
 "
 query
 "
@@ -480,7 +486,8 @@ folderName
 function
 BookmarkFolder
 (
-uri
+collection
+id
 type
 )
 {
@@ -489,7 +496,8 @@ PlacesItem
 call
 (
 this
-uri
+collection
+id
 type
 |
 |
@@ -539,7 +547,8 @@ title
 function
 Livemark
 (
-uri
+collection
+id
 )
 {
 BookmarkFolder
@@ -547,7 +556,8 @@ BookmarkFolder
 call
 (
 this
-uri
+collection
+id
 "
 livemark
 "
@@ -594,7 +604,8 @@ feedUri
 function
 BookmarkSeparator
 (
-uri
+collection
+id
 )
 {
 PlacesItem
@@ -602,7 +613,8 @@ PlacesItem
 call
 (
 this
-uri
+collection
+id
 "
 separator
 "

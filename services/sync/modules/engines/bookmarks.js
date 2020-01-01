@@ -4558,8 +4558,8 @@ createRecord
 function
 createRecord
 (
-guid
-uri
+id
+collection
 )
 {
 let
@@ -4567,7 +4567,7 @@ placeId
 =
 idForGUID
 (
-guid
+id
 )
 ;
 let
@@ -4586,7 +4586,8 @@ record
 new
 PlacesItem
 (
-uri
+collection
+id
 )
 ;
 record
@@ -4666,7 +4667,8 @@ record
 new
 BookmarkMicsum
 (
-uri
+collection
+id
 )
 ;
 let
@@ -4729,7 +4731,8 @@ record
 new
 BookmarkQuery
 (
-uri
+collection
+id
 )
 ;
 let
@@ -4822,7 +4825,8 @@ record
 new
 Bookmark
 (
-uri
+collection
+id
 )
 ;
 record
@@ -4932,7 +4936,8 @@ record
 new
 Livemark
 (
-uri
+collection
+id
 )
 ;
 let
@@ -4985,7 +4990,8 @@ record
 new
 BookmarkFolder
 (
-uri
+collection
+id
 )
 ;
 }
@@ -5040,7 +5046,8 @@ record
 new
 BookmarkSeparator
 (
-uri
+collection
+id
 )
 ;
 record
@@ -5083,7 +5090,8 @@ record
 new
 PlacesItem
 (
-uri
+collection
+id
 )
 ;
 this
@@ -5115,7 +5123,8 @@ record
 new
 PlacesItem
 (
-uri
+collection
+id
 )
 ;
 this

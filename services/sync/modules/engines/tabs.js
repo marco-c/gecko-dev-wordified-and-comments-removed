@@ -621,8 +621,8 @@ createRecord
 function
 createRecord
 (
-guid
-uri
+id
+collection
 )
 {
 let
@@ -631,7 +631,8 @@ record
 new
 TabSetRecord
 (
-uri
+collection
+id
 )
 ;
 record

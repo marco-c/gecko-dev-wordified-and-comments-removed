@@ -78,7 +78,8 @@ js
 function
 HistoryRec
 (
-uri
+collection
+id
 )
 {
 CryptoWrapper
@@ -86,7 +87,8 @@ CryptoWrapper
 call
 (
 this
-uri
+collection
+id
 )
 ;
 }

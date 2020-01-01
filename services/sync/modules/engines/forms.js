@@ -874,8 +874,8 @@ createRecord
 function
 createRecord
 (
-guid
-uri
+id
+collection
 )
 {
 let
@@ -884,7 +884,8 @@ record
 new
 FormRec
 (
-uri
+collection
+id
 )
 ;
 let
@@ -894,7 +895,7 @@ FormWrapper
 .
 getEntry
 (
-guid
+id
 )
 ;
 if
