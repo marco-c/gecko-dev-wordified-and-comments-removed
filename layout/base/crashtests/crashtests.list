@@ -251,7 +251,7 @@ load
 html
 asserts
 (
-8
+10
 )
 asserts
 -
@@ -263,7 +263,7 @@ MOZ_WIDGET_TOOLKIT
 "
 windows
 "
-10
+8
 )
 load
 265986
@@ -1269,7 +1269,7 @@ load
 html
 asserts
 (
-2
+6
 )
 load
 413587
