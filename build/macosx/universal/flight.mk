@@ -554,7 +554,7 @@ MacOS
 /
 chrome
 /
-embed
+toolkit
 .
 jar
 else
