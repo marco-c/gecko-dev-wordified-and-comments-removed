@@ -981,13 +981,12 @@ const
 0
 ;
 virtual
-nsresult
+already_AddRefed
+<
+nsISupports
+>
 SaveWindowState
 (
-nsISupports
-*
-*
-aState
 )
 =
 0
