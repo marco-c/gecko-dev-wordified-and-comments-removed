@@ -1100,6 +1100,14 @@ YMost
 {
 if
 (
+mBuffer
+-
+>
+SupportsSelfCopy
+(
+)
+&
+&
 mBufferRotation
 =
 =
