@@ -3540,6 +3540,8 @@ IsFullScreenEnabled
 (
 bool
 aIsCallerChrome
+bool
+aLogFailure
 )
 ;
 inline
