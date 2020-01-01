@@ -727,6 +727,10 @@ EXPORTS_mozilla
 layers
 =
 \
+Compositor
+.
+h
+\
 CompositorChild
 .
 h
@@ -753,6 +757,10 @@ NULL
 CPPSRCS
 +
 =
+\
+Compositor
+.
+cpp
 \
 CompositorChild
 .

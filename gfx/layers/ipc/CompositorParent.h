@@ -26,6 +26,9 @@ PLayersParent
 .
 h
 "
+class
+LayerManager
+;
 namespace
 mozilla
 {
@@ -91,6 +94,10 @@ void
 Composite
 (
 )
+;
+LayerManager
+*
+mLayerManager
 ;
 DISALLOW_EVIL_CONSTRUCTORS
 (
