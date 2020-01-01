@@ -685,6 +685,16 @@ src
 -
 I
 (
+topsrcdir
+)
+/
+netwerk
+/
+cache
+\
+-
+I
+(
 srcdir
 )
 \
