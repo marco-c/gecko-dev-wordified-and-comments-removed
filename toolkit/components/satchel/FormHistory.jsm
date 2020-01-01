@@ -4113,6 +4113,11 @@ numSearches
 +
 +
 ;
+let
+changeToUpdate
+=
+change
+;
 FormHistory
 .
 search
@@ -4221,7 +4226,7 @@ foundResult
 =
 true
 ;
-change
+changeToUpdate
 .
 guid
 =
