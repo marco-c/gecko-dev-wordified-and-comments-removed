@@ -3951,6 +3951,11 @@ mIndex
 mRequestedIndex
 ;
 }
+mRequestedIndex
+=
+-
+1
+;
 return
 NS_OK
 ;
