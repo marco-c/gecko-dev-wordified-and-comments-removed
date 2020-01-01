@@ -5044,6 +5044,17 @@ pid
 we
 can
 focus
+if
+(
+app
+!
+~
+/
+-
+bin
+/
+)
+{
 app
 .
 =
@@ -5052,6 +5063,7 @@ app
 bin
 "
 ;
+}
 my
 runargs
 =
