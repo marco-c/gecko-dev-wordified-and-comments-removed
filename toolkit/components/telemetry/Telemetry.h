@@ -87,6 +87,17 @@ sample
 )
 ;
 void
+Accumulate
+(
+const
+char
+*
+name
+uint32_t
+sample
+)
+;
+void
 AccumulateTimeDelta
 (
 ID
