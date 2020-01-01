@@ -19,13 +19,6 @@ jsj_private
 .
 h
 "
-#
-include
-"
-jscntxt
-.
-h
-"
 JS_STATIC_DLL_CALLBACK
 (
 JSBool
