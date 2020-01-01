@@ -18,6 +18,11 @@ CAIRO_MUTEX_DECLARE
 _cairo_scaled_font_map_mutex
 )
 ;
+CAIRO_MUTEX_DECLARE
+(
+_cairo_scaled_font_error_mutex
+)
+;
 #
 if
 CAIRO_HAS_FT_FONT

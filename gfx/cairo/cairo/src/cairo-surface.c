@@ -4486,6 +4486,9 @@ cairo_surface_t
 surface
 )
 {
+cairo_status_t
+status_ignored
+;
 assert
 (
 !
@@ -4512,6 +4515,8 @@ surface
 finished
 )
 {
+status_ignored
+=
 _cairo_surface_set_error
 (
 surface
@@ -4536,6 +4541,8 @@ NULL
 )
 return
 ;
+status_ignored
+=
 _cairo_surface_set_error
 (
 surface
@@ -4565,6 +4572,9 @@ cairo_surface_t
 surface
 )
 {
+cairo_status_t
+status_ignored
+;
 assert
 (
 !
@@ -4591,6 +4601,8 @@ surface
 finished
 )
 {
+status_ignored
+=
 _cairo_surface_set_error
 (
 surface
@@ -4615,6 +4627,8 @@ NULL
 )
 return
 ;
+status_ignored
+=
 _cairo_surface_set_error
 (
 surface
