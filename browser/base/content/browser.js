@@ -7723,7 +7723,7 @@ n
 }
 PlacesToolbarHelper
 .
-updateState
+init
 (
 )
 ;
@@ -18109,6 +18109,12 @@ uninit
 (
 )
 ;
+PlacesToolbarHelper
+.
+customizeStart
+(
+)
+;
 BookmarksMenuButton
 .
 customizeStart
@@ -18480,7 +18486,7 @@ endif
 }
 PlacesToolbarHelper
 .
-updateState
+customizeDone
 (
 )
 ;
