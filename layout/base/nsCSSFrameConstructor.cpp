@@ -44155,7 +44155,7 @@ PR_FALSE
 ;
 nsIFrame
 *
-continuingAreaFrame
+continuingBlockFrame
 ;
 nsIFrame
 *
@@ -44177,7 +44177,7 @@ aPresContext
 blockFrame
 newFrame
 &
-continuingAreaFrame
+continuingBlockFrame
 )
 ;
 if
@@ -44210,7 +44210,7 @@ newFrame
 SetInitialChildList
 (
 nsnull
-continuingAreaFrame
+continuingBlockFrame
 )
 ;
 }
@@ -44525,7 +44525,7 @@ PR_FALSE
 ;
 nsIFrame
 *
-continuingAreaFrame
+continuingBlockFrame
 ;
 nsIFrame
 *
@@ -44544,7 +44544,7 @@ aPresContext
 blockFrame
 newFrame
 &
-continuingAreaFrame
+continuingBlockFrame
 )
 ;
 if
@@ -44577,7 +44577,7 @@ newFrame
 SetInitialChildList
 (
 nsnull
-continuingAreaFrame
+continuingBlockFrame
 )
 ;
 }
