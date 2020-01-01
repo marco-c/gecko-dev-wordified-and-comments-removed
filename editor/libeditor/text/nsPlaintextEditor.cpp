@@ -370,6 +370,11 @@ nsPlaintextEditor
 (
 )
 {
+if
+(
+mRules
+)
+{
 nsCOMPtr
 <
 nsIEditActionListener
@@ -386,6 +391,7 @@ RemoveEditActionListener
 mListener
 )
 ;
+}
 RemoveEventListeners
 (
 )
