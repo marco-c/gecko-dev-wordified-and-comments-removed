@@ -24,6 +24,13 @@ h
 #
 include
 "
+jsdbgapi
+.
+h
+"
+#
+include
+"
 jscntxt
 .
 h
@@ -38,7 +45,7 @@ h
 #
 include
 "
-xpcprivate
+xpcpublic
 .
 h
 "
@@ -2426,7 +2433,7 @@ result
 if
 (
 !
-nsXPConnect
+xpc
 :
 :
 Base64Decode
@@ -2540,7 +2547,7 @@ result
 if
 (
 !
-nsXPConnect
+xpc
 :
 :
 Base64Encode

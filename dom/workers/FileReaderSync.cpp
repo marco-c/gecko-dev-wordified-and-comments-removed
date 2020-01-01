@@ -50,13 +50,6 @@ h
 #
 include
 "
-xpcprivate
-.
-h
-"
-#
-include
-"
 Exceptions
 .
 h
