@@ -435,6 +435,8 @@ idl
 mochitest
 chrome
 components
+/
+native
 XPCSHELL_TESTS
 =
 unit
