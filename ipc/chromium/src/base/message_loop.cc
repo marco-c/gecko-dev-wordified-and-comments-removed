@@ -336,6 +336,15 @@ state_
 (
 NULL
 )
+#
+ifdef
+OS_WIN
+os_modal_loop_
+(
+false
+)
+#
+endif
 next_sequence_num_
 (
 0
