@@ -436,10 +436,6 @@ LIBXUL_LIBRARY
 CPPSRCS
 =
 \
-nsObserverBase
-.
-cpp
-\
 nsCyrillicDetector
 .
 cpp
