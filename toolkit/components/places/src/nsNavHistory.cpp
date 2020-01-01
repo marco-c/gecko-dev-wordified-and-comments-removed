@@ -19045,9 +19045,6 @@ aTitle
 )
 ;
 }
-#
-ifndef
-MOZILLA_1_8_BRANCH
 NS_IMETHODIMP
 nsNavHistory
 :
@@ -19083,8 +19080,6 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-#
-endif
 PLDHashOperator
 PR_CALLBACK
 nsNavHistory

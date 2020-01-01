@@ -3581,12 +3581,7 @@ sniffer
 >
 GetMIMETypeFromContent
 (
-#
-ifndef
-MOZILLA_1_8_BRANCH
 aRequest
-#
-endif
 reinterpret_cast
 <
 PRUint8
