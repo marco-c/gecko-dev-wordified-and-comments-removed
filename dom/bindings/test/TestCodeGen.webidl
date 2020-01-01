@@ -3058,6 +3058,13 @@ well
 }
 ;
 interface
+TestChildInterface
+:
+TestInterface
+{
+}
+;
+interface
 TestNonWrapperCacheInterface
 {
 }
