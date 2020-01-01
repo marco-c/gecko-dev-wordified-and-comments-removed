@@ -179,8 +179,9 @@ _controller
 .
 Breakpoints
 ;
-new
 EventEmitter
+.
+decorate
 (
 this
 )

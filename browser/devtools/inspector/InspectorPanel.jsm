@@ -309,8 +309,9 @@ window
 null
 )
 ;
-new
 EventEmitter
+.
+decorate
 (
 this
 )

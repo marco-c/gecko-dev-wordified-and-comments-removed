@@ -9,13 +9,11 @@ widthBeforeClose
 heightBeforeClose
 ;
 let
-events
+mgr
 =
 ResponsiveUI
 .
 ResponsiveUIManager
-.
-events
 ;
 waitForExplicitFinish
 (
@@ -104,7 +102,7 @@ disabled
 "
 )
 ;
-events
+mgr
 .
 once
 (
@@ -882,7 +880,7 @@ content
 .
 innerHeight
 ;
-events
+mgr
 .
 once
 (
@@ -917,7 +915,7 @@ restart
 (
 )
 {
-events
+mgr
 .
 once
 (
@@ -1032,7 +1030,7 @@ restored
 "
 )
 ;
-events
+mgr
 .
 once
 (

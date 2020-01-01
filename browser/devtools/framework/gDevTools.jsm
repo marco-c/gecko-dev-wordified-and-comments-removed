@@ -236,8 +236,9 @@ bind
 this
 )
 ;
-new
 EventEmitter
+.
+decorate
 (
 this
 )

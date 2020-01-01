@@ -57,8 +57,9 @@ true
 }
 )
 {
-new
 EventEmitter
+.
+decorate
 (
 this
 )

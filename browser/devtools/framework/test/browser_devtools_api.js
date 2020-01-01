@@ -536,8 +536,9 @@ iframeWindow
 toolbox
 )
 {
-new
 EventEmitter
+.
+decorate
 (
 this
 )

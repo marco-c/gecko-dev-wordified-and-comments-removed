@@ -150,8 +150,9 @@ _toolbox
 =
 toolbox
 ;
-new
 EventEmitter
+.
+decorate
 (
 this
 )

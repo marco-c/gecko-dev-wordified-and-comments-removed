@@ -120,8 +120,9 @@ panelWin
 toolbox
 )
 {
-new
 EventEmitter
+.
+decorate
 (
 this
 )

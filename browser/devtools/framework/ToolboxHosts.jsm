@@ -115,8 +115,9 @@ hostTab
 =
 hostTab
 ;
-new
 EventEmitter
+.
+decorate
 (
 this
 )
@@ -465,8 +466,9 @@ hostTab
 =
 hostTab
 ;
-new
 EventEmitter
+.
+decorate
 (
 this
 )
@@ -821,8 +823,9 @@ bind
 this
 )
 ;
-new
 EventEmitter
+.
+decorate
 (
 this
 )

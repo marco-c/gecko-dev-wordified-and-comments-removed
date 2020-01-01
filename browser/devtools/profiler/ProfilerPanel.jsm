@@ -62,6 +62,7 @@ resource
 :
 /
 /
+gre
 /
 modules
 /
@@ -164,8 +165,9 @@ panel
 .
 window
 ;
-new
 EventEmitter
+.
+decorate
 (
 this
 )
@@ -750,8 +752,9 @@ _uid
 =
 0
 ;
-new
 EventEmitter
+.
+decorate
 (
 this
 )
