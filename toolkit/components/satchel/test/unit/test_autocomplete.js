@@ -143,7 +143,7 @@ expire_days
 ;
 else
 return
-180
+DEFAULT_EXPIRE_DAYS
 ;
 }
 function
