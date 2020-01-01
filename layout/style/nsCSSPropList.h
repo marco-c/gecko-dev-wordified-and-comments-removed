@@ -6466,7 +6466,7 @@ CSS_PROPERTY_PARSE_FUNCTION
 "
 "
 0
-kDisplayKTable
+nullptr
 offsetof
 (
 nsStyleDisplay
