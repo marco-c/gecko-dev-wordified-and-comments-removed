@@ -185,15 +185,5 @@ WCHAR
 wpath
 )
 ;
-int
-_wchdir
-(
-const
-unsigned
-short
-*
-path
-)
-;
 #
 endif
