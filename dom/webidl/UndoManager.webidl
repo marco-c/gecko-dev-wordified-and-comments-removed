@@ -148,9 +148,6 @@ apply
 .
 *
 /
-interface
-DOMTransaction
-;
 [
 PrefControlled
 ]

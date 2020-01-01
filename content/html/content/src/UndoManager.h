@@ -69,9 +69,6 @@ nsIContent
 h
 "
 class
-nsIUndoManagerTransaction
-;
-class
 nsITransactionManager
 ;
 class
@@ -86,6 +83,12 @@ ErrorResult
 namespace
 dom
 {
+class
+DOMTransaction
+;
+class
+DOMTransactionCallback
+;
 class
 UndoManager
 :
@@ -119,7 +122,7 @@ Transact
 JSContext
 *
 aCx
-nsIUndoManagerTransaction
+DOMTransaction
 &
 aTransaction
 bool
@@ -162,7 +165,7 @@ nsTArray
 <
 nsRefPtr
 <
-nsIUndoManagerTransaction
+DOMTransaction
 >
 >
 >
@@ -290,7 +293,7 @@ mHostNode
 void
 ManualTransact
 (
-nsIUndoManagerTransaction
+DOMTransaction
 *
 aTransaction
 ErrorResult
@@ -301,9 +304,12 @@ aRv
 void
 AutomaticTransact
 (
-nsIUndoManagerTransaction
+DOMTransaction
 *
 aTransaction
+DOMTransactionCallback
+*
+aCallback
 ErrorResult
 &
 aRv
@@ -316,7 +322,7 @@ uint32_t
 aIndex
 nsTArray
 <
-nsIUndoManagerTransaction
+DOMTransaction
 *
 >
 &
