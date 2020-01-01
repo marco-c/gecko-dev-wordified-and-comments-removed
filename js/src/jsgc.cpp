@@ -18457,7 +18457,7 @@ reason
 gcreason
 :
 :
-CC_FORCED
+SHUTDOWN_CC
 |
 |
 reason
@@ -18560,7 +18560,7 @@ reason
 gcreason
 :
 :
-CC_FORCED
+SHUTDOWN_CC
 &
 &
 rt
