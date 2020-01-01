@@ -11692,6 +11692,17 @@ source
 lines
 "
 "
+dumpHeap
+(
+[
+obj
+]
+)
+Display
+reachable
+objects
+"
+"
 notes
 (
 [
