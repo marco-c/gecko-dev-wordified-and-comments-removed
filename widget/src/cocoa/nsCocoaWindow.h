@@ -679,6 +679,11 @@ event
 void
 ReportSizeEvent
 (
+NSRect
+*
+overrideRect
+=
+nsnull
 )
 ;
 NS_IMETHOD
