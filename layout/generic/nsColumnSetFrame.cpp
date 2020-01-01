@@ -2996,6 +2996,10 @@ deleted
 "
 )
 ;
+child
+=
+nsnull
+;
 break
 ;
 }
@@ -3069,6 +3073,10 @@ create
 continuation
 "
 )
+;
+child
+=
+nsnull
 ;
 break
 ;
@@ -3203,6 +3211,10 @@ nsnull
 )
 ;
 }
+child
+=
+nsnull
+;
 break
 ;
 }
@@ -3214,9 +3226,8 @@ PresContext
 )
 -
 >
-CheckForInterrupt
+HasPendingInterrupt
 (
-this
 )
 )
 {
@@ -3309,8 +3320,9 @@ PresContext
 )
 -
 >
-HasPendingInterrupt
+CheckForInterrupt
 (
+this
 )
 &
 &
