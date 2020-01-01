@@ -94,6 +94,10 @@ browser_passwordmgrcopypwd
 .
 js
 \
+browser_passwordmgr_observers
+.
+js
+\
 (
 NULL
 )
