@@ -141,12 +141,9 @@ aIsOverridable
 )
 ;
 virtual
-Transparency
+nsTransparencyMode
 GetWidgetTransparency
 (
-nsIFrame
-*
-aFrame
 PRUint8
 aWidgetType
 )
