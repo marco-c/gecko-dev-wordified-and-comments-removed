@@ -1085,6 +1085,11 @@ aFormatFlags
 gfxUserFontSet
 :
 :
+FLAG_FORMAT_WOFF
+|
+gfxUserFontSet
+:
+:
 FLAG_FORMAT_OPENTYPE
 |
 gfxUserFontSet
