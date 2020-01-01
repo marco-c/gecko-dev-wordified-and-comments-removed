@@ -3501,7 +3501,7 @@ statement
 >
 BindInt32Parameter
 (
-0
+1
 TYPE_BOOKMARK
 )
 ;
