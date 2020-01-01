@@ -1601,6 +1601,10 @@ DOMCI_CLASS
 (
 MozVoicemailEvent
 )
+DOMCI_CLASS
+(
+MozIccManager
+)
 #
 endif
 #
