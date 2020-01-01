@@ -8203,10 +8203,10 @@ AssertPluginThread
 int32_t
 refCnt
 =
-PR_AtomicIncrement
+PR_ATOMIC_INCREMENT
 (
 (
-PRInt32
+int32_t
 *
 )
 &
@@ -8361,10 +8361,10 @@ return
 int32_t
 refCnt
 =
-PR_AtomicDecrement
+PR_ATOMIC_DECREMENT
 (
 (
-PRInt32
+int32_t
 *
 )
 &

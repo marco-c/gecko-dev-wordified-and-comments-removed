@@ -357,7 +357,7 @@ STRING_STAT_INCREMENT
 (
 _s
 )
-PR_AtomicIncrement
+PR_ATOMIC_INCREMENT
 (
 &
 gStringStats
@@ -619,7 +619,7 @@ AddRef
 (
 )
 {
-PR_AtomicIncrement
+PR_ATOMIC_INCREMENT
 (
 &
 mRefCount
@@ -656,7 +656,7 @@ Release
 PRInt32
 count
 =
-PR_AtomicDecrement
+PR_ATOMIC_DECREMENT
 (
 &
 mRefCount

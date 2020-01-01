@@ -1330,7 +1330,7 @@ return
 ;
 }
 }
-PR_AtomicIncrement
+PR_ATOMIC_INCREMENT
 (
 &
 gAssertionCount

@@ -1636,7 +1636,7 @@ break
 if
 (
 !
-PR_AtomicSet
+PR_ATOMIC_SET
 (
 &
 mInvalidated

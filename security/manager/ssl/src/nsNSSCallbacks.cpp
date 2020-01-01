@@ -1273,9 +1273,8 @@ AddRef
 (
 )
 {
-PR_AtomicIncrement
+NS_AtomicIncrementRefcnt
 (
-&
 mRefCount
 )
 ;
@@ -1291,9 +1290,8 @@ Release
 PRInt32
 newRefCount
 =
-PR_AtomicDecrement
+NS_AtomicDecrementRefcnt
 (
-&
 mRefCount
 )
 ;

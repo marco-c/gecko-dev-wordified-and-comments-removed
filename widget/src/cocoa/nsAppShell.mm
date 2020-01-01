@@ -3203,7 +3203,7 @@ mNativeEventCallbackDepth
 {
 releaseCount
 =
-PR_AtomicSet
+PR_ATOMIC_SET
 (
 &
 self
@@ -3316,7 +3316,7 @@ here
 .
 if
 (
-PR_AtomicDecrement
+PR_ATOMIC_DECREMENT
 (
 &
 self
@@ -3328,7 +3328,7 @@ mNativeEventScheduledDepth
 0
 )
 {
-PR_AtomicSet
+PR_ATOMIC_SET
 (
 &
 self
@@ -3768,7 +3768,7 @@ NS_ADDREF_THIS
 (
 )
 ;
-PR_AtomicIncrement
+PR_ATOMIC_INCREMENT
 (
 &
 mNativeEventScheduledDepth
@@ -6267,7 +6267,7 @@ mNativeEventScheduledDepth
 PRInt32
 releaseCount
 =
-PR_AtomicSet
+PR_ATOMIC_SET
 (
 &
 mNativeEventScheduledDepth
