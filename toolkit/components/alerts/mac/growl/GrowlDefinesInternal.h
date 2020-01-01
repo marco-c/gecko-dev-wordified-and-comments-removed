@@ -445,6 +445,15 @@ growlStyle
 )
 #
 define
+GROWL_PATHEXTENSION_TICKET
+XSTR
+(
+"
+growlTicket
+"
+)
+#
+define
 SYNCHRONIZE_GROWL_PREFS
 (
 )
