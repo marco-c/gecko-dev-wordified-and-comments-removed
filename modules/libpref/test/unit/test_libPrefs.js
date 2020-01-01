@@ -2552,6 +2552,13 @@ readUserPrefs
 savePrefFile
 )
 ;
+savePrefFile
+.
+remove
+(
+false
+)
+;
 do_check_eq
 (
 ps
