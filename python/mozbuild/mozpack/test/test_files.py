@@ -54,6 +54,8 @@ ManifestOverride
 import
 unittest
 import
+mozfile
+import
 mozunit
 import
 os
@@ -116,7 +118,7 @@ self
 )
 :
         
-shutil
+mozfile
 .
 rmtree
 (
