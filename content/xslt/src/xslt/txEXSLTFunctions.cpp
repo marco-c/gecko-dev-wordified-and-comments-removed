@@ -8,7 +8,7 @@ h
 #
 include
 "
-txAtoms
+nsGkAtoms
 .
 h
 "
@@ -926,7 +926,7 @@ Expr
 :
 NODESET_RESULT
 &
-txXSLTAtoms
+nsGkAtoms
 :
 :
 nodeSet
@@ -941,7 +941,7 @@ Expr
 :
 STRING_RESULT
 &
-txXSLTAtoms
+nsGkAtoms
 :
 :
 objectType
@@ -956,7 +956,7 @@ Expr
 :
 NODESET_RESULT
 &
-txXSLTAtoms
+nsGkAtoms
 :
 :
 difference
@@ -971,7 +971,7 @@ Expr
 :
 NODESET_RESULT
 &
-txXSLTAtoms
+nsGkAtoms
 :
 :
 distinct
@@ -986,7 +986,7 @@ Expr
 :
 BOOLEAN_RESULT
 &
-txXSLTAtoms
+nsGkAtoms
 :
 :
 hasSameNode
@@ -1001,7 +1001,7 @@ Expr
 :
 NODESET_RESULT
 &
-txXSLTAtoms
+nsGkAtoms
 :
 :
 intersection
@@ -1016,7 +1016,7 @@ Expr
 :
 NODESET_RESULT
 &
-txXSLTAtoms
+nsGkAtoms
 :
 :
 leading
@@ -1031,7 +1031,7 @@ Expr
 :
 NODESET_RESULT
 &
-txXSLTAtoms
+nsGkAtoms
 :
 :
 trailing
@@ -1046,7 +1046,7 @@ Expr
 :
 STRING_RESULT
 &
-txXSLTAtoms
+nsGkAtoms
 :
 :
 concat
@@ -1061,7 +1061,7 @@ Expr
 :
 STRING_RESULT
 &
-txXSLTAtoms
+nsGkAtoms
 :
 :
 split
@@ -1076,7 +1076,7 @@ Expr
 :
 STRING_RESULT
 &
-txXSLTAtoms
+nsGkAtoms
 :
 :
 tokenize
@@ -1091,7 +1091,7 @@ Expr
 :
 NUMBER_RESULT
 &
-txXSLTAtoms
+nsGkAtoms
 :
 :
 max
@@ -1106,7 +1106,7 @@ Expr
 :
 NUMBER_RESULT
 &
-txXSLTAtoms
+nsGkAtoms
 :
 :
 min
@@ -1121,7 +1121,7 @@ Expr
 :
 NODESET_RESULT
 &
-txXSLTAtoms
+nsGkAtoms
 :
 :
 highest
@@ -1136,7 +1136,7 @@ Expr
 :
 NODESET_RESULT
 &
-txXSLTAtoms
+nsGkAtoms
 :
 :
 lowest
@@ -1151,7 +1151,7 @@ Expr
 :
 STRING_RESULT
 &
-txXSLTAtoms
+nsGkAtoms
 :
 :
 dateTime
@@ -2641,7 +2641,7 @@ rv
 =
 createAndAddToResult
 (
-txXSLTAtoms
+nsGkAtoms
 :
 :
 token
@@ -2735,7 +2735,7 @@ rv
 =
 createAndAddToResult
 (
-txXSLTAtoms
+nsGkAtoms
 :
 :
 token
@@ -2819,7 +2819,7 @@ rv
 =
 createAndAddToResult
 (
-txXSLTAtoms
+nsGkAtoms
 :
 :
 token
@@ -2873,7 +2873,7 @@ rv
 =
 createAndAddToResult
 (
-txXSLTAtoms
+nsGkAtoms
 :
 :
 token

@@ -8,7 +8,7 @@ h
 #
 include
 "
-txAtoms
+nsGkAtoms
 .
 h
 "
@@ -544,7 +544,7 @@ mPosition
 ;
 if
 (
-txXPathAtoms
+nsGkAtoms
 :
 :
 _and
@@ -567,7 +567,7 @@ AND_OP
 else
 if
 (
-txXPathAtoms
+nsGkAtoms
 :
 :
 _or
@@ -590,7 +590,7 @@ OR_OP
 else
 if
 (
-txXPathAtoms
+nsGkAtoms
 :
 :
 mod
@@ -613,7 +613,7 @@ MODULUS_OP
 else
 if
 (
-txXPathAtoms
+nsGkAtoms
 :
 :
 div

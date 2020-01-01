@@ -8,7 +8,7 @@ h
 #
 include
 "
-txAtoms
+nsGkAtoms
 .
 h
 "
@@ -148,7 +148,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 version
@@ -179,7 +179,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 vendor
@@ -213,7 +213,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 vendorUrl
@@ -291,7 +291,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 applyImports
@@ -302,7 +302,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 applyTemplates
@@ -313,7 +313,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 attribute
@@ -324,7 +324,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 attributeSet
@@ -335,7 +335,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 callTemplate
@@ -346,7 +346,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 choose
@@ -357,7 +357,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 comment
@@ -368,7 +368,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 copy
@@ -379,7 +379,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 copyOf
@@ -390,7 +390,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 decimalFormat
@@ -401,7 +401,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 element
@@ -412,7 +412,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 fallback
@@ -423,7 +423,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 forEach
@@ -434,7 +434,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 _if
@@ -445,7 +445,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 import
@@ -456,7 +456,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 include
@@ -467,7 +467,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 key
@@ -478,7 +478,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 message
@@ -489,7 +489,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 number
@@ -500,7 +500,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 otherwise
@@ -511,7 +511,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 output
@@ -522,7 +522,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 param
@@ -533,7 +533,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 preserveSpace
@@ -544,7 +544,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 processingInstruction
@@ -555,7 +555,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 sort
@@ -566,7 +566,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 stripSpace
@@ -577,7 +577,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 stylesheet
@@ -588,7 +588,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 _template
@@ -599,7 +599,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 text
@@ -610,7 +610,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 transform
@@ -621,7 +621,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 valueOf
@@ -632,7 +632,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 variable
@@ -643,7 +643,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 when
@@ -654,7 +654,7 @@ qname
 mLocalName
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 withParam
@@ -821,7 +821,7 @@ mType
 =
 SYSTEM_PROPERTY
 ?
-txXSLTAtoms
+nsGkAtoms
 :
 :
 systemProperty
@@ -831,12 +831,12 @@ mType
 =
 ELEMENT_AVAILABLE
 ?
-txXSLTAtoms
+nsGkAtoms
 :
 :
 elementAvailable
 :
-txXSLTAtoms
+nsGkAtoms
 :
 :
 functionAvailable

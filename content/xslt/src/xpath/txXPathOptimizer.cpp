@@ -22,7 +22,7 @@ h
 #
 include
 "
-txAtoms
+nsGkAtoms
 .
 h
 "
@@ -619,7 +619,7 @@ getNodeTest
 mLocalName
 !
 =
-txXPathAtoms
+nsGkAtoms
 :
 :
 _asterix

@@ -8,7 +8,7 @@ h
 #
 include
 "
-txAtoms
+nsGkAtoms
 .
 h
 "
@@ -74,7 +74,7 @@ prefix
 aPrefix
 =
 =
-txXMLAtoms
+nsGkAtoms
 :
 :
 _empty
@@ -267,7 +267,7 @@ if
 aPrefix
 =
 =
-txXMLAtoms
+nsGkAtoms
 :
 :
 xml
@@ -284,7 +284,7 @@ prefix
 aPrefix
 =
 =
-txXMLAtoms
+nsGkAtoms
 :
 :
 _empty
@@ -393,7 +393,7 @@ if
 prefix
 !
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 _poundDefault

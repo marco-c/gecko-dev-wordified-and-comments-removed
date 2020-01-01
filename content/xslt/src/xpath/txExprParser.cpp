@@ -29,7 +29,7 @@ h
 #
 include
 "
-txAtoms
+nsGkAtoms
 .
 h
 "
@@ -2319,7 +2319,7 @@ if
 axis
 =
 =
-txXPathAtoms
+nsGkAtoms
 :
 :
 ancestor
@@ -2339,7 +2339,7 @@ if
 axis
 =
 =
-txXPathAtoms
+nsGkAtoms
 :
 :
 ancestorOrSelf
@@ -2359,7 +2359,7 @@ if
 axis
 =
 =
-txXPathAtoms
+nsGkAtoms
 :
 :
 attribute
@@ -2379,7 +2379,7 @@ if
 axis
 =
 =
-txXPathAtoms
+nsGkAtoms
 :
 :
 child
@@ -2399,7 +2399,7 @@ if
 axis
 =
 =
-txXPathAtoms
+nsGkAtoms
 :
 :
 descendant
@@ -2419,7 +2419,7 @@ if
 axis
 =
 =
-txXPathAtoms
+nsGkAtoms
 :
 :
 descendantOrSelf
@@ -2439,7 +2439,7 @@ if
 axis
 =
 =
-txXPathAtoms
+nsGkAtoms
 :
 :
 following
@@ -2459,7 +2459,7 @@ if
 axis
 =
 =
-txXPathAtoms
+nsGkAtoms
 :
 :
 followingSibling
@@ -2479,7 +2479,7 @@ if
 axis
 =
 =
-txXPathAtoms
+nsGkAtoms
 :
 :
 _namespace
@@ -2499,7 +2499,7 @@ if
 axis
 =
 =
-txXPathAtoms
+nsGkAtoms
 :
 :
 parent
@@ -2519,7 +2519,7 @@ if
 axis
 =
 =
-txXPathAtoms
+nsGkAtoms
 :
 :
 preceding
@@ -2539,7 +2539,7 @@ if
 axis
 =
 =
-txXPathAtoms
+nsGkAtoms
 :
 :
 precedingSibling
@@ -2559,7 +2559,7 @@ if
 axis
 =
 =
-txXPathAtoms
+nsGkAtoms
 :
 :
 self

@@ -64,7 +64,7 @@ h
 #
 include
 "
-txAtoms
+nsGkAtoms
 .
 h
 "
@@ -527,7 +527,7 @@ colon
 TX_StringEqualsAtom
 (
 name
-txXMLAtoms
+nsGkAtoms
 :
 :
 xmlns

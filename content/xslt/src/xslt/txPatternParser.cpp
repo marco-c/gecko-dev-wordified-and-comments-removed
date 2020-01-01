@@ -15,7 +15,7 @@ h
 #
 include
 "
-txAtoms
+nsGkAtoms
 .
 h
 "
@@ -619,7 +619,7 @@ if
 nameAtom
 =
 =
-txXPathAtoms
+nsGkAtoms
 :
 :
 id
@@ -640,7 +640,7 @@ if
 nameAtom
 =
 =
-txXSLTAtoms
+nsGkAtoms
 :
 :
 key
@@ -1341,7 +1341,7 @@ tok
 Value
 (
 )
-txXPathAtoms
+nsGkAtoms
 :
 :
 attribute
@@ -1365,7 +1365,7 @@ tok
 Value
 (
 )
-txXPathAtoms
+nsGkAtoms
 :
 :
 child

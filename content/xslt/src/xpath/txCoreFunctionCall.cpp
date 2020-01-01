@@ -22,7 +22,7 @@ h
 #
 include
 "
-txAtoms
+nsGkAtoms
 .
 h
 "
@@ -106,7 +106,7 @@ Expr
 :
 NUMBER_RESULT
 &
-txXPathAtoms
+nsGkAtoms
 :
 :
 count
@@ -119,7 +119,7 @@ Expr
 :
 NODESET_RESULT
 &
-txXPathAtoms
+nsGkAtoms
 :
 :
 id
@@ -132,7 +132,7 @@ Expr
 :
 NUMBER_RESULT
 &
-txXPathAtoms
+nsGkAtoms
 :
 :
 last
@@ -145,7 +145,7 @@ Expr
 :
 STRING_RESULT
 &
-txXPathAtoms
+nsGkAtoms
 :
 :
 localName
@@ -158,7 +158,7 @@ Expr
 :
 STRING_RESULT
 &
-txXPathAtoms
+nsGkAtoms
 :
 :
 namespaceUri
@@ -171,7 +171,7 @@ Expr
 :
 STRING_RESULT
 &
-txXPathAtoms
+nsGkAtoms
 :
 :
 name
@@ -184,7 +184,7 @@ Expr
 :
 NUMBER_RESULT
 &
-txXPathAtoms
+nsGkAtoms
 :
 :
 position
@@ -198,7 +198,7 @@ Expr
 :
 STRING_RESULT
 &
-txXPathAtoms
+nsGkAtoms
 :
 :
 concat
@@ -211,7 +211,7 @@ Expr
 :
 BOOLEAN_RESULT
 &
-txXPathAtoms
+nsGkAtoms
 :
 :
 contains
@@ -224,7 +224,7 @@ Expr
 :
 STRING_RESULT
 &
-txXPathAtoms
+nsGkAtoms
 :
 :
 normalizeSpace
@@ -237,7 +237,7 @@ Expr
 :
 BOOLEAN_RESULT
 &
-txXPathAtoms
+nsGkAtoms
 :
 :
 startsWith
@@ -250,7 +250,7 @@ Expr
 :
 STRING_RESULT
 &
-txXPathAtoms
+nsGkAtoms
 :
 :
 string
@@ -263,7 +263,7 @@ Expr
 :
 NUMBER_RESULT
 &
-txXPathAtoms
+nsGkAtoms
 :
 :
 stringLength
@@ -276,7 +276,7 @@ Expr
 :
 STRING_RESULT
 &
-txXPathAtoms
+nsGkAtoms
 :
 :
 substring
@@ -289,7 +289,7 @@ Expr
 :
 STRING_RESULT
 &
-txXPathAtoms
+nsGkAtoms
 :
 :
 substringAfter
@@ -302,7 +302,7 @@ Expr
 :
 STRING_RESULT
 &
-txXPathAtoms
+nsGkAtoms
 :
 :
 substringBefore
@@ -315,7 +315,7 @@ Expr
 :
 STRING_RESULT
 &
-txXPathAtoms
+nsGkAtoms
 :
 :
 translate
@@ -328,7 +328,7 @@ Expr
 :
 NUMBER_RESULT
 &
-txXPathAtoms
+nsGkAtoms
 :
 :
 number
@@ -341,7 +341,7 @@ Expr
 :
 NUMBER_RESULT
 &
-txXPathAtoms
+nsGkAtoms
 :
 :
 round
@@ -354,7 +354,7 @@ Expr
 :
 NUMBER_RESULT
 &
-txXPathAtoms
+nsGkAtoms
 :
 :
 floor
@@ -367,7 +367,7 @@ Expr
 :
 NUMBER_RESULT
 &
-txXPathAtoms
+nsGkAtoms
 :
 :
 ceiling
@@ -380,7 +380,7 @@ Expr
 :
 NUMBER_RESULT
 &
-txXPathAtoms
+nsGkAtoms
 :
 :
 sum
@@ -393,7 +393,7 @@ Expr
 :
 BOOLEAN_RESULT
 &
-txXPathAtoms
+nsGkAtoms
 :
 :
 boolean
@@ -406,7 +406,7 @@ Expr
 :
 BOOLEAN_RESULT
 &
-txXPathAtoms
+nsGkAtoms
 :
 :
 _false
@@ -419,7 +419,7 @@ Expr
 :
 BOOLEAN_RESULT
 &
-txXPathAtoms
+nsGkAtoms
 :
 :
 lang
@@ -432,7 +432,7 @@ Expr
 :
 BOOLEAN_RESULT
 &
-txXPathAtoms
+nsGkAtoms
 :
 :
 _not
@@ -445,7 +445,7 @@ Expr
 :
 BOOLEAN_RESULT
 &
-txXPathAtoms
+nsGkAtoms
 :
 :
 _true
@@ -3286,7 +3286,7 @@ walker
 .
 getAttr
 (
-txXMLAtoms
+nsGkAtoms
 :
 :
 lang
