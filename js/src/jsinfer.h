@@ -1325,6 +1325,12 @@ addArith
 JSContext
 *
 cx
+JSScript
+*
+script
+jsbytecode
+*
+pc
 TypeSet
 *
 target
