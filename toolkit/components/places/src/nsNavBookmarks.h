@@ -449,8 +449,9 @@ mToolbarFolder
 PRInt32
 mBatchLevel
 ;
-PRBool
-mBatchHasTransaction
+mozStorageTransaction
+*
+mBatchDBTransaction
 ;
 nsresult
 GetParentAndIndexOfFolder
