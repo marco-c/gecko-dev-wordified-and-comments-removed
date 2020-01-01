@@ -179,6 +179,10 @@ CSSStyleDeclaration
 .
 webidl
 \
+CSSStyleSheet
+.
+webidl
+\
 CSSValue
 .
 webidl
@@ -644,6 +648,10 @@ RTCConfiguration
 webidl
 \
 Screen
+.
+webidl
+\
+StyleSheet
 .
 webidl
 \
