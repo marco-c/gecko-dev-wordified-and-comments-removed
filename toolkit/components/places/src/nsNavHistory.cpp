@@ -7637,7 +7637,7 @@ mAutoCompleteOnlyTyped
 mPrefBranch
 -
 >
-GetBoolPref
+GetIntPref
 (
 PREF_AUTOCOMPLETE_MAX_RICH_RESULTS
 &
@@ -7647,7 +7647,7 @@ mAutoCompleteMaxResults
 mPrefBranch
 -
 >
-GetBoolPref
+GetIntPref
 (
 PREF_AUTOCOMPLETE_SEARCH_CHUNK_SIZE
 &
@@ -7657,7 +7657,7 @@ mAutoCompleteSearchChunkSize
 mPrefBranch
 -
 >
-GetBoolPref
+GetIntPref
 (
 PREF_AUTOCOMPLETE_SEARCH_TIMEOUT
 &
