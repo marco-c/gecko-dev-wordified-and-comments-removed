@@ -3,7 +3,9 @@ include
 "
 mozilla
 /
-DebugOnly
+dom
+/
+Element
 .
 h
 "
@@ -12,9 +14,7 @@ include
 "
 mozilla
 /
-dom
-/
-Element
+DebugOnly
 .
 h
 "

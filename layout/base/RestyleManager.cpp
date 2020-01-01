@@ -160,6 +160,13 @@ nsIDOMMutationEvent
 h
 "
 #
+include
+"
+nsContentUtils
+.
+h
+"
+#
 ifdef
 ACCESSIBILITY
 #

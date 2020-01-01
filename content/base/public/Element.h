@@ -131,13 +131,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsIScrollableFrame
 .
 h
