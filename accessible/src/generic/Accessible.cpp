@@ -13756,6 +13756,13 @@ GetActionRule
 {
 if
 (
+!
+HasOwnContent
+(
+)
+|
+|
+(
 InteractiveState
 (
 )
@@ -13764,6 +13771,7 @@ states
 :
 :
 UNAVAILABLE
+)
 )
 return
 eNoAction
