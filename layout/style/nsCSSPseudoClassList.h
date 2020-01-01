@@ -399,6 +399,17 @@ nonzero
 )
 CSS_PSEUDO_CLASS
 (
+scope
+"
+:
+-
+moz
+-
+scope
+"
+)
+CSS_PSEUDO_CLASS
+(
 notPseudo
 "
 :
