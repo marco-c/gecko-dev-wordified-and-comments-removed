@@ -1376,15 +1376,6 @@ nsIDOMNode
 aNode
 )
 ;
-virtual
-bool
-IsTextInDirtyFrameVisible
-(
-nsIContent
-*
-aNode
-)
-;
 nsresult
 IsVisTextNode
 (

@@ -1707,15 +1707,6 @@ nsIContent
 aNode
 )
 ;
-virtual
-bool
-IsTextInDirtyFrameVisible
-(
-nsIContent
-*
-aNode
-)
-;
 bool
 IsMozEditorBogusNode
 (
