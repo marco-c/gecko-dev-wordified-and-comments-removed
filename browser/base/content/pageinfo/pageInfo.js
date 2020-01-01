@@ -3862,6 +3862,8 @@ instanceof
 SVGImageElement
 )
 {
+try
+{
 var
 href
 =
@@ -3889,6 +3891,13 @@ elem
 false
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 }
 #
 endif
