@@ -355,6 +355,17 @@ item
 hover
 :
 active
+:
+not
+(
+[
+disabled
+=
+"
+true
+"
+]
+)
 toolbarbutton
 .
 bookmark
