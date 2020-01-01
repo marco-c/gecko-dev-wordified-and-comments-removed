@@ -325,7 +325,7 @@ final
 int
 FRAME_RATE_METER_WIDTH
 =
-64
+128
 ;
 private
 static
@@ -1985,7 +1985,6 @@ endTransaction
 ;
 }
 }
-private
 void
 checkMonitoringEnabled
 (
