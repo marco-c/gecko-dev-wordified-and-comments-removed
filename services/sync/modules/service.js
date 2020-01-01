@@ -6652,10 +6652,6 @@ _scheduleNextSync
 return
 ;
 }
-fullSync
-=
-true
-;
 let
 reason
 =
