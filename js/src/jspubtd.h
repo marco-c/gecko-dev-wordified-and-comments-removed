@@ -1175,6 +1175,8 @@ obj
 JSObject
 *
 proto
+uintN
+flags
 )
 ;
 JS_END_EXTERN_C
