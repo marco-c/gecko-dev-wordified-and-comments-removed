@@ -641,6 +641,10 @@ friend
 class
 nsASyncMenuInitialization
 ;
+friend
+class
+nsMenuAttributeChangedEvent
+;
 void
 SetPopupFrame
 (
