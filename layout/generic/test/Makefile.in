@@ -351,6 +351,10 @@ test_movement_by_words
 .
 html
 \
+test_page_scroll_with_fixed_pos
+.
+html
+\
 test_plugin_clipping
 .
 xhtml
