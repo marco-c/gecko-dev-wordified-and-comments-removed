@@ -4073,7 +4073,7 @@ GetShadowLayers
 const
 {
 const
-nsTArray
+InfallibleTArray
 <
 PLayersParent
 *

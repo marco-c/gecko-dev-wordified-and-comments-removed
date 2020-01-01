@@ -1191,10 +1191,11 @@ public
 :
 nsCSSKeyframeRule
 (
-nsTArray
+InfallibleTArray
 <
 float
 >
+&
 aKeys
 nsAutoPtr
 <
@@ -1353,10 +1354,9 @@ const
 ;
 private
 :
-nsAutoTArray
+nsTArray
 <
 float
-1
 >
 mKeys
 ;
