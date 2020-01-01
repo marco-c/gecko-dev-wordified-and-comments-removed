@@ -1505,6 +1505,8 @@ MOZ_SOURCE_STAMP
 ?
 =
 (
+firstword
+(
 shell
 hg
 -
@@ -1532,6 +1534,7 @@ n
 dev
 /
 null
+)
 )
 #
 strip
