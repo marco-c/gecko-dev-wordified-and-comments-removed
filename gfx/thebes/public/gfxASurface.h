@@ -41,6 +41,9 @@ data
 )
 ;
 class
+gfxImageSurface
+;
+class
 THEBES_API
 gfxASurface
 {
