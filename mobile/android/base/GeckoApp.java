@@ -3957,6 +3957,13 @@ getThumbnailBitmap
 (
 )
 ;
+data
+.
+position
+(
+0
+)
+;
 b
 .
 copyPixelsFromBuffer
