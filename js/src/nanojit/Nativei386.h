@@ -593,6 +593,12 @@ NJ_ALIGN_STACK
 =
 16
 ;
+const
+int32_t
+LARGEST_UNDERRUN_PROT
+=
+32
+;
 typedef
 uint8_t
 NIns
@@ -10015,10 +10021,6 @@ _nIns
 \
 verbose_only
 (
-outputAddr
-=
-true
-;
 asm_output
 (
 "
@@ -10096,10 +10098,6 @@ r
 \
 verbose_only
 (
-outputAddr
-=
-true
-;
 asm_output
 (
 "

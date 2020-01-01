@@ -151,6 +151,12 @@ NJ_CPOOL_SIZE
 =
 16
 ;
+const
+int
+LARGEST_UNDERRUN_PROT
+=
+32
+;
 typedef
 int
 NIns
