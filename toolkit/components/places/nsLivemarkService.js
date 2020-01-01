@@ -736,6 +736,7 @@ function
 LS__onCacheReady
 (
 aCallback
+aWaitForAsyncWrites
 )
 {
 if
@@ -743,6 +744,9 @@ if
 this
 .
 _pendingStmt
+|
+|
+aWaitForAsyncWrites
 )
 {
 let
@@ -2186,6 +2190,7 @@ ex2
 {
 }
 }
+true
 )
 ;
 }
