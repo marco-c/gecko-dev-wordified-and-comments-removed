@@ -46,13 +46,7 @@ nsIURI
 *
 uri
 )
-{
-SetURI
-(
-uri
-)
 ;
-}
 protected
 :
 nsresult
