@@ -887,6 +887,11 @@ this
 .
 other
 ;
+if
+(
+other
+)
+{
 Services
 .
 tm
@@ -930,6 +935,13 @@ null
 )
 ;
 }
+if
+(
+other
+.
+hooks
+)
+{
 other
 .
 hooks
@@ -939,6 +951,7 @@ onPacket
 aPacket
 )
 ;
+}
 }
 "
 LocalDebuggerTransport
@@ -957,6 +970,7 @@ onPacket
 0
 )
 ;
+}
 }
 close
 :
