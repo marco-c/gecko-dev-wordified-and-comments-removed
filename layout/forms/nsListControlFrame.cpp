@@ -7930,10 +7930,6 @@ UpdateInListState
 aMouseEvent
 )
 ;
-mButtonDown
-=
-PR_TRUE
-;
 if
 (
 mContent
@@ -8025,6 +8021,10 @@ selectedIndex
 )
 )
 {
+mButtonDown
+=
+PR_TRUE
+;
 CaptureMouseEvents
 (
 PR_TRUE
