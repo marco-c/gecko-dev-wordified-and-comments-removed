@@ -102,10 +102,6 @@ mClient
 (
 aClient
 )
-mResourceID
-(
-0
-)
 mInitialized
 (
 false
@@ -121,6 +117,10 @@ false
 mDidNotifyDataEnded
 (
 false
+)
+mResourceID
+(
+0
 )
 mIsSeekable
 (
@@ -661,7 +661,7 @@ ReentrantMonitorAutoEnter
 aReentrantMonitor
 )
 ;
-void
+bool
 UpdatePrincipal
 (
 nsIPrincipal
@@ -679,9 +679,6 @@ nsIPrincipal
 >
 mPrincipal
 ;
-PRInt64
-mResourceID
-;
 bool
 mInitialized
 ;
@@ -693,6 +690,9 @@ mClosed
 ;
 bool
 mDidNotifyDataEnded
+;
+PRInt64
+mResourceID
 ;
 bool
 mIsSeekable

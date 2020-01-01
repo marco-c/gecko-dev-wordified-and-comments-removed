@@ -828,6 +828,11 @@ nsresult
 aStatus
 )
 ;
+void
+CacheClientNotifyPrincipalChanged
+(
+)
+;
 nsresult
 CacheClientSeek
 (
