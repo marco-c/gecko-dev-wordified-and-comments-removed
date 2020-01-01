@@ -643,6 +643,10 @@ test_position
 .
 xul
 \
+test_menu_hide
+.
+xul
+\
 (
 NULL
 )
