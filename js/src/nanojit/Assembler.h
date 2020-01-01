@@ -399,7 +399,6 @@ s
 )
 ;
 bool
-_verbose
 outputAddr
 vpad
 [
@@ -415,6 +414,10 @@ StringList
 *
 _outputCache
 ;
+LogControl
+*
+_logc
+;
 #
 endif
 Assembler
@@ -422,6 +425,9 @@ Assembler
 Fragmento
 *
 frago
+LogControl
+*
+logc
 )
 ;
 ~

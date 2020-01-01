@@ -2654,6 +2654,10 @@ LirNameMap
 )
 names
 ;
+LogControl
+*
+logc
+;
 public
 :
 VerboseWriter
@@ -2670,6 +2674,9 @@ out
 LirNameMap
 *
 names
+LogControl
+*
+logc
 )
 :
 LirWriter
@@ -2683,6 +2690,10 @@ gc
 names
 (
 names
+)
+logc
+(
+logc
 )
 {
 }
@@ -2771,7 +2782,10 @@ i
 +
 +
 )
-nj_dprintf
+logc
+-
+>
+printf
 (
 "
 %
@@ -2803,7 +2817,10 @@ n
 >
 1
 )
-nj_dprintf
+logc
+-
+>
+printf
 (
 "
 \

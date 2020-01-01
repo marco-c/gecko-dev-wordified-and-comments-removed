@@ -214,6 +214,9 @@ Fragmento
 AvmCore
 *
 core
+LogControl
+*
+logc
 uint32_t
 cacheSizeLog2
 )

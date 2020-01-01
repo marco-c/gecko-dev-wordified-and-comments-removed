@@ -6490,7 +6490,8 @@ asm_output
 (
 "
 %
-s
+-
+5s
 %
 p
 "
@@ -6560,7 +6561,8 @@ asm_output
 (
 "
 %
-s
+-
+5s
 %
 p
 "
@@ -6627,9 +6629,13 @@ verbose_outputf
 (
 "
 %
-p
+010lx
 :
 "
+(
+unsigned
+long
+)
 _nIns
 )
 ;
