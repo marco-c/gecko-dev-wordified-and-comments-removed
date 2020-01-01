@@ -776,12 +776,6 @@ urlclassifier_s
 (
 LIB_SUFFIX
 )
-EXTRA_DSO_LDOPTS
-+
-=
-(
-ZLIB_LIBS
-)
 endif
 ifdef
 MOZ_FEEDS

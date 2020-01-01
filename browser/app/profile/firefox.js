@@ -4209,7 +4209,7 @@ com
 /
 safebrowsing
 /
-downloads
+update
 ?
 client
 =
@@ -4227,11 +4227,6 @@ moz
 version
 }
 &
-pver
-=
-2
-.
-0
 "
 )
 ;
