@@ -3647,6 +3647,15 @@ no_change
 )
 CSS_KEY
 (
+non
+-
+scaling
+-
+stroke
+non_scaling_stroke
+)
+CSS_KEY
+(
 nonzero
 nonzero
 )

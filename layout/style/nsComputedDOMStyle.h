@@ -1680,6 +1680,12 @@ DoGetStrokeWidth
 ;
 nsIDOMCSSValue
 *
+DoGetVectorEffect
+(
+)
+;
+nsIDOMCSSValue
+*
 DoGetFillOpacity
 (
 )
