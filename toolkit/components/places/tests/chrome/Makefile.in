@@ -446,6 +446,10 @@ sample_feed
 .
 atom
 \
+bad_links
+.
+atom
+\
 (
 NULL
 )
@@ -453,6 +457,10 @@ _CHROME_FILES
 =
 \
 test_371798
+.
+xul
+\
+test_342484
 .
 xul
 \
