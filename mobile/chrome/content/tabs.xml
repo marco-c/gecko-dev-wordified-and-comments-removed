@@ -500,6 +500,12 @@ callback
 {
 ctx
 .
+save
+(
+)
+;
+ctx
+.
 fillStyle
 =
 "
@@ -514,12 +520,6 @@ fillRect
 0
 tabWidth
 tabHeight
-)
-;
-ctx
-.
-save
-(
 )
 ;
 ctx
