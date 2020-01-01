@@ -37,6 +37,14 @@ __clang__
 )
 #
 if
+!
+defined
+(
+__linux__
+)
+&
+&
+\
 (
 __cplusplus
 >
