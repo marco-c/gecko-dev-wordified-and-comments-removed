@@ -11,6 +11,14 @@ limits
 .
 h
 >
+#
+ifdef
+__ARM_PCS_VFP
+#
+define
+JS_CPU_ARM_HARDFP
+#
+endif
 namespace
 js
 {
@@ -762,7 +770,7 @@ NonAllocatableMask
 1
 <
 <
-d0
+d1
 )
 |
 (
