@@ -678,10 +678,6 @@ test_redirect_handling
 .
 html
 \
-test_clear_site_data
-.
-html
-\
 test_zero_opacity
 .
 html
@@ -746,6 +742,10 @@ _MOCHICHROME_FILES
 utils
 .
 js
+\
+test_clear_site_data
+.
+html
 \
 test_npruntime
 .
