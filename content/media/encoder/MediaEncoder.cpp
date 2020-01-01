@@ -629,8 +629,6 @@ reloop
 =
 false
 ;
-break
-;
 }
 }
 else
@@ -793,8 +791,6 @@ rv
 reloop
 =
 false
-;
-break
 ;
 }
 mState
