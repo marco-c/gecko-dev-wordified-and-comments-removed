@@ -554,10 +554,13 @@ nsCOMPtr
 nsIPresShell
 >
 ps
-=
-do_QueryReferent
+;
+GetPresShell
 (
-mPresShellWeak
+getter_AddRefs
+(
+ps
+)
 )
 ;
 NS_ENSURE_TRUE

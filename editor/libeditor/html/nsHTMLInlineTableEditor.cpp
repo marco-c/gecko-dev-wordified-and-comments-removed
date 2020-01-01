@@ -373,10 +373,13 @@ nsCOMPtr
 nsIPresShell
 >
 ps
-=
-do_QueryReferent
+;
+GetPresShell
 (
-mPresShellWeak
+getter_AddRefs
+(
+ps
+)
 )
 ;
 nsIDOMElement
