@@ -280,6 +280,11 @@ Shmem
 ;
 }
 ;
+struct
+Empty
+{
+}
+;
 }
 /
 /
