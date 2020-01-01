@@ -11280,12 +11280,7 @@ selectionRoot
 GetPrimaryFrame
 (
 )
-)
-;
-NS_ENSURE_TRUE
-(
-selectionRootScrollableFrame
-NS_OK
+selectionRoot
 )
 ;
 while
