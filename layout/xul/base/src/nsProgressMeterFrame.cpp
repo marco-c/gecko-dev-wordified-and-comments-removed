@@ -299,6 +299,15 @@ value
 =
 =
 aAttribute
+|
+|
+nsGkAtoms
+:
+:
+max
+=
+=
+aAttribute
 )
 {
 nsIFrame
