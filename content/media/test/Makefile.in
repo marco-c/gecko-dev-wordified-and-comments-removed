@@ -816,6 +816,10 @@ test_playback_rate_playpause
 .
 html
 \
+test_bug895305
+.
+html
+\
 (
 NULL
 )
