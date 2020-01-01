@@ -1320,7 +1320,7 @@ aValue
 0
 ]
 .
-_cssRule
+cssRule
 .
 _passId
 =
@@ -1446,7 +1446,7 @@ selectorMatchesElement
 (
 rule
 .
-_domRule
+domRule
 aSelector
 .
 selectorIndex
@@ -3499,7 +3499,7 @@ if
 (
 rule
 .
-_domRule
+domRule
 =
 =
 =
@@ -3854,7 +3854,7 @@ aCssSheet
 ;
 this
 .
-_domRule
+domRule
 =
 aDomRule
 ;
@@ -3916,7 +3916,7 @@ getRuleLine
 (
 this
 .
-_domRule
+domRule
 )
 ;
 this
@@ -4120,7 +4120,7 @@ aProperty
 return
 this
 .
-_domRule
+domRule
 .
 style
 .
@@ -4140,7 +4140,7 @@ aProperty
 return
 this
 .
-_domRule
+domRule
 .
 style
 .
@@ -4180,7 +4180,7 @@ if
 !
 this
 .
-_domRule
+domRule
 .
 selectorText
 )
@@ -4200,7 +4200,7 @@ getSelectors
 (
 this
 .
-_domRule
+domRule
 )
 ;
 for
@@ -4264,7 +4264,7 @@ CssRule
 +
 this
 .
-_domRule
+domRule
 .
 selectorText
 +
@@ -4285,7 +4285,7 @@ aIndex
 {
 this
 .
-_cssRule
+cssRule
 =
 aCssRule
 ;
@@ -4345,7 +4345,7 @@ source
 return
 this
 .
-_cssRule
+cssRule
 .
 source
 ;
@@ -4358,7 +4358,7 @@ sourceElement
 return
 this
 .
-_cssRule
+cssRule
 .
 sourceElement
 ;
@@ -4371,7 +4371,7 @@ href
 return
 this
 .
-_cssRule
+cssRule
 .
 href
 ;
@@ -4384,7 +4384,7 @@ contentRule
 return
 this
 .
-_cssRule
+cssRule
 .
 contentRule
 ;
@@ -4397,7 +4397,7 @@ sheetAllowed
 return
 this
 .
-_cssRule
+cssRule
 .
 sheetAllowed
 ;
@@ -4410,7 +4410,7 @@ sheetIndex
 return
 this
 .
-_cssRule
+cssRule
 .
 sheetIndex
 ;
@@ -4423,7 +4423,7 @@ ruleLine
 return
 this
 .
-_cssRule
+cssRule
 .
 line
 ;
@@ -4647,9 +4647,9 @@ getSpecificity
 (
 this
 .
-_cssRule
+cssRule
 .
-_domRule
+domRule
 this
 .
 selectorIndex
@@ -5037,7 +5037,7 @@ cssRule
 =
 aSelector
 .
-_cssRule
+cssRule
 ;
 let
 value
@@ -5180,7 +5180,7 @@ aSelectorInfo
 .
 selector
 .
-_cssRule
+cssRule
 ;
 if
 (
@@ -5307,7 +5307,7 @@ this
 .
 selector
 .
-_cssRule
+cssRule
 .
 getPropertyPriority
 (

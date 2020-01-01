@@ -815,7 +815,7 @@ selectorInfo
 .
 selector
 .
-_cssRule
+cssRule
 ;
 let
 domRule
@@ -827,7 +827,7 @@ sourceElement
 |
 cssRule
 .
-_domRule
+domRule
 ;
 let
 rule

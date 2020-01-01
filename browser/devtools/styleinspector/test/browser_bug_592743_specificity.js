@@ -180,7 +180,7 @@ getSpecificity
 (
 selector
 .
-_cssRule
+cssRule
 selector
 .
 selectorIndex
