@@ -85,13 +85,6 @@ h
 #
 include
 "
-cairo
-.
-h
-"
-#
-include
-"
 gfxContext
 .
 h
