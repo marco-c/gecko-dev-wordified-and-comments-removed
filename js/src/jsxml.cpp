@@ -8890,7 +8890,8 @@ prefix
 parent
 xmlns
 =
-'
+\
+"
 "
 ;
 static
@@ -8901,7 +8902,8 @@ middle
 ]
 =
 "
-'
+\
+"
 >
 "
 ;
@@ -8954,6 +8956,15 @@ JSVAL_TO_OBJECT
 (
 nsval
 )
+)
+;
+uri
+=
+js_EscapeAttributeValue
+(
+cx
+uri
+JS_FALSE
 )
 ;
 urilen
