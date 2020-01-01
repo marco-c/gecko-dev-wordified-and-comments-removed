@@ -89,6 +89,10 @@ nsCSSRendering
 .
 h
 "
+using
+namespace
+mozilla
+;
 class
 nsColumnSetFrame
 :
@@ -4305,15 +4309,12 @@ mBalanceColCount
 ;
 nextGuess
 =
-NS_MIN
-(
-NS_MAX
+clamped
 (
 nextGuess
 knownInfeasibleHeight
 +
 1
-)
 knownFeasibleHeight
 -
 1

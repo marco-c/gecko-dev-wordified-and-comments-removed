@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLElement
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLMenuItemElement
 .
 h

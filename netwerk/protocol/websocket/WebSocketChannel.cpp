@@ -9193,7 +9193,7 @@ rv
 {
 mMaxMessageSize
 =
-NS_CLAMP
+clamped
 (
 intpref
 1024
@@ -9234,7 +9234,7 @@ rv
 {
 mCloseTimeout
 =
-NS_CLAMP
+clamped
 (
 intpref
 1
@@ -9274,7 +9274,7 @@ rv
 {
 mOpenTimeout
 =
-NS_CLAMP
+clamped
 (
 intpref
 1
@@ -9316,7 +9316,7 @@ rv
 {
 mPingTimeout
 =
-NS_CLAMP
+clamped
 (
 intpref
 0
@@ -9358,7 +9358,7 @@ rv
 {
 mPingResponseTimeout
 =
-NS_CLAMP
+clamped
 (
 intpref
 1
@@ -9478,7 +9478,7 @@ rv
 {
 mMaxConcurrentConnections
 =
-NS_CLAMP
+clamped
 (
 intpref
 1

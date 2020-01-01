@@ -7159,10 +7159,13 @@ filename
 .
 textContent
 =
+decodeURI
+(
 srcParts
 [
 srcIdx
 ]
+)
 ;
 let
 size

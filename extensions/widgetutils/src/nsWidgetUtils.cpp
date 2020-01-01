@@ -43,13 +43,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLElement
-.
-h
-"
-#
-include
-"
 nsIDOMNode
 .
 h

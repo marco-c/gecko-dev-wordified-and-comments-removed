@@ -8,7 +8,11 @@ h
 #
 include
 "
-nsIContent
+mozilla
+/
+dom
+/
+Element
 .
 h
 "
@@ -82,6 +86,10 @@ nsLiteralString
 .
 h
 "
+using
+namespace
+mozilla
+;
 NS_IMPL_ISUPPORTS1
 (
 nsPrintPreviewListener
@@ -863,9 +871,12 @@ fm
 win
 )
 {
-nsIContent
+dom
+:
+:
+Element
 *
-fromContent
+fromElement
 =
 parentDoc
 -
@@ -883,7 +894,7 @@ from
 =
 do_QueryInterface
 (
-fromContent
+fromElement
 )
 ;
 bool

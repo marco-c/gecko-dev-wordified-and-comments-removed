@@ -3526,6 +3526,10 @@ LOCAL_GL_MAX_RENDERBUFFER_SIZE
 mMaxRenderbufferSize
 )
 ;
+mMaxTextureImageSize
+=
+mMaxTextureSize
+;
 UpdateActualFormat
 (
 )

@@ -621,6 +621,16 @@ aCaseSensitive
 )
 const
 ;
+bool
+Contains
+(
+const
+nsAString
+&
+aValue
+)
+const
+;
 void
 ParseAtom
 (

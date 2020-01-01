@@ -754,13 +754,10 @@ SetDefaultGCZeal
 (
 PRUint8
 (
-NS_MIN
-(
-NS_MAX
+clamped
 (
 gczeal
 0
-)
 3
 )
 )

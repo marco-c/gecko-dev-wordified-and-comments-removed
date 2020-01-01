@@ -182,7 +182,7 @@ nsJSEventListener
 nsIScriptContext
 *
 aContext
-void
+JSObject
 *
 aScopeObject
 nsISupports
@@ -191,7 +191,7 @@ aTarget
 nsIAtom
 *
 aType
-void
+JSObject
 *
 aHandler
 )
@@ -1166,7 +1166,7 @@ nsJSEventListener
 :
 SetHandler
 (
-void
+JSObject
 *
 aHandler
 )
@@ -1182,7 +1182,7 @@ NS_NewJSEventListener
 nsIScriptContext
 *
 aContext
-void
+JSObject
 *
 aScopeObject
 nsISupports
@@ -1191,7 +1191,7 @@ aTarget
 nsIAtom
 *
 aEventType
-void
+JSObject
 *
 aHandler
 nsIDOMEventListener
@@ -1219,16 +1219,6 @@ aEventType
 aHandler
 )
 ;
-if
-(
-!
-it
-)
-{
-return
-NS_ERROR_OUT_OF_MEMORY
-;
-}
 NS_ADDREF
 (
 *

@@ -6112,6 +6112,9 @@ PRUint8
 mFloats
 ;
 PRUint8
+mOriginalFloats
+;
+PRUint8
 mBreakType
 ;
 bool

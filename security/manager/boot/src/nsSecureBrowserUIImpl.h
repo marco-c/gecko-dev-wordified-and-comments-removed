@@ -147,6 +147,9 @@ nsINetUtil
 h
 "
 class
+nsISSLStatus
+;
+class
 nsITransportSecurityInfo
 ;
 class
@@ -433,7 +436,7 @@ sink
 ;
 nsCOMPtr
 <
-nsISupports
+nsISSLStatus
 >
 mSSLStatus
 ;

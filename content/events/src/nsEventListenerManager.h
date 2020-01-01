@@ -597,7 +597,7 @@ SetJSEventListener
 nsIScriptContext
 *
 aContext
-void
+JSObject
 *
 aScopeGlobal
 nsIAtom

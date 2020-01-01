@@ -148,7 +148,7 @@ h
 #
 include
 "
-nsIDOMNSHTMLElement
+nsIDOMHTMLElement
 .
 h
 "
@@ -6232,7 +6232,7 @@ value
 ;
 nsCOMPtr
 <
-nsIDOMNSHTMLElement
+nsIDOMHTMLElement
 >
 htmlElement
 =

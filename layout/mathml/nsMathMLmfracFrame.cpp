@@ -2192,12 +2192,10 @@ SetColor
 mFrame
 -
 >
-GetStyleColor
+GetVisitedDependentColor
 (
+eCSSProperty_color
 )
--
->
-mColor
 )
 ;
 gfxContext

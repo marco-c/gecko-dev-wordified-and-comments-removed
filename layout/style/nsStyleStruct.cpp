@@ -9205,7 +9205,7 @@ NS_STYLE_DISPLAY_INLINE
 ;
 mOriginalDisplay
 =
-NS_STYLE_DISPLAY_NONE
+mDisplay
 ;
 mPosition
 =
@@ -9214,6 +9214,10 @@ NS_STYLE_POSITION_STATIC
 mFloats
 =
 NS_STYLE_FLOAT_NONE
+;
+mOriginalFloats
+=
+mFloats
 ;
 mBreakType
 =
@@ -9579,6 +9583,12 @@ mOriginalDisplay
 aSource
 .
 mOriginalDisplay
+;
+mOriginalFloats
+=
+aSource
+.
+mOriginalFloats
 ;
 mBinding
 =

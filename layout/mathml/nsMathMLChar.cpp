@@ -8408,12 +8408,10 @@ fgColor
 styleContext
 -
 >
-GetStyleColor
+GetVisitedDependentColor
 (
+eCSSProperty_color
 )
--
->
-mColor
 ;
 if
 (

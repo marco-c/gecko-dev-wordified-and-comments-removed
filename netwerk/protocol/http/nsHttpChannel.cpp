@@ -163,6 +163,17 @@ nsDOMError
 .
 h
 "
+#
+include
+"
+nsAlgorithm
+.
+h
+"
+using
+namespace
+mozilla
+;
 const
 char
 kDiskDeviceID
@@ -15961,7 +15972,7 @@ value
 PRInt16
 newValue
 =
-NS_CLAMP
+clamped
 (
 value
 PR_INT16_MIN

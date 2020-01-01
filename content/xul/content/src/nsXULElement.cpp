@@ -13173,7 +13173,7 @@ nsIProgrammingLanguage
 :
 UNKNOWN
 ;
-void
+JSScript
 *
 newScriptObject
 =
@@ -13570,7 +13570,7 @@ nsXULPrototypeScript
 :
 Set
 (
-void
+JSScript
 *
 aObject
 )

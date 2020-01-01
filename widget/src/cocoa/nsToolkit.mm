@@ -699,6 +699,11 @@ mEventTapRLS
 nsnull
 )
 {
+MOZ_COUNT_CTOR
+(
+nsToolkit
+)
+;
 RegisterForSleepWakeNotifcations
 (
 )

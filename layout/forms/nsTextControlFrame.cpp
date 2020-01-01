@@ -260,6 +260,13 @@ h
 #
 include
 "
+nsIDOMHTMLElement
+.
+h
+"
+#
+include
+"
 nsIPresShell
 .
 h
@@ -448,13 +455,6 @@ h
 include
 "
 nsTextEditRules
-.
-h
-"
-#
-include
-"
-nsIDOMNSHTMLElement
 .
 h
 "
@@ -1771,7 +1771,7 @@ initEagerly
 {
 nsCOMPtr
 <
-nsIDOMNSHTMLElement
+nsIDOMHTMLElement
 >
 element
 =

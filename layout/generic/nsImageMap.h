@@ -56,6 +56,9 @@ class
 nsRenderingContext
 ;
 class
+nsImageFrame
+;
+class
 nsImageMap
 :
 public
@@ -72,7 +75,7 @@ nsImageMap
 nsresult
 Init
 (
-nsIFrame
+nsImageFrame
 *
 aImageFrame
 nsIContent
@@ -80,17 +83,14 @@ nsIContent
 aMap
 )
 ;
-bool
-IsInside
+nsIContent
+*
+GetArea
 (
 nscoord
 aX
 nscoord
 aY
-nsIContent
-*
-*
-aContent
 )
 const
 ;
@@ -115,6 +115,7 @@ NS_DECL_NSIMUTATIONOBSERVER_ATTRIBUTECHANGED
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTAPPENDED
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTINSERTED
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTREMOVED
+NS_DECL_NSIMUTATIONOBSERVER_PARENTCHAINCHANGED
 NS_DECL_NSIDOMEVENTLISTENER
 nsresult
 GetBoundsForAreaContent
@@ -175,7 +176,7 @@ nsIContent
 aContent
 )
 ;
-nsIFrame
+nsImageFrame
 *
 mImageFrame
 ;

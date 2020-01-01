@@ -77,6 +77,13 @@ h
 #
 include
 "
+jspubtd
+.
+h
+"
+#
+include
+"
 mozilla
 /
 scache
@@ -101,7 +108,7 @@ CacheScriptEntry
 PRUint32
 mScriptTypeID
 ;
-void
+JSScript
 *
 mScriptObject
 ;
@@ -167,7 +174,7 @@ nsXULPrototypeDocument
 aDocument
 )
 ;
-void
+JSScript
 *
 GetScript
 (
@@ -187,7 +194,7 @@ nsIURI
 aURI
 PRUint32
 langID
-void
+JSScript
 *
 aScriptObject
 )

@@ -914,15 +914,6 @@ lang
 )
 ;
 virtual
-void
-*
-GetScriptGlobal
-(
-PRUint32
-lang
-)
-;
-virtual
 nsresult
 SetScriptContext
 (

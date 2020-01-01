@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsIDOMNSHTMLElement
+nsIDOMHTMLElement
 .
 h
 "
@@ -887,9 +887,9 @@ RefreshInlineTableEditingUI
 {
 nsCOMPtr
 <
-nsIDOMNSHTMLElement
+nsIDOMHTMLElement
 >
-nsElement
+htmlElement
 =
 do_QueryInterface
 (
@@ -899,7 +899,7 @@ mInlineEditedCell
 if
 (
 !
-nsElement
+htmlElement
 )
 {
 return
@@ -922,7 +922,7 @@ yCell
 nsresult
 res
 =
-nsElement
+htmlElement
 -
 >
 GetOffsetWidth
@@ -939,7 +939,7 @@ res
 ;
 res
 =
-nsElement
+htmlElement
 -
 >
 GetOffsetHeight

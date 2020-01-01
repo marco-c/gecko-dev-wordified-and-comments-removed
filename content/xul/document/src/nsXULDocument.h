@@ -843,16 +843,6 @@ GetWindowRoot
 (
 )
 ;
-PRInt32
-GetDefaultNamespaceID
-(
-)
-const
-{
-return
-kNameSpaceID_XUL
-;
-}
 static
 NS_HIDDEN_
 (
@@ -1132,7 +1122,7 @@ ExecuteScript
 nsIScriptContext
 *
 aContext
-void
+JSScript
 *
 aScriptObject
 )

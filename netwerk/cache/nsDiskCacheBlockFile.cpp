@@ -21,6 +21,10 @@ FileUtils
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsresult
 nsDiskCacheBlockFile
 :
@@ -1521,14 +1525,11 @@ mFileSize
 ;
 mFileSize
 =
-NS_MIN
-(
-maxPreallocate
-NS_MAX
+clamped
 (
 mFileSize
 minPreallocate
-)
+maxPreallocate
 )
 ;
 }

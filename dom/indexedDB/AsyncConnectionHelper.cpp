@@ -482,12 +482,6 @@ JSObject
 *
 global
 =
-static_cast
-<
-JSObject
-*
->
-(
 mRequest
 -
 >
@@ -498,7 +492,6 @@ ScriptContext
 >
 GetNativeGlobal
 (
-)
 )
 ;
 NS_ENSURE_TRUE
