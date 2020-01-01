@@ -14,7 +14,11 @@ h
 #
 include
 "
-nsIDOMEventTarget
+mozilla
+/
+dom
+/
+EventTarget
 .
 h
 "
@@ -54,7 +58,13 @@ class
 nsPIWindowRoot
 :
 public
-nsIDOMEventTarget
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
 {
 public
 :

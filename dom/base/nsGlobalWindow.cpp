@@ -6913,6 +6913,16 @@ nsIDOMEventTarget
 )
 NS_INTERFACE_MAP_ENTRY
 (
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+)
+NS_INTERFACE_MAP_ENTRY
+(
 nsPIDOMWindow
 )
 NS_INTERFACE_MAP_ENTRY
