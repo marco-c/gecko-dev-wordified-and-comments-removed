@@ -224,6 +224,8 @@ class
 T
 >
 class
+NS_FINAL_CLASS
+NS_STACK_CLASS
 nsDerivedSafe
 :
 public
@@ -534,6 +536,8 @@ const
 ;
 class
 NS_COM_GLUE
+NS_STACK_CLASS
+NS_FINAL_CLASS
 nsQueryInterface
 {
 public
@@ -1092,6 +1096,7 @@ class
 T
 >
 class
+NS_FINAL_CLASS
 nsCOMPtr
 #
 ifdef
