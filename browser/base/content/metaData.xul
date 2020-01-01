@@ -843,6 +843,13 @@ url
 -
 text
 "
+class
+=
+"
+uri
+-
+element
+"
 /
 >
 <
@@ -1319,6 +1326,13 @@ image
 url
 -
 text
+"
+class
+=
+"
+uri
+-
+element
 "
 /
 >
