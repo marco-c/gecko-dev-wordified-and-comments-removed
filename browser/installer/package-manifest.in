@@ -310,6 +310,13 @@ mozcpp19
 .
 dll
 #
+else
+BINPATH
+/
+jemalloc
+.
+dll
+#
 endif
 #
 endif
