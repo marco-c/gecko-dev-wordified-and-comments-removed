@@ -17783,6 +17783,16 @@ ratio
 if
 (
 !
+(
+GetStateBits
+(
+)
+&
+NS_FRAME_SELECTED_CONTENT
+)
+|
+|
+!
 HasSelectionOverflowingDecorations
 (
 aPresContext
