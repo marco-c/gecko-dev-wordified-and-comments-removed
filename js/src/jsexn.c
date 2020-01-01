@@ -5202,13 +5202,12 @@ fun
 )
 break
 ;
+NATIVE_FUN_SET_CLASS
+(
 fun
--
->
-clasp
-=
 &
 js_ErrorClass
+)
 ;
 funobj
 =
@@ -5216,6 +5215,8 @@ funobj
 fun
 -
 >
+base
+.
 object
 ;
 if
