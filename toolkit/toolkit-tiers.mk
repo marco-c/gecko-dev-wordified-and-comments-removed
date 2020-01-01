@@ -927,9 +927,8 @@ testing
 mozbase
 ifdef
 MOZ_WEBRTC
-#
-disabled
-#
+ifdef
+MOZ_WEBRTC_TESTS
 tier_platform_dirs
 +
 =
@@ -940,7 +939,6 @@ webrtc
 signaling
 /
 test
-#
 tier_platform_dirs
 +
 =
@@ -949,5 +947,6 @@ media
 mtransport
 /
 test
+endif
 endif
 endif
