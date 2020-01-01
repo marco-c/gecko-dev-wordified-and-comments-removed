@@ -1162,6 +1162,10 @@ ThebesDisplayItemLayerUserData
 (
 )
 :
+mMaskClipCount
+(
+0
+)
 mForcedBackgroundColor
 (
 NS_RGBA
