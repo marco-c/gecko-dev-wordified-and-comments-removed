@@ -460,7 +460,7 @@ necko
 (
 NULL
 )
-EXPORTS_namespaces
+EXPORTS_NAMESPACES
 =
 mozilla
 /
