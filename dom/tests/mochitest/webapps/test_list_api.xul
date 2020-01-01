@@ -287,11 +287,6 @@ install
 "
 function
 "
-installPackage
-:
-"
-function
-"
 mgmt
 :
 "
