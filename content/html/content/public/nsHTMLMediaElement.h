@@ -419,6 +419,16 @@ aMaybeSupportedCodecs
 )
 ;
 static
+PRBool
+ShouldHandleMediaType
+(
+const
+char
+*
+aMIMEType
+)
+;
+static
 void
 InitMediaTypes
 (
