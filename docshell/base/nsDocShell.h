@@ -917,14 +917,6 @@ bool
 aConsiderCurrentDocument
 )
 ;
-bool
-ShouldCheckAppCache
-(
-nsIURI
-*
-aURI
-)
-;
 virtual
 nsresult
 DoURILoad
