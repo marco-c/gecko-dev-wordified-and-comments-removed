@@ -8076,10 +8076,6 @@ LPARAM
 lParam
 )
 {
-gDelayFlashFocusReplyUntilEval
-=
-false
-;
 if
 (
 nCode
