@@ -225,8 +225,10 @@ sContent
 return
 NS_OK
 ;
+nsCOMPtr
+<
 nsIKBStateControl
-*
+>
 kb
 =
 GetKBStateControl
@@ -308,8 +310,10 @@ return
 NS_OK
 ;
 }
+nsCOMPtr
+<
 nsIKBStateControl
-*
+>
 kb
 =
 GetKBStateControl
@@ -418,8 +422,10 @@ if
 sPresContext
 )
 {
+nsCOMPtr
+<
 nsIKBStateControl
-*
+>
 oldKB
 ;
 if
@@ -601,8 +607,10 @@ sContent
 =
 nsnull
 ;
+nsCOMPtr
+<
 nsIKBStateControl
-*
+>
 kb
 =
 GetKBStateControl
