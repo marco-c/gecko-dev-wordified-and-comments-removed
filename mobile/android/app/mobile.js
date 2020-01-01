@@ -4055,6 +4055,16 @@ click_to_play
 true
 )
 ;
+pref
+(
+"
+plugins
+.
+use_placeholder
+"
+1
+)
+;
 #
 if
 MOZ_PLATFORM_MAEMO
