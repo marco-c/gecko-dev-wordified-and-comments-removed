@@ -847,6 +847,9 @@ GetPermissionsForAppStruct
 uint32_t
 appId
 ;
+bool
+browserOnly
+;
 nsCOMArray
 <
 nsIPermission
@@ -862,11 +865,17 @@ GetPermissionsForAppStruct
 (
 uint32_t
 aAppId
+bool
+aBrowserOnly
 )
 :
 appId
 (
 aAppId
+)
+browserOnly
+(
+aBrowserOnly
 )
 {
 }
