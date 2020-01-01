@@ -430,9 +430,6 @@ DIRS
 basic
 /
 windows
-scriptable
-/
-windows
 winless
 /
 windows
