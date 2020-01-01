@@ -2053,6 +2053,16 @@ aName
 )
 ;
 static
+PRUint32
+GetEventCategory
+(
+const
+nsAString
+&
+aName
+)
+;
+static
 nsIAtom
 *
 GetEventIdAndAtom

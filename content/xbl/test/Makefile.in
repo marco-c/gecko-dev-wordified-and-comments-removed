@@ -567,6 +567,10 @@ file_bug591198_inner
 .
 html
 \
+test_bug639338
+.
+xhtml
+\
 (
 NULL
 )
