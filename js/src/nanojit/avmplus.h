@@ -810,6 +810,9 @@ sse2
 bool
 use_cmov
 ;
+bool
+fixed_esp
+;
 #
 endif
 #
