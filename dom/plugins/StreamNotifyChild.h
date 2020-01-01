@@ -31,6 +31,8 @@ friend
 class
 PluginInstanceChild
 ;
+public
+:
 StreamNotifyChild
 (
 const
