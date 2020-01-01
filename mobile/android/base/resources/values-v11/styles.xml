@@ -169,7 +169,7 @@ android
 orientation
 "
 >
-horizontal
+vertical
 <
 /
 item
@@ -414,8 +414,9 @@ android
 background
 "
 >
-#
-000000
+drawable
+/
+gecko_actionbar_bg
 <
 /
 item
