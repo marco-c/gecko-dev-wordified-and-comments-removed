@@ -132,15 +132,6 @@ CreateInputStream
 (
 )
 ;
-static
-already_AddRefed
-<
-nsDOMMediaStream
->
-CreateTrackUnionStream
-(
-)
-;
 protected
 :
 MediaStream
