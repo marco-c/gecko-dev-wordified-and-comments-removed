@@ -14,6 +14,8 @@ mozilla
 .
 gecko
 .
+util
+.
 FloatUtils
 ;
 import
@@ -63,6 +65,12 @@ final
 class
 RectUtils
 {
+private
+RectUtils
+(
+)
+{
+}
 public
 static
 Rect

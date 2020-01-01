@@ -14,7 +14,9 @@ mozilla
 .
 gecko
 .
-GeckoAppShell
+mozglue
+.
+DirectBufferAllocator
 ;
 import
 android
@@ -121,9 +123,9 @@ text
 ByteBuffer
 buffer
 =
-GeckoAppShell
+DirectBufferAllocator
 .
-allocateDirectBuffer
+allocate
 (
 size
 .
