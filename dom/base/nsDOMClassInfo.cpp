@@ -26442,6 +26442,13 @@ GetGlobalJSObject
 (
 )
 ;
+JSAutoCompartment
+ac
+(
+cx
+windowObj
+)
+;
 JSAutoRequest
 ar
 (
