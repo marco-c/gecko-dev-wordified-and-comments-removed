@@ -287,11 +287,10 @@ aBinding
 >
 SetJSClass
 (
-static_cast
-<
 nsXBLJSClass
-*
->
+:
+:
+fromJSClass
 (
 JS_GetClass
 (
