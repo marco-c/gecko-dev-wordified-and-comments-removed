@@ -774,7 +774,7 @@ dd
 1
 )
 +
-CurrTZ
+JanTZ
 )
 ;
 check
@@ -797,7 +797,7 @@ dd
 0
 )
 +
-CurrTZ
+JanTZ
 )
 ;
 check
@@ -818,7 +818,7 @@ dd
 0
 )
 +
-CurrTZ
+JanTZ
 )
 ;
 check
