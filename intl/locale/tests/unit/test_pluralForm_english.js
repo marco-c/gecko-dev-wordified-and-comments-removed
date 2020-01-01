@@ -24,6 +24,16 @@ run_test
 (
 )
 {
+do_check_eq
+(
+2
+PluralForm
+.
+numForms
+(
+)
+)
+;
 for
 (
 var
@@ -34,7 +44,7 @@ num
 num
 <
 =
-1000
+200
 ;
 num
 +
