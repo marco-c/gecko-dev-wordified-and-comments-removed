@@ -3769,6 +3769,9 @@ ifdef
 JSGC_GENERATIONAL
 if
 (
+slots
+&
+&
 heap
 !
 =
