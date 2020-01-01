@@ -2854,6 +2854,9 @@ gst_buffer_copy_metadata
 (
 tmp
 buffer
+(
+GstBufferCopyFlags
+)
 GST_BUFFER_COPY_ALL
 )
 ;
