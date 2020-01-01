@@ -6,6 +6,9 @@ define
 __OGGPLAY_PRIVATE_H__
 #
 ifdef
+HAVE_CONFIG_H
+#
+ifdef
 WIN32
 #
 include
@@ -23,6 +26,8 @@ config
 .
 h
 >
+#
+endif
 #
 endif
 #
@@ -480,6 +485,9 @@ shutdown
 ;
 int
 pt_update_valid
+;
+ogg_int64_t
+duration
 ;
 }
 ;
