@@ -41,6 +41,13 @@ defined
 (
 __ARM_ARCH_7R__
 )
+|
+|
+\
+defined
+(
+_ARM_ARCH_7
+)
 #
 define
 NJ_COMPILER_ARM_ARCH
@@ -85,6 +92,13 @@ __ARM_ARCH_6ZK__
 defined
 (
 __ARM_ARCH_6M__
+)
+|
+|
+\
+defined
+(
+_ARM_ARCH_6
 )
 #
 define
