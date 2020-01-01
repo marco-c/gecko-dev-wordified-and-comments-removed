@@ -724,7 +724,7 @@ faviconUrl
 {
 mFaviconUrl
 =
-mFaviconUrl
+faviconUrl
 ;
 Log
 .
