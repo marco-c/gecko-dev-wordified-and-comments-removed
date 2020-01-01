@@ -545,6 +545,10 @@ css_properties
 js
 _TEST_FILES
 =
+test_acid3_test46
+.
+html
+\
 test_bug73586
 .
 html
@@ -678,6 +682,10 @@ test_initial_computation
 html
 \
 test_initial_storage
+.
+html
+\
+test_media_queries
 .
 html
 \
@@ -817,6 +825,14 @@ css
 xbl_bindings
 .
 xml
+\
+empty
+.
+html
+\
+media_queries_iframe
+.
+html
 \
 (
 NULL
