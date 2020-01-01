@@ -92,6 +92,13 @@ ChildTimer
 .
 h
 "
+#
+include
+"
+nsRect
+.
+h
+"
 namespace
 mozilla
 {
@@ -732,6 +739,9 @@ mCachedWinlessPluginHWND
 ;
 UINT_PTR
 mEventPumpTimer
+;
+nsIntPoint
+mPluginSize
 ;
 #
 endif
