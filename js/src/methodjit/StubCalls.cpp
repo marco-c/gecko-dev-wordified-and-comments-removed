@@ -1026,9 +1026,10 @@ shape
 obj
 -
 >
-setSlot
+nativeSetSlotWithType
 (
-slot
+cx
+shape
 rval
 )
 ;
