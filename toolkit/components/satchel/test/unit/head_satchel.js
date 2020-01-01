@@ -15,7 +15,7 @@ classes
 const
 CURRENT_SCHEMA
 =
-1
+2
 ;
 const
 PR_HOURS
