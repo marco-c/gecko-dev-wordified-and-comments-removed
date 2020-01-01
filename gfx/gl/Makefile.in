@@ -445,10 +445,6 @@ EGLUtils
 .
 h
 \
-ForceDiscreteGPUHelperCGL
-.
-h
-\
 (
 NULL
 )
@@ -643,6 +639,14 @@ CPPSRCS
 GLContextProviderEGL
 .
 cpp
+endif
+ifdef
+MOZ_JAVA_COMPOSITOR
+DEFINES
++
+=
+-
+DMOZ_JAVA_COMPOSITOR
 endif
 include
 (

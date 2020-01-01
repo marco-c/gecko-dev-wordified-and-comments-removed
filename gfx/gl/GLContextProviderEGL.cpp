@@ -8274,6 +8274,9 @@ config
 ;
 #
 endif
+#
+ifdef
+MOZ_JAVA_COMPOSITOR
 printf_stderr
 (
 "
@@ -8323,9 +8326,6 @@ surface
 return
 surface
 ;
-#
-ifdef
-MOZ_JAVA_COMPOSITOR
 #
 elif
 defined
