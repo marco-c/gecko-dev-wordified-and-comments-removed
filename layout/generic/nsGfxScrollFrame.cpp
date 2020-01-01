@@ -1336,11 +1336,11 @@ width
 0
 ;
 nscoord
-vScrollbarDesiredHeight
+vScrollbarMinHeight
 =
 aAssumeVScroll
 ?
-vScrollbarPrefSize
+vScrollbarMinSize
 .
 height
 :
@@ -1400,11 +1400,11 @@ height
 0
 ;
 nscoord
-hScrollbarDesiredWidth
+hScrollbarMinWidth
 =
 aAssumeHScroll
 ?
-hScrollbarPrefSize
+hScrollbarMinSize
 .
 width
 :
@@ -1425,7 +1425,7 @@ aKidMetrics
 -
 >
 width
-hScrollbarDesiredWidth
+hScrollbarMinWidth
 )
 ;
 desiredInsideBorderSize
@@ -1440,7 +1440,7 @@ aKidMetrics
 -
 >
 height
-vScrollbarDesiredHeight
+vScrollbarMinHeight
 )
 ;
 aState
