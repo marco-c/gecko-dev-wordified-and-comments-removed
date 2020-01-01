@@ -19042,12 +19042,10 @@ cx
 )
 ;
 return
-obj
--
->
-checkAccess
+CheckAccess
 (
 cx
+obj
 id
 mode
 vp

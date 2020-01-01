@@ -24779,7 +24779,6 @@ xml_setAttributes
 xml_deleteProperty
 xml_defaultValue
 xml_enumerate
-js_CheckAccess
 xml_typeOf
 js_TraceObject
 NULL

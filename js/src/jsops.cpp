@@ -16319,12 +16319,10 @@ error
 if
 (
 !
-obj
--
->
-checkAccess
+CheckAccess
 (
 cx
+obj
 id
 JSACC_WATCH
 &
