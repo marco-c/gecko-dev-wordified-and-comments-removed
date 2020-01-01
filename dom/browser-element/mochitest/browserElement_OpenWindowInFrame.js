@@ -23,7 +23,7 @@ true
 ;
 browserElementTestHelpers
 .
-addPermission
+addToWhitelist
 (
 )
 ;
@@ -150,9 +150,7 @@ detail
 .
 features
 "
-dialog
-=
-1
+features
 "
 )
 ;
