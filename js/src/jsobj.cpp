@@ -28588,6 +28588,13 @@ clasp
 =
 &
 js_RegExpClass
+|
+|
+clasp
+=
+=
+&
+js_ScriptClass
 )
 {
 return
