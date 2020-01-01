@@ -1240,6 +1240,10 @@ Worker
 )
 DOMCI_CLASS
 (
+ChromeWorker
+)
+DOMCI_CLASS
+(
 CanvasRenderingContextWebGL
 )
 DOMCI_CLASS

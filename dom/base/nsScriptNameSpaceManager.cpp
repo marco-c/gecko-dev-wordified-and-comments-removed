@@ -726,7 +726,7 @@ nsGlobalNameStruct
 nametype
 aType
 PRBool
-aPrivilegedOnly
+aChromeOnly
 )
 {
 nsCOMPtr
@@ -1063,7 +1063,7 @@ eTypeExternalConstructorAlias
 s
 -
 >
-mPrivilegedOnly
+mChromeOnly
 =
 PR_FALSE
 ;
@@ -1169,9 +1169,9 @@ cid
 s
 -
 >
-mPrivilegedOnly
+mChromeOnly
 =
-aPrivilegedOnly
+aChromeOnly
 ;
 }
 else
@@ -2420,6 +2420,8 @@ char
 aClassName
 PRInt32
 aDOMClassInfoID
+PRBool
+aPrivileged
 const
 PRUnichar
 *
@@ -2560,6 +2562,13 @@ s
 mDOMClassInfoID
 =
 aDOMClassInfoID
+;
+s
+-
+>
+mChromeOnly
+=
+aPrivileged
 ;
 return
 NS_OK
