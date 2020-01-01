@@ -897,6 +897,12 @@ _request
 =
 null
 ;
+this
+.
+_processor
+=
+null
+;
 }
 handleResult
 :
