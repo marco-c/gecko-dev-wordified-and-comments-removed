@@ -5429,8 +5429,11 @@ stats
 mTotalBytes
 <
 0
-|
-|
+?
+stats
+.
+mDownloadRateReliable
+:
 stats
 .
 mTotalBytes
