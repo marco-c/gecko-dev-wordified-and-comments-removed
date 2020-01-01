@@ -1,5 +1,4 @@
 #
-#
 This
 Source
 Code
@@ -86,6 +85,16 @@ mk
 MODULE
 =
 urlformatter
+ifdef
+MOZILLA_OFFICIAL
+DEFINES
++
+=
+-
+DOFFICIAL_BUILD
+=
+1
+endif
 XPIDLSRCS
 =
 \
