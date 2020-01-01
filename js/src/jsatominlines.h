@@ -546,10 +546,6 @@ JSID_TO_ATOM
 id
 )
 ;
-JSString
-*
-str
-;
 if
 (
 JS_LIKELY
@@ -560,9 +556,8 @@ id
 )
 )
 )
-str
-=
-js_IntToString
+return
+Int32ToString
 (
 cx
 JSID_TO_INT
@@ -571,7 +566,8 @@ id
 )
 )
 ;
-else
+JSString
+*
 str
 =
 ToStringSlow

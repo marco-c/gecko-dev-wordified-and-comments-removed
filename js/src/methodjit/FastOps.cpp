@@ -14791,17 +14791,6 @@ reg2
 tmpReg
 )
 ;
-JS_STATIC_ASSERT
-(
-JSString
-:
-:
-ATOM_FLAGS
-=
-=
-0
-)
-;
 Imm32
 atomMask
 (
