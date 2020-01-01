@@ -121,3 +121,11 @@ regress
 bug632003
 .
 js
+script
+error
+-
+undefined
+-
+message
+.
+js
