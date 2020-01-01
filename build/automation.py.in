@@ -6824,6 +6824,14 @@ and
 at
 least
 )
+if
+'
+NSPR_LOG_MODULES
+'
+not
+in
+env
+:
 env
 [
 '
