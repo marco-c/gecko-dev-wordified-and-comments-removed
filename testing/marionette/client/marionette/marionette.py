@@ -2102,6 +2102,9 @@ None
 timeout
 =
 True
+new_sandbox
+=
+True
 )
 :
         
@@ -2150,6 +2153,10 @@ args
 timeout
 =
 timeout
+                                      
+newSandbox
+=
+new_sandbox
 )
         
 return
@@ -2168,6 +2175,9 @@ script
 script_args
 =
 None
+new_sandbox
+=
+True
 )
 :
         
@@ -2200,15 +2210,22 @@ _send_message
 '
 executeScript
 '
+                                     
 '
 value
 '
+                                      
 value
 =
 script
+                                      
 args
 =
 args
+                                      
+newSandbox
+=
+new_sandbox
 )
         
 return
@@ -2227,6 +2244,9 @@ script
 script_args
 =
 None
+new_sandbox
+=
+True
 )
 :
         
@@ -2259,15 +2279,22 @@ _send_message
 '
 executeAsyncScript
 '
+                                      
 '
 value
 '
+                                      
 value
 =
 script
+                                      
 args
 =
 args
+                                      
+newSandbox
+=
+new_sandbox
 )
         
 return
