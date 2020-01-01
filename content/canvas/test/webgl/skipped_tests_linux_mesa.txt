@@ -20,3 +20,12 @@ pixels
 test
 .
 html
+conformance
+/
+textures
+/
+texture
+-
+mips
+.
+html

@@ -4,15 +4,6 @@ textures
 /
 texture
 -
-mips
-.
-html
-conformance
-/
-textures
-/
-texture
--
 size
 -
 cube
