@@ -1545,10 +1545,6 @@ DrawTargetCairo
 (
 )
 {
-MarkSnapshotIndependent
-(
-)
-;
 if
 (
 mPathObserver
