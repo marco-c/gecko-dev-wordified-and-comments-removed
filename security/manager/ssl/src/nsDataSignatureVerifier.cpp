@@ -129,7 +129,7 @@ bool
 _retval
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;

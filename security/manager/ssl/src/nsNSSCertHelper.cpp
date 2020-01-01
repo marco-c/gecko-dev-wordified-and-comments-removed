@@ -4553,7 +4553,7 @@ static
 nsresult
 AppendBMPtoUTF16
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 unsigned
@@ -4659,7 +4659,7 @@ nssComponent
 SECItem
 item
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -4728,7 +4728,7 @@ static
 nsresult
 ProcessGeneralName
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTGeneralName
@@ -5679,7 +5679,7 @@ static
 nsresult
 ProcessGeneralNames
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 CERTGeneralName
@@ -5763,7 +5763,7 @@ rv
 =
 NS_OK
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -5839,7 +5839,7 @@ nsINSSComponent
 nssComponent
 )
 {
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -5964,7 +5964,7 @@ CERTAuthKeyID
 *
 ret
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -6231,7 +6231,7 @@ SECItem
 *
 itemList
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -7127,7 +7127,7 @@ points
 *
 point
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;
@@ -7723,7 +7723,7 @@ aia
 *
 desc
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;

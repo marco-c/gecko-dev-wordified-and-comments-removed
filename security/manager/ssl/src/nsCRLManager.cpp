@@ -265,7 +265,7 @@ locker
 nsresult
 rv
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =

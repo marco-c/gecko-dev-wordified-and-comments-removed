@@ -1059,7 +1059,7 @@ nsNSSCertificateDB
 :
 getCertsFromPackage
 (
-PRArenaPool
+PLArenaPool
 *
 arena
 uint8_t
@@ -1976,7 +1976,7 @@ locker
 nsresult
 nsrv
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -2317,7 +2317,7 @@ nsrv
 return
 nsrv
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -2929,7 +2929,7 @@ serverNickname
 =
 nullptr
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -4002,7 +4002,7 @@ CERTDERCerts
 *
 collectArgs
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 ;

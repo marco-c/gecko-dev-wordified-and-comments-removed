@@ -360,7 +360,7 @@ unsigned
 int
 len
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
@@ -2166,7 +2166,7 @@ spkInfo
 =
 nullptr
 ;
-PRArenaPool
+PLArenaPool
 *
 arena
 =
