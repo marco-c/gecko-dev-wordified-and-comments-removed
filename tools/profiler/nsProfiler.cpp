@@ -367,12 +367,15 @@ while
 (
 features
 [
-+
-+
 len
 ]
 )
+{
+len
++
++
 ;
+}
 char
 *
 *
