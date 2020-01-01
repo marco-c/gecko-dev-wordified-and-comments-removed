@@ -443,12 +443,6 @@ DEBUG
 |
 defined
 (
-JS_JIT_SPEW
-)
-|
-|
-defined
-(
 JS_METHODJIT_SPEW
 )
 const

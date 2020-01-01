@@ -1504,12 +1504,6 @@ ANDROID
 &
 defined
 (
-JS_TRACER
-)
-&
-&
-defined
-(
 JS_METHODJIT
 )
 return
