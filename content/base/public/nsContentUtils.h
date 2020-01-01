@@ -3309,6 +3309,12 @@ IsFullScreenApiEnabled
 )
 ;
 static
+PRBool
+IsRequestFullScreenAllowed
+(
+)
+;
+static
 void
 GetShiftText
 (
@@ -3777,6 +3783,10 @@ sAllowXULXBL_for_file
 static
 PRBool
 sIsFullScreenApiEnabled
+;
+static
+PRBool
+sTrustedFullScreenOnly
 ;
 static
 nsHtml5Parser

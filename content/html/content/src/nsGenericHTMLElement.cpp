@@ -14640,6 +14640,15 @@ nsContentUtils
 IsFullScreenApiEnabled
 (
 )
+|
+|
+!
+nsContentUtils
+:
+:
+IsRequestFullScreenAllowed
+(
+)
 )
 {
 return
