@@ -322,6 +322,11 @@ bin
 README
 .
 txt
+bin
+\
+sqlite3
+.
+dll
 ;
 [
 Components

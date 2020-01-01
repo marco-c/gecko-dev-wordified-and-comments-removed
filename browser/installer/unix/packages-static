@@ -316,6 +316,11 @@ dat
 bin
 /
 xpicleanup
+bin
+/
+sqlite3
+.
+so
 ;
 [
 Components
