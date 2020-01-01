@@ -309,7 +309,6 @@ _observeInProcessBrowserFrameShown
 function
 (
 frameLoader
-data
 )
 {
 debug
@@ -331,7 +330,6 @@ this
 _setUpMessageManagerListeners
 (
 frameLoader
-data
 )
 ;
 }
@@ -340,7 +338,6 @@ _observeRemoteBrowserFrameShown
 function
 (
 frameLoader
-data
 )
 {
 debug
@@ -360,7 +357,6 @@ this
 _setUpMessageManagerListeners
 (
 frameLoader
-data
 )
 ;
 }
@@ -369,7 +365,6 @@ _setUpMessageManagerListeners
 function
 (
 frameLoader
-data
 )
 {
 let
@@ -772,7 +767,6 @@ this
 _observeRemoteBrowserFrameShown
 (
 subject
-data
 )
 ;
 break
@@ -795,7 +789,6 @@ this
 _observeInProcessBrowserFrameShown
 (
 subject
-data
 )
 ;
 break
