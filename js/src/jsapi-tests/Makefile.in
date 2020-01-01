@@ -313,6 +313,10 @@ testTypedArrays
 .
 cpp
 \
+testUTF8
+.
+cpp
+\
 testVersion
 .
 cpp

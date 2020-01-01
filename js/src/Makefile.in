@@ -576,6 +576,10 @@ BytecodeEmitter
 .
 cpp
 \
+CharacterEncoding
+.
+cpp
+\
 FoldConstants
 .
 cpp
@@ -1071,6 +1075,10 @@ requirement
 .
 EXPORTS_js
 =
+\
+CharacterEncoding
+.
+h
 \
 HashTable
 .
