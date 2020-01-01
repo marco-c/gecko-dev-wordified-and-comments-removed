@@ -879,15 +879,6 @@ GetStyleBorder
 (
 )
 ;
-const
-nsStylePadding
-*
-paddingStyle
-=
-GetStylePadding
-(
-)
-;
 nscoord
 topBorder
 =
@@ -963,10 +954,6 @@ aRenderingContext
 this
 aDirtyRect
 rect
-*
-borderStyle
-*
-paddingStyle
 PR_TRUE
 )
 ;

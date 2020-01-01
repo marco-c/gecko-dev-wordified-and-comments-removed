@@ -219,14 +219,6 @@ const
 nsRect
 &
 aBorderArea
-const
-nsStyleBorder
-&
-aBorder
-const
-nsStylePadding
-&
-aPadding
 PRBool
 aUsePrintSettings
 nsRect
