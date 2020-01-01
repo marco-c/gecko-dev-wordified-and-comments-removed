@@ -1044,6 +1044,14 @@ pair
 stun_client_handle
 )
 ;
+if
+(
+pair
+-
+>
+stun_client
+)
+{
 RFREE
 (
 pair
@@ -1085,6 +1093,7 @@ pair
 stun_client
 )
 ;
+}
 RFREE
 (
 pair
