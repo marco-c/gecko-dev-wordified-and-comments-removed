@@ -89,6 +89,16 @@ classic
 /
 global
 /
+splitter
+.
+css
++
+skin
+/
+classic
+/
+global
+/
 radio
 .
 css

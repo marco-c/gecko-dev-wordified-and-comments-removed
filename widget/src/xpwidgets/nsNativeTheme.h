@@ -256,6 +256,14 @@ aFrame
 )
 ;
 PRBool
+IsHorizontal
+(
+nsIFrame
+*
+aFrame
+)
+;
+PRBool
 IsIndeterminateProgress
 (
 nsIFrame

@@ -727,6 +727,8 @@ eCSSKeyword_dualbutton_dropdown
 NS_THEME_TOOLBAR_DUAL_BUTTON_DROPDOWN
 eCSSKeyword_separator
 NS_THEME_TOOLBAR_SEPARATOR
+eCSSKeyword_splitter
+NS_THEME_SPLITTER
 eCSSKeyword_statusbar
 NS_THEME_STATUSBAR
 eCSSKeyword_statusbarpanel

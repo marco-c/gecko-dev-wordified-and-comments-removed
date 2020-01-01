@@ -196,6 +196,8 @@ MOZ_GTK_MENUITEM
 MOZ_GTK_CHECKMENUITEM
 MOZ_GTK_RADIOMENUITEM
 MOZ_GTK_MENUSEPARATOR
+MOZ_GTK_SPLITTER_HORIZONTAL
+MOZ_GTK_SPLITTER_VERTICAL
 MOZ_GTK_WINDOW
 }
 GtkThemeWidgetType
@@ -353,6 +355,16 @@ size
 gint
 moz_gtk_get_menu_separator_height
 (
+gint
+*
+size
+)
+;
+gint
+moz_gtk_splitter_get_metrics
+(
+gint
+orientation
 gint
 *
 size
