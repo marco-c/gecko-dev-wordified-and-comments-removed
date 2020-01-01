@@ -645,16 +645,6 @@ DEFINES
 DUNICODE
 -
 D_UNICODE
-XPIDLSRCS
-=
-\
-nsICrashReporter
-.
-idl
-\
-(
-NULL
-)
 EXPORTS
 =
 \

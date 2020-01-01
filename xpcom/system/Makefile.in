@@ -439,6 +439,10 @@ nsIGnomeVFSService
 .
 idl
 \
+nsICrashReporter
+.
+idl
+\
 (
 NULL
 )
