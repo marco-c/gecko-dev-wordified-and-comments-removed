@@ -1785,6 +1785,15 @@ aPt
 )
 ;
 }
+void
+MovePositionBy
+(
+const
+nsPoint
+&
+aTranslation
+)
+;
 nsPoint
 GetNormalPosition
 (
