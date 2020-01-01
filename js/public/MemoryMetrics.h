@@ -190,6 +190,9 @@ size_t
 objectElements
 ;
 size_t
+objectMisc
+;
+size_t
 stringChars
 ;
 size_t

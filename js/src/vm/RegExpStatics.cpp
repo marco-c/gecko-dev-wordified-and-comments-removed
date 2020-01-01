@@ -118,9 +118,11 @@ trc
 )
 ;
 }
-static
 Class
-regexp_statics_class
+js
+:
+:
+RegExpStaticsClass
 =
 {
 "
@@ -167,7 +169,7 @@ NewObjectWithGivenProto
 (
 cx
 &
-regexp_statics_class
+RegExpStaticsClass
 NULL
 parent
 )
