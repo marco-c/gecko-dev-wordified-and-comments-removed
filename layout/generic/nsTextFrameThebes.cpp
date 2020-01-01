@@ -26149,6 +26149,10 @@ aStart
 aEnd
 )
 ;
+ClearTextRun
+(
+)
+;
 }
 void
 nsTextFrame
