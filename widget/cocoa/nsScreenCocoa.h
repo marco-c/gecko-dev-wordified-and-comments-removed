@@ -102,6 +102,11 @@ mScreen
 }
 private
 :
+CGFloat
+BackingScaleFactor
+(
+)
+;
 NSScreen
 *
 mScreen
