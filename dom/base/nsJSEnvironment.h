@@ -303,7 +303,7 @@ BindCompiledEventHandler
 nsISupports
 *
 aTarget
-void
+JSObject
 *
 aScope
 void
