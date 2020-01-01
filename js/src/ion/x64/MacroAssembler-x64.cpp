@@ -490,15 +490,9 @@ DEBUG
 Label
 good
 ;
-movl
-(
-rsp
-rax
-)
-;
 testq
 (
-rax
+rsp
 Imm32
 (
 StackAlignment

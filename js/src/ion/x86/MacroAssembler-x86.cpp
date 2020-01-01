@@ -664,15 +664,9 @@ DEBUG
 Label
 good
 ;
-movl
-(
-esp
-eax
-)
-;
 testl
 (
-eax
+esp
 Imm32
 (
 StackAlignment
