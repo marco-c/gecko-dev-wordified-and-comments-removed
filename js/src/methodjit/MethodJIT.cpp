@@ -3979,6 +3979,13 @@ script
 jit
 )
 ;
+script
+-
+>
+jit
+=
+NULL
+;
 }
 #
 ifdef
