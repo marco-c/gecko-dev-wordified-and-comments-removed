@@ -236,6 +236,17 @@ Context
 applicationContext
 )
 {
+if
+(
+mApplicationContext
+!
+=
+null
+)
+{
+return
+;
+}
 mApplicationContext
 =
 applicationContext
