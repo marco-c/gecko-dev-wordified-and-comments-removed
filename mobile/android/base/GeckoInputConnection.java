@@ -3863,12 +3863,8 @@ public
 void
 notifyIME
 (
-final
 int
 type
-final
-int
-state
 )
 {
 switch
@@ -3877,7 +3873,7 @@ type
 )
 {
 case
-NOTIFY_IME_CANCELCOMPOSITION
+NOTIFY_IME_TO_CANCEL_COMPOSITION
 :
 setComposingText
 (
@@ -3887,7 +3883,7 @@ setComposingText
 )
 ;
 case
-NOTIFY_IME_RESETINPUTSTATE
+NOTIFY_IME_TO_COMMIT_COMPOSITION
 :
 finishComposingText
 (
@@ -3900,7 +3896,10 @@ tryRestartInput
 break
 ;
 case
-NOTIFY_IME_FOCUSCHANGE
+NOTIFY_IME_OF_FOCUS
+:
+case
+NOTIFY_IME_OF_BLUR
 :
 resetInputConnection
 (

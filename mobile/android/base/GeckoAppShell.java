@@ -1724,8 +1724,6 @@ notifyIME
 (
 int
 type
-int
-state
 )
 {
 if
@@ -1741,7 +1739,6 @@ mEditableListener
 notifyIME
 (
 type
-state
 )
 ;
 }
