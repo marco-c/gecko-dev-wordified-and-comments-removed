@@ -40,6 +40,13 @@ nsHTMLTokenizer
 .
 h
 "
+#
+include
+"
+nsMimeTypes
+.
+h
+"
 CParserContext
 :
 :
@@ -163,7 +170,7 @@ mMimeType
 .
 EqualsLiteral
 (
-kHTMLTextContentType
+TEXT_HTML
 )
 )
 mDocType
@@ -177,7 +184,7 @@ mMimeType
 .
 EqualsLiteral
 (
-kXMLTextContentType
+TEXT_XML
 )
 |
 |
@@ -185,7 +192,7 @@ mMimeType
 .
 EqualsLiteral
 (
-kXMLApplicationContentType
+APPLICATION_XML
 )
 |
 |
@@ -193,7 +200,7 @@ mMimeType
 .
 EqualsLiteral
 (
-kXHTMLApplicationContentType
+APPLICATION_XHTML_XML
 )
 |
 |
@@ -201,7 +208,7 @@ mMimeType
 .
 EqualsLiteral
 (
-kXULTextContentType
+TEXT_XUL
 )
 |
 |
@@ -212,7 +219,7 @@ mMimeType
 .
 EqualsLiteral
 (
-kSVGTextContentType
+IMAGE_SVG_XML
 )
 |
 |
@@ -222,7 +229,7 @@ mMimeType
 .
 EqualsLiteral
 (
-kRDFApplicationContentType
+APPLICATION_RDF_XML
 )
 |
 |
@@ -230,7 +237,7 @@ mMimeType
 .
 EqualsLiteral
 (
-kRDFTextContentType
+TEXT_RDF
 )
 )
 mDocType

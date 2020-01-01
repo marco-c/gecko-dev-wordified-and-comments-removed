@@ -258,6 +258,13 @@ nsICSSLoader
 h
 "
 #
+include
+"
+nsMimeTypes
+.
+h
+"
+#
 ifdef
 MOZ_VIEW_SOURCE
 #
@@ -3576,7 +3583,11 @@ mCommandStr
 .
 Equals
 (
-kViewSourceCommand
+"
+view
+-
+source
+"
 )
 )
 {
@@ -3592,7 +3603,11 @@ mCommandStr
 .
 Equals
 (
-kViewFragmentCommand
+"
+view
+-
+fragment
+"
 )
 )
 {
@@ -7402,7 +7417,7 @@ aMimeType
 .
 EqualsLiteral
 (
-kHTMLTextContentType
+TEXT_HTML
 )
 )
 {
@@ -7421,7 +7436,7 @@ aMimeType
 .
 EqualsLiteral
 (
-kPlainTextContentType
+TEXT_PLAIN
 )
 |
 |
@@ -7429,7 +7444,7 @@ aMimeType
 .
 EqualsLiteral
 (
-kTextCSSContentType
+TEXT_CSS
 )
 |
 |
@@ -7437,7 +7452,7 @@ aMimeType
 .
 EqualsLiteral
 (
-kApplicationJSContentType
+APPLICATION_JAVASCRIPT
 )
 |
 |
@@ -7445,7 +7460,7 @@ aMimeType
 .
 EqualsLiteral
 (
-kApplicationXJSContentType
+APPLICATION_XJAVASCRIPT
 )
 |
 |
@@ -7453,7 +7468,7 @@ aMimeType
 .
 EqualsLiteral
 (
-kTextECMAScriptContentType
+TEXT_ECMASCRIPT
 )
 |
 |
@@ -7461,7 +7476,7 @@ aMimeType
 .
 EqualsLiteral
 (
-kApplicationECMAScriptContentType
+APPLICATION_ECMASCRIPT
 )
 |
 |
@@ -7469,7 +7484,7 @@ aMimeType
 .
 EqualsLiteral
 (
-kTextJSContentType
+TEXT_JAVASCRIPT
 )
 )
 {
@@ -12241,7 +12256,7 @@ mMimeType
 .
 EqualsLiteral
 (
-kHTMLTextContentType
+TEXT_HTML
 )
 )
 {
