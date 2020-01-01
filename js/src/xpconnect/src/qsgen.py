@@ -347,15 +347,13 @@ includePath
         
 path
 =
-os
-.
-path
-.
-join
-(
 d
++
+'
+/
+'
++
 filename
-)
         
 if
 os
