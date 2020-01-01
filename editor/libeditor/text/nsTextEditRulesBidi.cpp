@@ -283,6 +283,15 @@ eNext
 =
 =
 aAction
+|
+|
+nsIEditor
+:
+:
+eNextWord
+=
+=
+aAction
 )
 ?
 levelAfter
