@@ -495,7 +495,7 @@ bits
 .
 rowstride
 ;
-uint32_t
+int32_t
 width
 =
 (

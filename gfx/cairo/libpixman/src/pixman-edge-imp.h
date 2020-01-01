@@ -44,7 +44,7 @@ bits
 .
 bits
 ;
-uint32_t
+int32_t
 stride
 =
 (
@@ -56,7 +56,7 @@ bits
 .
 rowstride
 ;
-uint32_t
+int32_t
 width
 =
 (
