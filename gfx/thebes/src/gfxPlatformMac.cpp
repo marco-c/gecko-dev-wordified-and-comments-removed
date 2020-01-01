@@ -254,10 +254,15 @@ gfxPlatformMac
 #
 ifdef
 MOZ_CORETEXT
+#
+ifndef
+__LP64__
 if
 (
 mUseCoreText
 )
+#
+endif
 gfxCoreTextFont
 :
 :
@@ -812,8 +817,7 @@ Gestalt
 (
 gestaltSystemVersion
 (
-long
-int
+SInt32
 *
 )
 &
@@ -1226,14 +1230,13 @@ p
 ;
 }
 }
-ScriptCode
+TextEncoding
 sysScript
 =
 :
 :
-GetScriptManagerVariable
+GetApplicationTextEncoding
 (
-smSysScript
 )
 ;
 switch
@@ -1242,7 +1245,7 @@ sysScript
 )
 {
 case
-smJapanese
+kTextEncodingMacJapanese
 :
 AppendPrefLang
 (
@@ -1254,7 +1257,7 @@ eFontPrefLang_Japanese
 break
 ;
 case
-smTradChinese
+kTextEncodingMacChineseTrad
 :
 AppendPrefLang
 (
@@ -1266,7 +1269,7 @@ eFontPrefLang_ChineseTW
 break
 ;
 case
-smKorean
+kTextEncodingMacKorean
 :
 AppendPrefLang
 (
@@ -1278,7 +1281,7 @@ eFontPrefLang_Korean
 break
 ;
 case
-smSimpChinese
+kTextEncodingMacChineseSimp
 :
 AppendPrefLang
 (
@@ -1573,6 +1576,9 @@ device
 locType
 )
 {
+#
+ifndef
+__LP64__
 case
 cmFileBasedProfile
 :
@@ -1664,6 +1670,8 @@ endif
 break
 ;
 }
+#
+endif
 case
 cmPathBasedProfile
 :
