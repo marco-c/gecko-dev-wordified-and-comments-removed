@@ -1,0 +1,8 @@
+function
+handleRequest
+(
+request
+response
+)
+{
+}
