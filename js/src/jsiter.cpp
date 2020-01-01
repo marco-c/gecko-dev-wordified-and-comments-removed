@@ -3271,6 +3271,15 @@ xmlNamespace
 =
 NULL
 ;
+JS_ASSERT
+(
+!
+fp
+-
+>
+blockChain
+)
+;
 gen
 -
 >
