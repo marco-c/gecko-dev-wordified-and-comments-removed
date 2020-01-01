@@ -1447,11 +1447,14 @@ masm
 .
 jmp
 (
+ImmPtr
+(
 handler
 -
 >
 raw
 (
+)
 )
 Relocation
 :
@@ -1512,7 +1515,10 @@ masm
 j
 (
 cond_
+ImmPtr
+(
 code
+)
 Relocation
 :
 :
@@ -1591,7 +1597,10 @@ masm
 retarget
 (
 label_
+ImmPtr
+(
 code
+)
 Relocation
 :
 :

@@ -407,8 +407,7 @@ addPendingJump
 (
 JmpSrc
 src
-void
-*
+ImmPtr
 target
 Relocation
 :
@@ -420,6 +419,11 @@ reloc
 JS_ASSERT
 (
 target
+.
+value
+!
+=
+NULL
 )
 ;
 if
@@ -453,6 +457,8 @@ offset
 (
 )
 target
+.
+value
 reloc
 )
 )

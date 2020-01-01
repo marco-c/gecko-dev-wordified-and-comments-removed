@@ -7415,8 +7415,7 @@ addPendingJump
 (
 BufferOffset
 src
-void
-*
+ImmPtr
 target
 Relocation
 :
@@ -7436,6 +7435,8 @@ RelativePatch
 (
 src
 target
+.
+value
 kind
 )
 )
