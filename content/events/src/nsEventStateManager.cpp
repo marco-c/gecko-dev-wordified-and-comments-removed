@@ -11059,6 +11059,15 @@ mPosition
 =
 =
 NS_STYLE_POSITION_FIXED
+&
+&
+nsLayoutUtils
+:
+:
+IsReallyFixedPos
+(
+aFrame
+)
 )
 return
 aPresContext
