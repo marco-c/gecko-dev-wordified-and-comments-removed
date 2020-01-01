@@ -1005,15 +1005,6 @@ aResultCID
 FSMState
 mCurrentState
 ;
-nsTArray
-<
-nsRefPtr
-<
-SpeechEvent
->
->
-mPriorityEvents
-;
 Endpointer
 mEndpointer
 ;
