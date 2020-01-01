@@ -481,15 +481,6 @@ nsCycleCollectionNoteRootCallback
 aCb
 )
 ;
-void
-MaybeTraceGlobals
-(
-JSTracer
-*
-aTracer
-)
-const
-;
 static
 void
 TraceBlackJS

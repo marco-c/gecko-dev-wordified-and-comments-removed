@@ -2110,6 +2110,14 @@ lock
 mMapLock
 )
 ;
+dom
+:
+:
+TraceOuterWindows
+(
+trc
+)
+;
 XPCWrappedNativeScope
 :
 :
