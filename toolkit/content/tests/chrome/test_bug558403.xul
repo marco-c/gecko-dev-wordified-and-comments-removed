@@ -715,10 +715,6 @@ got
 str2
 )
 ;
-cleanupCustomChrome
-(
-)
-;
 SimpleTest
 .
 finish
@@ -1222,7 +1218,7 @@ waitForExplicitFinish
 (
 )
 ;
-registerCustomChrome
+registerManifestPermanently
 (
 "
 chrome
@@ -1245,9 +1241,10 @@ chrome
 /
 rtlchrome
 /
+righttoleft
+.
+manifest
 "
-true
-false
 )
 ;
 /

@@ -358,7 +358,7 @@ rtl
 "
 )
 ;
-registerCustomChrome
+registerManifestPermanently
 (
 "
 chrome
@@ -381,9 +381,10 @@ chrome
 /
 rtltest
 /
+righttoleft
+.
+manifest
 "
-true
-true
 )
 ;
 function
@@ -1402,10 +1403,6 @@ UI_DIRECTION_PREF
 -
 QA
 "
-)
-;
-cleanupCustomChrome
-(
 )
 ;
 if
