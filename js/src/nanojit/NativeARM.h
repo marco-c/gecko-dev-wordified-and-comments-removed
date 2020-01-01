@@ -750,9 +750,8 @@ void
 asm_quad_nochk
 (
 Register
-const
 int32_t
-*
+int32_t
 )
 ;
 \
