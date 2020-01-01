@@ -719,6 +719,14 @@ aChar
 )
 ;
 static
+PRBool
+IsHTMLWhitespace
+(
+PRUnichar
+aChar
+)
+;
+static
 void
 Shutdown
 (
