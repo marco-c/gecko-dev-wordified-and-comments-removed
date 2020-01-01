@@ -34,6 +34,13 @@ h
 "
 #
 include
+"
+nsWeakReference
+.
+h
+"
+#
+include
 <
 gdk
 -
@@ -64,6 +71,8 @@ public
 imgIDecoderObserver
 public
 nsIObserver
+public
+nsSupportsWeakReference
 {
 public
 :
@@ -145,9 +154,6 @@ mLoadedFrame
 ;
 PRPackedBool
 mAlertHasAction
-;
-PRPackedBool
-mHasQuit
 ;
 NotifyNotification
 *
