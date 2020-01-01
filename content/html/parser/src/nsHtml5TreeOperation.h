@@ -25,6 +25,7 @@ eTreeOpAppendToDocument
 eTreeOpAddAttributes
 eTreeOpScriptEnd
 eTreeOpDoneAddingChildren
+eTreeOpDoneCreatingElement
 eTreeOpUpdateStyleSheet
 eTreeOpProcessBase
 eTreeOpStartLayout
