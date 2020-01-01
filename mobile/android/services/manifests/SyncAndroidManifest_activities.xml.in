@@ -736,7 +736,11 @@ android
 configChanges
 =
 "
+keyboardHidden
+|
 orientation
+|
+screenSize
 "
 android
 :
