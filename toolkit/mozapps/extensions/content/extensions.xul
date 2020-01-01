@@ -1035,6 +1035,13 @@ flex
 "
 1
 "
+persist
+=
+"
+last
+-
+selected
+"
 >
 <
 richlistitem
