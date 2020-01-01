@@ -1386,6 +1386,7 @@ menu_items
 ;
 mHasSoftMenuButton
 =
+!
 GeckoApp
 .
 mAppContext
@@ -1434,7 +1435,7 @@ GeckoApp
 .
 mAppContext
 .
-isTablet
+hasTabsSideBar
 (
 )
 &
@@ -1893,7 +1894,7 @@ GeckoApp
 .
 mAppContext
 .
-isTablet
+hasTabsSideBar
 (
 )
 )
@@ -2255,7 +2256,7 @@ GeckoApp
 .
 mAppContext
 .
-isTablet
+hasTabsSideBar
 (
 )
 )
@@ -2333,7 +2334,7 @@ GeckoApp
 .
 mAppContext
 .
-isTablet
+hasTabsSideBar
 (
 )
 )

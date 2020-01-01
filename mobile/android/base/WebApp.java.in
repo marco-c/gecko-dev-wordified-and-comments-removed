@@ -203,6 +203,17 @@ web_app
 }
 Override
 public
+boolean
+hasTabsSideBar
+(
+)
+{
+return
+false
+;
+}
+Override
+public
 void
 onCreate
 (
