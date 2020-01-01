@@ -1090,6 +1090,14 @@ _onConditionalTextboxKeyPress
 false
 )
 ;
+this
+.
+_cbPanel
+.
+hidePopup
+(
+)
+;
 }
 addBreakpoint
 :
