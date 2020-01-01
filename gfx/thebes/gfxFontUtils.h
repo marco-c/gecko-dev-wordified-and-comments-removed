@@ -21,6 +21,13 @@ h
 #
 include
 "
+prtypes
+.
+h
+"
+#
+include
+"
 nsAlgorithm
 .
 h

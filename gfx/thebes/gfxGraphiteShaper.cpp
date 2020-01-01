@@ -1,6 +1,13 @@
 #
 include
 "
+prtypes
+.
+h
+"
+#
+include
+"
 prmem
 .
 h
