@@ -966,7 +966,7 @@ true
 return
 [
 links
-singlePath
+null
 ]
 ;
 return
