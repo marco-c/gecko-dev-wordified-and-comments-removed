@@ -645,6 +645,9 @@ regdir
 (
 SYSINSTALL
 )
+(
+IFLAGS1
+)
 ^
 (
 DESTDIR
