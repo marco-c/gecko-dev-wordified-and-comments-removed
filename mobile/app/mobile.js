@@ -2694,3 +2694,15 @@ max_script_run_time
 20
 )
 ;
+pref
+(
+"
+browser
+.
+console
+.
+showInPanel
+"
+true
+)
+;
