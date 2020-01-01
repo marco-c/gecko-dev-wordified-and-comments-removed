@@ -1378,13 +1378,13 @@ menuitem
 id
 =
 "
-context_namedGroup
+context_namedGroups
 "
 label
 =
 "
 &
-namedGroup
+namedGroups
 .
 label
 ;
