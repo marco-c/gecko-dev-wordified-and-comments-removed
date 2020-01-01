@@ -23996,6 +23996,7 @@ fragment
 tempAlloc
 (
 )
+true
 verbose_only
 (
 lirbuf
