@@ -38293,12 +38293,6 @@ function
 (
 )
 {
-if
-(
-this
-.
-_updateFeedTimeout
-)
 clearTimeout
 (
 this
@@ -38563,12 +38557,6 @@ gBrowser
 selectedBrowser
 )
 {
-if
-(
-this
-.
-_updateFeedTimeout
-)
 clearTimeout
 (
 this

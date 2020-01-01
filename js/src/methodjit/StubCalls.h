@@ -577,6 +577,15 @@ f
 ;
 void
 JS_FASTCALL
+Length
+(
+VMFrame
+&
+f
+)
+;
+void
+JS_FASTCALL
 CallName
 (
 VMFrame
