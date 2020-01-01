@@ -557,6 +557,10 @@ gfxSharedImageSurface
 .
 h
 \
+gfxReusableSurfaceWrapper
+.
+h
+\
 (
 NULL
 )
@@ -961,6 +965,10 @@ gfxHarfBuzzShaper
 cpp
 \
 gfxSharedImageSurface
+.
+cpp
+\
+gfxReusableSurfaceWrapper
 .
 cpp
 \
