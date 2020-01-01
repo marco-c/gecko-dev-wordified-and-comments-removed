@@ -641,13 +641,13 @@ aChildBindingURI
 equal
 )
 ;
+}
 NS_ENSURE_SUCCESS
 (
 rv
 PR_TRUE
 )
 ;
-}
 if
 (
 equal
