@@ -197,6 +197,7 @@ nsIAtom
 aAttribute
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsSVGAnimatedTransformList
@@ -208,6 +209,7 @@ aFlags
 =
 0
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIAtom
@@ -216,6 +218,7 @@ GetTransformListAttrName
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsGkAtoms
@@ -263,12 +266,14 @@ EnumAttributesInfo
 GetEnumInfo
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 StringAttributesInfo
 GetStringInfo
 (
 )
+MOZ_OVERRIDE
 ;
 enum
 {
@@ -402,6 +407,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 already_AddRefed
 <
@@ -442,6 +448,7 @@ LengthAttributesInfo
 GetLengthInfo
 (
 )
+MOZ_OVERRIDE
 ;
 enum
 {
@@ -547,6 +554,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 already_AddRefed
 <
@@ -595,6 +603,7 @@ LengthAttributesInfo
 GetLengthInfo
 (
 )
+MOZ_OVERRIDE
 ;
 enum
 {

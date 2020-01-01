@@ -115,6 +115,7 @@ bool
 SubregionIsUnionOfRegions
 (
 )
+MOZ_OVERRIDE
 {
 return
 false
@@ -146,6 +147,7 @@ nsIntRect
 &
 aDataRect
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -158,6 +160,7 @@ nsIAtom
 aAttribute
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsSVGString
@@ -165,6 +168,7 @@ nsSVGString
 GetResultImageName
 (
 )
+MOZ_OVERRIDE
 {
 return
 mStringAttributes
@@ -189,6 +193,7 @@ nsSVGFilterInstance
 &
 aInstance
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -202,6 +207,7 @@ nsIAtom
 aAttribute
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -216,6 +222,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -233,6 +240,7 @@ aValue
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -250,6 +258,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -260,6 +269,7 @@ aDeep
 bool
 aNullParent
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsEventStates
@@ -267,6 +277,7 @@ IntrinsicState
 (
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHODIMP
 Notify
@@ -281,6 +292,7 @@ nsIntRect
 *
 aData
 )
+MOZ_OVERRIDE
 ;
 void
 MaybeLoadSVGImage
@@ -331,6 +343,7 @@ int32_t
 Image
 *
 )
+MOZ_OVERRIDE
 {
 return
 true
@@ -342,12 +355,14 @@ SVGAnimatedPreserveAspectRatio
 GetPreserveAspectRatio
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 StringAttributesInfo
 GetStringInfo
 (
 )
+MOZ_OVERRIDE
 ;
 enum
 {

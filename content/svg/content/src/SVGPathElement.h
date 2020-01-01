@@ -137,6 +137,7 @@ nsIAtom
 name
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -144,6 +145,7 @@ HasValidDimensions
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -154,12 +156,14 @@ nsIAtom
 *
 aName
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 IsMarkable
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -172,6 +176,7 @@ nsSVGMark
 *
 aMarks
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -181,6 +186,7 @@ gfxContext
 *
 aCtx
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -194,6 +200,7 @@ gfxMatrix
 &
 aMatrix
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -208,6 +215,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 SVGAnimatedPathSegList
@@ -215,6 +223,7 @@ SVGAnimatedPathSegList
 GetAnimPathSegList
 (
 )
+MOZ_OVERRIDE
 {
 return
 &
@@ -228,6 +237,7 @@ GetPathDataAttrName
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsGkAtoms
@@ -577,6 +587,7 @@ NumberAttributesInfo
 GetNumberInfo
 (
 )
+MOZ_OVERRIDE
 ;
 SVGAnimatedPathSegList
 mD

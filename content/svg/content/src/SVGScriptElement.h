@@ -147,6 +147,7 @@ nsAString
 &
 type
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -156,6 +157,7 @@ nsAString
 &
 text
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -165,12 +167,14 @@ nsAString
 &
 charset
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 FreezeUriAsyncDefer
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 CORSMode
@@ -178,12 +182,14 @@ GetCORSMode
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
 HasScriptContent
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -201,6 +207,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -218,6 +225,7 @@ aValue
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -236,6 +244,7 @@ nsAttrValue
 &
 aResult
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -250,6 +259,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 void
 GetType
@@ -306,6 +316,7 @@ StringAttributesInfo
 GetStringInfo
 (
 )
+MOZ_OVERRIDE
 ;
 enum
 {

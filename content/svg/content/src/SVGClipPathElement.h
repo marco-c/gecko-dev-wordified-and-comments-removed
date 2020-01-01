@@ -127,6 +127,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 already_AddRefed
 <
@@ -161,6 +162,7 @@ EnumAttributesInfo
 GetEnumInfo
 (
 )
+MOZ_OVERRIDE
 ;
 }
 ;

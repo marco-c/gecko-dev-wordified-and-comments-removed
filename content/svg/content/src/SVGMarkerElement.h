@@ -282,6 +282,7 @@ uint16_t
 *
 aResult
 )
+MOZ_OVERRIDE
 {
 *
 aResult
@@ -303,6 +304,7 @@ SetBaseVal
 uint16_t
 aValue
 )
+MOZ_OVERRIDE
 {
 return
 mVal
@@ -322,6 +324,7 @@ uint16_t
 *
 aResult
 )
+MOZ_OVERRIDE
 {
 *
 aResult
@@ -421,6 +424,7 @@ nsIAtom
 name
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -434,6 +438,7 @@ aAttribute
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -441,6 +446,7 @@ HasValidDimensions
 (
 )
 const
+MOZ_OVERRIDE
 ;
 gfxMatrix
 GetMarkerTransform
@@ -478,6 +484,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 nsSVGOrientType
 *
@@ -597,6 +604,7 @@ nsAttrValue
 &
 aResult
 )
+MOZ_OVERRIDE
 ;
 void
 SetParentCoordCtxProvider
@@ -611,18 +619,21 @@ LengthAttributesInfo
 GetLengthInfo
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 AngleAttributesInfo
 GetAngleInfo
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 EnumAttributesInfo
 GetEnumInfo
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSVGViewBox
@@ -630,6 +641,7 @@ nsSVGViewBox
 GetViewBox
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 SVGAnimatedPreserveAspectRatio
@@ -637,6 +649,7 @@ SVGAnimatedPreserveAspectRatio
 GetPreserveAspectRatio
 (
 )
+MOZ_OVERRIDE
 ;
 enum
 {

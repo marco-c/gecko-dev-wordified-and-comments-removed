@@ -332,6 +332,7 @@ DoGetClasses
 (
 )
 const
+MOZ_OVERRIDE
 ;
 void
 DidAnimateClass
@@ -354,6 +355,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -367,6 +369,7 @@ aAttribute
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsChangeHint
@@ -380,6 +383,7 @@ int32_t
 aModType
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -389,6 +393,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 WalkContentStyleRules
@@ -397,6 +402,7 @@ nsRuleWalker
 *
 aRuleWalker
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -410,6 +416,7 @@ nsIAtom
 aAttribute
 )
 const
+MOZ_OVERRIDE
 ;
 static
 const
@@ -1287,6 +1294,7 @@ aValue
 bool
 aNotify
 )
+MOZ_OVERRIDE
 MOZ_FINAL
 {
 return
@@ -1311,6 +1319,7 @@ aValue
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1329,6 +1338,7 @@ nsAttrValue
 &
 aResult
 )
+MOZ_OVERRIDE
 ;
 static
 nsresult

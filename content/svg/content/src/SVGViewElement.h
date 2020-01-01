@@ -184,6 +184,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 uint16_t
 ZoomAndPan
@@ -242,6 +243,7 @@ EnumAttributesInfo
 GetEnumInfo
 (
 )
+MOZ_OVERRIDE
 ;
 enum
 {
@@ -273,6 +275,7 @@ nsSVGViewBox
 GetViewBox
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 SVGAnimatedPreserveAspectRatio
@@ -280,6 +283,7 @@ SVGAnimatedPreserveAspectRatio
 GetPreserveAspectRatio
 (
 )
+MOZ_OVERRIDE
 ;
 nsSVGViewBox
 mViewBox
@@ -292,6 +296,7 @@ StringListAttributesInfo
 GetStringListInfo
 (
 )
+MOZ_OVERRIDE
 ;
 enum
 {

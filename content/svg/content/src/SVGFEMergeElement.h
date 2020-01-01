@@ -124,6 +124,7 @@ nsIntRect
 &
 aDataRect
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSVGString
@@ -131,6 +132,7 @@ nsSVGString
 GetResultImageName
 (
 )
+MOZ_OVERRIDE
 {
 return
 mStringAttributes
@@ -150,6 +152,7 @@ nsSVGStringInfo
 &
 aSources
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -164,6 +167,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -172,6 +176,7 @@ StringAttributesInfo
 GetStringInfo
 (
 )
+MOZ_OVERRIDE
 ;
 enum
 {

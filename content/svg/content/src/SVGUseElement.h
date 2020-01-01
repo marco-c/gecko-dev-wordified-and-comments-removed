@@ -237,6 +237,7 @@ aWhich
 eAllTransforms
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -244,6 +245,7 @@ HasValidDimensions
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -258,6 +260,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -271,6 +274,7 @@ nsIAtom
 aAttribute
 )
 const
+MOZ_OVERRIDE
 ;
 already_AddRefed
 <
@@ -348,6 +352,7 @@ Element
 *
 aTo
 )
+MOZ_OVERRIDE
 {
 nsReferencedElement
 :
@@ -393,12 +398,14 @@ LengthAttributesInfo
 GetLengthInfo
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 StringAttributesInfo
 GetStringInfo
 (
 )
+MOZ_OVERRIDE
 ;
 bool
 OurWidthAndHeightAreUsed

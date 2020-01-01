@@ -167,6 +167,7 @@ nsIAtom
 name
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -181,6 +182,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -188,6 +190,7 @@ HasValidDimensions
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 mozilla
@@ -202,6 +205,7 @@ aFlags
 =
 0
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIAtom
@@ -210,6 +214,7 @@ GetTransformListAttrName
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsGkAtoms
@@ -305,12 +310,14 @@ LengthAttributesInfo
 GetLengthInfo
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 EnumAttributesInfo
 GetEnumInfo
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSVGViewBox
@@ -318,6 +325,7 @@ nsSVGViewBox
 GetViewBox
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 SVGAnimatedPreserveAspectRatio
@@ -325,12 +333,14 @@ SVGAnimatedPreserveAspectRatio
 GetPreserveAspectRatio
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 StringAttributesInfo
 GetStringInfo
 (
 )
+MOZ_OVERRIDE
 ;
 enum
 {

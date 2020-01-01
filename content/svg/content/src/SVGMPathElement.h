@@ -145,6 +145,7 @@ nsINode
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -162,6 +163,7 @@ aBindingParent
 bool
 aCompileEventHandlers
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -172,6 +174,7 @@ aDeep
 bool
 aNullParent
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -185,6 +188,7 @@ aAttribute
 bool
 aNotify
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -203,6 +207,7 @@ nsAttrValue
 &
 aResult
 )
+MOZ_OVERRIDE
 ;
 SVGPathElement
 *
@@ -254,6 +259,7 @@ Element
 *
 aTo
 )
+MOZ_OVERRIDE
 {
 nsReferencedElement
 :
@@ -311,6 +317,7 @@ bool
 IsPersistent
 (
 )
+MOZ_OVERRIDE
 {
 return
 true
@@ -330,6 +337,7 @@ StringAttributesInfo
 GetStringInfo
 (
 )
+MOZ_OVERRIDE
 ;
 void
 UpdateHrefTarget
