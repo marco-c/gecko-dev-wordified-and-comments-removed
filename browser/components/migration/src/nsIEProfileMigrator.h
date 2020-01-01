@@ -155,6 +155,13 @@ PRBool
 aReplace
 )
 ;
+nsresult
+CopyHistoryBatched
+(
+PRBool
+aReplace
+)
+;
 PRBool
 KeyIsURI
 (
@@ -283,6 +290,13 @@ PRBool
 aReplace
 )
 ;
+nsresult
+CopyFavoritesBatched
+(
+PRBool
+aReplace
+)
+;
 void
 ResolveShortcut
 (
@@ -318,6 +332,9 @@ aIsAtRootLevel
 nsresult
 CopySmartKeywords
 (
+nsINavBookmarksService
+*
+aBMS
 PRInt64
 aParentFolder
 )

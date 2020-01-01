@@ -807,6 +807,8 @@ rv
 nsString
 toolbarFolderNameMacIE
 ;
+rv
+=
 bundle
 -
 >
@@ -828,13 +830,10 @@ toolbarFolderNameMacIE
 )
 )
 ;
-nsCAutoString
-ctoolbarFolderNameMacIE
-;
-CopyUTF16toUTF8
+NS_ENSURE_SUCCESS
 (
-toolbarFolderNameMacIE
-ctoolbarFolderNameMacIE
+rv
+rv
 )
 ;
 rv
@@ -843,7 +842,10 @@ AnnotatePersonalToolbarFolder
 (
 sourceFile
 tempFile
-ctoolbarFolderNameMacIE
+NS_ConvertUTF16toUTF8
+(
+toolbarFolderNameMacIE
+)
 .
 get
 (
