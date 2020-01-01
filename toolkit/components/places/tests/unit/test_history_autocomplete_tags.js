@@ -883,7 +883,7 @@ uri5
 uri6
 ]
 "
-eese
+cheese
 bar
 "
 )
@@ -896,7 +896,7 @@ ensure_tag_results
 uri5
 ]
 "
-heese
+cheese
 bar
 aaa
 "
@@ -910,7 +910,7 @@ ensure_tag_results
 uri6
 ]
 "
-ees
+chees
 bar
 bbb
 "
