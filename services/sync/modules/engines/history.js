@@ -1393,16 +1393,6 @@ deleted
 =
 true
 ;
-this
-.
-cache
-.
-put
-(
-guid
-record
-)
-;
 return
 record
 ;
