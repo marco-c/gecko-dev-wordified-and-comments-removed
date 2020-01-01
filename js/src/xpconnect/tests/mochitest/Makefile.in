@@ -524,6 +524,10 @@ test_bug505915
 .
 html
 \
+file_bug505915
+.
+html
+\
 test_bug517163
 .
 html
