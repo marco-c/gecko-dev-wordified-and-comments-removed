@@ -29,6 +29,15 @@ Types
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StandardInteger
+.
+h
+"
 class
 nsTableCellFrame
 ;
@@ -213,8 +222,7 @@ nsTableCellFrame
 *
 mOrigCell
 ;
-unsigned
-long
+uintptr_t
 mBits
 ;
 }
