@@ -937,11 +937,8 @@ bool
 background
 )
 ;
-JS_FRIEND_API
-(
 size_t
-)
-charsHeapSize
+sizeOfExcludingThis
 (
 JSMallocSizeOfFun
 mallocSizeOf
