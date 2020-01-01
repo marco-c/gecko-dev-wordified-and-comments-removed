@@ -791,7 +791,9 @@ function
 (
 )
 {
-setTimeout
+iQ
+.
+timeout
 (
 function
 (
@@ -1402,6 +1404,12 @@ function
 (
 )
 {
+Page
+.
+setCloseButtonOnTabs
+(
+)
+;
 var
 group
 =
@@ -2544,6 +2552,12 @@ self
 navBar
 .
 show
+(
+)
+;
+Page
+.
+setCloseButtonOnTabs
 (
 )
 ;
