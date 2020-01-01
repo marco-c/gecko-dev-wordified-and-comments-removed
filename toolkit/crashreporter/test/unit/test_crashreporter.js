@@ -85,13 +85,6 @@ cr
 null
 )
 ;
-do_check_false
-(
-cr
-.
-enabled
-)
-;
 cr
 .
 enabled

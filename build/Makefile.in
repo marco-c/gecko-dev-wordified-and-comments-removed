@@ -529,6 +529,10 @@ automation
 .
 py
 \
+automationutils
+.
+py
+\
 leaktest
 .
 py

@@ -482,6 +482,10 @@ automation
 .
 py
 \
+automationutils
+.
+py
+\
 profileserver
 .
 py
@@ -569,9 +573,6 @@ x
 GARBAGE
 +
 =
-automation
-.
-py
 profileserver
 .
 py

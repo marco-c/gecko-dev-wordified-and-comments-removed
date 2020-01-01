@@ -504,6 +504,10 @@ automation
 .
 py
 \
+automationutils
+.
+py
+\
 gen_template
 .
 pl
@@ -641,9 +645,6 @@ ACDEFINES
 GARBAGE
 +
 =
-automation
-.
-py
 runtests
 .
 py
