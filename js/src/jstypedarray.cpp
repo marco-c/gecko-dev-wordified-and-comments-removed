@@ -2273,6 +2273,9 @@ index
 )
 )
 {
+#
+if
+0
 JS_ReportErrorNumber
 (
 cx
@@ -2283,6 +2286,16 @@ JSMSG_TYPED_ARRAY_BAD_INDEX
 ;
 return
 false
+;
+#
+endif
+*
+vp
+=
+JSVAL_VOID
+;
+return
+true
 ;
 }
 if
