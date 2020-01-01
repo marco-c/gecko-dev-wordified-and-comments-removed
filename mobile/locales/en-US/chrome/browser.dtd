@@ -514,6 +514,16 @@ Remove
 <
 !
 ENTITY
+downloadDelete
+.
+label
+"
+Delete
+"
+>
+<
+!
+ENTITY
 downloadFailed
 .
 label

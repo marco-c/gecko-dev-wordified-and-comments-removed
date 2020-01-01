@@ -1611,7 +1611,7 @@ label
 =
 "
 &
-downloadRemove
+downloadDelete
 .
 label
 ;
@@ -1933,7 +1933,7 @@ label
 =
 "
 &
-downloadRemove
+downloadDelete
 .
 label
 ;
