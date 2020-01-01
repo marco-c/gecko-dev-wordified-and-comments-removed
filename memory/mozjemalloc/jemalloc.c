@@ -8674,7 +8674,7 @@ height
 +
 +
 ;
-assert
+RELEASE_ASSERT
 (
 height
 *
@@ -10818,7 +10818,7 @@ choose_arena_hard
 (
 )
 ;
-assert
+RELEASE_ASSERT
 (
 ret
 !
@@ -10922,7 +10922,7 @@ arenas
 ;
 #
 endif
-assert
+RELEASE_ASSERT
 (
 ret
 !
@@ -13967,7 +13967,7 @@ ndirty
 ;
 #
 endif
-assert
+RELEASE_ASSERT
 (
 arena
 -
@@ -14027,7 +14027,7 @@ arena
 chunks_dirty
 )
 ;
-assert
+RELEASE_ASSERT
 (
 chunk
 !
@@ -14055,7 +14055,7 @@ i
 -
 )
 {
-assert
+RELEASE_ASSERT
 (
 i
 >
@@ -17897,7 +17897,7 @@ pageind
 .
 bits
 ;
-assert
+RELEASE_ASSERT
 (
 (
 mapbits
@@ -17936,7 +17936,7 @@ mapbits
 pagesize_mask
 )
 ;
-assert
+RELEASE_ASSERT
 (
 run
 -
@@ -17967,7 +17967,7 @@ mapbits
 ~
 pagesize_mask
 ;
-assert
+RELEASE_ASSERT
 (
 ret
 !
@@ -18061,7 +18061,7 @@ chunk
 ptr
 )
 {
-assert
+RELEASE_ASSERT
 (
 chunk
 -
@@ -18257,7 +18257,7 @@ huge
 key
 )
 ;
-assert
+RELEASE_ASSERT
 (
 node
 !
@@ -19314,7 +19314,7 @@ oldsize
 >
 pagesize_2pow
 ;
-assert
+RELEASE_ASSERT
 (
 oldsize
 =
@@ -19626,7 +19626,7 @@ chunk
 >
 arena
 ;
-assert
+RELEASE_ASSERT
 (
 arena
 -
@@ -27776,7 +27776,7 @@ npages
 +
 )
 {
-assert
+RELEASE_ASSERT
 (
 !
 (
