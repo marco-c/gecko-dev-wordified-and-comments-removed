@@ -75,6 +75,9 @@ CGFontRef
 font
 )
 ;
+#
+ifndef
+__LP64__
 cairo_public
 cairo_font_face_t
 *
@@ -84,6 +87,8 @@ ATSUFontID
 font_id
 )
 ;
+#
+endif
 #
 endif
 CAIRO_END_DECLS

@@ -1468,7 +1468,7 @@ cleanup
 }
 status
 =
-_cairo_meta_surface_replay
+cairo_meta_surface_replay
 (
 scaled_glyph
 -
@@ -1901,7 +1901,7 @@ n
 ;
 status
 =
-_cairo_meta_surface_replay
+cairo_meta_surface_replay
 (
 scaled_glyph
 -

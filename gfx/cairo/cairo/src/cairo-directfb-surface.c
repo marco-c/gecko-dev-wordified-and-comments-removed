@@ -3404,6 +3404,7 @@ src_x
 src_y
 width
 height
+CAIRO_PATTERN_ACQUIRE_NO_REFLECT
 (
 cairo_surface_t
 *

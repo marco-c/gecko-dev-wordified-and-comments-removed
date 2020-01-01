@@ -3542,6 +3542,9 @@ ffont
 cgFont
 ;
 }
+#
+ifndef
+__LP64__
 cairo_font_face_t
 *
 cairo_quartz_font_face_create_for_atsu_font_id
@@ -3610,3 +3613,5 @@ font_id
 )
 ;
 }
+#
+endif
