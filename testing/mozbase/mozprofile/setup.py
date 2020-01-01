@@ -6,7 +6,6 @@ from
 setuptools
 import
 setup
-find_packages
 PACKAGE_VERSION
 =
 '
@@ -259,7 +258,7 @@ lists
 .
 mozilla
 .
-com
+org
 '
       
 url
@@ -269,19 +268,19 @@ https
 :
 /
 /
-github
+wiki
 .
-com
-/
 mozilla
+.
+org
 /
-mozbase
+Auto
+-
+tools
 /
-tree
+Projects
 /
-master
-/
-mozprofile
+MozBase
 '
       
 license
@@ -295,22 +294,11 @@ MPL
       
 packages
 =
-find_packages
-(
-exclude
-=
 [
 '
-ez_setup
-'
-'
-examples
-'
-'
-tests
+mozprofile
 '
 ]
-)
       
 include_package_data
 =
