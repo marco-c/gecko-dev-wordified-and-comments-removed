@@ -121,6 +121,7 @@ root
 OutputStream
 stream
 DOMString
+?
 charset
 )
 ;

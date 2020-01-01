@@ -259,6 +259,7 @@ parseFromStream
 InputStream
 stream
 DOMString
+?
 charset
 long
 contentLength
