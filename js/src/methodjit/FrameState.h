@@ -872,6 +872,10 @@ op
 BinaryAlloc
 &
 alloc
+bool
+resultNeeded
+=
+true
 )
 ;
 void
