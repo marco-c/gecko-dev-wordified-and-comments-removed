@@ -187,8 +187,12 @@ NS_Free
 mName
 )
 ;
-delete
+NS_CONTENT_DELETE_LIST_MEMBER
+(
+nsXBLProtoImplField
+this
 mNext
+)
 ;
 }
 void

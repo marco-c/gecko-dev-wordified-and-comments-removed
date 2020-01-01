@@ -218,13 +218,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsIScriptError
 .
 h
@@ -671,8 +664,12 @@ mHandlerText
 )
 ;
 }
-delete
+NS_CONTENT_DELETE_LIST_MEMBER
+(
+nsXBLPrototypeHandler
+this
 mNextHandler
+)
 ;
 }
 already_AddRefed

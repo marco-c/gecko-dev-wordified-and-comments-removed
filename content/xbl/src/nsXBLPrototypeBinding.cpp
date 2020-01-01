@@ -495,8 +495,12 @@ nsXBLAttributeEntry
 (
 )
 {
-delete
+NS_CONTENT_DELETE_LIST_MEMBER
+(
+nsXBLAttributeEntry
+this
 mNext
+)
 ;
 }
 private
