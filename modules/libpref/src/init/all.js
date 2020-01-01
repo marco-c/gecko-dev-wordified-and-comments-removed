@@ -11536,16 +11536,6 @@ delta_multiplier_z
 pref
 (
 "
-mousewheel
-.
-min_line_scroll_amount
-"
-5
-)
-;
-pref
-(
-"
 general
 .
 smoothScroll

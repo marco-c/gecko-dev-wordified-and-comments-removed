@@ -178,10 +178,6 @@ test_bug412567
 .
 html
 \
-test_bug422132
-.
-html
-\
 test_bug426082
 .
 html
