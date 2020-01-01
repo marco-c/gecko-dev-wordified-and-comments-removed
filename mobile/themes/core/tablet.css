@@ -271,7 +271,8 @@ start
 0px
 ;
 }
-documenttab
+#
+tabs
 [
 tablet
 =
@@ -279,6 +280,7 @@ tablet
 true
 "
 ]
+documenttab
 {
 width
 :
@@ -302,7 +304,8 @@ background
 none
 ;
 }
-documenttab
+#
+tabs
 [
 tablet
 =
@@ -310,6 +313,7 @@ tablet
 true
 "
 ]
+documenttab
 [
 selected
 =
