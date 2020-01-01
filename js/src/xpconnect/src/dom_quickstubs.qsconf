@@ -3916,6 +3916,11 @@ nsIDOMCSS2Properties_
 :
 CSS2Properties_
 '
+nsIDOMSVGCSS2Properties_
+'
+:
+CSS2Properties_
+'
 nsIDOMNSCSS2Properties_
 '
 :
