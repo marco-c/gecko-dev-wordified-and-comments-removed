@@ -18581,6 +18581,13 @@ fun
 goto
 bad
 ;
+FUN_CLASP
+(
+fun
+)
+=
+clasp
+;
 AutoValueRooter
 tvr2
 (
@@ -18612,13 +18619,6 @@ named
 )
 goto
 bad
-;
-FUN_CLASP
-(
-fun
-)
-=
-clasp
 ;
 ctor
 =
