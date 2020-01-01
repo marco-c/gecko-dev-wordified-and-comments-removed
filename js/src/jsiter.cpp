@@ -814,7 +814,6 @@ parent
 {
 if
 (
-!
 sprop
 -
 >
