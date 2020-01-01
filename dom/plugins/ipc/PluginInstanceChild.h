@@ -729,6 +729,12 @@ AnswerUpdateWindow
 (
 )
 ;
+virtual
+bool
+RecvNPP_DidComposite
+(
+)
+;
 public
 :
 PluginInstanceChild

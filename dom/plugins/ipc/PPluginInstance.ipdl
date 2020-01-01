@@ -1136,6 +1136,11 @@ bool
 handled
 )
 ;
+async
+NPP_DidComposite
+(
+)
+;
 rpc
 NPP_Destroy
 (
