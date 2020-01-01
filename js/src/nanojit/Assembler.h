@@ -829,10 +829,6 @@ registerConsistencyCheck
 )
 ;
 )
-CodeList
-*
-codeList
-;
 private
 :
 void
@@ -1233,6 +1229,10 @@ _immDPool
 ;
 #
 endif
+CodeList
+*
+codeList
+;
 bool
 _inExit
 vpad2

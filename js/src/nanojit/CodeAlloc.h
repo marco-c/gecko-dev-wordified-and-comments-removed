@@ -416,6 +416,15 @@ markAllExec
 )
 ;
 void
+markExec
+(
+CodeList
+*
+&
+blocks
+)
+;
+void
 markChunkExec
 (
 CodeList
