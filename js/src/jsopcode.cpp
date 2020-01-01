@@ -16630,6 +16630,8 @@ js_GetSrcNoteOffset
 sn
 1
 )
+-
+tail
 ;
 if
 (
