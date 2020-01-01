@@ -2830,6 +2830,9 @@ insertNode
 {
 if
 (
+contentNode
+&
+&
 insertNode
 -
 >
