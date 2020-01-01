@@ -2483,7 +2483,7 @@ normalization_preference_myanmar
 NULL
 NULL
 setup_masks_myanmar
-HB_OT_SHAPE_ZERO_WIDTH_MARKS_BY_GDEF
+HB_OT_SHAPE_ZERO_WIDTH_MARKS_BY_GDEF_EARLY
 false
 }
 ;
