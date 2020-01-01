@@ -436,6 +436,10 @@ test_exception_messages
 .
 html
 \
+test_bug707564
+.
+html
+\
 (
 NULL
 )
