@@ -423,6 +423,16 @@ gkconcvs_s
 LIBXUL_LIBRARY
 =
 1
+EXPORTS
+=
+\
+CustomQS_WebGL
+.
+h
+\
+(
+NULL
+)
 CPPSRCS
 =
 \
@@ -537,10 +547,6 @@ endif
 CPPSRCS
 +
 =
-\
-WebGLArrays
-.
-cpp
 \
 WebGLContext
 .
