@@ -2487,6 +2487,12 @@ mAnimationGeneration
 aCount
 ;
 }
+const
+gfx3DMatrix
+GetLocalTransform
+(
+)
+;
 void
 ApplyPendingUpdatesToSubtree
 (
@@ -3099,12 +3105,6 @@ const
 char
 *
 aPrefix
-)
-;
-const
-gfx3DMatrix
-GetLocalTransform
-(
 )
 ;
 const
