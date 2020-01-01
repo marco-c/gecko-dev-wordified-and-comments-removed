@@ -332,8 +332,6 @@ eDOMClassInfo_DataContainerEvent_id
 eDOMClassInfo_MessageEvent_id
 eDOMClassInfo_Geolocation_id
 eDOMClassInfo_Geolocator_id
-eDOMClassInfo_CSSFontFaceRule_id
-eDOMClassInfo_CSSFontFaceStyleDecl_id
 #
 if
 defined
