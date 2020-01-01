@@ -15223,7 +15223,7 @@ cx
 ;
 for
 (
-FrameRegsIter
+ScriptFrameIter
 iter
 (
 cx

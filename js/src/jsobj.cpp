@@ -31317,7 +31317,7 @@ StackFrame
 start
 )
 {
-FrameRegsIter
+ScriptFrameIter
 i
 (
 cx

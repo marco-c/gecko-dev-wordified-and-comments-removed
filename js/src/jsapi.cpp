@@ -32350,7 +32350,7 @@ lineno
 =
 0
 ;
-FrameRegsIter
+ScriptFrameIter
 i
 (
 cx
@@ -32850,7 +32850,7 @@ JSContext
 cx
 )
 {
-FrameRegsIter
+ScriptFrameIter
 i
 (
 cx

@@ -8967,7 +8967,7 @@ lineno
 =
 1
 ;
-FrameRegsIter
+ScriptFrameIter
 i
 (
 cx
@@ -9013,11 +9013,6 @@ filename
 =
 i
 .
-fp
-(
-)
--
->
 script
 (
 )
@@ -9031,11 +9026,6 @@ PCToLineNumber
 (
 i
 .
-fp
-(
-)
--
->
 script
 (
 )

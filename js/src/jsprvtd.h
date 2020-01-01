@@ -278,7 +278,7 @@ class
 ContextStack
 ;
 class
-FrameRegsIter
+ScriptFrameIter
 ;
 class
 CallReceiver
