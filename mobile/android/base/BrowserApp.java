@@ -1997,7 +1997,7 @@ MainLayout
 mMainLayout
 )
 .
-setOnInterceptTouchListener
+setTouchEventInterceptor
 (
 new
 HideTabsTouchListener
@@ -5899,7 +5899,7 @@ private
 class
 HideTabsTouchListener
 implements
-OnInterceptTouchListener
+TouchEventInterceptor
 {
 private
 boolean

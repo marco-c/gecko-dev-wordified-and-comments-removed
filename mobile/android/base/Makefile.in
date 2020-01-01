@@ -596,10 +596,6 @@ CustomEditText
 .
 java
 \
-OnInterceptTouchListener
-.
-java
-\
 PrefsHelper
 .
 java
@@ -729,6 +725,10 @@ TextSelectionHandle
 java
 \
 ThumbnailHelper
+.
+java
+\
+TouchEventInterceptor
 .
 java
 \
