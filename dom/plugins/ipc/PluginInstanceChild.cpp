@@ -2100,7 +2100,9 @@ default
 :
 PR_LOG
 (
-gPluginLog
+GetPluginLog
+(
+)
 PR_LOG_WARNING
 (
 "
@@ -2227,7 +2229,9 @@ aValue
 {
 PR_LOG
 (
-gPluginLog
+GetPluginLog
+(
+)
 PR_LOG_DEBUG
 (
 "
@@ -2684,7 +2688,9 @@ default
 :
 PR_LOG
 (
-gPluginLog
+GetPluginLog
+(
+)
 PR_LOG_WARNING
 (
 "
@@ -9542,7 +9548,9 @@ AnswerSetPluginFocus
 {
 PR_LOG
 (
-gPluginLog
+GetPluginLog
+(
+)
 PR_LOG_DEBUG
 (
 "
@@ -9640,7 +9648,9 @@ AnswerUpdateWindow
 {
 PR_LOG
 (
-gPluginLog
+GetPluginLog
+(
+)
 PR_LOG_DEBUG
 (
 "

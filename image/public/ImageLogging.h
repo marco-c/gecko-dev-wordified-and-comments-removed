@@ -80,7 +80,9 @@ PR_LOGGING
 extern
 PRLogModuleInfo
 *
-gImgLog
+GetImgLog
+(
+)
 ;
 #
 define

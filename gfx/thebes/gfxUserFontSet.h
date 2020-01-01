@@ -899,7 +899,9 @@ mGeneration
 static
 PRLogModuleInfo
 *
-sUserFontsLog
+GetUserFontsLog
+(
+)
 ;
 private
 :

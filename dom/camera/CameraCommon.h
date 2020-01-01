@@ -71,7 +71,9 @@ PR_LOGGING
 extern
 PRLogModuleInfo
 *
-gCameraLog
+GetCameraLog
+(
+)
 ;
 #
 define
@@ -84,7 +86,9 @@ type
 )
 PR_LOG
 (
-gCameraLog
+GetCameraLog
+(
+)
 (
 PRLogModuleLevel
 )
@@ -146,7 +150,9 @@ do
 \
 if
 (
-gCameraLog
+GetCameraLog
+(
+)
 )
 {
 \

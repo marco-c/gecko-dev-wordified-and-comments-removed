@@ -158,7 +158,9 @@ WindowIdentifier
 extern
 PRLogModuleInfo
 *
-sHalLog
+GetHalLog
+(
+)
 ;
 #
 define
@@ -174,7 +176,9 @@ mozilla
 hal
 :
 :
-sHalLog
+GetHalLog
+(
+)
 PR_LOG_DEBUG
 msg
 )

@@ -60,7 +60,9 @@ h
 extern
 PRLogModuleInfo
 *
-sGFX2DLog
+GetGFX2DLog
+(
+)
 ;
 #
 endif
@@ -180,7 +182,9 @@ if
 (
 PR_LOG_TEST
 (
-sGFX2DLog
+GetGFX2DLog
+(
+)
 PRLogLevelForLevel
 (
 aLevel
