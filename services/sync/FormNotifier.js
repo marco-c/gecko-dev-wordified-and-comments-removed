@@ -177,6 +177,17 @@ key
 continue
 ;
 }
+(
+function
+(
+)
+{
+}
+)
+(
+key
+)
+;
 this
 [
 key
