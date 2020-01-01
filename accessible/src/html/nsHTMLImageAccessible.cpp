@@ -475,10 +475,12 @@ NS_OK
 nsresult
 rv
 =
-GetHTMLName
+nsAccessible
+:
+:
+GetNameInternal
 (
 aName
-PR_FALSE
 )
 ;
 NS_ENSURE_SUCCESS
