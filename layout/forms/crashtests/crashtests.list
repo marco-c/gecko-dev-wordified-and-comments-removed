@@ -276,3 +276,16 @@ load
 1
 .
 html
+asserts
+(
+1
+)
+load
+578604
+-
+1
+.
+html
+#
+bug
+584564

@@ -5958,6 +5958,11 @@ GetFirstChild
 nsnull
 )
 ;
+if
+(
+first
+)
+{
 first
 -
 >
@@ -5966,6 +5971,7 @@ AddStateBits
 NS_FRAME_REFLOW_ROOT
 )
 ;
+}
 nsCOMPtr
 <
 nsITextControlElement
