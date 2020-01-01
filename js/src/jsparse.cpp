@@ -5812,6 +5812,9 @@ cx
 JSTreeContext
 *
 tc
+JSParseNode
+*
+pn
 uintN
 flags
 uintN
@@ -5877,7 +5880,7 @@ tc
 >
 parser
 )
-NULL
+pn
 flags
 errnum
 name
@@ -5927,6 +5930,7 @@ ReportBadReturn
 (
 cx
 tc
+pn
 JSREPORT_WARNING
 |
 JSREPORT_STRICT
@@ -6715,6 +6719,7 @@ ReportBadReturn
 (
 context
 tc
+pn
 JSREPORT_ERROR
 JSMSG_BAD_GENERATOR_RETURN
 JSMSG_BAD_ANON_GENERATOR_RETURN
@@ -20781,6 +20786,7 @@ ReportBadReturn
 (
 context
 tc
+pn
 JSREPORT_ERROR
 JSMSG_BAD_GENERATOR_RETURN
 JSMSG_BAD_ANON_GENERATOR_RETURN
@@ -20823,6 +20829,7 @@ ReportBadReturn
 (
 context
 tc
+pn
 JSREPORT_WARNING
 |
 JSREPORT_STRICT
