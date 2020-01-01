@@ -2129,7 +2129,7 @@ nsSVGSVGElement
 :
 CreateSVGAngle
 (
-nsIDOMSVGAngle
+nsISupports
 *
 *
 _retval

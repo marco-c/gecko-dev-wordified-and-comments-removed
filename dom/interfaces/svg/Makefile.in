@@ -100,14 +100,6 @@ nsIDOMSVGAltGlyphElement
 .
 idl
 \
-nsIDOMSVGAngle
-.
-idl
-\
-nsIDOMSVGAnimatedAngle
-.
-idl
-\
 nsIDOMSVGAnimatedEnum
 .
 idl

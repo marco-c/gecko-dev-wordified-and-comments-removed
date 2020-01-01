@@ -107,12 +107,6 @@ interface
 nsIDOMSVGAnimatedEnumeration
 ;
 interface
-nsIDOMSVGAngle
-;
-interface
-nsIDOMSVGAnimatedAngle
-;
-interface
 nsIDOMSVGAnimatedRect
 ;
 interface
@@ -333,7 +327,7 @@ orientType
 ;
 readonly
 attribute
-nsIDOMSVGAnimatedAngle
+nsISupports
 orientAngle
 ;
 void
@@ -345,7 +339,7 @@ void
 setOrientToAngle
 (
 in
-nsIDOMSVGAngle
+nsISupports
 angle
 )
 ;

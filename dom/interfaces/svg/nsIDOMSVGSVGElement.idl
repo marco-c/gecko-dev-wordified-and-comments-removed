@@ -117,9 +117,6 @@ interface
 nsIDOMSVGLength
 ;
 interface
-nsIDOMSVGAngle
-;
-interface
 nsIDOMSVGMatrix
 ;
 interface
@@ -438,7 +435,10 @@ createSVGLength
 (
 )
 ;
-nsIDOMSVGAngle
+/
+/
+SVGAngle
+nsISupports
 createSVGAngle
 (
 )
