@@ -443,10 +443,6 @@ ClientStore__init
 {
 this
 .
-__proto__
-.
-__proto__
-.
 _init
 .
 call
