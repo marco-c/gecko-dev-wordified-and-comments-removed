@@ -2019,6 +2019,11 @@ aDocShell
 =
 nsnull
 ;
+nsresult
+rv
+=
+NS_OK
+;
 if
 (
 mOwnerContent
@@ -2059,7 +2064,7 @@ frames
 )
 ;
 return
-NS_ERROR_NOT_AVAILABLE
+rv
 ;
 }
 NS_ASSERTION
@@ -2087,7 +2092,7 @@ aDocShell
 )
 ;
 return
-NS_OK
+rv
 ;
 }
 void
