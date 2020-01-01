@@ -31,13 +31,6 @@ h
 #
 include
 "
-gfxTextRunWordCache
-.
-h
-"
-#
-include
-"
 nsUnicharUtils
 .
 h
@@ -3734,13 +3727,6 @@ Flush
 )
 ;
 }
-gfxTextRunWordCache
-:
-:
-Flush
-(
-)
-;
 }
 }
 void
