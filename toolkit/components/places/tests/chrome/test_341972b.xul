@@ -630,7 +630,6 @@ lmsvc
 .
 createLivemarkFolderOnly
 (
-bmsvc
 toolbarFolderId
 "
 foo
