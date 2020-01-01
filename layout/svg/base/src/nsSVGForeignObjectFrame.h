@@ -408,7 +408,7 @@ already_AddRefed
 <
 nsIDOMSVGMatrix
 >
-GetTMIncludingOffset
+GetUnZoomedTMIncludingOffset
 (
 )
 ;
