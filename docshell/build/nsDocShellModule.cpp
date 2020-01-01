@@ -149,6 +149,13 @@ h
 #
 include
 "
+nsSHEntryShared
+.
+h
+"
+#
+include
+"
 nsSHistory
 .
 h
@@ -220,9 +227,7 @@ rv
 rv
 )
 ;
-rv
-=
-nsSHEntry
+nsSHEntryShared
 :
 :
 Startup
@@ -230,7 +235,7 @@ Startup
 )
 ;
 return
-rv
+NS_OK
 ;
 }
 static
@@ -246,7 +251,7 @@ Shutdown
 (
 )
 ;
-nsSHEntry
+nsSHEntryShared
 :
 :
 Shutdown
