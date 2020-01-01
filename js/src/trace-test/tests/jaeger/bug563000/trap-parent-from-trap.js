@@ -47,7 +47,7 @@ failure2
 trap
 (
 parent
-0
+1
 "
 child
 (
