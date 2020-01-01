@@ -284,7 +284,7 @@ addAppender
 new
 Log4Moz
 .
-FileAppender
+RotatingFileAppender
 (
 logf
 formatter
