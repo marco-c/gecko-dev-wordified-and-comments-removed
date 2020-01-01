@@ -863,7 +863,7 @@ trc
 debugPrintArg
 )
 ;
-JS_smprintf
+JS_snprintf
 (
 buf
 bufsize
