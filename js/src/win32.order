@@ -31,9 +31,6 @@ js_Lock
 js_Unlock
 ;
 628184
-js_AtomizeString
-;
-611102
 js_HashString
 ;
 611102
@@ -43,9 +40,6 @@ js_DropScopeProperty
 JS_malloc
 ;
 484350
-js_Atomize
-;
-464433
 js_InflateStringToBuffer
 ;
 460739
@@ -142,9 +136,6 @@ js_DestroyScopeProperty
 js_Emit3
 ;
 109135
-js_AtomizeChars
-;
-108038
 JS_HashTableLookup
 ;
 107154
@@ -500,9 +491,6 @@ js_FinishTakingSrcNotes
 ;
 4810
 js_NewScriptFromParams
-;
-4810
-js_InitAtomMap
 ;
 4810
 js_FinishTakingTryNotes
@@ -1085,9 +1073,6 @@ js_GetArgsValue
 js_GetArgsObject
 ;
 14
-js_AtomizeDouble
-;
-12
 JS_DestroyIdArray
 ;
 11

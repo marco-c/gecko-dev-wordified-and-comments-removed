@@ -295,12 +295,9 @@ configuration
 #
 endif
 extern
-JS_FRIEND_API
-(
 const
 char
 *
-)
 js_AtomToPrintableString
 (
 JSContext
@@ -1853,11 +1850,8 @@ flags
 )
 ;
 extern
-JS_FRIEND_API
-(
 JSAtom
 *
-)
 js_Atomize
 (
 JSContext
@@ -1874,11 +1868,8 @@ flags
 )
 ;
 extern
-JS_FRIEND_API
-(
 JSAtom
 *
-)
 js_AtomizeChars
 (
 JSContext
@@ -1973,10 +1964,7 @@ al
 )
 ;
 extern
-JS_FRIEND_API
-(
 void
-)
 js_InitAtomMap
 (
 JSContext

@@ -7268,13 +7268,13 @@ nbytes
 +
 =
 (
+JSFLATSTR_LENGTH
+(
 ATOM_TO_STRING
 (
 atom
 )
--
->
-length
+)
 +
 1
 )
