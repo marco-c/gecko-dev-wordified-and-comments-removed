@@ -1020,6 +1020,17 @@ return
 ;
 if
 (
+rt
+-
+>
+mainThread
+.
+suppressGC
+)
+return
+;
+if
+(
 IsAtomsCompartment
 (
 cx
