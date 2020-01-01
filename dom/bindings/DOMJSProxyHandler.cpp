@@ -320,11 +320,11 @@ JSObject
 proxy
 jsid
 id
-bool
-set
 JSPropertyDescriptor
 *
 desc
+unsigned
+flags
 )
 {
 if
@@ -335,8 +335,8 @@ getOwnPropertyDescriptor
 cx
 proxy
 id
-set
 desc
+flags
 )
 )
 {

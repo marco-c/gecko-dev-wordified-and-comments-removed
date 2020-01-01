@@ -2367,9 +2367,9 @@ getPropertyDescriptor
 cx
 obj
 id
-false
 &
 desc
+0
 )
 )
 return
@@ -2622,9 +2622,9 @@ getPropertyDescriptor
 cx
 obj
 id
-false
 &
 desc
+0
 )
 )
 return

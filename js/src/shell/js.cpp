@@ -14372,9 +14372,9 @@ getOwnPropertyDescriptor
 cx
 referent
 id
-false
 &
 desc
+0
 )
 )
 return

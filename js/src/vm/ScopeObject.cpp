@@ -6705,11 +6705,11 @@ JSObject
 proxy
 jsid
 id
-bool
-set
 PropertyDescriptor
 *
 desc
+unsigned
+flags
 )
 MOZ_OVERRIDE
 {
@@ -6719,8 +6719,8 @@ getOwnPropertyDescriptor
 cx
 proxy
 id
-set
 desc
+flags
 )
 ;
 }
@@ -6735,11 +6735,11 @@ JSObject
 proxy
 jsid
 idArg
-bool
-set
 PropertyDescriptor
 *
 desc
+unsigned
+flags
 )
 MOZ_OVERRIDE
 {

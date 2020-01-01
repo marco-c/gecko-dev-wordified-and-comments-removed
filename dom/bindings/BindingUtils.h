@@ -6549,11 +6549,11 @@ JSObject
 obj
 jsid
 id
-bool
-set
 JSPropertyDescriptor
 *
 desc
+unsigned
+flags
 )
 ;
 bool

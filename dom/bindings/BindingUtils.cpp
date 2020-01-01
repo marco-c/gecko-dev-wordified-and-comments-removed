@@ -3016,11 +3016,11 @@ JSObject
 obj
 jsid
 id
-bool
-set
 JSPropertyDescriptor
 *
 desc
+unsigned
+flags
 )
 {
 DOMObjectType
@@ -3061,8 +3061,8 @@ cx
 wrapper
 obj
 id
-set
 desc
+flags
 )
 ;
 }
