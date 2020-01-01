@@ -28,6 +28,13 @@ IonCode
 .
 h
 "
+#
+include
+"
+jsinfer
+.
+h
+"
 namespace
 js
 {
@@ -263,8 +270,10 @@ cx
 const
 Vector
 <
-JSScript
-*
+types
+:
+:
+RecompileInfo
 >
 &
 invalid

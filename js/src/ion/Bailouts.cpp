@@ -2719,8 +2719,10 @@ lineno
 ;
 Vector
 <
-JSScript
-*
+types
+:
+:
+RecompileInfo
 >
 scripts
 (
@@ -2734,7 +2736,13 @@ scripts
 .
 append
 (
+types
+:
+:
+RecompileInfo
+(
 script
+)
 )
 )
 return

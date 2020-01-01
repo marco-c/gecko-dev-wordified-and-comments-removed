@@ -2034,8 +2034,8 @@ DestroyRect
 )
 NS_DECLARE_FRAME_PROPERTY
 (
-PreTransformBBoxProperty
-DestroyRect
+PreTransformOverflowAreasProperty
+DestroyOverflowAreas
 )
 NS_DECLARE_FRAME_PROPERTY
 (
@@ -3854,6 +3854,14 @@ aStatus
 ;
 virtual
 bool
+UpdateOverflow
+(
+)
+=
+0
+;
+virtual
+bool
 CanContinueTextRun
 (
 )
@@ -5111,9 +5119,6 @@ virtual
 bool
 IsCollapsed
 (
-nsBoxLayoutState
-&
-aBoxLayoutState
 )
 =
 0

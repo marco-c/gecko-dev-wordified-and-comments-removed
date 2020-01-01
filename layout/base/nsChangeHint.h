@@ -47,6 +47,9 @@ nsChangeHint_UpdateTransformLayer
 nsChangeHint_ReconstructFrame
 =
 0x400
+nsChangeHint_UpdateOverflow
+=
+0x800
 }
 ;
 inline

@@ -3389,8 +3389,6 @@ FOS_SHAREAWARE
 |
 FOS_OVERWRITEPROMPT
 |
-FOS_NOREADONLYRETURN
-|
 FOS_FORCEFILESYSTEM
 ;
 if
@@ -3443,6 +3441,11 @@ break
 case
 modeSave
 :
+fos
+|
+=
+FOS_NOREADONLYRETURN
+;
 if
 (
 IsDefaultPathLink

@@ -64,7 +64,7 @@ JSObject
 )
 ]
 ;
-memcpy
+js_memcpy
 (
 &
 objCopy
@@ -160,7 +160,7 @@ JSObject
 )
 ]
 ;
-memcpy
+js_memcpy
 (
 &
 obj2Copy

@@ -5685,7 +5685,6 @@ if
 !
 IsCollapsed
 (
-aState
 )
 )
 {

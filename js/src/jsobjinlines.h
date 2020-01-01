@@ -8728,7 +8728,7 @@ structSize
 (
 )
 ;
-memcpy
+js_memcpy
 (
 &
 entry
@@ -8953,7 +8953,7 @@ if
 obj
 )
 {
-memcpy
+js_memcpy
 (
 obj
 &
@@ -9008,7 +9008,7 @@ stackObject
 )
 )
 ;
-memcpy
+js_memcpy
 (
 &
 stackObject
@@ -9083,7 +9083,7 @@ if
 obj
 )
 {
-memcpy
+js_memcpy
 (
 obj
 baseobj

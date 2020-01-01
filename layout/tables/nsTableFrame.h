@@ -1304,6 +1304,12 @@ bool
 aIsFirstReflow
 )
 ;
+virtual
+bool
+UpdateOverflow
+(
+)
+;
 protected
 :
 nsTableFrame

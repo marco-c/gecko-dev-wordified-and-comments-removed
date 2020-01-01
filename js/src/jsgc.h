@@ -5169,12 +5169,9 @@ JSGCInvocationKind
 GC_NORMAL
 =
 0
-GC_LAST_CONTEXT
-=
-1
 GC_SHRINK
 =
-2
+1
 }
 JSGCInvocationKind
 ;

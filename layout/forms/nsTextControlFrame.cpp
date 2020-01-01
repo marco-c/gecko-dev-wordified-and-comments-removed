@@ -2741,9 +2741,6 @@ nsTextControlFrame
 :
 IsCollapsed
 (
-nsBoxLayoutState
-&
-aBoxLayoutState
 )
 {
 return

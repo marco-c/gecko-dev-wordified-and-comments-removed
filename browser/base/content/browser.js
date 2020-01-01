@@ -46457,9 +46457,9 @@ this
 .
 contextTab
 =
-document
+aPopupMenu
 .
-popupNode
+triggerNode
 .
 localName
 =
@@ -46468,9 +46468,9 @@ localName
 tab
 "
 ?
-document
+aPopupMenu
 .
-popupNode
+triggerNode
 :
 gBrowser
 .

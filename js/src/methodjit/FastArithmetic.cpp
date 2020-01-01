@@ -6463,6 +6463,12 @@ a
 -
 >
 parent
+&
+&
+bytecodeInChunk
+(
+target
+)
 ;
 if
 (
