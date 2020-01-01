@@ -7045,7 +7045,7 @@ i
 {
 this
 .
-_resetGUIDs
+_resetGUIDsInt
 (
 node
 .
