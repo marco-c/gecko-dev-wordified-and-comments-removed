@@ -245,7 +245,7 @@ http
 .
 accesskey
 "
-H
+x
 "
 >
 <
@@ -267,7 +267,7 @@ ssl
 .
 accesskey
 "
-S
+L
 "
 >
 <
@@ -498,6 +498,6 @@ shareproxy
 .
 accesskey
 "
-x
+s
 "
 >
