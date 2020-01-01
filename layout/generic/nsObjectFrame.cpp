@@ -18248,10 +18248,10 @@ mNumCachedAttrs
 nsAdoptingCString
 wmodeType
 =
-Preferences
+nsContentUtils
 :
 :
-GetCString
+GetCharPref
 (
 "
 plugins
