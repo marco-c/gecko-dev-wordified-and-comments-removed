@@ -6581,6 +6581,9 @@ uint8_t
 mOrient
 ;
 uint8_t
+mMixBlendMode
+;
+uint8_t
 mBackfaceVisibility
 ;
 uint8_t

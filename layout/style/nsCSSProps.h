@@ -1782,6 +1782,13 @@ kBackgroundSizeKTable
 static
 const
 int32_t
+kBlendModeKTable
+[
+]
+;
+static
+const
+int32_t
 kBorderCollapseKTable
 [
 ]
