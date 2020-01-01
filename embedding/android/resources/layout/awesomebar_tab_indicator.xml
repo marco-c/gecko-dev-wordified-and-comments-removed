@@ -114,6 +114,13 @@ layout_height
 "
 wrap_content
 "
+android
+:
+layout_marginBottom
+=
+"
+3dip
+"
 /
 >
 <
