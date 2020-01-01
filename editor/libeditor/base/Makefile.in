@@ -600,10 +600,6 @@ nsStyleSheetTxns
 .
 cpp
 \
-TransactionFactory
-.
-cpp
-\
 (
 NULL
 )

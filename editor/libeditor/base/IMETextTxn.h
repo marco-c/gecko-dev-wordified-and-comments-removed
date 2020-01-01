@@ -117,14 +117,10 @@ nsWeakPtr
 aSelCon
 )
 ;
-private
-:
 IMETextTxn
 (
 )
 ;
-public
-:
 NS_DECL_EDITTXN
 NS_IMETHOD
 Merge
@@ -202,10 +198,6 @@ mSelConWeak
 ;
 PRBool
 mFixed
-;
-friend
-class
-TransactionFactory
 ;
 }
 ;
