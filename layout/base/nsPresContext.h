@@ -820,6 +820,10 @@ const
 nsFont
 &
 aFont
+PRBool
+aUseUserFontSet
+=
+PR_TRUE
 )
 ;
 NS_HIDDEN_
