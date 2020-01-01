@@ -14728,11 +14728,16 @@ js_FlushPropertyCache
 acx
 )
 ;
+#
+ifdef
+JS_TRACER
 js_FlushJITCache
 (
 acx
 )
 ;
+#
+endif
 }
 #
 else
