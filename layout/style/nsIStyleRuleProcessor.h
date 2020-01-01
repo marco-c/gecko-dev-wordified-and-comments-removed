@@ -338,7 +338,7 @@ mParentData
 ;
 protected
 :
-nsAutoString
+nsString
 *
 mLanguage
 ;
