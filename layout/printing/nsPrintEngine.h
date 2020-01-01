@@ -501,7 +501,7 @@ aPO
 PRBool
 IsWindowsInOurSubTree
 (
-nsIDOMWindow
+nsPIDOMWindow
 *
 aDOMWindow
 )
