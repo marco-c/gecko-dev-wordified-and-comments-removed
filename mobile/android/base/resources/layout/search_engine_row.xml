@@ -204,6 +204,13 @@ suggestion_icon
 "
 android
 :
+layout_centerVertical
+=
+"
+true
+"
+android
+:
 layout_width
 =
 "
