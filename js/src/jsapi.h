@@ -12778,7 +12778,7 @@ JS_PUBLIC_API
 JSScript
 *
 )
-JS_CompileFile
+JS_CompileUTF8File
 (
 JSContext
 *
@@ -12798,7 +12798,7 @@ JS_PUBLIC_API
 JSScript
 *
 )
-JS_CompileFileHandle
+JS_CompileUTF8FileHandle
 (
 JSContext
 *
@@ -12821,7 +12821,7 @@ JS_PUBLIC_API
 JSScript
 *
 )
-JS_CompileFileHandleForPrincipals
+JS_CompileUTF8FileHandleForPrincipals
 (
 JSContext
 *
@@ -12847,7 +12847,7 @@ JS_PUBLIC_API
 JSScript
 *
 )
-JS_CompileFileHandleForPrincipalsVersion
+JS_CompileUTF8FileHandleForPrincipalsVersion
 (
 JSContext
 *
