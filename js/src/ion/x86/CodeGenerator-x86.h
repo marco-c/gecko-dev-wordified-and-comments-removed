@@ -73,6 +73,14 @@ generatePrologue
 public
 :
 bool
+visitMove
+(
+LMove
+*
+move
+)
+;
+bool
 visitBox
 (
 LBox

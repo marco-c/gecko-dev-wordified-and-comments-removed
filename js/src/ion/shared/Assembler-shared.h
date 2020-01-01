@@ -122,8 +122,7 @@ Label
 &
 label
 )
-{
-}
+;
 public
 :
 static
