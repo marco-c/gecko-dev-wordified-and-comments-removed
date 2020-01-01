@@ -164,7 +164,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-void
+nsresult
 GfxInfo
 :
 :
@@ -172,6 +172,14 @@ Init
 (
 )
 {
+return
+GfxInfoBase
+:
+:
+Init
+(
+)
+;
 }
 NS_IMETHODIMP
 GfxInfo

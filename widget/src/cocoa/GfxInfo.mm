@@ -528,7 +528,7 @@ mozilla
 :
 widget
 ;
-void
+nsresult
 GfxInfo
 :
 :
@@ -537,6 +537,16 @@ Init
 )
 {
 NS_TIME_FUNCTION
+;
+nsresult
+rv
+=
+GfxInfoBase
+:
+:
+Init
+(
+)
 ;
 CGLRendererInfoObj
 renderer
@@ -573,6 +583,7 @@ rendererCount
 kCGLNoError
 )
 return
+rv
 ;
 rendererCount
 =
@@ -731,6 +742,9 @@ renderer
 AddCrashReportAnnotations
 (
 )
+;
+return
+rv
 ;
 }
 NS_IMETHODIMP
