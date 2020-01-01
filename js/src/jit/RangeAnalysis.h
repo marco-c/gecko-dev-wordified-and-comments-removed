@@ -652,23 +652,6 @@ Range
 other
 )
 ;
-bool
-update
-(
-const
-Range
-&
-other
-)
-{
-return
-update
-(
-&
-other
-)
-;
-}
 void
 unionWith
 (
@@ -936,7 +919,6 @@ Range
 rhs
 )
 ;
-inline
 void
 makeLowerInfinite
 (
@@ -961,7 +943,6 @@ max_exponent_
 MaxInt32Exponent
 ;
 }
-inline
 void
 makeUpperInfinite
 (
@@ -986,26 +967,6 @@ max_exponent_
 MaxInt32Exponent
 ;
 }
-inline
-void
-makeRangeInfinite
-(
-)
-{
-makeLowerInfinite
-(
-)
-;
-makeUpperInfinite
-(
-)
-;
-max_exponent_
-=
-MaxDoubleExponent
-;
-}
-inline
 bool
 isLowerInfinite
 (
@@ -1016,7 +977,6 @@ return
 lower_infinite_
 ;
 }
-inline
 bool
 isUpperInfinite
 (
@@ -1027,7 +987,6 @@ return
 upper_infinite_
 ;
 }
-inline
 bool
 isInt32
 (
@@ -1047,7 +1006,6 @@ isUpperInfinite
 )
 ;
 }
-inline
 bool
 isBoolean
 (
@@ -1071,7 +1029,6 @@ upper
 1
 ;
 }
-inline
 bool
 hasRoundingErrors
 (
@@ -1092,7 +1049,6 @@ exponent
 MaxTruncatableExponent
 ;
 }
-inline
 bool
 isInfinite
 (
@@ -1108,7 +1064,6 @@ exponent
 MaxDoubleExponent
 ;
 }
-inline
 bool
 canHaveFractionalPart
 (
@@ -1119,7 +1074,6 @@ return
 canHaveFractionalPart_
 ;
 }
-inline
 uint16_t
 exponent
 (
@@ -1130,7 +1084,6 @@ return
 max_exponent_
 ;
 }
-inline
 uint16_t
 numBits
 (
@@ -1143,7 +1096,6 @@ max_exponent_
 1
 ;
 }
-inline
 int32_t
 lower
 (
@@ -1154,7 +1106,6 @@ return
 lower_
 ;
 }
-inline
 int32_t
 upper
 (
@@ -1165,7 +1116,6 @@ return
 upper_
 ;
 }
-inline
 void
 setLowerInit
 (
@@ -1217,7 +1167,6 @@ false
 ;
 }
 }
-inline
 void
 setLower
 (
@@ -1244,7 +1193,6 @@ JSVAL_INT_MIN
 )
 ;
 }
-inline
 void
 setUpperInit
 (
@@ -1296,7 +1244,6 @@ false
 ;
 }
 }
-inline
 void
 setUpper
 (
@@ -1323,7 +1270,6 @@ JSVAL_INT_MAX
 )
 ;
 }
-inline
 void
 setInt32
 (
@@ -1346,7 +1292,6 @@ max_exponent_
 MaxInt32Exponent
 ;
 }
-inline
 void
 set
 (
@@ -1442,7 +1387,6 @@ lower_
 JSVAL_INT_MIN
 ;
 }
-inline
 void
 rectifyExponent
 (
@@ -1565,7 +1509,6 @@ return
 symbolicUpper_
 ;
 }
-inline
 void
 setSymbolicLower
 (
@@ -1579,7 +1522,6 @@ symbolicLower_
 bound
 ;
 }
-inline
 void
 setSymbolicUpper
 (

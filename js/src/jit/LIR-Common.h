@@ -9,15 +9,6 @@ include
 "
 jit
 /
-RangeAnalysis
-.
-h
-"
-#
-include
-"
-jit
-/
 shared
 /
 Assembler
@@ -32,6 +23,9 @@ js
 namespace
 jit
 {
+class
+Range
+;
 template
 <
 size_t
