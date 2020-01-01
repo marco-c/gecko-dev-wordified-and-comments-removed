@@ -8605,6 +8605,12 @@ isElementVisible
 (
 gURLBar
 )
+&
+&
+!
+gURLBar
+.
+readOnly
 )
 {
 gURLBar
