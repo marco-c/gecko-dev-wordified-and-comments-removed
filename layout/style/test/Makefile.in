@@ -644,6 +644,10 @@ test_of_type_selectors
 .
 xhtml
 \
+test_parse_eof
+.
+html
+\
 test_parse_ident
 .
 html
