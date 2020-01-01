@@ -656,6 +656,17 @@ mInner
 mPrincipal
 ;
 }
+nsIDocument
+*
+GetDocument
+(
+)
+const
+{
+return
+mDocument
+;
+}
 void
 SetTitle
 (

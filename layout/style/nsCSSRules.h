@@ -1056,11 +1056,7 @@ nsINode
 GetParentObject
 (
 )
-{
-return
-nullptr
 ;
-}
 protected
 :
 nsAutoRefCnt

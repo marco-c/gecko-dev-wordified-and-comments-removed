@@ -39886,7 +39886,16 @@ native_parent
 )
 {
 return
-NS_ERROR_FAILURE
+nsDOMClassInfo
+:
+:
+PreCreate
+(
+nativeObj
+cx
+globalObj
+parentObj
+)
 ;
 }
 nsresult
