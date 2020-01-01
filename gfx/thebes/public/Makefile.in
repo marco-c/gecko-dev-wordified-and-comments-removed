@@ -273,7 +273,7 @@ h
 EXPORTS
 +
 =
-gfxQtFonts
+gfxFT2Fonts
 .
 h
 endif

@@ -418,7 +418,7 @@ cpp
 CPPSRCS
 +
 =
-gfxQtFonts
+gfxFT2Fonts
 .
 cpp
 CPPSRCS
