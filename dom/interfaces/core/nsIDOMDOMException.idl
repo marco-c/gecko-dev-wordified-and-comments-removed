@@ -746,6 +746,13 @@ TYPE_MISMATCH_ERR
 =
 17
 ;
+const
+unsigned
+short
+DATA_CLONE_ERR
+=
+25
+;
 readonly
 attribute
 unsigned

@@ -1446,6 +1446,10 @@ text
 headers
 ^
 \
+test_DOMException
+.
+html
+\
 (
 NULL
 )
