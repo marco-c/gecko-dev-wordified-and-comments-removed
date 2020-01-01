@@ -208,7 +208,11 @@ IsLeaf
 (
 )
 const
+{
+return
+true
 ;
+}
 virtual
 nsresult
 CreateAnonymousContent
