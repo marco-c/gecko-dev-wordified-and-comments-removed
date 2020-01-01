@@ -4153,3 +4153,17 @@ array
 properties
 "
 )
+MSG_DEF
+(
+JSMSG_EVAL_ARITY
+226
+0
+JSEXN_TYPEERR
+"
+eval
+accepts
+only
+one
+parameter
+"
+)
