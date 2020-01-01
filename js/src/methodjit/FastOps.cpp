@@ -5536,6 +5536,10 @@ uint32
 slot
 )
 {
+restoreVarType
+(
+)
+;
 types
 :
 :
@@ -5730,6 +5734,10 @@ uint32
 slot
 )
 {
+restoreVarType
+(
+)
+;
 types
 :
 :

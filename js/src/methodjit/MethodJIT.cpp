@@ -4650,6 +4650,13 @@ regs
 (
 )
 ;
+fp
+-
+>
+scopeChain
+(
+)
+;
 JSBool
 ok
 ;
