@@ -824,6 +824,9 @@ case
 eCSSProperty_flood_opacity
 :
 case
+eCSSProperty_font_family
+:
+case
 eCSSProperty_font_size
 :
 case
