@@ -8364,12 +8364,11 @@ MOZ_ASSERT
 mConnection
 )
 ;
-NS_ENSURE_TRUE
+MOZ_ASSERT
 (
-IsReady
+IsEnabled
 (
 )
-NS_ERROR_FAILURE
 )
 ;
 SinkCallback
