@@ -6892,6 +6892,8 @@ min_dist
 int
 after_repeat
 =
+MAX
+(
 (
 int
 )
@@ -6900,6 +6902,8 @@ ceil
 max_dist
 /
 gradient_length
+)
+1
 )
 ;
 int
