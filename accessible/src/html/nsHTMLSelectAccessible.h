@@ -446,6 +446,17 @@ nsIContent
 aPossibleOption
 )
 ;
+private
+:
+nsIContent
+*
+GetSelectState
+(
+PRUint32
+*
+aState
+)
+;
 }
 ;
 class
