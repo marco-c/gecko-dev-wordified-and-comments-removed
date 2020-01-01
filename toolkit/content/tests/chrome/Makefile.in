@@ -523,6 +523,14 @@ window_preferences
 .
 xul
 \
+window_preferences2
+.
+xul
+\
+window_preferences3
+.
+xul
+\
 test_autocomplete2
 .
 xul
