@@ -4509,6 +4509,12 @@ class
 panel
 -
 dark
+window
+-
+width
+window
+-
+height
 "
 style
 =
