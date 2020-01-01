@@ -134,6 +134,7 @@ global
 colorpicker
 .
 css
+*
 skin
 /
 classic
