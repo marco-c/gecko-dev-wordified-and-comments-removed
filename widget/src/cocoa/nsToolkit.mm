@@ -1237,13 +1237,12 @@ cocoaPoint
 .
 y
 =
-CocoaScreenCoordsHeight
+FlippedScreenY
 (
-)
--
 aPoint
 .
 y
+)
 ;
 return
 cocoaPoint

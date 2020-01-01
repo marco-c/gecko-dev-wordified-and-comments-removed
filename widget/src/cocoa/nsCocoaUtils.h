@@ -21,8 +21,10 @@ nsRect
 h
 "
 float
-CocoaScreenCoordsHeight
+FlippedScreenY
 (
+float
+y
 )
 ;
 NSRect

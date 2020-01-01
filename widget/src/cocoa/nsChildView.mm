@@ -1553,13 +1553,12 @@ inPoint
 .
 y
 =
-CocoaScreenCoordsHeight
+FlippedScreenY
 (
-)
--
 inPoint
 .
 y
+)
 ;
 }
 static

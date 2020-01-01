@@ -4380,11 +4380,10 @@ coord
 =
 {
 aX
-CocoaScreenCoordsHeight
+FlippedScreenY
 (
-)
--
 aY
+)
 }
 ;
 /
