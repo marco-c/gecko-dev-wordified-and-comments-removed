@@ -778,7 +778,7 @@ containerFrame
 =
 ll
 .
-GetLineContainerFrame
+LineContainerFrame
 (
 )
 ;

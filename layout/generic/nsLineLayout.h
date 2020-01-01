@@ -694,7 +694,7 @@ mForceBreakContentOffset
 }
 nsIFrame
 *
-GetLineContainerFrame
+LineContainerFrame
 (
 )
 const
@@ -709,7 +709,7 @@ frame
 const
 nsHTMLReflowState
 *
-GetLineContainerRS
+LineContainerRS
 (
 )
 const

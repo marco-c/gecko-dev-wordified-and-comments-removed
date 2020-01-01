@@ -1331,7 +1331,7 @@ aReflowState
 mLineLayout
 -
 >
-GetLineContainerFrame
+LineContainerFrame
 (
 )
 ;
@@ -4221,7 +4221,7 @@ aReflowState
 mLineLayout
 -
 >
-GetLineContainerFrame
+LineContainerFrame
 (
 )
 ;
