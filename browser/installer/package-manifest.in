@@ -551,13 +551,6 @@ BINPATH
 /
 components
 /
-browserplaces
-.
-xpt
-BINPATH
-/
-components
-/
 browser
 -
 feeds
@@ -1560,13 +1553,6 @@ BINPATH
 components
 /
 nsMicrosummaryService
-.
-js
-BINPATH
-/
-components
-/
-nsPlacesTransactionsService
 .
 js
 BINPATH
