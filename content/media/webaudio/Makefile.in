@@ -141,6 +141,10 @@ BiquadFilterNode
 .
 cpp
 \
+ChannelMergerNode
+.
+cpp
+\
 ChannelSplitterNode
 .
 cpp

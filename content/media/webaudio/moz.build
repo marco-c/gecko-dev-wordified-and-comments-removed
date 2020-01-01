@@ -201,6 +201,11 @@ BiquadFilterNode
 h
 '
 '
+ChannelMergerNode
+.
+h
+'
+'
 ChannelSplitterNode
 .
 h
