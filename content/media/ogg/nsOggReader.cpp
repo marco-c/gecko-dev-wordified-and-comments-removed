@@ -1381,6 +1381,9 @@ ver
 0
 ;
 }
+#
+ifdef
+DEBUG
 static
 PRBool
 AllFrameTimesIncrease
@@ -1468,6 +1471,8 @@ return
 PR_TRUE
 ;
 }
+#
+endif
 static
 void
 Clear
