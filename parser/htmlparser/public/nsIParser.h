@@ -560,6 +560,14 @@ ScriptDidExecute
 =
 0
 ;
+virtual
+PRBool
+CanInterrupt
+(
+)
+=
+0
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR

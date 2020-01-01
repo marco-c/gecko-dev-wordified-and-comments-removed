@@ -451,11 +451,11 @@ aConsumeRollupEvent
 )
 ;
 NS_IMETHOD
-GetLastInputEventTime
+HasPendingEvent
 (
-PRUint32
+PRBool
 &
-aTime
+aHasPending
 )
 ;
 NS_IMETHOD
