@@ -8794,9 +8794,6 @@ PodZero
 this
 )
 ;
-#
-ifndef
-JS_CPU_ARM
 if
 (
 cx
@@ -8815,8 +8812,6 @@ inferenceEnabled
 =
 true
 ;
-#
-endif
 }
 TypeObject
 *
