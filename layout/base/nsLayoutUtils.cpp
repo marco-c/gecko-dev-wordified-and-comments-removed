@@ -19656,6 +19656,16 @@ nsPIDOMWindow
 aWindow
 )
 {
+if
+(
+!
+aWindow
+)
+{
+return
+nsnull
+;
+}
 nsCOMPtr
 <
 nsIDocShell
