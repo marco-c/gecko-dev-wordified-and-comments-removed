@@ -2404,6 +2404,8 @@ PRUint32
 aRunStart
 PRUint32
 aRunLength
+PRInt32
+aRunScript
 )
 {
 DCFromContext
