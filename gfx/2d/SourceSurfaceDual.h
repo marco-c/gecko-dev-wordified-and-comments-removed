@@ -114,7 +114,7 @@ GetDataSurface
 )
 {
 return
-NULL
+nullptr
 ;
 }
 private

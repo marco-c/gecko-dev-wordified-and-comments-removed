@@ -45,7 +45,7 @@ DrawTargetCairo
 *
 aDrawTarget
 =
-NULL
+nullptr
 )
 ;
 virtual

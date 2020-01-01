@@ -59,7 +59,7 @@ SourceSurfaceSkia
 :
 mDrawTarget
 (
-NULL
+nullptr
 )
 {
 }
@@ -337,7 +337,7 @@ mDrawTarget
 {
 mDrawTarget
 =
-NULL
+nullptr
 ;
 SkBitmap
 temp
@@ -375,7 +375,7 @@ DrawTargetDestroyed
 {
 mDrawTarget
 =
-NULL
+nullptr
 ;
 }
 void
@@ -401,7 +401,7 @@ this
 ;
 mDrawTarget
 =
-NULL
+nullptr
 ;
 }
 }

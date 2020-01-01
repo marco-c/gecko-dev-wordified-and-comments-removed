@@ -665,7 +665,7 @@ NativeSurface
 const
 {
 return
-NULL
+nullptr
 ;
 }
 virtual
