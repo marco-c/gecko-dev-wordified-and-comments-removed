@@ -89,16 +89,6 @@ nsSVGForeignObjectElementBase
 :
 :
 )
-virtual
-gfxMatrix
-PrependLocalTransformTo
-(
-const
-gfxMatrix
-&
-aMatrix
-)
-;
 NS_IMETHOD_
 (
 PRBool
