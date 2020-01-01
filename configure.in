@@ -1339,6 +1339,11 @@ STARTUP_NOTIFICATION_VERSION
 0
 .
 8
+DBUS_VERSION
+=
+0
+.
+60
 MSMANIFEST_TOOL
 =
 dnl
@@ -39825,6 +39830,9 @@ dbus
 glib
 -
 1
+>
+=
+DBUS_VERSION
 [
 MOZ_ENABLE_DBUS
 =
@@ -39855,6 +39863,9 @@ dbus
 glib
 -
 1
+>
+=
+DBUS_VERSION
 ]
 )
 fi
