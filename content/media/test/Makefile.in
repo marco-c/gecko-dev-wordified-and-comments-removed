@@ -757,11 +757,15 @@ test_reset_src
 .
 html
 \
+test_streams_autoplay
+.
+html
+\
 test_streams_gc
 .
 html
 \
-test_streams_autoplay
+test_streams_tracks
 .
 html
 \
