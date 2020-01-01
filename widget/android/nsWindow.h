@@ -51,9 +51,6 @@ mozilla
 class
 AndroidGeckoEvent
 ;
-class
-AndroidKeyEvent
-;
 namespace
 layers
 {
