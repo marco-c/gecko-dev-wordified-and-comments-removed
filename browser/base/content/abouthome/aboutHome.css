@@ -2331,16 +2331,16 @@ height
 19px
 ;
 }
-%
-ifdef
-XP_MACOSX
 media
+not
+all
+and
 (
-min
+max
 -
 resolution
 :
-2dppx
+1dppx
 )
 {
 #
@@ -2735,5 +2735,3 @@ png
 ;
 }
 }
-%
-endif

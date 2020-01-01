@@ -630,9 +630,6 @@ mozilla
 .
 png
 )
-#
-ifdef
-XP_MACOSX
 content
 /
 browser
@@ -877,8 +874,6 @@ mozilla
 .
 png
 )
-#
-endif
 #
 ifdef
 MOZ_SERVICES_HEALTHREPORT
