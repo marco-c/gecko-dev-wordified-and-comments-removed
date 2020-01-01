@@ -211,8 +211,11 @@ nsMenuBarFrame
 *
 mMenuBarFrame
 ;
-PRBool
+PRPackedBool
 mAccessKeyDown
+;
+PRPackedBool
+mAccessKeyDownCanceled
 ;
 static
 PRBool
