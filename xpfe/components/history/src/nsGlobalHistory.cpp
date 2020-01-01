@@ -11437,11 +11437,11 @@ rv
 ;
 nsCOMPtr
 <
-nsIMdbFactoryFactory
+nsIMdbFactoryService
 >
 factoryfactory
 =
-do_CreateInstance
+do_GetService
 (
 NS_MORK_CONTRACTID
 &
