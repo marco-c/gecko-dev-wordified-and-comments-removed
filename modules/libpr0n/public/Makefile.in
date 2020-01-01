@@ -464,6 +464,10 @@ imgIRequest
 .
 idl
 \
+imgITools
+.
+idl
+\
 (
 NULL
 )

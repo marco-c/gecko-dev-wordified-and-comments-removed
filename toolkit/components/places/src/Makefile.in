@@ -457,6 +457,10 @@ pref
 \
 necko
 \
+imglib2
+\
+gfx
+\
 intl
 \
 layout

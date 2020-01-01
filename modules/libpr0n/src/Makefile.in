@@ -476,6 +476,10 @@ cpp
 imgRequestProxy
 .
 cpp
+\
+imgTools
+.
+cpp
 include
 (
 topsrcdir
