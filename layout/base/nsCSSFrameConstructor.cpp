@@ -21571,6 +21571,8 @@ aNameSpaceID
 kNameSpaceID_SVG
 &
 &
+(
+(
 aParentFrame
 &
 &
@@ -21590,6 +21592,15 @@ nsIFrame
 :
 :
 eSVGForeignObject
+)
+)
+|
+|
+(
+aFlags
+&
+ITEM_IS_WITHIN_SVG_TEXT
+)
 )
 )
 {
