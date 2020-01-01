@@ -627,11 +627,11 @@ initialize
 in
 this
 .
-resultsPopup
+popup
 )
 this
 .
-resultsPopup
+popup
 .
 initialize
 (
@@ -1725,7 +1725,7 @@ CDATA
 [
 this
 .
-resultsPopup
+popup
 .
 showCommentColumn
 =
@@ -2357,7 +2357,7 @@ field
 name
 =
 "
-resultsPopup
+popup
 "
 >
 <
@@ -6463,7 +6463,7 @@ val
 =
 this
 .
-resultsPopup
+popup
 .
 overrideValue
 ;
@@ -6926,7 +6926,7 @@ val
 =
 this
 .
-resultsPopup
+popup
 .
 overrideValue
 ;
@@ -6946,7 +6946,7 @@ if
 (
 this
 .
-resultsPopup
+popup
 .
 selectedIndex
 !
@@ -6963,7 +6963,7 @@ getSessionStatusAt
 (
 this
 .
-resultsPopup
+popup
 .
 selectedIndex
 )
@@ -7001,7 +7001,7 @@ getResultAt
 (
 this
 .
-resultsPopup
+popup
 .
 selectedIndex
 )
@@ -7019,7 +7019,7 @@ getResultValueAt
 (
 this
 .
-resultsPopup
+popup
 .
 selectedIndex
 )
@@ -7499,7 +7499,7 @@ str
 ;
 this
 .
-resultsPopup
+popup
 .
 clearSelection
 (
@@ -7677,7 +7677,7 @@ if
 (
 this
 .
-resultsPopup
+popup
 .
 selectedIndex
 !
@@ -7692,7 +7692,7 @@ getSessionStatusAt
 (
 this
 .
-resultsPopup
+popup
 .
 selectedIndex
 )
@@ -7715,7 +7715,7 @@ getResultAt
 (
 this
 .
-resultsPopup
+popup
 .
 selectedIndex
 )
@@ -8438,7 +8438,7 @@ selected
 =
 this
 .
-resultsPopup
+popup
 .
 selectBy
 (
@@ -9102,7 +9102,7 @@ w
 =
 this
 .
-resultsPopup
+popup
 .
 boxObject
 .
@@ -9110,7 +9110,7 @@ width
 )
 this
 .
-resultsPopup
+popup
 .
 setAttribute
 (
@@ -9122,7 +9122,7 @@ w
 ;
 this
 .
-resultsPopup
+popup
 .
 showPopup
 (
@@ -9187,7 +9187,7 @@ if
 (
 this
 .
-resultsPopup
+popup
 &
 &
 this
@@ -9197,7 +9197,7 @@ mMenuOpen
 {
 this
 .
-resultsPopup
+popup
 .
 hidePopup
 (
@@ -9286,7 +9286,7 @@ aOldResults
 ;
 this
 .
-resultsPopup
+popup
 .
 adjustHeight
 (
@@ -9350,7 +9350,7 @@ aInvalidate
 )
 this
 .
-resultsPopup
+popup
 .
 adjustHeight
 (
@@ -12925,7 +12925,7 @@ field
 name
 =
 "
-resultsPopup
+popup
 "
 >
 document
@@ -12975,7 +12975,7 @@ action
 "
 this
 .
-resultsPopup
+popup
 .
 selectedIndex
 =
@@ -13028,7 +13028,7 @@ rc
 {
 this
 .
-resultsPopup
+popup
 .
 selectedIndex
 =
@@ -13036,7 +13036,7 @@ rc
 ;
 this
 .
-resultsPopup
+popup
 .
 view
 .
@@ -13114,13 +13114,13 @@ rc
 =
 this
 .
-resultsPopup
+popup
 .
 selectedIndex
 )
 this
 .
-resultsPopup
+popup
 .
 selectedIndex
 =
