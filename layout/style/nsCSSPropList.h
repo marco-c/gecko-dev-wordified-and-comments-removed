@@ -1628,7 +1628,7 @@ CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 Color
 mBackClip
 eCSSType_ValueList
-kBackgroundClipKTable
+kBackgroundOriginKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )

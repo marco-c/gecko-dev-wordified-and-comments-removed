@@ -5821,7 +5821,7 @@ mClipCount
 nsCSSProps
 :
 :
-kBackgroundClipKTable
+kBackgroundOriginKTable
 aValue
 )
 ;

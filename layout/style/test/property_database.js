@@ -90,6 +90,9 @@ other_values
 :
 [
 "
+content
+"
+"
 padding
 "
 "
@@ -109,9 +112,6 @@ border
 invalid_values
 :
 [
-"
-content
-"
 "
 margin
 "
