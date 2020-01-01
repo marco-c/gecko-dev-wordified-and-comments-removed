@@ -115,6 +115,15 @@ aFontStyle
 ;
 private
 :
+friend
+class
+gfxWindowsPlatform
+;
+void
+FindStyleVariations
+(
+)
+;
 static
 int
 CALLBACK
@@ -132,11 +141,6 @@ DWORD
 fontType
 LPARAM
 data
-)
-;
-void
-FindStyleVariations
-(
 )
 ;
 public

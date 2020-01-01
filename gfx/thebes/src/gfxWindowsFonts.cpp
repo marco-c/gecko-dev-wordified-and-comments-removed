@@ -1022,6 +1022,9 @@ mForceGDI
 PR_TRUE
 ;
 }
+else
+{
+}
 SelectObject
 (
 hdc
@@ -1046,6 +1049,12 @@ FindStyleVariations
 (
 )
 {
+if
+(
+mHasStyles
+)
+return
+;
 mHasStyles
 =
 PR_TRUE
