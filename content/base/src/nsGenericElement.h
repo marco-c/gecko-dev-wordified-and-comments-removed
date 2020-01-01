@@ -1391,8 +1391,6 @@ PRUint16
 aNodeType
 )
 ;
-#
-endif
 NS_IMETHOD
 GetAttributes
 (
@@ -1402,9 +1400,6 @@ nsIDOMNamedNodeMap
 aAttributes
 )
 ;
-#
-if
-0
 NS_IMETHOD
 GetNamespaceURI
 (
@@ -1437,8 +1432,6 @@ bool
 aReturn
 )
 ;
-#
-endif
 NS_IMETHOD
 HasAttributes
 (
@@ -1447,9 +1440,6 @@ bool
 aHasAttributes
 )
 ;
-#
-if
-0
 NS_IMETHOD
 HasChildNodes
 (

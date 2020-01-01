@@ -3250,17 +3250,6 @@ NodeIsElement
 ;
 }
 void
-ClearIsElement
-(
-)
-{
-ClearBoolFlag
-(
-NodeIsElement
-)
-;
-}
-void
 SetHasID
 (
 )
