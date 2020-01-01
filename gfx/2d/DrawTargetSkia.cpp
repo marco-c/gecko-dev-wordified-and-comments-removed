@@ -889,7 +889,7 @@ SkShader
 kClamp_TileMode
 ;
 case
-EXTEND_WRAP
+EXTEND_REPEAT
 :
 return
 SkShader
@@ -898,7 +898,7 @@ SkShader
 kRepeat_TileMode
 ;
 case
-EXTEND_MIRROR
+EXTEND_REFLECT
 :
 return
 SkShader
@@ -3688,6 +3688,8 @@ GradientStop
 aStops
 uint32_t
 aNumStops
+ExtendMode
+aExtendMode
 )
 const
 {
