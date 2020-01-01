@@ -2913,7 +2913,7 @@ wrapper
 XPCNativeWrapper
 :
 :
-SafeGetWrappedNative
+GetWrappedNative
 (
 obj
 )
