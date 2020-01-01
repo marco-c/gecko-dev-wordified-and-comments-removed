@@ -54,3 +54,12 @@ html
 triangle
 .
 html
+line
+-
+loop
+-
+tri
+-
+fan
+.
+html

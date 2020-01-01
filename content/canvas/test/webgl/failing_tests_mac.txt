@@ -2,6 +2,17 @@ conformance
 /
 context
 /
+context
+-
+lost
+-
+restored
+.
+html
+conformance
+/
+context
+/
 premultiplyalpha
 -
 test
