@@ -1615,15 +1615,6 @@ MAKESAMETYPEPREFTRANSFORM
 "
 browser
 .
-history_expire_days
-"
-Int
-)
-MAKESAMETYPEPREFTRANSFORM
-(
-"
-browser
-.
 tabs
 .
 autoHide
