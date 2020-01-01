@@ -298,10 +298,15 @@ aOffset
 )
 ;
 return
+child
+?
 GetLinkIndex
 (
 child
 )
+:
+-
+1
 ;
 }
 nsAccessible
