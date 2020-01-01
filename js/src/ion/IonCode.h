@@ -1402,6 +1402,9 @@ enabled
 void
 purgeCaches
 (
+JSCompartment
+*
+c
 )
 ;
 void
