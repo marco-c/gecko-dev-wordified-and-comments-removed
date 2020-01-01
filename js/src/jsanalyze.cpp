@@ -8879,6 +8879,9 @@ JSOP_POPN
 return
 false
 ;
+#
+ifdef
+JS_METHODJIT
 if
 (
 state
@@ -8939,6 +8942,8 @@ return
 false
 ;
 }
+#
+endif
 if
 (
 !
