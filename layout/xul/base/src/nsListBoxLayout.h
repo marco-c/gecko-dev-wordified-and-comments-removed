@@ -31,9 +31,6 @@ public
 :
 nsListBoxLayout
 (
-nsIPresShell
-*
-aShell
 )
 ;
 NS_IMETHOD
