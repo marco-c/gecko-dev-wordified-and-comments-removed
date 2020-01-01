@@ -11236,6 +11236,9 @@ getPropertyPtr
 xpc
 :
 :
+XrayUtils
+:
+:
 HolderClass
 .
 getProperty
