@@ -1281,6 +1281,7 @@ aValue
 function
 Item
 (
+aOwnerView
 aAttachment
 aContents
 =
@@ -1288,6 +1289,12 @@ aContents
 ]
 )
 {
+this
+.
+ownerView
+=
+aOwnerView
+;
 this
 .
 attachment
@@ -1423,6 +1430,7 @@ item
 new
 Item
 (
+this
 aOptions
 .
 attachment
@@ -1875,6 +1883,7 @@ item
 new
 Item
 (
+this
 aOptions
 .
 attachment

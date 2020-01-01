@@ -2199,13 +2199,9 @@ menu
 widget
 -
 item
-:
-nth
--
-child
-(
-even
-)
+[
+odd
+]
 {
 background
 :
