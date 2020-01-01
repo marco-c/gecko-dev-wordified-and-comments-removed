@@ -1436,6 +1436,9 @@ i
 0
 ;
 }
+#
+if
+USE_ZLIB
 bool
 TryCompressString
 (
@@ -1473,6 +1476,8 @@ size_t
 outlen
 )
 ;
+#
+endif
 }
 #
 endif
