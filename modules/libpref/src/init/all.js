@@ -1025,6 +1025,16 @@ pref
 "
 nglayout
 .
+enable_drag_images
+"
+true
+)
+;
+pref
+(
+"
+nglayout
+.
 debug
 .
 enable_xbl_forms
