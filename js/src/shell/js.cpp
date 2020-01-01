@@ -22325,7 +22325,7 @@ scatter
 Scatter
 1
 0
-JS_TypeHandlerMissing
+JS_TypeHandlerDynamic
 )
 #
 endif

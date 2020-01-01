@@ -4177,8 +4177,10 @@ reg
 )
 )
 {
-JS_ASSERT
+JS_ASSERT_IF
 (
+!
+synced
 fe
 -
 >
