@@ -2834,7 +2834,6 @@ break
 ;
 }
 }
-}
 #
 ifdef
 DEBUG
@@ -2862,6 +2861,7 @@ function
 ;
 #
 endif
+}
 if
 (
 aElementsToAppend
