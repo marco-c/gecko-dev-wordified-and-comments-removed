@@ -353,7 +353,7 @@ Vibrate
 const
 nsTArray
 <
-uint32_t
+uint32
 >
 &
 pattern
@@ -378,7 +378,7 @@ Vibrate
 const
 nsTArray
 <
-uint32_t
+uint32
 >
 &
 pattern
@@ -738,11 +738,15 @@ InfoType
 aInfo
 )
 {
-MOZ_ASSERT
+if
 (
+!
 mObservers
 )
+{
+return
 ;
+}
 mObservers
 -
 >
