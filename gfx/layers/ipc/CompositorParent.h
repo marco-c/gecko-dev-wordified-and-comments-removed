@@ -325,11 +325,6 @@ aTempScaleDiffY
 ifdef
 MOZ_WIDGET_ANDROID
 void
-RegisterCompositorWithJava
-(
-)
-;
-void
 RequestViewTransform
 (
 )
