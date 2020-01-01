@@ -595,6 +595,14 @@ geometryChanged
 Override
 public
 void
+viewportSizeChanged
+(
+)
+{
+}
+Override
+public
+void
 render
 (
 )

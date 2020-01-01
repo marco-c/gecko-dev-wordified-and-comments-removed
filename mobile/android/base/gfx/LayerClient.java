@@ -23,6 +23,13 @@ geometryChanged
 (
 )
 ;
+public
+abstract
+void
+viewportSizeChanged
+(
+)
+;
 protected
 abstract
 void

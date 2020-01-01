@@ -3001,6 +3001,7 @@ instanceof
 HTMLTextAreaElement
 )
 )
+{
 focused
 .
 scrollIntoView
@@ -3008,6 +3009,18 @@ scrollIntoView
 false
 )
 ;
+BrowserApp
+.
+getTabForBrowser
+(
+aBrowser
+)
+.
+sendViewportUpdate
+(
+)
+;
+}
 }
 getDrawMetadata
 :
