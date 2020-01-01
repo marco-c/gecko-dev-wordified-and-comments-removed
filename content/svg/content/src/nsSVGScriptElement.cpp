@@ -104,6 +104,8 @@ aResult
 nsINodeInfo
 *
 aNodeInfo
+PRBool
+aFromParser
 )
 ;
 nsSVGScriptElement
@@ -111,6 +113,8 @@ nsSVGScriptElement
 nsINodeInfo
 *
 aNodeInfo
+PRBool
+aFromParser
 )
 ;
 public
@@ -189,6 +193,12 @@ DoneAddingChildren
 (
 PRBool
 aHaveNotified
+)
+;
+virtual
+PRBool
+IsDoneAddingChildren
+(
 )
 ;
 virtual
@@ -273,7 +283,7 @@ kNameSpaceID_XLink
 }
 }
 ;
-NS_IMPL_NS_NEW_SVG_ELEMENT
+NS_IMPL_NS_NEW_SVG_ELEMENT_CHECK_PARSER
 (
 Script
 )
@@ -319,6 +329,8 @@ nsSVGScriptElement
 nsINodeInfo
 *
 aNodeInfo
+PRBool
+aFromParser
 )
 :
 nsSVGScriptElementBase
@@ -326,6 +338,11 @@ nsSVGScriptElementBase
 aNodeInfo
 )
 {
+mDoneAddingChildren
+=
+!
+aFromParser
+;
 AddMutationObserver
 (
 this
@@ -361,6 +378,7 @@ new
 nsSVGScriptElement
 (
 aNodeInfo
+PR_FALSE
 )
 ;
 if
@@ -778,6 +796,18 @@ nsnull
 }
 return
 rv
+;
+}
+PRBool
+nsSVGScriptElement
+:
+:
+IsDoneAddingChildren
+(
+)
+{
+return
+mDoneAddingChildren
 ;
 }
 nsresult

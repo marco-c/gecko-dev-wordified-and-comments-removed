@@ -325,6 +325,8 @@ aResult
 nsINodeInfo
 *
 aNodeInfo
+PRBool
+aFromParser
 )
 ;
 nsresult
@@ -1234,6 +1236,7 @@ NS_NewSVGScriptElement
 (
 aResult
 aNodeInfo
+aFromParser
 )
 ;
 if
