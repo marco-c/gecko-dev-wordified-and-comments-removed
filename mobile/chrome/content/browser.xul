@@ -3496,12 +3496,6 @@ hbox
 #
 ifndef
 ANDROID
-#
-if
-MOZ_PLATFORM_MAEMO
-!
-=
-6
 <
 toolbarbutton
 id
@@ -3527,8 +3521,6 @@ cmd_close
 "
 /
 >
-#
-endif
 #
 endif
 <

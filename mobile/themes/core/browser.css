@@ -432,6 +432,12 @@ bottomright
 border_radius_small
 ;
 }
+%
+if
+MOZ_PLATFORM_MAEMO
+!
+=
+6
 #
 toolbar
 -
@@ -455,6 +461,8 @@ visibility
 visible
 ;
 }
+%
+endif
 #
 toolbar
 -
