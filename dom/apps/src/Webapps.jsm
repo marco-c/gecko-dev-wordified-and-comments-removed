@@ -10966,6 +10966,15 @@ Cr
 NS_BINDING_ABORTED
 )
 ;
+AppDownloadManager
+.
+remove
+(
+aApp
+.
+manifestURL
+)
+;
 }
 }
 onStopRequest
