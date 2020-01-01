@@ -379,13 +379,6 @@ function
 )
 {
 }
-onLinkIconAvailable
-:
-function
-(
-)
-{
-}
 onStateChange
 :
 function

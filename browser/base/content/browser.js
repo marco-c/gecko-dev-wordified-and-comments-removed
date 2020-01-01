@@ -12005,9 +12005,9 @@ PageProxySetIcon
 (
 gBrowser
 .
-selectedBrowser
-.
-mIconURL
+getIcon
+(
+)
 )
 ;
 }
@@ -20917,6 +20917,7 @@ onLinkIconAvailable
 function
 (
 aBrowser
+aIconURL
 )
 {
 if
@@ -20934,9 +20935,7 @@ null
 )
 PageProxySetIcon
 (
-aBrowser
-.
-mIconURL
+aIconURL
 )
 ;
 }
@@ -21219,9 +21218,9 @@ mTabbedMode
 !
 gBrowser
 .
-selectedBrowser
-.
-mIconURL
+getIcon
+(
+)
 )
 gBrowser
 .

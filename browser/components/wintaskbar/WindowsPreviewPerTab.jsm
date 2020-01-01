@@ -2313,6 +2313,7 @@ onLinkIconAvailable
 function
 (
 aBrowser
+aIconURL
 )
 {
 let
@@ -2322,9 +2323,7 @@ this
 ;
 getFaviconAsImage
 (
-aBrowser
-.
-mIconURL
+aIconURL
 function
 (
 img

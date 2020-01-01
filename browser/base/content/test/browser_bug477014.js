@@ -231,11 +231,9 @@ newWindow
 .
 gBrowser
 .
-selectedTab
-.
-linkedBrowser
-.
-mIconURL
+getIcon
+(
+)
 iconURLSpec
 )
 ;
