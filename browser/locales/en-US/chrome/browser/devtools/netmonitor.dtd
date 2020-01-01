@@ -2135,7 +2135,7 @@ debuggerUI
 .
 summary
 .
-resend
+editAndResend
 )
 :
 This
@@ -2156,6 +2156,8 @@ opens
 a
 form
 to
+edit
+and
 resend
 the
 currently
@@ -2171,8 +2173,10 @@ netmonitorUI
 .
 summary
 .
-resend
+editAndResend
 "
+Edit
+and
 Resend
 "
 >
@@ -2187,7 +2191,7 @@ debuggerUI
 .
 summary
 .
-resend
+editAndResend
 .
 accesskey
 )
@@ -2200,7 +2204,11 @@ key
 -
 for
 the
+"
+Edit
+and
 Resend
+"
 menu
 item
 displayed
@@ -2221,7 +2229,7 @@ netmonitorUI
 .
 summary
 .
-resend
+editAndResend
 .
 accesskey
 "
