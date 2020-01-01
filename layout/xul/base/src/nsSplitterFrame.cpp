@@ -652,11 +652,10 @@ mDragging
 ;
 }
 ;
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS2
 (
 nsSplitterFrameInner
 nsIDOMMouseListener
-nsIDOMEventListener
 nsIDOMMouseMotionListener
 )
 nsSplitterFrameInner
