@@ -6690,6 +6690,6 @@ nsISupportsWeakReference
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
-nsICanvasRenderingContextInternal
+nsIDOMWebGLRenderingContext
 )
 NS_INTERFACE_MAP_END
