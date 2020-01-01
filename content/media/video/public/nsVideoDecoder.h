@@ -129,6 +129,15 @@ aURI
 0
 ;
 virtual
+nsIPrincipal
+*
+GetCurrentPrincipal
+(
+)
+=
+0
+;
+virtual
 float
 GetCurrentTime
 (

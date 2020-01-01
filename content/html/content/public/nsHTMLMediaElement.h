@@ -248,6 +248,12 @@ nsMediaReadyState
 aState
 )
 ;
+nsIPrincipal
+*
+GetCurrentPrincipal
+(
+)
+;
 protected
 :
 nsresult
