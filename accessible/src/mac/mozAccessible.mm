@@ -2253,6 +2253,15 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
 if
 (
 mChildren
+|
+|
+!
+mGeckoAccessible
+-
+>
+AreChildrenCached
+(
+)
 )
 return
 mChildren
