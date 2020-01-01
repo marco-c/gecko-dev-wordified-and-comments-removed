@@ -15717,6 +15717,13 @@ message
 header
 &
 &
+message
+.
+header
+.
+segmentMaxSeq
+&
+&
 (
 message
 .

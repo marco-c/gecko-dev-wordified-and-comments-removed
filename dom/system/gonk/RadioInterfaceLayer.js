@@ -1883,6 +1883,7 @@ target
 )
 ;
 return
+null
 ;
 }
 if
@@ -2213,6 +2214,7 @@ target
 )
 ;
 return
+null
 ;
 case
 "
@@ -2234,6 +2236,7 @@ target
 )
 ;
 return
+null
 ;
 case
 "
@@ -2255,6 +2258,7 @@ target
 )
 ;
 return
+null
 ;
 case
 "
@@ -2276,6 +2280,7 @@ target
 )
 ;
 return
+null
 ;
 }
 let
@@ -4686,6 +4691,9 @@ queryVoicePrivacyMode
 break
 ;
 }
+return
+null
+;
 }
 handleUnsolicitedWorkerMessage
 :
