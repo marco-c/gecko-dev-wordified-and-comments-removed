@@ -8121,17 +8121,6 @@ aID
 aReason
 )
 {
-PanelUI
-.
-show
-(
-"
-downloads
--
-container
-"
-)
-;
 }
 function
 Tab

@@ -319,17 +319,6 @@ function
 (
 )
 {
-PanelUI
-.
-show
-(
-"
-downloads
--
-container
-"
-)
-;
 ContextUI
 .
 dismiss
