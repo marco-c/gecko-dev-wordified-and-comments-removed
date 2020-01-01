@@ -402,7 +402,7 @@ endif
 BINPATH
 /
 DLL_PREFIX
-mozsqlite3
+sqlite3
 DLL_SUFFIX
 BINPATH
 /

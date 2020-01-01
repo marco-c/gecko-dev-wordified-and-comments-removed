@@ -50740,7 +50740,7 @@ SQLITE_LIBS
 (
 call
 EXPAND_LIBNAME_PATH
-mozsqlite3
+sqlite3
 (
 DIST
 )
