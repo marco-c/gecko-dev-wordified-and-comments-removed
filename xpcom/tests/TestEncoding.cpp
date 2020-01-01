@@ -97,6 +97,7 @@ NS_ERROR_FAILURE
 ;
 }
 const
+unsigned
 char
 expected8
 [
@@ -145,6 +146,11 @@ NS_ERROR_FAILURE
 nsDependentCString
 expected
 (
+(
+const
+char
+*
+)
 expected8
 )
 ;
@@ -289,6 +295,7 @@ NS_ERROR_FAILURE
 ;
 }
 const
+unsigned
 char
 expected8
 [
@@ -339,6 +346,11 @@ NS_ERROR_FAILURE
 nsDependentCString
 expected
 (
+(
+const
+char
+*
+)
 expected8
 )
 ;
@@ -486,6 +498,7 @@ NS_ERROR_FAILURE
 ;
 }
 const
+unsigned
 char
 expected8
 [
@@ -535,6 +548,11 @@ NS_ERROR_FAILURE
 nsDependentCString
 expected
 (
+(
+const
+char
+*
+)
 expected8
 )
 ;
@@ -682,6 +700,7 @@ NS_ERROR_FAILURE
 ;
 }
 const
+unsigned
 char
 expected8
 [
@@ -731,6 +750,11 @@ NS_ERROR_FAILURE
 nsDependentCString
 expected
 (
+(
+const
+char
+*
+)
 expected8
 )
 ;
