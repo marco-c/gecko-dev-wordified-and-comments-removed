@@ -745,6 +745,17 @@ return
 }
 if
 (
+!
+DownloadsCommon
+.
+animateNotifications
+)
+{
+return
+;
+}
+if
+(
 DownloadsPanel
 .
 isPanelShowing
