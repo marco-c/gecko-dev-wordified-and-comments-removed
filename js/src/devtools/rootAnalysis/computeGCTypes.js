@@ -351,6 +351,15 @@ addGCType
 name
 )
 {
+if
+(
+isRootedTypeName
+(
+name
+)
+)
+return
+;
 print
 (
 "
@@ -416,7 +425,7 @@ name
 {
 if
 (
-isRootedTypeName
+isRootedPointerTypeName
 (
 name
 )
