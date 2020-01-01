@@ -814,16 +814,6 @@ pref
 "
 media
 .
-enforce_same_site_origin
-"
-false
-)
-;
-pref
-(
-"
-media
-.
 cache_size
 "
 512000
