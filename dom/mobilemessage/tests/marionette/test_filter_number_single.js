@@ -343,7 +343,7 @@ ok
 (
 request
 instanceof
-MozSmsRequest
+DOMRequest
 "
 request
 is
