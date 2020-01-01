@@ -94,6 +94,13 @@ mozIStorageError
 h
 "
 #
+include
+"
+mozStorageHelper
+.
+h
+"
+#
 define
 OBSERVER_TOPIC_IDLE_DAILY
 "
@@ -686,6 +693,7 @@ CreateStatement
 (
 NS_LITERAL_CSTRING
 (
+MOZ_STORAGE_UNIQUIFY_QUERY_STR
 "
 PRAGMA
 page_size
@@ -792,6 +800,7 @@ CreateStatement
 (
 NS_LITERAL_CSTRING
 (
+MOZ_STORAGE_UNIQUIFY_QUERY_STR
 "
 PRAGMA
 journal_mode
@@ -1113,6 +1122,7 @@ CreateAsyncStatement
 (
 nsPrintfCString
 (
+MOZ_STORAGE_UNIQUIFY_QUERY_STR
 "
 PRAGMA
 page_size

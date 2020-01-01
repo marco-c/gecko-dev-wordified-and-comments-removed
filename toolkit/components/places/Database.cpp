@@ -740,6 +740,7 @@ statement
 nsCAutoString
 query
 (
+MOZ_STORAGE_UNIQUIFY_QUERY_STR
 "
 PRAGMA
 journal_mode
@@ -2119,6 +2120,7 @@ CreateStatement
 (
 NS_LITERAL_CSTRING
 (
+MOZ_STORAGE_UNIQUIFY_QUERY_STR
 "
 PRAGMA
 page_size
@@ -2201,6 +2203,7 @@ ExecuteSimpleSQL
 (
 NS_LITERAL_CSTRING
 (
+MOZ_STORAGE_UNIQUIFY_QUERY_STR
 "
 PRAGMA
 temp_store
@@ -2330,6 +2333,7 @@ DATABASE_CACHE_MAX_BYTES
 nsCAutoString
 cacheSizePragma
 (
+MOZ_STORAGE_UNIQUIFY_QUERY_STR
 "
 PRAGMA
 cache_size
