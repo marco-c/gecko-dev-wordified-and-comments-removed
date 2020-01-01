@@ -3654,7 +3654,7 @@ p
 bs
 -
 >
-SendNPN_DestroyStream
+NPN_DestroyStream
 (
 aReason
 )
