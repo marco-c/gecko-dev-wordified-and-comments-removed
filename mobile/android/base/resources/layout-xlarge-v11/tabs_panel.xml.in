@@ -264,11 +264,10 @@ android
 id
 =
 "
-android
-:
++
 id
 /
-tabcontent
+tabs_container
 "
 android
 :
