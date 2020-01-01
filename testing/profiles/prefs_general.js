@@ -1367,3 +1367,15 @@ testing
 true
 )
 ;
+user_pref
+(
+"
+browser
+.
+pageThumbs
+.
+enabled
+"
+false
+)
+;
