@@ -82,10 +82,6 @@ mk
 MOCHITEST_BROWSER_FILES
 =
 \
-browser_styleinspector
-.
-js
-\
 browser_bug683672
 .
 js
