@@ -1333,8 +1333,10 @@ OutputMediaStream
 >
 mOutputStreams
 ;
+nsRefPtr
+<
 StreamListener
-*
+>
 mSrcStreamListener
 ;
 nsCOMPtr

@@ -11385,11 +11385,6 @@ StreamListener
 this
 )
 ;
-NS_ADDREF
-(
-mSrcStreamListener
-)
-;
 GetSrcMediaStream
 (
 )
@@ -11549,10 +11544,9 @@ Forget
 (
 )
 ;
-NS_RELEASE
-(
 mSrcStreamListener
-)
+=
+nullptr
 ;
 GetSrcMediaStream
 (
