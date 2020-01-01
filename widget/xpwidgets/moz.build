@@ -103,6 +103,11 @@ EXPORTS
 =
 [
 '
+APZCCallbackHelper
+.
+h
+'
+'
 GfxInfoCollector
 .
 h
@@ -112,6 +117,11 @@ CPP_SOURCES
 +
 =
 [
+'
+APZCCallbackHelper
+.
+cpp
+'
 '
 GfxDriverInfo
 .
