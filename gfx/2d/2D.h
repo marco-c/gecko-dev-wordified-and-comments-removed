@@ -1939,6 +1939,10 @@ CreateDrawTargetForCairoSurface
 cairo_surface_t
 *
 aSurface
+const
+IntSize
+&
+aSize
 )
 ;
 static

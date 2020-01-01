@@ -2056,6 +2056,10 @@ CreateDrawTargetForSurface
 gfxASurface
 *
 aSurface
+const
+IntSize
+&
+aSize
 )
 {
 RefPtr
@@ -2075,6 +2079,7 @@ aSurface
 CairoSurface
 (
 )
+aSize
 )
 ;
 aSurface
@@ -3133,6 +3138,7 @@ return
 CreateDrawTargetForSurface
 (
 surf
+aSize
 )
 ;
 }
