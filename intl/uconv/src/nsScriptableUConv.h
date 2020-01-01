@@ -55,6 +55,9 @@ nsIUnicodeDecoder
 >
 mDecoder
 ;
+PRPackedBool
+mIsInternal
+;
 nsresult
 FinishWithLength
 (
