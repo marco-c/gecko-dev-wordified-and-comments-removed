@@ -75,6 +75,9 @@ gr_breakBeforeClip
 enum
 gr_justFlags
 {
+gr_justCompleteLine
+=
+0
 gr_justStartInline
 =
 1
@@ -355,12 +358,13 @@ pSeg
 )
 ;
 GR2_API
-void
+float
 gr_seg_justify
 (
 gr_segment
 *
 pSeg
+const
 gr_slot
 *
 pStart
@@ -373,9 +377,11 @@ width
 enum
 gr_justFlags
 flags
+const
 gr_slot
 *
 pFirst
+const
 gr_slot
 *
 pLast

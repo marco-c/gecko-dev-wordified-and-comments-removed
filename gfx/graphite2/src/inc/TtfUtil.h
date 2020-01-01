@@ -1,6 +1,11 @@
 #
 pragma
 once
+#
+include
+<
+cstddef
+>
 namespace
 graphite2
 {
@@ -918,7 +923,7 @@ length
 )
 ;
 bool
-CheckCmap31Subtable
+CheckCmapSubtable4
 (
 const
 void
@@ -927,12 +932,13 @@ pCmap31
 )
 ;
 gid16
-Cmap31Lookup
+CmapSubtable4Lookup
 (
 const
 void
 *
-pCmap31
+pCmapSubtabel4
+unsigned
 int
 nUnicodeId
 int
@@ -943,7 +949,7 @@ rangeKey
 ;
 unsigned
 int
-Cmap31NextCodepoint
+CmapSubtable4NextCodepoint
 (
 const
 void
@@ -960,7 +966,7 @@ pRangeKey
 )
 ;
 bool
-CheckCmap310Subtable
+CheckCmapSubtable12
 (
 const
 void
@@ -969,7 +975,7 @@ pCmap310
 )
 ;
 gid16
-Cmap310Lookup
+CmapSubtable12Lookup
 (
 const
 void
@@ -986,7 +992,7 @@ rangeKey
 ;
 unsigned
 int
-Cmap310NextCodepoint
+CmapSubtable12NextCodepoint
 (
 const
 void

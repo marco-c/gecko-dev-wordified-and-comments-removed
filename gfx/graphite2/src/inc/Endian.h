@@ -1,3 +1,11 @@
+#
+include
+<
+cstddef
+>
+#
+pragma
+once
 class
 be
 {

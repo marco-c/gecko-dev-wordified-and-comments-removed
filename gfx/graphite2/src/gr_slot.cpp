@@ -351,7 +351,11 @@ res
 face
 -
 >
-advance
+glyphs
+(
+)
+.
+glyph
 (
 p
 -
@@ -360,6 +364,13 @@ gid
 (
 )
 )
+-
+>
+theAdvance
+(
+)
+.
+x
 )
 *
 scale
