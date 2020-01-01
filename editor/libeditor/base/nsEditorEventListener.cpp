@@ -4157,7 +4157,7 @@ root
 root
 -
 >
-IsInNativeAnonymousSubtree
+ChromeOnlyAccess
 (
 )
 )
@@ -4169,7 +4169,7 @@ parent
 root
 -
 >
-FindFirstNonNativeAnonymous
+FindFirstNonChromeOnlyAccessContent
 (
 )
 ;

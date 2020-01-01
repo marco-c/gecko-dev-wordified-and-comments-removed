@@ -1205,7 +1205,7 @@ content
 content
 -
 >
-IsInNativeAnonymousSubtree
+ChromeOnlyAccess
 (
 )
 &
@@ -1224,7 +1224,7 @@ relatedTarget
 content
 -
 >
-FindFirstNonNativeAnonymous
+FindFirstNonChromeOnlyAccessContent
 (
 )
 ;

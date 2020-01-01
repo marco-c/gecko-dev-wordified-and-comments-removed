@@ -17337,7 +17337,7 @@ aRelatedTarget
 aRelatedTarget
 -
 >
-FindFirstNonNativeAnonymous
+FindFirstNonChromeOnlyAccessContent
 (
 )
 :
@@ -17392,7 +17392,7 @@ if
 current
 -
 >
-IsInNativeAnonymousSubtree
+ChromeOnlyAccess
 (
 )
 )

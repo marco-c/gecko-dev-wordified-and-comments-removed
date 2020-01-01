@@ -230,6 +230,11 @@ inheritstyle
 "
 false
 "
+chromeOnlyContent
+=
+"
+true
+"
 >
 <
 resources

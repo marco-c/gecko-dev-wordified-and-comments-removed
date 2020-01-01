@@ -1021,6 +1021,15 @@ nsIContent
 aTemplChild
 )
 ;
+bool
+ChromeOnlyContent
+(
+)
+{
+return
+mChromeOnlyContent
+;
+}
 protected
 :
 void
@@ -1134,6 +1143,9 @@ mCheckedBaseProto
 ;
 bool
 mKeyHandlersRegistered
+;
+bool
+mChromeOnlyContent
 ;
 nsXBLPrototypeResources
 *

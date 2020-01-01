@@ -1093,7 +1093,7 @@ if
 parent
 -
 >
-IsInNativeAnonymousSubtree
+ChromeOnlyAccess
 (
 )
 &

@@ -30634,7 +30634,7 @@ return
 node
 -
 >
-IsInNativeAnonymousSubtree
+ChromeOnlyAccess
 (
 )
 ?
@@ -30664,7 +30664,7 @@ return
 node
 -
 >
-IsInNativeAnonymousSubtree
+ChromeOnlyAccess
 (
 )
 ?

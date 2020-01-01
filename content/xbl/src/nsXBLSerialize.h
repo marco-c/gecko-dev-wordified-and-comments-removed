@@ -57,6 +57,10 @@ XBLBinding_Serialize_InheritStyle
 2
 #
 define
+XBLBinding_Serialize_ChromeOnlyContent
+4
+#
+define
 XBLBinding_Serialize_NoMoreBindings
 0x80
 #
