@@ -369,6 +369,8 @@ script
 -
 >
 nClosedArgs
+(
+)
 ;
 for
 (
@@ -439,6 +441,8 @@ script
 -
 >
 nClosedVars
+(
+)
 ;
 for
 (
