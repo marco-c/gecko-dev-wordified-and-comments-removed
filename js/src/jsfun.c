@@ -12221,6 +12221,10 @@ MAX_ARRAY_LOCALS
 {
 array
 =
+(
+jsuword
+*
+)
 JS_realloc
 (
 cx
