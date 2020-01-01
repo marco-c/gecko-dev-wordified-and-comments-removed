@@ -2451,6 +2451,11 @@ noautofocus
 "
 true
 "
+noautohide
+=
+"
+true
+"
 level
 =
 "
