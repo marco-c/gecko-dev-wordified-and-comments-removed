@@ -66,9 +66,6 @@ nsIScreen
 >
 mCachedScreenArray
 ;
-int
-mNumScreens
-;
 }
 ;
 #
