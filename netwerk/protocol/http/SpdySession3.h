@@ -316,14 +316,14 @@ static
 uint32_t
 kDefaultQueueSize
 =
-16384
+32768
 ;
 const
 static
 uint32_t
 kQueueMinimumCleanup
 =
-8192
+24576
 ;
 const
 static
@@ -513,6 +513,8 @@ CommitToSegmentSize
 (
 uint32_t
 size
+bool
+forceCommitment
 )
 ;
 uint32_t
@@ -627,6 +629,11 @@ SetWriteCallbacks
 ;
 void
 FlushOutputQueue
+(
+)
+;
+void
+RealignOutputQueue
 (
 )
 ;

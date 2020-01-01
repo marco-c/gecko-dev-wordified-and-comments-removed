@@ -465,6 +465,8 @@ CommitToSegmentSize
 (
 uint32_t
 size
+bool
+forceCommitment
 )
 {
 return
