@@ -454,6 +454,12 @@ mozStorage
 .
 js
 \
+crypto
+-
+SDR
+.
+js
+\
 (
 NULL
 )
