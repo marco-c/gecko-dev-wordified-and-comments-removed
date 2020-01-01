@@ -2808,6 +2808,7 @@ CSS_PROP_BACKENDONLY
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -2845,6 +2846,7 @@ CSS_PROP
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_

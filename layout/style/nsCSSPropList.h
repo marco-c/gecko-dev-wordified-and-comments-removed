@@ -8,6 +8,7 @@ CSS_PROP_NOTIMPLEMENTED
 name_
 id_
 method_
+flags_
 )
 #
 define
@@ -24,6 +25,7 @@ CSS_PROP_SHORTHAND
 name_
 id_
 method_
+flags_
 )
 #
 define
@@ -43,6 +45,7 @@ CSS_PROP_FONT
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -53,6 +56,7 @@ CSS_PROP
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -65,6 +69,7 @@ CSS_PROP_COLOR
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -75,6 +80,7 @@ CSS_PROP
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -87,6 +93,7 @@ CSS_PROP_BACKGROUND
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -97,6 +104,7 @@ CSS_PROP
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -109,6 +117,7 @@ CSS_PROP_LIST
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -119,6 +128,7 @@ CSS_PROP
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -131,6 +141,7 @@ CSS_PROP_POSITION
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -141,6 +152,7 @@ CSS_PROP
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -153,6 +165,7 @@ CSS_PROP_TEXT
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -163,6 +176,7 @@ CSS_PROP
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -175,6 +189,7 @@ CSS_PROP_TEXTRESET
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -185,6 +200,7 @@ CSS_PROP
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -197,6 +213,7 @@ CSS_PROP_DISPLAY
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -207,6 +224,7 @@ CSS_PROP
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -219,6 +237,7 @@ CSS_PROP_VISIBILITY
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -229,6 +248,7 @@ CSS_PROP
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -241,6 +261,7 @@ CSS_PROP_CONTENT
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -251,6 +272,7 @@ CSS_PROP
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -263,6 +285,7 @@ CSS_PROP_QUOTES
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -273,6 +296,7 @@ CSS_PROP
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -285,6 +309,7 @@ CSS_PROP_USERINTERFACE
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -295,6 +320,7 @@ CSS_PROP
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -307,6 +333,7 @@ CSS_PROP_UIRESET
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -317,6 +344,7 @@ CSS_PROP
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -329,6 +357,7 @@ CSS_PROP_TABLE
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -339,6 +368,7 @@ CSS_PROP
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -351,6 +381,7 @@ CSS_PROP_TABLEBORDER
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -361,6 +392,7 @@ CSS_PROP
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -373,6 +405,7 @@ CSS_PROP_MARGIN
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -383,6 +416,7 @@ CSS_PROP
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -395,6 +429,7 @@ CSS_PROP_PADDING
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -405,6 +440,7 @@ CSS_PROP
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -417,6 +453,7 @@ CSS_PROP_BORDER
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -427,6 +464,7 @@ CSS_PROP
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -439,6 +477,7 @@ CSS_PROP_OUTLINE
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -449,6 +488,7 @@ CSS_PROP
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -461,6 +501,7 @@ CSS_PROP_XUL
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -471,6 +512,7 @@ CSS_PROP
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -483,6 +525,7 @@ CSS_PROP_COLUMN
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -493,6 +536,7 @@ CSS_PROP
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -505,6 +549,7 @@ CSS_PROP_SVG
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -515,6 +560,7 @@ CSS_PROP
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -527,6 +573,7 @@ CSS_PROP_SVGRESET
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -537,6 +584,7 @@ CSS_PROP
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -552,6 +600,7 @@ CSS_PROP_BACKENDONLY
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -562,6 +611,7 @@ CSS_PROP
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -584,6 +634,7 @@ CSS_PROP_FONT
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -604,6 +655,7 @@ CSS_PROP_COLOR
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -624,6 +676,7 @@ CSS_PROP_BACKGROUND
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -644,6 +697,7 @@ CSS_PROP_LIST
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -664,6 +718,7 @@ CSS_PROP_POSITION
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -684,6 +739,7 @@ CSS_PROP_TEXT
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -704,6 +760,7 @@ CSS_PROP_TEXTRESET
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -724,6 +781,7 @@ CSS_PROP_DISPLAY
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -744,6 +802,7 @@ CSS_PROP_VISIBILITY
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -764,6 +823,7 @@ CSS_PROP_CONTENT
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -784,6 +844,7 @@ CSS_PROP_QUOTES
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -804,6 +865,7 @@ CSS_PROP_USERINTERFACE
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -824,6 +886,7 @@ CSS_PROP_UIRESET
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -844,6 +907,7 @@ CSS_PROP_TABLE
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -864,6 +928,7 @@ CSS_PROP_TABLEBORDER
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -884,6 +949,7 @@ CSS_PROP_MARGIN
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -904,6 +970,7 @@ CSS_PROP_PADDING
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -924,6 +991,7 @@ CSS_PROP_BORDER
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -944,6 +1012,7 @@ CSS_PROP_OUTLINE
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -964,6 +1033,7 @@ CSS_PROP_XUL
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -984,6 +1054,7 @@ CSS_PROP_COLUMN
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -1004,6 +1075,7 @@ CSS_PROP_SVG
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -1024,6 +1096,7 @@ CSS_PROP_SVGRESET
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -1044,6 +1117,7 @@ CSS_PROP_BACKENDONLY
 name_
 id_
 method_
+flags_
 datastruct_
 member_
 type_
@@ -1064,6 +1138,7 @@ moz
 appearance
 appearance
 MozAppearance
+0
 Display
 mAppearance
 eCSSType_Value
@@ -1079,6 +1154,7 @@ border
 radius
 _moz_border_radius
 MozBorderRadius
+0
 )
 CSS_PROP_BORDER
 (
@@ -1092,6 +1168,7 @@ radius
 topleft
 _moz_border_radius_topLeft
 MozBorderRadiusTopleft
+0
 Margin
 mBorderRadius
 .
@@ -1111,6 +1188,7 @@ radius
 topright
 _moz_border_radius_topRight
 MozBorderRadiusTopright
+0
 Margin
 mBorderRadius
 .
@@ -1130,6 +1208,7 @@ radius
 bottomright
 _moz_border_radius_bottomRight
 MozBorderRadiusBottomright
+0
 Margin
 mBorderRadius
 .
@@ -1149,6 +1228,7 @@ radius
 bottomleft
 _moz_border_radius_bottomLeft
 MozBorderRadiusBottomleft
+0
 Margin
 mBorderRadius
 .
@@ -1166,6 +1246,7 @@ outline
 radius
 _moz_outline_radius
 MozOutlineRadius
+0
 )
 CSS_PROP_OUTLINE
 (
@@ -1179,6 +1260,7 @@ radius
 topleft
 _moz_outline_radius_topLeft
 MozOutlineRadiusTopleft
+0
 Margin
 mOutlineRadius
 .
@@ -1198,6 +1280,7 @@ radius
 topright
 _moz_outline_radius_topRight
 MozOutlineRadiusTopright
+0
 Margin
 mOutlineRadius
 .
@@ -1217,6 +1300,7 @@ radius
 bottomright
 _moz_outline_radius_bottomRight
 MozOutlineRadiusBottomright
+0
 Margin
 mOutlineRadius
 .
@@ -1236,6 +1320,7 @@ radius
 bottomleft
 _moz_outline_radius_bottomLeft
 MozOutlineRadiusBottomleft
+0
 Margin
 mOutlineRadius
 .
@@ -1256,6 +1341,7 @@ system
 font
 _x_system_font
 X
+0
 Font
 mSystemFont
 eCSSType_Value
@@ -1268,6 +1354,7 @@ CSS_PROP_BACKENDONLY
 azimuth
 azimuth
 Azimuth
+0
 Aural
 mAzimuth
 eCSSType_Value
@@ -1278,6 +1365,7 @@ CSS_PROP_SHORTHAND
 background
 background
 Background
+0
 )
 CSS_PROP_BACKGROUND
 (
@@ -1286,6 +1374,7 @@ background
 attachment
 background_attachment
 BackgroundAttachment
+0
 Color
 mBackAttachment
 eCSSType_Value
@@ -1301,6 +1390,7 @@ background
 clip
 _moz_background_clip
 MozBackgroundClip
+0
 Color
 mBackClip
 eCSSType_Value
@@ -1313,6 +1403,7 @@ background
 color
 background_color
 BackgroundColor
+0
 Color
 mBackColor
 eCSSType_Value
@@ -1325,6 +1416,7 @@ background
 image
 background_image
 BackgroundImage
+0
 Color
 mBackImage
 eCSSType_Value
@@ -1342,6 +1434,7 @@ inline
 policy
 _moz_background_inline_policy
 MozBackgroundInlinePolicy
+0
 Color
 mBackInlinePolicy
 eCSSType_Value
@@ -1357,6 +1450,7 @@ background
 origin
 _moz_background_origin
 MozBackgroundOrigin
+0
 Color
 mBackOrigin
 eCSSType_Value
@@ -1369,6 +1463,7 @@ background
 position
 background_position
 BackgroundPosition
+0
 Color
 mBackPosition
 eCSSType_ValuePair
@@ -1381,6 +1476,7 @@ background
 repeat
 background_repeat
 BackgroundRepeat
+0
 Color
 mBackRepeat
 eCSSType_Value
@@ -1394,6 +1490,7 @@ moz
 binding
 binding
 MozBinding
+0
 Display
 mBinding
 eCSSType_Value
@@ -1404,6 +1501,7 @@ CSS_PROP_SHORTHAND
 border
 border
 Border
+0
 )
 CSS_PROP_SHORTHAND
 (
@@ -1412,6 +1510,7 @@ border
 bottom
 border_bottom
 BorderBottom
+0
 )
 CSS_PROP_BORDER
 (
@@ -1422,6 +1521,7 @@ bottom
 color
 border_bottom_color
 BorderBottomColor
+0
 Margin
 mBorderColor
 .
@@ -1441,6 +1541,7 @@ bottom
 colors
 border_bottom_colors
 MozBorderBottomColors
+0
 Margin
 mBorderColors
 .
@@ -1457,6 +1558,7 @@ bottom
 style
 border_bottom_style
 BorderBottomStyle
+0
 Margin
 mBorderStyle
 .
@@ -1473,6 +1575,7 @@ bottom
 width
 border_bottom_width
 BorderBottomWidth
+0
 Margin
 mBorderWidth
 .
@@ -1487,6 +1590,7 @@ border
 collapse
 border_collapse
 BorderCollapse
+0
 Table
 mBorderCollapse
 eCSSType_Value
@@ -1499,6 +1603,7 @@ border
 color
 border_color
 BorderColor
+0
 )
 CSS_PROP_SHORTHAND
 (
@@ -1510,6 +1615,7 @@ border
 end
 border_end
 MozBorderEnd
+0
 )
 CSS_PROP_SHORTHAND
 (
@@ -1523,6 +1629,7 @@ end
 color
 border_end_color
 MozBorderEndColor
+0
 )
 #
 ifndef
@@ -1538,6 +1645,7 @@ color
 value
 border_end_color_value
 X
+0
 Margin
 mBorderEndColor
 eCSSType_Value
@@ -1557,6 +1665,7 @@ end
 style
 border_end_style
 MozBorderEndStyle
+0
 )
 #
 ifndef
@@ -1572,6 +1681,7 @@ style
 value
 border_end_style_value
 X
+0
 Margin
 mBorderEndStyle
 eCSSType_Value
@@ -1591,6 +1701,7 @@ end
 width
 border_end_width
 MozBorderEndWidth
+0
 )
 #
 ifndef
@@ -1606,6 +1717,7 @@ width
 value
 border_end_width_value
 X
+0
 Margin
 mBorderEndWidth
 eCSSType_Value
@@ -1623,6 +1735,7 @@ border
 image
 border_image
 MozBorderImage
+0
 Margin
 mBorderImage
 eCSSType_Value
@@ -1635,6 +1748,7 @@ border
 left
 border_left
 BorderLeft
+0
 )
 CSS_PROP_SHORTHAND
 (
@@ -1645,6 +1759,7 @@ left
 color
 border_left_color
 BorderLeftColor
+0
 )
 #
 ifndef
@@ -1660,6 +1775,7 @@ color
 value
 border_left_color_value
 X
+0
 Margin
 mBorderColor
 .
@@ -1680,6 +1796,7 @@ ltr
 source
 border_left_color_ltr_source
 X
+0
 Margin
 mBorderLeftColorLTRSource
 eCSSType_Value
@@ -1698,6 +1815,7 @@ rtl
 source
 border_left_color_rtl_source
 X
+0
 Margin
 mBorderLeftColorRTLSource
 eCSSType_Value
@@ -1717,6 +1835,7 @@ left
 colors
 border_left_colors
 MozBorderLeftColors
+0
 Margin
 mBorderColors
 .
@@ -1733,6 +1852,7 @@ left
 style
 border_left_style
 BorderLeftStyle
+0
 )
 #
 ifndef
@@ -1748,6 +1868,7 @@ style
 value
 border_left_style_value
 X
+0
 Margin
 mBorderStyle
 .
@@ -1768,6 +1889,7 @@ ltr
 source
 border_left_style_ltr_source
 X
+0
 Margin
 mBorderLeftStyleLTRSource
 eCSSType_Value
@@ -1786,6 +1908,7 @@ rtl
 source
 border_left_style_rtl_source
 X
+0
 Margin
 mBorderLeftStyleRTLSource
 eCSSType_Value
@@ -1802,6 +1925,7 @@ left
 width
 border_left_width
 BorderLeftWidth
+0
 )
 #
 ifndef
@@ -1817,6 +1941,7 @@ width
 value
 border_left_width_value
 X
+0
 Margin
 mBorderWidth
 .
@@ -1837,6 +1962,7 @@ ltr
 source
 border_left_width_ltr_source
 X
+0
 Margin
 mBorderLeftWidthLTRSource
 eCSSType_Value
@@ -1855,6 +1981,7 @@ rtl
 source
 border_left_width_rtl_source
 X
+0
 Margin
 mBorderLeftWidthRTLSource
 eCSSType_Value
@@ -1869,6 +1996,7 @@ border
 right
 border_right
 BorderRight
+0
 )
 CSS_PROP_SHORTHAND
 (
@@ -1879,6 +2007,7 @@ right
 color
 border_right_color
 BorderRightColor
+0
 )
 #
 ifndef
@@ -1894,6 +2023,7 @@ color
 value
 border_right_color_value
 X
+0
 Margin
 mBorderColor
 .
@@ -1914,6 +2044,7 @@ ltr
 source
 border_right_color_ltr_source
 X
+0
 Margin
 mBorderRightColorLTRSource
 eCSSType_Value
@@ -1932,6 +2063,7 @@ rtl
 source
 border_right_color_rtl_source
 X
+0
 Margin
 mBorderRightColorRTLSource
 eCSSType_Value
@@ -1951,6 +2083,7 @@ right
 colors
 border_right_colors
 MozBorderRightColors
+0
 Margin
 mBorderColors
 .
@@ -1967,6 +2100,7 @@ right
 style
 border_right_style
 BorderRightStyle
+0
 )
 #
 ifndef
@@ -1982,6 +2116,7 @@ style
 value
 border_right_style_value
 X
+0
 Margin
 mBorderStyle
 .
@@ -2002,6 +2137,7 @@ ltr
 source
 border_right_style_ltr_source
 X
+0
 Margin
 mBorderRightStyleLTRSource
 eCSSType_Value
@@ -2020,6 +2156,7 @@ rtl
 source
 border_right_style_rtl_source
 X
+0
 Margin
 mBorderRightStyleRTLSource
 eCSSType_Value
@@ -2036,6 +2173,7 @@ right
 width
 border_right_width
 BorderRightWidth
+0
 )
 #
 ifndef
@@ -2051,6 +2189,7 @@ width
 value
 border_right_width_value
 X
+0
 Margin
 mBorderWidth
 .
@@ -2071,6 +2210,7 @@ ltr
 source
 border_right_width_ltr_source
 X
+0
 Margin
 mBorderRightWidthLTRSource
 eCSSType_Value
@@ -2089,6 +2229,7 @@ rtl
 source
 border_right_width_rtl_source
 X
+0
 Margin
 mBorderRightWidthRTLSource
 eCSSType_Value
@@ -2103,6 +2244,7 @@ border
 spacing
 border_spacing
 BorderSpacing
+0
 Table
 mBorderSpacing
 eCSSType_ValuePair
@@ -2118,6 +2260,7 @@ border
 start
 border_start
 MozBorderStart
+0
 )
 CSS_PROP_SHORTHAND
 (
@@ -2131,6 +2274,7 @@ start
 color
 border_start_color
 MozBorderStartColor
+0
 )
 #
 ifndef
@@ -2146,6 +2290,7 @@ color
 value
 border_start_color_value
 X
+0
 Margin
 mBorderStartColor
 eCSSType_Value
@@ -2165,6 +2310,7 @@ start
 style
 border_start_style
 MozBorderStartStyle
+0
 )
 #
 ifndef
@@ -2180,6 +2326,7 @@ style
 value
 border_start_style_value
 X
+0
 Margin
 mBorderStartStyle
 eCSSType_Value
@@ -2199,6 +2346,7 @@ start
 width
 border_start_width
 MozBorderStartWidth
+0
 )
 #
 ifndef
@@ -2214,6 +2362,7 @@ width
 value
 border_start_width_value
 X
+0
 Margin
 mBorderStartWidth
 eCSSType_Value
@@ -2228,6 +2377,7 @@ border
 style
 border_style
 BorderStyle
+0
 )
 CSS_PROP_SHORTHAND
 (
@@ -2236,6 +2386,7 @@ border
 top
 border_top
 BorderTop
+0
 )
 CSS_PROP_BORDER
 (
@@ -2246,6 +2397,7 @@ top
 color
 border_top_color
 BorderTopColor
+0
 Margin
 mBorderColor
 .
@@ -2265,6 +2417,7 @@ top
 colors
 border_top_colors
 MozBorderTopColors
+0
 Margin
 mBorderColors
 .
@@ -2281,6 +2434,7 @@ top
 style
 border_top_style
 BorderTopStyle
+0
 Margin
 mBorderStyle
 .
@@ -2297,6 +2451,7 @@ top
 width
 border_top_width
 BorderTopWidth
+0
 Margin
 mBorderWidth
 .
@@ -2311,12 +2466,14 @@ border
 width
 border_width
 BorderWidth
+0
 )
 CSS_PROP_POSITION
 (
 bottom
 bottom
 Bottom
+0
 Position
 mOffset
 .
@@ -2334,6 +2491,7 @@ box
 shadow
 box_shadow
 MozBoxShadow
+0
 Margin
 mBoxShadow
 eCSSType_ValueList
@@ -2349,6 +2507,7 @@ box
 sizing
 box_sizing
 MozBoxSizing
+0
 Position
 mBoxSizing
 eCSSType_Value
@@ -2361,6 +2520,7 @@ caption
 side
 caption_side
 CaptionSide
+0
 Table
 mCaptionSide
 eCSSType_Value
@@ -2371,6 +2531,7 @@ CSS_PROP_DISPLAY
 clear
 clear
 Clear
+0
 Display
 mClear
 eCSSType_Value
@@ -2381,6 +2542,7 @@ CSS_PROP_DISPLAY
 clip
 clip
 Clip
+0
 Display
 mClip
 eCSSType_Rect
@@ -2391,6 +2553,7 @@ CSS_PROP_COLOR
 color
 color
 Color
+0
 Color
 mColor
 eCSSType_Value
@@ -2406,6 +2569,7 @@ column
 count
 _moz_column_count
 MozColumnCount
+0
 Column
 mColumnCount
 eCSSType_Value
@@ -2421,6 +2585,7 @@ column
 width
 _moz_column_width
 MozColumnWidth
+0
 Column
 mColumnWidth
 eCSSType_Value
@@ -2436,6 +2601,7 @@ column
 gap
 _moz_column_gap
 MozColumnGap
+0
 Column
 mColumnGap
 eCSSType_Value
@@ -2451,6 +2617,7 @@ column
 rule
 _moz_column_rule
 MozColumnRule
+0
 )
 CSS_PROP_COLUMN
 (
@@ -2464,6 +2631,7 @@ rule
 color
 _moz_column_rule_color
 MozColumnRuleColor
+0
 Column
 mColumnRuleColor
 eCSSType_Value
@@ -2481,6 +2649,7 @@ rule
 style
 _moz_column_rule_style
 MozColumnRuleStyle
+0
 Column
 mColumnRuleStyle
 eCSSType_Value
@@ -2498,6 +2667,7 @@ rule
 width
 _moz_column_rule_width
 MozColumnRuleWidth
+0
 Column
 mColumnRuleWidth
 eCSSType_Value
@@ -2508,6 +2678,7 @@ CSS_PROP_CONTENT
 content
 content
 Content
+0
 Content
 mContent
 eCSSType_ValueList
@@ -2520,6 +2691,7 @@ counter
 increment
 counter_increment
 CounterIncrement
+0
 Content
 mCounterIncrement
 eCSSType_ValuePairList
@@ -2532,6 +2704,7 @@ counter
 reset
 counter_reset
 CounterReset
+0
 Content
 mCounterReset
 eCSSType_ValuePairList
@@ -2542,6 +2715,7 @@ CSS_PROP_SHORTHAND
 cue
 cue
 Cue
+0
 )
 CSS_PROP_BACKENDONLY
 (
@@ -2550,6 +2724,7 @@ cue
 after
 cue_after
 CueAfter
+0
 Aural
 mCueAfter
 eCSSType_Value
@@ -2562,6 +2737,7 @@ cue
 before
 cue_before
 CueBefore
+0
 Aural
 mCueBefore
 eCSSType_Value
@@ -2572,6 +2748,7 @@ CSS_PROP_USERINTERFACE
 cursor
 cursor
 Cursor
+0
 UserInterface
 mCursor
 eCSSType_ValueList
@@ -2582,6 +2759,7 @@ CSS_PROP_VISIBILITY
 direction
 direction
 Direction
+0
 Display
 mDirection
 eCSSType_Value
@@ -2592,6 +2770,7 @@ CSS_PROP_DISPLAY
 display
 display
 Display
+0
 Display
 mDisplay
 eCSSType_Value
@@ -2602,6 +2781,7 @@ CSS_PROP_BACKENDONLY
 elevation
 elevation
 Elevation
+0
 Aural
 mElevation
 eCSSType_Value
@@ -2614,6 +2794,7 @@ empty
 cells
 empty_cells
 EmptyCells
+0
 Table
 mEmptyCells
 eCSSType_Value
@@ -2624,6 +2805,7 @@ CSS_PROP_DISPLAY
 float
 float
 CssFloat
+0
 Display
 mFloat
 eCSSType_Value
@@ -2639,6 +2821,7 @@ float
 edge
 float_edge
 MozFloatEdge
+0
 Margin
 mFloatEdge
 eCSSType_Value
@@ -2649,6 +2832,7 @@ CSS_PROP_SHORTHAND
 font
 font
 Font
+0
 )
 CSS_PROP_FONT
 (
@@ -2657,6 +2841,7 @@ font
 family
 font_family
 FontFamily
+0
 Font
 mFamily
 eCSSType_Value
@@ -2669,6 +2854,7 @@ font
 size
 font_size
 FontSize
+0
 Font
 mSize
 eCSSType_Value
@@ -2683,6 +2869,7 @@ size
 adjust
 font_size_adjust
 FontSizeAdjust
+0
 Font
 mSizeAdjust
 eCSSType_Value
@@ -2695,6 +2882,7 @@ font
 stretch
 font_stretch
 FontStretch
+0
 Font
 mStretch
 eCSSType_Value
@@ -2707,6 +2895,7 @@ font
 style
 font_style
 FontStyle
+0
 Font
 mStyle
 eCSSType_Value
@@ -2719,6 +2908,7 @@ font
 variant
 font_variant
 FontVariant
+0
 Font
 mVariant
 eCSSType_Value
@@ -2731,6 +2921,7 @@ font
 weight
 font_weight
 FontWeight
+0
 Font
 mWeight
 eCSSType_Value
@@ -2750,6 +2941,7 @@ image
 icon
 force_broken_image_icon
 MozForceBrokenImageIcon
+0
 UserInterface
 mForceBrokenImageIcon
 eCSSType_Value
@@ -2760,6 +2952,7 @@ CSS_PROP_POSITION
 height
 height
 Height
+0
 Position
 mHeight
 eCSSType_Value
@@ -2775,6 +2968,7 @@ image
 region
 image_region
 MozImageRegion
+0
 List
 mImageRegion
 eCSSType_Rect
@@ -2787,6 +2981,7 @@ ime
 mode
 ime_mode
 ImeMode
+0
 UserInterface
 mIMEMode
 eCSSType_Value
@@ -2797,6 +2992,7 @@ CSS_PROP_POSITION
 left
 left
 Left
+0
 Position
 mOffset
 .
@@ -2811,6 +3007,7 @@ letter
 spacing
 letter_spacing
 LetterSpacing
+0
 Text
 mLetterSpacing
 eCSSType_Value
@@ -2823,6 +3020,7 @@ line
 height
 line_height
 LineHeight
+0
 Text
 mLineHeight
 eCSSType_Value
@@ -2835,6 +3033,7 @@ list
 style
 list_style
 ListStyle
+0
 )
 CSS_PROP_LIST
 (
@@ -2845,6 +3044,7 @@ style
 image
 list_style_image
 ListStyleImage
+0
 List
 mImage
 eCSSType_Value
@@ -2859,6 +3059,7 @@ style
 position
 list_style_position
 ListStylePosition
+0
 List
 mPosition
 eCSSType_Value
@@ -2873,6 +3074,7 @@ style
 type
 list_style_type
 ListStyleType
+0
 List
 mType
 eCSSType_Value
@@ -2883,6 +3085,7 @@ CSS_PROP_SHORTHAND
 margin
 margin
 Margin
+0
 )
 CSS_PROP_MARGIN
 (
@@ -2891,6 +3094,7 @@ margin
 bottom
 margin_bottom
 MarginBottom
+0
 Margin
 mMargin
 .
@@ -2908,6 +3112,7 @@ margin
 end
 margin_end
 MozMarginEnd
+0
 )
 #
 ifndef
@@ -2921,6 +3126,7 @@ end
 value
 margin_end_value
 X
+0
 Margin
 mMarginEnd
 eCSSType_Value
@@ -2935,6 +3141,7 @@ margin
 left
 margin_left
 MarginLeft
+0
 )
 #
 ifndef
@@ -2948,6 +3155,7 @@ left
 value
 margin_left_value
 X
+0
 Margin
 mMargin
 .
@@ -2966,6 +3174,7 @@ ltr
 source
 margin_left_ltr_source
 X
+0
 Margin
 mMarginLeftLTRSource
 eCSSType_Value
@@ -2982,6 +3191,7 @@ rtl
 source
 margin_left_rtl_source
 X
+0
 Margin
 mMarginLeftRTLSource
 eCSSType_Value
@@ -2996,6 +3206,7 @@ margin
 right
 margin_right
 MarginRight
+0
 )
 #
 ifndef
@@ -3009,6 +3220,7 @@ right
 value
 margin_right_value
 X
+0
 Margin
 mMargin
 .
@@ -3027,6 +3239,7 @@ ltr
 source
 margin_right_ltr_source
 X
+0
 Margin
 mMarginRightLTRSource
 eCSSType_Value
@@ -3043,6 +3256,7 @@ rtl
 source
 margin_right_rtl_source
 X
+0
 Margin
 mMarginRightRTLSource
 eCSSType_Value
@@ -3060,6 +3274,7 @@ margin
 start
 margin_start
 MozMarginStart
+0
 )
 #
 ifndef
@@ -3073,6 +3288,7 @@ start
 value
 margin_start_value
 X
+0
 Margin
 mMarginStart
 eCSSType_Value
@@ -3087,6 +3303,7 @@ margin
 top
 margin_top
 MarginTop
+0
 Margin
 mMargin
 .
@@ -3101,6 +3318,7 @@ marker
 offset
 marker_offset
 MarkerOffset
+0
 Content
 mMarkerOffset
 eCSSType_Value
@@ -3111,6 +3329,7 @@ CSS_PROP_BACKENDONLY
 marks
 marks
 Marks
+0
 Page
 mMarks
 eCSSType_Value
@@ -3123,6 +3342,7 @@ max
 height
 max_height
 MaxHeight
+0
 Position
 mMaxHeight
 eCSSType_Value
@@ -3135,6 +3355,7 @@ max
 width
 max_width
 MaxWidth
+0
 Position
 mMaxWidth
 eCSSType_Value
@@ -3147,6 +3368,7 @@ min
 height
 min_height
 MinHeight
+0
 Position
 mMinHeight
 eCSSType_Value
@@ -3159,6 +3381,7 @@ min
 width
 min_width
 MinWidth
+0
 Position
 mMinWidth
 eCSSType_Value
@@ -3169,6 +3392,7 @@ CSS_PROP_DISPLAY
 opacity
 opacity
 Opacity
+0
 Display
 mOpacity
 eCSSType_Value
@@ -3179,6 +3403,7 @@ CSS_PROP_BACKENDONLY
 orphans
 orphans
 Orphans
+0
 Breaks
 mOrphans
 eCSSType_Value
@@ -3189,6 +3414,7 @@ CSS_PROP_SHORTHAND
 outline
 outline
 Outline
+0
 )
 CSS_PROP_OUTLINE
 (
@@ -3197,6 +3423,7 @@ outline
 color
 outline_color
 OutlineColor
+0
 Margin
 mOutlineColor
 eCSSType_Value
@@ -3209,6 +3436,7 @@ outline
 style
 outline_style
 OutlineStyle
+0
 Margin
 mOutlineStyle
 eCSSType_Value
@@ -3221,6 +3449,7 @@ outline
 width
 outline_width
 OutlineWidth
+0
 Margin
 mOutlineWidth
 eCSSType_Value
@@ -3233,6 +3462,7 @@ outline
 offset
 outline_offset
 OutlineOffset
+0
 Margin
 mOutlineOffset
 eCSSType_Value
@@ -3243,6 +3473,7 @@ CSS_PROP_SHORTHAND
 overflow
 overflow
 Overflow
+0
 )
 CSS_PROP_DISPLAY
 (
@@ -3251,6 +3482,7 @@ overflow
 x
 overflow_x
 OverflowX
+0
 Display
 mOverflowX
 eCSSType_Value
@@ -3263,6 +3495,7 @@ overflow
 y
 overflow_y
 OverflowY
+0
 Display
 mOverflowY
 eCSSType_Value
@@ -3273,6 +3506,7 @@ CSS_PROP_SHORTHAND
 padding
 padding
 Padding
+0
 )
 CSS_PROP_PADDING
 (
@@ -3281,6 +3515,7 @@ padding
 bottom
 padding_bottom
 PaddingBottom
+0
 Margin
 mPadding
 .
@@ -3298,6 +3533,7 @@ padding
 end
 padding_end
 MozPaddingEnd
+0
 )
 #
 ifndef
@@ -3311,6 +3547,7 @@ end
 value
 padding_end_value
 X
+0
 Margin
 mPaddingEnd
 eCSSType_Value
@@ -3325,6 +3562,7 @@ padding
 left
 padding_left
 PaddingLeft
+0
 )
 #
 ifndef
@@ -3338,6 +3576,7 @@ left
 value
 padding_left_value
 X
+0
 Margin
 mPadding
 .
@@ -3356,6 +3595,7 @@ ltr
 source
 padding_left_ltr_source
 X
+0
 Margin
 mPaddingLeftLTRSource
 eCSSType_Value
@@ -3372,6 +3612,7 @@ rtl
 source
 padding_left_rtl_source
 X
+0
 Margin
 mPaddingLeftRTLSource
 eCSSType_Value
@@ -3386,6 +3627,7 @@ padding
 right
 padding_right
 PaddingRight
+0
 )
 #
 ifndef
@@ -3399,6 +3641,7 @@ right
 value
 padding_right_value
 X
+0
 Margin
 mPadding
 .
@@ -3417,6 +3660,7 @@ ltr
 source
 padding_right_ltr_source
 X
+0
 Margin
 mPaddingRightLTRSource
 eCSSType_Value
@@ -3433,6 +3677,7 @@ rtl
 source
 padding_right_rtl_source
 X
+0
 Margin
 mPaddingRightRTLSource
 eCSSType_Value
@@ -3450,6 +3695,7 @@ padding
 start
 padding_start
 MozPaddingStart
+0
 )
 #
 ifndef
@@ -3463,6 +3709,7 @@ start
 value
 padding_start_value
 X
+0
 Margin
 mPaddingStart
 eCSSType_Value
@@ -3477,6 +3724,7 @@ padding
 top
 padding_top
 PaddingTop
+0
 Margin
 mPadding
 .
@@ -3489,6 +3737,7 @@ CSS_PROP_BACKENDONLY
 page
 page
 Page
+0
 Breaks
 mPage
 eCSSType_Value
@@ -3503,6 +3752,7 @@ break
 after
 page_break_after
 PageBreakAfter
+0
 Display
 mBreakAfter
 eCSSType_Value
@@ -3517,6 +3767,7 @@ break
 before
 page_break_before
 PageBreakBefore
+0
 Display
 mBreakBefore
 eCSSType_Value
@@ -3531,6 +3782,7 @@ break
 inside
 page_break_inside
 PageBreakInside
+0
 Breaks
 mPageBreakInside
 eCSSType_Value
@@ -3541,6 +3793,7 @@ CSS_PROP_SHORTHAND
 pause
 pause
 Pause
+0
 )
 CSS_PROP_BACKENDONLY
 (
@@ -3549,6 +3802,7 @@ pause
 after
 pause_after
 PauseAfter
+0
 Aural
 mPauseAfter
 eCSSType_Value
@@ -3561,6 +3815,7 @@ pause
 before
 pause_before
 PauseBefore
+0
 Aural
 mPauseBefore
 eCSSType_Value
@@ -3571,6 +3826,7 @@ CSS_PROP_BACKENDONLY
 pitch
 pitch
 Pitch
+0
 Aural
 mPitch
 eCSSType_Value
@@ -3583,6 +3839,7 @@ pitch
 range
 pitch_range
 PitchRange
+0
 Aural
 mPitchRange
 eCSSType_Value
@@ -3593,6 +3850,7 @@ CSS_PROP_DISPLAY
 position
 position
 Position
+0
 Display
 mPosition
 eCSSType_Value
@@ -3603,6 +3861,7 @@ CSS_PROP_QUOTES
 quotes
 quotes
 Quotes
+0
 Content
 mQuotes
 eCSSType_ValuePairList
@@ -3613,6 +3872,7 @@ CSS_PROP_BACKENDONLY
 richness
 richness
 Richness
+0
 Aural
 mRichness
 eCSSType_Value
@@ -3623,6 +3883,7 @@ CSS_PROP_POSITION
 right
 right
 Right
+0
 Position
 mOffset
 .
@@ -3635,6 +3896,7 @@ CSS_PROP_BACKENDONLY
 size
 size
 Size
+0
 Page
 mSize
 eCSSType_ValuePair
@@ -3645,6 +3907,7 @@ CSS_PROP_BACKENDONLY
 speak
 speak
 Speak
+0
 Aural
 mSpeak
 eCSSType_Value
@@ -3657,6 +3920,7 @@ speak
 header
 speak_header
 SpeakHeader
+0
 Aural
 mSpeakHeader
 eCSSType_Value
@@ -3669,6 +3933,7 @@ speak
 numeral
 speak_numeral
 SpeakNumeral
+0
 Aural
 mSpeakNumeral
 eCSSType_Value
@@ -3681,6 +3946,7 @@ speak
 punctuation
 speak_punctuation
 SpeakPunctuation
+0
 Aural
 mSpeakPunctuation
 eCSSType_Value
@@ -3693,6 +3959,7 @@ speech
 rate
 speech_rate
 SpeechRate
+0
 Aural
 mSpeechRate
 eCSSType_Value
@@ -3703,6 +3970,7 @@ CSS_PROP_BACKENDONLY
 stress
 stress
 Stress
+0
 Aural
 mStress
 eCSSType_Value
@@ -3715,6 +3983,7 @@ table
 layout
 table_layout
 TableLayout
+0
 Table
 mLayout
 eCSSType_Value
@@ -3727,6 +3996,7 @@ text
 align
 text_align
 TextAlign
+0
 Text
 mTextAlign
 eCSSType_Value
@@ -3739,6 +4009,7 @@ text
 decoration
 text_decoration
 TextDecoration
+0
 Text
 mDecoration
 eCSSType_Value
@@ -3751,6 +4022,7 @@ text
 indent
 text_indent
 TextIndent
+0
 Text
 mTextIndent
 eCSSType_Value
@@ -3763,6 +4035,7 @@ text
 shadow
 text_shadow
 TextShadow
+0
 Text
 mTextShadow
 eCSSType_ValueList
@@ -3775,6 +4048,7 @@ text
 transform
 text_transform
 TextTransform
+0
 Text
 mTextTransform
 eCSSType_Value
@@ -3788,6 +4062,7 @@ moz
 transform
 _moz_transform
 MozTransform
+0
 Display
 mTransform
 eCSSType_ValueList
@@ -3803,6 +4078,7 @@ transform
 origin
 _moz_transform_origin
 MozTransformOrigin
+0
 Display
 mTransformOrigin
 eCSSType_ValuePair
@@ -3813,6 +4089,7 @@ CSS_PROP_POSITION
 top
 top
 Top
+0
 Position
 mOffset
 .
@@ -3827,6 +4104,7 @@ unicode
 bidi
 unicode_bidi
 UnicodeBidi
+0
 Text
 mUnicodeBidi
 eCSSType_Value
@@ -3842,6 +4120,7 @@ user
 focus
 user_focus
 MozUserFocus
+0
 UserInterface
 mUserFocus
 eCSSType_Value
@@ -3857,6 +4136,7 @@ user
 input
 user_input
 MozUserInput
+0
 UserInterface
 mUserInput
 eCSSType_Value
@@ -3872,6 +4152,7 @@ user
 modify
 user_modify
 MozUserModify
+0
 UserInterface
 mUserModify
 eCSSType_Value
@@ -3887,6 +4168,7 @@ user
 select
 user_select
 MozUserSelect
+0
 UserInterface
 mUserSelect
 eCSSType_Value
@@ -3899,6 +4181,7 @@ vertical
 align
 vertical_align
 VerticalAlign
+0
 Text
 mVerticalAlign
 eCSSType_Value
@@ -3909,6 +4192,7 @@ CSS_PROP_VISIBILITY
 visibility
 visibility
 Visibility
+0
 Display
 mVisibility
 eCSSType_Value
@@ -3921,6 +4205,7 @@ voice
 family
 voice_family
 VoiceFamily
+0
 Aural
 mVoiceFamily
 eCSSType_Value
@@ -3931,6 +4216,7 @@ CSS_PROP_BACKENDONLY
 volume
 volume
 Volume
+0
 Aural
 mVolume
 eCSSType_Value
@@ -3943,6 +4229,7 @@ white
 space
 white_space
 WhiteSpace
+0
 Text
 mWhiteSpace
 eCSSType_Value
@@ -3953,6 +4240,7 @@ CSS_PROP_BACKENDONLY
 widows
 widows
 Widows
+0
 Breaks
 mWidows
 eCSSType_Value
@@ -3963,6 +4251,7 @@ CSS_PROP_POSITION
 width
 width
 Width
+0
 Position
 mWidth
 eCSSType_Value
@@ -3975,6 +4264,7 @@ word
 spacing
 word_spacing
 WordSpacing
+0
 Text
 mWordSpacing
 eCSSType_Value
@@ -3987,6 +4277,7 @@ word
 wrap
 word_wrap
 WordWrap
+0
 Text
 mWordWrap
 eCSSType_Value
@@ -3999,6 +4290,7 @@ z
 index
 z_index
 ZIndex
+0
 Position
 mZIndex
 eCSSType_Value
@@ -4014,6 +4306,7 @@ box
 align
 box_align
 MozBoxAlign
+0
 XUL
 mBoxAlign
 eCSSType_Value
@@ -4029,6 +4322,7 @@ box
 direction
 box_direction
 MozBoxDirection
+0
 XUL
 mBoxDirection
 eCSSType_Value
@@ -4044,6 +4338,7 @@ box
 flex
 box_flex
 MozBoxFlex
+0
 XUL
 mBoxFlex
 eCSSType_Value
@@ -4059,6 +4354,7 @@ box
 orient
 box_orient
 MozBoxOrient
+0
 XUL
 mBoxOrient
 eCSSType_Value
@@ -4074,6 +4370,7 @@ box
 pack
 box_pack
 MozBoxPack
+0
 XUL
 mBoxPack
 eCSSType_Value
@@ -4091,6 +4388,7 @@ ordinal
 group
 box_ordinal_group
 MozBoxOrdinalGroup
+0
 XUL
 mBoxOrdinal
 eCSSType_Value
@@ -4106,6 +4404,7 @@ stack
 sizing
 stack_sizing
 MozStackSizing
+0
 XUL
 mStackSizing
 eCSSType_Value
@@ -4127,6 +4426,7 @@ script
 level
 script_level
 ScriptLevel
+0
 Font
 mScriptLevel
 eCSSType_Value
@@ -4144,6 +4444,7 @@ size
 multiplier
 script_size_multiplier
 ScriptSizeMultiplier
+0
 Font
 mScriptSizeMultiplier
 eCSSType_Value
@@ -4161,6 +4462,7 @@ min
 size
 script_min_size
 ScriptMinSize
+0
 Font
 mScriptMinSize
 eCSSType_Value
@@ -4183,6 +4485,7 @@ clip
 path
 clip_path
 ClipPath
+0
 SVG
 mClipPath
 eCSSType_Value
@@ -4195,6 +4498,7 @@ clip
 rule
 clip_rule
 ClipRule
+0
 SVG
 mClipRule
 eCSSType_Value
@@ -4207,6 +4511,7 @@ color
 interpolation
 color_interpolation
 ColorInterpolation
+0
 SVG
 mColorInterpolation
 eCSSType_Value
@@ -4221,6 +4526,7 @@ interpolation
 filters
 color_interpolation_filters
 ColorInterpolationFilters
+0
 SVG
 mColorInterpolationFilters
 eCSSType_Value
@@ -4233,6 +4539,7 @@ dominant
 baseline
 dominant_baseline
 DominantBaseline
+0
 SVG
 mDominantBaseline
 eCSSType_Value
@@ -4243,6 +4550,7 @@ CSS_PROP_SVG
 fill
 fill
 Fill
+0
 SVG
 mFill
 eCSSType_ValuePair
@@ -4255,6 +4563,7 @@ fill
 opacity
 fill_opacity
 FillOpacity
+0
 SVG
 mFillOpacity
 eCSSType_Value
@@ -4267,6 +4576,7 @@ fill
 rule
 fill_rule
 FillRule
+0
 SVG
 mFillRule
 eCSSType_Value
@@ -4277,6 +4587,7 @@ CSS_PROP_SVGRESET
 filter
 filter
 Filter
+0
 SVG
 mFilter
 eCSSType_Value
@@ -4289,6 +4600,7 @@ flood
 color
 flood_color
 FloodColor
+0
 SVG
 mFloodColor
 eCSSType_Value
@@ -4301,6 +4613,7 @@ flood
 opacity
 flood_opacity
 FloodOpacity
+0
 SVG
 mFloodOpacity
 eCSSType_Value
@@ -4313,6 +4626,7 @@ lighting
 color
 lighting_color
 LightingColor
+0
 SVG
 mLightingColor
 eCSSType_Value
@@ -4323,6 +4637,7 @@ CSS_PROP_SHORTHAND
 marker
 marker
 Marker
+0
 )
 CSS_PROP_SVG
 (
@@ -4331,6 +4646,7 @@ marker
 end
 marker_end
 MarkerEnd
+0
 SVG
 mMarkerEnd
 eCSSType_Value
@@ -4343,6 +4659,7 @@ marker
 mid
 marker_mid
 MarkerMid
+0
 SVG
 mMarkerMid
 eCSSType_Value
@@ -4355,6 +4672,7 @@ marker
 start
 marker_start
 MarkerStart
+0
 SVG
 mMarkerStart
 eCSSType_Value
@@ -4365,6 +4683,7 @@ CSS_PROP_SVGRESET
 mask
 mask
 Mask
+0
 SVG
 mMask
 eCSSType_Value
@@ -4377,6 +4696,7 @@ pointer
 events
 pointer_events
 PointerEvents
+0
 SVG
 mPointerEvents
 eCSSType_Value
@@ -4389,6 +4709,7 @@ shape
 rendering
 shape_rendering
 ShapeRendering
+0
 SVG
 mShapeRendering
 eCSSType_Value
@@ -4401,6 +4722,7 @@ stop
 color
 stop_color
 StopColor
+0
 SVG
 mStopColor
 eCSSType_Value
@@ -4413,6 +4735,7 @@ stop
 opacity
 stop_opacity
 StopOpacity
+0
 SVG
 mStopOpacity
 eCSSType_Value
@@ -4423,6 +4746,7 @@ CSS_PROP_SVG
 stroke
 stroke
 Stroke
+0
 SVG
 mStroke
 eCSSType_ValuePair
@@ -4435,6 +4759,7 @@ stroke
 dasharray
 stroke_dasharray
 StrokeDasharray
+0
 SVG
 mStrokeDasharray
 eCSSType_ValueList
@@ -4447,6 +4772,7 @@ stroke
 dashoffset
 stroke_dashoffset
 StrokeDashoffset
+0
 SVG
 mStrokeDashoffset
 eCSSType_Value
@@ -4459,6 +4785,7 @@ stroke
 linecap
 stroke_linecap
 StrokeLinecap
+0
 SVG
 mStrokeLinecap
 eCSSType_Value
@@ -4471,6 +4798,7 @@ stroke
 linejoin
 stroke_linejoin
 StrokeLinejoin
+0
 SVG
 mStrokeLinejoin
 eCSSType_Value
@@ -4483,6 +4811,7 @@ stroke
 miterlimit
 stroke_miterlimit
 StrokeMiterlimit
+0
 SVG
 mStrokeMiterlimit
 eCSSType_Value
@@ -4495,6 +4824,7 @@ stroke
 opacity
 stroke_opacity
 StrokeOpacity
+0
 SVG
 mStrokeOpacity
 eCSSType_Value
@@ -4507,6 +4837,7 @@ stroke
 width
 stroke_width
 StrokeWidth
+0
 SVG
 mStrokeWidth
 eCSSType_Value
@@ -4519,6 +4850,7 @@ text
 anchor
 text_anchor
 TextAnchor
+0
 SVG
 mTextAnchor
 eCSSType_Value
@@ -4531,6 +4863,7 @@ text
 rendering
 text_rendering
 TextRendering
+0
 SVG
 mTextRendering
 eCSSType_Value
@@ -4548,6 +4881,7 @@ CSS_PROP_VISIBILITY
 X
 X
 X
+0
 Display
 mLang
 eCSSType_Value
@@ -4558,6 +4892,7 @@ CSS_PROP_TABLE
 X
 X
 X
+0
 Table
 mFrame
 eCSSType_Value
@@ -4568,6 +4903,7 @@ CSS_PROP_TABLE
 X
 X
 X
+0
 Table
 mRules
 eCSSType_Value
@@ -4578,6 +4914,7 @@ CSS_PROP_TABLE
 X
 X
 X
+0
 Table
 mCols
 eCSSType_Value
@@ -4588,6 +4925,7 @@ CSS_PROP_TABLE
 X
 X
 X
+0
 Table
 mSpan
 eCSSType_Value
