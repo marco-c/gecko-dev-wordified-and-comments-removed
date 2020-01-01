@@ -1813,6 +1813,9 @@ nsDisplayListBuilder
 aBuilder
 nsPoint
 aPt
+HitTestState
+*
+aState
 )
 ;
 virtual
@@ -1851,6 +1854,9 @@ nsDisplayListBuilder
 aBuilder
 nsPoint
 aPt
+HitTestState
+*
+aState
 )
 {
 return

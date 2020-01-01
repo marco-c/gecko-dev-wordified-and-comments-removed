@@ -5077,6 +5077,9 @@ nsDisplayListBuilder
 aBuilder
 nsPoint
 aPt
+HitTestState
+*
+aState
 )
 {
 static_cast
@@ -8889,6 +8892,9 @@ nsDisplayListBuilder
 aBuilder
 nsPoint
 aPt
+HitTestState
+*
+aState
 )
 ;
 NS_DISPLAY_DECL_NAME
@@ -8917,6 +8923,9 @@ nsDisplayListBuilder
 aBuilder
 nsPoint
 aPt
+HitTestState
+*
+aState
 )
 {
 nsIFrame
@@ -8929,6 +8938,7 @@ HitTest
 (
 aBuilder
 aPt
+aState
 )
 ;
 if

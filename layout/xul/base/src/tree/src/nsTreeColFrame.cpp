@@ -295,6 +295,9 @@ nsDisplayListBuilder
 aBuilder
 nsPoint
 aPt
+HitTestState
+*
+aState
 )
 ;
 NS_DISPLAY_DECL_NAME
@@ -317,6 +320,9 @@ nsDisplayListBuilder
 aBuilder
 nsPoint
 aPt
+HitTestState
+*
+aState
 )
 {
 nsPoint
