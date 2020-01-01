@@ -1992,11 +1992,7 @@ nativeThemePref
 true
 ;
 }
-new
-XPCSafeJSObjectWrapper
-(
 sandbox
-)
 .
 prefs
 =
