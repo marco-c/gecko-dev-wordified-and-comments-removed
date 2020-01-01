@@ -1870,8 +1870,7 @@ height
 }
 ;
 typedef
-unsigned
-long
+PRUptrdiff
 PtrBits
 ;
 enum
