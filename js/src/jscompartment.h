@@ -241,6 +241,7 @@ Kind
 ObjectWrapper
 StringWrapper
 DebuggerScript
+DebuggerSource
 DebuggerObject
 DebuggerEnvironment
 }
