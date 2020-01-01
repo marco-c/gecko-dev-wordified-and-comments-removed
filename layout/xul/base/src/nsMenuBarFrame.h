@@ -78,6 +78,11 @@ nsMenuParent
 {
 public
 :
+NS_DECL_QUERYFRAME_TARGET
+(
+nsMenuBarFrame
+)
+NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
 nsMenuBarFrame
 (

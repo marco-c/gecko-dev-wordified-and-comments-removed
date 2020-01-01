@@ -49,7 +49,7 @@ EEventRule
 {
 eAllowDupes
 eCoalesceFromSameSubtree
-eCoalesceFromSameDocument
+eCoalesceOfSameType
 eRemoveDupes
 eDoNotEmit
 }

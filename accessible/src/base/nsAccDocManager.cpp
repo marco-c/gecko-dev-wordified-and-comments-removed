@@ -1484,6 +1484,7 @@ finished
 "
 aDocument
 )
+NS_LOG_ACCDOCCREATE_STACK
 AddListeners
 (
 aDocument

@@ -411,6 +411,15 @@ GetSelectedIndex
 )
 ;
 virtual
+already_AddRefed
+<
+nsIContent
+>
+GetCurrentOption
+(
+)
+;
+virtual
 void
 GetOptionText
 (

@@ -69,6 +69,17 @@ GetSelectedIndex
 0
 ;
 virtual
+already_AddRefed
+<
+nsIContent
+>
+GetCurrentOption
+(
+)
+=
+0
+;
+virtual
 void
 CaptureMouseEvents
 (

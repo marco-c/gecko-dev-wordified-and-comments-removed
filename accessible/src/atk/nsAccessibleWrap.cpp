@@ -4991,10 +4991,12 @@ id
 0
 )
 ;
-rootAcc
+FocusMgr
+(
+)
 -
 >
-FireCurrentFocusEvent
+ForceFocusEvent
 (
 )
 ;

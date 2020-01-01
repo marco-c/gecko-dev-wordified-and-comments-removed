@@ -70,12 +70,6 @@ NativeRole
 )
 ;
 virtual
-PRUint64
-NativeState
-(
-)
-;
-virtual
 nsresult
 GetAttributesInternal
 (

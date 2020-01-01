@@ -228,11 +228,6 @@ RootAccessible
 )
 const
 ;
-static
-nsINode
-*
-gLastFocusedNode
-;
 already_AddRefed
 <
 nsINode

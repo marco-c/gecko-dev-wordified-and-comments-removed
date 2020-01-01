@@ -1096,6 +1096,14 @@ aAttribute
 )
 ;
 void
+ARIAActiveDescendantChanged
+(
+nsIContent
+*
+aElm
+)
+;
+void
 ProcessPendingEvent
 (
 AccEvent

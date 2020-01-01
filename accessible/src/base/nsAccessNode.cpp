@@ -219,15 +219,6 @@ gStringBundle
 =
 0
 ;
-nsINode
-*
-nsAccessNode
-:
-:
-gLastFocusedNode
-=
-nsnull
-;
 PRBool
 nsAccessNode
 :
@@ -742,11 +733,6 @@ ShutdownXPAccessibility
 NS_IF_RELEASE
 (
 gStringBundle
-)
-;
-NS_IF_RELEASE
-(
-gLastFocusedNode
 )
 ;
 nsApplicationAccessibleWrap
