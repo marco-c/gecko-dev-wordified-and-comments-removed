@@ -191,7 +191,7 @@ id
 ;
 }
 function
-check_existance
+check_existence
 (
 aIDs
 aExpected
@@ -308,7 +308,7 @@ START_TIME
 END_TIME
 )
 ;
-check_existance
+check_existence
 (
 [
 id
@@ -340,7 +340,7 @@ START_TIME
 END_TIME
 )
 ;
-check_existance
+check_existence
 (
 [
 id
@@ -392,7 +392,7 @@ START_TIME
 END_TIME
 )
 ;
-check_existance
+check_existence
 (
 ids
 false
@@ -442,7 +442,7 @@ START_TIME
 END_TIME
 )
 ;
-check_existance
+check_existence
 (
 ids
 true
@@ -472,7 +472,7 @@ START_TIME
 END_TIME
 )
 ;
-check_existance
+check_existence
 (
 [
 id
