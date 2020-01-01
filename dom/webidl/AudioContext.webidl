@@ -252,6 +252,14 @@ createBufferSource
 ;
 [
 Creator
+]
+MediaStreamAudioDestinationNode
+createMediaStreamDestination
+(
+)
+;
+[
+Creator
 Throws
 ]
 ScriptProcessorNode

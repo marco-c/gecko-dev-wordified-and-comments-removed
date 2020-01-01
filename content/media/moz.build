@@ -430,6 +430,11 @@ TimeVarying
 h
 '
 '
+TrackUnionStream
+.
+h
+'
+'
 VideoFrameContainer
 .
 h

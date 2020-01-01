@@ -248,6 +248,11 @@ GainNode
 h
 '
 '
+MediaStreamAudioDestinationNode
+.
+h
+'
+'
 OfflineAudioCompletionEvent
 .
 h
@@ -364,6 +369,11 @@ cpp
 '
 '
 MediaBufferDecoder
+.
+cpp
+'
+'
+MediaStreamAudioDestinationNode
 .
 cpp
 '

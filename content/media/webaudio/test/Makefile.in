@@ -293,6 +293,10 @@ test_mediaDecoding
 .
 html
 \
+test_mediaStreamAudioDestinationNode
+.
+html
+\
 test_mixingRules
 .
 html
