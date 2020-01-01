@@ -5586,12 +5586,6 @@ nsChangeHint_UpdateEffects
 NS_UpdateHint
 (
 hint
-nsChangeHint_UpdateOverflow
-)
-;
-NS_UpdateHint
-(
-hint
 nsChangeHint_RepaintFrame
 )
 ;
