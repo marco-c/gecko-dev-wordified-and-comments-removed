@@ -2174,16 +2174,6 @@ n
 )
 ;
 }
-LPDEVMODEW
-pDevMode
-=
-NULL
-;
-HGLOBAL
-hDevNames
-=
-NULL
-;
 PRUnichar
 *
 printerName
@@ -2812,11 +2802,6 @@ DM_PAPERWIDTH
 ;
 #
 endif
-PRBool
-foundEnum
-=
-PR_FALSE
-;
 for
 (
 PRInt32
@@ -4531,6 +4516,7 @@ nsnull
 {
 for
 (
+unsigned
 int
 i
 =
@@ -4699,7 +4685,7 @@ if
 sPtr
 =
 =
-NULL
+0
 )
 {
 LPWSTR
@@ -4872,7 +4858,7 @@ comma
 sPtr
 !
 =
-NULL
+0
 )
 sPtr
 +
@@ -4923,6 +4909,10 @@ s
 n
 "
 aDefaultPrinterName
+.
+get
+(
+)
 )
 )
 ;
@@ -4989,7 +4979,7 @@ IsEmpty
 {
 for
 (
-PRInt32
+PRUint32
 i
 =
 0
