@@ -5755,6 +5755,16 @@ ObjectBox
 *
 emitLink
 ;
+ObjectBox
+(
+JSFunction
+*
+function
+ObjectBox
+*
+traceLink
+)
+;
 }
 ;
 }
