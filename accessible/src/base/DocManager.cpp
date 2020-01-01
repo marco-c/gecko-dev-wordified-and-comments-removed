@@ -1406,6 +1406,13 @@ GetChromeEventHandler
 (
 )
 ;
+if
+(
+!
+target
+)
+return
+;
 nsEventListenerManager
 *
 elm
