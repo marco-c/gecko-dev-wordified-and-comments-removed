@@ -453,9 +453,6 @@ GDK_plus
 }
 }
 ;
-#
-ifdef
-SOLARIS
 struct
 nsKeyConverter
 nsSunKeycodes
@@ -463,10 +460,6 @@ nsSunKeycodes
 ]
 =
 {
-{
-NS_VK_F1
-GDK_Help
-}
 {
 NS_VK_F11
 0x1005ff10
@@ -477,8 +470,6 @@ NS_VK_F12
 }
 }
 ;
-#
-endif
 int
 GdkKeyCodeToDOMKeyCode
 (
@@ -570,9 +561,6 @@ GDK_KP_0
 +
 NS_VK_NUMPAD0
 ;
-#
-ifdef
-SOLARIS
 for
 (
 i
@@ -614,8 +602,6 @@ vkCode
 )
 ;
 }
-#
-endif
 for
 (
 i
