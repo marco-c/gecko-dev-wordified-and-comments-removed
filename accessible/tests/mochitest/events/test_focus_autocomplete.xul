@@ -2853,6 +2853,9 @@ initTests
 if
 (
 SEAMONKEY
+|
+|
+MAC
 )
 {
 todo
@@ -2869,6 +2872,13 @@ ftb
 (
 Bug
 718237
+)
+and
+on
+Mac
+(
+bug
+746177
 )
 "
 )
