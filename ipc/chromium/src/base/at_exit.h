@@ -80,6 +80,17 @@ ProcessCallbacksNow
 (
 )
 ;
+#
+ifdef
+CHROMIUM_MOZILLA_BUILD
+static
+bool
+AlreadyRegistered
+(
+)
+;
+#
+endif
 private
 :
 struct
