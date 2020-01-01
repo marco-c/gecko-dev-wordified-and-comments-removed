@@ -12870,6 +12870,13 @@ slot
 1
 )
 {
+map
+-
+>
+freeslot
+=
+slot
+;
 ReallocSlots
 (
 cx
