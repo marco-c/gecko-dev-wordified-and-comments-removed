@@ -470,6 +470,13 @@ mTopNode
 mTree
 -
 >
+BeginUpdateBatch
+(
+)
+;
+mTree
+-
+>
 RowCountChanged
 (
 0
@@ -483,6 +490,13 @@ RowCountChanged
 (
 0
 newRows
+)
+;
+mTree
+-
+>
+EndUpdateBatch
+(
 )
 ;
 }
