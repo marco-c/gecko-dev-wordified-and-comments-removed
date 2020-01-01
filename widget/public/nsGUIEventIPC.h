@@ -1370,7 +1370,8 @@ mReply
 .
 mHasSelection
 )
-;
+&
+&
 ReadParam
 (
 aMsg
