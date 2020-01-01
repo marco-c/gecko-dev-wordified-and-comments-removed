@@ -74,7 +74,7 @@ h
 #
 include
 "
-nsSVGElement
+nsSVGGraphicElement
 .
 h
 "
@@ -125,7 +125,7 @@ SVGFragmentIdentifier
 ;
 }
 typedef
-nsSVGElement
+nsSVGGraphicElement
 nsSVGSVGElementBase
 ;
 class
@@ -475,8 +475,6 @@ DOMSVGTests
 public
 nsIDOMSVGFitToViewBox
 public
-nsIDOMSVGLocatable
-public
 nsIDOMSVGZoomAndPan
 {
 friend
@@ -562,7 +560,6 @@ nsSVGSVGElementBase
 )
 NS_DECL_NSIDOMSVGSVGELEMENT
 NS_DECL_NSIDOMSVGFITTOVIEWBOX
-NS_DECL_NSIDOMSVGLOCATABLE
 NS_DECL_NSIDOMSVGZOOMANDPAN
 NS_FORWARD_NSIDOMNODE_TO_NSINODE
 NS_FORWARD_NSIDOMELEMENT_TO_GENERIC
