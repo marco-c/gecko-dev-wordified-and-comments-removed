@@ -410,7 +410,7 @@ d
 )
 )
 return
-false
+JS_FALSE
 ;
 pn
 -
@@ -471,7 +471,7 @@ if
 str
 )
 return
-false
+JS_FALSE
 ;
 pn
 -
@@ -493,7 +493,7 @@ pn
 pn_atom
 )
 return
-false
+JS_FALSE
 ;
 pn
 -
@@ -520,7 +520,7 @@ default
 }
 }
 return
-true
+JS_TRUE
 ;
 }
 static
@@ -873,7 +873,7 @@ pn_dval
 d
 ;
 return
-true
+JS_TRUE
 ;
 }
 #
@@ -1127,7 +1127,7 @@ if
 str
 )
 return
-false
+JS_FALSE
 ;
 break
 ;
@@ -1151,7 +1151,7 @@ if
 str
 )
 return
-false
+JS_FALSE
 ;
 break
 ;
@@ -1193,7 +1193,7 @@ if
 str
 )
 return
-false
+JS_FALSE
 ;
 break
 ;
@@ -1376,7 +1376,7 @@ pn1
 pn_atom
 )
 return
-false
+JS_FALSE
 ;
 JS_ASSERT
 (
@@ -1469,7 +1469,7 @@ if
 str
 )
 return
-false
+JS_FALSE
 ;
 #
 ifdef
@@ -1617,7 +1617,7 @@ if
 accum
 )
 return
-false
+JS_FALSE
 ;
 }
 JS_ASSERT
@@ -1699,7 +1699,7 @@ pn1
 pn_atom
 )
 return
-false
+JS_FALSE
 ;
 JS_ASSERT
 (
@@ -1783,7 +1783,7 @@ JSOP_TOXML
 }
 }
 return
-true
+JS_TRUE
 ;
 }
 #
