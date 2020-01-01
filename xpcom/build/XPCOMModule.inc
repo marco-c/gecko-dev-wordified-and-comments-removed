@@ -350,6 +350,11 @@ nsMemoryReporterManagerConstructor
 )
 COMPONENT
 (
+MEMORY_INFO_DUMPER
+nsMemoryInfoDumperConstructor
+)
+COMPONENT
+(
 IOUTIL
 nsIOUtilConstructor
 )

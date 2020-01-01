@@ -198,7 +198,7 @@ nsGZFileWriter
 .
 cpp
 \
-MemoryInfoDumper
+nsMemoryInfoDumper
 .
 cpp
 \
@@ -309,7 +309,7 @@ MapsMemoryReporter
 .
 h
 \
-MemoryInfoDumper
+nsMemoryInfoDumper
 .
 h
 \
@@ -521,6 +521,10 @@ nsIUUIDGenerator
 idl
 \
 nsIMutable
+.
+idl
+\
+nsIMemoryInfoDumper
 .
 idl
 \

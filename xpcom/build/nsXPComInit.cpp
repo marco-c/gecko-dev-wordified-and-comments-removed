@@ -485,6 +485,13 @@ h
 #
 include
 "
+nsMemoryInfoDumper
+.
+h
+"
+#
+include
+"
 nsMessageLoop
 .
 h
@@ -860,6 +867,10 @@ NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
 nsMemoryReporterManager
 Init
+)
+NS_GENERIC_FACTORY_CONSTRUCTOR
+(
+nsMemoryInfoDumper
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
