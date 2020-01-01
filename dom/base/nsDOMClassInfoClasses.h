@@ -1372,14 +1372,6 @@ MathMLElement
 )
 DOMCI_CLASS
 (
-WebGLProgram
-)
-DOMCI_CLASS
-(
-WebGLShader
-)
-DOMCI_CLASS
-(
 WebGLActiveInfo
 )
 DOMCI_CLASS

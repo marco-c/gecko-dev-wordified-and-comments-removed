@@ -39,16 +39,6 @@ nsIDOMWebGLRenderingContext
 )
 DOMCI_DATA
 (
-WebGLProgram
-void
-)
-DOMCI_DATA
-(
-WebGLShader
-void
-)
-DOMCI_DATA
-(
 WebGLActiveInfo
 void
 )

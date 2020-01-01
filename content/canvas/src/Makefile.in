@@ -239,7 +239,15 @@ WebGLFramebuffer
 .
 cpp
 \
+WebGLProgram
+.
+cpp
+\
 WebGLRenderbuffer
+.
+cpp
+\
+WebGLShader
 .
 cpp
 \

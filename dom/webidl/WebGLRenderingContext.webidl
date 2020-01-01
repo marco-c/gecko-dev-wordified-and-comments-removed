@@ -400,6 +400,8 @@ WebGLFramebuffer
 ;
 interface
 WebGLProgram
+{
+}
 ;
 interface
 WebGLRenderbuffer
@@ -408,6 +410,8 @@ WebGLRenderbuffer
 ;
 interface
 WebGLShader
+{
+}
 ;
 interface
 WebGLTexture
