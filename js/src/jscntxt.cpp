@@ -3111,6 +3111,12 @@ hadOutOfMemory
 =
 true
 ;
+AutoUnlockAtomsCompartmentWhenLocked
+unlockAtomsCompartment
+(
+cx
+)
+;
 JSErrorReport
 report
 ;
@@ -5840,6 +5846,10 @@ NULL
 #
 ifdef
 JS_THREADSAFE
+atomsCompartmentIsLocked
+(
+false
+)
 outstandingRequests
 (
 0
