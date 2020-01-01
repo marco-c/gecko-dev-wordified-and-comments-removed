@@ -67,6 +67,12 @@ class
 nsCSSFontFaceRule
 ;
 class
+nsRuleWalker
+;
+struct
+RuleProcessorData
+;
+class
 nsEmptyStyleRule
 :
 public

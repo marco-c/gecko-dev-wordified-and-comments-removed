@@ -138,6 +138,13 @@ nsContentErrors
 .
 h
 "
+#
+include
+"
+nsRuleProcessorData
+.
+h
+"
 NS_IMPL_ISUPPORTS1
 (
 nsHTMLStyleSheet

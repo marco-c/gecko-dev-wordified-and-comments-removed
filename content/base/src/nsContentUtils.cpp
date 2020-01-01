@@ -851,6 +851,13 @@ nsHtml5Module
 h
 "
 #
+include
+"
+nsPresContext
+.
+h
+"
+#
 ifdef
 IBMBIDI
 #

@@ -6,6 +6,13 @@ nsCSSRuleProcessor
 h
 "
 #
+include
+"
+nsRuleProcessorData
+.
+h
+"
+#
 define
 PL_ARENA_CONST_ALIGN_MASK
 7

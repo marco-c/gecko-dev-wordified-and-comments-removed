@@ -583,6 +583,13 @@ nsCSSRuleProcessor
 h
 "
 #
+include
+"
+nsRuleProcessorData
+.
+h
+"
+#
 ifdef
 MOZ_XUL
 #

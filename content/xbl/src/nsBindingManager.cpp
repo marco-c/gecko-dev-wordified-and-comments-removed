@@ -204,6 +204,13 @@ h
 #
 include
 "
+nsRuleProcessorData
+.
+h
+"
+#
+include
+"
 nsIWeakReference
 .
 h

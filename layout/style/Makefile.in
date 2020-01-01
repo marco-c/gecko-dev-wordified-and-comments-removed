@@ -633,6 +633,10 @@ nsRuleNode
 .
 h
 \
+nsRuleProcessorData
+.
+h
+\
 nsRuleWalker
 .
 h

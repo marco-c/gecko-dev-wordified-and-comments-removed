@@ -39,6 +39,13 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+nsColor
+.
+h
+"
 class
 nsMappedAttributes
 ;

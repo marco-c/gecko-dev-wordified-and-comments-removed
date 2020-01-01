@@ -96,6 +96,13 @@ nsRuleData
 .
 h
 "
+#
+include
+"
+nsRuleProcessorData
+.
+h
+"
 class
 HTMLCSSStyleSheetImpl
 :
