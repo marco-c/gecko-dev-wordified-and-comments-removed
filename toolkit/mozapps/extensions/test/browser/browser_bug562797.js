@@ -690,7 +690,7 @@ false
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 aManager
 .
@@ -704,8 +704,6 @@ category
 plugins
 "
 )
-2
-2
 {
 }
 aManager
@@ -859,7 +857,7 @@ true
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get_addon_element
 (
@@ -873,8 +871,6 @@ mozilla
 org
 "
 )
-2
-2
 {
 clickCount
 :
@@ -1451,7 +1447,7 @@ false
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 aManager
 .
@@ -1465,8 +1461,6 @@ category
 extensions
 "
 )
-2
-2
 {
 }
 aManager
@@ -2350,7 +2344,7 @@ org
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get_addon_element
 (
@@ -2364,8 +2358,6 @@ mozilla
 org
 "
 )
-2
-2
 {
 clickCount
 :
@@ -2651,7 +2643,7 @@ org
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get_addon_element
 (
@@ -2665,8 +2657,6 @@ mozilla
 org
 "
 )
-2
-2
 {
 clickCount
 :
@@ -3028,7 +3018,7 @@ false
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 aManager
 .
@@ -3042,8 +3032,6 @@ category
 plugins
 "
 )
-2
-2
 {
 }
 aManager
@@ -3268,7 +3256,7 @@ false
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get_addon_element
 (
@@ -3282,8 +3270,6 @@ mozilla
 org
 "
 )
-2
-2
 {
 clickCount
 :
@@ -3511,7 +3497,7 @@ false
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get_addon_element
 (
@@ -3525,8 +3511,6 @@ mozilla
 org
 "
 )
-2
-2
 {
 clickCount
 :
@@ -3569,7 +3553,7 @@ false
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 aManager
 .
@@ -3583,8 +3567,6 @@ detail
 uninstall
 "
 )
-2
-2
 {
 }
 aManager

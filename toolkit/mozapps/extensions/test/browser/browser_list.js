@@ -993,7 +993,7 @@ Disabling
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get_node
 (
@@ -1004,8 +1004,6 @@ disable
 btn
 "
 )
-2
-2
 {
 }
 gManagerWindow
@@ -1595,7 +1593,7 @@ Enabling
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get_node
 (
@@ -1606,8 +1604,6 @@ enable
 btn
 "
 )
-2
-2
 {
 }
 gManagerWindow
@@ -2427,7 +2423,7 @@ Enabling
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get_node
 (
@@ -2438,8 +2434,6 @@ enable
 btn
 "
 )
-2
-2
 {
 }
 gManagerWindow
@@ -3222,7 +3216,7 @@ Disabling
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get_node
 (
@@ -3233,8 +3227,6 @@ disable
 btn
 "
 )
-2
-2
 {
 }
 gManagerWindow
@@ -3751,7 +3743,7 @@ Disabling
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get_node
 (
@@ -3762,8 +3754,6 @@ disable
 btn
 "
 )
-2
-2
 {
 }
 gManagerWindow
@@ -4612,7 +4602,7 @@ Undoing
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get_node
 (
@@ -4621,8 +4611,6 @@ addon
 undo
 "
 )
-2
-2
 {
 }
 gManagerWindow
@@ -5213,7 +5201,7 @@ Undoing
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get_node
 (
@@ -5222,8 +5210,6 @@ addon
 undo
 "
 )
-2
-2
 {
 }
 gManagerWindow
@@ -5675,7 +5661,7 @@ Undoing
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get_node
 (
@@ -5684,8 +5670,6 @@ addon
 undo
 "
 )
-2
-2
 {
 }
 gManagerWindow
@@ -6204,7 +6188,7 @@ Enabling
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get_node
 (
@@ -6215,8 +6199,6 @@ enable
 btn
 "
 )
-2
-2
 {
 }
 gManagerWindow
@@ -6688,7 +6670,7 @@ Undoing
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get_node
 (
@@ -6697,8 +6679,6 @@ addon
 undo
 "
 )
-2
-2
 {
 }
 gManagerWindow

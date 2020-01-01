@@ -186,11 +186,9 @@ item
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 item
-2
-2
 {
 clickCount
 :
@@ -1449,7 +1447,7 @@ hidden
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get
 (
@@ -1461,8 +1459,6 @@ autoUpdate
 )
 .
 lastChild
-2
-2
 {
 }
 gManagerWindow
@@ -1512,7 +1508,7 @@ visible
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get
 (
@@ -1524,8 +1520,6 @@ autoUpdate
 )
 .
 firstChild
-2
-2
 {
 }
 gManagerWindow
@@ -1709,7 +1703,7 @@ hidden
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get
 (
@@ -1719,8 +1713,6 @@ detail
 disable
 "
 )
-2
-2
 {
 }
 gManagerWindow
@@ -2175,7 +2167,7 @@ correct
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get
 (
@@ -2185,8 +2177,6 @@ detail
 undo
 "
 )
-2
-2
 {
 }
 gManagerWindow
@@ -3592,7 +3582,7 @@ visible
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get
 (
@@ -3607,8 +3597,6 @@ childNodes
 [
 1
 ]
-2
-2
 {
 }
 gManagerWindow
@@ -3661,7 +3649,7 @@ hidden
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get
 (
@@ -3673,8 +3661,6 @@ autoUpdate
 )
 .
 lastChild
-2
-2
 {
 }
 gManagerWindow
@@ -3748,7 +3734,7 @@ true
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get
 (
@@ -3760,8 +3746,6 @@ autoUpdate
 )
 .
 firstChild
-2
-2
 {
 }
 gManagerWindow
@@ -3877,7 +3861,7 @@ visible
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get
 (
@@ -3892,8 +3876,6 @@ childNodes
 [
 1
 ]
-2
-2
 {
 }
 gManagerWindow
@@ -3946,7 +3928,7 @@ hidden
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get
 (
@@ -3958,8 +3940,6 @@ autoUpdate
 )
 .
 firstChild
-2
-2
 {
 }
 gManagerWindow
@@ -4559,7 +4539,7 @@ hidden
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get
 (
@@ -4569,8 +4549,6 @@ detail
 enable
 "
 )
-2
-2
 {
 }
 gManagerWindow
@@ -5025,7 +5003,7 @@ correct
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get
 (
@@ -5035,8 +5013,6 @@ detail
 undo
 "
 )
-2
-2
 {
 }
 gManagerWindow
@@ -5871,7 +5847,7 @@ hidden
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get
 (
@@ -5881,8 +5857,6 @@ detail
 disable
 "
 )
-2
-2
 {
 }
 gManagerWindow
@@ -6257,7 +6231,7 @@ visible
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get
 (
@@ -6267,8 +6241,6 @@ detail
 enable
 "
 )
-2
-2
 {
 }
 gManagerWindow
@@ -6689,7 +6661,7 @@ hidden
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get
 (
@@ -6699,8 +6671,6 @@ detail
 enable
 "
 )
-2
-2
 {
 }
 gManagerWindow
@@ -7155,7 +7125,7 @@ correct
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get
 (
@@ -7165,8 +7135,6 @@ detail
 undo
 "
 )
-2
-2
 {
 }
 gManagerWindow
@@ -7674,7 +7642,7 @@ hidden
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get
 (
@@ -7684,8 +7652,6 @@ detail
 disable
 "
 )
-2
-2
 {
 }
 gManagerWindow
@@ -8140,7 +8106,7 @@ correct
 ;
 EventUtils
 .
-synthesizeMouse
+synthesizeMouseAtCenter
 (
 get
 (
@@ -8150,8 +8116,6 @@ detail
 undo
 "
 )
-2
-2
 {
 }
 gManagerWindow
