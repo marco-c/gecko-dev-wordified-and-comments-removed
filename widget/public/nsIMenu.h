@@ -19,9 +19,6 @@ nsStringFwd
 h
 "
 class
-nsIDocShell
-;
-class
 nsIMenuBar
 ;
 class
@@ -91,9 +88,6 @@ aAccessKey
 nsIChangeManager
 *
 aManager
-nsIDocShell
-*
-aShell
 nsIContent
 *
 aNode
@@ -179,13 +173,6 @@ AddItem
 nsISupports
 *
 aItem
-)
-=
-0
-;
-NS_IMETHOD
-AddSeparator
-(
 )
 =
 0

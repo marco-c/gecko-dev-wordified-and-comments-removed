@@ -2952,7 +2952,6 @@ nsIChangeManager
 (
 this
 )
-nsnull
 menu
 )
 ;
