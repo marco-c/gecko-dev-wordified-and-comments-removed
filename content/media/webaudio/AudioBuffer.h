@@ -294,7 +294,7 @@ AudioContext
 >
 mContext
 ;
-nsAutoTArray
+AutoFallibleTArray
 <
 JSObject
 *
