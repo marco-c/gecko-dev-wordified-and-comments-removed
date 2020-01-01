@@ -74,7 +74,8 @@ DIRS
 =
 webgl
 crossorigin
-TOOLS_DIRS
+#
+TEST_DIRS
 +
 =
 compiled

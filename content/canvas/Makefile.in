@@ -80,7 +80,7 @@ PARALLEL_DIRS
 =
 public
 src
-TOOLS_DIRS
+TEST_DIRS
 +
 =
 test

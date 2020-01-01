@@ -230,7 +230,7 @@ typename
 T
 >
 friend
-class
+struct
 WebGLElementArrayCacheTree
 ;
 template
