@@ -19230,17 +19230,6 @@ null
 null
 )
 ;
-faviconService
-.
-setAndLoadFaviconForPage
-(
-aBrowser
-.
-currentURI
-uri
-false
-)
-;
 }
 #
 endif
