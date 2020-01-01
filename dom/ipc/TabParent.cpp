@@ -635,6 +635,14 @@ if
 frameLoader
 )
 {
+ReceiveMessage
+(
+CHILD_PROCESS_SHUTDOWN_MESSAGE
+false
+nullptr
+nullptr
+)
+;
 frameLoader
 -
 >
