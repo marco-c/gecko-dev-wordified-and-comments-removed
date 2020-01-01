@@ -63,13 +63,6 @@ h
 #
 include
 "
-nsISystemProxySettings
-.
-h
-"
-#
-include
-"
 nsIProxyInfo
 .
 h
@@ -516,7 +509,6 @@ eProxyConfig_Manual
 eProxyConfig_PAC
 eProxyConfig_Direct4x
 eProxyConfig_WPAD
-eProxyConfig_System
 eProxyConfig_Last
 }
 ;
@@ -683,12 +675,6 @@ nsRefPtr
 nsPACMan
 >
 mPACMan
-;
-nsCOMPtr
-<
-nsISystemProxySettings
->
-mSystemProxySettings
 ;
 PRTime
 mSessionStart
