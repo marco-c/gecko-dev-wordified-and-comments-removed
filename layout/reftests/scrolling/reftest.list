@@ -279,8 +279,8 @@ fuzzy
 if
 (
 Android
-4
-32
+8
+80
 )
 HTTP
 =
@@ -302,8 +302,8 @@ fuzzy
 if
 (
 Android
-4
-5
+12
+100
 )
 HTTP
 =
@@ -328,7 +328,7 @@ if
 (
 Android
 255
-675
+1200
 )
 HTTP
 =
