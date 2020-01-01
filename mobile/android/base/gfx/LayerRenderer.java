@@ -2874,7 +2874,7 @@ rootBounds
 =
 rootLayer
 .
-getDisplayPortBounds
+getBounds
 (
 mPageContext
 )
