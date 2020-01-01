@@ -264,8 +264,7 @@ return
 ;
 }
 static
-unsigned
-int
+UINT_PTR
 CALLBACK
 FilePickerHook
 (
