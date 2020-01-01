@@ -1096,6 +1096,13 @@ scope
 shape
 ;
 }
+JS_ASSERT
+(
+kshape
+<
+SHAPE_OVERFLOW_BIT
+)
+;
 khash
 =
 PROPERTY_CACHE_HASH_PC
@@ -1304,6 +1311,13 @@ setDelegate
 ;
 }
 }
+JS_ASSERT
+(
+vshape
+<
+SHAPE_OVERFLOW_BIT
+)
+;
 entry
 =
 &
