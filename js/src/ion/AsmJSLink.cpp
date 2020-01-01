@@ -2307,7 +2307,7 @@ bufStart_
 ;
 Rooted
 <
-JSFlatString
+JSStableString
 *
 >
 src
@@ -2339,6 +2339,10 @@ src
 -
 >
 chars
+(
+)
+.
+get
 (
 )
 ;
