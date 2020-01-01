@@ -3644,6 +3644,10 @@ gScripts
 =
 null
 ;
+gSearchView
+=
+null
+;
 gSearchBox
 =
 null
