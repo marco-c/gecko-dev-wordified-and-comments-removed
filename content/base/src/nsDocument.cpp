@@ -3234,6 +3234,10 @@ nsDocument
 )
 NS_INTERFACE_MAP_ENTRY
 (
+nsINode
+)
+NS_INTERFACE_MAP_ENTRY
+(
 nsIDocument
 )
 NS_INTERFACE_MAP_ENTRY
@@ -3315,10 +3319,6 @@ nsISupportsWeakReference
 NS_INTERFACE_MAP_ENTRY
 (
 nsIRadioGroupContainer
-)
-NS_INTERFACE_MAP_ENTRY
-(
-nsINode
 )
 NS_INTERFACE_MAP_ENTRY
 (
