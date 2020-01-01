@@ -4707,13 +4707,7 @@ out
 insGuard
 (
 LIR_x
-out
--
->
-insImm
-(
-1
-)
+NULL
 x
 )
 ;

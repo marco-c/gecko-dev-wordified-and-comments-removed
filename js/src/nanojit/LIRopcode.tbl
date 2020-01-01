@@ -2058,7 +2058,7 @@ OPDEF64
 (
 xbarrier
 3
-1
+0
 Op2
 )
 /
