@@ -3425,7 +3425,7 @@ PACMyIpAddress
 JS_FS
 (
 "
-proxyAlert
+alert
 "
 PACProxyAlert
 1
