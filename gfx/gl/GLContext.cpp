@@ -7754,7 +7754,9 @@ ifdef
 DEBUG
 if
 (
-mDebugMode
+DebugMode
+(
+)
 )
 {
 printf_stderr
