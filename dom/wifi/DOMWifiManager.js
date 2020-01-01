@@ -281,6 +281,9 @@ nsIDOMWifiManager
 Ci
 .
 nsIDOMGlobalPropertyInitializer
+Ci
+.
+nsISupportsWeakReference
 ]
 )
 init
@@ -594,7 +597,7 @@ onconnectingfailed
 ;
 this
 .
-initHelper
+initDOMRequestHelper
 (
 aWindow
 messages

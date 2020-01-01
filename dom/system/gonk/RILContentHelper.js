@@ -1831,14 +1831,9 @@ VoicemailInfo
 ;
 this
 .
-initRequests
+initDOMRequestHelper
 (
-)
-;
-this
-.
-initMessageListener
-(
+null
 RIL_IPC_MSG_NAMES
 )
 ;
@@ -1900,6 +1895,9 @@ nsIIccProvider
 Ci
 .
 nsIObserver
+Ci
+.
+nsISupportsWeakReference
 ]
 )
 classID
@@ -6029,7 +6027,7 @@ shutdown
 {
 this
 .
-removeMessageListener
+destroyDOMRequestHelper
 (
 )
 ;

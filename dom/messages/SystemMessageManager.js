@@ -1144,7 +1144,7 @@ init
 ;
 this
 .
-initHelper
+initDOMRequestHelper
 (
 aWindow
 [
@@ -1465,6 +1465,9 @@ nsIDOMGlobalPropertyInitializer
 Ci
 .
 nsIObserver
+Ci
+.
+nsISupportsWeakReference
 ]
 )
 classInfo
