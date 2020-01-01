@@ -189,6 +189,14 @@ test_browserElement_inproc_DataURI
 .
 html
 \
+browserElement_ErrorSecurity
+.
+js
+\
+test_browserElement_inproc_ErrorSecurity
+.
+html
+\
 browserElement_Titlechange
 .
 js
@@ -400,6 +408,10 @@ test_browserElement_oop_LoadEvents
 html
 \
 test_browserElement_oop_DataURI
+.
+html
+\
+test_browserElement_oop_ErrorSecurity
 .
 html
 \
