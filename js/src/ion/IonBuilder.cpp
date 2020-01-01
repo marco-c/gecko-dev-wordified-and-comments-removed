@@ -7624,6 +7624,14 @@ bodyStart
 }
 else
 {
+if
+(
+op
+!
+=
+JSOP_NOP
+)
+{
 JS_ASSERT
 (
 JSOp
@@ -7643,6 +7651,7 @@ GetNextPc
 bodyStart
 )
 ;
+}
 loopEntry
 =
 GetNextPc
