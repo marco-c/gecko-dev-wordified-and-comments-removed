@@ -445,10 +445,6 @@ nsIInterfaceInfoManager
 .
 idl
 \
-nsIXPTLoader
-.
-idl
-\
 (
 NULL
 )

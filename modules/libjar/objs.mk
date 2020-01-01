@@ -401,7 +401,7 @@ nsJARFactory
 .
 cpp
 \
-nsXPTZipLoader
+nsManifestZIPLoader
 .
 cpp
 \
@@ -431,7 +431,7 @@ nsZipArchive
 .
 h
 \
-nsXPTZipLoader
+nsManifestZIPLoader
 .
 h
 \

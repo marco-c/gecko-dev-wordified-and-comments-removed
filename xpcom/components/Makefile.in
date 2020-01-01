@@ -511,6 +511,10 @@ nsICategoryManager
 .
 idl
 \
+nsIManifestLoader
+.
+idl
+\
 (
 NULL
 )
