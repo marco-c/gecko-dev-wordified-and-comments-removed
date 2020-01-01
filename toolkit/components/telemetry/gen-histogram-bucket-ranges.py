@@ -250,7 +250,7 @@ parameters
 if
 startup_histogram_re
 .
-match
+search
 (
 name
 )
