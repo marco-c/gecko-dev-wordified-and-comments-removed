@@ -37252,12 +37252,7 @@ timeout
 mPrincipal
 filename
 lineNo
-handler
--
->
-GetScriptVersion
-(
-)
+JSVERSION_DEFAULT
 nsnull
 &
 is_undefined
