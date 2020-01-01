@@ -5138,6 +5138,9 @@ popFrame
 continue
 ;
 }
+#
+ifdef
+JS_ION
 if
 (
 fp_
@@ -5205,6 +5208,8 @@ ionFrames_
 return
 ;
 }
+#
+endif
 JSOp
 op
 =
@@ -5459,6 +5464,9 @@ savedOption_
 (
 savedOption
 )
+#
+ifdef
+JS_ION
 ionActivations_
 (
 cx
@@ -5467,6 +5475,8 @@ ionFrames_
 (
 NULL
 )
+#
+endif
 {
 #
 ifdef
@@ -5516,6 +5526,9 @@ DONE
 ;
 }
 }
+#
+ifdef
+JS_ION
 void
 StackIter
 :
@@ -5554,6 +5567,8 @@ settleOnNewState
 ;
 }
 }
+#
+endif
 StackIter
 &
 StackIter
@@ -5622,6 +5637,9 @@ SCRIPTED
 ;
 break
 ;
+#
+ifdef
+JS_ION
 case
 ION
 :
@@ -5631,6 +5649,8 @@ popIonFrame
 ;
 break
 ;
+#
+endif
 }
 return
 *
