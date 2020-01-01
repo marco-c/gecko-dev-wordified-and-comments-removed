@@ -253,6 +253,11 @@ const
 int
 kAnnoIndex_Expiration
 ;
+static
+const
+int
+kAnnoIndex_Type
+;
 nsresult
 HasAnnotationInternal
 (
@@ -296,6 +301,8 @@ PRInt32
 aFlags
 PRInt32
 aExpiration
+PRInt32
+aType
 mozIStorageStatement
 *
 *
