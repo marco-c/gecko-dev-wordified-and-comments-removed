@@ -135,6 +135,15 @@ CSS21
 visudet
 .
 html
+fails
+-
+if
+(
+smallScreen
+&
+&
+Android
+)
 !
 =
 scrollbars

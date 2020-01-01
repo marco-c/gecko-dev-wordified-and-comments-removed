@@ -130,6 +130,15 @@ html
 #
 Bug
 787215
+fails
+-
+if
+(
+smallScreen
+&
+&
+Android
+)
 fuzzy
 (
 255
