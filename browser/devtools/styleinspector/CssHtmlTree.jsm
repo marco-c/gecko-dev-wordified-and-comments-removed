@@ -1198,7 +1198,7 @@ this
 .
 styleDocument
 .
-body
+documentElement
 )
 ;
 let
