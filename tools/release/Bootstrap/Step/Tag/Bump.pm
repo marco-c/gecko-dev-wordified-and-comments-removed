@@ -853,9 +853,8 @@ LOCALES_CO_TAG
 s
 +
 =
-\
-s
-+
+.
+*
 '
 =
 >
@@ -872,9 +871,8 @@ LDAPCSDK_CO_TAG
 s
 +
 =
-\
-s
-+
+.
+*
 '
 =
 >
