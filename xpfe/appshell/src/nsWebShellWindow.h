@@ -136,6 +136,17 @@ ExecuteCloseHandler
 (
 )
 ;
+void
+ConstrainToOpenerScreen
+(
+PRInt32
+*
+aX
+PRInt32
+*
+aY
+)
+;
 static
 nsEventStatus
 HandleEvent
