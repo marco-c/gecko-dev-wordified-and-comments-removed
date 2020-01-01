@@ -220,6 +220,16 @@ RowCount
 )
 ;
 virtual
+PRInt32
+CellIndexAt
+(
+PRUint32
+aRowIdx
+PRUint32
+aColIdx
+)
+;
+virtual
 void
 UnselectCol
 (

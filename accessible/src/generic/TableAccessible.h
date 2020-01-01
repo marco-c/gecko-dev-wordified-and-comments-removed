@@ -112,8 +112,13 @@ aColIdx
 )
 {
 return
--
-1
+ColCount
+(
+)
+*
+aRowIdx
++
+aColIdx
 ;
 }
 virtual
