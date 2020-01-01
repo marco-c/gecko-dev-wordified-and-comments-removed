@@ -1323,6 +1323,11 @@ bool
 aEnable
 )
 {
+BOOL
+enabled
+=
+aEnable
+;
 nsUXThemeData
 :
 :
@@ -1331,10 +1336,10 @@ dwmSetWindowAttributePtr
 aHWND
 DWMWA_FORCE_ICONIC_REPRESENTATION
 &
-aEnable
+enabled
 sizeof
 (
-aEnable
+enabled
 )
 )
 ;
@@ -1346,10 +1351,10 @@ dwmSetWindowAttributePtr
 aHWND
 DWMWA_HAS_ICONIC_BITMAP
 &
-aEnable
+enabled
 sizeof
 (
-aEnable
+enabled
 )
 )
 ;
