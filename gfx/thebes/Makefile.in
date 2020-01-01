@@ -67,6 +67,10 @@ gfxContext
 .
 h
 \
+gfxDrawable
+.
+h
+\
 gfxFont
 .
 h
@@ -544,6 +548,10 @@ gfxCachedTempSurface
 cpp
 \
 gfxContext
+.
+cpp
+\
+gfxDrawable
 .
 cpp
 \
