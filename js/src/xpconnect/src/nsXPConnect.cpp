@@ -3413,9 +3413,6 @@ Double
 String
 "
 "
-Function
-"
-"
 Namespace
 "
 "
