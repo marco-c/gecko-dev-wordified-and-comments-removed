@@ -1246,10 +1246,7 @@ JS_ASSERT
 cx
 -
 >
-compartment
--
->
-maybeGlobal
+global
 (
 )
 =
