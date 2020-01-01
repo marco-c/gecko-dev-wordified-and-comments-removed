@@ -120,6 +120,10 @@ SignInToWebsite
 .
 jsm
 \
+TabTitleAbridger
+.
+jsm
+\
 TelemetryTimestamps
 .
 jsm
