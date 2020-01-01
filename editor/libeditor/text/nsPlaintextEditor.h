@@ -363,6 +363,15 @@ nsISelection
 aSelection
 )
 ;
+virtual
+nsresult
+HandleKeyPressEvent
+(
+nsIDOMKeyEvent
+*
+aKeyEvent
+)
+;
 NS_IMETHOD
 TypedText
 (
