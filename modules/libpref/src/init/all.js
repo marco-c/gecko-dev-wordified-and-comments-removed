@@ -5832,10 +5832,6 @@ dns
 ipv4OnlyDomains
 "
 "
-.
-doubleclick
-.
-net
 "
 )
 ;
