@@ -1349,11 +1349,13 @@ aParams
 if
 (
 !
+(
 this
 .
 position
 in
 aParams
+)
 )
 {
 throw
