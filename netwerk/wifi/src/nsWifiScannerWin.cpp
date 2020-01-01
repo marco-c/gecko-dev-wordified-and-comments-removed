@@ -254,6 +254,7 @@ PerformQuery
 HANDLE
 &
 ndis_handle
+const
 TCHAR
 *
 device_name
@@ -288,7 +289,13 @@ query
 >
 ptcDeviceName
 =
+const_cast
+<
+PTCHAR
+>
+(
 device_name
+)
 ;
 query
 -
