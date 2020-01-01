@@ -815,7 +815,9 @@ usr
 /
 local
 ;
-cat
+bunzip2
+-
+c
 (
 DEPTH
 )
@@ -842,7 +844,7 @@ PKG_SUFFIX
 )
 |
 (
-UNMAKE_PACKAGE
+UNPACK_TAR
 )
 rm
 -
