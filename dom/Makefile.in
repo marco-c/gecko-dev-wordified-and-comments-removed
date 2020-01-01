@@ -201,6 +201,8 @@ bindings
 \
 battery
 \
+bluetooth
+\
 browser
 -
 element
@@ -269,18 +271,6 @@ telephony
 wifi
 \
 icc
-\
-(
-NULL
-)
-endif
-ifdef
-MOZ_B2G_BT
-PARALLEL_DIRS
-+
-=
-\
-bluetooth
 \
 (
 NULL
