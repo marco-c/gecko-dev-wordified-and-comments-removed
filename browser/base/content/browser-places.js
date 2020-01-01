@@ -1445,10 +1445,6 @@ openPopup
 (
 aAnchorElement
 aPosition
--
-1
--
-1
 )
 ;
 gEditItemOverlay

@@ -2014,6 +2014,11 @@ id
 "
 editBookmarkPanel
 "
+type
+=
+"
+arrow
+"
 orient
 =
 "
@@ -3283,10 +3288,10 @@ identity
 -
 popup
 "
-position
+type
 =
 "
-after_start
+arrow
 "
 hidden
 =
