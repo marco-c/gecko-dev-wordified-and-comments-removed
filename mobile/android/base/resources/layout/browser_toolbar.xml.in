@@ -276,16 +276,6 @@ gecko
 BrowserToolbarBackground
 android
 :
-id
-=
-"
-+
-id
-/
-address_bar_bg
-"
-android
-:
 layout_width
 =
 "

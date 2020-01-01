@@ -206,6 +206,15 @@ orientation
 "
 vertical
 "
+android
+:
+background
+=
+"
+drawable
+/
+tabs_tray_bg_repeat
+"
 /
 >
 <
