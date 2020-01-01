@@ -6,13 +6,6 @@ nsIDOMWebGLRenderingContext
 h
 "
 #
-include
-"
-nsDOMClassInfoID
-.
-h
-"
-#
 define
 DUMMY
 (
@@ -36,9 +29,4 @@ DUMMY
 (
 NS_NewCanvasRenderingContextWebGL
 nsIDOMWebGLRenderingContext
-)
-DOMCI_DATA
-(
-WebGLActiveInfo
-void
 )

@@ -2397,13 +2397,6 @@ nsIDOMBlob
 nsIDOMFile
 '
 '
-nsIWebGLActiveInfo
-'
-:
-'
-nsIDOMWebGLRenderingContext
-'
-'
 nsIIndexedDatabaseUsageCallback
 '
 :

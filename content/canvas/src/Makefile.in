@@ -171,6 +171,10 @@ CPPSRCS
 +
 =
 \
+WebGLActiveInfo
+.
+cpp
+\
 WebGLBuffer
 .
 cpp
