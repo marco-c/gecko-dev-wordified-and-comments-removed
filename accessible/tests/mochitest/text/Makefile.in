@@ -90,6 +90,10 @@ test_atcaretoffset
 .
 html
 \
+test_charboundary
+.
+html
+\
 test_doc
 .
 html
