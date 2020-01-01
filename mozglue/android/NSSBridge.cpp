@@ -60,10 +60,6 @@ h
 #
 endif
 #
-define
-DEBUG
-1
-#
 ifdef
 DEBUG
 #
