@@ -2256,6 +2256,8 @@ shlwapi
 psapi
 ws2_32
 dbghelp
+rasapi32
+rasdlg
 )
 ifneq
 (
