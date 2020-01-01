@@ -1203,9 +1203,8 @@ const
 {
 if
 (
-HasFlag
+HasID
 (
-NODE_HAS_ID
 )
 )
 {

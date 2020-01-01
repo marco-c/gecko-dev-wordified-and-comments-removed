@@ -194,9 +194,8 @@ GetIDAttributeName
 )
 )
 {
-UnsetFlags
+ClearHasID
 (
-NODE_HAS_ID
 )
 ;
 }
@@ -235,9 +234,8 @@ const
 {
 NS_ASSERTION
 (
-HasFlag
+HasID
 (
-NODE_HAS_ID
 )
 "
 Unexpected
@@ -330,9 +328,8 @@ GetCurrentDoc
 ;
 if
 (
-HasFlag
+HasID
 (
-NODE_HAS_ID
 )
 &
 &
@@ -377,9 +374,8 @@ GetAtomValue
 ;
 }
 }
-UnsetFlags
+ClearHasID
 (
-NODE_HAS_ID
 )
 ;
 nsIAtom
@@ -412,9 +408,8 @@ if
 attrVal
 )
 {
-SetFlags
+SetHasID
 (
-NODE_HAS_ID
 )
 ;
 if
@@ -555,9 +550,8 @@ IsEmpty
 )
 )
 {
-UnsetFlags
+ClearHasID
 (
-NODE_HAS_ID
 )
 ;
 return
@@ -571,9 +565,8 @@ ParseAtom
 aValue
 )
 ;
-SetFlags
+SetHasID
 (
-NODE_HAS_ID
 )
 ;
 AddToIdTable
@@ -637,9 +630,8 @@ if
 aDocument
 &
 &
-HasFlag
+HasID
 (
-NODE_HAS_ID
 )
 &
 &

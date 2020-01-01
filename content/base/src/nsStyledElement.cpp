@@ -170,9 +170,8 @@ const
 {
 NS_ASSERTION
 (
-HasFlag
+HasID
 (
-NODE_HAS_ID
 )
 "
 Unexpected
@@ -349,9 +348,8 @@ IsEmpty
 )
 )
 {
-UnsetFlags
+ClearHasID
 (
-NODE_HAS_ID
 )
 ;
 return
@@ -365,9 +363,8 @@ ParseAtom
 aValue
 )
 ;
-SetFlags
+SetHasID
 (
-NODE_HAS_ID
 )
 ;
 AddToIdTable
@@ -489,9 +486,8 @@ nsGkAtoms
 id
 )
 {
-UnsetFlags
+ClearHasID
 (
-NODE_HAS_ID
 )
 ;
 }
@@ -765,9 +761,8 @@ if
 aDocument
 &
 &
-HasFlag
+HasID
 (
-NODE_HAS_ID
 )
 &
 &

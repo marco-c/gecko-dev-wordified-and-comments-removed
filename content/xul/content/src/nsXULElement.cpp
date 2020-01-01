@@ -1107,9 +1107,8 @@ mHasIdAttribute
 element
 -
 >
-SetFlags
+SetHasID
 (
-NODE_HAS_ID
 )
 ;
 }
@@ -5764,9 +5763,8 @@ if
 isId
 )
 {
-UnsetFlags
+ClearHasID
 (
-NODE_HAS_ID
 )
 ;
 }
@@ -7543,9 +7541,8 @@ const
 {
 NS_ASSERTION
 (
-HasFlag
+HasID
 (
-NODE_HAS_ID
 )
 "
 Unexpected
