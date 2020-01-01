@@ -24,6 +24,11 @@ jsm
 "
 )
 ;
+addDebuggerToGlobal
+(
+this
+)
+;
 var
 xpcInspector
 =

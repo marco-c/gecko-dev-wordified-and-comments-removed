@@ -3,7 +3,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-Debugger
+addDebuggerToGlobal
 "
 ]
 ;
@@ -34,9 +34,18 @@ interfaces
 IJSDebugger
 )
 ;
+function
+addDebuggerToGlobal
+(
+global
+)
+{
 init
 .
 addClass
 (
+global
 )
+;
+}
 ;
