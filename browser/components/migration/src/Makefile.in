@@ -437,10 +437,6 @@ USE_STATIC_LIBS
 endif
 CPPSRCS
 =
-nsProfileMigrator
-.
-cpp
-\
 nsBrowserProfileMigratorUtils
 .
 cpp
@@ -490,6 +486,10 @@ NULL
 endif
 EXTRA_PP_COMPONENTS
 =
+\
+ProfileMigrator
+.
+js
 \
 ChromeProfileMigrator
 .
