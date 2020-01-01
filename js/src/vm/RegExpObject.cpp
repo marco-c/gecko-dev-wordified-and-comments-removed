@@ -452,7 +452,7 @@ build
 (
 RootedVar
 <
-JSLinearString
+JSAtom
 *
 >
 (
