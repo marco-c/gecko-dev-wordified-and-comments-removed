@@ -265,7 +265,6 @@ AtomicRefCount
 Release
 (
 )
-const
 ;
 template
 <
@@ -591,7 +590,6 @@ AtomicRefCount
 Release
 (
 )
-const
 {
 #
 ifdef
