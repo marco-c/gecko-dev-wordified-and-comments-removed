@@ -170,6 +170,15 @@ WSAEWOULDBLOCK
 #
 endif
 #
+ifndef
+EINPROGRESS
+#
+define
+EINPROGRESS
+WSAEINPROGRESS
+#
+endif
+#
 define
 SHUT_RD
 1
