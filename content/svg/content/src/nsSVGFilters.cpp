@@ -12973,7 +12973,7 @@ floodColor
 style
 -
 >
-GetStyleSVGReset
+StyleSVGReset
 (
 )
 -
@@ -12986,7 +12986,7 @@ floodOpacity
 style
 -
 >
-GetStyleSVGReset
+StyleSVGReset
 (
 )
 -
@@ -24072,7 +24072,7 @@ lightColor
 style
 -
 >
-GetStyleSVGReset
+StyleSVGReset
 (
 )
 -

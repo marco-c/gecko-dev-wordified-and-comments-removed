@@ -162,7 +162,7 @@ styleQuotes
 mPseudoFrame
 -
 >
-GetStyleQuotes
+StyleQuotes
 (
 )
 ;

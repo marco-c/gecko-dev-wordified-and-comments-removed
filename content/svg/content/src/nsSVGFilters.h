@@ -700,7 +700,7 @@ return
 style
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 -

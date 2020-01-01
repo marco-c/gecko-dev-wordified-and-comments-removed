@@ -1132,7 +1132,7 @@ aLists
 {
 if
 (
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -1187,7 +1187,7 @@ aDirtyRect
 if
 (
 !
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -1201,7 +1201,7 @@ NS_OK
 ;
 if
 (
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -1249,7 +1249,7 @@ aContext
 ;
 switch
 (
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -2488,7 +2488,7 @@ eBBoxIncludeFill
 )
 &
 &
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -3865,7 +3865,7 @@ dominantBaseline
 frame
 -
 >
-GetStyleSVGReset
+StyleSVGReset
 (
 )
 -
@@ -4087,7 +4087,7 @@ GLYPH_FILL
 uint32_t
 paintOrder
 =
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -4204,7 +4204,7 @@ nsStyleSVG
 *
 style
 =
-GetStyleSVG
+StyleSVG
 (
 )
 ;
@@ -4298,7 +4298,7 @@ nsStyleSVG
 *
 style
 =
-GetStyleSVG
+StyleSVG
 (
 )
 ;
@@ -4420,7 +4420,7 @@ nsStyleSVG
 *
 style
 =
-GetStyleSVG
+StyleSVG
 (
 )
 ;
@@ -4640,7 +4640,7 @@ nsStyleSVG
 *
 style
 =
-GetStyleSVG
+StyleSVG
 (
 )
 ;
@@ -7250,7 +7250,7 @@ GetTextAnchor
 )
 {
 return
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -8182,7 +8182,7 @@ nsStyleFont
 *
 fontData
 =
-GetStyleFont
+StyleFont
 (
 )
 ;
@@ -8274,7 +8274,7 @@ bidiOverride
 mParent
 -
 >
-GetStyleTextReset
+StyleTextReset
 (
 )
 -
@@ -8287,7 +8287,7 @@ NS_STYLE_UNICODE_BIDI_OVERRIDE
 nsBidiLevel
 baseDirection
 =
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -8407,7 +8407,7 @@ y
 ;
 if
 (
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -8515,7 +8515,7 @@ font
 .
 stretch
 textRunSize
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -8595,7 +8595,7 @@ GetTextRunFlagsForStyle
 StyleContext
 (
 )
-GetStyleFont
+StyleFont
 (
 )
 0

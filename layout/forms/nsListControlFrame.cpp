@@ -3494,7 +3494,7 @@ nsStyleUserInterface
 *
 uiStyle
 =
-GetStyleUserInterface
+StyleUserInterface
 (
 )
 ;
@@ -6064,7 +6064,7 @@ NS_ComposeColors
 context
 -
 >
-GetStyleBackground
+StyleBackground
 (
 )
 -
@@ -6680,7 +6680,7 @@ nsStyleVisibility
 *
 vis
 =
-GetStyleVisibility
+StyleVisibility
 (
 )
 ;

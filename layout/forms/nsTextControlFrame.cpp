@@ -1043,7 +1043,7 @@ firstChild
 firstChild
 -
 >
-GetStylePadding
+StylePadding
 (
 )
 -
@@ -1088,7 +1088,7 @@ nsStyleCoord
 &
 lsCoord
 =
-GetStyleText
+StyleText
 (
 )
 -
@@ -2146,7 +2146,7 @@ DEBUG
 else
 if
 (
-GetStylePosition
+StylePosition
 (
 )
 -

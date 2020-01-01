@@ -1733,7 +1733,7 @@ oneEm
 =
 NSToCoordRound
 (
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -1888,7 +1888,7 @@ prefWidth
 =
 NSToCoordRound
 (
-GetStyleFont
+StyleFont
 (
 )
 -

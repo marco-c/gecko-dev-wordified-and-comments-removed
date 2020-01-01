@@ -447,7 +447,7 @@ nsStyleVisibility
 *
 colVis
 =
-GetStyleVisibility
+StyleVisibility
 (
 )
 ;
@@ -514,7 +514,7 @@ GetSpan
 )
 {
 return
-GetStyleTable
+StyleTable
 (
 )
 -

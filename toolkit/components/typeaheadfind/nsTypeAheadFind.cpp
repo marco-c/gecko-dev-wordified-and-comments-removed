@@ -4594,7 +4594,7 @@ if
 frame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -

@@ -1181,7 +1181,7 @@ nsStyleDisplay
 *
 disp
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -1312,7 +1312,7 @@ NS_OK
 }
 aMargin
 =
-GetStyleBorder
+StyleBorder
 (
 )
 -
@@ -1341,7 +1341,7 @@ nsStyleDisplay
 *
 disp
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -1491,7 +1491,7 @@ SizeTo
 0
 )
 ;
-GetStylePadding
+StylePadding
 (
 )
 -
@@ -1526,7 +1526,7 @@ SizeTo
 0
 )
 ;
-GetStyleMargin
+StyleMargin
 (
 )
 -
@@ -1934,7 +1934,7 @@ GetOrdinal
 uint32_t
 ordinal
 =
-GetStyleXUL
+StyleXUL
 (
 )
 -
@@ -2045,7 +2045,7 @@ IsCollapsed
 )
 {
 return
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -2141,7 +2141,7 @@ nsStyleDisplay
 *
 display
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -2436,7 +2436,7 @@ position
 aBox
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 ;
@@ -2814,7 +2814,7 @@ display
 aBox
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -2970,7 +2970,7 @@ position
 aBox
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 ;
@@ -3471,7 +3471,7 @@ position
 aBox
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 ;
@@ -3735,7 +3735,7 @@ aFlex
 aBox
 -
 >
-GetStyleXUL
+StyleXUL
 (
 )
 -

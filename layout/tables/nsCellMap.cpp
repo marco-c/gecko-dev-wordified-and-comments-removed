@@ -1068,7 +1068,7 @@ display
 aRowGroup
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -12823,7 +12823,7 @@ display
 rg
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;

@@ -4010,7 +4010,7 @@ SetBodyTextColor
 result
 -
 >
-GetStyleColor
+StyleColor
 (
 )
 -
@@ -7042,7 +7042,7 @@ display
 result
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -7054,7 +7054,7 @@ content
 result
 -
 >
-GetStyleContent
+StyleContent
 (
 )
 ;

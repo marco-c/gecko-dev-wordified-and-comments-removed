@@ -774,7 +774,7 @@ fi
 mFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -996,7 +996,7 @@ floatStyle
 aFloatFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -1118,7 +1118,7 @@ display
 aFloat
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;

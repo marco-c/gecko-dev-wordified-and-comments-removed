@@ -2241,7 +2241,7 @@ if
 styleContext
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -2341,7 +2341,7 @@ if
 styleContext
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -2846,7 +2846,7 @@ NS_STYLE_TEXT_TRANSFORM_UPPERCASE
 styleContext
 -
 >
-GetStyleText
+StyleText
 (
 )
 -
@@ -2917,7 +2917,7 @@ lang
 styleContext
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -2930,7 +2930,7 @@ lang
 styleContext
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -

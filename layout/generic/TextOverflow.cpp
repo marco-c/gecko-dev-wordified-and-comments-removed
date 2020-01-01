@@ -444,7 +444,7 @@ f
 f
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -1165,7 +1165,7 @@ direction
 aBlockFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -1314,7 +1314,7 @@ style
 aBlockFrame
 -
 >
-GetStyleTextReset
+StyleTextReset
 (
 )
 ;
@@ -1486,7 +1486,7 @@ if
 aFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -3567,7 +3567,7 @@ style
 aBlockFrame
 -
 >
-GetStyleTextReset
+StyleTextReset
 (
 )
 ;

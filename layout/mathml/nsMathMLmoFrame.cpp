@@ -1398,7 +1398,7 @@ em
 ;
 if
 (
-GetStyleFont
+StyleFont
 (
 )
 -

@@ -7100,7 +7100,7 @@ f
 mFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -

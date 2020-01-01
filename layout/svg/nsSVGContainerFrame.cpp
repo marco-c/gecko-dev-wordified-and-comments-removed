@@ -855,7 +855,7 @@ nsStyleDisplay
 *
 display
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;

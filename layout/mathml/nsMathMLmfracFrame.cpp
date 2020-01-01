@@ -2480,7 +2480,7 @@ if
 aFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -

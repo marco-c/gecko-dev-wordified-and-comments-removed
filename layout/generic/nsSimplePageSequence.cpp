@@ -518,7 +518,7 @@ kGenericFont_serif
 aContext
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -

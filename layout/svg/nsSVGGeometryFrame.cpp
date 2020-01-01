@@ -110,7 +110,7 @@ GetClipRule
 )
 {
 return
-GetStyleSVG
+StyleSVG
 (
 )
 -

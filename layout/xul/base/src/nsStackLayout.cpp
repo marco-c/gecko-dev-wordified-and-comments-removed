@@ -220,7 +220,7 @@ if
 child
 -
 >
-GetStyleXUL
+StyleXUL
 (
 )
 -
@@ -346,7 +346,7 @@ if
 child
 -
 >
-GetStyleXUL
+StyleXUL
 (
 )
 -
@@ -472,7 +472,7 @@ if
 child
 -
 >
-GetStyleXUL
+StyleXUL
 (
 )
 -
@@ -744,7 +744,7 @@ ltr
 aChild
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -1691,7 +1691,7 @@ if
 child
 -
 >
-GetStyleXUL
+StyleXUL
 (
 )
 -

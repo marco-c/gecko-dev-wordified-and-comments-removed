@@ -38940,7 +38940,7 @@ GetRootFrame
 )
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -

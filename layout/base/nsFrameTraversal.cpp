@@ -1970,7 +1970,7 @@ aFrame
 aFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -

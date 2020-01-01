@@ -1182,7 +1182,7 @@ Save
 ;
 if
 (
-GetStyleDisplay
+StyleDisplay
 (
 )
 -

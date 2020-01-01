@@ -7319,7 +7319,7 @@ disp
 aContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;

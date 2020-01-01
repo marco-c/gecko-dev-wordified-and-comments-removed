@@ -390,7 +390,7 @@ switch
 frameToResize
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -2727,7 +2727,7 @@ index
 8
 &
 &
-GetStyleVisibility
+StyleVisibility
 (
 )
 -

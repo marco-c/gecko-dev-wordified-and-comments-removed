@@ -2550,7 +2550,7 @@ if
 styleContext
 -
 >
-GetStylePadding
+StylePadding
 (
 )
 -
@@ -2575,7 +2575,7 @@ width
 styleContext
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 -
@@ -2593,7 +2593,7 @@ if
 styleContext
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 -

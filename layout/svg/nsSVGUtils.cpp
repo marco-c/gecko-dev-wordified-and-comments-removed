@@ -2399,7 +2399,7 @@ svgInnerSVGFrame
 aFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -4060,7 +4060,7 @@ opacity
 aFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -5746,7 +5746,7 @@ disp
 aFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -6987,7 +6987,7 @@ if
 aFrame
 -
 >
-GetStyleSVGReset
+StyleSVGReset
 (
 )
 -
@@ -7022,7 +7022,7 @@ style
 aFrame
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 ;
@@ -7367,7 +7367,7 @@ if
 aFrame
 -
 >
-GetStyleSVGReset
+StyleSVGReset
 (
 )
 -
@@ -7725,7 +7725,7 @@ style
 aFrame
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 ;
@@ -7832,7 +7832,7 @@ paint
 aStyleContext
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -7905,7 +7905,7 @@ paintIfVisited
 styleIfVisited
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -8062,7 +8062,7 @@ opacity
 aFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -8233,7 +8233,7 @@ style
 aFrame
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 ;
@@ -8415,7 +8415,7 @@ style
 aFrame
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 ;
@@ -8692,7 +8692,7 @@ style
 aFrame
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 ;
@@ -8747,7 +8747,7 @@ style
 aFrame
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 ;
@@ -8898,7 +8898,7 @@ style
 aFrame
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 ;
@@ -9057,7 +9057,7 @@ style
 aFrame
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 ;
@@ -9506,7 +9506,7 @@ switch
 aFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -9530,7 +9530,7 @@ if
 aFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -9545,7 +9545,7 @@ if
 aFrame
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -9567,7 +9567,7 @@ if
 aFrame
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -9589,7 +9589,7 @@ if
 aFrame
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -9614,7 +9614,7 @@ if
 aFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -9640,7 +9640,7 @@ if
 aFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -9666,7 +9666,7 @@ if
 aFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -9694,7 +9694,7 @@ if
 aFrame
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -9716,7 +9716,7 @@ if
 aFrame
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 -
@@ -9738,7 +9738,7 @@ if
 aFrame
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 -

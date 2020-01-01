@@ -231,7 +231,7 @@ uiStyle
 frame
 -
 >
-GetStyleUserInterface
+StyleUserInterface
 (
 )
 ;

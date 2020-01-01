@@ -774,7 +774,7 @@ rv
 if
 (
 !
-GetStyleText
+StyleText
 (
 )
 -
@@ -998,7 +998,7 @@ nsStyleUserInterface
 *
 uiStyle
 =
-GetStyleUserInterface
+StyleUserInterface
 (
 )
 ;

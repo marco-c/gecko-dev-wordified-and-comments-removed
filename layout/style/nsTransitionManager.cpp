@@ -2212,7 +2212,7 @@ disp
 aNewStyleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;

@@ -8485,7 +8485,7 @@ switch
 frame
 -
 >
-GetStyleUIReset
+StyleUIReset
 (
 )
 -
@@ -14950,7 +14950,7 @@ return
 styleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -16094,7 +16094,7 @@ styleText
 elementStyle
 -
 >
-GetStyleText
+StyleText
 (
 )
 ;
@@ -20876,7 +20876,7 @@ if
 frame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -

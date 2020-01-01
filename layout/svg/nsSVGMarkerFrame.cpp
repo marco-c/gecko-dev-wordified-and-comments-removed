@@ -494,7 +494,7 @@ ThebesContext
 ;
 if
 (
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -614,7 +614,7 @@ kid
 }
 if
 (
-GetStyleDisplay
+StyleDisplay
 (
 )
 -

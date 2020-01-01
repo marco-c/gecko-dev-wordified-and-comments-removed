@@ -611,7 +611,7 @@ return
 bool
 isRTL
 =
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -626,7 +626,7 @@ nsStyleColumn
 *
 colStyle
 =
-GetStyleColumn
+StyleColumn
 (
 )
 ;
@@ -1089,7 +1089,7 @@ return
 aFrame
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -1175,7 +1175,7 @@ nsStyleColumn
 *
 colStyle
 =
-GetStyleColumn
+StyleColumn
 (
 )
 ;
@@ -1855,7 +1855,7 @@ nsStyleColumn
 *
 colStyle
 =
-GetStyleColumn
+StyleColumn
 (
 )
 ;
@@ -1982,7 +1982,7 @@ nsStyleColumn
 *
 colStyle
 =
-GetStyleColumn
+StyleColumn
 (
 )
 ;
@@ -2152,7 +2152,7 @@ true
 bool
 RTL
 =
-GetStyleVisibility
+StyleVisibility
 (
 )
 -

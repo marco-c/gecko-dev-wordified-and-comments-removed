@@ -4100,7 +4100,7 @@ aNewAbsoluteContainingBlock
 aNewAbsoluteContainingBlock
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -4394,7 +4394,7 @@ disp
 aNewFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -6402,7 +6402,7 @@ data
 aStyleContext
 -
 >
-GetStyleContent
+StyleContent
 (
 )
 -
@@ -7279,7 +7279,7 @@ contentCount
 pseudoStyleContext
 -
 >
-GetStyleContent
+StyleContent
 (
 )
 -
@@ -7777,7 +7777,7 @@ tablePart
 aStyleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -8019,7 +8019,7 @@ GetGeometricParent
 outerStyleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 aParentFrame
@@ -8127,7 +8127,7 @@ display
 outerStyleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -9252,7 +9252,7 @@ presContext
 rootStyle
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 )
@@ -9389,7 +9389,7 @@ presContext
 bodyStyle
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 )
@@ -9579,7 +9579,7 @@ display
 styleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -9715,7 +9715,7 @@ display
 styleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -9968,7 +9968,7 @@ mDocElementContainingBlock
 styleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 frameItems
@@ -10108,7 +10108,7 @@ mDocElementContainingBlock
 styleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 frameItems
@@ -12109,7 +12109,7 @@ display
 aStyleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -13524,7 +13524,7 @@ fieldset
 aStyleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -13537,7 +13537,7 @@ IsFloatingStyle
 aStyleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -14514,7 +14514,7 @@ display
 styleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -14937,7 +14937,7 @@ blockDisplay
 blockContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -17054,7 +17054,7 @@ if
 aStyleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -17108,7 +17108,7 @@ if
 aStyleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -17319,7 +17319,7 @@ IsXULDisplayType
 aContentStyle
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 )
@@ -18151,7 +18151,7 @@ aState
 scrolledContentStyle
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 content
@@ -18991,7 +18991,7 @@ if
 aStyleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -19270,7 +19270,7 @@ GetGeometricParent
 styleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 aParentFrame
@@ -20599,7 +20599,7 @@ NS_ASSERTION
 pseudoStyle
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -21172,7 +21172,7 @@ display
 aStyleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -21339,7 +21339,7 @@ display
 styleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -22172,7 +22172,7 @@ aParentFrame
 aParentFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -22756,7 +22756,7 @@ aIter
 styleContext
 -
 >
-GetStyleText
+StyleText
 (
 )
 -
@@ -23167,7 +23167,7 @@ FIXED_POS
 frame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -23994,7 +23994,7 @@ parentDisplay
 aParentFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -24297,7 +24297,7 @@ display
 styleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -32210,7 +32210,7 @@ IsTransformed
 aFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -33107,7 +33107,7 @@ aPositionMask
 outOfFlow
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -34379,7 +34379,7 @@ if
 oldContext
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -34392,7 +34392,7 @@ size
 newContext
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -34620,7 +34620,7 @@ app
 primaryFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -35067,7 +35067,7 @@ disp
 primaryFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -37833,7 +37833,7 @@ disp
 newContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -40182,7 +40182,7 @@ newItem
 mStyleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -40784,7 +40784,7 @@ table
 parentStyle
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -40868,7 +40868,7 @@ newItem
 mStyleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -42020,7 +42020,7 @@ display
 frameStyleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -43287,7 +43287,7 @@ GetGeometricParent
 aStyleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 aParentFrame
@@ -43742,7 +43742,7 @@ display
 sc
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -45226,7 +45226,7 @@ display
 styleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -45503,7 +45503,7 @@ columns
 aStyleContext
 -
 >
-GetStyleColumn
+StyleColumn
 (
 )
 ;
@@ -49986,7 +49986,7 @@ GetGeometricParent
 mStyleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 nullptr
@@ -50781,7 +50781,7 @@ display
 aFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -50862,7 +50862,7 @@ ComputeRelativeOffsets
 cb
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -50946,7 +50946,7 @@ position
 aFrame
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 ;

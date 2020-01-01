@@ -643,7 +643,7 @@ border
 frame
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 ;
@@ -681,7 +681,7 @@ parentBorder
 parent
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 ;

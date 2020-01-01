@@ -805,7 +805,7 @@ borderStyle
 aFrame
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 ;
@@ -2502,7 +2502,7 @@ floatDisplay
 aFloat
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -3281,7 +3281,7 @@ NS_STYLE_PAGE_BREAK_AVOID
 aFloat
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -3768,7 +3768,7 @@ if
 aFloat
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -3794,7 +3794,7 @@ NS_ABORT_IF_FALSE
 aFloat
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -

@@ -1481,7 +1481,7 @@ bg
 bgSC
 -
 >
-GetStyleBackground
+StyleBackground
 (
 )
 ;
@@ -1827,7 +1827,7 @@ return
 if
 (
 !
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -1956,11 +1956,11 @@ root
 root
 -
 >
-GetStyleColor
+StyleColor
 (
 )
 :
-GetStyleColor
+StyleColor
 (
 )
 ;
@@ -2379,7 +2379,7 @@ styleDisp
 kidFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;

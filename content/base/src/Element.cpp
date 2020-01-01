@@ -1573,7 +1573,7 @@ aResult
 sc
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -2661,7 +2661,7 @@ Size
 aFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -2875,7 +2875,7 @@ styledFrame
 styledFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -

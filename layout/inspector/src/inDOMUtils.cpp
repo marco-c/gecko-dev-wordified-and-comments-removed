@@ -333,7 +333,7 @@ text
 frame
 -
 >
-GetStyleText
+StyleText
 (
 )
 ;

@@ -4359,7 +4359,7 @@ font
 mParentFrame
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 ;
@@ -5116,7 +5116,7 @@ GetThinSpace
 parentContext
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 )
@@ -5243,7 +5243,7 @@ gap
 =
 GetInterFrameSpacingFor
 (
-GetStyleFont
+StyleFont
 (
 )
 -

@@ -3363,7 +3363,7 @@ font
 aStyleContext
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -3659,7 +3659,7 @@ font
 sc
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -4179,7 +4179,7 @@ mChar
 mStyleContext
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -4957,7 +4957,7 @@ font
 sc
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -5121,7 +5121,7 @@ GetParent
 )
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -5193,7 +5193,7 @@ font
 mStyleContext
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -5606,7 +5606,7 @@ font
 mStyleContext
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -6672,7 +6672,7 @@ border
 mStyleContext
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 ;
@@ -7204,7 +7204,7 @@ if
 styleContext
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -7273,7 +7273,7 @@ backg
 styleContext
 -
 >
-GetStyleBackground
+StyleBackground
 (
 )
 ;
@@ -7564,7 +7564,7 @@ theFont
 styleContext
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -7608,7 +7608,7 @@ theFont
 styleContext
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -

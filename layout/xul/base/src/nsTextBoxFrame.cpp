@@ -1319,7 +1319,7 @@ mVisibleRect
 mFrame
 -
 >
-GetStyleColor
+StyleColor
 (
 )
 -
@@ -1651,7 +1651,7 @@ styleText
 context
 -
 >
-GetStyleTextReset
+StyleTextReset
 (
 )
 ;
@@ -2144,7 +2144,7 @@ aOverrideColor
 *
 aOverrideColor
 :
-GetStyleColor
+StyleColor
 (
 )
 -
@@ -2179,7 +2179,7 @@ nsStyleVisibility
 *
 vis
 =
-GetStyleVisibility
+StyleVisibility
 (
 )
 ;
@@ -3852,7 +3852,7 @@ nsStyleText
 *
 textStyle
 =
-GetStyleText
+StyleText
 (
 )
 ;
@@ -4036,7 +4036,7 @@ GetComponentAlphaBounds
 {
 if
 (
-GetStyleText
+StyleText
 (
 )
 -
@@ -4326,7 +4326,7 @@ nsStyleVisibility
 *
 vis
 =
-GetStyleVisibility
+StyleVisibility
 (
 )
 ;
@@ -4335,7 +4335,7 @@ nsStyleText
 *
 textStyle
 =
-GetStyleText
+StyleText
 (
 )
 ;

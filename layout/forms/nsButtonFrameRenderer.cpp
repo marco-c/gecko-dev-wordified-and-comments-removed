@@ -810,7 +810,7 @@ disp
 mFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -898,7 +898,7 @@ if
 mFrame
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 -
@@ -1235,7 +1235,7 @@ if
 mOuterFocusStyle
 -
 >
-GetStylePadding
+StylePadding
 (
 )
 -
@@ -1261,7 +1261,7 @@ result
 mOuterFocusStyle
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 -
@@ -1322,7 +1322,7 @@ margin
 mInnerFocusStyle
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 ;
@@ -1380,7 +1380,7 @@ if
 mInnerFocusStyle
 -
 >
-GetStylePadding
+StylePadding
 (
 )
 -
@@ -1406,7 +1406,7 @@ result
 mInnerFocusStyle
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 -

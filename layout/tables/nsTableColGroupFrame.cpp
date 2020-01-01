@@ -1847,7 +1847,7 @@ nsStyleVisibility
 *
 groupVis
 =
-GetStyleVisibility
+StyleVisibility
 (
 )
 ;
@@ -2064,7 +2064,7 @@ NS_STYLE_DISPLAY_TABLE_COLUMN
 childFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -2106,7 +2106,7 @@ GetSpan
 )
 {
 return
-GetStyleTable
+StyleTable
 (
 )
 -

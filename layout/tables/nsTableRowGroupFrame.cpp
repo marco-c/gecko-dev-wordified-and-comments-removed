@@ -206,7 +206,7 @@ get
 )
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -404,7 +404,7 @@ NS_STYLE_DISPLAY_TABLE_ROW
 rowFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -1831,7 +1831,7 @@ nsStylePosition
 *
 stylePos
 =
-GetStylePosition
+StylePosition
 (
 )
 ;
@@ -3992,7 +3992,7 @@ nsStyleVisibility
 *
 groupVis
 =
-GetStyleVisibility
+StyleVisibility
 (
 )
 ;
@@ -6344,7 +6344,7 @@ nsStyleVisibility
 *
 groupVis
 =
-GetStyleVisibility
+StyleVisibility
 (
 )
 ;
@@ -6805,7 +6805,7 @@ get
 )
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -7061,7 +7061,7 @@ get
 )
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -7723,7 +7723,7 @@ return
 firstChild
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -7762,7 +7762,7 @@ return
 lastChild
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -8051,7 +8051,7 @@ NS_STYLE_DIRECTION_RTL
 table
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -8608,7 +8608,7 @@ NS_STYLE_DIRECTION_RTL
 table
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -

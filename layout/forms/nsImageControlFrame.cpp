@@ -710,7 +710,7 @@ nsStyleUserInterface
 *
 uiStyle
 =
-GetStyleUserInterface
+StyleUserInterface
 (
 )
 ;
@@ -900,7 +900,7 @@ aCursor
 {
 FillCursorInformationFromStyle
 (
-GetStyleUserInterface
+StyleUserInterface
 (
 )
 aCursor

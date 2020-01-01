@@ -1308,7 +1308,7 @@ bordercolor
 EnsureDifferentColors
 (
 bordercolor
-GetStyleBackground
+StyleBackground
 (
 )
 -
@@ -1551,7 +1551,7 @@ aFlags
 if
 (
 !
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -1922,7 +1922,7 @@ IsBorderCollapse
 (
 )
 ?
-GetStyleTableBorder
+StyleTableBorder
 (
 )
 -
@@ -1933,7 +1933,7 @@ NS_STYLE_TABLE_EMPTY_CELLS_SHOW
 ;
 if
 (
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -1998,7 +1998,7 @@ nsStyleBorder
 *
 borderStyle
 =
-GetStyleBorder
+StyleBorder
 (
 )
 ;
@@ -2066,7 +2066,7 @@ isRoot
 &
 (
 !
-GetStyleBackground
+StyleBackground
 (
 )
 -
@@ -2076,7 +2076,7 @@ IsTransparent
 )
 |
 |
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -2757,7 +2757,7 @@ nsStyleCoord
 &
 verticalAlign
 =
-GetStyleTextReset
+StyleTextReset
 (
 )
 -
@@ -4572,7 +4572,7 @@ const
 {
 aBorder
 =
-GetStyleBorder
+StyleBorder
 (
 )
 -
@@ -5048,7 +5048,7 @@ nsStyleBorder
 myBorder
 (
 *
-GetStyleBorder
+StyleBorder
 (
 )
 )
@@ -5060,7 +5060,7 @@ myBorder
 .
 mImageTracked
 =
-GetStyleBorder
+StyleBorder
 (
 )
 -

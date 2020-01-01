@@ -532,7 +532,7 @@ if
 aFrame
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -

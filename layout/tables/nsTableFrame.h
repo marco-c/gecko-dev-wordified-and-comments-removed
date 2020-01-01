@@ -154,7 +154,7 @@ return
 f
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -169,7 +169,7 @@ IsVisible
 f
 -
 >
-GetStyleBackground
+StyleBackground
 (
 )
 -
@@ -182,7 +182,7 @@ IsTransparent
 f
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -193,7 +193,7 @@ mAppearance
 f
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 -

@@ -1015,7 +1015,7 @@ display
 frame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -1528,7 +1528,7 @@ font
 aStyleContext
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 ;
@@ -2161,7 +2161,7 @@ if
 aFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -

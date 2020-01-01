@@ -3923,7 +3923,7 @@ frame
 frame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -

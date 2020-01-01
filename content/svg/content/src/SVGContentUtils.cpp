@@ -407,7 +407,7 @@ fontSize
 aStyleContext
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -

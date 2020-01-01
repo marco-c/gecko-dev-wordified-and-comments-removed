@@ -780,7 +780,7 @@ nsStyleTableBorder
 *
 tableStyle
 =
-GetStyleTableBorder
+StyleTableBorder
 (
 )
 ;
@@ -1043,7 +1043,7 @@ display
 aSourceFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -1109,7 +1109,7 @@ display
 aNextFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -1265,7 +1265,7 @@ childDisplay
 childFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -2252,7 +2252,7 @@ get
 )
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -5024,7 +5024,7 @@ if
 bgSC
 -
 >
-GetStyleBackground
+StyleBackground
 (
 )
 -
@@ -5423,7 +5423,7 @@ hasBoxShadow
 aFrame
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 -
@@ -5786,7 +5786,7 @@ aBuilder
 {
 if
 (
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -6028,7 +6028,7 @@ return
 ;
 if
 (
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -6224,7 +6224,7 @@ First
 bool
 tableIsLTR
 =
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -6342,7 +6342,7 @@ NS_STYLE_DISPLAY_TABLE_COLUMN
 colFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -8152,7 +8152,7 @@ if
 ApplyOverflowClipping
 (
 this
-GetStyleDisplay
+StyleDisplay
 (
 )
 )
@@ -8352,7 +8352,7 @@ childDisplay
 kidFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -8882,7 +8882,7 @@ groupVis
 groupFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 ;
@@ -8942,7 +8942,7 @@ colDisplay
 colFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -8975,7 +8975,7 @@ colVis
 colFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 ;
@@ -9239,7 +9239,7 @@ display
 f
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -9549,7 +9549,7 @@ FirstChild
 )
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -9598,7 +9598,7 @@ next
 next
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -9695,7 +9695,7 @@ display
 next
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -9786,7 +9786,7 @@ FirstChild
 )
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -9830,7 +9830,7 @@ get
 )
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -9878,7 +9878,7 @@ prevDisplay
 aPrevFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -10705,7 +10705,7 @@ NS_STYLE_DISPLAY_TABLE_COLUMN_GROUP
 aOldFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -11375,7 +11375,7 @@ border
 =
 aStyleContext
 .
-GetStyleBorder
+StyleBorder
 (
 )
 ;
@@ -11746,7 +11746,7 @@ kidDisplay
 kidFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -11963,7 +11963,7 @@ if
 kidFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -12055,7 +12055,7 @@ if
 kidFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -15845,7 +15845,7 @@ return
 0
 ;
 return
-GetStyleTableBorder
+StyleTableBorder
 (
 )
 -
@@ -15871,7 +15871,7 @@ return
 0
 ;
 return
-GetStyleTableBorder
+StyleTableBorder
 (
 )
 -
@@ -16123,7 +16123,7 @@ nsStyleCoord
 &
 height
 =
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -16240,7 +16240,7 @@ IsAutoLayout
 {
 if
 (
-GetStyleTable
+StyleTable
 (
 )
 -
@@ -16258,7 +16258,7 @@ nsStyleCoord
 &
 width
 =
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -17170,7 +17170,7 @@ NS_STYLE_DIRECTION_LTR
 table
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -18323,7 +18323,7 @@ mTableIsLTR
 aTableFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -20668,7 +20668,7 @@ styleData
 aFrame
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 ;
@@ -20896,7 +20896,7 @@ styleData
 aFrame
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 ;
@@ -21078,7 +21078,7 @@ newStyleData
 aNewStyleContext
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 ;
@@ -28937,7 +28937,7 @@ mTableIsLTR
 mTable
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -28975,7 +28975,7 @@ mTableBgColor
 bgFrame
 -
 >
-GetStyleBackground
+StyleBackground
 (
 )
 ;
@@ -30330,7 +30330,7 @@ display
 mRg
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;

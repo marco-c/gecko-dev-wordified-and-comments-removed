@@ -737,7 +737,7 @@ nsStyle
 #
 name_
 *
-GetStyle
+Style
 #
 #
 name_
@@ -861,7 +861,7 @@ StartBackgroundImageLoads
 (
 )
 {
-GetStyleBackground
+StyleBackground
 (
 )
 ;

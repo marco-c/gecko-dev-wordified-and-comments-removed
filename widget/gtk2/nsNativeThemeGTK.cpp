@@ -669,7 +669,7 @@ switch
 aFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -2398,7 +2398,7 @@ eventStates
 stateFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -

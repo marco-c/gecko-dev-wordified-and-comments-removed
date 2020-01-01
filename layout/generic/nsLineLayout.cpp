@@ -373,7 +373,7 @@ aOuterReflowState
 frame
 -
 >
-GetStyleText
+StyleText
 (
 )
 ;
@@ -2143,7 +2143,7 @@ aSpanReflowState
 frame
 -
 >
-GetStyleText
+StyleText
 (
 )
 -
@@ -3224,7 +3224,7 @@ margin
 aFrame
 -
 >
-GetStyleMargin
+StyleMargin
 (
 )
 ;
@@ -3251,7 +3251,7 @@ padding
 aFrame
 -
 >
-GetStylePadding
+StylePadding
 (
 )
 ;
@@ -3278,7 +3278,7 @@ pos
 aFrame
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 ;
@@ -3368,7 +3368,7 @@ disp
 aFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -6171,7 +6171,7 @@ pfd
 mFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -8191,7 +8191,7 @@ GetPrevInFlow
 spanFrame
 -
 >
-GetStyleText
+StyleText
 (
 )
 -
@@ -8534,7 +8534,7 @@ verticalAlign
 frame
 -
 >
-GetStyleTextReset
+StyleTextReset
 (
 )
 -
@@ -9371,7 +9371,7 @@ canUpdate
 frame
 -
 >
-GetStyleText
+StyleText
 (
 )
 -

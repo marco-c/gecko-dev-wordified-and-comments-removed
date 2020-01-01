@@ -2694,7 +2694,7 @@ aLists
 {
 if
 (
-GetStyleBorder
+StyleBorder
 (
 )
 -

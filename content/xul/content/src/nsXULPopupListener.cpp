@@ -1031,7 +1031,7 @@ ui
 targetFrame
 -
 >
-GetStyleUserInterface
+StyleUserInterface
 (
 )
 ;

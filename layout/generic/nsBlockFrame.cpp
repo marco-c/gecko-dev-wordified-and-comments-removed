@@ -1500,7 +1500,7 @@ nsStyleVisibility
 *
 visibility
 =
-GetStyleVisibility
+StyleVisibility
 (
 )
 ;
@@ -3912,7 +3912,7 @@ nsStyleCoord
 &
 indent
 =
-GetStyleText
+StyleText
 (
 )
 -
@@ -4375,7 +4375,7 @@ nsStyleCoord
 &
 indent
 =
-GetStyleText
+StyleText
 (
 )
 -
@@ -7851,7 +7851,7 @@ nsStyleText
 *
 styleText
 =
-GetStyleText
+StyleText
 (
 )
 ;
@@ -7860,14 +7860,14 @@ nsStyleTextReset
 *
 styleTextReset
 =
-GetStyleTextReset
+StyleTextReset
 (
 )
 ;
 bool
 tryAndSkipLines
 =
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -7901,7 +7901,7 @@ this
 &
 &
 !
-GetStylePadding
+StylePadding
 (
 )
 -
@@ -13176,7 +13176,7 @@ nsStyleDisplay
 *
 styleDisplay
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -13358,7 +13358,7 @@ nsStylePosition
 *
 position
 =
-GetStylePosition
+StylePosition
 (
 )
 ;
@@ -13389,7 +13389,7 @@ nsStyleBorder
 *
 border
 =
-GetStyleBorder
+StyleBorder
 (
 )
 ;
@@ -13398,7 +13398,7 @@ nsStylePadding
 *
 padding
 =
-GetStylePadding
+StylePadding
 (
 )
 ;
@@ -13818,7 +13818,7 @@ display
 frame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -16311,7 +16311,7 @@ direction
 ;
 if
 (
-GetStyleTextReset
+StyleTextReset
 (
 )
 -
@@ -16360,7 +16360,7 @@ else
 {
 direction
 =
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -18126,7 +18126,7 @@ if
 aFloat
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -18154,7 +18154,7 @@ NS_ABORT_IF_FALSE
 aFloat
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -19317,7 +19317,7 @@ nsStyleText
 *
 styleText
 =
-GetStyleText
+StyleText
 (
 )
 ;
@@ -19406,7 +19406,7 @@ IsVisualMode
 )
 |
 |
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -22511,7 +22511,7 @@ HasTerminalNewline
 aLastFrame
 -
 >
-GetStyleText
+StyleText
 (
 )
 -
@@ -26740,7 +26740,7 @@ floatDisplay
 aFloatFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -30382,7 +30382,7 @@ NS_STYLE_DISPLAY_LIST_ITEM
 possibleListItem
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -30401,7 +30401,7 @@ nsStyleList
 *
 styleList
 =
-GetStyleList
+StyleList
 (
 )
 ;
@@ -30638,7 +30638,7 @@ GetPrimaryFrame
 )
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -30670,7 +30670,7 @@ nsStyleList
 *
 list
 =
-GetStyleList
+StyleList
 (
 )
 ;
@@ -30716,7 +30716,7 @@ nsStyleList
 *
 myList
 =
-GetStyleList
+StyleList
 (
 )
 ;
@@ -31380,7 +31380,7 @@ display
 kid
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;

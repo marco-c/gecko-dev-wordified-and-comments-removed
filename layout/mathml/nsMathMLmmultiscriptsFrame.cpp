@@ -391,7 +391,7 @@ nsStyleFont
 *
 font
 =
-GetStyleFont
+StyleFont
 (
 )
 ;

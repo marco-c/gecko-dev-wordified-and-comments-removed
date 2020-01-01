@@ -1558,7 +1558,7 @@ nsStyle
 #
 name_
 *
-GetStyle
+Style
 #
 #
 name_
@@ -1584,7 +1584,7 @@ return
 mStyleContext
 -
 >
-GetStyle
+Style
 #
 #
 name_
@@ -1610,7 +1610,7 @@ nsStyle
 #
 name_
 *
-GetStyle
+Style
 #
 #
 name_
@@ -2821,7 +2821,7 @@ const
 return
 IsThemed
 (
-GetStyleDisplay
+StyleDisplay
 (
 )
 aTransparencyState
@@ -5158,7 +5158,7 @@ nsStyleDisplay
 *
 disp
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -7339,7 +7339,7 @@ IsFloating
 const
 {
 return
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -7360,7 +7360,7 @@ IsPositioned
 const
 {
 return
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -7381,7 +7381,7 @@ IsRelativelyPositioned
 const
 {
 return
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -7402,7 +7402,7 @@ IsAbsolutelyPositioned
 const
 {
 return
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -7423,7 +7423,7 @@ IsBlockInside
 const
 {
 return
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -7444,7 +7444,7 @@ IsBlockOutside
 const
 {
 return
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -7465,7 +7465,7 @@ IsInlineOutside
 const
 {
 return
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -7486,7 +7486,7 @@ GetDisplay
 const
 {
 return
-GetStyleDisplay
+StyleDisplay
 (
 )
 -

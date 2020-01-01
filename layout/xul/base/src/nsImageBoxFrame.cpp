@@ -1016,7 +1016,7 @@ else
 uint8_t
 appearance
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -1055,7 +1055,7 @@ imgRequestProxy
 *
 styleRequest
 =
-GetStyleList
+StyleList
 (
 )
 -
@@ -1891,7 +1891,7 @@ nsStyleList
 *
 myList
 =
-GetStyleList
+StyleList
 (
 )
 ;
@@ -1916,7 +1916,7 @@ nsStyleDisplay
 *
 disp
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;

@@ -6957,7 +6957,7 @@ aStyleText
 aFrame
 -
 >
-GetStyleText
+StyleText
 (
 )
 ;
@@ -7012,7 +7012,7 @@ aStyleText
 aFrame
 -
 >
-GetStyleText
+StyleText
 (
 )
 ;
@@ -7090,7 +7090,7 @@ textStyle1
 sc1
 -
 >
-GetStyleText
+StyleText
 (
 )
 ;
@@ -7164,7 +7164,7 @@ textStyle2
 sc2
 -
 >
-GetStyleText
+StyleText
 (
 )
 ;
@@ -7186,7 +7186,7 @@ fontStyle1
 sc1
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 ;
@@ -7198,7 +7198,7 @@ fontStyle2
 sc2
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 ;
@@ -7236,7 +7236,7 @@ mFont
 sc1
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -7247,7 +7247,7 @@ mLanguage
 sc2
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -8506,7 +8506,7 @@ mLineContainer
 mLineContainer
 -
 >
-GetStyleText
+StyleText
 (
 )
 -
@@ -8520,7 +8520,7 @@ NS_STYLE_TEXT_ALIGN_JUSTIFY
 mLineContainer
 -
 >
-GetStyleText
+StyleText
 (
 )
 -
@@ -8545,7 +8545,7 @@ switch
 mLineContainer
 -
 >
-GetStyleText
+StyleText
 (
 )
 -
@@ -8671,7 +8671,7 @@ textStyle
 f
 -
 >
-GetStyleText
+StyleText
 (
 )
 ;
@@ -8755,7 +8755,7 @@ fontStyle
 f
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 ;
@@ -10375,7 +10375,7 @@ textStyle
 f
 -
 >
-GetStyleText
+StyleText
 (
 )
 ;
@@ -10953,7 +10953,7 @@ mMappedFlows
 mStartFrame
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 ;
@@ -11132,7 +11132,7 @@ if
 initialBreakController
 -
 >
-GetStyleText
+StyleText
 (
 )
 -
@@ -11168,7 +11168,7 @@ textStyle
 startFrame
 -
 >
-GetStyleText
+StyleText
 (
 )
 ;
@@ -12810,7 +12810,7 @@ nsStyleText
 *
 textStyle
 =
-GetStyleText
+StyleText
 (
 )
 ;
@@ -13354,7 +13354,7 @@ language
 aFrame
 -
 >
-GetStyleFont
+StyleFont
 (
 )
 -
@@ -13701,7 +13701,7 @@ mTextStyle
 aFrame
 -
 >
-GetStyleText
+StyleText
 (
 )
 )
@@ -13889,7 +13889,7 @@ aEnd
 const
 nsStyleText
 *
-GetStyleText
+StyleText
 (
 )
 {
@@ -14738,7 +14738,7 @@ aIgnoreTabs
 mFrame
 -
 >
-GetStyleText
+StyleText
 (
 )
 -
@@ -15014,7 +15014,7 @@ textStyle
 aFrame
 -
 >
-GetStyleText
+StyleText
 (
 )
 ;
@@ -17389,7 +17389,7 @@ style
 mFrame
 -
 >
-GetStyleSVG
+StyleSVG
 (
 )
 ;
@@ -18333,7 +18333,7 @@ mSelectionShadow
 sc
 -
 >
-GetStyleText
+StyleText
 (
 )
 -
@@ -20941,7 +20941,7 @@ aCursor
 {
 FillCursorInformationFromStyle
 (
-GetStyleUserInterface
+StyleUserInterface
 (
 )
 aCursor
@@ -23214,7 +23214,7 @@ styleText
 context
 -
 >
-GetStyleTextReset
+StyleTextReset
 (
 )
 ;
@@ -23691,7 +23691,7 @@ StyleContext
 )
 -
 >
-GetStyleTextReset
+StyleTextReset
 (
 )
 -
@@ -26851,7 +26851,7 @@ nsStyleText
 *
 textStyle
 =
-GetStyleText
+StyleText
 (
 )
 ;
@@ -27935,7 +27935,7 @@ nsStyleSVG
 *
 style
 =
-GetStyleSVG
+StyleSVG
 (
 )
 ;
@@ -29010,7 +29010,7 @@ nsStyleText
 *
 textStyle
 =
-GetStyleText
+StyleText
 (
 )
 ;
@@ -30731,7 +30731,7 @@ GetOriginalLength
 ;
 if
 (
-GetStyleText
+StyleText
 (
 )
 -
@@ -32675,7 +32675,7 @@ GetEnd
 )
 &
 &
-GetStyleText
+StyleText
 (
 )
 -
@@ -34502,7 +34502,7 @@ nsStyleText
 *
 textStyle
 =
-GetStyleText
+StyleText
 (
 )
 ;
@@ -35462,7 +35462,7 @@ nsStyleText
 *
 textStyle
 =
-GetStyleText
+StyleText
 (
 )
 ;
@@ -36836,7 +36836,7 @@ if
 aLineLayout
 &
 &
-GetStyleText
+StyleText
 (
 )
 -
@@ -37785,7 +37785,7 @@ nsStyleText
 *
 textStyle
 =
-GetStyleText
+StyleText
 (
 )
 ;
@@ -39924,7 +39924,7 @@ WhiteSpaceIsSignificant
 lineContainer
 -
 >
-GetStyleText
+StyleText
 (
 )
 -
@@ -39938,7 +39938,7 @@ NS_STYLE_TEXT_ALIGN_JUSTIFY
 lineContainer
 -
 >
-GetStyleText
+StyleText
 (
 )
 -
@@ -40195,7 +40195,7 @@ nsStyleText
 *
 textStyle
 =
-GetStyleText
+StyleText
 (
 )
 ;
@@ -40957,7 +40957,7 @@ textStyle
 textFrame
 -
 >
-GetStyleText
+StyleText
 (
 )
 ;
@@ -41387,7 +41387,7 @@ nsStyleText
 *
 textStyle
 =
-GetStyleText
+StyleText
 (
 )
 ;

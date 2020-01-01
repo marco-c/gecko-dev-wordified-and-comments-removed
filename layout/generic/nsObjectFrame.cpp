@@ -3655,7 +3655,7 @@ aCheckVisibilityStyle
 if
 (
 !
-GetStyleVisibility
+StyleVisibility
 (
 )
 -

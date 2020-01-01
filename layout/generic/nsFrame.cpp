@@ -1399,7 +1399,7 @@ const
 if
 (
 !
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -1575,7 +1575,7 @@ if
 parent
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -2341,7 +2341,7 @@ nsStyleDisplay
 *
 disp
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -3263,7 +3263,7 @@ aOldStyleContext
 aOldStyleContext
 -
 >
-GetStyleBackground
+StyleBackground
 (
 )
 :
@@ -3274,7 +3274,7 @@ nsStyleBackground
 *
 newBG
 =
-GetStyleBackground
+StyleBackground
 (
 )
 ;
@@ -3516,7 +3516,7 @@ if
 (
 (
 !
-GetStyleMargin
+StyleMargin
 (
 )
 -
@@ -3591,7 +3591,7 @@ if
 (
 (
 !
-GetStylePadding
+StylePadding
 (
 )
 -
@@ -3664,7 +3664,7 @@ GetComputedBorder
 ;
 newValue
 =
-GetStyleBorder
+StyleBorder
 (
 )
 -
@@ -3718,7 +3718,7 @@ aOldStyleContext
 aOldStyleContext
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 -
@@ -3733,7 +3733,7 @@ imgIRequest
 *
 newBorderImage
 =
-GetStyleBorder
+StyleBorder
 (
 )
 -
@@ -3785,7 +3785,7 @@ this
 }
 if
 (
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -4051,7 +4051,7 @@ hasMargin
 =
 #
 endif
-GetStyleMargin
+StyleMargin
 (
 )
 -
@@ -4150,7 +4150,7 @@ nsStyleDisplay
 *
 disp
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -4298,7 +4298,7 @@ else
 {
 border
 =
-GetStyleBorder
+StyleBorder
 (
 )
 -
@@ -4376,7 +4376,7 @@ nsStyleDisplay
 *
 disp
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -4534,7 +4534,7 @@ hasPadding
 =
 #
 endif
-GetStylePadding
+StylePadding
 (
 )
 -
@@ -4740,7 +4740,7 @@ NS_FRAME_MAY_BE_TRANSFORMED
 &
 &
 (
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -4800,7 +4800,7 @@ HasOpacity
 const
 {
 return
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -4868,7 +4868,7 @@ const
 {
 if
 (
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -4880,7 +4880,7 @@ NS_STYLE_TRANSFORM_STYLE_PRESERVE_3D
 |
 |
 !
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -4918,7 +4918,7 @@ ApplyOverflowClipping
 (
 nullptr
 this
-GetStyleDisplay
+StyleDisplay
 (
 )
 &
@@ -4930,7 +4930,7 @@ temp
 ApplyClipPropClipping
 (
 nullptr
-GetStyleDisplay
+StyleDisplay
 (
 )
 this
@@ -4979,7 +4979,7 @@ Preserves3DChildren
 |
 |
 !
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -5049,7 +5049,7 @@ parentDisp
 parentStyleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -5108,7 +5108,7 @@ nsStyleDisplay
 *
 disp
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -5856,7 +5856,7 @@ GetSize
 return
 ComputeBorderRadii
 (
-GetStyleBorder
+StyleBorder
 (
 )
 -
@@ -6969,7 +6969,7 @@ aLists
 {
 if
 (
-GetStyleOutline
+StyleOutline
 (
 )
 -
@@ -7098,7 +7098,7 @@ aOffset
 )
 {
 return
-GetStyleColor
+StyleColor
 (
 )
 -
@@ -7146,7 +7146,7 @@ aForceBackground
 |
 |
 !
-GetStyleBackground
+StyleBackground
 (
 )
 -
@@ -7156,7 +7156,7 @@ IsTransparent
 )
 |
 |
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -7212,7 +7212,7 @@ nsCSSShadowArray
 *
 shadows
 =
-GetStyleBorder
+StyleBorder
 (
 )
 -
@@ -7319,7 +7319,7 @@ IsThemed
 )
 &
 &
-GetStyleBorder
+StyleBorder
 (
 )
 -
@@ -8944,7 +8944,7 @@ nsStyleDisplay
 *
 disp
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -10253,7 +10253,7 @@ nsStyleDisplay
 *
 ourDisp
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -10294,7 +10294,7 @@ disp
 child
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -10569,7 +10569,7 @@ pos
 child
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 ;
@@ -11989,7 +11989,7 @@ userinterface
 frame
 -
 >
-GetStyleUIReset
+StyleUIReset
 (
 )
 ;
@@ -14857,7 +14857,7 @@ SKIP_HIDDEN
 aFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -14884,7 +14884,7 @@ IsGeneratedContentFrame
 aFrame
 -
 >
-GetStyleUIReset
+StyleUIReset
 (
 )
 -
@@ -14910,7 +14910,7 @@ style
 aFrame
 -
 >
-GetStyleUIReset
+StyleUIReset
 (
 )
 -
@@ -16167,7 +16167,7 @@ isRtl
 aFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -16375,7 +16375,7 @@ if
 frame
 -
 >
-GetStyleUIReset
+StyleUIReset
 (
 )
 -
@@ -16452,7 +16452,7 @@ adjustedFrame
 adjustedFrame
 -
 >
-GetStyleUIReset
+StyleUIReset
 (
 )
 -
@@ -16793,7 +16793,7 @@ aCursor
 {
 FillCursorInformationFromStyle
 (
-GetStyleUserInterface
+StyleUserInterface
 (
 )
 aCursor
@@ -17034,7 +17034,7 @@ GetParent
 )
 -
 >
-GetStyleText
+StyleText
 (
 )
 -
@@ -17402,7 +17402,7 @@ Frame
 )
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -17812,7 +17812,7 @@ nsStyleMargin
 *
 styleMargin
 =
-GetStyleMargin
+StyleMargin
 (
 )
 ;
@@ -17867,7 +17867,7 @@ nsStylePadding
 *
 stylePadding
 =
-GetStylePadding
+StylePadding
 (
 )
 ;
@@ -17922,7 +17922,7 @@ nsStyleBorder
 *
 styleBorder
 =
-GetStyleBorder
+StyleBorder
 (
 )
 ;
@@ -17957,7 +17957,7 @@ nsStyleDisplay
 *
 disp
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -18164,7 +18164,7 @@ nsStylePosition
 *
 stylePos
 =
-GetStylePosition
+StylePosition
 (
 )
 ;
@@ -18264,7 +18264,7 @@ flexDirection
 mParent
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -18707,7 +18707,7 @@ nsStyleDisplay
 *
 disp
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -18929,7 +18929,7 @@ const
 {
 if
 (
-GetStyleOutline
+StyleOutline
 (
 )
 -
@@ -18942,7 +18942,7 @@ GetOutlineStyle
 NS_STYLE_BORDER_STYLE_NONE
 |
 |
-GetStyleBorder
+StyleBorder
 (
 )
 -
@@ -18953,7 +18953,7 @@ HasBorder
 |
 |
 !
-GetStyleBackground
+StyleBackground
 (
 )
 -
@@ -18963,7 +18963,7 @@ IsTransparent
 )
 |
 |
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -19108,7 +19108,7 @@ NS_UNCONSTRAINEDSIZE
 ;
 if
 (
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -23544,7 +23544,7 @@ if
 aFrame
 -
 >
-GetStyleSVGReset
+StyleSVGReset
 (
 )
 -
@@ -23619,7 +23619,7 @@ outline
 aFrame
 -
 >
-GetStyleOutline
+StyleOutline
 (
 )
 ;
@@ -23748,7 +23748,7 @@ styleBorder
 aFrame
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 ;
@@ -25601,7 +25601,7 @@ aBuilder
 if
 (
 !
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -25646,7 +25646,7 @@ IsVisibleForPainting
 if
 (
 !
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -25784,7 +25784,7 @@ aBuilder
 if
 (
 !
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -28519,7 +28519,7 @@ HasTerminalNewline
 aFrame
 -
 >
-GetStyleText
+StyleText
 (
 )
 -
@@ -29370,7 +29370,7 @@ eDirPrevious
 current
 -
 >
-GetStyleText
+StyleText
 (
 )
 -
@@ -29649,7 +29649,7 @@ HasTerminalNewline
 current
 -
 >
-GetStyleText
+StyleText
 (
 )
 -
@@ -32705,7 +32705,7 @@ nsStyleDisplay
 *
 disp
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -35085,7 +35085,7 @@ nsStyleUserInterface
 *
 ui
 =
-GetStyleUserInterface
+StyleUserInterface
 (
 )
 ;
@@ -35402,7 +35402,7 @@ dominantBaseline
 frame
 -
 >
-GetStyleSVGReset
+StyleSVGReset
 (
 )
 -
@@ -35447,7 +35447,7 @@ nsStyleCoord
 &
 verticalAlign
 =
-GetStyleTextReset
+StyleTextReset
 (
 )
 -

@@ -993,7 +993,7 @@ GetPrimaryFrame
 )
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -1003,7 +1003,7 @@ mDirection
 =
 NS_STYLE_DIRECTION_RTL
 :
-GetStyleVisibility
+StyleVisibility
 (
 )
 -

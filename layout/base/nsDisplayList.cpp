@@ -2519,7 +2519,7 @@ disp
 parentStyleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -5604,7 +5604,7 @@ GetChildren
 f
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -7987,7 +7987,7 @@ f
 f
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -9003,7 +9003,7 @@ RegisterThemeGeometry
 aFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -9089,7 +9089,7 @@ disp
 mFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -9270,7 +9270,7 @@ d
 mFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -9360,7 +9360,7 @@ bg
 bgSC
 -
 >
-GetStyleBackground
+StyleBackground
 (
 )
 ;
@@ -11348,7 +11348,7 @@ disp
 mFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -12079,7 +12079,7 @@ mFrame
 mFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -12479,7 +12479,7 @@ HasNonZeroCorner
 mFrame
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 -
@@ -12683,7 +12683,7 @@ outline
 mFrame
 -
 >
-GetStyleOutline
+StyleOutline
 (
 )
 ;
@@ -12911,7 +12911,7 @@ styleBorder
 mFrame
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 )
@@ -13148,7 +13148,7 @@ Inflate
 mFrame
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 -
@@ -15170,7 +15170,7 @@ if
 mFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -15250,7 +15250,7 @@ SetOpacity
 mFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -15957,7 +15957,7 @@ position
 mFixedPosFrame
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 ;
@@ -18614,7 +18614,7 @@ display
 aFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -19033,7 +19033,7 @@ display
 parent
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -19322,7 +19322,7 @@ mTransformList
 aFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -19384,7 +19384,7 @@ parentDisp
 parentStyleContext
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -20455,7 +20455,7 @@ if
 aFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -22672,7 +22672,7 @@ opacity
 mFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -23044,7 +23044,7 @@ if
 mFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -23074,7 +23074,7 @@ f
 mFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -

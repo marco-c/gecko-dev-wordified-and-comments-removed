@@ -418,7 +418,7 @@ path
 ;
 if
 (
-GetStyleDisplay
+StyleDisplay
 (
 )
 -

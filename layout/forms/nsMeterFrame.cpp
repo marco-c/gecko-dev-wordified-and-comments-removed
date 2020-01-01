@@ -681,7 +681,7 @@ aStatus
 bool
 vertical
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -825,7 +825,7 @@ if
 vertical
 &
 &
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -1190,7 +1190,7 @@ size
 ;
 if
 (
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -1270,7 +1270,7 @@ size
 ;
 if
 (
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -1281,7 +1281,7 @@ mOrient
 NS_STYLE_ORIENT_AUTO
 |
 |
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -1330,7 +1330,7 @@ ShouldUseNativeStyle
 const
 {
 return
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -1349,7 +1349,7 @@ GetPrimaryFrame
 )
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -

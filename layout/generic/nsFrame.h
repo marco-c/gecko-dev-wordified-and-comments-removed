@@ -1416,7 +1416,7 @@ mIsTopOfPage
 NS_STYLE_PAGE_BREAK_AVOID
 =
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 -

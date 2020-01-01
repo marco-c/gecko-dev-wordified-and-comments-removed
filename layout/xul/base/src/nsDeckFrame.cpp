@@ -509,7 +509,7 @@ aLists
 if
 (
 !
-GetStyleVisibility
+StyleVisibility
 (
 )
 -

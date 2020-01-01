@@ -245,7 +245,7 @@ autoSR
 ;
 if
 (
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -1014,7 +1014,7 @@ path
 ;
 if
 (
-GetStyleDisplay
+StyleDisplay
 (
 )
 -

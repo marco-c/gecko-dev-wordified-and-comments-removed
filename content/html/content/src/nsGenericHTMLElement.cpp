@@ -2197,7 +2197,7 @@ parent
 parent
 -
 >
-GetStylePosition
+StylePosition
 (
 )
 -
@@ -2216,7 +2216,7 @@ border
 parent
 -
 >
-GetStyleBorder
+StyleBorder
 (
 )
 ;
@@ -12631,7 +12631,7 @@ uiStyle
 aFrame
 -
 >
-GetStyleUserInterface
+StyleUserInterface
 (
 )
 ;

@@ -1232,7 +1232,7 @@ switch
 aFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -5002,7 +5002,7 @@ va
 aFrame
 -
 >
-GetStyleTextReset
+StyleTextReset
 (
 )
 -
@@ -10326,7 +10326,7 @@ isSmall
 aFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -13459,7 +13459,7 @@ eventState
 aFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -15033,7 +15033,7 @@ isSmall
 scrollbarFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -16110,7 +16110,7 @@ isSmall
 scrollbarFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -16243,7 +16243,7 @@ themeMetric
 scrollbarFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -16345,7 +16345,7 @@ themeMetric
 scrollbarFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -

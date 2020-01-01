@@ -11003,7 +11003,7 @@ if
 aFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -14074,7 +14074,7 @@ ui
 mCurrentTarget
 -
 >
-GetStyleUserInterface
+StyleUserInterface
 (
 )
 ;
@@ -14205,7 +14205,7 @@ display
 currFrame
 -
 >
-GetStyleDisplay
+StyleDisplay
 (
 )
 ;
@@ -20891,7 +20891,7 @@ ui
 mCurrentTarget
 -
 >
-GetStyleUserInterface
+StyleUserInterface
 (
 )
 ;

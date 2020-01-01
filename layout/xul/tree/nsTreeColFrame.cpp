@@ -377,7 +377,7 @@ if
 mFrame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -

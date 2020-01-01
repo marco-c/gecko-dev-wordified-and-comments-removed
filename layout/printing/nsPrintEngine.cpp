@@ -8261,7 +8261,7 @@ frame
 frame
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -

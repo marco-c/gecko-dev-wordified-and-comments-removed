@@ -235,7 +235,7 @@ return
 aBox
 -
 >
-GetStyleVisibility
+StyleVisibility
 (
 )
 -

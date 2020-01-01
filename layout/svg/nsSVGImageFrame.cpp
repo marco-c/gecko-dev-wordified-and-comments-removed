@@ -1171,7 +1171,7 @@ NS_OK
 if
 (
 !
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -1324,7 +1324,7 @@ ctx
 ;
 if
 (
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -1396,7 +1396,7 @@ this
 {
 opacity
 =
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -1765,7 +1765,7 @@ aPoint
 {
 if
 (
-GetStyleDisplay
+StyleDisplay
 (
 )
 -
@@ -2247,7 +2247,7 @@ flags
 ;
 switch
 (
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -2268,7 +2268,7 @@ NS_STYLE_POINTER_EVENTS_AUTO
 :
 if
 (
-GetStyleVisibility
+StyleVisibility
 (
 )
 -
@@ -2297,7 +2297,7 @@ NS_STYLE_POINTER_EVENTS_VISIBLE
 :
 if
 (
-GetStyleVisibility
+StyleVisibility
 (
 )
 -

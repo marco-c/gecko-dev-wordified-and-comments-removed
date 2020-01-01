@@ -532,7 +532,7 @@ nsStyleUserInterface
 *
 uiStyle
 =
-GetStyleUserInterface
+StyleUserInterface
 (
 )
 ;

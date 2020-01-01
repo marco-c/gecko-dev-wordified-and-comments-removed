@@ -383,7 +383,7 @@ nsStyle
 #
 name_
 *
-GetStyle
+Style
 #
 #
 name_
@@ -395,7 +395,7 @@ return
 mStyleContextHolder
 -
 >
-GetStyle
+Style
 #
 #
 name_
