@@ -22132,7 +22132,7 @@ BeforeSetAttr
 aNamespaceID
 aName
 &
-aValue
+value
 aNotify
 )
 ;
@@ -22304,10 +22304,6 @@ aNamespaceID
 aName
 &
 value
-.
-String
-(
-)
 aNotify
 )
 ;

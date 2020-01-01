@@ -509,6 +509,13 @@ h
 #
 include
 "
+nsAttrValueOrString
+.
+h
+"
+#
+include
+"
 nsIDOMXULDocument
 .
 h
@@ -4138,7 +4145,7 @@ nsIAtom
 *
 aName
 const
-nsAString
+nsAttrValueOrString
 *
 aValue
 bool
@@ -4321,9 +4328,6 @@ chromemargin
 nsAttrValue
 attrValue
 ;
-nsIntMargin
-margins
-;
 if
 (
 !
@@ -4331,8 +4335,12 @@ attrValue
 .
 ParseIntMarginValue
 (
-*
 aValue
+-
+>
+String
+(
+)
 )
 )
 {
