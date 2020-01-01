@@ -94,15 +94,6 @@ Bundle
 savedInstanceState
 )
 {
-setTheme
-(
-R
-.
-style
-.
-SyncTheme
-)
-;
 super
 .
 onCreate
