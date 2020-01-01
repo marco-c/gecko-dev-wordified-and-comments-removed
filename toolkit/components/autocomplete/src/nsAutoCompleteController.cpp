@@ -218,7 +218,10 @@ PR_FALSE
 )
 mSearchStatus
 (
-0
+nsAutoCompleteController
+:
+:
+STATUS_NONE
 )
 mRowCount
 (
