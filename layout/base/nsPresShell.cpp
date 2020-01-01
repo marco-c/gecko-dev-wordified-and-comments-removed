@@ -10877,11 +10877,6 @@ PRBool
 aInEnable
 )
 {
-nsresult
-result
-=
-NS_OK
-;
 PRBool
 oldEnabled
 =
