@@ -218,13 +218,15 @@ pressure
 if
 (
 aData
-=
-=
+.
+startsWith
+(
 "
 low
 -
 memory
 "
+)
 )
 {
 this
