@@ -1424,10 +1424,13 @@ iconURL
 =
 win
 .
-gBrowser
+gProxyFavIcon
 .
-getIcon
+getAttribute
 (
+"
+src
+"
 )
 ;
 if
