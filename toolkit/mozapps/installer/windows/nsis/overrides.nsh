@@ -92,6 +92,16 @@ OVERRIDES_INCLUDED
 !
 define
 OVERRIDES_INCLUDED
+!
+include
+TextFunc
+.
+nsh
+!
+include
+FileFunc
+.
+nsh
 ;
 Modified
 version
