@@ -2527,11 +2527,6 @@ doPing
 (
 server
 data
-.
-slug
-data
-.
-payload
 onSuccess
 .
 bind
@@ -2553,8 +2548,7 @@ function
 doPing
 (
 server
-slug
-payload
+ping
 onSuccess
 onError
 )
@@ -2570,6 +2564,8 @@ telemetry
 /
 "
 +
+ping
+.
 slug
 ;
 let
@@ -2846,6 +2842,8 @@ this
 .
 gzipCompressString
 (
+ping
+.
 payload
 )
 ;
