@@ -696,6 +696,8 @@ return
 index
 ;
 }
+public
+:
 IonCache
 *
 getCache
