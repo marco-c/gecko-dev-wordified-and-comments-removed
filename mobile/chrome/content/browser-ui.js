@@ -4842,10 +4842,16 @@ allLogins
 =
 lm
 .
-getAllLogins
+findLogins
 (
 {
 }
+host
+.
+prePath
+"
+"
+null
 )
 ;
 for
