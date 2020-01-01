@@ -489,10 +489,6 @@ gKeyStringBundle
 ;
 static
 PRBool
-gIsCacheDisabled
-;
-static
-PRBool
 gIsFormFillEnabled
 ;
 private
