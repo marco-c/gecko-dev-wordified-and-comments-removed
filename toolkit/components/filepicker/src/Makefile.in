@@ -473,10 +473,6 @@ nsFileView
 .
 cpp
 \
-nsWildCard
-.
-cpp
-\
 (
 NULL
 )

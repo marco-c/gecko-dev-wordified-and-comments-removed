@@ -12,6 +12,13 @@ prtypes
 h
 "
 #
+include
+"
+nscore
+.
+h
+"
+#
 define
 NON_SXP
 -
@@ -25,7 +32,7 @@ INVALID_SXP
 define
 VALID_SXP
 1
-extern
+NS_COM
 int
 NS_WildCardValid
 (
@@ -35,7 +42,7 @@ char
 expr
 )
 ;
-extern
+NS_COM
 int
 NS_WildCardValid
 (
@@ -58,7 +65,7 @@ define
 ABORTED
 -
 1
-extern
+NS_COM
 int
 NS_WildCardMatch
 (
@@ -74,7 +81,7 @@ PRBool
 case_insensitive
 )
 ;
-extern
+NS_COM
 int
 NS_WildCardMatch
 (

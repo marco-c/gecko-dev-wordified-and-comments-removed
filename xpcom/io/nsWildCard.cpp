@@ -541,6 +541,7 @@ VALID_SXP
 )
 ;
 }
+NS_COM
 int
 NS_WildCardValid
 (
@@ -557,6 +558,7 @@ expr
 )
 ;
 }
+NS_COM
 int
 NS_WildCardValid
 (
@@ -1682,6 +1684,7 @@ return
 1
 ;
 }
+NS_COM
 int
 NS_WildCardMatch
 (
@@ -1706,6 +1709,7 @@ case_insensitive
 )
 ;
 }
+NS_COM
 int
 NS_WildCardMatch
 (

@@ -389,10 +389,6 @@ nsZipArchive
 .
 cpp
 \
-nsWildCard
-.
-cpp
-\
 (
 NULL
 )
