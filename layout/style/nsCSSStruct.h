@@ -1632,9 +1632,6 @@ mPitch
 nsCSSValue
 mPitchRange
 ;
-nsCSSValuePair
-mPlayDuring
-;
 nsCSSValue
 mRichness
 ;
