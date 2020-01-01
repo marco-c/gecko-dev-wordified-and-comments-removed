@@ -34,4 +34,15 @@ SK_A32_SHIFT
 #
 endif
 #
+define
+SK_DISABLE_DITHER_32BIT_GRADIENT
+#
+ifdef
+SK_BUILD_FOR_WIN32
+#
+define
+SK_IGNORE_STDINT_DOT_H
+#
+endif
+#
 endif
