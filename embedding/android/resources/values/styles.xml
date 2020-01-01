@@ -485,7 +485,7 @@ android
 scaleType
 "
 >
-centerInside
+fitXY
 <
 /
 item
