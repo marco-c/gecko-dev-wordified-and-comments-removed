@@ -18695,6 +18695,15 @@ MOZ_BUILD_ROOT
 pwd
 -
 W
+if
+test
+-
+n
+"
+L10NBASEDIR
+"
+;
+then
 L10NBASEDIR
 =
 cd
@@ -18704,6 +18713,7 @@ L10NBASEDIR
 pwd
 -
 W
+fi
 ;
 ;
 esac
