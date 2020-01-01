@@ -8480,10 +8480,7 @@ lir
 >
 insImmPtr
 (
-(
-void
-*
-)
+&
 js_ObjectOps
 .
 newObjectMap
@@ -11286,7 +11283,7 @@ false
 ;
 }
 JSBool
-math_sin
+js_math_sin
 (
 JSContext
 *
@@ -11299,7 +11296,7 @@ vp
 )
 ;
 JSBool
-math_cos
+js_math_cos
 (
 JSContext
 *
@@ -11312,7 +11309,7 @@ vp
 )
 ;
 JSBool
-math_pow
+js_math_pow
 (
 JSContext
 *
@@ -11435,13 +11432,13 @@ if
 native
 =
 =
-math_sin
+js_math_sin
 |
 |
 native
 =
 =
-math_cos
+js_math_cos
 )
 {
 if
@@ -11521,7 +11518,7 @@ insCall
 native
 =
 =
-math_sin
+js_math_sin
 ?
 F_Math_dot_sin
 :
@@ -11537,7 +11534,7 @@ if
 native
 =
 =
-math_pow
+js_math_pow
 )
 {
 if
