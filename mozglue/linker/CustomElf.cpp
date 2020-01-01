@@ -3611,6 +3611,9 @@ COUNT
 )
 :
 case
+DT_FLAGS_1
+:
+case
 DT_VERSYM
 :
 case

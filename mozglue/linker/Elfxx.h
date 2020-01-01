@@ -499,6 +499,15 @@ DT_VERNEEDNUM
 endif
 #
 ifndef
+DT_FLAGS_1
+#
+define
+DT_FLAGS_1
+0x6ffffffb
+#
+endif
+#
+ifndef
 DT_FLAGS
 #
 define
