@@ -531,6 +531,10 @@ ifndef
 MAPVK_VSC_TO_VK
 #
 define
+MAPVK_VK_TO_VSC
+0
+#
+define
 MAPVK_VSC_TO_VK
 1
 #
