@@ -6181,12 +6181,6 @@ wsOnStop
 "
 )
 ;
-this
-.
-_shutdownWS
-(
-)
-;
 if
 (
 statusCode
@@ -6230,6 +6224,12 @@ _reconnectAfterBackoff
 )
 ;
 }
+this
+.
+_shutdownWS
+(
+)
+;
 }
 _wsOnMessageAvailable
 :
