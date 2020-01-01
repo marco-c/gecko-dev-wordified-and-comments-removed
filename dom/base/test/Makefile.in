@@ -196,6 +196,10 @@ test_url
 .
 html
 \
+test_bug913761
+.
+html
+\
 (
 NULL
 )

@@ -182,9 +182,6 @@ MessagePort
 >
 Clone
 (
-nsPIDOMWindow
-*
-aWindow
 )
 ;
 private
