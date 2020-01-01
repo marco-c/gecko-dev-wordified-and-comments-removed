@@ -780,6 +780,10 @@ mUpdateFinished
 (
 false
 )
+mDestroyed
+(
+false
+)
 {
 }
 virtual
@@ -793,6 +797,12 @@ return
 this
 ;
 }
+virtual
+void
+DestroyImpl
+(
+)
+;
 void
 AddTrack
 (
@@ -1030,6 +1040,9 @@ mUpdateTracks
 ;
 bool
 mUpdateFinished
+;
+bool
+mDestroyed
 ;
 }
 ;
