@@ -81,14 +81,6 @@ FromDepth
 frameDepth_
 )
 ;
-frameStaticSize_
-=
-frameClass_
-.
-frameSize
-(
-)
-;
 }
 bool
 CodeGeneratorShared

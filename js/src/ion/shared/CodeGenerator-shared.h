@@ -126,9 +126,6 @@ protected
 int32
 frameDepth_
 ;
-int32
-frameStaticSize_
-;
 FrameSizeClass
 frameClass_
 ;
