@@ -78,6 +78,9 @@ RecvTake
 Shmem
 &
 mem
+Shmem
+&
+unsafe
 const
 size_t
 &
@@ -153,6 +156,9 @@ RecvGive
 Shmem
 &
 mem
+Shmem
+&
+unsafe
 const
 size_t
 &
