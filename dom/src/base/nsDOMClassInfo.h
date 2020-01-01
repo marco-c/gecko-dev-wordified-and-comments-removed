@@ -306,8 +306,6 @@ nsIXPConnectJSObjectHolder
 *
 *
 aHolder
-=
-nsnull
 )
 ;
 static
