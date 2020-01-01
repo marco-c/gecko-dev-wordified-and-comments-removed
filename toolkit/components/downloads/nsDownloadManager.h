@@ -787,9 +787,6 @@ mMIMEInfo
 DownloadState
 mDownloadState
 ;
-DownloadType
-mDownloadType
-;
 uint32_t
 mID
 ;
