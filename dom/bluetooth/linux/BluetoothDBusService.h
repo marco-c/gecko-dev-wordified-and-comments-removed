@@ -163,7 +163,7 @@ nsAString
 aDevicePath
 )
 ;
-virtual
+static
 bool
 AddReservedServicesInternal
 (
@@ -186,7 +186,7 @@ uint32_t
 aServiceHandlesContainer
 )
 ;
-virtual
+static
 bool
 RemoveReservedServicesInternal
 (
