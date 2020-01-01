@@ -80,6 +80,11 @@ support
 for
 multiple
 platforms
+.
+Only
+works
+on
+Talos2
 "
 "
 "
@@ -741,7 +746,8 @@ exePath
             
 if
 '
-testtitle
+title
+:
 '
 in
 line
@@ -749,17 +755,14 @@ line
                 
 newline
 =
-line
-.
-replace
-(
 '
-testtitle
+title
+:
 '
++
 self
 .
 title
-)
                 
 if
 self
@@ -797,7 +800,8 @@ _getTimeFromBuildId
             
 if
 '
-testfilename
+buildid
+:
 '
 in
 line
@@ -805,41 +809,13 @@ line
                 
 newline
 =
-line
-.
-replace
-(
 '
-testfilename
-'
-self
-.
-outputName
-)
-            
-if
-'
-testbranchid
-'
-in
-line
+buildid
 :
-                
-newline
-=
-line
-.
-replace
-(
 '
-testbranchid
-'
++
 buildidString
-)
             
-else
-:
-                
 if
 '
 testbranch
@@ -847,20 +823,17 @@ testbranch
 in
 line
 :
-                    
+                
 newline
 =
-line
-.
-replace
-(
 '
-testbranch
+branch
+:
 '
++
 self
 .
 branch
-)
             
 destination
 .
