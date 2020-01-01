@@ -227,14 +227,6 @@ InputContext
 aInputContext
 )
 ;
-static
-bool
-IsDoingKakuteiUndo
-(
-HWND
-aWnd
-)
-;
 #
 ifdef
 DEBUG

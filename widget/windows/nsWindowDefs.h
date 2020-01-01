@@ -492,6 +492,7 @@ GetCharMessage
 HWND
 aWnd
 )
+const
 {
 MSG
 msg
