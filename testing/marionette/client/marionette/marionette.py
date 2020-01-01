@@ -1954,8 +1954,10 @@ close
 return
 response
     
+property
+    
 def
-get_session_capabilities
+session_capabilities
 (
 self
 )
