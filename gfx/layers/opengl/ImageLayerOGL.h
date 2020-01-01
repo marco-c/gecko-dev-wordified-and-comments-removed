@@ -104,12 +104,6 @@ gfxIntSize
 aSize
 )
 ;
-virtual
-gfxIntSize
-GetCurrentSize
-(
-)
-;
 private
 :
 typedef
