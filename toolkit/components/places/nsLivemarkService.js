@@ -5038,10 +5038,12 @@ LM_terminate
 (
 )
 {
-delete
 this
 .
 _resultObserversList
+=
+[
+]
 ;
 this
 .
