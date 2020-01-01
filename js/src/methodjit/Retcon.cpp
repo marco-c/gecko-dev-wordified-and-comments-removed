@@ -1197,7 +1197,6 @@ next
 >
 prevpc
 (
-NULL
 )
 :
 f
