@@ -193,15 +193,6 @@ uniform
 html
 conformance
 /
-gl
--
-vertex
--
-attrib
-.
-html
-conformance
-/
 glsl
 -
 2types
