@@ -700,12 +700,15 @@ mNext
 break
 ;
 }
-}
 PR_ASSERT
 (
 cur
+-
+>
+mNext
 )
 ;
+}
 }
 if
 (
