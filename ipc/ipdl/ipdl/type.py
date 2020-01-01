@@ -290,6 +290,25 @@ args
 :
         
 pass
+    
+def
+visitShmemChmodType
+(
+self
+c
+*
+args
+)
+:
+        
+c
+.
+shmem
+.
+accept
+(
+self
+)
 class
 Type
 :
@@ -854,6 +873,15 @@ False
     
 def
 isShmem
+(
+self
+)
+:
+return
+False
+    
+def
+isChmod
 (
 self
 )
@@ -5491,6 +5519,8 @@ nullable
 )
             
 if
+0
+and
 chmodallowed
 and
 itype

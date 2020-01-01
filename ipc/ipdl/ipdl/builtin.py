@@ -71,6 +71,14 @@ uintptr_t
 '
     
 '
+size_t
+'
+    
+'
+ssize_t
+'
+    
+'
 PRBool
 '
     
@@ -125,6 +133,16 @@ nsString
 '
 nsCString
 '
+    
+'
+mozilla
+:
+:
+ipc
+:
+:
+Shmem
+'
 )
 Includes
 =
@@ -160,6 +178,12 @@ h
 IPC
 /
 IPCMessageUtils
+.
+h
+'
+    
+'
+nsAutoPtr
 .
 h
 '

@@ -37,6 +37,10 @@ PTestSanity
 .
 ipdl
 \
+PTestShmem
+.
+ipdl
+\
 PTestShutdown
 .
 ipdl
