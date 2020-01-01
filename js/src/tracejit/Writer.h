@@ -2342,6 +2342,13 @@ loadQual
 )
 const
 {
+JS_NOT_REACHED
+(
+"
+FIXME
+"
+)
+;
 return
 name
 (
@@ -2355,12 +2362,7 @@ nj
 :
 LIR_ldp
 obj
-JSObject
-:
-:
-offsetOfClassPointer
-(
-)
+0
 ACCSET_OBJ_CLASP
 loadQual
 )

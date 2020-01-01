@@ -827,7 +827,7 @@ inlineTypeGuard
 8
 ;
 unsigned
-inlineClaspGuard
+inlineShapeGuard
 :
 8
 ;
@@ -837,7 +837,7 @@ inlineTypeGuardPatched
 1
 ;
 bool
-inlineClaspGuardPatched
+inlineShapeGuardPatched
 :
 1
 ;
@@ -903,7 +903,7 @@ inlineTypeGuardPatched
 ;
 }
 bool
-shouldPatchUnconditionalClaspGuard
+shouldPatchUnconditionalShapeGuard
 (
 )
 {
@@ -927,7 +927,7 @@ JSVAL_TYPE_INT32
 )
 return
 !
-inlineClaspGuardPatched
+inlineShapeGuardPatched
 ;
 return
 false
@@ -949,7 +949,7 @@ inlineTypeGuardPatched
 =
 false
 ;
-inlineClaspGuardPatched
+inlineShapeGuardPatched
 =
 false
 ;
@@ -1134,12 +1134,12 @@ objRemat
 MIN_STATE_REMAT_BITS
 ;
 unsigned
-inlineClaspGuard
+inlineShapeGuard
 :
 6
 ;
 bool
-inlineClaspGuardPatched
+inlineShapeGuardPatched
 :
 1
 ;
@@ -1216,7 +1216,7 @@ execPool
 =
 NULL
 ;
-inlineClaspGuardPatched
+inlineShapeGuardPatched
 =
 false
 ;

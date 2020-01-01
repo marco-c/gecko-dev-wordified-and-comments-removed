@@ -1796,11 +1796,7 @@ ACCSET_OBJ_CLASP
 :
 ok
 =
-OK_OBJ_FIELD
-(
-LIR_ldp
-clasp
-)
+false
 ;
 break
 ;
