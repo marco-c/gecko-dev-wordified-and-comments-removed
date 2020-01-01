@@ -192,7 +192,7 @@ nsIEHistoryEnumerator
 :
 CoInitialize
 (
-nullptr
+NULL
 )
 ;
 }
@@ -233,7 +233,7 @@ hr
 CoCreateInstance
 (
 CLSID_CUrlHistory
-nullptr
+NULL
 CLSCTX_INPROC_SERVER
 IID_IUrlHistoryStg2
 getter_AddRefs

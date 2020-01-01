@@ -253,7 +253,7 @@ kBrowserCIDs
 &
 kNS_BROWSERDIRECTORYPROVIDER_CID
 false
-nullptr
+NULL
 DirectoryProviderConstructor
 }
 #
@@ -266,7 +266,7 @@ XP_WIN
 &
 kNS_SHELLSERVICE_CID
 false
-nullptr
+NULL
 nsWindowsShellServiceConstructor
 }
 #
@@ -279,7 +279,7 @@ MOZ_WIDGET_GTK2
 &
 kNS_SHELLSERVICE_CID
 false
-nullptr
+NULL
 nsGNOMEShellServiceConstructor
 }
 #
@@ -288,14 +288,14 @@ endif
 &
 kNS_FEEDSNIFFER_CID
 false
-nullptr
+NULL
 nsFeedSnifferConstructor
 }
 {
 &
 kNS_BROWSER_ABOUT_REDIRECTOR_CID
 false
-nullptr
+NULL
 AboutRedirector
 :
 :
@@ -311,7 +311,7 @@ XP_WIN
 &
 kNS_WINIEHISTORYENUMERATOR_CID
 false
-nullptr
+NULL
 nsIEHistoryEnumeratorConstructor
 }
 #
@@ -324,13 +324,13 @@ XP_MACOSX
 &
 kNS_SHELLSERVICE_CID
 false
-nullptr
+NULL
 nsMacShellServiceConstructor
 }
 #
 endif
 {
-nullptr
+NULL
 }
 }
 ;
@@ -554,7 +554,7 @@ kNS_SHELLSERVICE_CID
 #
 endif
 {
-nullptr
+NULL
 }
 }
 ;
@@ -592,7 +592,7 @@ Sniffer
 NS_FEEDSNIFFER_CONTRACTID
 }
 {
-nullptr
+NULL
 }
 }
 ;
