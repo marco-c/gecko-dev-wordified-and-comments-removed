@@ -459,17 +459,11 @@ xul
 \
 necko
 \
-nkcache
-\
 locale
 \
 pref
 \
 intl
-\
-mimetype
-\
-unicharutil
 \
 exthandler
 \
