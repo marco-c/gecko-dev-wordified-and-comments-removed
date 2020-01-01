@@ -1140,10 +1140,6 @@ jsobj
 .
 h
 \
-json
-.
-h
-\
 jsopcode
 .
 h
@@ -1526,10 +1522,6 @@ jsnum
 cpp
 \
 jsobj
-.
-cpp
-\
-json
 .
 cpp
 \

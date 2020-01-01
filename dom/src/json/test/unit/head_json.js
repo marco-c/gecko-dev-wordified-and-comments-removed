@@ -175,7 +175,7 @@ directory
 )
 }
 var
-crockfordJSON
+JSON
 =
 null
 ;

@@ -261,7 +261,6 @@ js_toLocaleString_str
 js_toSource_str
 js_toString_str
 js_valueOf_str
-js_toJSON_str
 "
 (
 void
@@ -642,16 +641,6 @@ js_valueOf_str
 =
 "
 valueOf
-"
-;
-const
-char
-js_toJSON_str
-[
-]
-=
-"
-toJSON
 "
 ;
 #

@@ -789,12 +789,6 @@ NoSuchMethod
 32
 NO_SUCH_METHOD_INIT
 )
-JS_PROTO
-(
-JSON
-33
-js_InitJSONClass
-)
 #
 undef
 SCRIPT_INIT

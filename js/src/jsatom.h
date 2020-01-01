@@ -965,10 +965,6 @@ valueOfAtom
 ;
 JSAtom
 *
-toJSONAtom
-;
-JSAtom
-*
 void0Atom
 ;
 #
@@ -1737,13 +1733,6 @@ extern
 const
 char
 js_valueOf_str
-[
-]
-;
-extern
-const
-char
-js_toJSON_str
 [
 ]
 ;
