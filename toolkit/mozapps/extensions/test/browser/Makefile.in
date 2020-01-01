@@ -295,6 +295,10 @@ browser_tabsettings
 .
 js
 \
+browser_pluginprefs
+.
+js
+\
 (
 NULL
 )
