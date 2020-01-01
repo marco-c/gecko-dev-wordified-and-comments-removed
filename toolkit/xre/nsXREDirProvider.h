@@ -344,7 +344,7 @@ aPath
 )
 ;
 void
-LoadBundleDirectories
+LoadExtensionBundleDirectories
 (
 )
 ;
@@ -393,9 +393,6 @@ mProfileLocalDir
 ;
 PRPackedBool
 mProfileNotified
-;
-PRPackedBool
-mExtensionsLoaded
 ;
 nsCOMArray
 <
