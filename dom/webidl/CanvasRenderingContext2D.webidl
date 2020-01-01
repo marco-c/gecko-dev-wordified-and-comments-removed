@@ -436,6 +436,7 @@ HTMLVideoElement
 )
 image
 DOMString
+?
 repetition
 )
 ;
