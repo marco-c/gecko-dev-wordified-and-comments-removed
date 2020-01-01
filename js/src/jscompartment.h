@@ -884,6 +884,9 @@ gcTriggerBytes
 size_t
 gcMaxMallocBytes
 ;
+double
+gcHeapGrowthFactor
+;
 bool
 hold
 ;

@@ -238,6 +238,12 @@ gcTriggerBytes
 (
 0
 )
+gcHeapGrowthFactor
+(
+3
+.
+0
+)
 hold
 (
 false
