@@ -316,6 +316,10 @@ MAP_ANONYMOUS
 0
 #
 endif
+using
+namespace
+js
+;
 JS_STATIC_ASSERT
 (
 sizeof
@@ -14579,7 +14583,7 @@ endif
 #
 ifdef
 JS_TRACER
-js_PurgeJITOracle
+PurgeJITOracle
 (
 )
 ;

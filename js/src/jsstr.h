@@ -64,9 +64,6 @@ n
 -
 1
 )
-class
-TraceRecorder
-;
 enum
 {
 UNIT_STRING_LIMIT
@@ -100,6 +97,9 @@ JSString
 {
 friend
 class
+js
+:
+:
 TraceRecorder
 ;
 friend

@@ -52,7 +52,7 @@ TRACE_RECORDER
 cx
 )
 )
-js_AbortRecording
+AbortRecording
 (
 cx
 "
@@ -5348,7 +5348,7 @@ if
 !
 recording
 )
-js_ConcatPostImacroStackCleanup
+ConcatPostImacroStackCleanup
 (
 argc
 regs
@@ -14694,7 +14694,7 @@ TRACE_RECORDER
 cx
 )
 )
-js_AbortRecording
+AbortRecording
 (
 cx
 "
@@ -15881,7 +15881,7 @@ TRACE_RECORDER
 cx
 )
 )
-js_AbortRecording
+AbortRecording
 (
 cx
 "
@@ -20927,7 +20927,7 @@ ifdef
 JS_TRACER
 obj
 =
-js_GetBuiltinFunction
+GetBuiltinFunction
 (
 cx
 GET_INDEX

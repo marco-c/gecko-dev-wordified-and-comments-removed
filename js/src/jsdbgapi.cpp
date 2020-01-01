@@ -166,6 +166,10 @@ jsautooplen
 .
 h
 "
+using
+namespace
+js
+;
 typedef
 struct
 JSTrap
@@ -1864,7 +1868,7 @@ if
 (
 cx
 )
-js_LeaveTrace
+LeaveTrace
 (
 cx
 )
@@ -9152,7 +9156,7 @@ hooks
 &
 js_NullDebugHooks
 )
-js_LeaveTrace
+LeaveTrace
 (
 cx
 )

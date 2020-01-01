@@ -4976,7 +4976,10 @@ SetException
 nsnull
 )
 ;
-js_LeaveTrace
+js
+:
+:
+LeaveTrace
 (
 cx
 )

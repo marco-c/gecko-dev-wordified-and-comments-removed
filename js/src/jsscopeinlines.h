@@ -56,7 +56,10 @@ JS_ASSERT
 object
 )
 ;
-js_LeaveTraceIfGlobalObject
+js
+:
+:
+LeaveTraceIfGlobalObject
 (
 cx
 object

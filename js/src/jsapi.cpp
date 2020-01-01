@@ -351,6 +351,10 @@ h
 "
 #
 endif
+using
+namespace
+js
+;
 #
 ifdef
 HAVE_VA_LIST_AS_ARRAY
@@ -1591,7 +1595,7 @@ argc
 +
 ;
 }
-js_LeaveTrace
+LeaveTrace
 (
 cx
 )
@@ -4544,7 +4548,7 @@ requestDepth
 1
 )
 {
-js_LeaveTrace
+LeaveTrace
 (
 cx
 )
@@ -9453,7 +9457,7 @@ gcKeepAtoms
 =
 0
 ;
-js_LeaveTrace
+LeaveTrace
 (
 trc
 -
@@ -11380,7 +11384,7 @@ JSContext
 cx
 )
 {
-js_LeaveTrace
+LeaveTrace
 (
 cx
 )
@@ -11825,7 +11829,7 @@ JSGC_MAX_CODE_CACHE_BYTES
 #
 ifdef
 JS_TRACER
-js_SetMaxCodeCacheBytes
+SetMaxCodeCacheBytes
 (
 cx
 value
@@ -11891,7 +11895,7 @@ cx
 #
 ifdef
 JS_TRACER
-js_FlushJITCache
+FlushJITCache
 (
 cx
 )
