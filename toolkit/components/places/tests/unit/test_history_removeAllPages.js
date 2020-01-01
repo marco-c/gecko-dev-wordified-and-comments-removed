@@ -87,9 +87,9 @@ do_check_eq
 0
 PlacesUtils
 .
-bhistory
+history
 .
-count
+hasHistoryEntries
 )
 ;
 Services
