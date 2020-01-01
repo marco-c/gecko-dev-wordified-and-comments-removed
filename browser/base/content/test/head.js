@@ -836,6 +836,12 @@ enabled
 true
 )
 ;
+SocialUI
+.
+_providerReady
+(
+)
+;
 registerCleanupFunction
 (
 function
