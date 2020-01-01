@@ -647,11 +647,9 @@ bool
 EndEmptyTransaction
 (
 )
-{
-return
-false
+=
+0
 ;
-}
 typedef
 void
 (
