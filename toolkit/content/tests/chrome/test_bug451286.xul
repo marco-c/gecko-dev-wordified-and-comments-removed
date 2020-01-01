@@ -367,7 +367,7 @@ SimpleTest
 .
 expectAssertions
 (
-2
+0
 5
 )
 ;
@@ -375,6 +375,8 @@ expectAssertions
 /
 bug
 683159
+bug
+849394
 /
 /
 To
