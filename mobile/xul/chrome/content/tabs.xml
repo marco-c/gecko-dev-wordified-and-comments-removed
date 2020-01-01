@@ -275,6 +275,12 @@ center
 onclick
 =
 "
+event
+.
+stopPropagation
+(
+)
+;
 document
 .
 getBindingParent
