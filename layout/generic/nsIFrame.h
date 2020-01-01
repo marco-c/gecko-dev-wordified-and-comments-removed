@@ -3045,6 +3045,17 @@ const
 ;
 virtual
 bool
+HasTransformGetter
+(
+)
+const
+{
+return
+false
+;
+}
+virtual
+bool
 IsSVGTransformed
 (
 gfxMatrix
