@@ -441,6 +441,10 @@ LIBXUL_LIBRARY
 EXPORTS
 =
 \
+qsObjectHelper
+.
+h
+\
 xpcObjectHelper
 .
 h
