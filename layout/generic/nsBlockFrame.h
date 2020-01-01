@@ -1494,7 +1494,7 @@ bool
 aKeepReflowGoing
 )
 ;
-nsresult
+void
 MarkLineDirty
 (
 line_iterator
@@ -1503,8 +1503,6 @@ const
 nsLineList
 *
 aLineList
-=
-nsnull
 )
 ;
 bool
@@ -2325,10 +2323,14 @@ GetInOverflow
 )
 {
 return
-mInOverflowLines
+mLineList
 !
 =
-nsnull
+&
+mFrame
+-
+>
+mLines
 ;
 }
 nsLineList
@@ -2338,7 +2340,7 @@ GetLineList
 )
 {
 return
-mInOverflowLines
+mLineList
 ;
 }
 line_iterator
@@ -2382,7 +2384,7 @@ mLine
 ;
 nsLineList
 *
-mInOverflowLines
+mLineList
 ;
 bool
 FindValidLine
