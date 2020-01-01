@@ -553,9 +553,6 @@ aLength
 {
 aLength
 =
-nsCRT
-:
-:
 strlen
 (
 aText

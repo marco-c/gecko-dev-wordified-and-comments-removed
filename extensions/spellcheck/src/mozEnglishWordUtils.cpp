@@ -1214,9 +1214,6 @@ i
 {
 length
 =
-nsCRT
-:
-:
 strlen
 (
 iwords

@@ -690,9 +690,6 @@ CFStringCreateWithCharacters
 (
 NULL
 aTitle
-nsCRT
-:
-:
 strlen
 (
 aTitle

@@ -6211,9 +6211,6 @@ rv
 HandleCharacterData
 (
 aErrorText
-nsCRT
-:
-:
 strlen
 (
 aErrorText
@@ -6284,9 +6281,6 @@ rv
 HandleCharacterData
 (
 aSourceText
-nsCRT
-:
-:
 strlen
 (
 aSourceText

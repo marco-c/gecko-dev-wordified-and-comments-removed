@@ -1386,9 +1386,6 @@ aSrcLen
 kIgnoreLen
 )
 ?
-nsCRT
-:
-:
 strlen
 (
 aSrc
@@ -1527,9 +1524,6 @@ aSrcLen
 kIgnoreLen
 )
 ?
-nsCRT
-:
-:
 strlen
 (
 *

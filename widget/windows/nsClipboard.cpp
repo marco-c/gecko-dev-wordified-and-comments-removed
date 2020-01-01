@@ -1945,9 +1945,6 @@ allocLen
 *
 aLen
 =
-nsCRT
-:
-:
 strlen
 (
 reinterpret_cast
@@ -2354,9 +2351,6 @@ else
 *
 aLen
 =
-nsCRT
-:
-:
 strlen
 (
 reinterpret_cast
@@ -3538,9 +3532,6 @@ title
 *
 outDataLen
 =
-nsCRT
-:
-:
 strlen
 (
 static_cast
@@ -3596,9 +3587,6 @@ urlSpec
 *
 outDataLen
 =
-nsCRT
-:
-:
 strlen
 (
 static_cast
@@ -3728,9 +3716,6 @@ urlString
 *
 outDataLen
 =
-nsCRT
-:
-:
 strlen
 (
 static_cast
@@ -3869,9 +3854,6 @@ urlString
 *
 outDataLen
 =
-nsCRT
-:
-:
 strlen
 (
 static_cast

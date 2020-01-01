@@ -1938,9 +1938,6 @@ outLength
 PRInt32
 inLength
 =
-nsCRT
-:
-:
 strlen
 (
 aStr
@@ -2278,9 +2275,6 @@ index
 PRInt32
 inLength
 =
-nsCRT
-:
-:
 strlen
 (
 wlst

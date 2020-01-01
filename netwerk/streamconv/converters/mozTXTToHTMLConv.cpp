@@ -3836,9 +3836,6 @@ false
 PRInt32
 tagLen
 =
-nsCRT
-:
-:
 strlen
 (
 tagTXT
@@ -5333,9 +5330,6 @@ result
 PRInt32
 lineLength
 =
-nsCRT
-:
-:
 strlen
 (
 line
@@ -5524,9 +5518,6 @@ minlength
 MinInt
 (
 6
-nsCRT
-:
-:
 strlen
 (
 indexString
@@ -6777,9 +6768,6 @@ outString
 PRInt32
 inLength
 =
-nsCRT
-:
-:
 strlen
 (
 text
