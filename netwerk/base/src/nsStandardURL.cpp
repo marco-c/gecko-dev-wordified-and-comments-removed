@@ -7066,7 +7066,7 @@ IsEmpty
 return
 NS_OK
 ;
-NS_ERROR
+NS_WARNING
 (
 "
 cannot
@@ -7422,7 +7422,7 @@ mURLType
 URLTYPE_NO_AUTHORITY
 )
 {
-NS_ERROR
+NS_WARNING
 (
 "
 cannot
