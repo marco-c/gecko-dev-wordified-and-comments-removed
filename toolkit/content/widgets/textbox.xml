@@ -1537,7 +1537,7 @@ placeholder
 =
 this
 .
-setAttribute
+getAttribute
 (
 "
 emptytext
