@@ -32631,6 +32631,10 @@ const
 nsAString
 &
 charset
+const
+nsAString
+&
+aCrossOriginAttr
 )
 {
 nsCOMPtr
@@ -32660,6 +32664,13 @@ NS_LossyConvertUTF16toASCII
 charset
 )
 obs
+nsGenericElement
+:
+:
+StringToCORSMode
+(
+aCrossOriginAttr
+)
 )
 ;
 }

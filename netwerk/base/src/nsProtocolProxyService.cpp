@@ -517,6 +517,7 @@ IsEmpty
 (
 )
 )
+{
 mPPS
 -
 >
@@ -530,14 +531,6 @@ mProxyInfo
 )
 )
 ;
-if
-(
-NS_SUCCEEDED
-(
-mStatus
-)
-)
-{
 nsProtocolInfo
 info
 ;

@@ -295,6 +295,12 @@ builtin
 srcdir
 )
 /
+devtools
+\
+(
+srcdir
+)
+/
 ds
 \
 (
@@ -410,6 +416,10 @@ jslog2
 cpp
 \
 jsmath
+.
+cpp
+\
+jsmemorymetrics
 .
 cpp
 \
@@ -590,10 +600,6 @@ Eval
 cpp
 \
 MapObject
-.
-cpp
-\
-MemoryMetrics
 .
 cpp
 \
@@ -2789,6 +2795,8 @@ MOZILLA_DTRACE_SRC
 srcdir
 )
 /
+devtools
+/
 javascript
 -
 trace
@@ -3990,6 +3998,7 @@ log
 config
 .
 status
+*
 \
 config
 /
@@ -5624,6 +5633,8 @@ h
 srcdir
 )
 /
+devtools
+/
 javascript
 -
 trace
@@ -5637,6 +5648,8 @@ s
 (
 srcdir
 )
+/
+devtools
 /
 javascript
 -

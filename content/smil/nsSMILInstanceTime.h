@@ -354,6 +354,7 @@ kWasDynamicEndpoint
 uint8_t
 mFlags
 ;
+mutable
 bool
 mVisited
 ;

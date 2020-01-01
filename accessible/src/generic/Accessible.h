@@ -103,9 +103,6 @@ class
 AccGroupInfo
 ;
 class
-EmbeddedObjCollector
-;
-class
 KeyBinding
 ;
 class
@@ -123,6 +120,9 @@ mozilla
 namespace
 a11y
 {
+class
+EmbeddedObjCollector
+;
 class
 HTMLImageMapAccessible
 ;
@@ -1977,6 +1977,12 @@ DocAccessible
 ;
 nsAutoPtr
 <
+mozilla
+:
+:
+a11y
+:
+:
 EmbeddedObjCollector
 >
 mEmbeddedObjCollector
@@ -1986,6 +1992,12 @@ mIndexOfEmbeddedChild
 ;
 friend
 class
+mozilla
+:
+:
+a11y
+:
+:
 EmbeddedObjCollector
 ;
 nsAutoPtr

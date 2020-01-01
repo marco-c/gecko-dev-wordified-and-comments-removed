@@ -7,7 +7,7 @@ DOM_PLUGINS_PLUGINMESSAGEUTILS_H
 #
 include
 "
-IPC
+ipc
 /
 IPCMessageUtils
 .

@@ -2379,6 +2379,11 @@ GetNextSibling
 )
 ;
 }
+CheckInvalidateSizeChange
+(
+aDesiredSize
+)
+;
 FinishAndStoreOverflow
 (
 &

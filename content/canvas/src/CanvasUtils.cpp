@@ -200,7 +200,7 @@ NodePrincipal
 )
 -
 >
-Subsumes
+SubsumesIgnoringDomain
 (
 aPrincipal
 &

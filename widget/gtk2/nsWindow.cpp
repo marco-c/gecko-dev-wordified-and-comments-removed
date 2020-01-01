@@ -8332,9 +8332,6 @@ HasShadowManager
 )
 )
 {
-nsEventStatus
-status
-;
 #
 if
 defined

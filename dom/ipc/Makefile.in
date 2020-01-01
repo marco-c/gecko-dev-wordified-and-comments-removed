@@ -560,6 +560,16 @@ dom
 /
 devicestorage
 \
+-
+I
+(
+topsrcdir
+)
+/
+widget
+/
+xpwidgets
+\
 (
 NULL
 )

@@ -905,7 +905,6 @@ running
 true
 ;
 }
-;
 void
 Stop
 (

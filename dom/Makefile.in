@@ -266,6 +266,8 @@ telephony
 \
 wifi
 \
+icc
+\
 (
 NULL
 )
