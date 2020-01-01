@@ -1257,6 +1257,10 @@ seek
 .
 webm
 \
+seek
+.
+yuv
+\
 short
 -
 video
