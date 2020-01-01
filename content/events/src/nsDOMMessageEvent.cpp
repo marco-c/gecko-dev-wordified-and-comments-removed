@@ -382,7 +382,7 @@ mozilla
 dom
 :
 :
-WindowProxyOrMessagePortReturnValue
+OwningWindowProxyOrMessagePort
 >
 &
 aValue

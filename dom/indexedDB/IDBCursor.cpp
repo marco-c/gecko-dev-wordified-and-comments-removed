@@ -177,7 +177,7 @@ mozilla
 dom
 :
 :
-IDBObjectStoreOrIDBIndexReturnValue
+OwningIDBObjectStoreOrIDBIndex
 ;
 using
 mozilla
@@ -2356,7 +2356,7 @@ IDBCursor
 :
 GetSource
 (
-IDBObjectStoreOrIDBIndexReturnValue
+OwningIDBObjectStoreOrIDBIndex
 &
 aSource
 )

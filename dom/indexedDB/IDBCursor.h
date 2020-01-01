@@ -102,7 +102,7 @@ namespace
 dom
 {
 class
-IDBObjectStoreOrIDBIndexReturnValue
+OwningIDBObjectStoreOrIDBIndex
 ;
 }
 }
@@ -476,7 +476,7 @@ mTransaction
 void
 GetSource
 (
-IDBObjectStoreOrIDBIndexReturnValue
+OwningIDBObjectStoreOrIDBIndex
 &
 aSource
 )

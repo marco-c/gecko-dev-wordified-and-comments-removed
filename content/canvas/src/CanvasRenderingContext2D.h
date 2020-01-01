@@ -163,7 +163,7 @@ class
 StringOrCanvasGradientOrCanvasPattern
 ;
 class
-StringOrCanvasGradientOrCanvasPatternReturnValue
+OwningStringOrCanvasGradientOrCanvasPattern
 ;
 class
 TextMetrics
@@ -462,7 +462,7 @@ error
 void
 GetStrokeStyle
 (
-StringOrCanvasGradientOrCanvasPatternReturnValue
+OwningStringOrCanvasGradientOrCanvasPattern
 &
 value
 )
@@ -493,7 +493,7 @@ STYLE_STROKE
 void
 GetFillStyle
 (
-StringOrCanvasGradientOrCanvasPatternReturnValue
+OwningStringOrCanvasGradientOrCanvasPattern
 &
 value
 )
@@ -2589,7 +2589,7 @@ pattern
 void
 GetStyleAsUnion
 (
-StringOrCanvasGradientOrCanvasPatternReturnValue
+OwningStringOrCanvasGradientOrCanvasPattern
 &
 aValue
 Style

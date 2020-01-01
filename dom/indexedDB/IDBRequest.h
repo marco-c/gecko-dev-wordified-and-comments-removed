@@ -97,7 +97,7 @@ namespace
 dom
 {
 class
-IDBObjectStoreOrIDBIndexOrIDBCursorReturnValue
+OwningIDBObjectStoreOrIDBIndexOrIDBCursor
 ;
 }
 }
@@ -221,7 +221,7 @@ GetSource
 (
 Nullable
 <
-IDBObjectStoreOrIDBIndexOrIDBCursorReturnValue
+OwningIDBObjectStoreOrIDBIndexOrIDBCursor
 >
 &
 aSource

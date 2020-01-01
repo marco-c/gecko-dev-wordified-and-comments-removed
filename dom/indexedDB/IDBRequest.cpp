@@ -181,7 +181,7 @@ mozilla
 dom
 :
 :
-IDBObjectStoreOrIDBIndexOrIDBCursorReturnValue
+OwningIDBObjectStoreOrIDBIndexOrIDBCursor
 ;
 IDBRequest
 :
@@ -530,7 +530,7 @@ GetSource
 (
 Nullable
 <
-IDBObjectStoreOrIDBIndexOrIDBCursorReturnValue
+OwningIDBObjectStoreOrIDBIndexOrIDBCursor
 >
 &
 aSource

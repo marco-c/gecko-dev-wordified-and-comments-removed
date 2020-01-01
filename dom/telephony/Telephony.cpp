@@ -1635,7 +1635,7 @@ GetActive
 (
 Nullable
 <
-TelephonyCallOrTelephonyCallGroupReturnValue
+OwningTelephonyCallOrTelephonyCallGroup
 >
 &
 aValue
