@@ -56,13 +56,6 @@ InitXPAccessibility
 (
 )
 ;
-nsAppRootAccessible
-:
-:
-Load
-(
-)
-;
 }
 void
 nsAccessNodeWrap
