@@ -843,12 +843,6 @@ GetWorkingSetSize
 )
 const
 ;
-size_t
-GetPrivateBytes
-(
-)
-const
-;
 int
 GetCPUUsage
 (
