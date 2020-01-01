@@ -387,6 +387,13 @@ h
 #
 include
 "
+nsIDOMTouchEvent
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h
@@ -747,6 +754,8 @@ public
 PRCListStr
 public
 nsIDOMWindowPerformance
+public
+nsITouchEventReceiver
 {
 public
 :
@@ -880,6 +889,7 @@ NS_DECL_NSIDOMWINDOW
 NS_DECL_NSIDOMWINDOWPERFORMANCE
 NS_DECL_NSIDOMJSWINDOW
 NS_DECL_NSIDOMEVENTTARGET
+NS_DECL_NSITOUCHEVENTRECEIVER
 virtual
 NS_HIDDEN_
 (
