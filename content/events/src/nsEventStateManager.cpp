@@ -13716,6 +13716,9 @@ NS_ENSURE_ARG_POINTER
 aStatus
 )
 ;
+bool
+dispatchedToContentProcess
+=
 HandleCrossProcessEvent
 (
 aEvent
@@ -15538,6 +15541,12 @@ NS_VK_TAB
 case
 NS_VK_F6
 :
+if
+(
+dispatchedToContentProcess
+)
+break
+;
 EnsureDocument
 (
 mPresContext
