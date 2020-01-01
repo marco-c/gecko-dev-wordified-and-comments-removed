@@ -1696,12 +1696,12 @@ bpp
 =
 2
 ?
-gfxImageFormat
+gfxASurface
 :
 :
 ImageFormatRGB16_565
 :
-gfxImageFormat
+gfxASurface
 :
 :
 ImageFormatARGB32
