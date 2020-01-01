@@ -11354,8 +11354,6 @@ NPERR_NO_ERROR
 NPERR_GENERIC_ERROR
 ;
 }
-break
-;
 case
 NPPVpluginKeepLibraryInMemory
 :
