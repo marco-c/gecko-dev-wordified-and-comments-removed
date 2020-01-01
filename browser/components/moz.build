@@ -197,3 +197,13 @@ MODULE
 '
 browsercomps
 '
+EXTRA_COMPONENTS
++
+=
+[
+'
+BrowserComponents
+.
+manifest
+'
+]

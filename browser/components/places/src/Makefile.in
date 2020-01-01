@@ -76,7 +76,7 @@ config
 autoconf
 .
 mk
-EXTRA_COMPONENTS
+DISABLED_EXTRA_COMPONENTS
 =
 \
 BrowserPlaces

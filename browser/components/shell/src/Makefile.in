@@ -170,7 +170,7 @@ shellservice_s
 endif
 endif
 endif
-EXTRA_COMPONENTS
+DISABLED_EXTRA_COMPONENTS
 =
 nsSetDefaultBrowser
 .
