@@ -102,6 +102,10 @@ LUse
 :
 :
 REGISTER
+bool
+useAtStart
+=
+false
 )
 ;
 bool

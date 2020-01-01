@@ -83,7 +83,6 @@ RopeBuilder
 extern
 JSString
 *
-JS_FASTCALL
 js_ConcatStrings
 (
 JSContext
