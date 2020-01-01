@@ -963,6 +963,17 @@ FPRegisterID
 fpReg
 )
 {
+JS_ASSERT
+(
+fpReg
+!
+=
+Registers
+:
+:
+FPConversionTemp
+)
+;
 if
 (
 MacroAssemblerX86Common
