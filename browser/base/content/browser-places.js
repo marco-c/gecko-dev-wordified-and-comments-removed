@@ -2292,6 +2292,10 @@ uri
 )
 ;
 }
+handleURLBarRevert
+(
+)
+;
 if
 (
 aBrowser
