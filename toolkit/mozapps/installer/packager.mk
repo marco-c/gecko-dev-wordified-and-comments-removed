@@ -2379,6 +2379,11 @@ so
 libomxpluginfroyo
 .
 so
+libomxpluginjb
+-
+htc
+.
+so
 endif
 PKG_SUFFIX
 =
