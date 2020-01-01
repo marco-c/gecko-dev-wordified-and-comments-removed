@@ -1844,7 +1844,7 @@ ANDROID_VERSION
 -
 include
 (
-topsrcdir
+ABS_topsrcdir
 )
 /
 security
