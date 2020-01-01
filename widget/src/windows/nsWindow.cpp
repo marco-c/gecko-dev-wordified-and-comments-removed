@@ -14195,6 +14195,15 @@ GetTopLevelHWND
 mWnd
 )
 ;
+nsWindow
+:
+:
+DispatchStarvedPaints
+(
+topWnd
+0
+)
+;
 #
 if
 !
