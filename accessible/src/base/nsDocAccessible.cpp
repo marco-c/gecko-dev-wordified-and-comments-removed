@@ -5188,14 +5188,14 @@ aInfo
 -
 >
 mReplaceLength
-;
+:
 aInfo
 -
 >
 mChangeEnd
 -
 start
-:
+;
 if
 (
 length
