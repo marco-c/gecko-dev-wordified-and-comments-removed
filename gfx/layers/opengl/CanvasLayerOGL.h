@@ -155,6 +155,12 @@ mGLBufferIsPremultiplied
 PRPackedBool
 mNeedsYFlip
 ;
+nsRefPtr
+<
+GLContext
+>
+mCanvasSurfaceAsGLContext
+;
 }
 ;
 }
