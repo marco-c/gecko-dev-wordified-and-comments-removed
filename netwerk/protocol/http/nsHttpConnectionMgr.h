@@ -277,6 +277,13 @@ bool
 usingSpdy
 )
 ;
+bool
+ProcessPipelinePendingQForCI
+(
+nsHttpConnectionInfo
+*
+)
+;
 private
 :
 virtual
@@ -687,6 +694,13 @@ nsConnectionEntry
 *
 PRUint8
 caps
+)
+;
+bool
+ProcessPipelinePendingQForEntry
+(
+nsConnectionEntry
+*
 )
 ;
 void

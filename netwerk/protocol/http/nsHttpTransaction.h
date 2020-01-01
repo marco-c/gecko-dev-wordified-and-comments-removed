@@ -167,15 +167,6 @@ nsIAsyncInputStream
 responseBody
 )
 ;
-PRUint8
-Caps
-(
-)
-{
-return
-mCaps
-;
-}
 nsHttpConnectionInfo
 *
 ConnectionInfo
