@@ -782,6 +782,16 @@ NPRect
 aInvalidRect
 )
 ;
+#
+ifdef
+MOZ_WIDGET_COCOA
+void
+Invalidate
+(
+)
+;
+#
+endif
 uint32_t
 ScheduleTimer
 (
@@ -1468,6 +1478,9 @@ mCARenderer
 void
 *
 mCGLayer
+;
+uint32_t
+mCARefreshTimer
 ;
 public
 :
