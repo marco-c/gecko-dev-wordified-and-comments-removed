@@ -386,6 +386,9 @@ aChannel
 {
 PLUGIN_LOG_DEBUG_METHOD
 ;
+#
+ifdef
+XP_WIN
 COMMessageFilter
 :
 :
@@ -394,6 +397,8 @@ Initialize
 this
 )
 ;
+#
+endif
 NS_ASSERTION
 (
 aChannel
