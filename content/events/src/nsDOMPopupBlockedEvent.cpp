@@ -135,6 +135,13 @@ event
 mPopupWindowURI
 )
 ;
+delete
+event
+;
+mEvent
+=
+nsnull
+;
 }
 }
 }
