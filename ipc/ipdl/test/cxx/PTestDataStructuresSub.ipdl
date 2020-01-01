@@ -1,6 +1,6 @@
 include
 protocol
-PTestArrays
+PTestDataStructures
 ;
 namespace
 mozilla
@@ -10,10 +10,10 @@ _ipdltest
 {
 sync
 protocol
-PTestArraysSub
+PTestDataStructuresSub
 {
 manager
-PTestArrays
+PTestDataStructures
 ;
 parent
 :

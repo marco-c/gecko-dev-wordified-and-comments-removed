@@ -473,11 +473,11 @@ EXPORT_LIBRARY
 IPDLTESTS
 =
 \
-TestArrays
-\
 TestBlockChild
 \
 TestCrashCleanup
+\
+TestDataStructures
 \
 TestDesc
 \
