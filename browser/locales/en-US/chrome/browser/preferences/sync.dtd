@@ -198,11 +198,11 @@ Sync
 <
 !
 ENTITY
-addDevice
+pairDevice
 .
 label
 "
-Add
+Pair
 a
 Device
 "
