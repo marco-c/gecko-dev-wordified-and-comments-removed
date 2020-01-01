@@ -377,7 +377,7 @@ enum
 {
 TIMEOUT_SECONDS
 =
-1
+10
 }
 ;
 gfxFontCache
