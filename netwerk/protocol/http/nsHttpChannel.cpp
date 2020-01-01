@@ -1,6 +1,13 @@
 #
 include
 "
+nsHttp
+.
+h
+"
+#
+include
+"
 nsHttpChannel
 .
 h
@@ -17604,7 +17611,7 @@ ref
 bool
 rewriteToGET
 =
-HttpBaseChannel
+nsHttp
 :
 :
 ShouldRewriteRedirectToGET
@@ -17624,7 +17631,7 @@ rewriteToGET
 &
 &
 !
-HttpBaseChannel
+nsHttp
 :
 :
 IsSafeMethod
