@@ -917,6 +917,10 @@ dummy_page
 .
 html
 \
+browser_tabMatchesInAwesomebar
+.
+js
+\
 (
 NULL
 )
