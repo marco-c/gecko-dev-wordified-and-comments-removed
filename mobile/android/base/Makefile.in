@@ -2166,7 +2166,7 @@ res
 /
 layout
 /
-browser_toolbar
+browser_toolbar_menu
 .
 xml
 \
@@ -2532,7 +2532,7 @@ large
 -
 v11
 /
-browser_toolbar
+browser_toolbar_menu
 .
 xml
 \
