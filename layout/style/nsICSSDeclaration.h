@@ -86,6 +86,13 @@ nsCOMPtr
 h
 "
 #
+include
+"
+nsINode
+.
+h
+"
+#
 define
 NS_ICSSDECLARATION_IID
 \
@@ -105,9 +112,6 @@ NS_ICSSDECLARATION_IID
 0x1f
 }
 }
-class
-nsINode
-;
 class
 nsICSSDeclaration
 :

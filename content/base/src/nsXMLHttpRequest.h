@@ -58,6 +58,13 @@ h
 #
 include
 "
+nsIContent
+.
+h
+"
+#
+include
+"
 nsIStreamListener
 .
 h
