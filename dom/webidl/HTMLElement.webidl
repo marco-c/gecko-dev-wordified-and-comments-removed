@@ -177,9 +177,6 @@ document
 interface
 DOMStringMap
 ;
-interface
-HTMLMenuElement
-;
 /
 /
 Hack

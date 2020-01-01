@@ -371,6 +371,10 @@ HTMLMapElement
 .
 webidl
 \
+HTMLMenuElement
+.
+webidl
+\
 HTMLMenuItemElement
 .
 webidl
