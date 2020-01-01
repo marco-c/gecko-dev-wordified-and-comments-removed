@@ -1925,9 +1925,6 @@ LocationBar
 .
 setURI
 (
-aLocation
-.
-spec
 )
 ;
 if
