@@ -1301,13 +1301,6 @@ BINPATH
 /
 components
 /
-toolkitsearch
-.
-xpt
-BINPATH
-/
-components
-/
 txtsvc
 .
 xpt

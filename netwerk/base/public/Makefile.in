@@ -795,6 +795,10 @@ nsIRedirectResultListener
 .
 idl
 \
+nsIBrowserSearchService
+.
+idl
+\
 (
 NULL
 )

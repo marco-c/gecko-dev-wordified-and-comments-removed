@@ -433,17 +433,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-toolkitsearch
-XPIDL_MODULE
-=
-toolkitsearch
-XPIDLSRCS
-=
-nsIBrowserSearchService
-.
-idl
 EXTRA_COMPONENTS
 =
 toolkitsearch
