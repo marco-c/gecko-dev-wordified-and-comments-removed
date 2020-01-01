@@ -2421,6 +2421,8 @@ GetIntValue
 feature
 -
 >
+mData
+.
 mKeywordTable
 )
 aString
