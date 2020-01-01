@@ -2196,6 +2196,10 @@ Assertions
 .
 cpp
 \
+OSAllocatorOS2
+.
+cpp
+\
 OSAllocatorPosix
 .
 cpp
@@ -2364,6 +2368,10 @@ MacroAssemblerARM
 cpp
 \
 MacroAssemblerX86Common
+.
+cpp
+\
+OSAllocatorOS2
 .
 cpp
 \
