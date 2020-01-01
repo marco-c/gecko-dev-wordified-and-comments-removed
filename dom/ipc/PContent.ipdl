@@ -2124,6 +2124,17 @@ AudioChannelChangedNotification
 (
 )
 ;
+async
+FilePathUpdateNotify
+(
+nsString
+aType
+nsString
+aFilepath
+nsCString
+aReason
+)
+;
 both
 :
 AsyncMessage
