@@ -12435,6 +12435,7 @@ PresContext
 )
 aRenderingContext
 aDirtyRect
+aPt
 )
 ;
 }
@@ -16170,6 +16171,8 @@ const
 nsRect
 &
 aDirtyRect
+nsPoint
+aPt
 )
 {
 nscoord
@@ -16220,8 +16223,12 @@ invalid
 )
 ;
 currX
--
++
 =
+aPt
+.
+x
+-
 mHorzPosition
 ;
 }

@@ -663,6 +663,8 @@ const
 nsRect
 &
 aDirtyRect
+nsPoint
+aPt
 )
 ;
 void
