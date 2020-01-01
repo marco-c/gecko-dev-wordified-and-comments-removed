@@ -42,12 +42,6 @@ XCurProcD
 "
 #
 define
-NS_XPCOM_COMPONENT_REGISTRY_FILE
-"
-ComRegF
-"
-#
-define
 NS_XPCOM_LIBRARY_FILE
 "
 XpcomLib

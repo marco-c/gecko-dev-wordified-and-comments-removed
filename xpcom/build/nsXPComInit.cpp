@@ -2205,10 +2205,6 @@ init
 "
 )
 ;
-nsIInterfaceInfoManager
-*
-iim
-=
 xptiInterfaceInfoManager
 :
 :

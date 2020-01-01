@@ -489,6 +489,9 @@ char
 aMIMEType
 )
 ;
+#
+ifdef
+MOZ_OGG
 static
 bool
 IsOggEnabled
@@ -526,6 +529,11 @@ gOggCodecs
 3
 ]
 ;
+#
+endif
+#
+ifdef
+MOZ_WAVE
 static
 bool
 IsWaveEnabled
@@ -563,6 +571,11 @@ gWaveCodecs
 2
 ]
 ;
+#
+endif
+#
+ifdef
+MOZ_WEBM
 static
 bool
 IsWebMEnabled
@@ -600,6 +613,8 @@ gWebMCodecs
 4
 ]
 ;
+#
+endif
 void
 NotifyAddedSource
 (
