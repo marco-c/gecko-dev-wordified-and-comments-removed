@@ -8039,7 +8039,10 @@ nsJSUtils
 :
 GetStaticScriptGlobal
 (
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 cx
 )
@@ -25686,7 +25689,10 @@ JSObject
 scope
 (
 aCx
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 aCx
 )

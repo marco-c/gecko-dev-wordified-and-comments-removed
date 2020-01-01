@@ -605,7 +605,10 @@ JSObject
 *
 scope
 =
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 cx
 )

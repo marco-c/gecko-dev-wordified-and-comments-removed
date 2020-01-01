@@ -183,7 +183,10 @@ JSObject
 *
 global
 =
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 aCx
 )

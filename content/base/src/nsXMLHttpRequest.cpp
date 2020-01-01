@@ -4235,7 +4235,10 @@ JSObject
 scope
 (
 aCx
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 aCx
 )
@@ -4297,7 +4300,10 @@ JSObject
 scope
 (
 aCx
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 aCx
 )

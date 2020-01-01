@@ -24,7 +24,10 @@ JSObject
 glob
 (
 cx
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 cx
 )
@@ -74,7 +77,10 @@ JSNative
 1
 0
 0
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 cx
 )
@@ -108,7 +114,10 @@ JSNative
 1
 0
 0
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 cx
 )
@@ -136,7 +145,10 @@ JSNative
 1
 0
 0
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 cx
 )

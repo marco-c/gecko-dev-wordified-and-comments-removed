@@ -184,7 +184,10 @@ global
 setObject
 (
 *
-JS_GetGlobalForScopeChain
+JS
+:
+:
+CurrentGlobalOrNull
 (
 cx
 )
