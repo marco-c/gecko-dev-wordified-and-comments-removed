@@ -6884,6 +6884,13 @@ menclose
 )
 HTML5_ATOM
 (
+menuitem
+"
+menuitem
+"
+)
+HTML5_ATOM
+(
 mphantom
 "
 mphantom

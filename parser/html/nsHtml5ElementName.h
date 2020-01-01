@@ -1790,6 +1790,11 @@ ELT_MENCLOSE
 static
 nsHtml5ElementName
 *
+ELT_MENUITEM
+;
+static
+nsHtml5ElementName
+*
 ELT_MPHANTOM
 ;
 static
