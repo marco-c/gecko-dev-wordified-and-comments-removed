@@ -116,6 +116,14 @@ lirasm
 -
 execute
 infile
+|
+tr
+-
+d
+'
+\
+r
+'
 >
 testoutput
 .

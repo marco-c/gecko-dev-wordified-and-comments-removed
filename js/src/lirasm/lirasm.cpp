@@ -4485,6 +4485,9 @@ LIR_i2f
 case
 LIR_u2f
 :
+case
+LIR_f2i
+:
 need
 (
 1
@@ -6420,6 +6423,13 @@ I_F_ops
 push_back
 (
 LIR_qhi
+)
+;
+I_F_ops
+.
+push_back
+(
+LIR_f2i
 )
 ;
 vector
