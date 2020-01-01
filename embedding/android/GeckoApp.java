@@ -573,6 +573,8 @@ public
 void
 onTabsChanged
 (
+Tab
+tab
 )
 ;
 }
@@ -3188,6 +3190,7 @@ getFavicon
 ;
 onTabsChanged
 (
+tab
 )
 ;
 }
@@ -3668,6 +3671,8 @@ public
 void
 onTabsChanged
 (
+Tab
+tab
 )
 {
 if
@@ -3710,6 +3715,7 @@ next
 .
 onTabsChanged
 (
+tab
 )
 ;
 }
@@ -5575,6 +5581,7 @@ tab
 {
 onTabsChanged
 (
+tab
 )
 ;
 mDoorHangerPopup
@@ -5661,6 +5668,7 @@ run
 {
 onTabsChanged
 (
+tab
 )
 ;
 mBrowserToolbar
@@ -5902,6 +5910,7 @@ true
 }
 onTabsChanged
 (
+tab
 )
 ;
 }
@@ -5984,6 +5993,7 @@ false
 ;
 onTabsChanged
 (
+tab
 )
 ;
 }
@@ -6157,6 +6167,7 @@ getDisplayTitle
 ;
 onTabsChanged
 (
+tab
 )
 ;
 }
@@ -6245,6 +6256,7 @@ getDisplayTitle
 ;
 onTabsChanged
 (
+tab
 )
 ;
 }
