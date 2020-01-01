@@ -7260,7 +7260,8 @@ AutoStringVector
 public
 AutoVectorRooter
 <
-RawString
+JSString
+*
 >
 {
 public
@@ -7276,7 +7277,8 @@ MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 :
 AutoVectorRooter
 <
-RawString
+JSString
+*
 >
 (
 cx

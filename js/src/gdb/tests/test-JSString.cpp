@@ -252,10 +252,8 @@ stars
 )
 )
 ;
-js
-:
-:
-RawString
+JSString
+*
 xRaw
 =
 x
@@ -320,10 +318,8 @@ cx
 NULL
 )
 ;
-js
-:
-:
-RawString
+JSString
+*
 nullRaw
 =
 null

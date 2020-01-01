@@ -2303,7 +2303,8 @@ str
 atom
 )
 {
-RawString
+JSString
+*
 stack
 =
 StackTraceToString
@@ -3480,7 +3481,8 @@ message
 return
 false
 ;
-RawString
+JSString
+*
 str
 =
 sb
@@ -3898,7 +3900,8 @@ append
 return
 false
 ;
-RawString
+JSString
+*
 linenumber
 =
 ToString
@@ -3958,7 +3961,8 @@ append
 return
 false
 ;
-RawString
+JSString
+*
 str
 =
 sb
@@ -5690,7 +5694,8 @@ roots
 )
 )
 {
-RawString
+JSString
+*
 tmp
 =
 ToString

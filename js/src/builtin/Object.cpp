@@ -987,7 +987,8 @@ false
 ;
 }
 }
-RawString
+JSString
+*
 s
 =
 ToString
@@ -1464,7 +1465,8 @@ append
 return
 false
 ;
-RawString
+JSString
+*
 str
 =
 buf
@@ -1695,7 +1697,8 @@ obj
 return
 false
 ;
-RawString
+JSString
+*
 str
 =
 JS_BasicObjectToString

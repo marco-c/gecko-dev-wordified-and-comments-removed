@@ -7392,7 +7392,8 @@ length
 i
 )
 {
-RawString
+JSString
+*
 str
 =
 formals

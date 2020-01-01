@@ -1957,7 +1957,8 @@ MarkInternal
 trc
 reinterpret_cast
 <
-RawString
+JSString
+*
 *
 >
 (
@@ -8093,7 +8094,8 @@ MarkChildren
 trc
 static_cast
 <
-RawString
+JSString
+*
 >
 (
 thing
