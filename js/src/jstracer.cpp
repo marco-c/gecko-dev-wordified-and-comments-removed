@@ -12883,6 +12883,16 @@ reset
 (
 )
 ;
+traceMonitor
+-
+>
+lirbuf
+-
+>
+clear
+(
+)
+;
 #
 ifdef
 DEBUG
@@ -14411,7 +14421,8 @@ alloc
 )
 LirBuffer
 (
-alloc
+*
+tempAlloc
 )
 ;
 reLirBuf
@@ -14422,7 +14433,8 @@ alloc
 )
 LirBuffer
 (
-alloc
+*
+reTempAlloc
 )
 ;
 verbose_only
