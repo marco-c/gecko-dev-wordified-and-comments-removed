@@ -15252,6 +15252,9 @@ case
 ICC_EF_SPN
 :
 case
+ICC_EF_SPDI
+:
+case
 ICC_EF_SST
 :
 case
