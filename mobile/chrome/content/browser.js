@@ -10697,6 +10697,14 @@ isEmpty
 )
 &
 &
+!
+(
+element
+instanceof
+HTMLHtmlElement
+)
+&
+&
 (
 (
 x
@@ -11803,12 +11811,6 @@ false
 ;
 if
 (
-!
-aWindowUtils
-.
-nodesFromRect
-|
-|
 this
 .
 _isElementClickable
