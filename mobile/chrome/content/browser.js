@@ -3759,7 +3759,9 @@ alerts
 showAlertNotification
 (
 URI_GENERIC_ICON_XPINSTALL
-strings
+Elements
+.
+browserBundle
 .
 getString
 (
