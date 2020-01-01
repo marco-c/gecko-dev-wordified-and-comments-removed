@@ -1502,7 +1502,7 @@ openOverridden
 )
 mExecutionPolicy
 (
-NO_EXECUTION
+EXECUTE_IN_SANDBOX
 )
 mIsActive
 (

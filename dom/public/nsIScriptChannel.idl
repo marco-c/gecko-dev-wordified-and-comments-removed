@@ -748,6 +748,9 @@ channel
 MUST
 *
 be
+either
+EXECUTE_IN_SANDBOX
+or
 NO_EXECUTION
 .
 *
