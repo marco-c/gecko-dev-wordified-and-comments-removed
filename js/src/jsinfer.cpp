@@ -1080,13 +1080,6 @@ value
 isUndefined
 (
 )
-&
-&
-!
-JSID_IS_DEFAULT_XML_NAMESPACE
-(
-id
-)
 )
 {
 id
