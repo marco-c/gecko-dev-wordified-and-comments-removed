@@ -6097,6 +6097,7 @@ PlacesUIUtils
 getBestTitle
 (
 node
+true
 )
 ;
 case

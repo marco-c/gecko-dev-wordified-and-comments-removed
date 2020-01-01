@@ -2008,6 +2008,7 @@ nodeForTreeIndex
 (
 aElementOrTreeIndex
 )
+true
 )
 ;
 return
