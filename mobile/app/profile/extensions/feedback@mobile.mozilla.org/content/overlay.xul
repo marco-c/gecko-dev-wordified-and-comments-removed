@@ -855,17 +855,6 @@ bool
 >
 <
 setting
-pref
-=
-"
-extensions
-.
-checkCompatibility
-.
-4
-.
-0b
-"
 title
 =
 "
