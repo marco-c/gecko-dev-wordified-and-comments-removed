@@ -3889,13 +3889,7 @@ ControlStatus_Error
 ;
 pc
 =
-GetNextPc
-(
-GetNextPc
-(
-pc
-)
-)
+bodyStart
 ;
 return
 ControlStatus_Jumped
