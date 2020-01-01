@@ -4834,7 +4834,7 @@ ProfileJS
 stack
 -
 >
-installJSSampling
+enableJSSampling
 (
 )
 ;
@@ -4873,7 +4873,7 @@ return
 ;
 }
 bool
-uninstallJS
+disableJS
 =
 t
 -
@@ -4919,12 +4919,12 @@ NULL
 ;
 if
 (
-uninstallJS
+disableJS
 )
 stack
 -
 >
-uninstallJSSampling
+disableJSSampling
 (
 )
 ;

@@ -1496,6 +1496,7 @@ mjit
 :
 :
 CompileRequest_Interpreter
+fp
 )
 ;
 if
@@ -7936,6 +7937,11 @@ mjit
 :
 :
 CompileRequest_Interpreter
+regs
+.
+fp
+(
+)
 )
 ;
 if
@@ -13215,6 +13221,11 @@ mjit
 :
 :
 CompileRequest_Interpreter
+regs
+.
+fp
+(
+)
 )
 ;
 if
