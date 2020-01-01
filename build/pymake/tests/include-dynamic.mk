@@ -2,8 +2,8 @@
 shell
 \
 if
-test
 !
+test
 -
 f
 include

@@ -22,6 +22,10 @@ run
 "
 all
 "
+.
+PHONY
+:
+test
 all
 :
 echo
