@@ -179,7 +179,7 @@ const
 size_t
 ChunkMarkBitmapOffset
 =
-1032376
+1032368
 ;
 const
 size_t
