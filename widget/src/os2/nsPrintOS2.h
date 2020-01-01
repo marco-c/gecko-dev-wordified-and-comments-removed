@@ -195,12 +195,5 @@ PHCINFO
 pHCInfo
 )
 ;
-BOOL
-PrnAbortJob
-(
-HDC
-hdc
-)
-;
 #
 endif
