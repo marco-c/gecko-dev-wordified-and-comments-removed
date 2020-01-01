@@ -347,11 +347,6 @@ PR_DestroyLock
 mLock
 )
 ;
-if
-(
-sXPConnect
-)
-{
 NS_IF_RELEASE
 (
 sXPConnect
@@ -361,7 +356,6 @@ sXPConnect
 =
 nsnull
 ;
-}
 }
 nsresult
 mozStorageService
