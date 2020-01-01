@@ -55,6 +55,7 @@ namespace
 mozilla
 {
 class
+NS_STACK_CLASS
 MonitorAutoExit
 {
 public
