@@ -181,6 +181,9 @@ mCategoryObservers
 bool
 mShutdownInProgress
 ;
+PRTime
+mDailyTimerStart
+;
 }
 ;
 class
