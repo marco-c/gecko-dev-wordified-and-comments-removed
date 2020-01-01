@@ -91,16 +91,6 @@ MPL
 .
 *
 /
-[
-Func
-=
-"
-Navigator
-:
-:
-HasTelephonySupport
-"
-]
 interface
 TelephonyCall
 :

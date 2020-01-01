@@ -337,6 +337,9 @@ h
 #
 endif
 #
+ifdef
+MOZ_B2G_RIL
+#
 include
 "
 mozilla
@@ -347,6 +350,8 @@ Telephony
 .
 h
 "
+#
+endif
 #
 ifdef
 MOZ_B2G_BT
@@ -6815,6 +6820,9 @@ win
 )
 ;
 }
+#
+ifdef
+MOZ_B2G_RIL
 bool
 Navigator
 :
@@ -6852,9 +6860,6 @@ win
 )
 ;
 }
-#
-ifdef
-MOZ_B2G_RIL
 bool
 Navigator
 :

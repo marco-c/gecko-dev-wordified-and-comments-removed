@@ -215,14 +215,14 @@ BluetoothManager
 }
 #
 endif
-class
-Telephony
-;
 #
 ifdef
 MOZ_B2G_RIL
 class
 CellBroadcast
+;
+class
+Telephony
 ;
 class
 Voicemail
@@ -1073,6 +1073,9 @@ JSObject
 aGlobal
 )
 ;
+#
+ifdef
+MOZ_B2G_RIL
 static
 bool
 HasTelephonySupport
@@ -1084,9 +1087,6 @@ JSObject
 aGlobal
 )
 ;
-#
-ifdef
-MOZ_B2G_RIL
 static
 bool
 HasMobileConnectionSupport
