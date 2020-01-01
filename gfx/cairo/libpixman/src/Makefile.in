@@ -946,12 +946,6 @@ DUSE_ARM_NEON
 ARM_NEON_CFLAGS
 =
 -
-mfloat
--
-abi
-=
-softfp
--
 mfpu
 =
 neon
