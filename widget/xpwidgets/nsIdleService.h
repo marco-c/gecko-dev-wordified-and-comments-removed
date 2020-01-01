@@ -151,9 +151,6 @@ nsIIdleService
 *
 mIdleService
 ;
-bool
-mObservesIdle
-;
 nsCOMPtr
 <
 nsITimer
