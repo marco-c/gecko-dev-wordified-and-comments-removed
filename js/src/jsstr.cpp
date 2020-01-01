@@ -35943,13 +35943,8 @@ ucs4Char
 ;
 }
 #
-if
-defined
+ifdef
 DEBUG
-|
-|
-defined
-JS_DUMP_CONSERVATIVE_GC_ROOTS
 JS_FRIEND_API
 (
 size_t

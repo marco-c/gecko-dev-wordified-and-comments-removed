@@ -2734,12 +2734,6 @@ jsuword
 *
 nativeStackBase
 ;
-js
-:
-:
-ConservativeGCThreadData
-conservativeGC
-;
 bool
 init
 (
