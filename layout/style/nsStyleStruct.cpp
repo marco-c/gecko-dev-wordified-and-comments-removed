@@ -4914,12 +4914,7 @@ NS_STYLE_HINT_NONE
 else
 {
 return
-NS_CombineHint
-(
 nsChangeHint_NeedReflow
-nsChangeHint_ClearAncestorIntrinsics
-)
-;
 ;
 }
 }
