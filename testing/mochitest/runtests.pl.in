@@ -4504,6 +4504,16 @@ url
 my
 rc
 =
+0
+;
+if
+(
+0
+)
+{
+my
+rc
+=
 -
 1
 ;
@@ -4555,6 +4565,7 @@ profile_arg
 test_url
 )
 ;
+}
 }
 if
 (
