@@ -630,6 +630,9 @@ IPDLUnitTests
 .
 cpp
 :
+Makefile
+.
+in
 (
 GENTESTER
 )
@@ -642,7 +645,9 @@ IPDLTESTHDRS
 (
 PYTHON
 )
-<
+(
+GENTESTER
+)
 (
 TESTER_TEMPLATE
 )
