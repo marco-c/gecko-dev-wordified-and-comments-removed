@@ -416,7 +416,7 @@ type
 (
 )
 )
-ToOperand
+ToRegister
 (
 in
 )
@@ -1205,7 +1205,7 @@ masm
 boxValue
 (
 type
-ToOperand
+ToRegister
 (
 value
 )
