@@ -6409,6 +6409,13 @@ nsDisplayWrapList
 {
 public
 :
+enum
+{
+GENERATE_SUBDOC_INVALIDATIONS
+=
+0x01
+}
+;
 nsDisplayOwnLayer
 (
 nsDisplayListBuilder
@@ -6420,6 +6427,10 @@ aFrame
 nsDisplayList
 *
 aList
+uint32_t
+aFlags
+=
+0
 )
 ;
 #
@@ -6501,6 +6512,11 @@ OwnLayer
 "
 TYPE_OWN_LAYER
 )
+private
+:
+uint32_t
+mFlags
+;
 }
 ;
 class
@@ -7257,6 +7273,10 @@ int32_t
 aAPD
 int32_t
 aParentAPD
+uint32_t
+aFlags
+=
+0
 )
 ;
 #

@@ -311,6 +311,13 @@ nsContentUtils
 h
 "
 #
+include
+"
+LayerTreeInvalidation
+.
+h
+"
+#
 ifdef
 ACCESSIBILITY
 #
@@ -1727,6 +1734,10 @@ subdocRootFrame
 childItems
 subdocAPD
 parentAPD
+nsDisplayOwnLayer
+:
+:
+GENERATE_SUBDOC_INVALIDATIONS
 )
 ;
 childItems
@@ -1769,6 +1780,10 @@ subdocRootFrame
 this
 &
 childItems
+nsDisplayOwnLayer
+:
+:
+GENERATE_SUBDOC_INVALIDATIONS
 )
 ;
 childItems

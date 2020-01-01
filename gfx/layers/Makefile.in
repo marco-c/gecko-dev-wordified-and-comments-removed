@@ -205,6 +205,10 @@ LayerSorter
 .
 h
 \
+LayerTreeInvalidation
+.
+h
+\
 ReadbackLayer
 .
 h
@@ -324,6 +328,10 @@ LayerManagerOGLProgram
 cpp
 \
 LayerSorter
+.
+cpp
+\
+LayerTreeInvalidation
 .
 cpp
 \

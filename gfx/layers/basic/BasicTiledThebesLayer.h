@@ -631,6 +631,14 @@ nsIntRegion
 aRegion
 )
 {
+mInvalidRegion
+.
+Or
+(
+mInvalidRegion
+aRegion
+)
+;
 mValidRegion
 .
 Sub

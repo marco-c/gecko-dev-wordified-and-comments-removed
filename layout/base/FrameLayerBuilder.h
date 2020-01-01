@@ -46,6 +46,13 @@ nsDisplayListInvalidation
 .
 h
 "
+#
+include
+"
+LayerTreeInvalidation
+.
+h
+"
 class
 nsDisplayListBuilder
 ;
