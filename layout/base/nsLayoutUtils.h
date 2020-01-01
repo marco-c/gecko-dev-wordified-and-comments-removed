@@ -236,15 +236,6 @@ aId
 )
 ;
 static
-nsIScrollableFrame
-*
-FindScrollableFrameFor
-(
-ViewID
-aId
-)
-;
-static
 bool
 GetDisplayPort
 (
@@ -973,6 +964,11 @@ const
 nsIFrame
 *
 aAncestor
+bool
+*
+aPreservesAxisAlignedRectangles
+=
+nullptr
 )
 ;
 static
