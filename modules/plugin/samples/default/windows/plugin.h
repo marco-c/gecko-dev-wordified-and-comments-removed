@@ -38,7 +38,7 @@ char
 *
 m_szURLString
 ;
-wchar_t
+char
 *
 m_szCommandMessage
 ;
@@ -322,7 +322,6 @@ WIN32
 #
 define
 REGISTRY_PLACE
-L
 "
 Software
 \
@@ -360,7 +359,6 @@ endif
 #
 define
 CLASS_NULL_PLUGIN
-L
 "
 NullPluginClass
 "

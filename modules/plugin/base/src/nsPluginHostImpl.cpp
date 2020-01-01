@@ -16095,7 +16095,7 @@ restoreOrigDir
 =
 FALSE
 ;
-PRUnichar
+char
 origDir
 [
 _MAX_PATH
@@ -16115,7 +16115,7 @@ dw
 =
 :
 :
-GetCurrentDirectoryW
+GetCurrentDirectory
 (
 _MAX_PATH
 origDir
@@ -16169,13 +16169,13 @@ result
 )
 )
 {
-nsAutoString
+nsCAutoString
 path
 ;
 binDirectory
 -
 >
-GetPath
+GetNativePath
 (
 path
 )
@@ -16184,7 +16184,7 @@ restoreOrigDir
 =
 :
 :
-SetCurrentDirectoryW
+SetCurrentDirectory
 (
 path
 .
@@ -16234,7 +16234,7 @@ bCheck
 =
 :
 :
-SetCurrentDirectoryW
+SetCurrentDirectory
 (
 origDir
 )

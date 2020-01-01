@@ -50,7 +50,7 @@ HDC
 *
 aHDC
 const
-LOGFONTW
+LOGFONT
 *
 ptrLogFont
 nsString
@@ -59,6 +59,10 @@ aFontName
 gfxFontStyle
 *
 aFontStyle
+PRBool
+aIsWide
+=
+PR_FALSE
 )
 const
 ;

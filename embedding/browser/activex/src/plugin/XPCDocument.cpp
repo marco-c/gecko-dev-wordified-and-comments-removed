@@ -5442,7 +5442,7 @@ FAILED
 CreateURLMoniker
 (
 NULL
-A2CW
+T2CW
 (
 spec
 .

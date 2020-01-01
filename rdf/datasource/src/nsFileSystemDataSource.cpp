@@ -4171,7 +4171,7 @@ WINCE
 PRInt32
 driveType
 ;
-PRUnichar
+char
 drive
 [
 32
@@ -4199,10 +4199,9 @@ volNum
 +
 )
 {
-swprintf
+sprintf
 (
 drive
-L
 "
 %
 c
@@ -4212,9 +4211,6 @@ c
 "
 volNum
 +
-(
-PRUnichar
-)
 '
 A
 '
@@ -4222,7 +4218,7 @@ A
 ;
 driveType
 =
-GetDriveTypeW
+GetDriveType
 (
 drive
 )
