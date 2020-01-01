@@ -1530,9 +1530,8 @@ vp
 )
 ;
 }
-static
 JSBool
-math_max
+js_math_max
 (
 JSContext
 *
@@ -2993,7 +2992,7 @@ JS_FN
 "
 max
 "
-math_max
+js_math_max
 2
 0
 )
