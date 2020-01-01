@@ -41,7 +41,7 @@ ShadowLayerParent
 :
 mLayer
 (
-NULL
+nullptr
 )
 {
 }
@@ -210,7 +210,7 @@ return
 }
 mLayer
 =
-NULL
+nullptr
 ;
 }
 }

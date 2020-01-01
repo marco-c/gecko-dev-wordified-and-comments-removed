@@ -450,7 +450,7 @@ ShadowableLayer
 *
 aAfter
 =
-NULL
+nullptr
 )
 ;
 void
@@ -477,7 +477,7 @@ ShadowableLayer
 *
 aAfter
 =
-NULL
+nullptr
 )
 ;
 void
@@ -986,7 +986,7 @@ ShadowableLayer
 :
 mShadow
 (
-NULL
+nullptr
 )
 {
 }

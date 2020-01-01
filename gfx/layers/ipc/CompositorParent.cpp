@@ -531,7 +531,7 @@ aWidget
 )
 mCurrentCompositeTask
 (
-NULL
+nullptr
 )
 mIsTesting
 (
@@ -2119,7 +2119,7 @@ if
 mForceCompositionTask
 !
 =
-NULL
+nullptr
 )
 {
 mForceCompositionTask

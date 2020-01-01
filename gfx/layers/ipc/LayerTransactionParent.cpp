@@ -824,7 +824,7 @@ layer_manager
 >
 BeginTransactionWithTarget
 (
-NULL
+nullptr
 )
 ;
 for
@@ -1301,7 +1301,7 @@ clipRect
 (
 )
 :
-NULL
+nullptr
 )
 ;
 layer
@@ -1410,7 +1410,7 @@ layer
 >
 SetMaskLayer
 (
-NULL
+nullptr
 )
 ;
 }
@@ -2089,7 +2089,7 @@ oac
 AsLayer
 (
 )
-NULL
+nullptr
 )
 ;
 break
@@ -2276,7 +2276,7 @@ rtc
 AsLayer
 (
 )
-NULL
+nullptr
 )
 ;
 break
@@ -2443,8 +2443,8 @@ layer_manager
 >
 EndTransaction
 (
-NULL
-NULL
+nullptr
+nullptr
 LayerManager
 :
 :
