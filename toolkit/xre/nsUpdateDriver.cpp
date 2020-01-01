@@ -902,7 +902,6 @@ versionFile
 const
 char
 *
-&
 appVersion
 )
 {
@@ -2220,7 +2219,6 @@ argv
 const
 char
 *
-&
 appVersion
 )
 {

@@ -38,7 +38,6 @@ argv
 const
 char
 *
-&
 appVersion
 )
 ;
