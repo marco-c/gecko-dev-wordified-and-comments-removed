@@ -888,6 +888,13 @@ HasShadowManager
 )
 ;
 }
+virtual
+void
+SetIsFirstPaint
+(
+)
+MOZ_OVERRIDE
+;
 private
 :
 void

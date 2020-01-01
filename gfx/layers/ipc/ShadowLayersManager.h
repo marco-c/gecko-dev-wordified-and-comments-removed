@@ -29,6 +29,8 @@ virtual
 void
 ShadowLayersUpdated
 (
+bool
+isFirstPaint
 )
 =
 0

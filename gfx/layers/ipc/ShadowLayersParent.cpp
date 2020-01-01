@@ -2035,6 +2035,7 @@ mShadowLayersManager
 >
 ShadowLayersUpdated
 (
+isFirstPaint
 )
 ;
 #

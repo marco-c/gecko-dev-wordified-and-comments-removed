@@ -175,6 +175,8 @@ virtual
 void
 ShadowLayersUpdated
 (
+bool
+isFirstPaint
 )
 MOZ_OVERRIDE
 ;
@@ -347,6 +349,9 @@ mYScale
 ;
 nsIntPoint
 mScrollOffset
+;
+bool
+mIsFirstPaint
 ;
 DISALLOW_EVIL_CONSTRUCTORS
 (
