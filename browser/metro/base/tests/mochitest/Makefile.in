@@ -194,6 +194,14 @@ browser_urlbar
 .
 js
 \
+browser_urlbar_highlightURLs
+.
+js
+\
+browser_urlbar_trimURLs
+.
+js
+\
 (
 NULL
 )
