@@ -232,7 +232,10 @@ end
 #
 define
 NS_STATE_NEED_LAYOUT
-0x01000000
+NS_FRAME_STATE_BIT
+(
+24
+)
 class
 nsAccessKeyInfo
 {

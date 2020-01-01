@@ -55,7 +55,10 @@ PropertyProvider
 #
 define
 TEXT_HAS_NONCOLLAPSED_CHARACTERS
-0x80000000
+NS_FRAME_STATE_BIT
+(
+31
+)
 class
 nsTextFrame
 :
