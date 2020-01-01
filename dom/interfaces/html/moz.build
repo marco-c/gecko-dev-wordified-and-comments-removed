@@ -278,11 +278,6 @@ nsIDOMHTMLMetaElement
 idl
 '
 '
-nsIDOMHTMLMeterElement
-.
-idl
-'
-'
 nsIDOMHTMLOListElement
 .
 idl
