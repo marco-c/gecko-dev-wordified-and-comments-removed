@@ -401,12 +401,6 @@ mMutedVolume
 nsIntSize
 mMediaSize
 ;
-float
-mDefaultPlaybackRate
-;
-float
-mPlaybackRate
-;
 PRPackedBool
 mBegun
 ;
