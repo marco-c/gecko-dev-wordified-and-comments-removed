@@ -391,6 +391,8 @@ nsIObjectFrame
 *
 GetFrame
 (
+PRBool
+aFlushLayout
 )
 ;
 nsresult

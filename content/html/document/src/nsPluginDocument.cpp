@@ -263,8 +263,10 @@ return
 rv
 ;
 }
+nsCOMPtr
+<
 nsIContent
-*
+>
 embed
 =
 mPluginDoc
@@ -295,6 +297,14 @@ return
 NS_BINDING_ABORTED
 ;
 }
+shell
+-
+>
+FlushPendingNotifications
+(
+Flush_Layout
+)
+;
 nsIFrame
 *
 frame
