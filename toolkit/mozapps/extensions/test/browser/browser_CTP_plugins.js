@@ -998,7 +998,6 @@ part7
 {
 ok
 (
-!
 PopupNotifications
 .
 getNotification
@@ -1017,15 +1016,11 @@ gPluginBrowser
 "
 part7
 :
-should
-not
-have
+disabled
+plugins
+still
+show
 a
-click
--
-to
--
-play
 notification
 "
 )
