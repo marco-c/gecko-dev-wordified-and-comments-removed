@@ -3071,7 +3071,7 @@ aPresContext
 ;
 if
 (
-0
+NS_FRAME_NO_MOVE_FRAME
 =
 =
 (

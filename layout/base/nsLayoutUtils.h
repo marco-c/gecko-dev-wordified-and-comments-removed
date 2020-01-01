@@ -298,9 +298,15 @@ nsIFrame
 *
 GetCrossDocParentFrame
 (
+const
 nsIFrame
 *
 aFrame
+nsPoint
+*
+aCrossDocOffset
+=
+nsnull
 )
 ;
 static
