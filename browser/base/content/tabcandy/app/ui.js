@@ -411,6 +411,7 @@ tab
 .
 collapsed
 =
+=
 false
 )
 visibleTabs
