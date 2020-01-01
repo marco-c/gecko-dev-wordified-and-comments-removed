@@ -1372,10 +1372,6 @@ ChromeMessageSender
 )
 DOMCI_CLASS
 (
-FormData
-)
-DOMCI_CLASS
-(
 DesktopNotification
 )
 DOMCI_CLASS

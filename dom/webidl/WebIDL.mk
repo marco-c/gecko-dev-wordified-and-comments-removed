@@ -183,6 +183,10 @@ FileReaderSync
 .
 webidl
 \
+FormData
+.
+webidl
+\
 Function
 .
 webidl

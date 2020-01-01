@@ -148,9 +148,6 @@ interface
 Blob
 ;
 interface
-FormData
-;
-interface
 InputStream
 ;
 interface

@@ -35,6 +35,13 @@ h
 #
 include
 "
+nsHTMLFormElement
+.
+h
+"
+#
+include
+"
 nsHTMLImageElement
 .
 h
@@ -855,6 +862,11 @@ DEFINE_UNWRAP_CAST_HTML
 (
 div
 nsHTMLDivElement
+)
+DEFINE_UNWRAP_CAST_HTML
+(
+form
+nsHTMLFormElement
 )
 DEFINE_UNWRAP_CAST_HTML
 (
