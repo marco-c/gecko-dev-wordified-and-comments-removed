@@ -295,6 +295,11 @@ WebGLExtensionElementIndexUint
 cpp
 '
 '
+WebGLExtensionInstancedArrays
+.
+cpp
+'
+'
 WebGLExtensionLoseContext
 .
 cpp
