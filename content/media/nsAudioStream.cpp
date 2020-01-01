@@ -520,10 +520,7 @@ mOwner
 -
 >
 mRate
-mOwner
--
->
-mFormat
+MOZ_AUDIO_DATA_FORMAT
 )
 )
 ;
@@ -1661,10 +1658,6 @@ mChannels
 =
 aNumChannels
 ;
-mFormat
-=
-MOZ_AUDIO_DATA_FORMAT
-;
 if
 (
 sa_stream_create_pcm
@@ -2680,10 +2673,6 @@ aRate
 mChannels
 =
 aNumChannels
-;
-mFormat
-=
-MOZ_AUDIO_DATA_FORMAT
 ;
 mBytesPerFrame
 =
@@ -3875,10 +3864,6 @@ aRate
 mChannels
 =
 aNumChannels
-;
-mFormat
-=
-MOZ_AUDIO_DATA_FORMAT
 ;
 cubeb_stream_params
 params

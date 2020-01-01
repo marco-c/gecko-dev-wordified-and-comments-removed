@@ -279,9 +279,6 @@ mRate
 int
 mChannels
 ;
-SampleFormat
-mFormat
-;
 }
 ;
 #
