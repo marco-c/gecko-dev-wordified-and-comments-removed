@@ -249,6 +249,16 @@ localFile
 #
 ifdef
 OS_MACOSX
+if
+(
+XRE_GetProcessType
+(
+)
+=
+=
+GeckoProcessType_Content
+)
+{
 rv
 =
 localFile
@@ -351,6 +361,7 @@ NS_ENSURE_TRUE
 localFile
 )
 ;
+}
 #
 endif
 rv
