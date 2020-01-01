@@ -1178,6 +1178,8 @@ aDocument
 nsISupports
 *
 aState
+PRBool
+aForceReuseInnerWindow
 )
 ;
 void
@@ -2943,6 +2945,8 @@ aDocument
 nsISupports
 *
 aState
+PRBool
+aForceReuseInnerWindow
 )
 ;
 protected

@@ -7594,6 +7594,7 @@ SetNewDocument
 (
 this
 nsnull
+PR_FALSE
 )
 ;
 NS_ENSURE_SUCCESS
