@@ -376,7 +376,7 @@ waitForExplicitFinish
 (
 )
 ;
-addLoadEvent
+addA11yLoadEvent
 (
 doTests
 )

@@ -600,7 +600,9 @@ call
 )
 ;
 }
-addLoadEvent
+SimpleTest
+.
+waitForFocus
 (
 waitForDocLoad
 )
