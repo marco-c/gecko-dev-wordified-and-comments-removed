@@ -106,14 +106,6 @@ nsIURI
 aIconURI
 )
 ;
-PRBool
-ShouldLoadSync
-(
-nsIURI
-*
-aURI
-)
-;
 protected
 :
 nsCOMPtr
