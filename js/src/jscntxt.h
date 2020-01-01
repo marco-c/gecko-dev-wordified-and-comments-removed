@@ -5583,6 +5583,9 @@ JS_METHODJIT
 bool
 methodJitEnabled
 ;
+bool
+jitIsBroken
+;
 js
 :
 :

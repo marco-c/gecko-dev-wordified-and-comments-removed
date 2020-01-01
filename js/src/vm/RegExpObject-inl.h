@@ -412,10 +412,11 @@ defined
 JS_METHODJIT
 )
 return
+!
 cx
 -
 >
-methodJitEnabled
+jitIsBroken
 ;
 #
 else
