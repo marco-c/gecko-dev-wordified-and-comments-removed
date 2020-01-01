@@ -85,7 +85,6 @@ init
 )
 )
 return
-false
 ;
 ionspewer
 .
