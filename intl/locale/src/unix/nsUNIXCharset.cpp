@@ -590,11 +590,6 @@ Init
 (
 )
 {
-nsresult
-res
-=
-NS_OK
-;
 char
 *
 locale
