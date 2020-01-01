@@ -6596,9 +6596,6 @@ event
 {
 if
 (
-content
-&
-&
 event
 .
 target
