@@ -3418,6 +3418,7 @@ regs
 ;
 JS_ASSERT_IF
 (
+!
 returnOK
 cx
 -
