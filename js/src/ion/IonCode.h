@@ -384,7 +384,7 @@ IonScript
 class
 SnapshotWriter
 ;
-class
+struct
 IonFrameInfo
 ;
 struct

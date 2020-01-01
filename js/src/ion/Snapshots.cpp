@@ -2302,7 +2302,7 @@ IonSpew_Snapshots
 "
 slot
 %
-d
+u
 :
 double
 (
@@ -2421,7 +2421,7 @@ IonSpew_Snapshots
 "
 slot
 %
-d
+u
 :
 %
 s
@@ -2479,7 +2479,7 @@ IonSpew_Snapshots
 "
 slot
 %
-d
+u
 :
 %
 s
@@ -2559,7 +2559,7 @@ IonSpew_Snapshots
 "
 slot
 %
-d
+u
 :
 value
 (
@@ -2635,7 +2635,7 @@ IonSpew_Snapshots
 "
 slot
 %
-d
+u
 :
 value
 (
@@ -2703,7 +2703,7 @@ IonSpew_Snapshots
 "
 slot
 %
-d
+u
 :
 value
 (
@@ -2769,7 +2769,7 @@ IonSpew_Snapshots
 "
 slot
 %
-d
+u
 :
 value
 (
@@ -2833,7 +2833,7 @@ IonSpew_Snapshots
 "
 slot
 %
-d
+u
 :
 value
 (
@@ -2877,7 +2877,7 @@ IonSpew_Snapshots
 "
 slot
 %
-d
+u
 :
 value
 (
@@ -2923,7 +2923,7 @@ IonSpew_Snapshots
 "
 slot
 %
-d
+u
 :
 undefined
 "
@@ -2951,7 +2951,7 @@ IonSpew_Snapshots
 "
 slot
 %
-d
+u
 :
 null
 "
@@ -3004,12 +3004,12 @@ total
 size
 :
 %
-d
+u
 bytes
 (
 start
 %
-d
+u
 )
 "
 uint32
@@ -3042,7 +3042,7 @@ IonSpew_Snapshots
 "
 slot
 %
-d
+u
 :
 int32
 %
@@ -3108,13 +3108,13 @@ IonSpew_Snapshots
 "
 slot
 %
-d
+u
 :
 constant
 pool
 index
 %
-d
+u
 "
 slotsWritten_
 index
@@ -3123,15 +3123,6 @@ index
 if
 (
 index
->
-=
-0
-&
-&
-uint32
-(
-index
-)
 <
 SINGLETON_VALUE
 )
