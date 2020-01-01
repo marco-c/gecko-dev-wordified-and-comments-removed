@@ -61,8 +61,6 @@ NPP
 (
 String
 aMimeType
-int
-aHandle
 uint16_t
 aMode
 StringArray

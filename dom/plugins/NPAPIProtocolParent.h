@@ -107,10 +107,6 @@ String
 &
 aMimeType
 const
-int
-&
-aHandle
-const
 uint16_t
 &
 aMode
@@ -311,10 +307,6 @@ String
 &
 aMimeType
 const
-int
-&
-aHandle
-const
 uint16_t
 &
 aMode
@@ -340,7 +332,6 @@ __a
 NPPConstructor
 (
 aMimeType
-aHandle
 aMode
 aNames
 aValues
@@ -403,7 +394,6 @@ NPAPIProtocol
 Msg_NPPConstructor
 (
 aMimeType
-aHandle
 aMode
 aNames
 aValues

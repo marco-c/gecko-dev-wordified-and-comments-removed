@@ -55,9 +55,7 @@ h
 #
 include
 "
-base
-/
-hash_tables
+nsAutoPtr
 .
 h
 "
@@ -279,10 +277,6 @@ const
 String
 &
 aMimeType
-const
-int
-&
-aHandle
 const
 uint16_t
 &

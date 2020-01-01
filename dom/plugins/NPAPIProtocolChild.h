@@ -118,10 +118,6 @@ String
 &
 aMimeType
 const
-int
-&
-aHandle
-const
 uint16_t
 &
 aMode
@@ -454,9 +450,6 @@ Msg_NPPConstructor__ID
 String
 aMimeType
 ;
-int
-aHandle
-;
 uint16_t
 aMode
 ;
@@ -500,10 +493,6 @@ aMimeType
 )
 &
 (
-aHandle
-)
-&
-(
 aMode
 )
 &
@@ -535,7 +524,6 @@ __a
 NPPConstructor
 (
 aMimeType
-aHandle
 aMode
 aNames
 aValues
