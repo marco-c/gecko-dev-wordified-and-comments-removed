@@ -3229,6 +3229,17 @@ bool
 resultp
 )
 ;
+static
+inline
+uintN
+getSealedOrFrozenAttributes
+(
+uintN
+attrs
+ImmutabilityType
+it
+)
+;
 inline
 void
 *

@@ -1501,15 +1501,6 @@ JS_ASSERT
 (
 shape
 .
-writable
-(
-)
-)
-;
-JS_ASSERT
-(
-shape
-.
 hasSlot
 (
 )
