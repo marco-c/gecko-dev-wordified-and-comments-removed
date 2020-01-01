@@ -217,6 +217,12 @@ MOZ_PLATFORM_MAEMO
 =
 5
 )
+&
+&
+defined
+(
+MOZ_WIDGET_GTK2
+)
 #
 define
 MOZ_COMPOSITED_PLUGINS
