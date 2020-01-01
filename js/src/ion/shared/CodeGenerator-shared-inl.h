@@ -359,7 +359,7 @@ PushRegsInMask
 safepoint
 -
 >
-restRegs
+gcRegs
 (
 )
 )
@@ -371,7 +371,7 @@ PushRegsInMask
 safepoint
 -
 >
-gcRegs
+restRegs
 (
 )
 )
