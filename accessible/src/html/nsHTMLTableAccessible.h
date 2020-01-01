@@ -387,8 +387,8 @@ PRBool
 HasDescendant
 (
 const
-char
-*
+nsAString
+&
 aTagName
 PRBool
 aAllowEmpty
