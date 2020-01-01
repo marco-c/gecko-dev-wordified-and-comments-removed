@@ -2253,6 +2253,8 @@ HandleObject
 enclosingScope
 HandleFunction
 srcFun
+NewObjectKind
+newKind
 )
 {
 RootedFunction
@@ -2277,6 +2279,11 @@ NullPtr
 NullPtr
 (
 )
+JSFunction
+:
+:
+FinalizeKind
+newKind
 )
 )
 ;
@@ -7830,6 +7837,8 @@ gc
 :
 AllocKind
 allocKind
+NewObjectKind
+newKindArg
 )
 {
 JS_ASSERT
@@ -7888,7 +7897,7 @@ newKind
 =
 useSameScript
 ?
-GenericObject
+newKindArg
 :
 SingletonObject
 ;
@@ -8219,6 +8228,7 @@ CloneFunctionScript
 cx
 fun
 cloneRoot
+newKindArg
 )
 )
 return

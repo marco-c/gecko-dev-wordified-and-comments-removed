@@ -12239,6 +12239,8 @@ HandleFunction
 fun
 HandleScript
 src
+NewObjectKind
+newKind
 )
 {
 uint32_t
@@ -12639,6 +12641,14 @@ CloneInterpretedFunction
 cx
 enclosingScope
 innerFun
+src
+-
+>
+selfHosted
+?
+TenuredObject
+:
+newKind
 )
 ;
 }
@@ -13461,6 +13471,8 @@ HandleFunction
 original
 HandleFunction
 clone
+NewObjectKind
+newKind
 )
 {
 JS_ASSERT
@@ -13565,6 +13577,7 @@ cx
 scope
 clone
 script
+newKind
 )
 ;
 if

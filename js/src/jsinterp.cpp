@@ -18068,6 +18068,7 @@ CloneFunctionObjectIfNotSingleton
 cx
 fun
 parent
+TenuredObject
 )
 )
 ;

@@ -855,6 +855,10 @@ HandleFunction
 fun
 HandleObject
 parent
+NewObjectKind
+newKind
+=
+GenericObject
 )
 {
 if
@@ -985,6 +989,7 @@ cx
 fun
 parent
 kind
+newKind
 )
 ;
 }

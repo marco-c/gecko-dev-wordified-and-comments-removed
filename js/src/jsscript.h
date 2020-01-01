@@ -5005,6 +5005,10 @@ HandleFunction
 fun
 HandleScript
 script
+NewObjectKind
+newKind
+=
+GenericObject
 )
 ;
 bool
@@ -5017,6 +5021,10 @@ HandleFunction
 original
 HandleFunction
 clone
+NewObjectKind
+newKind
+=
+GenericObject
 )
 ;
 template
