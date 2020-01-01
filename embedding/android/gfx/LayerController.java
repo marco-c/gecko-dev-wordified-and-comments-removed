@@ -678,6 +678,7 @@ mAppContext
 .
 repositionPluginViews
 (
+false
 )
 ;
 }
