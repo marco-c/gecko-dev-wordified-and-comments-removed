@@ -4523,6 +4523,11 @@ nsICachingChannel
 :
 :
 LOAD_BYPASS_LOCAL_CACHE_IF_BUSY
+|
+nsIChannel
+:
+:
+LOAD_TREAT_APPLICATION_OCTET_STREAM_AS_UNKNOWN
 channelPolicy
 )
 ;
