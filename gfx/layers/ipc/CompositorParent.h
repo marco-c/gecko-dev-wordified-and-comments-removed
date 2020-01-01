@@ -542,6 +542,12 @@ gfx
 Margin
 &
 aFixedLayerMargins
+float
+&
+aOffsetX
+float
+&
+aOffsetY
 )
 ;
 void
