@@ -1616,16 +1616,6 @@ pc
 =
 =
 JSOP_CALL
-|
-|
-JSOp
-(
-*
-pc
-)
-=
-=
-JSOP_NEW
 )
 ;
 ScriptAnalysis
