@@ -583,6 +583,9 @@ int32_t
 aAudioSampleRate
 )
 ;
+bool
+mPaused
+;
 public
 :
 OmxDecoder
@@ -741,6 +744,16 @@ ReleaseVideoBuffer
 MediaBuffer
 *
 aBuffer
+)
+;
+nsresult
+Play
+(
+)
+;
+void
+Pause
+(
 )
 ;
 }
