@@ -86,7 +86,7 @@ BrowserToolbar
 /
 >
 <
-RelativeLayout
+AbsoluteLayout
 android
 :
 id
