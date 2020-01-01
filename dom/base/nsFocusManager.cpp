@@ -1034,6 +1034,12 @@ mWindowBeingLowered
 =
 nsnull
 ;
+mDelayedBlurFocusEvents
+.
+Clear
+(
+)
+;
 mMouseDownEventHandlingDocument
 =
 nsnull
