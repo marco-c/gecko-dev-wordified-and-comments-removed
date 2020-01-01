@@ -148,6 +148,11 @@ CondVar
 which
 )
 ;
+bool
+canStartIonCompile
+(
+)
+;
 private
 :
 PRLock

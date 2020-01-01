@@ -4210,6 +4210,11 @@ useHelperThreads_
 (
 useHelperThreads
 )
+requestedHelperThreadCount
+(
+-
+1
+)
 {
 JS_INIT_CLIST
 (
