@@ -1,4 +1,11 @@
 load
+bug314244
+.
+xul
+#
+crash
+test
+load
 bug327709
 .
 svg
