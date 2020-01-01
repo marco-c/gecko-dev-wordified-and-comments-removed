@@ -712,6 +712,10 @@ file_bug669671
 .
 sjs
 \
+test_bug675587
+.
+html
+\
 (
 NULL
 )

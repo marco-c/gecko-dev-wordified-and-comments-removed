@@ -35460,10 +35460,8 @@ aLoadType
 LOAD_RELOAD_NORMAL
 )
 return
-rv
+NS_OK
 ;
-rv
-=
 SetCurScrollPosEx
 (
 0
@@ -35472,7 +35470,7 @@ SetCurScrollPosEx
 ;
 }
 return
-rv
+NS_OK
 ;
 }
 void
