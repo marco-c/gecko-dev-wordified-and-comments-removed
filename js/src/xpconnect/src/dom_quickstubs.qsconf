@@ -1159,6 +1159,11 @@ nsIDOMCSS2Properties
 *
 '
 '
+nsIDOMSVGCSS2Properties
+.
+*
+'
+'
 nsIDOMNSCSS2Properties
 .
 *
@@ -1172,6 +1177,11 @@ nsIDOMRect
 nsIDOMViewCSS
 .
 getComputedStyle
+'
+'
+nsIDOMCSSStyleDeclaration
+.
+*
 '
 #
 dom
@@ -2502,6 +2512,13 @@ quickstubbed
 nsIXMLHttpRequest
 .
 upload
+'
+#
+WebSocket
+'
+nsIWebSocket
+.
+*
 '
 #
 webgl
