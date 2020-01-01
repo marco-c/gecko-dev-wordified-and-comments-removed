@@ -736,9 +736,6 @@ aBaseDomain
 nsCookie
 *
 aCookie
-DBState
-*
-aDBState
 mozIStorageBindingParamsArray
 *
 aParamsArray
@@ -923,6 +920,8 @@ aPath
 nsListIter
 &
 aIter
+PRInt64
+aCurrentTime
 )
 ;
 PRUint32
