@@ -70,9 +70,7 @@ android
 :
 versionName
 =
-"
 MOZ_APP_VERSION
-"
 android
 :
 sharedUserId
