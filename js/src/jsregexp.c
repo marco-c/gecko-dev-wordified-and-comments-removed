@@ -19237,7 +19237,7 @@ REGEXP_LAST_INDEX
 if
 (
 !
-js_ValueToNumber
+JS_ValueToNumber
 (
 cx
 *
@@ -22675,7 +22675,7 @@ v
 )
 &
 &
-js_ValueToNumber
+JS_ValueToNumber
 (
 cx
 v

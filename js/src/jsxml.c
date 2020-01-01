@@ -26768,7 +26768,7 @@ else
 {
 ok
 =
-js_ValueToNumber
+JS_ValueToNumber
 (
 cx
 STRING_TO_JSVAL

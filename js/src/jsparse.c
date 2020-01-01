@@ -27081,7 +27081,7 @@ d
 if
 (
 !
-js_ValueToNumber
+JS_ValueToNumber
 (
 cx
 ATOM_KEY
