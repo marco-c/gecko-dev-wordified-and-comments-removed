@@ -3575,8 +3575,10 @@ nsDeviceContext
 *
 mDeviceContext
 ;
+nsRefPtr
+<
 nsEventStateManager
-*
+>
 mEventManager
 ;
 nsRefPtr
