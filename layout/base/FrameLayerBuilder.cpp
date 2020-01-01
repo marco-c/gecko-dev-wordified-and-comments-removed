@@ -5396,7 +5396,7 @@ forget
 }
 #
 ifdef
-DEBUG
+MOZ_DUMP_PAINTING
 static
 int32_t
 AppUnitsPerDevPixel
