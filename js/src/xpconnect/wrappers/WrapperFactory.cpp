@@ -226,6 +226,14 @@ obj
 if
 (
 !
+obj
+)
+return
+nsnull
+;
+if
+(
+!
 IS_WN_WRAPPER
 (
 obj
