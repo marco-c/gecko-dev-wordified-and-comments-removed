@@ -121,6 +121,17 @@ nsFormSubmission
 aFormSubmission
 )
 ;
+virtual
+bool
+IsDisabled
+(
+)
+const
+{
+return
+PR_FALSE
+;
+}
 nsresult
 Clone
 (

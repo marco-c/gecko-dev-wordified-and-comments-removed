@@ -408,6 +408,14 @@ AllowDrop
 )
 ;
 virtual
+void
+OnFieldSetDisabledChanged
+(
+PRInt32
+aStates
+)
+;
+virtual
 PRBool
 IsHTMLFocusable
 (

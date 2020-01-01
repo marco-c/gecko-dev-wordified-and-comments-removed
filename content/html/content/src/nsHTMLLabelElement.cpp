@@ -194,6 +194,17 @@ Focus
 )
 ;
 virtual
+bool
+IsDisabled
+(
+)
+const
+{
+return
+PR_FALSE
+;
+}
+virtual
 nsresult
 BindToTree
 (
