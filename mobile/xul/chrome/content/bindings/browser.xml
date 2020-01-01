@@ -922,6 +922,9 @@ this
 currentURI
 iconURI
 true
+gFaviconService
+.
+FAVICON_LOAD_NON_PRIVATE
 )
 ;
 this
