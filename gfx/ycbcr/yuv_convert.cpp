@@ -1777,11 +1777,6 @@ source_dx
 }
 #
 else
-(
-void
-)
-source_dx_uv
-;
 ScaleYUVToRGB32Row
 (
 y_ptr
