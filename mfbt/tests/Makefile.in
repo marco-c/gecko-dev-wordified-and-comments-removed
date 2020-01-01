@@ -88,6 +88,10 @@ TestCheckedInt
 .
 cpp
 \
+TestTypeTraits
+.
+cpp
+\
 (
 NULL
 )
