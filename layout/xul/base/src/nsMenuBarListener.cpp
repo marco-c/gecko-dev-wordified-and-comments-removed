@@ -311,10 +311,10 @@ MODIFIER_ALT
 endif
 mAccessKey
 =
-nsContentUtils
+Preferences
 :
 :
-GetIntPref
+GetInt
 (
 "
 ui

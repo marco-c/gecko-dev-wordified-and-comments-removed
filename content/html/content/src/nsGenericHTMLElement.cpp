@@ -3736,10 +3736,10 @@ NS_OK
 PRInt32
 spellcheckLevel
 =
-nsContentUtils
+Preferences
 :
 :
-GetIntPref
+GetInt
 (
 "
 layout

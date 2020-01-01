@@ -3177,10 +3177,10 @@ kNameSpaceID_None
 PRUint32
 preloadDefault
 =
-nsContentUtils
+Preferences
 :
 :
-GetIntPref
+GetInt
 (
 "
 media
@@ -3198,10 +3198,10 @@ PRELOAD_ATTR_METADATA
 PRUint32
 preloadAuto
 =
-nsContentUtils
+Preferences
 :
 :
-GetIntPref
+GetInt
 (
 "
 media

@@ -7461,10 +7461,10 @@ gMaxRCProcessingTime
 {
 gMaxRCProcessingTime
 =
-nsContentUtils
+Preferences
 :
 :
-GetIntPref
+GetInt
 (
 "
 layout
@@ -11643,10 +11643,10 @@ else
 PRInt32
 delay
 =
-nsContentUtils
+Preferences
 :
 :
-GetIntPref
+GetInt
 (
 "
 nglayout
