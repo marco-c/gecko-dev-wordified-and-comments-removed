@@ -151,6 +151,9 @@ const
 {
 JS_ASSERT
 (
+(
+uint32
+)
 code_
 <
 Registers
@@ -287,6 +290,9 @@ const
 {
 JS_ASSERT
 (
+(
+uint32
+)
 code_
 <
 FloatRegisters
