@@ -30580,8 +30580,10 @@ shape
 isMethod
 (
 )
-&
-&
+)
+{
+if
+(
 obj
 -
 >
@@ -30622,6 +30624,7 @@ shape
 return
 false
 ;
+}
 if
 (
 !
