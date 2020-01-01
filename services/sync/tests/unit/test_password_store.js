@@ -285,9 +285,9 @@ goodCount
 let
 badLogins
 =
-Svc
+Services
 .
-Login
+logins
 .
 findLogins
 (
@@ -306,9 +306,9 @@ httpRealm
 let
 goodLogins
 =
-Svc
+Services
 .
-Login
+logins
 .
 findLogins
 (

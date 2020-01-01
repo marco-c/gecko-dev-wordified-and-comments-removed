@@ -445,9 +445,9 @@ exists
 true
 ;
 else
-Svc
+Services
 .
-Login
+logins
 .
 removeLogin
 (
@@ -573,9 +573,9 @@ password
 "
 )
 ;
-Svc
+Services
 .
-Login
+logins
 .
 addLogin
 (
@@ -587,9 +587,9 @@ get
 _logins
 (
 )
-Svc
+Services
 .
-Login
+logins
 .
 findLogins
 (

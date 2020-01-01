@@ -251,11 +251,9 @@ DumpAppender
 )
 )
 ;
-Weave
+Services
 .
-Svc
-.
-Login
+logins
 .
 removeAllLogins
 (

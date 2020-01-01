@@ -1471,9 +1471,9 @@ this
 let
 wins
 =
-Svc
+Services
 .
-WinMediator
+wm
 .
 getEnumerator
 (
@@ -1559,9 +1559,9 @@ this
 let
 wins
 =
-Svc
+Services
 .
-WinMediator
+wm
 .
 getEnumerator
 (
