@@ -520,6 +520,11 @@ usesEval
 :
 1
 ;
+bool
+warnedAboutTwoArgumentEval
+:
+1
+;
 jsbytecode
 *
 main

@@ -1443,6 +1443,13 @@ void
 static
 const
 uint32
+XPC_GC_COLOR_BLACK
+=
+0
+;
+static
+const
+uint32
 XPC_GC_COLOR_GRAY
 =
 1
