@@ -13389,7 +13389,7 @@ mTimeouts
 index
 ]
 ;
-JS_CALL_VALUE_TRACER
+JS_CallValueTracer
 (
 aTrc
 info
@@ -13426,7 +13426,7 @@ index2
 +
 )
 {
-JS_CALL_VALUE_TRACER
+JS_CallValueTracer
 (
 aTrc
 info

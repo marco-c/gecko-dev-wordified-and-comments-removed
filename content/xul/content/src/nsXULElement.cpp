@@ -10633,7 +10633,7 @@ if
 script
 )
 {
-JS_CALL_SCRIPT_TRACER
+JS_CallScriptTracer
 (
 aTrc
 script

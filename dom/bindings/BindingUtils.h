@@ -1282,7 +1282,7 @@ if
 proto
 )
 {
-JS_CALL_OBJECT_TRACER
+JS_CallObjectTracer
 (
 trc
 proto

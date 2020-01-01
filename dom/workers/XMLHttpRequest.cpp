@@ -5585,7 +5585,7 @@ if
 mUpload
 )
 {
-JS_CALL_OBJECT_TRACER
+JS_CallObjectTracer
 (
 aTrc
 mUpload
@@ -5600,7 +5600,7 @@ mUpload
 )
 ;
 }
-JS_CALL_VALUE_TRACER
+JS_CallValueTracer
 (
 aTrc
 mStateData

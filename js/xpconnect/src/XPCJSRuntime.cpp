@@ -1782,7 +1782,7 @@ void
 aClosure
 )
 {
-JS_CALL_TRACER
+JS_CallGenericTracer
 (
 static_cast
 <
@@ -1793,13 +1793,6 @@ JSTracer
 aClosure
 )
 aScriptThing
-js
-:
-:
-GCThingTraceKind
-(
-aScriptThing
-)
 name
 )
 ;
@@ -1889,7 +1882,7 @@ JS_GetGlobalObject
 acx
 )
 )
-JS_CALL_OBJECT_TRACER
+JS_CallObjectTracer
 (
 trc
 global
