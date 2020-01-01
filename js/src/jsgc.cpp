@@ -14809,6 +14809,11 @@ pobj
 )
 )
 ;
+STOBJ_SET_DELEGATE
+(
+pobj
+)
+;
 }
 static
 void
