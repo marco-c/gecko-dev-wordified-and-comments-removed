@@ -412,9 +412,9 @@ if
 aDeviceManager
 =
 =
-mDeviceManager
+mDefaultDeviceManager
 )
-mDeviceManager
+mDefaultDeviceManager
 =
 nsnull
 ;
@@ -444,6 +444,12 @@ private
 static
 DeviceManagerD3D9
 *
+mDefaultDeviceManager
+;
+nsRefPtr
+<
+DeviceManagerD3D9
+>
 mDeviceManager
 ;
 nsRefPtr
