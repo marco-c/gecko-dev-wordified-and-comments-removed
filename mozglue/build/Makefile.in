@@ -359,8 +359,6 @@ licenses
 /
 android
 )
-STL_FLAGS
-=
 endif
 ifeq
 (

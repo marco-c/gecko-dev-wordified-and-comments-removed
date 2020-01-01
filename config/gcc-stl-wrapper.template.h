@@ -22,7 +22,10 @@ __EXCEPTIONS
 __OBJC__
 &
 &
-__APPLE_CC__
+__GNUC__
+&
+&
+XP_IOS
 )
 #
 error
