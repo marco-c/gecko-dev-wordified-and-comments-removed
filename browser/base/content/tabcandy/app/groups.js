@@ -6150,16 +6150,6 @@ item
 isAGroup
 )
 {
-ui
-=
-this
-.
-snap
-(
-event
-ui
-)
-;
 var
 bb
 =
