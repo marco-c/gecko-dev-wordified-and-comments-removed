@@ -607,7 +607,7 @@ i
 /
 ENTRY
 :
-main
+mainACRTStartup
 "
 ;
 if
