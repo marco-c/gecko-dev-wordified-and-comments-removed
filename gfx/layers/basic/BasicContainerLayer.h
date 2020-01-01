@@ -845,9 +845,16 @@ mEffectiveTransform
 aContainer
 -
 >
-SnapTransformTranslation
+SnapTransform
 (
 idealTransform
+gfxRect
+(
+0
+0
+0
+0
+)
 &
 residual
 )

@@ -205,9 +205,16 @@ sourceRect
 nullptr
 )
 *
-SnapTransformTranslation
+SnapTransform
 (
 aTransformToSurface
+gfxRect
+(
+0
+0
+0
+0
+)
 nullptr
 )
 ;
