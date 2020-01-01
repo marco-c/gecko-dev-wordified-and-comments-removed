@@ -4194,7 +4194,7 @@ popupset
 >
 #
 ifdef
-MENUBAR_CAN_AUTOHIDE
+CAN_DRAW_IN_TITLEBAR
 <
 vbox
 id

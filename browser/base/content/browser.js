@@ -24969,6 +24969,9 @@ autohide
 true
 "
 ;
+#
+ifdef
+CAN_DRAW_IN_TITLEBAR
 document
 .
 getElementById
@@ -25019,7 +25022,14 @@ chromemargin
 "
 )
 ;
+#
+endif
 }
+#
+endif
+#
+ifdef
+CAN_DRAW_IN_TITLEBAR
 function
 onTitlebarMaxClick
 (
