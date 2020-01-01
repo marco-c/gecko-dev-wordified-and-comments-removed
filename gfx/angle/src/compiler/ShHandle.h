@@ -221,6 +221,14 @@ clearResults
 )
 ;
 bool
+detectRecursion
+(
+TIntermNode
+*
+root
+)
+;
+bool
 validateLimitations
 (
 TIntermNode

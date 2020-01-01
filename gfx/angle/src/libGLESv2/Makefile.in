@@ -629,6 +629,10 @@ Compiler
 .
 cpp
 \
+DetectRecursion
+.
+cpp
+\
 InfoSink
 .
 cpp
