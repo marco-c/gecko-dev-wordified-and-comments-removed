@@ -672,11 +672,6 @@ Begin
 (
 )
 ;
-nsresult
-Cancel
-(
-)
-;
 void
 LoadCompleted
 (
