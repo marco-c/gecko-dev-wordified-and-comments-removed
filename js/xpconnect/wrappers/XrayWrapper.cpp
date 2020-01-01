@@ -5064,10 +5064,7 @@ return
 false
 ;
 }
-#
-ifdef
-DEBUG
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 pobj
@@ -5096,8 +5093,6 @@ else
 "
 )
 ;
-#
-endif
 }
 return
 JS_GetPropertyDescriptorById
