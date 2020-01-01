@@ -2914,13 +2914,6 @@ aOldLayer
 >
 Updated
 (
-nsIntRect
-(
-0
-0
-mWidth
-mHeight
-)
 )
 ;
 mInvalidated
@@ -3110,13 +3103,6 @@ canvasLayer
 >
 Updated
 (
-nsIntRect
-(
-0
-0
-mWidth
-mHeight
-)
 )
 ;
 mInvalidated
