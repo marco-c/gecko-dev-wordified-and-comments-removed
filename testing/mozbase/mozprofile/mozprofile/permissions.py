@@ -71,12 +71,16 @@ Exception
 :
     
 "
+"
+"
 Signifies
 an
 improperly
 formed
 location
 .
+"
+"
 "
     
 def
@@ -122,6 +126,8 @@ LocationError
 :
     
 "
+"
+"
 No
 primary
 location
@@ -130,6 +136,8 @@ in
 locations
 file
 .
+"
+"
 "
     
 def
@@ -158,6 +166,8 @@ LocationError
 :
     
 "
+"
+"
 More
 than
 one
@@ -165,6 +175,8 @@ primary
 location
 defined
 .
+"
+"
 "
     
 def
@@ -193,11 +205,15 @@ LocationError
 :
     
 "
+"
+"
 Same
 location
 defined
 twice
 .
+"
+"
 "
     
 def
@@ -231,12 +247,16 @@ LocationError
 :
     
 "
+"
+"
 Location
 has
 invalid
 port
 value
 .
+"
+"
 "
     
 def
@@ -272,6 +292,8 @@ Exception
 :
     
 "
+"
+"
 Signifies
 a
 syntax
@@ -287,6 +309,8 @@ locations
 .
 txt
 .
+"
+"
 "
     
 def
@@ -374,6 +398,8 @@ object
 :
     
 "
+"
+"
 Represents
 a
 location
@@ -385,6 +411,8 @@ locations
 .
 txt
 .
+"
+"
 "
     
 attrs
@@ -469,6 +497,8 @@ location
 :
         
 "
+"
+"
 compare
 scheme
 :
@@ -480,6 +510,8 @@ port
 but
 ignore
 options
+"
+"
 "
         
 return
@@ -847,21 +879,9 @@ True
 Reads
 the
 file
-(
-in
-the
-format
-of
-server
--
-locations
-.
-txt
-)
 and
-add
+adds
 all
-        
 valid
 locations
 to
@@ -872,13 +892,28 @@ _locations
 array
 .
         
-If
+:
+param
+filename
+:
+in
+the
+format
+of
+server
+-
+locations
+.
+txt_
+        
+:
+param
 check_for_primary
-is
+:
+if
 True
 a
 MissingPrimaryLocationError
-        
 exception
 is
 raised
@@ -887,12 +922,15 @@ no
 primary
 is
 found
+        
 .
-        
-This
-format
+.
+_server
+-
+locations
+.
+txt
 :
-        
 http
 :
 /
@@ -1253,6 +1291,19 @@ object
 )
 :
     
+"
+"
+"
+Allows
+handling
+of
+permissions
+for
+mozprofile
+"
+"
+"
+    
 _num_permissions
 =
 0
@@ -1442,6 +1493,19 @@ cursor
 (
 )
 ;
+        
+cursor
+.
+execute
+(
+"
+PRAGMA
+schema_version
+=
+3
+;
+"
+)
         
 cursor
 .

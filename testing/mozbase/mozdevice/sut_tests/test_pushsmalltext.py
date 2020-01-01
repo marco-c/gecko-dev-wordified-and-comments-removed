@@ -67,15 +67,10 @@ txt
         
 self
 .
-assert_
-(
-self
-.
 dm
 .
 pushFile
 (
-            
 os
 .
 path
@@ -93,7 +88,7 @@ smalltext
 txt
 '
 )
-            
+                         
 posixpath
 .
 join
@@ -104,6 +99,5 @@ smalltext
 .
 txt
 '
-)
 )
 )
