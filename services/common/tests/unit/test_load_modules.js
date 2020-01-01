@@ -39,6 +39,17 @@ js
 "
 ]
 ;
+const
+test_modules
+=
+[
+"
+storageserver
+.
+js
+"
+]
+;
 function
 run_test
 (
