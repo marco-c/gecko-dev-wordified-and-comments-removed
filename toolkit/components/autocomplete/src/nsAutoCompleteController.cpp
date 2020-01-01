@@ -1046,6 +1046,16 @@ StopSearch
 (
 )
 ;
+if
+(
+!
+mInput
+)
+{
+return
+NS_OK
+;
+}
 PRBool
 isOpen
 ;
