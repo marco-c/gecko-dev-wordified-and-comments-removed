@@ -460,6 +460,7 @@ httprefresh
 .
 js
 \
+#
 browser_bug413985
 -
 location
@@ -468,6 +469,7 @@ reload
 .
 js
 \
+#
 browser_bug413985
 -
 location
