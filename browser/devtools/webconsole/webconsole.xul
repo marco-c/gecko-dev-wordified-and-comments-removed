@@ -513,6 +513,11 @@ cmd_fontSizeEnlarge
 )
 ;
 "
+disabled
+=
+"
+true
+"
 /
 >
 <
@@ -533,6 +538,11 @@ cmd_fontSizeReduce
 )
 ;
 "
+disabled
+=
+"
+true
+"
 /
 >
 <
@@ -552,6 +562,11 @@ cmd_fontSizeReset
 '
 )
 ;
+"
+disabled
+=
+"
+true
 "
 /
 >

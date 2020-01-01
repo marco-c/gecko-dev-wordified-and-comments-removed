@@ -61,9 +61,14 @@ fontSize
 10
 )
 ;
-openConsole
+HUDService
+.
+toggleBrowserConsole
 (
-null
+)
+.
+then
+(
 testFontSizeChange
 )
 ;
@@ -114,6 +119,9 @@ accelKey
 :
 true
 }
+hud
+.
+iframeWindow
 )
 ;
 is
@@ -178,6 +186,9 @@ accelKey
 :
 true
 }
+hud
+.
+iframeWindow
 )
 ;
 is
@@ -239,6 +250,9 @@ accelKey
 :
 true
 }
+hud
+.
+iframeWindow
 )
 ;
 is
@@ -299,6 +313,9 @@ accelKey
 :
 true
 }
+hud
+.
+iframeWindow
 )
 ;
 is
