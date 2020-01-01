@@ -1330,3 +1330,7 @@ DOMCI_CLASS
 (
 IDBSuccessEvent
 )
+DOMCI_CLASS
+(
+IDBObjectStoreRequest
+)

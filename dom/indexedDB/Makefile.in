@@ -466,6 +466,10 @@ IDBEvents
 .
 cpp
 \
+IDBObjectStoreRequest
+.
+cpp
+\
 IDBRequest
 .
 cpp
@@ -497,6 +501,10 @@ IDBDatabaseRequest
 h
 \
 IDBEvents
+.
+h
+\
+IDBObjectStoreRequest
 .
 h
 \
