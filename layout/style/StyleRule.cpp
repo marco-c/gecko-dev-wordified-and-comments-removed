@@ -143,13 +143,6 @@ h
 #
 include
 "
-nsILookAndFeel
-.
-h
-"
-#
-include
-"
 nsRuleNode
 .
 h
