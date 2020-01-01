@@ -870,7 +870,7 @@ JSDLL_CFLAGS
 )
 jsinterp
 .
-c
+cpp
 (
 OBJDIR
 )

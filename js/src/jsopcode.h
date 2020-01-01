@@ -1959,7 +1959,7 @@ ARGNO_LIMIT
 UINT16_LIMIT
 #
 define
-GET_VARNO
+GET_SLOTNO
 (
 pc
 )
@@ -1969,7 +1969,7 @@ pc
 )
 #
 define
-SET_VARNO
+SET_SLOTNO
 (
 pc
 varno
@@ -1981,11 +1981,11 @@ varno
 )
 #
 define
-VARNO_LEN
+SLOTNO_LEN
 2
 #
 define
-VARNO_LIMIT
+SLOTNO_LIMIT
 UINT16_LIMIT
 struct
 JSCodeSpec
@@ -2341,6 +2341,15 @@ obj
 ;
 \
 JS_END_MACRO
+extern
+uintN
+js_GetVariableBytecodeLength
+(
+jsbytecode
+*
+pc
+)
+;
 #
 ifdef
 DEBUG
