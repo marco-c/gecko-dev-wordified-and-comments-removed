@@ -207,7 +207,7 @@ true
 constructor
 >
 <
-desctructor
+destructor
 >
 <
 !
@@ -252,7 +252,7 @@ true
 >
 <
 /
-desctructor
+destructor
 >
 <
 property
