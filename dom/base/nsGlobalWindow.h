@@ -4462,6 +4462,17 @@ endif
 bool
 mCleanedUp
 ;
+#
+ifdef
+MOZ_B2G
+bool
+mNetworkUploadObserverEnabled
+;
+bool
+mNetworkDownloadObserverEnabled
+;
+#
+endif
 nsCOMPtr
 <
 nsIDOMOfflineResourceList
