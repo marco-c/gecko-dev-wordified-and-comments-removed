@@ -112,9 +112,6 @@ cairo_draw_with_gdk
 cairo_t
 *
 cr
-GdkDrawable
-*
-drawable
 cairo_gdk_drawing_callback
 callback
 void
@@ -205,7 +202,7 @@ target
 callback
 (
 closure
-drawable
+target
 offset_x
 offset_y
 NULL

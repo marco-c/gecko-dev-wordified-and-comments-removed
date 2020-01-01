@@ -31,9 +31,9 @@ cairo_gdk_drawing_callback
 void
 *
 closure
-GdkDrawable
+cairo_surface_t
 *
-drawable
+surface
 short
 offset_x
 short
@@ -106,9 +106,6 @@ cairo_draw_with_gdk
 cairo_t
 *
 cr
-GdkDrawable
-*
-drawable
 cairo_gdk_drawing_callback
 callback
 void
