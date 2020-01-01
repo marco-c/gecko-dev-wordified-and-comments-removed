@@ -4,6 +4,8 @@ org
 mozilla
 .
 gecko
+.
+util
 ;
 import
 java
@@ -69,6 +71,7 @@ util
 Hashtable
 ;
 public
+final
 class
 INIParser
 extends
