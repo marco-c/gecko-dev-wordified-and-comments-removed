@@ -2218,11 +2218,6 @@ persist
 "
 collapsed
 "
-tbalign
-=
-"
-stretch
-"
 grippytooltiptext
 =
 "
@@ -2491,11 +2486,6 @@ persist
 =
 "
 collapsed
-"
-tbalign
-=
-"
-center
 "
 grippytooltiptext
 =
