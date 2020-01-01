@@ -16,7 +16,7 @@ i
 i
 <
 =
-RUNLOOP
+9
 ;
 +
 +
@@ -121,17 +121,5 @@ true
 5
 5
 "
-)
-;
-checkStats
-(
-{
-recorderStarted
-:
-1
-sideExitIntoInterpreter
-:
-1
-}
 )
 ;

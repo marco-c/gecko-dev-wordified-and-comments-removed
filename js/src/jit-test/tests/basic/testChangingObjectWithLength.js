@@ -164,15 +164,3 @@ testChangingObjectWithLength
 400
 )
 ;
-checkStats
-(
-{
-recorderAborted
-:
-0
-sideExitIntoInterpreter
-:
-15
-}
-)
-;

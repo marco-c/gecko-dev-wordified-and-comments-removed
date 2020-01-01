@@ -1,9 +1,7 @@
 var
 N
 =
-HOTLOOP
-+
-4
+12
 ;
 var
 g

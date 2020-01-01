@@ -30,7 +30,7 @@ z
 +
 +
 >
-HOTLOOP
+8
 )
 this
 .
@@ -50,9 +50,7 @@ i
 ;
 i
 <
-HOTLOOP
-+
-2
+10
 ;
 i
 +

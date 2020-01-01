@@ -28,9 +28,7 @@ o
 ;
 a
 [
-RECORDLOOP
--
-1
+7
 ]
 =
 {

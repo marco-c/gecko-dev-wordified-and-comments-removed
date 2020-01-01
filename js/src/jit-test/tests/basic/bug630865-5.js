@@ -65,9 +65,7 @@ i
 ;
 i
 <
-HOTLOOP
-+
-2
+10
 ;
 i
 +
@@ -123,8 +121,6 @@ assertEq
 x
 .
 b
-HOTLOOP
-+
-1
+9
 )
 ;

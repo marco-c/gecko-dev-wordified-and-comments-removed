@@ -1,9 +1,7 @@
 var
 N
 =
-HOTLOOP
-+
-2
+10
 ;
 function
 f

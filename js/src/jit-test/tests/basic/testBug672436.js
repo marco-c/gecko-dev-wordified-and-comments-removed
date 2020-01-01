@@ -14,9 +14,7 @@ e
 const
 N
 =
-HOTLOOP
-+
-10
+18
 ;
 var
 arr

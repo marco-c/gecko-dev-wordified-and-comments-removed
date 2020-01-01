@@ -11,9 +11,7 @@ a
 i
 N
 =
-HOTLOOP
-+
-2
+10
 ;
 for
 (

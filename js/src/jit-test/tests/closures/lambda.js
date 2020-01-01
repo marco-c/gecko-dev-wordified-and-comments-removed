@@ -102,12 +102,3 @@ h
 (
 )
 ;
-checkStats
-(
-{
-recorderAborted
-:
-8
-}
-)
-;

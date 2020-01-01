@@ -130,15 +130,3 @@ i
 1
 )
 ;
-checkStats
-(
-{
-traceCompleted
-:
-2
-recorderAborted
-:
-1
-}
-)
-;

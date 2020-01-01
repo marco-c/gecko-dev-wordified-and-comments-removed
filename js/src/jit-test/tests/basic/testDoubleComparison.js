@@ -47,12 +47,3 @@ finished
 "
 )
 ;
-checkStats
-(
-{
-sideExitIntoInterpreter
-:
-1
-}
-)
-;

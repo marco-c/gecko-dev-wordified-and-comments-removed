@@ -25,9 +25,7 @@ i
 i
 <
 =
-RECORDLOOP
-+
-5
+13
 ;
 i
 +
@@ -37,7 +35,7 @@ if
 (
 i
 >
-RECORDLOOP
+8
 )
 obj
 [

@@ -16,9 +16,7 @@ i
 ;
 i
 <
-HOTLOOP
-+
-10
+18
 ;
 i
 +
@@ -48,9 +46,7 @@ if
 i
 !
 =
-HOTLOOP
-+
-9
+17
 )
 x
 =
@@ -70,9 +66,7 @@ i
 ;
 i
 <
-HOTLOOP
-+
-10
+18
 ;
 i
 +
@@ -112,9 +106,7 @@ x
 )
 a
 [
-HOTLOOP
-+
-9
+17
 ]
 .
 prototype

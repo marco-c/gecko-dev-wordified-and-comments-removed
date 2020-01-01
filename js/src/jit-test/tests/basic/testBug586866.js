@@ -1,7 +1,7 @@
 var
 magic
 =
-HOTLOOP
+8
 ;
 var
 obj

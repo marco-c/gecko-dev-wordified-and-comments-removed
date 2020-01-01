@@ -93,15 +93,3 @@ s
 "
 )
 ;
-checkStats
-(
-{
-recorderStarted
-:
-1
-sideExitIntoInterpreter
-:
-1
-}
-)
-;

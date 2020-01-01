@@ -14,7 +14,7 @@ i
 var
 end
 =
-RUNLOOP
+9
 ;
 for
 (

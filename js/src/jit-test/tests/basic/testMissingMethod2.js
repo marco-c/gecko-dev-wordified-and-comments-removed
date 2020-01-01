@@ -36,9 +36,7 @@ y
 ;
 a
 [
-RECORDLOOP
--
-1
+7
 ]
 =
 0

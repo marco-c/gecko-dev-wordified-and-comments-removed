@@ -101,12 +101,3 @@ ab
 )
 ;
 }
-checkStats
-(
-{
-traceTriggered
-:
-1
-}
-)
-;

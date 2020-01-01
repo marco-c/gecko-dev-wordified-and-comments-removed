@@ -86,12 +86,3 @@ true
 "
 )
 ;
-checkStats
-(
-{
-sideExitIntoInterpreter
-:
-1
-}
-)
-;

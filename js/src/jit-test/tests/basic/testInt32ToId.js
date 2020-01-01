@@ -170,12 +170,3 @@ false
 "
 )
 ;
-checkStats
-(
-{
-sideExitIntoInterpreter
-:
-2
-}
-)
-;

@@ -21,9 +21,7 @@ i
 ;
 i
 <
-HOTLOOP
-+
-1
+9
 ;
 +
 +
@@ -62,9 +60,7 @@ testDestructuring
 (
 )
 (
-HOTLOOP
-+
-1
+9
 )
 *
 3

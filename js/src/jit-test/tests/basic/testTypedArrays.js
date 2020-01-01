@@ -719,12 +719,3 @@ testTypedArrayOther
 (
 )
 ;
-checkStats
-(
-{
-recorderAborted
-:
-5
-}
-)
-;

@@ -64,12 +64,3 @@ crash
 "
 )
 ;
-checkStats
-(
-{
-recorderAborted
-:
-0
-}
-)
-;

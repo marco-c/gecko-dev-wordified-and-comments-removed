@@ -1,7 +1,7 @@
 var
 COUNT
 =
-RUNLOOP
+9
 ;
 eval
 (

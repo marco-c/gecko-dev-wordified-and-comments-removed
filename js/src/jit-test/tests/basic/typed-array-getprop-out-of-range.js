@@ -25,7 +25,7 @@ i
 0
 sz
 =
-RUNLOOP
+9
 ;
 i
 <

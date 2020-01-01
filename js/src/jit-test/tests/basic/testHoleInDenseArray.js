@@ -73,14 +73,3 @@ i
 )
 ;
 }
-checkStats
-(
-{
-traceTriggered
-:
-2
-sideExitIntoInterpreter
-:
-2
-}
-)

@@ -31,9 +31,7 @@ i
 i
 <
 =
-RECORDLOOP
-+
-5
+13
 ;
 i
 +
@@ -53,7 +51,7 @@ if
 (
 i
 >
-RECORDLOOP
+8
 )
 a
 [
@@ -79,9 +77,7 @@ join
 )
 Array
 (
-RECORDLOOP
-+
-2
+10
 )
 .
 join

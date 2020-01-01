@@ -96,12 +96,3 @@ undefinedundefinedundefinedundefinedundefinedundefinedundefined111
 "
 )
 ;
-checkStats
-(
-{
-traceCompleted
-:
-3
-}
-)
-;

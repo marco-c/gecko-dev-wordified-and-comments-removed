@@ -218,12 +218,3 @@ false
 "
 )
 ;
-checkStats
-(
-{
-sideExitIntoInterpreter
-:
-3
-}
-)
-;

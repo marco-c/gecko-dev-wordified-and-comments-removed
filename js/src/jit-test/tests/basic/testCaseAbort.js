@@ -74,12 +74,3 @@ testCaseAbort
 "
 )
 ;
-checkStats
-(
-{
-recorderAborted
-:
-0
-}
-)
-;

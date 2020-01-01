@@ -77,15 +77,3 @@ f
 (
 )
 ;
-checkStats
-(
-{
-recorderStarted
-:
-1
-recorderAborted
-:
-0
-}
-)
-;
