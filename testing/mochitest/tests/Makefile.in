@@ -124,6 +124,14 @@ test_bug816847
 .
 html
 \
+test_sanity_cleanup
+.
+html
+\
+test_sanity_cleanup2
+.
+html
+\
 (
 NULL
 )
