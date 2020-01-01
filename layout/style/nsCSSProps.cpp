@@ -1117,6 +1117,8 @@ eCSSKeyword_textfield_multiline
 NS_THEME_TEXTFIELD_MULTILINE
 eCSSKeyword_caret
 NS_THEME_TEXTFIELD_CARET
+eCSSKeyword_searchfield
+NS_THEME_SEARCHFIELD
 eCSSKeyword_menulist
 NS_THEME_DROPDOWN
 eCSSKeyword_menulistbutton

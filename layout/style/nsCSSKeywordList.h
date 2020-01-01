@@ -3147,6 +3147,11 @@ caret
 )
 CSS_KEY
 (
+searchfield
+searchfield
+)
+CSS_KEY
+(
 menubar
 menubar
 )
