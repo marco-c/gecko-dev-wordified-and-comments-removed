@@ -8201,7 +8201,6 @@ src
 )
 ;
 }
-else
 if
 (
 dest
@@ -8210,7 +8209,7 @@ dest
 lut
 !
 =
-src
+dest
 )
 {
 free
