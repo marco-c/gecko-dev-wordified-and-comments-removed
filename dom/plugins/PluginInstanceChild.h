@@ -467,6 +467,14 @@ NPStream
 aStream
 )
 ;
+void
+InternalInvalidateRect
+(
+NPRect
+*
+aInvalidRect
+)
+;
 private
 :
 #
