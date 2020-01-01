@@ -673,8 +673,7 @@ logging
 state
 .
     
-A
-mozbuild
+An
 application
 should
 instantiate
@@ -684,7 +683,6 @@ these
 and
 configure
 it
-    
 as
 needed
 .
@@ -704,7 +702,7 @@ data
     
 both
 from
-mozbuild
+mach
 and
 from
 the
@@ -799,20 +797,20 @@ NullHandler
         
 self
 .
-mozbuild_logger
+mach_logger
 =
 logging
 .
 getLogger
 (
 '
-mozbuild
+mach
 '
 )
         
 self
 .
-mozbuild_logger
+mach_logger
 .
 setLevel
 (
@@ -836,7 +834,7 @@ structured_loggers
 [
 self
 .
-mozbuild_logger
+mach_logger
 ]
         
 self
@@ -1334,7 +1332,7 @@ up
         
 to
 the
-mozbuild
+mach
 logger
 in
 order
