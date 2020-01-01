@@ -127,7 +127,7 @@ h
 #
 include
 "
-nsAutoBuffer
+nsTArray
 .
 h
 "
@@ -1138,7 +1138,7 @@ define
 CHAR_BUFFER_SIZE
 1024
 typedef
-nsAutoBuffer
+nsAutoTArray
 <
 char
 CHAR_BUFFER_SIZE
@@ -1146,7 +1146,7 @@ CHAR_BUFFER_SIZE
 nsAutoCharBuffer
 ;
 typedef
-nsAutoBuffer
+nsAutoTArray
 <
 PRUnichar
 CHAR_BUFFER_SIZE
@@ -3172,7 +3172,7 @@ if
 !
 buffer
 .
-EnsureElemCapacity
+SetLength
 (
 len
 )
@@ -3188,7 +3188,7 @@ buf
 =
 buffer
 .
-get
+Elements
 (
 )
 ;
@@ -3720,7 +3720,7 @@ if
 !
 aIsSpace
 .
-EnsureElemCapacity
+SetLength
 (
 len
 )
@@ -3736,7 +3736,7 @@ buf
 =
 aIsSpace
 .
-get
+Elements
 (
 )
 ;
@@ -5081,7 +5081,7 @@ if
 !
 aResult
 .
-EnsureElemCapacity
+SetLength
 (
 aDestLength
 )
@@ -5095,7 +5095,7 @@ str
 =
 aResult
 .
-get
+Elements
 (
 )
 ;
@@ -6208,7 +6208,7 @@ if
 !
 buffer
 .
-EnsureElemCapacity
+SetLength
 (
 len
 )
@@ -6224,7 +6224,7 @@ buf
 =
 buffer
 .
-get
+Elements
 (
 )
 ;
@@ -7374,7 +7374,7 @@ if
 !
 buffer
 .
-EnsureElemCapacity
+SetLength
 (
 len
 )
@@ -7388,7 +7388,7 @@ buf
 =
 buffer
 .
-get
+Elements
 (
 )
 ;
@@ -7972,7 +7972,7 @@ if
 !
 aResult
 .
-EnsureElemCapacity
+SetLength
 (
 aLength
 )
@@ -7988,7 +7988,7 @@ result
 =
 aResult
 .
-get
+Elements
 (
 )
 ;
@@ -8328,7 +8328,7 @@ aGlyphIndex
 (
 buf
 .
-get
+Elements
 (
 )
 )
@@ -19484,7 +19484,7 @@ aLength
 aBoundingMetrics
 buffer
 .
-get
+Elements
 (
 )
 )
@@ -19644,7 +19644,7 @@ GetTextExtentPoint32A
 aDC
 buffer
 .
-get
+Elements
 (
 )
 destLength
@@ -19665,7 +19665,7 @@ PRUnichar
 )
 buffer
 .
-get
+Elements
 (
 )
 destLength
@@ -19757,7 +19757,7 @@ aY
 NULL
 buffer
 .
-get
+Elements
 (
 )
 aLength
@@ -19780,7 +19780,7 @@ PRUnichar
 )
 buffer
 .
-get
+Elements
 (
 )
 destLength
@@ -19914,7 +19914,7 @@ PRUnichar
 )
 buffer
 .
-get
+Elements
 (
 )
 destLength
@@ -19948,7 +19948,7 @@ PRUnichar
 )
 buffer
 .
-get
+Elements
 (
 )
 destLength
@@ -19957,7 +19957,7 @@ destLength
 aBoundingMetrics
 buf
 .
-get
+Elements
 (
 )
 )
@@ -19970,7 +19970,7 @@ aDC
 mOverhangCorrection
 buffer
 .
-get
+Elements
 (
 )
 destLength
@@ -20137,7 +20137,7 @@ if
 !
 aResult
 .
-EnsureElemCapacity
+SetLength
 (
 aLength
 )
@@ -20154,7 +20154,7 @@ memcpy
 (
 aResult
 .
-get
+Elements
 (
 )
 aString
@@ -20316,7 +20316,7 @@ if
 !
 aResult
 .
-EnsureElemCapacity
+SetLength
 (
 *
 aCount
@@ -20331,7 +20331,7 @@ result
 =
 aResult
 .
-get
+Elements
 (
 )
 ;
@@ -20384,7 +20384,7 @@ if
 !
 aResult
 .
-EnsureElemCapacity
+SetLength
 (
 aLength
 )
@@ -20396,7 +20396,7 @@ result
 =
 aResult
 .
-get
+Elements
 (
 )
 ;
@@ -20498,7 +20498,7 @@ GetTextExtentPoint32W
 aDC
 buffer
 .
-get
+Elements
 (
 )
 aLength
@@ -20584,7 +20584,7 @@ aY
 NULL
 buffer
 .
-get
+Elements
 (
 )
 aLength
@@ -20707,7 +20707,7 @@ aDC
 mCMAP
 buffer
 .
-get
+Elements
 (
 )
 aLength
@@ -20734,14 +20734,14 @@ aDC
 mOverhangCorrection
 buffer
 .
-get
+Elements
 (
 )
 aLength
 aBoundingMetrics
 buf
 .
-get
+Elements
 (
 )
 )
@@ -21411,7 +21411,7 @@ nb
 !
 aResult
 .
-EnsureElemCapacity
+SetLength
 (
 nb
 )
@@ -21424,7 +21424,7 @@ buf
 =
 aResult
 .
-get
+Elements
 (
 )
 ;
@@ -21487,7 +21487,7 @@ GetTextExtentPoint32A
 aDC
 buffer
 .
-get
+Elements
 (
 )
 aLength
@@ -21559,7 +21559,7 @@ aY
 NULL
 buffer
 .
-get
+Elements
 (
 )
 aLength
@@ -21620,7 +21620,7 @@ aDC
 mOverhangCorrection
 buffer
 .
-get
+Elements
 (
 )
 aLength
@@ -21937,7 +21937,7 @@ aLength
 (
 aResult
 .
-get
+Elements
 (
 )
 )
@@ -21962,7 +21962,7 @@ Convert
 (
 buffer
 .
-get
+Elements
 (
 )
 aLength

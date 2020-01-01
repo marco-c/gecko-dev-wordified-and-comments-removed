@@ -613,7 +613,7 @@ if
 !
 aResult
 .
-EnsureElemCapacity
+SetLength
 (
 aResultLength
 +
@@ -629,7 +629,7 @@ str
 =
 aResult
 .
-get
+Elements
 (
 )
 ;
@@ -649,10 +649,6 @@ aResultLength
 )
 ;
 aResult
-.
-get
-(
-)
 [
 aResultLength
 ]
@@ -738,7 +734,7 @@ if
 !
 aResult
 .
-EnsureElemCapacity
+SetLength
 (
 aResultLength
 +
@@ -754,7 +750,7 @@ str
 =
 aResult
 .
-get
+Elements
 (
 )
 ;
@@ -774,10 +770,6 @@ aResultLength
 )
 ;
 aResult
-.
-get
-(
-)
 [
 aResultLength
 ]

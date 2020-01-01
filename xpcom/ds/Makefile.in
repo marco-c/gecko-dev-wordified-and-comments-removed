@@ -645,10 +645,6 @@ nsStringEnumerator
 .
 h
 \
-nsAutoBuffer
-.
-h
-\
 nsHashPropertyBag
 .
 h

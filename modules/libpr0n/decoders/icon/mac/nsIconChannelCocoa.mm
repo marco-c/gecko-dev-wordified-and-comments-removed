@@ -568,7 +568,7 @@ h
 #
 include
 "
-nsAutoBuffer
+nsTArray
 .
 h
 "
@@ -2092,7 +2092,7 @@ desiredImageSize
 *
 4
 ;
-nsAutoBuffer
+nsAutoTArray
 <
 PRUint8
 3
@@ -2117,7 +2117,7 @@ if
 !
 iconBuffer
 .
-EnsureElemCapacity
+SetLength
 (
 bufferCapacity
 )
@@ -2131,7 +2131,7 @@ iconBufferPtr
 =
 iconBuffer
 .
-get
+Elements
 (
 )
 ;
@@ -2335,7 +2335,7 @@ iconBufferPtr
 =
 iconBuffer
 .
-get
+Elements
 (
 )
 +
@@ -2412,7 +2412,7 @@ char
 )
 iconBuffer
 .
-get
+Elements
 (
 )
 bufferCapacity

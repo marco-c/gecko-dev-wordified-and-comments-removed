@@ -24,7 +24,7 @@ h
 #
 include
 "
-nsAutoBuffer
+nsTArray
 .
 h
 "
@@ -85,7 +85,7 @@ define
 CHAR_BUFFER_SIZE
 1024
 typedef
-nsAutoBuffer
+nsAutoTArray
 <
 char
 CHAR_BUFFER_SIZE
@@ -93,7 +93,7 @@ CHAR_BUFFER_SIZE
 nsAutoCharBuffer
 ;
 typedef
-nsAutoBuffer
+nsAutoTArray
 <
 PRUnichar
 CHAR_BUFFER_SIZE
