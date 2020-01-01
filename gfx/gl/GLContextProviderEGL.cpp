@@ -7888,7 +7888,7 @@ ContextFlagsGlobal
 glContext
 -
 >
-ResizeOffscreenFBO
+ResizeOffscreenFBOs
 (
 aSize
 true
