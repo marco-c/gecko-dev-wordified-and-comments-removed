@@ -3739,6 +3739,14 @@ mPercentHeightObserver
 =
 this
 ;
+kidReflowState
+.
+mFlags
+.
+mSpecialHeightReflow
+=
+PR_FALSE
+;
 if
 (
 aReflowState
