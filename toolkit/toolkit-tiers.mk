@@ -881,6 +881,8 @@ tier_platform_dirs
 +
 =
 xpfe
+/
+components
 ifdef
 MOZ_ENABLE_XREMOTE
 tier_platform_dirs

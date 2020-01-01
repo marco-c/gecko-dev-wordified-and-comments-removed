@@ -3547,9 +3547,6 @@ remote
 Makefile
 xpfe
 /
-Makefile
-xpfe
-/
 components
 /
 Makefile
