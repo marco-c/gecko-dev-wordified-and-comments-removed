@@ -104,7 +104,7 @@ h
 #
 include
 "
-nsDOMMediaStream
+DOMMediaStream
 .
 h
 "
@@ -259,6 +259,13 @@ mozilla
 :
 MediaDecoder
 MediaDecoder
+;
+typedef
+mozilla
+:
+:
+DOMMediaStream
+DOMMediaStream
 ;
 mozilla
 :
@@ -1023,7 +1030,7 @@ aValue
 void
 SetupSrcMediaStreamPlayback
 (
-nsDOMMediaStream
+DOMMediaStream
 *
 aStream
 )
@@ -1035,7 +1042,7 @@ EndSrcMediaStreamPlayback
 ;
 already_AddRefed
 <
-nsDOMMediaStream
+DOMMediaStream
 >
 CaptureStreamInternal
 (
@@ -1374,13 +1381,13 @@ mVideoFrameContainer
 ;
 nsRefPtr
 <
-nsDOMMediaStream
+DOMMediaStream
 >
 mSrcAttrStream
 ;
 nsRefPtr
 <
-nsDOMMediaStream
+DOMMediaStream
 >
 mSrcStream
 ;
@@ -1389,7 +1396,7 @@ OutputMediaStream
 {
 nsRefPtr
 <
-nsDOMMediaStream
+DOMMediaStream
 >
 mStream
 ;

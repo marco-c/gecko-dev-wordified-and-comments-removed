@@ -76,12 +76,12 @@ nsThreadUtils
 .
 h
 "
-class
-nsDOMMediaStream
-;
 namespace
 mozilla
 {
+class
+DOMMediaStream
+;
 #
 ifdef
 PR_LOGGING
@@ -294,7 +294,7 @@ MediaStream
 )
 MediaStream
 (
-nsDOMMediaStream
+DOMMediaStream
 *
 aWrapper
 )
@@ -1076,7 +1076,7 @@ mInBlockingSet
 bool
 mBlockInThisPhase
 ;
-nsDOMMediaStream
+DOMMediaStream
 *
 mWrapper
 ;
@@ -1105,7 +1105,7 @@ public
 :
 SourceMediaStream
 (
-nsDOMMediaStream
+DOMMediaStream
 *
 aWrapper
 )
@@ -1626,7 +1626,7 @@ public
 :
 ProcessedMediaStream
 (
-nsDOMMediaStream
+DOMMediaStream
 *
 aWrapper
 )
@@ -1811,7 +1811,7 @@ SourceMediaStream
 *
 CreateSourceStream
 (
-nsDOMMediaStream
+DOMMediaStream
 *
 aWrapper
 )
@@ -1820,7 +1820,7 @@ ProcessedMediaStream
 *
 CreateTrackUnionStream
 (
-nsDOMMediaStream
+DOMMediaStream
 *
 aWrapper
 )

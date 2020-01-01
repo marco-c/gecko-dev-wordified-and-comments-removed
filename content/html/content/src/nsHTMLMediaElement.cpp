@@ -374,13 +374,6 @@ h
 #
 include
 "
-nsDOMMediaStream
-.
-h
-"
-#
-include
-"
 nsIScriptError
 .
 h
@@ -2002,7 +1995,7 @@ mSrcAttrStream
 =
 static_cast
 <
-nsDOMMediaStream
+DOMMediaStream
 *
 >
 (
@@ -4664,7 +4657,7 @@ SetupSrcMediaStreamPlayback
 (
 static_cast
 <
-nsDOMMediaStream
+DOMMediaStream
 *
 >
 (
@@ -6754,7 +6747,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsDOMMediaStream
+DOMMediaStream
 >
 nsHTMLMediaElement
 :
@@ -6780,7 +6773,7 @@ out
 >
 mStream
 =
-nsDOMMediaStream
+DOMMediaStream
 :
 :
 CreateTrackUnionStream
@@ -6873,7 +6866,7 @@ aFinishWhenEnded
 }
 nsRefPtr
 <
-nsDOMMediaStream
+DOMMediaStream
 >
 result
 =
@@ -11188,7 +11181,7 @@ nsHTMLMediaElement
 :
 SetupSrcMediaStreamPlayback
 (
-nsDOMMediaStream
+DOMMediaStream
 *
 aStream
 )

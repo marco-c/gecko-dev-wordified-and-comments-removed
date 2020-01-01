@@ -133,6 +133,10 @@ DecoderTraits
 .
 h
 \
+DOMMediaStream
+.
+h
+\
 FileBlockCache
 .
 h
@@ -166,10 +170,6 @@ MediaDecoderStateMachine
 h
 \
 MediaDecoderReader
-.
-h
-\
-nsDOMMediaStream
 .
 h
 \
@@ -235,6 +235,10 @@ DecoderTraits
 .
 cpp
 \
+DOMMediaStream
+.
+cpp
+\
 FileBlockCache
 .
 cpp
@@ -260,10 +264,6 @@ MediaDecoderStateMachine
 cpp
 \
 MediaDecoderReader
-.
-cpp
-\
-nsDOMMediaStream
 .
 cpp
 \

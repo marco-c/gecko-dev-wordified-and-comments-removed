@@ -56,7 +56,7 @@ public
 :
 TrackUnionStream
 (
-nsDOMMediaStream
+DOMMediaStream
 *
 aWrapper
 )

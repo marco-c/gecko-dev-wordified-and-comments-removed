@@ -929,7 +929,7 @@ class
 nsDOMUserMediaStream
 :
 public
-nsDOMLocalMediaStream
+DOMLocalMediaStream
 {
 public
 :
@@ -1165,7 +1165,7 @@ hints
 (
 mAudioSource
 ?
-nsDOMMediaStream
+DOMMediaStream
 :
 :
 HINT_CONTENTS_AUDIO
@@ -1179,7 +1179,7 @@ hints
 (
 mVideoSource
 ?
-nsDOMMediaStream
+DOMMediaStream
 :
 :
 HINT_CONTENTS_VIDEO

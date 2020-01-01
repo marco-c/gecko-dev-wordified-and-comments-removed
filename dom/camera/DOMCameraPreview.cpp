@@ -479,7 +479,7 @@ uint32_t
 aFrameRate
 )
 :
-nsDOMMediaStream
+DOMMediaStream
 (
 )
 mState
