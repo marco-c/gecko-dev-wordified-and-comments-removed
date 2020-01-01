@@ -120,6 +120,14 @@ _extra
 \
 DOMCI_CASTABLE_INTERFACE
 (
+nsDOMEvent
+nsIDOMEvent
+3
+_extra
+)
+\
+DOMCI_CASTABLE_INTERFACE
+(
 nsIDocument
 nsIDocument
 4

@@ -57,6 +57,15 @@ DOMSVGPoint
 ;
 nsDOMSVGZoomEvent
 (
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 nsPresContext
 *
 aPresContext

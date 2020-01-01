@@ -67,11 +67,6 @@ NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
 (
 nsDOMDeviceMotionEvent
 )
-NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
-(
-nsISupports
-nsIDOMDeviceMotionEvent
-)
 NS_INTERFACE_MAP_ENTRY
 (
 nsIDOMDeviceMotionEvent
@@ -269,6 +264,15 @@ nsIDOMEvent
 *
 *
 aInstancePtrResult
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 nsPresContext
 *
 aPresContext
@@ -289,6 +293,7 @@ it
 new
 nsDOMDeviceMotionEvent
 (
+aOwner
 aPresContext
 aEvent
 )

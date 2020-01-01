@@ -40,6 +40,15 @@ public
 :
 nsDOMAnimationEvent
 (
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 nsPresContext
 *
 aPresContext

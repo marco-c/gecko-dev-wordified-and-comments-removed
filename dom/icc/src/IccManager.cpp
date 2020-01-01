@@ -615,6 +615,7 @@ StkCommandEvent
 :
 Create
 (
+this
 aMessage
 )
 ;

@@ -63,6 +63,15 @@ nsDOMScrollAreaEvent
 :
 nsDOMScrollAreaEvent
 (
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 nsPresContext
 *
 aPresContext
@@ -73,6 +82,7 @@ aEvent
 :
 nsDOMUIEvent
 (
+aOwner
 aPresContext
 aEvent
 )
@@ -555,6 +565,15 @@ nsIDOMEvent
 *
 *
 aInstancePtrResult
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 nsPresContext
 *
 aPresContext
@@ -570,6 +589,7 @@ ev
 new
 nsDOMScrollAreaEvent
 (
+aOwner
 aPresContext
 aEvent
 )

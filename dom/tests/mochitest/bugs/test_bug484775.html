@@ -225,7 +225,7 @@ evt
 +
 eventCount
 ;
-ok
+is
 (
 evt
 .
@@ -239,7 +239,7 @@ type
 "
 )
 ;
-ok
+is
 (
 evt
 .
@@ -248,7 +248,7 @@ expectedTarget
 "
 Wrong
 event
-type
+target
 !
 "
 )
@@ -281,7 +281,7 @@ true
 true
 )
 ;
-ok
+is
 (
 event
 .
@@ -291,6 +291,8 @@ expectedType
 Wrong
 event
 type
+after
+initEvent
 !
 "
 )
@@ -306,6 +308,10 @@ createAttribute
 attribute
 "
 )
+;
+expectedTarget
+=
+attr
 ;
 attr
 .
@@ -354,6 +360,10 @@ document
 createDocumentFragment
 (
 )
+;
+expectedTarget
+=
+df
 ;
 df
 .

@@ -146,9 +146,6 @@ apply
 *
 /
 interface
-Event
-;
-interface
 EventTarget
 {
 /

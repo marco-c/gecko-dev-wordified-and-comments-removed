@@ -1322,7 +1322,7 @@ PageMenu
 function
 pageShowEventHandlers
 (
-event
+persisted
 )
 {
 charsetLoadListener
@@ -1337,8 +1337,6 @@ asyncUpdateUI
 ;
 if
 (
-event
-.
 persisted
 )
 gPluginHandler
@@ -7222,6 +7220,8 @@ setTimeout
 pageShowEventHandlers
 0
 event
+.
+persisted
 )
 ;
 }

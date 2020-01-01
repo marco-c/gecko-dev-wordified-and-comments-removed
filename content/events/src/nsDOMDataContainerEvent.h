@@ -37,6 +37,15 @@ public
 :
 nsDOMDataContainerEvent
 (
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 nsPresContext
 *
 aPresContext

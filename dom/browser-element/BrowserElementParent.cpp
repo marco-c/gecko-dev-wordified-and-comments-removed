@@ -360,6 +360,7 @@ nsEventDispatcher
 :
 CreateEvent
 (
+aFrameElement
 presContext
 nullptr
 NS_LITERAL_STRING

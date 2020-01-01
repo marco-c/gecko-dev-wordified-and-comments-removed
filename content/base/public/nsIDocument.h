@@ -302,6 +302,9 @@ nsDOMCaretPosition
 class
 nsViewportInfo
 ;
+class
+nsDOMEvent
+;
 namespace
 mozilla
 {
@@ -4525,7 +4528,7 @@ rv
 ;
 already_AddRefed
 <
-nsIDOMEvent
+nsDOMEvent
 >
 CreateEvent
 (

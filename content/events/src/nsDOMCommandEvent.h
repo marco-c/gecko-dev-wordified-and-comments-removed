@@ -30,6 +30,15 @@ public
 :
 nsDOMCommandEvent
 (
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 nsPresContext
 *
 aPresContext

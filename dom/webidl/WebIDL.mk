@@ -219,6 +219,10 @@ Element
 .
 webidl
 \
+Event
+.
+webidl
+\
 EventHandler
 .
 webidl

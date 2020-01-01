@@ -30,6 +30,15 @@ public
 :
 nsDOMBeforeUnloadEvent
 (
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 nsPresContext
 *
 aPresContext
@@ -40,6 +49,7 @@ aEvent
 :
 nsDOMEvent
 (
+aOwner
 aPresContext
 aEvent
 )

@@ -1858,7 +1858,6 @@ ErrorResult
 aRv
 )
 ;
-static
 nsresult
 CreateReadystatechangeEvent
 (

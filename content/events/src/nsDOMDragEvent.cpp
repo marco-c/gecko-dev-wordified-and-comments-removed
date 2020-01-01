@@ -52,6 +52,15 @@ nsDOMDragEvent
 :
 nsDOMDragEvent
 (
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 nsPresContext
 *
 aPresContext
@@ -62,6 +71,7 @@ aEvent
 :
 nsDOMMouseEvent
 (
+aOwner
 aPresContext
 aEvent
 ?
@@ -426,6 +436,15 @@ nsIDOMEvent
 *
 *
 aInstancePtrResult
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 nsPresContext
 *
 aPresContext
@@ -441,6 +460,7 @@ event
 new
 nsDOMDragEvent
 (
+aOwner
 aPresContext
 aEvent
 )

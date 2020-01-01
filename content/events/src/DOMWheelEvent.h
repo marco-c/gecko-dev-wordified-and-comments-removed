@@ -36,6 +36,15 @@ public
 :
 DOMWheelEvent
 (
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 nsPresContext
 *
 aPresContext

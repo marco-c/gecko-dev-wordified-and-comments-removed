@@ -40,6 +40,15 @@ public
 :
 nsDOMNotifyPaintEvent
 (
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 nsPresContext
 *
 aPresContext

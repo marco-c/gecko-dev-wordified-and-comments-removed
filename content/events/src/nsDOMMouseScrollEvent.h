@@ -30,6 +30,15 @@ public
 :
 nsDOMMouseScrollEvent
 (
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 nsPresContext
 *
 aPresContext

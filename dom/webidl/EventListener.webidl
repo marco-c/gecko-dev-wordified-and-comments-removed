@@ -145,9 +145,6 @@ apply
 .
 *
 /
-interface
-Event
-;
 callback
 interface
 EventListener

@@ -17,6 +17,15 @@ nsDOMMouseScrollEvent
 :
 nsDOMMouseScrollEvent
 (
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 nsPresContext
 *
 aPresContext
@@ -27,6 +36,7 @@ aEvent
 :
 nsDOMMouseEvent
 (
+aOwner
 aPresContext
 aEvent
 ?
@@ -399,6 +409,15 @@ nsIDOMEvent
 *
 *
 aInstancePtrResult
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 nsPresContext
 *
 aPresContext
@@ -414,6 +433,7 @@ it
 new
 nsDOMMouseScrollEvent
 (
+aOwner
 aPresContext
 aEvent
 )

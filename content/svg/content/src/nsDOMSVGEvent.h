@@ -36,6 +36,15 @@ public
 :
 nsDOMSVGEvent
 (
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 nsPresContext
 *
 aPresContext

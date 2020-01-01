@@ -30,6 +30,15 @@ public
 :
 nsDOMCompositionEvent
 (
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 nsPresContext
 *
 aPresContext

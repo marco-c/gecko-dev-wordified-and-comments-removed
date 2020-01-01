@@ -9187,6 +9187,7 @@ getter_AddRefs
 (
 event
 )
+mTabChildGlobal
 nullptr
 nullptr
 )

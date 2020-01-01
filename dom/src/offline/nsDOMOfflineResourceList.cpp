@@ -2059,6 +2059,7 @@ nsEventDispatcher
 :
 CreateEvent
 (
+this
 nullptr
 nullptr
 NS_LITERAL_STRING

@@ -151,7 +151,7 @@ bool
 DispatchEvent
 (
 JSObject
-*
+&
 aEvent
 ErrorResult
 &
@@ -169,6 +169,7 @@ GetJSContext
 )
 *
 this
+&
 aEvent
 aRv
 )

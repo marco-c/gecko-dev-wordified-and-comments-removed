@@ -89,6 +89,15 @@ nsIDOMEvent
 *
 *
 aInstancePtrResult
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 nsPresContext
 *
 aPresContext
@@ -104,6 +113,7 @@ it
 new
 nsDOMBeforeUnloadEvent
 (
+aOwner
 aPresContext
 aEvent
 )

@@ -44,6 +44,15 @@ public
 :
 nsDOMUIEvent
 (
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 nsPresContext
 *
 aPresContext

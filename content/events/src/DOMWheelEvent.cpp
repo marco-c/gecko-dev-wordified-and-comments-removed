@@ -62,6 +62,9 @@ DOMWheelEvent
 :
 DOMWheelEvent
 (
+EventTarget
+*
+aOwner
 nsPresContext
 *
 aPresContext
@@ -75,6 +78,7 @@ aWheelEvent
 :
 nsDOMMouseEvent
 (
+aOwner
 aPresContext
 aWheelEvent
 ?
@@ -767,6 +771,15 @@ nsIDOMEvent
 *
 *
 aInstancePtrResult
+mozilla
+:
+:
+dom
+:
+:
+EventTarget
+*
+aOwner
 nsPresContext
 *
 aPresContext
@@ -791,6 +804,7 @@ dom
 :
 DOMWheelEvent
 (
+aOwner
 aPresContext
 aEvent
 )

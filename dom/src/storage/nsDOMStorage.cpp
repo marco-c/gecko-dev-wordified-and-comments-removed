@@ -6824,6 +6824,7 @@ domEvent
 )
 nullptr
 nullptr
+nullptr
 )
 ;
 nsCOMPtr

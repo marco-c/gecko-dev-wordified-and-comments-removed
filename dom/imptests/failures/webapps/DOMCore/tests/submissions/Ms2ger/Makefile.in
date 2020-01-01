@@ -103,14 +103,6 @@ json
 \
 test_Event
 -
-constructors
-.
-html
-.
-json
-\
-test_Event
--
 defaultPrevented
 .
 html
