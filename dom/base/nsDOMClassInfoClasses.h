@@ -100,10 +100,6 @@ ProcessingInstruction
 )
 DOMCI_CLASS
 (
-Notation
-)
-DOMCI_CLASS
-(
 NodeList
 )
 DOMCI_CLASS
