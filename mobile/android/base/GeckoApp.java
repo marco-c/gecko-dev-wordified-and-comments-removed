@@ -7620,6 +7620,13 @@ layerView
 ;
 GeckoAppShell
 .
+setLayerView
+(
+layerView
+)
+;
+GeckoAppShell
+.
 notifyIMEContext
 (
 GeckoEditableListener
