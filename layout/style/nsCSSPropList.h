@@ -1251,7 +1251,7 @@ radius
 topleft
 _moz_outline_radius_topLeft
 MozOutlineRadiusTopleft
-0
+CSS_PROPERTY_STORES_CALC
 Margin
 mOutlineRadius
 .
@@ -1276,7 +1276,7 @@ radius
 topright
 _moz_outline_radius_topRight
 MozOutlineRadiusTopright
-0
+CSS_PROPERTY_STORES_CALC
 Margin
 mOutlineRadius
 .
@@ -1301,7 +1301,7 @@ radius
 bottomright
 _moz_outline_radius_bottomRight
 MozOutlineRadiusBottomright
-0
+CSS_PROPERTY_STORES_CALC
 Margin
 mOutlineRadius
 .
@@ -1326,7 +1326,7 @@ radius
 bottomleft
 _moz_outline_radius_bottomLeft
 MozOutlineRadiusBottomleft
-0
+CSS_PROPERTY_STORES_CALC
 Margin
 mOutlineRadius
 .
@@ -1516,6 +1516,8 @@ BackgroundPosition
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 |
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
+|
+CSS_PROPERTY_STORES_CALC
 Color
 mBackPosition
 kBackgroundPositionKTable
@@ -1548,6 +1550,8 @@ BackgroundSize
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 |
 CSS_PROPERTY_VALUE_LIST_USES_COMMAS
+|
+CSS_PROPERTY_STORES_CALC
 Color
 mBackSize
 kBackgroundSizeKTable
@@ -2663,6 +2667,8 @@ radius
 border_top_left_radius
 BorderTopLeftRadius
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
+|
+CSS_PROPERTY_STORES_CALC
 Margin
 mBorderRadius
 .
@@ -2687,6 +2693,8 @@ radius
 border_top_right_radius
 BorderTopRightRadius
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
+|
+CSS_PROPERTY_STORES_CALC
 Margin
 mBorderRadius
 .
@@ -2711,6 +2719,8 @@ radius
 border_bottom_right_radius
 BorderBottomRightRadius
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
+|
+CSS_PROPERTY_STORES_CALC
 Margin
 mBorderRadius
 .
@@ -2735,6 +2745,8 @@ radius
 border_bottom_left_radius
 BorderBottomLeftRadius
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
+|
+CSS_PROPERTY_STORES_CALC
 Margin
 mBorderRadius
 .
@@ -2752,7 +2764,7 @@ CSS_PROP_POSITION
 bottom
 bottom
 Bottom
-0
+CSS_PROPERTY_STORES_CALC
 Position
 mOffset
 .
@@ -3369,7 +3381,7 @@ CSS_PROP_POSITION
 height
 height
 Height
-0
+CSS_PROPERTY_STORES_CALC
 Position
 mHeight
 nsnull
@@ -3420,7 +3432,7 @@ CSS_PROP_POSITION
 left
 left
 Left
-0
+CSS_PROPERTY_STORES_CALC
 Position
 mOffset
 .
@@ -3541,6 +3553,8 @@ bottom
 margin_bottom
 MarginBottom
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
+|
+CSS_PROPERTY_STORES_CALC
 Margin
 mMargin
 .
@@ -3578,6 +3592,8 @@ value
 margin_end_value
 X
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
+|
+CSS_PROPERTY_STORES_CALC
 Margin
 mMarginEnd
 nsnull
@@ -3610,6 +3626,8 @@ X
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_REPORT_OTHER_NAME
+|
+CSS_PROPERTY_STORES_CALC
 Margin
 mMargin
 .
@@ -3688,6 +3706,8 @@ X
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_REPORT_OTHER_NAME
+|
+CSS_PROPERTY_STORES_CALC
 Margin
 mMargin
 .
@@ -3767,6 +3787,8 @@ value
 margin_start_value
 X
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
+|
+CSS_PROPERTY_STORES_CALC
 Margin
 mMarginStart
 nsnull
@@ -3783,6 +3805,8 @@ top
 margin_top
 MarginTop
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
+|
+CSS_PROPERTY_STORES_CALC
 Margin
 mMargin
 .
@@ -3830,7 +3854,7 @@ max
 height
 max_height
 MaxHeight
-0
+CSS_PROPERTY_STORES_CALC
 Position
 mMaxHeight
 nsnull
@@ -3848,7 +3872,7 @@ max
 width
 max_width
 MaxWidth
-0
+CSS_PROPERTY_STORES_CALC
 Position
 mMaxWidth
 kWidthKTable
@@ -3866,7 +3890,7 @@ min
 height
 min_height
 MinHeight
-0
+CSS_PROPERTY_STORES_CALC
 Position
 mMinHeight
 nsnull
@@ -3884,7 +3908,7 @@ min
 width
 min_width
 MinWidth
-0
+CSS_PROPERTY_STORES_CALC
 Position
 mMinWidth
 kWidthKTable
@@ -4042,6 +4066,8 @@ bottom
 padding_bottom
 PaddingBottom
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
+|
+CSS_PROPERTY_STORES_CALC
 Margin
 mPadding
 .
@@ -4079,6 +4105,8 @@ value
 padding_end_value
 X
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
+|
+CSS_PROPERTY_STORES_CALC
 Margin
 mPaddingEnd
 nsnull
@@ -4111,6 +4139,8 @@ X
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_REPORT_OTHER_NAME
+|
+CSS_PROPERTY_STORES_CALC
 Margin
 mPadding
 .
@@ -4189,6 +4219,8 @@ X
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
 |
 CSS_PROPERTY_REPORT_OTHER_NAME
+|
+CSS_PROPERTY_STORES_CALC
 Margin
 mPadding
 .
@@ -4268,6 +4300,8 @@ value
 padding_start_value
 X
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
+|
+CSS_PROPERTY_STORES_CALC
 Margin
 mPaddingStart
 nsnull
@@ -4284,6 +4318,8 @@ top
 padding_top
 PaddingTop
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER
+|
+CSS_PROPERTY_STORES_CALC
 Margin
 mPadding
 .
@@ -4474,7 +4510,7 @@ CSS_PROP_POSITION
 right
 right
 Right
-0
+CSS_PROPERTY_STORES_CALC
 Position
 mOffset
 .
@@ -4618,7 +4654,7 @@ text
 indent
 text_indent
 TextIndent
-0
+CSS_PROPERTY_STORES_CALC
 Text
 mTextIndent
 nsnull
@@ -4694,7 +4730,7 @@ transform
 origin
 _moz_transform_origin
 MozTransformOrigin
-0
+CSS_PROPERTY_STORES_CALC
 Display
 mTransformOrigin
 kBackgroundPositionKTable
@@ -4706,7 +4742,7 @@ CSS_PROP_POSITION
 top
 top
 Top
-0
+CSS_PROPERTY_STORES_CALC
 Position
 mOffset
 .
@@ -4889,6 +4925,8 @@ align
 vertical_align
 VerticalAlign
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
+|
+CSS_PROPERTY_STORES_CALC
 Text
 mVerticalAlign
 kVerticalAlignKTable
@@ -4966,7 +5004,7 @@ CSS_PROP_POSITION
 width
 width
 Width
-0
+CSS_PROPERTY_STORES_CALC
 Position
 mWidth
 kWidthKTable

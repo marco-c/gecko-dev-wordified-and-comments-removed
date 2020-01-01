@@ -126,6 +126,15 @@ CSS_PROPERTY_REPORT_OTHER_NAME
 <
 7
 )
+#
+define
+CSS_PROPERTY_STORES_CALC
+(
+1
+<
+<
+8
+)
 enum
 nsStyleAnimType
 {
