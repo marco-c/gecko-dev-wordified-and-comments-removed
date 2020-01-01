@@ -267,7 +267,9 @@ so
 turn
 it
 off
-CFLAGS
+ifdef
+GNU_CC
+OS_CFLAGS
 :
 =
 (
@@ -277,9 +279,10 @@ out
 -
 pedantic
 (
-CFLAGS
+OS_CFLAGS
 )
 )
+endif
 FORCE_STATIC_LIB
 =
 1
