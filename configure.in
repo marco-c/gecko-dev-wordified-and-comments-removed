@@ -56726,8 +56726,12 @@ in
 arm
 -
 android
+*
+|
+arm
 -
-eabi
+linuxandroid
+*
 )
 MOZ_THUMB
 =
