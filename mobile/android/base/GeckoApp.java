@@ -1090,11 +1090,7 @@ VERSION
 .
 SDK_INT
 <
-Build
-.
-VERSION_CODES
-.
-ICE_CREAM_SANDWICH
+14
 )
 return
 new
