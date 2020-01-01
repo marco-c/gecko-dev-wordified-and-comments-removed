@@ -437,11 +437,11 @@ Settings
 <
 !
 ENTITY
-syncComputerName
+syncDeviceName
 .
 label
 "
-Computer
+Device
 Name
 :
 "
@@ -449,7 +449,7 @@ Name
 <
 !
 ENTITY
-syncComputerName
+syncDeviceName
 .
 accesskey
 "
