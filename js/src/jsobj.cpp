@@ -11073,7 +11073,6 @@ clasp
 proto
 parent
 objectSize
-0
 )
 ;
 }
@@ -11095,8 +11094,6 @@ JSObject
 parent
 uintN
 objectSize
-uintN
-flags
 )
 {
 JSObject
@@ -11206,8 +11203,6 @@ js_NewGCThing
 (
 cx
 GCX_OBJECT
-|
-flags
 objectSize
 )
 ;

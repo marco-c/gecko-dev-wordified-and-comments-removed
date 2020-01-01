@@ -39707,7 +39707,6 @@ js_AnyNameClass
 NULL
 NULL
 0
-0
 )
 ;
 if

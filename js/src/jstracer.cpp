@@ -17984,7 +17984,12 @@ clasp
 ABORT_TRACE
 (
 "
-NYI
+can
+'
+t
+trace
+native
+constructor
 "
 )
 ;
