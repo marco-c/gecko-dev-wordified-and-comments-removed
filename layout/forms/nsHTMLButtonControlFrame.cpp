@@ -662,6 +662,17 @@ Deflate
 border
 )
 ;
+nscoord
+radii
+[
+8
+]
+;
+GetPaddingBoxBorderRadii
+(
+radii
+)
+;
 nsresult
 rv
 =
@@ -671,6 +682,7 @@ aBuilder
 set
 aLists
 rect
+radii
 )
 ;
 NS_ENSURE_SUCCESS

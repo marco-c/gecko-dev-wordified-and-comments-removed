@@ -2427,6 +2427,12 @@ const
 nsRect
 &
 aClipRect
+const
+nscoord
+aClipRadii
+[
+8
+]
 PRBool
 aClipBorderBackground
 =
