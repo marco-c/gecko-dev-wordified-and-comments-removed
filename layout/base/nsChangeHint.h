@@ -50,6 +50,9 @@ nsChangeHint_ReconstructFrame
 nsChangeHint_UpdateOverflow
 =
 0x800
+nsChangeHint_ChildrenOnlyTransform
+=
+0x1000
 }
 ;
 inline

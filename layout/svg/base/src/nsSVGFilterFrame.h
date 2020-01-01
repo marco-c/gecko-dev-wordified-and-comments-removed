@@ -186,7 +186,15 @@ aTarget
 const
 nsIntRect
 *
-aSourceBBox
+aOverrideBBox
+=
+nsnull
+const
+nsIntRect
+*
+aPreFilterBounds
+=
+nsnull
 )
 ;
 #
