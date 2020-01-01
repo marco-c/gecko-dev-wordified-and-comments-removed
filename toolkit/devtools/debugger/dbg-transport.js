@@ -217,7 +217,7 @@ currentThread
 onOutputStreamReady
 :
 function
-DT_ready
+DT_onOutputStreamReady
 (
 aStream
 )
@@ -391,7 +391,7 @@ while
 (
 this
 .
-processIncoming
+_processIncoming
 (
 )
 )
@@ -437,10 +437,10 @@ return
 ;
 }
 }
-processIncoming
+_processIncoming
 :
 function
-DT_processIncoming
+DT__processIncoming
 (
 )
 {

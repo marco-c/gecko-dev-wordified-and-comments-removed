@@ -764,7 +764,7 @@ value
 =
 this
 .
-valueGrip
+createValueGrip
 (
 completion
 [
@@ -793,7 +793,7 @@ exception
 =
 this
 .
-valueGrip
+createValueGrip
 (
 completion
 [
@@ -956,7 +956,7 @@ grip
 =
 this
 .
-_frameActor
+_createFrameActor
 (
 frame
 )
@@ -1633,7 +1633,7 @@ frame
 =
 this
 .
-_frameActor
+_createFrameActor
 (
 aFrame
 )
@@ -1911,10 +1911,10 @@ return
 popped
 ;
 }
-_frameActor
+_createFrameActor
 :
 function
-TA_threadActor
+TA_createFrameActor
 (
 aFrame
 )
@@ -1970,10 +1970,10 @@ return
 actor
 ;
 }
-environmentActor
+createEnvironmentActor
 :
 function
-TA_environmentActor
+TA_createEnvironmentActor
 (
 aObject
 aPool
@@ -2045,10 +2045,10 @@ return
 actor
 ;
 }
-valueGrip
+createValueGrip
 :
 function
-TA_valueGrip
+TA_createValueGrip
 (
 aValue
 )
@@ -2983,7 +2983,7 @@ this
 .
 threadActor
 .
-valueGrip
+createValueGrip
 (
 this
 .
@@ -3039,7 +3039,7 @@ this
 .
 threadActor
 .
-valueGrip
+createValueGrip
 (
 this
 .
@@ -3191,7 +3191,7 @@ this
 .
 threadActor
 .
-valueGrip
+createValueGrip
 (
 aObject
 .
@@ -3209,7 +3209,7 @@ this
 .
 threadActor
 .
-valueGrip
+createValueGrip
 (
 aObject
 .
@@ -3224,7 +3224,7 @@ this
 .
 threadActor
 .
-valueGrip
+createValueGrip
 (
 aObject
 .
@@ -3441,7 +3441,7 @@ this
 .
 threadActor
 .
-environmentActor
+createEnvironmentActor
 (
 this
 .
@@ -3933,7 +3933,7 @@ this
 .
 threadActor
 .
-valueGrip
+createValueGrip
 (
 this
 .
@@ -3962,7 +3962,7 @@ this
 .
 threadActor
 .
-environmentActor
+createEnvironmentActor
 (
 this
 .
@@ -3997,7 +3997,7 @@ this
 .
 threadActor
 .
-valueGrip
+createValueGrip
 (
 this
 .
@@ -4015,7 +4015,7 @@ arguments
 =
 this
 .
-args
+_args
 (
 )
 ;
@@ -4040,10 +4040,10 @@ return
 grip
 ;
 }
-args
+_args
 :
 function
-FA_args
+FA__args
 (
 )
 {
@@ -4071,7 +4071,7 @@ this
 .
 threadActor
 .
-valueGrip
+createValueGrip
 (
 arg
 )
@@ -4410,7 +4410,7 @@ this
 .
 threadActor
 .
-environmentActor
+createEnvironmentActor
 (
 this
 .
@@ -4479,7 +4479,7 @@ this
 .
 threadActor
 .
-valueGrip
+createValueGrip
 (
 this
 .
@@ -4529,7 +4529,7 @@ this
 .
 threadActor
 .
-valueGrip
+createValueGrip
 (
 this
 .

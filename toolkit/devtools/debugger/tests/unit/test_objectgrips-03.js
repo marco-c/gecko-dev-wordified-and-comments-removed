@@ -60,7 +60,7 @@ connectPipe
 ;
 gClient
 .
-ready
+connect
 (
 function
 (
@@ -160,7 +160,7 @@ args
 ;
 objClient
 .
-property
+getProperty
 (
 "
 x
@@ -212,7 +212,7 @@ value
 ;
 objClient
 .
-property
+getProperty
 (
 "
 y
@@ -266,7 +266,7 @@ kaiju
 ;
 objClient
 .
-property
+getProperty
 (
 "
 a

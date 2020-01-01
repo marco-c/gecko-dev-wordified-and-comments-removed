@@ -999,10 +999,10 @@ callee
 ;
 objClient
 .
-nameAndParameters
+getSignature
 (
 function
-SF_onNameAndParameters
+SF_getSignature
 (
 aResponse
 )
@@ -1319,7 +1319,7 @@ aObject
 ;
 objClient
 .
-prototypeAndProperties
+getPrototypeAndProperties
 (
 function
 SF_onProtoAndProps
@@ -1544,9 +1544,8 @@ aFrame
 _addMoreFrames
 :
 function
-SF_addMoreLink
+SF_addMoreFrames
 (
-aFrame
 )
 {
 this

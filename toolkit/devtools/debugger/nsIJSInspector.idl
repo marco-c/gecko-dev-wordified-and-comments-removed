@@ -448,7 +448,8 @@ s
 event
 queue
 until
-exi
+exit
+.
 *
 *
 return

@@ -1603,6 +1603,7 @@ onClosed
 function
 DSC_onClosed
 (
+aStatus
 )
 {
 dumpn

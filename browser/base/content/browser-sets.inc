@@ -1668,7 +1668,7 @@ oncommand
 "
 DebuggerUI
 .
-startDebugger
+toggleDebugger
 (
 )
 ;

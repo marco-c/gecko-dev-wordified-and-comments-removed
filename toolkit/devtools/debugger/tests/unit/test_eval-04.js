@@ -41,7 +41,7 @@ connectPipe
 ;
 gClient
 .
-ready
+connect
 (
 function
 (
@@ -100,7 +100,7 @@ aPacket
 {
 gThreadClient
 .
-frames
+getFrames
 (
 0
 2

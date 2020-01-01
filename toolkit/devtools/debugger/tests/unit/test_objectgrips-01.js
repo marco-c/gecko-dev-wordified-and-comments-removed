@@ -60,7 +60,7 @@ connectPipe
 ;
 gClient
 .
-ready
+connect
 (
 function
 (
@@ -160,7 +160,7 @@ args
 ;
 objClient
 .
-ownPropertyNames
+getOwnPropertyNames
 (
 function
 (

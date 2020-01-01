@@ -668,14 +668,14 @@ _dirty
 set
 dirty
 (
-value
+aValue
 )
 {
 this
 .
 _dirty
 =
-value
+aValue
 ;
 }
 _onFramesClick
@@ -686,7 +686,7 @@ _onFramesScroll
 function
 DVF__onFramesScroll
 (
-e
+aEvent
 )
 {
 if

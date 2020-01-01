@@ -203,7 +203,7 @@ false
 ;
 gClient
 .
-ready
+connect
 (
 )
 ;
