@@ -3040,7 +3040,8 @@ long
 getFolderIdForItem
 (
 in
-PRInt64
+long
+long
 aItemId
 )
 ;
