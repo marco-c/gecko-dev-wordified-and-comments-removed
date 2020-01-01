@@ -10020,6 +10020,14 @@ gfx
 .
 NativePanZoomController
 \
+org
+.
+mozilla
+.
+gecko
+.
+ANRReporter
+\
 (
 NULL
 )
