@@ -8114,12 +8114,6 @@ masm
 continue
 ;
 }
-FrameEntry
-*
-backing
-=
-fe
-;
 if
 (
 !
@@ -8220,6 +8214,8 @@ reg
 }
 else
 {
+FrameEntry
+*
 backing
 =
 fe

@@ -13356,8 +13356,9 @@ op
 lastrvalpc
 )
 ;
-lval
-=
+(
+void
+)
 PopStr
 (
 ss
@@ -13377,10 +13378,6 @@ ss
 sprinter
 rval
 )
-;
-op
-=
-saveop
 ;
 }
 else
@@ -22116,10 +22113,6 @@ break
 case
 JSOP_GETELEM2
 :
-op
-=
-JSOP_GETELEM
-;
 (
 void
 )
