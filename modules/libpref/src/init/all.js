@@ -1023,7 +1023,7 @@ peerconnection
 .
 enabled
 "
-false
+true
 )
 ;
 pref
