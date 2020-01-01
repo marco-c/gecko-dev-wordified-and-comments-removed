@@ -11,6 +11,7 @@ sys
 re
 os
 posixpath
+ntpath
 from
 StringIO
 import
@@ -1248,6 +1249,13 @@ top_srcdir
         
 if
 posixpath
+.
+isabs
+(
+top_srcdir
+)
+or
+ntpath
 .
 isabs
 (
