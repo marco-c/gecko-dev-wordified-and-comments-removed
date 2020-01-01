@@ -38,6 +38,13 @@ MAX_STACK_SLOTS
 static
 const
 uint32
+DOUBLE_STACK_ALIGNMENT
+=
+1
+;
+static
+const
+uint32
 ION_FRAME_SLACK_SIZE
 =
 24
