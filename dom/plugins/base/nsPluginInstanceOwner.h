@@ -1089,10 +1089,6 @@ mContent
 nsCString
 mDocumentBase
 ;
-char
-*
-mTagText
-;
 bool
 mWidgetCreationComplete
 ;
