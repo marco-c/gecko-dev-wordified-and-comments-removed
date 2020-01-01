@@ -461,6 +461,10 @@ test_bug609549
 .
 xhtml
 \
+test_isinheritableproperty
+.
+html
+\
 (
 NULL
 )
@@ -478,11 +482,9 @@ INSTALL
 DEPTH
 )
 /
-_tests
-/
-testing
-/
-mochitest
+(
+mochitestdir
+)
 /
 tests
 /
