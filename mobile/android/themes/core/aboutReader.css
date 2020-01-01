@@ -26,9 +26,6 @@ bottom
 :
 20px
 ;
--
-moz
--
 transition
 -
 property
@@ -38,9 +35,6 @@ background
 color
 color
 ;
--
-moz
--
 transition
 -
 duration
@@ -1490,9 +1484,6 @@ sans
 -
 serif
 ;
--
-moz
--
 transition
 -
 property
@@ -1500,9 +1491,6 @@ property
 visibility
 opacity
 ;
--
-moz
--
 transition
 -
 duration
@@ -1565,9 +1553,6 @@ toolbar
 -
 hidden
 {
--
-moz
--
 transition
 -
 property
@@ -1575,9 +1560,6 @@ property
 visibility
 opacity
 ;
--
-moz
--
 transition
 -
 duration
