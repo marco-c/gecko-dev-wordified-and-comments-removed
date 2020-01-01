@@ -32,6 +32,13 @@ windows
 .
 h
 >
+#
+include
+"
+IApplicationAssociationRegistration
+.
+h
+"
 class
 nsMIMEInfoWin
 ;
@@ -226,6 +233,12 @@ char
 *
 aType
 )
+;
+private
+:
+IApplicationAssociationRegistration
+*
+mAppAssoc
 ;
 }
 ;
