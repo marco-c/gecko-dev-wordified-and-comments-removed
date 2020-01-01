@@ -536,7 +536,7 @@ endif
 endif
 EXTRA_COMPONENTS
 =
-nsCloseAllWindows
+nsTryToClose
 .
 js
 include

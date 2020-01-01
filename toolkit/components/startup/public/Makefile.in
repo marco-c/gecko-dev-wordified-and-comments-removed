@@ -455,10 +455,6 @@ nsIAppStartup
 .
 idl
 \
-nsICloseAllWindows
-.
-idl
-\
 nsIUserInfo
 .
 idl

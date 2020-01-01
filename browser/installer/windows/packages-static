@@ -1340,7 +1340,7 @@ bin
 \
 components
 \
-nsCloseAllWindows
+nsTryToClose
 .
 js
 bin
