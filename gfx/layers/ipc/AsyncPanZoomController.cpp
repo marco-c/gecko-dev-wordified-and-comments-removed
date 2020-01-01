@@ -5156,7 +5156,7 @@ NotifyLayersUpdated
 const
 FrameMetrics
 &
-aViewportFrame
+aLayerMetrics
 bool
 aIsFirstPaint
 )
@@ -5169,13 +5169,13 @@ mMonitor
 ;
 mLastContentPaintMetrics
 =
-aViewportFrame
+aLayerMetrics
 ;
 mFrameMetrics
 .
 mMayHaveTouchListeners
 =
-aViewportFrame
+aLayerMetrics
 .
 mMayHaveTouchListeners
 ;
@@ -5213,7 +5213,7 @@ mFrameMetrics
 .
 mScrollOffset
 =
-aViewportFrame
+aLayerMetrics
 .
 mScrollOffset
 ;
@@ -5243,7 +5243,7 @@ false
 ;
 if
 (
-aViewportFrame
+aLayerMetrics
 .
 mCompositionBounds
 .
@@ -5257,7 +5257,7 @@ mCompositionBounds
 width
 &
 &
-aViewportFrame
+aLayerMetrics
 .
 mCompositionBounds
 .
@@ -5284,7 +5284,7 @@ mFrameMetrics
 .
 mViewport
 =
-aViewportFrame
+aLayerMetrics
 .
 mViewport
 ;
@@ -5357,7 +5357,7 @@ IsDefault
 &
 &
 !
-aViewportFrame
+aLayerMetrics
 .
 IsDefault
 (
@@ -5366,7 +5366,7 @@ IsDefault
 ;
 mFrameMetrics
 =
-aViewportFrame
+aLayerMetrics
 ;
 mState
 =
@@ -5383,7 +5383,7 @@ mScrollableRect
 .
 IsEqualEdges
 (
-aViewportFrame
+aLayerMetrics
 .
 mScrollableRect
 )
@@ -5393,7 +5393,7 @@ mFrameMetrics
 .
 mScrollableRect
 =
-aViewportFrame
+aLayerMetrics
 .
 mScrollableRect
 ;

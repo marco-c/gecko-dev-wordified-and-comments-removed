@@ -252,7 +252,7 @@ NotifyLayersUpdated
 const
 FrameMetrics
 &
-aViewportFrame
+aLayerMetrics
 bool
 aIsFirstPaint
 )
