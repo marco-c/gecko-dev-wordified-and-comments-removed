@@ -31,16 +31,6 @@ nsISimpleEnumerator
 ;
 #
 define
-NS_WIN_JRE_SCAN_KEY
-"
-plugin
-.
-scan
-.
-SunJRE
-"
-#
-define
 NS_WIN_ACROBAT_SCAN_KEY
 "
 plugin
