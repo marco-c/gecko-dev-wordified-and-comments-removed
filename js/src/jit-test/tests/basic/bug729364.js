@@ -126,7 +126,7 @@ let
 (
 x
 =
-verifybarriers
+verifyprebarriers
 (
 )
 q
