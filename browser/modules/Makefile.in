@@ -455,6 +455,10 @@ TelemetryTimestamps
 .
 jsm
 \
+KeywordURLResetPrompter
+.
+jsm
+\
 (
 NULL
 )
