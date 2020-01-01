@@ -32,16 +32,6 @@ Version
 %
 MOZILLA_VERSION
 %
-Requires
-:
-%
-NSPR_NAME
-%
->
-=
-%
-NSPR_VERSION
-%
 Cflags
 :
 -
@@ -51,3 +41,8 @@ includedir
 }
 /
 stable
+-
+DXP_UNIX
+%
+ojidef
+%
