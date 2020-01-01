@@ -5483,7 +5483,7 @@ IsForEventDelivery
 nsresult
 rv
 =
-nsDisplayBackground
+nsDisplayBackgroundImage
 :
 :
 AppendBackgroundItemsToTop
@@ -5858,7 +5858,7 @@ nsMargin
 )
 )
 {
-nsDisplayBackground
+nsDisplayBackgroundImage
 *
 bg
 ;

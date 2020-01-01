@@ -18,7 +18,7 @@ class
 nsDisplayListBuilder
 ;
 class
-nsDisplayBackground
+nsDisplayBackgroundImage
 ;
 class
 nsDisplayItemGeometry
@@ -145,7 +145,7 @@ public
 :
 nsDisplayBackgroundGeometry
 (
-nsDisplayBackground
+nsDisplayBackgroundImage
 *
 aItem
 nsDisplayListBuilder

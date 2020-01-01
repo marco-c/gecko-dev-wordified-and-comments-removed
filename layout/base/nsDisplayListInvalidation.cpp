@@ -177,7 +177,7 @@ nsDisplayBackgroundGeometry
 :
 nsDisplayBackgroundGeometry
 (
-nsDisplayBackground
+nsDisplayBackgroundImage
 *
 aItem
 nsDisplayListBuilder

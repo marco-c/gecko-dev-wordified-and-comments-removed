@@ -397,7 +397,7 @@ class
 nsDisplayCanvasBackground
 :
 public
-nsDisplayBackground
+nsDisplayBackgroundImage
 {
 public
 :
@@ -419,7 +419,7 @@ nsStyleBackground
 aBackgroundStyle
 )
 :
-nsDisplayBackground
+nsDisplayBackgroundImage
 (
 aBuilder
 aFrame
@@ -465,7 +465,7 @@ mExtraBackgroundColor
 0
 |
 |
-nsDisplayBackground
+nsDisplayBackgroundImage
 :
 :
 ComputeVisibility
@@ -512,7 +512,7 @@ aSnap
 ;
 }
 return
-nsDisplayBackground
+nsDisplayBackgroundImage
 :
 :
 GetOpaqueRegion
@@ -541,7 +541,7 @@ background
 if
 (
 !
-nsDisplayBackground
+nsDisplayBackgroundImage
 :
 :
 IsUniform
