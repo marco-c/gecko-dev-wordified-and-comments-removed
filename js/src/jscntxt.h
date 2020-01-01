@@ -1494,9 +1494,6 @@ cycleDetectorSet
 JSErrorReporter
 errorReporter
 ;
-JSOperationCallback
-operationCallback
-;
 void
 *
 data

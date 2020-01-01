@@ -7141,6 +7141,16 @@ pref
 "
 network
 .
+warnOnAboutNetworking
+"
+true
+)
+;
+pref
+(
+"
+network
+.
 http
 .
 version
