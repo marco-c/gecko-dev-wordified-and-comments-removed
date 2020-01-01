@@ -4045,7 +4045,7 @@ mHTMLCSSUtils
 >
 IsCSSEditableProperty
 (
-blockParent
+blockParentContent
 dummyProperty
 &
 typeAttrName
