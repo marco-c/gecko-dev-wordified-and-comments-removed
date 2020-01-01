@@ -48,9 +48,9 @@ target
 =
 arm
 -
-android
+linux
 -
-eabi
+androideabi
 ac_add_options
 -
 -
