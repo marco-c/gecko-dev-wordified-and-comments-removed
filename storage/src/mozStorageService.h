@@ -106,6 +106,12 @@ getXPConnect
 (
 )
 ;
+static
+PRInt32
+getSynchronousPref
+(
+)
+;
 private
 :
 Service
@@ -153,6 +159,10 @@ static
 nsIXPConnect
 *
 sXPConnect
+;
+static
+PRInt32
+sSynchronousPref
 ;
 }
 ;
