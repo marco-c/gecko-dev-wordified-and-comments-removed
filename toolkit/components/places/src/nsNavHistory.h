@@ -1084,6 +1084,12 @@ nsCOMPtr
 <
 mozIStorageStatement
 >
+mDBIsPageVisited
+;
+nsCOMPtr
+<
+mozIStorageStatement
+>
 mDBUpdatePageVisitStats
 ;
 nsCOMPtr
