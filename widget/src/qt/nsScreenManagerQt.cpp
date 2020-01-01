@@ -37,6 +37,10 @@ desktop
 =
 0
 ;
+screens
+=
+0
+;
 }
 nsScreenManagerQt
 :
@@ -46,6 +50,11 @@ nsScreenManagerQt
 (
 )
 {
+delete
+[
+]
+screens
+;
 }
 NS_IMPL_ISUPPORTS1
 (
