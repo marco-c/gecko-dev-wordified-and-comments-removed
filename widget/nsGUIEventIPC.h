@@ -743,8 +743,14 @@ rv
 ;
 PRUint8
 reason
+=
+0
 context
+=
+0
 exit
+=
+0
 ;
 rv
 =
