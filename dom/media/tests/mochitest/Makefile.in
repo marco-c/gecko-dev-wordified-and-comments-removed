@@ -81,6 +81,10 @@ mk
 MOCHITEST_FILES
 =
 \
+test_dataChannel_noOffer
+.
+html
+\
 test_getUserMedia_exceptions
 .
 html
