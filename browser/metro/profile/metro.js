@@ -2783,7 +2783,7 @@ app
 privacyURL
 "
 "
-https
+http
 :
 /
 /
@@ -2793,10 +2793,17 @@ mozilla
 .
 org
 /
+%
+LOCALE
+%
+/
 legal
 /
 privacy
 /
+firefox
+.
+html
 "
 )
 ;
