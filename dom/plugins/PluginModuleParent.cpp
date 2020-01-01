@@ -2384,6 +2384,12 @@ defined
 (
 XP_MACOSX
 )
+|
+|
+defined
+(
+XP_OS2
+)
 nsresult
 PluginModuleParent
 :
