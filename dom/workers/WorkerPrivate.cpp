@@ -16171,6 +16171,17 @@ AssertIsOnWorkerThread
 (
 )
 ;
+js
+:
+:
+PrepareForFullGC
+(
+JS_GetRuntime
+(
+aCx
+)
+)
+;
 if
 (
 aShrinking

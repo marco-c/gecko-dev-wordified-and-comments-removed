@@ -5051,15 +5051,6 @@ JSRuntime
 rt
 )
 ;
-extern
-void
-PrepareCompartmentForGC
-(
-JSCompartment
-*
-comp
-)
-;
 typedef
 enum
 JSGCInvocationKind
