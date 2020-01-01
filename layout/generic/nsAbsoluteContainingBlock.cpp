@@ -784,6 +784,7 @@ GetUnit
 eStyleUnit_Enumerated
 &
 &
+(
 aCoord
 .
 GetIntValue
@@ -802,6 +803,7 @@ GetIntValue
 =
 =
 NS_STYLE_WIDTH_MIN_INTRINSIC
+)
 )
 ;
 }
