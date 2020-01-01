@@ -185,6 +185,10 @@ Util
 .
 h
 \
+WeakPtr
+.
+h
+\
 (
 NULL
 )
