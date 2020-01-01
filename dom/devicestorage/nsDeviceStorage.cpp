@@ -370,6 +370,7 @@ endif
 #
 define
 DEVICESTORAGE_PROPERTIES
+\
 "
 chrome
 :
@@ -2525,6 +2526,8 @@ mStorageName
 %
 s
 '
+"
+"
 mRootDir
 '
 %
