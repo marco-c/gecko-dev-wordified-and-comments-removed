@@ -89,7 +89,6 @@ Main
 ;
 protected
 :
-NS_OVERRIDE
 virtual
 bool
 RecvPong
@@ -107,8 +106,8 @@ PRUint8
 &
 dummy
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 void
 ActorDestroy
@@ -116,6 +115,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -167,7 +167,6 @@ TestSanityChild
 ;
 protected
 :
-NS_OVERRIDE
 virtual
 bool
 RecvPing
@@ -185,8 +184,8 @@ PRInt8
 &
 dummy
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 void
 ActorDestroy
@@ -194,6 +193,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 {
 if
 (

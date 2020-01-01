@@ -62,7 +62,6 @@ NULL
 )
 {
 }
-NS_OVERRIDE
 virtual
 void
 ActorDestroy
@@ -70,6 +69,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 ;
 void
 SetValid
@@ -93,7 +93,6 @@ reason
 ;
 private
 :
-NS_OVERRIDE
 virtual
 bool
 Recv__delete__
@@ -103,6 +102,7 @@ NPReason
 &
 reason
 )
+MOZ_OVERRIDE
 ;
 bool
 RecvRedirectNotify

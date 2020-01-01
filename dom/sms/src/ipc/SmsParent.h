@@ -62,7 +62,6 @@ SmsParent
 (
 )
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvHasSupport
@@ -71,8 +70,8 @@ bool
 *
 aHasSupport
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvGetNumberOfMessagesForText
@@ -85,8 +84,8 @@ PRUint16
 *
 aResult
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvSendMessage
@@ -108,8 +107,8 @@ PRUint64
 &
 aProcessId
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvSaveReceivedMessage
@@ -130,8 +129,8 @@ PRInt32
 *
 aId
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvSaveSentMessage
@@ -152,8 +151,8 @@ PRInt32
 *
 aId
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvGetMessage
@@ -171,8 +170,8 @@ PRUint64
 &
 aProcessId
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvDeleteMessage
@@ -190,8 +189,8 @@ PRUint64
 &
 aProcessId
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvCreateMessageList
@@ -213,8 +212,8 @@ PRUint64
 &
 aProcessId
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvGetNextMessageInList
@@ -232,8 +231,8 @@ PRUint64
 &
 aProcessId
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvClearMessageList
@@ -243,8 +242,8 @@ PRInt32
 &
 aListId
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvMarkMessageRead
@@ -266,6 +265,7 @@ PRUint64
 &
 aProcessId
 )
+MOZ_OVERRIDE
 ;
 protected
 :

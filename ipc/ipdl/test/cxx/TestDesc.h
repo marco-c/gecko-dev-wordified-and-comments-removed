@@ -132,7 +132,6 @@ Main
 (
 )
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvOk
@@ -141,10 +140,10 @@ PTestDescSubsubParent
 *
 a
 )
+MOZ_OVERRIDE
 ;
 protected
 :
-NS_OVERRIDE
 virtual
 PTestDescSubParent
 *
@@ -153,8 +152,8 @@ AllocPTestDescSub
 PTestDescSubsubParent
 *
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 DeallocPTestDescSub
@@ -163,8 +162,8 @@ PTestDescSubParent
 *
 actor
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 void
 ActorDestroy
@@ -172,6 +171,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -225,7 +225,6 @@ TestDescChild
 }
 protected
 :
-NS_OVERRIDE
 virtual
 PTestDescSubChild
 *
@@ -234,8 +233,8 @@ AllocPTestDescSub
 PTestDescSubsubChild
 *
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 DeallocPTestDescSub
@@ -244,8 +243,8 @@ PTestDescSubChild
 *
 actor
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvTest
@@ -254,8 +253,8 @@ PTestDescSubsubChild
 *
 a
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 void
 ActorDestroy
@@ -263,6 +262,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -309,15 +309,14 @@ TestDescSubParent
 }
 protected
 :
-NS_OVERRIDE
 virtual
 PTestDescSubsubParent
 *
 AllocPTestDescSubsub
 (
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 DeallocPTestDescSubsub
@@ -326,6 +325,7 @@ PTestDescSubsubParent
 *
 actor
 )
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -351,15 +351,14 @@ TestDescSubChild
 }
 protected
 :
-NS_OVERRIDE
 virtual
 PTestDescSubsubChild
 *
 AllocPTestDescSubsub
 (
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 DeallocPTestDescSubsub
@@ -368,6 +367,7 @@ PTestDescSubsubChild
 *
 actor
 )
+MOZ_OVERRIDE
 ;
 }
 ;

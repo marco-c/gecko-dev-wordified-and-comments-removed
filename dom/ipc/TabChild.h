@@ -1195,7 +1195,6 @@ IsAsyncPanZoomEnabled
 ;
 protected
 :
-NS_OVERRIDE
 virtual
 PRenderFrameChild
 *
@@ -1214,8 +1213,8 @@ uint64_t
 *
 aLayersId
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 DeallocPRenderFrame
@@ -1224,13 +1223,14 @@ PRenderFrameChild
 *
 aFrame
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 bool
 RecvDestroy
 (
 )
+MOZ_OVERRIDE
 ;
 nsEventStatus
 DispatchWidgetEvent

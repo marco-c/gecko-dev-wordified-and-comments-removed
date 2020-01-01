@@ -18,6 +18,15 @@ nsISupportsImpl
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 {
 enum

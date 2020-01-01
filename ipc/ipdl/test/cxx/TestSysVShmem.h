@@ -90,7 +90,6 @@ Main
 ;
 protected
 :
-NS_OVERRIDE
 virtual
 bool
 RecvTake
@@ -106,8 +105,8 @@ size_t
 &
 expectedSize
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 void
 ActorDestroy
@@ -115,6 +114,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -168,7 +168,6 @@ TestSysVShmemChild
 }
 protected
 :
-NS_OVERRIDE
 virtual
 bool
 RecvGive
@@ -184,8 +183,8 @@ size_t
 &
 expectedSize
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 void
 ActorDestroy
@@ -193,6 +192,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 {
 if
 (

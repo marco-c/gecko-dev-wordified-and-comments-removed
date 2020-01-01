@@ -135,7 +135,6 @@ Main
 ;
 protected
 :
-NS_OVERRIDE
 virtual
 bool
 RecvTest
@@ -148,14 +147,15 @@ JSONVariant
 *
 o
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 PTestHandleParent
 *
 AllocPTestHandle
 (
 )
+MOZ_OVERRIDE
 {
 return
 mKid
@@ -166,7 +166,6 @@ TestHandleParent
 )
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 DeallocPTestHandle
@@ -175,6 +174,7 @@ PTestHandleParent
 *
 actor
 )
+MOZ_OVERRIDE
 {
 delete
 actor
@@ -183,7 +183,6 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 void
 ActorDestroy
@@ -191,6 +190,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -270,20 +270,20 @@ TestJSONChild
 }
 protected
 :
-NS_OVERRIDE
 virtual
 bool
 RecvStart
 (
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 PTestHandleChild
 *
 AllocPTestHandle
 (
 )
+MOZ_OVERRIDE
 {
 return
 mKid
@@ -294,7 +294,6 @@ TestHandleChild
 )
 ;
 }
-NS_OVERRIDE
 virtual
 bool
 DeallocPTestHandle
@@ -303,6 +302,7 @@ PTestHandleChild
 *
 actor
 )
+MOZ_OVERRIDE
 {
 delete
 actor
@@ -311,7 +311,6 @@ return
 true
 ;
 }
-NS_OVERRIDE
 virtual
 void
 ActorDestroy
@@ -319,6 +318,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 {
 if
 (

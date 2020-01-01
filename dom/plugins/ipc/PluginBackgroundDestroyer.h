@@ -76,7 +76,6 @@ PluginBackgroundDestroyerParent
 }
 private
 :
-NS_OVERRIDE
 virtual
 void
 ActorDestroy
@@ -84,6 +83,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 {
 switch
 (
@@ -173,7 +173,6 @@ PluginBackgroundDestroyerChild
 }
 private
 :
-NS_OVERRIDE
 virtual
 void
 ActorDestroy
@@ -181,6 +180,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 {
 }
 }

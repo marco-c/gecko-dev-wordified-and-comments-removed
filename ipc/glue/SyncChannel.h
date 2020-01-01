@@ -152,7 +152,6 @@ SyncChannel
 (
 )
 ;
-NS_OVERRIDE
 virtual
 bool
 Send
@@ -161,6 +160,7 @@ Message
 *
 msg
 )
+MOZ_OVERRIDE
 {
 return
 AsyncChannel
@@ -352,7 +352,6 @@ sStaticTopFrame
 endif
 protected
 :
-NS_OVERRIDE
 virtual
 void
 OnMessageReceivedFromLink
@@ -362,13 +361,14 @@ Message
 &
 msg
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 void
 OnChannelErrorFromLink
 (
 )
+MOZ_OVERRIDE
 ;
 bool
 ProcessingSyncMessage

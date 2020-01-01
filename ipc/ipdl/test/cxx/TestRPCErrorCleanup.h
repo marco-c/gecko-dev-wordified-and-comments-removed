@@ -89,7 +89,6 @@ Main
 ;
 protected
 :
-NS_OVERRIDE
 virtual
 void
 ActorDestroy
@@ -97,6 +96,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -115,7 +115,6 @@ destruction
 )
 ;
 }
-NS_OVERRIDE
 virtual
 void
 ProcessingError
@@ -123,6 +122,7 @@ ProcessingError
 Result
 what
 )
+MOZ_OVERRIDE
 ;
 bool
 mGotProcessingError
@@ -149,14 +149,13 @@ TestRPCErrorCleanupChild
 ;
 protected
 :
-NS_OVERRIDE
 virtual
 bool
 AnswerError
 (
 )
+MOZ_OVERRIDE
 ;
-NS_OVERRIDE
 virtual
 void
 ActorDestroy
@@ -164,6 +163,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 {
 fail
 (

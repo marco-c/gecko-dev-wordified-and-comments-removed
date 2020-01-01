@@ -89,7 +89,6 @@ Main
 ;
 protected
 :
-NS_OVERRIDE
 virtual
 void
 ActorDestroy
@@ -97,6 +96,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -148,7 +148,6 @@ TestSyncHangChild
 ;
 protected
 :
-NS_OVERRIDE
 virtual
 void
 ActorDestroy
@@ -156,6 +155,7 @@ ActorDestroy
 ActorDestroyReason
 why
 )
+MOZ_OVERRIDE
 {
 if
 (

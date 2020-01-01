@@ -73,7 +73,6 @@ nsNativeModuleLoader
 )
 {
 }
-NS_OVERRIDE
 virtual
 const
 mozilla
@@ -90,6 +89,7 @@ FileLocation
 &
 aFile
 )
+MOZ_OVERRIDE
 ;
 nsresult
 Init
