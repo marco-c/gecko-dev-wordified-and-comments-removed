@@ -2301,9 +2301,6 @@ if
 sBidiKeyboard
 )
 {
-nsresult
-rv
-=
 CallGetService
 (
 "
