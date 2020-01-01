@@ -958,6 +958,8 @@ this
 .
 _applyPrefToSetting
 (
+undefined
+aBrowser
 )
 ;
 return
