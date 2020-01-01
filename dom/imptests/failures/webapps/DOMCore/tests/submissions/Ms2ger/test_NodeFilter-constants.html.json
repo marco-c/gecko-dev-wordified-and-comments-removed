@@ -4,7 +4,9 @@ Constants
 for
 acceptNode
 on
-undefined
+NodeFilter
+prototype
+object
 .
 "
 :
@@ -14,7 +16,9 @@ Constants
 for
 whatToShow
 on
-undefined
+NodeFilter
+prototype
+object
 .
 "
 :
