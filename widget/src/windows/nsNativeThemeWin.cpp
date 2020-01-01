@@ -2468,7 +2468,7 @@ PRBool
 nsNativeThemeWin
 :
 :
-IsMenuActiveOrHover
+IsMenuActive
 (
 nsIFrame
 *
@@ -2486,20 +2486,6 @@ nsWidgetAtoms
 :
 mozmenuactive
 )
-|
-|
-(
-GetContentState
-(
-aFrame
-aWidgetType
-)
-&
-NS_EVENT_STATE_HOVER
-)
-!
-=
-0
 ;
 }
 nsresult
@@ -4375,7 +4361,7 @@ IsOpen
 ;
 isHover
 =
-IsMenuActiveOrHover
+IsMenuActive
 (
 aFrame
 aWidgetType
@@ -9800,7 +9786,7 @@ DFCS_PUSHED
 }
 if
 (
-IsMenuActiveOrHover
+IsMenuActive
 (
 aFrame
 aWidgetType
@@ -9843,7 +9829,7 @@ DFCS_INACTIVE
 ;
 if
 (
-IsMenuActiveOrHover
+IsMenuActive
 (
 aFrame
 aWidgetType
