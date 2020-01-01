@@ -2635,7 +2635,13 @@ length
 ;
 DownloadIntegration
 .
-dontLoad
+dontLoadList
+=
+true
+;
+DownloadIntegration
+.
+dontLoadObservers
 =
 true
 ;
