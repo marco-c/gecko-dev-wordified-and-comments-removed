@@ -812,6 +812,12 @@ SubdocumentScrollHelper
 .
 java
 \
+widget
+/
+DateTimePicker
+.
+java
+\
 GeckoNetworkManager
 .
 java
@@ -1858,6 +1864,14 @@ res
 layout
 /
 bookmark_edit
+.
+xml
+\
+res
+/
+layout
+/
+datetime_picker
 .
 xml
 \
