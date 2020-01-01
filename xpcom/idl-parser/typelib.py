@@ -1477,11 +1477,6 @@ True
 setter
 =
 False
-notxpcom
-=
-a
-.
-notxpcom
                                   
 constructor
 =
@@ -1542,11 +1537,6 @@ False
 setter
 =
 True
-notxpcom
-=
-a
-.
-notxpcom
                                       
 constructor
 =

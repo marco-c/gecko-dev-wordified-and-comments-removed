@@ -723,6 +723,15 @@ memberId
 if
 member
 .
+kind
+=
+=
+'
+method
+'
+and
+member
+.
 notxpcom
 :
         

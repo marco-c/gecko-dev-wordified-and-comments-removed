@@ -153,7 +153,7 @@ boolean
 timingEnabled
 ;
 [
-notxpcom
+noscript
 ]
 readonly
 attribute
@@ -161,7 +161,7 @@ TimeStamp
 channelCreation
 ;
 [
-notxpcom
+noscript
 ]
 readonly
 attribute
@@ -190,7 +190,7 @@ the
 /
 cache
 [
-notxpcom
+noscript
 ]
 readonly
 attribute
@@ -198,7 +198,7 @@ TimeStamp
 domainLookupStart
 ;
 [
-notxpcom
+noscript
 ]
 readonly
 attribute
@@ -206,7 +206,7 @@ TimeStamp
 domainLookupEnd
 ;
 [
-notxpcom
+noscript
 ]
 readonly
 attribute
@@ -214,7 +214,7 @@ TimeStamp
 connectStart
 ;
 [
-notxpcom
+noscript
 ]
 readonly
 attribute
@@ -222,7 +222,7 @@ TimeStamp
 connectEnd
 ;
 [
-notxpcom
+noscript
 ]
 readonly
 attribute
@@ -230,7 +230,7 @@ TimeStamp
 requestStart
 ;
 [
-notxpcom
+noscript
 ]
 readonly
 attribute
@@ -238,7 +238,7 @@ TimeStamp
 responseStart
 ;
 [
-notxpcom
+noscript
 ]
 readonly
 attribute
@@ -266,7 +266,7 @@ the
 /
 cache
 [
-notxpcom
+noscript
 ]
 readonly
 attribute
@@ -274,7 +274,7 @@ TimeStamp
 cacheReadStart
 ;
 [
-notxpcom
+noscript
 ]
 readonly
 attribute

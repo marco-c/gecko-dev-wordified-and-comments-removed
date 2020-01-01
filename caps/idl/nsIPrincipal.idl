@@ -2251,7 +2251,7 @@ ephemerally
 *
 /
 [
-notxpcom
+noscript
 ]
 readonly
 attribute
