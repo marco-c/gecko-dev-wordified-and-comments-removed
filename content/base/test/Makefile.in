@@ -2527,6 +2527,10 @@ test_nodelist_holes
 .
 html
 \
+test_xhr_abort_after_load
+.
+html
+\
 (
 NULL
 )
