@@ -2591,7 +2591,7 @@ getCurrentSessionPayloadAndSlug
 reason
 )
 ;
-if
+while
 (
 this
 .
