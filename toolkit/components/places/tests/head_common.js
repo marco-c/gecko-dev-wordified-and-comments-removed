@@ -3369,13 +3369,6 @@ function
 )
 {
 }
-nodeReplaced
-:
-function
-(
-)
-{
-}
 nodeTagsChanged
 :
 function

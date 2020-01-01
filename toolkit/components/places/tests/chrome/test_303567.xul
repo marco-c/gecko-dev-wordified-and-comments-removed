@@ -871,13 +871,6 @@ function
 )
 {
 }
-nodeReplaced
-:
-function
-(
-)
-{
-}
 nodeMoved
 :
 function
