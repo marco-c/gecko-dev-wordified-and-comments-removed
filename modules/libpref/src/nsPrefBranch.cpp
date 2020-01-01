@@ -395,11 +395,11 @@ NS_XPCOM_SHUTDOWN_OBSERVER_ID
 )
 ;
 }
-NS_IMPL_THREADSAFE_ADDREF
+NS_IMPL_ADDREF
 (
 nsPrefBranch
 )
-NS_IMPL_THREADSAFE_RELEASE
+NS_IMPL_RELEASE
 (
 nsPrefBranch
 )
@@ -3922,11 +3922,11 @@ nsPrefLocalizedString
 )
 {
 }
-NS_IMPL_THREADSAFE_ADDREF
+NS_IMPL_ADDREF
 (
 nsPrefLocalizedString
 )
-NS_IMPL_THREADSAFE_RELEASE
+NS_IMPL_RELEASE
 (
 nsPrefLocalizedString
 )
@@ -4099,7 +4099,7 @@ aLength
 )
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 nsRelativeFilePref
 nsIRelativeFilePref
