@@ -4725,6 +4725,7 @@ EXT_texture_compression_s3tc
 EXT_texture_compression_dxt1
 ANGLE_texture_compression_dxt3
 ANGLE_texture_compression_dxt5
+AMD_compressed_ATC_texture
 EXT_framebuffer_blit
 ANGLE_framebuffer_blit
 EXT_framebuffer_multisample

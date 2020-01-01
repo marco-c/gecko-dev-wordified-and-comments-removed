@@ -235,6 +235,9 @@ GL_ANGLE_texture_compression_dxt3
 GL_ANGLE_texture_compression_dxt5
 "
 "
+GL_AMD_compressed_ATC_texture
+"
+"
 GL_EXT_framebuffer_blit
 "
 "

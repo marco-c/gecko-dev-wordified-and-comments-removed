@@ -1374,6 +1374,10 @@ WebGLExtensionCompressedTextureS3TC
 ;
 friend
 class
+WebGLExtensionCompressedTextureATC
+;
+friend
+class
 WebGLContextUserData
 ;
 friend
@@ -5493,6 +5497,7 @@ OES_standard_derivatives
 EXT_texture_filter_anisotropic
 WEBGL_lose_context
 WEBGL_compressed_texture_s3tc
+WEBGL_compressed_texture_atc
 WEBGL_depth_texture
 WebGLExtensionID_number_of_extensions
 WebGLExtensionID_unknown_extension
