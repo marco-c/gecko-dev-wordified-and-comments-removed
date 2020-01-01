@@ -511,8 +511,14 @@ FEEDSITESPEC
 livemark
 site
 URI
-not
 changed
+to
+"
++
+newSiteURI
++
+"
+not
 to
 value
 in
