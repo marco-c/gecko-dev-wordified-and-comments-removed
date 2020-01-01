@@ -53,7 +53,7 @@ MPL
 0
 /
 .
-MOCHITEST_BROWSER_TESTS
+MOCHITEST_BROWSER_FILES
 =
 \
 browser_dbg_aaa_run_first_leaktest
@@ -169,14 +169,6 @@ js
 browser_dbg_clean
 -
 exit
-.
-js
-\
-browser_dbg_clean
--
-exit
--
-window
 .
 js
 \
@@ -966,12 +958,6 @@ head
 .
 js
 \
-(
-NULL
-)
-MOCHITEST_BROWSER_PAGES
-=
-\
 doc_binary_search
 .
 html
@@ -1279,7 +1265,7 @@ Linux
 OS_ARCH
 )
 )
-MOCHITEST_BROWSER_TESTS
+MOCHITEST_BROWSER_FILES
 +
 =
 \
@@ -1327,7 +1313,7 @@ Darwin
 OS_ARCH
 )
 )
-MOCHITEST_BROWSER_TESTS
+MOCHITEST_BROWSER_FILES
 +
 =
 \
@@ -1351,7 +1337,3 @@ js
 NULL
 )
 endif
-MOCHITEST_BROWSER_FILES_PARTS
-=
-MOCHITEST_BROWSER_TESTS
-MOCHITEST_BROWSER_PAGES

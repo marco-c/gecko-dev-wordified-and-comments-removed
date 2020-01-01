@@ -514,10 +514,6 @@ test_removal_ondecode
 .
 html
 \
-invalid
-.
-jpg
-\
 bad
 .
 jpg
