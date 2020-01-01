@@ -2465,7 +2465,7 @@ aValue
 )
 ;
 bool
-ParseMozTransform
+ParseTransform
 (
 )
 ;
@@ -2953,7 +2953,7 @@ aOutput
 )
 ;
 bool
-ParseMozTransformOrigin
+ParseTransformOrigin
 (
 bool
 aPerspective
@@ -24640,18 +24640,18 @@ ParseTextDecoration
 )
 ;
 case
-eCSSProperty__moz_transform
+eCSSProperty_transform
 :
 return
-ParseMozTransform
+ParseTransform
 (
 )
 ;
 case
-eCSSProperty__moz_transform_origin
+eCSSProperty_transform_origin
 :
 return
-ParseMozTransformOrigin
+ParseTransformOrigin
 (
 false
 )
@@ -24660,7 +24660,7 @@ case
 eCSSProperty_perspective_origin
 :
 return
-ParseMozTransformOrigin
+ParseTransformOrigin
 (
 true
 )
@@ -34858,7 +34858,7 @@ bool
 CSSParserImpl
 :
 :
-ParseMozTransform
+ParseTransform
 (
 )
 {
@@ -34975,7 +34975,7 @@ mNext
 }
 AppendValue
 (
-eCSSProperty__moz_transform
+eCSSProperty_transform
 value
 )
 ;
@@ -34987,7 +34987,7 @@ bool
 CSSParserImpl
 :
 :
-ParseMozTransformOrigin
+ParseTransformOrigin
 (
 bool
 aPerspective
@@ -35011,7 +35011,7 @@ false
 nsCSSProperty
 prop
 =
-eCSSProperty__moz_transform_origin
+eCSSProperty_transform_origin
 ;
 if
 (

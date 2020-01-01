@@ -5256,7 +5256,7 @@ CSS_PROP_DISPLAY
 moz
 -
 transform
-_moz_transform
+transform
 CSS_PROP_DOMPROP_PREFIXED
 (
 Transform
@@ -5279,7 +5279,7 @@ moz
 transform
 -
 origin
-_moz_transform_origin
+transform_origin
 CSS_PROP_DOMPROP_PREFIXED
 (
 TransformOrigin

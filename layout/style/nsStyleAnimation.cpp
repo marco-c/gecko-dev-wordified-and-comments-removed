@@ -14149,7 +14149,7 @@ break
 ;
 }
 case
-eCSSProperty__moz_transform_origin
+eCSSProperty_transform_origin
 :
 {
 const
@@ -15937,7 +15937,7 @@ break
 ;
 }
 case
-eCSSProperty__moz_transform
+eCSSProperty_transform
 :
 {
 const
