@@ -637,7 +637,6 @@ mParent
 AsDOMNode
 (
 )
-false
 )
 ;
 #

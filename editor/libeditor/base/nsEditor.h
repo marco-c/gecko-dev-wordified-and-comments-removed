@@ -1318,8 +1318,6 @@ aNodeToJoin
 nsIDOMNode
 *
 aParent
-bool
-aNodeToKeepIsFirst
 )
 ;
 static
