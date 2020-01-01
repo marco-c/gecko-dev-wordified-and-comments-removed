@@ -531,8 +531,14 @@ aListener
 )
 ;
 PRInt32
-mMouseClientX
-mMouseClientY
+mMouseScreenX
+mMouseScreenY
+;
+nsCOMPtr
+<
+nsIDOMEvent
+>
+mCachedMouseEvent
 ;
 nsCOMPtr
 <
