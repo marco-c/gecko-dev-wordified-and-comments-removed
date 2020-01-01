@@ -563,6 +563,10 @@ test_watchpoints
 .
 xul
 \
+test_exnstack
+.
+xul
+\
 (
 NULL
 )

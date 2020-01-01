@@ -645,6 +645,10 @@ file_bug706301
 .
 html
 \
+file_exnstack
+.
+html
+\
 (
 NULL
 )
