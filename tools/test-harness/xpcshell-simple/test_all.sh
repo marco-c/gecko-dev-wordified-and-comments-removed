@@ -1014,6 +1014,8 @@ TOPSRCDIR
 topsrcdir
 "
 xpcshell
+-
+s
 headfiles
 -
 f
