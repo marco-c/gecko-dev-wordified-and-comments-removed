@@ -199,3 +199,17 @@ cproject
 .
 settings
 /
+#
+Python
+stuff
+installed
+at
+build
+-
+time
+*
+.
+egg
+-
+info
+/
