@@ -999,9 +999,6 @@ PRUint32
 mRClickCount
 ;
 PRPackedBool
-mNormalLMouseEventInProcess
-;
-PRPackedBool
 m_haveShutdown
 ;
 nsCOMArray
@@ -1019,6 +1016,10 @@ mLastLineScrollConsumedY
 static
 PRInt32
 sUserInputEventDepth
+;
+static
+PRBool
+sNormalLMouseEventInProcess
 ;
 PRBool
 mClickHoldContextMenu
