@@ -1853,16 +1853,6 @@ global
 )
 const
 ;
-inline
-JSPrincipals
-*
-principals
-(
-JSContext
-*
-cx
-)
-;
 static
 inline
 bool
