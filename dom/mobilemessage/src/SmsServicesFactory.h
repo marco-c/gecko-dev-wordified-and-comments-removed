@@ -15,6 +15,9 @@ class
 nsISmsService
 ;
 class
+nsIMmsService
+;
+class
 nsIMobileMessageDatabaseService
 ;
 namespace
@@ -46,6 +49,15 @@ already_AddRefed
 nsIMobileMessageDatabaseService
 >
 CreateMobileMessageDatabaseService
+(
+)
+;
+static
+already_AddRefed
+<
+nsIMmsService
+>
+CreateMmsService
 (
 )
 ;

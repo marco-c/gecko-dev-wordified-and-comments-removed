@@ -430,6 +430,10 @@ MobileMessageDatabaseService
 .
 h
 \
+MmsService
+.
+h
+\
 (
 NULL
 )
@@ -438,6 +442,10 @@ CPPSRCS
 =
 \
 MobileMessageDatabaseService
+.
+cpp
+\
+MmsService
 .
 cpp
 \
