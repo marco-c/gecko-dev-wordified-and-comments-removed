@@ -111,7 +111,6 @@ this
 Unexpected
 SMIL
 value
-.
 "
 )
 ;
@@ -164,7 +163,6 @@ mType
 Incompatible
 SMIL
 types
-.
 "
 )
 ;
@@ -180,7 +178,6 @@ this
 Unexpected
 SMIL
 value
-.
 "
 )
 ;
@@ -368,7 +365,6 @@ Unexpected
 types
 for
 interpolation
-.
 "
 )
 ;
@@ -384,7 +380,6 @@ this
 Unexpected
 result
 type
-.
 "
 )
 ;

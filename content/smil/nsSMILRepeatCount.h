@@ -145,7 +145,6 @@ or
 zero
 repeat
 count
-.
 "
 )
 ;

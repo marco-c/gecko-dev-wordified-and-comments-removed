@@ -4768,7 +4768,6 @@ simple
 duration
 in
 CalcActiveEnd
-.
 "
 )
 ;
@@ -4799,7 +4798,6 @@ time
 passed
 to
 CalcActiveEnd
-.
 "
 )
 ;

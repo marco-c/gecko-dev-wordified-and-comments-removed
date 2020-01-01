@@ -1220,7 +1220,6 @@ to
 compare
 to
 self
-.
 "
 )
 ;
@@ -1549,7 +1548,6 @@ Animation
 sampled
 outside
 interval
-.
 "
 )
 ;
@@ -1600,7 +1598,6 @@ Unexpected
 number
 of
 values
-.
 "
 )
 ;
@@ -1933,7 +1930,6 @@ from
 value
 during
 interpolation
-.
 "
 )
 ;
@@ -1947,7 +1943,6 @@ to
 value
 during
 interpolation
-.
 "
 )
 ;
@@ -2181,7 +2176,6 @@ is
 out
 of
 bounds
-.
 "
 )
 ;
@@ -2459,7 +2453,6 @@ probably
 out
 of
 bounds
-.
 "
 )
 ;
@@ -2800,7 +2793,6 @@ Length
 Invalid
 interval
 index
-.
 "
 )
 ;
@@ -2815,7 +2807,6 @@ Invalid
 number
 of
 intervals
-.
 "
 )
 ;

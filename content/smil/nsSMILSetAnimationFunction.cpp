@@ -299,7 +299,6 @@ Animation
 sampled
 outside
 interval
-.
 "
 )
 ;
@@ -326,7 +325,6 @@ Unexpected
 number
 of
 values
-.
 "
 )
 ;

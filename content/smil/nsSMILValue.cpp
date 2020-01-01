@@ -84,7 +84,6 @@ failed
 nsSMILValue
 is
 invalid
-.
 "
 )
 ;
@@ -158,7 +157,6 @@ failed
 nsSMILValue
 is
 invalid
-.
 "
 )
 ;
@@ -288,7 +286,6 @@ failed
 nsSMILValue
 is
 invalid
-.
 "
 )
 ;
@@ -362,7 +359,6 @@ to
 add
 incompatible
 types
-.
 "
 )
 ;
@@ -424,7 +420,6 @@ to
 add
 incompatible
 types
-.
 "
 )
 ;
@@ -480,7 +475,6 @@ distance
 between
 incompatible
 types
-.
 "
 )
 ;
@@ -538,7 +532,6 @@ interpolate
 between
 incompatible
 types
-.
 "
 )
 ;
@@ -627,7 +620,6 @@ failed
 nsSMILValue
 is
 invalid
-.
 "
 )
 ;

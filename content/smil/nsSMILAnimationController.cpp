@@ -164,7 +164,6 @@ elements
 when
 it
 dies
-.
 "
 )
 ;
@@ -601,7 +600,6 @@ but
 controller
 is
 paused
-.
 "
 )
 ;

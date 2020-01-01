@@ -245,7 +245,6 @@ for
 a
 zero
 value
-.
 "
 )
 ;

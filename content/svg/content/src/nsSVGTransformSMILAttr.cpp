@@ -156,7 +156,6 @@ cleared
 before
 calling
 ValueFromString
-.
 "
 )
 ;
@@ -607,7 +606,6 @@ for
 SMIL
 value
 result
-.
 "
 )
 ;
@@ -1550,7 +1548,6 @@ unrecognised
 SVG
 transform
 type
-.
 "
 )
 ;
