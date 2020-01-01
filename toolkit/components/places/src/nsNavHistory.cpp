@@ -866,6 +866,15 @@ kAutoCompleteIndex_ItemId
 =
 3
 ;
+const
+PRInt32
+nsNavHistory
+:
+:
+kAutoCompleteIndex_ParentId
+=
+4
+;
 static
 nsDataHashtable
 <
