@@ -5071,13 +5071,17 @@ extraPrefs
 append
 (
 '
-browser
+layout
 .
-viewport
+css
 .
-scaleRatio
+devPixelsPerPx
 =
-100
+"
+1
+.
+0
+"
 '
 )
         
