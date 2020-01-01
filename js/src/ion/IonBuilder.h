@@ -3667,6 +3667,17 @@ TypeSet
 inputTypes
 )
 ;
+bool
+NeedsPostBarrier
+(
+CompileInfo
+&
+info
+MDefinition
+*
+value
+)
+;
 }
 }
 #
