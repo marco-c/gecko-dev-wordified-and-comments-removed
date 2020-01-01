@@ -96,16 +96,6 @@ Available
 (
 )
 ;
-float
-DownloadRate
-(
-)
-;
-float
-PlaybackRate
-(
-)
-;
 void
 Suspend
 (
@@ -162,10 +152,6 @@ public
 :
 nsMediaStream
 mStream
-;
-unsigned
-long
-mCurrentPosition
 ;
 }
 ;
