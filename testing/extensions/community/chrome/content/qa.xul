@@ -1254,6 +1254,11 @@ tabs
 >
 <
 tabpanels
+id
+=
+"
+qa_tabpanels
+"
 >
 <
 tabpanel
