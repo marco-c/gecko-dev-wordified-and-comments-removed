@@ -5712,8 +5712,10 @@ Length
 i
 )
 {
+nsRefPtr
+<
 ProcessedMediaStream
-*
+>
 ps
 =
 mStreams
