@@ -129,12 +129,6 @@ nsGenericDOMDataNode
 :
 :
 )
-using
-nsGenericDOMDataNode
-:
-:
-SetData
-;
 virtual
 bool
 IsNodeOfType

@@ -827,7 +827,6 @@ aCloneAfterOriginal
 true
 )
 ;
-virtual
 void
 SetData
 (
