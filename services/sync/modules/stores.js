@@ -244,10 +244,7 @@ if
 (
 rec
 .
-payload
-=
-=
-null
+deleted
 )
 this
 .

@@ -974,14 +974,12 @@ passwordField
 ;
 }
 else
-{
 record
 .
-payload
+deleted
 =
-null
+true
 ;
-}
 return
 record
 ;
