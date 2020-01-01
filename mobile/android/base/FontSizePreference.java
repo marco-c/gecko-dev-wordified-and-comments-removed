@@ -765,6 +765,14 @@ newConfig
 .
 orientation
 ;
+if
+(
+mPreviewFontView
+!
+=
+null
+)
+{
 setPreviewFontViewWidth
 (
 )
@@ -777,6 +785,7 @@ setFontSizeToMaximum
 (
 )
 ;
+}
 }
 }
 private
