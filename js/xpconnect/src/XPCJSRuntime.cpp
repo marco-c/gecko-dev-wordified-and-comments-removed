@@ -956,7 +956,7 @@ cx
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 else
@@ -980,7 +980,7 @@ cx
 }
 }
 return
-JS_TRUE
+true
 ;
 }
 xpc
@@ -1042,7 +1042,7 @@ if
 self
 )
 return
-JS_TRUE
+true
 ;
 nsAutoPtr
 <
@@ -1077,7 +1077,7 @@ if
 priv
 )
 return
-JS_TRUE
+true
 ;
 if
 (
@@ -1226,7 +1226,7 @@ ptr
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 struct
@@ -3081,7 +3081,7 @@ if
 self
 )
 return
-JS_TRUE
+true
 ;
 switch
 (
@@ -3101,7 +3101,7 @@ NS_IsMainThread
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 JSContext
@@ -3272,7 +3272,7 @@ self
 >
 mDoingFinalization
 =
-JS_TRUE
+true
 ;
 break
 ;
@@ -3298,7 +3298,7 @@ self
 >
 mDoingFinalization
 =
-JS_FALSE
+false
 ;
 DoDeferredRelease
 (
@@ -4177,11 +4177,11 @@ status
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 class
@@ -5626,7 +5626,7 @@ curr
 -
 >
 typeInferenceMemory
-moz_malloc_usable_size
+MemoryReporterMallocSizeOf
 )
 ;
 curr
@@ -5640,7 +5640,7 @@ js
 GetCompartmentShapeTableSize
 (
 compartment
-moz_malloc_usable_size
+MemoryReporterMallocSizeOf
 )
 ;
 }
@@ -5938,7 +5938,7 @@ js
 GetObjectDynamicSlotSize
 (
 obj
-moz_malloc_usable_size
+MemoryReporterMallocSizeOf
 )
 ;
 break
@@ -5980,7 +5980,7 @@ str
 >
 charsHeapSize
 (
-moz_malloc_usable_size
+MemoryReporterMallocSizeOf
 )
 ;
 break
@@ -6038,7 +6038,7 @@ shape
 >
 sizeOfPropertyTable
 (
-moz_malloc_usable_size
+MemoryReporterMallocSizeOf
 )
 ;
 }
@@ -6063,7 +6063,7 @@ shape
 >
 sizeOfPropertyTable
 (
-moz_malloc_usable_size
+MemoryReporterMallocSizeOf
 )
 ;
 curr
@@ -6077,7 +6077,7 @@ shape
 >
 sizeOfKids
 (
-moz_malloc_usable_size
+MemoryReporterMallocSizeOf
 )
 ;
 }
@@ -6135,7 +6135,7 @@ script
 >
 dataSize
 (
-moz_malloc_usable_size
+MemoryReporterMallocSizeOf
 )
 ;
 #
@@ -6152,7 +6152,7 @@ script
 >
 jitDataSize
 (
-moz_malloc_usable_size
+MemoryReporterMallocSizeOf
 )
 ;
 #
@@ -6205,7 +6205,7 @@ curr
 -
 >
 typeInferenceMemory
-moz_malloc_usable_size
+MemoryReporterMallocSizeOf
 )
 ;
 break
@@ -7312,26 +7312,18 @@ committedSize
 (
 )
 ;
-size_t
-usable
-=
-moz_malloc_usable_size
-(
-rt
-)
-;
 data
 -
 >
 runtimeObjectSize
 =
-usable
-?
-usable
-:
+MemoryReporterMallocSizeOf
+(
+rt
 sizeof
 (
 JSRuntime
+)
 )
 ;
 data
@@ -7346,10 +7338,9 @@ atomState
 .
 atoms
 .
-sizeOf
+sizeOfExcludingThis
 (
-moz_malloc_usable_size
-false
+MemoryReporterMallocSizeOf
 )
 ;
 }
@@ -11020,7 +11011,7 @@ mNativesToReleaseArray
 )
 mDoingFinalization
 (
-JS_FALSE
+false
 )
 mVariantRoots
 (
@@ -11090,7 +11081,7 @@ dom
 .
 new_bindings
 "
-JS_FALSE
+false
 )
 ;
 mStrIDs
@@ -11536,7 +11527,7 @@ NS_TIME_FUNCTION
 JSBool
 ok
 =
-JS_TRUE
+true
 ;
 if
 (
@@ -11627,7 +11618,7 @@ JSID_VOID
 ;
 ok
 =
-JS_FALSE
+false
 ;
 break
 ;
@@ -11667,7 +11658,7 @@ if
 ok
 )
 return
-JS_FALSE
+false
 ;
 XPCPerThreadData
 *
@@ -11687,7 +11678,7 @@ if
 tls
 )
 return
-JS_FALSE
+false
 ;
 XPCContext
 *
@@ -11706,7 +11697,7 @@ if
 xpc
 )
 return
-JS_FALSE
+false
 ;
 JS_SetNativeStackQuota
 (
@@ -11728,7 +11719,7 @@ JSOPTION_UNROOTED_GLOBAL
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool

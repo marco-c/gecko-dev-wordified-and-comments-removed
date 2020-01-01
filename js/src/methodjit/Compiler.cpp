@@ -40828,6 +40828,15 @@ typeInferenceEnabled
 )
 |
 |
+!
+fun
+-
+>
+hasSingletonType
+(
+)
+|
+|
 fun
 -
 >
@@ -40841,8 +40850,10 @@ unknownProperties
 (
 )
 )
+{
 break
 ;
+}
 jsid
 id
 =

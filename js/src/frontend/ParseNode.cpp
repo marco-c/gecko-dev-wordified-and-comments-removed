@@ -1310,7 +1310,7 @@ if
 kind
 =
 =
-PNK_PLUS
+PNK_ADD
 )
 {
 if
@@ -1418,7 +1418,7 @@ if
 kind
 =
 =
-PNK_PLUS
+PNK_ADD
 )
 {
 if
@@ -1543,7 +1543,7 @@ if
 kind
 =
 =
-PNK_PLUS
+PNK_ADD
 &
 &
 left

@@ -2032,8 +2032,8 @@ inline
 size_t
 dynamicSlotSize
 (
-JSUsableSizeFun
-usf
+JSMallocSizeOfFun
+mallocSizeOf
 )
 const
 ;
