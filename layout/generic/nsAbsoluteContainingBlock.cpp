@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsHTMLContainerFrame
+.
+h
+"
+#
+include
+"
 nsHTMLParts
 .
 h

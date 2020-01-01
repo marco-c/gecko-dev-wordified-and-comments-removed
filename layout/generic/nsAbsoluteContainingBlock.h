@@ -52,16 +52,11 @@ nsIAtom
 *
 aChildListName
 )
-#
-ifdef
-DEBUG
 :
 mChildListName
 (
 aChildListName
 )
-#
-endif
 {
 NS_ASSERTION
 (
@@ -95,9 +90,6 @@ content
 )
 ;
 }
-#
-ifdef
-DEBUG
 nsIAtom
 *
 GetChildListName
@@ -109,8 +101,6 @@ return
 mChildListName
 ;
 }
-#
-endif
 nsresult
 FirstChild
 (
@@ -300,9 +290,6 @@ protected
 nsFrameList
 mAbsoluteFrames
 ;
-#
-ifdef
-DEBUG
 nsIAtom
 *
 const
@@ -318,8 +305,6 @@ char
 aBuf
 )
 ;
-#
-endif
 }
 ;
 #
