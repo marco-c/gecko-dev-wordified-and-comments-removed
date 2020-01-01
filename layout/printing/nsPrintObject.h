@@ -197,9 +197,6 @@ bool
 mPrintAsIs
 ;
 bool
-mSharedPresShell
-;
-bool
 mInvisible
 ;
 bool
