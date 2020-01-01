@@ -517,13 +517,8 @@ call
 EXPAND_LIBNAME
 rpcrt4
 uuid
-)
-OS_LIBS
-+
-=
 advapi32
-.
-lib
+)
 LIBS
 =
 \
