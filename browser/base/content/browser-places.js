@@ -528,6 +528,9 @@ location
 "
 loadInSidebar
 "
+"
+keyword
+"
 ]
 }
 )
