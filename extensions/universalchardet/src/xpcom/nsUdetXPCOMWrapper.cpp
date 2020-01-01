@@ -203,6 +203,13 @@ oDontFeedMe
 return
 NS_ERROR_ILLEGAL_VALUE
 ;
+this
+-
+>
+Reset
+(
+)
+;
 nsresult
 rv
 =
