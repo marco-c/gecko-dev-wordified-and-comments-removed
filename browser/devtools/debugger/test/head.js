@@ -88,7 +88,7 @@ debugger
 .
 log
 "
-false
+true
 )
 ;
 Cu
