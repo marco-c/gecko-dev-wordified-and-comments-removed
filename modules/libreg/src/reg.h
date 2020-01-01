@@ -30,7 +30,7 @@ MAGIC_NUMBER
 #
 define
 MAJOR_VERSION
-1
+2
 /
 *
 major
