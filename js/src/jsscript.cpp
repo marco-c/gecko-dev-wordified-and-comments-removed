@@ -6295,7 +6295,7 @@ js_function_str
 )
 ;
 return
-false
+NULL
 ;
 }
 script
