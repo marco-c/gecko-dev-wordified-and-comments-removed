@@ -314,6 +314,13 @@ id
 list
 )
 ;
+mList
+.
+setItemsCanFocus
+(
+true
+)
+;
 mListContainer
 =
 (
