@@ -107,17 +107,6 @@ return
 false
 ;
 }
-size_t
-bufferInfoSize
-=
-MOZ_ALIGN_WORD
-(
-sizeof
-(
-YCbCrBufferInfo
-)
-)
-;
 return
 true
 ;
