@@ -592,6 +592,9 @@ xml
 #
 ifdef
 XP_UNIX
+#
+ifndef
+XP_MACOSX
 BINPATH
 /
 run
@@ -599,9 +602,6 @@ run
 mozilla
 .
 sh
-#
-ifndef
-XP_MACOSX
 BINPATH
 /
 mozilla

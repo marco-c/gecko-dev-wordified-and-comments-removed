@@ -3175,6 +3175,16 @@ res
 wincharset
 .
 properties
+#
+ifdef
+XP_MACOSX
+run
+-
+mozilla
+.
+sh
+#
+endif
 searchplugins
 /
 DRAE
