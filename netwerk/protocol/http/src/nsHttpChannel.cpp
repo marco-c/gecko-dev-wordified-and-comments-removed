@@ -1721,6 +1721,7 @@ Doom
 ;
 CloseCacheEntry
 (
+PR_FALSE
 )
 ;
 }
@@ -1833,6 +1834,7 @@ DoNotifyListener
 ;
 CloseCacheEntry
 (
+PR_TRUE
 )
 ;
 mIsPending
@@ -3661,6 +3663,7 @@ InitCacheEntry
 ;
 CloseCacheEntry
 (
+PR_FALSE
 )
 ;
 if
@@ -3881,6 +3884,7 @@ rv
 )
 CloseCacheEntry
 (
+PR_TRUE
 )
 ;
 }
@@ -8430,6 +8434,8 @@ nsHttpChannel
 :
 CloseCacheEntry
 (
+PRBool
+doomOnFailure
 )
 {
 if
@@ -8482,6 +8488,9 @@ NS_FAILED
 (
 mStatus
 )
+&
+&
+doomOnFailure
 &
 &
 (
@@ -15741,6 +15750,7 @@ mCanceled
 ;
 CloseCacheEntry
 (
+PR_TRUE
 )
 ;
 AsyncAbort
@@ -18677,6 +18687,7 @@ mCacheEntry
 )
 CloseCacheEntry
 (
+PR_TRUE
 )
 ;
 if
@@ -20094,6 +20105,7 @@ rv
 {
 CloseCacheEntry
 (
+PR_TRUE
 )
 ;
 AsyncAbort

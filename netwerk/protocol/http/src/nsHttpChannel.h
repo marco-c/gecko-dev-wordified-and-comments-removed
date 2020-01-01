@@ -624,6 +624,8 @@ ReadFromCache
 void
 CloseCacheEntry
 (
+PRBool
+doomOnFailure
 )
 ;
 void
