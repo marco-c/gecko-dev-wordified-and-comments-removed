@@ -190,6 +190,10 @@ xhtml
 \
 test_bug821850
 .
+html
+\
+file_bug821850
+.
 xhtml
 \
 (
