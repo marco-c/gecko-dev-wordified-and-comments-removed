@@ -153,8 +153,8 @@ DrawOntoTempSurface
 gfxXlibSurface
 *
 tempXlibSurface
-double
-background_gray_value
+nsIntPoint
+offset
 )
 ;
 }
