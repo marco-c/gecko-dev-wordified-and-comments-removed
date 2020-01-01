@@ -499,7 +499,7 @@ modifiers
 }
 }
 function
-test_deleteKeyRemoves
+test_backspaceKeyRemoves
 (
 aWin
 )
@@ -637,7 +637,7 @@ i
 synthesizeKey
 (
 "
-DOM_VK_DELETE
+DOM_VK_BACK_SPACE
 "
 aWin
 )
@@ -684,7 +684,7 @@ var
 testFuncs
 =
 [
-test_deleteKeyRemoves
+test_backspaceKeyRemoves
 ]
 ;
 function
