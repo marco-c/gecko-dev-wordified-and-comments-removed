@@ -45,9 +45,7 @@ cm
 (
 ConnectivityManager
 )
-GeckoApp
-.
-mAppContext
+context
 .
 getSystemService
 (
