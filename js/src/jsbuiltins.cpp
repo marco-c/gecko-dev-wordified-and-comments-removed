@@ -1936,6 +1936,13 @@ code
 (
 )
 ;
+JS_ASSERT
+(
+u
+.
+code
+)
+;
 return
 u
 .
