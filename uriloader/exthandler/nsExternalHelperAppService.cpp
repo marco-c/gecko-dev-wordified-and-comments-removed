@@ -5485,8 +5485,8 @@ if
 (
 !
 warn
-|
-|
+&
+&
 !
 alwaysAsk
 &
