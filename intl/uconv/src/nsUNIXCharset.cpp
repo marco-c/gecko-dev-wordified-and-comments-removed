@@ -531,7 +531,7 @@ return
 NS_SUCCESS_USING_FALLBACK_LOCALE
 ;
 #
-endif
+else
 nsAutoString
 localeStr
 (
@@ -588,6 +588,8 @@ ISO
 return
 NS_SUCCESS_USING_FALLBACK_LOCALE
 ;
+#
+endif
 }
 nsresult
 nsPlatformCharset
