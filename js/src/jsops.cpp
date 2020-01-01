@@ -9140,7 +9140,7 @@ sp
 1
 ]
 .
-setInt32
+setNumber
 (
 length
 )
