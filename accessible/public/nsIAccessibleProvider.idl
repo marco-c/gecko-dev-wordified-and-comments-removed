@@ -665,9 +665,9 @@ XULListbox
 ;
 const
 long
-XULListitem
+XULListCell
 =
-0x0000100C
+0x00001026
 ;
 const
 long
@@ -680,6 +680,12 @@ long
 XULListHeader
 =
 0x00001025
+;
+const
+long
+XULListitem
+=
+0x0000100C
 ;
 const
 long
