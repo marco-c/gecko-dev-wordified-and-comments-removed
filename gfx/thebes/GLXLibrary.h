@@ -462,6 +462,15 @@ GLXPixmap
 aPixmap
 )
 ;
+PRBool
+HasTextureFromPixmap
+(
+)
+{
+return
+mHasTextureFromPixmap
+;
+}
 private
 :
 PRBool
