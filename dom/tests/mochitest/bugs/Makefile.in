@@ -606,6 +606,10 @@ test_protochains
 .
 html
 \
+test_bug817476
+.
+html
+\
 (
 NULL
 )
