@@ -1,4 +1,8 @@
 from
+mozprofile
+import
+Profile
+from
 mozrunner
 import
 Runner
@@ -112,6 +116,10 @@ not
 profile_path
 :
             
+runner_class
+=
+Runner
+            
 profile_args
 [
 "
@@ -124,10 +132,14 @@ False
 else
 :
             
+runner_class
+=
+CloneRunner
+            
 profile_args
 [
 "
-profile
+path_from
 "
 ]
 =
@@ -143,7 +155,7 @@ self
 .
 runner
 =
-Runner
+runner_class
 .
 create
 (
@@ -152,11 +164,11 @@ binary
 self
 .
 bin
-                                    
+                                         
 profile_args
 =
 profile_args
-                                    
+                                         
 cmdargs
 =
 [
@@ -226,3 +238,15 @@ b2gdesktop
 :
 B2GDesktopInstance
 }
+class
+CloneRunner
+(
+Runner
+)
+:
+    
+profile_class
+=
+Profile
+.
+clone
