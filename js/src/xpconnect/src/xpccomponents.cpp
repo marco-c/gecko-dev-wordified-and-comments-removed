@@ -10997,6 +10997,12 @@ cx
 return
 NS_OK
 ;
+JSAutoRequest
+ar
+(
+cx
+)
+;
 PRUint32
 argc
 ;
