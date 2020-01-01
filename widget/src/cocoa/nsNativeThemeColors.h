@@ -19,6 +19,7 @@ ColorName
 headerStartGrey
 headerEndGrey
 headerBorderGrey
+toolbarTopBorderGrey
 }
 ;
 static
@@ -43,6 +44,10 @@ sLeopardThemeColors
 {
 0x42
 0x89
+}
+{
+0xC0
+0xE2
 }
 }
 ;
