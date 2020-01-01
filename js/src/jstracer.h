@@ -4660,6 +4660,8 @@ LIns
 args
 [
 ]
+bool
+rooted
 )
 ;
 JS_REQUIRES_STACK
