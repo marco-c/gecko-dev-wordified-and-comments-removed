@@ -10091,6 +10091,10 @@ return
 NS_OK
 ;
 }
+FireMenuItemActiveEvent
+(
+)
+;
 }
 break
 ;
