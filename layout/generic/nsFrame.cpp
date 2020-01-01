@@ -17264,6 +17264,14 @@ aFlags
 #
 ifdef
 MOZ_SVG
+nsSVGEffects
+:
+:
+InvalidateDirectRenderingObservers
+(
+this
+)
+;
 if
 (
 nsSVGIntegrationUtils
