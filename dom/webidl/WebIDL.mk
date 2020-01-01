@@ -943,6 +943,10 @@ TreeWalker
 .
 webidl
 \
+UIEvent
+.
+webidl
+\
 URL
 .
 webidl
