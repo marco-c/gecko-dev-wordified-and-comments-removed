@@ -150,9 +150,10 @@ machines
 o
 /
 #
-Bug
-878600
-requires
+Multiple
+WebIDL
+changes
+requiring
 a
 clobber
 on
