@@ -3211,11 +3211,6 @@ aClosure
 PRBool
 next
 =
-aData
--
->
-mDocument
-?
 args
 -
 >
@@ -3230,8 +3225,6 @@ args
 >
 data
 )
-:
-PR_TRUE
 ;
 return
 next
