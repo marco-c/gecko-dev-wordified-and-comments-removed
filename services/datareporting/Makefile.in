@@ -79,7 +79,7 @@ TEST_DIRS
 +
 =
 tests
-MODULES_FILES
+MODULES
 :
 =
 policy
@@ -88,7 +88,7 @@ jsm
 sessions
 .
 jsm
-MODULES_DEST
+MODULES_PATH
 =
 (
 FINAL_TARGET
@@ -99,7 +99,7 @@ modules
 services
 /
 datareporting
-INSTALL_TARGETS
+PP_TARGETS
 +
 =
 MODULES
@@ -129,6 +129,13 @@ EXTRA_COMPONENTS
 DataReporting
 .
 manifest
+\
+(
+NULL
+)
+EXTRA_PP_COMPONENTS
+:
+=
 \
 DataReportingService
 .

@@ -3,6 +3,9 @@ use
 strict
 "
 ;
+#
+ifndef
+MERGED_COMPARTMENT
 this
 .
 EXPORTED_SYMBOLS
@@ -28,6 +31,8 @@ Cu
 =
 Components
 ;
+#
+endif
 Cu
 .
 import
