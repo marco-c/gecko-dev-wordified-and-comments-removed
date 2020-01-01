@@ -14,13 +14,6 @@ h
 #
 include
 "
-jsstaticcheck
-.
-h
-"
-#
-include
-"
 jsutil
 .
 h

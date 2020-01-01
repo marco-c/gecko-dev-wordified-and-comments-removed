@@ -148,13 +148,6 @@ h
 #
 include
 "
-jsstaticcheck
-.
-h
-"
-#
-include
-"
 jsstr
 .
 h
