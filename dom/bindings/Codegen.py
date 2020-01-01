@@ -8665,8 +8665,7 @@ header
 "
 "
   
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 IsBaseOf
 <
@@ -8677,8 +8676,7 @@ s
 :
 :
 value
-)
-                    
+                
 "
 HasInstance
 only
@@ -60923,8 +60921,7 @@ CGGeneric
 "
 "
 "
-MOZ_STATIC_ASSERT
-(
+static_assert
 (
 IsBaseOf
 <
@@ -60935,7 +60932,6 @@ s
 :
 :
 value
-)
                   
 "
 We
