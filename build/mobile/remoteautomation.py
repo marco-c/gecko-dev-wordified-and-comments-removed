@@ -178,6 +178,32 @@ env
 }
         
 if
+'
+MOZ_HIDE_RESULTS_TABLE
+'
+in
+os
+.
+environ
+:
+            
+env
+[
+'
+MOZ_HIDE_RESULTS_TABLE
+'
+]
+=
+os
+.
+environ
+[
+'
+MOZ_HIDE_RESULTS_TABLE
+'
+]
+        
+if
 crashreporter
 :
             
