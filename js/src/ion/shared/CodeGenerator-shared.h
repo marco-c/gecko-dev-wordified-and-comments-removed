@@ -413,6 +413,12 @@ Value
 )
 )
 ;
+offset
+&
+=
+~
+7
+;
 JS_ASSERT
 (
 offset

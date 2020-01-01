@@ -541,6 +541,13 @@ LDefinition
 :
 POINTER
 )
+temp
+(
+LDefinition
+:
+:
+POINTER
+)
 )
 ;
 if

@@ -1916,6 +1916,11 @@ rhs
 )
 ;
 void
+checkStackAlignment
+(
+)
+;
+void
 setupAlignedABICall
 (
 uint32

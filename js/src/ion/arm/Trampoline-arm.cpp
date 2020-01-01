@@ -2485,6 +2485,12 @@ takeAny
 ;
 masm
 .
+breakpoint
+(
+)
+;
+masm
+.
 ma_sub
 (
 pc

@@ -573,6 +573,13 @@ FloatRegisters
 d15
 }
 ;
+static
+const
+uint32
+StackAlignment
+=
+8
+;
 class
 Instruction
 ;
