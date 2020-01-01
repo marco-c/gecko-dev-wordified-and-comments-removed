@@ -1,3 +1,4 @@
+(
 function
 (
 )
@@ -23,6 +24,8 @@ function
 {
 }
 ]
+)
+;
 foo
 =
 [
@@ -356,6 +359,8 @@ function
 {
 }
 ]
+;
+(
 function
 (
 )
@@ -371,11 +376,16 @@ function
 }
 ]
 }
+)
+;
+(
 function
 (
 )
 {
 }
+)
+;
 (
 eval
 (
@@ -446,3 +456,4 @@ gczeal
 )
 (
 )
+;

@@ -87,6 +87,7 @@ mapfunc
 eval
 (
 "
+(
 function
 (
 a
@@ -143,6 +144,7 @@ n
 +
 "
 }
+)
 \
 n
 "
