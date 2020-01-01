@@ -165,6 +165,10 @@ browser_form_auto_complete
 .
 html
 \
+browser_crashprompt
+.
+js
+\
 (
 NULL
 )
