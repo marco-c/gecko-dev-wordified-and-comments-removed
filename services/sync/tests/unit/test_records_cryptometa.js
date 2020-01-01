@@ -325,14 +325,10 @@ do_check_eq
 (
 error
 "
-Server
-attack
-?
-!
+Key
 SHA256
 HMAC
-key
-fail
+mismatch
 :
 failme
 !
