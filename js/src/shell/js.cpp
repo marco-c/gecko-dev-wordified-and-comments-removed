@@ -1336,14 +1336,6 @@ ShellOperationCallback
 )
 ;
 }
-#
-ifdef
-WINCE
-int
-errno
-;
-#
-endif
 static
 void
 Process
@@ -1484,8 +1476,6 @@ file
 )
 )
 )
-#
-endif
 {
 int
 ch
@@ -1625,6 +1615,8 @@ file
 return
 ;
 }
+#
+endif
 lineno
 =
 1
