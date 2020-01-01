@@ -195,9 +195,15 @@ Linux
 CPPSRCS
 +
 =
-nsWifiScannerUnix
+nsWifiScannerDBus
 .
 cpp
+OS_INCLUDES
++
+=
+(
+MOZ_DBUS_GLIB_CFLAGS
+)
 else
 ifeq
 (
