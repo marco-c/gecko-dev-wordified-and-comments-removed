@@ -51,6 +51,13 @@ h
 #
 include
 "
+nsTArray
+.
+h
+"
+#
+include
+"
 mozilla
 /
 gfx

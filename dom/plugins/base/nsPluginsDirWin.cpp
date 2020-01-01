@@ -10,6 +10,15 @@ h
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsPluginsDir
 .
 h

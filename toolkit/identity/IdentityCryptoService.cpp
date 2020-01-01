@@ -68,6 +68,15 @@ h
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 ScopedNSSTypes
 .
 h

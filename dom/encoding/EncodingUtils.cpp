@@ -12,6 +12,15 @@ h
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsUConvPropertySearch
 .
 h
