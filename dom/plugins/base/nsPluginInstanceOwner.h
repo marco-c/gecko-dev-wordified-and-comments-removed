@@ -905,6 +905,15 @@ UseAsyncRendering
 (
 )
 ;
+already_AddRefed
+<
+nsIURI
+>
+GetBaseURI
+(
+)
+const
+;
 #
 ifdef
 MOZ_WIDGET_ANDROID
