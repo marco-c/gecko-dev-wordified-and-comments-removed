@@ -431,10 +431,6 @@ nsPluginError
 .
 h
 \
-nsDefaultPlugin
-.
-h
-\
 nsPluginNativeWindow
 .
 h

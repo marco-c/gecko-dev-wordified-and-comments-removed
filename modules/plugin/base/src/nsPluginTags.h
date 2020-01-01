@@ -372,9 +372,6 @@ nsNPAPIPluginInstance
 *
 mInstance
 ;
-PRBool
-mDefaultPlugin
-;
 nsCOMArray
 <
 nsIPluginStreamInfo
@@ -393,8 +390,6 @@ const
 char
 *
 url
-PRBool
-aDefaultPlugin
 )
 ;
 ~
