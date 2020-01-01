@@ -101,6 +101,10 @@ mNeedsYFlip
 =
 PR_FALSE
 ;
+mDataIsPremultiplied
+=
+PR_TRUE
+;
 }
 else
 if
@@ -146,7 +150,7 @@ GetOffscreenFBO
 (
 )
 ;
-mGLBufferIsPremultiplied
+mDataIsPremultiplied
 =
 aData
 .
@@ -1199,7 +1203,7 @@ RGBLAYER
 if
 (
 !
-mGLBufferIsPremultiplied
+mDataIsPremultiplied
 )
 {
 device
@@ -1251,7 +1255,7 @@ D3DPT_TRIANGLESTRIP
 if
 (
 !
-mGLBufferIsPremultiplied
+mDataIsPremultiplied
 )
 {
 device
