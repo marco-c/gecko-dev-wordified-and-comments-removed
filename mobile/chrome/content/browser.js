@@ -11110,6 +11110,12 @@ ih_show
 (
 )
 {
+BrowserUI
+.
+activePanel
+=
+null
+;
 while
 (
 BrowserUI
