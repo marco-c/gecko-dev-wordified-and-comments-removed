@@ -727,12 +727,6 @@ text
 }
 )
 ;
-notificationBox
-.
-notificationsHidden
-=
-false
-;
 let
 newBar
 =
