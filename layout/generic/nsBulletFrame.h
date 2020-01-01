@@ -294,6 +294,8 @@ const
 nsRect
 &
 aDirtyRect
+uint32_t
+aFlags
 )
 ;
 virtual
