@@ -457,6 +457,12 @@ mPCMapSize
 jsuword
 mFirstPC
 ;
+jsuword
+mFirstValidPC
+;
+jsuword
+mEndPC
+;
 }
 ;
 PRUint32
