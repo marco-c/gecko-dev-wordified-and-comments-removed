@@ -611,10 +611,6 @@ nsMacGurmukhiToUnicode
 .
 cpp
 \
-nsGEOSTD8ToUnicode
-.
-cpp
-\
 nsARMSCII8ToUnicode
 .
 cpp
@@ -832,10 +828,6 @@ nsUnicodeToMacGujarati
 cpp
 \
 nsUnicodeToMacGurmukhi
-.
-cpp
-\
-nsUnicodeToGEOSTD8
 .
 cpp
 \
