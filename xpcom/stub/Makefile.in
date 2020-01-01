@@ -667,6 +667,14 @@ DLL_SUFFIX
 (
 LIB_PREFIX
 )
+nssutil3
+(
+DLL_SUFFIX
+)
+\
+(
+LIB_PREFIX
+)
 ssl3
 (
 DLL_SUFFIX

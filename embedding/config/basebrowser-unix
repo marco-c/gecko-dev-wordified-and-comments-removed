@@ -742,6 +742,9 @@ security
 prefs
 .
 js
+libnssutil3
+.
+so
 libnss3
 .
 so

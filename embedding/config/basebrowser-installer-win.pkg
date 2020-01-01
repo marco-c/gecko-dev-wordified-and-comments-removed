@@ -912,6 +912,9 @@ components
 pipnss
 .
 xpt
+nssutil3
+.
+dll
 nss3
 .
 dll

@@ -568,6 +568,9 @@ js
 libnss3
 .
 dylib
+libnssutil3
+.
+dylib
 libsmime3
 .
 dylib
