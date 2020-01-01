@@ -2429,6 +2429,15 @@ ReleaseStatics
 (
 )
 ;
+static
+void
+ClearMouseCapture
+(
+nsIFrame
+*
+aFrame
+)
+;
 protected
 :
 friend

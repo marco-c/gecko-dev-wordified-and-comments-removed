@@ -486,6 +486,14 @@ nsRect
 )
 )
 ;
+nsIPresShell
+:
+:
+ClearMouseCapture
+(
+aBox
+)
+;
 }
 }
 void
