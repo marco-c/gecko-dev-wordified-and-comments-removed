@@ -65,6 +65,16 @@ false
 pref
 (
 "
+extensions
+.
+installDistroAddons
+"
+false
+)
+;
+pref
+(
+"
 webapprt
 .
 firstrun
