@@ -104,17 +104,6 @@ ClosePrintManager
 )
 ;
 NS_IMETHOD
-GetPageSizeInTwips
-(
-PRInt32
-*
-aWidth
-PRInt32
-*
-aHeight
-)
-;
-NS_IMETHOD
 GetToPrinter
 (
 PRBool
