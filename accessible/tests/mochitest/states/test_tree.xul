@@ -653,9 +653,7 @@ gQueue
 new
 eventQueue
 (
-"
-TreeViewChanged
-"
+EVENT_REORDER
 )
 ;
 gQueue
