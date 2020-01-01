@@ -415,6 +415,7 @@ reporting
 functionality
 .
 *
+*
 status
 UNSTABLE
 -
@@ -610,6 +611,7 @@ crash
 report
 .
 *
+*
 param
 key
 *
@@ -744,7 +746,6 @@ initialized
 throw
 NS_ERROR_INVALID_ARG
 if
-or
 data
 contains
 invalid
@@ -808,6 +809,7 @@ Windows
 only
 .
 *
+*
 param
 aExceptionInfo
 EXCEPTION_INFO
@@ -847,6 +849,7 @@ exception
 s
 info
 .
+*
 *
 param
 aException
