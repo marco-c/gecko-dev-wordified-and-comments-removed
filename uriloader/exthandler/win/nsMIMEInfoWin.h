@@ -237,7 +237,7 @@ nsIMutableArray
 appList
 nsTArray
 <
-nsCAutoString
+nsString
 >
 &
 trackList

@@ -110,6 +110,13 @@ nsOSHelperAppService
 .
 h
 "
+#
+include
+"
+nsUnicharUtils
+.
+h
+"
 NS_IMPL_ISUPPORTS_INHERITED1
 (
 nsMIMEInfoWin
@@ -2213,7 +2220,7 @@ nsIMutableArray
 appList
 nsTArray
 <
-nsCAutoString
+nsString
 >
 &
 trackList
@@ -2223,7 +2230,7 @@ nsAString
 appFilesystemCommand
 )
 {
-NS_ConvertUTF16toUTF8
+nsAutoString
 lower
 (
 appFilesystemCommand
@@ -2234,7 +2241,7 @@ ToLowerCase
 lower
 )
 ;
-char
+WCHAR
 exe
 [
 MAX_PATH
@@ -2245,7 +2252,7 @@ MAX_PATH
 PRUint32
 len
 =
-GetModuleFileName
+GetModuleFileNameW
 (
 NULL
 exe
@@ -2329,13 +2336,13 @@ nsAString
 appPath
 nsTArray
 <
-nsCAutoString
+nsString
 >
 &
 trackList
 )
 {
-NS_ConvertUTF16toUTF8
+nsAutoString
 tmp
 (
 appPath
@@ -2435,7 +2442,7 @@ NS_ERROR_FAILURE
 ;
 nsTArray
 <
-nsCAutoString
+nsString
 >
 trackList
 ;
