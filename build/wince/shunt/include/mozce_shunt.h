@@ -489,6 +489,12 @@ mozce_GetEnvironmentCL
 )
 ;
 #
+define
+M_SQRT1_2
+0
+.
+707106781186547524401
+#
 ifdef
 __cplusplus
 }
