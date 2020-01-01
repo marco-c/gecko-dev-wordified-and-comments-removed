@@ -172,7 +172,7 @@ NOTE
 (
 netmonitorUI
 .
-emptyNotice
+emptyNotice2
 )
 :
 This
@@ -196,9 +196,13 @@ empty
 ENTITY
 netmonitorUI
 .
-emptyNotice
+emptyNotice2
 "
-Reload
+Perform
+a
+request
+or
+reload
 the
 page
 to
