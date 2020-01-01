@@ -1536,6 +1536,12 @@ consoleProgressListener
 MONITOR_FILE_ACTIVITY
 )
 ;
+this
+.
+consoleProgressListener
+=
+null
+;
 }
 stoppedListeners
 .
