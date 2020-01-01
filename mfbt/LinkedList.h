@@ -23,6 +23,15 @@ Attributes
 h
 "
 #
+include
+"
+mozilla
+/
+NullPtr
+.
+h
+"
+#
 ifdef
 __cplusplus
 namespace
@@ -354,7 +363,7 @@ if
 isSentinel
 )
 return
-NULL
+nullptr
 ;
 return
 static_cast
@@ -380,7 +389,7 @@ if
 isSentinel
 )
 return
-NULL
+nullptr
 ;
 return
 static_cast

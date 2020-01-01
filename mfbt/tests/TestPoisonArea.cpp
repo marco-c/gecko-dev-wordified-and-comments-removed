@@ -1,4 +1,13 @@
 #
+include
+"
+mozilla
+/
+NullPtr
+.
+h
+"
+#
 define
 __STDC_FORMAT_MACROS
 #
@@ -471,7 +480,7 @@ FORMAT_MESSAGE_ALLOCATE_BUFFER
 FORMAT_MESSAGE_FROM_SYSTEM
 |
 FORMAT_MESSAGE_IGNORE_INSERTS
-NULL
+nullptr
 errcode
 MAKELANGID
 (
@@ -484,7 +493,7 @@ LPSTR
 &
 errmsg
 0
-NULL
+nullptr
 )
 ;
 size_t
