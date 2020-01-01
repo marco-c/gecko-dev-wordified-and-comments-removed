@@ -25528,6 +25528,12 @@ mGeckoChild
 return
 NO
 ;
+nsAutoRetainView
+kungFuDeathGrip
+(
+self
+)
+;
 /
 /
 if
