@@ -52,10 +52,6 @@ Element
 )
 DOMCI_CLASS
 (
-Attr
-)
-DOMCI_CLASS
-(
 Event
 )
 DOMCI_CLASS
