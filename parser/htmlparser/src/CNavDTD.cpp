@@ -6371,6 +6371,11 @@ result
 result
 )
 ;
+IF_HOLD
+(
+aToken
+)
+;
 result
 =
 HandleToken
