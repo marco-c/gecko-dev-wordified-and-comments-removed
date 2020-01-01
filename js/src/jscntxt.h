@@ -924,12 +924,8 @@ js
 gc
 :
 :
-Chunk
-*
-gcEmptyChunkListHead
-;
-size_t
-gcEmptyChunkCount
+ChunkPool
+gcChunkPool
 ;
 js
 :
