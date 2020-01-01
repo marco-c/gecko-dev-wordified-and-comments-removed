@@ -632,6 +632,10 @@ nsIFilePicker
 :
 modeOpen
 )
+mAllowURLs
+(
+PR_FALSE
+)
 mSelectedType
 (
 0
