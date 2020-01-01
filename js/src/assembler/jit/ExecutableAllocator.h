@@ -28,6 +28,13 @@ h
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 jsprvtd
 .
 h
