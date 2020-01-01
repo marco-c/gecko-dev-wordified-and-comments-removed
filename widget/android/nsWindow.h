@@ -964,6 +964,9 @@ nsTextRange
 >
 mIMERanges
 ;
+bool
+mIMEUpdatingContext
+;
 struct
 IMEChange
 {
