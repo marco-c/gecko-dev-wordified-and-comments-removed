@@ -155,7 +155,7 @@ EventloopNestingState
 mEventloopNestingState
 ;
 PRPackedBool
-mRunWasCalled
+mRunning
 ;
 PRPackedBool
 mExiting
