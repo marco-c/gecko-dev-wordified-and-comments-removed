@@ -148,9 +148,11 @@ const
 Float32Array
 &
 aFrequencyHz
+const
 Float32Array
 &
 aMagResponse
+const
 Float32Array
 &
 aPhaseResponse

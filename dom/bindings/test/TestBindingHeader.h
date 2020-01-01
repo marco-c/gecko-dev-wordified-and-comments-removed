@@ -2351,6 +2351,7 @@ int32_t
 void
 PassArrayBuffer
 (
+const
 ArrayBuffer
 &
 )
@@ -2358,8 +2359,12 @@ ArrayBuffer
 void
 PassNullableArrayBuffer
 (
+const
+Nullable
+<
 ArrayBuffer
-*
+>
+&
 )
 ;
 void
@@ -2379,8 +2384,10 @@ PassOptionalNullableArrayBuffer
 const
 Optional
 <
+Nullable
+<
 ArrayBuffer
-*
+>
 >
 &
 )
@@ -2388,13 +2395,18 @@ ArrayBuffer
 void
 PassOptionalNullableArrayBufferWithDefaultValue
 (
+const
+Nullable
+<
 ArrayBuffer
-*
+>
+&
 )
 ;
 void
 PassArrayBufferView
 (
+const
 ArrayBufferView
 &
 )
@@ -2402,6 +2414,7 @@ ArrayBufferView
 void
 PassInt8Array
 (
+const
 Int8Array
 &
 )
@@ -2409,6 +2422,7 @@ Int8Array
 void
 PassInt16Array
 (
+const
 Int16Array
 &
 )
@@ -2416,6 +2430,7 @@ Int16Array
 void
 PassInt32Array
 (
+const
 Int32Array
 &
 )
@@ -2423,6 +2438,7 @@ Int32Array
 void
 PassUint8Array
 (
+const
 Uint8Array
 &
 )
@@ -2430,6 +2446,7 @@ Uint8Array
 void
 PassUint16Array
 (
+const
 Uint16Array
 &
 )
@@ -2437,6 +2454,7 @@ Uint16Array
 void
 PassUint32Array
 (
+const
 Uint32Array
 &
 )
@@ -2444,6 +2462,7 @@ Uint32Array
 void
 PassUint8ClampedArray
 (
+const
 Uint8ClampedArray
 &
 )
@@ -2451,6 +2470,7 @@ Uint8ClampedArray
 void
 PassFloat32Array
 (
+const
 Float32Array
 &
 )
@@ -2458,6 +2478,7 @@ Float32Array
 void
 PassFloat64Array
 (
+const
 Float64Array
 &
 )

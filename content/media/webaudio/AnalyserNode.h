@@ -67,6 +67,7 @@ MOZ_OVERRIDE
 void
 GetFloatFrequencyData
 (
+const
 Float32Array
 &
 aArray
@@ -75,6 +76,7 @@ aArray
 void
 GetByteFrequencyData
 (
+const
 Uint8Array
 &
 aArray
@@ -83,6 +85,7 @@ aArray
 void
 GetByteTimeDomainData
 (
+const
 Uint8Array
 &
 aArray

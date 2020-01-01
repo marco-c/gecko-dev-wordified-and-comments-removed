@@ -561,6 +561,7 @@ aRv
 void
 Send
 (
+const
 ArrayBuffer
 &
 aData
@@ -572,6 +573,7 @@ aRv
 void
 Send
 (
+const
 ArrayBufferView
 &
 aData

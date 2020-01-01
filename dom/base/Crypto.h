@@ -126,6 +126,7 @@ GetRandomValues
 JSContext
 *
 aCx
+const
 ArrayBufferView
 &
 aArray

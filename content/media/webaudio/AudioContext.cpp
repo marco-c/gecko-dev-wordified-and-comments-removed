@@ -761,6 +761,7 @@ CreateBuffer
 JSContext
 *
 aJSContext
+const
 ArrayBuffer
 &
 aBuffer

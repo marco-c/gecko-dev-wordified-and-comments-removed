@@ -619,6 +619,7 @@ aRv
 void
 Send
 (
+const
 ArrayBuffer
 &
 aBody
@@ -642,6 +643,7 @@ aRv
 void
 Send
 (
+const
 ArrayBufferView
 &
 aBody
