@@ -234,7 +234,7 @@ mNode
 ;
 friend
 class
-nsAccEventQueue
+NotificationController
 ;
 }
 ;
@@ -496,7 +496,7 @@ mModifiedText
 ;
 friend
 class
-nsAccEventQueue
+NotificationController
 ;
 }
 ;
@@ -518,8 +518,6 @@ aTarget
 nsINode
 *
 aTargetNode
-EIsFromUserInput
-aIsFromUserInput
 )
 ;
 static
@@ -595,7 +593,7 @@ mTextChangeEvent
 ;
 friend
 class
-nsAccEventQueue
+NotificationController
 ;
 }
 ;
@@ -615,8 +613,6 @@ aTarget
 nsINode
 *
 aTargetNode
-EIsFromUserInput
-aIsFromUserInput
 )
 ;
 static
@@ -672,7 +668,7 @@ mPrevSibling
 ;
 friend
 class
-nsAccEventQueue
+NotificationController
 ;
 }
 ;
@@ -692,8 +688,6 @@ aTarget
 nsINode
 *
 aTargetNode
-EIsFromUserInput
-aIsFromUserInput
 )
 ;
 static
