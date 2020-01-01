@@ -8403,7 +8403,10 @@ NULL
 ;
 outerObject
 =
-JS_TransplantObject
+xpc
+:
+:
+TransplantObject
 (
 cx
 mJSObject
