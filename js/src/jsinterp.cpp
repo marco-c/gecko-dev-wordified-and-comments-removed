@@ -17916,13 +17916,6 @@ OP
 JS_TRUE
 ;
 \
-TRY_BRANCH_AFTER_COND
-(
-cond
-2
-)
-;
-\
 regs
 .
 sp
