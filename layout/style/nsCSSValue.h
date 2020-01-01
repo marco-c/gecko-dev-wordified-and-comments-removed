@@ -927,6 +927,12 @@ mValue
 mColor
 ;
 }
+PRBool
+IsNonTransparentColor
+(
+)
+const
+;
 Array
 *
 GetArrayValue

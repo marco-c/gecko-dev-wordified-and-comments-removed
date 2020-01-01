@@ -6727,11 +6727,6 @@ ruleTypeMask
 const
 {
 return
-UseDocumentColors
-(
-)
-&
-&
 nsRuleNode
 :
 :
@@ -6744,6 +6739,9 @@ GetStyleContext
 (
 )
 ruleTypeMask
+UseDocumentColors
+(
+)
 )
 ;
 }
