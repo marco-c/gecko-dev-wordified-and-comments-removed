@@ -378,7 +378,7 @@ LogMessage
 +
 this
 .
-_date
+time
 +
 "
 "
