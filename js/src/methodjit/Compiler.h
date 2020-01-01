@@ -2767,13 +2767,6 @@ index
 )
 ;
 void
-jsop_getglobal
-(
-uint32
-index
-)
-;
-void
 jsop_getprop_slow
 (
 JSAtom
