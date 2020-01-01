@@ -999,6 +999,8 @@ aRect
 InitMode
 aInit
 GLuint
+aCurrentFrameBuffer
+GLuint
 *
 aFBO
 GLuint

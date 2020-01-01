@@ -359,6 +359,13 @@ GetInputContext
 (
 )
 ;
+virtual
+PRUint32
+GetGLFrameBufferFormat
+(
+)
+MOZ_OVERRIDE
+;
 protected
 :
 nsWindow
