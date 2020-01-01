@@ -1411,10 +1411,13 @@ popCopy
 (
 )
 ;
+DebugOnly
+<
 ion
 :
 :
 ExecutionMode
+>
 executionMode
 =
 ionBuilder

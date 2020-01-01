@@ -30533,10 +30533,8 @@ front
 .
 key
 ;
-TypeObject
-*
-obj
-=
+JS_ASSERT
+(
 e
 .
 front
@@ -30544,10 +30542,6 @@ front
 )
 .
 value
-;
-JS_ASSERT
-(
-obj
 -
 >
 proto

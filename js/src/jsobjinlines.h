@@ -6067,9 +6067,16 @@ pobj
 prop
 )
 )
+{
+*
+foundp
+=
+false
+;
 return
 false
 ;
+}
 *
 foundp
 =

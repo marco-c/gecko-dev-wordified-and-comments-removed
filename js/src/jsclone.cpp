@@ -1002,11 +1002,18 @@ point
 =
 end
 )
+{
+*
+p
+=
+0
+;
 return
 eof
 (
 )
 ;
+}
 *
 p
 =
@@ -1038,8 +1045,6 @@ datap
 {
 uint64_t
 u
-=
-0
 ;
 bool
 ok
