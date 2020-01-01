@@ -273,7 +273,7 @@ isDouble
 )
 )
 {
-double
+jsdouble
 d
 =
 v

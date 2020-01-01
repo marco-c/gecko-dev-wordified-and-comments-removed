@@ -3300,7 +3300,7 @@ cx
 )
 )
 {
-double
+jsdouble
 d
 ;
 if
@@ -3378,7 +3378,7 @@ isNumber
 )
 )
 {
-double
+jsdouble
 d
 ;
 JS_ALWAYS_TRUE

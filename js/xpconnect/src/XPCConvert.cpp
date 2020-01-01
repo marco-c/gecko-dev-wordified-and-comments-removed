@@ -573,7 +573,7 @@ d
 =
 DOUBLE_TO_JSVAL
 (
-double
+jsdouble
 (
 *
 (
@@ -674,7 +674,7 @@ d
 =
 DOUBLE_TO_JSVAL
 (
-double
+jsdouble
 (
 *
 (
@@ -1861,7 +1861,7 @@ ti
 uint32_t
 tu
 ;
-double
+jsdouble
 td
 ;
 JSBool

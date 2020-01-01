@@ -87,7 +87,7 @@ js_NewDateObjectMsec
 JSContext
 *
 cx
-double
+jsdouble
 msec_time
 )
 ;

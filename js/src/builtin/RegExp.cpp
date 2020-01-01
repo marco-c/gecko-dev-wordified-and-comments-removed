@@ -3054,7 +3054,7 @@ getLastIndex
 (
 )
 ;
-double
+jsdouble
 i
 ;
 if

@@ -225,7 +225,7 @@ JSVAL_TYPE_DOUBLE
 return
 true
 ;
-double
+jsdouble
 d
 =
 0
@@ -254,7 +254,7 @@ if
 !
 StringToNumberType
 <
-double
+jsdouble
 >
 (
 cx

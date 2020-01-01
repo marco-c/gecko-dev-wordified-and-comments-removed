@@ -393,7 +393,7 @@ String
 Token
 numberToken
 (
-double
+jsdouble
 d
 )
 {

@@ -1052,7 +1052,7 @@ ReallyBigIndexToId
 JSContext
 *
 cx
-double
+jsdouble
 index
 jsid
 *
@@ -1081,7 +1081,7 @@ cx
 JSObject
 *
 obj
-double
+jsdouble
 index
 JSBool
 *
@@ -1325,7 +1325,7 @@ cx
 JSObject
 *
 obj
-double
+jsdouble
 index
 JSBool
 *
@@ -1907,7 +1907,7 @@ cx
 JSObject
 *
 obj
-double
+jsdouble
 index
 const
 Value
@@ -2142,7 +2142,7 @@ cx
 JSObject
 *
 obj
-double
+jsdouble
 index
 bool
 strict
@@ -2326,7 +2326,7 @@ cx
 JSObject
 *
 obj
-double
+jsdouble
 index
 JSBool
 hole
@@ -2382,7 +2382,7 @@ cx
 JSObject
 *
 obj
-double
+jsdouble
 length
 )
 {
@@ -2556,7 +2556,7 @@ newlen
 return
 false
 ;
-double
+jsdouble
 d
 ;
 if
@@ -9866,7 +9866,7 @@ ag
 return
 false
 ;
-double
+jsdouble
 cmp
 ;
 if
@@ -10776,12 +10776,12 @@ UpdateTypes
 return
 false
 ;
-double
+jsdouble
 newlength
 =
 length
 +
-double
+jsdouble
 (
 args
 .
@@ -12029,7 +12029,7 @@ length
 return
 JS_FALSE
 ;
-double
+jsdouble
 newlen
 =
 length
@@ -12200,12 +12200,12 @@ if
 optimized
 )
 {
-double
+jsdouble
 last
 =
 length
 ;
-double
+jsdouble
 upperIndex
 =
 last
@@ -12659,7 +12659,7 @@ argc
 1
 )
 {
-double
+jsdouble
 deleteCountDouble
 ;
 if
@@ -13233,7 +13233,7 @@ else
 {
 for
 (
-double
+jsdouble
 k
 =
 len
@@ -13249,7 +13249,7 @@ k
 -
 )
 {
-double
+jsdouble
 from
 =
 k
@@ -13258,7 +13258,7 @@ actualDeleteCount
 -
 1
 ;
-double
+jsdouble
 to
 =
 k
@@ -13365,10 +13365,10 @@ return
 false
 ;
 }
-double
+jsdouble
 finalLength
 =
-double
+jsdouble
 (
 len
 )
@@ -14109,7 +14109,7 @@ length
 0
 )
 {
-double
+jsdouble
 d
 ;
 if
@@ -14592,7 +14592,7 @@ UndefinedValue
 }
 else
 {
-double
+jsdouble
 start
 ;
 tosearch
@@ -17277,7 +17277,7 @@ i
 }
 else
 {
-double
+jsdouble
 d
 =
 args
@@ -17301,7 +17301,7 @@ if
 d
 !
 =
-double
+jsdouble
 (
 length
 )

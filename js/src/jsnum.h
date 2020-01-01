@@ -121,7 +121,7 @@ s
 uint64_t
 u64
 ;
-double
+jsdouble
 d
 ;
 }
@@ -132,7 +132,7 @@ inline
 int
 JSDOUBLE_IS_NaN
 (
-double
+jsdouble
 d
 )
 {
@@ -175,7 +175,7 @@ inline
 int
 JSDOUBLE_IS_FINITE
 (
-double
+jsdouble
 d
 )
 {
@@ -206,7 +206,7 @@ inline
 int
 JSDOUBLE_IS_INFINITE
 (
-double
+jsdouble
 d
 )
 {
@@ -238,7 +238,7 @@ inline
 bool
 JSDOUBLE_IS_NEG
 (
-double
+jsdouble
 d
 )
 {
@@ -271,7 +271,7 @@ inline
 uint32_t
 JS_HASH_DOUBLE
 (
-double
+jsdouble
 d
 )
 {
@@ -299,15 +299,15 @@ hi
 ;
 }
 extern
-double
+jsdouble
 js_NaN
 ;
 extern
-double
+jsdouble
 js_PositiveInfinity
 ;
 extern
-double
+jsdouble
 js_NegativeInfinity
 ;
 namespace
@@ -415,7 +415,7 @@ js_NumberToString
 JSContext
 *
 cx
-double
+jsdouble
 d
 )
 ;
@@ -447,7 +447,7 @@ NumberToString
 JSContext
 *
 cx
-double
+jsdouble
 d
 )
 ;
@@ -505,7 +505,7 @@ cx
 ToCStringBuf
 *
 cbuf
-double
+jsdouble
 d
 jsint
 base
@@ -547,7 +547,7 @@ jschar
 *
 *
 endp
-double
+jsdouble
 *
 dp
 )
@@ -988,7 +988,7 @@ inline
 int32_t
 js_DoubleToECMAInt32
 (
-double
+jsdouble
 d
 )
 {
@@ -1769,7 +1769,7 @@ else
 int32_t
 i
 ;
-double
+jsdouble
 two32
 two31
 ;
@@ -1794,7 +1794,7 @@ d
 if
 (
 (
-double
+jsdouble
 )
 i
 =
@@ -1869,7 +1869,7 @@ inline
 uint32_t
 js_DoubleToECMAUint32
 (
-double
+jsdouble
 d
 )
 {
@@ -1885,10 +1885,10 @@ d
 }
 static
 inline
-double
+jsdouble
 js_DoubleToInteger
 (
-double
+jsdouble
 d
 )
 {
@@ -1975,7 +1975,7 @@ jschar
 *
 *
 ep
-double
+jsdouble
 *
 dp
 )
@@ -2162,7 +2162,7 @@ js
 Value
 &
 v
-double
+jsdouble
 *
 dp
 )

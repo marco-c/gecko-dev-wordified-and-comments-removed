@@ -2442,7 +2442,7 @@ inline
 bool
 FloatIsFinite
 (
-double
+jsdouble
 f
 )
 {
@@ -4618,7 +4618,7 @@ struct
 ConvertImpl
 <
 uint64_t
-double
+jsdouble
 >
 {
 static
@@ -4626,7 +4626,7 @@ JS_ALWAYS_INLINE
 uint64_t
 Convert
 (
-double
+jsdouble
 d
 )
 {
@@ -4664,7 +4664,7 @@ struct
 ConvertImpl
 <
 uint64_t
-double
+jsdouble
 >
 {
 static
@@ -4672,7 +4672,7 @@ JS_ALWAYS_INLINE
 uint64_t
 Convert
 (
-double
+jsdouble
 d
 )
 {
@@ -4699,7 +4699,7 @@ struct
 ConvertImpl
 <
 int64_t
-double
+jsdouble
 >
 {
 static
@@ -4707,7 +4707,7 @@ JS_ALWAYS_INLINE
 int64_t
 Convert
 (
-double
+jsdouble
 d
 )
 {
@@ -5261,7 +5261,7 @@ val
 )
 )
 {
-double
+jsdouble
 d
 =
 JSVAL_TO_DOUBLE
@@ -5356,7 +5356,7 @@ val
 )
 )
 {
-double
+jsdouble
 d
 =
 JSVAL_TO_DOUBLE
@@ -6323,7 +6323,7 @@ val
 )
 )
 {
-double
+jsdouble
 d
 =
 JSVAL_TO_DOUBLE
@@ -6481,7 +6481,7 @@ Convert
 size_t
 >
 (
-double
+jsdouble
 (
 *
 result
@@ -6690,7 +6690,7 @@ Convert
 size_t
 >
 (
-double
+jsdouble
 (
 *
 result
@@ -6723,7 +6723,7 @@ Convert
 size_t
 >
 (
-double
+jsdouble
 (
 size
 )
@@ -6750,7 +6750,7 @@ return
 JS_NewNumberValue
 (
 cx
-double
+jsdouble
 (
 size
 )
@@ -6793,7 +6793,7 @@ val
 )
 )
 {
-double
+jsdouble
 d
 =
 JSVAL_TO_DOUBLE
@@ -6973,7 +6973,7 @@ val
 )
 )
 {
-double
+jsdouble
 d
 =
 JSVAL_TO_DOUBLE
@@ -7001,7 +7001,7 @@ d
 ;
 if
 (
-double
+jsdouble
 (
 i
 )
@@ -7036,7 +7036,7 @@ d
 )
 ;
 return
-double
+jsdouble
 (
 *
 result
@@ -7563,7 +7563,7 @@ if
 JS_NewNumberValue
 (
 cx
-double
+jsdouble
 (
 value
 )
@@ -7818,7 +7818,7 @@ if
 JS_NewNumberValue
 (
 cx
-double
+jsdouble
 (
 value
 )
@@ -30857,7 +30857,7 @@ GetInt
 obj
 )
 ;
-double
+jsdouble
 d
 =
 uint32_t
@@ -30994,7 +30994,7 @@ GetInt
 obj
 )
 ;
-double
+jsdouble
 d
 =
 int32_t
@@ -31863,7 +31863,7 @@ GetInt
 obj
 )
 ;
-double
+jsdouble
 d
 =
 uint32_t
@@ -32000,7 +32000,7 @@ GetInt
 obj
 )
 ;
-double
+jsdouble
 d
 =
 uint32_t

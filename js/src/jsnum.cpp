@@ -283,7 +283,7 @@ const
 jschar
 *
 end
-double
+jsdouble
 *
 dp
 )
@@ -752,7 +752,7 @@ bit
 }
 ;
 static
-double
+jsdouble
 ComputeAccurateBinaryBaseInteger
 (
 JSContext
@@ -808,7 +808,7 @@ bit
 1
 )
 ;
-double
+jsdouble
 value
 =
 1
@@ -874,7 +874,7 @@ bit2
 0
 )
 {
-double
+jsdouble
 factor
 =
 2
@@ -961,7 +961,7 @@ jschar
 *
 *
 endp
-double
+jsdouble
 *
 dp
 )
@@ -995,7 +995,7 @@ s
 =
 start
 ;
-double
+jsdouble
 d
 =
 0
@@ -1225,7 +1225,7 @@ return
 JS_TRUE
 ;
 }
-double
+jsdouble
 x
 ;
 if
@@ -1294,7 +1294,7 @@ return
 JS_TRUE
 ;
 }
-double
+jsdouble
 x
 ;
 if
@@ -1347,7 +1347,7 @@ JSString
 *
 str
 ;
-double
+jsdouble
 d
 ;
 const
@@ -1495,7 +1495,7 @@ int
 maybeRadix
 bool
 stripPrefix
-double
+jsdouble
 *
 dp
 )
@@ -2205,7 +2205,7 @@ length
 (
 )
 ;
-double
+jsdouble
 number
 ;
 if
@@ -3097,7 +3097,7 @@ js_NumberToStringWithBase
 JSContext
 *
 cx
-double
+jsdouble
 d
 jsint
 base
@@ -3180,7 +3180,7 @@ isUndefined
 )
 )
 {
-double
+jsdouble
 d2
 ;
 if
@@ -4567,13 +4567,13 @@ MIN_VALUE
 }
 }
 ;
-double
+jsdouble
 js_NaN
 ;
-double
+jsdouble
 js_PositiveInfinity
 ;
-double
+jsdouble
 js_NegativeInfinity
 ;
 #
@@ -5381,7 +5381,7 @@ cx
 ToCStringBuf
 *
 cbuf
-double
+jsdouble
 d
 jsint
 base
@@ -5510,7 +5510,7 @@ cx
 ToCStringBuf
 *
 cbuf
-double
+jsdouble
 d
 jsint
 base
@@ -5555,7 +5555,7 @@ js_NumberToStringWithBase
 JSContext
 *
 cx
-double
+jsdouble
 d
 jsint
 base
@@ -5895,7 +5895,7 @@ js_NumberToString
 JSContext
 *
 cx
-double
+jsdouble
 d
 )
 {
@@ -5918,7 +5918,7 @@ NumberToString
 JSContext
 *
 cx
-double
+jsdouble
 d
 )
 {
@@ -6294,7 +6294,7 @@ isString
 return
 StringToNumberType
 <
-double
+jsdouble
 >
 (
 cx
@@ -6444,7 +6444,7 @@ isInt32
 )
 )
 ;
-double
+jsdouble
 d
 ;
 if
@@ -6519,7 +6519,7 @@ isInt32
 )
 )
 ;
-double
+jsdouble
 d
 ;
 if
@@ -6598,7 +6598,7 @@ isInt32
 )
 )
 ;
-double
+jsdouble
 d
 ;
 if
@@ -6718,7 +6718,7 @@ isInt32
 )
 )
 ;
-double
+jsdouble
 d
 ;
 if
@@ -6791,7 +6791,7 @@ d
 if
 (
 (
-double
+jsdouble
 )
 u
 =
@@ -6900,7 +6900,7 @@ jschar
 *
 *
 ep
-double
+jsdouble
 *
 dp
 )
@@ -6925,7 +6925,7 @@ estr
 JSBool
 negative
 ;
-double
+jsdouble
 d
 ;
 const

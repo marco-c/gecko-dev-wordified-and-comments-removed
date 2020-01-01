@@ -649,12 +649,12 @@ aTypeOffset
 eDate
 )
 {
-double
+jsdouble
 msec
 =
 static_cast
 <
-double
+jsdouble
 >
 (
 DecodeNumber

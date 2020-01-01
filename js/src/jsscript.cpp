@@ -5886,7 +5886,7 @@ Value
 =
 sizeof
 (
-double
+jsdouble
 )
 )
 ;

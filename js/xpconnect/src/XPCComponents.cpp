@@ -5568,7 +5568,7 @@ JS_NewNumberValue
 (
 cx
 (
-double
+jsdouble
 )
 rv
 &
@@ -17186,7 +17186,7 @@ JS_NewNumberValue
 (
 cx
 (
-double
+jsdouble
 )
 res
 vp

@@ -860,7 +860,7 @@ value
 )
 )
 ;
-double
+jsdouble
 num
 ;
 rc

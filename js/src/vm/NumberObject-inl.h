@@ -60,7 +60,7 @@ create
 JSContext
 *
 cx
-double
+jsdouble
 d
 )
 {
@@ -117,7 +117,7 @@ createWithProto
 JSContext
 *
 cx
-double
+jsdouble
 d
 JSObject
 &

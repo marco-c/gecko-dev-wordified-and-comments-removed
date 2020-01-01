@@ -2393,7 +2393,7 @@ JS_XDRDouble
 JSXDRState
 *
 xdr
-double
+jsdouble
 *
 dp
 )

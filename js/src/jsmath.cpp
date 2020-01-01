@@ -398,7 +398,7 @@ Value
 vp
 )
 {
-double
+jsdouble
 x
 z
 ;
@@ -472,7 +472,7 @@ Value
 vp
 )
 {
-double
+jsdouble
 x
 z
 ;
@@ -606,7 +606,7 @@ Value
 vp
 )
 {
-double
+jsdouble
 x
 z
 ;
@@ -740,7 +740,7 @@ Value
 vp
 )
 {
-double
+jsdouble
 x
 z
 ;
@@ -823,13 +823,13 @@ JS_TRUE
 }
 static
 inline
-double
+jsdouble
 JS_FASTCALL
 math_atan2_kernel
 (
-double
+jsdouble
 x
-double
+jsdouble
 y
 )
 {
@@ -853,7 +853,7 @@ y
 )
 )
 {
-double
+jsdouble
 z
 =
 js_copysign
@@ -950,7 +950,7 @@ Value
 vp
 )
 {
-double
+jsdouble
 x
 y
 z
@@ -1025,10 +1025,10 @@ return
 JS_TRUE
 ;
 }
-double
+jsdouble
 js_math_ceil_impl
 (
-double
+jsdouble
 x
 )
 {
@@ -1079,7 +1079,7 @@ Value
 vp
 )
 {
-double
+jsdouble
 x
 z
 ;
@@ -1153,7 +1153,7 @@ Value
 vp
 )
 {
-double
+jsdouble
 x
 z
 ;
@@ -1300,7 +1300,7 @@ Value
 vp
 )
 {
-double
+jsdouble
 x
 z
 ;
@@ -1381,10 +1381,10 @@ return
 JS_TRUE
 ;
 }
-double
+jsdouble
 js_math_floor_impl
 (
-double
+jsdouble
 x
 )
 {
@@ -1408,7 +1408,7 @@ Value
 vp
 )
 {
-double
+jsdouble
 x
 z
 ;
@@ -1482,7 +1482,7 @@ Value
 vp
 )
 {
-double
+jsdouble
 x
 z
 ;
@@ -1609,7 +1609,7 @@ Value
 vp
 )
 {
-double
+jsdouble
 x
 z
 =
@@ -1774,7 +1774,7 @@ Value
 vp
 )
 {
-double
+jsdouble
 x
 z
 =
@@ -1927,10 +1927,10 @@ JS_TRUE
 ;
 }
 static
-double
+jsdouble
 powi
 (
-double
+jsdouble
 x
 jsint
 y
@@ -1950,12 +1950,12 @@ y
 :
 y
 ;
-double
+jsdouble
 m
 =
 x
 ;
-double
+jsdouble
 p
 =
 1
@@ -2002,7 +2002,7 @@ y
 0
 )
 {
-double
+jsdouble
 result
 =
 1
@@ -2030,7 +2030,7 @@ pow
 x
 static_cast
 <
-double
+jsdouble
 >
 (
 y
@@ -2064,7 +2064,7 @@ Value
 vp
 )
 {
-double
+jsdouble
 x
 y
 z
@@ -2328,10 +2328,10 @@ RNG_MASK
 ;
 static
 const
-double
+jsdouble
 RNG_DSCALE
 =
-double
+jsdouble
 (
 1LL
 <
@@ -2449,7 +2449,7 @@ bits
 }
 static
 inline
-double
+jsdouble
 random_nextDouble
 (
 JSContext
@@ -2458,7 +2458,7 @@ cx
 )
 {
 return
-double
+jsdouble
 (
 (
 random_next
@@ -2503,7 +2503,7 @@ Value
 vp
 )
 {
-double
+jsdouble
 z
 =
 random_nextDouble
@@ -2779,7 +2779,7 @@ Value
 vp
 )
 {
-double
+jsdouble
 x
 z
 ;
@@ -2873,7 +2873,7 @@ Value
 vp
 )
 {
-double
+jsdouble
 x
 z
 ;
@@ -2968,7 +2968,7 @@ Value
 vp
 )
 {
-double
+jsdouble
 x
 z
 ;
