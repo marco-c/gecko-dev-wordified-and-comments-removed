@@ -1,9 +1,9 @@
 #
 ifndef
-nsMathMLmfencedFrame_h___
+nsMathMLmfencedFrame_h
 #
 define
-nsMathMLmfencedFrame_h___
+nsMathMLmfencedFrame_h
 #
 include
 "
@@ -255,7 +255,7 @@ RemoveFencesAndSeparators
 (
 )
 ;
-nsresult
+void
 CreateFencesAndSeparators
 (
 nsPresContext
