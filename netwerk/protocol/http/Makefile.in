@@ -657,10 +657,6 @@ SpdyStream
 .
 cpp
 \
-NullHttpTransaction
-.
-cpp
-\
 (
 NULL
 )

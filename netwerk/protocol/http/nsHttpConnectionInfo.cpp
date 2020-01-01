@@ -214,6 +214,14 @@ mProxyInfo
 mUsingSSL
 )
 ;
+if
+(
+!
+clone
+)
+return
+nsnull
+;
 clone
 -
 >
