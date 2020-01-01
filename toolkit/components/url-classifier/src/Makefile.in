@@ -51,11 +51,15 @@ FORCE_STATIC_LIB
 1
 REQUIRES
 =
+docshell
+\
 necko
 \
 storage
 \
 string
+\
+uriloader
 \
 xpcom
 \

@@ -610,6 +610,10 @@ nsIWebPageDescriptor
 .
 idl
 \
+nsIURIClassifier
+.
+idl
+\
 (
 NULL
 )
