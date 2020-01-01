@@ -53,7 +53,7 @@ window
 .
 arguments
 [
-6
+7
 ]
 .
 QueryInterface
@@ -71,7 +71,7 @@ window
 .
 arguments
 [
-7
+8
 ]
 .
 QueryInterface
@@ -89,7 +89,7 @@ window
 .
 arguments
 [
-8
+9
 ]
 ;
 if
@@ -282,6 +282,19 @@ arguments
 ;
 checkbox
 .
+desc
+.
+accessKey
+=
+window
+.
+arguments
+[
+5
+]
+;
+checkbox
+.
 text
 .
 textContent
@@ -290,7 +303,7 @@ window
 .
 arguments
 [
-5
+6
 ]
 ;
 if
