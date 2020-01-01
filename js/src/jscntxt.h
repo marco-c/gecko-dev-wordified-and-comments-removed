@@ -2403,17 +2403,6 @@ JSDHashTable
 *
 resolvingTable
 ;
-#
-if
-JS_HAS_LVALUE_RETURN
-jsval
-rval2
-;
-JSPackedBool
-rval2set
-;
-#
-endif
 JSPackedBool
 generatingError
 ;
