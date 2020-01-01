@@ -150,6 +150,9 @@ _retval
 PLArenaPool
 *
 aArena
+PRBool
+*
+aDirty
 )
 ;
 NS_METHOD
@@ -161,6 +164,9 @@ char
 aEntryName
 PRBool
 aDontPersist
+PRBool
+*
+aDirty
 )
 ;
 void
@@ -321,6 +327,16 @@ PRBool
 aSuppress
 )
 ;
+inline
+PRBool
+IsDirty
+(
+)
+{
+return
+mDirty
+;
+}
 nsCategoryManager
 (
 )
@@ -332,6 +348,10 @@ nsCategoryManager
 "
 )
 mSuppressNotifications
+(
+PR_FALSE
+)
+mDirty
 (
 PR_FALSE
 )
@@ -400,6 +420,9 @@ mLock
 ;
 PRBool
 mSuppressNotifications
+;
+PRBool
+mDirty
 ;
 }
 ;

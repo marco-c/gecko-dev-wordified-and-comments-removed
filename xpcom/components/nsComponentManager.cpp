@@ -2779,6 +2779,14 @@ Shutdown
 if
 (
 mRegistryDirty
+|
+|
+mCategoryManager
+-
+>
+IsDirty
+(
+)
 )
 {
 nsresult
