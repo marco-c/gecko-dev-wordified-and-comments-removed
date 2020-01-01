@@ -164,15 +164,12 @@ aDoReg
 )
 ;
 static
-nsresult
-GetScreenHeight
+nsRect
+GetUsableScreenRect
 (
 nsPresContext
 *
 aPresContext
-nscoord
-&
-aHeight
 )
 ;
 protected
