@@ -225,7 +225,7 @@ OnStartRequest
 (
 nsresult
 statusCode
-int32_t
+int64_t
 contentLength
 int32_t
 source

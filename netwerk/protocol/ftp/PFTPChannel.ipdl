@@ -208,7 +208,7 @@ child
 :
 OnStartRequest
 (
-int32_t
+int64_t
 aContentLength
 nsCString
 aContentType

@@ -322,7 +322,7 @@ mState
 ;
 protected
 :
-int32_t
+int64_t
 mBytesRead
 ;
 }

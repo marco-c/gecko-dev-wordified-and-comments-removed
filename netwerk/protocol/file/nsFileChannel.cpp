@@ -1395,10 +1395,9 @@ stream
 =
 uploadStream
 ;
-SetContentLength64
-(
+mContentLength
+=
 0
-)
 ;
 if
 (
@@ -1447,9 +1446,7 @@ true
 ;
 if
 (
-ContentLength64
-(
-)
+mContentLength
 <
 0
 )
@@ -1478,10 +1475,9 @@ rv
 return
 rv
 ;
-SetContentLength64
-(
+mContentLength
+=
 size
-)
 ;
 }
 if

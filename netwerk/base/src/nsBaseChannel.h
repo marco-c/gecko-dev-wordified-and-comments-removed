@@ -694,9 +694,6 @@ mOpenRedirectChannel
 uint32_t
 mRedirectFlags
 ;
-int64_t
-mContentLength
-;
 protected
 :
 nsCOMPtr
@@ -740,6 +737,9 @@ nsAutoPtr
 nsString
 >
 mContentDispositionFilename
+;
+int64_t
+mContentLength
 ;
 friend
 class

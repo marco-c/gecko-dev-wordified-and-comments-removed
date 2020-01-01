@@ -206,7 +206,7 @@ bool
 RecvOnStartRequest
 (
 const
-int32_t
+int64_t
 &
 aContentLength
 const
@@ -276,7 +276,7 @@ void
 DoOnStartRequest
 (
 const
-int32_t
+int64_t
 &
 aContentLength
 const
