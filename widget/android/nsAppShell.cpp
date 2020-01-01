@@ -2157,10 +2157,6 @@ coordinates
 "
 )
 ;
-if
-(
-domWindow
-)
 bridge
 -
 >
