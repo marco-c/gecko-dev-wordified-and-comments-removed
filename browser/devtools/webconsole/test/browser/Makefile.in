@@ -864,6 +864,10 @@ browser_webconsole_bug_659907_console_dir
 .
 js
 \
+browser_webconsole_bug_678816
+.
+js
+\
 head
 .
 js
@@ -1569,6 +1573,16 @@ file
 location
 .
 html
+\
+test
+-
+bug
+-
+678816
+-
+content
+.
+js
 \
 test
 -

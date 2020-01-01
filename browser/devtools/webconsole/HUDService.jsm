@@ -9683,6 +9683,15 @@ top
 document
 )
 ;
+if
+(
+!
+_browser
+)
+{
+return
+;
+}
 let
 nBox
 =
