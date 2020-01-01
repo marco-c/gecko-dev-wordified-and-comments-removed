@@ -40,6 +40,8 @@ onSuccess
 nsICameraErrorCallback
 *
 onError
+uint64_t
+aWindowId
 )
 ;
 const
@@ -252,6 +254,8 @@ onSuccess
 nsICameraErrorCallback
 *
 onError
+uint64_t
+aWindowId
 )
 {
 }
@@ -274,12 +278,15 @@ onSuccess
 nsICameraErrorCallback
 *
 onError
+uint64_t
+aWindowId
 )
 :
 CameraControlImpl
 (
 aCameraId
 aCameraThread
+aWindowId
 )
 {
 }
