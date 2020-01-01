@@ -299,6 +299,14 @@ test_bug772288
 .
 html
 \
+test_bug781476
+.
+html
+\
+file_bug781476
+.
+html
+\
 file_nodelists
 .
 html
