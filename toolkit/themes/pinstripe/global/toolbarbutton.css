@@ -101,6 +101,14 @@ rgba
 ;
 }
 toolbarbutton
+[
+open
+=
+"
+true
+"
+]
+toolbarbutton
 :
 not
 (
@@ -572,6 +580,12 @@ orient
 :
 vertical
 ;
+text
+-
+shadow
+:
+inherit
+;
 }
 .
 toolbarbutton
@@ -592,8 +606,6 @@ important
 border
 :
 none
-!
-important
 ;
 background
 -
