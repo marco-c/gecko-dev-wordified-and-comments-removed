@@ -202,6 +202,9 @@ toggle
 (
 DOMString
 token
+optional
+boolean
+force
 )
 ;
 stringifier
