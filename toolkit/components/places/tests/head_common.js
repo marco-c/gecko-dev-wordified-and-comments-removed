@@ -1764,7 +1764,12 @@ Ci
 nsIFile
 .
 DIRECTORY_TYPE
-0777
+parseInt
+(
+"
+0755
+"
+)
 )
 ;
 do_check_true
