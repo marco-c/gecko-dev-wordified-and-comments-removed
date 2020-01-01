@@ -3098,7 +3098,15 @@ optionName
 !
 =
 "
-jit
+methodjit
+"
+&
+&
+optionName
+!
+=
+"
+tracejit
 "
 )
 {
