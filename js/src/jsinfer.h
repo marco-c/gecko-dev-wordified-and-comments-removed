@@ -1169,9 +1169,6 @@ isDenseArray
 bool
 isPackedArray
 ;
-bool
-possiblePackedArray
-;
 TypeObject
 (
 )
