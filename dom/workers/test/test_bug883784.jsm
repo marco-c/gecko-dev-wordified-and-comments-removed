@@ -29,7 +29,7 @@ new
 ChromeWorker
 (
 "
-url_worker
+jsm_url_worker
 .
 js
 "
@@ -247,7 +247,7 @@ worker
 .
 postMessage
 (
-true
+0
 )
 ;
 }

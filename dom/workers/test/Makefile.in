@@ -613,7 +613,7 @@ test_bug883784
 .
 jsm
 \
-url_worker
+jsm_url_worker
 .
 js
 \
