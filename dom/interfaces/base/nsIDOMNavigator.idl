@@ -105,15 +105,15 @@ nsIIdleObserver
 scriptable
 uuid
 (
-c148ed5a
+b0ccf251
 -
-31c1
+d793
 -
-4a21
+48a1
 -
-a13b
+94aa
 -
-341f592579ff
+cf840fe6639d
 )
 ]
 interface
@@ -263,7 +263,7 @@ nothing
 .
 *
 *
-mozVibrate
+vibrate
 takes
 one
 argument
@@ -274,8 +274,8 @@ how
 long
 to
 vibrate
-*
 for
+*
 or
 gives
 a
@@ -326,7 +326,7 @@ handle
 the
 argument
 to
-mozVibrate
+vibrate
 as
 follows
 .
@@ -619,7 +619,7 @@ large
 implicit_jscontext
 ]
 void
-mozVibrate
+vibrate
 (
 in
 jsval
