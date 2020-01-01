@@ -944,6 +944,14 @@ aIsInsert
 )
 ;
 void
+CacheChildrenInSubtree
+(
+nsAccessible
+*
+aRoot
+)
+;
+void
 UncacheChildrenInSubtree
 (
 nsAccessible
