@@ -200,8 +200,11 @@ addTab
 content
 .
 location
-=
+.
+assign
+(
 aURL
+)
 ;
 tab
 =

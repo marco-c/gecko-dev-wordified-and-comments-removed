@@ -145,8 +145,11 @@ i
 contentWindow
 .
 location
-=
+.
+assign
+(
 url
+)
 ;
 }
 function
