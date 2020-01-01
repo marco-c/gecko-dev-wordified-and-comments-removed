@@ -8,7 +8,11 @@ h
 #
 include
 "
-nsDOMAttribute
+mozilla
+/
+dom
+/
+Attr
 .
 h
 "
@@ -83,6 +87,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+dom
+;
 nsDOMAttributeMap
 :
 :
@@ -115,7 +126,7 @@ KeyType
 aKey
 nsRefPtr
 <
-nsDOMAttribute
+Attr
 >
 &
 aData
@@ -196,7 +207,7 @@ KeyType
 aKey
 nsRefPtr
 <
-nsDOMAttribute
+Attr
 >
 &
 aData
@@ -305,7 +316,7 @@ KeyType
 aKey
 nsRefPtr
 <
-nsDOMAttribute
+Attr
 >
 &
 aData
@@ -402,7 +413,7 @@ aNamespaceID
 aLocalName
 )
 ;
-nsDOMAttribute
+Attr
 *
 node
 =
@@ -437,7 +448,7 @@ attr
 }
 already_AddRefed
 <
-nsDOMAttribute
+Attr
 >
 nsDOMAttributeMap
 :
@@ -485,7 +496,7 @@ NameAtom
 ;
 nsRefPtr
 <
-nsDOMAttribute
+Attr
 >
 node
 ;
@@ -538,7 +549,7 @@ aNodeInfo
 node
 =
 new
-nsDOMAttribute
+Attr
 (
 nullptr
 ni
@@ -577,7 +588,7 @@ forget
 )
 ;
 }
-nsDOMAttribute
+Attr
 *
 nsDOMAttributeMap
 :
@@ -625,7 +636,7 @@ NameAtom
 )
 )
 ;
-nsDOMAttribute
+Attr
 *
 node
 =
@@ -652,12 +663,12 @@ aNodeInfo
 ;
 nsRefPtr
 <
-nsDOMAttribute
+Attr
 >
 newAttr
 =
 new
-nsDOMAttribute
+Attr
 (
 this
 ni
@@ -688,7 +699,7 @@ return
 node
 ;
 }
-nsDOMAttribute
+Attr
 *
 nsDOMAttributeMap
 :
@@ -856,7 +867,7 @@ ErrorCode
 }
 already_AddRefed
 <
-nsDOMAttribute
+Attr
 >
 nsDOMAttributeMap
 :
@@ -907,13 +918,13 @@ return
 nullptr
 ;
 }
-nsDOMAttribute
+Attr
 *
 attribute
 =
 static_cast
 <
-nsDOMAttribute
+Attr
 *
 >
 (
@@ -1087,7 +1098,7 @@ ni
 ;
 nsRefPtr
 <
-nsDOMAttribute
+Attr
 >
 attr
 ;
@@ -1465,7 +1476,7 @@ return
 rv
 ;
 }
-nsDOMAttribute
+Attr
 *
 nsDOMAttributeMap
 :
@@ -1484,7 +1495,7 @@ aResult
 =
 NS_OK
 ;
-nsDOMAttribute
+Attr
 *
 node
 =
@@ -1709,7 +1720,7 @@ ErrorCode
 )
 ;
 }
-nsDOMAttribute
+Attr
 *
 nsDOMAttributeMap
 :
@@ -2054,7 +2065,7 @@ NS_ERROR_DOM_NOT_FOUND_ERR
 }
 nsRefPtr
 <
-nsDOMAttribute
+Attr
 >
 attr
 =
@@ -2159,7 +2170,7 @@ aKey
 const
 nsRefPtr
 <
-nsDOMAttribute
+Attr
 >
 &
 aValue

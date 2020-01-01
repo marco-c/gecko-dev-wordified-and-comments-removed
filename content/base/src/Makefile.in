@@ -198,6 +198,10 @@ EXPORTS_mozilla
 dom
 =
 \
+Attr
+.
+h
+\
 Comment
 .
 h
@@ -328,7 +332,7 @@ nsDataDocumentContentPolicy
 .
 cpp
 \
-nsDOMAttribute
+Attr
 .
 cpp
 \

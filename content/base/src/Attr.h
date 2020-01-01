@@ -1,9 +1,9 @@
 #
 ifndef
-nsDOMAttribute_h___
+mozilla_dom_Attr_h
 #
 define
-nsDOMAttribute_h___
+mozilla_dom_Attr_h
 #
 include
 "
@@ -74,8 +74,14 @@ nsStubMutationObserver
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+dom
+{
 class
-nsDOMAttribute
+Attr
 :
 public
 nsIAttribute
@@ -84,7 +90,7 @@ nsIDOMAttr
 {
 public
 :
-nsDOMAttribute
+Attr
 (
 nsDOMAttributeMap
 *
@@ -104,7 +110,7 @@ aNsAware
 ;
 virtual
 ~
-nsDOMAttribute
+Attr
 (
 )
 {
@@ -317,7 +323,7 @@ Shutdown
 ;
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 (
-nsDOMAttribute
+Attr
 nsIAttribute
 )
 virtual
@@ -407,5 +413,7 @@ mValue
 ;
 }
 ;
+}
+}
 #
 endif
