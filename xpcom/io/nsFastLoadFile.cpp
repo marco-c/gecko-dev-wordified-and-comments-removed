@@ -2710,7 +2710,11 @@ rv
 #
 define
 MFL_CHECKSUM_BUFSIZE
+(
+6
+*
 8192
+)
 NS_IMETHODIMP
 nsFastLoadFileReader
 :
