@@ -231,11 +231,6 @@ const
 uint32_t
 numSlices
 ;
-Allocator
-*
-const
-allocator
-;
 ParallelBailoutRecord
 *
 const
@@ -260,7 +255,7 @@ uint32_t
 numSlices
 Allocator
 *
-arenaLists
+allocator
 ForkJoinShared
 *
 shared

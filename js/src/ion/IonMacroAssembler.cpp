@@ -3078,13 +3078,11 @@ loadPtr
 Address
 (
 threadContextReg
-offsetof
+ThreadSafeContext
+:
+:
+offsetOfAllocator
 (
-js
-:
-:
-ForkJoinSlice
-allocator
 )
 )
 tempReg1

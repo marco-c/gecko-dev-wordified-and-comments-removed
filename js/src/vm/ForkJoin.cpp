@@ -6492,10 +6492,6 @@ numSlices
 (
 numSlices
 )
-allocator
-(
-allocator
-)
 bailoutRecord
 (
 bailoutRecord
@@ -6513,6 +6509,10 @@ shared
 zone
 (
 )
+;
+allocator_
+=
+allocator
 ;
 }
 bool
