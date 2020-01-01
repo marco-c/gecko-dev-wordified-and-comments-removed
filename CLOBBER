@@ -151,10 +151,8 @@ o
 /
 #
 Bug
-820170
-requires
-a
-clobber
-on
+855350
+broke
 Windows
+builds
 .
