@@ -91,6 +91,10 @@ ArchiveRequest
 .
 webidl
 \
+Attr
+.
+webidl
+\
 AudioBuffer
 .
 webidl
@@ -119,7 +123,7 @@ AudioParam
 .
 webidl
 \
-Attr
+AudioProcessingEvent
 .
 webidl
 \
@@ -768,6 +772,10 @@ RTCConfiguration
 webidl
 \
 Screen
+.
+webidl
+\
+ScriptProcessorNode
 .
 webidl
 \

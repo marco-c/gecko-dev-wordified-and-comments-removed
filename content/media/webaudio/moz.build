@@ -188,6 +188,11 @@ AudioParam
 h
 '
 '
+AudioProcessingEvent
+.
+h
+'
+'
 BiquadFilterNode
 .
 h
@@ -214,6 +219,11 @@ h
 '
 '
 PannerNode
+.
+h
+'
+'
+ScriptProcessorNode
 .
 h
 '

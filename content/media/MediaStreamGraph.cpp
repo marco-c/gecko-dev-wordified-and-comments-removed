@@ -10698,6 +10698,8 @@ AudioNodeEngine
 aEngine
 AudioNodeStreamKind
 aKind
+uint32_t
+aNumberOfInputChannels
 )
 {
 AudioNodeStream
@@ -10709,6 +10711,7 @@ AudioNodeStream
 (
 aEngine
 aKind
+aNumberOfInputChannels
 )
 ;
 NS_ADDREF

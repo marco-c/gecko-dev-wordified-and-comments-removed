@@ -101,6 +101,10 @@ MediaStreamGraph
 :
 AudioNodeStreamKind
 aKind
+uint32_t
+aNumberOfInputChannels
+=
+0
 )
 :
 ProcessedMediaStream
@@ -114,6 +118,10 @@ aEngine
 mKind
 (
 aKind
+)
+mNumberOfInputChannels
+(
+aNumberOfInputChannels
 )
 {
 mHasCurrentData
@@ -292,6 +300,9 @@ MediaStreamGraph
 :
 AudioNodeStreamKind
 mKind
+;
+uint32_t
+mNumberOfInputChannels
 ;
 }
 ;

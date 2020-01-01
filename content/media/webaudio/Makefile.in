@@ -133,6 +133,10 @@ AudioParam
 .
 cpp
 \
+AudioProcessingEvent
+.
+cpp
+\
 BiquadFilterNode
 .
 cpp
@@ -158,6 +162,10 @@ MediaBufferDecoder
 cpp
 \
 PannerNode
+.
+cpp
+\
+ScriptProcessorNode
 .
 cpp
 \

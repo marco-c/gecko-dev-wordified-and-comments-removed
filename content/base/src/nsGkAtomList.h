@@ -4447,6 +4447,13 @@ onAppCommand
 )
 GK_ATOM
 (
+onaudioprocess
+"
+onaudioprocess
+"
+)
+GK_ATOM
+(
 onbeforecopy
 "
 onbeforecopy
