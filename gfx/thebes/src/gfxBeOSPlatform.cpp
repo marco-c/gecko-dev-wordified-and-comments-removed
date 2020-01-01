@@ -83,7 +83,7 @@ sFontconfigUtils
 =
 nsnull
 ;
-gfxPangoFont
+gfxPangoFontGroup
 :
 :
 Shutdown
