@@ -299,13 +299,7 @@ __cplusplus
 &
 defined
 (
-_MSC_VER
-)
-&
-&
-defined
-(
-_M_X64
+MOZ_HAVE_CXX11_ENUM_TYPE
 )
 :
 uint32_t
