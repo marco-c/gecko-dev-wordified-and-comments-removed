@@ -326,10 +326,9 @@ delete_
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 wrapper
-jsid
+HandleId
 id
 bool
 *
@@ -844,10 +843,9 @@ delete_
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 wrapper
-jsid
+HandleId
 id
 bool
 *

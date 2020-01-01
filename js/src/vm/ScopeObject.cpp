@@ -7724,10 +7724,9 @@ delete_
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 proxy
-jsid
+HandleId
 id
 bool
 *
