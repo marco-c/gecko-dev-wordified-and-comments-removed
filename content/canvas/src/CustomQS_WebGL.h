@@ -706,7 +706,8 @@ JS_FALSE
 ;
 if
 (
-JSVAL_IS_PRIMITIVE
+!
+JSVAL_IS_OBJECT
 (
 argv
 [
