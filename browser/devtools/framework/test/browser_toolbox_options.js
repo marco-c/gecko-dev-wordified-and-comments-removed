@@ -657,8 +657,9 @@ tool
 )
 ;
 }
-toggleTools
+executeSoon
 (
+toggleTools
 )
 ;
 }
@@ -822,8 +823,9 @@ index
 +
 +
 ;
-toggleTools
+executeSoon
 (
+toggleTools
 )
 ;
 return
@@ -921,8 +923,9 @@ index
 +
 +
 ;
-toggleTools
+executeSoon
 (
+toggleTools
 )
 ;
 return
