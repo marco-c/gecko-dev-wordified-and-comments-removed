@@ -47,6 +47,13 @@ nsLiteralString
 .
 h
 "
+#
+include
+"
+nsComponentManagerUtils
+.
+h
+"
 nsImageToClipboard
 :
 :
