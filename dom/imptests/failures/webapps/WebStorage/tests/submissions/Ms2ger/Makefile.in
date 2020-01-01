@@ -58,6 +58,12 @@ html
 .
 json
 \
+test_storage_local_builtins
+.
+html
+.
+json
+\
 test_storage_local_in_js
 .
 html
@@ -65,6 +71,12 @@ html
 json
 \
 test_storage_local_removeitem_js
+.
+html
+.
+json
+\
+test_storage_session_builtins
 .
 html
 .

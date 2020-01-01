@@ -1303,6 +1303,13 @@ true
 "
 Document
 interface
+constructor
+"
+:
+true
+"
+Document
+interface
 :
 existence
 and
