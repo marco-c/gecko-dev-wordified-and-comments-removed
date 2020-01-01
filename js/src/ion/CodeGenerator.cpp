@@ -177,6 +177,16 @@ output
 )
 )
 ;
+Register
+tag
+=
+masm
+.
+splitTagForTest
+(
+operand
+)
+;
 Label
 done
 simple
@@ -192,7 +202,7 @@ Assembler
 :
 :
 Equal
-operand
+tag
 &
 isInt32
 )
@@ -205,7 +215,7 @@ Assembler
 :
 :
 Equal
-operand
+tag
 &
 isBool
 )
@@ -218,7 +228,7 @@ Assembler
 :
 :
 NotEqual
-operand
+tag
 &
 notDouble
 )
@@ -357,7 +367,7 @@ Assembler
 :
 :
 NotEqual
-operand
+tag
 &
 fails
 )
@@ -373,7 +383,7 @@ Assembler
 :
 :
 Equal
-operand
+tag
 &
 fails
 )
@@ -386,7 +396,7 @@ Assembler
 :
 :
 Equal
-operand
+tag
 &
 fails
 )
@@ -533,6 +543,16 @@ output
 )
 )
 ;
+Register
+tag
+=
+masm
+.
+splitTagForTest
+(
+operand
+)
+;
 Label
 isDouble
 isInt32
@@ -548,7 +568,7 @@ Assembler
 :
 :
 Equal
-operand
+tag
 &
 isDouble
 )
@@ -561,7 +581,7 @@ Assembler
 :
 :
 Equal
-operand
+tag
 &
 isInt32
 )
@@ -574,7 +594,7 @@ Assembler
 :
 :
 Equal
-operand
+tag
 &
 isBool
 )
@@ -587,7 +607,7 @@ Assembler
 :
 :
 Equal
-operand
+tag
 &
 isNull
 )
@@ -606,7 +626,7 @@ Assembler
 :
 :
 NotEqual
-operand
+tag
 )
 ;
 if
