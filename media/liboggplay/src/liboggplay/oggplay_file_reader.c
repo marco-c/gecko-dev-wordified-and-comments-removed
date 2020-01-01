@@ -100,8 +100,8 @@ me
 -
 >
 file
-0L
 SEEK_END
+0
 )
 ;
 me
@@ -123,8 +123,8 @@ me
 -
 >
 file
-0L
 SEEK_SET
+0
 )
 ;
 me
@@ -448,15 +448,6 @@ me
 functions
 .
 seek
-=
-NULL
-;
-me
--
->
-functions
-.
-duration
 =
 NULL
 ;

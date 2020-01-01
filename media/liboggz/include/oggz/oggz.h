@@ -162,15 +162,6 @@ OGGZ
 oggz
 )
 ;
-const
-char
-*
-oggz_content_type
-(
-OggzStreamContent
-content
-)
-;
 #
 include
 <
