@@ -452,10 +452,6 @@ test_bug361111
 .
 xul
 \
-test_bug384632
-.
-html
-\
 test_bug390488
 .
 html
