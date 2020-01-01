@@ -1920,6 +1920,8 @@ iphlpapi
 uxtheme
 setupapi
 secur32
+sensorsapi
+portabledeviceguids
 )
 ifdef
 MOZ_CRASHREPORTER

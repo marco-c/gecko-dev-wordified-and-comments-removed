@@ -648,7 +648,7 @@ WindowsBattery
 .
 cpp
 \
-FallbackSensor
+WindowsSensor
 .
 cpp
 \
