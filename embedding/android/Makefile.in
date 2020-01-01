@@ -1131,6 +1131,7 @@ drawable
 desktop_notification
 .
 png
+\
 embedding
 /
 android
@@ -1142,6 +1143,7 @@ drawable
 favicon
 .
 png
+\
 embedding
 /
 android
@@ -1153,9 +1155,19 @@ drawable
 reload
 .
 png
-MOZ_ANDROID_DRAWABLES
-+
-=
+\
+embedding
+/
+android
+/
+resources
+/
+drawable
+/
+quit
+.
+png
+\
 embedding
 /
 android
@@ -1169,6 +1181,7 @@ address_bar_button_left
 9
 .
 png
+\
 embedding
 /
 android
@@ -1182,9 +1195,7 @@ address_bar_button_right
 9
 .
 png
-MOZ_ANDROID_DRAWABLES
-+
-=
+\
 embedding
 /
 android
@@ -1198,6 +1209,7 @@ address_bar_button_middle
 9
 .
 png
+\
 embedding
 /
 android
@@ -1211,6 +1223,10 @@ address_bar_bg
 9
 .
 png
+\
+(
+NULL
+)
 MOZ_ANDROID_DRAWABLES
 +
 =
