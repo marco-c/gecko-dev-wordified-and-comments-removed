@@ -1164,5 +1164,13 @@ GetData
 (
 )
 ;
+[
+implicit_jscontext
+]
+jsval
+getInfo
+(
+)
+;
 }
 ;

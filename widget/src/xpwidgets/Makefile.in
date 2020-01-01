@@ -420,6 +420,16 @@ xpwidgets_s
 LIBXUL_LIBRARY
 =
 1
+EXPORTS
+=
+\
+GfxInfoCollector
+.
+h
+\
+(
+NULL
+)
 DEFINES
 +
 =
