@@ -2581,6 +2581,10 @@ Shutdown
 (
 )
 {
+gGlobalContext
+=
+nsnull
+;
 }
 }
 /
