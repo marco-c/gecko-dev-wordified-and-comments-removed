@@ -449,6 +449,8 @@ FireShowHideEvents
 nsIDOMNode
 *
 aDOMNode
+PRBool
+aAvoidOnThisNode
 PRUint32
 aEventType
 PRBool
@@ -505,6 +507,11 @@ mIsAnchorJumped
 static
 PRUint32
 gLastFocusedAccessiblesState
+;
+static
+nsIAtom
+*
+gLastFocusedFrameType
 ;
 private
 :
