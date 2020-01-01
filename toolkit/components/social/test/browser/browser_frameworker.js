@@ -44,6 +44,10 @@ test
 (
 )
 {
+waitForExplicitFinish
+(
+)
+;
 let
 scope
 =
