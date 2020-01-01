@@ -1053,6 +1053,8 @@ size_t
 &
 nBytes
 )
+size_t
+byteLimit
 )
 {
 if
@@ -1075,6 +1077,7 @@ alloc
 (
 start
 end
+byteLimit
 )
 ;
 verbose_only

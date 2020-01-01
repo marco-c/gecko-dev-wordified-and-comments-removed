@@ -1168,6 +1168,10 @@ size_t
 &
 nBytes
 )
+size_t
+byteLimit
+=
+0
 )
 ;
 static
