@@ -327,6 +327,10 @@ HTMLMapElement
 .
 webidl
 \
+HTMLMetaElement
+.
+webidl
+\
 HTMLModElement
 .
 webidl
