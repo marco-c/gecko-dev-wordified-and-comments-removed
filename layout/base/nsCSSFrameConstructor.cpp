@@ -18109,7 +18109,7 @@ aContent
 aNewCellInnerFrame
 PR_TRUE
 childItems
-PR_FALSE
+isBlock
 )
 ;
 if
