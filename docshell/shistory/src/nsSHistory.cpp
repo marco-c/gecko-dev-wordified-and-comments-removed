@@ -4831,6 +4831,11 @@ mListRoot
 txToKeep
 ;
 }
+if
+(
+mRootDocShell
+)
+{
 static_cast
 <
 nsDocShell
@@ -4846,6 +4851,7 @@ HistoryTransactionRemoved
 aIndex
 )
 ;
+}
 if
 (
 mIndex
@@ -6462,6 +6468,14 @@ long
 aLoadType
 )
 {
+NS_ENSURE_STATE
+(
+aFrameDS
+&
+&
+aFrameEntry
+)
+;
 nsCOMPtr
 <
 nsIDocShellLoadInfo
