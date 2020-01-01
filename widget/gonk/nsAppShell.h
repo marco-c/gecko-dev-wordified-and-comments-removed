@@ -206,6 +206,12 @@ NotifyNativeEvent
 (
 )
 ;
+static
+void
+NotifyScreenInitialized
+(
+)
+;
 protected
 :
 virtual
@@ -233,6 +239,11 @@ const
 char
 *
 deviceName
+)
+;
+void
+InitInputDevices
+(
 )
 ;
 bool
