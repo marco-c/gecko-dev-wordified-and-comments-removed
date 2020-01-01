@@ -3195,7 +3195,7 @@ NS_IMETHODIMP
 nsDOMWorkerXHR
 :
 :
-GetMozResponseType
+GetResponseType
 (
 nsAString
 &
@@ -3210,7 +3210,7 @@ NS_IMETHODIMP
 nsDOMWorkerXHR
 :
 :
-SetMozResponseType
+SetResponseType
 (
 const
 nsAString
@@ -3226,7 +3226,7 @@ NS_IMETHODIMP
 nsDOMWorkerXHR
 :
 :
-GetMozResponse
+GetResponse
 (
 JSContext
 *

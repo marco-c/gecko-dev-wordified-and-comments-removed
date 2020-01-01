@@ -3353,7 +3353,7 @@ NS_IMETHODIMP
 nsXMLHttpRequest
 :
 :
-GetMozResponseType
+GetResponseType
 (
 nsAString
 &
@@ -3452,7 +3452,7 @@ NS_IMETHODIMP
 nsXMLHttpRequest
 :
 :
-SetMozResponseType
+SetResponseType
 (
 const
 nsAString
@@ -3609,7 +3609,7 @@ NS_IMETHODIMP
 nsXMLHttpRequest
 :
 :
-GetMozResponse
+GetResponse
 (
 JSContext
 *
