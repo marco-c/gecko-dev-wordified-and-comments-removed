@@ -74,7 +74,7 @@ DOMSVGLength
 void
 UpdateListIndicesFromIndex
 (
-nsTArray
+FallibleTArray
 <
 DOMSVGLength
 *

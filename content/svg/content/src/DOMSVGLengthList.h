@@ -556,7 +556,7 @@ uint32_t
 aIndex
 )
 ;
-nsTArray
+FallibleTArray
 <
 DOMSVGLength
 *

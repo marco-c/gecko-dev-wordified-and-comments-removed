@@ -583,7 +583,7 @@ mInternalDataIndex
 ;
 }
 ;
-nsTArray
+FallibleTArray
 <
 ItemProxy
 >

@@ -51,7 +51,7 @@ SVGTransformListSMILType
 sSingleton
 ;
 typedef
-nsTArray
+FallibleTArray
 <
 SVGTransformSMILData
 >

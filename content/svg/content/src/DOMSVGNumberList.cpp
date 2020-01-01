@@ -77,7 +77,7 @@ DOMSVGNumber
 void
 UpdateListIndicesFromIndex
 (
-nsTArray
+FallibleTArray
 <
 DOMSVGNumber
 *
