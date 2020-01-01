@@ -115,13 +115,6 @@ h
 #
 include
 "
-nsIPrefBranch2
-.
-h
-"
-#
-include
-"
 nsIPrefService
 .
 h
@@ -437,7 +430,7 @@ nsTypeAheadFind
 {
 nsCOMPtr
 <
-nsIPrefBranch2
+nsIPrefBranch
 >
 prefInternal
 (
@@ -493,7 +486,7 @@ aDocShell
 {
 nsCOMPtr
 <
-nsIPrefBranch2
+nsIPrefBranch
 >
 prefInternal
 (

@@ -2476,7 +2476,7 @@ type
 case
 Ci
 .
-nsIPrefBranch2
+nsIPrefBranch
 .
 PREF_STRING
 :
@@ -2501,7 +2501,7 @@ break
 case
 Ci
 .
-nsIPrefBranch2
+nsIPrefBranch
 .
 PREF_BOOL
 :
@@ -2521,7 +2521,7 @@ break
 case
 Ci
 .
-nsIPrefBranch2
+nsIPrefBranch
 .
 PREF_INT
 :

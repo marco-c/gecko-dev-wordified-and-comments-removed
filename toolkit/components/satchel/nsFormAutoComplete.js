@@ -230,17 +230,6 @@ this
 .
 _prefBranch
 .
-QueryInterface
-(
-Ci
-.
-nsIPrefBranch2
-)
-;
-this
-.
-_prefBranch
-.
 addObserver
 (
 "

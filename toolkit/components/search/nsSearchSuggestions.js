@@ -1538,7 +1538,7 @@ getService
 (
 Ci
 .
-nsIPrefBranch2
+nsIPrefBranch
 )
 ;
 prefService2
@@ -1614,7 +1614,7 @@ getService
 (
 Ci
 .
-nsIPrefBranch2
+nsIPrefBranch
 )
 ;
 prefService2

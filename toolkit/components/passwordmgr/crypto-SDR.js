@@ -368,17 +368,6 @@ signon
 ;
 this
 .
-_prefBranch
-.
-QueryInterface
-(
-Ci
-.
-nsIPrefBranch2
-)
-;
-this
-.
 _debug
 =
 this

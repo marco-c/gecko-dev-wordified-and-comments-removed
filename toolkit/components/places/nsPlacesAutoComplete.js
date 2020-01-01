@@ -3151,13 +3151,6 @@ this
 .
 _prefs
 .
-QueryInterface
-(
-Ci
-.
-nsIPrefBranch2
-)
-.
 removeObserver
 (
 "
