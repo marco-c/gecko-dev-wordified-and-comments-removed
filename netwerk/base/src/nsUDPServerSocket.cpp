@@ -1749,7 +1749,14 @@ aListener
 :
 mListener
 (
+new
+nsMainThreadPtrHolder
+<
+nsIUDPServerSocketListener
+>
+(
 aListener
+)
 )
 mTargetThread
 (
@@ -1771,7 +1778,10 @@ public
 :
 OnPacketReceivedRunnable
 (
+nsMainThreadPtrHolder
+<
 nsIUDPServerSocketListener
+>
 *
 aListener
 nsIUDPServerSocket
@@ -1799,7 +1809,7 @@ aMessage
 NS_DECL_NSIRUNNABLE
 private
 :
-nsCOMPtr
+nsMainThreadPtrHandle
 <
 nsIUDPServerSocketListener
 >
@@ -1829,7 +1839,10 @@ public
 :
 OnStopListeningRunnable
 (
+nsMainThreadPtrHolder
+<
 nsIUDPServerSocketListener
+>
 *
 aListener
 nsIUDPServerSocket
@@ -1856,7 +1869,7 @@ aStatus
 NS_DECL_NSIRUNNABLE
 private
 :
-nsCOMPtr
+nsMainThreadPtrHandle
 <
 nsIUDPServerSocketListener
 >
@@ -1875,7 +1888,7 @@ mStatus
 ;
 private
 :
-nsCOMPtr
+nsMainThreadPtrHandle
 <
 nsIUDPServerSocketListener
 >
