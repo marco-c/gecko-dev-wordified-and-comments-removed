@@ -394,6 +394,11 @@ ConstantElements
 \
 _
 (
+ConvertElementsToDoubles
+)
+\
+_
+(
 LoadSlot
 )
 \

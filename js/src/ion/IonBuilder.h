@@ -1193,6 +1193,15 @@ hops
 ;
 MInstruction
 *
+addConvertElementsToDoubles
+(
+MDefinition
+*
+elements
+)
+;
+MInstruction
+*
 addBoundsCheck
 (
 MDefinition
