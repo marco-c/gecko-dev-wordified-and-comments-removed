@@ -2070,6 +2070,7 @@ beginLTR
 =
 {
 0x202d
+0x20
 }
 ;
 const
@@ -2080,6 +2081,7 @@ beginRTL
 =
 {
 0x202e
+0x20
 }
 ;
 const
@@ -2089,6 +2091,7 @@ endBidiWrap
 ]
 =
 {
+0x20
 0x202c
 }
 ;
@@ -2906,21 +2909,6 @@ g
 stringRange
 .
 location
-;
-if
-(
-loc
-=
-=
-0
-&
-&
-!
-isLTR
-)
-+
-+
-loc
 ;
 if
 (
