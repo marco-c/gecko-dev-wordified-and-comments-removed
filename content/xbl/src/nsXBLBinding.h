@@ -413,8 +413,14 @@ ResolveAllFields
 JSContext
 *
 cx
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 obj
 )
 const
