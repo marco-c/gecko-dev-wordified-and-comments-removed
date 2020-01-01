@@ -103,9 +103,6 @@ public
 '
 src
 '
-'
-build
-'
 ]
 TEST_DIRS
 +
