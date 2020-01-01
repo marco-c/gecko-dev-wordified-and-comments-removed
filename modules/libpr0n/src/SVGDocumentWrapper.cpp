@@ -596,6 +596,9 @@ IsAnimated
 (
 )
 {
+#
+ifdef
+MOZ_SMIL
 nsIDocument
 *
 doc
@@ -631,6 +634,13 @@ HasRegisteredAnimations
 (
 )
 ;
+#
+else
+return
+PR_FALSE
+;
+#
+endif
 }
 void
 SVGDocumentWrapper
