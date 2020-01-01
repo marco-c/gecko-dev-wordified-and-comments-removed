@@ -164,14 +164,11 @@ DIRS
 =
 tool
 ifdef
-ENABLE_TESTS
-ifdef
 MOZ_ENABLE_SIGNMAR
-DIRS
+TEST_DIRS
 +
 =
 tests
-endif
 endif
 include
 (

@@ -307,13 +307,10 @@ PARALLEL_DIRS
 =
 plugins
 endif
-ifdef
-ENABLE_TESTS
-PARALLEL_DIRS
+TEST_DIRS
 +
 =
 test
-endif
 FORCE_STATIC_LIB
 =
 1

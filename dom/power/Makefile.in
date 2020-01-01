@@ -168,13 +168,10 @@ idl
 (
 NULL
 )
-ifdef
-ENABLE_TESTS
-DIRS
+TEST_DIRS
 +
 =
 test
-endif
 include
 (
 topsrcdir
