@@ -2115,6 +2115,12 @@ arm
 .
 cpp
 \
+IonFrames
+-
+arm
+.
+cpp
+\
 MoveEmitter
 -
 arm
