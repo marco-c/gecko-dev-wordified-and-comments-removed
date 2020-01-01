@@ -101,9 +101,6 @@ idl
 interface
 nsIDOMSVGAnimatedLength
 ;
-interface
-nsIDOMSVGAnimatedPreserveAspectRatio
-;
 [
 scriptable
 uuid
@@ -214,7 +211,7 @@ height
 ;
 readonly
 attribute
-nsIDOMSVGAnimatedPreserveAspectRatio
+nsISupports
 preserveAspectRatio
 ;
 }

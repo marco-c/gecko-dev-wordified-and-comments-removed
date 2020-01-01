@@ -2443,7 +2443,7 @@ nsSVGSVGElement
 :
 GetPreserveAspectRatio
 (
-nsIDOMSVGAnimatedPreserveAspectRatio
+nsISupports
 *
 *
 aPreserveAspectRatio
@@ -4424,13 +4424,7 @@ ShouldSynthesizeViewBox
 return
 SVGPreserveAspectRatio
 (
-nsIDOMSVGPreserveAspectRatio
-:
-:
 SVG_PRESERVEASPECTRATIO_NONE
-nsIDOMSVGPreserveAspectRatio
-:
-:
 SVG_MEETORSLICE_SLICE
 )
 ;

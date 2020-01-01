@@ -168,10 +168,6 @@ nsIDOMSVGAnimationElement
 .
 idl
 \
-nsIDOMSVGAnimPresAspRatio
-.
-idl
-\
 nsIDOMSVGAnimTransformList
 .
 idl
@@ -305,10 +301,6 @@ nsIDOMSVGPolygonElement
 idl
 \
 nsIDOMSVGPolylineElement
-.
-idl
-\
-nsIDOMSVGPresAspectRatio
 .
 idl
 \

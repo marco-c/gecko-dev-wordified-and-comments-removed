@@ -101,9 +101,6 @@ idl
 interface
 nsIDOMSVGAnimatedRect
 ;
-interface
-nsIDOMSVGAnimatedPreserveAspectRatio
-;
 [
 scriptable
 uuid
@@ -131,7 +128,7 @@ viewBox
 ;
 readonly
 attribute
-nsIDOMSVGAnimatedPreserveAspectRatio
+nsISupports
 preserveAspectRatio
 ;
 }

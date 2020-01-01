@@ -252,11 +252,17 @@ SVG_MEETORSLICE_SLICE
 =
 2
 ;
+[
+SetterThrows
+]
 attribute
 unsigned
 short
 align
 ;
+[
+SetterThrows
+]
 attribute
 unsigned
 short
