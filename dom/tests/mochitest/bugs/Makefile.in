@@ -844,6 +844,10 @@ file_window_bar
 .
 html
 \
+test_resize_move_windows
+.
+html
+\
 (
 NULL
 )

@@ -520,6 +520,10 @@ test_sandbox_image
 .
 xul
 \
+test_resize_move_windows
+.
+xul
+\
 (
 NULL
 )

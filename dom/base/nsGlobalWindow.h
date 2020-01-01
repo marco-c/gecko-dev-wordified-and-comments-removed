@@ -2446,7 +2446,6 @@ nsAString
 aOutTitle
 )
 ;
-static
 PRBool
 CanMoveResizeWindows
 (
