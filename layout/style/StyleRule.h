@@ -165,10 +165,9 @@ nsCSSPseudoClasses
 :
 Type
 aType
-const
-PRUnichar
+nsIAtom
 *
-aString
+aAtom
 )
 ;
 nsPseudoClassList
@@ -222,9 +221,9 @@ void
 *
 mMemory
 ;
-PRUnichar
+nsIAtom
 *
-mString
+mAtom
 ;
 PRInt32
 *
@@ -602,10 +601,9 @@ nsCSSPseudoClasses
 :
 Type
 aType
-const
-PRUnichar
+nsIAtom
 *
-aString
+aAtom
 )
 ;
 void
