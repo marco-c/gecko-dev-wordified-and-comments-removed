@@ -5706,6 +5706,16 @@ goto
 out
 ;
 }
+argv
+[
+1
+]
+=
+OBJECT_TO_JSVAL
+(
+scopeobj
+)
+;
 }
 scopeobj
 =
