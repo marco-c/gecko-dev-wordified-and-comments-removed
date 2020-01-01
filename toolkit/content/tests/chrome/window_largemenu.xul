@@ -616,6 +616,8 @@ rect
 .
 top
 )
++
+gScreenY
 >
 =
 screen
@@ -699,15 +701,7 @@ it
 is
 on
 screen
-window
-.
-opener
-.
-wrappedJSObject
-.
-SimpleTest
-.
-todo
+ok
 (
 Math
 .
@@ -717,6 +711,8 @@ rect
 .
 top
 )
++
+gScreenY
 >
 =
 screen
@@ -742,6 +738,8 @@ rect
 .
 bottom
 )
++
+gScreenY
 <
 screen
 .
