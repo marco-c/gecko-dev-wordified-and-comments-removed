@@ -30922,7 +30922,7 @@ rt
 =
 JS_NewRuntime
 (
-160L
+32L
 *
 1024L
 *
@@ -30936,6 +30936,13 @@ rt
 )
 return
 1
+;
+JS_SetGCParameter
+(
+rt
+JSGC_MAX_BYTES
+0xffffffff
+)
 ;
 JS_SetTrustedPrincipals
 (
