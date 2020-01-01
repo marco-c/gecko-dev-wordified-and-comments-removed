@@ -1475,14 +1475,14 @@ id
 "
 Browser
 :
-ShowTabCandy
+ToggleTabCandy
 "
 oncommand
 =
 "
 TabCandy
 .
-show
+toggle
 (
 )
 ;
@@ -4327,7 +4327,7 @@ command
 "
 Browser
 :
-ShowTabCandy
+ToggleTabCandy
 "
 key
 =

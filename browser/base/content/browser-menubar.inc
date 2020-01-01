@@ -1669,7 +1669,7 @@ command
 "
 Browser
 :
-ShowTabCandy
+ToggleTabCandy
 "
 /
 >

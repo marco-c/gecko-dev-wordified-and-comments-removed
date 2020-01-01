@@ -7752,7 +7752,7 @@ command
 "
 Browser
 :
-ShowTabCandy
+ToggleTabCandy
 "
 tooltiptext
 =
