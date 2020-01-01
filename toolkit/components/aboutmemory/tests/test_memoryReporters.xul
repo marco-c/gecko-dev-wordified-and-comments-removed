@@ -74,7 +74,7 @@ title
 =
 "
 Memory
-reporter
+reporters
 "
 xmlns
 =
@@ -328,12 +328,6 @@ Cr
 Components
 .
 results
-;
-const
-kUnknown
-=
--
-1
 ;
 const
 NONHEAP
@@ -1413,14 +1407,6 @@ small
 .
 ok
 (
-n
-=
-=
-=
-kUnknown
-|
-|
-(
 100
 *
 1000
@@ -1439,7 +1425,6 @@ n
 1000
 *
 1000
-)
 aName
 +
 "

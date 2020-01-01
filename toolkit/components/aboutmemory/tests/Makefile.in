@@ -118,7 +118,15 @@ MOCHITEST_CHROME_FILES
 +
 =
 \
+remote
+.
+xul
+\
 test_memoryReporters
+.
+xul
+\
+test_memoryReporters2
 .
 xul
 \
