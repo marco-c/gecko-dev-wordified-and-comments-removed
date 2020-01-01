@@ -7244,7 +7244,7 @@ Security
 #
 endif
 #
-ifdef
+if
 defined
 (
 XP_MACOSX
