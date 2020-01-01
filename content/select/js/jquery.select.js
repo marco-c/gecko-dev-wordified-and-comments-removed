@@ -326,7 +326,7 @@ top
 +
 i
 *
-10
+15
 left
 :
 pos
@@ -335,7 +335,7 @@ left
 +
 i
 *
-10
+15
 position
 :
 "
@@ -363,12 +363,12 @@ targets
 :
 "
 .
-element
+tab
 "
 container
 :
 "
-body
+html
 "
 }
 )
