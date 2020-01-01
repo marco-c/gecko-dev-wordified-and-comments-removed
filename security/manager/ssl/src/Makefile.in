@@ -311,6 +311,10 @@ nsNSSVersion
 .
 cpp
 \
+nsCertificatePrincipal
+.
+cpp
+\
 (
 NULL
 )

@@ -1386,7 +1386,7 @@ const
 nsACString
 &
 aFilename
-nsIPrincipal
+nsICertificatePrincipal
 *
 *
 aPrincipal

@@ -291,6 +291,14 @@ nsIDataSignatureVerifier
 .
 idl
 \
+nsISignatureVerifier
+.
+idl
+\
+nsICertificatePrincipal
+.
+idl
+\
 (
 NULL
 )

@@ -93,10 +93,6 @@ nsIPrincipal
 .
 idl
 \
-nsISignatureVerifier
-.
-idl
-\
 nsISecurityCheckedComponent
 .
 idl

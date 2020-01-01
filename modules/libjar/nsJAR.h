@@ -121,7 +121,7 @@ h
 #
 include
 "
-nsIPrincipal
+nsICertificatePrincipal
 .
 h
 "
@@ -322,7 +322,7 @@ mParsedManifest
 ;
 nsCOMPtr
 <
-nsIPrincipal
+nsICertificatePrincipal
 >
 mPrincipal
 ;
