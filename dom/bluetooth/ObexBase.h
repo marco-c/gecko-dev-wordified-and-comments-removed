@@ -1012,6 +1012,14 @@ aLength
 )
 ;
 int
+AppendHeaderEndOfBody
+(
+uint8_t
+*
+aRetBuf
+)
+;
+int
 AppendHeaderLength
 (
 uint8_t
