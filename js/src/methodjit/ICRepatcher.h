@@ -259,14 +259,14 @@ JS_CPU_X86
 static
 const
 unsigned
-LOAD_DATA_OFFSET
+LOAD_TYPE_OFFSET
 =
 6
 ;
 static
 const
 unsigned
-LOAD_TYPE_OFFSET
+LOAD_DATA_OFFSET
 =
 12
 ;
