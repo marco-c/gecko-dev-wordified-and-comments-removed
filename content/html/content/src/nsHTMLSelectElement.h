@@ -557,7 +557,7 @@ nsHTMLSelectElement
 public
 nsGenericHTMLFormElement
 public
-nsIDOMHTMLSelectElement
+nsIDOMHTMLSelectElement_Mozilla_2_0_Branch
 public
 nsISelectElement
 public
@@ -622,6 +622,7 @@ nsGenericHTMLFormElement
 :
 )
 NS_DECL_NSIDOMHTMLSELECTELEMENT
+NS_DECL_NSIDOMHTMLSELECTELEMENT_MOZILLA_2_0_BRANCH
 virtual
 nsresult
 PreHandleEvent

@@ -1311,6 +1311,10 @@ test_bug601061
 .
 html
 \
+test_bug596511
+.
+html
+\
 reflect
 .
 js
