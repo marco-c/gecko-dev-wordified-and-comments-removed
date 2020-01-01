@@ -172,6 +172,7 @@ new
 Date
 (
 )
+true
 )
 ;
 do_check_true
@@ -234,6 +235,13 @@ instanceof
 Date
 )
 ;
+do_check_true
+(
+sms
+.
+read
+)
+;
 run_next_test
 (
 )
@@ -264,6 +272,7 @@ new
 Date
 (
 )
+true
 )
 ;
 sms
@@ -381,6 +390,19 @@ getTime
 oldTimestamp
 )
 ;
+sms
+.
+read
+=
+false
+;
+do_check_true
+(
+sms
+.
+read
+)
+;
 run_next_test
 (
 )
@@ -426,6 +448,7 @@ the
 body
 "
 ts
+true
 )
 ;
 do_check_eq
@@ -498,6 +521,13 @@ getTime
 (
 )
 ts
+)
+;
+do_check_true
+(
+sms
+.
+read
 )
 ;
 run_next_test
@@ -544,6 +574,7 @@ the
 body
 "
 date
+true
 )
 ;
 do_check_eq
@@ -622,6 +653,13 @@ getTime
 )
 )
 ;
+do_check_true
+(
+sms
+.
+read
+)
+;
 run_next_test
 (
 )
@@ -663,6 +701,7 @@ body
 3
 .
 1415
+true
 )
 ;
 }
@@ -710,6 +749,7 @@ the
 body
 "
 null
+true
 )
 ;
 }
@@ -757,6 +797,7 @@ the
 body
 "
 undefined
+true
 )
 ;
 }
@@ -805,6 +846,7 @@ body
 "
 {
 }
+true
 )
 ;
 }
@@ -857,6 +899,7 @@ new
 Date
 (
 )
+true
 )
 ;
 }
@@ -905,6 +948,7 @@ new
 Date
 (
 )
+true
 )
 ;
 }
