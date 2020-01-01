@@ -2730,6 +2730,10 @@ cachedNativeIterators
 NATIVE_ITER_CACHE_SIZE
 ]
 ;
+jsuword
+*
+nativeStackBase
+;
 bool
 init
 (

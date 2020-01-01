@@ -83,6 +83,10 @@ jsworkers
 .
 h
 "
+extern
+size_t
+gMaxStackSize
+;
 namespace
 js
 {
@@ -5042,10 +5046,10 @@ JS_SetContextThread
 context
 )
 ;
-JS_SetThreadStackLimit
+JS_SetNativeStackQuota
 (
 context
-0
+gMaxStackSize
 )
 ;
 Event

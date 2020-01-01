@@ -879,6 +879,10 @@ jsmath
 .
 cpp
 \
+jsnativestack
+.
+cpp
+\
 jsnum
 .
 cpp
