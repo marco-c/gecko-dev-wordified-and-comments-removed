@@ -143,10 +143,8 @@ FullZoom
 .
 enlarge
 (
-function
-(
 )
-{
+;
 isnot
 (
 aWindow
@@ -217,10 +215,8 @@ FullZoom
 .
 reset
 (
-function
-(
 )
-{
+;
 aWindow
 .
 gBrowser
@@ -247,12 +243,6 @@ close
 ;
 aCallback
 (
-)
-;
-}
-)
-;
-}
 )
 ;
 }
