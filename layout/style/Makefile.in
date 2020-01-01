@@ -634,6 +634,10 @@ NULL
 CPPSRCS
 =
 \
+AnimationCommon
+.
+cpp
+\
 nsCSSAnonBoxes
 .
 cpp
