@@ -15,6 +15,13 @@ h
 #
 include
 "
+AccessCheck
+.
+h
+"
+#
+include
+"
 nsWrapperCacheInlines
 .
 h
