@@ -622,9 +622,6 @@ skip
 LInsp
 findVictim
 (
-RegAlloc
-&
-regs
 RegisterMask
 allow
 )
