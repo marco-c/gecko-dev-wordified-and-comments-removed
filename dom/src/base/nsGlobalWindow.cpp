@@ -2797,6 +2797,10 @@ nsIScriptObjectPrincipal
 )
 NS_INTERFACE_MAP_ENTRY
 (
+nsIDOMEventReceiver
+)
+NS_INTERFACE_MAP_ENTRY
+(
 nsPIDOMEventTarget
 )
 NS_INTERFACE_MAP_ENTRY
@@ -5165,9 +5169,9 @@ xblService
 {
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventReceiver
 >
-piTarget
+rec
 =
 do_QueryInterface
 (
@@ -5179,7 +5183,7 @@ xblService
 >
 AttachGlobalKeyHandler
 (
-piTarget
+rec
 )
 ;
 }
@@ -21625,7 +21629,7 @@ nsnull
 )
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsGlobalWindow
 :
 :
@@ -21679,7 +21683,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsGlobalWindow
 :
 :
@@ -21727,7 +21731,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsGlobalWindow
 :
 :
@@ -21803,7 +21807,7 @@ SetListenerTarget
 (
 NS_STATIC_CAST
 (
-nsPIDOMEventTarget
+nsIDOMEventReceiver
 *
 this
 )
@@ -21822,7 +21826,7 @@ return
 NS_OK
 ;
 }
-nsresult
+NS_IMETHODIMP
 nsGlobalWindow
 :
 :

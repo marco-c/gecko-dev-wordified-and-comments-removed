@@ -158,13 +158,6 @@ nsIInlineSpellChecker
 .
 h
 "
-#
-include
-"
-nsPIDOMEventTarget
-.
-h
-"
 class
 nsIDOMCharacterData
 ;
@@ -223,7 +216,7 @@ class
 nsISelectionController
 ;
 class
-nsIDOMEventTarget
+nsIDOMEventReceiver
 ;
 #
 define
@@ -1642,9 +1635,9 @@ aEndOffset
 ;
 already_AddRefed
 <
-nsPIDOMEventTarget
+nsIDOMEventReceiver
 >
-GetPIDOMEventTarget
+GetDOMEventReceiver
 (
 )
 ;
@@ -1801,9 +1794,9 @@ mDocWeak
 ;
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventReceiver
 >
-mEventTarget
+mDOMEventReceiver
 ;
 nsString
 *

@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsPIDOMEventTarget
+nsIDOMEventReceiver
 .
 h
 "
@@ -283,9 +283,9 @@ mListenerInstalled
 ;
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventReceiver
 >
-mEventTarget
+mEventReceiver
 ;
 nsIWebNavigation
 *

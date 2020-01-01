@@ -307,7 +307,7 @@ h
 #
 include
 "
-nsIDOMEventTarget
+nsIDOMEventReceiver
 .
 h
 "
@@ -13545,9 +13545,9 @@ mCXMenuListener
 }
 nsCOMPtr
 <
-nsIDOMEventTarget
+nsIDOMEventReceiver
 >
-target
+receiver
 (
 do_QueryInterface
 (
@@ -13557,7 +13557,7 @@ mContent
 ;
 if
 (
-target
+receiver
 )
 {
 nsCOMPtr
@@ -13578,7 +13578,7 @@ listener
 )
 )
 ;
-mContent
+receiver
 -
 >
 RemoveEventListenerByIID
@@ -13590,7 +13590,7 @@ nsIDOMFocusListener
 )
 )
 ;
-mContent
+receiver
 -
 >
 RemoveEventListenerByIID
@@ -13602,7 +13602,7 @@ nsIDOMMouseListener
 )
 )
 ;
-mContent
+receiver
 -
 >
 RemoveEventListenerByIID
@@ -13614,7 +13614,7 @@ nsIDOMMouseMotionListener
 )
 )
 ;
-target
+receiver
 -
 >
 RemoveEventListener
@@ -13629,7 +13629,7 @@ listener
 PR_TRUE
 )
 ;
-target
+receiver
 -
 >
 RemoveEventListener
@@ -13644,7 +13644,7 @@ listener
 PR_TRUE
 )
 ;
-target
+receiver
 -
 >
 RemoveEventListener
@@ -13659,7 +13659,7 @@ listener
 PR_TRUE
 )
 ;
-target
+receiver
 -
 >
 RemoveEventListener
@@ -13674,7 +13674,7 @@ listener
 PR_TRUE
 )
 ;
-target
+receiver
 -
 >
 RemoveEventListener
@@ -13689,7 +13689,7 @@ listener
 PR_TRUE
 )
 ;
-target
+receiver
 -
 >
 RemoveEventListener
@@ -13704,7 +13704,7 @@ listener
 PR_TRUE
 )
 ;
-target
+receiver
 -
 >
 RemoveEventListener
@@ -13719,7 +13719,7 @@ listener
 PR_TRUE
 )
 ;
-target
+receiver
 -
 >
 RemoveEventListener
@@ -14452,9 +14452,9 @@ aContent
 }
 nsCOMPtr
 <
-nsIDOMEventTarget
+nsIDOMEventReceiver
 >
-target
+receiver
 (
 do_QueryInterface
 (
@@ -14464,7 +14464,7 @@ mContent
 ;
 if
 (
-target
+receiver
 )
 {
 nsCOMPtr
@@ -14485,7 +14485,7 @@ listener
 )
 )
 ;
-mContent
+receiver
 -
 >
 AddEventListenerByIID
@@ -14497,7 +14497,7 @@ nsIDOMFocusListener
 )
 )
 ;
-mContent
+receiver
 -
 >
 AddEventListenerByIID
@@ -14509,7 +14509,7 @@ nsIDOMMouseListener
 )
 )
 ;
-mContent
+receiver
 -
 >
 AddEventListenerByIID
@@ -14521,7 +14521,7 @@ nsIDOMMouseMotionListener
 )
 )
 ;
-target
+receiver
 -
 >
 AddEventListener
@@ -14536,7 +14536,7 @@ listener
 PR_TRUE
 )
 ;
-target
+receiver
 -
 >
 AddEventListener
@@ -14551,7 +14551,7 @@ listener
 PR_TRUE
 )
 ;
-target
+receiver
 -
 >
 AddEventListener
@@ -14566,7 +14566,7 @@ listener
 PR_TRUE
 )
 ;
-target
+receiver
 -
 >
 AddEventListener
@@ -14581,7 +14581,7 @@ listener
 PR_TRUE
 )
 ;
-target
+receiver
 -
 >
 AddEventListener
@@ -14596,7 +14596,7 @@ listener
 PR_TRUE
 )
 ;
-target
+receiver
 -
 >
 AddEventListener
@@ -14611,7 +14611,7 @@ listener
 PR_TRUE
 )
 ;
-target
+receiver
 -
 >
 AddEventListener
@@ -14626,7 +14626,7 @@ listener
 PR_TRUE
 )
 ;
-target
+receiver
 -
 >
 AddEventListener

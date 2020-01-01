@@ -36,7 +36,7 @@ h
 #
 include
 "
-nsIDOMEventTarget
+nsIDOMEventReceiver
 .
 h
 "

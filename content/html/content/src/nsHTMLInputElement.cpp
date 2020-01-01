@@ -106,7 +106,7 @@ h
 #
 include
 "
-nsIDOMEventTarget
+nsIDOMEventReceiver
 .
 h
 "
@@ -351,7 +351,7 @@ h
 #
 include
 "
-nsIDOMEventTarget
+nsIDOMEventReceiver
 .
 h
 "

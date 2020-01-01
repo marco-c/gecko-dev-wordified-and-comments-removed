@@ -106,6 +106,13 @@ h
 #
 include
 "
+nsIDOMEventReceiver
+.
+h
+"
+#
+include
+"
 nsIEventListenerManager
 .
 h
@@ -4838,7 +4845,7 @@ Truncate
 ;
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventReceiver
 >
 target
 (

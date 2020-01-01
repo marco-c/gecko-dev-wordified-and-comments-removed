@@ -106,6 +106,13 @@ h
 #
 include
 "
+nsIDOMEventReceiver
+.
+h
+"
+#
+include
+"
 nsLoadListenerProxy
 .
 h
@@ -785,7 +792,7 @@ rv
 ;
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventReceiver
 >
 target
 (

@@ -456,6 +456,13 @@ h
 #
 include
 "
+nsIDOMEventReceiver
+.
+h
+"
+#
+include
+"
 nsIPrivateDOMEvent
 .
 h
@@ -12813,9 +12820,9 @@ PR_FALSE
 }
 nsCOMPtr
 <
-nsPIDOMEventTarget
+nsIDOMEventReceiver
 >
-piTarget
+rec
 (
 do_QueryInterface
 (
@@ -12825,7 +12832,7 @@ window
 ;
 if
 (
-piTarget
+rec
 )
 {
 nsCOMPtr
@@ -12834,7 +12841,7 @@ nsIEventListenerManager
 >
 manager
 ;
-piTarget
+rec
 -
 >
 GetListenerManager

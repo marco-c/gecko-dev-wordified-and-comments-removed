@@ -25,10 +25,7 @@ class
 nsIDOMElement
 ;
 class
-nsIDOMEventTarget
-;
-class
-nsPIDOMEventTarget
+nsIDOMEventReceiver
 ;
 class
 nsIXBLDocumentInfo
@@ -52,9 +49,9 @@ nsXBLWindowKeyHandler
 nsIDOMElement
 *
 aElement
-nsPIDOMEventTarget
+nsIDOMEventReceiver
 *
-aTarget
+aReceiver
 )
 ;
 virtual
@@ -174,9 +171,9 @@ GetElement
 nsWeakPtr
 mWeakPtrForElement
 ;
-nsPIDOMEventTarget
+nsIDOMEventReceiver
 *
-mTarget
+mReceiver
 ;
 nsXBLPrototypeHandler
 *
@@ -203,9 +200,9 @@ NS_NewXBLWindowKeyHandler
 nsIDOMElement
 *
 aElement
-nsPIDOMEventTarget
+nsIDOMEventReceiver
 *
-aTarget
+aReceiver
 nsXBLWindowKeyHandler
 *
 *
