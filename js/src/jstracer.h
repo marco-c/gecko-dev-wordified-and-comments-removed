@@ -1321,15 +1321,6 @@ flags
 )
 ;
 bool
-equal
-(
-int
-flags
-=
-0
-)
-;
-bool
 unary
 (
 nanojit
