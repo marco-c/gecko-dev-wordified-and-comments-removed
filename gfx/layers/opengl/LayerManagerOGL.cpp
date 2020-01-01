@@ -495,7 +495,16 @@ status
 nsIGfxInfo
 :
 :
-FEATURE_NO_INFO
+FEATURE_STATUS_UNKNOWN
+&
+&
+status
+!
+=
+nsIGfxInfo
+:
+:
+FEATURE_AVAILABLE
 )
 {
 NS_WARNING
