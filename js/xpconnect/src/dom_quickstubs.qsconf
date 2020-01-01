@@ -1047,6 +1047,11 @@ nsIDOMTouch
 *
 '
 '
+nsIDOMTouchList
+.
+*
+'
+'
 nsIDOMTouchEvent
 .
 *
