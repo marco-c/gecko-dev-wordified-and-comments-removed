@@ -89,6 +89,10 @@ test_resolve
 .
 html
 \
+test_bug883683
+.
+html
+\
 (
 NULL
 )
