@@ -1035,12 +1035,6 @@ mSHEntry
 =
 aSHEntry
 ;
-mShellIsHidden
-=
-!
-!
-aSHEntry
-;
 }
 nsISHEntry
 *
@@ -3566,9 +3560,6 @@ mMathMLEnabled
 ;
 PRPackedBool
 mIsInitialDocumentInWindow
-;
-PRPackedBool
-mShellIsHidden
 ;
 PRPackedBool
 mIsRegularHTML
