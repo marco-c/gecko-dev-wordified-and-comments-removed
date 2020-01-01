@@ -2133,8 +2133,9 @@ False
 :
         
 def
-ensureValidInfallibleExtendedAttribute
+ensureValidInfallibilityExtendedAttribute
 (
+name
 attr
 )
 :
@@ -2190,15 +2191,20 @@ attr
 raise
 TypeError
 (
+(
 "
 Unknown
 value
 for
 '
-infallible
+%
+s
 '
 :
 "
+%
+name
+)
 +
 attr
 [
@@ -2240,57 +2246,62 @@ name
 ]
 )
             
-infallible
+throws
 =
 member
 .
 getExtendedAttribute
 (
 "
-Infallible
+Throws
 "
 )
             
-ensureValidInfallibleExtendedAttribute
+ensureValidInfallibilityExtendedAttribute
 (
-infallible
+"
+Throws
+"
+throws
 )
             
 if
 (
-infallible
+throws
 is
-not
 None
-and
+or
                 
 (
-infallible
+throws
 is
+not
 True
-or
+and
                  
 (
 '
 Workers
 '
+not
 in
-infallible
-and
+throws
+or
+not
 self
 .
 workers
 )
-or
+and
                  
 (
 '
 MainThread
 '
-in
-infallible
-and
 not
+in
+throws
+or
 self
 .
 workers
@@ -2412,8 +2423,11 @@ getExtendedAttribute
 infallibleAttr
 )
         
-ensureValidInfallibleExtendedAttribute
+ensureValidInfallibilityExtendedAttribute
 (
+"
+Infallible
+"
 infallible
 )
         

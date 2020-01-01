@@ -189,6 +189,9 @@ false
 .
 *
 /
+[
+Throws
+]
 void
 addEventListener
 (
@@ -210,6 +213,9 @@ wantsUntrusted
 null
 )
 ;
+[
+Throws
+]
 void
 removeEventListener
 (
@@ -225,6 +231,9 @@ capture
 false
 )
 ;
+[
+Throws
+]
 boolean
 dispatchEvent
 (

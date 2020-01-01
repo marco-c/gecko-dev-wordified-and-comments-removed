@@ -210,7 +210,7 @@ XXXbz
 add
 tests
 for
-infallible
+throwing
 versions
 of
 all
@@ -588,7 +588,7 @@ XXXbz
 add
 tests
 for
-infallible
+throwing
 versions
 of
 all

@@ -4084,9 +4084,16 @@ method
 addExtendedAttributes
 (
 [
+(
 "
 Creator
 "
+)
+(
+"
+Throws
+"
+)
 ]
 )
                 

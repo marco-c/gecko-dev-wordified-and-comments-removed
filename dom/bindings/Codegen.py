@@ -23005,6 +23005,7 @@ isCreator
 :
             
 assert
+(
 isResultAlreadyAddRefed
 (
 self
@@ -23014,6 +23015,14 @@ descriptor
 self
 .
 extendedAttributes
+)
+or
+                   
+self
+.
+descriptor
+.
+workers
 )
         
 resultTemplateValues

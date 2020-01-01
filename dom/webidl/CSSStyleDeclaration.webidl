@@ -140,9 +140,6 @@ unsigned
 long
 length
 ;
-[
-Infallible
-]
 getter
 DOMString
 item
@@ -152,6 +149,9 @@ long
 index
 )
 ;
+[
+Throws
+]
 DOMString
 getPropertyValue
 (
@@ -165,6 +165,9 @@ Mozilla
 extension
 sort
 of
+[
+Throws
+]
 CSSValue
 getPropertyCSSValue
 (
@@ -172,9 +175,6 @@ DOMString
 property
 )
 ;
-[
-Infallible
-]
 DOMString
 getPropertyPriority
 (
@@ -205,6 +205,9 @@ See
 bug
 759622
 .
+[
+Throws
+]
 void
 setProperty
 (
@@ -222,6 +225,9 @@ DOMString
 priority
 )
 ;
+[
+Throws
+]
 DOMString
 removeProperty
 (

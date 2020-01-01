@@ -157,9 +157,6 @@ now
 (
 )
 ;
-[
-Infallible
-]
 double
 now
 (
