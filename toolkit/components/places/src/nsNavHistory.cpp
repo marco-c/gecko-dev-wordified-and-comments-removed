@@ -10888,6 +10888,16 @@ EqualsLiteral
 data
 "
 )
+|
+|
+scheme
+.
+EqualsLiteral
+(
+"
+wyciwyg
+"
+)
 )
 {
 *
