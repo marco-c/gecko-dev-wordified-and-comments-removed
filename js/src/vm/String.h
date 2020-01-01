@@ -1289,7 +1289,7 @@ chars
 ;
 }
 bool
-isElement
+isIndex
 (
 uint32
 *
@@ -2530,7 +2530,7 @@ dummy
 JS_ASSERT
 (
 !
-isElement
+isIndex
 (
 &
 dummy
