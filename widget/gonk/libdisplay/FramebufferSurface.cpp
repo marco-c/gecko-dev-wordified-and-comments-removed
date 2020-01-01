@@ -74,15 +74,6 @@ h
 #
 include
 <
-gui
-/
-SurfaceTextureClient
-.
-h
->
-#
-include
-<
 ui
 /
 GraphicBuffer
