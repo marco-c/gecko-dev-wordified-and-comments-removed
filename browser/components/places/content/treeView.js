@@ -4769,6 +4769,15 @@ true
 ;
 if
 (
+this
+.
+_flatList
+)
+return
+true
+;
+if
+(
 PlacesUtils
 .
 nodeIsQuery
