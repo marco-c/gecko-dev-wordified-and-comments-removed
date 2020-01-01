@@ -600,6 +600,8 @@ NS_NewThread
 (
 &
 gStateMachineThread
+nsnull
+MEDIA_THREAD_STACK_SIZE
 )
 ;
 NS_ABORT_IF_FALSE
@@ -4774,6 +4776,8 @@ getter_AddRefs
 (
 mDecodeThread
 )
+nsnull
+MEDIA_THREAD_STACK_SIZE
 )
 ;
 if
@@ -4892,6 +4896,8 @@ getter_AddRefs
 (
 mAudioThread
 )
+nsnull
+MEDIA_THREAD_STACK_SIZE
 )
 ;
 if
