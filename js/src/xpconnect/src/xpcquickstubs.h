@@ -816,8 +816,7 @@ xpc_qsStringToJsval
 JSContext
 *
 cx
-const
-nsAString
+nsString
 &
 str
 jsval
