@@ -452,16 +452,6 @@ aElements
 MOZ_OVERRIDE
 ;
 NS_IMETHOD
-GetScriptGlobalObjectOwner
-(
-nsIScriptGlobalObjectOwner
-*
-*
-aGlobalOwner
-)
-MOZ_OVERRIDE
-;
-NS_IMETHOD
 AddSubtreeToDocument
 (
 nsIContent
