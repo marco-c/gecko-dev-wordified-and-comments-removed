@@ -904,7 +904,9 @@ vname
 self
 .
 substfrom
-selfsubstto
+self
+.
+substto
 )
 class
 SubstFunction
