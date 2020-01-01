@@ -354,6 +354,7 @@ mBufferLength
 >
 0
 )
+{
 if
 (
 dest
@@ -368,6 +369,7 @@ NS_OK_UDEC_MOREOUTPUT
 ;
 }
 else
+{
 for
 (
 ;
@@ -575,6 +577,8 @@ NS_OK
 }
 break
 ;
+}
+}
 }
 }
 if
