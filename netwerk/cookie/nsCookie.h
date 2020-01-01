@@ -132,6 +132,14 @@ PR_FALSE
 public
 :
 static
+PRInt64
+GenerateCreationID
+(
+PRInt64
+aCreationTime
+)
+;
+static
 nsCookie
 *
 Create
