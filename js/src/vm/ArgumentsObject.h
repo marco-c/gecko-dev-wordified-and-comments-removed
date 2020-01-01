@@ -62,13 +62,16 @@ undef
 GetProp
 #
 endif
-extern
 void
+JS_FASTCALL
 GetProp
 (
 VMFrame
 &
 f
+ic
+:
+:
 PICInfo
 *
 pic
