@@ -72579,6 +72579,16 @@ OS_ARCH
 "
 WINNT
 "
+-
+a
+"
+CPU_ARCH
+"
+!
+=
+"
+x86_64
+"
 ;
 then
 ENABLE_SHARED_JS
