@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsEventShell
+.
+h
+"
+#
+include
+"
 DocAccessible
 .
 h

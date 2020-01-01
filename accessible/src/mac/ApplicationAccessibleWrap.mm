@@ -132,6 +132,13 @@ h
 #
 include
 "
+nsAccUtils
+.
+h
+"
+#
+include
+"
 nsAppShell
 .
 h

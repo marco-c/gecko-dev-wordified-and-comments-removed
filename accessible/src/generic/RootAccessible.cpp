@@ -67,6 +67,13 @@ h
 #
 include
 "
+nsEventShell
+.
+h
+"
+#
+include
+"
 Relation
 .
 h
