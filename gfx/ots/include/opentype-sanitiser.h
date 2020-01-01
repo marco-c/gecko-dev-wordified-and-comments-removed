@@ -55,6 +55,12 @@ Winsock2
 h
 >
 #
+undef
+min
+#
+undef
+max
+#
 else
 #
 include
