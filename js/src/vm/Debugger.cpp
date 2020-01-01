@@ -12197,7 +12197,7 @@ id
 result
 -
 >
-defineProperty
+defineGeneric
 (
 cx
 id

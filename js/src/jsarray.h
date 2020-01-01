@@ -391,7 +391,7 @@ js
 {
 extern
 JSBool
-array_defineProperty
+array_defineElement
 (
 JSContext
 *
@@ -399,8 +399,8 @@ cx
 JSObject
 *
 obj
-jsid
-id
+uint32
+index
 const
 Value
 *
