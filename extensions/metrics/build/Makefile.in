@@ -567,3 +567,10 @@ config
 rules
 .
 mk
+LDFLAGS
++
+=
+-
+NODEFAULTLIB
+:
+MSVCRT
