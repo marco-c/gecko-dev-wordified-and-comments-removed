@@ -1360,6 +1360,7 @@ selectionEnd
 )
 ;
 }
+else
 if
 (
 elem
@@ -1367,18 +1368,9 @@ elem
 value
 &
 &
-(
-selectionStart
->
-0
-|
-|
-selectionEnd
-<
 elem
 .
 textLength
-)
 )
 {
 state
