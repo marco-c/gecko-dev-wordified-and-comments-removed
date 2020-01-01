@@ -261,6 +261,10 @@ nsStandaloneNativeMenu
 .
 mm
 \
+nsMacWebAppUtils
+.
+mm
+\
 GfxInfo
 .
 mm
