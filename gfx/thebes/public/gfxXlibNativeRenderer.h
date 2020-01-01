@@ -36,14 +36,16 @@ virtual
 nsresult
 NativeDraw
 (
-Display
+Screen
 *
-dpy
+screen
 Drawable
 drawable
 Visual
 *
 visual
+Colormap
+colormap
 short
 offsetX
 short
@@ -74,7 +76,7 @@ DRAW_SUPPORTS_CLIP_LIST
 DRAW_SUPPORTS_NONDEFAULT_VISUAL
 =
 0x10
-DRAW_SUPPORTS_ALTERNATE_DISPLAY
+DRAW_SUPPORTS_ALTERNATE_SCREEN
 =
 0x20
 }
