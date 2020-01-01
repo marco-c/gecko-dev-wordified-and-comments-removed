@@ -51,8 +51,6 @@ converter
 convertToByteArray
 (
 data
-{
-}
 )
 ;
 var

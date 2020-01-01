@@ -216,8 +216,6 @@ converter
 convertToByteArray
 (
 value
-{
-}
 )
 ;
 hash
