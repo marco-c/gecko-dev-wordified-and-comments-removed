@@ -9386,6 +9386,17 @@ nsCOMPtr
 <
 nsIDOMWindowInternal
 >
+ourWin
+=
+do_QueryInterface
+(
+aOurWindow
+)
+;
+nsCOMPtr
+<
+nsIDOMWindowInternal
+>
 focusedWindow
 ;
 aFocusController
@@ -9405,7 +9416,9 @@ if
 focusedWindow
 )
 {
-return
+focusedWindow
+=
+ourWin
 ;
 }
 nsCOMPtr
@@ -9472,7 +9485,7 @@ curWin
 curWin
 =
 =
-aOurWindow
+ourWin
 )
 break
 ;
@@ -9520,7 +9533,7 @@ if
 (
 active
 )
-aOurWindow
+ourWin
 -
 >
 Focus
@@ -9532,7 +9545,7 @@ aFocusController
 >
 SetFocusedWindow
 (
-aOurWindow
+ourWin
 )
 ;
 }
