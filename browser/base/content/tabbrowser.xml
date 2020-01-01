@@ -10781,7 +10781,7 @@ the
 tab
 oldTab
 .
-selected
+_selected
 =
 false
 ;
@@ -11396,7 +11396,7 @@ this
 .
 mCurrentTab
 .
-selected
+_selected
 =
 true
 ;
@@ -14521,7 +14521,7 @@ this
 .
 mCurrentTab
 .
-selected
+_selected
 =
 false
 ;
@@ -14649,7 +14649,7 @@ childNodes
 i
 ]
 .
-selected
+_selected
 =
 false
 ;
@@ -14658,7 +14658,7 @@ this
 .
 mCurrentTab
 .
-selected
+_selected
 =
 true
 ;
