@@ -2684,6 +2684,10 @@ x
 .
 result
 =
+n
+.
+value
+?
 getValue
 (
 execute
@@ -2694,6 +2698,8 @@ value
 x
 )
 )
+:
+undefined
 ;
 throw
 RETURN
