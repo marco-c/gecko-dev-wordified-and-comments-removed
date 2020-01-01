@@ -1071,6 +1071,13 @@ bool
 aNotify
 )
 ;
+virtual
+bool
+IsLabelable
+(
+)
+const
+;
 #
 ifdef
 DEBUG

@@ -2211,6 +2211,13 @@ PRInt32
 aTabIndex
 )
 ;
+virtual
+bool
+IsLabelable
+(
+)
+const
+;
 protected
 :
 virtual
