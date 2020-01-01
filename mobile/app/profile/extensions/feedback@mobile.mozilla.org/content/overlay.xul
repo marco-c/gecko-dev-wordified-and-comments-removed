@@ -745,13 +745,6 @@ feedback
 -
 happy
 "
-class
-=
-"
-button
--
-dark
-"
 oncommand
 =
 "
@@ -793,13 +786,6 @@ feedback
 feedback
 -
 sad
-"
-class
-=
-"
-button
--
-dark
 "
 oncommand
 =
