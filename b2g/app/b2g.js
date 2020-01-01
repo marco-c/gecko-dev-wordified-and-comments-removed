@@ -4002,3 +4002,15 @@ enabled
 true
 )
 ;
+pref
+(
+"
+media
+.
+plugins
+.
+enabled
+"
+true
+)
+;
