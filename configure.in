@@ -8351,6 +8351,9 @@ linux
 OS_ARCH
 =
 Linux
+OS_TARGET
+=
+Linux
 ;
 ;
 solaris
