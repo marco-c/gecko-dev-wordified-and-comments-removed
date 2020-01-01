@@ -9541,17 +9541,6 @@ AvmCore
 )
 ;
 static
-avmplus
-:
-:
-AvmCore
-*
-core
-=
-&
-s_core
-;
-static
 Fragment
 *
 LookupNativeRegExp

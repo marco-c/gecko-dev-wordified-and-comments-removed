@@ -6844,6 +6844,12 @@ base
 ;
 bdr
 .
+digit
+=
+0
+;
+bdr
+.
 digitMask
 =
 0
