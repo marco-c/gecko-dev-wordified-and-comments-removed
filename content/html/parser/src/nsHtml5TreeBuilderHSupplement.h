@@ -41,6 +41,14 @@ mParser
 PRBool
 mHasProcessedBase
 ;
+#
+ifdef
+DEBUG
+PRBool
+mActive
+;
+#
+endif
 nsTArray
 <
 nsHtml5TreeOperation
