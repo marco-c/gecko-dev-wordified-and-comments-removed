@@ -419,8 +419,8 @@ base
 components
 locales
 themes
-app
 fuel
+app
 include
 (
 topsrcdir
