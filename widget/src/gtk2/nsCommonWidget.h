@@ -210,7 +210,7 @@ void
 void
 DispatchResizeEvent
 (
-nsRect
+nsIntRect
 &
 aRect
 nsEventStatus
@@ -272,10 +272,12 @@ aAction
 0
 ;
 virtual
-nsSize
+nsIntSize
 GetSafeWindowSize
 (
-nsSize
+const
+nsIntSize
+&
 aSize
 )
 =

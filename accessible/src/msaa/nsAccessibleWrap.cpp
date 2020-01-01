@@ -8323,7 +8323,7 @@ nsIWidget
 *
 widget
 ;
-nsRect
+nsIntRect
 caretRect
 =
 caretAccessible

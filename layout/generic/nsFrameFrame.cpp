@@ -711,7 +711,7 @@ ReflowCallbackCanceled
 ;
 protected
 :
-nsSize
+nsIntSize
 GetMargin
 (
 )
@@ -3127,7 +3127,7 @@ nsnull
 }
 }
 }
-nsSize
+nsIntSize
 nsSubDocumentFrame
 :
 :
@@ -3135,7 +3135,7 @@ GetMargin
 (
 )
 {
-nsSize
+nsIntSize
 result
 (
 -
@@ -3665,11 +3665,12 @@ return
 NS_OK
 ;
 }
-nsSize
+nsIntSize
 margin
-=
+(
 GetMargin
 (
+)
 )
 ;
 docShell

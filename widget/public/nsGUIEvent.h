@@ -1566,7 +1566,7 @@ eventStructType
 PRUint32
 message
 ;
-nsPoint
+nsIntPoint
 refPoint
 ;
 PRUint32
@@ -1799,7 +1799,7 @@ mWinHeight
 )
 {
 }
-nsRect
+nsIntRect
 *
 windowSize
 ;
@@ -1959,7 +1959,7 @@ nsIRegion
 *
 region
 ;
-nsRect
+nsIntRect
 *
 rect
 ;
@@ -2691,7 +2691,7 @@ nsnull
 )
 {
 }
-nsRect
+nsIntRect
 mCursorPosition
 ;
 PRBool
@@ -3027,7 +3027,7 @@ mOffset
 nsString
 mString
 ;
-nsRect
+nsIntRect
 mRect
 ;
 nsIWidget

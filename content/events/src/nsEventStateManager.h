@@ -1120,7 +1120,7 @@ mLastMouseOverElement
 nsWeakFrame
 mLastDragOverFrame
 ;
-nsPoint
+nsIntPoint
 mGestureDownPoint
 ;
 nsCOMPtr

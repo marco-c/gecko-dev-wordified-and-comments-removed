@@ -445,6 +445,8 @@ NS_ERROR_FAILURE
 ;
 nsRect
 rect
+;
+nsIntRect
 orgRectPixels
 ;
 rv

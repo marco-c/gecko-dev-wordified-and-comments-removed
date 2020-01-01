@@ -1031,7 +1031,7 @@ composition
 event
 -
 (
-nsRect
+nsIntRect
 )
 sendCompositionEvent
 :
@@ -1490,7 +1490,7 @@ void
 GeckoRectToNSRect
 (
 const
-nsRect
+nsIntRect
 &
 inGeckoRect
 NSRect
@@ -1548,7 +1548,7 @@ const
 NSRect
 &
 inCocoaRect
-nsRect
+nsIntRect
 &
 outGeckoRect
 )
@@ -1557,10 +1557,7 @@ outGeckoRect
 .
 x
 =
-static_cast
-<
-nscoord
->
+NSToIntFloor
 (
 inCocoaRect
 .
@@ -1573,10 +1570,7 @@ outGeckoRect
 .
 y
 =
-static_cast
-<
-nscoord
->
+NSToIntFloor
 (
 inCocoaRect
 .
@@ -1589,10 +1583,7 @@ outGeckoRect
 .
 width
 =
-static_cast
-<
-nscoord
->
+NSToIntCeil
 (
 inCocoaRect
 .
@@ -1605,10 +1596,7 @@ outGeckoRect
 .
 height
 =
-static_cast
-<
-nscoord
->
+NSToIntCeil
 (
 inCocoaRect
 .
@@ -3184,7 +3172,7 @@ nsIWidget
 *
 aParent
 const
-nsRect
+nsIntRect
 &
 aRect
 EVENT_CALLBACK
@@ -4001,7 +3989,7 @@ nsIWidget
 *
 aParent
 const
-nsRect
+nsIntRect
 &
 aRect
 EVENT_CALLBACK
@@ -4059,7 +4047,7 @@ Create
 nsNativeWidget
 aNativeParent
 const
-nsRect
+nsIntRect
 &
 aRect
 EVENT_CALLBACK
@@ -6025,7 +6013,7 @@ nsChildView
 :
 GetBounds
 (
-nsRect
+nsIntRect
 &
 aRect
 )
@@ -6045,7 +6033,7 @@ nsChildView
 SetBounds
 (
 const
-nsRect
+nsIntRect
 &
 aRect
 )
@@ -8740,7 +8728,7 @@ nsChildView
 Invalidate
 (
 const
-nsRect
+nsIntRect
 &
 aRect
 PRBool
@@ -8931,7 +8919,7 @@ Region
 NSRect
 r
 ;
-nsRect
+nsIntRect
 bounds
 ;
 nsIRegion
@@ -9190,7 +9178,7 @@ PRInt32
 aDx
 PRInt32
 aDy
-nsRect
+nsIntRect
 *
 aClipRect
 )
@@ -9344,7 +9332,7 @@ to
 do
 so
 .
-nsRect
+nsIntRect
 bounds
 ;
 kid
@@ -10748,7 +10736,7 @@ origin
 in
 local
 coordinates
-nsPoint
+nsIntPoint
 widgetOrigin
 (
 0
@@ -10768,7 +10756,7 @@ relatively
 to
 the
 parent
-nsRect
+nsIntRect
 widgetRect
 ;
 GetBounds
@@ -10867,10 +10855,10 @@ nsChildView
 WidgetToScreen
 (
 const
-nsRect
+nsIntRect
 &
 aLocalRect
-nsRect
+nsIntRect
 &
 aGlobalRect
 )
@@ -11234,10 +11222,10 @@ nsChildView
 ScreenToWidget
 (
 const
-nsRect
+nsIntRect
 &
 aGlobalRect
-nsRect
+nsIntRect
 &
 aLocalRect
 )
@@ -14827,7 +14815,7 @@ currentContext
 graphicsPort
 ]
 ;
-nsRect
+nsIntRect
 geckoBounds
 ;
 mGeckoChild
@@ -15243,7 +15231,7 @@ of
 the
 dirty
 area
-nsRect
+nsIntRect
 fullRect
 ;
 NSRectToGeckoRect
@@ -27368,7 +27356,7 @@ NS_OBJC_END_TRY_ABORT_BLOCK
 }
 -
 (
-nsRect
+nsIntRect
 )
 sendCompositionEvent
 :
@@ -27406,7 +27394,7 @@ if
 mGeckoChild
 )
 return
-nsRect
+nsIntRect
 (
 0
 0
@@ -29701,7 +29689,7 @@ NSNotFound
 return
 rect
 ;
-nsRect
+nsIntRect
 r
 ;
 PRBool

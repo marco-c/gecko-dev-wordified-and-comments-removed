@@ -896,7 +896,7 @@ area
 =
 0
 ;
-nsRect
+nsIntRect
 windowRect
 (
 aX
@@ -962,7 +962,7 @@ width
 height
 )
 ;
-nsRect
+nsIntRect
 screenRect
 (
 x

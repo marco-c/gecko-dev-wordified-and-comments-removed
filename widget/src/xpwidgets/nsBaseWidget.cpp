@@ -359,7 +359,7 @@ nsIWidget
 *
 aParent
 const
-nsRect
+nsIntRect
 &
 aRect
 EVENT_CALLBACK
@@ -1618,7 +1618,7 @@ mOriginalBounds
 mOriginalBounds
 =
 new
-nsRect
+nsIntRect
 (
 )
 ;
@@ -2079,7 +2079,7 @@ nsBaseWidget
 :
 GetClientBounds
 (
-nsRect
+nsIntRect
 &
 aRect
 )
@@ -2097,7 +2097,7 @@ nsBaseWidget
 :
 GetBounds
 (
-nsRect
+nsIntRect
 &
 aRect
 )
@@ -2116,7 +2116,7 @@ nsBaseWidget
 :
 GetScreenBounds
 (
-nsRect
+nsIntRect
 &
 aRect
 )
@@ -2135,7 +2135,7 @@ nsBaseWidget
 SetBounds
 (
 const
-nsRect
+nsIntRect
 &
 aRect
 )
@@ -2162,10 +2162,10 @@ PRInt32
 aHeight
 )
 {
-nsRect
+nsIntRect
 rectWin
 ;
-nsRect
+nsIntRect
 rect
 ;
 GetBounds
@@ -2232,7 +2232,7 @@ nsBaseWidget
 :
 ScrollRect
 (
-nsRect
+nsIntRect
 &
 aRect
 PRInt32
@@ -4203,7 +4203,7 @@ nsIWidget
 *
 aWidget
 const
-nsRect
+nsIntRect
 *
 aRect
 PRBool

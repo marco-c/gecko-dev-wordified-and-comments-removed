@@ -107,10 +107,10 @@ private
 PRUint32
 mScreenNum
 ;
-nsRect
+nsIntRect
 mRect
 ;
-nsRect
+nsIntRect
 mAvailRect
 ;
 }
