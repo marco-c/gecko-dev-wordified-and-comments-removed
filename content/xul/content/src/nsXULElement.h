@@ -1880,12 +1880,8 @@ IntrinsicState
 const
 ;
 nsresult
-GetStyle
+EnsureLocalStyle
 (
-nsIDOMCSSStyleDeclaration
-*
-*
-aStyle
 )
 ;
 nsresult
