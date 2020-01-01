@@ -663,6 +663,7 @@ _targetScrollbox
 )
 {
 return
+false
 ;
 }
 if
