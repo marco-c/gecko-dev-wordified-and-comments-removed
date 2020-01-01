@@ -8930,9 +8930,6 @@ case
 SRC_PCDELTA
 :
 case
-SRC_DECL
-:
-case
 SRC_BRACE
 :
 Sprint
