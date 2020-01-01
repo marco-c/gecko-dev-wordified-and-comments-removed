@@ -1270,7 +1270,7 @@ false
 overlaps
 :
 function
-Range_overlaps
+Rect_overlaps
 (
 value
 )
@@ -3137,7 +3137,6 @@ target
 attempt
 :
 function
-Utils_attempt
 (
 )
 {

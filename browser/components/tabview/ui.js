@@ -2067,7 +2067,7 @@ true
 ;
 gBrowser
 .
-selectedBrowser
+contentWindow
 .
 focus
 (
@@ -3855,7 +3855,7 @@ groupItem
 updateTabButton
 :
 function
-UI_updateTabButton
+UI__updateTabButton
 (
 )
 {

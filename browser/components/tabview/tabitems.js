@@ -715,7 +715,6 @@ false
 isShowingCachedData
 :
 function
-TabItem_isShowingCachedData
 (
 )
 {
@@ -4083,7 +4082,7 @@ _fragment
 isComplete
 :
 function
-TabItems_isComplete
+TabItems_update
 (
 tab
 )

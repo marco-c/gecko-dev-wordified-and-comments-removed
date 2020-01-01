@@ -412,15 +412,6 @@ base
 content
 /
 test
-DIRS
-+
-=
-\
-tabview
-\
-(
-NULL
-)
 include
 (
 DEPTH
@@ -1037,10 +1028,6 @@ browser_hide_removing
 js
 \
 browser_overflowScroll
-.
-js
-\
-browser_locationBarCommand
 .
 js
 \

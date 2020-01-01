@@ -240,7 +240,7 @@ true
 setPosition
 :
 function
-Trench_setPosition
+Trench_setPos
 (
 position
 range
@@ -410,7 +410,7 @@ show
 setActiveRange
 :
 function
-Trench_setActiveRange
+Trench_setActiveRect
 (
 activeRange
 )
