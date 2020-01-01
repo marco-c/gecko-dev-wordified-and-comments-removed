@@ -244,6 +244,13 @@ _ZN8JSObject25allocateSlowArrayElementsEP9JSContext
 {
 Bug
 793533
+(
+all
+64
+-
+bit
+systems
+)
 Memcheck
 :
 Leak
@@ -255,7 +262,7 @@ fun
 moz_xmalloc
 fun
 :
-_Z22xpc_CreateGlobalObjectP9JSContextP7JSClassP12nsIPrincipalP11nsISupportsbPP8JSObjectPP13JSCompartment
+_ZN3xpc18CreateGlobalObjectEP9JSContextP7JSClassP12nsIPrincipalbPP8JSObjectPP13JSCompartment
 .
 .
 .
