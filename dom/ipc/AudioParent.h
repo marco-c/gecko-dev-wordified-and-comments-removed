@@ -113,8 +113,6 @@ virtual
 bool
 SendDrainDone
 (
-nsresult
-status
 )
 ;
 AudioParent
@@ -138,11 +136,6 @@ void
 ActorDestroy
 (
 ActorDestroyReason
-)
-;
-void
-EnteringErrorState
-(
 )
 ;
 nsRefPtr
