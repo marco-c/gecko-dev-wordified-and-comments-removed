@@ -3154,7 +3154,6 @@ GetAssociatedEditor
 (
 )
 ;
-virtual
 mozilla
 :
 :
