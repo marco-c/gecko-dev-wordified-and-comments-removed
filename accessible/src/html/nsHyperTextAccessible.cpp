@@ -816,10 +816,6 @@ mAccChildCount
 eChildCountUninitialized
 )
 {
-mAccChildCount
-=
-0
-;
 PRUint32
 role
 ;
@@ -889,6 +885,10 @@ CacheChildren
 return
 ;
 }
+mAccChildCount
+=
+0
+;
 nsCOMPtr
 <
 nsIDOMElement
