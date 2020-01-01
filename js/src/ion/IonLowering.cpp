@@ -50,10 +50,6 @@ LoweringPhase
 public
 MInstructionVisitor
 {
-MIRGenerator
-*
-gen
-;
 MIRGraph
 &
 graph
@@ -62,18 +58,11 @@ public
 :
 LoweringPhase
 (
-MIRGenerator
-*
-gen
 MIRGraph
 &
 graph
 )
 :
-gen
-(
-gen
-)
 graph
 (
 graph
@@ -184,7 +173,6 @@ MConvert
 :
 New
 (
-gen
 ins
 usedAs
 )
@@ -388,7 +376,6 @@ MBox
 :
 New
 (
-gen
 ins
 )
 ;
@@ -440,7 +427,6 @@ MConvert
 :
 New
 (
-gen
 ins
 required
 )
@@ -634,9 +620,6 @@ ion
 :
 Lower
 (
-MIRGenerator
-*
-gen
 MIRGraph
 &
 graph
@@ -645,7 +628,6 @@ graph
 LoweringPhase
 phase
 (
-gen
 graph
 )
 ;

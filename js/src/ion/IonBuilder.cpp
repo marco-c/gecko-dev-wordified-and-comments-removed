@@ -61,6 +61,18 @@ jsscriptinlines
 .
 h
 "
+#
+ifdef
+JS_THREADSAFE
+#
+include
+"
+prthread
+.
+h
+"
+#
+endif
 using
 namespace
 js
@@ -99,6 +111,14 @@ cx
 tempPool
 )
 ;
+IonContext
+ictx
+(
+cx
+&
+temp
+)
+;
 JSFunction
 *
 fun
@@ -121,9 +141,6 @@ NULL
 ;
 MIRGraph
 graph
-(
-cx
-)
 ;
 C1Spewer
 spew
@@ -183,8 +200,6 @@ if
 !
 ApplyTypeInformation
 (
-&
-analyzer
 graph
 )
 )
@@ -196,8 +211,6 @@ if
 !
 Lower
 (
-&
-analyzer
 graph
 )
 )
@@ -241,25 +254,14 @@ graph
 :
 MIRGenerator
 (
-cx
 temp
 script
 fun
 graph
 )
-cfgStack_
-(
-TempAllocPolicy
+cx
 (
 cx
-)
-)
-loops_
-(
-TempAllocPolicy
-(
-cx
-)
 )
 {
 pc
@@ -747,7 +749,6 @@ MParameter
 :
 New
 (
-this
 MParameter
 :
 :
@@ -786,7 +787,6 @@ MParameter
 :
 New
 (
-this
 MParameter
 :
 :
@@ -843,7 +843,6 @@ MParameter
 :
 New
 (
-this
 int
 (
 i
@@ -905,7 +904,6 @@ MConstant
 :
 New
 (
-this
 UndefinedValue
 (
 )
@@ -1885,7 +1883,6 @@ MGoto
 :
 New
 (
-this
 state
 .
 branch
@@ -2110,7 +2107,6 @@ MGoto
 :
 New
 (
-this
 join
 )
 ;
@@ -2140,7 +2136,6 @@ MGoto
 :
 New
 (
-this
 join
 )
 ;
@@ -2255,7 +2250,6 @@ MGoto
 :
 New
 (
-this
 breaks
 )
 ;
@@ -2350,7 +2344,6 @@ MTest
 :
 New
 (
-this
 last
 state
 .
@@ -2372,7 +2365,6 @@ MGoto
 :
 New
 (
-this
 state
 .
 loop
@@ -2439,7 +2431,6 @@ MGoto
 :
 New
 (
-this
 successor
 )
 ;
@@ -2636,7 +2627,6 @@ MTest
 :
 New
 (
-this
 ins
 body
 state
@@ -2847,7 +2837,6 @@ MTest
 :
 New
 (
-this
 ins
 body
 state
@@ -2949,7 +2938,6 @@ MGoto
 :
 New
 (
-this
 update
 )
 ;
@@ -3006,7 +2994,6 @@ MGoto
 :
 New
 (
-this
 update
 )
 ;
@@ -3320,11 +3307,6 @@ DeferredEdge
 edge
 =
 new
-(
-temp
-(
-)
-)
 DeferredEdge
 (
 current
@@ -3491,11 +3473,6 @@ DeferredEdge
 edge
 =
 new
-(
-temp
-(
-)
-)
 DeferredEdge
 (
 current
@@ -3869,7 +3846,6 @@ MGoto
 :
 New
 (
-this
 header
 )
 ;
@@ -4025,7 +4001,6 @@ MGoto
 :
 New
 (
-this
 header
 )
 ;
@@ -4302,7 +4277,6 @@ MGoto
 :
 New
 (
-this
 header
 )
 ;
@@ -4558,7 +4532,6 @@ MTest
 :
 New
 (
-this
 ins
 ifTrue
 ifFalse
@@ -4795,7 +4768,6 @@ MConstant
 :
 New
 (
-this
 UndefinedValue
 (
 )
@@ -4844,7 +4816,6 @@ MReturn
 :
 New
 (
-this
 ins
 )
 ;
@@ -4893,7 +4864,6 @@ MConstant
 :
 New
 (
-this
 v
 )
 ;
@@ -4974,7 +4944,6 @@ MBitAnd
 :
 New
 (
-this
 left
 right
 )

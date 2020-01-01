@@ -19,9 +19,6 @@ MIRGraph
 bool
 ApplyTypeInformation
 (
-MIRGenerator
-*
-gen
 MIRGraph
 &
 graph

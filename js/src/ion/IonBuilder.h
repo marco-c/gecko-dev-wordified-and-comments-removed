@@ -606,6 +606,10 @@ op
 ;
 private
 :
+JSContext
+*
+cx
+;
 JSAtom
 *
 *
@@ -619,7 +623,7 @@ Vector
 <
 CFGState
 8
-TempAllocPolicy
+IonAllocPolicy
 >
 cfgStack_
 ;
@@ -627,7 +631,7 @@ Vector
 <
 LoopInfo
 4
-TempAllocPolicy
+IonAllocPolicy
 >
 loops_
 ;

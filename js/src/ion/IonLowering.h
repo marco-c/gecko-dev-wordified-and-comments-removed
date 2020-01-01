@@ -11,17 +11,11 @@ namespace
 ion
 {
 class
-MIRGenerator
-;
-class
 MIRGraph
 ;
 bool
 Lower
 (
-MIRGenerator
-*
-gen
 MIRGraph
 &
 graph
