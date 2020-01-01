@@ -431,6 +431,16 @@ classic
 /
 global
 /
+resizer
+.
+css
++
+skin
+/
+classic
+/
+global
+/
 richlistbox
 .
 css
