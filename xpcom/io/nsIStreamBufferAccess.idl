@@ -1206,14 +1206,8 @@ x
 UL
 #
 elif
-(
 defined
 WIN32
-|
-|
-defined
-WIN16
-)
 &
 &
 !
