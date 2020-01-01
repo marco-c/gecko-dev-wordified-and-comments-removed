@@ -843,14 +843,6 @@ jschar
 *
 pos
 ;
-JSRuntime
-*
-rt
-=
-runtime
-(
-)
-;
 JSRope
 *
 leftMostRope
@@ -1185,7 +1177,7 @@ this
 ;
 StringWriteBarrierPostRemove
 (
-rt
+maybetcx
 &
 left
 .
@@ -1198,7 +1190,7 @@ left
 ;
 StringWriteBarrierPost
 (
-rt
+maybetcx
 (
 JSString
 *
@@ -1312,7 +1304,7 @@ pos
 ;
 StringWriteBarrierPostRemove
 (
-rt
+maybetcx
 &
 str
 -
@@ -1543,7 +1535,7 @@ wholeCapacity
 ;
 StringWriteBarrierPostRemove
 (
-rt
+maybetcx
 &
 str
 -
@@ -1557,7 +1549,7 @@ left
 ;
 StringWriteBarrierPostRemove
 (
-rt
+maybetcx
 &
 str
 -
@@ -1632,7 +1624,7 @@ this
 ;
 StringWriteBarrierPost
 (
-rt
+maybetcx
 (
 JSString
 *
