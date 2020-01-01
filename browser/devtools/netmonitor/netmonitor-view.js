@@ -291,16 +291,13 @@ GENERIC_VARIABLES_VIEW_SETTINGS
 {
 lazyEmpty
 :
-false
+true
 lazyEmptyDelay
 :
 10
 searchEnabled
 :
 true
-descriptorTooltip
-:
-false
 editableValueTooltip
 :
 "
@@ -310,6 +307,9 @@ editableNameTooltip
 "
 "
 preventDisableOnChage
+:
+true
+preventDescriptorModifiers
 :
 true
 eval
@@ -7284,9 +7284,6 @@ header
 .
 name
 {
-null
-:
-true
 }
 true
 )
@@ -7447,9 +7444,6 @@ cookie
 .
 name
 {
-null
-:
-true
 }
 true
 )
@@ -8026,9 +8020,6 @@ param
 .
 name
 {
-null
-:
-true
 }
 true
 )
