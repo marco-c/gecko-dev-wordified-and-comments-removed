@@ -6915,9 +6915,9 @@ stderr
 cx
 -
 >
-tracePrevOp
+tracePrevPc
 =
-JSOP_LIMIT
+NULL
 ;
 }
 void

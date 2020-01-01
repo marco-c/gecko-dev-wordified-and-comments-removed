@@ -2273,8 +2273,9 @@ void
 *
 tracefp
 ;
-JSOp
-tracePrevOp
+jsbytecode
+*
+tracePrevPc
 ;
 #
 endif
