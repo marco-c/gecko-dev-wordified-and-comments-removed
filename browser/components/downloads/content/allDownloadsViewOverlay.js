@@ -3532,11 +3532,6 @@ downloadsCmd_retry
 case
 nsIDM
 .
-DOWNLOAD_DOWNLOADING
-:
-case
-nsIDM
-.
 DOWNLOAD_SCANNING
 :
 return
@@ -3586,6 +3581,9 @@ state
 ;
 if
 (
+command
+&
+&
 this
 .
 isCommandEnabled
