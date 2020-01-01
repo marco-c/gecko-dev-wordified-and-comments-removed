@@ -11858,6 +11858,8 @@ nsIntPoint
 aSrcPoint
 bool
 aPixelBuffer
+GLenum
+aTextureUnit
 )
 {
 bool
@@ -11875,7 +11877,7 @@ MakeCurrent
 ;
 fActiveTexture
 (
-LOCAL_GL_TEXTURE0
+aTextureUnit
 )
 ;
 if

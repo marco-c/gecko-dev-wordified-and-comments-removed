@@ -3899,6 +3899,10 @@ bool
 aPixelBuffer
 =
 false
+GLenum
+aTextureUnit
+=
+LOCAL_GL_TEXTURE0
 )
 ;
 void
