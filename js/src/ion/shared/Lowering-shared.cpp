@@ -161,8 +161,9 @@ ins
 ;
 default
 :
-JS_NOT_REACHED
+JS_ASSERT
 (
+!
 "
 unexpected
 constant
@@ -174,9 +175,6 @@ return
 false
 ;
 }
-return
-true
-;
 }
 bool
 LIRGeneratorShared
