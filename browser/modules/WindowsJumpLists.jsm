@@ -442,7 +442,7 @@ blank
 "
 iconIndex
 :
-0
+3
 open
 :
 true
@@ -491,7 +491,7 @@ browser
 "
 iconIndex
 :
-0
+2
 open
 :
 true
@@ -592,7 +592,7 @@ toggle
 "
 iconIndex
 :
-0
+4
 get
 open
 (
