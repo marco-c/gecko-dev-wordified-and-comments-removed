@@ -5902,6 +5902,16 @@ pref
 "
 reader
 .
+force_allow
+"
+false
+)
+;
+pref
+(
+"
+reader
+.
 font_size
 "
 4
