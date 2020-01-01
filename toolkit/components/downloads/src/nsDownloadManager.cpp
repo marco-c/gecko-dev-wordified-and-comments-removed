@@ -8732,9 +8732,9 @@ if
 (
 resumableChannel
 )
-{
-rv
-=
+(
+void
+)
 resumableChannel
 -
 >
@@ -8743,13 +8743,6 @@ GetEntityID
 mEntityID
 )
 ;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
-)
-;
-}
 rv
 =
 SetState
