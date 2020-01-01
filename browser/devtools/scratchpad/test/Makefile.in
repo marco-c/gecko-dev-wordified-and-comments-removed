@@ -193,6 +193,10 @@ browser_scratchpad_open_error_console
 .
 js
 \
+browser_scratchpad_pprint
+.
+js
+\
 head
 .
 js
