@@ -479,11 +479,6 @@ uint32_t
 aDirtyFlags
 )
 ;
-uint32_t
-AppUnitsPerDevPixel
-(
-)
-;
 nsChromeTreeOwner
 *
 mChromeTreeOwner
@@ -601,9 +596,6 @@ mPersistentAttributesMask
 ;
 uint32_t
 mChromeFlags
-;
-uint32_t
-mAppPerDev
 ;
 nsString
 mTitle
