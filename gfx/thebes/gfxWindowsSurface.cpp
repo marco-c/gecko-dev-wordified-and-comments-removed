@@ -824,7 +824,11 @@ NS_PRINTING
 #
 define
 DOC_TITLE_LENGTH
-30
+(
+MAX_PATH
+-
+1
+)
 DOCINFOW
 docinfo
 ;
