@@ -3719,6 +3719,16 @@ merge
 time
 .
 endif
+ifndef
+MOZ_ASAN
+JITTESTPARAMS
+=
+"
+-
+-
+valgrind
+"
+endif
 JITFLAGS
 =
 m
@@ -3761,9 +3771,6 @@ py
 \
 -
 -
-valgrind
--
--
 no
 -
 slow
@@ -3781,6 +3788,9 @@ jitflags
 =
 (
 JITFLAGS
+)
+(
+JITTESTPARAMS
 )
 (
 DIST
