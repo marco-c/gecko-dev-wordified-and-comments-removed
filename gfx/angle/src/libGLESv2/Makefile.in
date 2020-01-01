@@ -288,6 +288,16 @@ srcdir
 /
 .
 .
+\
+-
+I
+"
+(
+MOZ_DIRECTX_SDK_PATH
+)
+/
+include
+"
 DEFINES
 +
 =
