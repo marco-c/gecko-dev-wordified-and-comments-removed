@@ -565,6 +565,10 @@ browser_console_nsiconsolemessage
 .
 js
 \
+browser_webconsole_bug_817834_add_edited_input_to_history
+.
+js
+\
 head
 .
 js
