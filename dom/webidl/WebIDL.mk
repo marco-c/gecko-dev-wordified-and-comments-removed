@@ -179,10 +179,6 @@ EventListener
 .
 webidl
 \
-EventSource
-.
-webidl
-\
 EventTarget
 .
 webidl
@@ -239,6 +235,10 @@ ImageData
 .
 webidl
 \
+Location
+.
+webidl
+\
 MutationObserver
 .
 webidl
@@ -252,10 +252,6 @@ NodeFilter
 webidl
 \
 NodeList
-.
-webidl
-\
-PaintRequest
 .
 webidl
 \

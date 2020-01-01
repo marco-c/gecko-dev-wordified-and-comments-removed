@@ -1471,6 +1471,12 @@ selectedStyleSheetSet
 >
 *
 /
+[
+binaryname
+(
+MozSelectedStyleSheetSet
+)
+]
 attribute
 DOMString
 selectedStyleSheetSet
@@ -1818,6 +1824,12 @@ enableStyleSheetsForSet
 >
 *
 /
+[
+binaryname
+(
+MozEnableStyleSheetsForSet
+)
+]
 void
 enableStyleSheetsForSet
 (

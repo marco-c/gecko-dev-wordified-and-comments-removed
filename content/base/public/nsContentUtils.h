@@ -962,6 +962,7 @@ static
 nsresult
 CheckSameOrigin
 (
+const
 nsINode
 *
 aTrustedNode
@@ -974,9 +975,11 @@ static
 nsresult
 CheckSameOrigin
 (
+const
 nsINode
 *
 aTrustedNode
+const
 nsINode
 *
 unTrustedNode
