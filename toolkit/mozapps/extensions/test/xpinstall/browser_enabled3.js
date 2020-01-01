@@ -3,10 +3,6 @@ test
 (
 )
 {
-ignoreAllUncaughtExceptions
-(
-)
-;
 Harness
 .
 installDisabledCallback
