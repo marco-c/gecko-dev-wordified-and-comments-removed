@@ -1176,16 +1176,6 @@ PRInt64
 aResult
 )
 {
-if
-(
-NS_FAILED
-(
-mStatus
-)
-)
-return
-mStatus
-;
 LL_UI2L
 (
 *
