@@ -979,9 +979,14 @@ push
 [
 sv
 .
+trimUrlLength
+(
+sv
+.
 getSourceLabel
 (
 loc
+)
 )
 loc
 ]
