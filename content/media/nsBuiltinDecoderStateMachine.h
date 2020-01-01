@@ -487,6 +487,11 @@ return
 mEndTime
 ;
 }
+void
+NotifyDataExhausted
+(
+)
+;
 protected
 :
 PRBool

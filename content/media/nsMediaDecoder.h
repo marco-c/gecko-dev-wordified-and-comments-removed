@@ -567,6 +567,14 @@ CanPlayThrough
 (
 )
 ;
+virtual
+void
+NotifyDataExhausted
+(
+)
+=
+0
+;
 protected
 :
 nsresult
