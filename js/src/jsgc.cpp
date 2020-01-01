@@ -13332,7 +13332,7 @@ trc
 allAtoms
 )
 ;
-js_TraceNativeIteratorStates
+js_TraceNativeEnumerators
 (
 trc
 )
