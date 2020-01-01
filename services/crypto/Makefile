@@ -959,7 +959,6 @@ smime3
 ssl3
 nss3
 nssutil3
-softokn3
 \
 plds4
 plc4
