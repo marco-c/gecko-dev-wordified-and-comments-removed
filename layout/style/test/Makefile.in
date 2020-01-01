@@ -868,6 +868,10 @@ test_bug524175
 .
 html
 \
+test_bug534804
+.
+html
+\
 test_cascade
 .
 html

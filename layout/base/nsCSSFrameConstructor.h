@@ -621,6 +621,14 @@ RestyleData
 aRestyles
 )
 ;
+void
+RestyleForEmptyChange
+(
+Element
+*
+aContainer
+)
+;
 public
 :
 void
