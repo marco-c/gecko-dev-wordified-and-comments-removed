@@ -366,14 +366,11 @@ nsPIDOMWindow
 >
 window
 (
-do_QueryInterface
-(
 mDocument
 -
 >
-GetScriptGlobalObject
+GetWindow
 (
-)
 )
 )
 ;

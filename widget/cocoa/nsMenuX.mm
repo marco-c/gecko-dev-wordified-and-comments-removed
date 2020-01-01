@@ -2346,8 +2346,10 @@ OwnerDoc
 (
 )
 ;
+nsCOMPtr
+<
 nsIScriptGlobalObject
-*
+>
 sgo
 ;
 if
@@ -2358,11 +2360,14 @@ ownerDoc
 (
 sgo
 =
+do_QueryInterface
+(
 ownerDoc
 -
 >
-GetScriptGlobalObject
+GetWindow
 (
+)
 )
 )
 )

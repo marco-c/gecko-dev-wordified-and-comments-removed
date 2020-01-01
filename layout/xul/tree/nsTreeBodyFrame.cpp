@@ -12695,7 +12695,7 @@ GetCurrentDoc
 )
 -
 >
-GetScriptGlobalObject
+GetWindow
 (
 )
 )

@@ -2120,14 +2120,11 @@ NS_ERROR_FAILURE
 ;
 privateWindow
 =
-do_QueryInterface
-(
 doc
 -
 >
-GetScriptGlobalObject
+GetWindow
 (
-)
 )
 ;
 if

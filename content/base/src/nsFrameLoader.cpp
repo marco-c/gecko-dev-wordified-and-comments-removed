@@ -7863,7 +7863,7 @@ do_GetInterface
 doc
 -
 >
-GetScriptGlobalObject
+GetWindow
 (
 )
 )
@@ -8603,7 +8603,7 @@ do_GetInterface
 doc
 -
 >
-GetScriptGlobalObject
+GetWindow
 (
 )
 )

@@ -2265,15 +2265,6 @@ mChannel
 ;
 }
 virtual
-nsIScriptGlobalObject
-*
-GetScriptGlobalObject
-(
-)
-const
-MOZ_OVERRIDE
-;
-virtual
 void
 SetScriptGlobalObject
 (

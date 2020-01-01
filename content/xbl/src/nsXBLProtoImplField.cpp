@@ -761,10 +761,14 @@ MOZ_ASSERT
 field
 )
 ;
+nsCOMPtr
+<
 nsIScriptGlobalObject
-*
+>
 global
 =
+do_QueryInterface
+(
 xblNode
 -
 >
@@ -773,8 +777,9 @@ OwnerDoc
 )
 -
 >
-GetScriptGlobalObject
+GetWindow
 (
+)
 )
 ;
 if
