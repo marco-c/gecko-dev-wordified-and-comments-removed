@@ -184,6 +184,10 @@ tempPrivateTextRange
 }
 }
 }
+SetIsDOMBinding
+(
+)
+;
 }
 NS_IMPL_ADDREF_INHERITED
 (
