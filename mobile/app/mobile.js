@@ -4534,6 +4534,9 @@ dragThreshold
 24
 )
 ;
+#
+ifndef
+MOZ_PLATFORM_MAEMO
 pref
 (
 "
@@ -4546,3 +4549,5 @@ all
 true
 )
 ;
+#
+endif
