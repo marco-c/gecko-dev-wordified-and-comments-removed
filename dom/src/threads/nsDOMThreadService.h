@@ -148,14 +148,6 @@ nsDOMWorkerTimeout
 ;
 friend
 class
-nsDOMWorkerXHR
-;
-friend
-class
-nsDOMWorkerXHRProxy
-;
-friend
-class
 nsLayoutStatics
 ;
 public

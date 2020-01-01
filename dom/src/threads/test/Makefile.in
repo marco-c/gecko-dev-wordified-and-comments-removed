@@ -495,14 +495,6 @@ test_longThread
 .
 html
 \
-test_xhr
-.
-html
-\
-testXHR
-.
-txt
-\
 (
 NULL
 )
