@@ -2688,7 +2688,7 @@ sweepFlag
 {
 ENSURE_MATCHED
 (
-MatchNonNegativeNumber
+MatchNumber
 (
 r1
 )
@@ -2711,7 +2711,7 @@ MatchCommaWsp
 }
 ENSURE_MATCHED
 (
-MatchNonNegativeNumber
+MatchNumber
 (
 r2
 )
@@ -2823,7 +2823,7 @@ IsTokenEllipticalArcArgStarter
 )
 {
 return
-IsTokenNonNegativeNumberStarter
+IsTokenNumberStarter
 (
 )
 ;
