@@ -310,6 +310,16 @@ id
 "
 clearDownloadsButton
 "
+#
+ifdef
+XP_MACOSX
+class
+=
+"
+tabbable
+"
+#
+endif
 insertbefore
 =
 "
