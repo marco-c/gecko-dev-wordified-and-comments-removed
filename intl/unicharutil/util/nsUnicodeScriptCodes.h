@@ -4,6 +4,12 @@ NS_UNICODE_SCRIPT_CODES
 #
 define
 NS_UNICODE_SCRIPT_CODES
+#
+pragma
+pack
+(
+1
+)
 struct
 nsCharProps1
 {
@@ -74,6 +80,11 @@ mHanVariant
 ;
 }
 ;
+#
+pragma
+pack
+(
+)
 enum
 {
 MOZ_SCRIPT_COMMON

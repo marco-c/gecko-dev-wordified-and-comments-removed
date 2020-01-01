@@ -47,7 +47,9 @@ UNICODE_BMP_LIMIT
 define
 UNICODE_LIMIT
 0x110000
+const
 nsCharProps1
+&
 GetCharProps1
 (
 PRUint32
@@ -148,6 +150,8 @@ kCharProp1CharBits
 ]
 ;
 }
+static
+const
 nsCharProps1
 undefined
 =
@@ -161,7 +165,9 @@ return
 undefined
 ;
 }
+const
 nsCharProps2
+&
 GetCharProps2
 (
 PRUint32
@@ -275,6 +281,8 @@ range
 "
 )
 ;
+static
+const
 nsCharProps2
 undefined
 =
@@ -292,6 +300,13 @@ unicode
 XIDMOD_NOT_CHARS
 -
 1
+mozilla
+:
+:
+unicode
+:
+:
+HVT_NotHan
 }
 ;
 return
