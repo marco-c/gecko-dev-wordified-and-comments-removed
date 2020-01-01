@@ -1046,7 +1046,7 @@ retval
 char
 lineBuffer
 [
-0x500
+0x1000
 ]
 ;
 int
