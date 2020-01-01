@@ -44160,7 +44160,7 @@ chromeFlags
 nsIWebBrowserChrome
 :
 :
-CHROME_MODAL_CONTENT_WINDOW
+CHROME_MODAL
 )
 ;
 if
