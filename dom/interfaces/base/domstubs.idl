@@ -710,9 +710,3 @@ nsIDOMFontFace
 interface
 nsIDOMFontFaceList
 ;
-/
-/
-Power
-interface
-nsIDOMMozPowerManager
-;
