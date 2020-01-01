@@ -2942,6 +2942,7 @@ CUBEB_ERROR
 *
 latency
 =
+(
 r_usec
 *
 stm
@@ -2950,8 +2951,9 @@ stm
 sample_spec
 .
 rate
+)
 /
-PA_USEC_PER_SEC
+PR_NSEC_PER_SEC
 ;
 return
 CUBEB_OK
