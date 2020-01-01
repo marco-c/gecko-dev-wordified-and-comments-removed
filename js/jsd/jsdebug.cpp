@@ -322,14 +322,6 @@ uint32_t
 flags
 )
 {
-uint32_t
-oldFlags
-=
-jsdc
--
->
-flags
-;
 JSD_ASSERT_VALID_CONTEXT
 (
 jsdc
@@ -3190,7 +3182,7 @@ endif
 }
 JSD_PUBLIC_API
 (
-void
+JSDStaticLock
 *
 )
 JSD_CreateLock
@@ -3223,7 +3215,7 @@ void
 )
 JSD_Lock
 (
-void
+JSDStaticLock
 *
 lock
 )
@@ -3245,7 +3237,7 @@ void
 )
 JSD_Unlock
 (
-void
+JSDStaticLock
 *
 lock
 )
@@ -3267,7 +3259,7 @@ JSBool
 )
 JSD_IsLocked
 (
-void
+JSDStaticLock
 *
 lock
 )
@@ -3304,7 +3296,7 @@ JSBool
 )
 JSD_IsUnlocked
 (
-void
+JSDStaticLock
 *
 lock
 )

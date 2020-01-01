@@ -2380,10 +2380,6 @@ jsdscript
 JSBool
 ok
 ;
-unsigned
-*
-lines
-;
 jsbytecode
 *
 *

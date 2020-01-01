@@ -1166,10 +1166,6 @@ JSDStackFrameInfo
 jsdframe
 )
 {
-JSObject
-*
-obj
-;
 JSDValue
 *
 jsdval

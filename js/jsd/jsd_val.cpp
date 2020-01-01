@@ -789,9 +789,6 @@ JSString
 *
 string
 ;
-JSBool
-needWrap
-;
 JSObject
 *
 scopeObj

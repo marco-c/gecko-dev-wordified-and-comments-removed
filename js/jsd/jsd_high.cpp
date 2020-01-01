@@ -47,7 +47,7 @@ endif
 #
 ifdef
 JSD_THREADSAFE
-void
+JSDStaticLock
 *
 _jsd_global_lock
 =
@@ -736,12 +736,6 @@ JSDContext
 *
 jsdc
 ;
-JSContext
-*
-iter
-=
-NULL
-;
 jsdc
 =
 _newJSDContext
@@ -1178,15 +1172,6 @@ void
 data
 )
 {
-void
-*
-rval
-=
-jsdc
--
->
-data
-;
 jsdc
 -
 >
