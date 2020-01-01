@@ -6915,3 +6915,13 @@ animation_frames
 "
 )
 ;
+pref
+(
+"
+accessibility
+.
+accessfu
+"
+2
+)
+;
