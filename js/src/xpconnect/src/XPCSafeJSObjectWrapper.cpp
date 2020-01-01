@@ -3325,7 +3325,7 @@ return
 WrapJSValue
 (
 cx
-obj
+safeObj
 *
 rval
 rval
