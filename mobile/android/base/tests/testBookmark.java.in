@@ -912,7 +912,7 @@ false
 Can
 not
 call
-addBookmark
+isBookmarked
 "
 )
 ;
@@ -938,7 +938,7 @@ false
 "
 Error
 calling
-addBookmark
+isBookmarked
 "
 )
 ;
@@ -948,7 +948,7 @@ false
 ;
 }
 }
-MAX_WAIT_MS
+10000
 )
 ;
 try
