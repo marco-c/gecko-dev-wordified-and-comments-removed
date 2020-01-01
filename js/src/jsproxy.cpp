@@ -814,7 +814,6 @@ return
 JSIdArrayToIterator
 (
 cx
-proxy
 flags
 ida
 vp

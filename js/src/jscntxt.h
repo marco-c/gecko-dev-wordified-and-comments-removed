@@ -2741,10 +2741,6 @@ jsuword
 *
 nativeStackBase
 ;
-JSObject
-*
-enumerators
-;
 bool
 init
 (
