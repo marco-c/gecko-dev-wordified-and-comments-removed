@@ -1585,7 +1585,7 @@ nsFloatManager
 aFloatManager
 )
 ;
-nsresult
+void
 ReflowPushedFloats
 (
 nsBlockReflowState
@@ -1671,7 +1671,7 @@ nsIFrame
 aFrame
 )
 ;
-nsresult
+void
 PrepareResizeReflow
 (
 nsBlockReflowState
@@ -1949,7 +1949,7 @@ bool
 aKeepReflowGoing
 )
 ;
-nsresult
+void
 SplitLine
 (
 nsBlockReflowState
