@@ -383,6 +383,10 @@ test_bug832025
 .
 html
 \
+test_bug857487
+.
+html
+\
 test_spellcheck_pref
 .
 html
