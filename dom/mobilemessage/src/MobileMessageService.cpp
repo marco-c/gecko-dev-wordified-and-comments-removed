@@ -354,10 +354,6 @@ nsAString
 aBody
 uint64_t
 aUnreadCount
-const
-nsAString
-&
-aLastMessageType
 JSContext
 *
 aCx
@@ -378,7 +374,6 @@ aParticipants
 aTimestamp
 aBody
 aUnreadCount
-aLastMessageType
 aCx
 aThread
 )
