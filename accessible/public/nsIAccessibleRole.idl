@@ -594,8 +594,6 @@ or
 role
 =
 "
-wairole
-:
 menubar
 "
 .
@@ -827,8 +825,6 @@ browsermessage
 role
 =
 "
-wairole
-:
 alert
 "
 xforms
@@ -942,8 +938,6 @@ for
 role
 =
 "
-wairole
-:
 menu
 "
 .
@@ -997,8 +991,6 @@ menuitem
 role
 =
 "
-wairole
-:
 menuitem
 "
 .
@@ -1052,8 +1044,6 @@ for
 role
 =
 "
-wairole
-:
 application
 "
 .
@@ -1098,8 +1088,6 @@ for
 role
 =
 "
-wairole
-:
 document
 "
 .
@@ -1241,8 +1229,6 @@ dialog
 role
 =
 "
-wairole
-:
 dialog
 "
 .
@@ -1316,8 +1302,6 @@ groupbox
 role
 =
 "
-wairole
-:
 group
 "
 .
@@ -1375,8 +1359,6 @@ hr
 role
 =
 "
-wairole
-:
 separator
 "
 .
@@ -1430,8 +1412,6 @@ toolbar
 role
 =
 "
-wairole
-:
 toolbar
 "
 .
@@ -1544,8 +1524,6 @@ table
 role
 =
 "
-wairole
-:
 grid
 "
 .
@@ -1607,8 +1585,6 @@ th
 role
 =
 "
-wairole
-:
 colheader
 "
 .
@@ -1652,8 +1628,6 @@ for
 role
 =
 "
-wairole
-:
 rowheader
 "
 .
@@ -1744,8 +1718,6 @@ td
 role
 =
 "
-wairole
-:
 gridcell
 "
 .
@@ -1928,8 +1900,6 @@ size
 role
 =
 "
-wairole
-:
 list
 "
 .
@@ -2011,8 +1981,6 @@ for
 role
 =
 "
-wairole
-:
 tree
 "
 .
@@ -2047,8 +2015,6 @@ for
 role
 =
 "
-wairole
-:
 treeitem
 "
 .
@@ -2090,8 +2056,6 @@ tab
 role
 =
 "
-wairole
-:
 treeitem
 "
 .
@@ -2129,8 +2093,6 @@ tabpanel
 role
 =
 "
-wairole
-:
 tabpanel
 "
 .
@@ -2249,16 +2211,12 @@ lablel
 role
 =
 "
-wairole
-:
 label
 "
 or
 role
 =
 "
-wairole
-:
 description
 "
 xforms
@@ -2324,8 +2282,6 @@ button
 role
 =
 "
-wairole
-:
 button
 "
 xforms
@@ -2373,8 +2329,6 @@ checkbox
 role
 =
 "
-wairole
-:
 checkbox
 "
 boolean
@@ -2459,8 +2413,6 @@ radio
 role
 =
 "
-wairole
-:
 radio
 "
 .
@@ -2513,8 +2465,6 @@ menulist
 role
 =
 "
-wairole
-:
 combobox
 "
 .
@@ -2587,8 +2537,6 @@ progressmeter
 role
 =
 "
-wairole
-:
 progressbar
 "
 .
@@ -2700,8 +2648,6 @@ scale
 role
 =
 "
-wairole
-:
 slider
 "
 xforms
@@ -2984,8 +2930,6 @@ DHTML
 role
 =
 "
-wairole
-:
 tabs
 "
 .
