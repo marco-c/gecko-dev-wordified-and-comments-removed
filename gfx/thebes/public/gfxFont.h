@@ -5611,6 +5611,11 @@ aUserFontSet
 )
 ;
 void
+BuildFontList
+(
+)
+;
+void
 InitMetricsForBadFont
 (
 gfxFont
