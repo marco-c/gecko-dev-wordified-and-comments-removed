@@ -92,11 +92,15 @@ HENTRY_WORD
 (
 h
 )
+&
 (
 h
 -
 >
 word
+[
+0
+]
 )
 #
 define
