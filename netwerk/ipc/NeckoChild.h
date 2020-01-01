@@ -74,6 +74,10 @@ PBrowserChild
 const
 SerializedLoadContext
 &
+const
+HttpChannelCreationArgs
+&
+aOpenArgs
 )
 ;
 virtual
@@ -126,6 +130,10 @@ const
 SerializedLoadContext
 &
 aSerialized
+const
+FTPChannelCreationArgs
+&
+aOpenArgs
 )
 ;
 virtual

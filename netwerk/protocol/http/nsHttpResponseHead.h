@@ -92,6 +92,9 @@ return
 mVersion
 ;
 }
+#
+undef
+Status
 uint16_t
 Status
 (

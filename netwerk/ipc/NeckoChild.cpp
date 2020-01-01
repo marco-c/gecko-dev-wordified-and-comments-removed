@@ -309,6 +309,10 @@ const
 SerializedLoadContext
 &
 loadContext
+const
+HttpChannelCreationArgs
+&
+aOpenArgs
 )
 {
 NS_NOTREACHED
@@ -393,6 +397,10 @@ const
 SerializedLoadContext
 &
 aSerialized
+const
+FTPChannelCreationArgs
+&
+aOpenArgs
 )
 {
 NS_RUNTIMEABORT

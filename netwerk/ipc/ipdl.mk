@@ -64,6 +64,10 @@ PRemoteOpenFile
 .
 ipdl
 \
+NeckoChannelParams
+.
+ipdlh
+\
 (
 NULL
 )
