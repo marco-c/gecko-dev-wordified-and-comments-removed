@@ -7298,15 +7298,10 @@ var
 bgLoad
 =
 (
-typeof
-(
 aLoadInBackground
-)
 !
 =
-"
-undefined
-"
+null
 )
 ?
 aLoadInBackground
