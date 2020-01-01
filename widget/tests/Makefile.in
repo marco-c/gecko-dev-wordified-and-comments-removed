@@ -433,6 +433,10 @@ test_bug444800
 .
 xul
 \
+test_bug462106
+.
+xul
+\
 test_keycodes
 .
 xul
