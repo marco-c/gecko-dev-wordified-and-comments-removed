@@ -158,13 +158,13 @@ mSharedBmp
 ;
 mSharedHdc
 =
-NULL
+nullptr
 ;
 mOldObj
 =
 mSharedBmp
 =
-NULL
+nullptr
 ;
 SharedDIB
 :
@@ -318,7 +318,7 @@ NS_FAILED
 (
 SetupSurface
 (
-NULL
+nullptr
 &
 bmih
 )
