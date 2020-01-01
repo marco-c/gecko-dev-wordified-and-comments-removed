@@ -16,17 +16,6 @@ private
 .
 h
 "
-#
-include
-"
-cairo
--
-error
--
-private
-.
-h
-"
 static
 inline
 int
@@ -1060,6 +1049,9 @@ CAIRO_STATUS_SUCCESS
 void
 _cairo_xlib_visual_info_destroy
 (
+Display
+*
+dpy
 cairo_xlib_visual_info_t
 *
 info

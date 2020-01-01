@@ -27,17 +27,6 @@ h
 "
 #
 include
-"
-cairo
--
-error
--
-private
-.
-h
-"
-#
-include
 <
 pixman
 .
@@ -2453,7 +2442,6 @@ surface
 base
 &
 _cairo_directfb_surface_backend
-NULL
 content
 )
 ;
@@ -3492,7 +3480,7 @@ CAIRO_STATUS_NO_MEMORY
 )
 ;
 }
-pixman_image_composite32
+pixman_image_composite
 (
 PIXMAN_OP_SRC
 image_src
@@ -9416,6 +9404,8 @@ surface_a
 void
 *
 surface_b
+cairo_content_t
+content
 )
 {
 cairo_directfb_surface_t
@@ -9862,7 +9852,6 @@ surface
 base
 &
 _cairo_directfb_surface_backend
-NULL
 _directfb_format_to_content
 (
 format

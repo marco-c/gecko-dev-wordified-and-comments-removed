@@ -16,17 +16,6 @@ surface
 .
 h
 "
-#
-include
-"
-cairo
--
-error
--
-private
-.
-h
-"
 typedef
 struct
 _test_fallback_surface
@@ -135,7 +124,6 @@ surface
 base
 &
 test_fallback_surface_backend
-NULL
 content
 )
 ;

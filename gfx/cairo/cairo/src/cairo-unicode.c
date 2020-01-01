@@ -6,17 +6,6 @@ cairoint
 h
 "
 #
-include
-"
-cairo
--
-error
--
-private
-.
-h
-"
-#
 define
 UTF8_COMPUTE
 (

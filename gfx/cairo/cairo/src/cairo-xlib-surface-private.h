@@ -59,6 +59,14 @@ _cairo_xlib_surface
 cairo_surface_t
 base
 ;
+Display
+*
+dpy
+;
+cairo_xlib_display_t
+*
+display
+;
 cairo_xlib_screen_t
 *
 screen
@@ -161,9 +169,6 @@ extend
 ;
 cairo_bool_t
 has_component_alpha
-;
-int
-precision
 ;
 XTransform
 xtransform

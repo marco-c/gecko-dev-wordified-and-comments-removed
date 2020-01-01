@@ -5,17 +5,6 @@ cairoint
 .
 h
 "
-#
-include
-"
-cairo
--
-error
--
-private
-.
-h
-"
 typedef
 struct
 _lzw_buf

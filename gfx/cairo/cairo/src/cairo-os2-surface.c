@@ -17,17 +17,6 @@ private
 h
 "
 #
-include
-"
-cairo
--
-error
--
-private
-.
-h
-"
-#
 if
 CAIRO_HAS_FC_FONT
 #
@@ -2423,7 +2412,7 @@ status
 =
 _cairo_error
 (
-CAIRO_STATUS_DEVICE_ERROR
+CAIRO_STATUS_NO_MEMORY
 )
 ;
 goto
@@ -2451,7 +2440,7 @@ status
 =
 _cairo_error
 (
-CAIRO_STATUS_DEVICE_ERROR
+CAIRO_STATUS_NO_MEMORY
 )
 ;
 goto
@@ -2608,7 +2597,6 @@ local_os2_surface
 base
 &
 cairo_os2_surface_backend
-NULL
 _cairo_content_from_format
 (
 CAIRO_FORMAT_ARGB32

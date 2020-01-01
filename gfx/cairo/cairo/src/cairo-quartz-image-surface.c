@@ -28,17 +28,6 @@ private
 h
 "
 #
-include
-"
-cairo
--
-error
--
-private
-.
-h
-"
-#
 define
 SURFACE_ERROR_NO_MEMORY
 (
@@ -711,7 +700,6 @@ qisurf
 base
 &
 cairo_quartz_image_surface_backend
-NULL
 _cairo_content_from_format
 (
 format

@@ -55,7 +55,6 @@ endif
 define
 WIN32_FONT_LOGICAL_SCALE
 1
-CAIRO_BEGIN_DECLS
 typedef
 struct
 _cairo_win32_surface
@@ -608,6 +607,7 @@ endif
 #
 ifdef
 CAIRO_HAS_DWRITE_FONT
+CAIRO_BEGIN_DECLS
 cairo_int_status_t
 _cairo_dwrite_show_glyphs_on_surface
 (
@@ -645,8 +645,8 @@ cairo_scaled_font_t
 new_font
 )
 ;
+CAIRO_END_DECLS
 #
 endif
-CAIRO_END_DECLS
 #
 endif

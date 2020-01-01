@@ -26,17 +26,6 @@ include
 "
 cairo
 -
-error
--
-private
-.
-h
-"
-#
-include
-"
-cairo
--
 compiler
 -
 private
@@ -2534,7 +2523,7 @@ char
 *
 data_out
 unsigned
-long
+int
 *
 length_out
 )

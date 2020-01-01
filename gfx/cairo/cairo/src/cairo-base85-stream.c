@@ -10,17 +10,6 @@ include
 "
 cairo
 -
-error
--
-private
-.
-h
-"
-#
-include
-"
-cairo
--
 output
 -
 stream

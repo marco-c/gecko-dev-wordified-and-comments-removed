@@ -716,7 +716,6 @@ unsigned
 char
 *
 data
-unsigned
 long
 length
 )
@@ -882,7 +881,6 @@ unsigned
 char
 *
 data
-unsigned
 long
 length
 )

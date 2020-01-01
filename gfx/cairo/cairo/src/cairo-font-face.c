@@ -5,17 +5,6 @@ cairoint
 .
 h
 "
-#
-include
-"
-cairo
--
-error
--
-private
-.
-h
-"
 const
 cairo_font_face_t
 _cairo_font_face_nil

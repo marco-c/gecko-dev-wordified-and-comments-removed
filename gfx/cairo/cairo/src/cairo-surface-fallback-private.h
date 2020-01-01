@@ -67,15 +67,12 @@ source
 cairo_path_fixed_t
 *
 path
-const
 cairo_stroke_style_t
 *
 stroke_style
-const
 cairo_matrix_t
 *
 ctm
-const
 cairo_matrix_t
 *
 ctm_inverse

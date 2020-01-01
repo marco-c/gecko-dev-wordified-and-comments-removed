@@ -7,17 +7,6 @@ h
 "
 #
 include
-"
-cairo
--
-error
--
-private
-.
-h
-"
-#
-include
 <
 math
 .

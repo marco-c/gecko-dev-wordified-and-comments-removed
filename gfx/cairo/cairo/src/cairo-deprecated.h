@@ -226,6 +226,10 @@ cairo_set_target_surface
 cairo_set_target_surface_DEPRECATED_BY_cairo_create
 #
 define
+cairo_set_target_glitz
+cairo_set_target_glitz_DEPRECATED_BY_cairo_glitz_surface_create
+#
+define
 cairo_set_target_image
 cairo_set_target_image_DEPRECATED_BY_cairo_image_surface_create_for_data
 #

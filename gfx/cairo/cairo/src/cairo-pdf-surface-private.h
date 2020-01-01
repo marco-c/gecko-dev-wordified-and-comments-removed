@@ -223,6 +223,7 @@ cairo_fill_rule_t
 fill_rule
 ;
 cairo_stroke_style_t
+*
 style
 ;
 cairo_matrix_t

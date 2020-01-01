@@ -27,17 +27,6 @@ include
 "
 cairo
 -
-list
--
-private
-.
-h
-"
-#
-include
-"
-cairo
--
 mutex
 -
 type
@@ -136,7 +125,8 @@ cairo_hash_table_t
 *
 glyphs
 ;
-cairo_list_t
+cairo_scaled_glyph_page_t
+*
 glyph_pages
 ;
 cairo_bool_t
@@ -158,9 +148,6 @@ const
 cairo_scaled_font_backend_t
 *
 backend
-;
-cairo_list_t
-link
 ;
 }
 ;

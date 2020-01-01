@@ -1490,12 +1490,6 @@ hebrew
 reference
 .
 html
-fails
--
-if
-(
-Android
-)
 =
 =
 counter
