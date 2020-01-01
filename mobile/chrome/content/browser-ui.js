@@ -2017,9 +2017,6 @@ width
 browserW
 ;
 }
-_layoutControls
-:
-true
 _sizeControls
 :
 function
@@ -2137,9 +2134,12 @@ container
 ;
 if
 (
-this
+window
+=
+=
+aEvent
 .
-_layoutControls
+target
 )
 {
 tabbar
@@ -2184,12 +2184,6 @@ tabbar
 height
 =
 containerH
-;
-this
-.
-_layoutControls
-=
-false
 ;
 }
 panelUI
