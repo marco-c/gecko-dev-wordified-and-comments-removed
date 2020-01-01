@@ -5953,6 +5953,9 @@ M
 Bugatti
 /
 M
+Bugzilla
+/
+M
 Buick
 /
 M
@@ -6416,6 +6419,9 @@ Camilla
 /
 M
 Camille
+/
+M
+Camino
 /
 M
 Cammi
@@ -7535,6 +7541,9 @@ Chatterley
 /
 M
 Chatterton
+ChatZilla
+/
+M
 Chaucer
 /
 M
@@ -16244,6 +16253,7 @@ HTML
 /
 M
 HTTP
+HTTPS
 HUD
 /
 M
@@ -17746,6 +17756,9 @@ Hungarian
 /
 SM
 Hungary
+/
+M
+Hunspell
 /
 M
 Hunt
@@ -24435,6 +24448,9 @@ Mandie
 /
 M
 Mandingo
+Mandriva
+/
+M
 Mandy
 /
 M
@@ -27316,6 +27332,9 @@ Myrwyn
 /
 M
 Mysore
+MySpell
+/
+M
 Myst
 /
 M
@@ -33913,6 +33932,9 @@ Seaborg
 Seagram
 /
 M
+SeaMonkey
+/
+M
 Seamus
 /
 M
@@ -35794,6 +35816,9 @@ Sunbeam
 /
 M
 Sunbelt
+/
+M
+Sunbird
 /
 M
 Sundanese
@@ -108312,6 +108337,12 @@ SM
 philter
 /
 MS
+phisher
+/
+M
+phishing
+/
+M
 phlebitis
 /
 M
@@ -126213,6 +126244,9 @@ spamblock
 /
 S
 spammed
+spammer
+/
+MS
 spamming
 span
 /
@@ -137756,6 +137790,14 @@ unimpressive
 uninhibited
 /
 Y
+uninstall
+/
+GSMB
+uninstalled
+uninstaller
+/
+MS
+uninstalling
 uninsured
 unintellectual
 unintelligent
@@ -138052,6 +138094,7 @@ unstinting
 Y
 unstoppably
 unstrapping
+unsubscribe
 unsubstantial
 unsubtle
 unsure
@@ -141100,6 +141143,7 @@ M
 webmaster
 /
 S
+webmistress
 website
 /
 SM
