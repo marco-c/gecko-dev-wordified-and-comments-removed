@@ -67,7 +67,7 @@ function
 )
 {
 [
-super
+implements
 ]
 =
 q
@@ -82,7 +82,7 @@ function
 )
 {
 [
-super
+implements
 ]
 =
 q
@@ -118,7 +118,7 @@ function
 return
 {
 get
-super
+implements
 (
 )
 {
@@ -136,7 +136,7 @@ function
 return
 {
 get
-super
+implements
 (
 )
 {

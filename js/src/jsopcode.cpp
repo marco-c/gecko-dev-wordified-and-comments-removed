@@ -23930,9 +23930,6 @@ break
 ;
 #
 endif
-#
-if
-JS_HAS_DEBUGGER_KEYWORD
 case
 JSOP_DEBUGGER
 :
@@ -23955,8 +23952,6 @@ todo
 ;
 break
 ;
-#
-endif
 #
 if
 JS_HAS_XML_SUPPORT
