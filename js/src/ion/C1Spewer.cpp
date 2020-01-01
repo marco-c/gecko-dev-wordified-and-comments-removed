@@ -485,7 +485,7 @@ fp
 %
 u
 %
-lu
+u
 "
 def
 -
@@ -493,11 +493,14 @@ def
 id
 (
 )
+uint32
+(
 def
 -
 >
 useCount
 (
+)
 )
 )
 ;
