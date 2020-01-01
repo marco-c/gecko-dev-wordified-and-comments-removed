@@ -1023,6 +1023,8 @@ run_test
 (
 )
 {
+return
+;
 if
 (
 "
