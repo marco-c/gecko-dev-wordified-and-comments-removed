@@ -170,6 +170,11 @@ setResult
 RESULT_CANCELED
 )
 ;
+moveTaskToBack
+(
+true
+)
+;
 finish
 (
 )
