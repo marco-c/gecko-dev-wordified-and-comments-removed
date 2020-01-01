@@ -681,6 +681,11 @@ next
 (
 )
 {
+if
+(
+use
+)
+{
 prev_
 =
 use
@@ -694,6 +699,7 @@ next
 (
 )
 ;
+}
 }
 MUse
 *
