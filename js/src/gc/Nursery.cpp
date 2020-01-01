@@ -3455,7 +3455,7 @@ promotionRate
 >
 0
 .
-5
+05
 )
 growAllocableSpace
 (
@@ -3468,7 +3468,7 @@ promotionRate
 <
 0
 .
-1
+01
 )
 shrinkAllocableSpace
 (
