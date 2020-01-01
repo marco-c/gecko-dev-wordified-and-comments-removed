@@ -2091,6 +2091,9 @@ CreateAutoCompleteQueries
 PRBool
 mAutoCompleteOnlyTyped
 ;
+PRBool
+mAutoCompleteFilterJavascript
+;
 PRInt32
 mAutoCompleteMaxResults
 ;
