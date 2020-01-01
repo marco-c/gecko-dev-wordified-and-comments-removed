@@ -1924,7 +1924,13 @@ in
 constructor
 "
 "
+iterator
+"
+"
 toString
+"
+"
+toJSON
 "
 ]
 and
