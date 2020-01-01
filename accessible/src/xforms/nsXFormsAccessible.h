@@ -95,6 +95,9 @@ GetState
 PRUint32
 *
 aState
+PRUint32
+*
+aExtraState
 )
 ;
 NS_IMETHOD
@@ -211,11 +214,14 @@ aShell
 )
 ;
 NS_IMETHOD
-GetExtState
+GetState
 (
 PRUint32
 *
 aState
+PRUint32
+*
+aExtraState
 )
 ;
 NS_IMETHOD

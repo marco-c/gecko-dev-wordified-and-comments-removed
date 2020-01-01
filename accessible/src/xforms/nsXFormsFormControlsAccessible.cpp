@@ -523,6 +523,9 @@ GetState
 PRUint32
 *
 aState
+PRUint32
+*
+aExtraState
 )
 {
 nsresult
@@ -534,6 +537,7 @@ nsXFormsAccessible
 GetState
 (
 aState
+aExtraState
 )
 ;
 NS_ENSURE_SUCCESS
@@ -820,6 +824,9 @@ GetState
 PRUint32
 *
 aState
+PRUint32
+*
+aExtraState
 )
 {
 nsresult
@@ -831,6 +838,7 @@ nsXFormsInputAccessible
 GetState
 (
 aState
+aExtraState
 )
 ;
 NS_ENSURE_SUCCESS
@@ -924,6 +932,9 @@ GetState
 PRUint32
 *
 aState
+PRUint32
+*
+aExtraState
 )
 {
 nsresult
@@ -935,6 +946,7 @@ nsXFormsAccessible
 GetState
 (
 aState
+aExtraState
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1249,6 +1261,9 @@ GetState
 PRUint32
 *
 aState
+PRUint32
+*
+aExtraState
 )
 {
 nsresult
@@ -1260,6 +1275,7 @@ nsXFormsContainerAccessible
 GetState
 (
 aState
+aExtraState
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1517,6 +1533,9 @@ GetState
 PRUint32
 *
 aState
+PRUint32
+*
+aExtraState
 )
 {
 nsresult
@@ -1528,6 +1547,7 @@ nsXFormsSelectableItemAccessible
 GetState
 (
 aState
+aExtraState
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1664,6 +1684,9 @@ GetState
 PRUint32
 *
 aState
+PRUint32
+*
+aExtraState
 )
 {
 nsresult
@@ -1675,6 +1698,7 @@ nsXFormsSelectableItemAccessible
 GetState
 (
 aState
+aExtraState
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1795,6 +1819,9 @@ GetState
 PRUint32
 *
 aState
+PRUint32
+*
+aExtraState
 )
 {
 nsresult
@@ -1806,6 +1833,7 @@ nsXFormsSelectableAccessible
 GetState
 (
 aState
+aExtraState
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1958,6 +1986,9 @@ GetState
 PRUint32
 *
 aState
+PRUint32
+*
+aExtraState
 )
 {
 nsresult
@@ -1969,6 +2000,7 @@ nsXFormsSelectableItemAccessible
 GetState
 (
 aState
+aExtraState
 )
 ;
 NS_ENSURE_SUCCESS

@@ -3030,6 +3030,7 @@ GetFinalState
 (
 &
 state
+nsnull
 )
 ;
 return
@@ -3064,6 +3065,7 @@ GetFinalState
 (
 &
 state
+nsnull
 )
 ;
 return
@@ -3121,6 +3123,7 @@ GetFinalState
 (
 &
 state
+nsnull
 )
 ;
 return

@@ -101,7 +101,10 @@ GetState
 (
 PRUint32
 *
-_retval
+aState
+PRUint32
+*
+aExtraState
 )
 ;
 NS_IMETHOD
@@ -325,7 +328,10 @@ GetState
 (
 PRUint32
 *
-_retval
+aState
+PRUint32
+*
+aExtraState
 )
 ;
 NS_IMETHOD
@@ -510,7 +516,10 @@ GetState
 (
 PRUint32
 *
-_retval
+aState
+PRUint32
+*
+aExtraState
 )
 ;
 NS_IMETHOD
@@ -612,7 +621,10 @@ GetState
 (
 PRUint32
 *
-_retval
+aState
+PRUint32
+*
+aExtraState
 )
 ;
 NS_IMETHOD

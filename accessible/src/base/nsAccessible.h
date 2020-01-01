@@ -345,6 +345,17 @@ GetState
 PRUint32
 *
 aState
+PRUint32
+*
+aExtraState
+)
+;
+nsresult
+GetARIAState
+(
+PRUint32
+*
+aState
 )
 ;
 #
@@ -420,6 +431,7 @@ GetFinalState
 (
 &
 state
+nsnull
 )
 ;
 return

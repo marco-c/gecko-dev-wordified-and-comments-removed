@@ -566,6 +566,7 @@ GetFinalState
 (
 &
 state
+nsnull
 )
 ;
 return
