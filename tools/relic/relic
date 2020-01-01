@@ -2382,11 +2382,9 @@ like
 makefiles
 )
 "
-modules
+media
 /
-libimg
-/
-png
+libpng
 "
 "
 modules

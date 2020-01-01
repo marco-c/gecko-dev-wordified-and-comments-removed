@@ -10758,11 +10758,9 @@ mozpng
 DEPTH
 )
 /
-modules
+media
 /
-libimg
-/
-png
+libpng
 )
 '
 MOZ_JS_STATIC_LIBS
@@ -18627,11 +18625,9 @@ png
 DEPTH
 )
 /
-modules
+media
 /
-libimg
-/
-png
+libpng
 )
 '
 AC_DEFINE

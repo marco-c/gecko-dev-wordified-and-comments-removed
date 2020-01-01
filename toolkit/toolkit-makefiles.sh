@@ -6286,11 +6286,9 @@ SYSTEM_PNG
 then
 add_makefiles
 "
-modules
+media
 /
-libimg
-/
-png
+libpng
 /
 Makefile
 "

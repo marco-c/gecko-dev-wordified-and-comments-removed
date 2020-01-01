@@ -781,11 +781,9 @@ include
 .
 .
 /
-modules
+media
 /
-libimg
-/
-png
+libpng
 /
 crashtests
 /

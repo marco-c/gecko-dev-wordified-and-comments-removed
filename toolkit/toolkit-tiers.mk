@@ -751,11 +751,9 @@ MOZ_NATIVE_PNG
 tier_platform_dirs
 +
 =
-modules
+media
 /
-libimg
-/
-png
+libpng
 endif
 tier_platform_dirs
 +
