@@ -1442,7 +1442,7 @@ MOZ_COUNT_CTOR
 nsCSSSelector
 )
 ;
-PR_STATIC_ASSERT
+MOZ_STATIC_ASSERT
 (
 nsCSSPseudoElements
 :
@@ -1450,6 +1450,15 @@ nsCSSPseudoElements
 ePseudo_MAX
 <
 PR_INT16_MAX
+"
+nsCSSPseudoElements
+:
+:
+Type
+values
+overflow
+mPseudoType
+"
 )
 ;
 }
