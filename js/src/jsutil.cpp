@@ -241,13 +241,6 @@ string
 .
 h
 >
-#
-include
-"
-jscompat
-.
-h
-"
 static
 uint32_t
 BinToVal

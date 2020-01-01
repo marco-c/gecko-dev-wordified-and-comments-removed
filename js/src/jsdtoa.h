@@ -4,13 +4,6 @@ jsdtoa_h___
 #
 define
 jsdtoa_h___
-#
-include
-"
-jscompat
-.
-h
-"
 JS_BEGIN_EXTERN_C
 struct
 DtoaState

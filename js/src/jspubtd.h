@@ -12,13 +12,6 @@ jstypes
 h
 "
 #
-include
-"
-jscompat
-.
-h
-"
-#
 ifdef
 __cplusplus
 namespace
