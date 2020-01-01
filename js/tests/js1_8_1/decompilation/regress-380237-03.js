@@ -884,7 +884,9 @@ function
 {
 (
 [
+(
 yield
+)
 ]
 for
 (
