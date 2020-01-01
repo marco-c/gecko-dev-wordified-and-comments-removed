@@ -344,6 +344,15 @@ handler
 crashed
 .
 msgCrashed
+:
+-
+moz
+-
+handler
+-
+crashed
+.
+msgReload
 {
 display
 :
@@ -433,10 +442,6 @@ please
 ]
 .
 msgSubmitPlease
-.
-submitStatus
-.
-msgReload
 {
 display
 :
