@@ -109,16 +109,6 @@ OS_ARCH
 )
 WINNT
 )
-ABS_DEPTH
-:
-=
-(
-call
-core_abspath
-(
-DEPTH
-)
-)
 check
 :
 :

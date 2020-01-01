@@ -148,9 +148,6 @@ NULL
 USE_STATIC_LIBS
 =
 1
-HAVE_PROGRESSUI
-=
-1
 RCINCLUDE
 =
 maintenanceservice

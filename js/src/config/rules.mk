@@ -2535,12 +2535,6 @@ GARBAGE
 (
 MOCSRCS
 )
-GARBAGE
-+
-=
-(
-RCCSRCS
-)
 endif
 ifdef
 SIMPLE_PROGRAMS

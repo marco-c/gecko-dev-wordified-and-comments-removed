@@ -1015,12 +1015,6 @@ EXTRA_DSO_LDOPTS
 (
 NSPR_LIBS
 )
-ifndef
-BUILD_OPT
-MOCHAFILE
-=
-1
-endif
 #
 Define
 keyword
@@ -2376,7 +2370,6 @@ autoconf
 .
 mk
 \
-unallmakefiles
 (
 JS_CONFIG_NAME
 )
@@ -2393,15 +2386,6 @@ h
 distclean
 :
 :
-cat
-unallmakefiles
-|
-(
-XARGS
-)
-rm
--
-f
 (
 RM
 )

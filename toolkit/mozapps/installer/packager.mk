@@ -4170,15 +4170,7 @@ in
 the
 MOZ_PKG_MANIFEST
 file
-and
-the
-following
-vars
-:
-#
-MOZ_NONLOCALIZED_PKG_LIST
-#
-MOZ_LOCALIZED_PKG_LIST
+.
 PKG_ARG
 =
 "

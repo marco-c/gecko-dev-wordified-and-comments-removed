@@ -108,11 +108,6 @@ datachannel
 NULL
 )
 endif
-GQI_SRCS
-=
-contentbase
-.
-gqi
 include
 (
 topsrcdir

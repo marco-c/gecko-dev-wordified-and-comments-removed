@@ -212,9 +212,6 @@ config
 rules
 .
 mk
-APP_ICON
-=
-mobile
 DEFINES
 +
 =

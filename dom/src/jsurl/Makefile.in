@@ -111,14 +111,9 @@ base
 /
 src
 \
-ifdef
-BUILD_DEBUG_GC
-DEFINES
-+
-=
--
-DDEBUG_GC
-endif
+(
+NULL
+)
 include
 (
 topsrcdir

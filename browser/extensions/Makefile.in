@@ -65,17 +65,6 @@ srcdir
 VPATH
 =
 srcdir
-CHROMEDIR
-=
-(
-call
-core_abspath
-(
-FINAL_TARGET
-)
-)
-/
-chrome
 include
 (
 DEPTH

@@ -92,13 +92,6 @@ config
 rules
 .
 mk
-INCLUDES
-+
-=
-\
-(
-NULL
-)
 _FILES
 =
 \
