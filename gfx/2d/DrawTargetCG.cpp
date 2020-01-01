@@ -382,6 +382,10 @@ mSnapshot
 (
 nullptr
 )
+mCg
+(
+nullptr
+)
 {
 }
 DrawTargetCG
