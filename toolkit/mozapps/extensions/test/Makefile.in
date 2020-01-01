@@ -438,7 +438,7 @@ TESTXPI
 TESTROOT
 )
 /
-unit
+xpcshell
 /
 addons
 relativesrcdir
@@ -474,7 +474,7 @@ NULL
 XPCSHELL_TESTS
 =
 \
-unit
+xpcshell
 \
 (
 NULL
