@@ -661,6 +661,12 @@ init
 (
 )
 ;
+NavButtonSlider
+.
+init
+(
+)
+;
 BrowserUI
 .
 _adjustDOMforViewState
