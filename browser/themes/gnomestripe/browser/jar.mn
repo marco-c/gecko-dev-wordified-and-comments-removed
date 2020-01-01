@@ -142,6 +142,7 @@ monitor_16
 10
 .
 png
+*
 skin
 /
 classic
@@ -171,7 +172,6 @@ page
 livemarks
 .
 png
-*
 skin
 /
 classic
@@ -385,6 +385,7 @@ subscribe
 .
 css
 )
+*
 skin
 /
 classic
@@ -421,6 +422,7 @@ bookmarksMenu
 .
 png
 )
+*
 skin
 /
 classic
@@ -751,6 +753,7 @@ plugin
 .
 png
 )
+*
 skin
 /
 classic
