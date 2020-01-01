@@ -5572,6 +5572,8 @@ mTest
 &
 !
 (
+(
+*
 mDocMgr
 -
 >
@@ -5579,8 +5581,8 @@ mMgr
 -
 >
 mTestApp
--
->
+)
+.
 *
 (
 mDocMgr
