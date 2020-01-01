@@ -129,6 +129,17 @@ nsIAccessibilityService
 aResult
 )
 ;
+static
+nsIAccessibilityService
+*
+GetAccessibilityService
+(
+)
+;
+static
+PRBool
+gIsShutdown
+;
 private
 :
 nsresult

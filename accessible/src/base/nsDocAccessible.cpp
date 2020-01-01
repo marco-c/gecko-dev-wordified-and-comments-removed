@@ -22,7 +22,7 @@ h
 #
 include
 "
-nsIAccessibilityService
+nsAccessibilityService
 .
 h
 "
@@ -2755,7 +2755,10 @@ NS_RELEASE_THIS
 if
 (
 !
-gIsShuttingDownApp
+nsAccessibilityService
+:
+:
+gIsShutdown
 )
 gGlobalDocAccessibleCache
 .
