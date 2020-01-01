@@ -2085,6 +2085,11 @@ ChangeThreadPoolMaxThreads
 )
 )
 ;
+JS_FlushCaches
+(
+aCx
+)
+;
 wasSuspended
 =
 PR_TRUE
