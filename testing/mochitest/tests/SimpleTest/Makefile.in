@@ -155,6 +155,10 @@ MockObjects
 .
 js
 \
+NativeKeyCodes
+.
+js
+\
 (
 DEPTH
 )
