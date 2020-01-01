@@ -219,6 +219,9 @@ PR_FALSE
 +
 u16Offset
 ;
+PRBool
+err
+;
 PRUint32
 ch
 =
@@ -230,6 +233,8 @@ NextChar
 &
 p
 end
+&
+err
 )
 ;
 +
@@ -242,6 +247,9 @@ ch
 =
 =
 0
+|
+|
+err
 )
 {
 break
