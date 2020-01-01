@@ -9151,8 +9151,6 @@ nameOffset
 nameStringsBase
 +
 nameoff
-+
-namelen
 ;
 strLen
 =
