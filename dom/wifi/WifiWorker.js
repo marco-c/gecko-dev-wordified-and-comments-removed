@@ -6819,6 +6819,12 @@ null
 dhcp
 :
 false
+httpProxyHost
+:
+null
+httpProxyPort
+:
+null
 }
 ;
 let
