@@ -1405,13 +1405,8 @@ system
 NULL
 )
 endif
-ifeq
-(
-gonk
-(
-MOZ_WIDGET_TOOLKIT
-)
-)
+ifdef
+MOZ_OMX_DECODER
 #
 {
 #

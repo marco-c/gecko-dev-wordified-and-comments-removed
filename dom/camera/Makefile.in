@@ -187,10 +187,10 @@ NULL
 else
 ifeq
 (
-gonk
 (
-MOZ_WIDGET_TOOLKIT
+MOZ_OMX_DECODER
 )
+1
 )
 CPPSRCS
 +
