@@ -184,9 +184,6 @@ endif
 }
 ;
 class
-CSSImportsCollectionImpl
-;
-class
 CSSRuleListImpl
 ;
 static
@@ -774,10 +771,6 @@ mParent
 nsICSSImportRule
 *
 mOwnerRule
-;
-CSSImportsCollectionImpl
-*
-mImportsCollection
 ;
 CSSRuleListImpl
 *
