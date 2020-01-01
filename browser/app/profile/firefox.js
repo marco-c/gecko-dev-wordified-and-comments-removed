@@ -8213,7 +8213,7 @@ lists
 .
 refreshInSeconds
 "
-30
+120
 )
 ;
 #
