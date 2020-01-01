@@ -488,6 +488,13 @@ area
 )
 GK_ATOM
 (
+arrow
+"
+arrow
+"
+)
+GK_ATOM
+(
 article
 "
 article

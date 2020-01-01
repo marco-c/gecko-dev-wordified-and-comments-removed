@@ -874,6 +874,12 @@ ShouldRollupOnMouseWheelEvent
 ;
 virtual
 bool
+ShouldConsumeOnMouseWheelEvent
+(
+)
+;
+virtual
+bool
 ShouldRollupOnMouseActivate
 (
 )
