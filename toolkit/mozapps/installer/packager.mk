@@ -496,9 +496,15 @@ else
 ifeq
 (
 (
+filter
+-
+out
+gtk2
+qt
+(
 MOZ_WIDGET_TOOLKIT
 )
-gtk2
+)
 )
 MOZ_PKG_FORMAT
 =
