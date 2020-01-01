@@ -110,6 +110,9 @@ simple_events
 DeviceProximityEvent
 '
 '
+MozSettingsEvent
+'
+'
 UserProximityEvent
 '
 '

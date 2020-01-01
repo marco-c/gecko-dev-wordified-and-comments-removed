@@ -1549,10 +1549,6 @@ DOMCI_CLASS
 (
 MutationRecord
 )
-DOMCI_CLASS
-(
-MozSettingsEvent
-)
 #
 ifdef
 MOZ_B2G_RIL

@@ -102,6 +102,10 @@ nsISettingsService
 .
 idl
 \
+nsIDOMMozSettingsEvent
+.
+idl
+\
 (
 NULL
 )
