@@ -1884,7 +1884,7 @@ compositionPauseRequested
 {
 GeckoAppShell
 .
-sendEventToGecko
+sendEventToGeckoSync
 (
 GeckoEvent
 .

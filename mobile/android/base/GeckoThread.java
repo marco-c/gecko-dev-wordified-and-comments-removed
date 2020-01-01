@@ -140,6 +140,13 @@ mRestoreMode
 =
 restoreMode
 ;
+setName
+(
+"
+Gecko
+"
+)
+;
 }
 public
 void
