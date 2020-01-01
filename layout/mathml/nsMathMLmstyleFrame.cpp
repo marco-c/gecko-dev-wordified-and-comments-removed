@@ -117,15 +117,6 @@ mContent
 mPresentationData
 )
 ;
-nsMathMLFrame
-:
-:
-FindAttrDirectionality
-(
-mContent
-mPresentationData
-)
-;
 return
 NS_OK
 ;

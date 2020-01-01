@@ -1221,12 +1221,12 @@ axisHeight
 bool
 isRTL
 =
-NS_MATHML_IS_RTL
+StyleVisibility
 (
-mPresentationData
-.
-flags
 )
+-
+>
+mDirection
 ;
 ReflowChar
 (
