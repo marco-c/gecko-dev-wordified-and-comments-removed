@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsDOMError
+.
+h
+"
+#
+include
+"
 nsDOMProgressEvent
 .
 h

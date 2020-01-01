@@ -1,6 +1,13 @@
 #
 include
 "
+nsDOMError
+.
+h
+"
+#
+include
+"
 nsDOMNotifyAudioAvailableEvent
 .
 h

@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsISMILAnimationElement
+.
+h
+"
+#
+include
+"
 nsSMILParserUtils
 .
 h

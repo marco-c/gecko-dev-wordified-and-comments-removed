@@ -7,7 +7,7 @@ nsINodeInfo_h___
 #
 include
 "
-nsISupports
+nsCOMPtr
 .
 h
 "
@@ -28,14 +28,7 @@ h
 #
 include
 "
-nsNodeInfoManager
-.
-h
-"
-#
-include
-"
-nsCOMPtr
+nsISupports
 .
 h
 "
@@ -59,6 +52,9 @@ nsIURI
 ;
 class
 nsIPrincipal
+;
+class
+nsNodeInfoManager
 ;
 #
 define

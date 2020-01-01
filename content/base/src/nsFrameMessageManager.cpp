@@ -38,6 +38,13 @@ h
 #
 include
 "
+nsDOMError
+.
+h
+"
+#
+include
+"
 nsIXPConnect
 .
 h

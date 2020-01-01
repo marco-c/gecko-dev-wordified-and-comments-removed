@@ -7,14 +7,14 @@ nsNodeUtils_h___
 #
 include
 "
-nsINode
+nsIContent
 .
 h
 "
 #
 include
 "
-nsIContent
+nsIMutationObserver
 .
 h
 "

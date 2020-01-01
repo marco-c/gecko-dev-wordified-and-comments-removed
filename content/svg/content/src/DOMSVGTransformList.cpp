@@ -47,6 +47,13 @@ dombindings
 .
 h
 "
+#
+include
+"
+nsDOMError
+.
+h
+"
 namespace
 {
 void

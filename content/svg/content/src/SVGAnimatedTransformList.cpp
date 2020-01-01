@@ -15,6 +15,13 @@ h
 #
 include
 "
+nsISMILAnimationElement
+.
+h
+"
+#
+include
+"
 nsSMILValue
 .
 h

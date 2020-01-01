@@ -15,6 +15,13 @@ h
 #
 include
 "
+nsDOMError
+.
+h
+"
+#
+include
+"
 nsIClassInfo
 .
 h

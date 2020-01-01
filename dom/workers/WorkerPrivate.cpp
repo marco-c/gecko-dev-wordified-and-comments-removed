@@ -178,6 +178,13 @@ h
 #
 include
 "
+nsDOMError
+.
+h
+"
+#
+include
+"
 nsDOMJSUtils
 .
 h
