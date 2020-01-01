@@ -4672,6 +4672,13 @@ gfxFont
 aFont
 )
 {
+aFont
+-
+>
+ClearCachedWords
+(
+)
+;
 RemoveObject
 (
 aFont
