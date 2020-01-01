@@ -499,6 +499,9 @@ script
 )
 )
 {
+js
+:
+:
 mjit
 :
 :
@@ -1319,6 +1322,9 @@ hasJITCode
 )
 )
 {
+js
+:
+:
 mjit
 :
 :
