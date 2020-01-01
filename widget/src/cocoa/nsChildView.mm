@@ -21531,6 +21531,12 @@ keyType
 0
 )
 {
+InitNPCocoaEvent
+(
+&
+pluginEvent
+)
+;
 NSEventType
 nativeType
 =
