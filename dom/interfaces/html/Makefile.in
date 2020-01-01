@@ -684,10 +684,6 @@ nsIDOMHTMLAudioElement
 .
 idl
 \
-nsIDOMHTMLVoidCallback
-.
-idl
-\
 nsIDOMValidityState
 .
 idl
