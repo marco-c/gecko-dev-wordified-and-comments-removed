@@ -1394,10 +1394,6 @@ mOpacity
 .
 0
 )
-mUseClipRect
-(
-PR_FALSE
-)
 mContentFlags
 (
 0
