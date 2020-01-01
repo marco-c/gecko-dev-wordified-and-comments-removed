@@ -62,6 +62,13 @@ nsGkAtoms
 h
 "
 #
+include
+"
+xpcprivate
+.
+h
+"
+#
 define
 ERROR_STR
 "

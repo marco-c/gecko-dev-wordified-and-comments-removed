@@ -283,6 +283,13 @@ h
 #
 include
 "
+xpcpublic
+.
+h
+"
+#
+include
+"
 xpcquickstubs
 .
 h
