@@ -454,6 +454,9 @@ EXTRA_JS_MODULES
 XPCOMUtils
 .
 jsm
+JSON
+.
+jsm
 include
 (
 topsrcdir
