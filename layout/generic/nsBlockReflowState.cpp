@@ -2383,10 +2383,14 @@ aReflowStatus
 )
 )
 {
-GetAvailableSpace
+nsRect
+floatAvailSpace
+;
+GetFloatAvailableSpace
 (
 mY
 forceFit
+floatAvailSpace
 )
 ;
 nsRect
@@ -2394,7 +2398,7 @@ availSpace
 (
 nsPoint
 (
-mAvailSpaceRect
+floatAvailSpace
 .
 x
 +
@@ -2405,7 +2409,7 @@ BorderPadding
 left
 mY
 )
-mAvailSpaceRect
+floatAvailSpace
 .
 Size
 (
