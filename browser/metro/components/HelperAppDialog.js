@@ -615,6 +615,12 @@ source
 host
 )
 ;
+notificationBox
+.
+notificationsHidden
+=
+false
+;
 let
 newBar
 =
