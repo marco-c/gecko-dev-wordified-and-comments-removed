@@ -1671,6 +1671,9 @@ jsbytecode
 *
 outer
 ;
+uint32
+outerArgc
+;
 bool
 loop
 ;
@@ -3100,6 +3103,8 @@ expectedInnerExit
 jsbytecode
 *
 outerTree
+uint32
+outerArgc
 )
 ;
 ~
