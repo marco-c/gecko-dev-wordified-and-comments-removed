@@ -210,7 +210,7 @@ aResult
 =
 siblingIndex
 +
-1
+aResult
 ;
 return
 true
