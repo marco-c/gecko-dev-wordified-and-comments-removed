@@ -128,8 +128,8 @@ aDelegatingFrame
 nsIAtom
 *
 aListName
-nsIFrame
-*
+nsFrameList
+&
 aFrameList
 )
 {
@@ -209,8 +209,8 @@ aListName
 nsIFrame
 *
 aPrevFrame
-nsIFrame
-*
+nsFrameList
+&
 aFrameList
 )
 {

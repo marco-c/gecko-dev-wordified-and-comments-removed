@@ -113,8 +113,8 @@ aListName
 nsIFrame
 *
 aPrevFrame
-nsIFrame
-*
+nsFrameList
+&
 aFrameList
 )
 ;

@@ -417,8 +417,8 @@ AppendFrames
 nsIAtom
 *
 aListName
-nsIFrame
-*
+nsFrameList
+&
 aFrameList
 )
 {
@@ -463,6 +463,10 @@ NS_ERROR_INVALID_ARG
 if
 (
 aFrameList
+.
+NotEmpty
+(
+)
 )
 {
 mFrames
@@ -524,8 +528,8 @@ aListName
 nsIFrame
 *
 aPrevFrame
-nsIFrame
-*
+nsFrameList
+&
 aFrameList
 )
 {
@@ -596,6 +600,10 @@ NS_ERROR_INVALID_ARG
 if
 (
 aFrameList
+.
+NotEmpty
+(
+)
 )
 {
 mFrames

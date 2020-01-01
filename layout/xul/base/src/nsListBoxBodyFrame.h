@@ -463,8 +463,8 @@ height
 NS_IMETHOD
 ListBoxAppendFrames
 (
-nsIFrame
-*
+nsFrameList
+&
 aFrameList
 )
 ;
@@ -474,8 +474,8 @@ ListBoxInsertFrames
 nsIFrame
 *
 aPrevFrame
-nsIFrame
-*
+nsFrameList
+&
 aFrameList
 )
 ;

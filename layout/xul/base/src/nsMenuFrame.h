@@ -348,8 +348,8 @@ AppendFrames
 nsIAtom
 *
 aListName
-nsIFrame
-*
+nsFrameList
+&
 aFrameList
 )
 ;
@@ -362,8 +362,8 @@ aListName
 nsIFrame
 *
 aPrevFrame
-nsIFrame
-*
+nsFrameList
+&
 aFrameList
 )
 ;
@@ -664,15 +664,6 @@ nsMenuTimerMediator
 friend
 class
 nsASyncMenuInitialization
-;
-nsIFrame
-*
-SetPopupFrame
-(
-nsIFrame
-*
-aChildList
-)
 ;
 void
 SetPopupFrame

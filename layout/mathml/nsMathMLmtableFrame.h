@@ -201,8 +201,8 @@ AppendFrames
 nsIAtom
 *
 aListName
-nsIFrame
-*
+nsFrameList
+&
 aFrameList
 )
 {
@@ -235,8 +235,8 @@ aListName
 nsIFrame
 *
 aPrevFrame
-nsIFrame
-*
+nsFrameList
+&
 aFrameList
 )
 {
@@ -386,8 +386,8 @@ AppendFrames
 nsIAtom
 *
 aListName
-nsIFrame
-*
+nsFrameList
+&
 aFrameList
 )
 {
@@ -420,8 +420,8 @@ aListName
 nsIFrame
 *
 aPrevFrame
-nsIFrame
-*
+nsFrameList
+&
 aFrameList
 )
 {

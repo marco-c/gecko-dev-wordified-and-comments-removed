@@ -2864,8 +2864,8 @@ AppendFrames
 nsIAtom
 *
 aListName
-nsIFrame
-*
+nsFrameList
+&
 aFrameList
 )
 {
@@ -2878,11 +2878,6 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-if
-(
-aFrameList
-)
-{
 mFrames
 .
 AppendFrames
@@ -2901,10 +2896,6 @@ ADDITION
 )
 ;
 }
-return
-NS_OK
-;
-}
 NS_IMETHODIMP
 nsMathMLContainerFrame
 :
@@ -2917,8 +2908,8 @@ aListName
 nsIFrame
 *
 aPrevFrame
-nsIFrame
-*
+nsFrameList
+&
 aFrameList
 )
 {
@@ -2931,11 +2922,6 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-if
-(
-aFrameList
-)
-{
 mFrames
 .
 InsertFrames
@@ -2953,10 +2939,6 @@ nsIDOMMutationEvent
 :
 ADDITION
 )
-;
-}
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
