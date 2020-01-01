@@ -24892,6 +24892,11 @@ PRBool
 aWholeEntry
 )
 {
+mHasHistoryEntries
+=
+-
+1
+;
 if
 (
 aWholeEntry
@@ -24926,11 +24931,6 @@ aVisitTime
 )
 ;
 }
-mHasHistoryEntries
-=
--
-1
-;
 return
 NS_OK
 ;
