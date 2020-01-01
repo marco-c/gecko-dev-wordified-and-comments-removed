@@ -2283,7 +2283,7 @@ this
 .
 _ans
 .
-setAnnotation
+setAnnotationString
 (
 newURI
 LMANNO_FEEDURI
@@ -2307,7 +2307,7 @@ this
 .
 _ans
 .
-GetAnnotationString
+getAnnotationString
 (
 oldURI
 LMANNO_SITEURI
@@ -2339,7 +2339,7 @@ this
 .
 _ans
 .
-setAnnotation
+setAnnotationString
 (
 newURI
 LMANNO_SITEURI
