@@ -827,7 +827,10 @@ IsEmpty
 )
 )
 {
-printf
+#
+ifdef
+ANDROID
+printf_stderr
 (
 "
 Bug
@@ -845,6 +848,8 @@ n
 "
 )
 ;
+#
+endif
 return
 MatchesLanguagePreferences
 (
@@ -855,7 +860,10 @@ acceptLangs
 }
 else
 {
-printf
+#
+ifdef
+ANDROID
+printf_stderr
 (
 "
 Bug
@@ -873,6 +881,8 @@ n
 "
 )
 ;
+#
+endif
 NS_WARNING
 (
 "
