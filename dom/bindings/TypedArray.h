@@ -229,6 +229,7 @@ nsWrapperCache
 creator
 uint32_t
 length
+const
 T
 *
 data
