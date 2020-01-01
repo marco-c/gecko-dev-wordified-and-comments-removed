@@ -89,10 +89,6 @@ mDriverVersionMax
 (
 0
 )
-mSuggestedVersion
-(
-nsnull
-)
 {
 }
 GfxDriverInfo
@@ -114,10 +110,6 @@ VersionComparisonOp
 op
 PRUint64
 driverVersion
-const
-char
-*
-suggestedVersion
 bool
 ownDevices
 )
@@ -157,10 +149,6 @@ driverVersion
 mDriverVersionMax
 (
 0
-)
-mSuggestedVersion
-(
-suggestedVersion
 )
 {
 }
@@ -216,12 +204,6 @@ mDriverVersionMax
 aOrig
 .
 mDriverVersionMax
-)
-mSuggestedVersion
-(
-aOrig
-.
-mSuggestedVersion
 )
 {
 if
