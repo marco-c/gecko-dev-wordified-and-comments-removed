@@ -597,8 +597,9 @@ s
 #
 ifdef
 DEBUG_tmreader
-printf
+fprintf
 (
+stderr
 "
 tmevent
 %
@@ -666,8 +667,9 @@ s
 #
 ifdef
 DEBUG_tmreader
-printf
+fprintf
 (
+stderr
 "
 tmevent
 %
@@ -797,8 +799,9 @@ s
 #
 ifdef
 DEBUG_tmreader
-printf
+fprintf
 (
+stderr
 "
 tmevent
 %
@@ -942,8 +945,9 @@ return
 #
 ifdef
 DEBUG_tmreader
-printf
+fprintf
 (
+stderr
 "
 tmevent
 %
@@ -1128,8 +1132,9 @@ oldsize
 #
 ifdef
 DEBUG_tmreader
-printf
+fprintf
 (
+stderr
 "
 tmevent
 %
@@ -1492,8 +1497,9 @@ return
 #
 ifdef
 DEBUG_tmreader
-printf
+fprintf
 (
+stderr
 "
 tmevent
 %
@@ -2149,8 +2155,9 @@ return
 #
 ifdef
 DEBUG_tmreader
-printf
+fprintf
 (
+stderr
 "
 tmevent
 %
