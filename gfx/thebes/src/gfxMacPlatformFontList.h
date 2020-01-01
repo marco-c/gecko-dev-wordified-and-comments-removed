@@ -116,6 +116,15 @@ ReadCMAP
 (
 )
 ;
+PRBool
+UseLiGothicAtsuiHack
+(
+)
+{
+return
+mUseLiGothicAtsuiHack
+;
+}
 protected
 :
 MacOSFontEntry
@@ -156,6 +165,9 @@ mATSFontRef
 ;
 PRPackedBool
 mATSFontRefInitialized
+;
+PRPackedBool
+mUseLiGothicAtsuiHack
 ;
 }
 ;
