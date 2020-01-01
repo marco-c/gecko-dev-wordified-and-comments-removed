@@ -558,6 +558,13 @@ gecko
 core
 components
 #
+ifdef
+MOZ_IPC
+tier_gecko_dirs
++
+=
+ipc
+endif
 tier_gecko_dirs
 +
 =
