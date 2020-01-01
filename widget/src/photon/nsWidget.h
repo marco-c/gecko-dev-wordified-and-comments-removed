@@ -702,13 +702,6 @@ NS_ERROR_FAILURE
 NS_IMETHOD
 Invalidate
 (
-PRBool
-aIsSynchronous
-)
-;
-NS_IMETHOD
-Invalidate
-(
 const
 nsRect
 &
