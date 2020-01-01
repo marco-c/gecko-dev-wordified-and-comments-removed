@@ -70,12 +70,6 @@ struct
 nsEnumerationData
 ;
 class
-nsAutoVoidArray
-;
-class
-nsIPrefBranch
-;
-class
 nsICookiePermission
 ;
 class
@@ -387,9 +381,6 @@ GetCookieInternal
 nsIURI
 *
 aHostURI
-nsIURI
-*
-aFirstURI
 nsIChannel
 *
 aChannel
@@ -407,9 +398,6 @@ SetCookieStringInternal
 nsIURI
 *
 aHostURI
-nsIURI
-*
-aFirstURI
 nsIPrompt
 *
 aPrompt
@@ -551,9 +539,6 @@ CheckPrefs
 nsIURI
 *
 aHostURI
-nsIURI
-*
-aFirstURI
 nsIChannel
 *
 aChannel

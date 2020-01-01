@@ -444,6 +444,10 @@ necko
 \
 dom
 \
+content
+\
+widget
+\
 pref
 \
 windowwatcher
@@ -451,6 +455,8 @@ windowwatcher
 docshell
 \
 appshell
+\
+caps
 \
 storage
 \
@@ -518,6 +524,13 @@ DEFINES
 =
 -
 DMOZ_MAIL_NEWS
+endif
+ifdef
+ENABLE_TESTS
+TOOL_DIRS
++
+=
+test
 endif
 include
 (
