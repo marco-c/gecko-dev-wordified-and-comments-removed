@@ -130,6 +130,14 @@ delete
 ]
 arr
 ;
+arr
+=
+0
+;
+length
+=
+0
+;
 }
 L
 binarySearch
