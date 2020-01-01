@@ -2548,7 +2548,7 @@ length
 return
 ;
 }
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 munmap
@@ -2593,7 +2593,7 @@ pthread_mutex_lock
 mutex
 )
 )
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 pthread_mutex_lock
@@ -2614,7 +2614,7 @@ pthread_mutex_unlock
 mutex
 )
 )
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 pthread_mutex_unlock

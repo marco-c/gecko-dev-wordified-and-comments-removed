@@ -12711,7 +12711,7 @@ return
 false
 ;
 }
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unexpected

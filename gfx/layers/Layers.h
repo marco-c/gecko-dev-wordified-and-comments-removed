@@ -4717,7 +4717,7 @@ Layer
 aAfter
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 no
@@ -4734,7 +4734,7 @@ Layer
 aChild
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 no
@@ -4754,7 +4754,7 @@ Layer
 aAfter
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 no

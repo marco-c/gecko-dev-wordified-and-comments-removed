@@ -552,7 +552,7 @@ FORMAT_B8G8R8X8
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unsupported
@@ -2070,7 +2070,7 @@ break
 }
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Invalid

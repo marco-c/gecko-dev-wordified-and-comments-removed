@@ -215,7 +215,7 @@ isMutable
 )
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 GetMutable
@@ -399,7 +399,7 @@ isMutable
 )
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 GetMutable

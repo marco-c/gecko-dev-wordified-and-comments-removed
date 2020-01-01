@@ -3721,7 +3721,7 @@ JS_TRUE
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 unhandled

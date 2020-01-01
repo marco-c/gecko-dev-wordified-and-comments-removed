@@ -1322,7 +1322,7 @@ true
 :
 false
 ;
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 DebuggerHelper

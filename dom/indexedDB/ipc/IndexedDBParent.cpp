@@ -1203,7 +1203,7 @@ return
 NS_OK
 ;
 }
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unexpected
@@ -1678,7 +1678,7 @@ objectStoreNames
 )
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 This
@@ -2119,7 +2119,7 @@ return
 NS_OK
 ;
 }
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unexpected
@@ -2340,7 +2340,7 @@ return
 NS_OK
 ;
 }
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unexpected
@@ -3144,7 +3144,7 @@ nsString
 aName
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Should
@@ -3319,7 +3319,7 @@ ObjectStoreConstructorParams
 TCreateObjectStoreParams
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Should
@@ -3338,7 +3338,7 @@ return
 false
 ;
 }
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unknown
@@ -4018,7 +4018,7 @@ get_ContinueParams
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unknown
@@ -4031,7 +4031,7 @@ return
 false
 ;
 }
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Should
@@ -4188,7 +4188,7 @@ nsString
 aName
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Should
@@ -4450,7 +4450,7 @@ get_OpenCursorParams
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unknown
@@ -4463,7 +4463,7 @@ return
 false
 ;
 }
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Should
@@ -4639,7 +4639,7 @@ IndexConstructorParams
 TCreateIndexParams
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Should
@@ -4658,7 +4658,7 @@ return
 false
 ;
 }
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unknown
@@ -4767,7 +4767,7 @@ ObjectStoreCursorConstructorParams
 aParams
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Caller
@@ -5468,7 +5468,7 @@ get_OpenKeyCursorParams
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unknown
@@ -5481,7 +5481,7 @@ return
 false
 ;
 }
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Should
@@ -5553,7 +5553,7 @@ IndexCursorConstructorParams
 aParams
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Caller
@@ -6091,7 +6091,7 @@ break
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unknown
@@ -6733,7 +6733,7 @@ break
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unknown
@@ -6910,7 +6910,7 @@ break
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unknown
@@ -7438,7 +7438,7 @@ break
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unknown
@@ -7625,7 +7625,7 @@ break
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unknown
@@ -7806,7 +7806,7 @@ break
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unknown
@@ -7988,7 +7988,7 @@ break
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unknown
@@ -8185,7 +8185,7 @@ break
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unknown
@@ -8833,7 +8833,7 @@ nsIDOMEvent
 aEvent
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 This

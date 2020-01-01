@@ -2597,7 +2597,7 @@ NS_OK
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unsupported
@@ -2609,7 +2609,7 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Failed
@@ -4693,7 +4693,7 @@ false
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unknown

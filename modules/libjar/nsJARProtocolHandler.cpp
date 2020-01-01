@@ -307,7 +307,7 @@ IsMainProcess
 )
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Shouldn
@@ -402,7 +402,7 @@ IsMainProcess
 )
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Shouldn

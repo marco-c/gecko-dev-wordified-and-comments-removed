@@ -2953,7 +2953,7 @@ uint32_t
 retval
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 DigestOutputStream
@@ -2984,7 +2984,7 @@ uint32_t
 retval
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 DigestOutputStream

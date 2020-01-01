@@ -340,7 +340,7 @@ nullptr
 ;
 }
 }
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Cannot

@@ -26427,7 +26427,7 @@ D32
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Invalid
@@ -26473,7 +26473,7 @@ D24S8
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Invalid

@@ -853,7 +853,7 @@ eScreenOrientation_None
 :
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unacceptable
@@ -1646,7 +1646,7 @@ true
 ;
 }
 }
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 unexpected

@@ -228,7 +228,7 @@ aValue
 )
 MOZ_OVERRIDE
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 This
@@ -1050,7 +1050,7 @@ get_IsScoConnectedRequest
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unknown
@@ -1063,7 +1063,7 @@ return
 false
 ;
 }
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Should

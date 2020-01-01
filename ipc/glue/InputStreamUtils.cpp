@@ -221,7 +221,7 @@ if
 serializable
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Input
@@ -257,7 +257,7 @@ InputStreamParams
 T__None
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Serialize

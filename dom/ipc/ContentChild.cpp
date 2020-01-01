@@ -3726,7 +3726,7 @@ AllocPBluetooth
 #
 ifdef
 MOZ_B2G_BT
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 No
@@ -3744,7 +3744,7 @@ nullptr
 ;
 #
 else
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 No
@@ -3786,7 +3786,7 @@ true
 ;
 #
 else
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 No
@@ -3818,7 +3818,7 @@ AllocPSpeechSynthesis
 #
 ifdef
 MOZ_WEBSPEECH
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 No

@@ -3415,7 +3415,7 @@ uint32_t
 result
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 extended

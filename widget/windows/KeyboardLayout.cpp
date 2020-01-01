@@ -2149,7 +2149,7 @@ break
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unsupported
@@ -2269,7 +2269,7 @@ break
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unsupported
@@ -2313,7 +2313,7 @@ break
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unsupported
@@ -2970,7 +2970,7 @@ break
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Invalid
@@ -4421,7 +4421,7 @@ message
 )
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 We

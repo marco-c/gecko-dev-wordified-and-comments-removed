@@ -285,7 +285,7 @@ break
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unknown
@@ -705,7 +705,7 @@ break
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unknown

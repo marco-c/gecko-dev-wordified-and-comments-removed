@@ -8696,7 +8696,7 @@ return
 false
 ;
 }
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Invalid
@@ -8973,7 +8973,7 @@ nullptr
 ;
 }
 }
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Invalid

@@ -327,7 +327,7 @@ Size
 }
 else
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unhandled
@@ -553,7 +553,7 @@ Size
 }
 else
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unhandled
@@ -732,7 +732,7 @@ Size
 return
 ;
 }
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unhandled
@@ -901,7 +901,7 @@ Size
 return
 ;
 }
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unhandled
@@ -918,7 +918,7 @@ AttachType
 return
 ;
 }
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unhandled
@@ -1292,7 +1292,7 @@ break
 ;
 default
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Unhandled

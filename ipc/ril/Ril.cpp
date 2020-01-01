@@ -680,7 +680,7 @@ nsAString
 aAddrStr
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 This

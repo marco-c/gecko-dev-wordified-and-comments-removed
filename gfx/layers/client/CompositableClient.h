@@ -111,7 +111,7 @@ GetTextureInfo
 )
 const
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 This
@@ -156,7 +156,7 @@ SurfaceDescriptor
 aDescriptor
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 If

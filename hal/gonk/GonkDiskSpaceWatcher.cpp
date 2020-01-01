@@ -325,7 +325,7 @@ int
 aFd
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Must

@@ -757,7 +757,7 @@ break
 case
 EVENT_COUNT
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Invalid
@@ -854,7 +854,7 @@ aEvent
 )
 )
 ;
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 "
@@ -863,7 +863,7 @@ MOZ_NOT_REACHED
 case
 EVENT_COUNT
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Invalid
@@ -961,7 +961,7 @@ aEvent
 mType
 )
 ;
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 "
@@ -970,7 +970,7 @@ MOZ_NOT_REACHED
 case
 EVENT_COUNT
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Invalid
@@ -1068,7 +1068,7 @@ aEvent
 )
 )
 ;
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 "
@@ -1077,7 +1077,7 @@ MOZ_NOT_REACHED
 case
 EVENT_COUNT
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Invalid
@@ -1175,7 +1175,7 @@ aEvent
 )
 )
 ;
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 "
@@ -1184,7 +1184,7 @@ MOZ_NOT_REACHED
 case
 EVENT_COUNT
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Invalid
@@ -1282,7 +1282,7 @@ aEvent
 )
 )
 ;
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 "
@@ -1291,7 +1291,7 @@ MOZ_NOT_REACHED
 case
 EVENT_COUNT
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Invalid
@@ -1316,7 +1316,7 @@ break
 case
 STATE_COUNT
 :
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Invalid

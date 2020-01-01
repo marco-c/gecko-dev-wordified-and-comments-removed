@@ -619,7 +619,7 @@ path
 )
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Couldn
@@ -744,7 +744,7 @@ path
 )
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Couldn
@@ -811,7 +811,7 @@ defined
 (
 MOZ_WIDGET_COCOA
 )
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 OS
@@ -912,7 +912,7 @@ path
 )
 )
 {
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 Couldn

@@ -545,7 +545,7 @@ Reboot
 (
 )
 ;
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 hal
@@ -590,7 +590,7 @@ PowerOff
 (
 )
 ;
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 hal
@@ -649,7 +649,7 @@ _exit
 0
 )
 ;
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 _exit

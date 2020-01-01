@@ -2344,7 +2344,7 @@ default
 break
 ;
 }
-MOZ_NOT_REACHED
+MOZ_CRASH
 (
 "
 unexpected
