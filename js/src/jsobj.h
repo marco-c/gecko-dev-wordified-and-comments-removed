@@ -1307,6 +1307,9 @@ class
 NormalArgumentsObject
 ;
 class
+NumberObject
+;
+class
 StrictArgumentsObject
 ;
 class
@@ -3720,6 +3723,16 @@ JSSLOT_PRIMITIVE_THIS
 }
 public
 :
+inline
+js
+:
+:
+NumberObject
+*
+asNumber
+(
+)
+;
 inline
 js
 :
