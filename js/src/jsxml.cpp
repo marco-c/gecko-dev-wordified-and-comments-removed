@@ -12656,9 +12656,6 @@ out
 ;
 if
 (
-prefix
-&
-&
 !
 prefix
 -
