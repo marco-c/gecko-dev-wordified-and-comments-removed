@@ -2514,6 +2514,15 @@ this
 bounds
 )
 ;
+if
+(
+!
+this
+.
+isNewTabsGroup
+(
+)
+)
 this
 .
 setTrenches
