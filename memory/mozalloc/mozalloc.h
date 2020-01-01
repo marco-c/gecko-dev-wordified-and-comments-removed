@@ -32,6 +32,15 @@ new
 #
 endif
 #
+include
+"
+xpcom
+-
+config
+.
+h
+"
+#
 define
 MOZALLOC_HAVE_XMALLOC
 #

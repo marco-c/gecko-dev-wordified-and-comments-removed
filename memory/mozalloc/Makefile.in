@@ -686,6 +686,16 @@ SDK_LIBRARY
 SHARED_LIBRARY
 )
 endif
+LOCAL_INCLUDES
++
+=
+-
+I
+(
+DEPTH
+)
+/
+xpcom
 include
 (
 topsrcdir
