@@ -2442,6 +2442,17 @@ endif
 case
 LAYERS_CLIENT
 :
+result
+=
+listener
+-
+>
+PaintWindow
+(
+this
+region
+)
+;
 break
 ;
 default
