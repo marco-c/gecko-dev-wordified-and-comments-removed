@@ -432,6 +432,8 @@ makefiles
 .
 extend
 (
+sorted
+(
 glob
 .
 glob
@@ -448,6 +450,7 @@ a
 .
 mk
 '
+)
 )
 )
 )
