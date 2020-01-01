@@ -446,6 +446,10 @@ nsChangeObserver
 .
 h
 \
+nsCocoaUtils
+.
+h
+\
 (
 NULL
 )

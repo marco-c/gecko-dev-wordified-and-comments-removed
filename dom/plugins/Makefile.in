@@ -736,6 +736,10 @@ PluginUtilsOSX
 .
 mm
 \
+PluginInterposeOSX
+.
+mm
+\
 (
 NULL
 )
