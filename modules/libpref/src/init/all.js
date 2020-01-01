@@ -551,7 +551,7 @@ anchor_color
 "
 "
 #
-0000EE
+0B6CDA
 "
 )
 ;
