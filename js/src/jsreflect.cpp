@@ -10876,7 +10876,7 @@ dst
 ;
 }
 case
-PNK_DO
+PNK_DOWHILE
 :
 {
 Value
