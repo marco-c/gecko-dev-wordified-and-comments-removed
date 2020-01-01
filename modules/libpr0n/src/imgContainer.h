@@ -63,13 +63,6 @@ h
 #
 include
 "
-nsIStringStream
-.
-h
-"
-#
-include
-"
 imgFrame
 .
 h
@@ -534,12 +527,6 @@ mWorker
 ;
 PRUint32
 mBytesDecoded
-;
-nsCOMPtr
-<
-nsIStringInputStream
->
-mDecoderInput
 ;
 PRUint32
 mDecoderFlags
