@@ -5874,6 +5874,7 @@ PluginInstanceChild
 (
 &
 mFunctions
+aMimeType
 )
 )
 ;
