@@ -4246,6 +4246,9 @@ FT_RENDER_MODE_NORMAL
 if
 (
 error
+=
+=
+FT_Err_Out_Of_Memory
 )
 {
 _cairo_error
@@ -7627,6 +7630,9 @@ load_flags
 if
 (
 error
+=
+=
+FT_Err_Out_Of_Memory
 )
 {
 status
@@ -8449,6 +8455,9 @@ FT_LOAD_NO_BITMAP
 if
 (
 error
+=
+=
+FT_Err_Out_Of_Memory
 )
 {
 _cairo_ft_unscaled_font_unlock_face
