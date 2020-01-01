@@ -459,8 +459,11 @@ rv
 image
 -
 >
-SourceDataComplete
+OnImageDataComplete
 (
+nullptr
+nullptr
+NS_OK
 )
 ;
 NS_ENSURE_SUCCESS
