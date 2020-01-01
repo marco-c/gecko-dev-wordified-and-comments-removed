@@ -3044,7 +3044,11 @@ absoluteCertOffset
 +
 colIndex
 *
+(
 mNumRows
+-
+mNumOrgs
+)
 ;
 PRUint32
 arrayLength
