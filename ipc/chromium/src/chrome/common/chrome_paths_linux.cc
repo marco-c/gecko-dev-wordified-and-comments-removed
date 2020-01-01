@@ -42,6 +42,9 @@ path_service
 h
 "
 #
+ifndef
+CHROMIUM_MOZILLA_BUILD
+#
 include
 "
 chrome
@@ -54,6 +57,8 @@ xdg_user_dir_lookup
 .
 h
 "
+#
+endif
 namespace
 {
 FilePath
@@ -156,6 +161,9 @@ char
 fallback_dir
 )
 {
+#
+ifndef
+CHROMIUM_MOZILLA_BUILD
 char
 *
 xdg_dir
@@ -185,6 +193,8 @@ return
 rv
 ;
 }
+#
+endif
 return
 GetHomeDir
 (

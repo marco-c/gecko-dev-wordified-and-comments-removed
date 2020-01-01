@@ -361,6 +361,12 @@ Type
 TYPE_DEFAULT
 TYPE_UI
 TYPE_IO
+#
+ifdef
+CHROMIUM_MOZILLA_BUILD
+TYPE_MOZILLA_CHILD
+#
+endif
 }
 ;
 explicit

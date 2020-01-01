@@ -18,17 +18,6 @@ ipc_message_macros
 .
 h
 "
-#
-include
-"
-webkit
-/
-glue
-/
-webcursor
-.
-h
-"
 IPC_BEGIN_MESSAGES
 (
 PluginProcess

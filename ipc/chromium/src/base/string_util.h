@@ -286,6 +286,14 @@ your
 platform
 #
 endif
+#
+ifdef
+CHROMIUM_MOZILLA_BUILD
+namespace
+base
+{
+#
+endif
 const
 std
 :
@@ -313,6 +321,12 @@ EmptyString16
 (
 )
 ;
+#
+ifdef
+CHROMIUM_MOZILLA_BUILD
+}
+#
+endif
 extern
 const
 wchar_t
