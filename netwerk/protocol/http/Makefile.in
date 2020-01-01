@@ -511,8 +511,6 @@ h
 (
 NULL
 )
-ifdef
-MOZ_IPC
 EXPORTS_mozilla
 /
 net
@@ -556,7 +554,6 @@ h
 (
 NULL
 )
-endif
 CPPSRCS
 =
 \
@@ -640,15 +637,6 @@ nsHttpChannelAuthProvider
 .
 cpp
 \
-(
-NULL
-)
-ifdef
-MOZ_IPC
-CPPSRCS
-+
-=
-\
 HttpChannelParent
 .
 cpp
@@ -664,7 +652,6 @@ cpp
 (
 NULL
 )
-endif
 LOCAL_INCLUDES
 =
 \

@@ -251,9 +251,6 @@ DLL_SUFFIX
 endif
 #
 ifdef
-MOZ_IPC
-#
-ifdef
 XP_MACOSX
 BINPATH
 /
@@ -266,8 +263,6 @@ else
 BINPATH
 /
 MOZ_CHILD_PROCESS_NAME
-#
-endif
 #
 endif
 #

@@ -4957,9 +4957,6 @@ TYPE_OWN_LAYER
 )
 }
 ;
-#
-ifdef
-MOZ_IPC
 class
 nsDisplayScrollLayer
 :
@@ -5063,8 +5060,6 @@ mViewportFrame
 ;
 }
 ;
-#
-endif
 class
 nsDisplayClip
 :

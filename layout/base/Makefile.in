@@ -753,8 +753,6 @@ config
 rules
 .
 mk
-ifdef
-MOZ_IPC
 include
 (
 topsrcdir
@@ -769,7 +767,6 @@ chromium
 config
 .
 mk
-endif
 LOCAL_INCLUDES
 +
 =

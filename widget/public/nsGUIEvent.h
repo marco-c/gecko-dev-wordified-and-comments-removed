@@ -123,9 +123,6 @@ nsIVariant
 .
 h
 "
-#
-ifdef
-MOZ_IPC
 namespace
 mozilla
 {
@@ -140,8 +137,6 @@ PBrowserChild
 ;
 }
 }
-#
-endif
 #
 ifdef
 ACCESSIBILITY
@@ -1930,16 +1925,11 @@ nsEvent
 )
 ;
 }
-#
-ifdef
-MOZ_IPC
 nsEvent
 (
 )
 {
 }
-#
-endif
 public
 :
 nsEvent
@@ -2075,9 +2065,6 @@ nsnull
 )
 {
 }
-#
-ifdef
-MOZ_IPC
 nsGUIEvent
 (
 )
@@ -2088,8 +2075,6 @@ nsnull
 )
 {
 }
-#
-endif
 public
 :
 nsGUIEvent
@@ -2541,16 +2526,11 @@ PR_FALSE
 )
 {
 }
-#
-ifdef
-MOZ_IPC
 nsInputEvent
 (
 )
 {
 }
-#
-endif
 public
 :
 nsInputEvent
@@ -3539,9 +3519,6 @@ nsTextEvent
 public
 nsInputEvent
 {
-#
-ifdef
-MOZ_IPC
 private
 :
 friend
@@ -3574,8 +3551,6 @@ public
 PRUint32
 seqno
 ;
-#
-endif
 public
 :
 nsTextEvent
@@ -3630,9 +3605,6 @@ nsCompositionEvent
 public
 nsInputEvent
 {
-#
-ifdef
-MOZ_IPC
 private
 :
 friend
@@ -3665,8 +3637,6 @@ public
 PRUint32
 seqno
 ;
-#
-endif
 public
 :
 nsCompositionEvent
@@ -3848,9 +3818,6 @@ nsQueryContentEvent
 public
 nsGUIEvent
 {
-#
-ifdef
-MOZ_IPC
 private
 :
 friend
@@ -3890,8 +3857,6 @@ mFocusedWidget
 nsnull
 ;
 }
-#
-endif
 public
 :
 nsQueryContentEvent
@@ -4242,9 +4207,6 @@ nsSelectionEvent
 public
 nsGUIEvent
 {
-#
-ifdef
-MOZ_IPC
 private
 :
 friend
@@ -4277,8 +4239,6 @@ public
 PRUint32
 seqno
 ;
-#
-endif
 public
 :
 nsSelectionEvent

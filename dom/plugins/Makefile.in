@@ -441,8 +441,6 @@ h
 (
 NULL
 )
-ifdef
-MOZ_IPC
 EXPORTS_NAMESPACES
 =
 mozilla
@@ -834,7 +832,6 @@ chromium
 config
 .
 mk
-endif
 include
 (
 topsrcdir

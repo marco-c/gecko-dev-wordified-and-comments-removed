@@ -1,7 +1,4 @@
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 mozilla
@@ -26,8 +23,6 @@ nsResProtocolHandler
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -1981,9 +1976,6 @@ nsnull
 }
 }
 }
-#
-ifdef
-MOZ_IPC
 static
 void
 SerializeURI
@@ -2418,8 +2410,6 @@ PLDHashOperator
 PL_DHASH_NEXT
 ;
 }
-#
-endif
 static
 PRBool
 CanLoadResource

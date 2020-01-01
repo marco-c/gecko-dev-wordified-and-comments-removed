@@ -67,9 +67,6 @@ DuplicatePrivateData
 (
 )
 ;
-#
-ifdef
-MOZ_IPC
 virtual
 void
 Serialize
@@ -101,8 +98,6 @@ void
 aIter
 )
 ;
-#
-endif
 NS_FORWARD_TO_NSDOMEVENT
 NS_FORWARD_NSIDOMNSEVENT
 (

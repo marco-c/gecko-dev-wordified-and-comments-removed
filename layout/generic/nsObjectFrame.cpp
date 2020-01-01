@@ -27,9 +27,6 @@ slots
 #
 endif
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 mozilla
@@ -40,8 +37,6 @@ PluginMessageUtils
 .
 h
 "
-#
-endif
 #
 ifdef
 MOZ_X11
@@ -1015,9 +1010,6 @@ using
 namespace
 mozilla
 ;
-#
-ifdef
-MOZ_IPC
 using
 namespace
 mozilla
@@ -1025,8 +1017,6 @@ mozilla
 :
 plugins
 ;
-#
-endif
 using
 namespace
 mozilla
@@ -10403,9 +10393,6 @@ ctx
 frameGfxRect
 )
 ;
-#
-ifdef
-MOZ_IPC
 if
 (
 nativeDraw
@@ -10455,8 +10442,6 @@ nsnull
 )
 ;
 }
-#
-endif
 do
 {
 HDC

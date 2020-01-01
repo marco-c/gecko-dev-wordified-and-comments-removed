@@ -2416,9 +2416,6 @@ nsISupports
 aContext
 )
 {
-#
-ifdef
-MOZ_IPC
 if
 (
 !
@@ -2556,13 +2553,6 @@ mCurrentContext
 return
 NS_OK
 ;
-#
-else
-return
-NS_ERROR_NOT_IMPLEMENTED
-;
-#
-endif
 }
 nsresult
 nsHTMLCanvasElement

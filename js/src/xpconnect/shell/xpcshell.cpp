@@ -3298,9 +3298,6 @@ return
 JS_TRUE
 ;
 }
-#
-ifdef
-MOZ_IPC
 static
 JSBool
 SendCommand
@@ -3522,8 +3519,6 @@ return
 JS_FALSE
 ;
 }
-#
-endif
 static
 const
 struct
@@ -4279,9 +4274,6 @@ DumpHeap
 }
 #
 endif
-#
-ifdef
-MOZ_IPC
 {
 "
 sendCommand
@@ -4298,8 +4290,6 @@ GetChildGlobalObject
 0
 0
 }
-#
-endif
 #
 ifdef
 MOZ_CALLGRIND
@@ -9089,9 +9079,6 @@ cx
 )
 ;
 }
-#
-ifdef
-MOZ_IPC
 if
 (
 !
@@ -9109,8 +9096,6 @@ testshell
 "
 )
 ;
-#
-endif
 #
 ifdef
 MOZ_CRASHREPORTER

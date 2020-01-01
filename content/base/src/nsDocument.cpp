@@ -34753,9 +34753,6 @@ PRBool
 aLocked
 )
 {
-#
-ifdef
-MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -34787,8 +34784,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 if
 (
 mLockingImages

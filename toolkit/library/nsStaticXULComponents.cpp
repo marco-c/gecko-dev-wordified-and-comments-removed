@@ -313,12 +313,6 @@ endif
 if
 defined
 (
-MOZ_IPC
-)
-&
-&
-defined
-(
 ENABLE_JETPACK_SERVICE
 )
 #

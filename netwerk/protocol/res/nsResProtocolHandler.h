@@ -118,9 +118,6 @@ Init
 (
 )
 ;
-#
-ifdef
-MOZ_IPC
 void
 CollectSubstitutions
 (
@@ -132,8 +129,6 @@ ResourceMapping
 aResources
 )
 ;
-#
-endif
 private
 :
 nsresult

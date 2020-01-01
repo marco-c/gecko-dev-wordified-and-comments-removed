@@ -16,9 +16,6 @@ FORCE_PR_LOG
 #
 endif
 #
-ifdef
-MOZ_IPC
-#
 if
 defined
 (
@@ -75,8 +72,6 @@ h
 #
 undef
 LOG
-#
-endif
 #
 include
 "

@@ -1351,9 +1351,6 @@ this
 )
 )
 ;
-#
-ifdef
-MOZ_IPC
 NS_ASSERTION
 (
 mWindow
@@ -1371,8 +1368,6 @@ child
 "
 )
 ;
-#
-endif
 nsCOMPtr
 <
 nsPIDOMWindow

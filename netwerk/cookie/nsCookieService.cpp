@@ -7,9 +7,6 @@ FORCE_PR_LOG
 #
 endif
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 mozilla
@@ -31,8 +28,6 @@ NeckoCommon
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -2551,9 +2546,6 @@ GetXPCOMSingleton
 (
 )
 {
-#
-ifdef
-MOZ_IPC
 if
 (
 IsNeckoChild
@@ -2568,8 +2560,6 @@ GetSingleton
 (
 )
 ;
-#
-endif
 return
 GetSingleton
 (
@@ -2585,9 +2575,6 @@ GetSingleton
 (
 )
 {
-#
-ifdef
-MOZ_IPC
 NS_ASSERTION
 (
 !
@@ -2602,8 +2589,6 @@ process
 "
 )
 ;
-#
-endif
 if
 (
 gCookieService

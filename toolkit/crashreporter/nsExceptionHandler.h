@@ -306,9 +306,6 @@ PRBool
 aSubmitReport
 )
 ;
-#
-ifdef
-MOZ_IPC
 bool
 TakeMinidumpForChild
 (
@@ -447,8 +444,6 @@ UnsetRemoteExceptionHandler
 )
 ;
 #
-endif
-#
 if
 defined
 (
@@ -473,12 +468,6 @@ size_t
 file_offset
 )
 ;
-#
-if
-defined
-(
-MOZ_IPC
-)
 void
 AddLibraryMappingForChild
 (
@@ -507,8 +496,6 @@ PRUint32
 childPid
 )
 ;
-#
-endif
 #
 endif
 }

@@ -733,8 +733,6 @@ ddraw
 .
 lib
 endif
-ifdef
-MOZ_IPC
 include
 (
 topsrcdir
@@ -759,7 +757,6 @@ chromium
 config
 .
 mk
-endif
 ifdef
 ENABLE_TESTS
 TOOL_DIRS

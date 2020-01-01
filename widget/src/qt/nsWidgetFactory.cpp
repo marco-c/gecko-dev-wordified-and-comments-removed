@@ -174,9 +174,6 @@ h
 #
 endif
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 nsFilePickerProxy
@@ -190,8 +187,6 @@ nsXULAppAPI
 .
 h
 "
-#
-endif
 extern
 PRBool
 gDisableNativeTheme
@@ -290,9 +285,6 @@ nsIFilePicker
 >
 picker
 ;
-#
-ifdef
-MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -310,8 +302,6 @@ nsFilePickerProxy
 )
 ;
 else
-#
-endif
 picker
 =
 new

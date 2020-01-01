@@ -1,7 +1,4 @@
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 gfxSharedImageSurface
@@ -50,8 +47,6 @@ ShadowLayerChild
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -7383,9 +7378,6 @@ forget
 )
 ;
 }
-#
-ifdef
-MOZ_IPC
 class
 BasicShadowableThebesLayer
 ;
@@ -12993,7 +12985,5 @@ GetParentBackendType
 )
 ;
 }
-#
-endif
 }
 }

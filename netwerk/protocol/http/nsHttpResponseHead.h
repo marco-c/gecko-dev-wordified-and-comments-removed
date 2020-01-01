@@ -543,9 +543,6 @@ mCacheControlNoCache
 PRPackedBool
 mPragmaNoCache
 ;
-#
-ifdef
-MOZ_IPC
 friend
 struct
 IPC
@@ -556,8 +553,6 @@ ParamTraits
 nsHttpResponseHead
 >
 ;
-#
-endif
 }
 ;
 #

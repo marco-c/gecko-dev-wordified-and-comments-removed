@@ -2541,9 +2541,6 @@ hWnd
 GWL_STYLE
 )
 ;
-#
-ifdef
-MOZ_IPC
 if
 (
 :
@@ -2569,15 +2566,6 @@ style
 =
 WS_CLIPCHILDREN
 ;
-#
-else
-style
-|
-=
-WS_CLIPCHILDREN
-;
-#
-endif
 SetWindowLongPtr
 (
 hWnd

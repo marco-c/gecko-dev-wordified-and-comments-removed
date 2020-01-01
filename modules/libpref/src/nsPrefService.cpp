@@ -1,7 +1,4 @@
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 mozilla
@@ -19,8 +16,6 @@ nsXULAppAPI
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -391,9 +386,6 @@ rv
 rv
 )
 ;
-#
-ifdef
-MOZ_IPC
 using
 mozilla
 :
@@ -471,8 +463,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 nsXPIDLCString
 lockFileName
 ;
@@ -644,9 +634,6 @@ PRUnichar
 someData
 )
 {
-#
-ifdef
-MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -659,8 +646,6 @@ GeckoProcessType_Content
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-#
-endif
 nsresult
 rv
 =
@@ -834,9 +819,6 @@ nsIFile
 aFile
 )
 {
-#
-ifdef
-MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -863,8 +845,6 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-#
-endif
 nsresult
 rv
 ;
@@ -914,9 +894,6 @@ ResetPrefs
 (
 )
 {
-#
-ifdef
-MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -943,8 +920,6 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-#
-endif
 NotifyServiceObservers
 (
 NS_PREFSERVICE_RESET_TOPIC_ID
@@ -981,9 +956,6 @@ ResetUserPrefs
 (
 )
 {
-#
-ifdef
-MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -1010,8 +982,6 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-#
-endif
 PREF_ClearAllUserPrefs
 (
 )
@@ -1031,9 +1001,6 @@ nsIFile
 aFile
 )
 {
-#
-ifdef
-MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -1060,8 +1027,6 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-#
-endif
 return
 SavePrefFileInternal
 (

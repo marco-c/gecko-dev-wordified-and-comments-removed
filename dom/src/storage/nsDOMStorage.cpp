@@ -1,7 +1,4 @@
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 StorageChild
@@ -31,8 +28,6 @@ dom
 :
 StorageChild
 ;
-#
-endif
 #
 include
 "
@@ -1001,9 +996,6 @@ NS_ADDREF
 gStorageManager
 )
 ;
-#
-ifdef
-MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -1016,8 +1008,6 @@ GeckoProcessType_Default
 return
 NS_OK
 ;
-#
-endif
 nsCOMPtr
 <
 nsIObserverService
@@ -5641,9 +5631,6 @@ mSecurityChecker
 =
 this
 ;
-#
-ifdef
-MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -5662,8 +5649,6 @@ this
 )
 ;
 else
-#
-endif
 mStorageImpl
 =
 new
@@ -5698,9 +5683,6 @@ mSecurityChecker
 =
 this
 ;
-#
-ifdef
-MOZ_IPC
 if
 (
 XRE_GetProcessType
@@ -5742,8 +5724,6 @@ other
 ;
 }
 else
-#
-endif
 {
 DOMStorageImpl
 *

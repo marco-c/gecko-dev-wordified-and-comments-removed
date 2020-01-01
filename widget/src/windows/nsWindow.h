@@ -2298,9 +2298,6 @@ protected
 :
 #
 endif
-#
-ifdef
-MOZ_IPC
 static
 bool
 IsAsyncResponseEvent
@@ -2326,8 +2323,6 @@ LPARAM
 lParam
 )
 ;
-#
-endif
 UINT
 MapFromNativeToDOM
 (
@@ -2612,15 +2607,10 @@ HasBogusPopupsDropShadowOnMultiMonitor
 (
 )
 ;
-#
-ifdef
-MOZ_IPC
 static
 PRUint32
 sOOPPPluginFocusEvent
 ;
-#
-endif
 nsIntMargin
 mNonClientOffset
 ;

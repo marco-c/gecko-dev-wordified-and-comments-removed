@@ -1,7 +1,4 @@
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 IPC
@@ -10,8 +7,6 @@ IPCMessageUtils
 .
 h
 "
-#
-endif
 #
 if
 defined
@@ -1590,9 +1585,6 @@ void
 aIter
 )
 {
-#
-ifdef
-MOZ_IPC
 using
 IPC
 :
@@ -1696,13 +1688,6 @@ PR_FALSE
 return
 PR_TRUE
 ;
-#
-else
-return
-PR_FALSE
-;
-#
-endif
 }
 void
 nsFileInputStream
@@ -1718,9 +1703,6 @@ Message
 aMsg
 )
 {
-#
-ifdef
-MOZ_IPC
 using
 IPC
 :
@@ -1779,8 +1761,6 @@ aMsg
 mBehaviorFlags
 )
 ;
-#
-endif
 }
 NS_IMPL_ISUPPORTS_INHERITED3
 (

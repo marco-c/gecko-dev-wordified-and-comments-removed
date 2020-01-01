@@ -950,15 +950,6 @@ contentAreaDropListener
 .
 manifest
 \
-(
-NULL
-)
-ifdef
-MOZ_IPC
-EXTRA_COMPONENTS
-+
-=
-\
 messageWakeupService
 .
 js
@@ -970,7 +961,6 @@ manifest
 (
 NULL
 )
-endif
 EXTRA_JS_MODULES
 =
 \

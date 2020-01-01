@@ -9,9 +9,6 @@ QX11Info
 #
 endif
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 base
@@ -20,8 +17,6 @@ basictypes
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -378,9 +373,6 @@ mozilla
 PluginPRLibrary
 ;
 #
-ifdef
-MOZ_IPC
-#
 include
 "
 mozilla
@@ -400,8 +392,6 @@ plugins
 :
 PluginModuleParent
 ;
-#
-endif
 #
 ifdef
 MOZ_X11
@@ -808,9 +798,6 @@ aRefNum
 }
 #
 endif
-#
-ifdef
-MOZ_IPC
 void
 nsNPAPIPlugin
 :
@@ -854,11 +841,6 @@ browserDumpID
 )
 ;
 }
-#
-endif
-#
-ifdef
-MOZ_IPC
 #
 if
 defined
@@ -1804,8 +1786,6 @@ return
 oopPluginsEnabled
 ;
 }
-#
-endif
 inline
 PluginLibrary
 *
@@ -1826,9 +1806,6 @@ return
 nsnull
 ;
 }
-#
-ifdef
-MOZ_IPC
 if
 (
 nsNPAPIPlugin
@@ -1857,8 +1834,6 @@ get
 )
 ;
 }
-#
-endif
 return
 new
 PluginPRLibrary

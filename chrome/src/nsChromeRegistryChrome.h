@@ -148,9 +148,6 @@ _retval
 ;
 #
 endif
-#
-ifdef
-MOZ_IPC
 void
 SendRegisteredChrome
 (
@@ -165,13 +162,8 @@ PContentParent
 aChild
 )
 ;
-#
-endif
 private
 :
-#
-ifdef
-MOZ_IPC
 static
 PLDHashOperator
 CollectPackages
@@ -189,8 +181,6 @@ void
 arg
 )
 ;
-#
-endif
 nsresult
 SelectLocaleFromPref
 (
