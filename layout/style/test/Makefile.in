@@ -912,10 +912,6 @@ test_css_eof_handling
 .
 html
 \
-test_default_bidi_css
-.
-html
-\
 test_descriptor_storage
 .
 html
