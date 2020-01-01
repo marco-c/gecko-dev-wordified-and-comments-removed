@@ -1318,13 +1318,6 @@ style
 /
 Gecko
 "
-android
-:
-excludeFromRecents
-=
-"
-true
-"
 >
 <
 intent
