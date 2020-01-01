@@ -90,10 +90,6 @@ NetworkPanel
 .
 jsm
 \
-AutocompletePopup
-.
-jsm
-\
 WebConsolePanel
 .
 jsm
