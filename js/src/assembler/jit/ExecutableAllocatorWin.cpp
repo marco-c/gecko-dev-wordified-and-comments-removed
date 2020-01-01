@@ -271,6 +271,9 @@ allocation
 =
 NULL
 ;
+#
+ifndef
+JS_CPU_X64
 if
 (
 allocBehavior
@@ -306,6 +309,8 @@ PAGE_EXECUTE_READWRITE
 )
 ;
 }
+#
+endif
 if
 (
 !
