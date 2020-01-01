@@ -1044,6 +1044,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsIChannelPolicy
 .
 h

@@ -64,6 +64,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsDOMClassInfo
 .
 h

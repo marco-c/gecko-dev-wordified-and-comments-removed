@@ -134,6 +134,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsDisplayList
 .
 h

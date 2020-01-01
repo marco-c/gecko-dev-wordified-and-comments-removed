@@ -36,6 +36,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsIDOMNode
 .
 h

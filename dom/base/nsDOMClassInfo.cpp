@@ -341,6 +341,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsDOMWindowUtils
 .
 h

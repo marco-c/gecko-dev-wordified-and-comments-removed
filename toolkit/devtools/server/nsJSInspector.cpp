@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h

@@ -26,6 +26,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsLayoutStatics
 .
 h

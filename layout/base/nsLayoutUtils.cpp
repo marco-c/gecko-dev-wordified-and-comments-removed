@@ -236,6 +236,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsThemeConstants
 .
 h

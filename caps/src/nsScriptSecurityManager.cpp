@@ -405,6 +405,13 @@ nsContentUtils
 h
 "
 #
+include
+"
+nsCxPusher
+.
+h
+"
+#
 define
 WEBAPPS_PERM_NAME
 "

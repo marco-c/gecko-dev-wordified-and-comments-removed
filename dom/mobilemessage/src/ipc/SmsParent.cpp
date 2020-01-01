@@ -152,6 +152,13 @@ nsTArrayHelpers
 .
 h
 "
+#
+include
+"
+nsCxPusher
+.
+h
+"
 namespace
 mozilla
 {

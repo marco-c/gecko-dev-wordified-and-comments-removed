@@ -311,6 +311,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 WrapperFactory
 .
 h

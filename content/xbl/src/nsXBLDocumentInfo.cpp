@@ -136,6 +136,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsDOMJSUtils
 .
 h

@@ -180,6 +180,13 @@ nsContentUtils
 h
 "
 #
+include
+"
+nsCxPusher
+.
+h
+"
+#
 undef
 CAUTIOUS_SCRIPTHOOK
 #

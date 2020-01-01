@@ -237,6 +237,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsXULAppAPI
 .
 h

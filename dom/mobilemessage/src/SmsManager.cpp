@@ -89,6 +89,13 @@ h
 #
 include
 "
+nsCxPusher
+.
+h
+"
+#
+include
+"
 nsIMobileMessageDatabaseService
 .
 h
