@@ -513,7 +513,6 @@ filter
 -
 out
 WINNT
-WINCE
 Darwin
 (
 OS_ARCH
