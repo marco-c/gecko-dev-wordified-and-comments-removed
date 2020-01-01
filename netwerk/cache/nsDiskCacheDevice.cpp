@@ -3408,7 +3408,7 @@ newSizeK
 >
 mCacheCapacity
 /
-2
+8
 )
 )
 {
