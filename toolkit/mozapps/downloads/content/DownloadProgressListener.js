@@ -546,6 +546,16 @@ break
 case
 nsIDM
 .
+DOWNLOAD_BLOCKED_POLICY
+:
+prependList
+(
+aDownload
+)
+;
+case
+nsIDM
+.
 DOWNLOAD_FAILED
 :
 case
@@ -556,7 +566,7 @@ DOWNLOAD_CANCELED
 case
 nsIDM
 .
-DOWNLOAD_BLOCKED
+DOWNLOAD_BLOCKED_PARENTAL
 :
 case
 nsIDM
