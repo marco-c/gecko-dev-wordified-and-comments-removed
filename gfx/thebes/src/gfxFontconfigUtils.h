@@ -249,6 +249,10 @@ gfxFontNameList
 >
 mAliasTable
 ;
+FcConfig
+*
+mLastConfig
+;
 }
 ;
 #
