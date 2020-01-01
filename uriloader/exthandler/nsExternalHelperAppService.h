@@ -180,6 +180,15 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsExternalAppHandler
 ;
@@ -413,6 +422,7 @@ mInPrivateBrowsing
 ;
 class
 nsExternalAppHandler
+MOZ_FINAL
 :
 public
 nsIStreamListener

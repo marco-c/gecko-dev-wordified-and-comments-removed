@@ -238,6 +238,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsXULAppAPI
 .
 h
@@ -382,6 +391,7 @@ EmptyCString
 }
 class
 nsManifestCheck
+MOZ_FINAL
 :
 public
 nsIStreamListener

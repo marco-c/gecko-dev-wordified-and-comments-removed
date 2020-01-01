@@ -95,6 +95,15 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsPrefetchService
 ;
@@ -106,6 +115,7 @@ nsPrefetchNode
 ;
 class
 nsPrefetchService
+MOZ_FINAL
 :
 public
 nsIPrefetchService
@@ -286,6 +296,7 @@ mDisabled
 ;
 class
 nsPrefetchNode
+MOZ_FINAL
 :
 public
 nsIDOMLoadStatus

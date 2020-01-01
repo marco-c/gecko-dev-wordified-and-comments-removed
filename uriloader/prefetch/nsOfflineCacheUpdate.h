@@ -172,6 +172,15 @@ nsICryptoHash
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsOfflineCacheUpdate
 ;
@@ -622,6 +631,7 @@ aUpdate
 ;
 class
 nsOfflineCacheUpdate
+MOZ_FINAL
 :
 public
 nsIOfflineCacheUpdate
@@ -944,6 +954,7 @@ mByteProgress
 ;
 class
 nsOfflineCacheUpdateService
+MOZ_FINAL
 :
 public
 nsIOfflineCacheUpdateService

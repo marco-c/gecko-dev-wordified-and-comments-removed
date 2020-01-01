@@ -61,6 +61,15 @@ nsIWeakReference
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 ifdef
 MOZ_LOGGING
 #
@@ -77,6 +86,7 @@ nsDocumentOpenInfo
 ;
 class
 nsURILoader
+MOZ_FINAL
 :
 public
 nsIURILoader
