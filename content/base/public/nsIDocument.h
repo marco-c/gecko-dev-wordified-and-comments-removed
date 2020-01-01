@@ -2465,6 +2465,7 @@ DocumentTheme
 {
 Doc_Theme_Uninitialized
 Doc_Theme_None
+Doc_Theme_Neutral
 Doc_Theme_Dark
 Doc_Theme_Bright
 }
