@@ -4669,6 +4669,13 @@ onreset
 )
 GK_ATOM
 (
+onMozBeforeResize
+"
+onMozBeforeResize
+"
+)
+GK_ATOM
+(
 onresize
 "
 onresize
