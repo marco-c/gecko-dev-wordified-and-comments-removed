@@ -1238,6 +1238,17 @@ PRUint64
 aDate
 )
 ;
+void
+GetMessage
+(
+PRInt32
+aMessageId
+PRInt32
+aRequestId
+PRUint64
+aProcessId
+)
+;
 bool
 IsTablet
 (
@@ -1478,6 +1489,9 @@ jSendMessage
 ;
 jmethodID
 jSaveSentMessage
+;
+jmethodID
+jGetMessage
 ;
 jclass
 jEGLSurfaceImplClass
