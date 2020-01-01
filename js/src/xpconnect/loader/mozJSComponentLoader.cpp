@@ -3276,6 +3276,10 @@ retval
 &
 jsModuleObj
 )
+|
+|
+!
+jsModuleObj
 )
 {
 return
