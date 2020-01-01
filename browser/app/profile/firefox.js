@@ -1026,7 +1026,7 @@ extensions
 getMoreExtensionsURL
 "
 "
-http
+https
 :
 /
 /
@@ -1067,7 +1067,7 @@ extensions
 getMoreThemesURL
 "
 "
-http
+https
 :
 /
 /
