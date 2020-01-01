@@ -153,6 +153,10 @@ browser_capabilities
 .
 js
 \
+browser_dying_cache
+.
+js
+\
 browser_form_restore_events
 .
 js
