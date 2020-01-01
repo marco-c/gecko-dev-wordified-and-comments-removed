@@ -13231,6 +13231,14 @@ enter
 cx
 )
 ;
+id
+=
+MakeTypeId
+(
+cx
+id
+)
+;
 TypeSet
 *
 types
