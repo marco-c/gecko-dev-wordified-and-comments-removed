@@ -271,6 +271,10 @@ DOMTransaction
 .
 webidl
 \
+DragEvent
+.
+webidl
+\
 DummyBinding
 .
 webidl
