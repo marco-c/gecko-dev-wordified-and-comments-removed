@@ -225,37 +225,22 @@ element
 )
 :
         
-self
-.
-check_element
+action
+=
+Actions
 (
-element
+self
 )
         
-self
+action
 .
-execute_script
+double_tap
 (
-"
-%
-s
-.
-dbltap
-(
-arguments
-[
-0
-]
-)
-;
-"
-%
-self
-.
-library_name
-[
 element
-]
+)
+.
+perform
+(
 )
     
 def
@@ -272,13 +257,6 @@ duration
 200
 )
 :
-        
-self
-.
-check_element
-(
-element
-)
         
 action
 =
