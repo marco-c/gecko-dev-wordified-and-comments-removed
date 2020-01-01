@@ -554,7 +554,7 @@ CGContextRef
 aContext
 CGRect
 aTitlebarRect
-float
+CGFloat
 aUnifiedHeight
 BOOL
 aIsMain
