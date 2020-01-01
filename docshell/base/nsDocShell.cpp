@@ -32352,12 +32352,6 @@ ScrollOrientation_Y
 cy
 )
 ;
-if
-(
-!
-aSHEntry
-)
-{
 rv
 =
 ScrollToAnchor
@@ -32373,7 +32367,6 @@ rv
 rv
 )
 ;
-}
 mLoadType
 =
 aLoadType

@@ -720,6 +720,14 @@ test_bfcache_plus_hash
 .
 html
 \
+test_bug680257
+.
+html
+\
+file_bug680257
+.
+html
+\
 (
 NULL
 )
