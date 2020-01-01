@@ -449,6 +449,11 @@ gfxIntSize
 ;
 }
 void
+DumpAsDataURL
+(
+)
+;
+void
 SetOpaqueRect
 (
 const
