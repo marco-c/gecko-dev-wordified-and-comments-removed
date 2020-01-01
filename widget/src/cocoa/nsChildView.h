@@ -261,9 +261,6 @@ mPendingDirtyRects
 BOOL
 mPendingFullDisplay
 ;
-BOOL
-mIsTransparent
-;
 PRIntervalTime
 mLastShadowInvalidation
 ;
@@ -316,17 +313,6 @@ viewsWindowDidResignKey
 void
 )
 delayedTearDown
-;
--
-(
-void
-)
-setTransparent
-:
-(
-BOOL
-)
-transparent
 ;
 -
 (
