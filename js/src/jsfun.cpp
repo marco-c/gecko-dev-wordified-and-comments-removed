@@ -6996,9 +6996,8 @@ return
 ok
 ;
 }
-static
 JSBool
-fun_apply
+js_fun_apply
 (
 JSContext
 *
@@ -7690,7 +7689,7 @@ JS_FN
 "
 apply
 "
-fun_apply
+js_fun_apply
 2
 0
 )
