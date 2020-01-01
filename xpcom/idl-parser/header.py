@@ -3642,6 +3642,13 @@ parse_args
 file
 =
 args
+[
+0
+]
+if
+args
+else
+None
     
 if
 options
