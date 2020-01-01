@@ -5648,7 +5648,12 @@ GetCurrentDoc
 (
 )
 parent
-nsnull
+parent
+-
+>
+GetBindingParent
+(
+)
 false
 )
 ;
@@ -8728,7 +8733,12 @@ BindToTree
 (
 nsnull
 content
-nsnull
+content
+-
+>
+GetBindingParent
+(
+)
 false
 )
 ;
