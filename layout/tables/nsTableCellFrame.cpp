@@ -2185,6 +2185,17 @@ rv
 rv
 )
 ;
+nsAutoPushCurrentTableItem
+pushTableItem
+;
+pushTableItem
+.
+Push
+(
+aBuilder
+nsnull
+)
+;
 nsIFrame
 *
 kid
