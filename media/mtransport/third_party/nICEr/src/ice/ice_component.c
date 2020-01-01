@@ -2464,15 +2464,6 @@ state
 =
 =
 NR_ICE_PAIR_STATE_FAILED
-|
-|
-pair
--
->
-state
-=
-=
-NR_ICE_PAIR_STATE_FAILED
 )
 {
 found_invalid

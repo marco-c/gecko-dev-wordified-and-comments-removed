@@ -27,6 +27,7 @@ HOST
 SERVER_REFLEXIVE
 PEER_REFLEXIVE
 RELAYED
+CTYPE_MAX
 }
 nr_ice_candidate_type
 ;
