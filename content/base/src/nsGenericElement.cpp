@@ -7725,7 +7725,7 @@ nsresult
 nsGenericElement
 :
 :
-AddScriptEventListener
+SetEventHandler
 (
 nsIAtom
 *
@@ -7808,7 +7808,7 @@ aDefer
 manager
 -
 >
-AddScriptEventListener
+SetEventHandler
 (
 aEventName
 aValue

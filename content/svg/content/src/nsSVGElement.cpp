@@ -1097,7 +1097,7 @@ body
 nsresult
 rv
 =
-AddScriptEventListener
+SetEventHandler
 (
 GetEventNameForAttr
 (
@@ -2975,7 +2975,7 @@ aName
 manager
 -
 >
-RemoveScriptEventListener
+RemoveEventHandler
 (
 eventName
 )
@@ -10951,7 +10951,7 @@ attr
 value
 )
 ;
-AddScriptEventListener
+SetEventHandler
 (
 GetEventNameForAttr
 (

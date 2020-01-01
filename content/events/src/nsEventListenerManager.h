@@ -316,7 +316,7 @@ aFlags
 )
 ;
 nsresult
-AddScriptEventListener
+SetEventHandler
 (
 nsIAtom
 *
@@ -334,7 +334,7 @@ aPermitUntrustedEvents
 )
 ;
 void
-RemoveScriptEventListener
+RemoveEventHandler
 (
 nsIAtom
 *
@@ -648,7 +648,7 @@ aBody
 ;
 nsListenerStruct
 *
-FindJSEventListener
+FindEventHandler
 (
 uint32_t
 aEventType
@@ -658,7 +658,7 @@ aTypeAtom
 )
 ;
 nsresult
-SetJSEventListener
+SetEventHandlerInternal
 (
 nsIScriptContext
 *
@@ -704,7 +704,7 @@ aType
 public
 :
 nsresult
-SetJSEventListenerToJsval
+SetEventHandlerToJsval
 (
 nsIAtom
 *
@@ -722,7 +722,7 @@ v
 )
 ;
 void
-GetJSEventListener
+GetEventHandler
 (
 nsIAtom
 *

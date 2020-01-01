@@ -867,7 +867,7 @@ public
 :
 NS_DECL_NSIDOMELEMENT
 nsresult
-AddScriptEventListener
+SetEventHandler
 (
 nsIAtom
 *
