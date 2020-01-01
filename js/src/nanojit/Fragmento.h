@@ -621,6 +621,16 @@ return
 _code
 ;
 }
+Page
+*
+pages
+(
+)
+{
+return
+_pages
+;
+}
 void
 setCode
 (
