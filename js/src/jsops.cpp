@@ -17427,9 +17427,12 @@ cx
 >
 weakRoots
 .
-newbornObject
+newborn
+[
+GCX_OBJECT
+]
 =
-JSVAL_TO_OBJECT
+JSVAL_TO_GCTHING
 (
 lval
 )
