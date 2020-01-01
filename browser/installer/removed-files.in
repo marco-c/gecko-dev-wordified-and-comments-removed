@@ -8410,11 +8410,6 @@ Webapps
 jsm
 modules
 /
-OperatorApps
-.
-jsm
-modules
-/
 WindowDraggingUtils
 .
 jsm
