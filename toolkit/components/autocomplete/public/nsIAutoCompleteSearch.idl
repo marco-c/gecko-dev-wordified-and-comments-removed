@@ -517,11 +517,10 @@ listener
 *
 *
 Stop
-an
-asynchronous
-search
+all
+searches
 that
-is
+are
 in
 progress
 *
