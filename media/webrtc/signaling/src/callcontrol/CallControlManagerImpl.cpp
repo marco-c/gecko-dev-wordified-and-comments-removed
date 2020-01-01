@@ -153,7 +153,7 @@ false
 )
 sipccLoggingMask
 (
-0
+0xFFFFFFFF
 )
 authenticationStatus
 (

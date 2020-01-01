@@ -6820,7 +6820,7 @@ NSPR_LOG_MODULES
 '
 signaling
 :
-3
+5
 mtransport
 :
 3
