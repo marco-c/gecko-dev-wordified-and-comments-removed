@@ -148,6 +148,11 @@ typedef
 uint64_t
 GLuint64
 ;
+typedef
+void
+*
+GLeglImage
+;
 #
 ifndef
 GLAPIENTRY
