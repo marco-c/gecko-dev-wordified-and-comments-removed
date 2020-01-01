@@ -4025,6 +4025,9 @@ height
 "
 white
 "
+ctx
+.
+DRAWWINDOW_DO_NOT_FLUSH
 )
 ;
 ctx
@@ -4427,6 +4430,9 @@ height
 "
 white
 "
+ctx
+.
+DRAWWINDOW_DO_NOT_FLUSH
 )
 ;
 ctx
