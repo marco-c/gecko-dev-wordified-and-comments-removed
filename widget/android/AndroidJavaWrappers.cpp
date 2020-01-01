@@ -2890,6 +2890,9 @@ break
 ;
 }
 case
+SENSOR_ACCURACY
+:
+case
 ACTIVITY_STOPPING
 :
 case

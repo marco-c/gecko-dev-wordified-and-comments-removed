@@ -1999,6 +1999,9 @@ ACTIVITY_RESUMING
 SCREENSHOT
 =
 25
+SENSOR_ACCURACY
+=
+26
 dummy_java_enum_list_end
 }
 ;
