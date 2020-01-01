@@ -5123,6 +5123,14 @@ pending_lives
 alloc
 )
 ;
+NanoAssert
+(
+!
+error
+(
+)
+)
+;
 for
 (
 LInsp
@@ -5142,12 +5150,6 @@ ins
 isop
 (
 LIR_start
-)
-&
-&
-!
-error
-(
 )
 ;
 ins
