@@ -17061,6 +17061,12 @@ mTabsPanel
 isShown
 (
 )
+&
+&
+!
+isTablet
+(
+)
 )
 {
 mTabsPanel
