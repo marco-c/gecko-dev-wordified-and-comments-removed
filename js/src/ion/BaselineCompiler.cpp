@@ -5268,14 +5268,6 @@ stackDepth
 1
 )
 ;
-JS_GC
-(
-cx
--
->
-runtime
-)
-;
 frame
 .
 popValue
