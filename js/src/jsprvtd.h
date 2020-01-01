@@ -262,6 +262,9 @@ StackSegment
 class
 FrameRegsIter
 ;
+class
+StringBuffer
+;
 struct
 Compiler
 ;
@@ -362,17 +365,6 @@ struct
 EmptyShape
 ;
 }
-typedef
-js
-:
-:
-Vector
-<
-jschar
-32
->
-JSCharBuffer
-;
 }
 #
 endif

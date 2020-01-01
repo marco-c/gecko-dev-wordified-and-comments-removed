@@ -1181,7 +1181,7 @@ vp
 )
 ;
 extern
-JSLinearString
+JSFlatString
 *
 js_EscapeAttributeValue
 (
@@ -1214,7 +1214,7 @@ str2
 )
 ;
 extern
-JSString
+JSFlatString
 *
 js_EscapeElementValue
 (

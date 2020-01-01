@@ -55,3 +55,9 @@ empty
 lookahead
 .
 js
+script
+regress
+-
+617935
+.
+js
