@@ -1061,7 +1061,7 @@ CALL_SAFETY_ON
 PRBool
 gSkipPluginSafeCalls
 =
-PR_FALSE
+PR_TRUE
 ;
 #
 endif
