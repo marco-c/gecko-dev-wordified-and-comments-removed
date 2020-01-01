@@ -25830,6 +25830,13 @@ this
 ;
 mTempData
 .
+SetPropertyBit
+(
+eCSSProperty_background_color
+)
+;
+mTempData
+.
 mColor
 .
 mBackColor
@@ -26255,13 +26262,6 @@ i
 ]
 ;
 }
-mTempData
-.
-SetPropertyBit
-(
-eCSSProperty_background_color
-)
-;
 mTempData
 .
 SetPropertyBit
