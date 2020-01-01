@@ -424,6 +424,8 @@ jsStateObj
 ;
 JSBool
 hasTransferable
+=
+false
 ;
 bool
 success
