@@ -1193,7 +1193,11 @@ dumper
 .
 ElfFileIdentifierForMapping
 (
+*
+mappings
+[
 i
+]
 identifier1
 )
 )

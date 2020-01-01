@@ -467,9 +467,10 @@ const
 bool
 ElfFileIdentifierForMapping
 (
-unsigned
-int
-mapping_id
+const
+MappingInfo
+&
+mapping
 uint8_t
 identifier
 [
