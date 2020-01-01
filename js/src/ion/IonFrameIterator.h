@@ -63,6 +63,9 @@ uint8
 *
 returnAddressToFp_
 ;
+size_t
+frameSize_
+;
 public
 :
 IonFrameIterator
@@ -83,6 +86,10 @@ IonFrame_Exit
 returnAddressToFp_
 (
 NULL
+)
+frameSize_
+(
+0
 )
 {
 }
@@ -213,6 +220,13 @@ const
 uint8
 *
 prevFp
+(
+)
+const
+;
+inline
+size_t
+frameSize
 (
 )
 const
