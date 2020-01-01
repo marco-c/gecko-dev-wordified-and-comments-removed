@@ -60,8 +60,6 @@ char
 (
 gPrincipalCodebase
 )
-NULL
-NULL
 1
 PrincipalDestroy
 PrincipalSubsume

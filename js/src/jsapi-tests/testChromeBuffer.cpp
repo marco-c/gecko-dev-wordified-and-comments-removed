@@ -27,8 +27,6 @@ char
 )
 "
 "
-NULL
-NULL
 1
 Destroy
 NULL

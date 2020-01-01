@@ -119,8 +119,6 @@ prin1
 {
 p1str
 0
-0
-0
 Destroy
 Subsume
 }
@@ -139,8 +137,6 @@ prin2
 =
 {
 p2str
-0
-0
 0
 Destroy
 Subsume
