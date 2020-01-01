@@ -230,6 +230,11 @@ WebGLContextReporter
 cpp
 '
 '
+WebGLContextState
+.
+cpp
+'
+'
 WebGLContextValidate
 .
 cpp
