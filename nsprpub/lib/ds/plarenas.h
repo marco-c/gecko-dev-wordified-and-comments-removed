@@ -150,6 +150,7 @@ size_t
 )
 PL_SizeOfArenaPoolExcludingPool
 (
+const
 PLArenaPool
 *
 pool
