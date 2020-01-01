@@ -6219,6 +6219,7 @@ vectorType
 =
 =
 SourceVectorAllValues
+!
 vector
 [
 i
