@@ -92,13 +92,6 @@ schema_migration
 (
 NULL
 )
-ifneq
-(
-mobile
-(
-MOZ_BUILD_APP
-)
-)
 DIRS
 =
 \
@@ -107,7 +100,6 @@ browser
 (
 NULL
 )
-endif
 include
 (
 topsrcdir

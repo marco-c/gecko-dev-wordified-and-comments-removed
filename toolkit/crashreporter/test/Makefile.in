@@ -221,13 +221,6 @@ EXTRA_JS_MODULES
 CrashTestUtils
 .
 jsm
-ifneq
-(
-mobile
-(
-MOZ_BUILD_APP
-)
-)
 MOCHITEST_BROWSER_FILES
 =
 \
@@ -264,7 +257,6 @@ js
 (
 NULL
 )
-endif
 include
 (
 topsrcdir
@@ -286,13 +278,6 @@ SHARED_LIBRARY
 )
 -
 DNOMINMAX
-ifneq
-(
-mobile
-(
-MOZ_BUILD_APP
-)
-)
 libs
 :
 :
@@ -327,7 +312,6 @@ relativesrcdir
 )
 /
 browser
-endif
 libs
 :
 :

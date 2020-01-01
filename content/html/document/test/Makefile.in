@@ -412,13 +412,6 @@ headers
 (
 NULL
 )
-ifneq
-(
-mobile
-(
-MOZ_BUILD_APP
-)
-)
 MOCHITEST_BROWSER_FILES
 =
 \
@@ -433,7 +426,6 @@ jpg
 (
 NULL
 )
-endif
 include
 (
 topsrcdir

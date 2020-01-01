@@ -371,19 +371,6 @@ test_bug796839
 .
 html
 \
-(
-NULL
-)
-ifneq
-(
-mobile
-(
-MOZ_BUILD_APP
-)
-)
-MOCHITEST_FILES
-+
-=
 test_spellcheck_pref
 .
 html
@@ -391,7 +378,6 @@ html
 (
 NULL
 )
-endif
 _DATA_FILES
 =
 \

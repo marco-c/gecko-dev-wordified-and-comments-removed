@@ -114,13 +114,6 @@ mk
 MODULE
 =
 test_extensionmanager
-ifneq
-(
-mobile
-(
-MOZ_BUILD_APP
-)
-)
 DIRS
 +
 =
@@ -134,7 +127,6 @@ mochitest
 (
 NULL
 )
-endif
 XPCSHELL_TESTS
 =
 \

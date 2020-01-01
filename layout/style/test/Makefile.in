@@ -1068,13 +1068,6 @@ svg
 (
 NULL
 )
-ifneq
-(
-mobile
-(
-MOZ_BUILD_APP
-)
-)
 MOCHITEST_BROWSER_FILES
 =
 \
@@ -1093,7 +1086,6 @@ html
 (
 NULL
 )
-endif
 include
 (
 topsrcdir

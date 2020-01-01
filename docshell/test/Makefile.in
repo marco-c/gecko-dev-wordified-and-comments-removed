@@ -79,6 +79,8 @@ chrome
 \
 navigation
 \
+browser
+\
 (
 NULL
 )
@@ -123,18 +125,6 @@ XPCSHELL_TESTS
 +
 =
 unit_ipc
-endif
-ifneq
-(
-mobile
-(
-MOZ_BUILD_APP
-)
-)
-DIRS
-+
-=
-browser
 endif
 MOCHITEST_FILES
 =

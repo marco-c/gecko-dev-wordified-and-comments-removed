@@ -127,13 +127,6 @@ xul
 (
 NULL
 )
-ifneq
-(
-mobile
-(
-MOZ_BUILD_APP
-)
-)
 MOCHITEST_BROWSER_FILES
 =
 \
@@ -148,7 +141,6 @@ js
 (
 NULL
 )
-endif
 include
 (
 topsrcdir

@@ -101,13 +101,6 @@ relativesrcdir
 USE_STATIC_LIBS
 =
 1
-ifneq
-(
-mobile
-(
-MOZ_BUILD_APP
-)
-)
 _BROWSER_FILES
 =
 \
@@ -147,7 +140,6 @@ xpi
 (
 NULL
 )
-endif
 CPPSRCS
 =
 \
@@ -235,13 +227,6 @@ BIN_SUFFIX
 )
 cp
 <
-ifneq
-(
-mobile
-(
-MOZ_BUILD_APP
-)
-)
 libs
 :
 :
@@ -271,4 +256,3 @@ libs
 (
 PROGRAMS
 )
-endif
