@@ -728,6 +728,17 @@ sTypeIndex
 =
 -
 1
+|
+|
+AboutHomePromoBox
+.
+sTypeIndex
+>
+types
+.
+size
+(
+)
 )
 {
 AboutHomePromoBox
