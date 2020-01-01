@@ -4172,12 +4172,12 @@ aRow
 ;
 mNodes
 .
-ReplaceElementsAt
+ElementAt
 (
 aRow
-1
-aNode
 )
+=
+aNode
 ;
 }
 void
@@ -4434,10 +4434,8 @@ node
 ;
 list
 .
-ReplaceElementsAt
+AppendElement
 (
-i
-1
 newNode
 )
 ;
