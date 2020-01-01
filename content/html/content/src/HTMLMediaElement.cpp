@@ -9088,11 +9088,6 @@ break
 ;
 }
 }
-SetPlaybackRate
-(
-mDefaultPlaybackRate
-)
-;
 mPaused
 =
 false
