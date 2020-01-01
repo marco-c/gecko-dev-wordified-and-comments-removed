@@ -495,6 +495,10 @@ browser_multi_select
 .
 js
 \
+browser_select_all
+.
+js
+\
 (
 NULL
 )

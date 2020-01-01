@@ -1355,6 +1355,11 @@ menuseparator
 >
 <
 menuitem
+id
+=
+"
+menu_selectAll
+"
 label
 =
 "
