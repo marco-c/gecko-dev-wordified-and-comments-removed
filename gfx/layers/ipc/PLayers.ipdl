@@ -853,6 +853,12 @@ preXScale
 float
 preYScale
 ;
+float
+inheritedXScale
+;
+float
+inheritedYScale
+;
 }
 ;
 struct
