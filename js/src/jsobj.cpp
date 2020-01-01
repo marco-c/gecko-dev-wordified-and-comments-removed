@@ -20107,11 +20107,16 @@ sprop
 return
 JS_TRUE
 ;
+#
+ifdef
+JS_TRACER
 error
 :
 return
 JS_FALSE
 ;
+#
+endif
 }
 flags
 =
