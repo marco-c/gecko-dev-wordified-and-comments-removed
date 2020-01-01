@@ -4332,16 +4332,9 @@ nsIAccessibleTable
 >
 tableAccessible
 =
-do_QueryInterface
-(
-static_cast
-<
-nsIAccessible
-*
->
+do_QueryObject
 (
 grandParent
-)
 )
 ;
 if

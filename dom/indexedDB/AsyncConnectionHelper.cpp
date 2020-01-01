@@ -1118,16 +1118,9 @@ nsISupports
 >
 thisSupports
 =
-do_QueryInterface
-(
-static_cast
-<
-nsIRunnable
-*
->
+do_QueryObject
 (
 this
-)
 )
 ;
 NS_ASSERTION

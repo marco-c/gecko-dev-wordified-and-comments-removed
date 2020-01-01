@@ -1657,16 +1657,9 @@ ctrlKey
 )
 mailEditor
 =
-do_QueryInterface
-(
-static_cast
-<
-nsIEditor
-*
->
+do_QueryObject
 (
 mEditor
-)
 )
 ;
 PRInt32
