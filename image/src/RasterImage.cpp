@@ -11439,6 +11439,10 @@ mAnim
 mDecoded
 &
 &
+!
+mMultipart
+&
+&
 IsDownscale
 (
 aScale
