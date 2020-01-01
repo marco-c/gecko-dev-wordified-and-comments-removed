@@ -9650,7 +9650,7 @@ ok
 ;
 bytes
 =
-js_DecompileValueGenerator
+DecompileValueGenerator
 (
 cx
 spindex
@@ -9837,7 +9837,7 @@ atom
 ;
 bytes
 =
-js_DecompileValueGenerator
+DecompileValueGenerator
 (
 cx
 JSDVG_SEARCH_STACK
@@ -9945,7 +9945,10 @@ argCount
 ;
 bytes
 =
-js_DecompileValueGenerator
+js
+:
+:
+DecompileValueGenerator
 (
 cx
 spindex
