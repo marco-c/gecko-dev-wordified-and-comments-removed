@@ -190,7 +190,7 @@ nanojit
 :
 :
 AccSet
-ACCSET_OBJ_SHAPE
+ACCSET_OBJ_FLAGS
 =
 (
 1
@@ -205,7 +205,7 @@ nanojit
 :
 :
 AccSet
-ACCSET_OBJ_PROTO
+ACCSET_OBJ_SHAPE
 =
 (
 1
@@ -220,7 +220,7 @@ nanojit
 :
 :
 AccSet
-ACCSET_OBJ_PARENT
+ACCSET_OBJ_PROTO
 =
 (
 1
@@ -235,7 +235,7 @@ nanojit
 :
 :
 AccSet
-ACCSET_OBJ_PRIVATE
+ACCSET_OBJ_PARENT
 =
 (
 1
@@ -250,7 +250,7 @@ nanojit
 :
 :
 AccSet
-ACCSET_OBJ_CAPACITY
+ACCSET_OBJ_PRIVATE
 =
 (
 1
@@ -265,7 +265,7 @@ nanojit
 :
 :
 AccSet
-ACCSET_OBJ_SLOTS
+ACCSET_OBJ_CAPACITY
 =
 (
 1
@@ -280,7 +280,7 @@ nanojit
 :
 :
 AccSet
-ACCSET_SLOTS
+ACCSET_OBJ_SLOTS
 =
 (
 1
@@ -295,7 +295,7 @@ nanojit
 :
 :
 AccSet
-ACCSET_TARRAY
+ACCSET_SLOTS
 =
 (
 1
@@ -310,7 +310,7 @@ nanojit
 :
 :
 AccSet
-ACCSET_TARRAY_DATA
+ACCSET_TARRAY
 =
 (
 1
@@ -325,7 +325,7 @@ nanojit
 :
 :
 AccSet
-ACCSET_ITER
+ACCSET_TARRAY_DATA
 =
 (
 1
@@ -340,7 +340,7 @@ nanojit
 :
 :
 AccSet
-ACCSET_ITER_PROPS
+ACCSET_ITER
 =
 (
 1
@@ -355,7 +355,7 @@ nanojit
 :
 :
 AccSet
-ACCSET_STRING
+ACCSET_ITER_PROPS
 =
 (
 1
@@ -370,7 +370,7 @@ nanojit
 :
 :
 AccSet
-ACCSET_STRING_MCHARS
+ACCSET_STRING
 =
 (
 1
@@ -385,7 +385,7 @@ nanojit
 :
 :
 AccSet
-ACCSET_TYPEMAP
+ACCSET_STRING_MCHARS
 =
 (
 1
@@ -400,7 +400,7 @@ nanojit
 :
 :
 AccSet
-ACCSET_FCSLOTS
+ACCSET_TYPEMAP
 =
 (
 1
@@ -415,7 +415,7 @@ nanojit
 :
 :
 AccSet
-ACCSET_ARGS_DATA
+ACCSET_FCSLOTS
 =
 (
 1
@@ -424,13 +424,28 @@ ACCSET_ARGS_DATA
 25
 )
 ;
+static
+const
+nanojit
+:
+:
+AccSet
+ACCSET_ARGS_DATA
+=
+(
+1
+<
+<
+26
+)
+;
 }
 static
 const
 uint8_t
 TM_NUM_USED_ACCS
 =
-26
+27
 ;
 enum
 JSTNErrType
