@@ -222,6 +222,7 @@ maxlength
 disabled
 size
 readonly
+placeholder
 tabindex
 accesskey
 "

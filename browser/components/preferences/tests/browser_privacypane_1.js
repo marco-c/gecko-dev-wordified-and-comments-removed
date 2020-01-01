@@ -63,7 +63,7 @@ this
 run_test_subset
 (
 [
-test_locbar_emptyText
+test_locbar_placeholder
 test_pane_visibility
 test_dependent_elements
 test_dependent_cookie_elements

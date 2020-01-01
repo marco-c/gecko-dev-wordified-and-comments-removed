@@ -2769,7 +2769,7 @@ this
 .
 _textbox
 .
-emptyText
+placeholder
 =
 name
 ;

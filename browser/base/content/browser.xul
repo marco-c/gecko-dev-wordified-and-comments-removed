@@ -4092,7 +4092,7 @@ flex
 "
 1
 "
-bookmarkhistoryemptytext
+bookmarkhistoryplaceholder
 =
 "
 &
@@ -4103,7 +4103,7 @@ bookmarkhistory
 emptyText
 ;
 "
-bookmarkemptytext
+bookmarkplaceholder
 =
 "
 &
@@ -4114,7 +4114,7 @@ bookmark
 emptyText
 ;
 "
-historyemptytext
+historyplaceholder
 =
 "
 &
@@ -4125,7 +4125,7 @@ history
 emptyText
 ;
 "
-noneemptytext
+noneplaceholder
 =
 "
 &
