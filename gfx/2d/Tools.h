@@ -428,7 +428,7 @@ alignment
 mPtr
 =
 (
-uint32_t
+T
 *
 )
 (
