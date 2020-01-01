@@ -6707,7 +6707,7 @@ GraphicBuffer
 )
 ;
 return
-false
+nullptr
 ;
 }
 nsRefPtr
