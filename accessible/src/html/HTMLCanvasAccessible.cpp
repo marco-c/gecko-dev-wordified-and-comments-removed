@@ -1,7 +1,7 @@
 #
 include
 "
-nsHTMLCanvasAccessible
+HTMLCanvasAccessible
 .
 h
 "
@@ -19,10 +19,10 @@ mozilla
 :
 a11y
 ;
-nsHTMLCanvasAccessible
+HTMLCanvasAccessible
 :
 :
-nsHTMLCanvasAccessible
+HTMLCanvasAccessible
 (
 nsIContent
 *
@@ -40,7 +40,7 @@ aDoc
 {
 }
 role
-nsHTMLCanvasAccessible
+HTMLCanvasAccessible
 :
 :
 NativeRole

@@ -59,6 +59,13 @@ h
 #
 include
 "
+HTMLCanvasAccessible
+.
+h
+"
+#
+include
+"
 HTMLElementAccessibles
 .
 h
@@ -123,13 +130,6 @@ h
 include
 "
 nsIAccessibleProvider
-.
-h
-"
-#
-include
-"
-nsHTMLCanvasAccessible
 .
 h
 "
@@ -1062,7 +1062,7 @@ Accessible
 accessible
 =
 new
-nsHTMLCanvasAccessible
+HTMLCanvasAccessible
 (
 aContent
 GetDocAccessible

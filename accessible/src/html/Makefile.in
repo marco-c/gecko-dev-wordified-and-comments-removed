@@ -95,6 +95,10 @@ LIBXUL_LIBRARY
 CPPSRCS
 =
 \
+HTMLCanvasAccessible
+.
+cpp
+\
 HTMLElementAccessibles
 .
 cpp
@@ -116,10 +120,6 @@ HTMLListAccessible
 cpp
 \
 HTMLSelectAccessible
-.
-cpp
-\
-nsHTMLCanvasAccessible
 .
 cpp
 \
