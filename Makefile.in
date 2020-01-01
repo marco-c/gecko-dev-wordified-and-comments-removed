@@ -1004,7 +1004,10 @@ tools
 /
 win32
 /
-dump_syms
+dump_syms_vc
+(
+_MSC_VER
+)
 .
 exe
 #
