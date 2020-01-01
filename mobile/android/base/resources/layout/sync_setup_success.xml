@@ -201,6 +201,16 @@ style
 "
 style
 /
+SyncBottomContainer
+"
+>
+<
+LinearLayout
+style
+=
+"
+style
+/
 SyncBottom
 "
 >
@@ -257,6 +267,10 @@ string
 brand_short_name
 "
 /
+>
+<
+/
+LinearLayout
 >
 <
 /

@@ -450,6 +450,16 @@ style
 "
 style
 /
+SyncBottomContainer
+"
+>
+<
+LinearLayout
+style
+=
+"
+style
+/
 SyncBottom
 "
 android
@@ -537,6 +547,10 @@ string
 sync_button_connect
 "
 /
+>
+<
+/
+LinearLayout
 >
 <
 /

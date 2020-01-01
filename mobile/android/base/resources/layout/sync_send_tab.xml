@@ -302,6 +302,16 @@ style
 "
 style
 /
+SyncBottomContainer
+"
+>
+<
+LinearLayout
+style
+=
+"
+style
+/
 SyncBottom
 "
 >
@@ -355,6 +365,10 @@ string
 sync_button_send
 "
 /
+>
+<
+/
+LinearLayout
 >
 <
 /
