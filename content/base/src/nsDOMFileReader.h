@@ -299,7 +299,7 @@ nsresult
 GetAsText
 (
 const
-nsACString
+nsAString
 &
 aCharset
 const
@@ -403,7 +403,7 @@ nsIDOMBlob
 >
 mFile
 ;
-nsCString
+nsString
 mCharset
 ;
 PRUint32
