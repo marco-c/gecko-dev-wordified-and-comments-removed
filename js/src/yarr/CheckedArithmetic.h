@@ -17,13 +17,6 @@ h
 "
 #
 include
-"
-TypeTraits
-.
-h
-"
-#
-include
 <
 limits
 >
@@ -501,6 +494,12 @@ Source
 bool
 SameType
 =
+js
+:
+:
+tl
+:
+:
 IsSameType
 <
 Target
@@ -508,7 +507,7 @@ Source
 >
 :
 :
-value
+result
 >
 struct
 BoundsCheckElider

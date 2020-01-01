@@ -70,6 +70,15 @@ CheckedArithmetic
 .
 h
 "
+#
+include
+"
+js
+/
+TemplateLib
+.
+h
+"
 namespace
 JSC
 {
