@@ -6270,6 +6270,9 @@ mousedown
 mouseover
 '
 '
+mouseout
+'
+'
 mousemove
 '
 '
