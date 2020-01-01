@@ -2945,6 +2945,12 @@ cap
 )
 ;
 inline
+void
+backfillDenseArrayHoles
+(
+)
+;
+inline
 bool
 isPackedDenseArray
 (

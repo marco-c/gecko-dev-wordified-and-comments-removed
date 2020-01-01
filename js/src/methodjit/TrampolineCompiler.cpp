@@ -447,6 +447,7 @@ masm
 .
 fallibleVMCall
 (
+true
 JS_FUNC_TO_DATA_PTR
 (
 void

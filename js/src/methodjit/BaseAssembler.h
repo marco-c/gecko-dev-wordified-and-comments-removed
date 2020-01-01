@@ -2202,11 +2202,14 @@ type
 Call
 callWithVMFrame
 (
+bool
+inlining
 type
 stub
 jsbytecode
 *
 pc
+\
 DataLabelPtr
 *
 pinlined
@@ -2218,12 +2221,14 @@ fd
 return
 fallibleVMCall
 (
+inlining
 JS_FUNC_TO_DATA_PTR
 (
 void
 *
 stub
 )
+\
 pc
 pinlined
 fd
@@ -2321,6 +2326,8 @@ ArgReg0
 void
 setupFallibleVMFrame
 (
+bool
+inlining
 jsbytecode
 *
 pc
@@ -2369,6 +2376,11 @@ pc
 )
 )
 ;
+if
+(
+inlining
+)
+{
 DataLabelPtr
 ptr
 =
@@ -2400,6 +2412,7 @@ pinlined
 ptr
 ;
 }
+}
 Call
 infallibleVMCall
 (
@@ -2425,6 +2438,8 @@ ptr
 Call
 fallibleVMCall
 (
+bool
+inlining
 void
 *
 ptr
@@ -2440,6 +2455,7 @@ frameDepth
 {
 setupFallibleVMFrame
 (
+inlining
 pc
 pinlined
 frameDepth
@@ -2453,6 +2469,11 @@ wrapVMCall
 ptr
 )
 ;
+if
+(
+inlining
+)
+{
 loadPtr
 (
 FrameAddress
@@ -2468,6 +2489,7 @@ fp
 JSFrameReg
 )
 ;
+}
 return
 call
 ;

@@ -2248,14 +2248,6 @@ canUseApplyTricks
 (
 )
 ;
-void
-restoreFrameRegs
-(
-Assembler
-&
-masm
-)
-;
 bool
 emitStubCmpOp
 (

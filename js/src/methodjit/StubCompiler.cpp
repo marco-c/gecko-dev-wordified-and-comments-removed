@@ -700,6 +700,12 @@ masm
 .
 fallibleVMCall
 (
+cx
+-
+>
+typeInferenceEnabled
+(
+)
 ptr
 cc
 .
