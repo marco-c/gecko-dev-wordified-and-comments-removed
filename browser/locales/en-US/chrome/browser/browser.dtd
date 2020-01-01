@@ -2406,17 +2406,6 @@ F2
 <
 !
 ENTITY
-devToolbarOtherToolsButton
-.
-label
-"
-More
-Tools
-"
->
-<
-!
-ENTITY
 webConsoleButton
 .
 label
