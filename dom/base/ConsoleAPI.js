@@ -869,14 +869,13 @@ s
 "
 :
 return
+String
+(
 args
 .
 shift
 (
 )
-.
-toString
-(
 )
 ;
 case
