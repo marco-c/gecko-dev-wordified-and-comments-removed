@@ -1986,7 +1986,6 @@ def
 processSingleLeakFile
 (
 leakLogFileName
-PID
 processType
 leakThreshold
 )
@@ -2000,15 +1999,6 @@ a
 single
 leak
 log
-corresponding
-to
-the
-specified
-  
-process
-PID
-and
-type
 .
   
 "
@@ -2113,26 +2103,19 @@ processString
 "
   
 if
-PID
-and
 processType
 :
     
 processString
 =
 "
-|
 %
 s
 process
-%
-s
+:
 "
 %
-(
 processType
-PID
-)
   
 crashedOnPurpose
 =
@@ -2331,11 +2314,11 @@ TEST
 UNEXPECTED
 -
 FAIL
-%
-s
 |
 leakcheck
 |
+%
+s
 negative
 leaks
 caught
@@ -2377,11 +2360,11 @@ append
 TEST
 -
 INFO
-%
-s
 |
 leakcheck
 |
+%
+s
 leaked
 %
 d
@@ -2439,25 +2422,19 @@ INFO
 |
 leakcheck
 |
-process
 %
 s
-was
-"
-\
-               
-"
-deliberately
-crashed
+deliberate
+crash
 and
 thus
-has
 no
 leak
 log
 "
+               
 %
-PID
+processString
 )
     
 else
@@ -2472,6 +2449,8 @@ WARNING
 |
 leakcheck
 |
+%
+s
 missing
 output
 line
@@ -2480,6 +2459,9 @@ total
 leaks
 !
 "
+               
+%
+processString
 )
     
 return
@@ -2499,11 +2481,11 @@ info
 TEST
 -
 PASS
-%
-s
 |
 leakcheck
 |
+%
+s
 no
 leaks
 detected
@@ -2583,11 +2565,11 @@ info
 "
 %
 s
-%
-s
 |
 leakcheck
 |
+%
+s
 %
 d
 bytes
@@ -2746,7 +2728,7 @@ split
 leakLogFile
 )
   
-pidRegExp
+fileNameRegExp
 =
 re
 .
@@ -2767,11 +2749,9 @@ z
 *
 )
 _pid
-(
 \
 d
 *
-)
 "
 )
   
@@ -2799,7 +2779,7 @@ leakFileBase
 4
 ]
     
-pidRegExp
+fileNameRegExp
 =
 re
 .
@@ -2820,11 +2800,9 @@ z
 *
 )
 _pid
-(
 \
 d
 *
-)
 .
 log
 "
@@ -2866,17 +2844,13 @@ leakLogFileDir
 fileName
 )
       
-processPID
-=
-0
-      
 processType
 =
 None
       
 m
 =
-pidRegExp
+fileNameRegExp
 .
 search
 (
@@ -2895,20 +2869,10 @@ group
 (
 1
 )
-        
-processPID
-=
-m
-.
-group
-(
-2
-)
       
 processSingleLeakFile
 (
 thisFile
-processPID
 processType
 leakThreshold
 )
