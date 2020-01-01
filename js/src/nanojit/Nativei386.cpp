@@ -857,7 +857,7 @@ ins
 >
 isop
 (
-LIR_call
+LIR_pcall
 )
 |
 |
@@ -1402,7 +1402,7 @@ if
 op
 =
 =
-LIR_call
+LIR_icall
 )
 {
 prefer
@@ -1441,7 +1441,7 @@ if
 op
 =
 =
-LIR_iparam
+LIR_param
 )
 {
 uint32_t
@@ -4179,7 +4179,7 @@ case
 LIR_add
 :
 case
-LIR_iaddp
+LIR_addp
 :
 ADD
 (
@@ -4324,7 +4324,7 @@ op
 )
 {
 case
-LIR_iaddp
+LIR_addp
 :
 LEA
 (
