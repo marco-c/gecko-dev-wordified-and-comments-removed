@@ -562,6 +562,10 @@ bug589028_helper
 .
 html
 \
+test_bug605167
+.
+html
+\
 (
 NULL
 )
