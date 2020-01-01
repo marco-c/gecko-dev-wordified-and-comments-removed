@@ -522,7 +522,7 @@ cur
 >
 mNext
 )
-MOZ_ASSERT
+NS_ASSERTION
 (
 aGlobal
 !
@@ -530,7 +530,7 @@ aGlobal
 cur
 -
 >
-GetGlobalJSObjectPreserveColor
+GetGlobalJSObject
 (
 )
 "
@@ -3040,7 +3040,7 @@ obj
 cur
 -
 >
-GetGlobalJSObjectPreserveColor
+GetGlobalJSObject
 (
 )
 )
