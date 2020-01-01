@@ -382,9 +382,6 @@ GetSampleOffset
 (
 )
 ;
-unused
-<
-<
 SendSampleOffsetUpdate
 (
 offset
