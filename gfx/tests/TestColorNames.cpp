@@ -22,6 +22,13 @@ h
 #
 include
 "
+nsColorNames
+.
+h
+"
+#
+include
+"
 prprf
 .
 h
