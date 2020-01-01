@@ -5797,13 +5797,11 @@ JS_FALSE
 ;
 gobj
 =
-JS_NewObject
+JS_NewGlobalObject
 (
 cx
 &
 global_class
-NULL
-NULL
 )
 ;
 if

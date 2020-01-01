@@ -325,6 +325,11 @@ JSONParser
 JSONParser
 ;
 typedef
+struct
+JSCompartment
+JSCompartment
+;
+typedef
 JSBool
 (
 *

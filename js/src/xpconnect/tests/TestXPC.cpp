@@ -4312,13 +4312,11 @@ jscontext
 ;
 glob
 =
-JS_NewObject
+JS_NewGlobalObject
 (
 jscontext
 &
 global_class
-NULL
-NULL
 )
 ;
 if

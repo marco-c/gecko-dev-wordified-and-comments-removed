@@ -12451,13 +12451,11 @@ JSObject
 *
 sandbox
 =
-JS_NewObjectWithGivenProto
+JS_NewGlobalObject
 (
 cx
 &
 SandboxClass
-nsnull
-nsnull
 )
 ;
 if
