@@ -8529,9 +8529,6 @@ nsIDOMNode
 aReturn
 )
 {
-nsresult
-rv
-;
 nsISupports
 *
 item
@@ -8553,7 +8550,7 @@ aReturn
 nsnull
 ;
 return
-rv
+NS_OK
 ;
 }
 return
