@@ -258,6 +258,7 @@ mk
 XPIDL_FLAGS
 +
 =
+\
 -
 I
 (
@@ -269,4 +270,7 @@ dom
 interfaces
 /
 events
-/
+\
+(
+NULL
+)
