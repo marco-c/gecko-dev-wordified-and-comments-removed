@@ -4282,9 +4282,6 @@ WantsSmallTiles
 (
 )
 {
-#
-ifdef
-MOZ_WIDGET_ANDROID
 if
 (
 !
@@ -4310,13 +4307,6 @@ false
 return
 false
 ;
-#
-else
-return
-false
-;
-#
-endif
 }
 bool
 GLContext
