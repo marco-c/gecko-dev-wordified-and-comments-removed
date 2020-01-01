@@ -729,6 +729,12 @@ c
 \
 pixman
 -
+matrix
+.
+c
+\
+pixman
+-
 pict
 .
 c
