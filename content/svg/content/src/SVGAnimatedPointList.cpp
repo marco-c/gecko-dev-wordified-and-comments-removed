@@ -45,10 +45,9 @@ h
 "
 #
 endif
-using
 namespace
 mozilla
-;
+{
 nsresult
 SVGAnimatedPointList
 :
@@ -739,3 +738,4 @@ mElement
 }
 #
 endif
+}

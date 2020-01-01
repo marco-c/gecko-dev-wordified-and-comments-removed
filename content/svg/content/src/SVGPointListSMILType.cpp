@@ -33,10 +33,9 @@ math
 .
 h
 >
-using
 namespace
 mozilla
-;
+{
 SVGPointListSMILType
 SVGPointListSMILType
 :
@@ -1236,4 +1235,5 @@ aUnitDistance
 return
 NS_OK
 ;
+}
 }

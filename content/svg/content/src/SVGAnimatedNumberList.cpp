@@ -45,10 +45,9 @@ h
 "
 #
 endif
-using
 namespace
 mozilla
-;
+{
 nsresult
 SVGAnimatedNumberList
 :
@@ -656,3 +655,4 @@ mAttrEnum
 }
 #
 endif
+}

@@ -26,10 +26,9 @@ math
 .
 h
 >
-using
 namespace
 mozilla
-;
+{
 SVGNumberListSMILType
 SVGNumberListSMILType
 :
@@ -1204,4 +1203,5 @@ aUnitDistance
 return
 NS_OK
 ;
+}
 }

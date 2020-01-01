@@ -26,10 +26,9 @@ math
 .
 h
 >
-using
 namespace
 mozilla
-;
+{
 SVGPathSegListSMILType
 SVGPathSegListSMILType
 :
@@ -2503,4 +2502,5 @@ corrupt
 return
 NS_OK
 ;
+}
 }

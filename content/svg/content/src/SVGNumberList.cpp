@@ -82,10 +82,9 @@ nsCharSeparatedTokenizer
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
 nsresult
 SVGNumberList
 :
@@ -383,4 +382,5 @@ CopyFrom
 temp
 )
 ;
+}
 }

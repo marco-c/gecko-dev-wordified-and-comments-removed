@@ -45,10 +45,9 @@ h
 "
 #
 endif
-using
 namespace
 mozilla
-;
+{
 nsresult
 SVGAnimatedPathSegList
 :
@@ -736,3 +735,4 @@ mElement
 }
 #
 endif
+}
