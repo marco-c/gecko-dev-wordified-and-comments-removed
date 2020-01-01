@@ -9732,9 +9732,12 @@ GetReadFB
 GLenum
 bindEnum
 =
-IsExtensionSupported
+IsSupported
 (
-XXX_framebuffer_blit
+GLFeature
+:
+:
+framebuffer_blit
 )
 ?
 LOCAL_GL_READ_FRAMEBUFFER_BINDING_EXT

@@ -262,12 +262,12 @@ if
 gl
 -
 >
-IsExtensionSupported
+IsSupported
 (
-GLContext
+GLFeature
 :
 :
-XXX_draw_buffers
+draw_buffers
 )
 )
 {
