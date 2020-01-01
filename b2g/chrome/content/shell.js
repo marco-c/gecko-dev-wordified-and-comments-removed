@@ -1178,7 +1178,7 @@ browserFrame
 setAttribute
 (
 '
-mozallowfullscreen
+allowfullscreen
 '
 '
 true

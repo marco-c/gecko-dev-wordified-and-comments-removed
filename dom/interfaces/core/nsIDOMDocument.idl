@@ -2741,7 +2741,7 @@ documents
 have
 the
 *
-mozallowfullscreen
+allowfullscreen
 attribute
 set
 .

@@ -4426,7 +4426,7 @@ docshell
 have
 their
 "
-mozallowfullscreen
+allowfullscreen
 "
 attribute
 set
@@ -4464,7 +4464,7 @@ iframe
 s
 *
 "
-mozallowfullscreen
+allowfullscreen
 "
 attribute
 to
