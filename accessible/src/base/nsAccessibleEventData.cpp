@@ -653,7 +653,7 @@ aLength
 )
 mIsInserted
 (
-mIsInserted
+aIsInserted
 )
 {
 }
