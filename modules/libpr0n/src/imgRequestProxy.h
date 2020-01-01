@@ -382,6 +382,17 @@ NullOutListener
 (
 )
 ;
+void
+DoRemoveFromLoadGroup
+(
+)
+{
+RemoveFromLoadGroup
+(
+PR_TRUE
+)
+;
+}
 private
 :
 friend
