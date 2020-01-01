@@ -144,6 +144,15 @@ FunctionTimer
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Util
+.
+h
+"
 namespace
 {
 class
@@ -957,7 +966,10 @@ cleanly
 "
 )
 ;
+DebugOnly
+<
 bool
+>
 shutdownObserved
 =
 !
