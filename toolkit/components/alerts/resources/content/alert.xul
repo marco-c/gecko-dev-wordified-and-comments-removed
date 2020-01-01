@@ -514,6 +514,14 @@ onAlertLoad
 (
 )
 "
+onclick
+=
+"
+closeAlert
+(
+)
+;
+"
 >
 <
 script
