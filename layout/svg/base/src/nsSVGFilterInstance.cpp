@@ -2037,6 +2037,14 @@ x
 ;
 }
 }
+mSourceAlpha
+.
+mImage
+.
+mConstantColorChannels
+=
+PR_TRUE
+;
 }
 return
 NS_OK
