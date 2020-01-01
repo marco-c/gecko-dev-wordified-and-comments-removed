@@ -66,7 +66,7 @@ ScopeObject
 .
 h
 "
-struct
+class
 JSScript
 ;
 namespace

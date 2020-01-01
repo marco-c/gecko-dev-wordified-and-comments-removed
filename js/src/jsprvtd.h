@@ -294,7 +294,7 @@ InlineMap
 class
 LifoAlloc
 ;
-struct
+class
 Shape
 ;
 class

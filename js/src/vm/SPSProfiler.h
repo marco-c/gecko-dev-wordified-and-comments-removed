@@ -45,7 +45,7 @@ jsscript
 .
 h
 "
-struct
+class
 JSFunction
 ;
 namespace

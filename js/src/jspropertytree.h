@@ -332,7 +332,7 @@ class
 PropertyTree
 {
 friend
-struct
+class
 :
 :
 JSFunction

@@ -25,10 +25,10 @@ SnapshotReader
 .
 h
 "
-struct
+class
 JSFunction
 ;
-struct
+class
 JSScript
 ;
 namespace

@@ -3199,7 +3199,7 @@ class
 TypeScript
 {
 friend
-struct
+class
 :
 :
 JSScript

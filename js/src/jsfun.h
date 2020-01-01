@@ -60,12 +60,14 @@ class
 FunctionExtended
 ;
 }
-struct
+class
 JSFunction
 :
 public
 JSObject
 {
+public
+:
 enum
 Flags
 {
@@ -174,7 +176,7 @@ class
 Native
 {
 friend
-struct
+class
 JSFunction
 ;
 js
@@ -1714,7 +1716,7 @@ public
 JSFunction
 {
 friend
-struct
+class
 JSFunction
 ;
 HeapValue

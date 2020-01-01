@@ -2066,7 +2066,7 @@ struct
 JSCompartment
 ;
 friend
-struct
+class
 :
 :
 JSScript

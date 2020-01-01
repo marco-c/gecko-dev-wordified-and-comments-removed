@@ -100,7 +100,7 @@ IonScript
 )
 0x2
 )
-struct
+class
 Shape
 ;
 class
@@ -667,7 +667,7 @@ class
 ScriptCounts
 {
 friend
-struct
+class
 :
 :
 JSScript
@@ -754,7 +754,7 @@ class
 DebugScript
 {
 friend
-struct
+class
 :
 :
 JSScript
@@ -792,7 +792,7 @@ struct
 ScriptSource
 ;
 }
-struct
+class
 JSScript
 :
 public
@@ -804,8 +804,6 @@ gc
 :
 Cell
 {
-private
-:
 static
 const
 uint32_t

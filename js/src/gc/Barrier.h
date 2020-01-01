@@ -1085,7 +1085,7 @@ post
 )
 ;
 }
-struct
+class
 Shape
 ;
 class

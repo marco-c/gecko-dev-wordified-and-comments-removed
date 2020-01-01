@@ -73,7 +73,7 @@ AssertCanGC
 namespace
 js
 {
-struct
+class
 Shape
 ;
 struct

@@ -27,7 +27,7 @@ jsscript
 .
 h
 "
-struct
+class
 JSScript
 ;
 namespace

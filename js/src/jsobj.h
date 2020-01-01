@@ -997,7 +997,7 @@ ObjectImpl
 private
 :
 friend
-struct
+class
 js
 :
 :
@@ -2517,7 +2517,7 @@ pthis
 )
 ;
 friend
-struct
+class
 JSFunction
 ;
 inline
