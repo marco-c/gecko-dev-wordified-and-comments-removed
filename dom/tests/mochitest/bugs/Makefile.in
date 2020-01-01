@@ -532,6 +532,14 @@ iframe_bug407839
 .
 html
 \
+test_bug424093
+.
+html
+\
+iframe_bug424093
+.
+html
+\
 test_bug409349
 .
 html
