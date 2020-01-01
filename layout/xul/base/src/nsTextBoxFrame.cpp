@@ -181,6 +181,13 @@ nsIReflowCallback
 h
 "
 #
+include
+"
+nsBoxFrame
+.
+h
+"
+#
 ifdef
 IBMBIDI
 #
@@ -232,10 +239,7 @@ end
 #
 define
 NS_STATE_NEED_LAYOUT
-NS_FRAME_STATE_BIT
-(
-24
-)
+NS_STATE_BOX_CHILD_RESERVED
 class
 nsAccessKeyInfo
 {
