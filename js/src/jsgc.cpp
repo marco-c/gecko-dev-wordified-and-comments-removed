@@ -188,6 +188,13 @@ jsstr
 h
 "
 #
+include
+"
+jstracer
+.
+h
+"
+#
 if
 JS_HAS_XML_SUPPORT
 #
@@ -14739,6 +14746,11 @@ rt
 shapeGen
 =
 0
+;
+js_FlushJITCache
+(
+cx
+)
 ;
 JS_TRACER_INIT
 (

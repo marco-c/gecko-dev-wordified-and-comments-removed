@@ -1706,5 +1706,14 @@ JSContext
 cx
 )
 ;
+extern
+void
+js_FlushJITCache
+(
+JSContext
+*
+cx
+)
+;
 #
 endif
