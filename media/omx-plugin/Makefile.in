@@ -307,8 +307,6 @@ lbinder
 lui
 \
 -
-lsurfaceflinger_client
--
 lhardware
 -
 lcutils
