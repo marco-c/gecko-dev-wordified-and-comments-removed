@@ -70,13 +70,6 @@ nsDebugHelpWin32
 h
 "
 #
-include
-"
-nsStackFrameWin
-.
-h
-"
-#
 else
 #
 error
@@ -576,10 +569,6 @@ PR_NewLock
 PR_Lock
 (
 gLock
-)
-;
-EnsureImageHlpInitialized
-(
 )
 ;
 dhwEnsureImageHlpInitialized

@@ -448,10 +448,6 @@ NULL
 CPPSRCS
 =
 \
-nsDemangle
-.
-cpp
-\
 nsTypeInfo
 .
 cpp
@@ -469,6 +465,9 @@ EXTRA_DSO_LDOPTS
 (
 NSPR_LIBS
 )
+(
+XPCOM_LIBS
+)
 ifeq
 (
 (
@@ -485,15 +484,6 @@ cpp
 nsWinTraceMalloc
 .
 cpp
-nsStackFrameWin
-.
-cpp
-EXTRA_DSO_LDOPTS
-+
-=
-(
-XPCOM_LIBS
-)
 OS_LIBS
 +
 =
