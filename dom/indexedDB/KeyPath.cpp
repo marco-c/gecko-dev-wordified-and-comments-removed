@@ -580,7 +580,7 @@ DoNotCreateProperties
 )
 {
 return
-NS_OK
+NS_ERROR_DOM_INDEXEDDB_DATA_ERR
 ;
 }
 targetObject
