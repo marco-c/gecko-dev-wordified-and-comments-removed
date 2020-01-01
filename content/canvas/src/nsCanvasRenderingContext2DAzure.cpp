@@ -16002,10 +16002,6 @@ Element
 *
 element
 ;
-nsIDOMElement
-*
-domElement
-;
 if
 (
 image
@@ -16026,10 +16022,6 @@ GetAsHTMLCanvasElement
 )
 ;
 element
-=
-canvas
-;
-domElement
 =
 canvas
 ;
@@ -16203,10 +16195,6 @@ element
 =
 img
 ;
-domElement
-=
-img
-;
 }
 else
 {
@@ -16224,10 +16212,6 @@ element
 =
 video
 ;
-domElement
-=
-video
-;
 }
 gfxASurface
 *
@@ -16238,7 +16222,7 @@ CanvasImageCache
 :
 Lookup
 (
-domElement
+element
 mCanvasElement
 &
 imgSize
@@ -16379,7 +16363,7 @@ CanvasImageCache
 :
 NotifyDrawImage
 (
-domElement
+element
 mCanvasElement
 res
 .
