@@ -4842,7 +4842,7 @@ mPluginHWND
 GWLP_WNDPROC
 reinterpret_cast
 <
-LONG
+LONG_PTR
 >
 (
 PluginWindowHookProc
@@ -4919,7 +4919,7 @@ mPluginHWND
 GWLP_WNDPROC
 reinterpret_cast
 <
-LONG
+LONG_PTR
 >
 (
 mPluginWndProc

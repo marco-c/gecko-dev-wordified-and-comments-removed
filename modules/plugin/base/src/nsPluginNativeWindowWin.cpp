@@ -1806,7 +1806,7 @@ currentWndProc
 return
 NS_OK
 ;
-LONG
+LONG_PTR
 style
 =
 GetWindowLongPtr
@@ -2013,7 +2013,7 @@ LONG_PTR
 mPluginWinProc
 )
 ;
-LONG
+LONG_PTR
 style
 =
 GetWindowLongPtr
