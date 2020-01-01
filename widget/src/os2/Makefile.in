@@ -571,6 +571,10 @@ nsRwsService
 .
 cpp
 \
+nsIdleServiceOS2
+.
+cpp
+\
 (
 NULL
 )
