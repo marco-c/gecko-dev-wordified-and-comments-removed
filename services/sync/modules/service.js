@@ -4239,7 +4239,7 @@ Ci
 nsITimer
 )
 ;
-var
+let
 interval
 =
 Math
