@@ -813,6 +813,16 @@ InArray
 \
 _
 (
+InstanceOfTypedO
+)
+\
+_
+(
+InstanceOfTypedV
+)
+\
+_
+(
 InstanceOfO
 )
 \

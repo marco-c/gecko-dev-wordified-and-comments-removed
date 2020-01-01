@@ -1167,6 +1167,14 @@ ins
 )
 ;
 bool
+visitInstanceOfTyped
+(
+MInstanceOfTyped
+*
+ins
+)
+;
+bool
 visitInstanceOf
 (
 MInstanceOf
