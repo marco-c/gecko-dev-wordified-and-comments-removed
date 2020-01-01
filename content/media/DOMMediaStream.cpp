@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsDOMClassInfoID
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

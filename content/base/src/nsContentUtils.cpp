@@ -124,6 +124,13 @@ h
 #
 include
 "
+nsIObjectLoadingContent
+.
+h
+"
+#
+include
+"
 mozAutoDocUpdate
 .
 h
@@ -812,13 +819,6 @@ h
 include
 "
 nsINodeInfo
-.
-h
-"
-#
-include
-"
-nsIObjectLoadingContent
 .
 h
 "

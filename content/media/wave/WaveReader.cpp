@@ -53,6 +53,13 @@ h
 "
 #
 include
+"
+nsISeekableStream
+.
+h
+"
+#
+include
 <
 stdint
 .
