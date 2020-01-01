@@ -20317,7 +20317,7 @@ _permissonTypes
 password
 "
 "
-geo
+geolocation
 "
 "
 popup
@@ -20367,7 +20367,7 @@ never
 "
 }
 "
-geo
+geolocation
 "
 :
 {
@@ -20383,14 +20383,14 @@ allowed
 "
 geolocation
 .
-alwaysShare
+alwaysAllow
 "
 denied
 :
 "
 geolocation
 .
-neverShare
+neverAllow
 "
 }
 "
@@ -20910,7 +20910,7 @@ aType
 =
 =
 "
-geo
+geolocation
 "
 )
 return
