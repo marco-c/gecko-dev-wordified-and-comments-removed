@@ -71,12 +71,11 @@ trigger
 a
 CSS
 transition
-when
+after
 SMIL
 animation
 effects
 are
-first
 applied
 .
 -
@@ -130,7 +129,7 @@ moz
 -
 transition
 :
-200s
+1s
 fill
 "
 >
