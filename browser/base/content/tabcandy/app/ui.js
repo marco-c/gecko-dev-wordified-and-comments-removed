@@ -1547,6 +1547,14 @@ function
 (
 )
 {
+Utils
+.
+timeout
+(
+function
+(
+)
+{
 if
 (
 !
@@ -1602,6 +1610,10 @@ activeGroup
 ;
 }
 }
+}
+1
+)
+;
 }
 )
 ;

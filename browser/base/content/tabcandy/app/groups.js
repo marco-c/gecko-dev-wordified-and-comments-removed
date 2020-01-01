@@ -3285,6 +3285,7 @@ arrange
 (
 )
 ;
+}
 UI
 .
 setReorderTabsOnHide
@@ -3292,7 +3293,6 @@ setReorderTabsOnHide
 this
 )
 ;
-}
 if
 (
 this
