@@ -18,7 +18,6 @@ jsnum
 .
 h
 "
-static
 inline
 JSBool
 js_ValueToStringId
@@ -140,7 +139,6 @@ return
 JS_TRUE
 ;
 }
-static
 inline
 JSBool
 js_Int32ToId
