@@ -35318,7 +35318,11 @@ globalObj
 size_t
 op_offset
 =
-0
+offsetof
+(
+JSObjectOps
+newObjectMap
+)
 ;
 if
 (
