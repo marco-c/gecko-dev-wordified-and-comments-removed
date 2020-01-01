@@ -1,9 +1,13 @@
 #
 ifndef
-trampolines_h__
+jsjaeger_trampolinecompiler_h__
+&
+&
+defined
+JS_METHODJIT
 #
 define
-trampolines_h__
+jsjaeger_trampolinecompiler_h__
 #
 include
 "

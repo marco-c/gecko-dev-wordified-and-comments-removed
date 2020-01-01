@@ -1,4 +1,8 @@
 #
+if
+defined
+JS_METHODJIT
+#
 include
 "
 TrampolineCompiler
@@ -720,3 +724,5 @@ true
 }
 }
 }
+#
+endif

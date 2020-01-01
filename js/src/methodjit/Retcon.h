@@ -2,14 +2,14 @@
 if
 !
 defined
-retcon_h___
+jsjaeger_retcon_h___
 &
 &
 defined
 JS_METHODJIT
 #
 define
-retcon_h___
+jsjaeger_retcon_h___
 #
 include
 "

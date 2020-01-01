@@ -1,5 +1,6 @@
 #
-ifdef
+if
+defined
 JS_METHODJIT
 #
 include
