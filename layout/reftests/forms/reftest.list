@@ -30,10 +30,10 @@ fails
 if
 (
 MOZ_WIDGET_TOOLKIT
-=
+!
 =
 "
-cocoa
+gtk2
 "
 )
 =
