@@ -211,8 +211,6 @@ nsHttpHeaderArray
 *
 uint8_t
 capabilities
-bool
-useProxy
 )
 ;
 bool
