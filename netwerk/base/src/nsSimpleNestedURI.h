@@ -38,11 +38,6 @@ public
 nsSimpleNestedURI
 (
 )
-:
-nsSimpleURI
-(
-nsnull
-)
 {
 }
 nsSimpleNestedURI
