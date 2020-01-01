@@ -143,14 +143,6 @@ kCharsetFromUserDefault
 define
 kCharsetFromDocTypeDefault
 3
-/
-/
-This
-and
-up
-confident
-for
-XHR
 #
 define
 kCharsetFromCache

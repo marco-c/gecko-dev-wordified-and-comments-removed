@@ -5973,7 +5973,7 @@ NodePrincipal
 (
 )
 scriptHandlingObject
-DocumentFlavorLegacyGuess
+false
 aReturn
 )
 ;
@@ -6103,7 +6103,7 @@ NodePrincipal
 (
 )
 scriptHandlingObject
-DocumentFlavorLegacyGuess
+false
 getter_AddRefs
 (
 document
