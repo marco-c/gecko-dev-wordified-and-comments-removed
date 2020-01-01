@@ -609,6 +609,17 @@ op
 JSOP_FUNAPPLY
 |
 |
+#
+ifdef
+JS_ION
+op
+=
+=
+JSOP_NEW
+|
+|
+#
+endif
 op
 =
 =

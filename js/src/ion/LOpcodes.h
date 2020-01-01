@@ -138,6 +138,11 @@ CreateThis
 \
 _
 (
+ReturnFromCtor
+)
+\
+_
+(
 BitNotI
 )
 \

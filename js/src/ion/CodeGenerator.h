@@ -489,6 +489,14 @@ ool
 )
 ;
 bool
+visitReturnFromCtor
+(
+LReturnFromCtor
+*
+lir
+)
+;
+bool
 visitArrayLength
 (
 LArrayLength

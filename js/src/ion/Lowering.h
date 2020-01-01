@@ -391,6 +391,14 @@ ins
 )
 ;
 bool
+visitReturnFromCtor
+(
+MReturnFromCtor
+*
+ins
+)
+;
+bool
 visitCall
 (
 MCall
