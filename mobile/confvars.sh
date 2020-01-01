@@ -409,7 +409,7 @@ MOZ_APP_VERSION
 =
 4
 .
-0b2pre
+0b3pre
 MOZ_BRANDING_DIRECTORY
 =
 mobile
