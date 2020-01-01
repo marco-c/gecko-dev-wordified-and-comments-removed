@@ -2163,10 +2163,14 @@ function
 )
 |
 |
-script
+function
+(
+)
 -
 >
 strict
+(
+)
 |
 |
 function
