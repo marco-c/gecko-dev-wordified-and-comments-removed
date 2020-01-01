@@ -296,6 +296,13 @@ style
 /
 SyncEditPin
 "
+android
+:
+state_focused
+=
+"
+true
+"
 /
 >
 <
