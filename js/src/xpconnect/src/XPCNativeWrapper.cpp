@@ -3066,6 +3066,11 @@ cx
 wn_parent
 )
 ;
+if
+(
+parent_wrapper
+)
+{
 *
 result
 =
@@ -3088,6 +3093,7 @@ result
 return
 JS_FALSE
 ;
+}
 }
 return
 JS_TRUE
