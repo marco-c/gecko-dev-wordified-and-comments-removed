@@ -5707,10 +5707,7 @@ JSObject
 *
 aGlobal
 const
-Nullable
-<
 MozXMLHttpRequestParametersWorkers
->
 &
 aParams
 ErrorResult
