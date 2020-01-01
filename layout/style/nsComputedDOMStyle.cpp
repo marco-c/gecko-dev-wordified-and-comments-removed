@@ -16000,6 +16000,13 @@ GetUnit
 =
 =
 eStyleUnit_Auto
+|
+|
+coord
+.
+IsCalcUnit
+(
+)
 "
 Unexpected
 unit
