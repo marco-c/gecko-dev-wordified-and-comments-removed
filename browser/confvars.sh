@@ -393,9 +393,6 @@ BLOCK
 MOZ_APP_NAME
 =
 firefox
-MOZ_XUL_APP
-=
-1
 MOZ_UPDATER
 =
 1

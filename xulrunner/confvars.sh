@@ -396,9 +396,6 @@ xulrunner
 MOZ_APP_DISPLAYNAME
 =
 XULRunner
-MOZ_XUL_APP
-=
-1
 MOZ_UPDATER
 =
 1
