@@ -34584,6 +34584,7 @@ MOZ_WEBM
 1
 MOZ_DASH
 =
+1
 MOZ_WEBRTC
 =
 1
@@ -43732,7 +43733,7 @@ dnl
 =
 dnl
 =
-Enable
+Disable
 DASH
 -
 WebM
@@ -43794,16 +43795,16 @@ dnl
 =
 =
 =
-MOZ_ARG_ENABLE_BOOL
+MOZ_ARG_DISABLE_BOOL
 (
 dash
 [
 -
 -
-enable
+disable
 -
 dash
-Enable
+Disable
 support
 for
 DASH
@@ -43812,9 +43813,9 @@ WebM
 ]
 MOZ_DASH
 =
-1
 MOZ_DASH
 =
+1
 )
 if
 test

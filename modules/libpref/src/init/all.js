@@ -944,7 +944,7 @@ dash
 .
 enabled
 "
-true
+false
 )
 ;
 #
