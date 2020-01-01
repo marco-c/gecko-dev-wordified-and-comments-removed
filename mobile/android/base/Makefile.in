@@ -209,6 +209,12 @@ AllPagesTab
 .
 java
 \
+awesomebar
+/
+BookmarksTab
+.
+java
+\
 BrowserApp
 .
 java
