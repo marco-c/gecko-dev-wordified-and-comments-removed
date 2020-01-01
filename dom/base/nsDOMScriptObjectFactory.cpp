@@ -66,6 +66,15 @@ nsThreadUtils
 .
 h
 "
+using
+mozilla
+:
+:
+dom
+:
+:
+GetNameSpaceManager
+;
 nsIExceptionProvider
 *
 gExceptionProvider
@@ -271,9 +280,6 @@ nsScriptNameSpaceManager
 *
 nameSpaceManager
 =
-nsJSRuntime
-:
-:
 GetNameSpaceManager
 (
 )
@@ -629,9 +635,6 @@ nsScriptNameSpaceManager
 *
 nameSpaceManager
 =
-nsJSRuntime
-:
-:
 GetNameSpaceManager
 (
 )

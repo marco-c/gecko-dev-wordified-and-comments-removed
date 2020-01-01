@@ -3725,9 +3725,6 @@ nsScriptNameSpaceManager
 *
 nameSpaceManager
 =
-nsJSRuntime
-:
-:
 GetNameSpaceManager
 (
 )
@@ -3950,9 +3947,6 @@ nsScriptNameSpaceManager
 *
 nameSpaceManager
 =
-nsJSRuntime
-:
-:
 GetNameSpaceManager
 (
 )
@@ -4752,9 +4746,6 @@ nsScriptNameSpaceManager
 *
 nameSpaceManager
 =
-nsJSRuntime
-:
-:
 GetNameSpaceManager
 (
 )
@@ -8419,9 +8410,6 @@ nsScriptNameSpaceManager
 *
 nameSpaceManager
 =
-nsJSRuntime
-:
-:
 GetNameSpaceManager
 (
 )
@@ -9300,9 +9288,6 @@ nsScriptNameSpaceManager
 *
 nameSpaceManager
 =
-nsJSRuntime
-:
-:
 GetNameSpaceManager
 (
 )
@@ -10833,9 +10818,6 @@ nsScriptNameSpaceManager
 *
 nameSpaceManager
 =
-nsJSRuntime
-:
-:
 GetNameSpaceManager
 (
 )
@@ -11803,9 +11785,6 @@ nsScriptNameSpaceManager
 *
 nameSpaceManager
 =
-nsJSRuntime
-:
-:
 GetNameSpaceManager
 (
 )
@@ -13885,9 +13864,6 @@ nsScriptNameSpaceManager
 *
 nameSpaceManager
 =
-nsJSRuntime
-:
-:
 GetNameSpaceManager
 (
 )
