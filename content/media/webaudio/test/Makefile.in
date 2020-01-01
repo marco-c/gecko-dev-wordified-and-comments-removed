@@ -87,6 +87,10 @@ MOCHITEST_FILES
 :
 =
 \
+webaudio
+.
+js
+\
 test_bug808374
 .
 html
@@ -104,6 +108,10 @@ test_AudioListener
 html
 \
 test_badConnect
+.
+html
+\
+test_biquadFilterNode
 .
 html
 \

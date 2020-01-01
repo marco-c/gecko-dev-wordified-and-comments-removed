@@ -107,6 +107,10 @@ AudioSourceNode
 .
 webidl
 \
+BiquadFilterNode
+.
+webidl
+\
 Blob
 .
 webidl

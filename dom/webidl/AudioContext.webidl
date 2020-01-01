@@ -237,6 +237,14 @@ maxDelayTime
 [
 Creator
 ]
+BiquadFilterNode
+createBiquadFilter
+(
+)
+;
+[
+Creator
+]
 PannerNode
 createPanner
 (

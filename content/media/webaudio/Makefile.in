@@ -131,6 +131,10 @@ AudioSourceNode
 .
 cpp
 \
+BiquadFilterNode
+.
+cpp
+\
 DelayNode
 .
 cpp
@@ -191,6 +195,10 @@ AudioParam
 h
 \
 AudioSourceNode
+.
+h
+\
+BiquadFilterNode
 .
 h
 \
