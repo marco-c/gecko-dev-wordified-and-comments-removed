@@ -751,7 +751,7 @@ findNodes
 .
 title
 "
-Nodes
+Knoten
 suchen
 "
 >
@@ -1023,8 +1023,9 @@ insertNode
 .
 title
 "
-Node
-einfgen
+Knoten
+einf
+gen
 "
 >
 <
@@ -1034,7 +1035,7 @@ nodeType
 .
 label
 "
-Node
+Knoten
 -
 Typ
 :
