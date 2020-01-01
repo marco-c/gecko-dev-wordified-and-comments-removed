@@ -40,7 +40,7 @@ Point
 class
 SizeT
 class
-Margin
+MarginT
 >
 struct
 BaseRect
@@ -1001,7 +1001,7 @@ void
 Inflate
 (
 const
-Margin
+MarginT
 &
 aMargin
 )
@@ -1133,7 +1133,7 @@ void
 Deflate
 (
 const
-Margin
+MarginT
 &
 aMargin
 )
@@ -1404,7 +1404,7 @@ this
 )
 ;
 }
-Margin
+MarginT
 operator
 -
 (
@@ -1416,7 +1416,7 @@ aRect
 const
 {
 return
-Margin
+MarginT
 (
 aRect
 .
