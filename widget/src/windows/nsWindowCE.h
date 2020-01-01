@@ -138,16 +138,6 @@ ignore
 {
 }
 inline
-int
-GetMessageTime
-(
-)
-{
-return
-0
-;
-}
-inline
 BOOL
 IsIconic
 (
