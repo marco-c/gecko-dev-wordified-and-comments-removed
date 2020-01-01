@@ -2805,6 +2805,17 @@ convertViewPointToLayerPoint
 point
 )
 ;
+if
+(
+point
+=
+=
+null
+)
+{
+return
+;
+}
 ret
 .
 put
