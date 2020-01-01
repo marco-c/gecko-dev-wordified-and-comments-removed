@@ -1975,7 +1975,7 @@ Math
 .
 max
 (
-110
+90
 rect
 .
 width
@@ -1989,7 +1989,7 @@ Math
 .
 max
 (
-125
+90
 rect
 .
 height
