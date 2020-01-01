@@ -601,6 +601,14 @@ bail
 )
 ;
 bool
+visitAssertFloat32
+(
+MAssertFloat32
+*
+ins
+)
+;
+bool
 visitGetDynamicName
 (
 MGetDynamicName

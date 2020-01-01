@@ -2762,6 +2762,14 @@ callInfo
 )
 ;
 InliningStatus
+inlineAssertFloat32
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningStatus
 inlineNativeCall
 (
 CallInfo

@@ -164,6 +164,11 @@ Bail
 \
 _
 (
+AssertFloat32
+)
+\
+_
+(
 GetDynamicName
 )
 \
