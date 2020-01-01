@@ -4745,7 +4745,7 @@ mUpdateSurface
 ;
 }
 virtual
-PRBool
+void
 EndUpdate
 (
 )
@@ -4785,7 +4785,6 @@ mUpdateSurface
 nsnull
 ;
 return
-PR_FALSE
 ;
 }
 if
@@ -4850,7 +4849,6 @@ mUpdateSurface
 nsnull
 ;
 return
-PR_FALSE
 ;
 }
 mUpdateSurface
@@ -4952,7 +4950,6 @@ uploadImage
 )
 {
 return
-PR_FALSE
 ;
 }
 mGLContext
@@ -5118,7 +5115,6 @@ mUpdateSurface
 nsnull
 ;
 return
-PR_TRUE
 ;
 }
 virtual

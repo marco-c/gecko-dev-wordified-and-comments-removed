@@ -4185,7 +4185,7 @@ return
 mUpdateSurface
 ;
 }
-PRBool
+void
 BasicTextureImage
 :
 :
@@ -4255,9 +4255,6 @@ nsnull
 ;
 mTextureInited
 =
-PR_TRUE
-;
-return
 PR_TRUE
 ;
 }
