@@ -138,6 +138,11 @@ nsMenuX
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSICHANGEOBSERVER
+id
+GetNativeMenuItem
+(
+)
+;
 nsEventStatus
 MenuItemSelected
 (
@@ -563,6 +568,10 @@ mMacMenu
 MenuDelegate
 *
 mMenuDelegate
+;
+NSMenuItem
+*
+mNativeMenuItem
 ;
 PRPackedBool
 mIsEnabled

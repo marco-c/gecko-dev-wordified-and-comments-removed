@@ -1063,6 +1063,7 @@ this
 )
 mMenuParent
 mContent
+mNativeMenuItem
 )
 ;
 return
