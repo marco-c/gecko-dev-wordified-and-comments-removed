@@ -627,9 +627,7 @@ CFLAGS
 (
 OPTIMIZER
 )
-*
-.
-cpp
+<
 (
 LDFLAGS
 )
@@ -676,9 +674,7 @@ CFLAGS
 (
 OPTIMIZER
 )
-*
-.
-cpp
+<
 (
 OBJDIR
 )
@@ -772,9 +768,7 @@ CFLAGS
 (
 OPTIMIZER
 )
-*
-.
-cpp
+<
 (
 OBJDIR
 )
@@ -797,9 +791,7 @@ o
 (
 ASFLAGS
 )
-*
-.
-s
+<
 #
 This
 rule
@@ -849,9 +841,7 @@ JSDLL_CFLAGS
 (
 OPTIMIZER
 )
-*
-.
-cpp
+<
 (
 OBJDIR
 )
@@ -966,9 +956,7 @@ JSDLL_CFLAGS
 (
 OPTIMIZER
 )
-*
-.
-cpp
+<
 (
 OBJDIR
 )
