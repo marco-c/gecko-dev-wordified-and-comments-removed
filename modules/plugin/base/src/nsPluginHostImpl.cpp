@@ -28883,6 +28883,7 @@ GetPluginName
 nsIPluginInstance
 *
 aPluginInstance
+const
 char
 *
 *
@@ -28892,10 +28893,6 @@ aPluginName
 *
 aPluginName
 =
-(
-char
-*
-)
 GetPluginName
 (
 aPluginInstance

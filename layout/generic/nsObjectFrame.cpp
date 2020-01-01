@@ -1673,6 +1673,7 @@ do_QueryInterface
 mPluginHost
 )
 ;
+const
 char
 *
 name
