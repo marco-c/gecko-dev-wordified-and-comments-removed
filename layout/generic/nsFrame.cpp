@@ -8705,6 +8705,16 @@ rv
 return
 rv
 ;
+nsRefPtr
+<
+nsFrameSelection
+>
+frameSelection
+=
+GetFrameSelection
+(
+)
+;
 nsCOMPtr
 <
 nsISelection
@@ -8780,9 +8790,7 @@ rv
 ;
 }
 return
-GetFrameSelection
-(
-)
+frameSelection
 -
 >
 MaintainSelection
