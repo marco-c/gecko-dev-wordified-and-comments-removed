@@ -15279,17 +15279,6 @@ mBackgroundColor
 255
 |
 |
-NS_GET_A
-(
-bg
--
->
-mFallbackBackgroundColor
-)
-<
-255
-|
-|
 bg
 -
 >

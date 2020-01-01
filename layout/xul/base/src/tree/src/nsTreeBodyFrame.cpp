@@ -18917,8 +18917,6 @@ BottomLayer
 )
 .
 mImage
-.
-mRequest
 |
 |
 background
@@ -19137,8 +19135,6 @@ BottomLayer
 )
 .
 mImage
-.
-mRequest
 |
 |
 background

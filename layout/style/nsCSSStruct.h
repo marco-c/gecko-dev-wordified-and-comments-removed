@@ -1111,7 +1111,7 @@ void
 nsCSSValue
 mColor
 ;
-nsCSSValuePair
+nsCSSValue
 mBackColor
 ;
 nsCSSValueList

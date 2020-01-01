@@ -1958,8 +1958,6 @@ i
 ]
 .
 mImage
-.
-mRequest
 ;
 imgIRequest
 *
@@ -1981,8 +1979,6 @@ i
 ]
 .
 mImage
-.
-mRequest
 .
 get
 (
@@ -17576,8 +17572,6 @@ if
 layer
 .
 mImage
-.
-mRequest
 &
 &
 (

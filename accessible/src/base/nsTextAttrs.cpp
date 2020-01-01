@@ -2224,7 +2224,7 @@ NS_GET_A
 styleBackground
 -
 >
-mFallbackBackgroundColor
+mBackgroundColor
 )
 >
 0
@@ -2236,7 +2236,7 @@ aColor
 styleBackground
 -
 >
-mFallbackBackgroundColor
+mBackgroundColor
 ;
 return
 PR_TRUE

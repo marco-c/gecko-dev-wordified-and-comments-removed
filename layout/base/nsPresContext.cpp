@@ -5410,8 +5410,6 @@ i
 ]
 .
 mImage
-.
-mRequest
 ;
 loaders
 =

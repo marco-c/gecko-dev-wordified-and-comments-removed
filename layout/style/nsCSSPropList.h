@@ -1393,7 +1393,7 @@ BackgroundColor
 CSS_PROPERTY_APPLIES_TO_FIRST_LETTER_AND_FIRST_LINE
 Color
 mBackColor
-eCSSType_ValuePair
+eCSSType_Value
 nsnull
 )
 CSS_PROP_BACKGROUND
