@@ -1167,6 +1167,16 @@ info
 return
 info
 ;
+if
+(
+screen
+=
+=
+NULL
+)
+return
+NULL
+;
 info
 =
 malloc
