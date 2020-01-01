@@ -118,6 +118,13 @@ _MSC_VER
 >
 =
 1400
+&
+&
+!
+defined
+(
+WINCE
+)
 #
 define
 NS_HAVE_INVALID_PARAMETER_HANDLER
