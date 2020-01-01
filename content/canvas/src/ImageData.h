@@ -44,7 +44,9 @@ h
 #
 include
 "
-xpcpublic
+js
+/
+GCAPI
 .
 h
 "
@@ -169,7 +171,10 @@ GetDataObject
 )
 const
 {
-xpc_UnmarkGrayObject
+JS
+:
+:
+ExposeObjectToActiveJS
 (
 mData
 )

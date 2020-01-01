@@ -1916,14 +1916,11 @@ PreservingWrapper
 )
 )
 {
-xpc_UnmarkGrayObject
-(
 tmp
 -
 >
-GetWrapperPreserveColor
+GetWrapper
 (
-)
 )
 ;
 }

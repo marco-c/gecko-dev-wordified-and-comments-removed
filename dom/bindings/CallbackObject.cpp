@@ -360,7 +360,10 @@ Push
 cx
 )
 ;
-xpc_UnmarkGrayObject
+JS
+:
+:
+ExposeObjectToActiveJS
 (
 aCallback
 )

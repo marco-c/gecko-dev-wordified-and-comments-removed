@@ -319,6 +319,13 @@ h
 #
 include
 "
+nsIURI
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h
