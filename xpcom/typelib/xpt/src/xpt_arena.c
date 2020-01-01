@@ -753,7 +753,7 @@ arena
 >
 block_size
 ;
-if
+while
 (
 bytes
 >
@@ -764,7 +764,10 @@ block_header_size
 new_space
 +
 =
-bytes
+arena
+-
+>
+block_size
 ;
 new_block
 =
