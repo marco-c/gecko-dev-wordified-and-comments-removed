@@ -937,8 +937,8 @@ bool
 mIMEMaskSelectionUpdate
 mIMEMaskTextUpdate
 ;
-bool
-mIMEMaskEvents
+int32_t
+mIMEMaskEventsCount
 ;
 nsString
 mIMEComposingText
