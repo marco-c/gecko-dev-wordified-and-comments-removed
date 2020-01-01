@@ -2441,7 +2441,7 @@ if
 node
 )
 {
-global
+doc
 =
 node
 -
@@ -2449,6 +2449,10 @@ node
 OwnerDoc
 (
 )
+;
+global
+=
+doc
 -
 >
 GetScriptGlobalObject
