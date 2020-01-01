@@ -8883,11 +8883,12 @@ GetMainWidget
 (
 )
 ;
-if
+NS_ENSURE_TRUE
 (
 mainWidget
+nsnull
 )
-{
+;
 nsCOMPtr
 <
 nsIWidget
@@ -9106,7 +9107,6 @@ active
 PR_TRUE
 )
 ;
-}
 }
 }
 }
