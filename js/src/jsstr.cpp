@@ -16226,7 +16226,10 @@ length
 if
 (
 !
-CheckStringLength
+JSString
+:
+:
+validateLength
 (
 cx
 length
