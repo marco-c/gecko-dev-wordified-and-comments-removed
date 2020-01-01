@@ -8734,7 +8734,9 @@ parser
 callerFrame
 -
 >
-fun
+getFunction
+(
+)
 ;
 uintN
 upvarLevel
@@ -9586,7 +9588,9 @@ JS_ASSERT
 caller
 -
 >
-script
+hasScript
+(
+)
 )
 ;
 if
@@ -9595,7 +9599,9 @@ if
 caller
 -
 >
-fun
+hasFunction
+(
+)
 )
 return
 JS_TRUE
@@ -9668,7 +9674,9 @@ parser
 callerFrame
 -
 >
-fun
+getFunction
+(
+)
 ;
 JS_ASSERT
 (
@@ -10167,7 +10175,9 @@ JS_ASSERT
 caller
 -
 >
-script
+hasScript
+(
+)
 )
 ;
 JSTreeContext
@@ -10228,7 +10238,9 @@ JS_ASSERT
 caller
 -
 >
-fun
+hasFunction
+(
+)
 &
 &
 cg

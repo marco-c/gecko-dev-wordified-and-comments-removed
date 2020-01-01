@@ -23681,7 +23681,9 @@ if
 fp
 -
 >
-script
+hasScript
+(
+)
 )
 {
 fp
@@ -23744,7 +23746,9 @@ fp
 fp
 -
 >
-script
+hasScript
+(
+)
 &
 &
 (
@@ -23753,7 +23757,9 @@ filename
 fp
 -
 >
-script
+getScript
+(
+)
 -
 >
 filename

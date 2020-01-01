@@ -5216,14 +5216,15 @@ JSTRAP_RETURN
 fp
 -
 >
-rval
-=
+setReturnValue
+(
 js
 :
 :
 Valueify
 (
 rval
+)
 )
 ;
 return

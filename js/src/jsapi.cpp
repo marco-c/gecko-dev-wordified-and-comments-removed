@@ -21192,13 +21192,14 @@ cx
 )
 -
 >
-thisv
-=
+setThisValue
+(
 argv
 [
 -
 1
 ]
+)
 ;
 JS_ASSERT
 (

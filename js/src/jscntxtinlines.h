@@ -1903,7 +1903,9 @@ up
 down
 -
 >
-script
+hasScript
+(
+)
 ?
 up
 -
@@ -1932,7 +1934,9 @@ if
 up
 -
 >
-fun
+hasFunction
+(
+)
 )
 {
 uint16
@@ -1941,7 +1945,9 @@ nargs
 up
 -
 >
-fun
+getFunction
+(
+)
 -
 >
 nargs
