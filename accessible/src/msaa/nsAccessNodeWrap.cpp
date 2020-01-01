@@ -1136,7 +1136,8 @@ IsDefunct
 )
 |
 |
-IsDocument
+!
+IsElement
 (
 )
 )
