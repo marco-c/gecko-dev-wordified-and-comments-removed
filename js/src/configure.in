@@ -1712,6 +1712,10 @@ enums
 fno
 -
 exceptions
+-
+Wno
+-
+psabi
 CXXFLAGS
 STLPORT_CPPFLAGS
 "
