@@ -5210,6 +5210,14 @@ check
 "
 )
       
+tmpfile
+=
+tempfile
+.
+NamedTemporaryFile
+(
+)
+      
 self
 .
 checkCmd
@@ -5218,19 +5226,9 @@ checkCmd
 "
 push
 "
-os
+tmpfile
 .
-path
-.
-abspath
-(
-sys
-.
-argv
-[
-0
-]
-)
+name
 tmpDir
 +
 "
