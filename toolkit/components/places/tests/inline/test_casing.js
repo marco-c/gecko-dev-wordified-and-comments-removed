@@ -153,10 +153,6 @@ Test
 completed
 :
 "
-http
-:
-/
-/
 mozilla
 .
 org
@@ -289,10 +285,6 @@ Test
 completed
 :
 "
-http
-:
-/
-/
 mozilla
 .
 org
@@ -439,6 +431,10 @@ org
 completed
 :
 "
+http
+:
+/
+/
 www
 .
 mozilla
