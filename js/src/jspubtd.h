@@ -384,10 +384,7 @@ ifdef
 __GNUC__
 #
 define
-VALUE_ALIGNMENT_BEFORE
-#
-define
-VALUE_ALIGNMENT_AFTER
+VALUE_ALIGNMENT
 __attribute__
 (
 (
@@ -428,10 +425,7 @@ _MSC_VER
 )
 #
 define
-VALUE_ALIGNMENT_BEFORE
-#
-define
-VALUE_ALIGNMENT_AFTER
+VALUE_ALIGNMENT
 #
 define
 ASSERT_DOUBLE_ALIGN
@@ -574,7 +568,6 @@ bits
 jsval_data
 ;
 typedef
-VALUE_ALIGNMENT_BEFORE
 struct
 jsval
 {
@@ -588,7 +581,7 @@ jsval_data
 data
 ;
 }
-VALUE_ALIGNMENT_AFTER
+VALUE_ALIGNMENT
 jsval
 ;
 typedef

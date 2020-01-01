@@ -10444,7 +10444,6 @@ ptr
 ;
 }
 ;
-VALUE_ALIGNMENT_BEFORE
 class
 Value
 {
@@ -12302,7 +12301,7 @@ u32
 ;
 }
 }
-VALUE_ALIGNMENT_AFTER
+VALUE_ALIGNMENT
 ;
 static
 inline
