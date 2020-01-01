@@ -3061,7 +3061,14 @@ getThisObject
 cx
 )
 :
-NULL
+fp
+-
+>
+thisv
+.
+asObjectOrNull
+(
+)
 ;
 ok
 =
@@ -3498,6 +3505,7 @@ JSContext
 cx
 JSObject
 *
+const
 chain
 JSScript
 *

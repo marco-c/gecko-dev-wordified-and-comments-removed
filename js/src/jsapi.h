@@ -3683,6 +3683,9 @@ jsval
 vp
 )
 ;
+#
+ifdef
+__cplusplus
 static
 inline
 jsval
@@ -3717,6 +3720,8 @@ vp
 ]
 ;
 }
+#
+endif
 extern
 JS_PUBLIC_API
 (
