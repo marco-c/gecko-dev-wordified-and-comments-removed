@@ -11,6 +11,12 @@ data
 application
 /
 javascript
+;
+charset
+=
+utf
+-
+8
 "
 +
 encodeURI
