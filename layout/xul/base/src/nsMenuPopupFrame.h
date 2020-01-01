@@ -347,6 +347,11 @@ IsNoAutoHide
 (
 )
 ;
+PRBool
+IsTopMost
+(
+)
+;
 void
 EnsureWidget
 (
