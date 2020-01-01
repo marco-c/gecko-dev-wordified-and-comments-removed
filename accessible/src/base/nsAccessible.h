@@ -437,6 +437,7 @@ nsAccessible
 aChild
 )
 ;
+virtual
 nsAccessible
 *
 GetParent
