@@ -1695,6 +1695,12 @@ CXXFLAGS
 (
 MOZ_CAIRO_CFLAGS
 )
+else
+DEFINES
++
+=
+-
+DMOZ_TREE_PIXMAN
 endif
 cairo
 -
