@@ -486,7 +486,7 @@ gUpdateBundle
 GetStringFromName
 (
 "
-updateButton_major
+okButton
 "
 )
 ;
