@@ -14330,10 +14330,9 @@ reservedDoublePool
 tm
 -
 >
-globalShape
+needFlush
 =
--
-1
+JS_TRUE
 ;
 for
 (
