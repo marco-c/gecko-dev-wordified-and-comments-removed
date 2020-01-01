@@ -343,9 +343,9 @@ lir
 )
 ;
 bool
-visitUInt32ToDouble
+visitAsmJSUInt32ToDouble
 (
-LUInt32ToDouble
+LAsmJSUInt32ToDouble
 *
 lir
 )
