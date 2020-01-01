@@ -25251,9 +25251,6 @@ shell_functions
 )
 ;
 #
-undef
-PROFILING_FUNCTION_COUNT
-#
 ifdef
 DEBUG
 static
@@ -25287,6 +25284,8 @@ JS_ARRAY_END
 (
 shell_help_messages
 )
+-
+PROFILING_FUNCTION_COUNT
 ;
 +
 +
@@ -25373,6 +25372,9 @@ void
 )
 #
 endif
+#
+undef
+PROFILING_FUNCTION_COUNT
 static
 JSBool
 Help
