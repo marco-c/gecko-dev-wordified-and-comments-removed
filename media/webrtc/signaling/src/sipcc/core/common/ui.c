@@ -5265,7 +5265,7 @@ __FUNCTION__
 ;
 ui_call_state
 (
-PRESERVATION
+evCallPreservation
 line_id
 call_id
 CC_CAUSE_NORMAL
