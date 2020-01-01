@@ -137,6 +137,17 @@ GetClassInfo
 )
 ;
 virtual
+nsIDOMNode
+*
+AsDOMNode
+(
+)
+{
+return
+this
+;
+}
+virtual
 nsresult
 BindToTree
 (

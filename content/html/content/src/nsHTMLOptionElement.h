@@ -235,6 +235,17 @@ GetClassInfo
 )
 ;
 virtual
+nsIDOMNode
+*
+AsDOMNode
+(
+)
+{
+return
+this
+;
+}
+virtual
 bool
 IsDisabled
 (
