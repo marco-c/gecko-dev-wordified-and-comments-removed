@@ -33,6 +33,10 @@ aBuf
 PRUint32
 *
 aBufLen
+PRBool
+aInputLogical
+PRBool
+aOutputLogical
 )
 ;
 nsresult
