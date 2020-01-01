@@ -491,6 +491,10 @@ nsCompressedCharMap
 .
 h
 \
+nsBidiUtils
+.
+h
+\
 (
 NULL
 )
@@ -498,6 +502,10 @@ CPPSRCS
 =
 \
 nsUnicharUtils
+.
+cpp
+\
+nsBidiUtils
 .
 cpp
 \

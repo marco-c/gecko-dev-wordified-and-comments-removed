@@ -5533,9 +5533,6 @@ i
 {
 if
 (
-mBidiEngine
--
->
 IsBidiControl
 (
 (

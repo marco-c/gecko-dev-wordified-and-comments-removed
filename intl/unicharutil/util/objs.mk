@@ -391,6 +391,10 @@ nsCompressedCharMap
 .
 cpp
 \
+nsBidiUtils
+.
+cpp
+\
 (
 NULL
 )

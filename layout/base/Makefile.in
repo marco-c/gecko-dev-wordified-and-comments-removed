@@ -524,10 +524,6 @@ nsBidiPresUtils
 .
 h
 \
-nsBidiUtils
-.
-h
-\
 nsCSSFrameConstructor
 .
 h
@@ -621,10 +617,6 @@ NULL
 )
 CPPSRCS
 =
-\
-nsBidiUtils
-.
-cpp
 \
 nsCSSColorUtils
 .
