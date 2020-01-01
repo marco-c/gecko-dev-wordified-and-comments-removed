@@ -2476,6 +2476,8 @@ kNone
 kNonContainer
 |
 kPreferHead
+|
+kLegalOpen
 kDefaultPropRange
 &
 gInHead
@@ -3256,6 +3258,8 @@ kNone
 kNoStyleLeaksIn
 |
 kPreferHead
+|
+kLegalOpen
 kNoPropRange
 0
 0
