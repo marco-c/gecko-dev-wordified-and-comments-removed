@@ -375,12 +375,10 @@ document
 )
 return
 ;
+nsCOMPtr
+<
 nsIPresShell
-*
-presShell
-=
-nullptr
-;
+>
 presShell
 =
 document
@@ -506,8 +504,7 @@ GetY
 tcY
 )
 ;
-nsIFrame
-*
+nsWeakFrame
 tcFrame
 =
 tcContent
@@ -549,8 +546,10 @@ GetNearestWidget
 offset
 )
 ;
+nsRefPtr
+<
 nsPresContext
-*
+>
 presContext
 =
 presShell
