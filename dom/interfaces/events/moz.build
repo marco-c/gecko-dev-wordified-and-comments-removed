@@ -303,12 +303,7 @@ nsIDOMSmartCardEvent
 idl
 '
 '
-nsIDOMStyleSheetAddedEvent
-.
-idl
-'
-'
-nsIDOMStyleSheetRemovedEvent
+nsIDOMStyleSheetChangeEvent
 .
 idl
 '

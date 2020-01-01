@@ -155,10 +155,7 @@ MozApplicationEvent
 SmartCardEvent
 '
 '
-StyleSheetAddedEvent
-'
-'
-StyleSheetRemovedEvent
+StyleSheetChangeEvent
 '
 #
 ifdef
