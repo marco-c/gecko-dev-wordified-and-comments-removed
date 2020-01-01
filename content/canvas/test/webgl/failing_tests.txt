@@ -419,13 +419,6 @@ conformance
 /
 uniform
 -
-location
-.
-html
-conformance
-/
-uniform
--
 samplers
 -
 test
