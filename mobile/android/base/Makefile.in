@@ -512,6 +512,10 @@ NSSBridge
 .
 java
 \
+PropertyAnimator
+.
+java
+\
 ProfileMigrator
 .
 java
