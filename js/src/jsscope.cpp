@@ -4248,6 +4248,9 @@ cx
 oldSlot
 )
 ;
+#
+ifdef
+DEBUG
 else
 getSlotRef
 (
@@ -4258,6 +4261,8 @@ setUndefined
 (
 )
 ;
+#
+endif
 JS_ATOMIC_INCREMENT
 (
 &
@@ -5911,7 +5916,6 @@ slot
 ;
 JS_ASSERT
 (
-&
 shape
 .
 methodObject
@@ -5919,7 +5923,6 @@ methodObject
 )
 =
 =
-&
 prev
 .
 toObject

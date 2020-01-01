@@ -7365,7 +7365,6 @@ fun
 ;
 if
 (
-&
 fun
 -
 >
@@ -7374,7 +7373,6 @@ compiledFunObj
 )
 =
 =
-&
 funobj
 &
 &
@@ -7463,7 +7461,6 @@ isMethod
 )
 &
 &
-&
 shape
 -
 >
@@ -7472,7 +7469,6 @@ methodObject
 )
 =
 =
-&
 funobj
 )
 {
@@ -7493,7 +7489,7 @@ vp
 return
 false
 ;
-calleeValue
+calleev
 (
 )
 .
@@ -7583,7 +7579,7 @@ vp
 =
 v
 ;
-calleeValue
+calleev
 (
 )
 .
@@ -7668,7 +7664,7 @@ setMethodObj
 first_barriered_thisp
 )
 ;
-calleeValue
+calleev
 (
 )
 .
@@ -10499,7 +10495,7 @@ JS_FALSE
 ;
 args
 .
-callee
+calleev
 (
 )
 =
@@ -10725,7 +10721,7 @@ false
 ;
 args
 .
-callee
+calleev
 (
 )
 =
@@ -11258,7 +11254,7 @@ Value
 ;
 args
 .
-callee
+calleev
 (
 )
 .
