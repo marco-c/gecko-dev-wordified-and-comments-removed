@@ -7431,6 +7431,15 @@ nsWidgetAtoms
 :
 :
 sortdirection
+|
+|
+aAttribute
+=
+=
+nsWidgetAtoms
+:
+:
+_default
 )
 *
 aShouldRepaint
