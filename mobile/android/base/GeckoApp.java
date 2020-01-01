@@ -2844,6 +2844,12 @@ menu
 if
 (
 mLayerView
+!
+=
+null
+&
+&
+mLayerView
 .
 isFullScreen
 (
