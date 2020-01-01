@@ -798,6 +798,9 @@ gHttpHandler
 IsSpdyEnabled
 (
 )
+&
+&
+mAllowSpdy
 )
 {
 nsCAutoString
@@ -2152,6 +2155,16 @@ NS_HTTP_ALLOW_PIPELINING
 ;
 }
 }
+if
+(
+!
+mAllowSpdy
+)
+mCaps
+|
+=
+NS_HTTP_DISALLOW_SPDY
+;
 nsCAutoString
 buf
 path
@@ -17226,6 +17239,9 @@ LOAD_REPLACE
 &
 &
 mOriginalURI
+&
+&
+mAllowSpdy
 )
 {
 nsCAutoString
