@@ -839,15 +839,6 @@ nsIAccessible
 aAccessible
 )
 ;
-static
-PRBool
-IsNodeRelevant
-(
-nsINode
-*
-aNode
-)
-;
 enum
 {
 eRowHeaderCells

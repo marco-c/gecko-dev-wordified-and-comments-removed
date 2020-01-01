@@ -682,13 +682,6 @@ nsIFrame
 aBoundingFrame
 )
 ;
-virtual
-nsAccessible
-*
-GetParent
-(
-)
-;
 }
 ;
 #

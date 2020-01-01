@@ -310,7 +310,7 @@ GetAccService
 )
 -
 >
-GetAccessible
+GetOrCreateAccessible
 (
 childNode
 presShell

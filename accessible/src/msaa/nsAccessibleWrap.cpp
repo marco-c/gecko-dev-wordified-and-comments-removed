@@ -7300,7 +7300,7 @@ newAccessible
 accessible
 -
 >
-GetParent
+GetCachedParent
 (
 )
 ;

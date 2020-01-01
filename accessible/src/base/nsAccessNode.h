@@ -409,6 +409,17 @@ GetPresShell
 (
 )
 ;
+nsIWeakReference
+*
+GetWeakShell
+(
+)
+const
+{
+return
+mWeakShell
+;
+}
 protected
 :
 nsPresContext
