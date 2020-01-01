@@ -986,7 +986,6 @@ OpenBSD
 OpenVMS
 AIX
 RISCOS
-WINCE
 ifeq
 (
 (
@@ -3440,14 +3439,6 @@ DEFINES
 =
 -
 DBUILD_LIBPKIX_TESTS
-endif
-ifdef
-NSS_DISABLE_DBM
-DEFINES
-+
-=
--
-DNSS_DISABLE_DBM
 endif
 #
 Avoid

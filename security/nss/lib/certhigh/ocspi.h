@@ -168,15 +168,8 @@ CERTCertificate
 *
 cert
 PRBool
-canUseDefaultLocation
-PRBool
 *
 isDefault
-)
-;
-PRBool
-ocsp_FetchingFailureIsVerificationFailure
-(
 )
 ;
 #

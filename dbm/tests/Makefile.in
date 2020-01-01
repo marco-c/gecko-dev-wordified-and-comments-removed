@@ -411,11 +411,6 @@ mk
 MODULE
 =
 dbm
-PACKAGE_FILE
-=
-dbmtest
-.
-pkg
 PROGRAM
 =
 lots

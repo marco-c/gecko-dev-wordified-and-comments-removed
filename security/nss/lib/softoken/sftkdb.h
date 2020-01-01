@@ -107,9 +107,8 @@ sftkdb_SetAttributeValue
 SFTKDBHandle
 *
 handle
-SFTKObject
-*
-object
+CK_OBJECT_HANDLE
+object_id
 const
 CK_ATTRIBUTE
 *

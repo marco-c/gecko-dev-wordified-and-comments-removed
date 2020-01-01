@@ -2126,13 +2126,10 @@ text
 align
 16
 .
-globl
-freebl_cpuid
-.
 type
-freebl_cpuid
+cpuid
 function
-freebl_cpuid
+cpuid
 :
 .
 LFB2
@@ -2200,10 +2197,10 @@ LFE2
 :
 .
 size
-freebl_cpuid
+cpuid
 .
 -
-freebl_cpuid
+cpuid
 .
 align
 16
@@ -2777,7 +2774,7 @@ rsp
 LCFI14
 :
 call
-freebl_cpuid
+cpuid
 movq
 -
 152
@@ -2979,7 +2976,7 @@ ebx
 %
 ebx
 call
-freebl_cpuid
+cpuid
 movq
 -
 192
@@ -3124,7 +3121,7 @@ movl
 %
 edi
 call
-freebl_cpuid
+cpuid
 .
 L24
 :
@@ -3408,7 +3405,7 @@ ebx
 %
 ebx
 call
-freebl_cpuid
+cpuid
 movl
 2147483652
 %
@@ -3517,7 +3514,7 @@ movl
 %
 edi
 call
-freebl_cpuid
+cpuid
 movzbq
 -
 224

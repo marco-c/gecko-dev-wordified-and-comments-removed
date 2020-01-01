@@ -400,12 +400,12 @@ Ref
 :
 %
 d
-Subject
+Issuer
 =
 %
 s
 \
-nIssuer
+nSubject
 =
 %
 s
@@ -413,8 +413,8 @@ s
 n
 "
 refCount
-subjectAscii
 issuerAscii
+subjectAscii
 )
 ;
 if

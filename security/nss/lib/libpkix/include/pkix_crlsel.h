@@ -47,12 +47,11 @@ PKIX_Error
 *
 PKIX_CRLSelector_Create
 (
-PKIX_PL_Cert
+PKIX_CRLSelector_MatchCallback
+callback
+PKIX_PL_Object
 *
-issuer
-PKIX_PL_Date
-*
-date
+crlSelectorContext
 PKIX_CRLSelector
 *
 *

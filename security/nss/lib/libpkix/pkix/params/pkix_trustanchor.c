@@ -1176,16 +1176,6 @@ PKIX_TrustAnchor_CreateWithNameKeyPair
 "
 )
 ;
-#
-ifndef
-BUILD_LIBPKIX_TESTS
-PKIX_ERROR
-(
-PKIX_FUNCTIONMUSTNOTBEUSED
-)
-;
-#
-endif
 PKIX_NULLCHECK_THREE
 (
 name

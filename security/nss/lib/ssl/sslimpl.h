@@ -184,10 +184,6 @@ calg_camellia
 ssl_calg_camellia
 #
 define
-calg_seed
-ssl_calg_seed
-#
-define
 mac_null
 ssl_mac_null
 #
@@ -527,7 +523,7 @@ SSL3_MASTER_SECRET_LENGTH
 #
 define
 SSL_NUM_WRAP_MECHS
-16
+15
 #
 define
 SSL_MAX_CACHED_CERT_LEN
@@ -1082,13 +1078,13 @@ NSS_ENABLE_ECC
 #
 define
 ssl_V3_SUITES_IMPLEMENTED
-50
+49
 #
 else
 #
 define
 ssl_V3_SUITES_IMPLEMENTED
-30
+29
 #
 endif
 typedef
@@ -1429,7 +1425,6 @@ cipher_aes_128
 cipher_aes_256
 cipher_camellia_128
 cipher_camellia_256
-cipher_seed
 cipher_missing
 }
 SSL3BulkCipher

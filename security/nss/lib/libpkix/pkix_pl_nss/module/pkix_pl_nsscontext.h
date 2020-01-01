@@ -21,6 +21,11 @@ C
 {
 #
 endif
+typedef
+struct
+PKIX_PL_NssContextStruct
+PKIX_PL_NssContext
+;
 struct
 PKIX_PL_NssContextStruct
 {
@@ -34,12 +39,6 @@ arena
 void
 *
 wincx
-;
-PKIX_UInt32
-timeoutSeconds
-;
-PKIX_UInt32
-maxResponseLength
 ;
 }
 ;

@@ -1,4 +1,11 @@
 #
+if
+!
+defined
+(
+_WIN32_WCE
+)
+#
 include
 "
 prerror
@@ -1389,3 +1396,5 @@ err
 )
 ;
 }
+#
+endif

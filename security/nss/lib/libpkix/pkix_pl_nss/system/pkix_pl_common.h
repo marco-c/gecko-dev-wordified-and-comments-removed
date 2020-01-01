@@ -362,6 +362,13 @@ pkix_sample_modules
 h
 "
 #
+include
+"
+pkix_pl_ekuchecker
+.
+h
+"
+#
 define
 MAX_DIGITS_32
 (

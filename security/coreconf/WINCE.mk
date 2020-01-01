@@ -592,11 +592,6 @@ lib
 DLL_SUFFIX
 =
 dll
-OS_DLLFLAGS
-+
-=
--
-DLL
 ifdef
 BUILD_OPT
 #

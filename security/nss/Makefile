@@ -1967,8 +1967,6 @@ MAKE
 clobber
 build_dbm
 :
-ifndef
-NSS_DISABLE_DBM
 cd
 (
 CORE_DEPTH
@@ -1981,16 +1979,6 @@ MAKE
 )
 export
 libs
-else
-echo
-"
-skipping
-the
-build
-of
-DBM
-"
-endif
 clobber_dbm
 :
 cd

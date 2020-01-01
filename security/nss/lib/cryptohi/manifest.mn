@@ -414,6 +414,10 @@ cryptoht
 .
 h
 \
+hasht
+.
+h
+\
 key
 .
 h
@@ -427,6 +431,10 @@ keyt
 h
 \
 keythi
+.
+h
+\
+sechash
 .
 h
 \
