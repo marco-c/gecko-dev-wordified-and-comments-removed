@@ -511,6 +511,15 @@ NPRemoteEvent
 using
 NPRect
 ;
+using
+mozilla
+:
+:
+plugins
+:
+:
+NativeWindowHandle
+;
 namespace
 mozilla
 {
@@ -703,7 +712,7 @@ NPN_GetValue_NPNVnetscapeWindow
 )
 returns
 (
-intptr_t
+NativeWindowHandle
 value
 NPError
 result
