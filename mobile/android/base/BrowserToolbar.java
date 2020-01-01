@@ -4182,6 +4182,11 @@ text
 {
 if
 (
+isEditing
+(
+)
+&
+&
 mFilterListener
 !
 =
