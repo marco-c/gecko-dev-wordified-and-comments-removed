@@ -424,7 +424,7 @@ nsIProperties
 >
 mProperties
 ;
-nsVoidArray
+nsAutoVoidArray
 mObservers
 ;
 PRPackedBool
