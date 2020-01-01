@@ -2013,16 +2013,8 @@ nsPresState
 *
 state
 =
-nullptr
-;
-nsresult
-rv
-=
 GetPrimaryPresState
 (
-this
-&
-state
 )
 ;
 if
@@ -2047,7 +2039,7 @@ disabled
 ;
 }
 return
-rv
+NS_OK
 ;
 }
 bool
