@@ -934,6 +934,11 @@ new_
 ScriptSource
 >
 (
+options
+.
+originPrincipals
+(
+)
 )
 ;
 if
@@ -2473,6 +2478,11 @@ new_
 ScriptSource
 >
 (
+options
+.
+originPrincipals
+(
+)
 )
 ;
 if

@@ -2578,7 +2578,12 @@ setOriginPrincipals
 (
 info
 .
+scriptSource
+-
+>
 originPrincipals
+(
+)
 )
 .
 setCompileAndGo

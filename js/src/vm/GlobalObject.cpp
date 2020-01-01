@@ -1097,6 +1097,11 @@ new_
 ScriptSource
 >
 (
+(
+JSPrincipals
+*
+)
+NULL
 )
 ;
 if

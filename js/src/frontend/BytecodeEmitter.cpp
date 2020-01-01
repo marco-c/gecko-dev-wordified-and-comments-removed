@@ -21372,13 +21372,6 @@ script
 sourceObject
 (
 )
-bce
--
->
-script
--
->
-originPrincipals
 )
 ;
 }
@@ -21481,6 +21474,8 @@ parent
 -
 >
 originPrincipals
+(
+)
 )
 .
 setCompileAndGo

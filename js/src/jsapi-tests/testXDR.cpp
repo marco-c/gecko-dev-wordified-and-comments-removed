@@ -247,6 +247,8 @@ script
 -
 >
 originPrincipals
+(
+)
 )
 ;
 js_free
@@ -350,6 +352,8 @@ script
 -
 >
 originPrincipals
+(
+)
 )
 ;
 js_free

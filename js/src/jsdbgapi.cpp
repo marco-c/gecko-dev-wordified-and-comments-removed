@@ -2839,6 +2839,8 @@ script
 -
 >
 originPrincipals
+(
+)
 ;
 }
 JS_PUBLIC_API
