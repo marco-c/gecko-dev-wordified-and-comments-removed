@@ -2152,6 +2152,16 @@ gdk_display_get_default
 )
 )
 ;
+if
+(
+!
+dpy
+)
+{
+return
+NULL
+;
+}
 Window
 root
 =
