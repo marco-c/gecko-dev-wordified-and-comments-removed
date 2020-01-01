@@ -1031,6 +1031,11 @@ i
 case
 TAVARUA_EVT_RADIO_READY
 :
+if
+(
+sRadioEnabled
+)
+{
 NS_DispatchToMainThread
 (
 new
@@ -1047,6 +1052,7 @@ FM_RADIO_OPERATION_STATUS_SUCCESS
 )
 )
 ;
+}
 break
 ;
 case
