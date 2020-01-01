@@ -586,13 +586,6 @@ h
 #
 include
 "
-nsIEventStateManager
-.
-h
-"
-#
-include
-"
 nsIPrompt
 .
 h

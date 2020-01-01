@@ -232,7 +232,7 @@ h
 #
 include
 "
-nsIEventStateManager
+nsEventStateManager
 .
 h
 "
@@ -3635,7 +3635,7 @@ DOMMenuInactive
 mContent
 )
 ;
-nsIEventStateManager
+nsEventStateManager
 *
 esm
 =

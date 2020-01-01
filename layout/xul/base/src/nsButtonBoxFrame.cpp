@@ -85,7 +85,7 @@ h
 #
 include
 "
-nsIEventStateManager
+nsEventStateManager
 .
 h
 "
@@ -259,7 +259,7 @@ keyEvent
 keyCode
 )
 {
-nsIEventStateManager
+nsEventStateManager
 *
 esm
 =
@@ -400,7 +400,7 @@ keyEvent
 keyCode
 )
 {
-nsIEventStateManager
+nsEventStateManager
 *
 esm
 =

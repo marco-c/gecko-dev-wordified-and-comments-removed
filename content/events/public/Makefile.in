@@ -429,10 +429,6 @@ nsIEventListenerManager
 .
 h
 \
-nsIEventStateManager
-.
-h
-\
 nsIPrivateDOMEvent
 .
 h

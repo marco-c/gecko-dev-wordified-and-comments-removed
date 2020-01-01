@@ -85,7 +85,7 @@ h
 #
 include
 "
-nsIEventStateManager
+nsEventStates
 .
 h
 "

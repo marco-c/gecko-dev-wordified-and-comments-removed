@@ -120,7 +120,7 @@ h
 #
 include
 "
-nsIEventStateManager
+nsEventStateManager
 .
 h
 "
@@ -4703,10 +4703,7 @@ IsEmpty
 return
 NS_OK
 ;
-nsresult
-rv
-;
-nsIEventStateManager
+nsEventStateManager
 *
 esm
 =
@@ -4732,8 +4729,6 @@ if
 (
 aDoReg
 )
-rv
-=
 esm
 -
 >
@@ -4744,8 +4739,6 @@ key
 )
 ;
 else
-rv
-=
 esm
 -
 >
@@ -4756,6 +4749,6 @@ key
 )
 ;
 return
-rv
+NS_OK
 ;
 }

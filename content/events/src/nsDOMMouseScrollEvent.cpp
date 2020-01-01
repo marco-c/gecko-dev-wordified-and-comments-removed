@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsIEventStateManager
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

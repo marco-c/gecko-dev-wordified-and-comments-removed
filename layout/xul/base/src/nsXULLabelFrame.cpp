@@ -22,7 +22,7 @@ h
 #
 include
 "
-nsIEventStateManager
+nsEventStateManager
 .
 h
 "
@@ -136,7 +136,7 @@ IsEmpty
 return
 NS_OK
 ;
-nsIEventStateManager
+nsEventStateManager
 *
 esm
 =
@@ -148,9 +148,6 @@ PresContext
 EventStateManager
 (
 )
-;
-nsresult
-rv
 ;
 PRUint32
 key
@@ -165,8 +162,6 @@ if
 (
 aDoReg
 )
-rv
-=
 esm
 -
 >
@@ -177,8 +172,6 @@ key
 )
 ;
 else
-rv
-=
 esm
 -
 >
@@ -189,7 +182,7 @@ key
 )
 ;
 return
-rv
+NS_OK
 ;
 }
 NS_IMETHODIMP

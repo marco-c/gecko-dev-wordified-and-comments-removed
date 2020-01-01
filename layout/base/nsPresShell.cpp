@@ -430,6 +430,13 @@ h
 #
 include
 "
+nsEventStateManager
+.
+h
+"
+#
+include
+"
 nsXPCOM
 .
 h
@@ -15550,9 +15557,9 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
-nsIEventStateManager
+nsEventStateManager
 >
 esm
 =
@@ -27556,7 +27563,7 @@ PresShell
 )
 )
 ;
-nsIEventStateManager
+nsEventStateManager
 *
 activeESM
 =
@@ -28797,9 +28804,9 @@ NS_OK
 }
 #
 endif
-nsCOMPtr
+nsRefPtr
 <
-nsIEventStateManager
+nsEventStateManager
 >
 manager
 =
