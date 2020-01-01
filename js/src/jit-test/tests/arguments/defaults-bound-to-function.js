@@ -97,8 +97,6 @@ res
 42
 )
 ;
-assertThrowsInstanceOf
-(
 function
 i
 (
@@ -114,7 +112,13 @@ b
 {
 }
 }
-ReferenceError
+i
+(
+)
+;
+i
+(
+42
 )
 ;
 function
