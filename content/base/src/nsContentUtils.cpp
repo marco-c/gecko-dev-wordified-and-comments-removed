@@ -3516,6 +3516,15 @@ NS_EVENT
 nsGkAtoms
 :
 :
+onMozBeforePaint
+NS_BEFOREPAINT
+EventNameType_None
+NS_EVENT_NULL
+}
+{
+nsGkAtoms
+:
+:
 onMozScrolledAreaChanged
 NS_SCROLLEDAREACHANGED
 EventNameType_None

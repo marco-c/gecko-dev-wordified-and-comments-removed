@@ -4372,6 +4372,13 @@ onMozAfterPaint
 )
 GK_ATOM
 (
+onMozBeforePaint
+"
+onMozBeforePaint
+"
+)
+GK_ATOM
+(
 onMozMousePixelScroll
 "
 onMozMousePixelScroll
