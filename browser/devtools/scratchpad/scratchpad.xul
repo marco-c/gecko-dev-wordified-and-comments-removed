@@ -240,6 +240,11 @@ macanimationtype
 "
 document
 "
+fullscreenbutton
+=
+"
+true
+"
 screenX
 =
 "
