@@ -584,6 +584,14 @@ acceptDialog
 (
 )
 "
+ondialogcancel
+=
+"
+return
+exitDialog
+(
+)
+"
 buttonlabelaccept
 =
 "
