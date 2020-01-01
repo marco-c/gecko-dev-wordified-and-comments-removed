@@ -193,7 +193,7 @@ boolean
 enabled
 ;
 public
-boolean
+int
 showAsAction
 ;
 }
@@ -610,7 +610,7 @@ R
 .
 styleable
 .
-MenuItem_id
+MenuItem_android_id
 NO_ID
 )
 ;
@@ -626,7 +626,7 @@ R
 .
 styleable
 .
-MenuItem_orderInCategory
+MenuItem_android_orderInCategory
 0
 )
 ;
@@ -642,7 +642,7 @@ R
 .
 styleable
 .
-MenuItem_title
+MenuItem_android_title
 )
 ;
 item
@@ -657,7 +657,7 @@ R
 .
 styleable
 .
-MenuItem_icon
+MenuItem_android_icon
 0
 )
 ;
@@ -673,7 +673,7 @@ R
 .
 styleable
 .
-MenuItem_checkable
+MenuItem_android_checkable
 false
 )
 ;
@@ -689,7 +689,7 @@ R
 .
 styleable
 .
-MenuItem_checked
+MenuItem_android_checked
 false
 )
 ;
@@ -705,7 +705,7 @@ R
 .
 styleable
 .
-MenuItem_visible
+MenuItem_android_visible
 true
 )
 ;
@@ -721,7 +721,7 @@ R
 .
 styleable
 .
-MenuItem_enabled
+MenuItem_android_enabled
 true
 )
 ;
@@ -731,14 +731,14 @@ showAsAction
 =
 a
 .
-getBoolean
+getInt
 (
 R
 .
 styleable
 .
-MenuItem_showAsAction
-false
+MenuItem_android_showAsAction
+0
 )
 ;
 a
@@ -807,10 +807,6 @@ setShowAsAction
 item
 .
 showAsAction
-?
-1
-:
-0
 )
 ;
 }
