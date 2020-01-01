@@ -93,14 +93,6 @@ script
 5
 .
 js
-#
-bug
-332722
--
-Linux
-fails
-during
-DST
 script
 15
 .
