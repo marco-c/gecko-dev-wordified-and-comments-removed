@@ -590,7 +590,7 @@ h
 "
 #
 ifdef
-MOZ_REFLOW_PERF_DSP
+MOZ_REFLOW_PERF
 #
 include
 "
