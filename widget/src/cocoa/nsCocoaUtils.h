@@ -266,6 +266,15 @@ aWindow
 )
 ;
 static
+BOOL
+IsMomentumScrollEvent
+(
+NSEvent
+*
+aEvent
+)
+;
+static
 void
 HideOSChromeOnScreen
 (
