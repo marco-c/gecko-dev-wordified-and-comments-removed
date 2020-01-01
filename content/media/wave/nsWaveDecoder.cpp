@@ -4732,6 +4732,10 @@ IsEnded
 return
 ;
 }
+UpdateReadyStateForData
+(
+)
+;
 if
 (
 mElement
