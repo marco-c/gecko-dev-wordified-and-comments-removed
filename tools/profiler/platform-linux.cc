@@ -587,8 +587,16 @@ GetActiveSampler
 (
 )
 )
+{
+sem_post
+(
+&
+sSignalHandlingDone
+)
+;
 return
 ;
+}
 TickSample
 sample_obj
 ;
