@@ -403,10 +403,6 @@ init
 (
 )
 {
-chunk
-=
-NULL
-;
 for
 (
 unsigned
@@ -2128,10 +2124,6 @@ uint32
 releaseInterval
 )
 {
-chunk
-=
-NULL
-;
 for
 (
 WrapperMap
