@@ -98,6 +98,14 @@ PermissionSettings
 .
 manifest
 \
+PermissionPromptService
+.
+js
+\
+PermissionPromptService
+.
+manifest
+\
 (
 NULL
 )

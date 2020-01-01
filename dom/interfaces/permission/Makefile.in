@@ -91,6 +91,10 @@ nsIDOMPermissionSettings
 .
 idl
 \
+nsIPermissionPromptService
+.
+idl
+\
 (
 NULL
 )
