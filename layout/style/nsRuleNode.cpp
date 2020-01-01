@@ -8358,13 +8358,6 @@ bit
 )
 break
 ;
-if
-(
-detail
-=
-=
-eRuleNone
-)
 while
 (
 ruleNode
