@@ -15189,11 +15189,10 @@ if
 (
 mReadyState
 >
-=
 nsIDOMHTMLMediaElement
 :
 :
-HAVE_CURRENT_DATA
+HAVE_NOTHING
 &
 &
 mDecoder
