@@ -417,12 +417,13 @@ info
 ;
 1
 "
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS4
 (
 nsDownloadManager
 nsIDownloadManager
 nsINavHistoryObserver
 nsIObserver
+nsISupportsWeakReference
 )
 nsDownloadManager
 *
@@ -3964,7 +3965,7 @@ quit
 -
 application
 "
-false
+true
 )
 ;
 (
@@ -3983,7 +3984,7 @@ application
 -
 requested
 "
-false
+true
 )
 ;
 (
@@ -4000,7 +4001,7 @@ offline
 -
 requested
 "
-false
+true
 )
 ;
 (
@@ -4015,7 +4016,7 @@ this
 "
 sleep_notification
 "
-false
+true
 )
 ;
 (
@@ -4030,7 +4031,7 @@ this
 "
 wake_notification
 "
-false
+true
 )
 ;
 (
@@ -4049,7 +4050,7 @@ before
 -
 change
 "
-false
+true
 )
 ;
 (
@@ -4062,7 +4063,7 @@ AddObserver
 (
 this
 NS_IOSERVICE_GOING_OFFLINE_TOPIC
-false
+true
 )
 ;
 (
@@ -4075,7 +4076,7 @@ AddObserver
 (
 this
 NS_IOSERVICE_OFFLINE_STATUS_TOPIC
-false
+true
 )
 ;
 (
@@ -4088,7 +4089,7 @@ AddObserver
 (
 this
 NS_PRIVATE_BROWSING_REQUEST_TOPIC
-false
+true
 )
 ;
 (
@@ -4101,7 +4102,7 @@ AddObserver
 (
 this
 NS_PRIVATE_BROWSING_SWITCH_TOPIC
-false
+true
 )
 ;
 if
@@ -4117,7 +4118,7 @@ history
 AddObserver
 (
 this
-false
+true
 )
 ;
 return
