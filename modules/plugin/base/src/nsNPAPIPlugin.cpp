@@ -922,6 +922,12 @@ gOSXVersion
 ;
 }
 #
+if
+defined
+(
+__i386__
+)
+#
 define
 CGLRendererIDMatchingMask
 0x00FE7F00
@@ -1038,6 +1044,8 @@ return
 hasIntelGMA9XX
 ;
 }
+#
+endif
 #
 endif
 PRBool
@@ -1179,6 +1187,12 @@ PR_FALSE
 ;
 }
 }
+#
+if
+defined
+(
+__i386__
+)
 if
 (
 GMA9XXGraphics
@@ -1190,6 +1204,8 @@ return
 PR_FALSE
 ;
 }
+#
+endif
 }
 #
 endif
