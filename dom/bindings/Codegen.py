@@ -13922,6 +13922,7 @@ self
 descriptor
 source
 target
+exceptionCode
 )
 :
         
@@ -13929,32 +13930,38 @@ CastableObjectUnwrapper
 .
 __init__
 (
+            
 self
 descriptor
 source
 target
             
-"
-return
+'
 ThrowErrorMessage
 (
 cx
 MSG_DOES_NOT_IMPLEMENT_INTERFACE
-"
-+
-              
-'
 "
 %
 s
 "
 )
 ;
+\
+n
+'
+            
 '
 %
+s
+'
+%
+(
 descriptor
 .
 name
+exceptionCode
+)
 )
 class
 CallbackObjectUnwrapper
@@ -14018,6 +14025,8 @@ self
 descriptor
 source
 target
+exceptionCode
+                 
 codeOnFailure
 =
 None
@@ -14033,15 +14042,11 @@ None
 codeOnFailure
 =
 (
-"
-return
+                
+'
 ThrowErrorMessage
 (
 cx
-"
-+
-              
-'
 MSG_DOES_NOT_IMPLEMENT_INTERFACE
 "
 %
@@ -14049,12 +14054,21 @@ s
 "
 )
 ;
+\
+n
+'
+                
 '
 %
-              
+s
+'
+%
+(
 descriptor
 .
 name
+exceptionCode
+)
 )
         
 self
@@ -14499,6 +14513,10 @@ False
 isNullOrUndefined
 =
 False
+                                    
+exceptionCode
+=
+None
 )
 :
     
@@ -14610,6 +14628,53 @@ what
     
 failureCode
 is
+.
+However
+what
+actually
+happens
+when
+throwing
+an
+exception
+    
+can
+be
+controlled
+by
+exceptionCode
+.
+The
+only
+requirement
+on
+that
+is
+that
+    
+exceptionCode
+must
+end
+up
+doing
+a
+return
+and
+every
+return
+from
+this
+    
+function
+must
+happen
+via
+exceptionCode
+if
+exceptionCode
+is
+not
+None
 .
     
 If
@@ -15169,6 +15234,30 @@ or
 not
 isNullOrUndefined
     
+if
+exceptionCode
+is
+None
+:
+        
+exceptionCode
+=
+"
+return
+false
+;
+"
+    
+exceptionCodeIndented
+=
+CGIndenter
+(
+CGGeneric
+(
+exceptionCode
+)
+)
+    
 def
 onFailureNotAnObject
 (
@@ -15185,15 +15274,25 @@ CGGeneric
 failureCode
 or
                 
+(
 '
-return
 ThrowErrorMessage
 (
 cx
 MSG_NOT_OBJECT
 )
 ;
+\
+n
 '
+                 
+'
+%
+s
+'
+%
+exceptionCode
+)
 )
 post
 =
@@ -15220,8 +15319,8 @@ CGGeneric
 failureCode
 or
                 
+(
 '
-return
 ThrowErrorMessage
 (
 cx
@@ -15233,8 +15332,17 @@ s
 )
 ;
 '
+                 
+'
 %
+s
+'
+%
+(
 typeName
+exceptionCode
+)
+)
 )
 post
 =
@@ -15260,15 +15368,25 @@ CGGeneric
 failureCode
 or
                 
+(
 '
-return
 ThrowErrorMessage
 (
 cx
 MSG_NOT_CALLABLE
 )
 ;
+\
+n
 '
+                 
+'
+%
+s
+'
+%
+exceptionCode
+)
 )
 post
 =
@@ -15649,15 +15767,25 @@ None
             
 notSequence
 =
+(
 "
-return
 ThrowErrorMessage
 (
 cx
 MSG_NOT_SEQUENCE
 )
 ;
+\
+n
 "
+                           
+"
+%
+s
+"
+%
+exceptionCode
+)
         
 else
 :
@@ -15769,6 +15897,10 @@ descriptorProvider
 isMember
 =
 True
+            
+exceptionCode
+=
+exceptionCode
 )
         
 if
@@ -15952,10 +16084,8 @@ length
 )
 )
 {
-  
-return
-false
-;
+%
+s
 }
 Sequence
 <
@@ -15996,10 +16126,8 @@ JS_ReportOutOfMemory
 cx
 )
 ;
-  
-return
-false
-;
+%
+s
 }
 for
 (
@@ -16035,10 +16163,8 @@ temp
 )
 )
 {
-    
-return
-false
-;
+%
+s
   
 }
 "
@@ -16058,6 +16184,12 @@ define
 (
 )
        
+exceptionCodeIndented
+.
+define
+(
+)
+       
 elementDeclType
 .
 define
@@ -16071,6 +16203,21 @@ define
 )
        
 arrayRef
+       
+exceptionCodeIndented
+.
+define
+(
+)
+       
+CGIndenter
+(
+exceptionCodeIndented
+)
+.
+define
+(
+)
 )
 )
         
@@ -17512,9 +17659,8 @@ n
 "
                           
 "
-return
-false
-;
+%
+s
 \
 n
 "
@@ -17537,7 +17683,6 @@ n
 "
                           
 "
-return
 ThrowErrorMessage
 (
 cx
@@ -17555,15 +17700,36 @@ n
 "
                           
 "
+%
+s
+\
+n
+"
+                          
+"
 }
 "
 %
+(
+exceptionCodeIndented
+.
+define
+(
+)
+                                 
 "
 "
 .
 join
 (
 names
+)
+                                 
+exceptionCodeIndented
+.
+define
+(
+)
 )
 )
         
@@ -18433,6 +18599,8 @@ toObject
 declName
 }
 "
+                        
+exceptionCode
 )
 )
         
@@ -18472,6 +18640,8 @@ toObject
 declName
 }
 "
+                    
+exceptionCode
                     
 codeOnFailure
 =
@@ -19416,9 +19586,8 @@ n
 "
                 
 "
-return
-false
-;
+%
+s
 \
 n
 "
@@ -19431,6 +19600,12 @@ n
 nullBehavior
 undefinedBehavior
 varName
+                       
+exceptionCodeIndented
+.
+define
+(
+)
 )
 )
             
@@ -19790,6 +19965,16 @@ n
 else
 :
             
+assert
+exceptionCode
+=
+=
+"
+return
+false
+;
+"
+            
 handleInvalidEnumValueCode
 =
 (
@@ -19890,9 +20075,11 @@ n
 "
             
 "
-return
-false
-;
+%
+(
+exceptionCode
+)
+s
 \
 n
 "
@@ -19970,6 +20157,19 @@ handleInvalidEnumValueCode
 "
 :
 handleInvalidEnumValueCode
+               
+"
+exceptionCode
+"
+:
+CGIndenter
+(
+exceptionCodeIndented
+)
+.
+define
+(
+)
 }
 )
         
@@ -20754,9 +20954,8 @@ n
 "
                     
 "
-return
-false
-;
+%
+s
 \
 n
 "
@@ -20768,6 +20967,11 @@ n
 (
 selfRef
 val
+exceptionCodeIndented
+.
+define
+(
+)
 )
 )
         
@@ -21029,9 +21233,8 @@ n
 "
             
 "
-return
-false
-;
+%
+s
 \
 n
 "
@@ -21046,6 +21249,12 @@ mutableType
 typeName
 conversionBehavior
 dataLoc
+                   
+exceptionCodeIndented
+.
+define
+(
+)
 )
 )
     
@@ -21106,9 +21315,8 @@ n
 "
             
 "
-return
-false
-;
+%
+s
 \
 n
 "
@@ -21121,6 +21329,12 @@ n
 typeName
 conversionBehavior
 dataLoc
+                   
+exceptionCodeIndented
+.
+define
+(
+)
 )
 )
         
