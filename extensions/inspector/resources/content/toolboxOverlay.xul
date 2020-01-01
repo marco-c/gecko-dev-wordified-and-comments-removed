@@ -560,6 +560,15 @@ btnInspect
 label
 ;
 "
+accesskey
+=
+"
+&
+btnInspect
+.
+accesskey
+;
+"
 observes
 =
 "

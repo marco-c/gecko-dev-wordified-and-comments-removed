@@ -462,7 +462,7 @@ cmdFindNext
 .
 accesskey
 "
-n
+N
 "
 >
 <
@@ -563,6 +563,16 @@ label
 Blink
 Selected
 Element
+"
+>
+<
+!
+ENTITY
+cmdFlashSelected
+.
+accesskey
+"
+S
 "
 >
 <

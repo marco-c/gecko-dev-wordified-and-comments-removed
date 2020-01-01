@@ -494,6 +494,15 @@ cmdToggleBrowser
 label
 ;
 "
+accesskey
+=
+"
+&
+cmdToggleBrowser
+.
+accesskey
+;
+"
 observes
 =
 "
