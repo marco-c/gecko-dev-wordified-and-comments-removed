@@ -480,14 +480,6 @@ FORCE_STATIC_LIB
 =
 1
 #
-Force
-use
-of
-PIC
-FORCE_USE_PIC
-=
-1
-#
 We
 do
 want

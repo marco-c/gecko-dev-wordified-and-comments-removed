@@ -477,14 +477,6 @@ USE_STATIC_LIBS
 =
 1
 #
-Force
-use
-of
-PIC
-FORCE_USE_PIC
-=
-1
-#
 Don
 '
 t

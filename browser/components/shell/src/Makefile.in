@@ -420,9 +420,6 @@ shellservice
 FORCE_STATIC_LIB
 =
 1
-FORCE_USE_PIC
-=
-1
 ifndef
 MOZ_MEMORY
 USE_STATIC_LIBS

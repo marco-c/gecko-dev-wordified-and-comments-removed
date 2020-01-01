@@ -968,9 +968,6 @@ MOZ_GTK2_LIBS
 (
 MOZ_GTHREAD_LIBS
 )
-FORCE_USE_PIC
-=
-1
 endif
 ifeq
 (
@@ -1048,9 +1045,6 @@ MOZ_GTK2_LIBS
 (
 MOZ_GTHREAD_LIBS
 )
-FORCE_USE_PIC
-=
-1
 endif
 include
 (

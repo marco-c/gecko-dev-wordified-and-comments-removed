@@ -535,9 +535,6 @@ linking
 CPP_PROG_LINK
 =
 1
-FORCE_USE_PIC
-=
-1
 #
 XXX
 :
