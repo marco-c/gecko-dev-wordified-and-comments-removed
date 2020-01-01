@@ -727,6 +727,10 @@ EXPORTS_mozilla
 layers
 =
 \
+CompositorCocoaWidgetHelper
+.
+h
+\
 CompositorChild
 .
 h
@@ -757,6 +761,10 @@ NULL
 CPPSRCS
 +
 =
+\
+CompositorCocoaWidgetHelper
+.
+cpp
 \
 CompositorChild
 .
