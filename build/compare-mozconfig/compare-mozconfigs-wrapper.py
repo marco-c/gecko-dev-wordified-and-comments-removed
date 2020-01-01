@@ -1,3 +1,7 @@
+from
+__future__
+import
+unicode_literals
 import
 subprocess
 import
@@ -10,6 +14,16 @@ from
 buildconfig
 import
 substs
+import
+logging
+log
+=
+logging
+.
+getLogger
+(
+__name__
+)
 def
 determine_platform
 (
@@ -33,7 +47,7 @@ win64
 '
                                   
 '
-i386
+i686
 '
 :
 '
@@ -81,7 +95,7 @@ linux64
 '
                                   
 '
-i386
+i686
 '
 :
 '
@@ -292,6 +306,19 @@ nightly
 '
 )
         
+log
+.
+info
+(
+"
+Comparing
+beta
+against
+nightly
+mozconfigs
+"
+)
+        
 ret_code
 =
 subprocess
@@ -337,11 +364,20 @@ ret_code
 0
 :
             
-sys
-.
-exit
-(
+return
 ret_code
+        
+log
+.
+info
+(
+"
+Comparing
+release
+against
+nightly
+mozconfigs
+"
 )
         
 ret_code
@@ -381,4 +417,24 @@ release_mozconfig_path
 +
 nightly_mozconfig_path
 ]
+)
+        
+return
+ret_code
+if
+__name__
+=
+=
+'
+__main__
+'
+:
+    
+sys
+.
+exit
+(
+main
+(
+)
 )
