@@ -1472,6 +1472,10 @@ test_bug586786
 .
 html
 \
+test_bug646157
+.
+html
+\
 test_bug649134
 .
 html
@@ -1493,10 +1497,6 @@ test_bug660663
 html
 \
 test_bug664299
-.
-html
-\
-test_bug666200
 .
 html
 \
