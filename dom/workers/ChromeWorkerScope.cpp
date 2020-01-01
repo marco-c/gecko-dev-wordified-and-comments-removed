@@ -230,11 +230,8 @@ aGlobal
 "
 ctypes
 "
+&
 ctypes
-.
-address
-(
-)
 )
 )
 {
