@@ -866,6 +866,10 @@ browser_gcli_commands
 .
 js
 \
+browser_gcli_helpers
+.
+js
+\
 browser_gcli_inspect
 .
 js
