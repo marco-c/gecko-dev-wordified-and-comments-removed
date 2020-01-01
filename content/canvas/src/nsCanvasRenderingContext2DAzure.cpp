@@ -17656,6 +17656,12 @@ w
 *
 4
 ;
+RefPtr
+<
+DataSourceSurface
+>
+readback
+;
 if
 (
 !
@@ -17679,10 +17685,6 @@ Snapshot
 (
 )
 ;
-RefPtr
-<
-DataSourceSurface
->
 readback
 =
 snapshot
