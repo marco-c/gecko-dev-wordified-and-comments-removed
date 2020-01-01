@@ -126,16 +126,6 @@ JSSpecializedNative
 JSSpecializedNative
 ;
 #
-if
-JS_HAS_XML_SUPPORT
-typedef
-struct
-JSXML
-JSXML
-;
-#
-endif
-#
 ifdef
 __cplusplus
 extern
