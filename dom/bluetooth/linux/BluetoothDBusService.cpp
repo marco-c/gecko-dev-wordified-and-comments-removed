@@ -11686,15 +11686,9 @@ return
 hfp
 -
 >
-GetConnectionStatus
+IsConnected
 (
 )
-=
-=
-SocketConnectionStatus
-:
-:
-SOCKET_CONNECTED
 )
 ;
 }
