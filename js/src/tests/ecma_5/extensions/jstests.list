@@ -271,6 +271,14 @@ decompilation
 .
 js
 script
+toLocaleString
+-
+infinite
+-
+recursion
+.
+js
+script
 toSource
 -
 infinite

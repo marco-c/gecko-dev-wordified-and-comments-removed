@@ -1034,3 +1034,7 @@ script
 propertyIsEnumerable
 .
 js
+script
+toLocaleString
+.
+js
