@@ -35,6 +35,13 @@ UnixSocket
 .
 h
 "
+#
+include
+"
+DeviceStorage
+.
+h
+"
 class
 nsIOutputStream
 ;
@@ -440,6 +447,12 @@ nsRefPtr
 BluetoothReplyRunnable
 >
 mRunnable
+;
+nsRefPtr
+<
+DeviceStorageFile
+>
+mDsFile
 ;
 }
 ;
