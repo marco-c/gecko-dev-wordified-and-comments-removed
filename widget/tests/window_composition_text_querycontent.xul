@@ -894,15 +894,6 @@ var
 textareaInFrame
 ;
 const
-nsIDOMWindowUtils
-=
-Components
-.
-interfaces
-.
-nsIDOMWindowUtils
-;
-const
 nsIDOMNSEditableElement
 =
 Components
@@ -1705,8 +1696,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -1782,8 +1771,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -1858,8 +1845,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_SELECTEDCONVERTEDTEXT
 }
 ]
@@ -2029,8 +2014,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -2213,8 +2196,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -2290,8 +2271,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -2371,8 +2350,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -2447,8 +2424,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_SELECTEDCONVERTEDTEXT
 }
 ]
@@ -2915,8 +2890,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -2992,8 +2965,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -3073,8 +3044,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -3158,8 +3127,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -3238,8 +3205,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_SELECTEDCONVERTEDTEXT
 }
 ]
@@ -4756,8 +4721,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -4916,8 +4879,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -5205,8 +5166,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -5476,8 +5435,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -5762,8 +5719,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -6067,8 +6022,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -6199,8 +6152,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -6335,8 +6286,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -6472,8 +6421,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -6615,8 +6562,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -6764,8 +6709,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -6919,8 +6862,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -7071,8 +7012,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_SELECTEDCONVERTEDTEXT
 }
 {
@@ -7085,8 +7024,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_CONVERTEDTEXT
 }
 ]
@@ -7144,7 +7081,7 @@ runCompositionTest
 !
 checkSelection
 (
-6
+4
 "
 "
 "
@@ -7209,8 +7146,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_CONVERTEDTEXT
 }
 {
@@ -7223,8 +7158,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_SELECTEDCONVERTEDTEXT
 }
 ]
@@ -7380,8 +7313,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_SELECTEDCONVERTEDTEXT
 }
 {
@@ -7394,8 +7325,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_CONVERTEDTEXT
 }
 ]
@@ -7457,7 +7386,7 @@ runCompositionTest
 !
 checkSelection
 (
-8
+5
 "
 "
 "
@@ -7857,8 +7786,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -7990,8 +7917,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -8127,8 +8052,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -8270,8 +8193,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -8635,8 +8556,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -8889,8 +8808,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -10280,8 +10197,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -11508,8 +11423,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -12071,8 +11984,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -13056,8 +12967,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -13854,8 +13763,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -14660,8 +14567,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -18024,8 +17929,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -18515,8 +18418,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -18921,8 +18822,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -19292,8 +19191,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -19708,8 +19605,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -20135,8 +20030,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -20573,8 +20466,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -21021,8 +20912,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -21472,8 +21361,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -21976,8 +21863,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -22779,8 +22664,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -23576,8 +23459,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -23703,8 +23584,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_SELECTEDCONVERTEDTEXT
 }
 ]
@@ -23826,8 +23705,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_SELECTEDCONVERTEDTEXT
 }
 ]
@@ -24437,8 +24314,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -24557,8 +24432,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -24683,8 +24556,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -24815,8 +24686,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -24943,8 +24812,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -25075,8 +24942,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -25208,8 +25073,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -25347,8 +25210,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -25492,8 +25353,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -25643,8 +25502,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
@@ -25791,8 +25648,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_SELECTEDCONVERTEDTEXT
 }
 {
@@ -25805,8 +25660,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_CONVERTEDTEXT
 }
 ]
@@ -25862,7 +25715,7 @@ kDesc
 !
 checkSelection
 (
-6
+4
 "
 "
 kDesc
@@ -25938,7 +25791,7 @@ caret
 start
 "
 :
-8
+6
 "
 length
 "
@@ -26080,8 +25933,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]

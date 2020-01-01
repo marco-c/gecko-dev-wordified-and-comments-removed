@@ -1135,15 +1135,6 @@ empty
 /
 IME
 events
-const
-nsIDOMWindowUtils
-=
-Components
-.
-interfaces
-.
-nsIDOMWindowUtils
-;
 clear
 (
 )
@@ -1231,8 +1222,6 @@ length
 attr
 "
 :
-nsIDOMWindowUtils
-.
 COMPOSITION_ATTR_RAWINPUT
 }
 ]
