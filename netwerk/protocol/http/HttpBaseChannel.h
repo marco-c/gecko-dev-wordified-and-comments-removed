@@ -945,6 +945,11 @@ DoNotifyListenerCleanup
 =
 0
 ;
+void
+ReleaseListeners
+(
+)
+;
 nsresult
 ApplyContentConversions
 (
