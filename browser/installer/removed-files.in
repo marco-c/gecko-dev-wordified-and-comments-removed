@@ -4787,6 +4787,17 @@ components
 xpcom_obsolete
 .
 xpt
+updater
+.
+app
+/
+Contents
+/
+MacOS
+/
+updater
+.
+ini
 init
 .
 d
