@@ -224,6 +224,10 @@ WinMouseScrollHandler
 .
 cpp
 \
+WinIMEHandler
+.
+cpp
+\
 (
 NULL
 )
