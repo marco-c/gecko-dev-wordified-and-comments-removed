@@ -143,6 +143,11 @@ CallNative
 \
 _
 (
+CallConstructor
+)
+\
+_
+(
 ApplyArgsGeneric
 )
 \
