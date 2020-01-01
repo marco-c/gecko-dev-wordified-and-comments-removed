@@ -167,11 +167,6 @@ js
 (
 NULL
 )
-GENERATED_DIRS_libs
-=
-(
-FINAL_TARGET
-)
 include
 (
 topsrcdir
@@ -203,6 +198,13 @@ endif
 libs
 :
 :
+(
+call
+mkdir_deps
+(
+FINAL_TARGET
+)
+)
 (
 PYTHON
 )
