@@ -28263,7 +28263,7 @@ JSFunction
 :
 :
 FinalizeKind
-GenericObject
+TenuredObject
 )
 )
 ;
