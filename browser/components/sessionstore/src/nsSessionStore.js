@@ -11138,6 +11138,17 @@ file
 "
 )
 {
+if
+(
+node
+.
+value
+=
+=
+value
+)
+continue
+;
 node
 .
 value
