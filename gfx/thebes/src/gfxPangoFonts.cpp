@@ -4277,6 +4277,8 @@ leftSpacePango
 +
 rightSpacePango
 +
+NS_lround
+(
 glyphData
 -
 >
@@ -4284,7 +4286,8 @@ GetSimpleAdvance
 (
 )
 *
-PANGO_SCALE
+appUnitsToPango
+)
 ;
 glyphInfo
 -
@@ -4399,7 +4402,7 @@ details
 >
 mAdvance
 *
-PANGO_SCALE
+appUnitsToPango
 )
 ;
 glyphInfo
@@ -4416,7 +4419,7 @@ details
 >
 mXOffset
 *
-PANGO_SCALE
+appUnitsToPango
 )
 ;
 if
@@ -4463,7 +4466,7 @@ details
 >
 mYOffset
 *
-PANGO_SCALE
+appUnitsToPango
 )
 ;
 if
