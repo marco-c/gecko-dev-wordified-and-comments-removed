@@ -67,6 +67,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+StaticPtr
+.
+h
+"
+#
+include
 <
 android
 /
@@ -106,7 +115,7 @@ namespace
 system
 {
 static
-RefPtr
+StaticRefPtr
 <
 VolumeManager
 >
