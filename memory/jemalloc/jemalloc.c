@@ -980,13 +980,13 @@ addr
 size_t
 length
 ;
-int
+long
 prot
 ;
-int
+long
 flags
 ;
-int
+long
 fd
 ;
 off_t
