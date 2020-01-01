@@ -157,10 +157,10 @@ DeviceManagerD3D9
 class
 IDirect3DDevice9
 ;
-class
+struct
 ID3D11Device
 ;
-class
+struct
 IDXGIAdapter1
 ;
 class

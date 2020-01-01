@@ -62,7 +62,14 @@ public
 static
 DXVA2Manager
 *
-Create
+CreateD3D9DXVA
+(
+)
+;
+static
+DXVA2Manager
+*
+CreateD3D11DXVA
 (
 )
 ;
