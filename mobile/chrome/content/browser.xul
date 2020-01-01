@@ -635,7 +635,7 @@ MOZ_PLATFORM_HILDON
 sizemode
 =
 "
-maximized
+fullscreen
 "
 #
 else
