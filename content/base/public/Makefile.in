@@ -619,10 +619,6 @@ nsIDOMFileException
 .
 idl
 \
-nsIDOMFileError
-.
-idl
-\
 nsIDOMFormData
 .
 idl
