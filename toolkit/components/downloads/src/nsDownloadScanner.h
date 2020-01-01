@@ -134,13 +134,11 @@ download
 AVCheckPolicyState
 CheckPolicy
 (
-const
-nsACString
-&
+nsIURI
+*
 aSource
-const
-nsACString
-&
+nsIURI
+*
 aTarget
 )
 ;
@@ -269,6 +267,9 @@ mOrigin
 ;
 PRBool
 mIsHttpDownload
+;
+PRBool
+mSkipSource
 ;
 PRBool
 mIsReadOnlyRequest
