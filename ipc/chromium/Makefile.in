@@ -433,6 +433,13 @@ wchar
 OS_CXXFLAGS
 )
 )
+OS_CXXFLAGS
++
+=
+-
+fno
+-
+inline
 LIBRARY_NAME
 =
 chromium_s
