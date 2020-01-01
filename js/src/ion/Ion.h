@@ -562,6 +562,9 @@ typeInferenceEnabled
 void
 ForbidCompilation
 (
+JSContext
+*
+cx
 JSScript
 *
 script

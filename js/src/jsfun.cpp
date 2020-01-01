@@ -673,6 +673,7 @@ ion
 :
 ForbidCompilation
 (
+cx
 script
 )
 ;

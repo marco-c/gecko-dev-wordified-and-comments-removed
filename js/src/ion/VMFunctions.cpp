@@ -212,15 +212,9 @@ InvokeFunction
 "
 )
 ;
-Invalidate
-(
-cx
-script
-false
-)
-;
 ForbidCompilation
 (
+cx
 script
 )
 ;
