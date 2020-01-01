@@ -1,4 +1,10 @@
 #
+ifndef
+PCOMContentPermissionRequestChild_h
+#
+define
+PCOMContentPermissionRequestChild_h
+#
 include
 "
 mozilla
@@ -36,3 +42,5 @@ IPDLRelease
 ;
 }
 ;
+#
+endif
