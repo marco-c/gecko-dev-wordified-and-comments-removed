@@ -837,6 +837,10 @@ mAllocBytes
 (
 0
 )
+mTextureHost
+(
+nullptr
+)
 {
 static
 bool
@@ -877,10 +881,6 @@ registered
 true
 ;
 }
-mTextureHost
-=
-nullptr
-;
 }
 GrallocBufferActor
 :
