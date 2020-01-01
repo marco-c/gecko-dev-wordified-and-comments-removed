@@ -479,6 +479,10 @@ test_popup_preventdefault
 .
 xul
 \
+test_radio
+.
+xul
+\
 test_tooltip
 .
 xul
@@ -518,6 +522,10 @@ xul
 test_timepicker
 .
 xul
+\
+xul_selectcontrol
+.
+js
 \
 (
 NULL
