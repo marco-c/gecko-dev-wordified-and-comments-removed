@@ -1139,14 +1139,6 @@ function
 #
 ifdef
 XP_WIN
-if
-(
-!
-gMultiProcessBrowser
-)
-return
-null
-;
 const
 WINTASKBAR_CONTRACTID
 =
@@ -6344,6 +6336,12 @@ true
 ;
 if
 (
+!
+gMultiProcessBrowser
+)
+{
+if
+(
 Win7Features
 )
 Win7Features
@@ -6352,6 +6350,7 @@ onOpenWindow
 (
 )
 ;
+}
 window
 .
 addEventListener
