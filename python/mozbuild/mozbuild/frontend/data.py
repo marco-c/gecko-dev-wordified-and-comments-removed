@@ -173,6 +173,14 @@ relativedir
 '
         
 '
+sandbox_all_paths
+'
+        
+'
+sandbox_path
+'
+        
+'
 srcdir
 '
         
@@ -193,6 +201,22 @@ self
 sandbox
 )
 :
+        
+self
+.
+sandbox_main_path
+=
+sandbox
+.
+main_path
+        
+self
+.
+sandbox_all_paths
+=
+sandbox
+.
+all_paths
         
 self
 .

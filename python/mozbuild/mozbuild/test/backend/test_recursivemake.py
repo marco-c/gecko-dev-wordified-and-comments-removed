@@ -89,6 +89,37 @@ stub0
 '
 RecursiveMakeBackend
 )
+        
+self
+.
+assertTrue
+(
+os
+.
+path
+.
+exists
+(
+os
+.
+path
+.
+join
+(
+env
+.
+topobjdir
+            
+'
+backend
+.
+RecursiveMakeBackend
+.
+built
+'
+)
+)
+)
     
 def
 test_output_files
@@ -480,7 +511,7 @@ readlines
 1
 :
 -
-1
+2
 ]
 ]
         
