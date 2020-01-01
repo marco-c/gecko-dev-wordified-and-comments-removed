@@ -209,8 +209,6 @@ xbl
 inherits
 =
 "
-onfocus
-onblur
 value
 maxlength
 disabled

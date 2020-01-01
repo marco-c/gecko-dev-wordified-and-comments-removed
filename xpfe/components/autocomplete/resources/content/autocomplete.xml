@@ -310,8 +310,6 @@ inherits
 tooltiptext
 =
 inputtooltiptext
-onfocus
-onblur
 value
 type
 maxlength

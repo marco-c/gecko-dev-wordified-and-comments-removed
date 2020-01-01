@@ -241,8 +241,6 @@ xbl
 inherits
 =
 "
-onfocus
-onblur
 value
 type
 maxlength
@@ -2639,8 +2637,6 @@ xbl
 inherits
 =
 "
-onfocus
-onblur
 value
 type
 maxlength
@@ -3616,8 +3612,6 @@ xbl
 inherits
 =
 "
-onfocus
-onblur
 xbl
 :
 text
