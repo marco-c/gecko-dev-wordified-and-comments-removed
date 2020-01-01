@@ -7242,6 +7242,9 @@ if
 IsHTML
 (
 )
+|
+|
+mDisableDocWrite
 )
 {
 return
@@ -8289,6 +8292,9 @@ if
 IsHTML
 (
 )
+|
+|
+mDisableDocWrite
 )
 {
 return
