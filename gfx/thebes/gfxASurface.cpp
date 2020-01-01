@@ -103,12 +103,6 @@ endif
 #
 ifdef
 CAIRO_HAS_QT_SURFACE
-&
-&
-defined
-(
-MOZ_WIDGET_QT
-)
 #
 include
 "
@@ -560,12 +554,6 @@ endif
 #
 ifdef
 CAIRO_HAS_QT_SURFACE
-&
-&
-defined
-(
-MOZ_WIDGET_QT
-)
 else
 if
 (
