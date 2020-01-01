@@ -487,6 +487,10 @@ nsBuiltinDecoderReader
 .
 cpp
 \
+VideoUtils
+.
+cpp
+\
 (
 NULL
 )
