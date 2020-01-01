@@ -1710,7 +1710,7 @@ i
 ;
 }
 void
-replaceEdge
+replaceSuccessor
 (
 size_t
 i
