@@ -333,7 +333,7 @@ ifndef
 AVMPLUS_ALIGN16
 #
 ifdef
-_MSC_VER
+AVMPLUS_WIN32
 #
 define
 AVMPLUS_ALIGN16
@@ -1295,6 +1295,16 @@ pending_lives
 )
 ;
 void
+asm_jov
+(
+LInsp
+ins
+InsList
+&
+pending_lives
+)
+;
+void
 asm_x
 (
 LInsp
@@ -1589,8 +1599,9 @@ NIns
 targ
 )
 ;
-void
-asm_branch_xov
+NIns
+*
+asm_branch_ov
 (
 LOpcode
 op
