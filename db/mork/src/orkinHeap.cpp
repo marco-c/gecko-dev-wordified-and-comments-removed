@@ -46,6 +46,13 @@ h
 "
 #
 endif
+#
+include
+<
+stdlib
+.
+h
+>
 orkinHeap
 :
 :
@@ -147,10 +154,7 @@ void
 *
 block
 =
-:
-:
-operator
-new
+malloc
 (
 inSize
 )
@@ -490,10 +494,7 @@ underflow
 }
 #
 endif
-:
-:
-operator
-delete
+free
 (
 inBlock
 )
