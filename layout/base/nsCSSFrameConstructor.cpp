@@ -13984,14 +13984,9 @@ const
 FrameConstructionData
 sCanvasData
 =
-FCDATA_WITH_WRAPPING_BLOCK
+SIMPLE_FCDATA
 (
-0
 NS_NewHTMLCanvasFrame
-nsCSSAnonBoxes
-:
-:
-htmlCanvasContent
 )
 ;
 return

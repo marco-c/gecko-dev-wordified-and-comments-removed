@@ -523,10 +523,6 @@ test_focus_browserui
 .
 xul
 \
-test_focus_canvas
-.
-html
-\
 test_focus_contextmenu
 .
 xul
