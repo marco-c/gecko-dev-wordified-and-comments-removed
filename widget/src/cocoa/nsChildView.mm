@@ -10039,6 +10039,10 @@ length
 =
 0
 ;
+mIgnoreDoCommand
+=
+NO
+;
 mLastMenuForEventEvent
 =
 nil
