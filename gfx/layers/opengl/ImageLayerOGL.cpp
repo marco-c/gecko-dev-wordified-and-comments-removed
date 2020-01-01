@@ -3479,16 +3479,6 @@ GetTextureID
 (
 )
 ;
-if
-(
-mSize
-!
-=
-aData
-.
-mSize
-)
-{
 gl
 -
 >
@@ -3513,7 +3503,6 @@ aData
 .
 mSize
 ;
-}
 if
 (
 !
