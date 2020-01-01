@@ -606,18 +606,6 @@ s
         
 return
 result
-.
-decode
-(
-'
-UTF
--
-8
-'
-'
-ignore
-'
-)
 class
 LoggingManager
 (

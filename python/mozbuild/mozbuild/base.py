@@ -15,6 +15,8 @@ parser
 import
 shlex
 import
+sys
+import
 subprocess
 import
 which
@@ -1835,6 +1837,27 @@ handleLine
 line
 )
 :
+            
+if
+isinstance
+(
+line
+bytes
+)
+:
+                
+line
+=
+line
+.
+decode
+(
+sys
+.
+stdout
+.
+encoding
+)
             
 if
 line_handler
