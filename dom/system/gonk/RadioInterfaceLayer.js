@@ -8246,6 +8246,16 @@ fullBody
 |
 null
 ;
+message
+.
+timestamp
+=
+Date
+.
+now
+(
+)
+;
 let
 mwi
 =
