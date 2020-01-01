@@ -646,7 +646,7 @@ recent
 history
 dialog
 (
-santize
+sanitize
 .
 xul
 )
@@ -696,6 +696,10 @@ bug
 )
 _BROWSER_FILES
 =
+\
+head
+.
+js
 \
 browser_typeAheadFind
 .
