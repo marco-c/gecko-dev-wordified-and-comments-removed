@@ -841,7 +841,7 @@ bool
 TabChild
 :
 :
-RecvdestroyWidget
+destroyWidget
 (
 )
 {
@@ -879,6 +879,10 @@ TabChild
 (
 )
 {
+destroyWidget
+(
+)
+;
 nsCOMPtr
 <
 nsIWebBrowser

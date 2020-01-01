@@ -547,10 +547,6 @@ MagicWindowHandle
 parentWidget
 )
 ;
-destroyWidget
-(
-)
-;
 loadURL
 (
 nsCString
