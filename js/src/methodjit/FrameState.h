@@ -435,7 +435,7 @@ fe
 )
 ;
 RegisterID
-copyDataIntoReg
+copyData
 (
 FrameEntry
 *
@@ -554,6 +554,11 @@ newStackDepth
 ;
 void
 forgetEverything
+(
+)
+;
+void
+throwaway
 (
 )
 ;
@@ -762,7 +767,7 @@ reg
 )
 ;
 RegisterID
-evictSomeReg
+evictSomething
 (
 uint32
 mask
@@ -834,7 +839,7 @@ slot
 ;
 inline
 void
-forgetAllRegs
+forgetRegs
 (
 FrameEntry
 *
@@ -935,12 +940,12 @@ newFe
 ;
 }
 RegisterID
-evictSomeReg
+evictSomething
 (
 )
 {
 return
-evictSomeReg
+evictSomething
 (
 Registers
 :
