@@ -1281,7 +1281,7 @@ nsRect
 ToReferenceFrame
 (
 )
-GetUnderlyingFrame
+Frame
 (
 )
 -

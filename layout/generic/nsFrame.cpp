@@ -7989,7 +7989,7 @@ childFrame
 item
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 ;
@@ -8944,7 +8944,7 @@ f
 item
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 ;
@@ -9313,7 +9313,7 @@ GetAbove
 item
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 !
@@ -10530,7 +10530,7 @@ aBuilder
 item
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 child

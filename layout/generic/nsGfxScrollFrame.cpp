@@ -8962,7 +8962,7 @@ aItem
 aItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 mScrolledFrame

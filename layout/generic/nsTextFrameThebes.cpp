@@ -21372,7 +21372,7 @@ nsTextFrame
 aItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 )

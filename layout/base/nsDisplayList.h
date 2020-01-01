@@ -2319,7 +2319,7 @@ aOutFrames
 inline
 nsIFrame
 *
-GetUnderlyingFrame
+Frame
 (
 )
 const
@@ -2351,7 +2351,7 @@ nsRect
 ToReferenceFrame
 (
 )
-GetUnderlyingFrame
+Frame
 (
 )
 -
@@ -2381,7 +2381,7 @@ nsRect
 ToReferenceFrame
 (
 )
-GetUnderlyingFrame
+Frame
 (
 )
 -
@@ -2398,7 +2398,7 @@ GetPaddingRect
 )
 {
 return
-GetUnderlyingFrame
+Frame
 (
 )
 -
@@ -2418,7 +2418,7 @@ GetContentRect
 )
 {
 return
-GetUnderlyingFrame
+Frame
 (
 )
 -
@@ -2628,7 +2628,7 @@ aGeometry
 mHasRoundedCorners
 |
 |
-GetUnderlyingFrame
+Frame
 (
 )
 -
@@ -5983,7 +5983,7 @@ nsRect
 ToReferenceFrame
 (
 )
-GetUnderlyingFrame
+Frame
 (
 )
 -
@@ -9263,7 +9263,7 @@ r
 =
 aItem
 .
-GetUnderlyingFrame
+Frame
 (
 )
 -

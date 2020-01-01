@@ -177,7 +177,7 @@ nsIFrame
 *
 f
 =
-GetUnderlyingFrame
+Frame
 (
 )
 ;
@@ -251,7 +251,7 @@ nsHTMLCanvasFrame
 *
 >
 (
-GetUnderlyingFrame
+Frame
 (
 )
 )

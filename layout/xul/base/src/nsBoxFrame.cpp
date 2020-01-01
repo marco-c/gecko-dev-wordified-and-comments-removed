@@ -8702,7 +8702,7 @@ aBuilder
 aItem
 -
 >
-GetUnderlyingFrame
+Frame
 (
 )
 aItem
