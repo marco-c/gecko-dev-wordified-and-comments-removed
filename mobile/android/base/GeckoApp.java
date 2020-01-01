@@ -15606,7 +15606,7 @@ sGeckoThread
 )
 ;
 }
-private
+public
 static
 void
 assertOnThread
