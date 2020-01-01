@@ -87,9 +87,9 @@ ins
 )
 ;
 bool
-visitGuardShape
+visitGuardShapeOrType
 (
-MGuardShape
+MGuardShapeOrType
 *
 ins
 )

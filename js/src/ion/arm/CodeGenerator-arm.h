@@ -759,9 +759,9 @@ load
 )
 ;
 bool
-visitGuardShape
+visitGuardShapeOrType
 (
-LGuardShape
+LGuardShapeOrType
 *
 guard
 )

@@ -236,14 +236,6 @@ rhs
 )
 ;
 bool
-lowerTruncateDToInt32
-(
-MTruncateToInt32
-*
-ins
-)
-;
-bool
 lowerConstantDouble
 (
 double
@@ -393,9 +385,9 @@ phi
 )
 ;
 bool
-visitGuardShape
+visitGuardShapeOrType
 (
-MGuardShape
+MGuardShapeOrType
 *
 ins
 )

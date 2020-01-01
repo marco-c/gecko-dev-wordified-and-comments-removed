@@ -171,9 +171,9 @@ bool
 LIRGeneratorX86Shared
 :
 :
-visitGuardShape
+visitGuardShapeOrType
 (
-MGuardShape
+MGuardShapeOrType
 *
 ins
 )
@@ -196,12 +196,12 @@ type
 MIRType_Object
 )
 ;
-LGuardShape
+LGuardShapeOrType
 *
 guard
 =
 new
-LGuardShape
+LGuardShapeOrType
 (
 useRegister
 (

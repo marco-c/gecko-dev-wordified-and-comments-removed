@@ -685,7 +685,7 @@ output
 }
 ;
 class
-LGuardShape
+LGuardShapeOrType
 :
 public
 LInstructionHelper
@@ -699,9 +699,9 @@ public
 :
 LIR_HEADER
 (
-GuardShape
+GuardShapeOrType
 )
-LGuardShape
+LGuardShapeOrType
 (
 const
 LAllocation
@@ -717,7 +717,7 @@ in
 ;
 }
 const
-MGuardShape
+MGuardShapeOrType
 *
 mir
 (
@@ -728,7 +728,7 @@ return
 mir_
 -
 >
-toGuardShape
+toGuardShapeOrType
 (
 )
 ;

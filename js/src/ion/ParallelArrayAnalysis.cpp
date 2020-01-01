@@ -877,7 +877,7 @@ BindNameCache
 )
 SAFE_OP
 (
-GuardShape
+GuardShapeOrType
 )
 SAFE_OP
 (
