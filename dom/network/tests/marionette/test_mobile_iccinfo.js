@@ -42,6 +42,16 @@ connection
 .
 iccInfo
 .
+iccid
+89014103211118510720
+)
+;
+is
+(
+connection
+.
+iccInfo
+.
 mcc
 310
 )
