@@ -94,10 +94,6 @@ test_badManifestMagic
 .
 html
 \
-test_badManifestMime
-.
-html
-\
 test_bypass
 .
 html
@@ -433,10 +429,6 @@ headers
 updatingManifest
 .
 sjs
-\
-simpleManifest
-.
-notmanifest
 \
 changing1Sec
 .
