@@ -244,13 +244,11 @@ CleanUpAfterNativeAppModalDialog
 ;
 static
 nsresult
-CreateCGImageFromImageContainer
+CreateCGImageFromSurface
 (
-imgIContainer
+gfxImageSurface
 *
-aImage
-PRUint32
-aWhichFrame
+aFrame
 CGImageRef
 *
 aResult
