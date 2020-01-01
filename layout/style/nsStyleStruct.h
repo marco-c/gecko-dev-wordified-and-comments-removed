@@ -5977,6 +5977,9 @@ PRUint8
 mFillRule
 ;
 PRUint8
+mImageRendering
+;
+PRUint8
 mPointerEvents
 ;
 PRUint8

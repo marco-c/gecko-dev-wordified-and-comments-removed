@@ -1819,6 +1819,15 @@ aValue
 )
 ;
 nsresult
+GetImageRendering
+(
+nsIDOMCSSValue
+*
+*
+aValue
+)
+;
+nsresult
 GetPointerEvents
 (
 nsIDOMCSSValue

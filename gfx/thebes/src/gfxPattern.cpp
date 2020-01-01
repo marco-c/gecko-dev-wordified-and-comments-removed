@@ -484,7 +484,7 @@ gfxPattern
 :
 SetFilter
 (
-int
+GraphicsFilter
 filter
 )
 {
@@ -498,7 +498,10 @@ filter
 )
 ;
 }
-int
+gfxPattern
+:
+:
+GraphicsFilter
 gfxPattern
 :
 :
@@ -509,7 +512,7 @@ const
 {
 return
 (
-int
+GraphicsFilter
 )
 cairo_pattern_get_filter
 (
