@@ -9307,6 +9307,7 @@ xml
 "
 )
 ;
+var
 docElem
 =
 doc
@@ -9730,6 +9731,7 @@ Ci
 nsIFileOutputStream
 )
 ;
+var
 doc
 =
 this
