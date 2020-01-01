@@ -2688,7 +2688,7 @@ panel
 addEventListener
 (
 "
-popuphiding
+popuphidden
 "
 function
 onpopuphiding
@@ -2700,7 +2700,7 @@ panel
 removeEventListener
 (
 "
-popuphiding
+popuphidden
 "
 onpopuphiding
 )
@@ -2715,6 +2715,14 @@ removeAttribute
 open
 "
 )
+;
+notificationFrame
+.
+docShell
+.
+isActive
+=
+false
 ;
 dispatchPanelEvent
 (
@@ -2761,6 +2769,14 @@ open
 true
 "
 )
+;
+notificationFrame
+.
+docShell
+.
+isActive
+=
+true
 ;
 notificationFrame
 .
