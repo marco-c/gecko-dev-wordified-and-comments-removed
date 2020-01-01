@@ -2922,9 +2922,9 @@ RegisterID
 left
 Imm32
 right
-Label
+DataLabel32
 &
-clabel
+dataLabel
 )
 {
 m_assembler
@@ -2937,10 +2937,11 @@ m_value
 left
 )
 ;
-clabel
+dataLabel
 =
-label
+DataLabel32
 (
+this
 )
 ;
 return

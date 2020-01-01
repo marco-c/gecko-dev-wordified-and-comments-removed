@@ -145,7 +145,7 @@ load
 JSC
 :
 :
-CodeLocationDataLabelPtr
+CodeLocationDataLabel32
 shape
 ;
 JSC
