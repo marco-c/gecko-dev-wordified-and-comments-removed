@@ -1129,9 +1129,6 @@ opacity
 :
 0
 ;
--
-moz
--
 transition
 -
 property
@@ -1139,9 +1136,6 @@ property
 height
 opacity
 ;
--
-moz
--
 transition
 -
 duration
@@ -1166,9 +1160,6 @@ height
 :
 52px
 ;
--
-moz
--
 transition
 -
 property
@@ -1176,9 +1167,6 @@ property
 height
 opacity
 ;
--
-moz
--
 transition
 -
 duration
@@ -3266,9 +3254,6 @@ opacity
 :
 0
 ;
--
-moz
--
 transition
 -
 property
@@ -3276,9 +3261,6 @@ property
 height
 opacity
 ;
--
-moz
--
 transition
 -
 duration
@@ -3307,9 +3289,6 @@ opacity
 :
 1
 ;
--
-moz
--
 transition
 -
 property
@@ -3317,9 +3296,6 @@ property
 height
 opacity
 ;
--
-moz
--
 transition
 -
 duration
@@ -4207,18 +4183,12 @@ opacity
 :
 1
 ;
--
-moz
--
 transition
 -
 property
 :
 opacity
 ;
--
-moz
--
 transition
 -
 duration
@@ -4893,9 +4863,6 @@ hsl
 %
 )
 ;
--
-moz
--
 transition
 :
 background
@@ -4922,6 +4889,7 @@ shadow
 ease
 -
 in
+;
 }
 #
 detail
