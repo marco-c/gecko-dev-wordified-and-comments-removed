@@ -4528,16 +4528,6 @@ offset
 return
 NS_ERROR_INVALID_ARG
 ;
-EWordMovementType
-wordMovementType
-=
-eDefaultBehavior
-;
-bool
-moveForwardThenBack
-=
-true
-;
 switch
 (
 aBoundaryType
