@@ -13251,11 +13251,17 @@ MStoreSlot
 New
 (
 slots
+baseObj
+-
+>
+dynamicSlotIndex
+(
 shape
 -
 >
 slot
 (
+)
 )
 value
 )
