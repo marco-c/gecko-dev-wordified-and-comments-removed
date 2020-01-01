@@ -146,6 +146,9 @@ mCheckMalware
 PRBool
 mCheckPhishing
 ;
+PRBool
+mInUpdate
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
