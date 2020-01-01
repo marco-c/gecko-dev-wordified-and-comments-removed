@@ -951,6 +951,10 @@ file_drawImage_document_domain
 .
 html
 \
+test_windingRuleUndefined
+.
+html
+\
 (
 NULL
 )
