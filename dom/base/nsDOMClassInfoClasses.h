@@ -1201,6 +1201,12 @@ DOMCI_CLASS
 (
 CSSFontFaceStyleDecl
 )
+#
+if
+defined
+(
+MOZ_MEDIA
+)
 DOMCI_CLASS
 (
 HTMLVideoElement
@@ -1217,6 +1223,8 @@ DOMCI_CLASS
 (
 HTMLAudioElement
 )
+#
+endif
 DOMCI_CLASS
 (
 ProgressEvent
