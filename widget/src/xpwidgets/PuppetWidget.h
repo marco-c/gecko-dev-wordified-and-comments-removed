@@ -42,6 +42,10 @@ nsBaseWidget
 public
 nsSupportsWeakReference
 {
+typedef
+nsBaseWidget
+Base
+;
 static
 const
 size_t
@@ -129,6 +133,11 @@ PRBool
 aForceUseIWidgetParent
 =
 PR_FALSE
+)
+;
+NS_IMETHOD
+Destroy
+(
 )
 ;
 NS_IMETHOD
