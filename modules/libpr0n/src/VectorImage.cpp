@@ -1952,6 +1952,13 @@ GetRootLayoutFrame
 (
 )
 {
+if
+(
+mError
+)
+return
+nsnull
+;
 return
 mSVGDocumentWrapper
 -
@@ -2304,6 +2311,13 @@ PRUint32
 aCount
 )
 {
+if
+(
+mError
+)
+return
+NS_ERROR_FAILURE
+;
 return
 mSVGDocumentWrapper
 -
