@@ -15,7 +15,7 @@ h
 #
 include
 "
-MediaDecoderStateMachine
+MediaOmxStateMachine
 .
 h
 "
@@ -61,7 +61,7 @@ CreateStateMachine
 {
 return
 new
-MediaDecoderStateMachine
+MediaOmxStateMachine
 (
 this
 new
