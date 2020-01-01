@@ -529,6 +529,7 @@ filter
 WINNT
 Darwin
 Linux
+OS2
 (
 OS_ARCH
 )
