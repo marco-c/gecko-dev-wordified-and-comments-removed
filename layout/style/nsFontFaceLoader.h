@@ -113,7 +113,7 @@ Destroy
 nsresult
 StartLoad
 (
-gfxFontEntry
+gfxProxyFontEntry
 *
 aFontToLoad
 const
@@ -230,7 +230,7 @@ public
 :
 nsFontFaceLoader
 (
-gfxFontEntry
+gfxProxyFontEntry
 *
 aFontToLoad
 nsIURI
@@ -311,7 +311,7 @@ private
 :
 nsRefPtr
 <
-gfxFontEntry
+gfxProxyFontEntry
 >
 mFontEntry
 ;

@@ -585,9 +585,9 @@ virtual
 nsresult
 StartLoad
 (
-gfxFontEntry
+gfxProxyFontEntry
 *
-aFontToLoad
+aProxy
 const
 gfxFontFaceSrc
 *
@@ -599,9 +599,9 @@ aFontFaceSrc
 PRBool
 OnLoadComplete
 (
-gfxFontEntry
+gfxProxyFontEntry
 *
-aFontToLoad
+aProxy
 const
 PRUint8
 *
