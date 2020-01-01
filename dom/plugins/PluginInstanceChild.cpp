@@ -2094,7 +2094,7 @@ AssertPluginThread
 if
 defined
 (
-OS_LINUX
+MOZ_X11
 )
 &
 &
