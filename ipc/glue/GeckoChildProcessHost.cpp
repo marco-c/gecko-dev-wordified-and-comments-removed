@@ -263,12 +263,6 @@ mChildProcessHandle
 if
 defined
 (
-OS_POSIX
-)
-&
-&
-defined
-(
 NS_BUILD_REFCNT_LOGGING
 )
 false
