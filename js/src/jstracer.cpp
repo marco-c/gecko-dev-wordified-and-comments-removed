@@ -74378,7 +74378,7 @@ vp
 2
 ]
 .
-isObject
+isObjectOrNull
 (
 )
 )
