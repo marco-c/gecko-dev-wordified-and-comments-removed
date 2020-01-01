@@ -5556,7 +5556,7 @@ runtime
 JSValueType
 type
 =
-JSVAL_TYPE_UNINITIALIZED
+JSVAL_TYPE_BOXED
 ;
 Assembler
 :
@@ -5701,7 +5701,7 @@ if
 type
 !
 =
-JSVAL_TYPE_UNINITIALIZED
+JSVAL_TYPE_BOXED
 )
 {
 PC
