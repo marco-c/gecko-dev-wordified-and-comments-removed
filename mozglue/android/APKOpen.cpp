@@ -2297,6 +2297,11 @@ scheduleResumeComposition
 jint
 jint
 )
+SHELL_WRAPPER0_WITH_RETURN
+(
+computeRenderIntegrity
+jfloat
+)
 SHELL_WRAPPER3_WITH_RETURN
 (
 saveMessageInSentbox
@@ -4790,6 +4795,11 @@ schedulePauseComposition
 GETFUNC
 (
 scheduleResumeComposition
+)
+;
+GETFUNC
+(
+computeRenderIntegrity
 )
 ;
 GETFUNC

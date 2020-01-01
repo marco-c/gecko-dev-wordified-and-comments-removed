@@ -1646,6 +1646,14 @@ height
 public
 static
 native
+float
+computeRenderIntegrity
+(
+)
+;
+public
+static
+native
 SurfaceBits
 getSurfaceBits
 (
