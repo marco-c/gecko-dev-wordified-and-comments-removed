@@ -7506,7 +7506,7 @@ JSBrokenFrameIterator
 js_free
 (
 (
-StackIter
+ScriptFrameIter
 :
 :
 Data
@@ -7530,7 +7530,7 @@ iter
 (
 *
 (
-StackIter
+ScriptFrameIter
 :
 :
 Data
@@ -7558,7 +7558,7 @@ operator
 (
 )
 {
-StackIter
+ScriptFrameIter
 :
 :
 Data
@@ -7566,7 +7566,7 @@ Data
 data
 =
 (
-StackIter
+ScriptFrameIter
 :
 :
 Data
@@ -7611,7 +7611,7 @@ iter
 (
 *
 (
-StackIter
+ScriptFrameIter
 :
 :
 Data
@@ -7646,7 +7646,7 @@ iter
 (
 *
 (
-StackIter
+ScriptFrameIter
 :
 :
 Data
@@ -7677,7 +7677,7 @@ iter
 (
 *
 (
-StackIter
+ScriptFrameIter
 :
 :
 Data

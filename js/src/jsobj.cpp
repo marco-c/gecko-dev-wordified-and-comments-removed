@@ -27198,7 +27198,7 @@ ScriptFrameIter
 i
 (
 cx
-StackIter
+ScriptFrameIter
 :
 :
 GO_THROUGH_SAVED
@@ -27798,7 +27798,7 @@ depth
 ;
 for
 (
-StackIter
+ScriptFrameIter
 i
 (
 cx

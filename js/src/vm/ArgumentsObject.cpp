@@ -813,15 +813,15 @@ data
 #
 endif
 struct
-CopyStackIterArgs
+CopyScriptFrameIterArgs
 {
-StackIter
+ScriptFrameIter
 &
 iter_
 ;
-CopyStackIterArgs
+CopyScriptFrameIterArgs
 (
-StackIter
+ScriptFrameIter
 &
 iter
 )
@@ -1508,7 +1508,7 @@ createUnexpected
 JSContext
 *
 cx
-StackIter
+ScriptFrameIter
 &
 iter
 )
@@ -1535,7 +1535,7 @@ callee
 )
 )
 ;
-CopyStackIterArgs
+CopyScriptFrameIterArgs
 copy
 (
 iter

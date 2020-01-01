@@ -5388,7 +5388,7 @@ seg
 (
 )
 ;
-StackIter
+ScriptFrameIter
 iter
 (
 cx
@@ -6502,7 +6502,7 @@ popSegment
 ;
 }
 void
-StackIter
+ScriptFrameIter
 :
 :
 poisonRegs
@@ -6521,7 +6521,7 @@ jsbytecode
 ;
 }
 void
-StackIter
+ScriptFrameIter
 :
 :
 popFrame
@@ -6610,7 +6610,7 @@ poisonRegs
 }
 }
 void
-StackIter
+ScriptFrameIter
 :
 :
 settleOnNewSegment
@@ -6648,7 +6648,7 @@ poisonRegs
 ;
 }
 void
-StackIter
+ScriptFrameIter
 :
 :
 startOnSegment
@@ -6700,7 +6700,7 @@ off
 #
 endif
 void
-StackIter
+ScriptFrameIter
 :
 :
 settleOnNewState
@@ -6832,7 +6832,7 @@ data_
 fp_
 )
 {
-StackIter
+ScriptFrameIter
 tmp
 =
 *
@@ -7096,7 +7096,7 @@ on
 )
 #
 endif
-StackIter
+ScriptFrameIter
 :
 :
 Data
@@ -7145,7 +7145,7 @@ NULL
 endif
 {
 }
-StackIter
+ScriptFrameIter
 :
 :
 Data
@@ -7199,7 +7199,7 @@ NULL
 endif
 {
 }
-StackIter
+ScriptFrameIter
 :
 :
 Data
@@ -7208,7 +7208,7 @@ Data
 Data
 (
 const
-StackIter
+ScriptFrameIter
 :
 :
 Data
@@ -7277,10 +7277,10 @@ ionFrames_
 endif
 {
 }
-StackIter
+ScriptFrameIter
 :
 :
-StackIter
+ScriptFrameIter
 (
 JSContext
 *
@@ -7394,10 +7394,10 @@ DONE
 ;
 }
 }
-StackIter
+ScriptFrameIter
 :
 :
-StackIter
+ScriptFrameIter
 (
 JSRuntime
 *
@@ -7488,13 +7488,13 @@ settleOnNewState
 )
 ;
 }
-StackIter
+ScriptFrameIter
 :
 :
-StackIter
+ScriptFrameIter
 (
 const
-StackIter
+ScriptFrameIter
 &
 other
 )
@@ -7539,10 +7539,10 @@ NULL
 endif
 {
 }
-StackIter
+ScriptFrameIter
 :
 :
-StackIter
+ScriptFrameIter
 (
 const
 Data
@@ -7592,7 +7592,7 @@ cx_
 ifdef
 JS_ION
 void
-StackIter
+ScriptFrameIter
 :
 :
 nextIonFrame
@@ -7660,7 +7660,7 @@ pc_
 }
 }
 void
-StackIter
+ScriptFrameIter
 :
 :
 popIonFrame
@@ -7893,7 +7893,7 @@ ionActivations_
 }
 }
 void
-StackIter
+ScriptFrameIter
 :
 :
 popBaselineDebuggerFrame
@@ -7964,9 +7964,9 @@ popIonFrame
 }
 #
 endif
-StackIter
+ScriptFrameIter
 &
-StackIter
+ScriptFrameIter
 :
 :
 operator
@@ -8071,7 +8071,7 @@ this
 ;
 }
 bool
-StackIter
+ScriptFrameIter
 :
 :
 operator
@@ -8079,7 +8079,7 @@ operator
 =
 (
 const
-StackIter
+ScriptFrameIter
 &
 rhs
 )
@@ -8117,12 +8117,12 @@ fp_
 )
 ;
 }
-StackIter
+ScriptFrameIter
 :
 :
 Data
 *
-StackIter
+ScriptFrameIter
 :
 :
 copyData
@@ -8169,7 +8169,7 @@ data_
 }
 JSCompartment
 *
-StackIter
+ScriptFrameIter
 :
 :
 compartment
@@ -8242,7 +8242,7 @@ NULL
 ;
 }
 bool
-StackIter
+ScriptFrameIter
 :
 :
 isFunctionFrame
@@ -8338,7 +8338,7 @@ false
 ;
 }
 bool
-StackIter
+ScriptFrameIter
 :
 :
 isGlobalFrame
@@ -8445,7 +8445,7 @@ false
 ;
 }
 bool
-StackIter
+ScriptFrameIter
 :
 :
 isEvalFrame
@@ -8544,7 +8544,7 @@ false
 ;
 }
 bool
-StackIter
+ScriptFrameIter
 :
 :
 isNonEvalFunctionFrame
@@ -8613,7 +8613,7 @@ false
 ;
 }
 bool
-StackIter
+ScriptFrameIter
 :
 :
 isGeneratorFrame
@@ -8666,7 +8666,7 @@ false
 ;
 }
 bool
-StackIter
+ScriptFrameIter
 :
 :
 isConstructing
@@ -8762,7 +8762,7 @@ false
 ;
 }
 AbstractFramePtr
-StackIter
+ScriptFrameIter
 :
 :
 abstractFramePtr
@@ -8845,7 +8845,7 @@ NullFramePtr
 ;
 }
 void
-StackIter
+ScriptFrameIter
 :
 :
 updatePcQuadratic
@@ -9054,7 +9054,7 @@ state
 }
 JSFunction
 *
-StackIter
+ScriptFrameIter
 :
 :
 callee
@@ -9158,7 +9158,7 @@ NULL
 ;
 }
 Value
-StackIter
+ScriptFrameIter
 :
 :
 calleev
@@ -9235,7 +9235,7 @@ Value
 ;
 }
 unsigned
-StackIter
+ScriptFrameIter
 :
 :
 numActualArgs
@@ -9338,7 +9338,7 @@ return
 ;
 }
 Value
-StackIter
+ScriptFrameIter
 :
 :
 unaliasedActual
@@ -9433,7 +9433,7 @@ NullValue
 }
 JSObject
 *
-StackIter
+ScriptFrameIter
 :
 :
 scopeChain
@@ -9524,7 +9524,7 @@ NULL
 }
 CallObject
 &
-StackIter
+ScriptFrameIter
 :
 :
 callObj
@@ -9581,7 +9581,7 @@ asCall
 ;
 }
 bool
-StackIter
+ScriptFrameIter
 :
 :
 hasArgsObj
@@ -9666,7 +9666,7 @@ false
 }
 ArgumentsObject
 &
-StackIter
+ScriptFrameIter
 :
 :
 argsObj
@@ -9764,7 +9764,7 @@ argsObj
 ;
 }
 bool
-StackIter
+ScriptFrameIter
 :
 :
 computeThis
@@ -9812,7 +9812,7 @@ true
 ;
 }
 Value
-StackIter
+ScriptFrameIter
 :
 :
 thisv
@@ -9908,7 +9908,7 @@ NullValue
 ;
 }
 Value
-StackIter
+ScriptFrameIter
 :
 :
 returnValue
@@ -9992,7 +9992,7 @@ NullValue
 ;
 }
 void
-StackIter
+ScriptFrameIter
 :
 :
 setReturnValue
@@ -10079,7 +10079,7 @@ state
 ;
 }
 size_t
-StackIter
+ScriptFrameIter
 :
 :
 numFrameSlots
@@ -10249,7 +10249,7 @@ return
 ;
 }
 Value
-StackIter
+ScriptFrameIter
 :
 :
 frameSlotValue
@@ -10934,7 +10934,7 @@ this
 +
 alliter
 ;
-StackIter
+ScriptFrameIter
 iter
 (
 rt

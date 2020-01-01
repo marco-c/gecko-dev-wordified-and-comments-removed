@@ -3077,7 +3077,7 @@ Op
 >
 inline
 void
-StackIter
+ScriptFrameIter
 :
 :
 ionForEachCanonicalActualArg

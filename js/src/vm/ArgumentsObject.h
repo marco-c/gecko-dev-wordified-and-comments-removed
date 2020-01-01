@@ -174,7 +174,7 @@ createUnexpected
 JSContext
 *
 cx
-StackIter
+ScriptFrameIter
 &
 iter
 )

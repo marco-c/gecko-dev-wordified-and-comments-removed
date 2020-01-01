@@ -8451,7 +8451,7 @@ true
 ;
 #
 endif
-StackIter
+ScriptFrameIter
 frameIter
 (
 cx
