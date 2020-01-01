@@ -3040,9 +3040,9 @@ jschar
 )
 GetErrorTypeName
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 int16_t
 exnType
 )

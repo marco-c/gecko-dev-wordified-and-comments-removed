@@ -4764,9 +4764,9 @@ js
 :
 GetErrorTypeName
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 int16_t
 exnType
 )
@@ -4807,7 +4807,7 @@ return
 ClassName
 (
 key
-cx
+rt
 )
 -
 >
