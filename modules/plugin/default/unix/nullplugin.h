@@ -292,7 +292,7 @@ typedef
 struct
 _PluginInstance
 {
-uint16
+uint16_t
 mode
 ;
 #
@@ -307,11 +307,11 @@ display
 ;
 #
 endif
-uint32
+uint32_t
 x
 y
 ;
-uint32
+uint32_t
 width
 height
 ;
