@@ -1332,7 +1332,6 @@ bindings
 .
 transfer
 (
-cx
 bindings
 )
 ;

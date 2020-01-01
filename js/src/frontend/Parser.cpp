@@ -712,13 +712,6 @@ NULL
 )
 bindings
 (
-tc
--
->
-sc
--
->
-context
 )
 level
 (
@@ -6202,13 +6195,6 @@ bindings
 .
 transfer
 (
-funtc
--
->
-sc
--
->
-context
 &
 funtc
 -

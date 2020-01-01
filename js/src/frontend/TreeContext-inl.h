@@ -96,7 +96,6 @@ scopeChain
 )
 bindings
 (
-cx
 )
 bindingsRoot
 (
