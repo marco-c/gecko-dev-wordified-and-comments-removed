@@ -3018,7 +3018,7 @@ mHeight
 )
 )
 return
-ErrorInvalidOperation
+ErrorInvalidValue
 (
 "
 CopyTexImage2D
@@ -3319,7 +3319,7 @@ mHeight
 )
 )
 return
-ErrorInvalidOperation
+ErrorInvalidValue
 (
 "
 CopyTexSubImage2D
@@ -5434,7 +5434,7 @@ byteOffset
 0
 )
 return
-ErrorInvalidValue
+ErrorInvalidOperation
 (
 "
 DrawElements
@@ -16620,7 +16620,7 @@ height
 0
 )
 return
-ErrorInvalidOperation
+ErrorInvalidValue
 (
 "
 Viewport
