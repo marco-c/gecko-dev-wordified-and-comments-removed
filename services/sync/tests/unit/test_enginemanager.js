@@ -17,6 +17,25 @@ js
 "
 )
 ;
+Cu
+.
+import
+(
+"
+resource
+:
+/
+/
+services
+-
+sync
+/
+service
+.
+js
+"
+)
+;
 function
 run_test
 (
@@ -36,9 +55,18 @@ slate
 )
 ;
 let
+manager
+=
+new
+EngineManager
+(
+Service
+)
+;
+let
 engines
 =
-Engines
+manager
 .
 getAll
 (
@@ -54,7 +82,7 @@ length
 ;
 do_check_eq
 (
-Engines
+manager
 .
 get
 (
@@ -90,7 +118,7 @@ name
 dummy
 "
 ;
-Engines
+manager
 .
 register
 (
@@ -100,7 +128,7 @@ DummyEngine
 let
 dummy
 =
-Engines
+manager
 .
 get
 (
@@ -118,7 +146,7 @@ DummyEngine
 ;
 engines
 =
-Engines
+manager
 .
 getAll
 (
@@ -154,7 +182,7 @@ ignored
 "
 )
 ;
-Engines
+manager
 .
 register
 (
@@ -163,7 +191,7 @@ DummyEngine
 ;
 do_check_eq
 (
-Engines
+manager
 .
 get
 (
@@ -218,7 +246,7 @@ name
 diesel
 "
 ;
-Engines
+manager
 .
 register
 (
@@ -231,7 +259,7 @@ DieselEngine
 let
 petrol
 =
-Engines
+manager
 .
 get
 (
@@ -243,7 +271,7 @@ petrol
 let
 diesel
 =
-Engines
+manager
 .
 get
 (
@@ -268,7 +296,7 @@ DieselEngine
 ;
 engines
 =
-Engines
+manager
 .
 getAll
 (
@@ -320,7 +348,7 @@ go
 ;
 engines
 =
-Engines
+manager
 .
 get
 (
@@ -381,7 +409,7 @@ engines
 ;
 engines
 =
-Engines
+manager
 .
 getEnabled
 (
@@ -403,7 +431,7 @@ true
 ;
 engines
 =
-Engines
+manager
 .
 getEnabled
 (
@@ -440,7 +468,7 @@ true
 ;
 engines
 =
-Engines
+manager
 .
 getEnabled
 (
@@ -465,7 +493,7 @@ name
 "
 )
 ;
-Engines
+manager
 .
 unregister
 (
@@ -476,7 +504,7 @@ dummy
 ;
 do_check_eq
 (
-Engines
+manager
 .
 get
 (
@@ -489,7 +517,7 @@ undefined
 ;
 engines
 =
-Engines
+manager
 .
 getAll
 (
@@ -549,7 +577,7 @@ actual
 '
 }
 ;
-Engines
+manager
 .
 register
 (
@@ -559,7 +587,7 @@ ActualEngine
 let
 actual
 =
-Engines
+manager
 .
 get
 (
@@ -582,7 +610,7 @@ instanceof
 Engine
 )
 ;
-Engines
+manager
 .
 unregister
 (
@@ -591,7 +619,7 @@ actual
 ;
 do_check_eq
 (
-Engines
+manager
 .
 get
 (

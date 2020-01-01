@@ -68,9 +68,7 @@ services
 -
 sync
 /
-engines
-/
-clients
+service
 .
 js
 "
@@ -198,6 +196,13 @@ Identity
 .
 syncKeyBundle
 ;
+let
+engine
+=
+Service
+.
+clientsEngine
+;
 try
 {
 _
@@ -215,7 +220,7 @@ ascii
 "
 )
 ;
-Clients
+engine
 .
 localID
 =
@@ -223,7 +228,7 @@ localID
 ascii
 "
 ;
-Clients
+engine
 .
 localName
 =
@@ -248,7 +253,7 @@ record
 let
 record
 =
-Clients
+engine
 .
 _createRecord
 (
@@ -467,7 +472,7 @@ same
 ;
 record
 =
-Clients
+engine
 .
 _createRecord
 (

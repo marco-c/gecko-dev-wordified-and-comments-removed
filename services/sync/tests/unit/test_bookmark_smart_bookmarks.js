@@ -185,7 +185,9 @@ null
 null
 )
 ;
-Engines
+Service
+.
+engineManager
 .
 register
 (
@@ -195,7 +197,9 @@ BookmarksEngine
 let
 engine
 =
-Engines
+Service
+.
+engineManager
 .
 get
 (

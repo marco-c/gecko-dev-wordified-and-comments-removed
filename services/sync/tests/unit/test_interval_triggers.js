@@ -96,6 +96,13 @@ Service
 .
 scheduler
 ;
+let
+clientsEngine
+=
+Service
+.
+clientsEngine
+;
 function
 sync_httpd_setup
 (
@@ -127,12 +134,12 @@ clients
 {
 version
 :
-Clients
+clientsEngine
 .
 version
 syncID
 :
-Clients
+clientsEngine
 .
 syncID
 }
@@ -752,7 +759,9 @@ idleInterval
 "
 )
 ;
-Clients
+Service
+.
+clientsEngine
 .
 _store
 .
@@ -1418,7 +1427,9 @@ idleInterval
 "
 )
 ;
-Clients
+Service
+.
+clientsEngine
 .
 _store
 .
@@ -1762,7 +1773,7 @@ scheduler
 idle
 )
 ;
-Clients
+clientsEngine
 .
 _store
 .
@@ -1848,7 +1859,7 @@ setDefaults
 (
 )
 ;
-Clients
+clientsEngine
 .
 resetClient
 (
@@ -2022,7 +2033,7 @@ scheduler
 singleDeviceInterval
 )
 ;
-Clients
+clientsEngine
 .
 _store
 .
@@ -2403,7 +2414,7 @@ singleDeviceInterval
 }
 )
 ;
-Clients
+clientsEngine
 .
 _store
 .
@@ -2462,7 +2473,7 @@ used
 "
 )
 ;
-Clients
+clientsEngine
 .
 _store
 .
@@ -2524,7 +2535,7 @@ scheduler
 activeInterval
 )
 ;
-Clients
+clientsEngine
 .
 _wipeClient
 (
@@ -2642,7 +2653,7 @@ scheduler
 singleDeviceInterval
 )
 ;
-Clients
+clientsEngine
 .
 _store
 .

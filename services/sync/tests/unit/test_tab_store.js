@@ -32,6 +32,25 @@ services
 -
 sync
 /
+service
+.
+js
+"
+)
+;
+Cu
+.
+import
+(
+"
+resource
+:
+/
+/
+services
+-
+sync
+/
 util
 .
 js
@@ -72,6 +91,7 @@ store
 new
 TabEngine
 (
+Service
 )
 .
 _store
@@ -208,6 +228,7 @@ store
 new
 TabEngine
 (
+Service
 )
 .
 _store
@@ -585,6 +606,7 @@ store
 new
 TabEngine
 (
+Service
 )
 .
 _store
@@ -754,6 +776,7 @@ store
 new
 TabEngine
 (
+Service
 )
 .
 _store

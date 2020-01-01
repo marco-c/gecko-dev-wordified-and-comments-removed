@@ -9,6 +9,25 @@ resource
 /
 services
 -
+common
+/
+observers
+.
+js
+"
+)
+;
+Cu
+.
+import
+(
+"
+resource
+:
+/
+/
+services
+-
 sync
 /
 engines
@@ -28,9 +47,9 @@ resource
 /
 services
 -
-common
+sync
 /
-observers
+service
 .
 js
 "
@@ -58,6 +77,7 @@ js
 function
 SteamStore
 (
+engine
 )
 {
 Store
@@ -68,6 +88,7 @@ this
 "
 Steam
 "
+engine
 )
 ;
 this
@@ -105,6 +126,7 @@ true
 function
 SteamTracker
 (
+engine
 )
 {
 Tracker
@@ -115,6 +137,7 @@ this
 "
 Steam
 "
+engine
 )
 ;
 }
@@ -143,6 +166,7 @@ this
 "
 Steam
 "
+Service
 )
 ;
 this
@@ -377,6 +401,7 @@ engine
 new
 SteamEngine
 (
+Service
 )
 ;
 do_check_eq
@@ -446,6 +471,7 @@ engine
 new
 SteamEngine
 (
+Service
 )
 ;
 do_check_eq
@@ -519,6 +545,7 @@ engine
 new
 SteamEngine
 (
+Service
 )
 ;
 do_check_false
@@ -623,6 +650,7 @@ engine
 new
 SteamEngine
 (
+Service
 )
 ;
 do_check_false
@@ -844,6 +872,7 @@ engine
 new
 SteamEngine
 (
+Service
 )
 ;
 try
@@ -924,6 +953,7 @@ engine
 new
 SteamEngine
 (
+Service
 )
 ;
 try

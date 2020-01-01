@@ -248,6 +248,7 @@ value
 function
 PrefsEngine
 (
+service
 )
 {
 SyncEngine
@@ -258,6 +259,7 @@ this
 "
 Prefs
 "
+service
 )
 ;
 }
@@ -385,6 +387,7 @@ function
 PrefStore
 (
 name
+engine
 )
 {
 Store
@@ -393,6 +396,7 @@ call
 (
 this
 name
+engine
 )
 ;
 Svc
@@ -1049,6 +1053,7 @@ function
 PrefTracker
 (
 name
+engine
 )
 {
 Tracker
@@ -1057,6 +1062,7 @@ call
 (
 this
 name
+engine
 )
 ;
 Svc
