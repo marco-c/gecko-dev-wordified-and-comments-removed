@@ -762,10 +762,6 @@ TCF_FUN_ENTRAINS_SCOPES
 0x400000
 #
 define
-TCF_FUN_USES_EVAL
-0x800000
-#
-define
 TCF_RETURN_FLAGS
 (
 TCF_RETURN_EXPR
@@ -792,9 +788,6 @@ TCF_FUN_IS_GENERATOR
 |
 \
 TCF_FUN_USES_OWN_NAME
-|
-\
-TCF_FUN_USES_EVAL
 |
 \
 TCF_HAS_SHARPS
@@ -873,10 +866,6 @@ JSFunctionBox
 *
 functionList
 ;
-JSParseNode
-*
-innermostWith
-;
 #
 ifdef
 JS_SCOPE_DEPTH_METER
@@ -954,10 +943,6 @@ funbox
 NULL
 )
 functionList
-(
-NULL
-)
-innermostWith
 (
 NULL
 )
