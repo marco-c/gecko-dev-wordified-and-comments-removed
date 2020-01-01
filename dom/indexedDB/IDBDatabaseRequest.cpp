@@ -319,8 +319,6 @@ object_store
 "
 id
 INTEGER
-NOT
-NULL
 "
 "
 name
@@ -402,8 +400,6 @@ object_data
 "
 id
 INTEGER
-NOT
-NULL
 "
 "
 object_store_id
@@ -508,8 +504,6 @@ ai_object_data
 "
 id
 INTEGER
-NOT
-NULL
 "
 "
 object_store_id
