@@ -313,8 +313,14 @@ do_load_child_test_harness
 sendCommand
 (
 "
-_dump
+_log
 (
+'
+child_test_start
+'
+{
+_message
+:
 '
 CHILD
 -
@@ -322,6 +328,7 @@ TEST
 -
 STARTED
 '
+}
 )
 ;
 "
