@@ -318,6 +318,12 @@ RRPChildWins
 ;
 }
 }
+#
+if
+defined
+(
+OS_LINUX
+)
 static
 string
 ReplaceAll
@@ -397,6 +403,8 @@ return
 munged
 ;
 }
+#
+endif
 string
 MungePluginDsoPath
 (
