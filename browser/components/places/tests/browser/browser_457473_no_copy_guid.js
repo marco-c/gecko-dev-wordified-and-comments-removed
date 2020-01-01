@@ -111,6 +111,8 @@ childCount
 1
 )
 ;
+PlacesUtils
+.
 asContainer
 (
 testRootNode
@@ -571,6 +573,8 @@ getGUIDs
 aNode
 )
 {
+PlacesUtils
+.
 asContainer
 (
 aNode
@@ -709,6 +713,8 @@ aGUID
 )
 ;
 }
+PlacesUtils
+.
 asContainer
 (
 aFolderNode

@@ -467,6 +467,8 @@ validate
 aNode
 )
 {
+PlacesUtils
+.
 asContainer
 (
 aNode
@@ -518,6 +520,8 @@ title
 "
 )
 ;
+PlacesUtils
+.
 asContainer
 (
 folderNode

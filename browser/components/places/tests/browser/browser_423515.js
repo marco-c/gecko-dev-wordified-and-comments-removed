@@ -975,7 +975,7 @@ match
 "
 )
 ;
-LOG
+dump
 (
 "
 can
@@ -983,6 +983,8 @@ move
 shortcut
 id
 ?
+\
+n
 "
 )
 ;
@@ -1008,7 +1010,7 @@ id
 "
 )
 ;
-LOG
+dump
 (
 "
 can
@@ -1016,6 +1018,8 @@ move
 shortcut
 node
 ?
+\
+n
 "
 )
 ;

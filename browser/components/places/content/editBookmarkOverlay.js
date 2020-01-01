@@ -2365,7 +2365,7 @@ this
 .
 _microsummaries
 =
-PlacesUIUtils
+PlacesUtils
 .
 microsummaries
 .
@@ -2459,7 +2459,7 @@ microsummary
 ;
 if
 (
-PlacesUIUtils
+PlacesUtils
 .
 microsummaries
 .
@@ -3802,7 +3802,7 @@ namePicker
 ;
 if
 (
-PlacesUIUtils
+PlacesUtils
 .
 microsummaries
 .
@@ -3869,7 +3869,7 @@ newMicrosummary
 null
 &
 &
-PlacesUIUtils
+PlacesUtils
 .
 microsummaries
 .
@@ -3890,7 +3890,7 @@ null
 &
 &
 !
-PlacesUIUtils
+PlacesUtils
 .
 microsummaries
 .
@@ -6321,6 +6321,8 @@ LOAD_IN_SIDEBAR_ANNO
 break
 ;
 case
+PlacesUtils
+.
 LMANNO_FEEDURI
 :
 var
@@ -6352,6 +6354,8 @@ feedURISpec
 break
 ;
 case
+PlacesUtils
+.
 LMANNO_SITEURI
 :
 var

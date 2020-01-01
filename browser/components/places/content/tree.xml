@@ -884,6 +884,8 @@ grouping
 var
 queryNode
 =
+PlacesUtils
+.
 asQuery
 (
 this
@@ -1672,6 +1674,8 @@ nested
 =
 findNode
 (
+PlacesUtils
+.
 asContainer
 (
 child
@@ -3336,6 +3340,8 @@ resultNode
 )
 &
 &
+PlacesUtils
+.
 asQuery
 (
 resultNode
@@ -4091,6 +4097,8 @@ null
 var
 queryOptions
 =
+PlacesUtils
+.
 asQuery
 (
 result
@@ -4698,6 +4706,8 @@ ids
 .
 indexOf
 (
+PlacesUtils
+.
 asQuery
 (
 node
@@ -4770,6 +4780,8 @@ uri
 return
 foundOne
 ;
+PlacesUtils
+.
 asContainer
 (
 node
