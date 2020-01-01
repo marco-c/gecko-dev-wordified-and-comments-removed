@@ -976,6 +976,16 @@ slot
 )
 ;
 }
+void
+MarkCalleeToken
+(
+JSTracer
+*
+trc
+CalleeToken
+token
+)
+;
 }
 }
 #
