@@ -1333,6 +1333,17 @@ gl
 GLContext
 GLContext
 ;
+LayerManagerOGL
+*
+OGLManager
+(
+)
+const
+{
+return
+mOGLManager
+;
+}
 GLContext
 *
 gl
