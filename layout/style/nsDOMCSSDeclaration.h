@@ -536,10 +536,6 @@ Loader
 *
 mCSSLoader
 ;
-nsIDocument
-*
-mDocument
-;
 }
 ;
 virtual
