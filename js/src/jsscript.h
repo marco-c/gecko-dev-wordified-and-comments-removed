@@ -1212,6 +1212,11 @@ compileAndGo
 1
 ;
 bool
+selfHosted
+:
+1
+;
+bool
 bindingsAccessedDynamically
 :
 1

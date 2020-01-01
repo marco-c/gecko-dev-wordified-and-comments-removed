@@ -8192,6 +8192,12 @@ JSContext
 cx
 )
 {
+if
+(
+selfHostingMode
+)
+return
+;
 js_CallNewScriptHook
 (
 cx
