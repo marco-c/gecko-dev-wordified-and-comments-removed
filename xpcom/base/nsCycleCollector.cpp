@@ -305,7 +305,7 @@ PR_FALSE
 endif
 mScanDelay
 (
-0
+10
 )
 {
 #
