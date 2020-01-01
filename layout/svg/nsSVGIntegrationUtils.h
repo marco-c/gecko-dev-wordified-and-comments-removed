@@ -206,6 +206,13 @@ nsIFrame
 aNonSVGFrame
 )
 ;
+enum
+{
+FLAG_SYNC_DECODE_IMAGES
+=
+0x01
+}
+;
 static
 void
 DrawPaintServer
@@ -244,6 +251,8 @@ const
 nsSize
 &
 aPaintServerSize
+uint32_t
+aFlags
 )
 ;
 }

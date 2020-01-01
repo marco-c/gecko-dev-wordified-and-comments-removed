@@ -22298,6 +22298,16 @@ TopLeft
 )
 aDirtyRect
 mSize
+mFlags
+&
+FLAG_SYNC_DECODE_IMAGES
+?
+nsSVGIntegrationUtils
+:
+:
+FLAG_SYNC_DECODE_IMAGES
+:
+0
 )
 ;
 }
