@@ -126,6 +126,9 @@ nsMenuObjectX
 *
 mMenuObject
 ;
+nsIntRect
+mImageRegionRect
+;
 PRPackedBool
 mLoadedIcon
 ;
