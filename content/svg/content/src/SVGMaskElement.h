@@ -7,6 +7,13 @@ mozilla_dom_SVGMaskElement_h
 #
 include
 "
+nsIDOMSVGUnitTypes
+.
+h
+"
+#
+include
+"
 nsSVGEnum
 .
 h
@@ -60,6 +67,8 @@ public
 SVGMaskElementBase
 public
 nsIDOMSVGElement
+public
+nsIDOMSVGUnitTypes
 {
 friend
 class

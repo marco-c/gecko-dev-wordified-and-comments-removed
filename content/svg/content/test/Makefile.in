@@ -374,6 +374,10 @@ test_SVGTransformListAddition
 .
 xhtml
 \
+test_SVGUnitTypes
+.
+html
+\
 test_SVGxxxList
 .
 xhtml
