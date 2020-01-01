@@ -2409,7 +2409,7 @@ int64_t
 ChunkPool
 :
 :
-countDecommittedArenas
+countCleanDecommittedArenas
 (
 JSRuntime
 *
