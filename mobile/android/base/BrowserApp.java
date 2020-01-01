@@ -7477,7 +7477,8 @@ enterEditingMode
 String
 url
 =
-null
+"
+"
 ;
 final
 Tab
