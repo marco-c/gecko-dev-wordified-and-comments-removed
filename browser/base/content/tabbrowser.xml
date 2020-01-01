@@ -22106,6 +22106,11 @@ true
 )
 return
 ;
+if
+(
+event
+)
+{
 let
 draggedTab
 =
@@ -22161,6 +22166,7 @@ draggedTab
 newIndex
 )
 ;
+}
 }
 for
 (
@@ -25564,6 +25570,14 @@ moveTabTo
 (
 newTab
 newIndex
+)
+;
+draggedTab
+.
+parentNode
+.
+_finishAnimateTabMove
+(
 )
 ;
 this
