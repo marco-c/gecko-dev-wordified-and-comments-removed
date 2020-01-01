@@ -2386,6 +2386,10 @@ break
 case
 eCSSUnit_Null
 :
+diffsquared
+=
+0
+;
 break
 ;
 default

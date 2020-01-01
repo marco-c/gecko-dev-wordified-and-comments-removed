@@ -6362,6 +6362,16 @@ defined
 (
 XP_UNIX
 )
+(
+void
+)
+window
+;
+(
+void
+)
+npprint
+;
 #
 elif
 defined

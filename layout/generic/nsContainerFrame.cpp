@@ -7513,6 +7513,11 @@ state
 016llx
 ]
 "
+(
+unsigned
+long
+long
+)
 mState
 )
 ;

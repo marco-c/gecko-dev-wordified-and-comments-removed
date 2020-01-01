@@ -22682,6 +22682,11 @@ state
 016llx
 ]
 "
+(
+unsigned
+long
+long
+)
 mState
 )
 ;
@@ -23989,6 +23994,11 @@ ld
 \
 n
 "
+(
+unsigned
+long
+long
+)
 GetDebugStateBits
 (
 )
