@@ -464,6 +464,14 @@ jsbytecode
 pc
 )
 ;
+MIRType
+expectedBinaryArithSpecialization
+(
+jsbytecode
+*
+pc
+)
+;
 }
 ;
 }

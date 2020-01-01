@@ -15472,6 +15472,8 @@ ins
 >
 infer
 (
+inspector
+pc
 overflowed
 )
 ;
