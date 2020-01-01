@@ -677,6 +677,11 @@ popup
 "
 )
 ;
+if
+(
+popup
+)
+{
 let
 self
 =
@@ -703,6 +708,7 @@ alltabsPopupShowing
 true
 )
 ;
+}
 if
 (
 Weave
@@ -1103,6 +1109,13 @@ alltabs
 popup
 "
 )
+;
+if
+(
+!
+popup
+)
+return
 ;
 let
 menuitem
