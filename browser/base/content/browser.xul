@@ -4023,6 +4023,16 @@ icon
 -
 label
 "
+crop
+=
+"
+center
+"
+flex
+=
+"
+1
+"
 /
 >
 <
