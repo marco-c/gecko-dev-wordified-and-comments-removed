@@ -60,6 +60,17 @@ xrender
 .
 h
 "
+#
+include
+"
+mozilla
+/
+gfx
+/
+BorrowedContext
+.
+h
+"
 using
 namespace
 mozilla

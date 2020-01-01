@@ -159,6 +159,11 @@ Blur
 h
 '
 '
+BorrowedContext
+.
+h
+'
+'
 Matrix
 .
 h

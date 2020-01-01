@@ -36,6 +36,13 @@ h
 #
 include
 "
+BorrowedContext
+.
+h
+"
+#
+include
+"
 cairo
 .
 h
