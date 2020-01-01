@@ -254,6 +254,15 @@ origin
 :
 inherit
 ;
+-
+moz
+-
+backface
+-
+visibility
+:
+inherit
+;
 }
 *
 |
