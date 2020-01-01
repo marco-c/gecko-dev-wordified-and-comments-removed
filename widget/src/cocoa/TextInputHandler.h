@@ -1927,7 +1927,7 @@ IMEInputHandler
 public
 :
 static
-PRBool
+NSUInteger
 sLastModifierState
 ;
 static

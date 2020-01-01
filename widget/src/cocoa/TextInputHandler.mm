@@ -5687,13 +5687,13 @@ methods
 *
 *
 /
-PRBool
+NSUInteger
 TextInputHandler
 :
 :
 sLastModifierState
 =
-PR_FALSE
+0
 ;
 /
 /
