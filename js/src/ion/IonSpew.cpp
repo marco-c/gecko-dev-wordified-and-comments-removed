@@ -367,7 +367,7 @@ fp
 ins
 -
 >
-printName
+printOpcode
 (
 fp
 )
