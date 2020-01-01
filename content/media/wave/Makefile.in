@@ -447,6 +447,10 @@ nsWaveDecoder
 .
 cpp
 \
+nsWaveReader
+.
+cpp
+\
 (
 NULL
 )
