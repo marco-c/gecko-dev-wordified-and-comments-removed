@@ -194,6 +194,10 @@ HTMLSpanElement
 .
 h
 \
+HTMLStyleElement
+.
+h
+\
 HTMLTableCaptionElement
 .
 h
@@ -436,7 +440,7 @@ HTMLSharedListElement
 .
 cpp
 \
-nsHTMLStyleElement
+HTMLStyleElement
 .
 cpp
 \
