@@ -501,7 +501,8 @@ shouldRemove
 if
 (
 mPersistence
->
+!
+=
 0
 )
 {
