@@ -76531,6 +76531,8 @@ mkdir
 -
 p
 _virtualenv
+MACOSX_DEPLOYMENT_TARGET
+=
 PYTHONDONTWRITEBYTECODE
 =
 PYTHON
@@ -76772,6 +76774,8 @@ C
 build
 /
 virtualenv
+MACOSX_DEPLOYMENT_TARGET
+=
 |
 |
 exit
