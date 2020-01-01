@@ -90,6 +90,15 @@ Pop
 (
 )
 ;
+static
+void
+MarkForLoopsWithIntegerIndicesForUnrolling
+(
+TIntermNode
+*
+root
+)
+;
 private
 :
 int

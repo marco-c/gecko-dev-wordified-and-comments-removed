@@ -137,6 +137,16 @@ root
 sink
 )
 ;
+getBuiltInFunctionEmulator
+(
+)
+.
+OutputEmulatedFunctionDefinition
+(
+sink
+false
+)
+;
 TOutputGLSL
 outputGLSL
 (

@@ -208,6 +208,7 @@ ShConstructCompiler
 (
 SH_FRAGMENT_SHADER
 SH_GLES2_SPEC
+SH_HLSL_OUTPUT
 &
 resources
 )
@@ -218,6 +219,7 @@ ShConstructCompiler
 (
 SH_VERTEX_SHADER
 SH_GLES2_SPEC
+SH_HLSL_OUTPUT
 &
 resources
 )

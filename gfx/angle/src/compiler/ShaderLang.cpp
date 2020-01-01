@@ -425,6 +425,13 @@ OES_standard_derivatives
 =
 0
 ;
+resources
+-
+>
+OES_EGL_image_external
+=
+0
+;
 }
 ShHandle
 ShConstructCompiler
@@ -433,6 +440,8 @@ ShShaderType
 type
 ShShaderSpec
 spec
+ShShaderOutput
+output
 const
 ShBuiltInResources
 *
@@ -463,6 +472,7 @@ ConstructCompiler
 (
 type
 spec
+output
 )
 )
 ;
