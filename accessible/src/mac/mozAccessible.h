@@ -40,6 +40,10 @@ NSMutableArray
 *
 mChildren
 ;
+mozAccessible
+*
+mParent
+;
 BOOL
 mIsExpired
 ;
@@ -182,6 +186,12 @@ mark
 void
 )
 invalidateChildren
+;
+-
+(
+void
+)
+invalidateParent
 ;
 -
 (
