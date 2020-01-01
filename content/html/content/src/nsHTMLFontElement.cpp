@@ -1025,6 +1025,8 @@ mPresContext
 -
 >
 UseDocumentColors
+(
+)
 )
 {
 const
