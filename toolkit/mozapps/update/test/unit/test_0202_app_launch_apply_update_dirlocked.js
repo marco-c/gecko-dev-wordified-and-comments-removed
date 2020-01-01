@@ -1062,16 +1062,6 @@ getLaunchScript
 (
 )
 ;
-if
-(
-IS_MACOSX
-)
-{
-getVersionScriptAndFile
-(
-)
-;
-}
 }
 cleanUp
 (
