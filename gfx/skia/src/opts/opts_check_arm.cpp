@@ -117,6 +117,12 @@ defined
 (
 SK_CPU_LENDIAN
 )
+|
+|
+defined
+(
+SK_BUILD_FOR_IOS
+)
 return
 NULL
 ;
@@ -165,6 +171,12 @@ if
 defined
 (
 SK_CPU_LENDIAN
+)
+|
+|
+defined
+(
+SK_BUILD_FOR_IOS
 )
 return
 NULL

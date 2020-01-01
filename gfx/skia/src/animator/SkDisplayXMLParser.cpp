@@ -1138,7 +1138,7 @@ result
 parent
 -
 >
-add
+addChild
 (
 fMaker
 displayable

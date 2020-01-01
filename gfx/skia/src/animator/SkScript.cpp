@@ -8939,9 +8939,6 @@ SkType_Int
 {
 if
 (
-(
-uint32_t
-)
 operand
 .
 fS32
@@ -9220,9 +9217,6 @@ scalar
 ;
 if
 (
-(
-uint32_t
-)
 s32
 =
 =

@@ -127,7 +127,7 @@ bool
 SkDisplayable
 :
 :
-add
+addChild
 (
 SkAnimateMaker
 &

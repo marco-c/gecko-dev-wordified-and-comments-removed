@@ -21,7 +21,7 @@ h
 #
 include
 "
-GrScalar
+SkScalar
 .
 h
 "
@@ -62,13 +62,16 @@ GrGLuint
 fMSColorRenderbufferID
 ;
 bool
-fOwnIDs
+fIsWrapped
 ;
 GrPixelConfig
 fConfig
 ;
 int
 fSampleCnt
+;
+GrSurfaceOrigin
+fOrigin
 ;
 }
 ;
@@ -169,7 +172,7 @@ fTexFBOID
 ;
 }
 virtual
-intptr_t
+GrBackendObject
 getRenderTargetHandle
 (
 )
@@ -185,7 +188,7 @@ renderFBOID
 ;
 }
 virtual
-intptr_t
+GrBackendObject
 getRenderTargetResolvedHandle
 (
 )
@@ -274,9 +277,6 @@ fTexFBOID
 ;
 GrGLuint
 fMSColorRenderbufferID
-;
-bool
-fOwnIDs
 ;
 GrGLIRect
 fViewport

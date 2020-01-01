@@ -558,11 +558,6 @@ shown
 =
 fShownLength
 ;
-int
-hideBar
-=
-0
-;
 if
 (
 total
@@ -584,10 +579,6 @@ total
 )
 {
 total
-=
-1
-;
-hideBar
 =
 1
 ;

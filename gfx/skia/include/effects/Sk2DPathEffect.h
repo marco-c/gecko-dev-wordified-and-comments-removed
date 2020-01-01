@@ -26,6 +26,7 @@ SkMatrix
 h
 "
 class
+SK_API
 Sk2DPathEffect
 :
 public
@@ -52,7 +53,11 @@ SkPath
 &
 SkStrokeRec
 *
+const
+SkRect
+*
 )
+const
 SK_OVERRIDE
 ;
 SK_DECLARE_PUBLIC_FLATTENABLE_DESERIALIZATION_PROCS
@@ -73,6 +78,7 @@ SkPath
 *
 dst
 )
+const
 ;
 virtual
 void
@@ -90,6 +96,7 @@ SkPath
 *
 dst
 )
+const
 ;
 virtual
 void
@@ -99,6 +106,7 @@ SkPath
 *
 dst
 )
+const
 ;
 virtual
 void
@@ -114,6 +122,7 @@ SkPath
 *
 dst
 )
+const
 ;
 const
 SkMatrix
@@ -180,6 +189,7 @@ INHERITED
 }
 ;
 class
+SK_API
 SkLine2DPathEffect
 :
 public
@@ -220,8 +230,11 @@ SkPath
 src
 SkStrokeRec
 *
-rec
+const
+SkRect
+*
 )
+const
 SK_OVERRIDE
 ;
 SK_DECLARE_PUBLIC_FLATTENABLE_DESERIALIZATION_PROCS
@@ -242,8 +255,8 @@ int
 ucount
 SkPath
 *
-dst
 )
+const
 SK_OVERRIDE
 ;
 SkLine2DPathEffect
@@ -274,6 +287,7 @@ INHERITED
 }
 ;
 class
+SK_API
 SkPath2DPathEffect
 :
 public
@@ -327,8 +341,8 @@ int
 v
 SkPath
 *
-dst
 )
+const
 SK_OVERRIDE
 ;
 private

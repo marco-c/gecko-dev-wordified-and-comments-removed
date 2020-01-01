@@ -22,6 +22,7 @@ class
 SkXfermode
 ;
 class
+SK_API
 SkPorterDuff
 {
 public
@@ -43,7 +44,7 @@ kDstATop_Mode
 kXor_Mode
 kDarken_Mode
 kLighten_Mode
-kMultiply_Mode
+kModulate_Mode
 kScreen_Mode
 kAdd_Mode
 #

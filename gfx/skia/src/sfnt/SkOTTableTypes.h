@@ -42,7 +42,7 @@ SK_OT_CHAR
 #
 endif
 typedef
-int16_t
+uint16_t
 SK_OT_SHORT
 ;
 typedef
@@ -54,7 +54,7 @@ uint32_t
 SK_OT_ULONG
 ;
 typedef
-int32_t
+uint32_t
 SK_OT_LONG
 ;
 typedef
@@ -62,7 +62,11 @@ int32_t
 SK_OT_Fixed
 ;
 typedef
-int16_t
+uint16_t
+SK_OT_F2DOT14
+;
+typedef
+uint16_t
 SK_OT_FWORD
 ;
 typedef

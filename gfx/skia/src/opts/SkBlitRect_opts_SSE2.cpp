@@ -490,11 +490,12 @@ SkGetPackedA32
 color
 )
 ;
+colorA
+=
+0
+;
 if
 (
-false
-&
-&
 255
 =
 =

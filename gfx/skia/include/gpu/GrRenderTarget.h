@@ -154,7 +154,7 @@ pixelOpsFlags
 SK_OVERRIDE
 ;
 virtual
-intptr_t
+GrBackendObject
 getRenderTargetHandle
 (
 )
@@ -163,7 +163,7 @@ const
 0
 ;
 virtual
-intptr_t
+GrBackendObject
 getRenderTargetResolvedHandle
 (
 )
@@ -304,6 +304,8 @@ GrRenderTarget
 GrGpu
 *
 gpu
+bool
+isWrapped
 GrTexture
 *
 texture
@@ -316,6 +318,7 @@ desc
 INHERITED
 (
 gpu
+isWrapped
 desc
 )
 fStencilBuffer

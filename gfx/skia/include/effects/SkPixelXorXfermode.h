@@ -12,6 +12,7 @@ SkXfermode
 h
 "
 class
+SK_API
 SkPixelXorXfermode
 :
 public
@@ -31,6 +32,9 @@ opColor
 )
 {
 }
+SK_DEVELOPER_TO_STRING
+(
+)
 SK_DECLARE_PUBLIC_FLATTENABLE_DESERIALIZATION_PROCS
 (
 SkPixelXorXfermode
@@ -63,6 +67,7 @@ src
 SkPMColor
 dst
 )
+const
 ;
 private
 :

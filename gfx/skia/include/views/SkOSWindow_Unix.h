@@ -139,6 +139,17 @@ kNone_BackEndType
 kNativeGL_BackEndType
 }
 ;
+struct
+AttachmentInfo
+{
+int
+fSampleCount
+;
+int
+fStencilBits
+;
+}
+;
 bool
 attach
 (
@@ -146,6 +157,8 @@ SkBackEndTypes
 attachType
 int
 msaaSampleCount
+AttachmentInfo
+*
 )
 ;
 void
@@ -248,6 +261,9 @@ initWindow
 (
 int
 newMSAASampleCount
+AttachmentInfo
+*
+info
 )
 ;
 SkUnixWindow

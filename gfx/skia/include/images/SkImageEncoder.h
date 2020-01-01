@@ -27,6 +27,7 @@ Type
 {
 kJPEG_Type
 kPNG_Type
+kWEBP_Type
 }
 ;
 static
@@ -61,6 +62,7 @@ file
 const
 SkBitmap
 &
+bm
 int
 quality
 )
@@ -70,9 +72,11 @@ encodeStream
 (
 SkWStream
 *
+stream
 const
 SkBitmap
 &
+bm
 int
 quality
 )
@@ -116,9 +120,11 @@ onEncode
 (
 SkWStream
 *
+stream
 const
 SkBitmap
 &
+bm
 int
 quality
 )
@@ -179,6 +185,11 @@ JPEGImageEncoder
 DECLARE_ENCODER_CREATOR
 (
 PNGImageEncoder
+)
+;
+DECLARE_ENCODER_CREATOR
+(
+WEBPImageEncoder
 )
 ;
 #

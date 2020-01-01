@@ -108,6 +108,9 @@ value
 union
 Version
 {
+SK_OT_USHORT
+version
+;
 struct
 VA
 :

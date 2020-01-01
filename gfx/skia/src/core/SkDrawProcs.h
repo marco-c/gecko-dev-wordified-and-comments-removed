@@ -50,6 +50,12 @@ fCache
 SkIRect
 fClipBounds
 ;
+SkFixed
+fHalfSampleX
+;
+SkFixed
+fHalfSampleY
+;
 typedef
 void
 (

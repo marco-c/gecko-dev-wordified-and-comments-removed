@@ -103,7 +103,11 @@ src
 SkStrokeRec
 *
 rec
+const
+SkRect
+*
 )
+const
 {
 bool
 doFill
@@ -441,7 +445,3 @@ readScalar
 )
 ;
 }
-SK_DEFINE_FLATTENABLE_REGISTRAR
-(
-SkDiscretePathEffect
-)

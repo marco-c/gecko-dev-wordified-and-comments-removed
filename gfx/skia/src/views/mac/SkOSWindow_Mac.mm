@@ -39,13 +39,6 @@ defined
 (
 SK_BUILD_FOR_MAC
 )
-&
-&
-!
-defined
-(
-SK_USE_WXWIDGETS
-)
 #
 import
 <
@@ -318,6 +311,8 @@ state
 void
 *
 owner
+unsigned
+modi
 )
 {
 return
@@ -333,6 +328,7 @@ x
 y
 state
 owner
+modi
 )
 ;
 }
@@ -419,6 +415,9 @@ SkBackEndTypes
 attachType
 int
 sampleCount
+AttachmentInfo
+*
+info
 )
 {
 return
@@ -434,6 +433,9 @@ attachType
 withMSAASampleCount
 :
 sampleCount
+andGetInfo
+:
+info
 ]
 ;
 }

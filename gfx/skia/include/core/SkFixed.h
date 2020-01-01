@@ -1051,7 +1051,7 @@ endif
 if
 defined
 (
-__arm__
+SK_CPU_ARM
 )
 &
 &

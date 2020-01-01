@@ -1022,6 +1022,9 @@ endif
 #
 ifdef
 SK_SCALAR_IS_FLOAT
+#
+ifdef
+SK_DEBUG
 static
 void
 sect_with_horizontal_test_for_pin_results
@@ -1092,6 +1095,8 @@ fX
 )
 ;
 }
+#
+endif
 #
 endif
 int

@@ -37,7 +37,10 @@ SkTArray
 h
 "
 class
-GrGLContextInfo
+GrGLContext
+;
+class
+SkMatrix
 ;
 class
 GrGLUniformManager
@@ -58,7 +61,7 @@ kInvalidUniformHandle
 GrGLUniformManager
 (
 const
-GrGLContextInfo
+GrGLContext
 &
 context
 )
@@ -251,6 +254,16 @@ matrices
 )
 const
 ;
+void
+setSkMatrix
+(
+UniformHandle
+const
+SkMatrix
+&
+)
+const
+;
 struct
 BuilderUniform
 {
@@ -315,7 +328,7 @@ true
 fUniforms
 ;
 const
-GrGLContextInfo
+GrGLContext
 &
 fContext
 ;

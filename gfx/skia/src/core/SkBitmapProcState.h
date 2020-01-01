@@ -458,6 +458,16 @@ SkPaint
 &
 )
 ;
+ShaderProc32
+chooseShaderProc32
+(
+)
+;
+bool
+setupForTranslate
+(
+)
+;
 #
 ifdef
 SK_DEBUG

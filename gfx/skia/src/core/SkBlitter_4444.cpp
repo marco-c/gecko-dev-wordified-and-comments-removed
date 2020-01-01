@@ -894,7 +894,7 @@ other
 =
 fPMColor16Other
 ;
-unsigned
+size_t
 rb
 =
 fDevice
@@ -2170,7 +2170,7 @@ srcColor
 =
 fPMColor16
 ;
-unsigned
+size_t
 devRB
 =
 fDevice

@@ -121,7 +121,7 @@ Lighten
 )
 MAKE_PAIR
 (
-Multiply
+Modulate
 )
 MAKE_PAIR
 (

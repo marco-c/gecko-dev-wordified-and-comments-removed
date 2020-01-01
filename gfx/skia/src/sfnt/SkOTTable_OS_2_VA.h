@@ -55,7 +55,7 @@ version
 static
 const
 SK_OT_USHORT
-version0
+VERSION
 =
 SkTEndian_SwapBE16
 (

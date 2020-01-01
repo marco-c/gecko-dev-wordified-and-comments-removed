@@ -160,19 +160,6 @@ unref
 ;
 }
 }
-void
-SkSurface_Base
-:
-:
-onCopyOnWrite
-(
-SkImage
-*
-SkCanvas
-*
-)
-{
-}
 SkCanvas
 *
 SkSurface_Base
@@ -553,9 +540,6 @@ SkImage
 Info
 &
 info
-SkColorSpace
-*
-cs
 )
 {
 return
@@ -568,7 +552,6 @@ this
 onNewSurface
 (
 info
-cs
 )
 ;
 }

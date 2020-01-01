@@ -11,13 +11,6 @@ GrRect
 .
 h
 "
-#
-include
-"
-GrTDArray
-.
-h
-"
 class
 GrRectanizerPurgeListener
 {

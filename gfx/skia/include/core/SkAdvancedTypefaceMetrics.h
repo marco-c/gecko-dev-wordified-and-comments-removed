@@ -93,15 +93,9 @@ kFixedPitch_Style
 kSerif_Style
 =
 0x00002
-kSymbolic_Style
-=
-0x00004
 kScript_Style
 =
 0x00008
-kNonsymbolic_Style
-=
-0x00020
 kItalic_Style
 =
 0x00040

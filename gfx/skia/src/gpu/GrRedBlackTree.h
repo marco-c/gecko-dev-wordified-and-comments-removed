@@ -5034,7 +5034,7 @@ endif
 #
 include
 "
-GrRandom
+SkRandom
 .
 h
 "
@@ -5073,7 +5073,7 @@ int
 Iter
 iter
 ;
-GrRandom
+SkMWCRandom
 r
 ;
 int
@@ -5113,9 +5113,12 @@ nextU
 %
 100
 ;
+SkDEBUGCODE
+(
 Iter
 xi
 =
+)
 tree
 .
 insert

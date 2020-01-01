@@ -360,7 +360,6 @@ dump
 (
 SkAnimateMaker
 *
-maker
 )
 {
 SkDebugf

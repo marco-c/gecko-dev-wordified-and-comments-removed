@@ -255,6 +255,9 @@ rec
 fNext
 ;
 }
+delete
+rec
+;
 }
 return
 ;

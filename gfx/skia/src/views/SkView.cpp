@@ -1708,6 +1708,8 @@ SkScalar
 x
 SkScalar
 y
+unsigned
+modi
 )
 {
 if
@@ -1747,6 +1749,7 @@ onSendClickToChildren
 (
 x
 y
+modi
 )
 )
 {
@@ -1812,6 +1815,7 @@ fX
 p
 .
 fY
+modi
 )
 ;
 if
@@ -1833,6 +1837,7 @@ onFindClickHandler
 (
 x
 y
+modi
 )
 ;
 }
@@ -1849,6 +1854,8 @@ int
 x
 int
 y
+unsigned
+modi
 )
 {
 SkASSERT
@@ -1967,6 +1974,13 @@ Click
 :
 kDown_State
 ;
+click
+-
+>
+fModifierKeys
+=
+modi
+;
 target
 -
 >
@@ -1989,6 +2003,8 @@ int
 x
 int
 y
+unsigned
+modi
 )
 {
 SkASSERT
@@ -2105,6 +2121,13 @@ Click
 :
 kMoved_State
 ;
+click
+-
+>
+fModifierKeys
+=
+modi
+;
 target
 -
 >
@@ -2127,6 +2150,8 @@ int
 x
 int
 y
+unsigned
+modi
 )
 {
 SkASSERT
@@ -2243,6 +2268,13 @@ Click
 :
 kUp_State
 ;
+click
+-
+>
+fModifierKeys
+=
+modi
+;
 target
 -
 >
@@ -2346,6 +2378,8 @@ SkScalar
 x
 SkScalar
 y
+unsigned
+modi
 )
 {
 return
@@ -2366,6 +2400,8 @@ SkScalar
 x
 SkScalar
 y
+unsigned
+modi
 )
 {
 return

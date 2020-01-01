@@ -12,6 +12,7 @@ SkXfermode
 h
 "
 class
+SK_API
 SkArithmeticMode
 :
 public
@@ -33,6 +34,12 @@ k3
 SkScalar
 k4
 )
+;
+private
+:
+typedef
+SkXfermode
+INHERITED
 ;
 }
 ;

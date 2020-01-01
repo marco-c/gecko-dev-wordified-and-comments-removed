@@ -68,7 +68,11 @@ SkPath
 src
 SkStrokeRec
 *
+const
+SkRect
+*
 )
+const
 {
 if
 (
@@ -245,6 +249,7 @@ SkPath
 *
 path
 )
+const
 {
 if
 (
@@ -347,6 +352,7 @@ SkPath
 *
 dst
 )
+const
 {
 }
 void
@@ -367,6 +373,7 @@ SkPath
 *
 dst
 )
+const
 {
 }
 void
@@ -379,6 +386,7 @@ SkPath
 *
 dst
 )
+const
 {
 }
 void
@@ -441,10 +449,6 @@ fInverse
 )
 ;
 }
-SK_DEFINE_FLATTENABLE_REGISTRAR
-(
-Sk2DPathEffect
-)
 bool
 SkLine2DPathEffect
 :
@@ -461,7 +465,12 @@ src
 SkStrokeRec
 *
 rec
+const
+SkRect
+*
+cullRect
 )
+const
 {
 if
 (
@@ -476,6 +485,7 @@ filterPath
 dst
 src
 rec
+cullRect
 )
 )
 {
@@ -511,6 +521,7 @@ SkPath
 *
 dst
 )
+const
 {
 if
 (
@@ -666,10 +677,6 @@ fWidth
 )
 ;
 }
-SK_DEFINE_FLATTENABLE_REGISTRAR
-(
-SkLine2DPathEffect
-)
 SkPath2DPathEffect
 :
 :
@@ -768,6 +775,7 @@ SkPath
 *
 dst
 )
+const
 {
 dst
 -
@@ -784,7 +792,3 @@ fY
 )
 ;
 }
-SK_DEFINE_FLATTENABLE_REGISTRAR
-(
-SkPath2DPathEffect
-)

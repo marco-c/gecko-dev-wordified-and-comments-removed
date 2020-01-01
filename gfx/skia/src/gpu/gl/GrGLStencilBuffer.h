@@ -66,6 +66,8 @@ GrGLStencilBuffer
 GrGpu
 *
 gpu
+bool
+isWrapped
 GrGLint
 rbid
 int
@@ -83,6 +85,7 @@ format
 GrStencilBuffer
 (
 gpu
+isWrapped
 width
 height
 format

@@ -43,6 +43,9 @@ class
 SkBitmap
 ;
 class
+SkData
+;
+class
 SkStream
 ;
 SK_API
@@ -104,6 +107,13 @@ CGDataProviderRef
 SkCreateDataProviderFromStream
 (
 SkStream
+*
+)
+;
+CGDataProviderRef
+SkCreateDataProviderFromData
+(
+SkData
 *
 )
 ;

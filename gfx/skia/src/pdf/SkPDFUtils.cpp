@@ -699,6 +699,15 @@ kNonSingleLine_SkipFillState
 }
 SkPoint
 lastMovePt
+=
+SkPoint
+:
+:
+Make
+(
+0
+0
+)
 ;
 SkDynamicMemoryWStream
 currentSegment

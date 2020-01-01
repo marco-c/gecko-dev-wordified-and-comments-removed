@@ -675,6 +675,9 @@ validate
 (
 )
 {
+#
+ifdef
+SK_DEBUG
 BlockHeader
 *
 block
@@ -944,4 +947,6 @@ prev
 fTail
 )
 ;
+#
+endif
 }

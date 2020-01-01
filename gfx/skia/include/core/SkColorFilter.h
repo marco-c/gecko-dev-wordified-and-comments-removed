@@ -29,6 +29,12 @@ class
 SkBitmap
 ;
 class
+GrEffectRef
+;
+class
+GrContext
+;
+class
 SK_API
 SkColorFilter
 :
@@ -55,6 +61,7 @@ Mode
 *
 mode
 )
+const
 ;
 virtual
 bool
@@ -66,6 +73,7 @@ matrix
 20
 ]
 )
+const
 ;
 virtual
 bool
@@ -75,6 +83,7 @@ SkBitmap
 *
 table
 )
+const
 ;
 virtual
 void
@@ -92,6 +101,7 @@ result
 [
 ]
 )
+const
 =
 0
 ;
@@ -111,6 +121,7 @@ result
 [
 ]
 )
+const
 ;
 enum
 Flags
@@ -128,6 +139,7 @@ uint32_t
 getFlags
 (
 )
+const
 {
 return
 0
@@ -138,6 +150,7 @@ filterColor
 (
 SkColor
 )
+const
 ;
 static
 SkColorFilter
@@ -163,6 +176,16 @@ mul
 SkColor
 add
 )
+;
+virtual
+GrEffectRef
+*
+asNewEffect
+(
+GrContext
+*
+)
+const
 ;
 SK_DECLARE_FLATTENABLE_REGISTRAR_GROUP
 (

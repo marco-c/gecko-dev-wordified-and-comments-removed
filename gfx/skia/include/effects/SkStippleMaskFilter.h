@@ -12,6 +12,7 @@ SkMaskFilter
 h
 "
 class
+SK_API
 SkStippleMaskFilter
 :
 public
@@ -47,6 +48,7 @@ SkIPoint
 *
 margin
 )
+const
 SK_OVERRIDE
 ;
 virtual
@@ -57,6 +59,7 @@ Format
 getFormat
 (
 )
+const
 SK_OVERRIDE
 {
 return
@@ -66,6 +69,20 @@ SkMask
 kA8_Format
 ;
 }
+SkDEVCODE
+(
+virtual
+void
+toString
+(
+SkString
+*
+str
+)
+const
+SK_OVERRIDE
+;
+)
 SK_DECLARE_PUBLIC_FLATTENABLE_DESERIALIZATION_PROCS
 (
 SkStippleMaskFilter

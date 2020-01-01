@@ -87,7 +87,7 @@ SkDisplayable
 ;
 virtual
 bool
-add
+addChild
 (
 SkAnimateMaker
 &

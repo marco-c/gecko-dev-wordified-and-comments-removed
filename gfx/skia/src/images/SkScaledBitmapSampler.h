@@ -166,7 +166,7 @@ char
 *
 fDstRow
 ;
-int
+size_t
 fDstRowBytes
 ;
 int

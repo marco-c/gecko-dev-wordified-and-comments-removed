@@ -773,11 +773,6 @@ wildCardsInRun
 0
 ;
 int
-leadingWildCards
-=
-0
-;
-int
 trailingWildCards
 =
 0
@@ -1058,10 +1053,6 @@ wildCardsInRun
 =
 trailingWildCards
 ;
-leadingWildCards
-=
-trailingWildCards
-;
 trailingWildCards
 =
 0
@@ -1306,10 +1297,6 @@ repeatedAdvances
 0
 ;
 wildCardsInRun
-=
-trailingWildCards
-;
-leadingWildCards
 =
 trailingWildCards
 ;

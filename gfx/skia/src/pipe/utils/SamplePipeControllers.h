@@ -246,7 +246,7 @@ fNumberOfReaders
 ;
 }
 void
-playback
+draw
 (
 SkCanvas
 *

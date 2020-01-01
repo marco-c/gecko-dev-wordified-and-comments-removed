@@ -1437,10 +1437,6 @@ false
 tmx
 tmy
 )
-fProcTable
-(
-NULL
-)
 {
 }
 virtual
@@ -1525,11 +1521,6 @@ alpha
 }
 private
 :
-const
-SkFilterProc
-*
-fProcTable
-;
 SkPMColor
 fColor
 ;

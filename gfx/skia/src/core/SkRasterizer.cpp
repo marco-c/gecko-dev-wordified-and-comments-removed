@@ -60,6 +60,7 @@ SkMask
 CreateMode
 mode
 )
+const
 {
 SkIRect
 storage
@@ -202,6 +203,7 @@ SkMask
 CreateMode
 mode
 )
+const
 {
 SkPath
 devPath

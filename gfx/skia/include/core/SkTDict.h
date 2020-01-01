@@ -381,6 +381,7 @@ name
 )
 const
 {
+const
 Pair
 *
 end
@@ -393,6 +394,7 @@ end
 ;
 for
 (
+const
 Pair
 *
 pair
@@ -608,10 +610,12 @@ name
 }
 private
 :
+const
 Pair
 *
 fIter
 ;
+const
 Pair
 *
 fStop

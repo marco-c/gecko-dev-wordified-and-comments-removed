@@ -56,9 +56,6 @@ const
 Info
 &
 info
-SkColorSpace
-*
-cs
 size_t
 rowBytes
 )
@@ -238,8 +235,6 @@ SkImage
 :
 Info
 &
-SkColorSpace
-*
 SkData
 *
 size_t
@@ -367,9 +362,6 @@ const
 Info
 &
 info
-SkColorSpace
-*
-cs
 SkData
 *
 data
@@ -580,9 +572,6 @@ SkImage
 Info
 &
 info
-SkColorSpace
-*
-cs
 const
 void
 *
@@ -600,7 +589,6 @@ SkImage_Raster
 ValidArgs
 (
 info
-cs
 rowBytes
 )
 )
@@ -671,7 +659,6 @@ SkNEW_ARGS
 SkImage_Raster
 (
 info
-cs
 data
 rowBytes
 )
@@ -692,9 +679,6 @@ SkImage
 Info
 &
 info
-SkColorSpace
-*
-cs
 SkData
 *
 pixelData
@@ -711,7 +695,6 @@ SkImage_Raster
 ValidArgs
 (
 info
-cs
 rowBytes
 )
 )
@@ -796,7 +779,6 @@ SkNEW_ARGS
 SkImage_Raster
 (
 info
-cs
 data
 rowBytes
 )

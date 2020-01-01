@@ -293,9 +293,6 @@ SkTypeface
 typeface
 uint16_t
 glyphID
-SkPDFDict
-*
-relatedFontDescriptor
 )
 ;
 bool

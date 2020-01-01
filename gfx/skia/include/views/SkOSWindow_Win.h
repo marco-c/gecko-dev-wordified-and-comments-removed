@@ -101,6 +101,17 @@ endif
 endif
 }
 ;
+struct
+AttachmentInfo
+{
+int
+fSampleCount
+;
+int
+fStencilBits
+;
+}
+;
 bool
 attach
 (
@@ -108,6 +119,8 @@ SkBackEndTypes
 attachType
 int
 msaaSampleCount
+AttachmentInfo
+*
 )
 ;
 void
@@ -227,6 +240,9 @@ fContext
 EGLSurface
 fSurface
 ;
+EGLConfig
+fConfig
+;
 #
 endif
 #
@@ -245,6 +261,9 @@ attachGL
 (
 int
 msaaSampleCount
+AttachmentInfo
+*
+info
 )
 ;
 void
@@ -265,6 +284,9 @@ attachANGLE
 (
 int
 msaaSampleCount
+AttachmentInfo
+*
+info
 )
 ;
 void

@@ -11,6 +11,13 @@ GrSingleTextureEffect
 .
 h
 "
+#
+include
+"
+SkMatrix
+.
+h
+"
 class
 Gr1DKernelEffect
 :
@@ -40,6 +47,10 @@ radius
 GrSingleTextureEffect
 (
 texture
+MakeDivByTextureWHMatrix
+(
+texture
+)
 )
 fDirection
 (

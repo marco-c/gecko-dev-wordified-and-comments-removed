@@ -14,7 +14,7 @@ h
 #
 include
 "
-GrScalar
+SkScalar
 .
 h
 "

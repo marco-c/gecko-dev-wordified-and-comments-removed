@@ -39,6 +39,13 @@ SkMatrix
 .
 h
 "
+#
+include
+"
+SkMetaData
+.
+h
+"
 class
 SkCanvas
 ;
@@ -584,6 +591,12 @@ void
 *
 fOwner
 ;
+unsigned
+fModifierKeys
+;
+SkMetaData
+fMeta
+;
 private
 :
 SkEventSinkID
@@ -615,6 +628,8 @@ SkScalar
 x
 SkScalar
 y
+unsigned
+modifierKeys
 )
 ;
 static
@@ -627,6 +642,8 @@ int
 x
 int
 y
+unsigned
+modi
 )
 ;
 static
@@ -639,6 +656,8 @@ int
 x
 int
 y
+unsigned
+modi
 )
 ;
 static
@@ -651,6 +670,8 @@ int
 x
 int
 y
+unsigned
+modi
 )
 ;
 SkView
@@ -1125,6 +1146,8 @@ SkScalar
 x
 SkScalar
 y
+unsigned
+modi
 )
 ;
 virtual
@@ -1135,6 +1158,8 @@ SkScalar
 x
 SkScalar
 y
+unsigned
+modi
 )
 ;
 virtual

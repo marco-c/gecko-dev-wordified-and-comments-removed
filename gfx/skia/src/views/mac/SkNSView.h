@@ -258,6 +258,16 @@ withMSAASampleCount
 int
 )
 sampleCount
+andGetInfo
+:
+(
+SkOSWindow
+:
+:
+AttachmentInfo
+*
+)
+info
 ;
 -
 (

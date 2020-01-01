@@ -7,7 +7,7 @@ SkMesaGLContext_DEFINED
 #
 include
 "
-SkGLContext
+SkGLContextHelper
 .
 h
 "
@@ -18,7 +18,7 @@ class
 SkMesaGLContext
 :
 public
-SkGLContext
+SkGLContextHelper
 {
 private
 :

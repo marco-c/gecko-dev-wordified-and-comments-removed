@@ -1226,7 +1226,7 @@ height
 (
 )
 ;
-unsigned
+size_t
 deviceRB
 =
 fDevice
@@ -2239,7 +2239,7 @@ height
 (
 )
 ;
-unsigned
+size_t
 deviceRB
 =
 fDevice
@@ -2300,7 +2300,6 @@ dev_hi
 ;
 uint32x4_t
 t1
-t2
 ;
 uint32x4_t
 wn1
@@ -2814,7 +2813,7 @@ x
 y
 )
 ;
-unsigned
+size_t
 deviceRB
 =
 fDevice
@@ -2958,7 +2957,7 @@ x
 y
 )
 ;
-unsigned
+size_t
 deviceRB
 =
 fDevice
@@ -3990,7 +3989,7 @@ height
 (
 )
 ;
-unsigned
+size_t
 deviceRB
 =
 fDevice
@@ -4171,7 +4170,7 @@ x
 y
 )
 ;
-unsigned
+size_t
 deviceRB
 =
 fDevice
@@ -4321,7 +4320,7 @@ x
 y
 )
 ;
-unsigned
+size_t
 deviceRB
 =
 fDevice

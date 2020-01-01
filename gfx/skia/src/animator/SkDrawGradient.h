@@ -51,7 +51,7 @@ SkDrawGradient
 ;
 virtual
 bool
-add
+addChild
 (
 SkAnimateMaker
 &

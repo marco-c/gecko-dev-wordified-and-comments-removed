@@ -37,12 +37,12 @@ inset
 ;
 virtual
 bool
-asNewCustomStage
+asNewEffect
 (
-GrCustomStage
+GrEffectRef
 *
 *
-stage
+effect
 GrTexture
 *
 texture

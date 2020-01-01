@@ -94,7 +94,6 @@ this
 source
 ;
 }
-const
 SkBitSet
 &
 SkBitSet

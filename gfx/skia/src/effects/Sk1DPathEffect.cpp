@@ -34,7 +34,11 @@ SkPath
 src
 SkStrokeRec
 *
+const
+SkRect
+*
 )
+const
 {
 SkPathMeasure
 meas
@@ -323,7 +327,12 @@ src
 SkStrokeRec
 *
 rec
+const
+SkRect
+*
+cullRect
 )
+const
 {
 if
 (
@@ -351,6 +360,7 @@ filterPath
 dst
 src
 rec
+cullRect
 )
 ;
 }
@@ -874,6 +884,7 @@ begin
 SkScalar
 contourLength
 )
+const
 {
 return
 fInitialOffset
@@ -954,6 +965,7 @@ SkPathMeasure
 &
 meas
 )
+const
 {
 switch
 (
@@ -1061,7 +1073,3 @@ return
 fAdvance
 ;
 }
-SK_DEFINE_FLATTENABLE_REGISTRAR
-(
-SkPath1DPathEffect
-)

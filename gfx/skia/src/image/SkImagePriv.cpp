@@ -505,7 +505,6 @@ SkImage
 NewRasterCopy
 (
 info
-NULL
 bm
 .
 getPixels

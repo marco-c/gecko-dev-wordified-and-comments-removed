@@ -82,6 +82,7 @@ Draw
 &
 other
 )
+const
 {
 return
 fOffset
@@ -162,6 +163,11 @@ uint32_t
 offset
 )
 ;
+void
+saveCollapsed
+(
+)
+;
 class
 Iterator
 {
@@ -196,6 +202,7 @@ bool
 isValid
 (
 )
+const
 {
 return
 fValid
@@ -283,6 +290,10 @@ fAlloc
 Node
 *
 fRoot
+;
+Node
+*
+fLastRestoredNode
 ;
 Draw
 fCurrentState

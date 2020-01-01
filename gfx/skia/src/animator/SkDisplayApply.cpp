@@ -3211,9 +3211,12 @@ else
 SkScriptValue
 scriptValue
 ;
+SkDEBUGCODE
+(
 bool
 success
 =
+)
 target
 -
 >
@@ -3478,6 +3481,7 @@ const
 {
 SkAnimateBase
 *
+const
 *
 animEnd
 =
@@ -3491,6 +3495,7 @@ for
 (
 SkAnimateBase
 *
+const
 *
 animPtr
 =
@@ -3511,6 +3516,7 @@ animPtr
 {
 SkAnimateBase
 *
+const
 animator
 =
 *
@@ -4269,9 +4275,12 @@ setCount
 count
 )
 ;
+SkDEBUGCODE
+(
 bool
 success
 =
+)
 animate
 -
 >
@@ -5274,9 +5283,12 @@ else
 SkScriptValue
 scriptValue
 ;
+SkDEBUGCODE
+(
 bool
 success
 =
+)
 target
 -
 >

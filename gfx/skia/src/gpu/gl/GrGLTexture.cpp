@@ -107,15 +107,9 @@ textureDesc
 fTextureID
 textureDesc
 .
-fOwnsID
+fIsWrapped
 )
 )
-;
-fOrientation
-=
-textureDesc
-.
-fOrientation
 ;
 if
 (
@@ -191,6 +185,9 @@ INHERITED
 (
 gpu
 textureDesc
+.
+fIsWrapped
+textureDesc
 )
 {
 this
@@ -228,6 +225,9 @@ rtDesc
 INHERITED
 (
 gpu
+textureDesc
+.
+fIsWrapped
 textureDesc
 )
 {
@@ -319,7 +319,7 @@ onAbandon
 )
 ;
 }
-intptr_t
+GrBackendObject
 GrGLTexture
 :
 :

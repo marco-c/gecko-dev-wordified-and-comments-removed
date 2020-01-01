@@ -301,10 +301,8 @@ size
 =
 stream
 .
-read
+getLength
 (
-NULL
-0
 )
 ;
 SkAutoMalloc

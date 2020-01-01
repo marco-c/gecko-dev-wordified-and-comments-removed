@@ -679,7 +679,7 @@ case
 kA888_GrMaskFormat
 :
 return
-kSkia8888_PM_GrPixelConfig
+kSkia8888_GrPixelConfig
 ;
 default
 :

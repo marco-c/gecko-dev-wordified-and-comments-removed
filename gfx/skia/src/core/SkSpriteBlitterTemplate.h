@@ -91,7 +91,7 @@ srcX
 srcY
 )
 ;
-unsigned
+size_t
 dstRB
 =
 fDevice
@@ -101,7 +101,7 @@ rowBytes
 (
 )
 ;
-unsigned
+size_t
 srcRB
 =
 fSource

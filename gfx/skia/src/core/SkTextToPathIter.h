@@ -124,11 +124,6 @@ fStop
 SkMeasureCacheProc
 fGlyphCacheProc
 ;
-const
-SkPath
-*
-fPath
-;
 SkScalar
 fXPos
 ;

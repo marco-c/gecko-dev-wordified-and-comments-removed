@@ -1097,7 +1097,7 @@ getPixels
 )
 ;
 const
-unsigned
+size_t
 rb
 =
 s
@@ -1968,7 +1968,7 @@ getPixels
 )
 ;
 const
-unsigned
+size_t
 rb
 =
 s

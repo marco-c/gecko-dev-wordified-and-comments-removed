@@ -669,11 +669,6 @@ fBlitter
 }
 private
 :
-const
-SkAAClip
-*
-fAAClip
-;
 SkRegion
 fBWRgn
 ;

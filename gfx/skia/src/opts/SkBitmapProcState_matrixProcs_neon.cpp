@@ -372,10 +372,6 @@ fx1
 fx2
 fx3
 ;
-int32x2_t
-lower
-upper
-;
 int32x4_t
 lbase
 hbase

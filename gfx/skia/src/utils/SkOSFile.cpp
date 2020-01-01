@@ -730,6 +730,12 @@ defined
 (
 SK_BUILD_FOR_ANDROID
 )
+|
+|
+defined
+(
+SK_BUILD_FOR_IOS
+)
 #
 if
 0

@@ -27,7 +27,7 @@ SK_ARM_NEON_MODE_DYNAMIC
 if
 defined
 (
-__arm__
+SK_CPU_ARM
 )
 &
 &
@@ -43,7 +43,7 @@ SK_ARM_NEON_MODE_DYNAMIC
 elif
 defined
 (
-__arm__
+SK_CPU_ARM
 )
 &
 &
@@ -94,6 +94,7 @@ SK_ARM_NEON_MODE_DYNAMIC
 if
 SK_ARM_NEON_IS_NONE
 static
+inline
 bool
 sk_cpu_arm_has_neon
 (
@@ -108,6 +109,7 @@ false
 elif
 SK_ARM_NEON_IS_ALWAYS
 static
+inline
 bool
 sk_cpu_arm_has_neon
 (

@@ -15,7 +15,7 @@ h
 #
 define
 TYPEFACE_CACHE_LIMIT
-128
+1024
 void
 SkTypefaceCache
 :

@@ -259,7 +259,7 @@ bool
 SkDrawMatrix
 :
 :
-add
+addChild
 (
 SkAnimateMaker
 &

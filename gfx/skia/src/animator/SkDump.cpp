@@ -757,7 +757,6 @@ enable
 (
 SkAnimateMaker
 &
-maker
 )
 {
 return

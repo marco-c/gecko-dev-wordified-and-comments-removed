@@ -659,9 +659,12 @@ alpha
 ;
 }
 return
+SkToS32
+(
 lastAlpha
 -
 fAlpha
+)
 ;
 }
 #

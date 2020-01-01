@@ -318,6 +318,9 @@ dst
 int
 rowBytes
 =
+(
+int
+)
 this
 -
 >

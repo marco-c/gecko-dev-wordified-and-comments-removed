@@ -103,7 +103,7 @@ srcMask
 .
 fRowBytes
 ;
-unsigned
+size_t
 bitmap_rowBytes
 =
 bitmap
@@ -323,6 +323,11 @@ rite_edge
 7
 )
 )
+;
+rite_mask
+&
+=
+0xFF
 ;
 int
 full_runs

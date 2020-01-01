@@ -30,6 +30,18 @@ SkRefCnt
 {
 public
 :
+static
+SkStream
+*
+NewFromFile
+(
+const
+char
+path
+[
+]
+)
+;
 SK_DECLARE_INST_COUNT
 (
 SkStream
@@ -365,6 +377,7 @@ struct
 SkFILE
 ;
 class
+SK_API
 SkFILEStream
 :
 public
@@ -461,6 +474,7 @@ INHERITED
 }
 ;
 class
+SK_API
 SkFDStream
 :
 public
@@ -546,6 +560,7 @@ INHERITED
 }
 ;
 class
+SK_API
 SkMemoryStream
 :
 public
@@ -579,6 +594,12 @@ bool
 copyData
 =
 false
+)
+;
+SkMemoryStream
+(
+SkData
+*
 )
 ;
 virtual
@@ -702,6 +723,7 @@ INHERITED
 }
 ;
 class
+SK_API
 SkBufferStream
 :
 public
@@ -1110,6 +1132,7 @@ INHERITED
 }
 ;
 class
+SK_API
 SkDebugWStream
 :
 public

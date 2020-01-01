@@ -1837,6 +1837,8 @@ SkScalerContext
 Rec
 *
 rec
+SkTypeface
+*
 )
 {
 }

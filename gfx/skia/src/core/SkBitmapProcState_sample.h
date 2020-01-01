@@ -270,8 +270,7 @@ getPixels
 (
 )
 ;
-int
-i
+size_t
 rb
 =
 s
@@ -291,6 +290,7 @@ src
 ;
 for
 (
+int
 i
 =
 (
@@ -1079,7 +1079,7 @@ getPixels
 (
 )
 ;
-unsigned
+size_t
 rb
 =
 s
@@ -1350,7 +1350,7 @@ getPixels
 (
 )
 ;
-int
+size_t
 rb
 =
 s

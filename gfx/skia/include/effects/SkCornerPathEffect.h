@@ -45,7 +45,11 @@ SkPath
 src
 SkStrokeRec
 *
+const
+SkRect
+*
 )
+const
 SK_OVERRIDE
 ;
 SK_DECLARE_PUBLIC_FLATTENABLE_DESERIALIZATION_PROCS

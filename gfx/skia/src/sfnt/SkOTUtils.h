@@ -12,6 +12,9 @@ SkOTTableTypes
 h
 "
 class
+SkData
+;
+class
 SkStream
 ;
 struct

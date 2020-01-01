@@ -38,9 +38,12 @@ s
 uint8_t
 b
 ;
+SkDEBUGCODE
+(
 size_t
 size
 =
+)
 s
 .
 read

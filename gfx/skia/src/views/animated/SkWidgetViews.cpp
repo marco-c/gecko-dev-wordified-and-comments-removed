@@ -167,10 +167,19 @@ path
 anim
 )
 ;
-SkFILEStream
+SkAutoTUnref
+<
+SkStream
+>
 stream
 (
+SkStream
+:
+:
+NewFromFile
+(
 path
+)
 )
 ;
 if
@@ -178,7 +187,7 @@ if
 !
 stream
 .
-isValid
+get
 (
 )
 )
@@ -216,7 +225,6 @@ anim
 >
 decodeStream
 (
-&
 stream
 )
 )

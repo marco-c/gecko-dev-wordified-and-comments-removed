@@ -1589,6 +1589,8 @@ SkScalar
 x
 SkScalar
 y
+unsigned
+modi
 )
 {
 this

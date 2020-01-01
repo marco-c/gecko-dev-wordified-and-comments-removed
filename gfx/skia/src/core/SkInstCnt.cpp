@@ -6,7 +6,7 @@ SkInstCnt
 h
 "
 #
-ifdef
+if
 SK_ENABLE_INST_COUNT
 bool
 gPrintInstCount

@@ -260,11 +260,3 @@ rb
 )
 {
 }
-SK_DEFINE_FLATTENABLE_REGISTRAR
-(
-SkDiscreteMapper
-)
-SK_DEFINE_FLATTENABLE_REGISTRAR
-(
-SkCosineMapper
-)

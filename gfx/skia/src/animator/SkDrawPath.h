@@ -55,7 +55,7 @@ SkDrawPath
 ;
 virtual
 bool
-add
+addChild
 (
 SkAnimateMaker
 &
@@ -235,7 +235,7 @@ Polyline
 ;
 virtual
 bool
-add
+addChild
 (
 SkAnimateMaker
 &

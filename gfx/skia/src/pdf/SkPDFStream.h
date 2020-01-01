@@ -126,13 +126,13 @@ kCompressed_State
 State
 fState
 ;
-SkRefPtr
+SkAutoTUnref
 <
 SkStream
 >
 fData
 ;
-SkRefPtr
+SkAutoTUnref
 <
 SkPDFStream
 >

@@ -16,6 +16,10 @@ SkBitmap
 bitmap
 )
 :
+INHERITED
+(
+0
+)
 fBitmap
 (
 bitmap
@@ -107,7 +111,3 @@ return
 true
 ;
 }
-SK_DEFINE_FLATTENABLE_REGISTRAR
-(
-SkBitmapSource
-)

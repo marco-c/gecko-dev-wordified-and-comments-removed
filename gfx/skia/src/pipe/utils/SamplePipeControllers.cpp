@@ -255,9 +255,12 @@ top
 =
 bottom
 ;
+SkDEBUGCODE
+(
 bool
 extracted
 =
+)
 bitmap
 .
 extractSubset
@@ -511,7 +514,10 @@ blockSize
 =
 SkMax32
 (
+SkToS32
+(
 minRequest
+)
 kMinBlockSize
 )
 ;
@@ -557,7 +563,7 @@ void
 ThreadSafePipeController
 :
 :
-playback
+draw
 (
 SkCanvas
 *
