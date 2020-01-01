@@ -108,6 +108,12 @@ using
 namespace
 MPAPI
 ;
+const
+int
+OMX_QCOM_COLOR_FormatYVU420PackedSemiPlanar32m4ka
+=
+0x7FA30C01
+;
 namespace
 android
 {
@@ -541,7 +547,7 @@ ReleaseAudioBuffer
 )
 ;
 void
-PlanarYUV420Frame
+ToVideoFrame_YUV420Planar
 (
 VideoFrame
 *
@@ -558,7 +564,7 @@ aKeyFrame
 )
 ;
 void
-CbYCrYFrame
+ToVideoFrame_CbYCrY
 (
 VideoFrame
 *
@@ -575,7 +581,7 @@ aKeyFrame
 )
 ;
 void
-SemiPlanarYUV420Frame
+ToVideoFrame_YUV420SemiPlanar
 (
 VideoFrame
 *
@@ -592,7 +598,7 @@ aKeyFrame
 )
 ;
 void
-SemiPlanarYVU420Frame
+ToVideoFrame_YVU420SemiPlanar
 (
 VideoFrame
 *
@@ -609,7 +615,7 @@ aKeyFrame
 )
 ;
 void
-SemiPlanarYVU420Packed32m4ka
+ToVideoFrame_YVU420PackedSemiPlanar32m4ka
 (
 VideoFrame
 *
@@ -2305,7 +2311,7 @@ void
 OmxDecoder
 :
 :
-PlanarYUV420Frame
+ToVideoFrame_YUV420Planar
 (
 VideoFrame
 *
@@ -2414,7 +2420,7 @@ void
 OmxDecoder
 :
 :
-CbYCrYFrame
+ToVideoFrame_CbYCrY
 (
 VideoFrame
 *
@@ -2475,7 +2481,7 @@ void
 OmxDecoder
 :
 :
-SemiPlanarYUV420Frame
+ToVideoFrame_YUV420SemiPlanar
 (
 VideoFrame
 *
@@ -2561,7 +2567,7 @@ void
 OmxDecoder
 :
 :
-SemiPlanarYVU420Frame
+ToVideoFrame_YVU420SemiPlanar
 (
 VideoFrame
 *
@@ -2577,7 +2583,7 @@ bool
 aKeyFrame
 )
 {
-SemiPlanarYUV420Frame
+ToVideoFrame_YUV420SemiPlanar
 (
 aFrame
 aTimeUs
@@ -2609,7 +2615,7 @@ void
 OmxDecoder
 :
 :
-SemiPlanarYVU420Packed32m4ka
+ToVideoFrame_YVU420PackedSemiPlanar32m4ka
 (
 VideoFrame
 *
@@ -2735,18 +2741,6 @@ bool
 aKeyFrame
 )
 {
-const
-int
-OMX_QCOM_COLOR_FormatYVU420SemiPlanar
-=
-0x7FA30C00
-;
-const
-int
-OMX_QCOM_COLOR_FormatYVU420PackedSemiPlanar32m4ka
-=
-0x7FA30C01
-;
 switch
 (
 mVideoColorFormat
@@ -2755,7 +2749,7 @@ mVideoColorFormat
 case
 OMX_COLOR_FormatYUV420Planar
 :
-PlanarYUV420Frame
+ToVideoFrame_YUV420Planar
 (
 aFrame
 aTimeUs
@@ -2769,7 +2763,7 @@ break
 case
 OMX_COLOR_FormatCbYCrY
 :
-CbYCrYFrame
+ToVideoFrame_CbYCrY
 (
 aFrame
 aTimeUs
@@ -2783,7 +2777,7 @@ break
 case
 OMX_COLOR_FormatYUV420SemiPlanar
 :
-SemiPlanarYUV420Frame
+ToVideoFrame_YUV420SemiPlanar
 (
 aFrame
 aTimeUs
@@ -2797,7 +2791,7 @@ break
 case
 OMX_QCOM_COLOR_FormatYVU420SemiPlanar
 :
-SemiPlanarYVU420Frame
+ToVideoFrame_YVU420SemiPlanar
 (
 aFrame
 aTimeUs
@@ -2811,7 +2805,7 @@ break
 case
 OMX_QCOM_COLOR_FormatYVU420PackedSemiPlanar32m4ka
 :
-SemiPlanarYVU420Packed32m4ka
+ToVideoFrame_YVU420PackedSemiPlanar32m4ka
 (
 aFrame
 aTimeUs
