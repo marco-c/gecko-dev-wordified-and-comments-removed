@@ -3105,13 +3105,6 @@ PR_FALSE
 )
 ;
 }
-else
-{
-rv
-=
-NS_ERROR_ABORT
-;
-}
 FireScriptEvaluated
 (
 rv
