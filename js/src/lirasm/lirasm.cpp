@@ -6870,6 +6870,8 @@ LALLOC
 {
 size_t
 szB
+=
+0
 ;
 switch
 (
