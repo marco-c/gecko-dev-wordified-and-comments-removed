@@ -1450,7 +1450,7 @@ property
 changed
 "
 "
-selection
+page
 changed
 "
 "
@@ -1647,10 +1647,6 @@ changed
 "
 object
 attribute
-changed
-"
-"
-page
 changed
 "
 }

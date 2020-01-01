@@ -591,9 +591,17 @@ test_scroll
 .
 xul
 \
+test_selection_aria
+.
+html
+\
 test_selection
 .
 html
+\
+test_selection
+.
+xul
 \
 test_statechange
 .
