@@ -406,6 +406,14 @@ task
 contentDiv
 )
 ;
+task
+.
+onPageLoad
+(
+task
+document
+)
+;
 }
 }
 function
@@ -556,6 +564,7 @@ explanation
 ;
 let
 elem
+j
 ;
 elem
 =
@@ -662,7 +671,6 @@ MULTIPLE_CHOICE
 :
 for
 (
-let
 j
 =
 0
@@ -825,7 +833,6 @@ i
 ;
 for
 (
-let
 j
 =
 0
@@ -1175,7 +1182,6 @@ checkboxName
 ;
 for
 (
-let
 j
 =
 (
@@ -1342,7 +1348,6 @@ label
 ;
 for
 (
-let
 j
 =
 surveyQuestions
@@ -1583,7 +1588,6 @@ i
 ;
 for
 (
-let
 j
 =
 0
