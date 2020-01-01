@@ -88,7 +88,7 @@ srcdir
 /
 *
 .
-js
+jsm
 (
 FINAL_TARGET
 )
@@ -96,8 +96,6 @@ FINAL_TARGET
 modules
 /
 devtools
-/
-markupview
 include
 (
 topsrcdir
