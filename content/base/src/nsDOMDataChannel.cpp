@@ -1388,7 +1388,7 @@ if
 (
 blobLen
 >
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 return
