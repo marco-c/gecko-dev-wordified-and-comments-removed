@@ -2130,8 +2130,11 @@ cleanUpCrashDumpFiles
 (
 )
 ;
-runNextTest
+SpecialPowers
+.
+flushPrefEnv
 (
+runNextTest
 )
 ;
 }
