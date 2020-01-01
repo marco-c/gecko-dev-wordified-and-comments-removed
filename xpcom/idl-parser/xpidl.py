@@ -11521,11 +11521,9 @@ outputdir
 =
 outputdir
                                 
-debugfile
+debug
 =
-'
-xpidl_debug
-'
+0
                                 
 tabmodule
 =
