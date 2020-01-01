@@ -15846,6 +15846,12 @@ EnsureVisible
 )
 ;
 }
+else
+{
+return
+NS_ERROR_FAILURE
+;
+}
 mCXMenuListener
 =
 new
