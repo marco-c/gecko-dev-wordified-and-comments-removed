@@ -3500,6 +3500,10 @@ VMAllocator
 Mark
 mark
 ;
+const
+unsigned
+numSideExitsBefore
+;
 Tracker
 tracker
 ;
