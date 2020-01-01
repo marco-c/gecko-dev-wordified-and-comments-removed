@@ -612,6 +612,13 @@ gecko
 .
 GeckoApplication
 "
+android
+:
+hardwareAccelerated
+=
+"
+true
+"
 #
 if
 MOZILLA_OFFICIAL
