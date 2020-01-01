@@ -4111,10 +4111,6 @@ RecompileInfo
 *
 pendingRecompiles
 ;
-AutoScriptVector
-*
-transitiveCompilationWorklist
-;
 unsigned
 recompilations
 ;

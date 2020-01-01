@@ -65,9 +65,6 @@ ion
 class
 TempAllocator
 ;
-class
-ParallelCompileContext
-;
 enum
 IonRegisterAllocator
 {
@@ -503,6 +500,16 @@ HandleScript
 script
 uint32_t
 numActualArgs
+)
+;
+MethodStatus
+CanEnterInParallel
+(
+JSContext
+*
+cx
+HandleScript
+script
 )
 ;
 enum

@@ -72,13 +72,16 @@ true
 ;
 }
 }
-testFilter
+compareAgainstArray
 (
 range
 (
 0
 1024
 )
+"
+filter
+"
 truthy
 )
 ;

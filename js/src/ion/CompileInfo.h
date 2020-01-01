@@ -205,6 +205,8 @@ CompileInfo
 (
 unsigned
 nlocals
+ExecutionMode
+executionMode
 )
 :
 script_
@@ -222,6 +224,10 @@ NULL
 constructing_
 (
 false
+)
+executionMode_
+(
+executionMode
 )
 {
 nimplicit_

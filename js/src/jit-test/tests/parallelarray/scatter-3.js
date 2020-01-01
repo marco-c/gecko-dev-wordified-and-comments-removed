@@ -12,7 +12,7 @@ js
 )
 ;
 function
-testScatter
+testScatter3
 (
 )
 {
@@ -62,7 +62,7 @@ ParallelArray
 ]
 )
 ;
-assertEqParallelArray
+assertStructuralEq
 (
 r
 p2
@@ -77,7 +77,7 @@ getBuildConfiguration
 .
 parallelJS
 )
-testScatter
+testScatter3
 (
 )
 ;

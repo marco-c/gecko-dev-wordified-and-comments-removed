@@ -537,6 +537,14 @@ false
 #
 endif
 }
+bool
+ParallelTestsShouldPass
+(
+JSContext
+*
+cx
+)
+;
 namespace
 parallel
 {
@@ -545,6 +553,7 @@ ExecutionStatus
 {
 ExecutionFatal
 ExecutionSequential
+ExecutionWarmup
 ExecutionParallel
 }
 ;

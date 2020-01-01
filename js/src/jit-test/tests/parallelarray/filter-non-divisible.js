@@ -19,13 +19,16 @@ getBuildConfiguration
 .
 parallelJS
 )
-testFilter
+compareAgainstArray
 (
 range
 (
 0
 617
 )
+"
+filter
+"
 function
 (
 i
