@@ -11,10 +11,17 @@ transport_addr
 .
 h
 "
+#
+include
+"
+local_addr
+.
+h
+"
 int
 nr_stun_get_addrs
 (
-nr_transport_addr
+nr_local_addr
 addrs
 [
 ]
@@ -30,7 +37,7 @@ count
 int
 nr_stun_remove_duplicate_addrs
 (
-nr_transport_addr
+nr_local_addr
 addrs
 [
 ]

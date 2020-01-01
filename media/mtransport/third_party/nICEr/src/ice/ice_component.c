@@ -770,7 +770,7 @@ int
 r
 _status
 ;
-nr_transport_addr
+nr_local_addr
 addrs
 [
 MAXADDRS
@@ -954,6 +954,8 @@ addrs
 i
 ]
 .
+addr
+.
 ifname
 &
 suppress
@@ -1007,6 +1009,8 @@ addrs
 i
 ]
 .
+addr
+.
 as_string
 )
 ;
@@ -1021,6 +1025,8 @@ addrs
 [
 i
 ]
+.
+addr
 &
 sock
 )
@@ -1055,6 +1061,8 @@ addrs
 [
 i
 ]
+.
+addr
 .
 as_string
 )
@@ -1428,6 +1436,8 @@ addrs
 [
 i
 ]
+.
+addr
 .
 as_string
 )

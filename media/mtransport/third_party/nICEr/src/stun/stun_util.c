@@ -303,7 +303,7 @@ _status
 int
 nr_stun_find_local_addresses
 (
-nr_transport_addr
+nr_local_addr
 addrs
 [
 ]
@@ -544,6 +544,8 @@ addrs
 [
 i
 ]
+.
+addr
 )
 )
 )

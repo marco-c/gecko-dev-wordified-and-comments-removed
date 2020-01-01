@@ -49,6 +49,13 @@ nr_socket
 .
 h
 "
+#
+include
+"
+local_addr
+.
+h
+"
 int
 nr_socket_create_int
 (
