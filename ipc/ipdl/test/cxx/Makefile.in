@@ -538,6 +538,8 @@ IPDLTESTS
 =
 TestSysVShmem
 endif
+EXTRA_PROTOCOLS
+=
 IPDLTESTSRCS
 =
 (
@@ -682,8 +684,15 @@ GENTESTER
 (
 TESTER_TEMPLATE
 )
+-
+t
 (
 IPDLTESTS
+)
+-
+e
+(
+EXTRA_PROTOCOLS
 )
 >
 check
