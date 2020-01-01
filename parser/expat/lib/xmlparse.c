@@ -6338,7 +6338,7 @@ int
 nLeftOver
 ;
 enum
-XML_Error
+XML_Status
 result
 ;
 parseEndByteIndex
