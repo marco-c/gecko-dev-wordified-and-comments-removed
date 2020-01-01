@@ -1011,7 +1011,7 @@ mModalStateDepth
 ;
 nsCOMPtr
 <
-nsISupports
+nsIScriptGlobalObject
 >
 mGlobalObjectRef
 ;
