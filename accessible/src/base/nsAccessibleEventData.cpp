@@ -83,6 +83,13 @@ endif
 #
 include
 "
+nsIAccessibleText
+.
+h
+"
+#
+include
+"
 nsIContent
 .
 h
