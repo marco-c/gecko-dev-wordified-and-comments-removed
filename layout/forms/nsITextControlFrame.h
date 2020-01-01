@@ -157,6 +157,14 @@ aPhonetic
 =
 0
 ;
+virtual
+nsresult
+EnsureEditorInitialized
+(
+)
+=
+0
+;
 }
 ;
 #
