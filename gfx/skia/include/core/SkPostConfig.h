@@ -1490,7 +1490,10 @@ endif
 #
 endif
 #
-else
+endif
+#
+ifndef
+SK_OVERRIDE
 #
 define
 SK_OVERRIDE
