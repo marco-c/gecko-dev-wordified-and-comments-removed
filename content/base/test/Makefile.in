@@ -1936,10 +1936,6 @@ test_websocket_hello
 .
 html
 \
-test_websocket_ssl_hello
-.
-html
-\
 file_websocket_hello_wsh
 .
 py

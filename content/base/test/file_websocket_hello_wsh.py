@@ -20,20 +20,16 @@ request
 resp
 =
 "
-Fail
+Test
 "
   
-request_text
-=
+if
 msgutil
 .
 receive_message
 (
 request
 )
-  
-if
-request_text
 =
 =
 "
@@ -47,21 +43,6 @@ resp
 Hello
 world
 !
-"
-  
-elif
-request_text
-=
-=
-"
-ssltest
-"
-:
-    
-resp
-=
-"
-ssldata
 "
   
 msgutil
