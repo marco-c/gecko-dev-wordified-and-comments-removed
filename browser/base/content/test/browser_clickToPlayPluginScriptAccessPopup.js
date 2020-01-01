@@ -199,7 +199,7 @@ gNextTestList
 {
 func
 :
-testExpectPopupPart1
+testExpectNoPopupPart1
 url
 :
 gHttpTestRoot
@@ -213,7 +213,7 @@ html
 {
 func
 :
-testExpectPopupPart1
+testExpectNoPopupPart1
 url
 :
 gHttpTestRoot
