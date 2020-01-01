@@ -84,14 +84,12 @@ allCompatible
 =
 true
 ;
-aAddons
-.
-forEach
+for
 (
-function
-checkCompatibility
-(
+let
 a
+of
+aAddons
 )
 {
 if
@@ -105,7 +103,7 @@ type
 plugin
 "
 )
-return
+continue
 ;
 ok
 (
@@ -147,8 +145,6 @@ a
 isCompatible
 ;
 }
-)
-;
 if
 (
 !
