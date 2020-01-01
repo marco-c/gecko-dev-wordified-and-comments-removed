@@ -1060,6 +1060,10 @@ TextMetrics
 )
 DOMCI_CLASS
 (
+ImageData
+)
+DOMCI_CLASS
+(
 SmartCardEvent
 )
 DOMCI_CLASS
