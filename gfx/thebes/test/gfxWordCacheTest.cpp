@@ -565,6 +565,16 @@ en
 PR_FALSE
 PR_FALSE
 PR_FALSE
+NS_LITERAL_STRING
+(
+"
+"
+)
+NS_LITERAL_STRING
+(
+"
+"
+)
 )
 ;
 nsRefPtr

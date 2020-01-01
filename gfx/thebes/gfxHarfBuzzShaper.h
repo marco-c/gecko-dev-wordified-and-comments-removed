@@ -160,6 +160,9 @@ hb_face_t
 *
 mHBFace
 ;
+hb_language_t
+mHBLanguage
+;
 mutable
 hb_blob_t
 *
@@ -188,6 +191,14 @@ mUVSTableOffset
 ;
 PRBool
 mUseHintedWidths
+;
+const
+nsTArray
+<
+hb_feature_t
+>
+*
+mOpenTypeFeatures
 ;
 }
 ;
