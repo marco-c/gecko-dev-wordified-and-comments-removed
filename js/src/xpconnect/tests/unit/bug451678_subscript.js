@@ -1,0 +1,12 @@
+var
+tags
+=
+[
+]
+;
+function
+makeTags
+(
+)
+{
+}
