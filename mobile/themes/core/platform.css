@@ -5049,11 +5049,13 @@ color
 white
 ;
 background
--
-color
 :
-#
-36373b
+rgb
+(
+94
+97
+102
+)
 ;
 }
 .
