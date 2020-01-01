@@ -11468,6 +11468,13 @@ FlushTextAndRelease
 (
 )
 ;
+mCurrentContext
+-
+>
+FlushTags
+(
+)
+;
 }
 if
 (
