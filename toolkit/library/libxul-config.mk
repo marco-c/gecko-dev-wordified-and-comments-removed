@@ -905,6 +905,7 @@ ifeq
 (
 (
 filter
+qt
 beos
 os2
 mac

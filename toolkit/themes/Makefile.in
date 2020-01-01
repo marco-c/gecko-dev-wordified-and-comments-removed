@@ -516,6 +516,7 @@ ifneq
 (
 filter
 gtk2
+qt
 (
 MOZ_WIDGET_TOOLKIT
 )

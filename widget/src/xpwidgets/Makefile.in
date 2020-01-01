@@ -549,6 +549,7 @@ ifneq
 (
 filter
 beos
+qt
 gtk2
 os2
 cocoa
@@ -576,6 +577,7 @@ ifneq
 (
 (
 filter
+qt
 gtk2
 windows
 cocoa
