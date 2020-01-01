@@ -15605,6 +15605,16 @@ nsCSSPseudoClasses
 ePseudoClass_dir
 )
 {
+nsContentUtils
+:
+:
+ASCIIToLower
+(
+mToken
+.
+mIdent
+)
+;
 if
 (
 !
