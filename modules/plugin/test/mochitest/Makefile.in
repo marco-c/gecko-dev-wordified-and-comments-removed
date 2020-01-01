@@ -542,6 +542,16 @@ test_npn_asynccall
 .
 html
 \
+test_bug532208
+.
+html
+\
+large
+-
+pic
+.
+jpg
+\
 (
 NULL
 )
