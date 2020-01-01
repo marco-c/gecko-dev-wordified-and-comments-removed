@@ -373,6 +373,13 @@ center_vertical
 |
 left
 "
+gecko
+:
+autoUpdateTheme
+=
+"
+false
+"
 >
 <
 requestFocus

@@ -899,6 +899,13 @@ layout_gravity
 "
 center_vertical
 "
+gecko
+:
+autoUpdateTheme
+=
+"
+false
+"
 /
 >
 <

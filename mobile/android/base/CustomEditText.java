@@ -39,12 +39,15 @@ CustomEditText
 extends
 GeckoEditText
 {
+private
 OnKeyPreImeListener
 mOnKeyPreImeListener
 ;
+private
 OnSelectionChangedListener
 mOnSelectionChangedListener
 ;
+private
 OnWindowFocusChangeListener
 mOnWindowFocusChangeListener
 ;
