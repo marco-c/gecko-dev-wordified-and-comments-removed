@@ -30333,8 +30333,6 @@ cx
 script
 )
 ;
-#
-endif
 script
 -
 >
@@ -30342,6 +30340,8 @@ resetUseCount
 (
 )
 ;
+#
+endif
 }
 void
 TypeScript
