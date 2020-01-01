@@ -3405,6 +3405,7 @@ aContext
 aGlobal
 aScriptObject
 aClassName
+this
 aClassObject
 )
 ;
