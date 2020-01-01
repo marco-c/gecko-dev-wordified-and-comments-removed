@@ -27,13 +27,6 @@ style
 )
 HTML5_ATOM
 (
-script
-"
-script
-"
-)
-HTML5_ATOM
-(
 xmp
 "
 xmp
@@ -72,6 +65,13 @@ HTML5_ATOM
 plaintext
 "
 plaintext
+"
+)
+HTML5_ATOM
+(
+script
+"
+script
 "
 )
 HTML5_ATOM
