@@ -50,6 +50,16 @@ AndroidBridge
 .
 h
 "
+extern
+"
+C
+"
+{
+extern
+int
+android_sdk_version
+;
+}
 #
 endif
 nsSystemInfo
@@ -777,6 +787,10 @@ version
 version
 =
 0
+;
+android_sdk_version
+=
+version
 ;
 if
 (
