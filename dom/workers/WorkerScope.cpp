@@ -4440,14 +4440,6 @@ aCx
 global
 )
 )
-|
-|
-!
-DefineOSFileConstants
-(
-aCx
-global
-)
 )
 {
 return

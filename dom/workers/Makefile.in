@@ -310,16 +310,6 @@ I
 topsrcdir
 )
 /
-dom
-/
-system
-\
--
-I
-(
-topsrcdir
-)
-/
 xpcom
 /
 build
