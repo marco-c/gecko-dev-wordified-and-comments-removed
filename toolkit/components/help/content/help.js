@@ -792,7 +792,7 @@ defaulttopic
 "
 )
 ;
-const
+var
 RDFContainer
 =
 Components
@@ -812,7 +812,7 @@ container
 "
 ]
 .
-getService
+createInstance
 (
 Components
 .
