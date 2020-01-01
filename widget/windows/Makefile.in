@@ -542,6 +542,10 @@ nsWidgetFactory
 .
 cpp
 \
+WinUtils
+.
+cpp
+\
 (
 NULL
 )

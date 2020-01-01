@@ -27,6 +27,13 @@ h
 "
 #
 include
+"
+WinUtils
+.
+h
+"
+#
+include
 <
 nsITaskbarPreviewController
 .
@@ -661,7 +668,7 @@ nsWindow
 *
 win
 =
-nsWindow
+WinUtils
 :
 :
 GetNSWindowPtr

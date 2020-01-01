@@ -97,6 +97,13 @@ h
 "
 #
 include
+"
+WinUtils
+.
+h
+"
+#
+include
 <
 nsIBaseWindow
 .
@@ -932,7 +939,7 @@ nsWindow
 *
 win
 =
-nsWindow
+WinUtils
 :
 :
 GetNSWindowPtr
@@ -1231,7 +1238,7 @@ nsWindow
 *
 window
 =
-nsWindow
+WinUtils
 :
 :
 GetNSWindowPtr
@@ -1278,7 +1285,7 @@ nsWindow
 *
 window
 =
-nsWindow
+WinUtils
 :
 :
 GetNSWindowPtr
@@ -1691,7 +1698,7 @@ nsWindow
 *
 window
 =
-nsWindow
+WinUtils
 :
 :
 GetNSWindowPtr

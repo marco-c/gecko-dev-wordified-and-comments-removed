@@ -148,6 +148,13 @@ h
 #
 include
 "
+WinUtils
+.
+h
+"
+#
+include
+"
 gfxPlatform
 .
 h
@@ -201,6 +208,13 @@ nsUXThemeConstants
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+widget
+;
 #
 ifdef
 PR_LOGGING
@@ -1580,7 +1594,7 @@ button
 else
 if
 (
-nsWindow
+WinUtils
 :
 :
 GetWindowsVersion
@@ -1588,6 +1602,9 @@ GetWindowsVersion
 )
 =
 =
+WinUtils
+:
+:
 WINXP_VERSION
 )
 offset
@@ -1683,7 +1700,7 @@ button
 else
 if
 (
-nsWindow
+WinUtils
 :
 :
 GetWindowsVersion
@@ -1691,6 +1708,9 @@ GetWindowsVersion
 )
 =
 =
+WinUtils
+:
+:
 WINXP_VERSION
 )
 offset
@@ -9119,7 +9139,7 @@ cy
 ;
 if
 (
-nsWindow
+WinUtils
 :
 :
 GetWindowsVersion
@@ -9127,6 +9147,9 @@ GetWindowsVersion
 )
 =
 =
+WinUtils
+:
+:
 WINXP_VERSION
 )
 {
@@ -9201,7 +9224,7 @@ cy
 ;
 if
 (
-nsWindow
+WinUtils
 :
 :
 GetWindowsVersion
@@ -9209,6 +9232,9 @@ GetWindowsVersion
 )
 =
 =
+WinUtils
+:
+:
 WINXP_VERSION
 )
 {
@@ -9283,7 +9309,7 @@ cy
 ;
 if
 (
-nsWindow
+WinUtils
 :
 :
 GetWindowsVersion
@@ -9291,6 +9317,9 @@ GetWindowsVersion
 )
 =
 =
+WinUtils
+:
+:
 WINXP_VERSION
 )
 {
