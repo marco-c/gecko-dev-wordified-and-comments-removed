@@ -3259,7 +3259,13 @@ OUTOPTION
 Fo
 #
 eol
-endif
+HOST_OUTOPTION
+=
+-
+Fo
+#
+eol
+else
 ifeq
 (
 (
@@ -3278,6 +3284,7 @@ HOST_OUTOPTION
 o
 #
 eol
+endif
 endif
 #
 #
