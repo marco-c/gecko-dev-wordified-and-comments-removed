@@ -3544,9 +3544,6 @@ selected
 "
 )
 ;
-nsresult
-rv
-;
 if
 (
 socksVersion
