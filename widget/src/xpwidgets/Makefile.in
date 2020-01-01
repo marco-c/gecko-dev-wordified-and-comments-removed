@@ -520,6 +520,16 @@ cpp
 (
 NULL
 )
+ifdef
+MOZ_X11
+CPPSRCS
++
+=
+\
+GfxInfoX11
+.
+cpp
+endif
 ifneq
 (
 (
