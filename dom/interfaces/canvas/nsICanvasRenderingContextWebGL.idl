@@ -3978,13 +3978,13 @@ in
 WebGLenum
 mode
 in
-WebGLuint
+WebGLsizei
 count
 in
 WebGLenum
 type
 in
-WebGLuint
+WebGLint
 offset
 )
 ;
