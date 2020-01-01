@@ -250,6 +250,11 @@ aResult
 )
 ;
 NS_IMETHOD
+DocumentModified
+(
+)
+;
+NS_IMETHOD
 GetListState
 (
 PRBool
@@ -2011,6 +2016,11 @@ nsIDOMNode
 aNode
 PRInt8
 aRelativeChange
+)
+;
+void
+DocumentModifiedWorker
+(
 )
 ;
 protected

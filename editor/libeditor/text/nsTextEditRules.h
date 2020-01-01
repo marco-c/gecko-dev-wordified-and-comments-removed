@@ -141,6 +141,11 @@ PRBool
 aDocumentIsEmpty
 )
 ;
+NS_IMETHOD
+DocumentModified
+(
+)
+;
 enum
 {
 kDefault
