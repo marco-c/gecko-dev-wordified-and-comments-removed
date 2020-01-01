@@ -441,6 +441,10 @@ bin
 .
 elf
 \
+nspr
+-
+config
+\
 regchrome
 *
 \
