@@ -2790,9 +2790,9 @@ layout
 .
 css
 .
-dpi
+devPixelsPerPx
 "
-96
+1
 )
 ;
 #

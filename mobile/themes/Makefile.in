@@ -454,13 +454,11 @@ Windows
 Mobile
 wince
 #
-#
 ifdef
 WINCE
 DIRS
 =
 wince
-#
 else
 #
 default
@@ -473,7 +471,6 @@ too
 DIRS
 =
 hildon
-#
 endif
 include
 (
