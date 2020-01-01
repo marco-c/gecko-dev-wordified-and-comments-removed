@@ -132,7 +132,14 @@ search_row_height
 "
 android
 :
-padding
+paddingTop
+=
+"
+7dp
+"
+android
+:
+paddingBottom
 =
 "
 7dp
