@@ -181,10 +181,6 @@ GdkWindow
 *
 inner_window
 ;
-MozDrawingarea
-*
-parent
-;
 }
 ;
 struct
