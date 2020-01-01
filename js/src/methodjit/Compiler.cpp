@@ -338,7 +338,7 @@ addTraceHints
 cx
 -
 >
-jitEnabled
+traceJitEnabled
 )
 #
 endif
