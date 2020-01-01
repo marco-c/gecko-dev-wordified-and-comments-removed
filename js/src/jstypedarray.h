@@ -943,9 +943,14 @@ obj
 ;
 }
 ;
-struct
+class
 BufferView
+:
+public
+JSObject
 {
+public
+:
 static
 const
 size_t
@@ -1634,8 +1639,6 @@ type
 class
 DataViewObject
 :
-public
-JSObject
 public
 BufferView
 {
