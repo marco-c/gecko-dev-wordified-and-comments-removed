@@ -12755,6 +12755,8 @@ AppendLiteral
 EXISTS
 (
 SELECT
+h
+.
 id
 FROM
 moz_annos
