@@ -32,6 +32,17 @@ Shape
 .
 h
 "
+#
+include
+"
+vm
+/
+Shape
+-
+inl
+.
+h
+"
 BEGIN_TEST
 (
 testRegExpInstanceProperties

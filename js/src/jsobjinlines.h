@@ -93,6 +93,17 @@ jsinferinlines
 .
 h
 "
+#
+include
+"
+vm
+/
+Shape
+-
+inl
+.
+h
+"
 inline
 bool
 JSObject
