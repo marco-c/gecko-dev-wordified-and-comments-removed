@@ -4246,10 +4246,14 @@ HAS_ARGS_OBJ
 ;
 masm
 .
-store32
+storePtr
 (
-Imm32
+ImmPtr
 (
+(
+void
+*
+)
 script
 -
 >
