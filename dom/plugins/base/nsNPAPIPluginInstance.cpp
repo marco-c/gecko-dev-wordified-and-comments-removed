@@ -4556,7 +4556,15 @@ RUNNING
 &
 mOwner
 )
-RedrawPlugin
+AndroidBridge
+:
+:
+Bridge
+(
+)
+-
+>
+ScheduleComposite
 (
 )
 ;
