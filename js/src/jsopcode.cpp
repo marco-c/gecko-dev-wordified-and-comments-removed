@@ -31676,9 +31676,6 @@ write
 ]
 "
 )
->
-=
-0
 ;
 return
 true
@@ -31918,6 +31915,7 @@ decompilePC
 pcstack
 [
 -
+int32_t
 (
 GET_ARGC
 (

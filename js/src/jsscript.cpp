@@ -1032,11 +1032,14 @@ kind
 1
 )
 |
+uint8_t
+(
 bi
 -
 >
 aliased
 (
+)
 )
 ;
 if
