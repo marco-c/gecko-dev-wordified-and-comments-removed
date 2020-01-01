@@ -236,6 +236,7 @@ __WATCOMC__
 #
 define
 HAVE_VA_LIST_AS_ARRAY
+1
 #
 endif
 #
