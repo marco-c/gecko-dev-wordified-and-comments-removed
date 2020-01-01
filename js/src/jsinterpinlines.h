@@ -844,9 +844,11 @@ true
 }
 if
 (
-js_IsTypedArray
-(
 obj
+-
+>
+isTypedArray
+(
 )
 )
 {

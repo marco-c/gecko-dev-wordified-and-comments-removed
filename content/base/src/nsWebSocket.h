@@ -411,6 +411,9 @@ aIsBinary
 PRUint32
 &
 aOutgoingLength
+JSContext
+*
+aCx
 )
 ;
 nsresult

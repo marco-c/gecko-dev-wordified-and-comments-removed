@@ -1084,15 +1084,15 @@ scriptable
 builtinclass
 uuid
 (
-dcba5412
+ba7635d7
 -
-42b4
+98af
 -
-4897
+41ac
 -
-b2f4
+8bf9
 -
-56a5cae7ef2d
+9f08cf441958
 )
 ]
 interface
@@ -3806,6 +3806,9 @@ long
 usage
 )
 ;
+[
+implicit_jscontext
+]
 void
 bufferSubData
 (
@@ -3897,6 +3900,9 @@ nsIWebGLShader
 shader
 )
 ;
+[
+implicit_jscontext
+]
 void
 compressedTexImage2D
 (
@@ -3923,6 +3929,9 @@ jsval
 pixels
 )
 ;
+[
+implicit_jscontext
+]
 void
 compressedTexSubImage2D
 (
@@ -4727,6 +4736,9 @@ WebGLfloat
 units
 )
 ;
+[
+implicit_jscontext
+]
 void
 readPixels
 (
@@ -4938,6 +4950,7 @@ dummy
 ;
 [
 noscript
+implicit_jscontext
 ]
 void
 texImage2D_array
@@ -4973,6 +4986,7 @@ pixels
 ;
 [
 noscript
+implicit_jscontext
 ]
 void
 texImage2D_imageData
@@ -5050,6 +5064,7 @@ dummy
 ;
 [
 noscript
+implicit_jscontext
 ]
 void
 texSubImage2D_array
@@ -5085,6 +5100,7 @@ pixels
 ;
 [
 noscript
+implicit_jscontext
 ]
 void
 texSubImage2D_imageData

@@ -57,7 +57,7 @@ h
 #
 include
 "
-jstypedarray
+jsfriendapi
 .
 h
 "
@@ -4353,6 +4353,12 @@ nsIVariant
 >
 variant
 ;
+RuntimeService
+:
+:
+AutoSafeJSContext
+cx
+;
 if
 (
 mBody
@@ -4385,12 +4391,6 @@ null
 !
 "
 )
-;
-RuntimeService
-:
-:
-AutoSafeJSContext
-cx
 ;
 int
 error
@@ -4651,6 +4651,7 @@ mXHR
 Send
 (
 variant
+cx
 )
 ;
 if
@@ -7603,9 +7604,10 @@ valToClone
 ;
 if
 (
-js_IsArrayBuffer
+JS_IsArrayBufferObject
 (
 aBody
+cx
 )
 |
 |

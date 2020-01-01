@@ -444,13 +444,6 @@ h
 #
 include
 "
-jstypedarray
-.
-h
-"
-#
-include
-"
 nsStringBuffer
 .
 h
@@ -475,6 +468,13 @@ include
 mozilla
 /
 Telemetry
+.
+h
+"
+#
+include
+"
+jsfriendapi
 .
 h
 "
@@ -10170,6 +10170,9 @@ const
 nsAString
 &
 aBody
+JSContext
+*
+aCx
 )
 {
 nsresult
@@ -10179,6 +10182,7 @@ NS_OK
 ;
 SendAsBinary
 (
+aCx
 aBody
 rv
 )
@@ -10193,6 +10197,9 @@ nsXMLHttpRequest
 :
 SendAsBinary
 (
+JSContext
+*
+aCx
 const
 nsAString
 &
@@ -10393,6 +10400,7 @@ aRv
 Send
 (
 variant
+aCx
 )
 ;
 }
@@ -10714,6 +10722,9 @@ GetRequestBody
 JSObject
 *
 aArrayBuffer
+JSContext
+*
+aCx
 nsIInputStream
 *
 *
@@ -10728,9 +10739,10 @@ aCharset
 {
 NS_ASSERTION
 (
-js_IsArrayBuffer
+JS_IsArrayBufferObject
 (
 aArrayBuffer
+aCx
 )
 "
 Not
@@ -10759,6 +10771,7 @@ length
 JS_GetArrayBufferByteLength
 (
 aArrayBuffer
+aCx
 )
 ;
 char
@@ -10774,6 +10787,7 @@ char
 JS_GetArrayBufferData
 (
 aArrayBuffer
+aCx
 )
 )
 ;
@@ -10821,6 +10835,9 @@ GetRequestBody
 nsIVariant
 *
 aBody
+JSContext
+*
+aCx
 nsIInputStream
 *
 *
@@ -11078,9 +11095,10 @@ realVal
 &
 &
 (
-js_IsArrayBuffer
+JS_IsArrayBufferObject
 (
 obj
+aCx
 )
 )
 )
@@ -11089,6 +11107,7 @@ return
 GetRequestBody
 (
 obj
+aCx
 aResult
 aContentType
 aCharset
@@ -11203,6 +11222,9 @@ GetRequestBody
 nsIVariant
 *
 aVariant
+JSContext
+*
+aCx
 const
 Nullable
 <
@@ -11233,6 +11255,7 @@ return
 GetRequestBody
 (
 aVariant
+aCx
 aResult
 aContentType
 aCharset
@@ -11289,6 +11312,7 @@ GetRequestBody
 value
 .
 mArrayBuffer
+aCx
 aResult
 aContentType
 aCharset
@@ -11504,11 +11528,15 @@ Send
 nsIVariant
 *
 aBody
+JSContext
+*
+aCx
 )
 {
 return
 Send
 (
+aCx
 aBody
 Nullable
 <
@@ -11525,6 +11553,9 @@ nsXMLHttpRequest
 :
 Send
 (
+JSContext
+*
+aCx
 nsIVariant
 *
 aVariant
@@ -12004,6 +12035,7 @@ rv
 GetRequestBody
 (
 aVariant
+aCx
 aBody
 getter_AddRefs
 (

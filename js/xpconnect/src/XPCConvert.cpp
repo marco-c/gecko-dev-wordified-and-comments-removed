@@ -94,13 +94,6 @@ h
 #
 include
 "
-jstypedarray
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -7763,6 +7756,9 @@ static
 JSBool
 CheckTargetAndPopulate
 (
+JSContext
+*
+cx
 const
 nsXPTType
 &
@@ -7863,9 +7859,10 @@ memcpy
 (
 *
 output
-JS_GetTypedArrayData
+JS_GetArrayBufferViewData
 (
 tArr
+cx
 )
 byteSize
 )
@@ -7919,11 +7916,22 @@ param
 "
 )
 ;
+JSContext
+*
+cx
+=
+ccx
+.
+GetJSContext
+(
+)
+;
 NS_ABORT_IF_FALSE
 (
-js_IsTypedArray
+JS_IsTypedArrayObject
 (
 jsArray
+cx
 )
 "
 not
@@ -7939,6 +7947,7 @@ len
 JS_GetTypedArrayLength
 (
 jsArray
+cx
 )
 ;
 if
@@ -7972,6 +7981,7 @@ switch
 JS_GetTypedArrayType
 (
 jsArray
+cx
 )
 )
 {
@@ -7979,7 +7989,7 @@ case
 js
 :
 :
-TypedArray
+ArrayBufferView
 :
 :
 TYPE_INT8
@@ -7989,6 +7999,7 @@ if
 !
 CheckTargetAndPopulate
 (
+cx
 nsXPTType
 :
 :
@@ -8016,7 +8027,7 @@ case
 js
 :
 :
-TypedArray
+ArrayBufferView
 :
 :
 TYPE_UINT8
@@ -8025,7 +8036,7 @@ case
 js
 :
 :
-TypedArray
+ArrayBufferView
 :
 :
 TYPE_UINT8_CLAMPED
@@ -8035,6 +8046,7 @@ if
 !
 CheckTargetAndPopulate
 (
+cx
 nsXPTType
 :
 :
@@ -8062,7 +8074,7 @@ case
 js
 :
 :
-TypedArray
+ArrayBufferView
 :
 :
 TYPE_INT16
@@ -8072,6 +8084,7 @@ if
 !
 CheckTargetAndPopulate
 (
+cx
 nsXPTType
 :
 :
@@ -8099,7 +8112,7 @@ case
 js
 :
 :
-TypedArray
+ArrayBufferView
 :
 :
 TYPE_UINT16
@@ -8109,6 +8122,7 @@ if
 !
 CheckTargetAndPopulate
 (
+cx
 nsXPTType
 :
 :
@@ -8136,7 +8150,7 @@ case
 js
 :
 :
-TypedArray
+ArrayBufferView
 :
 :
 TYPE_INT32
@@ -8146,6 +8160,7 @@ if
 !
 CheckTargetAndPopulate
 (
+cx
 nsXPTType
 :
 :
@@ -8173,7 +8188,7 @@ case
 js
 :
 :
-TypedArray
+ArrayBufferView
 :
 :
 TYPE_UINT32
@@ -8183,6 +8198,7 @@ if
 !
 CheckTargetAndPopulate
 (
+cx
 nsXPTType
 :
 :
@@ -8210,7 +8226,7 @@ case
 js
 :
 :
-TypedArray
+ArrayBufferView
 :
 :
 TYPE_FLOAT32
@@ -8220,6 +8236,7 @@ if
 !
 CheckTargetAndPopulate
 (
+cx
 nsXPTType
 :
 :
@@ -8247,7 +8264,7 @@ case
 js
 :
 :
-TypedArray
+ArrayBufferView
 :
 :
 TYPE_FLOAT64
@@ -8257,6 +8274,7 @@ if
 !
 CheckTargetAndPopulate
 (
+cx
 nsXPTType
 :
 :
@@ -8466,9 +8484,10 @@ s
 ;
 if
 (
-js_IsTypedArray
+JS_IsTypedArrayObject
 (
 jsarray
+cx
 )
 )
 {

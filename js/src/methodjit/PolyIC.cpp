@@ -14331,9 +14331,11 @@ typeInferenceEnabled
 )
 &
 &
-js_IsTypedArray
-(
 obj
+-
+>
+isTypedArray
+(
 )
 )
 return
@@ -16192,9 +16194,11 @@ typeInferenceEnabled
 )
 &
 &
-js_IsTypedArray
-(
 obj
+-
+>
+isTypedArray
+(
 )
 )
 return

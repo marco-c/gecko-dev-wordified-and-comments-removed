@@ -36,13 +36,6 @@ h
 #
 include
 "
-jstypedarray
-.
-h
-"
-#
-include
-"
 nsJSUtils
 .
 h
@@ -95,12 +88,6 @@ exceptions
 :
 :
 ThrowFileExceptionForCode
-;
-using
-js
-:
-:
-ArrayBuffer
 ;
 namespace
 {
@@ -639,7 +626,7 @@ JSObject
 *
 jsArrayBuffer
 =
-js_CreateArrayBuffer
+JS_NewArrayBuffer
 (
 aCx
 blobSize
@@ -661,6 +648,7 @@ bufferLength
 JS_GetArrayBufferByteLength
 (
 jsArrayBuffer
+aCx
 )
 ;
 uint8_t
@@ -670,6 +658,7 @@ arrayBuffer
 JS_GetArrayBufferData
 (
 jsArrayBuffer
+aCx
 )
 ;
 rv

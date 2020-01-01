@@ -597,6 +597,10 @@ testTrap
 .
 cpp
 \
+testTypedArrays
+.
+cpp
+\
 testUTF8
 .
 cpp
