@@ -3,10 +3,10 @@
 ENTITY
 search
 .
-placeholder
+placeholder2
 "
 Search
-Preferences
+Settings
 "
 >
 <
@@ -24,11 +24,11 @@ Clear
 ENTITY
 newpref
 .
-label
+label2
 "
 Add
 a
 New
-Preference
+Setting
 "
 >
