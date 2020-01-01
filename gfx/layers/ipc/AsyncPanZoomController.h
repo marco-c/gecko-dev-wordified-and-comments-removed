@@ -709,7 +709,7 @@ mMonitor
 TimeStamp
 mLastSampleTime
 ;
-int32_t
+uint32_t
 mLastEventTime
 ;
 TimeStamp
