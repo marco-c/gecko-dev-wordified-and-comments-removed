@@ -303,6 +303,10 @@ allow_all_arguments
 '
         
 '
+conditions
+'
+        
+'
 arguments
 '
     
@@ -325,9 +329,13 @@ None
 allow_all_arguments
 =
 False
+conditions
+=
+None
 arguments
 =
 None
+        
 pass_context
 =
 False
@@ -369,6 +377,15 @@ self
 allow_all_arguments
 =
 allow_all_arguments
+        
+self
+.
+conditions
+=
+conditions
+or
+[
+]
         
 self
 .

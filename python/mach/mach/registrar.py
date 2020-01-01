@@ -64,6 +64,12 @@ categories
 =
 {
 }
+        
+self
+.
+require_conditions
+=
+False
     
 def
 register_command_handler
