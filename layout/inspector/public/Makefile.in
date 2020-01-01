@@ -460,6 +460,14 @@ inIDOMUtils
 .
 idl
 \
+nsIDOMFontFace
+.
+idl
+\
+nsIDOMFontFaceList
+.
+idl
+\
 (
 NULL
 )

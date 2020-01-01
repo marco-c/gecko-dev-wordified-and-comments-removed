@@ -53,6 +53,9 @@ NS_IRANGE_IID
 }
 }
 class
+nsIDOMFontFaceList
+;
+class
 nsIRange
 :
 public
@@ -289,6 +292,17 @@ nsIDOMRange
 *
 *
 aNewRange
+)
+=
+0
+;
+NS_IMETHOD
+GetUsedFontFaces
+(
+nsIDOMFontFaceList
+*
+*
+aResult
 )
 =
 0
