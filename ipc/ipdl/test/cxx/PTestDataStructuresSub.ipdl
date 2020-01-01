@@ -1,4 +1,7 @@
 include
+PTestDataStructuresCommon
+;
+include
 protocol
 PTestDataStructures
 ;
