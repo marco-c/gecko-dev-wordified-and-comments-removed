@@ -2081,7 +2081,7 @@ MOZ_ASSERT
 js
 :
 :
-IsIncrementalBarrierNeeded
+IsIncrementalGCInProgress
 (
 trc
 -
