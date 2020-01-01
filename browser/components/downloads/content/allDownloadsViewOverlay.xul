@@ -548,7 +548,11 @@ goUpdateDownloadCommands
 onselect
 =
 "
-goUpdateDownloadCommands
+this
+.
+_placesView
+.
+onSelect
 (
 )
 ;
