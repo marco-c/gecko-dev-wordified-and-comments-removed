@@ -4435,14 +4435,6 @@ getContentResolver
 )
 )
 ;
-getFavicons
-(
-)
-.
-clearFavicons
-(
-)
-;
 }
 public
 StartupMode
