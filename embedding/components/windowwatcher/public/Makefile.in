@@ -469,10 +469,6 @@ nsPIWindowWatcher
 .
 idl
 \
-nsIAuthPromptWrapper
-.
-idl
-\
 nsIPromptFactory
 .
 idl

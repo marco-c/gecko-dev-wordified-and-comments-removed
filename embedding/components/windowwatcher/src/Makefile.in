@@ -425,9 +425,6 @@ LIBXUL_LIBRARY
 1
 CPPSRCS
 =
-nsPrompt
-.
-cpp
 \
 nsWWJSUtils
 .
@@ -450,10 +447,6 @@ CPPSRCS
 +
 =
 nsDialogParamBlock
-.
-cpp
-\
-nsPromptService
 .
 cpp
 \
