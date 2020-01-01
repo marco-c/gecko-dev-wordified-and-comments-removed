@@ -535,7 +535,7 @@ VPATH
 srcdir
 )
 /
-ion
+jit
 VPATH
 +
 =
@@ -543,7 +543,7 @@ VPATH
 srcdir
 )
 /
-ion
+jit
 /
 shared
 ifeq
@@ -571,7 +571,7 @@ VPATH
 srcdir
 )
 /
-ion
+jit
 /
 x64
 else
@@ -582,7 +582,7 @@ VPATH
 srcdir
 )
 /
-ion
+jit
 /
 x86
 endif
@@ -605,7 +605,7 @@ VPATH
 srcdir
 )
 /
-ion
+jit
 /
 arm
 endif

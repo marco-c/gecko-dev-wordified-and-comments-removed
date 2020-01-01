@@ -34,7 +34,7 @@ h
 #
 include
 "
-ion
+jit
 /
 BaselineJIT
 .
@@ -72,7 +72,7 @@ JS_ION
 #
 include
 "
-ion
+jit
 /
 Ion
 .
@@ -81,7 +81,7 @@ h
 #
 include
 "
-ion
+jit
 /
 IonCompartment
 .
@@ -90,7 +90,7 @@ h
 #
 include
 "
-ion
+jit
 /
 MIR
 .
@@ -99,7 +99,7 @@ h
 #
 include
 "
-ion
+jit
 /
 MIRGraph
 .
