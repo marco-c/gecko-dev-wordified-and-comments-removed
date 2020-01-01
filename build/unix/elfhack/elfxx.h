@@ -2317,6 +2317,15 @@ char
 ei_data
 )
 ;
+ElfValue
+*
+getValueForType
+(
+unsigned
+int
+tag
+)
+;
 ElfSection
 *
 getSectionForType
