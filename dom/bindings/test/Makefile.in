@@ -431,14 +431,6 @@ test_traceProtos
 .
 html
 \
-test_forOf
-.
-html
-\
-forOf_iframe
-.
-html
-\
 (
 NULL
 )
