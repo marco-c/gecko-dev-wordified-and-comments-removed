@@ -5761,6 +5761,15 @@ break
 case
 MSG_DNS_LOOKUP_COMPLETE
 :
+if
+(
+mDNSRequest
+)
+SendStatus
+(
+STATUS_RESOLVED
+)
+;
 SOCKET_LOG
 (
 (

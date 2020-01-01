@@ -1007,6 +1007,13 @@ STATUS_RESOLVING
 const
 unsigned
 long
+STATUS_RESOLVED
+=
+0x804b000b
+;
+const
+unsigned
+long
 STATUS_CONNECTING_TO
 =
 0x804b0007

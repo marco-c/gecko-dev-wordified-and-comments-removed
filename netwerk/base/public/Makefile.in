@@ -687,6 +687,10 @@ nsISystemProxySettings
 .
 idl
 \
+nsITimedChannel
+.
+idl
+\
 nsIUnicharStreamLoader
 .
 idl
