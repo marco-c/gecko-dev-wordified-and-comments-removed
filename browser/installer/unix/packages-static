@@ -639,6 +639,13 @@ bin
 /
 components
 /
+fuel
+.
+xpt
+bin
+/
+components
+/
 gfx
 .
 xpt
@@ -1213,6 +1220,13 @@ bin
 components
 /
 FeedWriter
+.
+js
+bin
+/
+components
+/
+fuelApplication
 .
 js
 bin
