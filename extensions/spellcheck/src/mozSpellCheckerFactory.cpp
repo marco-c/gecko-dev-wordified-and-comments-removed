@@ -274,6 +274,7 @@ rv
 ;
 }
 static
+const
 nsModuleComponentInfo
 components
 [

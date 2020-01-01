@@ -803,6 +803,7 @@ NS_GENERIC_FACTORY_CONSTRUCTOR
 nsUnknownContentTypeHandler
 )
 static
+const
 nsModuleComponentInfo
 info
 [

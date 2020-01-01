@@ -357,6 +357,7 @@ mContractID
 ;
 }
 static
+const
 nsModuleComponentInfo
 components
 [

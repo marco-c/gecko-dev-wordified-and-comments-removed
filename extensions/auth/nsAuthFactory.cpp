@@ -712,6 +712,7 @@ NS_GENERIC_FACTORY_CONSTRUCTOR
 nsAuthSASL
 )
 static
+const
 nsModuleComponentInfo
 components
 [

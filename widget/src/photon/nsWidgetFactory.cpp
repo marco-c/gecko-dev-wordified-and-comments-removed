@@ -183,6 +183,7 @@ nsBidiKeyboard
 #
 endif
 static
+const
 nsModuleComponentInfo
 components
 [

@@ -66,6 +66,7 @@ NS_GENERIC_FACTORY_CONSTRUCTOR
 nsSemanticUnitScanner
 )
 static
+const
 nsModuleComponentInfo
 components
 [
