@@ -269,7 +269,7 @@ exn_finalize
 NULL
 NULL
 NULL
-Exception
+NULL
 NULL
 NULL
 JS_CLASS_TRACE
