@@ -214,7 +214,7 @@ Shutdown
 (
 )
 ;
-void
+bool
 Update
 (
 nsIDOMGeoPosition
