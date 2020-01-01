@@ -4485,7 +4485,7 @@ class
 nsDisplayZoom
 :
 public
-nsDisplayWrapList
+nsDisplayOwnLayer
 {
 public
 :
