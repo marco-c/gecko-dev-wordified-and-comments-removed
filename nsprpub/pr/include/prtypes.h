@@ -1258,8 +1258,7 @@ PRPtrdiff
 ifdef
 _WIN64
 typedef
-unsigned
-__int64
+PRUint64
 PRUptrdiff
 ;
 #
@@ -1327,12 +1326,11 @@ endif
 ifdef
 _WIN64
 typedef
-__int64
+PRInt64
 PRWord
 ;
 typedef
-unsigned
-__int64
+PRUint64
 PRUword
 ;
 #

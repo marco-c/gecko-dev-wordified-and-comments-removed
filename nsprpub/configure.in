@@ -587,7 +587,7 @@ MOD_MINOR_VERSION
 8
 MOD_PATCH_VERSION
 =
-5
+6
 NSPR_MODNAME
 =
 nspr20
@@ -5353,7 +5353,7 @@ Wcoverage
 -
 mismatch
 -
-freoder
+freorder
 -
 blocks
 -
@@ -12430,12 +12430,14 @@ s
 |
 .
 *
+\
 (
 [
 0
 -
 9
 ]
+\
 +
 \
 .
@@ -12444,6 +12446,7 @@ s
 -
 9
 ]
+\
 +
 \
 .
@@ -12452,7 +12455,9 @@ s
 -
 9
 ]
+\
 +
+\
 (
 \
 .
@@ -12461,9 +12466,13 @@ s
 -
 9
 ]
+\
 +
+\
 )
+\
 ?
+\
 )
 .
 *
@@ -12494,7 +12503,7 @@ v
 |
 sed
 -
-nre
+ne
 "
 _MSVC_VER_FILTER
 "
@@ -12583,7 +12592,8 @@ test
 "
 _CC_MAJOR_VERSION
 "
-=
+-
+eq
 "
 14
 "
@@ -12652,7 +12662,7 @@ elif
 test
 _CC_MAJOR_VERSION
 -
-gt
+ge
 15
 ;
 then

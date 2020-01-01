@@ -7600,7 +7600,7 @@ MOD_MINOR_VERSION
 8
 MOD_PATCH_VERSION
 =
-5
+6
 NSPR_MODNAME
 =
 nspr20
@@ -22381,7 +22381,7 @@ Wcoverage
 -
 mismatch
 -
-freoder
+freorder
 -
 blocks
 -
@@ -30484,12 +30484,14 @@ s
 |
 .
 *
+\
 (
 [
 0
 -
 9
 ]
+\
 +
 \
 .
@@ -30498,6 +30500,7 @@ s
 -
 9
 ]
+\
 +
 \
 .
@@ -30506,7 +30509,9 @@ s
 -
 9
 ]
+\
 +
+\
 (
 \
 .
@@ -30515,9 +30520,13 @@ s
 -
 9
 ]
+\
 +
+\
 )
+\
 ?
+\
 )
 .
 *
@@ -30543,7 +30552,7 @@ v
 |
 sed
 -
-nre
+ne
 "
 _MSVC_VER_FILTER
 "
@@ -30632,7 +30641,8 @@ test
 "
 _CC_MAJOR_VERSION
 "
-=
+-
+eq
 "
 14
 "
@@ -30665,7 +30675,7 @@ elif
 test
 _CC_MAJOR_VERSION
 -
-gt
+ge
 15
 ;
 then
@@ -33074,7 +33084,7 @@ echo
 "
 configure
 :
-4713
+4712
 :
 checking
 for
@@ -33136,7 +33146,7 @@ ac_ext
 EOF
 #
 line
-4718
+4717
 "
 configure
 "
@@ -33181,7 +33191,7 @@ eval
 echo
 configure
 :
-4723
+4722
 :
 \
 "
@@ -36866,7 +36876,7 @@ echo
 "
 configure
 :
-5372
+5371
 :
 checking
 for
@@ -36960,7 +36970,7 @@ ac_ext
 EOF
 #
 line
-5380
+5379
 "
 configure
 "
@@ -37038,7 +37048,7 @@ eval
 echo
 configure
 :
-5391
+5390
 :
 \
 "
@@ -37201,7 +37211,7 @@ echo
 "
 configure
 :
-5408
+5407
 :
 checking
 for
@@ -37261,7 +37271,7 @@ ac_ext
 EOF
 #
 line
-5413
+5412
 "
 configure
 "
@@ -37304,7 +37314,7 @@ eval
 echo
 configure
 :
-5418
+5417
 :
 \
 "
@@ -37520,7 +37530,7 @@ echo
 "
 configure
 :
-5451
+5450
 :
 checking
 whether
@@ -37594,7 +37604,7 @@ ac_ext
 EOF
 #
 line
-5457
+5456
 "
 configure
 "
@@ -37685,7 +37695,7 @@ ac_ext
 EOF
 #
 line
-5475
+5474
 "
 configure
 "
@@ -37806,7 +37816,7 @@ echo
 "
 configure
 :
-5499
+5498
 :
 checking
 for
@@ -37864,7 +37874,7 @@ ac_ext
 EOF
 #
 line
-5504
+5503
 "
 configure
 "
@@ -38033,7 +38043,7 @@ eval
 echo
 configure
 :
-5527
+5526
 :
 \
 "
@@ -38281,7 +38291,7 @@ echo
 "
 configure
 :
-5568
+5567
 :
 checking
 for
@@ -38528,7 +38538,7 @@ echo
 "
 configure
 :
-5610
+5609
 :
 checking
 for
@@ -38736,7 +38746,7 @@ echo
 "
 configure
 :
-5632
+5631
 :
 checking
 for
@@ -38944,7 +38954,7 @@ echo
 "
 configure
 :
-5654
+5653
 :
 checking
 for
@@ -39152,7 +39162,7 @@ echo
 "
 configure
 :
-5676
+5675
 :
 checking
 for
@@ -39869,7 +39879,7 @@ echo
 "
 configure
 :
-5808
+5807
 :
 checking
 whether
@@ -40083,7 +40093,7 @@ echo
 "
 configure
 :
-5831
+5830
 :
 checking
 whether
