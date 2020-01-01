@@ -666,7 +666,7 @@ onunload
 "
 SidebarUtils
 .
-clearURLFromStausBar
+clearURLFromStatusBar
 (
 )
 ;
@@ -923,7 +923,7 @@ onmouseout
 "
 SidebarUtils
 .
-clearURLFromStausBar
+clearURLFromStatusBar
 (
 )
 ;

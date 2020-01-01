@@ -794,7 +794,7 @@ null
 else
 this
 .
-clearURLFromStausBar
+clearURLFromStatusBar
 (
 )
 ;
@@ -802,15 +802,15 @@ clearURLFromStausBar
 else
 this
 .
-clearURLFromStausBar
+clearURLFromStatusBar
 (
 )
 ;
 }
-clearURLFromStausBar
+clearURLFromStatusBar
 :
 function
-SU_clearURLFromStausBar
+SU_clearURLFromStatusBar
 (
 )
 {
