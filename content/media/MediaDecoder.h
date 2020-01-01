@@ -404,6 +404,12 @@ Play
 )
 ;
 virtual
+nsresult
+PlaybackRateChanged
+(
+)
+;
+virtual
 void
 Pause
 (
@@ -1121,8 +1127,6 @@ int
 aRate
 bool
 aHasAudio
-bool
-aHasVideo
 MetadataTags
 *
 aTags
@@ -1151,8 +1155,6 @@ int
 aRate
 bool
 aHasAudio
-bool
-aHasVideo
 MetadataTags
 *
 aTags

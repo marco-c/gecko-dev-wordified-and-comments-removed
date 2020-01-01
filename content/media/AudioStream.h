@@ -151,6 +151,9 @@ mInRate
 bool
 mPreservesPitch
 ;
+double
+mPlaybackRate
+;
 bool
 mCompensatingLatency
 ;
