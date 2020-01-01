@@ -523,6 +523,10 @@ nsWindow
 .
 cpp
 \
+nsLookAndFeel
+.
+cpp
+\
 nsToolkit
 .
 cpp
