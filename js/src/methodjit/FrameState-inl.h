@@ -2337,6 +2337,10 @@ masm
 )
 const
 {
+#
+if
+defined
+JS_PUNBOX64
 Address
 to
 =
@@ -2370,10 +2374,6 @@ copyOf
 (
 )
 ;
-#
-if
-defined
-JS_PUNBOX64
 if
 (
 !
