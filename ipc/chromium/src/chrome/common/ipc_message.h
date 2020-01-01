@@ -1169,8 +1169,7 @@ SpecialRoutingIDs
 {
 MSG_ROUTING_NONE
 =
--
-2
+kint32min
 MSG_ROUTING_CONTROL
 =
 kint32max
