@@ -31891,10 +31891,6 @@ FreeOp
 fop
 )
 {
-contribution
-=
-0
-;
 if
 (
 singleton
