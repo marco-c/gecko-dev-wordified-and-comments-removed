@@ -498,7 +498,13 @@ ISmsManager
 {
 public
 void
-init
+start
+(
+)
+;
+public
+void
+stop
 (
 )
 ;
