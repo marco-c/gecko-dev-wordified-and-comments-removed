@@ -312,7 +312,17 @@ MAX_SKIP_BYTES
 (
 NJ_PAGE_SIZE
 -
+(
 LIR_FAR_SLOTS
++
+1
+)
+*
+sizeof
+(
+LIns
+*
+)
 )
 #
 define
