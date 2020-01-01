@@ -2888,6 +2888,19 @@ metaCount
 ;
 }
 }
+if
+(
+(
+count
+%
+MAX_UPLOAD_RECORDS
+)
++
+metaCount
+>
+0
+)
+{
 this
 .
 _log
@@ -2959,6 +2972,7 @@ data
 .
 modified
 ;
+}
 }
 this
 .
