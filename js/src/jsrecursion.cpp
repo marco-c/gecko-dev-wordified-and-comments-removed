@@ -122,7 +122,7 @@ double
 -
 mRecorder
 .
-tree
+treeInfo
 -
 >
 nativeStackBase
@@ -220,7 +220,7 @@ sp
 -
 mRecorder
 .
-tree
+treeInfo
 -
 >
 nativeStackBase
@@ -558,7 +558,7 @@ callerHeight
 unsigned
 ngslots
 =
-tree
+treeInfo
 -
 >
 globalSlots
@@ -839,7 +839,7 @@ double
 )
 )
 -
-tree
+treeInfo
 -
 >
 nativeStackBase
@@ -1302,7 +1302,7 @@ else
 {
 JS_ASSERT
 (
-tree
+treeInfo
 -
 >
 nStackTypes
@@ -1344,7 +1344,7 @@ typeMap
 i
 ]
 =
-tree
+treeInfo
 -
 >
 typeMap
@@ -1680,7 +1680,7 @@ VisitGlobalSlots
 slotMap
 cx
 *
-tree
+treeInfo
 -
 >
 globalSlots
@@ -1758,7 +1758,7 @@ recursive_pc
 }
 JS_ASSERT
 (
-tree
+treeInfo
 -
 >
 recursion
@@ -1769,7 +1769,7 @@ Recursion_Disallowed
 ;
 if
 (
-tree
+treeInfo
 -
 >
 recursion
@@ -1777,7 +1777,7 @@ recursion
 =
 Recursion_Detected
 )
-tree
+treeInfo
 -
 >
 recursion
@@ -2239,7 +2239,7 @@ frameDepth
 unsigned
 numGlobalSlots
 =
-tree
+treeInfo
 -
 >
 globalSlots
@@ -2368,7 +2368,7 @@ double
 )
 )
 -
-tree
+treeInfo
 -
 >
 nativeStackBase
@@ -3247,7 +3247,7 @@ VisitGlobalSlots
 slotMap
 cx
 *
-tree
+treeInfo
 -
 >
 globalSlots
@@ -3341,7 +3341,7 @@ exitType
 ;
 JS_ASSERT
 (
-tree
+treeInfo
 -
 >
 recursion
@@ -3485,13 +3485,13 @@ nfixed
 ;
 JS_ASSERT
 (
-tree
+treeInfo
 -
 >
 maxNativeStackSlots
 >
 =
-tree
+treeInfo
 -
 >
 nativeStackBase
@@ -3507,12 +3507,12 @@ guardSlots
 =
 slots
 +
-tree
+treeInfo
 -
 >
 maxNativeStackSlots
 -
-tree
+treeInfo
 -
 >
 nativeStackBase
@@ -3785,7 +3785,7 @@ n
 ;
 JS_ASSERT
 (
-tree
+treeInfo
 -
 >
 recursion
@@ -3794,7 +3794,7 @@ recursion
 Recursion_Disallowed
 )
 ;
-tree
+treeInfo
 -
 >
 recursion
@@ -4715,7 +4715,7 @@ lirbuf
 >
 sp
 -
-tree
+treeInfo
 -
 >
 nativeStackBase
