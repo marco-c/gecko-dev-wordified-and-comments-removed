@@ -565,10 +565,6 @@ EXTRA_DSO_LIBS
 =
 xul
 endif
-else
-EXTRA_DSO_LIBS
-=
-tracemalloc
 endif
 LIBS
 +

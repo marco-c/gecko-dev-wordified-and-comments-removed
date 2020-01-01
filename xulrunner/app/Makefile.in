@@ -868,13 +868,6 @@ ENTRY
 :
 wmainCRTStartup
 endif
-ifdef
-NS_TRACE_MALLOC
-EXTRA_DSO_LIBS
-+
-=
-tracemalloc
-endif
 ifeq
 (
 (

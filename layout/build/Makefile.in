@@ -1564,13 +1564,6 @@ MOZ_JS_LIBS
 NULL
 )
 ifdef
-NS_TRACE_MALLOC
-EXTRA_DSO_LIBS
-+
-=
-tracemalloc
-endif
-ifdef
 MOZ_ENABLE_GTK2
 EXTRA_DSO_LDOPTS
 +
