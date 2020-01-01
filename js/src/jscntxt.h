@@ -1700,9 +1700,6 @@ pushSegmentAndFrame
 JSContext
 *
 cx
-JSObject
-*
-initialVarObj
 JSFrameRegs
 *
 regs
@@ -4938,15 +4935,6 @@ this
 regs
 =
 regs
-;
-if
-(
-!
-regs
-)
-resetCompartment
-(
-)
 ;
 }
 JSArenaPool

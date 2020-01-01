@@ -26656,13 +26656,6 @@ restoreSegment
 (
 )
 ;
-cx
--
->
-resetCompartment
-(
-)
-;
 }
 JS_PUBLIC_API
 (
