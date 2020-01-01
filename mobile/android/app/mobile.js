@@ -6630,3 +6630,16 @@ enabled
 true
 )
 ;
+pref
+(
+"
+app
+.
+orientation
+.
+default
+"
+"
+"
+)
+;
