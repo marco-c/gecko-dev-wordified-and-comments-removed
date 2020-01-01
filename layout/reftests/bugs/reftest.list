@@ -2317,12 +2317,6 @@ html
 ref
 .
 html
-asserts
-(
-30
--
-35
-)
 !
 =
 200774
@@ -2337,10 +2331,6 @@ blank
 really
 a
 crashtest
-;
-assertions
-bug
-563837
 =
 =
 201215
@@ -13883,10 +13873,6 @@ html
 ref
 .
 html
-asserts
-(
-10
-)
 =
 =
 417676
@@ -13897,9 +13883,6 @@ html
 ref
 .
 html
-#
-bug
-563837
 asserts
 (
 1
@@ -14780,7 +14763,7 @@ ref
 html
 asserts
 (
-15
+3
 )
 !
 =
@@ -14801,10 +14784,6 @@ reftest
 -
 print
 )
-;
-assertions
-bug
-563837
 =
 =
 427129
