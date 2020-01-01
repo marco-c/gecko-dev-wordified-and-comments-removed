@@ -570,9 +570,9 @@ html
 (
 NULL
 )
-ifneq
+ifeq
 (
-mobile
+browser
 (
 MOZ_BUILD_APP
 )
