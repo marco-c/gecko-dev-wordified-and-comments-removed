@@ -247,6 +247,9 @@ attribute
 DOMString
 shape
 ;
+[
+SetterThrows
+]
 stringifier
 attribute
 DOMString
