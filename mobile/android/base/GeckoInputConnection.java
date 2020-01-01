@@ -4032,6 +4032,10 @@ isPreIme
 )
 ;
 }
+clampSelection
+(
+)
+;
 switch
 (
 keyCode
@@ -4255,10 +4259,6 @@ Editable
 content
 =
 getEditable
-(
-)
-;
-clampSelection
 (
 )
 ;
