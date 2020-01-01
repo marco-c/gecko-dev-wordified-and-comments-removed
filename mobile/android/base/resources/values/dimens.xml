@@ -973,7 +973,7 @@ LinearLayout
 .
 50dp
 *
-3
+2
 Views
 +
 30dp
@@ -992,7 +992,7 @@ name
 history_tab_widget_height
 "
 >
-184dp
+134dp
 <
 /
 dimen

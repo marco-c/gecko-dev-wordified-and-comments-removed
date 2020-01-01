@@ -2669,6 +2669,15 @@ Clear
 <
 !
 ENTITY
+home_top_sites_title
+"
+Top
+Sites
+"
+>
+<
+!
+ENTITY
 home_history_title
 "
 History
