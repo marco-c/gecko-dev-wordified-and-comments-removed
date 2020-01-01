@@ -1034,6 +1034,11 @@ NS_OK
 ;
 }
 }
+PR_Unlock
+(
+mLocalSourceStreamsLock
+)
+;
 return
 NS_ERROR_ILLEGAL_VALUE
 ;
