@@ -20530,6 +20530,13 @@ updateStarState
 (
 )
 ;
+if
+(
+SocialUI
+.
+enabled
+)
+{
 SocialMark
 .
 updateMarkState
@@ -20542,6 +20549,7 @@ update
 (
 )
 ;
+}
 }
 if
 (
