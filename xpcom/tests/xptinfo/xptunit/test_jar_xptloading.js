@@ -1,3 +1,8 @@
+function
+run_test
+(
+)
+{
 const
 xptiITestInterface_IID
 =
@@ -50,7 +55,10 @@ xptiITestInterface_IID
 do_check_true
 (
 id
-=
+.
+toString
+(
+)
 =
 =
 id2
@@ -64,3 +72,4 @@ match
 "
 )
 ;
+}
