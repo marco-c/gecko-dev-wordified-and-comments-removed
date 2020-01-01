@@ -2833,6 +2833,8 @@ sessionstore
 (
 GeckoApp
 .
+mAppContext
+.
 sIsGeckoReady
 ?
 "
