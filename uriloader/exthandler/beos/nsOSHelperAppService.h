@@ -89,14 +89,6 @@ PRBool
 aHandlerExists
 )
 ;
-nsresult
-LoadUriInternal
-(
-nsIURI
-*
-aURL
-)
-;
 protected
 :
 nsresult

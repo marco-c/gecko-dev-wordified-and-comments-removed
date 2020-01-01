@@ -55,14 +55,6 @@ nsAString
 _retval
 )
 ;
-nsresult
-LoadUriInternal
-(
-nsIURI
-*
-aURL
-)
-;
 NS_IMETHOD
 GetFromTypeAndExtension
 (

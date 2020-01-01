@@ -92,14 +92,6 @@ PRBool
 aHandlerExists
 )
 ;
-nsresult
-LoadUriInternal
-(
-nsIURI
-*
-aURL
-)
-;
 NS_IMETHOD
 GetApplicationDescription
 (
