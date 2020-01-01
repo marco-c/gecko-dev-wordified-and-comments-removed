@@ -329,7 +329,7 @@ protected
 :
 already_AddRefed
 <
-nsIAccessible
+nsAccessible
 >
 GetListAccessible
 (

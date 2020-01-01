@@ -639,7 +639,7 @@ matchState
 ;
 already_AddRefed
 <
-nsIAccessible
+nsAccessible
 >
 GetFirstAvailableAccessible
 (

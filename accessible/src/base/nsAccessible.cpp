@@ -13141,7 +13141,7 @@ child
 }
 already_AddRefed
 <
-nsIAccessible
+nsAccessible
 >
 nsAccessible
 :
@@ -13153,12 +13153,6 @@ nsIDOMNode
 aStartNode
 )
 {
-nsCOMPtr
-<
-nsIAccessible
->
-accessible
-;
 nsCOMPtr
 <
 nsIDOMTreeWalker
@@ -13179,6 +13173,12 @@ while
 currentNode
 )
 {
+nsRefPtr
+<
+nsAccessible
+>
+accessible
+=
 GetAccService
 (
 )
@@ -13188,10 +13188,6 @@ GetAccessibleInWeakShell
 (
 currentNode
 mWeakShell
-getter_AddRefs
-(
-accessible
-)
 )
 ;
 if

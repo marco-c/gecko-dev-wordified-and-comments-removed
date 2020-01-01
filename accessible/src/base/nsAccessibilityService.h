@@ -151,7 +151,10 @@ aIsHidden
 nsnull
 )
 ;
-nsresult
+already_AddRefed
+<
+nsAccessible
+>
 GetAccessibleInWeakShell
 (
 nsIDOMNode
@@ -160,10 +163,6 @@ aNode
 nsIWeakReference
 *
 aPresShell
-nsIAccessible
-*
-*
-aAccessible
 )
 ;
 nsAccessNode
