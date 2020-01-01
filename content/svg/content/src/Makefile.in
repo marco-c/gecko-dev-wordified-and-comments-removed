@@ -226,7 +226,7 @@ nsSVGString
 .
 cpp
 \
-nsSVGRect
+SVGRect
 .
 cpp
 \
@@ -694,10 +694,6 @@ nsSVGFeatures
 .
 h
 \
-nsSVGRect
-.
-h
-\
 SVGAttrValueWrapper
 .
 h
@@ -916,6 +912,10 @@ SVGPolygonElement
 h
 \
 SVGPolylineElement
+.
+h
+\
+SVGRect
 .
 h
 \
