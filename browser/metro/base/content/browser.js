@@ -421,6 +421,12 @@ init
 (
 )
 ;
+APZCObserver
+.
+init
+(
+)
+;
 this
 .
 contentScrollbox
@@ -1508,6 +1514,12 @@ shutdown
 (
 )
 {
+APZCObserver
+.
+shutdown
+(
+)
+;
 BrowserUI
 .
 uninit
