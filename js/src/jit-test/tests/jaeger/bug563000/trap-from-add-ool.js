@@ -26,7 +26,7 @@ function
 trap
 (
 main
-55
+60
 "
 success
 (

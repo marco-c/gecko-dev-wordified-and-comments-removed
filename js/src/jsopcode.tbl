@@ -2742,7 +2742,7 @@ JSOP_OBJECT
 object
 "
 NULL
-3
+5
 0
 1
 19
@@ -3028,7 +3028,7 @@ JSOP_NEWINIT
 newinit
 "
 NULL
-3
+5
 0
 1
 19
@@ -3060,7 +3060,7 @@ JSOP_NEWOBJECT
 newobject
 "
 NULL
-3
+5
 0
 1
 19
@@ -3946,7 +3946,7 @@ JSOP_DEFFUN
 deffun
 "
 NULL
-3
+5
 0
 0
 0
@@ -4009,7 +4009,7 @@ JSOP_LAMBDA
 lambda
 "
 NULL
-3
+5
 0
 1
 19
@@ -4311,7 +4311,7 @@ JSOP_DEFLOCALFUN
 deflocalfun
 "
 NULL
-5
+7
 0
 0
 0
@@ -5189,7 +5189,7 @@ JSOP_ENTERLET0
 enterlet0
 "
 NULL
-3
+5
 -
 1
 -
@@ -5226,7 +5226,7 @@ JSOP_ENTERLET1
 enterlet1
 "
 NULL
-3
+5
 -
 1
 -
@@ -5577,7 +5577,7 @@ JSOP_ENTERBLOCK
 enterblock
 "
 NULL
-3
+5
 0
 -
 1
@@ -6117,7 +6117,7 @@ JSOP_DEFFUN_FC
 deffun_fc
 "
 NULL
-3
+5
 0
 0
 0
@@ -6133,7 +6133,7 @@ JSOP_DEFLOCALFUN_FC
 deflocalfun_fc
 "
 NULL
-5
+7
 0
 0
 0
@@ -6151,7 +6151,7 @@ JSOP_LAMBDA_FC
 lambda_fc
 "
 NULL
-3
+5
 0
 1
 19

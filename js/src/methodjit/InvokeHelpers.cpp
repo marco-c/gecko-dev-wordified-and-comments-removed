@@ -3106,7 +3106,7 @@ script
 >
 getObject
 (
-GET_SLOTNO
+GET_UINT32_INDEX
 (
 pc
 )
