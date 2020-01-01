@@ -258,6 +258,12 @@ font_xtiny
 27mozmm
 %
 define
+font_xxtiny
+1
+.
+93mozmm
+%
+define
 touch_row
 10
 .
