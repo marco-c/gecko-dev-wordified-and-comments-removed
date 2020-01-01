@@ -461,10 +461,6 @@ nsDOMOfflineResourceList
 .
 cpp
 \
-nsDOMOfflineLoadStatusList
-.
-cpp
-\
 (
 NULL
 )
