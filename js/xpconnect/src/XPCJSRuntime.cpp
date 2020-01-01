@@ -10341,7 +10341,7 @@ Accumulate
 Telemetry
 :
 :
-GC_REASON
+GC_REASON_2
 sample
 )
 ;
