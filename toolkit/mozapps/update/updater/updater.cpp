@@ -2167,6 +2167,10 @@ fstat
 (
 fileno
 (
+(
+FILE
+*
+)
 sfile
 )
 &
@@ -3594,6 +3598,10 @@ fstat
 (
 fileno
 (
+(
+FILE
+*
+)
 ofile
 )
 &
@@ -7485,6 +7493,10 @@ fstat
 (
 fileno
 (
+(
+FILE
+*
+)
 mfile
 )
 &
