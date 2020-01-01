@@ -347,9 +347,9 @@ gRefCnt
 void
 nsXULPDGlobalObject_finalize
 (
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSObject
 *
 obj

@@ -525,11 +525,9 @@ public
 void
 finalize
 (
-JSContext
+FreeOp
 *
-cx
-bool
-background
+fop
 )
 ;
 inline
@@ -3251,11 +3249,9 @@ endif
 void
 finalize
 (
-JSContext
+FreeOp
 *
-cx
-bool
-background
+fop
 )
 ;
 void

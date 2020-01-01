@@ -33,9 +33,9 @@ static
 void
 resc_finalize
 (
-JSContext
+FreeOp
 *
-cx
+fop
 JSObject
 *
 obj
@@ -59,7 +59,7 @@ getPrivate
 )
 )
 ;
-cx
+fop
 -
 >
 delete_

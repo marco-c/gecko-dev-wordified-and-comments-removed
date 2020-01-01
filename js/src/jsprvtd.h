@@ -812,6 +812,9 @@ mode
 class
 XDRState
 ;
+class
+FreeOp
+;
 }
 namespace
 JSC

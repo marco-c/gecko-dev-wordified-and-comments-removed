@@ -11574,9 +11574,9 @@ static
 void
 sandbox_finalize
 (
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSObject
 *
 obj

@@ -770,6 +770,15 @@ initialized
 return
 ;
 }
+FreeOp
+fop
+(
+rt
+false
+false
+NULL
+)
+;
 for
 (
 AtomSet
@@ -813,7 +822,8 @@ asPtr
 >
 finalize
 (
-rt
+&
+fop
 )
 ;
 }

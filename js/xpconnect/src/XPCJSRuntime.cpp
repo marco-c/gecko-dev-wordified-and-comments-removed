@@ -3350,9 +3350,9 @@ XPCJSRuntime
 :
 FinalizeCallback
 (
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSFinalizeStatus
 status
 )
@@ -3461,9 +3461,9 @@ dyingWrappedJSArray
 XPCWrappedNativeScope
 :
 :
-FinishedMarkPhaseOfGC
+StartFinalizationPhaseOfGC
 (
-cx
+fop
 self
 )
 ;
@@ -4078,7 +4078,6 @@ XPCWrappedNativeScope
 :
 FinishedFinalizationPhaseOfGC
 (
-cx
 )
 ;
 if

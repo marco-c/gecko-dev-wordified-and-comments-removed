@@ -113,9 +113,9 @@ sw
 void
 FinalizeCallback
 (
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSFinalizeStatus
 status
 )

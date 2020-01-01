@@ -1263,8 +1263,8 @@ in
 nsIXPConnectWrappedNative
 wrapper
 in
-JSContextPtr
-cx
+JSFreeOpPtr
+fop
 in
 JSObjectPtr
 obj

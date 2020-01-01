@@ -3384,11 +3384,11 @@ args
 Argument
 (
 '
-JSContext
+JSFreeOp
 *
 '
 '
-cx
+fop
 '
 )
 Argument

@@ -2301,11 +2301,9 @@ mallocSizeOf
 void
 finalize
 (
-JSContext
+FreeOp
 *
-cx
-bool
-background
+fop
 )
 {
 }

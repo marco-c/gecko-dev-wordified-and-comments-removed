@@ -908,9 +908,9 @@ static
 void
 Finalize
 (
-JSContext
+JSFreeOp
 *
-aCx
+aFop
 JSObject
 *
 aObj
@@ -954,7 +954,7 @@ worker
 >
 _Finalize
 (
-aCx
+aFop
 )
 ;
 }
@@ -1624,9 +1624,9 @@ static
 void
 Finalize
 (
-JSContext
+JSFreeOp
 *
-aCx
+aFop
 JSObject
 *
 aObj
@@ -1670,7 +1670,7 @@ worker
 >
 _Finalize
 (
-aCx
+aFop
 )
 ;
 }

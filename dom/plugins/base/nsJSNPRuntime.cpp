@@ -471,9 +471,9 @@ static
 void
 NPObjWrapper_Finalize
 (
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSObject
 *
 obj
@@ -605,9 +605,9 @@ static
 void
 NPObjectMember_Finalize
 (
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSObject
 *
 obj
@@ -7125,9 +7125,9 @@ static
 void
 NPObjWrapper_Finalize
 (
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSObject
 *
 obj
@@ -9033,9 +9033,9 @@ static
 void
 NPObjectMember_Finalize
 (
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSObject
 *
 obj

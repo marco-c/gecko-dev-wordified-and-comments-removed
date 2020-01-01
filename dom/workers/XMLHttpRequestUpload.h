@@ -91,9 +91,9 @@ virtual
 void
 _Finalize
 (
-JSContext
+JSFreeOp
 *
-aCx
+aFop
 )
 MOZ_OVERRIDE
 ;

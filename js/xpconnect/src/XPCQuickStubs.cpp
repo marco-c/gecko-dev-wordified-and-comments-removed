@@ -663,9 +663,9 @@ static
 void
 PointerFinalize
 (
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSObject
 *
 obj

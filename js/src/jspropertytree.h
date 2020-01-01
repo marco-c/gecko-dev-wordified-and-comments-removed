@@ -442,9 +442,9 @@ static
 void
 dumpShapes
 (
-JSContext
+JSRuntime
 *
-cx
+rt
 )
 ;
 static

@@ -865,9 +865,9 @@ MapObject
 :
 finalize
 (
-JSContext
+FreeOp
 *
-cx
+fop
 JSObject
 *
 obj
@@ -899,7 +899,7 @@ getData
 (
 )
 )
-cx
+fop
 -
 >
 delete_
@@ -2021,9 +2021,9 @@ SetObject
 :
 finalize
 (
-JSContext
+FreeOp
 *
-cx
+fop
 JSObject
 *
 obj
@@ -2055,7 +2055,7 @@ getData
 (
 )
 )
-cx
+fop
 -
 >
 delete_

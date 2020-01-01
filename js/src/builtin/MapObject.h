@@ -246,9 +246,9 @@ static
 void
 finalize
 (
-JSContext
+FreeOp
 *
-cx
+fop
 JSObject
 *
 obj
@@ -412,9 +412,9 @@ static
 void
 finalize
 (
-JSContext
+FreeOp
 *
-cx
+fop
 JSObject
 *
 obj

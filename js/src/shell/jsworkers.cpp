@@ -2455,9 +2455,9 @@ static
 void
 jsFinalize
 (
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSObject
 *
 obj
@@ -3113,9 +3113,9 @@ static
 void
 jsFinalize
 (
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSObject
 *
 obj

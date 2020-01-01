@@ -1423,9 +1423,9 @@ Finalize
 nsIXPConnectWrappedNative
 *
 wrapper
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSObject
 *
 obj
@@ -2906,9 +2906,9 @@ static
 void
 ReleaseDocument
 (
-JSContext
+JSFreeOp
 *
-cx
+fop
 JSObject
 *
 obj
