@@ -4958,7 +4958,6 @@ m_buffer
 4
 4
 0
-2
 &
 pools_
 [
@@ -7078,16 +7077,6 @@ int
 }
 ;
 static
-uint32
-patchConstantPoolLoad
-(
-uint32
-load
-int32
-value
-)
-;
-static
 void
 insertTokenIntoTag
 (
@@ -7101,7 +7090,7 @@ token
 )
 ;
 static
-void
+bool
 patchConstantPoolLoad
 (
 void
