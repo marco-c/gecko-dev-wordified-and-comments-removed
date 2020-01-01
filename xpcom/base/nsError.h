@@ -17,6 +17,15 @@ h
 #
 endif
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_ERROR_MODULE_XPCOM
 1
