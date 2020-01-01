@@ -419,7 +419,13 @@ mk
 DIRS
 =
 public
+ifdef
+MOZ_PLACES_BOOKMARKS
+DIRS
++
+=
 src
+endif
 ifdef
 ENABLE_TESTS
 DIRS
