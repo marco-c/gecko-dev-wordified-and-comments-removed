@@ -11745,6 +11745,16 @@ Height
 )
 )
 ;
+if
+(
+!
+mInternalFormatForGL
+)
+{
+return
+0
+;
+}
 switch
 (
 mInternalFormatForGL
