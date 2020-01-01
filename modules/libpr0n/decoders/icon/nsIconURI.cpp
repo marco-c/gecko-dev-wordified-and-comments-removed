@@ -90,6 +90,9 @@ toolbarsmall
 menu
 "
 "
+dnd
+"
+"
 dialog
 "
 }
