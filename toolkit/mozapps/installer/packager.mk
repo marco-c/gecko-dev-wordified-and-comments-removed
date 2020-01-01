@@ -2281,9 +2281,11 @@ C
 .
 .
 /
-embedding
+mobile
 /
 android
+/
+base
 gecko
 .
 ap_
@@ -2294,9 +2296,11 @@ cp
 .
 .
 /
-embedding
+mobile
 /
 android
+/
+base
 /
 gecko
 .

@@ -436,6 +436,7 @@ autoconf
 mk
 DIRS
 =
+base
 chrome
 locales
 components
