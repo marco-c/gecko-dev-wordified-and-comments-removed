@@ -5020,8 +5020,8 @@ NS_LITERAL_STRING
 webglcontextlost
 "
 )
-PR_TRUE
-PR_TRUE
+true
+true
 &
 defaultAction
 )
@@ -5119,8 +5119,8 @@ NS_LITERAL_STRING
 webglcontextrestored
 "
 )
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 mContextLostErrorSet
