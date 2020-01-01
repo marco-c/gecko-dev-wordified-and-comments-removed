@@ -221,8 +221,7 @@ private
 nsresult
 GetBaseDomainInternal
 (
-const
-nsACString
+nsCString
 &
 aHostname
 PRUint32
