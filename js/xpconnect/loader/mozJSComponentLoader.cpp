@@ -6133,7 +6133,6 @@ JS_SetPropertyById
 mContext
 targetObj
 symbolId
-&
 value
 )
 )

@@ -5704,7 +5704,6 @@ XPCJSRuntime
 :
 IDX_VALUE
 )
-&
 val
 )
 )
@@ -6037,7 +6036,6 @@ JS_SetProperty
 cx
 obj
 name
-&
 rval
 )
 ;

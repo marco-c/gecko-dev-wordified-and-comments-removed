@@ -251,12 +251,17 @@ empty
 )
 ;
 }
-jsval
+JS
+:
+:
+RootedValue
 v
-=
+(
+cx
 INT_TO_JSVAL
 (
 17
+)
 )
 ;
 CHECK
@@ -268,7 +273,6 @@ regexpProto
 "
 foopy
 "
-&
 v
 )
 )
@@ -289,7 +293,6 @@ regexpProto
 "
 bunky
 "
-&
 v
 )
 )

@@ -21481,8 +21481,8 @@ JSObject
 objArg
 jsid
 idArg
-MutableHandleValue
-vp
+HandleValue
+v
 )
 {
 RootedObject
@@ -21497,6 +21497,13 @@ id
 (
 cx
 idArg
+)
+;
+RootedValue
+value
+(
+cx
+v
 )
 ;
 AssertHeapIsIdle
@@ -21533,7 +21540,8 @@ cx
 obj
 obj
 id
-vp
+&
+value
 false
 )
 ;
@@ -21642,8 +21650,8 @@ const
 char
 *
 name
-MutableHandleValue
-vp
+HandleValue
+v
 )
 {
 RootedObject
@@ -21679,7 +21687,7 @@ AtomToId
 (
 atom
 )
-vp
+v
 )
 ;
 }
@@ -21701,8 +21709,8 @@ jschar
 name
 size_t
 namelen
-MutableHandleValue
-vp
+HandleValue
+v
 )
 {
 RootedObject
@@ -21742,7 +21750,7 @@ AtomToId
 (
 atom
 )
-vp
+v
 )
 ;
 }

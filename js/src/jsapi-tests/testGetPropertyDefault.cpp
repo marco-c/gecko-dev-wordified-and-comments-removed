@@ -146,7 +146,6 @@ obj
 "
 here
 "
-&
 v0
 )
 )
@@ -311,7 +310,6 @@ JS_SetPropertyById
 cx
 obj
 hereid
-&
 v0
 )
 )

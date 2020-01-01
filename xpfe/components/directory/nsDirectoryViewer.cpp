@@ -1215,7 +1215,6 @@ global
 "
 HTTPIndex
 "
-&
 jslistener
 )
 ;

@@ -18206,7 +18206,6 @@ JS_SetPropertyById
 cx
 obj
 id
-&
 v
 )
 )

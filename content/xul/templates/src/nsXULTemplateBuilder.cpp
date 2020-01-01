@@ -5224,7 +5224,6 @@ jselement
 "
 database
 "
-&
 jsdatabase
 )
 ;
@@ -5322,7 +5321,6 @@ jselement
 "
 builder
 "
-&
 jsbuilder
 )
 ;
