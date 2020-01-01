@@ -4223,9 +4223,7 @@ MOZ_COUNT_CTOR
 nsCSSStyleSheetInner
 )
 ;
-mSheets
-.
-AppendElement
+AddSheet
 (
 aPrimarySheet
 )
