@@ -594,6 +594,12 @@ getContext
 ;
 ctx
 .
+save
+(
+)
+;
+ctx
+.
 scale
 (
 scale
@@ -624,6 +630,12 @@ e
 )
 {
 }
+ctx
+.
+restore
+(
+)
+;
 let
 telemetry
 =
