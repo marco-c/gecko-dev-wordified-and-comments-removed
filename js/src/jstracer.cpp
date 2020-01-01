@@ -47804,13 +47804,7 @@ v
 =
 STOBJ_GET_SLOT
 (
-cx
--
->
-fp
--
->
-scopeChain
+globalObj
 slot
 )
 ;
