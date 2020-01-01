@@ -108,6 +108,11 @@ ContainerWriter
 h
 '
 '
+MediaEncoder
+.
+h
+'
+'
 TrackEncoder
 .
 h
@@ -117,6 +122,11 @@ CPP_SOURCES
 +
 =
 [
+'
+MediaEncoder
+.
+cpp
+'
 '
 TrackEncoder
 .
