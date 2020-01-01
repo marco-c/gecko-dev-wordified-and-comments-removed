@@ -1424,8 +1424,6 @@ self
 file
 class
 HGRepoInfo
-(
-)
 :
     
 repos
@@ -1927,7 +1925,7 @@ def
 GetVCSFilename
 (
 file
-srcdir
+srcdirs
 )
 :
     
@@ -2094,6 +2092,12 @@ file
 else
 :
         
+for
+srcdir
+in
+srcdirs
+:
+            
 if
 os
 .
@@ -2114,7 +2118,7 @@ CVS
 )
 )
 :
-            
+                
 fileInfo
 =
 CVSFileInfo
@@ -2122,7 +2126,17 @@ CVSFileInfo
 file
 srcdir
 )
-        
+                
+if
+fileInfo
+:
+                    
+root
+=
+fileInfo
+.
+root
+            
 elif
 os
 .
@@ -2145,7 +2159,7 @@ svn
 )
 or
 \
-             
+                 
 os
 .
 path
@@ -2165,7 +2179,7 @@ _svn
 )
 )
 :
-            
+                 
 fileInfo
 =
 SVNFileInfo
@@ -2173,7 +2187,7 @@ SVNFileInfo
 file
 )
 ;
-        
+            
 elif
 os
 .
@@ -2196,14 +2210,14 @@ hg
 )
 and
 \
-             
+                 
 IsInDir
 (
 file
 srcdir
 )
 :
-            
+                 
 fileInfo
 =
 HGFileInfo
@@ -2211,13 +2225,19 @@ HGFileInfo
 file
 srcdir
 )
-        
+            
+if
+fileInfo
+:
+                
 vcsFileInfoCache
 [
 file
 ]
 =
 fileInfo
+                
+break
     
 if
 fileInfo
@@ -2875,7 +2895,7 @@ symbol_path
 archs
 =
 None
-srcdir
+srcdirs
 =
 None
 copy_debug
@@ -2951,7 +2971,7 @@ split
 ]
         
 if
-srcdir
+srcdirs
 is
 not
 None
@@ -2959,23 +2979,29 @@ None
             
 self
 .
-srcdir
+srcdirs
 =
+[
 os
 .
 path
 .
 normpath
 (
-srcdir
+a
 )
+for
+a
+in
+srcdirs
+]
         
 else
 :
             
 self
 .
-srcdir
+srcdirs
 =
 None
         
@@ -3587,6 +3613,14 @@ sunos5
 "
 :
                                 
+for
+srcdir
+in
+self
+.
+srcdirs
+:
+                                    
 start
 =
 filename
@@ -3597,19 +3631,15 @@ self
 .
 srcdir
 )
-                                
+                                    
 if
 start
-=
+!
 =
 -
 1
 :
-                                    
-start
-=
-0
-                                
+                                        
 filename
 =
 filename
@@ -3617,6 +3647,8 @@ filename
 start
 :
 ]
+                                        
+break
                             
 filename
 =
@@ -3651,7 +3683,7 @@ GetVCSFilename
 filename
 self
 .
-srcdir
+srcdirs
 )
                                 
 if
@@ -5334,13 +5366,17 @@ srcdir
 action
 =
 "
-store
+append
 "
 dest
 =
 "
 srcdir
 "
+default
+=
+[
+]
                       
 help
 =
@@ -5583,7 +5619,7 @@ options
 .
 archs
                                        
-srcdir
+srcdirs
 =
 options
 .
