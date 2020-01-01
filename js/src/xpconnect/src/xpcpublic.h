@@ -692,6 +692,9 @@ tjitDataAllocatorsMain
 PRInt64
 tjitDataAllocatorsReserve
 ;
+PRInt64
+tjitDataNonAllocators
+;
 #
 endif
 }
