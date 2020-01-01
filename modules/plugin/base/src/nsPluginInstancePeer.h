@@ -165,10 +165,8 @@ aOwner
 ;
 private
 :
-nsCOMPtr
-<
 nsIPluginInstanceOwner
->
+*
 mOwner
 ;
 nsMIMEType
