@@ -1640,6 +1640,8 @@ return
 true
 ;
 }
+namespace
+{
 class
 TypeAnalyzer
 {
@@ -1812,6 +1814,7 @@ analyze
 ;
 }
 ;
+}
 static
 MIRType
 GuessPhiType

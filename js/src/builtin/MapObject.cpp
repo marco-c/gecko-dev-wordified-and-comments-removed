@@ -3750,6 +3750,8 @@ return
 hv
 ;
 }
+namespace
+{
 class
 MapIteratorObject
 :
@@ -3869,6 +3871,7 @@ vp
 ;
 }
 ;
+}
 Class
 MapIteratorObject
 :
@@ -6904,6 +6907,8 @@ obj
 )
 ;
 }
+namespace
+{
 class
 SetIteratorObject
 :
@@ -7023,6 +7028,7 @@ vp
 ;
 }
 ;
+}
 Class
 SetIteratorObject
 :

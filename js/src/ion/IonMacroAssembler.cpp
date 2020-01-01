@@ -122,6 +122,8 @@ js
 :
 ion
 ;
+namespace
+{
 class
 TypeWrapper
 {
@@ -315,6 +317,7 @@ NULL
 }
 }
 ;
+}
 template
 <
 typename

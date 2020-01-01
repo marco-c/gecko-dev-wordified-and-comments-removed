@@ -1802,6 +1802,8 @@ return
 true
 ;
 }
+namespace
+{
 class
 Type
 {
@@ -2215,6 +2217,7 @@ Type
 }
 }
 ;
+}
 class
 RetType
 {
@@ -2456,6 +2459,8 @@ which_
 }
 }
 ;
+namespace
+{
 class
 VarType
 {
@@ -2711,6 +2716,7 @@ which_
 }
 }
 ;
+}
 static
 inline
 bool
@@ -3414,6 +3420,8 @@ rhs
 )
 ;
 }
+namespace
+{
 class
 NumLit
 {
@@ -3582,6 +3590,7 @@ v_
 }
 }
 ;
+}
 static
 bool
 IsNumericLiteral
@@ -4238,6 +4247,8 @@ MBasicBlock
 >
 BlockVector
 ;
+namespace
+{
 class
 MOZ_STACK_CLASS
 ModuleCompiler
@@ -8658,6 +8669,9 @@ true
 }
 }
 ;
+}
+namespace
+{
 class
 FunctionCompiler
 {
@@ -14043,6 +14057,7 @@ true
 }
 }
 ;
+}
 static
 bool
 CheckIdentifier

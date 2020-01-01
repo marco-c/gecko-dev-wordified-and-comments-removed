@@ -76,6 +76,8 @@ mozilla
 :
 Array
 ;
+namespace
+{
 class
 AliasSetIterator
 {
@@ -212,6 +214,7 @@ pos
 }
 }
 ;
+}
 AliasAnalysis
 :
 :

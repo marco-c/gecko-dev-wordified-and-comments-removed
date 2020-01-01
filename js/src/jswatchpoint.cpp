@@ -115,6 +115,8 @@ get
 )
 ;
 }
+namespace
+{
 class
 AutoEntryHolder
 {
@@ -264,6 +266,7 @@ false
 }
 }
 ;
+}
 bool
 WatchpointMap
 :

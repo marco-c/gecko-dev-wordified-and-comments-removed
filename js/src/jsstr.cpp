@@ -8340,6 +8340,8 @@ JS_TRUE
 )
 ;
 }
+namespace
+{
 class
 FlatMatch
 {
@@ -8409,6 +8411,7 @@ match_
 }
 }
 ;
+}
 static
 inline
 bool
@@ -8550,6 +8553,8 @@ return
 false
 ;
 }
+namespace
+{
 class
 StringRegExpGuard
 {
@@ -9233,6 +9238,7 @@ re_
 }
 }
 ;
+}
 static
 bool
 DoMatchLocal
@@ -15056,6 +15062,8 @@ args
 )
 ;
 }
+namespace
+{
 class
 SplitMatchResult
 {
@@ -15158,6 +15166,7 @@ endIndex
 }
 }
 ;
+}
 template
 <
 class
@@ -15692,6 +15701,8 @@ begin
 )
 ;
 }
+namespace
+{
 class
 SplitRegExpMatcher
 {
@@ -16030,6 +16041,7 @@ true
 }
 }
 ;
+}
 bool
 js
 :

@@ -1891,6 +1891,8 @@ jslock
 .
 h
 "
+namespace
+{
 class
 InstallSignalHandlersMutex
 {
@@ -1974,6 +1976,7 @@ true
 }
 signalMutex
 ;
+}
 bool
 InstallSignalHandlersMutex
 :
@@ -2024,6 +2027,8 @@ mutex_
 }
 #
 else
+namespace
+{
 struct
 InstallSignalHandlersMutex
 {
@@ -2070,6 +2075,7 @@ true
 ;
 }
 ;
+}
 bool
 InstallSignalHandlersMutex
 :
