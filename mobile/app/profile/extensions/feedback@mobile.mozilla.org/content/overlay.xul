@@ -766,9 +766,9 @@ dark
 oncommand
 =
 "
-BrowserUI
+Feedback
 .
-newTab
+openFeedback
 (
 '
 http
@@ -815,9 +815,9 @@ dark
 oncommand
 =
 "
-BrowserUI
+Feedback
 .
-newTab
+openFeedback
 (
 '
 http
