@@ -504,6 +504,8 @@ TestRPCRaces
 \
 TestRacyRPCReplies
 \
+TestHangs
+\
 TestBlockChild
 \
 TestManyChildAllocs
