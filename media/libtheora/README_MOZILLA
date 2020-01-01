@@ -22,7 +22,6 @@ sh
 script
 .
 The
-only
 changes
 made
 were
@@ -32,11 +31,10 @@ by
 update
 .
 sh
-and
 the
 addition
 /
-upate
+update
 of
 Makefile
 .
@@ -47,4 +45,10 @@ the
 Mozilla
 build
 system
+and
+the
+patch
+in
+bug
+450265
 .
