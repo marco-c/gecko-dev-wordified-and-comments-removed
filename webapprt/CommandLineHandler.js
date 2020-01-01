@@ -167,7 +167,8 @@ no
 all
 resizable
 "
-null
+[
+]
 )
 ;
 }
