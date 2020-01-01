@@ -168,7 +168,7 @@ NS_DECL_CYCLE_COLLECTION_NATIVE_CLASS
 (
 nsEventListenerManager
 )
-nsresult
+void
 AddEventListener
 (
 const
@@ -198,7 +198,7 @@ PRBool
 aUseCapture
 )
 ;
-nsresult
+void
 AddEventListenerByType
 (
 nsIDOMEventListener
@@ -596,7 +596,7 @@ PRBool
 aPermitUntrustedEvents
 )
 ;
-nsresult
+void
 AddEventListener
 (
 nsIDOMEventListener

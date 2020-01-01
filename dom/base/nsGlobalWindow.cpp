@@ -29429,7 +29429,6 @@ NS_ENSURE_STATE
 manager
 )
 ;
-return
 manager
 -
 >
@@ -29440,6 +29439,9 @@ aListener
 aUseCapture
 aWantsUntrusted
 )
+;
+return
+NS_OK
 ;
 }
 nsEventListenerManager

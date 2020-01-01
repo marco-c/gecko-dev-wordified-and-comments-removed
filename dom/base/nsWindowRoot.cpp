@@ -480,7 +480,6 @@ NS_ENSURE_STATE
 elm
 )
 ;
-return
 elm
 -
 >
@@ -491,6 +490,9 @@ aListener
 aUseCapture
 aWantsUntrusted
 )
+;
+return
+NS_OK
 ;
 }
 nsEventListenerManager
