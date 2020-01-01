@@ -4823,9 +4823,9 @@ gOutlineSubpropTable
 ]
 =
 {
-eCSSProperty_outline_color
-eCSSProperty_outline_style
 eCSSProperty_outline_width
+eCSSProperty_outline_style
+eCSSProperty_outline_color
 eCSSProperty_UNKNOWN
 }
 ;
