@@ -10544,12 +10544,6 @@ LOOP_EXIT
 return
 false
 ;
-case
-OVERFLOW_EXIT
-:
-return
-false
-;
 default
 :
 JS_ASSERT
@@ -10563,10 +10557,7 @@ exit
 exitType
 =
 =
-nanojit
-:
-:
-OOM_EXIT
+DONT_GROW
 )
 ;
 return
@@ -11340,6 +11331,7 @@ get
 v
 )
 )
+BRANCH_EXIT
 )
 ;
 }
@@ -11370,6 +11362,7 @@ get
 v
 )
 )
+BRANCH_EXIT
 )
 ;
 }
@@ -11426,6 +11419,7 @@ u
 u64
 )
 )
+BRANCH_EXIT
 )
 ;
 }
@@ -12100,6 +12094,7 @@ guard
 (
 cond
 x
+BRANCH_EXIT
 )
 ;
 set
@@ -15023,6 +15018,7 @@ ins_eq0
 (
 concat
 )
+OOM_EXIT
 )
 ;
 set
@@ -17712,6 +17708,7 @@ ins_eq0
 (
 res_ins
 )
+OOM_EXIT
 )
 ;
 set
