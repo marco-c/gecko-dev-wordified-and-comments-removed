@@ -480,6 +480,11 @@ format
 .
 WIN_TOP_SRC
 =
+encoding
+=
+utf
+-
+8
 case
 "
 host_os
@@ -496,6 +501,9 @@ srcdir
 pwd
 -
 W
+encoding
+=
+mbcs
 ;
 ;
 esac
@@ -628,6 +636,10 @@ EOF
 {
 PYTHON
 }
+#
+coding
+=
+encoding
 import
 os
 sys
