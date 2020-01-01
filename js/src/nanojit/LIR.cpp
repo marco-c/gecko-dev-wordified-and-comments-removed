@@ -4353,7 +4353,7 @@ return
 oprnd2
 ;
 case
-LIR_gtui
+LIR_geui
 :
 return
 insImmI
@@ -4450,6 +4450,15 @@ return
 insImmI
 (
 0
+)
+;
+case
+LIR_leui
+:
+return
+insImmI
+(
+1
 )
 ;
 default
