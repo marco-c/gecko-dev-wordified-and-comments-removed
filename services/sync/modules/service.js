@@ -3649,6 +3649,11 @@ is
 MIN_SERVER_STORAGE_VERSION
 )
 ;
+if
+(
+meta
+)
+{
 this
 .
 _log
@@ -3669,6 +3674,7 @@ payload
 storageVersion
 )
 ;
+}
 if
 (
 !
