@@ -5530,7 +5530,7 @@ AppendElement
 aRect
 )
 ;
-raw_fScissor
+fScissor
 (
 aRect
 .
@@ -5611,7 +5611,7 @@ ScissorRect
 )
 )
 {
-raw_fScissor
+fScissor
 (
 ScissorRect
 (
