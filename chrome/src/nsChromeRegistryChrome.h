@@ -11,6 +11,13 @@ nsChromeRegistry
 .
 h
 "
+#
+include
+"
+nsVoidArray
+.
+h
+"
 namespace
 mozilla
 {
