@@ -14492,17 +14492,6 @@ ThreeDFace
 %
 ifdef
 MOZ_WIDGET_GTK2
--
-moz
--
-border
--
-end
-:
-1px
-solid
-ThreeDShadow
-;
 %
 else
 -
