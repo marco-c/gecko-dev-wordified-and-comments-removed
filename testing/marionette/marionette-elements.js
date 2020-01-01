@@ -1927,7 +1927,7 @@ Array
 .
 slice
 (
-rootNode
+startNode
 .
 querySelectorAll
 (
