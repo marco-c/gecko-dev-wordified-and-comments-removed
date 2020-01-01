@@ -528,6 +528,10 @@ label
 content
 >
 <
+children
+/
+>
+<
 html
 :
 span
@@ -536,10 +540,6 @@ anonid
 "
 accessKeyParens
 "
->
-<
-children
-/
 >
 <
 /
@@ -835,15 +835,6 @@ textContent
 "
 "
 ;
-/
-/
-This
-does
-not
-clear
-real
-nodes
-!
 var
 oldAccessKey
 =
