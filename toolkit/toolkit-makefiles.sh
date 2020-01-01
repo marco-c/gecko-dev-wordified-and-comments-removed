@@ -5405,6 +5405,15 @@ tool
 /
 Makefile
 "
+MAKEFILES_lib7z
+=
+"
+modules
+/
+lib7z
+/
+Makefile
+"
 MAKEFILES_extensions
 =
 "
@@ -5489,6 +5498,7 @@ MAKEFILES_libpr0n
 MAKEFILES_accessible
 MAKEFILES_zlib
 MAKEFILES_libmar
+MAKEFILES_lib7z
 MAKEFILES_extensions
 "
 #
