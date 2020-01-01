@@ -17306,7 +17306,7 @@ length
 )
 )
 return
-false
+NULL
 ;
 for
 (
@@ -17350,7 +17350,7 @@ i
 ]
 )
 return
-false
+NULL
 ;
 }
 ptrdiff_t
@@ -17385,7 +17385,7 @@ sprinter
 0
 )
 return
-false
+NULL
 ;
 for
 (
@@ -17426,7 +17426,7 @@ sprinter
 0
 )
 return
-false
+NULL
 ;
 if
 (
@@ -17446,7 +17446,7 @@ i
 )
 )
 return
-false
+NULL
 ;
 }
 if
@@ -17468,7 +17468,7 @@ sprinter
 0
 )
 return
-false
+NULL
 ;
 }
 for
@@ -17531,7 +17531,7 @@ sprinter
 0
 )
 return
-false
+NULL
 ;
 if
 (
@@ -17553,7 +17553,7 @@ rhs
 0
 )
 return
-false
+NULL
 ;
 }
 else
@@ -17585,7 +17585,7 @@ DestructuredStringLength
 0
 )
 return
-false
+NULL
 ;
 }
 else
@@ -17627,7 +17627,7 @@ i
 )
 )
 return
-false
+NULL
 ;
 if
 (
@@ -17700,7 +17700,7 @@ rhs
 0
 )
 return
-false
+NULL
 ;
 }
 }
@@ -17725,7 +17725,7 @@ sprinter
 0
 )
 return
-false
+NULL
 ;
 DupBuffer
 head
