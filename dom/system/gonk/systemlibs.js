@@ -8,10 +8,8 @@ SYSTEM_PROPERTY_VALUE_MAX
 =
 92
 ;
-const
+let
 DEBUG
-=
-false
 ;
 let
 libcutils

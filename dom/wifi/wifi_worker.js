@@ -68,7 +68,7 @@ array
 (
 )
 ;
-const
+let
 DEBUG
 =
 false
