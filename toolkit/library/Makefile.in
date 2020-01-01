@@ -1352,6 +1352,17 @@ EXPAND_LIBNAME
 imagehlp
 )
 endif
+ifdef
+MOZ_CRASHREPORTER
+OS_LIBS
++
+=
+(
+call
+EXPAND_LIBNAME
+wininet
+)
+endif
 endif
 #
 WINNT
