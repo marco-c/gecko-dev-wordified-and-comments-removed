@@ -51245,9 +51245,17 @@ arm
 linux
 *
 )
+if
+test
+"
+MOZ_ENABLE_GTK2
+"
+;
+then
 MOZ_CRASHREPORTER
 =
 1
+fi
 ;
 ;
 arm
