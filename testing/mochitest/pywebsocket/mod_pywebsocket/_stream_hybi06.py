@@ -804,12 +804,37 @@ object
 )
 :
     
+"
+"
+"
+Holds
+option
+values
+to
+configure
+Stream
+objects
+.
+"
+"
+"
+    
 def
 __init__
 (
 self
 )
 :
+        
+"
+"
+"
+Constructs
+StreamOptions
+.
+"
+"
+"
         
 self
 .
@@ -1543,6 +1568,9 @@ after
 receiving
 a
 closing
+'
+                
+'
 handshake
 '
 )
@@ -2191,14 +2219,11 @@ were
 ignored
 )
 '
-%
                                 
-(
 expected_body
 len
 (
 inflight_pings
-)
 )
 )
                             

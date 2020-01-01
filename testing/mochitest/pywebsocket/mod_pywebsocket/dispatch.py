@@ -1090,10 +1090,11 @@ _logger
 .
 debug
 (
-str
-(
+'
+%
+s
+'
 e
-)
 )
             
 request
@@ -1120,10 +1121,11 @@ _logger
 .
 debug
 (
-str
-(
+'
+%
+s
+'
 e
-)
 )
             
 request
@@ -1150,10 +1152,11 @@ _logger
 .
 debug
 (
-str
-(
+'
+%
+s
+'
 e
-)
 )
             
 request
@@ -1180,10 +1183,11 @@ _logger
 .
 debug
 (
-str
-(
+'
+%
+s
+'
 e
-)
 )
         
 except

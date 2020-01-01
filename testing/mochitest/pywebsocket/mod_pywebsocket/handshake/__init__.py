@@ -60,6 +60,14 @@ handshake
 .
 _base
 import
+Extension
+from
+mod_pywebsocket
+.
+handshake
+.
+_base
+import
 HandshakeError
 class
 Handshaker
@@ -277,21 +285,46 @@ _logger
 .
 debug
 (
+'
+Opening
+handshake
+resource
+:
+%
+r
+'
+self
+.
+_request
+.
+uri
+)
+        
+self
+.
+_logger
+.
+debug
+(
             
 '
 Opening
 handshake
+request
 headers
 :
 %
-s
+r
 '
-%
+            
+dict
+(
 self
 .
 _request
 .
 headers_in
+)
 )
         
 handshakers
@@ -363,7 +396,6 @@ Trying
 s
 protocol
 '
-%
 name
 )
                 
@@ -398,11 +430,8 @@ failed
 %
 s
 '
-%
-(
 name
 e
-)
 )
                     
 last_error

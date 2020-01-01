@@ -46,14 +46,6 @@ handshake
 .
 _base
 import
-HandshakeError
-from
-mod_pywebsocket
-.
-handshake
-.
-_base
-import
 check_header_lines
 from
 mod_pywebsocket
@@ -62,7 +54,55 @@ handshake
 .
 _base
 import
+Extension
+from
+mod_pywebsocket
+.
+handshake
+.
+_base
+import
+format_extensions
+from
+mod_pywebsocket
+.
+handshake
+.
+_base
+import
+format_header
+from
+mod_pywebsocket
+.
+handshake
+.
+_base
+import
 get_mandatory_header
+from
+mod_pywebsocket
+.
+handshake
+.
+_base
+import
+HandshakeError
+from
+mod_pywebsocket
+.
+handshake
+.
+_base
+import
+parse_extensions
+from
+mod_pywebsocket
+.
+handshake
+.
+_base
+import
+validate_mandatory_header
 _MANDATORY_HEADERS
 =
 [
@@ -373,16 +413,13 @@ r
 s
 )
 '
-%
                            
-(
 accept
 util
 .
 hexify
 (
 accept_binary
-)
 )
 )
         
@@ -578,6 +615,20 @@ _send_handshake
 (
 accept
 )
+        
+self
+.
+_logger
+.
+debug
+(
+'
+Sent
+opening
+handshake
+response
+'
+)
     
 def
 _get_origin
@@ -619,7 +670,7 @@ self
         
 unused_value
 =
-get_mandatory_header
+validate_mandatory_header
 (
             
 self
@@ -764,6 +815,14 @@ self
 .
 _request
 .
+ws_requested_extensions
+=
+None
+            
+self
+.
+_request
+.
 ws_extensions
 =
 None
@@ -781,27 +840,10 @@ ws_extensions
         
 requested_extensions
 =
+parse_extensions
+(
 extensions_header
-.
-split
-(
-'
-'
 )
-        
-requested_extensions
-=
-[
-s
-.
-strip
-(
-)
-for
-s
-in
-requested_extensions
-]
         
 for
 extension
@@ -809,8 +851,17 @@ in
 requested_extensions
 :
             
-if
+extension_name
+=
 extension
+.
+name
+(
+)
+            
+if
+(
+extension_name
 =
 =
 '
@@ -818,6 +869,20 @@ deflate
 -
 stream
 '
+and
+                
+len
+(
+extension
+.
+get_parameter_names
+(
+)
+)
+=
+=
+0
+)
 :
                 
 self
@@ -841,10 +906,19 @@ True
         
 self
 .
+_request
+.
+ws_requested_extensions
+=
+requested_extensions
+        
+self
+.
 _logger
 .
 debug
 (
+            
 '
 Extensions
 requested
@@ -852,7 +926,18 @@ requested
 %
 r
 '
-requested_extensions
+            
+map
+(
+Extension
+.
+name
+self
+.
+_request
+.
+ws_requested_extensions
+)
 )
         
 self
@@ -869,11 +954,18 @@ accepted
 %
 r
 '
+            
+map
+(
+Extension
+.
+name
 self
 .
 _request
 .
 ws_extensions
+)
 )
     
 def
@@ -1012,9 +1104,7 @@ r
 s
 )
 '
-%
                            
-(
 key
 util
 .
@@ -1023,60 +1113,9 @@ hexify
 decoded_key
 )
 )
-)
         
 return
 key
-    
-def
-_sendall
-(
-self
-data
-)
-:
-        
-self
-.
-_request
-.
-connection
-.
-write
-(
-data
-)
-    
-def
-_send_header
-(
-self
-name
-value
-)
-:
-        
-self
-.
-_sendall
-(
-'
-%
-s
-:
-%
-s
-\
-r
-\
-n
-'
-%
-(
-name
-value
-)
-)
     
 def
 _send_handshake
@@ -1086,9 +1125,14 @@ accept
 )
 :
         
-self
+response
+=
+[
+]
+        
+response
 .
-_sendall
+append
 (
 '
 HTTP
@@ -1106,10 +1150,13 @@ n
 '
 )
         
-self
+response
 .
-_send_header
+append
 (
+format_header
+(
+            
 common
 .
 UPGRADE_HEADER
@@ -1117,10 +1164,13 @@ common
 .
 WEBSOCKET_UPGRADE_TYPE
 )
+)
         
-self
+response
 .
-_send_header
+append
+(
+format_header
 (
             
 common
@@ -1130,15 +1180,20 @@ common
 .
 UPGRADE_CONNECTION_TYPE
 )
+)
         
-self
+response
 .
-_send_header
+append
 (
+format_header
+(
+            
 common
 .
 SEC_WEBSOCKET_ACCEPT_HEADER
 accept
+)
 )
         
 if
@@ -1152,9 +1207,11 @@ not
 None
 :
             
-self
+response
 .
-_send_header
+append
+(
+format_header
 (
                 
 common
@@ -1167,6 +1224,7 @@ _request
 .
 ws_protocol
 )
+)
         
 if
 self
@@ -1179,19 +1237,18 @@ not
 None
 :
             
-self
+response
 .
-_send_header
+append
+(
+format_header
 (
                 
 common
 .
 SEC_WEBSOCKET_EXTENSIONS_HEADER
                 
-'
-'
-.
-join
+format_extensions
 (
 self
 .
@@ -1200,10 +1257,11 @@ _request
 ws_extensions
 )
 )
+)
         
-self
+response
 .
-_sendall
+append
 (
 '
 \
@@ -1211,4 +1269,42 @@ r
 \
 n
 '
+)
+        
+raw_response
+=
+'
+'
+.
+join
+(
+response
+)
+        
+self
+.
+_logger
+.
+debug
+(
+'
+Opening
+handshake
+response
+:
+%
+r
+'
+raw_response
+)
+        
+self
+.
+_request
+.
+connection
+.
+write
+(
+raw_response
 )

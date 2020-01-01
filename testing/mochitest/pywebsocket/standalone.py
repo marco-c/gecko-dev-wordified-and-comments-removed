@@ -824,18 +824,10 @@ WebSocket
 "
 "
     
-SocketServer
-.
-ThreadingMixIn
-.
 daemon_threads
 =
 True
     
-SocketServer
-.
-TCPServer
-.
 allow_reuse_address
 =
 True
@@ -855,10 +847,29 @@ RequestHandlerClass
 Override
 SocketServer
 .
-BaseServer
+TCPServer
 .
 __init__
+to
+set
+SSL
+enabled
+socket
+        
+object
+to
+self
 .
+socket
+before
+server_bind
+and
+server_activate
+if
+        
+necessary
+.
+        
 "
 "
 "
@@ -1340,6 +1351,7 @@ logging
 .
 info
 (
+                        
 '
 mod_pywebsocket
 :
