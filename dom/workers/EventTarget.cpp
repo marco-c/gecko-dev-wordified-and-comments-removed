@@ -192,6 +192,9 @@ EventTarget
 *
 GetPrivate
 (
+JSContext
+*
+aCx
 JSObject
 *
 aObj
@@ -203,6 +206,7 @@ GetJSPrivateSafeish
 EventTarget
 >
 (
+aCx
 aObj
 )
 ;
@@ -459,6 +463,9 @@ EventTarget
 :
 FromJSObject
 (
+JSContext
+*
+aCx
 JSObject
 *
 aObj
@@ -467,6 +474,7 @@ aObj
 return
 GetPrivate
 (
+aCx
 aObj
 )
 ;
@@ -530,6 +538,7 @@ self
 =
 GetPrivate
 (
+aCx
 obj
 )
 ;
@@ -683,6 +692,7 @@ self
 =
 GetPrivate
 (
+aCx
 obj
 )
 ;
@@ -830,6 +840,7 @@ self
 =
 GetPrivate
 (
+aCx
 obj
 )
 ;

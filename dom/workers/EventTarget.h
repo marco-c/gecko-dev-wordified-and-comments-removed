@@ -111,6 +111,9 @@ EventTarget
 *
 FromJSObject
 (
+JSContext
+*
+aCx
 JSObject
 *
 aObj

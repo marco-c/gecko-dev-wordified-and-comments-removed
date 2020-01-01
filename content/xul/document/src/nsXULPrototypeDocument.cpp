@@ -346,6 +346,7 @@ nsISupports
 )
 JS_GetPrivate
 (
+cx
 obj
 )
 ;
@@ -2844,6 +2845,7 @@ newGlob
 :
 JS_SetPrivate
 (
+cx
 newGlob
 this
 )

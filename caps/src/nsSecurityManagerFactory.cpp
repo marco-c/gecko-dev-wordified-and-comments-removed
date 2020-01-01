@@ -1354,6 +1354,7 @@ proto
 =
 JS_GetPrototype
 (
+cx
 obj
 )
 )

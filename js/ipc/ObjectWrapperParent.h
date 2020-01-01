@@ -96,17 +96,6 @@ cx
 )
 const
 ;
-JSObject
-*
-GetJSObjectOrNull
-(
-)
-const
-{
-return
-mObj
-;
-}
 jsval
 GetJSVal
 (
@@ -444,6 +433,9 @@ static
 bool
 JSObject_to_PObjectWrapperParent
 (
+JSContext
+*
+cx
 JSObject
 *
 from

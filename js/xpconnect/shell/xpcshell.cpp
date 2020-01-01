@@ -4086,6 +4086,7 @@ OBJECT_TO_JSVAL
 (
 JS_GetParent
 (
+cx
 JSVAL_TO_OBJECT
 (
 v
@@ -4581,6 +4582,7 @@ char
 )
 JS_GetPrivate
 (
+cx
 obj
 )
 ;
@@ -6086,6 +6088,7 @@ JS_GetClass
 (
 JS_GetPrototype
 (
+cx
 obj
 )
 )
@@ -9049,6 +9052,15 @@ if
 (
 !
 envobj
+|
+|
+!
+JS_SetPrivate
+(
+cx
+envobj
+envp
+)
 )
 {
 JS_EndRequest
@@ -9060,12 +9072,6 @@ return
 1
 ;
 }
-JS_SetPrivate
-(
-envobj
-envp
-)
-;
 nsAutoString
 workingDirectory
 ;

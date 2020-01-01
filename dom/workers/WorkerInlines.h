@@ -1,8 +1,11 @@
 BEGIN_WORKERS_NAMESPACE
 inline
-void
+JSBool
 SetJSPrivateSafeish
 (
+JSContext
+*
+aCx
 JSObject
 *
 aObj
@@ -11,8 +14,10 @@ PrivatizableBase
 aBase
 )
 {
+return
 JS_SetPrivate
 (
+aCx
 aObj
 aBase
 )
@@ -28,6 +33,9 @@ Derived
 *
 GetJSPrivateSafeish
 (
+JSContext
+*
+aCx
 JSObject
 *
 aObj
@@ -48,6 +56,7 @@ PrivatizableBase
 (
 JS_GetPrivate
 (
+aCx
 aObj
 )
 )

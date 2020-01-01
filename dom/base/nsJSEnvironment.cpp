@@ -7815,6 +7815,7 @@ JSFunction
 (
 JS_GetPrivate
 (
+mContext
 obj
 )
 )
@@ -9263,12 +9264,14 @@ NS_ASSERTION
 (
 JS_GetPrototype
 (
+mContext
 aOuterGlobal
 )
 =
 =
 JS_GetPrototype
 (
+mContext
 newInnerJSObject
 )
 "
@@ -9454,6 +9457,7 @@ inner
 =
 JS_GetParent
 (
+mContext
 aOuterObject
 )
 ;
@@ -9518,6 +9522,7 @@ mContext
 aOuterObject
 JS_GetPrototype
 (
+mContext
 inner
 )
 )
@@ -12683,6 +12688,7 @@ o
 :
 JS_GetPrototype
 (
+mContext
 obj
 )
 *
@@ -12698,6 +12704,7 @@ next
 :
 JS_GetPrototype
 (
+mContext
 o
 )
 )

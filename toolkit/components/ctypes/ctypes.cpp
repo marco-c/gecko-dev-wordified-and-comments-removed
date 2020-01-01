@@ -386,12 +386,12 @@ ctypes
 &
 ctypes
 )
-)
-return
-false
-;
+|
+|
+!
 JS_SetCTypesCallbacks
 (
+cx
 JSVAL_TO_OBJECT
 (
 ctypes
@@ -399,6 +399,9 @@ ctypes
 &
 sCallbacks
 )
+)
+return
+false
 ;
 if
 (

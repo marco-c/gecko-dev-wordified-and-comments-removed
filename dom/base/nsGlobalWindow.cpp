@@ -7521,6 +7521,10 @@ parent
 =
 JS_GetParent
 (
+closure
+-
+>
+mCx
 value
 )
 ;
@@ -39633,6 +39637,7 @@ realProto
 =
 JS_GetPrototype
 (
+cx
 mJSObject
 )
 ;
