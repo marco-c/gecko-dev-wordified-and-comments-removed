@@ -3252,11 +3252,8 @@ color
 ;
 }
 %
-if
-OSARCH
-=
-=
-OS2
+ifdef
+XP_OS2
 input
 {
 font
