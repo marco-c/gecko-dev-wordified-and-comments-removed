@@ -121,10 +121,6 @@ updated
 define
 WAITFORTOPIC_TIMEOUT_SECONDS
 5
-using
-namespace
-mozilla
-;
 static
 size_t
 gTotalTests
@@ -704,6 +700,9 @@ transitionType
 ;
 already_AddRefed
 <
+mozilla
+:
+:
 IHistory
 >
 do_get_IHistory
@@ -712,6 +711,9 @@ do_get_IHistory
 {
 nsCOMPtr
 <
+mozilla
+:
+:
 IHistory
 >
 history

@@ -12,6 +12,13 @@ nsUrlClassifierDBService
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+safebrowsing
+;
 static
 nsresult
 DispatchToWorkerThread
