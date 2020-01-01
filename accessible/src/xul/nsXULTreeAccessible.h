@@ -268,6 +268,8 @@ nsXULTreeitemAccessible
 :
 public
 nsLeafAccessible
+public
+nsPIAccessibleTreeItem
 {
 public
 :
@@ -282,6 +284,7 @@ eAction_Expand
 }
 ;
 NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_NSPIACCESSIBLETREEITEM
 nsXULTreeitemAccessible
 (
 nsIAccessible
@@ -452,6 +455,11 @@ void
 aUniqueID
 )
 ;
+NS_IMETHOD
+Init
+(
+)
+;
 virtual
 PRBool
 IsDefunct
@@ -485,6 +493,9 @@ nsCOMPtr
 nsITreeColumn
 >
 mColumn
+;
+nsString
+mCachedName
 ;
 }
 ;
