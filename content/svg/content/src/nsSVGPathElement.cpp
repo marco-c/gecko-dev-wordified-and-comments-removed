@@ -1406,7 +1406,7 @@ nsSVGPathElement
 :
 GetPathSegList
 (
-nsIDOMSVGPathSegList
+nsISupports
 *
 *
 aPathSegList
@@ -1454,7 +1454,7 @@ nsSVGPathElement
 :
 GetNormalizedPathSegList
 (
-nsIDOMSVGPathSegList
+nsISupports
 *
 *
 aNormalizedPathSegList
@@ -1470,7 +1470,7 @@ nsSVGPathElement
 :
 GetAnimatedPathSegList
 (
-nsIDOMSVGPathSegList
+nsISupports
 *
 *
 aAnimatedPathSegList
@@ -1518,7 +1518,7 @@ nsSVGPathElement
 :
 GetAnimatedNormalizedPathSegList
 (
-nsIDOMSVGPathSegList
+nsISupports
 *
 *
 aAnimatedNormalizedPathSegList

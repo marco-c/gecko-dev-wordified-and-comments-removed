@@ -915,10 +915,6 @@ SVGNumberList
 )
 DOMCI_CLASS
 (
-SVGPathSegList
-)
-DOMCI_CLASS
-(
 SVGPoint
 )
 DOMCI_CLASS

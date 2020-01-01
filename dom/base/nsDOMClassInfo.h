@@ -115,9 +115,6 @@ class
 nsIDOMSVGNumberList
 ;
 class
-nsIDOMSVGPathSegList
-;
-class
 nsIDOMSVGPoint
 ;
 class

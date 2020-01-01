@@ -276,10 +276,6 @@ nsIDOMSVGPathElement
 .
 idl
 \
-nsIDOMSVGPathSegList
-.
-idl
-\
 nsIDOMSVGPatternElement
 .
 idl
