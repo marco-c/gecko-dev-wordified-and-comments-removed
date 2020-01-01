@@ -462,6 +462,16 @@ topsrcdir
 /
 widget
 /
+shared
+\
+-
+I
+(
+topsrcdir
+)
+/
+widget
+/
 xpwidgets
 \
 -
