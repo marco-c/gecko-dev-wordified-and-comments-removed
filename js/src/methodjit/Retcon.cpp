@@ -1775,6 +1775,15 @@ ExpandInlineFrames
 compartment
 )
 ;
+compartment
+-
+>
+types
+.
+recompilations
++
++
+;
 for
 (
 VMFrame
