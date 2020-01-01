@@ -257,6 +257,10 @@ nsIDOMCompositionEvent
 .
 idl
 \
+nsIWifiEventInits
+.
+idl
+\
 (
 NULL
 )
