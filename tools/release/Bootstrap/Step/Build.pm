@@ -39,6 +39,16 @@ Bootstrap
 :
 Step
 ;
+use
+Bootstrap
+:
+:
+Util
+qw
+(
+CvsCatfile
+)
+;
 ISA
 =
 (
