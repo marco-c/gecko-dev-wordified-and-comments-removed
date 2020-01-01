@@ -10072,11 +10072,17 @@ old
 =
 mRuleCascades
 ;
+if
+(
+old
+)
+{
 RefreshRuleCascade
 (
 aPresContext
 )
 ;
+}
 *
 aRulesChanged
 =
