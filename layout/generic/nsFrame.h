@@ -1732,12 +1732,6 @@ nsFrame
 (
 )
 ;
-PRBool
-HasBorder
-(
-)
-const
-;
 nsresult
 DisplaySelectionOverlay
 (
