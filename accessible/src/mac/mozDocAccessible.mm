@@ -474,10 +474,12 @@ nsRootAccessibleWrap
 *
 root
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsRootAccessibleWrap
 *
+>
+(
 accessible
 )
 ;

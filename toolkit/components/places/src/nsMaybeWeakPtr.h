@@ -175,10 +175,12 @@ T
 (
 dont_AddRef
 (
-NS_STATIC_CAST
-(
+static_cast
+<
 T
 *
+>
+(
 GetValueAs
 (
 NS_GET_TEMPLATE_IID

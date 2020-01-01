@@ -2370,10 +2370,12 @@ data
 return
 substring_type
 (
-NS_CONST_CAST
-(
+const_cast
+<
 char_type
 *
+>
+(
 data
 )
 length

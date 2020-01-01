@@ -79,10 +79,12 @@ nsINIParser
 *
 ini
 =
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 nsINIParser
 *
+>
+(
 aClosure
 )
 ;

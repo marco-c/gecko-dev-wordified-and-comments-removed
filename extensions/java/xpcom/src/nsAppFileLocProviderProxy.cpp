@@ -330,9 +330,11 @@ GetJNIEnv
 ;
 mJavaFileArray
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 jobjectArray
+>
+(
 env
 -
 >
@@ -820,9 +822,11 @@ aResult
 new
 DirectoryEnumerator
 (
-NS_STATIC_CAST
-(
+static_cast
+<
 jobjectArray
+>
+(
 javaFileArray
 )
 )

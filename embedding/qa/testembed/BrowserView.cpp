@@ -497,10 +497,12 @@ mWebBrowser
 >
 SetContainerWindow
 (
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIWebBrowserChrome
 *
+>
+(
 mpBrowserImpl
 )
 )

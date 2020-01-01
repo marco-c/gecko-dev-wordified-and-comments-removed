@@ -1719,10 +1719,12 @@ svgTextFrame
 )
 {
 return
-NS_STATIC_CAST
-(
+static_cast
+<
 nsSVGTextFrame
 *
+>
+(
 frame
 )
 ;

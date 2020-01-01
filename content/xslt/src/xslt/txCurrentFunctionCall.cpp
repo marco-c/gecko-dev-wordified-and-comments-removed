@@ -64,10 +64,12 @@ txExecutionState
 *
 es
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 txExecutionState
 *
+>
+(
 aContext
 -
 >

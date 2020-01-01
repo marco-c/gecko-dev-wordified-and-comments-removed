@@ -1367,10 +1367,12 @@ channel
 >
 AsyncOpen
 (
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIStreamListener
 *
+>
+(
 consumer
 )
 contextSup

@@ -1335,10 +1335,12 @@ mCallback
 GetData
 (
 mURI
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIChannel
 *
+>
+(
 this
 )
 mContentType

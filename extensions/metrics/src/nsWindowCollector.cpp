@@ -475,10 +475,12 @@ WindowOpenClosure
 *
 wc
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 WindowOpenClosure
 *
+>
+(
 closure
 )
 ;

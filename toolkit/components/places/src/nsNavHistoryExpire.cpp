@@ -2068,10 +2068,12 @@ nsNavHistoryExpire
 *
 that
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsNavHistoryExpire
 *
+>
+(
 aClosure
 )
 ;

@@ -71,11 +71,13 @@ Key
 )
 {
 return
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 char
 *
 const
+>
+(
 this
 )
 +

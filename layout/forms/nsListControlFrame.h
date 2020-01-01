@@ -1003,10 +1003,12 @@ GetOptionsContainer
 const
 {
 return
-NS_STATIC_CAST
-(
+static_cast
+<
 nsSelectsAreaFrame
 *
+>
+(
 GetScrolledFrame
 (
 )

@@ -219,10 +219,12 @@ aWidget
 )
 {
 return
-NS_STATIC_CAST
-(
+static_cast
+<
 nsView
 *
+>
+(
 nsIView
 :
 :

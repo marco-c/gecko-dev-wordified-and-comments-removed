@@ -278,11 +278,13 @@ mData
 Length
 (
 )
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 const
 PRUint8
 *
+>
+(
 mData
 .
 get

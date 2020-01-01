@@ -346,11 +346,13 @@ SND_ASYNC
 :
 PlaySound
 (
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 const
 char
 *
+>
+(
 data
 )
 0

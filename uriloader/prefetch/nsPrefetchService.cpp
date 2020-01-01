@@ -701,10 +701,12 @@ NS_ADDREF_THIS
 *
 aResult
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIChannelEventSink
 *
+>
+(
 this
 )
 ;

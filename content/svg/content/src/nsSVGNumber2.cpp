@@ -97,9 +97,11 @@ err
 nsresult
 rv
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsresult
+>
+(
 err
 )
 ;

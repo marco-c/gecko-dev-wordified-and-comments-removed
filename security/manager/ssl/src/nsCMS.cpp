@@ -3913,10 +3913,12 @@ nsCMSMessage
 *
 cmsMsg
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsCMSMessage
 *
+>
+(
 aMsg
 )
 ;

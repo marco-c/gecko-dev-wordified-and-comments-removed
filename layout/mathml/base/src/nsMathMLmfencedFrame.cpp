@@ -894,10 +894,12 @@ nsMathMLContainerFrame
 *
 mathMLFrame
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsMathMLContainerFrame
 *
+>
+(
 aForFrame
 )
 ;

@@ -5370,10 +5370,12 @@ nsAString
 *
 str
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsAString
 *
+>
+(
 ss
 -
 >

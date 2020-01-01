@@ -2526,10 +2526,12 @@ NS_ADDREF_THIS
 *
 result
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIChannelEventSink
 *
+>
+(
 this
 )
 ;

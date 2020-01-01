@@ -990,10 +990,12 @@ accService
 >
 CreateHTMLBRAccessible
 (
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIFrame
 *
+>
+(
 this
 )
 aAccessible

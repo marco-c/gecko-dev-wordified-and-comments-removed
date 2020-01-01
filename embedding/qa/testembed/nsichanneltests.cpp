@@ -1861,10 +1861,12 @@ nsIStreamListener
 >
 listener
 (
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIStreamListener
 *
+>
+(
 qaBrowserImpl
 )
 )

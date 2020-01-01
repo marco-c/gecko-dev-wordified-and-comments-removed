@@ -359,10 +359,12 @@ markup
 )
 ;
 return
-NS_STATIC_CAST
-(
+static_cast
+<
 nsMathMLContainerFrame
 *
+>
+(
 aFrame
 )
 -

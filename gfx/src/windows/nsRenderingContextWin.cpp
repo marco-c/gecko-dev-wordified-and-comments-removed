@@ -10400,10 +10400,12 @@ return
 1
 ;
 return
-NS_STATIC_CAST
-(
+static_cast
+<
 nsFontMetricsWin
 *
+>
+(
 mFontMetrics
 )
 -

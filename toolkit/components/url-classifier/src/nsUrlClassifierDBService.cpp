@@ -521,9 +521,11 @@ start
 =
 kRot13Table
 [
-NS_STATIC_CAST
-(
+static_cast
+<
 PRInt32
+>
+(
 *
 start
 )

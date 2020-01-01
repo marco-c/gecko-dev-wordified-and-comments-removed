@@ -886,10 +886,12 @@ nsPoint
 aPt
 )
 {
-NS_STATIC_CAST
-(
+static_cast
+<
 nsHTMLCanvasFrame
 *
+>
+(
 aFrame
 )
 -

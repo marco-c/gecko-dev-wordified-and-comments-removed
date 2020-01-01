@@ -162,10 +162,12 @@ RC4
 :
 mSymKey
 =
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 PK11SymKey
 *
+>
+(
 aKey
 )
 ;

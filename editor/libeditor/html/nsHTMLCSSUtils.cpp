@@ -1625,10 +1625,12 @@ NS_OK
 ;
 mHTMLEditor
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsHTMLEditor
 *
+>
+(
 aEditor
 )
 ;

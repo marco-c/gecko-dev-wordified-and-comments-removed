@@ -1982,10 +1982,12 @@ INIClosure
 *
 c
 =
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 INIClosure
 *
+>
+(
 aClosure
 )
 ;

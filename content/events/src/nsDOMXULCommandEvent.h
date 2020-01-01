@@ -56,10 +56,12 @@ Event
 )
 {
 return
-NS_STATIC_CAST
-(
+static_cast
+<
 nsXULCommandEvent
 *
+>
+(
 mEvent
 )
 ;

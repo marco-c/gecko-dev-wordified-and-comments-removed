@@ -193,10 +193,12 @@ NewPage
 )
 {
 return
-NS_STATIC_CAST
-(
+static_cast
+<
 Page
 *
+>
+(
 calloc
 (
 1

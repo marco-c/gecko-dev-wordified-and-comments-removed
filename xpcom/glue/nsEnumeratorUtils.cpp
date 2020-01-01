@@ -57,10 +57,12 @@ GetInstance
 )
 {
 return
-NS_CONST_CAST
-(
+const_cast
+<
 EmptyEnumeratorImpl
 *
+>
+(
 &
 kInstance
 )

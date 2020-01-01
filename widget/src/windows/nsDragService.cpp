@@ -853,10 +853,12 @@ S_OK
 {
 dataObjCol
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsDataObjCollection
 *
+>
+(
 aDataObj
 )
 ;

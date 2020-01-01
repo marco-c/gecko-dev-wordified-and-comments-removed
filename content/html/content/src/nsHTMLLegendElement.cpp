@@ -882,10 +882,12 @@ domElement
 =
 do_QueryInterface
 (
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIContent
 *
+>
+(
 this
 )
 )

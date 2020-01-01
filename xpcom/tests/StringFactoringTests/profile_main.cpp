@@ -291,9 +291,11 @@ setw
 )
 <
 <
-NS_STATIC_CAST
-(
+static_cast
+<
 PRInt64
+>
+(
 totalTime
 )
 <
@@ -314,9 +316,11 @@ setw
 )
 <
 <
-NS_STATIC_CAST
-(
+static_cast
+<
 PRInt32
+>
+(
 totalTime
 )
 <

@@ -243,10 +243,12 @@ NS_ERROR_FAILURE
 *
 outCommand
 =
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 nsIControllerCommand
 *
+>
+(
 foundCommand
 )
 ;

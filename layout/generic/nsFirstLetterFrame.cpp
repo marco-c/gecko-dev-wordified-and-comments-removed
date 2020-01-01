@@ -1144,10 +1144,12 @@ if
 kidNextInFlow
 )
 {
-NS_STATIC_CAST
-(
+static_cast
+<
 nsContainerFrame
 *
+>
+(
 kidNextInFlow
 -
 >

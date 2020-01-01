@@ -449,11 +449,13 @@ mSerializer
 =
 do_CreateInstance
 (
-NS_STATIC_CAST
-(
+static_cast
+<
 const
 char
 *
+>
+(
 progId
 )
 )

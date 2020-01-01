@@ -7143,9 +7143,11 @@ advance
 (
 -
 (
-NS_STATIC_CAST
-(
+static_cast
+<
 PRInt32
+>
+(
 kSaltExtensionCString_Len
 )
 )

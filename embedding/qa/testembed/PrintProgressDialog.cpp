@@ -738,10 +738,12 @@ nsIWebProgressListener
 *
 wpl
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIWebProgressListener
 *
+>
+(
 m_PrintListener
 )
 ;

@@ -1537,9 +1537,11 @@ eProxyConfig_Direct
 }
 mProxyConfig
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 ProxyConfig
+>
+(
 type
 )
 ;

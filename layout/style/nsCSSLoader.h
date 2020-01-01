@@ -425,10 +425,12 @@ GetKey
 const
 {
 return
-NS_CONST_CAST
-(
+const_cast
+<
 nsURIAndPrincipalHashKey
 *
+>
+(
 this
 )
 ;

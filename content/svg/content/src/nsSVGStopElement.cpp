@@ -344,9 +344,11 @@ rest
 float
 offset
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 float
+>
+(
 PR_strtod
 (
 str

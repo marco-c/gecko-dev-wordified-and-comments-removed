@@ -3719,10 +3719,12 @@ NS_ADDREF
 aFormSubmission
 )
 ;
-NS_STATIC_CAST
-(
+static_cast
+<
 nsFormSubmission
 *
+>
+(
 *
 aFormSubmission
 )

@@ -249,10 +249,12 @@ PR_TRUE
 *
 _retval
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIWebBrowserChrome
 *
+>
+(
 (
 newEmbedPrivate
 -

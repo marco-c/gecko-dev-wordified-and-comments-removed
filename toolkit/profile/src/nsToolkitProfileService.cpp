@@ -2034,10 +2034,12 @@ aProfile
 {
 mChosen
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsToolkitProfile
 *
+>
+(
 aProfile
 )
 ;

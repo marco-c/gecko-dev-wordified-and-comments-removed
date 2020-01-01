@@ -989,10 +989,12 @@ nsBaseWidget
 *
 parent
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsBaseWidget
 *
+>
+(
 GetParent
 (
 )

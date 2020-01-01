@@ -367,10 +367,12 @@ do_QueryInterface
 return
 nsQueryInterface
 (
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIChannel
 *
+>
+(
 this
 )
 )

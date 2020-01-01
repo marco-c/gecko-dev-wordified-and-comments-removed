@@ -1817,10 +1817,12 @@ listenerRef
 =
 do_QueryInterface
 (
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIURIContentListener
 *
+>
+(
 listener
 )
 )

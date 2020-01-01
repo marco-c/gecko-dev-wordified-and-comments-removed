@@ -1069,10 +1069,12 @@ nsGkAtoms
 menuFrame
 )
 ?
-NS_STATIC_CAST
-(
+static_cast
+<
 nsMenuFrame
 *
+>
+(
 currFrame
 )
 :

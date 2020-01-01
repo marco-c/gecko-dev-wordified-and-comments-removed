@@ -2228,10 +2228,12 @@ mAtkObject
 {
 mAtkObject
 =
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 AtkObject
 *
+>
+(
 g_object_new
 (
 MAI_TYPE_ATK_OBJECT

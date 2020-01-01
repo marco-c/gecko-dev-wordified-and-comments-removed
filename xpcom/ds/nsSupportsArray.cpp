@@ -1330,10 +1330,12 @@ nsISupportsArray
 *
 other
 =
-NS_CONST_CAST
-(
+const_cast
+<
 nsISupportsArray
 *
+>
+(
 aOther
 )
 ;

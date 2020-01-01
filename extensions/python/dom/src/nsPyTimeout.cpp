@@ -446,11 +446,13 @@ NS_GET_IID
 (
 nsIScriptTimeoutHandler
 )
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 void
 *
 *
+>
+(
 aRet
 )
 )

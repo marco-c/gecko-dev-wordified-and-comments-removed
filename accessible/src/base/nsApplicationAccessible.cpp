@@ -391,9 +391,11 @@ if
 aChildNum
 >
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 PRInt32
+>
+(
 count
 )
 |
@@ -689,9 +691,11 @@ count
 ;
 mAccChildCount
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 PRInt32
+>
+(
 count
 )
 ;

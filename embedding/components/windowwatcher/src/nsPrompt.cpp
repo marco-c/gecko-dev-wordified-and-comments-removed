@@ -422,11 +422,13 @@ NS_GET_IID
 (
 nsIAuthPrompt2
 )
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 void
 *
 *
+>
+(
 result
 )
 )

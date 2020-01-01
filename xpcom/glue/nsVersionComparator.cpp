@@ -167,11 +167,13 @@ numA
 strtol
 (
 part
-NS_CONST_CAST
-(
+const_cast
+<
 char
 *
 *
+>
+(
 &
 result
 .

@@ -4233,10 +4233,12 @@ nsCaret
 *
 theCaret
 =
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 nsCaret
 *
+>
+(
 aClosure
 )
 ;

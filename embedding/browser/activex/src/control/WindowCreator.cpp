@@ -78,10 +78,12 @@ CWebBrowserContainer
 *
 pContainer
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 CWebBrowserContainer
 *
+>
+(
 aParent
 )
 ;

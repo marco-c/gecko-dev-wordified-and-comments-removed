@@ -832,10 +832,12 @@ GetCID
 *
 aInstancePtr
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 EditAggregateTxn
 *
+>
+(
 this
 )
 ;

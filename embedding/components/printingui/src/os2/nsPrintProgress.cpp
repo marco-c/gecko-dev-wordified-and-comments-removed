@@ -220,10 +220,12 @@ ifptr
 >
 SetData
 (
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIPrintProgress
 *
+>
+(
 this
 )
 )

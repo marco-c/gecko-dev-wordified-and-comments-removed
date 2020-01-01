@@ -5283,9 +5283,11 @@ M_PI
 ;
 mNumSegs
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 int
+>
+(
 ceil
 (
 fabs

@@ -615,11 +615,13 @@ JS_DefineUCProperty
 (
 cx
 targetClassObject
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 const
 jschar
 *
+>
+(
 mName
 )
 name

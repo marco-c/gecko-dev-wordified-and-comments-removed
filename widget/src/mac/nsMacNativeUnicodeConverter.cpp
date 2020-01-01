@@ -475,10 +475,12 @@ ScriptCodeRun
 *
 scriptCodeRuns
 =
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 ScriptCodeRun
 *
+>
+(
 nsMemory
 :
 :

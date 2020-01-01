@@ -57,10 +57,12 @@ NULL
 ;
 }
 return
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIComponentManager
 *
+>
+(
 Py_nsISupports
 :
 :

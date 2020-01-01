@@ -1391,10 +1391,12 @@ nsIRunnable
 *
 ev
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIRunnable
 *
+>
+(
 arg
 )
 ;

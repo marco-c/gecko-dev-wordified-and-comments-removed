@@ -324,10 +324,12 @@ nsID
 *
 id
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsID
 *
+>
+(
 NS_Alloc
 (
 sizeof

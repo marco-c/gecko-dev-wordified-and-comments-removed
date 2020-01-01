@@ -609,10 +609,12 @@ while
 (
 theAttrToken
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 CToken
 *
+>
+(
 mAttributes
 .
 Pop

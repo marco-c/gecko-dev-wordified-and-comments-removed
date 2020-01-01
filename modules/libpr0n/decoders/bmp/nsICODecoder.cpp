@@ -663,10 +663,12 @@ nsICODecoder
 *
 decoder
 =
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 nsICODecoder
 *
+>
+(
 aClosure
 )
 ;

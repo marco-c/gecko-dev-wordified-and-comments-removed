@@ -1168,10 +1168,12 @@ wstr
 .
 mWStringValue
 =
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 PRUnichar
 *
+>
+(
 JS_GetStringChars
 (
 str

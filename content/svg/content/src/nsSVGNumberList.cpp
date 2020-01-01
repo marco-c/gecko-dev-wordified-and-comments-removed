@@ -643,9 +643,11 @@ if
 index
 >
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 PRUint32
+>
+(
 mNumbers
 .
 Count
@@ -846,9 +848,11 @@ if
 index
 >
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 PRUint32
+>
+(
 mNumbers
 .
 Count

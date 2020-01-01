@@ -129,10 +129,12 @@ nsGkAtoms
 :
 :
 _class
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIDOMSVGAnimatedString
 *
+>
+(
 mClassName
 )
 kNameSpaceID_None

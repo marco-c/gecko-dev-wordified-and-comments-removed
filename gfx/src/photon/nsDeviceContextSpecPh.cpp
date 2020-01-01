@@ -1273,11 +1273,13 @@ aDefaultPrinterName
 =
 ToNewUnicode
 (
-NS_STATIC_CAST
-(
+static_cast
+<
 const
 nsAFlatString
 &
+>
+(
 NS_MULTILINE_LITERAL_STRING
 (
 printer

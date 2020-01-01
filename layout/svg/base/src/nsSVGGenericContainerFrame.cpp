@@ -140,10 +140,12 @@ nsSVGContainerFrame
 *
 containerFrame
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsSVGContainerFrame
 *
+>
+(
 mParent
 )
 ;

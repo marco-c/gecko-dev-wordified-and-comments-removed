@@ -18,10 +18,12 @@ Finalize
 ;
 mData
 =
-NS_CONST_CAST
-(
+const_cast
+<
 char_type
 *
+>
+(
 data
 )
 ;

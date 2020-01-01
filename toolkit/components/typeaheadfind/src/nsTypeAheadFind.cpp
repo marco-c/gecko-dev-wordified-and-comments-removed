@@ -4864,10 +4864,12 @@ currentItem
 ;
 frame
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIFrame
 *
+>
+(
 currentItem
 )
 ;

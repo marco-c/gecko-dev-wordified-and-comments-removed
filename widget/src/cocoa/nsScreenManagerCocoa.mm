@@ -508,10 +508,12 @@ nsScreenCocoa
 *
 sc
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsScreenCocoa
 *
+>
+(
 mScreenList
 .
 ObjectAt

@@ -2777,10 +2777,12 @@ nsColumnSetFrame
 *
 prev
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsColumnSetFrame
 *
+>
+(
 GetPrevInFlow
 (
 )

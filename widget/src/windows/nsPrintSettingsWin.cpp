@@ -643,10 +643,12 @@ nsPrintSettingsWin
 *
 psWin
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsPrintSettingsWin
 *
+>
+(
 aPS
 )
 ;

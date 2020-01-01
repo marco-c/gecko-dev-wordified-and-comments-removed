@@ -107,11 +107,13 @@ mData
 >
 pPluginInstance
 NPNVDOMWindow
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIDOMWindow
 *
 *
+>
+(
 getter_AddRefs
 (
 mDOMWindow

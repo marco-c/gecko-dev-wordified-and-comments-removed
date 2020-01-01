@@ -890,10 +890,12 @@ mSharedNodes
 .
 Push
 (
-NS_STATIC_CAST
-(
+static_cast
+<
 void
 *
+>
+(
 aNode
 )
 )

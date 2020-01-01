@@ -501,10 +501,12 @@ SEC_NewCrl
 CERT_GetDefaultCertDB
 (
 )
-NS_CONST_CAST
-(
+const_cast
+<
 char
 *
+>
+(
 url
 .
 get

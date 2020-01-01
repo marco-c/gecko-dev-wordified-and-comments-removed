@@ -1448,10 +1448,12 @@ rv
 =
 GetNodeInfos
 (
-NS_STATIC_CAST
-(
+static_cast
+<
 nsXULPrototypeElement
 *
+>
+(
 child
 )
 aArray

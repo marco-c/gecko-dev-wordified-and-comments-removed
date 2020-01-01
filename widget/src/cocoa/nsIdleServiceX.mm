@@ -697,9 +697,11 @@ NS_ERROR_CANNOT_CONVERT_DATA
 *
 aTimeDiff
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 PRUint32
+>
+(
 time
 )
 ;

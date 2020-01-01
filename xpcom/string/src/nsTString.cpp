@@ -17,10 +17,12 @@ self_type
 *
 mutable_str
 =
-NS_CONST_CAST
-(
+const_cast
+<
 self_type
 *
+>
+(
 &
 str
 )

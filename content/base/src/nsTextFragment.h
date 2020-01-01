@@ -398,10 +398,12 @@ m2b
 aIndex
 ]
 :
-NS_STATIC_CAST
-(
+static_cast
+<
 unsigned
 char
+>
+(
 m1b
 [
 aIndex

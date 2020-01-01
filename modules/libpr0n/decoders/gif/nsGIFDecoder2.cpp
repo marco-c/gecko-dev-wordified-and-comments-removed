@@ -337,10 +337,12 @@ nsGIFDecoder2
 *
 decoder
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsGIFDecoder2
 *
+>
+(
 closure
 )
 ;

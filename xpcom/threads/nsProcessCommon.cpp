@@ -748,10 +748,12 @@ i
 1
 ]
 =
-NS_CONST_CAST
-(
+const_cast
+<
 char
 *
+>
+(
 args
 [
 i

@@ -318,9 +318,11 @@ height
 ;
 mDepth
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 PRUint32
+>
+(
 depth
 )
 ;

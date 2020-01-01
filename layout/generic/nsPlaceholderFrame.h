@@ -402,10 +402,12 @@ nsIFrame
 *
 outOfFlow
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsPlaceholderFrame
 *
+>
+(
 aFrame
 )
 -

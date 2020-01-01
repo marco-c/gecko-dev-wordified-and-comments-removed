@@ -1058,10 +1058,12 @@ nsRect
 aDirtyRect
 )
 {
-NS_STATIC_CAST
-(
+static_cast
+<
 nsTextBoxFrame
 *
+>
+(
 mFrame
 )
 -

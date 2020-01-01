@@ -922,10 +922,12 @@ GSClosureStruct
 *
 cs
 =
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 GSClosureStruct
 *
+>
+(
 aClosure
 )
 ;

@@ -1185,10 +1185,12 @@ entry
 >
 mPopupFrame
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsMenuPopupFrame
 *
+>
+(
 aPopup
 )
 ;

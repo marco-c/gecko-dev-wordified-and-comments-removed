@@ -181,9 +181,11 @@ rv
 ?
 0
 :
-NS_STATIC_CAST
-(
+static_cast
+<
 gint
+>
+(
 num
 )
 ;

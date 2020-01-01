@@ -105,10 +105,12 @@ _class
 \
 foundInterface
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIClassInfo
 *
+>
+(
 NS_CLASSINFO_NAME
 (
 _class

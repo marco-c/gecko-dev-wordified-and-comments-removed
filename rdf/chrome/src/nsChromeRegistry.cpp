@@ -5375,10 +5375,12 @@ supports
 =
 getter_AddRefs
 (
-NS_STATIC_CAST
-(
+static_cast
+<
 nsISupports
 *
+>
+(
 mDataSourceTable
 -
 >

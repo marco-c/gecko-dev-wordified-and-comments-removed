@@ -1683,10 +1683,12 @@ NS_ERROR_FAILURE
 *
 exceptn
 =
-NS_STATIC_CAST
-(
+static_cast
+<
 nsIXPCException
 *
+>
+(
 e
 )
 ;

@@ -177,10 +177,12 @@ nsAttrAndChildArray
 )
 ;
 return
-NS_REINTERPRET_CAST
-(
+reinterpret_cast
+<
 nsIContent
 *
+>
+(
 mImpl
 -
 >
