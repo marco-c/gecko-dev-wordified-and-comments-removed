@@ -632,7 +632,7 @@ repositories
 /
 android
 /
-BrowserContract
+BrowserContractHelpers
 .
 java
 sync

@@ -49,6 +49,17 @@ mozilla
 .
 gecko
 .
+db
+.
+BrowserContract
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 sync
 .
 Logger

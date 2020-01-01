@@ -250,11 +250,9 @@ getUri
 )
 {
 return
-BrowserContract
+BrowserContractHelpers
 .
-Passwords
-.
-CONTENT_URI
+PASSWORDS_CONTENT_URI
 ;
 }
 Override
@@ -267,9 +265,7 @@ getAllColumns
 )
 {
 return
-BrowserContract
-.
-Passwords
+BrowserContractHelpers
 .
 PasswordColumns
 ;
