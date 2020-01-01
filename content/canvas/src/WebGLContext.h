@@ -674,8 +674,14 @@ WrapObject
 JSContext
 *
 cx
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 scope
 )
 MOZ_OVERRIDE
@@ -6129,7 +6135,6 @@ retval
 mName
 ;
 }
-virtual
 JSObject
 *
 WrapObject
@@ -6137,8 +6142,14 @@ WrapObject
 JSContext
 *
 cx
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 scope
 )
 ;

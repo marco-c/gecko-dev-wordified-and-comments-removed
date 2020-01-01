@@ -109,10 +109,17 @@ WrapObject
 JSContext
 *
 aCx
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aScope
 )
+MOZ_OVERRIDE
 ;
 uint32_t
 Length

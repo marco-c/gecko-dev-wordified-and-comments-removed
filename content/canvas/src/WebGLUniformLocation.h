@@ -110,7 +110,6 @@ return
 mElementSize
 ;
 }
-virtual
 JSObject
 *
 WrapObject
@@ -118,8 +117,14 @@ WrapObject
 JSContext
 *
 cx
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 scope
 )
 ;
