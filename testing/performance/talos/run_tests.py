@@ -773,13 +773,9 @@ read
 (
 )
   
-while
-True
-:
-    
 try
 :
-      
+    
 ret
 =
 post_file
@@ -808,29 +804,26 @@ file_data
 )
 ]
 )
-    
+  
 except
-IOError
 :
-      
+    
 print
 "
 FAIL
 :
-IOError
-on
-sending
+error
+in
+post
 data
-to
-the
-graph
-server
 "
     
-else
-:
-      
-break
+sys
+.
+exit
+(
+0
+)
   
 links
 =
@@ -2147,6 +2140,8 @@ results_link
 )
 :
       
+sys
+.
 exit
 (
 0
