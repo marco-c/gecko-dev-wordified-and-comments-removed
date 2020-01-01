@@ -6762,6 +6762,11 @@ GetNearestWidget
 (
 )
 ;
+if
+(
+widget
+)
+{
 bool
 isVisible
 =
@@ -6849,6 +6854,7 @@ NS_NATIVE_WINDOW
 )
 )
 ;
+}
 }
 }
 }
