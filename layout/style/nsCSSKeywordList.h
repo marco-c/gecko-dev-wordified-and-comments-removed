@@ -1191,11 +1191,6 @@ always
 )
 CSS_KEY
 (
-antialiased
-antialiased
-)
-CSS_KEY
-(
 annotation
 annotation
 )

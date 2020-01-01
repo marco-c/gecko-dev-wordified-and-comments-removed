@@ -14942,7 +14942,7 @@ SetDiscrete
 aRuleData
 -
 >
-ValueForFontSmoothing
+ValueForOSXFontSmoothing
 (
 )
 aFont
