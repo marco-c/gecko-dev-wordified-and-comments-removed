@@ -517,6 +517,10 @@ attribute
 long
 height
 ;
+attribute
+boolean
+mozOpaque
+;
 nsISupports
 getContext
 (
