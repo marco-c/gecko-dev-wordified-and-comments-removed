@@ -488,10 +488,6 @@ test_bug_242956
 .
 html
 \
-test_bug_270558
-.
-html
-\
 test_bug_360493_1
 .
 html
