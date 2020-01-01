@@ -1960,7 +1960,10 @@ js
 Value
 positiveInfinityValue
 ;
-JSAtom
+js
+:
+:
+PropertyName
 *
 emptyString
 ;
