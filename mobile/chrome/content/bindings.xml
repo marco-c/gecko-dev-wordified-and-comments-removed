@@ -3467,7 +3467,7 @@ initEvent
 "
 close
 "
-true
+false
 false
 )
 ;
