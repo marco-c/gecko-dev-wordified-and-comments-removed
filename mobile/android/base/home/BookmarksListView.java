@@ -184,7 +184,7 @@ R
 .
 attr
 .
-homeListViewStyle
+bookmarksListViewStyle
 )
 ;
 }
