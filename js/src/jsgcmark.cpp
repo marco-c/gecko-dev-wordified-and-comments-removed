@@ -3922,15 +3922,6 @@ TypeObject
 type
 )
 {
-if
-(
-!
-type
--
->
-singleton
-)
-{
 unsigned
 count
 =
@@ -3989,7 +3980,6 @@ type_prop
 "
 )
 ;
-}
 }
 if
 (
