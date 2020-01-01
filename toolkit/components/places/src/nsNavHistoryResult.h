@@ -25,13 +25,6 @@ nsDataHashtable
 .
 h
 "
-#
-include
-"
-nsCycleCollectionParticipant
-.
-h
-"
 class
 nsNavHistory
 ;
@@ -2577,13 +2570,7 @@ nsNavHistoryQueryOptions
 aOptions
 )
 ;
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_NSINAVHISTORYQUERYRESULTNODE
-NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
-(
-nsNavHistoryQueryResultNode
-nsNavHistoryResultNode
-)
+NS_DECL_ISUPPORTS_INHERITED
 NS_FORWARD_COMMON_RESULTNODE_TO_BASE
 NS_IMETHOD
 GetType
@@ -2640,6 +2627,7 @@ aChildrenReadOnly
 )
 ;
 }
+NS_DECL_NSINAVHISTORYQUERYRESULTNODE
 PRBool
 CanExpand
 (
