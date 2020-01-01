@@ -3509,3 +3509,17 @@ chrome
 chrome
 .
 manifest
+BINPATH
+/
+components
+/
+B2GComponents
+.
+manifest
+BINPATH
+/
+components
+/
+B2GComponents
+.
+xpt
