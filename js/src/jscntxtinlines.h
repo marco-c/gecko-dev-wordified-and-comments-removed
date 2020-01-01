@@ -209,9 +209,6 @@ return
 case
 COMPILER
 :
-#
-if
-0
 static_cast
 <
 JSCompiler
@@ -227,15 +224,6 @@ trace
 trc
 )
 ;
-#
-else
-JS_ASSERT
-(
-0
-)
-;
-#
-endif
 return
 ;
 case
