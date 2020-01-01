@@ -3926,6 +3926,16 @@ MarkAsDead
 (
 )
 ;
+mMemoryReporters
+.
+Clear
+(
+)
+;
+mMessageManager
+=
+nullptr
+;
 }
 void
 ContentParent
