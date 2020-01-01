@@ -169,6 +169,16 @@ specialization_
 ;
 public
 :
+ComparePolicy
+(
+)
+:
+specialization_
+(
+MIRType_None
+)
+{
+}
 bool
 adjustInputs
 (

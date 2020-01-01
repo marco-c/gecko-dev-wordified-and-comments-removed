@@ -1043,6 +1043,12 @@ JSVAL_TYPE_OBJECT
 return
 MIRType_Object
 ;
+case
+JSVAL_TYPE_UNKNOWN
+:
+return
+MIRType_Value
+;
 default
 :
 JS_NOT_REACHED
