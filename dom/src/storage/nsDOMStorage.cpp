@@ -143,13 +143,6 @@ h
 #
 include
 "
-nsIPrefBranch
-.
-h
-"
-#
-include
-"
 nsICookiePermission
 .
 h
