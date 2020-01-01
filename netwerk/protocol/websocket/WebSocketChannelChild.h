@@ -262,9 +262,6 @@ mEventQ
 bool
 mIPCOpen
 ;
-bool
-mCancelled
-;
 friend
 class
 StartEvent
