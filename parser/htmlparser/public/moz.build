@@ -128,11 +128,6 @@ nsHTMLTags
 h
 '
 '
-nsHTMLTokens
-.
-h
-'
-'
 nsIContentSink
 .
 h

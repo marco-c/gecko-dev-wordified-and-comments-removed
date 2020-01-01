@@ -314,14 +314,6 @@ aNotationName
 private
 :
 nsresult
-HandleToken
-(
-CToken
-*
-aToken
-)
-;
-nsresult
 OpenInputStreamFromExternalDTD
 (
 const

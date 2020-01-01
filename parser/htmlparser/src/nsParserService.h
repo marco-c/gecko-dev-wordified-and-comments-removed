@@ -11,13 +11,6 @@ nsIParserService
 .
 h
 "
-#
-include
-"
-nsDTDUtils
-.
-h
-"
 extern
 "
 C

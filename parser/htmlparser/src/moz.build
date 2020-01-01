@@ -113,11 +113,6 @@ CParserContext
 cpp
 '
 '
-nsDTDUtils
-.
-cpp
-'
-'
 nsElementTable
 .
 cpp
@@ -139,11 +134,6 @@ cpp
 '
 '
 nsHTMLTokenizer
-.
-cpp
-'
-'
-nsHTMLTokens
 .
 cpp
 '
@@ -179,11 +169,6 @@ cpp
 '
 '
 nsScannerString
-.
-cpp
-'
-'
-nsToken
 .
 cpp
 '
