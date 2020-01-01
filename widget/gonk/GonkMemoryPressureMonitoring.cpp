@@ -330,7 +330,7 @@ MOZ_ASSERT
 (
 strcmp
 (
-topic
+aTopic
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
 )
 =
