@@ -591,6 +591,10 @@ SVGTests
 .
 webidl
 \
+SVGTextContentElement
+.
+webidl
+\
 SVGTitleElement
 .
 webidl

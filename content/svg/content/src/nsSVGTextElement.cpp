@@ -105,6 +105,13 @@ DOMSVGPoint
 .
 h
 "
+#
+include
+"
+nsSVGTextContainerFrame
+.
+h
+"
 using
 namespace
 mozilla

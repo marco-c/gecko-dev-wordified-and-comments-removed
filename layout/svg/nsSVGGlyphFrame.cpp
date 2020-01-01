@@ -7422,7 +7422,7 @@ nsSVGGlyphFrame
 :
 GetCharNumAtPosition
 (
-DOMSVGPoint
+nsISVGPoint
 *
 point
 )

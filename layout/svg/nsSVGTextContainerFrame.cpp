@@ -879,7 +879,7 @@ nsSVGTextContainerFrame
 :
 GetCharNumAtPosition
 (
-DOMSVGPoint
+nsISVGPoint
 *
 point
 )

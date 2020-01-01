@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsSVGTextContentElement
+SVGTextContentElement
 .
 h
 "
@@ -43,7 +43,13 @@ SVGAnimatedLengthList
 ;
 }
 typedef
-nsSVGTextContentElement
+mozilla
+:
+:
+dom
+:
+:
+SVGTextContentElement
 nsSVGTextPositioningElementBase
 ;
 class
