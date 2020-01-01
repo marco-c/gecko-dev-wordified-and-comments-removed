@@ -592,11 +592,12 @@ sWidgetCount
 if
 (
 sWidgetCount
-=
+!
 =
 1
 )
-{
+return
+;
 nsresult
 rv
 ;
@@ -785,7 +786,6 @@ n
 )
 ;
 }
-}
 void
 QGeckoGlobals
 :
@@ -801,11 +801,12 @@ sWidgetCount
 if
 (
 sWidgetCount
-=
+!
 =
 0
 )
-{
+return
+;
 if
 (
 sAppFileLocProvider
@@ -835,7 +836,6 @@ NS_IF_RELEASE
 sProfileDir
 )
 ;
-}
 }
 void
 QGeckoGlobals
