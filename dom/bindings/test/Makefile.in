@@ -401,6 +401,10 @@ test_exceptionThrowing
 .
 html
 \
+test_bug852846
+.
+html
+\
 (
 NULL
 )

@@ -167,6 +167,12 @@ attribute
 SVGAnimatedString
 className
 ;
+[
+PutForwards
+=
+cssText
+Constant
+]
 readonly
 attribute
 CSSStyleDeclaration

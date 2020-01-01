@@ -461,6 +461,9 @@ commandChecked
 /
 styling
 [
+PutForwards
+=
+cssText
 Constant
 ]
 readonly
