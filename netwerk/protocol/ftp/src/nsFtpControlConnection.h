@@ -201,6 +201,9 @@ mSuspendedWrite
 nsCString
 mPwd
 ;
+PRUint32
+mSessionId
+;
 private
 :
 nsCString

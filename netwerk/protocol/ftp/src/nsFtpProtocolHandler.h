@@ -141,6 +141,15 @@ nsFtpControlConnection
 aConn
 )
 ;
+PRUint32
+GetSessionId
+(
+)
+{
+return
+mSessionId
+;
+}
 private
 :
 struct
@@ -236,6 +245,11 @@ void
 aClosure
 )
 ;
+void
+ClearAllConnections
+(
+)
+;
 nsTArray
 <
 timerStruct
@@ -251,6 +265,9 @@ mCacheSession
 ;
 PRInt32
 mIdleTimeout
+;
+PRUint32
+mSessionId
 ;
 }
 ;
