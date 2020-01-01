@@ -9093,11 +9093,12 @@ JSTraceableNative
 *
 trcinfo
 =
+JS_FUNC_TO_DATA_PTR
 (
 JSTraceableNative
 *
-)
 native
+)
 ;
 fun
 -

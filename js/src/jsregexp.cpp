@@ -1,5 +1,12 @@
 #
 include
+"
+jsstddef
+.
+h
+"
+#
+include
 <
 stdlib
 .
@@ -20943,11 +20950,12 @@ caller
 )
 :
 0
+JS_FUNC_TO_DATA_PTR
 (
 void
 *
-)
 native
+)
 )
 ;
 }
