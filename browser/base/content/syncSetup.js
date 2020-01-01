@@ -2020,6 +2020,16 @@ valid
 return
 valid
 ;
+if
+(
+!
+this
+.
+_haveCustomSyncKey
+)
+return
+valid
+;
 let
 pp
 =
