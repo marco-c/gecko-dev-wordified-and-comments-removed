@@ -6675,6 +6675,15 @@ JSProperty
 propp
 )
 {
+JSAutoResolveFlags
+rf
+(
+cx
+JSRESOLVE_QUALIFIED
+|
+JSRESOLVE_DETECTING
+)
+;
 if
 (
 !
