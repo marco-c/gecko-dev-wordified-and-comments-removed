@@ -47,8 +47,9 @@ NPAPI
 manages
 NPStream
 ;
+child
+:
 rpc
-out
 NPP_SetWindow
 (
 NPWindow
@@ -61,7 +62,6 @@ rv
 )
 ;
 rpc
-out
 NPP_GetValue
 (
 String
@@ -73,8 +73,9 @@ String
 value
 )
 ;
+parent
+:
 rpc
-in
 NPN_GetValue
 (
 String

@@ -8,8 +8,9 @@ rpc
 protocol
 IFrameEmbedding
 {
+child
+:
 rpc
-out
 init
 (
 MagicWindowHandle
@@ -17,7 +18,6 @@ parentWidget
 )
 ;
 rpc
-out
 loadURL
 (
 String
@@ -25,7 +25,6 @@ uri
 )
 ;
 rpc
-out
 move
 (
 PRUint32

@@ -4728,6 +4728,10 @@ msg
 .
 progname
                     
+t
+.
 trigger
+.
+pretty
 )
 )
