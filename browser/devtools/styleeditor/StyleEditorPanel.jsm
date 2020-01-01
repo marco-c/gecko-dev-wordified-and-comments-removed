@@ -213,11 +213,7 @@ toolbox
 .
 target
 .
-tab
-.
-linkedBrowser
-.
-contentWindow
+window
 ;
 this
 .
