@@ -14495,6 +14495,14 @@ GetCurrentGlobal
 cx
 )
 ;
+JSProtoKey
+protoKey
+=
+GetClassProtoKey
+(
+clasp
+)
+;
 NewObjectCache
 :
 :
@@ -14512,6 +14520,12 @@ parent
 isGlobal
 (
 )
+&
+&
+protoKey
+!
+=
+JSProto_Null
 )
 {
 if
