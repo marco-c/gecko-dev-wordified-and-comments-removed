@@ -7788,6 +7788,17 @@ titlebar
 target
 &
 &
+self
+.
+expander
+[
+0
+]
+!
+=
+target
+&
+&
 !
 self
 .
