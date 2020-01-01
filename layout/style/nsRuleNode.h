@@ -2192,6 +2192,15 @@ nsPresContext
 aPresContext
 )
 ;
+static
+void
+EnsureBlockDisplay
+(
+uint8_t
+&
+display
+)
+;
 nsRuleNode
 *
 Transition

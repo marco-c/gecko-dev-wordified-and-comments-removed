@@ -558,8 +558,10 @@ PL_DHashFinalizeStub
 NULL
 }
 ;
-static
 void
+nsRuleNode
+:
+:
 EnsureBlockDisplay
 (
 uint8_t
