@@ -909,13 +909,6 @@ SetupLookupFunction
 ;
 virtual
 void
-WindowDestroyed
-(
-)
-{
-}
-virtual
-void
 ReleaseSurface
 (
 )
