@@ -4944,7 +4944,7 @@ NS_OK
 }
 #
 ifdef
-MOZ_DEBUG
+DEBUG
 {
 PRTime
 now

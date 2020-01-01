@@ -3806,7 +3806,7 @@ NS_ERROR_ALREADY_INITIALIZED
 if
 defined
 (
-MOZ_DEBUG
+DEBUG
 )
 const
 char
