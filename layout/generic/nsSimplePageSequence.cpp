@@ -3151,11 +3151,6 @@ aRenderingContext
 Translate
 (
 framePos
-.
-x
-framePos
-.
-y
 )
 ;
 rect
@@ -3217,11 +3212,6 @@ aRenderingContext
 Translate
 (
 pt
-.
-x
-pt
-.
-y
 )
 ;
 nsLayoutUtils

@@ -740,16 +740,11 @@ nsCOMPtr
 nsIFontMetrics
 >
 fm
-;
+=
 aRenderingContext
 .
 GetFontMetrics
 (
-*
-getter_AddRefs
-(
-fm
-)
 )
 ;
 nscoord

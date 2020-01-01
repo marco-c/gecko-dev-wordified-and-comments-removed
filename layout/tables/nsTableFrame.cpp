@@ -6262,11 +6262,6 @@ translate
 &
 aRenderingContext
 aPt
-.
-x
-aPt
-.
-y
 )
 ;
 PaintBCBorders

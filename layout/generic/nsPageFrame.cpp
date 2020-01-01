@@ -2824,11 +2824,6 @@ aRenderingContext
 Translate
 (
 framePos
-.
-x
-framePos
-.
-y
 )
 ;
 rect

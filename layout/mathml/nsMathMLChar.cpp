@@ -8735,10 +8735,9 @@ Translate
 (
 r
 .
-x
-r
-.
-y
+TopLeft
+(
+)
 )
 ;
 aRenderingContext

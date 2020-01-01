@@ -2718,7 +2718,7 @@ nsCOMPtr
 nsIFontMetrics
 >
 fm
-;
+=
 aReflowState
 .
 rendContext
@@ -2726,11 +2726,6 @@ rendContext
 >
 GetFontMetrics
 (
-*
-getter_AddRefs
-(
-fm
-)
 )
 ;
 nscoord
