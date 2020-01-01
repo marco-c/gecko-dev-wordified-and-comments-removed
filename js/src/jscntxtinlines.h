@@ -1873,7 +1873,9 @@ argv
 up
 -
 >
-argc
+numActualArgs
+(
+)
 ;
 #
 ifdef
@@ -1958,7 +1960,9 @@ argc
 up
 -
 >
-argc
+numActualArgs
+(
+)
 ;
 uintN
 missing
