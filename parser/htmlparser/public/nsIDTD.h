@@ -123,8 +123,6 @@ DidBuildModel
 (
 nsresult
 anErrorCode
-PRBool
-aNotifySink
 nsIParser
 *
 aParser
@@ -258,8 +256,6 @@ DidBuildModel
 (
 nsresult
 anErrorCode
-PRBool
-aNotifySink
 nsIParser
 *
 aParser
