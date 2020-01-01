@@ -83,6 +83,11 @@ NewObject
 \
 _
 (
+NewSlots
+)
+\
+_
+(
 NewCallObject
 )
 \

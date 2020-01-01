@@ -393,6 +393,14 @@ lir
 )
 ;
 bool
+visitNewSlots
+(
+LNewSlots
+*
+lir
+)
+;
+bool
 visitNewArrayCallVM
 (
 LNewArray

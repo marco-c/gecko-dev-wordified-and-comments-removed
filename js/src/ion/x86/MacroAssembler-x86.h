@@ -2238,9 +2238,7 @@ label
 void
 cmpPtr
 (
-const
 Register
-&
 lhs
 const
 ImmWord
@@ -2304,9 +2302,7 @@ const
 Address
 &
 lhs
-const
 Register
-&
 rhs
 )
 {
@@ -2345,13 +2341,9 @@ rhs
 void
 cmpPtr
 (
-const
 Register
-&
 lhs
-const
 Register
-&
 rhs
 )
 {
@@ -2365,13 +2357,9 @@ rhs
 void
 testPtr
 (
-const
 Register
-&
 lhs
-const
 Register
-&
 rhs
 )
 {
