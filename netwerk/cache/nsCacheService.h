@@ -340,6 +340,12 @@ nsCacheStoragePolicy
 policy
 )
 ;
+static
+void
+MarkStartingFresh
+(
+)
+;
 nsresult
 GetOfflineDevice
 (
@@ -547,6 +553,10 @@ nsSetDiskSmartSizeCallback
 friend
 class
 nsDoomEvent
+;
+friend
+class
+nsDisableOldMaxSmartSizePrefEvent
 ;
 static
 void
