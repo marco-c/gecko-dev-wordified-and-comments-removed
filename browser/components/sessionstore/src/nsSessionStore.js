@@ -629,7 +629,7 @@ _loadState
 STATE_STOPPED
 _interval
 :
-10000
+15000
 _resume_from_crash
 :
 true
