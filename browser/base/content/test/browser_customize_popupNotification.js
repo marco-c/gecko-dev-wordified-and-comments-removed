@@ -58,6 +58,17 @@ test_win_onLoad
 {
 newWin
 .
+removeEventListener
+(
+"
+load
+"
+test_win_onLoad
+false
+)
+;
+newWin
+.
 gURLBar
 .
 parentNode
