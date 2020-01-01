@@ -2075,7 +2075,9 @@ temp
 cx
 -
 >
-tempPool
+tempLifoAlloc
+(
+)
 )
 ;
 IonContext
