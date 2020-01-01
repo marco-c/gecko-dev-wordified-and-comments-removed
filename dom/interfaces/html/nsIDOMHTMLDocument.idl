@@ -663,6 +663,10 @@ write
 (
 [
 optional
+Null
+(
+Stringify
+)
 ]
 in
 DOMString
@@ -674,6 +678,10 @@ writeln
 (
 [
 optional
+Null
+(
+Stringify
+)
 ]
 in
 DOMString

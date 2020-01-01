@@ -2133,6 +2133,30 @@ argVal
 {
 argPtr
 }
+\
+n
+"
+        
+"
+xpc_qsDOMString
+:
+:
+e
+{
+nullBehavior
+}
+\
+n
+"
+        
+"
+xpc_qsDOMString
+:
+:
+e
+{
+undefinedBehavior
+}
 )
 ;
 \
@@ -2318,6 +2342,9 @@ type
 haveCcx
 optional
 rvdeclared
+                          
+nullBehavior
+undefinedBehavior
 )
 :
     
@@ -2443,6 +2470,26 @@ argPtr
 '
 :
 argPtr
+        
+'
+nullBehavior
+'
+:
+nullBehavior
+or
+'
+DefaultNullBehavior
+'
+        
+'
+undefinedBehavior
+'
+:
+undefinedBehavior
+or
+'
+DefaultUndefinedBehavior
+'
         
 }
     
@@ -5115,6 +5162,18 @@ optional
 rvdeclared
 =
 rvdeclared
+                
+nullBehavior
+=
+param
+.
+null
+                
+undefinedBehavior
+=
+param
+.
+undefined
 )
     
 elif
@@ -5144,6 +5203,18 @@ False
 rvdeclared
 =
 rvdeclared
+                                           
+nullBehavior
+=
+member
+.
+null
+                                           
+undefinedBehavior
+=
+member
+.
+undefined
 )
     
 canFail

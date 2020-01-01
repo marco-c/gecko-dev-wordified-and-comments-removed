@@ -2974,6 +2974,14 @@ argv
 [
 i
 ]
+xpc_qsDOMString
+:
+:
+eStringify
+xpc_qsDOMString
+:
+:
+eStringify
 )
 ;
 if
