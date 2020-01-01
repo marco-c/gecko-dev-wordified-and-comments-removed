@@ -983,9 +983,8 @@ sqlite3OsVtbl
 *
 vtable
 =
-sqlite3_os_switch
-(
-)
+&
+sqlite3Os
 ;
 sqliteOrigOpenReadWrite
 =

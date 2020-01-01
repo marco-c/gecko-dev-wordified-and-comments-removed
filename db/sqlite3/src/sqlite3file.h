@@ -620,12 +620,4 @@ sqlite3Os
 ;
 #
 endif
-struct
-sqlite3OsVtbl
-*
-sqlite3_os_switch
-(
-void
-)
-;
 }
