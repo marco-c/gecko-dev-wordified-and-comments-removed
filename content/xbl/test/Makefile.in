@@ -457,6 +457,10 @@ test_bug296375
 .
 xul
 \
+test_bug310107
+.
+html
+\
 test_bug366770
 .
 html
@@ -478,6 +482,12 @@ test_bug397934
 xhtml
 \
 test_bug398135
+.
+xhtml
+\
+bug310107
+-
+resource
 .
 xhtml
 \
