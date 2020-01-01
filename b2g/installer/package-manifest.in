@@ -1492,6 +1492,13 @@ BINPATH
 /
 components
 /
+necko_websocket
+.
+xpt
+BINPATH
+/
+components
+/
 necko_wifi
 .
 xpt
