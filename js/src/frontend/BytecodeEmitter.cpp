@@ -30943,7 +30943,13 @@ case
 TOK_INSTANCEOF
 :
 case
-TOK_SHOP
+TOK_LSH
+:
+case
+TOK_RSH
+:
+case
+TOK_URSH
 :
 case
 TOK_STAR
