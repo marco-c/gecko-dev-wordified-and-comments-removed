@@ -2262,13 +2262,10 @@ bool
 addHeapAccesses
 (
 const
-Vector
-<
 ion
 :
 :
-AsmJSHeapAccess
->
+AsmJSHeapAccessVector
 &
 accesses
 )
