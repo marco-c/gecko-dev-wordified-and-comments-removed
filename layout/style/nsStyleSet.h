@@ -537,6 +537,11 @@ nsPresContext
 aPresContext
 )
 ;
+void
+GCRuleTrees
+(
+)
+;
 nsresult
 GatherRuleProcessors
 (
@@ -709,9 +714,12 @@ mFirstLetterRule
 PRUint16
 mBatching
 ;
+nsTArray
+<
 nsRuleNode
 *
-mOldRuleTree
+>
+mOldRuleTrees
 ;
 unsigned
 mInShutdown
@@ -720,6 +728,11 @@ mInShutdown
 ;
 unsigned
 mAuthorStyleDisabled
+:
+1
+;
+unsigned
+mInReconstruct
 :
 1
 ;
