@@ -1821,14 +1821,6 @@ RemoveEntry
 aNode
 )
 ;
-mListener
--
->
-UnregisterPannerNode
-(
-aNode
-)
-;
 }
 void
 AudioContext
