@@ -984,6 +984,10 @@ browser_ctrlTab
 .
 js
 \
+browser_disablechrome
+.
+js
+\
 browser_discovery
 .
 js
@@ -1151,6 +1155,10 @@ browser_visibleTabs_tabPreview
 js
 \
 bug592338
+.
+html
+\
+disablechrome
 .
 html
 \
