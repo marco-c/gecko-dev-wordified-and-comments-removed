@@ -246,13 +246,6 @@ GetHrefURI
 )
 const
 ;
-virtual
-PRInt32
-IntrinsicState
-(
-)
-const
-;
 protected
 :
 virtual
