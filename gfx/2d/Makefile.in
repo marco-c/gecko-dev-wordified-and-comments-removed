@@ -582,6 +582,9 @@ PathSkia
 .
 cpp
 \
+ScaledFontFreetype
+.
+cpp
 (
 NULL
 )

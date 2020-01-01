@@ -42,6 +42,13 @@ ScaledFontBase
 h
 "
 #
+include
+"
+ScaledFontFreetype
+.
+h
+"
+#
 endif
 #
 ifdef
@@ -473,7 +480,7 @@ NATIVE_FONT_SKIA_FONT_FACE
 {
 return
 new
-ScaledFontBase
+ScaledFontFreetype
 (
 static_cast
 <

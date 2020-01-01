@@ -86,15 +86,6 @@ aTarget
 #
 ifdef
 USE_SKIA
-ScaledFontBase
-(
-gfxFont
-*
-aFont
-Float
-aSize
-)
-;
 virtual
 SkTypeface
 *
