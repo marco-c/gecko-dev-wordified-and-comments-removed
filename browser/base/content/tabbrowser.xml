@@ -1188,13 +1188,6 @@ closeTab
 accesskey
 ;
 "
-tbattr
-=
-"
-tabbrowser
--
-multiple
-"
 oncommand
 =
 "
