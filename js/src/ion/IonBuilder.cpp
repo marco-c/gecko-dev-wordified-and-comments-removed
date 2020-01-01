@@ -9730,7 +9730,7 @@ sn
 )
 =
 =
-SRC_SWITCH
+SRC_TABLESWITCH
 )
 ;
 MDefinition
@@ -10284,7 +10284,7 @@ sn
 )
 =
 =
-SRC_SWITCH
+SRC_CONDSWITCH
 )
 ;
 jsbytecode
