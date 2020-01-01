@@ -191,6 +191,11 @@ ChromeManifestParser
 jsm
 '
 '
+DeferredSave
+.
+jsm
+'
+'
 LightweightThemeImageOptimizer
 .
 jsm
