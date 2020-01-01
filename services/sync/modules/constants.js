@@ -380,7 +380,7 @@ login
 .
 reason
 .
-no_password
+no_password2
 "
 LOGIN_FAILED_NO_PASSPHRASE
 :
