@@ -1,4 +1,7 @@
 #
+define
+MOZ_RENDERTRACE
+#
 ifdef
 MOZ_RENDERTRACE
 #
@@ -62,7 +65,6 @@ const
 char
 *
 aColor
-const
 nsIntRect
 aRect
 )
