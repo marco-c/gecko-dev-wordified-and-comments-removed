@@ -188,6 +188,11 @@ waitForExplicitFinish
 (
 )
 ;
+requestLongerTimeout
+(
+2
+)
+;
 const
 TEST_URLS
 =
