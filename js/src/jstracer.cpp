@@ -25090,6 +25090,11 @@ filename
 16
 )
 ;
+if
+(
+label
+)
+{
 sprintf
 (
 label
@@ -25146,6 +25151,7 @@ js_free
 label
 )
 ;
+}
 #
 endif
 Assembler
