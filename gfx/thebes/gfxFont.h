@@ -6203,6 +6203,7 @@ return
 mUnderlineOffset
 ;
 }
+virtual
 already_AddRefed
 <
 gfxFont
@@ -6213,8 +6214,8 @@ PRUint32
 ch
 PRUint32
 prevCh
-PRUint32
-nextCh
+PRInt32
+aRunScript
 gfxFont
 *
 aPrevMatchedFont
@@ -6259,6 +6260,8 @@ PRUint32
 begin
 PRUint32
 end
+PRInt32
+aRunScript
 )
 ;
 gfxUserFontSet
