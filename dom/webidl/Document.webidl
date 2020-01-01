@@ -488,7 +488,6 @@ createDocumentFragment
 ;
 [
 Creator
-Throws
 ]
 Text
 createTextNode
