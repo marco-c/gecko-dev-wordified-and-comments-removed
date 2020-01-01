@@ -20013,6 +20013,10 @@ if
 aTop
 )
 {
+mFiredUnloadEvent
+=
+PR_FALSE
+;
 rv
 =
 BeginRestoreChildren
@@ -23770,6 +23774,15 @@ nsIRequest
 aRequest
 )
 {
+if
+(
+mFiredUnloadEvent
+)
+{
+return
+NS_OK
+;
+}
 nsresult
 rv
 =
