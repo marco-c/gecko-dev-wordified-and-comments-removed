@@ -399,9 +399,6 @@ BindToOwner
 aDatabase
 )
 ;
-if
-(
-!
 transaction
 -
 >
@@ -414,12 +411,7 @@ GetScriptOwner
 (
 )
 )
-)
-{
-return
-nullptr
 ;
-}
 transaction
 -
 >

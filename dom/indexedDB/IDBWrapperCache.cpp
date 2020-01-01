@@ -107,7 +107,7 @@ IDBWrapperCache
 )
 ;
 }
-bool
+void
 IDBWrapperCache
 :
 :
@@ -164,9 +164,6 @@ HoldJSObjects
 thisSupports
 participant
 )
-;
-return
-true
 ;
 }
 #

@@ -709,9 +709,6 @@ BindToOwner
 aOwnerCache
 )
 ;
-if
-(
-!
 db
 -
 >
@@ -724,12 +721,7 @@ GetScriptOwner
 (
 )
 )
-)
-{
-return
-nullptr
 ;
-}
 db
 -
 >

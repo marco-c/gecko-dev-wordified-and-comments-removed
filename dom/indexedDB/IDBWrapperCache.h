@@ -50,7 +50,7 @@ return
 mScriptOwner
 ;
 }
-bool
+void
 SetScriptOwner
 (
 JSObject
