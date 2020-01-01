@@ -1752,6 +1752,12 @@ ion
 ;
 #
 if
+defined
+(
+JS_METHODJIT
+)
+&
+&
 JS_BITS_PER_WORD
 =
 =
