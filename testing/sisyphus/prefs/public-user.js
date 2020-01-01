@@ -308,16 +308,6 @@ user_pref
 "
 security
 .
-enable_java
-"
-false
-)
-;
-user_pref
-(
-"
-security
-.
 warn_entering_secure
 "
 false

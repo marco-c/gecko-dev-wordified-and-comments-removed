@@ -254,16 +254,6 @@ user_pref
 "
 security
 .
-enable_java
-"
-false
-)
-;
-user_pref
-(
-"
-security
-.
 warn_submit_insecure
 "
 false

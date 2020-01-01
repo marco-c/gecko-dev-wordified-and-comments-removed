@@ -1158,11 +1158,6 @@ UnloadUnusedLibraries
 (
 )
 ;
-nsresult
-AddPrefObserver
-(
-)
-;
 char
 *
 mPluginPath
