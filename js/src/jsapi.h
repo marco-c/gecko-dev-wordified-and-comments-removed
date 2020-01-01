@@ -4242,6 +4242,9 @@ innerObject
 JSIteratorOp
 iteratorObject
 ;
+JSObjectOp
+wrappedObject
+;
 void
 (
 *
@@ -4264,15 +4267,6 @@ void
 (
 *
 reserved2
-)
-(
-void
-)
-;
-void
-(
-*
-reserved3
 )
 (
 void
@@ -4656,7 +4650,6 @@ JSCLASS_NO_OPTIONAL_MEMBERS
 #
 define
 JSCLASS_NO_RESERVED_MEMBERS
-0
 0
 0
 0

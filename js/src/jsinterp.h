@@ -602,6 +602,9 @@ extern
 JSBool
 js_StrictlyEqual
 (
+JSContext
+*
+cx
 jsval
 lval
 jsval

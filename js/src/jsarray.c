@@ -8010,6 +8010,7 @@ hole
 &
 js_StrictlyEqual
 (
+cx
 *
 vp
 vp
