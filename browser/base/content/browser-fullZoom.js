@@ -1693,6 +1693,11 @@ outerID
 this
 .
 token
+&
+&
+browser
+.
+docShell
 ;
 }
 }
