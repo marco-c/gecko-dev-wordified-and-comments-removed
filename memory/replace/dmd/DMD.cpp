@@ -9034,6 +9034,15 @@ ClearReports
 (
 )
 {
+if
+(
+!
+gIsDMDRunning
+)
+{
+return
+;
+}
 for
 (
 BlockTable
