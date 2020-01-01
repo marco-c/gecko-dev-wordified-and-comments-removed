@@ -290,6 +290,9 @@ NP_GetMIMEDescription
 "
 )
 ;
+#
+ifndef
+XP_MACOSX
 if
 (
 !
@@ -298,6 +301,8 @@ mNP_GetMIMEDescription
 return
 false
 ;
+#
+endif
 mNP_GetValue
 =
 (
@@ -311,6 +316,9 @@ NP_GetValue
 "
 )
 ;
+#
+ifndef
+XP_MACOSX
 if
 (
 !
@@ -319,6 +327,8 @@ mNP_GetValue
 return
 false
 ;
+#
+endif
 #
 if
 defined
