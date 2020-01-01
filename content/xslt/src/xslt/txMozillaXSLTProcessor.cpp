@@ -2540,6 +2540,9 @@ mOutputHandlerFactory
 &
 handlerFactory
 ;
+nsresult
+rv
+=
 es
 .
 init
@@ -2550,7 +2553,14 @@ sourceNode
 mVariables
 )
 ;
-nsresult
+if
+(
+NS_SUCCEEDED
+(
+rv
+)
+)
+{
 rv
 =
 txXSLTProcessor
@@ -2561,6 +2571,7 @@ execute
 es
 )
 ;
+}
 nsresult
 endRv
 =
@@ -2805,6 +2816,8 @@ mOutputHandlerFactory
 &
 handlerFactory
 ;
+rv
+=
 es
 .
 init
@@ -2815,6 +2828,14 @@ sourceNode
 mVariables
 )
 ;
+if
+(
+NS_SUCCEEDED
+(
+rv
+)
+)
+{
 rv
 =
 txXSLTProcessor
@@ -2825,6 +2846,7 @@ execute
 es
 )
 ;
+}
 nsresult
 endRv
 =
