@@ -892,6 +892,10 @@ void
 *
 eos
 ;
+void
+*
+eor
+;
 }
 ;
 class

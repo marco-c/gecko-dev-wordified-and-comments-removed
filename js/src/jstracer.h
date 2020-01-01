@@ -755,6 +755,13 @@ nanojit
 :
 LIns
 *
+eor_ins
+;
+nanojit
+:
+:
+LIns
+*
 rval_ins
 ;
 nanojit
