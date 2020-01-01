@@ -22,6 +22,14 @@ self
 .
 marionette
 .
+get_logs
+(
+)
+        
+self
+.
+marionette
+.
 log
 (
 "
@@ -97,6 +105,14 @@ test_that_we_can_clear_the_logs
 self
 )
 :
+        
+self
+.
+marionette
+.
+get_logs
+(
+)
         
 self
 .
@@ -194,6 +210,14 @@ test_log_script
 self
 )
 :
+        
+self
+.
+marionette
+.
+get_logs
+(
+)
         
 self
 .
