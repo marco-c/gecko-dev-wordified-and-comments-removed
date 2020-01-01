@@ -169,6 +169,9 @@ nsIStreamListener
 *
 *
 aStreamListener
+nsMediaDecoder
+*
+aCloneDonor
 )
 ;
 virtual

@@ -1168,6 +1168,9 @@ virtual
 nsresult
 Init
 (
+nsBuiltinDecoderReader
+*
+aCloneDonor
 )
 =
 0

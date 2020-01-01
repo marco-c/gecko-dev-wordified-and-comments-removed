@@ -107,6 +107,9 @@ virtual
 nsresult
 Init
 (
+nsDecoderStateMachine
+*
+aCloneDonor
 )
 ;
 State

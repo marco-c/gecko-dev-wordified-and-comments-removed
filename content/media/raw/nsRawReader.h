@@ -150,6 +150,9 @@ virtual
 nsresult
 Init
 (
+nsBuiltinDecoderReader
+*
+aCloneDonor
 )
 ;
 virtual

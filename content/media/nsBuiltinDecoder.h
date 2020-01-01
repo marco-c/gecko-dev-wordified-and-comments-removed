@@ -167,6 +167,9 @@ virtual
 nsresult
 Init
 (
+nsDecoderStateMachine
+*
+aCloneDonor
 )
 =
 0
@@ -395,6 +398,9 @@ nsIStreamListener
 *
 *
 aListener
+nsMediaDecoder
+*
+aCloneDonor
 )
 ;
 virtual

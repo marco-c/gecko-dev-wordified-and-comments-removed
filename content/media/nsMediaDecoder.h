@@ -304,6 +304,9 @@ nsIStreamListener
 *
 *
 aListener
+nsMediaDecoder
+*
+aCloneDonor
 )
 =
 0

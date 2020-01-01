@@ -86,6 +86,9 @@ nsRawReader
 :
 Init
 (
+nsBuiltinDecoderReader
+*
+aCloneDonor
 )
 {
 return
