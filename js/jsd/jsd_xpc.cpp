@@ -805,11 +805,7 @@ links
 )
 )
 ;
-while
-(
-*
-listHead
-)
+do
 {
 LiveEphemeral
 *
@@ -846,6 +842,12 @@ lv_record
 next
 ;
 }
+while
+(
+*
+listHead
+)
+;
 }
 void
 jsds_InsertEphemeral
