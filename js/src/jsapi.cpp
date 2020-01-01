@@ -4274,6 +4274,10 @@ requestedHelperThreadCount
 -
 1
 )
+rngNonce
+(
+0
+)
 {
 JS_INIT_CLIST
 (

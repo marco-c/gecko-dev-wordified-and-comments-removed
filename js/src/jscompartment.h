@@ -1877,6 +1877,9 @@ js
 DtoaCache
 dtoaCache
 ;
+uint64_t
+rngState
+;
 private
 :
 js
