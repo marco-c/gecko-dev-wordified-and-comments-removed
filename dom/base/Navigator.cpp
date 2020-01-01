@@ -4393,7 +4393,10 @@ return
 mBatteryManager
 ;
 }
-nsIDOMMozPowerManager
+power
+:
+:
+PowerManager
 *
 Navigator
 :

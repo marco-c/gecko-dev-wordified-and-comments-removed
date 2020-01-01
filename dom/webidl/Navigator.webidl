@@ -298,9 +298,6 @@ document
 *
 /
 interface
-MozPowerManager
-;
-interface
 MozWakeLock
 ;
 /

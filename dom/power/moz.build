@@ -119,11 +119,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIDOMPowerManager
-.
-idl
-'
-'
 nsIDOMWakeLock
 .
 idl
@@ -154,6 +149,11 @@ power
 +
 =
 [
+'
+PowerManager
+.
+h
+'
 '
 PowerManagerService
 .

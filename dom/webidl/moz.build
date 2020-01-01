@@ -1100,6 +1100,11 @@ MozNamedAttrMap
 webidl
 '
 '
+MozPowerManager
+.
+webidl
+'
+'
 MozTimeManager
 .
 webidl
