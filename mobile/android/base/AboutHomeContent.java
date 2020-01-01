@@ -2108,6 +2108,12 @@ event
 if
 (
 mOnInterceptTouchListener
+!
+=
+null
+&
+&
+mOnInterceptTouchListener
 .
 onInterceptTouchEvent
 (
@@ -2138,6 +2144,12 @@ event
 {
 if
 (
+mOnInterceptTouchListener
+!
+=
+null
+&
+&
 mOnInterceptTouchListener
 .
 onTouch
