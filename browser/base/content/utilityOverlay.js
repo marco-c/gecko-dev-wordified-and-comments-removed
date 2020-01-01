@@ -1940,7 +1940,7 @@ else
 {
 window
 .
-open
+openDialog
 (
 "
 chrome
