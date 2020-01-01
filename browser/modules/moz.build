@@ -111,6 +111,11 @@ BrowserNewTabPreloader
 jsm
 '
 '
+ContentClick
+.
+jsm
+'
+'
 NetworkPrioritizer
 .
 jsm

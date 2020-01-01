@@ -4144,6 +4144,12 @@ mustLoadSidebar
 =
 false
 ;
+if
+(
+!
+gMultiProcessBrowser
+)
+{
 Cc
 [
 "
@@ -4174,6 +4180,7 @@ contentAreaClick
 true
 )
 ;
+}
 gBrowser
 .
 addEventListener
