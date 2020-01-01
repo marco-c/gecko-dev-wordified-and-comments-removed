@@ -1238,10 +1238,6 @@ key_inspect
 /
 >
 <
-menuseparator
-/
->
-<
 menuitem
 id
 =
@@ -1295,10 +1291,6 @@ ID_PREFIX
 #
 undef
 OMIT_ACCESSKEYS
-<
-menuseparator
-/
->
 <
 menuitem
 label
