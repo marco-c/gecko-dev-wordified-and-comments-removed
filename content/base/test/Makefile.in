@@ -1960,6 +1960,10 @@ file_websocket_http_resource
 .
 txt
 \
+test_bug574596
+.
+html
+\
 (
 NULL
 )
