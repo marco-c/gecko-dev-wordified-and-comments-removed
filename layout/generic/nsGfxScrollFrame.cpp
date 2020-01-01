@@ -7382,11 +7382,6 @@ PresShell
 )
 -
 >
-GetViewManager
-(
-)
--
->
 SynthesizeMouseMove
 (
 PR_TRUE
