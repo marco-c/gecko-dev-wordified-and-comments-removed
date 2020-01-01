@@ -282,10 +282,6 @@ const
 char
 *
 aMimeType
-const
-char
-*
-aURIString
 uint32_t
 aFlags
 )
@@ -1497,6 +1493,11 @@ RasterImage
 imgStatusTracker
 *
 aStatusTracker
+=
+nullptr
+nsIURI
+*
+aURI
 =
 nullptr
 )
