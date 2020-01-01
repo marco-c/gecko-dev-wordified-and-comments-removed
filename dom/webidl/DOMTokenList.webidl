@@ -181,7 +181,10 @@ void
 add
 (
 DOMString
-token
+.
+.
+.
+tokens
 )
 ;
 [
@@ -191,7 +194,10 @@ void
 remove
 (
 DOMString
-token
+.
+.
+.
+tokens
 )
 ;
 [
