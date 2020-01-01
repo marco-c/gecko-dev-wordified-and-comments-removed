@@ -3959,17 +3959,6 @@ event
 )
 ;
 "
-ondragexit
-=
-"
-PlacesMenuDNDController
-.
-onDragExit
-(
-event
-)
-;
-"
 tooltip
 =
 "
