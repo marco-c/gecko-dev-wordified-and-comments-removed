@@ -373,7 +373,7 @@ photo
 ;
 /
 /
-DOMString
+nsIDOMBlob
 [
 ]
 attribute
