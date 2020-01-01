@@ -371,6 +371,15 @@ mRenderMode
 rmode
 ;
 }
+HDC
+GetScreenDC
+(
+)
+{
+return
+mScreenDC
+;
+}
 nsresult
 GetFontList
 (
@@ -680,6 +689,9 @@ mUseClearTypeForDownloadableFonts
 ;
 PRBool
 mUseClearTypeAlways
+;
+HDC
+mScreenDC
 ;
 private
 :
