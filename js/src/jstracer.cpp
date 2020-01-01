@@ -62942,7 +62942,7 @@ VarClosureTraits
 :
 slot_count
 (
-obj
+callobj
 )
 )
 ;
