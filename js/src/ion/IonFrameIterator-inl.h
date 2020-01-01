@@ -111,14 +111,11 @@ end
 >
 nformal
 )
-{
 formalEnd
 =
 nformal
 ;
-}
 else
-{
 JS_ASSERT
 (
 end
@@ -127,7 +124,6 @@ end
 nformal
 )
 ;
-}
 SnapshotIterator
 s
 (
