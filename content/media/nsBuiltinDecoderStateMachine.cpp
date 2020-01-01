@@ -4187,9 +4187,6 @@ Seek
 seekTime
 mStartTime
 mEndTime
-mCurrentFrameTime
-+
-mStartTime
 )
 ;
 }

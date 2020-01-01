@@ -1085,7 +1085,6 @@ PRBool
 IsNull
 (
 )
-const
 {
 return
 mOffsetStart
@@ -1238,8 +1237,6 @@ PRInt64
 aStartTime
 PRInt64
 aEndTime
-PRInt64
-aCurrentTime
 )
 =
 0

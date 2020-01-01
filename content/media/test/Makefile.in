@@ -801,6 +801,10 @@ test_audio2
 .
 html
 \
+test_autobuffer
+.
+html
+\
 test_autoplay
 .
 html
@@ -1037,7 +1041,7 @@ Bug
 493692
 :
 #
-test_preload_suspend
+test_autobuffer2
 .
 html
 #
@@ -1221,12 +1225,6 @@ bug506094
 ogv
 \
 bug516323
-.
-ogv
-\
-bug516323
-.
-indexed
 .
 ogv
 \
