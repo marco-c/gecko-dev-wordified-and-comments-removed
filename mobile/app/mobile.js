@@ -1127,7 +1127,7 @@ layout
 .
 spellcheckDefault
 "
-1
+0
 )
 ;
 pref
