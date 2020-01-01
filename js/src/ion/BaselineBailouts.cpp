@@ -3727,10 +3727,8 @@ icEntryFromPCOffset
 pcOff
 )
 ;
-ICFallbackStub
-*
-fallbackStub
-=
+JS_ASSERT
+(
 icEntry
 .
 firstStub
@@ -3741,10 +3739,6 @@ firstStub
 getChainFallback
 (
 )
-;
-JS_ASSERT
-(
-fallbackStub
 -
 >
 isCall_Fallback
