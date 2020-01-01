@@ -17,8 +17,9 @@ DEST
 }
 BLOCKSET
 ;
+static
 void
-vp8_setup_block
+setup_block
 (
 BLOCKD
 *
@@ -93,8 +94,9 @@ base
 ;
 }
 }
+static
 void
-vp8_setup_macroblock
+setup_macroblock
 (
 MACROBLOCKD
 *
@@ -205,7 +207,7 @@ block
 +
 )
 {
-vp8_setup_block
+setup_block
 (
 &
 x
@@ -270,7 +272,7 @@ block
 +
 )
 {
-vp8_setup_block
+setup_block
 (
 &
 x
@@ -323,7 +325,7 @@ block
 bs
 )
 ;
-vp8_setup_block
+setup_block
 (
 &
 x
@@ -766,13 +768,13 @@ MACROBLOCKD
 x
 )
 {
-vp8_setup_macroblock
+setup_macroblock
 (
 x
 DEST
 )
 ;
-vp8_setup_macroblock
+setup_macroblock
 (
 x
 PRED

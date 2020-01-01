@@ -183,7 +183,7 @@ VPX_CODEC_CAP_XMA
 *
 <
 Supports
-e_xternal
+eXternal
 Memory
 Allocation
 *
@@ -201,7 +201,7 @@ VPX_CODEC_USE_XMA
 *
 <
 Use
-e_xternal
+eXternal
 Memory
 Allocation
 mode

@@ -88,7 +88,7 @@ VPX_DEC_CAP_XMA
 *
 <
 Supports
-e_xternal
+eXternal
 Memory
 Allocation
 *

@@ -121,6 +121,7 @@ rsp
 SHADOW_ARGS_TO_STACK
 2
 SAVE_XMM
+6
 push
 rsi
 push
@@ -274,7 +275,7 @@ xmm3
 c1
 b1
 movd
-xmm7
+xmm6
 eax
 movdqa
 xmm1
@@ -527,8 +528,8 @@ ip
 0
 ]
 pshufd
-xmm7
-xmm7
+xmm6
+xmm6
 0
 ;
 03
@@ -808,10 +809,10 @@ xmm0
 ~
 paddw
 xmm5
-xmm7
+xmm6
 paddw
 xmm1
-xmm7
+xmm6
 psraw
 xmm5
 3

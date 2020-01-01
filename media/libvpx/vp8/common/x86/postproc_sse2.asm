@@ -142,6 +142,7 @@ rsp
 SHADOW_ARGS_TO_STACK
 7
 SAVE_XMM
+7
 GET_GOT
 rbx
 push
@@ -1591,6 +1592,7 @@ rsp
 SHADOW_ARGS_TO_STACK
 5
 SAVE_XMM
+7
 GET_GOT
 rbx
 push
@@ -2305,6 +2307,7 @@ rsp
 SHADOW_ARGS_TO_STACK
 5
 SAVE_XMM
+7
 GET_GOT
 rbx
 push

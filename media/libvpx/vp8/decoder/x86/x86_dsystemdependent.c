@@ -19,6 +19,10 @@ h
 #
 include
 "
+vp8
+/
+decoder
+/
 onyxd_int
 .
 h
@@ -105,6 +109,9 @@ VP8D_COMP
 pbi
 )
 {
+#
+if
+CONFIG_RUNTIME_CPU_DETECT
 int
 flags
 =
@@ -112,9 +119,6 @@ x86_simd_caps
 (
 )
 ;
-#
-if
-CONFIG_RUNTIME_CPU_DETECT
 #
 if
 HAVE_MMX

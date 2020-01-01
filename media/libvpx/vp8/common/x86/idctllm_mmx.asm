@@ -187,7 +187,7 @@ of
 bit
 fixed
 point
-verio
+version
 of
 two
 multiply
@@ -227,7 +227,7 @@ pi
 )
 ;
 *
-Becuase
+Because
 the
 first
 constant
@@ -245,7 +245,7 @@ bit
 *
 fixed
 point
-prrcision
+precision
 as
 the
 second
@@ -317,7 +317,7 @@ For
 the
 second
 constant
-becuase
+because
 of
 the
 16bit
@@ -337,7 +337,7 @@ signed
 bit
 multiply
 it
-become
+becomes
 a
 negative
 ;

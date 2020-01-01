@@ -390,6 +390,7 @@ rsp
 SHADOW_ARGS_TO_STACK
 7
 SAVE_XMM
+7
 GET_GOT
 rbx
 push
@@ -1197,6 +1198,7 @@ rsp
 SHADOW_ARGS_TO_STACK
 7
 SAVE_XMM
+7
 GET_GOT
 rbx
 push
@@ -2348,6 +2350,7 @@ rsp
 SHADOW_ARGS_TO_STACK
 8
 SAVE_XMM
+7
 GET_GOT
 rbx
 push
@@ -2890,6 +2893,7 @@ rsp
 SHADOW_ARGS_TO_STACK
 8
 SAVE_XMM
+7
 GET_GOT
 rbx
 push
@@ -3412,6 +3416,7 @@ rsp
 SHADOW_ARGS_TO_STACK
 6
 SAVE_XMM
+7
 GET_GOT
 rbx
 push
@@ -3997,6 +4002,7 @@ rsp
 SHADOW_ARGS_TO_STACK
 6
 SAVE_XMM
+7
 GET_GOT
 rbx
 push
@@ -4970,6 +4976,7 @@ rsp
 SHADOW_ARGS_TO_STACK
 6
 SAVE_XMM
+7
 GET_GOT
 rbx
 push
@@ -5312,16 +5319,6 @@ rbp
 rsp
 SHADOW_ARGS_TO_STACK
 5
-;
-SAVE_XMM
-;
-xmm6
-xmm7
-are
-not
-used
-here
-.
 GET_GOT
 rbx
 push
@@ -5521,8 +5518,6 @@ rdi
 pop
 rsi
 RESTORE_GOT
-;
-RESTORE_XMM
 UNSHADOW_ARGS
 pop
 rbp
@@ -5579,6 +5574,7 @@ rsp
 SHADOW_ARGS_TO_STACK
 6
 SAVE_XMM
+7
 GET_GOT
 rbx
 push
@@ -6664,6 +6660,7 @@ rsp
 SHADOW_ARGS_TO_STACK
 6
 SAVE_XMM
+7
 GET_GOT
 rbx
 push

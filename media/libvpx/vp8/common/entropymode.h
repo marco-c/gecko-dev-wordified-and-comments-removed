@@ -60,11 +60,11 @@ int
 vp8_mv_cont
 (
 const
-MV
+int_mv
 *
 l
 const
-MV
+int_mv
 *
 a
 )

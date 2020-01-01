@@ -471,7 +471,7 @@ bmi
 bindex
 ]
 .
-mode
+as_mode
 )
 ;
 else

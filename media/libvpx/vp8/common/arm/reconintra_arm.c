@@ -10,6 +10,10 @@ h
 #
 include
 "
+vp8
+/
+common
+/
 blockd
 .
 h
@@ -17,6 +21,10 @@ h
 #
 include
 "
+vp8
+/
+common
+/
 reconintra
 .
 h
@@ -33,6 +41,10 @@ h
 #
 include
 "
+vp8
+/
+common
+/
 recon
 .
 h

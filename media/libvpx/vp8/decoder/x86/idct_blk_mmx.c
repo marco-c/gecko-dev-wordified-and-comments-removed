@@ -10,6 +10,10 @@ h
 #
 include
 "
+vp8
+/
+common
+/
 idct
 .
 h
@@ -17,6 +21,10 @@ h
 #
 include
 "
+vp8
+/
+decoder
+/
 dequantize
 .
 h

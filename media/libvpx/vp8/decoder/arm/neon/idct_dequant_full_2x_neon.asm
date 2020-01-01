@@ -330,7 +330,13 @@ r12
 ]
 adr
 r2
-_CONSTANTS_
+cospi8sqrt2minus1
+;
+pointer
+to
+the
+first
+constant
 ;
 dequant
 :
@@ -1339,9 +1345,6 @@ idct_dequant_full_2x_neon
 ;
 Constant
 Pool
-_CONSTANTS_
-EQU
-cospi8sqrt2minus1
 cospi8sqrt2minus1
 DCD
 0x4e7b

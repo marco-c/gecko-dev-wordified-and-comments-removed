@@ -251,7 +251,13 @@ sp
 stride
 adr
 r12
-_CONSTANTS_
+cospi8sqrt2minus1
+;
+pointer
+to
+the
+first
+constant
 vmul
 .
 i16
@@ -680,9 +686,6 @@ vp8_dequant_idct_add_neon
 ;
 Constant
 Pool
-_CONSTANTS_
-EQU
-cospi8sqrt2minus1
 cospi8sqrt2minus1
 DCD
 0x4e7b4e7b

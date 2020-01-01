@@ -17,13 +17,10 @@ h
 #
 include
 "
-predictdc
-.
-h
-"
-#
-include
-"
+vp8
+/
+common
+/
 idct
 .
 h

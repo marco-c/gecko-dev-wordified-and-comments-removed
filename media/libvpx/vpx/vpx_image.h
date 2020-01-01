@@ -73,7 +73,7 @@ has
 an
 alpha
 channel
-componnent
+component
 *
 /
 typedef
@@ -560,7 +560,7 @@ VPX_PLANE_ALPHA
 <
 A
 (
-Transparancy
+Transparency
 )
 plane
 *
