@@ -133,9 +133,15 @@ networkMenu
 .
 sizeKB
 "
-83
+L10N
 .
-95
+numberWithDecimals
+(
+85975
+/
+1024
+2
+)
 )
 time
 :
