@@ -595,10 +595,6 @@ test_bug508479
 .
 html
 \
-test_bug508906
-.
-html
-\
 test_bug517851
 .
 html
@@ -624,10 +620,6 @@ test_bug547996
 xhtml
 \
 test_bug556493
-.
-html
-\
-test_bug574663
 .
 html
 \
