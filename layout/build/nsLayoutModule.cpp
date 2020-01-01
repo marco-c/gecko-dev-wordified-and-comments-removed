@@ -1628,6 +1628,10 @@ NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 AudioManager
 )
+NS_GENERIC_FACTORY_CONSTRUCTOR
+(
+nsVolumeService
+)
 #
 endif
 #
@@ -1722,14 +1726,6 @@ NS_GENERIC_FACTORY_SINGLETON_CONSTRUCTOR
 (
 nsIGeolocationProvider
 GonkGPSGeolocationProvider
-:
-:
-GetSingleton
-)
-NS_GENERIC_FACTORY_SINGLETON_CONSTRUCTOR
-(
-nsVolumeService
-nsVolumeService
 :
 :
 GetSingleton

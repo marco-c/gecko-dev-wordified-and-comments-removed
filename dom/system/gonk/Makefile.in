@@ -209,10 +209,6 @@ nsIVolume
 .
 idl
 \
-nsIVolumeMountLock
-.
-idl
-\
 nsIVolumeService
 .
 idl
@@ -341,10 +337,6 @@ nsVolume
 .
 cpp
 \
-nsVolumeMountLock
-.
-cpp
-\
 nsVolumeService
 .
 cpp
@@ -406,11 +398,11 @@ src
 EXPORTS
 =
 \
-GonkGPSGeolocationProvider
+nsVolume
 .
 h
 \
-nsVolume
+GonkGPSGeolocationProvider
 .
 h
 \
