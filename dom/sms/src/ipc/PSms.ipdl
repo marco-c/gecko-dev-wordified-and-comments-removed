@@ -607,6 +607,16 @@ PRInt32
 aId
 )
 ;
+GetMessage
+(
+PRInt32
+aMessageId
+PRInt32
+aRequestId
+PRUint64
+aProcessId
+)
+;
 __delete__
 (
 )
