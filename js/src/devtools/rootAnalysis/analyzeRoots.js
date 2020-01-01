@@ -1911,14 +1911,10 @@ entry
 ;
 }
 }
-if
-(
-!
-body
-.
+var
 predecessors
-)
-computePredecessors
+=
+getPredecessors
 (
 body
 )
@@ -1929,8 +1925,6 @@ if
 (
 ppoint
 in
-body
-.
 predecessors
 )
 )
@@ -1941,8 +1935,6 @@ for
 var
 edge
 of
-body
-.
 predecessors
 [
 ppoint
