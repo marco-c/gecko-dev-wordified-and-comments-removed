@@ -5382,6 +5382,9 @@ mStopColor
 nscolor
 mFloodColor
 ;
+nscolor
+mLightingColor
+;
 nsCOMPtr
 <
 nsIURI

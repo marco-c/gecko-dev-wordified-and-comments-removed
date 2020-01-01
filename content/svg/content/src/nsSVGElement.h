@@ -233,6 +233,13 @@ sFEFloodMap
 [
 ]
 ;
+static
+const
+MappedAttributeEntry
+sLightingEffectsMap
+[
+]
+;
 NS_IMETHOD
 IsSupported
 (
