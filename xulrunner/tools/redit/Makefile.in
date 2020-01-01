@@ -89,6 +89,12 @@ CPPSRCS
 redit
 .
 cpp
+PROGRAM
+=
+redit
+(
+BIN_SUFFIX
+)
 SDK_BINARY
 =
 \

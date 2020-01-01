@@ -86,6 +86,14 @@ config
 autoconf
 .
 mk
+PROGRAM
+=
+(
+JS_SHELL_NAME
+)
+(
+BIN_SUFFIX
+)
 CPPSRCS
 =
 \

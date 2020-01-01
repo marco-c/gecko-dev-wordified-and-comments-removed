@@ -76,6 +76,9 @@ config
 autoconf
 .
 mk
+PROGRAM
+=
+ucgendat
 CSRCS
 =
 ucgendat

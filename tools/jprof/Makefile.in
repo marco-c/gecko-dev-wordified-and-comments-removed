@@ -79,6 +79,9 @@ config
 autoconf
 .
 mk
+PROGRAM
+=
+jprof
 CPPSRCS
 =
 \

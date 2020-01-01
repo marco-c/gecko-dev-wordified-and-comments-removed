@@ -76,6 +76,12 @@ config
 autoconf
 .
 mk
+PROGRAM
+=
+rdfcat
+(
+BIN_SUFFIX
+)
 CPPSRCS
 =
 rdfcat

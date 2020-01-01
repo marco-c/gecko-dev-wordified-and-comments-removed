@@ -89,6 +89,14 @@ config
 autoconf
 .
 mk
+PROGRAM
+=
+gdb
+-
+tests
+(
+BIN_SUFFIX
+)
 CPPSRCS
 =
 \

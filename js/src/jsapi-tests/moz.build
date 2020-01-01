@@ -93,10 +93,3 @@ MPL
 0
 /
 .
-PROGRAM
-=
-'
-jsapi
--
-tests
-'

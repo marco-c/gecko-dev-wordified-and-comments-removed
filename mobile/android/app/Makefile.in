@@ -111,6 +111,14 @@ Android
 OS_TARGET
 )
 )
+PROGRAM
+=
+(
+MOZ_APP_NAME
+)
+(
+BIN_SUFFIX
+)
 LOCAL_INCLUDES
 +
 =

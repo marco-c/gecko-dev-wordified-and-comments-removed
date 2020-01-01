@@ -145,6 +145,12 @@ adreader
 cpp
 ifndef
 MOZ_PROFILE_GENERATE
+PROGRAM
+=
+spacetrace
+(
+BIN_SUFFIX
+)
 PROGCSRCS
 =
 \

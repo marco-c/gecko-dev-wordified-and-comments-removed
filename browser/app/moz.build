@@ -103,11 +103,3 @@ profile
 extensions
 '
 ]
-PROGRAM
-=
-CONFIG
-[
-'
-MOZ_APP_NAME
-'
-]

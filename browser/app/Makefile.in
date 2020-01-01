@@ -272,6 +272,14 @@ binary
 bootstrapping
 with
 XRE_main
+PROGRAM
+=
+(
+MOZ_APP_NAME
+)
+(
+BIN_SUFFIX
+)
 CPPSRCS
 =
 nsBrowserApp
