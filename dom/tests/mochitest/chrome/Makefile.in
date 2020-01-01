@@ -282,6 +282,10 @@ queryCaretRectUnix
 .
 html
 \
+test_xray_event_constructor
+.
+xul
+\
 (
 NULL
 )
