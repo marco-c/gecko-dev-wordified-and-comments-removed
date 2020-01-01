@@ -895,7 +895,7 @@ aAveCharWidth
 {
 aAveCharWidth
 =
-ROUND_TO_TWIPS
+CEIL_TO_TWIPS
 (
 GetMetrics
 (
@@ -921,7 +921,7 @@ aSpaceCharWidth
 {
 aSpaceCharWidth
 =
-ROUND_TO_TWIPS
+CEIL_TO_TWIPS
 (
 GetMetrics
 (
