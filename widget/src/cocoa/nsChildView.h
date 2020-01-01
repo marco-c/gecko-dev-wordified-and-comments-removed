@@ -674,6 +674,17 @@ aEvent
 )
 ;
 static
+void
+ReEvaluateMouseEnterState
+(
+NSEvent
+*
+aEvent
+=
+nil
+)
+;
+static
 ChildView
 *
 sLastMouseEventView

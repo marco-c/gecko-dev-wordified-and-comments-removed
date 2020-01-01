@@ -874,6 +874,10 @@ bug
 .
 if
 (
+!
+anEvent
+|
+|
 [
 anEvent
 type
