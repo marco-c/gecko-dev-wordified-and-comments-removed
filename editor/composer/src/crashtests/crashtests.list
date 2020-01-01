@@ -1,4 +1,14 @@
 skip
+-
+if
+(
+MOZ_WIDGET_TOOLKIT
+=
+=
+"
+windows
+"
+)
 load
 428844
 -
