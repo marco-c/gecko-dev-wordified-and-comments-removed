@@ -68,6 +68,10 @@ PSmsRequest
 .
 ipdl
 \
+PMobileMessageCursor
+.
+ipdl
+\
 (
 NULL
 )
