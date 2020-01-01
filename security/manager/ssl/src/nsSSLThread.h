@@ -47,8 +47,10 @@ nsNSSSocketInfo
 *
 mSocketScheduledToBeDestroyed
 ;
+nsCOMPtr
+<
 nsIRequest
-*
+>
 mPendingHTTPRequest
 ;
 virtual
