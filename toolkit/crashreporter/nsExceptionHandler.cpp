@@ -10982,6 +10982,7 @@ MinidumpDescriptor
 path
 (
 "
+.
 "
 )
 ;
