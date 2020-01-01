@@ -1991,6 +1991,8 @@ extensiondir
 ]
 ;
 then
+if
+!
 install
 -
 extensions
@@ -2012,6 +2014,13 @@ profilename
 -
 E
 extensiondir
+;
+then
+exit
+2
+fi
+if
+!
 check
 -
 spider
@@ -2030,4 +2039,9 @@ executablepath
 -
 N
 profilename
+;
+then
+exit
+2
+fi
 fi

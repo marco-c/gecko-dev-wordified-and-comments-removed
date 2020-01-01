@@ -1367,9 +1367,9 @@ html
 "
 ;
 then
-echo
+error
 "
-Ignoring
+Fatal
 2nd
 failure
 to
