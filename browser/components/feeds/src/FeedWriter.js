@@ -6388,7 +6388,7 @@ codeStr
 "
 feedinfo1
 .
-value
+textContent
 =
 feedinfo1Str
 ;
@@ -6397,7 +6397,7 @@ feedinfo1Str
 "
 feedinfo2
 .
-value
+textContent
 =
 feedinfo2Str
 ;
