@@ -515,7 +515,12 @@ kshape
 PROPERTY_CACHE_HASH
 (
 pc
+(
 kshape
+)
+<
+<
+1
 )
 #
 define
