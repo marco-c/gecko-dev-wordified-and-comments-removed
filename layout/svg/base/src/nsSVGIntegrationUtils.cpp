@@ -517,7 +517,7 @@ p
 filterFrame
 -
 >
-GetFilterBBox
+GetPostFilterBounds
 (
 firstFrame
 &
@@ -721,7 +721,7 @@ p
 filterFrame
 -
 >
-GetInvalidationBBox
+GetPostFilterDirtyArea
 (
 firstFrame
 p
@@ -851,7 +851,7 @@ p
 filterFrame
 -
 >
-GetSourceForInvalidArea
+GetPreFilterNeededArea
 (
 firstFrame
 p
@@ -1386,7 +1386,7 @@ filterFrame
 )
 {
 RegularFramePaintCallback
-paint
+callback
 (
 aBuilder
 aInnerList
@@ -1399,7 +1399,7 @@ TopLeft
 )
 ;
 nsIntRect
-r
+dirtyRect
 =
 (
 aDirtyRect
@@ -1419,14 +1419,14 @@ appUnitsPerDevPixel
 filterFrame
 -
 >
-FilterPaint
+PaintFilteredFrame
 (
 aCtx
 aEffectsFrame
 &
-paint
+callback
 &
-r
+dirtyRect
 )
 ;
 }
