@@ -181,6 +181,7 @@ MASKUNITS
 .
 GetAnimValue
 (
+mask
 )
 ;
 gfxRect

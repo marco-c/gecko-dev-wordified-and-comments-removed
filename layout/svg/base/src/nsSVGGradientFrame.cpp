@@ -792,6 +792,7 @@ SPREADMETHOD
 .
 GetAnimValue
 (
+element
 )
 ;
 }
@@ -1763,6 +1764,7 @@ GRADIENTUNITS
 .
 GetAnimValue
 (
+element
 )
 ;
 }

@@ -4712,6 +4712,7 @@ MODE
 .
 GetAnimValue
 (
+this
 )
 ;
 for
@@ -5794,6 +5795,7 @@ TYPE
 .
 GetAnimValue
 (
+this
 )
 ;
 nsCOMPtr
@@ -7643,6 +7645,7 @@ OPERATOR
 .
 GetAnimValue
 (
+this
 )
 ;
 if
@@ -8137,6 +8140,7 @@ OPERATOR
 .
 GetAnimValue
 (
+this
 )
 ;
 if
@@ -9605,6 +9609,7 @@ TYPE
 .
 GetAnimValue
 (
+this
 )
 ;
 float
@@ -14729,6 +14734,7 @@ TYPE
 .
 GetAnimValue
 (
+this
 )
 ;
 PRUint16
@@ -14741,6 +14747,7 @@ STITCHTILES
 .
 GetAnimValue
 (
+this
 )
 ;
 GetAnimatedNumberValues
@@ -17697,6 +17704,7 @@ OPERATOR
 .
 GetAnimValue
 (
+this
 )
 ;
 for
@@ -20213,6 +20221,7 @@ EDGEMODE
 .
 GetAnimValue
 (
+this
 )
 ;
 PRBool
@@ -27045,6 +27054,7 @@ CHANNEL_X
 .
 GetAnimValue
 (
+this
 )
 ]
 ;
@@ -27060,6 +27070,7 @@ CHANNEL_Y
 .
 GetAnimValue
 (
+this
 )
 ]
 ;

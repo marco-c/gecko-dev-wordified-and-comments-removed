@@ -1399,6 +1399,7 @@ MARKERUNITS
 .
 GetAnimValue
 (
+this
 )
 =
 =

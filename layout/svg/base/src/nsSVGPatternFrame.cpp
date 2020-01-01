@@ -1119,6 +1119,7 @@ PATTERNUNITS
 .
 GetAnimValue
 (
+patternElement
 )
 ;
 }
@@ -1157,6 +1158,7 @@ PATTERNCONTENTUNITS
 .
 GetAnimValue
 (
+patternElement
 )
 ;
 }
