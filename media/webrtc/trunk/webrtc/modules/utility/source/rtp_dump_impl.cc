@@ -61,12 +61,6 @@ WEBRTC_LINUX
 |
 defined
 (
-WEBRTC_BSD
-)
-|
-|
-defined
-(
 WEBRTC_MAC
 )
 #
@@ -904,7 +898,7 @@ is_rtcp
 ;
 }
 inline
-WebRtc_UWord32
+uint32_t
 RtpDumpImpl
 :
 :
@@ -929,12 +923,6 @@ elif
 defined
 (
 WEBRTC_LINUX
-)
-|
-|
-defined
-(
-WEBRTC_BSD
 )
 |
 |

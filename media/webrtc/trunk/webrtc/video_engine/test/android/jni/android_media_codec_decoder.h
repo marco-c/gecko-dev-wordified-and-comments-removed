@@ -7,6 +7,8 @@ WEBRTC_VIDEO_ENGINE_TEST_ANDROID_JNI_ANDROID_MEDIA_CODEC_DECODER_H_
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding

@@ -1,6 +1,10 @@
 #
 include
 "
+webrtc
+/
+test
+/
 testsupport
 /
 fileutils
@@ -10,6 +14,8 @@ h
 #
 include
 "
+webrtc
+/
 voice_engine
 /
 test
@@ -25,6 +31,8 @@ h
 #
 include
 "
+webrtc
+/
 voice_engine
 /
 test

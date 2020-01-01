@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 video_engine
 /
 test
@@ -23,6 +25,8 @@ h
 #
 include
 "
+webrtc
+/
 engine_configurations
 .
 h
@@ -45,6 +49,10 @@ h
 #
 include
 "
+webrtc
+/
+test
+/
 testsupport
 /
 fileutils
@@ -54,6 +62,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 test
@@ -69,6 +79,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 test
@@ -84,6 +96,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 test
@@ -99,6 +113,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 test
@@ -114,6 +130,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 test

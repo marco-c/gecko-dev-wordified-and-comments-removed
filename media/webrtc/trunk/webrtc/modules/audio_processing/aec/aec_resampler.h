@@ -7,6 +7,14 @@ WEBRTC_MODULES_AUDIO_PROCESSING_AEC_AEC_RESAMPLER_H_
 #
 include
 "
+webrtc
+/
+modules
+/
+audio_processing
+/
+aec
+/
 aec_core
 .
 h

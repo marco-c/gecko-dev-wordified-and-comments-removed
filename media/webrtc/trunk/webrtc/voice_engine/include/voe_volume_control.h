@@ -7,6 +7,8 @@ WEBRTC_VOICE_ENGINE_VOE_VOLUME_CONTROL_H
 #
 include
 "
+webrtc
+/
 common_types
 .
 h
@@ -268,6 +270,7 @@ VoEVolumeControl
 )
 {
 }
+;
 virtual
 ~
 VoEVolumeControl
@@ -275,6 +278,7 @@ VoEVolumeControl
 )
 {
 }
+;
 }
 ;
 }

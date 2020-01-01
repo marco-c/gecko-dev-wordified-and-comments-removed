@@ -1,6 +1,14 @@
 #
 include
 "
+webrtc
+/
+modules
+/
+audio_conference_mixer
+/
+source
+/
 audio_frame_manipulator
 .
 h
@@ -8,6 +16,12 @@ h
 #
 include
 "
+webrtc
+/
+modules
+/
+interface
+/
 module_common_types
 .
 h
@@ -15,6 +29,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

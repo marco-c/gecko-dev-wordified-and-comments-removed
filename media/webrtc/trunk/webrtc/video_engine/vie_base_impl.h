@@ -7,6 +7,8 @@ WEBRTC_VIDEO_ENGINE_VIE_BASE_IMPL_H_
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
@@ -18,6 +20,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_defines
@@ -27,6 +31,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_ref_count
@@ -36,6 +42,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_shared_data
@@ -45,6 +53,9 @@ h
 namespace
 webrtc
 {
+class
+Config
+;
 class
 Module
 ;
@@ -200,6 +211,10 @@ protected
 :
 ViEBaseImpl
 (
+const
+Config
+&
+config
 )
 ;
 virtual

@@ -8,6 +8,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -19,6 +21,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_manager_base

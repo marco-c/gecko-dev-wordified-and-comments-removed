@@ -122,7 +122,7 @@ common_audio
 .
 gyp
 :
-signal_processing
+common_audio
 '
 '
 <
@@ -451,16 +451,6 @@ mac
 {
 '
 cflags
-'
-:
-[
-'
--
-msse2
-'
-]
-'
-cflags_mozilla
 '
 :
 [

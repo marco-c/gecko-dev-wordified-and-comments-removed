@@ -22,6 +22,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -33,6 +35,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -44,6 +48,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -51,6 +57,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
@@ -62,6 +70,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_defines
@@ -71,6 +81,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_frame_provider_base
@@ -80,6 +92,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_manager_base
@@ -89,6 +103,9 @@ h
 namespace
 webrtc
 {
+class
+Config
+;
 class
 CriticalSectionWrapper
 ;
@@ -122,11 +139,14 @@ ViEInputManagerScoped
 ;
 public
 :
-explicit
 ViEInputManager
 (
 int
 engine_id
+const
+Config
+&
+config
 )
 ;
 ~
@@ -362,6 +382,11 @@ int
 file_id
 )
 const
+;
+const
+Config
+&
+config_
 ;
 int
 engine_id_

@@ -7,6 +7,8 @@ SRC_VIDEO_ENGINE_TEST_AUTO_TEST_HELPERS_BIT_FLIP_ENCRYPTION_H_
 #
 include
 "
+webrtc
+/
 common_types
 .
 h

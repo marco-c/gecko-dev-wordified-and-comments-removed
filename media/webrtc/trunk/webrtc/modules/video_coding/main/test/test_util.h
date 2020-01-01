@@ -167,7 +167,7 @@ stdDev
 struct
 RtpPacket
 {
-int8_t
+uint8_t
 data
 [
 1650
@@ -331,7 +331,7 @@ FileOutputFrameReceiver
 )
 ;
 virtual
-WebRtc_Word32
+int32_t
 FrameToRender
 (
 webrtc

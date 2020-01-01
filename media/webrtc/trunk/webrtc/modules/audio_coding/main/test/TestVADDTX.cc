@@ -2524,6 +2524,12 @@ printf
 kActiveNormalEncoded
 kPassiveNormalEncoded
 kPassiveDTXWB
+"
+)
+;
+printf
+(
+"
 kPassiveDTXNB
 kPassiveDTXSWB
 kFrameEmpty

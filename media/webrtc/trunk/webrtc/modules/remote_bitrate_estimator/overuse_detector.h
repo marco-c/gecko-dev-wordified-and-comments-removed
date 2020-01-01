@@ -12,6 +12,8 @@ list
 #
 include
 "
+webrtc
+/
 modules
 /
 interface
@@ -23,6 +25,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 remote_bitrate_estimator
@@ -36,6 +40,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -46,8 +52,11 @@ WEBRTC_BWE_MATLAB
 #
 include
 "
-.
-.
+webrtc
+/
+modules
+/
+rtp_rtcp
 /
 test
 /

@@ -7,6 +7,14 @@ WEBRTC_MODULES_AUDIO_PROCESSING_NS_MAIN_SOURCE_NS_CORE_H_
 #
 include
 "
+webrtc
+/
+modules
+/
+audio_processing
+/
+ns
+/
 defines
 .
 h

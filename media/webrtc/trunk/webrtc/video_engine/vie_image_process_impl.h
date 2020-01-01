@@ -7,6 +7,8 @@ WEBRTC_VIDEO_ENGINE_VIE_IMAGE_PROCESS_IMPL_H_
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -14,6 +16,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
@@ -25,6 +29,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_ref_count

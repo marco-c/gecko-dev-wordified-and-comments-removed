@@ -1,6 +1,14 @@
 #
 include
 "
+webrtc
+/
+common_audio
+/
+signal_processing
+/
+include
+/
 signal_processing_library
 .
 h
@@ -46,7 +54,6 @@ WebRtcSpl_AllPassQMF
 int32_t
 *
 in_data
-const
 int16_t
 data_length
 int32_t

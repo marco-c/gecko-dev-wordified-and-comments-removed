@@ -7,6 +7,8 @@ WEBRTC_VIDEO_ENGINE_MAIN_TEST_AUTOTEST_INTERFACE_TB_I420_CODEC_H_
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding

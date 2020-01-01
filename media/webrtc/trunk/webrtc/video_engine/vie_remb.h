@@ -22,6 +22,8 @@ vector
 #
 include
 "
+webrtc
+/
 modules
 /
 interface
@@ -33,6 +35,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 remote_bitrate_estimator
@@ -46,6 +50,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 rtp_rtcp
@@ -59,6 +65,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -138,6 +146,7 @@ virtual
 void
 OnReceiveBitrateChanged
 (
+const
 std
 :
 :
@@ -146,7 +155,7 @@ vector
 unsigned
 int
 >
-*
+&
 ssrcs
 unsigned
 int
@@ -188,16 +197,6 @@ rtcp_sender_
 unsigned
 int
 bitrate_
-;
-std
-:
-:
-vector
-<
-unsigned
-int
->
-ssrcs_
 ;
 }
 ;

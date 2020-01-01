@@ -7,6 +7,8 @@ WEBRTC_COMMON_VIDEO_LIBYUV_INCLUDE_SCALER_H_
 #
 include
 "
+webrtc
+/
 common_video
 /
 interface
@@ -18,6 +20,8 @@ h
 #
 include
 "
+webrtc
+/
 common_video
 /
 libyuv
@@ -31,6 +35,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

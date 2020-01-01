@@ -7,6 +7,16 @@ WEBRTC_MODULES_RTP_RTCP_TEST_BWESTANDALONE_BWETWOWAYLIMITFINDING_H_
 #
 include
 "
+webrtc
+/
+modules
+/
+rtp_rtcp
+/
+test
+/
+BWEStandAlone
+/
 BWETestBase
 .
 h

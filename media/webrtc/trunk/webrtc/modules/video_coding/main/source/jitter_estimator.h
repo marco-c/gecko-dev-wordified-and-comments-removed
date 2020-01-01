@@ -108,8 +108,8 @@ frameSizeBytes
 void
 SetMaxJitterEstimate
 (
-uint32_t
-initial_delay_ms
+bool
+enable
 )
 ;
 static

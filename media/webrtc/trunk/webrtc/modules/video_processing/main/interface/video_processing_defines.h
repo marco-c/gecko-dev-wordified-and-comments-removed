@@ -7,6 +7,8 @@ WEBRTC_MODULES_INTERFACE_VIDEO_PROCESSING_DEFINES_H
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

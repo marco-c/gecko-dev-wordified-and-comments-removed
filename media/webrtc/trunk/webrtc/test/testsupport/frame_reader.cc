@@ -1,6 +1,10 @@
 #
 include
 "
+webrtc
+/
+test
+/
 testsupport
 /
 frame_reader

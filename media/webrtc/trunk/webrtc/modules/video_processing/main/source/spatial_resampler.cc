@@ -1,6 +1,16 @@
 #
 include
 "
+webrtc
+/
+modules
+/
+video_processing
+/
+main
+/
+source
+/
 spatial_resampler
 .
 h

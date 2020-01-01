@@ -425,6 +425,9 @@ clockSkew
 const
 uint32_t
 currentMicLevel
+const
+bool
+keyPressed
 uint32_t
 &
 newMicLevel
@@ -11201,7 +11204,7 @@ EXPECT_TRUE
 sampleRate
 =
 =
-44100
+44000
 )
 |
 |
@@ -11242,7 +11245,7 @@ EXPECT_TRUE
 sampleRate
 =
 =
-44100
+44000
 )
 |
 |
@@ -11338,7 +11341,7 @@ EXPECT_TRUE
 sampleRate
 =
 =
-44100
+44000
 )
 |
 |
@@ -11379,7 +11382,7 @@ EXPECT_TRUE
 sampleRate
 =
 =
-44100
+44000
 )
 |
 |

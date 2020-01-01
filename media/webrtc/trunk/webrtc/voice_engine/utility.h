@@ -7,6 +7,8 @@ WEBRTC_VOICE_ENGINE_UTILITY_H
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -14,6 +16,10 @@ h
 #
 include
 "
+webrtc
+/
+voice_engine
+/
 voice_engine_defines
 .
 h

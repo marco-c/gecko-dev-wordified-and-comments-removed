@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 video_processing
@@ -23,6 +25,8 @@ string
 #
 include
 "
+webrtc
+/
 common_video
 /
 libyuv
@@ -36,6 +40,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -47,6 +53,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 testsupport

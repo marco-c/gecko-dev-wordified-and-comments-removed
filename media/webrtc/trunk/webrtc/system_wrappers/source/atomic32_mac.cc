@@ -1,6 +1,12 @@
 #
 include
 "
+webrtc
+/
+system_wrappers
+/
+interface
+/
 atomic32
 .
 h
@@ -31,6 +37,8 @@ h
 #
 include
 "
+webrtc
+/
 common_types
 .
 h

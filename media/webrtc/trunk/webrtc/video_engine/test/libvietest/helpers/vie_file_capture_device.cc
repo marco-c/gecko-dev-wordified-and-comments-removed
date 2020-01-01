@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 video_engine
 /
 test
@@ -23,6 +25,8 @@ h
 #
 include
 "
+webrtc
+/
 common_types
 .
 h
@@ -30,6 +34,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 interface
@@ -41,6 +47,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -52,6 +60,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -63,6 +73,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -74,6 +86,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include

@@ -17,6 +17,8 @@ vector
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -24,6 +26,16 @@ h
 #
 include
 "
+webrtc
+/
+modules
+/
+rtp_rtcp
+/
+test
+/
+BWEStandAlone
+/
 TestSenderReceiver
 .
 h

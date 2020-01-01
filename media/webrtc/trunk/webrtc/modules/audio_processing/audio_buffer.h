@@ -7,6 +7,12 @@ WEBRTC_MODULES_AUDIO_PROCESSING_MAIN_SOURCE_AUDIO_BUFFER_H_
 #
 include
 "
+webrtc
+/
+modules
+/
+interface
+/
 module_common_types
 .
 h
@@ -14,6 +20,12 @@ h
 #
 include
 "
+webrtc
+/
+system_wrappers
+/
+interface
+/
 scoped_ptr
 .
 h
@@ -21,6 +33,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

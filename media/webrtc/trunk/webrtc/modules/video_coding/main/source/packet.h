@@ -111,6 +111,12 @@ completeNALU
 bool
 insertStartCode
 ;
+int
+width
+;
+int
+height
+;
 RTPVideoHeader
 codecSpecificHeader
 ;

@@ -17,6 +17,8 @@ set
 #
 include
 "
+webrtc
+/
 common_types
 .
 h
@@ -24,6 +26,8 @@ h
 #
 include
 "
+webrtc
+/
 common_video
 /
 interface
@@ -35,6 +39,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 media_file
@@ -48,6 +54,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -59,6 +67,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -66,6 +76,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_frame_provider_base

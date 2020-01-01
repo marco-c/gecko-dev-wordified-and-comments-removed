@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_render_manager
@@ -10,6 +12,8 @@ h
 #
 include
 "
+webrtc
+/
 engine_configurations
 .
 h
@@ -47,6 +51,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -58,6 +64,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -69,6 +77,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -80,6 +90,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_defines
@@ -89,6 +101,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_renderer

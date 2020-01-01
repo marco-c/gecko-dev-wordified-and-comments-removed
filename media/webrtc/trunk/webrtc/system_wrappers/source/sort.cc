@@ -49,6 +49,14 @@ vector
 #
 include
 "
+webrtc
+/
+system_wrappers
+/
+source
+/
+spreadsortlib
+/
 spreadsort
 .
 hpp

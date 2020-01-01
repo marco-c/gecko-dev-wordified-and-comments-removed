@@ -96,12 +96,6 @@ StopTimer
 =
 0
 ;
-static
-int
-KeyPressed
-(
-)
-;
 }
 ;
 }

@@ -230,6 +230,12 @@ usingStereo
 ;
 #
 endif
+int
+decoded_packet_sequence_number
+;
+uint32_t
+decoded_packet_timestamp
+;
 }
 MCUInst_t
 ;

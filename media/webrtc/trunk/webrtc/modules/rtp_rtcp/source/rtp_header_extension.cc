@@ -6,6 +6,8 @@ cassert
 #
 include
 "
+webrtc
+/
 common_types
 .
 h
@@ -13,6 +15,14 @@ h
 #
 include
 "
+webrtc
+/
+modules
+/
+rtp_rtcp
+/
+source
+/
 rtp_header_extension
 .
 h
@@ -528,7 +538,7 @@ length
 length
 +
 =
-RTP_ONE_BYTE_HEADER_LENGTH_IN_BYTES
+kRtpOneByteHeaderLength
 ;
 }
 return
@@ -571,7 +581,7 @@ return
 uint16_t
 length
 =
-RTP_ONE_BYTE_HEADER_LENGTH_IN_BYTES
+kRtpOneByteHeaderLength
 ;
 std
 :

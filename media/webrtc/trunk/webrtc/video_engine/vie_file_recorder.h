@@ -7,6 +7,8 @@ WEBRTC_VIDEO_ENGINE_VIE_FILE_RECORDER_H_
 #
 include
 "
+webrtc
+/
 modules
 /
 utility
@@ -20,6 +22,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -27,6 +31,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
@@ -38,6 +44,8 @@ h
 #
 include
 "
+webrtc
+/
 voice_engine
 /
 include

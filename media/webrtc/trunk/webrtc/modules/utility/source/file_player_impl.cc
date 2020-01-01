@@ -335,14 +335,6 @@ _codec
 plfreq
 =
 =
-44100
-|
-|
-_codec
-.
-plfreq
-=
-=
 44000
 )
 {

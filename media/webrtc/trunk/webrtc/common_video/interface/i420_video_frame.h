@@ -227,7 +227,6 @@ height_
 void
 set_timestamp
 (
-const
 uint32_t
 timestamp
 )

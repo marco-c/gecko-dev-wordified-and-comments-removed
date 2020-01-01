@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_input_manager
@@ -15,6 +17,8 @@ cassert
 #
 include
 "
+webrtc
+/
 common_types
 .
 h
@@ -37,6 +41,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -52,6 +58,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_coding
@@ -67,6 +75,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -78,6 +88,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -89,6 +101,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -100,6 +114,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
@@ -111,6 +127,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_capturer
@@ -120,6 +138,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_defines
@@ -129,6 +149,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_file_player
@@ -146,8 +168,16 @@ ViEInputManager
 const
 int
 engine_id
+const
+Config
+&
+config
 )
 :
+config_
+(
+config
+)
 engine_id_
 (
 engine_id
@@ -1485,6 +1515,7 @@ CreateViECapture
 (
 newcapture_id
 engine_id_
+config_
 device_unique_idUTF8
 device_unique_idUTF8Length
 *
@@ -1740,6 +1771,7 @@ CreateViECapture
 (
 newcapture_id
 engine_id_
+config_
 capture_module
 *
 module_process_thread_
@@ -2174,6 +2206,7 @@ CreateViECapture
 (
 newcapture_id
 engine_id_
+config_
 NULL
 0
 *

@@ -1079,7 +1079,7 @@ target_name
 '
 :
 '
-video_render_module_test
+video_render_integrationtests
 '
 '
 type

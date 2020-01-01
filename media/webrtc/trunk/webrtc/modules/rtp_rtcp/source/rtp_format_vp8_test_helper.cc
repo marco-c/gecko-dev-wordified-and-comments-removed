@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 rtp_rtcp
@@ -14,6 +16,12 @@ h
 #
 include
 "
+testing
+/
+gtest
+/
+include
+/
 gtest
 /
 gtest

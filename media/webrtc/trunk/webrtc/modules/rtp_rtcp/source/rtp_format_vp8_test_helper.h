@@ -7,6 +7,8 @@ WEBRTC_MODULES_RTP_RTCP_SOURCE_RTP_FORMAT_VP8_TEST_HELPER_H_
 #
 include
 "
+webrtc
+/
 modules
 /
 interface
@@ -18,6 +20,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 rtp_rtcp
@@ -31,6 +35,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -42,6 +48,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

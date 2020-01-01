@@ -5378,7 +5378,7 @@ mSampleRate
 {
 _adbSampFreq
 =
-44100
+44000
 ;
 }
 else

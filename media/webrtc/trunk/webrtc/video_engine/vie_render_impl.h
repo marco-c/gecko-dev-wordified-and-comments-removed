@@ -22,6 +22,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -29,6 +31,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
@@ -40,6 +44,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_ref_count

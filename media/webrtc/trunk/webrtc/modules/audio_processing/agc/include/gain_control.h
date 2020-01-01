@@ -7,6 +7,8 @@ WEBRTC_MODULES_AUDIO_PROCESSING_AGC_INCLUDE_GAIN_CONTROL_H_
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

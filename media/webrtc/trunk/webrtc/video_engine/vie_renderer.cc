@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_renderer
@@ -10,6 +12,8 @@ h
 #
 include
 "
+webrtc
+/
 common_video
 /
 libyuv
@@ -53,6 +57,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_render_manager

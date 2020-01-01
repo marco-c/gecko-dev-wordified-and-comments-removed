@@ -17,6 +17,8 @@ endif
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -28,6 +30,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

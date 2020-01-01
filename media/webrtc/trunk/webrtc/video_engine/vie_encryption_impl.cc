@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_encryption_impl
@@ -10,6 +12,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -21,6 +25,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
@@ -32,6 +38,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_channel
@@ -41,6 +49,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_channel_manager
@@ -50,6 +60,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_defines
@@ -59,6 +71,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_impl
@@ -68,6 +82,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_shared_data
@@ -108,7 +124,7 @@ VideoEngineImpl
 *
 vie_impl
 =
-reinterpret_cast
+static_cast
 <
 VideoEngineImpl
 *

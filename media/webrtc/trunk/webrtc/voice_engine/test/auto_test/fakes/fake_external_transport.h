@@ -7,6 +7,8 @@ VOICE_ENGINE_MAIN_TEST_AUTO_TEST_FAKES_FAKE_EXTERNAL_TRANSPORT_H_
 #
 include
 "
+webrtc
+/
 common_types
 .
 h

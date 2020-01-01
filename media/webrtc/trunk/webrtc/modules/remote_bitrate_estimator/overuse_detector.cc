@@ -27,6 +27,8 @@ endif
 #
 include
 "
+webrtc
+/
 modules
 /
 remote_bitrate_estimator
@@ -38,6 +40,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 remote_bitrate_estimator
@@ -49,6 +53,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 rtp_rtcp
@@ -62,6 +68,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface

@@ -7,6 +7,8 @@ COMMON_VIDEO_PLANE_H
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -18,6 +20,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

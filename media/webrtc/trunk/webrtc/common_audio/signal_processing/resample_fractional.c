@@ -1,6 +1,14 @@
 #
 include
 "
+webrtc
+/
+common_audio
+/
+signal_processing
+/
+include
+/
 signal_processing_library
 .
 h
@@ -179,7 +187,6 @@ In
 int32_t
 *
 Out
-const
 int32_t
 K
 )
@@ -511,7 +518,6 @@ In
 int32_t
 *
 Out
-const
 int32_t
 K
 )
@@ -1279,7 +1285,6 @@ In
 int32_t
 *
 Out
-const
 int32_t
 K
 )

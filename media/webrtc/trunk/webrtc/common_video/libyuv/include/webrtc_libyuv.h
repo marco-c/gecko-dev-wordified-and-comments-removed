@@ -14,6 +14,8 @@ h
 #
 include
 "
+webrtc
+/
 common_types
 .
 h
@@ -21,6 +23,8 @@ h
 #
 include
 "
+webrtc
+/
 common_video
 /
 interface
@@ -32,6 +36,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

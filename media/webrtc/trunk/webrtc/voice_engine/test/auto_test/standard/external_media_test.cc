@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 modules
 /
 interface
@@ -12,6 +14,8 @@ h
 #
 include
 "
+webrtc
+/
 voice_engine
 /
 include
@@ -23,6 +27,8 @@ h
 #
 include
 "
+webrtc
+/
 voice_engine
 /
 test
@@ -38,6 +44,8 @@ h
 #
 include
 "
+webrtc
+/
 voice_engine
 /
 test
@@ -951,10 +959,6 @@ kInvalidFrequencies
 8000
 -
 1
-1
-1000
-8001
-16001
 }
 ;
 webrtc

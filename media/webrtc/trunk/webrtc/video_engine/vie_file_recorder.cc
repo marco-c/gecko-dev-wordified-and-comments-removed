@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_file_recorder
@@ -10,6 +12,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 utility
@@ -23,6 +27,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 utility
@@ -36,6 +42,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -47,6 +55,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -58,6 +68,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -69,6 +81,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_defines

@@ -84,6 +84,15 @@ playout_buffer_delay_ms
 ;
 virtual
 int
+GetLeastRequiredDelayMs
+(
+int
+channel
+)
+const
+;
+virtual
+int
 SetInitTimestamp
 (
 int

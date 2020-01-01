@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_ref_count
@@ -10,6 +12,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface

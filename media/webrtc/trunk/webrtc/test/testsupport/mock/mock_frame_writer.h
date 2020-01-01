@@ -7,6 +7,10 @@ WEBRTC_TEST_TESTSUPPORT_MOCK_MOCK_FRAME_WRITER_H_
 #
 include
 "
+webrtc
+/
+test
+/
 testsupport
 /
 frame_writer
@@ -16,6 +20,12 @@ h
 #
 include
 "
+testing
+/
+gmock
+/
+include
+/
 gmock
 /
 gmock

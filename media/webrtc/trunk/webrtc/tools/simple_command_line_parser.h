@@ -7,12 +7,12 @@ WEBRTC_TOOLS_SIMPLE_COMMAND_LINE_PARSER_H_
 #
 include
 <
-string
+map
 >
 #
 include
 <
-map
+string
 >
 #
 include
@@ -22,6 +22,8 @@ vector
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -33,6 +35,8 @@ h
 #
 include
 "
+webrtc
+/
 test
 /
 testsupport

@@ -17,6 +17,8 @@ vector
 #
 include
 "
+webrtc
+/
 modules
 /
 interface
@@ -28,6 +30,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -39,6 +43,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

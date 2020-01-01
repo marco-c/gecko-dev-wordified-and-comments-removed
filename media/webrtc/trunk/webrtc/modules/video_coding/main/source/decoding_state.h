@@ -82,16 +82,7 @@ VCMDecodingState
 state
 )
 ;
-void
-SetStateOneBack
-(
-const
-VCMFrameBuffer
-*
-frame
-)
-;
-void
+bool
 UpdateEmptyFrame
 (
 const

@@ -7,6 +7,8 @@ WEBRTC_VOICE_ENGINE_VOE_AUDIO_PROCESSING_H
 #
 include
 "
+webrtc
+/
 common_types
 .
 h
@@ -130,7 +132,6 @@ virtual
 int
 SetAgcConfig
 (
-const
 AgcConfig
 config
 )
@@ -336,7 +337,6 @@ SetRxAgcConfig
 (
 int
 channel
-const
 AgcConfig
 config
 )

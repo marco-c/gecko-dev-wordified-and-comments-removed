@@ -7,6 +7,12 @@ WEBRTC_MODULES_RTP_RTCP_SOURCE_MOCK_MOCK_RTP_PAYLOAD_REGISTRY_H_
 #
 include
 "
+testing
+/
+gmock
+/
+include
+/
 gmock
 /
 gmock

@@ -7,6 +7,8 @@ WEBRTC_VOICE_ENGINE_VOE_NETEQ_STATS_H
 #
 include
 "
+webrtc
+/
 common_types
 .
 h

@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 video_engine
 /
 test
@@ -23,6 +25,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -34,6 +38,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
@@ -45,6 +51,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 test

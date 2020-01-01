@@ -25,4 +25,14 @@ int
 bitRateO
 )
 ;
+public
+int
+newIncomingResolution
+(
+int
+width
+int
+height
+)
+;
 }

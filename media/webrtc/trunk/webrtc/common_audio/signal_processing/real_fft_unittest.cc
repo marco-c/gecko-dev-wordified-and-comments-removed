@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 common_audio
 /
 signal_processing
@@ -14,6 +16,8 @@ h
 #
 include
 "
+webrtc
+/
 common_audio
 /
 signal_processing
@@ -27,6 +31,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -34,6 +40,12 @@ h
 #
 include
 "
+testing
+/
+gtest
+/
+include
+/
 gtest
 /
 gtest

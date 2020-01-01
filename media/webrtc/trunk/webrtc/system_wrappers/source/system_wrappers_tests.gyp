@@ -177,6 +177,17 @@ sources
 :
 [
 '
+.
+.
+/
+.
+.
+/
+common_unittest
+.
+cc
+'
+'
 aligned_malloc_unittest
 .
 cc

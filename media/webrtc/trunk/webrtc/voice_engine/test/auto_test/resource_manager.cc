@@ -1,6 +1,14 @@
 #
 include
 "
+webrtc
+/
+voice_engine
+/
+test
+/
+auto_test
+/
 resource_manager
 .
 h
@@ -8,6 +16,10 @@ h
 #
 include
 "
+webrtc
+/
+test
+/
 testsupport
 /
 fileutils

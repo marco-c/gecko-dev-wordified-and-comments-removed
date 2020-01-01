@@ -7,6 +7,8 @@ WEBRTC_VIDEO_ENGINE_VIE_SENDER_H_
 #
 include
 "
+webrtc
+/
 common_types
 .
 h
@@ -14,6 +16,8 @@ h
 #
 include
 "
+webrtc
+/
 engine_configurations
 .
 h
@@ -21,6 +25,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -32,6 +38,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -39,6 +47,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_defines

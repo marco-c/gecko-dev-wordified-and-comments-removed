@@ -3047,7 +3047,7 @@ nSamplesPerSec
 {
 _readSizeBytes
 =
-441
+440
 *
 _wavFormatObj
 .
@@ -3482,13 +3482,13 @@ codec_info_
 .
 pacsize
 =
-441
+440
 ;
 codec_info_
 .
 plfreq
 =
-44100
+44000
 ;
 }
 else

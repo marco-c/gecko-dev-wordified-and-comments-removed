@@ -7,6 +7,8 @@ WEBRTC_VIDEO_ENGINE_INCLUDE_VIE_RENDER_H_
 #
 include
 "
+webrtc
+/
 common_types
 .
 h

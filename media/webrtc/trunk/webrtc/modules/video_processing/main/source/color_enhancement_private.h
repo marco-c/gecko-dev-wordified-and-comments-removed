@@ -7,6 +7,8 @@ VPM_COLOR_ENHANCEMENT_PRIVATE_H
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

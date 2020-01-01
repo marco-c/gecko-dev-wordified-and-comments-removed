@@ -1,6 +1,12 @@
 #
 include
 "
+testing
+/
+gtest
+/
+include
+/
 gtest
 /
 gtest
@@ -10,6 +16,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 rtp_rtcp
@@ -23,6 +31,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 rtp_rtcp
@@ -36,6 +46,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

@@ -12,6 +12,8 @@ cstddef
 #
 include
 "
+webrtc
+/
 common_types
 .
 h
@@ -19,6 +21,12 @@ h
 #
 include
 "
+webrtc
+/
+system_wrappers
+/
+interface
+/
 constructor_magic
 .
 h

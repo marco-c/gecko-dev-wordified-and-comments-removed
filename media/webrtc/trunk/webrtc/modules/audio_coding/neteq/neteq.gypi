@@ -122,7 +122,7 @@ common_audio
 .
 gyp
 :
-signal_processing
+common_audio
 '
 ]
 '

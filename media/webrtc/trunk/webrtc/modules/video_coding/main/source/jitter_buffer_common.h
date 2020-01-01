@@ -60,7 +60,15 @@ kMaxJBFrameSizeBytes
 enum
 VCMFrameBufferEnum
 {
-kStateError
+kNotInitialized
+=
+-
+6
+kOldPacket
+=
+-
+5
+kGeneralError
 =
 -
 4

@@ -242,7 +242,7 @@ common_audio
 .
 gyp
 :
-vad
+common_audio
 '
 ]
 '

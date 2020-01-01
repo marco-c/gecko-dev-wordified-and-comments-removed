@@ -7,6 +7,8 @@ WEBRTC_SPL_RESAMPLE_BY_2_INTERNAL_H_
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

@@ -7,6 +7,12 @@ WEBRTC_MODULES_VIDEO_PROCESSING_MAIN_TEST_UNIT_TEST_VPM_UNIT_TEST_H
 #
 include
 "
+testing
+/
+gtest
+/
+include
+/
 gtest
 /
 gtest
@@ -16,6 +22,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_processing
@@ -31,6 +39,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -42,6 +52,10 @@ h
 #
 include
 "
+webrtc
+/
+test
+/
 testsupport
 /
 fileutils

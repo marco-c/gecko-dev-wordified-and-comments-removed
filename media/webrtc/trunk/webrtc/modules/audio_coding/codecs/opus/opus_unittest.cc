@@ -59,8 +59,8 @@ WebRtcOpusDecInst
 namespace
 webrtc
 {
-enum
-{
+const
+int
 kOpusNumberOfSamples
 =
 480
@@ -68,14 +68,12 @@ kOpusNumberOfSamples
 6
 *
 2
-}
 ;
-enum
-{
+const
+size_t
 kMaxBytes
 =
 1000
-}
 ;
 class
 OpusTest

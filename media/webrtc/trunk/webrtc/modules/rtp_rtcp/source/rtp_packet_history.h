@@ -12,6 +12,12 @@ vector
 #
 include
 "
+webrtc
+/
+modules
+/
+interface
+/
 module_common_types
 .
 h
@@ -19,6 +25,14 @@ h
 #
 include
 "
+webrtc
+/
+modules
+/
+rtp_rtcp
+/
+interface
+/
 rtp_rtcp_defines
 .
 h
@@ -26,6 +40,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

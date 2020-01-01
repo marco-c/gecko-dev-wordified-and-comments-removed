@@ -7,6 +7,12 @@ WEBRTC_VOICE_ENGINE_VOE_EXTERNAL_MEDIA_IMPL_H
 #
 include
 "
+webrtc
+/
+voice_engine
+/
+include
+/
 voe_external_media
 .
 h
@@ -14,6 +20,10 @@ h
 #
 include
 "
+webrtc
+/
+voice_engine
+/
 shared_data
 .
 h

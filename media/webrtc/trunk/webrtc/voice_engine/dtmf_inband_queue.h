@@ -7,6 +7,12 @@ WEBRTC_VOICE_ENGINE_DTMF_INBAND_QUEUE_H
 #
 include
 "
+webrtc
+/
+system_wrappers
+/
+interface
+/
 critical_section_wrapper
 .
 h
@@ -14,6 +20,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -21,6 +29,10 @@ h
 #
 include
 "
+webrtc
+/
+voice_engine
+/
 voice_engine_defines
 .
 h
@@ -35,7 +47,6 @@ public
 :
 DtmfInbandQueue
 (
-const
 int32_t
 id
 )

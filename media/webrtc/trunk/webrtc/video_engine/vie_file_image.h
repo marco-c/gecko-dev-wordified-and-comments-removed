@@ -7,6 +7,8 @@ WEBRTC_VIDEO_ENGINE_VIE_FILE_IMAGE_H_
 #
 include
 "
+webrtc
+/
 common_video
 /
 interface
@@ -18,6 +20,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -25,6 +29,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include

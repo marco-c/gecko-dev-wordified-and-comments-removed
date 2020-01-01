@@ -4,6 +4,13 @@ WEBRTC_MODULES_DESKTOP_CAPTURE_DESKTOP_CAPTURER_H_
 #
 define
 WEBRTC_MODULES_DESKTOP_CAPTURE_DESKTOP_CAPTURER_H_
+#
+include
+<
+stddef
+.
+h
+>
 namespace
 webrtc
 {

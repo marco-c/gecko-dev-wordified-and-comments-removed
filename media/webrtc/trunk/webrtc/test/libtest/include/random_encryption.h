@@ -7,6 +7,8 @@ SRC_VIDEO_ENGINE_TEST_AUTO_TEST_HELPERS_RANDOM_ENCRYPTION_H_
 #
 include
 "
+webrtc
+/
 common_types
 .
 h

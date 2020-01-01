@@ -12,6 +12,8 @@ vector
 #
 include
 "
+webrtc
+/
 common_types
 .
 h
@@ -19,6 +21,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -30,6 +34,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

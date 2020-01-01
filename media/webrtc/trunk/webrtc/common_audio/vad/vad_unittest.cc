@@ -1,6 +1,12 @@
 #
 include
 "
+webrtc
+/
+common_audio
+/
+vad
+/
 vad_unittest
 .
 h
@@ -15,6 +21,12 @@ h
 #
 include
 "
+testing
+/
+gtest
+/
+include
+/
 gtest
 /
 gtest
@@ -24,6 +36,8 @@ h
 #
 include
 "
+webrtc
+/
 common_audio
 /
 signal_processing
@@ -37,6 +51,8 @@ h
 #
 include
 "
+webrtc
+/
 common_audio
 /
 vad
@@ -50,6 +66,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h

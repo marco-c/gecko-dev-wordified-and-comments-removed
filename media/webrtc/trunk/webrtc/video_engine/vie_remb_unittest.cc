@@ -1,21 +1,33 @@
 #
 include
-<
+"
+testing
+/
+gmock
+/
+include
+/
 gmock
 /
 gmock
 .
 h
->
+"
 #
 include
-<
+"
+testing
+/
+gtest
+/
+include
+/
 gtest
 /
 gtest
 .
 h
->
+"
 #
 include
 <
@@ -323,7 +335,6 @@ vie_remb_
 >
 OnReceiveBitrateChanged
 (
-&
 ssrcs
 bitrate_estimate
 )
@@ -357,7 +368,6 @@ vie_remb_
 >
 OnReceiveBitrateChanged
 (
-&
 ssrcs
 bitrate_estimate
 )
@@ -385,7 +395,6 @@ vie_remb_
 >
 OnReceiveBitrateChanged
 (
-&
 ssrcs
 bitrate_estimate
 -
@@ -473,7 +482,6 @@ vie_remb_
 >
 OnReceiveBitrateChanged
 (
-&
 ssrcs
 bitrate_estimate
 )
@@ -507,7 +515,6 @@ vie_remb_
 >
 OnReceiveBitrateChanged
 (
-&
 ssrcs
 bitrate_estimate
 )
@@ -539,7 +546,6 @@ vie_remb_
 >
 OnReceiveBitrateChanged
 (
-&
 ssrcs
 bitrate_estimate
 )
@@ -638,7 +644,6 @@ vie_remb_
 >
 OnReceiveBitrateChanged
 (
-&
 ssrcs
 bitrate_estimate
 [
@@ -678,7 +683,6 @@ vie_remb_
 >
 OnReceiveBitrateChanged
 (
-&
 ssrcs
 bitrate_estimate
 [
@@ -691,7 +695,6 @@ vie_remb_
 >
 OnReceiveBitrateChanged
 (
-&
 ssrcs
 bitrate_estimate
 [
@@ -725,7 +728,6 @@ vie_remb_
 >
 OnReceiveBitrateChanged
 (
-&
 ssrcs
 bitrate_estimate
 [
@@ -849,7 +851,6 @@ vie_remb_
 >
 OnReceiveBitrateChanged
 (
-&
 ssrcs
 bitrate_estimate
 )
@@ -883,7 +884,6 @@ vie_remb_
 >
 OnReceiveBitrateChanged
 (
-&
 ssrcs
 bitrate_estimate
 )
@@ -909,7 +909,6 @@ vie_remb_
 >
 OnReceiveBitrateChanged
 (
-&
 ssrcs
 bitrate_estimate
 +
@@ -946,7 +945,6 @@ vie_remb_
 >
 OnReceiveBitrateChanged
 (
-&
 ssrcs
 lower_estimate
 )
@@ -1067,7 +1065,6 @@ vie_remb_
 >
 OnReceiveBitrateChanged
 (
-&
 ssrcs
 bitrate_estimate
 )
@@ -1101,7 +1098,6 @@ vie_remb_
 >
 OnReceiveBitrateChanged
 (
-&
 ssrcs
 bitrate_estimate
 )
@@ -1133,7 +1129,6 @@ vie_remb_
 >
 OnReceiveBitrateChanged
 (
-&
 ssrcs
 bitrate_estimate
 )
@@ -1161,7 +1156,6 @@ vie_remb_
 >
 OnReceiveBitrateChanged
 (
-&
 ssrcs
 bitrate_estimate
 )
@@ -1193,7 +1187,6 @@ vie_remb_
 >
 OnReceiveBitrateChanged
 (
-&
 ssrcs
 bitrate_estimate
 )
@@ -1279,7 +1272,6 @@ vie_remb_
 >
 OnReceiveBitrateChanged
 (
-&
 ssrcs
 bitrate_estimate
 )
@@ -1313,7 +1305,6 @@ vie_remb_
 >
 OnReceiveBitrateChanged
 (
-&
 ssrcs
 bitrate_estimate
 )
@@ -1345,7 +1336,6 @@ vie_remb_
 >
 OnReceiveBitrateChanged
 (
-&
 ssrcs
 bitrate_estimate
 )
@@ -1371,7 +1361,6 @@ vie_remb_
 >
 OnReceiveBitrateChanged
 (
-&
 ssrcs
 bitrate_estimate
 )
@@ -1448,7 +1437,6 @@ vie_remb_
 >
 OnReceiveBitrateChanged
 (
-&
 ssrcs
 bitrate_estimate
 )
@@ -1482,7 +1470,6 @@ vie_remb_
 >
 OnReceiveBitrateChanged
 (
-&
 ssrcs
 bitrate_estimate
 )
@@ -1514,7 +1501,6 @@ vie_remb_
 >
 OnReceiveBitrateChanged
 (
-&
 ssrcs
 bitrate_estimate
 )

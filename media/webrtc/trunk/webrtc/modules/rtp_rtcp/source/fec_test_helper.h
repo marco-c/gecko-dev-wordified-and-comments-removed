@@ -7,6 +7,8 @@ WEBRTC_MODULES_RTP_RTCP_SOURCE_FEC_TEST_HELPER_H_
 #
 include
 "
+webrtc
+/
 modules
 /
 interface
@@ -18,6 +20,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 rtp_rtcp

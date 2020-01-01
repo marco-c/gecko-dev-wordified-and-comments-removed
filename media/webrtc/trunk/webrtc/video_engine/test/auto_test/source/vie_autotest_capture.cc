@@ -1,6 +1,17 @@
 #
 include
 "
+gflags
+/
+gflags
+.
+h
+"
+#
+include
+"
+webrtc
+/
 common_types
 .
 h
@@ -8,16 +19,9 @@ h
 #
 include
 "
-engine_configurations
-.
-h
-"
-#
-include
-"
-gflags
+webrtc
 /
-gflags
+engine_configurations
 .
 h
 "
@@ -39,6 +43,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -50,6 +56,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
@@ -61,6 +69,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
@@ -72,6 +82,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
@@ -83,6 +95,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
@@ -94,6 +108,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
@@ -105,6 +121,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
@@ -116,6 +134,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 test
@@ -131,6 +151,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 test
@@ -146,6 +168,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 test
@@ -161,6 +185,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 test
@@ -176,6 +202,8 @@ h
 #
 include
 "
+webrtc
+/
 voice_engine
 /
 include
@@ -841,7 +869,7 @@ ViETest
 Log
 (
 "
-witdh
+width
 %
 d
 height

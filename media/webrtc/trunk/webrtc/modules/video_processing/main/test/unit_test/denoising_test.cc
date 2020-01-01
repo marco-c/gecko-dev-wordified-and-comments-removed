@@ -11,6 +11,8 @@ cstdlib
 #
 include
 "
+webrtc
+/
 common_video
 /
 libyuv
@@ -24,6 +26,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_processing
@@ -39,6 +43,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_processing
@@ -56,6 +62,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -67,6 +75,10 @@ h
 #
 include
 "
+webrtc
+/
+test
+/
 testsupport
 /
 fileutils

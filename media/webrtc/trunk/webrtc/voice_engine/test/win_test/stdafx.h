@@ -1,6 +1,9 @@
 #
-pragma
-once
+ifndef
+WEBRTC_VOICE_ENGINE_TEST_WIN_TEST_STDAFX_H_
+#
+define
+WEBRTC_VOICE_ENGINE_TEST_WIN_TEST_STDAFX_H_
 #
 ifndef
 _SECURE_ATL
@@ -403,6 +406,8 @@ language
 "
 "
 )
+#
+endif
 #
 endif
 #

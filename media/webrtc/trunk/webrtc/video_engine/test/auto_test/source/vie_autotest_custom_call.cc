@@ -3767,7 +3767,7 @@ std
 :
 numeric_limits
 <
-long
+int
 >
 :
 :

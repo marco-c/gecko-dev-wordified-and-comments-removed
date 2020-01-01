@@ -7,6 +7,8 @@ WEBRTC_VIDEO_ENGINE_VIE_FILE_IMPL_H_
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -18,6 +20,8 @@ h
 #
 include
 "
+webrtc
+/
 typedefs
 .
 h
@@ -25,6 +29,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
@@ -36,6 +42,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_defines
@@ -45,6 +53,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_frame_provider_base
@@ -54,6 +64,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_ref_count
@@ -63,6 +75,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_shared_data

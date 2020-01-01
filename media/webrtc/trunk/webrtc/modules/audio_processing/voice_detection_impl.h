@@ -7,6 +7,14 @@ WEBRTC_MODULES_AUDIO_PROCESSING_VOICE_DETECTION_IMPL_H_
 #
 include
 "
+webrtc
+/
+modules
+/
+audio_processing
+/
+include
+/
 audio_processing
 .
 h
@@ -14,6 +22,12 @@ h
 #
 include
 "
+webrtc
+/
+modules
+/
+audio_processing
+/
 processing_component
 .
 h

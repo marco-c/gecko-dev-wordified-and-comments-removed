@@ -1,6 +1,12 @@
 #
 include
 "
+testing
+/
+gtest
+/
+include
+/
 gtest
 /
 gtest
@@ -10,6 +16,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 test
@@ -25,6 +33,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 test

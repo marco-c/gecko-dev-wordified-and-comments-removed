@@ -400,9 +400,6 @@ define
 NETEQ_ILBC_CODEC
 #
 define
-NETEQ_OPUS_CODEC
-#
-define
 NETEQ_G729_CODEC
 #
 define
@@ -451,7 +448,7 @@ define
 NETEQ_48KHZ_WIDEBAND
 #
 define
-NETEQ_48KHZ_WIDEBAND
+NETEQ_OPUS_CODEC
 #
 define
 NETEQ_ISAC_FB

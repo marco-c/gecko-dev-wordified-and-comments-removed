@@ -141,6 +141,13 @@ vie_auto_test
 .
 gypi
 '
+'
+test
+/
+tests
+.
+gypi
+'
 ]
 '
 conditions

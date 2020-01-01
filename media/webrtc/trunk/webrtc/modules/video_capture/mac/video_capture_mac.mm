@@ -220,7 +220,7 @@ else
 #
 include
 "
-qtkit
+QTKit
 /
 video_capture_qtkit
 .
@@ -229,7 +229,7 @@ h
 #
 include
 "
-qtkit
+QTKit
 /
 video_capture_qtkit_info
 .

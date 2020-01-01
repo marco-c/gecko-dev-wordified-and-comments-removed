@@ -7,6 +7,14 @@ WEBRTC_MODULES_AUDIO_PROCESSING_MAIN_SOURCE_AUDIO_PROCESSING_IMPL_H_
 #
 include
 "
+webrtc
+/
+modules
+/
+audio_processing
+/
+include
+/
 audio_processing
 .
 h
@@ -24,6 +32,12 @@ string
 #
 include
 "
+webrtc
+/
+system_wrappers
+/
+interface
+/
 scoped_ptr
 .
 h

@@ -47,7 +47,7 @@ modules
 /
 audio_processing
 /
-audio_processing_impl
+audio_buffer
 .
 h
 "
@@ -60,7 +60,7 @@ modules
 /
 audio_processing
 /
-audio_buffer
+audio_processing_impl
 .
 h
 "

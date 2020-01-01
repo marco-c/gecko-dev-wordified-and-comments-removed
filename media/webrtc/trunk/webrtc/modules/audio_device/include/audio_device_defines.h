@@ -143,6 +143,9 @@ clockDrift
 const
 uint32_t
 currentMicLevel
+const
+bool
+keyPressed
 uint32_t
 &
 newMicLevel

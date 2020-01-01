@@ -1,6 +1,14 @@
 #
 include
 "
+webrtc
+/
+modules
+/
+audio_processing
+/
+aecm
+/
 aecm_core
 .
 h
@@ -22,6 +30,8 @@ h
 #
 include
 "
+webrtc
+/
 common_audio
 /
 signal_processing

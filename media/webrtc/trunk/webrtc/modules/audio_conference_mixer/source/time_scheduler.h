@@ -7,6 +7,12 @@ WEBRTC_MODULES_AUDIO_CONFERENCE_MIXER_SOURCE_TIME_SCHEDULER_H_
 #
 include
 "
+webrtc
+/
+system_wrappers
+/
+interface
+/
 tick_util
 .
 h

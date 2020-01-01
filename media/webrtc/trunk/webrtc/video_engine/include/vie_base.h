@@ -7,6 +7,8 @@ WEBRTC_VIDEO_ENGINE_INCLUDE_VIE_BASE_H_
 #
 include
 "
+webrtc
+/
 common_types
 .
 h
@@ -14,6 +16,9 @@ h
 namespace
 webrtc
 {
+class
+Config
+;
 class
 VoiceEngine
 ;
@@ -28,6 +33,17 @@ VideoEngine
 *
 Create
 (
+)
+;
+static
+VideoEngine
+*
+Create
+(
+const
+Config
+&
+config
 )
 ;
 static

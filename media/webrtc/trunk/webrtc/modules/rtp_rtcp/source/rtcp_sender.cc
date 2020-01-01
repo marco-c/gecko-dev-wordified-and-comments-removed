@@ -1,6 +1,14 @@
 #
 include
 "
+webrtc
+/
+modules
+/
+rtp_rtcp
+/
+source
+/
 rtcp_sender
 .
 h
@@ -30,6 +38,8 @@ h
 #
 include
 "
+webrtc
+/
 common_types
 .
 h
@@ -37,6 +47,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 rtp_rtcp
@@ -50,6 +62,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -61,6 +75,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface
@@ -72,6 +88,8 @@ h
 #
 include
 "
+webrtc
+/
 system_wrappers
 /
 interface

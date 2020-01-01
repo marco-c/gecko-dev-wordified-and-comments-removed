@@ -308,7 +308,6 @@ NumOfSendingChannels
 void
 SetLastError
 (
-const
 int32_t
 error
 )
@@ -317,10 +316,8 @@ const
 void
 SetLastError
 (
-const
 int32_t
 error
-const
 TraceLevel
 level
 )
@@ -329,10 +326,8 @@ const
 void
 SetLastError
 (
-const
 int32_t
 error
-const
 TraceLevel
 level
 const

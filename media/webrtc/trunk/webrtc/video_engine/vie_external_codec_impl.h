@@ -7,6 +7,8 @@ WEBRTC_VIDEO_ENGINE_VIE_EXTERNAL_CODEC_IMPL_H_
 #
 include
 "
+webrtc
+/
 video_engine
 /
 include
@@ -18,6 +20,8 @@ h
 #
 include
 "
+webrtc
+/
 video_engine
 /
 vie_ref_count

@@ -159,9 +159,6 @@ Clock
 *
 _clock
 ;
-I420VideoFrame
-_frame
-;
 VCMReceiveCallback
 *
 _receiveCallback

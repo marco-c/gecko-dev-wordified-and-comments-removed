@@ -882,7 +882,7 @@ source_port
 uint16_t
 dest_port
 ;
-WebRtcRTPHeader
+RTPHeader
 rtp_header
 ;
 int32_t
@@ -1339,8 +1339,6 @@ ssrc
 marker
 .
 rtp_header
-.
-header
 .
 ssrc
 ;

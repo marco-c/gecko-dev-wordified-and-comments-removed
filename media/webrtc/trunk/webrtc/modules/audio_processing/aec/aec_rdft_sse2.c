@@ -1,6 +1,14 @@
 #
 include
 "
+webrtc
+/
+modules
+/
+audio_processing
+/
+aec
+/
 aec_rdft
 .
 h

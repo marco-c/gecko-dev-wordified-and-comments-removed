@@ -1,6 +1,12 @@
 #
 include
 "
+testing
+/
+gtest
+/
+include
+/
 gtest
 /
 gtest
@@ -10,6 +16,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 remote_bitrate_estimator

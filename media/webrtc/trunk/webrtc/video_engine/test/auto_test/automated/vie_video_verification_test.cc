@@ -16,6 +16,12 @@ vector
 #
 include
 "
+testing
+/
+gtest
+/
+include
+/
 gtest
 /
 gtest
@@ -44,7 +50,9 @@ test
 /
 testsupport
 /
-perf_test
+metrics
+/
+video_metrics
 .
 h
 "
@@ -57,9 +65,7 @@ test
 /
 testsupport
 /
-metrics
-/
-video_metrics
+perf_test
 .
 h
 "

@@ -1,6 +1,8 @@
 #
 include
 "
+webrtc
+/
 engine_configurations
 .
 h
@@ -20,6 +22,16 @@ WEBRTC_VIDEO_ENGINE_MAIN_TEST_AUTOTEST_INTERFACE_VIE_AUTOTEST_MAC_COCOA_H_
 #
 include
 "
+webrtc
+/
+video_engine
+/
+test
+/
+auto_test
+/
+interface
+/
 vie_autotest_window_manager_interface
 .
 h

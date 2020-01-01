@@ -1,6 +1,9 @@
 #
-pragma
-once
+ifndef
+WEBRTC_VOICE_ENGINE_TEST_WIN_TEST_WINTEST_H_
+#
+define
+WEBRTC_VOICE_ENGINE_TEST_WIN_TEST_WINTEST_H_
 #
 ifndef
 __AFXWIN_H__
@@ -58,3 +61,5 @@ extern
 CWinTestApp
 theApp
 ;
+#
+endif
