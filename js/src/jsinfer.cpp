@@ -26925,17 +26925,6 @@ offset
 )
 continue
 ;
-jsbytecode
-*
-pc
-=
-script_
--
->
-code
-+
-offset
-;
 unsigned
 defCount
 =
