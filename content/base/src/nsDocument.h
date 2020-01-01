@@ -2490,6 +2490,9 @@ nsIParser
 >
 mParser
 ;
+nsWeakPtr
+mWeakSink
+;
 nsCOMArray
 <
 nsIStyleSheet
