@@ -13302,6 +13302,14 @@ text
 )
 ;
 }
+if
+(
+relaxRootChecks
+)
+relaxRootChecks
+(
+)
+;
 check_correctness
 (
 "
