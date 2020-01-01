@@ -477,6 +477,10 @@ mPositioningDirty
 (
 true
 )
+mPositioningMayUsePercentages
+(
+false
+)
 {
 }
 public
@@ -1351,6 +1355,9 @@ mGetCanvasTMForFlag
 ;
 bool
 mPositioningDirty
+;
+bool
+mPositioningMayUsePercentages
 ;
 }
 ;
