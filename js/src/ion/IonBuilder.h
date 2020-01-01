@@ -1083,6 +1083,12 @@ types
 :
 TypeSet
 *
+barrier
+types
+:
+:
+TypeSet
+*
 types
 )
 ;

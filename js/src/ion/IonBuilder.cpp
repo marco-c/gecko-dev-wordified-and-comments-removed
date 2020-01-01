@@ -21759,9 +21759,21 @@ types
 :
 TypeSet
 *
+barrier
+types
+:
+:
+TypeSet
+*
 types
 )
 {
+if
+(
+barrier
+)
+return
+;
 if
 (
 !
@@ -22973,6 +22985,7 @@ pc
 monitorResult
 (
 ins
+barrier
 types
 )
 ;
@@ -23315,6 +23328,7 @@ mustMonitorResult
 monitorResult
 (
 ins
+barrier
 types
 )
 ;
@@ -29157,6 +29171,7 @@ accessGetter
 monitorResult
 (
 ins
+barrier
 types
 )
 ;
