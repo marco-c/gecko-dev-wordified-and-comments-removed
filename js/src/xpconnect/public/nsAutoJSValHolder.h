@@ -201,17 +201,6 @@ mVal
 NULL
 ;
 }
-jsval
-*
-ToJSValPtr
-(
-)
-{
-return
-&
-mVal
-;
-}
 operator
 jsval
 (

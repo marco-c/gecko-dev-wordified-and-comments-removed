@@ -491,14 +491,6 @@ importScripts_worker_imported4
 .
 js
 \
-test_json
-.
-html
-\
-json_worker
-.
-js
-\
 test_longThread
 .
 html
