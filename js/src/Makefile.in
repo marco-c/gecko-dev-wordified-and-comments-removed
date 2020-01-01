@@ -1027,6 +1027,10 @@ jsobj
 .
 h
 \
+jsobjinlines
+.
+h
+\
 json
 .
 h
