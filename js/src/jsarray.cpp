@@ -680,7 +680,7 @@ lengthp
 obj
 -
 >
-getArgsLength
+getArgsInitialLength
 (
 )
 ;

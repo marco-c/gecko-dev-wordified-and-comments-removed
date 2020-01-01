@@ -845,7 +845,7 @@ argc
 argsobj
 -
 >
-getArgsLength
+getArgsInitialLength
 (
 )
 ;
@@ -1296,7 +1296,7 @@ arg
 obj
 -
 >
-getArgsLength
+getArgsInitialLength
 (
 )
 )
@@ -2659,7 +2659,7 @@ arg
 obj
 -
 >
-getArgsLength
+getArgsInitialLength
 (
 )
 )
@@ -2765,7 +2765,7 @@ setInt32
 obj
 -
 >
-getArgsLength
+getArgsInitialLength
 (
 )
 )
@@ -2935,7 +2935,7 @@ arg
 obj
 -
 >
-getArgsLength
+getArgsInitialLength
 (
 )
 )
@@ -3107,7 +3107,7 @@ arg
 obj
 -
 >
-getArgsLength
+getArgsInitialLength
 (
 )
 &
@@ -3272,7 +3272,7 @@ int
 obj
 -
 >
-getArgsLength
+getArgsInitialLength
 (
 )
 )
@@ -10333,7 +10333,7 @@ length
 aobj
 -
 >
-getArgsLength
+getArgsInitialLength
 (
 )
 ;
