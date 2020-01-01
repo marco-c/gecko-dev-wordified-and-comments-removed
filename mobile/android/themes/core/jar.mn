@@ -132,6 +132,7 @@ aboutFeedback
 .
 css
 )
+*
 skin
 /
 aboutReader
@@ -139,16 +140,6 @@ aboutReader
 css
 (
 aboutReader
-.
-css
-)
-skin
-/
-aboutReaderContent
-.
-css
-(
-aboutReaderContent
 .
 css
 )
