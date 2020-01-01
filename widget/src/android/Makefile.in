@@ -487,6 +487,10 @@ nsClipboard
 .
 cpp
 \
+nsFilePicker
+.
+cpp
+\
 (
 NULL
 )
@@ -514,10 +518,6 @@ mozqwidget
 cpp
 \
 nsSound
-.
-cpp
-\
-nsFilePicker
 .
 cpp
 \

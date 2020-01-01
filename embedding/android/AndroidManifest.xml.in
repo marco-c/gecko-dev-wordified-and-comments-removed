@@ -248,7 +248,7 @@ android
 launchMode
 =
 "
-singleInstance
+singleTask
 "
 >
 <
