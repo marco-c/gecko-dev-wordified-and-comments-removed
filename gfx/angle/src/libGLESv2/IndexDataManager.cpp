@@ -1906,6 +1906,13 @@ mWritePosition
 requiredSpace
 >
 mBufferSize
+|
+|
+mWritePosition
++
+requiredSpace
+<
+mWritePosition
 )
 {
 void
