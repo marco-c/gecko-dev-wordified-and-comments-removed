@@ -144,6 +144,17 @@ return
 mFocusedContent
 ;
 }
+nsPIDOMWindow
+*
+GetFocusedWindow
+(
+)
+const
+{
+return
+mFocusedWindow
+;
+}
 nsresult
 ContentRemoved
 (

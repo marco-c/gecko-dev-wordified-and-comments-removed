@@ -3075,12 +3075,6 @@ nsIPrincipal
 >
 mDocumentPrincipal
 ;
-nsCOMPtr
-<
-nsIDocument
->
-mDoc
-;
 JSObject
 *
 mJSObject
