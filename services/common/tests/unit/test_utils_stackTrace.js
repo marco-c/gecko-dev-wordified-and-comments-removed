@@ -165,9 +165,6 @@ indexOf
 (
 "
 baz
-(
-2
-)
 test_utils_stackTrace
 .
 js
@@ -185,9 +182,6 @@ indexOf
 (
 "
 bar
-(
-1
-)
 test_utils_stackTrace
 .
 js
@@ -205,9 +199,6 @@ indexOf
 (
 "
 foo
-(
-0
-)
 test_utils_stackTrace
 .
 js
