@@ -621,7 +621,7 @@ aSourceFrame
 )
 ;
 typedef
-nsresult
+void
 (
 *
 DisplayGenericTablePartTraversal
@@ -644,7 +644,7 @@ aLists
 )
 ;
 static
-nsresult
+void
 GenericTraversal
 (
 nsDisplayListBuilder
@@ -664,7 +664,7 @@ aLists
 )
 ;
 static
-nsresult
+void
 DisplayGenericTablePart
 (
 nsDisplayListBuilder
@@ -753,7 +753,8 @@ aLists
 )
 const
 ;
-NS_IMETHOD
+virtual
+void
 BuildDisplayList
 (
 nsDisplayListBuilder
@@ -768,6 +769,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 void
 PaintTableBorderBackground

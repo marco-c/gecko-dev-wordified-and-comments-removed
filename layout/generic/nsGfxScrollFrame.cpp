@@ -8782,7 +8782,7 @@ mScrolledFrame
 ;
 }
 ;
-nsresult
+void
 nsGfxScrollFrameInner
 :
 :
@@ -8916,7 +8916,6 @@ aLists
 )
 ;
 return
-NS_OK
 ;
 }
 bool
@@ -9257,9 +9256,6 @@ aLists
 createLayersForScrollbars
 true
 )
-;
-return
-NS_OK
 ;
 }
 static

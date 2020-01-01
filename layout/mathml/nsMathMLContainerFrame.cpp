@@ -2334,7 +2334,7 @@ GetNextSibling
 ;
 }
 }
-NS_IMETHODIMP
+void
 nsMathMLContainerFrame
 :
 :
@@ -2372,7 +2372,6 @@ aBuilder
 )
 )
 return
-NS_OK
 ;
 aLists
 .
@@ -2395,7 +2394,6 @@ this
 )
 ;
 return
-NS_OK
 ;
 }
 DisplayBorderBackgroundOutline
@@ -2435,9 +2433,6 @@ aLists
 ;
 #
 endif
-return
-NS_OK
-;
 }
 void
 nsMathMLContainerFrame

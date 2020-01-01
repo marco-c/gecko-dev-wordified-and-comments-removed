@@ -6325,7 +6325,7 @@ PopState
 ;
 }
 }
-NS_IMETHODIMP
+void
 nsImageFrame
 :
 :
@@ -6353,7 +6353,6 @@ aBuilder
 )
 )
 return
-NS_OK
 ;
 DisplayBorderBackgroundOutline
 (
@@ -6669,9 +6668,6 @@ aBuilder
 replacedContent
 aLists
 )
-;
-return
-NS_OK
 ;
 }
 bool

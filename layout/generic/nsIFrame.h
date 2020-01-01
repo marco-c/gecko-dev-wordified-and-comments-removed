@@ -2763,7 +2763,8 @@ return
 mPrevSibling
 ;
 }
-NS_IMETHOD
+virtual
+void
 BuildDisplayList
 (
 nsDisplayListBuilder
@@ -2779,11 +2780,8 @@ nsDisplayListSet
 aLists
 )
 {
-return
-NS_OK
-;
 }
-nsresult
+void
 DisplayCaret
 (
 nsDisplayListBuilder
@@ -2939,7 +2937,7 @@ return
 true
 ;
 }
-nsresult
+void
 BuildDisplayListForStackingContext
 (
 nsDisplayListBuilder
@@ -3001,7 +2999,7 @@ DISPLAY_CHILD_INLINE
 0x04
 }
 ;
-nsresult
+void
 BuildDisplayListForChild
 (
 nsDisplayListBuilder

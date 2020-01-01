@@ -451,7 +451,7 @@ NS_QUERYFRAME_TAIL_INHERITING
 (
 nsContainerFrame
 )
-NS_IMETHODIMP
+void
 nsProgressFrame
 :
 :
@@ -476,9 +476,6 @@ aBuilder
 aDirtyRect
 aLists
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP

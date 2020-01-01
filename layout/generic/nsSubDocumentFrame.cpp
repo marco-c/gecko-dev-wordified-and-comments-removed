@@ -1332,7 +1332,7 @@ return
 false
 ;
 }
-NS_IMETHODIMP
+void
 nsSubDocumentFrame
 :
 :
@@ -1360,7 +1360,6 @@ aBuilder
 )
 )
 return
-NS_OK
 ;
 if
 (
@@ -1378,7 +1377,6 @@ PassPointerEventsToChildren
 )
 )
 return
-NS_OK
 ;
 DisplayBorderBackgroundOutline
 (
@@ -1392,7 +1390,6 @@ if
 mInnerView
 )
 return
-NS_OK
 ;
 nsFrameLoader
 *
@@ -1423,7 +1420,6 @@ if
 rfp
 )
 {
-return
 rfp
 -
 >
@@ -1434,6 +1430,8 @@ this
 aDirtyRect
 aLists
 )
+;
+return
 ;
 }
 }
@@ -1454,7 +1452,6 @@ if
 subdocView
 )
 return
-NS_OK
 ;
 nsCOMPtr
 <
@@ -1619,7 +1616,6 @@ if
 mFrameLoader
 )
 return
-NS_OK
 ;
 nsCOMPtr
 <
@@ -1644,7 +1640,6 @@ if
 docShell
 )
 return
-NS_OK
 ;
 presShell
 =
@@ -1661,7 +1656,6 @@ if
 presShell
 )
 return
-NS_OK
 ;
 }
 }
@@ -2157,9 +2151,6 @@ childItems
 DeleteAll
 (
 )
-;
-return
-NS_OK
 ;
 }
 nscoord

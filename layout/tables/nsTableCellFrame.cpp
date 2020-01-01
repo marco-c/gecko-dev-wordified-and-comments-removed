@@ -1860,7 +1860,7 @@ aPt
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsTableCellFrame
 :
 :
@@ -2291,9 +2291,6 @@ kid
 aDirtyRect
 aLists
 )
-;
-return
-NS_OK
 ;
 }
 int

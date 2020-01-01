@@ -571,7 +571,8 @@ aLayoutManager
 nullptr
 )
 ;
-NS_IMETHOD
+virtual
+void
 BuildDisplayListForChildren
 (
 nsDisplayListBuilder
@@ -587,7 +588,8 @@ nsDisplayListSet
 aLists
 )
 ;
-NS_IMETHOD
+virtual
+void
 BuildDisplayList
 (
 nsDisplayListBuilder
@@ -650,7 +652,7 @@ nsRect
 aRect
 )
 ;
-nsresult
+void
 WrapListsInRedirector
 (
 nsDisplayListBuilder

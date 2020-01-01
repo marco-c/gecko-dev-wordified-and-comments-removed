@@ -8351,7 +8351,7 @@ aDestructRoot
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsSVGTextFrame2
 :
 :
@@ -8379,10 +8379,8 @@ this
 )
 {
 return
-NS_OK
 ;
 }
-return
 aLists
 .
 Content

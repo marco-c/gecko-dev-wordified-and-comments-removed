@@ -476,7 +476,7 @@ child
 }
 }
 }
-nsresult
+void
 nsTreeColFrame
 :
 :
@@ -517,7 +517,6 @@ aLists
 )
 ;
 return
-NS_OK
 ;
 }
 nsDisplayListCollection
@@ -559,9 +558,6 @@ aBuilder
 this
 )
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP

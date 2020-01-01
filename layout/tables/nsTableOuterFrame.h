@@ -301,7 +301,8 @@ MOZ_OVERRIDE
 ;
 #
 endif
-NS_IMETHOD
+virtual
+void
 BuildDisplayList
 (
 nsDisplayListBuilder
@@ -318,7 +319,7 @@ aLists
 )
 MOZ_OVERRIDE
 ;
-nsresult
+void
 BuildDisplayListForInnerTable
 (
 nsDisplayListBuilder

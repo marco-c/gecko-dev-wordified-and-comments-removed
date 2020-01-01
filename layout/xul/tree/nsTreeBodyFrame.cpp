@@ -12674,7 +12674,7 @@ aPt
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsTreeBodyFrame
 :
 :
@@ -12702,11 +12702,7 @@ aBuilder
 )
 )
 return
-NS_OK
 ;
-nsresult
-rv
-=
 nsLeafBoxFrame
 :
 :
@@ -12715,12 +12711,6 @@ BuildDisplayList
 aBuilder
 aDirtyRect
 aLists
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 if
@@ -12745,9 +12735,7 @@ GetScriptGlobalObject
 )
 )
 return
-NS_OK
 ;
-return
 aLists
 .
 Content

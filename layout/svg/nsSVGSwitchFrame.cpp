@@ -142,7 +142,8 @@ aResult
 }
 #
 endif
-NS_IMETHOD
+virtual
+void
 BuildDisplayList
 (
 nsDisplayListBuilder
@@ -157,6 +158,7 @@ nsDisplayListSet
 &
 aLists
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 PaintSVG
@@ -321,7 +323,7 @@ nsGkAtoms
 svgSwitchFrame
 ;
 }
-NS_IMETHODIMP
+void
 nsSVGSwitchFrame
 :
 :
@@ -362,9 +364,6 @@ aLists
 )
 ;
 }
-return
-NS_OK
-;
 }
 NS_IMETHODIMP
 nsSVGSwitchFrame

@@ -1449,7 +1449,7 @@ ToReferenceFrame
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsTextBoxFrame
 :
 :
@@ -1477,7 +1477,6 @@ aBuilder
 )
 )
 return
-NS_OK
 ;
 nsLeafBoxFrame
 :
@@ -1508,9 +1507,6 @@ aBuilder
 this
 )
 )
-;
-return
-NS_OK
 ;
 }
 void
