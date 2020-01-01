@@ -660,6 +660,16 @@ XY
 }
 ;
 static
+double
+ComputeNormalizedHypotenuse
+(
+double
+aWidth
+double
+aHeight
+)
+;
+static
 float
 ObjectSpace
 (
