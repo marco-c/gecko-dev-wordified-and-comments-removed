@@ -825,6 +825,7 @@ Clip
 aClip
 )
 ;
+const
 nsIFrame
 *
 GetActiveScrolledRoot
@@ -858,6 +859,7 @@ mDrawAboveRegion
 nsIntRegion
 mOpaqueRegion
 ;
+const
 nsIFrame
 *
 mActiveScrolledRoot
@@ -1003,6 +1005,7 @@ FrameLayerBuilder
 Clip
 &
 aClip
+const
 nsIFrame
 *
 aActiveScrolledRoot
@@ -6515,6 +6518,7 @@ FrameLayerBuilder
 Clip
 &
 aClip
+const
 nsIFrame
 *
 aActiveScrolledRoot
@@ -7539,6 +7543,7 @@ isFixed
 bool
 forceInactive
 ;
+const
 nsIFrame
 *
 activeScrolledRoot

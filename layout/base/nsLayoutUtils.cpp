@@ -2982,12 +2982,15 @@ nsLayoutUtils
 :
 IsAncestorFrameCrossDoc
 (
+const
 nsIFrame
 *
 aAncestorFrame
+const
 nsIFrame
 *
 aFrame
+const
 nsIFrame
 *
 aCommonAncestor
@@ -2995,6 +2998,7 @@ aCommonAncestor
 {
 for
 (
+const
 nsIFrame
 *
 f
@@ -4205,6 +4209,7 @@ GetActiveScrolledRootFor
 nsIFrame
 *
 aFrame
+const
 nsIFrame
 *
 aStopAtAncestor
@@ -4433,6 +4438,7 @@ nsLayoutUtils
 :
 IsScrolledByRootContentDocumentDisplayportScrolling
 (
+const
 nsIFrame
 *
 aActiveScrolledRoot
@@ -6104,6 +6110,7 @@ GetTransformToAncestor
 nsIFrame
 *
 aFrame
+const
 nsIFrame
 *
 aAncestor
@@ -6226,6 +6233,7 @@ const
 gfxRect
 &
 aRect
+const
 nsIFrame
 *
 aAncestor
@@ -6390,6 +6398,7 @@ const
 nsRect
 &
 aRect
+const
 nsIFrame
 *
 aAncestor

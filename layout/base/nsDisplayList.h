@@ -726,12 +726,14 @@ IsFixedItem
 nsDisplayItem
 *
 aItem
+const
 nsIFrame
 *
 *
 aActiveScrolledRoot
 =
 nullptr
+const
 nsIFrame
 *
 aOverrideActiveScrolledRoot
