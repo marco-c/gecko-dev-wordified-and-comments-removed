@@ -485,6 +485,16 @@ js
 (
 NULL
 )
+EXTRA_JS_MODULES
+=
+\
+TelemetryStopwatch
+.
+jsm
+\
+(
+NULL
+)
 CPPSRCS
 =
 \
