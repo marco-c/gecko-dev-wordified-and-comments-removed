@@ -77,6 +77,8 @@ const
 PRUnichar
 *
 showAgainName
+PRBool
+aAsync
 )
 ;
 nsresult
