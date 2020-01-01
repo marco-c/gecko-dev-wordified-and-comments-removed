@@ -445,8 +445,6 @@ mk
 MODULE
 =
 reftest
-ifdef
-DISABLED_FOR_NOW
 LIBRARY_NAME
 =
 reftest
@@ -456,9 +454,6 @@ IS_COMPONENT
 MODULE_NAME
 =
 nsReftestModule
-MOZILLA_INTERNAL_API
-=
-1
 REQUIRES
 =
 \
@@ -521,9 +516,12 @@ zlib
 (
 NULL
 )
+ifndef
+MOZ_ENABLE_LIBXUL
 EXTRA_DSO_LIBS
 =
 thebes
+endif
 EXTRA_DSO_LDOPTS
 =
 \
@@ -533,6 +531,10 @@ LIBS_DIR
 \
 (
 EXTRA_DSO_LIBS
+)
+\
+(
+XPCOM_GLUE_LDOPTS
 )
 \
 (
@@ -556,7 +558,6 @@ CPPSRCS
 nsReftestHelper
 .
 cpp
-endif
 EXTRA_COMPONENTS
 =
 \

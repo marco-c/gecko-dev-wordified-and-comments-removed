@@ -18,13 +18,6 @@ gfxRect
 .
 h
 "
-#
-include
-"
-nsStringFwd
-.
-h
-"
 typedef
 struct
 _cairo_surface

@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLCanvasElement
 .
 h
@@ -72,6 +65,13 @@ h
 include
 "
 gfxImageSurface
+.
+h
+"
+#
+include
+"
+nsStringGlue
 .
 h
 "

@@ -11,13 +11,9 @@ nsISupports
 .
 h
 "
-#
-include
-"
+class
 nsIFrame
-.
-h
-"
+;
 #
 define
 NS_ICANVASELEMENT_IID
