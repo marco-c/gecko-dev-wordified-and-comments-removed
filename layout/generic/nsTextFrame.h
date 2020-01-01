@@ -668,6 +668,13 @@ IsEmpty
 ;
 }
 virtual
+nscoord
+GetBaseline
+(
+)
+const
+;
+virtual
 PRBool
 HasTerminalNewline
 (

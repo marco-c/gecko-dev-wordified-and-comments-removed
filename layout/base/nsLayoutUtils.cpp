@@ -7961,6 +7961,7 @@ nsLayoutUtils
 :
 GetFontMetricsForFrame
 (
+const
 nsIFrame
 *
 aFrame

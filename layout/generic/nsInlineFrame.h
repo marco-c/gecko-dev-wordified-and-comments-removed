@@ -273,6 +273,13 @@ PullOverflowsFromPrevInFlow
 (
 )
 ;
+virtual
+nscoord
+GetBaseline
+(
+)
+const
+;
 PRBool
 IsLeftMost
 (

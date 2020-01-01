@@ -223,6 +223,13 @@ CanContinueTextRun
 )
 const
 ;
+virtual
+nscoord
+GetBaseline
+(
+)
+const
+;
 NS_IMETHOD
 GetChildFrameContainingOffset
 (

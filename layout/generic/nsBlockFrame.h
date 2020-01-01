@@ -422,6 +422,13 @@ GetBaseline
 const
 ;
 virtual
+nscoord
+GetCaretBaseline
+(
+)
+const
+;
+virtual
 nsIAtom
 *
 GetAdditionalChildListName

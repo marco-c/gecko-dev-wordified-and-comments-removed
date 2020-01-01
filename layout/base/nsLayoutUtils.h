@@ -1003,6 +1003,7 @@ static
 nsresult
 GetFontMetricsForFrame
 (
+const
 nsIFrame
 *
 aFrame

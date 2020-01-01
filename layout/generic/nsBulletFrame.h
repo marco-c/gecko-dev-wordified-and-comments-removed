@@ -264,6 +264,13 @@ IsSelfEmpty
 (
 )
 ;
+virtual
+nscoord
+GetBaseline
+(
+)
+const
+;
 protected
 :
 void
