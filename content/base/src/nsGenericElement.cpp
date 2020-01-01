@@ -13178,6 +13178,17 @@ if
 removeIndex
 <
 0
+|
+|
+!
+nsContentUtils
+:
+:
+IsInSameAnonymousTree
+(
+container
+newContent
+)
 )
 {
 return
