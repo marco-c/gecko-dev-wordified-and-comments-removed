@@ -1025,6 +1025,15 @@ gfxASurface
 :
 :
 SurfaceTypeXcb
+|
+|
+type
+=
+=
+gfxASurface
+:
+:
+SurfaceTypeQuartz
 )
 {
 extend
