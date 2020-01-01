@@ -211,6 +211,17 @@ setActionButtonClickListener
 mCallbacks
 )
 ;
+if
+(
+dataModel
+.
+getHistorySize
+(
+)
+>
+0
+)
+{
 PackageManager
 packageManager
 =
@@ -248,6 +259,7 @@ packageManager
 )
 )
 ;
+}
 return
 view
 ;

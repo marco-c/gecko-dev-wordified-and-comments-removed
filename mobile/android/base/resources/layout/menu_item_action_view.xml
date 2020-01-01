@@ -237,6 +237,13 @@ layout_gravity
 "
 center_vertical
 "
+android
+:
+visibility
+=
+"
+gone
+"
 /
 >
 <
