@@ -12,7 +12,7 @@ nsIXPCScriptable
 h
 "
 class
-mozStorageStatement
+Statement
 ;
 namespace
 mozilla
@@ -35,7 +35,7 @@ private
 nsresult
 getRow
 (
-mozStorageStatement
+Statement
 *
 JSContext
 *
@@ -48,7 +48,7 @@ jsval
 nsresult
 getParams
 (
-mozStorageStatement
+Statement
 *
 JSContext
 *

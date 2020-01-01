@@ -51,7 +51,7 @@ StatementRow
 :
 StatementRow
 (
-mozStorageStatement
+Statement
 *
 aStatement
 )
