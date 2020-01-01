@@ -30194,7 +30194,7 @@ node
 >
 setKind
 (
-PNK_FUNCTION
+PNK_FUNCTIONNS
 )
 ;
 }
@@ -30940,7 +30940,7 @@ NullaryNode
 :
 create
 (
-PNK_FUNCTION
+PNK_FUNCTIONNS
 this
 )
 ;
