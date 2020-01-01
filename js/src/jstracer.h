@@ -2611,6 +2611,9 @@ bool
 profiled
 ;
 bool
+undecided
+;
+bool
 traceOK
 ;
 bool
@@ -8224,6 +8227,11 @@ traceData
 uintN
 *
 traceEpoch
+uint32
+*
+loopCounter
+uint32
+hits
 )
 ;
 extern
