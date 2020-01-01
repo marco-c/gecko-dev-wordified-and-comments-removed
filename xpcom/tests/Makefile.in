@@ -515,6 +515,10 @@ TestPipe
 .
 cpp
 \
+TestRacingServiceManager
+.
+cpp
+\
 TestRegistrationOrder
 .
 cpp
@@ -727,6 +731,8 @@ TestID
 TestObserverService
 \
 TestPipe
+\
+TestRacingServiceManager
 \
 TestServMgr
 \
