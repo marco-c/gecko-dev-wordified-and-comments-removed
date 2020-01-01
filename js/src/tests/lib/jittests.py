@@ -2144,12 +2144,8 @@ result
 %
 s
 |
-jit_test
-.
-py
 %
--
-15s
+s
 |
 %
 s
@@ -2157,10 +2153,10 @@ s
 %
 (
 label
-jitflags
 test
 .
 path
+jitflags
 )
     
 else
