@@ -2817,7 +2817,10 @@ aFirstParty
 {
 if
 (
-mFiredUnloadEvent
+!
+IsNavigationAllowed
+(
+)
 )
 {
 return
