@@ -1271,13 +1271,6 @@ BINPATH
 /
 components
 /
-proxyObject
-.
-xpt
-BINPATH
-/
-components
-/
 rdf
 .
 xpt
