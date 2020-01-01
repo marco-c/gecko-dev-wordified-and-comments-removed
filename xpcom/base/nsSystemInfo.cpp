@@ -103,6 +103,7 @@ nsSystemInfo
 static
 const
 struct
+PropItems
 {
 const
 char
