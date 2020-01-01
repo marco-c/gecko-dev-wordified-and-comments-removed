@@ -3084,6 +3084,7 @@ PRELOAD_UNDEFINED
 ;
 if
 (
+(
 IsAutoplayEnabled
 (
 )
@@ -3097,6 +3098,11 @@ nsGkAtoms
 :
 autoplay
 )
+)
+|
+|
+!
+mPaused
 )
 {
 nextAction
@@ -5316,6 +5322,10 @@ mAutoplaying
 PR_FALSE
 ;
 AddRemoveSelfReference
+(
+)
+;
+UpdatePreloadAction
 (
 )
 ;
