@@ -521,6 +521,7 @@ requirement
 *
 /
 [
+scriptable
 uuid
 (
 ac923b72
@@ -818,6 +819,7 @@ aAlignMask
 /
 [
 notxpcom
+noscript
 ]
 charPtr
 getBuffer
@@ -920,6 +922,7 @@ aBuffer
 /
 [
 notxpcom
+noscript
 ]
 void
 putBuffer
