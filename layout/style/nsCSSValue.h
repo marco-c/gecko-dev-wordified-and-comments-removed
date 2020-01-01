@@ -130,9 +130,12 @@ eCSSUnit_Integer
 eCSSUnit_Enumerated
 =
 51
-eCSSUnit_Color
+eCSSUnit_EnumColor
 =
 80
+eCSSUnit_Color
+=
+81
 eCSSUnit_Percent
 =
 90
@@ -588,6 +591,12 @@ mUnit
 =
 =
 eCSSUnit_Enumerated
+|
+|
+mUnit
+=
+=
+eCSSUnit_EnumColor
 "
 not
 an

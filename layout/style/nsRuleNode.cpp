@@ -1853,7 +1853,7 @@ PR_TRUE
 else
 if
 (
-eCSSUnit_Integer
+eCSSUnit_EnumColor
 =
 =
 unit
@@ -3466,7 +3466,7 @@ GetUnit
 )
 =
 =
-eCSSUnit_Integer
+eCSSUnit_EnumColor
 &
 &
 colorData
@@ -17331,7 +17331,7 @@ GetUnit
 )
 =
 =
-eCSSUnit_Integer
+eCSSUnit_EnumColor
 &
 &
 colorData

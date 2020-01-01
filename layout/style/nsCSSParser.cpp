@@ -4639,7 +4639,7 @@ GetUnit
 )
 =
 =
-eCSSUnit_Integer
+eCSSUnit_EnumColor
 )
 {
 PRInt32
@@ -12653,7 +12653,7 @@ aValue
 SetIntValue
 (
 value
-eCSSUnit_Integer
+eCSSUnit_EnumColor
 )
 ;
 return
@@ -29209,7 +29209,7 @@ eCSSUnit_Color
 unit
 =
 =
-eCSSUnit_Integer
+eCSSUnit_EnumColor
 "
 Must
 be
