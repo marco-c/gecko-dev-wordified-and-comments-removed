@@ -173,6 +173,7 @@ xulRuntime
 .
 shell
 )
+slow
 script
 regress
 -
