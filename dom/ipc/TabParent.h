@@ -696,6 +696,15 @@ aPoint
 )
 ;
 void
+HandleLongTap
+(
+const
+nsIntPoint
+&
+aPoint
+)
+;
+void
 Activate
 (
 )

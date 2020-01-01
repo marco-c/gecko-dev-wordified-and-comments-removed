@@ -837,6 +837,16 @@ aPoint
 ;
 virtual
 bool
+RecvHandleLongTap
+(
+const
+nsIntPoint
+&
+aPoint
+)
+;
+virtual
+bool
 RecvActivate
 (
 )
