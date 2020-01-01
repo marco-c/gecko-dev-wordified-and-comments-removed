@@ -158,6 +158,16 @@ autoconf
 .
 mk
 endif
+-
+include
+(
+DEPTH
+)
+/
+.
+mozconfig
+.
+mk
 space
 =
 (
