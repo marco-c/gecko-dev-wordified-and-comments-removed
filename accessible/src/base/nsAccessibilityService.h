@@ -487,14 +487,6 @@ static
 bool
 gIsShutdown
 ;
-bool
-HasUniversalAriaProperty
-(
-nsIContent
-*
-aContent
-)
-;
 friend
 nsAccessibilityService
 *
