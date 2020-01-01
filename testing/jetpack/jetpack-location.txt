@@ -8,9 +8,9 @@ mozilla
 .
 org
 /
-labs
+projects
 /
-jetpack
+addon
 -
 sdk
 /
