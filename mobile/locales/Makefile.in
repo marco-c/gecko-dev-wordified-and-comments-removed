@@ -1613,11 +1613,6 @@ GECKO_PLATFORM_INI_PATH
 STAGEDIST
 )
 /
-.
-.
-/
-Resources
-/
 platform
 .
 ini
@@ -1629,11 +1624,6 @@ FENNEC_APPLICATION_INI_PATH
 (
 STAGEDIST
 )
-/
-.
-.
-/
-Resources
 /
 application
 .
