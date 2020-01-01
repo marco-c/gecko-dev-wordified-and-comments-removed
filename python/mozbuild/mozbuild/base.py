@@ -508,6 +508,9 @@ def
 from_environment
 (
 cls
+cwd
+=
+None
 )
 :
         
@@ -687,6 +690,16 @@ raised
 "
 "
         
+cwd
+=
+cwd
+or
+os
+.
+getcwd
+(
+)
+        
 topsrcdir
 =
 None
@@ -764,11 +777,7 @@ dir_path
 in
 ancestors
 (
-os
-.
-getcwd
-(
-)
+cwd
 )
 :
             
