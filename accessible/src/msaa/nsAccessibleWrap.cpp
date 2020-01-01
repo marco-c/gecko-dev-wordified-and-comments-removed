@@ -4992,7 +4992,6 @@ aStates
 =
 IA2_STATE_INVALID_ENTRY
 ;
-else
 if
 (
 states
@@ -5023,7 +5022,6 @@ aStates
 =
 IA2_STATE_ACTIVE
 ;
-else
 if
 (
 extraStates
@@ -5039,7 +5037,6 @@ aStates
 =
 IA2_STATE_DEFUNCT
 ;
-else
 if
 (
 extraStates
@@ -5055,7 +5052,6 @@ aStates
 =
 IA2_STATE_EDITABLE
 ;
-else
 if
 (
 extraStates
@@ -5071,7 +5067,6 @@ aStates
 =
 IA2_STATE_HORIZONTAL
 ;
-else
 if
 (
 extraStates
@@ -5087,7 +5082,6 @@ aStates
 =
 IA2_STATE_MODAL
 ;
-else
 if
 (
 extraStates
@@ -5103,7 +5097,6 @@ aStates
 =
 IA2_STATE_MULTI_LINE
 ;
-else
 if
 (
 extraStates
@@ -5119,7 +5112,6 @@ aStates
 =
 IA2_STATE_OPAQUE
 ;
-else
 if
 (
 extraStates
@@ -5135,7 +5127,6 @@ aStates
 =
 IA2_STATE_SELECTABLE_TEXT
 ;
-else
 if
 (
 extraStates
@@ -5151,7 +5142,6 @@ aStates
 =
 IA2_STATE_SINGLE_LINE
 ;
-else
 if
 (
 extraStates
@@ -5167,7 +5157,6 @@ aStates
 =
 IA2_STATE_STALE
 ;
-else
 if
 (
 extraStates
@@ -5183,7 +5172,6 @@ aStates
 =
 IA2_STATE_SUPPORTS_AUTOCOMPLETION
 ;
-else
 if
 (
 extraStates
@@ -5199,7 +5187,6 @@ aStates
 =
 IA2_STATE_TRANSIENT
 ;
-else
 if
 (
 extraStates
@@ -5260,6 +5247,11 @@ long
 nExtendedStates
 )
 {
+*
+nExtendedStates
+=
+0
+;
 return
 E_NOTIMPL
 ;
@@ -5281,6 +5273,11 @@ long
 nExtendedStates
 )
 {
+*
+nExtendedStates
+=
+0
+;
 return
 E_NOTIMPL
 ;
@@ -5302,6 +5299,11 @@ long
 nLocalizedExtendedStates
 )
 {
+*
+nLocalizedExtendedStates
+=
+0
+;
 return
 E_NOTIMPL
 ;
