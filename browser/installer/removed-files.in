@@ -310,6 +310,11 @@ nsDictionary
 js
 components
 /
+nsExtensionManager
+.
+js
+components
+/
 nsInterfaceInfoToIDL
 .
 js
