@@ -2020,6 +2020,8 @@ return
 NPERR_NO_ERROR
 ;
 }
+#
+endif
 case
 NPNVcontentsScaleFactor
 :
@@ -2040,8 +2042,6 @@ return
 NPERR_NO_ERROR
 ;
 }
-#
-endif
 #
 endif
 #
