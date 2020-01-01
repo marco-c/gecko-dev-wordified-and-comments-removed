@@ -599,14 +599,6 @@ convert
 )
 ;
 bool
-visitCopy
-(
-MCopy
-*
-ins
-)
-;
-bool
 visitRegExp
 (
 MRegExp

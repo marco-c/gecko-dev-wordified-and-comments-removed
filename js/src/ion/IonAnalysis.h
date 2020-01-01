@@ -35,15 +35,7 @@ graph
 )
 ;
 bool
-EliminateDeadPhis
-(
-MIRGraph
-&
-graph
-)
-;
-void
-EliminateCopies
+EliminatePhis
 (
 MIRGraph
 &
