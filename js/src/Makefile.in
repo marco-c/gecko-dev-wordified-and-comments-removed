@@ -1576,6 +1576,10 @@ MonoIC
 .
 cpp
 \
+ImmutableSync
+.
+cpp
+\
 (
 NULL
 )

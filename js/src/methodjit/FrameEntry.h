@@ -60,8 +60,8 @@ class
 FrameState
 ;
 friend
-struct
-SyncRegs
+class
+ImmutableSync
 ;
 public
 :
