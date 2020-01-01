@@ -3550,9 +3550,7 @@ while
 rt
 -
 >
-gcLevel
->
-0
+gcThread
 )
 JS_AWAIT_GC_DONE
 (
