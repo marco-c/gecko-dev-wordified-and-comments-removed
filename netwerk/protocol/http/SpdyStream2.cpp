@@ -8,14 +8,14 @@ h
 #
 include
 "
-SpdySession
+SpdySession2
 .
 h
 "
 #
 include
 "
-SpdyStream
+SpdyStream2
 .
 h
 "
@@ -79,15 +79,15 @@ mozilla
 namespace
 net
 {
-SpdyStream
+SpdyStream2
 :
 :
-SpdyStream
+SpdyStream2
 (
 nsAHttpTransaction
 *
 httpTransaction
-SpdySession
+SpdySession2
 *
 spdySession
 nsISocketTransport
@@ -160,7 +160,7 @@ mSentWaitingFor
 )
 mTxInlineFrameSize
 (
-SpdySession
+SpdySession2
 :
 :
 kDefaultBufferSize
@@ -212,10 +212,10 @@ LOG3
 (
 (
 "
-SpdyStream
+SpdyStream2
 :
 :
-SpdyStream
+SpdyStream2
 %
 p
 "
@@ -232,24 +232,24 @@ mTxInlineFrameSize
 ]
 ;
 }
-SpdyStream
+SpdyStream2
 :
 :
 ~
-SpdyStream
+SpdyStream2
 (
 )
 {
 mStreamID
 =
-SpdySession
+SpdySession2
 :
 :
 kDeadStreamID
 ;
 }
 nsresult
-SpdyStream
+SpdyStream2
 :
 :
 ReadSegments
@@ -268,7 +268,7 @@ LOG3
 (
 (
 "
-SpdyStream
+SpdyStream2
 %
 p
 ReadSegments
@@ -657,7 +657,7 @@ NS_ABORT_IF_FALSE
 (
 false
 "
-SpdyStream
+SpdyStream2
 :
 :
 ReadSegments
@@ -674,7 +674,7 @@ rv
 ;
 }
 nsresult
-SpdyStream
+SpdyStream2
 :
 :
 WriteSegments
@@ -693,7 +693,7 @@ LOG3
 (
 (
 "
-SpdyStream
+SpdyStream2
 :
 :
 WriteSegments
@@ -766,7 +766,7 @@ rv
 ;
 }
 PLDHashOperator
-SpdyStream
+SpdyStream2
 :
 :
 hdrHashEnumerate
@@ -786,13 +786,13 @@ void
 closure
 )
 {
-SpdyStream
+SpdyStream2
 *
 self
 =
 static_cast
 <
-SpdyStream
+SpdyStream2
 *
 >
 (
@@ -824,7 +824,7 @@ PL_DHASH_NEXT
 ;
 }
 nsresult
-SpdyStream
+SpdyStream2
 :
 :
 ParseHttpRequestHeaders
@@ -870,7 +870,7 @@ LOG3
 (
 (
 "
-SpdyStream
+SpdyStream2
 :
 :
 ParseHttpRequestHeaders
@@ -930,7 +930,7 @@ LOG3
 (
 (
 "
-SpdyStream
+SpdyStream2
 :
 :
 ParseHttpRequestHeaders
@@ -1063,7 +1063,7 @@ mTxInlineFrame
 0
 ]
 =
-SpdySession
+SpdySession2
 :
 :
 kFlag_Control
@@ -1087,7 +1087,7 @@ mTxInlineFrame
 3
 ]
 =
-SpdySession
+SpdySession2
 :
 :
 CONTROL_TYPE_SYN_STREAM
@@ -1134,7 +1134,7 @@ mTxInlineFrame
 16
 ]
 =
-SpdySession
+SpdySession2
 :
 :
 kPri03
@@ -1155,7 +1155,7 @@ mTxInlineFrame
 16
 ]
 =
-SpdySession
+SpdySession2
 :
 :
 kPri02
@@ -1176,7 +1176,7 @@ mTxInlineFrame
 16
 ]
 =
-SpdySession
+SpdySession2
 :
 :
 kPri01
@@ -1187,7 +1187,7 @@ mTxInlineFrame
 16
 ]
 =
-SpdySession
+SpdySession2
 :
 :
 kPri00
@@ -1895,7 +1895,7 @@ mTxInlineFrame
 4
 ]
 =
-SpdySession
+SpdySession2
 :
 :
 kFlag_Data_FIN
@@ -1978,7 +1978,7 @@ mTxInlineFrame
 4
 ]
 =
-SpdySession
+SpdySession2
 :
 :
 kFlag_Data_FIN
@@ -2052,7 +2052,7 @@ NS_OK
 ;
 }
 void
-SpdyStream
+SpdyStream2
 :
 :
 UpdateTransportReadEvents
@@ -2078,7 +2078,7 @@ mTotalRead
 ;
 }
 void
-SpdyStream
+SpdyStream2
 :
 :
 UpdateTransportSendEvents
@@ -2136,7 +2136,7 @@ LL_ZERO
 }
 }
 nsresult
-SpdyStream
+SpdyStream2
 :
 :
 TransmitFrame
@@ -2208,7 +2208,7 @@ LOG3
 (
 (
 "
-SpdyStream
+SpdyStream2
 :
 :
 TransmitFrame
@@ -2248,7 +2248,7 @@ mTxInlineFrameUsed
 &
 mTxStreamFrameSize
 <
-SpdySession
+SpdySession2
 :
 :
 kDefaultBufferSize
@@ -2354,7 +2354,7 @@ LOG3
 (
 (
 "
-SpdyStream
+SpdyStream2
 :
 :
 TransmitFrame
@@ -2423,7 +2423,7 @@ count
 "
 )
 ;
-SpdySession
+SpdySession2
 :
 :
 LogIO
@@ -2511,7 +2511,7 @@ LOG3
 (
 (
 "
-SpdyStream
+SpdyStream2
 :
 :
 TransmitFrame
@@ -2580,7 +2580,7 @@ count
 "
 )
 ;
-SpdySession
+SpdySession2
 :
 :
 LogIO
@@ -2624,7 +2624,7 @@ NS_OK
 ;
 }
 void
-SpdyStream
+SpdyStream2
 :
 :
 ChangeState
@@ -2638,7 +2638,7 @@ LOG3
 (
 (
 "
-SpdyStream
+SpdyStream2
 :
 :
 ChangeState
@@ -2667,7 +2667,7 @@ return
 ;
 }
 void
-SpdyStream
+SpdyStream2
 :
 :
 GenerateDataFrameHeader
@@ -2682,7 +2682,7 @@ LOG3
 (
 (
 "
-SpdyStream
+SpdyStream2
 :
 :
 GenerateDataFrameHeader
@@ -2856,7 +2856,7 @@ mTxInlineFrame
 ]
 |
 =
-SpdySession
+SpdySession2
 :
 :
 kFlag_Data_FIN
@@ -2872,7 +2872,7 @@ mSentFinOnData
 }
 }
 void
-SpdyStream
+SpdyStream2
 :
 :
 CompressToFrame
@@ -2899,7 +2899,7 @@ Length
 ;
 }
 void
-SpdyStream
+SpdyStream2
 :
 :
 CompressToFrame
@@ -2930,7 +2930,7 @@ Length
 const
 char
 *
-SpdyStream
+SpdyStream2
 :
 :
 kDictionary
@@ -3060,7 +3060,7 @@ iso
 ;
 void
 *
-SpdyStream
+SpdyStream2
 :
 :
 zlib_allocator
@@ -3084,7 +3084,7 @@ size
 ;
 }
 void
-SpdyStream
+SpdyStream2
 :
 :
 zlib_destructor
@@ -3104,7 +3104,7 @@ addr
 ;
 }
 void
-SpdyStream
+SpdyStream2
 :
 :
 ExecuteCompress
@@ -3129,7 +3129,7 @@ avail
 1
 )
 {
-SpdySession
+SpdySession2
 :
 :
 EnsureBuffer
@@ -3213,7 +3213,7 @@ avail_out
 ;
 }
 void
-SpdyStream
+SpdyStream2
 :
 :
 CompressToFrame
@@ -3259,7 +3259,7 @@ Z_NO_FLUSH
 ;
 }
 void
-SpdyStream
+SpdyStream2
 :
 :
 CompressToFrame
@@ -3344,7 +3344,7 @@ Z_NO_FLUSH
 ;
 }
 void
-SpdyStream
+SpdyStream2
 :
 :
 CompressFlushFrame
@@ -3378,7 +3378,7 @@ Z_SYNC_FLUSH
 ;
 }
 void
-SpdyStream
+SpdyStream2
 :
 :
 Close
@@ -3397,7 +3397,7 @@ reason
 ;
 }
 nsresult
-SpdyStream
+SpdyStream2
 :
 :
 OnReadSegment
@@ -3417,7 +3417,7 @@ LOG3
 (
 (
 "
-SpdyStream
+SpdyStream2
 :
 :
 OnReadSegment
@@ -3637,7 +3637,7 @@ LOG3
 (
 (
 "
-SpdyStream
+SpdyStream2
 %
 p
 id
@@ -3835,7 +3835,7 @@ NS_ABORT_IF_FALSE
 (
 false
 "
-SpdyStream
+SpdyStream2
 :
 :
 OnReadSegment
@@ -3854,7 +3854,7 @@ rv
 ;
 }
 nsresult
-SpdyStream
+SpdyStream2
 :
 :
 OnWriteSegment
@@ -3873,7 +3873,7 @@ LOG3
 (
 (
 "
-SpdyStream
+SpdyStream2
 :
 :
 OnWriteSegment

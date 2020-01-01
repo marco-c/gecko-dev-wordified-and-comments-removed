@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_net_SpdyStream_h
+mozilla_net_SpdyStream2_h
 #
 define
-mozilla_net_SpdyStream_h
+mozilla_net_SpdyStream2_h
 #
 include
 "
@@ -18,7 +18,7 @@ namespace
 net
 {
 class
-SpdyStream
+SpdyStream2
 :
 public
 nsAHttpSegmentReader
@@ -29,11 +29,11 @@ public
 :
 NS_DECL_NSAHTTPSEGMENTREADER
 NS_DECL_NSAHTTPSEGMENTWRITER
-SpdyStream
+SpdyStream2
 (
 nsAHttpTransaction
 *
-SpdySession
+SpdySession2
 *
 nsISocketTransport
 *
@@ -206,11 +206,11 @@ friend
 class
 nsAutoPtr
 <
-SpdyStream
+SpdyStream2
 >
 ;
 ~
-SpdyStream
+SpdyStream2
 (
 )
 ;
@@ -328,7 +328,7 @@ nsAHttpTransaction
 >
 mTransaction
 ;
-SpdySession
+SpdySession2
 *
 mSession
 ;
