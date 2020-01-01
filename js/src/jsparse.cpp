@@ -5967,9 +5967,9 @@ cx
 JSTreeContext
 *
 tc
-JSAtom
+PropertyName
 *
-atom
+name
 JSParseNode
 *
 pn
@@ -6003,7 +6003,7 @@ atomState
 ;
 if
 (
-atom
+name
 =
 =
 atomState
@@ -6012,7 +6012,7 @@ atomState
 evalAtom
 |
 |
-atom
+name
 =
 =
 atomState
@@ -6023,13 +6023,13 @@ argumentsAtom
 |
 FindKeyword
 (
-atom
+name
 -
 >
 charsZ
 (
 )
-atom
+name
 -
 >
 length
@@ -6039,7 +6039,7 @@ length
 )
 {
 JSAutoByteString
-name
+bytes
 ;
 if
 (
@@ -6047,9 +6047,9 @@ if
 js_AtomToPrintableString
 (
 cx
-atom
-&
 name
+&
+bytes
 )
 )
 return
@@ -6069,7 +6069,7 @@ parser
 tc
 pn
 JSMSG_BAD_BINDING
-name
+bytes
 .
 ptr
 (
@@ -11523,9 +11523,9 @@ fn
 JSTreeContext
 *
 funtc
-JSAtom
+PropertyName
 *
-funAtom
+funName
 =
 NULL
 FunctionSyntaxKind
@@ -11707,7 +11707,7 @@ if
 atom
 =
 =
-funAtom
+funName
 &
 &
 kind
@@ -12179,7 +12179,7 @@ lexdeps
 >
 remove
 (
-funAtom
+funName
 )
 ;
 fn
@@ -12361,9 +12361,9 @@ pn
 JSCodeGenerator
 *
 cg
-JSAtom
+PropertyName
 *
-atom
+name
 )
 ;
 bool
@@ -12865,9 +12865,9 @@ Parser
 :
 functionDef
 (
-JSAtom
+PropertyName
 *
-funAtom
+funName
 FunctionType
 type
 FunctionSyntaxKind
@@ -12880,7 +12880,7 @@ kind
 =
 =
 Statement
-funAtom
+funName
 )
 ;
 tokenStream
@@ -12978,7 +12978,7 @@ decls
 .
 lookupFirst
 (
-funAtom
+funName
 )
 )
 {
@@ -13044,7 +13044,7 @@ if
 js_AtomToPrintableString
 (
 context
-funAtom
+funName
 &
 name
 )
@@ -13102,7 +13102,7 @@ decls
 .
 updateFirst
 (
-funAtom
+funName
 (
 JSDefinition
 *
@@ -13132,7 +13132,7 @@ MakeDefIntoUse
 (
 dn
 pn
-funAtom
+funName
 tc
 )
 )
@@ -13160,7 +13160,7 @@ lexdeps
 .
 lookupDefn
 (
-funAtom
+funName
 )
 )
 {
@@ -13242,7 +13242,7 @@ lexdeps
 >
 remove
 (
-funAtom
+funName
 )
 ;
 RecycleTree
@@ -13262,7 +13262,7 @@ if
 Define
 (
 pn
-funAtom
+funName
 tc
 )
 )
@@ -13296,7 +13296,7 @@ bindings
 lookup
 (
 context
-funAtom
+funName
 &
 index
 )
@@ -13330,7 +13330,7 @@ bindings
 addVariable
 (
 context
-funAtom
+funName
 )
 )
 return
@@ -13406,7 +13406,7 @@ EnterFunction
 pn
 &
 funtc
-funAtom
+funName
 kind
 )
 ;
@@ -13659,7 +13659,7 @@ NULL
 ;
 if
 (
-funAtom
+funName
 &
 &
 !
@@ -13668,7 +13668,7 @@ CheckStrictBinding
 context
 &
 funtc
-funAtom
+funName
 pn
 )
 )
@@ -14172,7 +14172,7 @@ outertc
 asCodeGenerator
 (
 )
-funAtom
+funName
 )
 )
 return
@@ -14199,7 +14199,7 @@ LeaveFunction
 pn
 &
 funtc
-funAtom
+funName
 kind
 )
 )
@@ -14236,7 +14236,7 @@ functionStmt
 (
 )
 {
-JSAtom
+PropertyName
 *
 name
 =
@@ -14264,6 +14264,11 @@ currentToken
 )
 .
 t_atom
+-
+>
+asPropertyName
+(
+)
 ;
 }
 else
@@ -14327,7 +14332,7 @@ functionExpr
 (
 )
 {
-JSAtom
+PropertyName
 *
 name
 =
@@ -14354,6 +14359,11 @@ currentToken
 )
 .
 t_atom
+-
+>
+asPropertyName
+(
+)
 ;
 else
 tokenStream
@@ -15039,6 +15049,11 @@ CheckStrictBinding
 cx
 tc
 atom
+-
+>
+asPropertyName
+(
+)
 pn
 )
 )
@@ -15487,9 +15502,9 @@ pn
 JSCodeGenerator
 *
 cg
-JSAtom
+PropertyName
 *
-atom
+name
 )
 {
 GlobalScope
@@ -15550,7 +15565,7 @@ names
 .
 lookupForAdd
 (
-atom
+name
 )
 ;
 if
@@ -15588,10 +15603,7 @@ globalObj
 lookupProperty
 (
 cx
-ATOM_TO_JSID
-(
-atom
-)
+name
 &
 holder
 &
@@ -15716,7 +15728,7 @@ GlobalScope
 :
 GlobalDef
 (
-atom
+name
 funbox
 )
 ;
@@ -15760,7 +15772,7 @@ names
 add
 (
 p
-atom
+name
 index
 )
 )
@@ -15954,6 +15966,11 @@ pn
 -
 >
 pn_atom
+-
+>
+asPropertyName
+(
+)
 )
 ;
 }
@@ -16215,6 +16232,11 @@ CheckStrictBinding
 cx
 tc
 atom
+-
+>
+asPropertyName
+(
+)
 pn
 )
 )
