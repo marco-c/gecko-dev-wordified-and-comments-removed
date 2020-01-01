@@ -891,6 +891,9 @@ GreD
 #
 ifdef
 XP_WIN
+#
+ifndef
+WINCE
 const
 KEY_UPDROOT
 =
@@ -905,6 +908,8 @@ KEY_UAPPDATA
 UAppData
 "
 ;
+#
+endif
 #
 endif
 const
@@ -1918,6 +1923,9 @@ nsIFile
 #
 ifdef
 XP_WIN
+#
+ifndef
+WINCE
 if
 (
 update
@@ -1945,6 +1953,8 @@ e
 {
 }
 }
+#
+endif
 #
 endif
 for
@@ -2677,6 +2687,9 @@ nsIFile
 #
 ifdef
 XP_WIN
+#
+ifndef
+WINCE
 try
 {
 updateDir
@@ -2698,6 +2711,8 @@ e
 )
 {
 }
+#
+endif
 #
 endif
 }
@@ -7865,6 +7880,9 @@ null
 #
 ifdef
 XP_WIN
+#
+ifndef
+WINCE
 function
 findPreviousUpdate
 (
@@ -7992,6 +8010,8 @@ findPreviousUpdate
 KEY_APPDIR
 )
 ;
+#
+endif
 #
 endif
 if
