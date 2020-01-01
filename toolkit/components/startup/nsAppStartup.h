@@ -47,6 +47,15 @@ nsIAppShell
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 if
 defined
 (
@@ -94,6 +103,7 @@ NS_TOOLKIT_APPSTARTUP_CID
 }
 class
 nsAppStartup
+MOZ_FINAL
 :
 public
 nsIAppStartup

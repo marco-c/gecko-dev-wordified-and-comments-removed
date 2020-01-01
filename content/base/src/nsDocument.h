@@ -4073,11 +4073,6 @@ mInXBLUpdate
 1
 ;
 bool
-mLoadedAsInteractiveData
-:
-1
-;
-bool
 mLockingImages
 :
 1

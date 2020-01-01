@@ -3269,9 +3269,6 @@ columnExtent
 =
 0
 ;
-nsresult
-rv
-=
 tableLayout
 -
 >
@@ -3346,9 +3343,6 @@ rowExtent
 =
 0
 ;
-nsresult
-rv
-=
 tableLayout
 -
 >

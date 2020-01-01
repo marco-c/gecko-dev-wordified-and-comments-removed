@@ -3706,6 +3706,15 @@ text
 ;
 static
 void
+GetOSText
+(
+nsAString
+&
+text
+)
+;
+static
+void
 GetAltText
 (
 nsAString
@@ -4347,6 +4356,11 @@ static
 nsString
 *
 sMetaText
+;
+static
+nsString
+*
+sOSText
 ;
 static
 nsString

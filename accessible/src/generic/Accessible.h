@@ -2069,6 +2069,13 @@ kMeta
 =
 8
 ;
+static
+const
+PRUint32
+kOS
+=
+16
+;
 KeyBinding
 (
 )

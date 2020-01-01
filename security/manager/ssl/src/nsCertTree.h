@@ -95,6 +95,15 @@ nsCertOverrideService
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 typedef
 struct
 treeArrayElStr
@@ -154,6 +163,7 @@ entry
 ;
 class
 nsCertAddonInfo
+MOZ_FINAL
 :
 public
 nsISupports
