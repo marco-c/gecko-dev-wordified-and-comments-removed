@@ -290,13 +290,6 @@ GetOn
 #
 _lowercase
 (
-JSContext
-*
-/
-*
-unused
-*
-/
 )
 \
 {

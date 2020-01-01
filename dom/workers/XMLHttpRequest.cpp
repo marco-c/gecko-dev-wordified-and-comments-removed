@@ -8306,8 +8306,6 @@ XMLHttpRequest
 :
 GetResponse
 (
-JSContext
-*
 ErrorResult
 &
 aRv

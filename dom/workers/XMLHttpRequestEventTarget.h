@@ -85,13 +85,6 @@ GetOn
 #
 _type
 (
-JSContext
-*
-/
-*
-unused
-*
-/
 ErrorResult
 &
 aRv
@@ -121,13 +114,6 @@ SetOn
 #
 _type
 (
-JSContext
-*
-/
-*
-unused
-*
-/
 JSObject
 *
 aListener
