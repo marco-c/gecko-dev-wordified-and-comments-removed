@@ -3502,6 +3502,12 @@ width
 50
 %
 ;
+pointer
+-
+events
+:
+none
+;
 }
 statuspanel
 :
@@ -3624,12 +3630,6 @@ none
 opacity
 :
 0
-;
-pointer
--
-events
-:
-none
 ;
 }
 statuspanel
