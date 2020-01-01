@@ -3664,6 +3664,9 @@ if
 (
 !
 mStopped
+&
+&
+window
 )
 {
 window
