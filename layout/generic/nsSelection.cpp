@@ -19365,7 +19365,7 @@ cnt
 0
 )
 return
-NS_ERROR_FAILURE
+NS_ERROR_DOM_INVALID_STATE_ERR
 ;
 nsIRange
 *
@@ -19438,7 +19438,7 @@ cnt
 0
 )
 return
-NS_ERROR_FAILURE
+NS_ERROR_DOM_INVALID_STATE_ERR
 ;
 nsIRange
 *

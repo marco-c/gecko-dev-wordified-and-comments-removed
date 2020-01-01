@@ -790,6 +790,10 @@ test_bug589621
 .
 html
 \
+test_bug589623
+.
+html
+\
 (
 srcdir
 )
