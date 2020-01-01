@@ -5300,6 +5300,10 @@ titlebar
 args
 )
 ;
+if
+(
+blocklistWindow
+)
 blocklistWindow
 .
 addEventListener
