@@ -2120,7 +2120,7 @@ label
 =
 "
 &
-FHRSection
+healthReportSection
 .
 label
 ;
@@ -2131,7 +2131,7 @@ label
 description
 >
 &
-FHRDesc
+healthReportDesc
 .
 label
 ;
@@ -2163,7 +2163,7 @@ label
 =
 "
 &
-enableFHR
+enableHealthReport
 .
 label
 ;
@@ -2172,7 +2172,7 @@ accesskey
 =
 "
 &
-enableFHR
+enableHealthReport
 .
 accesskey
 ;
@@ -2206,7 +2206,7 @@ value
 =
 "
 &
-FHRLearnMore
+healthReportLearnMore
 .
 label
 ;
