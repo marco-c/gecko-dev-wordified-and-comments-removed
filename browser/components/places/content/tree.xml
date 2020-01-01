@@ -611,6 +611,13 @@ in
 PO_init
 (
 )
+if
+(
+this
+.
+place
+)
+{
 var
 self
 =
@@ -634,6 +641,7 @@ place
 0
 )
 ;
+}
 ]
 ]
 >
