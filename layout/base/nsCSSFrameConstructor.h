@@ -915,6 +915,9 @@ aParentFrame
 nsIContent
 *
 aContent
+nsFrameConstructorState
+*
+aState
 )
 ;
 already_AddRefed
@@ -929,6 +932,9 @@ aParentStyleContext
 nsIContent
 *
 aContent
+nsFrameConstructorState
+*
+aState
 )
 ;
 nsresult
