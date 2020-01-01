@@ -13342,6 +13342,10 @@ CanActivateAutoplay
 )
 {
 return
+!
+mPausedForInactiveDocumentOrChannel
+&
+&
 mAutoplaying
 &
 &
