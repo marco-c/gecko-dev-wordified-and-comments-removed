@@ -445,7 +445,7 @@ tests
 mochi
 \
 \
-worker_test_osfile_unix
+worker_test_osfile_win
 .
 js
 "
@@ -861,7 +861,7 @@ tests
 mochi
 \
 \
-worker_test_osfile_unix
+worker_test_osfile_win
 .
 js
 "
