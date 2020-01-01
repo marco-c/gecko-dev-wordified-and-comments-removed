@@ -44,7 +44,8 @@ aPropertiesArray
 )
 ;
 static
-nsresult
+nsIContent
+*
 GetImmediateChild
 (
 nsIContent
@@ -53,14 +54,11 @@ aContainer
 nsIAtom
 *
 aTag
-nsIContent
-*
-*
-aResult
 )
 ;
 static
-nsresult
+nsIContent
+*
 GetDescendantChild
 (
 nsIContent
@@ -69,10 +67,6 @@ aContainer
 nsIAtom
 *
 aTag
-nsIContent
-*
-*
-aResult
 )
 ;
 static
