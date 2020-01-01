@@ -393,9 +393,6 @@ automationutils
 py
 :
 (
-INSTALL
-)
-(
 MOZILLA_DIR
 )
 /
@@ -404,6 +401,10 @@ build
 automationutils
 .
 py
+(
+INSTALL
+)
+<
 .
 automation
 .
