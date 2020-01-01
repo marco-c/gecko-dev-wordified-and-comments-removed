@@ -1739,6 +1739,14 @@ ShouldBlockLoadingForBackButton
 (
 )
 ;
+already_AddRefed
+<
+nsDocShell
+>
+GetParentDocshell
+(
+)
+;
 protected
 :
 virtual
