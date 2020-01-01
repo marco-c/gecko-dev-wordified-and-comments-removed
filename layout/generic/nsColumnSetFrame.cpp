@@ -1299,7 +1299,7 @@ const
 PRUint32
 MAX_NESTED_COLUMN_BALANCING
 =
-5
+2
 ;
 PRUint32
 cnt
