@@ -86,9 +86,7 @@ com
 "
 testing
 "
-Ci
-.
-nsIPermissionManager
+pm
 .
 ALLOW_ACTION
 )
