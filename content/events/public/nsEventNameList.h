@@ -411,6 +411,13 @@ NS_EVENT_NULL
 )
 EVENT
 (
+mozfullscreenerror
+NS_FULLSCREENERROR
+EventNameType_HTML
+NS_EVENT_NULL
+)
+EVENT
+(
 pause
 NS_PAUSE
 EventNameType_HTML
