@@ -1284,7 +1284,7 @@ if
 mViewManager
 -
 >
-IsRefreshEnabled
+IsPaintingAllowed
 (
 )
 )

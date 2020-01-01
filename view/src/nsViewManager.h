@@ -670,7 +670,7 @@ RootViewManager
 ;
 }
 bool
-IsRefreshEnabled
+IsPaintingAllowed
 (
 )
 {
