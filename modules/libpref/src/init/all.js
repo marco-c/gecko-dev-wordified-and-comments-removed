@@ -5728,7 +5728,7 @@ websocket
 .
 enabled
 "
-false
+true
 )
 ;
 pref
