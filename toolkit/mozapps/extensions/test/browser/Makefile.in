@@ -589,6 +589,10 @@ browser_updateid
 .
 js
 \
+browser_purchase
+.
+js
+\
 (
 NULL
 )
@@ -662,6 +666,10 @@ browser_install1_3
 xpi
 \
 browser_eula
+.
+xml
+\
+browser_purchase
 .
 xml
 \
