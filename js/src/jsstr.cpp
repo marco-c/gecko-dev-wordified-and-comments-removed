@@ -558,7 +558,7 @@ wholeCapacity
 if
 (
 !
-wholeCapacity
+wholeChars
 )
 return
 NULL
