@@ -439,12 +439,8 @@ VMPI_sprintf
 outline
 "
 %
-010lx
+p
 "
-(
-unsigned
-long
-)
 _nIns
 )
 ;
