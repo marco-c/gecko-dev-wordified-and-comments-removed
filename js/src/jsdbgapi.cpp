@@ -3218,9 +3218,7 @@ regs
 .
 sp
 =
-frame
-.
-slots
+NULL
 ;
 frame
 .
