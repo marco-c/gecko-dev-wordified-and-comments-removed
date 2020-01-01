@@ -319,6 +319,10 @@ test_bug720619
 .
 html
 \
+test_bug731471
+.
+html
+\
 file_bug738244
 .
 html
