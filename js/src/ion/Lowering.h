@@ -722,6 +722,14 @@ ins
 )
 ;
 bool
+visitThrow
+(
+MThrow
+*
+ins
+)
+;
+bool
 visitGuardObject
 (
 MGuardObject

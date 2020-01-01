@@ -429,6 +429,14 @@ lir
 )
 ;
 bool
+visitThrow
+(
+LThrow
+*
+lir
+)
+;
+bool
 visitCheckOverRecursed
 (
 LCheckOverRecursed

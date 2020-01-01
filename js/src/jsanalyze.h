@@ -2700,6 +2700,7 @@ bool
 OOM
 (
 )
+const
 {
 return
 outOfMemory
@@ -2709,6 +2710,7 @@ bool
 failed
 (
 )
+const
 {
 return
 hadFailure
@@ -2717,9 +2719,20 @@ hadFailure
 bool
 inlineable
 (
+)
+const
+{
+return
+isInlineable
+;
+}
+bool
+inlineable
+(
 uint32_t
 argc
 )
+const
 {
 return
 isInlineable

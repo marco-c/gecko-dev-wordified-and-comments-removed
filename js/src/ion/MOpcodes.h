@@ -164,6 +164,11 @@ Return
 \
 _
 (
+Throw
+)
+\
+_
+(
 Copy
 )
 \
