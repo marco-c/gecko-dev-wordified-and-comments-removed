@@ -13743,10 +13743,6 @@ suspected
 return
 ;
 }
-sPreviousSuspectedCount
-=
-suspected
-;
 PRTime
 startTime
 ;
@@ -13763,6 +13759,12 @@ PR_Now
 ;
 }
 nsCycleCollector_forgetSkippable
+(
+)
+;
+sPreviousSuspectedCount
+=
+nsCycleCollector_suspectedCount
 (
 )
 ;
@@ -13819,9 +13821,7 @@ sRemovedPurples
 (
 suspected
 -
-nsCycleCollector_suspectedCount
-(
-)
+sPreviousSuspectedCount
 )
 ;
 +
