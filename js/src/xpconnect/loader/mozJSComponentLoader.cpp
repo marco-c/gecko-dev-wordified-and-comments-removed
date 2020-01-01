@@ -913,6 +913,12 @@ base64StrLength
 ;
 if
 (
+base64StrLength
+>
+=
+1
+&
+&
 base64Str
 [
 base64StrLength
@@ -928,6 +934,12 @@ base64StrLength
 {
 if
 (
+base64StrLength
+>
+=
+2
+&
+&
 base64Str
 [
 base64StrLength
