@@ -109,13 +109,7 @@ Create
 a
 GTest
 library
-MODULE_NAME
-=
-gfxtest
 LIBXUL_LIBRARY
-=
-1
-IS_COMPONENT
 =
 1
 EXPORT_LIBRARY

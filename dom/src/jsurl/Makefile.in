@@ -80,9 +80,6 @@ config
 autoconf
 .
 mk
-MODULE_NAME
-=
-javascript__protocol
 LIBXUL_LIBRARY
 =
 1

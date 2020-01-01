@@ -76,12 +76,6 @@ config
 autoconf
 .
 mk
-IS_COMPONENT
-=
-1
-MODULE_NAME
-=
-Browser_Embedding_Module
 EXPORT_LIBRARY
 =
 1

@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-MODULE_NAME
-=
-imgEncoderICOModule
 LIBXUL_LIBRARY
 =
 1
