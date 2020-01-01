@@ -93,6 +93,17 @@ xhtml
 #
 bug
 470868
+random
+-
+if
+(
+MOZ_WIDGET_TOOLKIT
+=
+=
+"
+cocoa
+"
+)
 =
 =
 deferred
@@ -111,6 +122,9 @@ anim
 ref
 .
 xhtml
+#
+bug
+524098
 =
 =
 deferred
