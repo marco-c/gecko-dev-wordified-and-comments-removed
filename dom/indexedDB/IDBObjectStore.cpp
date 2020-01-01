@@ -122,7 +122,7 @@ h
 #
 include
 "
-IDBCursorRequest
+IDBCursor
 .
 h
 "
@@ -8490,11 +8490,11 @@ OK
 }
 nsRefPtr
 <
-IDBCursorRequest
+IDBCursor
 >
 cursor
 =
-IDBCursorRequest
+IDBCursor
 :
 :
 Create

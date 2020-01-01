@@ -45,7 +45,7 @@ h
 #
 include
 "
-IDBCursorRequest
+IDBCursor
 .
 h
 "

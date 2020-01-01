@@ -716,7 +716,7 @@ IDBTransactionEvent
 result
 =
 =
-IDBCursorRequest
+IDBCursor
 or
 /
 /

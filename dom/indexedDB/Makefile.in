@@ -458,7 +458,7 @@ DatabaseInfo
 .
 cpp
 \
-IDBCursorRequest
+IDBCursor
 .
 cpp
 \
@@ -512,7 +512,7 @@ dom
 indexedDB
 =
 \
-IDBCursorRequest
+IDBCursor
 .
 h
 \
@@ -633,10 +633,6 @@ XPIDLSRCS
 =
 \
 nsIIDBCursor
-.
-idl
-\
-nsIIDBCursorRequest
 .
 idl
 \
