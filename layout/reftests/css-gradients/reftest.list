@@ -591,6 +591,12 @@ html
 #
 bug
 582236
+fails
+-
+if
+(
+d2d
+)
 =
 =
 linear
@@ -609,6 +615,9 @@ repeat
 ref
 .
 html
+#
+bug
+582236
 fails
 -
 if
