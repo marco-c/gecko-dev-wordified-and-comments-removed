@@ -14614,11 +14614,16 @@ js_FlushPropertyCache
 cx
 )
 ;
+#
+ifdef
+JS_TRACER
 js_FlushJITCache
 (
 cx
 )
 ;
+#
+endif
 #
 ifdef
 JS_THREADSAFE
