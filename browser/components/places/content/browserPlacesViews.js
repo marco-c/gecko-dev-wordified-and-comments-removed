@@ -2725,7 +2725,7 @@ this
 .
 _getDOMNodeForPlacesNode
 (
-aPlacesNode
+aParentPlacesNode
 )
 ;
 let
