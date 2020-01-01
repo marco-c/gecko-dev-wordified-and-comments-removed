@@ -460,6 +460,7 @@ CERTOCSPCertID
 *
 cert_DupOCSPCertID
 (
+const
 CERTOCSPCertID
 *
 src
@@ -3908,6 +3909,8 @@ the
 response
 is
 not
+"
+"
 newer
 than
 the
@@ -6790,6 +6793,7 @@ CERTOCSPCertID
 *
 cert_DupOCSPCertID
 (
+const
 CERTOCSPCertID
 *
 src
@@ -6866,11 +6870,9 @@ src
 element
 .
 data
-)
-{
+&
+&
 \
-if
-(
 SECITEM_CopyItem
 (
 arena
@@ -6890,6 +6892,7 @@ element
 =
 SECSuccess
 )
+{
 \
 goto
 loser
