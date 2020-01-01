@@ -661,6 +661,12 @@ ID3D10Texture2D
 >
 mRemoteFrontBuffer
 ;
+nsRefPtr
+<
+DummyRoot
+>
+mRootForShadowTree
+;
 void
 PaintToTarget
 (
