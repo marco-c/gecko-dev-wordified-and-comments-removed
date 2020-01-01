@@ -333,6 +333,10 @@ Mach
 (
 our_dir
 )
+sys
+.
+exit
+(
 mach
 .
 run
@@ -344,4 +348,5 @@ argv
 1
 :
 ]
+)
 )
