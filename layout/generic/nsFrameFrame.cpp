@@ -1588,6 +1588,12 @@ aDesiredSize
 aReflowState
 )
 ;
+FinishAndStoreOverflow
+(
+&
+aDesiredSize
+)
+;
 nsRect
 rect
 (
