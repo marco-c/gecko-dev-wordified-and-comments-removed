@@ -2845,6 +2845,13 @@ nsIWebGLActiveInfo
 '
 nsICanvasRenderingContextWebGL
 '
+'
+nsIWebGLUniformLocation
+'
+:
+'
+nsICanvasRenderingContextWebGL
+'
 }
 customIncludes
 =
