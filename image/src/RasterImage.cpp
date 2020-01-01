@@ -2989,6 +2989,11 @@ rv
 =
 NS_OK
 ;
+if
+(
+mDecoded
+)
+{
 PRUint32
 desiredDecodeFlags
 =
@@ -3040,6 +3045,7 @@ mFrameDecodeFlags
 =
 desiredDecodeFlags
 ;
+}
 }
 if
 (
