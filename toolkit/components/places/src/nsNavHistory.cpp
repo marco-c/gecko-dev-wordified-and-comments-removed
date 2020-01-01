@@ -2681,6 +2681,9 @@ rv
 historyFile
 )
 {
+(
+void
+)
 ImportHistory
 (
 historyFile
