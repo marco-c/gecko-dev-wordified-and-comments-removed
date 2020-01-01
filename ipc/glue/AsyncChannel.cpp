@@ -367,7 +367,7 @@ aChan
 )
 mExistingListener
 (
-NULL
+nullptr
 )
 {
 }
@@ -1066,11 +1066,11 @@ false
 )
 mChannelErrorTask
 (
-NULL
+nullptr
 )
 mLink
 (
-NULL
+nullptr
 )
 mWorkerLoopID
 (
@@ -2007,7 +2007,7 @@ AssertNotCurrentThreadOwns
 ;
 mChannelErrorTask
 =
-NULL
+nullptr
 ;
 {
 MonitorAutoLock
@@ -2184,7 +2184,7 @@ Cancel
 ;
 mChannelErrorTask
 =
-NULL
+nullptr
 ;
 }
 }

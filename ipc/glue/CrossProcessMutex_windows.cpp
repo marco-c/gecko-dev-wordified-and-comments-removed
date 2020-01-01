@@ -58,9 +58,9 @@ mMutex
 :
 CreateMutexA
 (
-NULL
+nullptr
 FALSE
-NULL
+nullptr
 )
 ;
 if
@@ -277,7 +277,7 @@ succeeded
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return

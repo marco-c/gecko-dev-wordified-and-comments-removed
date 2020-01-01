@@ -2819,7 +2819,7 @@ aResult
 >
 data
 =
-NULL
+nullptr
 ;
 }
 return

@@ -87,14 +87,14 @@ ID_COUNT
 ]
 =
 {
-NULL
+nullptr
 #
 if
 defined
 (
 OS_LINUX
 )
-NULL
+nullptr
 #
 endif
 }
@@ -124,7 +124,7 @@ aId
 )
 mNotificationService
 (
-NULL
+nullptr
 )
 {
 AutoLock
@@ -154,7 +154,7 @@ aId
 ]
 =
 =
-NULL
+nullptr
 )
 ;
 sBrowserThreads
@@ -189,7 +189,7 @@ sBrowserThreads
 mIdentifier
 ]
 =
-NULL
+nullptr
 ;
 }
 }
@@ -209,7 +209,7 @@ OS_WIN
 )
 CoInitialize
 (
-NULL
+nullptr
 )
 ;
 #
@@ -235,7 +235,7 @@ mNotificationService
 ;
 mNotificationService
 =
-NULL
+nullptr
 ;
 #
 if
@@ -299,7 +299,7 @@ message_loop
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 }

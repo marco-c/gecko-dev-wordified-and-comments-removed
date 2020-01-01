@@ -335,7 +335,7 @@ return
 mSegment
 !
 =
-NULL
+nullptr
 ;
 }
 bool
@@ -348,7 +348,7 @@ return
 mSegment
 !
 =
-NULL
+nullptr
 ;
 }
 template
