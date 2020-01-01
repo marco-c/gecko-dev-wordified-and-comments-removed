@@ -171,6 +171,9 @@ mListener
 nsCString
 mCategory
 ;
+bool
+mObserversRemoved
+;
 }
 ;
 template
