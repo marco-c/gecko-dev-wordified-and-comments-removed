@@ -766,6 +766,15 @@ licenses
 /
 snappy
 ifdef
+MOZ_GIO_COMPONENT
+tier_platform_dirs
++
+=
+extensions
+/
+gio
+endif
+ifdef
 APP_LIBXUL_STATICDIRS
 #
 Applications
