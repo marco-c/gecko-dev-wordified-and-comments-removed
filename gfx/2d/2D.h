@@ -1737,6 +1737,8 @@ IntSize
 aSize
 SurfaceFormat
 aFormat
+float
+aSigma
 )
 const
 {
