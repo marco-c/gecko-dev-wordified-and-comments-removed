@@ -8066,6 +8066,9 @@ merge
 (
 self
 other
+sanitycheck
+=
+True
 )
 :
         
@@ -8084,6 +8087,24 @@ other
 into
 this
 typelib
+.
+        
+If
+|
+sanitycheck
+|
+is
+False
+don
+'
+t
+sort
+the
+interface
+table
+        
+after
+merging
 .
         
 "
@@ -8524,6 +8545,10 @@ replaced_from
 replaced_to
 )
         
+if
+sanitycheck
+:
+            
 self
 .
 _sanityCheck
@@ -9258,6 +9283,9 @@ t1
 merge
 (
 t2
+sanitycheck
+=
+False
 )
     
 t1
