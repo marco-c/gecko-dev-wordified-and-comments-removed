@@ -531,8 +531,6 @@ MOZ_OVERRIDE
 NS_IMETHOD
 SaveState
 (
-SpecialStateID
-aStateID
 nsPresState
 *
 *

@@ -764,11 +764,6 @@ nsPresState
 *
 SaveState
 (
-nsIStatefulFrame
-:
-:
-SpecialStateID
-aStateID
 )
 ;
 void
@@ -2122,8 +2117,6 @@ UpdateOverflow
 NS_IMETHOD
 SaveState
 (
-SpecialStateID
-aStateID
 nsPresState
 *
 *
@@ -2143,7 +2136,6 @@ mInner
 .
 SaveState
 (
-aStateID
 )
 ;
 return
@@ -3207,8 +3199,6 @@ UpdateOverflow
 NS_IMETHOD
 SaveState
 (
-SpecialStateID
-aStateID
 nsPresState
 *
 *
@@ -3228,7 +3218,6 @@ mInner
 .
 SaveState
 (
-aStateID
 )
 ;
 return

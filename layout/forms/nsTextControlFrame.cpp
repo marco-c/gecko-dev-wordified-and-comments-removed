@@ -6368,11 +6368,6 @@ nsTextControlFrame
 :
 SaveState
 (
-nsIStatefulFrame
-:
-:
-SpecialStateID
-aStateID
 nsPresState
 *
 *
@@ -6456,7 +6451,6 @@ scrollStateFrame
 >
 SaveState
 (
-aStateID
 aState
 )
 ;

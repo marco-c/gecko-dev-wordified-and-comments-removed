@@ -668,8 +668,6 @@ GetRollupWidget
 NS_IMETHOD
 SaveState
 (
-SpecialStateID
-aStateID
 nsPresState
 *
 *
