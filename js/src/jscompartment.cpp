@@ -312,6 +312,11 @@ JSCompartment
 (
 )
 {
+FreeScriptFilenames
+(
+this
+)
+;
 #
 ifdef
 JS_METHODJIT
