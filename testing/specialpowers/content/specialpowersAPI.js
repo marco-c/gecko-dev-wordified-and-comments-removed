@@ -6221,6 +6221,9 @@ fireSuccess
 "
 fireDone
 "
+"
+fireDetailedError
+"
 ]
 ;
 for

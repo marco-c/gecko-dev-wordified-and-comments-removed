@@ -94,6 +94,9 @@ MPL
 interface
 Window
 ;
+interface
+nsISupports
+;
 enum
 DOMRequestReadyState
 {
@@ -122,7 +125,7 @@ result
 ;
 readonly
 attribute
-DOMError
+nsISupports
 ?
 error
 ;
