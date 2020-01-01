@@ -672,6 +672,14 @@ bool
 aGettingFocus
 )
 ;
+void
+SetFocusedWindowInternal
+(
+nsPIDOMWindow
+*
+aWindow
+)
+;
 nsCOMPtr
 <
 nsPIDOMWindow

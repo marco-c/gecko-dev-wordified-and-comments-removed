@@ -611,6 +611,17 @@ Fullscreen
 <
 !
 ENTITY
+permPointerLock
+"
+Hide
+the
+Mouse
+Cursor
+"
+>
+<
+!
+ENTITY
 permIndexedDB
 "
 Maintain

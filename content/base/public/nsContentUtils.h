@@ -3649,6 +3649,15 @@ aDoc
 )
 ;
 static
+bool
+IsInPointerLockContext
+(
+nsIDOMWindow
+*
+aWin
+)
+;
+static
 TimeDuration
 HandlingUserInputTimeout
 (

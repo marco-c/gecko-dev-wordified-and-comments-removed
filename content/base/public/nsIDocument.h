@@ -2033,6 +2033,11 @@ static
 void
 UnlockPointer
 (
+nsIDocument
+*
+aDoc
+=
+nullptr
 )
 ;
 virtual
@@ -5002,6 +5007,7 @@ MozExitPointerLock
 {
 UnlockPointer
 (
+this
 )
 ;
 }

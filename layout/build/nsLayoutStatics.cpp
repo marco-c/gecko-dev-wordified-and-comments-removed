@@ -661,6 +661,13 @@ nsIMEStateManager
 .
 h
 "
+#
+include
+"
+nsDocument
+.
+h
+"
 extern
 void
 NS_ShutdownEventTargetChainItemRecyclePool
@@ -1886,6 +1893,13 @@ nsRefreshDriver
 :
 :
 Shutdown
+(
+)
+;
+nsDocument
+:
+:
+XPCOMShutdown
 (
 )
 ;
