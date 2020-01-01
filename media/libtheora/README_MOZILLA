@@ -163,3 +163,16 @@ libtheora
 svn
 r16143
 .
+bug498824
+.
+patch
+:
+Fix
+for
+this
+bug
+from
+libtheora
+thusnelda
+branch
+.
