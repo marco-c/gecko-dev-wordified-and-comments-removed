@@ -12,8 +12,8 @@ png
 h
 "
 typedef
-version_1_2_22
-Your_png_h_is_not_version_1_2_22
+version_1_2_23
+Your_png_h_is_not_version_1_2_23
 ;
 #
 ifdef
@@ -3070,10 +3070,10 @@ version
 .
 2
 .
-22
+23
 -
-October
-13
+November
+6
 2007
 \
 n

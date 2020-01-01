@@ -1490,6 +1490,9 @@ intent
 =
 INTENT_PERCEPTUAL
 ;
+#
+ifndef
+PNG_NO_READ_iCCP
 if
 (
 png_get_valid
@@ -1641,6 +1644,11 @@ profile
 ;
 }
 }
+#
+endif
+#
+ifndef
+PNG_NO_READ_sRGB
 if
 (
 !
@@ -1699,6 +1707,8 @@ fileIntent
 ;
 }
 }
+#
+endif
 if
 (
 !
@@ -1767,6 +1777,9 @@ primaries
 }
 }
 ;
+#
+ifndef
+PNG_NO_READ_cHRM
 if
 (
 png_get_valid
@@ -1854,6 +1867,8 @@ Y
 0
 ;
 }
+#
+endif
 double
 gammaOfFile
 ;

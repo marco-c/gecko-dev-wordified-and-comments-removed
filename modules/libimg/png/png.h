@@ -12,7 +12,7 @@ PNG_LIBPNG_VER_STRING
 .
 2
 .
-22
+23
 "
 #
 define
@@ -25,10 +25,10 @@ version
 .
 2
 .
-22
+23
 -
-October
-13
+November
+6
 2007
 \
 n
@@ -52,7 +52,7 @@ PNG_LIBPNG_VER_MINOR
 #
 define
 PNG_LIBPNG_VER_RELEASE
-22
+23
 #
 define
 PNG_LIBPNG_VER_BUILD
@@ -130,14 +130,14 @@ PNG_LIBPNG_BUILD_STABLE
 #
 define
 PNG_LIBPNG_VER
-10222
+10223
 /
 *
 1
 .
 2
 .
-22
+23
 *
 /
 #
@@ -806,6 +806,10 @@ defined
 (
 PNG_UNKNOWN_CHUNKS_SUPPORTED
 )
+#
+define
+PNG_CHUNK_NAME_LENGTH
+5
 typedef
 struct
 png_unknown_chunk_t
@@ -813,7 +817,7 @@ png_unknown_chunk_t
 png_byte
 name
 [
-5
+PNG_CHUNK_NAME_LENGTH
 ]
 ;
 png_byte
@@ -3235,7 +3239,7 @@ endif
 ;
 typedef
 png_structp
-version_1_2_22
+version_1_2_23
 ;
 typedef
 png_struct

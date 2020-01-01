@@ -17,10 +17,10 @@ version
 .
 2
 .
-22
+23
 -
-October
-13
+November
+6
 2007
 Updated
 and
@@ -21002,8 +21002,8 @@ Y2K
 Compliance
 in
 libpng
-October
-13
+November
+6
 2007
 Since
 the
@@ -21044,7 +21044,7 @@ through
 .
 2
 .
-22
+23
 are
 Y2K
 compliant
