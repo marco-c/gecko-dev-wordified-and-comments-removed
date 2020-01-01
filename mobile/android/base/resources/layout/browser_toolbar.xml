@@ -332,13 +332,6 @@ tabs_level
 "
 android
 :
-paddingTop
-=
-"
-3dip
-"
-android
-:
 paddingLeft
 =
 "
@@ -379,7 +372,9 @@ android
 layout_width
 =
 "
-46dip
+44
+.
+5dip
 "
 android
 :
@@ -393,7 +388,7 @@ android
 layout_marginTop
 =
 "
-4dp
+5dp
 "
 android
 :
