@@ -1898,6 +1898,9 @@ mCalledClose
 bool
 mCalledCloseWithError
 ;
+bool
+mCalledKillHard
+;
 friend
 class
 CrashReporterParent
