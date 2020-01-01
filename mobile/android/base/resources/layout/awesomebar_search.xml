@@ -496,6 +496,15 @@ drawable
 /
 ic_awesomebar_go
 "
+android
+:
+contentDescription
+=
+"
+string
+/
+go
+"
 /
 >
 <
