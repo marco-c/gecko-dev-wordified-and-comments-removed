@@ -697,13 +697,6 @@ PRUint32
 aState
 )
 ;
-NS_IMETHOD
-SetAcceleratedRendering
-(
-PRBool
-aEnabled
-)
-;
 void
 QWidgetDestroyed
 (
