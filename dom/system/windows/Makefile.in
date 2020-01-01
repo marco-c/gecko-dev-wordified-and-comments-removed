@@ -470,6 +470,10 @@ nsDeviceMotionSystem
 .
 cpp
 \
+nsHapticFeedback
+.
+cpp
+\
 (
 NULL
 )
