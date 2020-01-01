@@ -7511,6 +7511,7 @@ sn
 JS_GET_SCRIPT_ATOM
 (
 script
+NULL
 index
 atom
 )
