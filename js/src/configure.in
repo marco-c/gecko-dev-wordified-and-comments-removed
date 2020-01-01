@@ -16831,7 +16831,7 @@ LIBXUL_DIST
 /
 lib
 /
-xpcomcor
+xpcom_core
 .
 lib
 '

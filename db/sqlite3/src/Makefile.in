@@ -442,6 +442,9 @@ sqlite3
 LIBRARY_NAME
 =
 mozsqlite3
+SHORT_LIBNAME
+=
+mozsqlt3
 FORCE_SHARED_LIB
 =
 1
