@@ -2376,7 +2376,7 @@ error
 gl
 -
 >
-fGetError
+GetAndClearError
 (
 )
 ;
@@ -2628,7 +2628,7 @@ error
 gl
 -
 >
-fGetError
+GetAndClearError
 (
 )
 ;
