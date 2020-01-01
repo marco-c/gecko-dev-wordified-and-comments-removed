@@ -1160,6 +1160,13 @@ pthread
 .
 h
 >
+#
+include
+<
+stdlib
+.
+h
+>
 void
 *
 foo
