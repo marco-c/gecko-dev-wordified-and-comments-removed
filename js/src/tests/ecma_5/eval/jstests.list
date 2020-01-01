@@ -181,7 +181,6 @@ as
 needed
 .
 #
-#
 script
 exhaustive
 -
@@ -194,7 +193,6 @@ direct
 normalcode
 .
 js
-#
 script
 exhaustive
 -
@@ -207,7 +205,6 @@ direct
 strictcode
 .
 js
-#
 script
 exhaustive
 -
@@ -220,7 +217,6 @@ indirect
 normalcode
 .
 js
-#
 script
 exhaustive
 -
@@ -233,7 +229,6 @@ indirect
 strictcode
 .
 js
-#
 script
 exhaustive
 -
@@ -246,7 +241,6 @@ direct
 normalcode
 .
 js
-#
 script
 exhaustive
 -
@@ -259,7 +253,6 @@ direct
 strictcode
 .
 js
-#
 script
 exhaustive
 -
@@ -272,7 +265,6 @@ indirect
 normalcode
 .
 js
-#
 script
 exhaustive
 -
@@ -285,7 +277,6 @@ indirect
 strictcode
 .
 js
-#
 script
 exhaustive
 -
@@ -298,7 +289,6 @@ direct
 normalcode
 .
 js
-#
 script
 exhaustive
 -
@@ -311,7 +301,6 @@ direct
 strictcode
 .
 js
-#
 script
 exhaustive
 -
@@ -324,7 +313,6 @@ indirect
 normalcode
 .
 js
-#
 script
 exhaustive
 -
@@ -337,7 +325,6 @@ indirect
 strictcode
 .
 js
-#
 script
 exhaustive
 -
@@ -350,7 +337,6 @@ direct
 normalcode
 .
 js
-#
 script
 exhaustive
 -
@@ -363,7 +349,6 @@ direct
 strictcode
 .
 js
-#
 script
 exhaustive
 -
@@ -376,7 +361,6 @@ indirect
 normalcode
 .
 js
-#
 script
 exhaustive
 -
