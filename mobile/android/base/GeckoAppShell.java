@@ -1645,12 +1645,6 @@ String
 type
 )
 {
-Looper
-.
-prepare
-(
-)
-;
 GeckoAppShell
 .
 nativeInit
