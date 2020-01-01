@@ -487,10 +487,6 @@ NULL
 EXPORTS
 =
 \
-nsCompressedCharMap
-.
-h
-\
 nsBidiUtils
 .
 h
