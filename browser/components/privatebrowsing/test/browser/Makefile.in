@@ -493,10 +493,6 @@ browser_privatebrowsing_windowtitle_page
 .
 html
 \
-browser_privatebrowsing_sslsite_transition
-.
-js
-\
 (
 NULL
 )
