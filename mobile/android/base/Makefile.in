@@ -140,6 +140,10 @@ ActivityResultHandlerMap
 .
 java
 \
+GeckoAsyncTask
+.
+java
+\
 GeckoBackgroundThread
 .
 java
@@ -317,10 +321,6 @@ GeckoApp
 java
 \
 GeckoAppShell
-.
-java
-\
-GeckoAsyncTask
 .
 java
 \
