@@ -469,6 +469,15 @@ aState
 nsIDownloadManager
 :
 :
+DOWNLOAD_QUEUED
+|
+|
+aState
+=
+=
+nsIDownloadManager
+:
+:
 DOWNLOAD_DOWNLOADING
 ;
 }
