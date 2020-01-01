@@ -5737,7 +5737,7 @@ mQueryProcessor
 >
 TranslateRef
 (
-mDB
+mDataSource
 ref
 getter_AddRefs
 (
@@ -6663,7 +6663,7 @@ mQueryProcessor
 >
 GenerateResults
 (
-mDB
+mDataSource
 aResult
 aQuerySet
 -
@@ -7773,6 +7773,9 @@ mSortDirection
 =
 =
 eDirection_Natural
+&
+&
+mDB
 )
 {
 nsCOMPtr
