@@ -545,7 +545,7 @@ if
 (
 self
 .
-_isTabViewVisible
+isTabViewVisible
 (
 )
 )
@@ -1308,10 +1308,10 @@ makeActive
 ;
 }
 }
-_isTabViewVisible
+isTabViewVisible
 :
 function
-UI__isTabViewVisible
+UI_isTabViewVisible
 (
 )
 {
@@ -1409,7 +1409,7 @@ if
 (
 this
 .
-_isTabViewVisible
+isTabViewVisible
 (
 )
 )
@@ -1675,7 +1675,7 @@ if
 !
 this
 .
-_isTabViewVisible
+isTabViewVisible
 (
 )
 )
@@ -2070,7 +2070,7 @@ wasInTabView
 =
 self
 .
-_isTabViewVisible
+isTabViewVisible
 (
 )
 ;
@@ -2078,7 +2078,7 @@ if
 (
 self
 .
-_isTabViewVisible
+isTabViewVisible
 (
 )
 )
@@ -2306,7 +2306,7 @@ if
 (
 self
 .
-_isTabViewVisible
+isTabViewVisible
 (
 )
 )
@@ -2776,7 +2776,7 @@ if
 (
 this
 .
-_isTabViewVisible
+isTabViewVisible
 (
 )
 &
@@ -2824,7 +2824,7 @@ if
 (
 this
 .
-_isTabViewVisible
+isTabViewVisible
 (
 )
 )
@@ -3065,7 +3065,7 @@ if
 (
 this
 .
-_isTabViewVisible
+isTabViewVisible
 (
 )
 )
@@ -3114,7 +3114,7 @@ if
 !
 this
 .
-_isTabViewVisible
+isTabViewVisible
 (
 )
 )
@@ -4798,7 +4798,7 @@ force
 !
 this
 .
-_isTabViewVisible
+isTabViewVisible
 (
 )
 )
