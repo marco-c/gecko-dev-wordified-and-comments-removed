@@ -250,14 +250,6 @@ ResetElementFocus
 )
 ;
 NS_IMETHOD
-Disconnect
-(
-nsPIDOMWindow
-*
-aWindow
-)
-;
-NS_IMETHOD
 Focus
 (
 nsIDOMEvent
