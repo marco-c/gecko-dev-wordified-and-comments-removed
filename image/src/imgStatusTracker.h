@@ -503,6 +503,11 @@ aStatus
 )
 ;
 void
+OnDiscard
+(
+)
+;
+void
 RecordBlockOnload
 (
 )
