@@ -5999,7 +5999,11 @@ aURI
 POST_DATA_ANNO
 aPostData
 0
-0
+Ci
+.
+nsIAnnotationService
+.
+EXPIRE_NEVER
 )
 ;
 else
