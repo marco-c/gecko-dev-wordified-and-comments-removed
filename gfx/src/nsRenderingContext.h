@@ -132,7 +132,7 @@ return
 mDeviceContext
 ;
 }
-PRInt32
+PRUint32
 AppUnitsPerDevPixel
 (
 )

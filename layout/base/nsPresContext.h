@@ -196,6 +196,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsIWidget
 .
 h
@@ -1693,7 +1700,7 @@ AppUnitsPerCSSPixel
 )
 ;
 }
-PRInt32
+PRUint32
 AppUnitsPerDevPixel
 (
 )

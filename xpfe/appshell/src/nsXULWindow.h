@@ -487,7 +487,7 @@ PRUint32
 aDirtyFlags
 )
 ;
-PRInt32
+PRUint32
 AppUnitsPerDevPixel
 (
 )

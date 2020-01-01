@@ -288,13 +288,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsWebShellWindow
 .
 h
@@ -8978,7 +8971,7 @@ return
 NS_OK
 ;
 }
-PRInt32
+PRUint32
 nsXULWindow
 :
 :

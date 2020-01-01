@@ -132,7 +132,7 @@ return
 60
 ;
 }
-PRInt32
+PRUint32
 AppUnitsPerDevPixel
 (
 )
@@ -405,7 +405,7 @@ mHeight
 PRUint32
 mDepth
 ;
-PRInt32
+PRUint32
 mAppUnitsPerDevPixel
 ;
 PRInt32
