@@ -976,6 +976,11 @@ TokenStream
 cpp
 '
 '
+TypeRepresentation
+.
+cpp
+'
+'
 TypedArrayObject
 .
 cpp
