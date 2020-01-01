@@ -722,7 +722,7 @@ this
 _callStaticVoidMethod
 (
 aClass
-aMethodId
+aMethod
 .
 methodId
 this
