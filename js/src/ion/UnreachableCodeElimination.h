@@ -62,6 +62,11 @@ removeUnmarkedBlocksAndClearDominators
 (
 )
 ;
+bool
+removeUnmarkedBlocksAndCleanup
+(
+)
+;
 public
 :
 UnreachableCodeElimination
@@ -95,6 +100,13 @@ false
 bool
 analyze
 (
+)
+;
+bool
+removeUnmarkedBlocks
+(
+size_t
+marked
 )
 ;
 }

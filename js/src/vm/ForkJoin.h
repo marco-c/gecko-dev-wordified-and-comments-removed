@@ -13,6 +13,13 @@ ThreadPool
 .
 h
 "
+#
+include
+"
+jsgc
+.
+h
+"
 namespace
 js
 {
@@ -62,7 +69,7 @@ AutoSetForkJoinSlice
 ifdef
 DEBUG
 struct
-IonTraceData
+IonLIRTraceData
 {
 uint32_t
 bblock
@@ -124,7 +131,7 @@ abortedScript
 #
 ifdef
 DEBUG
-IonTraceData
+IonLIRTraceData
 traceData
 ;
 #
@@ -148,11 +155,6 @@ shared
 ;
 bool
 isMainThread
-(
-)
-;
-bool
-setFatal
 (
 )
 ;

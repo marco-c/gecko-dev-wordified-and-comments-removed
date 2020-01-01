@@ -2376,6 +2376,15 @@ LDefinition
 :
 GENERAL
 ;
+case
+MIRType_ForkJoinSlice
+:
+return
+LDefinition
+:
+:
+GENERAL
+;
 default
 :
 JS_NOT_REACHED
