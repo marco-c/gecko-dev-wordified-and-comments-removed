@@ -212,6 +212,12 @@ nsIDOMHTMLLinkElement
 :
 nsIDOMHTMLElement
 {
+[
+binaryname
+(
+MozDisabled
+)
+]
 attribute
 boolean
 disabled

@@ -10685,7 +10685,7 @@ if
 aSheet
 -
 >
-GetOwningNode
+GetOwnerNode
 (
 )
 |

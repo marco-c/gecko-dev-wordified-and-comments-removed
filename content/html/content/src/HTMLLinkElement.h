@@ -324,11 +324,8 @@ aEventName
 )
 ;
 bool
-GetDisabled
+Disabled
 (
-ErrorResult
-&
-aRv
 )
 ;
 void
@@ -336,9 +333,6 @@ SetDisabled
 (
 bool
 aDisabled
-ErrorResult
-&
-aRv
 )
 ;
 void

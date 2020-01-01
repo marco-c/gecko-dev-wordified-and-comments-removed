@@ -226,7 +226,7 @@ HTMLLinkElement
 HTMLElement
 {
 [
-Throws
+Pure
 ]
 attribute
 boolean
