@@ -819,6 +819,7 @@ lcall
 new
 LCallGeneric
 (
+target
 useFixed
 (
 call
@@ -842,6 +843,10 @@ CallTempReg2
 ;
 if
 (
+!
+target
+&
+&
 !
 assignSnapshot
 (
