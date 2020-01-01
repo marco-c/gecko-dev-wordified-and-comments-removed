@@ -139,6 +139,10 @@ test_window_enumeration
 .
 html
 \
+test_window_extensible
+.
+html
+\
 test_window_indexing
 .
 html
