@@ -42,7 +42,7 @@ eaeaea
 define
 color_divider_border
 #
-333333
+6699ff
 %
 define
 color_button_border
