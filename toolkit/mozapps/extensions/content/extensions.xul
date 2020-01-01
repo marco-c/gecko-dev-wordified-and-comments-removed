@@ -554,7 +554,7 @@ title
 &
 addons
 .
-title
+windowTitle
 ;
 "
 >
@@ -2823,7 +2823,7 @@ label
 &
 cmd
 .
-uninstall
+uninstallAddon
 .
 label
 ;
@@ -2834,7 +2834,7 @@ accesskey
 &
 cmd
 .
-uninstall
+uninstallAddon
 .
 accesskey
 ;
@@ -2845,7 +2845,7 @@ tooltiptext
 &
 cmd
 .
-uninstall
+uninstallAddon
 .
 tooltip
 ;
@@ -2880,7 +2880,7 @@ label
 &
 cmd
 .
-enable
+enableAddon
 .
 label
 ;
@@ -2891,7 +2891,7 @@ accesskey
 &
 cmd
 .
-enable
+enableAddon
 .
 accesskey
 ;
@@ -2902,7 +2902,7 @@ tooltiptext
 &
 cmd
 .
-enable
+enableAddon
 .
 tooltip
 ;
@@ -2937,7 +2937,7 @@ label
 &
 cmd
 .
-disable
+disableAddon
 .
 label
 ;
@@ -2948,7 +2948,7 @@ accesskey
 &
 cmd
 .
-disable
+disableAddon
 .
 accesskey
 ;
@@ -2959,7 +2959,7 @@ tooltiptext
 &
 cmd
 .
-disable
+disableAddon
 .
 tooltip
 ;
