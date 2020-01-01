@@ -23663,7 +23663,7 @@ popups
 pm
 -
 >
-GetOpenPopups
+GetVisiblePopups
 (
 )
 ;

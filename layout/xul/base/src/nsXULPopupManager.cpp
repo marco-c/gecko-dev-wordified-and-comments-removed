@@ -5203,7 +5203,7 @@ nsIFrame
 nsXULPopupManager
 :
 :
-GetOpenPopups
+GetVisiblePopups
 (
 )
 {
@@ -5238,9 +5238,9 @@ Frame
 PopupState
 (
 )
-!
 =
-ePopupInvisible
+=
+ePopupOpenAndVisible
 )
 popups
 .

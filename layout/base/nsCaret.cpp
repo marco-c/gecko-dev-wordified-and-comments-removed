@@ -4068,7 +4068,7 @@ popups
 popMgr
 -
 >
-GetOpenPopups
+GetVisiblePopups
 (
 )
 ;

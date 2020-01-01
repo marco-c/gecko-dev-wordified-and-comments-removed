@@ -1135,7 +1135,7 @@ nsTArray
 nsIFrame
 *
 >
-GetOpenPopups
+GetVisiblePopups
 (
 )
 ;
