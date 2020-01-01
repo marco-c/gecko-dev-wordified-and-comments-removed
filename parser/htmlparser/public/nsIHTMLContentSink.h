@@ -168,17 +168,6 @@ aNode
 =
 0
 ;
-NS_IMETHOD
-AddComment
-(
-const
-nsIParserNode
-&
-aNode
-)
-=
-0
-;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
