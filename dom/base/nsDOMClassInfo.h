@@ -1369,8 +1369,14 @@ InstallGlobalScopePolluter
 JSContext
 *
 cx
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 obj
 )
 ;
