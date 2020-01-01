@@ -676,7 +676,7 @@ if
 (
 Social
 .
-active
+enabled
 |
 |
 !
