@@ -544,13 +544,11 @@ retstr
 64
 ]
 ;
-snprintf
+JS_snprintf
 (
 retstr
-JS_ARRAY_LENGTH
-(
+sizeof
 retstr
-)
 "
 %
 llu
