@@ -850,7 +850,7 @@ return
 DEFAULT_ORIENTATION
 ;
 }
-public
+private
 void
 updateScreenOrientation
 (
