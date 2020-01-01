@@ -18642,6 +18642,15 @@ PresContext
 IsDynamic
 (
 )
+&
+&
+!
+aBuilder
+-
+>
+IsForEventDelivery
+(
+)
 )
 return
 NS_OK
