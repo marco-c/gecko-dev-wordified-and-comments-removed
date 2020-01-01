@@ -32339,7 +32339,7 @@ PNG_LIBS
 AC_CHECK_LIB
 (
 png
-png_get_acTl
+png_get_acTL
 [
 SYSTEM_PNG
 =
