@@ -1859,12 +1859,6 @@ mChromeEventHandler
 ;
 nsCOMPtr
 <
-nsIDOMDocument
->
-mDocument
-;
-nsCOMPtr
-<
 nsIDocument
 >
 mDoc
