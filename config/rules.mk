@@ -957,6 +957,15 @@ MKSHLIB
 MKCSHLIB
 )
 endif
+ifdef
+MAKE_FRAMEWORK
+SHARED_LIBRARY
+:
+=
+(
+LIBRARY_NAME
+)
+else
 SHARED_LIBRARY
 :
 =
@@ -969,6 +978,7 @@ LIBRARY_NAME
 (
 DLL_SUFFIX
 )
+endif
 ifeq
 (
 (
