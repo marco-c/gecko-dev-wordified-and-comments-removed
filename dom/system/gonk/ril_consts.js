@@ -10908,9 +10908,11 @@ ready
 ;
 this
 .
-GECKO_CARDSTATE_UNAVAILABLE
+GECKO_CARDSTATE_UNKNOWN
 =
-null
+"
+unknown
+"
 ;
 this
 .
