@@ -1499,10 +1499,9 @@ enabled
 {
 if
 (
-!
 DAV
 .
-allowLock
+locked
 )
 {
 this
