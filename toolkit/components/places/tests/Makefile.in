@@ -437,6 +437,8 @@ unit
 \
 bookmarks
 \
+queries
+\
 (
 NULL
 )
