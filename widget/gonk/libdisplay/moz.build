@@ -186,10 +186,10 @@ CONFIG
 ANDROID_VERSION
 '
 ]
-=
+>
 =
 '
-18
+17
 '
 :
 CPP_SOURCES
