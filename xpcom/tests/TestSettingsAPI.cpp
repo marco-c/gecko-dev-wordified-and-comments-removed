@@ -540,7 +540,6 @@ return
 NS_OK
 ;
 }
-;
 NS_IMETHOD
 HandleError
 (
@@ -580,7 +579,6 @@ return
 NS_OK
 ;
 }
-;
 }
 ;
 NS_IMPL_THREADSAFE_ISUPPORTS1

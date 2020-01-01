@@ -157,7 +157,6 @@ nullptr
 ;
 }
 }
-;
 DOMSVGLength
 *
 Copy

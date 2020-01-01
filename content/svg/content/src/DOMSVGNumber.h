@@ -144,7 +144,6 @@ nullptr
 ;
 }
 }
-;
 DOMSVGNumber
 *
 Clone

@@ -55,7 +55,6 @@ MediaEngine
 )
 {
 }
-;
 virtual
 void
 EnumerateVideoDevices
@@ -105,7 +104,6 @@ MediaEngineSource
 )
 {
 }
-;
 virtual
 void
 GetName
@@ -265,7 +263,6 @@ MediaEngineVideoSource
 )
 {
 }
-;
 virtual
 const
 MediaEngineVideoOptions
@@ -293,7 +290,6 @@ MediaEngineAudioSource
 )
 {
 }
-;
 }
 ;
 }

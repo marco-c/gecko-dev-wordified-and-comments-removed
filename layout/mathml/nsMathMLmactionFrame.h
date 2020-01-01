@@ -198,7 +198,6 @@ aOwner
 )
 {
 }
-;
 nsMathMLmactionFrame
 *
 mOwner

@@ -49,7 +49,6 @@ aDoc
 )
 {
 }
-;
 virtual
 a11y
 :
@@ -86,7 +85,6 @@ aDoc
 )
 {
 }
-;
 virtual
 a11y
 :
@@ -141,7 +139,6 @@ aDoc
 )
 {
 }
-;
 NS_DECL_ISUPPORTS_INHERITED
 virtual
 a11y
@@ -191,7 +188,6 @@ aDoc
 )
 {
 }
-;
 NS_DECL_ISUPPORTS_INHERITED
 virtual
 a11y

@@ -1827,7 +1827,6 @@ FUNCTION_INFO_STRUCT_BODY
 (
 FOR_EACH_ARGS_1
 )
-;
 }
 ;
 template
@@ -1874,7 +1873,6 @@ FUNCTION_INFO_STRUCT_BODY
 (
 FOR_EACH_ARGS_2
 )
-;
 }
 ;
 template
@@ -1925,7 +1923,6 @@ FUNCTION_INFO_STRUCT_BODY
 (
 FOR_EACH_ARGS_3
 )
-;
 }
 ;
 template
@@ -1980,7 +1977,6 @@ FUNCTION_INFO_STRUCT_BODY
 (
 FOR_EACH_ARGS_4
 )
-;
 }
 ;
 template
@@ -2039,7 +2035,6 @@ FUNCTION_INFO_STRUCT_BODY
 (
 FOR_EACH_ARGS_5
 )
-;
 }
 ;
 #

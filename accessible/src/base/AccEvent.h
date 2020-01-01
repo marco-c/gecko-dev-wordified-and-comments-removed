@@ -569,7 +569,6 @@ AccMutationEvent
 )
 {
 }
-;
 static
 const
 EventGroup
@@ -857,7 +856,6 @@ AccReorderEvent
 )
 {
 }
-;
 static
 const
 EventGroup

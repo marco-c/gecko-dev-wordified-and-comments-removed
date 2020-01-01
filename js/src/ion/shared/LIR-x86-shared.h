@@ -25,7 +25,6 @@ LIR_HEADER
 (
 DivI
 )
-;
 LDivI
 (
 const
@@ -108,7 +107,6 @@ LIR_HEADER
 (
 ModI
 )
-;
 LModI
 (
 const
@@ -171,7 +169,6 @@ LIR_HEADER
 (
 ModPowTwoI
 )
-;
 LModPowTwoI
 (
 const
@@ -237,7 +234,6 @@ LIR_HEADER
 (
 PowHalfD
 )
-;
 LPowHalfD
 (
 const
@@ -324,7 +320,6 @@ LIR_HEADER
 (
 TableSwitch
 )
-;
 LTableSwitch
 (
 const
@@ -455,7 +450,6 @@ LIR_HEADER
 (
 TableSwitchV
 )
-;
 LTableSwitchV
 (
 const
@@ -598,7 +592,6 @@ LIR_HEADER
 (
 GuardShape
 )
-;
 LGuardShape
 (
 const
@@ -650,7 +643,6 @@ LIR_HEADER
 (
 RecompileCheck
 )
-;
 const
 MRecompileCheck
 *
@@ -687,7 +679,6 @@ LIR_HEADER
 (
 InterruptCheck
 )
-;
 }
 ;
 class
@@ -706,7 +697,6 @@ LIR_HEADER
 (
 MulI
 )
-;
 LMulI
 (
 const

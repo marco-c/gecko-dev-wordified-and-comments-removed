@@ -51,7 +51,6 @@ ChromeObjectWrapperBase
 )
 {
 }
-;
 virtual
 bool
 getPropertyDescriptor

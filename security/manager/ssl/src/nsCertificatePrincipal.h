@@ -79,7 +79,6 @@ nsCertificatePrincipal
 )
 {
 }
-;
 private
 :
 nsCString

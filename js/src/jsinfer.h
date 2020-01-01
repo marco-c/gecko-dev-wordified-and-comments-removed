@@ -238,7 +238,6 @@ return
 THING_ROOT_OBJECT
 ;
 }
-;
 }
 ;
 template

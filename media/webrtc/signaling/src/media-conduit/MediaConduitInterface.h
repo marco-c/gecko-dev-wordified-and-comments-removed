@@ -82,7 +82,6 @@ TransportInterface
 )
 {
 }
-;
 virtual
 nsresult
 SendRtpPacket
@@ -129,7 +128,6 @@ VideoRenderer
 )
 {
 }
-;
 virtual
 void
 FrameSizeChange
@@ -192,7 +190,6 @@ MediaSessionConduit
 )
 {
 }
-;
 virtual
 Type
 type
@@ -273,7 +270,6 @@ VideoSessionConduit
 )
 {
 }
-;
 virtual
 Type
 type
@@ -383,7 +379,6 @@ AudioSessionConduit
 )
 {
 }
-;
 virtual
 Type
 type

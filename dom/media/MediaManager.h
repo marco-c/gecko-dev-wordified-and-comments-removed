@@ -917,7 +917,6 @@ mName
 )
 ;
 }
-;
 MediaDevice
 (
 MediaEngineAudioSource
@@ -950,7 +949,6 @@ mName
 )
 ;
 }
-;
 virtual
 ~
 MediaDevice
@@ -958,7 +956,6 @@ MediaDevice
 )
 {
 }
-;
 MediaEngineSource
 *
 GetSource
@@ -1253,7 +1250,6 @@ return
 mActiveWindows
 ;
 }
-;
 MediaManager
 (
 )
@@ -1289,7 +1285,6 @@ Init
 )
 ;
 }
-;
 ~
 MediaManager
 (
@@ -1299,7 +1294,6 @@ delete
 mBackend
 ;
 }
-;
 WindowTable
 mActiveWindows
 ;

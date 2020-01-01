@@ -291,7 +291,6 @@ Length
 )
 ;
 }
-;
 bool
 FirstConsumerIs
 (
@@ -573,7 +572,6 @@ return
 mImage
 ;
 }
-;
 inline
 imgRequest
 *
@@ -586,7 +584,6 @@ return
 mRequest
 ;
 }
-;
 inline
 imgIDecoderObserver
 *

@@ -84,7 +84,6 @@ mSafeToUnwrap
 safe
 ;
 }
-;
 bool
 isSafeToUnwrap
 (
@@ -94,7 +93,6 @@ return
 mSafeToUnwrap
 ;
 }
-;
 static
 JSObject
 *

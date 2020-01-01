@@ -353,7 +353,6 @@ get
 )
 ;
 }
-;
 void
 ResetCacheEntry
 (

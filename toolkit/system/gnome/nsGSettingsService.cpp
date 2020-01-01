@@ -531,7 +531,6 @@ NULL
 )
 {
 }
-;
 ~
 nsGSettingsCollection
 (

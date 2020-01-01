@@ -159,7 +159,6 @@ EmbeddedObjCollector
 )
 {
 }
-;
 public
 :
 virtual

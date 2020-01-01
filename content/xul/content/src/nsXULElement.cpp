@@ -739,7 +739,6 @@ get
 -
 >
 )
-;
 private
 :
 nsCOMPtr

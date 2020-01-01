@@ -2240,7 +2240,6 @@ INSTRUCTION_HEADER
 (
 Start
 )
-;
 static
 MStart
 *
@@ -2293,7 +2292,6 @@ INSTRUCTION_HEADER
 (
 OsrEntry
 )
-;
 static
 MOsrEntry
 *
@@ -2327,7 +2325,6 @@ INSTRUCTION_HEADER
 (
 Nop
 )
-;
 static
 MNop
 *
@@ -2384,7 +2381,6 @@ INSTRUCTION_HEADER
 (
 Constant
 )
-;
 static
 MConstant
 *
@@ -2535,7 +2531,6 @@ INSTRUCTION_HEADER
 (
 Parameter
 )
-;
 static
 MParameter
 *
@@ -2628,7 +2623,6 @@ INSTRUCTION_HEADER
 (
 Callee
 )
-;
 bool
 congruentTo
 (
@@ -2835,7 +2829,6 @@ INSTRUCTION_HEADER
 (
 TableSwitch
 )
-;
 static
 MTableSwitch
 *
@@ -3336,7 +3329,6 @@ INSTRUCTION_HEADER
 (
 Goto
 )
-;
 static
 MGoto
 *
@@ -3456,7 +3448,6 @@ INSTRUCTION_HEADER
 (
 Test
 )
-;
 static
 MTest
 *
@@ -3594,7 +3585,6 @@ INSTRUCTION_HEADER
 (
 Return
 )
-;
 static
 MReturn
 *
@@ -3672,7 +3662,6 @@ INSTRUCTION_HEADER
 (
 Throw
 )
-;
 static
 MThrow
 *
@@ -3751,7 +3740,6 @@ INSTRUCTION_HEADER
 (
 NewArray
 )
-;
 MNewArray
 (
 uint32_t
@@ -3867,7 +3855,6 @@ INSTRUCTION_HEADER
 (
 NewObject
 )
-;
 static
 MNewObject
 *
@@ -3968,7 +3955,6 @@ INSTRUCTION_HEADER
 (
 InitProp
 )
-;
 static
 MInitProp
 *
@@ -4057,7 +4043,6 @@ INSTRUCTION_HEADER
 (
 PrepareCall
 )
-;
 MPrepareCall
 (
 )
@@ -4247,7 +4232,6 @@ INSTRUCTION_HEADER
 (
 Call
 )
-;
 static
 MCall
 *
@@ -4534,7 +4518,6 @@ INSTRUCTION_HEADER
 (
 ApplyArgs
 )
-;
 static
 MApplyArgs
 *
@@ -5333,7 +5316,6 @@ INSTRUCTION_HEADER
 (
 Compare
 )
-;
 static
 MCompare
 *
@@ -5563,7 +5545,6 @@ INSTRUCTION_HEADER
 (
 Box
 )
-;
 static
 MBox
 *
@@ -5761,7 +5742,6 @@ INSTRUCTION_HEADER
 (
 Unbox
 )
-;
 static
 MUnbox
 *
@@ -5926,7 +5906,6 @@ INSTRUCTION_HEADER
 (
 GuardObject
 )
-;
 static
 MGuardObject
 *
@@ -6026,7 +6005,6 @@ INSTRUCTION_HEADER
 (
 GuardString
 )
-;
 static
 MGuardString
 *
@@ -6152,7 +6130,6 @@ INSTRUCTION_HEADER
 (
 CreateThis
 )
-;
 static
 MCreateThis
 *
@@ -6319,7 +6296,6 @@ INSTRUCTION_HEADER
 (
 ReturnFromCtor
 )
-;
 static
 MReturnFromCtor
 *
@@ -6442,7 +6418,6 @@ INSTRUCTION_HEADER
 (
 PassArg
 )
-;
 static
 MPassArg
 *
@@ -6567,7 +6542,6 @@ INSTRUCTION_HEADER
 (
 ToDouble
 )
-;
 static
 MToDouble
 *
@@ -6684,7 +6658,6 @@ INSTRUCTION_HEADER
 (
 ToInt32
 )
-;
 static
 MToInt32
 *
@@ -6820,7 +6793,6 @@ INSTRUCTION_HEADER
 (
 TruncateToInt32
 )
-;
 static
 MTruncateToInt32
 *
@@ -6930,7 +6902,6 @@ INSTRUCTION_HEADER
 (
 ToString
 )
-;
 static
 MToString
 *
@@ -7058,7 +7029,6 @@ INSTRUCTION_HEADER
 (
 BitNot
 )
-;
 static
 MBitNot
 *
@@ -7198,7 +7168,6 @@ INSTRUCTION_HEADER
 (
 TypeOf
 )
-;
 static
 MTypeOf
 *
@@ -7334,7 +7303,6 @@ INSTRUCTION_HEADER
 (
 ToId
 )
-;
 static
 MToId
 *
@@ -7552,7 +7520,6 @@ INSTRUCTION_HEADER
 (
 BitAnd
 )
-;
 static
 MBitAnd
 *
@@ -7647,7 +7614,6 @@ INSTRUCTION_HEADER
 (
 BitOr
 )
-;
 static
 MBitOr
 *
@@ -7737,7 +7703,6 @@ INSTRUCTION_HEADER
 (
 BitXor
 )
-;
 static
 MBitXor
 *
@@ -7894,7 +7859,6 @@ INSTRUCTION_HEADER
 (
 Lsh
 )
-;
 static
 MLsh
 *
@@ -7959,7 +7923,6 @@ INSTRUCTION_HEADER
 (
 Rsh
 )
-;
 static
 MRsh
 *
@@ -8031,7 +7994,6 @@ INSTRUCTION_HEADER
 (
 Ursh
 )
-;
 static
 MUrsh
 *
@@ -8441,7 +8403,6 @@ INSTRUCTION_HEADER
 (
 MinMax
 )
-;
 static
 MMinMax
 *
@@ -8626,7 +8587,6 @@ INSTRUCTION_HEADER
 (
 Abs
 )
-;
 static
 MAbs
 *
@@ -8751,7 +8711,6 @@ INSTRUCTION_HEADER
 (
 Sqrt
 )
-;
 static
 MSqrt
 *
@@ -8875,7 +8834,6 @@ INSTRUCTION_HEADER
 (
 Pow
 )
-;
 static
 MPow
 *
@@ -9011,7 +8969,6 @@ INSTRUCTION_HEADER
 (
 PowHalf
 )
-;
 static
 MPowHalf
 *
@@ -9111,7 +9068,6 @@ INSTRUCTION_HEADER
 (
 Random
 )
-;
 static
 MRandom
 *
@@ -9213,7 +9169,6 @@ INSTRUCTION_HEADER
 (
 MathFunction
 )
-;
 static
 MMathFunction
 *
@@ -9395,7 +9350,6 @@ INSTRUCTION_HEADER
 (
 Add
 )
-;
 static
 MAdd
 *
@@ -9515,7 +9469,6 @@ INSTRUCTION_HEADER
 (
 Sub
 )
-;
 static
 MSub
 *
@@ -9662,7 +9615,6 @@ INSTRUCTION_HEADER
 (
 Mul
 )
-;
 static
 MMul
 *
@@ -9900,7 +9852,6 @@ INSTRUCTION_HEADER
 (
 Div
 )
-;
 static
 MDiv
 *
@@ -10094,7 +10045,6 @@ INSTRUCTION_HEADER
 (
 Mod
 )
-;
 static
 MMod
 *
@@ -10189,7 +10139,6 @@ INSTRUCTION_HEADER
 (
 Concat
 )
-;
 static
 MConcat
 *
@@ -10304,7 +10253,6 @@ INSTRUCTION_HEADER
 (
 CharCodeAt
 )
-;
 static
 MCharCodeAt
 *
@@ -10399,7 +10347,6 @@ INSTRUCTION_HEADER
 (
 FromCharCode
 )
-;
 static
 MFromCharCode
 *
@@ -10526,7 +10473,6 @@ INSTRUCTION_HEADER
 (
 Phi
 )
-;
 static
 MPhi
 *
@@ -10750,7 +10696,6 @@ INSTRUCTION_HEADER
 (
 Beta
 )
-;
 void
 printOpcode
 (
@@ -10845,7 +10790,6 @@ INSTRUCTION_HEADER
 (
 OsrValue
 )
-;
 static
 MOsrValue
 *
@@ -10944,7 +10888,6 @@ INSTRUCTION_HEADER
 (
 OsrScopeChain
 )
-;
 static
 MOsrScopeChain
 *
@@ -10995,7 +10938,6 @@ INSTRUCTION_HEADER
 (
 CheckOverRecursed
 )
-;
 }
 ;
 class
@@ -11029,7 +10971,6 @@ INSTRUCTION_HEADER
 (
 RecompileCheck
 )
-;
 uint32_t
 minUses
 (
@@ -11095,7 +11036,6 @@ INSTRUCTION_HEADER
 (
 InterruptCheck
 )
-;
 static
 MInterruptCheck
 *
@@ -11174,7 +11114,6 @@ INSTRUCTION_HEADER
 (
 DefVar
 )
-;
 static
 MDefVar
 *
@@ -11538,7 +11477,6 @@ INSTRUCTION_HEADER
 (
 Lambda
 )
-;
 static
 MLambda
 *
@@ -11634,7 +11572,6 @@ INSTRUCTION_HEADER
 (
 ImplicitThis
 )
-;
 static
 MImplicitThis
 *
@@ -11730,7 +11667,6 @@ INSTRUCTION_HEADER
 (
 Slots
 )
-;
 static
 MSlots
 *
@@ -11848,7 +11784,6 @@ INSTRUCTION_HEADER
 (
 Elements
 )
-;
 static
 MElements
 *
@@ -11970,7 +11905,6 @@ INSTRUCTION_HEADER
 (
 ConstantElements
 )
-;
 static
 MConstantElements
 *
@@ -12113,7 +12047,6 @@ INSTRUCTION_HEADER
 (
 InitializedLength
 )
-;
 static
 MInitializedLength
 *
@@ -12223,7 +12156,6 @@ INSTRUCTION_HEADER
 (
 SetInitializedLength
 )
-;
 static
 MSetInitializedLength
 *
@@ -12329,7 +12261,6 @@ INSTRUCTION_HEADER
 (
 ArrayLength
 )
-;
 MDefinition
 *
 elements
@@ -12419,7 +12350,6 @@ INSTRUCTION_HEADER
 (
 TypedArrayLength
 )
-;
 static
 MTypedArrayLength
 *
@@ -12533,7 +12463,6 @@ INSTRUCTION_HEADER
 (
 TypedArrayElements
 )
-;
 static
 MTypedArrayElements
 *
@@ -12651,7 +12580,6 @@ INSTRUCTION_HEADER
 (
 Not
 )
-;
 MDefinition
 *
 foldsTo
@@ -12784,7 +12712,6 @@ INSTRUCTION_HEADER
 (
 BoundsCheck
 )
-;
 static
 MBoundsCheck
 *
@@ -13022,7 +12949,6 @@ INSTRUCTION_HEADER
 (
 BoundsCheckLower
 )
-;
 static
 MBoundsCheckLower
 *
@@ -13174,7 +13100,6 @@ INSTRUCTION_HEADER
 (
 LoadElement
 )
-;
 static
 MLoadElement
 *
@@ -13373,7 +13298,6 @@ INSTRUCTION_HEADER
 (
 LoadElementHole
 )
-;
 static
 MLoadElementHole
 *
@@ -13642,7 +13566,6 @@ INSTRUCTION_HEADER
 (
 StoreElement
 )
-;
 static
 MStoreElement
 *
@@ -13828,7 +13751,6 @@ INSTRUCTION_HEADER
 (
 StoreElementHole
 )
-;
 static
 MStoreElementHole
 *
@@ -14016,7 +13938,6 @@ INSTRUCTION_HEADER
 (
 ArrayPopShift
 )
-;
 static
 MArrayPopShift
 *
@@ -14160,7 +14081,6 @@ INSTRUCTION_HEADER
 (
 ArrayPush
 )
-;
 static
 MArrayPush
 *
@@ -14302,7 +14222,6 @@ INSTRUCTION_HEADER
 (
 ArrayConcat
 )
-;
 static
 MArrayConcat
 *
@@ -14464,7 +14383,6 @@ INSTRUCTION_HEADER
 (
 LoadTypedArrayElement
 )
-;
 static
 MLoadTypedArrayElement
 *
@@ -14660,7 +14578,6 @@ INSTRUCTION_HEADER
 (
 LoadTypedArrayElementHole
 )
-;
 static
 MLoadTypedArrayElementHole
 *
@@ -14883,7 +14800,6 @@ INSTRUCTION_HEADER
 (
 StoreTypedArrayElement
 )
-;
 static
 MStoreTypedArrayElement
 *
@@ -15095,7 +15011,6 @@ INSTRUCTION_HEADER
 (
 ClampToUint8
 )
-;
 static
 MClampToUint8
 *
@@ -15233,7 +15148,6 @@ INSTRUCTION_HEADER
 (
 LoadFixedSlot
 )
-;
 static
 MLoadFixedSlot
 *
@@ -15412,7 +15326,6 @@ INSTRUCTION_HEADER
 (
 StoreFixedSlot
 )
-;
 static
 MStoreFixedSlot
 *
@@ -15953,7 +15866,6 @@ INSTRUCTION_HEADER
 (
 GetPropertyCache
 )
-;
 static
 MGetPropertyCache
 *
@@ -16446,7 +16358,6 @@ INSTRUCTION_HEADER
 (
 PolyInlineDispatch
 )
-;
 virtual
 MDefinition
 *
@@ -16945,7 +16856,6 @@ INSTRUCTION_HEADER
 (
 GetElementCache
 )
-;
 static
 MGetElementCache
 *
@@ -17086,7 +16996,6 @@ INSTRUCTION_HEADER
 (
 BindNameCache
 )
-;
 static
 MBindNameCache
 *
@@ -17238,7 +17147,6 @@ INSTRUCTION_HEADER
 (
 GuardShape
 )
-;
 static
 MGuardShape
 *
@@ -17455,7 +17363,6 @@ INSTRUCTION_HEADER
 (
 GuardClass
 )
-;
 static
 MGuardClass
 *
@@ -17647,7 +17554,6 @@ INSTRUCTION_HEADER
 (
 LoadSlot
 )
-;
 static
 MLoadSlot
 *
@@ -17824,7 +17730,6 @@ INSTRUCTION_HEADER
 (
 FunctionEnvironment
 )
-;
 static
 MFunctionEnvironment
 *
@@ -17928,7 +17833,6 @@ INSTRUCTION_HEADER
 (
 StoreSlot
 )
-;
 static
 MStoreSlot
 *
@@ -18161,7 +18065,6 @@ INSTRUCTION_HEADER
 (
 GetNameCache
 )
-;
 static
 MGetNameCache
 *
@@ -18265,7 +18168,6 @@ INSTRUCTION_HEADER
 (
 CallGetIntrinsicValue
 )
-;
 static
 MCallGetIntrinsicValue
 *
@@ -18462,7 +18364,6 @@ INSTRUCTION_HEADER
 (
 DeleteProperty
 )
-;
 static
 MDeleteProperty
 *
@@ -18559,7 +18460,6 @@ INSTRUCTION_HEADER
 (
 CallSetProperty
 )
-;
 static
 MCallSetProperty
 *
@@ -18637,7 +18537,6 @@ INSTRUCTION_HEADER
 (
 SetPropertyCache
 )
-;
 static
 MSetPropertyCache
 *
@@ -18726,7 +18625,6 @@ INSTRUCTION_HEADER
 (
 CallGetProperty
 )
-;
 static
 MCallGetProperty
 *
@@ -18863,7 +18761,6 @@ INSTRUCTION_HEADER
 (
 CallGetElement
 )
-;
 static
 MCallGetElement
 *
@@ -18947,7 +18844,6 @@ INSTRUCTION_HEADER
 (
 CallSetElement
 )
-;
 static
 MCallSetElement
 *
@@ -19090,7 +18986,6 @@ INSTRUCTION_HEADER
 (
 SetDOMProperty
 )
-;
 static
 MSetDOMProperty
 *
@@ -19257,7 +19152,6 @@ INSTRUCTION_HEADER
 (
 GetDOMProperty
 )
-;
 static
 MGetDOMProperty
 *
@@ -19484,7 +19378,6 @@ INSTRUCTION_HEADER
 (
 StringLength
 )
-;
 static
 MStringLength
 *
@@ -19609,7 +19502,6 @@ INSTRUCTION_HEADER
 (
 Floor
 )
-;
 MDefinition
 *
 num
@@ -19690,7 +19582,6 @@ INSTRUCTION_HEADER
 (
 Round
 )
-;
 MDefinition
 *
 num
@@ -19773,7 +19664,6 @@ INSTRUCTION_HEADER
 (
 IteratorStart
 )
-;
 static
 MIteratorStart
 *
@@ -19863,7 +19753,6 @@ INSTRUCTION_HEADER
 (
 IteratorNext
 )
-;
 static
 MIteratorNext
 *
@@ -19940,7 +19829,6 @@ INSTRUCTION_HEADER
 (
 IteratorMore
 )
-;
 static
 MIteratorMore
 *
@@ -20012,7 +19900,6 @@ INSTRUCTION_HEADER
 (
 IteratorEnd
 )
-;
 static
 MIteratorEnd
 *
@@ -20103,7 +19990,6 @@ INSTRUCTION_HEADER
 (
 In
 )
-;
 TypePolicy
 *
 typePolicy
@@ -20206,7 +20092,6 @@ INSTRUCTION_HEADER
 (
 InArray
 )
-;
 static
 MInArray
 *
@@ -20350,7 +20235,6 @@ INSTRUCTION_HEADER
 (
 InstanceOf
 )
-;
 TypePolicy
 *
 typePolicy
@@ -20418,7 +20302,6 @@ INSTRUCTION_HEADER
 (
 CallInstanceOf
 )
-;
 TypePolicy
 *
 typePolicy
@@ -20457,7 +20340,6 @@ INSTRUCTION_HEADER
 (
 ArgumentsLength
 )
-;
 static
 MArgumentsLength
 *
@@ -20546,7 +20428,6 @@ INSTRUCTION_HEADER
 (
 GetArgument
 )
-;
 static
 MGetArgument
 *
@@ -20697,7 +20578,6 @@ INSTRUCTION_HEADER
 (
 TypeBarrier
 )
-;
 static
 MTypeBarrier
 *
@@ -20877,7 +20757,6 @@ INSTRUCTION_HEADER
 (
 MonitorTypes
 )
-;
 static
 MMonitorTypes
 *
@@ -20982,7 +20861,6 @@ INSTRUCTION_HEADER
 (
 NewSlots
 )
-;
 static
 MNewSlots
 *
@@ -21146,7 +21024,6 @@ INSTRUCTION_HEADER
 (
 NewCallObject
 )
-;
 static
 MNewCallObject
 *
@@ -21249,7 +21126,6 @@ INSTRUCTION_HEADER
 (
 NewStringObject
 )
-;
 static
 MNewStringObject
 *
@@ -21392,7 +21268,6 @@ INSTRUCTION_HEADER
 (
 FunctionBoundary
 )
-;
 static
 MFunctionBoundary
 *

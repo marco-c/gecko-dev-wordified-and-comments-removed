@@ -44,7 +44,6 @@ CC_Device
 )
 {
 }
-;
 virtual
 std
 :

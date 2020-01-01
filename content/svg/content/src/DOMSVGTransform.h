@@ -209,7 +209,6 @@ nullptr
 ;
 }
 }
-;
 DOMSVGTransform
 *
 Clone

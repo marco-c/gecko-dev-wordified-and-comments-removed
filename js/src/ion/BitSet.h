@@ -67,7 +67,6 @@ NULL
 )
 {
 }
-;
 unsigned
 int
 max_

@@ -103,7 +103,6 @@ LIR_HEADER
 (
 Label
 )
-;
 Label
 *
 label
@@ -134,7 +133,6 @@ LIR_HEADER
 (
 Nop
 )
-;
 }
 ;
 class
@@ -197,7 +195,6 @@ LIR_HEADER
 (
 OsiPoint
 )
-;
 }
 ;
 class
@@ -307,7 +304,6 @@ LIR_HEADER
 (
 MoveGroup
 )
-;
 void
 printOperands
 (
@@ -391,7 +387,6 @@ LIR_HEADER
 (
 Integer
 )
-;
 LInteger
 (
 int32_t
@@ -451,7 +446,6 @@ LIR_HEADER
 (
 Pointer
 )
-;
 LPointer
 (
 gc
@@ -565,7 +559,6 @@ LIR_HEADER
 (
 Value
 )
-;
 LValue
 (
 const
@@ -609,7 +602,6 @@ LIR_HEADER
 (
 Parameter
 )
-;
 }
 ;
 class
@@ -629,7 +621,6 @@ LIR_HEADER
 (
 Callee
 )
-;
 }
 ;
 class
@@ -653,7 +644,6 @@ LIR_HEADER
 (
 Goto
 )
-;
 LGoto
 (
 MBasicBlock
@@ -697,7 +687,6 @@ LIR_HEADER
 (
 NewSlots
 )
-;
 LNewSlots
 (
 const
@@ -810,7 +799,6 @@ LIR_HEADER
 (
 NewArray
 )
-;
 MNewArray
 *
 mir
@@ -846,7 +834,6 @@ LIR_HEADER
 (
 NewObject
 )
-;
 MNewObject
 *
 mir
@@ -918,7 +905,6 @@ LIR_HEADER
 (
 NewCallObject
 )
-;
 LNewCallObject
 (
 const
@@ -983,7 +969,6 @@ LIR_HEADER
 (
 NewStringObject
 )
-;
 LNewStringObject
 (
 const
@@ -1074,7 +1059,6 @@ LIR_HEADER
 (
 InitProp
 )
-;
 LInitProp
 (
 const
@@ -1160,7 +1144,6 @@ LIR_HEADER
 (
 CheckOverRecursed
 )
-;
 LCheckOverRecursed
 (
 const
@@ -1214,7 +1197,6 @@ LIR_HEADER
 (
 DefVar
 )
-;
 LDefVar
 (
 const
@@ -1308,7 +1290,6 @@ LIR_HEADER
 (
 TypeOfV
 )
-;
 static
 const
 size_t
@@ -1353,7 +1334,6 @@ LIR_HEADER
 (
 ToIdV
 )
-;
 static
 const
 size_t
@@ -1403,7 +1383,6 @@ LIR_HEADER
 (
 CreateThis
 )
-;
 LCreateThis
 (
 )
@@ -1444,7 +1423,6 @@ LIR_HEADER
 (
 CreateThisVM
 )
-;
 LCreateThisVM
 (
 const
@@ -1535,7 +1513,6 @@ LIR_HEADER
 (
 ReturnFromCtor
 )
-;
 LReturnFromCtor
 (
 const
@@ -1607,7 +1584,6 @@ LIR_HEADER
 (
 StackArgT
 )
-;
 LStackArgT
 (
 uint32_t
@@ -1695,7 +1671,6 @@ LIR_HEADER
 (
 StackArgV
 )
-;
 LStackArgV
 (
 uint32_t
@@ -1898,7 +1873,6 @@ LIR_HEADER
 (
 CallGeneric
 )
-;
 LCallGeneric
 (
 const
@@ -2012,7 +1986,6 @@ LIR_HEADER
 (
 CallKnown
 )
-;
 LCallKnown
 (
 const
@@ -2097,7 +2070,6 @@ LIR_HEADER
 (
 CallNative
 )
-;
 LCallNative
 (
 uint32_t
@@ -2245,7 +2217,6 @@ LIR_HEADER
 (
 CallDOMNative
 )
-;
 LCallDOMNative
 (
 uint32_t
@@ -2422,7 +2393,6 @@ LIR_HEADER
 (
 CallConstructor
 )
-;
 LCallConstructor
 (
 const
@@ -2643,7 +2613,6 @@ LIR_HEADER
 (
 GetDOMProperty
 )
-;
 LGetDOMProperty
 (
 const
@@ -2711,7 +2680,6 @@ LIR_HEADER
 (
 SetDOMProperty
 )
-;
 LSetDOMProperty
 (
 const
@@ -2789,7 +2757,6 @@ LIR_HEADER
 (
 ApplyArgsGeneric
 )
-;
 LApplyArgsGeneric
 (
 const
@@ -2984,7 +2951,6 @@ LIR_HEADER
 (
 TestIAndBranch
 )
-;
 LTestIAndBranch
 (
 const
@@ -3064,7 +3030,6 @@ LIR_HEADER
 (
 TestDAndBranch
 )
-;
 LTestDAndBranch
 (
 const
@@ -3144,7 +3109,6 @@ LIR_HEADER
 (
 TestVAndBranch
 )
-;
 LTestVAndBranch
 (
 MBasicBlock
@@ -3232,7 +3196,6 @@ LIR_HEADER
 (
 PolyInlineDispatch
 )
-;
 LPolyInlineDispatch
 (
 const
@@ -3309,7 +3272,6 @@ LIR_HEADER
 (
 Compare
 )
-;
 LCompare
 (
 JSOp
@@ -3414,7 +3376,6 @@ LIR_HEADER
 (
 CompareD
 )
-;
 LCompareD
 (
 const
@@ -3502,7 +3463,6 @@ LIR_HEADER
 (
 CompareS
 )
-;
 LCompareS
 (
 const
@@ -3616,7 +3576,6 @@ LIR_HEADER
 (
 CompareV
 )
-;
 static
 const
 size_t
@@ -3677,7 +3636,6 @@ LIR_HEADER
 (
 CompareAndBranch
 )
-;
 LCompareAndBranch
 (
 JSOp
@@ -3826,7 +3784,6 @@ LIR_HEADER
 (
 CompareDAndBranch
 )
-;
 LCompareDAndBranch
 (
 const
@@ -3953,7 +3910,6 @@ LIR_HEADER
 (
 CompareB
 )
-;
 LCompareB
 (
 const
@@ -4034,7 +3990,6 @@ LIR_HEADER
 (
 CompareBAndBranch
 )
-;
 LCompareBAndBranch
 (
 const
@@ -4142,7 +4097,6 @@ LIR_HEADER
 (
 IsNullOrUndefined
 )
-;
 static
 const
 size_t
@@ -4192,7 +4146,6 @@ LIR_HEADER
 (
 IsNullOrUndefinedAndBranch
 )
-;
 LIsNullOrUndefinedAndBranch
 (
 MBasicBlock
@@ -4276,7 +4229,6 @@ LIR_HEADER
 (
 NotI
 )
-;
 LNotI
 (
 const
@@ -4311,7 +4263,6 @@ LIR_HEADER
 (
 NotD
 )
-;
 LNotD
 (
 const
@@ -4346,7 +4297,6 @@ LIR_HEADER
 (
 NotV
 )
-;
 static
 const
 size_t
@@ -4407,7 +4357,6 @@ LIR_HEADER
 (
 BitNotI
 )
-;
 }
 ;
 class
@@ -4427,7 +4376,6 @@ LIR_HEADER
 (
 BitNotV
 )
-;
 static
 const
 size_t
@@ -4457,7 +4405,6 @@ LIR_HEADER
 (
 BitOpI
 )
-;
 LBitOpI
 (
 JSOp
@@ -4503,7 +4450,6 @@ LIR_HEADER
 (
 BitOpV
 )
-;
 LBitOpV
 (
 JSOp
@@ -4560,7 +4506,6 @@ LIR_HEADER
 (
 ShiftI
 )
-;
 LShiftI
 (
 JSOp
@@ -4614,7 +4559,6 @@ LIR_HEADER
 (
 UrshD
 )
-;
 LUrshD
 (
 const
@@ -4683,7 +4627,6 @@ LIR_HEADER
 (
 Return
 )
-;
 }
 ;
 class
@@ -4703,7 +4646,6 @@ LIR_HEADER
 (
 Throw
 )
-;
 static
 const
 size_t
@@ -4730,7 +4672,6 @@ LIR_HEADER
 (
 MinMaxI
 )
-;
 LMinMaxI
 (
 const
@@ -4842,7 +4783,6 @@ LIR_HEADER
 (
 MinMaxD
 )
-;
 LMinMaxD
 (
 const
@@ -4954,7 +4894,6 @@ LIR_HEADER
 (
 NegD
 )
-;
 LNegD
 (
 const
@@ -4989,7 +4928,6 @@ LIR_HEADER
 (
 AbsI
 )
-;
 LAbsI
 (
 const
@@ -5024,7 +4962,6 @@ LIR_HEADER
 (
 AbsD
 )
-;
 LAbsD
 (
 const
@@ -5059,7 +4996,6 @@ LIR_HEADER
 (
 SqrtD
 )
-;
 LSqrtD
 (
 const
@@ -5094,7 +5030,6 @@ LIR_HEADER
 (
 PowI
 )
-;
 LPowI
 (
 const
@@ -5191,7 +5126,6 @@ LIR_HEADER
 (
 PowD
 )
-;
 LPowD
 (
 const
@@ -5288,7 +5222,6 @@ LIR_HEADER
 (
 Random
 )
-;
 LRandom
 (
 const
@@ -5361,7 +5294,6 @@ LIR_HEADER
 (
 MathFunctionD
 )
-;
 LMathFunctionD
 (
 const
@@ -5437,7 +5369,6 @@ LIR_HEADER
 (
 AddI
 )
-;
 LAddI
 (
 )
@@ -5489,7 +5420,6 @@ LIR_HEADER
 (
 SubI
 )
-;
 LSubI
 (
 )
@@ -5541,7 +5471,6 @@ LIR_HEADER
 (
 MathD
 )
-;
 LMathD
 (
 JSOp
@@ -5581,7 +5510,6 @@ LIR_HEADER
 (
 ModD
 )
-;
 LModD
 (
 const
@@ -5665,11 +5593,9 @@ LIR_HEADER
 (
 BinaryV
 )
-;
 BOX_OUTPUT_ACCESSORS
 (
 )
-;
 LBinaryV
 (
 JSOp
@@ -5725,7 +5651,6 @@ LIR_HEADER
 (
 Concat
 )
-;
 LConcat
 (
 const
@@ -5804,7 +5729,6 @@ LIR_HEADER
 (
 CharCodeAt
 )
-;
 LCharCodeAt
 (
 const
@@ -5883,7 +5807,6 @@ LIR_HEADER
 (
 FromCharCode
 )
-;
 LFromCharCode
 (
 const
@@ -5935,7 +5858,6 @@ LIR_HEADER
 (
 Int32ToDouble
 )
-;
 LInt32ToDouble
 (
 const
@@ -5970,7 +5892,6 @@ LIR_HEADER
 (
 ValueToDouble
 )
-;
 static
 const
 size_t
@@ -6011,7 +5932,6 @@ LIR_HEADER
 (
 ValueToInt32
 )
-;
 LValueToInt32
 (
 const
@@ -6100,7 +6020,6 @@ LIR_HEADER
 (
 DoubleToInt32
 )
-;
 LDoubleToInt32
 (
 const
@@ -6151,7 +6070,6 @@ LIR_HEADER
 (
 TruncateDToInt32
 )
-;
 LTruncateDToInt32
 (
 const
@@ -6210,7 +6128,6 @@ LIR_HEADER
 (
 IntToString
 )
-;
 LIntToString
 (
 const
@@ -6261,7 +6178,6 @@ LIR_HEADER
 (
 Start
 )
-;
 }
 ;
 class
@@ -6289,7 +6205,6 @@ LIR_HEADER
 (
 OsrEntry
 )
-;
 LOsrEntry
 (
 )
@@ -6351,7 +6266,6 @@ LIR_HEADER
 (
 OsrValue
 )
-;
 LOsrValue
 (
 const
@@ -6402,7 +6316,6 @@ LIR_HEADER
 (
 OsrScopeChain
 )
-;
 LOsrScopeChain
 (
 const
@@ -6453,7 +6366,6 @@ LIR_HEADER
 (
 RegExp
 )
-;
 const
 MRegExp
 *
@@ -6490,7 +6402,6 @@ LIR_HEADER
 (
 RegExpTest
 )
-;
 LRegExpTest
 (
 const
@@ -6580,7 +6491,6 @@ LIR_HEADER
 (
 LambdaForSingleton
 )
-;
 LLambdaForSingleton
 (
 const
@@ -6646,7 +6556,6 @@ LIR_HEADER
 (
 Lambda
 )
-;
 LLambda
 (
 const
@@ -6712,11 +6621,9 @@ LIR_HEADER
 (
 ImplicitThis
 )
-;
 BOX_OUTPUT_ACCESSORS
 (
 )
-;
 LImplicitThis
 (
 const
@@ -6782,7 +6689,6 @@ LIR_HEADER
 (
 Slots
 )
-;
 LSlots
 (
 const
@@ -6831,7 +6737,6 @@ LIR_HEADER
 (
 Elements
 )
-;
 LElements
 (
 const
@@ -6880,7 +6785,6 @@ LIR_HEADER
 (
 InitializedLength
 )
-;
 LInitializedLength
 (
 const
@@ -6929,7 +6833,6 @@ LIR_HEADER
 (
 SetInitializedLength
 )
-;
 LSetInitializedLength
 (
 const
@@ -7002,7 +6905,6 @@ LIR_HEADER
 (
 ArrayLength
 )
-;
 LArrayLength
 (
 const
@@ -7051,7 +6953,6 @@ LIR_HEADER
 (
 TypedArrayLength
 )
-;
 LTypedArrayLength
 (
 const
@@ -7100,7 +7001,6 @@ LIR_HEADER
 (
 TypedArrayElements
 )
-;
 LTypedArrayElements
 (
 const
@@ -7149,7 +7049,6 @@ LIR_HEADER
 (
 BoundsCheck
 )
-;
 LBoundsCheck
 (
 const
@@ -7239,7 +7138,6 @@ LIR_HEADER
 (
 BoundsCheckRange
 )
-;
 LBoundsCheckRange
 (
 const
@@ -7339,7 +7237,6 @@ LIR_HEADER
 (
 BoundsCheckLower
 )
-;
 LBoundsCheckLower
 (
 const
@@ -7404,11 +7301,9 @@ LIR_HEADER
 (
 LoadElementV
 )
-;
 BOX_OUTPUT_ACCESSORS
 (
 )
-;
 LLoadElementV
 (
 const
@@ -7498,7 +7393,6 @@ LIR_HEADER
 (
 InArray
 )
-;
 LInArray
 (
 const
@@ -7612,11 +7506,9 @@ LIR_HEADER
 (
 LoadElementHole
 )
-;
 BOX_OUTPUT_ACCESSORS
 (
 )
-;
 LLoadElementHole
 (
 const
@@ -7730,7 +7622,6 @@ LIR_HEADER
 (
 LoadElementT
 )
-;
 LLoadElementT
 (
 const
@@ -7822,7 +7713,6 @@ LIR_HEADER
 (
 StoreElementV
 )
-;
 LStoreElementV
 (
 const
@@ -7919,7 +7809,6 @@ LIR_HEADER
 (
 StoreElementT
 )
-;
 LStoreElementT
 (
 const
@@ -8035,7 +7924,6 @@ LIR_HEADER
 (
 StoreElementHoleV
 )
-;
 LStoreElementHoleV
 (
 const
@@ -8156,7 +8044,6 @@ LIR_HEADER
 (
 StoreElementHoleT
 )
-;
 LStoreElementHoleT
 (
 const
@@ -8294,7 +8181,6 @@ LIR_HEADER
 (
 ArrayPopShiftV
 )
-;
 LArrayPopShiftV
 (
 const
@@ -8408,7 +8294,6 @@ LIR_HEADER
 (
 ArrayPopShiftT
 )
-;
 LArrayPopShiftT
 (
 const
@@ -8524,7 +8409,6 @@ LIR_HEADER
 (
 ArrayPushV
 )
-;
 LArrayPushV
 (
 const
@@ -8621,7 +8505,6 @@ LIR_HEADER
 (
 ArrayPushT
 )
-;
 LArrayPushT
 (
 const
@@ -8735,7 +8618,6 @@ LIR_HEADER
 (
 ArrayConcat
 )
-;
 LArrayConcat
 (
 const
@@ -8873,7 +8755,6 @@ LIR_HEADER
 (
 LoadTypedArrayElement
 )
-;
 LLoadTypedArrayElement
 (
 const
@@ -8987,11 +8868,9 @@ LIR_HEADER
 (
 LoadTypedArrayElementHole
 )
-;
 BOX_OUTPUT_ACCESSORS
 (
 )
-;
 LLoadTypedArrayElementHole
 (
 const
@@ -9081,7 +8960,6 @@ LIR_HEADER
 (
 StoreTypedArrayElement
 )
-;
 LStoreTypedArrayElement
 (
 const
@@ -9195,7 +9073,6 @@ LIR_HEADER
 (
 ClampIToUint8
 )
-;
 LClampIToUint8
 (
 const
@@ -9230,7 +9107,6 @@ LIR_HEADER
 (
 ClampDToUint8
 )
-;
 LClampDToUint8
 (
 const
@@ -9275,7 +9151,6 @@ LIR_HEADER
 (
 ClampVToUint8
 )
-;
 LClampVToUint8
 (
 const
@@ -9331,11 +9206,9 @@ LIR_HEADER
 (
 LoadFixedSlotV
 )
-;
 BOX_OUTPUT_ACCESSORS
 (
 )
-;
 LLoadFixedSlotV
 (
 const
@@ -9387,7 +9260,6 @@ LIR_HEADER
 (
 LoadFixedSlotT
 )
-;
 LLoadFixedSlotT
 (
 const
@@ -9441,7 +9313,6 @@ LIR_HEADER
 (
 StoreFixedSlotV
 )
-;
 LStoreFixedSlotV
 (
 const
@@ -9514,7 +9385,6 @@ LIR_HEADER
 (
 StoreFixedSlotT
 )
-;
 LStoreFixedSlotT
 (
 const
@@ -9604,11 +9474,9 @@ LIR_HEADER
 (
 GetNameCache
 )
-;
 BOX_OUTPUT_ACCESSORS
 (
 )
-;
 LGetNameCache
 (
 const
@@ -9674,11 +9542,9 @@ LIR_HEADER
 (
 CallGetIntrinsicValue
 )
-;
 BOX_OUTPUT_ACCESSORS
 (
 )
-;
 const
 MCallGetIntrinsicValue
 *
@@ -9715,11 +9581,9 @@ LIR_HEADER
 (
 GetPropertyCacheV
 )
-;
 BOX_OUTPUT_ACCESSORS
 (
 )
-;
 LGetPropertyCacheV
 (
 const
@@ -9771,7 +9635,6 @@ LIR_HEADER
 (
 GetPropertyCacheT
 )
-;
 LGetPropertyCacheT
 (
 const
@@ -9825,11 +9688,9 @@ LIR_HEADER
 (
 GetElementCacheV
 )
-;
 BOX_OUTPUT_ACCESSORS
 (
 )
-;
 static
 const
 size_t
@@ -9902,7 +9763,6 @@ LIR_HEADER
 (
 BindNameCache
 )
-;
 LBindNameCache
 (
 const
@@ -9968,11 +9828,9 @@ LIR_HEADER
 (
 LoadSlotV
 )
-;
 BOX_OUTPUT_ACCESSORS
 (
 )
-;
 LLoadSlotV
 (
 const
@@ -10024,7 +9882,6 @@ LIR_HEADER
 (
 LoadSlotT
 )
-;
 LLoadSlotT
 (
 const
@@ -10078,7 +9935,6 @@ LIR_HEADER
 (
 StoreSlotV
 )
-;
 LStoreSlotV
 (
 const
@@ -10151,7 +10007,6 @@ LIR_HEADER
 (
 StoreSlotT
 )
-;
 LStoreSlotT
 (
 const
@@ -10241,7 +10096,6 @@ LIR_HEADER
 (
 StringLength
 )
-;
 LStringLength
 (
 const
@@ -10290,7 +10144,6 @@ LIR_HEADER
 (
 Floor
 )
-;
 LFloor
 (
 const
@@ -10341,7 +10194,6 @@ LIR_HEADER
 (
 Round
 )
-;
 LRound
 (
 const
@@ -10416,7 +10268,6 @@ LIR_HEADER
 (
 FunctionEnvironment
 )
-;
 LFunctionEnvironment
 (
 const
@@ -10465,7 +10316,6 @@ LIR_HEADER
 (
 CallGetProperty
 )
-;
 static
 const
 size_t
@@ -10510,11 +10360,9 @@ LIR_HEADER
 (
 CallGetElement
 )
-;
 BOX_OUTPUT_ACCESSORS
 (
 )
-;
 static
 const
 size_t
@@ -10568,11 +10416,9 @@ LIR_HEADER
 (
 CallSetElement
 )
-;
 BOX_OUTPUT_ACCESSORS
 (
 )
-;
 static
 const
 size_t
@@ -10610,7 +10456,6 @@ LIR_HEADER
 (
 CallSetProperty
 )
-;
 LCallSetProperty
 (
 const
@@ -10669,7 +10514,6 @@ LIR_HEADER
 (
 CallDeleteProperty
 )
-;
 static
 const
 size_t
@@ -10714,7 +10558,6 @@ LIR_HEADER
 (
 SetPropertyCacheV
 )
-;
 LSetPropertyCacheV
 (
 const
@@ -10786,7 +10629,6 @@ LIR_HEADER
 (
 SetPropertyCacheT
 )
-;
 LSetPropertyCacheT
 (
 const
@@ -10874,7 +10716,6 @@ LIR_HEADER
 (
 CallIteratorStart
 )
-;
 LCallIteratorStart
 (
 const
@@ -10939,7 +10780,6 @@ LIR_HEADER
 (
 IteratorStart
 )
-;
 LIteratorStart
 (
 const
@@ -11076,11 +10916,9 @@ LIR_HEADER
 (
 IteratorNext
 )
-;
 BOX_OUTPUT_ACCESSORS
 (
 )
-;
 LIteratorNext
 (
 const
@@ -11169,7 +11007,6 @@ LIR_HEADER
 (
 IteratorMore
 )
-;
 LIteratorMore
 (
 const
@@ -11258,7 +11095,6 @@ LIR_HEADER
 (
 IteratorEnd
 )
-;
 LIteratorEnd
 (
 const
@@ -11371,7 +11207,6 @@ LIR_HEADER
 (
 ArgumentsLength
 )
-;
 }
 ;
 class
@@ -11391,11 +11226,9 @@ LIR_HEADER
 (
 GetArgument
 )
-;
 BOX_OUTPUT_ACCESSORS
 (
 )
-;
 LGetArgument
 (
 const
@@ -11444,11 +11277,9 @@ LIR_HEADER
 (
 TypeBarrier
 )
-;
 BOX_OUTPUT_ACCESSORS
 (
 )
-;
 LTypeBarrier
 (
 const
@@ -11521,7 +11352,6 @@ LIR_HEADER
 (
 MonitorTypes
 )
-;
 LMonitorTypes
 (
 const
@@ -11594,7 +11424,6 @@ LIR_HEADER
 (
 GuardClass
 )
-;
 LGuardClass
 (
 const
@@ -11698,7 +11527,6 @@ LIR_HEADER
 (
 Phi
 )
-;
 static
 LPhi
 *
@@ -11916,7 +11744,6 @@ LIR_HEADER
 (
 In
 )
-;
 LIn
 (
 const
@@ -11993,7 +11820,6 @@ LIR_HEADER
 (
 InstanceOfO
 )
-;
 LInstanceOfO
 (
 const
@@ -12058,7 +11884,6 @@ LIR_HEADER
 (
 InstanceOfV
 )
-;
 LInstanceOfV
 (
 )
@@ -12122,7 +11947,6 @@ LIR_HEADER
 (
 CallInstanceOf
 )
-;
 LCallInstanceOf
 (
 const
@@ -12216,7 +12040,6 @@ LIR_HEADER
 (
 FunctionBoundary
 )
-;
 LFunctionBoundary
 (
 const

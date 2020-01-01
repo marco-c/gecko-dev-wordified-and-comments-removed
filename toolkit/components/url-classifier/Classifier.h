@@ -178,7 +178,6 @@ return
 mHashKey
 ;
 }
-;
 void
 SetFreshTime
 (
@@ -191,7 +190,6 @@ mFreshTime
 aTime
 ;
 }
-;
 void
 SetPerClientRandomize
 (
@@ -204,7 +202,6 @@ mPerClientRandomize
 aRandomize
 ;
 }
-;
 nsresult
 ReadNoiseEntries
 (

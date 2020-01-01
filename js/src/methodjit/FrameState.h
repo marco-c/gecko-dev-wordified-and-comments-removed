@@ -2167,7 +2167,6 @@ assertValidRegisterState
 const
 {
 }
-;
 #
 endif
 Address

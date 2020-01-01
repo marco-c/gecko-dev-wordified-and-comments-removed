@@ -300,7 +300,6 @@ mLocalUpdate
 true
 ;
 }
-;
 bool
 IsLocalUpdate
 (
@@ -311,7 +310,6 @@ return
 mLocalUpdate
 ;
 }
-;
 ChunkSet
 &
 AddChunks
@@ -459,7 +457,6 @@ return
 mTableName
 ;
 }
-;
 nsresult
 Open
 (

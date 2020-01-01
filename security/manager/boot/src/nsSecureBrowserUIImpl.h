@@ -245,7 +245,6 @@ return
 NS_OK
 ;
 }
-;
 protected
 :
 mozilla

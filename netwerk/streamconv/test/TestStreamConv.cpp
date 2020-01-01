@@ -162,7 +162,6 @@ EndListener
 )
 {
 }
-;
 NS_IMETHOD
 OnDataAvailable
 (

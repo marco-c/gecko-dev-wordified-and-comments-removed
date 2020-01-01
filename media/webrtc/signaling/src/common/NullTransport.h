@@ -102,7 +102,6 @@ NullTransport
 )
 {
 }
-;
 private
 :
 NullTransport

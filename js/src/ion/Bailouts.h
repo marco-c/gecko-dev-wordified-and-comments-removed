@@ -197,7 +197,6 @@ construct
 )
 ;
 }
-;
 InvokeArgsGuard
 *
 argsGuard

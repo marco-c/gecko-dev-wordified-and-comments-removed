@@ -290,7 +290,6 @@ return
 mSrcStreamLoading
 ;
 }
-;
 protected
 :
 nsresult
