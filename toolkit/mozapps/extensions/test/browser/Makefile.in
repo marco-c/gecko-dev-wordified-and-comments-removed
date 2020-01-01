@@ -597,6 +597,10 @@ NULL
 _TEST_RESOURCES
 =
 \
+addon_prefs
+.
+xul
+\
 browser_bug557956
 .
 rdf
