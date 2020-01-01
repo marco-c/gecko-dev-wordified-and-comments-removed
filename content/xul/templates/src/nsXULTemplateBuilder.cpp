@@ -3763,6 +3763,11 @@ nsGkAtoms
 datasources
 )
 {
+Uninit
+(
+PR_FALSE
+)
+;
 PRBool
 shouldDelay
 ;
