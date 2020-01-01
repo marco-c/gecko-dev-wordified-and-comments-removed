@@ -110,8 +110,6 @@ const
 char
 *
 aDependentLib
-PRBool
-do_preload
 )
 {
 CHAR

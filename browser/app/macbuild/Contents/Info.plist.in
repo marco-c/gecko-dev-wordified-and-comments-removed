@@ -705,6 +705,8 @@ key
 string
 >
 firefox
+-
+bin
 <
 /
 string

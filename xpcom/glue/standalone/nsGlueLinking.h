@@ -54,8 +54,6 @@ const
 char
 *
 aDependentLib
-PRBool
-do_preload
 )
 ;
 NS_HIDDEN_
