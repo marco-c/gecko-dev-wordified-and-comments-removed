@@ -252,6 +252,10 @@ TestSTSParser
 .
 cpp
 \
+TestUDPServerSocket
+.
+cpp
+\
 (
 NULL
 )
