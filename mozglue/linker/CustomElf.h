@@ -687,6 +687,16 @@ addr
 )
 const
 ;
+void
+stats
+(
+const
+char
+*
+when
+)
+const
+;
 private
 :
 const
