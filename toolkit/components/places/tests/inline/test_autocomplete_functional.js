@@ -36,7 +36,7 @@ enabled
 false
 )
 ;
-addVisits
+promiseAddVisits
 (
 {
 uri
@@ -103,7 +103,7 @@ autoFill
 false
 )
 ;
-addVisits
+promiseAddVisits
 (
 {
 uri
@@ -209,7 +209,7 @@ TRANSITION_TYPED
 }
 ]
 ;
-addVisits
+promiseAddVisits
 (
 places
 )
@@ -247,7 +247,7 @@ function
 (
 )
 {
-addVisits
+promiseAddVisits
 (
 NetUtil
 .
@@ -307,7 +307,7 @@ function
 (
 )
 {
-addVisits
+promiseAddVisits
 (
 NetUtil
 .
@@ -372,7 +372,7 @@ function
 (
 )
 {
-addVisits
+promiseAddVisits
 (
 NetUtil
 .
@@ -450,7 +450,7 @@ org
 }
 )
 ;
-addVisits
+promiseAddVisits
 (
 NetUtil
 .
@@ -574,7 +574,7 @@ smokey
 }
 ]
 ;
-addVisits
+promiseAddVisits
 (
 places
 )
@@ -689,7 +689,7 @@ smokey
 }
 ]
 ;
-addVisits
+promiseAddVisits
 (
 places
 )
@@ -738,7 +738,7 @@ function
 (
 )
 {
-addVisits
+promiseAddVisits
 (
 NetUtil
 .
@@ -815,7 +815,7 @@ function
 (
 )
 {
-addVisits
+promiseAddVisits
 (
 NetUtil
 .

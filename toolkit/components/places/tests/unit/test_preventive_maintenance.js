@@ -7994,7 +7994,7 @@ function
 (
 )
 {
-addVisits
+promiseAddVisits
 (
 [
 {

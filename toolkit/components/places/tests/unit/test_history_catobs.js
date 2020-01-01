@@ -188,7 +188,7 @@ do_test_pending
 (
 )
 ;
-addVisits
+promiseAddVisits
 (
 uri
 (
@@ -204,6 +204,10 @@ mozilla
 org
 "
 )
+)
+.
+then
+(
 function
 (
 )

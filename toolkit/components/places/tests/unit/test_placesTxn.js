@@ -3908,9 +3908,13 @@ org
 "
 )
 ;
-addVisits
+promiseAddVisits
 (
 testURI
+)
+.
+then
+(
 function
 (
 )

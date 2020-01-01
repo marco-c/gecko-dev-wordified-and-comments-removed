@@ -40,7 +40,7 @@ typed
 false
 )
 ;
-addVisits
+promiseAddVisits
 (
 {
 uri
@@ -122,7 +122,7 @@ typed
 false
 )
 ;
-addVisits
+promiseAddVisits
 (
 {
 uri

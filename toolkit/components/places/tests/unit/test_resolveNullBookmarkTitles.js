@@ -49,7 +49,7 @@ tld
 "
 )
 ;
-addVisits
+promiseAddVisits
 (
 [
 {
@@ -75,6 +75,10 @@ title
 "
 }
 ]
+)
+.
+then
+(
 function
 (
 )

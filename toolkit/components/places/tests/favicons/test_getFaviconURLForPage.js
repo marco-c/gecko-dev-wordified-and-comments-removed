@@ -35,9 +35,13 @@ normal
 "
 )
 ;
-addVisits
+promiseAddVisits
 (
 pageURI
+)
+.
+then
+(
 function
 (
 )

@@ -38,7 +38,7 @@ Test
 visit
 "
 ;
-addVisits
+promiseAddVisits
 (
 {
 uri
@@ -48,6 +48,10 @@ title
 :
 title
 }
+)
+.
+then
+(
 function
 (
 )

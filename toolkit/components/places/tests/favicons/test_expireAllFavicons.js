@@ -109,7 +109,7 @@ TOPIC_FAVICONS_EXPIRED
 false
 )
 ;
-addVisits
+promiseAddVisits
 (
 {
 uri
@@ -119,6 +119,10 @@ transition
 :
 TRANSITION_TYPED
 }
+)
+.
+then
+(
 function
 (
 )

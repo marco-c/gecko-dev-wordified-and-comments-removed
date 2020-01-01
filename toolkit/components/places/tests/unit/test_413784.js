@@ -289,9 +289,13 @@ do_test_pending
 (
 )
 ;
-addVisits
+promiseAddVisits
 (
 url
+)
+.
+then
+(
 continue_test
 )
 ;
