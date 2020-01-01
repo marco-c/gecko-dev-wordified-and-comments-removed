@@ -6,6 +6,13 @@ IUnknownImpl
 h
 "
 #
+include
+"
+nsDebug
+.
+h
+"
+#
 ifdef
 MOZ_CRASHREPORTER
 #
