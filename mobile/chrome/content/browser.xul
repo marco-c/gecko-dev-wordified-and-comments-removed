@@ -3553,6 +3553,11 @@ flex
 "
 1
 "
+delaybinding
+=
+"
+true
+"
 readonly
 =
 "
