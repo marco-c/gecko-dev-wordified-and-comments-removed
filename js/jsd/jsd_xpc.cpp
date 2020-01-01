@@ -10590,7 +10590,7 @@ cx
 JSCompartment
 *
 comp
-JSBool
+PRBool
 mode
 )
 {

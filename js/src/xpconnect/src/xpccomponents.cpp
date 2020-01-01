@@ -105,7 +105,7 @@ errNum
 JSContext
 *
 cx
-JSBool
+PRBool
 *
 retval
 )

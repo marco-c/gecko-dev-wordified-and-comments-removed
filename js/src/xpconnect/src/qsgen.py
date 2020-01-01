@@ -2634,7 +2634,7 @@ boolean
 :
         
 "
-PRBool
+JSBool
 {
 name
 }
