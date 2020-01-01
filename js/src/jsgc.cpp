@@ -20410,6 +20410,11 @@ trc
 )
 return
 ;
+bool
+compartmentCreated
+=
+false
+;
 for
 (
 CompartmentsIter
@@ -20440,7 +20445,9 @@ c
 >
 needsBarrier_
 )
-return
+compartmentCreated
+=
+true
 ;
 c
 -
@@ -20536,6 +20543,10 @@ trc
 ;
 if
 (
+!
+compartmentCreated
+&
+&
 IsIncrementalGCSafe
 (
 rt
