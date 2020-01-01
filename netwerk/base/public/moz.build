@@ -303,6 +303,11 @@ nsILoadGroup
 idl
 '
 '
+nsILoadGroupChild
+.
+idl
+'
+'
 nsIMIMEInputStream
 .
 idl

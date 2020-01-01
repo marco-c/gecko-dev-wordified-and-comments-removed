@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsILoadGroupChild
+.
+h
+"
+#
+include
+"
 nsIChannel
 .
 h
@@ -106,6 +113,8 @@ nsLoadGroup
 public
 nsILoadGroup
 public
+nsILoadGroupChild
+public
 nsISupportsPriority
 public
 nsSupportsWeakReference
@@ -115,6 +124,7 @@ public
 NS_DECL_AGGREGATED
 NS_DECL_NSIREQUEST
 NS_DECL_NSILOADGROUP
+NS_DECL_NSILOADGROUPCHILD
 NS_DECL_NSISUPPORTSPRIORITY
 nsLoadGroup
 (
@@ -201,6 +211,9 @@ mRequests
 ;
 nsWeakPtr
 mObserver
+;
+nsWeakPtr
+mParentLoadGroup
 ;
 nsresult
 mStatus
