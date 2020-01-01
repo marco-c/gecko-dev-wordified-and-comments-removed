@@ -1835,6 +1835,10 @@ IonAnalysis
 .
 cpp
 \
+IonLowering
+.
+cpp
+\
 (
 NULL
 )
