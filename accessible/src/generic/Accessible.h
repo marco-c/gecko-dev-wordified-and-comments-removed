@@ -329,6 +329,12 @@ Shutdown
 )
 ;
 virtual
+bool
+Init
+(
+)
+;
+virtual
 void
 Description
 (

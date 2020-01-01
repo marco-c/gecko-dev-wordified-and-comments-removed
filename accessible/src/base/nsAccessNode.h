@@ -161,12 +161,6 @@ RootAccessible
 const
 ;
 virtual
-bool
-Init
-(
-)
-;
-virtual
 void
 Shutdown
 (

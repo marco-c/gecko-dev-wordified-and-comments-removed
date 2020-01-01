@@ -1830,13 +1830,6 @@ newNode
 return
 NULL
 ;
-newNode
--
->
-Init
-(
-)
-;
 iNode
 =
 static_cast
