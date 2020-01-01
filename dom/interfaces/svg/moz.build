@@ -108,11 +108,6 @@ nsIDOMSVGAnimatedInteger
 idl
 '
 '
-nsIDOMSVGAnimatedLength
-.
-idl
-'
-'
 nsIDOMSVGAnimatedNumber
 .
 idl
