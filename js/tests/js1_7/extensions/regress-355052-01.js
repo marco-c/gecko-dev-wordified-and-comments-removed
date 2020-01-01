@@ -75,7 +75,7 @@ summary
 ;
 expect
 =
-'
+/
 TypeError
 :
 NaN
@@ -83,7 +83,7 @@ is
 not
 a
 function
-'
+/
 ;
 actual
 =
@@ -128,7 +128,7 @@ ex
 '
 ;
 }
-reportCompare
+reportMatch
 (
 expect
 actual
