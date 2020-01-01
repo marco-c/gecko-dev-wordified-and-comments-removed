@@ -260,9 +260,43 @@ timeout
 maxTime
 startTime
 debuggerInfo
-symbolsDir
+symbolsPath
 )
 :
+        
+"
+"
+"
+Wait
+for
+tests
+to
+finish
+(
+as
+evidenced
+by
+the
+process
+exiting
+)
+            
+or
+for
+maxTime
+elapse
+in
+which
+case
+kill
+the
+process
+regardless
+.
+        
+"
+"
+"
         
 status
 =
@@ -274,11 +308,6 @@ timeout
 =
 maxTime
 )
-        
-print
-proc
-.
-stdout
         
 if
 (
@@ -948,13 +977,6 @@ return
 '
 '
                 
-tlen
-=
-len
-(
-t
-)
-                
 retVal
 =
 t
@@ -969,7 +991,10 @@ self
 .
 stdoutlen
 =
-tlen
+len
+(
+t
+)
                 
 return
 retVal
@@ -1076,6 +1101,11 @@ timeout
 :
                     
 break
+            
+print
+self
+.
+stdout
             
 if
 (
