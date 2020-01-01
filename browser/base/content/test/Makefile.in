@@ -1406,10 +1406,6 @@ browser_aboutHealthReport
 .
 js
 \
-healthreport_testPostMessage
-.
-html
-\
 healthreport_testRemoteCommands
 .
 html
