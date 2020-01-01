@@ -53,6 +53,11 @@ if
 (
 B2G
 )
+HTTP
+(
+.
+.
+)
 =
 =
 font
@@ -356,6 +361,11 @@ justification
 ref
 .
 html
+HTTP
+(
+.
+.
+)
 load
 ligature
 -
@@ -1057,6 +1067,11 @@ metrics
 notref
 .
 html
+HTTP
+(
+.
+.
+)
 =
 =
 synthetic
@@ -2033,6 +2048,11 @@ block
 ref
 .
 html
+HTTP
+(
+.
+.
+)
 =
 =
 variation
