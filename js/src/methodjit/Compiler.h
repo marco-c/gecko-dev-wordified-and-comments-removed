@@ -1921,6 +1921,9 @@ hasGlobalReallocation
 bool
 oomInVector
 ;
+bool
+overflowICSpace
+;
 uint32
 gcNumber
 ;
