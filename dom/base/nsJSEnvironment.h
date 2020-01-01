@@ -410,7 +410,7 @@ ConnectToInner
 nsIScriptGlobalObject
 *
 aNewInner
-void
+JSObject
 *
 aOuterGlobal
 )
