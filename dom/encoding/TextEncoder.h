@@ -261,9 +261,7 @@ aRv
 ;
 private
 :
-const
-char
-*
+nsCString
 mEncoding
 ;
 nsCOMPtr
