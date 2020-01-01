@@ -9006,6 +9006,16 @@ origin
 =
 =
 null
+&
+&
+this
+.
+_isLaunchable
+(
+app
+.
+origin
+)
 )
 {
 sendError
