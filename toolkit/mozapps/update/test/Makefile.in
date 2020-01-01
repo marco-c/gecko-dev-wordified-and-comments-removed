@@ -676,7 +676,7 @@ libs
 :
 unit
 /
-test_0040_general
+head_update
 .
 js
 .
@@ -698,6 +698,9 @@ Fsubstitution
 (
 DEFINES
 )
+(
+ACDEFINES
+)
 ^
 >
 (
@@ -706,7 +709,7 @@ TESTROOT
 /
 unit
 /
-test_0040_general
+head_update
 .
 js
 check
