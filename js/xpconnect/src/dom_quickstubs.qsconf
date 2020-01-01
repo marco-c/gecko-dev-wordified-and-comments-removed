@@ -941,11 +941,6 @@ dom
 interfaces
 /
 traversal
-'
-nsIDOMNodeIterator
-.
-nextNode
-'
 #
 dom
 /
