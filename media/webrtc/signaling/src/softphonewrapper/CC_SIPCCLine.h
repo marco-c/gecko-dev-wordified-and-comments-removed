@@ -37,7 +37,7 @@ h
 namespace
 CSF
 {
-DECLARE_NS_PTR
+DECLARE_PTR
 (
 CC_SIPCCLine
 )

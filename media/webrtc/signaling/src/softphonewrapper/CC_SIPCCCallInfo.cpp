@@ -988,10 +988,6 @@ wrap
 (
 lineId
 )
-.
-get
-(
-)
 ;
 }
 string

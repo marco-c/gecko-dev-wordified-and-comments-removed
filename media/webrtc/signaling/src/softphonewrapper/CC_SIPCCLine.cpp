@@ -105,10 +105,6 @@ wrap
 (
 lineInfoRef
 )
-.
-get
-(
-)
 ;
 CCAPI_Line_releaseLineInfo
 (
@@ -142,10 +138,6 @@ CC_SIPCCCall
 wrap
 (
 callHandle
-)
-.
-get
-(
 )
 ;
 }
