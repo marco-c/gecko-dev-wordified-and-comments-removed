@@ -308,7 +308,7 @@ string
 msg
 =
 new
-XPCSafeJSObjectWraper
+XPCSafeJSObjectWrapper
 (
 msg
 )
