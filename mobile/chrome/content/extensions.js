@@ -3277,7 +3277,9 @@ addon
 .
 install
 .
-sourceURL
+sourceURI
+.
+spec
 )
 ;
 if
@@ -4312,7 +4314,9 @@ getElementForAddon
 (
 aInstall
 .
-sourceURL
+sourceURI
+.
+spec
 )
 ;
 if
@@ -4439,7 +4443,9 @@ getElementForAddon
 (
 aInstall
 .
-sourceURL
+sourceURI
+.
+spec
 )
 ;
 if
@@ -4604,7 +4610,9 @@ getElementForAddon
 (
 aInstall
 .
-sourceURL
+sourceURI
+.
+spec
 )
 ;
 if
