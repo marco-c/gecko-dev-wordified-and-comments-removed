@@ -1421,6 +1421,14 @@ ins
 )
 ;
 bool
+visitParRest
+(
+MParRest
+*
+ins
+)
+;
+bool
 visitThrow
 (
 MThrow

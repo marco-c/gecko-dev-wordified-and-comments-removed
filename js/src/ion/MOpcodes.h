@@ -889,6 +889,11 @@ ParLambda
 \
 _
 (
+ParRest
+)
+\
+_
+(
 ParSlice
 )
 \
