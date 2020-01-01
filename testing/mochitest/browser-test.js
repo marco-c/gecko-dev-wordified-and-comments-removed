@@ -1787,7 +1787,8 @@ testResult
 (
 false
 "
-Timed
+Test
+timed
 out
 "
 "
