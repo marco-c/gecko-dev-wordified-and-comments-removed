@@ -672,7 +672,6 @@ o
 o
 .
 notification
-false
 )
 ;
 }
@@ -8115,7 +8114,6 @@ Passwords
 :
 Init
 "
-false
 )
 ;
 break
@@ -8190,7 +8188,6 @@ FormHistory
 :
 Init
 "
-false
 )
 ;
 break
@@ -28423,7 +28420,6 @@ Window
 :
 Resize
 "
-false
 )
 ;
 }
@@ -29951,7 +29947,6 @@ this
 this
 .
 _permissionsPrompt
-false
 )
 ;
 Services
@@ -29964,7 +29959,6 @@ this
 this
 .
 _quotaPrompt
-false
 )
 ;
 Services
@@ -29977,7 +29971,6 @@ this
 this
 .
 _quotaCancel
-false
 )
 ;
 }
@@ -31350,7 +31343,6 @@ CharEncoding
 :
 Get
 "
-false
 )
 ;
 Services
@@ -31365,7 +31357,6 @@ CharEncoding
 :
 Set
 "
-false
 )
 ;
 }
@@ -34127,7 +34118,6 @@ install
 -
 error
 "
-false
 )
 ;
 }
@@ -38617,7 +38607,6 @@ Reader
 :
 Add
 "
-false
 )
 ;
 Services
@@ -38632,7 +38621,6 @@ Reader
 :
 Remove
 "
-false
 )
 ;
 let
