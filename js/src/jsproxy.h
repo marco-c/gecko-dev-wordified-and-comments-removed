@@ -473,6 +473,16 @@ return
 false
 ;
 }
+virtual
+bool
+isCrossCompartment
+(
+)
+{
+return
+false
+;
+}
 inline
 void
 *
