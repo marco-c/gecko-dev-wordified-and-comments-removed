@@ -16372,6 +16372,12 @@ link
 .
 href
 )
+&
+&
+!
+gPrivateBrowsingUI
+.
+privateBrowsingEnabled
 )
 {
 var
@@ -36777,7 +36783,7 @@ _identityIconLabel
 .
 parentNode
 .
-hidden
+collapsed
 =
 icon_label
 ?
@@ -40481,7 +40487,7 @@ context_undoCloseTab
 "
 )
 .
-hidden
+disabled
 =
 Cc
 [
