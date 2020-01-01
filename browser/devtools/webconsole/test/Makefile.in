@@ -513,6 +513,10 @@ browser_console_variables_view_while_debugging
 .
 js
 \
+browser_console
+.
+js
+\
 head
 .
 js

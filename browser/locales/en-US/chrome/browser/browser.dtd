@@ -2079,6 +2079,17 @@ Console
 <
 !
 ENTITY
+browserConsoleCmd
+.
+label
+"
+Browser
+Console
+"
+>
+<
+!
+ENTITY
 inspectContextMenu
 .
 label
