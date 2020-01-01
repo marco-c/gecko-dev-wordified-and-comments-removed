@@ -564,6 +564,16 @@ stopFrameRecording
 (
 )
 ;
+void
+startCheckerboardRecording
+(
+)
+;
+int
+stopCheckerboardRecording
+(
+)
+;
 /
 *
 *
