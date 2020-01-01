@@ -4576,7 +4576,9 @@ addTab
 json
 .
 uri
-false
+json
+.
+bringFront
 Browser
 .
 selectedTab
