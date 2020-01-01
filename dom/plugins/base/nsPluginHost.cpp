@@ -4684,13 +4684,6 @@ if
 instance
 )
 {
-instance
--
->
-Start
-(
-)
-;
 aOwner
 -
 >
@@ -4982,13 +4975,6 @@ win
 instance
 )
 {
-instance
--
->
-Start
-(
-)
-;
 aOwner
 -
 >
