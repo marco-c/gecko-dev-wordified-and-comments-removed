@@ -134,6 +134,13 @@ search_row_height
 "
 android
 :
+duplicateParentState
+=
+"
+true
+"
+android
+:
 paddingTop
 =
 "
