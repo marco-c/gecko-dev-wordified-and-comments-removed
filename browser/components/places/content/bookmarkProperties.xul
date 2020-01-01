@@ -677,6 +677,16 @@ onDialogUnload
 )
 ;
 "
+style
+=
+"
+min
+-
+width
+:
+30em
+;
+"
 persist
 =
 "
