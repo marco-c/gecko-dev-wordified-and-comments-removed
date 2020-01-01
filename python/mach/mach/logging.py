@@ -386,14 +386,8 @@ record
 )
 :
         
-if
-not
-self
-.
-write_times
-:
-            
-return
+f
+=
 record
 .
 msg
@@ -406,6 +400,16 @@ record
 .
 params
 )
+        
+if
+not
+self
+.
+write_times
+:
+            
+return
+f
         
 elapsed
 =
@@ -429,19 +433,7 @@ format_seconds
 (
 elapsed
 )
-            
-record
-.
-msg
-.
-format
-(
-*
-*
-record
-.
-params
-)
+f
 )
     
 def
@@ -541,6 +533,31 @@ record
 )
 :
         
+f
+=
+record
+.
+msg
+.
+format
+(
+*
+*
+record
+.
+params
+)
+        
+if
+not
+self
+.
+write_times
+:
+            
+return
+f
+        
 t
 =
 self
@@ -558,21 +575,6 @@ _time
 record
 )
 )
-)
-        
-f
-=
-record
-.
-msg
-.
-format
-(
-*
-*
-record
-.
-params
 )
         
 return
@@ -1027,6 +1029,9 @@ INFO
 write_interval
 =
 False
+write_times
+=
+True
 )
 :
         
@@ -1054,6 +1059,9 @@ start_time
 write_interval
 =
 write_interval
+write_times
+=
+write_times
 )
         
 if
@@ -1073,6 +1081,9 @@ start_time
 write_interval
 =
 write_interval
+write_times
+=
+write_times
 )
             
 formatter
