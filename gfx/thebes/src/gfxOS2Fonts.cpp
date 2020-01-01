@@ -724,7 +724,7 @@ glyph
 >
 metrics
 .
-width
+horiAdvance
 *
 xScale
 ;
