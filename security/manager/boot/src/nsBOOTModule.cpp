@@ -31,7 +31,7 @@ h
 #
 include
 "
-nsSiteSecurityService
+nsStrictTransportSecurityService
 .
 h
 "
@@ -50,7 +50,7 @@ Init
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
-nsSiteSecurityService
+nsStrictTransportSecurityService
 Init
 )
 NS_DEFINE_NAMED_CID
@@ -70,7 +70,7 @@ NS_SECURE_BROWSER_UI_CID
 ;
 NS_DEFINE_NAMED_CID
 (
-NS_SITE_SECURITY_SERVICE_CID
+NS_STRICT_TRANSPORT_SECURITY_CID
 )
 ;
 static
@@ -110,10 +110,10 @@ nsSecureBrowserUIImplConstructor
 }
 {
 &
-kNS_SITE_SECURITY_SERVICE_CID
+kNS_STRICT_TRANSPORT_SECURITY_CID
 false
 nullptr
-nsSiteSecurityServiceConstructor
+nsStrictTransportSecurityServiceConstructor
 }
 {
 nullptr
@@ -150,9 +150,9 @@ NS_SECURE_BROWSER_UI_CONTRACTID
 kNS_SECURE_BROWSER_UI_CID
 }
 {
-NS_SSSERVICE_CONTRACTID
+NS_STSSERVICE_CONTRACTID
 &
-kNS_SITE_SECURITY_SERVICE_CID
+kNS_STRICT_TRANSPORT_SECURITY_CID
 }
 {
 nullptr

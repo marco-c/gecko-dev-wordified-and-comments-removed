@@ -498,11 +498,6 @@ nsISimpleStreamListener
 idl
 '
 '
-nsISiteSecurityService
-.
-idl
-'
-'
 nsISocketTransport
 .
 idl
@@ -539,6 +534,11 @@ idl
 '
 '
 nsIStreamTransportService
+.
+idl
+'
+'
+nsIStrictTransportSecurityService
 .
 idl
 '

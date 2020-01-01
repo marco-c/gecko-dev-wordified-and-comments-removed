@@ -128,7 +128,7 @@ nsSecurityWarningDialogs
 cpp
 '
 '
-nsSiteSecurityService
+nsStrictTransportSecurityService
 .
 cpp
 '

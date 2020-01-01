@@ -8183,7 +8183,7 @@ null
 )
 ;
 var
-sss
+stss
 =
 Cc
 [
@@ -8192,7 +8192,7 @@ mozilla
 .
 org
 /
-ssservice
+stsservice
 ;
 1
 "
@@ -8202,7 +8202,7 @@ getService
 (
 Ci
 .
-nsISiteSecurityService
+nsIStrictTransportSecurityService
 )
 ;
 var
@@ -8251,15 +8251,10 @@ nsISocketProvider
 .
 NO_PERMANENT_STORAGE
 ;
-sss
+stss
 .
-removeState
+removeStsState
 (
-Ci
-.
-nsISiteSecurityService
-.
-HEADER_HSTS
 thehost
 flags
 )
