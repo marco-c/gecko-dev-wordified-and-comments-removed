@@ -16560,6 +16560,7 @@ image
 0
 &
 meterRect
+nsnull
 )
 ;
 else
@@ -16626,6 +16627,7 @@ image
 0
 &
 meterRect
+nsnull
 )
 ;
 }
