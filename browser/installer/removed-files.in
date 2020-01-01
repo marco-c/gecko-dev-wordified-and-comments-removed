@@ -4253,3 +4253,8 @@ components
 airbag
 .
 xpt
+components
+/
+nsUrlClassifierTable
+.
+js

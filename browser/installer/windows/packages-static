@@ -1630,13 +1630,6 @@ bin
 \
 components
 \
-nsUrlClassifierTable
-.
-js
-bin
-\
-components
-\
 url
 -
 classifier
