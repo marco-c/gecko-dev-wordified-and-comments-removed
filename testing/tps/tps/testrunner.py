@@ -2923,8 +2923,6 @@ serverURL
 '
 ]
                                  
-self
-.
 buildUrl
 )
       
