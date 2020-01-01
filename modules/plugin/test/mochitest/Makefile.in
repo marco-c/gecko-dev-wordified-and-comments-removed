@@ -438,6 +438,10 @@ test_npobject_getters
 .
 html
 \
+test_npruntime_npnevaluate
+.
+html
+\
 test_npruntime_npninvoke
 .
 html
