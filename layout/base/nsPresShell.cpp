@@ -23044,6 +23044,15 @@ GetVisualOverflowRect
 (
 )
 ;
+info
+-
+>
+mBuilder
+.
+SetIncludeAllOutOfFlows
+(
+)
+;
 if
 (
 aForPrimarySelection

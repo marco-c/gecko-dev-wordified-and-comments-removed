@@ -186,6 +186,10 @@ mIsAtRootOfPseudoStackingContext
 (
 PR_FALSE
 )
+mIncludeAllOutOfFlows
+(
+PR_FALSE
+)
 mSelectedFramesOnly
 (
 PR_FALSE
