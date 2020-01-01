@@ -5371,11 +5371,6 @@ cx
 ContentScriptErrorReporter
 )
 ;
-xpc_LocalizeContext
-(
-cx
-)
-;
 JSAutoRequest
 ar
 (

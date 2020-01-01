@@ -2283,11 +2283,6 @@ rv
 rv
 )
 ;
-xpc_LocalizeContext
-(
-mContext
-)
-;
 #
 ifdef
 DEBUG_shaver_off
