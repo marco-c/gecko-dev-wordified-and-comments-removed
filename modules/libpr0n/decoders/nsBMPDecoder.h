@@ -102,6 +102,12 @@ GetCompressedImageSize
 )
 const
 ;
+PRBool
+HasAlphaData
+(
+)
+const
+;
 virtual
 void
 WriteInternal
@@ -193,6 +199,9 @@ ProcessInfoHeader
 ;
 PRPackedBool
 mUseAlphaData
+;
+PRPackedBool
+mHaveAlphaData
 ;
 }
 ;
