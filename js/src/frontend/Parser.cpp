@@ -24470,7 +24470,7 @@ begin
 )
 ;
 case
-TOK_PLUS
+TOK_ADD
 :
 return
 unaryOpExpr
@@ -24481,7 +24481,7 @@ begin
 )
 ;
 case
-TOK_MINUS
+TOK_SUB
 :
 return
 unaryOpExpr
