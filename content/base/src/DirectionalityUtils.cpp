@@ -1986,13 +1986,6 @@ DoesNotParticipateInAutoDirection
 (
 aElement
 )
-&
-&
-!
-IsBdiWithoutDirAuto
-(
-aElement
-)
 )
 {
 bool
@@ -2102,7 +2095,7 @@ children
 child
 -
 >
-SetHasDirAuto
+SetAncestorHasDirAuto
 (
 )
 ;
