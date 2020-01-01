@@ -28,8 +28,7 @@ public
 :
 nsScreenWin
 (
-void
-*
+HMONITOR
 inScreen
 )
 ;
@@ -90,8 +89,7 @@ aColorDepth
 ;
 private
 :
-void
-*
+HMONITOR
 mScreen
 ;
 }
