@@ -5214,7 +5214,7 @@ ReplaceSubstring
 ;
 nsCOMPtr
 <
-nsIOService
+nsIIOService
 >
 ios
 (
@@ -5240,7 +5240,7 @@ NewURI
 spec
 nsnull
 nsnull
-gettter_AddRefs
+getter_AddRefs
 (
 uri
 )
@@ -5310,7 +5310,6 @@ allowLoad
 =
 PR_FALSE
 ;
-nsresult
 rv
 =
 prefs
