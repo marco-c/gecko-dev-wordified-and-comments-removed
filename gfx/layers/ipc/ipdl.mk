@@ -60,6 +60,10 @@ PCompositor
 .
 ipdl
 \
+PGrallocBuffer
+.
+ipdl
+\
 PLayer
 .
 ipdl
