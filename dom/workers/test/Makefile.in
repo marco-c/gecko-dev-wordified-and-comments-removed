@@ -470,6 +470,14 @@ bug911085_worker
 .
 js
 \
+test_urlApi
+.
+html
+\
+urlApi_worker
+.
+js
+\
 (
 NULL
 )
