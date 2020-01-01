@@ -488,6 +488,10 @@ test_smilCSSInherit
 .
 xhtml
 \
+test_smilCSSInvalidValues
+.
+xhtml
+\
 test_smilCSSPaced
 .
 xhtml
