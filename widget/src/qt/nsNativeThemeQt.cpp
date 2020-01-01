@@ -127,6 +127,13 @@ h
 "
 #
 include
+"
+nsIDOMHTMLInputElement
+.
+h
+"
+#
+include
 <
 malloc
 .
@@ -636,6 +643,9 @@ break
 case
 NS_THEME_CHECKBOX
 :
+case
+NS_THEME_CHECKBOX_SMALL
+:
 {
 qDebug
 (
@@ -810,6 +820,7 @@ NS_THEME_SCROLLBAR_BUTTON_LEFT
 )
 ;
 eventFlags
+|
 =
 QStyle
 :
@@ -874,6 +885,7 @@ NS_THEME_SCROLLBAR_BUTTON_RIGHT
 )
 ;
 eventFlags
+|
 =
 QStyle
 :
@@ -938,6 +950,7 @@ NS_THEME_SCROLLBAR_THUMB_HORIZONTAL
 )
 ;
 eventFlags
+|
 =
 QStyle
 :
@@ -1307,6 +1320,9 @@ case
 NS_THEME_RADIO
 :
 case
+NS_THEME_CHECKBOX_SMALL
+:
+case
 NS_THEME_CHECKBOX
 :
 {
@@ -1366,10 +1382,18 @@ s
 >
 subElementRect
 (
+(
 aWidgetType
 =
 =
 NS_THEME_CHECKBOX
+|
+|
+aWidgetType
+=
+=
+NS_THEME_CHECKBOX_SMALL
+)
 ?
 QStyle
 :
@@ -1875,6 +1899,9 @@ NS_THEME_RADIO_SMALL
 :
 case
 NS_THEME_CHECKBOX
+:
+case
+NS_THEME_CHECKBOX_SMALL
 :
 case
 NS_THEME_BUTTON_BEVEL
