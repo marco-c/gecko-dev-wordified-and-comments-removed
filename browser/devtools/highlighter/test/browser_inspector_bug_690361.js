@@ -447,9 +447,7 @@ getElementById
 "
 highlighter
 -
-close
--
-button
+closebutton
 "
 )
 ;
