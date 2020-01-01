@@ -994,6 +994,12 @@ js
 \
 tabview
 /
+browser_tabview_launch
+.
+js
+\
+tabview
+/
 browser_visibleTabs
 .
 js
