@@ -56,6 +56,9 @@ mozilla
 namespace
 widget
 {
+struct
+MSGResult
+;
 class
 IMEHandler
 MOZ_FINAL
@@ -108,12 +111,9 @@ aWParam
 LPARAM
 &
 aLParam
-LRESULT
-*
-aRetValue
-bool
+MSGResult
 &
-aEatMessage
+aResult
 )
 ;
 static
