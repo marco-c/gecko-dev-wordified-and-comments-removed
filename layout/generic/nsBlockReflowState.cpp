@@ -3194,6 +3194,14 @@ false
 }
 if
 (
+mContentArea
+.
+height
+!
+=
+NS_UNCONSTRAINEDSIZE
+&
+&
 !
 mustPlaceFloat
 &
