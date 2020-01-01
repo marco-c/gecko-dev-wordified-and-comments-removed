@@ -840,11 +840,11 @@ onNewGlobalObjectWatchersLink
 typedef
 HashMap
 <
-TaggedFramePtr
+AbstractFramePtr
 RelocatablePtrObject
 DefaultHasher
 <
-TaggedFramePtr
+AbstractFramePtr
 >
 RuntimeAllocPolicy
 >
@@ -1948,7 +1948,7 @@ inline
 bool
 observesFrame
 (
-TaggedFramePtr
+AbstractFramePtr
 frame
 )
 const
@@ -2617,7 +2617,7 @@ Debugger
 :
 observesFrame
 (
-TaggedFramePtr
+AbstractFramePtr
 frame
 )
 const

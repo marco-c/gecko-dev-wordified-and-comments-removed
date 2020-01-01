@@ -15257,12 +15257,12 @@ isIon
 )
 continue
 ;
-TaggedFramePtr
+AbstractFramePtr
 frame
 =
 i
 .
-taggedFramePtr
+abstractFramePtr
 (
 )
 ;

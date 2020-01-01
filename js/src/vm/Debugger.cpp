@@ -444,7 +444,7 @@ Debugger
 :
 FrameRange
 {
-TaggedFramePtr
+AbstractFramePtr
 frame
 ;
 GlobalObject
@@ -468,7 +468,7 @@ public
 :
 FrameRange
 (
-TaggedFramePtr
+AbstractFramePtr
 frame
 GlobalObject
 *
@@ -1717,7 +1717,7 @@ lookupForAdd
 (
 iter
 .
-taggedFramePtr
+abstractFramePtr
 (
 )
 )
@@ -1818,7 +1818,7 @@ add
 p
 iter
 .
-taggedFramePtr
+abstractFramePtr
 (
 )
 frameobj
@@ -2184,7 +2184,7 @@ observesFrame
 (
 iter
 .
-taggedFramePtr
+abstractFramePtr
 (
 )
 )
@@ -2409,7 +2409,7 @@ r
 (
 iter
 .
-taggedFramePtr
+abstractFramePtr
 (
 )
 global
@@ -2688,7 +2688,7 @@ r
 (
 iter
 .
-taggedFramePtr
+abstractFramePtr
 (
 )
 global
@@ -2803,7 +2803,7 @@ remove
 (
 iter
 .
-taggedFramePtr
+abstractFramePtr
 (
 )
 )
@@ -6198,7 +6198,7 @@ r
 (
 iter
 .
-taggedFramePtr
+abstractFramePtr
 (
 )
 )
@@ -6376,7 +6376,7 @@ popFront
 )
 )
 {
-TaggedFramePtr
+AbstractFramePtr
 frame
 =
 r
@@ -10494,7 +10494,7 @@ observesFrame
 (
 i
 .
-taggedFramePtr
+abstractFramePtr
 (
 )
 )
@@ -10530,14 +10530,14 @@ isIon
 |
 iter
 .
-taggedFramePtr
+abstractFramePtr
 (
 )
 !
 =
 i
 .
-taggedFramePtr
+abstractFramePtr
 (
 )
 )
@@ -11636,7 +11636,7 @@ popFront
 )
 )
 {
-TaggedFramePtr
+AbstractFramePtr
 frame
 =
 e
@@ -17615,7 +17615,7 @@ GetDebugScopeForFrame
 cx
 iter
 .
-taggedFramePtr
+abstractFramePtr
 (
 )
 )
@@ -18023,7 +18023,7 @@ observesFrame
 (
 iter
 .
-taggedFramePtr
+abstractFramePtr
 (
 )
 )
@@ -20120,7 +20120,7 @@ cx
 iter
 -
 >
-taggedFramePtr
+abstractFramePtr
 (
 )
 )
