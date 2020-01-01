@@ -624,7 +624,7 @@ eCSSUnit_EM
 :
 {
 return
-NSToCoordRound
+NSToCoordRoundWithClamp
 (
 aValue
 .
@@ -644,7 +644,7 @@ eCSSUnit_EN
 :
 {
 return
-NSToCoordRound
+NSToCoordRoundWithClamp
 (
 (
 aValue
@@ -709,7 +709,7 @@ xHeight
 )
 ;
 return
-NSToCoordRound
+NSToCoordRoundWithClamp
 (
 aValue
 .
@@ -751,7 +751,7 @@ aFontSize
 )
 ;
 return
-NSToCoordRound
+NSToCoordRoundWithClamp
 (
 aValue
 .
@@ -836,7 +836,7 @@ zeroOrAveCharWidth
 )
 ;
 return
-NSToCoordRound
+NSToCoordRoundWithClamp
 (
 aValue
 .
