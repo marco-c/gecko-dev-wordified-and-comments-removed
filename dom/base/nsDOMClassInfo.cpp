@@ -8964,14 +8964,13 @@ obj
 )
 &
 &
-!
 xpc
 :
 :
-WrapperFactory
+AccessCheck
 :
 :
-IsXOW
+isChrome
 (
 obj
 )
