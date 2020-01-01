@@ -806,6 +806,14 @@ self
 dragData
 .
 dragging
+&
+&
+!
+self
+.
+dragData
+.
+kineticId
 )
 self
 .
