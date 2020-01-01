@@ -475,6 +475,10 @@ BrowserCLH
 .
 js
 \
+BrowserStartup
+.
+js
+\
 DirectoryProvider
 .
 js
@@ -498,10 +502,6 @@ EXTRA_COMPONENTS
 =
 \
 AlertsService
-.
-js
-\
-BrowserStartup
 .
 js
 \
