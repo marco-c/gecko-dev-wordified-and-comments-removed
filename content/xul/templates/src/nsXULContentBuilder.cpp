@@ -4347,12 +4347,8 @@ kNameSpaceID_XUL
 element
 -
 >
-IsNodeOfType
+IsElement
 (
-nsINode
-:
-:
-eELEMENT
 )
 )
 continue

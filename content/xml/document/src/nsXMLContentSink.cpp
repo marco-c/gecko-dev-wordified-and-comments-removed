@@ -1310,12 +1310,8 @@ if
 child
 -
 >
-IsNodeOfType
+IsElement
 (
-nsINode
-:
-:
-eELEMENT
 )
 )
 {

@@ -2250,12 +2250,8 @@ styleNode
 styleNode
 -
 >
-IsNodeOfType
+IsElement
 (
-nsINode
-:
-:
-eELEMENT
 )
 |
 |
@@ -2298,12 +2294,8 @@ if
 styleNode
 -
 >
-IsNodeOfType
+IsElement
 (
-nsINode
-:
-:
-eELEMENT
 )
 )
 {

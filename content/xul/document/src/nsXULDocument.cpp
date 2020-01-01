@@ -16764,12 +16764,8 @@ NS_ASSERTION
 aElement
 -
 >
-IsNodeOfType
+IsElement
 (
-nsINode
-:
-:
-eELEMENT
 )
 "
 Only

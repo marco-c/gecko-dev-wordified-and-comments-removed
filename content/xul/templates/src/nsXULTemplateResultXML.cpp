@@ -198,12 +198,8 @@ c
 )
 -
 >
-IsNodeOfType
+IsElement
 (
-nsIContent
-:
-:
-eELEMENT
 )
 )
 {

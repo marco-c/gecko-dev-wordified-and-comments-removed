@@ -1801,12 +1801,8 @@ aChild
 aChild
 -
 >
-IsNodeOfType
+IsElement
 (
-nsINode
-:
-:
-eELEMENT
 )
 )
 return
