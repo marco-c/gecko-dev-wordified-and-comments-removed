@@ -445,6 +445,13 @@ mk
 MODULE
 =
 reftest
+ifneq
+(
+(
+OS_ARCH
+)
+WINNT
+)
 LIBRARY_NAME
 =
 reftest
@@ -580,6 +587,12 @@ CPPSRCS
 nsReftestHelper
 .
 cpp
+endif
+#
+OS_ARCH
+!
+=
+WINNT
 EXTRA_COMPONENTS
 =
 \
