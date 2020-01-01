@@ -1010,7 +1010,6 @@ return
 ;
 }
 }
-private
 boolean
 scrollable
 (
