@@ -7988,14 +7988,11 @@ cssRect
 =
 rect
 /
-CSSToLayoutDeviceScale
-(
 win
 -
 >
 GetDefaultScale
 (
-)
 )
 ;
 AddPluginViewWrapper

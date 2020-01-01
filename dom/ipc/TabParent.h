@@ -1346,7 +1346,7 @@ mOrientation
 float
 mDPI
 ;
-double
+CSSToLayoutDeviceScale
 mDefaultScale
 ;
 bool

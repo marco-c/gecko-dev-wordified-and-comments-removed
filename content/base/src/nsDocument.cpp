@@ -30275,7 +30275,7 @@ this
 ;
 CSSToLayoutDeviceScale
 pixelRatio
-(
+=
 widget
 ?
 widget
@@ -30285,6 +30285,8 @@ GetDefaultScale
 (
 )
 :
+CSSToLayoutDeviceScale
+(
 1
 .
 0f

@@ -9150,6 +9150,8 @@ invScale
 GetDefaultScale
 (
 )
+.
+scale
 ;
 return
 DoResize

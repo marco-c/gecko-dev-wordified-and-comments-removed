@@ -1331,7 +1331,7 @@ Size
 double
 invScale
 ;
-double
+CSSToLayoutDeviceScale
 scale
 =
 widget
@@ -1350,6 +1350,8 @@ NSToIntRound
 0
 /
 scale
+.
+scale
 )
 =
 =
@@ -1367,6 +1369,8 @@ invScale
 .
 0
 /
+scale
+.
 scale
 ;
 }

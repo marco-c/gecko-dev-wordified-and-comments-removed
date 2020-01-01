@@ -5094,6 +5094,8 @@ TryCacheDPIAndScale
 NS_ABORT_IF_FALSE
 (
 mDefaultScale
+.
+scale
 >
 0
 "
@@ -5114,6 +5116,8 @@ received
 aValue
 =
 mDefaultScale
+.
+scale
 ;
 return
 true

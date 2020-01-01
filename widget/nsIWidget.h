@@ -87,6 +87,13 @@ RefPtr
 .
 h
 "
+#
+include
+"
+Units
+.
+h
+"
 class
 nsFontMetrics
 ;
@@ -1079,7 +1086,10 @@ GetDPI
 =
 0
 ;
-double
+mozilla
+:
+:
+CSSToLayoutDeviceScale
 GetDefaultScale
 (
 )
