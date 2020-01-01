@@ -6118,6 +6118,10 @@ GetNodeInfo
 aName
 nsnull
 aNamespaceID
+nsIDOMNode
+:
+:
+ATTRIBUTE_NODE
 )
 ;
 NS_ENSURE_TRUE

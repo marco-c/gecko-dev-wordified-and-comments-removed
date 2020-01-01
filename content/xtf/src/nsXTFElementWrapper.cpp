@@ -2416,6 +2416,10 @@ GetNodeInfo
 nameAtom
 nsnull
 kNameSpaceID_None
+nsIDOMNode
+:
+:
+ATTRIBUTE_NODE
 )
 .
 get

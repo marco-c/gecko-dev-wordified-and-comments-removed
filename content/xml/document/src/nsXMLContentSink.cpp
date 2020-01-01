@@ -4210,6 +4210,10 @@ GetNodeInfo
 localName
 prefix
 nameSpaceID
+nsIDOMNode
+:
+:
+ELEMENT_NODE
 )
 ;
 NS_ENSURE_TRUE
