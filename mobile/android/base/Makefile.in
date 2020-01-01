@@ -678,12 +678,6 @@ java
 \
 gfx
 /
-CheckerboardImage
-.
-java
-\
-gfx
-/
 DisplayPortCalculator
 .
 java
@@ -793,12 +787,6 @@ java
 gfx
 /
 RectUtils
-.
-java
-\
-gfx
-/
-ScreenshotLayer
 .
 java
 \

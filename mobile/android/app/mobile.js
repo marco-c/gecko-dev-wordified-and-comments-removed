@@ -5706,16 +5706,6 @@ false
 pref
 (
 "
-gfx
-.
-show_checkerboard_pattern
-"
-true
-)
-;
-pref
-(
-"
 ui
 .
 scrolling
