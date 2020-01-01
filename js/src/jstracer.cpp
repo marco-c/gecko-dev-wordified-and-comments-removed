@@ -31553,9 +31553,10 @@ UndefinedValue
 newfp
 -
 >
-annotation
-=
+setAnnotation
+(
 NULL
+)
 ;
 newfp
 -
@@ -31607,8 +31608,8 @@ NULL
 newfp
 -
 >
-callerVersion
-=
+setCallerVersion
+(
 (
 JSVersion
 )
@@ -31619,6 +31620,7 @@ script
 -
 >
 version
+)
 ;
 stack
 .
@@ -31679,8 +31681,8 @@ hook
 newfp
 -
 >
-hookData
-=
+setHookData
+(
 hook
 (
 cx
@@ -31695,6 +31697,7 @@ debugHooks
 >
 callHookData
 )
+)
 ;
 }
 else
@@ -31702,9 +31705,10 @@ else
 newfp
 -
 >
-hookData
-=
+setHookData
+(
 NULL
+)
 ;
 }
 return
@@ -31955,9 +31959,10 @@ UndefinedValue
 fp
 -
 >
-annotation
-=
+setAnnotation
+(
 NULL
+)
 ;
 fp
 -
@@ -31970,7 +31975,7 @@ cx
 fp
 -
 >
-maybeScopeChain
+getScopeChain
 (
 )
 )
