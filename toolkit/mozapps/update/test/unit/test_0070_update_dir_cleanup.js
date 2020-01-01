@@ -258,7 +258,7 @@ append
 "
 )
 ;
-dump
+logTestInfo
 (
 "
 testing
@@ -270,7 +270,7 @@ path
 +
 "
 should
-exists
+exist
 (
 bug
 512994

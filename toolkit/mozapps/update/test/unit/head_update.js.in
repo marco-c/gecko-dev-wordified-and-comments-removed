@@ -3538,9 +3538,8 @@ exists
 )
 )
 {
-do_timeout
+do_execute_soon
 (
-0
 function
 (
 )
@@ -3665,9 +3664,8 @@ logContents
 expectedLogContents
 )
 {
-do_timeout
+do_execute_soon
 (
-0
 function
 (
 )
@@ -4181,9 +4179,8 @@ function
 body
 )
 {
-do_timeout
+do_execute_soon
 (
-0
 gXHRCallback
 )
 ;
@@ -4522,8 +4519,6 @@ updates
 logTestInfo
 (
 "
-onError
-:
 url
 =
 "
@@ -4580,9 +4575,8 @@ the
 XHR
 to
 complete
-do_timeout
+do_execute_soon
 (
-0
 gCheckFunc
 )
 ;
@@ -4621,8 +4615,6 @@ statusText
 logTestInfo
 (
 "
-onError
-:
 url
 =
 "
@@ -4665,9 +4657,8 @@ the
 XHR
 to
 complete
-do_timeout
+do_execute_soon
 (
-0
 gCheckFunc
 )
 ;

@@ -27,6 +27,17 @@ Components
 utils
 ;
 const
+PREF_APP_UPDATE_AUTO
+=
+"
+app
+.
+update
+.
+auto
+"
+;
+const
 PREF_APP_UPDATE_BACKGROUNDERRORS
 =
 "

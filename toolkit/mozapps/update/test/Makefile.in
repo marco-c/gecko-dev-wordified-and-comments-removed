@@ -850,6 +850,8 @@ unit
 head_update
 .
 js
+ifndef
+ANDROID
 libs
 :
 :
@@ -873,3 +875,6 @@ relativesrcdir
 )
 /
 unit
+endif
+#
+ANDROID

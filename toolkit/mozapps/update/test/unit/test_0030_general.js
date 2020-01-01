@@ -43,9 +43,8 @@ start_httpserver
 URL_PATH
 )
 ;
-do_timeout
+do_execute_soon
 (
-0
 run_test_pt1
 )
 ;
@@ -351,8 +350,6 @@ MD5_HASH_SIMPLE_MAR
 run_test_helper_pt1
 (
 "
-run_test_pt1
--
 mar
 download
 with
@@ -388,8 +385,6 @@ MD5_HASH_SIMPLE_MAR
 run_test_helper_pt1
 (
 "
-run_test_pt2
--
 mar
 download
 with
@@ -421,8 +416,6 @@ SHA1_HASH_SIMPLE_MAR
 run_test_helper_pt1
 (
 "
-run_test_pt3
--
 mar
 download
 with
@@ -458,8 +451,6 @@ SHA1_HASH_SIMPLE_MAR
 run_test_helper_pt1
 (
 "
-run_test_pt4
--
 mar
 download
 with
@@ -491,8 +482,6 @@ SHA256_HASH_SIMPLE_MAR
 run_test_helper_pt1
 (
 "
-run_test_pt5
--
 mar
 download
 with
@@ -528,8 +517,6 @@ SHA256_HASH_SIMPLE_MAR
 run_test_helper_pt1
 (
 "
-run_test_pt6
--
 mar
 download
 with
@@ -561,8 +548,6 @@ SHA384_HASH_SIMPLE_MAR
 run_test_helper_pt1
 (
 "
-run_test_pt7
--
 mar
 download
 with
@@ -598,8 +583,6 @@ SHA384_HASH_SIMPLE_MAR
 run_test_helper_pt1
 (
 "
-run_test_pt8
--
 mar
 download
 with
@@ -631,8 +614,6 @@ SHA512_HASH_SIMPLE_MAR
 run_test_helper_pt1
 (
 "
-run_test_pt9
--
 mar
 download
 with
@@ -668,8 +649,6 @@ SHA512_HASH_SIMPLE_MAR
 run_test_helper_pt1
 (
 "
-run_test_pt10
--
 mar
 download
 with
@@ -726,8 +705,6 @@ updates
 run_test_helper_pt1
 (
 "
-run_test_pt11
--
 mar
 download
 with
@@ -750,6 +727,7 @@ downloadListener
 onStartRequest
 :
 function
+DL_onStartRequest
 (
 request
 context
@@ -759,6 +737,7 @@ context
 onProgress
 :
 function
+DL_onProgress
 (
 request
 context
@@ -770,6 +749,7 @@ maxProgress
 onStatus
 :
 function
+DL_onStatus
 (
 request
 context
@@ -781,6 +761,7 @@ statusText
 onStopRequest
 :
 function
+DL_onStopRequest
 (
 request
 context
@@ -791,9 +772,8 @@ gStatusResult
 =
 status
 ;
-do_timeout
+do_execute_soon
 (
-0
 gCheckFunc
 )
 ;
@@ -801,6 +781,7 @@ gCheckFunc
 QueryInterface
 :
 function
+DL_QueryInterface
 (
 iid
 )

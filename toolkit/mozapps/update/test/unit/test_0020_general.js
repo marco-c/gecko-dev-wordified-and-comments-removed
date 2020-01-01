@@ -39,9 +39,8 @@ standardInit
 (
 )
 ;
-do_timeout
+do_execute_soon
 (
-0
 run_test_pt01
 )
 ;
