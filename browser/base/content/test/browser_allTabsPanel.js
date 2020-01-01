@@ -594,6 +594,15 @@ pickOne
 chars
 )
 ;
+info
+(
+allTabs
+.
+filterField
+.
+value
+)
+;
 allTabs
 .
 filter
