@@ -607,6 +607,10 @@ test_0112_neverButton_billboard
 .
 xul
 \
+test_0113_showNeverForVersionRemovedWithPref
+.
+xul
+\
 test_0120_cert_valid_attributes_not_builtin
 .
 xul
