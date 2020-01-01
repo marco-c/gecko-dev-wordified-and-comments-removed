@@ -301,6 +301,14 @@ script
 .
 js
 \
+browser_dbg_reload
+-
+preferred
+-
+script
+.
+js
+\
 browser_dbg_pane
 -
 collapse
