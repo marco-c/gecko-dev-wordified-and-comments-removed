@@ -570,9 +570,6 @@ delimiter
 ;
 }
 }
-#
-if
-0
 if
 (
 rv
@@ -606,8 +603,6 @@ VERSION_DOWNGRADE_ERROR
 ;
 }
 }
-#
-endif
 free
 (
 (
