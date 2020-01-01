@@ -13947,16 +13947,6 @@ argv
 :
 false
 ;
-JS_ASSERT
-(
-cx
--
->
-hasfp
-(
-)
-)
-;
 if
 (
 !

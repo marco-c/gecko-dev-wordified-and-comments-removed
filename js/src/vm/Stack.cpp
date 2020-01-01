@@ -1597,7 +1597,7 @@ JS_ASSERT
 cx
 -
 >
-regs
+interpreterRegs
 (
 )
 .
@@ -4139,6 +4139,8 @@ regs
 cx
 -
 >
+stack
+.
 maybeRegs
 (
 )
@@ -8866,6 +8868,8 @@ data_
 cx_
 -
 >
+stack
+.
 regs
 (
 )
@@ -8892,6 +8896,8 @@ data_
 cx_
 -
 >
+stack
+.
 regs
 (
 )

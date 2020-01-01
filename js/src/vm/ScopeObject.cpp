@@ -1531,7 +1531,7 @@ isStackFrame
 cx
 -
 >
-fp
+interpreterFrame
 (
 )
 =
@@ -1553,7 +1553,7 @@ isStackFrame
 cx
 -
 >
-regs
+interpreterRegs
 (
 )
 .

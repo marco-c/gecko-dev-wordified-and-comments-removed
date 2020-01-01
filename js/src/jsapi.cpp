@@ -30088,7 +30088,7 @@ return
 cx
 -
 >
-hasfp
+currentlyRunning
 (
 )
 ;

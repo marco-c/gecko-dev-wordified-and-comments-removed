@@ -361,7 +361,7 @@ asStackFrame
 cx
 -
 >
-fp
+interpreterFrame
 (
 )
 )
@@ -610,7 +610,7 @@ asStackFrame
 cx
 -
 >
-fp
+interpreterFrame
 (
 )
 )

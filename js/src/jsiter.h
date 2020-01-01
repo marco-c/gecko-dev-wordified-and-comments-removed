@@ -1202,6 +1202,13 @@ js_NewGenerator
 JSContext
 *
 cx
+const
+js
+:
+:
+FrameRegs
+&
+regs
 )
 ;
 namespace

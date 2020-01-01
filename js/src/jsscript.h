@@ -5625,15 +5625,6 @@ columnp
 NULL
 )
 ;
-extern
-unsigned
-CurrentLine
-(
-JSContext
-*
-cx
-)
-;
 enum
 LineOption
 {
