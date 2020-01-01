@@ -4889,6 +4889,7 @@ nsIAccessibleEvent
 :
 EVENT_TABLE_ROW_INSERT
 :
+{
 MAI_LOG_DEBUG
 (
 (
@@ -4954,6 +4955,7 @@ rowIndex
 numRows
 )
 ;
+}
 break
 ;
 case
@@ -4962,6 +4964,7 @@ nsIAccessibleEvent
 :
 EVENT_TABLE_ROW_DELETE
 :
+{
 MAI_LOG_DEBUG
 (
 (
@@ -5027,6 +5030,7 @@ rowIndex
 numRows
 )
 ;
+}
 break
 ;
 case
@@ -5035,6 +5039,7 @@ nsIAccessibleEvent
 :
 EVENT_TABLE_ROW_REORDER
 :
+{
 MAI_LOG_DEBUG
 (
 (
@@ -5061,12 +5066,14 @@ row_reordered
 ;
 break
 ;
+}
 case
 nsIAccessibleEvent
 :
 :
 EVENT_TABLE_COLUMN_INSERT
 :
+{
 MAI_LOG_DEBUG
 (
 (
@@ -5132,6 +5139,7 @@ colIndex
 numCols
 )
 ;
+}
 break
 ;
 case
@@ -5140,6 +5148,7 @@ nsIAccessibleEvent
 :
 EVENT_TABLE_COLUMN_DELETE
 :
+{
 MAI_LOG_DEBUG
 (
 (
@@ -5205,6 +5214,7 @@ colIndex
 numCols
 )
 ;
+}
 break
 ;
 case
