@@ -23167,6 +23167,10 @@ if
 (
 !
 mIsShowing
+&
+&
+!
+mIsBeingUsedAsImage
 )
 {
 mAnimationController
