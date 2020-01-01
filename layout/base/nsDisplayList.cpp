@@ -8910,17 +8910,6 @@ PRBool
 aContainsRootContentDocBG
 )
 {
-nsPresContext
-*
-presContext
-=
-mFrame
--
->
-PresContext
-(
-)
-;
 nsRect
 displayport
 ;
