@@ -68,6 +68,10 @@ oscpu
 &
 !
 layersGPUAccelerated
+&
+&
+!
+azureSkia
 )
 =
 =
