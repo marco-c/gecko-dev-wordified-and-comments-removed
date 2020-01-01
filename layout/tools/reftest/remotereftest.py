@@ -3667,6 +3667,8 @@ recordLogcat
 (
 )
         
+retVal
+=
 reftest
 .
 runTests
