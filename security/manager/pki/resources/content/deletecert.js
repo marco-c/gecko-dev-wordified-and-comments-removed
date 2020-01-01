@@ -185,7 +185,7 @@ bundle
 GetStringFromName
 (
 "
-deleteSslCertTitle2
+deleteSslCertTitle3
 "
 )
 ;
@@ -196,7 +196,7 @@ bundle
 GetStringFromName
 (
 "
-deleteSslCertConfirm2
+deleteSslCertConfirm3
 "
 )
 ;
@@ -207,7 +207,7 @@ bundle
 GetStringFromName
 (
 "
-deleteSslCertImpact2
+deleteSslCertImpact3
 "
 )
 ;
