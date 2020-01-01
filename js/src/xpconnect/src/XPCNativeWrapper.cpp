@@ -36,7 +36,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -53,7 +53,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -70,7 +70,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -87,7 +87,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -116,7 +116,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 uintN
 flags
@@ -165,7 +165,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 JSAccessMode
 mode
@@ -224,8 +224,10 @@ cx
 JSObject
 *
 obj
+const
 jsval
-v
+*
+valp
 JSBool
 *
 bp
@@ -253,8 +255,10 @@ cx
 JSObject
 *
 obj
+const
 jsval
-v
+*
+valp
 JSBool
 *
 bp
@@ -946,10 +950,10 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 =
-JSVAL_VOID
+JSID_VOID
 PRUint32
 accessType
 =
@@ -1167,7 +1171,7 @@ flatObj
 if
 (
 !
-JSVAL_IS_VOID
+JSID_IS_VOID
 (
 id
 )
@@ -1330,7 +1334,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -1345,16 +1349,6 @@ desc
 ;
 if
 (
-!
-JS_ValueToId
-(
-cx
-id
-&
-idAsId
-)
-|
-|
 !
 JS_GetPropertyDescriptorById
 (
@@ -1450,7 +1444,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -1832,7 +1826,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -1846,7 +1840,7 @@ if
 id
 =
 =
-GetRTStringByIndex
+GetRTIdByIndex
 (
 cx
 XPCJSRuntime
@@ -1859,7 +1853,7 @@ IDX_PROTOTYPE
 id
 =
 =
-GetRTStringByIndex
+GetRTIdByIndex
 (
 cx
 XPCJSRuntime
@@ -1975,7 +1969,7 @@ aIsSet
 id
 =
 =
-GetRTStringByIndex
+GetRTIdByIndex
 (
 cx
 XPCJSRuntime
@@ -2017,7 +2011,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -2045,7 +2039,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -2135,7 +2129,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 uintN
 flags
@@ -2150,7 +2144,7 @@ if
 id
 =
 =
-GetRTStringByIndex
+GetRTIdByIndex
 (
 cx
 XPCJSRuntime
@@ -2169,7 +2163,7 @@ if
 id
 =
 =
-GetRTStringByIndex
+GetRTIdByIndex
 (
 cx
 XPCJSRuntime
@@ -2442,7 +2436,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 JSAccessMode
 mode
@@ -2826,8 +2820,10 @@ cx
 JSObject
 *
 obj
+const
 jsval
-v
+*
+valp
 JSBool
 *
 bp
@@ -3462,8 +3458,10 @@ cx
 JSObject
 *
 obj
+const
 jsval
-v
+*
+valp
 JSBool
 *
 bp
@@ -3509,6 +3507,12 @@ return
 JS_FALSE
 ;
 }
+jsval
+v
+=
+*
+valp
+;
 if
 (
 JSVAL_IS_PRIMITIVE
@@ -3842,7 +3846,7 @@ EnsureLegalActivity
 (
 cx
 obj
-GetRTStringByIndex
+GetRTIdByIndex
 (
 cx
 XPCJSRuntime

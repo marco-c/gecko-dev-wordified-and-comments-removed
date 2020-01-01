@@ -141,7 +141,7 @@ rv
 JSObject
 *
 obj
-jsval
+jsid
 memberId
 )
 ;
@@ -244,7 +244,7 @@ rv
 JSObject
 *
 obj
-jsval
+jsid
 propId
 )
 ;

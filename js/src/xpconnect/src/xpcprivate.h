@@ -3440,10 +3440,10 @@ JSObject
 funobj
 =
 nsnull
-jsval
+jsid
 id
 =
-0
+JSID_VOID
 uintN
 argc
 =
@@ -3673,7 +3673,7 @@ HasInterfaceAndMember
 const
 ;
 inline
-jsval
+jsid
 GetName
 (
 )
@@ -3747,17 +3747,17 @@ b
 )
 ;
 inline
-jsval
+jsid
 GetResolveName
 (
 )
 const
 ;
 inline
-jsval
+jsid
 SetResolveName
 (
-jsval
+jsid
 name
 )
 ;
@@ -3807,7 +3807,7 @@ callee
 void
 SetName
 (
-jsval
+jsid
 name
 )
 ;
@@ -3975,7 +3975,7 @@ JSObject
 funobj
 JSBool
 getWrappedNative
-jsval
+jsid
 name
 uintN
 argc
@@ -4122,7 +4122,7 @@ XPCNativeMember
 *
 mMember
 ;
-jsval
+jsid
 mName
 ;
 JSBool
@@ -4661,7 +4661,9 @@ cx
 JSObject
 *
 obj
+const
 jsval
+*
 v
 JSBool
 *
@@ -5587,7 +5589,7 @@ XPCNativeMember
 pMember
 )
 ;
-jsval
+jsid
 GetName
 (
 )
@@ -5776,7 +5778,7 @@ IsWritableAttribute
 void
 SetName
 (
-jsval
+jsid
 a
 )
 {
@@ -5981,7 +5983,7 @@ SETTER_TOO
 ;
 private
 :
-jsval
+jsid
 mName
 ;
 jsval
@@ -6068,7 +6070,7 @@ get
 ;
 }
 inline
-jsval
+jsid
 GetName
 (
 )
@@ -6101,7 +6103,7 @@ XPCNativeMember
 *
 FindMember
 (
-jsval
+jsid
 name
 )
 const
@@ -6313,7 +6315,7 @@ XPCNativeInterface
 nsIInterfaceInfo
 *
 aInfo
-jsval
+jsid
 aName
 )
 :
@@ -6390,7 +6392,7 @@ nsIInterfaceInfo
 >
 mInfo
 ;
-jsval
+jsid
 mName
 ;
 PRUint16
@@ -6584,7 +6586,7 @@ inline
 JSBool
 FindMember
 (
-jsval
+jsid
 name
 XPCNativeMember
 *
@@ -6600,7 +6602,7 @@ inline
 JSBool
 FindMember
 (
-jsval
+jsid
 name
 XPCNativeMember
 *
@@ -6617,7 +6619,7 @@ inline
 JSBool
 FindMember
 (
-jsval
+jsid
 name
 XPCNativeMember
 *
@@ -6684,7 +6686,7 @@ XPCNativeInterface
 *
 FindNamedInterface
 (
-jsval
+jsid
 name
 )
 const
@@ -10084,7 +10086,7 @@ set
 XPCNativeInterface
 *
 iface
-jsval
+jsid
 name
 )
 ;
@@ -10101,7 +10103,7 @@ set
 XPCNativeInterface
 *
 iface
-jsval
+jsid
 name
 )
 ;
@@ -13531,7 +13533,7 @@ return
 old
 ;
 }
-jsval
+jsid
 GetResolveName
 (
 )
@@ -13541,14 +13543,14 @@ return
 mResolveName
 ;
 }
-jsval
+jsid
 SetResolveName
 (
-jsval
+jsid
 name
 )
 {
-jsval
+jsid
 old
 =
 mResolveName
@@ -13774,7 +13776,7 @@ XPCCallContext
 *
 mCallContext
 ;
-jsval
+jsid
 mResolveName
 ;
 XPCWrappedNative
@@ -14960,7 +14962,7 @@ AutoResolveName
 XPCCallContext
 &
 ccx
-jsval
+jsid
 name
 MOZILLA_GUARD_OBJECT_NOTIFIER_PARAM
 )
@@ -14999,7 +15001,7 @@ AutoResolveName
 #
 ifdef
 DEBUG
-jsval
+jsid
 old
 =
 #
@@ -15032,10 +15034,10 @@ XPCPerThreadData
 *
 mTLS
 ;
-jsval
+jsid
 mOld
 ;
-jsval
+jsid
 mCheck
 ;
 MOZILLA_DECL_USE_GUARD_OBJECT_NOTIFIER
@@ -16435,8 +16437,8 @@ cx
 JSObject
 *
 obj
-jsval
-idval
+jsid
+id
 )
 ;
 inline

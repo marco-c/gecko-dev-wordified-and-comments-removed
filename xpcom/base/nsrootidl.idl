@@ -443,6 +443,9 @@ by
 all
 .
 *
+status
+FROZEN
+*
 /
 %
 {
@@ -995,10 +998,6 @@ AStringPtr
 ignored
 )
 ;
-[
-ref
-jsval
-]
 native
 jsval
 (

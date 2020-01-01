@@ -12489,7 +12489,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -12498,7 +12498,7 @@ vp
 {
 if
 (
-JSVAL_IS_INT
+JSID_IS_INT
 (
 id
 )
@@ -12510,7 +12510,7 @@ optbit
 (
 uint32
 )
-JSVAL_TO_INT
+JSID_TO_INT
 (
 id
 )
@@ -12575,7 +12575,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -12584,7 +12584,7 @@ vp
 {
 if
 (
-JSVAL_IS_INT
+JSID_IS_INT
 (
 id
 )
@@ -12596,7 +12596,7 @@ optbit
 (
 uint32
 )
-JSVAL_TO_INT
+JSID_TO_INT
 (
 id
 )

@@ -4702,7 +4702,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 %
 s

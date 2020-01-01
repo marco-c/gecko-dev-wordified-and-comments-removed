@@ -1251,7 +1251,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 JSAccessMode
 mode
@@ -1324,7 +1324,7 @@ const
 char
 *
 aClassName
-jsval
+jsid
 aProperty
 void
 *
@@ -1354,7 +1354,7 @@ principal
 ClassInfoData
 &
 aClassData
-jsval
+jsid
 aProperty
 PRUint32
 aAction
@@ -1692,7 +1692,7 @@ mPrincipal
 }
 ;
 static
-jsval
+jsid
 sEnabledID
 ;
 inline

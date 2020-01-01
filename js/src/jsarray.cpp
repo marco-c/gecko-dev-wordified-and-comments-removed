@@ -1066,8 +1066,6 @@ atom
 idp
 =
 JSID_VOID
-(
-)
 ;
 return
 JS_TRUE

@@ -1337,10 +1337,10 @@ JSString
 *
 str
 ;
-jsval
+jsid
 name
 ;
-jsval
+jsid
 interfaceName
 ;
 PRBool
@@ -1558,7 +1558,7 @@ break
 }
 name
 =
-STRING_TO_JSVAL
+INTERNED_STRING_TO_JSID
 (
 str
 )
@@ -1784,7 +1784,7 @@ break
 }
 name
 =
-STRING_TO_JSVAL
+INTERNED_STRING_TO_JSID
 (
 str
 )
@@ -1868,7 +1868,7 @@ JS_TRUE
 }
 interfaceName
 =
-STRING_TO_JSVAL
+INTERNED_STRING_TO_JSID
 (
 str
 )
@@ -2036,7 +2036,7 @@ const
 return
 JS_GetStringBytes
 (
-JSVAL_TO_STRING
+JSID_TO_STRING
 (
 member
 -

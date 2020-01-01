@@ -1496,6 +1496,9 @@ principal
 .
 *
 /
+[
+noscript
+]
 nsIPrincipal
 getSystemPrincipal
 (

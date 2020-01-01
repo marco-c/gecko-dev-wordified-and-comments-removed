@@ -44,6 +44,13 @@ h
 #
 include
 "
+nsIGenericFactory
+.
+h
+"
+#
+include
+"
 nsIServiceManager
 .
 h
@@ -239,7 +246,7 @@ global_class
 "
 autoconfig_global
 "
-JSCLASS_GLOBAL_FLAGS
+0
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub

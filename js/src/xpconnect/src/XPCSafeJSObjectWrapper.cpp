@@ -50,7 +50,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -67,7 +67,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -84,7 +84,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -101,7 +101,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -130,7 +130,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 uintN
 flags
@@ -179,7 +179,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 JSAccessMode
 mode
@@ -258,7 +258,9 @@ cx
 JSObject
 *
 obj
+const
 jsval
+*
 v
 JSBool
 *
@@ -650,7 +652,7 @@ SystemOnlyWrapper
 CheckFilename
 (
 cx
-JSVAL_VOID
+JSID_VOID
 fp
 )
 )
@@ -1767,7 +1769,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -1779,7 +1781,7 @@ if
 id
 =
 =
-GetRTStringByIndex
+GetRTIdByIndex
 (
 cx
 XPCJSRuntime
@@ -1792,7 +1794,7 @@ IDX_CONSTRUCTOR
 id
 =
 =
-GetRTStringByIndex
+GetRTIdByIndex
 (
 cx
 XPCJSRuntime
@@ -1972,7 +1974,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -2263,7 +2265,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -2277,7 +2279,7 @@ if
 id
 =
 =
-GetRTStringByIndex
+GetRTIdByIndex
 (
 cx
 XPCJSRuntime
@@ -2383,25 +2385,6 @@ return
 JS_FALSE
 ;
 }
-jsid
-interned_id
-;
-if
-(
-!
-JS_ValueToId
-(
-cx
-id
-&
-interned_id
-)
-)
-{
-return
-JS_FALSE
-;
-}
 if
 (
 aIsSet
@@ -2447,7 +2430,7 @@ JS_SetPropertyById
 (
 cx
 unsafeObj
-interned_id
+id
 vp
 )
 :
@@ -2455,7 +2438,7 @@ JS_GetPropertyById
 (
 cx
 unsafeObj
-interned_id
+id
 vp
 )
 ;
@@ -2491,7 +2474,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -2519,7 +2502,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 jsval
 *
@@ -2632,7 +2615,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 uintN
 flags
@@ -2708,7 +2691,7 @@ if
 id
 =
 =
-GetRTStringByIndex
+GetRTIdByIndex
 (
 cx
 XPCJSRuntime
@@ -2856,7 +2839,7 @@ cx
 JSObject
 *
 obj
-jsval
+jsid
 id
 JSAccessMode
 mode
@@ -3723,8 +3706,10 @@ cx
 JSObject
 *
 obj
+const
 jsval
-v
+*
+valp
 JSBool
 *
 bp
@@ -3734,7 +3719,8 @@ if
 (
 JSVAL_IS_PRIMITIVE
 (
-v
+*
+valp
 )
 )
 {
@@ -3762,7 +3748,8 @@ other
 =
 JSVAL_TO_OBJECT
 (
-v
+*
+valp
 )
 ;
 JSObject
