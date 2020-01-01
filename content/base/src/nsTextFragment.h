@@ -189,6 +189,7 @@ define
 XP_IS_SPACE_W
 XP_IS_SPACE
 class
+NS_FINAL_CLASS
 nsTextFragment
 {
 public
