@@ -469,6 +469,9 @@ mainAction
 if
 (
 secondaryActions
+&
+&
+secondaryActions
 .
 some
 (
