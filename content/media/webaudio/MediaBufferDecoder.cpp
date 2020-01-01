@@ -1363,13 +1363,6 @@ NS_IsMainThread
 )
 )
 ;
-mDecoderReader
--
->
-OnDecodeThreadStart
-(
-)
-;
 mBufferDecoder
 -
 >
@@ -1378,6 +1371,13 @@ BeginDecoding
 NS_GetCurrentThread
 (
 )
+)
+;
+mDecoderReader
+-
+>
+OnDecodeThreadStart
+(
 )
 ;
 VideoInfo
