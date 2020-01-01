@@ -1816,6 +1816,8 @@ mDown
 endif
 PRStatus
 status
+;
+status
 =
 PR_ExitMonitor
 (
@@ -1930,6 +1932,8 @@ mDown
 #
 endif
 PRStatus
+status
+;
 status
 =
 PR_CExitMonitor
