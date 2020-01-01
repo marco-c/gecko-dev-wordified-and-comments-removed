@@ -5282,7 +5282,7 @@ msg
 .
 json
 .
-error
+errorMsg
 ]
 )
 ;
@@ -5730,7 +5730,7 @@ msg
 .
 json
 .
-error
+errorMsg
 ]
 )
 ;
@@ -6048,7 +6048,7 @@ if
 (
 message
 .
-error
+errorMsg
 )
 {
 debug
@@ -6063,7 +6063,7 @@ getAvailableNetworks
 +
 message
 .
-error
+errorMsg
 )
 ;
 Services
@@ -6075,7 +6075,7 @@ fireError
 request
 message
 .
-error
+errorMsg
 )
 ;
 return
@@ -6174,7 +6174,7 @@ if
 (
 message
 .
-error
+errorMsg
 )
 {
 this
@@ -6186,7 +6186,7 @@ message
 requestId
 message
 .
-error
+errorMsg
 )
 ;
 }
@@ -6216,7 +6216,7 @@ if
 (
 message
 .
-error
+errorMsg
 )
 {
 this
@@ -6228,7 +6228,7 @@ message
 requestId
 message
 .
-error
+errorMsg
 )
 ;
 }
@@ -6260,7 +6260,7 @@ if
 (
 message
 .
-error
+errorMsg
 )
 {
 this
@@ -6272,7 +6272,7 @@ message
 requestId
 message
 .
-error
+errorMsg
 )
 ;
 }
@@ -6302,7 +6302,7 @@ if
 (
 message
 .
-error
+errorMsg
 )
 {
 this
@@ -6314,7 +6314,7 @@ message
 requestId
 message
 .
-error
+errorMsg
 )
 ;
 }
