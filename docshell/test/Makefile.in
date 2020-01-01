@@ -454,6 +454,16 @@ postpage
 .
 html
 \
+test_bug123696
+.
+html
+\
+bug123696
+-
+subframe
+.
+html
+\
 test_bug344861
 .
 html
