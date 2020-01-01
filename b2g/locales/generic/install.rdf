@@ -563,7 +563,7 @@ em
 :
 maxVersion
 >
-MOZ_APP_VERSION
+MOZ_APP_MAXVERSION
 <
 /
 em
