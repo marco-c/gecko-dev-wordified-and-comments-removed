@@ -7442,7 +7442,7 @@ MOD_MINOR_VERSION
 8
 MOD_PATCH_VERSION
 =
-1
+0
 NSPR_MODNAME
 =
 nspr20
@@ -30127,10 +30127,6 @@ _DEBUG_FLAGS
 =
 -
 Zi
-_OPTIMIZE_FLAGS
-=
--
-O2
 ;
 ;
 *
@@ -31456,7 +31452,7 @@ echo
 "
 configure
 :
-4510
+4509
 :
 checking
 for
@@ -31518,7 +31514,7 @@ ac_ext
 EOF
 #
 line
-4515
+4514
 "
 configure
 "
@@ -31563,7 +31559,7 @@ eval
 echo
 configure
 :
-4520
+4519
 :
 \
 "
@@ -35236,7 +35232,7 @@ echo
 "
 configure
 :
-5169
+5168
 :
 checking
 for
@@ -35330,7 +35326,7 @@ ac_ext
 EOF
 #
 line
-5177
+5176
 "
 configure
 "
@@ -35408,7 +35404,7 @@ eval
 echo
 configure
 :
-5188
+5187
 :
 \
 "
@@ -35571,7 +35567,7 @@ echo
 "
 configure
 :
-5205
+5204
 :
 checking
 for
@@ -35631,7 +35627,7 @@ ac_ext
 EOF
 #
 line
-5210
+5209
 "
 configure
 "
@@ -35674,7 +35670,7 @@ eval
 echo
 configure
 :
-5215
+5214
 :
 \
 "
@@ -35890,7 +35886,7 @@ echo
 "
 configure
 :
-5248
+5247
 :
 checking
 whether
@@ -35964,7 +35960,7 @@ ac_ext
 EOF
 #
 line
-5254
+5253
 "
 configure
 "
@@ -36055,7 +36051,7 @@ ac_ext
 EOF
 #
 line
-5272
+5271
 "
 configure
 "
@@ -36176,7 +36172,7 @@ echo
 "
 configure
 :
-5296
+5295
 :
 checking
 for
@@ -36234,7 +36230,7 @@ ac_ext
 EOF
 #
 line
-5301
+5300
 "
 configure
 "
@@ -36403,7 +36399,7 @@ eval
 echo
 configure
 :
-5324
+5323
 :
 \
 "
@@ -36651,7 +36647,7 @@ echo
 "
 configure
 :
-5365
+5364
 :
 checking
 for
@@ -36891,7 +36887,7 @@ echo
 "
 configure
 :
-5404
+5403
 :
 checking
 for
@@ -37099,7 +37095,7 @@ echo
 "
 configure
 :
-5426
+5425
 :
 checking
 for
@@ -37307,7 +37303,7 @@ echo
 "
 configure
 :
-5448
+5447
 :
 checking
 for
@@ -37515,7 +37511,7 @@ echo
 "
 configure
 :
-5470
+5469
 :
 checking
 for
@@ -38232,7 +38228,7 @@ echo
 "
 configure
 :
-5602
+5601
 :
 checking
 whether
@@ -38446,7 +38442,7 @@ echo
 "
 configure
 :
-5625
+5624
 :
 checking
 whether
@@ -40996,21 +40992,6 @@ tr
 '
 '
 '
-|
-tr
-'
-\
-015
-'
-'
-'
-#
-Manually
-modified
-for
-MKS
-support
-.
 rm
 -
 f
