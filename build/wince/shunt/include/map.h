@@ -55,9 +55,6 @@ char
 key
 )
 ;
-#
-define
-DEBUG_NSPR_ALL
 static
 int
 init_i
