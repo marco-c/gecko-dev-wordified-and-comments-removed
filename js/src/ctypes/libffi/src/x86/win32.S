@@ -1999,6 +1999,9 @@ balign
 .
 globl
 _ffi_call_win32
+#
+ifndef
+__OS2__
 .
 def
 _ffi_call_win32
@@ -2013,6 +2016,8 @@ type
 ;
 .
 endef
+#
+endif
 _ffi_call_win32
 :
 .
@@ -2799,6 +2804,9 @@ balign
 .
 globl
 _ffi_closure_SYSV
+#
+ifndef
+__OS2__
 .
 def
 _ffi_closure_SYSV
@@ -2813,6 +2821,8 @@ type
 ;
 .
 endef
+#
+endif
 _ffi_closure_SYSV
 :
 .
@@ -3396,6 +3406,9 @@ balign
 .
 globl
 _ffi_closure_raw_SYSV
+#
+ifndef
+__OS2__
 .
 def
 _ffi_closure_raw_SYSV
@@ -3410,6 +3423,8 @@ type
 ;
 .
 endef
+#
+endif
 _ffi_closure_raw_SYSV
 :
 .
@@ -4034,6 +4049,9 @@ balign
 .
 globl
 _ffi_closure_STDCALL
+#
+ifndef
+__OS2__
 .
 def
 _ffi_closure_STDCALL
@@ -4048,6 +4066,8 @@ type
 ;
 .
 endef
+#
+endif
 _ffi_closure_STDCALL
 :
 .
@@ -4569,6 +4589,9 @@ ffi_closure_STDCALL_end
 .
 LFE5
 :
+#
+ifndef
+__OS2__
 .
 section
 .
@@ -4576,6 +4599,8 @@ eh_frame
 "
 w
 "
+#
+endif
 .
 Lframe1
 :
