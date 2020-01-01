@@ -3966,12 +3966,6 @@ mOriginPrincipal
 )
 ;
 }
-JS
-:
-:
-Value
-ignored
-;
 rv
 =
 context
@@ -3989,8 +3983,7 @@ GetGlobalJSObject
 )
 options
 false
-&
-ignored
+nullptr
 )
 ;
 }
