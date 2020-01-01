@@ -619,7 +619,7 @@ RegExpStatics
 *
 res
 RegExpMatcher
-*
+&
 matcher
 JSLinearString
 *
@@ -645,6 +645,7 @@ ExecuteRegExpImpl
 (
 cx
 res
+&
 matcher
 input
 chars
@@ -2852,7 +2853,6 @@ ExecuteRegExp
 (
 cx
 res
-&
 matcher
 linearInput
 chars

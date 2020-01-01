@@ -525,6 +525,12 @@ cx
 )
 {
 return
+getPrivate
+(
+)
+?
+true
+:
 !
 !
 makePrivate

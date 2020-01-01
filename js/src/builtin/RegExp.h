@@ -67,7 +67,7 @@ RegExpStatics
 *
 res
 RegExpMatcher
-*
+&
 matcher
 JSLinearString
 *
