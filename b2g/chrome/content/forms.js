@@ -1731,6 +1731,8 @@ element
 getAttribute
 (
 '
+x
+-
 inputmode
 '
 )
