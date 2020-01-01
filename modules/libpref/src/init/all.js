@@ -5767,7 +5767,7 @@ dom
 .
 xbl_scopes
 "
-true
+false
 )
 ;
 pref
