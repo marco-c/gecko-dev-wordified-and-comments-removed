@@ -1180,17 +1180,6 @@ NS_LITERAL_CSTRING
 "
 "
 AND
-LENGTH
-(
-t_t
-.
-title
-)
->
-0
-"
-"
-AND
 t_t
 .
 parent
