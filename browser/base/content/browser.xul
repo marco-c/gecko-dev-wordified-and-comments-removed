@@ -3632,6 +3632,15 @@ flex
 "
 1
 "
+delayedemptytext
+=
+"
+&
+urlbar
+.
+emptyText
+;
+"
 chromedir
 =
 "
