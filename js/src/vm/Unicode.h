@@ -7,7 +7,16 @@ Unicode_h__
 #
 include
 "
-jsstr
+mozilla
+/
+StdInt
+.
+h
+"
+#
+include
+"
+jspubtd
 .
 h
 "
