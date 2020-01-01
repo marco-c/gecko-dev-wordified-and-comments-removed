@@ -1051,6 +1051,15 @@ friend
 class
 AutoUseBasicLayerManager
 ;
+PRBool
+Destroyed
+(
+)
+{
+return
+mOnDestroyCalled
+;
+}
 protected
 :
 virtual

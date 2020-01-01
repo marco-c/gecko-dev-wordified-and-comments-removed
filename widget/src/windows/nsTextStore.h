@@ -869,6 +869,9 @@ nsTextEvent
 *
 mLastDispatchedTextEvent
 ;
+nsString
+mLastDispatchedCompositionString
+;
 nsCOMPtr
 <
 nsITimer
