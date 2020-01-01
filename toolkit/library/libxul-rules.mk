@@ -406,6 +406,10 @@ PNG_LIBS
 )
 \
 (
+LCMS_LIBS
+)
+\
+(
 MOZ_JS_LIBS
 )
 \
