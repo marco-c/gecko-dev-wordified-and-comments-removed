@@ -4185,7 +4185,9 @@ aValue
 *
 aValue
 =
-mIndeterminate
+Indeterminate
+(
+)
 ;
 return
 NS_OK
@@ -6930,7 +6932,9 @@ aChecked
 *
 aChecked
 =
-mChecked
+Checked
+(
+)
 ;
 return
 NS_OK

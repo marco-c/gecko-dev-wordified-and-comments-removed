@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsIDOMHTMLInputElement
-.
-h
-"
-#
-include
-"
 nsIDOMXULElement
 .
 h
