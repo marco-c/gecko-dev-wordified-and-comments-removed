@@ -9819,7 +9819,7 @@ readonly
 setterName
 =
 '
-js_GetterOnlyPropertyStub
+xpc_qsGetterOnlyPropertyStub
 '
     
 else
