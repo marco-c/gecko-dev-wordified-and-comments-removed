@@ -458,7 +458,7 @@ IsASCIICapable
 NS_ENSURE_TRUE
 (
 mInputSource
-PR_FALSE
+false
 )
 ;
 return
@@ -476,7 +476,7 @@ IsEnabled
 NS_ENSURE_TRUE
 (
 mInputSource
-PR_FALSE
+false
 )
 ;
 return
@@ -521,7 +521,7 @@ aName
 NS_ENSURE_TRUE
 (
 mInputSource
-PR_FALSE
+false
 )
 ;
 return
@@ -543,7 +543,7 @@ aName
 NS_ENSURE_TRUE
 (
 mInputSource
-PR_FALSE
+false
 )
 ;
 return
@@ -565,7 +565,7 @@ aID
 NS_ENSURE_TRUE
 (
 mInputSource
-PR_FALSE
+false
 )
 ;
 return
@@ -587,7 +587,7 @@ aID
 NS_ENSURE_TRUE
 (
 mInputSource
-PR_FALSE
+false
 )
 ;
 return
@@ -609,7 +609,7 @@ aBundleID
 NS_ENSURE_TRUE
 (
 mInputSource
-PR_FALSE
+false
 )
 ;
 return
@@ -631,7 +631,7 @@ aBundleID
 NS_ENSURE_TRUE
 (
 mInputSource
-PR_FALSE
+false
 )
 ;
 return
@@ -653,7 +653,7 @@ aType
 NS_ENSURE_TRUE
 (
 mInputSource
-PR_FALSE
+false
 )
 ;
 return
@@ -675,7 +675,7 @@ aType
 NS_ENSURE_TRUE
 (
 mInputSource
-PR_FALSE
+false
 )
 ;
 return
@@ -1123,15 +1123,15 @@ nsnull
 }
 mKeyDownHandled
 =
-PR_FALSE
+false
 ;
 mKeyPressDispatched
 =
-PR_FALSE
+false
 ;
 mKeyPressHandled
 =
-PR_FALSE
+false
 ;
 }
 bool
@@ -1247,7 +1247,7 @@ mKeyboardLayout
 )
 mOverrideEnabled
 (
-PR_FALSE
+false
 )
 {
 }
@@ -1273,7 +1273,7 @@ StartComplexTextInputForCurrentEvent
 {
 mPluginComplexTextInputRequested
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

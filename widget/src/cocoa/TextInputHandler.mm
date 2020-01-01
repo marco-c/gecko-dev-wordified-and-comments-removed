@@ -2223,7 +2223,7 @@ kEventKeyModifierNumLockMask
 NS_ENSURE_TRUE
 (
 UCKey
-PR_FALSE
+false
 )
 ;
 UInt32
@@ -2298,7 +2298,7 @@ err
 =
 =
 noErr
-PR_FALSE
+false
 )
 ;
 if
@@ -2310,7 +2310,7 @@ len
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 NS_ENSURE_TRUE
@@ -2320,7 +2320,7 @@ EnsureStringLength
 aStr
 len
 )
-PR_FALSE
+false
 )
 ;
 NS_ASSERTION
@@ -2398,7 +2398,7 @@ get
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 PRUint32
@@ -3152,7 +3152,7 @@ IsOpenedIMEMode
 NS_ENSURE_TRUE
 (
 mInputSource
-PR_FALSE
+false
 )
 ;
 if
@@ -3163,7 +3163,7 @@ IsIMEMode
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 !
@@ -3183,7 +3183,7 @@ IsIMEMode
 NS_ENSURE_TRUE
 (
 mInputSource
-PR_FALSE
+false
 )
 ;
 CFStringRef
@@ -3197,7 +3197,7 @@ str
 NS_ENSURE_TRUE
 (
 str
-PR_FALSE
+false
 )
 ;
 return
@@ -3228,7 +3228,7 @@ aLanguageList
 NS_ENSURE_TRUE
 (
 mInputSource
-PR_FALSE
+false
 )
 ;
 aLanguageList
@@ -3268,7 +3268,7 @@ aPrimaryLanguage
 NS_ENSURE_TRUE
 (
 mInputSource
-PR_FALSE
+false
 )
 ;
 CFArrayRef
@@ -3280,7 +3280,7 @@ GetLanguageList
 (
 langList
 )
-PR_FALSE
+false
 )
 ;
 if
@@ -3296,7 +3296,7 @@ langList
 0
 )
 return
-PR_FALSE
+false
 ;
 aPrimaryLanguage
 =
@@ -3335,7 +3335,7 @@ aPrimaryLanguage
 NS_ENSURE_TRUE
 (
 mInputSource
-PR_FALSE
+false
 )
 ;
 CFStringRef
@@ -3347,7 +3347,7 @@ GetPrimaryLanguage
 (
 primaryLanguage
 )
-PR_FALSE
+false
 )
 ;
 nsCocoaUtils
@@ -3572,7 +3572,7 @@ nsnull
 ;
 mOverrideKeyboard
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -3720,7 +3720,7 @@ aKeyEvent
 .
 isChar
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -3967,7 +3967,7 @@ aKeyEvent
 .
 isChar
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -6262,7 +6262,7 @@ this
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 PR_LOG
@@ -6416,7 +6416,7 @@ firstResponder
 nsKeyEvent
 keydownEvent
 (
-PR_TRUE
+true
 NS_KEY_DOWN
 mWidget
 )
@@ -6448,7 +6448,7 @@ ConvertCocoaKeyEventToCarbonEvent
 (
 aNativeEvent
 carbonEvent
-PR_TRUE
+true
 )
 ;
 keydownEvent
@@ -6653,7 +6653,7 @@ isEqualToString
 nsMouseEvent
 contextMenuEvent
 (
-PR_TRUE
+true
 NS_CONTEXTMENU
 [
 mView
@@ -6685,7 +6685,7 @@ contextMenuEvent
 .
 isMeta
 =
-PR_FALSE
+false
 ;
 bool
 cmEventHandled
@@ -6773,7 +6773,7 @@ KeyDownOrPressHandled
 nsKeyEvent
 keypressEvent
 (
-PR_TRUE
+true
 NS_KEY_PRESS
 mWidget
 )
@@ -6908,7 +6908,7 @@ mCurrentKeyEvent
 .
 mKeyPressDispatched
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -7021,7 +7021,7 @@ aNativeEvent
 ;
 interpretKeyEventsCalled
 =
-PR_TRUE
+true
 ;
 PR_LOG
 (
@@ -7141,7 +7141,7 @@ IsIMEComposing
 nsKeyEvent
 keypressEvent
 (
-PR_TRUE
+true
 NS_KEY_PRESS
 mWidget
 )
@@ -7428,7 +7428,7 @@ KeyDownOrPressHandled
 ;
 NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -7564,7 +7564,7 @@ mIgnoreNextKeyUpEvent
 {
 mIgnoreNextKeyUpEvent
 =
-PR_FALSE
+false
 ;
 return
 ;
@@ -7646,7 +7646,7 @@ return
 nsKeyEvent
 keyupEvent
 (
-PR_TRUE
+true
 NS_KEY_UP
 mWidget
 )
@@ -7854,7 +7854,7 @@ lock
 DispatchKeyEventForFlagsChanged
 (
 aNativeEvent
-PR_TRUE
+true
 )
 ;
 if
@@ -8217,7 +8217,7 @@ event
 nsKeyEvent
 keyEvent
 (
-PR_TRUE
+true
 message
 mWidget
 )
@@ -8542,7 +8542,7 @@ textEvent
 nsKeyEvent
 keypressEvent
 (
-PR_TRUE
+true
 NS_KEY_PRESS
 mWidget
 )
@@ -8576,7 +8576,7 @@ keypressEvent
 .
 isChar
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -8722,7 +8722,7 @@ ConvertCocoaKeyEventToCarbonEvent
 (
 keyEvent
 carbonEvent
-PR_TRUE
+true
 )
 ;
 keypressEvent
@@ -8929,7 +8929,7 @@ mCurrentKeyEvent
 .
 mKeyPressDispatched
 =
-PR_TRUE
+true
 ;
 }
 NS_OBJC_END_TRY_ABORT_BLOCK
@@ -9229,7 +9229,7 @@ return
 ;
 sStaticMembersInitialized
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -10867,7 +10867,7 @@ return
 }
 mIgnoreIMECommit
 =
-PR_TRUE
+true
 ;
 [
 im
@@ -10878,7 +10878,7 @@ mView
 ;
 mIgnoreIMECommit
 =
-PR_FALSE
+false
 ;
 NS_OBJC_END_TRY_ABORT_BLOCK
 }
@@ -11192,7 +11192,7 @@ isActive
 {
 mIsInFocusProcessing
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -11279,7 +11279,7 @@ ResetIMEWindowLevel
 ;
 mIsInFocusProcessing
 =
-PR_FALSE
+false
 ;
 NS_OBJC_END_TRY_ABORT_BLOCK
 ;
@@ -12220,7 +12220,7 @@ NS_ENSURE_TRUE
 Destroyed
 (
 )
-PR_FALSE
+false
 )
 ;
 nsRefPtr
@@ -12235,7 +12235,7 @@ this
 nsTextEvent
 textEvent
 (
-PR_TRUE
+true
 NS_TEXT_TEXT
 mWidget
 )
@@ -12308,7 +12308,7 @@ mLastDispatchedCompositionString
 nsCompositionEvent
 compositionUpdate
 (
-PR_TRUE
+true
 NS_COMPOSITION_UPDATE
 mWidget
 )
@@ -12402,7 +12402,7 @@ Destroyed
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -12601,7 +12601,7 @@ it
 nsCompositionEvent
 compStart
 (
-PR_TRUE
+true
 NS_COMPOSITION_START
 mWidget
 )
@@ -12717,7 +12717,7 @@ DispatchTextEvent
 str
 aAttrString
 range
-PR_TRUE
+true
 )
 ;
 if
@@ -12764,7 +12764,7 @@ string
 nsCompositionEvent
 compEnd
 (
-PR_TRUE
+true
 NS_COMPOSITION_END
 mWidget
 )
@@ -13027,7 +13027,7 @@ IsEmpty
 nsQueryContentEvent
 selection
 (
-PR_TRUE
+true
 NS_QUERY_SELECTED_TEXT
 mWidget
 )
@@ -13056,7 +13056,7 @@ mOffset
 nsCompositionEvent
 compStart
 (
-PR_TRUE
+true
 NS_COMPOSITION_START
 mWidget
 )
@@ -13182,7 +13182,7 @@ doCommit
 nsCompositionEvent
 compEnd
 (
-PR_TRUE
+true
 NS_COMPOSITION_END
 mWidget
 )
@@ -13325,7 +13325,7 @@ size
 nsQueryContentEvent
 textContent
 (
-PR_TRUE
+true
 NS_QUERY_TEXT_CONTENT
 mWidget
 )
@@ -13530,7 +13530,7 @@ str
 nsQueryContentEvent
 textContent
 (
-PR_TRUE
+true
 NS_QUERY_TEXT_CONTENT
 mWidget
 )
@@ -13873,7 +13873,7 @@ this
 nsQueryContentEvent
 selection
 (
-PR_TRUE
+true
 NS_QUERY_SELECTED_TEXT
 mWidget
 )
@@ -14143,7 +14143,7 @@ useCaretRect
 nsQueryContentEvent
 charRect
 (
-PR_TRUE
+true
 NS_QUERY_TEXT_RECT
 mWidget
 )
@@ -14183,7 +14183,7 @@ else
 {
 useCaretRect
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -14195,7 +14195,7 @@ useCaretRect
 nsQueryContentEvent
 caretRect
 (
-PR_TRUE
+true
 NS_QUERY_CARET_RECT
 mWidget
 )
@@ -14791,23 +14791,23 @@ nsnull
 )
 mIsIMEComposing
 (
-PR_FALSE
+false
 )
 mIsIMEEnabled
 (
-PR_TRUE
+true
 )
 mIsASCIICapableOnly
 (
-PR_FALSE
+false
 )
 mIgnoreIMECommit
 (
-PR_FALSE
+false
 )
 mIsInFocusProcessing
 (
-PR_FALSE
+false
 )
 {
 InitStaticMembers
@@ -14962,7 +14962,7 @@ called
 this
 method
 with
-PR_FALSE
+false
 we
 need
 to
@@ -14999,7 +14999,7 @@ this
 ;
 mIsInFocusProcessing
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -15186,7 +15186,7 @@ aDestroyingWidget
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -15221,7 +15221,7 @@ OnEndIMEComposition
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -15294,7 +15294,7 @@ already
 ;
 mIsIMEComposing
 =
-PR_TRUE
+true
 ;
 mLastDispatchedCompositionString
 .
@@ -15477,7 +15477,7 @@ composition
 ;
 mIsIMEComposing
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -15962,7 +15962,7 @@ ugly
 .
 mIgnoreIMECommit
 =
-PR_TRUE
+true
 ;
 KillIMEComposition
 (
@@ -15970,7 +15970,7 @@ KillIMEComposition
 ;
 mIgnoreIMECommit
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -16034,7 +16034,7 @@ NS_ENSURE_TRUE
 Destroyed
 (
 )
-PR_FALSE
+false
 )
 ;
 NSWindow
@@ -16049,7 +16049,7 @@ window
 NS_ENSURE_TRUE
 (
 window
-PR_FALSE
+false
 )
 ;
 return
@@ -16086,7 +16086,7 @@ isActive
 ;
 NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -16349,7 +16349,7 @@ return
 ;
 sIsPrefferredIMESearched
 =
-PR_TRUE
+true
 ;
 OpenSystemPreferredLanguageIME
 (
@@ -16606,7 +16606,7 @@ Select
 ;
 changed
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -16824,7 +16824,7 @@ aNativeView
 )
 mIgnoreNextKeyUpEvent
 (
-PR_FALSE
+false
 )
 #
 ifndef
@@ -16835,7 +16835,7 @@ mPluginTSMDoc
 )
 mPluginTSMInComposition
 (
-PR_FALSE
+false
 )
 #
 endif
@@ -16846,7 +16846,7 @@ ifndef
 NP_NO_CARBON
 mPluginComplexTextInputRequested
 (
-PR_FALSE
+false
 )
 {
 }
@@ -17141,7 +17141,7 @@ err
 =
 =
 noErr
-PR_FALSE
+false
 )
 ;
 err
@@ -17161,7 +17161,7 @@ err
 =
 =
 noErr
-PR_FALSE
+false
 )
 ;
 err
@@ -17186,7 +17186,7 @@ err
 =
 =
 noErr
-PR_FALSE
+false
 )
 ;
 *
@@ -17206,11 +17206,11 @@ converterInfo
 )
 ;
 return
-PR_TRUE
+true
 ;
 NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -18161,7 +18161,7 @@ text
 nsPluginEvent
 pluginEvent
 (
-PR_TRUE
+true
 NS_PLUGIN_INPUT_EVENT
 mWidget
 )
@@ -18396,7 +18396,7 @@ eventRec
 nsKeyEvent
 keydownEvent
 (
-PR_TRUE
+true
 NS_KEY_DOWN
 mWidget
 )
@@ -18464,7 +18464,7 @@ keydownEvent
 .
 isChar
 =
-PR_TRUE
+true
 ;
 }
 keydownEvent
@@ -18843,7 +18843,7 @@ compositions
 .
 mIgnoreNextKeyUpEvent
 =
-PR_TRUE
+true
 ;
 NSString
 *
@@ -18887,7 +18887,7 @@ flag
 .
 mPluginComplexTextInputRequested
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -18902,7 +18902,7 @@ plugin
 nsPluginEvent
 pluginEvent
 (
-PR_TRUE
+true
 NS_PLUGIN_INPUT_EVENT
 mWidget
 )
@@ -18972,7 +18972,7 @@ compositions
 .
 mIgnoreNextKeyUpEvent
 =
-PR_TRUE
+true
 ;
 NSString
 *
@@ -19035,7 +19035,7 @@ IsInPluginComposition
 {
 wasInComposition
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -19055,7 +19055,7 @@ compositions
 .
 mIgnoreNextKeyUpEvent
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -19071,7 +19071,7 @@ flag
 .
 mPluginComplexTextInputRequested
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -19086,7 +19086,7 @@ plugin
 nsPluginEvent
 pluginEvent
 (
-PR_TRUE
+true
 NS_PLUGIN_INPUT_EVENT
 mWidget
 )
@@ -19162,7 +19162,7 @@ compositions
 .
 mIgnoreNextKeyUpEvent
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -19408,7 +19408,7 @@ mIgnoreNextKeyUpEvent
 {
 mIgnoreNextKeyUpEvent
 =
-PR_FALSE
+false
 ;
 return
 ;
@@ -19479,7 +19479,7 @@ return
 nsKeyEvent
 keyupEvent
 (
-PR_TRUE
+true
 NS_KEY_UP
 mWidget
 )
@@ -19757,7 +19757,7 @@ processPluginKeyEvent
 nsKeyEvent
 keyupEvent
 (
-PR_TRUE
+true
 NS_KEY_UP
 mWidget
 )
@@ -19775,7 +19775,7 @@ ConvertCocoaKeyEventToCarbonEvent
 (
 aNativeKeyEvent
 pluginEvent
-PR_FALSE
+false
 )
 ;
 keyupEvent
@@ -19890,7 +19890,7 @@ aString
 nsPluginEvent
 pluginEvent
 (
-PR_TRUE
+true
 NS_PLUGIN_INPUT_EVENT
 mWidget
 )
@@ -19912,7 +19912,7 @@ pluginEvent
 ;
 NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -20563,7 +20563,7 @@ handler
 >
 SetPluginTSMInComposition
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -20671,7 +20671,7 @@ handler
 >
 SetPluginTSMInComposition
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -20969,7 +20969,7 @@ mWidget
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 mWidget
@@ -20977,7 +20977,7 @@ mWidget
 nsnull
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -21104,7 +21104,7 @@ InitByLayoutID
 mKeyboardOverride
 .
 mKeyboardLayout
-PR_TRUE
+true
 )
 ;
 }
@@ -21427,7 +21427,7 @@ mKeyboardOverride
 .
 mOverrideEnabled
 =
-PR_TRUE
+true
 ;
 [
 NSApp
@@ -22511,11 +22511,11 @@ case
 kPowerbookEnterKeyCode
 :
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -22565,7 +22565,7 @@ isMeta
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -22602,7 +22602,7 @@ charCode
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -22680,10 +22680,10 @@ case
 kRControlKeyCode
 :
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
