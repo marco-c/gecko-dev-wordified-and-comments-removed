@@ -5686,7 +5686,7 @@ OnTransportStatus
 (
 mSocketTransport
 NS_NET_STATUS_WAITING_FOR
-LL_ZERO
+0
 )
 ;
 rv

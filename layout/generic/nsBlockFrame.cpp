@@ -4962,7 +4962,7 @@ gNoisy
 PRTime
 start
 =
-LL_ZERO
+0
 ;
 int32_t
 ctc
@@ -28284,7 +28284,7 @@ height
 PRTime
 start
 =
-LL_ZERO
+0
 ;
 if
 (

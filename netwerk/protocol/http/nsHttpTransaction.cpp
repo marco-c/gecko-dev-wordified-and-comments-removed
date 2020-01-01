@@ -1173,7 +1173,7 @@ NS_HTTP_ACTIVITY_SUBTYPE_REQUEST_HEADER
 PR_Now
 (
 )
-LL_ZERO
+0
 mReqHeaderBuf
 )
 ;
@@ -1799,7 +1799,7 @@ NS_HTTP_ACTIVITY_SUBTYPE_REQUEST_BODY_SENT
 PR_Now
 (
 )
-LL_ZERO
+0
 EmptyCString
 (
 )
@@ -1919,7 +1919,7 @@ else
 {
 progress
 =
-LL_ZERO
+0
 ;
 progressMax
 =
@@ -2687,7 +2687,7 @@ NS_HTTP_ACTIVITY_SUBTYPE_TRANSACTION_CLOSE
 PR_Now
 (
 )
-LL_ZERO
+0
 EmptyCString
 (
 )
@@ -4310,7 +4310,7 @@ NS_HTTP_ACTIVITY_SUBTYPE_RESPONSE_START
 PR_Now
 (
 )
-LL_ZERO
+0
 EmptyCString
 (
 )
@@ -5935,7 +5935,7 @@ NS_HTTP_ACTIVITY_SUBTYPE_RESPONSE_HEADER
 PR_Now
 (
 )
-LL_ZERO
+0
 completeResponseHeaders
 )
 ;

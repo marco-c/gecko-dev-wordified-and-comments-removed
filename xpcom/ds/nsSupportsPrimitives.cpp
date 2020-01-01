@@ -1259,7 +1259,7 @@ nsSupportsPRUint64Impl
 :
 mData
 (
-LL_ZERO
+0
 )
 {
 }
@@ -1441,7 +1441,7 @@ nsSupportsPRTimeImpl
 :
 mData
 (
-LL_ZERO
+0
 )
 {
 }
@@ -2165,7 +2165,7 @@ nsSupportsPRInt64Impl
 :
 mData
 (
-LL_ZERO
+0
 )
 {
 }

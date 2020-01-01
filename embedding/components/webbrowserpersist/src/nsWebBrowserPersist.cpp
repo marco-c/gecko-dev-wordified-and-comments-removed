@@ -9489,13 +9489,13 @@ if
 mTotalCurrentProgress
 =
 =
-LL_ZERO
+0
 &
 &
 mTotalMaxProgress
 =
 =
-LL_ZERO
+0
 )
 {
 mTotalCurrentProgress
