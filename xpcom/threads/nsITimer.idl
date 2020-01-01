@@ -563,6 +563,7 @@ interface
 nsITimer
 ;
 [
+function
 scriptable
 uuid
 (
