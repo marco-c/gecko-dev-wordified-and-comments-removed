@@ -3340,7 +3340,7 @@ screenshot
 .
 enabled
 "
-false
+true
 )
 ;
 pref
