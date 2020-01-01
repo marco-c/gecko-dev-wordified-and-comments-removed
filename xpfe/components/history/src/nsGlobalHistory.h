@@ -140,13 +140,6 @@ h
 #
 include
 "
-nsIAutoCompleteSession
-.
-h
-"
-#
-include
-"
 nsIAutoCompleteSearch
 .
 h
