@@ -5308,6 +5308,9 @@ case
 kVK_ANSI_KeypadEnter
 :
 case
+kVK_JIS_KeypadComma
+:
+case
 kVK_Powerbook_KeypadEnter
 :
 aKeyEvent
@@ -7524,6 +7527,12 @@ kVK_ANSI_KeypadDivide
 :
 return
 NS_VK_DIVIDE
+;
+case
+kVK_JIS_KeypadComma
+:
+return
+NS_VK_SEPARATOR
 ;
 /
 /
