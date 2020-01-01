@@ -31,6 +31,9 @@ ipc
 ;
 BEGIN_BLUETOOTH_NAMESPACE
 class
+BluetoothSocket
+;
+class
 BluetoothSocketObserver
 {
 public
@@ -39,6 +42,9 @@ virtual
 void
 ReceiveSocketData
 (
+BluetoothSocket
+*
+aSocket
 nsAutoPtr
 <
 UnixSocketRawData
@@ -53,6 +59,9 @@ virtual
 void
 OnConnectSuccess
 (
+BluetoothSocket
+*
+aSocket
 )
 =
 0
@@ -61,6 +70,9 @@ virtual
 void
 OnConnectError
 (
+BluetoothSocket
+*
+aSocket
 )
 =
 0
@@ -69,6 +81,9 @@ virtual
 void
 OnDisconnect
 (
+BluetoothSocket
+*
+aSocket
 )
 =
 0
