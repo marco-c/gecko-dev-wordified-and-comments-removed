@@ -19283,7 +19283,11 @@ TEST_BUILDTYPE
 debug
 TEST_TYPE
 =
+(
+browser
+|
 shell
+)
 TEST_OS
 =
 mac
