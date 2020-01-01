@@ -455,6 +455,10 @@ api
 .
 html
 \
+browser_autofocus_preference
+.
+js
+\
 (
 NULL
 )
