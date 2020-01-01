@@ -543,6 +543,16 @@ mmmx
 msse
 -
 Winline
+ifneq
+(
+(
+MOZ_WIDGET_TOOLKIT
+)
+os2
+)
+MMX_CFLAGS
++
+=
 -
 -
 param
@@ -563,6 +573,7 @@ function
 growth
 =
 10000
+endif
 endif
 endif
 CSRCS
