@@ -30273,18 +30273,6 @@ parent
 goto
 error
 ;
-if
-(
-OBJ_GET_PARENT
-(
-cx
-obj
-)
-!
-=
-parent
-)
-{
 obj
 =
 js_CloneFunctionObject
@@ -30302,7 +30290,6 @@ obj
 goto
 error
 ;
-}
 }
 PUSH_OPND
 (
