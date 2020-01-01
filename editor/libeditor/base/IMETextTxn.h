@@ -67,6 +67,9 @@ IME_TEXT_TXN_CID
 }
 }
 class
+nsIEditor
+;
+class
 IMETextTxn
 :
 public
@@ -110,8 +113,9 @@ const
 nsAString
 &
 aString
-nsWeakPtr
-aSelCon
+nsIEditor
+*
+aEditor
 )
 ;
 IMETextTxn
@@ -195,8 +199,9 @@ nsIPrivateTextRangeList
 >
 mRangeList
 ;
-nsWeakPtr
-mSelConWeak
+nsIEditor
+*
+mEditor
 ;
 PRBool
 mFixed
