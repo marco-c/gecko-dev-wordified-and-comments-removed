@@ -768,6 +768,9 @@ p
 /
 div
 >
+#
+ifdef
+MOZ_UPDATER
 <
 button
 id
@@ -864,6 +867,8 @@ found
 /
 span
 >
+#
+endif
 <
 ul
 id
@@ -1376,6 +1381,9 @@ jsm
 "
 )
 ;
+#
+ifdef
+MOZ_UPDATER
 let
 Updater
 =
@@ -2066,6 +2074,8 @@ block
 )
 ;
 }
+#
+endif
 ]
 ]
 >

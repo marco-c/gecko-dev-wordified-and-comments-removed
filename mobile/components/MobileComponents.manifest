@@ -1351,6 +1351,9 @@ b09a
 0800200c9a66
 }
 #
+ifdef
+MOZ_UPDATER
+#
 UpdatePrompt
 .
 js
@@ -1392,3 +1395,5 @@ d072
 -
 f89d8c49fe59
 }
+#
+endif

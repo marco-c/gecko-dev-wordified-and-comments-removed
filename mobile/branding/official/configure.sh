@@ -8,3 +8,5 @@ org
 mozilla
 .
 firefox
+MOZ_UPDATER
+=

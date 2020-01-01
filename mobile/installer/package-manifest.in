@@ -159,6 +159,9 @@ profile
 chrome
 /
 *
+#
+ifdef
+MOZ_UPDATER
 BINPATH
 /
 update
@@ -169,6 +172,8 @@ BINPATH
 updater
 .
 ini
+#
+endif
 BINPATH
 /
 dictionaries
@@ -1411,6 +1416,9 @@ components
 unicharutil
 .
 xpt
+#
+ifdef
+MOZ_UPDATER
 BINPATH
 /
 components
@@ -1418,6 +1426,8 @@ components
 update
 .
 xpt
+#
+endif
 BINPATH
 /
 components
@@ -3294,6 +3304,9 @@ Updater
 ;
 #
 ifdef
+MOZ_UPDATER
+#
+ifdef
 XP_MACOSX
 BINPATH
 /
@@ -3307,6 +3320,8 @@ BINPATH
 /
 updater
 BIN_SUFFIX
+#
+endif
 #
 endif
 ;
@@ -3641,6 +3656,9 @@ components
 Sidebar
 .
 js
+#
+ifdef
+MOZ_UPDATER
 BINPATH
 /
 components
@@ -3648,6 +3666,8 @@ components
 UpdatePrompt
 .
 js
+#
+endif
 BINPATH
 /
 components

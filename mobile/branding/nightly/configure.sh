@@ -1,3 +1,6 @@
 MOZ_APP_DISPLAYNAME
 =
 Fennec
+MOZ_UPDATER
+=
+1
