@@ -145,12 +145,12 @@ target
 =
 aEvent
 .
-target
+originalTarget
 parent
 =
 aEvent
 .
-target
+originalTarget
 ;
 while
 (
