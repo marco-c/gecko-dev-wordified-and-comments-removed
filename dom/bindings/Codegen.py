@@ -53123,9 +53123,6 @@ n
                 
 "
 return
-DOMProxyHandler
-:
-:
 AppendNamedPropertyIds
 (
 cx
@@ -53137,7 +53134,6 @@ NullPtr
 )
 names
 true
-nullptr
 props
 )
 ;
@@ -56231,7 +56227,6 @@ HasPropertyOnPrototype
 (
 cx
 proxy
-this
 id
 )
 "
@@ -57874,7 +57869,6 @@ HasPropertyOnPrototype
 (
 cx
 proxy
-this
 id
 )
 "
@@ -58164,7 +58158,6 @@ proxy
 names
 %
 s
-this
 props
 )
 )
@@ -58740,7 +58733,6 @@ HasPropertyOnPrototype
 (
 cx
 proxy
-this
 id
 )
 "

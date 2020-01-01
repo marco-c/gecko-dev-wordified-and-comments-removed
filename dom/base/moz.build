@@ -535,6 +535,11 @@ nsWrapperCache
 .
 cpp
 '
+'
+WindowNamedPropertiesHandler
+.
+cpp
+'
 ]
 EXTRA_COMPONENTS
 +

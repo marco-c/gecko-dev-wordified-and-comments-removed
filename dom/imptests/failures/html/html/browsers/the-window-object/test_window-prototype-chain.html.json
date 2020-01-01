@@ -7,13 +7,6 @@ prototype
 :
 true
 "
-Global
-scope
-polluter
-"
-:
-true
-"
 EventTarget
 .
 prototype
