@@ -3172,12 +3172,31 @@ return
 0
         
 except
-WindowsError
+OSError
 as
 e
 :
             
 if
+sys
+.
+platform
+.
+startswith
+(
+'
+win
+'
+)
+:
+                
+if
+isinstance
+(
+e
+WindowsError
+)
+and
 e
 .
 winerror
@@ -3187,7 +3206,7 @@ in
 32
 )
 :
-                
+                    
 self
 .
 log
@@ -3205,7 +3224,7 @@ error
 :
 e
 }
-                    
+                        
 "
 Could
 not
@@ -3220,7 +3239,7 @@ use
 If
 the
 "
-                    
+                        
 "
 application
 is
@@ -3234,13 +3253,10 @@ error
 }
 "
 )
-                
+                    
 return
 1
             
-else
-:
-                
 raise
 CommandProvider
 class
