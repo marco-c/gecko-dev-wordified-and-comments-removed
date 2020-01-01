@@ -4272,8 +4272,6 @@ src
 /
 common
 /
-mac
-/
 dwarf
 /
 Makefile
