@@ -921,6 +921,34 @@ ended
 stderr
 )
         
+returncode
+=
+os
+.
+WEXITSTATUS
+(
+status
+)
+        
+if
+os
+.
+WIFSIGNALED
+(
+status
+)
+:
+            
+returncode
+=
+-
+os
+.
+WTERMSIG
+(
+status
+)
+        
 out
 =
 TestOutput
@@ -954,12 +982,7 @@ ended
 err
 )
                    
-os
-.
-WEXITSTATUS
-(
-status
-)
+returncode
                    
 (
 datetime
