@@ -563,6 +563,8 @@ const
 char
 *
 aId
+GamepadMappingType
+aMapping
 uint32_t
 aNumButtons
 uint32_t
@@ -587,6 +589,7 @@ aId
 )
 )
 0
+aMapping
 aNumButtons
 aNumAxes
 )
@@ -2244,6 +2247,8 @@ char
 *
 aID
 uint32_t
+aMapping
+uint32_t
 aNumButtons
 uint32_t
 aNumAxes
@@ -2261,6 +2266,13 @@ gGamepadServiceSingleton
 AddGamepad
 (
 aID
+static_cast
+<
+GamepadMappingType
+>
+(
+aMapping
+)
 aNumButtons
 aNumAxes
 )

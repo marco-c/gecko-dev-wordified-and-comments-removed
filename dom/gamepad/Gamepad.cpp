@@ -91,6 +91,8 @@ nsAString
 aID
 uint32_t
 aIndex
+GamepadMappingType
+aMapping
 uint32_t
 aNumButtons
 uint32_t
@@ -108,6 +110,10 @@ aID
 mIndex
 (
 aIndex
+)
+mMapping
+(
+aMapping
 )
 mConnected
 (
@@ -753,6 +759,7 @@ Gamepad
 aParent
 mID
 mIndex
+mMapping
 mButtons
 .
 Length
