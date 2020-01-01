@@ -4280,7 +4280,7 @@ problem
 on
 Windows
 sleep
-1
+2
 esac
 AC_PROG_CXX
 AC_PROG_RANLIB
