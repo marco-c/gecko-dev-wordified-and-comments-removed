@@ -449,6 +449,10 @@ testDefineGetterSetterNonEnumerable
 .
 cpp
 \
+testExtendedEq
+.
+cpp
+\
 testIntString
 .
 cpp
