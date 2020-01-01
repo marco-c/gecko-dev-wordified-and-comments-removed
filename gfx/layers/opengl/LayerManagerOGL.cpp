@@ -3854,6 +3854,9 @@ fEnable
 LOCAL_GL_SCISSOR_TEST
 )
 ;
+#
+ifndef
+MOZ_JAVA_COMPOSITOR
 mGLContext
 -
 >
@@ -3883,6 +3886,8 @@ LOCAL_GL_COLOR_BUFFER_BIT
 LOCAL_GL_DEPTH_BUFFER_BIT
 )
 ;
+#
+endif
 mWidget
 -
 >
