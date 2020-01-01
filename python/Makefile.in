@@ -104,6 +104,12 @@ test
 /
 frontend
 \
+mozbuild
+/
+mozpack
+/
+test
+\
 (
 NULL
 )
