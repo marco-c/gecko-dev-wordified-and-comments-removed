@@ -2785,13 +2785,6 @@ if
 gfxInfo
 )
 {
-gfxInfo
--
->
-GetData
-(
-)
-;
 PRInt32
 status
 ;

@@ -155,13 +155,6 @@ Init
 (
 )
 ;
-virtual
-void
-GetData
-(
-)
-{
-}
 protected
 :
 virtual
