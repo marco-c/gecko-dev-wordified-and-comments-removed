@@ -10329,15 +10329,6 @@ IsJITBrokenHere
 )
 &
 &
-!
-compartment
--
->
-types
-.
-inferenceEnabled
-&
-&
 (
 debugHooks
 =
