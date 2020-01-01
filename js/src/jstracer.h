@@ -5037,7 +5037,7 @@ JS_REQUIRES_STACK
 nanojit
 :
 :
-LIns
+GuardRecord
 *
 createGuardRecord
 (

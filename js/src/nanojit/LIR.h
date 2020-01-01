@@ -3717,11 +3717,6 @@ GuardRecord
 oprnd2
 (
 )
--
->
-payload
-(
-)
 ;
 }
 int32_t
@@ -4419,9 +4414,9 @@ v
 LIns
 *
 c
-LIns
+GuardRecord
 *
-x
+gr
 )
 {
 return
@@ -4432,7 +4427,7 @@ insGuard
 (
 v
 c
-x
+gr
 )
 ;
 }
@@ -5342,9 +5337,9 @@ LOpcode
 op
 LInsp
 cond
-LIns
+GuardRecord
 *
-x
+gr
 )
 {
 return
@@ -5357,7 +5352,7 @@ insGuard
 (
 op
 cond
-x
+gr
 )
 )
 ;
@@ -5792,7 +5787,7 @@ LOpcode
 LIns
 *
 cond
-LIns
+GuardRecord
 *
 )
 ;
@@ -6189,9 +6184,9 @@ LOpcode
 op
 LInsp
 cond
-LIns
+GuardRecord
 *
-x
+gr
 )
 ;
 }
@@ -6474,9 +6469,9 @@ LOpcode
 op
 LInsp
 cond
-LIns
+GuardRecord
 *
-x
+gr
 )
 ;
 LInsp
