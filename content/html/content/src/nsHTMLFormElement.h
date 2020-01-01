@@ -731,6 +731,16 @@ nsFormSubmission
 aFormSubmission
 )
 ;
+bool
+HasEverTriedInvalidSubmit
+(
+)
+const
+{
+return
+mEverTriedInvalidSubmit
+;
+}
 protected
 :
 class
@@ -958,6 +968,9 @@ mFirstSubmitNotInElements
 ;
 PRInt32
 mInvalidElementsCount
+;
+bool
+mEverTriedInvalidSubmit
 ;
 protected
 :
