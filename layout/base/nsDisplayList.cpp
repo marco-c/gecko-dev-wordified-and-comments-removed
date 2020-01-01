@@ -9402,11 +9402,17 @@ return
 rv
 ;
 }
+if
+(
+aBackground
+)
+{
 *
 aBackground
 =
 bgItem
 ;
+}
 return
 NS_OK
 ;
