@@ -602,6 +602,17 @@ height
 )
 )
 ;
+mWidget
+-
+>
+setAttribute
+(
+Qt
+:
+:
+WA_PaintOnScreen
+)
+;
 if
 (
 mThebesSurface
