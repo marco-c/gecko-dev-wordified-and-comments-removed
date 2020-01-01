@@ -326,6 +326,10 @@ dest
 d
 )
     
+if
+d
+:
+      
 sourcedir
 =
 "
@@ -342,7 +346,7 @@ s
 dest
 d
 )
-    
+      
 destdir
 =
 "
@@ -357,6 +361,24 @@ s
 dest
 d
 )
+    
+else
+:
+      
+sourcedir
+=
+"
+hg
+-
+%
+s
+"
+%
+dest
+      
+destdir
+=
+dest
     
 os
 .
@@ -445,6 +467,10 @@ subdirs
 )
 :
       
+if
+d
+:
+        
 importDirs
 (
 thissrcdir
@@ -467,6 +493,16 @@ subdir
 in
 subdirs
 ]
+)
+      
+else
+:
+        
+importDirs
+(
+thissrcdir
+dest
+subdirs
 )
 def
 printMakefile
@@ -838,6 +874,10 @@ in
 directories
 :
     
+if
+d
+:
+      
 path
 =
 "
@@ -852,6 +892,13 @@ s
 dest
 d
 )
+    
+else
+:
+      
+path
+=
+dest
     
 abspath
 =
