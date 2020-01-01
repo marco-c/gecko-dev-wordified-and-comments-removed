@@ -768,6 +768,10 @@ browser_tabview_bug635696
 .
 js
 \
+browser_tabview_bug640765
+.
+js
+\
 browser_tabview_bug641802
 .
 js
