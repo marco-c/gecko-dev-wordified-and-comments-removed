@@ -106,11 +106,6 @@ DrawTargetWillChange
 (
 )
 ;
-void
-MarkIndependent
-(
-)
-;
 private
 :
 IntSize
