@@ -36,14 +36,7 @@ h
 #
 include
 "
-xpcprivate
-.
-h
-"
-#
-include
-"
-XPCQuickStubs
+xpcpublic
 .
 h
 "
@@ -621,7 +614,10 @@ key
 if
 (
 !
-xpc_qsStringToJsval
+xpc
+:
+:
+StringToJsval
 (
 aCx
 key

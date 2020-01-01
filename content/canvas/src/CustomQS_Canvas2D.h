@@ -411,7 +411,10 @@ nsIDOMCanvasRenderingContext2D
 CMG_STYLE_STRING
 :
 return
-xpc_qsStringToJsval
+xpc
+:
+:
+StringToJsval
 (
 cx
 resultString

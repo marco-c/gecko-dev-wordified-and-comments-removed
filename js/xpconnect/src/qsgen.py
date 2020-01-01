@@ -4249,7 +4249,10 @@ astring
         
 "
 return
-xpc_qsStringToJsval
+xpc
+:
+:
+StringToJsval
 (
 cx
 result
@@ -4271,7 +4274,10 @@ domstring
         
 "
 return
-xpc_qsStringToJsval
+xpc
+:
+:
+StringToJsval
 (
 cx
 result
