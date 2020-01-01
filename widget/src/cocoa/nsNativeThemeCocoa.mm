@@ -612,6 +612,13 @@ h
 #
 include
 "
+nsNativeThemeColors
+.
+h
+"
+#
+include
+"
 gfxContext
 .
 h
@@ -7785,7 +7792,10 @@ callbacks
 =
 {
 0
-unifiedShading
+nsCocoaWindow
+:
+:
+UnifiedShading
 NULL
 }
 ;
