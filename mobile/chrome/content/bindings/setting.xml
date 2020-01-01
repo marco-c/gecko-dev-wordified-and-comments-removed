@@ -2284,6 +2284,14 @@ increment
 hidespinbuttons
 wraparound
 "
+oninput
+=
+"
+inputChanged
+(
+)
+;
+"
 oncommand
 =
 "

@@ -1185,6 +1185,14 @@ aIndex
 let
 item
 =
+shouldUpdateEditor
+?
+this
+.
+_editor
+.
+nextSibling
+:
 this
 .
 _container
@@ -1195,7 +1203,6 @@ aIndex
 +
 1
 ]
-;
 if
 (
 !
