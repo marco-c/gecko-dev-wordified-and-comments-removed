@@ -1946,7 +1946,7 @@ dialogs
 >
 ChooseToken
 (
-m_ctx
+nsnull
 (
 const
 PRUnichar

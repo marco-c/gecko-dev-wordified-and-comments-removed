@@ -496,10 +496,6 @@ nsICertOverrideService
 .
 idl
 \
-nsIRecentBadCertsService
-.
-idl
-\
 nsIFormSigningDialog
 .
 idl

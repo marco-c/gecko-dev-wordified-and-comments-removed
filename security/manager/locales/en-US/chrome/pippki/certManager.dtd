@@ -427,9 +427,12 @@ certmgr
 .
 tab
 .
-others2
+others
 "
+Other
 People
+'
+s
 "
 >
 <
@@ -463,9 +466,9 @@ certmgr
 .
 tab
 .
-orphan2
+orphan
 "
-Others
+Extra
 "
 >
 <
@@ -541,7 +544,7 @@ people
 ENTITY
 certmgr
 .
-websites2
+websites
 "
 You
 have
@@ -551,7 +554,8 @@ file
 that
 identify
 these
-servers
+web
+sites
 :
 "
 >

@@ -530,10 +530,8 @@ PRInt32
 _index
 )
 ;
-already_AddRefed
-<
 nsIX509Cert
->
+*
 GetCertAtIndex
 (
 PRInt32
@@ -545,10 +543,8 @@ outAbsoluteCertOffset
 nsnull
 )
 ;
-already_AddRefed
-<
 nsCertTreeDispInfo
->
+*
 GetDispInfoAtIndex
 (
 PRInt32
