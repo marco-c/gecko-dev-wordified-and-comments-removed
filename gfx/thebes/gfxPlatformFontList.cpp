@@ -1563,6 +1563,9 @@ key
 found
 )
 )
+!
+=
+nsnull
 )
 {
 return
@@ -1573,6 +1576,13 @@ if
 (
 !
 mOtherFamilyNamesInitialized
+&
+&
+!
+IsASCII
+(
+aFamily
+)
 )
 {
 InitOtherFamilyNames
@@ -1593,6 +1603,9 @@ key
 found
 )
 )
+!
+=
+nsnull
 )
 {
 return

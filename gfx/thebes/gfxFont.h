@@ -1659,6 +1659,16 @@ gfxPlatformFontList
 aPlatformFontList
 )
 ;
+void
+SetOtherFamilyNamesInitialized
+(
+)
+{
+mOtherFamilyNamesInitialized
+=
+PR_TRUE
+;
+}
 virtual
 void
 ReadFaceNames
