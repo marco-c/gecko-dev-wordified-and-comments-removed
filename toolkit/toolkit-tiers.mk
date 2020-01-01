@@ -446,9 +446,9 @@ include
 topsrcdir
 )
 /
-js
+config
 /
-src
+js
 /
 build
 .

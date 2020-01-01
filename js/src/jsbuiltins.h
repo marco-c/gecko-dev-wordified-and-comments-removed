@@ -11,6 +11,8 @@ JS_TRACER
 include
 "
 nanojit
+/
+nanojit
 .
 h
 "

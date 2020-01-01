@@ -2118,6 +2118,10 @@ bsdecho
 \
 gtscc
 \
+js
+-
+config
+\
 jscpucfg
 \
 nsinstall

@@ -1158,15 +1158,6 @@ tests
 /
 Makefile
 "
-MAKEFILES_js
-=
-"
-js
-/
-src
-/
-Makefile
-"
 MAKEFILES_liveconnect
 =
 "
@@ -4797,7 +4788,6 @@ MAKEFILES_expat
 MAKEFILES_gfx
 MAKEFILES_htmlparser
 MAKEFILES_intl
-MAKEFILES_js
 MAKEFILES_liveconnect
 MAKEFILES_xpconnect
 MAKEFILES_jsdebugger
