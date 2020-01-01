@@ -9799,13 +9799,6 @@ res
 /
 drawable
 /
-sync_ic_launcher
-.
-png
-res
-/
-drawable
-/
 icon
 .
 png
@@ -9872,13 +9865,6 @@ ap_
 AndroidManifest
 .
 xml
-res
-/
-drawable
-/
-sync_ic_launcher
-.
-png
 res
 /
 drawable

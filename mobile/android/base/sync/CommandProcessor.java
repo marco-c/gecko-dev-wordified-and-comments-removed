@@ -1160,7 +1160,7 @@ R
 .
 drawable
 .
-sync_ic_launcher
+icon
 ;
 String
 notificationTitle

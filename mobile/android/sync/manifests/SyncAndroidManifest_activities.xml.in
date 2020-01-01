@@ -7,7 +7,7 @@ icon
 "
 drawable
 /
-sync_ic_launcher
+icon
 "
 android
 :
@@ -328,7 +328,7 @@ icon
 "
 drawable
 /
-sync_ic_launcher
+icon
 "
 android
 :
