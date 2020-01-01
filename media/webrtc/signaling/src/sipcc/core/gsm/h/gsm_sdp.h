@@ -692,6 +692,14 @@ dcb
 )
 ;
 cc_causes_t
+gsmsdp_check_ice_attributes_exist
+(
+fsm_fcb_t
+*
+fcb_p
+)
+;
+cc_causes_t
 gsmsdp_install_peer_ice_attributes
 (
 fsm_fcb_t
