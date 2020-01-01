@@ -25565,7 +25565,7 @@ dot_prototype
 =
 :
 :
-JS_NewObject
+JS_NewObjectWithUniqueType
 (
 cx
 &
