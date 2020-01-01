@@ -10294,7 +10294,16 @@ thread
 )
 ;
 return
-NS_ERROR_NOT_IMPLEMENTED
+JS_SetDebugModeForCompartment
+(
+cx
+comp
+mode
+)
+?
+NS_OK
+:
+NS_ERROR_FAILURE
 ;
 }
 NS_IMETHODIMP
