@@ -434,6 +434,14 @@ nsHtml5Atoms
 .
 cpp
 \
+nsHtml5Atom
+.
+cpp
+\
+nsHtml5AtomTable
+.
+cpp
+\
 nsHtml5Parser
 .
 cpp

@@ -645,6 +645,10 @@ TestXPIDLString
 .
 cpp
 \
+TestStaticAtoms
+.
+cpp
+\
 (
 NULL
 )
