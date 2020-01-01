@@ -2756,12 +2756,6 @@ pointer
 "
 )
 ;
-JSAutoRequest
-ar
-(
-aCx
-)
-;
 nsresult
 rv
 =

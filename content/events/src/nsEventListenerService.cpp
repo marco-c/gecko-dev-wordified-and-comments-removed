@@ -481,13 +481,6 @@ true
 AutoSafeJSContext
 cx
 ;
-{
-JSAutoRequest
-ar
-(
-cx
-)
-;
 mozilla
 :
 :
@@ -563,7 +556,6 @@ Assign
 depStr
 )
 ;
-}
 }
 }
 }
@@ -652,13 +644,6 @@ NS_OK
 AutoSafeJSContext
 cx
 ;
-{
-JSAutoRequest
-ar
-(
-cx
-)
-;
 mozilla
 :
 :
@@ -731,7 +716,6 @@ forget
 aRetVal
 )
 ;
-}
 }
 #
 endif

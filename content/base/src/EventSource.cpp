@@ -5361,12 +5361,6 @@ JSString
 *
 jsString
 ;
-JSAutoRequest
-ar
-(
-cx
-)
-;
 jsString
 =
 JS_NewUCStringCopyN

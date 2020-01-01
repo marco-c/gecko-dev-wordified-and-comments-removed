@@ -900,12 +900,6 @@ GetNativeContext
 )
 )
 ;
-JSAutoRequest
-ar
-(
-cx
-)
-;
 JSAutoCompartment
 ac
 (
@@ -1466,12 +1460,6 @@ NS_ENSURE_TRUE
 (
 scopeObject
 NS_ERROR_OUT_OF_MEMORY
-)
-;
-JSAutoRequest
-ar
-(
-cx
 )
 ;
 JSAutoCompartment

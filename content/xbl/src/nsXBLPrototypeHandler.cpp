@@ -1328,12 +1328,6 @@ rv
 rv
 )
 ;
-JSAutoRequest
-ar
-(
-cx
-)
-;
 JS
 :
 :
@@ -1801,12 +1795,6 @@ aName
 argCount
 &
 argNames
-)
-;
-JSAutoRequest
-ar
-(
-cx
 )
 ;
 JSAutoCompartment

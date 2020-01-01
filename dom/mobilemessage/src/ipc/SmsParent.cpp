@@ -182,12 +182,6 @@ MmsAttachmentData
 aAttachment
 )
 {
-JSAutoRequest
-ar
-(
-aContext
-)
-;
 JS
 :
 :
@@ -463,12 +457,6 @@ Value
 aParam
 )
 {
-JSAutoRequest
-ar
-(
-aCx
-)
-;
 JS
 :
 :

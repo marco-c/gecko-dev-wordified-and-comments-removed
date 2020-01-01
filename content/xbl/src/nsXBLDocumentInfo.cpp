@@ -1163,12 +1163,6 @@ GetNativeContext
 )
 )
 ;
-JSAutoRequest
-ar
-(
-cx
-)
-;
 JS_SetErrorReporter
 (
 cx

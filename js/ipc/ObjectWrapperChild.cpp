@@ -111,9 +111,6 @@ AutoContextPusher
 nsCxPusher
 mStack
 ;
-JSAutoRequest
-mRequest
-;
 JSContext
 *
 const
@@ -134,10 +131,6 @@ cx
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
-mRequest
-(
-cx
-)
 mContext
 (
 cx
@@ -464,12 +457,6 @@ acp
 cx
 )
 ;
-JSAutoRequest
-request
-(
-cx
-)
-;
 #
 ifdef
 DEBUG
@@ -525,12 +512,6 @@ GetContext
 ;
 AutoContextPusher
 acp
-(
-cx
-)
-;
-JSAutoRequest
-request
 (
 cx
 )

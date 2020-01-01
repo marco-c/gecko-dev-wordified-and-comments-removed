@@ -547,12 +547,6 @@ PR_Free
 className
 )
 ;
-JSAutoRequest
-autoRequest
-(
-cx
-)
-;
 xpc_DumpJSStack
 (
 cx

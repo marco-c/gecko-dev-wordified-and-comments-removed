@@ -4082,12 +4082,6 @@ argCount
 argNames
 )
 ;
-JSAutoRequest
-ar
-(
-cx
-)
-;
 JSAutoCompartment
 ac
 (

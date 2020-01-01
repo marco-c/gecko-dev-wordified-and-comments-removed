@@ -314,13 +314,6 @@ GetSafeJSContext
 )
 ;
 }
-mAr
-.
-construct
-(
-cx
-)
-;
 mRootedCallable
 .
 construct

@@ -1122,12 +1122,6 @@ NS_ERROR_FAILURE
 AutoSafeJSContext
 cx
 ;
-JSAutoRequest
-ar
-(
-cx
-)
-;
 nsIXPConnect
 *
 xpc

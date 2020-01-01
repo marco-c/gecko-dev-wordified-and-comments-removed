@@ -108,12 +108,6 @@ return
 true
 ;
 }
-JSAutoRequest
-ar
-(
-cx
-)
-;
 JSString
 *
 str

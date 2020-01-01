@@ -1007,12 +1007,6 @@ GetNativeContext
 )
 )
 ;
-JSAutoRequest
-ar
-(
-cx
-)
-;
 JSAutoCompartment
 ac
 (
@@ -1231,12 +1225,6 @@ aContext
 GetNativeContext
 (
 )
-)
-;
-JSAutoRequest
-ar
-(
-cx
 )
 ;
 JSAutoCompartment

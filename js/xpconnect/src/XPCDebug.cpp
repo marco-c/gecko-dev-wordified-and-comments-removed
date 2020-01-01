@@ -454,12 +454,6 @@ return
 false
 ;
 }
-JSAutoRequest
-ar
-(
-cx
-)
-;
 JSExceptionState
 *
 exceptionState

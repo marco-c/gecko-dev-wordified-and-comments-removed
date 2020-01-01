@@ -1338,12 +1338,6 @@ if
 cx
 )
 {
-JSAutoRequest
-ar
-(
-cx
-)
-;
 nsRefPtr
 <
 AudioBuffer

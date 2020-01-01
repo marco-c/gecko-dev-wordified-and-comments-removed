@@ -5082,12 +5082,6 @@ GetGlobalJSObject
 )
 )
 ;
-JSAutoRequest
-ar
-(
-jscontext
-)
-;
 JS
 :
 :

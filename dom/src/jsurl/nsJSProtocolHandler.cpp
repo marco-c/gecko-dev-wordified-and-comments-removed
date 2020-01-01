@@ -1122,12 +1122,6 @@ UndefinedValue
 )
 )
 ;
-JSAutoRequest
-ar
-(
-cx
-)
-;
 if
 (
 useSandbox

@@ -636,12 +636,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-JSAutoRequest
-ar
-(
-aCx
-)
-;
 JS
 :
 :

@@ -2610,12 +2610,6 @@ cx
 NS_OK
 )
 ;
-JSAutoRequest
-ar
-(
-cx
-)
-;
 if
 (
 aResult

@@ -9068,11 +9068,6 @@ SetGlobalObject
 glob
 )
 ;
-JS_BeginRequest
-(
-cx
-)
-;
 {
 JSAutoCompartment
 ac
@@ -9222,11 +9217,6 @@ rt
 )
 ;
 }
-JS_EndRequest
-(
-cx
-)
-;
 pusher
 .
 Pop

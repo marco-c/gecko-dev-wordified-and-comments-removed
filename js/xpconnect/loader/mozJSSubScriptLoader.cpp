@@ -970,12 +970,6 @@ return
 rv
 ;
 }
-JSAutoRequest
-ar
-(
-cx
-)
-;
 RootedObject
 targetObj
 (

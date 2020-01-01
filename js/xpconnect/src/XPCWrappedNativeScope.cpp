@@ -1091,12 +1091,6 @@ nsExpandedPrincipal
 principalAsArray
 )
 ;
-JSAutoRequest
-ar
-(
-cx
-)
-;
 JS
 :
 :

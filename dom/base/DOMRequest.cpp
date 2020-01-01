@@ -1171,12 +1171,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-JSAutoRequest
-ar
-(
-cx
-)
-;
 JS_AddValueRoot
 (
 cx
@@ -1376,12 +1370,6 @@ GetNativeContext
 )
 ;
 MOZ_ASSERT
-(
-cx
-)
-;
-JSAutoRequest
-ar
 (
 cx
 )

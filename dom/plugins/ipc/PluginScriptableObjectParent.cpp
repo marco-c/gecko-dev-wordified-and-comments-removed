@@ -5324,12 +5324,6 @@ mozilla
 AutoSafeJSContext
 cx
 ;
-JSAutoRequest
-ar
-(
-cx
-)
-;
 for
 (
 uint32_t

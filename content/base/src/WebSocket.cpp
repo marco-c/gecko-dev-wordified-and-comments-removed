@@ -3825,13 +3825,6 @@ jsData
 cx
 )
 ;
-{
-JSAutoRequest
-ar
-(
-cx
-)
-;
 if
 (
 isBinary
@@ -3988,7 +3981,6 @@ STRING_TO_JSVAL
 jsString
 )
 ;
-}
 }
 nsCOMPtr
 <

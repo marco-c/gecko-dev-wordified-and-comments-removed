@@ -336,12 +336,6 @@ proto
 cx
 )
 ;
-JSAutoRequest
-ar
-(
-cx
-)
-;
 for
 (
 ;

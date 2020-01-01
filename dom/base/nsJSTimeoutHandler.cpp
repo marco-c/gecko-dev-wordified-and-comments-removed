@@ -853,12 +853,6 @@ funobj
 cx
 )
 ;
-JSAutoRequest
-ar
-(
-cx
-)
-;
 if
 (
 argc

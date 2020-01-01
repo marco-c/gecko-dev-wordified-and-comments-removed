@@ -34,12 +34,6 @@ MOZ_ASSERT
 aCx
 )
 ;
-JSAutoRequest
-ar
-(
-aCx
-)
-;
 JS
 :
 :
@@ -286,12 +280,6 @@ aResultArray
 )
 {
 MOZ_ASSERT
-(
-aCx
-)
-;
-JSAutoRequest
-ar
 (
 aCx
 )

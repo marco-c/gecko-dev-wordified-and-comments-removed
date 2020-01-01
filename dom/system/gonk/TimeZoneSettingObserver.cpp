@@ -425,12 +425,6 @@ isString
 )
 )
 {
-JSAutoRequest
-ar
-(
-cx
-)
-;
 return
 TimeZoneSettingObserver
 :

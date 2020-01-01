@@ -6244,12 +6244,6 @@ aJSONData
 AutoSafeJSContext
 cx
 ;
-JSAutoRequest
-ar
-(
-cx
-)
-;
 JS
 :
 :

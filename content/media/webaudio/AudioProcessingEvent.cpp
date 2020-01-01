@@ -151,12 +151,6 @@ GetJSContext
 )
 )
 ;
-JSAutoRequest
-ar
-(
-cx
-)
-;
 aBuffer
 =
 new
