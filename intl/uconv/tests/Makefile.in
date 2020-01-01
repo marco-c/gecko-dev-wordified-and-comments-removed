@@ -484,6 +484,10 @@ test_bug335816
 .
 html
 \
+test_singlebyte_overconsumption
+.
+html
+\
 test_unicode_noncharacterescapes
 .
 html
