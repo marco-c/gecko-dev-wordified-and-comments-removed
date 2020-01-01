@@ -3249,11 +3249,15 @@ surface
 ;
 mThebes
 =
+surface
+?
 new
 gfxContext
 (
 mSurface
 )
+:
+nsnull
 ;
 if
 (
