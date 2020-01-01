@@ -35,6 +35,14 @@ ePopupTypeAny
 }
 ;
 enum
+nsPopupLevel
+{
+ePopupLevelParent
+ePopupLevelFloating
+ePopupLevelTop
+}
+;
+enum
 nsBorderStyle
 {
 eBorderStyle_none
@@ -135,6 +143,10 @@ mPopupHint
 (
 ePopupTypePanel
 )
+mPopupLevel
+(
+ePopupLevelTop
+)
 clipChildren
 (
 PR_FALSE
@@ -159,6 +171,10 @@ mRTL
 (
 PR_FALSE
 )
+mNoAutoHide
+(
+PR_FALSE
+)
 {
 }
 nsWindowType
@@ -173,6 +189,9 @@ mContentType
 nsPopupType
 mPopupHint
 ;
+nsPopupLevel
+mPopupLevel
+;
 PRPackedBool
 clipChildren
 clipSiblings
@@ -186,6 +205,9 @@ mUnicode
 ;
 PRPackedBool
 mRTL
+;
+PRPackedBool
+mNoAutoHide
 ;
 }
 ;

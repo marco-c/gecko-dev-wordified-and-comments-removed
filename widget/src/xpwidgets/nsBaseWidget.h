@@ -778,6 +778,15 @@ nsIntMargin
 margins
 )
 ;
+nsPopupLevel
+PopupLevel
+(
+)
+{
+return
+mPopupLevel
+;
+}
 class
 AutoLayerManagerSetup
 {
@@ -1003,6 +1012,9 @@ mZIndex
 ;
 nsSizeMode
 mSizeMode
+;
+nsPopupLevel
+mPopupLevel
 ;
 static
 nsIContent

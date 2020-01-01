@@ -16864,7 +16864,10 @@ eWindowType_popup
 if
 (
 !
-aParent
+aInitData
+-
+>
+mNoAutoHide
 )
 {
 mShell

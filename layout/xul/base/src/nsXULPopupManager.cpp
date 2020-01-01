@@ -1262,6 +1262,17 @@ menuPopupFrame
 IsAnchored
 (
 )
+&
+&
+menuPopupFrame
+-
+>
+PopupLevel
+(
+)
+=
+=
+ePopupLevelParent
 )
 {
 menuPopupFrame
