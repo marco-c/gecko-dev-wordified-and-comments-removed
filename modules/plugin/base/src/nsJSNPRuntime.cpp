@@ -96,6 +96,16 @@ jscntxt
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+plugins
+:
+:
+parent
+;
 static
 PLDHashTable
 sJSObjWrappers

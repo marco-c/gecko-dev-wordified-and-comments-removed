@@ -110,6 +110,16 @@ nsJSNPRuntime
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+plugins
+:
+:
+parent
+;
 static
 NS_DEFINE_IID
 (
