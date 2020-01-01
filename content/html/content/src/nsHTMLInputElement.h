@@ -1013,7 +1013,7 @@ aType
 )
 ;
 PRInt32
-GetFiltersFromAccept
+GetFilterFromAccept
 (
 )
 ;
