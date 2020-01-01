@@ -40600,8 +40600,14 @@ ToJSVal
 JSContext
 *
 cx
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 scopeObj
 JS
 :
@@ -40870,8 +40876,14 @@ ToJSVal
 JSContext
 *
 cx
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 scopeObj
 JS
 :
@@ -67468,7 +67480,9 @@ obj
 '
 :
 '
-mCallback
+CallbackPreserveColor
+(
+)
 '
                 
 '
