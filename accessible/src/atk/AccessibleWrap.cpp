@@ -3751,7 +3751,10 @@ AccessibleWrap
 *
 appAccWrap
 =
-ApplicationAcc
+nsAccessNode
+:
+:
+GetApplicationAccessible
 (
 )
 ;

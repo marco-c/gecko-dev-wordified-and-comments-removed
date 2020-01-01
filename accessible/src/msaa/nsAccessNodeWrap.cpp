@@ -486,7 +486,7 @@ ApplicationAccessible
 *
 applicationAcc
 =
-ApplicationAcc
+GetApplicationAccessible
 (
 )
 ;
@@ -2554,6 +2554,13 @@ nsWinUtils
 :
 :
 ShutdownWindowEmulation
+(
+)
+;
+nsAccessNode
+:
+:
+ShutdownXPAccessibility
 (
 )
 ;

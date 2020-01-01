@@ -430,7 +430,10 @@ ApplicationAccessible
 *
 applicationAcc
 =
-ApplicationAcc
+nsAccessNode
+:
+:
+GetApplicationAccessible
 (
 )
 ;
