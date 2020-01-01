@@ -1367,8 +1367,10 @@ DebugScript
 *
 debug
 ;
-JSFunction
-*
+js
+:
+:
+HeapPtrFunction
 function_
 ;
 public
@@ -1391,12 +1393,7 @@ JSFunction
 *
 fun
 )
-{
-function_
-=
-fun
 ;
-}
 #
 ifdef
 JS_CRASH_DIAGNOSTICS
