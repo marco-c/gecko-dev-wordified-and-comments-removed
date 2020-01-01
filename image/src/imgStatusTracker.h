@@ -600,6 +600,9 @@ nsIRunnable
 >
 mRequestRunnable
 ;
+nsIntRect
+mInvalidRect
+;
 mozilla
 :
 :
