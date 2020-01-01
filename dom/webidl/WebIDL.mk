@@ -323,6 +323,10 @@ HTMLLIElement
 .
 webidl
 \
+HTMLMapElement
+.
+webidl
+\
 HTMLOListElement
 .
 webidl
