@@ -114,9 +114,7 @@ self
 .
 marionette
 .
-get_window
-(
-)
+current_window_handle
         
 self
 .
@@ -223,22 +221,6 @@ textInput
 '
 )
 ;
-"
-)
-        
-found_el
-=
-self
-.
-marionette
-.
-find_element
-(
-"
-id
-"
-"
-textInput
 "
 )
         

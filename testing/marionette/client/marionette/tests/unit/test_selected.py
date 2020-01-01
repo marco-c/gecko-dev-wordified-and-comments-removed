@@ -125,9 +125,7 @@ self
 .
 marionette
 .
-get_window
-(
-)
+current_window_handle
         
 self
 .
@@ -219,9 +217,7 @@ self
 .
 marionette
 .
-get_windows
-(
-)
+window_handles
         
 wins
 .

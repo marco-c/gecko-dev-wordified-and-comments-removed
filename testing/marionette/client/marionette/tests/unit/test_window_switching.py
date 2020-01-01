@@ -50,9 +50,7 @@ self
 .
 marionette
 .
-get_window
-(
-)
+current_window_handle
         
 link
 =
@@ -85,9 +83,7 @@ self
 .
 marionette
 .
-get_windows
-(
-)
+window_handles
         
 windows
 .
@@ -195,9 +191,7 @@ self
 .
 marionette
 .
-get_window
-(
-)
+current_window_handle
         
 for
 i
@@ -248,9 +242,7 @@ self
 .
 marionette
 .
-get_window
-(
-)
+current_window_handle
 )
         
 self
@@ -271,7 +263,5 @@ self
 .
 marionette
 .
-get_window
-(
-)
+current_window_handle
 )

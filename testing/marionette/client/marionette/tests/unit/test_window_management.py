@@ -281,9 +281,7 @@ self
 .
 marionette
 .
-get_window
-(
-)
+current_window_handle
         
 orig_available
 =
@@ -291,9 +289,7 @@ self
 .
 marionette
 .
-get_windows
-(
-)
+window_handles
         
 self
 .
@@ -309,9 +305,7 @@ self
 .
 marionette
 .
-get_window
-(
-)
+current_window_handle
 orig_win
 )
         
@@ -321,9 +315,7 @@ self
 .
 marionette
 .
-get_windows
-(
-)
+window_handles
         
 self
 .
@@ -388,9 +380,7 @@ self
 .
 marionette
 .
-get_window
-(
-)
+current_window_handle
 new_win
 )
         
@@ -417,9 +407,7 @@ self
 .
 marionette
 .
-get_window
-(
-)
+current_window_handle
 orig_win
 )
         
@@ -433,9 +421,7 @@ self
 .
 marionette
 .
-get_windows
-(
-)
+window_handles
 )
 len
 (
