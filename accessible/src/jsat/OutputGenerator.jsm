@@ -2946,7 +2946,7 @@ this
 _getPluralFormString
 (
 '
-listItemCount
+listItemsCount
 '
 aItemCount
 )
