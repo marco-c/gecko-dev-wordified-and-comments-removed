@@ -29,13 +29,6 @@ h
 #
 include
 "
-jsobjinlines
-.
-h
-"
-#
-include
-"
 jsdbgapi
 .
 h
@@ -6681,6 +6674,9 @@ static
 void
 FindObjectClass
 (
+JSContext
+*
+cx
 JSObject
 *
 aGlobalObject
@@ -6714,11 +6710,10 @@ proto
 ;
 proto
 =
-obj
--
->
-getProto
+JS_GetPrototype
 (
+cx
+obj
 )
 ;
 }
@@ -17066,6 +17061,7 @@ sObjectClass
 {
 FindObjectClass
 (
+cx
 proto
 )
 ;
