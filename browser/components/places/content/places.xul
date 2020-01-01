@@ -4191,17 +4191,6 @@ event
 )
 ;
 "
-ondblclick
-=
-"
-PlacesOrganizer
-.
-openSelectedNode
-(
-event
-)
-;
-"
 onopenflatcontainer
 =
 "
