@@ -1521,6 +1521,10 @@ mShuttingDown
 (
 false
 )
+mPausedForPlaybackRateNull
+(
+false
+)
 mAudioChannelType
 (
 AUDIO_CHANNEL_NORMAL
