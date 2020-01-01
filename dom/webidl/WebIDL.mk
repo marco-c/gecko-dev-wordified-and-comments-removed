@@ -735,6 +735,10 @@ MediaError
 .
 webidl
 \
+MediaRecorder
+.
+webidl
+\
 MediaSource
 .
 webidl

@@ -373,6 +373,11 @@ DecoderTraits
 h
 '
 '
+EncodedBufferCache
+.
+h
+'
+'
 FileBlockCache
 .
 h
@@ -404,6 +409,11 @@ h
 '
 '
 MediaMetadataManager
+.
+h
+'
+'
+MediaRecorder
 .
 h
 '
@@ -562,6 +572,11 @@ DecoderTraits
 cpp
 '
 '
+EncodedBufferCache
+.
+cpp
+'
+'
 FileBlockCache
 .
 cpp
@@ -583,6 +598,11 @@ cpp
 '
 '
 MediaDecoderStateMachine
+.
+cpp
+'
+'
+MediaRecorder
 .
 cpp
 '
