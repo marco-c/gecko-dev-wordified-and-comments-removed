@@ -3411,6 +3411,9 @@ PRUnichar
 aText
 )
 {
+if
+(
+!
 mFont
 -
 >
@@ -3418,7 +3421,12 @@ SetupCairoFont
 (
 aContext
 )
+)
+{
+return
+false
 ;
+}
 if
 (
 !

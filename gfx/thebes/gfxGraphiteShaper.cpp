@@ -578,6 +578,9 @@ PRUnichar
 aText
 )
 {
+if
+(
+!
 mFont
 -
 >
@@ -585,7 +588,12 @@ SetupCairoFont
 (
 aContext
 )
+)
+{
+return
+false
 ;
+}
 mCallbackData
 .
 mContext
