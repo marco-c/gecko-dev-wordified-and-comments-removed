@@ -3343,6 +3343,11 @@ n
 gOutFile
 )
 ;
+fflush
+(
+gOutFile
+)
+;
 return
 JS_TRUE
 ;
