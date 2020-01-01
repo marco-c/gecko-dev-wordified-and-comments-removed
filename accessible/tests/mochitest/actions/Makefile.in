@@ -467,6 +467,14 @@ test_inputs
 .
 html
 \
+test_keys_menu
+.
+xul
+\
+test_keys
+.
+html
+\
 test_link
 .
 html

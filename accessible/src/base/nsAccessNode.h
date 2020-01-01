@@ -506,11 +506,6 @@ nsIStringBundle
 gStringBundle
 ;
 static
-nsIStringBundle
-*
-gKeyStringBundle
-;
-static
 PRBool
 gIsFormFillEnabled
 ;

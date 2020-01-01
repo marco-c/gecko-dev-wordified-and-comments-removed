@@ -620,10 +620,6 @@ test_elm_plugin
 .
 html
 \
-test_keys
-.
-html
-\
 test_nsIAccessible_selects
 .
 html
