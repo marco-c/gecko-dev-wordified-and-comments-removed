@@ -3494,6 +3494,16 @@ windows
 /
 "
 )
+|
+|
+aUnsafePath
+=
+=
+"
+resident
+-
+fast
+"
 ;
 }
 function
