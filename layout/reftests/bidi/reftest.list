@@ -86,7 +86,7 @@ bidi
 ref
 .
 html
-fails
+random
 -
 if
 (
@@ -114,7 +114,7 @@ html
 #
 Bug
 386567
-fails
+random
 -
 if
 (
@@ -232,7 +232,7 @@ some
 systems
 do
 it
-fails
+random
 -
 if
 (
