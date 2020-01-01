@@ -2377,6 +2377,9 @@ JSOP_LOOPHEAD
 case
 JSOP_LOOPENTRY
 :
+case
+JSOP_NOTEARG
+:
 break
 ;
 default
