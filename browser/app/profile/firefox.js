@@ -7093,3 +7093,15 @@ certerror
 "
 )
 ;
+pref
+(
+"
+browser
+.
+privatebrowsing
+.
+autostart
+"
+false
+)
+;
