@@ -164,7 +164,7 @@ aDestSurface
 =
 aSourceSurface
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 aSourceSurface
 -
@@ -242,7 +242,7 @@ characteristics
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 aSourceSurface
 -
@@ -560,7 +560,7 @@ aDestSurface
 =
 aSourceSurface
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 aSourceSurface
 -
@@ -638,7 +638,7 @@ characteristics
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 aSourceSurface
 -
@@ -956,7 +956,7 @@ aDestSurface
 =
 aSourceSurface
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aSourceSurface
 -
@@ -1034,7 +1034,7 @@ characteristics
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aSourceSurface
 -
@@ -1064,7 +1064,7 @@ packed
 "
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 aSourceSurface
 -
