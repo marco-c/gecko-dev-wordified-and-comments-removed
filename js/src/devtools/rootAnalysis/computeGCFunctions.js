@@ -33,7 +33,7 @@ js
 if
 (
 typeof
-arguments
+scriptArgs
 [
 0
 ]
@@ -70,7 +70,7 @@ Date
 ;
 loadCallgraph
 (
-arguments
+scriptArgs
 [
 0
 ]

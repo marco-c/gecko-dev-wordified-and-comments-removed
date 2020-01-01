@@ -58,7 +58,7 @@ functionBodies
 if
 (
 typeof
-arguments
+scriptArgs
 [
 0
 ]
@@ -70,7 +70,7 @@ string
 |
 |
 typeof
-arguments
+scriptArgs
 [
 1
 ]
@@ -114,7 +114,7 @@ tmpfile
 var
 gcFunctionsFile
 =
-arguments
+scriptArgs
 [
 0
 ]
@@ -122,7 +122,7 @@ arguments
 var
 suppressedFunctionsFile
 =
-arguments
+scriptArgs
 [
 1
 ]
@@ -130,7 +130,7 @@ arguments
 var
 gcTypesFile
 =
-arguments
+scriptArgs
 [
 2
 ]
@@ -139,7 +139,7 @@ var
 batch
 =
 (
-arguments
+scriptArgs
 [
 3
 ]
@@ -154,7 +154,7 @@ var
 numBatches
 =
 (
-arguments
+scriptArgs
 [
 4
 ]
@@ -168,7 +168,7 @@ arguments
 var
 tmpfile
 =
-arguments
+scriptArgs
 [
 5
 ]
