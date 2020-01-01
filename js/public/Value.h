@@ -1471,7 +1471,7 @@ JS_BITS_PER_WORD
 =
 32
 static
-MOZ_ALWAYS_INLINE
+inline
 jsval_layout
 BUILD_JSVAL
 (
@@ -1510,7 +1510,7 @@ l
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_DOUBLE_IMPL
 (
@@ -1536,7 +1536,7 @@ JSVAL_TAG_CLEAR
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 jsval_layout
 DOUBLE_TO_JSVAL_IMPL
 (
@@ -1566,7 +1566,7 @@ l
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_INT32_IMPL
 (
@@ -1586,7 +1586,7 @@ JSVAL_TAG_INT32
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 int32_t
 JSVAL_TO_INT32_IMPL
 (
@@ -1605,7 +1605,7 @@ i32
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 jsval_layout
 INT32_TO_JSVAL_IMPL
 (
@@ -1639,7 +1639,7 @@ l
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_NUMBER_IMPL
 (
@@ -1678,7 +1678,7 @@ JSVAL_UPPER_INCL_TAG_OF_NUMBER_SET
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_UNDEFINED_IMPL
 (
@@ -1698,7 +1698,7 @@ JSVAL_TAG_UNDEFINED
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_STRING_IMPL
 (
@@ -1718,7 +1718,7 @@ JSVAL_TAG_STRING
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 jsval_layout
 STRING_TO_JSVAL_IMPL
 (
@@ -1758,7 +1758,7 @@ l
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSString
 *
 JSVAL_TO_STRING_IMPL
@@ -1778,7 +1778,7 @@ str
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_BOOLEAN_IMPL
 (
@@ -1798,7 +1798,7 @@ JSVAL_TAG_BOOLEAN
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_TO_BOOLEAN_IMPL
 (
@@ -1817,7 +1817,7 @@ boo
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 jsval_layout
 BOOLEAN_TO_JSVAL_IMPL
 (
@@ -1865,7 +1865,7 @@ l
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_MAGIC_IMPL
 (
@@ -1885,7 +1885,7 @@ JSVAL_TAG_MAGIC
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_OBJECT_IMPL
 (
@@ -1905,7 +1905,7 @@ JSVAL_TAG_OBJECT
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_PRIMITIVE_IMPL
 (
@@ -1930,7 +1930,7 @@ JSVAL_UPPER_EXCL_TAG_OF_PRIMITIVE_SET
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_OBJECT_OR_NULL_IMPL
 (
@@ -1974,7 +1974,7 @@ JSVAL_LOWER_INCL_TAG_OF_OBJ_OR_NULL_SET
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSObject
 *
 JSVAL_TO_OBJECT_IMPL
@@ -1994,7 +1994,7 @@ obj
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 jsval_layout
 OBJECT_TO_JSVAL_IMPL
 (
@@ -2034,7 +2034,7 @@ l
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_NULL_IMPL
 (
@@ -2054,7 +2054,7 @@ JSVAL_TAG_NULL
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 jsval_layout
 PRIVATE_PTR_TO_JSVAL_IMPL
 (
@@ -2115,7 +2115,7 @@ l
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 void
 *
 JSVAL_TO_PRIVATE_PTR_IMPL
@@ -2135,7 +2135,7 @@ ptr
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_GCTHING_IMPL
 (
@@ -2161,7 +2161,7 @@ JSVAL_LOWER_INCL_TAG_OF_GCTHING_SET
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 void
 *
 JSVAL_TO_GCTHING_IMPL
@@ -2181,7 +2181,7 @@ ptr
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_TRACEABLE_IMPL
 (
@@ -2211,7 +2211,7 @@ JSVAL_TAG_OBJECT
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 uint32_t
 JSVAL_TRACE_KIND_IMPL
 (
@@ -2233,7 +2233,7 @@ l
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_SPECIFIC_INT32_IMPL
 (
@@ -2267,7 +2267,7 @@ i32
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_SPECIFIC_BOOLEAN
 (
@@ -2305,7 +2305,7 @@ b
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 jsval_layout
 MAGIC_TO_JSVAL_IMPL
 (
@@ -2339,7 +2339,7 @@ l
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_SAME_TYPE_IMPL
 (
@@ -2385,7 +2385,7 @@ JSVAL_TAG_CLEAR
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSValueType
 JSVAL_EXTRACT_NON_DOUBLE_TYPE_IMPL
 (
@@ -2425,7 +2425,7 @@ JS_BITS_PER_WORD
 =
 64
 static
-MOZ_ALWAYS_INLINE
+inline
 jsval_layout
 BUILD_JSVAL
 (
@@ -2464,7 +2464,7 @@ l
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_DOUBLE_IMPL
 (
@@ -2482,7 +2482,7 @@ JSVAL_SHIFTED_TAG_MAX_DOUBLE
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 jsval_layout
 DOUBLE_TO_JSVAL_IMPL
 (
@@ -2514,7 +2514,7 @@ l
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_INT32_IMPL
 (
@@ -2540,7 +2540,7 @@ JSVAL_TAG_INT32
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 int32_t
 JSVAL_TO_INT32_IMPL
 (
@@ -2558,7 +2558,7 @@ asBits
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 jsval_layout
 INT32_TO_JSVAL_IMPL
 (
@@ -2590,7 +2590,7 @@ l
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_NUMBER_IMPL
 (
@@ -2607,7 +2607,7 @@ JSVAL_UPPER_EXCL_SHIFTED_TAG_OF_NUMBER_SET
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_UNDEFINED_IMPL
 (
@@ -2625,7 +2625,7 @@ JSVAL_SHIFTED_TAG_UNDEFINED
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_STRING_IMPL
 (
@@ -2651,7 +2651,7 @@ JSVAL_TAG_STRING
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 jsval_layout
 STRING_TO_JSVAL_IMPL
 (
@@ -2702,7 +2702,7 @@ l
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSString
 *
 JSVAL_TO_STRING_IMPL
@@ -2726,7 +2726,7 @@ JSVAL_PAYLOAD_MASK
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_BOOLEAN_IMPL
 (
@@ -2752,7 +2752,7 @@ JSVAL_TAG_BOOLEAN
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_TO_BOOLEAN_IMPL
 (
@@ -2770,7 +2770,7 @@ asBits
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 jsval_layout
 BOOLEAN_TO_JSVAL_IMPL
 (
@@ -2816,7 +2816,7 @@ l
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_MAGIC_IMPL
 (
@@ -2839,7 +2839,7 @@ JSVAL_TAG_MAGIC
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_PRIMITIVE_IMPL
 (
@@ -2856,7 +2856,7 @@ JSVAL_UPPER_EXCL_SHIFTED_TAG_OF_PRIMITIVE_SET
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_OBJECT_IMPL
 (
@@ -2889,7 +2889,7 @@ JSVAL_SHIFTED_TAG_OBJECT
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_OBJECT_OR_NULL_IMPL
 (
@@ -2922,7 +2922,7 @@ JSVAL_LOWER_INCL_SHIFTED_TAG_OF_OBJ_OR_NULL_SET
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSObject
 *
 JSVAL_TO_OBJECT_IMPL
@@ -2961,7 +2961,7 @@ ptrBits
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 jsval_layout
 OBJECT_TO_JSVAL_IMPL
 (
@@ -3012,7 +3012,7 @@ l
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_NULL_IMPL
 (
@@ -3030,7 +3030,7 @@ JSVAL_SHIFTED_TAG_NULL
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_GCTHING_IMPL
 (
@@ -3048,7 +3048,7 @@ JSVAL_LOWER_INCL_SHIFTED_TAG_OF_GCTHING_SET
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 void
 *
 JSVAL_TO_GCTHING_IMPL
@@ -3087,7 +3087,7 @@ ptrBits
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_TRACEABLE_IMPL
 (
@@ -3110,7 +3110,7 @@ l
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 uint32_t
 JSVAL_TRACE_KIND_IMPL
 (
@@ -3135,7 +3135,7 @@ l
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 jsval_layout
 PRIVATE_PTR_TO_JSVAL_IMPL
 (
@@ -3189,7 +3189,7 @@ l
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 void
 *
 JSVAL_TO_PRIVATE_PTR_IMPL
@@ -3228,7 +3228,7 @@ asBits
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_SPECIFIC_INT32_IMPL
 (
@@ -3260,7 +3260,7 @@ JSVAL_SHIFTED_TAG_INT32
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_SPECIFIC_BOOLEAN
 (
@@ -3292,7 +3292,7 @@ JSVAL_SHIFTED_TAG_BOOLEAN
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 jsval_layout
 MAGIC_TO_JSVAL_IMPL
 (
@@ -3324,7 +3324,7 @@ l
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_SAME_TYPE_IMPL
 (
@@ -3378,7 +3378,7 @@ rbits
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSValueType
 JSVAL_EXTRACT_NON_DOUBLE_TYPE_IMPL
 (
@@ -3417,7 +3417,7 @@ type
 #
 endif
 static
-MOZ_ALWAYS_INLINE
+inline
 double
 JS_CANONICALIZE_NAN
 (
@@ -3456,7 +3456,7 @@ d
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 jsval_layout
 JSVAL_TO_IMPL
 (
@@ -3468,7 +3468,7 @@ v
 )
 ;
 static
-MOZ_ALWAYS_INLINE
+inline
 JS
 :
 :
@@ -3487,7 +3487,6 @@ Value
 {
 public
 :
-MOZ_ALWAYS_INLINE
 void
 setNull
 (
@@ -3506,7 +3505,6 @@ JSVAL_TAG_NULL
 asBits
 ;
 }
-MOZ_ALWAYS_INLINE
 void
 setUndefined
 (
@@ -3525,7 +3523,6 @@ JSVAL_TAG_UNDEFINED
 asBits
 ;
 }
-MOZ_ALWAYS_INLINE
 void
 setInt32
 (
@@ -3541,7 +3538,6 @@ i
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 int32_t
 &
 getInt32Ref
@@ -3565,7 +3561,6 @@ payload
 i32
 ;
 }
-MOZ_ALWAYS_INLINE
 void
 setDouble
 (
@@ -3581,7 +3576,6 @@ d
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 double
 &
 getDoubleRef
@@ -3601,7 +3595,6 @@ data
 asDouble
 ;
 }
-MOZ_ALWAYS_INLINE
 void
 setString
 (
@@ -3627,7 +3620,6 @@ str
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 void
 setString
 (
@@ -3654,7 +3646,6 @@ get
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 void
 setObject
 (
@@ -3682,7 +3673,6 @@ obj
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 void
 setBoolean
 (
@@ -3698,7 +3688,6 @@ b
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 void
 setMagic
 (
@@ -3714,7 +3703,6 @@ why
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 bool
 setNumber
 (
@@ -3756,7 +3744,6 @@ true
 ;
 }
 }
-MOZ_ALWAYS_INLINE
 bool
 setNumber
 (
@@ -3798,7 +3785,6 @@ false
 ;
 }
 }
-MOZ_ALWAYS_INLINE
 void
 setObjectOrNull
 (
@@ -3823,7 +3809,6 @@ setNull
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 void
 swap
 (
@@ -3858,7 +3843,6 @@ asBits
 tmp
 ;
 }
-MOZ_ALWAYS_INLINE
 bool
 isUndefined
 (
@@ -3872,7 +3856,6 @@ data
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 bool
 isNull
 (
@@ -3886,7 +3869,6 @@ data
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 bool
 isNullOrUndefined
 (
@@ -3904,7 +3886,6 @@ isUndefined
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 bool
 isInt32
 (
@@ -3918,7 +3899,6 @@ data
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 bool
 isInt32
 (
@@ -3935,7 +3915,6 @@ i32
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 bool
 isDouble
 (
@@ -3949,7 +3928,6 @@ data
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 bool
 isNumber
 (
@@ -3963,7 +3941,6 @@ data
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 bool
 isString
 (
@@ -3977,7 +3954,6 @@ data
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 bool
 isObject
 (
@@ -3991,7 +3967,6 @@ data
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 bool
 isPrimitive
 (
@@ -4005,7 +3980,6 @@ data
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 bool
 isObjectOrNull
 (
@@ -4019,7 +3993,6 @@ data
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 bool
 isGCThing
 (
@@ -4033,7 +4006,6 @@ data
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 bool
 isBoolean
 (
@@ -4047,7 +4019,6 @@ data
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 bool
 isTrue
 (
@@ -4062,7 +4033,6 @@ true
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 bool
 isFalse
 (
@@ -4077,7 +4047,6 @@ false
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 bool
 isMagic
 (
@@ -4091,7 +4060,6 @@ data
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 bool
 isMagic
 (
@@ -4124,7 +4092,6 @@ data
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 bool
 isMarkable
 (
@@ -4138,7 +4105,6 @@ data
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 JSGCTraceKind
 gcKind
 (
@@ -4162,7 +4128,6 @@ data
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 JSWhyMagic
 whyMagic
 (
@@ -4186,7 +4151,6 @@ payload
 why
 ;
 }
-MOZ_ALWAYS_INLINE
 bool
 operator
 =
@@ -4212,7 +4176,6 @@ data
 asBits
 ;
 }
-MOZ_ALWAYS_INLINE
 bool
 operator
 !
@@ -4253,7 +4216,6 @@ Value
 rhs
 )
 ;
-MOZ_ALWAYS_INLINE
 int32_t
 toInt32
 (
@@ -4274,7 +4236,6 @@ data
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 double
 toDouble
 (
@@ -4294,7 +4255,6 @@ data
 asDouble
 ;
 }
-MOZ_ALWAYS_INLINE
 double
 toNumber
 (
@@ -4325,7 +4285,6 @@ toInt32
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 JSString
 *
 toString
@@ -4347,7 +4306,6 @@ data
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 JSObject
 &
 toObject
@@ -4370,7 +4328,6 @@ data
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 JSObject
 *
 toObjectOrNull
@@ -4392,7 +4349,6 @@ data
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 void
 *
 toGCThing
@@ -4414,7 +4370,6 @@ data
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 bool
 toBoolean
 (
@@ -4435,7 +4390,6 @@ data
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 uint32_t
 payloadAsRawUint32
 (
@@ -4460,7 +4414,6 @@ payload
 u32
 ;
 }
-MOZ_ALWAYS_INLINE
 uint64_t
 asRawBits
 (
@@ -4473,7 +4426,6 @@ data
 asBits
 ;
 }
-MOZ_ALWAYS_INLINE
 JSValueType
 extractNonDoubleType
 (
@@ -4487,7 +4439,6 @@ data
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 void
 setPrivate
 (
@@ -4504,7 +4455,6 @@ ptr
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 void
 *
 toPrivate
@@ -4527,7 +4477,6 @@ data
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 void
 setPrivateUint32
 (
@@ -4558,7 +4507,6 @@ ui
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 uint32_t
 toPrivateUint32
 (
@@ -4574,7 +4522,6 @@ toInt32
 )
 ;
 }
-MOZ_ALWAYS_INLINE
 void
 setUnmarkedPtr
 (
@@ -4590,7 +4537,6 @@ asPtr
 ptr
 ;
 }
-MOZ_ALWAYS_INLINE
 void
 *
 toUnmarkedPtr
@@ -4843,7 +4789,7 @@ false
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 Value
 NullValue
 (
@@ -4863,7 +4809,7 @@ v
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 Value
 UndefinedValue
 (
@@ -4883,7 +4829,7 @@ v
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 Value
 Int32Value
 (
@@ -4906,7 +4852,7 @@ v
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 Value
 DoubleValue
 (
@@ -4929,7 +4875,7 @@ v
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 Value
 StringValue
 (
@@ -4953,7 +4899,7 @@ v
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 Value
 BooleanValue
 (
@@ -4976,7 +4922,7 @@ v
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 Value
 ObjectValue
 (
@@ -5000,7 +4946,7 @@ v
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 Value
 ObjectValueCrashOnTouch
 (
@@ -5029,7 +4975,7 @@ v
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 Value
 MagicValue
 (
@@ -5052,7 +4998,7 @@ v
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 Value
 NumberValue
 (
@@ -5075,7 +5021,7 @@ v
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 Value
 NumberValue
 (
@@ -5098,7 +5044,7 @@ v
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 Value
 NumberValue
 (
@@ -5114,7 +5060,7 @@ i
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 Value
 NumberValue
 (
@@ -5130,7 +5076,7 @@ i
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 Value
 NumberValue
 (
@@ -5146,7 +5092,7 @@ i
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 Value
 NumberValue
 (
@@ -5162,7 +5108,7 @@ i
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 Value
 NumberValue
 (
@@ -5178,7 +5124,7 @@ i
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 Value
 NumberValue
 (
@@ -5341,7 +5287,7 @@ typename
 T
 >
 static
-MOZ_ALWAYS_INLINE
+inline
 Value
 NumberValue
 (
@@ -5397,7 +5343,7 @@ t
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 Value
 ObjectOrNullValue
 (
@@ -5421,7 +5367,7 @@ v
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 Value
 PrivateValue
 (
@@ -5445,7 +5391,7 @@ v
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 Value
 PrivateUint32Value
 (
@@ -5467,7 +5413,7 @@ return
 v
 ;
 }
-MOZ_ALWAYS_INLINE
+inline
 bool
 SameType
 (
@@ -6712,7 +6658,7 @@ address
 }
 ;
 }
-MOZ_ALWAYS_INLINE
+inline
 jsval_layout
 JSVAL_TO_IMPL
 (
@@ -6729,7 +6675,7 @@ v
 data
 ;
 }
-MOZ_ALWAYS_INLINE
+inline
 JS
 :
 :
@@ -6910,7 +6856,7 @@ layouts
 )
 ;
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_NULL
 (
@@ -6929,7 +6875,7 @@ v
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_VOID
 (
@@ -6948,7 +6894,7 @@ v
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_INT
 (
@@ -6967,7 +6913,7 @@ v
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 int32_t
 JSVAL_TO_INT
 (
@@ -6994,7 +6940,7 @@ v
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 jsval
 INT_TO_JSVAL
 (
@@ -7013,7 +6959,7 @@ i
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_DOUBLE
 (
@@ -7032,7 +6978,7 @@ v
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 double
 JSVAL_TO_DOUBLE
 (
@@ -7065,7 +7011,7 @@ asDouble
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 jsval
 DOUBLE_TO_JSVAL
 (
@@ -7107,7 +7053,7 @@ l
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 jsval
 UINT_TO_JSVAL
 (
@@ -7142,7 +7088,7 @@ i
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_NUMBER
 (
@@ -7161,7 +7107,7 @@ v
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_STRING
 (
@@ -7180,7 +7126,7 @@ v
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSString
 *
 JSVAL_TO_STRING
@@ -7208,7 +7154,7 @@ v
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 jsval
 STRING_TO_JSVAL
 (
@@ -7228,7 +7174,7 @@ str
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSObject
 *
 JSVAL_TO_OBJECT
@@ -7259,7 +7205,7 @@ v
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 jsval
 OBJECT_TO_JSVAL
 (
@@ -7293,7 +7239,7 @@ JSVAL_TAG_NULL
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_BOOLEAN
 (
@@ -7312,7 +7258,7 @@ v
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_TO_BOOLEAN
 (
@@ -7339,7 +7285,7 @@ v
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 jsval
 BOOLEAN_TO_JSVAL
 (
@@ -7358,7 +7304,7 @@ b
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_PRIMITIVE
 (
@@ -7377,7 +7323,7 @@ v
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 JSBool
 JSVAL_IS_GCTHING
 (
@@ -7396,7 +7342,7 @@ v
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 void
 *
 JSVAL_TO_GCTHING
@@ -7424,7 +7370,7 @@ v
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 jsval
 PRIVATE_TO_JSVAL
 (
@@ -7444,7 +7390,7 @@ ptr
 ;
 }
 static
-MOZ_ALWAYS_INLINE
+inline
 void
 *
 JSVAL_TO_PRIVATE
