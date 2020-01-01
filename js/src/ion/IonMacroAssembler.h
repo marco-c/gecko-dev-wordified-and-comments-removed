@@ -2692,6 +2692,14 @@ IonCode
 code
 )
 {
+JS_ASSERT
+(
+!
+oom
+(
+)
+)
+;
 if
 (
 exitCodePatch_
