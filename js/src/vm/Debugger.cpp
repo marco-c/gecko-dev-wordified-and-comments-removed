@@ -7206,8 +7206,6 @@ NULL
 NULL
 NULL
 NULL
-NULL
-NULL
 Debugger
 :
 :
@@ -10332,8 +10330,6 @@ JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-NULL
-NULL
 NULL
 NULL
 NULL
@@ -16495,8 +16491,6 @@ NULL
 NULL
 NULL
 NULL
-NULL
-NULL
 DebuggerObject_trace
 }
 ;
@@ -20375,8 +20369,6 @@ JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-NULL
-NULL
 NULL
 NULL
 NULL

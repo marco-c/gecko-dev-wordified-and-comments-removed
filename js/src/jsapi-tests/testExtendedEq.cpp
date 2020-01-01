@@ -63,8 +63,6 @@ NULL
 NULL
 NULL
 NULL
-NULL
-NULL
 {
 my_Equality
 NULL

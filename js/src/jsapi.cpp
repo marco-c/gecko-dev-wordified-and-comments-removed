@@ -20994,8 +20994,6 @@ NULL
 NULL
 NULL
 NULL
-NULL
-NULL
 prop_iter_trace
 }
 ;

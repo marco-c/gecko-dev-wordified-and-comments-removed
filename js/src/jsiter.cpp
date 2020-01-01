@@ -324,8 +324,6 @@ NULL
 NULL
 NULL
 NULL
-NULL
-NULL
 iterator_trace
 {
 NULL
@@ -360,8 +358,6 @@ JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-NULL
-NULL
 NULL
 NULL
 NULL
@@ -6565,8 +6561,6 @@ NULL
 NULL
 NULL
 NULL
-NULL
-NULL
 stopiter_hasInstance
 }
 ;
@@ -6910,8 +6904,6 @@ JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
 generator_finalize
-NULL
-NULL
 NULL
 NULL
 NULL

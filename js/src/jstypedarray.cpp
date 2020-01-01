@@ -10917,8 +10917,6 @@ NULL
 NULL
 NULL
 NULL
-NULL
-NULL
 ArrayBuffer
 :
 :
@@ -11386,13 +11384,6 @@ finalize
 NULL
 /
 *
-reserved0
-*
-/
-\
-NULL
-/
-*
 checkAccess
 *
 /
@@ -11408,13 +11399,6 @@ NULL
 /
 *
 construct
-*
-/
-\
-NULL
-/
-*
-xdrObject
 *
 /
 \

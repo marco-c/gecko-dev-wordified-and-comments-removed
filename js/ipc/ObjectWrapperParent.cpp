@@ -559,7 +559,6 @@ ObjectWrapperParent
 :
 CPOW_Finalize
 nsnull
-nsnull
 ObjectWrapperParent
 :
 :
@@ -568,7 +567,6 @@ ObjectWrapperParent
 :
 :
 CPOW_Construct
-nsnull
 ObjectWrapperParent
 :
 :

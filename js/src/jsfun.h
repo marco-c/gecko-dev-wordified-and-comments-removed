@@ -1902,9 +1902,12 @@ fun
 atom
 ;
 }
+namespace
+js
+{
 extern
 JSBool
-js_XDRFunctionObject
+XDRFunctionObject
 (
 JSXDRState
 *
@@ -1915,6 +1918,7 @@ JSObject
 objp
 )
 ;
+}
 extern
 JSBool
 js_fun_apply

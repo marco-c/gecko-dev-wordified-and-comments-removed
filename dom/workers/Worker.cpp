@@ -51,9 +51,11 @@ h
 define
 PROPERTY_FLAGS
 \
+(
 JSPROP_ENUMERATE
 |
 JSPROP_SHARED
+)
 #
 define
 FUNCTION_FLAGS
@@ -1183,10 +1185,7 @@ NULL
 NULL
 NULL
 NULL
-NULL
-NULL
 Trace
-NULL
 }
 ;
 JSPropertySpec
@@ -1663,10 +1662,7 @@ NULL
 NULL
 NULL
 NULL
-NULL
-NULL
 Trace
-NULL
 }
 ;
 WorkerPrivate

@@ -619,8 +619,6 @@ NULL
 NULL
 NULL
 NULL
-NULL
-NULL
 mark
 }
 ;
@@ -1533,8 +1531,6 @@ JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
 finalize
-NULL
-NULL
 NULL
 NULL
 NULL

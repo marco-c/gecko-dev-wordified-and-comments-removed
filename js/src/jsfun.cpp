@@ -2907,8 +2907,6 @@ NULL
 NULL
 NULL
 NULL
-NULL
-NULL
 args_trace
 {
 NULL
@@ -2962,8 +2960,6 @@ strictargs_resolve
 )
 JS_ConvertStub
 args_finalize
-NULL
-NULL
 NULL
 NULL
 NULL
@@ -4899,8 +4895,6 @@ NULL
 NULL
 NULL
 NULL
-NULL
-NULL
 call_trace
 }
 ;
@@ -6730,7 +6724,10 @@ true
 if
 JS_HAS_XDR
 JSBool
-js_XDRFunctionObject
+js
+:
+:
+XDRFunctionObject
 (
 JSXDRState
 *
@@ -6984,7 +6981,7 @@ false
 if
 (
 !
-js_XDRScript
+XDRScript
 (
 xdr
 &
@@ -7105,12 +7102,6 @@ return
 true
 ;
 }
-#
-else
-#
-define
-js_XDRFunctionObject
-NULL
 #
 endif
 static
@@ -7514,8 +7505,6 @@ JSResolveOp
 fun_resolve
 JS_ConvertStub
 fun_finalize
-NULL
-NULL
 NULL
 NULL
 NULL
@@ -10961,7 +10950,7 @@ JSScript
 *
 cscript
 =
-js_CloneScript
+CloneScript
 (
 cx
 script

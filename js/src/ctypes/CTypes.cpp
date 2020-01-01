@@ -1312,13 +1312,8 @@ CType
 :
 FinalizeProtoClass
 NULL
-NULL
 ConstructAbstract
 ConstructAbstract
-NULL
-NULL
-NULL
-NULL
 }
 ;
 static
@@ -1367,7 +1362,6 @@ CType
 :
 Finalize
 NULL
-NULL
 CType
 :
 :
@@ -1376,7 +1370,6 @@ CType
 :
 :
 ConstructData
-NULL
 CType
 :
 :
@@ -1385,7 +1378,6 @@ CType
 :
 :
 Trace
-NULL
 }
 ;
 static
@@ -1418,7 +1410,6 @@ CData
 :
 Finalize
 NULL
-NULL
 FunctionType
 :
 :
@@ -1427,10 +1418,6 @@ FunctionType
 :
 :
 Call
-NULL
-NULL
-NULL
-NULL
 }
 ;
 static
@@ -1462,13 +1449,10 @@ NULL
 NULL
 NULL
 NULL
-NULL
-NULL
 CClosure
 :
 :
 Trace
-NULL
 }
 ;
 #

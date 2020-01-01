@@ -143,8 +143,6 @@ NULL
 NULL
 NULL
 NULL
-NULL
-NULL
 resc_trace
 }
 ;

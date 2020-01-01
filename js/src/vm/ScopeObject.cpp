@@ -1863,8 +1863,6 @@ NULL
 NULL
 NULL
 NULL
-NULL
-NULL
 JS_NULL_CLASS_EXT
 {
 with_LookupGeneric
@@ -2867,11 +2865,17 @@ NO_PARENT_INDEX
 ;
 }
 bool
-js_XDRStaticBlockObject
+js
+:
+:
+XDRStaticBlockObject
 (
 JSXDRState
 *
 xdr
+JSScript
+*
+script
 StaticBlockObject
 *
 *
@@ -2931,9 +2935,6 @@ JSScript
 :
 isValidOffset
 (
-xdr
--
->
 script
 -
 >
@@ -2942,9 +2943,6 @@ objectsOffset
 ?
 FindObjectIndex
 (
-xdr
--
->
 script
 -
 >
@@ -3071,9 +3069,6 @@ NO_PARENT_INDEX
 NULL
 :
 &
-xdr
--
->
 script
 -
 >

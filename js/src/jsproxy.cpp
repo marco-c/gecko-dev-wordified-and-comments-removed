@@ -7731,8 +7731,6 @@ proxy_Finalize
 NULL
 NULL
 NULL
-NULL
-NULL
 proxy_HasInstance
 proxy_TraceObject
 JS_NULL_CLASS_EXT
@@ -7805,8 +7803,6 @@ JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
 proxy_Finalize
-NULL
-NULL
 NULL
 NULL
 NULL
@@ -8002,10 +7998,8 @@ JS_ResolveStub
 JS_ConvertStub
 NULL
 NULL
-NULL
 proxy_Call
 proxy_Construct
-NULL
 FunctionClass
 .
 hasInstance
@@ -9331,7 +9325,6 @@ JS_StrictPropertyStub
 JS_EnumerateStub
 JS_ResolveStub
 JS_ConvertStub
-NULL
 NULL
 NULL
 callable_Call
