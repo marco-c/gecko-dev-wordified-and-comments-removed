@@ -1972,6 +1972,9 @@ components
 BrowserPageThumbs
 .
 manifest
+#
+ifndef
+MOZ_PER_WINDOW_PRIVATE_BROWSING
 BINPATH
 /
 components
@@ -1986,6 +1989,8 @@ components
 nsPrivateBrowsingService
 .
 js
+#
+endif
 BINPATH
 /
 components

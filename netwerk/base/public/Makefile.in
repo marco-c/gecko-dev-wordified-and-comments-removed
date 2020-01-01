@@ -276,10 +276,6 @@ nsIPrivateBrowsingChannel
 .
 idl
 \
-nsIPrivateBrowsingService
-.
-idl
-\
 nsIProgressEventSink
 .
 idl
@@ -517,6 +513,15 @@ XPIDLSRCS
 +
 =
 nsIBrowserSearchService
+.
+idl
+endif
+ifndef
+MOZ_PER_WINDOW_PRIVATE_BROWSING
+XPIDLSRCS
++
+=
+nsIPrivateBrowsingService
 .
 idl
 endif
