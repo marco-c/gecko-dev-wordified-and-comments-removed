@@ -3287,6 +3287,11 @@ scriptTimeout
 command_id
 :
 command_id
+specialPowers
+:
+aRequest
+.
+specialPowers
 }
 )
 ;
@@ -3652,6 +3657,11 @@ scriptTimeout
 command_id
 :
 command_id
+specialPowers
+:
+aRequest
+.
+specialPowers
 }
 )
 ;
@@ -3744,6 +3754,11 @@ scriptTimeout
 command_id
 :
 command_id
+specialPowers
+:
+aRequest
+.
+specialPowers
 }
 )
 ;

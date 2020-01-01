@@ -1626,6 +1626,7 @@ createExecuteContentSandbox
 (
 aWindow
 timeout
+specialPowers
 )
 {
 let
@@ -1756,6 +1757,11 @@ fn
 }
 )
 ;
+if
+(
+specialPowers
+)
+{
 sandbox
 .
 SpecialPowers
@@ -1766,6 +1772,7 @@ SpecialPowers
 aWindow
 )
 ;
+}
 sandbox
 .
 asyncComplete
@@ -2063,6 +2070,11 @@ msg
 json
 .
 timeout
+msg
+.
+json
+.
+specialPowers
 )
 ;
 if
@@ -2671,6 +2683,11 @@ msg
 json
 .
 timeout
+msg
+.
+json
+.
+specialPowers
 )
 ;
 if
