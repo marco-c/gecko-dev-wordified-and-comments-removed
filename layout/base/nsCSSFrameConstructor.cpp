@@ -9654,12 +9654,9 @@ if
 aDocElement
 -
 >
-GetNameSpaceID
+IsSVG
 (
 )
-=
-=
-kNameSpaceID_SVG
 )
 {
 if

@@ -3858,12 +3858,9 @@ parent
 parent
 -
 >
-GetNameSpaceID
+IsSVG
 (
 )
-=
-=
-kNameSpaceID_SVG
 )
 {
 nsIAtom

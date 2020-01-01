@@ -5496,12 +5496,9 @@ ancestor
 ancestor
 -
 >
-GetNameSpaceID
+IsSVG
 (
 )
-=
-=
-kNameSpaceID_SVG
 )
 {
 nsIAtom
