@@ -565,6 +565,16 @@ Google
 "
 )
 ;
+bmsvc
+.
+setItemTitle
+(
+bookmarkId
+"
+Google
+"
+)
+;
 do_check_neq
 (
 oldLastModified
