@@ -513,10 +513,7 @@ libs
 :
 :
 (
-INSTALL
-)
-(
-IFLAGS1
+NSINSTALL
 )
 (
 srcdir
@@ -533,10 +530,7 @@ modules
 /
 devtools
 (
-INSTALL
-)
-(
-IFLAGS1
+NSINSTALL
 )
 (
 srcdir

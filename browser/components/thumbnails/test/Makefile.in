@@ -115,10 +115,6 @@ browser_thumbnails_redirect
 .
 js
 \
-browser_thumbnails_storage
-.
-js
-\
 browser_thumbnails_bug726727
 .
 js

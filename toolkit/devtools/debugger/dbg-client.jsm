@@ -1203,8 +1203,6 @@ _connected
 )
 {
 throw
-Error
-(
 "
 Have
 not
@@ -1218,7 +1216,6 @@ the
 server
 .
 "
-)
 ;
 }
 if
@@ -1230,8 +1227,6 @@ to
 )
 {
 throw
-Error
-(
 "
 Request
 packet
@@ -1240,7 +1235,6 @@ no
 destination
 .
 "
-)
 ;
 }
 this
@@ -1540,10 +1534,6 @@ ex
 +
 "
 -
-stack
-:
-\
-n
 "
 +
 ex
@@ -1823,8 +1813,6 @@ paused
 )
 {
 throw
-Error
-(
 aCommand
 +
 "
@@ -1835,7 +1823,6 @@ not
 paused
 .
 "
-)
 ;
 }
 }
