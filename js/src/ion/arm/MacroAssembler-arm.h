@@ -198,6 +198,13 @@ fail
 )
 ;
 void
+negateDouble
+(
+FloatRegister
+reg
+)
+;
+void
 inc64
 (
 AbsoluteAddress
