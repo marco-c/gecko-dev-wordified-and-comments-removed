@@ -222,11 +222,9 @@ JSON
 .
 stringify
 (
-[
 this
 .
 cleartext
-]
 )
 symkey
 meta
@@ -324,9 +322,6 @@ meta
 bulkIV
 )
 )
-[
-0
-]
 ;
 this
 .
