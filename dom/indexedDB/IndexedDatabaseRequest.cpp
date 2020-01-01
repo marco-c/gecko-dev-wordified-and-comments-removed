@@ -359,7 +359,7 @@ NULL
 "
 key_path
 TEXT
-DEFAULT
+NOT
 NULL
 "
 "
