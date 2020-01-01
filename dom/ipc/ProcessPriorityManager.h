@@ -24,7 +24,7 @@ CurrentProcessIsForeground
 )
 ;
 void
-TemporarilySetProcessPriorityToForeground
+TemporarilyLockProcessPriority
 (
 )
 ;
