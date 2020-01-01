@@ -3197,11 +3197,6 @@ windowsproxy
 Makefile
 widget
 /
-build
-/
-Makefile
-widget
-/
 windows
 /
 Makefile

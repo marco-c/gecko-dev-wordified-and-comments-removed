@@ -450,7 +450,6 @@ DIRS
 +
 =
 windows
-build
 endif
 ifdef
 ENABLE_TESTS

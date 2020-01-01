@@ -1351,7 +1351,7 @@ MOZ_WIDGET_TOOLKIT
 COMPONENT_LIBS
 +
 =
-gkwidget
+widget_windows
 endif
 ifeq
 (
@@ -2396,16 +2396,6 @@ topsrcdir
 widget
 /
 windows
-\
--
-I
-(
-topsrcdir
-)
-/
-widget
-/
-build
 \
 (
 NULL
