@@ -542,6 +542,10 @@ nsJSNPRuntime
 .
 cpp
 \
+nsJVMAuthTools
+.
+cpp
+\
 (
 NULL
 )

@@ -591,6 +591,10 @@ nsIPluginDocument
 .
 idl
 \
+nsIJVMAuthTools
+.
+idl
+\
 (
 NULL
 )

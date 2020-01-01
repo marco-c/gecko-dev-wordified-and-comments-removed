@@ -428,10 +428,6 @@ nsIJVMPluginInstance
 .
 idl
 \
-nsIJVMAuthTools
-.
-idl
-\
 nsIJVMConfigManager
 .
 idl

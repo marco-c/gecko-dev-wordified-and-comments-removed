@@ -552,10 +552,6 @@ lcglue
 .
 cpp
 \
-nsJVMAuthTools
-.
-cpp
-\
 (
 NULL
 )
