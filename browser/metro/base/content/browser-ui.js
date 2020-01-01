@@ -5564,6 +5564,12 @@ null
 true
 )
 ;
+ContextUI
+.
+displayNavbar
+(
+)
+;
 this
 .
 _edit
