@@ -145,7 +145,7 @@ async
 "
 :
 "
-Trace
+Debug
 "
 }
 ;
