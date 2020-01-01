@@ -1881,15 +1881,6 @@ scriptDataSize
 (
 )
 ;
-#
-ifdef
-DEBUG
-int
-*
-pcProfile
-;
-#
-endif
 jsbytecode
 *
 nativeToPC
