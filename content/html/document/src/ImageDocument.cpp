@@ -232,13 +232,6 @@ h
 #
 include
 "
-nsIDocShellTreeItem
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h
