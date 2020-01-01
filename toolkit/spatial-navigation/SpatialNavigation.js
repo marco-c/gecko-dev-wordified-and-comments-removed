@@ -929,7 +929,7 @@ keyCodeRight
 |
 |
 key
-!
+=
 =
 PrefObserver
 [
