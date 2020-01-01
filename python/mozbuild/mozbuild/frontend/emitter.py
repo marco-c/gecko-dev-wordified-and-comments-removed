@@ -34,6 +34,8 @@ Exports
     
 IPDLFile
     
+LocalInclude
+    
 Program
     
 ReaderSummary
@@ -901,6 +903,28 @@ IPDLFile
 (
 sandbox
 ipdl
+)
+        
+for
+local_include
+in
+sandbox
+.
+get
+(
+'
+LOCAL_INCLUDES
+'
+[
+]
+)
+:
+            
+yield
+LocalInclude
+(
+sandbox
+local_include
 )
     
 def
