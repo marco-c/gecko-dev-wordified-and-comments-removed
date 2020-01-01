@@ -425,7 +425,7 @@ nsIFrame
 aPrevInFlow
 )
 {
-nsSplittableFrame
+nsContainerFrame
 :
 :
 Init
