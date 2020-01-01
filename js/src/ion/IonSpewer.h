@@ -249,6 +249,14 @@ IONSPEW_CHANNEL
 IonSpew_Terminator
 }
 ;
+static
+const
+int
+NULL_ID
+=
+-
+1
+;
 #
 ifdef
 DEBUG
@@ -666,6 +674,7 @@ void
 IonSpewVA
 (
 IonSpewChannel
+channel
 const
 char
 *
