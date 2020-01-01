@@ -649,6 +649,9 @@ pobj
 *
 tmp
 ;
+#
+ifdef
+DEBUG
 JSScript
 *
 script
@@ -662,6 +665,8 @@ currentScript
 (
 )
 ;
+#
+endif
 JS_ASSERT
 (
 this
