@@ -233,10 +233,6 @@ mIOLoop
 (
 nullptr
 )
-mTask
-(
-nullptr
-)
 mFd
 (
 -
@@ -249,6 +245,10 @@ aConnector
 mCurrentTaskIsCanceled
 (
 false
+)
+mTask
+(
+nullptr
 )
 mAddress
 (
