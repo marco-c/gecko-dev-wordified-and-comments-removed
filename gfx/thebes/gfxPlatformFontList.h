@@ -222,6 +222,7 @@ gfxFont
 aPrevFont
 )
 ;
+virtual
 gfxFontFamily
 *
 FindFamily
