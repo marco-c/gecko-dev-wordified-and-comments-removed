@@ -108,11 +108,6 @@ nsGeoPositionCoords
 )
 {
 }
-DOMCI_DATA
-(
-GeoPositionCoords
-nsGeoPositionCoords
-)
 NS_INTERFACE_MAP_BEGIN
 (
 nsGeoPositionCoords
@@ -125,10 +120,6 @@ nsIDOMGeoPositionCoords
 NS_INTERFACE_MAP_ENTRY
 (
 nsIDOMGeoPositionCoords
-)
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
-(
-GeoPositionCoords
 )
 NS_INTERFACE_MAP_END
 NS_IMPL_THREADSAFE_ADDREF
