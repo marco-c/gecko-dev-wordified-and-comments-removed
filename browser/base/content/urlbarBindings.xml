@@ -4862,7 +4862,7 @@ _overLinkDelayTimer
 [
 CDATA
 [
-undefined
+null
 ]
 ]
 >
@@ -4926,10 +4926,11 @@ this
 _overLinkDelayTimer
 )
 ;
-delete
 this
 .
 _overLinkDelayTimer
+=
+null
 ;
 }
 /
@@ -4974,10 +4975,11 @@ overLinkOut
 self
 )
 {
-delete
 self
 .
 _overLinkDelayTimer
+=
+null
 ;
 let
 style
@@ -5122,10 +5124,11 @@ overLinkIn
 self
 )
 {
-delete
 self
 .
 _overLinkDelayTimer
+=
+null
 ;
 self
 .
