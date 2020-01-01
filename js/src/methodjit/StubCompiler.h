@@ -285,8 +285,8 @@ vpInc
 (
 JSOp
 op
-bool
-pushed
+uint32
+depth
 )
 ;
 #
@@ -345,6 +345,13 @@ j
 void
 leave
 (
+)
+;
+void
+leaveWithDepth
+(
+uint32
+depth
 )
 ;
 void

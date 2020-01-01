@@ -535,6 +535,15 @@ tag
 )
 ;
 inline
+void
+forgetType
+(
+FrameEntry
+*
+fe
+)
+;
+inline
 Jump
 testInt32
 (
