@@ -2700,6 +2700,10 @@ popFront
 )
 )
 {
+#
+if
+defined
+JS_POLYIC
 JSScript
 *
 script
@@ -2710,10 +2714,6 @@ front
 (
 )
 ;
-#
-if
-defined
-JS_POLYIC
 ic
 :
 :
