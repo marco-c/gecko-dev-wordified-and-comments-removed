@@ -1320,6 +1320,13 @@ BINPATH
 /
 components
 /
+profiler
+.
+xpt
+BINPATH
+/
+components
+/
 proxyObject
 .
 xpt
@@ -3663,12 +3670,5 @@ BINPATH
 components
 /
 MozKeyboard
-.
-js
-BINPATH
-/
-components
-/
-DirectoryProvider
 .
 js
