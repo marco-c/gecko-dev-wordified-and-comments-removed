@@ -235,6 +235,16 @@ mCachedURI
 bool
 mRegistered
 ;
+nsIContent
+*
+Content
+(
+)
+;
+nsIContent
+*
+mContent
+;
 }
 ;
 }
