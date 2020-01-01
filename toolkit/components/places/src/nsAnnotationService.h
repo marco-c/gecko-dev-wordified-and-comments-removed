@@ -250,6 +250,12 @@ mozIStorageStatement
 >
 mDBRemoveItemAnnotation
 ;
+nsCOMPtr
+<
+mozIStorageStatement
+>
+mDBGetItemsWithAnnotation
+;
 nsCOMArray
 <
 nsIAnnotationObserver
