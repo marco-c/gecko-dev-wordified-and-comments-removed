@@ -163,6 +163,12 @@ result
 =
 >
 {
+Cu
+.
+forceGC
+(
+)
+;
 let
 msg
 =
