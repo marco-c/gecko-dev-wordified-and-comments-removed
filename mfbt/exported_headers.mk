@@ -215,6 +215,10 @@ RangedPtr
 .
 h
 \
+ReentrancyGuard
+.
+h
+\
 RefPtr
 .
 h
