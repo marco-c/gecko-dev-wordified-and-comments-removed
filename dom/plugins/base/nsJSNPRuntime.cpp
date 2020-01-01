@@ -17,6 +17,13 @@ h
 #
 include
 "
+nsIInterfaceRequestorUtils
+.
+h
+"
+#
+include
+"
 nsJSNPRuntime
 .
 h
@@ -102,6 +109,13 @@ h
 include
 "
 nsIContent
+.
+h
+"
+#
+include
+"
+nsIPluginInstanceOwner
 .
 h
 "
