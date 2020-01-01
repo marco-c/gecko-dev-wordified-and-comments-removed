@@ -3494,7 +3494,7 @@ last
 cx
 -
 >
-compartment
+runtime
 -
 >
 nativeIterCache
@@ -3770,7 +3770,7 @@ iterobj
 cx
 -
 >
-compartment
+runtime
 -
 >
 nativeIterCache
@@ -3889,7 +3889,7 @@ length
 cx
 -
 >
-compartment
+runtime
 -
 >
 nativeIterCache
@@ -4108,7 +4108,7 @@ length
 cx
 -
 >
-compartment
+runtime
 -
 >
 nativeIterCache
@@ -4133,7 +4133,7 @@ length
 cx
 -
 >
-compartment
+runtime
 -
 >
 nativeIterCache

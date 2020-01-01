@@ -33342,12 +33342,10 @@ masm
 loadPtr
 (
 &
-script
+cx
 -
 >
-compartment
-(
-)
+runtime
 -
 >
 nativeIterCache
