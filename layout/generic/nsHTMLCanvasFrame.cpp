@@ -422,6 +422,10 @@ aPrevInFlow
 ;
 MarkLayersActive
 (
+nsChangeHint
+(
+0
+)
 )
 ;
 return

@@ -2666,6 +2666,10 @@ frame
 >
 MarkLayersActive
 (
+nsChangeHint
+(
+0
+)
 )
 ;
 nsRect
