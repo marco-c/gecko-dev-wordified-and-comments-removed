@@ -4103,6 +4103,9 @@ nsGkAtoms
 :
 :
 onbeforeunload
+&
+&
+win
 )
 {
 bool

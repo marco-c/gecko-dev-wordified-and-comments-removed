@@ -3348,6 +3348,8 @@ IsEventAttributeName
 (
 aAttrNameAtom
 EventNameType_HTML
+|
+EventNameType_HTMLBodyOrFramesetOnly
 )
 ;
 }
@@ -3384,6 +3386,8 @@ aAttrNameAtom
 EventNameType_SVGGraphic
 |
 EventNameType_SVGSVG
+|
+EventNameType_SMIL
 )
 ;
 }

@@ -468,6 +468,9 @@ EventNameType_SVGSVG
 EventNameType_SMIL
 =
 0x0016
+EventNameType_HTMLBodyOrFramesetOnly
+=
+0x0020
 EventNameType_HTMLXUL
 =
 0x0003
