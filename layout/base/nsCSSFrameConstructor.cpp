@@ -37002,6 +37002,16 @@ PR_TRUE
 ;
 parentFrame
 =
+nsLayoutUtils
+:
+:
+GetLastContinuationWithChild
+(
+parentFrame
+)
+;
+parentFrame
+=
 :
 :
 GetAdjustedParentFrame
