@@ -163,13 +163,13 @@ Of
 ENTITY
 credit
 .
-poweredByGecko
+poweredByGeckoReg
 "
 Powered
 by
 Gecko
 &
-trade
+reg
 ;
 "
 >
