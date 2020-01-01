@@ -4885,7 +4885,7 @@ GetPresContext
 )
 aFrameIn
 eLeaf
-FrameIteratorFlags
+nsFrameIterator
 :
 :
 FLAG_NONE
