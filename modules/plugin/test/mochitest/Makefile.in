@@ -760,6 +760,13 @@ html
 (
 NULL
 )
+ifneq
+(
+(
+OS_ARCH
+)
+WINNT
+)
 _MOCHICHROME_FILES
 +
 =
@@ -779,6 +786,7 @@ html
 (
 NULL
 )
+endif
 endif
 ifdef
 MOZ_CRASHREPORTER
