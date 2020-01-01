@@ -1,3 +1,16 @@
+var
+timer
+=
+null
+;
+/
+/
+Declare
+outside
+to
+prevent
+premature
+GC
 function
 handleRequest
 (
@@ -66,7 +79,6 @@ processAsync
 (
 )
 ;
-var
 timer
 =
 Components

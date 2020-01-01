@@ -1,3 +1,17 @@
+var
+timer
+=
+null
+;
+/
+/
+declare
+timer
+outside
+to
+prevent
+premature
+GC
 function
 handleRequest
 (
@@ -55,7 +69,6 @@ Hello
 "
 )
 ;
-var
 timer
 =
 Components

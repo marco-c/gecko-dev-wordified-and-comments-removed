@@ -39,6 +39,9 @@ No
 Error
 '
 ;
+var
+t
+;
 START
 (
 summary
@@ -195,7 +198,6 @@ jsTestDriverEnd
 }
 }
 ;
-var
 t
 =
 Components

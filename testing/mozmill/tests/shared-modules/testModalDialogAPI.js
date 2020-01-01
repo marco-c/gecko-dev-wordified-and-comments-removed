@@ -232,6 +232,12 @@ this
 .
 getDialog
 ;
+this
+.
+modalDialogTimer
+=
+null
+;
 }
 modalDialog
 .
@@ -281,7 +287,8 @@ undefined
 :
 delay
 ;
-var
+this
+.
 modalDialogTimer
 =
 Cc
@@ -309,6 +316,8 @@ if
 observer
 )
 {
+this
+.
 modalDialogTimer
 .
 init
@@ -325,6 +334,8 @@ TYPE_ONE_SHOT
 }
 else
 {
+this
+.
 modalDialogTimer
 .
 init

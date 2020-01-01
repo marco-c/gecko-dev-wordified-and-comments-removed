@@ -1360,6 +1360,12 @@ runNextTest
 )
 ;
 }
+var
+timerArray
+=
+[
+]
+;
 function
 Timer
 (
@@ -1405,6 +1411,13 @@ delay
 timer
 .
 TYPE_ONE_SHOT
+)
+;
+timerArray
+.
+push
+(
+timer
 )
 ;
 }
