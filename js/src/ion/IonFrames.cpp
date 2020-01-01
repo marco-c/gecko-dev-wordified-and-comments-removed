@@ -1129,14 +1129,14 @@ isExceptionPending
 (
 )
 )
-UnwindIteratorForUncatchableException
+UnwindIteratorForException
 (
 cx
 obj
 )
 ;
 else
-UnwindIteratorForException
+UnwindIteratorForUncatchableException
 (
 cx
 obj
