@@ -1471,7 +1471,7 @@ JS_FALSE
 }
 script
 =
-JS_CompileUTF8FileHandleForPrincipals
+JS_CompileFileHandleForPrincipals
 (
 cx
 obj
@@ -2839,7 +2839,7 @@ JSScript
 *
 script
 =
-JS_CompileUTF8FileHandleForPrincipals
+JS_CompileFileHandleForPrincipals
 (
 cx
 obj

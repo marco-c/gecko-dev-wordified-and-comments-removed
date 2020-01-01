@@ -1826,7 +1826,7 @@ JSOPTION_NO_SCRIPT_RVAL
 ;
 script
 =
-JS_CompileUTF8FileHandle
+JS_CompileFileHandle
 (
 cx
 obj
@@ -3437,7 +3437,7 @@ JSScript
 *
 script
 =
-JS_CompileUTF8File
+JS_CompileFile
 (
 cx
 thisobj
@@ -11332,7 +11332,7 @@ JSScript
 *
 script
 =
-JS_CompileUTF8File
+JS_CompileFile
 (
 cx
 thisobj

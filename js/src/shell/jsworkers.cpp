@@ -4157,7 +4157,7 @@ JSScript
 *
 script
 =
-JS_CompileUTF8File
+JS_CompileFile
 (
 cx
 child
