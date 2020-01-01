@@ -707,12 +707,6 @@ errno
 if
 defined
 (
-XP_MAC
-)
-|
-|
-defined
-(
 XP_MACOSX
 )
 case
@@ -735,12 +729,6 @@ break
 ;
 #
 if
-defined
-(
-XP_MAC
-)
-|
-|
 defined
 (
 XP_MACOSX

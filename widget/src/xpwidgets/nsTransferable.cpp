@@ -828,15 +828,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-#
-ifdef
-XP_MAC
-#
-pragma
-mark
--
-#
-endif
 nsTransferable
 :
 :

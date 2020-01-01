@@ -1712,15 +1712,6 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-#
-ifdef
-XP_MAC
-#
-pragma
-mark
--
-#
-endif
 NS_IMETHODIMP
 nsDocumentStateCommand
 :

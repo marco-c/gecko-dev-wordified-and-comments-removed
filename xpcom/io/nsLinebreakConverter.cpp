@@ -1055,15 +1055,6 @@ return
 resultString
 ;
 }
-#
-ifdef
-XP_MAC
-#
-pragma
-mark
--
-#
-endif
 char
 *
 nsLinebreakConverter

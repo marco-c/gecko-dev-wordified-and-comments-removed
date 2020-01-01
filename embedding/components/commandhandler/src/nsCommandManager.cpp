@@ -932,15 +932,6 @@ return
 rv
 ;
 }
-#
-ifdef
-XP_MAC
-#
-pragma
-mark
--
-#
-endif
 nsresult
 nsCommandManager
 :
