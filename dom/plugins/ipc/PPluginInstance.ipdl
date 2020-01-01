@@ -134,7 +134,7 @@ h
 ;
 include
 "
-IPC
+ipc
 /
 nsGUIEventIPC
 .

@@ -678,7 +678,7 @@ h
 ]
 EXPORTS
 .
-IPC
+ipc
 =
 [
 '
