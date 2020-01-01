@@ -17474,7 +17474,6 @@ cursorUnit
 eCSSUnit_ListDep
 nsPrintfCString
 (
-64
 "
 unrecognized
 cursor
@@ -19548,7 +19547,6 @@ GetUnit
 eCSSUnit_Ident
 nsPrintfCString
 (
-64
 "
 Invalid
 transition
@@ -20694,7 +20692,6 @@ NS_ABORT_IF_FALSE
 false
 nsPrintfCString
 (
-64
 "
 Invalid
 animation
@@ -21004,7 +21001,6 @@ GetUnit
 eCSSUnit_Enumerated
 nsPrintfCString
 (
-64
 "
 Invalid
 animation
@@ -21188,7 +21184,6 @@ GetUnit
 eCSSUnit_Enumerated
 nsPrintfCString
 (
-64
 "
 Invalid
 animation
@@ -21374,7 +21369,6 @@ GetUnit
 eCSSUnit_Enumerated
 nsPrintfCString
 (
-64
 "
 Invalid
 animation
@@ -26007,7 +26001,6 @@ NS_ABORT_IF_FALSE
 false
 nsPrintfCString
 (
-32
 "
 unexpected
 unit
@@ -26381,7 +26374,6 @@ NS_ABORT_IF_FALSE
 false
 nsPrintfCString
 (
-32
 "
 unexpected
 unit
@@ -27853,7 +27845,6 @@ NS_ABORT_IF_FALSE
 false
 nsPrintfCString
 (
-64
 "
 unrecognized
 shadow
@@ -32418,7 +32409,6 @@ NS_ABORT_IF_FALSE
 false
 nsPrintfCString
 (
-64
 "
 unrecognized
 content

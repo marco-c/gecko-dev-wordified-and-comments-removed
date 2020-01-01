@@ -1197,7 +1197,6 @@ Append
 (
 nsPrintfCString
 (
-32
 "
 %
 d

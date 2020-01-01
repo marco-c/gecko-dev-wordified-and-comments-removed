@@ -622,7 +622,6 @@ value
 nsPrintfCString
 prefName
 (
-256
 PRINTERFEATURES_PREF
 "
 .
@@ -671,7 +670,6 @@ value
 nsPrintfCString
 prefName
 (
-256
 PRINTERFEATURES_PREF
 "
 .
@@ -722,7 +720,6 @@ value
 nsPrintfCString
 prefName
 (
-256
 PRINTERFEATURES_PREF
 "
 .
@@ -885,7 +882,6 @@ SetCharValue
 (
 nsPrintfCString
 (
-256
 "
 paper
 .
@@ -907,7 +903,6 @@ SetIntValue
 (
 nsPrintfCString
 (
-256
 "
 paper
 .
@@ -929,7 +924,6 @@ SetIntValue
 (
 nsPrintfCString
 (
-256
 "
 paper
 .
@@ -951,7 +945,6 @@ SetBoolValue
 (
 nsPrintfCString
 (
-256
 "
 paper
 .
@@ -1047,7 +1040,6 @@ SetCharValue
 (
 nsPrintfCString
 (
-256
 "
 orientation
 .
@@ -1143,7 +1135,6 @@ SetCharValue
 (
 nsPrintfCString
 (
-256
 "
 plex
 .
@@ -1239,7 +1230,6 @@ SetCharValue
 (
 nsPrintfCString
 (
-256
 "
 resolution
 .
@@ -1335,7 +1325,6 @@ SetCharValue
 (
 nsPrintfCString
 (
-256
 "
 colorspace
 .
@@ -2767,7 +2756,6 @@ modulename
 nsPrintfCString
 name
 (
-512
 "
 print
 .
@@ -2841,7 +2829,6 @@ printername
 nsPrintfCString
 name
 (
-512
 "
 print
 .
@@ -2911,7 +2898,6 @@ modulename
 nsPrintfCString
 name
 (
-512
 "
 print
 .
@@ -2975,7 +2961,6 @@ rv
 nsPrintfCString
 name
 (
-512
 "
 print
 .
@@ -3503,7 +3488,6 @@ SET_PRINTER_FEATURES_VIA_PREFS
 nsPrintfCString
 prefName
 (
-256
 PRINTERFEATURES_PREF
 "
 .
@@ -3589,7 +3573,6 @@ filename
 =
 nsPrintfCString
 (
-PATH_MAX
 "
 %
 s

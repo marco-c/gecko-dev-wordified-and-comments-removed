@@ -208,7 +208,6 @@ do
 nsPrintfCString
 msg
 (
-1000
 "
 NECKO
 ERROR
@@ -257,7 +256,6 @@ mWasOpened
 nsPrintfCString
 msg
 (
-1000
 "
 '
 %

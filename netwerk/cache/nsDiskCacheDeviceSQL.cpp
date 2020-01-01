@@ -9968,7 +9968,6 @@ Append
 (
 nsPrintfCString
 (
-64
 "
 |
 %

@@ -3580,7 +3580,6 @@ weightKeywordBuf
 nsPrintfCString
 msg
 (
-1024
 "
 downloadable
 font

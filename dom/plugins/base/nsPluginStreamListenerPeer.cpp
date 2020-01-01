@@ -4607,7 +4607,6 @@ OK
 nsPrintfCString
 status
 (
-100
 "
 HTTP
 %

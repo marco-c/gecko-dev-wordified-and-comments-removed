@@ -2449,14 +2449,6 @@ OwnerDoc
 #
 ifndef
 HAVE_64BIT_OS
-#
-define
-kFmtSize
-13
-#
-define
-kFmtSizeAttr
-24
 const
 char
 gPrintfFmt
@@ -2486,14 +2478,6 @@ id0x
 ;
 #
 else
-#
-define
-kFmtSize
-21
-#
-define
-kFmtSizeAttr
-32
 const
 char
 gPrintfFmt
@@ -2577,7 +2561,6 @@ CopyASCIItoUTF16
 (
 nsPrintfCString
 (
-kFmtSize
 gPrintfFmt
 nodeid
 )
@@ -2591,7 +2574,6 @@ CopyASCIItoUTF16
 (
 nsPrintfCString
 (
-kFmtSizeAttr
 gPrintfFmtAttr
 nodeid
 aNode

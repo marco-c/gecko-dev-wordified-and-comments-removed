@@ -700,7 +700,6 @@ NS_WARNING
 (
 nsPrintfCString
 (
-256
 "
 Exception
 raised
