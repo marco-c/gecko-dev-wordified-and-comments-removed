@@ -426,10 +426,10 @@ autoconf
 mk
 MODULE
 =
-passwordmgr
+loginmgr
 XPIDL_MODULE
 =
-passwordmgr
+loginmgr
 XPIDLSRCS
 =
 \
