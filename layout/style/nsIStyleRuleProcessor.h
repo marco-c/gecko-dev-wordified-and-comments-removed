@@ -35,6 +35,9 @@ struct
 PseudoElementRuleProcessorData
 ;
 struct
+AnonBoxRuleProcessorData
+;
+struct
 PseudoRuleProcessorData
 ;
 struct
@@ -105,6 +108,16 @@ NS_IMETHOD
 RulesMatching
 (
 PseudoElementRuleProcessorData
+*
+aData
+)
+=
+0
+;
+NS_IMETHOD
+RulesMatching
+(
+AnonBoxRuleProcessorData
 *
 aData
 )
