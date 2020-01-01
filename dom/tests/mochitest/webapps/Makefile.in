@@ -109,10 +109,6 @@ test_bug_765063
 .
 xul
 \
-test_bug_771294
-.
-xul
-\
 test_install_app
 .
 xul
