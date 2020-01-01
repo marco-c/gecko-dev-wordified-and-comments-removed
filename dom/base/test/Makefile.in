@@ -177,6 +177,14 @@ test_messageChannel
 .
 html
 \
+test_messageChannel_cloning
+.
+html
+\
+iframe_messageChannel_cloning
+.
+html
+\
 (
 NULL
 )

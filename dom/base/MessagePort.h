@@ -146,6 +146,17 @@ MessagePort
 aMessagePort
 )
 ;
+already_AddRefed
+<
+MessagePort
+>
+Clone
+(
+nsPIDOMWindow
+*
+aWindow
+)
+;
 private
 :
 nsRefPtr
