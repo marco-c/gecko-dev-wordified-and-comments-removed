@@ -23,16 +23,6 @@ file
 do_get_file
 (
 "
-js
-/
-src
-/
-xpconnect
-/
-tests
-/
-unit
-/
 bug451678_subscript
 .
 js

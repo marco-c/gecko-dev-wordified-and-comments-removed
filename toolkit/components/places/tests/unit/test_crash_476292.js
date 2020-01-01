@@ -9,16 +9,6 @@ dbFile
 do_get_file
 (
 "
-toolkit
-/
-components
-/
-places
-/
-tests
-/
-unit
-/
 bug476292
 .
 sqlite

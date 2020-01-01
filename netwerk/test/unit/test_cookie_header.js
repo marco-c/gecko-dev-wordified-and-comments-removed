@@ -1,16 +1,5 @@
-do_import_script
+do_load_httpd_js
 (
-"
-netwerk
-/
-test
-/
-httpserver
-/
-httpd
-.
-js
-"
 )
 ;
 function

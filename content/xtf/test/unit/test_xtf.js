@@ -41,15 +41,6 @@ nsIDOMEventTarget
 do_load_module
 (
 "
-/
-content
-/
-xtf
-/
-test
-/
-unit
-/
 xtfComponent
 .
 js

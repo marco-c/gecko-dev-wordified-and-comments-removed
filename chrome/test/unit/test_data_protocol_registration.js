@@ -5,12 +5,6 @@ manifests
 do_get_file
 (
 "
-chrome
-/
-test
-/
-unit
-/
 data
 /
 test_data_protocol_registration

@@ -1,18 +1,4 @@
 const
-gBasePath
-=
-"
-content
-/
-base
-/
-test
-/
-unit
-/
-"
-;
-const
 nsIDocumentEncoder
 =
 Components
@@ -59,8 +45,6 @@ file
 =
 do_get_file
 (
-gBasePath
-+
 aFile
 )
 ;

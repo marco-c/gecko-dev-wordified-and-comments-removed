@@ -5,12 +5,6 @@ MANIFESTS
 do_get_file
 (
 "
-chrome
-/
-test
-/
-unit
-/
 data
 /
 test_bug380398
@@ -279,12 +273,6 @@ newFileURI
 do_get_file
 (
 "
-chrome
-/
-test
-/
-unit
-/
 data
 "
 )

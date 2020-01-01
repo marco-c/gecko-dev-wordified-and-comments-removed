@@ -9,16 +9,6 @@ file
 do_get_file
 (
 "
-js
-/
-src
-/
-xpconnect
-/
-tests
-/
-unit
-/
 syntax_error
 .
 jsm

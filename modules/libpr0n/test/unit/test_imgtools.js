@@ -1,18 +1,4 @@
 const
-TESTDIR
-=
-"
-modules
-/
-libpr0n
-/
-test
-/
-unit
-/
-"
-;
-const
 Ci
 =
 Components
@@ -616,8 +602,6 @@ imgFile
 =
 do_get_file
 (
-TESTDIR
-+
 imgName
 )
 ;
@@ -732,8 +716,6 @@ refFile
 =
 do_get_file
 (
-TESTDIR
-+
 refName
 )
 ;
@@ -815,8 +797,6 @@ refFile
 =
 do_get_file
 (
-TESTDIR
-+
 refName
 )
 ;
@@ -883,8 +863,6 @@ imgFile
 =
 do_get_file
 (
-TESTDIR
-+
 imgName
 )
 ;
@@ -1006,8 +984,6 @@ refFile
 =
 do_get_file
 (
-TESTDIR
-+
 refName
 )
 ;
@@ -1105,8 +1081,6 @@ refFile
 =
 do_get_file
 (
-TESTDIR
-+
 refName
 )
 ;
@@ -1176,8 +1150,6 @@ imgFile
 =
 do_get_file
 (
-TESTDIR
-+
 imgName
 )
 ;
@@ -1286,8 +1258,6 @@ refFile
 =
 do_get_file
 (
-TESTDIR
-+
 refName
 )
 ;
@@ -1368,8 +1338,6 @@ refFile
 =
 do_get_file
 (
-TESTDIR
-+
 refName
 )
 ;
@@ -1521,8 +1489,6 @@ imgFile
 =
 do_get_file
 (
-TESTDIR
-+
 dict
 [
 "
@@ -1551,8 +1517,6 @@ imgFile
 =
 do_get_file
 (
-TESTDIR
-+
 dict
 [
 "
@@ -1775,8 +1739,6 @@ imgFile
 =
 do_get_file
 (
-TESTDIR
-+
 imgName
 )
 ;

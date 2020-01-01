@@ -75,12 +75,6 @@ return
 do_get_file
 (
 "
-netwerk
-/
-test
-/
-unit
-/
 test_link
 .
 url
@@ -97,12 +91,6 @@ return
 do_get_file
 (
 "
-netwerk
-/
-test
-/
-unit
-/
 test_link
 .
 desktop

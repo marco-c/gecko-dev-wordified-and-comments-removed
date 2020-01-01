@@ -178,16 +178,6 @@ bookmarksFileOld
 do_get_file
 (
 "
-browser
-/
-components
-/
-places
-/
-tests
-/
-unit
-/
 bookmarks
 .
 preplaces

@@ -114,12 +114,6 @@ init
 do_get_file
 (
 "
-netwerk
-/
-dns
-/
-src
-/
 effective_tld_names
 .
 dat

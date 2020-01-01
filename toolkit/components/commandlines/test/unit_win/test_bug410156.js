@@ -40,13 +40,8 @@ urlFile
 do_get_file
 (
 "
-toolkit
-/
-components
-/
-commandlines
-/
-test
+.
+.
 /
 unit
 /

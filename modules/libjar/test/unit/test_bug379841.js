@@ -16,14 +16,6 @@ const
 path
 =
 "
-modules
-/
-libjar
-/
-test
-/
-unit
-/
 data
 /
 test_bug379841

@@ -15,15 +15,9 @@ js
 "
 )
 ;
-do_import_script
+load
 (
 "
-testing
-/
-xpcshell
-/
-example
-/
 location_load
 .
 js

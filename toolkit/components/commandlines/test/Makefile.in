@@ -460,9 +460,7 @@ WINNT
 XPCSHELL_TESTS
 +
 =
-unit
-/
-win
+unit_win
 else
 ifneq
 (
@@ -480,9 +478,7 @@ OS_ARCH
 XPCSHELL_TESTS
 +
 =
-unit
-/
-unix
+unit_unix
 endif
 endif
 include

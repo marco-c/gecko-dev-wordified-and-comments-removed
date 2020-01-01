@@ -6,16 +6,8 @@ run_test
 var
 dirEntries
 =
-do_get_file
+do_get_cwd
 (
-"
-xpcom
-/
-tests
-/
-unit
-/
-"
 )
 .
 directoryEntries

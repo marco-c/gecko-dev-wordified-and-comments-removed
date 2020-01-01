@@ -231,17 +231,6 @@ run_test
 do_load_module
 (
 "
-/
-toolkit
-/
-components
-/
-places
-/
-tests
-/
-unit
-/
 nsDynamicContainerServiceSample
 .
 js

@@ -40,12 +40,6 @@ dataFile
 do_get_file
 (
 "
-xpcom
-/
-tests
-/
-unit
-/
 data
 /
 bug121341
@@ -368,12 +362,6 @@ dataFile
 do_get_file
 (
 "
-xpcom
-/
-tests
-/
-unit
-/
 data
 /
 bug121341

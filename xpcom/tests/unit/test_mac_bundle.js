@@ -24,12 +24,6 @@ keynoteBundle
 do_get_file
 (
 "
-xpcom
-/
-tests
-/
-unit
-/
 data
 /
 presentation
@@ -44,12 +38,6 @@ appBundle
 do_get_file
 (
 "
-xpcom
-/
-tests
-/
-unit
-/
 data
 /
 SmallApp

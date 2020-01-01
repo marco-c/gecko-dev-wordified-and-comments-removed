@@ -222,14 +222,6 @@ dataDir
 do_get_file
 (
 "
-intl
-/
-uconv
-/
-tests
-/
-unit
-/
 data
 /
 "

@@ -9,16 +9,6 @@ file
 do_get_file
 (
 "
-toolkit
-/
-components
-/
-satchel
-/
-test
-/
-unit
-/
 formhistory
 .
 dat

@@ -20,15 +20,6 @@ run_test
 do_load_module
 (
 "
-/
-extensions
-/
-cookie
-/
-test
-/
-unit
-/
 cookieprompt
 .
 js

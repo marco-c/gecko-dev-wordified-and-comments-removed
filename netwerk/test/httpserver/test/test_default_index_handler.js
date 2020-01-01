@@ -34,14 +34,6 @@ nameDir
 do_get_file
 (
 "
-netwerk
-/
-test
-/
-httpserver
-/
-test
-/
 data
 /
 name

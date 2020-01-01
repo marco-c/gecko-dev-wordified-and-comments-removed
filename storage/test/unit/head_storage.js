@@ -88,12 +88,6 @@ return
 do_get_file
 (
 "
-storage
-/
-test
-/
-unit
-/
 corruptDB
 .
 sqlite

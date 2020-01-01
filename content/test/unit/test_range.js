@@ -1050,13 +1050,6 @@ var
 filePath
 =
 "
-/
-content
-/
-test
-/
-unit
-/
 test_delete_range
 .
 xml
@@ -1771,13 +1764,6 @@ var
 filePath
 =
 "
-/
-content
-/
-test
-/
-unit
-/
 test_delete_range
 .
 xml
