@@ -92,7 +92,7 @@ h
 #
 include
 "
-nsIDOMMouseListener
+nsIDOMEventListener
 .
 h
 "
@@ -806,7 +806,7 @@ mDisplayedOptionText
 ;
 nsCOMPtr
 <
-nsIDOMMouseListener
+nsIDOMEventListener
 >
 mButtonListener
 ;
