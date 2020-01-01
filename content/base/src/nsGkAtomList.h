@@ -9468,6 +9468,13 @@ ScrollFrame
 )
 GK_ATOM
 (
+scrollbarFrame
+"
+ScrollbarFrame
+"
+)
+GK_ATOM
+(
 sequenceFrame
 "
 SequenceFrame

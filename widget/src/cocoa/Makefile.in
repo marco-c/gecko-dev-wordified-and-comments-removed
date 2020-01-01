@@ -574,10 +574,6 @@ nsWidgetFactory
 .
 mm
 \
-nsNativeScrollbar
-.
-mm
-\
 nsCursorManager
 .
 mm

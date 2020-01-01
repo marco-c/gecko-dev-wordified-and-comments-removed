@@ -239,6 +239,14 @@ IsContainingBlock
 const
 ;
 virtual
+nsIAtom
+*
+GetType
+(
+)
+const
+;
+virtual
 void
 SetScrollbarMediatorContent
 (
