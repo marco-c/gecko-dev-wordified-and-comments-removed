@@ -3838,6 +3838,9 @@ UploadSurfaceToTexture
 surf
 size
 texture
+aData
+.
+mYSize
 true
 )
 ;
@@ -3896,6 +3899,9 @@ UploadSurfaceToTexture
 surf
 size
 texture
+aData
+.
+mCbCrSize
 true
 )
 ;
@@ -3936,6 +3942,9 @@ UploadSurfaceToTexture
 surf
 size
 texture
+aData
+.
+mCbCrSize
 true
 )
 ;
@@ -4229,6 +4238,7 @@ mSize
 height
 )
 tex
+mSize
 true
 )
 ;
