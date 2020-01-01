@@ -555,6 +555,10 @@ test_bug319381
 .
 html
 \
+test_bug357614
+.
+html
+\
 test_bug365932
 .
 html
@@ -580,6 +584,10 @@ test_bug379741
 html
 \
 test_bug383075
+.
+html
+\
+test_bug387615
 .
 html
 \
