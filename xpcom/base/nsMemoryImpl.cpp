@@ -105,7 +105,7 @@ h
 define
 LOW_MEMORY_THRESHOLD_KB
 (
-512
+384
 *
 1024
 )
