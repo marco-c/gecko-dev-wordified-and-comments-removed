@@ -6079,7 +6079,6 @@ starred
 "
 )
 )
-{
 this
 .
 starButton
@@ -6094,13 +6093,6 @@ true
 "
 )
 ;
-BookmarkPopup
-.
-autoHide
-(
-)
-;
-}
 let
 bookmarkURI
 =
