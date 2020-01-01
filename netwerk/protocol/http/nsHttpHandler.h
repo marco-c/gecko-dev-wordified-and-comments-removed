@@ -387,6 +387,15 @@ mCoalesceSpdy
 ;
 }
 bool
+UseAlternateProtocol
+(
+)
+{
+return
+mUseAlternateProtocol
+;
+}
+bool
 PromptTempRedirect
 (
 )
@@ -946,6 +955,9 @@ mEnableSpdy
 ;
 bool
 mCoalesceSpdy
+;
+bool
+mUseAlternateProtocol
 ;
 }
 ;
