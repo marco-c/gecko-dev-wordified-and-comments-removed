@@ -694,7 +694,7 @@ R
 .
 layout
 .
-awesomebar_suggestion_item
+suggestion_item
 null
 )
 ;

@@ -140,13 +140,6 @@ center_vertical
 "
 android
 :
-clickable
-=
-"
-true
-"
-android
-:
 padding
 =
 "
@@ -172,7 +165,7 @@ src
 "
 drawable
 /
-ic_awesomebar_search
+ic_url_bar_search
 "
 android
 :
