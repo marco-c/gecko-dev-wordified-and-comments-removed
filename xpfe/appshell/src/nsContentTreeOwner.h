@@ -49,7 +49,7 @@ h
 #
 include
 "
-nsIWebBrowserChrome3
+nsIWebBrowserChrome2
 .
 h
 "
@@ -76,7 +76,7 @@ nsIBaseWindow
 public
 nsIInterfaceRequestor
 public
-nsIWebBrowserChrome3
+nsIWebBrowserChrome2
 public
 nsIWindowProvider
 {
@@ -96,7 +96,6 @@ NS_DECL_NSIDOCSHELLTREEOWNER
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSIWEBBROWSERCHROME
 NS_DECL_NSIWEBBROWSERCHROME2
-NS_DECL_NSIWEBBROWSERCHROME3
 NS_DECL_NSIWINDOWPROVIDER
 protected
 :

@@ -669,13 +669,6 @@ gStatusText
 aStatusText
 ;
 }
-onBeforeLinkTraversal
-:
-function
-(
-)
-{
-}
 }
 ;
 function

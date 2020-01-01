@@ -540,10 +540,6 @@ nsIWebBrowserChrome2
 .
 idl
 \
-nsIWebBrowserChrome3
-.
-idl
-\
 (
 NULL
 )
