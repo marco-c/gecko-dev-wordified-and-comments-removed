@@ -726,17 +726,7 @@ id
 "
 resume
 "
->
-&
-debuggerUI
-.
-resumeButton
-;
-<
 /
-xul
-:
-button
 >
 <
 xul

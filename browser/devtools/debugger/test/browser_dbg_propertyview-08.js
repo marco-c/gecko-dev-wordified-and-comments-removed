@@ -290,7 +290,7 @@ count
 let
 intervalID
 =
-content
+window
 .
 setInterval
 (
@@ -350,7 +350,7 @@ fetched
 return
 ;
 }
-content
+window
 .
 clearInterval
 (
