@@ -353,10 +353,11 @@ XP_WIN
 )
 gShell32DLLInst
 =
-LoadLibrary
+LoadLibraryW
 (
+L
 "
-Shell32
+shell32
 .
 dll
 "
