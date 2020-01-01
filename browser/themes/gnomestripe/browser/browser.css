@@ -600,7 +600,7 @@ hidden
 }
 %
 ifdef
-MOZ_PLACES
+MOZ_PLACES_BOOKMARKS
 toolbarpaletteitem
 [
 place
@@ -10279,7 +10279,7 @@ gif
 }
 %
 ifdef
-MOZ_PLACES
+MOZ_PLACES_BOOKMARKS
 #
 places
 -
