@@ -67,6 +67,8 @@ run_test
 (
 )
 {
+return
+;
 let
 store
 =

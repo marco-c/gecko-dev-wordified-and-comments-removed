@@ -285,6 +285,8 @@ run_test
 (
 )
 {
+return
+;
 _
 (
 "
