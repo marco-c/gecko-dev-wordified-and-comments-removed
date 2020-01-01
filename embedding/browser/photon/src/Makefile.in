@@ -1324,9 +1324,10 @@ EmbedComponents
 cpp
 .
 in
-(
-GLOBAL_DEPS
-)
+Makefile
+Makefile
+.
+in
 (
 EMBED_LINK_COMP_MODULES
 )

@@ -1009,9 +1009,10 @@ dynstr
 gc
 .
 c
-(
-GLOBAL_DEPS
-)
+Makefile
+Makefile
+.
+in
 (
 CC
 )
