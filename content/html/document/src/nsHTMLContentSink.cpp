@@ -453,7 +453,7 @@ dom
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 static
 PRLogModuleInfo
 *
@@ -856,7 +856,7 @@ aNodeType
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 void
 SinkTraceNode
 (
@@ -1017,7 +1017,7 @@ aTag
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 void
 ForceReflow
 (
@@ -1250,7 +1250,7 @@ mLastTextCharWasCR
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 void
 HTMLContentSink
 :
@@ -2376,7 +2376,7 @@ mContent
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 nsIParserService
 *
 parserService
@@ -3214,7 +3214,7 @@ GetChildCount
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 {
 SINK_TRACE
 (
@@ -4294,7 +4294,7 @@ childCount
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 {
 SINK_TRACE
 (
@@ -4928,7 +4928,7 @@ HTMLContentSink
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 !
@@ -5740,7 +5740,7 @@ mCurrentContext
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 nsCAutoString
 spec
 ;

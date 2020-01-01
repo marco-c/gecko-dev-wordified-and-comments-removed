@@ -1005,7 +1005,7 @@ c2
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 aIgnoreCase

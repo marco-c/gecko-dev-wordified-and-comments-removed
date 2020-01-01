@@ -42,7 +42,7 @@ layers
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 class
 nsLayoutDebugger
 :

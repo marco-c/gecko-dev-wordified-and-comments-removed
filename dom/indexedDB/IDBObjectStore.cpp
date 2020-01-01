@@ -7481,11 +7481,10 @@ thread
 ;
 if
 (
-!
 mTransaction
 -
 >
-IsOpen
+IsFinished
 (
 )
 )

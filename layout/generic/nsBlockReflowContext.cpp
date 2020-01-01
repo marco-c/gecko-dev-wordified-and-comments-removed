@@ -105,7 +105,7 @@ h
 "
 #
 ifdef
-NS_DEBUG
+DEBUG
 #
 undef
 NOISY_MAX_ELEMENT_SIZE

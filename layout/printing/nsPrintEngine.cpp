@@ -714,7 +714,7 @@ ifdef
 PR_LOGGING
 #
 ifdef
-NS_DEBUG
+DEBUG
 #
 endif
 #
@@ -2521,7 +2521,7 @@ aIsPrintPreview
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 mPrt
 -
 >
@@ -10855,7 +10855,7 @@ mDebugFilePtr
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 nsIFrame
 *
 root

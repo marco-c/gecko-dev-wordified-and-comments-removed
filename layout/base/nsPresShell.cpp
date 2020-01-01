@@ -1181,7 +1181,7 @@ undef
 NOISY
 #
 ifdef
-NS_DEBUG
+DEBUG
 static
 PRUint32
 gVerifyReflowFlags
@@ -2321,7 +2321,7 @@ gLog
 endif
 #
 ifdef
-NS_DEBUG
+DEBUG
 static
 void
 VerifyStyleTree
@@ -2396,7 +2396,7 @@ GetVerifyReflowEnable
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 static
 bool
 firstTime
@@ -4755,7 +4755,7 @@ mStyleSet
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 PRInt32
 numBefore
 =
@@ -7019,7 +7019,7 @@ true
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 VERIFY_REFLOW_NOISY_RC
@@ -8405,7 +8405,7 @@ nsnull
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 aFrame
@@ -26237,7 +26237,7 @@ aEventStatus
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 ShowEventTargetDebug
 (
 )
@@ -26441,7 +26441,7 @@ result
 endif
 #
 ifdef
-NS_DEBUG
+DEBUG
 void
 PresShell
 :
@@ -26654,7 +26654,7 @@ aEventStatus
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 ShowEventTargetDebug
 (
 )
@@ -33622,7 +33622,7 @@ aFlushType
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 #
 include
 "

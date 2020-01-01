@@ -3356,7 +3356,7 @@ return
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 void
 nsTableCellMap
 :
@@ -12703,7 +12703,7 @@ colX
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 void
 nsCellMap
 :

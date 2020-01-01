@@ -4571,6 +4571,12 @@ GetVisualOverflowRectRelativeToSelf
 )
 const
 ;
+nsRect
+GetPreEffectsVisualOverflowRect
+(
+)
+const
+;
 bool
 FinishAndStoreOverflow
 (
@@ -6411,7 +6417,7 @@ const
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 public
 :
 NS_IMETHOD

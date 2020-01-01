@@ -60,7 +60,7 @@ h
 "
 #
 ifdef
-NS_DEBUG
+DEBUG
 static
 bool
 gNoisy
@@ -223,7 +223,7 @@ void
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 gNoisy
@@ -361,7 +361,7 @@ mNewNode
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 gNoisy
@@ -632,7 +632,7 @@ void
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 gNoisy
@@ -736,7 +736,7 @@ void
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 gNoisy

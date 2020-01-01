@@ -529,7 +529,7 @@ allowed
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 nsFrame
 :
 :

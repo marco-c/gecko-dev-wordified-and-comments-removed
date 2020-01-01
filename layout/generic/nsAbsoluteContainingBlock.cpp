@@ -100,7 +100,7 @@ name
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 nsFrame
 :
 :
@@ -155,7 +155,7 @@ list
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 nsFrame
 :
 :
@@ -263,7 +263,7 @@ parent
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 nsFrame
 :
 :

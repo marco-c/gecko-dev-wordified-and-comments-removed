@@ -142,7 +142,7 @@ h
 "
 #
 ifdef
-NS_DEBUG
+DEBUG
 #
 undef
 NOISY_VERTICAL_ALIGN

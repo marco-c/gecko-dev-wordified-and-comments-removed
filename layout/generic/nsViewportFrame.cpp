@@ -168,7 +168,7 @@ aChildList
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 nsFrame
 :
 :

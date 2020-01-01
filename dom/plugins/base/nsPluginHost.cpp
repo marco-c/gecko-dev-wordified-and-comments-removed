@@ -7341,7 +7341,7 @@ get
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 aMimeType

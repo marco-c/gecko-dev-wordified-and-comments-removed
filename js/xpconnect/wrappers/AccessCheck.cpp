@@ -2325,7 +2325,7 @@ return
 false
 ;
 }
-MOZ_ASSERT
+NS_ASSERTION
 (
 !
 AccessCheck
@@ -2334,6 +2334,16 @@ AccessCheck
 callerIsChrome
 (
 )
+"
+About
+to
+do
+a
+meaningless
+security
+check
+!
+"
 )
 ;
 bool

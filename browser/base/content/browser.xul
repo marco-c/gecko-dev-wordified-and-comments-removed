@@ -9843,13 +9843,13 @@ developer
 -
 toolbar
 -
-responsiveui
+styleeditor
 "
 label
 =
 "
 &
-responsiveDesignTool
+styleeditor
 .
 label
 ;
@@ -9871,7 +9871,7 @@ command
 "
 Tools
 :
-ResponsiveUI
+StyleEditor
 "
 /
 >
@@ -9890,9 +9890,9 @@ label
 =
 "
 &
-scriptsButton
+debuggerMenu
 .
-label
+label2
 ;
 "
 class

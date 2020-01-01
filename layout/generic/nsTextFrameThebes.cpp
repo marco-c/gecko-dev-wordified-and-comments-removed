@@ -430,7 +430,7 @@ h
 "
 #
 ifdef
-NS_DEBUG
+DEBUG
 #
 undef
 NOISY_BLINK

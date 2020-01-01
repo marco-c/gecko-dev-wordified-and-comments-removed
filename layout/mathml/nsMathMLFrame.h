@@ -1216,7 +1216,7 @@ protected
 if
 defined
 (
-NS_DEBUG
+DEBUG
 )
 &
 &

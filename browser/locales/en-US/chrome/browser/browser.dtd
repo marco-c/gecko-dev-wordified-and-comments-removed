@@ -2407,16 +2407,6 @@ Inspector
 <
 !
 ENTITY
-scriptsButton
-.
-label
-"
-Scripts
-"
->
-<
-!
-ENTITY
 inspectorHTMLCopyInner
 .
 label

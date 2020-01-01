@@ -472,7 +472,7 @@ aConstructor
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 !
@@ -577,7 +577,7 @@ Cleanup
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 gDumpContent

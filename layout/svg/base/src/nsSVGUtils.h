@@ -1178,6 +1178,15 @@ aFrame
 )
 ;
 static
+gfxMatrix
+GetUserToCanvasTM
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
 void
 NotifyChildrenOfSVGChange
 (

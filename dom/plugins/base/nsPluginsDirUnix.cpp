@@ -1522,7 +1522,7 @@ outLibrary
 endif
 #
 ifdef
-NS_DEBUG
+DEBUG
 printf
 (
 "

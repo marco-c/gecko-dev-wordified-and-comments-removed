@@ -1806,7 +1806,7 @@ mCaretEnabled
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 nsStyleSet
 *
 CloneStyleSet

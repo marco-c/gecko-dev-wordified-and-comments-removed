@@ -290,7 +290,7 @@ CreateAccessible
 endif
 #
 ifdef
-NS_DEBUG
+DEBUG
 NS_IMETHOD
 GetFrameName
 (
