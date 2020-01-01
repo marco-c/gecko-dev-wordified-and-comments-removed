@@ -34,6 +34,17 @@ mozilla
 .
 gecko
 .
+favicons
+.
+Favicons
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 util
 .
 ThreadUtils
