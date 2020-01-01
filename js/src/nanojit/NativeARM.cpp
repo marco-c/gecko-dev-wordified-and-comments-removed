@@ -2662,7 +2662,7 @@ ins
 >
 isop
 (
-LIR_call
+LIR_icall
 )
 )
 ;
