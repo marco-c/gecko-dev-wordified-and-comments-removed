@@ -459,8 +459,9 @@ rdf
 )
 )
 ;
-check_test_1
+do_execute_soon
 (
+check_test_1
 )
 ;
 }

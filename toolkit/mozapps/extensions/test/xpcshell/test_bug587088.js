@@ -664,12 +664,9 @@ uninstall
 (
 )
 ;
-restartManager
+do_execute_soon
 (
-)
-;
 run_test_2
-(
 )
 ;
 }
@@ -696,6 +693,10 @@ run_test_2
 (
 )
 {
+restartManager
+(
+)
+;
 installAllFiles
 (
 [

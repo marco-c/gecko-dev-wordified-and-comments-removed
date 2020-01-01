@@ -929,12 +929,9 @@ function
 (
 )
 {
-shutdownManager
+do_execute_soon
 (
-)
-;
 perform_migration
-(
 )
 ;
 }
@@ -979,6 +976,10 @@ perform_migration
 (
 )
 {
+shutdownManager
+(
+)
+;
 Services
 .
 prefs

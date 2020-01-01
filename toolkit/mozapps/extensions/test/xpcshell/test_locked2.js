@@ -512,6 +512,7 @@ test_locked2_6
 )
 ]
 function
+locked_installed
 (
 )
 {

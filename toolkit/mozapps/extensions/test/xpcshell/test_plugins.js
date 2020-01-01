@@ -901,8 +901,9 @@ in
 "
 )
 ;
-run_test_4
+do_execute_soon
 (
+run_test_4
 )
 ;
 }

@@ -149,12 +149,9 @@ userDisabled
 =
 true
 ;
-restartManager
+do_execute_soon
 (
-)
-;
 run_test_1
-(
 )
 ;
 }
@@ -166,6 +163,10 @@ run_test_1
 (
 )
 {
+restartManager
+(
+)
+;
 AddonManager
 .
 getAddonByID

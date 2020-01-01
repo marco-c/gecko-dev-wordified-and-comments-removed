@@ -1006,8 +1006,9 @@ PLUGINS
 disabled
 )
 ;
-run_test_3
+do_execute_soon
 (
+run_test_3
 )
 ;
 }

@@ -104,7 +104,15 @@ onInstallStarted
 onInstallEnded
 "
 ]
+function
+(
+)
+{
+do_execute_soon
+(
 check_test
+)
+}
 )
 ;
 install
@@ -134,6 +142,8 @@ mozilla
 .
 org
 "
+do_exception_wrap
+(
 function
 (
 addon
@@ -440,6 +450,7 @@ do_test_finished
 )
 ;
 }
+)
 )
 ;
 }

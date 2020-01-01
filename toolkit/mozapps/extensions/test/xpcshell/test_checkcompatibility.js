@@ -285,6 +285,11 @@ run_test
 {
 do_test_pending
 (
+"
+checkcompatibility
+.
+js
+"
 )
 ;
 createAppInfo
@@ -553,8 +558,9 @@ a4
 a5
 )
 ;
-run_test_2
+do_execute_soon
 (
+run_test_2
 )
 ;
 }
@@ -676,8 +682,9 @@ a4
 a5
 )
 ;
-run_test_3
+do_execute_soon
 (
+run_test_3
 )
 ;
 }
@@ -788,8 +795,9 @@ a4
 a5
 )
 ;
-run_test_4
+do_execute_soon
 (
+run_test_4
 )
 ;
 }
@@ -913,6 +921,11 @@ a5
 ;
 do_test_finished
 (
+"
+checkcompatibility
+.
+js
+"
 )
 ;
 }
