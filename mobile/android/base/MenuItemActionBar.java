@@ -306,4 +306,14 @@ checked
 )
 {
 }
+Override
+public
+void
+setSubMenuIndicator
+(
+boolean
+hasSubMenu
+)
+{
+}
 }
