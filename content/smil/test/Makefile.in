@@ -580,6 +580,10 @@ test_smilGetSimpleDuration
 .
 xhtml
 \
+test_smilHyperlinking
+.
+xhtml
+\
 test_smilKeySplines
 .
 xhtml
