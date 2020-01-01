@@ -5274,6 +5274,9 @@ const
 bool
 computeThis
 (
+JSContext
+*
+cx
 )
 const
 ;
