@@ -1,9 +1,3 @@
-gTestsuite
-=
-'
-e4x
-'
-;
 function
 reportFailure
 (

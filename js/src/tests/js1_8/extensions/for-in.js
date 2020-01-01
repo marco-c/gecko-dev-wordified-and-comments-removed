@@ -1,15 +1,4 @@
 var
-gTestfile
-=
-'
-for
--
-in
-.
-js
-'
-;
-var
 summary
 =
 "

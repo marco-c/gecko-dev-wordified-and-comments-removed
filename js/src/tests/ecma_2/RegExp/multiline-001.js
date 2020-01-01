@@ -1,13 +1,3 @@
-gTestfile
-=
-'
-multiline
--
-001
-.
-js
-'
-;
 var
 SECTION
 =

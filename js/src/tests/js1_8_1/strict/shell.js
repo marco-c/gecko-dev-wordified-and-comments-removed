@@ -1,10 +1,3 @@
-var
-gTestsubsuite
-=
-'
-strict
-'
-;
 function
 testLenientAndStrict
 (

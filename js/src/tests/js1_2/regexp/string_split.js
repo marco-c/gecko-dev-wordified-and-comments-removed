@@ -1,11 +1,3 @@
-gTestfile
-=
-'
-string_split
-.
-js
-'
-;
 var
 SECTION
 =

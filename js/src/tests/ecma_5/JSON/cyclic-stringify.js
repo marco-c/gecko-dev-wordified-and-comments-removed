@@ -1,15 +1,4 @@
 var
-gTestfile
-=
-'
-cyclic
--
-stringify
-.
-js
-'
-;
-var
 BUGNUMBER
 =
 578273

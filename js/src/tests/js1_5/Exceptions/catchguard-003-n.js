@@ -1,16 +1,3 @@
-var
-gTestfile
-=
-'
-catchguard
--
-003
--
-n
-.
-js
-'
-;
 DESCRIPTION
 =
 "

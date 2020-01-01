@@ -1,11 +1,3 @@
-gTestfile
-=
-'
-regress
--
-533876
-'
-;
 var
 savedEval
 =

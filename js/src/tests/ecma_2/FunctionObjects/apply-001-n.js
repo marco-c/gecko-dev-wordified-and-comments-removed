@@ -1,15 +1,3 @@
-gTestfile
-=
-'
-apply
--
-001
--
-n
-.
-js
-'
-;
 print
 (
 "

@@ -1,17 +1,4 @@
 var
-gTestfile
-=
-'
-fibonacci
--
-matrix
--
-generator
-.
-js
-'
-;
-var
 BUGNUMBER
 =
 "

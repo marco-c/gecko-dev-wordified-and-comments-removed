@@ -1,11 +1,3 @@
-gTestfile
-=
-'
-hexadecimal
-.
-js
-'
-;
 var
 SECTION
 =

@@ -1,17 +1,3 @@
-gTestfile
-=
-'
-11
-.
-1
-.
-4
--
-04
-.
-js
-'
-;
 var
 summary
 =

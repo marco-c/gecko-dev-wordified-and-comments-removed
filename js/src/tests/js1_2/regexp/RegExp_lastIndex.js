@@ -1,11 +1,3 @@
-gTestfile
-=
-'
-RegExp_lastIndex
-.
-js
-'
-;
 var
 SECTION
 =

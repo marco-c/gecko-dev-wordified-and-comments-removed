@@ -1,12 +1,4 @@
 var
-gTestfile
-=
-'
-lamport
-.
-js
-'
-var
 summary
 =
 "

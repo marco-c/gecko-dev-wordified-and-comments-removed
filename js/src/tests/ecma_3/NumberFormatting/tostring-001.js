@@ -1,14 +1,3 @@
-var
-gTestfile
-=
-'
-tostring
--
-001
-.
-js
-'
-;
 test
 (
 )

@@ -1,17 +1,3 @@
-gTestfile
-=
-'
-13
-.
-4
-.
-4
-.
-10
-.
-js
-'
-;
 var
 nTest
 =

@@ -1,17 +1,4 @@
 var
-gTestfile
-=
-'
-regress
--
-352870
--
-02
-.
-js
-'
-;
-var
 BUGNUMBER
 =
 352870
@@ -26,7 +13,7 @@ assert
 for
 crazy
 huge
-gTestcases
+testcases
 '
 ;
 var

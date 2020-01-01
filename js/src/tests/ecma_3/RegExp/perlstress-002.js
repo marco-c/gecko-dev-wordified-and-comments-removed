@@ -1,15 +1,4 @@
 var
-gTestfile
-=
-'
-perlstress
--
-002
-.
-js
-'
-;
-var
 i
 =
 0

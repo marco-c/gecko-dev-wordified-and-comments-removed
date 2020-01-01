@@ -1,11 +1,3 @@
-gTestfile
-=
-'
-proto_4
-.
-js
-'
-;
 var
 SECTION
 =

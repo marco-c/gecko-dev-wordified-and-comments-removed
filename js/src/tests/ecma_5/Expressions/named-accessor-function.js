@@ -1,17 +1,4 @@
 var
-gTestfile
-=
-'
-named
--
-accessor
--
-function
-.
-js
-'
-;
-var
 BUGNUMBER
 =
 999999

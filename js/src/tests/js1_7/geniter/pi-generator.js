@@ -1,15 +1,4 @@
 var
-gTestfile
-=
-'
-pi
--
-generator
-.
-js
-'
-;
-var
 BUGNUMBER
 =
 "

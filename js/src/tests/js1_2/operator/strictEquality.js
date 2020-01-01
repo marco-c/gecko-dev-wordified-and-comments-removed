@@ -1,11 +1,3 @@
-gTestfile
-=
-'
-strictEquality
-.
-js
-'
-;
 var
 SECTION
 =

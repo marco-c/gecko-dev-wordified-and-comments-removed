@@ -1,17 +1,4 @@
 var
-gTestfile
-=
-'
-regress
--
-222029
--
-002
-.
-js
-'
-;
-var
 UBound
 =
 0

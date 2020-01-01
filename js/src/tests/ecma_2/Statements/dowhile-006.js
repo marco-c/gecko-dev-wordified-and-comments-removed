@@ -1,13 +1,3 @@
-gTestfile
-=
-'
-dowhile
--
-006
-.
-js
-'
-;
 var
 SECTION
 =

@@ -1,15 +1,4 @@
 var
-gTestfile
-=
-'
-toLocaleString
--
-01
-.
-js
-'
-;
-var
 BUGNUMBER
 =
 562446

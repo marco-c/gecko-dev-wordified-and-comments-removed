@@ -1,9 +1,3 @@
-gTestsubsuite
-=
-'
-Date
-'
-;
 var
 msPerDay
 =

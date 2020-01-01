@@ -1,15 +1,4 @@
 var
-gTestfile
-=
-'
-scope
--
-001
-.
-js
-'
-;
-var
 BUGNUMBER
 =
 '

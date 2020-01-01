@@ -1,11 +1,3 @@
-gTestfile
-=
-'
-vertical_bar
-.
-js
-'
-;
 var
 SECTION
 =

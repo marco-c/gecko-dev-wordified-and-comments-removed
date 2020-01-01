@@ -1,13 +1,4 @@
 var
-gTestfile
-=
-'
-expclo
-.
-js
-'
-;
-var
 summary
 =
 "

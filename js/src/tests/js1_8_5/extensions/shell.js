@@ -1,9 +1,3 @@
-gTestsubsuite
-=
-'
-extensions
-'
-;
 var
 workerDir
 =

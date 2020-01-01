@@ -1,9 +1,3 @@
-gTestsuite
-=
-'
-ecma
-'
-;
 var
 msPerDay
 =

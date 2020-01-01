@@ -1,15 +1,4 @@
 var
-gTestfile
-=
-'
-regress
--
-167328
-.
-js
-'
-;
-var
 BUGNUMBER
 =
 167328
@@ -56,7 +45,7 @@ expect
 '
 TypeError
 :
-53
+52
 '
 ;
 try

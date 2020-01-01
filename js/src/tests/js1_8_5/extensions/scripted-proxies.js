@@ -1,13 +1,4 @@
 var
-gTestfile
-=
-'
-proxies
-.
-js
-'
-;
-var
 BUGNUMBER
 =
 546590

@@ -1,15 +1,4 @@
 var
-gTestfile
-=
-'
-regress
--
-165353
-.
-js
-'
-;
-var
 i
 =
 0

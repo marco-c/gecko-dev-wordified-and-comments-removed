@@ -1,13 +1,3 @@
-gTestfile
-=
-'
-regress
--
-465063
-.
-js
-'
-;
 var
 summary
 =

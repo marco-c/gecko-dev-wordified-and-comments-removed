@@ -1,17 +1,3 @@
-gTestfile
-=
-'
-15
-.
-6
-.
-4
-.
-3
-.
-js
-'
-;
 new
 TestCase
 (

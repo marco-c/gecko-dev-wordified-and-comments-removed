@@ -1,11 +1,3 @@
-gTestfile
-=
-'
-RegExp_rightContext
-.
-js
-'
-;
 var
 SECTION
 =

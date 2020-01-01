@@ -1,13 +1,3 @@
-gTestfile
-=
-'
-lexical
--
-029
-.
-js
-'
-;
 var
 SECTION
 =

@@ -1,13 +1,3 @@
-gTestfile
-=
-'
-nesting
--
-1
-.
-js
-'
-;
 var
 SECTION
 =

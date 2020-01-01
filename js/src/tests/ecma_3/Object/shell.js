@@ -1,9 +1,3 @@
-gTestsubsuite
-=
-'
-Object
-'
-;
 var
 cnNoObject
 =

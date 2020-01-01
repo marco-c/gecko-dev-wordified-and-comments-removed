@@ -1,11 +1,3 @@
-gTestfile
-=
-'
-string_search
-.
-js
-'
-;
 var
 SECTION
 =

@@ -1,14 +1,3 @@
-var
-gTestfile
-=
-'
-regress
--
-28686
-.
-js
-'
-;
 test
 (
 )

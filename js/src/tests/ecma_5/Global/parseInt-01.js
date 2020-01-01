@@ -1,15 +1,4 @@
 var
-gTestfile
-=
-'
-parseInt
--
-01
-.
-js
-'
-;
-var
 BUGNUMBER
 =
 577536

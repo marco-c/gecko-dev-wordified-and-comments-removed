@@ -1,13 +1,3 @@
-gTestfile
-=
-'
-regress
--
-277935
-.
-js
-'
-;
 START
 (
 '

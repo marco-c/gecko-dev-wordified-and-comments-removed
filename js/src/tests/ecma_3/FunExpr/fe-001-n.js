@@ -1,16 +1,3 @@
-var
-gTestfile
-=
-'
-fe
--
-001
--
-n
-.
-js
-'
-;
 DESCRIPTION
 =
 "

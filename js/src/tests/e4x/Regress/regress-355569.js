@@ -1,13 +1,3 @@
-gTestfile
-=
-'
-regress
--
-355569
-.
-js
-'
-;
 var
 bug
 =

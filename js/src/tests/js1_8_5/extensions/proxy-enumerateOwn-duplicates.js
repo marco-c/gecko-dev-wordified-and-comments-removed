@@ -1,17 +1,4 @@
 var
-gTestfile
-=
-'
-proxy
--
-enumerateOwn
--
-duplicates
-.
-js
-'
-;
-var
 BUGNUMBER
 =
 580200

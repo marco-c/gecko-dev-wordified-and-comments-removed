@@ -1,15 +1,3 @@
-gTestfile
-=
-'
-decompile
--
-xml
--
-escapes
-.
-js
-'
-;
 var
 BUGNUMBER
 =

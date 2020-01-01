@@ -1,17 +1,3 @@
-gTestfile
-=
-'
-7
-.
-2
--
-4
--
-n
-.
-js
-'
-;
 var
 SECTION
 =

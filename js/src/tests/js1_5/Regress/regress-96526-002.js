@@ -1,16 +1,3 @@
-var
-gTestfile
-=
-'
-regress
--
-96526
--
-002
-.
-js
-'
-;
 printBugNumber
 (
 96526

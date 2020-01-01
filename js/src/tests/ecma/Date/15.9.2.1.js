@@ -1,17 +1,3 @@
-gTestfile
-=
-'
-15
-.
-9
-.
-2
-.
-1
-.
-js
-'
-;
 var
 VERSION
 =

@@ -1,13 +1,4 @@
 var
-gTestfile
-=
-'
-peterson
-.
-js
-'
-;
-var
 summary
 =
 "

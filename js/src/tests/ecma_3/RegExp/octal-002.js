@@ -1,15 +1,4 @@
 var
-gTestfile
-=
-'
-octal
--
-002
-.
-js
-'
-;
-var
 i
 =
 0

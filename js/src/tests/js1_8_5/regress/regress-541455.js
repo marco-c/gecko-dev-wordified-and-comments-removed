@@ -1,11 +1,3 @@
-gTestfile
-=
-'
-regress
--
-541455
-'
-;
 function
 f
 (

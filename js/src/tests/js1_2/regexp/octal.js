@@ -1,11 +1,3 @@
-gTestfile
-=
-'
-octal
-.
-js
-'
-;
 var
 SECTION
 =

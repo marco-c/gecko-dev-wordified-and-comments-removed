@@ -1,6 +1,0 @@
-gTestsuite
-=
-'
-js1_1
-'
-;

@@ -1,15 +1,3 @@
-gTestfile
-=
-'
-regexparg
--
-2
--
-n
-.
-js
-'
-;
 var
 SECTION
 =

@@ -1,15 +1,4 @@
 var
-gTestfile
-=
-'
-class
--
-002
-.
-js
-'
-;
-var
 i
 =
 0

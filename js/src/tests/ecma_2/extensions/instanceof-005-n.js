@@ -1,15 +1,3 @@
-gTestfile
-=
-'
-instanceof
--
-005
--
-n
-.
-js
-'
-;
 var
 SECTION
 =

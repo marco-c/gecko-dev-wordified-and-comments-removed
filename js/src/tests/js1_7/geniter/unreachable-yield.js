@@ -1,15 +1,4 @@
 var
-gTestfile
-=
-'
-unreachable
--
-yield
-.
-js
-'
-;
-var
 BUGNUMBER
 =
 "

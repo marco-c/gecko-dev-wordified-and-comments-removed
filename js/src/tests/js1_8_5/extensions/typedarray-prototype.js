@@ -1,15 +1,4 @@
 var
-gTestfile
-=
-'
-typedarray
--
-prototype
-.
-js
-'
-;
-var
 BUGNUMBER
 =
 565604

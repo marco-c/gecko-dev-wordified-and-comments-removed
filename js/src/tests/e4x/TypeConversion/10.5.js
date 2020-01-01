@@ -1,13 +1,3 @@
-gTestfile
-=
-'
-10
-.
-5
-.
-js
-'
-;
 START
 (
 "

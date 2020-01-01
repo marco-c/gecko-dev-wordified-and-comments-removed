@@ -1,15 +1,4 @@
 var
-gTestfile
-=
-'
-regress
--
-346892
-.
-js
-'
-;
-var
 BUGNUMBER
 =
 346892

@@ -1,14 +1,3 @@
-var
-gTestfile
-=
-'
-uc
--
-003
-.
-js
-'
-;
 test
 (
 )

@@ -1,15 +1,4 @@
 var
-gTestfile
-=
-'
-simple
--
-tree
-.
-js
-'
-;
-var
 summary
 =
 "

@@ -1,15 +1,4 @@
 var
-gTestfile
-=
-'
-new
--
-parenthesization
-.
-js
-'
-;
-var
 BUGNUMBER
 =
 521456

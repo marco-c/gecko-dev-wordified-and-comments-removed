@@ -1,14 +1,3 @@
-var
-gTestfile
-=
-'
-strict
--
-warning
-.
-js
-'
-;
 if
 (
 options

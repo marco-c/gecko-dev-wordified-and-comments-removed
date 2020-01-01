@@ -1,14 +1,3 @@
-var
-gTestfile
-=
-'
-catchguard
--
-001
-.
-js
-'
-;
 test
 (
 )

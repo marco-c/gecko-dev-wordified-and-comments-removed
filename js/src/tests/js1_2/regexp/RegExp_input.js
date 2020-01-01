@@ -1,11 +1,3 @@
-gTestfile
-=
-'
-RegExp_input
-.
-js
-'
-;
 var
 SECTION
 =

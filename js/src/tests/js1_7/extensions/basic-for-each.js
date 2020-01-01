@@ -1,17 +1,4 @@
 var
-gTestfile
-=
-'
-basic
--
-for
--
-each
-.
-js
-'
-;
-var
 BUGNUMBER
 =
 "

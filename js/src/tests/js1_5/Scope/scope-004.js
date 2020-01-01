@@ -1,15 +1,4 @@
 var
-gTestfile
-=
-'
-scope
--
-004
-.
-js
-'
-;
-var
 UBound
 =
 0

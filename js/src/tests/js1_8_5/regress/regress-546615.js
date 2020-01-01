@@ -1,11 +1,3 @@
-gTestfile
-=
-'
-regress
--
-546615
-'
-;
 try
 {
 <

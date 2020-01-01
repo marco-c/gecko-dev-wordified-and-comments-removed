@@ -1,13 +1,4 @@
 var
-gTestfile
-=
-'
-dekker
-.
-js
-'
-;
-var
 summary
 =
 "

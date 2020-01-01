@@ -1,13 +1,3 @@
-gTestfile
-=
-'
-regress
--
-7224
-.
-js
-'
-;
 var
 SECTION
 =

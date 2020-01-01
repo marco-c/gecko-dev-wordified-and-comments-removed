@@ -1,11 +1,3 @@
-gTestfile
-=
-'
-regress
--
-524264
-'
-;
 uneval
 (
 function
