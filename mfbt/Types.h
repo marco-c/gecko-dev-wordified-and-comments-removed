@@ -7,6 +7,15 @@ mozilla_Types_h_
 #
 include
 "
+mozilla
+/
+StdInt
+.
+h
+"
+#
+include
+"
 jstypes
 .
 h

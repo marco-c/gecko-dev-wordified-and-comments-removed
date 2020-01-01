@@ -1540,6 +1540,10 @@ RefPtr
 .
 h
 \
+StdInt
+.
+h
+\
 Types
 .
 h
