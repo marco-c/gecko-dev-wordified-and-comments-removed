@@ -88,6 +88,8 @@ entryCount
 ;
 }
 delete
+[
+]
 mSortedHashTable
 ;
 mPresShell
