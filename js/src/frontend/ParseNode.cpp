@@ -1607,6 +1607,8 @@ function
 (
 )
 pc
+Directives
+(
 opn
 -
 >
@@ -1614,6 +1616,7 @@ pn_funbox
 -
 >
 strict
+)
 )
 )
 ;
