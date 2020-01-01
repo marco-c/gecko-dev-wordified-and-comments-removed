@@ -412,7 +412,7 @@ char
 challenge
 const
 nsHttpAuthIdentity
-&
+*
 ident
 nsISupports
 *
@@ -469,7 +469,7 @@ char
 challenge
 const
 nsHttpAuthIdentity
-&
+*
 ident
 nsISupports
 *
@@ -571,7 +571,7 @@ char
 challenge
 const
 nsHttpAuthIdentity
-&
+*
 ident
 nsISupports
 *
@@ -713,7 +713,7 @@ char
 challenge
 const
 nsHttpAuthIdentity
-&
+*
 ident
 nsISupports
 *
