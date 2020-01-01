@@ -69,6 +69,18 @@ os
 environ
 )
         
+os
+.
+environ
+.
+pop
+(
+'
+MOZCONFIG
+'
+None
+)
+        
 self
 .
 _temp_dirs
