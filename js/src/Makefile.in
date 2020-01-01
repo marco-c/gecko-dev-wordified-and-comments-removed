@@ -1074,10 +1074,6 @@ jsbit
 .
 h
 \
-jsbool
-.
-h
-\
 jsclist
 .
 h

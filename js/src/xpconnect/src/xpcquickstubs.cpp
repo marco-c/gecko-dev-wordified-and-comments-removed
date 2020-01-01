@@ -8,13 +8,6 @@ h
 #
 include
 "
-jsstr
-.
-h
-"
-#
-include
-"
 jscntxt
 .
 h
