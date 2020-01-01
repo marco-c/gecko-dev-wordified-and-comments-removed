@@ -2958,6 +2958,9 @@ UnsetExceptionHandler
 (
 )
 {
+delete
+gExceptionHandler
+;
 if
 (
 crashReporterAPIData_Hash
@@ -3019,9 +3022,6 @@ gExceptionHandler
 )
 return
 NS_ERROR_NOT_INITIALIZED
-;
-delete
-gExceptionHandler
 ;
 gExceptionHandler
 =
