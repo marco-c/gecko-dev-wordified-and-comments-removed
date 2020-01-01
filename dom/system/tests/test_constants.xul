@@ -403,6 +403,7 @@ worker
 onerror
 =
 function
+onerror
 (
 error
 )
@@ -429,6 +430,7 @@ worker
 onmessage
 =
 function
+onmessage
 (
 msg
 )
@@ -447,7 +449,6 @@ case
 is
 "
 :
-return
 SimpleTest
 .
 is
@@ -469,12 +470,13 @@ data
 description
 )
 ;
+return
+;
 case
 "
 isnot
 "
 :
-return
 SimpleTest
 .
 isnot
@@ -496,12 +498,13 @@ data
 description
 )
 ;
+return
+;
 case
 "
 ok
 "
 :
-return
 SimpleTest
 .
 ok
@@ -517,6 +520,8 @@ data
 .
 description
 )
+;
+return
 ;
 case
 "
