@@ -237,7 +237,7 @@ global_enumerate
 JSContext
 *
 cx
-JSObject
+JSHandleObject
 *
 obj
 )
@@ -267,12 +267,11 @@ global_resolve
 JSContext
 *
 cx
-JSObject
-*
+JSHandleObject
 obj
-jsval
+JSHandleId
 id
-uintN
+unsigned
 flags
 JSObject
 *
