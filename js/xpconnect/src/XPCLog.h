@@ -389,7 +389,6 @@ if
 (
 strId
 )
-\
 {
 \
 NS_ConvertUTF16toUTF8
