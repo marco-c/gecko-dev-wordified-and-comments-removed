@@ -51,7 +51,7 @@ title
 >
 Testcase
 for
-clipPath
+mask
 that
 can
 '
@@ -127,7 +127,7 @@ fill
 "
 lime
 "
-clipPath
+mask
 =
 "
 url

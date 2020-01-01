@@ -112,12 +112,6 @@ NotifyEvictedFromRenderingObserverList
 (
 )
 ;
-nsIFrame
-*
-GetReferencedFrame
-(
-)
-;
 PRBool
 IsInObserverList
 (
@@ -128,6 +122,12 @@ return
 mInObserverList
 ;
 }
+nsIFrame
+*
+GetReferencedFrame
+(
+)
+;
 nsIFrame
 *
 GetReferencedFrame

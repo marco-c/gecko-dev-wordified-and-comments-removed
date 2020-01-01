@@ -482,8 +482,10 @@ GetReferencedFrame
 if
 (
 frame
-&
-&
+)
+{
+if
+(
 frame
 -
 >
@@ -507,6 +509,7 @@ aOK
 =
 PR_FALSE
 ;
+}
 }
 return
 nsnull
