@@ -9099,6 +9099,7 @@ sizeof
 void
 *
 )
+NULL
 )
 ;
 return
