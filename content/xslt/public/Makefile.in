@@ -438,10 +438,6 @@ nsIDocumentTransformer
 .
 h
 \
-txDouble
-.
-h
-\
 (
 NULL
 )
