@@ -23,6 +23,7 @@ should
 not
 be
 included
+"
 #
 endif
 class
