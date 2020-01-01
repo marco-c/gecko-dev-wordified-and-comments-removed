@@ -86,9 +86,9 @@ mk
 BROWSER_APP_FILES
 =
 \
-default
+default16
 .
-xpm
+png
 \
 mozicon128
 .
