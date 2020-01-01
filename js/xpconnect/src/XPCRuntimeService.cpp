@@ -109,6 +109,12 @@ DONT_ENUM_QUERY_INTERFACE
 nsIXPCScriptable
 :
 :
+IS_GLOBAL_OBJECT
+|
+\
+nsIXPCScriptable
+:
+:
 DONT_REFLECT_INTERFACE_NAMES
 #
 include
