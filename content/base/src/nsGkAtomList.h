@@ -4768,6 +4768,13 @@ parsetype
 )
 GK_ATOM
 (
+pattern
+"
+pattern
+"
+)
+GK_ATOM
+(
 patternSeparator
 "
 pattern
@@ -8289,13 +8296,6 @@ GK_ATOM
 pathLength
 "
 pathLength
-"
-)
-GK_ATOM
-(
-pattern
-"
-pattern
 "
 )
 GK_ATOM
