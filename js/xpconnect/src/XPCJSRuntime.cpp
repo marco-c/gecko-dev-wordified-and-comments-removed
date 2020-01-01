@@ -3471,7 +3471,12 @@ XPCCallContext
 *
 ccxp
 =
-thread
+XPCJSRuntime
+:
+:
+Get
+(
+)
 -
 >
 GetCallContext
@@ -3905,7 +3910,12 @@ XPCCallContext
 *
 ccxp
 =
-thread
+XPCJSRuntime
+:
+:
+Get
+(
+)
 -
 >
 GetCallContext
