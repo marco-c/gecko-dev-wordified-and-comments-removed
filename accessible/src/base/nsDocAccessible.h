@@ -364,10 +364,8 @@ PRUint32
 aEvent
 )
 ;
-already_AddRefed
-<
-nsIAccessNode
->
+nsAccessNode
+*
 GetCachedAccessNode
 (
 void
@@ -381,7 +379,7 @@ CacheAccessNode
 void
 *
 aUniqueID
-nsIAccessNode
+nsAccessNode
 *
 aAccessNode
 )
