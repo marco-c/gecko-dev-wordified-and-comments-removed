@@ -3355,13 +3355,13 @@ gfxIntSize
 ioSurface
 -
 >
-GetWidth
+GetDevicePixelWidth
 (
 )
 ioSurface
 -
 >
-GetHeight
+GetDevicePixelHeight
 (
 )
 )

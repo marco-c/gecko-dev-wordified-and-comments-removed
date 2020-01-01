@@ -194,6 +194,16 @@ mContentsScaleFactor
 ;
 }
 size_t
+GetDevicePixelWidth
+(
+)
+;
+size_t
+GetDevicePixelHeight
+(
+)
+;
+size_t
 GetBytesPerRow
 (
 )
