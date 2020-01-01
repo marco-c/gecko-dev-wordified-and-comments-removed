@@ -1123,10 +1123,6 @@ StorageItem
 )
 DOMCI_CLASS
 (
-StorageEvent
-)
-DOMCI_CLASS
-(
 DOMParser
 )
 DOMCI_CLASS
