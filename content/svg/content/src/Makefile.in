@@ -941,6 +941,10 @@ nsSVGFeatures
 .
 h
 \
+nsSVGIntegerPair
+.
+h
+\
 nsSVGLength2
 .
 h
