@@ -72,6 +72,13 @@ GetFormat
 const
 ;
 virtual
+bool
+IsValid
+(
+)
+const
+;
+virtual
 TemporaryRef
 <
 DataSourceSurface
@@ -140,6 +147,12 @@ RefPtr
 ID2D1Bitmap
 >
 mBitmap
+;
+RefPtr
+<
+ID3D10Device
+>
+mDevice
 ;
 SurfaceFormat
 mFormat
