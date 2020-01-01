@@ -45,6 +45,10 @@ MOCHITEST_FILES
 :
 =
 \
+test_createTBody
+.
+html
+\
 test_insertRow
 -
 method

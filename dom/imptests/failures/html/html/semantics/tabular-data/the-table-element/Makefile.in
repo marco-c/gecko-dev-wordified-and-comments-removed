@@ -45,6 +45,12 @@ MOCHITEST_FILES
 :
 =
 \
+test_createTBody
+.
+html
+.
+json
+\
 test_table
 -
 insertRow
