@@ -1848,6 +1848,15 @@ control
 "
 sanitizeDurationChoice
 "
+accesskey
+=
+"
+&
+clearDuration
+.
+accesskey
+;
+"
 id
 =
 "
