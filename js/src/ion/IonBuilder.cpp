@@ -8911,14 +8911,6 @@ add
 load
 )
 ;
-load
--
->
-setTypeSet
-(
-types
-)
-;
 if
 (
 knownType
