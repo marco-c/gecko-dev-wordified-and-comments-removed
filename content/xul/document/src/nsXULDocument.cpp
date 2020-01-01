@@ -3652,6 +3652,9 @@ nsXULDocument
 :
 AttributeWillChange
 (
+nsIDocument
+*
+aDocument
 nsIContent
 *
 aContent
@@ -3660,6 +3663,8 @@ aNameSpaceID
 nsIAtom
 *
 aAttribute
+PRInt32
+aModType
 )
 {
 NS_ABORT_IF_FALSE
@@ -3730,9 +3735,11 @@ nsXMLDocument
 :
 AttributeWillChange
 (
+aDocument
 aContent
 aNameSpaceID
 aAttribute
+aModType
 )
 ;
 }

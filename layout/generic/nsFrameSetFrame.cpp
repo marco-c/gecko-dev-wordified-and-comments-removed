@@ -960,9 +960,9 @@ if
 doc
 )
 {
-doc
--
->
+nsNodeUtils
+:
+:
 AttributeWillChange
 (
 frame
@@ -974,6 +974,10 @@ nsGkAtoms
 :
 :
 frameborder
+nsIDOMMutationEvent
+:
+:
+MODIFICATION
 )
 ;
 }
