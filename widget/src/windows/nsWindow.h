@@ -1499,6 +1499,12 @@ nsWindow
 ptr
 )
 ;
+static
+PRInt32
+GetMonitorCount
+(
+)
+;
 LPARAM
 lParamToScreen
 (
@@ -2543,6 +2549,10 @@ mWindowHook
 ;
 DWORD
 mAssumeWheelIsZoomUntil
+;
+static
+PRBool
+sDropShadowEnabled
 ;
 static
 PRUint32
