@@ -2078,6 +2078,16 @@ Notify
 (
 )
 ;
+if
+(
+!
+mFrameLoader
+)
+{
+return
+NS_BINDING_ABORTED
+;
+}
 }
 nsLoadFlags
 flags
