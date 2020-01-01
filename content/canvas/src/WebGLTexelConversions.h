@@ -5,6 +5,14 @@ WEBGLTEXELCONVERSIONS_H_
 define
 WEBGLTEXELCONVERSIONS_H_
 #
+ifdef
+__SUNPRO_CC
+#
+define
+__restrict
+#
+endif
+#
 include
 "
 WebGLContext
