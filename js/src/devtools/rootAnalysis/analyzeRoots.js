@@ -37,7 +37,7 @@ sourceRoot
 environment
 [
 '
-SOURCE_ROOT
+SOURCE
 '
 ]
 |
