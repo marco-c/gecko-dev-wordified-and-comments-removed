@@ -400,6 +400,15 @@ String
 title
 )
 ;
+}
+else
+{
+mTitle
+=
+"
+"
+;
+}
 Log
 .
 i
@@ -411,7 +420,7 @@ title
 :
 "
 +
-title
+mTitle
 +
 "
 for
@@ -424,7 +433,6 @@ id
 mId
 )
 ;
-}
 final
 HistoryEntry
 he
@@ -445,7 +453,7 @@ he
 .
 mTitle
 =
-title
+mTitle
 ;
 GeckoAppShell
 .
