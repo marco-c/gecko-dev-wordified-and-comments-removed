@@ -110,3 +110,10 @@ p3
 win64
 .
 patch
+patch
+-
+p3
+<
+TypeFromSize
+.
+patch
