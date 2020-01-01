@@ -177,6 +177,13 @@ Contents
 /
 Resources
 /
+APPNAME
+/
+Contents
+/
+_CodeSignature
+/
+CodeResources
 #
 endif
 [
