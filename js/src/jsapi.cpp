@@ -33934,7 +33934,7 @@ cx
 struct
 JSExceptionState
 {
-JSBool
+bool
 throwing
 ;
 jsval

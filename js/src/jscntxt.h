@@ -2611,7 +2611,7 @@ profilingScripts
 bool
 alwaysPreserveCode
 ;
-JSBool
+bool
 hadOutOfMemory
 ;
 mozilla
@@ -4225,7 +4225,7 @@ versionOverride
 bool
 hasVersionOverride
 ;
-JSBool
+bool
 throwing
 ;
 js
