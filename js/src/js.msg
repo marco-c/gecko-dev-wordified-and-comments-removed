@@ -4853,17 +4853,3 @@ clone
 version
 "
 )
-MSG_DEF
-(
-JSMSG_CANT_CLONE_OBJECT
-265
-0
-JSEXN_TYPEERR
-"
-can
-'
-t
-clone
-object
-"
-)

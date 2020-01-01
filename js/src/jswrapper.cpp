@@ -1804,8 +1804,6 @@ flags
 :
 JSWrapper
 (
-CROSS_COMPARTMENT
-|
 flags
 )
 {
