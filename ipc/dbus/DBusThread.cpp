@@ -1818,6 +1818,14 @@ NULL
 NULL
 )
 ;
+dbus_connection_set_wakeup_main_function
+(
+mConnection
+NULL
+NULL
+NULL
+)
+;
 return
 ;
 case
