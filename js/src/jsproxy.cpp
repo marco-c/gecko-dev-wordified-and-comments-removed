@@ -6085,6 +6085,8 @@ JSObject
 proto
 *
 parent
+=
+NULL
 ;
 if
 (
@@ -6141,6 +6143,12 @@ proto
 =
 NULL
 ;
+}
+if
+(
+!
+parent
+)
 parent
 =
 JSVAL_TO_OBJECT
@@ -6156,7 +6164,6 @@ getParent
 (
 )
 ;
-}
 JSObject
 *
 proxy
