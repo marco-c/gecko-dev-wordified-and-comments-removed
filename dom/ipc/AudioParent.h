@@ -91,7 +91,7 @@ RecvResume
 ;
 virtual
 bool
-Recv__delete__
+RecvShutdown
 (
 )
 ;
@@ -132,6 +132,11 @@ mTimer
 ;
 private
 :
+void
+Shutdown
+(
+)
+;
 PRPackedBool
 mIPCOpen
 ;

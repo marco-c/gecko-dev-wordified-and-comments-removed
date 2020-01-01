@@ -464,10 +464,6 @@ PContent
 ;
 parent
 :
-__delete__
-(
-)
-;
 Write
 (
 nsCString
@@ -494,8 +490,16 @@ Resume
 (
 )
 ;
+Shutdown
+(
+)
+;
 child
 :
+__delete__
+(
+)
+;
 SampleOffsetUpdate
 (
 PRInt64
