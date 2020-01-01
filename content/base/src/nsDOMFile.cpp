@@ -3151,7 +3151,7 @@ digestString
 ;
 for
 (
-uint8_t
+size_t
 i
 =
 0
@@ -3216,7 +3216,7 @@ file
 length
 =
 %
-d
+llu
 sha1
 =
 %
@@ -3255,14 +3255,15 @@ file
 of
 length
 %
-d
+llu
+bytes
 .
 The
 file
+"
+"
 has
 a
-"
-"
 sha1
 of
 %
