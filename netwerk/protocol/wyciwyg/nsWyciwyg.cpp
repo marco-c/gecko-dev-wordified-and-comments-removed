@@ -6,6 +6,13 @@ nsWyciwyg
 h
 "
 #
+include
+"
+nscore
+.
+h
+"
+#
 if
 defined
 (

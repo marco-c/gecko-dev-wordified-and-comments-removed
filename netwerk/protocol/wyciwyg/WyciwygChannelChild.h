@@ -309,6 +309,7 @@ WyciwygStopRequestEvent
 ;
 }
 ;
+inline
 bool
 WyciwygChannelChild
 :
