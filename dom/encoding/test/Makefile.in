@@ -111,6 +111,10 @@ test_stringencoding
 .
 html
 \
+test_submit_euckr
+.
+html
+\
 (
 NULL
 )
