@@ -87,6 +87,7 @@ const
 PRUnichar
 *
 aName
+const
 bool
 aIsReadOnly
 )

@@ -184,6 +184,7 @@ nsXBLProtoImplField
 :
 nsXBLProtoImplField
 (
+const
 bool
 aIsReadOnly
 )
