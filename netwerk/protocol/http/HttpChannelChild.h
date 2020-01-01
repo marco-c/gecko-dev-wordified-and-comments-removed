@@ -260,6 +260,14 @@ aMerge
 )
 ;
 NS_IMETHOD
+RedirectTo
+(
+nsIURI
+*
+newURI
+)
+;
+NS_IMETHOD
 SetupFallbackChannel
 (
 const

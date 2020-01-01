@@ -166,6 +166,10 @@ OptionalURIParams
 &
 referrerUri
 const
+OptionalURIParams
+&
+internalRedirectUri
+const
 uint32_t
 &
 loadFlags
@@ -292,6 +296,10 @@ const
 RequestHeaderTuples
 &
 changedHeaders
+const
+OptionalURIParams
+&
+apiRedirectUri
 )
 ;
 virtual

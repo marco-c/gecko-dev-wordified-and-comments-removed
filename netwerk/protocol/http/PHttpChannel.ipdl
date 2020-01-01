@@ -338,6 +338,8 @@ OptionalURIParams
 doc
 OptionalURIParams
 referrer
+OptionalURIParams
+apiRedirectTo
 uint32_t
 loadFlags
 RequestHeaderTuples
@@ -452,6 +454,8 @@ nsresult
 result
 RequestHeaderTuples
 changedHeaders
+OptionalURIParams
+apiRedirectTo
 )
 ;
 /
