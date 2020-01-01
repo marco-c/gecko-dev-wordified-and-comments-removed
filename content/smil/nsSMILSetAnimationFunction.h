@@ -55,13 +55,13 @@ protected
 NS_OVERRIDE
 virtual
 PRBool
-TreatSingleValueAsStatic
+IsToAnimation
 (
 )
 const
 {
 return
-PR_TRUE
+PR_FALSE
 ;
 }
 NS_OVERRIDE
