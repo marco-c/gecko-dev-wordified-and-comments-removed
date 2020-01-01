@@ -311,6 +311,12 @@ function
 }
 )
 ;
+setTimeout
+(
+function
+(
+)
+{
 Browser
 .
 selectedBrowser
@@ -325,6 +331,10 @@ aData
 |
 {
 }
+)
+;
+}
+0
 )
 ;
 }
