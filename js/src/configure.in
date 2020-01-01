@@ -8874,8 +8874,9 @@ n
 "
 XCODEBUILD_VERSION
 "
--
-a
+&
+&
+test
 "
 XCODEBUILD_VERSION
 "
@@ -28248,8 +28249,9 @@ z
 "
 MACOS_DEPLOYMENT_TARGET
 "
--
-o
+|
+|
+test
 "
 MACOS_DEPLOYMENT_TARGET
 "
