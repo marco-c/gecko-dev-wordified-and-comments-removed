@@ -1681,7 +1681,7 @@ rv
 !
 plugId
 .
-IsVoid
+IsEmpty
 (
 )
 )
