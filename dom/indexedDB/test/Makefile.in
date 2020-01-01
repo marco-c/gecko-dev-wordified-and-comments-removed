@@ -475,6 +475,10 @@ test_global_data
 .
 html
 \
+test_index_getAll
+.
+html
+\
 test_indexes
 .
 html
