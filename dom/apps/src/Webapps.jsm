@@ -282,6 +282,16 @@ webappsDir
 "
 ;
 #
+elifdef
+ANDROID
+const
+DIRECTORY_NAME
+=
+"
+webappsDir
+"
+;
+#
 else
 const
 DIRECTORY_NAME
