@@ -721,6 +721,10 @@ mathfontSTIXSize1
 .
 properties
 \
+mathfontSTIXSizeOneSym
+.
+properties
+\
 mathfontStandardSymbolsL
 .
 properties
