@@ -1444,7 +1444,7 @@ link
 href
 =
 "
-http
+https
 :
 /
 /
@@ -1452,7 +1452,7 @@ www
 .
 mozilla
 .
-com
+org
 /
 legal
 /

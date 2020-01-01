@@ -2793,7 +2793,7 @@ gBrowser
 loadOneTab
 (
 '
-http
+https
 :
 /
 /
@@ -2801,7 +2801,7 @@ www
 .
 mozilla
 .
-com
+org
 /
 firefox
 /

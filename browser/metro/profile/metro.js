@@ -1212,7 +1212,7 @@ www
 .
 mozilla
 .
-com
+org
 /
 %
 LOCALE
@@ -2757,7 +2757,7 @@ app
 privacyURL
 "
 "
-http
+https
 :
 /
 /
@@ -2765,7 +2765,7 @@ www
 .
 mozilla
 .
-com
+org
 /
 legal
 /

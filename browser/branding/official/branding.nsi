@@ -136,7 +136,7 @@ Corporation
 define
 URLInfoAbout
 "
-http
+https
 :
 /
 /
@@ -144,7 +144,7 @@ www
 .
 mozilla
 .
-com
+org
 /
 {
 AB_CD
@@ -155,7 +155,7 @@ AB_CD
 define
 URLUpdateInfo
 "
-http
+https
 :
 /
 /
@@ -163,7 +163,7 @@ www
 .
 mozilla
 .
-com
+org
 /
 {
 AB_CD
