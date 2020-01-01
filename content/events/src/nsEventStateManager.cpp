@@ -486,13 +486,6 @@ h
 #
 include
 "
-nsIDOMDocumentView
-.
-h
-"
-#
-include
-"
 nsIDOMNSUIEvent
 .
 h

@@ -564,15 +564,6 @@ nsIDOMMediaList
 ;
 /
 /
-Views
-interface
-nsIDOMAbstractView
-;
-interface
-nsIDOMDocumentView
-;
-/
-/
 Base
 interface
 nsIDOMWindow
