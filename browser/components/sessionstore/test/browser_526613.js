@@ -179,7 +179,7 @@ url
 "
 about
 :
-robots
+mozilla
 "
 }
 ]
