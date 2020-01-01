@@ -12129,10 +12129,6 @@ nsIXMLHttpRequestEventTarget
 )
 DOM_CLASSINFO_MAP_ENTRY
 (
-nsIXMLHttpRequestUploadGetter
-)
-DOM_CLASSINFO_MAP_ENTRY
-(
 nsIDOMEventTarget
 )
 DOM_CLASSINFO_MAP_ENTRY
