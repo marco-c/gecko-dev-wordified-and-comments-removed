@@ -844,7 +844,7 @@ height
 {
 mGLController
 .
-sizeChanged
+surfaceChanged
 (
 width
 height
@@ -877,12 +877,6 @@ SurfaceHolder
 holder
 )
 {
-mGLController
-.
-surfaceCreated
-(
-)
-;
 }
 public
 synchronized
