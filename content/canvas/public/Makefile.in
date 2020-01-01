@@ -430,6 +430,10 @@ nsICanvasElement
 .
 h
 \
+WebGLArray
+.
+h
+\
 (
 NULL
 )
