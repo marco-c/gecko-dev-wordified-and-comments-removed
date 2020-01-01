@@ -38,7 +38,7 @@ nonextensible
 error
 .
 js
-fails
+skip
 -
 if
 (
