@@ -38,7 +38,9 @@ tests
 /
 chrome
 /
-bug437844
+rtlchrome
+/
+rtl
 .
 css
 override
@@ -71,6 +73,8 @@ tests
 /
 chrome
 /
-bug437844
+rtlchrome
+/
+rtl
 .
 dtd
