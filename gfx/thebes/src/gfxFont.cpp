@@ -8569,6 +8569,13 @@ IsAsciiSpace
 *
 p
 )
+|
+|
+*
+p
+=
+=
+kComma
 )
 if
 (
