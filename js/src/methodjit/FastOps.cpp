@@ -2365,7 +2365,7 @@ popn
 )
 ;
 return
-jumpAndTrace
+jumpAndRun
 (
 fast
 target
@@ -2821,7 +2821,7 @@ jump
 if
 (
 !
-jumpAndTrace
+jumpAndRun
 (
 j2
 target
@@ -2887,7 +2887,7 @@ JSVAL_TYPE_NULL
 if
 (
 !
-jumpAndTrace
+jumpAndRun
 (
 j2
 target
@@ -5150,7 +5150,7 @@ pop
 )
 ;
 return
-jumpAndTrace
+jumpAndRun
 (
 branch
 target
@@ -5259,7 +5259,7 @@ false
 if
 (
 !
-jumpAndTrace
+jumpAndRun
 (
 masm
 .
@@ -5405,7 +5405,7 @@ false
 if
 (
 !
-jumpAndTrace
+jumpAndRun
 (
 masm
 .
