@@ -12,9 +12,7 @@ b
 eval
 (
 "
-dis
-(
-)
+0
 ;
 [
 arguments
