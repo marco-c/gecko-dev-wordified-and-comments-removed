@@ -2599,6 +2599,9 @@ OBJS
 RES
 )
 (
+LDFLAGS
+)
+(
 EXTRA_LIBS
 )
 endif
