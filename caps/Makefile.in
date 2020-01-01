@@ -414,7 +414,13 @@ DIRS
 idl
 include
 src
+ifdef
+ENABLE_TESTS
+DIRS
++
+=
 tests
+endif
 include
 (
 topsrcdir
