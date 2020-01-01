@@ -546,8 +546,6 @@ aNewPos
 bool
 aIsSmooth
 bool
-aImmediateRedraw
-bool
 aMaySnap
 )
 ;
@@ -561,8 +559,6 @@ int32_t
 aNewPos
 bool
 aIsSmooth
-bool
-aImmediateRedraw
 )
 ;
 void
@@ -575,8 +571,6 @@ int32_t
 pos
 bool
 aIsSmooth
-bool
-aImmediateRedraw
 )
 ;
 nsresult
@@ -585,8 +579,6 @@ CurrentPositionChanged
 nsPresContext
 *
 aPresContext
-bool
-aImmediateRedraw
 )
 ;
 void

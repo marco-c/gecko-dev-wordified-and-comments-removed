@@ -899,7 +899,6 @@ CurrentPositionChanged
 PresContext
 (
 )
-false
 )
 ;
 NS_ASSERTION
@@ -2126,7 +2125,6 @@ SetCurrentThumbPosition
 scrollbar
 mThumbStart
 false
-true
 false
 )
 ;
@@ -2139,7 +2137,6 @@ SetCurrentThumbPosition
 scrollbar
 pos
 false
-true
 true
 )
 ;
@@ -2467,7 +2464,6 @@ pos
 thumbLength
 /
 2
-false
 false
 false
 )
@@ -2855,7 +2851,6 @@ SetCurrentPositionInternal
 scrollbar
 newpos
 true
-false
 )
 ;
 }
@@ -2868,8 +2863,6 @@ CurrentPositionChanged
 nsPresContext
 *
 aPresContext
-bool
-aImmediateRedraw
 )
 {
 nsIFrame
@@ -3235,8 +3228,6 @@ aNewThumbPos
 bool
 aIsSmooth
 bool
-aImmediateRedraw
-bool
 aMaySnap
 )
 {
@@ -3328,7 +3319,6 @@ SetCurrentPosition
 aScrollbar
 newPos
 aIsSmooth
-aImmediateRedraw
 )
 ;
 }
@@ -3345,8 +3335,6 @@ int32_t
 aNewPos
 bool
 aIsSmooth
-bool
-aImmediateRedraw
 )
 {
 int32_t
@@ -3427,7 +3415,6 @@ SetCurrentPositionInternal
 aScrollbar
 aNewPos
 aIsSmooth
-aImmediateRedraw
 )
 ;
 }
@@ -3444,8 +3431,6 @@ int32_t
 aNewPos
 bool
 aIsSmooth
-bool
-aImmediateRedraw
 )
 {
 nsCOMPtr
@@ -3587,7 +3572,6 @@ frame
 PresContext
 (
 )
-aImmediateRedraw
 )
 ;
 }
@@ -4007,7 +3991,6 @@ SetCurrentThumbPosition
 (
 scrollbar
 newpos
-false
 false
 false
 )
