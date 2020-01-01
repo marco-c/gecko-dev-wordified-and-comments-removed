@@ -454,10 +454,6 @@ Task
 .
 jsm
 \
-UpdateChannel
-.
-jsm
-\
 (
 NULL
 )
@@ -477,6 +473,10 @@ WindowDraggingUtils
 jsm
 \
 Troubleshoot
+.
+jsm
+\
+UpdateChannel
 .
 jsm
 \

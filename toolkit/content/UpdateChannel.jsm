@@ -1,3 +1,6 @@
+#
+filter
+substitution
 this
 .
 EXPORTED_SYMBOLS
@@ -50,7 +53,7 @@ let
 channel
 =
 "
-default
+MOZ_UPDATE_CHANNEL
 "
 ;
 let
