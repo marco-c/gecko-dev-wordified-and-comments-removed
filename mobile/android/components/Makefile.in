@@ -160,10 +160,6 @@ PaymentsUI
 .
 js
 \
-FilePicker
-.
-js
-\
 (
 NULL
 )
