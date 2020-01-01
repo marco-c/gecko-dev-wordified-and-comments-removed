@@ -10746,6 +10746,16 @@ SetGraphImpl
 graph
 )
 ;
+if
+(
+aEngine
+-
+>
+HasNode
+(
+)
+)
+{
 stream
 -
 >
@@ -10786,6 +10796,7 @@ ChannelInterpretationValue
 )
 )
 ;
+}
 graph
 -
 >
