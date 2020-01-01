@@ -2318,7 +2318,7 @@ getIntPref
 "
 ui
 .
-dragThreshold
+dragThresholdX
 "
 )
 /
