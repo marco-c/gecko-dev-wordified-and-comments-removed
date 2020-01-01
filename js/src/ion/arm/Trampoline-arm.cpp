@@ -2551,7 +2551,7 @@ reserveStack
 (
 sizeof
 (
-int
+int32
 )
 )
 ;

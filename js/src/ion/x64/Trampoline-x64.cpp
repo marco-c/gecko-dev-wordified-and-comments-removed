@@ -2260,7 +2260,7 @@ reserveStack
 (
 sizeof
 (
-int
+int32
 )
 )
 ;
@@ -2705,7 +2705,7 @@ freeStack
 (
 sizeof
 (
-int
+int32
 )
 )
 ;
