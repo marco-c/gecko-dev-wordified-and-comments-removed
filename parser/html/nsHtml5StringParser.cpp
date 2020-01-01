@@ -284,10 +284,10 @@ fragment
 }
 #
 endif
-mExecutor
+mTreeBuilder
 -
 >
-EnableFragmentMode
+SetPreventScriptExecution
 (
 aPreventScriptExecution
 )
@@ -355,11 +355,12 @@ nsnull
 false
 )
 ;
-mExecutor
+mTreeBuilder
 -
 >
-PreventScriptExecution
+SetPreventScriptExecution
 (
+true
 )
 ;
 Tokenize
