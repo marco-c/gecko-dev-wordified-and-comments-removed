@@ -752,11 +752,6 @@ webconsole
 Makefile
 browser
 /
-extensions
-/
-Makefile
-browser
-/
 fuel
 /
 Makefile
