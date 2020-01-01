@@ -12663,7 +12663,7 @@ cx
 \
 ENABLE_TRACER
 (
-js_LoopEdge
+js_MonitorBranch
 (
 cx
 oldpc
@@ -12806,7 +12806,11 @@ n
 =
 0
 )
-{
+\
+CHECK_BRANCH
+(
+)
+;
 \
 MONITOR_BRANCH
 (
@@ -12817,13 +12821,6 @@ pc
 n
 )
 ;
-\
-CHECK_BRANCH
-(
-)
-;
-\
-}
 \
 op
 =
