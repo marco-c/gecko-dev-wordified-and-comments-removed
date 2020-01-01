@@ -9690,6 +9690,7 @@ browser
 .
 contentWindow
 ;
+let
 zoom
 =
 1
