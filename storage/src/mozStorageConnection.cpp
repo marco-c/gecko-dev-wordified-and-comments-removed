@@ -2040,15 +2040,12 @@ sqlite3_close
 mDBConn
 )
 ;
-if
+NS_ASSERTION
 (
 srv
-!
+=
 =
 SQLITE_OK
-)
-NS_ERROR
-(
 "
 sqlite3_close
 failed
