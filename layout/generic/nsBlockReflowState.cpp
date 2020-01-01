@@ -3759,14 +3759,9 @@ floatY
 )
 ;
 }
-#
-ifdef
-DEBUG
 nsresult
 rv
 =
-#
-endif
 mFloatManager
 -
 >
