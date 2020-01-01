@@ -42,7 +42,7 @@ vector
 namespace
 CSF
 {
-DECLARE_PTR
+DECLARE_NS_PTR
 (
 CallControlManager
 )
@@ -52,6 +52,10 @@ CallControlManager
 {
 public
 :
+NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+(
+CallControlManager
+)
 static
 CallControlManagerPtr
 create

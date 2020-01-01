@@ -11,7 +11,7 @@ h
 namespace
 CSF
 {
-DECLARE_PTR
+DECLARE_NS_PTR
 (
 PhoneDetailsImpl
 )
