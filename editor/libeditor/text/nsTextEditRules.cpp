@@ -4312,7 +4312,7 @@ GetElementsByTagName
 NS_LITERAL_STRING
 (
 "
-div
+br
 "
 )
 getter_AddRefs
