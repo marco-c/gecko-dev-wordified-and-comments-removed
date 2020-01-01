@@ -132,6 +132,12 @@ mIsInfinite
 ;
 class
 FrameLayerBuilder
+:
+public
+layers
+:
+:
+LayerUserData
 {
 public
 :
