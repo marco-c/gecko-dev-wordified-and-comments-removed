@@ -3460,12 +3460,9 @@ UINT32_MAX
 ;
 if
 (
-LL_CMP
-(
 fileSize
 >
 maxSize
-)
 )
 {
 NS_ERROR

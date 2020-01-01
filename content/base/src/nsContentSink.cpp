@@ -5132,12 +5132,9 @@ mLastNotificationTime
 ;
 if
 (
-LL_CMP
-(
 diff
 >
 interval
-)
 )
 {
 mBackoffCount
