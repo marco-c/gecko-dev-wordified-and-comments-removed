@@ -1263,6 +1263,14 @@ aIndex
 const
 ;
 virtual
+nsIPresShell
+*
+GetPrimaryShell
+(
+)
+const
+;
+virtual
 void
 SetShellsHidden
 (

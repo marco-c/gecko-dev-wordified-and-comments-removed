@@ -1567,9 +1567,8 @@ shell
 mDocument
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 if
@@ -4500,9 +4499,8 @@ shell
 mDocument
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 if

@@ -13713,9 +13713,8 @@ presShell
 doc
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 nsPIDOMWindow
@@ -15438,9 +15437,8 @@ shell
 parentDoc
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 nsIFrame

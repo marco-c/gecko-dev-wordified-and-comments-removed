@@ -457,9 +457,8 @@ parentShell
 parentDoc
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 nsCOMPtr

@@ -1380,9 +1380,8 @@ do_GetWeakReference
 document
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 )
 ;
@@ -1457,9 +1456,8 @@ shell
 doc
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 if
@@ -1630,9 +1628,8 @@ presShell
 aDocument
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 }
@@ -4390,9 +4387,8 @@ presShell
 doc
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 return

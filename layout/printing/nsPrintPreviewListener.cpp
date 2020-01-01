@@ -825,9 +825,8 @@ esm
 parentDoc
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 -
 >

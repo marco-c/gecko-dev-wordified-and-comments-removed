@@ -3114,9 +3114,8 @@ shell
 document
 -
 >
-GetShellAt
+GetPrimaryShell
 (
-0
 )
 ;
 if
