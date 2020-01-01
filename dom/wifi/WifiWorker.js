@@ -8235,6 +8235,17 @@ function
 (
 )
 {
+debug
+(
+"
+shutting
+down
+.
+.
+.
+"
+)
+;
 this
 .
 setWifiEnabled
