@@ -3124,6 +3124,11 @@ tabs
 -
 container
 "
+observes
+=
+"
+bcast_windowState
+"
 >
 <
 box
