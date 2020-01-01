@@ -10932,6 +10932,10 @@ aGraph
 DispatchToMainThreadAfterStreamStateUpdate
 (
 event
+.
+forget
+(
+)
 )
 ;
 }
@@ -10966,6 +10970,10 @@ aGraph
 DispatchToMainThreadAfterStreamStateUpdate
 (
 event
+.
+forget
+(
+)
 )
 ;
 }
@@ -11026,6 +11034,10 @@ aGraph
 DispatchToMainThreadAfterStreamStateUpdate
 (
 event
+.
+forget
+(
+)
 )
 ;
 }
@@ -11077,6 +11089,10 @@ aGraph
 DispatchToMainThreadAfterStreamStateUpdate
 (
 event
+.
+forget
+(
+)
 )
 ;
 }
