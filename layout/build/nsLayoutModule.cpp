@@ -1165,9 +1165,6 @@ nsIBoxObject
 h
 "
 #
-ifndef
-MOZ_NO_INSPECTOR_APIS
-#
 ifdef
 MOZ_XUL
 #
@@ -1207,8 +1204,6 @@ inDOMUtils
 .
 h
 "
-#
-endif
 #
 ifdef
 MOZ_XUL
@@ -2249,9 +2244,6 @@ NS_NewContainerBoxObject
 #
 endif
 #
-ifndef
-MOZ_NO_INSPECTOR_APIS
-#
 ifdef
 MOZ_XUL
 NS_GENERIC_FACTORY_CONSTRUCTOR
@@ -2276,8 +2268,6 @@ NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 inDOMUtils
 )
-#
-endif
 MAKE_CTOR
 (
 CreateNameSpaceManager
@@ -3384,9 +3374,6 @@ NS_TREEBOXOBJECT_CID
 #
 endif
 #
-ifndef
-MOZ_NO_INSPECTOR_APIS
-#
 ifdef
 MOZ_XUL
 NS_DEFINE_NAMED_CID
@@ -3416,8 +3403,6 @@ NS_DEFINE_NAMED_CID
 IN_DOMUTILS_CID
 )
 ;
-#
-endif
 NS_DEFINE_NAMED_CID
 (
 NS_NAMESPACEMANAGER_CID
@@ -4092,9 +4077,6 @@ CreateNewTreeBoxObject
 #
 endif
 #
-ifndef
-MOZ_NO_INSPECTOR_APIS
-#
 ifdef
 MOZ_XUL
 {
@@ -4134,8 +4116,6 @@ false
 NULL
 inDOMUtilsConstructor
 }
-#
-endif
 {
 &
 kNS_NAMESPACEMANAGER_CID
@@ -5067,9 +5047,6 @@ kNS_TREEBOXOBJECT_CID
 #
 endif
 #
-ifndef
-MOZ_NO_INSPECTOR_APIS
-#
 ifdef
 MOZ_XUL
 {
@@ -5161,8 +5138,6 @@ utils
 &
 kIN_DOMUTILS_CID
 }
-#
-endif
 {
 NS_NAMESPACEMANAGER_CONTRACTID
 &

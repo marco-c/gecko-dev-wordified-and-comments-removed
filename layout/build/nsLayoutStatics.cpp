@@ -420,17 +420,12 @@ nsXULTooltipListener
 h
 "
 #
-ifndef
-MOZ_NO_INSPECTOR_APIS
-#
 include
 "
 inDOMView
 .
 h
 "
-#
-endif
 #
 endif
 #
@@ -945,9 +940,6 @@ return
 rv
 ;
 }
-#
-ifndef
-MOZ_NO_INSPECTOR_APIS
 inDOMView
 :
 :
@@ -955,8 +947,6 @@ InitAtoms
 (
 )
 ;
-#
-endif
 #
 endif
 #
