@@ -521,6 +521,10 @@ browser_dragdrop
 .
 js
 \
+browser_list
+.
+js
+\
 browser_searching
 .
 js
