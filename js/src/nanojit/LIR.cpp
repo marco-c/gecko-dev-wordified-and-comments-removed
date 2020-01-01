@@ -5133,9 +5133,6 @@ get_sizes
 sizes
 )
 ;
-#
-ifdef
-NJ_SOFTFLOAT
 if
 (
 !
@@ -5159,8 +5156,6 @@ op
 =
 LIR_callh
 ;
-#
-endif
 NanoAssert
 (
 argc

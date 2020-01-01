@@ -4836,9 +4836,6 @@ ins
 break
 ;
 }
-#
-ifndef
-NJ_SOFTFLOAT
 case
 LIR_fneg
 :
@@ -4931,8 +4928,6 @@ ins
 break
 ;
 }
-#
-endif
 case
 LIR_sti
 :
@@ -5592,9 +5587,6 @@ exit
 break
 ;
 }
-#
-ifndef
-NJ_SOFTFLOAT
 case
 LIR_feq
 :
@@ -5623,8 +5615,6 @@ ins
 break
 ;
 }
-#
-endif
 case
 LIR_eq
 :
@@ -5700,14 +5690,9 @@ ins
 break
 ;
 }
-#
-ifndef
-NJ_SOFTFLOAT
 case
 LIR_fcall
 :
-#
-endif
 #
 ifdef
 NANOJIT_64BIT
@@ -5729,11 +5714,11 @@ rr
 =
 UnknownReg
 ;
-#
-ifndef
-NJ_SOFTFLOAT
 if
 (
+ARM_VFP
+&
+&
 op
 =
 =
@@ -5753,8 +5738,6 @@ ins
 ;
 }
 else
-#
-endif
 {
 rr
 =
