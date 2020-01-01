@@ -62,6 +62,10 @@ D3DFORMAT
 depthStencilFormat
 EGLint
 multiSample
+EGLint
+texWidth
+EGLint
+texHeight
 )
 ;
 void
@@ -84,6 +88,10 @@ D3DFORMAT
 depthStencilFormat
 EGLint
 multiSample
+EGLint
+texWidth
+EGLint
+texHeight
 )
 ;
 EGLConfig
@@ -320,6 +328,10 @@ D3DFORMAT
 depthStencilFormat
 EGLint
 multiSample
+EGLint
+texWidth
+EGLint
+texHeight
 )
 ;
 size_t

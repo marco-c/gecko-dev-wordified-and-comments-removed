@@ -328,10 +328,16 @@ SUCCEEDED
 hr
 )
 )
+{
 mUsingSharedTexture
 =
 PR_TRUE
 ;
+mNeedsYFlip
+=
+PR_FALSE
+;
+}
 }
 if
 (
