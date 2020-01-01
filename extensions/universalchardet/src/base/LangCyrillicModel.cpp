@@ -1615,7 +1615,7 @@ IBM866_CharToOrderMap
 ;
 static
 const
-char
+PRUint8
 RussianLangModel
 [
 ]

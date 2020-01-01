@@ -543,7 +543,7 @@ win1251BulgarianCharToOrderMap
 ;
 static
 const
-char
+PRUint8
 BulgarianLangModel
 [
 ]

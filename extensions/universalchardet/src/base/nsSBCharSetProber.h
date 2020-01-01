@@ -68,7 +68,7 @@ const
 charToOrderMap
 ;
 const
-char
+PRUint8
 *
 const
 precedenceMatrix

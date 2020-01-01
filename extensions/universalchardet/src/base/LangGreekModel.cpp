@@ -545,7 +545,7 @@ win1253_CharToOrderMap
 ;
 static
 const
-char
+PRUint8
 GreekLangModel
 [
 ]

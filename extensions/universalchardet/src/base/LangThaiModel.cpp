@@ -275,7 +275,7 @@ TIS620CharToOrderMap
 ;
 static
 const
-char
+PRUint8
 ThaiLangModel
 [
 ]

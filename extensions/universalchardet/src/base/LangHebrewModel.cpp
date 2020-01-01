@@ -275,7 +275,7 @@ win1255_CharToOrderMap
 ;
 static
 const
-char
+PRUint8
 HebrewLangModel
 [
 ]
