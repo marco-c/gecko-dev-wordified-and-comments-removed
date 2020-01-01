@@ -6830,6 +6830,9 @@ nsIVariant
 cpow
 )
 {
+#
+ifdef
+MOZ_IPC
 nsIXPConnect
 *
 xpc
@@ -6914,6 +6917,8 @@ cpow
 )
 ;
 }
+#
+endif
 return
 NS_ERROR_NOT_AVAILABLE
 ;
