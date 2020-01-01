@@ -1054,6 +1054,12 @@ test_extensionmanager
 "
 )
 ;
+gTestRoot
+.
+normalize
+(
+)
+;
 var
 gProfD
 =
