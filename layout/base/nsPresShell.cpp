@@ -10509,10 +10509,10 @@ NS_IMETHODIMP
 PresShell
 :
 :
-ScrollHorizontal
+ScrollCharacter
 (
 bool
-aLeft
+aRight
 )
 {
 nsIScrollableFrame
@@ -10539,11 +10539,11 @@ ScrollBy
 (
 nsIntPoint
 (
-aLeft
+aRight
 ?
--
 1
 :
+-
 1
 0
 )
