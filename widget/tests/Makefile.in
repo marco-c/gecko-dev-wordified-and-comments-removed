@@ -503,6 +503,14 @@ test_native_menus
 .
 xul
 \
+native_mouse_mac_window
+.
+xul
+\
+test_native_mouse_mac
+.
+xul
+\
 test_bug428405
 .
 xul
