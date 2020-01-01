@@ -3418,6 +3418,10 @@ endif
 class
 TraceRecorder
 {
+Oracle
+*
+oracle
+;
 JSContext
 *
 const
@@ -3427,10 +3431,6 @@ TraceMonitor
 *
 const
 traceMonitor
-;
-Oracle
-*
-oracle
 ;
 VMFragment
 *
