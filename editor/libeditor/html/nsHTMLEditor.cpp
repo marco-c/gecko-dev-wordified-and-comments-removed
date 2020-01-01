@@ -3059,15 +3059,6 @@ aTag
 nsEditProperty
 :
 :
-caption
-|
-|
-aTag
-=
-=
-nsEditProperty
-:
-:
 col
 |
 |
