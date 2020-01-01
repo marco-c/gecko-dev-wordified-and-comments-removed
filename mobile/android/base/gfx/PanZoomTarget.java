@@ -23,6 +23,13 @@ graphics
 .
 PointF
 ;
+import
+android
+.
+graphics
+.
+RectF
+;
 public
 interface
 PanZoomTarget
@@ -42,6 +49,12 @@ getZoomConstraints
 public
 boolean
 isFullScreen
+(
+)
+;
+public
+RectF
+getMaxMargins
 (
 )
 ;
