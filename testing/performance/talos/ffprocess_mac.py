@@ -1,5 +1,12 @@
 import
 subprocess
+subprocess
+.
+_cleanup
+=
+lambda
+:
+None
 import
 signal
 import
