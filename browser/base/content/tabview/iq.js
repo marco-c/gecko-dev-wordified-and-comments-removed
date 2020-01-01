@@ -3178,6 +3178,9 @@ keyup
 keydown
 '
 '
+keypress
+'
+'
 mouseup
 '
 '

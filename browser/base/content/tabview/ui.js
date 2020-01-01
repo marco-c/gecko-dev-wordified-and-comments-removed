@@ -3353,6 +3353,14 @@ meta
 =
 true
 ;
+if
+(
+isSearchEnabled
+(
+)
+)
+return
+;
 function
 getClosestTabBy
 (
