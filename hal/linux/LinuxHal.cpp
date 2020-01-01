@@ -129,7 +129,7 @@ dom
 battery
 :
 :
-kUnknownRemainingTime
+kDefaultRemainingTime
 ;
 }
 #
