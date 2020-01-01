@@ -5570,6 +5570,10 @@ goto
 error
 ;
 }
+setOctalCharacterEscape
+(
+)
+;
 }
 if
 (
