@@ -8264,12 +8264,6 @@ html
 #
 bug
 368085
-random
--
-if
-(
-gtk2Widget
-)
 =
 =
 368020
@@ -8284,9 +8278,6 @@ html
 ref
 .
 html
-#
-bug
-388591
 =
 =
 368155
