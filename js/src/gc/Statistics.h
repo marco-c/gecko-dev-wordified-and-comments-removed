@@ -215,6 +215,9 @@ bool
 fullFormat
 ;
 int
+gcDepth
+;
+int
 collectedCount
 ;
 int

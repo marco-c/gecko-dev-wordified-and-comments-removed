@@ -13429,10 +13429,6 @@ mFunctionHook
 =
 nsnull
 ;
-gGCRunning
-=
-false
-;
 Off
 (
 )
