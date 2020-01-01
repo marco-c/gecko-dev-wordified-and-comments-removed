@@ -511,6 +511,10 @@ file_select_all_without_body
 .
 html
 \
+test_root_element_replacement
+.
+html
+\
 (
 NULL
 )
