@@ -814,6 +814,10 @@ nsString
 &
 text
 const
+bool
+&
+isPrivateData
+const
 PRInt32
 &
 whichClipboard
