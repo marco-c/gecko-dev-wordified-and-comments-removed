@@ -15397,7 +15397,7 @@ lir
 >
 ins1
 (
-LIR_live
+LIR_plive
 state
 )
 ;
@@ -15406,7 +15406,7 @@ lir
 >
 ins1
 (
-LIR_live
+LIR_plive
 cpend
 )
 ;
@@ -15415,7 +15415,7 @@ lir
 >
 ins1
 (
-LIR_live
+LIR_plive
 start
 )
 ;
@@ -15946,7 +15946,7 @@ lir
 >
 ins1
 (
-LIR_live
+LIR_plive
 lirbuf
 -
 >
@@ -15958,7 +15958,7 @@ lir
 >
 ins1
 (
-LIR_live
+LIR_plive
 lirbuf
 -
 >
