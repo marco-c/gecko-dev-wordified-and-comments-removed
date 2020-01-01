@@ -349,7 +349,7 @@ NJ_PAGE_SIZE
 *
 sizeof
 (
-LInsp
+T
 )
 )
 ;
@@ -516,7 +516,7 @@ void
 *
 v
 T
-ins
+i
 )
 {
 struct
@@ -565,7 +565,7 @@ v
 2
 ]
 =
-ins
+i
 ;
 }
 #
