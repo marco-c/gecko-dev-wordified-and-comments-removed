@@ -1001,6 +1001,15 @@ NotifyThemeChanged
 (
 )
 ;
+void
+NotifyUIStateChanged
+(
+UIStateChangeType
+aShowAccelerators
+UIStateChangeType
+aShowFocusRings
+)
+;
 #
 ifdef
 ACCESSIBILITY
