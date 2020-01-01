@@ -275,6 +275,12 @@ this
 .
 enabled
 =
+false
+;
+this
+.
+enabled
+=
 this
 .
 _enabledBeforePrivateBrowsing
