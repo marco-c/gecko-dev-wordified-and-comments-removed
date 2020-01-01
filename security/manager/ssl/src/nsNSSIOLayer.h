@@ -255,16 +255,6 @@ mSentClientCert
 true
 ;
 }
-uint32_t
-GetProviderFlags
-(
-)
-const
-{
-return
-mProviderFlags
-;
-}
 mozilla
 :
 :
