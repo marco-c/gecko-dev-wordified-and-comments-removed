@@ -234,10 +234,11 @@ return
 NS_OK
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS2
 (
 nsAccelerometer
 nsIAccelerometer
+nsIAccelerometerUpdate
 )
 nsAccelerometer
 :
@@ -661,7 +662,7 @@ return
 NS_OK
 ;
 }
-void
+NS_IMETHODIMP
 nsAccelerometer
 :
 :
@@ -681,6 +682,7 @@ if
 mEnabled
 )
 return
+NS_ERROR_NOT_INITIALIZED
 ;
 if
 (
@@ -789,6 +791,7 @@ z
 01
 )
 return
+NS_OK
 ;
 }
 mLastX
@@ -1025,4 +1028,7 @@ defaultActionEnabled
 }
 }
 }
+return
+NS_OK
+;
 }
