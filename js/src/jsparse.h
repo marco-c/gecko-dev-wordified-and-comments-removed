@@ -3147,10 +3147,11 @@ JSParseNode
 *
 functionDef
 (
+JSAtom
+*
+name
 uintN
 lambda
-bool
-namePermitted
 )
 ;
 JSParseNode
