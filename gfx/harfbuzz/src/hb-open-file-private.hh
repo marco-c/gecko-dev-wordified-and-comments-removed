@@ -294,7 +294,7 @@ numTables
 )
 ;
 }
-private
+protected
 :
 Tag
 sfnt_version
@@ -397,7 +397,7 @@ this
 )
 ;
 }
-private
+protected
 :
 Tag
 ttcTag
@@ -597,7 +597,7 @@ true
 ;
 }
 }
-private
+protected
 :
 union
 {
@@ -935,7 +935,7 @@ true
 ;
 }
 }
-private
+protected
 :
 union
 {

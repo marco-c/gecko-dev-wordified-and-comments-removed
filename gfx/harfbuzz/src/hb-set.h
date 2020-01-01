@@ -33,7 +33,7 @@ h
 HB_BEGIN_DECLS
 typedef
 struct
-_hb_set_t
+hb_set_t
 hb_set_t
 ;
 hb_set_t

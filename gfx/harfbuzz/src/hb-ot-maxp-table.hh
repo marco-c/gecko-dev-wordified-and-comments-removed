@@ -113,7 +113,7 @@ minor
 )
 ;
 }
-private
+protected
 :
 FixedVersion
 version

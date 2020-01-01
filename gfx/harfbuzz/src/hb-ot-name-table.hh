@@ -512,7 +512,7 @@ c
 )
 ;
 }
-private
+protected
 :
 USHORT
 format

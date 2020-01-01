@@ -200,7 +200,7 @@ this
 )
 ;
 }
-private
+protected
 :
 OffsetTo
 <
@@ -297,7 +297,7 @@ this
 )
 ;
 }
-private
+protected
 :
 USHORT
 caretValueFormat
@@ -343,9 +343,11 @@ y
 ;
 if
 (
-hb_font_get_glyph_contour_point_for_origin
-(
 font
+-
+>
+get_glyph_contour_point_for_origin
+(
 glyph_id
 caretValuePoint
 direction
@@ -396,7 +398,7 @@ this
 )
 ;
 }
-private
+protected
 :
 USHORT
 caretValueFormat
@@ -515,7 +517,7 @@ this
 )
 ;
 }
-private
+protected
 :
 USHORT
 caretValueFormat
@@ -710,7 +712,7 @@ true
 ;
 }
 }
-private
+protected
 :
 union
 {
@@ -865,7 +867,7 @@ this
 )
 ;
 }
-private
+protected
 :
 OffsetArrayOf
 <
@@ -1006,7 +1008,7 @@ this
 )
 ;
 }
-private
+protected
 :
 OffsetTo
 <
@@ -1090,7 +1092,7 @@ this
 )
 ;
 }
-private
+protected
 :
 USHORT
 format
@@ -1218,7 +1220,7 @@ true
 ;
 }
 }
-private
+protected
 :
 union
 {
@@ -1691,7 +1693,7 @@ klass
 ;
 }
 }
-private
+protected
 :
 FixedVersion
 version

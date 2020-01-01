@@ -83,7 +83,7 @@ true
 )
 ;
 }
-private
+protected
 :
 LongHorMetric
 longHorMetric
