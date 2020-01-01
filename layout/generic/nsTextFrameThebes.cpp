@@ -28656,6 +28656,11 @@ GetNextContinuation
 )
 )
 {
+PRInt32
+dummyOffset
+=
+0
+;
 if
 (
 f
@@ -28664,7 +28669,8 @@ f
 PeekOffsetNoAmount
 (
 PR_TRUE
-nsnull
+&
+dummyOffset
 )
 )
 {
