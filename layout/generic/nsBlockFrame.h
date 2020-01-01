@@ -581,6 +581,12 @@ IsSelfEmpty
 (
 )
 ;
+PRBool
+BulletIsEmpty
+(
+)
+const
+;
 virtual
 void
 MarkIntrinsicWidthsDirty
