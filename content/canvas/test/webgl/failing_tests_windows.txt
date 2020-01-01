@@ -101,17 +101,6 @@ line
 html
 conformance
 /
-renderbuffers
-/
-framebuffer
--
-object
--
-attachment
-.
-html
-conformance
-/
 more
 /
 conformance

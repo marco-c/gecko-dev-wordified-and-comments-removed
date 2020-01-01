@@ -80,17 +80,6 @@ attribute
 html
 conformance
 /
-renderbuffers
-/
-framebuffer
--
-object
--
-attachment
-.
-html
-conformance
-/
 textures
 /
 texture
