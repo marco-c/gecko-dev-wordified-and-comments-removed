@@ -183,7 +183,7 @@ ImageFormatRGB16_565
 gfxASurface
 :
 :
-ImageFormatARGB32
+ImageFormatRGB24
 ;
 }
 gfxAndroidPlatform
