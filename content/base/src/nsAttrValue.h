@@ -461,6 +461,17 @@ aInt
 void
 SetTo
 (
+PRInt32
+aInt
+const
+nsAString
+*
+aSerialized
+)
+;
+void
+SetTo
+(
 double
 aValue
 const
