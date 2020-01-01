@@ -112,6 +112,8 @@ public
 nsILocalFileOS2
 public
 nsIHashable
+public
+nsIClassInfo
 {
 public
 :
@@ -145,6 +147,7 @@ NS_DECL_NSIFILE
 NS_DECL_NSILOCALFILE
 NS_DECL_NSILOCALFILEOS2
 NS_DECL_NSIHASHABLE
+NS_DECL_NSICLASSINFO
 public
 :
 static

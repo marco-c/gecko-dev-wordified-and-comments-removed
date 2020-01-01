@@ -122,6 +122,8 @@ public
 nsILocalFileWin
 public
 nsIHashable
+public
+nsIClassInfo
 {
 public
 :
@@ -155,6 +157,7 @@ NS_DECL_NSIFILE
 NS_DECL_NSILOCALFILE
 NS_DECL_NSILOCALFILEWIN
 NS_DECL_NSIHASHABLE
+NS_DECL_NSICLASSINFO
 public
 :
 static

@@ -739,6 +739,10 @@ nsIProxiedChannel
 .
 idl
 \
+nsIScriptableIO
+.
+idl
+\
 nsIRandomGenerator
 .
 idl
