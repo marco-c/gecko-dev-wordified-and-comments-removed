@@ -1149,6 +1149,15 @@ aFailedChannel
 )
 ;
 PRBool
+IsNavigationAllowed
+(
+PRBool
+aDisplayPrintErrorDialog
+=
+PR_TRUE
+)
+;
+PRBool
 IsPrintingOrPP
 (
 PRBool
