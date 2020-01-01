@@ -100,6 +100,13 @@ test_alerts_noobserve
 .
 html
 !
+ifneq
+(
+cocoa
+(
+MOZ_WIDGET_TOOLKIT
+)
+)
 MOCHITEST_FILES
 =
 \
@@ -114,6 +121,7 @@ html
 (
 NULL
 )
+endif
 include
 (
 topsrcdir
