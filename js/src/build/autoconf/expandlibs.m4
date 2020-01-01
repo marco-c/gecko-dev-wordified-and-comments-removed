@@ -462,6 +462,9 @@ LDFLAGS
 }
 -
 o
+{
+DLL_PREFIX
+}
 conftest
 {
 DLL_SUFFIX
@@ -517,6 +520,9 @@ fi
 rm
 -
 f
+{
+DLL_PREFIX
+}
 conftest
 {
 DLL_SUFFIX
