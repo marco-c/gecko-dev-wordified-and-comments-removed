@@ -521,11 +521,8 @@ options
 m
 )
       
-sys
-.
-exit
-(
-)
+return
+0
     
 if
 options
