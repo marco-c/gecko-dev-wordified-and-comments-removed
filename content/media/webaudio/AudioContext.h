@@ -279,6 +279,12 @@ aScope
 )
 MOZ_OVERRIDE
 ;
+using
+nsDOMEventTargetHelper
+:
+:
+DispatchTrustedEvent
+;
 static
 already_AddRefed
 <
