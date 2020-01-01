@@ -2858,6 +2858,13 @@ event
 }
 }
 else
+if
+(
+mType
+=
+=
+eType_Document
+)
 {
 UnloadObject
 (
