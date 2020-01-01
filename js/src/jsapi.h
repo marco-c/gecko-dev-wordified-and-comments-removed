@@ -9071,6 +9071,8 @@ fh
 JSPrincipals
 *
 principals
+JSVersion
+version
 )
 ;
 extern
