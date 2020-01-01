@@ -79,9 +79,7 @@ pathLength
 d
 =
 "
-M
--
-200
+M0
 0
 h400
 "
@@ -133,7 +131,7 @@ doTest
 {
 setTimeAndSnapshot
 (
-0
+100
 .
 5
 true
@@ -222,7 +220,8 @@ rect
 x
 =
 "
-10
+-
+190
 "
 y
 =
@@ -247,6 +246,11 @@ lime
 >
 <
 animateMotion
+begin
+=
+"
+100s
+"
 dur
 =
 "
@@ -338,7 +342,8 @@ rect
 x
 =
 "
-10
+-
+190
 "
 y
 =
@@ -363,6 +368,11 @@ lime
 >
 <
 animateMotion
+begin
+=
+"
+100s
+"
 dur
 =
 "
