@@ -476,10 +476,6 @@ http
 :
 /
 /
-{
-AB_CD
-}
-.
 www
 .
 mozilla
@@ -499,10 +495,6 @@ http
 :
 /
 /
-{
-AB_CD
-}
-.
 www
 .
 mozilla
