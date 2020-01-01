@@ -30395,6 +30395,9 @@ kBorderImageKTable
 )
 )
 {
+(
+void
+)
 ParseEnum
 (
 verticalKeyword
@@ -31719,6 +31722,9 @@ if
 side
 )
 {
+(
+void
+)
 ExpectSymbol
 (
 '
@@ -39747,6 +39753,9 @@ GetUnit
 )
 break
 ;
+(
+void
+)
 ExpectSymbol
 (
 '
