@@ -1654,7 +1654,9 @@ sheetService
 nsStyleSheetService
 :
 :
-gInstance
+GetInstance
+(
+)
 ;
 int32_t
 newDocIndex
