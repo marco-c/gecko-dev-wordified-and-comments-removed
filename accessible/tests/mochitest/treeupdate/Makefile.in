@@ -475,6 +475,10 @@ test_gencontent
 .
 html
 \
+test_hidden
+.
+html
+\
 test_list_editabledoc
 .
 html
