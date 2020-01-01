@@ -5196,6 +5196,7 @@ get
 )
 ;
 }
+{
 AutoSaveFrameChain
 asfc
 (
@@ -5217,7 +5218,6 @@ save
 return
 false
 ;
-{
 JSAutoCompartment
 ac
 (
