@@ -532,7 +532,7 @@ style
 "
 width
 :
-30em
+65ch
 ;
 "
 onload
@@ -658,7 +658,7 @@ validation
 .
 crlmanager
 .
-label
+description
 ;
 "
 /
