@@ -3072,8 +3072,6 @@ const
 nsACString
 &
 aOrigin
-FactoryPrivilege
-mPrivilege
 nsIFile
 *
 *
@@ -3319,14 +3317,6 @@ ss
 NS_ERROR_FAILURE
 )
 ;
-if
-(
-mPrivilege
-!
-=
-Chrome
-)
-{
 rv
 =
 ss
@@ -3352,7 +3342,6 @@ rv
 rv
 )
 ;
-}
 nsAutoTArray
 <
 nsString
@@ -3798,14 +3787,6 @@ AppendElement
 fileManager
 )
 ;
-if
-(
-mPrivilege
-!
-=
-Chrome
-)
-{
 rv
 =
 ss
@@ -3822,7 +3803,6 @@ rv
 rv
 )
 ;
-}
 if
 (
 !
