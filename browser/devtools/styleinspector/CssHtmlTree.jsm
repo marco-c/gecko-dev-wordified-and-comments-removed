@@ -3471,8 +3471,6 @@ mozilla
 .
 org
 /
-en
-/
 CSS
 /
 "
