@@ -4466,13 +4466,9 @@ trc
 )
 ;
 }
-rt
--
->
-stackSpace
-.
-mark
+MarkInterpreterActivations
 (
+rt
 trc
 )
 ;

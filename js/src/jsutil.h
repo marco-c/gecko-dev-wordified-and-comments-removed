@@ -868,17 +868,6 @@ smaller
 )
 ;
 }
-enum
-MaybeReportError
-{
-REPORT_ERROR
-=
-true
-DONT_REPORT_ERROR
-=
-false
-}
-;
 static
 inline
 unsigned

@@ -27428,8 +27428,6 @@ cx
 cx
 -
 >
-stack
-.
 currentScript
 (
 &

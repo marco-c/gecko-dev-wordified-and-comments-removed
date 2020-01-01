@@ -2029,8 +2029,6 @@ cx
 cx
 -
 >
-stack
-.
 currentScript
 (
 )

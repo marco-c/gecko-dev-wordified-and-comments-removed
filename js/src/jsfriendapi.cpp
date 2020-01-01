@@ -4027,13 +4027,10 @@ cx
 )
 {
 return
-!
 cx
 -
 >
-stack
-.
-empty
+currentlyRunning
 (
 )
 ;

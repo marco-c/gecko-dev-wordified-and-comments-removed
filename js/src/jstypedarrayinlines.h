@@ -982,8 +982,6 @@ script
 cx
 -
 >
-stack
-.
 currentScript
 (
 &
@@ -1183,8 +1181,6 @@ cx
 cx
 -
 >
-stack
-.
 currentScript
 (
 &

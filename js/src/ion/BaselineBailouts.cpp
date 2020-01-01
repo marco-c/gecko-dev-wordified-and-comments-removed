@@ -5653,8 +5653,6 @@ pc
 cx
 -
 >
-stack
-.
 currentScript
 (
 &
