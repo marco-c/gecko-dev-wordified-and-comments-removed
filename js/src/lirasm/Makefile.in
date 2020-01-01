@@ -490,6 +490,10 @@ NANOJIT_ARCH
 .
 cpp
 \
+njconfig
+.
+cpp
+\
 VMPI
 .
 cpp
