@@ -3928,7 +3928,7 @@ aReflowState
 mStyleBorder
 -
 >
-GetActualBorder
+GetBorder
 (
 )
 ;
@@ -12236,7 +12236,7 @@ if
 border
 -
 >
-GetActualBorderWidth
+GetBorderWidth
 (
 NS_SIDE_TOP
 )
@@ -12248,7 +12248,7 @@ NS_SIDE_TOP
 border
 -
 >
-GetActualBorderWidth
+GetBorderWidth
 (
 NS_SIDE_BOTTOM
 )

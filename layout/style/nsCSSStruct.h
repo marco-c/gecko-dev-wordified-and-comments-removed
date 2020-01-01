@@ -1081,9 +1081,6 @@ mOutlineRadius
 nsCSSValue
 mFloatEdge
 ;
-nsCSSValue
-mBorderImage
-;
 nsCSSValueList
 *
 mBoxShadow

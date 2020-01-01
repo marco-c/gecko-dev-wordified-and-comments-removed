@@ -954,15 +954,6 @@ aValue
 )
 ;
 nsresult
-GetBorderImage
-(
-nsIDOMCSSValue
-*
-*
-aValue
-)
-;
-nsresult
 GetBoxShadow
 (
 nsIDOMCSSValue
