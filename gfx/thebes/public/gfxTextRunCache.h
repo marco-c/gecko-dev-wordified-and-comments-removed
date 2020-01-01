@@ -126,10 +126,6 @@ gfxTextRunCache
 *
 mGlobalCache
 ;
-static
-PRInt32
-mGlobalCacheRefCount
-;
 template
 <
 class

@@ -49,6 +49,12 @@ GetPlatform
 )
 ;
 static
+nsresult
+Init
+(
+)
+;
+static
 void
 Shutdown
 (
