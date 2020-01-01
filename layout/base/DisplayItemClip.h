@@ -191,6 +191,15 @@ aClipItem
 )
 ;
 void
+IntersectWith
+(
+const
+DisplayItemClip
+&
+aOther
+)
+;
+void
 ApplyTo
 (
 gfxContext
@@ -428,6 +437,7 @@ bool
 HasClip
 (
 )
+const
 {
 return
 mHaveClipRect
@@ -439,6 +449,7 @@ nsRect
 GetClipRect
 (
 )
+const
 {
 NS_ASSERTION
 (

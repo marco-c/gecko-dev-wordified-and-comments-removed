@@ -97,6 +97,14 @@ mozilla
 EXPORTS
 =
 \
+DisplayItemClip
+.
+h
+\
+DisplayListClipState
+.
+h
+\
 FrameLayerBuilder
 .
 h
@@ -234,6 +242,10 @@ CPPSRCS
 =
 \
 DisplayItemClip
+.
+cpp
+\
+DisplayListClipState
 .
 cpp
 \
