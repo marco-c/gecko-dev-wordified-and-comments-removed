@@ -3582,6 +3582,9 @@ n
 ;
 #
 endif
+#
+ifndef
+ANDROID
 nsRefPtr
 <
 layers
@@ -3617,6 +3620,8 @@ mMostRecentRefresh
 )
 ;
 }
+#
+endif
 mViewManagerFlushIsPending
 =
 false
