@@ -793,6 +793,11 @@ JSOP_ENDITER
 \
 _
 (
+JSOP_CALLEE
+)
+\
+_
+(
 JSOP_POPV
 )
 \
