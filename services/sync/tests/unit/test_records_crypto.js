@@ -695,6 +695,8 @@ id
 mismatch
 :
 resource
+!
+=
 other
 "
 )
