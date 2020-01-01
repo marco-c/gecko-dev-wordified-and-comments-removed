@@ -473,6 +473,10 @@ nsIDOMSmsFilter
 .
 idl
 \
+nsIDOMSmsCursor
+.
+idl
+\
 (
 NULL
 )

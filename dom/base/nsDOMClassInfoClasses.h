@@ -1260,6 +1260,10 @@ MozSmsFilter
 )
 DOMCI_CLASS
 (
+MozSmsCursor
+)
+DOMCI_CLASS
+(
 CSSFontFaceRule
 )
 DOMCI_CLASS
