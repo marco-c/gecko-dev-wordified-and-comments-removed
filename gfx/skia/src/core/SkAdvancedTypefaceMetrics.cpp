@@ -25,7 +25,7 @@ SK_BUILD_FOR_WIN
 #
 include
 <
-DWrite
+dwrite
 .
 h
 >
