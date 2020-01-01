@@ -35,7 +35,7 @@ h
 "
 #
 ifdef
-DEBUG
+A11Y_LOG
 #
 include
 "
@@ -356,7 +356,7 @@ Shutdown
 {
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging
@@ -399,7 +399,7 @@ childAcc
 {
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging
@@ -513,7 +513,7 @@ false
 ;
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging
@@ -613,7 +613,7 @@ false
 }
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 logging

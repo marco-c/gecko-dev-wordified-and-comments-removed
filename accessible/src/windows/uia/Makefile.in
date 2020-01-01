@@ -240,3 +240,11 @@ xul
 (
 NULL
 )
+ifdef
+A11Y_LOG
+DEFINES
++
+=
+-
+DA11Y_LOG
+endif

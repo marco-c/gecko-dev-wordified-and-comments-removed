@@ -27,7 +27,7 @@ h
 "
 #
 ifdef
-DEBUG
+A11Y_LOG
 #
 include
 "
@@ -372,7 +372,7 @@ IsUpdatePending
 {
 #
 ifdef
-DEBUG
+A11Y_LOG
 if
 (
 mozilla
