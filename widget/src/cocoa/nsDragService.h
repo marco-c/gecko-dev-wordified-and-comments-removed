@@ -120,6 +120,14 @@ nsISupportsArray
 >
 mDataItems
 ;
+NSView
+*
+mNativeDragView
+;
+NSEvent
+*
+mNativeDragEvent
+;
 }
 ;
 #
