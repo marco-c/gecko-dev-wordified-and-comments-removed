@@ -2966,9 +2966,6 @@ gErrFile
 "
 -
 O
-<
-max
->
 At
 exit
 print
