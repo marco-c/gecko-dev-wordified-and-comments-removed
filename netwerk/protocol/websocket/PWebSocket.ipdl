@@ -186,8 +186,6 @@ nsCString
 aProtocol
 bool
 aSecure
-SerializedLoadContext
-loadContext
 )
 ;
 Close
