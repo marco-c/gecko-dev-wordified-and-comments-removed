@@ -531,6 +531,13 @@ xul
 window_panel_focus
 .
 xul
+else
+_TEST_FILES
++
+=
+test_autocomplete
+.
+xul
 endif
 libs
 :
