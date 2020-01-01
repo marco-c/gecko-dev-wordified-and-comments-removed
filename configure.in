@@ -34756,7 +34756,7 @@ AC_TRY_COMPILE
 #
 include
 "
-prlog
+prtypes
 .
 h
 "
@@ -34770,6 +34770,12 @@ error
 PR_STATIC_ASSERT
 not
 defined
+or
+requires
+including
+prlog
+.
+h
 #
 endif
 ]
@@ -34787,6 +34793,15 @@ does
 not
 support
 PR_STATIC_ASSERT
+or
+including
+prtypes
+.
+h
+does
+not
+provide
+it
 ]
 )
 )
