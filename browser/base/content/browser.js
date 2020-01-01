@@ -24133,10 +24133,8 @@ contentWindow
 aWebProgress
 .
 DOMWindow
-)
-{
-if
-(
+&
+&
 !
 (
 aFlags
@@ -24194,7 +24192,6 @@ locationChange
 aBrowser
 )
 ;
-}
 FullZoom
 .
 onLocationChange
