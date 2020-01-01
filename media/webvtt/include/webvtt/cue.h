@@ -136,6 +136,9 @@ snap_to_lines
 webvtt_string
 id
 ;
+webvtt_string
+body
+;
 webvtt_node
 *
 node_head

@@ -29,6 +29,11 @@ empty_node
 }
 0
 WEBVTT_EMPTY_NODE
+{
+{
+0
+}
+}
 }
 ;
 WEBVTT_EXPORT
