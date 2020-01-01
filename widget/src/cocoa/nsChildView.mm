@@ -638,7 +638,7 @@ h
 #
 include
 "
-nsIPluginInstance
+nsNPAPIPluginInstance
 .
 h
 "
@@ -4196,9 +4196,9 @@ GetWindow
 window
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIPluginInstance
+nsNPAPIPluginInstance
 >
 instance
 ;
@@ -4207,7 +4207,6 @@ mPluginInstanceOwner
 >
 GetInstance
 (
-*
 getter_AddRefs
 (
 instance
@@ -6706,9 +6705,9 @@ UInt32
 window
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIPluginInstance
+nsNPAPIPluginInstance
 >
 instance
 ;
@@ -6717,7 +6716,6 @@ mPluginInstanceOwner
 >
 GetInstance
 (
-*
 getter_AddRefs
 (
 instance

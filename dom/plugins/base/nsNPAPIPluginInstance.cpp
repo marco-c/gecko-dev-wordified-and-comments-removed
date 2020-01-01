@@ -152,10 +152,9 @@ kIPluginStreamListenerIID
 NS_IPLUGINSTREAMLISTENER_IID
 )
 ;
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS0
 (
 nsNPAPIPluginInstance
-nsIPluginInstance
 )
 nsNPAPIPluginInstance
 :
@@ -437,7 +436,7 @@ return
 mStopTime
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -514,7 +513,7 @@ InitializePlugin
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -558,7 +557,7 @@ InitializePlugin
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -1682,7 +1681,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -1980,7 +1979,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -1996,7 +1995,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -2111,7 +2110,7 @@ listener
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -2471,7 +2470,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -2657,7 +2656,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -3135,7 +3134,7 @@ aModel
 }
 #
 endif
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -3168,7 +3167,7 @@ NS_ERROR_FAILURE
 #
 endif
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -3228,7 +3227,7 @@ NS_ERROR_FAILURE
 #
 endif
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -3296,7 +3295,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -3503,7 +3502,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -3523,7 +3522,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -3632,7 +3631,7 @@ mLibrary
 ;
 }
 ;
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -3679,7 +3678,7 @@ window
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -3733,7 +3732,7 @@ aImage
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -3786,7 +3785,7 @@ aSize
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -3813,7 +3812,7 @@ return
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -3867,7 +3866,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -3910,7 +3909,7 @@ mNPP
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -3963,7 +3962,7 @@ aContext
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -4015,7 +4014,7 @@ aRect
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -4035,7 +4034,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -4100,7 +4099,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -4171,7 +4170,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -4247,7 +4246,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -5031,7 +5030,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -5084,7 +5083,7 @@ invalidRect
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -5136,7 +5135,7 @@ invalidRegion
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -5185,7 +5184,7 @@ ForceRedraw
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -5219,7 +5218,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -5342,7 +5341,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -5379,7 +5378,7 @@ NS_ERROR_FAILURE
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -5398,7 +5397,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :
@@ -5427,7 +5426,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsNPAPIPluginInstance
 :
 :

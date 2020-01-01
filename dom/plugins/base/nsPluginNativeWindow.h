@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -21,7 +28,7 @@ h
 #
 include
 "
-nsIPluginInstance
+nsNPAPIPluginInstance
 .
 h
 "
@@ -85,9 +92,9 @@ public
 nsresult
 GetPluginInstance
 (
-nsCOMPtr
+nsRefPtr
 <
-nsIPluginInstance
+nsNPAPIPluginInstance
 >
 &
 aPluginInstance
@@ -104,7 +111,7 @@ NS_OK
 nsresult
 SetPluginInstance
 (
-nsIPluginInstance
+nsNPAPIPluginInstance
 *
 aPluginInstance
 )
@@ -167,9 +174,9 @@ virtual
 nsresult
 CallSetWindow
 (
-nsCOMPtr
+nsRefPtr
 <
-nsIPluginInstance
+nsNPAPIPluginInstance
 >
 &
 aPluginInstance
@@ -239,9 +246,9 @@ mPlugWindow
 endif
 protected
 :
-nsCOMPtr
+nsRefPtr
 <
-nsIPluginInstance
+nsNPAPIPluginInstance
 >
 mPluginInstance
 ;

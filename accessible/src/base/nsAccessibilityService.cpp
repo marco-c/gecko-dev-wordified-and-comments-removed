@@ -211,7 +211,7 @@ h
 #
 include
 "
-nsIPluginInstance
+nsNPAPIPluginInstance
 .
 h
 "
@@ -1426,9 +1426,9 @@ defined
 (
 MOZ_ACCESSIBILITY_ATK
 )
-nsCOMPtr
+nsRefPtr
 <
-nsIPluginInstance
+nsNPAPIPluginInstance
 >
 pluginInstance
 ;
@@ -1441,7 +1441,6 @@ aFrame
 >
 GetPluginInstance
 (
-*
 getter_AddRefs
 (
 pluginInstance

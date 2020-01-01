@@ -1,6 +1,13 @@
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsGenericHTMLElement
 .
 h
@@ -83,7 +90,7 @@ h
 #
 include
 "
-nsIPluginInstance
+nsNPAPIPluginInstance
 .
 h
 "
@@ -1296,9 +1303,9 @@ return
 NS_OK
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
-nsIPluginInstance
+nsNPAPIPluginInstance
 >
 pi
 ;
@@ -1307,7 +1314,6 @@ objFrame
 >
 GetPluginInstance
 (
-*
 getter_AddRefs
 (
 pi

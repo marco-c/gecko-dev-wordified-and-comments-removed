@@ -121,9 +121,9 @@ virtual
 nsresult
 CallSetWindow
 (
-nsCOMPtr
+nsRefPtr
 <
-nsIPluginInstance
+nsNPAPIPluginInstance
 >
 &
 aPluginInstance
@@ -582,9 +582,9 @@ nsPluginNativeWindowGtk2
 :
 CallSetWindow
 (
-nsCOMPtr
+nsRefPtr
 <
-nsIPluginInstance
+nsNPAPIPluginInstance
 >
 &
 aPluginInstance

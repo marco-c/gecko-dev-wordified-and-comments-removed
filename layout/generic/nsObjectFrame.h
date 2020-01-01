@@ -355,12 +355,12 @@ nsStyleContext
 aOldStyleContext
 )
 ;
-NS_IMETHOD
+NS_METHOD
 GetPluginInstance
 (
-nsIPluginInstance
+nsNPAPIPluginInstance
 *
-&
+*
 aPluginInstance
 )
 ;
