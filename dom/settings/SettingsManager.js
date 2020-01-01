@@ -6,7 +6,7 @@ strict
 const
 DEBUG
 =
-true
+false
 ;
 function
 debug
