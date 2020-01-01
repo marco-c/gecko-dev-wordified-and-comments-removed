@@ -1927,7 +1927,7 @@ setMigratedHistory
 {
 setBooleanPrefTrue
 (
-PREFS_MIGRATE_BOOKMARKS_DONE
+PREFS_MIGRATE_HISTORY_DONE
 )
 ;
 }
