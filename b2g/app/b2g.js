@@ -1682,6 +1682,16 @@ faq
 pref
 (
 "
+app
+.
+reportCrashes
+"
+true
+)
+;
+pref
+(
+"
 security
 .
 alternate_certificate_error_page
