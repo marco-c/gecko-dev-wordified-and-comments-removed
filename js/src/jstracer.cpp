@@ -31904,16 +31904,10 @@ JS_ASSERT
 (
 FUN_SLOW_NATIVE
 (
-GET_FUNCTION_PRIVATE
-(
-cx
 fp
 -
 >
-callee
-(
-)
-)
+fun
 )
 )
 ;
