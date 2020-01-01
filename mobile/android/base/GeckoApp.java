@@ -102,6 +102,17 @@ gecko
 .
 gfx
 .
+LayerView
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
+gfx
+.
 PlaceholderLayerClient
 ;
 import

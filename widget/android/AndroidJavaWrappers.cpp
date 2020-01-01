@@ -4955,6 +4955,7 @@ nsIntRect
 &
 aRect
 )
+{
 NS_ASSERTION
 (
 !

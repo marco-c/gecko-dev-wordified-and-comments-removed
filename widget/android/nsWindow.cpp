@@ -3527,6 +3527,10 @@ HasDirectTexture
 (
 )
 {
+if
+(
+true
+)
 return
 false
 ;
