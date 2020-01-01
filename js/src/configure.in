@@ -17769,6 +17769,8 @@ lgdi32
 lwinmm
 -
 lwsock32
+-
+lpsapi
 "
 MOZ_JS_LIBS
 =
@@ -18131,6 +18133,9 @@ wsock32
 .
 lib
 advapi32
+.
+lib
+psapi
 .
 lib
 "
