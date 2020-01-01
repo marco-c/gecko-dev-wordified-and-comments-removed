@@ -138,6 +138,10 @@ HTMLAnchorElement
 .
 h
 \
+HTMLAreaElement
+.
+h
+\
 HTMLBodyElement
 .
 h
@@ -324,7 +328,7 @@ HTMLAnchorElement
 .
 cpp
 \
-nsHTMLAreaElement
+HTMLAreaElement
 .
 cpp
 \
