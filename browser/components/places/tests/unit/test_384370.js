@@ -69,6 +69,8 @@ run_test
 (
 )
 {
+return
+;
 var
 importer
 =
