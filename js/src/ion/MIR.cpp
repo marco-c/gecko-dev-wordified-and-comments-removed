@@ -2074,7 +2074,7 @@ const
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 types
 )

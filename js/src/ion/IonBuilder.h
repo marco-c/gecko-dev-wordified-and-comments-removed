@@ -1164,7 +1164,7 @@ barrier
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 types
 )
@@ -2412,7 +2412,7 @@ const
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 cloneTypeSet
 (
@@ -2420,7 +2420,7 @@ const
 types
 :
 :
-TypeSet
+StackTypeSet
 *
 types
 )

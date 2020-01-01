@@ -4669,7 +4669,7 @@ NULL
 if
 (
 !
-EliminateRedundantBoundsChecks
+EliminateRedundantChecks
 (
 graph
 )

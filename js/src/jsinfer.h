@@ -1484,7 +1484,7 @@ TYPE_FLAG_DEFINITE_SHIFT
 ;
 }
 const
-TypeSet
+StackTypeSet
 *
 clone
 (
@@ -2043,6 +2043,18 @@ cx
 jsid
 id
 )
+;
+bool
+filtersType
+(
+const
+StackTypeSet
+*
+other
+Type
+type
+)
+const
 ;
 bool
 knownNonStringPrimitive
