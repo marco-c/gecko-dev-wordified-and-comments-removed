@@ -856,13 +856,6 @@ nsContextMenu
 prototype
 =
 {
-onDestroy
-:
-function
-(
-)
-{
-}
 initMenu
 :
 function
