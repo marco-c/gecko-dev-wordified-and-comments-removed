@@ -76,6 +76,13 @@ h
 #
 include
 "
+xpcpublic
+.
+h
+"
+#
+include
+"
 XPCShellEnvironment
 .
 h
@@ -4695,6 +4702,11 @@ return
 false
 ;
 }
+xpc_LocalizeContext
+(
+cx
+)
+;
 nsRefPtr
 <
 FullTrustSecMan
