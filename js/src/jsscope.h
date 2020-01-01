@@ -805,8 +805,6 @@ flags
 |
 =
 METHOD_BARRIER
-|
-BRANDED
 ;
 }
 bool
