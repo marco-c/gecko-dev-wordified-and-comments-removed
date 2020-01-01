@@ -12128,10 +12128,6 @@ textAlign
 =
 TEXT_ALIGN_CENTER
 ;
-else
-return
-NS_ERROR_INVALID_ARG
-;
 return
 NS_OK
 ;
@@ -12376,10 +12372,6 @@ CurrentState
 textBaseline
 =
 TEXT_BASELINE_BOTTOM
-;
-else
-return
-NS_ERROR_INVALID_ARG
 ;
 return
 NS_OK
