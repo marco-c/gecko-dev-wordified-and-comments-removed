@@ -416,10 +416,6 @@ HTMLLabelElement
 .
 cpp
 \
-nsHTMLLegendElement
-.
-cpp
-\
 HTMLLegendElement
 .
 cpp
