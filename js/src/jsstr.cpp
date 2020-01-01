@@ -5657,13 +5657,6 @@ return
 true
 ;
 }
-JSLinearString
-*
-*
-innerp
-=
-outerp
-;
 const
 jschar
 *
@@ -5750,6 +5743,13 @@ t
 p0
 )
 continue
+;
+JSLinearString
+*
+*
+innerp
+=
+outerp
 ;
 const
 jschar
