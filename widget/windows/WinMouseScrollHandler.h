@@ -64,6 +64,9 @@ ModifierKeyState
 class
 WheelEvent
 ;
+struct
+MSGResult
+;
 class
 MouseScrollHandler
 {
@@ -101,12 +104,9 @@ WPARAM
 wParam
 LPARAM
 lParam
-LRESULT
-*
-aRetValue
-bool
+MSGResult
 &
-aEatMessage
+aResult
 )
 ;
 static
