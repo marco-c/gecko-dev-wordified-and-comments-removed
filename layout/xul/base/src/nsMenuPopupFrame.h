@@ -75,14 +75,6 @@ nsITimer
 h
 "
 enum
-nsPopupType
-{
-ePopupTypePanel
-ePopupTypeMenu
-ePopupTypeTooltip
-}
-;
-enum
 nsPopupState
 {
 ePopupClosed
@@ -491,7 +483,7 @@ Enter
 (
 )
 ;
-PRInt32
+nsPopupType
 PopupType
 (
 )

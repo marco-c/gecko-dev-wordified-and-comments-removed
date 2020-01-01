@@ -387,6 +387,11 @@ anonid
 "
 popup
 "
+noautofocus
+=
+"
+true
+"
 xbl
 :
 inherits
