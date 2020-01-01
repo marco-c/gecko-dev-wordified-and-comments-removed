@@ -3445,6 +3445,15 @@ run
 (
 )
 {
+mAppContext
+.
+mDoorHanger
+.
+removeForTab
+(
+tabId
+)
+;
 if
 (
 Tabs
