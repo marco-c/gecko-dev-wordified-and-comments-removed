@@ -268,14 +268,9 @@ aSurface
 0
 ;
 virtual
-nsresult
+bool
 UseAsyncPainting
 (
-NPP
-instance
-PRBool
-*
-aIsAsync
 )
 =
 0
