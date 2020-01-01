@@ -340,6 +340,12 @@ tni
 UnwindScope
 (
 cx
+cx
+-
+>
+fp
+(
+)
 tn
 -
 >
@@ -3155,6 +3161,12 @@ finishedInInterpreter
 UnwindScope
 (
 cx
+cx
+-
+>
+fp
+(
+)
 0
 )
 ;

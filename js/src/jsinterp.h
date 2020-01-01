@@ -641,6 +641,8 @@ UnwindScope
 JSContext
 *
 cx
+AbstractFramePtr
+frame
 uint32_t
 stackDepth
 )
