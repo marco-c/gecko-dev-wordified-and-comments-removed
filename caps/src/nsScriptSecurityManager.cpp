@@ -248,6 +248,13 @@ h
 #
 include
 "
+nsIDocShellTreeItem
+.
+h
+"
+#
+include
+"
 nsIPrompt
 .
 h

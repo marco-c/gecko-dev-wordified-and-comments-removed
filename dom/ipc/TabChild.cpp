@@ -309,6 +309,13 @@ h
 #
 include
 "
+nsIDocShellTreeItem
+.
+h
+"
+#
+include
+"
 nsIInterfaceRequestorUtils
 .
 h

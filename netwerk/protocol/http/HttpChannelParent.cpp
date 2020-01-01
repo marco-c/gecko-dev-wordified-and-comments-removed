@@ -78,6 +78,13 @@ h
 #
 include
 "
+nsIDocShellTreeItem
+.
+h
+"
+#
+include
+"
 nsIBadCertListener2
 .
 h

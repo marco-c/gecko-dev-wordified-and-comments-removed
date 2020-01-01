@@ -235,6 +235,13 @@ h
 #
 include
 "
+nsIDocShellTreeItem
+.
+h
+"
+#
+include
+"
 nsParserCIID
 .
 h

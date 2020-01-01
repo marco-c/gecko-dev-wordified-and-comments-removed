@@ -406,6 +406,13 @@ h
 #
 include
 "
+nsIDocShellTreeItem
+.
+h
+"
+#
+include
+"
 nsIDocShellTreeOwner
 .
 h
