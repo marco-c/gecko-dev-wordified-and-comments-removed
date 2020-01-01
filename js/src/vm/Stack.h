@@ -175,6 +175,7 @@ SnapshotIterator
 ;
 }
 class
+MOZ_STACK_CLASS
 CallArgsList
 :
 public

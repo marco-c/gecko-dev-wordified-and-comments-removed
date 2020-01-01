@@ -98,6 +98,7 @@ namespace
 JS
 {
 class
+MOZ_STACK_CLASS
 CallReceiver
 {
 protected
@@ -447,6 +448,7 @@ vp
 ;
 }
 class
+MOZ_STACK_CLASS
 CallArgs
 :
 public
