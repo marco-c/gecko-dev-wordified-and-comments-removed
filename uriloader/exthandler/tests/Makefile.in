@@ -523,3 +523,17 @@ srcdir
 )
 /
 mailcap
+echo
+"
+PERSONAL_MAILCAP
+=
+(
+CURDIR
+)
+/
+(
+srcdir
+)
+/
+mailcap
+"
