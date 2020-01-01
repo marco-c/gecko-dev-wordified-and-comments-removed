@@ -1935,6 +1935,16 @@ state
 =
 SAOS2_EXIT
 ;
+if
+(
+s
+-
+>
+freeCnt
+<
+SAOS2_BUF_CNT
+)
+{
 memset
 (
 buf
@@ -1957,6 +1967,7 @@ nchannels
 SAOS2_SAMPLE_SIZE
 )
 ;
+}
 if
 (
 s
