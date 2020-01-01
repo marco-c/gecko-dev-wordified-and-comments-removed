@@ -459,10 +459,6 @@ nsOggReader
 .
 cpp
 \
-nsOggPlayStateMachine
-.
-cpp
-\
 (
 NULL
 )
