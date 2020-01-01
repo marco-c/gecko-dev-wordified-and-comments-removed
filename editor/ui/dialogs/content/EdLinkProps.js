@@ -855,6 +855,9 @@ ChangeLinkLocation
 {
 SetRelativeCheckbox
 (
+gDialog
+.
+makeRelativeLink
 )
 ;
 doEnabling
