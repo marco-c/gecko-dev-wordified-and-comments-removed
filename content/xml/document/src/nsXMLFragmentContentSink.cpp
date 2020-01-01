@@ -379,6 +379,8 @@ aResult
 PRBool
 *
 aAppendContent
+PRBool
+aFromParser
 )
 ;
 virtual
@@ -803,6 +805,8 @@ aResult
 PRBool
 *
 aAppendContent
+PRBool
+aFromParser
 )
 {
 nsresult
@@ -819,6 +823,7 @@ aNodeInfo
 aLineNumber
 aResult
 aAppendContent
+PR_FALSE
 )
 ;
 if
