@@ -249,6 +249,17 @@ bind
 returnLabel_
 )
 ;
+#
+if
+JS_TRACE_LOGGING
+masm
+.
+tracelogStop
+(
+)
+;
+#
+endif
 if
 (
 gen
