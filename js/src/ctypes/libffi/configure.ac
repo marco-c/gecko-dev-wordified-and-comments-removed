@@ -1659,7 +1659,7 @@ libffi_cv_as_x86_pcrel
 [
 libffi_cv_as_x86_pcrel
 =
-yes
+no
 echo
 '
 .
@@ -1693,19 +1693,6 @@ c
 conftest
 .
 s
-2
->
-&
-1
-|
-EGREP
--
-i
-'
-illegal
-|
-warning
-'
 >
 /
 dev
@@ -1715,7 +1702,7 @@ null
 then
 libffi_cv_as_x86_pcrel
 =
-no
+yes
 fi
 ]
 )
