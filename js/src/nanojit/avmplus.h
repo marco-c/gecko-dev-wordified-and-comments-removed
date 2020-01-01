@@ -982,6 +982,10 @@ show_stats
 ;
 #
 endif
+tree_opt
+=
+0
+;
 }
 uint32_t
 tree_opt
