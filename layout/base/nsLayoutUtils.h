@@ -41,9 +41,6 @@ class
 nsFontFaceList
 ;
 class
-nsHTMLCanvasElement
-;
-class
 nsHTMLVideoElement
 ;
 class
@@ -176,6 +173,9 @@ Element
 ;
 class
 HTMLImageElement
+;
+class
+HTMLCanvasElement
 ;
 }
 }
@@ -2760,7 +2760,13 @@ static
 SurfaceFromElementResult
 SurfaceFromElement
 (
-nsHTMLCanvasElement
+mozilla
+:
+:
+dom
+:
+:
+HTMLCanvasElement
 *
 aElement
 uint32_t
