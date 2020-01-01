@@ -420,8 +420,6 @@ static
 nsresult
 SetDiskSmartSize
 (
-bool
-checkPref
 )
 ;
 nsresult
@@ -471,10 +469,6 @@ nsSetSmartSizeEvent
 friend
 class
 nsBlockOnCacheThreadEvent
-;
-friend
-class
-nsSetDiskSmartSizeCallback
 ;
 static
 void
