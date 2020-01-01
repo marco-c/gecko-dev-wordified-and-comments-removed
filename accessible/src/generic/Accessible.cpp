@@ -6987,7 +6987,7 @@ AsElement
 aState
 |
 =
-nsARIAMap
+aria
 :
 :
 UniversalStatesFor
