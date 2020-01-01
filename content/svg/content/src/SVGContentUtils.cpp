@@ -1490,10 +1490,6 @@ SVGContentUtils
 :
 GetViewBoxTransform
 (
-const
-nsSVGElement
-*
-aElement
 float
 aViewportWidth
 float
@@ -1515,7 +1511,6 @@ aPreserveAspectRatio
 return
 GetViewBoxTransform
 (
-aElement
 aViewportWidth
 aViewportHeight
 aViewboxX
@@ -1536,10 +1531,6 @@ SVGContentUtils
 :
 GetViewBoxTransform
 (
-const
-nsSVGElement
-*
-aElement
 float
 aViewportWidth
 float

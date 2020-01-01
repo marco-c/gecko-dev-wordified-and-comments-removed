@@ -26951,7 +26951,6 @@ SVGContentUtils
 :
 GetViewBoxTransform
 (
-this
 filterSubregion
 .
 Width

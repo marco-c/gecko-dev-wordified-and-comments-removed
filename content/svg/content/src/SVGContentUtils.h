@@ -360,10 +360,6 @@ static
 gfxMatrix
 GetViewBoxTransform
 (
-const
-nsSVGElement
-*
-aElement
 float
 aViewportWidth
 float
@@ -386,10 +382,6 @@ static
 gfxMatrix
 GetViewBoxTransform
 (
-const
-nsSVGElement
-*
-aElement
 float
 aViewportWidth
 float
