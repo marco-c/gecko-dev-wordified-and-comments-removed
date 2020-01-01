@@ -148,6 +148,11 @@ AsyncPanZoomController
 (
 )
 ;
+void
+Destroy
+(
+)
+;
 nsEventStatus
 ReceiveInputEvent
 (

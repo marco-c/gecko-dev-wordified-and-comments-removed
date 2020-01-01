@@ -3875,6 +3875,13 @@ ClearRenderFrame
 (
 )
 ;
+mPanZoomController
+-
+>
+Destroy
+(
+)
+;
 }
 }
 if
