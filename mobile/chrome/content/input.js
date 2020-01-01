@@ -2238,16 +2238,6 @@ if
 (
 elem
 .
-ignoreDrag
-)
-{
-break
-;
-}
-if
-(
-elem
-.
 scrollBoxObject
 )
 {
