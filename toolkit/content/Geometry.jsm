@@ -914,6 +914,7 @@ _active
 false
 ;
 }
+;
 Util
 .
 Timeout
@@ -1703,6 +1704,7 @@ top
 )
 ;
 }
+;
 Rect
 .
 prototype
