@@ -705,9 +705,7 @@ NS_UNCONSTRAINEDSIZE
 PR_MAX
 (
 0
-mReflowState
-.
-availableHeight
+mBottomEdge
 -
 mY
 )
