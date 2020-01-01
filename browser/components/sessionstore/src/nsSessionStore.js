@@ -1168,6 +1168,12 @@ __SS_data
 ;
 this
 .
+_lastWindowClosed
+=
+null
+;
+this
+.
 _clearDisk
 (
 )
@@ -6714,7 +6720,7 @@ _tab
 ;
 }
 var
-aIdMap
+idMap
 =
 {
 used
@@ -6729,7 +6735,7 @@ restoreHistory
 (
 aWindow
 aTabs
-aIdMap
+idMap
 )
 ;
 }
