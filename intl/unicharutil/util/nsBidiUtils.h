@@ -290,6 +290,16 @@ sourceclipboardtextmodeBidi
 *
 #
 define
+IBMBIDI_NUMERAL_NOMINAL
+0
+/
+/
+0
+=
+nominalnumeralBidi
+*
+#
+define
 IBMBIDI_NUMERAL_REGULAR
 1
 /
@@ -297,7 +307,6 @@ IBMBIDI_NUMERAL_REGULAR
 1
 =
 regularcontextnumeralBidi
-*
 #
 define
 IBMBIDI_NUMERAL_HINDICONTEXT
@@ -410,7 +419,7 @@ IBMBIDI_CLIPBOARDTEXTMODE_SOURCE
 |
 \
 (
-IBMBIDI_NUMERAL_REGULAR
+IBMBIDI_NUMERAL_NOMINAL
 <
 <
 16

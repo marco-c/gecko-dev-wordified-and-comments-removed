@@ -3462,7 +3462,11 @@ i
 ;
 break
 ;
-default
+case
+IBMBIDI_NUMERAL_REGULAR
+:
+case
+IBMBIDI_NUMERAL_HINDICONTEXT
 :
 for
 (
@@ -3519,6 +3523,11 @@ i
 )
 ;
 }
+case
+IBMBIDI_NUMERAL_NOMINAL
+:
+default
+:
 break
 ;
 }
