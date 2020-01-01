@@ -88,6 +88,14 @@ VK_OEM_3
 0xC0
 #
 define
+VK_ABNT_C1
+0xC1
+#
+define
+VK_ABNT_C2
+0xC2
+#
+define
 VK_OEM_4
 0xDB
 #

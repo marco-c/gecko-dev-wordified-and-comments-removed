@@ -1507,6 +1507,11 @@ KEY_MAP_WIN
 Separator
 VK_SEPARATOR
 )
+KEY_MAP_WIN
+(
+Separator
+VK_ABNT_C2
+)
 KEY_MAP_COCOA
 (
 Separator
