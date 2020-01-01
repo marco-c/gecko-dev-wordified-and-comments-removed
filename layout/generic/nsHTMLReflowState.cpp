@@ -9032,8 +9032,11 @@ nsLayoutUtils
 :
 FontSizeInflationFor
 (
-*
-this
+frame
+nsLayoutUtils
+:
+:
+eInReflow
 )
 )
 ;
