@@ -3224,11 +3224,6 @@ _urisLimit
 )
 {
 const
-MEMSIZE_MAX_BYTES
-=
-137438953472
-;
-const
 MEMSIZE_FALLBACK_BYTES
 =
 268435456
@@ -3253,11 +3248,6 @@ memsize
 <
 =
 0
-|
-|
-memsize
->
-MEMSIZE_MAX_BYTES
 )
 memsize
 =
