@@ -15187,7 +15187,7 @@ arg12
 )
 Test
 argument
-formater
+formatter
 "
 #
 endif
