@@ -2060,13 +2060,6 @@ filename16
 =
 filepath16
 +
-NS_LITERAL_STRING
-(
-"
-/
-"
-)
-+
 filename16
 ;
 }

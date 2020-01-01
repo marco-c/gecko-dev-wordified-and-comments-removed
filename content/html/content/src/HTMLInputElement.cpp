@@ -1758,16 +1758,13 @@ leafName
 Length
 (
 )
--
-1
 ;
 MOZ_ASSERT
 (
 length
 >
 =
--
-1
+0
 )
 ;
 if
