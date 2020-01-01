@@ -29991,6 +29991,16 @@ if
 obj
 -
 >
+isNative
+(
+)
+)
+{
+if
+(
+obj
+-
+>
 inDictionaryMode
 (
 )
@@ -30031,6 +30041,7 @@ anyFlags
 =
 true
 ;
+}
 }
 if
 (
