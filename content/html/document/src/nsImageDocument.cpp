@@ -1201,6 +1201,15 @@ if
 imageLoader
 )
 {
+nsCxPusher
+pusher
+;
+pusher
+.
+PushNull
+(
+)
+;
 imageLoader
 -
 >
