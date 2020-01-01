@@ -625,6 +625,10 @@ browser_openDialog
 .
 js
 \
+browser_types
+.
+js
+\
 (
 NULL
 )

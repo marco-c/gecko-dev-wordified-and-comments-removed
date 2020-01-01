@@ -1167,7 +1167,7 @@ getElementById
 "
 category
 -
-plugins
+plugin
 "
 )
 {
@@ -1952,7 +1952,7 @@ getElementById
 "
 category
 -
-plugins
+plugin
 "
 )
 {
@@ -2274,7 +2274,7 @@ getElementById
 "
 category
 -
-extensions
+extension
 "
 )
 {
@@ -4090,7 +4090,7 @@ getElementById
 "
 category
 -
-plugins
+plugin
 "
 )
 {
@@ -5116,7 +5116,7 @@ getElementById
 "
 category
 -
-plugins
+plugin
 "
 )
 {
@@ -5367,7 +5367,7 @@ getElementById
 "
 category
 -
-plugins
+plugin
 "
 )
 {

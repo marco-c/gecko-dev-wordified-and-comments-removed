@@ -119,7 +119,7 @@ getElementById
 "
 category
 -
-plugins
+plugin
 "
 )
 {
