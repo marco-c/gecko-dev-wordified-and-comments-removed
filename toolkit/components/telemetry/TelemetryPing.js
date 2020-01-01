@@ -178,7 +178,7 @@ MEMORY_JS_GC_HEAP
 js
 -
 compartments
--
+/
 system
 "
 :
@@ -189,7 +189,7 @@ MEMORY_JS_COMPARTMENTS_SYSTEM
 js
 -
 compartments
--
+/
 user
 "
 :
@@ -282,7 +282,7 @@ low
 memory
 -
 events
--
+/
 virtual
 "
 :
@@ -295,7 +295,7 @@ low
 memory
 -
 events
--
+/
 physical
 "
 :
