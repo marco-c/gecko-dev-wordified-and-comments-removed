@@ -41262,6 +41262,15 @@ DocumentModifiedWorker
 {
 nsCOMPtr
 <
+nsIHTMLEditor
+>
+kungFuDeathGrip
+(
+mHTMLEditor
+)
+;
+nsCOMPtr
+<
 nsISelection
 >
 selection
