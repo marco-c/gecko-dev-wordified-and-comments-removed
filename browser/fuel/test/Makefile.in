@@ -466,6 +466,10 @@ browser_Browser
 .
 js
 \
+browser_Extensions
+.
+js
+\
 ContentA
 .
 html

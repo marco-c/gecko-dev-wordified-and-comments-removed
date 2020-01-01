@@ -2103,16 +2103,6 @@ false
 user_pref
 (
 "
-extensions
-.
-enabledScopes
-"
-3
-)
-;
-user_pref
-(
-"
 geo
 .
 wifi

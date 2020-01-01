@@ -609,6 +609,17 @@ GREPREF_FILES
 topsrcdir
 )
 /
+xpinstall
+/
+public
+/
+xpinstall
+.
+js
+(
+topsrcdir
+)
+/
 netwerk
 /
 base
