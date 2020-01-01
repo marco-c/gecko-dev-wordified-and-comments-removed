@@ -8378,6 +8378,9 @@ mColumnRuleColor
 PRUint8
 mColumnRuleStyle
 ;
+PRUint8
+mColumnFill
+;
 bool
 mColumnRuleColorIsForeground
 ;

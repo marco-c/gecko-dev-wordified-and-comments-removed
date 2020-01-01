@@ -1143,6 +1143,13 @@ kColorInterpolationKTable
 static
 const
 PRInt32
+kColumnFillKTable
+[
+]
+;
+static
+const
+PRInt32
 kBoxPropSourceKTable
 [
 ]
