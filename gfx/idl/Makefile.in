@@ -437,7 +437,7 @@ gfxIImageFrame
 .
 idl
 \
-gfxtypes
+gfxidltypes
 .
 idl
 \

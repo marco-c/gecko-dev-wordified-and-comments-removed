@@ -447,7 +447,7 @@ idl
 #
 include
 "
-gfxtypes
+gfxidltypes
 .
 idl
 "
