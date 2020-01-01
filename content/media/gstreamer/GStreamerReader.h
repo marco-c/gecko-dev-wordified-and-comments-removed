@@ -51,6 +51,15 @@ diagnostic
 ignored
 "
 -
+Wpragmas
+"
+#
+pragma
+GCC
+diagnostic
+ignored
+"
+-
 Wreserved
 -
 user
