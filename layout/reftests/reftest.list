@@ -369,6 +369,15 @@ reftest
 list
 #
 image
+/
+include
+image
+/
+reftest
+.
+list
+#
+image
 -
 region
 /
