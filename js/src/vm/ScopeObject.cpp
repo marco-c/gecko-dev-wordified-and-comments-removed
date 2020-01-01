@@ -656,8 +656,6 @@ RootedShape
 shape
 (
 cx
-shape
-=
 script
 -
 >
