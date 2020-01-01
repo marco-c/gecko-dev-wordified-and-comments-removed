@@ -2589,6 +2589,14 @@ xpcom
 "
 )
 ;
+if
+(
+gShutdownChecks
+!
+=
+SCM_NOTHING
+)
+{
 mozilla
 :
 :
@@ -2596,6 +2604,7 @@ PoisonWrite
 (
 )
 ;
+}
 nsCycleCollector_shutdown
 (
 )
