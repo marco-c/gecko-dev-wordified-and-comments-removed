@@ -222,7 +222,7 @@ bool
 aPushedFrame
 )
 ;
-nsresult
+void
 AddBulletFrame
 (
 nsIFrame
@@ -1280,13 +1280,10 @@ endif
 PLArenaPool
 mArena
 ;
-nsresult
-NewPerFrameData
-(
 PerFrameData
 *
-*
-aResult
+NewPerFrameData
+(
 )
 ;
 PerSpanData
