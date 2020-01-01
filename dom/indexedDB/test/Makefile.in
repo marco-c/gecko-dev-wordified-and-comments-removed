@@ -499,10 +499,6 @@ test_clear
 .
 html
 \
-test_cmp
-.
-html
-\
 test_complex_keyPaths
 .
 html
@@ -632,6 +628,10 @@ test_indexes_bad_values
 html
 \
 test_key_requirements
+.
+html
+\
+test_keys
 .
 html
 \

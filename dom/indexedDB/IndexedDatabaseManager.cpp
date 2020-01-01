@@ -126,6 +126,13 @@ h
 #
 include
 "
+xpcprivate
+.
+h
+"
+#
+include
+"
 AsyncConnectionHelper
 .
 h
