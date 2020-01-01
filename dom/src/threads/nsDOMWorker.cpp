@@ -3786,7 +3786,7 @@ nsDOMWorkerFunctions
 :
 NewXMLHttpRequest
 0
-JSFUN_CONSTRUCTOR
+0
 }
 {
 "
@@ -3797,7 +3797,7 @@ nsDOMWorkerFunctions
 :
 NewWorker
 1
-JSFUN_CONSTRUCTOR
+0
 }
 {
 "
@@ -3844,7 +3844,7 @@ nsDOMWorkerFunctions
 :
 NewChromeWorker
 1
-JSFUN_CONSTRUCTOR
+0
 }
 {
 nsnull

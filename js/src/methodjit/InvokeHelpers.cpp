@@ -1912,7 +1912,7 @@ ucr
 fun
 -
 >
-isInterpretedConstructor
+isInterpreted
 (
 )
 )

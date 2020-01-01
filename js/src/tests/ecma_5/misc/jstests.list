@@ -122,16 +122,6 @@ bug632003
 .
 js
 script
-new
--
-with
--
-non
--
-constructor
-.
-js
-script
 error
 -
 undefined
