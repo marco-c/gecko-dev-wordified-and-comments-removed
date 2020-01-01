@@ -68,7 +68,7 @@ Services
 .
 search
 .
-originalDefaultEngine
+defaultEngine
 ;
 ok
 (

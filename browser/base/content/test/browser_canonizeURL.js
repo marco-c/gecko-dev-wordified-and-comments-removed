@@ -278,7 +278,7 @@ Services
 .
 search
 .
-originalDefaultEngine
+defaultEngine
 .
 getSubmission
 (
