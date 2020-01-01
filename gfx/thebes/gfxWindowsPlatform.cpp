@@ -619,6 +619,11 @@ mUseClearTypeAlways
 =
 UNINITIALIZED_VALUE
 ;
+CoInitialize
+(
+NULL
+)
+;
 mScreenDC
 =
 GetDC
@@ -1172,6 +1177,10 @@ mD2DDevice
 }
 #
 endif
+CoUninitialize
+(
+)
+;
 }
 gfxPlatformFontList
 *
