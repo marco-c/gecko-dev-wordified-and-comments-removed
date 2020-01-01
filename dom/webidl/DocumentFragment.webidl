@@ -281,3 +281,7 @@ selectors
 ;
 }
 ;
+DocumentFragment
+implements
+ParentNode
+;
