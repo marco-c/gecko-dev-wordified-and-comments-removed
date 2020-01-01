@@ -1488,7 +1488,7 @@ ifdef
 AVMPLUS_SPARC
 #
 ifdef
-__linux__
+linux
 void
 sync_instruction_memory
 (
