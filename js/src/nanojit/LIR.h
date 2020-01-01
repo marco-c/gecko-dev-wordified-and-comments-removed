@@ -4126,13 +4126,13 @@ sp
 rp
 ;
 LInsp
-savedParams
+savedRegs
 [
 NumSavedRegs
 ]
 ;
 bool
-explicitSavedParams
+explicitSavedRegs
 ;
 protected
 :
