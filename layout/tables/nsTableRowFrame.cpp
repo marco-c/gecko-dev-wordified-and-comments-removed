@@ -939,7 +939,11 @@ aPrevFrame
 cellFrameType
 )
 ;
-nsVoidArray
+nsTArray
+<
+nsTableCellFrame
+*
+>
 cellChildren
 ;
 for
@@ -979,7 +983,14 @@ cellChildren
 .
 AppendElement
 (
+static_cast
+<
+nsTableCellFrame
+*
+>
+(
 childFrame
+)
 )
 ;
 }

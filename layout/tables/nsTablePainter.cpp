@@ -2412,7 +2412,10 @@ NS_ASSERTION
 (
 colIndex
 <
+PRInt32
+(
 mNumCols
+)
 "
 prevent
 array
@@ -2423,7 +2426,10 @@ violation
 ;
 if
 (
+PRInt32
+(
 mNumCols
+)
 <
 =
 colIndex
