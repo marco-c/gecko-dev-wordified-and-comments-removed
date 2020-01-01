@@ -6169,7 +6169,7 @@ ip
 )
 =
 =
-4
+0
 )
 ;
 NanoAssert
@@ -6184,7 +6184,7 @@ sp
 )
 =
 =
-8
+4
 )
 ;
 RegisterMask
@@ -6213,7 +6213,7 @@ sp_adj
 )
 ADDi
 (
-R3
+R2
 exit
 -
 >
@@ -6229,7 +6229,7 @@ ip_adj
 )
 ADDi
 (
-R2
+R1
 exit
 -
 >
