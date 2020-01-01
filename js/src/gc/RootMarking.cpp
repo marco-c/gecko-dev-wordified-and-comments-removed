@@ -4607,7 +4607,6 @@ mark
 trc
 )
 ;
-}
 for
 (
 size_t
@@ -4681,18 +4680,6 @@ IS_GC_MARKING_TRACER
 (
 trc
 )
-&
-&
-!
-trc
--
->
-runtime
--
->
-isHeapMinorCollecting
-(
-)
 )
 (
 *
@@ -4708,6 +4695,7 @@ gcGrayRootTracer
 data
 )
 ;
+}
 }
 }
 void
