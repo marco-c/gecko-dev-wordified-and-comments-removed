@@ -5357,8 +5357,12 @@ JSPROP_PERMANENT
 )
 )
 ;
-JS_ASSERT
+JS_ASSERT_IF
 (
+attrs
+!
+=
+JSPROP_ENUMERATE
 !
 (
 old
