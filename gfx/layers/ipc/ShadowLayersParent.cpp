@@ -1389,6 +1389,16 @@ AsContainer
 (
 )
 ;
+if
+(
+mHost
+-
+>
+GetCompositorParent
+(
+)
+)
+{
 mLayerManager
 -
 >
@@ -1397,6 +1407,7 @@ SetRoot
 mRoot
 )
 ;
+}
 break
 ;
 }
