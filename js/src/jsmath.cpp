@@ -3585,7 +3585,6 @@ abs
 math_abs
 1
 0
-&
 math_abs_trcinfo
 )
 JS_TN
@@ -3596,7 +3595,6 @@ acos
 math_acos
 1
 0
-&
 math_acos_trcinfo
 )
 JS_TN
@@ -3607,7 +3605,6 @@ asin
 math_asin
 1
 0
-&
 math_asin_trcinfo
 )
 JS_TN
@@ -3618,7 +3615,6 @@ atan
 math_atan
 1
 0
-&
 math_atan_trcinfo
 )
 JS_TN
@@ -3629,7 +3625,6 @@ atan2
 math_atan2
 2
 0
-&
 math_atan2_trcinfo
 )
 JS_TN
@@ -3640,7 +3635,6 @@ ceil
 js_math_ceil
 1
 0
-&
 js_math_ceil_trcinfo
 )
 JS_TN
@@ -3651,7 +3645,6 @@ cos
 math_cos
 1
 0
-&
 math_cos_trcinfo
 )
 JS_TN
@@ -3662,7 +3655,6 @@ exp
 math_exp
 1
 0
-&
 math_exp_trcinfo
 )
 JS_TN
@@ -3673,7 +3665,6 @@ floor
 js_math_floor
 1
 0
-&
 js_math_floor_trcinfo
 )
 JS_TN
@@ -3684,7 +3675,6 @@ log
 math_log
 1
 0
-&
 math_log_trcinfo
 )
 JS_TN
@@ -3695,7 +3685,6 @@ max
 js_math_max
 2
 0
-&
 js_math_max_trcinfo
 )
 JS_TN
@@ -3706,7 +3695,6 @@ min
 js_math_min
 2
 0
-&
 js_math_min_trcinfo
 )
 JS_TN
@@ -3717,7 +3705,6 @@ pow
 math_pow
 2
 0
-&
 math_pow_trcinfo
 )
 JS_TN
@@ -3728,7 +3715,6 @@ random
 math_random
 0
 0
-&
 math_random_trcinfo
 )
 JS_TN
@@ -3739,7 +3725,6 @@ round
 js_math_round
 1
 0
-&
 js_math_round_trcinfo
 )
 JS_TN
@@ -3750,7 +3735,6 @@ sin
 math_sin
 1
 0
-&
 math_sin_trcinfo
 )
 JS_TN
@@ -3761,7 +3745,6 @@ sqrt
 math_sqrt
 1
 0
-&
 math_sqrt_trcinfo
 )
 JS_TN
@@ -3772,7 +3755,6 @@ tan
 math_tan
 1
 0
-&
 math_tan_trcinfo
 )
 JS_FS_END

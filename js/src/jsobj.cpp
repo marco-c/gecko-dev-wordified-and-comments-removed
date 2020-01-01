@@ -8829,7 +8829,6 @@ js_valueOf_str
 obj_valueOf
 0
 0
-&
 obj_valueOf_trcinfo
 )
 #
@@ -8857,7 +8856,6 @@ js_hasOwnProperty_str
 obj_hasOwnProperty
 1
 0
-&
 obj_hasOwnProperty_trcinfo
 )
 JS_FN
@@ -8873,7 +8871,6 @@ js_propertyIsEnumerable_str
 obj_propertyIsEnumerable
 1
 0
-&
 obj_propertyIsEnumerable_trcinfo
 )
 #

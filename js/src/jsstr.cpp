@@ -11930,7 +11930,6 @@ js_toString_str
 js_str_toString
 0
 JSFUN_THISP_STRING
-&
 js_str_toString_trcinfo
 )
 JS_FN
@@ -11982,7 +11981,6 @@ charAt
 str_charAt
 1
 GENERIC_PRIMITIVE
-&
 str_charAt_trcinfo
 )
 JS_TN
@@ -11993,7 +11991,6 @@ charCodeAt
 str_charCodeAt
 1
 GENERIC_PRIMITIVE
-&
 str_charCodeAt_trcinfo
 )
 JS_FN
@@ -12126,7 +12123,6 @@ concat
 str_concat
 1
 GENERIC_PRIMITIVE
-&
 str_concat_trcinfo
 )
 JS_FN
@@ -12785,7 +12781,6 @@ fromCharCode
 str_fromCharCode
 1
 0
-&
 str_fromCharCode_trcinfo
 )
 JS_FS_END

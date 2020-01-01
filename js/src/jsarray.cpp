@@ -71,13 +71,6 @@ h
 #
 include
 "
-jstracer
-.
-h
-"
-#
-include
-"
 jsbuiltins
 .
 h
@@ -15576,7 +15569,6 @@ js_toString_str
 array_toString
 0
 0
-&
 array_toString_trcinfo
 )
 JS_FN
@@ -15594,7 +15586,6 @@ join
 array_join
 1
 JSFUN_GENERIC_NATIVE
-&
 array_join_trcinfo
 )
 JS_FN
@@ -15623,7 +15614,6 @@ push
 array_push
 1
 JSFUN_GENERIC_NATIVE
-&
 array_push_trcinfo
 )
 JS_TN
@@ -15634,7 +15624,6 @@ pop
 array_pop
 0
 JSFUN_GENERIC_NATIVE
-&
 array_pop_trcinfo
 )
 JS_FN

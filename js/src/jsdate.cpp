@@ -10230,7 +10230,6 @@ now
 date_now
 0
 0
-&
 date_now_trcinfo
 )
 JS_FS_END
@@ -10677,7 +10676,6 @@ js_valueOf_str
 date_valueOf
 0
 0
-&
 date_valueOf_trcinfo
 )
 JS_FS_END

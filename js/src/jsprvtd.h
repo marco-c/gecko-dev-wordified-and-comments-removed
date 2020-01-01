@@ -421,13 +421,8 @@ JSSubString
 ;
 typedef
 struct
-JSNativeTraceInfo
-JSNativeTraceInfo
-;
-typedef
-struct
-JSSpecializedNative
-JSSpecializedNative
+JSTraceableNative
+JSTraceableNative
 ;
 typedef
 struct
