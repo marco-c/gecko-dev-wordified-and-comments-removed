@@ -361,7 +361,7 @@ if
 (
 tabItem
 .
-reconnected
+_reconnected
 )
 {
 checkAndFinish

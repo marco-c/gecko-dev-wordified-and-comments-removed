@@ -1995,6 +1995,12 @@ transitionMode
 "
 "
 ;
+TabItems
+.
+resumeReconnecting
+(
+)
+;
 }
 }
 Services
@@ -2166,6 +2172,12 @@ _privateBrowsing
 transitionMode
 =
 aData
+;
+TabItems
+.
+pauseReconnecting
+(
+)
 ;
 }
 }
