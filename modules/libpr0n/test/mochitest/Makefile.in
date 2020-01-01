@@ -711,10 +711,6 @@ test_svg_animatedGIF
 .
 html
 \
-test_bullet_animation
-.
-html
-\
 (
 NULL
 )
