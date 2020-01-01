@@ -1236,10 +1236,6 @@ static
 nsIntPoint
 sLastRefPoint
 ;
-static
-nsIntPoint
-sLastScreenOffset
-;
 nsIntPoint
 mGestureDownPoint
 ;
