@@ -463,7 +463,7 @@ TextureRast
 {
 ScissorEnable
 =
-False
+True
 ;
 CullMode
 =
