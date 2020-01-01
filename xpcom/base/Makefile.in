@@ -490,6 +490,10 @@ nsStackWalk
 .
 cpp
 \
+nsMemoryReporterManager
+.
+cpp
+\
 (
 NULL
 )
@@ -637,7 +641,6 @@ idl
 nsrootidl
 .
 idl
-\
 SDK_HEADERS
 =
 \
@@ -697,6 +700,10 @@ nsIUUIDGenerator
 idl
 \
 nsIMutable
+.
+idl
+\
+nsIMemoryReporter
 .
 idl
 \
