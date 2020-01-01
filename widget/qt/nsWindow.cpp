@@ -5007,7 +5007,6 @@ PaintWindow
 (
 this
 region
-0
 )
 ;
 aPainter
@@ -5376,7 +5375,6 @@ PaintWindow
 (
 this
 region
-0
 )
 ;
 }

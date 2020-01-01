@@ -8526,7 +8526,6 @@ PaintWindow
 (
 this
 region
-0
 )
 ;
 listener
@@ -8796,7 +8795,6 @@ PaintWindow
 (
 this
 region
-0
 )
 ;
 }
@@ -8848,7 +8846,6 @@ PaintWindow
 (
 this
 region
-0
 )
 ;
 }

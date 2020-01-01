@@ -1856,18 +1856,6 @@ widget
 "
 )
 ;
-aView
--
->
-GetWidget
-(
-)
--
->
-WillPaint
-(
-)
-;
 SetPainting
 (
 true
@@ -3037,8 +3025,6 @@ nsIWidget
 aWidget
 nsIntRegion
 aRegion
-uint32_t
-aFlags
 )
 {
 if

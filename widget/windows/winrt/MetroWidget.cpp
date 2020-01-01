@@ -4381,7 +4381,6 @@ PaintWindow
 (
 this
 aInvalidRegion
-0
 )
 ;
 listener

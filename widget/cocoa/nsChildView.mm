@@ -8860,7 +8860,6 @@ PaintWindow
 (
 widget
 aRegion
-0
 )
 ;
 listener

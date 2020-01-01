@@ -1635,7 +1635,6 @@ PaintWindow
 (
 this
 region
-0
 )
 ;
 }
@@ -2257,7 +2256,6 @@ PaintWindow
 (
 this
 region
-0
 )
 ;
 break
@@ -2309,7 +2307,6 @@ PaintWindow
 (
 this
 region
-0
 )
 ;
 if
@@ -2434,7 +2431,6 @@ PaintWindow
 (
 this
 region
-0
 )
 ;
 }
