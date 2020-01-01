@@ -49,5 +49,13 @@ NPVariant
 variant
 )
 ;
+PRUint32
+parseHexColor
+(
+char
+*
+color
+)
+;
 #
 endif
