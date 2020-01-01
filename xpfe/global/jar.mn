@@ -922,11 +922,12 @@ radio
 .
 xml
 (
-resources
+/
+toolkit
 /
 content
 /
-bindings
+widgets
 /
 radio
 .
