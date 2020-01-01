@@ -68910,7 +68910,7 @@ NECKO_WIFI
 =
 1
 else
-AC_MSG_ERROR
+AC_MSG_WARN
 (
 [
 Necko
