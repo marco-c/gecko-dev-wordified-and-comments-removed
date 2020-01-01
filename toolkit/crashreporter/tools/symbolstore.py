@@ -5059,7 +5059,8 @@ file
 )
 )
         
-return
+res
+=
 Dumper
 .
 ProcessFile
@@ -5067,6 +5068,23 @@ ProcessFile
 self
 dsymbundle
 )
+        
+if
+not
+self
+.
+copy_debug
+:
+            
+shutil
+.
+rmtree
+(
+dsymbundle
+)
+        
+return
+res
 def
 main
 (
