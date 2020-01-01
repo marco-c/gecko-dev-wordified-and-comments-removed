@@ -448,6 +448,10 @@ AccIterator
 .
 cpp
 \
+ARIAStateMap
+.
+cpp
+\
 filters
 .
 cpp
@@ -590,6 +594,10 @@ EXPORTS_mozilla
 /
 a11y
 =
+\
+ARIAStateMap
+.
+h
 \
 FocusManager
 .
