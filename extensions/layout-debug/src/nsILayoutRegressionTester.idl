@@ -574,15 +574,9 @@ DUMP_FLAGS_MASK_DEFAULT
 ;
 const
 short
-DUMP_FLAGS_MASK_DUMP_STYLE
-=
-1
-;
-const
-short
 DUMP_FLAGS_MASK_PRINT_MODE
 =
-2
+1
 ;
 const
 long

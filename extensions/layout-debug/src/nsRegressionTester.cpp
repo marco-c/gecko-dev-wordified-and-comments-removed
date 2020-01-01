@@ -389,18 +389,6 @@ rv
 return
 rv
 ;
-PRBool
-dumpStyle
-=
-(
-aFlagsMask
-&
-DUMP_FLAGS_MASK_DUMP_STYLE
-)
-!
-=
-0
-;
 FILE
 *
 fp
@@ -510,7 +498,6 @@ GetPresContext
 )
 fp
 0
-dumpStyle
 )
 ;
 }

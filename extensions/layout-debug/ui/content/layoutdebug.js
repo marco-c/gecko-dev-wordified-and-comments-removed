@@ -2389,9 +2389,7 @@ gBrowser
 .
 contentWindow
 data
-nsILayoutRegressionTester
-.
-DUMP_FLAGS_MASK_DUMP_STYLE
+0
 )
 ;
 }

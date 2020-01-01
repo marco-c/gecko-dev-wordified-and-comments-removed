@@ -95,8 +95,6 @@ FILE
 out
 PRInt32
 aIndent
-PRBool
-aIncludeStyleData
 )
 =
 0

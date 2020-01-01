@@ -1120,8 +1120,6 @@ FILE
 out
 PRInt32
 aIndent
-PRBool
-aIncludeStyleData
 )
 {
 nsFrame
@@ -1132,7 +1130,6 @@ DumpBaseRegressionData
 aPresContext
 out
 aIndent
-aIncludeStyleData
 )
 ;
 if
