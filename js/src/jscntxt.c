@@ -3467,6 +3467,13 @@ break
 ;
 }
 }
+cx
+-
+>
+throwing
+=
+JS_FALSE
+;
 if
 (
 onError

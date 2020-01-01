@@ -202,9 +202,6 @@ JS_GetInstancePrivate
 JS_HashTableRawRemove
 ;
 57057
-js_AllocRawStack
-;
-54181
 js_Invoke
 ;
 53568
@@ -373,9 +370,6 @@ js_PopStatementCG
 JS_GetFrameAnnotation
 ;
 14949
-js_FreeRawStack
-;
-14032
 js_Interpret
 ;
 14032

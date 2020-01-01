@@ -1785,6 +1785,8 @@ cx
 JSObject
 *
 obj
+JSBool
+normalUnwind
 )
 ;
 struct
