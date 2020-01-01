@@ -14,8 +14,7 @@ h
 #
 if
 ANDROID_VERSION
->
-=
+<
 8
 typedef
 struct
