@@ -143,15 +143,6 @@ win
 some
 )
 {
-let
-lh
-=
-new
-LayoutHelpers
-(
-win
-)
-;
 some
 .
 style
@@ -196,7 +187,7 @@ innerHeight
 2
 )
 ;
-lh
+LayoutHelpers
 .
 scrollIntoViewIfNeeded
 (
@@ -248,7 +239,7 @@ innerHeight
 1
 )
 ;
-lh
+LayoutHelpers
 .
 scrollIntoViewIfNeeded
 (
@@ -287,7 +278,7 @@ innerWidth
 0
 )
 ;
-lh
+LayoutHelpers
 .
 scrollIntoViewIfNeeded
 (
@@ -335,7 +326,7 @@ innerWidth
 1
 )
 ;
-lh
+LayoutHelpers
 .
 scrollIntoViewIfNeeded
 (
@@ -376,7 +367,7 @@ innerHeight
 2
 )
 ;
-lh
+LayoutHelpers
 .
 scrollIntoViewIfNeeded
 (
@@ -427,7 +418,7 @@ innerHeight
 1
 )
 ;
-lh
+LayoutHelpers
 .
 scrollIntoViewIfNeeded
 (
@@ -474,7 +465,7 @@ innerWidth
 0
 )
 ;
-lh
+LayoutHelpers
 .
 scrollIntoViewIfNeeded
 (
@@ -519,7 +510,7 @@ innerWidth
 1
 )
 ;
-lh
+LayoutHelpers
 .
 scrollIntoViewIfNeeded
 (
@@ -635,7 +626,7 @@ some
 '
 )
 ;
-lh
+LayoutHelpers
 .
 scrollIntoViewIfNeeded
 (
