@@ -61,7 +61,9 @@ repository
 getLogger
 (
 "
-HealthReport
+Services
+.
+DataReporting
 .
 Testing
 .

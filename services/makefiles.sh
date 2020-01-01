@@ -87,6 +87,11 @@ healthreport
 Makefile
 services
 /
+datareporting
+/
+Makefile
+services
+/
 metrics
 /
 Makefile
@@ -137,6 +142,13 @@ Makefile
 services
 /
 healthreport
+/
+tests
+/
+Makefile
+services
+/
+datareporting
 /
 tests
 /

@@ -1003,6 +1003,7 @@ InspectedHealthReporter
 function
 (
 branch
+policy
 )
 {
 HealthReporter
@@ -1011,6 +1012,7 @@ call
 (
 this
 branch
+policy
 )
 ;
 this
