@@ -3365,7 +3365,7 @@ aTitle
 String
 aURI
 String
-aUniqueURI
+aOrigin
 )
 {
 int
@@ -3382,7 +3382,7 @@ getContext
 .
 findAndAllocateIndex
 (
-aUniqueURI
+aOrigin
 aTitle
 (
 String
@@ -3425,9 +3425,11 @@ aTitle
 String
 aURI
 String
-aUniqueURI
+aOrigin
 String
 aIconURL
+String
+aOriginalOrigin
 )
 {
 WebAppAllocator
@@ -3449,7 +3451,7 @@ allocator
 .
 getIndexForApp
 (
-aUniqueURI
+aOriginalOrigin
 )
 ;
 assert
@@ -3469,7 +3471,7 @@ allocator
 .
 updateAppAllocation
 (
-aUniqueURI
+aOrigin
 index
 BitmapUtils
 .
@@ -3483,7 +3485,7 @@ createShortcut
 (
 aTitle
 aURI
-aUniqueURI
+aOrigin
 aIconURL
 "
 webapp
@@ -3499,7 +3501,7 @@ getWebAppIntent
 String
 aURI
 String
-aUniqueURI
+aOrigin
 String
 aTitle
 Bitmap
@@ -3538,7 +3540,7 @@ getContext
 .
 findAndAllocateIndex
 (
-aUniqueURI
+aOrigin
 aTitle
 aIcon
 )
@@ -3557,7 +3559,7 @@ getContext
 .
 getIndexForApp
 (
-aUniqueURI
+aOrigin
 )
 ;
 if

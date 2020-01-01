@@ -3664,6 +3664,7 @@ name
 manifestURL
 origin
 iconURL
+origin
 )
 ;
 }
@@ -3786,6 +3787,18 @@ iconURL
 )
 ;
 String
+originalOrigin
+=
+message
+.
+getString
+(
+"
+originalOrigin
+"
+)
+;
+String
 origin
 =
 message
@@ -3805,6 +3818,7 @@ name
 manifestURL
 origin
 iconURL
+originalOrigin
 )
 ;
 }
