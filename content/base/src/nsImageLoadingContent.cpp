@@ -585,7 +585,7 @@ aType
 imgINotificationObserver
 :
 :
-STOP_DECODE
+STOP_REQUEST
 )
 {
 NS_ABORT_IF_FALSE
@@ -675,7 +675,7 @@ aType
 imgINotificationObserver
 :
 :
-STOP_DECODE
+STOP_REQUEST
 )
 {
 uint32_t
@@ -705,7 +705,7 @@ NS_ERROR_FAILURE
 NS_OK
 ;
 return
-OnStopDecode
+OnStopRequest
 (
 aRequest
 status
@@ -720,7 +720,7 @@ nsresult
 nsImageLoadingContent
 :
 :
-OnStopDecode
+OnStopRequest
 (
 imgIRequest
 *
