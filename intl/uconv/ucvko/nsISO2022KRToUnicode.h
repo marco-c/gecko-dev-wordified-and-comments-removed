@@ -32,7 +32,7 @@ nsISO2022KRToUnicode
 {
 mState
 =
-mState_ASCII
+mState_Init
 ;
 mLastLegalState
 =
@@ -111,7 +111,7 @@ Reset
 {
 mState
 =
-mState_ASCII
+mState_Init
 ;
 mLastLegalState
 =
@@ -129,6 +129,7 @@ private
 :
 enum
 {
+mState_Init
 mState_ASCII
 mState_ESC
 mState_ESC_24
