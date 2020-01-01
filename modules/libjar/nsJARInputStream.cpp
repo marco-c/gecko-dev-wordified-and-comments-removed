@@ -1,6 +1,13 @@
 #
 include
 "
+NSPRFormatTime
+.
+h
+"
+#
+include
+"
 nsJARInputStream
 .
 h
