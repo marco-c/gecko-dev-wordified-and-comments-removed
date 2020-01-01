@@ -6897,7 +6897,7 @@ flat
 return
 NS_ERROR_FAILURE
 ;
-SetExpandoChain
+SetWNExpandoChain
 (
 newobj
 nullptr
