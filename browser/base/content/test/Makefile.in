@@ -412,15 +412,6 @@ base
 content
 /
 test
-DIRS
-+
-=
-\
-newtab
-\
-(
-NULL
-)
 include
 (
 DEPTH
@@ -811,6 +802,10 @@ browser_popupNotification
 js
 \
 browser_bug455852
+.
+js
+\
+browser_bug460146
 .
 js
 \
