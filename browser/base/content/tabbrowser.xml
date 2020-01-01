@@ -11143,6 +11143,14 @@ null
 ?
 aCloseWindowWithLastTab
 :
+!
+window
+.
+toolbar
+.
+visible
+|
+|
 this
 .
 mPrefs
