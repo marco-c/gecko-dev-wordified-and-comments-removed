@@ -899,6 +899,12 @@ JOF_SET
 JOF_INCDEC
 )
 )
+&
+&
+obj
+=
+=
+pobj
 )
 kshape
 =
