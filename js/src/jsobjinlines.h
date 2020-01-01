@@ -8262,10 +8262,17 @@ getClass
 =
 clasp
 )
+{
+*
+ok
+=
+true
+;
 return
 &
 obj
 ;
+}
 }
 *
 ok
