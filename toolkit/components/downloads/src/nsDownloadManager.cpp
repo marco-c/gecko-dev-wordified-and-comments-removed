@@ -5371,7 +5371,7 @@ Append
 NS_LITERAL_STRING
 (
 "
-download
+downloads
 "
 )
 )
