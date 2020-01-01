@@ -333,7 +333,11 @@ uriLoader
 openURI
 (
 channel
-true
+Ci
+.
+nsIURILoader
+.
+IS_CONTENT_PREFERRED
 aWindowContext
 )
 ;
