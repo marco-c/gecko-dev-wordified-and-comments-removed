@@ -9220,7 +9220,7 @@ aCodecList
 gH264Codecs
 ;
 return
-CANPLAY_YES
+CANPLAY_MAYBE
 ;
 }
 #
