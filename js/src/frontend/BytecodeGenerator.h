@@ -1,9 +1,9 @@
 #
 ifndef
-CodeGenerator_h__
+BytecodeGenerator_h__
 #
 define
-CodeGenerator_h__
+BytecodeGenerator_h__
 #
 include
 "

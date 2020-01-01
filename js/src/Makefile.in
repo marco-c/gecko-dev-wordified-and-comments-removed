@@ -904,7 +904,7 @@ BytecodeCompiler
 .
 cpp
 \
-CodeGenerator
+BytecodeGenerator
 .
 cpp
 \
