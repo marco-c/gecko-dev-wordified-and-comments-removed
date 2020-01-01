@@ -41,8 +41,6 @@ static
 PRInt64
 GetShmemAllocated
 (
-void
-*
 )
 {
 return
@@ -53,8 +51,6 @@ static
 PRInt64
 GetShmemMapped
 (
-void
-*
 )
 {
 return
@@ -69,7 +65,9 @@ shmem
 -
 allocated
 "
-MR_OTHER
+KIND_OTHER
+UNITS_BYTES
+GetShmemAllocated
 "
 Memory
 shared
@@ -89,8 +87,6 @@ mapped
 )
 .
 "
-GetShmemAllocated
-nsnull
 )
 NS_MEMORY_REPORTER_IMPLEMENT
 (
@@ -100,7 +96,9 @@ shmem
 -
 mapped
 "
-MR_OTHER
+KIND_OTHER
+UNITS_BYTES
+GetShmemMapped
 "
 Memory
 shared
@@ -116,8 +114,6 @@ address
 space
 .
 "
-GetShmemMapped
-nsnull
 )
 SharedMemory
 :

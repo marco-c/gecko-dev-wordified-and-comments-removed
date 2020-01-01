@@ -451,11 +451,14 @@ path
 PRInt32
 kind
 ;
-nsCString
-desc
+PRInt32
+units
 ;
 PRInt64
-memoryUsed
+amount
+;
+nsCString
+desc
 ;
 }
 ;

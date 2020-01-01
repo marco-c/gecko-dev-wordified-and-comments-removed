@@ -814,8 +814,6 @@ static
 PRInt64
 GetCanvasAzureMemoryUsed
 (
-void
-*
 )
 {
 return
@@ -834,7 +832,9 @@ pixel
 -
 bytes
 "
-MR_OTHER
+KIND_OTHER
+UNITS_BYTES
+GetCanvasAzureMemoryUsed
 "
 Memory
 used
@@ -857,8 +857,6 @@ height
 bytes
 .
 "
-GetCanvasAzureMemoryUsed
-nsnull
 )
 #
 define

@@ -449,7 +449,7 @@ Ci
 .
 nsIMemoryReporter
 .
-MR_MAPPED
+KIND_MAPPED
 ;
 const
 HEAP
@@ -458,7 +458,7 @@ Ci
 .
 nsIMemoryReporter
 .
-MR_HEAP
+KIND_HEAP
 ;
 const
 OTHER
@@ -467,7 +467,7 @@ Ci
 .
 nsIMemoryReporter
 .
-MR_OTHER
+KIND_OTHER
 ;
 function
 f
@@ -475,7 +475,7 @@ f
 aProcess
 aPath
 aKind
-aMemoryUsed
+aAmount
 )
 {
 return
@@ -496,9 +496,9 @@ description
 description
 )
 "
-memoryUsed
+amount
 :
-aMemoryUsed
+aAmount
 }
 ;
 }
