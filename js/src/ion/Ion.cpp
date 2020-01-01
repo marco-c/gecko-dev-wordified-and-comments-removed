@@ -4424,7 +4424,7 @@ JS_CHECK_RECURSION
 (
 cx
 return
-false
+IonExec_Error
 )
 ;
 JS_ASSERT
