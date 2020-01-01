@@ -222,7 +222,7 @@ NODE_NEEDS_FRAME
 NODE_DESCENDANTS_NEED_FRAMES
 =
 0x00100000U
-NODE_HANDLING_CLICK
+NODE_IS_ELEMENT
 =
 0x00200000U
 NODE_HAS_ACCESSKEY
@@ -534,10 +534,6 @@ mNodeHasRenderingObservers
 (
 false
 )
-mIsElement
-(
-false
-)
 {
 }
 #
@@ -642,7 +638,10 @@ IsElement
 const
 {
 return
-mIsElement
+HasFlag
+(
+NODE_IS_ELEMENT
+)
 ;
 }
 mozilla
@@ -2917,11 +2916,6 @@ mFirstChild
 ;
 bool
 mNodeHasRenderingObservers
-:
-1
-;
-bool
-mIsElement
 :
 1
 ;
