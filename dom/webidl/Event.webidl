@@ -498,6 +498,14 @@ EventTarget
 ?
 explicitOriginalTarget
 ;
+[
+ChromeOnly
+]
+readonly
+attribute
+boolean
+multipleActionsPrevented
+;
 void
 preventBubble
 (
