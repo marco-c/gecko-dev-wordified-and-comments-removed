@@ -424,7 +424,16 @@ nsXULPrototypeScript
 compilation
 scope
 "
-XPCONNECT_GLOBAL_FLAGS
+JSCLASS_HAS_PRIVATE
+|
+JSCLASS_PRIVATE_IS_NSISUPPORTS
+|
+JSCLASS_IMPLEMENTS_BARRIERS
+|
+JSCLASS_GLOBAL_FLAGS_WITH_SLOTS
+(
+0
+)
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
@@ -437,7 +446,7 @@ NULL
 NULL
 NULL
 NULL
-TraceXPCGlobal
+NULL
 }
 ;
 nsXULPrototypeDocument
