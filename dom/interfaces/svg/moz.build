@@ -111,11 +111,6 @@ nsIDOMSVGElement
 idl
 '
 '
-nsIDOMSVGEvent
-.
-idl
-'
-'
 nsIDOMSVGFilters
 .
 idl
@@ -137,11 +132,6 @@ idl
 '
 '
 nsIDOMSVGStringList
-.
-idl
-'
-'
-nsIDOMSVGURIReference
 .
 idl
 '
