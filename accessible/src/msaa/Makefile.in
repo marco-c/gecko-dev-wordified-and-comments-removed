@@ -506,6 +506,10 @@ nsHTMLTableAccessibleWrap
 .
 cpp
 \
+nsAccessibleRelationWrap
+.
+cpp
+\
 CAccessibleAction
 .
 cpp
@@ -589,6 +593,10 @@ nsHTMLImageAccessibleWrap
 h
 \
 nsHTMLTableAccessibleWrap
+.
+h
+\
+nsAccessibleRelationWrap
 .
 h
 \
