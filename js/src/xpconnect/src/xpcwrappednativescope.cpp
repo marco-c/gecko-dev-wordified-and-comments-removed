@@ -934,6 +934,15 @@ delete
 mWrappedNativeProtoMap
 ;
 }
+if
+(
+mWrapperMap
+)
+{
+delete
+mWrapperMap
+;
+}
 NS_IF_RELEASE
 (
 mComponents
