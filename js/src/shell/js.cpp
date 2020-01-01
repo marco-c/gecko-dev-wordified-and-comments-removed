@@ -27248,7 +27248,7 @@ JS_DefineProperty
 cx
 obj
 "
-scriptArgs
+arguments
 "
 OBJECT_TO_JSVAL
 (
@@ -29155,7 +29155,7 @@ to
 bind
 as
 |
-scriptArgs
+arguments
 |
 in
 the
