@@ -109,6 +109,10 @@ browser_privatebrowsing_lastpbcontextexited
 .
 js
 \
+browser_privatebrowsing_opendir
+.
+js
+\
 (
 NULL
 )
