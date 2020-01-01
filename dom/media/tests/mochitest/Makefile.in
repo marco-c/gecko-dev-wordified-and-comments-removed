@@ -108,6 +108,10 @@ mediaStreamPlayback
 .
 js
 \
+pc
+.
+js
+\
 (
 NULL
 )
@@ -135,6 +139,10 @@ test_getUserMedia_basicAudio
 html
 \
 test_getUserMedia_basicVideoAudio
+.
+html
+\
+test_peerConnection_basicVideo
 .
 html
 \
