@@ -818,6 +818,16 @@ trim
 (
 )
 ;
+if
+(
+dir
+.
+length
+<
+1
+)
+continue
+;
 var
 dirname
 =
