@@ -85,6 +85,10 @@ browser_frameworker
 .
 js
 \
+browser_frameworker_sandbox
+.
+js
+\
 worker_relative
 .
 js
