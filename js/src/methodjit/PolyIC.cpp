@@ -581,6 +581,8 @@ cx
 f
 .
 fp
+(
+)
 )
 )
 ;
@@ -3978,6 +3980,8 @@ if
 f
 .
 fp
+(
+)
 -
 >
 getScript
@@ -4180,6 +4184,8 @@ sp
 f
 .
 fp
+(
+)
 -
 >
 slots
@@ -7870,6 +7876,8 @@ cx
 f
 .
 fp
+(
+)
 )
 )
 ;
@@ -10994,6 +11002,8 @@ script
 f
 .
 fp
+(
+)
 -
 >
 getScript
@@ -11486,6 +11496,8 @@ script
 f
 .
 fp
+(
+)
 -
 >
 getScript
@@ -11694,6 +11706,8 @@ script
 f
 .
 fp
+(
+)
 -
 >
 getScript
@@ -11845,6 +11859,8 @@ script
 f
 .
 fp
+(
+)
 -
 >
 getScript
@@ -11951,6 +11967,8 @@ script
 f
 .
 fp
+(
+)
 -
 >
 getScript
@@ -12125,6 +12143,8 @@ script
 f
 .
 fp
+(
+)
 -
 >
 getScript
@@ -12195,6 +12215,8 @@ script
 f
 .
 fp
+(
+)
 -
 >
 getScript
@@ -13022,6 +13044,8 @@ script
 f
 .
 fp
+(
+)
 -
 >
 getScript
@@ -13059,6 +13083,8 @@ script
 f
 .
 fp
+(
+)
 -
 >
 getScopeChain
@@ -13200,6 +13226,8 @@ cx
 f
 .
 fp
+(
+)
 -
 >
 getScript
@@ -13390,6 +13418,8 @@ script
 f
 .
 fp
+(
+)
 -
 >
 getScript
@@ -13427,6 +13457,8 @@ script
 f
 .
 fp
+(
+)
 -
 >
 getScopeChain
