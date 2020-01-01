@@ -124,6 +124,9 @@ singleton
 h
 "
 #
+ifndef
+CHROMIUM_MOZILLA_BUILD
+#
 include
 "
 base
@@ -136,6 +139,8 @@ dmg_fp
 .
 h
 "
+#
+endif
 namespace
 {
 struct
@@ -1213,6 +1218,9 @@ str
 }
 }
 ;
+#
+ifndef
+CHROMIUM_MOZILLA_BUILD
 class
 StringToDoubleTraits
 {
@@ -1440,6 +1448,8 @@ str
 }
 }
 ;
+#
+endif
 }
 namespace
 base
@@ -5403,6 +5413,9 @@ value
 )
 ;
 }
+#
+ifndef
+CHROMIUM_MOZILLA_BUILD
 std
 :
 :
@@ -5458,6 +5471,8 @@ value
 )
 ;
 }
+#
+endif
 void
 StringAppendV
 (
@@ -8388,6 +8403,9 @@ return
 result
 ;
 }
+#
+ifndef
+CHROMIUM_MOZILLA_BUILD
 bool
 StringToDouble
 (
@@ -8486,6 +8504,8 @@ return
 result
 ;
 }
+#
+endif
 namespace
 {
 template
