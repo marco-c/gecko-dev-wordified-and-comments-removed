@@ -476,6 +476,15 @@ return
 mSpdySendingChunkSize
 ;
 }
+uint32_t
+SpdySendBufferSize
+(
+)
+{
+return
+mSpdySendBufferSize
+;
+}
 PRIntervalTime
 SpdyPingThreshold
 (
@@ -1238,6 +1247,9 @@ mUseAlternateProtocol
 ;
 uint32_t
 mSpdySendingChunkSize
+;
+uint32_t
+mSpdySendBufferSize
 ;
 PRIntervalTime
 mSpdyPingThreshold
