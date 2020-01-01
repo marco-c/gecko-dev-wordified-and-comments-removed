@@ -692,17 +692,9 @@ aOptions
 let
 url
 =
-NetworkHelper
-.
-convertToUnicode
-(
-unescape
-(
 aSource
 .
 url
-)
-)
 ;
 let
 label
