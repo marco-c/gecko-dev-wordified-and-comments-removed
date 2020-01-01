@@ -444,6 +444,10 @@ sideExitIntoInterpreter
 )
 JITSTAT
 (
+timeoutIntoInterpreter
+)
+JITSTAT
+(
 typeMapMismatchAtEntry
 )
 JITSTAT
