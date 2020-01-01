@@ -3320,6 +3320,14 @@ end
 .
 2mm
 ;
+padding
+-
+bottom
+:
+2
+.
+2mm
+;
 border
 -
 right
@@ -3384,7 +3392,7 @@ box
 -
 pack
 :
-center
+start
 ;
 }
 richlistitem

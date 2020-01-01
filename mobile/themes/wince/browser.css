@@ -1614,6 +1614,14 @@ end
 .
 1mm
 ;
+padding
+-
+bottom
+:
+1
+.
+1mm
+;
 border
 -
 right
@@ -1678,7 +1686,7 @@ box
 -
 pack
 :
-center
+start
 ;
 }
 richlistitem
