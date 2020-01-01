@@ -130,6 +130,12 @@ false
 )
 ;
 }
+this
+.
+_adjustDOMforViewState
+(
+)
+;
 }
 RemoteTabsView
 .

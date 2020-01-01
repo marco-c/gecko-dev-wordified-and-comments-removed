@@ -653,6 +653,11 @@ topsites
 -
 grid
 "
+observes
+=
+"
+bcast_windowState
+"
 set
 -
 name
@@ -786,6 +791,11 @@ bookmarks
 -
 grid
 "
+observes
+=
+"
+bcast_windowState
+"
 set
 -
 name
@@ -903,6 +913,11 @@ start
 history
 -
 grid
+"
+observes
+=
+"
+bcast_windowState
 "
 set
 -
@@ -1029,6 +1044,11 @@ start
 remotetabs
 -
 grid
+"
+observes
+=
+"
+bcast_windowState
 "
 set
 -
