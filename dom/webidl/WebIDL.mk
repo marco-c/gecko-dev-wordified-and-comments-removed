@@ -1756,6 +1756,10 @@ MozStkCommandEvent
 .
 webidl
 \
+MozVoicemail
+.
+webidl
+\
 Telephony
 .
 webidl

@@ -112,9 +112,6 @@ class
 nsIDOMMozMobileConnection
 ;
 class
-nsIDOMMozVoicemail
-;
-class
 nsIDOMMozIccManager
 ;
 #
@@ -223,6 +220,14 @@ class
 BluetoothManager
 ;
 }
+#
+endif
+#
+ifdef
+MOZ_B2G_RIL
+class
+Voicemail
+;
 #
 endif
 namespace
@@ -789,7 +794,7 @@ ErrorResult
 aRv
 )
 ;
-nsIDOMMozVoicemail
+Voicemail
 *
 GetMozVoicemail
 (
@@ -1309,9 +1314,9 @@ Telephony
 >
 mTelephony
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMMozVoicemail
+Voicemail
 >
 mVoicemail
 ;

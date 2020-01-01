@@ -1846,12 +1846,6 @@ mozCellBroadcast
 ;
 }
 ;
-/
-/
-nsIMozNavigatorVoicemail
-interface
-MozVoicemail
-;
 partial
 interface
 Navigator
