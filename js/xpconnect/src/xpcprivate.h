@@ -4442,7 +4442,10 @@ inline
 jsid
 SetResolveName
 (
-jsid
+JS
+:
+:
+HandleId
 name
 )
 ;
@@ -14532,7 +14535,10 @@ AutoResolveName
 XPCCallContext
 &
 ccx
-jsid
+JS
+:
+:
+HandleId
 name
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
