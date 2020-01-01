@@ -450,6 +450,16 @@ xpcom
 /
 ds
 \
+-
+I
+(
+topsrcdir
+)
+/
+dom
+/
+base
+\
 (
 NULL
 )

@@ -117,6 +117,11 @@ nsExceptionServiceConstructor
 )
 COMPONENT
 (
+CONSOLEMESSAGE
+nsConsoleMessageConstructor
+)
+COMPONENT
+(
 ATOMSERVICE
 nsAtomServiceConstructor
 )

@@ -210,6 +210,13 @@ h
 #
 include
 "
+nsConsoleMessage
+.
+h
+"
+#
+include
+"
 nsComponentManager
 .
 h
@@ -845,6 +852,10 @@ NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
 nsConsoleService
 Init
+)
+NS_GENERIC_FACTORY_CONSTRUCTOR
+(
+nsConsoleMessage
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
