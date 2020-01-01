@@ -9430,7 +9430,7 @@ appmanager
 .
 enabled
 "
-false
+true
 )
 ;
 pref
