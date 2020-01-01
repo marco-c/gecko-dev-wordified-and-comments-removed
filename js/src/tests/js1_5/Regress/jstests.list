@@ -1977,12 +1977,15 @@ regress
 450833
 .
 js
+skip
 script
 regress
 -
 451322
 .
 js
+#
+slow
 script
 regress
 -
