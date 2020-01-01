@@ -496,6 +496,10 @@ nsXULSelectAccessible
 .
 cpp
 \
+nsXULSliderAccessible
+.
+cpp
+\
 nsXULTabAccessible
 .
 cpp
