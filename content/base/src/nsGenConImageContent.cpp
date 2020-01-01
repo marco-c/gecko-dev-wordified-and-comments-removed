@@ -226,7 +226,11 @@ if
 (
 imageState
 &
+(
 NS_EVENT_STATE_BROKEN
+|
+NS_EVENT_STATE_USERDISABLED
+)
 )
 {
 imageState
