@@ -100,8 +100,8 @@ FcTrue
 )
 {
 #
-if
-1
+ifdef
+DEBUG_thebes_2
 printf
 (
 "
@@ -241,8 +241,8 @@ enabled
 ;
 }
 #
-if
-1
+ifdef
+DEBUG_thebes_2
 printf
 (
 "
