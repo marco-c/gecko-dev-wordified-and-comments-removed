@@ -306,6 +306,9 @@ JSScript
 Create
 (
 cx
+NullPtr
+(
+)
 savedCallerFun
 principals
 originPrincipals
@@ -1138,6 +1141,9 @@ JSScript
 Create
 (
 cx
+NullPtr
+(
+)
 false
 principals
 originPrincipals
