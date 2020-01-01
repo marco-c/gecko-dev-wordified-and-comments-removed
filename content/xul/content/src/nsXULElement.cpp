@@ -10607,10 +10607,11 @@ NS_ERROR_UNEXPECTED
 ;
 if
 (
+!
 doc
 -
 >
-GetParentDocument
+IsRootDisplayDocument
 (
 )
 )
@@ -10774,11 +10775,10 @@ return
 }
 if
 (
-!
 doc
 -
 >
-GetParentDocument
+IsRootDisplayDocument
 (
 )
 )
