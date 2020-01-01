@@ -319,7 +319,7 @@ aCx
 JS
 :
 :
-IncrementalReferenceBarrier
+IncrementalObjectBarrier
 (
 aListenerData
 -

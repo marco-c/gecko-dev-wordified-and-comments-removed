@@ -4201,7 +4201,7 @@ GetJSRuntime
 js
 :
 :
-IncrementalReferenceBarrier
+IncrementalObjectBarrier
 (
 GetWrapperPreserveColor
 (
