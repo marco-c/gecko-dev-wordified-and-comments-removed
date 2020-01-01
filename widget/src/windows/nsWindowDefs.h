@@ -75,6 +75,14 @@ WM_APP
 )
 #
 define
+MOZ_WM_ENSUREVISIBLE
+(
+WM_APP
++
+14159
+)
+#
+define
 WIN2K_VERSION
 0x500
 #
