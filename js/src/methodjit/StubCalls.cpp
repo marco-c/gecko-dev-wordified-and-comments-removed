@@ -3542,7 +3542,6 @@ else
 {
 if
 (
-!
 f
 .
 script
