@@ -21,6 +21,13 @@ h
 #
 include
 "
+xpcpublic
+.
+h
+"
+#
+include
+"
 nsIDOMEventListener
 .
 h
@@ -152,7 +159,10 @@ GetEventScope
 const
 {
 return
+xpc_UnmarkGrayObject
+(
 mScopeObject
+)
 ;
 }
 JSObject
@@ -163,7 +173,10 @@ GetHandler
 const
 {
 return
+xpc_UnmarkGrayObject
+(
 mHandler
+)
 ;
 }
 virtual
