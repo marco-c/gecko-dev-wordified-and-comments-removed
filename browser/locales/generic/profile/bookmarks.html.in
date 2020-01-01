@@ -96,13 +96,11 @@ https
 :
 /
 /
-add
--
-ons
+addons
 .
 mozilla
 .
-com
+org
 /
 AB_CD
 /
@@ -399,8 +397,6 @@ http
 :
 /
 /
-AB_CD
-.
 fxfeeds
 .
 mozilla
@@ -421,8 +417,6 @@ http
 :
 /
 /
-AB_CD
-.
 fxfeeds
 .
 mozilla
