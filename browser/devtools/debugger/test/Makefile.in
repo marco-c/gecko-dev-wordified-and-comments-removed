@@ -123,6 +123,16 @@ switch
 .
 js
 \
+browser_dbg_debugger
+-
+tab
+-
+switch
+-
+window
+.
+js
+\
 browser_dbg_debuggerstatement
 .
 js
