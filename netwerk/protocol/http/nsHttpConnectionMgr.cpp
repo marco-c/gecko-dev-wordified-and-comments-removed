@@ -139,13 +139,6 @@ PRThread
 *
 gSocketThread
 ;
-static
-NS_DEFINE_CID
-(
-kSocketTransportServiceCID
-NS_SOCKETTRANSPORTSERVICE_CID
-)
-;
 NS_IMPL_ISUPPORTS1
 (
 nsHttpConnectionMgr

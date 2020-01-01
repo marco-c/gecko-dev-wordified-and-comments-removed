@@ -55,13 +55,6 @@ nsICancelable
 h
 "
 static
-NS_DEFINE_CID
-(
-kDNSServiceCID
-NS_DNSSERVICE_CID
-)
-;
-static
 nsIDNSService
 *
 sDNSService

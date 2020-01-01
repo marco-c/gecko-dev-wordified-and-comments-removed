@@ -89,13 +89,6 @@ BEHAVIOR_REJECTFOREIGN
 static
 const
 int32_t
-BEHAVIOR_REJECT
-=
-2
-;
-static
-const
-int32_t
 BEHAVIOR_LIMITFOREIGN
 =
 3

@@ -557,14 +557,6 @@ DEFAULT_CACHE_SIZE
 *
 1024
 ;
-const
-int32_t
-MIN_CACHE_SIZE
-=
-50
-*
-1024
-;
 #
 ifdef
 ANDROID
