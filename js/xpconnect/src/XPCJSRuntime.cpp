@@ -7838,7 +7838,9 @@ slots
 )
 cStats
 .
-objectsExtraSlots
+objectsExtra
+.
+slots
 "
 Memory
 allocated
@@ -7919,7 +7921,9 @@ elements
 )
 cStats
 .
-objectsExtraElements
+objectsExtra
+.
+elements
 "
 Memory
 allocated
@@ -7961,7 +7965,9 @@ data
 )
 cStats
 .
-objectsExtraArgumentsData
+objectsExtra
+.
+argumentsData
 "
 Memory
 allocated
@@ -7993,7 +7999,9 @@ statics
 )
 cStats
 .
-objectsExtraRegExpStatics
+objectsExtra
+.
+regExpStatics
 "
 Memory
 allocated
@@ -8028,7 +8036,9 @@ data
 )
 cStats
 .
-objectsExtraPropertyIteratorData
+objectsExtra
+.
+propertyIteratorData
 "
 Memory
 allocated
@@ -8061,7 +8071,9 @@ data
 )
 cStats
 .
-objectsExtraCtypesData
+objectsExtra
+.
+ctypesData
 "
 Memory
 allocated
@@ -8089,7 +8101,9 @@ nodes
 )
 cStats
 .
-objectsExtraPrivate
+objectsExtra
+.
+private_
 "
 Memory
 used
@@ -8513,7 +8527,7 @@ scripts
 )
 cStats
 .
-typeInferenceSizes
+typeInference
 .
 typeScripts
 "
@@ -8547,7 +8561,7 @@ results
 )
 cStats
 .
-typeInferenceSizes
+typeInference
 .
 typeResults
 "
@@ -8582,7 +8596,7 @@ pool
 )
 cStats
 .
-typeInferenceSizes
+typeInference
 .
 analysisPool
 "
@@ -8621,7 +8635,7 @@ pool
 )
 cStats
 .
-typeInferenceSizes
+typeInference
 .
 typePool
 "
@@ -8656,7 +8670,7 @@ arrays
 )
 cStats
 .
-typeInferenceSizes
+typeInference
 .
 pendingArrays
 "
@@ -8692,7 +8706,7 @@ tables
 )
 cStats
 .
-typeInferenceSizes
+typeInference
 .
 allocationSiteTables
 "
@@ -8728,7 +8742,7 @@ tables
 )
 cStats
 .
-typeInferenceSizes
+typeInference
 .
 arrayTypeTables
 "
@@ -8764,7 +8778,7 @@ tables
 )
 cStats
 .
-typeInferenceSizes
+typeInference
 .
 objectTypeTables
 "
@@ -8798,7 +8812,7 @@ objects
 )
 cStats
 .
-typeInferenceSizes
+typeInference
 .
 typeObjects
 "

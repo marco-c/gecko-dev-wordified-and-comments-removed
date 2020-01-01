@@ -78,13 +78,6 @@ Script
 )
 ;
 namespace
-JS
-{
-struct
-TypeInferenceSizes
-;
-}
-namespace
 js
 {
 class
@@ -2965,12 +2958,9 @@ FreeOp
 fop
 )
 ;
-void
+size_t
 sizeOfExcludingThis
 (
-TypeInferenceSizes
-*
-sizes
 JSMallocSizeOfFun
 mallocSizeOf
 )
