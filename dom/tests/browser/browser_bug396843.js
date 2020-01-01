@@ -312,7 +312,7 @@ HTML_TAG
 dl
 "
 "
-DList
+SharedList
 "
 )
 HTML_TAG
@@ -690,7 +690,7 @@ HTML_TAG
 ol
 "
 "
-OList
+SharedList
 "
 )
 HTML_TAG
@@ -969,7 +969,7 @@ HTML_TAG
 ul
 "
 "
-UList
+SharedList
 "
 )
 HTML_TAG

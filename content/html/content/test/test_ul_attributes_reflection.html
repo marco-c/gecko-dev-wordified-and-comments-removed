@@ -14,7 +14,7 @@ title
 >
 Test
 for
-HTMLLIElement
+HTMLUListElement
 attributes
 reflection
 <
@@ -157,7 +157,7 @@ javascript
 *
 Test
 for
-HTMLLIElement
+HTMLUListElement
 attributes
 reflection
 *
@@ -166,8 +166,8 @@ reflection
 /
 /
 .
-value
-reflectInt
+compact
+reflectBoolean
 (
 {
 element
@@ -177,17 +177,14 @@ document
 createElement
 (
 "
-li
+ul
 "
 )
 attribute
 :
 "
-value
+compact
 "
-nonNegative
-:
-false
 }
 )
 ;
@@ -205,7 +202,7 @@ document
 createElement
 (
 "
-li
+ul
 "
 )
 attribute
