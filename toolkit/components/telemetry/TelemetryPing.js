@@ -4311,9 +4311,7 @@ init
 file
 initFlags
 RW_OWNER
-ostream
-.
-DEFER_OPEN
+0
 )
 ;
 }
