@@ -237,13 +237,6 @@ InitMetricsFromPlatform
 (
 )
 ;
-void
-InitMetricsFromATSMetrics
-(
-ATSFontRef
-aFontRef
-)
-;
 gfxFloat
 GetCharWidth
 (
