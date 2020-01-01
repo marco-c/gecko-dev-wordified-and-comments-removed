@@ -24,6 +24,17 @@ shared
 .
 inc
 %
+include
+.
+.
+/
+.
+.
+/
+browserShared
+.
+inc
+%
 define
 hudButton
 -
