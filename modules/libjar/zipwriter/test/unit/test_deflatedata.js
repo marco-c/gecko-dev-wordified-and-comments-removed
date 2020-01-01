@@ -25,11 +25,7 @@ CRC
 const
 time
 =
-Date
-.
-now
-(
-)
+1199145600000
 ;
 function
 run_test
