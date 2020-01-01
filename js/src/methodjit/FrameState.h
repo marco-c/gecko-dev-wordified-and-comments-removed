@@ -1532,14 +1532,6 @@ MaybeRegisterID
 reg
 )
 ;
-void
-forgetConstant
-(
-FrameEntry
-*
-fe
-)
-;
 inline
 void
 dup
