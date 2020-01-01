@@ -697,6 +697,8 @@ nsnull
 }
 XPC_SJOW_Equality
 nsnull
+nsnull
+nsnull
 XPC_SJOW_WrappedObject
 JSCLASS_NO_RESERVED_MEMBERS
 }
