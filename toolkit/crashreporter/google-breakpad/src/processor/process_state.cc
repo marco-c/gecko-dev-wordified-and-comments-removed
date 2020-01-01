@@ -133,6 +133,12 @@ Clear
 (
 )
 ;
+modules_without_symbols_
+.
+clear
+(
+)
+;
 delete
 modules_
 ;

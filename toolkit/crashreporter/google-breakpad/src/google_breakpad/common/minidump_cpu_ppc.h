@@ -33,13 +33,13 @@ MD_VECTORSAVEAREA_PPC_VR_COUNT
 typedef
 struct
 {
-uint128_t
+uint128_struct
 save_vr
 [
 MD_VECTORSAVEAREA_PPC_VR_COUNT
 ]
 ;
-uint128_t
+uint128_struct
 save_vscr
 ;
 uint32_t

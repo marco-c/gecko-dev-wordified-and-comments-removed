@@ -93,7 +93,7 @@ uint64_t
 low
 ;
 }
-uint128_t
+uint128_struct
 ;
 typedef
 uint64_t
