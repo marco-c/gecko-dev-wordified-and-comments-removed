@@ -76,7 +76,8 @@ nsAccessibleWrap
 (
 )
 ;
-NS_IMETHOD
+virtual
+PRBool
 Init
 (
 )
