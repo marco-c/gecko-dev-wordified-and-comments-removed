@@ -957,7 +957,7 @@ pref
 "
 media
 .
-h264
+gstreamer
 .
 enabled
 "
