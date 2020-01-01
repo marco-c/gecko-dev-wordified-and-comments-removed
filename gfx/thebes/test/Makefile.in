@@ -453,6 +453,10 @@ gfxFontSelectionTest
 .
 cpp
 \
+gfxTextRunPerfTest
+.
+cpp
+\
 (
 NULL
 )
