@@ -2131,9 +2131,6 @@ PRBool
 aCanStoreInRuleTree
 )
 ;
-#
-ifdef
-MOZ_SVG
 NS_HIDDEN_
 (
 const
@@ -2190,8 +2187,6 @@ PRBool
 aCanStoreInRuleTree
 )
 ;
-#
-endif
 static
 NS_HIDDEN_
 (
@@ -2660,9 +2655,6 @@ nsStyleContext
 aContext
 )
 ;
-#
-ifdef
-MOZ_SVG
 NS_HIDDEN_
 (
 const
@@ -2689,8 +2681,6 @@ nsStyleContext
 aContext
 )
 ;
-#
-endif
 NS_HIDDEN_
 (
 already_AddRefed

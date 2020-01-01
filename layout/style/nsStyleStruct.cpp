@@ -3346,9 +3346,6 @@ NS_STYLE_HINT_FRAMECHANGE
 }
 #
 endif
-#
-ifdef
-MOZ_SVG
 nsStyleSVG
 :
 :
@@ -4669,8 +4666,6 @@ mPaint
 mColor
 ;
 }
-#
-endif
 nsStylePosition
 :
 :

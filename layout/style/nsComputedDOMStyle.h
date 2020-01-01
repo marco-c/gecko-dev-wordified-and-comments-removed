@@ -1757,9 +1757,6 @@ nsIDOMCSSValue
 aValue
 )
 ;
-#
-ifdef
-MOZ_SVG
 nsresult
 GetSVGPaintFor
 (
@@ -2041,8 +2038,6 @@ nsIDOMCSSValue
 aValue
 )
 ;
-#
-endif
 nsROCSSPrimitiveValue
 *
 GetROCSSPrimitiveValue

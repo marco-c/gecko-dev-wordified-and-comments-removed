@@ -642,14 +642,9 @@ mBreaks
 nsCSSXUL
 mXUL
 ;
-#
-ifdef
-MOZ_SVG
 nsCSSSVG
 mSVG
 ;
-#
-endif
 nsCSSColumn
 mColumn
 ;

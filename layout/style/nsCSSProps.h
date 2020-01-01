@@ -704,9 +704,6 @@ kBoxPackKTable
 [
 ]
 ;
-#
-ifdef
-MOZ_SVG
 static
 const
 PRInt32
@@ -770,8 +767,6 @@ kColorInterpolationKTable
 [
 ]
 ;
-#
-endif
 static
 const
 PRInt32

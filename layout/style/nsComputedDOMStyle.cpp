@@ -16615,9 +16615,6 @@ return
 PR_TRUE
 ;
 }
-#
-ifdef
-MOZ_SVG
 nsresult
 nsComputedDOMStyle
 :
@@ -18634,8 +18631,6 @@ aValue
 )
 ;
 }
-#
-endif
 nsresult
 nsComputedDOMStyle
 :
@@ -20105,9 +20100,6 @@ COMPUTED_STYLE_MAP_ENTRY
 word_wrap
 WordWrap
 )
-#
-ifdef
-MOZ_SVG
 COMPUTED_STYLE_MAP_ENTRY
 (
 clip_path
@@ -20258,8 +20250,6 @@ COMPUTED_STYLE_MAP_ENTRY
 text_rendering
 TextRendering
 )
-#
-endif
 }
 ;
 *

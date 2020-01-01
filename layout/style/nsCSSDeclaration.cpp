@@ -6809,9 +6809,6 @@ NUM_TRANSITION_SUBPROPS
 break
 ;
 }
-#
-ifdef
-MOZ_SVG
 case
 eCSSProperty_marker
 :
@@ -6880,8 +6877,6 @@ aValue
 break
 ;
 }
-#
-endif
 default
 :
 NS_NOTREACHED

@@ -5442,9 +5442,6 @@ endif
 #
 endif
 #
-ifdef
-MOZ_SVG
-#
 ifndef
 CSS_PROP_LIST_EXCLUDE_INTERNAL
 CSS_PROP_SVGRESET
@@ -5990,8 +5987,6 @@ mTextRendering
 )
 eStyleAnimType_EnumU8
 )
-#
-endif
 #
 endif
 #

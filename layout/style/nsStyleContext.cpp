@@ -2071,9 +2071,6 @@ DO_STRUCT_DIFFERENCE
 Quotes
 )
 ;
-#
-ifdef
-MOZ_SVG
 maxHint
 =
 nsChangeHint
@@ -2093,8 +2090,6 @@ DO_STRUCT_DIFFERENCE
 SVG
 )
 ;
-#
-endif
 maxHint
 =
 NS_STYLE_HINT_REFLOW

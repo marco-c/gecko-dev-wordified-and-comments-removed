@@ -1469,9 +1469,6 @@ nsCSSColumn
 )
 ;
 }
-#
-ifdef
-MOZ_SVG
 nsCSSSVG
 :
 :
@@ -1509,5 +1506,3 @@ delete
 mStrokeDasharray
 ;
 }
-#
-endif

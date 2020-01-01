@@ -7039,9 +7039,6 @@ mTwipsPerPixel
 ;
 }
 ;
-#
-ifdef
-MOZ_SVG
 enum
 nsStyleSVGPaintType
 {
@@ -7474,7 +7471,5 @@ mDominantBaseline
 ;
 }
 ;
-#
-endif
 #
 endif

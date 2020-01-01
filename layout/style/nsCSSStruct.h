@@ -2324,9 +2324,6 @@ aOther
 ;
 }
 ;
-#
-ifdef
-MOZ_SVG
 struct
 nsCSSSVG
 :
@@ -2470,7 +2467,5 @@ aOther
 ;
 }
 ;
-#
-endif
 #
 endif
