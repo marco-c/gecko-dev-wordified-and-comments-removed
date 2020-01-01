@@ -1975,10 +1975,7 @@ nargs
 return
 Address
 (
-Assembler
-:
-:
-FpReg
+JSFrameReg
 sizeof
 (
 JSStackFrame
