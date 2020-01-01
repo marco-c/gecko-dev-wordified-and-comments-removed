@@ -3197,11 +3197,10 @@ omni
 jar
 jsloader
 endif
-else
 GENERATE_CACHE
+?
 =
 true
-endif
 OMNIJAR_FILES
 =
 \
