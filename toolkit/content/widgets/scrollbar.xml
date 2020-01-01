@@ -271,6 +271,8 @@ xbl
 inherits
 =
 "
+curpos
+maxpos
 disabled
 sborient
 =
@@ -301,6 +303,8 @@ xbl
 inherits
 =
 "
+curpos
+maxpos
 disabled
 sborient
 =
@@ -398,6 +402,8 @@ xbl
 inherits
 =
 "
+curpos
+maxpos
 disabled
 sborient
 =
@@ -428,6 +434,8 @@ xbl
 inherits
 =
 "
+curpos
+maxpos
 disabled
 sborient
 =
