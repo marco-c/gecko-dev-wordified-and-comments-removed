@@ -756,7 +756,7 @@ cx
 JSObject
 *
 obj
-int32
+uint32
 index
 )
 {
@@ -818,7 +818,7 @@ cx
 JSObject
 *
 obj
-int32
+uint32
 index
 jsval
 v
@@ -929,7 +929,7 @@ return
 v
 ;
 }
-GuardRecord
+SideExit
 *
 FASTCALL
 js_CallTree
@@ -942,10 +942,6 @@ Fragment
 f
 )
 {
-GuardRecord
-*
-lr
-;
 union
 {
 NIns
@@ -987,6 +983,10 @@ u
 code
 )
 ;
+GuardRecord
+*
+rec
+;
 #
 if
 defined
@@ -1001,7 +1001,7 @@ NANOJIT_IA32
 )
 SIMULATE_FASTCALL
 (
-lr
+rec
 state
 NULL
 u
@@ -1011,7 +1011,7 @@ func
 ;
 #
 else
-lr
+rec
 =
 u
 .
@@ -1023,12 +1023,18 @@ NULL
 ;
 #
 endif
-if
-(
+SideExit
+*
 lr
+=
+rec
 -
 >
 exit
+;
+if
+(
+lr
 -
 >
 exitType
