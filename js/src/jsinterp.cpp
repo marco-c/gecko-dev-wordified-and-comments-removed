@@ -13446,7 +13446,10 @@ rval
 {
 if
 (
+JSVAL_TO_INT
+(
 rval
+)
 >
 =
 TRACE_THRESHOLD
