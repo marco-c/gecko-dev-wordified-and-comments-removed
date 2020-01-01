@@ -4421,6 +4421,10 @@ readonly
 =
 False
     
+implicit_jscontext
+=
+False
+    
 binaryname
 =
 None
@@ -4432,6 +4436,10 @@ None
 undefined
 =
 None
+    
+deprecated
+=
+False
     
 def
 __init__
@@ -4775,6 +4783,36 @@ notxpcom
 self
 .
 notxpcom
+=
+True
+                
+elif
+name
+=
+=
+'
+implicit_jscontext
+'
+:
+                    
+self
+.
+implicit_jscontext
+=
+True
+                
+elif
+name
+=
+=
+'
+deprecated
+'
+:
+                    
+self
+.
+deprecated
 =
 True
                 
@@ -5071,7 +5109,15 @@ binaryname
 =
 None
     
+implicit_jscontext
+=
+False
+    
 optional_argc
+=
+False
+    
+deprecated
 =
 False
     
@@ -5229,6 +5275,21 @@ name
 =
 =
 '
+implicit_jscontext
+'
+:
+                
+self
+.
+implicit_jscontext
+=
+True
+            
+elif
+name
+=
+=
+'
 optional_argc
 '
 :
@@ -5236,6 +5297,21 @@ optional_argc
 self
 .
 optional_argc
+=
+True
+            
+elif
+name
+=
+=
+'
+deprecated
+'
+:
+                
+self
+.
+deprecated
 =
 True
             
