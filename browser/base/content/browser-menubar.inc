@@ -3965,15 +3965,6 @@ devToolbarMenu
 label
 ;
 "
-accesskey
-=
-"
-&
-devToolbarMenu
-.
-accesskey
-;
-"
 key
 =
 "

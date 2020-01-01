@@ -9437,7 +9437,7 @@ toolbar
 .
 enabled
 "
-false
+true
 )
 ;
 pref
