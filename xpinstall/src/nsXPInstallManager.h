@@ -112,6 +112,13 @@ h
 #
 include
 "
+nsISSLErrorListener
+.
+h
+"
+#
+include
+"
 nsIChannelEventSink
 .
 h
@@ -241,6 +248,8 @@ nsPICertNotification
 public
 nsIBadCertListener2
 public
+nsISSLErrorListener
+public
 nsIChannelEventSink
 public
 nsSupportsWeakReference
@@ -267,6 +276,7 @@ NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSPICERTNOTIFICATION
 NS_DECL_NSIBADCERTLISTENER2
+NS_DECL_NSISSLERRORLISTENER
 NS_DECL_NSICHANNELEVENTSINK
 NS_IMETHOD
 InitManager
