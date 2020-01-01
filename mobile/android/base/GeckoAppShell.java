@@ -14042,8 +14042,6 @@ static
 class
 AsyncResultHandler
 extends
-GeckoApp
-.
 FilePickerResultHandler
 {
 private
@@ -14056,6 +14054,11 @@ long
 id
 )
 {
+super
+(
+null
+)
+;
 mId
 =
 id
