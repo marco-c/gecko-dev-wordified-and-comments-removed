@@ -369,6 +369,11 @@ GeckoAppShell
 sGeckoRunning
 )
 {
+if
+(
+!
+useLaunchButton
+)
 mProgressDialog
 =
 ProgressDialog
