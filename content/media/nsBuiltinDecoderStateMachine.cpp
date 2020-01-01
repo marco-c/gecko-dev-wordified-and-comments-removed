@@ -2169,6 +2169,10 @@ mAudioMonitor
 ;
 if
 (
+!
+mAudioStream
+|
+|
 mAudioStream
 -
 >
