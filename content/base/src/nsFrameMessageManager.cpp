@@ -2904,6 +2904,10 @@ mGlobal
 |
 !
 mCx
+|
+|
+!
+sCachedScripts
 )
 {
 return
