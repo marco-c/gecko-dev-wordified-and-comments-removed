@@ -312,6 +312,12 @@ GetParent
 (
 )
 ;
+virtual
+float
+GetDPI
+(
+)
+;
 NS_IMETHOD
 Enable
 (
