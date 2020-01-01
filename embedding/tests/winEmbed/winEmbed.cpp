@@ -1232,6 +1232,11 @@ return
 5
 ;
 }
+int
+result
+=
+0
+;
 {
 strcpy
 (
@@ -1332,11 +1337,6 @@ rv
 return
 9
 ;
-int
-result
-=
-0
-;
 if
 (
 NS_FAILED
@@ -1368,7 +1368,7 @@ runCondition
 =
 true
 ;
-rv
+result
 =
 AppCallbacks
 :
@@ -1385,7 +1385,7 @@ XRE_TermEmbedding
 )
 ;
 return
-rv
+result
 ;
 }
 nsresult
