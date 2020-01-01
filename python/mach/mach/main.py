@@ -31,6 +31,12 @@ LoggingManager
 from
 mach
 .
+build
+import
+Build
+from
+mach
+.
 settings
 import
 Settings
@@ -40,13 +46,23 @@ mach
 testing
 import
 Testing
+from
+mach
+.
+warnings
+import
+Warnings
 HANDLERS
 =
 [
     
+Build
+    
 Settings
     
 Testing
+    
+Warnings
 ]
 SETTINGS_PROVIDERS
 =
