@@ -7294,7 +7294,7 @@ bool
 aRestyleDescendants
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 CSS

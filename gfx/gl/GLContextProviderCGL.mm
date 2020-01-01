@@ -647,7 +647,7 @@ SwapBuffers
 (
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 GLContext

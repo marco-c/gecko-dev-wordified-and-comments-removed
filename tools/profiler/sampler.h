@@ -215,8 +215,11 @@ static
 inline
 JSObject
 *
-profiler_get_profile_object
+profiler_get_profile_jsobject
 (
+JSContext
+*
+aCx
 )
 {
 return

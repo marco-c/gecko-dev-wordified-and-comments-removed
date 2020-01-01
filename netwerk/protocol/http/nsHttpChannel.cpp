@@ -20461,7 +20461,7 @@ nsISupports
 ctxt
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 nsHttpChannel
@@ -20907,7 +20907,7 @@ nsresult
 status
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 network
@@ -21460,7 +21460,7 @@ uint32_t
 count
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 network

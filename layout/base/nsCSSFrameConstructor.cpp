@@ -33334,7 +33334,7 @@ count
 return
 NS_OK
 ;
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 CSS
