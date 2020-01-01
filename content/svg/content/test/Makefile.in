@@ -534,6 +534,10 @@ helper
 .
 svg
 \
+test_SVGPathSegList
+.
+xhtml
+\
 test_SVGStyleElement
 .
 xhtml
