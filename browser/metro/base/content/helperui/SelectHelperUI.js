@@ -616,9 +616,6 @@ bottom
 ;
 return
 {
-forcePosition
-:
-true
 xPos
 :
 p0
