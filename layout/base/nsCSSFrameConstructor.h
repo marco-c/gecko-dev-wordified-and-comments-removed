@@ -708,6 +708,12 @@ aAttrName
 nsStyleContext
 *
 aStyleContext
+nsCOMArray
+<
+nsIContent
+>
+&
+aGeneratedContent
 nsIContent
 *
 *
@@ -736,6 +742,12 @@ nsStyleContent
 aStyleContent
 PRUint32
 aContentIndex
+nsCOMArray
+<
+nsIContent
+>
+&
+aGeneratedContent
 nsIFrame
 *
 *

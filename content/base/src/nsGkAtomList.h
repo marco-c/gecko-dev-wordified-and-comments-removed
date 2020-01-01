@@ -9961,6 +9961,13 @@ ComputedOffsetProperty
 )
 GK_ATOM
 (
+generatedContent
+"
+GeneratedContentProperty
+"
+)
+GK_ATOM
+(
 IBSplitSpecialPrevSibling
 "
 IBSplitSpecialPrevSibling
