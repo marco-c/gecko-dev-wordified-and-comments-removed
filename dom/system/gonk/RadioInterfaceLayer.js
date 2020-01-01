@@ -10506,7 +10506,7 @@ return
 }
 gMobileMessageDatabaseService
 .
-setMessageDelivery
+setMessageDeliveryByMessageId
 (
 options
 .
@@ -10520,6 +10520,7 @@ options
 sms
 .
 deliveryStatus
+null
 function
 notifyResult
 (
@@ -10668,7 +10669,7 @@ return
 }
 gMobileMessageDatabaseService
 .
-setMessageDelivery
+setMessageDeliveryByMessageId
 (
 options
 .
@@ -10684,6 +10685,7 @@ delivery
 message
 .
 deliveryStatus
+null
 function
 notifyResult
 (
@@ -10842,7 +10844,7 @@ return
 }
 gMobileMessageDatabaseService
 .
-setMessageDelivery
+setMessageDeliveryByMessageId
 (
 options
 .
@@ -10854,6 +10856,7 @@ DOM_MOBILE_MESSAGE_DELIVERY_ERROR
 RIL
 .
 GECKO_SMS_DELIVERY_STATUS_ERROR
+null
 function
 notifyResult
 (
@@ -16612,7 +16615,7 @@ return
 }
 gMobileMessageDatabaseService
 .
-setMessageDelivery
+setMessageDeliveryByMessageId
 (
 domMessage
 .
@@ -16622,6 +16625,7 @@ DOM_MOBILE_MESSAGE_DELIVERY_ERROR
 RIL
 .
 GECKO_SMS_DELIVERY_STATUS_ERROR
+null
 function
 notifyResult
 (
