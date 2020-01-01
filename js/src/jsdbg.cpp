@@ -4864,6 +4864,11 @@ popBack
 ;
 fail1
 :
+js_ReportOutOfMemory
+(
+cx
+)
+;
 return
 false
 ;
