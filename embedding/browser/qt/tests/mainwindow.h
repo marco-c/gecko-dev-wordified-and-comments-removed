@@ -68,6 +68,11 @@ stop
 (
 )
 ;
+void
+mainQuit
+(
+)
+;
 public
 :
 QGeckoEmbed
