@@ -473,7 +473,7 @@ as
 that
 '
 s
-where
+when
 we
 told
 this
@@ -731,7 +731,7 @@ idleTime
 Getting
 the
 idle
-Time
+time
 should
 not
 fail
@@ -968,11 +968,11 @@ time
 should
 not
 fail
-in
-normal
 "
 +
 "
+in
+normal
 circumstances
 on
 any
