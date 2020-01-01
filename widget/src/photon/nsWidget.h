@@ -893,6 +893,16 @@ CancelIMEComposition
 (
 )
 ;
+NS_IMETHOD
+GetToggledKeyState
+(
+PRUint32
+aKeyCode
+PRBool
+*
+aLEDState
+)
+;
 inline
 void
 InitEvent

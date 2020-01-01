@@ -458,6 +458,16 @@ CancelIMEComposition
 )
 ;
 NS_IMETHOD
+GetToggledKeyState
+(
+PRUint32
+aKeyCode
+PRBool
+*
+aLEDState
+)
+;
+NS_IMETHOD
 Create
 (
 nsIWidget
