@@ -396,7 +396,7 @@ bool
 RangeAnalysis
 :
 :
-addBetaNobes
+addBetaNodes
 (
 )
 {
@@ -406,7 +406,7 @@ IonSpew_Range
 "
 Adding
 beta
-nobes
+nodes
 "
 )
 ;
@@ -1111,7 +1111,7 @@ bool
 RangeAnalysis
 :
 :
-removeBetaNobes
+removeBetaNodes
 (
 )
 {
@@ -1121,7 +1121,7 @@ IonSpew_Range
 "
 Removing
 beta
-nobes
+nodes
 "
 )
 ;
