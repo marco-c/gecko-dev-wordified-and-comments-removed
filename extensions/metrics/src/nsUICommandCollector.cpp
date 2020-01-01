@@ -637,7 +637,7 @@ rv
 ;
 for
 (
-int
+PRUint32
 i
 =
 0
@@ -1837,7 +1837,7 @@ window
 {
 for
 (
-int
+PRUint32
 i
 =
 0
@@ -1921,7 +1921,7 @@ window
 {
 for
 (
-int
+PRUint32
 i
 =
 0
