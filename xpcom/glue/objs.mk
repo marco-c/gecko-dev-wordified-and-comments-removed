@@ -544,11 +544,15 @@ cpp
 (
 NULL
 )
-ifeq
+ifneq
 (
+(
+filter
 arm
+%
 (
 TARGET_CPU
+)
 )
 )
 XPCOM_GLUENS_SRC_LCPPSRCS
