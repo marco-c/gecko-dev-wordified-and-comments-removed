@@ -2335,7 +2335,6 @@ aURI
 {
 if
 (
-!
 isAbsoluteURI
 (
 aURI
