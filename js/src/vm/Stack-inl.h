@@ -65,6 +65,17 @@ inl
 .
 h
 "
+#
+include
+"
+jit
+/
+IonFrameIterator
+-
+inl
+.
+h
+"
 namespace
 js
 {

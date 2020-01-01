@@ -157,6 +157,13 @@ h
 #
 include
 "
+jsscriptinlines
+.
+h
+"
+#
+include
+"
 jit
 /
 IonFrameIterator

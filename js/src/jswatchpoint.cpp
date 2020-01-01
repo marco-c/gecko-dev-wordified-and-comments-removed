@@ -53,6 +53,17 @@ inl
 .
 h
 "
+#
+include
+"
+vm
+/
+ObjectImpl
+-
+inl
+.
+h
+"
 using
 namespace
 js
