@@ -1133,6 +1133,14 @@ test_bug454326
 .
 html
 \
+test_bug457746
+.
+html
+\
+bug457746
+.
+sjs
+\
 (
 NULL
 )
