@@ -31897,7 +31897,7 @@ rootPC
 rootPC
 -
 >
-UpdatePluginGeometry
+RequestUpdatePluginGeometry
 (
 rootFrame
 )

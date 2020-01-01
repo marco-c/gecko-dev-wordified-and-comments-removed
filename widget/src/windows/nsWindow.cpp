@@ -17965,6 +17965,8 @@ int
 )
 OnPaint
 (
+NULL
+0
 )
 ;
 result
@@ -17987,6 +17989,7 @@ OnPaint
 HDC
 )
 wParam
+0
 )
 ;
 break

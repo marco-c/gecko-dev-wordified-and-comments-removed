@@ -3012,7 +3012,7 @@ this
 rpc
 -
 >
-UpdatePluginGeometry
+RequestUpdatePluginGeometry
 (
 this
 )

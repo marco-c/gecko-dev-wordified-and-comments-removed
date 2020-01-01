@@ -1708,14 +1708,13 @@ LPARAM
 lParam
 )
 ;
-virtual
 PRBool
 OnPaint
 (
 HDC
 aDC
-=
-nsnull
+PRUint32
+aNestingLevel
 )
 ;
 void
