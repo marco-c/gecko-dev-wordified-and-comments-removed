@@ -23,6 +23,13 @@ null
 let
 gCurrentTab
 ;
+const
+kDoubleClickIntervalPlus
+=
+kDoubleClickInterval
++
+100
+;
 let
 gEvents
 =
@@ -654,7 +661,9 @@ messageManager
 addMessageListener
 (
 "
-pageshow
+Browser
+:
+FirstPaint
 "
 function
 (
@@ -679,7 +688,9 @@ messageManager
 removeMessageListener
 (
 "
-pageshow
+Browser
+:
+FirstPaint
 "
 arguments
 .
@@ -703,10 +714,8 @@ true
 }
 )
 ;
-setTimeout
-(
 runNextTest
-0
+(
 )
 ;
 }
@@ -914,7 +923,7 @@ doubleTapTest
 )
 ;
 }
-kDoubleClickInterval
+kDoubleClickIntervalPlus
 )
 ;
 }
@@ -1035,7 +1044,7 @@ doubleTapFailTest
 )
 ;
 }
-500
+kDoubleClickIntervalPlus
 )
 ;
 }
