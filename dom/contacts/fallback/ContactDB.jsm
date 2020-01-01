@@ -448,8 +448,6 @@ interval
 =
 setTimeout
 (
-this
-.
 sendChunk
 CHUNK_INTERVAL
 )
