@@ -182,6 +182,17 @@ A
 <
 !
 ENTITY
+viewQuota
+.
+label
+"
+View
+Quota
+"
+>
+<
+!
+ENTITY
 changePassword
 .
 label

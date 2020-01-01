@@ -2074,5 +2074,14 @@ browser
 syncCommon
 .
 css
+skin
+/
+classic
+/
+browser
+/
+syncQuota
+.
+css
 #
 endif
