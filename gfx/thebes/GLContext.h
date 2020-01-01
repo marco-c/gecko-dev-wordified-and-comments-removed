@@ -2401,6 +2401,8 @@ APPLE_client_storage
 ARB_texture_non_power_of_two
 ARB_pixel_buffer_object
 ARB_ES2_compatibility
+OES_texture_float
+ARB_texture_float
 Extensions_Max
 }
 ;
