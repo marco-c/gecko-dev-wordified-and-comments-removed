@@ -6231,7 +6231,7 @@ nsIDOMWindow
 >
 window
 =
-GetWindowInternal
+GetWindow
 (
 )
 ;
