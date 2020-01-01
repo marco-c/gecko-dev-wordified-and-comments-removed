@@ -311,6 +311,17 @@ return
 0
 ;
 }
+static
+inline
+bool
+profiler_in_privacy_mode
+(
+)
+{
+return
+false
+;
+}
 #
 else
 #
