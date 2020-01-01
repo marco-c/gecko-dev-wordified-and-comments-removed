@@ -1660,16 +1660,6 @@ return
 mDefaultSecurityManager
 ;
 }
-uint16_t
-GetDefaultSecurityManagerFlags
-(
-)
-const
-{
-return
-mDefaultSecurityManagerFlags
-;
-}
 static
 nsXPConnect
 *
@@ -1895,9 +1885,6 @@ mRuntime
 nsIXPCSecurityManager
 *
 mDefaultSecurityManager
-;
-uint16_t
-mDefaultSecurityManagerFlags
 ;
 JSBool
 mShuttingDown
