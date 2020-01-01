@@ -488,9 +488,6 @@ clear
 ref
 .
 html
-#
-bug
-377204
 =
 =
 float
@@ -557,7 +554,6 @@ print
 ref
 .
 html
-fails
 =
 =
 float
@@ -580,9 +576,6 @@ print
 ref
 .
 html
-#
-bug
-377204
 fails
 =
 =
