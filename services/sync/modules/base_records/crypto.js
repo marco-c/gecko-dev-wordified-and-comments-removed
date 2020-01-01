@@ -330,6 +330,7 @@ function
 CryptoWrapper_decrypt
 (
 passphrase
+keyUri
 )
 {
 let
@@ -360,9 +361,7 @@ CryptoMetas
 .
 get
 (
-this
-.
-encryption
+keyUri
 )
 ;
 let

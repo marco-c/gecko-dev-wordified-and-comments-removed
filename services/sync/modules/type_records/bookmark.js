@@ -131,6 +131,7 @@ function
 PlacesItem_decrypt
 (
 passphrase
+keyUri
 )
 {
 let

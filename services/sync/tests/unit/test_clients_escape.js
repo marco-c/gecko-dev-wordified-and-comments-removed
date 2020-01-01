@@ -545,6 +545,9 @@ record
 decrypt
 (
 passphrase
+Clients
+.
+cryptoMetaURL
 )
 ;
 do_check_eq
