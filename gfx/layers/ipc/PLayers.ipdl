@@ -758,7 +758,7 @@ layer
 nsIntSize
 size
 ;
-Shmem
+SurfaceDescriptor
 initialFront
 ;
 }
@@ -780,7 +780,7 @@ layer
 nsIntSize
 size
 ;
-Shmem
+SurfaceDescriptor
 initialFront
 ;
 }
@@ -996,7 +996,7 @@ OpPaintCanvas
 PLayer
 layer
 ;
-Shmem
+SurfaceDescriptor
 newFrontBuffer
 ;
 }
@@ -1007,7 +1007,7 @@ OpPaintImage
 PLayer
 layer
 ;
-Shmem
+SurfaceDescriptor
 newFrontBuffer
 ;
 }
