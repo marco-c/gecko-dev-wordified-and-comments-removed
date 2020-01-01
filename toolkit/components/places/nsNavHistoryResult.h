@@ -1013,6 +1013,16 @@ PRTime
 aNewLastModified
 PRUint16
 aItemType
+PRInt64
+aParentId
+const
+nsACString
+&
+aGUID
+const
+nsACString
+&
+aParentGUID
 )
 ;
 public
