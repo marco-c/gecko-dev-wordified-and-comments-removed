@@ -110,6 +110,7 @@ runTests
 (
 )
 {
+var
 scratchpad
 =
 gScratchpadWindow
