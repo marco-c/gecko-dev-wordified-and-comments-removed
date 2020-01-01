@@ -453,6 +453,10 @@ browser_privatebrowsing_ui
 .
 js
 \
+browser_console_clear
+.
+js
+\
 (
 NULL
 )
