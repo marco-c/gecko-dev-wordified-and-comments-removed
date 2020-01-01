@@ -14649,6 +14649,8 @@ JS_GetStringLength
 str
 )
 ;
+split
+=
 lazy
 =
 JS_FALSE
