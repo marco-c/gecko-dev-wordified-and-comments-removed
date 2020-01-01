@@ -24,6 +24,13 @@ android
 .
 graphics
 .
+Bitmap
+;
+import
+android
+.
+graphics
+.
 drawable
 .
 AnimationDrawable
@@ -3722,7 +3729,7 @@ public
 void
 setFavicon
 (
-Drawable
+Bitmap
 image
 )
 {
@@ -3758,7 +3765,7 @@ null
 )
 mFavicon
 .
-setImageDrawable
+setImageBitmap
 (
 image
 )

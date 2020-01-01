@@ -204,15 +204,6 @@ graphics
 .
 drawable
 .
-BitmapDrawable
-;
-import
-android
-.
-graphics
-.
-drawable
-.
 Drawable
 ;
 import
@@ -3096,7 +3087,7 @@ onFaviconLoaded
 (
 String
 url
-Drawable
+Bitmap
 favicon
 )
 {
@@ -3127,7 +3118,7 @@ addon_icon
 ;
 icon
 .
-setImageDrawable
+setImageBitmap
 (
 favicon
 )
@@ -3276,7 +3267,7 @@ getContentResolver
 )
 ;
 final
-BitmapDrawable
+Bitmap
 favicon
 =
 BrowserDB
@@ -3405,7 +3396,7 @@ last_tab_favicon
 )
 )
 .
-setImageDrawable
+setImageBitmap
 (
 favicon
 )
