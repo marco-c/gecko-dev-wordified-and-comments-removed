@@ -683,7 +683,9 @@ JSObject
 obj
 jsid
 id
+const
 Value
+&
 def
 Value
 *

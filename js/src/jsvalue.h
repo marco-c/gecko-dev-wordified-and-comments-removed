@@ -2423,6 +2423,7 @@ data
 asPtr
 ;
 }
+const
 jsuword
 *
 payloadWord
@@ -2431,16 +2432,14 @@ payloadWord
 const
 {
 return
-(
-jsuword
-*
-)
 &
 data
 .
 s
 .
 payload
+.
+word
 ;
 }
 private
