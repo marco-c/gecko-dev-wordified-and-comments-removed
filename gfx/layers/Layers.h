@@ -1342,6 +1342,9 @@ CONTENT_COMPONENT_ALPHA
 CONTENT_PRESERVE_3D
 =
 0x04
+CONTENT_MAY_CHANGE_TRANSFORM
+=
+0x08
 }
 ;
 void
@@ -2667,6 +2670,11 @@ aSnapRect
 gfxMatrix
 *
 aResidualTransform
+)
+;
+bool
+MayResample
+(
 )
 ;
 LayerManager
