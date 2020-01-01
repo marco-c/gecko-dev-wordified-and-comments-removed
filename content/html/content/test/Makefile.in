@@ -1488,6 +1488,10 @@ test_bug660663
 .
 html
 \
+test_bug664299
+.
+html
+\
 test_bug666666
 .
 html
