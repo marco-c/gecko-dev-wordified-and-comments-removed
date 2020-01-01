@@ -173,11 +173,6 @@ nsIDOMNodeList
 idl
 '
 '
-nsIDOMNodeSelector
-.
-idl
-'
-'
 nsIDOMProcessingInstruction
 .
 idl

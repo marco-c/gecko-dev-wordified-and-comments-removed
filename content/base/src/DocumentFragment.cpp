@@ -638,15 +638,6 @@ nsNodeSupportsWeakRefTearoff
 this
 )
 )
-NS_INTERFACE_MAP_ENTRY_TEAROFF
-(
-nsIDOMNodeSelector
-new
-nsNodeSelectorTearoff
-(
-this
-)
-)
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports

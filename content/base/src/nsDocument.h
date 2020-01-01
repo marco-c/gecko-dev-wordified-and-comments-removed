@@ -112,13 +112,6 @@ h
 #
 include
 "
-nsIDOMNodeSelector
-.
-h
-"
-#
-include
-"
 nsIPrincipal
 .
 h
