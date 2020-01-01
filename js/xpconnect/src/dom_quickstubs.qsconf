@@ -2123,15 +2123,6 @@ dom
 /
 interfaces
 /
-threads
--
-None
-.
-#
-dom
-/
-interfaces
-/
 traversal
 '
 nsIDOMNodeIterator
