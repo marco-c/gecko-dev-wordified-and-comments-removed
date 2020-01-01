@@ -38820,6 +38820,11 @@ mainBox
 "
 )
 ;
+if
+(
+overlay
+)
+{
 overlay
 .
 addEventListener
@@ -38865,6 +38870,7 @@ top
 true
 )
 ;
+}
 if
 (
 !
