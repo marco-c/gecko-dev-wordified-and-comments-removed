@@ -446,6 +446,10 @@ moz
 .
 png
 \
+nsIAccessible_actions
+.
+js
+\
 nsIAccessible_name
 .
 css
@@ -486,6 +490,10 @@ html
 temporarily
 disabled
 )
+\
+test_nsIAccessible_actions
+.
+html
 \
 test_nsIAccessible_actions
 .
