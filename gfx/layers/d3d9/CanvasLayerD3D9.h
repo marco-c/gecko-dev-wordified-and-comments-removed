@@ -182,9 +182,6 @@ mTexture
 PRUint32
 mCanvasFramebuffer
 ;
-bool
-mIsInteropTexture
-;
 PRPackedBool
 mDataIsPremultiplied
 ;

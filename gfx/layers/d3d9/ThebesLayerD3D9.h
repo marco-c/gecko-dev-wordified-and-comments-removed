@@ -110,15 +110,6 @@ mTextureOnWhite
 nsIntRect
 mTextureRect
 ;
-nsRefPtr
-<
-gfxASurface
->
-mD2DSurface
-;
-bool
-mD2DSurfaceInitialized
-;
 bool
 HaveTextures
 (
