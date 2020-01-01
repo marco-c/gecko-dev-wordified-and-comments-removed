@@ -123,6 +123,11 @@ nsBoxLayoutState
 cpp
 '
 '
+nsBoxObject
+.
+cpp
+'
+'
 nsButtonBoxFrame
 .
 cpp
@@ -212,11 +217,6 @@ cpp
 '
 '
 nsListBoxObject
-.
-cpp
-'
-'
-nsBoxObject
 .
 cpp
 '
