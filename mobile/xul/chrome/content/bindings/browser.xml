@@ -4731,9 +4731,6 @@ forcedCharset
 this
 .
 _charset
-forcedDetector
-:
-false
 parentCharset
 :
 "

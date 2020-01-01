@@ -3882,10 +3882,6 @@ attribute
 nsIAtom
 forcedCharset
 ;
-attribute
-boolean
-forcedDetector
-;
 /
 *
 *

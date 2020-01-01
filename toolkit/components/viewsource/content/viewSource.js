@@ -3577,14 +3577,6 @@ BrowserSetForcedDetector
 doReload
 )
 {
-gBrowser
-.
-docShell
-.
-forcedDetector
-=
-true
-;
 if
 (
 doReload
