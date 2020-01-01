@@ -1,9 +1,9 @@
 var
-v2
+v3
 ;
 try
 {
-v2
+v3
 =
 require
 (
@@ -22,7 +22,7 @@ catch
 e
 )
 {
-v2
+v3
 =
 require
 (
@@ -40,9 +40,9 @@ module
 .
 exports
 =
-v2
+v3
 ;
-v2
+v3
 .
 Framer
 =
@@ -57,7 +57,7 @@ framer
 .
 Framer
 ;
-v2
+v3
 .
 dictionary
 =

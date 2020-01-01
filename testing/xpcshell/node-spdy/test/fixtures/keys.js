@@ -94,6 +94,9 @@ csr
 pem
 '
 )
+rejectUnauthorized
+:
+false
 }
 ;
 module
