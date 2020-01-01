@@ -14330,7 +14330,7 @@ str1
 str2
 )
 return
-JS_TRUE
+true
 ;
 n
 =
@@ -14350,7 +14350,7 @@ str2
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -14360,7 +14360,7 @@ n
 0
 )
 return
-JS_TRUE
+true
 ;
 s1
 =
@@ -14387,7 +14387,7 @@ s1
 s2
 )
 return
-JS_FALSE
+false
 ;
 +
 +
@@ -14408,7 +14408,7 @@ n
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 jsint
