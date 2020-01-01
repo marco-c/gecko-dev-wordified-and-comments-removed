@@ -733,6 +733,16 @@ APPEND_DEVICE
 break
 ;
 case
+IntelMobileHDGraphics
+:
+APPEND_DEVICE
+(
+0x0046
+)
+;
+break
+;
+case
 NvidiaBlockD3D9Layers
 :
 APPEND_DEVICE
