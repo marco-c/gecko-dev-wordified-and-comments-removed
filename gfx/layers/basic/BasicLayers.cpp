@@ -7920,6 +7920,7 @@ DestroySharedSurface
 (
 &
 mFrontBufferDescriptor
+mAllocator
 )
 ;
 }
@@ -8406,6 +8407,7 @@ ShadowLayerManager
 DestroySharedSurface
 (
 mFrontSurface
+mAllocator
 )
 ;
 }
@@ -8714,6 +8716,7 @@ ShadowLayerManager
 DestroySharedSurface
 (
 mFrontSurface
+mAllocator
 )
 ;
 }
