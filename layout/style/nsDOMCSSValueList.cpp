@@ -109,9 +109,6 @@ cx
 JSObject
 *
 scope
-bool
-*
-tried
 )
 {
 return
@@ -126,7 +123,6 @@ Wrap
 cx
 scope
 this
-tried
 )
 ;
 }

@@ -197,10 +197,8 @@ cx
 JSObject
 *
 scope
-bool
-*
-triedToWrap
 )
+MOZ_OVERRIDE
 {
 return
 mozilla
@@ -217,7 +215,6 @@ Wrap
 cx
 scope
 this
-triedToWrap
 )
 ;
 }
@@ -1234,9 +1231,6 @@ aCx
 JSObject
 *
 aScope
-bool
-*
-aTriedToWrap
 )
 {
 return
@@ -1248,7 +1242,6 @@ Wrap
 aCx
 aScope
 this
-aTriedToWrap
 )
 ;
 }

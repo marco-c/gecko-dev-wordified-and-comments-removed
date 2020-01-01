@@ -121,10 +121,8 @@ cx
 JSObject
 *
 scope
-bool
-*
-triedToWrap
 )
+MOZ_OVERRIDE
 ;
 DOMTimeMilliSec
 NavigationStart
@@ -459,10 +457,8 @@ cx
 JSObject
 *
 scope
-bool
-*
-triedToWrap
 )
+MOZ_OVERRIDE
 ;
 uint16_t
 Type
@@ -589,10 +585,8 @@ cx
 JSObject
 *
 scope
-bool
-*
-triedToWrap
 )
+MOZ_OVERRIDE
 ;
 DOMHighResTimeStamp
 Now

@@ -863,10 +863,8 @@ aCx
 JSObject
 *
 aScope
-bool
-*
-aTriedToWrap
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -881,9 +879,6 @@ aCx
 JSObject
 *
 aScope
-bool
-*
-aTriedToWrap
 )
 {
 MOZ_ASSERT
@@ -900,11 +895,6 @@ override
 WrapNode
 "
 )
-;
-*
-aTriedToWrap
-=
-false
 ;
 return
 nullptr

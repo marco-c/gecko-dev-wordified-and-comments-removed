@@ -397,10 +397,8 @@ cx
 JSObject
 *
 scope
-bool
-*
-triedToWrap
 )
+MOZ_OVERRIDE
 {
 return
 dom
@@ -414,7 +412,6 @@ Wrap
 cx
 scope
 this
-triedToWrap
 )
 ;
 }

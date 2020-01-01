@@ -2604,9 +2604,6 @@ cx
 JSObject
 *
 scope
-bool
-*
-triedToWrap
 )
 {
 return
@@ -2618,7 +2615,6 @@ Wrap
 cx
 scope
 this
-triedToWrap
 )
 ;
 }

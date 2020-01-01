@@ -308,9 +308,6 @@ cx
 JSObject
 *
 scope
-bool
-*
-triedToWrap
 )
 =
 0

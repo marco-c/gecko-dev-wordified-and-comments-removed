@@ -341,9 +341,6 @@ cx
 JSObject
 *
 scope
-bool
-*
-triedToWrap
 )
 {
 MOZ_ASSERT
@@ -360,11 +357,6 @@ override
 WrapObject
 "
 )
-;
-*
-triedToWrap
-=
-false
 ;
 return
 nullptr

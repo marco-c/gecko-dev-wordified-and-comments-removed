@@ -196,9 +196,6 @@ cx
 JSObject
 *
 scope
-bool
-*
-triedToWrap
 )
 MOZ_OVERRIDE
 ;

@@ -1597,9 +1597,6 @@ aCx
 JSObject
 *
 aScope
-bool
-*
-aTriedToWrap
 )
 {
 JSObject
@@ -1613,7 +1610,6 @@ WrapObject
 (
 aCx
 aScope
-aTriedToWrap
 )
 ;
 if

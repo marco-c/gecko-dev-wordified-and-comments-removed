@@ -149,10 +149,8 @@ cx
 JSObject
 *
 scope
-bool
-*
-triedToWrap
 )
+MOZ_OVERRIDE
 ;
 NS_DECL_NSIDOMNODELIST
 virtual

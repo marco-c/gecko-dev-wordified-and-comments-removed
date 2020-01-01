@@ -869,10 +869,8 @@ cx
 JSObject
 *
 scope
-bool
-*
-triedToWrap
 )
+MOZ_OVERRIDE
 {
 NS_ASSERTION
 (
@@ -889,11 +887,6 @@ WrapObject
 !
 "
 )
-;
-*
-triedToWrap
-=
-true
 ;
 return
 EnsureInnerWindow

@@ -13854,17 +13854,6 @@ nsWrapperCache
 aCache
 '
 )
-                
-Argument
-(
-'
-bool
-*
-'
-'
-aTriedToWrap
-'
-)
 ]
         
 CGAbstractMethod
@@ -13908,12 +13897,6 @@ return
 "
 "
 "
-*
-aTriedToWrap
-=
-true
-;
-  
 return
 aObject
 -
@@ -13932,12 +13915,6 @@ return
 "
 %
 s
-  
-*
-aTriedToWrap
-=
-true
-;
   
 JSObject
 *
@@ -14196,16 +14173,6 @@ T
 aObject
 '
 )
-Argument
-(
-'
-bool
-*
-'
-'
-aTriedToWrap
-'
-)
 ]
         
 CGAbstractMethod
@@ -14251,7 +14218,6 @@ aCx
 aScope
 aObject
 aObject
-aTriedToWrap
 )
 ;
 "
@@ -59322,28 +59288,6 @@ aScope
 )
 ]
         
-if
-descriptor
-.
-wrapperCache
-:
-            
-wrapArgs
-.
-append
-(
-Argument
-(
-'
-bool
-*
-'
-'
-aTriedToWrap
-'
-)
-)
-        
 methodDecls
 .
 insert
@@ -59681,9 +59625,6 @@ aCx
 JSObject
 *
 aScope
-bool
-*
-aTriedToWrap
 )
 {
   
@@ -59699,7 +59640,6 @@ Wrap
 aCx
 aScope
 this
-aTriedToWrap
 )
 ;
 }

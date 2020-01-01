@@ -72,10 +72,8 @@ cx
 JSObject
 *
 scope
-bool
-*
-triedToWrap
 )
+MOZ_OVERRIDE
 ;
 #
 define
@@ -98,9 +96,6 @@ cx
 JSObject
 *
 scope
-bool
-*
-triedToWrap
 )
 {
 \
@@ -119,7 +114,6 @@ Wrap
 cx
 scope
 this
-triedToWrap
 )
 ;
 \

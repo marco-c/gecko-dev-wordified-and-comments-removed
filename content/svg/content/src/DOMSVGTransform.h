@@ -298,10 +298,8 @@ aCx
 JSObject
 *
 aScope
-bool
-*
-aTriedToWrap
 )
+MOZ_OVERRIDE
 ;
 uint16_t
 Type

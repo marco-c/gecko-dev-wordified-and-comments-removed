@@ -10875,9 +10875,6 @@ aCx
 JSObject
 *
 aScope
-bool
-*
-aTriedToWrap
 )
 {
 MOZ_ASSERT
@@ -10928,11 +10925,6 @@ aCx
 NS_ERROR_UNEXPECTED
 )
 ;
-*
-aTriedToWrap
-=
-true
-;
 return
 nullptr
 ;
@@ -10945,7 +10937,6 @@ WrapNode
 (
 aCx
 aScope
-aTriedToWrap
 )
 ;
 if

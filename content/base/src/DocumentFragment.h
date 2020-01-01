@@ -91,10 +91,8 @@ aCx
 JSObject
 *
 aScope
-bool
-*
-aTriedToWrap
 )
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
