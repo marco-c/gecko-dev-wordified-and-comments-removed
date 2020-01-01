@@ -35,6 +35,13 @@ GuardObjects
 h
 "
 JS_BEGIN_EXTERN_C
+#
+define
+JSOPTION_ONLY_CNG_SOURCE
+JS_BIT
+(
+20
+)
 extern
 JS_FRIEND_API
 (
