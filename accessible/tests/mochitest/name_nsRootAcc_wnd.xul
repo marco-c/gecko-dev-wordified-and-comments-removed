@@ -181,6 +181,16 @@ b
 {
 }
 }
+;
+var
+gFindBar
+=
+{
+hidden
+:
+true
+}
+;
 /
 /
 /
