@@ -7839,7 +7839,7 @@ quotaManager
 EnsureOriginIsInitialized
 (
 mASCIIOrigin
-mPrivilege
+mTrackingQuota
 getter_AddRefs
 (
 dbDirectory
