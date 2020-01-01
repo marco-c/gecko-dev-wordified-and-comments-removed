@@ -1008,10 +1008,6 @@ browser_bug655584
 .
 js
 \
-browser_bug664672
-.
-js
-\
 browser_findbarClose
 .
 js
@@ -1128,6 +1124,10 @@ browser_scratchpad_bug_646070_chrome_context_pref
 .
 js
 \
+browser_scratchpad_bug_660560_tab
+.
+js
+\
 browser_overflowScroll
 .
 js
@@ -1227,10 +1227,6 @@ browser_tabs_isActive
 js
 \
 browser_tabs_owner
-.
-js
-\
-browser_urlbarTrimURLs
 .
 js
 \
