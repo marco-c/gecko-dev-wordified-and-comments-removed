@@ -1846,7 +1846,8 @@ cb
 )
 ;
 static
-nsresult
+nsIEventListenerManager
+*
 GetListenerManager
 (
 nsINode
@@ -1854,10 +1855,6 @@ nsINode
 aNode
 PRBool
 aCreateIfNotFound
-nsIEventListenerManager
-*
-*
-aResult
 )
 ;
 static

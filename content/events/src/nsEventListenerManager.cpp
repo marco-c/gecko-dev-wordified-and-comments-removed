@@ -2497,6 +2497,14 @@ aTypeData
 )
 )
 {
+nsRefPtr
+<
+nsEventListenerManager
+>
+kungFuDeathGrip
+=
+this
+;
 mListeners
 .
 RemoveElementAt
