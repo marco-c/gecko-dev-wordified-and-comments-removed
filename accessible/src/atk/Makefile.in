@@ -423,6 +423,10 @@ LIBXUL_LIBRARY
 CPPSRCS
 =
 \
+AtkSocketAccessible
+.
+cpp
+\
 nsAccessNodeWrap
 .
 cpp
@@ -496,6 +500,10 @@ NULL
 )
 EXPORTS
 =
+\
+AtkSocketAccessible
+.
+h
 \
 nsAccessNodeWrap
 .
