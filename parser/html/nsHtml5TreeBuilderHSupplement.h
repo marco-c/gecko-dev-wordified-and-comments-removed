@@ -77,6 +77,17 @@ m
 nsIContent
 *
 *
+getDocumentFragmentForTemplate
+(
+nsIContent
+*
+*
+aTemplate
+)
+;
+nsIContent
+*
+*
 AllocateContentHandle
 (
 )

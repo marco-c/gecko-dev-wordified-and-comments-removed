@@ -59,6 +59,7 @@ eTreeOpFosterParentText
 eTreeOpAppendComment
 eTreeOpAppendCommentToDocument
 eTreeOpAppendDoctypeToDocument
+eTreeOpGetDocumentFragmentForTemplate
 eTreeOpMarkAsBroken
 eTreeOpRunScript
 eTreeOpRunScriptAsyncDefer
