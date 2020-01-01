@@ -3,7 +3,8 @@ use
 strict
 "
 ;
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -2134,7 +2135,8 @@ urls
 }
 }
 ;
-let
+this
+.
 NewTabUtils
 =
 {

@@ -165,7 +165,8 @@ nsIHttpActivityDistributor
 "
 )
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -256,7 +257,8 @@ s
 )
 /
 ;
-var
+this
+.
 WebConsoleUtils
 =
 {
@@ -3090,7 +3092,8 @@ result
 }
 }
 ;
-var
+this
+.
 JSPropertyProvider
 =
 (
@@ -4131,6 +4134,10 @@ JSPropertyProvider
 WebConsoleUtils
 )
 ;
+this
+.
+PageErrorListener
+=
 function
 PageErrorListener
 (
@@ -4514,6 +4521,10 @@ null
 }
 }
 ;
+this
+.
+ConsoleAPIListener
+=
 function
 ConsoleAPIListener
 (
@@ -4735,6 +4746,10 @@ null
 }
 }
 ;
+this
+.
+JSTermHelpers
+=
 function
 JSTermHelpers
 (
@@ -5380,6 +5395,7 @@ aString
 }
 ;
 }
+;
 (
 function
 (
@@ -8153,6 +8169,10 @@ this
 WebConsoleUtils
 )
 ;
+this
+.
+ConsoleProgressListener
+=
 function
 ConsoleProgressListener
 (

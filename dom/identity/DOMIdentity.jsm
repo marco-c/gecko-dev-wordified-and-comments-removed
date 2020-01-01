@@ -18,7 +18,8 @@ Cu
 =
 Components
 ;
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -713,7 +714,8 @@ aMessage
 }
 }
 ;
-let
+this
+.
 DOMIdentity
 =
 {

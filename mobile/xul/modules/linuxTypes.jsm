@@ -1,4 +1,5 @@
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -36,7 +37,8 @@ jsm
 "
 )
 ;
-let
+this
+.
 GLib
 =
 {
@@ -155,7 +157,8 @@ voidptr_t
 }
 }
 ;
-let
+this
+.
 EBook
 =
 {

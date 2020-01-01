@@ -1067,7 +1067,8 @@ aWarden
 ;
 }
 }
-const
+this
+.
 NSGetFactory
 =
 XPCOMUtils

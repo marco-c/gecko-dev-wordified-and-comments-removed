@@ -22,6 +22,10 @@ jsm
 "
 )
 ;
+this
+.
+DebuggerTransport
+=
 function
 DebuggerTransport
 (

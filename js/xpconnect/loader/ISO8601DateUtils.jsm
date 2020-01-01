@@ -27,7 +27,8 @@ HOURS_TO_MINUTES
 *
 MINUTES_TO_MILLISECONDS
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -49,7 +50,8 @@ n
 "
 )
 ;
-var
+this
+.
 ISO8601DateUtils
 =
 {

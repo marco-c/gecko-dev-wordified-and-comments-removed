@@ -1,4 +1,5 @@
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -126,7 +127,8 @@ strings
 "
 }
 ;
-var
+this
+.
 LocaleRepository
 =
 {

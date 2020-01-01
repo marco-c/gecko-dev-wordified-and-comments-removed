@@ -17,7 +17,8 @@ Components
 .
 interfaces
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [

@@ -3008,7 +3008,8 @@ _lastChangedByCommandLine
 }
 }
 ;
-var
+this
+.
 NSGetFactory
 =
 XPCOMUtils

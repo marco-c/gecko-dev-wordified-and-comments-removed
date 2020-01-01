@@ -24,7 +24,8 @@ Components
 .
 utils
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -203,7 +204,8 @@ js
 "
 )
 ;
-var
+this
+.
 DebuggerServer
 =
 gGlobal

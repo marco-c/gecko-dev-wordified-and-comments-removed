@@ -82,7 +82,8 @@ jsm
 "
 )
 ;
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -91,7 +92,8 @@ TiltUtils
 "
 ]
 ;
-let
+this
+.
 TiltUtils
 =
 {

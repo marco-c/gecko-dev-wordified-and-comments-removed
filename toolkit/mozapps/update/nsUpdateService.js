@@ -17729,7 +17729,8 @@ UpdatePrompt
 UpdateManager
 ]
 ;
-var
+this
+.
 NSGetFactory
 =
 XPCOMUtils

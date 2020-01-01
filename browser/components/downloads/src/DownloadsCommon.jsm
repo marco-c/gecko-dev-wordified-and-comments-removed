@@ -3,7 +3,8 @@ use
 strict
 "
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -260,7 +261,8 @@ kPartialDownloadSuffix
 part
 "
 ;
-const
+this
+.
 DownloadsCommon
 =
 {

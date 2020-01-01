@@ -1,4 +1,5 @@
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -7,7 +8,8 @@ WorkerTest
 "
 ]
 ;
-const
+this
+.
 WorkerTest
 =
 {

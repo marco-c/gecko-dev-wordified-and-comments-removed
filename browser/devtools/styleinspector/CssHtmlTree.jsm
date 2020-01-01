@@ -167,7 +167,8 @@ jsm
 "
 )
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -504,6 +505,10 @@ return
 }
 }
 ;
+this
+.
+CssHtmlTree
+=
 function
 CssHtmlTree
 (
@@ -3347,6 +3352,10 @@ styleInspector
 }
 }
 ;
+this
+.
+PropertyView
+=
 function
 PropertyView
 (
@@ -4406,7 +4415,7 @@ this
 .
 valueNode
 .
-textContent
+innerHTML
 =
 "
 "
@@ -4425,7 +4434,7 @@ this
 .
 matchedSelectorsContainer
 .
-textContent
+innerHTML
 =
 "
 "
@@ -4456,7 +4465,7 @@ this
 .
 valueNode
 .
-textContent
+innerHTML
 =
 this
 .

@@ -1,4 +1,5 @@
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -176,6 +177,10 @@ js
 "
 )
 ;
+this
+.
+HistoryRec
+=
 function
 HistoryRec
 (
@@ -238,6 +243,10 @@ visits
 ]
 )
 ;
+this
+.
+HistoryEngine
+=
 function
 HistoryEngine
 (

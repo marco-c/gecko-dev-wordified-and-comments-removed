@@ -1,4 +1,5 @@
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -35,7 +36,8 @@ Components
 .
 results
 ;
-const
+this
+.
 DownloadPaths
 =
 {

@@ -3,7 +3,8 @@ use
 strict
 "
 ;
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -121,7 +122,8 @@ jsm
 "
 )
 ;
-let
+this
+.
 PropertyListUtils
 =
 Object

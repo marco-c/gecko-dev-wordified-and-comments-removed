@@ -3,7 +3,8 @@ use
 strict
 "
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -116,6 +117,10 @@ js
 "
 )
 ;
+this
+.
+UserAPI10Client
+=
 function
 UserAPI10Client
 (

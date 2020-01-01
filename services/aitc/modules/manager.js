@@ -3,7 +3,8 @@ use
 strict
 "
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -264,6 +265,10 @@ url
 "
 )
 ;
+this
+.
+AitcManager
+=
 function
 AitcManager
 (

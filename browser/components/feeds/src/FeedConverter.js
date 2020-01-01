@@ -2722,7 +2722,8 @@ FeedProtocolHandler
 PodCastProtocolHandler
 ]
 ;
-const
+this
+.
 NSGetFactory
 =
 XPCOMUtils

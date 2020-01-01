@@ -100,7 +100,8 @@ properties
 }
 )
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -109,6 +110,10 @@ LayoutHelpers
 "
 ]
 ;
+this
+.
+LayoutHelpers
+=
 LayoutHelpers
 =
 {

@@ -4782,7 +4782,8 @@ component
 FormHistory
 ]
 ;
-var
+this
+.
 NSGetFactory
 =
 XPCOMUtils

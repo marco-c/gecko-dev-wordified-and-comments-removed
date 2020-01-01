@@ -3,7 +3,8 @@ use
 strict
 "
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -137,7 +138,8 @@ path
 )
 ;
 }
-var
+this
+.
 ChromeManifestParser
 =
 {

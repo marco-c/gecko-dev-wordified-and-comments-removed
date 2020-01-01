@@ -84,7 +84,8 @@ NetUtil
 }
 )
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -93,7 +94,8 @@ NetworkHelper
 "
 ]
 ;
-var
+this
+.
 NetworkHelper
 =
 {

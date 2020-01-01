@@ -4582,7 +4582,8 @@ nsBrowserContentHandler
 nsDefaultCommandLineHandler
 ]
 ;
-var
+this
+.
 NSGetFactory
 =
 XPCOMUtils

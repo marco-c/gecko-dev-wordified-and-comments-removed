@@ -138,7 +138,8 @@ l10n
 STRINGS_URI
 )
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [

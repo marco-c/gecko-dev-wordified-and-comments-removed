@@ -452,6 +452,8 @@ nsIHandlerApp
 )
 }
 ;
+this
+.
 NSGetFactory
 =
 XPCOMUtils

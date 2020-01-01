@@ -3,7 +3,8 @@ use
 strict
 "
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -121,6 +122,10 @@ STORE_NAME
 contacts
 "
 ;
+this
+.
+ContactDB
+=
 function
 ContactDB
 (

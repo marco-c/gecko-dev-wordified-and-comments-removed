@@ -24,7 +24,8 @@ Components
 .
 utils
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -33,6 +34,10 @@ WebConsoleClient
 "
 ]
 ;
+this
+.
+WebConsoleClient
+=
 function
 WebConsoleClient
 (

@@ -1107,7 +1107,8 @@ RecommendedSearchResults
 ;
 }
 }
-const
+this
+.
 NSGetFactory
 =
 XPCOMUtils

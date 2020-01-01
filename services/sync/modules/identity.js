@@ -3,7 +3,8 @@ use
 strict
 "
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -106,6 +107,10 @@ js
 "
 )
 ;
+this
+.
+IdentityManager
+=
 function
 IdentityManager
 (

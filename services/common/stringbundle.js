@@ -1,4 +1,5 @@
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -25,6 +26,10 @@ Cu
 =
 Components
 ;
+this
+.
+StringBundle
+=
 function
 StringBundle
 (

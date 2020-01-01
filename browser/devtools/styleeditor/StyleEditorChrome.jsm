@@ -3,7 +3,8 @@ use
 strict
 "
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -138,6 +139,10 @@ STYLE_EDITOR_TEMPLATE
 stylesheet
 "
 ;
+this
+.
+StyleEditorChrome
+=
 function
 StyleEditorChrome
 (

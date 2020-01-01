@@ -1,4 +1,5 @@
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -7,6 +8,10 @@ DOMHelpers
 "
 ]
 ;
+this
+.
+DOMHelpers
+=
 function
 DOMHelpers
 (

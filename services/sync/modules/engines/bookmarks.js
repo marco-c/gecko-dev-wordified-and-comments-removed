@@ -1,4 +1,5 @@
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -287,6 +288,10 @@ FOLDER_SORTINDEX
 =
 1000000
 ;
+this
+.
+PlacesItem
+=
 function
 PlacesItem
 (
@@ -490,6 +495,10 @@ type
 ]
 )
 ;
+this
+.
+Bookmark
+=
 function
 Bookmark
 (
@@ -565,6 +574,10 @@ keyword
 ]
 )
 ;
+this
+.
+BookmarkQuery
+=
 function
 BookmarkQuery
 (
@@ -624,6 +637,10 @@ queryId
 ]
 )
 ;
+this
+.
+BookmarkFolder
+=
 function
 BookmarkFolder
 (
@@ -690,6 +707,10 @@ children
 ]
 )
 ;
+this
+.
+Livemark
+=
 function
 Livemark
 (
@@ -749,6 +770,10 @@ feedUri
 ]
 )
 ;
+this
+.
+BookmarkSeparator
+=
 function
 BookmarkSeparator
 (
@@ -1093,6 +1118,10 @@ true
 )
 }
 ;
+this
+.
+BookmarksEngine
+=
 function
 BookmarksEngine
 (

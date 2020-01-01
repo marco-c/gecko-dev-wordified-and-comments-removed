@@ -509,7 +509,8 @@ components
 PlacesCategoriesStarter
 ]
 ;
-var
+this
+.
 NSGetFactory
 =
 XPCOMUtils
