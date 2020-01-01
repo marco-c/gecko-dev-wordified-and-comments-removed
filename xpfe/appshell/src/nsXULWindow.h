@@ -585,6 +585,9 @@ mChromeFlagsFrozen
 bool
 mIgnoreXULSizeMode
 ;
+bool
+mDestroying
+;
 uint32_t
 mContextFlags
 ;
