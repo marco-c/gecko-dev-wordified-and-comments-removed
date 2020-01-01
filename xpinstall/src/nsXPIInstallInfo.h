@@ -65,10 +65,6 @@ nsXPIInstallInfo
 (
 )
 ;
-nsXPITriggerInfo
-*
-mTriggerInfo
-;
 nsCOMPtr
 <
 nsIDOMWindowInternal
@@ -80,6 +76,10 @@ nsCOMPtr
 nsIURI
 >
 mOriginatingURI
+;
+nsXPITriggerInfo
+*
+mTriggerInfo
 ;
 PRUint32
 mChromeType
