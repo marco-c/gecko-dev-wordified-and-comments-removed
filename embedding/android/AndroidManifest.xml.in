@@ -69,6 +69,9 @@ versionName
 "
 MOZ_APP_VERSION
 "
+#
+ifdef
+MOZ_ANDROID_SHARED_ID
 android
 :
 sharedUserId
@@ -76,6 +79,8 @@ sharedUserId
 "
 MOZ_ANDROID_SHARED_ID
 "
+#
+endif
 >
 <
 uses
