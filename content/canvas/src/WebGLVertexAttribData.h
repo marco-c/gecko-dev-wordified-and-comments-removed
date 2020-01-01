@@ -29,6 +29,10 @@ size
 (
 4
 )
+divisor
+(
+0
+)
 byteOffset
 (
 0
@@ -58,6 +62,9 @@ stride
 ;
 WebGLuint
 size
+;
+WebGLuint
+divisor
 ;
 GLuint
 byteOffset
