@@ -245,7 +245,7 @@ top
 )
 .
 wrappedJSObject
-:
+;
 return
 aRequest
 .
