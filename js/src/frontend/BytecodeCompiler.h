@@ -46,6 +46,11 @@ unsigned
 staticLevel
 =
 0
+SourceCompressionToken
+*
+extraSct
+=
+NULL
 )
 ;
 bool
