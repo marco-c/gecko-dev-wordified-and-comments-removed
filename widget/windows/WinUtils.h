@@ -604,7 +604,7 @@ const
 bool
 mURLShortcut
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIRUNNABLE
 AsyncEncodeAndWriteIcon
 (
@@ -670,7 +670,7 @@ nsIRunnable
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIRUNNABLE
 AsyncDeleteIconFromDisk
 (
@@ -701,7 +701,7 @@ nsIRunnable
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIRUNNABLE
 AsyncDeleteAllFaviconsFromDisk
 (
