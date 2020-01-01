@@ -3291,6 +3291,15 @@ parentNode
 )
 return
 ;
+nsCOMPtr
+<
+nsIMutationObserver
+>
+kungFuDeathGrip
+(
+this
+)
+;
 if
 (
 !

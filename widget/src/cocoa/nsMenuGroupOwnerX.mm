@@ -1063,6 +1063,15 @@ PRInt32
 aIndexInContainer
 )
 {
+nsCOMPtr
+<
+nsIMutationObserver
+>
+kungFuDeathGrip
+(
+this
+)
+;
 nsChangeObserver
 *
 obs

@@ -4345,6 +4345,15 @@ doc
 "
 )
 ;
+nsCOMPtr
+<
+nsIMutationObserver
+>
+kungFuDeathGrip
+(
+this
+)
+;
 nsresult
 rv
 =

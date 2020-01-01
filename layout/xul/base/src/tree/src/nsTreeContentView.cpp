@@ -5409,6 +5409,15 @@ select
 return
 ;
 }
+nsCOMPtr
+<
+nsIMutationObserver
+>
+kungFuDeathGrip
+(
+this
+)
+;
 if
 (
 childTag
