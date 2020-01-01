@@ -1103,7 +1103,6 @@ NULL
 endif
 endif
 #
-Ogg
 sample
 files
 _TEST_FILES
@@ -1253,6 +1252,10 @@ ogg
 seek
 .
 ogv
+\
+seek
+.
+webm
 \
 short
 -
