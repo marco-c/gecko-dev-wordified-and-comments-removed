@@ -2527,8 +2527,6 @@ key
 )
 ;
 }
-else
-{
 for
 (
 var
@@ -2562,7 +2560,6 @@ key
 value
 )
 ;
-}
 }
 }
 catch
@@ -2696,8 +2693,6 @@ key
 )
 ;
 }
-else
-{
 properties
 =
 {
@@ -2711,12 +2706,13 @@ key
 b
 ;
 }
-}
 else
+{
 properties
 =
 a
 ;
+}
 var
 pixels
 =
