@@ -238,6 +238,11 @@ complement
 (
 )
 ;
+void
+clear
+(
+)
+;
 Iterator
 begin
 (
