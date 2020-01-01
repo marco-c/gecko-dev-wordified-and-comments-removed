@@ -6281,7 +6281,7 @@ exception
 ;
 masm
 .
-branchTest32
+branchTestBool
 (
 Assembler
 :
@@ -33363,7 +33363,7 @@ exception
 ;
 masm
 .
-branchTest32
+branchTestBool
 (
 Assembler
 :
@@ -33706,7 +33706,7 @@ exception
 ;
 masm
 .
-branchTest32
+branchTestBool
 (
 Assembler
 :
