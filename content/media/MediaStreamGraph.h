@@ -1005,6 +1005,17 @@ return
 mWrapper
 ;
 }
+virtual
+bool
+MainThreadNeedsUpdates
+(
+)
+const
+{
+return
+true
+;
+}
 protected
 :
 virtual
@@ -2023,6 +2034,7 @@ aWrapper
 enum
 AudioNodeStreamKind
 {
+SOURCE_STREAM
 INTERNAL_STREAM
 EXTERNAL_STREAM
 }

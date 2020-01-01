@@ -2044,7 +2044,7 @@ Destination
 MediaStreamGraph
 :
 :
-INTERNAL_STREAM
+SOURCE_STREAM
 )
 ;
 mStream
