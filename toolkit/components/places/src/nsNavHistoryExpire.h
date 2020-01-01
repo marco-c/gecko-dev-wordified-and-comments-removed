@@ -116,6 +116,14 @@ aConnection
 )
 ;
 nsresult
+ExpireEmbeddedLinks
+(
+mozIStorageConnection
+*
+aConnection
+)
+;
+nsresult
 FindVisits
 (
 PRTime
