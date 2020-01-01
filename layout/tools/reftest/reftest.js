@@ -9568,6 +9568,11 @@ UNEXPECTED
 -
 FAIL
 |
+"
++
+gCurrentURL
++
+"
 |
 program
 error
@@ -11313,6 +11318,11 @@ UNEXPECTED
 -
 FAIL
 |
+"
++
+gCurrentURL
++
+"
 |
 "
 +
@@ -11425,6 +11435,11 @@ UNEXPECTED
 -
 FAIL
 |
+"
++
+gCurrentURL
++
+"
 |
 unknown
 log
