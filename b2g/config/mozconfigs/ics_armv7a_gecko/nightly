@@ -37,6 +37,12 @@ camera
 ac_add_options
 -
 -
+enable
+-
+updater
+ac_add_options
+-
+-
 target
 =
 arm
