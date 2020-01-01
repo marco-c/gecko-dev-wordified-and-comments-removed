@@ -120,6 +120,11 @@ mResolution
 1
 1
 )
+mZoom
+(
+1
+1
+)
 mDevPixelsPerCSSPixel
 (
 1

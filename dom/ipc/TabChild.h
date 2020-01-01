@@ -1522,7 +1522,7 @@ aY
 )
 ;
 void
-HandlePossibleMetaViewportChange
+HandlePossibleViewportChange
 (
 )
 ;
