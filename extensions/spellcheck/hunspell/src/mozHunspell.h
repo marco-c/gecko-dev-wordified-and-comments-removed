@@ -84,7 +84,7 @@ org
 /
 spellchecker
 /
-hunspell
+engine
 ;
 1
 "
