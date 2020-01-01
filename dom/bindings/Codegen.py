@@ -30923,10 +30923,16 @@ returnType
 arguments
 extendedAttributes
 descriptorProvider
+           
+considerTypes
 )
 :
     
 return
+(
+considerTypes
+and
+            
 (
 typeNeedsCx
 (
@@ -30935,7 +30941,7 @@ descriptorProvider
 True
 )
 or
-            
+             
 any
 (
 typeNeedsCx
@@ -30949,6 +30955,7 @@ for
 a
 in
 arguments
+)
 )
 or
             
@@ -32714,17 +32721,6 @@ global
         
 needsCx
 =
-(
-not
-descriptor
-.
-interface
-.
-isJSImplemented
-(
-)
-and
-                   
 needCx
 (
 returnType
@@ -32732,8 +32728,15 @@ arguments
 self
 .
 extendedAttributes
-                          
+                         
 descriptor
+not
+descriptor
+.
+interface
+.
+isJSImplemented
+(
 )
 )
         
@@ -61556,6 +61559,44 @@ passed
 as
 JSObject
 *
+.
+        
+If
+passCxAsNeeded
+is
+false
+we
+don
+'
+t
+automatically
+pass
+in
+a
+        
+JSContext
+*
+based
+on
+the
+return
+and
+argument
+types
+.
+We
+can
+        
+still
+pass
+it
+based
+on
+'
+implicitJSContext
+'
+annotations
+.
         
 "
 "
@@ -63034,12 +63075,6 @@ aThisVal
 )
         
 if
-(
-self
-.
-passCxAsNeeded
-and
-            
 needCx
 (
 returnType
@@ -63047,11 +63082,13 @@ argList
 self
 .
 extendedAttrs
-                   
+                  
 self
 .
 descriptor
-)
+self
+.
+passCxAsNeeded
 )
 :
             
