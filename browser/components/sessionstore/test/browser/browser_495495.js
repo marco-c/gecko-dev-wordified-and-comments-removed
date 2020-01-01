@@ -341,8 +341,9 @@ close
 (
 )
 ;
-callback
+executeSoon
 (
+callback
 )
 ;
 }

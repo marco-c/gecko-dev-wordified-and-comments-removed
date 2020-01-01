@@ -760,6 +760,7 @@ value
 }
 }
 ;
+let
 tab_A
 =
 gBrowser
@@ -1013,6 +1014,7 @@ value1
 }
 }
 ;
+let
 tab_B
 =
 gBrowser
