@@ -12637,17 +12637,6 @@ height
 cellSpacingY
 ;
 }
-nsIFrame
-*
-kidNextInFlow
-=
-kidFrame
--
->
-GetNextInFlow
-(
-)
-;
 PRBool
 reorder
 =
@@ -12962,6 +12951,8 @@ aStatus
 )
 )
 {
+nsIFrame
+*
 kidNextInFlow
 =
 kidFrame
