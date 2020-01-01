@@ -378,6 +378,10 @@ MOZ_CO_PROJECT
 '
 .
 appName
+.
+'
+xulrunner
+'
 ]
 dir
 =
