@@ -129,10 +129,8 @@ nsIWidget
 aWindow
 UINT
 aIndex
-const
-char
-*
-aMIMEFormat
+UINT
+aFormat
 void
 *
 *
@@ -151,10 +149,8 @@ IDataObject
 aDataObject
 UINT
 aIndex
-const
-char
-*
-aMIMEFormat
+UINT
+aFormat
 void
 *
 *
