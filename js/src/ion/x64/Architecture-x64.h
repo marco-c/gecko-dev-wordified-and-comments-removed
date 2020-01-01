@@ -40,14 +40,14 @@ const
 uint32
 ION_FRAME_PREFIX_SIZE
 =
-8
+16
 ;
 static
 const
 uint32
 ION_FRAME_SLACK_SIZE
 =
-16
+24
 ;
 class
 Registers

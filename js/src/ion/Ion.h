@@ -161,11 +161,14 @@ fp
 )
 ;
 bool
-FireMahLaser
+Cannon
 (
 JSContext
 *
 cx
+StackFrame
+*
+fp
 )
 ;
 static

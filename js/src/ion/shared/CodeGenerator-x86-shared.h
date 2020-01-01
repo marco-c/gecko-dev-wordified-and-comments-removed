@@ -17,15 +17,6 @@ shared
 .
 h
 "
-#
-include
-"
-ion
-/
-IonLinker
-.
-h
-"
 namespace
 js
 {
@@ -54,9 +45,6 @@ this
 }
 protected
 :
-Assembler
-masm
-;
 int32
 frameDepth_
 ;
