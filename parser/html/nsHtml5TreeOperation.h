@@ -55,6 +55,7 @@ eTreeOpCreateDoctype
 eTreeOpRunScript
 eTreeOpDoneAddingChildren
 eTreeOpDoneCreatingElement
+eTreeOpFlushPendingAppendNotifications
 eTreeOpSetDocumentCharset
 eTreeOpNeedsCharsetSwitchTo
 eTreeOpUpdateStyleSheet
@@ -1084,6 +1085,10 @@ Perform
 nsHtml5TreeOpExecutor
 *
 aBuilder
+nsIContent
+*
+*
+aScriptElement
 )
 ;
 inline
