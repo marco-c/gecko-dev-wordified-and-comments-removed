@@ -433,6 +433,8 @@ TPS__SetupSyncAccount
 (
 )
 {
+try
+{
 let
 serverURL
 =
@@ -462,6 +464,13 @@ serverURL
 =
 serverURL
 ;
+}
+}
+catch
+(
+e
+)
+{
 }
 Weave
 .
