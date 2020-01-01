@@ -2080,9 +2080,6 @@ components
 BrowserPlaces
 .
 manifest
-#
-ifdef
-MOZ_JSDOWNLOADS
 BINPATH
 /
 components
@@ -2097,8 +2094,6 @@ components
 DownloadLegacy
 .
 js
-#
-endif
 BINPATH
 /
 components

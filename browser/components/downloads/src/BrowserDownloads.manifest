@@ -35,11 +35,12 @@ b6a3
 e999150ce9b8
 }
 category
-app
+profile
 -
-startup
+after
+-
+change
 DownloadsStartup
-service
 mozilla
 .
 org
