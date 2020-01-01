@@ -199,13 +199,6 @@ JSObject
 struct
 PRLogModuleInfo
 ;
-#
-include
-"
-nsIFastLoadService
-.
-h
-"
 class
 nsXULDocument
 :
