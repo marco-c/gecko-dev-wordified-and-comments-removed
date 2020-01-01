@@ -186,6 +186,9 @@ mode
 PRInt32
 originalMode
 ;
+PRBool
+framesetOk
+;
 PRInt32
 foreignFlag
 ;
@@ -225,6 +228,8 @@ PRInt32
 mode
 PRInt32
 originalMode
+PRBool
+framesetOk
 PRInt32
 foreignFlag
 PRBool
@@ -274,6 +279,11 @@ getMode
 ;
 PRInt32
 getOriginalMode
+(
+)
+;
+PRBool
+isFramesetOk
 (
 )
 ;
