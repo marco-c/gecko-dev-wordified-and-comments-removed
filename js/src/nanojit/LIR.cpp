@@ -6439,6 +6439,9 @@ NanoAssert
 argc
 <
 =
+(
+int
+)
 MAXARGS
 )
 ;

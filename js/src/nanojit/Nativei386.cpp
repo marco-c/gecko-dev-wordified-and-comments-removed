@@ -1698,9 +1698,9 @@ PROT_EXEC
 {
 #
 endif
-AvmDebugLog
+NanoAssertMsg
 (
-(
+false
 "
 FATAL
 ERROR
@@ -1713,7 +1713,6 @@ failed
 \
 n
 "
-)
 )
 ;
 abort
