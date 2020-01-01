@@ -510,6 +510,10 @@ LazyIdleThread
 .
 cpp
 \
+OpenDatabaseHelper
+.
+cpp
+\
 TransactionThreadPool
 .
 cpp
@@ -716,7 +720,7 @@ nsIIDBVersionChangeEvent
 .
 idl
 \
-nsIIDBVersionChangeRequest
+nsIIDBOpenDBRequest
 .
 idl
 \

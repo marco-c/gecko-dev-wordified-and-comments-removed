@@ -209,9 +209,7 @@ ok
 result
 =
 =
-"
 11
-"
 "
 Set
 version
@@ -314,9 +312,7 @@ ok
 result
 =
 =
-"
 11
-"
 "
 Set
 version
@@ -470,9 +466,7 @@ ok
 result
 =
 =
-"
 11
-"
 "
 Got
 correct
@@ -576,8 +570,7 @@ ok
 result
 =
 =
-"
-"
+11
 "
 Got
 correct

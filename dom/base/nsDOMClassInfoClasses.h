@@ -1445,7 +1445,7 @@ IDBVersionChangeEvent
 )
 DOMCI_CLASS
 (
-IDBVersionChangeRequest
+IDBOpenDBRequest
 )
 DOMCI_CLASS
 (

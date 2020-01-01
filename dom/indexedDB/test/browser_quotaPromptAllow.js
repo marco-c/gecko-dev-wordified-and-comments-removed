@@ -427,6 +427,13 @@ content
 location
 =
 testPageURL
++
+"
+?
+v
+=
+1
+"
 ;
 }
 function
@@ -869,5 +876,12 @@ content
 location
 =
 testPageURL
++
+"
+?
+v
+=
+3
+"
 ;
 }

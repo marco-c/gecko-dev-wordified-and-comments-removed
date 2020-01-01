@@ -4227,6 +4227,13 @@ onbeforeunload
 )
 GK_ATOM
 (
+onblocked
+"
+onblocked
+"
+)
+GK_ATOM
+(
 onblur
 "
 onblur
@@ -4888,6 +4895,13 @@ GK_ATOM
 onunload
 "
 onunload
+"
+)
+GK_ATOM
+(
+onupgradeneeded
+"
+onupgradeneeded
 "
 )
 GK_ATOM

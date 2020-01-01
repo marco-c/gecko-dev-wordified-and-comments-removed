@@ -2547,12 +2547,12 @@ nsIIDBFactory
 *
 '
 '
-nsIIDBVersionChangeEvent
+nsIIDBOpenDBRequest
 .
 *
 '
 '
-nsIIDBVersionChangeRequest
+nsIIDBVersionChangeEvent
 .
 *
 '

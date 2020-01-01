@@ -7,7 +7,7 @@ mozilla_dom_indexeddb_checkpermissionshelper_h__
 #
 include
 "
-AsyncConnectionHelper
+OpenDatabaseHelper
 .
 h
 "
@@ -57,7 +57,7 @@ NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSIOBSERVER
 CheckPermissionsHelper
 (
-AsyncConnectionHelper
+OpenDatabaseHelper
 *
 aHelper
 nsIDOMWindow
@@ -153,7 +153,7 @@ private
 :
 nsRefPtr
 <
-AsyncConnectionHelper
+OpenDatabaseHelper
 >
 mHelper
 ;

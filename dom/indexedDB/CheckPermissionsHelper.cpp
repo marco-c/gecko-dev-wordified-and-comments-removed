@@ -519,7 +519,7 @@ NS_OK
 }
 nsRefPtr
 <
-AsyncConnectionHelper
+OpenDatabaseHelper
 >
 helper
 ;
@@ -630,7 +630,7 @@ return
 helper
 -
 >
-Run
+RunImmediately
 (
 )
 ;
