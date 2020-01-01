@@ -12366,7 +12366,7 @@ Ci
 .
 nsIWebProgressListener
 .
-STATE_IS_SECURE
+STATE_SECURE_HIGH
 )
 this
 .

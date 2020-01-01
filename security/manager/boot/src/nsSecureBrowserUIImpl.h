@@ -287,6 +287,7 @@ lockIconState
 lis_no_security
 lis_broken_security
 lis_mixed_security
+lis_low_security
 lis_high_security
 }
 ;
@@ -318,6 +319,12 @@ mInfoTooltip
 ;
 int32_t
 mDocumentRequestsInProgress
+;
+int32_t
+mSubRequestsHighSecurity
+;
+int32_t
+mSubRequestsLowSecurity
 ;
 int32_t
 mSubRequestsBrokenSecurity
