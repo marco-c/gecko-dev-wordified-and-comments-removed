@@ -11,7 +11,6 @@ nsIDOMHTMLCollection
 .
 h
 "
-;
 #
 define
 NS_IHTMLCOLLECTION_IID
