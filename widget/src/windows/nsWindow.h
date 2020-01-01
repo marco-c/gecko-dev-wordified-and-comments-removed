@@ -7,6 +7,13 @@ Window_h__
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsBaseWidget
 .
 h
@@ -2821,7 +2828,7 @@ ForgetRedirectedKeyDownMessage
 PRBool
 mCancel
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsWindow
 >
