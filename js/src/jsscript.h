@@ -714,15 +714,6 @@ rt
 ;
 extern
 void
-js_FinishRuntimeScriptState
-(
-JSRuntime
-*
-rt
-)
-;
-extern
-void
 js_FreeRuntimeScriptState
 (
 JSRuntime
