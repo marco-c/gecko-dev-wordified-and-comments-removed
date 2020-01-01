@@ -2499,6 +2499,10 @@ test_bug693875
 .
 html
 \
+file_restrictedEventSource
+.
+sjs
+\
 (
 NULL
 )

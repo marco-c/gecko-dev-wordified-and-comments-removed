@@ -449,6 +449,9 @@ mErrorLoadOnRedirect
 bool
 mGoingToDispatchAllMessages
 ;
+bool
+mWithCredentials
+;
 nsCOMPtr
 <
 nsIUnicodeDecoder
