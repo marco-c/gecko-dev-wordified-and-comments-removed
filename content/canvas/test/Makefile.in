@@ -693,6 +693,10 @@ test_strokeText_throw
 .
 html
 \
+test_bug902651
+.
+html
+\
 (
 NULL
 )
