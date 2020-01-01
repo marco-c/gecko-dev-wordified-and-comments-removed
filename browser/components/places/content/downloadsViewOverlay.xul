@@ -183,6 +183,11 @@ downloadsRichListBox
 "
 )
 )
+{
+showDetailsPane
+:
+false
+}
 )
 ;
 ]
