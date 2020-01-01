@@ -944,12 +944,6 @@ stop
 (
 )
 ;
-otherDomainServer
-.
-stop
-(
-)
-;
 }
 function
 redirect
