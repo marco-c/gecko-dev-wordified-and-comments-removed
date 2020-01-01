@@ -5633,6 +5633,9 @@ IonCache
 cache
 JSObject
 *
+receiver
+JSObject
+*
 checkObj
 JSObject
 *
@@ -5693,7 +5696,7 @@ shape
 |
 IsCacheableNoProperty
 (
-checkObj
+receiver
 holder
 shape
 pc
@@ -6036,6 +6039,7 @@ DetermineGetPropKind
 (
 cx
 cache
+obj
 checkObj
 holder
 shape
@@ -6944,6 +6948,7 @@ DetermineGetPropKind
 cx
 *
 this
+obj
 obj
 holder
 shape
