@@ -1498,7 +1498,10 @@ _allocator
 .
 active
 [
+REGNUM
+(
 FST0
+)
 ]
 &
 &
@@ -1516,7 +1519,10 @@ _allocator
 .
 active
 [
+REGNUM
+(
 FST0
+)
 ]
 &
 &
@@ -1685,10 +1691,13 @@ r
 {
 if
 (
+REGNUM
+(
 r
+)
 <
 =
-LastReg
+LastRegNum
 )
 {
 NanoAssert
@@ -11119,9 +11128,9 @@ ignore
 Register
 tosave
 [
-LastReg
+LastRegNum
 -
-FirstReg
+FirstRegNum
 +
 1
 ]
@@ -11587,7 +11596,7 @@ saved
 Register
 regsTodo
 [
-LastReg
+LastRegNum
 +
 1
 ]
@@ -11596,7 +11605,7 @@ LIns
 *
 insTodo
 [
-LastReg
+LastRegNum
 +
 1
 ]
@@ -11833,7 +11842,7 @@ saved
 Register
 regsTodo
 [
-LastReg
+LastRegNum
 +
 1
 ]
@@ -11842,7 +11851,7 @@ LIns
 *
 insTodo
 [
-LastReg
+LastRegNum
 +
 1
 ]

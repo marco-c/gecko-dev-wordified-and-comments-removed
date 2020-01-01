@@ -371,7 +371,10 @@ r
 regNames
 [
 (
-r
+REGNUM
+(
+n
+)
 )
 ]
 #
@@ -465,7 +468,10 @@ r
 regNames
 [
 (
+REGNUM
+(
 r
+)
 )
 ]
 #
