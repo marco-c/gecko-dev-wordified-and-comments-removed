@@ -1353,15 +1353,6 @@ mRegionToDraw
 IsEmpty
 (
 )
-&
-&
-state
-.
-mRegionToInvalidate
-.
-IsEmpty
-(
-)
 "
 If
 we
