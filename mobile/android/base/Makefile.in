@@ -644,6 +644,10 @@ Restarter
 .
 java
 \
+SearchEngine
+.
+java
+\
 sqlite
 /
 ByteBufferInputStream
