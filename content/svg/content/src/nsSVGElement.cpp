@@ -4269,7 +4269,6 @@ nsIDOMSVGElement
 aViewportElement
 )
 {
-return
 nsSVGUtils
 :
 :
@@ -4278,6 +4277,9 @@ GetNearestViewportElement
 this
 aViewportElement
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP

@@ -470,6 +470,16 @@ helper
 .
 svg
 \
+getCTM
+-
+helper
+.
+svg
+\
+test_getCTM
+.
+html
+\
 test_getSubStringLength
 .
 xhtml
