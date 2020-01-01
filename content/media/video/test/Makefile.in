@@ -464,6 +464,10 @@ test_currentTime
 .
 html
 \
+test_decoder_disable
+.
+html
+\
 test_duration1
 .
 html
