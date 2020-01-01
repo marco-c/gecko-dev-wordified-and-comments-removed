@@ -418,6 +418,9 @@ nsGlobalWindow
 class
 nsDOMOfflineResourceList
 ;
+class
+nsDOMOfflineLoadStatusList
+;
 enum
 OpenAllowValue
 {
@@ -2359,6 +2362,12 @@ nsRefPtr
 nsDOMOfflineResourceList
 >
 mOfflineResources
+;
+nsRefPtr
+<
+nsDOMOfflineLoadStatusList
+>
+mPendingOfflineLoads
 ;
 nsIDocShell
 *

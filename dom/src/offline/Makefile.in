@@ -429,9 +429,13 @@ content
 \
 caps
 \
+gfx
+\
 js
 \
 layout
+\
+locale
 \
 necko
 \
@@ -452,6 +456,10 @@ CPPSRCS
 =
 \
 nsDOMOfflineResourceList
+.
+cpp
+\
+nsDOMOfflineLoadStatusList
 .
 cpp
 \

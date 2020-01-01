@@ -647,6 +647,7 @@ PrefetchURIForOfflineUse
 (
 requestedURI
 mURI
+nsnull
 PR_TRUE
 )
 ;
@@ -921,6 +922,7 @@ PrefetchURIForOfflineUse
 (
 requestedURI
 mURI
+nsnull
 PR_TRUE
 )
 ;

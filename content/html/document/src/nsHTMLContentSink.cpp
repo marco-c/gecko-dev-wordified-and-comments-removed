@@ -12295,6 +12295,7 @@ IsEmpty
 PrefetchHref
 (
 hrefVal
+element
 hasPrefetch
 PR_FALSE
 )
@@ -12360,6 +12361,7 @@ mSaveOfflineResources
 PrefetchHref
 (
 hrefVal
+element
 PR_TRUE
 PR_TRUE
 )

@@ -312,6 +312,9 @@ endif
 eDOMClassInfo_XULCommandEvent_id
 eDOMClassInfo_CommandEvent_id
 eDOMClassInfo_OfflineResourceList_id
+eDOMClassInfo_LoadStatusList_id
+eDOMClassInfo_LoadStatus_id
+eDOMClassInfo_LoadStatusEvent_id
 eDOMClassInfoIDCount
 }
 ;
