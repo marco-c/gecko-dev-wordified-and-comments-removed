@@ -238,6 +238,17 @@ StackFrame
 fp
 )
 {
+JS_ASSERT
+(
+!
+fp
+-
+>
+runningInIon
+(
+)
+)
+;
 Value
 &
 thisv

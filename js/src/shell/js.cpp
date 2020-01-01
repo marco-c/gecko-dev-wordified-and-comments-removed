@@ -6795,7 +6795,7 @@ Jsvalify
 (
 iter
 .
-fp
+interpFrame
 (
 )
 )
@@ -12998,7 +12998,7 @@ if
 !
 fi
 .
-fp
+interpFrame
 (
 )
 -
@@ -13056,7 +13056,7 @@ fp
 =
 fi
 .
-fp
+interpFrame
 (
 )
 ;

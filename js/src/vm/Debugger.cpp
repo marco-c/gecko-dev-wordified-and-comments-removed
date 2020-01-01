@@ -9515,6 +9515,16 @@ i
 {
 if
 (
+i
+.
+isIon
+(
+)
+)
+continue
+;
+if
+(
 dbg
 -
 >
@@ -9522,7 +9532,7 @@ observesFrame
 (
 i
 .
-fp
+interpFrame
 (
 )
 )
@@ -9536,7 +9546,7 @@ getScriptFrame
 cx
 i
 .
-fp
+interpFrame
 (
 )
 vp
@@ -11416,7 +11426,7 @@ global
 &
 fri
 .
-fp
+interpFrame
 (
 )
 -

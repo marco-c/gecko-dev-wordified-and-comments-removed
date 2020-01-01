@@ -993,6 +993,13 @@ const
 ;
 JSObject
 *
+scopeChain
+(
+)
+const
+;
+JSObject
+*
 thisObject
 (
 )
