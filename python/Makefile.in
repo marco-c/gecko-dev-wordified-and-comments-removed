@@ -96,6 +96,14 @@ test
 /
 compilation
 \
+mozbuild
+/
+mozbuild
+/
+test
+/
+frontend
+\
 (
 NULL
 )
