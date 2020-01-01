@@ -7,7 +7,7 @@ branch
 .
 9
 .
-1
+2
 url
 =
 http
@@ -38,15 +38,13 @@ mozilla
 .
 9
 .
-1
+2
 /
 firefox
 -
 3
 .
-5
-.
-3pre
+6a2pre
 .
 en
 -
@@ -63,7 +61,7 @@ firefox
 .
 9
 .
-1
+2
 -
 profile
 profiledirectory
@@ -77,7 +75,7 @@ firefox
 .
 9
 .
-1
+2
 -
 profile
 executablepath
@@ -91,7 +89,7 @@ firefox
 .
 9
 .
-1
+2
 userpreferences
 =
 {
@@ -127,6 +125,12 @@ mozilla
 .
 org
 /
+releases
+/
 mozilla
 -
-central
+1
+.
+9
+.
+2

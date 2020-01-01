@@ -564,8 +564,7 @@ product
 required
 .
 firefox
-|
-thunderbird
+.
 -
 b
 branch

@@ -16,7 +16,7 @@ branch
 .
 9
 .
-2
+3
 }
 buildtype
 =
@@ -43,7 +43,7 @@ builds
 .
 9
 .
-2
+3
 /
 mozilla
 /
@@ -67,15 +67,9 @@ mozilla
 .
 org
 /
-releases
-/
 mozilla
 -
-1
-.
-9
-.
-2
+central
 }
 TEST_MOZILLA_HG_REV
 =

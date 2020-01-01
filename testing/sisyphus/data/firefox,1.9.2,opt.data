@@ -160,9 +160,15 @@ mozilla
 .
 org
 /
+releases
+/
 mozilla
 -
-central
+1
+.
+9
+.
+2
 }
 TEST_MOZILLA_HG_REV
 =

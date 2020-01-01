@@ -449,10 +449,6 @@ case
 product
 in
 firefox
-|
-thunderbird
-|
-fennec
 )
 if
 !

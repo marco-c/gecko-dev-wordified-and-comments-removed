@@ -16,7 +16,7 @@ branch
 .
 9
 .
-2
+3
 }
 buildtype
 =
@@ -24,7 +24,7 @@ buildtype
 buildtype
 :
 -
-opt
+debug
 }
 jsshellsourcepath
 =
@@ -43,7 +43,11 @@ builds
 .
 9
 .
-2
+3
+-
+tracemonkey
+-
+test
 /
 mozilla
 /
@@ -67,15 +71,7 @@ mozilla
 .
 org
 /
-releases
-/
-mozilla
--
-1
-.
-9
-.
-2
+tracemonkey
 }
 TEST_MOZILLA_HG_REV
 =
