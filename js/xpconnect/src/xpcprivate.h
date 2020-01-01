@@ -1632,18 +1632,6 @@ kind
 JSTRACE_SCRIPT
 ;
 }
-const
-bool
-OBJ_IS_GLOBAL
-=
-true
-;
-const
-bool
-OBJ_IS_NOT_GLOBAL
-=
-false
-;
 class
 nsXPConnect
 :
@@ -8181,8 +8169,6 @@ name
 void
 PopulateJSClass
 (
-JSBool
-isGlobal
 )
 ;
 void
@@ -8249,8 +8235,6 @@ Construct
 XPCCallContext
 &
 ccx
-JSBool
-isGlobal
 const
 XPCNativeScriptableCreateInfo
 *
@@ -8681,8 +8665,6 @@ const
 XPCNativeScriptableCreateInfo
 *
 scriptableCreateInfo
-JSBool
-isGlobal
 QITableEntry
 *
 offsets
@@ -9250,8 +9232,6 @@ Init
 XPCCallContext
 &
 ccx
-JSBool
-isGlobal
 const
 XPCNativeScriptableCreateInfo
 *
@@ -10360,8 +10340,6 @@ Scope
 XPCNativeInterface
 *
 Interface
-JSBool
-isGlobal
 XPCWrappedNative
 *
 *
@@ -11307,8 +11285,6 @@ ccx
 JSObject
 *
 parent
-JSBool
-isGlobal
 const
 XPCNativeScriptableCreateInfo
 *
@@ -12932,8 +12908,6 @@ XPCNativeInterface
 Interface
 bool
 allowNativeWrapper
-bool
-isGlobal
 nsresult
 *
 pErr
@@ -12955,7 +12929,6 @@ aHelper
 iid
 Interface
 allowNativeWrapper
-isGlobal
 pErr
 )
 ;
@@ -12987,8 +12960,6 @@ XPCNativeInterface
 Interface
 bool
 allowNativeWrapper
-bool
-isGlobal
 nsresult
 *
 pErr

@@ -5376,7 +5376,6 @@ nsISupports
 )
 nsnull
 false
-OBJ_IS_GLOBAL
 &
 rv
 )
@@ -5888,7 +5887,6 @@ helper
 aIID
 nsnull
 aAllowWrapping
-OBJ_IS_NOT_GLOBAL
 &
 rv
 )
@@ -9046,7 +9044,6 @@ scope
 aClassInfo
 &
 sciProto
-OBJ_IS_NOT_GLOBAL
 )
 ;
 if

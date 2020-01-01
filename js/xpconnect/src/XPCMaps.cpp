@@ -2402,8 +2402,6 @@ flags
 char
 *
 name
-bool
-isGlobal
 PRUint32
 interfacesBitmap
 XPCNativeScriptableInfo
@@ -2508,7 +2506,6 @@ shared
 >
 PopulateJSClass
 (
-isGlobal
 )
 ;
 }

@@ -4955,7 +4955,6 @@ aHelper
 iid
 iface
 true
-OBJ_IS_NOT_GLOBAL
 &
 rv
 )

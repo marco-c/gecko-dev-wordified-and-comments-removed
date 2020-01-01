@@ -1652,7 +1652,6 @@ helper
 iid
 nsnull
 true
-OBJ_IS_NOT_GLOBAL
 pErr
 )
 )
@@ -4434,8 +4433,6 @@ XPCNativeInterface
 Interface
 bool
 allowNativeWrapper
-bool
-isGlobal
 nsresult
 *
 pErr
@@ -4992,7 +4989,6 @@ ccx
 aHelper
 xpcscope
 iface
-isGlobal
 getter_AddRefs
 (
 strongWrapper

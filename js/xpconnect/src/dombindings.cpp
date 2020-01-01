@@ -289,7 +289,6 @@ helper
 NULL
 NULL
 allowNativeWrapper
-OBJ_IS_NOT_GLOBAL
 &
 rv
 )
