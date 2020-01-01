@@ -449,7 +449,15 @@ testDefineGetterSetterNonEnumerable
 .
 cpp
 \
+testDefineProperty
+.
+cpp
+\
 testExtendedEq
+.
+cpp
+\
+testGCChunkAlloc
 .
 cpp
 \
@@ -466,6 +474,10 @@ testLookup
 cpp
 \
 testNewObject
+.
+cpp
+\
+testOps
 .
 cpp
 \
