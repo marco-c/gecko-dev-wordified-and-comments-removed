@@ -1262,9 +1262,8 @@ JS_FALSE
 if
 (
 argc
-!
-=
-7
+<
+8
 )
 return
 xpc_qsThrow
