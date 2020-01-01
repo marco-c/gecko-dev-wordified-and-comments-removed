@@ -103,6 +103,11 @@ CommonPropertyNames
 .
 h
 "
+ForwardDeclareJS
+(
+Atom
+)
+;
 struct
 JSIdArray
 {
@@ -323,8 +328,7 @@ bits
 }
 AtomStateEntry
 (
-JSAtom
-*
+RawAtom
 ptr
 bool
 tagged
@@ -950,8 +954,7 @@ true
 }
 ;
 extern
-JSAtom
-*
+UnrootedAtom
 Atomize
 (
 JSContext
@@ -976,8 +979,7 @@ DoNotInternAtom
 )
 ;
 extern
-JSAtom
-*
+UnrootedAtom
 AtomizeChars
 (
 JSContext
@@ -1002,8 +1004,7 @@ DoNotInternAtom
 )
 ;
 extern
-JSAtom
-*
+UnrootedAtom
 AtomizeString
 (
 JSContext
