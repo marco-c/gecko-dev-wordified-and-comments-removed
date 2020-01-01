@@ -2238,9 +2238,6 @@ mediaTab
 hidden
 )
 {
-var
-os
-=
 Components
 .
 classes
@@ -2266,8 +2263,6 @@ interfaces
 .
 nsIObserverService
 )
-;
-os
 .
 removeObserver
 (
@@ -2365,9 +2360,6 @@ mediaTab
 hidden
 )
 {
-var
-os
-=
 Components
 .
 classes
@@ -2393,8 +2385,6 @@ interfaces
 .
 nsIObserverService
 )
-;
-os
 .
 removeObserver
 (
@@ -3652,9 +3642,6 @@ hidden
 =
 false
 ;
-var
-os
-=
 Components
 .
 classes
@@ -3680,8 +3667,6 @@ interfaces
 .
 nsIObserverService
 )
-;
-os
 .
 addObserver
 (
