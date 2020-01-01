@@ -4503,7 +4503,7 @@ true
 "
 #
 ifdef
-XP_WIN
+MENUBAR_CAN_AUTOHIDE
 toolbarname
 =
 "
