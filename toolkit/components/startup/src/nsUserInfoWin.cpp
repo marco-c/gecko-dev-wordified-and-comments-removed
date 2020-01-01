@@ -67,6 +67,9 @@ char
 aUsername
 )
 {
+#
+ifndef
+WINCE
 *
 aUsername
 =
@@ -115,6 +118,8 @@ aUsername
 return
 NS_OK
 ;
+#
+endif
 return
 NS_ERROR_FAILURE
 ;
