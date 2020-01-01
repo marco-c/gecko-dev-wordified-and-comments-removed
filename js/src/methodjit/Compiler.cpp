@@ -17605,6 +17605,10 @@ Address
 reg
 0
 )
+Imm32
+(
+CALLS_BACKEDGES_BEFORE_INLINING
+)
 )
 ;
 frame
