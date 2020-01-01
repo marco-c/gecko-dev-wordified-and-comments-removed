@@ -97,6 +97,10 @@ browser_contextmenu
 .
 js
 \
+browser_healthreport
+.
+js
+\
 browser_private_search_perwindowpb
 .
 js
