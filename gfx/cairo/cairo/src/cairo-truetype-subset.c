@@ -9,6 +9,9 @@ cairoint
 h
 "
 #
+if
+CAIRO_HAS_FONT_SUBSET
+#
 include
 "
 cairo
@@ -6152,6 +6155,12 @@ index
 int
 j
 ;
+if
+(
+range_size
+>
+0
+)
 for
 (
 j
@@ -6344,9 +6353,14 @@ tt_cmap_index_t
 ;
 cmap
 =
-malloc
+_cairo_malloc_ab_plus_c
 (
-size
+num_tables
+sizeof
+(
+tt_cmap_index_t
+)
+4
 )
 ;
 if
@@ -6483,3 +6497,5 @@ return
 status
 ;
 }
+#
+endif

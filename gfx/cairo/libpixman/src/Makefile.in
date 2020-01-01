@@ -517,14 +517,6 @@ USE_MMX
 =
 1
 #
-no
-SSE2
-yet
-until
-compilation
-is
-fixed
-#
 USE_SSE2
 =
 1
@@ -565,6 +557,8 @@ t
 use
 SSE2
 yet
+on
+linux
 #
 USE_SSE2
 =
@@ -757,7 +751,7 @@ CSRCS
 =
 pixman
 -
-sse
+sse2
 .
 c
 DEFINES
@@ -914,7 +908,7 @@ _VPATH_SRCS
 )
 pixman
 -
-sse
+sse2
 .
 (
 OBJ_SUFFIX
@@ -922,7 +916,7 @@ OBJ_SUFFIX
 :
 pixman
 -
-sse
+sse2
 .
 c
 Makefile

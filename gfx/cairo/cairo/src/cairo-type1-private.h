@@ -5,6 +5,16 @@ CAIRO_TYPE1_PRIVATE_H
 define
 CAIRO_TYPE1_PRIVATE_H
 #
+include
+"
+cairoint
+.
+h
+"
+#
+if
+CAIRO_HAS_FONT_SUBSET
+#
 define
 CAIRO_TYPE1_ENCRYPT_C1
 (
@@ -44,5 +54,7 @@ short
 )
 4330
 )
+#
+endif
 #
 endif

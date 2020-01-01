@@ -9,6 +9,9 @@ cairoint
 h
 "
 #
+if
+CAIRO_HAS_FONT_SUBSET
+#
 include
 "
 cairo
@@ -47,6 +50,9 @@ private
 .
 h
 "
+#
+if
+CAIRO_HAS_FT_FONT
 #
 include
 "
@@ -7549,3 +7555,7 @@ return
 is_type1
 ;
 }
+#
+endif
+#
+endif

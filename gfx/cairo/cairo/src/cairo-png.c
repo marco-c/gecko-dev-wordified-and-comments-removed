@@ -410,6 +410,15 @@ CAIRO_STATUS_NO_MEMORY
 ;
 }
 static
+void
+png_simple_output_flush_fn
+(
+png_structp
+png_ptr
+)
+{
+}
+static
 cairo_status_t
 write_png
 (
@@ -444,9 +453,6 @@ png
 png_info
 *
 info
-;
-png_time
-pt
 ;
 png_byte
 *
@@ -679,7 +685,7 @@ png_set_write_fn
 png
 closure
 write_func
-NULL
+png_simple_output_flush_fn
 )
 ;
 switch
@@ -821,6 +827,14 @@ info
 white
 )
 ;
+if
+(
+0
+)
+{
+png_time
+pt
+;
 png_convert_from_time_t
 (
 &
@@ -839,6 +853,7 @@ info
 pt
 )
 ;
+}
 png_write_info
 (
 png

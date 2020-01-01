@@ -1277,10 +1277,6 @@ status
 return
 status
 ;
-status
-=
-CAIRO_STATUS_SUCCESS
-;
 if
 (
 !
@@ -2706,8 +2702,11 @@ i
 {
 cairo_rectangle_int_t
 clip_rect
+;
+clip_rect
+.
+x
 =
-{
 boxes
 [
 i
@@ -2716,6 +2715,11 @@ i
 p1
 .
 x
+;
+clip_rect
+.
+y
+=
 boxes
 [
 i
@@ -2724,6 +2728,11 @@ i
 p1
 .
 y
+;
+clip_rect
+.
+width
+=
 boxes
 [
 i
@@ -2741,6 +2750,11 @@ i
 p1
 .
 x
+;
+clip_rect
+.
+height
+=
 boxes
 [
 i
@@ -2758,7 +2772,6 @@ i
 p1
 .
 y
-}
 ;
 if
 (
