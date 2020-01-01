@@ -85,7 +85,7 @@ test
 shift_jis
 .
 js
-tests
+test_stringencoding
 .
 html
 tests
