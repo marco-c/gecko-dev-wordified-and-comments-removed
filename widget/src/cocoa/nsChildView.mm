@@ -23970,7 +23970,7 @@ key
 lockState
 )
 ;
-PRUint32
+Uint32
 shiftLockMod
 =
 shiftKey
@@ -24027,7 +24027,7 @@ key
 is
 pressed
 .
-PRUint32
+UInt32
 numState
 =
 (
@@ -24062,7 +24062,7 @@ key
 numState
 )
 ;
-PRUint32
+UInt32
 cmdNumMod
 =
 cmdKey
@@ -24079,7 +24079,7 @@ key
 cmdNumMod
 )
 ;
-PRUint32
+UInt32
 cmdShiftNumMod
 =
 shiftKey
