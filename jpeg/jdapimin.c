@@ -1550,12 +1550,6 @@ __i386__
 if
 defined
 (
-XP_MAC
-)
-|
-|
-defined
-(
 XP_MACOSX
 )
 return
@@ -1564,9 +1558,6 @@ return
 #
 endif
 !
-XP_MAC
-|
-|
 XP_MACOSX
 #
 endif
