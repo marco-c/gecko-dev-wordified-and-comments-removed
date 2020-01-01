@@ -68,6 +68,11 @@ nsVersionComparatorImplConstructor
 )
 COMPONENT
 (
+SCRIPTABLEBASE64ENCODER
+nsScriptableBase64EncoderConstructor
+)
+COMPONENT
+(
 PIPE
 nsPipeConstructor
 )

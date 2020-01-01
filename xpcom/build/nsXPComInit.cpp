@@ -110,6 +110,13 @@ h
 #
 include
 "
+nsScriptableBase64Encoder
+.
+h
+"
+#
+include
+"
 nsMemoryImpl
 .
 h
@@ -778,6 +785,10 @@ nsStorageStream
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsVersionComparatorImpl
+)
+NS_GENERIC_FACTORY_CONSTRUCTOR
+(
+nsScriptableBase64Encoder
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
