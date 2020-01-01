@@ -13271,11 +13271,10 @@ MONITOR_BRANCH
 (
 oldpc
 )
-do
-{
-}
-while
 (
+(
+void
+)
 0
 )
 #
