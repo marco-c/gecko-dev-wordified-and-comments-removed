@@ -40,11 +40,6 @@ URLBAR_EDIT
 2
 ;
 const
-kMaxEngines
-=
-4
-;
-const
 kDefaultFavIconURL
 =
 "
@@ -2064,11 +2059,6 @@ e
 =
 0
 ;
-e
-<
-kMaxEngines
-&
-&
 e
 <
 engines
