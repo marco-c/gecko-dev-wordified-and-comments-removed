@@ -464,10 +464,6 @@ test_currentTime
 .
 html
 \
-test_defaultPlaybackRate
-.
-html
-\
 test_ended1
 .
 html
@@ -484,15 +480,7 @@ test_paused
 .
 html
 \
-test_playbackRate
-.
-html
-\
 test_readyState
-.
-html
-\
-test_start
 .
 html
 \
