@@ -758,6 +758,12 @@ mTouchMoveDefaultPrevented
 bool
 mIsFirstTouchMove
 ;
+bool
+mCancelable
+;
+bool
+mTouchCancelSent
+;
 void
 InitTouchEventTouchList
 (
@@ -891,6 +897,11 @@ DispatchEventIgnoreStatus
 nsGUIEvent
 *
 aEvent
+)
+;
+void
+DispatchTouchCancel
+(
 )
 ;
 nsDeque
