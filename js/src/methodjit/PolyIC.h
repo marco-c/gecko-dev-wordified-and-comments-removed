@@ -260,6 +260,17 @@ void
 stub
 )
 ;
+void
+updatePCCounters
+(
+JSContext
+*
+cx
+Assembler
+&
+masm
+)
+;
 bool
 isCallOp
 (
