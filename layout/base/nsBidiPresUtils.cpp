@@ -2607,13 +2607,6 @@ fragmentLength
 {
 if
 (
-numRun
-+
-1
-<
-runCount
-&
-&
 runLength
 <
 =
@@ -2627,6 +2620,15 @@ frame
 GetNextInFlow
 (
 )
+)
+{
+if
+(
+numRun
++
+1
+<
+runCount
 )
 {
 nsIFrame
@@ -2728,6 +2730,7 @@ SplitInlineAncestors
 child
 )
 ;
+}
 }
 else
 {
