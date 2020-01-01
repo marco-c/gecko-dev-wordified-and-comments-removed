@@ -1130,16 +1130,6 @@ tasks
 timeout
 )
         
-tasks
-=
-reap_zombies
-(
-tasks
-results
-False
-)
-        
-if
 kill_undead
 (
 tasks
@@ -1148,8 +1138,7 @@ options
 .
 timeout
 )
-:
-            
+        
 tasks
 =
 reap_zombies
