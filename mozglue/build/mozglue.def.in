@@ -110,6 +110,7 @@ je_malloc_good_size
 #
 endif
 jemalloc_stats
+jemalloc_free_dirty_pages
 ;
 A
 hack
