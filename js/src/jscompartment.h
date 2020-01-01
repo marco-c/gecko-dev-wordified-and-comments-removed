@@ -1471,6 +1471,9 @@ cx
 )
 ;
 }
+#
+ifdef
+JS_TRACER
 bool
 hasTraceMonitor
 (
@@ -1513,6 +1516,8 @@ return
 traceMonitor_
 ;
 }
+#
+endif
 size_t
 backEdgeCount
 (
