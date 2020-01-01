@@ -1280,11 +1280,6 @@ isCachedEval
 1
 ;
 bool
-isUncachedEval
-:
-1
-;
-bool
 usedLazyArgs
 :
 1

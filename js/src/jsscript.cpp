@@ -8626,13 +8626,6 @@ script
 isCachedEval
 &
 &
-!
-script
--
->
-isUncachedEval
-&
-&
 script
 -
 >

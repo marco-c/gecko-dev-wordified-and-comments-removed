@@ -14155,7 +14155,11 @@ EmitAtomOp
 (
 cx
 pn
-JSOP_SETPROP
+global
+?
+JSOP_SETGNAME
+:
+JSOP_SETNAME
 cg
 )
 )
