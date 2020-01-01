@@ -1136,6 +1136,12 @@ _finishPanning
 (
 )
 ;
+this
+.
+pointerDownTarget
+=
+null
+;
 }
 detectingScrolling
 :
