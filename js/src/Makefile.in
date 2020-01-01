@@ -1572,6 +1572,10 @@ StubCompiler
 .
 cpp
 \
+MonoIC
+.
+cpp
+\
 (
 NULL
 )

@@ -329,6 +329,11 @@ VoidStub
 ;
 STUB_CALL_TYPE
 (
+VoidStubUInt32
+)
+;
+STUB_CALL_TYPE
+(
 BoolStub
 )
 ;

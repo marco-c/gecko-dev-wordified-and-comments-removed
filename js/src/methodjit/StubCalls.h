@@ -206,6 +206,16 @@ VMFrame
 f
 )
 ;
+JSObject
+*
+JS_FASTCALL
+BindGlobalName
+(
+VMFrame
+&
+f
+)
+;
 void
 JS_FASTCALL
 SetName

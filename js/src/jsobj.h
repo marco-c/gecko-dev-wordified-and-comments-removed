@@ -591,6 +591,9 @@ shape
 }
 enum
 {
+INVALID_SHAPE
+=
+0x8fffffff
 SHAPELESS
 =
 0xffffffff

@@ -53,6 +53,10 @@ void
 start
 size_t
 size
+bool
+mprot
+=
+true
 )
 :
 m_start
@@ -62,6 +66,10 @@ start
 m_size
 (
 size
+)
+mprot
+(
+mprot
 )
 {
 ExecutableAllocator
@@ -108,6 +116,10 @@ size
 (
 )
 ;
+if
+(
+mprot
+)
 ExecutableAllocator
 :
 :
@@ -123,6 +135,10 @@ RepatchBuffer
 (
 )
 {
+if
+(
+mprot
+)
 ExecutableAllocator
 :
 :
@@ -414,6 +430,9 @@ m_start
 ;
 size_t
 m_size
+;
+bool
+mprot
 ;
 }
 ;
