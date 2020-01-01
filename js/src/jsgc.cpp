@@ -14810,6 +14810,11 @@ js_FlushJITCache
 cx
 )
 ;
+js_FlushJITOracle
+(
+cx
+)
+;
 #
 endif
 #
