@@ -83,6 +83,12 @@ RegisterWindowMessage
 kOOPPPluginFocusEventId
 )
 ;
+extern
+const
+PRUnichar
+*
+kFlashFullscreenClass
+;
 UINT
 gOOPPSpinNativeLoopEvent
 =
@@ -2642,10 +2648,7 @@ PRUnichar
 wcscmp
 (
 szClass
-L
-"
-ShockwaveFlashFullScreen
-"
+kFlashFullscreenClass
 )
 )
 {
