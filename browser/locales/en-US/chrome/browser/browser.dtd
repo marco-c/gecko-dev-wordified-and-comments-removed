@@ -799,16 +799,6 @@ page
 ENTITY
 goEndCap
 .
-label
-"
-Go
-"
->
-<
-!
-ENTITY
-goEndCap
-.
 tooltip
 "
 Go
