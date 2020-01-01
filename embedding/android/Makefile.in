@@ -473,10 +473,6 @@ GeckoSmsManager
 .
 java
 \
-VideoPlayer
-.
-java
-\
 (
 NULL
 )
@@ -933,14 +929,6 @@ res
 layout
 /
 launch_app_listitem
-.
-xml
-\
-res
-/
-layout
-/
-videoplayer
 .
 xml
 \
