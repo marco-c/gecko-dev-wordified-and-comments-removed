@@ -1948,6 +1948,8 @@ rv
 ;
 bool
 ok
+=
+false
 ;
 char
 *
