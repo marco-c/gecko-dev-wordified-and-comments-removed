@@ -1503,7 +1503,7 @@ GetInnerWindow
 virtual
 nsScriptLoader
 *
-GetScriptLoader
+ScriptLoader
 (
 )
 ;

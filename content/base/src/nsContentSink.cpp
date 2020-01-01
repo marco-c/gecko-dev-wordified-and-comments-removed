@@ -779,14 +779,8 @@ mScriptLoader
 mDocument
 -
 >
-GetScriptLoader
+ScriptLoader
 (
-)
-;
-NS_ENSURE_TRUE
-(
-mScriptLoader
-NS_ERROR_FAILURE
 )
 ;
 mScriptLoader

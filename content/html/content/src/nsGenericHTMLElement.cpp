@@ -3279,15 +3279,10 @@ loader
 doc
 -
 >
-GetScriptLoader
+ScriptLoader
 (
 )
 ;
-if
-(
-loader
-)
-{
 scripts_enabled
 =
 loader
@@ -3305,7 +3300,6 @@ SetEnabled
 PR_FALSE
 )
 ;
-}
 }
 nsCOMPtr
 <

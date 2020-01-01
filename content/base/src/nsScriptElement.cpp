@@ -691,15 +691,10 @@ GetOwnerDoc
 )
 -
 >
-GetScriptLoader
+ScriptLoader
 (
 )
 ;
-if
-(
-loader
-)
-{
 mIsEvaluated
 =
 PR_TRUE
@@ -732,7 +727,6 @@ scriptresult
 =
 NS_OK
 ;
-}
 }
 return
 scriptresult

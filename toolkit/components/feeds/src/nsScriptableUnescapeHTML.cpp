@@ -532,15 +532,10 @@ loader
 document
 -
 >
-GetScriptLoader
+ScriptLoader
 (
 )
 ;
-if
-(
-loader
-)
-{
 scripts_enabled
 =
 loader
@@ -550,7 +545,6 @@ GetEnabled
 (
 )
 ;
-}
 }
 if
 (
