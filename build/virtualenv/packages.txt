@@ -20,6 +20,15 @@ testing
 mozbase
 /
 manifestdestiny
+mozdevice
+.
+pth
+:
+testing
+/
+mozbase
+/
+mozdevice
 mozinfo
 .
 pth
