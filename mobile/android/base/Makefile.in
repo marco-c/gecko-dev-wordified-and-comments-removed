@@ -384,6 +384,10 @@ GeckoMessageReceiver
 .
 java
 \
+GeckoSubMenu
+.
+java
+\
 GeckoPreferences
 .
 java
