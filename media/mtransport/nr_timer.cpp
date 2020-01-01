@@ -398,10 +398,6 @@ void
 handle
 )
 {
-CheckSTSThread
-(
-)
-;
 if
 (
 !
@@ -409,6 +405,10 @@ handle
 )
 return
 0
+;
+CheckSTSThread
+(
+)
 ;
 nsITimer
 *
