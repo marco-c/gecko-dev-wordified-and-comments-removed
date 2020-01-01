@@ -2255,16 +2255,7 @@ clusterURL
 "
 )
 +
-Svc
-.
-Prefs
-.
-get
-(
-"
-storageAPI
-"
-)
+SYNC_API_VERSION
 +
 "
 /

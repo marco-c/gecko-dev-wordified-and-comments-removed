@@ -284,7 +284,7 @@ httpd_setup
 /
 1
 .
-0
+1
 /
 johndoe
 /
@@ -310,7 +310,7 @@ handler
 /
 1
 .
-0
+1
 /
 johndoe
 /
@@ -334,7 +334,7 @@ handler
 /
 1
 .
-0
+1
 /
 johndoe
 /
@@ -358,7 +358,7 @@ handler
 /
 1
 .
-0
+1
 /
 johndoe
 /
@@ -383,7 +383,7 @@ meta_global
 /
 1
 .
-0
+1
 /
 johndoe
 /
@@ -406,7 +406,7 @@ metaColl
 /
 1
 .
-0
+1
 /
 johndoe
 /

@@ -86,7 +86,7 @@ httpd_setup
 /
 1
 .
-0
+1
 /
 johndoe
 /
@@ -112,7 +112,7 @@ collection_usage
 /
 1
 .
-0
+1
 /
 johndoe
 /
@@ -138,7 +138,7 @@ quota
 /
 1
 .
-0
+1
 /
 janedoe
 /
@@ -161,7 +161,7 @@ gargabe
 /
 1
 .
-0
+1
 /
 janedoe
 /

@@ -432,7 +432,7 @@ sync_httpd_setup
 /
 1
 .
-0
+1
 /
 foo
 /

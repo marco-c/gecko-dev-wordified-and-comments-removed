@@ -321,7 +321,7 @@ httpd_setup
 /
 1
 .
-0
+1
 /
 johndoe
 /
@@ -335,7 +335,7 @@ login_handler
 /
 1
 .
-0
+1
 /
 janedoe
 /
@@ -349,7 +349,7 @@ login_handler
 /
 1
 .
-0
+1
 /
 johndoe
 /
@@ -372,7 +372,7 @@ handler
 /
 1
 .
-0
+1
 /
 johndoe
 /
@@ -395,7 +395,7 @@ handler
 /
 1
 .
-0
+1
 /
 janedoe
 /
@@ -418,7 +418,7 @@ handler
 /
 1
 .
-0
+1
 /
 janedoe
 /
