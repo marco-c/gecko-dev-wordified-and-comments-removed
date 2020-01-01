@@ -1440,11 +1440,6 @@ nsIDOMElement
 aElement
 )
 ;
-void
-ClearInlineStylesCache
-(
-)
-;
 NS_IMETHOD
 TabInTable
 (
@@ -2884,12 +2879,6 @@ mContentFilters
 TypeInState
 *
 mTypeInState
-;
-nsCOMPtr
-<
-nsIDOMNode
->
-mCachedNode
 ;
 PRPackedBool
 mCRInParagraphCreatesParagraph
