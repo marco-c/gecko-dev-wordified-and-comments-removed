@@ -1137,6 +1137,13 @@ nsIFrame
 aFrame
 )
 ;
+enum
+{
+RECTS_ACCOUNT_FOR_TRANSFORMS
+=
+0x01
+}
+;
 static
 void
 GetAllInFlowRects
@@ -1150,6 +1157,10 @@ aRelativeTo
 RectCallback
 *
 aCallback
+PRUint32
+aFlags
+=
+0
 )
 ;
 static
@@ -1162,6 +1173,10 @@ aFrame
 nsIFrame
 *
 aRelativeTo
+PRUint32
+aFlags
+=
+0
 )
 ;
 enum
