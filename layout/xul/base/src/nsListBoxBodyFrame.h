@@ -216,6 +216,12 @@ ReflowFinished
 (
 )
 ;
+virtual
+void
+ReflowCallbackCanceled
+(
+)
+;
 NS_IMETHOD
 DoLayout
 (

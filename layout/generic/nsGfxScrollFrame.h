@@ -257,6 +257,12 @@ ReflowFinished
 (
 )
 ;
+virtual
+void
+ReflowCallbackCanceled
+(
+)
+;
 NS_IMETHOD
 ScrollPositionWillChange
 (
