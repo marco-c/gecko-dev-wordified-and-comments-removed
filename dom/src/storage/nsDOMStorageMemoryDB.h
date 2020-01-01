@@ -165,6 +165,8 @@ PRBool
 aSecure
 PRInt32
 aQuota
+PRBool
+aExcludeOfflineFromUsage
 PRInt32
 *
 aNewUsage
@@ -195,6 +197,8 @@ const
 nsAString
 &
 aKey
+PRBool
+aExcludeOfflineFromUsage
 PRInt32
 aKeyUsage
 )
@@ -253,6 +257,8 @@ GetUsage
 nsDOMStorage
 *
 aStorage
+PRBool
+aExcludeOfflineFromUsage
 PRInt32
 *
 aUsage
@@ -295,6 +301,8 @@ const
 nsACString
 &
 aQuotaDomainDBKey
+PRBool
+aExcludeOfflineFromUsage
 PRInt32
 *
 aUsage

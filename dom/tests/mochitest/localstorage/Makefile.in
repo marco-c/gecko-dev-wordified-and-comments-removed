@@ -571,6 +571,10 @@ test_localStorageQuotaSessionOnly
 .
 html
 \
+test_localStorageQuotaSessionOnly2
+.
+html
+\
 test_localStorageKeyOrder
 .
 html
