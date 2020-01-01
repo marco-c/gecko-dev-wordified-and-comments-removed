@@ -61,10 +61,6 @@ loadAndPaint
 url
 )
 ;
-verifyHomePagerHidden
-(
-)
-;
 mDriver
 .
 setupScrollHandling

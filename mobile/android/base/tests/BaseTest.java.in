@@ -371,7 +371,7 @@ final
 int
 MAX_WAIT_HOME_PAGER_HIDDEN_MS
 =
-10000
+15000
 ;
 public
 static
