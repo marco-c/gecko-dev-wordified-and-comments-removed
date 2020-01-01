@@ -437,10 +437,9 @@ BreakDebugger
 {
 #
 if
-!
 defined
 (
-ARCH_CPU_ARM_FAMILY
+ARCH_CPU_X86_FAMILY
 )
 asm
 (
