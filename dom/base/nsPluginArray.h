@@ -265,12 +265,6 @@ nsPluginTag
 aPluginTag
 )
 ;
-virtual
-~
-nsPluginElement
-(
-)
-;
 nsPIDOMWindow
 *
 GetParentObject
@@ -419,11 +413,6 @@ protected
 :
 void
 EnsureMimeTypes
-(
-)
-;
-void
-Invalidate
 (
 )
 ;
