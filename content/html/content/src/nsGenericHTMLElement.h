@@ -1331,6 +1331,8 @@ GetLayoutHistoryAndKey
 nsGenericHTMLElement
 *
 aContent
+PRBool
+aRead
 nsILayoutHistoryState
 *
 *
