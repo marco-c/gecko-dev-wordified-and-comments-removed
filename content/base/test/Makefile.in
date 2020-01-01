@@ -1804,6 +1804,10 @@ test_bug553896
 .
 xhtml
 \
+test_bug515401
+.
+html
+\
 test_bug541937
 .
 html

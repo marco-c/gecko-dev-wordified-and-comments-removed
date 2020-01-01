@@ -1739,13 +1739,6 @@ nsnull
 mExecutor
 -
 >
-SetBaseUriFromDocument
-(
-)
-;
-mExecutor
--
->
 SetParser
 (
 this

@@ -69,7 +69,6 @@ eTreeOpFlushPendingAppendNotifications
 eTreeOpSetDocumentCharset
 eTreeOpNeedsCharsetSwitchTo
 eTreeOpUpdateStyleSheet
-eTreeOpProcessBase
 eTreeOpProcessMeta
 eTreeOpProcessOfflineManifest
 eTreeOpMarkMalformedIfScript
