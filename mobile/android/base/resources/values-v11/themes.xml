@@ -288,9 +288,7 @@ android
 windowBackground
 "
 >
-color
-/
-background_normal
+null
 <
 /
 item
