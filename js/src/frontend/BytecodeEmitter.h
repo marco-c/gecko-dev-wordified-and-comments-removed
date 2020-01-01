@@ -2496,6 +2496,11 @@ return
 true
 ;
 }
+bool
+needsImplicitThis
+(
+)
+;
 TokenStream
 *
 tokenStream
