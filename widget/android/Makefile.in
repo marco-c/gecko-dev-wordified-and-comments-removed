@@ -591,12 +591,6 @@ h
 AndroidFlexViewWrapper
 .
 h
-AndroidDirectTexture
-.
-h
-AndroidGraphicBuffer
-.
-h
 include
 (
 topsrcdir
