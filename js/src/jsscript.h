@@ -199,7 +199,7 @@ statement
 *
 /
 static
-inline
+JS_INLINE
 uintN
 StackDepth
 (

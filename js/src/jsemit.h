@@ -2050,8 +2050,6 @@ atom
 jsint
 *
 slotp
-uintN
-declType
 )
 ;
 extern
