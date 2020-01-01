@@ -272,6 +272,11 @@ aPseudoTag
 nsRuleNode
 *
 aRules
+nsRuleNode
+*
+aRulesIfVisited
+PRBool
+aRelevantLinkVisited
 )
 ;
 PRBool
