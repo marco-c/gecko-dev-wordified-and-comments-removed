@@ -1,6 +1,15 @@
 #
 include
 "
+base
+/
+basictypes
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ModuleUtils
