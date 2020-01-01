@@ -2908,9 +2908,6 @@ NSSCMSContentInfo
 *
 cinfo
 ;
-SECOidTag
-childtype
-;
 if
 (
 p7ecx

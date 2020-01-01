@@ -62,8 +62,6 @@ poolp
 SECItem
 *
 dest
-PRBool
-includeFortezzaCiphers
 )
 ;
 extern

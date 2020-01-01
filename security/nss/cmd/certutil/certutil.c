@@ -6864,6 +6864,10 @@ p
 \
 t
 prohibited
+(
+explicitly
+distrusted
+)
 \
 n
 "

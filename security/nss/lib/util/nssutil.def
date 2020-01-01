@@ -1291,12 +1291,13 @@ local
 ;
 ;
 +
-NSS_3
+NSSUTIL_3
 .
 13
 {
 #
 NSS
+Utilities
 3
 .
 13
@@ -1308,12 +1309,6 @@ global
 NSSUTIL_GetVersion
 ;
 NSS_InitializePRErrorTable
-;
-NSS_Strerror
-;
-NSS_StrerrorTS
-;
-NSS_Perror
 ;
 ;
 +

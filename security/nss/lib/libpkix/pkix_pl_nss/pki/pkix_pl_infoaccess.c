@@ -1621,6 +1621,7 @@ terminator
 ;
 if
 (
+*
 endPos
 =
 =

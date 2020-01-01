@@ -958,9 +958,7 @@ OS_CFLAGS
 +
 =
 -
-mno
--
-cygwin
+mwindows
 -
 mms
 -
@@ -987,9 +985,7 @@ DLLFLAGS
 +
 =
 -
-mno
--
-cygwin
+mwindows
 -
 o
 -

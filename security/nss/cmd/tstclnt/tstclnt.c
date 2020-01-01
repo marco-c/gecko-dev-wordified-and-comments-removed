@@ -4605,9 +4605,10 @@ SECU_PrintError
 progName
 "
 error
-disabling
-v2
-compatibility
+enabling
+SSLv2
+compatible
+hellos
 "
 )
 ;

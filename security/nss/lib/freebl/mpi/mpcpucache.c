@@ -2510,6 +2510,9 @@ string
 4
 ]
 =
+(
+int
+)
 edx
 ;
 *
@@ -2523,6 +2526,9 @@ string
 8
 ]
 =
+(
+int
+)
 ecx
 ;
 string
@@ -2713,6 +2719,9 @@ string
 4
 ]
 =
+(
+int
+)
 edx
 ;
 *
@@ -2726,6 +2735,9 @@ string
 8
 ]
 =
+(
+int
+)
 ecx
 ;
 string

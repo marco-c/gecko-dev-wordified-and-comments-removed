@@ -293,6 +293,8 @@ sslMutex_Destroy
 sslMutex
 *
 sem
+PRBool
+processLocal
 )
 ;
 extern

@@ -664,3 +664,16 @@ GLIBC_2
 /
 *
 *
+#
+679524
+*
+*
+/
+nss_Init
+/
+PR_CallOnce
+/
+nss_doLockInit
+/
+*
+*

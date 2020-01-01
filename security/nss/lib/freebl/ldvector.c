@@ -208,7 +208,6 @@ JPAKE_Sign
 JPAKE_Verify
 JPAKE_Round2
 JPAKE_Final
-MGF1
 TLS_P_hash
 SHA224_NewContext
 SHA224_DestroyContext

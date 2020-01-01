@@ -1209,6 +1209,12 @@ enableFalseStart
 :
 1
 ;
+unsigned
+int
+cbcRandomIV
+:
+1
+;
 }
 sslOptions
 ;

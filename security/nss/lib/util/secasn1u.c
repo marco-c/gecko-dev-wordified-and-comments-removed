@@ -217,12 +217,14 @@ PR_TRUE
 if
 (
 !
+(
 theTemplate
 -
 >
 kind
 &
 SEC_ASN1_CHOICE
+)
 )
 {
 return

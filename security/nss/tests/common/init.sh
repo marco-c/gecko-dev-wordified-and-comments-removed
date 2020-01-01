@@ -899,6 +899,13 @@ HOSTDIR
 }
 /
 eccurves
+DISTRUSTDIR
+=
+{
+HOSTDIR
+}
+/
+distrust
 SERVER_CADIR
 =
 {
@@ -4469,6 +4476,13 @@ D_CERT_EXTENSTIONS
 =
 "
 CertExtensions
+.
+version
+"
+D_DISTRUST
+=
+"
+Distrust
 .
 version
 "

@@ -226,7 +226,7 @@ enable
 ssl
 v2
 (
-on
+off
 by
 default
 )
@@ -437,6 +437,10 @@ off
 by
 *
 /
+#
+define
+SSL_CBC_RANDOM_IV
+23
 #
 ifdef
 SSL_DEPRECATED_FUNCTION

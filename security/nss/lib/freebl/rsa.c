@@ -4363,16 +4363,6 @@ rsabp
 >
 array
 ;
-SECStatus
-rv
-=
-SECSuccess
-;
-mp_err
-err
-=
-MP_OKAY
-;
 int
 i
 =

@@ -2245,9 +2245,9 @@ CERTDB_TERMINAL_RECORD
 flags
 &
 (
-CERTDB_VALID_CA
-|
 CERTDB_TRUSTED
+|
+CERTDB_TRUSTED_CA
 )
 )
 =
@@ -2258,7 +2258,7 @@ CERTDB_TRUSTED
 {
 PORT_SetError
 (
-SEC_ERROR_UNTRUSTED_CERT
+SEC_ERROR_UNTRUSTED_ISSUER
 )
 ;
 LOG_ERROR_OR_EXIT
@@ -2372,9 +2372,9 @@ CERTDB_TERMINAL_RECORD
 flags
 &
 (
-CERTDB_VALID_CA
-|
 CERTDB_TRUSTED
+|
+CERTDB_TRUSTED_CA
 )
 )
 =
@@ -2385,7 +2385,7 @@ CERTDB_TRUSTED
 {
 PORT_SetError
 (
-SEC_ERROR_UNTRUSTED_CERT
+SEC_ERROR_UNTRUSTED_ISSUER
 )
 ;
 LOG_ERROR_OR_EXIT
@@ -2843,6 +2843,7 @@ rvFinal
 =
 SECSuccess
 ;
+unsigned
 int
 flags
 ;
@@ -3192,9 +3193,9 @@ CERTDB_TERMINAL_RECORD
 flags
 &
 (
-CERTDB_VALID_CA
-|
 CERTDB_TRUSTED
+|
+CERTDB_TRUSTED_CA
 )
 )
 =
@@ -3600,7 +3601,11 @@ if
 (
 flags
 &
+(
+CERTDB_TRUSTED
+|
 CERTDB_TRUSTED_CA
+)
 )
 =
 =
@@ -3873,7 +3878,11 @@ if
 (
 flags
 &
+(
+CERTDB_TRUSTED
+|
 CERTDB_TRUSTED_CA
+)
 )
 =
 =
@@ -3912,7 +3921,11 @@ if
 (
 flags
 &
+(
+CERTDB_TRUSTED
+|
 CERTDB_TRUSTED_CA
+)
 )
 =
 =
@@ -3954,7 +3967,11 @@ if
 (
 flags
 &
+(
+CERTDB_TRUSTED
+|
 CERTDB_TRUSTED_CA
+)
 )
 =
 =
@@ -4464,6 +4481,7 @@ INVALID_USAGE
 )
 ;
 }
+else
 if
 (
 trusted
@@ -4980,6 +4998,7 @@ flags
 )
 ;
 }
+else
 if
 (
 trusted

@@ -450,10 +450,6 @@ pppolicy
 .
 c
 \
-secerror
-.
-c
-\
 ffs
 .
 c
