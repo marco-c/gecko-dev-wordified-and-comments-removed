@@ -66,9 +66,9 @@ _flag
 bool
 AttachNewConstructorObject
 (
-XPCCallContext
-&
-ccx
+JSContext
+*
+aCx
 JSObject
 *
 aGlobalObject

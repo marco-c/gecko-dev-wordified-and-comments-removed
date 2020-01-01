@@ -796,11 +796,11 @@ XPCWrappedNativeScope
 :
 GetComponentsJSObject
 (
-XPCCallContext
-&
-ccx
 )
 {
+AutoJSContext
+cx
+;
 if
 (
 !
@@ -817,7 +817,7 @@ this
 AutoMarkingNativeInterfacePtr
 iface
 (
-ccx
+cx
 )
 ;
 iface
@@ -891,7 +891,7 @@ JS
 RootedObject
 obj
 (
-ccx
+cx
 wrapper
 -
 >
@@ -905,7 +905,7 @@ if
 !
 JS_WrapObject
 (
-ccx
+cx
 obj
 .
 address
