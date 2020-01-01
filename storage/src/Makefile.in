@@ -593,10 +593,6 @@ mozStorageStatement
 .
 cpp
 \
-mozStorageStatementWrapper
-.
-cpp
-\
 mozStorageStatementParams
 .
 cpp

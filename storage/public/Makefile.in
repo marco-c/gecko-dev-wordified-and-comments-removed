@@ -487,10 +487,6 @@ mozIStorageStatement
 .
 idl
 \
-mozIStorageStatementWrapper
-.
-idl
-\
 mozIStorageValueArray
 .
 idl
@@ -504,6 +500,14 @@ mozIStorageRow
 idl
 \
 mozIStorageError
+.
+idl
+\
+mozIStorageStatementParams
+.
+idl
+\
+mozIStorageStatementRow
 .
 idl
 \
