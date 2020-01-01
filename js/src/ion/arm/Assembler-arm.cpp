@@ -11753,10 +11753,8 @@ true
 ;
 if
 (
+!
 start_
-=
-=
-NULL
 )
 {
 IonSpewCont
@@ -11936,9 +11934,6 @@ return
 if
 (
 start_
-!
-=
-NULL
 )
 {
 JSC
