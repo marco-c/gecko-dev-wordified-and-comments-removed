@@ -3932,7 +3932,7 @@ nsIVersionComparator
 .
 compare
 (
-self
+this
 .
 _application
 .
@@ -4210,12 +4210,6 @@ Error
 in
 requirements
 check
-"
-+
-expName
-+
-"
-:
 "
 +
 e
