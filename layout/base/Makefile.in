@@ -187,6 +187,10 @@ nsIReflowCallback
 .
 h
 \
+nsLayoutErrors
+.
+h
+\
 nsLayoutUtils
 .
 h
@@ -296,10 +300,6 @@ nsFrameIterator
 cpp
 \
 nsGenConList
-.
-cpp
-\
-nsImageLoader
 .
 cpp
 \
