@@ -378,6 +378,11 @@ numLocks
 uint32_t
 numHidden
 ;
+uint64_t
+[
+]
+lockingProcesses
+;
 nsString
 topic
 ;
