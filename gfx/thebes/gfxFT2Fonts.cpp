@@ -473,6 +473,11 @@ face
 aFontData
 )
 ;
+if
+(
+fe
+)
+{
 fe
 -
 >
@@ -500,6 +505,7 @@ aProxyEntry
 .
 mStretch
 ;
+}
 return
 fe
 ;
