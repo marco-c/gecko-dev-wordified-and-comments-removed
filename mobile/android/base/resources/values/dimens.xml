@@ -432,8 +432,8 @@ dimen
 Max
 width
 of
-the
-doorhanger
+arrow
+popups
 on
 tablets
 -
@@ -444,7 +444,7 @@ dimen
 name
 =
 "
-doorhanger_width
+arrow_popup_width
 "
 >
 400dp

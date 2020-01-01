@@ -181,12 +181,12 @@ item
 name
 =
 "
-doorhangerWidth
+arrowPopupWidth
 "
 >
 dimen
 /
-doorhanger_width
+arrow_popup_width
 <
 /
 item

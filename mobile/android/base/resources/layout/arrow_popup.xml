@@ -109,7 +109,7 @@ layout_width
 ?
 attr
 /
-doorhangerWidth
+arrowPopupWidth
 "
 android
 :
@@ -129,7 +129,7 @@ layout_width
 ?
 attr
 /
-doorhangerWidth
+arrowPopupWidth
 "
 android
 :
@@ -152,7 +152,7 @@ background
 "
 drawable
 /
-doorhanger_popup_bg
+arrow_popup_bg
 "
 >
 <
