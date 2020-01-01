@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsWeakReference
+nsIWeakReferenceUtils
 .
 h
 "
@@ -47,9 +47,6 @@ nsIDocShell
 ;
 struct
 JSContext
-;
-class
-nsIDocument
 ;
 class
 nsIDocShellLoadInfo

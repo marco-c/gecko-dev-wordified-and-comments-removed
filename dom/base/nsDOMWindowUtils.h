@@ -7,13 +7,6 @@ nsDOMWindowUtils_h_
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsWeakReference
 .
 h

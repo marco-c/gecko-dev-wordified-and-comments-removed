@@ -34,17 +34,6 @@ mozilla
 /
 dom
 /
-DOMError
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 DOMRequestBinding
 .
 h

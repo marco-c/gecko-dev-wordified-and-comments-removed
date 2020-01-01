@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsIScriptRuntime
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes

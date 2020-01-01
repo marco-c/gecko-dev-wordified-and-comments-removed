@@ -48,6 +48,13 @@ nsIScrollable
 .
 h
 "
+#
+include
+"
+nsIWebBrowserChrome
+.
+h
+"
 namespace
 mozilla
 {

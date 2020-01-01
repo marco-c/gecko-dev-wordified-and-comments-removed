@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsIDOMWindow
-.
-h
-"
-#
-include
-"
 nsIDOMElement
 .
 h

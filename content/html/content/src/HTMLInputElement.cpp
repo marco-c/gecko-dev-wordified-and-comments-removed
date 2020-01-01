@@ -558,6 +558,13 @@ h
 #
 include
 "
+nsIStringEnumerator
+.
+h
+"
+#
+include
+"
 js
 /
 Date

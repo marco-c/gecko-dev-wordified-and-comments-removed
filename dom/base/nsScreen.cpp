@@ -38,13 +38,6 @@ h
 #
 include
 "
-nsDOMClassInfoID
-.
-h
-"
-#
-include
-"
 nsIDocShellTreeItem
 .
 h
@@ -60,13 +53,6 @@ h
 include
 "
 nsDOMEvent
-.
-h
-"
-#
-include
-"
-nsGlobalWindow
 .
 h
 "
