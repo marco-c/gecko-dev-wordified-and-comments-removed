@@ -707,7 +707,7 @@ lir
 new
 LCreateThis
 (
-useFixed
+useRegister
 (
 ins
 -
@@ -715,9 +715,8 @@ ins
 getCallee
 (
 )
-CallTempReg0
 )
-useFixed
+useRegister
 (
 ins
 -
@@ -725,12 +724,11 @@ ins
 getPrototype
 (
 )
-CallTempReg1
 )
 )
 ;
 return
-defineVMReturn
+define
 (
 lir
 ins

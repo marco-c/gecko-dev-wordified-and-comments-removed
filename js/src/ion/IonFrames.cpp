@@ -2038,6 +2038,9 @@ actual
 spilled
 )
 ;
+#
+if
+0
 JS_ASSERT
 (
 actual
@@ -2054,6 +2057,8 @@ empty
 )
 )
 ;
+#
+endif
 uint32
 slot
 ;
