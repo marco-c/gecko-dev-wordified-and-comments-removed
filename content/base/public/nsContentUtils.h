@@ -1643,6 +1643,15 @@ aDocument
 )
 ;
 static
+PRBool
+IsInChromeDocshell
+(
+nsIDocument
+*
+aDocument
+)
+;
+static
 nsresult
 ReleasePtrOnShutdown
 (
