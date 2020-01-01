@@ -30612,12 +30612,6 @@ mPresContext
 return
 ;
 }
-if
-(
-!
-aWillSendDidPaint
-)
-{
 rootPresContext
 -
 >
@@ -30625,7 +30619,6 @@ ApplyPluginGeometryUpdates
 (
 )
 ;
-}
 }
 void
 PresShell
@@ -30657,13 +30650,6 @@ mPresContext
 return
 ;
 }
-rootPresContext
--
->
-ApplyPluginGeometryUpdates
-(
-)
-;
 if
 (
 nsContentUtils
