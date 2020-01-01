@@ -393,13 +393,6 @@ h
 #
 include
 "
-nsIDOMNSDocument
-.
-h
-"
-#
-include
-"
 nsIDOMNSHTMLDocument
 .
 h
@@ -4994,7 +4987,7 @@ docTitle
 ;
 nsCOMPtr
 <
-nsIDOMNSDocument
+nsIDOMDocument
 >
 doc
 =

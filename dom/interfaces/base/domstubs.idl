@@ -492,9 +492,6 @@ interface
 nsIDOMEntityReference
 ;
 interface
-nsIDOMNSDocument
-;
-interface
 nsIDOMNSElement
 ;
 interface

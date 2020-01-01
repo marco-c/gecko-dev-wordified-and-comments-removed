@@ -84,13 +84,6 @@ h
 #
 include
 "
-nsIDOMNSDocument
-.
-h
-"
-#
-include
-"
 nsStubDocumentObserver
 .
 h
@@ -1622,8 +1615,6 @@ nsIDocument
 public
 nsIDOMXMLDocument
 public
-nsIDOMNSDocument
-public
 nsIDOMDocumentXBL
 public
 nsSupportsWeakReference
@@ -2800,7 +2791,6 @@ aRadioGroup
 NS_DECL_NSIDOMNODE
 NS_DECL_NSIDOMDOCUMENT
 NS_DECL_NSIDOMXMLDOCUMENT
-NS_DECL_NSIDOMNSDOCUMENT
 NS_DECL_NSIDOMDOCUMENTXBL
 NS_DECL_NSIDOMEVENTTARGET
 NS_DECL_NSIDOM3EVENTTARGET
@@ -4224,13 +4214,6 @@ NS_INTERFACE_TABLE_ENTRY_AMBIGUOUS
 (
 _class
 nsIDOMDocument
-nsDocument
-)
-\
-NS_INTERFACE_TABLE_ENTRY_AMBIGUOUS
-(
-_class
-nsIDOMNSDocument
 nsDocument
 )
 \

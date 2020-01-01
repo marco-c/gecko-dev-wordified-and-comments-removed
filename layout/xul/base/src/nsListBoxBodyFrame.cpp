@@ -162,13 +162,6 @@ h
 #
 include
 "
-nsIDOMNSDocument
-.
-h
-"
-#
-include
-"
 nsPIBoxObject
 .
 h

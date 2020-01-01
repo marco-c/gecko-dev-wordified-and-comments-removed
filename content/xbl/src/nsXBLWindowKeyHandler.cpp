@@ -176,13 +176,6 @@ h
 #
 include
 "
-nsIDOMNSDocument
-.
-h
-"
-#
-include
-"
 nsPIWindowRoot
 .
 h

@@ -522,10 +522,6 @@ nsIDOMNameList
 .
 idl
 \
-nsIDOMNSDocument
-.
-idl
-\
 nsIDOMXMLDocument
 .
 idl
