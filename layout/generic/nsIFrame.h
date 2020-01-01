@@ -4978,7 +4978,7 @@ true
 ;
 }
 bool
-GetAbsPosClipRect
+GetClipPropClipRect
 (
 const
 nsStyleDisplay
