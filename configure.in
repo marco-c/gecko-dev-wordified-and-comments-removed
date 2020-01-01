@@ -56513,17 +56513,6 @@ Maemo
 ]
 )
 fi
-fi
-if
-test
-"
-MOZ_PLATFORM_MAEMO
-"
--
-gt
-5
-;
-then
 MOZ_THUMB2
 =
 1
