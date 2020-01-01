@@ -4759,6 +4759,11 @@ NS_ConvertUTF8toUTF16
 str
 )
 ;
+AddReservedServices
+(
+sDefaultAdapterPath
+)
+;
 v
 =
 sDefaultAdapterPath
