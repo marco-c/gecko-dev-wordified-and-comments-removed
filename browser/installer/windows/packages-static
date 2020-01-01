@@ -282,6 +282,11 @@ bin
 mozcrt19
 .
 dll
+bin
+\
+mozcpp19
+.
+dll
 #
 endif
 #
