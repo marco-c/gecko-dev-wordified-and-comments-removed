@@ -55,6 +55,13 @@ h
 #
 include
 "
+jsfriendapi
+.
+h
+"
+#
+include
+"
 nsPluginHost
 .
 h
@@ -7233,7 +7240,9 @@ return
 false
 ;
 }
-OBJ_TO_INNER_OBJECT
+obj
+=
+JS_ObjectToInnerObject
 (
 cx
 obj

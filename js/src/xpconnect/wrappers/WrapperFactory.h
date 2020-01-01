@@ -76,11 +76,12 @@ flags
 =
 0
 ;
-wrapper
--
->
-unwrap
+js
+:
+:
+UnwrapObject
 (
+wrapper
 &
 flags
 )

@@ -50,13 +50,6 @@ h
 #
 include
 "
-jsinterp
-.
-h
-"
-#
-include
-"
 nsJSUtils
 .
 h

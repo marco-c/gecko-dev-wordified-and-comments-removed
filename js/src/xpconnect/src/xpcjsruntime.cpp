@@ -262,7 +262,7 @@ IsSubjectToFinalization
 )
 )
 {
-JS
+js
 :
 :
 AutoSwitchCompartment

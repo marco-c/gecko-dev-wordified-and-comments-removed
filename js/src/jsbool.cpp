@@ -844,10 +844,10 @@ obj
 if
 (
 !
-obj
-.
-getProxyHandler
+GetProxyHandler
 (
+&
+obj
 )
 -
 >

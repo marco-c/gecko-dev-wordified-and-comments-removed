@@ -8,6 +8,13 @@ h
 #
 include
 "
+jsstr
+.
+h
+"
+#
+include
+"
 Library
 .
 h

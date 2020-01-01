@@ -36,6 +36,13 @@ h
 #
 include
 "
+jsfriendapi
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
