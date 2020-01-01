@@ -13608,6 +13608,12 @@ this
 )
 )
 ;
+if
+(
+!
+mSynchronousDOMContentLoaded
+)
+{
 nsRefPtr
 <
 nsIRunnable
@@ -13633,6 +13639,14 @@ NS_DispatchToCurrentThread
 ev
 )
 ;
+}
+else
+{
+DispatchContentLoadedEvents
+(
+)
+;
+}
 }
 void
 nsDocument

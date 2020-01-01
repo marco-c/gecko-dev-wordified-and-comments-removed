@@ -455,6 +455,10 @@ test_bug399502
 .
 xhtml
 \
+test_bug445330
+.
+html
+\
 test_viewport
 .
 xhtml
