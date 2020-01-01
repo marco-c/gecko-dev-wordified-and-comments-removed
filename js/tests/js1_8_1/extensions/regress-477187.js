@@ -108,9 +108,16 @@ summary
 }
 else
 {
+expectExitCode
+(
+6
+)
+;
 timeout
 (
-3
+0
+.
+01
 )
 ;
 reportCompare
