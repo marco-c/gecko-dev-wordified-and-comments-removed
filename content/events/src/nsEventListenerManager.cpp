@@ -99,13 +99,6 @@ h
 #
 include
 "
-nsIScriptRuntime
-.
-h
-"
-#
-include
-"
 nsLayoutUtils
 .
 h

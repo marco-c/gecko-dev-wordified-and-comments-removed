@@ -166,13 +166,6 @@ h
 #
 include
 "
-nsIScriptRuntime
-.
-h
-"
-#
-include
-"
 nsCOMArray
 .
 h

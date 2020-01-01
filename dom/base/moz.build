@@ -241,11 +241,6 @@ nsIScriptObjectPrincipal
 h
 '
 '
-nsIScriptRuntime
-.
-h
-'
-'
 nsIScriptTimeoutHandler
 .
 h
