@@ -159,12 +159,15 @@ data
 #
 ifdef
 MOZ_CRASHREPORTER
+const
 struct
 mapping_info
 *
 info
 =
-lib_mapping
+getLibraryMapping
+(
+)
 ;
 while
 (
