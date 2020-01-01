@@ -3173,14 +3173,9 @@ StackTrace
 tmp
 ;
 {
-#
-ifdef
-XP_WIN
 AutoUnlockState
 unlock
 ;
-#
-endif
 uint32_t
 skip
 =
