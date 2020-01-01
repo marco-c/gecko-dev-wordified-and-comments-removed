@@ -9111,9 +9111,15 @@ length
 }
 NS_ASSERTION
 (
+static_cast
+<
+uint32_t
+>
+(
 dest
 -
 aDest
+)
 =
 =
 aSrcLength
