@@ -1382,6 +1382,8 @@ js
 FreeOp
 *
 fop
+bool
+discardConstraints
 )
 ;
 bool

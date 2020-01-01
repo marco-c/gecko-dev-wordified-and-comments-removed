@@ -3518,6 +3518,8 @@ sweepCompilerOutputs
 FreeOp
 *
 fop
+bool
+discardConstraints
 )
 ;
 void
