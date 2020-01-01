@@ -657,7 +657,7 @@ mTokenizerMutex
 nsHtml5AtomTable
 mAtomTable
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsHtml5Parser
 >
