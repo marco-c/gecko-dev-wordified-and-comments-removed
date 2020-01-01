@@ -106,6 +106,10 @@ bug_765063
 .
 xul
 \
+bug_771294
+.
+xul
+\
 include
 .
 html
