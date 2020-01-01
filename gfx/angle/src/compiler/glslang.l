@@ -3444,11 +3444,14 @@ yyparse
 int
 PaParseStrings
 (
+const
 char
 *
+const
 argv
 [
 ]
+const
 int
 strLen
 [

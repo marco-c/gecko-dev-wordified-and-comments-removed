@@ -125,6 +125,7 @@ cpp
 int
 ScanFromString
 (
+const
 char
 *
 )

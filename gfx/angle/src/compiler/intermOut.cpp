@@ -17,20 +17,20 @@ public
 :
 TOutputTraverser
 (
-TInfoSink
+TInfoSinkBase
 &
 i
 )
 :
-infoSink
+sink
 (
 i
 )
 {
 }
-TInfoSink
+TInfoSinkBase
 &
-infoSink
+sink
 ;
 protected
 :
@@ -222,9 +222,9 @@ str
 void
 OutputTreeText
 (
-TInfoSink
+TInfoSinkBase
 &
-infoSink
+sink
 TIntermNode
 *
 node
@@ -236,9 +236,7 @@ depth
 int
 i
 ;
-infoSink
-.
-debug
+sink
 .
 location
 (
@@ -264,9 +262,7 @@ depth
 +
 i
 )
-infoSink
-.
-debug
+sink
 <
 <
 "
@@ -286,14 +282,12 @@ node
 {
 OutputTreeText
 (
-infoSink
+sink
 node
 depth
 )
 ;
-infoSink
-.
-debug
+sink
 <
 <
 "
@@ -313,9 +307,7 @@ getSymbol
 '
 "
 ;
-infoSink
-.
-debug
+sink
 <
 <
 "
@@ -351,11 +343,11 @@ TIntermBinary
 node
 )
 {
-TInfoSink
+TInfoSinkBase
 &
 out
 =
-infoSink
+sink
 ;
 OutputTreeText
 (
@@ -378,8 +370,6 @@ case
 EOpAssign
 :
 out
-.
-debug
 <
 <
 "
@@ -397,8 +387,6 @@ case
 EOpInitialize
 :
 out
-.
-debug
 <
 <
 "
@@ -416,8 +404,6 @@ case
 EOpAddAssign
 :
 out
-.
-debug
 <
 <
 "
@@ -435,8 +421,6 @@ case
 EOpSubAssign
 :
 out
-.
-debug
 <
 <
 "
@@ -454,8 +438,6 @@ case
 EOpMulAssign
 :
 out
-.
-debug
 <
 <
 "
@@ -473,8 +455,6 @@ case
 EOpVectorTimesMatrixAssign
 :
 out
-.
-debug
 <
 <
 "
@@ -493,8 +473,6 @@ case
 EOpVectorTimesScalarAssign
 :
 out
-.
-debug
 <
 <
 "
@@ -513,8 +491,6 @@ case
 EOpMatrixTimesScalarAssign
 :
 out
-.
-debug
 <
 <
 "
@@ -533,8 +509,6 @@ case
 EOpMatrixTimesMatrixAssign
 :
 out
-.
-debug
 <
 <
 "
@@ -553,8 +527,6 @@ case
 EOpDivAssign
 :
 out
-.
-debug
 <
 <
 "
@@ -572,8 +544,6 @@ case
 EOpIndexDirect
 :
 out
-.
-debug
 <
 <
 "
@@ -587,8 +557,6 @@ case
 EOpIndexIndirect
 :
 out
-.
-debug
 <
 <
 "
@@ -602,8 +570,6 @@ case
 EOpIndexDirectStruct
 :
 out
-.
-debug
 <
 <
 "
@@ -619,8 +585,6 @@ case
 EOpVectorSwizzle
 :
 out
-.
-debug
 <
 <
 "
@@ -634,8 +598,6 @@ case
 EOpAdd
 :
 out
-.
-debug
 <
 <
 "
@@ -648,8 +610,6 @@ case
 EOpSub
 :
 out
-.
-debug
 <
 <
 "
@@ -662,8 +622,6 @@ case
 EOpMul
 :
 out
-.
-debug
 <
 <
 "
@@ -679,8 +637,6 @@ case
 EOpDiv
 :
 out
-.
-debug
 <
 <
 "
@@ -693,8 +649,6 @@ case
 EOpEqual
 :
 out
-.
-debug
 <
 <
 "
@@ -708,8 +662,6 @@ case
 EOpNotEqual
 :
 out
-.
-debug
 <
 <
 "
@@ -724,8 +676,6 @@ case
 EOpLessThan
 :
 out
-.
-debug
 <
 <
 "
@@ -740,8 +690,6 @@ case
 EOpGreaterThan
 :
 out
-.
-debug
 <
 <
 "
@@ -756,8 +704,6 @@ case
 EOpLessThanEqual
 :
 out
-.
-debug
 <
 <
 "
@@ -774,8 +720,6 @@ case
 EOpGreaterThanEqual
 :
 out
-.
-debug
 <
 <
 "
@@ -792,8 +736,6 @@ case
 EOpVectorTimesScalar
 :
 out
-.
-debug
 <
 <
 "
@@ -808,8 +750,6 @@ case
 EOpVectorTimesMatrix
 :
 out
-.
-debug
 <
 <
 "
@@ -826,8 +766,6 @@ case
 EOpMatrixTimesVector
 :
 out
-.
-debug
 <
 <
 "
@@ -844,8 +782,6 @@ case
 EOpMatrixTimesScalar
 :
 out
-.
-debug
 <
 <
 "
@@ -860,8 +796,6 @@ case
 EOpMatrixTimesMatrix
 :
 out
-.
-debug
 <
 <
 "
@@ -876,8 +810,6 @@ case
 EOpLogicalOr
 :
 out
-.
-debug
 <
 <
 "
@@ -892,8 +824,6 @@ case
 EOpLogicalXor
 :
 out
-.
-debug
 <
 <
 "
@@ -908,8 +838,6 @@ case
 EOpLogicalAnd
 :
 out
-.
-debug
 <
 <
 "
@@ -923,8 +851,6 @@ break
 default
 :
 out
-.
-debug
 <
 <
 "
@@ -936,8 +862,6 @@ op
 ;
 }
 out
-.
-debug
 <
 <
 "
@@ -958,8 +882,6 @@ getCompleteString
 "
 ;
 out
-.
-debug
 <
 <
 "
@@ -984,11 +906,11 @@ TIntermUnary
 node
 )
 {
-TInfoSink
+TInfoSinkBase
 &
 out
 =
-infoSink
+sink
 ;
 OutputTreeText
 (
@@ -1011,8 +933,6 @@ case
 EOpNegative
 :
 out
-.
-debug
 <
 <
 "
@@ -1029,8 +949,6 @@ case
 EOpLogicalNot
 :
 out
-.
-debug
 <
 <
 "
@@ -1044,8 +962,6 @@ case
 EOpPostIncrement
 :
 out
-.
-debug
 <
 <
 "
@@ -1060,8 +976,6 @@ case
 EOpPostDecrement
 :
 out
-.
-debug
 <
 <
 "
@@ -1076,8 +990,6 @@ case
 EOpPreIncrement
 :
 out
-.
-debug
 <
 <
 "
@@ -1092,8 +1004,6 @@ case
 EOpPreDecrement
 :
 out
-.
-debug
 <
 <
 "
@@ -1108,8 +1018,6 @@ case
 EOpConvIntToBool
 :
 out
-.
-debug
 <
 <
 "
@@ -1125,8 +1033,6 @@ case
 EOpConvFloatToBool
 :
 out
-.
-debug
 <
 <
 "
@@ -1142,8 +1048,6 @@ case
 EOpConvBoolToFloat
 :
 out
-.
-debug
 <
 <
 "
@@ -1159,8 +1063,6 @@ case
 EOpConvIntToFloat
 :
 out
-.
-debug
 <
 <
 "
@@ -1176,8 +1078,6 @@ case
 EOpConvFloatToInt
 :
 out
-.
-debug
 <
 <
 "
@@ -1193,8 +1093,6 @@ case
 EOpConvBoolToInt
 :
 out
-.
-debug
 <
 <
 "
@@ -1210,8 +1108,6 @@ case
 EOpRadians
 :
 out
-.
-debug
 <
 <
 "
@@ -1224,8 +1120,6 @@ case
 EOpDegrees
 :
 out
-.
-debug
 <
 <
 "
@@ -1238,8 +1132,6 @@ case
 EOpSin
 :
 out
-.
-debug
 <
 <
 "
@@ -1252,8 +1144,6 @@ case
 EOpCos
 :
 out
-.
-debug
 <
 <
 "
@@ -1266,8 +1156,6 @@ case
 EOpTan
 :
 out
-.
-debug
 <
 <
 "
@@ -1280,8 +1168,6 @@ case
 EOpAsin
 :
 out
-.
-debug
 <
 <
 "
@@ -1295,8 +1181,6 @@ case
 EOpAcos
 :
 out
-.
-debug
 <
 <
 "
@@ -1310,8 +1194,6 @@ case
 EOpAtan
 :
 out
-.
-debug
 <
 <
 "
@@ -1325,8 +1207,6 @@ case
 EOpExp
 :
 out
-.
-debug
 <
 <
 "
@@ -1339,8 +1219,6 @@ case
 EOpLog
 :
 out
-.
-debug
 <
 <
 "
@@ -1353,8 +1231,6 @@ case
 EOpExp2
 :
 out
-.
-debug
 <
 <
 "
@@ -1367,8 +1243,6 @@ case
 EOpLog2
 :
 out
-.
-debug
 <
 <
 "
@@ -1381,8 +1255,6 @@ case
 EOpSqrt
 :
 out
-.
-debug
 <
 <
 "
@@ -1395,8 +1267,6 @@ case
 EOpInverseSqrt
 :
 out
-.
-debug
 <
 <
 "
@@ -1410,8 +1280,6 @@ case
 EOpAbs
 :
 out
-.
-debug
 <
 <
 "
@@ -1425,8 +1293,6 @@ case
 EOpSign
 :
 out
-.
-debug
 <
 <
 "
@@ -1439,8 +1305,6 @@ case
 EOpFloor
 :
 out
-.
-debug
 <
 <
 "
@@ -1453,8 +1317,6 @@ case
 EOpCeil
 :
 out
-.
-debug
 <
 <
 "
@@ -1467,8 +1329,6 @@ case
 EOpFract
 :
 out
-.
-debug
 <
 <
 "
@@ -1481,8 +1341,6 @@ case
 EOpLength
 :
 out
-.
-debug
 <
 <
 "
@@ -1495,8 +1353,6 @@ case
 EOpNormalize
 :
 out
-.
-debug
 <
 <
 "
@@ -1509,8 +1365,6 @@ case
 EOpAny
 :
 out
-.
-debug
 <
 <
 "
@@ -1523,8 +1377,6 @@ case
 EOpAll
 :
 out
-.
-debug
 <
 <
 "
@@ -1536,8 +1388,6 @@ break
 default
 :
 out
-.
-debug
 .
 message
 (
@@ -1551,8 +1401,6 @@ op
 ;
 }
 out
-.
-debug
 <
 <
 "
@@ -1573,8 +1421,6 @@ getCompleteString
 "
 ;
 out
-.
-debug
 <
 <
 "
@@ -1599,11 +1445,11 @@ TIntermAggregate
 node
 )
 {
-TInfoSink
+TInfoSinkBase
 &
 out
 =
-infoSink
+sink
 ;
 if
 (
@@ -1619,8 +1465,6 @@ EOpNull
 )
 {
 out
-.
-debug
 .
 message
 (
@@ -1659,8 +1503,6 @@ case
 EOpSequence
 :
 out
-.
-debug
 <
 <
 "
@@ -1676,8 +1518,6 @@ case
 EOpComma
 :
 out
-.
-debug
 <
 <
 "
@@ -1693,8 +1533,6 @@ case
 EOpFunction
 :
 out
-.
-debug
 <
 <
 "
@@ -1717,8 +1555,6 @@ case
 EOpFunctionCall
 :
 out
-.
-debug
 <
 <
 "
@@ -1741,8 +1577,6 @@ case
 EOpParameters
 :
 out
-.
-debug
 <
 <
 "
@@ -1757,8 +1591,6 @@ case
 EOpConstructFloat
 :
 out
-.
-debug
 <
 <
 "
@@ -1772,8 +1604,6 @@ case
 EOpConstructVec2
 :
 out
-.
-debug
 <
 <
 "
@@ -1787,8 +1617,6 @@ case
 EOpConstructVec3
 :
 out
-.
-debug
 <
 <
 "
@@ -1802,8 +1630,6 @@ case
 EOpConstructVec4
 :
 out
-.
-debug
 <
 <
 "
@@ -1817,8 +1643,6 @@ case
 EOpConstructBool
 :
 out
-.
-debug
 <
 <
 "
@@ -1832,8 +1656,6 @@ case
 EOpConstructBVec2
 :
 out
-.
-debug
 <
 <
 "
@@ -1847,8 +1669,6 @@ case
 EOpConstructBVec3
 :
 out
-.
-debug
 <
 <
 "
@@ -1862,8 +1682,6 @@ case
 EOpConstructBVec4
 :
 out
-.
-debug
 <
 <
 "
@@ -1877,8 +1695,6 @@ case
 EOpConstructInt
 :
 out
-.
-debug
 <
 <
 "
@@ -1892,8 +1708,6 @@ case
 EOpConstructIVec2
 :
 out
-.
-debug
 <
 <
 "
@@ -1907,8 +1721,6 @@ case
 EOpConstructIVec3
 :
 out
-.
-debug
 <
 <
 "
@@ -1922,8 +1734,6 @@ case
 EOpConstructIVec4
 :
 out
-.
-debug
 <
 <
 "
@@ -1937,8 +1747,6 @@ case
 EOpConstructMat2
 :
 out
-.
-debug
 <
 <
 "
@@ -1952,8 +1760,6 @@ case
 EOpConstructMat3
 :
 out
-.
-debug
 <
 <
 "
@@ -1967,8 +1773,6 @@ case
 EOpConstructMat4
 :
 out
-.
-debug
 <
 <
 "
@@ -1982,8 +1786,6 @@ case
 EOpConstructStruct
 :
 out
-.
-debug
 <
 <
 "
@@ -1997,8 +1799,6 @@ case
 EOpLessThan
 :
 out
-.
-debug
 <
 <
 "
@@ -2013,8 +1813,6 @@ case
 EOpGreaterThan
 :
 out
-.
-debug
 <
 <
 "
@@ -2029,8 +1827,6 @@ case
 EOpLessThanEqual
 :
 out
-.
-debug
 <
 <
 "
@@ -2047,8 +1843,6 @@ case
 EOpGreaterThanEqual
 :
 out
-.
-debug
 <
 <
 "
@@ -2065,8 +1859,6 @@ case
 EOpVectorEqual
 :
 out
-.
-debug
 <
 <
 "
@@ -2079,8 +1871,6 @@ case
 EOpVectorNotEqual
 :
 out
-.
-debug
 <
 <
 "
@@ -2093,8 +1883,6 @@ case
 EOpMod
 :
 out
-.
-debug
 <
 <
 "
@@ -2107,8 +1895,6 @@ case
 EOpPow
 :
 out
-.
-debug
 <
 <
 "
@@ -2121,8 +1907,6 @@ case
 EOpAtan
 :
 out
-.
-debug
 <
 <
 "
@@ -2136,8 +1920,6 @@ case
 EOpMin
 :
 out
-.
-debug
 <
 <
 "
@@ -2150,8 +1932,6 @@ case
 EOpMax
 :
 out
-.
-debug
 <
 <
 "
@@ -2164,8 +1944,6 @@ case
 EOpClamp
 :
 out
-.
-debug
 <
 <
 "
@@ -2178,8 +1956,6 @@ case
 EOpMix
 :
 out
-.
-debug
 <
 <
 "
@@ -2192,8 +1968,6 @@ case
 EOpStep
 :
 out
-.
-debug
 <
 <
 "
@@ -2206,8 +1980,6 @@ case
 EOpSmoothStep
 :
 out
-.
-debug
 <
 <
 "
@@ -2220,8 +1992,6 @@ case
 EOpDistance
 :
 out
-.
-debug
 <
 <
 "
@@ -2234,8 +2004,6 @@ case
 EOpDot
 :
 out
-.
-debug
 <
 <
 "
@@ -2250,8 +2018,6 @@ case
 EOpCross
 :
 out
-.
-debug
 <
 <
 "
@@ -2266,8 +2032,6 @@ case
 EOpFaceForward
 :
 out
-.
-debug
 <
 <
 "
@@ -2282,8 +2046,6 @@ case
 EOpReflect
 :
 out
-.
-debug
 <
 <
 "
@@ -2296,8 +2058,6 @@ case
 EOpRefract
 :
 out
-.
-debug
 <
 <
 "
@@ -2310,8 +2070,6 @@ case
 EOpMul
 :
 out
-.
-debug
 <
 <
 "
@@ -2326,8 +2084,6 @@ break
 default
 :
 out
-.
-debug
 .
 message
 (
@@ -2364,8 +2120,6 @@ getOp
 EOpParameters
 )
 out
-.
-debug
 <
 <
 "
@@ -2386,8 +2140,6 @@ getCompleteString
 "
 ;
 out
-.
-debug
 <
 <
 "
@@ -2412,11 +2164,11 @@ TIntermSelection
 node
 )
 {
-TInfoSink
+TInfoSinkBase
 &
 out
 =
-infoSink
+sink
 ;
 OutputTreeText
 (
@@ -2426,8 +2178,6 @@ depth
 )
 ;
 out
-.
-debug
 <
 <
 "
@@ -2438,8 +2188,6 @@ select
 "
 ;
 out
-.
-debug
 <
 <
 "
@@ -2467,14 +2215,12 @@ depth
 ;
 OutputTreeText
 (
-infoSink
+sink
 node
 depth
 )
 ;
 out
-.
-debug
 <
 <
 "
@@ -2498,7 +2244,7 @@ this
 ;
 OutputTreeText
 (
-infoSink
+sink
 node
 depth
 )
@@ -2514,8 +2260,6 @@ getTrueBlock
 )
 {
 out
-.
-debug
 <
 <
 "
@@ -2541,8 +2285,6 @@ this
 }
 else
 out
-.
-debug
 <
 <
 "
@@ -2566,14 +2308,12 @@ getFalseBlock
 {
 OutputTreeText
 (
-infoSink
+sink
 node
 depth
 )
 ;
 out
-.
-debug
 <
 <
 "
@@ -2616,11 +2356,11 @@ TIntermConstantUnion
 node
 )
 {
-TInfoSink
+TInfoSinkBase
 &
 out
 =
-infoSink
+sink
 ;
 int
 size
@@ -2696,8 +2436,6 @@ getBConst
 )
 )
 out
-.
-debug
 <
 <
 "
@@ -2706,8 +2444,6 @@ true
 ;
 else
 out
-.
-debug
 <
 <
 "
@@ -2715,8 +2451,6 @@ false
 "
 ;
 out
-.
-debug
 <
 <
 "
@@ -2735,8 +2469,6 @@ bool
 "
 ;
 out
-.
-debug
 <
 <
 "
@@ -2750,8 +2482,6 @@ case
 EbtFloat
 :
 out
-.
-debug
 <
 <
 node
@@ -2769,8 +2499,6 @@ getFConst
 )
 ;
 out
-.
-debug
 <
 <
 "
@@ -2788,8 +2516,6 @@ case
 EbtInt
 :
 out
-.
-debug
 <
 <
 node
@@ -2807,8 +2533,6 @@ getIConst
 )
 ;
 out
-.
-debug
 <
 <
 "
@@ -2825,8 +2549,6 @@ break
 default
 :
 out
-.
-info
 .
 message
 (
@@ -2861,11 +2583,11 @@ TIntermLoop
 node
 )
 {
-TInfoSink
+TInfoSinkBase
 &
 out
 =
-infoSink
+sink
 ;
 OutputTreeText
 (
@@ -2875,8 +2597,6 @@ depth
 )
 ;
 out
-.
-debug
 <
 <
 "
@@ -2896,8 +2616,6 @@ testFirst
 )
 )
 out
-.
-debug
 <
 <
 "
@@ -2905,8 +2623,6 @@ not
 "
 ;
 out
-.
-debug
 <
 <
 "
@@ -2922,7 +2638,7 @@ depth
 ;
 OutputTreeText
 (
-infoSink
+sink
 node
 depth
 )
@@ -2938,8 +2654,6 @@ getTest
 )
 {
 out
-.
-debug
 <
 <
 "
@@ -2965,8 +2679,6 @@ this
 }
 else
 out
-.
-debug
 <
 <
 "
@@ -2979,7 +2691,7 @@ n
 ;
 OutputTreeText
 (
-infoSink
+sink
 node
 depth
 )
@@ -2995,8 +2707,6 @@ getBody
 )
 {
 out
-.
-debug
 <
 <
 "
@@ -3022,8 +2732,6 @@ this
 }
 else
 out
-.
-debug
 <
 <
 "
@@ -3046,14 +2754,12 @@ getTerminal
 {
 OutputTreeText
 (
-infoSink
+sink
 node
 depth
 )
 ;
 out
-.
-debug
 <
 <
 "
@@ -3099,11 +2805,11 @@ TIntermBranch
 node
 )
 {
-TInfoSink
+TInfoSinkBase
 &
 out
 =
-infoSink
+sink
 ;
 OutputTreeText
 (
@@ -3126,8 +2832,6 @@ case
 EOpKill
 :
 out
-.
-debug
 <
 <
 "
@@ -3142,8 +2846,6 @@ case
 EOpBreak
 :
 out
-.
-debug
 <
 <
 "
@@ -3158,8 +2860,6 @@ case
 EOpContinue
 :
 out
-.
-debug
 <
 <
 "
@@ -3174,8 +2874,6 @@ case
 EOpReturn
 :
 out
-.
-debug
 <
 <
 "
@@ -3189,8 +2887,6 @@ break
 default
 :
 out
-.
-debug
 <
 <
 "
@@ -3214,8 +2910,6 @@ getExpression
 )
 {
 out
-.
-debug
 <
 <
 "
@@ -3249,8 +2943,6 @@ depth
 }
 else
 out
-.
-debug
 <
 <
 "
@@ -3286,6 +2978,8 @@ TOutputTraverser
 it
 (
 infoSink
+.
+info
 )
 ;
 root

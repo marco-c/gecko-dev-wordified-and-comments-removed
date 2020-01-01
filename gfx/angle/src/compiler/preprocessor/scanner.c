@@ -607,6 +607,7 @@ DecLineNumber
 int
 ScanFromString
 (
+const
 char
 *
 s

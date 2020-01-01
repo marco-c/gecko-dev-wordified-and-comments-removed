@@ -34,6 +34,14 @@ RefCountObject
 (
 )
 {
+ASSERT
+(
+mRefCount
+=
+=
+0
+)
+;
 }
 void
 RefCountObject

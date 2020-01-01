@@ -41,6 +41,7 @@ htsize
 int
 ScanFromString
 (
+const
 char
 *
 s

@@ -1886,6 +1886,16 @@ RECT
 sourceRect
 )
 {
+if
+(
+!
+surface
+)
+{
+return
+NULL
+;
+}
 egl
 :
 :

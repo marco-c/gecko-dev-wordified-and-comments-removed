@@ -96,6 +96,7 @@ CompileError
 int
 PaWhichStr
 ;
+const
 int
 *
 PaStrLen
@@ -103,8 +104,10 @@ PaStrLen
 int
 PaArgc
 ;
+const
 char
 *
+const
 *
 PaArgv
 ;
