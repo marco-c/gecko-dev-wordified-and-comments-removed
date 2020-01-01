@@ -1933,16 +1933,6 @@ pref
 "
 browser
 .
-warnOnRestart
-"
-false
-)
-;
-pref
-(
-"
-browser
-.
 showQuitWarning
 "
 false
