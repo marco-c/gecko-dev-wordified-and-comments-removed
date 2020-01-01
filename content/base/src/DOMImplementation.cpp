@@ -865,7 +865,7 @@ NS_LITERAL_STRING
 html
 "
 )
-NULL
+nullptr
 kNameSpaceID_XHTML
 getter_AddRefs
 (
@@ -915,7 +915,7 @@ NS_LITERAL_STRING
 head
 "
 )
-NULL
+nullptr
 kNameSpaceID_XHTML
 getter_AddRefs
 (
@@ -965,7 +965,7 @@ NS_LITERAL_STRING
 title
 "
 )
-NULL
+nullptr
 kNameSpaceID_XHTML
 getter_AddRefs
 (
@@ -1077,7 +1077,7 @@ NS_LITERAL_STRING
 body
 "
 )
-NULL
+nullptr
 kNameSpaceID_XHTML
 getter_AddRefs
 (

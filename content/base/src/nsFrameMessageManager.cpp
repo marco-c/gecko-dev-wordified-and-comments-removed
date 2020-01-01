@@ -1941,7 +1941,7 @@ JS_NewArrayObject
 (
 aCx
 len
-NULL
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -3023,9 +3023,9 @@ param
 JS_NewObject
 (
 ctx
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -3070,7 +3070,7 @@ JS_NewArrayObject
 (
 ctx
 0
-NULL
+nullptr
 )
 ;
 if
@@ -3199,8 +3199,8 @@ param
 target
 "
 targetv
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 ;
@@ -3215,8 +3215,8 @@ STRING_TO_JSVAL
 (
 jsMessage
 )
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 ;
@@ -3231,8 +3231,8 @@ BOOLEAN_TO_JSVAL
 (
 aSync
 )
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 ;
@@ -3244,8 +3244,8 @@ param
 json
 "
 json
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 ;
@@ -3257,8 +3257,8 @@ param
 data
 "
 json
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 ;
@@ -3274,8 +3274,8 @@ objectsv
 jsval_value
 (
 )
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 ;
@@ -5148,7 +5148,7 @@ RootedObject
 empty
 (
 mCx
-NULL
+nullptr
 )
 ;
 JSScript

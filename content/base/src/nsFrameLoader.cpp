@@ -3952,7 +3952,7 @@ frame
 -
 shown
 "
-NULL
+nullptr
 )
 ;
 mRemoteBrowserInitialized
@@ -7370,7 +7370,7 @@ frame
 -
 shown
 "
-NULL
+nullptr
 )
 ;
 }

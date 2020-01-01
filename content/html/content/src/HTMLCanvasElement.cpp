@@ -4267,7 +4267,7 @@ return
 mCurrentContext
 ;
 return
-NULL
+nullptr
 ;
 }
 bool

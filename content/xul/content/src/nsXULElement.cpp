@@ -5447,7 +5447,7 @@ else
 {
 domEvent
 =
-NULL
+nullptr
 ;
 }
 }

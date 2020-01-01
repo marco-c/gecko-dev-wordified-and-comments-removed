@@ -188,7 +188,7 @@ aWin
 NS_ENSURE_TRUE
 (
 scriptObjPrin
-NULL
+nullptr
 )
 ;
 nsIPrincipal
@@ -205,7 +205,7 @@ GetPrincipal
 NS_ENSURE_TRUE
 (
 prin
-NULL
+nullptr
 )
 ;
 nsCOMPtr

@@ -457,11 +457,11 @@ JS_EnumerateStub
 nsXULPDGlobalObject_resolve
 JS_ConvertStub
 nsXULPDGlobalObject_finalize
-NULL
-NULL
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
 }
 ;
 nsXULPrototypeDocument
@@ -2830,7 +2830,7 @@ owner
 )
 mJSObject
 (
-NULL
+nullptr
 )
 {
 }
@@ -3073,7 +3073,7 @@ global
 "
 GetNativeGlobal
 returned
-NULL
+nullptr
 !
 "
 )
@@ -3146,7 +3146,7 @@ language
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -3216,11 +3216,11 @@ DocumentPrincipal
 ;
 mContext
 =
-NULL
+nullptr
 ;
 mGlobalObjectOwner
 =
-NULL
+nullptr
 ;
 }
 void
@@ -3236,7 +3236,7 @@ aObject
 {
 mJSObject
 =
-NULL
+nullptr
 ;
 }
 void

@@ -1410,7 +1410,7 @@ WebGLBuffer
 *
 boundBuffer
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1551,7 +1551,7 @@ WebGLBuffer
 *
 boundBuffer
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1768,7 +1768,7 @@ WebGLBuffer
 *
 boundBuffer
 =
-NULL
+nullptr
 ;
 if
 (
@@ -1974,7 +1974,7 @@ WebGLBuffer
 *
 boundBuffer
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2184,7 +2184,7 @@ WebGLBuffer
 *
 boundBuffer
 =
-NULL
+nullptr
 ;
 if
 (
@@ -2427,7 +2427,7 @@ WebGLBuffer
 *
 boundBuffer
 =
-NULL
+nullptr
 ;
 if
 (
@@ -21043,7 +21043,7 @@ shadername
 1
 &
 ts
-NULL
+nullptr
 )
 ;
 }
@@ -21058,7 +21058,7 @@ shadername
 1
 &
 s
-NULL
+nullptr
 )
 ;
 }
@@ -23319,7 +23319,7 @@ LOCAL_GL_TEXTURE_2D
 data
 !
 =
-NULL
+nullptr
 |
 |
 level
@@ -23352,7 +23352,7 @@ TEXTURE_2D
 data
 must
 be
-NULL
+nullptr
 "
 "
 level

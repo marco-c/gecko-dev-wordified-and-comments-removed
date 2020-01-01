@@ -1000,7 +1000,7 @@ aRange
 *
 aRange
 =
-NULL
+nullptr
 ;
 nsCOMPtr
 <

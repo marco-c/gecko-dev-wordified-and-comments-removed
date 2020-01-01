@@ -1746,7 +1746,7 @@ NS_IMPL_ENUM_ATTR_DEFAULT_VALUE
 HTMLMediaElement
 Preload
 preload
-NULL
+nullptr
 )
 NS_IMPL_ENUM_ATTR_DEFAULT_VALUE
 (
@@ -3558,7 +3558,7 @@ cssParser
 ParseMediaList
 (
 media
-NULL
+nullptr
 0
 mediaList
 false
@@ -3594,7 +3594,7 @@ presShell
 GetPresContext
 (
 )
-NULL
+nullptr
 )
 )
 {
@@ -6572,8 +6572,8 @@ Data
 (
 )
 value
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )
@@ -6647,9 +6647,9 @@ tags
 JS_NewObject
 (
 cx
-NULL
-NULL
-NULL
+nullptr
+nullptr
+nullptr
 )
 ;
 if
@@ -9015,7 +9015,7 @@ Unlock
 ;
 mWakeLock
 =
-NULL
+nullptr
 ;
 }
 mValue
@@ -15162,7 +15162,7 @@ AsElement
 (
 )
 :
-NULL
+nullptr
 ;
 }
 else

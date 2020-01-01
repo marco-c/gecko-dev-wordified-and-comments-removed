@@ -14900,7 +14900,7 @@ nsDOMSettableTokenList
 *
 list
 =
-NULL
+nullptr
 ;
 if
 (

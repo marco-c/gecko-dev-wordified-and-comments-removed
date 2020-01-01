@@ -28701,7 +28701,7 @@ if
 catMan
 )
 return
-NULL
+nullptr
 ;
 nsCOMPtr
 <
@@ -28864,7 +28864,7 @@ forget
 #
 endif
 return
-NULL
+nullptr
 ;
 }
 bool

@@ -560,8 +560,8 @@ OBJECT_TO_JSVAL
 (
 method
 )
-NULL
-NULL
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 )

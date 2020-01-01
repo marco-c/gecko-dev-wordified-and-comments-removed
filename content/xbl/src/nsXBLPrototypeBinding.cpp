@@ -4487,7 +4487,7 @@ while
 token
 !
 =
-NULL
+nullptr
 )
 {
 nsCOMPtr
@@ -4978,7 +4978,7 @@ while
 token
 !
 =
-NULL
+nullptr
 )
 {
 nsAutoString
@@ -5250,7 +5250,7 @@ while
 token
 !
 =
-NULL
+nullptr
 )
 {
 nsCOMPtr

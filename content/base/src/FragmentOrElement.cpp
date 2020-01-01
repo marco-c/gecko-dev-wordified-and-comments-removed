@@ -1748,7 +1748,7 @@ GetWrapperPreserveColor
 (
 )
 :
-NULL
+nullptr
 ;
 }
 static

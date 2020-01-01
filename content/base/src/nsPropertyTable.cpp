@@ -1429,7 +1429,7 @@ PL_DHashTableSizeOfExcludingThis
 (
 &
 mObjectValueMap
-NULL
+nullptr
 aMallocSizeOf
 )
 ;

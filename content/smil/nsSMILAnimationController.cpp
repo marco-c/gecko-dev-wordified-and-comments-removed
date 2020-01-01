@@ -1804,7 +1804,7 @@ NS_ABORT_IF_FALSE
 (
 elem
 "
-NULL
+nullptr
 animation
 element
 in

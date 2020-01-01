@@ -487,7 +487,7 @@ aResult
 *
 aResult
 =
-NULL
+nullptr
 ;
 return
 NS_OK
@@ -858,7 +858,7 @@ mNamedItemEntries
 EnumerateRead
 (
 MarkDirty
-NULL
+nullptr
 )
 ;
 if
@@ -1072,7 +1072,7 @@ aContent
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 void
@@ -1595,7 +1595,7 @@ element
 *
 aReturn
 =
-NULL
+nullptr
 ;
 return
 NS_OK

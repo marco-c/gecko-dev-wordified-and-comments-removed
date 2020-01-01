@@ -4982,7 +4982,7 @@ JSObject
 *
 proto
 =
-NULL
+nullptr
 ;
 if
 (

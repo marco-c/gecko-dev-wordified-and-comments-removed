@@ -277,7 +277,7 @@ mCurrentNode
 "
 mCurrentNode
 is
-NULL
+nullptr
 "
 )
 ;
