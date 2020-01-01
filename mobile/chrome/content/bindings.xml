@@ -7859,6 +7859,11 @@ hbox
 class
 =
 "
+content
+-
+navigator
+-
+box
 panel
 -
 dark
@@ -7894,6 +7899,11 @@ button
 class
 =
 "
+content
+-
+navigator
+-
+item
 button
 -
 image
@@ -7926,6 +7936,11 @@ button
 class
 =
 "
+content
+-
+navigator
+-
+item
 button
 -
 image

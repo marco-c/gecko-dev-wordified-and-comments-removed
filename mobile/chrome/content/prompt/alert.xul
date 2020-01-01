@@ -408,6 +408,13 @@ button
 -
 ok
 "
+class
+=
+"
+prompt
+-
+button
+"
 label
 =
 "
