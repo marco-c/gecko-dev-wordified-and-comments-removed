@@ -39657,8 +39657,6 @@ lQtNetwork
 -
 lQtCore
 -
-lQtDBus
--
 lQtXml
 -
 lQtOpenGL
@@ -39726,18 +39724,6 @@ QTDIR
 include
 /
 QtNetwork
-"
-MOZ_QT_CFLAGS
-=
-"
-MOZ_QT_CFLAGS
--
-I
-QTDIR
-/
-include
-/
-QtDBus
 "
 MOZ_QT_CFLAGS
 =
