@@ -466,11 +466,6 @@ nsIDOMTouchList
 .
 *
 '
-'
-nsIDOMTouchEvent
-.
-*
-'
 #
 dom
 /

@@ -1175,6 +1175,10 @@ TimeRanges
 .
 webidl
 \
+TouchEvent
+.
+webidl
+\
 TransitionEvent
 .
 webidl
