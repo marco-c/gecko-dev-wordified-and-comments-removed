@@ -11050,12 +11050,10 @@ call
 EXPAND_LIBNAME_PATH
 js_static
 (
-DEPTH
+LIBXUL_DIST
 )
 /
-js
-/
-src
+lib
 )
 '
 MOZ_JS_SHARED_LIBS
