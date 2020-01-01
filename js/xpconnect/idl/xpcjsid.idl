@@ -456,6 +456,7 @@ nsID
 )
 ;
 [
+builtinclass
 scriptable
 uuid
 (
@@ -546,6 +547,7 @@ getID
 }
 ;
 [
+builtinclass
 scriptable
 uuid
 (
@@ -568,6 +570,7 @@ nsIJSID
 }
 ;
 [
+builtinclass
 scriptable
 uuid
 (
