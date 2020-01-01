@@ -3205,12 +3205,6 @@ mimeStream
 aPostDataStream
 )
 ;
-NS_ADDREF
-(
-*
-aPostDataStream
-)
-;
 }
 return
 rv
