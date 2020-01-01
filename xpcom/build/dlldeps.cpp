@@ -1454,11 +1454,6 @@ NS_NewWindowsRegKey
 nsnull
 )
 ;
-NS_SetDllDirectory
-(
-nsnull
-)
-;
 #
 if
 defined

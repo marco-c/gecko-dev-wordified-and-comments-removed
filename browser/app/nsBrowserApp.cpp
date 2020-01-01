@@ -84,9 +84,6 @@ h
 ifdef
 XP_WIN
 #
-define
-XRE_WANT_DLL_BLOCKLIST
-#
 include
 "
 nsWindowsWMain
@@ -318,6 +315,15 @@ argv
 ScopedLogging
 log
 ;
+#
+ifdef
+XRE_HAS_DLL_BLOCKLIST
+XRE_SetupDllBlocklist
+(
+)
+;
+#
+endif
 nsCOMPtr
 <
 nsILocalFile
