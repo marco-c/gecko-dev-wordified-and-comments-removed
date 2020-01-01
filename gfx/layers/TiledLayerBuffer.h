@@ -9,6 +9,14 @@ define
 TILEDLAYERBUFFER_TILE_SIZE
 256
 #
+ifdef
+ANDROID
+#
+define
+FORCE_BASICTILEDTHEBESLAYER
+#
+endif
+#
 include
 "
 nsRect
