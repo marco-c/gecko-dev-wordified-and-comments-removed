@@ -162,6 +162,15 @@ paddingBottom
 "
 6dip
 "
+android
+:
+background
+=
+"
+drawable
+/
+tab_row
+"
 >
 <
 LinearLayout

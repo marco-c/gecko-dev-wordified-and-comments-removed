@@ -148,6 +148,15 @@ gravity
 "
 center
 "
+android
+:
+background
+=
+"
+drawable
+/
+tab_row
+"
 >
 <
 RelativeLayout
