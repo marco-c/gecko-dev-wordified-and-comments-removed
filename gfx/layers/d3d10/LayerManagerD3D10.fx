@@ -222,11 +222,11 @@ MIN_MAG_MIP_LINEAR
 ;
 AddressU
 =
-Wrap
+Clamp
 ;
 AddressV
 =
-Wrap
+Clamp
 ;
 }
 ;
@@ -239,11 +239,11 @@ MIN_MAG_MIP_POINT
 ;
 AddressU
 =
-Wrap
+Clamp
 ;
 AddressV
 =
-Wrap
+Clamp
 ;
 }
 ;
