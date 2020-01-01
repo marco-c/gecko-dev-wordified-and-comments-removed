@@ -10300,7 +10300,6 @@ length
 =
 1
 )
-{
 return
 compileFlatSingleChar
 (
@@ -10309,7 +10308,9 @@ pos
 fails
 )
 ;
-}
+return
+JS_FALSE
+;
 case
 REOP_ALT
 :
