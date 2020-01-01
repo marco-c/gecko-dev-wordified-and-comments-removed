@@ -2407,6 +2407,9 @@ HashTableEntry
 other
 )
 {
+mozilla
+:
+:
 Swap
 (
 keyHash
@@ -2416,6 +2419,9 @@ other
 keyHash
 )
 ;
+mozilla
+:
+:
 Swap
 (
 mem
