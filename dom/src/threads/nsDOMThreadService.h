@@ -482,7 +482,7 @@ mThreadPool
 ;
 nsRefPtrHashtable
 <
-nsISupportsHashKey
+nsVoidPtrHashKey
 nsDOMWorkerPool
 >
 mPools
