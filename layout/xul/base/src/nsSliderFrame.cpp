@@ -2623,8 +2623,6 @@ PRInt32
 newpos
 =
 curpos
--
-minpos
 +
 change
 *

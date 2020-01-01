@@ -479,6 +479,10 @@ test_popup_preventdefault
 .
 xul
 \
+test_scale
+.
+xul
+\
 test_radio
 .
 xul
