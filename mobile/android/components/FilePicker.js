@@ -1198,7 +1198,7 @@ NS_ERROR_FAILURE
 ;
 }
 return
-map
+mapFunction
 (
 this
 .
