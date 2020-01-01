@@ -246,6 +246,11 @@ onAlertLoad
 (
 )
 {
+const
+ALERT_DURATION_IMMEDIATE
+=
+4000
+;
 if
 (
 gOrigin
@@ -430,7 +435,7 @@ disableSlidingEffect
 setTimeout
 (
 closeAlert
-4000
+ALERT_DURATION_IMMEDIATE
 )
 ;
 return
