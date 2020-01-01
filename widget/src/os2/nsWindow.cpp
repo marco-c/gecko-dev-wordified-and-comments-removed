@@ -2443,7 +2443,7 @@ Rollup
 inMsg
 =
 =
-WM_LBUTTONDOWN
+WM_BUTTON1DOWN
 ?
 &
 mLastRollup
