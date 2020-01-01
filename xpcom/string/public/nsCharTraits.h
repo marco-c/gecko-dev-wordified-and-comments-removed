@@ -2349,6 +2349,8 @@ last
 )
 {
 return
+PRUint32
+(
 last
 .
 get
@@ -2359,6 +2361,7 @@ first
 .
 get
 (
+)
 )
 ;
 }
