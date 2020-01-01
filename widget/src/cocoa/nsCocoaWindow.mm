@@ -1348,7 +1348,7 @@ nil
 ;
 [
 mWindow
-autorelease
+close
 ]
 ;
 [
@@ -2990,13 +2990,6 @@ NSMakeSize
 60
 60
 )
-]
-;
-[
-mWindow
-setReleasedWhenClosed
-:
-NO
 ]
 ;
 /
