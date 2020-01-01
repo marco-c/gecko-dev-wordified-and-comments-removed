@@ -576,7 +576,11 @@ h
 #
 include
 "
-nsHTMLVideoElement
+mozilla
+/
+dom
+/
+HTMLVideoElement
 .
 h
 "
@@ -13661,7 +13665,7 @@ img
 }
 else
 {
-nsHTMLVideoElement
+HTMLVideoElement
 *
 video
 =

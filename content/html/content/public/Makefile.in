@@ -118,10 +118,6 @@ nsFormSubmission
 .
 h
 \
-nsHTMLVideoElement
-.
-h
-\
 nsIHTMLCollection
 .
 h
@@ -148,6 +144,10 @@ HTMLMediaElement
 h
 \
 HTMLAudioElement
+.
+h
+\
+HTMLVideoElement
 .
 h
 \

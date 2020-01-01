@@ -346,7 +346,11 @@ MOZ_MEDIA
 #
 include
 "
-nsHTMLVideoElement
+mozilla
+/
+dom
+/
+HTMLVideoElement
 .
 h
 "
@@ -23122,7 +23126,7 @@ nsLayoutUtils
 :
 SurfaceFromElement
 (
-nsHTMLVideoElement
+HTMLVideoElement
 *
 aElement
 uint32_t
@@ -23446,11 +23450,11 @@ ifdef
 MOZ_MEDIA
 if
 (
-nsHTMLVideoElement
+HTMLVideoElement
 *
 video
 =
-nsHTMLVideoElement
+HTMLVideoElement
 :
 :
 FromContentOrNull

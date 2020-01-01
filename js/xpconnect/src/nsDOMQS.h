@@ -68,7 +68,11 @@ h
 #
 include
 "
-nsHTMLVideoElement
+mozilla
+/
+dom
+/
+HTMLVideoElement
 .
 h
 "
@@ -1044,7 +1048,13 @@ HTMLOptionElement
 DEFINE_UNWRAP_CAST_HTML
 (
 video
-nsHTMLVideoElement
+mozilla
+:
+:
+dom
+:
+:
+HTMLVideoElement
 )
 inline
 nsISupports
