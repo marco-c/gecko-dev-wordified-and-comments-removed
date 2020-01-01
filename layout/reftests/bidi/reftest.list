@@ -282,6 +282,16 @@ bidiSVG
 ref
 .
 svg
+=
+=
+bidiMirroring
+.
+svg
+bidiMirroring
+-
+ref
+.
+svg
 random
 -
 if
