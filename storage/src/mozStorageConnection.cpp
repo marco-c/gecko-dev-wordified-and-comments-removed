@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsHashSets
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h
