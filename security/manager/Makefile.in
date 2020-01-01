@@ -1988,6 +1988,8 @@ DIST
 bin
 endif
 endif
+ifndef
+MOZ_NATIVE_NSS
 #
 NSS
 installs
@@ -2088,6 +2090,7 @@ tar
 xf
 -
 )
+endif
 (
 MAKE
 )
