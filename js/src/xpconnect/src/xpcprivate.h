@@ -12922,8 +12922,6 @@ const
 nsXPTType
 &
 type
-JSBool
-useAllocator
 const
 nsID
 *
@@ -12978,8 +12976,6 @@ const
 nsXPTType
 &
 type
-JSBool
-useAllocator
 uintN
 *
 pErr
