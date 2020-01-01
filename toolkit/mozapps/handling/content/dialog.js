@@ -114,7 +114,7 @@ updateOKButton
 (
 )
 ;
-let
+var
 description
 =
 {
@@ -144,7 +144,7 @@ text
 )
 }
 ;
-let
+var
 options
 =
 document
@@ -160,7 +160,7 @@ text
 "
 )
 ;
-let
+var
 checkbox
 =
 {
@@ -293,7 +293,7 @@ populateList
 (
 )
 {
-let
+var
 app
 =
 this
@@ -532,7 +532,7 @@ chooseApplication
 (
 )
 {
-let
+var
 bundle
 =
 document
@@ -546,7 +546,7 @@ strings
 "
 )
 ;
-let
+var
 title
 =
 bundle
@@ -562,7 +562,7 @@ title
 "
 )
 ;
-let
+var
 fp
 =
 Cc
@@ -812,7 +812,7 @@ onAccept
 (
 )
 {
-let
+var
 checkbox
 =
 document
@@ -891,7 +891,7 @@ checkbox
 .
 checked
 ;
-let
+var
 hs
 =
 Cc
