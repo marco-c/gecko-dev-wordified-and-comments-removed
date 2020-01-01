@@ -2207,14 +2207,15 @@ index
 }
 static
 void
+JS_DLL_CALLBACK
 TraceJS
 (
 JSTracer
 *
 trc
-XPCJSRuntime
+void
 *
-self
+data
 )
 ;
 static
