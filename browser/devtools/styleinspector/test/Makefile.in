@@ -508,6 +508,14 @@ browser_bug705707_is_content_stylesheet
 .
 js
 \
+browser_bug722196_property_view_media_queries
+.
+js
+\
+browser_bug722196_rule_view_media_queries
+.
+js
+\
 browser_bug_592743_specificity
 .
 js
@@ -553,6 +561,10 @@ xul
 browser_bug705707_is_content_stylesheet_xul
 .
 css
+\
+browser_bug722196_identify_media_queries
+.
+html
 \
 (
 NULL

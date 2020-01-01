@@ -1356,11 +1356,10 @@ EmitGeckoAccessibilityEvent
 PRInt32
 eventType
 const
-nsAString
-&
-role
-const
-nsAString
+nsTArray
+<
+nsString
+>
 &
 text
 const
@@ -1976,6 +1975,9 @@ jFlexSurfaceView
 ;
 jmethodID
 jRegisterCompositorMethod
+;
+jclass
+jStringClass
 ;
 int
 (
