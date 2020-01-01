@@ -1415,6 +1415,9 @@ msg
 )
 {
 case
+SELECTED
+:
+case
 LOCATION_CHANGE
 :
 if
