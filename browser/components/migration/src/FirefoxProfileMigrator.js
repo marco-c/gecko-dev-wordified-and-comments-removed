@@ -50,7 +50,7 @@ defineLazyModuleGetter
 (
 this
 "
-PlacesUtils
+PlacesBackups
 "
 "
 resource
@@ -61,7 +61,7 @@ gre
 /
 modules
 /
-PlacesUtils
+PlacesBackups
 .
 jsm
 "
@@ -375,9 +375,7 @@ types
 .
 OTHERDATA
 [
-PlacesUtils
-.
-backups
+PlacesBackups
 .
 profileRelativeFolderPath
 ]
