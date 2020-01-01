@@ -14420,8 +14420,10 @@ MOZ_GUARD_OBJECT_NOTIFIER_INIT
 bool
 StartEvaluating
 (
-JSObject
-*
+JS
+:
+:
+HandleObject
 scope
 JSErrorReporter
 errorReporter
