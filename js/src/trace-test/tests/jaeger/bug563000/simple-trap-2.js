@@ -1,8 +1,3 @@
-setDebug
-(
-true
-)
-;
 var
 x
 =
