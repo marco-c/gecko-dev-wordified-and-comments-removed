@@ -676,7 +676,7 @@ IsChildProcess
 )
 )
 {
-nsTArray
+InfallibleTArray
 <
 IPC
 :

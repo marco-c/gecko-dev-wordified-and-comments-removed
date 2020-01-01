@@ -22,7 +22,7 @@ IPDLUnitTests
 h
 "
 typedef
-nsTArray
+InfallibleTArray
 <
 nsIntRegion
 >
@@ -69,12 +69,12 @@ static
 void
 assert_arrays_equal
 (
-nsTArray
+InfallibleTArray
 <
 T
 >
 a
-nsTArray
+InfallibleTArray
 <
 T
 >
@@ -303,13 +303,13 @@ TestDataStructuresParent
 RecvTest1
 (
 const
-nsTArray
+InfallibleTArray
 <
 int
 >
 &
 ia
-nsTArray
+InfallibleTArray
 <
 int
 >
@@ -379,14 +379,14 @@ TestDataStructuresParent
 RecvTest2
 (
 const
-nsTArray
+InfallibleTArray
 <
 PTestDataStructuresSubParent
 *
 >
 &
 i1
-nsTArray
+InfallibleTArray
 <
 PTestDataStructuresSubParent
 *
@@ -538,13 +538,13 @@ TestDataStructuresParent
 RecvTest4
 (
 const
-nsTArray
+InfallibleTArray
 <
 IntDouble
 >
 &
 i1
-nsTArray
+InfallibleTArray
 <
 IntDouble
 >
@@ -703,7 +703,7 @@ value
 )
 ;
 const
-nsTArray
+InfallibleTArray
 <
 int
 >
@@ -778,7 +778,7 @@ value
 )
 ;
 const
-nsTArray
+InfallibleTArray
 <
 double
 >
@@ -884,13 +884,13 @@ TestDataStructuresParent
 RecvTest6
 (
 const
-nsTArray
+InfallibleTArray
 <
 IntDoubleArrays
 >
 &
 i1
-nsTArray
+InfallibleTArray
 <
 IntDoubleArrays
 >
@@ -939,7 +939,7 @@ value
 "
 )
 ;
-nsTArray
+InfallibleTArray
 <
 int
 >
@@ -1015,7 +1015,7 @@ value
 "
 )
 ;
-nsTArray
+InfallibleTArray
 <
 double
 >
@@ -1176,7 +1176,7 @@ value
 "
 )
 ;
-nsTArray
+InfallibleTArray
 <
 int
 >
@@ -1286,13 +1286,13 @@ TestDataStructuresParent
 RecvTest8
 (
 const
-nsTArray
+InfallibleTArray
 <
 Actors
 >
 &
 i1
-nsTArray
+InfallibleTArray
 <
 Actors
 >
@@ -1336,7 +1336,7 @@ value
 )
 ;
 const
-nsTArray
+InfallibleTArray
 <
 int
 >
@@ -1488,7 +1488,7 @@ value
 )
 ;
 const
-nsTArray
+InfallibleTArray
 <
 int
 >
@@ -1573,7 +1573,7 @@ get_ArrayOfPTestDataStructuresSubParent
 )
 ;
 const
-nsTArray
+InfallibleTArray
 <
 PTestDataStructuresSubParent
 *
@@ -1631,13 +1631,13 @@ TestDataStructuresParent
 RecvTest10
 (
 const
-nsTArray
+InfallibleTArray
 <
 Unions
 >
 &
 i1
-nsTArray
+InfallibleTArray
 <
 Unions
 >
@@ -1665,7 +1665,7 @@ value
 )
 ;
 const
-nsTArray
+InfallibleTArray
 <
 int
 >
@@ -1756,7 +1756,7 @@ get_ArrayOfPTestDataStructuresSubParent
 )
 ;
 const
-nsTArray
+InfallibleTArray
 <
 PTestDataStructuresSubParent
 *
@@ -1868,7 +1868,7 @@ SIntDoubleArrays
 o
 )
 {
-nsTArray
+InfallibleTArray
 <
 int
 >
@@ -1895,7 +1895,7 @@ AppendElement
 3
 )
 ;
-nsTArray
+InfallibleTArray
 <
 double
 >
@@ -1987,7 +1987,7 @@ SActors
 o
 )
 {
-nsTArray
+InfallibleTArray
 <
 int
 >
@@ -2074,7 +2074,7 @@ Structs
 o
 )
 {
-nsTArray
+InfallibleTArray
 <
 int
 >
@@ -2239,7 +2239,7 @@ WithStructs
 o5
 )
 {
-nsTArray
+InfallibleTArray
 <
 int
 >
@@ -2511,7 +2511,7 @@ value
 "
 )
 ;
-nsTArray
+InfallibleTArray
 <
 int
 >
@@ -2576,7 +2576,7 @@ get_ArrayOfPTestDataStructuresSubParent
 )
 ;
 const
-nsTArray
+InfallibleTArray
 <
 Unions
 >
@@ -2666,7 +2666,7 @@ TestDataStructuresParent
 RecvTest17
 (
 const
-nsTArray
+InfallibleTArray
 <
 Op
 >
@@ -2950,7 +2950,7 @@ Test1
 (
 )
 {
-nsTArray
+InfallibleTArray
 <
 int
 >
@@ -2978,7 +2978,7 @@ AppendElement
 i
 )
 ;
-nsTArray
+InfallibleTArray
 <
 int
 >
@@ -3032,7 +3032,7 @@ Test2
 (
 )
 {
-nsTArray
+InfallibleTArray
 <
 PTestDataStructuresSubChild
 *
@@ -3178,7 +3178,7 @@ Test4
 (
 )
 {
-nsTArray
+InfallibleTArray
 <
 IntDouble
 >
@@ -3234,7 +3234,7 @@ IntDouble
 )
 )
 ;
-nsTArray
+InfallibleTArray
 <
 IntDouble
 >
@@ -3391,7 +3391,7 @@ int
 )
 )
 ;
-nsTArray
+InfallibleTArray
 <
 int
 >
@@ -3418,7 +3418,7 @@ AppendElement
 3
 )
 ;
-nsTArray
+InfallibleTArray
 <
 double
 >
@@ -3555,7 +3555,7 @@ int
 )
 )
 ;
-nsTArray
+InfallibleTArray
 <
 int
 >
@@ -3582,7 +3582,7 @@ AppendElement
 3
 )
 ;
-nsTArray
+InfallibleTArray
 <
 double
 >
@@ -3615,7 +3615,7 @@ AppendElement
 0
 )
 ;
-nsTArray
+InfallibleTArray
 <
 IntDoubleArrays
 >
@@ -3648,7 +3648,7 @@ id3
 )
 )
 ;
-nsTArray
+InfallibleTArray
 <
 IntDoubleArrays
 >
@@ -3700,7 +3700,7 @@ o1
 ]
 )
 ;
-nsTArray
+InfallibleTArray
 <
 int
 >
@@ -3715,7 +3715,7 @@ get_ArrayOfint
 (
 )
 ;
-nsTArray
+InfallibleTArray
 <
 double
 >
@@ -3785,7 +3785,7 @@ i1
 42
 )
 ;
-nsTArray
+InfallibleTArray
 <
 int
 >
@@ -3913,7 +3913,7 @@ i1e
 42
 )
 ;
-nsTArray
+InfallibleTArray
 <
 int
 >
@@ -3940,7 +3940,7 @@ AppendElement
 3
 )
 ;
-nsTArray
+InfallibleTArray
 <
 Actors
 >
@@ -3967,7 +3967,7 @@ AppendElement
 mKids
 )
 ;
-nsTArray
+InfallibleTArray
 <
 Actors
 >
@@ -4085,7 +4085,7 @@ int
 )
 )
 ;
-nsTArray
+InfallibleTArray
 <
 int
 >
@@ -4112,7 +4112,7 @@ AppendElement
 3
 )
 ;
-nsTArray
+InfallibleTArray
 <
 Actors
 >
@@ -4253,7 +4253,7 @@ int
 )
 )
 ;
-nsTArray
+InfallibleTArray
 <
 int
 >
@@ -4280,7 +4280,7 @@ AppendElement
 3
 )
 ;
-nsTArray
+InfallibleTArray
 <
 Actors
 >
@@ -4293,7 +4293,7 @@ AppendElement
 mKids
 )
 ;
-nsTArray
+InfallibleTArray
 <
 Unions
 >
@@ -4336,7 +4336,7 @@ i4a
 )
 )
 ;
-nsTArray
+InfallibleTArray
 <
 Unions
 >
@@ -4544,7 +4544,7 @@ Test12
 (
 )
 {
-nsTArray
+InfallibleTArray
 <
 int
 >
@@ -4571,7 +4571,7 @@ AppendElement
 3
 )
 ;
-nsTArray
+InfallibleTArray
 <
 double
 >
@@ -4689,7 +4689,7 @@ Test13
 (
 )
 {
-nsTArray
+InfallibleTArray
 <
 int
 >
@@ -4824,7 +4824,7 @@ Test14
 (
 )
 {
-nsTArray
+InfallibleTArray
 <
 int
 >
@@ -4878,7 +4878,7 @@ apChild
 =
 mKids
 ;
-nsTArray
+InfallibleTArray
 <
 SActors
 >
@@ -5057,7 +5057,7 @@ Test15
 (
 )
 {
-nsTArray
+InfallibleTArray
 <
 int
 >
@@ -5111,7 +5111,7 @@ apChild
 =
 mKids
 ;
-nsTArray
+InfallibleTArray
 <
 SActors
 >
@@ -5159,7 +5159,7 @@ aa
 =
 iaa
 ;
-nsTArray
+InfallibleTArray
 <
 Structs
 >
@@ -5441,7 +5441,7 @@ i
 =
 42
 ;
-nsTArray
+InfallibleTArray
 <
 int
 >
@@ -5484,7 +5484,7 @@ apChild
 =
 mKids
 ;
-nsTArray
+InfallibleTArray
 <
 Actors
 >
@@ -5505,7 +5505,7 @@ aa
 =
 iaa
 ;
-nsTArray
+InfallibleTArray
 <
 Unions
 >
@@ -5632,7 +5632,7 @@ mKids
 )
 ;
 const
-nsTArray
+InfallibleTArray
 <
 Unions
 >
@@ -5754,7 +5754,7 @@ BarAttrs
 0f
 )
 ;
-nsTArray
+InfallibleTArray
 <
 Op
 >

@@ -1184,7 +1184,7 @@ ShadowLayerForwarder
 :
 EndTransaction
 (
-nsTArray
+InfallibleTArray
 <
 EditReply
 >
@@ -1541,7 +1541,7 @@ attrs
 )
 ;
 }
-nsAutoTArray
+AutoInfallibleTArray
 <
 Edit
 10

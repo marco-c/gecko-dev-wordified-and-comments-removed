@@ -225,7 +225,7 @@ JSObject
 globalp
 )
 {
-nsTArray
+InfallibleTArray
 <
 PContextWrapperParent
 *

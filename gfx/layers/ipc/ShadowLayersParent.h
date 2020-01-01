@@ -51,14 +51,14 @@ RenderFrameParent
 RenderFrameParent
 ;
 typedef
-nsTArray
+InfallibleTArray
 <
 Edit
 >
 EditArray
 ;
 typedef
-nsTArray
+InfallibleTArray
 <
 EditReply
 >

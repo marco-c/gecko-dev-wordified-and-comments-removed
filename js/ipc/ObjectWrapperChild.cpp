@@ -1838,7 +1838,7 @@ JSPROP_SHARED
 )
 ;
 }
-nsTArray
+InfallibleTArray
 <
 nsString
 >
@@ -1868,7 +1868,7 @@ false
 strIds
 =
 new
-nsTArray
+InfallibleTArray
 <
 nsString
 >
@@ -2049,7 +2049,7 @@ state
 return
 false
 ;
-nsTArray
+InfallibleTArray
 <
 nsString
 >
@@ -2058,7 +2058,7 @@ strIds
 =
 static_cast
 <
-nsTArray
+InfallibleTArray
 <
 nsString
 >
@@ -2091,7 +2091,7 @@ v
 return
 false
 ;
-jsint
+jsuint
 i
 =
 JSVAL_TO_INT
@@ -2139,7 +2139,10 @@ large
 ;
 if
 (
+jsuint
+(
 i
+)
 =
 =
 strIds
@@ -2502,7 +2505,7 @@ PObjectWrapperChild
 *
 receiver
 const
-nsTArray
+InfallibleTArray
 <
 JSVariant
 >
@@ -2682,7 +2685,7 @@ ObjectWrapperChild
 AnswerConstruct
 (
 const
-nsTArray
+InfallibleTArray
 <
 JSVariant
 >

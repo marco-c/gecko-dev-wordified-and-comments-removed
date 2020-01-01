@@ -217,14 +217,14 @@ uint16_t
 &
 aMode
 const
-nsTArray
+InfallibleTArray
 <
 nsCString
 >
 &
 aNames
 const
-nsTArray
+InfallibleTArray
 <
 nsCString
 >

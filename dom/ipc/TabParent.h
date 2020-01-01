@@ -246,7 +246,7 @@ const
 nsString
 &
 aJSON
-nsTArray
+InfallibleTArray
 <
 nsString
 >
@@ -399,14 +399,14 @@ nsCString
 &
 aFeatures
 const
-nsTArray
+InfallibleTArray
 <
 int
 >
 &
 aIntParams
 const
-nsTArray
+InfallibleTArray
 <
 nsString
 >
@@ -677,7 +677,7 @@ const
 nsString
 &
 aJSON
-nsTArray
+InfallibleTArray
 <
 nsString
 >
@@ -770,7 +770,7 @@ mParams
 ;
 }
 ;
-nsTArray
+InfallibleTArray
 <
 DelayedDialogData
 *

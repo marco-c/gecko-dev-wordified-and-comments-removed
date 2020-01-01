@@ -113,7 +113,7 @@ nsString
 &
 messageName
 const
-nsTArray
+InfallibleTArray
 <
 Variant
 >

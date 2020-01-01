@@ -56,7 +56,7 @@ str
 ;
 }
 static
-nsTArray
+InfallibleTArray
 <
 JSONVariant
 >
@@ -64,7 +64,7 @@ Array123
 (
 )
 {
-nsTArray
+InfallibleTArray
 <
 JSONVariant
 >
@@ -123,7 +123,7 @@ HandleT
 handle
 )
 {
-nsTArray
+InfallibleTArray
 <
 JSONVariant
 >
@@ -192,7 +192,7 @@ Array123
 )
 )
 ;
-nsTArray
+InfallibleTArray
 <
 KeyValue
 >

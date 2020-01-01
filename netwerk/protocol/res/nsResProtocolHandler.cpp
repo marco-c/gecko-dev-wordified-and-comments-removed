@@ -918,7 +918,7 @@ nsResProtocolHandler
 :
 CollectSubstitutions
 (
-nsTArray
+InfallibleTArray
 <
 ResourceMapping
 >

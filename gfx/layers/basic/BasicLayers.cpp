@@ -10654,7 +10654,7 @@ PHASE_FORWARD
 ;
 #
 endif
-nsAutoTArray
+AutoInfallibleTArray
 <
 EditReply
 10

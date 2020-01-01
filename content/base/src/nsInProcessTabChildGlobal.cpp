@@ -110,7 +110,7 @@ const
 nsAString
 &
 aJSON
-nsTArray
+InfallibleTArray
 <
 nsString
 >

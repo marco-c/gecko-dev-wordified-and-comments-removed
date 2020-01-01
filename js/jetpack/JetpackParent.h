@@ -101,7 +101,7 @@ nsString
 &
 messageName
 const
-nsTArray
+InfallibleTArray
 <
 Variant
 >
@@ -119,13 +119,13 @@ nsString
 &
 messageName
 const
-nsTArray
+InfallibleTArray
 <
 Variant
 >
 &
 data
-nsTArray
+InfallibleTArray
 <
 Variant
 >

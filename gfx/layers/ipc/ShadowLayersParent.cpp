@@ -363,13 +363,13 @@ ShadowLayersParent
 RecvUpdate
 (
 const
-nsTArray
+InfallibleTArray
 <
 Edit
 >
 &
 cset
-nsTArray
+InfallibleTArray
 <
 EditReply
 >

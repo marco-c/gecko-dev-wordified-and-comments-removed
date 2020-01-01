@@ -306,7 +306,7 @@ aNewFrontSurface
 PRBool
 EndTransaction
 (
-nsTArray
+InfallibleTArray
 <
 EditReply
 >
