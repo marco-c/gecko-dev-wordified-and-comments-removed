@@ -1087,7 +1087,7 @@ false
 }
 static
 bool
-UsingArabicScriptSystemLocale
+UsingArabicOrHebrewScriptSystemLocale
 (
 )
 {
@@ -1128,6 +1128,9 @@ LANG_UIGHUR
 :
 case
 LANG_URDU
+:
+case
+LANG_HEBREW
 :
 return
 true
@@ -1184,7 +1187,7 @@ UseGDIFontTableAccess
 mItalic
 &
 &
-UsingArabicScriptSystemLocale
+UsingArabicOrHebrewScriptSystemLocale
 (
 )
 )
