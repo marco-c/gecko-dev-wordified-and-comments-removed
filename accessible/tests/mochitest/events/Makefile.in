@@ -597,6 +597,10 @@ test_mutation
 .
 xhtml
 \
+test_scroll
+.
+xul
+\
 test_selection_aria
 .
 html
