@@ -1355,7 +1355,7 @@ MarkId
 JSTracer
 *
 trc
-HeapId
+EncapsulatedId
 *
 id
 const
