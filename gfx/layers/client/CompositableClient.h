@@ -119,7 +119,7 @@ class
 CompositableClient
 :
 public
-RefCounted
+AtomicRefCounted
 <
 CompositableClient
 >
