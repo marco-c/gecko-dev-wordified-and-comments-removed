@@ -65,11 +65,15 @@ nsSVGPathGeometryFrameBase
 #
 define
 HITTEST_MASK_FILL
-1
+0x01
 #
 define
 HITTEST_MASK_STROKE
-2
+0x02
+#
+define
+HITTEST_MASK_FORCE_TEST
+0x04
 class
 nsSVGPathGeometryFrame
 :

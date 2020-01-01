@@ -1087,6 +1087,15 @@ if
 mask
 |
 |
+(
+!
+(
+mask
+&
+HITTEST_MASK_FORCE_TEST
+)
+&
+&
 !
 mRect
 .
@@ -1094,6 +1103,7 @@ Contains
 (
 x
 y
+)
 )
 )
 return
@@ -2663,6 +2673,8 @@ mask
 |
 =
 HITTEST_MASK_FILL
+|
+HITTEST_MASK_FORCE_TEST
 ;
 }
 break
@@ -2686,6 +2698,8 @@ mask
 |
 =
 HITTEST_MASK_STROKE
+|
+HITTEST_MASK_FORCE_TEST
 ;
 }
 break
@@ -2709,11 +2723,10 @@ mask
 |
 =
 HITTEST_MASK_FILL
-;
-mask
 |
-=
 HITTEST_MASK_STROKE
+|
+HITTEST_MASK_FORCE_TEST
 ;
 }
 break
@@ -2768,6 +2781,8 @@ mask
 |
 =
 HITTEST_MASK_FILL
+|
+HITTEST_MASK_FORCE_TEST
 ;
 break
 ;
@@ -2778,6 +2793,8 @@ mask
 |
 =
 HITTEST_MASK_STROKE
+|
+HITTEST_MASK_FORCE_TEST
 ;
 break
 ;
@@ -2788,11 +2805,10 @@ mask
 |
 =
 HITTEST_MASK_FILL
-;
-mask
 |
-=
 HITTEST_MASK_STROKE
+|
+HITTEST_MASK_FORCE_TEST
 ;
 break
 ;
