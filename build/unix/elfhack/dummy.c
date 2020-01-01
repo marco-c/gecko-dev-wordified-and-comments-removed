@@ -8,6 +8,7 @@ visibility
 default
 "
 )
+weak
 )
 )
 int
