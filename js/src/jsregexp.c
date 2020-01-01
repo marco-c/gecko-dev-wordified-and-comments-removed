@@ -18094,7 +18094,6 @@ js_NewStringCopyN
 cx
 cp
 matchlen
-0
 )
 ;
 if
@@ -18546,7 +18545,6 @@ parsub
 -
 >
 length
-0
 )
 ;
 if
@@ -19554,7 +19552,6 @@ sub
 -
 >
 length
-0
 )
 ;
 if
@@ -22343,7 +22340,6 @@ js_NewStringCopyN
 cx
 chars
 length
-0
 )
 ;
 if

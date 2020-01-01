@@ -1752,8 +1752,6 @@ size_t
 start
 size_t
 length
-uintN
-gcflag
 )
 ;
 extern
@@ -1770,8 +1768,6 @@ jschar
 s
 size_t
 n
-uintN
-gcflag
 )
 ;
 extern
@@ -1786,8 +1782,6 @@ const
 jschar
 *
 s
-uintN
-gcflag
 )
 ;
 extern
