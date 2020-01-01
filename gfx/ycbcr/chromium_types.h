@@ -152,7 +152,7 @@ ARCH_CPU_64_BITS
 #
 else
 #
-error
+warning
 Please
 add
 support
