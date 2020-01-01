@@ -211,13 +211,6 @@ h
 #
 include
 "
-nsCSSPseudoElements
-.
-h
-"
-#
-include
-"
 nsCSSAnonBoxes
 .
 h
@@ -4783,7 +4776,7 @@ styleSet
 ResolvePseudoStyleFor
 (
 mContent
-nsCSSPseudoElements
+nsCSSAnonBoxes
 :
 :
 horizontalFramesetBorder
@@ -4987,7 +4980,7 @@ styleSet
 ResolvePseudoStyleFor
 (
 mContent
-nsCSSPseudoElements
+nsCSSAnonBoxes
 :
 :
 verticalFramesetBorder
