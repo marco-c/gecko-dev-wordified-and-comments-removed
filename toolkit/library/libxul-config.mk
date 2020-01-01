@@ -961,6 +961,7 @@ ifeq
 (
 (
 filter
+android
 qt
 beos
 os2
