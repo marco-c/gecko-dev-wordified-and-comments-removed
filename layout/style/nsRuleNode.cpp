@@ -17079,6 +17079,8 @@ mTextIndent
 SETCOORD_LPH
 |
 SETCOORD_INITIAL_ZERO
+|
+SETCOORD_STORE_CALC
 aContext
 mPresContext
 canStoreInRuleTree
@@ -17327,6 +17329,8 @@ mVerticalAlign
 SETCOORD_LPH
 |
 SETCOORD_ENUMERATED
+|
+SETCOORD_STORE_CALC
 aContext
 mPresContext
 canStoreInRuleTree
