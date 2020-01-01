@@ -32563,7 +32563,7 @@ timeLeft
 timeLeft
 this
 .
-_lastSec
+_lastTime
 ]
 =
 DownloadUtils
@@ -32573,7 +32573,7 @@ getTimeLeft
 maxTime
 this
 .
-_lastSec
+_lastTime
 )
 ;
 let
