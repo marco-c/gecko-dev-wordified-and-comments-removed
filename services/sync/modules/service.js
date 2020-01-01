@@ -10759,12 +10759,6 @@ resetClient
 engines
 )
 ;
-CollectionKeys
-.
-clear
-(
-)
-;
 this
 .
 wipeServer
@@ -10808,12 +10802,6 @@ wipeAll
 "
 [
 ]
-)
-;
-this
-.
-generateNewSymmetricKeys
-(
 )
 ;
 Clients
