@@ -3672,3 +3672,10 @@ components
 MozKeyboard
 .
 js
+BINPATH
+/
+components
+/
+DirectoryProvider
+.
+js
