@@ -435,10 +435,6 @@ nsColorID
 sListboxBorderColorID
 ;
 static
-PRBool
-sListboxBGTransparent
-;
-static
 nsILookAndFeel
 :
 :
