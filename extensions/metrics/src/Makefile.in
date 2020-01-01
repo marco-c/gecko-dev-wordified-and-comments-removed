@@ -463,7 +463,9 @@ layout
 \
 widget
 \
-libbz2
+(
+BZ2_REQUIRES
+)
 \
 xulapp
 \
