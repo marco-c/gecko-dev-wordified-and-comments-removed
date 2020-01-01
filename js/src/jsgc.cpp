@@ -14482,11 +14482,6 @@ rt
 }
 #
 endif
-js_DisablePropertyCache
-(
-cx
-)
-;
 js_FlushPropertyCache
 (
 cx
@@ -14589,11 +14584,6 @@ thread
 -
 >
 gsnCache
-)
-;
-js_DisablePropertyCache
-(
-acx
 )
 ;
 js_FlushPropertyCache
@@ -15781,8 +15771,6 @@ restart
 }
 if
 (
-!
-(
 rt
 -
 >
@@ -15790,9 +15778,8 @@ shapeGen
 &
 SHAPE_OVERFLOW_BIT
 )
-)
 {
-js_EnablePropertyCache
+js_DisablePropertyCache
 (
 cx
 )
@@ -15844,7 +15831,7 @@ thread
 )
 continue
 ;
-js_EnablePropertyCache
+js_DisablePropertyCache
 (
 acx
 )
