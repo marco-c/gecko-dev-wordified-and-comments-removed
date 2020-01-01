@@ -463,11 +463,6 @@ struct
 JSTracer
 JSTracer
 ;
-typedef
-struct
-JSXDRState
-JSXDRState
-;
 #
 ifdef
 __cplusplus
