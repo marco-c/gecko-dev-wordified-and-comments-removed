@@ -523,6 +523,8 @@ payloadReg
 )
 )
 ;
+break
+;
 case
 JSOP_URSH
 :
@@ -590,6 +592,7 @@ payloadReg
 )
 )
 ;
+break
 default
 :
 JS_NOT_REACHED
