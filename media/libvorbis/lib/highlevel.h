@@ -21,6 +21,7 @@ typedef
 struct
 highlevel_encode_setup
 {
+const
 void
 *
 setup

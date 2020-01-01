@@ -376,6 +376,7 @@ vorbis_lookup
 c
 "
 static
+const
 int
 MLOOP_1
 [
@@ -450,6 +451,7 @@ MLOOP_1
 }
 ;
 static
+const
 int
 MLOOP_2
 [
@@ -524,6 +526,7 @@ MLOOP_2
 }
 ;
 static
+const
 int
 MLOOP_3
 [

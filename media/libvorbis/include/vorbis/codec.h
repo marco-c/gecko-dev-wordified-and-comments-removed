@@ -287,6 +287,7 @@ vorbis_comment_add
 vorbis_comment
 *
 vc
+const
 char
 *
 comment
@@ -299,9 +300,11 @@ vorbis_comment_add_tag
 vorbis_comment
 *
 vc
+const
 char
 *
 tag
+const
 char
 *
 contents
@@ -315,6 +318,7 @@ vorbis_comment_query
 vorbis_comment
 *
 vc
+const
 char
 *
 tag
@@ -329,6 +333,7 @@ vorbis_comment_query_count
 vorbis_comment
 *
 vc
+const
 char
 *
 tag
@@ -391,6 +396,15 @@ vorbis_dsp_state
 v
 ogg_int64_t
 granulepos
+)
+;
+extern
+const
+char
+*
+vorbis_version_string
+(
+void
 )
 ;
 extern

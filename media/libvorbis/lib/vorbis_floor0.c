@@ -1303,6 +1303,7 @@ return
 )
 ;
 }
+const
 vorbis_func_floor
 floor0_exportbundle
 =

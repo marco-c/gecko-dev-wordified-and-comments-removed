@@ -286,6 +286,9 @@ ogg_int64_t
 off
 )
 {
+#
+if
+0
 int
 j
 ;
@@ -505,6 +508,8 @@ fclose
 of
 )
 ;
+#
+endif
 }
 void
 _analysis_output

@@ -19,6 +19,15 @@ os
 h
 "
 #
+ifdef
+_MSC_VER
+#
+define
+inline
+__inline
+#
+endif
+#
 define
 VORBIS_IEEE_FLOAT32
 1
@@ -26,6 +35,7 @@ VORBIS_IEEE_FLOAT32
 ifdef
 VORBIS_IEEE_FLOAT32
 static
+inline
 float
 unitnorm
 (
@@ -73,6 +83,7 @@ f
 ;
 }
 static
+inline
 float
 todB
 (

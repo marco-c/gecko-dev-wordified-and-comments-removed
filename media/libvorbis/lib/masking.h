@@ -9,6 +9,7 @@ define
 MAX_ATH
 88
 static
+const
 float
 ATH
 [
@@ -202,6 +203,7 @@ define
 EHMER_MAX
 56
 static
+const
 float
 tonemasks
 [

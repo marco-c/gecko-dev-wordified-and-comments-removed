@@ -71,6 +71,9 @@ malloc
 .
 m
 "
+#
+undef
+_VDBG_GRAPHFILE
 extern
 void
 *

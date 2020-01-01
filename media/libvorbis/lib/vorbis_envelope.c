@@ -726,8 +726,6 @@ bands
 envelope_filter_state
 *
 filters
-long
-pos
 )
 {
 long
@@ -1750,7 +1748,6 @@ filter
 i
 *
 VE_BANDS
-j
 )
 ;
 }

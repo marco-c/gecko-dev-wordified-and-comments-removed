@@ -388,12 +388,14 @@ booklist
 256
 ]
 ;
+const
 float
 classmetric1
 [
 64
 ]
 ;
+const
 float
 classmetric2
 [
