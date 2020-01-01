@@ -175,7 +175,7 @@ aRt
 mRt
 )
 {
-js_RemoveRoot
+JS_RemoveValueRootRT
 (
 mRt
 &
