@@ -101,7 +101,15 @@ SurfaceTypeWin32Printing
 SurfaceTypeQuartzImage
 SurfaceTypeScript
 SurfaceTypeQPainter
+SurfaceTypeRecording
+SurfaceTypeVG
+SurfaceTypeGL
+SurfaceTypeDRM
+SurfaceTypeTee
+SurfaceTypeXML
+SurfaceTypeSkia
 SurfaceTypeDDraw
+SurfaceTypeD2D
 SurfaceTypeMax
 }
 gfxSurfaceType
