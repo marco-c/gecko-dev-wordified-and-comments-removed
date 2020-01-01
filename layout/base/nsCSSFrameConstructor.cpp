@@ -36571,11 +36571,6 @@ nsLayoutUtils
 GetStyleFrame
 (
 content
--
->
-GetPrimaryFrame
-(
-)
 )
 -
 >
