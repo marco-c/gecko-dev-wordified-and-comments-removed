@@ -180,6 +180,10 @@ EISDIR
 21
 #
 define
+EINVAL
+22
+#
+define
 ENFILE
 23
 #
@@ -218,6 +222,10 @@ EPIPE
 define
 EDOM
 33
+#
+define
+ERANGE
+34
 #
 define
 EDEADLK
