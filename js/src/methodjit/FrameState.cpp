@@ -12791,6 +12791,12 @@ oldType
 !
 =
 JSVAL_TYPE_DOUBLE
+&
+&
+oldType
+!
+=
+JSVAL_TYPE_UNDEFINED
 ;
 forgetEntry
 (
