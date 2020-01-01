@@ -280,6 +280,15 @@ JSObject
 aCallback
 )
 {
+MOZ_ASSERT
+(
+aCallback
+&
+&
+!
+mCallback
+)
+;
 mCallback
 =
 aCallback
