@@ -7,7 +7,7 @@ nsTextEditUtils_h__
 #
 include
 "
-nsError
+nscore
 .
 h
 "

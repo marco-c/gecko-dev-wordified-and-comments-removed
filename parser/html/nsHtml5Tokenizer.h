@@ -446,9 +446,6 @@ nsHtml5HtmlAttributes
 *
 attributes
 ;
-PRInt32
-mappingLangToXmlLang
-;
 bool
 shouldSuspend
 ;

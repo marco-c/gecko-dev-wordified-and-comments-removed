@@ -615,6 +615,15 @@ SharedImage
 aFront
 )
 ;
+void
+UploadSharedYUVToTexture
+(
+const
+YUVImage
+&
+yuv
+)
+;
 nsRefPtr
 <
 TextureImage

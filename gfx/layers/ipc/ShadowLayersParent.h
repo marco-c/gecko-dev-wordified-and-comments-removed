@@ -90,6 +90,8 @@ aManager
 ShadowLayersManager
 *
 aLayersManager
+uint64_t
+aId
 )
 ;
 ~
@@ -111,6 +113,16 @@ const
 {
 return
 mLayerManager
+;
+}
+uint64_t
+GetId
+(
+)
+const
+{
+return
+mId
 ;
 }
 ContainerLayer
@@ -255,6 +267,9 @@ nsRefPtr
 ContainerLayer
 >
 mRoot
+;
+uint64_t
+mId
 ;
 bool
 mDestroyed

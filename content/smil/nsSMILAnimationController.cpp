@@ -2673,6 +2673,10 @@ nsDependentAtomString
 (
 attributeName
 )
+nsCSSProps
+:
+:
+eEnabled
 )
 ;
 isCSS

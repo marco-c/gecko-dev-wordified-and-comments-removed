@@ -64,6 +64,13 @@ h
 #
 include
 "
+nsIDOMCharacterData
+.
+h
+"
+#
+include
+"
 nsIDOMDocument
 .
 h
@@ -6813,7 +6820,6 @@ nsTextControlFrame
 ValueSetter
 valueSetter
 (
-mBoundFrame
 mEditor
 )
 ;

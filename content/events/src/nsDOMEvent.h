@@ -410,7 +410,7 @@ aPoint
 ;
 protected
 :
-nsresult
+void
 SetEventType
 (
 const

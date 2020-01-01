@@ -1028,6 +1028,8 @@ NS_OK
 nsCAutoString
 newUriSpec
 ;
+rv
+=
 newUri
 -
 >

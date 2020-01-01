@@ -54,6 +54,12 @@ pattern
 GetPaintServerPattern
 (
 aSource
+aContext
+-
+>
+CurrentMatrix
+(
+)
 aFillOrStroke
 aOpacity
 )

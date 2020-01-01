@@ -243,7 +243,7 @@ h
 #
 include
 "
-nsIScriptObjectOwner
+nsIScriptEventHandlerOwner
 .
 h
 "

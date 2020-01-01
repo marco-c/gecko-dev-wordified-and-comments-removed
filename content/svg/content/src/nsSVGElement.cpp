@@ -5180,6 +5180,10 @@ nsDependentAtomString
 (
 aMappedAttrName
 )
+nsCSSProps
+:
+:
+eEnabled
 )
 ;
 if
@@ -10994,6 +10998,10 @@ nsDependentAtomString
 (
 aName
 )
+nsCSSProps
+:
+:
+eEnabled
 )
 ;
 if

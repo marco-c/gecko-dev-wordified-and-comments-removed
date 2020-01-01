@@ -169,7 +169,6 @@ ContinueInterruptedParsingAsync
 )
 {
 }
-;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR

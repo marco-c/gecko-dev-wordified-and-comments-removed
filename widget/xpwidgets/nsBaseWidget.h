@@ -1387,10 +1387,6 @@ CompositorParent
 >
 mCompositorParent
 ;
-Thread
-*
-mCompositorThread
-;
 nscolor
 mBackground
 ;

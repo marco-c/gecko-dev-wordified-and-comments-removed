@@ -555,9 +555,6 @@ bool
 mDocWriteSpeculativeLastWasCR
 ;
 bool
-mFragmentMode
-;
-bool
 mBlocked
 ;
 bool
@@ -571,10 +568,6 @@ mDocumentClosed
 ;
 bool
 mInDocumentWrite
-;
-void
-*
-mRootContextKey
 ;
 nsRefPtr
 <

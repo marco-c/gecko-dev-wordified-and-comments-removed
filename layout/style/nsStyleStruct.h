@@ -467,7 +467,6 @@ aOther
 )
 ;
 }
-;
 bool
 IsOpaque
 (

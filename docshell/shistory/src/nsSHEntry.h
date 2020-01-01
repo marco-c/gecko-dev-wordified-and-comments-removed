@@ -35,6 +35,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIInputStream
 .
 h
@@ -72,6 +81,7 @@ nsSHEntryShared
 ;
 class
 nsSHEntry
+MOZ_FINAL
 :
 public
 nsISHEntry

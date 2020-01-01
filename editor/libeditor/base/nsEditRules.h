@@ -24,6 +24,13 @@ NS_IEDITRULES_IID
 0x71
 }
 }
+#
+include
+"
+nsEditor
+.
+h
+"
 class
 nsPlaintextEditor
 ;

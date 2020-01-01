@@ -1,7 +1,7 @@
 #
 include
 "
-CrossOriginWrapper
+WaiveXrayWrapper
 .
 h
 "
@@ -89,7 +89,7 @@ namespace
 xpc
 {
 DirectWrapper
-WaiveXrayWrapperWrapper
+XrayWaiver
 (
 WrapperFactory
 :
@@ -97,8 +97,8 @@ WrapperFactory
 WAIVE_XRAY_WRAPPER_FLAG
 )
 ;
-CrossOriginWrapper
-CrossOriginWrapper
+WaiveXrayWrapper
+WaiveXrayWrapper
 :
 :
 singleton
@@ -350,7 +350,7 @@ cx
 obj
 )
 &
-WaiveXrayWrapperWrapper
+XrayWaiver
 )
 ;
 if
@@ -1176,7 +1176,7 @@ obj
 =
 =
 &
-WaiveXrayWrapperWrapper
+XrayWaiver
 |
 |
 js
@@ -1367,7 +1367,7 @@ WAIVE_XRAY_WRAPPER_FLAG
 wrapper
 =
 &
-CrossOriginWrapper
+WaiveXrayWrapper
 :
 :
 singleton

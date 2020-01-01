@@ -78,7 +78,6 @@ nsAccDocManager
 )
 {
 }
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIWEBPROGRESSLISTENER
 NS_DECL_NSIDOMEVENTLISTENER
@@ -182,7 +181,6 @@ nsAccDocManager
 )
 {
 }
-;
 bool
 Init
 (

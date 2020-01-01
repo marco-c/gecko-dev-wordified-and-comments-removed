@@ -21187,6 +21187,10 @@ nsCSSProps
 LookupProperty
 (
 propertyStr
+nsCSSProps
+:
+:
+eEnabled
 )
 ;
 if

@@ -3171,6 +3171,16 @@ aDest
 )
 ;
 static
+bool
+StringContainsASCIIUpper
+(
+const
+nsAString
+&
+aStr
+)
+;
+static
 nsresult
 CheckSameOrigin
 (

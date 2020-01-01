@@ -3279,7 +3279,6 @@ aStates
 )
 {
 }
-;
 virtual
 nsSplittableType
 GetSplittableType
@@ -5512,7 +5511,6 @@ return
 false
 ;
 }
-;
 #
 ifdef
 DEBUG_LAYOUT

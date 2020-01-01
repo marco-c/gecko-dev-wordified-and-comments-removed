@@ -645,9 +645,6 @@ SOD
 ;
 #
 if
-0
-#
-if
 defined
 (
 MOZ_MAINTENANCE_SERVICE
@@ -692,8 +689,6 @@ nsIThread
 >
 sThread
 ;
-#
-endif
 #
 endif
 nsresult
@@ -4478,9 +4473,6 @@ false
 {
 #
 if
-0
-#
-if
 defined
 (
 MOZ_MAINTENANCE_SERVICE
@@ -4691,8 +4683,6 @@ TYPE_ONE_SHOT
 }
 #
 endif
-#
-endif
 }
 nsWindowsShellService
 :
@@ -4702,9 +4692,6 @@ nsWindowsShellService
 (
 )
 {
-#
-if
-0
 #
 if
 defined
@@ -4747,12 +4734,7 @@ nsnull
 }
 #
 endif
-#
-endif
 }
-#
-if
-0
 #
 if
 defined
@@ -4822,11 +4804,6 @@ NS_OK
 ;
 #
 endif
-#
-endif
-#
-if
-0
 #
 if
 defined
@@ -4932,8 +4909,6 @@ NS_DISPATCH_NORMAL
 ;
 }
 }
-#
-endif
 #
 endif
 NS_IMETHODIMP

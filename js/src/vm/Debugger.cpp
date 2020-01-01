@@ -20050,7 +20050,7 @@ nargs
 0
 )
 {
-BindingNames
+BindingVector
 names
 (
 cx
@@ -20059,6 +20059,9 @@ cx
 if
 (
 !
+GetOrderedBindings
+(
+cx
 fun
 -
 >
@@ -20068,10 +20071,6 @@ script
 -
 >
 bindings
-.
-getLocalNameArray
-(
-cx
 &
 names
 )
@@ -20098,7 +20097,7 @@ i
 +
 )
 {
-JSAtom
+PropertyName
 *
 name
 =
@@ -20107,7 +20106,7 @@ names
 i
 ]
 .
-maybeAtom
+maybeName
 ;
 result
 -

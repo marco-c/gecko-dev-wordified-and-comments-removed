@@ -1546,6 +1546,10 @@ nsCSSProps
 LookupProperty
 (
 aPropertyName
+nsCSSProps
+:
+:
+eEnabled
 )
 ;
 const
@@ -5930,9 +5934,6 @@ result
 AppendLiteral
 (
 "
--
-moz
--
 calc
 (
 "

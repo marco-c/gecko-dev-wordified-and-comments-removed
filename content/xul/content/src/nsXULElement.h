@@ -91,7 +91,7 @@ h
 #
 include
 "
-nsIScriptObjectOwner
+nsIScriptEventHandlerOwner
 .
 h
 "
@@ -1669,6 +1669,17 @@ mBindingParent
 aBindingParent
 ;
 }
+const
+nsAttrValue
+*
+GetAttrValue
+(
+const
+nsAString
+&
+aName
+)
+;
 virtual
 nsAttrInfo
 GetAttrInfo

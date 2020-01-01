@@ -525,10 +525,6 @@ GlobalObject
 .
 cpp
 \
-MethodGuard
-.
-cpp
-\
 ObjectImpl
 .
 cpp

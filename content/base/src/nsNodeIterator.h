@@ -94,7 +94,6 @@ nsnull
 )
 {
 }
-;
 NodePointer
 (
 nsINode

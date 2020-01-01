@@ -2588,7 +2588,7 @@ if
 (
 Android
 9
-38
+61
 )
 =
 =
@@ -4844,6 +4844,18 @@ valid
 01
 .
 svg
+pass
+.
+svg
+=
+=
+viewBox
+-
+valid
+-
+02
+.
+xhtml
 pass
 .
 svg

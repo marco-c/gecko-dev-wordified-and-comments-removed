@@ -4371,6 +4371,7 @@ aOut
 ;
 class
 nsUrlClassifierDBServiceWorker
+MOZ_FINAL
 :
 public
 nsIUrlClassifierDBServiceWorker

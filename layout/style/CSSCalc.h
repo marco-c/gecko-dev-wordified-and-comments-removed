@@ -785,9 +785,6 @@ aOps
 Append
 (
 "
--
-moz
--
 calc
 (
 "

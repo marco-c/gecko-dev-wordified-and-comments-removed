@@ -138,7 +138,7 @@ nsStringContainer
 struct
 nsStringContainer_base
 {
-private
+protected
 :
 void
 *

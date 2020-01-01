@@ -497,6 +497,10 @@ browser_webconsole_bug_737873_mixedcontent
 .
 js
 \
+browser_output_breaks_after_console_dir_uninspectable
+.
+js
+\
 head
 .
 js
