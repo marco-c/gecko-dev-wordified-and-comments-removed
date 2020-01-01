@@ -16364,10 +16364,7 @@ isInterpreted
 ;
 JS_ASSERT
 (
-types
-:
-:
-IsInlinableCall
+IsIonInlinablePC
 (
 pc
 )
@@ -19985,10 +19982,7 @@ maybeCache
 {
 JS_ASSERT
 (
-types
-:
-:
-IsInlinableCall
+IsIonInlinablePC
 (
 pc
 )
