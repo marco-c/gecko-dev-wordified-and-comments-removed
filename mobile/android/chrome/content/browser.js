@@ -19088,6 +19088,8 @@ element
 ownerDocument
 .
 defaultView
+.
+top
 data
 .
 x
