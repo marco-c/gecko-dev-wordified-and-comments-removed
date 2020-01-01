@@ -430,9 +430,6 @@ txxpath_s
 LIBXUL_LIBRARY
 =
 1
-ifndef
-MOZ_XSLT_STANDALONE
-endif
 CPPSRCS
 =
 \

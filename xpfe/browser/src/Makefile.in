@@ -427,16 +427,6 @@ LIBXUL_LIBRARY
 MODULE_NAME
 =
 nsBrowserModule
-ifneq
-(
-(
-MOZ_PHOENIX
-)
-(
-MOZ_XULRUNNER
-)
-)
-endif
 CPPSRCS
 =
 \

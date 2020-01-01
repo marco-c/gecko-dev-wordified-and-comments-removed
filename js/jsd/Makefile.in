@@ -445,9 +445,6 @@ REQUIRES
 =
 java
 js
-ifndef
-JSD_STANDALONE
-endif
 EXTRA_DSO_LDOPTS
 +
 =

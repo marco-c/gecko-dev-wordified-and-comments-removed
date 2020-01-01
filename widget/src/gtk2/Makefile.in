@@ -434,9 +434,6 @@ LIBXUL_LIBRARY
 NATIVE_THEME_SUPPORT
 =
 1
-ifdef
-MOZ_X11
-endif
 CSRCS
 =
 \
@@ -593,9 +590,6 @@ build
 our
 subdirs
 too
-ifdef
-ACCESSIBILITY
-endif
 SHARED_LIBRARY_LIBS
 =
 .

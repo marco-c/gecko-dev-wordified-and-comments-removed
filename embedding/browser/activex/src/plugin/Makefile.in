@@ -553,9 +553,6 @@ def
 GRE_MODULE
 =
 1
-ifdef
-XPC_IDISPATCH_SUPPORT
-endif
 XPIFILE
 =
 mozactivex

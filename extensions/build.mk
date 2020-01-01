@@ -408,6 +408,7 @@ enable
 application
 =
 extensions
+)
 endif
 ifndef
 MOZ_EXTENSIONS
@@ -422,6 +423,7 @@ set
 enable
 -
 extensions
+)
 endif
 TIERS
 +

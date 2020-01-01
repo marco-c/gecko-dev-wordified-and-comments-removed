@@ -519,7 +519,7 @@ OS_TEST
 )
 )
 )
-ifeq
+ifneq
 (
 64
 (
@@ -530,7 +530,6 @@ OS_TEST
 )
 )
 )
-else
 USE_MMX
 =
 1

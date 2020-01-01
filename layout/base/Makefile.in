@@ -431,9 +431,6 @@ gkbase_s
 LIBXUL_LIBRARY
 =
 1
-ifdef
-ACCESSIBILITY
-endif
 XPIDLSRCS
 =
 \

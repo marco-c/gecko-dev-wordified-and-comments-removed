@@ -568,7 +568,7 @@ OS_ARCH
 )
 WINNT
 )
-ifeq
+ifneq
 (
 64
 (
@@ -579,7 +579,6 @@ OS_TEST
 )
 )
 )
-else
 VPATH
 +
 =

@@ -437,14 +437,6 @@ DIRS
 +
 =
 mozapps
-ifdef
-MOZ_HELP_VIEWER
-#
-DIRS
-+
-=
-help
-endif
 include
 (
 topsrcdir
