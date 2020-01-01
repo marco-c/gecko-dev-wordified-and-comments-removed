@@ -1,11 +1,15 @@
 Makefile
 .
 in
+Makefile
 autoconf
 .
 mk
 .
 in
+autoconf
+.
+mk
 check
 -
 sync
@@ -20,6 +24,16 @@ checking
 config
 .
 mk
+nsinstall
+nsinstall
+.
+exe
+host_nsinstall
+.
+o
+host_pathsub
+.
+o
 #
 This
 is
@@ -46,3 +60,4 @@ system
 wrappers
 .
 pl
+system_wrappers_js
