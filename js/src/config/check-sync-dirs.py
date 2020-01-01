@@ -377,6 +377,8 @@ stderr
 "
 TEST
 -
+UNEXPECTED
+-
 FAIL
 |
 build
