@@ -2543,6 +2543,10 @@ current
 return
 ControlStatus_Error
 ;
+if
+(
+successor
+)
 successor
 -
 >
@@ -2628,6 +2632,11 @@ block
 return
 ControlStatus_Error
 ;
+if
+(
+successor
+)
+{
 successor
 -
 >
@@ -2656,6 +2665,7 @@ successor
 return
 ControlStatus_Error
 ;
+}
 successor
 =
 block
