@@ -433,6 +433,16 @@ config
 rules
 .
 mk
+#
+disabled
+see
+bug
+506038
+#
+test_tooltip
+.
+xul
+\
 _TEST_FILES
 =
 test_bug360220
@@ -516,10 +526,6 @@ test_radio
 xul
 \
 test_tabbox
-.
-xul
-\
-test_tooltip
 .
 xul
 \
