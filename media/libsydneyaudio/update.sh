@@ -149,3 +149,10 @@ win32
 drain
 .
 patch
+patch
+-
+p3
+<
+sydney_android
+.
+patch
