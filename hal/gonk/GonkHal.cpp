@@ -4220,6 +4220,11 @@ lowerBoundOfNextKillUnderMB
 =
 0
 ;
+int32_t
+countOfLowmemorykillerParametersSets
+=
+0
+;
 for
 (
 int
@@ -4339,9 +4344,7 @@ killUnderMB
 )
 )
 {
-MOZ_CRASH
-(
-)
+continue
 ;
 }
 MOZ_ASSERT
@@ -4356,6 +4359,13 @@ MOZ_ASSERT
 killUnderMB
 >
 lowerBoundOfNextKillUnderMB
+)
+;
+MOZ_ASSERT
+(
+countOfLowmemorykillerParametersSets
+<
+6
 )
 ;
 adjParams
@@ -4396,6 +4406,10 @@ oomScoreAdj
 lowerBoundOfNextKillUnderMB
 =
 killUnderMB
+;
+countOfLowmemorykillerParametersSets
++
++
 ;
 }
 adjParams
