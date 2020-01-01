@@ -601,6 +601,9 @@ SetImage
 mImage
 )
 ;
+#
+if
+0
 nsresult
 result
 =
@@ -651,6 +654,8 @@ return
 result
 ;
 }
+#
+endif
 }
 return
 NS_OK
