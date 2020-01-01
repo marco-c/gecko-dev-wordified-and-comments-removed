@@ -283,6 +283,10 @@ PRBool
 aRewriteEncodingDeclaration
 )
 {
+mInBody
+=
+0
+;
 if
 (
 aFlags
