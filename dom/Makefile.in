@@ -174,10 +174,6 @@ notification
 \
 interfaces
 /
-permission
-\
-interfaces
-/
 svg
 \
 interfaces
@@ -279,13 +275,6 @@ icc
 (
 NULL
 )
-endif
-ifdef
-MOZ_B2G_FM
-PARALLEL_DIRS
-+
-=
-fm
 endif
 ifdef
 MOZ_PAY
