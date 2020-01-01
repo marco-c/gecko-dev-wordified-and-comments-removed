@@ -102,6 +102,9 @@ nsIFile
 .
 h
 "
+class
+nsIMemoryReporter
+;
 namespace
 mozilla
 {
@@ -245,6 +248,11 @@ DeleteSingleton
 (
 )
 ;
+PRInt64
+SizeOfMapping
+(
+)
+;
 private
 :
 StartupCache
@@ -372,6 +380,10 @@ mWriteObjectMap
 ;
 #
 endif
+nsIMemoryReporter
+*
+mMemoryReporter
+;
 }
 ;
 #
