@@ -2622,6 +2622,9 @@ typeMap
 unsigned
 nStackTypes
 ;
+unsigned
+spOffsetAtEntry
+;
 SlotList
 *
 globalSlots
