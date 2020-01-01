@@ -171,8 +171,12 @@ aMode
 )
 ;
 void
-RenderVisibleRegion
+RenderRegion
 (
+const
+nsIntRegion
+&
+aRegion
 )
 ;
 void
