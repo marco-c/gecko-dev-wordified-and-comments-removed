@@ -413,11 +413,7 @@ GetHTMLName
 (
 nsAString
 &
-_retval
-PRBool
-aCanAggregateSubtree
-=
-PR_TRUE
+aName
 )
 ;
 nsresult
@@ -426,10 +422,6 @@ GetXULName
 nsAString
 &
 aName
-PRBool
-aCanAggregateSubtree
-=
-PR_TRUE
 )
 ;
 nsresult

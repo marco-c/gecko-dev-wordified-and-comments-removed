@@ -128,15 +128,6 @@ aIndex
 ;
 virtual
 nsresult
-GetNameInternal
-(
-nsAString
-&
-aName
-)
-;
-virtual
-nsresult
 GetStateInternal
 (
 PRUint32

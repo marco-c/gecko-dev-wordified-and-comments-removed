@@ -517,6 +517,10 @@ nsAccUtils
 .
 cpp
 \
+nsNameUtils
+.
+cpp
+\
 nsAccessibilityService
 .
 cpp

@@ -128,15 +128,6 @@ _retval
 ;
 virtual
 nsresult
-GetNameInternal
-(
-nsAString
-&
-aName
-)
-;
-virtual
-nsresult
 GetStateInternal
 (
 PRUint32

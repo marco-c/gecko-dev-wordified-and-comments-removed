@@ -19,13 +19,6 @@ nsAccessibilityAtoms
 h
 "
 enum
-ENameRule
-{
-eNameLabelOrTitle
-eNameOkFromChildren
-}
-;
-enum
 EValueRule
 {
 eNoValue
@@ -81,9 +74,6 @@ roleString
 ;
 PRUint32
 role
-;
-ENameRule
-nameRule
 ;
 EValueRule
 valueRule

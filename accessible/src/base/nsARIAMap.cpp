@@ -47,7 +47,6 @@ nsIAccessibleRole
 :
 :
 ROLE_ALERT
-eNameLabelOrTitle
 eNoValue
 eNoAction
 kNoReqStates
@@ -61,7 +60,6 @@ nsIAccessibleRole
 :
 :
 ROLE_ALERT
-eNameOkFromChildren
 eNoValue
 eNoAction
 kNoReqStates
@@ -75,7 +73,6 @@ nsIAccessibleRole
 :
 :
 ROLE_APPLICATION
-eNameLabelOrTitle
 eNoValue
 eNoAction
 kNoReqStates
@@ -89,7 +86,6 @@ nsIAccessibleRole
 :
 :
 ROLE_DOCUMENT
-eNameLabelOrTitle
 eNoValue
 eNoAction
 kNoReqStates
@@ -103,7 +99,6 @@ nsIAccessibleRole
 :
 :
 ROLE_PUSHBUTTON
-eNameOkFromChildren
 eNoValue
 eClickAction
 kNoReqStates
@@ -143,7 +138,6 @@ nsIAccessibleRole
 :
 :
 ROLE_CHECKBUTTON
-eNameOkFromChildren
 eNoValue
 eCheckUncheckAction
 nsIAccessibleStates
@@ -198,7 +192,6 @@ nsIAccessibleRole
 :
 :
 ROLE_COLUMNHEADER
-eNameOkFromChildren
 eNoValue
 eNoAction
 kNoReqStates
@@ -255,7 +248,6 @@ nsIAccessibleRole
 :
 :
 ROLE_COMBOBOX
-eNameLabelOrTitle
 eHasValueMinMax
 eOpenCloseAction
 nsIAccessibleStates
@@ -301,7 +293,6 @@ nsIAccessibleRole
 :
 :
 ROLE_TEXT_CONTAINER
-eNameOkFromChildren
 eNoValue
 eNoAction
 kNoReqStates
@@ -315,7 +306,6 @@ nsIAccessibleRole
 :
 :
 ROLE_DIALOG
-eNameLabelOrTitle
 eNoValue
 eNoAction
 kNoReqStates
@@ -329,7 +319,6 @@ nsIAccessibleRole
 :
 :
 ROLE_DOCUMENT
-eNameLabelOrTitle
 eNoValue
 eNoAction
 kNoReqStates
@@ -343,7 +332,6 @@ nsIAccessibleRole
 :
 :
 ROLE_TABLE
-eNameLabelOrTitle
 eNoValue
 eNoAction
 nsIAccessibleStates
@@ -389,7 +377,6 @@ nsIAccessibleRole
 :
 :
 ROLE_CELL
-eNameOkFromChildren
 eNoValue
 eNoAction
 kNoReqStates
@@ -472,7 +459,6 @@ nsIAccessibleRole
 :
 :
 ROLE_GROUPING
-eNameLabelOrTitle
 eNoValue
 eNoAction
 kNoReqStates
@@ -486,7 +472,6 @@ nsIAccessibleRole
 :
 :
 ROLE_HEADING
-eNameLabelOrTitle
 eNoValue
 eNoAction
 kNoReqStates
@@ -500,7 +485,6 @@ nsIAccessibleRole
 :
 :
 ROLE_GRAPHIC
-eNameLabelOrTitle
 eNoValue
 eNoAction
 kNoReqStates
@@ -514,7 +498,6 @@ nsIAccessibleRole
 :
 :
 ROLE_LABEL
-eNameOkFromChildren
 eNoValue
 eNoAction
 kNoReqStates
@@ -528,7 +511,6 @@ nsIAccessibleRole
 :
 :
 ROLE_LINK
-eNameOkFromChildren
 eNoValue
 eJumpAction
 nsIAccessibleStates
@@ -545,7 +527,6 @@ nsIAccessibleRole
 :
 :
 ROLE_LIST
-eNameLabelOrTitle
 eNoValue
 eNoAction
 nsIAccessibleStates
@@ -579,7 +560,6 @@ nsIAccessibleRole
 :
 :
 ROLE_LISTBOX
-eNameLabelOrTitle
 eNoValue
 eNoAction
 kNoReqStates
@@ -622,7 +602,6 @@ nsIAccessibleRole
 :
 :
 ROLE_LISTITEM
-eNameOkFromChildren
 eNoValue
 eNoAction
 nsIAccessibleStates
@@ -720,7 +699,6 @@ nsIAccessibleRole
 :
 :
 ROLE_FLAT_EQUATION
-eNameLabelOrTitle
 eNoValue
 eNoAction
 kNoReqStates
@@ -734,7 +712,6 @@ nsIAccessibleRole
 :
 :
 ROLE_MENUPOPUP
-eNameLabelOrTitle
 eNoValue
 eNoAction
 kNoReqStates
@@ -748,7 +725,6 @@ nsIAccessibleRole
 :
 :
 ROLE_MENUBAR
-eNameLabelOrTitle
 eNoValue
 eNoAction
 kNoReqStates
@@ -762,7 +738,6 @@ nsIAccessibleRole
 :
 :
 ROLE_MENUITEM
-eNameOkFromChildren
 eNoValue
 eClickAction
 kNoReqStates
@@ -826,7 +801,6 @@ nsIAccessibleRole
 :
 :
 ROLE_CHECK_MENU_ITEM
-eNameOkFromChildren
 eNoValue
 eClickAction
 nsIAccessibleStates
@@ -869,7 +843,6 @@ nsIAccessibleRole
 :
 :
 ROLE_RADIO_MENU_ITEM
-eNameOkFromChildren
 eNoValue
 eClickAction
 nsIAccessibleStates
@@ -898,7 +871,6 @@ nsIAccessibleRole
 :
 :
 ROLE_OPTION
-eNameOkFromChildren
 eNoValue
 eSelectAction
 kNoReqStates
@@ -993,7 +965,6 @@ nsIAccessibleRole
 :
 :
 ROLE_NOTHING
-eNameLabelOrTitle
 eNoValue
 eNoAction
 kNoReqStates
@@ -1007,7 +978,6 @@ nsIAccessibleRole
 :
 :
 ROLE_PROGRESSBAR
-eNameLabelOrTitle
 eHasValueMinMax
 eNoAction
 nsIAccessibleStates
@@ -1024,7 +994,6 @@ nsIAccessibleRole
 :
 :
 ROLE_RADIOBUTTON
-eNameOkFromChildren
 eNoValue
 eSelectAction
 kNoReqStates
@@ -1050,7 +1019,6 @@ nsIAccessibleRole
 :
 :
 ROLE_GROUPING
-eNameLabelOrTitle
 eNoValue
 eNoAction
 kNoReqStates
@@ -1064,7 +1032,6 @@ nsIAccessibleRole
 :
 :
 ROLE_PANE
-eNameLabelOrTitle
 eNoValue
 eNoAction
 kNoReqStates
@@ -1078,7 +1045,6 @@ nsIAccessibleRole
 :
 :
 ROLE_ROW
-eNameOkFromChildren
 eNoValue
 eNoAction
 kNoReqStates
@@ -1149,7 +1115,6 @@ nsIAccessibleRole
 :
 :
 ROLE_ROWHEADER
-eNameOkFromChildren
 eNoValue
 eNoAction
 kNoReqStates
@@ -1206,7 +1171,6 @@ nsIAccessibleRole
 :
 :
 ROLE_SECTION
-eNameLabelOrTitle
 eNoValue
 eNoAction
 kNoReqStates
@@ -1220,7 +1184,6 @@ nsIAccessibleRole
 :
 :
 ROLE_SEPARATOR
-eNameLabelOrTitle
 eNoValue
 eNoAction
 kNoReqStates
@@ -1234,7 +1197,6 @@ nsIAccessibleRole
 :
 :
 ROLE_SLIDER
-eNameLabelOrTitle
 eHasValueMinMax
 eNoAction
 kNoReqStates
@@ -1260,7 +1222,6 @@ nsIAccessibleRole
 :
 :
 ROLE_SPINBUTTON
-eNameLabelOrTitle
 eHasValueMinMax
 eNoAction
 kNoReqStates
@@ -1286,7 +1247,6 @@ nsIAccessibleRole
 :
 :
 ROLE_STATUSBAR
-eNameLabelOrTitle
 eNoValue
 eNoAction
 kNoReqStates
@@ -1300,7 +1260,6 @@ nsIAccessibleRole
 :
 :
 ROLE_PAGETAB
-eNameOkFromChildren
 eNoValue
 eSwitchAction
 kNoReqStates
@@ -1314,7 +1273,6 @@ nsIAccessibleRole
 :
 :
 ROLE_PAGETABLIST
-eNameLabelOrTitle
 eNoValue
 eNoAction
 kNoReqStates
@@ -1328,7 +1286,6 @@ nsIAccessibleRole
 :
 :
 ROLE_PROPERTYPAGE
-eNameLabelOrTitle
 eNoValue
 eNoAction
 kNoReqStates
@@ -1342,7 +1299,6 @@ nsIAccessibleRole
 :
 :
 ROLE_ENTRY
-eNameLabelOrTitle
 eNoValue
 eActivateAction
 kNoReqStates
@@ -1396,7 +1352,6 @@ nsIAccessibleRole
 :
 :
 ROLE_TOOLBAR
-eNameLabelOrTitle
 eNoValue
 eNoAction
 kNoReqStates
@@ -1410,7 +1365,6 @@ nsIAccessibleRole
 :
 :
 ROLE_TOOLTIP
-eNameOkFromChildren
 eNoValue
 eNoAction
 kNoReqStates
@@ -1424,7 +1378,6 @@ nsIAccessibleRole
 :
 :
 ROLE_OUTLINE
-eNameLabelOrTitle
 eNoValue
 eNoAction
 kNoReqStates
@@ -1467,7 +1420,6 @@ nsIAccessibleRole
 :
 :
 ROLE_TREE_TABLE
-eNameLabelOrTitle
 eNoValue
 eNoAction
 kNoReqStates
@@ -1510,7 +1462,6 @@ nsIAccessibleRole
 :
 :
 ROLE_OUTLINEITEM
-eNameOkFromChildren
 eNoValue
 eActivateAction
 kNoReqStates
@@ -1651,7 +1602,6 @@ nsIAccessibleRole
 :
 :
 ROLE_NOTHING
-eNameLabelOrTitle
 eNoValue
 eNoAction
 kNoReqStates
@@ -1671,7 +1621,6 @@ nsIAccessibleRole
 :
 :
 ROLE_NOTHING
-eNameLabelOrTitle
 eNoValue
 eNoAction
 kNoReqStates
