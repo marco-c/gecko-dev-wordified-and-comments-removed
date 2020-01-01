@@ -71118,6 +71118,15 @@ enable
 -
 threadsafe
 "
+if
+test
+-
+z
+"
+MOZ_NATIVE_NSPR
+"
+;
+then
 ac_configure_args
 =
 "
@@ -71150,6 +71159,7 @@ libs
 NSPR_LIBS
 '
 "
+fi
 ac_configure_args
 =
 "
