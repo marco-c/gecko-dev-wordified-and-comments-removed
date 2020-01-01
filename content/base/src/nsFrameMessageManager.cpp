@@ -2758,6 +2758,9 @@ mObject
 )
 )
 ;
+delete
+aData
+;
 return
 PL_DHASH_REMOVE
 ;
