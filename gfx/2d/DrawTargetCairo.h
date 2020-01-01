@@ -594,6 +594,10 @@ Init
 cairo_surface_t
 *
 aSurface
+const
+IntSize
+&
+aSize
 )
 ;
 void
@@ -697,6 +701,9 @@ private
 cairo_t
 *
 mContext
+;
+IntSize
+mSize
 ;
 std
 :
