@@ -157,6 +157,9 @@ type_
 }
 ;
 uint64_t
+startupTime
+;
+uint64_t
 loggingTime
 ;
 Entry
