@@ -421,6 +421,11 @@ ShouldClampScrollPosition
 )
 ;
 }
+bool
+PassPointerEventsToChildren
+(
+)
+;
 protected
 :
 friend
@@ -469,11 +474,6 @@ ShowViewer
 nsIFrame
 *
 ObtainIntrinsicSizeFrame
-(
-)
-;
-bool
-PassPointerEventsToChildren
 (
 )
 ;
