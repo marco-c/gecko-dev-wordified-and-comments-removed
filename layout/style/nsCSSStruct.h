@@ -1743,6 +1743,9 @@ mBoxPack
 nsCSSValue
 mBoxOrdinal
 ;
+nsCSSValue
+mStackSizing
+;
 private
 :
 nsCSSXUL

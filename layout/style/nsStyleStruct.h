@@ -4803,6 +4803,9 @@ mBoxOrient
 PRUint8
 mBoxPack
 ;
+PRPackedBool
+mStretchStack
+;
 }
 ;
 struct

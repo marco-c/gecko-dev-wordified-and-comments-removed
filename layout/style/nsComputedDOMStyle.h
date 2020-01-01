@@ -486,6 +486,15 @@ aValue
 )
 ;
 nsresult
+GetStackSizing
+(
+nsIDOMCSSValue
+*
+*
+aValue
+)
+;
+nsresult
 GetColor
 (
 nsIDOMCSSValue
