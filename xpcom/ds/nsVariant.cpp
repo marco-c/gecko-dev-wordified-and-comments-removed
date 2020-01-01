@@ -2150,6 +2150,9 @@ Clone
 (
 str
 (
+nsCRT
+:
+:
 strlen
 (
 str
@@ -7528,6 +7531,9 @@ return
 SetFromWStringWithSize
 (
 data
+nsCRT
+:
+:
 strlen
 (
 aValue

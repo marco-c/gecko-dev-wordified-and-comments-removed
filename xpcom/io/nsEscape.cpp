@@ -1356,6 +1356,9 @@ aSourceBufferLen
 {
 aSourceBufferLen
 =
+nsCRT
+:
+:
 strlen
 (
 aSourceBuffer

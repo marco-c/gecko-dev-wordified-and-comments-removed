@@ -670,6 +670,9 @@ rv
 ;
 length
 =
+nsCRT
+:
+:
 strlen
 (
 aString

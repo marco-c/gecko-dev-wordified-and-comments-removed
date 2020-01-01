@@ -802,6 +802,9 @@ rv
 PRInt32
 inStringLength
 =
+nsCRT
+:
+:
 strlen
 (
 inString

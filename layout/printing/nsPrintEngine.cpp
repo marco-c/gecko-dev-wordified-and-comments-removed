@@ -11739,6 +11739,9 @@ if
 aStr
 &
 &
+nsCRT
+:
+:
 strlen
 (
 aStr
@@ -11759,6 +11762,9 @@ ptr
 &
 aStr
 [
+nsCRT
+:
+:
 strlen
 (
 aStr

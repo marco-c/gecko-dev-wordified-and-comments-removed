@@ -1489,6 +1489,9 @@ CFStringCreateWithCharacters
 (
 NULL
 aPlatformAppPath
+nsCRT
+:
+:
 strlen
 (
 aPlatformAppPath

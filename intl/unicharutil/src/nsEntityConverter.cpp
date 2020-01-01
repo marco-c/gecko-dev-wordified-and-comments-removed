@@ -1063,6 +1063,9 @@ outString
 PRUint32
 len
 =
+nsCRT
+:
+:
 strlen
 (
 inString
