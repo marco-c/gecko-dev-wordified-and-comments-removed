@@ -617,7 +617,7 @@ interfaces
 nsIChannel
 )
 .
-originalURI
+URI
 ;
 }
 CSPPolicyURIListener
