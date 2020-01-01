@@ -184,6 +184,9 @@ InlineFrameIterator
 :
 forEachCanonicalActualArg
 (
+JSContext
+*
+cx
 Op
 op
 unsigned
@@ -258,6 +261,7 @@ more
 InlineFrameIterator
 it
 (
+cx
 this
 )
 ;

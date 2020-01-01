@@ -4864,6 +4864,7 @@ ion
 InlineFrameIterator
 iter
 (
+cx
 &
 frame
 )
@@ -4928,6 +4929,7 @@ iter
 .
 forEachCanonicalActualArg
 (
+cx
 CopyTo
 (
 args
