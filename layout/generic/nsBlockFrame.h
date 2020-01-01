@@ -1258,9 +1258,9 @@ aState
 nsPlaceholderFrame
 *
 aPlaceholder
-nsFloatCache
-*
-aFloatCache
+nsMargin
+&
+aFloatMargin
 nsReflowStatus
 &
 aReflowStatus
