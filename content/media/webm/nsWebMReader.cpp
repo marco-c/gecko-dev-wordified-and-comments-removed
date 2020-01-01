@@ -552,6 +552,10 @@ mAudioFrames
 (
 0
 )
+mForceStereoMode
+(
+0
+)
 mHasVideo
 (
 false
@@ -560,9 +564,9 @@ mHasAudio
 (
 false
 )
-mForceStereoMode
+mStereoModeForced
 (
-0
+false
 )
 {
 MOZ_COUNT_CTOR
@@ -570,6 +574,10 @@ MOZ_COUNT_CTOR
 nsWebMReader
 )
 ;
+mStereoModeForced
+=
+NS_SUCCEEDED
+(
 Preferences
 :
 :
@@ -584,6 +592,7 @@ force_stereo_mode
 "
 &
 mForceStereoMode
+)
 )
 ;
 }
@@ -1329,6 +1338,11 @@ STEREO_MODE_RIGHT_LEFT
 break
 ;
 }
+if
+(
+mStereoModeForced
+)
+{
 switch
 (
 mForceStereoMode
@@ -1386,6 +1400,7 @@ mStereoMode
 =
 STEREO_MODE_MONO
 ;
+}
 }
 }
 else
