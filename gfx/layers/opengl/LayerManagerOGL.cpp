@@ -2783,13 +2783,13 @@ coords
 =
 {
 left
-top
+bottom
 right
-top
+bottom
 left
-bottom
+top
 right
-bottom
+top
 }
 ;
 mGLContext
