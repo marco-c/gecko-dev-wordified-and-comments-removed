@@ -9022,6 +9022,12 @@ html
 ref
 .
 html
+skip
+-
+if
+(
+B2G
+)
 random
 -
 if
@@ -18388,6 +18394,12 @@ html
 ref
 .
 html
+skip
+-
+if
+(
+B2G
+)
 fails
 -
 if

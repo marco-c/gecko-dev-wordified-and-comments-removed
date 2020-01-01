@@ -571,12 +571,6 @@ rtl
 ref
 .
 html
-fails
--
-if
-(
-B2G
-)
 !
 =
 text
