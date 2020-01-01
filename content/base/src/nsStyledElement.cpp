@@ -816,7 +816,7 @@ if
 aContent
 -
 >
-IsNativeAnonymous
+IsInNativeAnonymousSubtree
 (
 )
 )

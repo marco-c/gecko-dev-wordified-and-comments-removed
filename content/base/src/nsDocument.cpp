@@ -22883,7 +22883,7 @@ content
 content
 -
 >
-IsNativeAnonymous
+IsInNativeAnonymousSubtree
 (
 )
 )

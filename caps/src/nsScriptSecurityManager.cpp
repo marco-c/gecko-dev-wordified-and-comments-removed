@@ -3285,7 +3285,7 @@ if
 content
 -
 >
-IsNativeAnonymous
+IsInNativeAnonymousSubtree
 (
 )
 )
