@@ -5184,7 +5184,7 @@ thisType
 '
 :
 '
-nsINode
+nsGenericElement
 '
 '
 code

@@ -2420,6 +2420,10 @@ delayedServerEvents
 .
 sjs
 \
+test_bug664916
+.
+html
+\
 test_bug666604
 .
 html
