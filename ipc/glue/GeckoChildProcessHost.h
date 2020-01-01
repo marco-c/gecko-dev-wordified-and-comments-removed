@@ -360,6 +360,11 @@ mChildTask
 }
 #
 endif
+void
+Join
+(
+)
+;
 protected
 :
 GeckoProcessType
