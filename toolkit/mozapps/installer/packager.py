@@ -2681,6 +2681,12 @@ LIBXUL_SDK
             
 gre_path
 =
+mozpack
+.
+path
+.
+join
+(
 buildconfig
 .
 substs
@@ -2689,6 +2695,11 @@ substs
 LIBXUL_DIST
 '
 ]
+                                         
+'
+bin
+'
+)
         
 else
 :
