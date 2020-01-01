@@ -265,7 +265,7 @@ false
 )
 ;
 nsresult
-ResetInputState
+CommitIMEComposition
 (
 nsWindow
 *
