@@ -13330,8 +13330,6 @@ nslots
 scope
 -
 >
-map
-.
 freeslot
 ;
 for
