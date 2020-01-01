@@ -103,6 +103,14 @@ aSecure
 bool
 RecvClose
 (
+const
+PRUint16
+&
+code
+const
+nsCString
+&
+reason
 )
 ;
 bool

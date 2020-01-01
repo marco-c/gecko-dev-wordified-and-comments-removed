@@ -47,6 +47,10 @@ mWasClean
 (
 PR_FALSE
 )
+mReasonCode
+(
+1005
+)
 {
 }
 NS_DECL_ISUPPORTS_INHERITED
@@ -56,6 +60,12 @@ private
 :
 PRBool
 mWasClean
+;
+PRUint16
+mReasonCode
+;
+nsString
+mReason
 ;
 }
 ;

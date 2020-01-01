@@ -513,6 +513,10 @@ aSecure
 ;
 Close
 (
+PRUint16
+code
+nsCString
+reason
 )
 ;
 SendMsg
@@ -574,6 +578,10 @@ aSize
 ;
 OnServerClose
 (
+PRUint16
+code
+nsCString
+aReason
 )
 ;
 __delete__
