@@ -332,6 +332,11 @@ bool
 aFinalUpdate
 )
 ;
+bool
+ShouldUpdateMainThread
+(
+)
+;
 void
 UpdateCurrentTime
 (
@@ -665,6 +670,9 @@ mInitialTimeStamp
 ;
 TimeStamp
 mCurrentTimeStamp
+;
+TimeStamp
+mLastMainThreadUpdate
 ;
 int64_t
 mProcessingGraphUpdateIndex
