@@ -1620,7 +1620,7 @@ WhatDoesVertexAttrib0Need
 (
 )
 ;
-void
+bool
 DoFakeVertexAttrib0
 (
 WebGLuint
