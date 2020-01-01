@@ -11220,10 +11220,8 @@ ifdef
 XPC_CHECK_WRAPPER_THREADSAFETY
 public
 :
-nsCOMPtr
-<
-nsIThread
->
+PRThread
+*
 mThread
 ;
 #
