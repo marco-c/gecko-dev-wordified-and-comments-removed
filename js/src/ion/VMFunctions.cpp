@@ -1154,9 +1154,6 @@ RawObject
 obj
 )
 {
-AutoAssertNoGC
-nogc
-;
 return
 EmulatesUndefined
 (

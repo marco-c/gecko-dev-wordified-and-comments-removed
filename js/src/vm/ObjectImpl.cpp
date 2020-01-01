@@ -1741,9 +1741,6 @@ jsid
 id
 )
 {
-AutoAssertNoGC
-nogc
-;
 MOZ_ASSERT
 (
 isNative

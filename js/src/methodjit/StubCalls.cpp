@@ -5330,9 +5330,6 @@ VMFrame
 f
 )
 {
-AutoAssertNoGC
-nogc
-;
 ExpandInlineFrames
 (
 f
@@ -9908,9 +9905,6 @@ VMFrame
 f
 )
 {
-AutoAssertNoGC
-nogc
-;
 StackFrame
 *
 fp
@@ -10131,9 +10125,6 @@ void
 rval
 )
 {
-AutoAssertNoGC
-nogc
-;
 void
 *
 repatchCode

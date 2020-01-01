@@ -10131,9 +10131,6 @@ TradeGutsReserved
 reserved
 )
 {
-AutoAssertNoGC
-nogc
-;
 JS_ASSERT
 (
 a
@@ -22298,9 +22295,6 @@ Value
 vp
 )
 {
-AutoAssertNoGC
-nogc
-;
 if
 (
 JSID_IS_INT
@@ -24482,9 +24476,6 @@ Value
 v
 )
 {
-AutoAssertNoGC
-nogc
-;
 if
 (
 v
@@ -26767,9 +26758,6 @@ JSContext
 cx
 )
 {
-AutoAssertNoGC
-nogc
-;
 Sprinter
 sprinter
 (

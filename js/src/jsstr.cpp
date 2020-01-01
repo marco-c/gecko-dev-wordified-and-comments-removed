@@ -6413,9 +6413,6 @@ UINT32_MAX
 ;
 }
 }
-AutoAssertNoGC
-nogc
-;
 uint32_t
 textLen
 =
@@ -6691,9 +6688,6 @@ UINT32_MAX
 ;
 }
 }
-AutoAssertNoGC
-nogc
-;
 uint32_t
 textLen
 =
@@ -7420,9 +7414,6 @@ UINT32_MAX
 ;
 }
 }
-AutoAssertNoGC
-nogc
-;
 uint32_t
 textLen
 =
@@ -7721,9 +7712,6 @@ UINT32_MAX
 ;
 }
 }
-AutoAssertNoGC
-nogc
-;
 const
 jschar
 *
@@ -13920,9 +13908,6 @@ JSObject
 lambda
 )
 {
-AutoAssertNoGC
-nogc
-;
 if
 (
 !
@@ -15447,9 +15432,6 @@ res
 )
 const
 {
-AutoAssertNoGC
-nogc
-;
 JS_ASSERT
 (
 index

@@ -2158,9 +2158,6 @@ void
 address
 )
 {
-AutoAssertNoGC
-nogc
-;
 if
 (
 !

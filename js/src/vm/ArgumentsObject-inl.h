@@ -305,9 +305,6 @@ i
 )
 const
 {
-AutoAssertNoGC
-nogc
-;
 JS_ASSERT
 (
 !
@@ -421,9 +418,6 @@ Value
 v
 )
 {
-AutoAssertNoGC
-nogc
-;
 JS_ASSERT
 (
 !
