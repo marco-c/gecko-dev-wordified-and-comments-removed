@@ -464,14 +464,6 @@ EnsureSocketThreadTargetIfOnline
 (
 )
 ;
-void
-ClosePersistentConnections
-(
-nsConnectionEntry
-*
-ent
-)
-;
 typedef
 void
 (
