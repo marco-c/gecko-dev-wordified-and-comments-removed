@@ -681,10 +681,12 @@ SensorType
 SENSOR_ORIENTATION
 )
 ;
+const
 InfallibleTArray
 <
 float
 >
+&
 values
 =
 aSensorData
