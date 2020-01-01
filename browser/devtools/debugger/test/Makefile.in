@@ -489,6 +489,12 @@ resume
 .
 js
 \
+browser_dbg_pause
+-
+warning
+.
+js
+\
 browser_dbg_update
 -
 editor
