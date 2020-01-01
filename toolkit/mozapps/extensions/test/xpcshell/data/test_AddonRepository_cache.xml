@@ -304,6 +304,11 @@ developer_comments
 >
 <
 icon
+size
+=
+"
+32
+"
 >
 http
 :
@@ -829,6 +834,11 @@ developer_comments
 >
 <
 icon
+size
+=
+"
+32
+"
 >
 http
 :
@@ -1320,6 +1330,11 @@ version
 >
 <
 icon
+size
+=
+"
+32
+"
 >
 http
 :
