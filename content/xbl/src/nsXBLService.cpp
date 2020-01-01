@@ -2757,6 +2757,10 @@ newBinding
 ;
 }
 }
+{
+nsAutoScriptBlocker
+scriptBlocker
+;
 newBinding
 -
 >
@@ -2812,6 +2816,7 @@ swap
 aBinding
 )
 ;
+}
 return
 NS_OK
 ;
