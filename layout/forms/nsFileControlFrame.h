@@ -376,14 +376,6 @@ mFrame
 ;
 }
 ;
-nsresult
-MouseClick
-(
-nsIDOMEvent
-*
-aMouseEvent
-)
-;
 virtual
 PRBool
 IsFrameOfType
