@@ -193,7 +193,7 @@ message
 function
 Generator
 (
-object
+thisArg
 method
 onComplete
 args
@@ -244,9 +244,9 @@ async
 ;
 this
 .
-_object
+_thisArg
 =
-object
+thisArg
 ;
 this
 .
@@ -390,18 +390,18 @@ cb
 ;
 }
 get
-_object
+_thisArg
 (
 )
 {
 return
 this
 .
-__object
+__thisArg
 ;
 }
 set
-_object
+_thisArg
 (
 value
 )
@@ -441,7 +441,7 @@ value
 ;
 this
 .
-__object
+__thisArg
 =
 value
 ;
@@ -858,7 +858,7 @@ apply
 (
 this
 .
-_object
+_thisArg
 this
 .
 _args
@@ -1535,7 +1535,7 @@ run
 function
 Async_run
 (
-object
+thisArg
 method
 onComplete
 )
@@ -1561,7 +1561,7 @@ gen
 new
 Generator
 (
-object
+thisArg
 method
 onComplete
 args
@@ -1582,7 +1582,7 @@ sugar
 function
 Async_sugar
 (
-object
+thisArg
 onComplete
 )
 {
@@ -1605,7 +1605,7 @@ args
 .
 unshift
 (
-object
+thisArg
 this
 )
 ;
