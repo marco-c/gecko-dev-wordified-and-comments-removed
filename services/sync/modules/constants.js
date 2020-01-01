@@ -59,11 +59,7 @@ const
 WEAVE_VERSION
 =
 "
-0
-.
-2
-.
-93
+weave_version
 "
 ;
 const
