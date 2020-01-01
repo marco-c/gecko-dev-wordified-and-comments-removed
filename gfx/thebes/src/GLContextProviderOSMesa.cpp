@@ -830,6 +830,14 @@ SetupLookupFunction
 return
 PR_FALSE
 ;
+sOSMesaLibrary
+.
+fPixelStore
+(
+OSMESA_Y_UP
+0
+)
+;
 return
 InitWithPrefix
 (
