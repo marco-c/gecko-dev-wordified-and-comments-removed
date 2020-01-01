@@ -733,6 +733,11 @@ emitDebugPrologue
 )
 ;
 bool
+emitDebugTrap
+(
+)
+;
+bool
 initScopeChain
 (
 )

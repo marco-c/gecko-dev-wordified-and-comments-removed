@@ -457,6 +457,16 @@ jsbytecode
 pc
 )
 ;
+void
+toggleDebugTraps
+(
+UnrootedScript
+script
+jsbytecode
+*
+pc
+)
+;
 }
 ;
 inline

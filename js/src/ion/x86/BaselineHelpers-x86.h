@@ -552,6 +552,10 @@ bool
 calledIntoIon
 =
 false
+Register
+scratch
+=
+ebx
 )
 {
 if
@@ -563,7 +567,7 @@ masm
 .
 pop
 (
-eax
+scratch
 )
 ;
 masm
@@ -574,14 +578,14 @@ Imm32
 (
 FRAMESIZE_SHIFT
 )
-eax
+scratch
 )
 ;
 masm
 .
 addl
 (
-eax
+scratch
 BaselineStackReg
 )
 ;
@@ -622,7 +626,7 @@ masm
 .
 pop
 (
-eax
+scratch
 )
 ;
 masm
