@@ -400,6 +400,14 @@ nsCycleCollectorUtils
 .
 h
 \
+nsCycleCollectionNoteChild
+.
+h
+\
+nsCycleCollectionTraversalCallback
+.
+h
+\
 (
 NULL
 )
