@@ -1558,6 +1558,13 @@ bin
 \
 components
 \
+nsPlacesDBFlush
+.
+js
+bin
+\
+components
+\
 nsDefaultCLH
 .
 js
