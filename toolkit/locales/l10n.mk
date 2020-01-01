@@ -1378,16 +1378,6 @@ DIST
 _ABS_DIST
 )
 "
-(
-MAKE
-)
-generate
--
-snippet
--
-(
-AB_CD
-)
 endif
 #
 packaging
