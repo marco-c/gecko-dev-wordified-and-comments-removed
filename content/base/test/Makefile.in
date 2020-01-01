@@ -2512,10 +2512,6 @@ test_bug789856
 .
 html
 \
-test_messagemanager_assertpermission
-.
-html
-\
 (
 NULL
 )
