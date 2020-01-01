@@ -88,10 +88,8 @@ fixed
 ;
 color
 :
--
-moz
--
-FieldText
+#
+000
 ;
 height
 :
@@ -229,11 +227,6 @@ display
 moz
 -
 box
-;
-margin
-:
-0
-auto
 ;
 }
 #
