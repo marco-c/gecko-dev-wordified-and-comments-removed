@@ -977,8 +977,7 @@ PrintUtils
 .
 printPreview
 (
-onEnterPP
-onExitPP
+PrintPreviewListener
 )
 ;
 "
