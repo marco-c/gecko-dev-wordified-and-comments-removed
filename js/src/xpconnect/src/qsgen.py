@@ -8083,7 +8083,7 @@ readonly
 setterName
 =
 '
-xpc_qsReadOnlySetter
+js_GetterOnlyPropertyStub
 '
     
 else
