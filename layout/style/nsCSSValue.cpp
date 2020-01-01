@@ -2389,10 +2389,6 @@ mOriginPrincipal
 (
 aOriginPrincipal
 )
-mRefCnt
-(
-0
-)
 {
 NS_PRECONDITION
 (
@@ -2813,10 +2809,6 @@ eCSSUnit_None
 mRadialSize
 (
 eCSSUnit_None
-)
-mRefCnt
-(
-0
 )
 {
 }
