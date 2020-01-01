@@ -7221,6 +7221,7 @@ void
 )
 NS_TraceMallocShutdown
 (
+void
 )
 {
 logfile
@@ -7420,6 +7421,7 @@ void
 )
 NS_TraceMallocDisable
 (
+void
 )
 {
 logfile
@@ -7487,6 +7489,7 @@ void
 )
 NS_TraceMallocEnable
 (
+void
 )
 {
 tm_thread
@@ -8540,6 +8543,7 @@ void
 )
 NS_TraceMallocFlushLogfiles
 (
+void
 )
 {
 logfile
