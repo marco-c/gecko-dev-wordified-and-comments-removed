@@ -493,9 +493,6 @@ targetFile
 fileSize
 )
 ;
-true
-|
-|
 do_check_eq
 (
 data
@@ -506,9 +503,6 @@ aDl
 amountTransferred
 )
 ;
-true
-|
-|
 do_check_eq
 (
 data
