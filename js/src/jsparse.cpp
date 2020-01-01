@@ -4762,10 +4762,7 @@ stdout
 endif
 script
 =
-JSScript
-:
-:
-NewScriptFromCG
+js_NewScriptFromCG
 (
 cx
 &
@@ -11113,8 +11110,8 @@ table
 js_var_str
 js_const_str
 js_let_str
-js_argument_str
 js_function_str
+js_argument_str
 js_unknown_str
 }
 ;
@@ -11660,11 +11657,13 @@ atom
 ;
 if
 (
+(
 funtc
 -
 >
-callsEval
-(
+flags
+&
+TCF_FUN_CALLS_EVAL
 )
 |
 |
@@ -12433,7 +12432,7 @@ list
 >
 pn_type
 =
-TOK_VAR
+TOK_COMMA
 ;
 list
 -
