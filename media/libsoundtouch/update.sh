@@ -296,7 +296,7 @@ STTypes
 h
 src
 #
-Remote
+Remove
 the
 Windows
 line
