@@ -39,10 +39,10 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIMEMORYREPORTER
 nsMemoryReporter
 (
-nsCString
+nsACString
 &
 process
-nsCString
+nsACString
 &
 path
 PRInt32
@@ -51,7 +51,7 @@ PRInt32
 units
 PRInt64
 amount
-nsCString
+nsACString
 &
 desc
 )

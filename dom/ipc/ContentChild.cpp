@@ -1430,10 +1430,7 @@ r
 >
 GetPath
 (
-getter_Copies
-(
 path
-)
 )
 ;
 r
@@ -1468,10 +1465,7 @@ r
 >
 GetDescription
 (
-getter_Copies
-(
 desc
-)
 )
 ;
 MemoryReport
