@@ -1493,6 +1493,14 @@ GetMaxTextureSize
 ;
 ident
 .
+mParentProcessId
+=
+XRE_GetProcessType
+(
+)
+;
+ident
+.
 mParentBackend
 =
 LAYERS_D3D11

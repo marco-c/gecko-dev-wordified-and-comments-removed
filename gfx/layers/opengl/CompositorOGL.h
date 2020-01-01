@@ -163,6 +163,9 @@ return
 TextureFactoryIdentifier
 (
 LAYERS_OPENGL
+XRE_GetProcessType
+(
+)
 GetMaxTextureSize
 (
 )

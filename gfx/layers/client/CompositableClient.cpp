@@ -561,6 +561,17 @@ parentBackend
 =
 =
 LAYERS_D3D9
+&
+&
+!
+GetForwarder
+(
+)
+-
+>
+ForwardsToDifferentProcess
+(
+)
 )
 {
 result

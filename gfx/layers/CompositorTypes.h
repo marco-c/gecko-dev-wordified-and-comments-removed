@@ -11,6 +11,13 @@ LayersTypes
 .
 h
 "
+#
+include
+"
+nsXULAppAPI
+.
+h
+"
 namespace
 mozilla
 {
@@ -243,6 +250,9 @@ TextureFactoryIdentifier
 LayersBackend
 mParentBackend
 ;
+GeckoProcessType
+mParentProcessId
+;
 int32_t
 mMaxTextureSize
 ;
@@ -258,6 +268,10 @@ LayersBackend
 aLayersBackend
 =
 LAYERS_NONE
+GeckoProcessType
+aParentProcessId
+=
+GeckoProcessType_Default
 int32_t
 aMaxTextureSize
 =
@@ -275,6 +289,10 @@ false
 mParentBackend
 (
 aLayersBackend
+)
+mParentProcessId
+(
+aParentProcessId
 )
 mMaxTextureSize
 (
