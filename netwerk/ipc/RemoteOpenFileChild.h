@@ -136,9 +136,12 @@ RecvFileOpened
 const
 FileDescriptor
 &
-const
-nsresult
-&
+)
+;
+virtual
+bool
+RecvFileDidNotOpen
+(
 )
 ;
 nsCOMPtr
