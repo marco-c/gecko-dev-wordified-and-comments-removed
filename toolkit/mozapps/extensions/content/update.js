@@ -1240,8 +1240,6 @@ nsIExtensionManager
 .
 UPDATE_SYNC_COMPATIBILITY
 this
-Ci
-.
 nsIExtensionManager
 .
 UPDATE_WHEN_NEW_APP_INSTALLED
@@ -1906,8 +1904,6 @@ nsIExtensionManager
 .
 UPDATE_CHECK_NEWVERSION
 this
-Ci
-.
 nsIExtensionManager
 .
 UPDATE_WHEN_NEW_APP_INSTALLED
