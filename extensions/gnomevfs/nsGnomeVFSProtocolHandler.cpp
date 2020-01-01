@@ -1423,8 +1423,10 @@ rv
 =
 =
 GNOME_VFS_OK
-&
-&
+)
+{
+if
+(
 info
 .
 type
@@ -1544,6 +1546,7 @@ get
 )
 )
 ;
+}
 }
 gnome_vfs_module_callback_pop
 (
