@@ -894,7 +894,7 @@ aComputeStyleChange
 )
 return
 ;
-GetPresContext
+PresContext
 (
 )
 -
