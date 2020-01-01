@@ -187,7 +187,7 @@ command
 '
 ps
 -
-Axc
+ac
 '
 ]
   
