@@ -5157,3 +5157,15 @@ script
 offset
 "
 )
+MSG_DEF
+(
+JSMSG_DEBUG_BAD_LINE
+280
+0
+JSEXN_TYPEERR
+"
+invalid
+line
+number
+"
+)
