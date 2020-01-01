@@ -314,17 +314,6 @@ Thaw
 (
 )
 ;
-nsPresContext
-*
-PresContext
-(
-)
-const
-{
-return
-mPresContext
-;
-}
 #
 ifdef
 DEBUG
