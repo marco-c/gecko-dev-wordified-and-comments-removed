@@ -4157,6 +4157,12 @@ break
 }
 db
 .
+setTransactionSuccessful
+(
+)
+;
+db
+.
 endTransaction
 (
 )
