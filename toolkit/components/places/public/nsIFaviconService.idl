@@ -617,7 +617,7 @@ notifications
 *
 *
 param
-aPage
+aPageURI
 *
 URI
 of
@@ -631,7 +631,7 @@ set
 .
 *
 param
-aFavicon
+aFaviconURI
 *
 URI
 of
@@ -650,10 +650,10 @@ setFaviconUrlForPage
 (
 in
 nsIURI
-aPage
+aPageURI
 in
 nsIURI
-aFavicon
+aFaviconURI
 )
 ;
 /
@@ -807,7 +807,7 @@ SetFaviconData
 will
 take
 any
-URL
+URI
 you
 provide
 *
@@ -832,7 +832,7 @@ for
 "
 good
 "
-URLs
+URIs
 as
 defined
 by
@@ -847,7 +847,7 @@ For
 "
 bad
 "
-URLs
+URIs
 this
 function
 will
@@ -866,7 +866,7 @@ favicons
 that
 are
 data
-URLs
+URIs
 .
 Icons
 that
@@ -896,7 +896,7 @@ for
 non
 -
 bookmarked
-URLs
+URIs
 when
 *
 history
@@ -930,7 +930,7 @@ disabled
 *
 *
 param
-aPage
+aPageURI
 *
 URI
 of
@@ -944,7 +944,7 @@ set
 .
 *
 param
-aFavicon
+aFaviconURI
 *
 URI
 of
@@ -1008,10 +1008,10 @@ setAndLoadFaviconForPage
 (
 in
 nsIURI
-aPage
+aPageURI
 in
 nsIURI
-aFavicon
+aFaviconURI
 in
 boolean
 aForceReload
@@ -1212,7 +1212,7 @@ for
 chrome
 :
 icon
-URLs
+URIs
 .
 You
 should
@@ -1318,7 +1318,7 @@ means
 *
 *
 param
-aFavicon
+aFaviconURI
 *
 URI
 of
@@ -1414,7 +1414,7 @@ setFaviconData
 (
 in
 nsIURI
-aFavicon
+aFaviconURI
 [
 const
 array
@@ -1486,9 +1486,9 @@ NULL
 *
 *
 param
-aFavicon
+aFaviconURI
 *
-URL
+URI
 of
 the
 favicon
@@ -1521,7 +1521,7 @@ if
 we
 have
 this
-URL
+URI
 but
 have
 no
@@ -1575,7 +1575,7 @@ heard
 of
 this
 favicon
-URL
+URI
 .
 *
 /
@@ -1584,7 +1584,7 @@ getFaviconData
 (
 in
 nsIURI
-aFavicon
+aFaviconURI
 out
 AUTF8String
 aMimeType
@@ -1611,7 +1611,7 @@ aData
 *
 Retrieves
 the
-URL
+URI
 of
 the
 favicon
@@ -1623,7 +1623,7 @@ page
 *
 *
 param
-aPage
+aPageURI
 *
 URI
 of
@@ -1694,7 +1694,7 @@ getFaviconForPage
 (
 in
 nsIURI
-aPage
+aPageURI
 )
 ;
 /
@@ -1792,7 +1792,7 @@ found
 *
 *
 param
-aPage
+aPageURI
 *
 URI
 of
@@ -1912,7 +1912,7 @@ getFaviconImageForPage
 (
 in
 nsIURI
-aPage
+aPageURI
 )
 ;
 /
@@ -1976,10 +1976,10 @@ favicon
 *
 *
 param
-aIcon
+aFaviconURI
 *
 The
-URL
+URI
 of
 an
 icon
@@ -2210,7 +2210,7 @@ getFaviconLinkForIcon
 (
 in
 nsIURI
-aIcon
+aFaviconURI
 )
 ;
 /
@@ -2275,7 +2275,7 @@ addFailedFavicon
 (
 in
 nsIURI
-aIcon
+aFaviconURI
 )
 ;
 /
@@ -2314,7 +2314,7 @@ removeFailedFavicon
 (
 in
 nsIURI
-aIcon
+aFaviconURI
 )
 ;
 /
@@ -2412,7 +2412,7 @@ isFailedFavicon
 (
 in
 nsIURI
-aIcon
+aFaviconURI
 )
 ;
 /
@@ -2422,7 +2422,7 @@ aIcon
 The
 default
 favicon
-URL
+URI
 *
 /
 readonly
