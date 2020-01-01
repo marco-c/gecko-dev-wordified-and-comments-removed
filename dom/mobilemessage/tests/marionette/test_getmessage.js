@@ -1832,7 +1832,6 @@ sms
 .
 enabled
 "
-false
 )
 ;
 SpecialPowers

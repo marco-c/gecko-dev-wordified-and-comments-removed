@@ -4136,6 +4136,17 @@ aCreate
 ;
 }
 let
+normalizedAddress
+=
+PhoneNumberUtils
+.
+normalize
+(
+aAddress
+false
+)
+;
+let
 request
 =
 aParticipantStore
@@ -4149,7 +4160,7 @@ addresses
 .
 get
 (
-aAddress
+normalizedAddress
 )
 ;
 request
@@ -4213,7 +4224,7 @@ PhoneNumberUtils
 .
 parseWithMCC
 (
-aAddress
+normalizedAddress
 null
 )
 ;
@@ -4267,7 +4278,7 @@ participantRecord
 addresses
 :
 [
-aAddress
+normalizedAddress
 ]
 }
 ;
@@ -4396,7 +4407,7 @@ if
 parsedStoredAddress
 &
 &
-aAddress
+normalizedAddress
 .
 endsWith
 (
@@ -4432,7 +4443,7 @@ addresses
 .
 push
 (
-aAddress
+normalizedAddress
 )
 ;
 cursor
