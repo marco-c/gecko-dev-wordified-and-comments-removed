@@ -246,6 +246,10 @@ gfxSVGGlyphs
 .
 h
 \
+RoundedRect
+.
+h
+\
 (
 NULL
 )
