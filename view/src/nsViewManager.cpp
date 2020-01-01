@@ -253,11 +253,11 @@ mDelayedResize
 NSCOORD_NONE
 NSCOORD_NONE
 )
-mRootViewManager
-(
-this
-)
 {
+mRootViewManager
+=
+this
+;
 if
 (
 gViewManagers
