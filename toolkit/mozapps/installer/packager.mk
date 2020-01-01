@@ -505,6 +505,7 @@ filter
 out
 OS2
 WINNT
+BeOS
 (
 OS_ARCH
 )
@@ -524,9 +525,17 @@ INSTALLER_DIR
 =
 os2
 else
+ifeq
+(
+(
+OS_ARCH
+)
+WINNT
+)
 INSTALLER_DIR
 =
 windows
+endif
 endif
 else
 ifeq
