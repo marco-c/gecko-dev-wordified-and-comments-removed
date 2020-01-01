@@ -16145,7 +16145,7 @@ tempReg2
 ;
 GetTempRegForIntArg
 (
-2
+4
 0
 &
 tempReg1
@@ -16162,7 +16162,7 @@ ok
 =
 GetTempRegForIntArg
 (
-3
+5
 0
 &
 tempReg2
