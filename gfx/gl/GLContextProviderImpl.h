@@ -98,6 +98,14 @@ GLContext
 *
 GetGlobalContext
 (
+const
+ContextFlags
+aFlags
+=
+GLContext
+:
+:
+ContextFlagsNone
 )
 ;
 static

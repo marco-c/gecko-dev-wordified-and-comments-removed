@@ -1137,6 +1137,8 @@ GLContextProviderOSMesa
 :
 GetGlobalContext
 (
+const
+ContextFlags
 )
 {
 return

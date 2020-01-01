@@ -1709,6 +1709,9 @@ ContextFlagsNone
 ContextFlagsGlobal
 =
 0x1
+ContextFlagsMesaLLVMPipe
+=
+0x2
 }
 ;
 enum
