@@ -127,16 +127,6 @@ aResult
 const
 MOZ_OVERRIDE
 ;
-virtual
-bool
-IsEventAttributeName
-(
-nsIAtom
-*
-aName
-)
-MOZ_OVERRIDE
-;
 }
 ;
 }
