@@ -594,6 +594,12 @@ port
 file
 )
 ;
+#
+if
+defined
+(
+PR_LOGGING
+)
 if
 (
 NS_FAILED
@@ -620,6 +626,8 @@ rv
 )
 )
 ;
+#
+endif
 LOG
 (
 (
