@@ -4191,9 +4191,12 @@ self
 mLastActiveTime
 <
 =
+PRTime
+(
 2
 *
 PR_USEC_PER_SEC
+)
 )
 sleepInterval
 =
@@ -6441,7 +6444,7 @@ size_t
 1024
 )
 ;
-PRInt64
+PRUint64
 totalMemory
 =
 PR_GetPhysicalMemorySize
