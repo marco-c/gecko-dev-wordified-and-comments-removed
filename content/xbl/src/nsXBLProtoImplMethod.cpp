@@ -520,9 +520,6 @@ GetGlobalJSObject
 if
 (
 mJSMethodObject
-&
-&
-aTargetClassObject
 )
 {
 nsDependentString

@@ -441,6 +441,9 @@ JSObject
 *
 *
 aClassObject
+bool
+*
+aNew
 )
 ;
 bool

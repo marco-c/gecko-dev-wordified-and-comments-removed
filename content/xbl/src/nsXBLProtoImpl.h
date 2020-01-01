@@ -132,6 +132,9 @@ JSObject
 *
 *
 aTargetClassObject
+bool
+*
+aTargetIsNew
 )
 ;
 nsresult

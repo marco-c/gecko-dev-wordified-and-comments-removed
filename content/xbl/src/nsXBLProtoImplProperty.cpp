@@ -665,15 +665,10 @@ GetGlobalJSObject
 ;
 if
 (
-(
 mJSGetterObject
 |
 |
 mJSSetterObject
-)
-&
-&
-aTargetClassObject
 )
 {
 JSObject
