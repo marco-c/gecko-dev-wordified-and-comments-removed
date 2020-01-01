@@ -247,6 +247,14 @@ gInaccessibleProperties
 =
 {
 "
+-
+x
+-
+system
+-
+font
+"
+"
 margin
 -
 end

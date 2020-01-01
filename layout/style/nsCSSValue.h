@@ -104,6 +104,9 @@ eCSSUnit_None
 eCSSUnit_Normal
 =
 5
+eCSSUnit_System_Font
+=
+6
 eCSSUnit_String
 =
 10
@@ -259,7 +262,7 @@ NS_ASSERTION
 aUnit
 <
 =
-eCSSUnit_Normal
+eCSSUnit_System_Font
 "
 not
 a
@@ -272,7 +275,7 @@ if
 (
 aUnit
 >
-eCSSUnit_Normal
+eCSSUnit_System_Font
 )
 {
 mUnit
@@ -1196,6 +1199,14 @@ NS_HIDDEN_
 void
 )
 SetNormalValue
+(
+)
+;
+NS_HIDDEN_
+(
+void
+)
+SetSystemFontValue
 (
 )
 ;
