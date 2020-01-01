@@ -850,6 +850,12 @@ svg
 pass
 .
 svg
+random
+-
+if
+(
+gtk2Widget
+)
 =
 =
 dynamic
@@ -862,6 +868,13 @@ svg
 pass
 .
 svg
+#
+intermittent
+failures
+(
+bug
+886080
+)
 =
 =
 dynamic
