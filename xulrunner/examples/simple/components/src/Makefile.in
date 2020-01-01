@@ -474,13 +474,12 @@ NULL
 )
 EXTRA_COMPONENTS
 =
-(
-srcdir
-)
-/
 SimpleTest
 .
 js
+SimpleTest
+.
+manifest
 include
 (
 topsrcdir
