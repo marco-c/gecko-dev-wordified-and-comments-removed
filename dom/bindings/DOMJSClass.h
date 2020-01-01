@@ -446,8 +446,14 @@ aObj
 )
 ;
 typedef
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 (
 *
 ProtoGetter

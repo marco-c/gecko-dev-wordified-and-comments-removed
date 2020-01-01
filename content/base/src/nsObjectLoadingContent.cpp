@@ -12595,8 +12595,14 @@ pi_obj
 return
 ;
 }
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 my_proto
 =
 GetDOMClass
