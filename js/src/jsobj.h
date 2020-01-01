@@ -742,7 +742,7 @@ JSSLOT_PRIVATE
 =
 1
 ;
-class
+struct
 JSFunction
 ;
 struct
@@ -2074,7 +2074,7 @@ pthis
 private
 :
 friend
-class
+struct
 JSFunction
 ;
 static
