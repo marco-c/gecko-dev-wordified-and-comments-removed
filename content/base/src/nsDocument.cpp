@@ -20167,7 +20167,7 @@ nsGkAtoms
 :
 title
 nsnull
-kNameSpaceID_None
+kNameSpaceID_XHTML
 )
 ;
 if
