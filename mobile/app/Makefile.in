@@ -1463,7 +1463,7 @@ ico
 LIBXUL_DIST
 )
 /
-sdk
+host
 /
 bin
 /
