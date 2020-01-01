@@ -1063,6 +1063,15 @@ stuff
 ;
 if
 (
+!
+aCharsToMerge
+[
+mergeRunStart
+]
+)
+{
+if
+(
 anyMissing
 )
 {
@@ -1112,6 +1121,7 @@ Elements
 +
 offset
 ;
+}
 glyphs
 .
 Clear
