@@ -691,6 +691,10 @@ browser_bug479408_sample
 .
 html
 \
+browser_overflowScroll
+.
+js
+\
 (
 NULL
 )
