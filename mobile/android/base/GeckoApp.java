@@ -4167,9 +4167,9 @@ event
 equals
 (
 "
-Wallpaper
+Image
 :
-Set
+SetAs
 "
 )
 )
@@ -8818,9 +8818,9 @@ Image
 registerEventListener
 (
 "
-Wallpaper
+Image
 :
-Set
+SetAs
 "
 )
 ;
@@ -11736,9 +11736,9 @@ Image
 unregisterEventListener
 (
 "
-Wallpaper
+Image
 :
-Set
+SetAs
 "
 )
 ;
