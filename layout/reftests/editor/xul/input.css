@@ -243,6 +243,14 @@ color
 graytext
 ;
 }
+:
+root
+:
+not
+(
+.
+winxp
+)
 html
 |
 input
