@@ -1549,8 +1549,6 @@ nsCycleCollectionJSRuntime
 public
 nsIJSRuntimeService
 public
-nsIThreadJSContextStack
-public
 nsIJSEngineTelemetryStats
 {
 public
