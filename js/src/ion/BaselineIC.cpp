@@ -12913,6 +12913,8 @@ TypeScript
 Monitor
 (
 cx
+script
+pc
 res
 )
 ;
