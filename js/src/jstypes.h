@@ -772,14 +772,6 @@ typedef
 uint8_t
 JSPackedBool
 ;
-typedef
-intptr_t
-JSWord
-;
-typedef
-uintptr_t
-JSUword
-;
 #
 if
 defined

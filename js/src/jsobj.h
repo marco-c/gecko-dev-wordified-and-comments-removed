@@ -1406,7 +1406,7 @@ HeapValue
 *
 )
 (
-jsuword
+uintptr_t
 (
 this
 )
@@ -1434,7 +1434,7 @@ ObjectElements
 *
 )
 (
-jsuword
+uintptr_t
 (
 elems
 )
@@ -6171,7 +6171,7 @@ HeapValue
 *
 )
 (
-jsuword
+uintptr_t
 (
 this
 )

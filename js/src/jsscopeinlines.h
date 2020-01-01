@@ -1146,7 +1146,7 @@ const
 JSDHashNumber
 hash
 =
-jsuword
+uintptr_t
 (
 base
 )

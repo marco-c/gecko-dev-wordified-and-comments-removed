@@ -498,12 +498,12 @@ int
 _Optlink
 js_CompareAndSwap
 (
-jsword
+intptr_t
 *
 w
-jsword
+intptr_t
 ov
-jsword
+intptr_t
 nv
 )
 ;

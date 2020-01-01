@@ -364,7 +364,7 @@ inline
 void
 PoisonPtr
 (
-jsuword
+uintptr_t
 *
 v
 )
@@ -430,7 +430,7 @@ DEBUG
 uint32_t
 mask
 =
-jsuword
+uintptr_t
 (
 v
 )
@@ -9031,7 +9031,7 @@ JS_SetThreadStackLimit
 JSContext
 *
 cx
-jsuword
+uintptr_t
 limitAddr
 )
 ;
@@ -16055,7 +16055,7 @@ cx
 extern
 JS_PUBLIC_API
 (
-jsword
+intptr_t
 )
 JS_GetContextThread
 (
@@ -16067,7 +16067,7 @@ cx
 extern
 JS_PUBLIC_API
 (
-jsword
+intptr_t
 )
 JS_SetContextThread
 (
@@ -16079,7 +16079,7 @@ cx
 extern
 JS_PUBLIC_API
 (
-jsword
+intptr_t
 )
 JS_ClearContextThread
 (

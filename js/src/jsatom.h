@@ -558,7 +558,7 @@ atom
 JSHashNumber
 )
 (
-jsuword
+uintptr_t
 )
 (
 atom
@@ -574,7 +574,7 @@ JSHashNumber
 )
 (
 (
-jsuword
+uintptr_t
 )
 (
 atom

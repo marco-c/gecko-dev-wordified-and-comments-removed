@@ -3573,10 +3573,10 @@ key
 )
 ^
 (
+uintptr_t
 (
-jsuword
-)
 shape
+)
 >
 >
 3

@@ -32098,7 +32098,7 @@ HeapValue
 *
 )
 (
-jsuword
+uintptr_t
 (
 &
 emptyObjectHeader

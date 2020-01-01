@@ -659,7 +659,7 @@ fun
 extern
 JS_PUBLIC_API
 (
-jsuword
+uintptr_t
 *
 )
 JS_GetFunctionLocalNameArray
@@ -684,7 +684,7 @@ JSAtom
 )
 JS_LocalNameToAtom
 (
-jsuword
+uintptr_t
 w
 )
 ;

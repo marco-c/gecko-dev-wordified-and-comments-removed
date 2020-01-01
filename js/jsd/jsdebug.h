@@ -864,7 +864,7 @@ callerdata
 extern
 JSD_PUBLIC_API
 (
-jsuword
+uintptr_t
 )
 JSD_GetClosestPC
 (
@@ -891,7 +891,7 @@ jsdc
 JSDScript
 *
 jsdscript
-jsuword
+uintptr_t
 pc
 )
 ;
@@ -919,7 +919,7 @@ uintN
 *
 *
 lines
-jsuword
+uintptr_t
 *
 *
 pcs
@@ -1434,7 +1434,7 @@ jsdc
 JSDScript
 *
 jsdscript
-jsuword
+uintptr_t
 pc
 JSD_ExecutionHookProc
 hook
@@ -1456,7 +1456,7 @@ jsdc
 JSDScript
 *
 jsdscript
-jsuword
+uintptr_t
 pc
 )
 ;
@@ -1766,7 +1766,7 @@ jsdframe
 extern
 JSD_PUBLIC_API
 (
-jsuword
+uintptr_t
 )
 JSD_GetPCForStackFrame
 (

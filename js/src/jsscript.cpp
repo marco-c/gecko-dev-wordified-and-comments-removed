@@ -5826,7 +5826,7 @@ JS_ASSERT
 (
 reinterpret_cast
 <
-jsuword
+uintptr_t
 >
 (
 cursor

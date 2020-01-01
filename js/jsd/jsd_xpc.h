@@ -454,7 +454,7 @@ mPPLineMap
 PRUint32
 mPCMapSize
 ;
-jsuword
+uintptr_t
 mFirstPC
 ;
 }

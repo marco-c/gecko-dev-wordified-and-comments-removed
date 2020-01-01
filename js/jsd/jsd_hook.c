@@ -140,7 +140,7 @@ jsdlw_UserCodeAtPC
 jsdc
 jsdscript
 (
-jsuword
+uintptr_t
 )
 pc
 )
