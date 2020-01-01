@@ -119,12 +119,5 @@ StartProgressUpdates
 (
 )
 ;
-mDecoder
--
->
-UpdatePlaybackRate
-(
-)
-;
 }
 }
