@@ -482,6 +482,10 @@ close_worker
 .
 js
 \
+test_dataURLWorker
+.
+html
+\
 test_errorPropagation
 .
 html
