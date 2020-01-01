@@ -71,8 +71,6 @@ test
 /
 browser
 /
-perwindow
-/
 browser_privatebrowsing_placesTitleNoUpdate
 .
 html

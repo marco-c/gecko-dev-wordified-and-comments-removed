@@ -32,8 +32,6 @@ test
 /
 browser
 /
-perwindow
-/
 "
 +
 "

@@ -33,8 +33,6 @@ test
 /
 browser
 /
-perwindow
-/
 popup
 .
 html

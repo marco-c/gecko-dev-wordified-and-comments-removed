@@ -48,8 +48,6 @@ test
 /
 browser
 /
-perwindow
-/
 '
 ;
 function

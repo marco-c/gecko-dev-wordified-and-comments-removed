@@ -116,8 +116,6 @@ test
 /
 browser
 /
-perwindow
-/
 '
 +
 '
@@ -209,8 +207,6 @@ privatebrowsing
 test
 /
 browser
-/
-perwindow
 /
 '
 +
