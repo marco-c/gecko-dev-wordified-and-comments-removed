@@ -1,7 +1,7 @@
 #
 include
 "
-nsHTMLTableAccessible
+HTMLTableAccessible
 .
 h
 "
@@ -217,10 +217,10 @@ mozilla
 :
 a11y
 ;
-nsHTMLTableCellAccessible
+HTMLTableCellAccessible
 :
 :
-nsHTMLTableCellAccessible
+HTMLTableCellAccessible
 (
 nsIContent
 *
@@ -239,12 +239,12 @@ aDoc
 }
 NS_IMPL_ISUPPORTS_INHERITED1
 (
-nsHTMLTableCellAccessible
+HTMLTableCellAccessible
 HyperTextAccessible
 nsIAccessibleTableCell
 )
 role
-nsHTMLTableCellAccessible
+HTMLTableCellAccessible
 :
 :
 NativeRole
@@ -259,7 +259,7 @@ CELL
 ;
 }
 PRUint64
-nsHTMLTableCellAccessible
+HTMLTableCellAccessible
 :
 :
 NativeState
@@ -326,7 +326,7 @@ state
 ;
 }
 PRUint64
-nsHTMLTableCellAccessible
+HTMLTableCellAccessible
 :
 :
 NativeInteractiveState
@@ -349,7 +349,7 @@ SELECTABLE
 ;
 }
 nsresult
-nsHTMLTableCellAccessible
+HTMLTableCellAccessible
 :
 :
 GetAttributesInternal
@@ -615,7 +615,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLTableCellAccessible
+HTMLTableCellAccessible
 :
 :
 GetTable
@@ -668,7 +668,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLTableCellAccessible
+HTMLTableCellAccessible
 :
 :
 GetColumnIndex
@@ -723,7 +723,7 @@ aColumnIndex
 ;
 }
 NS_IMETHODIMP
-nsHTMLTableCellAccessible
+HTMLTableCellAccessible
 :
 :
 GetRowIndex
@@ -778,7 +778,7 @@ aRowIndex
 ;
 }
 NS_IMETHODIMP
-nsHTMLTableCellAccessible
+HTMLTableCellAccessible
 :
 :
 GetColumnExtent
@@ -842,7 +842,7 @@ aExtentCount
 ;
 }
 NS_IMETHODIMP
-nsHTMLTableCellAccessible
+HTMLTableCellAccessible
 :
 :
 GetRowExtent
@@ -906,7 +906,7 @@ aExtentCount
 ;
 }
 NS_IMETHODIMP
-nsHTMLTableCellAccessible
+HTMLTableCellAccessible
 :
 :
 GetColumnHeaderCells
@@ -948,7 +948,7 @@ aHeaderCells
 ;
 }
 NS_IMETHODIMP
-nsHTMLTableCellAccessible
+HTMLTableCellAccessible
 :
 :
 GetRowHeaderCells
@@ -990,7 +990,7 @@ aHeaderCells
 ;
 }
 NS_IMETHODIMP
-nsHTMLTableCellAccessible
+HTMLTableCellAccessible
 :
 :
 IsSelected
@@ -1066,7 +1066,7 @@ already_AddRefed
 <
 nsIAccessibleTable
 >
-nsHTMLTableCellAccessible
+HTMLTableCellAccessible
 :
 :
 GetTableAccessible
@@ -1150,7 +1150,7 @@ nsnull
 }
 nsITableCellLayout
 *
-nsHTMLTableCellAccessible
+HTMLTableCellAccessible
 :
 :
 GetCellLayout
@@ -1207,7 +1207,7 @@ cellLayout
 ;
 }
 nsresult
-nsHTMLTableCellAccessible
+HTMLTableCellAccessible
 :
 :
 GetCellIndexes
@@ -1245,7 +1245,7 @@ aColIndex
 ;
 }
 nsresult
-nsHTMLTableCellAccessible
+HTMLTableCellAccessible
 :
 :
 GetHeaderCells
@@ -1464,10 +1464,10 @@ return
 NS_OK
 ;
 }
-nsHTMLTableHeaderCellAccessible
+HTMLTableHeaderCellAccessible
 :
 :
-nsHTMLTableHeaderCellAccessible
+HTMLTableHeaderCellAccessible
 (
 nsIContent
 *
@@ -1477,7 +1477,7 @@ DocAccessible
 aDoc
 )
 :
-nsHTMLTableCellAccessible
+HTMLTableCellAccessible
 (
 aContent
 aDoc
@@ -1485,7 +1485,7 @@ aDoc
 {
 }
 role
-nsHTMLTableHeaderCellAccessible
+HTMLTableHeaderCellAccessible
 :
 :
 NativeRole
@@ -1711,10 +1711,10 @@ roles
 COLUMNHEADER
 ;
 }
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
-nsHTMLTableAccessible
+HTMLTableAccessible
 (
 nsIContent
 *
@@ -1737,12 +1737,12 @@ this
 }
 NS_IMPL_ISUPPORTS_INHERITED1
 (
-nsHTMLTableAccessible
+HTMLTableAccessible
 Accessible
 nsIAccessibleTable
 )
 void
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 Shutdown
@@ -1762,7 +1762,7 @@ Shutdown
 ;
 }
 void
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 CacheChildren
@@ -1850,7 +1850,7 @@ child
 }
 }
 role
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 NativeRole
@@ -1865,7 +1865,7 @@ TABLE
 ;
 }
 PRUint64
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 NativeState
@@ -1887,7 +1887,7 @@ READONLY
 ;
 }
 nsresult
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 GetNameInternal
@@ -1989,7 +1989,7 @@ NS_OK
 ;
 }
 nsresult
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 GetAttributesInternal
@@ -2054,7 +2054,7 @@ NS_OK
 ;
 }
 Relation
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 RelationByType
@@ -2099,7 +2099,7 @@ rel
 }
 Accessible
 *
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 Caption
@@ -2141,7 +2141,7 @@ nsnull
 ;
 }
 void
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 Summary
@@ -2177,7 +2177,7 @@ aSummary
 ;
 }
 PRUint32
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 ColCount
@@ -2222,7 +2222,7 @@ colCount
 ;
 }
 PRUint32
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 RowCount
@@ -2267,7 +2267,7 @@ rowCount
 ;
 }
 NS_IMETHODIMP
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 GetSelectedCellCount
@@ -2459,7 +2459,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 GetSelectedColumnCount
@@ -2554,7 +2554,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 GetSelectedRowCount
@@ -2649,7 +2649,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 GetSelectedCells
@@ -2909,7 +2909,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 GetSelectedCellIndices
@@ -3281,7 +3281,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 GetSelectedColumnIndices
@@ -3484,7 +3484,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 GetSelectedRowIndices
@@ -3688,7 +3688,7 @@ rv
 }
 Accessible
 *
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 CellAt
@@ -3768,7 +3768,7 @@ cell
 ;
 }
 PRInt32
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 CellIndexAt
@@ -3809,7 +3809,7 @@ index
 ;
 }
 NS_IMETHODIMP
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 GetColumnIndexAt
@@ -3894,7 +3894,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 GetRowIndexAt
@@ -3979,7 +3979,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 GetRowAndColumnIndicesAt
@@ -4071,7 +4071,7 @@ NS_OK
 ;
 }
 PRUint32
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 ColExtentAt
@@ -4148,7 +4148,7 @@ columnExtent
 ;
 }
 PRUint32
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 RowExtentAt
@@ -4225,7 +4225,7 @@ rowExtent
 ;
 }
 NS_IMETHODIMP
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 GetColumnDescription
@@ -4242,7 +4242,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 GetRowDescription
@@ -4259,7 +4259,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 IsColumnSelected
@@ -4393,7 +4393,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 IsRowSelected
@@ -4527,7 +4527,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 IsCellSelected
@@ -4622,7 +4622,7 @@ rv
 ;
 }
 NS_IMETHODIMP
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 SelectRow
@@ -4671,7 +4671,7 @@ TABLESELECTION_ROW
 ;
 }
 NS_IMETHODIMP
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 SelectColumn
@@ -4720,7 +4720,7 @@ TABLESELECTION_COLUMN
 ;
 }
 void
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 UnselectRow
@@ -4741,7 +4741,7 @@ false
 ;
 }
 void
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 UnselectCol
@@ -4762,7 +4762,7 @@ false
 ;
 }
 nsresult
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 AddRowOrColumnToSelection
@@ -4991,7 +4991,7 @@ NS_OK
 ;
 }
 nsresult
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 RemoveRowsOrColumnsFromSelection
@@ -5163,7 +5163,7 @@ endColIdx
 }
 nsITableLayout
 *
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 GetTableLayout
@@ -5203,7 +5203,7 @@ tableLayout
 ;
 }
 nsresult
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 GetCellAt
@@ -5281,7 +5281,7 @@ rv
 ;
 }
 void
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 Description
@@ -5434,7 +5434,7 @@ get
 endif
 }
 bool
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 HasDescendant
@@ -5593,7 +5593,7 @@ foundItem
 ;
 }
 bool
-nsHTMLTableAccessible
+HTMLTableAccessible
 :
 :
 IsProbablyLayoutTable
@@ -6847,7 +6847,7 @@ data
 ;
 }
 Relation
-nsHTMLCaptionAccessible
+HTMLCaptionAccessible
 :
 :
 RelationByType
@@ -6891,7 +6891,7 @@ rel
 ;
 }
 role
-nsHTMLCaptionAccessible
+HTMLCaptionAccessible
 :
 :
 NativeRole

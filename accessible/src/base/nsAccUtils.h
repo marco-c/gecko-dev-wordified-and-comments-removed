@@ -102,9 +102,6 @@ class
 HyperTextAccessible
 ;
 class
-nsHTMLTableAccessible
-;
-class
 DocAccessible
 ;
 struct

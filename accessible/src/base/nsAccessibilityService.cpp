@@ -101,6 +101,13 @@ h
 #
 include
 "
+HTMLTableAccessibleWrap
+.
+h
+"
+#
+include
+"
 HyperTextAccessibleWrap
 .
 h
@@ -130,13 +137,6 @@ h
 include
 "
 nsIAccessibleProvider
-.
-h
-"
-#
-include
-"
-nsHTMLTableAccessibleWrap
 .
 h
 "
@@ -1645,7 +1645,7 @@ Accessible
 accessible
 =
 new
-nsHTMLTableAccessibleWrap
+HTMLTableAccessibleWrap
 (
 aContent
 GetDocAccessible
@@ -1685,7 +1685,7 @@ Accessible
 accessible
 =
 new
-nsHTMLTableCellAccessibleWrap
+HTMLTableCellAccessibleWrap
 (
 aContent
 GetDocAccessible
@@ -1969,7 +1969,7 @@ Accessible
 accessible
 =
 new
-nsHTMLCaptionAccessible
+HTMLCaptionAccessible
 (
 aContent
 GetDocAccessible
@@ -7977,7 +7977,7 @@ Accessible
 accessible
 =
 new
-nsHTMLTableHeaderCellAccessibleWrap
+HTMLTableHeaderCellAccessibleWrap
 (
 aContent
 aDoc
