@@ -7619,7 +7619,7 @@ parent
 ContentParent
 :
 :
-GetSingleton
+GetNewOrUsed
 (
 )
 ;
