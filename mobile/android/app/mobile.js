@@ -3794,7 +3794,7 @@ touch
 .
 left
 "
-8
+32
 )
 ;
 pref
@@ -3808,7 +3808,7 @@ touch
 .
 right
 "
-8
+32
 )
 ;
 pref
@@ -3822,7 +3822,7 @@ touch
 .
 top
 "
-12
+48
 )
 ;
 pref
@@ -3836,7 +3836,7 @@ touch
 .
 bottom
 "
-4
+16
 )
 ;
 pref

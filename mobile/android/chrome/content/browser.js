@@ -17009,6 +17009,15 @@ target
 null
 ;
 let
+zoom
+=
+BrowserApp
+.
+selectedTab
+.
+_zoom
+;
+let
 nodes
 =
 aWindowUtils
@@ -17024,6 +17033,8 @@ radius
 top
 *
 dpiRatio
+/
+zoom
 this
 .
 radius
@@ -17031,6 +17042,8 @@ radius
 right
 *
 dpiRatio
+/
+zoom
 this
 .
 radius
@@ -17038,6 +17051,8 @@ radius
 bottom
 *
 dpiRatio
+/
+zoom
 this
 .
 radius
@@ -17045,6 +17060,8 @@ radius
 left
 *
 dpiRatio
+/
+zoom
 true
 false
 )
