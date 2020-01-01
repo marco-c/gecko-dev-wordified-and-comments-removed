@@ -8398,6 +8398,13 @@ mIDList
 aSelector
 -
 >
+mClassList
+&
+&
+!
+aSelector
+-
+>
 mAttrList
 &
 &
