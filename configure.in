@@ -38210,7 +38210,6 @@ PKG_CHECK_MODULES
 MOZ_QT
 QtGui
 QtNetwork
-QtUiTools
 QtCore
 )
 AC_SUBST
