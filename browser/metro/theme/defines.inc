@@ -20,6 +20,13 @@ panel_light_color
 F1F1F1
 %
 define
+panel_light_background
+url
+(
+chrome
+:
+%
+define
 field_sizing
 30px
 %
