@@ -56,6 +56,20 @@ __imp__frex
 '
 )
     
+data
+=
+data
+.
+replace
+(
+'
+__imp_free
+'
+'
+__imp_frex
+'
+)
+    
 outfile
 .
 write
