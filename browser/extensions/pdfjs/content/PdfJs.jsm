@@ -1282,6 +1282,8 @@ this
 _pdfRedirectorFactory
 .
 unregister
+(
+)
 ;
 delete
 this
