@@ -2986,7 +2986,6 @@ new
 nsContextMenu
 (
 this
-gBrowser
 event
 .
 shiftKey
@@ -10351,6 +10350,11 @@ type
 =
 "
 content
+"
+context
+=
+"
+contentAreaContextMenu
 "
 disableglobalhistory
 =

@@ -173,7 +173,6 @@ new
 nsContextMenu
 (
 contentAreaContextMenu
-gBrowser
 )
 ;
 ok
