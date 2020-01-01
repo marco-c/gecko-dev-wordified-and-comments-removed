@@ -745,6 +745,10 @@ result
 loadInfo
 .
 scriptObj
+.
+ToJSObject
+(
+)
 )
 {
 continue
@@ -756,6 +760,10 @@ NS_ASSERTION
 loadInfo
 .
 scriptObj
+.
+ToJSObject
+(
+)
 "
 Inconsistent
 state
@@ -984,6 +992,10 @@ aCx
 loadInfo
 .
 scriptObj
+.
+ToJSObject
+(
+)
 )
 )
 ;
@@ -2878,6 +2890,10 @@ NS_ASSERTION
 (
 !
 mScriptObj
+.
+ToJSObject
+(
+)
 "
 Already
 have
@@ -3047,6 +3063,10 @@ script
 NS_ENSURE_STATE
 (
 mScriptObj
+.
+ToJSObject
+(
+)
 )
 ;
 return

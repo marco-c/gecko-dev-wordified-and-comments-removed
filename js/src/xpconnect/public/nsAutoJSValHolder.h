@@ -180,9 +180,9 @@ return
 mHeld
 ;
 }
-operator
 JSObject
 *
+ToJSObject
 (
 )
 const
@@ -198,7 +198,7 @@ JSVAL_TO_OBJECT
 mVal
 )
 :
-JSVAL_NULL
+NULL
 ;
 }
 operator
