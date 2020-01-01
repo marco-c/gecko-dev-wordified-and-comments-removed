@@ -56,7 +56,7 @@ JSCLASS_NO_OPTIONAL_MEMBERS
 ;
 BEGIN_TEST
 (
-testPropCache_bug505798
+testPropCache_bug505523
 )
 {
 g_counter
@@ -141,10 +141,6 @@ n
 "
 )
 ;
-knownFail
-=
-true
-;
 CHECK
 (
 g_counter
@@ -159,5 +155,5 @@ true
 }
 END_TEST
 (
-testPropCache_bug505798
+testPropCache_bug505523
 )
