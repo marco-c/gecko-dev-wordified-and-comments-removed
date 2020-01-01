@@ -9,7 +9,7 @@ PACKAGE_VERSION
 '
 0
 .
-0
+1
 '
 try
 :
@@ -80,13 +80,15 @@ PACKAGE_VERSION
 description
 =
 "
-common
+Library
+of
 file
 utilities
 for
+use
+in
 Mozilla
-python
-usage
+testing
 "
       
 long_description
