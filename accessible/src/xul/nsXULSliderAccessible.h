@@ -96,11 +96,9 @@ ActionCount
 ;
 protected
 :
-already_AddRefed
-<
 nsIContent
->
-GetSliderNode
+*
+GetSliderElement
 (
 )
 ;
@@ -152,7 +150,7 @@ private
 :
 nsCOMPtr
 <
-nsIDOMElement
+nsIContent
 >
 mSliderNode
 ;

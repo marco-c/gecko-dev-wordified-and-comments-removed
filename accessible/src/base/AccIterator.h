@@ -32,13 +32,6 @@ DocAccessible
 .
 h
 "
-#
-include
-"
-nsIDOMDocumentXBL
-.
-h
-"
 class
 AccIterable
 {
