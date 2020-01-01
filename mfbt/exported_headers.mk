@@ -175,6 +175,10 @@ HashFunctions
 .
 h
 \
+IntegerPrintfMacros
+.
+h
+\
 Likely
 .
 h

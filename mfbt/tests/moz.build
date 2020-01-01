@@ -143,6 +143,11 @@ TestFloatingPoint
 cpp
 '
 '
+TestIntegerPrintfMacros
+.
+cpp
+'
+'
 TestSHA1
 .
 cpp
