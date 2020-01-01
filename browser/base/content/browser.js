@@ -15715,6 +15715,12 @@ if
 (
 !
 searchBar
+|
+|
+!
+searchBar
+.
+searchButton
 )
 return
 ;
