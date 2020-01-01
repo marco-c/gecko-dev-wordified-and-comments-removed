@@ -595,6 +595,12 @@ mode
 .
 js
 \
+browser_dbg_select
+-
+line
+.
+js
+\
 head
 .
 js
