@@ -106,13 +106,6 @@ h
 #
 include
 "
-jsscan
-.
-h
-"
-#
-include
-"
 jsstr
 .
 h

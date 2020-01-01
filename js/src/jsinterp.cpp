@@ -176,13 +176,6 @@ h
 #
 include
 "
-jsscan
-.
-h
-"
-#
-include
-"
 jsemit
 .
 h
