@@ -16759,6 +16759,7 @@ if
 needsRestart
 )
 {
+let
 buttons
 =
 [
