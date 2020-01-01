@@ -600,6 +600,17 @@ ifeq
 (
 machine
 )
+ppc
+)
+arch
+=
+ppc
+else
+ifeq
+(
+(
+machine
+)
 Power
 Macintosh
 )
@@ -633,6 +644,7 @@ unsupported
 machine
 )
 )
+endif
 endif
 endif
 endif
