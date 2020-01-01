@@ -126,6 +126,13 @@ h
 #
 include
 "
+prmem
+.
+h
+"
+#
+include
+"
 FileIOObject
 .
 h
@@ -336,7 +343,7 @@ FreeFileData
 (
 )
 {
-moz_free
+PR_Free
 (
 mFileData
 )

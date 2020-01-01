@@ -84,6 +84,13 @@ h
 #
 include
 "
+prmem
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h
@@ -1892,7 +1899,7 @@ sDataOwners
 nullptr
 ;
 }
-moz_free
+PR_Free
 (
 mData
 )
