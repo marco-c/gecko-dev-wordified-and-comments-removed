@@ -83,7 +83,7 @@ IMETHOD_VISIBILITY
 define
 IMETHOD_VISIBILITY
 NS_VISIBILITY_DEFAULT
-struct
+class
 nsCycleCollectionParticipant
 ;
 struct
