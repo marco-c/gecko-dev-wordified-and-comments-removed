@@ -1384,6 +1384,10 @@ return
 stackLimit
 ;
 }
+MOZ_DECL_CTOR_COUNTER
+(
+xpcPerThreadData
+)
 XPCPerThreadData
 :
 :
@@ -1454,6 +1458,11 @@ mWrappedNativeThreadsafetyReportDepth
 #
 endif
 {
+MOZ_COUNT_CTOR
+(
+xpcPerThreadData
+)
+;
 if
 (
 gLock
@@ -1531,6 +1540,11 @@ XPCPerThreadData
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+xpcPerThreadData
+)
+;
 Cleanup
 (
 )

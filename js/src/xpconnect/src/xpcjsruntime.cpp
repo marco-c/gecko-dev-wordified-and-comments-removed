@@ -2634,14 +2634,11 @@ proto
 >
 SystemIsBeingShutDown
 (
-*
 (
-(
-XPCCallContext
+JSContext
 *
 )
 arg
-)
 )
 ;
 return
@@ -2654,9 +2651,9 @@ XPCJSRuntime
 :
 SystemIsBeingShutDown
 (
-XPCCallContext
+JSContext
 *
-ccx
+cx
 )
 {
 if
@@ -2669,7 +2666,7 @@ mDetachedWrappedNativeProtoMap
 Enumerate
 (
 DetachedWrappedNativeProtoShutdownMarker
-ccx
+cx
 )
 ;
 }
