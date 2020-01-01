@@ -222,9 +222,7 @@ newtab
 -
 button
 #
-navigator
--
-toolbox
+TabsToolbar
 [
 customizing
 =
@@ -232,9 +230,6 @@ customizing
 true
 "
 ]
->
-#
-TabsToolbar
 >
 #
 tabbrowser
