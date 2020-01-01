@@ -66,6 +66,13 @@ h
 #
 include
 "
+nsMemoryPressure
+.
+h
+"
+#
+include
+"
 nsPrintfCString
 .
 h
@@ -731,8 +738,9 @@ notification
 "
 )
 ;
-ScheduleMemoryPressureEvent
+NS_DispatchEventualMemoryPressure
 (
+MemPressure_New
 )
 ;
 return
@@ -819,8 +827,9 @@ PR_ATOMIC_INCREMENT
 sNumLowVirtualMemEvents
 )
 ;
-ScheduleMemoryPressureEvent
+NS_DispatchEventualMemoryPressure
 (
+MemPressure_New
 )
 ;
 }
