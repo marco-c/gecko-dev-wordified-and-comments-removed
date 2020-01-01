@@ -2641,7 +2641,7 @@ gecko
 /
 gfx
 /
-ViewportMetrics
+ImmutableViewportMetrics
 ;
 )
 Lorg
@@ -2671,7 +2671,7 @@ gecko
 /
 gfx
 /
-ViewportMetrics
+ImmutableViewportMetrics
 "
 )
 ;
