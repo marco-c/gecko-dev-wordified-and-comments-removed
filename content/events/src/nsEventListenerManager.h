@@ -417,9 +417,9 @@ IsEmpty
 aEvent
 -
 >
-flags
-&
-NS_EVENT_FLAG_STOP_DISPATCH
+mFlags
+.
+mPropagationStopped
 )
 {
 return

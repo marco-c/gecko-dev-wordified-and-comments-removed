@@ -2177,10 +2177,11 @@ aVisitor
 mEvent
 -
 >
-flags
-|
+mFlags
+.
+mPropagationStopped
 =
-NS_EVENT_FLAG_STOP_DISPATCH
+true
 ;
 }
 return
