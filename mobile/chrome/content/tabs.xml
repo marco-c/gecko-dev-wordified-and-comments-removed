@@ -506,15 +506,7 @@ save
 ;
 ctx
 .
-fillStyle
-=
-"
-white
-"
-;
-ctx
-.
-fillRect
+clearRect
 (
 0
 0
