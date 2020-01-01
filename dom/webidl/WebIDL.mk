@@ -667,6 +667,10 @@ SVGUnitTypes
 .
 webidl
 \
+SVGUseElement
+.
+webidl
+\
 SVGURIReference
 .
 webidl
