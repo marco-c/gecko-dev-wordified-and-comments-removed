@@ -4869,6 +4869,9 @@ ifdef
 MOZ_SVG
 if
 (
+mDocument
+&
+&
 content
 -
 >
