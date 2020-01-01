@@ -877,6 +877,10 @@ GeckoEventListener
 .
 java
 \
+GeckoEventResponder
+.
+java
+\
 GeckoInputConnection
 .
 java
