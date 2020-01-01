@@ -14767,6 +14767,13 @@ reftest
 -
 print
 )
+.
+existing
+assertions
+are
+bug
+457400
+.
 =
 =
 427129
@@ -20677,6 +20684,9 @@ html
 ref
 .
 html
+#
+bug
+512749
 =
 =
 528096

@@ -4,13 +4,6 @@ load
 1
 .
 xhtml
-#
-asserts
-(
-no
-bug
-?
-)
 load
 382778
 -

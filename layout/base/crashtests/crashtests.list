@@ -296,6 +296,9 @@ load
 1
 .
 html
+#
+Bug
+576358
 asserts
 (
 4
@@ -306,6 +309,9 @@ load
 1
 .
 html
+#
+Bug
+575011
 load
 268157
 -
@@ -1294,6 +1300,10 @@ load
 1
 .
 svg
+#
+Bug
+563481
+?
 load
 414058
 -
@@ -1464,6 +1474,9 @@ load
 1
 .
 xhtml
+#
+Bug
+575011
 load
 454751
 -

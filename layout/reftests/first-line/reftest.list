@@ -235,6 +235,13 @@ assertion
 /
 crash
 test
+.
+existing
+assertions
+are
+bug
+512749
+.
 load
 stress
 -

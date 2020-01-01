@@ -92,6 +92,9 @@ load
 1
 .
 xhtml
+#
+Bug
+385845
 load
 326834
 -
@@ -318,6 +321,9 @@ load
 1
 .
 xhtml
+#
+Bug
+163838
 load
 420424
 -
@@ -344,6 +350,9 @@ load
 1
 .
 xul
+#
+Bug
+576174
 load
 432068
 -
