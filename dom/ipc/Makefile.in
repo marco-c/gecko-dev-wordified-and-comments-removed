@@ -563,14 +563,6 @@ bluetooth
 /
 ipc
 \
--
-I
-(
-topsrcdir
-)
-/
-hal
-\
 (
 NULL
 )
