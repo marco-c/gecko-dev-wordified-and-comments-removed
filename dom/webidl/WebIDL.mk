@@ -359,6 +359,10 @@ FileList
 .
 webidl
 \
+FileMode
+.
+webidl
+\
 FileReader
 .
 webidl
@@ -756,6 +760,10 @@ MozMmsMessage
 webidl
 \
 MozNamedAttrMap
+.
+webidl
+\
+MozTimeManager
 .
 webidl
 \
