@@ -601,6 +601,17 @@ IsFinished
 (
 )
 ;
+nsresult
+FailDownload
+(
+nsresult
+aStatus
+const
+PRUnichar
+*
+aMessage
+)
+;
 nsDownloadManager
 *
 mDownloadManager
