@@ -180,6 +180,11 @@ aImage
 )
 ;
 void
+ClearCurrentFrame
+(
+)
+;
+void
 SetFrameCallback
 (
 CameraPreviewFrameCallback

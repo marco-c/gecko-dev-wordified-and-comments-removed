@@ -1117,6 +1117,13 @@ aForced
 return
 ;
 }
+mInput
+-
+>
+ClearCurrentFrame
+(
+)
+;
 DOM_CAMERA_LOGI
 (
 "
