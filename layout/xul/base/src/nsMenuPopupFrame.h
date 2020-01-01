@@ -351,7 +351,6 @@ EnsureWidget
 (
 )
 ;
-virtual
 nsresult
 CreateWidgetForView
 (

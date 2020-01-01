@@ -235,15 +235,6 @@ return
 PR_TRUE
 ;
 }
-virtual
-nsresult
-CreateWidgetForView
-(
-nsIView
-*
-aView
-)
-;
 #
 ifdef
 DEBUG
