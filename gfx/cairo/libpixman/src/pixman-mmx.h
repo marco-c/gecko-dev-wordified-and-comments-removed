@@ -1,4 +1,10 @@
 #
+ifndef
+_PIXMAN_MMX_H_
+#
+define
+_PIXMAN_MMX_H_
+#
 ifdef
 HAVE_DIX_CONFIG_H
 #
@@ -766,5 +772,7 @@ uint16_t
 height
 )
 ;
+#
+endif
 #
 endif
