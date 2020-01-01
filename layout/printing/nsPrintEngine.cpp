@@ -8769,6 +8769,17 @@ rv
 rv
 )
 ;
+aPO
+-
+>
+mPresShell
+-
+>
+FlushPendingNotifications
+(
+Flush_OnlyReflow
+)
+;
 nsCOMPtr
 <
 nsIPresShell
