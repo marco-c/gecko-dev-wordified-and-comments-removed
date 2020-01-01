@@ -1807,6 +1807,16 @@ nsILookAndFeel
 :
 :
 eColor__moz_html_cellhighlighttext
+eCSSKeyword__moz_mac_chrome_active
+nsILookAndFeel
+:
+:
+eColor__moz_mac_chrome_active
+eCSSKeyword__moz_mac_chrome_inactive
+nsILookAndFeel
+:
+:
+eColor__moz_mac_chrome_inactive
 eCSSKeyword__moz_mac_focusring
 nsILookAndFeel
 :
