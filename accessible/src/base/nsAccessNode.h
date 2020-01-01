@@ -622,15 +622,6 @@ nsIStringBundle
 *
 gKeyStringBundle
 ;
-#
-ifdef
-DEBUG
-static
-PRBool
-gIsAccessibilityActive
-;
-#
-endif
 static
 PRBool
 gIsCacheDisabled
