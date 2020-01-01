@@ -2119,6 +2119,12 @@ init
 (
 )
 ;
+WeaveGlue
+.
+init
+(
+)
+;
 }
 )
 ;
