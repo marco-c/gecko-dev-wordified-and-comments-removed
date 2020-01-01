@@ -428,7 +428,7 @@ IsDBCS
 ;
 extern
 nsGfxModuleData
-gModuleData
+gGfxModuleData
 ;
 #
 ifndef
