@@ -1918,6 +1918,11 @@ SampleSet
 sample
 )
 ;
+void
+Clear
+(
+)
+;
 virtual
 void
 SetRangeDescriptions
