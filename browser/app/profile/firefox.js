@@ -2996,6 +2996,16 @@ pref
 "
 dom
 .
+disable_window_status_change
+"
+true
+)
+;
+pref
+(
+"
+dom
+.
 disable_window_move_resize
 "
 false
