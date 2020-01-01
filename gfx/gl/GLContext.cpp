@@ -4983,7 +4983,10 @@ IsDestroyed
 |
 |
 !
-NS_IsMainThread
+ctx
+-
+>
+IsOwningThreadCurrent
 (
 )
 )
