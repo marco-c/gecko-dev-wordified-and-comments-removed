@@ -369,6 +369,10 @@ pfd
 if
 (
 !
+gSharedWindowPixelFormat
+|
+|
+!
 SetPixelFormat
 (
 dc
