@@ -509,11 +509,8 @@ GetObjectProto
 (
 cx
 proxy
+&
 proto
-.
-address
-(
-)
 )
 )
 {
@@ -961,11 +958,8 @@ GetObjectProto
 (
 cx
 proxy
+&
 proto
-.
-address
-(
-)
 )
 )
 {

@@ -280,11 +280,8 @@ GetObjectProto
 (
 cx
 obj
+&
 proto
-.
-address
-(
-)
 )
 )
 return
@@ -1832,11 +1829,8 @@ GetObjectProto
 (
 cx
 obj
+&
 unwrappedProto
-.
-address
-(
-)
 )
 )
 return
