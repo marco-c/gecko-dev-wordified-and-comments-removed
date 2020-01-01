@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsIURI
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -77,6 +70,9 @@ ALTERNATE
 0x00000010
 class
 nsIDocument
+;
+class
+nsIURI
 ;
 class
 nsStyleLinkElement
