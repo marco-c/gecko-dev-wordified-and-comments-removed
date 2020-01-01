@@ -5642,6 +5642,7 @@ gl
 >
 ApplyFilterToBoundTexture
 (
+LOCAL_GL_TEXTURE_EXTERNAL
 mFilter
 )
 ;
