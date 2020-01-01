@@ -558,6 +558,10 @@ test_ended2
 .
 html
 \
+test_error_on_404
+.
+html
+\
 test_onloadedmetadata
 .
 html
