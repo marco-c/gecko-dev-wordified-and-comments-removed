@@ -5373,6 +5373,11 @@ gfxRect
 aDestRect
 )
 ;
+nsRect
+GetBoundsInternal
+(
+)
+;
 const
 nsStyleBackground
 *
@@ -5386,6 +5391,9 @@ mImageContainer
 ;
 gfxRect
 mDestRect
+;
+nsRect
+mBounds
 ;
 uint32_t
 mLayer
