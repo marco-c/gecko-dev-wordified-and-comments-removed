@@ -28,29 +28,6 @@ etc
 "
 "
 "
-summ
-=
-"
-"
-"
-Reliable
-start
-/
-stop
-/
-configuration
-of
-Mozilla
-Applications
-(
-Firefox
-Thunderbird
-etc
-.
-)
-"
-"
-"
 PACKAGE_NAME
 =
 "
@@ -80,7 +57,6 @@ version_info
 =
 2
 if
-not
 sys
 .
 version_info
@@ -99,26 +75,6 @@ append
 simplejson
 '
 )
-if
-not
-sys
-.
-version_info
-[
-1
-]
-<
-5
-:
-    
-deps
-.
-append
-(
-'
-elementtree
-'
-)
 setup
 (
 name
@@ -135,7 +91,7 @@ desc
       
 long_description
 =
-summ
+desc
       
 author
 =
@@ -219,6 +175,12 @@ mozrunner
 mozrunner
 :
 cli
+          
+addon_id
+=
+mozrunner
+:
+print_addon_ids
         
 "
 "

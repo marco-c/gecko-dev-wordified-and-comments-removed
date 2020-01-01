@@ -51,6 +51,18 @@ argv
 :
 ]
   
+print
+'
+Python
+:
+%
+s
+'
+%
+sys
+.
+version
+  
 source
 =
 os
@@ -226,6 +238,8 @@ PYTHONHOME
 None
 )
   
+returncode
+=
 call
 (
 [
@@ -244,6 +258,25 @@ destination
 env
 =
 env
+)
+  
+if
+returncode
+:
+    
+print
+'
+Failure
+to
+install
+virtualenv
+'
+    
+sys
+.
+exit
+(
+returncode
 )
   
 if
@@ -298,6 +331,8 @@ pip
 '
 )
   
+returncode
+=
 call
 (
 [
@@ -311,6 +346,25 @@ PACKAGES
 env
 =
 env
+)
+  
+if
+returncode
+:
+    
+print
+'
+Failure
+to
+install
+packages
+'
+    
+sys
+.
+exit
+(
+returncode
 )
 if
 __name__
