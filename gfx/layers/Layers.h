@@ -969,6 +969,10 @@ aPrefix
 =
 "
 "
+bool
+aDumpHtml
+=
+false
 )
 ;
 void
@@ -2115,6 +2119,10 @@ aPrefix
 =
 "
 "
+bool
+aDumpHtml
+=
+false
 )
 ;
 void
