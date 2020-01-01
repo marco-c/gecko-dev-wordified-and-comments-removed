@@ -390,10 +390,10 @@ BLOCK
 *
 ifneq
 (
+android
 (
-OS_TARGET
+MOZ_WIDGET_TOOLKIT
 )
-Android
 )
 MOZ_CHILD_PROCESS_NAME
 :

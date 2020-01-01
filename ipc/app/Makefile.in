@@ -478,9 +478,9 @@ NULL
 )
 ifeq
 (
-Android
+android
 (
-OS_TARGET
+MOZ_WIDGET_TOOLKIT
 )
 )
 WRAP_LDFLAGS
@@ -607,10 +607,10 @@ config
 mk
 ifeq
 (
+android
 (
-OS_TARGET
+MOZ_WIDGET_TOOLKIT
 )
-Android
 )
 FINAL_TARGET
 =
