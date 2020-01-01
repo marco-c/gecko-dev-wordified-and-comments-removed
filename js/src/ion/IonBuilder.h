@@ -1629,7 +1629,7 @@ name
 )
 ;
 bool
-jsop_intrinsicname
+jsop_intrinsic
 (
 HandlePropertyName
 name
