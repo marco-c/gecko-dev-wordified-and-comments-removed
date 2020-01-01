@@ -480,10 +480,6 @@ nsIDOMStorageList
 .
 idl
 \
-nsIDOMStorageWindow
-.
-idl
-\
 (
 NULL
 )

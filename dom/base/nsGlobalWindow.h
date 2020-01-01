@@ -336,13 +336,6 @@ h
 #
 include
 "
-nsIDOMStorageWindow
-.
-h
-"
-#
-include
-"
 nsIDOMStorageEvent
 .
 h
@@ -749,8 +742,6 @@ public
 nsIScriptObjectPrincipal
 public
 nsIDOMEventTarget
-public
-nsIDOMStorageWindow
 public
 nsIDOMStorageIndexedDB
 public
@@ -1245,7 +1236,7 @@ char
 aEventName
 )
 ;
-NS_DECL_NSIDOMSTORAGEWINDOW
+NS_DECL_NSIDOMSTORAGEINDEXEDDB
 NS_DECL_NSIINTERFACEREQUESTOR
 nsGlobalWindow
 (
