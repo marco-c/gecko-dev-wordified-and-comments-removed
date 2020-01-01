@@ -17,7 +17,7 @@ main
 trap
 (
 main
-38
+28
 "
 success
 (
