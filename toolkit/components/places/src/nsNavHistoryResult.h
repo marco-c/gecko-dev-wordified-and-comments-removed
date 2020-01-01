@@ -2809,9 +2809,6 @@ PRUint16
 aOldState
 )
 ;
-PRBool
-mAsyncEnabled
-;
 nsCOMPtr
 <
 mozIStoragePendingStatement
