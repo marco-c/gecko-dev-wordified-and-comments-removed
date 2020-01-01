@@ -111,6 +111,9 @@ ImageClient
 class
 SharedPlanarYCbCrImage
 ;
+class
+DeprecatedSharedPlanarYCbCrImage
+;
 struct
 ImageBackendData
 {
@@ -1402,6 +1405,17 @@ virtual
 SharedPlanarYCbCrImage
 *
 AsSharedPlanarYCbCrImage
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+DeprecatedSharedPlanarYCbCrImage
+*
+AsDeprecatedSharedPlanarYCbCrImage
 (
 )
 {

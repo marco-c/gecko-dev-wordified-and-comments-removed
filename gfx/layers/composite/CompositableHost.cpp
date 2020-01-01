@@ -262,7 +262,7 @@ BUFFER_IMAGE_BUFFERED
 result
 =
 new
-ImageHostBuffered
+DeprecatedImageHostBuffered
 (
 aTextureInfo
 )
@@ -276,7 +276,7 @@ BUFFER_IMAGE_SINGLE
 result
 =
 new
-ImageHostSingle
+DeprecatedImageHostSingle
 (
 aTextureInfo
 )
