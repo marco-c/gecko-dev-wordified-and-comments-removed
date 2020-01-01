@@ -166,3 +166,15 @@ bar
 "
 0
 )
+CSS_PSEUDO_ELEMENT
+(
+mozPlaceholder
+"
+:
+-
+moz
+-
+placeholder
+"
+0
+)
