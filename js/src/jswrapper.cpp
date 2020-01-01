@@ -2391,6 +2391,13 @@ getGlobal
 (
 )
 ;
+fp
+-
+>
+flags
+=
+JSFRAME_DUMMY
+;
 regs
 .
 pc
