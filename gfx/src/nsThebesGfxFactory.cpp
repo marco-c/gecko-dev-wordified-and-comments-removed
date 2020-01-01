@@ -38,13 +38,6 @@ h
 #
 include
 "
-nsDeviceContext
-.
-h
-"
-#
-include
-"
 gfxPlatform
 .
 h
@@ -259,13 +252,6 @@ nsThebesGfxModuleDtor
 (
 )
 {
-nsDeviceContext
-:
-:
-ClearCachedSystemFonts
-(
-)
-;
 gfxPlatform
 :
 :
