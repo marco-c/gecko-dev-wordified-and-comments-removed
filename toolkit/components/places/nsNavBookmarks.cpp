@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsILivemarkService
-.
-h
-"
-#
-include
-"
 nsPlacesMacros
 .
 h
