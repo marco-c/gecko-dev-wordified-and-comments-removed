@@ -217,13 +217,6 @@ aForceUpdate
 false
 )
 ;
-void
-UpdateStyleSheetScopedness
-(
-bool
-aIsNowScoped
-)
-;
 virtual
 already_AddRefed
 <
@@ -251,9 +244,6 @@ aType
 nsAString
 &
 aMedia
-bool
-*
-aIsScoped
 bool
 *
 aIsAlternate
