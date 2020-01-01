@@ -161,7 +161,6 @@ observer
 const
 {
 ignoreWindow
-isWindowPrivate
 }
 =
 require

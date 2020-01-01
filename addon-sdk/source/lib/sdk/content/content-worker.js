@@ -1074,6 +1074,7 @@ injectMessageAPI
 (
 exports
 pipe
+console
 )
 {
 let
@@ -1723,6 +1724,9 @@ injectMessageAPI
 (
 exports
 pipe
+exports
+.
+console
 )
 ;
 if

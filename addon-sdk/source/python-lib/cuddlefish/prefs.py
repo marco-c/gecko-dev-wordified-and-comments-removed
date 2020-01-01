@@ -37,6 +37,18 @@ showInConsole
 True
     
 '
+devtools
+.
+debugger
+.
+remote
+-
+enabled
+'
+:
+True
+    
+'
 extensions
 .
 sdk
@@ -252,6 +264,16 @@ blank
 devtools
 .
 errorconsole
+.
+enabled
+'
+:
+True
+    
+'
+devtools
+.
+chrome
 .
 enabled
 '

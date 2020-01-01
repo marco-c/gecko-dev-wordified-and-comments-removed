@@ -110,9 +110,7 @@ require
 .
 .
 /
-private
--
-browsing
+window
 /
 utils
 '
