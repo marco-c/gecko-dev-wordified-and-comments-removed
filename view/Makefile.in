@@ -79,10 +79,6 @@ mk
 MODULE
 =
 view
-DIRS
-=
-public
-src
 include
 (
 topsrcdir

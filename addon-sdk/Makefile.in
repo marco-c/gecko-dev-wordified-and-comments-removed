@@ -75,10 +75,6 @@ config
 config
 .
 mk
-TEST_DIRS
-+
-=
-test
 libs
 :
 :
