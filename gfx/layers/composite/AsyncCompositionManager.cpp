@@ -2152,7 +2152,6 @@ controller
 SampleContentTransformForFrame
 (
 aCurrentFrame
-container
 &
 treeTransform
 scrollOffset
