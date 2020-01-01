@@ -413,6 +413,9 @@ WINNT
 "
 ;
 then
+MOZ_VERIFY_MAR_SIGNATURE
+=
+1
 if
 !
 test
