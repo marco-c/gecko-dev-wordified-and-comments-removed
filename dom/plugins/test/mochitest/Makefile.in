@@ -503,14 +503,6 @@ MOCHITEST_FILES
 +
 =
 \
-test_instance_re
--
-parent
--
-windowed
-.
-html
-\
 test_visibility
 .
 html
