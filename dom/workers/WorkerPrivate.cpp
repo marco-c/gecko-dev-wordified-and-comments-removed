@@ -3105,12 +3105,6 @@ aCx
 global
 )
 ;
-JS_SetGlobalObject
-(
-aCx
-global
-)
-;
 return
 scriptloader
 :
