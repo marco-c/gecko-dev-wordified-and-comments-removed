@@ -442,6 +442,16 @@ feed_discovery
 .
 html
 \
+test_bug395533
+.
+html
+\
+bug395533
+-
+data
+.
+txt
+\
 (
 NULL
 )
