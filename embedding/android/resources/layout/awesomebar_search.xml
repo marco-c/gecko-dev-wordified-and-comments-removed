@@ -164,6 +164,13 @@ true
 "
 android
 :
+inputType
+=
+"
+textUri
+"
+android
+:
 imeOptions
 =
 "
