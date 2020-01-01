@@ -649,6 +649,9 @@ entryTypeMap
 unsigned
 callDepth
 ;
+unsigned
+loopEdgeCount
+;
 JSAtom
 *
 *
@@ -1822,6 +1825,11 @@ getCallDepth
 (
 )
 const
+;
+bool
+trackLoopEdges
+(
+)
 ;
 bool
 record_EnterFrame
