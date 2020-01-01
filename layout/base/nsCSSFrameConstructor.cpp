@@ -18619,12 +18619,12 @@ NS_NewMathMLmsubsupFrame
 SIMPLE_MATHML_CREATE
 (
 munder_
-NS_NewMathMLmunderFrame
+NS_NewMathMLmunderoverFrame
 )
 SIMPLE_MATHML_CREATE
 (
 mover_
-NS_NewMathMLmoverFrame
+NS_NewMathMLmunderoverFrame
 )
 SIMPLE_MATHML_CREATE
 (
