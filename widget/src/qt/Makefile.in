@@ -571,6 +571,10 @@ nsQtKeyUtils
 .
 cpp
 \
+nsClipboard
+.
+cpp
+\
 mozqwidget
 .
 cpp
