@@ -19,10 +19,11 @@ climits
 >
 #
 ifndef
-MOZ_CHECKEDINT_ENABLE_MOZ_ASSERTS
+MOZ_CHECKEDINT_USE_MFBT
 #
 error
-MOZ_CHECKEDINT_ENABLE_MOZ_ASSERTS
+"
+MOZ_CHECKEDINT_USE_MFBT
 should
 be
 defined
@@ -30,6 +31,7 @@ by
 CheckedInt
 .
 h
+"
 #
 endif
 using
