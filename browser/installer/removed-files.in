@@ -4827,10 +4827,6 @@ default
 default
 .
 xpm
-#
-endif
-#
-endif
 dictionaries
 /
 PL
@@ -4841,6 +4837,10 @@ dictionaries
 PL
 .
 aff
+#
+endif
+#
+endif
 #
 ifdef
 XP_WIN
