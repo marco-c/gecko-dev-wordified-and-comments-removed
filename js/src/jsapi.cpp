@@ -5013,6 +5013,9 @@ MOZ_CRASH
 )
 ;
 }
+#
+ifdef
+DEBUG
 JS_FRIEND_API
 (
 void
@@ -5054,6 +5057,8 @@ this
 )
 ;
 }
+#
+endif
 #
 endif
 JS_PUBLIC_API
