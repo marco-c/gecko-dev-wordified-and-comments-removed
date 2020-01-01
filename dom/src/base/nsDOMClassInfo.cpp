@@ -691,7 +691,7 @@ h
 endif
 #
 ifdef
-WINCE
+XP_WIN
 #
 undef
 GetClassName
