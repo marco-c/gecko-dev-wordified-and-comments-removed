@@ -6551,9 +6551,9 @@ function
 (
 )
 {
-aMm
+DOMApplicationRegistry
 .
-sendAsyncMessage
+broadcastMessage
 (
 "
 Webapps
@@ -6880,9 +6880,9 @@ event
 downloadapplied
 "
 ;
-aMm
+DOMApplicationRegistry
 .
-sendAsyncMessage
+broadcastMessage
 (
 "
 Webapps
@@ -6937,9 +6937,9 @@ downloadavailable
 downloadapplied
 "
 ;
-aMm
+DOMApplicationRegistry
 .
-sendAsyncMessage
+broadcastMessage
 (
 "
 Webapps
@@ -7199,9 +7199,9 @@ event
 downloadavailable
 "
 ;
-aMm
+DOMApplicationRegistry
 .
-sendAsyncMessage
+broadcastMessage
 (
 "
 Webapps
