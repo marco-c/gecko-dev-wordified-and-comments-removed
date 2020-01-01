@@ -1584,7 +1584,6 @@ if
 StackKeptAligned
 )
 {
-uint32
 argumentPadding
 =
 (
