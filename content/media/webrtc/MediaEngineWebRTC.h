@@ -396,6 +396,11 @@ mSnapshotPath
 NULL
 )
 {
+MOZ_ASSERT
+(
+aVideoEnginePtr
+)
+;
 mState
 =
 kReleased
@@ -760,7 +765,7 @@ webrtc
 :
 VoiceEngine
 *
-voiceEngine
+aVoiceEnginePtr
 int
 aIndex
 const
@@ -775,7 +780,7 @@ uuid
 :
 mVoiceEngine
 (
-voiceEngine
+aVoiceEnginePtr
 )
 mMonitor
 (
@@ -803,6 +808,11 @@ mNullTransport
 nullptr
 )
 {
+MOZ_ASSERT
+(
+aVoiceEnginePtr
+)
+;
 mState
 =
 kReleased
