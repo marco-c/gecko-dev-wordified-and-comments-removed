@@ -367,7 +367,7 @@ aInitData
 -
 >
 mWindowType
-=
+!
 =
 eWindowType_popup
 "
