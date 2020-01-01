@@ -1383,6 +1383,9 @@ bool
 mFullScreen
 ;
 bool
+mInFullScreenTransition
+;
+bool
 mModal
 ;
 bool

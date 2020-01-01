@@ -6192,7 +6192,10 @@ cstrlen
 )
 ;
 }
+JS_PUBLIC_API
+(
 bool
+)
 ToNumberSlow
 (
 JSContext
@@ -6384,7 +6387,10 @@ return
 true
 ;
 }
+JS_PUBLIC_API
+(
 bool
+)
 ToInt32Slow
 (
 JSContext

@@ -24,7 +24,7 @@ h
 #
 include
 "
-gfxAtoms
+nsGkAtoms
 .
 h
 "
@@ -1599,7 +1599,7 @@ MozLangGroups
 =
 {
 {
-gfxAtoms
+nsGkAtoms
 :
 :
 x_western
@@ -1608,7 +1608,7 @@ en
 "
 }
 {
-gfxAtoms
+nsGkAtoms
 :
 :
 x_central_euro
@@ -1617,7 +1617,7 @@ pl
 "
 }
 {
-gfxAtoms
+nsGkAtoms
 :
 :
 x_cyrillic
@@ -1626,7 +1626,7 @@ ru
 "
 }
 {
-gfxAtoms
+nsGkAtoms
 :
 :
 x_baltic
@@ -1635,7 +1635,7 @@ lv
 "
 }
 {
-gfxAtoms
+nsGkAtoms
 :
 :
 x_devanagari
@@ -1644,7 +1644,7 @@ hi
 "
 }
 {
-gfxAtoms
+nsGkAtoms
 :
 :
 x_tamil
@@ -1653,7 +1653,7 @@ ta
 "
 }
 {
-gfxAtoms
+nsGkAtoms
 :
 :
 x_armn
@@ -1662,7 +1662,7 @@ hy
 "
 }
 {
-gfxAtoms
+nsGkAtoms
 :
 :
 x_beng
@@ -1671,7 +1671,7 @@ bn
 "
 }
 {
-gfxAtoms
+nsGkAtoms
 :
 :
 x_cans
@@ -1680,7 +1680,7 @@ iu
 "
 }
 {
-gfxAtoms
+nsGkAtoms
 :
 :
 x_ethi
@@ -1689,7 +1689,7 @@ am
 "
 }
 {
-gfxAtoms
+nsGkAtoms
 :
 :
 x_geor
@@ -1698,7 +1698,7 @@ ka
 "
 }
 {
-gfxAtoms
+nsGkAtoms
 :
 :
 x_gujr
@@ -1707,7 +1707,7 @@ gu
 "
 }
 {
-gfxAtoms
+nsGkAtoms
 :
 :
 x_guru
@@ -1716,7 +1716,7 @@ pa
 "
 }
 {
-gfxAtoms
+nsGkAtoms
 :
 :
 x_khmr
@@ -1725,7 +1725,7 @@ km
 "
 }
 {
-gfxAtoms
+nsGkAtoms
 :
 :
 x_knda
@@ -1734,7 +1734,7 @@ kn
 "
 }
 {
-gfxAtoms
+nsGkAtoms
 :
 :
 x_mlym
@@ -1743,7 +1743,7 @@ ml
 "
 }
 {
-gfxAtoms
+nsGkAtoms
 :
 :
 x_orya
@@ -1752,7 +1752,7 @@ or
 "
 }
 {
-gfxAtoms
+nsGkAtoms
 :
 :
 x_sinh
@@ -1761,7 +1761,7 @@ si
 "
 }
 {
-gfxAtoms
+nsGkAtoms
 :
 :
 x_telu
@@ -1770,7 +1770,7 @@ te
 "
 }
 {
-gfxAtoms
+nsGkAtoms
 :
 :
 x_tibt
@@ -1779,14 +1779,14 @@ bo
 "
 }
 {
-gfxAtoms
+nsGkAtoms
 :
 :
-x_unicode
+Unicode
 0
 }
 {
-gfxAtoms
+nsGkAtoms
 :
 :
 x_user_def

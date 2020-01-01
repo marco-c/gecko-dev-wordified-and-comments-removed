@@ -22187,6 +22187,16 @@ DNP_SKIP_TYPE
 0
 )
 ;
+JS_ASSERT
+(
+!
+(
+attrs
+&
+JSPROP_NATIVE_ACCESSORS
+)
+)
+;
 RootObject
 objRoot
 (

@@ -37456,7 +37456,7 @@ table
 }
 }
 ;
-nsresult
+void
 nsCSSFrameConstructor
 :
 :
@@ -37492,7 +37492,6 @@ ourParentType
 )
 {
 return
-NS_OK
 ;
 }
 FCItemIterator
@@ -37514,7 +37513,6 @@ ourParentType
 )
 {
 return
-NS_OK
 ;
 }
 FCItemIterator
@@ -38083,9 +38081,6 @@ IsDone
 )
 )
 ;
-return
-NS_OK
-;
 }
 inline
 nsresult
@@ -38114,20 +38109,11 @@ SetTriedConstructingFrames
 (
 )
 ;
-nsresult
-rv
-=
 CreateNeededTablePseudos
 (
 aState
 aItems
 aParentFrame
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 #
@@ -38212,6 +38198,7 @@ Next
 )
 )
 {
+nsresult
 rv
 =
 ConstructFramesFromItem

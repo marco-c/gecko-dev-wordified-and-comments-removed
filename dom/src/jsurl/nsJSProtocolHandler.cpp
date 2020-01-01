@@ -1349,7 +1349,7 @@ get
 (
 )
 1
-nsnull
+JSVERSION_DEFAULT
 &
 result
 &

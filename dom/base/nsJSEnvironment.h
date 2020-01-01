@@ -201,7 +201,7 @@ char
 aURL
 PRUint32
 aLineNo
-PRUint32
+JSVersion
 aVersion
 nsAString
 *

@@ -1447,7 +1447,7 @@ aNullParent
 )
 ;
 virtual
-nsresult
+void
 RemoveChildAt
 (
 PRUint32

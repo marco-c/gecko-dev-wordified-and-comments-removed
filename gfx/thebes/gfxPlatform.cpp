@@ -110,7 +110,7 @@ endif
 #
 include
 "
-gfxAtoms
+nsGkAtoms
 .
 h
 "
@@ -998,13 +998,6 @@ started
 gEverInitialized
 =
 true
-;
-gfxAtoms
-:
-:
-RegisterAtoms
-(
-)
 ;
 #
 ifdef
@@ -3338,10 +3331,10 @@ aAppendUnicode
 AppendGenericFontFromPref
 (
 aFonts
-gfxAtoms
+nsGkAtoms
 :
 :
-x_unicode
+Unicode
 nsnull
 )
 ;

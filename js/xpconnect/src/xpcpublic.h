@@ -93,9 +93,6 @@ h
 class
 nsIPrincipal
 ;
-class
-nsIXPConnectWrappedJS
-;
 struct
 nsDOMClassInfoData
 ;
@@ -663,9 +660,9 @@ aGeneration
 ;
 extern
 void
-xpc_UnmarkGrayObject
+xpc_TryUnmarkWrappedGrayObject
 (
-nsIXPConnectWrappedJS
+nsISupports
 *
 aWrappedJS
 )

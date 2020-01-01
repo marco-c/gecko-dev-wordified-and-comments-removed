@@ -4864,8 +4864,15 @@ data
 mItem
 )
 {
+aKey
+.
+SetIsVoid
+(
+true
+)
+;
 return
-NS_ERROR_DOM_INDEX_SIZE_ERR
+NS_OK
 ;
 }
 aKey

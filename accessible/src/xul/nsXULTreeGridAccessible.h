@@ -369,13 +369,6 @@ aIndex
 NS_DECL_NSIACCESSIBLETABLECELL
 virtual
 bool
-IsDefunct
-(
-)
-const
-;
-virtual
-bool
 Init
 (
 )

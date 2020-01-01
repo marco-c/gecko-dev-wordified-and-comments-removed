@@ -5735,7 +5735,10 @@ hops
 =
 0
 ;
+DebugOnly
+<
 ogg_int64_t
+>
 previousGuess
 =
 -

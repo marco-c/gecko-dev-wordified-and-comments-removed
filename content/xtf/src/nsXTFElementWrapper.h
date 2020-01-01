@@ -161,7 +161,7 @@ bool
 aNotify
 )
 ;
-nsresult
+void
 RemoveChildAt
 (
 PRUint32

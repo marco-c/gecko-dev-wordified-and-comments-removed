@@ -36,13 +36,6 @@ h
 #
 include
 "
-gfxAtoms
-.
-h
-"
-#
-include
-"
 gfxFontTest
 .
 h

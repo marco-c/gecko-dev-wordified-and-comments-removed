@@ -2752,7 +2752,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 nsGenericDOMDataNode
 :
 :
@@ -2764,9 +2764,6 @@ bool
 aNotify
 )
 {
-return
-NS_OK
-;
 }
 nsIContent
 *
@@ -3526,6 +3523,7 @@ nsGenericDOMDataNode
 TextLength
 (
 )
+const
 {
 return
 mText

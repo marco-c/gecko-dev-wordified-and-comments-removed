@@ -4897,9 +4897,6 @@ mChannel
 return
 ;
 }
-nsresult
-rv
-;
 nsHTMLMediaElement
 *
 element
@@ -4961,6 +4958,10 @@ isPending
 nsLoadFlags
 loadFlags
 ;
+DebugOnly
+<
+nsresult
+>
 rv
 =
 mChannel
@@ -5018,7 +5019,10 @@ nsILoadGroup
 >
 loadGroup
 ;
+DebugOnly
+<
 nsresult
+>
 rv
 =
 mChannel

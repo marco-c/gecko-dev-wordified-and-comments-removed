@@ -566,7 +566,7 @@ aNotify
 )
 ;
 virtual
-nsresult
+void
 RemoveChildAt
 (
 PRUint32
@@ -817,6 +817,7 @@ PRUint32
 TextLength
 (
 )
+const
 ;
 virtual
 nsresult

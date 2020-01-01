@@ -3176,6 +3176,9 @@ thread
 "
 )
 ;
+return
+NS_ERROR_FAILURE
+;
 MutexAutoLock
 lock
 (

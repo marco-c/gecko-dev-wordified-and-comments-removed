@@ -668,7 +668,7 @@ return
 rv
 ;
 }
-nsresult
+void
 nsHTMLFieldSetElement
 :
 :
@@ -758,9 +758,6 @@ break
 }
 }
 }
-nsresult
-rv
-=
 nsGenericHTMLFormElement
 :
 :
@@ -768,12 +765,6 @@ RemoveChildAt
 (
 aIndex
 aNotify
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 if
@@ -787,9 +778,6 @@ aNotify
 )
 ;
 }
-return
-rv
-;
 }
 void
 nsHTMLFieldSetElement
