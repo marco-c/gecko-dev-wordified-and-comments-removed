@@ -8782,6 +8782,10 @@ prop
 =
 NULL
 ;
+prop
+=
+NULL
+;
 TRY_BRANCH_AFTER_COND
 (
 cond
@@ -11368,6 +11372,10 @@ goto
 error
 ;
 }
+prop
+=
+NULL
+;
 }
 END_CASE
 (
