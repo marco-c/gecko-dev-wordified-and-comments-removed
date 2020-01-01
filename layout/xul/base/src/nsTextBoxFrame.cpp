@@ -1231,7 +1231,7 @@ PR_TRUE
 ;
 }
 void
-PaintTextWithOffset
+PaintTextToContext
 (
 nsRenderingContext
 *
@@ -1277,7 +1277,7 @@ aData
 )
 -
 >
-PaintTextWithOffset
+PaintTextToContext
 (
 aCtx
 aShadowOffset
@@ -1326,6 +1326,10 @@ mFrame
 -
 >
 mTextDrawRect
++
+ToReferenceFrame
+(
+)
 ;
 nsLayoutUtils
 :
@@ -1353,7 +1357,7 @@ void
 this
 )
 ;
-PaintTextWithOffset
+PaintTextToContext
 (
 aCtx
 nsPoint
@@ -1369,7 +1373,7 @@ void
 nsDisplayXULTextBox
 :
 :
-PaintTextWithOffset
+PaintTextToContext
 (
 nsRenderingContext
 *
