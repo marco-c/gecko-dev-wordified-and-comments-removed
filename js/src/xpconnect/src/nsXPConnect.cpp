@@ -1047,6 +1047,7 @@ dumpFile
 JS_DumpHeap
 (
 ccx
+dumpFile
 nsnull
 0
 nsnull
@@ -1057,12 +1058,6 @@ size_t
 1
 )
 nsnull
-NS_REINTERPRET_CAST
-(
-JSPrintfFormater
-fprintf
-)
-dumpFile
 )
 ;
 if

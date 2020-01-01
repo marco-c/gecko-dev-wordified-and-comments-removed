@@ -3787,6 +3787,9 @@ JS_DumpHeap
 JSContext
 *
 cx
+FILE
+*
+fp
 void
 *
 startThing
@@ -3800,11 +3803,6 @@ maxDepth
 void
 *
 thingToIgnore
-JSPrintfFormater
-format
-void
-*
-closure
 )
 ;
 #
