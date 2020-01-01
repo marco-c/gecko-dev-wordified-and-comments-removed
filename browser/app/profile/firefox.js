@@ -6982,7 +6982,7 @@ sessionstore
 .
 privacy_level_deferred
 "
-0
+1
 )
 ;
 pref
