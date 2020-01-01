@@ -1807,6 +1807,9 @@ sCurrentGLContextTLS
 this
 )
 ;
+#
+if
+0
 NS_ASSERTION
 (
 IsOwningThreadCurrent
@@ -1830,6 +1833,8 @@ on
 "
 )
 ;
+#
+endif
 #
 endif
 return
