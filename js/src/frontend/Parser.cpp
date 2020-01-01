@@ -25779,6 +25779,12 @@ assignExpr
 (
 )
 ;
+yieldGuard
+.
+endBody
+(
+)
+;
 if
 (
 res
