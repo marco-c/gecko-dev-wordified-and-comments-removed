@@ -1532,6 +1532,17 @@ reftest
 .
 list
 #
+sticky
+positioning
+include
+position
+-
+sticky
+/
+reftest
+.
+list
+#
 svg
 /
 include
