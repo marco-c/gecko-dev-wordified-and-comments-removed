@@ -971,6 +971,11 @@ searchplugins
 AB_CD
 =
 *
+XPI_NAME
+=
+locale
+-
+*
 (
 MAKE
 )
