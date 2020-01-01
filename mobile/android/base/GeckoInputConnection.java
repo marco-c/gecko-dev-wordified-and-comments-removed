@@ -385,11 +385,6 @@ String
 mIMEActionHint
 ;
 private
-static
-boolean
-mIMELandscapeFS
-;
-private
 boolean
 mComposing
 ;
@@ -3879,13 +3874,6 @@ actionLabel
 =
 mIMEActionHint
 ;
-if
-(
-mIMELandscapeFS
-=
-=
-false
-)
 outAttrs
 .
 imeOptions
@@ -3894,6 +3882,10 @@ imeOptions
 EditorInfo
 .
 IME_FLAG_NO_EXTRACT_UI
+|
+EditorInfo
+.
+IME_FLAG_NO_FULLSCREEN
 ;
 reset
 (
@@ -4832,8 +4824,6 @@ String
 typeHint
 String
 actionHint
-boolean
-landscapeFS
 )
 {
 View
@@ -4871,10 +4861,6 @@ typeHint
 mIMEActionHint
 =
 actionHint
-;
-mIMELandscapeFS
-=
-landscapeFS
 ;
 IMEStateUpdater
 .

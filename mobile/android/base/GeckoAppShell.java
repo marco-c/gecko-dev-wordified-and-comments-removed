@@ -2734,7 +2734,6 @@ notifyIMEEnabled
 state
 typeHint
 actionHint
-landscapeFS
 )
 ;
 }
