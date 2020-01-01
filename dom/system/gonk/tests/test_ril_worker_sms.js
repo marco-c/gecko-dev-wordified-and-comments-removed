@@ -268,7 +268,7 @@ run_next_test
 add_test
 (
 function
-test_RadioInterfaceLayer__calculateLangEncodedSeptets
+test_RadioInterfaceLayer__countGsm7BitSeptets
 (
 )
 {
@@ -359,7 +359,7 @@ do_check_eq
 expectedCalcLen
 ril
 .
-_calculateLangEncodedSeptets
+_countGsm7BitSeptets
 (
 str
 PDU_NL_LOCKING_SHIFT_TABLES
@@ -649,17 +649,11 @@ enabledGsmTableTuples
 let
 options
 =
-{
-body
-:
-str
-}
-;
 ril
 .
 _calculateUserDataLength
 (
-options
+str
 )
 ;
 do_check_eq
@@ -727,8 +721,6 @@ A
 PDU_DCS_MSG_CODING_16BITS_ALPHABET
 2
 0
-0
-0
 ]
 [
 ]
@@ -742,8 +734,6 @@ A
 [
 PDU_DCS_MSG_CODING_16BITS_ALPHABET
 2
-0
-0
 0
 ]
 [
@@ -2085,7 +2075,7 @@ septets
 =
 ril
 .
-_calculateLangEncodedSeptets
+_countGsm7BitSeptets
 (
 expected
 langTable
