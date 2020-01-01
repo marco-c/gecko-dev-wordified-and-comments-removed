@@ -15431,6 +15431,7 @@ nsGkAtoms
 menubar
 |
 |
+(
 aTag
 =
 =
@@ -15438,6 +15439,15 @@ nsGkAtoms
 :
 :
 popupgroup
+&
+&
+aContent
+-
+>
+IsNativeAnonymous
+(
+)
+)
 |
 |
 aTag
