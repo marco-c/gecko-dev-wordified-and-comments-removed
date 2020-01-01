@@ -103,11 +103,6 @@ nsIDOMNavigatorTime
 idl
 '
 '
-nsIDOMTimeManager
-.
-idl
-'
-'
 nsITimeService
 .
 idl
@@ -140,6 +135,11 @@ h
 '
 '
 TimeChangeObserver
+.
+h
+'
+'
+TimeManager
 .
 h
 '

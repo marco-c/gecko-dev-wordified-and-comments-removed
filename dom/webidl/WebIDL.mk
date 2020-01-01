@@ -763,6 +763,10 @@ MozNamedAttrMap
 .
 webidl
 \
+MozTimeManager
+.
+webidl
+\
 MutationEvent
 .
 webidl
