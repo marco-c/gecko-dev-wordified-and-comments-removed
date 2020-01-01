@@ -721,7 +721,7 @@ mPalettedImageData
 PRUint8
 *
 )
-PR_MALLOC
+moz_malloc
 (
 PaletteDataLength
 (
