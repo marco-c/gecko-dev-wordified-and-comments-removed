@@ -411,6 +411,17 @@ aSize
 height
 ]
 ;
+memset
+(
+data
+0
+stride
+*
+aSize
+.
+height
+)
+;
 *
 aBuffer
 =
