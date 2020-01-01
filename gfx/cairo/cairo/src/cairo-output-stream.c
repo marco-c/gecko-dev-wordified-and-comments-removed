@@ -49,6 +49,13 @@ h
 #
 include
 <
+ctype
+.
+h
+>
+#
+include
+<
 errno
 .
 h
@@ -1089,7 +1096,7 @@ p
 ;
 while
 (
-_cairo_isdigit
+isdigit
 (
 *
 p
@@ -1193,7 +1200,7 @@ p
 ;
 while
 (
-_cairo_isdigit
+isdigit
 (
 *
 p
@@ -1485,7 +1492,7 @@ f
 }
 while
 (
-_cairo_isdigit
+isdigit
 (
 *
 f
