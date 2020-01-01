@@ -3253,6 +3253,9 @@ None
 crashreporter
 =
 True
+debugger
+=
+False
 )
 :
 if
@@ -3386,6 +3389,9 @@ ldLibraryPath
 )
 if
 crashreporter
+and
+not
+debugger
 :
 env
 [
