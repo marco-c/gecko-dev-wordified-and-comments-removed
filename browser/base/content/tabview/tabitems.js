@@ -1801,6 +1801,13 @@ tabData
 }
 else
 {
+if
+(
+!
+TabItems
+.
+creatingNewOrphanTab
+)
 GroupItems
 .
 newTab
@@ -3738,6 +3745,9 @@ _eventListeners
 [
 ]
 _pauseUpdateForTest
+:
+false
+creatingNewOrphanTab
 :
 false
 tempCanvas
