@@ -9350,6 +9350,11 @@ flex
 "
 1
 "
+type
+=
+"
+dialog
+"
 >
 <
 hbox
