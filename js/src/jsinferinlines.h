@@ -6459,10 +6459,16 @@ prototype
 >
 unknownProperties
 )
+{
+hasSpecialEquality
+=
+true
+;
 unknownProperties
 =
 true
 ;
+}
 instanceNext
 =
 prototype
