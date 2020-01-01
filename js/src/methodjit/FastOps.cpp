@@ -3798,7 +3798,7 @@ type
 JSVAL_TYPE_UNDEFINED
 ;
 }
-void
+bool
 mjit
 :
 :
@@ -3903,7 +3903,7 @@ isTypeKnown
 (
 )
 )
-{
+return
 emitStubCmpOp
 (
 stub
@@ -3911,9 +3911,6 @@ target
 fused
 )
 ;
-return
-;
-}
 RegisterID
 reg
 =
@@ -4057,11 +4054,17 @@ jump
 (
 )
 ;
+if
+(
+!
 jumpAndTrace
 (
 j2
 target
 )
+)
+return
+false
 ;
 j1
 .
@@ -4115,11 +4118,17 @@ JSVAL_TYPE_NULL
 )
 )
 ;
+if
+(
+!
 jumpAndTrace
 (
 j2
 target
 )
+)
+return
+false
 ;
 j
 .
@@ -4260,8 +4269,10 @@ reg
 ;
 }
 return
+true
 ;
 }
+return
 emitStubCmpOp
 (
 stub
@@ -4270,7 +4281,7 @@ fused
 )
 ;
 }
-void
+bool
 mjit
 :
 :
@@ -4408,6 +4419,7 @@ op
 =
 JSOP_NE
 )
+return
 jsop_equality
 (
 op
@@ -4416,15 +4428,13 @@ target
 fused
 )
 ;
-else
+return
 emitStubCmpOp
 (
 stub
 target
 fused
 )
-;
-return
 ;
 }
 if
@@ -4483,6 +4493,7 @@ JSVAL_TYPE_STRING
 )
 )
 {
+return
 emitStubCmpOp
 (
 stub
@@ -4518,6 +4529,7 @@ JSVAL_TYPE_STRING
 )
 )
 {
+return
 emitStubCmpOp
 (
 stub
@@ -4538,6 +4550,7 @@ rhs
 )
 )
 {
+return
 emitStubCmpOp
 (
 stub
@@ -4548,6 +4561,7 @@ fused
 }
 else
 {
+return
 jsop_equality_int_string
 (
 op
@@ -4557,8 +4571,6 @@ fused
 )
 ;
 }
-return
-;
 }
 if
 (
@@ -4571,6 +4583,7 @@ rhs
 )
 )
 {
+return
 jsop_relational_self
 (
 op
@@ -4601,6 +4614,7 @@ JSVAL_TYPE_STRING
 )
 )
 {
+return
 emitStubCmpOp
 (
 stub
@@ -4630,6 +4644,7 @@ JSVAL_TYPE_DOUBLE
 )
 )
 {
+return
 jsop_relational_double
 (
 op
@@ -4641,6 +4656,7 @@ fused
 }
 else
 {
+return
 jsop_relational_full
 (
 op
@@ -5485,7 +5501,7 @@ ReturnReg
 )
 ;
 }
-void
+bool
 mjit
 :
 :
@@ -6038,6 +6054,7 @@ pop
 (
 )
 ;
+return
 jumpAndTrace
 (
 j
@@ -6045,7 +6062,7 @@ target
 )
 ;
 }
-void
+bool
 mjit
 :
 :
@@ -6125,6 +6142,9 @@ syncAndForgetEverything
 (
 )
 ;
+if
+(
+!
 jumpAndTrace
 (
 masm
@@ -6134,11 +6154,16 @@ jump
 )
 target
 )
+)
+return
+false
 ;
 }
 return
+true
 ;
 }
+return
 booleanJumpScript
 (
 op
@@ -6146,7 +6171,7 @@ target
 )
 ;
 }
-void
+bool
 mjit
 :
 :
@@ -6233,6 +6258,9 @@ syncAndForgetEverything
 (
 )
 ;
+if
+(
+!
 jumpAndTrace
 (
 masm
@@ -6242,6 +6270,9 @@ jump
 )
 target
 )
+)
+return
+false
 ;
 }
 frame
@@ -6251,8 +6282,10 @@ pop
 )
 ;
 return
+true
 ;
 }
+return
 booleanJumpScript
 (
 op
