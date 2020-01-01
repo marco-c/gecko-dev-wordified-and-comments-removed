@@ -520,6 +520,10 @@ LightweightThemeManager
 .
 jsm
 \
+SpellCheckDictionaryBootstrap
+.
+js
+\
 (
 NULL
 )

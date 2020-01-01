@@ -4459,6 +4459,9 @@ theme
 "
 locale
 "
+"
+dictionary
+"
 ]
 function
 (
