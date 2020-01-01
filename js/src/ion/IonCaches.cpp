@@ -3498,6 +3498,9 @@ shape
 {
 MacroAssembler
 masm
+(
+cx
+)
 ;
 RepatchLabel
 failures
@@ -3599,6 +3602,9 @@ returnAddr
 {
 MacroAssembler
 masm
+(
+cx
+)
 ;
 RepatchLabel
 failures
@@ -3751,6 +3757,9 @@ failures
 ;
 MacroAssembler
 masm
+(
+cx
+)
 ;
 RootedObject
 globalObj
@@ -4064,6 +4073,9 @@ failures
 ;
 MacroAssembler
 masm
+(
+cx
+)
 ;
 Register
 tmpReg
@@ -5276,6 +5288,9 @@ shape
 {
 MacroAssembler
 masm
+(
+cx
+)
 ;
 RepatchLabel
 exit_
@@ -5539,6 +5554,9 @@ returnAddr
 {
 MacroAssembler
 masm
+(
+cx
+)
 ;
 masm
 .
@@ -6261,6 +6279,9 @@ propShape
 {
 MacroAssembler
 masm
+(
+cx
+)
 ;
 Label
 failures
@@ -7609,6 +7630,9 @@ nonRepatchFailures
 ;
 MacroAssembler
 masm
+(
+cx
+)
 ;
 ValueOperand
 val
@@ -7728,6 +7752,9 @@ failures
 ;
 MacroAssembler
 masm
+(
+cx
+)
 ;
 Register
 scratchReg
@@ -8145,6 +8172,9 @@ failures
 ;
 MacroAssembler
 masm
+(
+cx
+)
 ;
 int
 arrayType
@@ -9068,6 +9098,9 @@ isGlobal
 ;
 MacroAssembler
 masm
+(
+cx
+)
 ;
 RepatchLabel
 exit_
@@ -9430,6 +9463,9 @@ scopeChain
 ;
 MacroAssembler
 masm
+(
+cx
+)
 ;
 RepatchLabel
 failures
@@ -9945,6 +9981,9 @@ AssertCanGC
 ;
 MacroAssembler
 masm
+(
+cx
+)
 ;
 Label
 failures
@@ -10608,6 +10647,9 @@ clone
 {
 MacroAssembler
 masm
+(
+cx
+)
 ;
 RepatchLabel
 exit

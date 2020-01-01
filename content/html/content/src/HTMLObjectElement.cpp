@@ -1695,6 +1695,9 @@ aCx
 JSObject
 *
 aScope
+bool
+*
+aTriedToWrap
 )
 {
 JSObject
@@ -1709,6 +1712,7 @@ Wrap
 aCx
 aScope
 this
+aTriedToWrap
 )
 ;
 if

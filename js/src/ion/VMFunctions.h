@@ -2751,6 +2751,17 @@ Value
 vp
 )
 ;
+JSBool
+FilterArguments
+(
+JSContext
+*
+cx
+JSString
+*
+str
+)
+;
 bool
 DebugPrologue
 (
