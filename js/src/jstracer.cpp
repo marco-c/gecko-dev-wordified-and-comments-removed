@@ -6350,9 +6350,15 @@ operationCount
 )
 )
 ;
-LIns
-*
-updated
+if
+(
+js_HasOperationLimit
+(
+cx
+)
+)
+{
+counter
 =
 lir
 -
@@ -6369,7 +6375,7 @@ lir
 >
 insStorei
 (
-updated
+counter
 cx_ins
 offsetof
 (
@@ -6378,6 +6384,7 @@ operationCount
 )
 )
 ;
+}
 guard
 (
 false
@@ -6387,7 +6394,7 @@ lir
 ins2i
 (
 LIR_le
-updated
+counter
 0
 )
 snapshot
