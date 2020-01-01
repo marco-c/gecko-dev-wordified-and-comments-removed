@@ -456,9 +456,6 @@ XDamageNotifyEvent
 *
 ev
 ;
-XserverRegion
-parts
-;
 ev
 =
 (
@@ -482,17 +479,6 @@ XDamageNotify
 return
 GDK_FILTER_CONTINUE
 ;
-parts
-=
-XFixesCreateRegion
-(
-GDK_DISPLAY
-(
-)
-0
-0
-)
-;
 XDamageSubtract
 (
 GDK_DISPLAY
@@ -503,7 +489,7 @@ native_window
 >
 mDamage
 None
-parts
+None
 )
 ;
 nsPluginRect
