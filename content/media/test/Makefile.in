@@ -730,6 +730,10 @@ test_streams_srcObject
 .
 html
 \
+test_playback_rate
+.
+html
+\
 (
 filter
 disabled
