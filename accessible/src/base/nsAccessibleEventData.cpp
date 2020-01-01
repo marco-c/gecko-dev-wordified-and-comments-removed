@@ -731,6 +731,12 @@ return
 NS_OK
 ;
 }
+NS_IMPL_ISUPPORTS_INHERITED1
+(
+nsAccCaretMoveEvent
+nsAccEvent
+nsIAccessibleCaretMoveEvent
+)
 nsAccCaretMoveEvent
 :
 :
