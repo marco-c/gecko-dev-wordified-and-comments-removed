@@ -325,6 +325,16 @@ offline
 app
 '
 '
+websettings
+-
+read
+'
+'
+websettings
+-
+readwrite
+'
+'
 content
 -
 camera

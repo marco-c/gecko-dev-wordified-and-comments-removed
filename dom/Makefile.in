@@ -438,6 +438,10 @@ events
 \
 interfaces
 /
+settings
+\
+interfaces
+/
 stylesheets
 \
 interfaces
@@ -527,6 +531,8 @@ battery
 contacts
 \
 power
+\
+settings
 \
 sms
 \

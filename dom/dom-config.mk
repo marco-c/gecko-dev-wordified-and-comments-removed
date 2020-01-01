@@ -21,6 +21,10 @@ src
 \
 dom
 /
+settings
+\
+dom
+/
 sms
 /
 src

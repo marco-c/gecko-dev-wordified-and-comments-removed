@@ -1526,6 +1526,10 @@ DOMCI_CLASS
 (
 CustomEvent
 )
+DOMCI_CLASS
+(
+MozSettingsEvent
+)
 #
 ifdef
 MOZ_B2G_RIL
