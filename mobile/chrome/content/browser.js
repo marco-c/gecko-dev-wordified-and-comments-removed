@@ -1118,6 +1118,14 @@ index
 style
 ;
 }
+window
+.
+cachedWidth
+=
+window
+.
+innerWidth
+;
 function
 resizeHandler
 (
