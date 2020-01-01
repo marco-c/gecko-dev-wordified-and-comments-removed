@@ -1596,6 +1596,11 @@ selectionEnd
 '
 nsIDOMHTMLInputElement
 .
+selectionDirection
+'
+'
+nsIDOMHTMLInputElement
+.
 setSelectionRange
 '
 '
@@ -1887,6 +1892,11 @@ selectionStart
 nsIDOMHTMLTextAreaElement
 .
 selectionEnd
+'
+'
+nsIDOMHTMLTextAreaElement
+.
+selectionDirection
 '
 '
 nsIDOMHTMLTextAreaElement

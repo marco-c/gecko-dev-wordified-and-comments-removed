@@ -1500,6 +1500,10 @@ test_bug666666
 .
 html
 \
+test_bug674558
+.
+html
+\
 test_restore_from_parser_fragment
 .
 html

@@ -460,6 +460,10 @@ PRInt32
 aSelectionStart
 PRInt32
 aSelectionEnd
+SelectionDirection
+aDirection
+=
+eNone
 )
 ;
 NS_IMETHOD
@@ -471,6 +475,11 @@ aSelectionStart
 PRInt32
 *
 aSelectionEnd
+SelectionDirection
+*
+aDirection
+=
+nsnull
 )
 ;
 NS_IMETHOD
@@ -1209,6 +1218,10 @@ nsIDOMNode
 aEndNode
 PRInt32
 aEndOffset
+SelectionDirection
+aDirection
+=
+eNone
 )
 ;
 nsresult
@@ -1225,6 +1238,10 @@ PRInt32
 aSelStart
 PRInt32
 aSelEnd
+SelectionDirection
+aDirection
+=
+eNone
 )
 ;
 PRBool

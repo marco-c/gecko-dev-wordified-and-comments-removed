@@ -1635,6 +1635,9 @@ SetSelectionRange
 (
 aStartIndex
 aEndIndex
+EmptyString
+(
+)
 )
 ;
 return
