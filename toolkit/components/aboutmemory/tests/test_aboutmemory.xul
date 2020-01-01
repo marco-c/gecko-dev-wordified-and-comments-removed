@@ -1180,8 +1180,6 @@ aClosure
 f
 (
 "
-smaps
-/
 vsize
 /
 a
@@ -1192,8 +1190,6 @@ a
 f
 (
 "
-smaps
-/
 swap
 /
 a
@@ -1204,8 +1200,6 @@ a
 f
 (
 "
-smaps
-/
 swap
 /
 a
@@ -1216,8 +1210,6 @@ a
 f
 (
 "
-smaps
-/
 vsize
 /
 a
@@ -1228,8 +1220,6 @@ a
 f
 (
 "
-smaps
-/
 swap
 /
 b
@@ -1242,8 +1232,6 @@ c
 f
 (
 "
-smaps
-/
 resident
 /
 a
@@ -1254,8 +1242,6 @@ a
 f
 (
 "
-smaps
-/
 pss
 /
 a
@@ -1815,8 +1801,6 @@ f
 2nd
 "
 "
-smaps
-/
 vsize
 /
 e
@@ -1834,8 +1818,6 @@ f
 2nd
 "
 "
-smaps
-/
 vsize
 /
 f

@@ -791,8 +791,6 @@ NS_LITERAL_CSTRING
 NS_LITERAL_CSTRING
 (
 "
-smaps
-/
 swap
 /
 total
@@ -2298,16 +2296,6 @@ NS_OK
 }
 nsCAutoString
 path
-;
-path
-.
-Append
-(
-"
-smaps
-/
-"
-)
 ;
 path
 .
