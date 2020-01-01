@@ -1481,8 +1481,9 @@ x
 +
 y
 }
+;
 var
-sumAsync
+asyncSum
 =
 promised
 (
@@ -1506,7 +1507,7 @@ asyncSum
 aAsync
 (
 )
-bAsinc
+bAsync
 (
 )
 )

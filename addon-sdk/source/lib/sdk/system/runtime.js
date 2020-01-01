@@ -89,6 +89,8 @@ runtime
 .
 widgetToolkit
 ;
+try
+{
 exports
 .
 XPCOMABI
@@ -97,3 +99,16 @@ runtime
 .
 XPCOMABI
 ;
+}
+catch
+(
+error
+)
+{
+exports
+.
+XPCOMABI
+=
+null
+;
+}

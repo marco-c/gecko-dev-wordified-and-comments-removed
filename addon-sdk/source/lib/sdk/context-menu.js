@@ -946,6 +946,20 @@ item
 )
 ;
 }
+function
+stringOrNull
+(
+val
+)
+val
+?
+String
+(
+val
+)
+:
+val
+;
 let
 baseItemRules
 =
@@ -1289,7 +1303,7 @@ label
 {
 map
 :
-String
+stringOrNull
 is
 :
 [
@@ -1327,7 +1341,7 @@ image
 {
 map
 :
-String
+stringOrNull
 is
 :
 [
@@ -1357,7 +1371,7 @@ data
 {
 map
 :
-String
+stringOrNull
 is
 :
 [
@@ -1366,6 +1380,9 @@ string
 "
 "
 undefined
+"
+"
+null
 "
 ]
 }

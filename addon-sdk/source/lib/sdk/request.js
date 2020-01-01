@@ -417,6 +417,12 @@ url
 ;
 xhr
 .
+forceAllowThirdPartyCookie
+(
+)
+;
+xhr
+.
 setRequestHeader
 (
 "

@@ -105,6 +105,9 @@ main
 '
 directories
 '
+'
+permissions
+'
 ]
 RESOURCE_HOSTNAME_RE
 =
