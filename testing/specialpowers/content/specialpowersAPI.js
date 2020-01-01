@@ -2080,7 +2080,7 @@ PREF_STRING
 ]
 =
 "
-STRING
+CHAR
 "
 ;
 var
