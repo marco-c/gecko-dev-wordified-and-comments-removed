@@ -2499,6 +2499,7 @@ nsMenuBarX
 :
 GetLocalizedAccelKey
 (
+const
 char
 *
 shortcutID
