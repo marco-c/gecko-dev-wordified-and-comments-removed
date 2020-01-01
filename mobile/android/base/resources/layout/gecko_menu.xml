@@ -344,6 +344,13 @@ string
 /
 quit
 "
+android
+:
+orderInCategory
+=
+"
+10
+"
 /
 >
 <
