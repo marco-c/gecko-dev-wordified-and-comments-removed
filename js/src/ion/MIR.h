@@ -8735,6 +8735,12 @@ ins
 )
 ;
 }
+bool
+fallible
+(
+)
+const
+;
 AliasSet
 getAliasSet
 (

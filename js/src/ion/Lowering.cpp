@@ -4371,16 +4371,10 @@ num
 ;
 if
 (
-!
 ins
 -
 >
-range
-(
-)
--
->
-isFinite
+fallible
 (
 )
 &
