@@ -3821,7 +3821,7 @@ false
 ;
 userNameBtn
 .
-label
+value
 =
 profile
 .
