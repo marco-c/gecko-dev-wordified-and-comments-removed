@@ -1952,6 +1952,12 @@ PanDistance
 (
 )
 {
+MonitorAutoLock
+monitor
+(
+mMonitor
+)
+;
 return
 NS_hypot
 (
@@ -1966,12 +1972,6 @@ PanDistance
 (
 )
 )
-*
-mFrameMetrics
-.
-mResolution
-.
-width
 ;
 }
 const
