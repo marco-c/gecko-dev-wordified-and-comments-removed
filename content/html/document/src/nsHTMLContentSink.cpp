@@ -1927,9 +1927,6 @@ case
 eHTMLTag_label
 :
 case
-eHTMLTag_legend
-:
-case
 eHTMLTag_object
 :
 case

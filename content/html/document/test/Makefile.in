@@ -710,6 +710,10 @@ test_bug512367
 .
 html
 \
+test_bug570375
+.
+html
+\
 test_bug340017
 .
 xhtml
