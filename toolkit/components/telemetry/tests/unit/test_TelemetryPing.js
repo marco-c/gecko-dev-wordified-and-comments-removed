@@ -1382,12 +1382,6 @@ sum_squares_lo
 sum_squares_hi
 :
 0
-log_sum
-:
-0
-log_sum_squares
-:
-0
 }
 ;
 let
@@ -1448,12 +1442,6 @@ sum_squares_lo
 :
 successfulPings
 sum_squares_hi
-:
-0
-log_sum
-:
-0
-log_sum_squares
 :
 0
 }
