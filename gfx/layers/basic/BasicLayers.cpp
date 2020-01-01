@@ -1691,6 +1691,8 @@ const
 nsIntRegion
 &
 aRegionToInvalidate
+PRBool
+aDidSelfCopy
 LayerManager
 :
 :
@@ -2675,6 +2677,9 @@ extendedDrawRegion
 state
 .
 mRegionToInvalidate
+state
+.
+mDidSelfCopy
 aCallback
 aCallbackData
 )
@@ -8194,6 +8199,8 @@ const
 nsIntRegion
 &
 aRegionToInvalidate
+PRBool
+aDidSelfCopy
 LayerManager
 :
 :
@@ -8466,6 +8473,8 @@ const
 nsIntRegion
 &
 aRegionToInvalidate
+PRBool
+aDidSelfCopy
 LayerManager
 :
 :
@@ -8485,6 +8494,7 @@ aContext
 aRegionToDraw
 aExtendedRegionToDraw
 aRegionToInvalidate
+aDidSelfCopy
 aCallback
 aCallbackData
 )
@@ -8506,6 +8516,9 @@ updatedRegion
 if
 (
 mIsNewBuffer
+|
+|
+aDidSelfCopy
 )
 {
 updatedRegion

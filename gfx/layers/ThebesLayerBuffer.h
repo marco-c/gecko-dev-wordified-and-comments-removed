@@ -131,6 +131,9 @@ mRegionToDraw
 nsIntRegion
 mRegionToInvalidate
 ;
+PRPackedBool
+mDidSelfCopy
+;
 }
 ;
 enum

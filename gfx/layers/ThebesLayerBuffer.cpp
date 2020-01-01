@@ -930,6 +930,12 @@ aFlags
 PaintState
 result
 ;
+result
+.
+mDidSelfCopy
+=
+PR_FALSE
+;
 float
 curXRes
 =
@@ -1561,6 +1567,12 @@ dest
 curXRes
 curYRes
 )
+;
+result
+.
+mDidSelfCopy
+=
+PR_TRUE
 ;
 mBufferRect
 =
