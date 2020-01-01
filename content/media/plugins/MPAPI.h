@@ -58,7 +58,7 @@ VideoPlane
 :
 mData
 (
-nullptr
+0
 )
 mStride
 (
@@ -151,7 +151,7 @@ false
 )
 mData
 (
-nullptr
+0
 )
 mSize
 (
