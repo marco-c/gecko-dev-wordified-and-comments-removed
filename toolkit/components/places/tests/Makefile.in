@@ -487,8 +487,6 @@ js
 (
 NULL
 )
-ifdef
-MOZ_MOCHITEST
 DIRS
 =
 \
@@ -516,7 +514,6 @@ browser
 (
 NULL
 )
-endif
 include
 (
 topsrcdir

@@ -447,7 +447,7 @@ license
 .
 html
 ifdef
-MOZ_MOCHITEST
+ENABLE_TESTS
 DIRS
 +
 =

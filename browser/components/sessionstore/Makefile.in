@@ -416,7 +416,7 @@ DIRS
 =
 src
 ifdef
-MOZ_MOCHITEST
+ENABLE_TESTS
 DIRS
 +
 =

@@ -1116,7 +1116,7 @@ tools
 codesighs
 endif
 ifdef
-MOZ_MOCHITEST
+ENABLE_TESTS
 tier_toolkit_dirs
 +
 =

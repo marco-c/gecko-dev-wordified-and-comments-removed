@@ -413,7 +413,7 @@ DIRS
 =
 base
 ifdef
-MOZ_MOCHITEST
+ENABLE_TESTS
 DIRS
 +
 =

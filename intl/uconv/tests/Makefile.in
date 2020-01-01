@@ -484,8 +484,6 @@ BIN_SUFFIX
 endif
 #
 MOZ_ENABLE_LIBXUL
-ifdef
-MOZ_MOCHITEST
 relativesrcdir
 =
 intl
@@ -535,9 +533,6 @@ tests
 (
 relativesrcdir
 )
-endif
-#
-MOZ_MOCHITEST
 include
 (
 topsrcdir

@@ -418,7 +418,7 @@ public
 resources
 src
 ifdef
-MOZ_MOCHITEST
+ENABLE_TESTS
 DIRS
 +
 =

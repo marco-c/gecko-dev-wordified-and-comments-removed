@@ -415,7 +415,7 @@ public
 src
 builtin
 ifdef
-MOZ_MOCHITEST
+ENABLE_TESTS
 DIRS
 +
 =

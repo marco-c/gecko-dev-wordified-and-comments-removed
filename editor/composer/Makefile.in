@@ -420,7 +420,7 @@ DIRS
 src
 endif
 ifdef
-MOZ_MOCHITEST
+ENABLE_TESTS
 DIRS
 +
 =

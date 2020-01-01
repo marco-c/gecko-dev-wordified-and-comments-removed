@@ -414,7 +414,7 @@ xbl
 -
 marquee
 ifdef
-MOZ_MOCHITEST
+ENABLE_TESTS
 DIRS
 +
 =

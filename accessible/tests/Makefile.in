@@ -427,7 +427,7 @@ MODULE
 =
 test_accessibility
 ifdef
-MOZ_MOCHITEST
+ENABLE_TESTS
 DIRS
 +
 =

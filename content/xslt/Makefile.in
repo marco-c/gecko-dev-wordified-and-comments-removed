@@ -421,12 +421,7 @@ DIRS
 tests
 /
 buster
-endif
-ifdef
-MOZ_MOCHITEST
-DIRS
-+
-=
+\
 tests
 /
 mochitest

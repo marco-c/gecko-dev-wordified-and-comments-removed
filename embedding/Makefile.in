@@ -433,9 +433,6 @@ XPCSHELL_TESTS
 tests
 /
 unit
-endif
-ifdef
-MOZ_MOCHITEST
 DIRS
 +
 =

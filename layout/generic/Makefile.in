@@ -409,7 +409,7 @@ autoconf
 .
 mk
 ifdef
-MOZ_MOCHITEST
+ENABLE_TESTS
 DIRS
 +
 =

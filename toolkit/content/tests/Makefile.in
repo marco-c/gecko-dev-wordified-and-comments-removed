@@ -431,13 +431,10 @@ test_toolkit_general
 XPCSHELL_TESTS
 =
 unit
-ifdef
-MOZ_MOCHITEST
 DIRS
 =
 chrome
 widgets
-endif
 include
 (
 topsrcdir

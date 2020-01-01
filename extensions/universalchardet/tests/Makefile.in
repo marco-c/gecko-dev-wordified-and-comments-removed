@@ -515,8 +515,6 @@ config
 rules
 .
 mk
-ifdef
-MOZ_MOCHITEST
 relativesrcdir
 =
 extensions
@@ -630,6 +628,3 @@ tests
 (
 relativesrcdir
 )
-endif
-#
-MOZ_MOCHITEST

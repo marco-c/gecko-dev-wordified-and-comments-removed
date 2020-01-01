@@ -413,14 +413,11 @@ MODULE
 =
 test_dom
 ifdef
-MOZ_MOCHITEST
+ENABLE_TESTS
 DIRS
 +
 =
 mochitest
-endif
-ifdef
-ENABLE_TESTS
 XPCSHELL_TESTS
 =
 unit

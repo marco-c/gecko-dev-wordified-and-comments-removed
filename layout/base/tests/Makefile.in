@@ -534,8 +534,6 @@ DEFINES
 =
 -
 D_IMPL_NS_LAYOUT
-ifdef
-MOZ_MOCHITEST
 _TEST_FILES
 =
 \
@@ -662,6 +660,3 @@ tests
 (
 relativesrcdir
 )
-endif
-#
-MOZ_MOCHITEST

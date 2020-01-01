@@ -521,7 +521,7 @@ base
 NULL
 )
 ifdef
-MOZ_MOCHITEST
+ENABLE_TESTS
 DIRS
 +
 =

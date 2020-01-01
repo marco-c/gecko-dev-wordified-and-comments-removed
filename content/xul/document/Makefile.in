@@ -420,7 +420,7 @@ DIRS
 public
 src
 ifdef
-MOZ_MOCHITEST
+ENABLE_TESTS
 DIRS
 +
 =

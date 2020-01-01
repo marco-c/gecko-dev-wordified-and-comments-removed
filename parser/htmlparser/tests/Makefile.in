@@ -419,6 +419,8 @@ grabpage
 \
 html
 \
+mochitest
+\
 (
 NULL
 )
@@ -429,17 +431,6 @@ DIRS
 =
 \
 outsinks
-\
-(
-NULL
-)
-endif
-ifdef
-MOZ_MOCHITEST
-DIRS
-+
-=
-mochitest
 \
 (
 NULL
