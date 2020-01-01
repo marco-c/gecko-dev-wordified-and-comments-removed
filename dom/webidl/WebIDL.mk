@@ -2020,3 +2020,17 @@ test_webidl_files
 NULL
 )
 endif
+ifdef
+MOZ_B2G
+webidl_files
++
+=
+\
+InputMethod
+.
+webidl
+\
+(
+NULL
+)
+endif
