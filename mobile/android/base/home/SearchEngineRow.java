@@ -87,7 +87,7 @@ gecko
 .
 home
 .
-BrowserSearch
+HomePager
 .
 OnUrlOpenListener
 ;

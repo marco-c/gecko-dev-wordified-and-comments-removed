@@ -614,9 +614,6 @@ OnSearchListener
 BrowserSearch
 .
 OnEditSuggestionListener
-BrowserSearch
-.
-OnUrlOpenListener
 HomePager
 .
 OnUrlOpenListener
