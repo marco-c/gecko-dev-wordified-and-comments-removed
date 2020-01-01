@@ -2559,7 +2559,7 @@ if
 mir
 -
 >
-canBeDividebyZero
+canBeDivideByZero
 (
 )
 |
