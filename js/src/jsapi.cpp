@@ -14606,9 +14606,10 @@ compartment
 cx
 -
 >
+setCompartment
+(
 compartment
-=
-compartment
+)
 ;
 JSObject
 *
@@ -14623,9 +14624,10 @@ clasp
 cx
 -
 >
-compartment
-=
+setCompartment
+(
 saved
+)
 ;
 return
 obj

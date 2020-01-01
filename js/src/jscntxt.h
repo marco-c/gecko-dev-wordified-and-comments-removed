@@ -4794,6 +4794,15 @@ JSCompartment
 *
 compartment
 ;
+inline
+void
+setCompartment
+(
+JSCompartment
+*
+compartment
+)
+;
 JS_REQUIRES_STACK
 JSFrameRegs
 *
@@ -5748,6 +5757,9 @@ profilingEnabled
 ;
 #
 endif
+bool
+inferenceEnabled
+;
 void
 updateJITEnabled
 (

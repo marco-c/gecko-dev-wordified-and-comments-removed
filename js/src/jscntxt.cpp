@@ -8810,6 +8810,15 @@ compartment
 (
 )
 ;
+inferenceEnabled
+=
+compartment
+-
+>
+types
+.
+inferenceEnabled
+;
 if
 (
 isExceptionPending

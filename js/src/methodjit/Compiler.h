@@ -3416,6 +3416,15 @@ pushed
 )
 ;
 CompileStatus
+callArrayBuiltin
+(
+uint32
+argc
+bool
+callingNew
+)
+;
+CompileStatus
 inlineNativeFunction
 (
 uint32

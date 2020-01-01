@@ -1870,9 +1870,10 @@ context
 context
 -
 >
-compartment
-=
+setCompartment
+(
 destination
+)
 ;
 JSObject
 *
@@ -1928,9 +1929,10 @@ ref
 context
 -
 >
-compartment
-=
+setCompartment
+(
 origin
+)
 ;
 return
 false
