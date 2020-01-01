@@ -906,6 +906,9 @@ mSeekToCluster
 int64_t
 mCurrentOffset
 ;
+uint32_t
+mNextCluster
+;
 bool
 mPushVideoPacketToNextReader
 ;

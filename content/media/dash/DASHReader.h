@@ -355,6 +355,14 @@ uint32_t
 aSubsegmentIdx
 )
 ;
+DASHRepReader
+*
+GetReaderForSubsegment
+(
+uint32_t
+aSubsegmentIdx
+)
+;
 private
 :
 void
