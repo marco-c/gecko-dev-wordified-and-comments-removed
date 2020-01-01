@@ -24,9 +24,6 @@ class
 nsIInterfaceRequestor
 ;
 class
-nsIEventTarget
-;
-class
 nsAHttpTransaction
 :
 public
@@ -49,9 +46,6 @@ void
 GetSecurityCallbacks
 (
 nsIInterfaceRequestor
-*
-*
-nsIEventTarget
 *
 *
 )
@@ -154,10 +148,6 @@ void
 GetSecurityCallbacks
 (
 nsIInterfaceRequestor
-*
-*
-\
-nsIEventTarget
 *
 *
 )
