@@ -150,6 +150,12 @@ duplicateTab
 tab
 )
 ;
+executeSoon
+(
+function
+(
+)
+{
 tab2
 .
 linkedBrowser
@@ -337,6 +343,9 @@ finish
 ;
 }
 true
+)
+;
+}
 )
 ;
 }

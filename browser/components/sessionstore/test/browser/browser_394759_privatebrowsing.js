@@ -357,6 +357,17 @@ callee
 false
 )
 ;
+info
+(
+"
+New
+window
+has
+been
+opened
+"
+)
+;
 newWin
 .
 gBrowser
@@ -364,7 +375,7 @@ gBrowser
 addEventListener
 (
 "
-load
+pageshow
 "
 function
 (
@@ -378,7 +389,7 @@ gBrowser
 removeEventListener
 (
 "
-load
+pageshow
 "
 arguments
 .
@@ -389,7 +400,7 @@ true
 info
 (
 "
-Window
+Content
 has
 been
 loaded
@@ -611,7 +622,7 @@ gBrowser
 addEventListener
 (
 "
-load
+pageshow
 "
 function
 (
@@ -625,7 +636,7 @@ gBrowser
 removeEventListener
 (
 "
-load
+pageshow
 "
 arguments
 .
