@@ -246,17 +246,6 @@ catch
 x
 )
 {
-if
-(
-exports
-.
-OS
-.
-Shared
-.
-DEBUG
-)
-{
 LOG
 (
 "
@@ -272,7 +261,6 @@ i
 ]
 )
 ;
-}
 }
 }
 if
