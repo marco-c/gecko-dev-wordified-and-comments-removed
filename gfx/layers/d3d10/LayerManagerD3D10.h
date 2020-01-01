@@ -595,6 +595,9 @@ nsIWidget
 *
 mWidget
 ;
+bool
+mDisableSequenceForNextFrame
+;
 CallbackInfo
 mCurrentCallbackInfo
 ;

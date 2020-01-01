@@ -715,6 +715,9 @@ mVSConstants
 PixelShaderConstants
 mPSConstants
 ;
+bool
+mDisableSequenceForNextFrame
+;
 }
 ;
 }

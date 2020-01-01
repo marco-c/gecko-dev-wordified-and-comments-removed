@@ -302,6 +302,10 @@ mHwnd
 (
 nullptr
 )
+mDisableSequenceForNextFrame
+(
+false
+)
 {
 sBackend
 =
@@ -1300,7 +1304,7 @@ swapDesc
 .
 Scaling
 =
-DXGI_SCALING_STRETCH
+DXGI_SCALING_NONE
 ;
 swapDesc
 .
@@ -3651,8 +3655,16 @@ mSwapChain
 Present
 (
 0
+mDisableSequenceForNextFrame
+?
+DXGI_PRESENT_DO_NOT_SEQUENCE
+:
 0
 )
+;
+mDisableSequenceForNextFrame
+=
+false
 ;
 if
 (
@@ -3997,6 +4009,10 @@ height
 DXGI_FORMAT_B8G8R8A8_UNORM
 0
 )
+;
+mDisableSequenceForNextFrame
+=
+true
 ;
 #
 endif
