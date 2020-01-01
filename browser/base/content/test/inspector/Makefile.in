@@ -480,10 +480,6 @@ browser_inspector_treePanel_result
 .
 html
 \
-browser_inspector_registertools
-.
-js
-\
 browser_inspector_bug_665880
 .
 js
