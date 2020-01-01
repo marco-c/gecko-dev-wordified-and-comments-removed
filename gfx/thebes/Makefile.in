@@ -480,6 +480,10 @@ endif
 CPPSRCS
 =
 \
+gfx3DMatrix
+.
+cpp
+\
 gfxASurface
 .
 cpp
