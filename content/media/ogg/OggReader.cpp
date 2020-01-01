@@ -5170,14 +5170,6 @@ return
 false
 ;
 }
-mDecoder
--
->
-NotifyBytesConsumed
-(
-bytesRead
-)
-;
 ret
 =
 ogg_sync_wrote

@@ -438,14 +438,6 @@ aNumBytes
 numBytes
 )
 ;
-mDecoder
--
->
-NotifyBytesConsumed
-(
-totalBytes
-)
-;
 if
 (
 mMP3FrameParser

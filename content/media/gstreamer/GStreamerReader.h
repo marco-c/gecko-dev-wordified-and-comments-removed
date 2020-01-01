@@ -261,11 +261,6 @@ guint
 aLength
 )
 ;
-void
-NotifyBytesConsumed
-(
-)
-;
 int64_t
 QueryDuration
 (
@@ -595,12 +590,6 @@ mAudioSegment
 ;
 bool
 mReachedEos
-;
-gint64
-mByteOffset
-;
-gint64
-mLastReportedByteOffset
 ;
 int
 fpsNum

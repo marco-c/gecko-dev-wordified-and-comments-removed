@@ -1236,6 +1236,15 @@ nsLoadFlags
 aFlags
 )
 ;
+void
+DispatchBytesConsumed
+(
+int64_t
+aNumBytes
+int64_t
+aOffset
+)
+;
 MediaDecoder
 *
 mDecoder

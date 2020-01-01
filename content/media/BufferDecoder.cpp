@@ -219,6 +219,8 @@ NotifyBytesConsumed
 (
 int64_t
 aBytes
+int64_t
+aOffset
 )
 {
 }

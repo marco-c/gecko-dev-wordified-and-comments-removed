@@ -591,11 +591,6 @@ ReadRequest
 aRequestState
 )
 ;
-uint32_t
-GetAndResetBytesConsumedCount
-(
-)
-;
 private
 :
 nsresult
@@ -640,9 +635,6 @@ RefPtr
 IMFAttributes
 >
 mAttributes
-;
-uint32_t
-mBytesConsumed
 ;
 bool
 mIsShutdown

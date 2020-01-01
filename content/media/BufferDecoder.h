@@ -106,6 +106,8 @@ NotifyBytesConsumed
 (
 int64_t
 aBytes
+int64_t
+aOffset
 )
 MOZ_FINAL
 MOZ_OVERRIDE

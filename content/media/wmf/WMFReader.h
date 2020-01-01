@@ -253,11 +253,6 @@ InitializeDXVA
 (
 )
 ;
-void
-NotifyBytesConsumed
-(
-)
-;
 RefPtr
 <
 IMFSourceReader
