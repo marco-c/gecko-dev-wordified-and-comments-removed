@@ -262,7 +262,7 @@ nullptr
 )
 mOpusEnabled
 (
-nsHTMLMediaElement
+nsMediaDecoder
 :
 :
 IsOpusEnabled

@@ -33,9 +33,6 @@ Clone
 if
 (
 !
-nsHTMLMediaElement
-:
-:
 IsWaveEnabled
 (
 )
