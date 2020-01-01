@@ -815,6 +815,14 @@ nsGUIEvent
 aEvent
 )
 ;
+bool
+SetSelection
+(
+NSRange
+&
+aRange
+)
+;
 void
 InitKeyEvent
 (
@@ -1940,6 +1948,9 @@ InsertTextAsCommittingComposition
 NSAttributedString
 *
 aAttrString
+NSRange
+*
+aReplacementRange
 )
 ;
 private
@@ -2194,6 +2205,11 @@ InsertText
 NSAttributedString
 *
 aAttrString
+NSRange
+*
+aReplacementRange
+=
+nullptr
 )
 ;
 bool
