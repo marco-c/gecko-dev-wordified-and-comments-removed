@@ -4054,7 +4054,7 @@ do_QueryInterface
 destDoc
 -
 >
-GetDocumentURI
+GetDocBaseURI
 (
 )
 )
