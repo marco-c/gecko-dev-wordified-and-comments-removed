@@ -6035,7 +6035,7 @@ if
 script
 -
 >
-argumentsHasLocalBinding
+argumentsHasVarBinding
 (
 )
 )
@@ -33846,18 +33846,6 @@ offsetOfEnclosingScope
 reg
 )
 ;
-unsigned
-slot
-=
-ScopeObject
-:
-:
-CALL_BLOCK_RESERVED_SLOTS
-+
-sc
-.
-slot
-;
 Address
 addr
 ;
@@ -33895,6 +33883,8 @@ if
 nfixed
 <
 =
+sc
+.
 slot
 )
 {
@@ -33921,6 +33911,8 @@ Address
 (
 reg
 (
+sc
+.
 slot
 -
 nfixed
@@ -33945,6 +33937,8 @@ JSObject
 :
 getFixedSlotOffset
 (
+sc
+.
 slot
 )
 )
@@ -33970,6 +33964,8 @@ numFixedSlots
 )
 <
 =
+sc
+.
 slot
 )
 {
@@ -33995,9 +33991,16 @@ addr
 Address
 (
 reg
+(
 sc
 .
 slot
+-
+CallObject
+:
+:
+RESERVED_SLOTS
+)
 *
 sizeof
 (
@@ -34018,6 +34021,8 @@ JSObject
 :
 getFixedSlotOffset
 (
+sc
+.
 slot
 )
 )
@@ -34036,7 +34041,7 @@ FrameEntry
 *
 fe
 =
-ScopeCoordinateToFrameVar
+ScopeCoordinateToFrameIndex
 (
 script
 PC
@@ -34045,7 +34050,7 @@ index
 )
 =
 =
-FrameVar_Local
+FrameIndex_Local
 ?
 frame
 .

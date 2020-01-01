@@ -933,7 +933,7 @@ unsigned
 index
 ;
 return
-ScopeCoordinateToFrameVar
+ScopeCoordinateToFrameIndex
 (
 script
 pc
@@ -942,7 +942,7 @@ index
 )
 =
 =
-FrameVar_Local
+FrameIndex_Local
 ?
 LocalSlot
 (
