@@ -440,7 +440,7 @@ DiscardTracker
 .
 cpp
 \
-imgContainer
+RasterImage
 .
 cpp
 \
