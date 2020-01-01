@@ -65,6 +65,13 @@ HTMLPropertiesCollectionBinding
 .
 h
 "
+#
+include
+"
+jsapi
+.
+h
+"
 namespace
 mozilla
 {

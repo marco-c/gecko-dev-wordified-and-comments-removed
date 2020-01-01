@@ -30,6 +30,15 @@ h
 #
 include
 "
+js
+/
+Tracer
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
