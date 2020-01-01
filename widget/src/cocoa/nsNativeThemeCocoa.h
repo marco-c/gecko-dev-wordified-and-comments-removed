@@ -515,9 +515,9 @@ const
 HIRect
 &
 inBoxRect
-nsIFrame
+NSWindow
 *
-aFrame
+aWindow
 )
 ;
 void
