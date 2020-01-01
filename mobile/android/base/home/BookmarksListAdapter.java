@@ -255,7 +255,7 @@ first
 }
 }
 public
-void
+boolean
 moveToParentFolder
 (
 )
@@ -267,11 +267,15 @@ mParentStack
 size
 (
 )
-!
+=
 =
 1
 )
 {
+return
+false
+;
+}
 mParentStack
 .
 removeFirst
@@ -282,7 +286,9 @@ refreshCurrentFolder
 (
 )
 ;
-}
+return
+true
+;
 }
 public
 void
