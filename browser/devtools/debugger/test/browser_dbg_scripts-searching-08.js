@@ -136,7 +136,7 @@ addEventListener
 "
 Debugger
 :
-ScriptShown
+SourceShown
 "
 function
 _onEvent
@@ -257,7 +257,7 @@ gDebugger
 .
 DebuggerView
 .
-Scripts
+Sources
 ;
 gSearchView
 =
@@ -269,7 +269,11 @@ GlobalSearch
 ;
 gSearchBox
 =
-gScripts
+gDebugger
+.
+DebuggerView
+.
+Filtering
 .
 _searchbox
 ;
@@ -290,7 +294,9 @@ is
 (
 gSearchView
 .
-_pane
+_container
+.
+_parent
 .
 hidden
 true
@@ -349,7 +355,7 @@ n
 +
 gScripts
 .
-selected
+selectedValue
 +
 "
 \
@@ -385,7 +391,7 @@ url
 =
 gScripts
 .
-selected
+selectedValue
 ;
 if
 (
@@ -473,7 +479,9 @@ is
 (
 gSearchView
 .
-_pane
+_container
+.
+_parent
 .
 hidden
 false
@@ -532,7 +540,7 @@ n
 +
 gScripts
 .
-selected
+selectedValue
 +
 "
 \
@@ -568,7 +576,7 @@ url
 =
 gScripts
 .
-selected
+selectedValue
 ;
 if
 (
@@ -659,7 +667,9 @@ is
 (
 gSearchView
 .
-_pane
+_container
+.
+_parent
 .
 hidden
 true
@@ -722,7 +732,7 @@ n
 +
 gScripts
 .
-selected
+selectedValue
 +
 "
 \
@@ -758,7 +768,7 @@ url
 =
 gScripts
 .
-selected
+selectedValue
 ;
 if
 (
@@ -844,7 +854,9 @@ is
 (
 gSearchView
 .
-_pane
+_container
+.
+_parent
 .
 hidden
 false
@@ -905,7 +917,7 @@ n
 +
 gScripts
 .
-selected
+selectedValue
 +
 "
 \
@@ -941,7 +953,7 @@ url
 =
 gScripts
 .
-selected
+selectedValue
 ;
 if
 (
@@ -1026,7 +1038,9 @@ is
 (
 gSearchView
 .
-_pane
+_container
+.
+_parent
 .
 hidden
 true

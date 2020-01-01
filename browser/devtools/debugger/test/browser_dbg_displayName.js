@@ -114,7 +114,9 @@ DebuggerView
 .
 StackFrames
 .
-_frames
+_container
+.
+_list
 ;
 is
 (
@@ -267,7 +269,9 @@ DebuggerView
 .
 StackFrames
 .
-_frames
+_container
+.
+_list
 ;
 is
 (

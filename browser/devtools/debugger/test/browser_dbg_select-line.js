@@ -152,9 +152,9 @@ gDebugger
 .
 DebuggerView
 .
-Scripts
+Sources
 .
-_scripts
+_container
 ;
 is
 (
@@ -433,7 +433,9 @@ DebuggerView
 .
 Stackframes
 .
-_frames
+_container
+.
+_list
 ;
 is
 (

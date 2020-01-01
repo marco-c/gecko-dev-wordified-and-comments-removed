@@ -216,7 +216,7 @@ addEventListener
 "
 Debugger
 :
-ScriptShown
+SourceShown
 "
 onScriptShown
 )
@@ -248,7 +248,7 @@ removeEventListener
 "
 Debugger
 :
-ScriptShown
+SourceShown
 "
 onScriptShown
 )
@@ -287,9 +287,9 @@ gDebugger
 .
 DebuggerView
 .
-Scripts
+Sources
 .
-_scripts
+_container
 ;
 is
 (
@@ -395,7 +395,7 @@ addEventListener
 "
 Debugger
 :
-ScriptShown
+SourceShown
 "
 function
 _onEvent
@@ -470,12 +470,11 @@ gDebugger
 .
 DebuggerView
 .
-Scripts
+Sources
 .
-selectScript
-(
+selectedValue
+=
 url
-)
 ;
 }
 function

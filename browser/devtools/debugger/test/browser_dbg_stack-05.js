@@ -116,7 +116,7 @@ addEventListener
 "
 Debugger
 :
-ScriptShown
+SourceShown
 "
 function
 _onEvent
@@ -220,7 +220,9 @@ DebuggerView
 .
 StackFrames
 .
-_frames
+_container
+.
+_list
 ;
 let
 childNodes

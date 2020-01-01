@@ -103,7 +103,9 @@ DebuggerView
 .
 StackFrames
 .
-_frames
+_container
+.
+_list
 childNodes
 =
 frames

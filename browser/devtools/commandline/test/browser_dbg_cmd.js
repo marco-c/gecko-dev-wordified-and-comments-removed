@@ -106,7 +106,7 @@ addEventListener
 "
 Debugger
 :
-Connecting
+Connected
 "
 function
 dbgConnected
@@ -121,7 +121,7 @@ removeEventListener
 "
 Debugger
 :
-Connecting
+Connected
 "
 dbgConnected
 true
