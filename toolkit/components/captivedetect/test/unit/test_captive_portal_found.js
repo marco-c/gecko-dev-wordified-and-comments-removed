@@ -171,7 +171,7 @@ open
 '
 GET
 '
-kServerURL
+gServerURL
 +
 kCanonicalSitePath
 true
