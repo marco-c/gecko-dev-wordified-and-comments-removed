@@ -511,6 +511,10 @@ browser_library_middleclick
 .
 js
 \
+browser_library_views_liveupdate
+.
+js
+\
 (
 NULL
 )

@@ -436,6 +436,11 @@ if
 (
 container
 .
+containerOpen
+&
+&
+container
+.
 childCount
 >
 0
