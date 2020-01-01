@@ -2314,6 +2314,13 @@ pos
 )
 ;
 bool
+splitBlockingIntervals
+(
+LAllocation
+allocation
+)
+;
+bool
 assign
 (
 LAllocation
