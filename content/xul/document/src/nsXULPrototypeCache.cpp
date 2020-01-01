@@ -871,10 +871,6 @@ ifdef
 DEBUG
 if
 (
-JSScript
-*
-existingScript
-=
 mScriptTable
 .
 Get
