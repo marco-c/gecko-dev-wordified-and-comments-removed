@@ -16587,6 +16587,10 @@ const
 nsRect
 &
 aOverflowRect
+const
+nsSize
+&
+aNewSize
 PRBool
 aStoreRectProperties
 )
@@ -16643,8 +16647,14 @@ i
 {
 nsRect
 tmpRect
-=
-r
+(
+nsPoint
+(
+0
+0
+)
+aNewSize
+)
 ;
 nsCSSShadowItem
 *
@@ -17318,6 +17328,7 @@ this
 &
 anyOutlineOrEffects
 aOldOverflowRect
+aNewDesiredSize
 PR_FALSE
 )
 ;
@@ -25177,6 +25188,7 @@ ComputeOutlineAndEffectsRect
 this
 aHasOutlineOrEffects
 aOverflowArea
+aNewSize
 PR_TRUE
 )
 ;
