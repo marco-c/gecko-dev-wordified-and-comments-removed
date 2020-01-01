@@ -2427,7 +2427,10 @@ argv
 f
 -
 >
-argc
+fun
+-
+>
+nargs
 ]
 ;
 \
@@ -3510,7 +3513,10 @@ slots
 fp
 -
 >
-argc
+fun
+-
+>
+nargs
 +
 fp
 -
@@ -8666,7 +8672,10 @@ cx
 fp
 -
 >
-argc
+fun
+-
+>
+nargs
 )
 ;
 return
