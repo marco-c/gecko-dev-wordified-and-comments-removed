@@ -1072,6 +1072,7 @@ ReadCMAP
 tableData
 len
 mCharacterMap
+mUVSOffset
 isUnicode
 isSymbol
 )

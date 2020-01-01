@@ -1302,6 +1302,7 @@ Length
 (
 )
 mCharacterMap
+mUVSOffset
 unicodeFont
 symbolFont
 )

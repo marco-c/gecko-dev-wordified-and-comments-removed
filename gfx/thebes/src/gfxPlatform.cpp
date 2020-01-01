@@ -4700,10 +4700,7 @@ gc
 >
 Get
 (
-aString
-[
-i
-]
+ch
 )
 =
 =
