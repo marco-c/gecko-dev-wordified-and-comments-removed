@@ -45862,7 +45862,7 @@ NS_IMETHODIMP
 nsDocShell
 :
 :
-SetIsBrowser
+SetIsBrowserElement
 (
 )
 {

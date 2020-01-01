@@ -426,7 +426,7 @@ nsIDocShell
 ;
 docShell
 .
-setIsBrowser
+setIsBrowserElement
 (
 )
 ;

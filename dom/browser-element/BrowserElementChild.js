@@ -249,7 +249,7 @@ this
 ;
 docShell
 .
-setIsBrowser
+setIsBrowserElement
 (
 )
 ;

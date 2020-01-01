@@ -7011,7 +7011,7 @@ OwnerIsBrowserFrame
 mDocShell
 -
 >
-SetIsBrowser
+SetIsBrowserElement
 (
 )
 ;
