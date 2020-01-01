@@ -134,6 +134,17 @@ logging
 enabled
 "
 ;
+const
+PREF_INSTALL_REQUIREBUILTINCERTS
+=
+"
+extensions
+.
+install
+.
+requireBuiltInCerts
+"
+;
 Components
 .
 utils
