@@ -25813,6 +25813,12 @@ parentNode
 this
 )
 {
+this
+.
+_finishAnimateTabMove
+(
+)
+;
 /
 /
 actually
@@ -25863,12 +25869,6 @@ newIndex
 )
 ;
 }
-this
-.
-_finishAnimateTabMove
-(
-)
-;
 }
 else
 if
