@@ -437,6 +437,14 @@ name
 )
 ;
 PRInt32
+findLastInButtonScope
+(
+nsIAtom
+*
+name
+)
+;
+PRInt32
 findLastInScope
 (
 nsIAtom

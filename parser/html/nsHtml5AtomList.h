@@ -167,6 +167,13 @@ frameset
 )
 HTML5_ATOM
 (
+button
+"
+button
+"
+)
+HTML5_ATOM
+(
 ul
 "
 ul
@@ -6124,13 +6131,6 @@ HTML5_ATOM
 approx
 "
 approx
-"
-)
-HTML5_ATOM
-(
-button
-"
-button
 "
 )
 HTML5_ATOM
