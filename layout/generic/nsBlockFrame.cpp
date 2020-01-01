@@ -6092,6 +6092,11 @@ ClearFloats
 (
 bottomEdgeOfChildren
 NS_STYLE_CLEAR_LEFT_AND_RIGHT
+nsnull
+nsFloatManager
+:
+:
+DONT_CLEAR_PUSHED_FLOATS
 )
 ;
 bottomEdgeOfChildren
