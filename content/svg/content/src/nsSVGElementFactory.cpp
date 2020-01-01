@@ -969,9 +969,6 @@ aResult
 aNodeInfo
 )
 ;
-#
-ifdef
-MOZ_SVG_FOREIGNOBJECT
 if
 (
 name
@@ -989,8 +986,6 @@ aResult
 aNodeInfo
 )
 ;
-#
-endif
 if
 (
 name
