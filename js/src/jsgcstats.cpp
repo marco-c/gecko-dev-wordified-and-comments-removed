@@ -784,6 +784,9 @@ break
 }
 #
 endif
+#
+ifdef
+JS_ION
 case
 JSTRACE_IONCODE
 :
@@ -799,6 +802,8 @@ ioncode
 break
 ;
 }
+#
+endif
 }
 fputc
 (
