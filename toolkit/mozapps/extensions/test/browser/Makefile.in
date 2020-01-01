@@ -659,6 +659,10 @@ head
 .
 js
 \
+browser_addonrepository_performance
+.
+js
+\
 browser_bug557956
 .
 js
