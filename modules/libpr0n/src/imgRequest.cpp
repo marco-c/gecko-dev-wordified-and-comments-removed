@@ -3735,6 +3735,9 @@ rv
 }
 if
 (
+mImage
+&
+&
 NS_SUCCEEDED
 (
 status
