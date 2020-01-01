@@ -3271,6 +3271,13 @@ Likely
 h
 "
 #
+include
+"
+nsDebug
+.
+h
+"
+#
 undef
 None
 /
@@ -8298,7 +8305,7 @@ parent
 )
 )
 {
-MOZ_ASSERT
+NS_ASSERTION
 (
 win
 -
@@ -8306,6 +8313,14 @@ win
 IsClosedOrClosing
 (
 )
+"
+win
+should
+be
+closed
+or
+closing
+"
 )
 ;
 return
