@@ -123,7 +123,7 @@ self
 id
     
 def
-equals
+__eq__
 (
 self
 other_element
@@ -133,27 +133,12 @@ other_element
 return
 self
 .
-marionette
-.
-_send_message
-(
-'
-elementsEqual
-'
-'
-value
-'
-elements
-=
-[
-self
-.
 id
+=
+=
 other_element
 .
 id
-]
-)
     
 def
 find_element

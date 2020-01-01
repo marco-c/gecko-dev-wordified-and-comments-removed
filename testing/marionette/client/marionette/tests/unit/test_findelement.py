@@ -106,11 +106,7 @@ self
 assertEqual
 (
 el
-.
-id
 found_el
-.
-id
 )
     
 def
@@ -219,11 +215,7 @@ self
 assertEqual
 (
 el
-.
-id
 found_el
-.
-id
 )
     
 def
@@ -426,11 +418,7 @@ self
 assertEqual
 (
 el
-.
-id
 found_el
-.
-id
 )
         
 found_el
@@ -481,11 +469,7 @@ self
 assertEqual
 (
 el
-.
-id
 found_el
-.
-id
 )
     
 def
@@ -580,11 +564,7 @@ self
 assertEqual
 (
 el
-.
-id
 found_el
-.
-id
 )
         
 found_el
@@ -624,11 +604,7 @@ self
 assertEqual
 (
 el
-.
-id
 found_el
-.
-id
 )
     
 def
@@ -721,11 +697,7 @@ self
 assertEqual
 (
 el
-.
-id
 found_el
-.
-id
 )
         
 found_el
@@ -763,11 +735,7 @@ self
 assertEqual
 (
 el
-.
-id
 found_el
-.
-id
 )
     
 def
@@ -858,11 +826,7 @@ self
 assertEqual
 (
 el
-.
-id
 found_el
-.
-id
 )
         
 found_el
@@ -901,11 +865,7 @@ self
 assertEqual
 (
 el
-.
-id
 found_el
-.
-id
 )
     
 def
@@ -998,11 +958,7 @@ self
 assertEqual
 (
 el
-.
-id
 found_el
-.
-id
 )
         
 found_el
@@ -1043,11 +999,7 @@ self
 assertEqual
 (
 el
-.
-id
 found_el
-.
-id
 )
     
 def
@@ -1140,11 +1092,7 @@ self
 assertEqual
 (
 el
-.
-id
 found_el
-.
-id
 )
         
 found_el
@@ -1185,11 +1133,7 @@ self
 assertEqual
 (
 el
-.
-id
 found_el
-.
-id
 )
     
 def
@@ -1284,11 +1228,7 @@ self
 assertEqual
 (
 el
-.
-id
 found_el
-.
-id
 )
         
 found_el
@@ -1331,11 +1271,7 @@ self
 assertEqual
 (
 el
-.
-id
 found_el
-.
-id
 )
     
 def
@@ -1670,11 +1606,7 @@ self
 assertEqual
 (
 el
-.
-id
 found_el
-.
-id
 )
     
 def
@@ -1747,11 +1679,7 @@ self
 assertEqual
 (
 el
-.
-id
 found_el
-.
-id
 )
     
 def
@@ -1906,11 +1834,7 @@ self
 assertEqual
 (
 el
-.
-id
 found_el
-.
-id
 )
     
 def
@@ -1981,11 +1905,7 @@ self
 assertEqual
 (
 el
-.
-id
 found_el
-.
-id
 )
     
 def
@@ -2057,11 +1977,7 @@ self
 assertEqual
 (
 el
-.
-id
 found_el
-.
-id
 )
     
 def
