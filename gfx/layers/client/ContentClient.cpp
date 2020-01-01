@@ -67,8 +67,6 @@ ContentClient
 :
 CreateContentClient
 (
-LayersBackend
-aParentBackend
 CompositableForwarder
 *
 aForwarder
@@ -76,7 +74,12 @@ aForwarder
 {
 if
 (
-aParentBackend
+aForwarder
+-
+>
+GetCompositorBackendType
+(
+)
 !
 =
 LAYERS_OPENGL

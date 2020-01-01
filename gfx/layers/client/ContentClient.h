@@ -102,8 +102,6 @@ ContentClient
 >
 CreateContentClient
 (
-LayersBackend
-aBackendType
 CompositableForwarder
 *
 aFwd

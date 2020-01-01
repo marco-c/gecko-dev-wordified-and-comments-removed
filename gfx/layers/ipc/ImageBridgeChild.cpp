@@ -2167,7 +2167,6 @@ ImageClient
 :
 CreateImageClient
 (
-mCompositorBackend
 aType
 this
 0
