@@ -312,7 +312,7 @@ Register
 ABIArgGenerator
 :
 :
-NonArgReturnVolatileReg1
+NonArgReturnVolatileReg0
 =
 r10
 ;
@@ -321,7 +321,7 @@ Register
 ABIArgGenerator
 :
 :
-NonArgReturnVolatileReg2
+NonArgReturnVolatileReg1
 =
 r11
 ;
