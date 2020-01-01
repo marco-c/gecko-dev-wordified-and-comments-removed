@@ -976,6 +976,10 @@ chrome_paths_win
 .
 cc
 \
+chrome_constants
+.
+cc
+\
 ipc_channel_win
 .
 cc
