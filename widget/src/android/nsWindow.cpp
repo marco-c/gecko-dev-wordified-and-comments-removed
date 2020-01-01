@@ -9898,6 +9898,17 @@ NOTIFY_IME_RESETINPUTSTATE
 0
 )
 ;
+OnIMETextChange
+(
+0
+0
+0
+)
+;
+OnIMESelectionChange
+(
+)
+;
 return
 NS_OK
 ;
