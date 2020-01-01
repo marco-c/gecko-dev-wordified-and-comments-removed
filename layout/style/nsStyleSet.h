@@ -385,6 +385,15 @@ aStyleContext
 nsStyleContext
 *
 aNewParentContext
+mozilla
+:
+:
+dom
+:
+:
+Element
+*
+aElement
 )
 ;
 PRBool
