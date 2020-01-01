@@ -527,10 +527,10 @@ verifyTypeStability
 (
 JSStackFrame
 *
-fp
-JSFrameRegs
-&
-regs
+entryFrame
+JSStackFrame
+*
+currentFrame
 uint8
 *
 m
