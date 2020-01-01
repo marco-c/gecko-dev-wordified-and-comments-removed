@@ -6070,7 +6070,7 @@ loadPtr
 list
 -
 >
-start
+first
 result
 )
 ;
@@ -6082,14 +6082,14 @@ branchPtr
 Assembler
 :
 :
-Equal
+BelowOrEqual
 AbsoluteAddress
 (
 &
 list
 -
 >
-end
+last
 )
 result
 )
@@ -6110,7 +6110,7 @@ result
 list
 -
 >
-start
+first
 )
 ;
 if

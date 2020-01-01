@@ -713,6 +713,10 @@ IterateData
 (
 )
 :
+atomsTableSize
+(
+0
+)
 stackSize
 (
 0
@@ -750,6 +754,9 @@ NULL
 )
 {
 }
+PRInt64
+atomsTableSize
+;
 PRInt64
 stackSize
 ;

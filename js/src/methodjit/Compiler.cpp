@@ -4547,7 +4547,7 @@ masm
 size
 =
 %
-u
+lu
 Slow
 code
 (
@@ -4556,7 +4556,7 @@ stubcc
 size
 =
 %
-u
+lu
 .
 \
 n

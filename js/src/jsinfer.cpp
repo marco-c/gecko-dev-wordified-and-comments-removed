@@ -27159,6 +27159,7 @@ getFirstFreeSpan
 )
 )
 ;
+const
 gc
 :
 :
@@ -27210,7 +27211,7 @@ thing
 span
 -
 >
-start
+first
 )
 {
 if
@@ -27230,7 +27231,7 @@ thing
 span
 -
 >
-end
+last
 ;
 span
 =
