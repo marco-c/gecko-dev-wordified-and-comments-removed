@@ -2545,8 +2545,6 @@ FireClipboardEvent
 (
 int32_t
 aType
-int32_t
-aClipboardType
 nsIPresShell
 *
 aPresShell
@@ -2850,7 +2848,6 @@ aType
 =
 =
 NS_PASTE
-aClipboardType
 )
 ;
 nsEventStatus
@@ -2989,7 +2986,10 @@ HTMLCopy
 (
 sel
 doc
-aClipboardType
+nsIClipboard
+:
+:
+kGlobalClipboard
 )
 ;
 if
@@ -3088,7 +3088,10 @@ SetData
 (
 transferable
 nullptr
-aClipboardType
+nsIClipboard
+:
+:
+kGlobalClipboard
 )
 ;
 if

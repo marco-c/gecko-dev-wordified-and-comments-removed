@@ -175,8 +175,6 @@ FireClipboardEvent
 (
 int32_t
 aType
-int32_t
-aClipboardType
 nsIPresShell
 *
 aPresShell

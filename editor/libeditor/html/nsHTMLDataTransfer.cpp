@@ -6339,7 +6339,6 @@ if
 FireClipboardEvent
 (
 NS_PASTE
-aSelectionType
 )
 )
 return
@@ -6781,10 +6780,6 @@ if
 FireClipboardEvent
 (
 NS_PASTE
-nsIClipboard
-:
-:
-kGlobalClipboard
 )
 )
 return
@@ -6849,7 +6844,6 @@ if
 FireClipboardEvent
 (
 NS_PASTE
-aSelectionType
 )
 )
 return

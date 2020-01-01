@@ -9085,8 +9085,6 @@ nsDOMDataTransfer
 (
 NS_DRAGDROP_START
 false
--
-1
 )
 ;
 if

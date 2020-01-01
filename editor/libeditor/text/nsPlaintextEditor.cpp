@@ -4980,8 +4980,6 @@ FireClipboardEvent
 (
 int32_t
 aType
-int32_t
-aSelectionType
 )
 {
 if
@@ -5042,7 +5040,6 @@ nsCopySupport
 FireClipboardEvent
 (
 aType
-aSelectionType
 presShell
 selection
 )
@@ -5068,10 +5065,6 @@ if
 FireClipboardEvent
 (
 NS_CUT
-nsIClipboard
-:
-:
-kGlobalClipboard
 )
 )
 return
@@ -5128,10 +5121,6 @@ Copy
 FireClipboardEvent
 (
 NS_COPY
-nsIClipboard
-:
-:
-kGlobalClipboard
 )
 ;
 return
