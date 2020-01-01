@@ -799,10 +799,7 @@ chrome
 /
 qa
 '
-'
-Litmus
-Login
-'
+null
 litmus
 .
 baseURL
@@ -875,10 +872,7 @@ chrome
 /
 qa
 '
-'
-Litmus
-Login
-'
+null
 litmus
 .
 baseURL
