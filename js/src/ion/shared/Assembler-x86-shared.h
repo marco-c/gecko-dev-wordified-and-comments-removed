@@ -83,7 +83,6 @@ js
 Vector
 <
 CodeLabel
-*
 0
 SystemAllocPolicy
 >
@@ -736,7 +735,6 @@ bool
 addCodeLabel
 (
 CodeLabel
-*
 label
 )
 {

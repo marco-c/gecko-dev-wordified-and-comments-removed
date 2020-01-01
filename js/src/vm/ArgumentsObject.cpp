@@ -864,6 +864,10 @@ create
 (
 cx
 FINALIZE_KIND
+gc
+:
+:
+DefaultHeap
 shape
 type
 NULL
