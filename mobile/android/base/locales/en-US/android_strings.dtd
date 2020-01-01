@@ -2604,6 +2604,17 @@ here
 <
 !
 ENTITY
+pin_bookmark_dialog_hint
+"
+Enter
+a
+search
+keyword
+"
+>
+<
+!
+ENTITY
 filepicker_title
 "
 Choose
