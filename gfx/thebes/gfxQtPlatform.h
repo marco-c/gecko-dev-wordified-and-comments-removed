@@ -415,6 +415,13 @@ aWindow
 ;
 #
 endif
+virtual
+int
+GetScreenDepth
+(
+)
+const
+;
 protected
 :
 static
@@ -446,6 +453,9 @@ mPrefFonts
 ;
 RenderMode
 mRenderMode
+;
+int
+mScreenDepth
 ;
 }
 ;
