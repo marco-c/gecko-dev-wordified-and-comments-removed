@@ -40,7 +40,7 @@ error
 Neither
 JS_NUNBOX32
 nor
-JS_PUNBOX32
+JS_PUNBOX64
 is
 defined
 .
