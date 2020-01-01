@@ -819,6 +819,12 @@ removeTab
 tab
 )
 ;
+aEvent
+.
+stopPropagation
+(
+)
+;
 aCallback
 (
 )

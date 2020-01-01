@@ -181,6 +181,12 @@ removeTab
 newTab
 )
 ;
+e
+.
+stopPropagation
+(
+)
+;
 finish
 (
 )

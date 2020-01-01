@@ -168,6 +168,7 @@ SSTabRestored
 "
 function
 (
+e
 )
 {
 tab
@@ -213,6 +214,12 @@ removeTab
 tab
 )
 ;
+e
+.
+stopPropagation
+(
+)
+;
 let
 newTab
 =
@@ -233,6 +240,7 @@ SSTabRestored
 "
 function
 (
+e
 )
 {
 newTab
@@ -280,6 +288,12 @@ gBrowser
 removeTab
 (
 newTab
+)
+;
+e
+.
+stopPropagation
+(
 )
 ;
 finish
