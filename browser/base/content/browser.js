@@ -1466,7 +1466,6 @@ document
 {
 charsetLoadListener
 (
-event
 )
 ;
 XULBrowserWindow
@@ -28570,7 +28569,6 @@ node
 function
 charsetLoadListener
 (
-event
 )
 {
 var
