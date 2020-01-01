@@ -666,7 +666,11 @@ options
 )
 {
 return
-(
+wbo
+.
+payload
+&
+&
 (
 !
 options
@@ -708,7 +712,6 @@ modified
 options
 .
 newer
-)
 )
 )
 ;
