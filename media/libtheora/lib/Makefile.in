@@ -779,10 +779,6 @@ armloop
 .
 s
 \
-armopts
-.
-s
-\
 (
 NULL
 )
