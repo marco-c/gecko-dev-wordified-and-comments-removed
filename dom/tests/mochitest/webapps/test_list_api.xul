@@ -395,6 +395,13 @@ navigator
 .
 mozApps
 .
+getNotInstalled
+'
+'
+navigator
+.
+mozApps
+.
 getSelf
 '
 '
