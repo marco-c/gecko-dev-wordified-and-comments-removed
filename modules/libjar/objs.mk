@@ -427,6 +427,10 @@ zipstruct
 .
 h
 \
+nsZipArchive
+.
+h
+\
 (
 NULL
 )

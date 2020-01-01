@@ -546,6 +546,15 @@ dlldeps
 cpp
 endif
 endif
+ifdef
+MOZ_OMNIJAR
+CPPSRCS
++
+=
+Omnijar
+.
+cpp
+endif
 SHARED_LIBRARY_LIBS
 =
 \
@@ -925,6 +934,10 @@ Services
 h
 \
 ServiceList
+.
+h
+\
+Omnijar
 .
 h
 \
