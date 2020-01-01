@@ -437,6 +437,9 @@ DIRS
 +
 =
 build
+TEST_DIRS
+=
+tests
 include
 (
 topsrcdir
