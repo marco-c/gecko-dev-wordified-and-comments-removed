@@ -4441,16 +4441,8 @@ IsXUL
 )
 )
 {
-rv
-=
 InitHTMLTemplateRoot
 (
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 }
