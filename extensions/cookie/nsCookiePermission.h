@@ -114,13 +114,13 @@ return
 mPermMgr
 !
 =
-NULL
+nullptr
 &
 &
 mThirdPartyUtil
 !
 =
-NULL
+nullptr
 )
 |
 |

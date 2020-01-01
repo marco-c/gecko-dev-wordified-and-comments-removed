@@ -300,7 +300,7 @@ inTokenLen
 *
 outToken
 =
-NULL
+nullptr
 ;
 *
 outTokenLen

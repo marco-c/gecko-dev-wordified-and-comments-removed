@@ -962,7 +962,7 @@ inToken
 )
 =
 =
-NULL
+nullptr
 )
 {
 free

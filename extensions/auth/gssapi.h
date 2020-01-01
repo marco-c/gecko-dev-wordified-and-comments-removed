@@ -549,7 +549,7 @@ define
 GSS_C_EMPTY_BUFFER
 {
 0
-NULL
+nullptr
 }
 #
 define

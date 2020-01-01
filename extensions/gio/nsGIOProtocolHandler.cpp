@@ -731,7 +731,7 @@ g_file_mount_enclosing_volume
 mHandle
 G_MOUNT_MOUNT_NONE
 mount_op
-NULL
+nullptr
 mount_enclosing_volume_finished
 this
 )
@@ -797,7 +797,7 @@ GError
 *
 error
 =
-NULL
+nullptr
 ;
 GFileEnumerator
 *
@@ -817,7 +817,7 @@ time
 *
 "
 G_FILE_QUERY_INFO_NONE
-NULL
+nullptr
 &
 error
 )
@@ -869,7 +869,7 @@ info
 g_file_enumerator_next_file
 (
 f_enum
-NULL
+nullptr
 &
 error
 )
@@ -892,7 +892,7 @@ info
 g_file_enumerator_next_file
 (
 f_enum
-NULL
+nullptr
 &
 error
 )
@@ -1077,14 +1077,14 @@ GError
 *
 error
 =
-NULL
+nullptr
 ;
 mStream
 =
 g_file_read
 (
 mHandle
-NULL
+nullptr
 &
 error
 )
@@ -1230,7 +1230,7 @@ GError
 *
 error
 =
-NULL
+nullptr
 ;
 NS_ASSERTION
 (
@@ -1269,7 +1269,7 @@ standard
 *
 "
 G_FILE_QUERY_INFO_NONE
-NULL
+nullptr
 &
 error
 )
@@ -1315,7 +1315,7 @@ NS_ERROR_NOT_CONNECTED
 ;
 error
 =
-NULL
+nullptr
 ;
 rv
 =
@@ -1347,7 +1347,7 @@ standard
 *
 "
 G_FILE_QUERY_INFO_NONE
-NULL
+nullptr
 &
 error
 )
@@ -1532,7 +1532,7 @@ GError
 *
 error
 =
-NULL
+nullptr
 ;
 uint32_t
 bytes_read
@@ -1545,7 +1545,7 @@ mStream
 )
 aBuf
 aCount
-NULL
+nullptr
 &
 error
 )
@@ -2497,7 +2497,7 @@ GError
 *
 error
 =
-NULL
+nullptr
 ;
 nsGIOInputStream
 *
@@ -3810,7 +3810,7 @@ while
 uri_schemes
 !
 =
-NULL
+nullptr
 )
 {
 if
@@ -4162,11 +4162,11 @@ kVFSCIDs
 &
 kNS_GIOPROTOCOLHANDLER_CID
 false
-NULL
+nullptr
 nsGIOProtocolHandlerConstructor
 }
 {
-NULL
+nullptr
 }
 }
 ;
@@ -4191,7 +4191,7 @@ MOZ_GIO_SCHEME
 kNS_GIOPROTOCOLHANDLER_CID
 }
 {
-NULL
+nullptr
 }
 }
 ;
