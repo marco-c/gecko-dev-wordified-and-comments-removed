@@ -572,11 +572,6 @@ rv
 rv
 )
 ;
-mState
-|
-=
-NS_FRAME_EXCLUDE_IGNORABLE_WHITESPACE
-;
 MarkIntrinsicWidthsDirty
 (
 )

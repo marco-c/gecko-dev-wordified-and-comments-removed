@@ -574,11 +574,6 @@ aParent
 aPrevInFlow
 )
 ;
-mState
-|
-=
-NS_FRAME_EXCLUDE_IGNORABLE_WHITESPACE
-;
 if
 (
 aPrevInFlow
