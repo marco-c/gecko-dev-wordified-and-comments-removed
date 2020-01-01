@@ -1,0 +1,12 @@
+.
+PHONY
+:
+.
+/
+.
+/
+:
+echo
+TEST
+-
+PASS

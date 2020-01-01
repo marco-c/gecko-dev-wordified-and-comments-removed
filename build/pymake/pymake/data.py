@@ -233,12 +233,26 @@ startswith
 )
 :
         
-return
+st
+=
 s
 [
 2
 :
 ]
+        
+return
+st
+if
+st
+!
+=
+'
+'
+else
+'
+.
+'
     
 return
 s

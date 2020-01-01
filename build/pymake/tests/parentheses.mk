@@ -1,0 +1,8 @@
+all
+:
+(
+echo
+TEST
+-
+PASS
+)
