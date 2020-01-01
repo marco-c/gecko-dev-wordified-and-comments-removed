@@ -224,8 +224,8 @@ resource
 /
 /
 gre
-/
-res
+-
+resources
 /
 hiddenWindow
 .

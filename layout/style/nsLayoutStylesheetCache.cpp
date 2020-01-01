@@ -344,8 +344,8 @@ resource
 /
 /
 gre
-/
-res
+-
+resources
 /
 forms
 .
@@ -658,8 +658,8 @@ resource
 /
 /
 gre
-/
-res
+-
+resources
 /
 ua
 .
@@ -705,8 +705,8 @@ resource
 /
 /
 gre
-/
-res
+-
+resources
 /
 quirk
 .

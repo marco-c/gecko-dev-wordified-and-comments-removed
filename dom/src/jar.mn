@@ -1,0 +1,16 @@
+toolkit
+.
+jar
+:
+res
+/
+hiddenWindow
+.
+html
+(
+res
+/
+hiddenWindow
+.
+html
+)
