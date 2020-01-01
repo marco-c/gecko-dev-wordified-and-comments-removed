@@ -157,11 +157,6 @@ nsIDOMSVGRect
 .
 idl
 '
-'
-nsIDOMSVGZoomEvent
-.
-idl
-'
 ]
 XPIDL_MODULE
 =

@@ -312,10 +312,6 @@ SVGRect
 )
 DOMCI_CLASS
 (
-SVGZoomEvent
-)
-DOMCI_CLASS
-(
 MozCanvasPrintState
 )
 DOMCI_CLASS

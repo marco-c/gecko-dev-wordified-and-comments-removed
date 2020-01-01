@@ -1199,6 +1199,10 @@ SVGZoomAndPan
 .
 webidl
 \
+SVGZoomEvent
+.
+webidl
+\
 Text
 .
 webidl
