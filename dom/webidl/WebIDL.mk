@@ -311,6 +311,10 @@ HTMLElement
 .
 webidl
 \
+HTMLFieldSetElement
+.
+webidl
+\
 HTMLFontElement
 .
 webidl
