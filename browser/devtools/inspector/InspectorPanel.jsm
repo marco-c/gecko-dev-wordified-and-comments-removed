@@ -1592,6 +1592,9 @@ newWindow
 document
 .
 documentElement
+"
+navigateaway
+"
 )
 ;
 }
