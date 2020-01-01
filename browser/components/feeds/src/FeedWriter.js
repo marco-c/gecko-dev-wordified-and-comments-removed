@@ -1604,15 +1604,9 @@ try
 var
 parts
 =
-this
-.
-_getPropertyAsBag
-(
 container
-"
+.
 image
-"
-)
 ;
 var
 feedTitleImage
