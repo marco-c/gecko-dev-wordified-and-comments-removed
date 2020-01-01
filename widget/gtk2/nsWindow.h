@@ -1465,10 +1465,6 @@ GdkWindow
 *
 mGdkWindow
 ;
-GtkWindowGroup
-*
-mWindowGroup
-;
 uint32_t
 mHasMappedToplevel
 :
