@@ -768,6 +768,12 @@ Uint8ClampedArray
 36
 js_InitTypedArrayClasses
 )
+JS_PROTO
+(
+Proxy
+37
+js_InitProxyClass
+)
 #
 undef
 XML_INIT

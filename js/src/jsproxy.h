@@ -1417,6 +1417,10 @@ wrapper
 }
 JS_BEGIN_EXTERN_C
 extern
+JSClass
+js_ProxyClass
+;
+extern
 JS_FRIEND_API
 (
 JSObject
