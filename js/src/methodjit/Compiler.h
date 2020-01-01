@@ -710,16 +710,6 @@ DoublePatch
 >
 doubleList
 ;
-js
-:
-:
-Vector
-<
-uint32
-16
->
-escapingList
-;
 StubCompiler
 stubcc
 ;
