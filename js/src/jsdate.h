@@ -332,9 +332,6 @@ js_Date
 JSContext
 *
 cx
-JSObject
-*
-obj
 uintN
 argc
 js
@@ -342,13 +339,7 @@ js
 :
 Value
 *
-argv
-js
-:
-:
-Value
-*
-rval
+vp
 )
 ;
 #

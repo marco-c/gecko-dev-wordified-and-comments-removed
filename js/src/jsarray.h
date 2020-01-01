@@ -590,9 +590,6 @@ js_Array
 JSContext
 *
 cx
-JSObject
-*
-obj
 uintN
 argc
 js
@@ -600,13 +597,7 @@ js
 :
 Value
 *
-argv
-js
-:
-:
-Value
-*
-rval
+vp
 )
 ;
 JS_FRIEND_API

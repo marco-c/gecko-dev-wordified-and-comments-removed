@@ -4604,9 +4604,6 @@ js_String
 JSContext
 *
 cx
-JSObject
-*
-obj
 uintN
 argc
 js
@@ -4614,13 +4611,7 @@ js
 :
 Value
 *
-argv
-js
-:
-:
-Value
-*
-rval
+vp
 )
 ;
 namespace
