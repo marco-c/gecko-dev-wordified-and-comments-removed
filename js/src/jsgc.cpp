@@ -12510,6 +12510,16 @@ c
 !
 =
 comp
+&
+&
+*
+c
+!
+=
+rt
+-
+>
+atomsCompartment
 checkArenaListAllUnmarked
 (
 *
