@@ -5229,13 +5229,6 @@ entering
 }
 #
 endif
-js
-:
-:
-PropertyIteratorObject
-*
-enumerators
-;
 private
 :
 JSGenerator

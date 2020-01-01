@@ -112,6 +112,9 @@ class
 IonCompartment
 ;
 }
+struct
+NativeIterator
+;
 class
 DtoaCache
 {
@@ -2163,6 +2166,13 @@ js
 DebugScopes
 *
 debugScopes
+;
+js
+:
+:
+NativeIterator
+*
+enumerators
 ;
 #
 ifdef
