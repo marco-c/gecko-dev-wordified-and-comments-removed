@@ -43,13 +43,6 @@ h
 #
 include
 "
-nsplugindefs
-.
-h
-"
-#
-include
-"
 base
 /
 string_util
@@ -441,7 +434,7 @@ NP_GetValue
 void
 *
 future
-nsPluginVariable
+NPPVariable
 aVariable
 void
 *
@@ -1087,7 +1080,7 @@ NP_GetValue
 void
 *
 future
-nsPluginVariable
+NPPVariable
 aVariable
 void
 *
