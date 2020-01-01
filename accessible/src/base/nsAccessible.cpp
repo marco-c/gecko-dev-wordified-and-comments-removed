@@ -10662,6 +10662,15 @@ view
 GetWidget
 (
 )
+|
+|
+!
+frame
+-
+>
+GetParent
+(
+)
 )
 {
 nsCOMPtr
