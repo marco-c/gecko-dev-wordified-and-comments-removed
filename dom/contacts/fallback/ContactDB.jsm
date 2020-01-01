@@ -2118,7 +2118,7 @@ request
 =
 store
 .
-getAll
+mozGetAll
 (
 options
 .
@@ -2151,7 +2151,7 @@ request
 =
 index
 .
-getAll
+mozGetAll
 (
 options
 .
@@ -2198,7 +2198,7 @@ request
 =
 index
 .
-getAll
+mozGetAll
 (
 options
 .
@@ -2258,7 +2258,7 @@ request
 =
 index
 .
-getAll
+mozGetAll
 (
 range
 limit
@@ -2420,7 +2420,7 @@ null
 ;
 store
 .
-getAll
+mozGetAll
 (
 null
 limit
