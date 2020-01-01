@@ -9552,6 +9552,8 @@ PRInt32
 aContextNamespace
 PRBool
 aQuirks
+PRBool
+aPreventScriptExecution
 )
 {
 return

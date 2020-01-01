@@ -2579,6 +2579,11 @@ if
 mFragmentMode
 )
 {
+if
+(
+mPreventScriptExecution
+)
+{
 sele
 -
 >
@@ -2586,6 +2591,7 @@ PreventExecution
 (
 )
 ;
+}
 return
 ;
 }

@@ -368,11 +368,6 @@ nsScriptElement
 aFromParser
 )
 {
-mDoneAddingChildren
-=
-!
-aFromParser
-;
 AddMutationObserver
 (
 this

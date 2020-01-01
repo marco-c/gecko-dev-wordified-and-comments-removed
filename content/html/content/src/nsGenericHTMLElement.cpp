@@ -3076,6 +3076,7 @@ GetCompatibilityMode
 =
 =
 eCompatibility_NavQuirks
+PR_TRUE
 )
 ;
 doc

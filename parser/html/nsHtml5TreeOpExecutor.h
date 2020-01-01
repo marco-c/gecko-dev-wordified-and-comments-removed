@@ -286,6 +286,9 @@ mCallContinueInterruptedParsingIfEnabled
 PRBool
 mFragmentMode
 ;
+PRBool
+mPreventScriptExecution
+;
 public
 :
 nsHtml5TreeOpExecutor
@@ -548,6 +551,8 @@ IsScriptEnabled
 void
 EnableFragmentMode
 (
+PRBool
+aPreventScriptExecution
 )
 {
 mFragmentMode
@@ -557,6 +562,10 @@ PR_TRUE
 mCanInterruptParser
 =
 PR_FALSE
+;
+mPreventScriptExecution
+=
+aPreventScriptExecution
 ;
 }
 PRBool
