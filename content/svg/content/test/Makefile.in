@@ -504,6 +504,10 @@ helper
 .
 svg
 \
+test_valueLeaks
+.
+xhtml
+\
 (
 NULL
 )
