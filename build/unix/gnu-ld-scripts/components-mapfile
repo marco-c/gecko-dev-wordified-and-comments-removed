@@ -3,8 +3,6 @@ global
 :
 NSModule
 ;
-NSGetModule
-;
 local
 :
 *
