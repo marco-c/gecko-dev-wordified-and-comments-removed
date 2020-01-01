@@ -459,6 +459,7 @@ cx
 )
 )
 {
+{
 JSAutoRequest
 ar
 (
@@ -490,6 +491,7 @@ str
 )
 )
 ;
+}
 }
 stack
 -

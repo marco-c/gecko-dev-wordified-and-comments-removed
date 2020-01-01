@@ -406,9 +406,13 @@ CHECK
 cx2
 )
 ;
-JS_TransferRequest
+JSBool
+ok
+;
+{
+JSAutoRequest
+req
 (
-cx
 cx2
 )
 ;
@@ -417,7 +421,6 @@ v
 =
 JSVAL_NULL
 ;
-JSBool
 ok
 =
 JS_SetProperty
@@ -431,12 +434,7 @@ x
 v
 )
 ;
-JS_TransferRequest
-(
-cx2
-cx
-)
-;
+}
 CHECK
 (
 ok

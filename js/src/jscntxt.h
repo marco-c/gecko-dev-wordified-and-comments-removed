@@ -2806,8 +2806,9 @@ gcThreadMallocBytes
 bool
 gcWaiting
 ;
-uint32
-contextsInRequests
+JSContext
+*
+requestContext
 ;
 JSThreadData
 data
@@ -4872,6 +4873,13 @@ requestDepth
 ;
 jsrefcount
 outstandingRequests
+;
+JSContext
+*
+prevRequestContext
+;
+jsrefcount
+prevRequestDepth
 ;
 #
 ifdef
