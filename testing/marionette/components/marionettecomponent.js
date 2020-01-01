@@ -121,7 +121,7 @@ socket
 nsIServerSocket
 "
 "
-init
+initSpecialConnection
 "
 )
 ;
@@ -668,7 +668,11 @@ new
 ServerSocket
 (
 666
-false
+Ci
+.
+nsIServerSocket
+.
+KeepWhenOffline
 4
 )
 ;

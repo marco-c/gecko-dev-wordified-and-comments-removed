@@ -69,6 +69,15 @@ aIsLocal
 )
 ;
 virtual
+void
+KeepWhenOffline
+(
+bool
+*
+aKeepWhenOffline
+)
+;
+virtual
 uint64_t
 ByteCountSent
 (
@@ -142,6 +151,9 @@ mListenerTarget
 ;
 bool
 mAttached
+;
+bool
+mKeepWhenOffline
 ;
 }
 ;
