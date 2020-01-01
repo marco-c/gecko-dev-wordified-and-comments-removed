@@ -1068,11 +1068,6 @@ nsIDOMNotifyAudioAvailableEvent
 .
 time
 '
-'
-nsIDOMHTMLAudioElement
-.
-mozWriteAudio
-'
 #
 dom
 /

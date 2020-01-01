@@ -551,14 +551,6 @@ MOZ_MEDIA
 )
 DOMCI_CLASS
 (
-HTMLVideoElement
-)
-DOMCI_CLASS
-(
-HTMLAudioElement
-)
-DOMCI_CLASS
-(
 TimeRanges
 )
 #
