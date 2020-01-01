@@ -830,6 +830,8 @@ priv
 void
 *
 item
+size_t
+size
 )
 {
 free
