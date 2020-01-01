@@ -1,3 +1,6 @@
+var
+timer
+;
 function
 handleRequest
 (
@@ -64,7 +67,6 @@ processAsync
 (
 )
 ;
-var
 timer
 =
 Components
