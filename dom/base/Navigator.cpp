@@ -2509,7 +2509,7 @@ doc
 doc
 -
 >
-GetMozHidden
+GetHidden
 (
 &
 hidden
@@ -2900,7 +2900,7 @@ true
 domDoc
 -
 >
-GetMozHidden
+GetHidden
 (
 &
 hidden

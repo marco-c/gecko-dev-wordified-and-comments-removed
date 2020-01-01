@@ -598,7 +598,7 @@ event
 .
 target
 .
-mozHidden
+hidden
 hidden
 name
 +
@@ -617,7 +617,7 @@ event
 .
 target
 .
-mozVisibilityState
+visibilityState
 state
 name
 +

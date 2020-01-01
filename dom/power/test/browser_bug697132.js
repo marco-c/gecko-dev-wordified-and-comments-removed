@@ -798,7 +798,7 @@ gWin2
 .
 document
 .
-mozHidden
+hidden
 true
 "
 window
@@ -858,7 +858,7 @@ if
 !
 doc2
 .
-mozHidden
+hidden
 )
 {
 doc2
@@ -902,7 +902,7 @@ gWin2
 .
 document
 .
-mozHidden
+hidden
 false
 "
 window
@@ -1115,7 +1115,7 @@ gWin2
 .
 document
 .
-mozHidden
+hidden
 true
 "
 window
@@ -1334,7 +1334,7 @@ gWin1
 .
 document
 .
-mozHidden
+hidden
 true
 "
 gWin1
@@ -1349,7 +1349,7 @@ gWin2
 .
 document
 .
-mozHidden
+hidden
 false
 "
 gWin2

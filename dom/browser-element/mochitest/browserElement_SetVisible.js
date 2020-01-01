@@ -43,7 +43,7 @@ content
 .
 document
 .
-mozHidden
+hidden
 }
 )
 ;
@@ -169,7 +169,7 @@ hidden
 =
 true
 '
-mozHidden
+hidden
 attribute
 correctly
 set
@@ -213,7 +213,7 @@ hidden
 =
 false
 '
-mozHidden
+hidden
 attribute
 correctly
 set
@@ -257,7 +257,7 @@ false
 '
 Too
 many
-mozhidden
+visibilitychange
 events
 '
 )

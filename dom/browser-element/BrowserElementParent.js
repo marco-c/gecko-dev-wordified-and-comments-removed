@@ -1948,7 +1948,7 @@ _window
 .
 document
 .
-mozHidden
+hidden
 )
 {
 this
@@ -3064,7 +3064,7 @@ _window
 .
 document
 .
-mozHidden
+hidden
 }
 )
 ;

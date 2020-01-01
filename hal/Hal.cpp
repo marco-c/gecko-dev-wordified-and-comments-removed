@@ -397,7 +397,7 @@ true
 doc
 -
 >
-GetMozHidden
+GetHidden
 (
 &
 hidden

@@ -232,7 +232,7 @@ domDoc
 domDoc
 -
 >
-GetMozHidden
+GetHidden
 (
 &
 mHidden
@@ -682,7 +682,7 @@ mHidden
 domDoc
 -
 >
-GetMozHidden
+GetHidden
 (
 &
 mHidden
