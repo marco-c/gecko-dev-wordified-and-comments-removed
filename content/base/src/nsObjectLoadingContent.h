@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsIFrameLoader
+nsFrameLoader
 .
 h
 "
@@ -456,9 +456,9 @@ nsIStreamListener
 >
 mFinalListener
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIFrameLoader
+nsFrameLoader
 >
 mFrameLoader
 ;
