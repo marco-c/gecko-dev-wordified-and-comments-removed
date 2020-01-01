@@ -684,7 +684,7 @@ undef
 STYLE_STRUCT_INHERITED
 nsRuleNode
 *
-GetRuleNode
+RuleNode
 (
 )
 {

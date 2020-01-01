@@ -2912,7 +2912,7 @@ childStyleIfVisited
 childStyleIfVisited
 -
 >
-GetRuleNode
+RuleNode
 (
 )
 !
@@ -2920,7 +2920,7 @@ GetRuleNode
 aContext
 -
 >
-GetRuleNode
+RuleNode
 (
 )
 &
@@ -5699,7 +5699,7 @@ if
 oldContext
 -
 >
-GetRuleNode
+RuleNode
 (
 )
 =
@@ -5707,7 +5707,7 @@ GetRuleNode
 newContext
 -
 >
-GetRuleNode
+RuleNode
 (
 )
 &

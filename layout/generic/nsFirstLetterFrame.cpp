@@ -250,7 +250,7 @@ newSC
 mStyleContext
 -
 >
-GetRuleNode
+RuleNode
 (
 )
 -

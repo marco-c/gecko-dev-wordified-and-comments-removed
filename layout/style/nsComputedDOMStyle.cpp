@@ -1331,7 +1331,7 @@ ruleNode
 sc
 -
 >
-GetRuleNode
+RuleNode
 (
 )
 ;

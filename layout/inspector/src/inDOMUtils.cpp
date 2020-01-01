@@ -2017,7 +2017,7 @@ aRuleNode
 sContext
 -
 >
-GetRuleNode
+RuleNode
 (
 )
 ;

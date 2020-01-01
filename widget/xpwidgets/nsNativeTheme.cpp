@@ -190,7 +190,7 @@ StyleContext
 )
 -
 >
-GetRuleNode
+RuleNode
 (
 )
 -

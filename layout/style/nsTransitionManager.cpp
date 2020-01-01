@@ -1298,7 +1298,7 @@ ruleNode
 oldStyle
 -
 >
-GetRuleNode
+RuleNode
 (
 )
 ;

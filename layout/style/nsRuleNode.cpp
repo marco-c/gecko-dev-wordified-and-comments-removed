@@ -16164,7 +16164,7 @@ ruleNode
 context
 -
 >
-GetRuleNode
+RuleNode
 (
 )
 ;
@@ -40574,7 +40574,7 @@ ruleNode
 styleContext
 -
 >
-GetRuleNode
+RuleNode
 (
 )
 ;

@@ -1212,7 +1212,7 @@ StyleContext
 )
 -
 >
-GetRuleNode
+RuleNode
 (
 )
 -
