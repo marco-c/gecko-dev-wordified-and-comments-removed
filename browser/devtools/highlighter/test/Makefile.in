@@ -499,6 +499,10 @@ browser_inspector_infobar
 .
 js
 \
+browser_inspector_bug_690361
+.
+js
+\
 (
 NULL
 )
