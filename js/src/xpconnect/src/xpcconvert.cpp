@@ -1548,14 +1548,13 @@ IsVoid
 )
 )
 {
-JSString
-*
+jsval
 str
 =
 XPCStringConvert
 :
 :
-ReadableToJSString
+ReadableToJSVal
 (
 cx
 *
@@ -1573,10 +1572,7 @@ JS_FALSE
 *
 d
 =
-STRING_TO_JSVAL
-(
 str
-)
 ;
 }
 break

@@ -2372,14 +2372,13 @@ IsValid
 return
 NS_ERROR_UNEXPECTED
 ;
-JSString
-*
+jsval
 jsstr
 =
 XPCStringConvert
 :
 :
-ReadableToJSString
+ReadableToJSVal
 (
 ccx
 name
@@ -2401,10 +2400,7 @@ GetNamedPropertyAsVariant
 (
 ccx
 mJSObj
-STRING_TO_JSVAL
-(
 jsstr
-)
 _retval
 )
 ;
