@@ -126,6 +126,15 @@ test_stricttransportsecurity
 .
 html
 \
+(
+NULL
+)
+ifndef
+MOZ_PER_WINDOW_PRIVATE_BROWSING
+MOCHITEST_FILES
++
+=
+\
 test_sts_privatebrowsing
 .
 html
@@ -133,6 +142,7 @@ html
 (
 NULL
 )
+endif
 include
 (
 topsrcdir
