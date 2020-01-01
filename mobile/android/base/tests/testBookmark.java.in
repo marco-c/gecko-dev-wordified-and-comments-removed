@@ -137,7 +137,7 @@ about
 home
 "
 "
-http
+https
 :
 /
 /
@@ -146,14 +146,6 @@ support
 mozilla
 .
 org
-/
-en
--
-US
-/
-products
-/
-mobile
 "
 "
 https
