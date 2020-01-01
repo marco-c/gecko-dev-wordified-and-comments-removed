@@ -875,6 +875,14 @@ uint32_t
 aKey
 )
 ;
+static
+KeyNameIndex
+GetDOMKeyNameIndex
+(
+uint32_t
+aVirtualKey
+)
+;
 EventRegistrationToken
 mTokenPointerPressed
 ;
