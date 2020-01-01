@@ -683,9 +683,9 @@ here
 "
 )
 ;
-nsIDocument
-*
-doc
+aCSSParseEnv
+.
+mDocument
 =
 mElement
 -
@@ -698,7 +698,9 @@ aCSSParseEnv
 .
 mSheetURI
 =
-doc
+aCSSParseEnv
+.
+mDocument
 -
 >
 GetDocumentURI
@@ -731,7 +733,9 @@ aCSSParseEnv
 .
 mCSSLoader
 =
-doc
+aCSSParseEnv
+.
+mDocument
 -
 >
 CSSLoader
