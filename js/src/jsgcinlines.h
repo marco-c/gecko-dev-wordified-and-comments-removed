@@ -422,6 +422,10 @@ GetGCObjectKind
 (
 size_t
 numSlots
+bool
+isArray
+=
+false
 )
 {
 extern
@@ -437,9 +441,15 @@ numSlots
 =
 SLOTS_TO_THING_KIND_LIMIT
 )
+{
 return
+isArray
+?
+FINALIZE_OBJECT0
+:
 FINALIZE_OBJECT16
 ;
+}
 return
 slotsToThingKind
 [
