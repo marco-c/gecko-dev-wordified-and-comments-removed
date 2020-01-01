@@ -582,12 +582,6 @@ nsPluginEvent
 )
 ;
 native
-nsPluginManagerVariable
-(
-nsPluginManagerVariable
-)
-;
-native
 nsPluginVariable
 (
 nsPluginVariable

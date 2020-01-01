@@ -82,13 +82,6 @@ nsContentUtils
 .
 h
 "
-static
-NS_DEFINE_CID
-(
-kPluginManagerCID
-NS_PLUGINMANAGER_CID
-)
-;
 nsPluginArray
 :
 :
@@ -113,7 +106,7 @@ mPluginHost
 =
 do_GetService
 (
-kPluginManagerCID
+MOZ_PLUGIN_HOST_CONTRACTID
 &
 rv
 )
@@ -582,7 +575,7 @@ mPluginHost
 =
 do_GetService
 (
-kPluginManagerCID
+MOZ_PLUGIN_HOST_CONTRACTID
 &
 rv
 )
@@ -666,7 +659,7 @@ mPluginHost
 =
 do_GetService
 (
-kPluginManagerCID
+MOZ_PLUGIN_HOST_CONTRACTID
 &
 res
 )
@@ -684,18 +677,6 @@ return
 res
 ;
 }
-nsCOMPtr
-<
-nsIPluginManager
->
-pm
-(
-do_QueryInterface
-(
-mPluginHost
-)
-)
-;
 PRBool
 pluginsNotChanged
 =
@@ -703,7 +684,7 @@ PR_FALSE
 ;
 if
 (
-pm
+mPluginHost
 )
 pluginsNotChanged
 =
@@ -711,7 +692,7 @@ pluginsNotChanged
 NS_ERROR_PLUGINS_PLUGINSNOTCHANGED
 =
 =
-pm
+mPluginHost
 -
 >
 ReloadPlugins

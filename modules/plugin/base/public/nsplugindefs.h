@@ -800,9 +800,6 @@ class
 nsIPluginInstance
 ;
 class
-nsIPluginManager
-;
-class
 nsIPluginInstancePeer
 ;
 class

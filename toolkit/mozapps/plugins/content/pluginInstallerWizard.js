@@ -3771,7 +3771,7 @@ length
 try
 {
 var
-pm
+ph
 =
 Components
 .
@@ -3784,7 +3784,7 @@ org
 /
 plugin
 /
-manager
+host
 ;
 1
 "
@@ -3796,10 +3796,10 @@ Components
 .
 interfaces
 .
-nsIPluginManager
+nsIPluginHost
 )
 ;
-pm
+ph
 .
 reloadPlugins
 (

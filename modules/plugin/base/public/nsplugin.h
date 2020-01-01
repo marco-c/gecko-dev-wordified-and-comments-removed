@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsIPluginManager
-.
-h
-"
-#
-include
-"
 nsIPluginInstancePeer
 .
 h
@@ -50,13 +43,6 @@ h
 include
 "
 nsIWindowlessPlugInstPeer
-.
-h
-"
-#
-include
-"
-nsIPluginManager2
 .
 h
 "

@@ -457,7 +457,7 @@ after
 issuing
 an
 *
-nsIPluginManager
+nsIPluginHost
 :
 :
 {

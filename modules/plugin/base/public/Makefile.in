@@ -491,14 +491,6 @@ nsIPluginStreamInfo
 .
 idl
 \
-nsIPluginManager
-.
-idl
-\
-nsIPluginManager2
-.
-idl
-\
 nsIPluginInstancePeer
 .
 idl
