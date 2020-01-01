@@ -425,6 +425,11 @@ config
 autoconf
 .
 mk
+DIRS
+=
+profile
+/
+extensions
 PREF_JS_EXPORTS
 =
 (
