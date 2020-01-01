@@ -436,6 +436,10 @@ autoconf
 mk
 DIRS
 =
+.
+.
+/
+locales
 chrome
 locales
 components
