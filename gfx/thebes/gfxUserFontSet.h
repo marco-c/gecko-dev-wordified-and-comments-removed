@@ -708,6 +708,9 @@ nsIPrincipal
 *
 *
 aPrincipal
+bool
+*
+aBypassCache
 )
 =
 0
