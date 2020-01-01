@@ -818,6 +818,23 @@ MacOS
 '
 )
         
+else
+:
+            
+stem
+=
+os
+.
+path
+.
+join
+(
+stem
+'
+bin
+'
+)
+        
 leaf
 =
 None
