@@ -7620,7 +7620,6 @@ return
 ok
 ;
 }
-static
 JSBool
 callable_Construct
 (
