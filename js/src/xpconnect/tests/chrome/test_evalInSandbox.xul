@@ -646,7 +646,6 @@ Cu
 evalInSandbox
 (
 "
-!
 (
 '
 foo
@@ -662,9 +661,12 @@ sandbox
 )
 "
 must
-not
 see
 expandos
+for
+a
+chrome
+sandbox
 "
 )
 ;
