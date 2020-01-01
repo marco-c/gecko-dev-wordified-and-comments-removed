@@ -451,6 +451,16 @@ nsIMobileConnectionProvider
 )
 ;
 }
+else
+{
+mProvider
+-
+>
+RegisterMobileConnectionMsg
+(
+)
+;
+}
 }
 void
 MobileConnection
