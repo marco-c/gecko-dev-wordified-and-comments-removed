@@ -1419,7 +1419,7 @@ rv
 =
 NS_NewJSEventListener
 (
-boundContext
+nullptr
 scope
 scriptTarget
 onEventAtom

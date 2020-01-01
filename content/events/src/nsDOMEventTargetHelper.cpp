@@ -1085,9 +1085,6 @@ aType
 aCx
 obj
 aValue
-HasOrHasHadOwner
-(
-)
 )
 ;
 }

@@ -709,9 +709,6 @@ SetEventHandlerInternal
 nsIScriptContext
 *
 aContext
-JSContext
-*
-aCx
 JSObject
 *
 aScopeGlobal
@@ -769,8 +766,6 @@ const
 jsval
 &
 v
-bool
-aExpectScriptContext
 )
 ;
 void

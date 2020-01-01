@@ -720,6 +720,12 @@ const
 nsEventHandler
 &
 aHandler
+nsIScriptContext
+*
+aContext
+JSObject
+*
+aScopeObject
 )
 {
 mHandler
@@ -728,6 +734,14 @@ SetHandler
 (
 aHandler
 )
+;
+mContext
+=
+aContext
+;
+mScopeObject
+=
+aScopeObject
 ;
 }
 void
