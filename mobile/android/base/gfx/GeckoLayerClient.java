@@ -134,14 +134,14 @@ java
 .
 util
 .
-Map
+HashMap
 ;
 import
 java
 .
 util
 .
-HashMap
+Map
 ;
 public
 class

@@ -24,6 +24,13 @@ TypedArray
 import
 android
 .
+text
+.
+TextUtils
+;
+import
+android
+.
 util
 .
 AttributeSet
@@ -55,13 +62,6 @@ android
 widget
 .
 TextView
-;
-import
-android
-.
-text
-.
-TextUtils
 ;
 public
 class

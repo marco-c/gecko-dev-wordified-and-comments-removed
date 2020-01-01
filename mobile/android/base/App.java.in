@@ -96,6 +96,13 @@ package
 ANDROID_PACKAGE_NAME
 ;
 import
+android
+.
+view
+.
+MenuItem
+;
+import
 org
 .
 mozilla
@@ -121,13 +128,6 @@ mozilla
 gecko
 .
 R
-;
-import
-android
-.
-view
-.
-MenuItem
 ;
 public
 class

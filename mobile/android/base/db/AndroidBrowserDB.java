@@ -8,13 +8,6 @@ gecko
 db
 ;
 import
-java
-.
-io
-.
-ByteArrayOutputStream
-;
-import
 android
 .
 content
@@ -117,6 +110,13 @@ android
 util
 .
 Log
+;
+import
+java
+.
+io
+.
+ByteArrayOutputStream
 ;
 public
 class

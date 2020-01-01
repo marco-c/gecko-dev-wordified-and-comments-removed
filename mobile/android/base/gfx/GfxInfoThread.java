@@ -10,6 +10,13 @@ gfx
 import
 android
 .
+opengl
+.
+GLES20
+;
+import
+android
+.
 util
 .
 Log
@@ -77,13 +84,6 @@ khronos
 egl
 .
 EGLSurface
-;
-import
-android
-.
-opengl
-.
-GLES20
 ;
 public
 class
