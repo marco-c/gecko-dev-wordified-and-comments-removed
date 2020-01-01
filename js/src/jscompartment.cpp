@@ -1301,10 +1301,6 @@ str
 chars
 (
 )
-.
-get
-(
-)
 str
 -
 >

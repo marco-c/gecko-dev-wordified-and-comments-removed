@@ -111,10 +111,9 @@ ParseJSONWithReviver
 JSContext
 *
 cx
-JS
-:
-:
-StableCharPtr
+const
+jschar
+*
 chars
 size_t
 length
