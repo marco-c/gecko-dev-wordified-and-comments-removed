@@ -664,6 +664,13 @@ svg
 .
 "
 "
+toolkit
+.
+startup
+.
+recent_crashes
+"
+"
 webgl
 .
 "

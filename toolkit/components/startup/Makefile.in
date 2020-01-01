@@ -404,6 +404,13 @@ srcdir
 VPATH
 =
 srcdir
+relativesrcdir
+=
+toolkit
+/
+components
+/
+startup
 include
 (
 DEPTH
@@ -502,6 +509,11 @@ cpp
 endif
 endif
 endif
+XPCSHELL_TESTS
+=
+tests
+/
+unit
 ifdef
 ENABLE_TESTS
 ifneq

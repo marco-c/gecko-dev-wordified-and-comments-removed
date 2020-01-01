@@ -461,6 +461,10 @@ browser_bug537449
 .
 js
 \
+browser_crash_detection
+.
+js
+\
 beforeunload
 .
 html
