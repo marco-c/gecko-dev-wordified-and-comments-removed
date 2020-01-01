@@ -802,17 +802,6 @@ ini
 robocop
 .
 ini
-cp
-(
-srcdir
-)
-/
-parse_ids
-.
-txt
-parse_ids
-.
-txt
 libs
 :
 :
