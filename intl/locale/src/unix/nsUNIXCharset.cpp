@@ -24,13 +24,6 @@ h
 #
 include
 "
-pratom
-.
-h
-"
-#
-include
-"
 nsUConvPropertySearch
 .
 h

@@ -17,13 +17,6 @@ h
 #
 include
 "
-pratom
-.
-h
-"
-#
-include
-"
 nsEncoderDecoderUtils
 .
 h

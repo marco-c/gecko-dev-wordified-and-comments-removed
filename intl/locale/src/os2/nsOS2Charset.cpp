@@ -22,13 +22,6 @@ nsUConvPropertySearch
 h
 "
 #
-include
-"
-pratom
-.
-h
-"
-#
 define
 INCL_WIN
 #

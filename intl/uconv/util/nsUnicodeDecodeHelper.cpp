@@ -1,13 +1,6 @@
 #
 include
 "
-pratom
-.
-h
-"
-#
-include
-"
 unicpriv
 .
 h
