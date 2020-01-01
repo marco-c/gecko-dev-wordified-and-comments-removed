@@ -453,14 +453,6 @@ aStack
 ;
 #
 endif
-void
-WriteFailedProfileLock
-(
-nsIFile
-*
-aProfileDir
-)
-;
 }
 }
 #
