@@ -5642,19 +5642,12 @@ public
 :
 nsAbsPosClipWrapper
 (
-nsIFrame
-*
-aContainer
 const
 nsRect
 &
 aRect
 )
 :
-mContainer
-(
-aContainer
-)
 mRect
 (
 aRect
@@ -5725,10 +5718,6 @@ mRect
 }
 protected
 :
-nsIFrame
-*
-mContainer
-;
 nsRect
 mRect
 ;
@@ -6694,7 +6683,6 @@ applyAbsPosClipping
 nsAbsPosClipWrapper
 wrapper
 (
-this
 absPosClip
 )
 ;
@@ -7703,7 +7691,6 @@ applyAbsPosClipping
 nsAbsPosClipWrapper
 wrapper
 (
-aChild
 clipRect
 )
 ;
