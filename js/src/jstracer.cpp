@@ -25582,6 +25582,10 @@ JSNativeEnumerator
 *
 ne
 ;
+flag
+=
+1
+;
 ne
 =
 (
@@ -25692,10 +25696,6 @@ jsid
 3
 )
 )
-;
-flag
-=
-1
 ;
 id_ins
 =
