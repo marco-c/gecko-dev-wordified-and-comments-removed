@@ -713,6 +713,16 @@ GetBounds
 (
 )
 ;
+gfxMatrix
+worldTransform
+=
+aManager
+-
+>
+GetWorldTransform
+(
+)
+;
 nsIntRect
 cachedScissor
 =
@@ -1114,6 +1124,8 @@ needsFramebuffer
 visibleRect
 cachedScissor
 contTransform
+*
+worldTransform
 )
 ;
 if
