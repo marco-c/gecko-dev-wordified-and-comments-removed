@@ -193,6 +193,14 @@ aMallocSizeOf
 )
 const
 ;
+size_t
+SizeOfIncludingThisEvenIfShared
+(
+nsMallocSizeOfFun
+aMallocSizeOf
+)
+const
+;
 }
 ;
 #
