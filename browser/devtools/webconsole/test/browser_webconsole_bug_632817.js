@@ -200,7 +200,9 @@ aHud
 ;
 HUDService
 .
-lastFinishedRequestCallback
+lastFinishedRequest
+.
+callback
 =
 function
 (
@@ -976,7 +978,9 @@ boo
 ;
 HUDService
 .
-lastFinishedRequestCallback
+lastFinishedRequest
+.
+callback
 =
 null
 ;

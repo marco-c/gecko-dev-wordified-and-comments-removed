@@ -77,10 +77,10 @@ ok
 (
 HUDService
 .
-hudReferences
-[
+getHudReferenceById
+(
 aID
-]
+)
 "
 We
 have
@@ -134,10 +134,10 @@ ok
 !
 HUDService
 .
-hudReferences
-[
+getHudReferenceById
+(
 aID
-]
+)
 "
 We
 do
@@ -269,6 +269,8 @@ created
 webConsoleCreated
 (
 aSubject
+.
+data
 )
 ;
 break
@@ -285,6 +287,8 @@ destroyed
 webConsoleDestroyed
 (
 aSubject
+.
+data
 )
 ;
 break

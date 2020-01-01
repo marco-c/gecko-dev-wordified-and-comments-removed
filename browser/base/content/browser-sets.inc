@@ -1430,7 +1430,7 @@ BrowserConsole
 oncommand
 =
 "
-HUDConsoleUI
+HUDService
 .
 toggleBrowserConsole
 (

@@ -88,7 +88,7 @@ webconsole
 =
 hud
 ;
-HUDConsoleUI
+HUDService
 .
 toggleBrowserConsole
 (
