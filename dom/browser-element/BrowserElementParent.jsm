@@ -649,9 +649,7 @@ this
 .
 _gotDOMRequestResult
 "
-visibility
--
-change
+visibilitychange
 "
 :
 this
@@ -2820,6 +2818,13 @@ data
 json
 .
 visible
+;
+this
+.
+_fireEventFromMsg
+(
+data
+)
 ;
 }
 _exitFullscreen
