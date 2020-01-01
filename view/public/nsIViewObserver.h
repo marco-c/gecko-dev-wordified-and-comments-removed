@@ -58,6 +58,9 @@ NS_IVIEWOBSERVER_IID
 0xdc
 }
 }
+/
+/
+xxx
 class
 nsIViewObserver
 :
@@ -133,6 +136,16 @@ NS_IMETHOD_
 PRBool
 )
 IsVisible
+(
+)
+=
+0
+;
+NS_IMETHOD_
+(
+PRBool
+)
+ShouldIgnoreInvalidation
 (
 )
 =

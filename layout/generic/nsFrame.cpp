@@ -17806,7 +17806,7 @@ GetViewManager
 )
 -
 >
-UpdateView
+UpdateViewNoSuppression
 (
 view
 rect
