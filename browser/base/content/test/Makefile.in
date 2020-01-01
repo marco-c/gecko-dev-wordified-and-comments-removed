@@ -557,10 +557,6 @@ cacheManifest
 headers
 ^
 \
-test_bug452451
-.
-html
-\
 (
 NULL
 )
@@ -809,10 +805,6 @@ browser_bug495058
 js
 \
 browser_bug517902
-.
-js
-\
-browser_bug519216
 .
 js
 \
