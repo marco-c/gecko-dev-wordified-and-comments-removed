@@ -4066,14 +4066,6 @@ char
 *
 numGrouping
 ;
-JSObject
-*
-anynameObject
-;
-JSObject
-*
-functionNamespaceObject
-;
 #
 ifdef
 JS_THREADSAFE
