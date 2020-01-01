@@ -30513,6 +30513,16 @@ SetFloatingPointDisabled
 endif
 #
 endif
+if
+(
+!
+JS_Init
+(
+)
+)
+return
+1
+;
 rt
 =
 JS_NewRuntime
