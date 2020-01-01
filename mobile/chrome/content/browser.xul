@@ -3299,9 +3299,7 @@ open
 class
 =
 "
-browser
--
-control
+page
 -
 button
 "
@@ -3904,9 +3902,7 @@ close
 class
 =
 "
-browser
--
-control
+page
 -
 button
 "
