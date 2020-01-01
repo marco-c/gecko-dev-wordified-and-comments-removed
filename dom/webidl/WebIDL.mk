@@ -1752,6 +1752,10 @@ TelephonyCall
 .
 webidl
 \
+TelephonyCallGroup
+.
+webidl
+\
 (
 NULL
 )
