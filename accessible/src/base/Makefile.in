@@ -535,6 +535,10 @@ nsRootAccessible
 .
 cpp
 \
+nsApplicationAccessible
+.
+cpp
+\
 nsCaretAccessible
 .
 cpp
