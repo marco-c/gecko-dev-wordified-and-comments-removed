@@ -2938,10 +2938,6 @@ const
 int32_t
 &
 rate
-const
-int32_t
-&
-format
 )
 {
 #

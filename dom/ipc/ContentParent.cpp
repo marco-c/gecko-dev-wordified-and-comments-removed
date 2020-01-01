@@ -6884,10 +6884,6 @@ const
 int32_t
 &
 rate
-const
-int32_t
-&
-format
 )
 {
 #
@@ -6905,7 +6901,6 @@ AudioParent
 (
 numChannels
 rate
-format
 )
 ;
 NS_ADDREF

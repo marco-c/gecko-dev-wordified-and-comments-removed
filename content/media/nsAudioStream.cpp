@@ -520,9 +520,6 @@ mOwner
 -
 >
 mRate
-Format
-(
-)
 )
 )
 ;
