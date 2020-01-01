@@ -1806,7 +1806,7 @@ uint32_t
 aImageFlags
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 image

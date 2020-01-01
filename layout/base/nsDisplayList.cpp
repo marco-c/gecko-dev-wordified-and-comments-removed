@@ -5481,7 +5481,7 @@ nsRegion
 aVisibleRegion
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 nsDisplayList
@@ -6252,7 +6252,7 @@ aFlags
 )
 const
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 nsDisplayList
@@ -13392,7 +13392,7 @@ mVisibleRegion
 rects
 )
 ;
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 nsDisplayBoxShadowOuter
@@ -13698,7 +13698,7 @@ mVisibleRegion
 rects
 )
 ;
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 nsDisplayBoxShadowInner

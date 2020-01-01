@@ -22454,7 +22454,7 @@ nsRenderingContext
 aCtx
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 nsDisplayText
@@ -26114,7 +26114,7 @@ gfxRect
 aBoundingBox
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 nsTextFrame

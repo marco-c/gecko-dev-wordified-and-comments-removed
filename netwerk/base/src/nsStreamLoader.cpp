@@ -345,7 +345,7 @@ nsresult
 aStatus
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 network

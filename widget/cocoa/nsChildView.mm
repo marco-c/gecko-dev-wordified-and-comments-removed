@@ -14300,7 +14300,7 @@ drawUsingOpenGL
 return
 ;
 }
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 widget
@@ -15068,7 +15068,7 @@ void
 )
 drawUsingOpenGL
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 widget

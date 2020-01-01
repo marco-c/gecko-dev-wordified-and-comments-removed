@@ -2123,7 +2123,7 @@ bool
 _moreResults
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 storage

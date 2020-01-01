@@ -360,7 +360,7 @@ mLockedForPrivateBrowsing
 =
 true
 ;
-profiler_lock
+SAMPLER_LOCK
 (
 )
 ;
@@ -391,7 +391,7 @@ mLockedForPrivateBrowsing
 =
 false
 ;
-profiler_unlock
+SAMPLER_UNLOCK
 (
 )
 ;
@@ -428,7 +428,7 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
-profiler_start
+SAMPLER_START
 (
 aEntries
 aInterval
@@ -460,7 +460,7 @@ StopProfiler
 (
 )
 {
-profiler_stop
+SAMPLER_STOP
 (
 )
 ;
@@ -480,7 +480,7 @@ char
 aMarker
 )
 {
-PROFILER_MARKER
+SAMPLE_MARKER
 (
 aMarker
 )
@@ -505,7 +505,7 @@ char
 *
 profile
 =
-profiler_get_profile
+SAMPLER_GET_PROFILE
 (
 )
 ;
@@ -1229,7 +1229,7 @@ char
 *
 features
 =
-profiler_get_features
+SAMPLER_GET_FEATURES
 (
 )
 ;

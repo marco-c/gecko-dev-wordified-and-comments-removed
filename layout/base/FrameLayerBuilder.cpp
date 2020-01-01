@@ -9134,7 +9134,7 @@ nsIFrame
 aForceActiveScrolledRoot
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 ContainerState
@@ -15091,7 +15091,7 @@ void
 aCallbackData
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 gfx

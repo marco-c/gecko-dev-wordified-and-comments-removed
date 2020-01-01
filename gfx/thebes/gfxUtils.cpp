@@ -1403,7 +1403,7 @@ gfxImageFormat
 aFormat
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 gfxUtils
@@ -2192,7 +2192,7 @@ uint32_t
 aImageFlags
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 gfxUtils

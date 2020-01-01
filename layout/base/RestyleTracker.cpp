@@ -632,7 +632,7 @@ DoProcessRestyles
 (
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 CSS

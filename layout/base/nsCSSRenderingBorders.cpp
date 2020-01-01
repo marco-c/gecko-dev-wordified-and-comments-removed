@@ -11257,7 +11257,7 @@ SN
 }
 else
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 nsCSSBorderRenderer

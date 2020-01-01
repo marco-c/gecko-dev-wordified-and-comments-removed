@@ -1397,7 +1397,7 @@ d
 mayWait
 )
 ;
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 nsAppShell
@@ -1435,7 +1435,7 @@ curEvent
 mayWait
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 nsAppShell

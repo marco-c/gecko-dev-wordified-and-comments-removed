@@ -2725,7 +2725,7 @@ short
 aInputSourceArg
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 nsDOMWindowUtils
@@ -5335,7 +5335,7 @@ int32_t
 aExtraForgetSkippableCalls
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 GC

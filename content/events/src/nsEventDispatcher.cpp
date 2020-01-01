@@ -1802,7 +1802,7 @@ nsIDOMEventTarget
 aTargets
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 nsEventDispatcher

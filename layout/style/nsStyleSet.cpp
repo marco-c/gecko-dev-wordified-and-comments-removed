@@ -4430,7 +4430,7 @@ nsRuleWalker
 aRuleWalker
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 nsStyleSet

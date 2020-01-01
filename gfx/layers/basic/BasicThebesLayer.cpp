@@ -558,7 +558,7 @@ ReadbackProcessor
 aReadback
 )
 {
-PROFILER_LABEL
+SAMPLE_LABEL
 (
 "
 BasicThebesLayer
