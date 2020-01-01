@@ -33,9 +33,7 @@ bounds
 if
 (
 typeof
-(
 options
-)
 =
 =
 '
@@ -729,9 +727,7 @@ Utils
 assertThrow
 (
 typeof
-(
 value
-)
 =
 =
 '
@@ -887,9 +883,7 @@ Utils
 assertThrow
 (
 typeof
-(
 value
-)
 =
 =
 '
