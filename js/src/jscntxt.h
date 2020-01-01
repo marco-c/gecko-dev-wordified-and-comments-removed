@@ -1465,6 +1465,12 @@ js
 PreserveWrapperCallback
 preserveWrapperCallback
 ;
+js
+:
+:
+ScriptFilenameTable
+scriptFilenameTable
+;
 #
 ifdef
 DEBUG
