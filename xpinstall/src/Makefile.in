@@ -539,6 +539,10 @@ extensions
 \
 embed_base
 \
+pipnss
+\
+pipboot
+\
 (
 ZLIB_REQUIRES
 )
