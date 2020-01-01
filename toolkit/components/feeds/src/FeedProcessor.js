@@ -3159,6 +3159,9 @@ published
 :
 [
 "
+pubDate
+"
+"
 atom03
 :
 issued
