@@ -341,6 +341,10 @@ SVGFEBlendElement
 .
 cpp
 \
+SVGFEColorMatrixElement
+.
+cpp
+\
 SVGFEComponentTransferElement
 .
 cpp
@@ -739,6 +743,10 @@ SVGEllipseElement
 h
 \
 SVGFEBlendElement
+.
+h
+\
+SVGFEColorMatrixElement
 .
 h
 \
