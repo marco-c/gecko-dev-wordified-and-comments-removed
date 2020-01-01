@@ -441,7 +441,6 @@ config
 rules
 .
 mk
-#
 ifeq
 (
 beta
@@ -550,5 +549,4 @@ EXTENSIONS
 _PACKAGE_EXTENSIONS
 )
 )
-#
 endif
