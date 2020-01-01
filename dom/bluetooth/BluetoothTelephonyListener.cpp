@@ -98,6 +98,9 @@ HandleCallStateChanged
 (
 aCallIndex
 aCallState
+EmptyString
+(
+)
 aNumber
 aIsOutgoing
 true
@@ -162,6 +165,9 @@ HandleCallStateChanged
 (
 aCallIndex
 aCallState
+EmptyString
+(
+)
 aNumber
 aIsOutgoing
 false
@@ -218,6 +224,7 @@ nsITelephonyProvider
 :
 :
 CALL_STATE_DISCONNECTED
+aError
 EmptyString
 (
 )
