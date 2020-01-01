@@ -119,9 +119,7 @@ services
 -
 sync
 /
-base_records
-/
-crypto
+record
 .
 js
 "
