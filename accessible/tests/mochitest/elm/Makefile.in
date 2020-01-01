@@ -86,6 +86,10 @@ test_figure
 .
 html
 \
+test_HTMLSpec
+.
+html
+\
 test_listbox
 .
 xul

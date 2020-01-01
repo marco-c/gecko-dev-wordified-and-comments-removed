@@ -160,6 +160,13 @@ nsIAccessibleRole
 ROLE_ENTRY
 ;
 const
+ROLE_EQUATION
+=
+nsIAccessibleRole
+.
+ROLE_EQUATION
+;
+const
 ROLE_FIGURE
 =
 nsIAccessibleRole

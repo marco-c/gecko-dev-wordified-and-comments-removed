@@ -322,6 +322,11 @@ aTestName
 "
 )
 ;
+if
+(
+aState
+)
+{
 isState
 (
 state
@@ -343,6 +348,7 @@ id
 "
 )
 ;
+}
 if
 (
 aExtraState
