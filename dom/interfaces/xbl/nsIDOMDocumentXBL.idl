@@ -479,6 +479,7 @@ elt
 |
 does
 not
+have
 an
 XBL
 binding
@@ -487,8 +488,8 @@ return
 null
 .
 Otherwise
-return
 *
+return
 a
 nodelist
 of
