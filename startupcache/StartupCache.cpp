@@ -638,7 +638,7 @@ StartupCache
 :
 mArchive
 (
-NULL
+nullptr
 )
 mStartupWriteInitiated
 (
@@ -646,7 +646,7 @@ false
 )
 mWriteThread
 (
-NULL
+nullptr
 )
 mMappingMemoryReporter
 (
@@ -1187,7 +1187,7 @@ exists
 ;
 mArchive
 =
-NULL
+nullptr
 ;
 nsresult
 rv
@@ -2287,7 +2287,7 @@ holder
 ;
 mArchive
 =
-NULL
+nullptr
 ;
 zipW
 -
@@ -2328,7 +2328,7 @@ Clear
 ;
 mArchive
 =
-NULL
+nullptr
 ;
 nsresult
 rv
@@ -2467,7 +2467,7 @@ mWriteThread
 ;
 mWriteThread
 =
-NULL
+nullptr
 ;
 }
 void
@@ -2522,7 +2522,7 @@ StartupCache
 :
 :
 ThreadedWrite
-NULL
+nullptr
 PR_PRIORITY_NORMAL
 PR_LOCAL_THREAD
 PR_JOINABLE_THREAD
