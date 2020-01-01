@@ -2137,10 +2137,10 @@ mPreferredHeight
 PRInt32
 mMenuCmdId
 ;
-DWORD
+DWORD_PTR
 mOldStyle
 ;
-DWORD
+DWORD_PTR
 mOldExStyle
 ;
 HIMC
