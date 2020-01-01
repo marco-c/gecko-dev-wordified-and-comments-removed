@@ -159,13 +159,6 @@ aResult
 const
 ;
 virtual
-nsXPCClassInfo
-*
-GetClassInfo
-(
-)
-;
-virtual
 void
 DocSizeOfExcludingThis
 (

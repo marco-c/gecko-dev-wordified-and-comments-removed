@@ -17,13 +17,6 @@ h
 #
 include
 "
-nsDOMClassInfo
-.
-h
-"
-#
-include
-"
 DOMError
 .
 h
@@ -200,11 +193,6 @@ GetCurrentInnerWindow
 )
 ;
 }
-DOMCI_DATA
-(
-DOMRequest
-DOMRequest
-)
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 DOMRequest
@@ -258,10 +246,6 @@ DOMRequest
 NS_INTERFACE_MAP_ENTRY
 (
 nsIDOMDOMRequest
-)
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
-(
-DOMRequest
 )
 NS_INTERFACE_MAP_END_INHERITING
 (

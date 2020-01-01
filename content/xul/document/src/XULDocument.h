@@ -659,13 +659,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 XULDocument
 XMLDocument
 )
-virtual
-nsXPCClassInfo
-*
-GetClassInfo
-(
-)
-;
 void
 TraceProtos
 (
