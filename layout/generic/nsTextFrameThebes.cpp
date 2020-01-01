@@ -28091,7 +28091,7 @@ nsTextFrame
 *
 >
 (
-GetPrevInFlow
+GetPrevContinuation
 (
 )
 )
