@@ -429,6 +429,9 @@ const
 nsString
 &
 aInitialDir
+bool
+&
+aWasInitError
 )
 ;
 bool
@@ -438,6 +441,9 @@ const
 nsString
 &
 aInitialDir
+bool
+&
+aWasInitError
 )
 ;
 void
