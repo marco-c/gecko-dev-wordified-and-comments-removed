@@ -94,6 +94,11 @@ gst_buffer_new_and_alloc
 GST_FUNC
 (
 LIBGSTREAMER
+gst_bus_set_sync_handler
+)
+GST_FUNC
+(
+LIBGSTREAMER
 gst_bus_timed_pop_filtered
 )
 GST_FUNC
@@ -230,6 +235,11 @@ GST_FUNC
 (
 LIBGSTREAMER
 gst_message_parse_error
+)
+GST_FUNC
+(
+LIBGSTREAMER
+gst_message_type_get_name
 )
 GST_FUNC
 (
