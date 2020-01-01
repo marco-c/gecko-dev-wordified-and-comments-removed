@@ -578,7 +578,7 @@ observer
 ;
 if
 (
-mAlreadyStarted
+mIsEvaluated
 |
 |
 !
@@ -619,7 +619,7 @@ cont
 )
 )
 {
-mAlreadyStarted
+mIsEvaluated
 =
 PR_TRUE
 ;
@@ -650,7 +650,7 @@ ScriptLoader
 (
 )
 ;
-mAlreadyStarted
+mIsEvaluated
 =
 PR_TRUE
 ;
