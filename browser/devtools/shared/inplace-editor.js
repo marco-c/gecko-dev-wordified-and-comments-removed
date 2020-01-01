@@ -3834,12 +3834,6 @@ aEvent
 shiftKey
 )
 {
-this
-.
-cancelled
-=
-true
-;
 direction
 =
 FOCUS_BACKWARD
@@ -4121,14 +4115,6 @@ this
 _applied
 =
 false
-;
-this
-.
-_onBlur
-(
-null
-true
-)
 ;
 }
 _onInput

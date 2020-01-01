@@ -160,6 +160,10 @@ browser_ruleview_update
 .
 js
 \
+browser_ruleview_livepreview
+.
+js
+\
 browser_bug705707_is_content_stylesheet
 .
 js
@@ -205,6 +209,10 @@ browser_bug894376_css_value_completion_new_property_value_pair
 js
 \
 browser_bug894376_css_value_completion_existing_property_value_pair
+.
+js
+\
+browser_ruleview_bug_902966_revert_value_on_ESC
 .
 js
 \
