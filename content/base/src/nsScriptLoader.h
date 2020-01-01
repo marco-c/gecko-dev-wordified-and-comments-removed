@@ -300,10 +300,10 @@ BlockOnload
 }
 }
 void
-EndDeferringScripts
+ParsingComplete
 (
 PRBool
-aKillDeferred
+aTerminated
 )
 ;
 PRUint32
