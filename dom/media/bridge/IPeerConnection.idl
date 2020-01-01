@@ -350,9 +350,6 @@ onAddStream
 in
 nsIDOMMediaStream
 stream
-in
-string
-type
 )
 ;
 void

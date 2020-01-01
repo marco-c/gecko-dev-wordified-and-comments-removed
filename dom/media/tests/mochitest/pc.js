@@ -1665,7 +1665,7 @@ setLocalDescription
 function
 PCW_setLocalDescription
 (
-sdp
+desc
 onSuccess
 )
 {
@@ -1680,7 +1680,7 @@ _pc
 .
 setLocalDescription
 (
-sdp
+desc
 function
 (
 )
@@ -1719,7 +1719,7 @@ setRemoteDescription
 function
 PCW_setRemoteDescription
 (
-sdp
+desc
 onSuccess
 )
 {
@@ -1734,7 +1734,7 @@ _pc
 .
 setRemoteDescription
 (
-sdp
+desc
 function
 (
 )

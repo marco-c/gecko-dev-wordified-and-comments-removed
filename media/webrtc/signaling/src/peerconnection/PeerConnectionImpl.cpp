@@ -1306,9 +1306,6 @@ mObserver
 OnAddStream
 (
 stream
-"
-video
-"
 )
 ;
 }
