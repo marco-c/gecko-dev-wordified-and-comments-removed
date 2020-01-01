@@ -61,7 +61,7 @@ aSize
 )
 mDataStorage
 (
-NULL
+nullptr
 )
 {
 }

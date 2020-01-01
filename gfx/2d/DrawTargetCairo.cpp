@@ -1157,7 +1157,7 @@ DrawTargetCairo
 :
 mContext
 (
-NULL
+nullptr
 )
 {
 }
@@ -1688,8 +1688,8 @@ aSigma
 aSigma
 )
 )
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 if
@@ -3528,7 +3528,7 @@ source
 }
 }
 return
-NULL
+nullptr
 ;
 }
 TemporaryRef
@@ -3605,7 +3605,7 @@ target
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 bool
@@ -3684,7 +3684,7 @@ mContext
 ;
 }
 return
-NULL
+nullptr
 ;
 }
 void
@@ -3941,7 +3941,7 @@ PathWillChange
 ;
 mPathObserver
 =
-NULL
+nullptr
 ;
 }
 }

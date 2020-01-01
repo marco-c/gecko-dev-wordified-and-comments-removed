@@ -82,7 +82,7 @@ backend
 "
 ;
 return
-NULL
+nullptr
 ;
 }
 RefPtr

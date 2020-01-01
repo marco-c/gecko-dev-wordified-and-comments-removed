@@ -245,7 +245,7 @@ DrawTargetCG
 :
 mSnapshot
 (
-NULL
+nullptr
 )
 {
 }
@@ -419,7 +419,7 @@ newTarget
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -474,7 +474,7 @@ aFormat
 )
 {
 return
-NULL
+nullptr
 ;
 }
 return
@@ -594,7 +594,7 @@ aSurface
 const
 {
 return
-NULL
+nullptr
 ;
 }
 class
@@ -617,7 +617,7 @@ UnboundnessFixer
 :
 mCg
 (
-NULL
+nullptr
 )
 {
 }
@@ -654,7 +654,7 @@ baseCg
 mClipBounds
 .
 size
-NULL
+nullptr
 )
 ;
 mCg
@@ -801,7 +801,7 @@ image
 CGImageRef
 subimage
 =
-NULL
+nullptr
 ;
 CGContextSaveGState
 (
@@ -1867,7 +1867,7 @@ patternSpace
 =
 CGColorSpaceCreatePattern
 (
-NULL
+nullptr
 )
 ;
 CGContextSetFillColorSpace
@@ -2007,7 +2007,7 @@ patternSpace
 =
 CGColorSpaceCreatePattern
 (
-NULL
+nullptr
 )
 ;
 CGContextSetStrokeColorSpace
@@ -3406,7 +3406,7 @@ image
 CGImageRef
 subimage
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3719,15 +3719,15 @@ height
 {
 mColorSpace
 =
-NULL
+nullptr
 ;
 mCg
 =
-NULL
+nullptr
 ;
 mData
 =
-NULL
+nullptr
 ;
 return
 false
@@ -3744,7 +3744,7 @@ if
 aData
 =
 =
-NULL
+nullptr
 &
 &
 aType
@@ -3782,7 +3782,7 @@ else
 {
 mData
 =
-NULL
+nullptr
 ;
 }
 mSize
@@ -3827,7 +3827,7 @@ CreateIOSurfaceContext
 ;
 mData
 =
-NULL
+nullptr
 ;
 }
 if
@@ -3982,15 +3982,15 @@ height
 {
 mColorSpace
 =
-NULL
+nullptr
 ;
 mCg
 =
-NULL
+nullptr
 ;
 mData
 =
-NULL
+nullptr
 ;
 return
 false
@@ -4012,7 +4012,7 @@ cgContext
 ;
 mData
 =
-NULL
+nullptr
 ;
 assert
 (
@@ -4074,7 +4074,7 @@ return
 Init
 (
 aType
-NULL
+nullptr
 aSize
 stride
 aFormat
@@ -4161,7 +4161,7 @@ mCg
 else
 {
 return
-NULL
+nullptr
 ;
 }
 }
@@ -4565,7 +4565,7 @@ DrawTargetWillChange
 }
 mSnapshot
 =
-NULL
+nullptr
 ;
 }
 }

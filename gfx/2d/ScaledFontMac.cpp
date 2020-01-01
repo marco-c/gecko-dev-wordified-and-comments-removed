@@ -146,8 +146,8 @@ CTFontCreateWithGraphicsFont
 (
 mFont
 mSize
-NULL
-NULL
+nullptr
+nullptr
 )
 ;
 mTypeface

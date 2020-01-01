@@ -624,7 +624,7 @@ aType
 )
 {
 return
-NULL
+nullptr
 ;
 }
 private
