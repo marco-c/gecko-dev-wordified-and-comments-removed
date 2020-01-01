@@ -1640,7 +1640,7 @@ PRFileDesc
 *
 fd
 PRErrorCode
-status
+error
 )
 ;
 SEC_END_PROTOS

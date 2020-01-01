@@ -4474,7 +4474,7 @@ sslSocket
 *
 ss
 PRErrorCode
-status
+error
 )
 ;
 extern

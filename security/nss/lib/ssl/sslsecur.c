@@ -6338,7 +6338,7 @@ PRFileDesc
 *
 fd
 PRErrorCode
-status
+error
 )
 {
 SECStatus
@@ -6442,7 +6442,7 @@ rv
 ssl3_AuthCertificateComplete
 (
 ss
-status
+error
 )
 ;
 }

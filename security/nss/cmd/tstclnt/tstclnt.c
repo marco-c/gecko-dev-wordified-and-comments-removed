@@ -1912,6 +1912,9 @@ FPRINTF
 (
 stderr
 "
+%
+s
+:
 using
 asynchronous
 certificate
@@ -1919,6 +1922,7 @@ validation
 \
 n
 "
+progName
 )
 ;
 PORT_Assert

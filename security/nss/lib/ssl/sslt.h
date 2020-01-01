@@ -378,7 +378,7 @@ endif
 ssl_session_ticket_xtn
 =
 35
-ssl_next_proto_neg_xtn
+ssl_next_proto_nego_xtn
 =
 13172
 ssl_renegotiation_info_xtn

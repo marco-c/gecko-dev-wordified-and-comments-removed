@@ -40357,7 +40357,7 @@ sslSocket
 *
 ss
 PRErrorCode
-status
+error
 )
 {
 SECStatus
@@ -40447,7 +40447,7 @@ PR_FALSE
 ;
 if
 (
-status
+error
 !
 =
 0
@@ -40467,7 +40467,7 @@ ssl3_AlwaysFail
 ssl3_SendAlertForCertError
 (
 ss
-status
+error
 )
 ;
 rv
