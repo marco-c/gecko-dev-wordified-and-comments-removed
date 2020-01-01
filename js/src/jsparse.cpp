@@ -1527,12 +1527,13 @@ if
 (
 emptyCallShape
 )
-emptyCallShape
--
->
-trace
+MarkShape
 (
 trc
+emptyCallShape
+"
+emptyCallShape
+"
 )
 ;
 for

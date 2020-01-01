@@ -551,7 +551,17 @@ count
 }
 struct
 JSObjectMap
+:
+public
+js
+:
+:
+gc
+:
+:
+Cell
 {
+mutable
 uint32
 shape
 ;
