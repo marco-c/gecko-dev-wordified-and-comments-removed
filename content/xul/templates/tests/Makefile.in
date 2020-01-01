@@ -446,6 +446,10 @@ bug441785
 .
 rdf
 \
+test_sortservice
+.
+xul
+\
 (
 NULL
 )

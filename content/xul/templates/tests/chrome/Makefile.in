@@ -854,6 +854,10 @@ test_tmpl_sortdescendingquerysyntax
 .
 xul
 \
+test_tmpl_sortascendinginteger
+.
+xul
+\
 test_tmpl_sortunknownascendingquerysyntax
 .
 xul
