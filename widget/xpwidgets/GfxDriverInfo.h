@@ -221,6 +221,7 @@ VendorIntel
 VendorNVIDIA
 VendorAMD
 VendorATI
+VendorMicrosoft
 DeviceVendorMax
 }
 ;

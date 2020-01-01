@@ -1072,6 +1072,14 @@ VendorATI
 ;
 DECLARE_VENDOR_ID
 (
+VendorMicrosoft
+"
+0x1414
+"
+)
+;
+DECLARE_VENDOR_ID
+(
 DeviceVendorMax
 "
 "
