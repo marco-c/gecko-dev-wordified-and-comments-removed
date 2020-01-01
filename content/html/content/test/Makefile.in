@@ -435,6 +435,11 @@ rules
 mk
 _TEST_FILES
 =
+\
+test_hidden
+.
+html
+\
 test_bug589
 .
 html
