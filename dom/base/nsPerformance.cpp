@@ -64,6 +64,13 @@ h
 #
 include
 "
+nsDOMClassInfoID
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
