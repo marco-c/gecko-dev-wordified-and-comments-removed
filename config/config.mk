@@ -4296,6 +4296,9 @@ CONFIG_TOOLS
 )
 /
 nsinstall
+(
+HOST_BIN_SUFFIX
+)
 endif
 #
 OS2
