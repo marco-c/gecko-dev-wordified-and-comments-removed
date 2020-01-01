@@ -25958,6 +25958,11 @@ if
 this
 .
 _initialized
+|
+|
+window
+.
+fullScreen
 )
 return
 ;
