@@ -30122,7 +30122,7 @@ id
 if
 (
 !
-js_InitContextThread
+js_InitContextThreadAndLockGC
 (
 cx
 )
