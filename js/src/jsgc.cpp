@@ -19999,7 +19999,7 @@ false
 JSCompartment
 :
 :
-UpdateIon
+DontUpdateIon
 )
 ;
 c
@@ -20351,7 +20351,7 @@ AutoGCSlice
 {
 for
 (
-CompartmentsIter
+GCCompartmentsIter
 c
 (
 runtime
@@ -20406,6 +20406,16 @@ runtime
 }
 else
 {
+JS_ASSERT
+(
+c
+-
+>
+isGCSweeping
+(
+)
+)
+;
 c
 -
 >
