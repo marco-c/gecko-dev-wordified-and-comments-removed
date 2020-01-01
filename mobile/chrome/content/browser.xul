@@ -3587,6 +3587,11 @@ flex
 "
 1
 "
+observes
+=
+"
+bcast_uidiscovery
+"
 /
 >
 <
