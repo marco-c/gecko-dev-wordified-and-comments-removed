@@ -86,6 +86,7 @@ browser
 .
 js
 )
+*
 content
 /
 browser
@@ -401,6 +402,7 @@ Util
 .
 js
 )
+*
 content
 /
 preferences
