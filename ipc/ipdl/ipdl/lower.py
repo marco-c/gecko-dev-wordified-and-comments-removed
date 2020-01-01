@@ -8913,13 +8913,6 @@ tu
 :
         
 if
-not
-isinstance
-(
-tu
-TranslationUnit
-)
-and
 tu
 not
 in
@@ -8949,6 +8942,15 @@ self
 tu
 )
             
+if
+not
+isinstance
+(
+tu
+TranslationUnit
+)
+:
+                
 TranslationUnit
 .
 upgrade
@@ -9101,6 +9103,15 @@ sd
 )
 :
         
+if
+not
+isinstance
+(
+sd
+StructDecl
+)
+:
+            
 sd
 .
 decl
@@ -9108,12 +9119,12 @@ decl
 special
 =
 0
-        
+            
 newfields
 =
 [
 ]
-        
+            
 for
 f
 in
@@ -9121,7 +9132,7 @@ sd
 .
 fields
 :
-            
+                
 ftype
 =
 f
@@ -9129,14 +9140,14 @@ f
 decl
 .
 type
-            
+                
 if
 _hasVisibleActor
 (
 ftype
 )
 :
-                
+                    
 sd
 .
 decl
@@ -9144,7 +9155,7 @@ decl
 special
 =
 1
-                
+                    
 newfields
 .
 append
@@ -9156,6 +9167,7 @@ f
 .
 name
 sd
+                                                  
 side
 =
 '
@@ -9163,7 +9175,7 @@ parent
 '
 )
 )
-                
+                    
 newfields
 .
 append
@@ -9175,6 +9187,7 @@ f
 .
 name
 sd
+                                                  
 side
 =
 '
@@ -9182,10 +9195,10 @@ child
 '
 )
 )
-            
+                
 else
 :
-                
+                    
 newfields
 .
 append
@@ -9199,13 +9212,13 @@ name
 sd
 )
 )
-        
+            
 sd
 .
 fields
 =
 newfields
-        
+            
 StructDecl
 .
 upgrade
