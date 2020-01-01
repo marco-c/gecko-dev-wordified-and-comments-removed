@@ -3126,15 +3126,13 @@ nsXBLBinding
 aResult
 )
 {
-nsTArray
+nsAutoTArray
 <
 nsIURI
 *
+6
 >
 uris
-(
-6
-)
 ;
 return
 GetBinding
