@@ -15075,9 +15075,10 @@ vp
 if
 (
 !
-IsConstructing
-(
 args
+.
+isConstructing
+(
 )
 )
 return
