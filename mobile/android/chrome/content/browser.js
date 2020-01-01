@@ -36211,6 +36211,15 @@ fullsizeIcon
 }
 )
 ;
+if
+(
+!
+!
+aData
+.
+isPackage
+)
+{
 let
 message
 =
@@ -36300,6 +36309,7 @@ webapp
 "
 )
 ;
+}
 }
 catch
 (
