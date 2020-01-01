@@ -3538,6 +3538,15 @@ case
 gfxWindowsPlatform
 :
 :
+kWindows8_1
+:
+return
+DRIVER_OS_WINDOWS_8_1
+;
+case
+gfxWindowsPlatform
+:
+:
 kWindowsUnknown
 :
 default

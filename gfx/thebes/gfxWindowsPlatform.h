@@ -873,6 +873,9 @@ kWindows7
 kWindows8
 =
 0x60002
+kWindows8_1
+=
+0x60003
 }
 ;
 static
