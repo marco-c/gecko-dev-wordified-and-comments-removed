@@ -113,14 +113,6 @@ CSS_KEY
 -
 moz
 -
-cell
-_moz_cell
-)
-CSS_KEY
-(
--
-moz
--
 cellhighlight
 _moz_cellhighlight
 )
