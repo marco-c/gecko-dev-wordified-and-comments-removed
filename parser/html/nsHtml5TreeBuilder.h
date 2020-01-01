@@ -151,6 +151,13 @@ nsAHtml5TreeBuilderState
 .
 h
 "
+#
+include
+"
+nsHtml5Highlighter
+.
+h
+"
 class
 nsHtml5StreamParser
 ;
