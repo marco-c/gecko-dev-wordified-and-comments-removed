@@ -145,10 +145,6 @@ DOMSVGStringList
 .
 cpp
 \
-DOMSVGTests
-.
-cpp
-\
 DOMSVGTransform
 .
 cpp
@@ -521,6 +517,10 @@ SVGSwitchElement
 .
 cpp
 \
+SVGTests
+.
+cpp
+\
 SVGTextContentElement
 .
 cpp
@@ -799,6 +799,10 @@ SVGSVGElement
 h
 \
 SVGSwitchElement
+.
+h
+\
+SVGTests
 .
 h
 \

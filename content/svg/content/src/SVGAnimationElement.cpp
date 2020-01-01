@@ -81,7 +81,13 @@ nsISMILAnimationElement
 )
 NS_INTERFACE_MAP_ENTRY
 (
-DOMSVGTests
+mozilla
+:
+:
+dom
+:
+:
+SVGTests
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
@@ -288,7 +294,7 @@ PassesConditionalProcessingTests
 )
 {
 return
-DOMSVGTests
+SVGTests
 :
 :
 PassesConditionalProcessingTests

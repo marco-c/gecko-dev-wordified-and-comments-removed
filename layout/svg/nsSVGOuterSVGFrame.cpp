@@ -8,13 +8,6 @@ h
 #
 include
 "
-DOMSVGTests
-.
-h
-"
-#
-include
-"
 gfxMatrix
 .
 h

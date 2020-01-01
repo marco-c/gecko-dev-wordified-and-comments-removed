@@ -1,7 +1,11 @@
 #
 include
 "
-DOMSVGTests
+mozilla
+/
+dom
+/
+SVGTests
 .
 h
 "
@@ -53,18 +57,20 @@ Preferences
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
+namespace
+dom
+{
 NS_IMPL_ISUPPORTS0
 (
-DOMSVGTests
+SVGTests
 )
 nsIAtom
 *
 *
-DOMSVGTests
+SVGTests
 :
 :
 sStringListNames
@@ -90,10 +96,10 @@ nsGkAtoms
 systemLanguage
 }
 ;
-DOMSVGTests
+SVGTests
 :
 :
-DOMSVGTests
+SVGTests
 (
 )
 {
@@ -112,7 +118,7 @@ already_AddRefed
 <
 nsIDOMSVGStringList
 >
-DOMSVGTests
+SVGTests
 :
 :
 RequiredFeatures
@@ -155,7 +161,7 @@ already_AddRefed
 <
 nsIDOMSVGStringList
 >
-DOMSVGTests
+SVGTests
 :
 :
 RequiredExtensions
@@ -198,7 +204,7 @@ already_AddRefed
 <
 nsIDOMSVGStringList
 >
-DOMSVGTests
+SVGTests
 :
 :
 SystemLanguage
@@ -238,7 +244,7 @@ get
 ;
 }
 bool
-DOMSVGTests
+SVGTests
 :
 :
 HasExtension
@@ -260,7 +266,7 @@ aExtension
 ;
 }
 bool
-DOMSVGTests
+SVGTests
 :
 :
 IsConditionalProcessingAttribute
@@ -313,7 +319,7 @@ false
 ;
 }
 int32_t
-DOMSVGTests
+SVGTests
 :
 :
 GetBestLanguagePreferenceRank
@@ -500,7 +506,7 @@ const
 nsString
 *
 const
-DOMSVGTests
+SVGTests
 :
 :
 kIgnoreSystemLanguage
@@ -512,7 +518,7 @@ nsString
 0x01
 ;
 bool
-DOMSVGTests
+SVGTests
 :
 :
 PassesConditionalProcessingTests
@@ -562,7 +568,7 @@ do_QueryInterface
 (
 const_cast
 <
-DOMSVGTests
+SVGTests
 *
 >
 (
@@ -865,7 +871,7 @@ true
 ;
 }
 bool
-DOMSVGTests
+SVGTests
 :
 :
 ParseConditionalProcessingAttribute
@@ -958,7 +964,7 @@ false
 ;
 }
 void
-DOMSVGTests
+SVGTests
 :
 :
 UnsetAttr
@@ -1020,7 +1026,7 @@ return
 }
 nsIAtom
 *
-DOMSVGTests
+SVGTests
 :
 :
 GetAttrName
@@ -1039,7 +1045,7 @@ aAttrEnum
 ;
 }
 void
-DOMSVGTests
+SVGTests
 :
 :
 GetAttrValue
@@ -1081,7 +1087,7 @@ nullptr
 ;
 }
 void
-DOMSVGTests
+SVGTests
 :
 :
 MaybeInvalidate
@@ -1150,5 +1156,7 @@ MaybeInvalidate
 (
 )
 ;
+}
+}
 }
 }

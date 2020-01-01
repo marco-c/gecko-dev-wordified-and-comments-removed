@@ -7,7 +7,11 @@ mozilla_dom_SVGSymbolElement_h
 #
 include
 "
-DOMSVGTests
+mozilla
+/
+dom
+/
+SVGTests
 .
 h
 "
@@ -72,7 +76,7 @@ SVGSymbolElementBase
 public
 nsIDOMSVGElement
 public
-DOMSVGTests
+SVGTests
 {
 protected
 :

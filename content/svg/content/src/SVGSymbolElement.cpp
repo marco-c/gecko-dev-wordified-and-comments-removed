@@ -68,7 +68,13 @@ SVGSymbolElementBase
 nsIDOMNode
 nsIDOMElement
 nsIDOMSVGElement
-DOMSVGTests
+mozilla
+:
+:
+dom
+:
+:
+SVGTests
 )
 SVGSymbolElement
 :

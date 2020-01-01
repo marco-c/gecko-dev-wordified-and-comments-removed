@@ -37,6 +37,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+SVGTests
+.
+h
+"
+#
+include
+"
 nsIDocument
 .
 h
@@ -312,13 +323,6 @@ h
 include
 "
 SVGContentUtils
-.
-h
-"
-#
-include
-"
-DOMSVGTests
 .
 h
 "
@@ -2610,7 +2614,7 @@ foundMatch
 {
 nsCOMPtr
 <
-DOMSVGTests
+SVGTests
 >
 tests
 (
@@ -3987,7 +3991,7 @@ return
 }
 nsCOMPtr
 <
-DOMSVGTests
+SVGTests
 >
 tests
 (
@@ -4236,7 +4240,7 @@ aModType
 ;
 nsCOMPtr
 <
-DOMSVGTests
+SVGTests
 >
 tests
 (
@@ -10937,7 +10941,7 @@ aIsConditionalProcessingAttribute
 {
 nsCOMPtr
 <
-DOMSVGTests
+SVGTests
 >
 tests
 (
@@ -11007,7 +11011,7 @@ newValue
 ;
 nsCOMPtr
 <
-DOMSVGTests
+SVGTests
 >
 tests
 ;
