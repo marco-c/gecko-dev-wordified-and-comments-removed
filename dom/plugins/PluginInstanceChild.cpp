@@ -708,6 +708,9 @@ platforms
 "
 )
 ;
+return
+false
+;
 #
 endif
 }
