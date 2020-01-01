@@ -1255,13 +1255,12 @@ nsISupports
 aRef
 )
 ;
-void
+already_AddRefed
+<
+nsIURI
+>
 GetDomainURI
 (
-nsIURI
-*
-*
-uri
 )
 ;
 nsresult
