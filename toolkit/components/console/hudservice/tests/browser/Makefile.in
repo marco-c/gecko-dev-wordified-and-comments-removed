@@ -493,6 +493,10 @@ browser_webconsole_bug_581231_close_button
 .
 js
 \
+browser_warn_user_about_replaced_api
+.
+js
+\
 (
 NULL
 )
@@ -618,6 +622,16 @@ wrong
 hud
 -
 iframe
+.
+html
+\
+test
+-
+console
+-
+replaced
+-
+api
 .
 html
 \
