@@ -880,13 +880,11 @@ NS_ERROR_FAILURE
 ;
 if
 (
+!
 NSS_CMSMessage_IsSigned
 (
 m_cmsMsg
 )
-=
-=
-PR_FALSE
 )
 {
 PR_LOG
