@@ -5641,10 +5641,9 @@ dyCount
 )
 ;
 }
-already_AddRefed
-<
-nsIDOMSVGNumberList
->
+const
+SVGNumberList
+*
 nsSVGGlyphFrame
 :
 :

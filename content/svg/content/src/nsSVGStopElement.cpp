@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsSVGAnimatedNumberList
-.
-h
-"
-#
-include
-"
 nsSVGNumber2
 .
 h

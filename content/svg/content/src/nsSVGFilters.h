@@ -678,6 +678,14 @@ aAttrEnum
 ;
 virtual
 void
+DidAnimateNumberList
+(
+PRUint8
+aAttrEnum
+)
+;
+virtual
+void
 DidAnimateInteger
 (
 PRUint8
