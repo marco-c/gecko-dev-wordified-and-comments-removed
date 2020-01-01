@@ -211,6 +211,9 @@ class
 gfxSVGGlyphs
 ;
 class
+gfxTextObjectPaint
+;
+class
 nsILanguageAtomService
 ;
 typedef
@@ -1169,6 +1172,9 @@ uint32_t
 aGlyphId
 int
 aDrawMode
+gfxTextObjectPaint
+*
+aObjectPaint
 )
 ;
 virtual
@@ -4420,9 +4426,9 @@ aBaselineOrigin
 Spacing
 *
 aSpacing
-gfxPattern
+gfxTextObjectPaint
 *
-aStrokePattern
+aObjectPaint
 )
 ;
 virtual
@@ -5252,6 +5258,9 @@ DrawMode
 aDrawMode
 uint32_t
 aGlyphId
+gfxTextObjectPaint
+*
+aObjectPaint
 )
 ;
 static
@@ -8124,9 +8133,9 @@ aProvider
 gfxFloat
 *
 aAdvanceWidth
-gfxPattern
+gfxTextObjectPaint
 *
-aStrokePattern
+aObjectPaint
 DrawCallbacks
 *
 aCallbacks
@@ -9471,9 +9480,9 @@ aDrawMode
 gfxPoint
 *
 aPt
-gfxPattern
+gfxTextObjectPaint
 *
-aStrokePattern
+aObjectPaint
 uint32_t
 aStart
 uint32_t

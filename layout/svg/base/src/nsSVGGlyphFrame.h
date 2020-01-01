@@ -70,6 +70,9 @@ nsSVGTextFrame
 class
 nsSVGTextPathFrame
 ;
+class
+gfxTextObjectPaint
+;
 struct
 CharacterPosition
 ;
@@ -840,9 +843,9 @@ gfxContext
 aContext
 DrawMode
 aDrawMode
-gfxPattern
+gfxTextObjectPaint
 *
-aStrokePattern
+aObjectPaint
 =
 nullptr
 )
