@@ -98,6 +98,9 @@ nsPopupType
 ePopupTypePanel
 ePopupTypeMenu
 ePopupTypeTooltip
+ePopupTypeAny
+=
+0xF000
 }
 ;
 enum
