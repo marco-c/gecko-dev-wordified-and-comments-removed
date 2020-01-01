@@ -13446,9 +13446,8 @@ endif
 JS_FS_END
 }
 ;
-static
 JSBool
-String
+js_String
 (
 JSContext
 *
@@ -14572,7 +14571,7 @@ obj
 NULL
 &
 js_StringClass
-String
+js_String
 1
 string_props
 string_methods
