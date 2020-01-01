@@ -2069,6 +2069,12 @@ realFocusedNode
 !
 =
 aNode
+|
+|
+realFocusedNode
+=
+=
+mDOMNode
 )
 {
 return
