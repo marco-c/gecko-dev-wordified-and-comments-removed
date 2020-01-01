@@ -5991,6 +5991,12 @@ slots
 (
 )
 ;
+RecompilationMonitor
+monitor
+(
+cx
+)
+;
 CallArgs
 args
 ;
@@ -6202,12 +6208,6 @@ MagicValue
 (
 JS_IS_CONSTRUCTING
 )
-)
-;
-RecompilationMonitor
-monitor
-(
-cx
 )
 ;
 if
