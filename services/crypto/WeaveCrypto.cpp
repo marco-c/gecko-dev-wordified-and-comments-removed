@@ -728,6 +728,9 @@ ivParam
 =
 nsnull
 ;
+PRUint32
+maxOutputSize
+;
 char
 keyData
 [
@@ -997,7 +1000,6 @@ crypt_done
 int
 tmpOutSize
 ;
-PRUint32
 maxOutputSize
 =
 *
@@ -2074,6 +2076,12 @@ keySize
 CK_MECHANISM_TYPE
 keygenMech
 ;
+SECItem
+*
+keydata
+=
+nsnull
+;
 switch
 (
 mAlgorithm
@@ -2209,8 +2217,6 @@ goto
 keygen_done
 ;
 }
-SECItem
-*
 keydata
 =
 PK11_GetKeyData
@@ -2331,6 +2337,10 @@ CERTSubjectPublicKeyInfo
 pubKeyInfo
 =
 nsnull
+;
+CK_MECHANISM_TYPE
+keyMech
+wrapMech
 ;
 char
 publicKeyBuffer
@@ -2486,7 +2496,6 @@ goto
 wrap_done
 ;
 }
-CK_MECHANISM_TYPE
 keyMech
 =
 PK11_AlgtagToMechanism
@@ -2613,7 +2622,6 @@ goto
 wrap_done
 ;
 }
-CK_MECHANISM_TYPE
 wrapMech
 =
 PK11_AlgtagToMechanism
@@ -2776,6 +2784,18 @@ nsnull
 SECItem
 *
 ivParam
+=
+nsnull
+;
+SECItem
+*
+symKeyData
+=
+nsnull
+;
+SECItem
+*
+keyID
 =
 nsnull
 ;
@@ -3071,8 +3091,6 @@ goto
 unwrap_done
 ;
 }
-SECItem
-*
 keyID
 =
 &
@@ -3178,8 +3196,6 @@ goto
 unwrap_done
 ;
 }
-SECItem
-*
 symKeyData
 =
 PK11_GetKeyData
