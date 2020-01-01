@@ -7,7 +7,11 @@ MOZILLA_DOMSVGTRANSFORMLIST_H__
 #
 include
 "
-DOMSVGAnimatedTransformList
+mozilla
+/
+dom
+/
+SVGAnimatedTransformList
 .
 h
 "

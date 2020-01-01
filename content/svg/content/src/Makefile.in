@@ -96,10 +96,6 @@ DOMSVGAnimatedNumberList
 .
 cpp
 \
-DOMSVGAnimatedTransformList
-.
-cpp
-\
 DOMSVGLength
 .
 cpp
@@ -149,6 +145,10 @@ nsISVGPoint
 cpp
 \
 nsSVGAngle
+.
+cpp
+\
+nsSVGAnimatedTransformList
 .
 cpp
 \
@@ -727,6 +727,10 @@ EXPORTS_mozilla
 dom
 =
 \
+nsSVGAnimatedTransformList
+.
+h
+\
 SVGAElement
 .
 h
@@ -748,6 +752,10 @@ SVGAnimatedBoolean
 h
 \
 SVGAnimatedLength
+.
+h
+\
+SVGAnimatedTransformList
 .
 h
 \
