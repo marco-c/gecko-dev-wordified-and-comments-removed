@@ -1821,6 +1821,9 @@ h
 malloc
 .
 h
+malloc_np
+.
+h
 map
 mapicode
 .
