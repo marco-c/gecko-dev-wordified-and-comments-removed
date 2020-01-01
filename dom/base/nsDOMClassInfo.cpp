@@ -606,7 +606,7 @@ h
 #
 include
 "
-nsIDOMNamedNodeMap
+nsIDOMMozNamedAttrMap
 .
 h
 "
@@ -3026,7 +3026,7 @@ NODE_SCRIPTABLE_FLAGS
 )
 NS_DEFINE_CLASSINFO_DATA
 (
-NamedNodeMap
+MozNamedAttrMap
 nsNamedNodeMapSH
 ARRAY_SCRIPTABLE_FLAGS
 )
@@ -8120,12 +8120,12 @@ nsIDOMEventTarget
 DOM_CLASSINFO_MAP_END
 DOM_CLASSINFO_MAP_BEGIN
 (
-NamedNodeMap
-nsIDOMNamedNodeMap
+MozNamedAttrMap
+nsIDOMMozNamedAttrMap
 )
 DOM_CLASSINFO_MAP_ENTRY
 (
-nsIDOMNamedNodeMap
+nsIDOMMozNamedAttrMap
 )
 DOM_CLASSINFO_MAP_END
 DOM_CLASSINFO_MAP_BEGIN

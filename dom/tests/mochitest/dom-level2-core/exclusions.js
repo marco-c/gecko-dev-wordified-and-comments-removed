@@ -154,7 +154,7 @@ setNamedItemNS02
 "
 ]
 ;
-attrAppendChild
+attrExodus
 =
 [
 "
@@ -162,6 +162,9 @@ elementsetattributenodens06
 "
 "
 importNode01
+"
+"
+hc_namednodemapinvalidtype1
 "
 ]
 ;
@@ -268,7 +271,7 @@ concat
 dtdTests
 bug371552
 wrongDocError
-attrAppendChild
+attrExodus
 bogusPrefix
 prefixReplacement
 )

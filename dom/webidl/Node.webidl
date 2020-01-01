@@ -146,7 +146,7 @@ apply
 *
 /
 interface
-NamedNodeMap
+MozNamedAttrMap
 ;
 interface
 Principal
@@ -562,7 +562,7 @@ Constant
 ]
 readonly
 attribute
-NamedNodeMap
+MozNamedAttrMap
 ?
 attributes
 ;

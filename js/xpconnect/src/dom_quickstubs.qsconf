@@ -403,12 +403,12 @@ interfaces
 /
 core
 '
-nsIDOMNamedNodeMap
+nsIDOMMozNamedAttrMap
 .
 item
 '
 '
-nsIDOMNamedNodeMap
+nsIDOMMozNamedAttrMap
 .
 length
 '

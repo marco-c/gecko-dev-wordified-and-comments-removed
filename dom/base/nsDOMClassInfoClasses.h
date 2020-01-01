@@ -60,7 +60,7 @@ Attr
 )
 DOMCI_CLASS
 (
-NamedNodeMap
+MozNamedAttrMap
 )
 DOMCI_CLASS
 (

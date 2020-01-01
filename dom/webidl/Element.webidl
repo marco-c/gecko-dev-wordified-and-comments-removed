@@ -193,9 +193,6 @@ interface
 Attr
 ;
 interface
-NamedNodeMap
-;
-interface
 Element
 :
 Node

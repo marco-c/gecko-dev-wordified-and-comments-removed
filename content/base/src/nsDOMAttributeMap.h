@@ -1,13 +1,13 @@
 #
 ifndef
-nsDOMAttributeMap_h___
+nsDOMAttributeMap_h
 #
 define
-nsDOMAttributeMap_h___
+nsDOMAttributeMap_h
 #
 include
 "
-nsIDOMNamedNodeMap
+nsIDOMMozNamedAttrMap
 .
 h
 "
@@ -35,7 +35,7 @@ h
 #
 include
 "
-nsIDOMNode
+nsIDOMAttr
 .
 h
 "
@@ -286,7 +286,7 @@ class
 nsDOMAttributeMap
 :
 public
-nsIDOMNamedNodeMap
+nsIDOMMozNamedAttrMap
 {
 public
 :
@@ -314,7 +314,7 @@ nsDOMAttributeMap
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_NSIDOMNAMEDNODEMAP
+NS_DECL_NSIDOMMOZNAMEDATTRMAP
 void
 DropReference
 (
@@ -413,7 +413,7 @@ DEBUG
 {
 nsCOMPtr
 <
-nsIDOMNamedNodeMap
+nsIDOMMozNamedAttrMap
 >
 map_qi
 =
@@ -429,7 +429,7 @@ map_qi
 =
 static_cast
 <
-nsIDOMNamedNodeMap
+nsIDOMMozNamedAttrMap
 *
 >
 (
@@ -487,7 +487,7 @@ nsDOMAttribute
 >
 SetNamedItemNS
 (
-nsIDOMNode
+nsIDOMAttr
 *
 aNode
 mozilla
@@ -530,7 +530,7 @@ nsDOMAttribute
 >
 SetNamedItemInternal
 (
-nsIDOMNode
+nsIDOMAttr
 *
 aNode
 bool

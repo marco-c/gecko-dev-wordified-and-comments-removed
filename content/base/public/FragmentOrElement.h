@@ -99,9 +99,6 @@ class
 nsDOMStringMap
 ;
 class
-nsIDOMNamedNodeMap
-;
-class
 nsIHTMLCollection
 ;
 class

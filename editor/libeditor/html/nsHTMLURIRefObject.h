@@ -27,7 +27,7 @@ nscore
 h
 "
 class
-nsIDOMNamedNodeMap
+nsIDOMMozNamedAttrMap
 ;
 class
 nsIDOMNode
@@ -105,7 +105,7 @@ mNode
 ;
 nsCOMPtr
 <
-nsIDOMNamedNodeMap
+nsIDOMMozNamedAttrMap
 >
 mAttributes
 ;

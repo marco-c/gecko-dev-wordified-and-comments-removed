@@ -274,7 +274,7 @@ class
 nsIFrame
 ;
 class
-nsIDOMNamedNodeMap
+nsIDOMMozNamedAttrMap
 ;
 class
 nsIDOMCSSStyleDeclaration
@@ -1138,7 +1138,7 @@ aNotify
 NS_IMETHOD
 GetAttributes
 (
-nsIDOMNamedNodeMap
+nsIDOMMozNamedAttrMap
 *
 *
 aAttributes
