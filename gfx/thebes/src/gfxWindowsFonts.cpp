@@ -7561,7 +7561,11 @@ SCRIPT_ITEM
 )
 malloc
 (
+(
 maxItems
++
+1
+)
 *
 sizeof
 (
@@ -7607,7 +7611,11 @@ SCRIPT_ITEM
 realloc
 (
 mItems
+(
 maxItems
++
+1
+)
 *
 sizeof
 (
