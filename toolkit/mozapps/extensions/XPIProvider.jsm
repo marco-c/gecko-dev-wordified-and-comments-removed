@@ -9728,6 +9728,15 @@ selectedSkin
 =
 newSkin
 ;
+Services
+.
+prefs
+.
+savePrefFile
+(
+null
+)
+;
 if
 (
 previousTheme

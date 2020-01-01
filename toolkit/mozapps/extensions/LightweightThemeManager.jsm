@@ -1541,6 +1541,15 @@ PREF_LWTHEME_TO_SELECT
 id
 )
 ;
+Services
+.
+prefs
+.
+savePrefFile
+(
+null
+)
+;
 }
 else
 {
