@@ -664,8 +664,6 @@ RIL
 .
 iccInfoPrivate
 .
-SPN
-.
 spnDisplayCondition
 expectedDisplayCondition
 )
@@ -737,7 +735,7 @@ fromCharCode
 (
 0x4fe1
 )
-true
+0x1
 )
 ;
 testReadSpn
@@ -782,7 +780,7 @@ fromCharCode
 (
 0x4fe1
 )
-true
+0x1
 )
 ;
 run_next_test
@@ -892,13 +890,9 @@ RIL
 .
 iccInfoPrivate
 .
-SPN
-=
-{
 spnDisplayCondition
-:
+=
 ruimDisplayCondition
-}
 ;
 RIL
 .
@@ -960,7 +954,7 @@ expectIsDisplaySPNRequired
 ;
 testDisplayCondition
 (
-false
+0x0
 [
 123
 ]
@@ -975,7 +969,7 @@ false
 ;
 testDisplayCondition
 (
-true
+0x1
 [
 123
 ]
@@ -990,7 +984,7 @@ true
 ;
 testDisplayCondition
 (
-true
+0x1
 [
 123
 ]
@@ -1005,7 +999,7 @@ true
 ;
 testDisplayCondition
 (
-true
+0x1
 [
 123
 ]
