@@ -1981,6 +1981,13 @@ EF_PATH_MF_SIM
 "
 ;
 const
+EF_PATH_DF_PHONEBOOK
+=
+"
+5f3a
+"
+;
+const
 EF_PATH_DF_TELECOM
 =
 "
