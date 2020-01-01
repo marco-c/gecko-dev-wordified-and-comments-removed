@@ -425,6 +425,14 @@ BLOCK
 *
 *
 *
+source
+TEST_DIR
+/
+bin
+/
+library
+.
+sh
 args
 =
 script

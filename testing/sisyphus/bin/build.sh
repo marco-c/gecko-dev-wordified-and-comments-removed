@@ -453,7 +453,7 @@ firefox
 thunderbird
 )
 cd
-TREE
+BUILDTREE
 /
 mozilla
 if
@@ -464,7 +464,7 @@ bashlogin
 c
 "
 cd
-TREE
+BUILDTREE
 /
 mozilla
 ;
@@ -523,7 +523,7 @@ bashlogin
 c
 "
 cd
-TREE
+BUILDTREE
 /
 mozilla
 ;
@@ -558,7 +558,7 @@ bashlogin
 c
 "
 cd
-TREE
+BUILDTREE
 /
 mozilla
 ;
@@ -893,7 +893,7 @@ js
 )
 #
 cd
-TREE
+BUILDTREE
 /
 mozilla
 /
@@ -932,7 +932,7 @@ bashlogin
 c
 "
 cd
-TREE
+BUILDTREE
 /
 mozilla
 /
@@ -975,7 +975,7 @@ bashlogin
 c
 "
 cd
-TREE
+BUILDTREE
 /
 mozilla
 /

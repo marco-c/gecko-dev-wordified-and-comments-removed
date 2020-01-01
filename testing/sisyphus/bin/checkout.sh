@@ -451,7 +451,7 @@ if
 -
 z
 "
-TREE
+BUILDTREE
 "
 ]
 ]
@@ -537,6 +537,10 @@ it
 .
 TEST_MOZILLA_HG_LOCAL
 =
+{
+TEST_MOZILLA_HG_LOCAL
+:
+-
 BUILDDIR
 /
 hg
@@ -547,6 +551,7 @@ org
 /
 basename
 TEST_MOZILLA_HG
+}
 if
 [
 [
@@ -612,7 +617,7 @@ hg
 pull
 fi
 cd
-TREE
+BUILDTREE
 case
 product
 in
@@ -716,7 +721,7 @@ bashlogin
 c
 "
 cd
-TREE
+BUILDTREE
 /
 mozilla
 ;
@@ -772,7 +777,7 @@ if
 hg
 clone
 TEST_MOZILLA_HG_LOCAL
-TREE
+BUILDTREE
 /
 mozilla
 ;
@@ -792,6 +797,8 @@ cd
 mozilla
 hg
 pull
+-
+u
 -
 r
 TEST_MOZILLA_HG_REV
@@ -1035,7 +1042,7 @@ bashlogin
 c
 "
 cd
-TREE
+BUILDTREE
 /
 mozilla
 ;
@@ -1091,7 +1098,7 @@ if
 hg
 clone
 TEST_MOZILLA_HG_LOCAL
-TREE
+BUILDTREE
 /
 mozilla
 ;
@@ -1111,6 +1118,8 @@ cd
 mozilla
 hg
 pull
+-
+u
 -
 r
 TEST_MOZILLA_HG_REV
@@ -1354,7 +1363,7 @@ if
 hg
 clone
 TEST_MOZILLA_HG_LOCAL
-TREE
+BUILDTREE
 /
 mozilla
 ;
@@ -1374,6 +1383,8 @@ cd
 mozilla
 hg
 pull
+-
+u
 -
 r
 TEST_MOZILLA_HG_REV

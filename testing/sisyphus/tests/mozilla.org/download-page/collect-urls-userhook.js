@@ -145,7 +145,16 @@ break
 case
 '
 Linux
-*
+i686
+'
+:
+case
+'
+Linux
+i686
+(
+x86_64
+)
 '
 :
 os

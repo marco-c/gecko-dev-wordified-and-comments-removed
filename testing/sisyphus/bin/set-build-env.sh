@@ -1652,7 +1652,7 @@ extra
 ;
 then
 export
-TREE
+BUILDTREE
 =
 "
 BUILDDIR
@@ -1661,7 +1661,7 @@ branch
 "
 else
 export
-TREE
+BUILDTREE
 =
 "
 BUILDDIR
@@ -1851,7 +1851,7 @@ if
 !
 -
 d
-TREE
+BUILDTREE
 ]
 ]
 ;
@@ -1860,7 +1860,7 @@ echo
 "
 Build
 directory
-TREE
+BUILDTREE
 does
 not
 exist
@@ -1913,8 +1913,12 @@ browser
 export
 MOZCONFIG
 =
+{
+MOZCONFIG
+:
+-
 "
-TREE
+BUILDTREE
 /
 mozconfig
 -
@@ -1926,6 +1930,7 @@ TEST_PROCESSORTYPE
 -
 buildtype
 "
+}
 elif
 [
 [
@@ -1945,8 +1950,12 @@ mail
 export
 MOZCONFIG
 =
+{
+MOZCONFIG
+:
+-
 "
-TREE
+BUILDTREE
 /
 mozconfig
 -
@@ -1958,6 +1967,7 @@ TEST_PROCESSORTYPE
 -
 buildtype
 "
+}
 else
 echo
 "
@@ -1976,8 +1986,12 @@ browser
 export
 MOZCONFIG
 =
+{
+MOZCONFIG
+:
+-
 "
-TREE
+BUILDTREE
 /
 mozconfig
 -
@@ -1989,6 +2003,7 @@ TEST_PROCESSORTYPE
 -
 buildtype
 "
+}
 fi
 #
 js

@@ -778,7 +778,7 @@ required
 1
 -
 s
-sourcepath
+jsshellsourcepath
 required
 for
 shell
@@ -1164,7 +1164,7 @@ OPTARG
 ;
 s
 )
-sourcepath
+jsshellsourcepath
 =
 OPTARG
 ;
@@ -1311,7 +1311,7 @@ dumpvars
 product
 branch
 buildtype
-sourcepath
+jsshellsourcepath
 profilename
 executablepath
 excludetests
@@ -1359,7 +1359,7 @@ buildtype
 -
 z
 "
-sourcepath
+jsshellsourcepath
 "
 ]
 ]
@@ -1377,7 +1377,7 @@ shell
 executable
 =
 "
-sourcepath
+jsshellsourcepath
 /
 JS_OBJDIR
 /

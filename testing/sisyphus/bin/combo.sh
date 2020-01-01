@@ -253,7 +253,7 @@ a
 b
 combo
 .
-ah
+sh
 "
 a
 b
@@ -272,7 +272,7 @@ b
 2
 combo
 .
-ah
+sh
 -
 d
 "
