@@ -82,6 +82,9 @@ mk
 MODULE
 =
 dom
+XPIDL_MODULE
+=
+dom_system
 LIBRARY_NAME
 =
 domsystem_s
@@ -161,6 +164,16 @@ DLL_SUFFIX
 )
 \
 "
+XPIDLSRCS
+=
+\
+nsIOSFileConstantsService
+.
+idl
+\
+(
+NULL
+)
 CPPSRCS
 =
 \
