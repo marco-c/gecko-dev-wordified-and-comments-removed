@@ -1932,10 +1932,6 @@ xreDirectory
 )
 ;
 }
-XPCOMGlueShutdown
-(
-)
-;
 #
 ifdef
 XP_MACOSX
