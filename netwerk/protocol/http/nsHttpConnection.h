@@ -70,15 +70,6 @@ h
 #
 include
 "
-mozilla
-/
-TimeStamp
-.
-h
-"
-#
-include
-"
 nsIStreamListener
 .
 h
