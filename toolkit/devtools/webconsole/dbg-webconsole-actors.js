@@ -578,7 +578,7 @@ removeActorPool
 (
 this
 .
-actorPool
+_actorPool
 )
 ;
 this

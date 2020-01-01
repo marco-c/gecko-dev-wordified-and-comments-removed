@@ -246,6 +246,8 @@ window
 =
 hud
 .
+target
+.
 tab
 .
 linkedBrowser
@@ -284,6 +286,9 @@ i
 waitForSuccess
 (
 {
+timeout
+:
+10000
 name
 :
 "
