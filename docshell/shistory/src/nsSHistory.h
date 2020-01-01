@@ -300,6 +300,8 @@ RemoveDuplicate
 (
 PRInt32
 aIndex
+PRBool
+aKeepNext
 )
 ;
 nsCOMPtr
