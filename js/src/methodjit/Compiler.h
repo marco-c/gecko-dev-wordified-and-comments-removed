@@ -1390,7 +1390,7 @@ HeapSlot
 *
 globalSlots
 ;
-SPSInstrumentation
+MJITInstrumentation
 sps
 ;
 Assembler
