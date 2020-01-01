@@ -2591,6 +2591,13 @@ DeviceWasRemoved
 )
 {
 mLayerManager
+-
+>
+Destroy
+(
+)
+;
+mLayerManager
 =
 nsnull
 ;

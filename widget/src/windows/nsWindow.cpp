@@ -12064,6 +12064,13 @@ GetD3D10Device
 )
 {
 mLayerManager
+-
+>
+Destroy
+(
+)
+;
+mLayerManager
 =
 nsnull
 ;
