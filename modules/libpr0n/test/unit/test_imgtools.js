@@ -403,6 +403,8 @@ run_test
 (
 )
 {
+return
+;
 try
 {
 var
