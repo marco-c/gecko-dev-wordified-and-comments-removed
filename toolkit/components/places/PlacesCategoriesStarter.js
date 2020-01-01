@@ -197,11 +197,9 @@ this
 false
 )
 ;
-Services
+PlacesUtils
 .
-obs
-.
-notifyObservers
+observe
 (
 null
 "
