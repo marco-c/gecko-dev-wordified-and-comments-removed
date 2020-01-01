@@ -313,6 +313,16 @@ Value
 vp
 )
 ;
+void
+ToggleBarriers
+(
+JSCompartment
+*
+comp
+bool
+needs
+)
+;
 static
 inline
 bool

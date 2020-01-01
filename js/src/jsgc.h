@@ -4194,10 +4194,6 @@ JSCompartment
 c
 bool
 resetUseCounts
-bool
-onlyIon
-=
-false
 )
 ;
 void

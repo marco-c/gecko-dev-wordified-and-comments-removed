@@ -380,6 +380,11 @@ MacroAssembler
 masm
 )
 ;
+void
+reset
+(
+)
+;
 CodeLocationJump
 lastJump
 (

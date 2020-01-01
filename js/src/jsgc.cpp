@@ -18089,6 +18089,12 @@ unlock
 rt
 )
 ;
+AutoCopyFreeListToArenas
+copy
+(
+rt
+)
+;
 if
 (
 !
@@ -18126,12 +18132,6 @@ budget
 )
 ;
 }
-AutoCopyFreeListToArenas
-copy
-(
-rt
-)
-;
 bool
 shouldSweep
 ;

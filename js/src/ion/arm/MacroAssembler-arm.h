@@ -2696,6 +2696,16 @@ PostIndex
 ;
 }
 CodeOffsetLabel
+toggledJump
+(
+bool
+enabled
+Label
+*
+label
+)
+;
+CodeOffsetLabel
 pushWithPatch
 (
 ImmWord
