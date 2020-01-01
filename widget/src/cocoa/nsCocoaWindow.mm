@@ -2865,6 +2865,11 @@ NSMakeSize
 )
 ]
 ;
+[
+mWindow
+disableCursorRects
+]
+;
 /
 /
 setup
