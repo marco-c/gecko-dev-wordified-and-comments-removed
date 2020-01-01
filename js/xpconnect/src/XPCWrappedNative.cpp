@@ -5209,13 +5209,10 @@ GetJSProtoObject
 (
 )
 :
-GetScope
+JS_GetObjectPrototype
 (
-)
--
->
-GetPrototypeNoHelper
-(
+cx
+parent
 )
 ;
 if
