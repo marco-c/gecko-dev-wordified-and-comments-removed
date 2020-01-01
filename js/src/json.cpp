@@ -3161,8 +3161,11 @@ v
 return
 false
 ;
-jsid
+RootedId
 id
+(
+cx
+)
 ;
 if
 (

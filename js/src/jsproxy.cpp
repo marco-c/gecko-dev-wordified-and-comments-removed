@@ -3786,8 +3786,11 @@ v
 return
 false
 ;
-jsid
+RootedId
 id
+(
+cx
+)
 ;
 if
 (
@@ -8330,11 +8333,8 @@ ValueToId
 (
 cx
 v
+&
 id
-.
-address
-(
-)
 )
 )
 return

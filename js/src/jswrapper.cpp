@@ -3098,8 +3098,11 @@ length
 i
 )
 {
-jsid
+RootedId
 id
+(
+cx
+)
 ;
 if
 (
