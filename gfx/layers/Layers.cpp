@@ -3107,7 +3107,7 @@ type
 Animatable
 :
 :
-TOpacity
+Tfloat
 "
 Unknown
 Animatable
@@ -3131,11 +3131,7 @@ startState
 (
 )
 .
-get_Opacity
-(
-)
-.
-value
+get_float
 (
 )
 )
@@ -3164,11 +3160,7 @@ endState
 (
 )
 .
-get_Opacity
-(
-)
-.
-value
+get_float
 (
 )
 )

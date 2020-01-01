@@ -2072,8 +2072,6 @@ AppendElement
 (
 AnimationSegment
 (
-Opacity
-(
 segment
 -
 >
@@ -2082,9 +2080,6 @@ mFromValue
 GetFloatValue
 (
 )
-)
-Opacity
-(
 segment
 -
 >
@@ -2092,7 +2087,6 @@ mToValue
 .
 GetFloatValue
 (
-)
 )
 segment
 -
@@ -2135,6 +2129,7 @@ ea
 -
 >
 mDirection
+aProperty
 aData
 )
 )

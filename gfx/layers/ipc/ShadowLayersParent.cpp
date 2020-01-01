@@ -1120,10 +1120,6 @@ common
 opacity
 (
 )
-.
-value
-(
-)
 )
 ;
 layer
