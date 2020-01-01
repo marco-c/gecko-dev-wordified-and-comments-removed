@@ -523,6 +523,13 @@ REQUEST_CODE_PREF_SCREEN
 =
 5
 ;
+private
+static
+int
+RESULT_CODE_EXIT_SETTINGS
+=
+6
+;
 Override
 protected
 void
@@ -1157,9 +1164,7 @@ REQUEST_CODE_PREF_SCREEN
 requestCode
 &
 &
-Activity
-.
-RESULT_CANCELED
+RESULT_CODE_EXIT_SETTINGS
 =
 =
 resultCode
@@ -1167,9 +1172,7 @@ resultCode
 {
 setResult
 (
-Activity
-.
-RESULT_CANCELED
+RESULT_CODE_EXIT_SETTINGS
 )
 ;
 finish
@@ -2290,9 +2293,7 @@ LinkPreference
 {
 setResult
 (
-Activity
-.
-RESULT_CANCELED
+RESULT_CODE_EXIT_SETTINGS
 )
 ;
 finish
