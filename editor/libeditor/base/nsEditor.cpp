@@ -4177,11 +4177,6 @@ nsACString
 characterSet
 )
 {
-nsresult
-rv
-=
-NS_OK
-;
 nsCOMPtr
 <
 nsIDocument
@@ -4224,11 +4219,6 @@ nsACString
 characterSet
 )
 {
-nsresult
-rv
-=
-NS_OK
-;
 nsCOMPtr
 <
 nsIDocument
