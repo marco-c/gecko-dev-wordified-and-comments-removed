@@ -523,6 +523,11 @@ align
 "
 center
 "
+flex
+=
+"
+1
+"
 >
 <
 xul
@@ -569,6 +574,11 @@ crop
 =
 "
 end
+"
+flex
+=
+"
+1
 "
 /
 >
