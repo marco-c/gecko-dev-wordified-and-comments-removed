@@ -635,7 +635,6 @@ JSFrameRegs
 regs
 )
 {
-struct
 JSTraceMonitor
 *
 tm
@@ -669,9 +668,6 @@ Fragmento
 core
 )
 ;
-#
-ifdef
-DEBUG
 fragmento
 -
 >
@@ -688,8 +684,6 @@ core
 NULL
 )
 ;
-#
-endif
 fragmento
 -
 >
@@ -786,9 +780,6 @@ fragmento
 builtins
 )
 ;
-#
-ifdef
-DEBUG
 lirbuf
 -
 >
@@ -813,8 +804,6 @@ fragmento
 labels
 )
 ;
-#
-endif
 fragment
 -
 >
@@ -915,6 +904,7 @@ LOAD_CONTEXT
 (
 p
 )
+\
 tm
 -
 >
@@ -1070,7 +1060,6 @@ JSFrameRegs
 regs
 )
 {
-struct
 JSTraceMonitor
 *
 tm
