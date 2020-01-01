@@ -21210,8 +21210,9 @@ doc
 doc
 -
 >
-PostVisibilityUpdateEvent
+UpdateVisibilityState
 (
+false
 )
 ;
 }

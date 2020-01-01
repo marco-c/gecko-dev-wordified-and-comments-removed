@@ -429,6 +429,10 @@ bug754029_window
 .
 xul
 \
+test_bug818371
+.
+xul
+\
 docshell_helpers
 .
 js
