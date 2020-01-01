@@ -449,7 +449,7 @@ cpp
 mozJSSubScriptLoader
 .
 cpp
-EXTRA_PP_COMPONENTS
+EXTRA_JS_MODULES
 =
 XPCOMUtils
 .

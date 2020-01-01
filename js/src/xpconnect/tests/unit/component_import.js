@@ -271,8 +271,14 @@ utils
 import
 (
 "
-rel
+resource
 :
+/
+/
+gre
+/
+modules
+/
 XPCOMUtils
 .
 jsm
