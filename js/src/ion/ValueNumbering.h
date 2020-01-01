@@ -279,6 +279,10 @@ MDefinition
 ;
 protected
 :
+MIRGenerator
+*
+mir
+;
 MIRGraph
 &
 graph_
@@ -296,6 +300,9 @@ public
 :
 ValueNumberer
 (
+MIRGenerator
+*
+mir
 MIRGraph
 &
 graph
