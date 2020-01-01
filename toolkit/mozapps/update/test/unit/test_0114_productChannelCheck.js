@@ -3,6 +3,8 @@ TEST_ID
 =
 "
 0114
+-
+PCC
 "
 ;
 const
@@ -32,6 +34,10 @@ IS_MAR_CHECKS_ENABLED
 return
 ;
 }
+adjustGeneralPaths
+(
+)
+;
 do_register_cleanup
 (
 cleanupUpdaterTest

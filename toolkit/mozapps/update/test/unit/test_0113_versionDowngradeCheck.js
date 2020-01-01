@@ -3,6 +3,8 @@ TEST_ID
 =
 "
 0113
+-
+VDC
 "
 ;
 const
@@ -35,6 +37,10 @@ return
 do_register_cleanup
 (
 cleanupUpdaterTest
+)
+;
+adjustGeneralPaths
+(
 )
 ;
 setupUpdaterTest

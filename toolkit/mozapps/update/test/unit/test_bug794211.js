@@ -1,4 +1,11 @@
 const
+TEST_ID
+=
+"
+bug794211
+"
+;
+const
 NETWORK_ERROR_OFFLINE
 =
 111
@@ -15,6 +22,10 @@ do_test_pending
 do_register_cleanup
 (
 end_test
+)
+;
+adjustGeneralPaths
+(
 )
 ;
 logTestInfo

@@ -19,6 +19,13 @@ jsm
 "
 )
 const
+TEST_ID
+=
+"
+0040
+"
+;
+const
 URL_PREFIX
 =
 URL_HOST
@@ -44,6 +51,10 @@ do_test_pending
 do_register_cleanup
 (
 end_test
+)
+;
+adjustGeneralPaths
+(
 )
 ;
 removeUpdateDirsAndFiles
