@@ -4057,7 +4057,7 @@ mem
 .
 gc_high_frequency_heap_growth_max
 "
-120
+150
 )
 ;
 pref
@@ -4071,7 +4071,7 @@ mem
 .
 gc_high_frequency_heap_growth_min
 "
-101
+120
 )
 ;
 pref
@@ -4113,7 +4113,7 @@ mem
 .
 gc_low_frequency_heap_growth
 "
-105
+120
 )
 ;
 pref
