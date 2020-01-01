@@ -176,3 +176,17 @@ is
 added
 upstream
 )
+faster_seek
+.
+patch
+:
+Fix
+for
+bug
+501031
+make
+seeking
+faster
+over
+HTTP
+.

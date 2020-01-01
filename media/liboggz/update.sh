@@ -827,3 +827,10 @@ p3
 oggz_os2
 .
 patch
+patch
+-
+p3
+<
+faster_seek
+.
+patch

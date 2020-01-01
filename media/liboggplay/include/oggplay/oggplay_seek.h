@@ -20,11 +20,6 @@ oggplay_seek_to_keyframe
 OggPlay
 *
 me
-int
-*
-tracks
-int
-num_tracks
 ogg_int64_t
 milliseconds
 ogg_int64_t

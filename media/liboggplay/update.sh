@@ -946,3 +946,10 @@ p3
 bug500311
 .
 patch
+patch
+-
+p3
+<
+faster_seek
+.
+patch
