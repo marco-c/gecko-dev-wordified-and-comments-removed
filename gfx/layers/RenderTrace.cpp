@@ -62,7 +62,7 @@ GetParent
 )
 !
 =
-NULL
+nullptr
 )
 {
 return

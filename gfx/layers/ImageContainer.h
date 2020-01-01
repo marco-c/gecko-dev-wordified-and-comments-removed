@@ -1587,7 +1587,7 @@ CairoImage
 :
 Image
 (
-NULL
+nullptr
 CAIRO_SURFACE
 )
 {
@@ -1617,7 +1617,7 @@ RemoteBitmapImage
 :
 Image
 (
-NULL
+nullptr
 REMOTE_IMAGE_BITMAP
 )
 {

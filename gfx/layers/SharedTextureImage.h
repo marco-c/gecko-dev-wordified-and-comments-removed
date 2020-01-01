@@ -135,7 +135,7 @@ SharedTextureImage
 :
 Image
 (
-NULL
+nullptr
 SHARED_TEXTURE
 )
 {
