@@ -188,7 +188,7 @@ WRAPPER_BIT_PRESERVED
 ;
 }
 void
-SetIsProxy
+SetIsDOMBinding
 (
 )
 {
@@ -212,11 +212,11 @@ wrappers
 ;
 mWrapperPtrBits
 =
-WRAPPER_IS_PROXY
+WRAPPER_IS_DOM_BINDING
 ;
 }
 void
-ClearIsProxy
+ClearIsDOMBinding
 (
 )
 {
@@ -229,7 +229,7 @@ mWrapperPtrBits
 mWrapperPtrBits
 =
 =
-WRAPPER_IS_PROXY
+WRAPPER_IS_DOM_BINDING
 "
 This
 flag
@@ -250,7 +250,7 @@ mWrapperPtrBits
 ;
 }
 bool
-IsProxy
+IsDOMBinding
 (
 )
 const
@@ -259,7 +259,7 @@ return
 (
 mWrapperPtrBits
 &
-WRAPPER_IS_PROXY
+WRAPPER_IS_DOM_BINDING
 )
 !
 =
@@ -368,7 +368,7 @@ aWrapper
 (
 mWrapperPtrBits
 &
-WRAPPER_IS_PROXY
+WRAPPER_IS_DOM_BINDING
 )
 ;
 }
@@ -384,7 +384,7 @@ WRAPPER_BIT_PRESERVED
 ;
 enum
 {
-WRAPPER_IS_PROXY
+WRAPPER_IS_DOM_BINDING
 =
 1
 <
@@ -399,7 +399,7 @@ kWrapperBitMask
 (
 WRAPPER_BIT_PRESERVED
 |
-WRAPPER_IS_PROXY
+WRAPPER_IS_DOM_BINDING
 )
 }
 ;

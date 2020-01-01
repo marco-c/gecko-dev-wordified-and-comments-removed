@@ -4603,7 +4603,7 @@ if
 cache
 -
 >
-IsProxy
+IsDOMBinding
 (
 )
 )

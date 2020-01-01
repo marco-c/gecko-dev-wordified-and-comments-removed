@@ -119,7 +119,7 @@ NS_ABORT_IF_FALSE
 cache
 -
 >
-IsProxy
+IsDOMBinding
 (
 )
 |
@@ -147,7 +147,7 @@ return
 cache
 -
 >
-IsProxy
+IsDOMBinding
 (
 )
 ?

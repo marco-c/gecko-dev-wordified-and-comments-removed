@@ -465,7 +465,7 @@ MOZ_COUNT_CTOR
 nsAnonymousContentList
 )
 ;
-SetIsProxy
+SetIsDOMBinding
 (
 )
 ;

@@ -116,7 +116,7 @@ mParent
 aParent
 )
 {
-SetIsProxy
+SetIsDOMBinding
 (
 )
 ;

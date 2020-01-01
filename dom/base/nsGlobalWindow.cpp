@@ -3929,7 +3929,7 @@ mObserver
 =
 nsnull
 ;
-SetIsProxy
+SetIsDOMBinding
 (
 )
 ;

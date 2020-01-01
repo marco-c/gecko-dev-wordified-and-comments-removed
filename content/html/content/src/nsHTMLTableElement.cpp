@@ -281,7 +281,7 @@ false
 )
 )
 {
-SetIsProxy
+SetIsDOMBinding
 (
 )
 ;

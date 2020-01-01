@@ -241,7 +241,7 @@ mIsAnimValList
 aIsAnimValList
 )
 {
-SetIsProxy
+SetIsDOMBinding
 (
 )
 ;

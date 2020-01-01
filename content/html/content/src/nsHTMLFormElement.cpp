@@ -8025,7 +8025,7 @@ mElements
 8
 )
 {
-SetIsProxy
+SetIsDOMBinding
 (
 )
 ;
