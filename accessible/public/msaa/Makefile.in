@@ -446,6 +446,10 @@ nsIAccessibleWin32Object
 .
 idl
 \
+nsIWinAccessNode
+.
+idl
+\
 (
 NULL
 )

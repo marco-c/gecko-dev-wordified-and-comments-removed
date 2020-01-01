@@ -7,7 +7,7 @@ _nsXFormsAccessible_H_
 #
 include
 "
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 .
 h
 "
@@ -65,7 +65,7 @@ class
 nsXFormsAccessible
 :
 public
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 public
 nsXFormsAccessibleBase
 {

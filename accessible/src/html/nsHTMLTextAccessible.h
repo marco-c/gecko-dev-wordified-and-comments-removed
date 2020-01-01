@@ -345,7 +345,7 @@ class
 nsHTMLListAccessible
 :
 public
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 {
 public
 :
@@ -359,7 +359,7 @@ nsIWeakReference
 aShell
 )
 :
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 (
 aDOMNode
 aShell
@@ -403,7 +403,7 @@ class
 nsHTMLLIAccessible
 :
 public
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 {
 public
 :

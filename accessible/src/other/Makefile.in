@@ -512,6 +512,10 @@ nsXULTreeAccessibleWrap
 .
 h
 \
+nsHyperTextAccessibleWrap
+.
+h
+\
 (
 NULL
 )

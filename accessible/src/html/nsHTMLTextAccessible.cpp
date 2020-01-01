@@ -858,7 +858,7 @@ nsAString
 aBulletText
 )
 :
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 (
 aDOMNode
 aShell
@@ -933,7 +933,7 @@ Shutdown
 nsresult
 rv
 =
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 :
 :
 Shutdown
@@ -1378,7 +1378,7 @@ aExtraState
 nsresult
 rv
 =
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 :
 :
 GetState

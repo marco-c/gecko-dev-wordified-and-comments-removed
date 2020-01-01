@@ -789,7 +789,7 @@ nsIWeakReference
 aShell
 )
 :
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 (
 aNode
 aShell
@@ -917,7 +917,7 @@ NS_ERROR_FAILURE
 nsresult
 rv
 =
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 :
 :
 GetState
@@ -1219,7 +1219,7 @@ nsIWeakReference
 aShell
 )
 :
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 (
 aNode
 aShell
@@ -1371,7 +1371,7 @@ NS_ERROR_FAILURE
 nsresult
 rv
 =
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 :
 :
 GetState
@@ -1449,7 +1449,7 @@ nsIWeakReference
 aShell
 )
 :
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 (
 aNode
 aShell
@@ -1459,7 +1459,7 @@ aShell
 NS_IMPL_ISUPPORTS_INHERITED1
 (
 nsHTMLTextFieldAccessible
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 nsIAccessibleText
 )
 NS_IMETHODIMP
@@ -1475,7 +1475,7 @@ CheckForEditor
 )
 ;
 return
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 :
 :
 Init
@@ -1510,7 +1510,7 @@ nsnull
 ;
 }
 return
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 :
 :
 Shutdown
@@ -1693,7 +1693,7 @@ aExtraState
 nsresult
 rv
 =
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 :
 :
 GetState

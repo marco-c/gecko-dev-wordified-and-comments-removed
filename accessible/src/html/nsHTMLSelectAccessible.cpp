@@ -1758,7 +1758,7 @@ nsIWeakReference
 aShell
 )
 :
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 (
 aDOMNode
 aShell
@@ -2130,7 +2130,7 @@ NS_ERROR_FAILURE
 nsresult
 rv
 =
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 :
 :
 GetAttributesInternal

@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 .
 h
 "
@@ -544,7 +544,7 @@ class
 nsXULTextFieldAccessible
 :
 public
-nsHyperTextAccessible
+nsHyperTextAccessibleWrap
 {
 public
 :
