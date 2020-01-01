@@ -3306,6 +3306,17 @@ DebugAbortOnError
 ;
 #
 endif
+if
+(
+!
+mInitialized
+)
+mSymbols
+.
+Zero
+(
+)
+;
 return
 mInitialized
 ;
