@@ -1,5 +1,7 @@
 #
-ifndef
+if
+!
+defined
 jsjaeger_trampolinecompiler_h__
 &
 &
@@ -22,9 +24,7 @@ h
 #
 include
 "
-nunbox
-/
-Assembler
+CodeGenIncludes
 .
 h
 "
