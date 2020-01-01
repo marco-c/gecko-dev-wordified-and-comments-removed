@@ -449,7 +449,7 @@ define
 margin_xtiny
 0
 .
-11mozmm
+15mozmm
 %
 define
 padding_xxxlarge
