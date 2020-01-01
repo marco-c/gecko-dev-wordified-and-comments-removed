@@ -31389,7 +31389,7 @@ index
 )
 )
 return
-JS_FALSE
+false
 ;
 ParseNode
 *
@@ -31465,7 +31465,7 @@ noteIndex
 0
 )
 return
-JS_FALSE
+false
 ;
 ptrdiff_t
 top
@@ -31485,7 +31485,7 @@ top
 0
 )
 return
-JS_FALSE
+false
 ;
 StmtInfo
 stmtInfo
@@ -31521,7 +31521,7 @@ pn2
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -31533,7 +31533,7 @@ bce
 )
 )
 return
-JS_FALSE
+false
 ;
 CHECK_AND_SET_JUMP_OFFSET_AT
 (
@@ -31571,11 +31571,9 @@ JSOP_NOP
 <
 0
 )
-{
 return
-JS_FALSE
+false
 ;
-}
 }
 return
 true
