@@ -530,11 +530,8 @@ aHelper
 GetSuccessResult
 (
 cx
+&
 value
-.
-address
-(
-)
 )
 ;
 if
