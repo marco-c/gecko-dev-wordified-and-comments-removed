@@ -78,12 +78,6 @@ aDataType
 ;
 static
 bool
-CanOptimizeKeyAndIMEMessages
-(
-)
-;
-static
-bool
 IsIMEEnabled
 (
 const
