@@ -11424,6 +11424,15 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 }
 }
+AddLoadFlags
+(
+mChannel
+nsIRequest
+:
+:
+INHIBIT_PIPELINE
+)
+;
 if
 (
 !
