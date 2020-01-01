@@ -1733,7 +1733,10 @@ Freeze
 ;
 NS_ASSERTION
 (
+NS_SUCCEEDED
+(
 rv
+)
 "
 Freeze
 (
@@ -1764,7 +1767,10 @@ Thaw
 ;
 NS_ASSERTION
 (
+NS_SUCCEEDED
+(
 rv
+)
 "
 Thaw
 (
