@@ -131,6 +131,10 @@ EnableWebAudioCheck
 .
 cpp
 \
+GainNode
+.
+cpp
+\
 (
 NULL
 )
@@ -167,6 +171,10 @@ AudioParam
 h
 \
 AudioSourceNode
+.
+h
+\
+GainNode
 .
 h
 \

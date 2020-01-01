@@ -99,6 +99,10 @@ test_badConnect
 .
 html
 \
+test_gainNode
+.
+html
+\
 test_singleSourceDest
 .
 html

@@ -155,6 +155,10 @@ FileReaderSync
 .
 webidl
 \
+GainNode
+.
+webidl
+\
 HTMLCollection
 .
 webidl
