@@ -149,14 +149,6 @@ PPluginModule
 ;
 parent
 :
-AddLibraryMappings
-(
-Mapping
-[
-]
-m
-)
-;
 AnnotateCrashReport
 (
 nsCString
