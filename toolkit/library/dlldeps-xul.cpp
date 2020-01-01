@@ -111,13 +111,6 @@ XRE_ShutdownChildProcess
 nsnull
 )
 ;
-XRE_SendTestShellCommand
-(
-nsnull
-nsnull
-nsnull
-)
-;
 #
 endif
 }
