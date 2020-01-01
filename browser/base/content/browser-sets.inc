@@ -2993,6 +2993,11 @@ scratchpad
 keycode
 ;
 "
+modifiers
+=
+"
+shift
+"
 keytext
 =
 "
