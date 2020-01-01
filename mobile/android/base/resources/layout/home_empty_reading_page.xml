@@ -389,6 +389,15 @@ Small
 "
 android
 :
+contentDescription
+=
+"
+string
+/
+home_reading_list_hint_accessible
+"
+android
+:
 paddingTop
 =
 "
