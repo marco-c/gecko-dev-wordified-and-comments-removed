@@ -9226,16 +9226,6 @@ null
 (
 )
 ;
-handler
-.
-setFunctionBody
-(
-pn
-null
-(
-)
-)
-;
 bool
 initiallyStrict
 =
