@@ -181,6 +181,10 @@ NotifySoftKbObservers
 (
 )
 ;
+static
+TriStateBool
+sShowSIPButton
+;
 #
 endif
 }
