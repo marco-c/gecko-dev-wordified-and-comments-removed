@@ -13025,6 +13025,7 @@ return
 rv
 ;
 }
+static
 void
 #
 ifdef
