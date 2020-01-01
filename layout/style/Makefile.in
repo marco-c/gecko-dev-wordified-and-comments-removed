@@ -734,6 +734,10 @@ nsMediaFeatures
 .
 cpp
 \
+nsNthIndexCache
+.
+cpp
+\
 nsROCSSPrimitiveValue
 .
 cpp
