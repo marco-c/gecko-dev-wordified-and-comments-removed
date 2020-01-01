@@ -328,6 +328,9 @@ IsScoConnected
 private
 :
 class
+CloseScoTask
+;
+class
 GetVolumeTask
 ;
 class
@@ -335,6 +338,10 @@ RespondToBLDNTask
 ;
 class
 SendRingIndicatorTask
+;
+friend
+class
+CloseScoTask
 ;
 friend
 class
