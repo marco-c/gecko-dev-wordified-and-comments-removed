@@ -4097,6 +4097,10 @@ aSize
 height
 )
 ;
+ClearSafely
+(
+)
+;
 fBindTexture
 (
 LOCAL_GL_TEXTURE_2D
@@ -4138,10 +4142,6 @@ viewport
 [
 3
 ]
-)
-;
-ClearSafely
-(
 )
 ;
 return
