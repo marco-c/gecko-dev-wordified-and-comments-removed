@@ -7,10 +7,10 @@ strings_to_send
 .
 length
 *
-5000
+500
 ms
 =
-50
+5
 sec
 var
 timer
@@ -311,7 +311,7 @@ timer
 initWithCallback
 (
 sendNextString
-5000
+500
 Components
 .
 interfaces
