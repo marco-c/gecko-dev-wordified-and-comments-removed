@@ -1484,6 +1484,8 @@ table
 ]
 =
 {
+"
+"
 js_var_str
 js_const_str
 js_let_str
@@ -2086,7 +2088,9 @@ setDefn
 false
 )
 ;
-LinkUseToDef
+handler
+.
+linkUseToDef
 (
 opn
 (
@@ -2584,7 +2588,9 @@ setDefn
 false
 )
 ;
-LinkUseToDef
+handler
+.
+linkUseToDef
 (
 pn
 (
