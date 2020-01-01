@@ -2094,10 +2094,6 @@ testStringEncode
 (
 )
 ;
-testOutputStreams
-(
-)
-;
 throwingToJSON
 (
 )
