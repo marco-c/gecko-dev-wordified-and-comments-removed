@@ -320,15 +320,13 @@ kTitleTagsSeparatorChars
 0
 }
 ;
-const
-nsString
-kTitleTagsSeparator
-=
+#
+define
+TITLE_TAGS_SEPARATOR
 nsAutoString
 (
 kTitleTagsSeparatorChars
 )
-;
 inline
 PRBool
 StartsWithJS
@@ -2861,7 +2859,7 @@ showTags
 title
 +
 =
-kTitleTagsSeparator
+TITLE_TAGS_SEPARATOR
 +
 entryTags
 ;
