@@ -1062,7 +1062,7 @@ addSlot
 JSValueType
 type
 int32
-stackOffset
+stackIndex
 )
 ;
 void
@@ -1116,14 +1116,14 @@ Register
 &
 type
 int32
-payloadStackOffset
+payloadStackIndex
 )
 ;
 void
 addSlot
 (
 int32
-typeStackOffset
+typeStackIndex
 const
 Register
 &
@@ -1134,9 +1134,9 @@ void
 addSlot
 (
 int32
-typeStackOffset
+typeStackIndex
 int32
-payloadStackOffset
+payloadStackIndex
 )
 ;
 #
