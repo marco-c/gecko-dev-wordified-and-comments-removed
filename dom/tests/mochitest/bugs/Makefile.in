@@ -578,14 +578,6 @@ test_bug665548
 .
 html
 \
-test_bug799952
-.
-html
-\
-child_bug799952
-.
-html
-\
 (
 NULL
 )
