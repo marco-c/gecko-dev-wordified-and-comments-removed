@@ -3243,6 +3243,10 @@ nsStringArray
 other
 )
 {
+Clear
+(
+)
+;
 nsVoidArray
 :
 :
@@ -4297,6 +4301,10 @@ nsCStringArray
 other
 )
 {
+Clear
+(
+)
+;
 nsVoidArray
 :
 :
