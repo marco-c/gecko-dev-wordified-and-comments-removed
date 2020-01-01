@@ -2259,9 +2259,6 @@ nsClientRectList
 >
 GetClientRects
 (
-ErrorResult
-&
-aError
 )
 ;
 already_AddRefed
@@ -5524,13 +5521,6 @@ MOZ_FINAL
 \
 {
 \
-mozilla
-:
-:
-ErrorResult
-rv
-;
-\
 *
 _retval
 =
@@ -5539,7 +5529,6 @@ Element
 :
 GetClientRects
 (
-rv
 )
 .
 get
@@ -5548,11 +5537,7 @@ get
 ;
 \
 return
-rv
-.
-ErrorCode
-(
-)
+NS_OK
 ;
 \
 }

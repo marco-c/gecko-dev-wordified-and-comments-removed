@@ -11420,10 +11420,6 @@ mRectList
 (
 aList
 )
-mRV
-(
-NS_OK
-)
 {
 }
 void

@@ -967,9 +967,6 @@ partial
 interface
 Element
 {
-[
-Throws
-]
 ClientRectList
 getClientRects
 (

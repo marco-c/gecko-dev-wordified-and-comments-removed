@@ -556,10 +556,8 @@ partial
 interface
 Range
 {
-[
-Throws
-]
 ClientRectList
+?
 getClientRects
 (
 )
