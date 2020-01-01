@@ -235,9 +235,6 @@ FlowAndPlaceFloat
 nsFloatCache
 *
 aFloatCache
-PRBool
-*
-aIsLeftFloat
 nsReflowStatus
 &
 aReflowStatus

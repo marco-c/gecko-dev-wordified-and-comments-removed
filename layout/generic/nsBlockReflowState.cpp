@@ -2291,9 +2291,6 @@ aAvailableWidth
 )
 {
 PRBool
-isLeftFloat
-;
-PRBool
 forceFit
 =
 IsAdjacentWithTop
@@ -2313,8 +2310,6 @@ placed
 FlowAndPlaceFloat
 (
 fc
-&
-isLeftFloat
 aReflowStatus
 forceFit
 )
@@ -2400,7 +2395,6 @@ aLineLayout
 UpdateBand
 (
 availSpace
-isLeftFloat
 aPlaceholder
 -
 >
@@ -2834,9 +2828,6 @@ FlowAndPlaceFloat
 nsFloatCache
 *
 aFloatCache
-PRBool
-*
-aIsLeftFloat
 nsReflowStatus
 &
 aReflowStatus
@@ -3389,9 +3380,6 @@ TopBottom
 ;
 }
 }
-PRBool
-isLeftFloat
-;
 nscoord
 floatX
 floatY
@@ -3407,10 +3395,6 @@ floatDisplay
 mFloats
 )
 {
-isLeftFloat
-=
-PR_TRUE
-;
 floatX
 =
 floatAvailableSpace
@@ -3422,10 +3406,6 @@ x
 }
 else
 {
-isLeftFloat
-=
-PR_FALSE
-;
 if
 (
 !
@@ -3459,11 +3439,6 @@ x
 ;
 }
 }
-*
-aIsLeftFloat
-=
-isLeftFloat
-;
 const
 nsMargin
 &
@@ -3552,7 +3527,13 @@ width
 {
 if
 (
-isLeftFloat
+NS_STYLE_FLOAT_LEFT
+=
+=
+floatDisplay
+-
+>
+mFloats
 )
 {
 region
@@ -4035,9 +4016,6 @@ n
 }
 #
 endif
-PRBool
-isLeftFloat
-;
 nsReflowStatus
 reflowStatus
 ;
@@ -4047,8 +4025,6 @@ placed
 FlowAndPlaceFloat
 (
 fc
-&
-isLeftFloat
 reflowStatus
 aForceFit
 )

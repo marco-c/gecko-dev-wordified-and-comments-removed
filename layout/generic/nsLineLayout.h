@@ -153,8 +153,6 @@ const
 nsRect
 &
 aNewAvailableSpace
-PRBool
-aPlacedLeftFloat
 nsIFrame
 *
 aFloatFrame
@@ -1374,9 +1372,6 @@ mFlags
 ;
 PRUint8
 mTextAlign
-;
-PRUint8
-mPlacedFloats
 ;
 nsresult
 NewPerFrameData
