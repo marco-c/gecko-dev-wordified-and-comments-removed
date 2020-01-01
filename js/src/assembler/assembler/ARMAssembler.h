@@ -2672,6 +2672,12 @@ cc
 AL
 )
 {
+#
+if
+defined
+(
+JS_METHODJIT_SPEW
+)
 char
 mnemonic
 [
@@ -2730,6 +2736,8 @@ imm
 )
 )
 ;
+#
+endif
 m_buffer
 .
 putIntWithConstantInt
@@ -2778,6 +2786,12 @@ cc
 AL
 )
 {
+#
+if
+defined
+(
+JS_METHODJIT_SPEW
+)
 char
 mnemonic
 [
@@ -2831,6 +2845,8 @@ imm
 )
 )
 ;
+#
+endif
 m_buffer
 .
 putIntWithConstantInt
@@ -8266,6 +8282,12 @@ ARMWord
 op2
 )
 {
+#
+if
+defined
+(
+JS_METHODJIT_SPEW
+)
 char
 mnemonic
 [
@@ -8326,6 +8348,8 @@ rn
 op2_fmt
 )
 ;
+#
+endif
 }
 void
 spewInsWithOp2
@@ -8342,6 +8366,12 @@ ARMWord
 op2
 )
 {
+#
+if
+defined
+(
+JS_METHODJIT_SPEW
+)
 char
 mnemonic
 [
@@ -8396,6 +8426,8 @@ r
 op2_fmt
 )
 ;
+#
+endif
 }
 ARMWord
 RM
