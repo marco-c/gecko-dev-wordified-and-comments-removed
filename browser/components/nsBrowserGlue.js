@@ -2866,14 +2866,14 @@ brandFullName
 )
 ;
 var
-notifyText
+notifyRightsText
 =
 rightsBundle
 .
 formatStringFromName
 (
 "
-notifyText
+notifyRightsText
 "
 [
 productName
@@ -2969,7 +2969,7 @@ notifyBox
 .
 appendNotification
 (
-notifyText
+notifyRightsText
 "
 about
 -
