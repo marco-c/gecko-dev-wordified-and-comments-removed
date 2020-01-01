@@ -270,6 +270,13 @@ Record
 import
 android
 .
+content
+.
+ContentUris
+;
+import
+android
+.
 database
 .
 Cursor
@@ -2399,9 +2406,9 @@ toStore
 long
 id
 =
-RepoUtils
+ContentUris
 .
-getAndroidIdFromUri
+parseId
 (
 recordURI
 )
