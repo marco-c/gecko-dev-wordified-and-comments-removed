@@ -3284,6 +3284,8 @@ ifdef
 JS_ION
 if
 (
+data_
+.
 ionFrames_
 .
 isOptimizedJS
@@ -3306,6 +3308,8 @@ else
 {
 JS_ASSERT
 (
+data_
+.
 ionFrames_
 .
 isBaselineJS
@@ -3313,6 +3317,8 @@ isBaselineJS
 )
 )
 ;
+data_
+.
 ionFrames_
 .
 forEachCanonicalActualArg
