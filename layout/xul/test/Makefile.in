@@ -449,6 +449,10 @@ NULL
 _CHROME_FILES
 =
 \
+test_bug159346
+.
+xul
+\
 test_bug372685
 .
 xul
