@@ -911,7 +911,7 @@ content
 <
 xul
 :
-hbox
+box
 flex
 =
 "
@@ -1056,7 +1056,7 @@ hbox
 /
 xul
 :
-hbox
+box
 >
 <
 xul
@@ -1190,7 +1190,7 @@ content
 <
 xul
 :
-hbox
+box
 flex
 =
 "
@@ -1335,7 +1335,7 @@ hbox
 /
 xul
 :
-hbox
+box
 >
 <
 xul
@@ -1572,7 +1572,7 @@ content
 <
 xul
 :
-hbox
+box
 flex
 =
 "
@@ -1700,7 +1700,7 @@ hbox
 /
 xul
 :
-hbox
+box
 >
 <
 xul
@@ -1797,7 +1797,7 @@ content
 <
 xul
 :
-hbox
+box
 flex
 =
 "
@@ -1945,7 +1945,7 @@ hbox
 /
 xul
 :
-hbox
+box
 >
 <
 xul
