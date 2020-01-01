@@ -199,13 +199,6 @@ int64_t
 aEndTime
 )
 ;
-void
-UpdateDuration
-(
-int64_t
-aDuration
-)
-;
 bool
 OnDecodeThread
 (

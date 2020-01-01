@@ -191,16 +191,6 @@ aDuration
 ;
 virtual
 void
-UpdateMediaDuration
-(
-int64_t
-aDuration
-)
-=
-0
-;
-virtual
-void
 SetMediaSeekable
 (
 bool
