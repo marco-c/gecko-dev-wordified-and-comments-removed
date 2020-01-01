@@ -2122,15 +2122,7 @@ Reader
 <
 !
 ENTITY
-contextmenu_remove_history
-"
-Remove
-"
->
-<
-!
-ENTITY
-contextmenu_remove_bookmark
+contextmenu_remove
 "
 Remove
 "
