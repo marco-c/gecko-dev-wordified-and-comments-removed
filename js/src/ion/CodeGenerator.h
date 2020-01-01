@@ -1529,6 +1529,14 @@ lir
 )
 ;
 bool
+visitIsCallable
+(
+LIsCallable
+*
+lir
+)
+;
+bool
 visitAsmJSCall
 (
 LAsmJSCall

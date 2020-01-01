@@ -1013,6 +1013,11 @@ CallDOMNative
 \
 _
 (
+IsCallable
+)
+\
+_
+(
 AsmJSLoadHeap
 )
 \
