@@ -3653,7 +3653,7 @@ org
 .
 mozilla
 .
-gecko
+fennec
 .
 WEBAPP
 "
