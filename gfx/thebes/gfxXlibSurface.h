@@ -175,6 +175,13 @@ aSize
 )
 ;
 virtual
+void
+Finish
+(
+)
+MOZ_OVERRIDE
+;
+virtual
 const
 gfxIntSize
 GetSize
