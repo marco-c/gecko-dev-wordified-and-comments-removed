@@ -563,7 +563,7 @@ JS_NewContext
 mRuntime
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 8192
@@ -826,7 +826,7 @@ GetRuntime
 )
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 dumpFile
@@ -1096,7 +1096,7 @@ GetRuntime
 )
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 )
@@ -1154,7 +1154,7 @@ GetRuntime
 )
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 ;
@@ -1994,7 +1994,7 @@ GetRuntime
 )
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 )
@@ -2026,7 +2026,7 @@ GetRuntime
 )
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 ;
@@ -2135,7 +2135,7 @@ rt
 mRuntime
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 ;
@@ -2184,7 +2184,7 @@ JS_SetRuntimeThread
 mRuntime
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 )
@@ -2216,7 +2216,7 @@ JS_ClearRuntimeThread
 mRuntime
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 )
@@ -2247,7 +2247,7 @@ JS_SetRuntimeThread
 mRuntime
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 )
@@ -2283,7 +2283,7 @@ GetRuntime
 )
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 &
@@ -3667,7 +3667,7 @@ GetRuntimeInstance
 )
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 p
@@ -7938,7 +7938,7 @@ Get
 )
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 )
@@ -8101,7 +8101,7 @@ GetRuntime
 )
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 ;
@@ -8385,7 +8385,7 @@ CheckForDebugMode
 rt
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 )
@@ -9130,7 +9130,7 @@ GetRuntime
 )
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 file
@@ -9364,7 +9364,7 @@ GetRuntimeInstance
 )
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 ;
@@ -9523,7 +9523,7 @@ CheckForDebugMode
 mRuntime
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 )
@@ -9676,7 +9676,7 @@ GetRuntime
 )
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 )

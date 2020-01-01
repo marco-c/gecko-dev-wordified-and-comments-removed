@@ -3724,7 +3724,7 @@ IsIncrementalBarrierNeeded
 rt
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 )
@@ -3790,7 +3790,7 @@ GetRuntime
 )
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 ;
@@ -3853,7 +3853,7 @@ GetRuntime
 )
 -
 >
-GetJSRuntime
+Runtime
 (
 )
 ;
