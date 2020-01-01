@@ -24,7 +24,7 @@ NS_PurgeAtomTable
 )
 ;
 size_t
-NS_SizeOfAtomTableIncludingThis
+NS_SizeOfAtomTablesIncludingThis
 (
 nsMallocSizeOfFun
 aMallocSizeOf
