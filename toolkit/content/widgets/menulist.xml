@@ -2947,6 +2947,7 @@ inherits
 context
 disabled
 readonly
+focused
 "
 flex
 =
