@@ -424,10 +424,6 @@ content_html
 XPIDLSRCS
 =
 \
-nsISelectElement
-.
-idl
-\
 nsIFormSubmitObserver
 .
 idl
