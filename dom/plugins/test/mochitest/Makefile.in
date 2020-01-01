@@ -659,6 +659,10 @@ cocoa_focus
 .
 html
 \
+test_queryContentsScaleFactor
+.
+html
+\
 (
 NULL
 )
