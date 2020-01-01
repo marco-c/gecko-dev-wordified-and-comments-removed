@@ -236,6 +236,9 @@ aFramesToHide
 AlignmentEdges
 *
 aAlignmentEdges
+bool
+*
+aFoundVisibleTextOrAtomic
 )
 ;
 void
@@ -258,6 +261,9 @@ aFramesToHide
 AlignmentEdges
 *
 aAlignmentEdges
+bool
+*
+aFoundVisibleTextOrAtomic
 )
 ;
 void
