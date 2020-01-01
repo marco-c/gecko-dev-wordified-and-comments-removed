@@ -136,10 +136,6 @@ DOMSVGTransformList
 .
 cpp
 \
-nsDOMSVGZoomEvent
-.
-cpp
-\
 nsISVGPoint
 .
 cpp
@@ -637,6 +633,10 @@ SVGViewBoxSMILType
 cpp
 \
 SVGViewElement
+.
+cpp
+\
+SVGZoomEvent
 .
 cpp
 \

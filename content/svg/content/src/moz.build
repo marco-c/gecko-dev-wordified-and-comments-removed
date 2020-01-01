@@ -511,4 +511,9 @@ SVGViewElement
 .
 h
 '
+'
+SVGZoomEvent
+.
+h
+'
 ]
