@@ -1801,8 +1801,6 @@ mimeTypes
 [
 0
 ]
-.
-type
 ;
 return
 (
@@ -1900,8 +1898,6 @@ getMimeTypes
 [
 0
 ]
-.
-type
 ;
 let
 permString
