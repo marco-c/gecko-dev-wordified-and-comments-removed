@@ -388,6 +388,16 @@ CPPSRCS
 progressui_gonk
 .
 cpp
+automounter_gonk
+.
+cpp
+OS_LIBS
++
+=
+-
+lcutils
+-
+lsysutils
 #
 clear
 out

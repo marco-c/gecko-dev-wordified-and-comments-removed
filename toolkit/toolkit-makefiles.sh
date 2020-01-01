@@ -8402,12 +8402,12 @@ fi
 if
 [
 "
-OS_TARGET
+MOZ_WIDGET_TOOLKIT
 "
 !
 =
 "
-Android
+android
 "
 ]
 ;

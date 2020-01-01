@@ -15308,14 +15308,7 @@ endif
 if
 defined
 (
-MOZ_UPDATER
-)
-&
-&
-!
-defined
-(
-MOZ_WIDGET_ANDROID
+USE_MOZ_UPDATER
 )
 nsCOMPtr
 <
