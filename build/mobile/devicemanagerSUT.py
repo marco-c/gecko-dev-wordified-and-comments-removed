@@ -1,4 +1,6 @@
 import
+select
+import
 socket
 import
 SocketServer
@@ -1460,6 +1462,27 @@ ing
 try
 :
             
+if
+select
+.
+select
+(
+[
+self
+.
+_sock
+]
+[
+]
+[
+]
+1
+)
+[
+0
+]
+:
+                
 temp
 =
 self
