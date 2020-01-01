@@ -267,6 +267,10 @@ HTMLAnchorElement
 .
 webidl
 \
+HTMLAreaElement
+.
+webidl
+\
 HTMLBaseElement
 .
 webidl
