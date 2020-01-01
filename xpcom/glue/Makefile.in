@@ -502,6 +502,14 @@ cpp
 (
 NULL
 )
+#
+TODO
+nsAutoLock
+.
+h
+should
+die
+soon
 SDK_HEADERS
 =
 \
@@ -510,6 +518,10 @@ nsArrayEnumerator
 h
 \
 nsArrayUtils
+.
+h
+\
+nsAutoLock
 .
 h
 \

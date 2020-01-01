@@ -86,10 +86,6 @@ nsIMutableArray
 .
 h
 "
-using
-namespace
-mozilla
-;
 extern
 nsresult
 GetAccessPointsFromWLAN
@@ -159,7 +155,7 @@ nsIWifiListener
 currentListeners
 ;
 {
-MonitorAutoEnter
+nsAutoMonitor
 mon
 (
 mMonitor
@@ -479,7 +475,7 @@ n
 )
 )
 ;
-MonitorAutoEnter
+nsAutoMonitor
 mon
 (
 mMonitor
@@ -877,7 +873,7 @@ nsIWifiListener
 currentListeners
 ;
 {
-MonitorAutoEnter
+nsAutoMonitor
 mon
 (
 mMonitor
@@ -1202,7 +1198,7 @@ n
 )
 )
 ;
-MonitorAutoEnter
+nsAutoMonitor
 mon
 (
 mMonitor

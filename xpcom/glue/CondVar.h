@@ -62,11 +62,6 @@ mLock
 aLock
 )
 {
-MOZ_COUNT_CTOR
-(
-CondVar
-)
-;
 mCvar
 =
 PR_NewCondVar
@@ -130,11 +125,6 @@ mCvar
 mLock
 =
 0
-;
-MOZ_COUNT_DTOR
-(
-CondVar
-)
 ;
 }
 #

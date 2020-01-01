@@ -12,10 +12,6 @@ nsAtomicRefcnt
 .
 h
 "
-using
-namespace
-mozilla
-;
 #
 ifdef
 SHOW_INFO_COUNT_STATS
@@ -280,7 +276,7 @@ Resolve
 (
 )
 {
-MutexAutoLock
+nsAutoLock
 lock
 (
 xptiInterfaceInfoManager
@@ -2269,7 +2265,7 @@ xptiInterfaceInfo
 info
 )
 {
-MonitorAutoEnter
+nsAutoMonitor
 lock
 (
 xptiInterfaceInfoManager
@@ -2484,7 +2480,7 @@ if
 cnt
 )
 {
-MonitorAutoEnter
+nsAutoMonitor
 lock
 (
 xptiInterfaceInfoManager

@@ -57,6 +57,13 @@ h
 #
 include
 "
+nsAutoLock
+.
+h
+"
+#
+include
+"
 mozIStorageAggregateFunction
 .
 h

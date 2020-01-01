@@ -532,6 +532,14 @@ glue
 XPCOM_GLUE_SRC_LCPPSRCS
 )
 )
+#
+TODO
+nsAutoLock
+.
+cpp
+should
+die
+soon
 XPCOM_GLUENS_SRC_LCPPSRCS
 =
 \
@@ -548,6 +556,10 @@ SSE
 cpp
 \
 unused
+.
+cpp
+\
+nsAutoLock
 .
 cpp
 \

@@ -32,6 +32,13 @@ h
 #
 include
 "
+nsAutoLock
+.
+h
+"
+#
+include
+"
 nsClassHashtable
 .
 h

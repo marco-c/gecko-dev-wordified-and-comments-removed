@@ -49,6 +49,13 @@ h
 #
 include
 "
+prlock
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h

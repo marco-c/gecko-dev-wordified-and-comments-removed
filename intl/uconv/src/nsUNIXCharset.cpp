@@ -146,6 +146,13 @@ h
 #
 include
 "
+nsAutoLock
+.
+h
+"
+#
+include
+"
 prinit
 .
 h

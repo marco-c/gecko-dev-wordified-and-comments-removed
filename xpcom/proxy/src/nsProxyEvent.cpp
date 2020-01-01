@@ -50,6 +50,13 @@ h
 #
 include
 "
+nsAutoLock
+.
+h
+"
+#
+include
+"
 nsXPCOMCID
 .
 h
@@ -89,10 +96,6 @@ nsMemory
 .
 h
 "
-using
-namespace
-mozilla
-;
 #
 define
 nsAUTF8String
@@ -1227,7 +1230,7 @@ AddRef
 (
 )
 {
-MutexAutoLock
+nsAutoLock
 lock
 (
 nsProxyObjectManager
@@ -1260,7 +1263,7 @@ Release
 (
 )
 {
-MutexAutoLock
+nsAutoLock
 lock
 (
 nsProxyObjectManager
@@ -1370,7 +1373,7 @@ LockedRemove
 this
 )
 ;
-MutexAutoUnlock
+nsAutoUnlock
 unlock
 (
 pom
@@ -1490,7 +1493,7 @@ manager
 "
 )
 ;
-MutexAutoLock
+nsAutoLock
 lock
 (
 pom
@@ -1606,7 +1609,7 @@ GetInstance
 (
 )
 ;
-MutexAutoUnlock
+nsAutoUnlock
 unlock
 (
 pom

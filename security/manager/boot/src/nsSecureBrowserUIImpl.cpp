@@ -279,10 +279,13 @@ nsCRT
 .
 h
 "
-using
-namespace
-mozilla
-;
+#
+include
+"
+nsAutoLock
+.
+h
+"
 #
 define
 SECURITY_STRING_BUNDLE_URL
@@ -507,14 +510,6 @@ nsSecureBrowserUIImpl
 (
 )
 :
-mMonitor
-(
-"
-nsSecureBrowserUIImpl
-.
-mMonitor
-"
-)
 mNotifiedSecurityState
 (
 lis_no_security
@@ -565,6 +560,20 @@ mOnStateLocationChangeReentranceDetection
 #
 endif
 {
+mMonitor
+=
+nsAutoMonitor
+:
+:
+NewMonitor
+(
+"
+security
+.
+secureBrowserUIImplMonitor
+"
+)
+;
 mTransferringRequests
 .
 ops
@@ -626,6 +635,18 @@ ops
 nsnull
 ;
 }
+if
+(
+mMonitor
+)
+nsAutoMonitor
+:
+:
+DestroyMonitor
+(
+mMonitor
+)
+;
 }
 NS_IMPL_THREADSAFE_ISUPPORTS6
 (
@@ -988,7 +1009,7 @@ PRUint32
 aState
 )
 {
-MonitorAutoEnter
+nsAutoMonitor
 lock
 (
 mMonitor
@@ -1209,7 +1230,7 @@ nsXPIDLString
 tooltip
 ;
 {
-MonitorAutoEnter
+nsAutoMonitor
 lock
 (
 mMonitor
@@ -1749,7 +1770,7 @@ nsIDOMWindow
 window
 ;
 {
-MonitorAutoEnter
+nsAutoMonitor
 lock
 (
 mMonitor
@@ -1878,7 +1899,7 @@ ResetStateTracking
 (
 )
 {
-MonitorAutoEnter
+nsAutoMonitor
 lock
 (
 mMonitor
@@ -2123,7 +2144,7 @@ aTemp
 }
 }
 {
-MonitorAutoEnter
+nsAutoMonitor
 lock
 (
 mMonitor
@@ -2238,7 +2259,7 @@ GetSecurityStateFromSecurityInfo
 securityInfo
 )
 ;
-MonitorAutoEnter
+nsAutoMonitor
 lock
 (
 mMonitor
@@ -2466,7 +2487,7 @@ nsINetUtil
 ioService
 ;
 {
-MonitorAutoEnter
+nsAutoMonitor
 lock
 (
 mMonitor
@@ -2519,7 +2540,7 @@ if
 ioService
 )
 {
-MonitorAutoEnter
+nsAutoMonitor
 lock
 (
 mMonitor
@@ -3897,7 +3918,7 @@ aProgressStateFlags
 STATE_IS_REQUEST
 )
 {
-MonitorAutoEnter
+nsAutoMonitor
 lock
 (
 mMonitor
@@ -3933,7 +3954,7 @@ STATE_IS_REQUEST
 )
 {
 {
-MonitorAutoEnter
+nsAutoMonitor
 lock
 (
 mMonitor
@@ -4102,7 +4123,7 @@ newSubNo
 0
 ;
 {
-MonitorAutoEnter
+nsAutoMonitor
 lock
 (
 mMonitor
@@ -4394,7 +4415,7 @@ newSubNo
 }
 }
 {
-MonitorAutoEnter
+nsAutoMonitor
 lock
 (
 mMonitor
@@ -4499,7 +4520,7 @@ nsISecurityEventSink
 temp_ToplevelEventSink
 ;
 {
-MonitorAutoEnter
+nsAutoMonitor
 lock
 (
 mMonitor
@@ -4578,7 +4599,7 @@ temp_ToplevelEventSink
 }
 }
 {
-MonitorAutoEnter
+nsAutoMonitor
 lock
 (
 mMonitor
@@ -4657,7 +4678,7 @@ PRBool
 temp_NewToplevelSecurityStateKnown
 ;
 {
-MonitorAutoEnter
+nsAutoMonitor
 lock
 (
 mMonitor
@@ -4800,7 +4821,7 @@ lockIconState
 warnSecurityState
 )
 {
-MonitorAutoEnter
+nsAutoMonitor
 lock
 (
 mMonitor
@@ -5076,7 +5097,7 @@ PRBool
 temp_NotifiedToplevelIsEV
 ;
 {
-MonitorAutoEnter
+nsAutoMonitor
 lock
 (
 mMonitor
@@ -5378,7 +5399,7 @@ vs
 ;
 }
 {
-MonitorAutoEnter
+nsAutoMonitor
 lock
 (
 mMonitor
@@ -5490,7 +5511,7 @@ PRBool
 temp_NewToplevelSecurityStateKnown
 ;
 {
-MonitorAutoEnter
+nsAutoMonitor
 lock
 (
 mMonitor
@@ -5688,7 +5709,7 @@ NS_ENSURE_ARG_POINTER
 _result
 )
 ;
-MonitorAutoEnter
+nsAutoMonitor
 lock
 (
 mMonitor
@@ -5862,7 +5883,7 @@ nsIStringBundle
 temp_StringBundle
 ;
 {
-MonitorAutoEnter
+nsAutoMonitor
 lock
 (
 mMonitor
@@ -6369,7 +6390,7 @@ nsIDOMWindow
 window
 ;
 {
-MonitorAutoEnter
+nsAutoMonitor
 lock
 (
 mMonitor
@@ -6462,7 +6483,7 @@ nsIDOMWindow
 window
 ;
 {
-MonitorAutoEnter
+nsAutoMonitor
 lock
 (
 mMonitor
@@ -6555,7 +6576,7 @@ nsIDOMWindow
 window
 ;
 {
-MonitorAutoEnter
+nsAutoMonitor
 lock
 (
 mMonitor
@@ -6648,7 +6669,7 @@ nsIDOMWindow
 window
 ;
 {
-MonitorAutoEnter
+nsAutoMonitor
 lock
 (
 mMonitor
@@ -6744,7 +6765,7 @@ nsIDOMWindow
 window
 ;
 {
-MonitorAutoEnter
+nsAutoMonitor
 lock
 (
 mMonitor
@@ -6852,7 +6873,7 @@ nsIDOMWindow
 window
 ;
 {
-MonitorAutoEnter
+nsAutoMonitor
 lock
 (
 mMonitor
