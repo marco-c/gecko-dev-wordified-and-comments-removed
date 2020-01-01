@@ -961,7 +961,7 @@ sQuit
 |
 sProgress
 >
-60
+70
 .
 0f
 )

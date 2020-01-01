@@ -209,7 +209,7 @@ sQuit
 |
 sProgressVal
 >
-50
+70
 .
 0f
 )
