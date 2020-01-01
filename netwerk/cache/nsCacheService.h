@@ -454,6 +454,8 @@ DoomEntry_Internal
 nsCacheEntry
 *
 entry
+PRBool
+doProcessPendingRequests
 )
 ;
 nsresult
@@ -492,6 +494,10 @@ nsCacheEntry
 *
 *
 entry
+nsCacheEntry
+*
+*
+doomedEntry
 )
 ;
 nsCacheDevice
