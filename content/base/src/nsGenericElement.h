@@ -196,6 +196,9 @@ class
 nsIScrollableFrame
 ;
 class
+nsAttrValueOrString
+;
+class
 nsContentList
 ;
 class
@@ -714,13 +717,13 @@ nsIAtom
 *
 aPrefix
 const
-nsAString
+nsAttrValueOrString
 &
 aValue
 bool
 aNotify
-nsAutoString
-*
+nsAttrValue
+&
 aOldValue
 PRUint8
 *
@@ -1993,8 +1996,6 @@ CanSkip
 nsINode
 *
 aNode
-bool
-aRemovingAllowed
 )
 ;
 static
@@ -2080,7 +2081,7 @@ nsIAtom
 *
 aPrefix
 const
-nsAString
+nsAttrValue
 &
 aOldValue
 nsAttrValue
