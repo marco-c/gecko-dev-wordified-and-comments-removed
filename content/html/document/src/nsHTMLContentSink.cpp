@@ -826,10 +826,6 @@ nsGenericHTMLElement
 >
 CreateContentObject
 (
-const
-nsIParserNode
-&
-aNode
 nsHTMLTag
 aNodeType
 )
@@ -1336,10 +1332,6 @@ HTMLContentSink
 :
 CreateContentObject
 (
-const
-nsIParserNode
-&
-aNode
 nsHTMLTag
 aNodeType
 )
@@ -2346,7 +2338,6 @@ mSink
 >
 CreateContentObject
 (
-aNode
 nodeType
 )
 .
@@ -3173,7 +3164,6 @@ mSink
 >
 CreateContentObject
 (
-aNode
 nodeType
 )
 ;
