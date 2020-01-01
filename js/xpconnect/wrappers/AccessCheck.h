@@ -199,6 +199,8 @@ Wrapper
 :
 Action
 act
+JSHandleId
+id
 )
 {
 return
@@ -274,6 +276,8 @@ Wrapper
 :
 Action
 act
+JSHandleId
+id
 )
 {
 return
@@ -358,6 +362,8 @@ Wrapper
 :
 Action
 act
+JSHandleId
+id
 )
 {
 return
@@ -429,6 +435,8 @@ Wrapper
 :
 Action
 act
+JSHandleId
+id
 )
 {
 return
@@ -505,6 +513,8 @@ Wrapper
 :
 Action
 act
+JSHandleId
+id
 )
 {
 return
