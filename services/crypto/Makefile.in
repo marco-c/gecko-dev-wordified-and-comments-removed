@@ -436,6 +436,10 @@ WeaveCrypto
 .
 js
 \
+WeaveCrypto
+.
+manifest
+\
 (
 NULL
 )
