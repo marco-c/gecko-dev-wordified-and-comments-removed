@@ -10239,7 +10239,7 @@ this
 .
 mCounts
 [
-i
+oldIndex
 ]
 ;
 }
