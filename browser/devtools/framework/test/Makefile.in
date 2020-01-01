@@ -132,6 +132,10 @@ browser_toolbox_raise
 .
 js
 \
+browser_toolbox_zoom
+.
+js
+\
 browser_keybindings
 .
 js
