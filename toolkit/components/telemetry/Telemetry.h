@@ -73,6 +73,11 @@ HistogramCount
 }
 ;
 void
+Init
+(
+)
+;
+void
 Accumulate
 (
 ID
