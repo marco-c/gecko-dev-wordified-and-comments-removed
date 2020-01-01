@@ -32,6 +32,17 @@ h
 #
 endif
 #
+include
+"
+vm
+/
+Stack
+-
+inl
+.
+h
+"
+#
 define
 TYPEOF
 (
