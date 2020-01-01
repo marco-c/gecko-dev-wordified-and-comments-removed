@@ -4244,6 +4244,16 @@ mAnimationController
 ;
 #
 endif
+#
+ifdef
+DEBUG
+protected
+:
+PRBool
+mWillReparent
+;
+#
+endif
 }
 ;
 #

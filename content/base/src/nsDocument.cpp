@@ -14402,6 +14402,12 @@ aScriptGlobalObject
 #
 ifdef
 DEBUG
+if
+(
+!
+mWillReparent
+)
+{
 JSObject
 *
 obj
@@ -14538,6 +14544,7 @@ bad
 "
 )
 ;
+}
 }
 }
 #
