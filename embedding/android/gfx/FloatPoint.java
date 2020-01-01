@@ -8,15 +8,11 @@ gecko
 gfx
 ;
 import
-org
+android
 .
-mozilla
+graphics
 .
-gecko
-.
-gfx
-.
-IntPoint
+Point
 ;
 public
 class
@@ -49,7 +45,7 @@ inY
 public
 FloatPoint
 (
-IntPoint
+Point
 intPoint
 )
 {

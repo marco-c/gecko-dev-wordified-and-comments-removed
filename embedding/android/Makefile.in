@@ -573,12 +573,6 @@ java
 \
 gfx
 /
-IntPoint
-.
-java
-\
-gfx
-/
 IntRect
 .
 java
