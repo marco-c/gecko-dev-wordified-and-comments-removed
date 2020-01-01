@@ -357,7 +357,7 @@ v
 )
 )
 return
-JSVAL_ERROR_COOKIE
+JSVAL_NULL
 ;
 return
 v
@@ -431,7 +431,7 @@ v
 )
 )
 return
-JSVAL_ERROR_COOKIE
+JSVAL_NULL
 ;
 return
 v
@@ -1627,7 +1627,7 @@ js_PopInterpFrame
 JSContext
 *
 cx
-InterpState
+TracerState
 *
 state
 )
@@ -1797,7 +1797,7 @@ extern
 BOOL
 js_PopInterpFrame
 CONTEXT
-INTERPSTATE
+TRACERSTATE
 0
 ACC_STORE_ANY
 )

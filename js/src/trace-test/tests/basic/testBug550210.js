@@ -11,6 +11,7 @@ return
 +
 e
 )
+;
 }
 function
 blah
@@ -20,6 +21,7 @@ blah
 do
 {
 yield
+;
 }
 while
 (
@@ -31,6 +33,7 @@ p
 arguments
 )
 )
+;
 }
 rv
 =
@@ -63,7 +66,9 @@ g
 e
 )
 )
+;
 }
 gc
 (
 )
+;

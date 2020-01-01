@@ -1314,7 +1314,7 @@ JSRuntime
 *
 rt
 JSDebuggerHandler
-handler
+hook
 void
 *
 closure
@@ -1398,7 +1398,7 @@ JS_SetThrowHook
 JSRuntime
 *
 rt
-JSTrapHandler
+JSThrowHook
 hook
 void
 *

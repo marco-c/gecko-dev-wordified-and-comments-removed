@@ -791,8 +791,6 @@ js_MarkScriptFilenames
 JSRuntime
 *
 rt
-JSBool
-keepAtoms
 )
 ;
 extern
