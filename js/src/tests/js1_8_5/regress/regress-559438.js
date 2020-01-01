@@ -35,10 +35,15 @@ g
 =
 eval
 (
-String
+"
 (
+"
++
 f
++
+"
 )
+"
 )
 ;
 reportCompare
@@ -46,7 +51,7 @@ reportCompare
 "
 12
 "
-f
+g
 (
 1
 )
