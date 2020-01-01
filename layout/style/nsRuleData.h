@@ -45,8 +45,8 @@ aData
 struct
 nsRuleData
 {
-nsStyleStructID
-mSID
+PRUint32
+mSIDs
 ;
 PRPackedBool
 mCanStoreInRuleTree
@@ -127,10 +127,8 @@ mColumnData
 ;
 nsRuleData
 (
-const
-nsStyleStructID
-&
-aSID
+PRUint32
+aSIDs
 nsPresContext
 *
 aContext
@@ -139,9 +137,9 @@ nsStyleContext
 aStyleContext
 )
 :
-mSID
+mSIDs
 (
-aSID
+aSIDs
 )
 mPresContext
 (
