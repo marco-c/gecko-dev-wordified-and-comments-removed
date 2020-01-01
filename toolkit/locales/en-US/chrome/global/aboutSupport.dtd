@@ -213,6 +213,17 @@ Configuration
 ENTITY
 aboutSupport
 .
+appBasicsUserAgent
+"
+User
+Agent
+"
+>
+<
+!
+ENTITY
+aboutSupport
+.
 show
 .
 label
