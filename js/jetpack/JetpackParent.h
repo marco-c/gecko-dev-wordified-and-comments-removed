@@ -89,6 +89,13 @@ JetpackParent
 (
 )
 ;
+void
+OnChannelConnected
+(
+int32
+pid
+)
+;
 protected
 :
 NS_OVERRIDE

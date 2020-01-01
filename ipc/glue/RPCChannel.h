@@ -185,6 +185,16 @@ aReply
 ;
 virtual
 void
+OnChannelConnected
+(
+int32
+peer_pid
+)
+{
+}
+;
+virtual
+void
 OnEnteredCxxStack
 (
 )
