@@ -1834,7 +1834,9 @@ request
 >
 NotifyMessageDeleted
 (
+&
 mDeleted
+1
 )
 ;
 return
