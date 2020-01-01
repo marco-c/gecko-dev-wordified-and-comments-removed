@@ -242,6 +242,17 @@ Destroy
 )
 ;
 virtual
+ShadowLayerManager
+*
+AsShadowManager
+(
+)
+{
+return
+this
+;
+}
+virtual
 void
 BeginTransaction
 (
