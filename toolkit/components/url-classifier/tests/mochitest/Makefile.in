@@ -126,6 +126,16 @@ css
 (
 NULL
 )
+MOCHITEST_CHROME_FILES
+=
+\
+test_lookup_system_principal
+.
+html
+\
+(
+NULL
+)
 include
 (
 topsrcdir
