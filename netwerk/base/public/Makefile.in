@@ -647,6 +647,10 @@ nsISocketTransportService
 .
 idl
 \
+nsISpeculativeConnect
+.
+idl
+\
 nsIServerSocket
 .
 idl
