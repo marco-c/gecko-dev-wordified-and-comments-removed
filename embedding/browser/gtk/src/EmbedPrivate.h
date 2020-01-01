@@ -400,7 +400,7 @@ nsCOMPtr
 <
 nsPIDOMEventTarget
 >
-mEventReceiver
+mEventTarget
 ;
 nsString
 mURI
