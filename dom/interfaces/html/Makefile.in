@@ -276,14 +276,6 @@ nsIDOMHTMLPreElement
 .
 idl
 \
-nsIDOMHTMLPropertiesCollection
-.
-idl
-\
-nsIDOMPropertyNodeList
-.
-idl
-\
 nsIDOMHTMLProgressElement
 .
 idl

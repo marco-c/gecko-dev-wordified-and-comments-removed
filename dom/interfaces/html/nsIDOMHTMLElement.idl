@@ -108,9 +108,6 @@ idl
 interface
 nsIDOMHTMLMenuElement
 ;
-interface
-nsIDOMHTMLPropertiesCollection
-;
 /
 *
 *
@@ -281,7 +278,7 @@ itemId
 ;
 readonly
 attribute
-nsIDOMHTMLPropertiesCollection
+nsISupports
 properties
 ;
 /

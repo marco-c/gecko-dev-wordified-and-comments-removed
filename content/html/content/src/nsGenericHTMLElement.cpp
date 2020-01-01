@@ -19704,7 +19704,7 @@ nsGenericHTMLElement
 :
 GetProperties
 (
-nsIDOMHTMLPropertiesCollection
+nsISupports
 *
 *
 aProperties
@@ -19715,8 +19715,15 @@ NS_ADDREF
 *
 aProperties
 =
+static_cast
+<
+nsIHTMLCollection
+*
+>
+(
 Properties
 (
+)
 )
 )
 ;

@@ -91,6 +91,10 @@ FAIL_ON_WARNINGS
 EXPORTS
 =
 \
+HTMLPropertiesCollection
+.
+h
+\
 nsGenericHTMLElement
 .
 h
