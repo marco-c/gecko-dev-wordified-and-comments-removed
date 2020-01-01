@@ -455,6 +455,14 @@ red
 .
 png
 \
+test_bug466586
+.
+html
+\
+big
+.
+png
+\
 (
 NULL
 )
