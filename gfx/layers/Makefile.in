@@ -524,6 +524,10 @@ BasicLayers
 .
 cpp
 \
+BasicTiledThebesLayer
+.
+cpp
+\
 Layers
 .
 cpp
