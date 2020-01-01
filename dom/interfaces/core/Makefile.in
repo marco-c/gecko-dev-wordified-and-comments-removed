@@ -506,10 +506,6 @@ nsIDOMNSEditableElement
 .
 idl
 \
-nsIDOMNSElement
-.
-idl
-\
 nsIDOMNodeSelector
 .
 idl

@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsIDOMNSElement
-.
-h
-"
-#
-include
-"
 nsIDOMNode
 .
 h
