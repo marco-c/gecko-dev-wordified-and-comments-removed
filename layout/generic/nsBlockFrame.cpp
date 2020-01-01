@@ -2866,6 +2866,15 @@ nsCSSAnonBoxes
 :
 :
 mozAnonymousPositionedBlock
+&
+&
+pseudoType
+!
+=
+nsCSSAnonBoxes
+:
+:
+cellContent
 ;
 }
 PRBool
