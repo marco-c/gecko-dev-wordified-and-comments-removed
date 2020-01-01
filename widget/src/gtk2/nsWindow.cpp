@@ -8275,6 +8275,14 @@ willPaintEvent
 status
 )
 ;
+if
+(
+!
+mGdkWindow
+)
+return
+TRUE
+;
 }
 nsPaintEvent
 event
