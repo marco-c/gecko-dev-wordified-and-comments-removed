@@ -584,7 +584,7 @@ Components
 interfaces
 ;
 function
-onload
+doTest
 (
 )
 {
@@ -663,6 +663,13 @@ invoke
 )
 ;
 }
+gOpenerWnd
+.
+addA11yLoadEvent
+(
+doTest
+)
+;
 ]
 ]
 >
