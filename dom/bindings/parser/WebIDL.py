@@ -883,6 +883,17 @@ return
 False
     
 def
+isDictionary
+(
+self
+)
+:
+        
+return
+False
+;
+    
+def
 getUserData
 (
 self
@@ -3493,6 +3504,17 @@ self
 identifier
 .
 name
+    
+def
+isDictionary
+(
+self
+)
+:
+        
+return
+True
+;
     
 def
 finish
