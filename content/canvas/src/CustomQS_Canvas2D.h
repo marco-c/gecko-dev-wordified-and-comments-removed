@@ -239,16 +239,6 @@ return
 JS_FALSE
 ;
 }
-nsString
-voidStr
-;
-voidStr
-.
-SetIsVoid
-(
-true
-)
-;
 rv
 =
 (
@@ -259,7 +249,9 @@ self
 setfunc
 )
 (
-voidStr
+NullString
+(
+)
 arg0
 )
 ;

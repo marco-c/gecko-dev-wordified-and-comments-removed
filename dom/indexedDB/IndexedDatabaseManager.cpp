@@ -3401,16 +3401,6 @@ rv
 rv
 )
 ;
-nsString
-voidString
-;
-voidString
-.
-SetIsVoid
-(
-true
-)
-;
 nsCOMPtr
 <
 mozIStorageConnection
@@ -3424,7 +3414,9 @@ OpenDatabaseHelper
 :
 CreateDatabaseConnection
 (
-voidString
+NullString
+(
+)
 file
 fileManagerDirectory
 getter_AddRefs

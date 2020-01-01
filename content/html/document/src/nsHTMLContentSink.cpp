@@ -9780,16 +9780,6 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-nsAutoString
-voidString
-;
-voidString
-.
-SetIsVoid
-(
-true
-)
-;
 rv
 =
 NS_NewDOMDocumentType
@@ -9807,7 +9797,9 @@ NodeInfoManager
 nameAtom
 publicId
 systemId
-voidString
+NullString
+(
+)
 )
 ;
 NS_ENSURE_SUCCESS
