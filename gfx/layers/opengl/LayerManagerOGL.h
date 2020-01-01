@@ -1333,7 +1333,7 @@ endif
 const
 nsIntSize
 &
-GetWigetSize
+GetWidgetSize
 (
 )
 {
