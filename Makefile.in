@@ -685,6 +685,7 @@ call
 BUILDSTATUS
 TIERS
 export
+compile
 libs
 tools
 )

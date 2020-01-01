@@ -4188,6 +4188,10 @@ export
 (
 MAKE
 )
+compile
+(
+MAKE
+)
 libs
 (
 MAKE
@@ -4410,6 +4414,15 @@ endif
 #
 #
 #
+compile
+:
+:
+(
+OBJS
+)
+(
+HOST_OBJS
+)
 include
 (
 topsrcdir

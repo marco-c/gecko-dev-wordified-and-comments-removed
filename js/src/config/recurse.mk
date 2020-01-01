@@ -122,6 +122,7 @@ handling
 #
 ifdef
 TIERS
+compile
 libs
 export
 tools
@@ -160,6 +161,7 @@ if
 filter
 -
 out
+compile_precompile
 libs_precompile
 tools_precompile
 _
@@ -352,6 +354,7 @@ endef
 foreach
 subtier
 export
+compile
 libs
 tools
 (
@@ -365,6 +368,7 @@ subtier
 )
 )
 )
+compile
 export
 :
 :
