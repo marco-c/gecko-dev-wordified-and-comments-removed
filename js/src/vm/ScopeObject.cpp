@@ -7606,10 +7606,6 @@ ObjectValue
 (
 *
 enclosing
-.
-value
-(
-)
 )
 )
 ;

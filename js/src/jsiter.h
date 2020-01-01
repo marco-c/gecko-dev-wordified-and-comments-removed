@@ -698,7 +698,7 @@ ok
 &
 iterv
 .
-reference
+get
 (
 )
 .
@@ -758,7 +758,7 @@ ok
 !
 currentValue
 .
-reference
+get
 (
 )
 .
@@ -788,7 +788,7 @@ closed
 return
 currentValue
 .
-reference
+get
 (
 )
 ;

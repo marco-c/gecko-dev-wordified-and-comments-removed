@@ -2978,10 +2978,6 @@ relookupOrAdd
 (
 p
 env
-.
-value
-(
-)
 envobj
 )
 )
@@ -9829,7 +9825,7 @@ Debugger
 cx
 obj
 .
-reference
+get
 (
 )
 )
@@ -17336,7 +17332,7 @@ JS_DATA_TO_FUNC_PTR
 PropertyOp
 getobj
 .
-reference
+get
 (
 )
 )

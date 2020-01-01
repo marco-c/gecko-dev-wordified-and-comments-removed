@@ -3730,7 +3730,7 @@ resolved
 ?
 aObj
 .
-value
+get
 (
 )
 :

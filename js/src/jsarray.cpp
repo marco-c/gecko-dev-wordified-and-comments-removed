@@ -457,7 +457,7 @@ if
 (
 value
 .
-reference
+get
 (
 )
 .
@@ -473,7 +473,7 @@ uint32_t
 (
 value
 .
-reference
+get
 (
 )
 .
@@ -10141,7 +10141,7 @@ fval
 =
 fvalRoot
 .
-reference
+get
 (
 )
 ;
