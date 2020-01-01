@@ -52,8 +52,6 @@ os
 import
 shutil
 import
-string
-import
 subprocess
 import
 sys
@@ -342,10 +340,6 @@ d
 in
 directories
 :
-    
-dirtocreate
-=
-dest
     
 subdirs
 mochitests
