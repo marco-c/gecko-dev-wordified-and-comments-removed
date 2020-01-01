@@ -156,6 +156,9 @@ in
 writeReporter
 .
 py
+failures
+.
+txt
 html
 .
 json
