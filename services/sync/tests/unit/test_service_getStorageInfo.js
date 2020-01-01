@@ -9,9 +9,9 @@ resource
 /
 services
 -
-sync
+common
 /
-service
+rest
 .
 js
 "
@@ -30,7 +30,7 @@ services
 -
 sync
 /
-rest
+service
 .
 js
 "

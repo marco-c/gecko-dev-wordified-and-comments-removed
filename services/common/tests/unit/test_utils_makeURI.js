@@ -23,9 +23,9 @@ resource
 /
 services
 -
-sync
+common
 /
-util
+utils
 .
 js
 "
@@ -71,7 +71,7 @@ com
 ;
 do_check_eq
 (
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -100,7 +100,7 @@ com
 ;
 do_check_eq
 (
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -128,7 +128,7 @@ path
 ;
 do_check_eq
 (
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -158,7 +158,7 @@ path
 ;
 do_check_eq
 (
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -187,7 +187,7 @@ query
 ;
 do_check_eq
 (
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -216,7 +216,7 @@ hash
 ;
 do_check_eq
 (
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -252,7 +252,7 @@ com
 ;
 do_check_eq
 (
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -281,7 +281,7 @@ com
 ;
 do_check_eq
 (
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -309,7 +309,7 @@ path
 ;
 do_check_eq
 (
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -339,7 +339,7 @@ path
 ;
 do_check_eq
 (
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -368,7 +368,7 @@ query
 ;
 do_check_eq
 (
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -397,7 +397,7 @@ hash
 ;
 do_check_eq
 (
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -436,7 +436,7 @@ xul
 ;
 do_check_eq
 (
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -466,7 +466,7 @@ css
 ;
 do_check_eq
 (
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -496,7 +496,7 @@ dtd
 ;
 do_check_eq
 (
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -527,7 +527,7 @@ weave
 ;
 do_check_eq
 (
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -550,7 +550,7 @@ weave
 ;
 do_check_eq
 (
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -574,7 +574,7 @@ path
 ;
 do_check_eq
 (
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -600,7 +600,7 @@ path
 ;
 do_check_eq
 (
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -625,7 +625,7 @@ query
 ;
 do_check_eq
 (
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -650,7 +650,7 @@ hash
 ;
 do_check_eq
 (
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -673,7 +673,7 @@ undefined
 ;
 do_check_eq
 (
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -688,7 +688,7 @@ undefined
 ;
 do_check_eq
 (
-Utils
+CommonUtils
 .
 makeURI
 (
@@ -705,7 +705,7 @@ undefined
 ;
 do_check_eq
 (
-Utils
+CommonUtils
 .
 makeURI
 (

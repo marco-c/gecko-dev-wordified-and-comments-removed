@@ -28,11 +28,9 @@ resource
 /
 services
 -
-sync
+common
 /
-ext
-/
-Observers
+observers
 .
 js
 "

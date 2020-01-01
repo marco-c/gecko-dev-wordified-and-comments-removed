@@ -9,9 +9,9 @@ resource
 /
 services
 -
-sync
+common
 /
-util
+utils
 .
 js
 "
@@ -36,7 +36,7 @@ test_required_args
 {
 try
 {
-Utils
+CommonUtils
 .
 namedTimer
 (
@@ -98,7 +98,7 @@ Test
 basic
 properties
 of
-Utils
+CommonUtils
 .
 namedTimer
 .
@@ -125,7 +125,7 @@ now
 (
 )
 ;
-Utils
+CommonUtils
 .
 namedTimer
 (
@@ -254,7 +254,7 @@ run_next_test
 )
 ;
 }
-Utils
+CommonUtils
 .
 namedTimer
 (
@@ -266,7 +266,7 @@ _zetimer
 "
 )
 ;
-Utils
+CommonUtils
 .
 namedTimer
 (
@@ -322,7 +322,7 @@ that
 {
 }
 ;
-Utils
+CommonUtils
 .
 namedTimer
 (
@@ -367,7 +367,7 @@ _zetimer
 null
 )
 ;
-Utils
+CommonUtils
 .
 nextTick
 (

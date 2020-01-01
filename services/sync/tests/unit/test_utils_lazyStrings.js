@@ -9,9 +9,9 @@ resource
 /
 services
 -
-sync
+common
 /
-util
+stringbundle
 .
 js
 "
@@ -30,9 +30,7 @@ services
 -
 sync
 /
-ext
-/
-StringBundle
+util
 .
 js
 "

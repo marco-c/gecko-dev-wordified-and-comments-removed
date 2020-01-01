@@ -411,6 +411,7 @@ MOZ_SERVICES_SYNC
 PARALLEL_DIRS
 +
 =
+common
 crypto
 sync
 endif

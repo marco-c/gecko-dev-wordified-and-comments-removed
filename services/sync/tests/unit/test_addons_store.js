@@ -35,11 +35,9 @@ resource
 /
 services
 -
-sync
+common
 /
-ext
-/
-Preferences
+preferences
 .
 js
 "

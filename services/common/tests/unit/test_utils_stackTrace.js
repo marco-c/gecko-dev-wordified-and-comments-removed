@@ -80,9 +80,9 @@ resource
 /
 services
 -
-sync
+common
 /
-util
+utils
 .
 js
 "
@@ -131,7 +131,7 @@ ex
 {
 trace
 =
-Utils
+CommonUtils
 .
 stackTrace
 (
@@ -172,7 +172,7 @@ test_utils_stackTrace
 .
 js
 :
-4
+7
 "
 )
 ;
@@ -192,7 +192,7 @@ test_utils_stackTrace
 .
 js
 :
-3
+6
 "
 )
 ;
@@ -212,7 +212,7 @@ test_utils_stackTrace
 .
 js
 :
-2
+5
 "
 )
 ;

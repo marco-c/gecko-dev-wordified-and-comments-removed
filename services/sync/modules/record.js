@@ -132,7 +132,7 @@ resource
 /
 services
 -
-sync
+common
 /
 log4moz
 .

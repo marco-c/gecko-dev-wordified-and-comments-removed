@@ -464,7 +464,7 @@ resource
 /
 services
 -
-sync
+common
 /
 rest
 .
