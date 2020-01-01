@@ -146,6 +146,10 @@ browser_privatebrowsing_downloadLastDir_c
 .
 js
 \
+browser_privatebrowsing_downloadLastDir_toggle
+.
+js
+\
 browser_privatebrowsing_fastswitch
 .
 js
