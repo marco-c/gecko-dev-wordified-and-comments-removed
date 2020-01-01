@@ -520,6 +520,10 @@ test_bug_429247
 .
 xul
 \
+utils
+.
+js
+\
 (
 NULL
 )
