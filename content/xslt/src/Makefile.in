@@ -424,13 +424,6 @@ base
 xml
 xpath
 xslt
-ifdef
-MOZ_XSLT_STANDALONE
-PARALLEL_DIRS
-+
-=
-main
-endif
 include
 (
 topsrcdir

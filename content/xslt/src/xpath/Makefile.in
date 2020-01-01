@@ -556,11 +556,7 @@ cpp
 txXPathOptimizer
 .
 cpp
-ifndef
-MOZ_XSLT_STANDALONE
-CPPSRCS
-+
-=
+\
 nsXPathEvaluator
 .
 cpp
@@ -588,14 +584,6 @@ cpp
 txXPCOMExtensionFunction
 .
 cpp
-else
-CPPSRCS
-+
-=
-txStandaloneXPathTreeWalker
-.
-cpp
-endif
 #
 we
 don
