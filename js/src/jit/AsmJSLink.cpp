@@ -2145,10 +2145,11 @@ JS_CPU_ARM
 if
 (
 !
-func
+module
 .
-code
+entryTrampoline
 (
+func
 )
 (
 coercedArgs
@@ -2171,10 +2172,11 @@ else
 if
 (
 !
-func
+module
 .
-code
+entryTrampoline
 (
+func
 )
 (
 coercedArgs
