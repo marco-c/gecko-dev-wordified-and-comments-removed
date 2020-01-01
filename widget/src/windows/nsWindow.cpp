@@ -7606,8 +7606,9 @@ hWnd
 ;
 if
 (
-!
-mIsTopWidgetWindow
+GetParent
+(
+)
 )
 return
 ;
