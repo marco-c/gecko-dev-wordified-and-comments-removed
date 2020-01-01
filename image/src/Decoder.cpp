@@ -613,7 +613,7 @@ endif
 mObserver
 -
 >
-OnDataAvailable
+FrameChanged
 (
 &
 mInvalidRect
