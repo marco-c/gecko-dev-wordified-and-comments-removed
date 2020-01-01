@@ -612,12 +612,17 @@ test_invalid8
 "
 test_invalid8
 }
+#
+ifndef
+DEBUG
 {
 "
 test_malformed8
 "
 test_malformed8
 }
+#
+endif
 {
 nsnull
 nsnull
