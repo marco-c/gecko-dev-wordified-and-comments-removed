@@ -1141,7 +1141,7 @@ JSString
 *
 s
 =
-js_ValueToString
+ToStringSlow
 (
 cx
 IdToValue

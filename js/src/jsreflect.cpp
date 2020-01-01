@@ -16099,7 +16099,7 @@ JSString
 *
 src
 =
-js_ValueToString
+ToString
 (
 cx
 JS_ARGV
@@ -16312,7 +16312,7 @@ JSString
 *
 str
 =
-js_ValueToString
+ToString
 (
 cx
 prop

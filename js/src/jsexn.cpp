@@ -3539,7 +3539,7 @@ isUndefined
 {
 message
 =
-js_ValueToString
+ToString
 (
 cx
 args
@@ -3623,7 +3623,7 @@ length
 {
 filename
 =
-js_ValueToString
+ToString
 (
 cx
 args
@@ -3941,7 +3941,7 @@ else
 {
 name
 =
-js_ValueToString
+ToString
 (
 cx
 nameVal
@@ -4011,7 +4011,7 @@ else
 {
 message
 =
-js_ValueToString
+ToString
 (
 cx
 msgVal
@@ -4268,7 +4268,7 @@ nameVal
 (
 name
 =
-js_ValueToString
+ToString
 (
 cx
 nameVal
@@ -4543,7 +4543,7 @@ JSString
 *
 linenumber
 =
-js_ValueToString
+ToString
 (
 cx
 linenoVal
@@ -5880,7 +5880,7 @@ exn
 ;
 str
 =
-js_ValueToString
+ToString
 (
 cx
 exn
@@ -5917,7 +5917,7 @@ roots
 1
 ]
 =
-STRING_TO_JSVAL
+StringValue
 (
 str
 )
@@ -6043,7 +6043,7 @@ false
 ;
 str
 =
-js_ValueToString
+ToString
 (
 cx
 roots

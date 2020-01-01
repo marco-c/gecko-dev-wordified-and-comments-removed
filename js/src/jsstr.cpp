@@ -2359,7 +2359,7 @@ JSString
 *
 str
 =
-js_ValueToString
+ToStringSlow
 (
 cx
 vp
@@ -3582,7 +3582,7 @@ JSString
 *
 thatStr
 =
-js_ValueToString
+ToString
 (
 cx
 vp
@@ -7493,7 +7493,7 @@ argc
 {
 opt
 =
-js_ValueToString
+ToString
 (
 cx
 vp
@@ -9534,7 +9534,7 @@ JSString
 *
 repstr
 =
-ValueToString_TestForStringInline
+ToString
 (
 cx
 args
@@ -11273,7 +11273,7 @@ JSString
 *
 repstr
 =
-js_ValueToString
+ToString
 (
 cx
 args
@@ -13115,7 +13115,7 @@ JSString
 *
 sep
 =
-js_ValueToString
+ToString
 (
 cx
 vp
@@ -13673,7 +13673,7 @@ JSString
 *
 str2
 =
-js_ValueToString
+ToString
 (
 cx
 argv
@@ -15391,7 +15391,7 @@ argc
 {
 str
 =
-js_ValueToString
+ToString
 (
 cx
 argv
@@ -17189,7 +17189,7 @@ asSource
 ?
 js_ValueToSource
 :
-js_ValueToString
+ToString
 )
 (
 cx
@@ -17234,7 +17234,10 @@ str
 }
 JSString
 *
-js_ValueToString
+js
+:
+:
+ToStringSlow
 (
 JSContext
 *
@@ -17245,6 +17248,16 @@ Value
 arg
 )
 {
+JS_ASSERT
+(
+!
+arg
+.
+isString
+(
+)
+)
+;
 Value
 v
 =
@@ -17664,7 +17677,7 @@ js_negzero_ucNstr
 ;
 }
 return
-js_ValueToString
+ToString
 (
 cx
 v
@@ -17745,7 +17758,7 @@ NULL
 ;
 }
 return
-js_ValueToString
+ToString
 (
 cx
 rval

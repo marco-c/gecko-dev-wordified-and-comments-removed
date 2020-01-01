@@ -5746,7 +5746,7 @@ else
 {
 lstr
 =
-js_ValueToString
+ToString
 (
 cx
 lval
@@ -5793,7 +5793,7 @@ else
 {
 rstr
 =
-js_ValueToString
+ToString
 (
 cx
 rval

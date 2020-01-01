@@ -1512,7 +1512,7 @@ W
 :
 str
 =
-js_ValueToString
+ToString
 (
 cx
 *
@@ -2142,7 +2142,7 @@ JSTYPE_STRING
 :
 str
 =
-js_ValueToString
+ToString
 (
 cx
 v
@@ -2393,7 +2393,7 @@ v
 )
 ;
 return
-js_ValueToString
+ToString
 (
 cx
 v

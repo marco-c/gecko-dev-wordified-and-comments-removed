@@ -254,7 +254,7 @@ JSString
 *
 str
 =
-js_ValueToString
+ToString
 (
 cx
 vp
@@ -1879,7 +1879,7 @@ JSString
 *
 str
 =
-js_ValueToString
+ToStringSlow
 (
 cx
 *
@@ -3353,7 +3353,7 @@ JSString
 *
 str
 =
-js_ValueToString
+ToStringSlow
 (
 cx
 space

@@ -2519,7 +2519,7 @@ JSString
 *
 s
 =
-js_ValueToString
+ToString
 (
 cx
 IdToValue
@@ -12619,15 +12619,12 @@ JSString
 *
 str
 =
-js_ValueToString
+js_IntToString
 (
 cx
-Int32Value
-(
 JSID_TO_INT
 (
 id
-)
 )
 )
 ;

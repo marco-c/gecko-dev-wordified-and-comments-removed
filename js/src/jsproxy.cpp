@@ -2094,7 +2094,7 @@ JSString
 *
 str
 =
-js_ValueToString
+ToString
 (
 cx
 IdToValue
@@ -2156,7 +2156,7 @@ JSString
 *
 str
 =
-js_ValueToString
+ToString
 (
 cx
 IdToValue
@@ -3819,7 +3819,7 @@ JSString
 *
 str
 =
-js_ValueToString
+ToString
 (
 cx
 IdToValue
@@ -3969,7 +3969,7 @@ JSString
 *
 str
 =
-js_ValueToString
+ToString
 (
 cx
 IdToValue
