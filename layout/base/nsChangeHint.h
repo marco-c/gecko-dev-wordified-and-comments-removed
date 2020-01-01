@@ -38,9 +38,12 @@ nsChangeHint_UpdateCursor
 nsChangeHint_UpdateEffects
 =
 0x80
-nsChangeHint_ReconstructFrame
+nsChangeHint_UpdateOpacityLayer
 =
 0x100
+nsChangeHint_ReconstructFrame
+=
+0x200
 }
 ;
 inline

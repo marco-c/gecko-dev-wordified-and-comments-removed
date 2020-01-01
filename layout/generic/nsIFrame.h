@@ -3656,6 +3656,17 @@ aDamageRect
 )
 ;
 }
+void
+InvalidateLayer
+(
+const
+nsRect
+&
+aDamageRect
+PRUint32
+aDisplayItemKey
+)
+;
 enum
 {
 INVALIDATE_IMMEDIATE

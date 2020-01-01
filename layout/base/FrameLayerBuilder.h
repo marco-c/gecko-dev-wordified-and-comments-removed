@@ -210,6 +210,17 @@ aManager
 )
 ;
 static
+PRBool
+HasDedicatedLayer
+(
+nsIFrame
+*
+aFrame
+PRUint32
+aDisplayItemKey
+)
+;
+static
 void
 DrawThebesLayer
 (
