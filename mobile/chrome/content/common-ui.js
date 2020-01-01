@@ -3020,15 +3020,6 @@ browser
 )
 return
 ;
-Browser
-.
-keySender
-.
-handleEvent
-(
-aEvent
-)
-;
 break
 ;
 case
