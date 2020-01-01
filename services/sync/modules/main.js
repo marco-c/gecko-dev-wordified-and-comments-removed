@@ -204,6 +204,17 @@ ID
 "
 ]
 "
+jpakeclient
+.
+js
+"
+:
+[
+"
+JPAKEClient
+"
+]
+"
 notifications
 .
 js
