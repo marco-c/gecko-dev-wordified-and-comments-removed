@@ -767,6 +767,13 @@ BINPATH
 /
 components
 /
+dom_mobilemessage
+.
+xpt
+BINPATH
+/
+components
+/
 dom_sms
 .
 xpt

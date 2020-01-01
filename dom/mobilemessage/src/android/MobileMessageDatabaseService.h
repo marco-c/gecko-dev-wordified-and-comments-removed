@@ -1,13 +1,13 @@
 #
 ifndef
-mozilla_dom_sms_MobileMessageDatabaseService_h
+mozilla_dom_mobilemessage_MobileMessageDatabaseService_h
 #
 define
-mozilla_dom_sms_MobileMessageDatabaseService_h
+mozilla_dom_mobilemessage_MobileMessageDatabaseService_h
 #
 include
 "
-nsISmsDatabaseService
+nsIMobileMessageDatabaseService
 .
 h
 "
@@ -27,7 +27,7 @@ namespace
 dom
 {
 namespace
-sms
+mobilemessage
 {
 class
 MobileMessageDatabaseService

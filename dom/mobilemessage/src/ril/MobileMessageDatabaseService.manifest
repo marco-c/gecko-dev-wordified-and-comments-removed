@@ -10,7 +10,7 @@ component
 -
 3b280170b2ec
 }
-SmsDatabaseService
+MobileMessageDatabaseService
 .
 js
 contract

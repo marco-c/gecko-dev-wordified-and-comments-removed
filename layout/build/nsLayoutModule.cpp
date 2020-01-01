@@ -1268,7 +1268,7 @@ h
 #
 include
 "
-nsISmsDatabaseService
+nsIMobileMessageDatabaseService
 .
 h
 "
