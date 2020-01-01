@@ -2974,6 +2974,12 @@ context
 log_manager
 )
         
+self
+.
+_mach_context
+=
+context
+        
 try
 :
             

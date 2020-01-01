@@ -419,6 +419,14 @@ py
 '
 testing
 /
+mach_commands
+.
+py
+'
+    
+'
+testing
+/
 marionette
 /
 mach_commands
