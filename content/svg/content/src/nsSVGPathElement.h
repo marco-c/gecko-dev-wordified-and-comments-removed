@@ -131,6 +131,13 @@ const
 ;
 virtual
 bool
+HasValidDimensions
+(
+)
+const
+;
+virtual
+bool
 AttributeDefinesGeometry
 (
 const

@@ -18,6 +18,9 @@ gfxMatrix
 .
 h
 "
+class
+nsRenderingContext
+;
 typedef
 nsSVGContainerFrame
 nsSVGClipPathFrameBase
@@ -66,7 +69,7 @@ NS_DECL_FRAMEARENA_HELPERS
 nsresult
 ClipPaint
 (
-nsSVGRenderState
+nsRenderingContext
 *
 aContext
 nsIFrame

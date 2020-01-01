@@ -26,6 +26,9 @@ gfxMatrix
 .
 h
 "
+class
+nsRenderingContext
+;
 typedef
 nsSVGGFrame
 nsSVGSwitchFrameBase
@@ -124,7 +127,7 @@ endif
 NS_IMETHOD
 PaintSVG
 (
-nsSVGRenderState
+nsRenderingContext
 *
 aContext
 const
@@ -302,7 +305,7 @@ nsSVGSwitchFrame
 :
 PaintSVG
 (
-nsSVGRenderState
+nsRenderingContext
 *
 aContext
 const

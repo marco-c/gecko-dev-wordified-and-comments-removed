@@ -244,10 +244,6 @@ active
 (
 false
 )
-hasDebugModeCodeToDrop
-(
-false
-)
 #
 ifdef
 JS_METHODJIT
@@ -1959,7 +1955,7 @@ begin
 (
 )
 ;
-jsint
+int
 length
 =
 props
@@ -3263,7 +3259,6 @@ if
 (
 enabled
 )
-{
 JS_ASSERT
 (
 !
@@ -3272,7 +3267,6 @@ hasScriptsOnStack
 )
 )
 ;
-}
 else
 if
 (
@@ -3280,14 +3274,8 @@ hasScriptsOnStack
 (
 )
 )
-{
-hasDebugModeCodeToDrop
-=
-true
-;
 return
 ;
-}
 for
 (
 gc
@@ -3366,10 +3354,6 @@ enabled
 ;
 }
 }
-hasDebugModeCodeToDrop
-=
-false
-;
 #
 endif
 }

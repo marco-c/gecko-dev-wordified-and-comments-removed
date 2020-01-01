@@ -703,6 +703,10 @@ MapLongVariableNames
 .
 cpp
 \
+spooky
+.
+cpp
+\
 BuiltInFunctionEmulator
 .
 cpp

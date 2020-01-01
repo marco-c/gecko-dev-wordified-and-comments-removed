@@ -288,7 +288,7 @@ DtoaCache
 double
 d
 ;
-jsint
+int
 base
 ;
 JSFixedString
@@ -321,7 +321,7 @@ JSFixedString
 *
 lookup
 (
-jsint
+int
 base
 double
 d
@@ -362,7 +362,7 @@ NULL
 void
 cache
 (
-jsint
+int
 base
 double
 d
@@ -684,9 +684,6 @@ data
 ;
 bool
 active
-;
-bool
-hasDebugModeCodeToDrop
 ;
 js
 :

@@ -2017,6 +2017,9 @@ bool
 mInPrivateBrowsing
 ;
 bool
+mIsBrowserFrame
+;
+bool
 mFiredUnloadEvent
 ;
 bool

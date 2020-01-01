@@ -2824,7 +2824,7 @@ chars
 '
 )
 {
-jsint
+int
 i
 =
 (

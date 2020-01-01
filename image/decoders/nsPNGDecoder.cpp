@@ -2107,7 +2107,7 @@ bit_depth
 =
 16
 )
-png_set_strip_16
+png_set_scale_16
 (
 png_ptr
 )

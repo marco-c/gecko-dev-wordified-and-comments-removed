@@ -204,6 +204,13 @@ GetClassInfo
 )
 ;
 virtual
+bool
+HasValidDimensions
+(
+)
+const
+;
+virtual
 mozilla
 :
 :

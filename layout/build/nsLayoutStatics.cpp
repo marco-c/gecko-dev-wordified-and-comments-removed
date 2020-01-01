@@ -527,7 +527,7 @@ h
 #
 include
 "
-nsDOMMemoryReporter
+nsWindowMemoryReporter
 .
 h
 "
@@ -1185,7 +1185,7 @@ NS_SealStaticAtomTable
 (
 )
 ;
-nsDOMMemoryMultiReporter
+nsWindowMemoryReporter
 :
 :
 Init

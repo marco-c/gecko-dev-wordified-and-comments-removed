@@ -34,13 +34,6 @@ nsTraceRefcnt
 .
 h
 "
-#
-include
-"
-nsDOMMemoryReporter
-.
-h
-"
 class
 nsString
 ;

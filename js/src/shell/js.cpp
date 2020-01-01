@@ -3953,13 +3953,6 @@ return
 false
 ;
 }
-JS_SET_RVAL
-(
-cx
-vp
-JSVAL_VOID
-)
-;
 return
 JS_EvaluateUCScript
 (
@@ -3971,7 +3964,7 @@ codeLength
 evaluate
 "
 0
-NULL
+vp
 )
 ;
 }
@@ -9229,7 +9222,7 @@ op
 ptrdiff_t
 jmplen
 ;
-jsint
+int32_t
 low
 high
 n

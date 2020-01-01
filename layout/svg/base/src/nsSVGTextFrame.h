@@ -25,6 +25,9 @@ gfxMatrix
 .
 h
 "
+class
+nsRenderingContext
+;
 typedef
 nsSVGTextContainerFrame
 nsSVGTextFrameBase
@@ -153,7 +156,7 @@ NotifyRedrawUnsuspended
 NS_IMETHOD
 PaintSVG
 (
-nsSVGRenderState
+nsRenderingContext
 *
 aContext
 const

@@ -54,6 +54,9 @@ nsTextFragment
 h
 "
 class
+nsRenderingContext
+;
+class
 nsSVGTextFrame
 ;
 class
@@ -500,7 +503,7 @@ endif
 NS_IMETHOD
 PaintSVG
 (
-nsSVGRenderState
+nsRenderingContext
 *
 aContext
 const

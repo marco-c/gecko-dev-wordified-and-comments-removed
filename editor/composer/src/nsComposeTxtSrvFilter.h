@@ -66,12 +66,6 @@ nsCOMPtr
 <
 nsIAtom
 >
-mPreAtom
-;
-nsCOMPtr
-<
-nsIAtom
->
 mSpanAtom
 ;
 nsCOMPtr

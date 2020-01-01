@@ -726,9 +726,6 @@ bool
 mAtFirstColumn
 ;
 bool
-mQuotesPreformatted
-;
-bool
 mDontWrapAnyQuotes
 ;
 bool

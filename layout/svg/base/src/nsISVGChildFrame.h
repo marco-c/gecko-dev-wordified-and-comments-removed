@@ -43,7 +43,7 @@ class
 gfxContext
 ;
 class
-nsSVGRenderState
+nsRenderingContext
 ;
 namespace
 mozilla
@@ -114,7 +114,7 @@ nsISVGChildFrame
 NS_IMETHOD
 PaintSVG
 (
-nsSVGRenderState
+nsRenderingContext
 *
 aContext
 const

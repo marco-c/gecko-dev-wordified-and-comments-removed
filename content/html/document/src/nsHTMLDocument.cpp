@@ -10,13 +10,6 @@ h
 #
 include
 "
-nsICharsetAlias
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -414,13 +407,6 @@ h
 include
 "
 nsISelectionPrivate
-.
-h
-"
-#
-include
-"
-nsICharsetAlias
 .
 h
 "

@@ -214,13 +214,6 @@ nsIBFCacheEntry
 .
 h
 "
-#
-include
-"
-nsDOMMemoryReporter
-.
-h
-"
 class
 nsIContent
 ;

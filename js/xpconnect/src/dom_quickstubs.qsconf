@@ -663,11 +663,6 @@ localStorage
 '
 nsIDOMWindow
 .
-globalStorage
-'
-'
-nsIDOMWindow
-.
 onmouseenter
 '
 '
@@ -2894,6 +2889,11 @@ nsDocument
 h
 '
 '
+nsDOMTokenList
+.
+h
+'
+'
 nsGenericDOMDataNode
 .
 h
@@ -4589,7 +4589,7 @@ code
 '
 :
 '
-nsIDOMDOMTokenList
+nsDOMTokenList
 *
 result
 =

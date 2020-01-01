@@ -523,7 +523,9 @@ TCF_FUN_LOCAL_ARGUMENTS
 /
 *
 function
-has
+may
+contain
+a
 local
 named
 arguments
@@ -2509,7 +2511,7 @@ tc
 JSAtom
 *
 atom
-jsint
+int
 *
 slotp
 StmtInfo

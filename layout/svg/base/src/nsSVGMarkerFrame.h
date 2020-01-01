@@ -22,6 +22,9 @@ class
 gfxContext
 ;
 class
+nsRenderingContext
+;
+class
 nsSVGPathGeometryFrame
 ;
 class
@@ -155,7 +158,7 @@ endif
 nsresult
 PaintMark
 (
-nsSVGRenderState
+nsRenderingContext
 *
 aContext
 nsSVGPathGeometryFrame

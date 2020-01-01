@@ -1910,7 +1910,7 @@ length
 =
 static_cast
 <
-jsint
+int
 >
 (
 len
@@ -1928,7 +1928,7 @@ begin
 ;
 for
 (
-jsint
+int
 i
 =
 0
@@ -6293,7 +6293,7 @@ JSString
 *
 str
 ;
-jsint
+int
 i
 ;
 if

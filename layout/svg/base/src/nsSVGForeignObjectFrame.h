@@ -49,6 +49,9 @@ Attributes
 h
 "
 class
+nsRenderingContext
+;
+class
 nsSVGOuterSVGFrame
 ;
 typedef
@@ -283,7 +286,7 @@ endif
 NS_IMETHOD
 PaintSVG
 (
-nsSVGRenderState
+nsRenderingContext
 *
 aContext
 const
