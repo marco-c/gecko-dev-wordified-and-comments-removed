@@ -1356,6 +1356,14 @@ scope
 )
 ;
 }
+if
+(
+!
+subject
+)
+return
+false
+;
 {
 JSAutoEnterCompartment
 ac
