@@ -711,6 +711,12 @@ createPattern
 in
 nsIDOMHTMLElement
 image
+[
+Null
+(
+Stringify
+)
+]
 in
 DOMString
 repetition
