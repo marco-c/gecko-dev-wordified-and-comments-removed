@@ -707,10 +707,6 @@ kernel32
 .
 lib
 \
-rpcndr
-.
-lib
-\
 rpcns4
 .
 lib
