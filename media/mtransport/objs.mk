@@ -689,10 +689,6 @@ nriceresolverfake
 .
 cpp
 \
-nriceresolver
-.
-cpp
-\
 nr_socket_prsock
 .
 cpp
