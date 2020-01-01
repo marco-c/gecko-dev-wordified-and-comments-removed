@@ -30276,7 +30276,11 @@ PR_FALSE
 ;
 nscoord
 cx
+=
+0
 cy
+=
+0
 ;
 if
 (
