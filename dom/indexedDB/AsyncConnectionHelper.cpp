@@ -213,7 +213,7 @@ NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 }
 for
 (
-uint32
+uint32_t
 index
 =
 0
