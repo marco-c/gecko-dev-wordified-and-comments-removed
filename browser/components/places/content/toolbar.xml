@@ -3726,7 +3726,6 @@ aNewParent
 =
 aOldParent
 )
-;
 return
 ;
 if
