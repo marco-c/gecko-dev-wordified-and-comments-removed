@@ -7,30 +7,18 @@ PACKAGE_VERSION
 '
 0
 .
-6
+21
 '
 deps
 =
 [
-'
-mozfile
->
-=
-0
-.
-3
-'
-        
-'
-mozlog
-'
 ]
 setup
 (
 name
 =
 '
-mozcrash
+moznetwork
 '
       
 version
@@ -41,17 +29,14 @@ description
 =
 "
 Library
+of
+network
+utilities
 for
-printing
-stack
-traces
-from
-minidumps
-left
-behind
-by
-crashed
-processes
+use
+in
+Mozilla
+testing
 "
       
 long_description
@@ -134,7 +119,7 @@ packages
 =
 [
 '
-mozcrash
+moznetwork
 '
 ]
       
