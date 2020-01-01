@@ -388,5 +388,10 @@ sChildProcessType
 }
 #
 endif
+void
+SetupErrorHandling
+(
+)
+;
 #
 endif
