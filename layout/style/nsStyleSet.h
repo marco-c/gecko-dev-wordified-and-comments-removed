@@ -541,15 +541,6 @@ GetPresContext
 ;
 }
 static
-PRBool
-IsNativeAnonymous
-(
-nsIContent
-*
-aContent
-)
-;
-static
 nsIURI
 *
 gQuirkURI

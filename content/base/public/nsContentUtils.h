@@ -2116,6 +2116,15 @@ PRBool
 aIsUserTriggered
 )
 ;
+static
+PRBool
+IsNativeAnonymous
+(
+nsIContent
+*
+aContent
+)
+;
 private
 :
 static
