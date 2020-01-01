@@ -416,9 +416,9 @@ wince
 )
 MOZ_APP_VERSION
 =
-0
+1
 .
-11
+0a1pre
 ;
 ;
 *
