@@ -56,6 +56,11 @@ expectedConsoleMessages
 [
 ]
 ;
+var
+expectLoggedMessages
+=
+null
+;
 try
 {
 const
@@ -321,6 +326,14 @@ root
 open
 =
 true
+;
+if
+(
+expectLoggedMessages
+)
+expectLoggedMessages
+(
+)
 ;
 checkResults
 (
