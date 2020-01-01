@@ -49,6 +49,15 @@ CallArgs
 h
 "
 #
+include
+"
+js
+/
+CallNonGenericMethod
+.
+h
+"
+#
 if
 JS_STACK_GROWTH_DIRECTION
 >

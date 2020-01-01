@@ -27,6 +27,15 @@ jsfriendapi
 .
 h
 "
+#
+include
+"
+js
+/
+CallNonGenericMethod
+.
+h
+"
 namespace
 js
 {
