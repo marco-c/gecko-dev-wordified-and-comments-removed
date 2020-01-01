@@ -303,9 +303,8 @@ dwFileVersionLS
 0xffff
 )
 ;
-GB_WSU_SAFE_SWPRINTF_TERMINATE
-(
 ver_string
+[
 sizeof
 (
 ver_string
@@ -318,7 +317,15 @@ ver_string
 0
 ]
 )
-)
+-
+1
+]
+=
+L
+'
+\
+0
+'
 ;
 *
 version

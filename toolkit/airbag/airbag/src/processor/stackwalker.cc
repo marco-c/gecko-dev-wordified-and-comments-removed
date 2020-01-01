@@ -463,6 +463,14 @@ SourceLineResolverInterface
 resolver
 )
 {
+if
+(
+!
+context
+)
+return
+NULL
+;
 Stackwalker
 *
 cpu_stackwalker
