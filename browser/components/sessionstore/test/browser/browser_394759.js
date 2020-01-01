@@ -811,6 +811,14 @@ window
 .
 gBrowser
 .
+addTab
+(
+)
+;
+window
+.
+gBrowser
+.
 removeEventListener
 (
 "
