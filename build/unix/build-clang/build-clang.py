@@ -1,7 +1,7 @@
 llvm_revision
 =
 "
-162360
+163716
 "
 moz_version
 =
@@ -1029,7 +1029,7 @@ inline
 .
 patch
 "
-0
+1
 compiler_rt_source_dir
 )
         
