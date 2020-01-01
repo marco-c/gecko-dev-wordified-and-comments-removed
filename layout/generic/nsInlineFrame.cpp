@@ -4780,6 +4780,7 @@ containingBlockWidth
 containingBlockHeight
 PR_TRUE
 PR_TRUE
+PR_TRUE
 &
 aDesiredSize
 .

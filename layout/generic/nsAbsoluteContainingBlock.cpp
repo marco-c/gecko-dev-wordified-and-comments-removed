@@ -482,6 +482,8 @@ aContainingBlockWidth
 nscoord
 aContainingBlockHeight
 PRBool
+aConstrainHeight
+PRBool
 aCBWidthChanged
 PRBool
 aCBHeightChanged
@@ -584,6 +586,7 @@ aPresContext
 aReflowState
 aContainingBlockWidth
 aContainingBlockHeight
+aConstrainHeight
 kidFrame
 kidStatus
 aChildBounds
@@ -1511,6 +1514,8 @@ nscoord
 aContainingBlockWidth
 nscoord
 aContainingBlockHeight
+PRBool
+aConstrainHeight
 nsIFrame
 *
 aKidFrame
@@ -1832,17 +1837,7 @@ NS_UNCONSTRAINEDSIZE
 )
 &
 &
-(
-nsGkAtoms
-:
-:
-fixedList
-!
-=
-GetChildListName
-(
-)
-)
+aConstrainHeight
 &
 &
 (
