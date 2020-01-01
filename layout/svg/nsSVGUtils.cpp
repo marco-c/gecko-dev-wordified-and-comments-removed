@@ -6974,7 +6974,9 @@ StyleSVGReset
 )
 -
 >
-mFilter
+SingleFilter
+(
+)
 )
 {
 return
