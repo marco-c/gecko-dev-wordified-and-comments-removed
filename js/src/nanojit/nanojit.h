@@ -1144,6 +1144,7 @@ LogControl
 {
 public
 :
+virtual
 void
 printf
 (
