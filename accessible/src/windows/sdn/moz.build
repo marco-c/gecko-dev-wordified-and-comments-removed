@@ -108,6 +108,11 @@ sdnAccessible
 cpp
 '
 '
+sdnDocAccessible
+.
+cpp
+'
+'
 sdnTextAccessible
 .
 cpp
