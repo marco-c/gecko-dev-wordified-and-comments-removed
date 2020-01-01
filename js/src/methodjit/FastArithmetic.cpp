@@ -5307,7 +5307,7 @@ Changes
 #
 endif
 }
-void
+bool
 mjit
 :
 :
@@ -5489,6 +5489,7 @@ wat
 )
 ;
 return
+false
 ;
 }
 if
@@ -6038,11 +6039,17 @@ dataReg
 )
 )
 ;
+if
+(
+!
 jumpInScript
 (
 fast
 target
 )
+)
+return
+false
 ;
 }
 else
@@ -6129,6 +6136,9 @@ label
 )
 )
 ;
+if
+(
+!
 jumpAndTrace
 (
 fast
@@ -6136,6 +6146,9 @@ target
 &
 stubBranch
 )
+)
+return
+false
 ;
 }
 else
@@ -6461,6 +6474,9 @@ Changes
 )
 ;
 }
+return
+true
+;
 }
 void
 mjit
@@ -7046,7 +7062,7 @@ DoubleLessThan
 ;
 }
 }
-void
+bool
 mjit
 :
 :
@@ -7293,6 +7309,9 @@ label
 )
 )
 ;
+if
+(
+!
 jumpAndTrace
 (
 j
@@ -7300,6 +7319,9 @@ target
 &
 sj
 )
+)
+return
+false
 ;
 }
 else
@@ -7467,8 +7489,11 @@ Changes
 )
 ;
 }
+return
+true
+;
 }
-void
+bool
 mjit
 :
 :
@@ -7528,6 +7553,7 @@ rhs
 ;
 #
 endif
+return
 emitStubCmpOp
 (
 stub
@@ -7536,7 +7562,7 @@ fused
 )
 ;
 }
-void
+bool
 mjit
 :
 :
@@ -8231,6 +8257,7 @@ op
 )
 ;
 return
+false
 ;
 }
 Jump
@@ -8394,6 +8421,9 @@ jump
 )
 ;
 }
+if
+(
+!
 jumpAndTrace
 (
 fast
@@ -8401,6 +8431,9 @@ target
 &
 j
 )
+)
+return
+false
 ;
 if
 (
@@ -8759,6 +8792,7 @@ op
 )
 ;
 return
+false
 ;
 }
 if
@@ -8973,4 +9007,7 @@ Changes
 )
 ;
 }
+return
+true
+;
 }

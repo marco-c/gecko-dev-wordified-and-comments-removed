@@ -1055,7 +1055,7 @@ L
 )
 ;
 }
-void
+bool
 StubCompiler
 :
 :
@@ -1077,6 +1077,7 @@ knownJump
 target
 )
 )
+{
 crossJump
 (
 j
@@ -1088,7 +1089,13 @@ target
 )
 )
 ;
+return
+true
+;
+}
 else
+{
+return
 scriptJoins
 .
 append
@@ -1100,4 +1107,5 @@ target
 )
 )
 ;
+}
 }
