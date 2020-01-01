@@ -95,6 +95,13 @@ jsutil
 .
 h
 "
+#
+include
+"
+jsarray
+.
+h
+"
 JS_BEGIN_EXTERN_C
 typedef
 struct
@@ -499,6 +506,7 @@ identity
 x
 )
 x
+typedef
 struct
 JSEvalCacheMeter
 {
@@ -509,6 +517,7 @@ identity
 )
 ;
 }
+JSEvalCacheMeter
 ;
 #
 undef
@@ -2278,6 +2287,10 @@ regExpStatics
 ;
 JSSharpObjectMap
 sharpObjectMap
+;
+JSHashTable
+*
+busyArrayTable
 ;
 JSArgumentFormatMap
 *

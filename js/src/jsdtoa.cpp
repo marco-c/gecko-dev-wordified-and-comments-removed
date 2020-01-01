@@ -43,7 +43,7 @@ h
 #
 include
 "
-jspubtd
+jsprvtd
 .
 h
 "
