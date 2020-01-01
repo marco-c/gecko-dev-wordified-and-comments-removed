@@ -76521,6 +76521,13 @@ var
 '
 "
 done
+if
+test
+"
+CROSS_COMPILE
+"
+;
+then
 ac_configure_args
 =
 "
@@ -76529,6 +76536,7 @@ je_cv_static_page_shift
 =
 12
 "
+fi
 _save_cache_file
 =
 "
