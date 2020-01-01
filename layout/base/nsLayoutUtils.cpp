@@ -15453,6 +15453,9 @@ nsGkAtoms
 :
 :
 textFrame
+#
+ifdef
+MOZ_SVG
 |
 |
 aFrame
@@ -15467,6 +15470,8 @@ nsGkAtoms
 :
 :
 svgGlyphFrame
+#
+endif
 "
 Wrong
 frame
