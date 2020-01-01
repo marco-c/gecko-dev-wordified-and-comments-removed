@@ -10235,7 +10235,7 @@ aPluginsChanged
 Telemetry
 :
 :
-Timer
+AutoTimer
 <
 Telemetry
 :
