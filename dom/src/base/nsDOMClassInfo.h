@@ -125,7 +125,7 @@ mScriptableFlags
 :
 31
 ;
-PRBool
+PRUint32
 mHasClassInterface
 :
 1
