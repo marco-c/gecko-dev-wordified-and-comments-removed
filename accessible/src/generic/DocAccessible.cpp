@@ -4311,6 +4311,9 @@ aContent
 if
 (
 accessible
+&
+&
+accessible
 -
 >
 IsProgress
