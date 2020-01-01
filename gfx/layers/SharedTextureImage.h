@@ -7,13 +7,6 @@ GFX_SHAREDTEXTUREIMAGE_H
 #
 include
 "
-GLContext
-.
-h
-"
-#
-include
-"
 GLContextProvider
 .
 h
