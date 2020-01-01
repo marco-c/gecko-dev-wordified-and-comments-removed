@@ -1093,14 +1093,6 @@ GetCoveredRegion
 (
 )
 ;
-nsSVGUtils
-:
-:
-UpdateFilterRegion
-(
-this
-)
-;
 return
 NS_OK
 ;

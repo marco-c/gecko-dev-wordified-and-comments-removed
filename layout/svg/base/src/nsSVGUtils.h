@@ -612,15 +612,6 @@ aRect
 ;
 static
 void
-UpdateFilterRegion
-(
-nsIFrame
-*
-aFrame
-)
-;
-static
-void
 UpdateGraphic
 (
 nsISVGChildFrame
