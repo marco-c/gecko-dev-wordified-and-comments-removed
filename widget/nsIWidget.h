@@ -776,6 +776,10 @@ mPrevSibling
 (
 nullptr
 )
+mNeedsPaint
+(
+false
+)
 {
 }
 NS_IMETHOD
@@ -2258,6 +2262,15 @@ return
 false
 ;
 }
+bool
+NeedsPaint
+(
+)
+{
+return
+true
+;
+}
 virtual
 nsIntRect
 GetNaturalBounds
@@ -2320,6 +2333,9 @@ mNextSibling
 nsIWidget
 *
 mPrevSibling
+;
+bool
+mNeedsPaint
 ;
 }
 ;
