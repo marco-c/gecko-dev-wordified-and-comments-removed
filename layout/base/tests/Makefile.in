@@ -555,10 +555,6 @@ bug
 492575
 )
 \
-test_bug370436
-.
-html
-\
 test_bug386575
 .
 xhtml
@@ -586,10 +582,6 @@ xhtml
 test_bug416896
 .
 html
-\
-test_bug420499
-.
-xul
 \
 test_bug423523
 .

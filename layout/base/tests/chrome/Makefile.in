@@ -435,6 +435,10 @@ mk
 _CHROME_FILES
 =
 \
+test_bug370436
+.
+html
+\
 test_bug396367
 -
 1
@@ -446,6 +450,10 @@ test_bug396367
 2
 .
 html
+\
+test_bug420499
+.
+xul
 \
 test_bug504311
 .
