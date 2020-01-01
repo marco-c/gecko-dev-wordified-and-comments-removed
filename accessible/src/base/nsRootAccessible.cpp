@@ -3075,6 +3075,12 @@ aTargetNode
 =
 =
 mDOMNode
+&
+&
+mDOMNode
+!
+=
+gLastFocusedNode
 )
 {
 if
