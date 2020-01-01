@@ -22419,6 +22419,7 @@ return
 true
 ;
 }
+static
 JS_ALWAYS_INLINE
 bool
 js_GetPropertyHelperWithShapeInline
@@ -22899,6 +22900,7 @@ return
 JS_TRUE
 ;
 }
+extern
 bool
 js_GetPropertyHelperWithShape
 (
@@ -22910,7 +22912,7 @@ JSObject
 obj
 jsid
 id
-uintN
+uint32
 getHow
 Value
 *
@@ -22939,6 +22941,7 @@ holderOut
 )
 ;
 }
+extern
 JSBool
 js_GetPropertyHelper
 (

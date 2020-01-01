@@ -6361,7 +6361,7 @@ JSObject
 obj
 jsid
 id
-uintN
+uint32
 getHow
 js
 :
@@ -6383,7 +6383,7 @@ JSObject
 obj
 jsid
 id
-uintN
+uint32
 getHow
 js
 :
