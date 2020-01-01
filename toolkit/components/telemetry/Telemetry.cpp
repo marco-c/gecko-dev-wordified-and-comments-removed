@@ -72,13 +72,6 @@ h
 #
 include
 "
-jsfriendapi
-.
-h
-"
-#
-include
-"
 nsStringGlue
 .
 h
