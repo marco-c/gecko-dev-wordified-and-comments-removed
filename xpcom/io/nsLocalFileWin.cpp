@@ -5017,6 +5017,8 @@ PRBool
 followSymlinks
 PRBool
 move
+PRBool
+skipNtfsAclReset
 )
 {
 nsresult
@@ -5364,6 +5366,10 @@ else
 if
 (
 move
+&
+&
+!
+skipNtfsAclReset
 )
 {
 PACL
@@ -5735,6 +5741,8 @@ newParentDir
 newName
 followSymlinks
 move
+!
+aParentDir
 )
 ;
 done
