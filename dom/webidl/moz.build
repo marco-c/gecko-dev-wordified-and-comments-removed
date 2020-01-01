@@ -550,11 +550,6 @@ Geolocation
 webidl
 '
 '
-GetUserMediaRequest
-.
-webidl
-'
-'
 History
 .
 webidl
