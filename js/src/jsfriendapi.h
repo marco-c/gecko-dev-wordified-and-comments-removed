@@ -973,7 +973,10 @@ obj
 )
 ;
 }
+JS_FRIEND_API
+(
 bool
+)
 IsScopeObject
 (
 const
