@@ -859,6 +859,8 @@ nv
 )
 {
 return
+!
+!
 NativeCompareAndSwap
 (
 w

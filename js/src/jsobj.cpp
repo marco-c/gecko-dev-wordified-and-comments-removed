@@ -16149,7 +16149,7 @@ sample
 JSTempValueRooter
 tvr
 ;
-JSBool
+bool
 ok
 ;
 JS_ASSERT
@@ -17138,6 +17138,8 @@ JS_TRUE
 ;
 }
 return
+!
+!
 SPROP_SET
 (
 cx

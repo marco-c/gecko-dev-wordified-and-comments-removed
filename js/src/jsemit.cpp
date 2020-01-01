@@ -5506,7 +5506,7 @@ JS_TRUE
 ;
 }
 static
-JSBool
+ptrdiff_t
 EmitJump
 (
 JSContext
@@ -5562,7 +5562,8 @@ cg
 )
 )
 return
-JS_FALSE
+-
+1
 ;
 jmp
 =
@@ -5621,7 +5622,8 @@ off
 )
 )
 return
-JS_FALSE
+-
+1
 ;
 }
 return
