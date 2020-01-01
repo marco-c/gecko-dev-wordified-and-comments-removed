@@ -84,11 +84,14 @@ JSTracer
 trc
 )
 {
+replaceCalleeToken
+(
 MarkCalleeToken
 (
 trc
 calleeToken
 (
+)
 )
 )
 ;

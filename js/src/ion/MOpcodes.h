@@ -469,6 +469,11 @@ MonitorTypes
 \
 _
 (
+PostWriteBarrier
+)
+\
+_
+(
 GetPropertyCache
 )
 \

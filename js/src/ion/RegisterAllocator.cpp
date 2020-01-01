@@ -2280,6 +2280,17 @@ return
 false
 ;
 }
+JS_ASSERT
+(
+safepoint
+-
+>
+hasNunboxPayload
+(
+alloc
+)
+)
+;
 break
 ;
 #
