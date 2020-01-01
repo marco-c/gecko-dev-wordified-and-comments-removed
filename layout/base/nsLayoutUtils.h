@@ -170,6 +170,9 @@ gfxDrawable
 namespace
 mozilla
 {
+class
+SVGImageContext
+;
 namespace
 dom
 {
@@ -2419,6 +2422,13 @@ const
 nsRect
 &
 aDirty
+const
+mozilla
+:
+:
+SVGImageContext
+*
+aSVGContext
 uint32_t
 aImageFlags
 const

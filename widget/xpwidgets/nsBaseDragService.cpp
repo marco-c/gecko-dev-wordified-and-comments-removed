@@ -2689,6 +2689,7 @@ scale
 outRect
 imgSize
 destSize
+nullptr
 imgIContainer
 :
 :

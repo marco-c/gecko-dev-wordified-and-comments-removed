@@ -2339,6 +2339,7 @@ nsIntPoint
 imageIntSize
 )
 imageIntSize
+nullptr
 aFlags
 )
 ;
@@ -2590,6 +2591,10 @@ const
 nsIntSize
 &
 aViewportSize
+const
+SVGImageContext
+*
+aSVGContext
 uint32_t
 aFlags
 )
@@ -2640,6 +2645,18 @@ NS_ERROR_FAILURE
 mIsDrawing
 =
 true
+;
+AutoSVGRenderingState
+autoSVGState
+(
+aSVGContext
+mSVGDocumentWrapper
+-
+>
+GetRootSVGElem
+(
+)
+)
 ;
 mSVGDocumentWrapper
 -

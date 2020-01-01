@@ -5110,6 +5110,7 @@ this
 )
 dest
 aDirtyRect
+nullptr
 imgIContainer
 :
 :
@@ -6156,6 +6157,7 @@ this
 )
 dest
 aDirtyRect
+nullptr
 aFlags
 )
 ;

@@ -12145,6 +12145,9 @@ aSubimage
 const
 nsIntSize
 &
+const
+SVGImageContext
+*
 uint32_t
 aFlags
 )

@@ -297,6 +297,10 @@ nsSVGUtils
 .
 h
 \
+SVGImageContext
+.
+h
+\
 (
 NULL
 )
