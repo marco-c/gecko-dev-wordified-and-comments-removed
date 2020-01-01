@@ -357,6 +357,16 @@ toObjectOrNull
 static
 JSObject
 *
+GetAndClearExpandoObject
+(
+JSObject
+*
+obj
+)
+;
+static
+JSObject
+*
 EnsureExpandoObject
 (
 JSContext
