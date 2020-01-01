@@ -529,6 +529,10 @@ LoginManager
 .
 js
 \
+BlocklistPrompt
+.
+js
+\
 (
 NULL
 )
