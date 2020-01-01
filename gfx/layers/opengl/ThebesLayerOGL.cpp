@@ -335,7 +335,9 @@ LOCAL_GL_FALSE
 0
 rects
 .
-vertexCoords
+vertexPointer
+(
+)
 )
 ;
 aGl
@@ -350,7 +352,9 @@ LOCAL_GL_FALSE
 0
 rects
 .
-texCoords
+texCoordPointer
+(
+)
 )
 ;
 {
@@ -380,9 +384,9 @@ LOCAL_GL_TRIANGLES
 0
 rects
 .
-numRects
-*
-6
+elements
+(
+)
 )
 ;
 aGl
