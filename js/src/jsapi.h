@@ -15380,7 +15380,7 @@ vp
 #
 define
 JS_STRUCTURED_CLONE_VERSION
-1
+2
 struct
 JSStructuredCloneCallbacks
 {
