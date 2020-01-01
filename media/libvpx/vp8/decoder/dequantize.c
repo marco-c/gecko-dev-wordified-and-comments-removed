@@ -98,17 +98,10 @@ short
 *
 DQC
 =
-&
 d
 -
 >
 dequant
-[
-0
-]
-[
-0
-]
 ;
 for
 (

@@ -6,7 +6,7 @@ c
 )
 2010
 The
-VP8
+WebM
 project
 authors
 .

@@ -6,7 +6,7 @@ c
 )
 2010
 The
-VP8
+WebM
 project
 authors
 .
@@ -333,7 +333,7 @@ ip
 [
 12
 ]
-movd
+movq
 mm7
 rax
 movq

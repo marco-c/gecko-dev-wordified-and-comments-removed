@@ -6,7 +6,7 @@ c
 )
 2010
 The
-VP8
+WebM
 project
 authors
 .
@@ -86,6 +86,8 @@ tree
 %
 include
 "
+vpx_ports
+/
 x86_abi_support
 .
 asm

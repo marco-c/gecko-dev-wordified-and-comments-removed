@@ -229,6 +229,9 @@ loopfilter
 vp8_postproc_rtcd_vtable_t
 postproc
 ;
+int
+flags
+;
 #
 else
 int
@@ -256,10 +259,7 @@ Y1dequant
 QINDEX_RANGE
 ]
 [
-4
-]
-[
-4
+16
 ]
 )
 ;
@@ -272,10 +272,7 @@ Y2dequant
 QINDEX_RANGE
 ]
 [
-4
-]
-[
-4
+16
 ]
 )
 ;
@@ -288,10 +285,7 @@ UVdequant
 QINDEX_RANGE
 ]
 [
-4
-]
-[
-4
+16
 ]
 )
 ;

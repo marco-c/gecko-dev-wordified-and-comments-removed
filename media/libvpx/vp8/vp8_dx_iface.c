@@ -196,6 +196,10 @@ NELEMENTS
 x
 )
 (
+(
+int
+)
+(
 sizeof
 (
 x
@@ -207,6 +211,7 @@ x
 [
 0
 ]
+)
 )
 )
 static
@@ -861,6 +866,7 @@ mmap_lkup
 vpx_codec_alg_priv_t
 *
 ctx
+unsigned
 int
 id
 )
@@ -2975,8 +2981,10 @@ define
 VERSION_STRING
 #
 endif
-vpx_codec_iface_t
-vpx_codec_vp8_dx_algo
+CODEC_INTERFACE
+(
+vpx_codec_vp8_dx
+)
 =
 {
 "
@@ -3002,6 +3010,11 @@ vp8_decode
 vp8_get_frame
 }
 {
+NOT_IMPLEMENTED
+NOT_IMPLEMENTED
+NOT_IMPLEMENTED
+NOT_IMPLEMENTED
+NOT_IMPLEMENTED
 NOT_IMPLEMENTED
 }
 }
@@ -3037,6 +3050,11 @@ vp8_decode
 vp8_get_frame
 }
 {
+NOT_IMPLEMENTED
+NOT_IMPLEMENTED
+NOT_IMPLEMENTED
+NOT_IMPLEMENTED
+NOT_IMPLEMENTED
 NOT_IMPLEMENTED
 }
 }

@@ -32,6 +32,11 @@ disable
 install
 -
 docs
+-
+-
+enable
+-
+pic
 "
 ;
 const

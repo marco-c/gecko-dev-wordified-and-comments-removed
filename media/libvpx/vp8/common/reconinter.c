@@ -4806,7 +4806,7 @@ x
 >
 dst
 .
-y_stride
+uv_stride
 )
 ;
 }
@@ -4836,7 +4836,7 @@ x
 >
 dst
 .
-y_stride
+uv_stride
 )
 ;
 }

@@ -175,7 +175,6 @@ br
 int
 bits
 )
-;
 #
 if
 ARCH_ARM

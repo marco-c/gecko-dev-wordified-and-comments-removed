@@ -140,7 +140,7 @@ CONFIG_MSVS
 #
 define
 CONFIG_PIC
-0
+1
 #
 define
 CONFIG_BIG_ENDIAN
@@ -232,6 +232,10 @@ CONFIG_REALTIME_ONLY
 #
 define
 CONFIG_SHARED
+0
+#
+define
+CONFIG_SMALL
 0
 #
 define

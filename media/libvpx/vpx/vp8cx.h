@@ -24,6 +24,14 @@ extern
 vpx_codec_iface_t
 vpx_codec_vp8_cx_algo
 ;
+extern
+vpx_codec_iface_t
+*
+vpx_codec_vp8_cx
+(
+void
+)
+;
 #
 define
 VP8_EFLAG_NO_REF_LAST

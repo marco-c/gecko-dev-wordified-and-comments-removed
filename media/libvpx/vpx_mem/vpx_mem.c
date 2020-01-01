@@ -98,12 +98,14 @@ define
 TOTAL_MEMORY_TO_ALLOCATE
 20971520
 /
-/
+*
 20
 *
 1024
 *
 1024
+*
+/
 #
 define
 MM_DYNAMIC_MEMORY

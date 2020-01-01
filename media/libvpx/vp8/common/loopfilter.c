@@ -1806,7 +1806,7 @@ cm
 >
 lf_info
 ;
-int
+FRAME_TYPE
 frame_type
 =
 cm
@@ -2424,7 +2424,7 @@ mbd
 >
 segmentation_enabled
 ;
-int
+FRAME_TYPE
 frame_type
 =
 cm
@@ -2950,7 +2950,7 @@ mbd
 >
 segmentation_enabled
 ;
-int
+FRAME_TYPE
 frame_type
 =
 cm

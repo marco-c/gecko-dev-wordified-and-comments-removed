@@ -9,9 +9,11 @@ define
 VPXINFINITE
 10000
 /
-/
+*
 10second
 .
+*
+/
 #
 ifdef
 _WIN32
@@ -520,7 +522,7 @@ sched_yield
 )
 ;
 /
-/
+*
 {
 struct
 timespec
@@ -548,6 +550,8 @@ NULL
 )
 ;
 }
+*
+/
 #
 endif
 #
