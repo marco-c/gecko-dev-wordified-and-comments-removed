@@ -2482,6 +2482,12 @@ indent
 :
 0
 ;
+display
+:
+inline
+-
+block
+;
 }
 *
 |
