@@ -11522,10 +11522,24 @@ true
 %
 result
             
-if
+assert
+(
+not
+descriptor
+.
+prefable
+or
+not
 descriptor
 .
 workers
+)
+            
+if
+not
+descriptor
+.
+prefable
 :
                 
 wrappingCode
