@@ -7108,6 +7108,12 @@ composite
 .
 html
 \
+test_2d
+.
+imageRenderingQuality
+.
+html
+\
 test_bug397524
 .
 html
