@@ -3158,6 +3158,9 @@ LOW_MEMORY
 NETWORK_LINK_CHANGE
 =
 36
+TELEMETRY_HISTOGRAM_ADD
+=
+37
 dummy_java_enum_list_end
 }
 ;
