@@ -61,6 +61,10 @@ protocol
 PNecko
 ;
 include
+protocol
+PBrowser
+;
+include
 URIParams
 ;
 include
@@ -177,6 +181,8 @@ uint32_t
 loadFlags
 SerializedLoadContext
 loadContext
+PBrowser
+browser
 )
 ;
 /

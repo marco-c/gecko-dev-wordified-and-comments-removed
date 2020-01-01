@@ -1746,8 +1746,6 @@ SendPOfflineCacheUpdateConstructor
 this
 manifestURI
 documentURI
-mInBrowser
-mAppID
 stickDocument
 )
 ;

@@ -143,12 +143,6 @@ h
 "
 ;
 using
-IPC
-:
-:
-SerializedLoadContext
-;
-using
 PRTime
 ;
 namespace
@@ -180,8 +174,6 @@ nsCString
 entityID
 OptionalInputStreamParams
 uploadStream
-SerializedLoadContext
-loadContext
 )
 ;
 ConnectChannel
