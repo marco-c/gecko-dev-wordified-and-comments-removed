@@ -39,6 +39,13 @@ nsITransactionListener
 .
 h
 "
+#
+include
+"
+nsCycleCollectionParticipant
+.
+h
+"
 class
 nsITransaction
 ;
@@ -103,7 +110,12 @@ nsTransactionManager
 (
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
+NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
+(
+nsTransactionManager
+nsITransactionManager
+)
 NS_DECL_NSITRANSACTIONMANAGER
 virtual
 nsresult

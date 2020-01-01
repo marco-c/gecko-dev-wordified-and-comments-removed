@@ -18,6 +18,13 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+nsCycleCollectionParticipant
+.
+h
+"
 class
 nsTransactionStack
 ;
@@ -72,6 +79,10 @@ Release
 (
 )
 ;
+NS_DECL_CYCLE_COLLECTION_NATIVE_CLASS
+(
+nsTransactionItem
+)
 virtual
 nsresult
 AddChild

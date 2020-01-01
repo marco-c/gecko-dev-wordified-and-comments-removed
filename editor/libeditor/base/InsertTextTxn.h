@@ -114,6 +114,11 @@ InsertTextTxn
 (
 )
 ;
+NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
+(
+InsertTextTxn
+EditTxn
+)
 NS_DECL_EDITTXN
 NS_IMETHOD
 Merge
