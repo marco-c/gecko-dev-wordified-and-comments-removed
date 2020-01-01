@@ -19187,14 +19187,14 @@ nsCSSSelector
 aSelector
 )
 {
-nsPseudoClassList
+nsAtomList
 *
 curr
 =
 aSelector
 -
 >
-mPseudoClassList
+mClassList
 ;
 while
 (
