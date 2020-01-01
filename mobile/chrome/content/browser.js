@@ -832,7 +832,7 @@ setPluginState
 :
 function
 (
-state
+enabled
 )
 {
 var
@@ -899,7 +899,8 @@ i
 .
 disabled
 =
-state
+!
+enabled
 ;
 }
 setupGeolocationPrompt
