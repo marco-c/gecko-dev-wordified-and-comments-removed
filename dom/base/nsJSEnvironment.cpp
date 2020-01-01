@@ -12682,8 +12682,8 @@ sFirstCollectionTime
 now
 ;
 }
-nsString
-gcmsg
+nsCString
+gcMsg
 ;
 if
 (
@@ -12692,7 +12692,7 @@ ccResults
 mForcedGC
 )
 {
-gcmsg
+gcMsg
 .
 AssignLiteral
 (
@@ -12860,7 +12860,7 @@ ccResults
 .
 mFreedGCed
 sCCollectedWaitingForGC
-gcmsg
+gcMsg
 .
 get
 (
