@@ -9544,12 +9544,6 @@ gestureNotifyEvent
 )
 ;
 }
-mPinchEvent
-.
-needDispatch
-=
-true
-;
 }
 else
 if
@@ -9796,13 +9790,12 @@ Qt
 GestureUpdated
 )
 {
-if
-(
 mPinchEvent
 .
 needDispatch
-)
-{
+=
+true
+;
 mPinchEvent
 .
 delta
@@ -9813,7 +9806,6 @@ DispatchMotionToMainThread
 (
 )
 ;
-}
 }
 else
 if
