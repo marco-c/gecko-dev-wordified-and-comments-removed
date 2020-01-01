@@ -1086,13 +1086,6 @@ NULL
 )
 endif
 ifdef
-MOZ_MATHML
-COMPONENT_LIBS
-+
-=
-ucvmath
-endif
-ifdef
 MOZ_ENABLE_GTK2
 COMPONENT_LIBS
 +

@@ -7726,13 +7726,6 @@ content
 src
 /
 Makefile
-intl
-/
-uconv
-/
-ucvmath
-/
-Makefile
 layout
 /
 mathml
