@@ -256,6 +256,9 @@ PRInt32
 mScrollPositionY
 ;
 PRPackedBool
+mURIWasModified
+;
+PRPackedBool
 mIsFrameNavigation
 ;
 PRPackedBool

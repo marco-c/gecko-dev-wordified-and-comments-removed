@@ -704,6 +704,14 @@ html
 headers
 ^
 \
+test_bug669671
+.
+html
+\
+file_bug669671
+.
+sjs
+\
 (
 NULL
 )
