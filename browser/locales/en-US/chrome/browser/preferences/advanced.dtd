@@ -23,9 +23,6 @@ pane
 are
 :
 "
-b
-"
-"
 j
 "
 "
@@ -139,7 +136,7 @@ blockAutoRefresh
 .
 accesskey
 "
-r
+b
 "
 >
 <
