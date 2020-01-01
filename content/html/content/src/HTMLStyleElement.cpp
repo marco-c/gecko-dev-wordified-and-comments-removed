@@ -23,13 +23,6 @@ h
 #
 include
 "
-nsIDOMLinkStyle
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h
@@ -190,11 +183,10 @@ NS_INTERFACE_TABLE_HEAD_CYCLE_COLLECTION_INHERITED
 (
 HTMLStyleElement
 )
-NS_INTERFACE_TABLE_INHERITED4
+NS_INTERFACE_TABLE_INHERITED3
 (
 HTMLStyleElement
 nsIDOMHTMLStyleElement
-nsIDOMLinkStyle
 nsIStyleSheetLinkingElement
 nsIMutationObserver
 )

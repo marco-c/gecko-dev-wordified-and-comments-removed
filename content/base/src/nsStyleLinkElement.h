@@ -23,13 +23,6 @@ h
 #
 include
 "
-nsIDOMLinkStyle
-.
-h
-"
-#
-include
-"
 nsIStyleSheetLinkingElement
 .
 h
@@ -87,8 +80,6 @@ class
 nsStyleLinkElement
 :
 public
-nsIDOMLinkStyle
-public
 nsIStyleSheetLinkingElement
 {
 public
@@ -117,7 +108,6 @@ MOZ_OVERRIDE
 =
 0
 ;
-NS_DECL_NSIDOMLINKSTYLE
 nsCSSStyleSheet
 *
 GetSheet
