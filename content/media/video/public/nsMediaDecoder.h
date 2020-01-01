@@ -259,6 +259,14 @@ ResourceLoaded
 0
 ;
 virtual
+void
+NetworkError
+(
+)
+=
+0
+;
+virtual
 PRBool
 IsSeeking
 (
