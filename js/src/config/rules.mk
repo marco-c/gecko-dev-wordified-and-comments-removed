@@ -6250,6 +6250,12 @@ EXTRA_DEPS
 (
 GLOBAL_DEPS
 )
+(
+info
+(
+notdir
+)
+)
 ifndef
 INCREMENTAL_LINKER
 (
