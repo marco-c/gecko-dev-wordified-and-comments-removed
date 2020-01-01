@@ -973,10 +973,13 @@ exception
 ;
 jsval
 jsexception
+=
+JSVAL_NULL
 ;
 AUTO_MARK_JSVAL
 (
 ccx
+&
 jsexception
 )
 ;
