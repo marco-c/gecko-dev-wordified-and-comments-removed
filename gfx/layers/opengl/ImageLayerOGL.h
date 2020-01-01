@@ -144,13 +144,13 @@ return
 mContext
 ;
 }
-private
-:
 void
 Release
 (
 )
 ;
+private
+:
 nsRefPtr
 <
 GLContext
