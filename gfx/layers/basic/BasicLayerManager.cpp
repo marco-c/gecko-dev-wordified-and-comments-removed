@@ -4668,6 +4668,10 @@ mTargetRotation
 (
 ROTATION_0
 )
+mRepeatTransaction
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
