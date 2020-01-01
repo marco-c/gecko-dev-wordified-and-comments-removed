@@ -58,6 +58,15 @@ NS_DECL_NSISOUND
 NS_DECL_NSISTREAMLOADEROBSERVER
 private
 :
+nsresult
+PlaySystemEventSound
+(
+const
+nsAString
+&
+aSoundAlias
+)
+;
 PRBool
 mInited
 ;
