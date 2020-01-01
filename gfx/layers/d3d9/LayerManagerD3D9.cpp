@@ -959,6 +959,10 @@ CallbackData
 =
 NULL
 ;
+mTarget
+=
+NULL
+;
 }
 void
 LayerManagerD3D9
