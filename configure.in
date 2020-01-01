@@ -69383,6 +69383,10 @@ AC_SUBST
 (
 NS_ENABLE_TSF
 )
+AC_SUBST
+(
+MOZ_NSS_PATCH
+)
 if
 test
 "
