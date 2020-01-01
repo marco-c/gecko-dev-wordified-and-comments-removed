@@ -104,6 +104,13 @@ imgTools
 h
 "
 #
+include
+"
+imgDiscardTracker
+.
+h
+"
+#
 ifdef
 IMG_BUILD_DECODER_gif
 #
@@ -1101,6 +1108,13 @@ aSelf
 )
 {
 imgLoader
+:
+:
+Shutdown
+(
+)
+;
+imgDiscardTracker
 :
 :
 Shutdown

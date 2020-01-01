@@ -460,6 +460,10 @@ imgContainerRequest
 .
 cpp
 \
+imgDiscardTracker
+.
+cpp
+\
 (
 NULL
 )
