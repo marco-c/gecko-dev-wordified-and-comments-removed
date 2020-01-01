@@ -122,3 +122,10 @@ mozilla
 pth
 :
 config
+copy
+:
+build
+/
+buildconfig
+.
+py
