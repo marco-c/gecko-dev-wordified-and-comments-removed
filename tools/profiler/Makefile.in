@@ -331,14 +331,6 @@ TableTicker
 .
 cpp
 \
-JSObjectBuilder
-.
-cpp
-\
-JSCustomObjectBuilder
-.
-cpp
-\
 (
 NULL
 )
