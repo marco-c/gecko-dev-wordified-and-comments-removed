@@ -1795,15 +1795,6 @@ context
 -
 searchselect
 "
-accesskey
-=
-"
-&
-search
-.
-accesskey
-;
-"
 oncommand
 =
 "
