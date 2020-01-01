@@ -294,6 +294,11 @@ jsd3250
 dll
 components
 /
+nsPostUpdateWin
+.
+js
+components
+/
 xpinstal
 .
 dll
