@@ -613,7 +613,7 @@ aCaps
 mConnectionInfo
 -
 >
-UsingSSL
+UsingConnect
 (
 )
 &
