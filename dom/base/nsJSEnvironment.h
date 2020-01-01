@@ -79,6 +79,10 @@ js
 class
 AutoArrayRooter
 ;
+}
+namespace
+mozilla
+{
 template
 <
 class
@@ -746,7 +750,7 @@ jsval
 *
 *
 aArgv
-js
+mozilla
 :
 :
 Maybe
@@ -755,7 +759,7 @@ nsAutoPoolRelease
 >
 &
 aPoolRelease
-js
+mozilla
 :
 :
 Maybe
