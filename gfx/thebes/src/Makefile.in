@@ -80,6 +80,10 @@ gfxFont
 .
 cpp
 \
+gfxFontMissingGlyphs
+.
+cpp
+\
 gfxFontTest
 .
 cpp
@@ -88,7 +92,7 @@ gfxMatrix
 .
 cpp
 \
-gfxFontMissingGlyphs
+gfxPath
 .
 cpp
 \
