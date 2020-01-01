@@ -12,6 +12,11 @@ iostream
 #
 include
 <
+sstream
+>
+#
+include
+<
 string
 >
 #
@@ -117,7 +122,7 @@ t
 )
 {
 return
-stream_
+str_
 <
 <
 t
@@ -131,6 +136,12 @@ std
 ostream
 &
 stream_
+;
+std
+:
+:
+ostringstream
+str_
 ;
 explicit
 LogStream
@@ -207,6 +218,12 @@ error_string
 )
 ;
 }
+bool
+is_power_of_2
+(
+uint64_t
+)
+;
 #
 ifndef
 BPLOG_INIT
