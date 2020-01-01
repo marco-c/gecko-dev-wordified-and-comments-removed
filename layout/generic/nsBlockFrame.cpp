@@ -17404,6 +17404,7 @@ PR_TRUE
 }
 if
 (
+(
 !
 (
 frameReflowStatus
@@ -17419,6 +17420,14 @@ placeholderFrame
 !
 =
 frameType
+)
+|
+|
+*
+aLineReflowStatus
+=
+=
+LINE_REFLOW_STOP
 )
 {
 *
