@@ -1161,6 +1161,12 @@ CanContinueTextRun
 )
 const
 ;
+virtual
+bool
+UpdateOverflow
+(
+)
+;
 NS_IMETHOD
 HandlePress
 (

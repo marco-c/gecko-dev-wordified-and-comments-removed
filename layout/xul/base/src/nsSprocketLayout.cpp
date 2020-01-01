@@ -628,7 +628,6 @@ aBox
 >
 IsCollapsed
 (
-aState
 )
 )
 {
@@ -2627,7 +2626,6 @@ child
 >
 IsCollapsed
 (
-aState
 )
 ;
 }
@@ -2765,7 +2763,6 @@ child
 >
 IsCollapsed
 (
-aState
 )
 ;
 if
@@ -5189,7 +5186,6 @@ child
 >
 IsCollapsed
 (
-aState
 )
 )
 {
@@ -5397,7 +5393,6 @@ child
 >
 IsCollapsed
 (
-aState
 )
 )
 {
@@ -5658,7 +5653,6 @@ child
 >
 IsCollapsed
 (
-aState
 )
 )
 {

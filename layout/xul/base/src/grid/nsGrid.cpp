@@ -1804,7 +1804,6 @@ row
 >
 IsCollapsed
 (
-aState
 )
 )
 {
@@ -1856,7 +1855,6 @@ row
 >
 IsCollapsed
 (
-aState
 )
 )
 {
@@ -2011,7 +2009,6 @@ box
 >
 IsCollapsed
 (
-aState
 )
 )
 {
@@ -2255,7 +2252,6 @@ box
 >
 IsCollapsed
 (
-aState
 )
 )
 {
@@ -2514,7 +2510,6 @@ row
 >
 IsCollapsed
 (
-aState
 )
 )
 return
@@ -2749,7 +2744,6 @@ child
 >
 IsCollapsed
 (
-aState
 )
 )
 {
@@ -2834,7 +2828,6 @@ row
 >
 IsCollapsed
 (
-aState
 )
 )
 return
@@ -3074,7 +3067,6 @@ child
 >
 IsCollapsed
 (
-aState
 )
 )
 {
@@ -3155,7 +3147,6 @@ row
 >
 IsCollapsed
 (
-aState
 )
 )
 return
@@ -3390,7 +3381,6 @@ child
 >
 IsCollapsed
 (
-aState
 )
 )
 {

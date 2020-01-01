@@ -404,9 +404,6 @@ nsGridCell
 :
 IsCollapsed
 (
-nsBoxLayoutState
-&
-aState
 )
 {
 return
@@ -420,7 +417,6 @@ mBoxInColumn
 >
 IsCollapsed
 (
-aState
 )
 )
 |
@@ -434,7 +430,6 @@ mBoxInRow
 >
 IsCollapsed
 (
-aState
 )
 )
 )

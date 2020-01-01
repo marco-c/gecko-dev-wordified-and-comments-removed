@@ -59,9 +59,6 @@ aBoxLayoutState
 bool
 IsCollapsed
 (
-nsBoxLayoutState
-&
-aBoxLayoutState
 )
 ;
 nsIBox

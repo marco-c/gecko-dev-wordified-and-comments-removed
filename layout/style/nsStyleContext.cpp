@@ -1933,6 +1933,8 @@ NS_STYLE_HINT_FRAMECHANGE
 nsChangeHint_UpdateTransformLayer
 |
 nsChangeHint_UpdateOpacityLayer
+|
+nsChangeHint_UpdateOverflow
 )
 ;
 DO_STRUCT_DIFFERENCE

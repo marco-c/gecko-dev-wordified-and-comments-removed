@@ -376,6 +376,12 @@ nsDisplayListSet
 aLists
 )
 ;
+virtual
+bool
+UpdateOverflow
+(
+)
+;
 NS_IMETHOD
 AttributeChanged
 (

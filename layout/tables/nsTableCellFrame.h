@@ -556,6 +556,12 @@ nsPoint
 aPt
 )
 ;
+virtual
+bool
+UpdateOverflow
+(
+)
+;
 protected
 :
 virtual
