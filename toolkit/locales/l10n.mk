@@ -1865,6 +1865,8 @@ _ABS_DIST
 PACKAGE
 )
 "
+ifdef
+RETRIEVE_WINDOWS_INSTALLER
 ifeq
 (
 (
@@ -1946,6 +1948,7 @@ PKG_INST_BASENAME
 .
 exe
 "
+endif
 endif
 generate
 -
