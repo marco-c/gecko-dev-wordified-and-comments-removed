@@ -2909,6 +2909,10 @@ mScrollWatchTimer
 =
 nsnull
 ;
+NS_RELEASE_THIS
+(
+)
+;
 }
 nsRefPtr
 <
@@ -3585,6 +3589,11 @@ mScrollWatchTimer
 =
 nsnull
 ;
+NS_RELEASE
+(
+docAcc
+)
+;
 }
 }
 }
@@ -3806,6 +3815,10 @@ if
 mScrollWatchTimer
 )
 {
+NS_ADDREF_THIS
+(
+)
+;
 mScrollWatchTimer
 -
 >
