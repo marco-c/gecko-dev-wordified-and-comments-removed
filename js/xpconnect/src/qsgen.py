@@ -7737,9 +7737,9 @@ fs
 %
 d
 %
-s
-%
 d
+%
+s
 }
 '
 %
@@ -7753,13 +7753,13 @@ method
 name
 )
                            
-stubName
 len
 (
 method
 .
 params
 )
+stubName
 )
     
 return

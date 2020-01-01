@@ -58,11 +58,11 @@ xpc_qsFunctionSpec
 uint16_t
 name_index
 ;
+uint16_t
+arity
+;
 JSNative
 native
-;
-uintN
-arity
 ;
 }
 ;
