@@ -15889,6 +15889,16 @@ LOOP_OVER_DIRS
 )
 echo
 -
+variable
+-
+%
+:
+echo
+(
+*
+)
+echo
+-
 tiers
 :
 echo
