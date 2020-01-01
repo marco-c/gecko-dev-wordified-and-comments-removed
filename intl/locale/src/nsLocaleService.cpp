@@ -571,6 +571,7 @@ NULL
 return
 ;
 }
+const
 char
 *
 lang
@@ -656,18 +657,10 @@ IsEmpty
 {
 lang
 =
-static_cast
-<
-const
-char
-*
->
-(
 gconfLocaleString
 .
 get
 (
-)
 )
 ;
 setenv
