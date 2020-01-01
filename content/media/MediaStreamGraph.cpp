@@ -2485,9 +2485,6 @@ to
 %
 f
 (
-minBufferEndTime
-%
-f
 real
 %
 f
@@ -2499,10 +2496,6 @@ f
 MediaTimeToSeconds
 (
 nextCurrentTime
-)
-MediaTimeToSeconds
-(
-minBufferEndTime
 )
 (
 now
