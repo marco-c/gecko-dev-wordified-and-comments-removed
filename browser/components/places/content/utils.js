@@ -3601,7 +3601,7 @@ content
 /
 places
 /
-bookmarkPageDialog
+bookmarkProperties2
 .
 xul
 "
