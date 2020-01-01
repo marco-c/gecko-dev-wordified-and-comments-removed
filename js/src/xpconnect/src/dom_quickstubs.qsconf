@@ -643,6 +643,16 @@ nsIDOMWindow
 getSelection
 '
 '
+nsIDOMWindow
+.
+scrollByLines
+'
+'
+nsIDOMJSWindow
+.
+dump
+'
+'
 nsIDOMScreen
 .
 top
