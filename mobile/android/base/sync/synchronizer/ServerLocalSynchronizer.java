@@ -15,9 +15,10 @@ ServerLocalSynchronizer
 extends
 Synchronizer
 {
+Override
 public
 SynchronizerSession
-getSynchronizerSession
+newSynchronizerSession
 (
 )
 {
