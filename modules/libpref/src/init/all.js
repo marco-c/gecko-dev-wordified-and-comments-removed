@@ -9293,17 +9293,13 @@ WINCE
 #
 define
 WINDOWS_SANS_SERIF_FONT
-"
 Tahoma
-"
 #
 else
 #
 define
 WINDOWS_SANS_SERIF_FONT
-"
 Arial
-"
 #
 endif
 pref
@@ -9339,7 +9335,9 @@ serif
 .
 ar
 "
+"
 __WINDOWS_SANS_SERIF_FONT__
+"
 )
 ;
 pref
@@ -9410,7 +9408,9 @@ serif
 .
 el
 "
+"
 __WINDOWS_SANS_SERIF_FONT__
+"
 )
 ;
 pref
@@ -9479,7 +9479,9 @@ serif
 .
 he
 "
+"
 __WINDOWS_SANS_SERIF_FONT__
+"
 )
 ;
 pref
@@ -9580,8 +9582,8 @@ he
 Guttman
 Yad
 Ktav
-"
 __WINDOWS_SANS_SERIF_FONT__
+"
 )
 ;
 pref
@@ -9944,7 +9946,9 @@ serif
 .
 tr
 "
+"
 __WINDOWS_SANS_SERIF_FONT__
+"
 )
 ;
 pref
@@ -10019,7 +10023,9 @@ x
 -
 baltic
 "
+"
 __WINDOWS_SANS_SERIF_FONT__
+"
 )
 ;
 pref
@@ -10102,7 +10108,9 @@ central
 -
 euro
 "
+"
 __WINDOWS_SANS_SERIF_FONT__
+"
 )
 ;
 pref
@@ -10185,7 +10193,9 @@ x
 -
 cyrillic
 "
+"
 __WINDOWS_SANS_SERIF_FONT__
+"
 )
 ;
 pref
@@ -10264,7 +10274,9 @@ x
 -
 unicode
 "
+"
 __WINDOWS_SANS_SERIF_FONT__
+"
 )
 ;
 pref
@@ -10343,7 +10355,9 @@ x
 -
 western
 "
+"
 __WINDOWS_SANS_SERIF_FONT__
+"
 )
 ;
 pref
@@ -10543,7 +10557,9 @@ zh
 -
 TW
 "
+"
 __WINDOWS_SANS_SERIF_FONT__
+"
 )
 ;
 pref
@@ -10664,7 +10680,9 @@ zh
 -
 HK
 "
+"
 __WINDOWS_SANS_SERIF_FONT__
+"
 )
 ;
 pref
