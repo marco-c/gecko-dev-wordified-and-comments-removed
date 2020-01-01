@@ -32,6 +32,15 @@ include
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 DEFINE_GUID
 (
 CLSID_RadialGradientEffect
@@ -134,6 +143,7 @@ RADIAL_PROP_TRANSFORM
 ;
 class
 RadialGradientEffectD2D1
+MOZ_FINAL
 :
 public
 ID2D1EffectImpl
