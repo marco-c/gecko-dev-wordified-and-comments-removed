@@ -106,10 +106,6 @@ B2GComponents
 .
 manifest
 \
-CameraContent
-.
-js
-\
 ContentHandler
 .
 js

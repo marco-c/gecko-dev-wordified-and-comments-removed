@@ -158,10 +158,6 @@ GonkCaptureProvider
 .
 cpp
 \
-nsB2GProtocolHandler
-.
-cpp
-\
 (
 NULL
 )
