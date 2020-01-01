@@ -873,6 +873,10 @@ jstask
 .
 cpp
 \
+jstypedarray
+.
+cpp
+\
 jsutil
 .
 cpp
@@ -1100,6 +1104,10 @@ jstask
 h
 \
 jstracer
+.
+h
+\
+jstypedarray
 .
 h
 \
