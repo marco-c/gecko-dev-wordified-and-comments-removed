@@ -150,7 +150,6 @@ GetProtoObject
 (
 aCx
 aGlobal
-aGlobal
 )
 ;
 \

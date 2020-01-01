@@ -127,6 +127,10 @@ browser_bug396843
 .
 js
 \
+browser_xhr_sandbox
+.
+js
+\
 (
 NULL
 )

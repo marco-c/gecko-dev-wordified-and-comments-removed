@@ -3881,12 +3881,6 @@ if
 scope
 )
 {
-mozilla
-:
-:
-dom
-:
-:
 TraceProtoAndIfaceCache
 (
 aTrc
@@ -4113,7 +4107,7 @@ _ID_Count
 }
 false
 &
-sNativePropertyHooks
+sWorkerNativePropertyHooks
 }
 }
 ;
@@ -4368,7 +4362,6 @@ GetProtoObject
 (
 aCx
 global
-global
 )
 ;
 if
@@ -4599,10 +4592,9 @@ if
 FileReaderSyncBinding_workers
 :
 :
-GetProtoObject
+GetConstructorObject
 (
 aCx
-global
 global
 )
 |
@@ -4611,10 +4603,9 @@ global
 XMLHttpRequestBinding_workers
 :
 :
-GetProtoObject
+GetConstructorObject
 (
 aCx
-global
 global
 )
 |
@@ -4623,10 +4614,9 @@ global
 XMLHttpRequestUploadBinding_workers
 :
 :
-GetProtoObject
+GetConstructorObject
 (
 aCx
-global
 global
 )
 )

@@ -1,0 +1,7 @@
+new
+window
+.
+XMLHttpRequest
+(
+)
+;

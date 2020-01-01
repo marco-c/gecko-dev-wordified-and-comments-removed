@@ -1533,7 +1533,7 @@ mozilla
 dom
 :
 :
-IsDOMObject
+UseDOMXray
 (
 obj
 )
