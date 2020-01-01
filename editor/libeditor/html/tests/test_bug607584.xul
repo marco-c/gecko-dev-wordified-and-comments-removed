@@ -835,9 +835,11 @@ setAttribute
 src
 "
 "
-about
+data
 :
-blank
+text
+/
+html
 "
 )
 ;
