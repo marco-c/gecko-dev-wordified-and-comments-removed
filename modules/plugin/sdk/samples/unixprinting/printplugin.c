@@ -358,6 +358,9 @@ type
 case
 Expose
 :
+do
+{
+}
 while
 (
 XCheckTypedWindowEvent
@@ -374,6 +377,7 @@ Expose
 xevent
 )
 )
+;
 privatePrintScreenMessage
 (
 This

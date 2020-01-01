@@ -2391,6 +2391,9 @@ type
 case
 Expose
 :
+do
+{
+}
 while
 (
 XCheckTypedWindowEvent
