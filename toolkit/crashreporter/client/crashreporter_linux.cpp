@@ -1368,10 +1368,9 @@ return
 _gnome_program_init_fn
 gnome_program_init
 =
-reinterpret_cast
-<
+(
 _gnome_program_init_fn
->
+)
 (
 dlsym
 (
@@ -1385,10 +1384,9 @@ gnome_program_init
 _libgnomeui_module_info_get_fn
 libgnomeui_module_info_get
 =
-reinterpret_cast
-<
+(
 _libgnomeui_module_info_get_fn
->
+)
 (
 dlsym
 (
