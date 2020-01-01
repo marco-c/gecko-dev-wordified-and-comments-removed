@@ -647,6 +647,17 @@ MODULE_OPTIMIZE_FLAGS
 O2
 endif
 endif
+ifeq
+(
+(
+OS_ARCH
+)
+WINNT
+)
+NO_PROFILE_GUIDED_OPTIMIZE
+=
+1
+endif
 #
 JavaScript
 must
@@ -3804,7 +3815,7 @@ py
 OffTheBooks
 :
 :
-55
+53
 \
 "
 in
