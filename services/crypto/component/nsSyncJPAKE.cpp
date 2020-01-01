@@ -498,7 +498,7 @@ len
 )
 )
 return
-NS_ERROR_OUT_OF_MEMORY
+PR_FALSE
 ;
 out
 .

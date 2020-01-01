@@ -2568,7 +2568,7 @@ Preferences
 GetRootBranch
 (
 )
-NS_ERROR_FAILURE
+PR_FALSE
 )
 ;
 mShaderValidation

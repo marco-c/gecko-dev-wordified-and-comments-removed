@@ -510,7 +510,7 @@ aSelState
 NS_ENSURE_TRUE
 (
 aSelState
-NS_ERROR_NULL_POINTER
+PR_FALSE
 )
 ;
 PRUint32

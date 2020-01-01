@@ -3492,9 +3492,10 @@ nsPluginStreamListenerPeer
 psi
 )
 {
-NS_ENSURE_ARG_POINTER
+NS_ENSURE_TRUE
 (
 psi
+PR_FALSE
 )
 ;
 if
