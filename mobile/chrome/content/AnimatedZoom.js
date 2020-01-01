@@ -736,13 +736,12 @@ timer
 .
 initWithCallback
 (
-Util
-.
-bind
-(
 this
 .
 _callback
+.
+bind
+(
 this
 )
 this
