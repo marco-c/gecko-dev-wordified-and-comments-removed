@@ -511,6 +511,14 @@ apply
 )
 ;
 bool
+visitGetDynamicName
+(
+MGetDynamicName
+*
+ins
+)
+;
+bool
 visitCallDirectEval
 (
 MCallDirectEval

@@ -656,6 +656,10 @@ ApplyArgs
 )
 UNSAFE_OP
 (
+GetDynamicName
+)
+UNSAFE_OP
+(
 CallDirectEval
 )
 SAFE_OP
