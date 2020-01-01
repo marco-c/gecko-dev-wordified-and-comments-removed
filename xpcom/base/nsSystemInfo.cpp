@@ -24,7 +24,7 @@ h
 #
 include
 "
-nsString
+prio
 .
 h
 "

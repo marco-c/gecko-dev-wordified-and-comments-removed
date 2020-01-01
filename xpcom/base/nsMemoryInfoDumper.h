@@ -11,13 +11,9 @@ nsIMemoryInfoDumper
 .
 h
 "
-#
-include
-"
-nsString
-.
-h
-"
+class
+nsACString
+;
 class
 nsMemoryInfoDumper
 :
