@@ -456,6 +456,16 @@ id
 )
 ;
 }
+NewTabUtils
+.
+links
+.
+populateCache
+(
+function
+(
+)
+{
 clearHistory
 (
 function
@@ -495,6 +505,9 @@ next
 ;
 }
 true
+)
+;
+}
 )
 ;
 }
