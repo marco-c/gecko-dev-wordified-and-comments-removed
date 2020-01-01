@@ -465,6 +465,17 @@ NS_EVENT_TYPE_NULL
 0
 #
 define
+NS_EVENT_TYPE_ALL
+1
+/
+/
+Not
+a
+real
+event
+type
+#
+define
 NS_EVENT_NULL
 0
 #
