@@ -672,6 +672,14 @@ reftest
 .
 list
 #
+input
+include
+input
+/
+reftest
+.
+list
+#
 output
 element
 include
