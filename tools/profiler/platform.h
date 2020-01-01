@@ -288,13 +288,6 @@ define
 ENABLE_SPS_LEAF_DATA
 #
 endif
-extern
-mozilla
-:
-:
-TimeStamp
-sStartTime
-;
 typedef
 uint8_t
 *
