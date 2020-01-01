@@ -421,6 +421,9 @@ nsIDOMSVGNumber
 >
 mCurrentScale
 ;
+float
+mFullZoom
+;
 PRPackedBool
 mViewportInitialized
 ;
