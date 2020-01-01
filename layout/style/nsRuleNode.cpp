@@ -10483,9 +10483,8 @@ aFont
 >
 mSize
 =
-defaultVariableFont
--
->
+aDefaultFont
+.
 size
 ;
 zoom
