@@ -77,6 +77,8 @@ printf
 libyuv
 compare
 v
+%
+d
 \
 n
 "
@@ -335,7 +337,6 @@ hash2
 %
 x
 "
-hash1
 hash2
 )
 ;

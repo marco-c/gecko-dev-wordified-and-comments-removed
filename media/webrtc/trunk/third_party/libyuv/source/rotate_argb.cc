@@ -37,7 +37,7 @@ h
 #
 include
 "
-source
+libyuv
 /
 row
 .
@@ -694,6 +694,7 @@ dst_stride
 ;
 }
 }
+LIBYUV_API
 int
 ARGBRotate
 (

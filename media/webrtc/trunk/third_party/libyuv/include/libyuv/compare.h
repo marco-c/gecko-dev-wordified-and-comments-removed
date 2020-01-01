@@ -26,6 +26,7 @@ C
 {
 #
 endif
+LIBYUV_API
 uint32
 HashDjb2
 (
@@ -39,6 +40,7 @@ uint32
 seed
 )
 ;
+LIBYUV_API
 uint64
 ComputeSumSquareError
 (
@@ -54,6 +56,7 @@ int
 count
 )
 ;
+LIBYUV_API
 uint64
 ComputeSumSquareErrorPlane
 (
@@ -82,6 +85,7 @@ kMaxPsnr
 =
 128
 ;
+LIBYUV_API
 double
 SumSquareErrorToPsnr
 (
@@ -91,6 +95,7 @@ uint64
 count
 )
 ;
+LIBYUV_API
 double
 CalcFramePsnr
 (
@@ -112,6 +117,7 @@ int
 height
 )
 ;
+LIBYUV_API
 double
 I420Psnr
 (
@@ -157,6 +163,7 @@ int
 height
 )
 ;
+LIBYUV_API
 double
 CalcFrameSsim
 (
@@ -178,6 +185,7 @@ int
 height
 )
 ;
+LIBYUV_API
 double
 I420Ssim
 (

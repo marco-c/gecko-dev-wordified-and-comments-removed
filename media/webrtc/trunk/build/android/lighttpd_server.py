@@ -29,8 +29,6 @@ httplib
 import
 os
 import
-pexpect
-import
 random
 import
 shutil
@@ -48,6 +46,10 @@ from
 pylib
 import
 constants
+from
+pylib
+import
+pexpect
 class
 LighttpdServer
 (

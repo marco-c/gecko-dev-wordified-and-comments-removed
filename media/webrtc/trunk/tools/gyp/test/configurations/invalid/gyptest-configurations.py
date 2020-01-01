@@ -53,6 +53,10 @@ sources
 '
   
 '
+standalone_static_library
+'
+  
+'
 target_name
 '
   

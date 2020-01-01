@@ -54,7 +54,7 @@ h
 #
 include
 "
-source
+libyuv
 /
 row
 .
@@ -1049,6 +1049,7 @@ hash
 }
 #
 endif
+LIBYUV_API
 uint32
 HashDjb2
 (
@@ -2160,6 +2161,7 @@ return
 sse
 ;
 }
+LIBYUV_API
 uint64
 ComputeSumSquareError
 (
@@ -2409,6 +2411,7 @@ return
 sse
 ;
 }
+LIBYUV_API
 uint64
 ComputeSumSquareErrorPlane
 (
@@ -2571,6 +2574,7 @@ return
 sse
 ;
 }
+LIBYUV_API
 double
 SumSquareErrorToPsnr
 (
@@ -2650,6 +2654,7 @@ return
 psnr
 ;
 }
+LIBYUV_API
 double
 CalcFramePsnr
 (
@@ -2701,6 +2706,7 @@ samples
 )
 ;
 }
+LIBYUV_API
 double
 I420Psnr
 (
@@ -3140,6 +3146,7 @@ ssim_n
 ssim_d
 ;
 }
+LIBYUV_API
 double
 CalcFrameSsim
 (
@@ -3277,6 +3284,7 @@ return
 ssim_total
 ;
 }
+LIBYUV_API
 double
 I420Ssim
 (

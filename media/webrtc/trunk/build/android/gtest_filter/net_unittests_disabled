@@ -22,9 +22,6 @@ disabling
 DiskCacheBackendTest
 .
 *
-NetUtilTest
-.
-GetNetworkList
 TransportSecurityStateTest
 .
 ParseSidePins
@@ -81,9 +78,6 @@ X509CertificateTest
 X509CertificateParseTest
 .
 *
-FtpDirectoryListingParserWindowsTest
-.
-Good
 HttpNetworkTransactionSpdy2Test
 .
 SOCKS4_HTTP_GET
@@ -213,9 +207,6 @@ ThrottlingSpdySpdyEnabled
 X509CertificateWeakDigestTest
 .
 *
-FtpDirectoryListingParserTest
-.
-*
 *
 /
 X509CertificateWeakDigestTest
@@ -226,7 +217,10 @@ TransportSecurityStateTest
 BogusPinsHeaders
 TransportSecurityStateTest
 .
-ValidPinsHeaders
+ValidPinsHeadersSHA1
+TransportSecurityStateTest
+.
+ValidPinsHeadersSHA256
 HTTPSRequestTest
 .
 ResumeTest

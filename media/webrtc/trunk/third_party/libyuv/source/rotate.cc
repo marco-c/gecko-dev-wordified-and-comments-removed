@@ -37,16 +37,7 @@ h
 #
 include
 "
-source
-/
-rotate_priv
-.
-h
-"
-#
-include
-"
-source
+libyuv
 /
 row
 .
@@ -238,8 +229,18 @@ endif
 #
 endif
 #
-ifdef
+if
+!
+defined
+(
+YUV_DISABLE_ASM
+)
+&
+&
+defined
+(
 __ARM_NEON__
+)
 #
 define
 HAS_MIRRORROW_NEON
@@ -6488,6 +6489,7 @@ i
 }
 }
 }
+LIBYUV_API
 void
 TransposePlane
 (
@@ -6673,6 +6675,7 @@ i
 )
 ;
 }
+LIBYUV_API
 void
 RotatePlane90
 (
@@ -6720,6 +6723,7 @@ height
 )
 ;
 }
+LIBYUV_API
 void
 RotatePlane270
 (
@@ -6767,6 +6771,7 @@ height
 )
 ;
 }
+LIBYUV_API
 void
 RotatePlane180
 (
@@ -7588,6 +7593,7 @@ src_stride
 ;
 }
 }
+LIBYUV_API
 void
 TransposeUV
 (
@@ -7762,6 +7768,7 @@ i
 )
 ;
 }
+LIBYUV_API
 void
 RotateUV90
 (
@@ -7816,6 +7823,7 @@ height
 )
 ;
 }
+LIBYUV_API
 void
 RotateUV270
 (
@@ -7886,6 +7894,7 @@ height
 )
 ;
 }
+LIBYUV_API
 void
 RotateUV180
 (
@@ -8057,6 +8066,7 @@ dst_stride_b
 ;
 }
 }
+LIBYUV_API
 int
 I420Rotate
 (
@@ -8388,6 +8398,7 @@ return
 1
 ;
 }
+LIBYUV_API
 int
 NV12ToI420Rotate
 (

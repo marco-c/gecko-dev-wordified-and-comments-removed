@@ -205,7 +205,10 @@ null
 |
 grep
 (
-pwd
+dirname
+"
+FILENAME
+"
 )
 \
 |

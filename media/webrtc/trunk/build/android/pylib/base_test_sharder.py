@@ -98,10 +98,22 @@ format
 log_format
 )
   
+try
+:
+    
 return
 test
 .
 Run
+(
+)
+  
+except
+SystemExit
+:
+    
+return
+TestResults
 (
 )
 def
@@ -617,14 +629,23 @@ tests_container
 ]
 )
       
-results_lists
+async_results
 =
 pool
 .
-map
+map_async
 (
 _ShardedTestRunnable
 test_runners
+)
+      
+results_lists
+=
+async_results
+.
+get
+(
+999999
 )
       
 test_results

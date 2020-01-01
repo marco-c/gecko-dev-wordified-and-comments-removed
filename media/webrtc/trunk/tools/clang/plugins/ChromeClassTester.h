@@ -67,8 +67,6 @@ clang
 CompilerInstance
 &
 instance
-bool
-check_cc_directory
 )
 ;
 virtual
@@ -337,9 +335,6 @@ TagDecl
 *
 >
 pending_class_decls_
-;
-bool
-check_cc_directory_
 ;
 }
 ;

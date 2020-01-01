@@ -82,11 +82,6 @@ target_defaults
 :
 {
 '
-variables
-'
-:
-{
-'
 conditions
 '
 :
@@ -102,10 +97,16 @@ arm
 '
 {
 '
+variables
+'
+:
+{
+'
 clang
 '
 :
 1
+}
 '
 defines
 '
@@ -165,6 +166,5 @@ NVALGRIND
 }
 ]
 ]
-}
 }
 }

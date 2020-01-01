@@ -26,6 +26,7 @@ C
 {
 #
 endif
+LIBYUV_API
 int
 BayerBGGRToI420
 (
@@ -56,6 +57,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 BayerGBRGToI420
 (
@@ -86,6 +88,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 BayerGRBGToI420
 (
@@ -116,6 +119,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 BayerRGGBToI420
 (
@@ -177,6 +181,7 @@ w
 h
 f
 )
+LIBYUV_API
 int
 BayerToI420
 (
@@ -209,6 +214,7 @@ uint32
 src_fourcc_bayer
 )
 ;
+LIBYUV_API
 int
 I420ToBayerBGGR
 (
@@ -241,6 +247,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 I420ToBayerGBRG
 (
@@ -273,6 +280,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 I420ToBayerGRBG
 (
@@ -305,6 +313,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 I420ToBayerRGGB
 (
@@ -368,6 +377,7 @@ w
 h
 f
 )
+LIBYUV_API
 int
 I420ToBayer
 (
@@ -402,6 +412,7 @@ uint32
 dst_fourcc_bayer
 )
 ;
+LIBYUV_API
 int
 BayerBGGRToARGB
 (
@@ -422,6 +433,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 BayerGBRGToARGB
 (
@@ -442,6 +454,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 BayerGRBGToARGB
 (
@@ -462,6 +475,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 BayerRGGBToARGB
 (
@@ -504,6 +518,7 @@ w
 h
 f
 )
+LIBYUV_API
 int
 BayerToARGB
 (
@@ -526,6 +541,7 @@ uint32
 src_fourcc_bayer
 )
 ;
+LIBYUV_API
 int
 ARGBToBayerBGGR
 (
@@ -546,6 +562,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 ARGBToBayerGBRG
 (
@@ -566,6 +583,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 ARGBToBayerGRBG
 (
@@ -586,6 +604,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 ARGBToBayerRGGB
 (
@@ -628,6 +647,7 @@ w
 h
 f
 )
+LIBYUV_API
 int
 ARGBToBayer
 (

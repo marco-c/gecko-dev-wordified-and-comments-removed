@@ -286,7 +286,7 @@ variables
 :
 {
 '
-additional_src_dirs
+generated_src_dirs
 '
 :
 [

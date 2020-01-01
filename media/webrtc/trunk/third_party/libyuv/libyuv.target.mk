@@ -36,7 +36,7 @@ DCHROMIUM_BUILD
 \
 '
 -
-DUSE_NSS
+DUSE_LIBJPEG_TURBO
 =
 1
 '
@@ -85,6 +85,13 @@ DENABLE_NOTIFICATIONS
 '
 -
 DENABLE_GPU
+=
+1
+'
+\
+'
+-
+DUSE_OPENSSL
 =
 1
 '
@@ -360,7 +367,7 @@ DCHROMIUM_BUILD
 \
 '
 -
-DUSE_NSS
+DUSE_LIBJPEG_TURBO
 =
 1
 '
@@ -409,6 +416,13 @@ DENABLE_NOTIFICATIONS
 '
 -
 DENABLE_GPU
+=
+1
+'
+\
+'
+-
+DUSE_OPENSSL
 =
 1
 '
@@ -1504,7 +1518,7 @@ FORCE_DO_CMD
 (
 call
 do_cmd
-alink
+alink_thin
 )
 all_deps
 +

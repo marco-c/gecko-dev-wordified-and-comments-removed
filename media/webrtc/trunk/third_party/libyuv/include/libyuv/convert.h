@@ -57,6 +57,7 @@ endif
 define
 I420ToI420
 I420Copy
+LIBYUV_API
 int
 I420Copy
 (
@@ -99,6 +100,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 I422ToI420
 (
@@ -141,6 +143,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 I444ToI420
 (
@@ -183,6 +186,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 I411ToI420
 (
@@ -225,6 +229,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 I400ToI420
 (
@@ -255,6 +260,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 NV12ToI420
 (
@@ -291,6 +297,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 M420ToI420
 (
@@ -321,6 +328,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 Q420ToI420
 (
@@ -357,6 +365,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 YUY2ToI420
 (
@@ -387,6 +396,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 UYVYToI420
 (
@@ -417,6 +427,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 V210ToI420
 (
@@ -447,6 +458,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 ARGBToI420
 (
@@ -477,6 +489,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 BGRAToI420
 (
@@ -507,6 +520,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 ABGRToI420
 (
@@ -537,6 +551,38 @@ int
 height
 )
 ;
+LIBYUV_API
+int
+RGBAToI420
+(
+const
+uint8
+*
+src_frame
+int
+src_stride_frame
+uint8
+*
+dst_y
+int
+dst_stride_y
+uint8
+*
+dst_u
+int
+dst_stride_u
+uint8
+*
+dst_v
+int
+dst_stride_v
+int
+width
+int
+height
+)
+;
+LIBYUV_API
 int
 RGB24ToI420
 (
@@ -567,6 +613,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 RAWToI420
 (
@@ -597,6 +644,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 RGB565ToI420
 (
@@ -627,6 +675,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 ARGB1555ToI420
 (
@@ -657,6 +706,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 ARGB4444ToI420
 (
@@ -690,6 +740,7 @@ height
 #
 ifdef
 HAVE_JPEG
+LIBYUV_API
 int
 MJPGToI420
 (
@@ -726,6 +777,7 @@ dst_height
 ;
 #
 endif
+LIBYUV_API
 int
 ConvertToI420
 (

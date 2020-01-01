@@ -37,7 +37,7 @@ h
 #
 include
 "
-source
+libyuv
 /
 row
 .
@@ -710,6 +710,7 @@ return
 0
 ;
 }
+LIBYUV_API
 int
 ARGBToBayer
 (
@@ -1995,6 +1996,7 @@ dst_argb
 ;
 }
 }
+LIBYUV_API
 int
 BayerToARGB
 (
@@ -2225,6 +2227,7 @@ return
 0
 ;
 }
+LIBYUV_API
 int
 BayerToI420
 (
@@ -2701,6 +2704,7 @@ return
 0
 ;
 }
+LIBYUV_API
 int
 I420ToBayer
 (
@@ -3055,6 +3059,8 @@ MAKEBAYERFOURCC
 BAYER
 )
 \
+LIBYUV_API
+\
 int
 Bayer
 #
@@ -3124,6 +3130,8 @@ BAYER
 }
 \
 \
+LIBYUV_API
+\
 int
 I420ToBayer
 #
@@ -3192,6 +3200,8 @@ BAYER
 }
 \
 \
+LIBYUV_API
+\
 int
 ARGBToBayer
 #
@@ -3239,6 +3249,8 @@ BAYER
 \
 }
 \
+\
+LIBYUV_API
 \
 int
 Bayer

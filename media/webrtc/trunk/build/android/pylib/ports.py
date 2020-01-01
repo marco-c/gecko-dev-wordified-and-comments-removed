@@ -193,6 +193,11 @@ port
 =
 0
   
+ports_tried
+=
+[
+]
+  
 try
 :
     
@@ -256,6 +261,13 @@ read
 )
 )
       
+ports_tried
+.
+append
+(
+port
+)
+      
 while
 IsHostPortUsed
 (
@@ -267,6 +279,13 @@ port
 +
 =
 1
+        
+ports_tried
+.
+append
+(
+port
+)
       
 if
 (
@@ -354,6 +373,10 @@ close
 (
 )
   
+if
+port
+:
+    
 logging
 .
 info
@@ -369,6 +392,39 @@ server
 .
 '
 port
+)
+  
+else
+:
+    
+logging
+.
+error
+(
+'
+Could
+not
+allocate
+port
+for
+test
+server
+.
+'
+                  
+'
+List
+of
+ports
+tried
+:
+%
+s
+'
+str
+(
+ports_tried
+)
 )
   
 return

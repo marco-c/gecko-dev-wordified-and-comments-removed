@@ -22,6 +22,9 @@ h
 #
 include
 "
+.
+.
+/
 unit_test
 /
 unit_test

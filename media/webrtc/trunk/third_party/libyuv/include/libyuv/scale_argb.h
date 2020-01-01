@@ -35,6 +35,7 @@ C
 {
 #
 endif
+LIBYUV_API
 int
 ARGBScale
 (

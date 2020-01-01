@@ -199,6 +199,7 @@ windows
 h
 >
 static
+inline
 double
 get_time
 (
@@ -271,6 +272,7 @@ resource
 h
 >
 static
+inline
 double
 get_time
 (
@@ -333,7 +335,6 @@ const
 int
 rotate_max_h_
 ;
-const
 int
 benchmark_iterations_
 ;

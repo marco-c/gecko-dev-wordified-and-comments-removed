@@ -128,10 +128,6 @@ line
 =
 =
 =
-=
-=
-=
-=
 Let
 '
 s
@@ -143,7 +139,7 @@ Add
 one
 sentence
 for
-each
+every
 commit
 :
 CHAPTER
@@ -216,7 +212,7 @@ the
 darkness
 .
 A
-dark
+hooded
 figure
 emerged
 .
@@ -241,8 +237,8 @@ wife
 .
 Silence
 .
-Not
-noticing
+Oblivious
+to
 his
 silence
 she
@@ -349,7 +345,7 @@ It
 reminds
 me
 of
-the
+that
 time
 -
 -
@@ -674,3 +670,14 @@ NECESSARILY
 A
 BETTER
 MAN
+This
+commit
+will
+change
+the
+world
+as
+we
+know
+it
+.

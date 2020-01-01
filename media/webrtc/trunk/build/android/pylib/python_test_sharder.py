@@ -18,6 +18,8 @@ devices
 "
 "
 import
+copy
+import
 logging
 import
 multiprocessing
@@ -264,8 +266,7 @@ def
 __init__
 (
 self
-device_id
-shard_index
+options
 )
 :
     
@@ -278,32 +279,15 @@ Constructor
 Args
 :
       
-device_id
+options
 :
-ID
-of
-the
-device
-which
-this
-test
-will
-talk
+Options
 to
-.
-      
-shard_index
-:
-shard
-index
-used
-to
-create
-such
-as
-unique
-port
-numbers
+use
+for
+setting
+up
+tests
 .
     
 "
@@ -312,15 +296,9 @@ numbers
     
 self
 .
-device_id
+options
 =
-device_id
-    
-self
-.
-shard_index
-=
-shard_index
+options
   
 def
 RunTests
@@ -391,10 +369,7 @@ CallPythonTest
 t
 self
 .
-device_id
-self
-.
-shard_index
+options
 )
       
 results
@@ -481,17 +456,6 @@ the
 host
 .
     
-shard_retries
-:
-number
-of
-retries
-for
-any
-given
-test
-.
-    
 available_tests
 :
 a
@@ -503,6 +467,17 @@ run
 which
 subclass
 PythonTestBase
+.
+    
+options
+:
+Options
+to
+use
+for
+setting
+up
+tests
 .
   
 Returns
@@ -529,10 +504,16 @@ __init__
 (
 self
 attached_devices
-shard_retries
 available_tests
+options
 )
 :
+    
+self
+.
+options
+=
+options
     
 self
 .
@@ -544,6 +525,8 @@ self
 .
 retries
 =
+options
+.
 shard_retries
     
 self
@@ -1065,12 +1048,42 @@ warning
 80
 )
       
+test_options
+=
+copy
+.
+deepcopy
+(
+self
+.
+options
+)
+      
+test_options
+.
+ensure_value
+(
+'
+device_id
+'
+device
+)
+      
+test_options
+.
+ensure_value
+(
+'
+shard_index
+'
+index
+)
+      
 test_runner
 =
 PythonTestRunner
 (
-device
-index
+test_options
 )
       
 test_runners

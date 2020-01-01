@@ -858,6 +858,8 @@ exclude
 '
 _gtk
 (
+_browsertest
+|
 _unittest
 )
 ?

@@ -33,6 +33,9 @@ h
 #
 include
 "
+.
+.
+/
 unit_test
 /
 unit_test
@@ -56,6 +59,8 @@ int
 dst_height
 FilterMode
 f
+int
+benchmark_iterations
 )
 {
 const
@@ -217,12 +222,6 @@ random
 ;
 }
 }
-const
-int
-runs
-=
-1000
-;
 align_buffer_16
 (
 dst_argb_c
@@ -344,7 +343,7 @@ i
 ;
 i
 <
-runs
+benchmark_iterations
 ;
 +
 +
@@ -395,7 +394,7 @@ get_time
 c_time
 )
 /
-runs
+benchmark_iterations
 ;
 MaskCpuFlags
 (
@@ -418,7 +417,7 @@ i
 ;
 i
 <
-runs
+benchmark_iterations
 ;
 +
 +
@@ -469,7 +468,7 @@ get_time
 opt_time
 )
 /
-runs
+benchmark_iterations
 ;
 printf
 (
@@ -682,6 +681,7 @@ FilterMode
 (
 f
 )
+benchmark_iterations_
 )
 ;
 EXPECT_LE
@@ -758,6 +758,7 @@ FilterMode
 (
 f
 )
+benchmark_iterations_
 )
 ;
 EXPECT_LE
@@ -834,6 +835,7 @@ FilterMode
 (
 f
 )
+benchmark_iterations_
 )
 ;
 EXPECT_LE
@@ -910,6 +912,7 @@ FilterMode
 (
 f
 )
+benchmark_iterations_
 )
 ;
 EXPECT_LE
@@ -986,6 +989,7 @@ FilterMode
 (
 f
 )
+benchmark_iterations_
 )
 ;
 EXPECT_LE
@@ -1066,6 +1070,7 @@ FilterMode
 (
 f
 )
+benchmark_iterations_
 )
 ;
 EXPECT_LE
@@ -1142,6 +1147,7 @@ FilterMode
 (
 f
 )
+benchmark_iterations_
 )
 ;
 EXPECT_LE
@@ -1210,6 +1216,7 @@ FilterMode
 (
 f
 )
+benchmark_iterations_
 )
 ;
 EXPECT_LE
@@ -1280,6 +1287,7 @@ FilterMode
 (
 f
 )
+benchmark_iterations_
 )
 ;
 EXPECT_LE
@@ -1348,6 +1356,7 @@ FilterMode
 (
 f
 )
+benchmark_iterations_
 )
 ;
 EXPECT_LE

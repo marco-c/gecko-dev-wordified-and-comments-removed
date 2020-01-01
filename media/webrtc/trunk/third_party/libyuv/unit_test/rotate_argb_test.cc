@@ -33,6 +33,9 @@ h
 #
 include
 "
+.
+.
+/
 unit_test
 /
 unit_test
@@ -59,6 +62,8 @@ libyuv
 :
 RotationMode
 mode
+int
+runs
 )
 {
 const
@@ -220,12 +225,6 @@ random
 ;
 }
 }
-const
-int
-runs
-=
-1000
-;
 align_buffer_16
 (
 dst_argb_c
@@ -649,6 +648,7 @@ src_height
 dst_width
 dst_height
 kRotate0
+benchmark_iterations_
 )
 ;
 EXPECT_GE
@@ -698,6 +698,7 @@ src_height
 dst_width
 dst_height
 kRotate90
+benchmark_iterations_
 )
 ;
 EXPECT_GE
@@ -747,6 +748,7 @@ src_height
 dst_width
 dst_height
 kRotate180
+benchmark_iterations_
 )
 ;
 EXPECT_GE
@@ -796,6 +798,7 @@ src_height
 dst_width
 dst_height
 kRotate270
+benchmark_iterations_
 )
 ;
 EXPECT_GE
@@ -845,6 +848,7 @@ src_height
 dst_width
 dst_height
 kRotate0
+benchmark_iterations_
 )
 ;
 EXPECT_GE
@@ -894,6 +898,7 @@ src_height
 dst_width
 dst_height
 kRotate90
+benchmark_iterations_
 )
 ;
 EXPECT_GE
@@ -943,6 +948,7 @@ src_height
 dst_width
 dst_height
 kRotate180
+benchmark_iterations_
 )
 ;
 EXPECT_GE
@@ -992,6 +998,7 @@ src_height
 dst_width
 dst_height
 kRotate270
+benchmark_iterations_
 )
 ;
 EXPECT_GE

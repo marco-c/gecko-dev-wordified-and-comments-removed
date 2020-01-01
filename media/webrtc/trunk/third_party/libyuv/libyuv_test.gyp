@@ -155,6 +155,10 @@ n
 )
 "
 '
+#
+'
+LIBYUV_USING_SHARED_LIBRARY
+'
 ]
 '
 sources

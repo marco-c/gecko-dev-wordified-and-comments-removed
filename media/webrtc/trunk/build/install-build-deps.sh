@@ -647,7 +647,7 @@ pre
 -
 built
 #
-NaCL
+NaCl
 binaries
 .
 These
@@ -705,6 +705,10 @@ libc6
 -
 i386
 lib32gcc1
+lib32stdc
++
++
+6
 "
 fi
 #

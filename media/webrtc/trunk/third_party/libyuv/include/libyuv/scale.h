@@ -40,6 +40,7 @@ kFilterBox
 2
 }
 ;
+LIBYUV_API
 void
 ScalePlane
 (
@@ -66,6 +67,7 @@ FilterMode
 filtering
 )
 ;
+LIBYUV_API
 int
 I420Scale
 (
@@ -114,6 +116,7 @@ FilterMode
 filtering
 )
 ;
+LIBYUV_API
 int
 Scale
 (
@@ -162,6 +165,7 @@ bool
 interpolate
 )
 ;
+LIBYUV_API
 int
 ScaleOffset
 (
@@ -186,6 +190,7 @@ bool
 interpolate
 )
 ;
+LIBYUV_API
 void
 SetUseReferenceImpl
 (

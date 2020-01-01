@@ -57,6 +57,7 @@ endif
 define
 ARGBToARGB
 ARGBCopy
+LIBYUV_API
 int
 ARGBCopy
 (
@@ -77,6 +78,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 I420ToARGB
 (
@@ -109,6 +111,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 I422ToARGB
 (
@@ -141,6 +144,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 I444ToARGB
 (
@@ -173,6 +177,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 I411ToARGB
 (
@@ -205,6 +210,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 I400ToARGB
 (
@@ -225,6 +231,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 I400ToARGB_Reference
 (
@@ -245,6 +252,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 NV12ToARGB
 (
@@ -271,6 +279,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 NV21ToARGB
 (
@@ -297,6 +306,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 M420ToARGB
 (
@@ -317,6 +327,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 YUY2ToARGB
 (
@@ -337,6 +348,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 UYVYToARGB
 (
@@ -357,6 +369,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 BGRAToARGB
 (
@@ -377,8 +390,30 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 ABGRToARGB
+(
+const
+uint8
+*
+src_frame
+int
+src_stride_frame
+uint8
+*
+dst_argb
+int
+dst_stride_argb
+int
+width
+int
+height
+)
+;
+LIBYUV_API
+int
+RGBAToARGB
 (
 const
 uint8
@@ -401,6 +436,7 @@ height
 define
 BG24ToARGB
 RGB24ToARGB
+LIBYUV_API
 int
 RGB24ToARGB
 (
@@ -421,6 +457,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 RAWToARGB
 (
@@ -441,6 +478,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 RGB565ToARGB
 (
@@ -461,6 +499,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 ARGB1555ToARGB
 (
@@ -481,6 +520,7 @@ int
 height
 )
 ;
+LIBYUV_API
 int
 ARGB4444ToARGB
 (
@@ -504,6 +544,7 @@ height
 #
 ifdef
 HAVE_JPEG
+LIBYUV_API
 int
 MJPGToARGB
 (
@@ -530,6 +571,7 @@ dst_height
 ;
 #
 endif
+LIBYUV_API
 int
 ConvertToARGB
 (
