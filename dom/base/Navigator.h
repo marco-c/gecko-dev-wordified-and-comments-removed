@@ -180,6 +180,12 @@ IsSmsAllowed
 )
 const
 ;
+bool
+IsSmsSupported
+(
+)
+const
+;
 static
 bool
 sDoNotTrackEnabled
