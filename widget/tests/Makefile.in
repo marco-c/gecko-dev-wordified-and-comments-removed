@@ -533,6 +533,14 @@ test_bug485118
 .
 xul
 \
+test_bug522217
+.
+xul
+\
+window_bug522217
+.
+xul
+\
 test_platform_colors
 .
 xul
