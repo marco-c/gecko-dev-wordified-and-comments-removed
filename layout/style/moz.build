@@ -341,6 +341,11 @@ nsStyleStructInlines
 h
 '
 '
+nsStyleStructList
+.
+h
+'
+'
 nsStyleTransformMatrix
 .
 h
