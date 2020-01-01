@@ -856,7 +856,7 @@ fmt
 ;
 fprintf
 (
-stdout
+stderr
 "
 [
 infer
@@ -867,14 +867,14 @@ failure
 ;
 vfprintf
 (
-stdout
+stderr
 fmt
 ap
 )
 ;
 fprintf
 (
-stdout
+stderr
 "
 \
 n
@@ -905,7 +905,7 @@ compartment
 ;
 fflush
 (
-stdout
+stderr
 )
 ;
 *
