@@ -517,9 +517,11 @@ PreserveOTLTablesWhenSanitizing
 (
 )
 ;
-PRInt8
-UseHarfBuzzLevel
+PRBool
+UseHarfBuzzForScript
 (
+PRInt32
+aScriptCode
 )
 ;
 virtual
@@ -826,8 +828,8 @@ mDownloadableFontsSanitize
 PRBool
 mSanitizePreserveOTLTables
 ;
-PRInt8
-mUseHarfBuzzLevel
+PRInt32
+mUseHarfBuzzScripts
 ;
 private
 :

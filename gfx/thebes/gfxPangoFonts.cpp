@@ -703,6 +703,7 @@ if
 mSkipHarfBuzz
 |
 |
+!
 gfxPlatform
 :
 :
@@ -711,14 +712,7 @@ GetPlatform
 )
 -
 >
-UseHarfBuzzLevel
-(
-)
-<
-gfxUnicodeProperties
-:
-:
-ScriptShapingLevel
+UseHarfBuzzForScript
 (
 aRunScript
 )

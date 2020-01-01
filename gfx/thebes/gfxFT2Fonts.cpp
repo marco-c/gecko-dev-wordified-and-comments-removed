@@ -3704,15 +3704,7 @@ GetPlatform
 )
 -
 >
-UseHarfBuzzLevel
-(
-)
->
-=
-gfxUnicodeProperties
-:
-:
-ScriptShapingLevel
+UseHarfBuzzForScript
 (
 aRunScript
 )
