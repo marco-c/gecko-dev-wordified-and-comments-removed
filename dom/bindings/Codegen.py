@@ -27011,6 +27011,10 @@ returnType
 descriptorProvider
                                 
 resultAlreadyAddRefed
+                                
+isMember
+=
+False
 )
 :
     
@@ -27098,11 +27102,24 @@ isString
 )
 :
         
+if
+isMember
+:
+            
 return
 CGGeneric
 (
 "
 nsString
+"
+)
+True
+        
+return
+CGGeneric
+(
+"
+DOMString
 "
 )
 True
@@ -27361,6 +27378,10 @@ inner
 descriptorProvider
                                                   
 resultAlreadyAddRefed
+                                                  
+isMember
+=
+True
 )
         
 result
