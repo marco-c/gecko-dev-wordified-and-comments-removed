@@ -1,9 +1,9 @@
 #
 ifndef
-ns4xPluginInstance_h_
+nsNPAPIPluginInstance_h_
 #
 define
-ns4xPluginInstance_h_
+nsNPAPIPluginInstance_h_
 #
 include
 "
@@ -75,7 +75,7 @@ prlink
 h
 "
 class
-ns4xPluginStreamListener
+nsNPAPIPluginStreamListener
 ;
 class
 nsPIDOMWindow
@@ -87,7 +87,7 @@ nsInstanceStream
 *
 mNext
 ;
-ns4xPluginStreamListener
+nsNPAPIPluginStreamListener
 *
 mPluginStreamListener
 ;
@@ -103,7 +103,7 @@ nsInstanceStream
 }
 ;
 class
-ns4xPluginInstance
+nsNPAPIPluginInstance
 :
 public
 nsIPluginInstance
@@ -236,7 +236,7 @@ char
 aURL
 )
 ;
-ns4xPluginInstance
+nsNPAPIPluginInstance
 (
 NPPluginFuncs
 *
@@ -248,7 +248,7 @@ aLibrary
 ;
 virtual
 ~
-ns4xPluginInstance
+nsNPAPIPluginInstance
 (
 void
 )

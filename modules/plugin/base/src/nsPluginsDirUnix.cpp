@@ -8,14 +8,14 @@ h
 #
 include
 "
-ns4xPlugin
+nsNPAPIPlugin
 .
 h
 "
 #
 include
 "
-ns4xPluginInstance
+nsNPAPIPluginInstance
 .
 h
 "
@@ -1950,7 +1950,7 @@ rv
 {
 rv
 =
-ns4xPlugin
+nsNPAPIPlugin
 :
 :
 CreatePlugin
@@ -1990,7 +1990,7 @@ else
 {
 rv
 =
-ns4xPlugin
+nsNPAPIPlugin
 :
 :
 CreatePlugin

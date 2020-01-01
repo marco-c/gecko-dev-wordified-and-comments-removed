@@ -518,11 +518,11 @@ endif
 CPPSRCS
 =
 \
-ns4xPlugin
+nsNPAPIPlugin
 .
 cpp
 \
-ns4xPluginInstance
+nsNPAPIPluginInstance
 .
 cpp
 \

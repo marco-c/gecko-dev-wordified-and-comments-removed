@@ -36,14 +36,14 @@ h
 #
 include
 "
-ns4xPlugin
+nsNPAPIPlugin
 .
 h
 "
 #
 include
 "
-ns4xPluginStreamListener
+nsNPAPIPluginStreamListener
 .
 h
 "
@@ -5195,7 +5195,7 @@ class
 nsPluginStreamInfo
 :
 public
-nsI4xPluginStreamInfo
+nsINPAPIPluginStreamInfo
 {
 public
 :
@@ -5745,7 +5745,7 @@ NS_IMPL_ISUPPORTS2
 (
 nsPluginStreamInfo
 nsIPluginStreamInfo
-nsI4xPluginStreamInfo
+nsINPAPIPluginStreamInfo
 )
 NS_IMETHODIMP
 nsPluginStreamInfo
@@ -18720,7 +18720,7 @@ NS_OK
 }
 static
 nsresult
-Create4xPlugin
+CreateNPAPIPlugin
 (
 nsIServiceManagerObsolete
 *
@@ -18732,7 +18732,7 @@ aPluginTag
 nsIPlugin
 *
 *
-aOut4xPlugnin
+aOutNPAPIPlugnin
 )
 {
 nsresult
@@ -18900,7 +18900,7 @@ mFullPath
 ;
 }
 return
-ns4xPlugin
+nsNPAPIPlugin
 :
 :
 CreatePlugin
@@ -18919,7 +18919,7 @@ aPluginTag
 -
 >
 mLibrary
-aOut4xPlugnin
+aOutNPAPIPlugnin
 )
 ;
 }
@@ -19523,7 +19523,7 @@ else
 {
 rv
 =
-Create4xPlugin
+CreateNPAPIPlugin
 (
 serviceManager
 pluginTag
@@ -20240,7 +20240,7 @@ result
 ;
 }
 typedef
-NS_4XPLUGIN_CALLBACK
+NS_NPAPIPLUGIN_CALLBACK
 (
 char
 *

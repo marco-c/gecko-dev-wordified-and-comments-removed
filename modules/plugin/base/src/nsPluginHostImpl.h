@@ -77,7 +77,7 @@ h
 #
 include
 "
-ns4xPluginInstance
+nsNPAPIPluginInstance
 .
 h
 "
@@ -215,7 +215,7 @@ nsIFactory
 h
 "
 class
-ns4xPlugin
+nsNPAPIPlugin
 ;
 class
 nsIComponentManager
@@ -1622,7 +1622,7 @@ npp
 ?
 static_cast
 <
-ns4xPluginInstance
+nsNPAPIPluginInstance
 *
 >
 (

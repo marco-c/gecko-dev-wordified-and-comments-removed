@@ -1,9 +1,9 @@
 #
 ifndef
-ns4xPlugin_h_
+nsNPAPIPlugin_h_
 #
 define
-ns4xPlugin_h_
+nsNPAPIPlugin_h_
 #
 include
 "
@@ -75,7 +75,7 @@ XP_WIN
 )
 #
 define
-NS_4XPLUGIN_CALLBACK
+NS_NPAPIPLUGIN_CALLBACK
 (
 _type
 _name
@@ -94,7 +94,7 @@ XP_OS2
 )
 #
 define
-NS_4XPLUGIN_CALLBACK
+NS_NPAPIPLUGIN_CALLBACK
 (
 _type
 _name
@@ -109,7 +109,7 @@ _name
 else
 #
 define
-NS_4XPLUGIN_CALLBACK
+NS_NPAPIPLUGIN_CALLBACK
 (
 _type
 _name
@@ -122,7 +122,7 @@ _name
 #
 endif
 typedef
-NS_4XPLUGIN_CALLBACK
+NS_NPAPIPLUGIN_CALLBACK
 (
 NPError
 NP_GETENTRYPOINTS
@@ -134,7 +134,7 @@ pCallbacks
 )
 ;
 typedef
-NS_4XPLUGIN_CALLBACK
+NS_NPAPIPLUGIN_CALLBACK
 (
 NPError
 NP_PLUGININIT
@@ -147,7 +147,7 @@ pCallbacks
 )
 ;
 typedef
-NS_4XPLUGIN_CALLBACK
+NS_NPAPIPLUGIN_CALLBACK
 (
 NPError
 NP_PLUGINUNIXINIT
@@ -163,7 +163,7 @@ fCallbacks
 )
 ;
 typedef
-NS_4XPLUGIN_CALLBACK
+NS_NPAPIPLUGIN_CALLBACK
 (
 NPError
 NP_PLUGINSHUTDOWN
@@ -176,7 +176,7 @@ void
 ifdef
 XP_MACOSX
 typedef
-NS_4XPLUGIN_CALLBACK
+NS_NPAPIPLUGIN_CALLBACK
 (
 NPError
 NP_MAIN
@@ -196,14 +196,14 @@ unloadUpp
 #
 endif
 class
-ns4xPlugin
+nsNPAPIPlugin
 :
 public
 nsIPlugin
 {
 public
 :
-ns4xPlugin
+nsNPAPIPlugin
 (
 NPPluginFuncs
 *
@@ -217,7 +217,7 @@ aShutdown
 ;
 virtual
 ~
-ns4xPlugin
+nsNPAPIPlugin
 (
 void
 )

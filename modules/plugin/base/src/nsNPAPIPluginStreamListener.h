@@ -1,9 +1,9 @@
 #
 ifndef
-ns4xPluginStreamListener_h_
+nsNPAPIPluginStreamListener_h_
 #
 define
-ns4xPluginStreamListener_h_
+nsNPAPIPluginStreamListener_h_
 #
 include
 "
@@ -51,13 +51,13 @@ define
 MAX_PLUGIN_NECKO_BUFFER
 16384
 class
-ns4xPluginInstance
+nsNPAPIPluginInstance
 ;
 class
-nsI4xPluginStreamInfo
+nsINPAPIPluginStreamInfo
 ;
 class
-ns4xPluginStreamListener
+nsNPAPIPluginStreamListener
 :
 public
 nsIPluginStreamListener
@@ -72,9 +72,9 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIPLUGINSTREAMLISTENER
 NS_DECL_NSITIMERCALLBACK
 NS_DECL_NSIHTTPHEADERLISTENER
-ns4xPluginStreamListener
+nsNPAPIPluginStreamListener
 (
-ns4xPluginInstance
+nsNPAPIPluginInstance
 *
 inst
 void
@@ -88,7 +88,7 @@ aURL
 ;
 virtual
 ~
-ns4xPluginStreamListener
+nsNPAPIPluginStreamListener
 (
 )
 ;
@@ -162,7 +162,7 @@ char
 *
 mNotifyURL
 ;
-ns4xPluginInstance
+nsNPAPIPluginInstance
 *
 mInst
 ;
@@ -218,7 +218,7 @@ mStreamInfo
 ;
 #
 define
-NS_I4XPLUGINSTREAMINFO_IID
+NS_INPAPIPLUGINSTREAMINFO_IID
 \
 {
 0x097fdaaa
@@ -237,7 +237,7 @@ NS_I4XPLUGINSTREAMINFO_IID
 }
 }
 class
-nsI4xPluginStreamInfo
+nsINPAPIPluginStreamInfo
 :
 public
 nsIPluginStreamInfo
@@ -246,7 +246,7 @@ public
 :
 NS_DECLARE_STATIC_IID_ACCESSOR
 (
-NS_I4XPLUGINSTREAMINFO_IID
+NS_INPAPIPLUGINSTREAMINFO_IID
 )
 nsIRequest
 *
@@ -270,8 +270,8 @@ mRequest
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
 (
-nsI4xPluginStreamInfo
-NS_I4XPLUGINSTREAMINFO_IID
+nsINPAPIPluginStreamInfo
+NS_INPAPIPLUGINSTREAMINFO_IID
 )
 #
 endif
