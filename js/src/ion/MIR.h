@@ -2664,8 +2664,6 @@ MTableSwitch
 :
 public
 MControlInstruction
-public
-TableSwitchPolicy
 {
 Vector
 <
@@ -3085,16 +3083,6 @@ const
 {
 return
 1
-;
-}
-TypePolicy
-*
-typePolicy
-(
-)
-{
-return
-this
 ;
 }
 }
