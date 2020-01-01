@@ -453,6 +453,10 @@ frameChromeSlave
 .
 html
 \
+frameKeySync
+.
+html
+\
 frameMasterEqual
 .
 html
@@ -528,6 +532,10 @@ phase2
 html
 \
 test_embededNulls
+.
+html
+\
+test_keySync
 .
 html
 \
