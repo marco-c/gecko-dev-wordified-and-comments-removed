@@ -3838,6 +3838,11 @@ repeat
 =
 FALSE
 ;
+cairo_bool_t
+opaque
+=
+TRUE
+;
 pixman_gradient_stop_t
 pixman_stops_static
 [
@@ -4045,6 +4050,25 @@ i
 color
 .
 alpha_short
+;
+if
+(
+!
+CAIRO_ALPHA_SHORT_IS_OPAQUE
+(
+pixman_stops
+[
+i
+]
+.
+color
+.
+alpha
+)
+)
+opaque
+=
+FALSE
 ;
 }
 if
@@ -4853,6 +4877,11 @@ image
 -
 >
 base
+opaque
+?
+CAIRO_CONTENT_COLOR
+:
+CAIRO_CONTENT_COLOR_ALPHA
 0
 0
 width
@@ -5954,6 +5983,8 @@ pattern
 cairo_surface_t
 *
 dst
+cairo_content_t
+content
 int
 x
 int
@@ -6324,6 +6355,7 @@ _cairo_surface_clone_similar
 (
 dst
 surface
+content
 extents
 .
 x
@@ -7052,6 +7084,7 @@ _cairo_surface_clone_similar
 (
 dst
 surface
+content
 extents
 .
 x
@@ -7320,6 +7353,8 @@ pattern
 cairo_surface_t
 *
 dst
+cairo_content_t
+content
 int
 x
 int
@@ -7624,6 +7659,7 @@ _cairo_pattern_acquire_surface_for_surface
 (
 src
 dst
+content
 x
 y
 width
@@ -7686,6 +7722,8 @@ mask
 cairo_surface_t
 *
 dst
+cairo_content_t
+src_content
 int
 src_x
 int
@@ -7824,6 +7862,7 @@ src_tmp
 solid
 &
 combined
+(
 src_solid
 -
 >
@@ -7833,6 +7872,9 @@ mask_solid
 -
 >
 content
+)
+&
+src_content
 )
 ;
 src
@@ -7853,6 +7895,7 @@ _cairo_pattern_acquire_surface
 (
 src
 dst
+src_content
 src_x
 src_y
 width
@@ -7894,6 +7937,7 @@ _cairo_pattern_acquire_surface
 (
 mask
 dst
+CAIRO_CONTENT_ALPHA
 mask_x
 mask_y
 width

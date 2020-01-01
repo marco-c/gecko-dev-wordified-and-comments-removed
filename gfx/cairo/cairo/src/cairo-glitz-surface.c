@@ -1364,6 +1364,8 @@ abstract_surface
 cairo_surface_t
 *
 src
+cairo_content_t
+content
 int
 src_x
 int
@@ -2998,6 +3000,7 @@ dst
 -
 >
 base
+CAIRO_CONTENT_COLOR_ALPHA
 x
 y
 width
@@ -9188,6 +9191,7 @@ _cairo_glitz_surface_clone_similar
 (
 abstract_surface
 image
+CAIRO_CONTENT_COLOR_ALPHA
 0
 0
 glyph_width

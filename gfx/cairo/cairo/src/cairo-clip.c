@@ -2687,6 +2687,7 @@ other
 -
 >
 surface
+CAIRO_CONTENT_ALPHA
 0
 0
 other
