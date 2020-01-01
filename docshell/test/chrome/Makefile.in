@@ -421,6 +421,10 @@ test_bug789773
 .
 xul
 \
+test_private_hidden_window
+.
+html
+\
 docshell_helpers
 .
 js

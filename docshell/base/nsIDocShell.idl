@@ -4781,6 +4781,14 @@ boolean
 allowed
 )
 ;
+[
+noscript
+infallible
+]
+attribute
+boolean
+affectPrivateSessionLifetime
+;
 /
 *
 *
