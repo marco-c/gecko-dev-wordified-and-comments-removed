@@ -170,7 +170,7 @@ android
 :
 attr
 /
-textAppearanceMediumInverse
+textAppearanceMedium
 "
 android
 :
@@ -182,7 +182,7 @@ android
 :
 attr
 /
-textColorPrimaryInverse
+textColorPrimary
 "
 android
 :
@@ -245,7 +245,7 @@ android
 :
 attr
 /
-textAppearanceSmallInverse
+textAppearanceSmall
 "
 android
 :
@@ -257,7 +257,7 @@ android
 :
 attr
 /
-textColorSecondaryInverse
+textColorSecondary
 "
 android
 :
