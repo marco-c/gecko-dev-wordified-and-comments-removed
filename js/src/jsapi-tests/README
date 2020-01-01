@@ -752,17 +752,6 @@ a
 =
 b
 .
-And
-see
-class
-jsvalRoot
-also
-defined
-in
-tests
-.
-h
-.
 -
 -
 -
@@ -825,7 +814,7 @@ BEGIN_TEST
 testGlobalResolveHook
 )
 {
-jsvalRoot
+RootedValue
 v
 ;
 EVAL
@@ -835,7 +824,7 @@ v
 "
 v
 .
-addr
+address
 (
 )
 )
