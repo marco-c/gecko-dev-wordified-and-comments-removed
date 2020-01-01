@@ -49,13 +49,6 @@ h
 #
 include
 "
-nsGUIEvent
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h

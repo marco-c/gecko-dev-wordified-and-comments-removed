@@ -432,6 +432,14 @@ nsEvent
 .
 h
 \
+nsNativeWidget
+.
+h
+\
+nsWidgetInitData
+.
+h
+\
 nsIEventListener
 .
 h

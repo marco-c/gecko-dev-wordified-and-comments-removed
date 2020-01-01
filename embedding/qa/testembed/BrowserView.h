@@ -196,11 +196,6 @@ nsIWebNavigation
 >
 mWebNav
 ;
-typedef
-void
-*
-nsNativeWidget
-;
 void
 UpdateBusyState
 (

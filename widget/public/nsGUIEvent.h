@@ -1554,16 +1554,6 @@ NS_SELECTION_SET
 NS_SELECTION_EVENT_START
 )
 enum
-nsSizeMode
-{
-nsSizeMode_Normal
-=
-0
-nsSizeMode_Minimized
-nsSizeMode_Maximized
-}
-;
-enum
 nsWindowZ
 {
 nsWindowZTop

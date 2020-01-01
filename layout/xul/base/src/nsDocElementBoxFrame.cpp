@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsIWidget
-.
-h
-"
-#
-include
-"
 nsPageFrame
 .
 h

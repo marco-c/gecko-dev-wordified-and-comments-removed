@@ -83,13 +83,6 @@ nsIView
 h
 "
 #
-include
-"
-nsIWidget
-.
-h
-"
-#
 ifdef
 MOZ_XUL
 #

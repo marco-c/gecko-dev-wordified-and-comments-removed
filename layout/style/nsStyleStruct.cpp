@@ -50,6 +50,13 @@ h
 #
 include
 "
+nsIWidget
+.
+h
+"
+#
+include
+"
 nsIStyleRule
 .
 h

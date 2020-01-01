@@ -99,13 +99,6 @@ h
 #
 include
 "
-nsIWidget
-.
-h
-"
-#
-include
-"
 nsIRenderingContext
 .
 h

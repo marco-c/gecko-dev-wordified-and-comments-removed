@@ -89,13 +89,6 @@ nsIWebNavigation
 .
 h
 "
-#
-include
-"
-nsIWidget
-.
-h
-"
 nsDocAccessibleWrap
 :
 :

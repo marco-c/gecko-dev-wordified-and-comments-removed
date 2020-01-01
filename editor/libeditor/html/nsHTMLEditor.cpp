@@ -526,13 +526,6 @@ h
 #
 include
 "
-nsIWidget
-.
-h
-"
-#
-include
-"
 nsIParserService
 .
 h

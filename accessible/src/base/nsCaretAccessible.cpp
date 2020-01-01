@@ -103,13 +103,9 @@ nsIViewManager
 .
 h
 "
-#
-include
-"
+class
 nsIWidget
-.
-h
-"
+;
 NS_IMPL_ISUPPORTS1
 (
 nsCaretAccessible

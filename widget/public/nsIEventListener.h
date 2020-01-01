@@ -11,9 +11,13 @@ nsISupports
 .
 h
 "
-class
-nsGUIEvent
-;
+#
+include
+"
+nsEvent
+.
+h
+"
 #
 define
 NS_IEVENTLISTENER_IID

@@ -71,13 +71,6 @@ h
 #
 include
 "
-nsIWidget
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h

@@ -90,13 +90,6 @@ h
 #
 include
 "
-nsIWidget
-.
-h
-"
-#
-include
-"
 nsIPrintSettings
 .
 h

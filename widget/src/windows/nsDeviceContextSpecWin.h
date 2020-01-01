@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsIWidget
-.
-h
-"
-#
-include
-"
 nsISupportsPrimitives
 .
 h
@@ -53,6 +46,9 @@ windows
 .
 h
 >
+class
+nsIWidget
+;
 class
 nsDeviceContextSpecWin
 :

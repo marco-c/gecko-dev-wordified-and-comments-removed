@@ -12,13 +12,6 @@ nsFont
 h
 "
 #
-include
-"
-nsIWidget
-.
-h
-"
-#
 define
 NS_SIDE_TOP
 0

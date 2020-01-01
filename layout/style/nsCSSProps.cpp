@@ -22,6 +22,13 @@ h
 #
 include
 "
+nsIWidget
+.
+h
+"
+#
+include
+"
 nsThemeConstants
 .
 h

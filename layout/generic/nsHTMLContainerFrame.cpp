@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsIWidget
-.
-h
-"
-#
-include
-"
 nsILinkHandler
 .
 h

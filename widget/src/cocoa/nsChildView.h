@@ -82,13 +82,6 @@ h
 #
 include
 "
-nsIWidget
-.
-h
-"
-#
-include
-"
 nsIAppShell
 .
 h

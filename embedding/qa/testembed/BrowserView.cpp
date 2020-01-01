@@ -83,13 +83,6 @@ PrintProgressDialog
 h
 "
 #
-include
-"
-nsIWidget
-.
-h
-"
-#
 ifdef
 _DEBUG
 #

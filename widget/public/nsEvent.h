@@ -12,6 +12,16 @@ nsEventStatus_eConsumeNoDefault
 nsEventStatus_eConsumeDoDefault
 }
 ;
+enum
+nsSizeMode
+{
+nsSizeMode_Normal
+=
+0
+nsSizeMode_Minimized
+nsSizeMode_Maximized
+}
+;
 class
 nsEvent
 ;
@@ -41,6 +51,9 @@ nsInputEvent
 ;
 class
 nsMouseEvent
+;
+class
+nsDragEvent
 ;
 class
 nsAccessibleEvent
