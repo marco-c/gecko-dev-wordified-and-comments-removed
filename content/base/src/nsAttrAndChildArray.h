@@ -206,6 +206,15 @@ aPos
 )
 const
 ;
+nsIContent
+*
+const
+*
+GetChildArray
+(
+)
+const
+;
 nsresult
 AppendChild
 (
