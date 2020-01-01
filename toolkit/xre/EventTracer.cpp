@@ -522,6 +522,10 @@ sExit
 =
 true
 ;
+SignalTracerThread
+(
+)
+;
 if
 (
 sTracerThread
