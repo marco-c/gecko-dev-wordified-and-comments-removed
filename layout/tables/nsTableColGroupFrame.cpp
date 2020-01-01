@@ -2290,8 +2290,6 @@ nsTableColGroupFrame
 :
 InvalidateFrame
 (
-uint32_t
-aFlags
 )
 {
 nsIFrame
@@ -2299,7 +2297,6 @@ nsIFrame
 :
 InvalidateFrame
 (
-aFlags
 )
 ;
 nsTableFrame
@@ -2319,9 +2316,6 @@ tableFrame
 >
 InvalidateFrame
 (
-aFlags
-|
-INVALIDATE_DONT_SCHEDULE_PAINT
 )
 ;
 }
