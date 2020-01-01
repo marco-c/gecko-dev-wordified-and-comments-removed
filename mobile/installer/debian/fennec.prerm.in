@@ -12,7 +12,6 @@ e
 RUNNING
 =
 ps
-ax
 |
 grep
 "
@@ -85,7 +84,6 @@ sleep
 RUNNING
 =
 ps
-ax
 |
 grep
 "
