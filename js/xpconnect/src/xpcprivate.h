@@ -8681,6 +8681,10 @@ QITableEntry
 offsets
 =
 UNKNOWN_OFFSETS
+bool
+callPostCreatePrototype
+=
+true
 )
 ;
 XPCWrappedNativeScope
@@ -9255,6 +9259,8 @@ const
 XPCNativeScriptableCreateInfo
 *
 scriptableCreateInfo
+bool
+callPostCreatePrototype
 )
 ;
 private
