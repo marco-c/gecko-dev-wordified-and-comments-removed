@@ -284,6 +284,16 @@ Selection
 "
 Selection
 "
+Focus
+:
+"
+Focus
+"
+Blur
+:
+"
+Blur
+"
 }
 ;
 const

@@ -494,6 +494,10 @@ browser_bug650345_find
 .
 js
 \
+browser_bug703692_focus_blur
+.
+js
+\
 head
 .
 js

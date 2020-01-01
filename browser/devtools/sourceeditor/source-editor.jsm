@@ -414,6 +414,16 @@ SELECTION
 "
 Selection
 "
+FOCUS
+:
+"
+Focus
+"
+BLUR
+:
+"
+Blur
+"
 }
 ;
 function
