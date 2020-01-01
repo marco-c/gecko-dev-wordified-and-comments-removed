@@ -6673,12 +6673,6 @@ bv
 .
 clampZoomLevel
 (
-bv
-.
-getZoomLevel
-(
-)
-*
 vis
 .
 width
