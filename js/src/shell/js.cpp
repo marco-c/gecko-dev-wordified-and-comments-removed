@@ -25621,7 +25621,7 @@ snarf
 Snarf
 0
 0
-JS_TypeHandlerString
+JS_TypeHandlerDynamic
 )
 JS_FN_TYPE
 (
@@ -25631,7 +25631,7 @@ read
 Snarf
 0
 0
-JS_TypeHandlerString
+JS_TypeHandlerDynamic
 )
 JS_FN_TYPE
 (
