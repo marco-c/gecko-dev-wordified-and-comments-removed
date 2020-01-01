@@ -4606,7 +4606,7 @@ R
 r
 )
 {
-emitprr
+emitrr
 (
 X64_xorps
 r
