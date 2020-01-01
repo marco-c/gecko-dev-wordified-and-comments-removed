@@ -24990,6 +24990,9 @@ newifp
 >
 frame
 ;
+#
+ifdef
+JS_TRACER
 if
 (
 JS_TRACE_MONITOR
@@ -25004,6 +25007,8 @@ RECORD
 EnterFrame
 )
 ;
+#
+endif
 inlineCallCount
 +
 +
