@@ -466,12 +466,6 @@ execute
 (
 )
 ;
-stmt
-.
-finalize
-(
-)
-;
 var
 bookmarksFile
 =
