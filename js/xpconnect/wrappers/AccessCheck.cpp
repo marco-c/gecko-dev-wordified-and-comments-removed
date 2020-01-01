@@ -77,13 +77,6 @@ jsfriendapi
 .
 h
 "
-#
-include
-"
-jscntxt
-.
-h
-"
 using
 namespace
 mozilla
@@ -548,7 +541,10 @@ propChars
 =
 JS_GetInternedStringCharsAndLength
 (
+JS_FORGET_STRING_FLATNESS
+(
 prop
+)
 &
 propLength
 )
@@ -1026,7 +1022,7 @@ domwin
 else
 if
 (
-JSID_IS_ATOM
+JSID_IS_STRING
 (
 id
 )
@@ -1572,7 +1568,7 @@ name
 ;
 if
 (
-JSID_IS_ATOM
+JSID_IS_STRING
 (
 id
 )
@@ -2514,7 +2510,7 @@ id
 |
 |
 (
-JSID_IS_ATOM
+JSID_IS_STRING
 (
 id
 )

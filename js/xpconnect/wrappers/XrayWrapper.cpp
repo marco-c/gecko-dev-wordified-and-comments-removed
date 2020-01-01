@@ -1175,7 +1175,7 @@ id
 if
 (
 !
-JSID_IS_ATOM
+JSID_IS_STRING
 (
 id
 )

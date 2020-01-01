@@ -24,13 +24,6 @@ h
 #
 include
 "
-jscntxt
-.
-h
-"
-#
-include
-"
 jsdbgapi
 .
 h
@@ -2619,10 +2612,10 @@ ifdef
 JS_GCMETER
 js_DumpGCStats
 (
+JS_GetRuntime
+(
 cx
--
->
-runtime
+)
 stdout
 )
 ;
