@@ -2818,11 +2818,17 @@ mustMoveKey
 true
 ;
 }
+if
+(
+used_slot
+)
+{
 PK11_FreeSlot
 (
 used_slot
 )
 ;
+}
 }
 }
 }

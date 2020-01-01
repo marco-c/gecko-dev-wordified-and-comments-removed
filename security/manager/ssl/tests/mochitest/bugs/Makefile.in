@@ -106,7 +106,7 @@ html
 NULL
 )
 #
-test_bug882865
+test_generateCRMFRequest
 .
 html
 tests
@@ -132,7 +132,7 @@ MOCHITEST_FILES
 +
 =
 \
-test_bug882865
+test_generateCRMFRequest
 .
 html
 \
