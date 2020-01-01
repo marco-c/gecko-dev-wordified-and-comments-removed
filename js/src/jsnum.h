@@ -49,11 +49,11 @@ ifdef
 HAVE_SSE2
 #
 ifdef
-__GNUC__
+USE_EMM_INTRIN
 #
 include
 <
-xmmintrin
+emmintrin
 .
 h
 >
@@ -62,7 +62,7 @@ else
 #
 include
 <
-emmintrin
+xmmintrin
 .
 h
 >
