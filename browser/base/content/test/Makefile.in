@@ -727,6 +727,10 @@ browser_bug749738
 .
 js
 \
+browser_bug752516
+.
+js
+\
 browser_bug763468_perwindowpb
 .
 js
@@ -1229,6 +1233,10 @@ plugin_bug744745
 html
 \
 plugin_bug749455
+.
+html
+\
+plugin_bug752516
 .
 html
 \
