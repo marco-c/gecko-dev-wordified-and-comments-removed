@@ -1617,6 +1617,11 @@ cutCmd
 accesskey
 ;
 "
+closemenu
+=
+"
+single
+"
 selection
 =
 "
@@ -1657,6 +1662,11 @@ copyCmd
 .
 label
 ;
+"
+closemenu
+=
+"
+single
 "
 accesskey
 =
@@ -1700,6 +1710,11 @@ pasteCmd
 .
 label
 ;
+"
+closemenu
+=
+"
+single
 "
 accesskey
 =
