@@ -14839,9 +14839,9 @@ backing
 if
 (
 type
+!
 =
-=
-JSVAL_TYPE_UNKNOWN
+JSVAL_TYPE_DOUBLE
 )
 {
 masm
@@ -14870,14 +14870,6 @@ fpreg
 }
 else
 {
-JS_ASSERT
-(
-type
-=
-=
-JSVAL_TYPE_DOUBLE
-)
-;
 target
 -
 >
