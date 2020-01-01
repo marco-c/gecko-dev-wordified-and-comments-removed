@@ -511,15 +511,6 @@ ins
 ;
 virtual
 bool
-visitBoundsCheck
-(
-LBoundsCheck
-*
-lir
-)
-;
-virtual
-bool
 visitGuardShape
 (
 LGuardShape
