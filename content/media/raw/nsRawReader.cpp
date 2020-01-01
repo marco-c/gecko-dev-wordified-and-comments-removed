@@ -55,6 +55,10 @@ mCurrentFrame
 (
 0
 )
+mFrameSize
+(
+0
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -726,6 +730,14 @@ thread
 .
 "
 )
+;
+if
+(
+!
+mFrameSize
+)
+return
+PR_FALSE
 ;
 PRInt64
 currentFrameTime
