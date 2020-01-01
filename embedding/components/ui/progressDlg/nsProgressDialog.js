@@ -4149,6 +4149,8 @@ properties
 ;
 }
 return
+len
+?
 this
 .
 mBundle
@@ -4158,6 +4160,15 @@ formatStringFromName
 propertyId
 strings
 len
+)
+:
+this
+.
+mBundle
+.
+getStringFromName
+(
+propertyId
 )
 ;
 }
