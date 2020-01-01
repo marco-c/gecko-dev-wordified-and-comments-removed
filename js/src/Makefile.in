@@ -1868,6 +1868,10 @@ VMFunctions
 .
 cpp
 \
+AliasAnalysis
+.
+cpp
+\
 (
 NULL
 )

@@ -187,7 +187,7 @@ return
 ins
 -
 >
-isIdempotent
+isMovable
 (
 )
 &
@@ -196,7 +196,7 @@ isIdempotent
 ins
 -
 >
-isNeverHoisted
+isEffectful
 (
 )
 ;
