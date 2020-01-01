@@ -238,11 +238,6 @@ nsIDOMHTMLLIElement
 idl
 '
 '
-nsIDOMHTMLLabelElement
-.
-idl
-'
-'
 nsIDOMHTMLLinkElement
 .
 idl

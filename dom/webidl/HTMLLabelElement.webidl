@@ -167,6 +167,9 @@ HTMLFormElement
 ?
 form
 ;
+[
+SetterThrows
+]
 attribute
 DOMString
 htmlFor
