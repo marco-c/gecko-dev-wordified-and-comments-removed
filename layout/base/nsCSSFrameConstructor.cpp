@@ -23206,6 +23206,9 @@ mDisplay
 NS_STYLE_DISPLAY_INLINE_BOX
 |
 |
+#
+ifdef
+MOZ_XUL
 aDisplay
 -
 >
@@ -23224,6 +23227,8 @@ mDisplay
 NS_STYLE_DISPLAY_INLINE_STACK
 |
 |
+#
+endif
 aDisplay
 -
 >
@@ -23231,6 +23236,9 @@ mDisplay
 =
 =
 NS_STYLE_DISPLAY_BOX
+#
+ifdef
+MOZ_XUL
 |
 |
 aDisplay
@@ -23294,6 +23302,8 @@ mDisplay
 =
 =
 NS_STYLE_DISPLAY_GROUPBOX
+#
+endif
 )
 ;
 }
@@ -24156,19 +24166,6 @@ nsStyleContext
 aStyleContext
 )
 {
-if
-(
-!
-IsXULDisplayType
-(
-aDisplay
-)
-)
-{
-return
-nsnull
-;
-}
 static
 const
 FrameConstructionDataByInt
