@@ -2067,6 +2067,15 @@ aGetCharCode
 ;
 static
 void
+HidePopupsInDocument
+(
+nsIDocument
+*
+aDocument
+)
+;
+static
+void
 GetOfflineAppManifest
 (
 nsIDOMWindow
