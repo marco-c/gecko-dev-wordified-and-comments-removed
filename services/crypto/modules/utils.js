@@ -270,10 +270,10 @@ return
 result
 ;
 }
-_sha1
+UTF8AndSHA1
 :
 function
-_sha1
+UTF8AndSHA1
 (
 message
 )
@@ -337,7 +337,7 @@ bytesAsHex
 (
 CryptoUtils
 .
-_sha1
+UTF8AndSHA1
 (
 message
 )
@@ -359,7 +359,7 @@ encodeBase32
 (
 CryptoUtils
 .
-_sha1
+UTF8AndSHA1
 (
 message
 )
