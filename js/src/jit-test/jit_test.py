@@ -2354,11 +2354,13 @@ Process
 target
 =
 process_test_results_parallel
+                             
 args
 =
 (
 async_test_result_queue
 result_process_return_queue
+                                   
 notify_queue
 len
 (
@@ -2366,6 +2368,8 @@ tests
 )
 OPTIONS
 JS
+lib_dir
+shell_args
 )
 )
     
@@ -2686,6 +2690,8 @@ notify_queue
 num_tests
 options
 js
+lib_dir
+shell_args
 )
 :
     
@@ -2705,6 +2711,8 @@ gen
 num_tests
 options
 js
+lib_dir
+shell_args
 )
     
 return_queue
@@ -2720,6 +2728,8 @@ failures
 complete
 doing
 options
+lib_dir
+shell_args
 )
 :
     
@@ -3066,6 +3076,8 @@ results
 num_tests
 options
 js
+lib_dir
+shell_args
 )
 :
     
@@ -3459,6 +3471,8 @@ failures
 complete
 doing
 options
+lib_dir
+shell_args
 )
 def
 get_serial_results
@@ -3520,6 +3534,8 @@ tests
 )
 OPTIONS
 JS
+lib_dir
+shell_args
 )
     
 return
