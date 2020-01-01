@@ -11454,6 +11454,8 @@ uintN
 argc
 attrs
 flags
+;
+uint32
 slot
 ;
 jsval

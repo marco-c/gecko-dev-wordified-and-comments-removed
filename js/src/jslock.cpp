@@ -228,6 +228,7 @@ disable
 :
 4035
 )
+JS_BEGIN_EXTERN_C
 extern
 long
 __cdecl
@@ -243,6 +244,7 @@ long
 comp
 )
 ;
+JS_END_EXTERN_C
 #
 pragma
 intrinsic
