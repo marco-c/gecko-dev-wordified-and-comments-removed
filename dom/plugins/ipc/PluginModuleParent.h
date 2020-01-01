@@ -193,10 +193,6 @@ const
 int32_t
 &
 aInt
-const
-bool
-&
-aTemporary
 )
 ;
 virtual
@@ -351,12 +347,10 @@ IsOnCxxStack
 )
 ;
 }
-PluginIdentifierParent
+PPluginIdentifierParent
 *
 GetIdentifierForNPIdentifier
 (
-NPP
-npp
 NPIdentifier
 aIdentifier
 )

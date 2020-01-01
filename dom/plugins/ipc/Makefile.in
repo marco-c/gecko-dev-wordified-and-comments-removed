@@ -654,14 +654,6 @@ PluginMessageUtils
 .
 cpp
 \
-PluginIdentifierChild
-.
-cpp
-\
-PluginIdentifierParent
-.
-cpp
-\
 PluginInstanceChild
 .
 cpp
