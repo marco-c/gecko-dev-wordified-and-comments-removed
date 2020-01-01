@@ -5817,6 +5817,10 @@ matrix
 GetTranslation
 (
 )
++
+mParameters
+.
+mOffset
 ;
 if
 (
