@@ -121,6 +121,10 @@ Image
 .
 cpp
 \
+ImageFactory
+.
+cpp
+\
 Decoder
 .
 cpp
