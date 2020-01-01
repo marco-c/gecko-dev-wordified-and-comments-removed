@@ -35,3 +35,9 @@ eval
 003
 .
 js
+script
+regress
+-
+531037
+.
+js
