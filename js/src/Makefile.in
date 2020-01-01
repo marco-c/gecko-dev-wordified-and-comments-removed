@@ -848,6 +848,10 @@ jsgcstats
 .
 cpp
 \
+GlobalObject
+.
+cpp
+\
 jshash
 .
 cpp
@@ -1105,6 +1109,10 @@ jsgcstats
 h
 \
 jscompartment
+.
+h
+\
+GlobalObject
 .
 h
 \
