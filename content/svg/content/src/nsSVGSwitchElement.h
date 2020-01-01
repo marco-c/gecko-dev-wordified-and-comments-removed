@@ -1,4 +1,10 @@
 #
+ifndef
+__NS_SVGSWITCHELEMENT_H__
+#
+define
+__NS_SVGSWITCHELEMENT_H__
+#
 include
 "
 nsSVGGraphicElement
@@ -57,6 +63,7 @@ nsIContent
 GetActiveChild
 (
 )
+const
 {
 return
 mActiveChild
@@ -148,6 +155,20 @@ void
 UpdateActiveChild
 (
 )
+{
+mActiveChild
+=
+FindActiveChild
+(
+)
+;
+}
+nsIContent
+*
+FindActiveChild
+(
+)
+const
 ;
 nsCOMPtr
 <
@@ -157,3 +178,5 @@ mActiveChild
 ;
 }
 ;
+#
+endif

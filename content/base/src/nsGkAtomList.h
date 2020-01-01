@@ -6769,6 +6769,13 @@ baseline
 )
 GK_ATOM
 (
+allowReorder
+"
+allowReorder
+"
+)
+GK_ATOM
+(
 altGlyph
 "
 altGlyph

@@ -867,6 +867,10 @@ nsISVGValueUtils
 .
 h
 \
+nsSVGFeatures
+.
+h
+\
 nsSVGNumber
 .
 h

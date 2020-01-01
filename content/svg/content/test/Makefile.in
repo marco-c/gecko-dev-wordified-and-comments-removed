@@ -494,6 +494,16 @@ helper
 .
 svg
 \
+test_switch
+.
+xhtml
+\
+switch
+-
+helper
+.
+svg
+\
 test_text
 .
 html
