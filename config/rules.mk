@@ -1811,6 +1811,13 @@ a
 out
 \
 (
+filter
+-
+out
+(
+ASFILES
+)
+(
 OBJS
 :
 .
@@ -1820,6 +1827,7 @@ OBJ_SUFFIX
 =
 .
 s
+)
 )
 (
 OBJS
