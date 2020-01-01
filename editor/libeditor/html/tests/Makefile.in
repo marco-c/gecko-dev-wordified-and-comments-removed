@@ -467,6 +467,10 @@ test_bug372345
 .
 html
 \
+test_bug404320
+.
+html
+\
 test_bug410986
 .
 html
@@ -504,6 +508,10 @@ test_bug456244
 html
 \
 test_bug460740
+.
+html
+\
+test_bug468353
 .
 html
 \

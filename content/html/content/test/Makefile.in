@@ -891,10 +891,6 @@ test_bug406596
 .
 html
 \
-test_bug408231
-.
-html
-\
 test_bug417760
 .
 html

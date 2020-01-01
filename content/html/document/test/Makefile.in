@@ -553,10 +553,6 @@ test_bug403868
 .
 xhtml
 \
-test_bug404320
-.
-html
-\
 (
 warning
 test_bug435128
@@ -571,10 +567,6 @@ seconds
 )
 \
 test_bug463104
-.
-html
-\
-test_bug468353
 .
 html
 \
@@ -745,10 +737,6 @@ html
 test_bug677495
 -
 1
-.
-html
-\
-test_bug742261
 .
 html
 \
