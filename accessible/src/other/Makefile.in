@@ -470,10 +470,6 @@ nsAccessibleWrap
 .
 cpp
 \
-nsDocAccessibleWrap
-.
-cpp
-\
 nsRootAccessibleWrap
 .
 cpp

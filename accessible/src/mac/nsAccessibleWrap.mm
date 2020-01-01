@@ -1015,6 +1015,7 @@ Shutdown
 )
 ;
 }
+NS_IMETHODIMP
 nsAccessibleWrap
 :
 :
