@@ -8173,7 +8173,7 @@ prev
 )
 -
 >
-pc
+pcQuadratic
 (
 cx
 fp
@@ -12655,7 +12655,7 @@ if
 cp
 )
 {
-js_ReportOutOfScriptQuota
+js_ReportOutOfMemory
 (
 cx
 )
@@ -15336,6 +15336,7 @@ FrameRegsIter
 i
 (
 cx
+FRAME_EXPAND_TOP
 )
 ;
 while

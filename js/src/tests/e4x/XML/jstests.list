@@ -509,6 +509,7 @@ regress
 291930
 .
 js
+silentfail
 script
 regress
 -

@@ -236,10 +236,6 @@ TreeFragment
 *
 outermostTree
 ;
-uintN
-*
-inlineCallCountp
-;
 VMSideExit
 *
 *
@@ -284,9 +280,6 @@ tm
 TreeFragment
 *
 ti
-uintN
-&
-inlineCallCountp
 VMSideExit
 *
 *

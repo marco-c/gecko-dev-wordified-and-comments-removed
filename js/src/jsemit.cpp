@@ -801,7 +801,7 @@ if
 base
 )
 {
-js_ReportOutOfScriptQuota
+js_ReportOutOfMemory
 (
 cx
 )
@@ -2330,7 +2330,7 @@ if
 jt
 )
 {
-js_ReportOutOfScriptQuota
+js_ReportOutOfMemory
 (
 args
 -
@@ -4701,7 +4701,7 @@ if
 base
 )
 {
-js_ReportOutOfScriptQuota
+js_ReportOutOfMemory
 (
 cx
 )
@@ -21371,7 +21371,7 @@ if
 cg2space
 )
 {
-js_ReportOutOfScriptQuota
+js_ReportOutOfMemory
 (
 cx
 )
@@ -33875,7 +33875,7 @@ cg
 )
 )
 {
-js_ReportOutOfScriptQuota
+js_ReportOutOfMemory
 (
 cx
 )
@@ -34285,7 +34285,7 @@ cg
 )
 )
 {
-js_ReportOutOfScriptQuota
+js_ReportOutOfMemory
 (
 cx
 )
@@ -35622,7 +35622,7 @@ if
 tryNode
 )
 {
-js_ReportOutOfScriptQuota
+js_ReportOutOfMemory
 (
 cx
 )
