@@ -361,7 +361,7 @@ DrawCaretAfterBriefDelay
 (
 )
 ;
-nsresult
+PRBool
 UpdateCaretRects
 (
 nsIFrame
@@ -369,16 +369,6 @@ nsIFrame
 aFrame
 PRInt32
 aFrameOffset
-)
-;
-nsresult
-UpdateHookRect
-(
-nsISelection
-*
-aSelection
-nscoord
-aBidiIndicatorSize
 )
 ;
 static
