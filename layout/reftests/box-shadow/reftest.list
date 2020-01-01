@@ -184,6 +184,12 @@ mixed
 ref
 .
 html
+random
+-
+if
+(
+d2d
+)
 =
 =
 boxshadow
@@ -221,6 +227,12 @@ dynamic
 ref
 .
 xul
+random
+-
+if
+(
+d2d
+)
 =
 =
 boxshadow
