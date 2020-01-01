@@ -556,6 +556,10 @@ browser_formsZoom
 .
 js
 \
+browser_history
+.
+js
+\
 browser_mainui
 .
 js

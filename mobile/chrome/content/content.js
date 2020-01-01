@@ -1808,8 +1808,6 @@ false
 false
 )
 ;
-try
-{
 docShell
 .
 QueryInterface
@@ -1823,13 +1821,6 @@ useGlobalHistory
 =
 true
 ;
-}
-catch
-(
-e
-)
-{
-}
 }
 handleEvent
 :
