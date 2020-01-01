@@ -1199,8 +1199,6 @@ aSubject
 nsIPrincipal
 *
 aObject
-PRBool
-aIsCheckConnect
 )
 ;
 static
@@ -1327,8 +1325,6 @@ nsIPrincipal
 aObject
 PRUint32
 aAction
-PRBool
-aIsCheckConnect
 )
 ;
 nsresult
