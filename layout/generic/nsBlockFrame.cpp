@@ -27260,7 +27260,10 @@ GetAscent
 )
 aOffset
 aDecoration
-NS_STYLE_BORDER_STYLE_SOLID
+nsCSSRendering
+:
+:
+DECORATION_STYLE_SOLID
 )
 ;
 }
