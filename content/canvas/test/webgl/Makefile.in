@@ -444,7 +444,15 @@ html
 .
 txt
 \
-failing_tests
+failing_tests_linux
+.
+txt
+\
+failing_tests_windows
+.
+txt
+\
+failing_tests_mac
 .
 txt
 \
@@ -494,8 +502,6 @@ srcdir
 resources
 \
 conformance
-\
-more
 \
 |
 (
