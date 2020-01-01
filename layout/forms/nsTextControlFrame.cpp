@@ -2661,7 +2661,10 @@ nsISelectionController
 :
 :
 SELECTION_FOCUS_REGION
-PR_TRUE
+nsISelectionController
+:
+:
+SCROLL_SYNCHRONOUS
 )
 ;
 }
@@ -3527,7 +3530,10 @@ nsISelectionController
 :
 :
 SELECTION_FOCUS_REGION
-PR_FALSE
+nsISelectionController
+:
+:
+SCROLL_FIRST_ANCESTOR_ONLY
 )
 ;
 }

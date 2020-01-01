@@ -549,8 +549,8 @@ SelectionType
 aType
 SelectionRegion
 aRegion
-PRBool
-aIsSynchronous
+PRInt16
+aFlags
 )
 const
 ;
