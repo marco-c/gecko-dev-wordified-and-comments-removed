@@ -1188,6 +1188,11 @@ mWasOpened
 1
 ;
 uint32_t
+mRequestObserversCalled
+:
+1
+;
+uint32_t
 mResponseHeadersModified
 :
 1
