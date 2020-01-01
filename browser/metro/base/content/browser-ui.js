@@ -5264,7 +5264,7 @@ FlyoutPanelsUI
 show
 (
 '
-SyncFlyout
+SyncFlyoutPanel
 '
 )
 ;
@@ -7653,7 +7653,7 @@ FlyoutPanelsUI
 show
 (
 '
-PrefsFlyout
+PrefsFlyoutPanel
 '
 )
 }
@@ -7686,7 +7686,7 @@ FlyoutPanelsUI
 show
 (
 '
-SyncFlyout
+SyncFlyoutPanel
 '
 )
 }
@@ -7719,7 +7719,7 @@ FlyoutPanelsUI
 show
 (
 '
-AboutFlyout
+AboutFlyoutPanel
 '
 )
 }

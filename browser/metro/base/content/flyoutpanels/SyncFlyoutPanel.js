@@ -25,7 +25,7 @@ jsm
 )
 ;
 let
-SyncFlyout
+SyncFlyoutPanel
 =
 {
 init
@@ -49,7 +49,7 @@ reportError
 Attempted
 to
 initialize
-SyncFlyout
+SyncFlyoutPanel
 more
 than
 once

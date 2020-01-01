@@ -1261,9 +1261,9 @@ browser
 /
 content
 /
-flyouts
+flyoutpanels
 /
-flyoutUI
+FlyoutPanelsUI
 .
 js
 "

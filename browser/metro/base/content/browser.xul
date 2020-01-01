@@ -2380,7 +2380,7 @@ FlyoutPanelsUI
 show
 (
 '
-PrefsFlyout
+PrefsFlyoutPanel
 '
 )
 "
@@ -2415,7 +2415,7 @@ FlyoutPanelsUI
 show
 (
 '
-SyncFlyout
+SyncFlyoutPanel
 '
 )
 "
@@ -2449,7 +2449,7 @@ FlyoutPanelsUI
 show
 (
 '
-AboutFlyout
+AboutFlyoutPanel
 '
 )
 "
@@ -6395,7 +6395,7 @@ onclick
 "
 FlyoutPanelsUI
 .
-SyncFlyout
+SyncFlyoutPanel
 .
 startEasySetup
 (
@@ -6738,7 +6738,7 @@ onclick
 "
 FlyoutPanelsUI
 .
-SyncFlyout
+SyncFlyoutPanel
 .
 abortEasySetup
 (
@@ -6746,7 +6746,7 @@ abortEasySetup
 ;
 FlyoutPanelsUI
 .
-SyncFlyout
+SyncFlyoutPanel
 .
 showManualSetup
 (
@@ -6918,7 +6918,7 @@ oninput
 "
 FlyoutPanelsUI
 .
-SyncFlyout
+SyncFlyoutPanel
 .
 updateManualSetupConnectButtonState
 (
@@ -6963,7 +6963,7 @@ oninput
 "
 FlyoutPanelsUI
 .
-SyncFlyout
+SyncFlyoutPanel
 .
 updateManualSetupConnectButtonState
 (
@@ -7003,7 +7003,7 @@ oninput
 "
 FlyoutPanelsUI
 .
-SyncFlyout
+SyncFlyoutPanel
 .
 updateManualSetupConnectButtonState
 (
@@ -7063,7 +7063,7 @@ oncommand
 "
 FlyoutPanelsUI
 .
-SyncFlyout
+SyncFlyoutPanel
 .
 manualSetupConnect
 (
@@ -7210,7 +7210,7 @@ oncommand
 "
 FlyoutPanelsUI
 .
-SyncFlyout
+SyncFlyoutPanel
 .
 onCancelButton
 (
@@ -7244,7 +7244,7 @@ oncommand
 "
 FlyoutPanelsUI
 .
-SyncFlyout
+SyncFlyoutPanel
 .
 onTryAgainButton
 (
@@ -7414,7 +7414,7 @@ onclick
 "
 FlyoutPanelsUI
 .
-SyncFlyout
+SyncFlyoutPanel
 .
 onDisconnectLink
 (
@@ -7525,7 +7525,7 @@ oncommand
 "
 FlyoutPanelsUI
 .
-SyncFlyout
+SyncFlyoutPanel
 .
 onDisconnectCancel
 (
@@ -7554,7 +7554,7 @@ oncommand
 "
 FlyoutPanelsUI
 .
-SyncFlyout
+SyncFlyoutPanel
 .
 onDisconnectButton
 (
@@ -7582,7 +7582,7 @@ onclick
 "
 FlyoutPanelsUI
 .
-SyncFlyout
+SyncFlyoutPanel
 .
 onPairDeviceLink
 (
@@ -7717,7 +7717,7 @@ oninput
 "
 FlyoutPanelsUI
 .
-SyncFlyout
+SyncFlyoutPanel
 .
 updatePairButtonState
 (
@@ -7752,7 +7752,7 @@ oninput
 "
 FlyoutPanelsUI
 .
-SyncFlyout
+SyncFlyoutPanel
 .
 updatePairButtonState
 (
@@ -7787,7 +7787,7 @@ oninput
 "
 FlyoutPanelsUI
 .
-SyncFlyout
+SyncFlyoutPanel
 .
 updatePairButtonState
 (
@@ -7880,7 +7880,7 @@ oncommand
 "
 FlyoutPanelsUI
 .
-SyncFlyout
+SyncFlyoutPanel
 .
 onPairButton
 (
@@ -8956,7 +8956,7 @@ oncommand
 "
 FlyoutPanelsUI
 .
-PrefsFlyout
+PrefsFlyoutPanel
 .
 onTelemetryPreferenceChanged
 (
@@ -9028,7 +9028,7 @@ onpreferencechanged
 "
 FlyoutPanelsUI
 .
-PrefsFlyout
+PrefsFlyoutPanel
 .
 onDNTPreferenceChanged
 (

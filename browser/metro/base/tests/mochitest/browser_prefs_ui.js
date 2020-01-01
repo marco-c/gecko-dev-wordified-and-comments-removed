@@ -183,7 +183,7 @@ waitForEvent
 (
 FlyoutPanelsUI
 .
-PrefsFlyout
+PrefsFlyoutPanel
 .
 _topmostElement
 "
@@ -197,7 +197,7 @@ FlyoutPanelsUI
 show
 (
 '
-PrefsFlyout
+PrefsFlyoutPanel
 '
 )
 ;
@@ -209,7 +209,7 @@ waitForEvent
 (
 FlyoutPanelsUI
 .
-PrefsFlyout
+PrefsFlyoutPanel
 .
 _topmostElement
 "
@@ -560,7 +560,7 @@ waitForEvent
 (
 FlyoutPanelsUI
 .
-PrefsFlyout
+PrefsFlyoutPanel
 .
 _topmostElement
 "
@@ -764,7 +764,7 @@ waitForEvent
 (
 FlyoutPanelsUI
 .
-PrefsFlyout
+PrefsFlyoutPanel
 .
 _topmostElement
 "
@@ -778,7 +778,7 @@ FlyoutPanelsUI
 show
 (
 '
-PrefsFlyout
+PrefsFlyoutPanel
 '
 )
 ;
@@ -911,7 +911,7 @@ waitForEvent
 (
 FlyoutPanelsUI
 .
-PrefsFlyout
+PrefsFlyoutPanel
 .
 _topmostElement
 "

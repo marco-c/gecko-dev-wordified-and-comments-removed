@@ -25,7 +25,7 @@ jsm
 )
 ;
 let
-PrefsFlyout
+PrefsFlyoutPanel
 =
 {
 _isInitialized
@@ -107,7 +107,7 @@ _elements
 [
 [
 '
-prefsFlyout
+PrefsFlyoutPanel
 '
 '
 prefs
@@ -188,7 +188,7 @@ this
 .
 _elements
 .
-prefsFlyout
+PrefsFlyoutPanel
 ;
 }
 _show
@@ -222,7 +222,7 @@ this
 .
 _elements
 .
-prefsFlyout
+PrefsFlyoutPanel
 .
 show
 (
