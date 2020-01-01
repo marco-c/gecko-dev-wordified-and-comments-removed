@@ -550,13 +550,6 @@ bool
 aNotify
 )
 ;
-void
-FirePluginError
-(
-FallbackType
-aFallbackType
-)
-;
 ObjectType
 GetTypeOfContent
 (
