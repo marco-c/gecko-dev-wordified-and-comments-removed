@@ -13178,6 +13178,13 @@ unregisterFor
 mAppContext
 )
 ;
+Tabs
+.
+unregisterOnTabsChangedListener
+(
+this
+)
+;
 (
 (
 GeckoApplication
