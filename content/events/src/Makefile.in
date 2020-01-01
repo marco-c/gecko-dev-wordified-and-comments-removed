@@ -521,6 +521,10 @@ nsDOMCommandEvent
 .
 cpp
 \
+nsDOMMessageEvent
+.
+cpp
+\
 nsPrivateTextRange
 .
 cpp

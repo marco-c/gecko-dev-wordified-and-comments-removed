@@ -636,10 +636,6 @@ innerHTML
 +
 =
 listContent
-.
-toLowerCase
-(
-)
 ;
 (
 "
@@ -653,10 +649,6 @@ innerHTML
 +
 =
 tableContent
-.
-toLowerCase
-(
-)
 ;
 (
 "

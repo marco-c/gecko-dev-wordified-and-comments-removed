@@ -355,6 +355,14 @@ nsIArray
 h
 "
 #
+ifdef
+PostMessage
+#
+undef
+PostMessage
+#
+endif
+#
 define
 DEFAULT_HOME_PAGE
 "
