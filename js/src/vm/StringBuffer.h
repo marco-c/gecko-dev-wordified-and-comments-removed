@@ -54,14 +54,6 @@ CharBuffer
 CharBuffer
 cb
 ;
-inline
-bool
-checkLength
-(
-size_t
-length
-)
-;
 JSContext
 *
 context
