@@ -2738,10 +2738,13 @@ Type_Handle
 :
 outReg
 =
+r4
+;
 regs
 .
-takeAny
+take
 (
+outReg
 )
 ;
 masm
