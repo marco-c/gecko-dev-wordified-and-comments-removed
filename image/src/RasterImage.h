@@ -392,13 +392,6 @@ void
 ;
 NS_SCRIPTABLE
 NS_IMETHOD
-RequestDiscard
-(
-void
-)
-;
-NS_SCRIPTABLE
-NS_IMETHOD
 ResetAnimation
 (
 void
@@ -1230,10 +1223,7 @@ mObserver
 PRUint32
 mLockCount
 ;
-DiscardTracker
-:
-:
-Node
+DiscardTrackerNode
 mDiscardTrackerNode
 ;
 FallibleTArray

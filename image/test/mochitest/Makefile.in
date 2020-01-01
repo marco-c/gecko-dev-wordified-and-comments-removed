@@ -640,10 +640,6 @@ early
 .
 png
 \
-test_drawDiscardedImage
-.
-html
-\
 (
 NULL
 )
