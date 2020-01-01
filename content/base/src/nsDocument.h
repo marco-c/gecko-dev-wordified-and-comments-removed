@@ -4693,12 +4693,6 @@ mBoxObjectTable
 ;
 nsCOMPtr
 <
-nsIChannel
->
-mChannel
-;
-nsCOMPtr
-<
 nsIDocument
 >
 mTemplateContentsOwner
