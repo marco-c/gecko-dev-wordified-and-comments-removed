@@ -92,11 +92,6 @@ metrics
 Makefile
 services
 /
-notifications
-/
-Makefile
-services
-/
 sync
 /
 Makefile
@@ -149,13 +144,6 @@ Makefile
 services
 /
 metrics
-/
-tests
-/
-Makefile
-services
-/
-notifications
 /
 tests
 /

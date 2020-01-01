@@ -105,13 +105,6 @@ PARALLEL_DIRS
 metrics
 endif
 ifdef
-MOZ_SERVICES_NOTIFICATIONS
-PARALLEL_DIRS
-+
-=
-notifications
-endif
-ifdef
 MOZ_SERVICES_SYNC
 PARALLEL_DIRS
 +

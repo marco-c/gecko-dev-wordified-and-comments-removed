@@ -7113,6 +7113,11 @@ NetworkGeolocationProvider
 js
 components
 /
+NotificationsComponents
+.
+manifest
+components
+/
 nsBadCertHandler
 .
 js
@@ -7940,6 +7945,15 @@ services
 common
 /
 utils
+.
+js
+modules
+/
+services
+-
+notifications
+/
+service
 .
 js
 modules
