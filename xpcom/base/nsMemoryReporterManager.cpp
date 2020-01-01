@@ -3105,15 +3105,13 @@ explicit
 /
 dmd
 /
-live
--
 block
 -
 table
 "
 sizes
 .
-mLiveBlockTable
+mBlockTable
 "
 Memory
 used
