@@ -228,6 +228,14 @@ html
 #
 bug
 616334
+fuzzy
+-
+if
+(
+gtk2Widget
+1
+10
+)
 =
 =
 float
@@ -250,6 +258,9 @@ push
 ref
 .
 html
+#
+bug
+815612
 =
 =
 zero
