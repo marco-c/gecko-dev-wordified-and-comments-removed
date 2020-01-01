@@ -24,10 +24,10 @@ h
 namespace
 mozilla
 {
-class
+struct
 StackBlock
 ;
-class
+struct
 StackMark
 ;
 class
