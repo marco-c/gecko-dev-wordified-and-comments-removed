@@ -16,6 +16,13 @@ h
 #
 include
 "
+celldata
+.
+h
+"
+#
+include
+"
 nsITableCellLayout
 .
 h
@@ -31,13 +38,6 @@ h
 include
 "
 nsContainerFrame
-.
-h
-"
-#
-include
-"
-nsTableRowFrame
 .
 h
 "

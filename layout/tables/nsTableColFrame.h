@@ -16,6 +16,13 @@ h
 #
 include
 "
+celldata
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
@@ -24,13 +31,6 @@ h
 include
 "
 nsContainerFrame
-.
-h
-"
-#
-include
-"
-nsTablePainter
 .
 h
 "

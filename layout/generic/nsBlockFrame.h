@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsAbsoluteContainingBlock
-.
-h
-"
-#
-include
-"
 nsLineBox
 .
 h
