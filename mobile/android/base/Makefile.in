@@ -3541,6 +3541,14 @@ handle_start
 .
 png
 \
+res
+/
+drawable
+/
+scrollbar
+.
+png
+\
 (
 addprefix
 res
