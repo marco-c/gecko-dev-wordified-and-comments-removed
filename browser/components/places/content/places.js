@@ -3871,6 +3871,14 @@ applyFilter
 (
 filterString
 true
+[
+PlacesUtils
+.
+bookmarksRootId
+PlacesUtils
+.
+unfiledRootId
+]
 )
 ;
 PO
