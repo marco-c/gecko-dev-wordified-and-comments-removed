@@ -176,6 +176,9 @@ apply
 .
 *
 /
+[
+Constructor
+]
 interface
 DocumentFragment
 :
