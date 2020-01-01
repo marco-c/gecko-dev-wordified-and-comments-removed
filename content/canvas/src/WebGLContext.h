@@ -4823,6 +4823,9 @@ int32_t
 mGLMaxCubeMapTextureSize
 ;
 int32_t
+mGLMaxRenderbufferSize
+;
+int32_t
 mGLMaxTextureImageUnits
 ;
 int32_t

@@ -730,6 +730,10 @@ mGLMaxCubeMapTextureSize
 =
 0
 ;
+mGLMaxRenderbufferSize
+=
+0
+;
 mGLMaxTextureImageUnits
 =
 0
