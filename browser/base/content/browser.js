@@ -23516,7 +23516,11 @@ aURI
 .
 spec
 :
-BROWSER_NEW_TAB_URL
+"
+about
+:
+blank
+"
 ;
 newWindow
 =
@@ -23701,7 +23705,11 @@ aURI
 .
 spec
 :
-BROWSER_NEW_TAB_URL
+"
+about
+:
+blank
+"
 {
 referrerURI
 :
