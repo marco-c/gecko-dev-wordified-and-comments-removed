@@ -205,6 +205,12 @@ aSVGElement
 )
 {
 }
+virtual
+~
+DOMAnimatedString
+(
+)
+;
 nsSVGString
 *
 mVal

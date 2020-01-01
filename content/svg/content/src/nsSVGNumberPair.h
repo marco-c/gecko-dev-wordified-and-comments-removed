@@ -336,6 +336,12 @@ aIndex
 )
 {
 }
+virtual
+~
+DOMAnimatedNumber
+(
+)
+;
 nsSVGNumberPair
 *
 mVal
