@@ -269,15 +269,6 @@ nsEvent
 aEvent
 )
 ;
-virtual
-nsEventStates
-GetContentState
-(
-nsIContent
-*
-aContent
-)
-;
 PRBool
 SetContentState
 (
