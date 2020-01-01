@@ -1012,7 +1012,7 @@ noErr
 lastPage
 !
 =
-LONG_MAX
+PR_UINT32_MAX
 )
 {
 aSettings
