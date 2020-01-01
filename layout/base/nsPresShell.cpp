@@ -4947,7 +4947,7 @@ gKeyDownTarget
 gKeyDownTarget
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 =
@@ -26108,7 +26108,7 @@ eventTarget
 eventTarget
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 :
@@ -26871,7 +26871,7 @@ doc
 aTarget
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 )
@@ -27199,7 +27199,7 @@ NS_NewRunnableMethod
 mCurrentEventContent
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 &

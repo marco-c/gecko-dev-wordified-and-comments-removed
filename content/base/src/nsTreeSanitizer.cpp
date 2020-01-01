@@ -5509,7 +5509,7 @@ document
 aElement
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 ;
@@ -6446,7 +6446,7 @@ sanitizedStyle
 aFragment
 -
 >
-GetOwnerDoc
+OwnerDoc
 (
 )
 baseURI
