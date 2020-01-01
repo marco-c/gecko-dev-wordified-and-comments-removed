@@ -69249,7 +69249,7 @@ NECKO_WIFI
 =
 1
 else
-AC_MSG_WARN
+AC_MSG_ERROR
 (
 [
 Necko
@@ -69260,7 +69260,14 @@ supported
 on
 your
 platform
-.
+use
+-
+-
+disable
+-
+necko
+-
+wifi
 ]
 )
 fi
