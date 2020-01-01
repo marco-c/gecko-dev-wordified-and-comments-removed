@@ -4886,6 +4886,9 @@ mWordWrap
 PRUint8
 mHyphens
 ;
+PRUint8
+mTextSizeAdjust
+;
 PRInt32
 mTabSize
 ;
