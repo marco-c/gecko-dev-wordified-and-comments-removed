@@ -400,8 +400,7 @@ nsnull
 printf
 (
 "
-Creating
-TabChild
+creating
 %
 d
 !
