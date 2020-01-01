@@ -183,6 +183,8 @@ ch
 nsString
 &
 aStringToAppendto
+PRBool
+inAttribute
 )
 ;
 void
@@ -191,6 +193,8 @@ EscapeStr
 nsString
 &
 aInString
+PRBool
+inAttribute
 )
 ;
 void
