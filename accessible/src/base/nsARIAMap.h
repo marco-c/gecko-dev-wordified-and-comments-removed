@@ -336,9 +336,6 @@ gEmptyRoleMap
 ;
 static
 nsStateMapEntry
-nsARIAMap
-:
-:
 gWAIStateMap
 [
 ]
