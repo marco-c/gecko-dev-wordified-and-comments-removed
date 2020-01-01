@@ -337,6 +337,13 @@ h
 #
 include
 "
+nsIMIMEService
+.
+h
+"
+#
+include
+"
 nsIClipboard
 .
 h
@@ -5885,7 +5892,7 @@ mime
 NS_ERROR_FAILURE
 )
 ;
-nsAutoCString
+nsCString
 contentType
 ;
 rv
