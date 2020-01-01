@@ -210,6 +210,11 @@ GonkMemoryPressureMonitoring
 cpp
 '
 '
+HwcUtils
+.
+cpp
+'
+'
 Input
 .
 cpp
