@@ -155,7 +155,7 @@ notifyFlags
 notifyFlags
 }
 ;
-sendSyncMessage
+sendAsyncMessage
 (
 "
 WebProgress
@@ -218,7 +218,7 @@ maxTotal
 aMaxTotal
 }
 ;
-sendSyncMessage
+sendAsyncMessage
 (
 "
 WebProgress
@@ -302,7 +302,7 @@ docShell
 canGoForward
 }
 ;
-sendSyncMessage
+sendAsyncMessage
 (
 "
 WebProgress
@@ -357,7 +357,7 @@ message
 aMessage
 }
 ;
-sendSyncMessage
+sendAsyncMessage
 (
 "
 WebProgress
@@ -429,7 +429,7 @@ state
 aState
 }
 ;
-sendSyncMessage
+sendAsyncMessage
 (
 "
 WebProgress
@@ -1324,7 +1324,7 @@ blank
 )
 return
 ;
-sendSyncMessage
+sendAsyncMessage
 (
 "
 DOMContentLoaded
@@ -1385,7 +1385,7 @@ aEvent
 persisted
 }
 ;
-sendSyncMessage
+sendAsyncMessage
 (
 aEvent
 .
@@ -1462,7 +1462,7 @@ aEvent
 popupWindowName
 }
 ;
-sendSyncMessage
+sendAsyncMessage
 (
 "
 DOMPopupBlocked
@@ -1478,7 +1478,7 @@ case
 DOMTitleChanged
 "
 :
-sendSyncMessage
+sendAsyncMessage
 (
 "
 DOMTitleChanged
@@ -1574,7 +1574,7 @@ target
 type
 }
 ;
-sendSyncMessage
+sendAsyncMessage
 (
 "
 DOMLinkAdded
@@ -1597,7 +1597,7 @@ DOMWindowClose
 let
 retvals
 =
-sendSyncMessage
+sendAsyncMessage
 (
 aEvent
 .

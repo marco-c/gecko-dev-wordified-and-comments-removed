@@ -1702,7 +1702,7 @@ getScrollOffset
 content
 )
 ;
-sendSyncMessage
+sendAsyncMessage
 (
 "
 Browser
@@ -1972,7 +1972,7 @@ if
 sizeChange
 )
 {
-sendSyncMessage
+sendAsyncMessage
 (
 "
 Browser
@@ -2000,7 +2000,7 @@ this
 .
 _incremental
 )
-sendSyncMessage
+sendAsyncMessage
 (
 "
 Browser
@@ -2057,7 +2057,7 @@ isEmpty
 )
 )
 {
-sendSyncMessage
+sendAsyncMessage
 (
 "
 Browser
@@ -2754,7 +2754,7 @@ getContentClientRects
 element
 )
 ;
-sendSyncMessage
+sendAsyncMessage
 (
 "
 Browser
