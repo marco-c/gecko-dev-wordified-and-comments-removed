@@ -553,12 +553,6 @@ ok
 true
 )
 ;
-SimpleTest
-.
-finish
-(
-)
-;
 ]
 ]
 >
