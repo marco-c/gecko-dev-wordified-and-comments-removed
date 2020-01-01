@@ -49,6 +49,14 @@ Init
 (
 )
 ;
+NS_IMETHOD
+GetName
+(
+nsAString
+&
+aName
+)
+;
 virtual
 bool
 AppendChild
