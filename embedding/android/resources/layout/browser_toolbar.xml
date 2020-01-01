@@ -149,6 +149,15 @@ left
 "
 android
 :
+hint
+=
+"
+string
+/
+awesomebar_default_text
+"
+android
+:
 textColor
 =
 "

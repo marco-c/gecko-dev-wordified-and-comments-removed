@@ -151,6 +151,15 @@ edit_text
 "
 android
 :
+hint
+=
+"
+string
+/
+awesomebar_default_text
+"
+android
+:
 inputType
 =
 "

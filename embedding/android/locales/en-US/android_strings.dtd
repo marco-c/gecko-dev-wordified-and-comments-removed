@@ -238,6 +238,17 @@ File
 <
 !
 ENTITY
+awesomebar_default_text
+"
+Enter
+Search
+or
+Address
+"
+>
+<
+!
+ENTITY
 bookmarks_title
 "
 Bookmarks
