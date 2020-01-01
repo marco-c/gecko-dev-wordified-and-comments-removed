@@ -455,7 +455,7 @@ function
 {
 expect
 (
-3
+2
 )
 ;
 stop
