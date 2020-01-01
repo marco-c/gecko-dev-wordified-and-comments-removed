@@ -4263,6 +4263,11 @@ promptMessages
 {
 }
 ;
+let
+self
+=
+this
+;
 function
 reportError
 (
@@ -4297,7 +4302,7 @@ provider
 "
 )
 ;
-this
+self
 .
 _pageMarkInfo
 =
@@ -4319,7 +4324,7 @@ mark
 -
 config
 "
-this
+self
 .
 origin
 )
