@@ -512,15 +512,8 @@ h
 (
 NULL
 )
-ifneq
-(
-(
+ifdef
 MOZ_DEBUG
-)
-(
-MOZ_PERF_METRICS
-)
-)
 EXPORTS
 +
 =
