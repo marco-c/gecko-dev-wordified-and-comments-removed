@@ -32,10 +32,12 @@ a
 b
 )
 \
+int32_t
+(
 mozilla
 :
 :
-DeprecatedAbs
+Abs
 (
 NS_GetLuminosity
 (
@@ -45,6 +47,7 @@ a
 NS_GetLuminosity
 (
 b
+)
 )
 )
 void
