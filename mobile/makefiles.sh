@@ -526,13 +526,6 @@ installer
 /
 debian
 /
-icon_base64
-mobile
-/
-installer
-/
-debian
-/
 menu
 mobile
 /
