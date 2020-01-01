@@ -35,6 +35,15 @@ interfaces
 nsIAccessibleCaretMoveEvent
 ;
 const
+nsIAccessibleTextChangeEvent
+=
+Components
+.
+interfaces
+.
+nsIAccessibleTextChangeEvent
+;
+const
 nsIAccessibleStates
 =
 Components

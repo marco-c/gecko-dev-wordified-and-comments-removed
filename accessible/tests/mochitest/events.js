@@ -61,6 +61,13 @@ nsIAccessibleEvent
 .
 EVENT_TEXT_CARET_MOVED
 ;
+const
+EVENT_TEXT_REMOVED
+=
+nsIAccessibleEvent
+.
+EVENT_TEXT_REMOVED
+;
 var
 gA11yEventDumpID
 =
