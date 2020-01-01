@@ -38,12 +38,6 @@ mozilla
 class
 AudioStream
 ;
-const
-int
-GUESS_AUDIO_CHANNELS
-=
-2
-;
 struct
 AudioChunk
 {

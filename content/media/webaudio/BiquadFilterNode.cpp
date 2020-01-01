@@ -62,12 +62,7 @@ return
 .
 5f
 *
-aContext
--
->
-SampleRate
-(
-)
+44100
 ;
 }
 BiquadFilterNode
