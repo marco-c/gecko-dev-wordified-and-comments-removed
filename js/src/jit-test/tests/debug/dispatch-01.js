@@ -82,7 +82,7 @@ this
 .
 onDebuggerStatement
 =
-null
+undefined
 ;
 gc
 (
