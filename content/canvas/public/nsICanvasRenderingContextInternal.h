@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsIDocShell
+.
+h
+"
+#
+include
+"
 gfxPattern
 .
 h
