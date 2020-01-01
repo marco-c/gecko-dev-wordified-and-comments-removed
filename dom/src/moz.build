@@ -119,11 +119,3 @@ geolocation
 notification
 '
 ]
-TEST_DIRS
-+
-=
-[
-'
-foo
-'
-]
