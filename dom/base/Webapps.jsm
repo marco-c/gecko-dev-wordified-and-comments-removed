@@ -3005,6 +3005,7 @@ fullLaunchPath
 :
 function
 (
+aStartPoint
 )
 {
 let
@@ -3018,6 +3019,10 @@ _localeProp
 launch_path
 "
 )
+|
+|
+"
+"
 ;
 return
 this
@@ -3027,11 +3032,8 @@ _origin
 resolve
 (
 launchPath
-?
-launchPath
-:
-"
-"
++
+aStartPoint
 )
 ;
 }
