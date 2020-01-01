@@ -5162,9 +5162,6 @@ if
 js_GetClassPrototype
 (
 cx
-NullPtr
-(
-)
 GetExceptionProtoKey
 (
 exn

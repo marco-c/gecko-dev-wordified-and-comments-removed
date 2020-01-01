@@ -5317,11 +5317,6 @@ js_FindClassObject
 JSContext
 *
 cx
-js
-:
-:
-HandleObject
-start
 JSProtoKey
 protoKey
 js
@@ -6312,11 +6307,6 @@ js_GetClassPrototype
 JSContext
 *
 cx
-js
-:
-:
-HandleObject
-scopeobj
 JSProtoKey
 protoKey
 js

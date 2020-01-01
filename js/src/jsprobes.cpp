@@ -836,11 +836,14 @@ JSScript
 *
 script
 =
-js_GetCurrentScript
-(
 cx
+-
+>
+stack
+.
+currentScript
+(
 )
-;
 if
 (
 !

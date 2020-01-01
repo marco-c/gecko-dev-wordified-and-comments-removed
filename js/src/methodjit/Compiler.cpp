@@ -30309,7 +30309,6 @@ if
 js_GetClassPrototype
 (
 cx
-globalObj
 key
 &
 proto
