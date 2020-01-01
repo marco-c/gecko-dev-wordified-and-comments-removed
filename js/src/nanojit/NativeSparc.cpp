@@ -5835,6 +5835,10 @@ genEpilogue
 (
 )
 ;
+releaseRegisters
+(
+)
+;
 assignSavedRegs
 (
 )

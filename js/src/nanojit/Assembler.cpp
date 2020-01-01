@@ -6951,10 +6951,6 @@ assignSavedRegs
 (
 )
 {
-releaseRegisters
-(
-)
-;
 LirBuffer
 *
 b

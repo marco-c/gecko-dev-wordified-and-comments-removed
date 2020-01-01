@@ -3330,6 +3330,10 @@ genEpilogue
 (
 )
 ;
+releaseRegisters
+(
+)
+;
 assignSavedRegs
 (
 )

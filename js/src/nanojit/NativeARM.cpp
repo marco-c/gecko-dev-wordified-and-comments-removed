@@ -10368,6 +10368,10 @@ SP
 FP
 )
 ;
+releaseRegisters
+(
+)
+;
 assignSavedRegs
 (
 )
