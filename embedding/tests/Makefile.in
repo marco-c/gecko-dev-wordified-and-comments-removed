@@ -286,17 +286,6 @@ ifeq
 (
 OS_ARCH
 )
-OS2
-)
-DIRS
-=
-os2Embed
-endif
-ifeq
-(
-(
-OS_ARCH
-)
 WINNT
 )
 #

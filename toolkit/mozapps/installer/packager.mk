@@ -2097,10 +2097,6 @@ winEmbed
 .
 exe
 \
-os2Embed
-.
-exe
-\
 chrome
 /
 chrome
