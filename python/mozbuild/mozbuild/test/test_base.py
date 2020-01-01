@@ -61,7 +61,7 @@ os
 .
 path
 .
-normpath
+abspath
 (
 os
 .
