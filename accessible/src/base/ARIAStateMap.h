@@ -54,6 +54,7 @@ eARIASelectable
 eARIASelectableIfDefined
 eReadonlyUntilEditable
 eIndeterminateIfNoValue
+eFocusableUntilDisabled
 }
 ;
 bool
