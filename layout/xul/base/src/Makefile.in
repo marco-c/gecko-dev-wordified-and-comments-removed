@@ -462,6 +462,8 @@ xpconnect
 \
 js
 \
+xultmpl
+\
 (
 NULL
 )
