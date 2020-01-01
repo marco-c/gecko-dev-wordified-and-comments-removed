@@ -3637,6 +3637,7 @@ app
 prop
 ]
 ;
+}
 if
 (
 msg
@@ -3711,7 +3712,6 @@ this
 _ondownloadavailable
 )
 ;
-}
 }
 break
 ;
@@ -3900,11 +3900,11 @@ this
 _fireEvent
 (
 "
-downloaded
+downloadsuccess
 "
 this
 .
-_ondownloaded
+_ondownloadsuccess
 )
 ;
 this
@@ -4029,11 +4029,11 @@ downloading
 ;
 this
 .
-downloadavailable
+downloadAvailable
 =
 app
 .
-downloadavailable
+downloadAvailable
 ;
 this
 .
@@ -4048,11 +4048,11 @@ this
 _fireEvent
 (
 "
-downloaded
+downloadsuccess
 "
 this
 .
-_ondownloaded
+_ondownloadsuccess
 )
 ;
 break
@@ -4484,7 +4484,6 @@ sendAsyncMessage
 (
 "
 Webapps
-:
 :
 ApplyDownload
 "
