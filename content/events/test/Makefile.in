@@ -731,10 +731,6 @@ test_bug741666
 .
 html
 \
-test_focus_disabled
-.
-html
-\
 (
 NULL
 )
