@@ -459,10 +459,6 @@ nsJohabToUnicode
 .
 cpp
 \
-nsUnicodeToJamoTTF
-.
-cpp
-\
 (
 NULL
 )
