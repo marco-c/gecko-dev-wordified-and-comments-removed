@@ -252,9 +252,14 @@ v
 )
 {
 return
+(
+JSBool
+)
+(
 v
 &
 JSVAL_INT
+)
 ;
 }
 static
