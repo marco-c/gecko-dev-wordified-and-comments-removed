@@ -16611,13 +16611,7 @@ GetContentDocumentFixedPositionMargins
 (
 )
 ;
-mozilla
-:
-:
-gfx
-:
-:
-Margin
+LayerMargin
 fixedLayerMargins
 (
 NSAppUnitsToFloatPixels

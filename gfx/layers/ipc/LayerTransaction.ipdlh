@@ -234,16 +234,13 @@ using
 mozilla
 :
 :
-LayerPoint
+LayerMargin
 ;
 using
 mozilla
 :
 :
-gfx
-:
-:
-Margin
+LayerPoint
 ;
 using
 mozilla
@@ -886,7 +883,7 @@ isFixedPosition
 LayerPoint
 fixedPositionAnchor
 ;
-Margin
+LayerMargin
 fixedPositionMargin
 ;
 nullable
