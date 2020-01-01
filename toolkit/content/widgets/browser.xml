@@ -851,14 +851,7 @@ docShell
 .
 parentCharset
 =
-this
-.
-mAtomService
-.
-getAtom
-(
 aCharset
-)
 ;
 }
 catch

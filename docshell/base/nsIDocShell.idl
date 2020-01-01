@@ -3856,7 +3856,7 @@ boolean
 *
 /
 attribute
-nsIAtom
+ACString
 forcedCharset
 ;
 /
@@ -3878,7 +3878,7 @@ docshell
 *
 /
 attribute
-nsIAtom
+ACString
 parentCharset
 ;
 /
