@@ -645,7 +645,7 @@ ScrollMode
 aMode
 )
 {
-ScrollToWithSmoothnessProfile
+ScrollToWithOrigin
 (
 aScrollPosition
 aMode
@@ -1196,7 +1196,7 @@ mShouldBuildLayer
 protected
 :
 void
-ScrollToWithSmoothnessProfile
+ScrollToWithOrigin
 (
 nsPoint
 aScrollPosition
@@ -1207,7 +1207,7 @@ ScrollMode
 aMode
 nsIAtom
 *
-aProfile
+aOrigin
 )
 ;
 }
