@@ -4995,6 +4995,14 @@ actionURI
 )
 return
 ;
+if
+(
+mInvalidElementsCount
+=
+=
+0
+)
+{
 PRBool
 cancelSubmit
 =
@@ -5026,6 +5034,7 @@ mNotifiedObserversResult
 =
 cancelSubmit
 ;
+}
 }
 }
 void
