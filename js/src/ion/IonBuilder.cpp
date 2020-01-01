@@ -737,11 +737,6 @@ getCallTarget
 script
 (
 )
-.
-get
-(
-nogc
-)
 argc
 pc
 )

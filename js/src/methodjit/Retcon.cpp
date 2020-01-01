@@ -1889,11 +1889,6 @@ fp
 script
 (
 )
-.
-get
-(
-nogc
-)
 )
 ;
 for

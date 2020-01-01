@@ -438,11 +438,6 @@ toFunction
 script
 (
 )
-.
-get
-(
-nogc
-)
 ;
 }
 StaticScopeIter
@@ -6215,11 +6210,6 @@ maybefp
 >
 script
 (
-)
-.
-get
-(
-nogc
 )
 ;
 unsigned

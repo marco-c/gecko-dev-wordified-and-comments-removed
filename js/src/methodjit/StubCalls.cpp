@@ -5370,11 +5370,6 @@ f
 script
 (
 )
-.
-get
-(
-nogc
-)
 )
 ;
 f
@@ -8348,11 +8343,6 @@ fp
 script
 (
 )
-.
-get
-(
-nogc
-)
 ;
 Value
 lval
@@ -10456,11 +10446,6 @@ fun
 script
 (
 )
-.
-get
-(
-nogc
-)
 ;
 if
 (
@@ -10695,11 +10680,6 @@ fp
 >
 script
 (
-)
-.
-get
-(
-nogc
 )
 ;
 JS_ASSERT
