@@ -3368,7 +3368,7 @@ if
 mPalettedImageData
 )
 return
-NS_OK
+NS_ERROR_NOT_AVAILABLE
 ;
 if
 (
@@ -3501,7 +3501,7 @@ if
 mPalettedImageData
 )
 return
-NS_OK
+NS_ERROR_NOT_AVAILABLE
 ;
 #
 ifdef
