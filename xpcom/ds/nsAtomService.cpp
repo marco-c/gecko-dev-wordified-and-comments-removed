@@ -25,8 +25,8 @@ nsAtomService
 GetAtom
 (
 const
-PRUnichar
-*
+nsAString
+&
 aString
 nsIAtom
 *
@@ -62,8 +62,8 @@ nsAtomService
 GetPermanentAtom
 (
 const
-PRUnichar
-*
+nsAString
+&
 aString
 nsIAtom
 *
