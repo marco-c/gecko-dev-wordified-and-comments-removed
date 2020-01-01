@@ -2736,8 +2736,8 @@ AC_CHECK_PROGS
 (
 HOST_CC
 HOST_CC
-gcc
 cc
+gcc
 /
 usr
 /
