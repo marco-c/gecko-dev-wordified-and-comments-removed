@@ -35,13 +35,6 @@ h
 #
 include
 "
-fsm
-.
-h
-"
-#
-include
-"
 ccapi
 .
 h
@@ -856,8 +849,6 @@ ui_create_offer
 (
 call_events
 event
-fsmdef_states_t
-new_state
 line_t
 nLine
 callid_t
@@ -882,8 +873,6 @@ ui_create_answer
 (
 call_events
 event
-fsmdef_states_t
-new_state
 line_t
 nLine
 callid_t
@@ -908,8 +897,6 @@ ui_set_local_description
 (
 call_events
 event
-fsmdef_states_t
-new_state
 line_t
 nLine
 callid_t
@@ -934,8 +921,6 @@ ui_set_remote_description
 (
 call_events
 event
-fsmdef_states_t
-new_state
 line_t
 nLine
 callid_t
@@ -960,8 +945,6 @@ ui_update_local_description
 (
 call_events
 event
-fsmdef_states_t
-new_state
 line_t
 nLine
 callid_t
@@ -986,8 +969,6 @@ ui_ice_candidate_add
 (
 call_events
 event
-fsmdef_states_t
-new_state
 line_t
 nLine
 callid_t
@@ -1012,8 +993,6 @@ ui_on_remote_stream_added
 (
 call_events
 event
-fsmdef_states_t
-new_state
 line_t
 nLine
 callid_t

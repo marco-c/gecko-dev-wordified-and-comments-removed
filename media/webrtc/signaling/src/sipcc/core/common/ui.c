@@ -3226,9 +3226,9 @@ ccFeatUpd
 .
 data
 .
-mwi_status
+state_data
 .
-status
+state
 =
 status
 ;
@@ -6400,8 +6400,6 @@ group_call_event_t
 eventId
 call_events
 event
-fsmdef_states_t
-new_state
 line_t
 nLine
 callid_t
@@ -6477,20 +6475,6 @@ state_data
 state
 =
 event
-;
-msg
-.
-update
-.
-ccSessionUpd
-.
-data
-.
-state_data
-.
-fsm_state
-=
-new_state
 ;
 msg
 .
@@ -6659,8 +6643,6 @@ ui_create_offer
 (
 call_events
 event
-fsmdef_states_t
-new_state
 line_t
 nLine
 callid_t
@@ -6717,7 +6699,6 @@ post_message_helper
 (
 CREATE_OFFER
 event
-new_state
 nLine
 nCallID
 call_instance_id
@@ -6740,8 +6721,6 @@ ui_create_answer
 (
 call_events
 event
-fsmdef_states_t
-new_state
 line_t
 nLine
 callid_t
@@ -6798,7 +6777,6 @@ post_message_helper
 (
 CREATE_ANSWER
 event
-new_state
 nLine
 nCallID
 call_instance_id
@@ -6821,8 +6799,6 @@ ui_set_local_description
 (
 call_events
 event
-fsmdef_states_t
-new_state
 line_t
 nLine
 callid_t
@@ -6879,7 +6855,6 @@ post_message_helper
 (
 SET_LOCAL_DESC
 event
-new_state
 nLine
 nCallID
 call_instance_id
@@ -6902,8 +6877,6 @@ ui_set_remote_description
 (
 call_events
 event
-fsmdef_states_t
-new_state
 line_t
 nLine
 callid_t
@@ -6960,7 +6933,6 @@ post_message_helper
 (
 SET_REMOTE_DESC
 event
-new_state
 nLine
 nCallID
 call_instance_id
@@ -6983,8 +6955,6 @@ ui_update_local_description
 (
 call_events
 event
-fsmdef_states_t
-new_state
 line_t
 nLine
 callid_t
@@ -7041,7 +7011,6 @@ post_message_helper
 (
 UPDATE_LOCAL_DESC
 event
-new_state
 nLine
 nCallID
 call_instance_id
@@ -7064,8 +7033,6 @@ ui_ice_candidate_add
 (
 call_events
 event
-fsmdef_states_t
-new_state
 line_t
 nLine
 callid_t
@@ -7122,7 +7089,6 @@ post_message_helper
 (
 ICE_CANDIDATE_ADD
 event
-new_state
 nLine
 nCallID
 call_instance_id
@@ -7143,8 +7109,6 @@ ui_on_remote_stream_added
 (
 call_events
 event
-fsmdef_states_t
-new_state
 line_t
 nLine
 callid_t
@@ -7248,20 +7212,6 @@ state_data
 state
 =
 event
-;
-msg
-.
-update
-.
-ccSessionUpd
-.
-data
-.
-state_data
-.
-fsm_state
-=
-new_state
 ;
 msg
 .
