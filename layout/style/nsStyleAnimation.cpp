@@ -3955,7 +3955,7 @@ changed
 declaration
 -
 >
-SlotForValue
+HasNonImportantValueFor
 (
 propertyToCheck
 )
