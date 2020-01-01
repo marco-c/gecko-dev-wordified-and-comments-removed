@@ -101,14 +101,6 @@ html
 .
 json
 \
-test_EventTarget
--
-dispatchEvent
-.
-html
-.
-json
-\
 test_Node
 -
 isEqualNode
