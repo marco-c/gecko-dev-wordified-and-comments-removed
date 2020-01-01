@@ -11942,7 +11942,11 @@ unhiddenTabs
 1
 ]
 .
-clientWidth
+getBoundingClientRect
+(
+)
+.
+width
 )
 ;
 if
