@@ -363,6 +363,13 @@ asGlobal
 globalObj
 -
 >
+makeVarObj
+(
+)
+;
+globalObj
+-
+>
 syncSpecialEquality
 (
 )
@@ -648,7 +655,7 @@ clear
 ;
 setSlot
 (
-EVAL_ALLOWED
+RUNTIME_CODEGEN_ENABLED
 UndefinedValue
 (
 )
@@ -685,7 +692,7 @@ bool
 GlobalObject
 :
 :
-isEvalAllowed
+isRuntimeCodeGenEnabled
 (
 JSContext
 *
@@ -698,7 +705,7 @@ v
 =
 getSlotRef
 (
-EVAL_ALLOWED
+RUNTIME_CODEGEN_ENABLED
 )
 ;
 if

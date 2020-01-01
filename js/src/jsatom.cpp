@@ -492,6 +492,9 @@ iterate
 WeakMap
 "
 "
+byteLength
+"
+"
 return
 "
 "

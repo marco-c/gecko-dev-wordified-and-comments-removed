@@ -1663,15 +1663,6 @@ script
 >
 filename
 ;
-if
-(
-fp
--
->
-isScriptFrame
-(
-)
-)
 elem
 -
 >

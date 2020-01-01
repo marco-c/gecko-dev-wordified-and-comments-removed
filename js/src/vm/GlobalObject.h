@@ -86,7 +86,7 @@ REGEXP_STATICS
 static
 const
 uintN
-EVAL_ALLOWED
+RUNTIME_CODEGEN_ENABLED
 =
 FUNCTION_NS
 +
@@ -97,7 +97,7 @@ const
 uintN
 EVAL
 =
-EVAL_ALLOWED
+RUNTIME_CODEGEN_ENABLED
 +
 1
 ;
@@ -267,7 +267,7 @@ FLAGS_CLEARED
 ;
 }
 bool
-isEvalAllowed
+isRuntimeCodeGenEnabled
 (
 JSContext
 *
