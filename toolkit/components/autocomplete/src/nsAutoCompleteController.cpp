@@ -5125,7 +5125,7 @@ searchResult
 PRUint32
 rowCount
 =
-1
+0
 ;
 if
 (
@@ -5150,6 +5150,15 @@ rowCount
 }
 if
 (
+(
+rowCount
+!
+=
+0
+)
+&
+&
+(
 index
 +
 rowCount
@@ -5161,6 +5170,7 @@ rowCount
 PRUint32
 )
 aRowIndex
+)
 )
 {
 *
