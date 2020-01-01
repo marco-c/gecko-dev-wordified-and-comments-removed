@@ -70,6 +70,17 @@ versionName
 .
 3
 "
+android
+:
+sharedUserId
+=
+"
+org
+.
+mozilla
+.
+sharedID
+"
 >
 <
 uses
