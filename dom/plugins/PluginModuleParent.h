@@ -780,6 +780,17 @@ gfxASurface
 aSurface
 )
 ;
+virtual
+nsresult
+UseAsyncPainting
+(
+NPP
+instance
+PRBool
+*
+aIsAsync
+)
+;
 #
 if
 defined
