@@ -820,6 +820,10 @@ browser_webconsole_bug_595223_file_uri
 .
 js
 \
+browser_webconsole_bug_632275_getters_document_width
+.
+js
+\
 head
 .
 js
@@ -1535,6 +1539,16 @@ bug
 console
 -
 trace
+.
+html
+\
+test
+-
+bug
+-
+632275
+-
+getters
 .
 html
 \
