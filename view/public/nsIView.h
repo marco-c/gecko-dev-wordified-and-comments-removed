@@ -281,12 +281,6 @@ aOther
 )
 const
 ;
-nsIntPoint
-GetScreenPosition
-(
-)
-const
-;
 nsViewVisibility
 GetVisibility
 (
