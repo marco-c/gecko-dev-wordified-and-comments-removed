@@ -3062,15 +3062,7 @@ tn3
 endif
 JS_DECLARE_CALLINFO
 (
-js_Array_dense_setelem
-)
-JS_DECLARE_CALLINFO
-(
-js_Array_dense_setelem_int
-)
-JS_DECLARE_CALLINFO
-(
-js_Array_dense_setelem_double
+js_Array_dense_setelem_hole
 )
 JS_DECLARE_CALLINFO
 (
@@ -3083,6 +3075,10 @@ js_NewPreallocatedArray
 JS_DECLARE_CALLINFO
 (
 js_ArrayCompPush_tn
+)
+JS_DECLARE_CALLINFO
+(
+js_EnsureDenseArrayCapacity
 )
 JS_DECLARE_CALLINFO
 (
