@@ -5361,6 +5361,12 @@ stubs
 TableSwitch
 )
 ;
+frame
+.
+pop
+(
+)
+;
 masm
 .
 jump
@@ -5415,6 +5421,12 @@ stubs
 :
 :
 LookupSwitch
+)
+;
+frame
+.
+pop
+(
 )
 ;
 masm
