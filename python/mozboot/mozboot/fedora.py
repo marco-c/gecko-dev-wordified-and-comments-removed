@@ -94,6 +94,22 @@ static
 '
             
 '
+gstreamer
+-
+devel
+'
+            
+'
+gstreamer
+-
+plugins
+-
+base
+-
+devel
+'
+            
+'
 libstdc
 +
 +

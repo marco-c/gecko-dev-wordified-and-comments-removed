@@ -99,6 +99,26 @@ dev
 '
             
 '
+libgstreamer0
+.
+10
+-
+dev
+'
+            
+'
+libgstreamer
+-
+plugins
+-
+base0
+.
+10
+-
+dev
+'
+            
+'
 libnotify
 -
 dev
