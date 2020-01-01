@@ -4796,10 +4796,12 @@ true
 ;
 }
 else
+{
 item
 .
 reconnected
 =
+(
 item
 .
 tab
@@ -4816,7 +4818,14 @@ about
 :
 blank
 '
+|
+|
+item
+.
+parent
+)
 ;
+}
 item
 .
 save

@@ -500,6 +500,10 @@ browser_tabview_multiwindow_search
 .
 js
 \
+browser_tabview_orphaned_tabs
+.
+js
+\
 browser_tabview_search
 .
 js
