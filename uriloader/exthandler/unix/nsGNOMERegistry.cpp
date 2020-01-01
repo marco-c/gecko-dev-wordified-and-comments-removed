@@ -69,6 +69,9 @@ nsIGnomeVFSService
 h
 "
 #
+ifdef
+MOZ_WIDGET_GTK2
+#
 include
 <
 glib
@@ -84,6 +87,8 @@ object
 .
 h
 >
+#
+endif
 PRBool
 nsGNOMERegistry
 :
