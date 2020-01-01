@@ -411,10 +411,6 @@ PContentPermissionRequest
 .
 ipdl
 \
-PMemoryReportRequest
-.
-ipdl
-\
 (
 NULL
 )
