@@ -150,7 +150,7 @@ Constructor
 (
 optional
 DOMString
-label
+utfLabel
 =
 "
 utf
@@ -178,10 +178,10 @@ encode
 (
 optional
 DOMString
-?
 input
 =
-null
+"
+"
 optional
 TextEncodeOptions
 options
