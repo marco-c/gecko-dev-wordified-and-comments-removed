@@ -453,10 +453,6 @@ browser_bug713810
 .
 js
 \
-browser_contextmenu
-.
-js
-\
 browser_viewsourceprefs
 .
 js
