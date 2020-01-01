@@ -1696,6 +1696,7 @@ setCurrentBrowser
 this
 .
 selectedBrowser
+firstTab
 )
 ;
 document

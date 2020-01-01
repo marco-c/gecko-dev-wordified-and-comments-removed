@@ -123,6 +123,7 @@ setCurrentBrowser
 function
 (
 browser
+skipZoom
 )
 {
 let
@@ -218,12 +219,19 @@ _browser
 =
 browser
 ;
+if
+(
+!
+skipZoom
+)
+{
 self
 .
 zoomToPage
 (
 )
 ;
+}
 }
 startLoading
 :
