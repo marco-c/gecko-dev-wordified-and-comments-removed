@@ -130,7 +130,10 @@ sink
 >
 OpenContainer
 (
-eHTMLTag_html
+nsIHTMLContentSink
+:
+:
+eHTML
 )
 ;
 NS_ENSURE_SUCCESS
@@ -146,7 +149,10 @@ sink
 >
 OpenContainer
 (
-eHTMLTag_body
+nsIHTMLContentSink
+:
+:
+eBody
 )
 ;
 NS_ENSURE_SUCCESS
@@ -162,7 +168,10 @@ sink
 >
 CloseContainer
 (
-eHTMLTag_body
+nsIHTMLContentSink
+:
+:
+eBody
 )
 ;
 MOZ_ASSERT
@@ -180,7 +189,10 @@ sink
 >
 CloseContainer
 (
-eHTMLTag_html
+nsIHTMLContentSink
+:
+:
+eHTML
 )
 ;
 MOZ_ASSERT
