@@ -31852,7 +31852,7 @@ hiddenTimeoutDuration
 const
 firstTimeoutDuration
 =
-360000
+300000
 ;
 var
 timeoutId
