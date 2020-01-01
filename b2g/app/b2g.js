@@ -2081,6 +2081,9 @@ disabled
 false
 )
 ;
+#
+ifndef
+XP_WIN
 pref
 (
 "
@@ -2093,6 +2096,8 @@ enabled
 true
 )
 ;
+#
+endif
 pref
 (
 "
