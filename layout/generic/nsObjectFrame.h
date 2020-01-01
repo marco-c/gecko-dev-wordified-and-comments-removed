@@ -447,13 +447,7 @@ nsStyleContext
 *
 aContext
 )
-:
-nsObjectFrameSuper
-(
-aContext
-)
-{
-}
+;
 virtual
 ~
 nsObjectFrame
@@ -554,8 +548,10 @@ nsPluginInstanceOwner
 ;
 private
 :
+nsRefPtr
+<
 nsPluginInstanceOwner
-*
+>
 mInstanceOwner
 ;
 nsRect

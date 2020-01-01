@@ -744,6 +744,8 @@ NPPAutoPusher
 :
 public
 NPPStack
+protected
+PluginDestructionGuard
 {
 public
 :
@@ -753,6 +755,10 @@ NPP
 npp
 )
 :
+PluginDestructionGuard
+(
+npp
+)
 mOldNPP
 (
 sCurrentNPP
