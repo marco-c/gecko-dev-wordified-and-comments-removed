@@ -3168,11 +3168,6 @@ return
 eWOFF_invalid
 ;
 }
-tableTotal
-+
-=
-orig
-;
 +
 +
 dirEntry
