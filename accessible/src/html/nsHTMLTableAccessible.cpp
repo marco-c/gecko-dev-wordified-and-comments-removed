@@ -1240,6 +1240,7 @@ aHeaderCells
 IDRefsIterator
 iter
 (
+mDoc
 mContent
 nsGkAtoms
 :

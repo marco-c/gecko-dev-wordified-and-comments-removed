@@ -552,6 +552,7 @@ AppendIter
 new
 IDRefsIterator
 (
+mDoc
 mContent
 nsGkAtoms
 :

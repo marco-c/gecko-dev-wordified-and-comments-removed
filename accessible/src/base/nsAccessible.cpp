@@ -8836,6 +8836,7 @@ AppendIter
 new
 IDRefsIterator
 (
+mDoc
 mContent
 mContent
 -
@@ -8873,6 +8874,7 @@ rel
 new
 IDRefsIterator
 (
+mDoc
 mContent
 nsGkAtoms
 :
@@ -8949,6 +8951,7 @@ rel
 new
 IDRefsIterator
 (
+mDoc
 mContent
 nsGkAtoms
 :
@@ -9038,6 +9041,7 @@ AppendIter
 new
 IDRefsIterator
 (
+mDoc
 mContent
 nsGkAtoms
 :
@@ -9244,6 +9248,7 @@ rel
 new
 IDRefsIterator
 (
+mDoc
 mContent
 nsGkAtoms
 :
@@ -9282,6 +9287,7 @@ Relation
 new
 IDRefsIterator
 (
+mDoc
 mContent
 nsGkAtoms
 :
