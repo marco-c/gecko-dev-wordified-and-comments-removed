@@ -2135,6 +2135,8 @@ previousValue
 nsEventStates
 states
 =
+NS_EVENT_STATE_MOZ_UI_VALID
+|
 NS_EVENT_STATE_MOZ_UI_INVALID
 ;
 if
@@ -3896,9 +3898,18 @@ state
 |
 =
 NS_EVENT_STATE_VALID
+;
+if
+(
+mValueChanged
+)
+{
+state
 |
+=
 NS_EVENT_STATE_MOZ_UI_VALID
 ;
+}
 }
 else
 {
