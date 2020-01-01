@@ -618,9 +618,14 @@ MENU
 !
 -
 -
-l10n
-:
+LOCALIZATION
+NOTE
+(
 contextSaveImageLib
+.
+label
+)
+:
 saves
 an
 image
@@ -639,7 +644,7 @@ left
 hand
 side
 navigation
-ppane
+pane
 -
 >
 Libraries

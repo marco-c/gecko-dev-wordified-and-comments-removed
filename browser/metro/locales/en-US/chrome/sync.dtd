@@ -351,7 +351,7 @@ sync
 .
 pair
 .
-description2
+description
 "
 To
 activate
@@ -365,7 +365,7 @@ x0022
 ;
 Set
 up
-sync
+Sync
 &
 #
 x0022
