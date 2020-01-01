@@ -564,6 +564,16 @@ html
 \
 test_2d
 .
+clearRect
+.
+image
+.
+offscreen
+.
+html
+\
+test_2d
+.
 composite
 .
 canvas
