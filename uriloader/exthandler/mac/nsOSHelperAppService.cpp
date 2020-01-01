@@ -187,11 +187,11 @@ nsOSHelperAppService
 )
 {
 }
-NS_IMETHODIMP
+nsresult
 nsOSHelperAppService
 :
 :
-ExternalProtocolHandlerExists
+OSProtocolHandlerExists
 (
 const
 char

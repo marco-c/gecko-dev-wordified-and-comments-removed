@@ -68,8 +68,8 @@ PRBool
 aFound
 )
 ;
-NS_IMETHOD
-ExternalProtocolHandlerExists
+nsresult
+OSProtocolHandlerExists
 (
 const
 char

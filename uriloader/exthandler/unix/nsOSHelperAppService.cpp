@@ -5428,11 +5428,11 @@ aApp
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsOSHelperAppService
 :
 :
-ExternalProtocolHandlerExists
+OSProtocolHandlerExists
 (
 const
 char
@@ -5452,7 +5452,7 @@ LOG
 nsOSHelperAppService
 :
 :
-ExternalProtocolHandlerExists
+OSProtocolHandlerExists
 for
 '
 %
