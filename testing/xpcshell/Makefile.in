@@ -245,10 +245,6 @@ libs
 (
 INSTALL
 )
-(
-srcdir
-)
-/
 xpcshell
 .
 ini
@@ -295,8 +291,12 @@ _tests
 xpcshell
 cp
 (
-srcdir
+DEPTH
 )
+/
+_tests
+/
+xpcshell
 /
 xpcshell
 .
