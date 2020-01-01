@@ -198,6 +198,14 @@ aError
 0
 ;
 virtual
+int32_t
+GetProtocolTypeId
+(
+)
+=
+0
+;
+virtual
 void
 OnChannelConnected
 (
@@ -206,7 +214,6 @@ peer_pid
 )
 {
 }
-;
 }
 ;
 enum

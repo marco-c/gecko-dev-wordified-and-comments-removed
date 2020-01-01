@@ -144,6 +144,14 @@ aError
 0
 ;
 virtual
+int32_t
+GetProtocolTypeId
+(
+)
+=
+0
+;
+virtual
 bool
 OnReplyTimeout
 (
@@ -192,7 +200,6 @@ peer_pid
 )
 {
 }
-;
 virtual
 void
 OnEnteredCxxStack
