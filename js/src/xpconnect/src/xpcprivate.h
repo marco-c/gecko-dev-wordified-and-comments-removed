@@ -405,13 +405,6 @@ h
 #
 include
 "
-nsIJSEngineTelemetryStats
-.
-h
-"
-#
-include
-"
 nsDeque
 .
 h
@@ -1618,8 +1611,6 @@ public
 nsIJSRuntimeService
 public
 nsIThreadJSContextStack
-public
-nsIJSEngineTelemetryStats
 {
 public
 :
@@ -1629,7 +1620,6 @@ NS_DECL_NSITHREADOBSERVER
 NS_DECL_NSIJSRUNTIMESERVICE
 NS_DECL_NSIJSCONTEXTSTACK
 NS_DECL_NSITHREADJSCONTEXTSTACK
-NS_DECL_NSIJSENGINETELEMETRYSTATS
 public
 :
 static

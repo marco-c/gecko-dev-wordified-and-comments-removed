@@ -495,10 +495,6 @@ xpcIJSGetFactory
 .
 idl
 \
-nsIJSEngineTelemetryStats
-.
-idl
-\
 (
 NULL
 )

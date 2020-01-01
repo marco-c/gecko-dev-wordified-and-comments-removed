@@ -1330,6 +1330,9 @@ u32
 JSWhyMagic
 why
 ;
+jsuword
+word
+;
 }
 payload
 ;
@@ -1443,9 +1446,6 @@ debugView
 ;
 struct
 {
-uint32
-padding
-;
 union
 {
 int32
@@ -1456,6 +1456,9 @@ u32
 ;
 JSWhyMagic
 why
+;
+jsuword
+word
 ;
 }
 payload
@@ -1477,17 +1480,6 @@ jsval_layout
 endif
 #
 endif
-JS_STATIC_ASSERT
-(
-sizeof
-(
-jsval_layout
-)
-=
-=
-8
-)
-;
 #
 if
 JS_BITS_PER_WORD
