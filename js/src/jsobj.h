@@ -2984,9 +2984,12 @@ scopeChain
 const
 ;
 inline
-void
+bool
 setScopeChain
 (
+JSContext
+*
+cx
 JSObject
 *
 obj

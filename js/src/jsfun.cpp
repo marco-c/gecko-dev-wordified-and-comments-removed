@@ -3407,11 +3407,15 @@ setPrivate
 fp
 )
 ;
+if
+(
+!
 envobj
 -
 >
 setScopeChain
 (
+cx
 &
 fp
 -
@@ -3420,6 +3424,9 @@ scopeChain
 (
 )
 )
+)
+return
+NULL
 ;
 return
 envobj
