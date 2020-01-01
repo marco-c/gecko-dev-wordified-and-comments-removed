@@ -3186,7 +3186,7 @@ b
 }
 template
 <
-bool
+JSBool
 EQ
 bool
 IFNAN
@@ -3239,7 +3239,7 @@ sp
 2
 ]
 ;
-bool
+JSBool
 cond
 ;
 if
@@ -3278,7 +3278,7 @@ toString
 (
 )
 ;
-bool
+JSBool
 equal
 ;
 if
@@ -3350,9 +3350,6 @@ isXML
 )
 )
 {
-JSBool
-equal
-;
 if
 (
 !
@@ -3362,7 +3359,7 @@ cx
 lval
 rval
 &
-equal
+cond
 )
 )
 return
@@ -3370,9 +3367,7 @@ false
 ;
 cond
 =
-!
-!
-equal
+cond
 =
 =
 EQ
@@ -3503,9 +3498,6 @@ ext
 equality
 )
 {
-JSBool
-equal
-;
 if
 (
 !
@@ -3516,7 +3508,7 @@ l
 &
 rval
 &
-equal
+cond
 )
 )
 return
@@ -3524,9 +3516,7 @@ false
 ;
 cond
 =
-!
-!
-equal
+cond
 =
 =
 EQ
@@ -3690,7 +3680,7 @@ toString
 (
 )
 ;
-bool
+JSBool
 equal
 ;
 if
@@ -3810,7 +3800,7 @@ if
 !
 StubEqualityOp
 <
-true
+JS_TRUE
 false
 >
 (
@@ -3855,7 +3845,7 @@ if
 !
 StubEqualityOp
 <
-false
+JS_FALSE
 true
 >
 (
@@ -7910,7 +7900,7 @@ sp
 2
 ]
 ;
-bool
+JSBool
 equal
 ;
 if
@@ -8000,7 +7990,7 @@ sp
 2
 ]
 ;
-bool
+JSBool
 equal
 ;
 if

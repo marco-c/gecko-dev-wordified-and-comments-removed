@@ -568,7 +568,7 @@ asLinear
 #
 ifdef
 DEBUG
-bool
+JSBool
 same
 ;
 JS_ASSERT

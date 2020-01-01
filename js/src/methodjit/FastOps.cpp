@@ -13336,7 +13336,7 @@ isConstant
 )
 )
 {
-bool
+JSBool
 b
 ;
 StrictlyEqual

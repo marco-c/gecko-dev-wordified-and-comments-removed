@@ -14867,7 +14867,7 @@ if
 hole
 )
 {
-bool
+JSBool
 equal
 ;
 if
@@ -14883,7 +14883,7 @@ equal
 )
 )
 return
-false
+JS_FALSE
 ;
 if
 (
@@ -14902,7 +14902,7 @@ i
 )
 ;
 return
-true
+JS_TRUE
 ;
 }
 }

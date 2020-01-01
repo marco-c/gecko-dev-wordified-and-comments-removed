@@ -14,15 +14,6 @@ Assertions
 h
 "
 #
-include
-"
-mozilla
-/
-Types
-.
-h
-"
-#
 ifdef
 __cplusplus
 #
@@ -35,10 +26,7 @@ namespace
 detail
 {
 class
-MOZ_EXPORT_API
-(
 GuardObjectNotifier
-)
 {
 private
 :
@@ -85,10 +73,7 @@ statementIsDone
 }
 ;
 class
-MOZ_EXPORT_API
-(
 GuardObjectNotificationReceiver
-)
 {
 private
 :
