@@ -2391,6 +2391,3 @@ endif
 endif
 #
 WINNT
-MOZ_APP_ID
-=
-MOZ_APP_ID

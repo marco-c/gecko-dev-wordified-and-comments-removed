@@ -3043,13 +3043,6 @@ getLocale
 (
 )
 {
-return
-"
-en
--
-US
-"
-;
 if
 (
 gLocale

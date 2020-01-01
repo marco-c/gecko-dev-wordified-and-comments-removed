@@ -459,11 +459,6 @@ MOZ_APP_NAME
 (
 BIN_SUFFIX
 )
-CPPSRCS
-=
-nsBrowserApp
-.
-cpp
 LOCAL_INCLUDES
 +
 =
