@@ -5944,7 +5944,17 @@ nsIStyleSheet
 >
 sheet
 =
+static_cast
+<
+css
+:
+:
+Rule
+*
+>
+(
 mOwnerRule
+)
 -
 >
 GetStyleSheet
