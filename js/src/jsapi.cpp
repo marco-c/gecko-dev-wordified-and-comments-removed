@@ -4261,12 +4261,6 @@ requestedHelperThreadCount
 JS_INIT_CLIST
 (
 &
-debuggerList
-)
-;
-JS_INIT_CLIST
-(
-&
 onNewGlobalObjectWatchers
 )
 ;

@@ -2602,7 +2602,16 @@ alwaysPreserveCode
 JSBool
 hadOutOfMemory
 ;
-JSCList
+mozilla
+:
+:
+LinkedList
+<
+js
+:
+:
+Debugger
+>
 debuggerList
 ;
 JSCList
