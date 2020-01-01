@@ -528,6 +528,10 @@ Layers
 .
 cpp
 \
+RenderTrace
+.
+cpp
+\
 ReadbackProcessor
 .
 cpp
