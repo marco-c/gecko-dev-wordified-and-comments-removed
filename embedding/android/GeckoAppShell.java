@@ -629,6 +629,13 @@ String
 combinedArgs
 =
 apkPath
++
+"
+-
+omnijar
+"
++
+apkPath
 ;
 if
 (
