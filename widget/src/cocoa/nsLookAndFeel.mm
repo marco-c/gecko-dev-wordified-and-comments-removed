@@ -459,6 +459,13 @@ nsNativeThemeColors
 h
 "
 #
+include
+"
+nsStyleConsts
+.
+h
+"
+#
 import
 <
 Cocoa
@@ -2276,7 +2283,7 @@ eMetric_IMESelectedConvertedTextUnderline
 :
 aMetric
 =
-NS_UNDERLINE_STYLE_SOLID
+NS_STYLE_TEXT_DECORATION_STYLE_SOLID
 ;
 break
 ;
@@ -2285,7 +2292,7 @@ eMetric_SpellCheckerUnderlineStyle
 :
 aMetric
 =
-NS_UNDERLINE_STYLE_DOTTED
+NS_STYLE_TEXT_DECORATION_STYLE_DOTTED
 ;
 break
 ;

@@ -22,6 +22,13 @@ gtkdrawing
 h
 "
 #
+include
+"
+nsStyleConsts
+.
+h
+"
+#
 ifdef
 MOZ_PLATFORM_MAEMO
 #
@@ -2088,7 +2095,7 @@ eMetric_IMEConvertedTextUnderlineStyle
 :
 aMetric
 =
-NS_UNDERLINE_STYLE_SOLID
+NS_STYLE_TEXT_DECORATION_STYLE_SOLID
 ;
 break
 ;
@@ -2100,7 +2107,7 @@ eMetric_IMESelectedConvertedTextUnderline
 :
 aMetric
 =
-NS_UNDERLINE_STYLE_NONE
+NS_STYLE_TEXT_DECORATION_STYLE_NONE
 ;
 break
 ;
@@ -2109,7 +2116,7 @@ eMetric_SpellCheckerUnderlineStyle
 :
 aMetric
 =
-NS_UNDERLINE_STYLE_WAVY
+NS_STYLE_TEXT_DECORATION_STYLE_WAVY
 ;
 break
 ;

@@ -5,6 +5,13 @@ nsLookAndFeel
 .
 h
 "
+#
+include
+"
+nsStyleConsts
+.
+h
+"
 nsLookAndFeel
 :
 :
@@ -965,7 +972,7 @@ eMetric_SpellCheckerUnderlineStyle
 :
 aMetric
 =
-NS_UNDERLINE_STYLE_WAVY
+NS_STYLE_TEXT_DECORATION_STYLE_WAVY
 ;
 break
 ;
