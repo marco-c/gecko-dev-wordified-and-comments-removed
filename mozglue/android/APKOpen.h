@@ -37,10 +37,6 @@ char
 *
 name
 ;
-char
-*
-file_id
-;
 uintptr_t
 base
 ;
