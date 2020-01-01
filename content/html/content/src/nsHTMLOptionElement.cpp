@@ -363,7 +363,7 @@ nsnull
 ;
 nsCOMPtr
 <
-nsIFormControl
+nsIDOMHTMLSelectElement
 >
 selectControl
 =
