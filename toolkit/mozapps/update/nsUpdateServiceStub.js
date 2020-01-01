@@ -233,6 +233,13 @@ UpdateServiceStub
 prototype
 =
 {
+observe
+:
+function
+(
+)
+{
+}
 classID
 :
 Components
@@ -260,6 +267,9 @@ XPCOMUtils
 generateQI
 (
 [
+Ci
+.
+nsIObserver
 ]
 )
 }
