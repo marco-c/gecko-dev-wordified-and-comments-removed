@@ -5970,7 +5970,9 @@ timeout
 tmp
 -
 >
-FirstTimeout
+mTimeouts
+.
+getFirst
 (
 )
 ;
@@ -5981,7 +5983,7 @@ timeout
 timeout
 -
 >
-Next
+getNext
 (
 )
 )
@@ -6427,7 +6429,9 @@ nsTimeout
 *
 timeout
 =
-FirstTimeout
+mTimeouts
+.
+getFirst
 (
 )
 ;
@@ -6438,7 +6442,7 @@ timeout
 timeout
 -
 >
-Next
+getNext
 (
 )
 )
@@ -40491,7 +40495,9 @@ for
 (
 timeout
 =
-FirstTimeout
+mTimeouts
+.
+getFirst
 (
 )
 ;
@@ -40502,7 +40508,7 @@ timeout
 timeout
 -
 >
-Next
+getNext
 (
 )
 )
@@ -40674,7 +40680,9 @@ for
 (
 timeout
 =
-FirstTimeout
+mTimeouts
+.
+getFirst
 (
 )
 ;
@@ -40700,7 +40708,7 @@ nextTimeout
 timeout
 -
 >
-Next
+getNext
 (
 )
 ;
@@ -40807,7 +40815,7 @@ nextTimeout
 timeout
 -
 >
-Next
+getNext
 (
 )
 ;
@@ -40940,7 +40948,9 @@ for
 (
 timeout
 =
-FirstTimeout
+mTimeouts
+.
+getFirst
 (
 )
 ;
@@ -40951,7 +40961,7 @@ timeout
 timeout
 -
 >
-Next
+getNext
 (
 )
 )
@@ -41092,11 +41102,13 @@ mTimeoutInsertionPoint
 mTimeoutInsertionPoint
 -
 >
-Next
+getNext
 (
 )
 :
-FirstTimeout
+mTimeouts
+.
+getFirst
 (
 )
 ;
@@ -41120,7 +41132,7 @@ timeout
 timeout
 -
 >
-Next
+getNext
 (
 )
 ;
@@ -41262,7 +41274,7 @@ nextTimeout
 timeout
 -
 >
-Next
+getNext
 (
 )
 ;
@@ -41379,7 +41391,7 @@ timeout
 timeout
 -
 >
-Next
+getNext
 (
 )
 ;
@@ -41407,7 +41419,9 @@ for
 (
 timeout
 =
-FirstTimeout
+mTimeouts
+.
+getFirst
 (
 )
 ;
@@ -41434,7 +41448,7 @@ nextTimeout
 timeout
 -
 >
-Next
+getNext
 (
 )
 ;
@@ -41529,7 +41543,9 @@ for
 (
 prevSibling
 =
-LastTimeout
+mTimeouts
+.
+getLast
 (
 )
 ;
@@ -41578,7 +41594,7 @@ prevSibling
 prevSibling
 -
 >
-Prev
+getPrevious
 (
 )
 )
@@ -42812,7 +42828,9 @@ nsTimeout
 *
 t
 =
-FirstTimeout
+mTimeouts
+.
+getFirst
 (
 )
 ;
@@ -42823,7 +42841,7 @@ t
 t
 -
 >
-Next
+getNext
 (
 )
 )
@@ -43271,7 +43289,9 @@ nsTimeout
 *
 t
 =
-FirstTimeout
+mTimeouts
+.
+getFirst
 (
 )
 ;
@@ -43282,7 +43302,7 @@ t
 t
 -
 >
-Next
+getNext
 (
 )
 )
