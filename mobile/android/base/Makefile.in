@@ -865,10 +865,6 @@ GeckoConnectivityReceiver
 .
 java
 \
-GeckoDirProvider
-.
-java
-\
 GeckoEvent
 .
 java
@@ -882,6 +878,10 @@ GeckoInputConnection
 java
 \
 GeckoPreferences
+.
+java
+\
+GeckoProfile
 .
 java
 \
