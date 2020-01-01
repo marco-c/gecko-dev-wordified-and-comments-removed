@@ -179,7 +179,7 @@ _sslStatus
 =
 null
 ;
-var
+let
 req
 =
 new
@@ -295,10 +295,10 @@ SSLE_addOverride
 (
 aURI
 aWindow
-temporary
+aTemporary
 )
 {
-var
+let
 SSLStatus
 =
 this
@@ -308,14 +308,14 @@ _checkCert
 aURI
 )
 ;
-var
+let
 certificate
 =
 SSLStatus
 .
 serverCert
 ;
-var
+let
 flags
 =
 0
@@ -330,7 +330,7 @@ aWindow
 )
 )
 {
-temporary
+aTemporary
 =
 true
 ;
@@ -394,7 +394,7 @@ aURI
 port
 certificate
 flags
-temporary
+aTemporary
 )
 ;
 }
