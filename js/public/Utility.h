@@ -21,9 +21,7 @@ h
 #
 include
 "
-mozilla
-/
-Util
+jstypes
 .
 h
 "

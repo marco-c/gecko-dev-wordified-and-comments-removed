@@ -29,7 +29,7 @@ const
 char
 *
 file
-JSIntn
+int
 ln
 )
 ;

@@ -942,8 +942,8 @@ extern
 JS_EXPORT_API
 (
 char
-)
 *
+)
 readline
 (
 const
