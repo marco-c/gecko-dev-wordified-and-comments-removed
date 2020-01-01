@@ -259,7 +259,7 @@ THUNK_BASED_THIS_ADJUST
 elif
 defined
 (
-__EMX__
+__OS2__
 )
 #
 define
