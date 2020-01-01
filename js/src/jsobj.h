@@ -3902,6 +3902,11 @@ JSContext
 cx
 uint32_t
 size
+uint8_t
+*
+contents
+=
+NULL
 )
 ;
 inline
