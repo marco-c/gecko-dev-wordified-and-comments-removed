@@ -229,9 +229,6 @@ toString
 toSource
 "
 "
-valueOf
-"
-"
 lastResult
 "
 "
