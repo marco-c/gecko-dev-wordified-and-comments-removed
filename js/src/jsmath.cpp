@@ -2660,7 +2660,7 @@ x
 )
 )
 return
-JS_FALSE
+false
 ;
 jsdpun
 u
