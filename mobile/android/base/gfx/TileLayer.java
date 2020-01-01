@@ -440,7 +440,7 @@ reap
 }
 Override
 protected
-boolean
+void
 performUpdates
 (
 RenderContext
@@ -472,7 +472,6 @@ isPositive
 )
 )
 return
-true
 ;
 if
 (
@@ -500,9 +499,6 @@ mDirtyRect
 setEmpty
 (
 )
-;
-return
-true
 ;
 }
 private
