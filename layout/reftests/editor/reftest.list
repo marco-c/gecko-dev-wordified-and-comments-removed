@@ -161,6 +161,10 @@ passwd
 ref
 .
 html
+asserts
+(
+1
+)
 =
 =
 passwd
@@ -173,6 +177,9 @@ passwd
 ref
 .
 html
+#
+bug
+596901
 =
 =
 emptypasswd
