@@ -417,6 +417,10 @@ INISection
 .
 java
 \
+InputMethods
+.
+java
+\
 LinkPreference
 .
 java
