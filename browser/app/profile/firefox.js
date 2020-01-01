@@ -5038,15 +5038,3 @@ ssl_override_behavior
 1
 )
 ;
-pref
-(
-"
-editor
-.
-singleLine
-.
-pasteNewlines
-"
-2
-)
-;
