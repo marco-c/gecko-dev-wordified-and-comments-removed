@@ -579,13 +579,6 @@ PRUnichar
 c
 )
 ;
-void
-appendStrBufForceWrite
-(
-PRUnichar
-c
-)
-;
 protected
 :
 nsString

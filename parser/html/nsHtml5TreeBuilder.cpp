@@ -11625,9 +11625,6 @@ if
 kNameSpaceID_XHTML
 !
 =
-node
--
->
 ns
 )
 {
