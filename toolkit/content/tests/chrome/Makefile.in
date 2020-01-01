@@ -443,6 +443,14 @@ test_bug288254
 .
 xul
 \
+bug304188_window
+.
+xul
+\
+test_bug304188
+.
+xul
+\
 bug360437_window
 .
 xul
