@@ -807,6 +807,14 @@ DNO_NSPR_10_SUPPORT
 (
 NULL
 )
+ifdef
+MOZ_JSDEBUGGER
+DEFINES
++
+=
+-
+DMOZ_JSDEBUGGER
+endif
 ifeq
 (
 (
