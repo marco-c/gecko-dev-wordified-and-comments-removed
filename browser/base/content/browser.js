@@ -14552,7 +14552,9 @@ shouldLoadFavIcon
 (
 browser
 .
-currentURI
+contentDocument
+.
+documentURIObject
 )
 )
 iconURL

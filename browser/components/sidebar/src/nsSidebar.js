@@ -1427,7 +1427,9 @@ browser
 .
 selectedBrowser
 .
-currentURI
+contentDocument
+.
+documentURIObject
 )
 )
 iconURL
