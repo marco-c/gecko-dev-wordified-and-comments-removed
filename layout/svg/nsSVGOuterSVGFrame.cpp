@@ -3050,6 +3050,17 @@ COORD_CONTEXT_CHANGED
 TRANSFORM_CHANGED
 )
 ;
+if
+(
+aAttribute
+!
+=
+nsGkAtoms
+:
+:
+transform
+)
+{
 static_cast
 <
 SVGSVGElement
@@ -3064,6 +3075,7 @@ ChildrenOnlyTransformChanged
 (
 )
 ;
+}
 }
 else
 if
