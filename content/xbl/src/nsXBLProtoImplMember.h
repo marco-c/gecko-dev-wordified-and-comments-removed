@@ -293,8 +293,14 @@ InstallMember
 JSContext
 *
 aCx
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aTargetClassObject
 )
 =
