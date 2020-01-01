@@ -3344,10 +3344,7 @@ if
 staticLevel
 >
 =
-JS_BITMASK
-(
-16
-)
+FREE_STATIC_LEVEL
 )
 {
 JS_ReportErrorNumber
@@ -10080,7 +10077,7 @@ funtc
 -
 >
 staticLevel
-0
+CALLEE_UPVAR_SLOT
 )
 ;
 dn
@@ -36327,11 +36324,6 @@ tcx
 =
 tc
 ;
-bool
-hit_named_lambda
-=
-false
-;
 JSDefinition
 *
 dn
@@ -36451,7 +36443,7 @@ endif
 if
 (
 (
-tc
+tcx
 -
 >
 flags
@@ -36461,7 +36453,7 @@ TCF_IN_FUNCTION
 &
 &
 (
-tc
+tcx
 -
 >
 fun
@@ -36473,7 +36465,7 @@ JSFUN_LAMBDA
 )
 &
 &
-tc
+tcx
 -
 >
 fun
@@ -36488,10 +36480,6 @@ pn
 pn_atom
 )
 {
-hit_named_lambda
-=
-true
-;
 break
 ;
 }
@@ -36632,10 +36620,6 @@ tcx
 !
 =
 tc
-&
-&
-!
-hit_named_lambda
 )
 {
 ale

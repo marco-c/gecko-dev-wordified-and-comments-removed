@@ -101,6 +101,14 @@ JSUpvarArray
 ;
 #
 define
+CALLEE_UPVAR_SLOT
+0xffff
+#
+define
+FREE_STATIC_LEVEL
+0xffff
+#
+define
 FREE_UPVAR_COOKIE
 0xffffffff
 #
