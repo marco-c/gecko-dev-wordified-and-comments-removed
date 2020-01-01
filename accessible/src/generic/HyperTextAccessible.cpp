@@ -7689,16 +7689,6 @@ aSelectionNum
 return
 NS_ERROR_INVALID_ARG
 ;
-bool
-isOnlyCaret
-=
-(
-aStartOffset
-=
-=
-aEndOffset
-)
-;
 nsRefPtr
 <
 nsRange
