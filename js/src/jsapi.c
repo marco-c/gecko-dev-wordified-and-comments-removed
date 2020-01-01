@@ -3918,9 +3918,6 @@ data
 data
 ;
 }
-#
-ifdef
-JS_THREADSAFE
 JS_PUBLIC_API
 (
 void
@@ -3932,6 +3929,9 @@ JSContext
 cx
 )
 {
+#
+ifdef
+JS_THREADSAFE
 JSRuntime
 *
 rt
@@ -4045,6 +4045,8 @@ outstandingRequests
 +
 +
 ;
+#
+endif
 }
 JS_PUBLIC_API
 (
@@ -4057,6 +4059,9 @@ JSContext
 cx
 )
 {
+#
+ifdef
+JS_THREADSAFE
 JSRuntime
 *
 rt
@@ -4311,6 +4316,8 @@ outstandingRequests
 -
 -
 ;
+#
+endif
 }
 JS_PUBLIC_API
 (
@@ -4323,6 +4330,9 @@ JSContext
 cx
 )
 {
+#
+ifdef
+JS_THREADSAFE
 JSRuntime
 *
 rt
@@ -4435,6 +4445,8 @@ JS_UNLOCK_GC
 rt
 )
 ;
+#
+endif
 }
 JS_PUBLIC_API
 (
@@ -4447,6 +4459,9 @@ JSContext
 cx
 )
 {
+#
+ifdef
+JS_THREADSAFE
 jsrefcount
 saveDepth
 =
@@ -4470,6 +4485,13 @@ cx
 return
 saveDepth
 ;
+#
+else
+return
+0
+;
+#
+endif
 }
 JS_PUBLIC_API
 (
@@ -4484,6 +4506,9 @@ jsrefcount
 saveDepth
 )
 {
+#
+ifdef
+JS_THREADSAFE
 JS_ASSERT
 (
 !
@@ -4507,9 +4532,9 @@ JS_BeginRequest
 cx
 )
 ;
-}
 #
 endif
+}
 JS_PUBLIC_API
 (
 void
