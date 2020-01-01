@@ -181,6 +181,17 @@ inl
 .
 h
 "
+#
+include
+"
+ion
+/
+IonFrames
+-
+inl
+.
+h
+"
 using
 namespace
 js
@@ -4910,7 +4921,7 @@ JS_ASSERT
 (
 it
 .
-hasScript
+isScripted
 (
 )
 )
@@ -5097,7 +5108,7 @@ if
 !
 it
 .
-hasScript
+isScripted
 (
 )
 )

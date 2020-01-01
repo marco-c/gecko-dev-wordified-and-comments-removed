@@ -939,6 +939,7 @@ bool
 moreFrames
 (
 )
+const
 {
 return
 reader_
