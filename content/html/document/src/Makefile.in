@@ -451,14 +451,6 @@ nsPluginDocument
 .
 cpp
 \
-nsWyciwygChannel
-.
-cpp
-\
-nsWyciwygProtocolHandler
-.
-cpp
-\
 (
 NULL
 )

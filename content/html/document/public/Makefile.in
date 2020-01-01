@@ -428,10 +428,6 @@ nsIImageDocument
 .
 idl
 \
-nsIWyciwygChannel
-.
-idl
-\
 (
 NULL
 )
