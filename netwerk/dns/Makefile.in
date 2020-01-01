@@ -127,16 +127,6 @@ config
 rules
 .
 mk
-DEFINES
-+
-=
-\
--
-DHB_DONT_DEFINE_STDINT
-\
-(
-NULL
-)
 #
 Generate
 the

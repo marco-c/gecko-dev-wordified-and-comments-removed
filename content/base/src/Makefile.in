@@ -405,11 +405,6 @@ wrappers
 (
 NULL
 )
-DEFINES
-+
-=
--
-DHB_DONT_DEFINE_STDINT
 #
 gcc
 requires
