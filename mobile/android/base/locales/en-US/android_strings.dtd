@@ -895,6 +895,16 @@ Page
 >
 <
 !
+ENTITY
+desktop_mode
+"
+Request
+Desktop
+Site
+"
+>
+<
+!
 -
 -
 Localization
