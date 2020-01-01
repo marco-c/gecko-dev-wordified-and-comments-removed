@@ -38051,13 +38051,10 @@ n
 JSJitMethodOp
 method
 =
-(
-JSJitMethodOp
-)
 info
 -
 >
-op
+method
 ;
 \
 n
@@ -39367,13 +39364,13 @@ n
 "
             
 "
-JSJitPropertyOp
+JSJitGetterOp
 getter
 =
 info
 -
 >
-op
+getter
 ;
 \
 n
@@ -40108,13 +40105,13 @@ n
 "
                 
 "
-JSJitPropertyOp
+JSJitSetterOp
 setter
 =
 info
 -
 >
-op
+setter
 ;
 \
 n
@@ -41027,8 +41024,10 @@ n
 "
                 
 "
+{
 %
 s
+}
 \
 n
 "
@@ -41190,7 +41189,7 @@ getter
 (
 "
 (
-JSJitPropertyOp
+JSJitGetterOp
 )
 get_
 %
@@ -41356,7 +41355,7 @@ setter
 (
 "
 (
-JSJitPropertyOp
+JSJitGetterOp
 )
 set_
 %
@@ -41451,7 +41450,7 @@ method
 (
 "
 (
-JSJitPropertyOp
+JSJitGetterOp
 )
 %
 s
