@@ -40,9 +40,6 @@ cx
 JSObject
 *
 scopeChain
-JSFunction
-*
-fun
 FunctionBox
 *
 funbox
@@ -53,11 +50,6 @@ sms
 context
 (
 cx
-)
-fun_
-(
-cx
-fun
 )
 funbox_
 (
@@ -79,7 +71,7 @@ sms
 JS_ASSERT
 (
 (
-fun
+funbox
 &
 &
 !
@@ -87,14 +79,8 @@ scopeChain_
 )
 |
 |
-(
-!
-fun
-&
-&
 !
 funbox
-)
 )
 ;
 }
@@ -121,11 +107,6 @@ UNKNOWN
 JS_ASSERT_IF
 (
 inFunction
-(
-)
-&
-&
-funbox
 (
 )
 funbox
