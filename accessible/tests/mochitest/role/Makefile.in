@@ -93,6 +93,10 @@ test_general
 .
 html
 \
+test_general
+.
+xul
+\
 test_svg
 .
 html
