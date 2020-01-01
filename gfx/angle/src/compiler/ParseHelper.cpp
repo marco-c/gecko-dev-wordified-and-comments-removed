@@ -2912,6 +2912,8 @@ isArray
 )
 &
 &
+int
+(
 type
 -
 >
@@ -2922,6 +2924,7 @@ getStruct
 >
 size
 (
+)
 )
 !
 =

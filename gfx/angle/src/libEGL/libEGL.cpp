@@ -1517,6 +1517,11 @@ EGL_NO_SURFACE
 )
 ;
 }
+attrib_list
++
+=
+2
+;
 }
 }
 if
