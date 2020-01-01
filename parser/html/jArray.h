@@ -445,6 +445,12 @@ length
 if
 defined
 (
+MOZ_HAVE_CXX11_NULLPTR
+)
+#
+if
+defined
+(
 __clang__
 )
 typedef
@@ -455,11 +461,7 @@ nullptr
 jArray_nullptr_t
 ;
 #
-elif
-defined
-(
-MOZ_HAVE_CXX11_NULLPTR
-)
+else
 typedef
 std
 :
@@ -467,6 +469,8 @@ std
 nullptr_t
 jArray_nullptr_t
 ;
+#
+endif
 #
 elif
 defined
