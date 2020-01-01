@@ -67,6 +67,13 @@ nsCycleCollectionParticipant
 .
 h
 "
+#
+include
+"
+nsScriptNameSpaceManager
+.
+h
+"
 class
 nsIXPConnectJSObjectHolder
 ;
@@ -1016,6 +1023,13 @@ Startup
 static
 nsresult
 Init
+(
+)
+;
+static
+nsScriptNameSpaceManager
+*
+GetNameSpaceManager
 (
 )
 ;
