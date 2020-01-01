@@ -2697,7 +2697,7 @@ ImmWord
 cx
 -
 >
-compartment
+runtime
 )
 rcx
 )

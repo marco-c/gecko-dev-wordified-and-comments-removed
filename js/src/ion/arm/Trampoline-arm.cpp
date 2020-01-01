@@ -2763,7 +2763,7 @@ ImmWord
 cx
 -
 >
-compartment
+runtime
 )
 r0
 )

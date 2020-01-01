@@ -2633,7 +2633,7 @@ ImmWord
 cx
 -
 >
-compartment
+runtime
 )
 ecx
 )
