@@ -275,6 +275,12 @@ mPendingFullDisplay
 BOOL
 mIsTransparent
 ;
+PRIntervalTime
+mLastShadowInvalidation
+;
+BOOL
+mNeedsShadowInvalidation
+;
 nsIDragService
 *
 mDragService
@@ -1165,6 +1171,13 @@ SetTransparencyMode
 (
 nsTransparencyMode
 aMode
+)
+;
+NS_IMETHOD
+SetWindowShadowStyle
+(
+PRInt32
+aStyle
 )
 ;
 virtual

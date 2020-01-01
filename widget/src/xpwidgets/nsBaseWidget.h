@@ -343,6 +343,13 @@ GetTransparencyMode
 )
 ;
 NS_IMETHOD
+SetWindowShadowStyle
+(
+PRInt32
+aStyle
+)
+;
+NS_IMETHOD
 HideWindowChrome
 (
 PRBool
