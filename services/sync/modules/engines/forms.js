@@ -592,11 +592,13 @@ guid
 =
 null
 )
+{
 return
 item
 .
 guid
 ;
+}
 let
 setQuery
 =
@@ -868,6 +870,7 @@ item
 value
 )
 )
+{
 return
 FormWrapper
 .
@@ -881,6 +884,7 @@ item
 value
 )
 ;
+}
 }
 }
 ;
@@ -1005,6 +1009,7 @@ getAllEntries
 (
 )
 )
+{
 guids
 [
 FormWrapper
@@ -1018,6 +1023,7 @@ value
 =
 true
 ;
+}
 return
 guids
 ;
@@ -1112,12 +1118,14 @@ value
 ;
 }
 else
+{
 record
 .
 deleted
 =
 true
 ;
+}
 return
 record
 ;
@@ -1208,8 +1216,10 @@ entry
 =
 null
 )
+{
 return
 ;
+}
 Svc
 .
 Form
@@ -1674,8 +1684,10 @@ this
 .
 ignoreAll
 )
+{
 return
 ;
+}
 this
 .
 _log
@@ -1815,12 +1827,14 @@ name
 "
 "
 )
+{
 name
 =
 el
 .
 id
 ;
+}
 if
 (
 !
