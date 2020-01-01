@@ -129,15 +129,6 @@ tier_platform_dirs
 +
 =
 xpcom
-ifndef
-MOZ_NATIVE_ZLIB
-tier_platform_dirs
-+
-=
-modules
-/
-zlib
-endif
 tier_platform_dirs
 +
 =

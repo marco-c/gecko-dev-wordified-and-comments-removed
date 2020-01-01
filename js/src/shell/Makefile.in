@@ -159,6 +159,9 @@ js_static
 (
 LIB_SUFFIX
 )
+(
+MOZ_ZLIB_LIBS
+)
 ifdef
 MOZ_NATIVE_FFI
 EXTRA_LIBS

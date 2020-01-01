@@ -231,6 +231,15 @@ memory
 /
 build
 endif
+ifndef
+MOZ_NATIVE_ZLIB
+tier_base_dirs
++
+=
+modules
+/
+zlib
+endif
 tier_base_dirs
 +
 =
