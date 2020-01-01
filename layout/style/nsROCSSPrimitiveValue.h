@@ -60,6 +60,9 @@ class
 nsComputedDOMStyle
 ;
 class
+nsDOMCSSRect
+;
+class
 nsDOMCSSRGBColor
 ;
 class
@@ -348,7 +351,7 @@ aColor
 void
 SetRect
 (
-nsIDOMRect
+nsDOMCSSRect
 *
 aRect
 )
@@ -409,7 +412,7 @@ nsDOMCSSRGBColor
 *
 mColor
 ;
-nsIDOMRect
+nsDOMCSSRect
 *
 mRect
 ;

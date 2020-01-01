@@ -47,7 +47,7 @@ h
 #
 include
 "
-nsIDOMRect
+nsDOMCSSRect
 .
 h
 "
@@ -2369,7 +2369,7 @@ nsROCSSPrimitiveValue
 :
 SetRect
 (
-nsIDOMRect
+nsDOMCSSRect
 *
 aRect
 )
