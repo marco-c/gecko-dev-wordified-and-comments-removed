@@ -1972,7 +1972,7 @@ return
 logins
 ;
 }
-clearAllLogins
+removeAllLogins
 :
 function
 (
@@ -1983,7 +1983,7 @@ this
 log
 (
 "
-Clearing
+Removing
 all
 logins
 "
@@ -1993,7 +1993,7 @@ this
 .
 _storage
 .
-clearAllLogins
+removeAllLogins
 (
 )
 ;

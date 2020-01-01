@@ -740,7 +740,7 @@ return
 result
 ;
 }
-clearAllLogins
+removeAllLogins
 :
 function
 (
