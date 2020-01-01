@@ -13,11 +13,6 @@ stdlib
 h
 >
 #
-include
-<
-iostream
->
-#
 if
 !
 defined
@@ -35,6 +30,13 @@ h
 >
 #
 endif
+#
+include
+<
+errno
+.
+h
+>
 #
 define
 SCTP_DEBUG
