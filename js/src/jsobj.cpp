@@ -24423,10 +24423,6 @@ Class
 clasp
 )
 {
-StackFrame
-*
-fp
-;
 JSObject
 *
 obj
