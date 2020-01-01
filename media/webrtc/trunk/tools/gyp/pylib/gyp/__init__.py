@@ -359,6 +359,17 @@ GENERATOR
 =
 format
   
+default_variables
+[
+'
+PYTHON
+'
+]
+=
+sys
+.
+executable
+  
 if
 format
 .
