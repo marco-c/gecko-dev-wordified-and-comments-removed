@@ -4157,6 +4157,13 @@ components
 YoutubeProtocolHandler
 .
 js
+BINPATH
+/
+components
+/
+RecoveryService
+.
+js
 #
 ifdef
 XP_MACOSX

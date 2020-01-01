@@ -134,6 +134,10 @@ YoutubeProtocolHandler
 .
 js
 \
+RecoveryService
+.
+js
+\
 (
 NULL
 )
