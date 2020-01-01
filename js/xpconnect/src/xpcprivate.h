@@ -4023,14 +4023,6 @@ GetRuntime
 const
 ;
 inline
-XPCPerThreadData
-*
-GetThreadData
-(
-)
-const
-;
-inline
 XPCContext
 *
 GetXPCContext
@@ -4535,10 +4527,6 @@ mState
 nsXPConnect
 *
 mXPC
-;
-XPCPerThreadData
-*
-mThreadData
 ;
 XPCContext
 *
