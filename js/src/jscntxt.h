@@ -716,9 +716,6 @@ JSTracer
 *
 gcMarkingTracer
 ;
-uint32
-gcTriggerFactor
-;
 JSPackedBool
 gcPoke
 ;
