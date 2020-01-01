@@ -224,6 +224,10 @@ WebappRT
 .
 jsm
 \
+WebappsHandler
+.
+jsm
+\
 (
 NULL
 )
