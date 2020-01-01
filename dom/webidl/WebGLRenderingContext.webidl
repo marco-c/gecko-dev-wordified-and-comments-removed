@@ -339,10 +339,12 @@ long
 GLuint
 ;
 typedef
+unrestricted
 float
 GLfloat
 ;
 typedef
+unrestricted
 float
 GLclampf
 ;
@@ -4008,7 +4010,7 @@ WebGLUniformLocation
 location
 sequence
 <
-float
+GLfloat
 >
 v
 )
@@ -4076,7 +4078,7 @@ WebGLUniformLocation
 location
 sequence
 <
-float
+GLfloat
 >
 v
 )
@@ -4148,7 +4150,7 @@ WebGLUniformLocation
 location
 sequence
 <
-float
+GLfloat
 >
 v
 )
@@ -4224,7 +4226,7 @@ WebGLUniformLocation
 location
 sequence
 <
-float
+GLfloat
 >
 v
 )
@@ -4290,7 +4292,7 @@ GLboolean
 transpose
 sequence
 <
-float
+GLfloat
 >
 value
 )
@@ -4317,7 +4319,7 @@ GLboolean
 transpose
 sequence
 <
-float
+GLfloat
 >
 value
 )
@@ -4344,7 +4346,7 @@ GLboolean
 transpose
 sequence
 <
-float
+GLfloat
 >
 value
 )
@@ -4390,7 +4392,7 @@ GLuint
 indx
 sequence
 <
-float
+GLfloat
 >
 values
 )
@@ -4422,7 +4424,7 @@ GLuint
 indx
 sequence
 <
-float
+GLfloat
 >
 values
 )
@@ -4456,7 +4458,7 @@ GLuint
 indx
 sequence
 <
-float
+GLfloat
 >
 values
 )
@@ -4492,7 +4494,7 @@ GLuint
 indx
 sequence
 <
-float
+GLfloat
 >
 values
 )

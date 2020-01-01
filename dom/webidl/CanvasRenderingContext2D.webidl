@@ -265,6 +265,7 @@ currentTransform
 ;
 [
 Throws
+LenientFloat
 ]
 void
 scale
@@ -277,6 +278,7 @@ y
 ;
 [
 Throws
+LenientFloat
 ]
 void
 rotate
@@ -287,6 +289,7 @@ angle
 ;
 [
 Throws
+LenientFloat
 ]
 void
 translate
@@ -299,6 +302,7 @@ y
 ;
 [
 Throws
+LenientFloat
 ]
 void
 transform
@@ -319,6 +323,7 @@ f
 ;
 [
 Throws
+LenientFloat
 ]
 void
 setTransform
@@ -350,6 +355,7 @@ resetTransform
 /
 compositing
 attribute
+unrestricted
 double
 globalAlpha
 ;
@@ -476,6 +482,9 @@ repetition
 /
 /
 shadows
+[
+LenientFloat
+]
 attribute
 double
 shadowOffsetX
@@ -486,6 +495,9 @@ shadowOffsetX
 default
 0
 )
+[
+LenientFloat
+]
 attribute
 double
 shadowOffsetY
@@ -496,6 +508,9 @@ shadowOffsetY
 default
 0
 )
+[
+LenientFloat
+]
 attribute
 double
 shadowBlur
@@ -520,6 +535,9 @@ black
 /
 /
 rects
+[
+LenientFloat
+]
 void
 clearRect
 (
@@ -533,6 +551,9 @@ double
 h
 )
 ;
+[
+LenientFloat
+]
 void
 fillRect
 (
@@ -546,6 +567,9 @@ double
 h
 )
 ;
+[
+LenientFloat
+]
 void
 strokeRect
 (
@@ -701,8 +725,10 @@ resetClip
 boolean
 isPointInPath
 (
+unrestricted
 double
 x
+unrestricted
 double
 y
 )
@@ -716,8 +742,10 @@ isPointInPath
 (
 Path
 path
+unrestricted
 double
 x
+unrestricted
 double
 y
 )
@@ -734,6 +762,7 @@ interface
 )
 [
 Throws
+LenientFloat
 ]
 void
 fillText
@@ -751,6 +780,7 @@ maxWidth
 ;
 [
 Throws
+LenientFloat
 ]
 void
 strokeText
@@ -796,6 +826,7 @@ true
 )
 [
 Throws
+LenientFloat
 ]
 void
 drawImage
@@ -816,6 +847,7 @@ dy
 ;
 [
 Throws
+LenientFloat
 ]
 void
 drawImage
@@ -840,6 +872,7 @@ dh
 ;
 [
 Throws
+LenientFloat
 ]
 void
 drawImage
@@ -1048,6 +1081,9 @@ null
 |
 *
 /
+[
+LenientFloat
+]
 attribute
 double
 mozDashOffset
@@ -1094,8 +1130,10 @@ mozImageSmoothingEnabled
 boolean
 mozIsPointInStroke
 (
+unrestricted
 double
 x
+unrestricted
 double
 y
 )
@@ -1597,6 +1635,9 @@ line
 caps
 /
 joins
+[
+LenientFloat
+]
 attribute
 double
 lineWidth
@@ -1652,6 +1693,9 @@ default
 miter
 "
 )
+[
+LenientFloat
+]
 attribute
 double
 miterLimit
@@ -1670,6 +1714,9 @@ lines
 /
 NOT
 IMPLEMENTED
+[
+LenientFloat
+]
 void
 setLineDash
 (
@@ -1700,6 +1747,9 @@ getLineDash
 /
 NOT
 IMPLEMENTED
+[
+LenientFloat
+]
 attribute
 double
 lineDashOffset
@@ -1801,6 +1851,9 @@ closePath
 (
 )
 ;
+[
+LenientFloat
+]
 void
 moveTo
 (
@@ -1810,6 +1863,9 @@ double
 y
 )
 ;
+[
+LenientFloat
+]
 void
 lineTo
 (
@@ -1819,6 +1875,9 @@ double
 y
 )
 ;
+[
+LenientFloat
+]
 void
 quadraticCurveTo
 (
@@ -1832,6 +1891,9 @@ double
 y
 )
 ;
+[
+LenientFloat
+]
 void
 bezierCurveTo
 (
@@ -1851,6 +1913,7 @@ y
 ;
 [
 Throws
+LenientFloat
 ]
 void
 arcTo
@@ -1871,6 +1934,9 @@ radius
 /
 NOT
 IMPLEMENTED
+[
+LenientFloat
+]
 void
 arcTo
 (
@@ -1890,6 +1956,9 @@ double
 rotation
 )
 ;
+[
+LenientFloat
+]
 void
 rect
 (
@@ -1905,6 +1974,7 @@ h
 ;
 [
 Throws
+LenientFloat
 ]
 void
 arc
@@ -1930,6 +2000,9 @@ false
 /
 NOT
 IMPLEMENTED
+[
+LenientFloat
+]
 void
 ellipse
 (

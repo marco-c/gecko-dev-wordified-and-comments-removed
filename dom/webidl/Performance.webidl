@@ -141,8 +141,6 @@ apply
 .
 *
 /
-/
-/
 typedef
 double
 DOMHighResTimeStamp
@@ -150,14 +148,7 @@ DOMHighResTimeStamp
 interface
 Performance
 {
-/
-/
 DOMHighResTimeStamp
-now
-(
-)
-;
-double
 now
 (
 )
