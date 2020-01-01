@@ -5484,6 +5484,17 @@ if
 aDOMEvent
 )
 {
+nsRefPtr
+<
+nsIDOMEventListener
+>
+kungFuDeathGrip
+=
+ls
+-
+>
+mListener
+;
 if
 (
 useTypeInterface
