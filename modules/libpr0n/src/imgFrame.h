@@ -490,6 +490,11 @@ mImageSurface
 PRUint32
 EstimateMemoryUsed
 (
+gfxASurface
+:
+:
+MemoryLocation
+aLocation
 )
 const
 ;
