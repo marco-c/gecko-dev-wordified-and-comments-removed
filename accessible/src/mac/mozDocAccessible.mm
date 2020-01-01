@@ -444,6 +444,13 @@ nsRootAccessibleWrap
 h
 "
 #
+include
+"
+nsObjCExceptions
+.
+h
+"
+#
 import
 "
 mozDocAccessible
@@ -535,6 +542,8 @@ id
 )
 parent
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 if
 (
 !
@@ -591,6 +600,8 @@ super
 parent
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -621,6 +632,8 @@ id
 )
 representedView
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 if
 (
 mParallelView
@@ -659,6 +672,8 @@ view
 ;
 return
 mParallelView
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 ;
 }
 -

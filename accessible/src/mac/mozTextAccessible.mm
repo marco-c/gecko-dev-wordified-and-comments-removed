@@ -6,6 +6,13 @@ nsAccessibleWrap
 h
 "
 #
+include
+"
+nsObjCExceptions
+.
+h
+"
+#
 import
 "
 mozTextAccessible
@@ -95,6 +102,8 @@ nsAccessibleWrap
 )
 accessible
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 if
 (
 (
@@ -127,6 +136,8 @@ mGeckoEditableTextAccessible
 return
 self
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -145,6 +156,8 @@ NSArray
 )
 accessibilityAttributeNames
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 static
 NSArray
 *
@@ -290,6 +303,8 @@ nil
 return
 supportedAttributes
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -303,6 +318,8 @@ NSString
 )
 attribute
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 if
 (
 [
@@ -369,6 +386,8 @@ accessibilityAttributeValue
 attribute
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -382,6 +401,8 @@ NSString
 )
 attribute
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 if
 (
 [
@@ -405,6 +426,11 @@ accessibilityIsAttributeSettable
 attribute
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+NO
+)
+;
 }
 -
 (
@@ -424,6 +450,8 @@ NSString
 )
 attribute
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 [
@@ -469,6 +497,8 @@ forAttribute
 attribute
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -508,6 +538,8 @@ void
 )
 expire
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 NS_IF_RELEASE
 (
 mGeckoTextAccessible
@@ -523,6 +555,8 @@ super
 expire
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 #
 pragma
@@ -534,6 +568,8 @@ BOOL
 )
 isReadOnly
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 if
 (
 [
@@ -586,6 +622,11 @@ STATE_READONLY
 return
 NO
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+NO
+)
+;
 }
 -
 (
@@ -599,6 +640,8 @@ NSString
 )
 newString
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 mGeckoEditableTextAccessible
@@ -619,6 +662,8 @@ UTF8String
 )
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -626,6 +671,8 @@ long
 )
 textLength
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 if
 (
 mGeckoTextAccessible
@@ -652,6 +699,11 @@ charCount
 return
 0
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+0
+)
+;
 }
 -
 (
@@ -659,6 +711,8 @@ long
 )
 selectedTextLength
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 if
 (
 mGeckoTextAccessible
@@ -697,6 +751,11 @@ start
 return
 0
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+0
+)
+;
 }
 -
 (
@@ -705,6 +764,8 @@ NSString
 )
 selectedText
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 if
 (
 mGeckoTextAccessible
@@ -785,6 +846,8 @@ Length
 return
 nil
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -793,6 +856,8 @@ NSValue
 )
 selectedTextRange
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 if
 (
 mGeckoTextAccessible
@@ -838,6 +903,8 @@ end
 return
 nil
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 #
 pragma
@@ -849,6 +916,8 @@ void
 )
 valueDidChange
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 NSAccessibilityPostNotification
 (
 [
@@ -865,6 +934,8 @@ self
 NSAccessibilityValueChangedNotification
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 end
 implementation
@@ -876,6 +947,8 @@ NSArray
 )
 accessibilityAttributeNames
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 static
 NSArray
 *
@@ -1032,6 +1105,8 @@ nil
 return
 supportedAttributes
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -1040,6 +1115,8 @@ NSArray
 )
 accessibilityActionNames
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 if
 (
 [
@@ -1070,6 +1147,8 @@ nil
 return
 nil
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -1084,6 +1163,8 @@ NSString
 )
 action
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 #
 if
 MAC_OS_X_VERSION_MAX_ALLOWED
@@ -1129,6 +1210,8 @@ accessibilityActionDescription
 action
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -1142,6 +1225,8 @@ NSString
 )
 action
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 /
 /
 both
@@ -1200,6 +1285,8 @@ confirm
 ]
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (

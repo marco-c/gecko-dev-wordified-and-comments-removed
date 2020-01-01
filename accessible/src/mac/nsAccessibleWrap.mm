@@ -456,6 +456,13 @@ nsIAccessibleText
 h
 "
 #
+include
+"
+nsObjCExceptions
+.
+h
+"
+#
 import
 "
 nsRoleMap
@@ -752,6 +759,8 @@ GetNativeType
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 PRUint32
 role
 =
@@ -931,6 +940,8 @@ class
 return
 nil
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 /
 /
@@ -1026,6 +1037,8 @@ nsIAccessibleEvent
 aEvent
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 NS_ENSURE_ARG_POINTER
 (
 aEvent
@@ -1193,6 +1206,8 @@ break
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 nsresult
 nsAccessibleWrap
@@ -1202,6 +1217,8 @@ InvalidateChildren
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 if
 (
 mNativeWrapper
@@ -1231,6 +1248,8 @@ nsAccessible
 InvalidateChildren
 (
 )
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
 ;
 }
 PRInt32

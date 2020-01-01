@@ -490,6 +490,13 @@ h
 #
 include
 "
+nsObjCExceptions
+.
+h
+"
+#
+include
+"
 nsIAccessible
 .
 h
@@ -766,6 +773,8 @@ mozAccessible
 anObject
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 if
 (
 [
@@ -781,6 +790,8 @@ representedView
 ;
 return
 anObject
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 ;
 }
 /
@@ -819,6 +830,8 @@ id
 anObject
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 /
 /
 this
@@ -949,6 +962,8 @@ unignoredObject
 return
 unignoredObject
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 static
 inline
@@ -961,6 +976,8 @@ nsIAccessible
 anAccessible
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSNULL
+;
 mozAccessible
 *
 native
@@ -984,6 +1001,8 @@ native
 return
 native
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSNULL
+;
 }
 #
 pragma
@@ -1003,6 +1022,8 @@ nsAccessibleWrap
 )
 geckoAccessible
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 if
 (
 (
@@ -1093,6 +1114,8 @@ map
 return
 self
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -1100,6 +1123,8 @@ void
 )
 dealloc
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 mChildren
 release
@@ -1109,6 +1134,8 @@ release
 super
 dealloc
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 #
@@ -1121,6 +1148,8 @@ BOOL
 )
 accessibilityIsIgnored
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 /
 /
 unknown
@@ -1157,6 +1186,11 @@ isEqualToString
 NSAccessibilityUnknownRole
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+NO
+)
+;
 }
 -
 (
@@ -1165,6 +1199,8 @@ NSArray
 )
 accessibilityAttributeNames
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 /
 /
 if
@@ -1257,6 +1293,8 @@ nil
 return
 generalAttributes
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -1270,6 +1308,8 @@ NSString
 )
 attribute
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 if
 (
 mIsExpired
@@ -1589,6 +1629,8 @@ empty
 string
 instead
 ?
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -1602,6 +1644,8 @@ NSString
 )
 attribute
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 if
 (
 [
@@ -1619,6 +1663,11 @@ canBeFocused
 ;
 return
 NO
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+NO
+)
 ;
 }
 -
@@ -1639,6 +1688,8 @@ NSString
 )
 attribute
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 #
 ifdef
 DEBUG_hakan
@@ -1690,6 +1741,8 @@ boolValue
 self
 focus
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 -
@@ -2057,6 +2110,8 @@ mozAccessible
 )
 parent
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 nsCOMPtr
 <
 nsIAccessible
@@ -2225,6 +2280,8 @@ GetClosestInterestingAccessible
 nativeParent
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -2281,6 +2338,8 @@ NSArray
 )
 children
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 if
 (
 mChildren
@@ -2476,6 +2535,8 @@ endif
 return
 mChildren
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -2484,6 +2545,8 @@ NSValue
 )
 position
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 PRInt32
 x
 y
@@ -2640,6 +2703,8 @@ valueWithPoint
 p
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -2648,6 +2713,8 @@ NSValue
 )
 size
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 PRInt32
 x
 y
@@ -2680,6 +2747,8 @@ width
 height
 )
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 ;
 }
 -
@@ -2739,6 +2808,8 @@ NSString
 )
 title
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 nsAutoString
 title
 ;
@@ -2777,6 +2848,8 @@ Length
 )
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -2784,6 +2857,8 @@ id
 )
 value
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 nsAutoString
 value
 ;
@@ -2822,6 +2897,8 @@ Length
 )
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -2829,6 +2906,8 @@ void
 )
 valueDidChange
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 #
 ifdef
 DEBUG_hakan
@@ -2873,6 +2952,8 @@ objects
 like
 mozTextAccessible
 .
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -2881,6 +2962,8 @@ NSString
 )
 customDescription
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 nsAutoString
 desc
 ;
@@ -2919,6 +3002,8 @@ Length
 )
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -2927,6 +3012,8 @@ NSString
 )
 help
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 nsAutoString
 helpText
 ;
@@ -2965,6 +3052,8 @@ Length
 )
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 /
 /
@@ -2994,6 +3083,8 @@ NSString
 )
 description
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 return
 [
 NSString
@@ -3012,6 +3103,8 @@ self
 role
 ]
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 ;
 }
 -
@@ -3166,6 +3259,8 @@ void
 )
 didReceiveFocus
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 #
 ifdef
 DEBUG_hakan
@@ -3214,6 +3309,8 @@ self
 NSAccessibilityFocusedUIElementChangedNotification
 )
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -3222,6 +3319,8 @@ NSWindow
 )
 window
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 nsAccessibleWrap
 *
 accWrap
@@ -3273,6 +3372,8 @@ self
 return
 nativeWindow
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -3280,6 +3381,8 @@ void
 )
 invalidateChildren
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 /
 /
 make
@@ -3296,6 +3399,8 @@ mChildren
 =
 nil
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -3303,6 +3408,8 @@ void
 )
 expire
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 self
 invalidateChildren
@@ -3311,6 +3418,8 @@ invalidateChildren
 mIsExpired
 =
 YES
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 -
@@ -3367,6 +3476,8 @@ NSArray
 )
 children
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 NSAssert
 (
 !
@@ -3477,6 +3588,8 @@ realSelf
 )
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -3484,6 +3597,8 @@ void
 )
 sanityCheckChildren
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 self
 sanityCheckChildren
@@ -3494,6 +3609,8 @@ children
 ]
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 -
 (
@@ -3501,12 +3618,16 @@ void
 )
 printHierarchy
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 [
 self
 printHierarchyWithLevel
 :
 0
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 -
@@ -3520,6 +3641,8 @@ unsigned
 )
 level
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 NSAssert
 (
 !
@@ -3703,6 +3826,8 @@ level
 1
 )
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 #

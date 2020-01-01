@@ -450,6 +450,13 @@ nsIAccessible
 .
 h
 "
+#
+include
+"
+nsObjCExceptions
+.
+h
+"
 extern
 const
 NSString
@@ -502,6 +509,8 @@ NSArray
 )
 accessibilityAttributeNames
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 static
 NSArray
 *
@@ -573,6 +582,8 @@ nil
 return
 attributes
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -586,6 +597,8 @@ NSString
 )
 attribute
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 if
 (
 [
@@ -606,6 +619,8 @@ accessibilityAttributeValue
 attribute
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -624,6 +639,8 @@ NSArray
 )
 accessibilityActionNames
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 if
 (
 [
@@ -642,6 +659,8 @@ NSAccessibilityPressAction
 return
 nil
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -656,6 +675,8 @@ NSString
 )
 action
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 if
 (
 [
@@ -682,6 +703,8 @@ later
 return
 nil
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -695,6 +718,8 @@ NSString
 )
 action
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 if
 (
 [
@@ -708,6 +733,8 @@ NSAccessibilityPressAction
 self
 click
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
 -
@@ -770,6 +797,8 @@ NSString
 )
 action
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 if
 (
 [
@@ -821,6 +850,8 @@ later
 }
 return
 nil
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 ;
 }
 -
@@ -892,6 +923,8 @@ id
 )
 value
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 return
 [
 NSNumber
@@ -902,6 +935,8 @@ self
 isChecked
 ]
 ]
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
 ;
 }
 end
@@ -914,6 +949,8 @@ NSArray
 )
 accessibilityAttributeNames
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 static
 NSArray
 *
@@ -1002,6 +1039,8 @@ nil
 return
 attributes
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -1015,6 +1054,8 @@ NSString
 )
 attribute
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 if
 (
 [
@@ -1040,6 +1081,8 @@ accessibilityAttributeValue
 attribute
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -1048,6 +1091,8 @@ NSArray
 )
 accessibilityActionNames
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 if
 (
 [
@@ -1078,6 +1123,8 @@ nil
 return
 nil
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -1092,6 +1139,8 @@ NSString
 )
 action
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
+;
 #
 if
 MAC_OS_X_VERSION_MAX_ALLOWED
@@ -1123,6 +1172,8 @@ accessibilityActionDescription
 action
 ]
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NIL
+;
 }
 -
 (
@@ -1136,6 +1187,8 @@ NSString
 )
 action
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 /
 /
 both
@@ -1201,5 +1254,7 @@ click
 ]
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }
 end
