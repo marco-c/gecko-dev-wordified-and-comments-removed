@@ -21,13 +21,6 @@ h
 #
 include
 "
-prlog
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h
