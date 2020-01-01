@@ -465,6 +465,14 @@ test_html5_tree_construction_part2
 .
 html
 \
+test_bug102699
+.
+html
+\
+file_bug102699
+.
+sjs
+\
 test_bug174351
 .
 html

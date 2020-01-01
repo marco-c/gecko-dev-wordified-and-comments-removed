@@ -822,11 +822,6 @@ mLayoutStarted
 1
 ;
 PRUint8
-mCanInterruptParser
-:
-1
-;
-PRUint8
 mDynamicLowerValue
 :
 1
@@ -857,7 +852,7 @@ mIsDocumentObserver
 1
 ;
 PRUint8
-mFragmentMode
+mRunsToCompletion
 :
 1
 ;
@@ -951,10 +946,6 @@ sInitialPerfTime
 static
 PRInt32
 sEnablePerfMode
-;
-static
-bool
-sCanInterruptParser
 ;
 }
 ;
