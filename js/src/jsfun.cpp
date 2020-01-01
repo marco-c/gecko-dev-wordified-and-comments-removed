@@ -5808,6 +5808,12 @@ script
 -
 >
 usesEval
+|
+|
+script
+-
+>
+debugMode
 )
 {
 memcpy
