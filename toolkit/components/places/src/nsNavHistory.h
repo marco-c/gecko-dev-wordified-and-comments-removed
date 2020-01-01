@@ -1511,6 +1511,9 @@ aStartParameter
 nsNavHistoryQuery
 *
 aQuery
+nsNavHistoryQueryOptions
+*
+aOptions
 PRInt32
 *
 aParamCount

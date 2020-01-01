@@ -453,6 +453,10 @@ nsIRemoteContainer
 .
 idl
 \
+nsITaggingService
+.
+idl
+\
 (
 NULL
 )

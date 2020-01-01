@@ -1552,6 +1552,13 @@ bin
 /
 components
 /
+nsTaggingService
+.
+js
+bin
+/
+components
+/
 nsDefaultCLH
 .
 js
