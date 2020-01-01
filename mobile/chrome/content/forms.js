@@ -745,6 +745,14 @@ Content
 SetWindowSize
 "
 :
+if
+(
+this
+.
+_open
+)
+return
+;
 sendAsyncMessage
 (
 "
