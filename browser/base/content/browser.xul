@@ -2752,11 +2752,6 @@ identity
 -
 box
 "
-align
-=
-"
-center
-"
 onclick
 =
 "
@@ -2769,6 +2764,14 @@ handleIdentityClick
 event
 )
 ;
+"
+>
+<
+hbox
+align
+=
+"
+center
 "
 >
 <
@@ -2914,6 +2917,10 @@ icon
 label
 "
 /
+>
+<
+/
+hbox
 >
 <
 /
