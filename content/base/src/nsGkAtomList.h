@@ -11847,6 +11847,13 @@ ondeviceproximity
 )
 GK_ATOM
 (
+onuserproximity
+"
+onuserproximity
+"
+)
+GK_ATOM
+(
 ondevicelight
 "
 ondevicelight

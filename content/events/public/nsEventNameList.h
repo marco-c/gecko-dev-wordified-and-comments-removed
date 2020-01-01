@@ -735,6 +735,13 @@ NS_EVENT
 )
 WINDOW_ONLY_EVENT
 (
+userproximity
+NS_USER_PROXIMITY
+EventNameType_None
+NS_EVENT
+)
+WINDOW_ONLY_EVENT
+(
 devicelight
 NS_DEVICE_LIGHT
 EventNameType_None

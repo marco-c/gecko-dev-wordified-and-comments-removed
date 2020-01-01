@@ -164,6 +164,10 @@ DeviceProximityEvent
 )
 DOMCI_CLASS
 (
+UserProximityEvent
+)
+DOMCI_CLASS
+(
 DeviceOrientationEvent
 )
 DOMCI_CLASS

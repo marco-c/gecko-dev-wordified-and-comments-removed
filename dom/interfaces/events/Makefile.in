@@ -538,6 +538,10 @@ nsIDOMDeviceProximityEvent
 .
 idl
 \
+nsIDOMUserProximityEvent
+.
+idl
+\
 nsIDOMDeviceOrientationEvent
 .
 idl

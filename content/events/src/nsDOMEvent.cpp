@@ -633,6 +633,9 @@ deviceorientation
 deviceproximity
 "
 "
+userproximity
+"
+"
 devicelight
 "
 }
@@ -7144,6 +7147,15 @@ return
 sEventNames
 [
 eDOMEvents_deviceproximity
+]
+;
+case
+NS_USER_PROXIMITY
+:
+return
+sEventNames
+[
+eDOMEvents_userproximity
 ]
 ;
 case
