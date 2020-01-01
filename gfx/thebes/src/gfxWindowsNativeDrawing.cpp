@@ -446,6 +446,8 @@ mNativeRect
 size
 .
 width
++
+1
 )
 ;
 mTempSurfaceSize
@@ -462,6 +464,8 @@ mNativeRect
 size
 .
 height
++
+1
 )
 ;
 }
@@ -548,6 +552,8 @@ width
 mScale
 .
 width
++
+1
 )
 ;
 mTempSurfaceSize
@@ -568,6 +574,8 @@ height
 mScale
 .
 height
++
+1
 )
 ;
 }
