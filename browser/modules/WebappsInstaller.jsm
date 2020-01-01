@@ -2930,12 +2930,7 @@ json
 =
 {
 "
-app
-"
-:
-{
-"
-profile
+registryDir
 "
 :
 this
@@ -2943,6 +2938,11 @@ this
 profileFolder
 .
 path
+"
+app
+"
+:
+{
 "
 origin
 "
