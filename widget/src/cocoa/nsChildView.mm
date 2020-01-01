@@ -15280,11 +15280,9 @@ viewWillDraw
 {
 if
 (
-!
 mGeckoChild
 )
-return
-;
+{
 nsPaintEvent
 paintEvent
 (
@@ -15300,6 +15298,12 @@ DispatchWindowEvent
 (
 paintEvent
 )
+;
+}
+[
+super
+viewWillDraw
+]
 ;
 }
 /
