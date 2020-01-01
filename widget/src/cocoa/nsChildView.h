@@ -1225,15 +1225,6 @@ ReportSizeEvent
 )
 ;
 virtual
-PRBool
-OnPaint
-(
-nsPaintEvent
-&
-aEvent
-)
-;
-virtual
 NSView
 *
 CreateCocoaView
