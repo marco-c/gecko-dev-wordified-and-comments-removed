@@ -54,7 +54,6 @@ PhysLoc
 PhysLoc_Memory
 =
 0
-PhysLoc_Copy
 PhysLoc_Constant
 PhysLoc_Register
 PhysLoc_Invalid
@@ -125,19 +124,6 @@ setConstant
 location_
 =
 PhysLoc_Constant
-;
-}
-bool
-isCopy
-(
-)
-const
-{
-return
-location_
-=
-=
-PhysLoc_Copy
 ;
 }
 bool
