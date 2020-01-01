@@ -916,9 +916,9 @@ virtual
 void
 PaintTextDecorationLine
 (
-gfxContext
-*
-aCtx
+nsIRenderingContext
+&
+aRenderingContext
 const
 nsPoint
 &
