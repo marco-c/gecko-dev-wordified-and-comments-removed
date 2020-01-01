@@ -5234,15 +5234,13 @@ this
 ;
 #
 endif
+JS_updateMallocCounter
+(
 ccx
 .
 GetJSContext
 (
 )
--
->
-updateMallocCounter
-(
 2
 *
 sizeof
