@@ -189,7 +189,7 @@ GetCoveredRegion
 ;
 virtual
 void
-UpdateBounds
+ReflowSVG
 (
 )
 ;
@@ -627,7 +627,7 @@ void
 nsSVGSwitchFrame
 :
 :
-UpdateBounds
+ReflowSVG
 (
 )
 {
@@ -636,7 +636,7 @@ NS_ASSERTION
 nsSVGUtils
 :
 :
-OuterSVGIsCallingUpdateBounds
+OuterSVGIsCallingReflowSVG
 (
 this
 )
@@ -644,7 +644,7 @@ this
 This
 call
 is
-probaby
+probably
 a
 wasteful
 mistake
@@ -662,7 +662,7 @@ GetStateBits
 NS_STATE_SVG_NONDISPLAY_CHILD
 )
 "
-UpdateBounds
+ReflowSVG
 mechanism
 not
 designed
@@ -677,7 +677,7 @@ if
 nsSVGUtils
 :
 :
-NeedsUpdatedBounds
+NeedsReflowSVG
 (
 this
 )
@@ -777,7 +777,7 @@ then
 svgChild
 -
 >
-UpdateBounds
+ReflowSVG
 (
 )
 ;

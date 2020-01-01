@@ -31185,7 +31185,7 @@ nsChangeHint_UpdateEffects
 nsSVGUtils
 :
 :
-InvalidateAndScheduleBoundsUpdate
+InvalidateAndScheduleReflowSVG
 (
 aFrame
 )

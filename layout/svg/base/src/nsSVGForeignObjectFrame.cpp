@@ -410,7 +410,7 @@ height
 nsSVGUtils
 :
 :
-InvalidateAndScheduleBoundsUpdate
+InvalidateAndScheduleReflowSVG
 (
 this
 )
@@ -461,7 +461,7 @@ nsnull
 nsSVGUtils
 :
 :
-InvalidateAndScheduleBoundsUpdate
+InvalidateAndScheduleReflowSVG
 (
 this
 )
@@ -536,7 +536,7 @@ NS_FRAME_FIRST_REFLOW
 nsSVGUtils
 :
 :
-InvalidateAndScheduleBoundsUpdate
+InvalidateAndScheduleReflowSVG
 (
 this
 )
@@ -1758,7 +1758,7 @@ void
 nsSVGForeignObjectFrame
 :
 :
-UpdateBounds
+ReflowSVG
 (
 )
 {
@@ -1767,7 +1767,7 @@ NS_ASSERTION
 nsSVGUtils
 :
 :
-OuterSVGIsCallingUpdateBounds
+OuterSVGIsCallingReflowSVG
 (
 this
 )
@@ -1775,7 +1775,7 @@ this
 This
 call
 is
-probaby
+probably
 a
 wasteful
 mistake
@@ -1793,7 +1793,7 @@ GetStateBits
 NS_STATE_SVG_NONDISPLAY_CHILD
 )
 "
-UpdateBounds
+ReflowSVG
 mechanism
 not
 designed
@@ -1808,7 +1808,7 @@ if
 nsSVGUtils
 :
 :
-NeedsUpdatedBounds
+NeedsReflowSVG
 (
 this
 )
@@ -2284,7 +2284,7 @@ needNewBounds
 nsSVGUtils
 :
 :
-ScheduleBoundsUpdate
+ScheduleReflowSVG
 (
 this
 )
@@ -2900,7 +2900,7 @@ FlushDirtyRegion
 nsSVGUtils
 :
 :
-OuterSVGIsCallingUpdateBounds
+OuterSVGIsCallingReflowSVG
 (
 this
 )

@@ -1932,14 +1932,14 @@ NS_STATE_SVG_NONDISPLAY_CHILD
 )
 )
 {
-mCallingUpdateBounds
+mCallingReflowSVG
 =
 true
 ;
 anonKid
 -
 >
-UpdateBounds
+ReflowSVG
 (
 )
 ;
@@ -1967,7 +1967,7 @@ children
 "
 )
 ;
-mCallingUpdateBounds
+mCallingReflowSVG
 =
 false
 ;

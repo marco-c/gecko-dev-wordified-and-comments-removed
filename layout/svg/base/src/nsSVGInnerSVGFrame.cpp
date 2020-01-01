@@ -372,7 +372,7 @@ void
 nsSVGInnerSVGFrame
 :
 :
-UpdateBounds
+ReflowSVG
 (
 )
 {
@@ -432,7 +432,7 @@ AppUnitsPerCSSPixel
 nsSVGInnerSVGFrameBase
 :
 :
-UpdateBounds
+ReflowSVG
 (
 )
 ;
@@ -589,7 +589,7 @@ widthOrHeightIsPercentage
 nsSVGUtils
 :
 :
-ScheduleBoundsUpdate
+ScheduleReflowSVG
 (
 this
 )
@@ -745,7 +745,7 @@ height
 nsSVGUtils
 :
 :
-InvalidateAndScheduleBoundsUpdate
+InvalidateAndScheduleReflowSVG
 (
 this
 )
@@ -877,7 +877,7 @@ nsnull
 nsSVGUtils
 :
 :
-InvalidateAndScheduleBoundsUpdate
+InvalidateAndScheduleReflowSVG
 (
 this
 )

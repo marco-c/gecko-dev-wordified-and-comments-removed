@@ -190,7 +190,7 @@ aPoint
 ;
 virtual
 void
-UpdateBounds
+ReflowSVG
 (
 )
 ;

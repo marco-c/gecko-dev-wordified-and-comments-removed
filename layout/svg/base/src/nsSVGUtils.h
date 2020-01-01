@@ -948,7 +948,7 @@ aFlags
 ;
 static
 void
-ScheduleBoundsUpdate
+ScheduleReflowSVG
 (
 nsIFrame
 *
@@ -957,7 +957,7 @@ aFrame
 ;
 static
 void
-InvalidateAndScheduleBoundsUpdate
+InvalidateAndScheduleReflowSVG
 (
 nsIFrame
 *
@@ -966,7 +966,7 @@ aFrame
 ;
 static
 bool
-NeedsUpdatedBounds
+NeedsReflowSVG
 (
 nsIFrame
 *
@@ -1497,7 +1497,7 @@ aSurface
 endif
 static
 bool
-OuterSVGIsCallingUpdateBounds
+OuterSVGIsCallingReflowSVG
 (
 nsIFrame
 *

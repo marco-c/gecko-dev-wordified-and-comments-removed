@@ -153,7 +153,7 @@ aResult
 endif
 virtual
 void
-UpdateBounds
+ReflowSVG
 (
 )
 ;
@@ -389,7 +389,7 @@ nsnull
 nsSVGUtils
 :
 :
-InvalidateAndScheduleBoundsUpdate
+InvalidateAndScheduleReflowSVG
 (
 this
 )
@@ -484,7 +484,7 @@ invalidate
 nsSVGUtils
 :
 :
-InvalidateAndScheduleBoundsUpdate
+InvalidateAndScheduleReflowSVG
 (
 this
 )
@@ -513,7 +513,7 @@ href
 nsSVGUtils
 :
 :
-InvalidateAndScheduleBoundsUpdate
+InvalidateAndScheduleReflowSVG
 (
 this
 )
@@ -611,7 +611,7 @@ void
 nsSVGUseFrame
 :
 :
-UpdateBounds
+ReflowSVG
 (
 )
 {
@@ -676,7 +676,7 @@ TopLeft
 nsSVGUseFrameBase
 :
 :
-UpdateBounds
+ReflowSVG
 (
 )
 ;
@@ -761,7 +761,7 @@ TRANSFORM_CHANGED
 nsSVGUtils
 :
 :
-ScheduleBoundsUpdate
+ScheduleReflowSVG
 (
 this
 )

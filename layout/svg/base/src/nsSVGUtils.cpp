@@ -3383,7 +3383,7 @@ bool
 nsSVGUtils
 :
 :
-OuterSVGIsCallingUpdateBounds
+OuterSVGIsCallingReflowSVG
 (
 nsIFrame
 *
@@ -3400,7 +3400,7 @@ aFrame
 )
 -
 >
-IsCallingUpdateBounds
+IsCallingReflowSVG
 (
 )
 ;
@@ -3462,7 +3462,7 @@ NS_ASSERTION
 aDuringUpdate
 =
 =
-OuterSVGIsCallingUpdateBounds
+OuterSVGIsCallingReflowSVG
 (
 aFrame
 )
@@ -3482,7 +3482,7 @@ aDuringUpdate
 NS_ASSERTION
 (
 !
-OuterSVGIsCallingUpdateBounds
+OuterSVGIsCallingReflowSVG
 (
 aFrame
 )
@@ -3498,7 +3498,7 @@ under
 nsISVGChildFrame
 :
 :
-UpdateBounds
+ReflowSVG
 !
 "
 )
@@ -3900,7 +3900,7 @@ void
 nsSVGUtils
 :
 :
-ScheduleBoundsUpdate
+ScheduleReflowSVG
 (
 nsIFrame
 *
@@ -3930,7 +3930,7 @@ frame
 NS_ASSERTION
 (
 !
-OuterSVGIsCallingUpdateBounds
+OuterSVGIsCallingReflowSVG
 (
 aFrame
 )
@@ -3942,7 +3942,7 @@ under
 nsISVGChildFrame
 :
 :
-UpdateBounds
+ReflowSVG
 !
 "
 )
@@ -4204,7 +4204,7 @@ void
 nsSVGUtils
 :
 :
-InvalidateAndScheduleBoundsUpdate
+InvalidateAndScheduleReflowSVG
 (
 nsIFrame
 *
@@ -4214,7 +4214,7 @@ aFrame
 NS_ASSERTION
 (
 !
-OuterSVGIsCallingUpdateBounds
+OuterSVGIsCallingReflowSVG
 (
 aFrame
 )
@@ -4226,7 +4226,7 @@ under
 nsISVGChildFrame
 :
 :
-UpdateBounds
+ReflowSVG
 !
 "
 )
@@ -4237,7 +4237,7 @@ aFrame
 false
 )
 ;
-ScheduleBoundsUpdate
+ScheduleReflowSVG
 (
 aFrame
 )
@@ -4247,7 +4247,7 @@ bool
 nsSVGUtils
 :
 :
-NeedsUpdatedBounds
+NeedsReflowSVG
 (
 nsIFrame
 *
