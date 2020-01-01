@@ -1124,6 +1124,13 @@ simple
 check
 -
 flat
+ifneq
+(
+(
+OS_ARCH
+)
+WINNT
+)
 make
 -
 C
@@ -1135,3 +1142,4 @@ simple
 check
 -
 symlink
+endif
