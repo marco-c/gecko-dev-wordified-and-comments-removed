@@ -2496,7 +2496,7 @@ mIsOffline
 mDestination
 -
 >
-DestroyGraph
+OfflineShutdown
 (
 )
 ;
