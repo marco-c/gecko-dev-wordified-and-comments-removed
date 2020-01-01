@@ -286,6 +286,14 @@ NS_REGISTER_NEXT_COMMAND
 (
 nsDeleteCommand
 "
+cmd_forwardDelete
+"
+)
+;
+NS_REGISTER_NEXT_COMMAND
+(
+nsDeleteCommand
+"
 cmd_deleteCharBackward
 "
 )
