@@ -286,7 +286,7 @@ android
 .
 not_a_preference
 .
-restoreSession2
+restoreSession3
 "
 android
 :
@@ -302,7 +302,7 @@ android
 defaultValue
 =
 "
-crash
+quit
 "
 android
 :
