@@ -24836,8 +24836,8 @@ JS_GetStringLength
 str
 )
 JSVAL_VOID
-nsnull
-nsnull
+JS_PropertyStub
+JS_PropertyStub
 JSPROP_ENUMERATE
 )
 )
