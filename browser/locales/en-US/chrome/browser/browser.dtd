@@ -1698,7 +1698,7 @@ n
 <
 !
 ENTITY
-clearRecentHistoryCmd
+clearRecentHistory
 .
 label
 "
@@ -1710,7 +1710,7 @@ History
 <
 !
 ENTITY
-clearRecentHistoryCmd
+clearRecentHistory
 .
 accesskey
 "
