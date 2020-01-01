@@ -197,10 +197,6 @@ nsSVGFeatures
 .
 cpp
 \
-nsSVGFilterElement
-.
-cpp
-\
 nsSVGFilters
 .
 cpp
@@ -346,6 +342,10 @@ SVGElementFactory
 cpp
 \
 SVGEllipseElement
+.
+cpp
+\
+SVGFilterElement
 .
 cpp
 \
@@ -703,6 +703,10 @@ SVGDescElement
 h
 \
 SVGEllipseElement
+.
+h
+\
+SVGFilterElement
 .
 h
 \

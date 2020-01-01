@@ -192,7 +192,11 @@ h
 #
 include
 "
-nsSVGFilterElement
+mozilla
+/
+dom
+/
+SVGFilterElement
 .
 h
 "
@@ -27281,7 +27285,7 @@ filter
 {
 static_cast
 <
-nsSVGFilterElement
+SVGFilterElement
 *
 >
 (
