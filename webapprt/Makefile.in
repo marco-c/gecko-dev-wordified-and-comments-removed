@@ -218,6 +218,16 @@ config
 rules
 .
 mk
+ifdef
+MOZ_DEBUG
+DEFINES
++
+=
+-
+DMOZ_DEBUG
+=
+1
+endif
 libs
 :
 :
