@@ -1555,6 +1555,7 @@ TYPE_UI
 break
 ;
 }
+{
 MessageLoop
 uiMessageLoop
 (
@@ -1710,6 +1711,7 @@ CleanUp
 (
 )
 ;
+}
 }
 NS_LogTerm
 (
