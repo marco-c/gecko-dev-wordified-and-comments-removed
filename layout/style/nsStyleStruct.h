@@ -409,7 +409,7 @@ bool
 mRepeating
 ;
 bool
-mToCorner
+mLegacySyntax
 ;
 nsStyleCoord
 mBgPosX
@@ -419,6 +419,12 @@ mBgPosY
 ;
 nsStyleCoord
 mAngle
+;
+nsStyleCoord
+mRadiusX
+;
+nsStyleCoord
+mRadiusY
 ;
 nsTArray
 <
