@@ -560,11 +560,15 @@ rdf
 \
 cd
 (
+call
+core_abspath
+(
 srcdir
 )
 /
 (
 dir
+)
 )
 &
 &
