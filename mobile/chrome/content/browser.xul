@@ -7938,12 +7938,6 @@ oncommand
 "
 WeaveGlue
 .
-abortEasySetup
-(
-)
-;
-WeaveGlue
-.
 close
 (
 )
