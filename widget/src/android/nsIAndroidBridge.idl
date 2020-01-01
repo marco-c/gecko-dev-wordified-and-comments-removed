@@ -25,7 +25,7 @@ nsIAndroidBridge
 :
 nsISupports
 {
-void
+AString
 handleGeckoMessage
 (
 in

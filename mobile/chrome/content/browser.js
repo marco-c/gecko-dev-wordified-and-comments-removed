@@ -184,6 +184,7 @@ Ci
 nsIAndroidBridge
 )
 ;
+return
 bridge
 .
 handleGeckoMessage

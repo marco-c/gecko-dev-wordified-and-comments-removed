@@ -489,6 +489,10 @@ ShowTabs
 .
 java
 \
+PromptService
+.
+java
+\
 (
 NULL
 )
@@ -1009,6 +1013,14 @@ res
 layout
 /
 show_tabs
+.
+xml
+\
+res
+/
+layout
+/
+dialog_checkbox
 .
 xml
 \
