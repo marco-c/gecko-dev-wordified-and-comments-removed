@@ -156,6 +156,11 @@ autotgt_tests
 (
 NULL
 )
+export
+MAKE
+export
+.
+PYMAKE
 #
 #
 -
@@ -250,11 +255,6 @@ makefiles
 autotargets
 .
 mk
-MAKECMD
-=
-(
-MAKE
-)
 (
 PYTEST
 )
