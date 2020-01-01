@@ -595,13 +595,6 @@ Ci
 .
 nsIPrefBranch
 )
-.
-QueryInterface
-(
-Ci
-.
-nsIPrefBranch2
-)
 _categoryMgr
 :
 Cc
@@ -2889,13 +2882,6 @@ getService
 Ci
 .
 nsIPrefBranch
-)
-.
-QueryInterface
-(
-Ci
-.
-nsIPrefBranch2
 )
 _mimeSvc
 :

@@ -1698,13 +1698,6 @@ getBranch
 (
 null
 )
-.
-QueryInterface
-(
-Ci
-.
-nsIPrefBranch2
-)
 ;
 this
 .

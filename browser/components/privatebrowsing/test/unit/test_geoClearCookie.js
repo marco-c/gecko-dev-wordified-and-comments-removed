@@ -73,7 +73,7 @@ getService
 (
 Ci
 .
-nsIPrefBranch2
+nsIPrefBranch
 )
 ;
 var

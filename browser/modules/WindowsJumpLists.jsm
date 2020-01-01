@@ -162,13 +162,6 @@ getBranch
 (
 PREF_TASKBAR_BRANCH
 )
-.
-QueryInterface
-(
-Ci
-.
-nsIPrefBranch2
-)
 ;
 }
 )

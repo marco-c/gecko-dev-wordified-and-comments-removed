@@ -692,7 +692,7 @@ Components
 .
 interfaces
 .
-nsIPrefBranch2
+nsIPrefBranch
 )
 ;
 var

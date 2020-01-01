@@ -907,15 +907,6 @@ urlbar
 .
 "
 )
-.
-QueryInterface
-(
-Components
-.
-interfaces
-.
-nsIPrefBranch2
-)
 ;
 this
 .

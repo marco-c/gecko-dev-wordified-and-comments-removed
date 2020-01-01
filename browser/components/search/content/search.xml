@@ -4591,7 +4591,7 @@ destructor
 CDATA
 [
 var
-ps2
+prefs
 =
 Components
 .
@@ -4616,10 +4616,10 @@ Components
 .
 interfaces
 .
-nsIPrefBranch2
+nsIPrefBranch
 )
 ;
-ps2
+prefs
 .
 removeObserver
 (
@@ -5422,7 +5422,7 @@ for
 suggest
 preference
 var
-ps2
+prefs
 =
 Components
 .
@@ -5447,10 +5447,10 @@ Components
 .
 interfaces
 .
-nsIPrefBranch2
+nsIPrefBranch
 )
 ;
-ps2
+prefs
 .
 addObserver
 (

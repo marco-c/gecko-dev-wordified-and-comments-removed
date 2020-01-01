@@ -4052,16 +4052,7 @@ Components
 .
 interfaces
 .
-nsIPrefService
-)
-.
-QueryInterface
-(
-Components
-.
-interfaces
-.
-nsIPrefBranch2
+nsIPrefBranch
 )
 ;
 this

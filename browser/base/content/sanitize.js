@@ -1380,7 +1380,7 @@ Components
 .
 interfaces
 .
-nsIPrefBranch2
+nsIPrefBranch
 )
 ;
 try
