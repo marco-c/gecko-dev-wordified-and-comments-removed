@@ -1380,12 +1380,9 @@ i
 )
 -
 >
-defUseCount
+hasOneDefUse
 (
 )
-=
-=
-1
 )
 ;
 MPassArg
