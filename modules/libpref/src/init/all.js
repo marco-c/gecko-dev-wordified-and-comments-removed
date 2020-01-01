@@ -5001,16 +5001,6 @@ pref
 "
 dom
 .
-send_after_paint_to_content
-"
-false
-)
-;
-pref
-(
-"
-dom
-.
 min_timeout_value
 "
 10
