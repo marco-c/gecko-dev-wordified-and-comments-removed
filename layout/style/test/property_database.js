@@ -14225,9 +14225,6 @@ other_values
 fixed
 "
 "
-local
-"
-"
 scroll
 scroll
 "
@@ -14238,7 +14235,6 @@ scroll
 "
 scroll
 fixed
-local
 scroll
 "
 "

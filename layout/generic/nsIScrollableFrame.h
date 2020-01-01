@@ -187,15 +187,6 @@ aRC
 ;
 virtual
 nsRect
-GetScrolledRect
-(
-)
-const
-=
-0
-;
-virtual
-nsRect
 GetScrollPortRect
 (
 )
