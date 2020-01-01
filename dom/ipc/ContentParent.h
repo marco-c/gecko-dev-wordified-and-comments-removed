@@ -171,6 +171,10 @@ shutdown
 )
 #
 define
+CONTENT_PARENT_NO_CHILD_ID
+0
+#
+define
 CONTENT_PARENT_UNKNOWN_CHILD_ID
 -
 1
