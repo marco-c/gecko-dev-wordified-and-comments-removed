@@ -18,9 +18,13 @@ import
 gettempdir
     
 mkdtemp
-    
-NamedTemporaryFile
 )
+from
+mozfile
+.
+mozfile
+import
+NamedTemporaryFile
 from
 mozbuild
 .
