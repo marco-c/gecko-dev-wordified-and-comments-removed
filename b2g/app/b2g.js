@@ -4514,7 +4514,7 @@ gonk
 .
 backgroundHomescreenNice
 "
-18
+20
 )
 ;
 pref
@@ -4528,7 +4528,7 @@ gonk
 .
 backgroundNice
 "
-18
+20
 )
 ;
 #
@@ -4950,16 +4950,6 @@ general
 useragent
 .
 enable_overrides
-"
-true
-)
-;
-pref
-(
-"
-media
-.
-useAudioChannelService
 "
 true
 )
