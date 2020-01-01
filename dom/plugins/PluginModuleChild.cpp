@@ -800,6 +800,15 @@ defined
 (
 MOZ_WIDGET_GTK2
 )
+PR_SetEnv
+(
+"
+GDK_NATIVE_WINDOWS
+=
+1
+"
+)
+;
 gtk_init
 (
 0
