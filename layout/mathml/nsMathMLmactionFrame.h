@@ -81,6 +81,7 @@ nsFrameList
 &
 aChildList
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult
@@ -89,6 +90,7 @@ ChildListChanged
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AttributeChanged
@@ -101,6 +103,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 private
 :
@@ -190,6 +193,7 @@ nsIFrame
 GetSelectedFrame
 (
 )
+MOZ_OVERRIDE
 ;
 }
 ;

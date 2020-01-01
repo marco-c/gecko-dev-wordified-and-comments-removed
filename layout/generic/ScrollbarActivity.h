@@ -7,6 +7,15 @@ ScrollbarActivity_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -135,6 +144,7 @@ WillRefresh
 TimeStamp
 aTime
 )
+MOZ_OVERRIDE
 ;
 static
 void

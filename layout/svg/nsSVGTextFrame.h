@@ -7,6 +7,15 @@ NS_SVGTEXTFRAME_H
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 gfxMatrix
 .
 h
@@ -116,6 +125,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIAtom
@@ -124,6 +134,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -136,6 +147,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 return
 MakeFrameName
@@ -177,6 +189,7 @@ NotifySVGChanged
 uint32_t
 aFlags
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 PaintSVG
@@ -189,6 +202,7 @@ nsIntRect
 *
 aDirtyRect
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -202,12 +216,14 @@ nsPoint
 &
 aPoint
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 ReflowSVG
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 SVGBBox
@@ -220,6 +236,7 @@ aToBBoxUserspace
 uint32_t
 aFlags
 )
+MOZ_OVERRIDE
 ;
 virtual
 gfxMatrix
@@ -228,18 +245,21 @@ GetCanvasTM
 uint32_t
 aFor
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint32_t
 GetNumberOfChars
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 float
 GetComputedTextLength
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 float
@@ -250,6 +270,7 @@ charnum
 uint32_t
 nchars
 )
+MOZ_OVERRIDE
 ;
 virtual
 int32_t
@@ -262,6 +283,7 @@ nsISVGPoint
 *
 point
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetStartPositionOfChar
@@ -273,6 +295,7 @@ nsISupports
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetEndPositionOfChar
@@ -284,6 +307,7 @@ nsISupports
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetExtentOfChar
@@ -301,6 +325,7 @@ SVGIRect
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetRotationOfChar
@@ -311,6 +336,7 @@ float
 *
 _retval
 )
+MOZ_OVERRIDE
 ;
 void
 NotifyGlyphMetricsChange

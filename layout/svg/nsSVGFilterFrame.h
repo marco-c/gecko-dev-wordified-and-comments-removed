@@ -7,6 +7,15 @@ __NS_SVGFILTERFRAME_H__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsFrame
 .
 h
@@ -161,6 +170,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 nsresult
 PaintFilteredFrame
@@ -252,6 +262,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 private
 :

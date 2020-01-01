@@ -133,6 +133,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -142,6 +143,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 if
 (
@@ -186,6 +188,7 @@ aDisplayItemKey
 =
 0
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -200,6 +203,7 @@ aDisplayItemKey
 =
 0
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -288,6 +292,7 @@ gfxContext
 aContext
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Reflow
@@ -321,6 +326,7 @@ void
 PullOverflowsFromPrevInFlow
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord

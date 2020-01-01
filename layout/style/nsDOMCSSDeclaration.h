@@ -79,6 +79,7 @@ void
 *
 aInstancePtr
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -87,6 +88,7 @@ nsrefcnt
 AddRef
 (
 )
+MOZ_OVERRIDE
 =
 0
 ;
@@ -97,6 +99,7 @@ nsrefcnt
 Release
 (
 )
+MOZ_OVERRIDE
 =
 0
 ;

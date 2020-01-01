@@ -174,6 +174,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIAtom
@@ -182,6 +183,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -199,6 +201,7 @@ aFromParentTransforms
 nullptr
 )
 const
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -211,6 +214,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 return
 MakeFrameName
@@ -251,6 +255,7 @@ GetCanvasTM
 uint32_t
 aFor
 )
+MOZ_OVERRIDE
 ;
 protected
 :

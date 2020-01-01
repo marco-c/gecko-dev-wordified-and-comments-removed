@@ -653,6 +653,7 @@ Cursor
 &
 aCursor
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetPointFromOffset

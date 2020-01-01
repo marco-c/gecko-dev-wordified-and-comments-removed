@@ -7,6 +7,15 @@ nsICSSDeclaration_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIDOMCSSStyleDeclaration
 .
 h
@@ -153,6 +162,7 @@ nsAString
 &
 aCssText
 )
+MOZ_OVERRIDE
 =
 0
 ;
@@ -164,6 +174,7 @@ nsAString
 &
 aCssText
 )
+MOZ_OVERRIDE
 =
 0
 ;
@@ -178,6 +189,7 @@ nsAString
 &
 aValue
 )
+MOZ_OVERRIDE
 =
 0
 ;
@@ -220,6 +232,7 @@ nsIDOMCSSValue
 *
 aVal
 )
+MOZ_OVERRIDE
 {
 mozilla
 :
@@ -295,6 +308,7 @@ nsAString
 &
 aReturn
 )
+MOZ_OVERRIDE
 =
 0
 ;
@@ -309,6 +323,7 @@ nsAString
 &
 aReturn
 )
+MOZ_OVERRIDE
 =
 0
 ;
@@ -328,6 +343,7 @@ nsAString
 &
 aPriority
 )
+MOZ_OVERRIDE
 =
 0
 ;
@@ -338,6 +354,7 @@ uint32_t
 *
 aLength
 )
+MOZ_OVERRIDE
 =
 0
 ;
@@ -350,6 +367,7 @@ nsAString
 &
 aReturn
 )
+MOZ_OVERRIDE
 {
 bool
 found
@@ -386,6 +404,7 @@ nsIDOMCSSRule
 *
 aParentRule
 )
+MOZ_OVERRIDE
 =
 0
 ;

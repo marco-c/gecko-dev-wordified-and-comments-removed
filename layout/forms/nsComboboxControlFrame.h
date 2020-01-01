@@ -605,18 +605,21 @@ nsIContent
 *
 aLastRolledUp
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 NotifyGeometryChange
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 ShouldRollupOnMouseWheelEvent
 (
 )
+MOZ_OVERRIDE
 {
 return
 true
@@ -627,6 +630,7 @@ bool
 ShouldConsumeOnMouseWheelEvent
 (
 )
+MOZ_OVERRIDE
 {
 return
 false
@@ -637,6 +641,7 @@ bool
 ShouldRollupOnMouseActivate
 (
 )
+MOZ_OVERRIDE
 {
 return
 false
@@ -654,6 +659,7 @@ nsIWidget
 *
 aWidgetChain
 )
+MOZ_OVERRIDE
 {
 return
 0
@@ -665,6 +671,7 @@ nsIWidget
 GetRollupWidget
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SaveState

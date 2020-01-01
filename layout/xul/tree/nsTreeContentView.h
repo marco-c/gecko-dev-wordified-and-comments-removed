@@ -126,6 +126,7 @@ NS_IMETHOD
 EnsureNative
 (
 )
+MOZ_OVERRIDE
 {
 return
 NS_OK

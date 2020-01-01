@@ -7,6 +7,15 @@ NS_SVGTEXTFRAME2_H
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 gfxFont
 .
 h
@@ -515,6 +524,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIFrame
@@ -522,6 +532,7 @@ nsIFrame
 GetContentInsertionFrame
 (
 )
+MOZ_OVERRIDE
 {
 return
 GetFirstPrincipalChild
@@ -551,6 +562,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -577,6 +589,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -589,6 +602,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 return
 MakeFrameName
@@ -615,6 +629,7 @@ FrameWithDistance
 *
 aCurrentBestFrame
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -623,6 +638,7 @@ NotifySVGChanged
 uint32_t
 aFlags
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 PaintSVG
@@ -635,6 +651,7 @@ nsIntRect
 *
 aDirtyRect
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -648,12 +665,14 @@ nsPoint
 &
 aPoint
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
 ReflowSVG
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (
@@ -662,6 +681,7 @@ nsRect
 GetCoveredRegion
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 SVGBBox
@@ -674,6 +694,7 @@ aToBBoxUserspace
 uint32_t
 aFlags
 )
+MOZ_OVERRIDE
 ;
 virtual
 gfxMatrix
@@ -682,6 +703,7 @@ GetCanvasTM
 uint32_t
 aFor
 )
+MOZ_OVERRIDE
 ;
 uint32_t
 GetNumberOfChars

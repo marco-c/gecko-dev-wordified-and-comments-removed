@@ -118,6 +118,7 @@ gfxMatrix
 &
 aCTM
 )
+MOZ_OVERRIDE
 ;
 already_AddRefed
 <
@@ -132,6 +133,7 @@ gfxMatrix
 &
 aCTM
 )
+MOZ_OVERRIDE
 ;
 void
 SetFillOpacity
@@ -149,6 +151,7 @@ float
 GetFillOpacity
 (
 )
+MOZ_OVERRIDE
 {
 return
 mFillOpacity
@@ -170,6 +173,7 @@ float
 GetStrokeOpacity
 (
 )
+MOZ_OVERRIDE
 {
 return
 mStrokeOpacity
@@ -713,6 +717,7 @@ CharacterDataChangeInfo
 *
 aInfo
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -722,6 +727,7 @@ nsStyleContext
 *
 aOldStyleContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -746,6 +752,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -755,6 +762,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsSVGGlyphFrameBase
@@ -785,6 +793,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 {
 return
 MakeFrameName
@@ -903,6 +912,7 @@ GetCanvasTM
 uint32_t
 aFor
 )
+MOZ_OVERRIDE
 ;
 virtual
 uint32_t

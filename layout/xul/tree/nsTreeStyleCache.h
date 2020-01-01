@@ -7,6 +7,15 @@ nsTreeStyleCache_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsHashtable
 .
 h
@@ -84,6 +93,7 @@ HashCode
 void
 )
 const
+MOZ_OVERRIDE
 {
 return
 mStateID
@@ -98,6 +108,7 @@ nsHashKey
 aKey
 )
 const
+MOZ_OVERRIDE
 {
 nsDFAState
 *
@@ -126,6 +137,7 @@ Clone
 void
 )
 const
+MOZ_OVERRIDE
 {
 return
 new
@@ -179,6 +191,7 @@ HashCode
 void
 )
 const
+MOZ_OVERRIDE
 {
 int32_t
 hb
@@ -223,6 +236,7 @@ nsHashKey
 aKey
 )
 const
+MOZ_OVERRIDE
 {
 nsTransitionKey
 *
@@ -260,6 +274,7 @@ Clone
 void
 )
 const
+MOZ_OVERRIDE
 {
 return
 new
