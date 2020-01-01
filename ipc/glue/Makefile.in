@@ -491,6 +491,10 @@ SharedMemoryBasic
 .
 h
 \
+SharedMemoryBasic_chromium
+.
+h
+\
 SharedMemorySysV
 .
 h
