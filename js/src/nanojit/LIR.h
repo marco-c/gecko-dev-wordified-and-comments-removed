@@ -835,7 +835,7 @@ MiniAccSet
 MINI_ACCSET_MULTIPLE
 =
 {
-255
+99
 }
 ;
 static
@@ -4060,11 +4060,15 @@ friend
 class
 LIns
 ;
-int16_t
+int32_t
 disp
+:
+16
 ;
-MiniAccSetVal
+int32_t
 miniAccSetVal
+:
+8
 ;
 LoadQual
 loadQual
