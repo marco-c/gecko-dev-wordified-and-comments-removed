@@ -889,14 +889,17 @@ getProto
 )
 ;
 }
+if
+(
+!
+pc
+)
+return
+false
+;
 #
 if
 JS_HAS_NO_SUCH_METHOD
-if
-(
-pc
-)
-{
 if
 (
 JSOp
@@ -922,7 +925,6 @@ JSOP_CALLELEM
 return
 false
 ;
-}
 }
 #
 endif
@@ -9457,6 +9459,9 @@ HandleObject
 holder
 HandleShape
 shape
+jsbytecode
+*
+pc
 const
 TypedOrValueRegister
 &
@@ -9521,7 +9526,7 @@ IsCacheableNoProperty
 obj
 holder
 shape
-NULL
+pc
 output
 )
 )
@@ -9770,6 +9775,7 @@ scopeChain
 obj
 holder
 shape
+pc
 cache
 .
 outputReg
