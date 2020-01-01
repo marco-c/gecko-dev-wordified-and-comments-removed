@@ -253,10 +253,10 @@ IsSubjectToFinalization
 )
 )
 {
-JS
+js
 :
 :
-AutoSwitchCompartment
+SwitchToCompartment
 sc
 (
 data

@@ -2567,6 +2567,8 @@ flags
 void
 iterNext
 (
+ptrdiff_t
+offset
 )
 ;
 bool

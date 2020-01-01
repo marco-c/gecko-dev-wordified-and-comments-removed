@@ -1061,11 +1061,10 @@ CompartmentPrivate
 *
 >
 (
-JS_GetCompartmentPrivate
-(
-cx
 target
-)
+-
+>
+data
 )
 ;
 if
