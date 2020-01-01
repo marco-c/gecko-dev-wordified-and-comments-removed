@@ -12461,7 +12461,7 @@ JS_ASSERT
 cx
 -
 >
-runningJittedCode
+executingTrace
 )
 ;
 JS_CHECK_RECURSION

@@ -233,7 +233,7 @@ JS_ASSERT
 cx
 -
 >
-runningJittedCode
+executingTrace
 )
 ;
 jsval
@@ -289,7 +289,7 @@ JS_ASSERT
 cx
 -
 >
-runningJittedCode
+executingTrace
 )
 ;
 jsval
@@ -766,7 +766,7 @@ JS_ASSERT
 cx
 -
 >
-runningJittedCode
+executingTrace
 )
 ;
 return
@@ -825,7 +825,7 @@ JS_ASSERT
 cx
 -
 >
-runningJittedCode
+executingTrace
 )
 ;
 return
@@ -908,7 +908,7 @@ JS_ASSERT
 cx
 -
 >
-runningJittedCode
+executingTrace
 )
 ;
 jschar
@@ -2054,7 +2054,7 @@ JS_ASSERT
 cx
 -
 >
-runningJittedCode
+executingTrace
 )
 ;
 JSObject
@@ -3168,7 +3168,7 @@ JS_ASSERT
 cx
 -
 >
-runningJittedCode
+executingTrace
 )
 ;
 JSObject

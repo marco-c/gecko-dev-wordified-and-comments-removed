@@ -8007,7 +8007,7 @@ doGC
 cx
 -
 >
-runningJittedCode
+executingTrace
 )
 {
 js_GC
@@ -8226,7 +8226,7 @@ doGC
 cx
 -
 >
-runningJittedCode
+executingTrace
 )
 goto
 fail
@@ -8620,7 +8620,7 @@ if
 cx
 -
 >
-runningJittedCode
+executingTrace
 )
 JS_ReportOutOfMemory
 (
