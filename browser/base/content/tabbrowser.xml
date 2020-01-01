@@ -943,15 +943,6 @@ flex
 "
 1
 "
-tooltiptextnew
-=
-"
-&
-newTabButton
-.
-tooltip
-;
-"
 onclick
 =
 "
