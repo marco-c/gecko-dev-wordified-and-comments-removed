@@ -544,6 +544,16 @@ nsSVGElement
 aSVGElement
 )
 ;
+void
+SetAnimValueInSpecifiedUnits
+(
+float
+aValue
+nsSVGElement
+*
+aSVGElement
+)
+;
 nsresult
 NewValueSpecifiedUnits
 (
