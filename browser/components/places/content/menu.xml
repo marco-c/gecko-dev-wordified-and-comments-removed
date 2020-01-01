@@ -5869,9 +5869,12 @@ image
 var
 title
 =
-aNode
+PlacesUtils
 .
-title
+getBestTitle
+(
+aNode
+)
 ;
 if
 (
