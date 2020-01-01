@@ -8333,8 +8333,8 @@ cx
 target
 id
 value
-NULL
-NULL
+JS_PropertyStub
+JS_PropertyStub
 attrs
 &
 ~
@@ -15636,8 +15636,8 @@ ATOM_TO_JSID
 atom
 )
 rval
-NULL
-NULL
+JS_PropertyStub
+JS_PropertyStub
 JSPROP_ENUMERATE
 |
 JSPROP_PERMANENT
@@ -15710,8 +15710,8 @@ cx
 obj
 id
 rval
-NULL
-NULL
+JS_PropertyStub
+JS_PropertyStub
 JSPROP_ENUMERATE
 |
 JSPROP_PERMANENT
@@ -25238,8 +25238,8 @@ cx
 obj
 id
 JSVAL_VOID
-NULL
-NULL
+JS_PropertyStub
+JS_PropertyStub
 JSPROP_EXPORTED
 NULL
 )
@@ -26284,8 +26284,8 @@ cx
 obj
 id
 JSVAL_VOID
-NULL
-NULL
+JS_PropertyStub
+JS_PropertyStub
 attrs
 &
 prop
@@ -26650,7 +26650,7 @@ JSPropertyOp
 )
 obj
 :
-NULL
+JS_PropertyStub
 (
 flags
 &
@@ -26663,7 +26663,7 @@ JSPropertyOp
 )
 obj
 :
-NULL
+JS_PropertyStub
 attrs
 NULL
 )
@@ -27044,7 +27044,7 @@ JSPropertyOp
 )
 obj
 :
-NULL
+JS_PropertyStub
 (
 attrs
 &
@@ -27057,7 +27057,7 @@ JSPropertyOp
 )
 obj
 :
-NULL
+JS_PropertyStub
 attrs
 |
 JSPROP_ENUMERATE
@@ -27530,7 +27530,7 @@ rval
 ;
 setter
 =
-NULL
+JS_PropertyStub
 ;
 attrs
 =
@@ -27541,7 +27541,7 @@ else
 {
 getter
 =
-NULL
+JS_PropertyStub
 ;
 setter
 =
