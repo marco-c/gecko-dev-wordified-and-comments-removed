@@ -539,6 +539,10 @@ browser_inspector_invalidate
 .
 js
 \
+browser_inspector_treePanel_menu
+.
+js
+\
 head
 .
 js
