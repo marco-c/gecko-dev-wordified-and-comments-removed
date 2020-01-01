@@ -3307,6 +3307,14 @@ pvarEndUpAt
 {
 __try
 {
+if
+(
+!
+pvarEndUpAt
+)
+return
+E_INVALIDARG
+;
 nsAccessible
 *
 xpAccessibleStart
@@ -3320,6 +3328,11 @@ if
 (
 !
 xpAccessibleStart
+|
+|
+IsDefunct
+(
+)
 )
 return
 E_FAIL
