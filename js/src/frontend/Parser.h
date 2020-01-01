@@ -347,10 +347,6 @@ ParseContext
 *
 parent
 ;
-ParseNode
-*
-innermostWith
-;
 FuncStmtSet
 *
 funcStmts
@@ -367,6 +363,11 @@ funHasReturnVoid
 ;
 bool
 parsingForInit
+:
+1
+;
+bool
+parsingWith
 :
 1
 ;
