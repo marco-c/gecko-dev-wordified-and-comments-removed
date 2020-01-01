@@ -168,6 +168,9 @@ ICCCardLockErrorEvent
 '
 MozWifiStatusChangeEvent
 '
+'
+MozWifiConnectionInfoEvent
+'
 #
 endif
 '

@@ -113,6 +113,10 @@ nsIDOMMozWifiStatusChangeEvent
 .
 idl
 \
+nsIDOMMozWifiConnectionInfoEvent
+.
+idl
+\
 (
 NULL
 )
