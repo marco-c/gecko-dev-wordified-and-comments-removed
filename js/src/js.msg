@@ -4953,3 +4953,14 @@ cleared
 scope
 "
 )
+MSG_DEF
+(
+JSMSG_INVALID_DATE
+270
+0
+JSEXN_RANGEERR
+"
+invalid
+date
+"
+)
