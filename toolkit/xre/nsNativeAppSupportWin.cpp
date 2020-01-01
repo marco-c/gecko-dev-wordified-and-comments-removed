@@ -1091,7 +1091,7 @@ hCrt
 _open_osfhandle
 (
 (
-long
+intptr_t
 )
 GetStdHandle
 (
@@ -1164,7 +1164,7 @@ hCrt
 _open_osfhandle
 (
 (
-long
+intptr_t
 )
 :
 :
@@ -2033,7 +2033,7 @@ return
 win
 ?
 (
-long
+LRESULT
 )
 hwndForDOMWindow
 (
@@ -4053,11 +4053,6 @@ request
 ;
 #
 endif
-PRBool
-new_window
-=
-PR_FALSE
-;
 nsAutoString
 url
 ;
@@ -4494,7 +4489,7 @@ DdeQueryStringW
 mInstance
 args
 NULL
-NULL
+0
 CP_WINUNICODE
 )
 ;
