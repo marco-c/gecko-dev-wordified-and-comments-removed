@@ -1233,6 +1233,10 @@ GeoPositionError
 )
 DOMCI_CLASS
 (
+BatteryManager
+)
+DOMCI_CLASS
+(
 CSSFontFaceRule
 )
 DOMCI_CLASS
