@@ -1047,6 +1047,11 @@ aURI
 )
 ;
 void
+ShutdownDecoder
+(
+)
+;
+void
 AbortExistingLoads
 (
 )

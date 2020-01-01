@@ -325,10 +325,16 @@ aFinishWhenEnded
 )
 ;
 }
+if
+(
+mDecoderStateMachine
+)
+{
 ScheduleStateMachineThread
 (
 )
 ;
+}
 }
 double
 nsBuiltinDecoder
