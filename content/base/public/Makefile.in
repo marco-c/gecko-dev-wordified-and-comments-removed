@@ -499,10 +499,6 @@ nsIContentSerializer
 .
 h
 \
-nsIHTMLToTextSink
-.
-h
-\
 nsIXPathEvaluatorInternal
 .
 h
