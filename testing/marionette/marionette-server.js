@@ -4212,6 +4212,16 @@ specialPowers
 aRequest
 .
 specialPowers
+filename
+:
+aRequest
+.
+filename
+line
+:
+aRequest
+.
+line
 }
 command_id
 )

@@ -4256,6 +4256,9 @@ False
 script_timeout
 =
 None
+filename
+=
+None
 )
 :
         
@@ -4316,6 +4319,14 @@ special_powers
 scriptTimeout
 =
 script_timeout
+                                      
+filename
+=
+filename
+                                      
+line
+=
+None
 )
         
 return
