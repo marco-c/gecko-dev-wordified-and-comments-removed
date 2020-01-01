@@ -14801,8 +14801,9 @@ if
 pn
 -
 >
-isArrayHole
+isKind
 (
+PNK_ELISION
 )
 )
 {
@@ -30831,9 +30832,8 @@ pn2
 =
 handler
 .
-newNullary
+newElision
 (
-PNK_COMMA
 )
 ;
 if

@@ -268,10 +268,8 @@ NodeGeneric
 ;
 }
 Node
-newNullary
+newElision
 (
-ParseNodeKind
-kind
 )
 {
 return
