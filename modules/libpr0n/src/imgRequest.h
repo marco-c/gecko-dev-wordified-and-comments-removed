@@ -200,7 +200,7 @@ nsIURI
 aURI
 nsIURI
 *
-aCurrentURI
+aKeyURI
 nsIRequest
 *
 aRequest
@@ -303,18 +303,6 @@ return
 mWindowId
 ;
 }
-static
-void
-SetCacheValidation
-(
-imgCacheEntry
-*
-aEntry
-nsIRequest
-*
-aRequest
-)
-;
 private
 :
 friend
@@ -530,7 +518,7 @@ nsCOMPtr
 <
 nsIURI
 >
-mCurrentURI
+mKeyURI
 ;
 nsCOMPtr
 <
