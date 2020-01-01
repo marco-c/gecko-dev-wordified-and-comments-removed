@@ -3729,6 +3729,17 @@ addView
 this
 )
 ;
+DownloadsCommon
+.
+getIndicatorData
+(
+window
+)
+.
+attention
+=
+false
+;
 window
 .
 addEventListener
