@@ -124,6 +124,7 @@ eColorID__moz_buttonhoverface
 eColorID__moz_buttonhovertext
 eColorID__moz_menuhover
 eColorID__moz_menuhovertext
+eColorID__moz_menubar
 eColorID__moz_menubartext
 eColorID__moz_menubarhovertext
 eColorID__moz_eventreerow

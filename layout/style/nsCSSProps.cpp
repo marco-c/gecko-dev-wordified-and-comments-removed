@@ -3464,6 +3464,11 @@ LookAndFeel
 :
 :
 eColorID__moz_menuhovertext
+eCSSKeyword__moz_menubar
+LookAndFeel
+:
+:
+eColorID__moz_menubar
 eCSSKeyword__moz_menubartext
 LookAndFeel
 :

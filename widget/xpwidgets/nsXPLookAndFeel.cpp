@@ -793,6 +793,12 @@ moz_menuhovertext
 ui
 .
 -
+moz_menubar
+"
+"
+ui
+.
+-
 moz_menubartext
 "
 "
