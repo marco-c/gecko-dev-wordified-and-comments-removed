@@ -604,10 +604,6 @@ browser_tabview_exit_button
 .
 js
 \
-browser_tabview_expander
-.
-js
-\
 browser_tabview_group
 .
 js
