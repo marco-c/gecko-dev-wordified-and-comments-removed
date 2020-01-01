@@ -35,6 +35,16 @@ font
 .
 html
 load
+0px
+-
+size
+-
+font
+-
+shadow
+.
+html
+load
 texImage2D
 .
 html
