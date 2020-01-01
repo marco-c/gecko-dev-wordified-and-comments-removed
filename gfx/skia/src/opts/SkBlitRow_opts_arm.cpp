@@ -166,6 +166,14 @@ n
 t
 "
 "
+it
+eq
+\
+n
+\
+t
+"
+"
 moveq
 ip
 #
