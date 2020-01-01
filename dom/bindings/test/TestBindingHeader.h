@@ -2511,6 +2511,13 @@ DictContainingSequence
 )
 ;
 void
+ReceiveDictContainingSequence
+(
+DictContainingSequence
+&
+)
+;
+void
 ExerciseTypedefInterfaces1
 (
 TestInterface
