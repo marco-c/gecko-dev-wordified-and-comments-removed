@@ -603,10 +603,6 @@ nsSerializationHelper
 .
 cpp
 \
-nsDNSPrefetch
-.
-cpp
-\
 (
 NULL
 )
