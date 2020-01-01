@@ -590,6 +590,13 @@ gl
 RGBALayerProgramType
 ;
 }
+GLuint
+GetTemporaryTexture
+(
+GLenum
+aUnit
+)
+;
 private
 :
 nsRefPtr
@@ -1216,6 +1223,12 @@ nsAutoPtr
 FPSState
 >
 mFPS
+;
+GLuint
+mTextures
+[
+3
+]
 ;
 static
 bool
