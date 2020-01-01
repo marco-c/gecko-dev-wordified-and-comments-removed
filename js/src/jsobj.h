@@ -3016,8 +3016,7 @@ propp
 ifdef
 __cplusplus
 extern
-JSPropCacheEntry
-*
+JSBool
 js_DefineNativeProperty
 (
 JSContext
@@ -3290,8 +3289,7 @@ cx
 )
 ;
 extern
-JSPropCacheEntry
-*
+JSBool
 js_SetPropertyHelper
 (
 JSContext
