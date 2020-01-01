@@ -7428,10 +7428,6 @@ sNPObjWrappers
 entry
 )
 ;
-OnWrapperDestroyed
-(
-)
-;
 }
 }
 JSObject
