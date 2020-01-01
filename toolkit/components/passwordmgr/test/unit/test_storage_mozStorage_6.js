@@ -439,8 +439,6 @@ storage
 .
 getAllLogins
 (
-{
-}
 )
 ;
 do_check_eq
@@ -465,8 +463,6 @@ storage
 .
 getAllDisabledHosts
 (
-{
-}
 )
 ;
 do_check_eq

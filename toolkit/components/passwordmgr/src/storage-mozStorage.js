@@ -2185,6 +2185,10 @@ logins
 "
 )
 ;
+if
+(
+count
+)
 count
 .
 value
@@ -2916,6 +2920,10 @@ hosts
 "
 )
 ;
+if
+(
+count
+)
 count
 .
 value
@@ -4589,8 +4597,6 @@ legacy
 .
 getAllEncryptedLogins
 (
-{
-}
 )
 ;
 this
@@ -4651,8 +4657,6 @@ legacy
 .
 getAllDisabledHosts
 (
-{
-}
 )
 ;
 for

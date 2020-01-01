@@ -3656,8 +3656,6 @@ storage
 .
 getAllLogins
 (
-{
-}
 )
 ;
 do_check_eq
@@ -3690,8 +3688,6 @@ storage
 .
 getAllLogins
 (
-{
-}
 )
 ;
 var

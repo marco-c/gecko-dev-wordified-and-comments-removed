@@ -187,8 +187,6 @@ storage
 .
 getAllLogins
 (
-{
-}
 )
 ;
 var

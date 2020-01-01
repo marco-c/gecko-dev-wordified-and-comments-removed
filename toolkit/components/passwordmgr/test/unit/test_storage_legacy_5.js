@@ -190,8 +190,6 @@ pwmgr
 .
 getAllDisabledHosts
 (
-{
-}
 )
 ;
 hosts

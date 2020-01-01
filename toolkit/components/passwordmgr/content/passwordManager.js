@@ -860,8 +860,6 @@ passwordmanager
 .
 getAllLogins
 (
-{
-}
 )
 ;
 }
@@ -1548,8 +1546,6 @@ passwordmanager
 .
 getAllLogins
 (
-{
-}
 )
 ;
 }

@@ -644,8 +644,6 @@ passwordmanager
 .
 getAllDisabledHosts
 (
-{
-}
 )
 ;
 rejects
