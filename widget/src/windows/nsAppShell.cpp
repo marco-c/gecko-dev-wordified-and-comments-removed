@@ -501,6 +501,15 @@ message
 WM_QUIT
 )
 {
+:
+:
+PostQuitMessage
+(
+msg
+.
+wParam
+)
+;
 Exit
 (
 )
