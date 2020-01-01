@@ -1125,10 +1125,6 @@ LIBS_DIR
 )
 \
 (
-QCMS_LIBS
-)
-\
-(
 MOZ_JS_LIBS
 )
 \
