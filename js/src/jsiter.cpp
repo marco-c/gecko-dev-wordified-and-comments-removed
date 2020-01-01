@@ -4220,15 +4220,6 @@ hp
 obj
 ;
 }
-else
-{
-iterator_finalize
-(
-cx
-obj
-)
-;
-}
 }
 #
 if
