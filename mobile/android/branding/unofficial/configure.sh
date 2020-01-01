@@ -9,6 +9,10 @@ echo
 USER
 MOZ_APP_DISPLAYNAME
 =
+"
 Fennec
+echo
+USER
+"
 MOZ_UPDATER
 =
