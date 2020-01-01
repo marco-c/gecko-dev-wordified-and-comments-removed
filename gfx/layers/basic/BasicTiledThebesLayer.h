@@ -410,16 +410,16 @@ ReadLock
 const
 gfxSize
 &
-GetResolution
+GetFrameResolution
 (
 )
 {
 return
-mResolution
+mFrameResolution
 ;
 }
 void
-SetResolution
+SetFrameResolution
 (
 const
 gfxSize
@@ -427,7 +427,7 @@ gfxSize
 aResolution
 )
 {
-mResolution
+mFrameResolution
 =
 aResolution
 ;
@@ -522,7 +522,7 @@ void
 mCallbackData
 ;
 gfxSize
-mResolution
+mFrameResolution
 ;
 bool
 mLastPaintOpaque

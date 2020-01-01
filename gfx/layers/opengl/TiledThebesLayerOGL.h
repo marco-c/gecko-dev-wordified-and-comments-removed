@@ -289,12 +289,12 @@ TiledTexture
 const
 gfxSize
 &
-GetResolution
+GetFrameResolution
 (
 )
 {
 return
-mResolution
+mFrameResolution
 ;
 }
 protected
@@ -359,7 +359,7 @@ BasicTiledLayerBuffer
 mMainMemoryTiledBuffer
 ;
 gfxSize
-mResolution
+mFrameResolution
 ;
 void
 GetFormatAndTileForImageFormat
