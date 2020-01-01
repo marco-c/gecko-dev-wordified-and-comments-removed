@@ -1059,7 +1059,11 @@ infoBlock
 .
 productVersion
 =
-productVersion
+"
+13
+.
+0a1
+"
 ;
 return
 mar_create
