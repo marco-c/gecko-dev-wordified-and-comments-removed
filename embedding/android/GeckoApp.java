@@ -364,6 +364,7 @@ ProgressBar
 mProgressBar
 ;
 private
+static
 SessionHistory
 mSessionHistory
 ;
@@ -2345,6 +2346,14 @@ getApplicationInfo
 dataDir
 )
 ;
+if
+(
+mSessionHistory
+=
+=
+null
+)
+{
 mSessionHistory
 =
 new
@@ -2353,6 +2362,7 @@ SessionHistory
 this
 )
 ;
+}
 mMainHandler
 =
 new
