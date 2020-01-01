@@ -4190,7 +4190,7 @@ recordLogcat
 (
 )
                 
-retVal
+result
 =
 mochitest
 .
@@ -4198,6 +4198,21 @@ runTests
 (
 options
 )
+                
+if
+retVal
+is
+None
+or
+retVal
+=
+=
+0
+:
+                    
+retVal
+=
+result
                 
 mochitest
 .
