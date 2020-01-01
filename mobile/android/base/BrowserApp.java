@@ -102,6 +102,17 @@ mozilla
 .
 gecko
 .
+menu
+.
+GeckoMenu
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 util
 .
 FloatUtils
