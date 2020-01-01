@@ -3657,6 +3657,17 @@ mEventStatus
 =
 =
 nsEventStatus_eConsumeNoDefault
+|
+|
+!
+(
+mNotificationMask
+&
+nsIXTFElement
+:
+:
+NOTIFY_HANDLE_DEFAULT
+)
 )
 {
 return
