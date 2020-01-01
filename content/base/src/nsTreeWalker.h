@@ -32,6 +32,13 @@ nsJSUtils
 .
 h
 "
+#
+include
+"
+nsCycleCollectionParticipant
+.
+h
+"
 class
 nsINode
 ;
@@ -49,7 +56,7 @@ nsIDOMTreeWalker
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSIDOMTREEWALKER
 nsTreeWalker
 (
@@ -71,6 +78,10 @@ nsTreeWalker
 (
 )
 ;
+NS_DECL_CYCLE_COLLECTION_CLASS
+(
+nsTreeWalker
+)
 private
 :
 nsCOMPtr
