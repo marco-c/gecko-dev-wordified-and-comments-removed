@@ -104,6 +104,7 @@ length
 ;
 getter
 CSSValue
+?
 item
 (
 unsigned
