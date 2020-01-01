@@ -23375,7 +23375,9 @@ eTransparencyGlass
 {
 style
 =
-WS_OVERLAPPED
+WS_POPUP
+|
+WS_THICKFRAME
 ;
 }
 else
