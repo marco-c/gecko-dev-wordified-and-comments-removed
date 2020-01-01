@@ -4130,8 +4130,6 @@ JSContext
 cx
 Kind
 kind
-bool
-active
 )
 :
 cx_
@@ -4157,10 +4155,6 @@ mainThread
 )
 .
 activation_
-)
-active_
-(
-active
 )
 savedFrameChain_
 (
