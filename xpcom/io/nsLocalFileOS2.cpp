@@ -2976,9 +2976,7 @@ if
 file
 )
 return
-NS_ErrorAccordingToNSPR
-(
-)
+NS_ERROR_FILE_ALREADY_EXISTS
 ;
 PR_Close
 (
