@@ -694,7 +694,7 @@ SCRIPT_ACCESS_ONLY_FLAG
 WrapperFactory
 :
 :
-PARTIALLY_TRANSPARENT
+XOW_FLAG
 )
 ;
 template
@@ -714,7 +714,7 @@ SCRIPT_ACCESS_ONLY_FLAG
 WrapperFactory
 :
 :
-PARTIALLY_TRANSPARENT
+XOW_FLAG
 )
 ;
 template
@@ -734,7 +734,7 @@ SCRIPT_ACCESS_ONLY_FLAG
 WrapperFactory
 :
 :
-PARTIALLY_TRANSPARENT
+XOW_FLAG
 )
 ;
 template
@@ -754,7 +754,7 @@ SCRIPT_ACCESS_ONLY_FLAG
 WrapperFactory
 :
 :
-PARTIALLY_TRANSPARENT
+XOW_FLAG
 )
 ;
 template
