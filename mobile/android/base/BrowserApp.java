@@ -664,6 +664,12 @@ FEEDBACK_LAUNCH_COUNT
 15
 ;
 private
+boolean
+mDynamicToolbarEnabled
+=
+false
+;
+private
 int
 mToolbarHeight
 =
