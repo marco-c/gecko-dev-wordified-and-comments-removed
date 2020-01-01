@@ -550,8 +550,6 @@ aDesktopStartupID
 )
 ;
 }
-else
-{
 toolkit
 -
 >
@@ -560,7 +558,6 @@ SetFocusTimestamp
 aTimestamp
 )
 ;
-}
 }
 void
 nsGTKRemoteService
