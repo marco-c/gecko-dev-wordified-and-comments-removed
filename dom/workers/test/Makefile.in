@@ -474,6 +474,14 @@ test_blobWorkers
 .
 html
 \
+test_clearTimeouts
+.
+html
+\
+clearTimeouts_worker
+.
+js
+\
 test_close
 .
 html
