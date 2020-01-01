@@ -20990,7 +20990,7 @@ eCSSUnit_Inherit
 =
 xulData
 .
-mBoxOrient
+mBoxFlex
 .
 GetUnit
 (
