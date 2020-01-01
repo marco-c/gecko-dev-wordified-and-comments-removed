@@ -1530,10 +1530,10 @@ buffer
 bool
 isClear
 =
-mBuffer
-=
-=
-nullptr
+!
+HaveBuffer
+(
+)
 ;
 if
 (
