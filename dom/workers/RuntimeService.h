@@ -197,7 +197,10 @@ mIdleThreadArray
 ;
 nsClassHashtable
 <
-nsVoidPtrHashKey
+nsPtrHashKey
+<
+nsPIDOMWindow
+>
 nsTArray
 <
 WorkerPrivate

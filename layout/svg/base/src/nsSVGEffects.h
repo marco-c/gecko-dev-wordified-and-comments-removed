@@ -702,7 +702,10 @@ private
 :
 nsTHashtable
 <
-nsVoidPtrHashKey
+nsPtrHashKey
+<
+nsSVGRenderingObserver
+>
 >
 mObservers
 ;

@@ -3594,7 +3594,10 @@ protected
 :
 nsRefPtrHashtable
 <
-nsVoidPtrHashKey
+nsPtrHashKey
+<
+nsIFrame
+>
 nsImageLoader
 >
 mImageLoaders

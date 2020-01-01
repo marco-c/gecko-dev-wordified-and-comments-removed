@@ -2701,7 +2701,10 @@ E_FAIL
 }
 nsRefPtrHashtable
 <
-nsVoidPtrHashKey
+nsPtrHashKey
+<
+void
+>
 nsDocAccessible
 >
 nsAccessNodeWrap

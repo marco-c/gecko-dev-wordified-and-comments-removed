@@ -220,7 +220,11 @@ class
 nsDOMStorageEntry
 :
 public
-nsVoidPtrHashKey
+nsPtrHashKey
+<
+const
+void
+>
 {
 public
 :

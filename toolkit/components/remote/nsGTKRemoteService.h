@@ -88,8 +88,7 @@ static
 PLDHashOperator
 StartupHandler
 (
-const
-void
+GtkWidget
 *
 aKey
 nsIWeakReference
@@ -129,7 +128,10 @@ aTimestamp
 ;
 nsInterfaceHashtable
 <
-nsVoidPtrHashKey
+nsPtrHashKey
+<
+GtkWidget
+>
 nsIWeakReference
 >
 mWindows

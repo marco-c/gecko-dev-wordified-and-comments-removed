@@ -4593,7 +4593,10 @@ protected
 :
 nsDataHashtable
 <
-nsVoidPtrHashKey
+nsPtrHashKey
+<
+void
+>
 void
 *
 >
