@@ -165,6 +165,9 @@ SmsMessageData
 int32_t
 id
 ;
+uint64_t
+threadId
+;
 DeliveryState
 delivery
 ;

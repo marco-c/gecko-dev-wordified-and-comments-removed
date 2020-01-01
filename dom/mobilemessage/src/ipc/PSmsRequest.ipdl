@@ -269,6 +269,9 @@ ReplyNoMessageInList
 struct
 ThreadListItem
 {
+uint64_t
+id
+;
 nsString
 senderOrReceiver
 ;

@@ -66,6 +66,11 @@ idl
 dictionary
 SmsThreadListItem
 {
+unsigned
+long
+long
+id
+;
 DOMString
 senderOrReceiver
 ;
