@@ -624,7 +624,7 @@ nodeName
 =
 =
 '
-td
+div
 '
 &
 &
@@ -661,6 +661,9 @@ parentNode
 className
 =
 '
+expander
+-
+open
 '
 ;
 event
