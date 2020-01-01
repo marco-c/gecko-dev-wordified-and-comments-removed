@@ -2228,7 +2228,7 @@ cp
 ;
 }
 }
-PRStatus
+PRInt32
 _PR_MD_CLOSE_DIR
 (
 _MDDir
@@ -2264,7 +2264,7 @@ PRUint32
 1
 ;
 return
-PR_SUCCESS
+0
 ;
 }
 else
@@ -2277,7 +2277,8 @@ GetLastError
 )
 ;
 return
-PR_FAILURE
+-
+1
 ;
 }
 }
@@ -2288,7 +2289,8 @@ PR_INVALID_ARGUMENT_ERROR
 )
 ;
 return
-PR_FAILURE
+-
+1
 ;
 }
 PRStatus
@@ -6026,7 +6028,7 @@ return
 NULL
 ;
 }
-PRStatus
+PRInt32
 _PR_MD_CLOSE_DIR_UTF16
 (
 _MDDirUTF16
@@ -6062,7 +6064,7 @@ PRUint32
 1
 ;
 return
-PR_SUCCESS
+0
 ;
 }
 else
@@ -6075,7 +6077,8 @@ GetLastError
 )
 ;
 return
-PR_FAILURE
+-
+1
 ;
 }
 }
@@ -6086,7 +6089,8 @@ PR_INVALID_ARGUMENT_ERROR
 )
 ;
 return
-PR_FAILURE
+-
+1
 ;
 }
 #

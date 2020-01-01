@@ -179,7 +179,7 @@ define
 _PR_STAT_HAS_ST_ATIMESPEC
 #
 define
-_PR_NO_LARGE_FILES
+_PR_HAVE_LARGE_OFF_T
 #
 if
 defined
