@@ -1716,6 +1716,8 @@ exists
 )
 )
 return
+{
+}
 ;
 var
 fileInStream

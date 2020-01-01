@@ -3665,8 +3665,6 @@ e2
 }
 )
 ;
-if
-(
 ok
 =
 SimpleTest
@@ -3678,6 +3676,10 @@ e2
 stack
 seen
 )
+;
+if
+(
+ok
 )
 {
 stack
@@ -3903,8 +3905,6 @@ e2
 }
 )
 ;
-if
-(
 ok
 =
 SimpleTest
@@ -3916,6 +3916,9 @@ e2
 stack
 seen
 )
+if
+(
+ok
 )
 {
 stack
