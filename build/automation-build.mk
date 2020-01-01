@@ -73,7 +73,6 @@ browser_path
 \
 "
 (
-(
 TARGET_DIST
 )
 /
