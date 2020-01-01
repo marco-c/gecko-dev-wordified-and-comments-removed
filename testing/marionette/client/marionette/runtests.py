@@ -1391,6 +1391,9 @@ None
 testvars
 =
 None
+tree
+=
+None
 )
 :
         
@@ -1549,6 +1552,12 @@ self
 testvars
 =
 None
+        
+self
+.
+tree
+=
+tree
         
 if
 testvars
@@ -2313,9 +2322,9 @@ set_primary_product
             
 tree
 =
-'
-b2g
-'
+self
+.
+tree
             
 buildtype
 =
@@ -5281,7 +5290,7 @@ store
 default
 =
 None
-                     
+                      
 help
 =
 '
@@ -5295,6 +5304,46 @@ any
 test
 data
 required
+'
+)
+    
+parser
+.
+add_option
+(
+'
+-
+-
+tree
+'
+dest
+=
+'
+tree
+'
+action
+=
+'
+store
+'
+                      
+default
+=
+'
+b2g
+'
+                      
+help
+=
+'
+the
+tree
+that
+the
+revsion
+parameter
+refers
+to
 '
 )
     
@@ -5578,6 +5627,12 @@ testgroup
 options
 .
 testgroup
+                          
+tree
+=
+options
+.
+tree
                           
 autolog
 =
