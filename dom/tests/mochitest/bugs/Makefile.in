@@ -756,6 +756,10 @@ test_bug583225
 .
 html
 \
+test_bug585240
+.
+html
+\
 test_bug585819
 .
 html
