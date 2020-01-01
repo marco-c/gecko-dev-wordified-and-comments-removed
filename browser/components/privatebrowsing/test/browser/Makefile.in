@@ -138,6 +138,10 @@ browser_privatebrowsing_crh
 .
 js
 \
+browser_privatebrowsing_downloadLastDir
+.
+js
+\
 browser_privatebrowsing_fastswitch
 .
 js
