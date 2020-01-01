@@ -41605,9 +41605,6 @@ case
 JSOP_LAMBDA
 :
 case
-JSOP_THIS
-:
-case
 JSOP_TRUE
 :
 return
