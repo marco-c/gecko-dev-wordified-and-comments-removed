@@ -1012,6 +1012,7 @@ addToUrlbarHistory
 url
 )
 ;
+}
 catch
 (
 ex
