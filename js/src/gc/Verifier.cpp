@@ -998,6 +998,14 @@ ZealStackRootingValue
 )
 return
 ;
+JS_ASSERT
+(
+!
+InNoGCScope
+(
+)
+)
+;
 if
 (
 cx

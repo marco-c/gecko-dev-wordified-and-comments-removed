@@ -59,6 +59,12 @@ Shape
 .
 h
 "
+using
+JS
+:
+:
+AssertCanGC
+;
 namespace
 js
 {
