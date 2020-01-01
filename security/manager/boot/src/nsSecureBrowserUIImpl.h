@@ -381,6 +381,9 @@ withUpdateTooltip
 bool
 UpdateMyFlags
 (
+bool
+&
+showWarning
 lockIconState
 &
 warnSecurityState
@@ -389,6 +392,8 @@ warnSecurityState
 nsresult
 TellTheWorld
 (
+bool
+showWarning
 lockIconState
 warnSecurityState
 nsIRequest

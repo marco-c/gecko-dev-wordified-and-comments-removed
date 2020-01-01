@@ -2359,6 +2359,16 @@ true
 user_pref
 (
 "
+security
+.
+warn_submit_insecure
+"
+false
+)
+;
+user_pref
+(
+"
 browser
 .
 shell
