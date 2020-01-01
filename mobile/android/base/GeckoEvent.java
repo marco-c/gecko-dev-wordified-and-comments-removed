@@ -1649,7 +1649,7 @@ mCount
 }
 }
 }
-public
+private
 void
 addMotionPoint
 (
