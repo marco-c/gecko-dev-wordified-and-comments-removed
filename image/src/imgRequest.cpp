@@ -2587,6 +2587,15 @@ mGotData
 =
 true
 ;
+bool
+resniffMimeType
+=
+mResniffMimeType
+;
+mResniffMimeType
+=
+false
+;
 mimetype_closure
 closure
 ;
@@ -2773,7 +2782,7 @@ newType
 ;
 if
 (
-mResniffMimeType
+resniffMimeType
 )
 {
 NS_ABORT_IF_FALSE
@@ -2813,10 +2822,6 @@ GetStatusTracker
 mStatusTracker
 =
 freshTracker
-;
-mResniffMimeType
-=
-false
 ;
 }
 nsCOMPtr
