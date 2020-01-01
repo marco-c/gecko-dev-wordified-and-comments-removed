@@ -1,0 +1,12 @@
+function
+f
+(
+)
+{
+bogus
+.
+g
+(
+)
+;
+}
