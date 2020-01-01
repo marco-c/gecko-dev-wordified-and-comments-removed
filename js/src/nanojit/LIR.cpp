@@ -420,12 +420,10 @@ page
 )
 ;
 else
-{
 _noMem
 =
 1
 ;
-}
 return
 page
 ;
@@ -7315,6 +7313,10 @@ LInsp
 )
 *
 m_cap
+GC
+:
+:
+kZero
 )
 ;
 WB
@@ -7891,6 +7893,10 @@ sizeof
 (
 LInsp
 )
+GC
+:
+:
+kZero
 )
 ;
 LInsp
@@ -9297,7 +9303,7 @@ i
 {
 NanoAssert
 (
-unsigned
+size_t
 (
 i
 -
@@ -9650,7 +9656,7 @@ gc
 ;
 NanoAssert
 (
-unsigned
+size_t
 (
 i
 -
@@ -10798,7 +10804,7 @@ else
 {
 NanoAssert
 (
-unsigned
+size_t
 (
 ref
 -
@@ -13487,7 +13493,7 @@ insCall
 const
 CallInfo
 *
-call
+ci
 LInsp
 args
 [
@@ -13497,7 +13503,7 @@ args
 if
 (
 !
-call
+ci
 -
 >
 _cse
@@ -13514,7 +13520,7 @@ out
 >
 insCall
 (
-call
+ci
 args
 )
 ;

@@ -1373,13 +1373,6 @@ PAGE_EXEC
 void
 nInit
 (
-uint32_t
-flags
-)
-;
-void
-nInit
-(
 AvmCore
 *
 )
