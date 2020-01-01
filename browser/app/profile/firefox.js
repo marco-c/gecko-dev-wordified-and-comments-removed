@@ -2329,7 +2329,7 @@ urlbar
 .
 autoFill
 "
-false
+true
 )
 ;
 pref
