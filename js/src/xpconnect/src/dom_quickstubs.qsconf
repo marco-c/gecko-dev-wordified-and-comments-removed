@@ -2613,6 +2613,12 @@ nsICanvasRenderingContextWebGL
 .
 getShaderParameter
 '
+'
+-
+nsICanvasRenderingContextWebGL
+.
+getContextAttributes
+'
 #
 Audio
 '
