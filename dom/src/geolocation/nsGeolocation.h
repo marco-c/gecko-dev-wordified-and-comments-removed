@@ -337,8 +337,6 @@ class
 nsGeolocationService
 :
 public
-nsIGeolocationService
-public
 nsIGeolocationUpdate
 public
 nsIObserver
@@ -367,7 +365,6 @@ gService
 NS_DECL_ISUPPORTS
 NS_DECL_NSIGEOLOCATIONUPDATE
 NS_DECL_NSIOBSERVER
-NS_DECL_NSIGEOLOCATIONSERVICE
 nsGeolocationService
 (
 )
@@ -396,16 +393,6 @@ GetLastKnownPosition
 (
 )
 ;
-nsIGeolocationPrompt
-*
-GetPrompt
-(
-)
-{
-return
-mPrompt
-;
-}
 PRBool
 IsDeviceReady
 (
@@ -454,12 +441,6 @@ nsGeolocation
 *
 >
 mGeolocators
-;
-nsCOMPtr
-<
-nsIGeolocationPrompt
->
-mPrompt
 ;
 }
 ;
