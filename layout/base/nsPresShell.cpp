@@ -11502,10 +11502,7 @@ return
 caret
 ;
 }
-NS_IMETHODIMP_
-(
 void
-)
 PresShell
 :
 :
