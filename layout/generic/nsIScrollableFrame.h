@@ -219,14 +219,6 @@ aScrollPosition
 =
 0
 ;
-virtual
-nsIntPoint
-GetScrollPositionCSSPixels
-(
-)
-=
-0
-;
 enum
 ScrollUnit
 {
