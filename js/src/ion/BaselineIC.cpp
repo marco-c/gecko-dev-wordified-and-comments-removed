@@ -14060,6 +14060,8 @@ s
 (
 Int32
 Int32
+%
+s
 )
 stub
 "
@@ -14067,6 +14069,16 @@ js_CodeName
 [
 op
 ]
+allowDouble
+?
+"
+=
+>
+Double
+"
+:
+"
+"
 )
 ;
 ICBinaryArith_Int32
