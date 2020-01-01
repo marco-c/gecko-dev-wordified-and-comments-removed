@@ -18597,7 +18597,13 @@ if
 js_GetClassPrototype
 (
 cx
-NULL
+&
+fp
+-
+>
+scopeChain
+(
+)
 JSProto_String
 &
 obj
