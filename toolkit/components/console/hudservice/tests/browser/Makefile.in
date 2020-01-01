@@ -568,7 +568,7 @@ browser_warn_user_about_replaced_api
 .
 js
 \
-browser_webconsole_bug_586142_insert_newlines
+browser_webconsole_copying_multiple_messages_inserts_newlines_in_between
 .
 js
 \
@@ -716,10 +716,6 @@ browser_webconsole_bug_601177_log_levels
 .
 js
 \
-browser_webconsole_bug_587615_lastTimestamp
-.
-js
-\
 browser_webconsole_bug_597460_filter_scroll
 .
 js
@@ -733,6 +729,14 @@ browser_webconsole_bug_598357_jsterm_output
 js
 \
 browser_webconsole_bug_603750_websocket
+.
+js
+\
+browser_webconsole_abbreviate_source_url
+.
+js
+\
+browser_webconsole_view_source
 .
 js
 \

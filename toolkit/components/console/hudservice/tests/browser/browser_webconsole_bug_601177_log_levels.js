@@ -77,9 +77,9 @@ querySelectorAll
 .
 hud
 -
-group
->
-*
+msg
+-
+node
 "
 )
 ;
@@ -90,7 +90,7 @@ findEntry
 "
 hud
 -
-info
+networkinfo
 "
 "
 test
@@ -129,7 +129,7 @@ findEntry
 "
 hud
 -
-info
+networkinfo
 "
 "
 test
@@ -168,7 +168,7 @@ findEntry
 "
 hud
 -
-info
+networkinfo
 "
 "
 test
@@ -195,7 +195,7 @@ findEntry
 "
 hud
 -
-error
+network
 "
 "
 foobar
@@ -249,7 +249,7 @@ findEntry
 "
 hud
 -
-warn
+jswarn
 "
 "
 undefinedPropertyBug601177
