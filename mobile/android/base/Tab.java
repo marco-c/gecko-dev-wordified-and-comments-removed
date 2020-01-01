@@ -322,7 +322,7 @@ mEnteringReaderMode
 ;
 private
 Context
-mContext
+mAppContext
 ;
 private
 static
@@ -381,9 +381,13 @@ String
 title
 )
 {
-mContext
+mAppContext
 =
 context
+.
+getApplicationContext
+(
+)
 ;
 mId
 =
@@ -545,11 +549,7 @@ getContentResolver
 )
 {
 return
-Tabs
-.
-getInstance
-(
-)
+mAppContext
 .
 getContentResolver
 (
@@ -2828,7 +2828,7 @@ url
 )
 {
 return
-mContext
+mAppContext
 .
 getResources
 (

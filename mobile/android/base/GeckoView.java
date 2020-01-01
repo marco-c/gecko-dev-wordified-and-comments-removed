@@ -290,11 +290,8 @@ getInstance
 ;
 tabs
 .
-attachToActivity
+attachToContext
 (
-(
-Activity
-)
 context
 )
 ;
