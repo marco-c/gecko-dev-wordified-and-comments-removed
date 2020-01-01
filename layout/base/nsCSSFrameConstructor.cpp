@@ -20765,6 +20765,15 @@ nsGkAtoms
 :
 select
 )
+&
+&
+!
+aContent
+-
+>
+IsRootOfNativeAnonymousSubtree
+(
+)
 )
 {
 if
