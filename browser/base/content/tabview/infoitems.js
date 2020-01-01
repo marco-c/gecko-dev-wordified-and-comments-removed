@@ -459,7 +459,7 @@ Utils
 assertThrow
 (
 '
-Group
+InfoItem
 .
 setBounds
 :
@@ -595,7 +595,7 @@ Utils
 assertThrow
 (
 '
-Group
+InfoItem
 .
 setBounds
 :

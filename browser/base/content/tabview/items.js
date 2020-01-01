@@ -481,7 +481,7 @@ function
 )
 {
 var
-group
+groupItem
 =
 drag
 .
@@ -493,9 +493,9 @@ parent
 ;
 if
 (
-group
+groupItem
 )
-group
+groupItem
 .
 remove
 (
@@ -1542,7 +1542,7 @@ if
 !
 item
 .
-isAGroup
+isAGroupItem
 )
 {
 if
@@ -3833,7 +3833,7 @@ iQ
 .
 tab
 .
-group
+groupItem
 .
 info
 -
@@ -4637,7 +4637,7 @@ if
 (
 item
 .
-isAGroup
+isAGroupItem
 )
 {
 newBounds

@@ -248,7 +248,7 @@ null
 ;
 this
 .
-saveGroupsData
+saveGroupItemsData
 (
 gWindow
 {
@@ -418,7 +418,7 @@ return
 existingData
 ;
 }
-saveGroup
+saveGroupItem
 :
 function
 (
@@ -438,7 +438,7 @@ existingData
 =
 this
 .
-readGroupData
+readGroupItemData
 (
 win
 )
@@ -469,7 +469,7 @@ existingData
 )
 ;
 }
-deleteGroup
+deleteGroupItem
 :
 function
 (
@@ -482,7 +482,7 @@ existingData
 =
 this
 .
-readGroupData
+readGroupItemData
 (
 win
 )
@@ -512,7 +512,7 @@ existingData
 )
 ;
 }
-readGroupData
+readGroupItemData
 :
 function
 (
@@ -559,7 +559,7 @@ log
 "
 Error
 in
-readGroupData
+readGroupItemData
 :
 "
 +
@@ -571,7 +571,7 @@ return
 existingData
 ;
 }
-saveGroupsData
+saveGroupItemsData
 :
 function
 (
@@ -591,7 +591,7 @@ data
 )
 ;
 }
-readGroupsData
+readGroupItemsData
 :
 function
 (

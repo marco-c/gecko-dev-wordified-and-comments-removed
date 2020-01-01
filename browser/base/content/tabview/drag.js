@@ -171,7 +171,7 @@ this
 .
 item
 .
-isAGroup
+isAGroupItem
 )
 {
 var
