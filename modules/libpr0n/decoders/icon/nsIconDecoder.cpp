@@ -246,7 +246,7 @@ Flush
 )
 {
 return
-NS_OK
+NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHODIMP

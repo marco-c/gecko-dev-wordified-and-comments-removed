@@ -105,7 +105,7 @@ nsGIFDecoder2
 nsresult
 ProcessData
 (
-const
+unsigned
 char
 *
 data
