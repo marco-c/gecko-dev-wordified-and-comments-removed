@@ -605,9 +605,7 @@ JOF_DETECTING
 object
 detection
 for
-warning
--
-quelling
+JSNewResolveOp
 *
 /
 #
