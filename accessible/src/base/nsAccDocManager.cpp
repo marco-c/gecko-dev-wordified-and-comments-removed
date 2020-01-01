@@ -1556,7 +1556,16 @@ IsVisible
 aDocument
 -
 >
-GetDisplayDocument
+IsResourceDoc
+(
+)
+|
+|
+!
+aDocument
+-
+>
+IsActive
 (
 )
 )
