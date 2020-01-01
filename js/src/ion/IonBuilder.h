@@ -1115,6 +1115,11 @@ jsop_length_fastPath
 )
 ;
 bool
+jsop_not
+(
+)
+;
+bool
 jsop_getprop
 (
 JSAtom

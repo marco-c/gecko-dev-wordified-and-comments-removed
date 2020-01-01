@@ -690,6 +690,14 @@ ins
 )
 ;
 bool
+visitNot
+(
+MNot
+*
+ins
+)
+;
+bool
 visitBoundsCheck
 (
 MBoundsCheck

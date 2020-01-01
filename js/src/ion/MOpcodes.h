@@ -314,6 +314,11 @@ InitializedLength
 \
 _
 (
+Not
+)
+\
+_
+(
 BoundsCheck
 )
 \
