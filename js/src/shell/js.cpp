@@ -14748,6 +14748,8 @@ sandbox_class
 sandbox
 "
 JSCLASS_NEW_RESOLVE
+|
+JSCLASS_GLOBAL_FLAGS
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
