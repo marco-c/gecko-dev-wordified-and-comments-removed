@@ -1638,6 +1638,12 @@ doCommand
 (
 )
 ;
+waitForClearHistory
+(
+function
+(
+)
+{
 is
 (
 gSiteLabel
@@ -1786,6 +1792,9 @@ site
 }
 runNextTest
 (
+)
+;
+}
 )
 ;
 }
