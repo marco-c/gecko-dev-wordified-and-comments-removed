@@ -442,6 +442,10 @@ mk
 _TEST_FILES
 =
 \
+test_browser
+.
+html
+\
 test_general
 .
 html
@@ -450,7 +454,7 @@ test_general
 .
 xul
 \
-test_browser
+test_zoom
 .
 html
 \
