@@ -162,15 +162,12 @@ JSString
 *
 JsData
 =
-JS_NewStringCopyN
+JS_NewUCStringCopyN
 (
 aContext
-NS_ConvertUTF16toUTF8
-(
 data
-)
 .
-get
+BeginReading
 (
 )
 data
