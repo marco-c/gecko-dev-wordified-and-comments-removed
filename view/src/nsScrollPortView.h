@@ -332,10 +332,10 @@ nsView
 aScrolledView
 nsPoint
 aTwipsDelta
-nsPoint
+nsIntPoint
 aPixDelta
-PRInt32
-p2a
+nscoord
+aP2A
 )
 ;
 PRBool

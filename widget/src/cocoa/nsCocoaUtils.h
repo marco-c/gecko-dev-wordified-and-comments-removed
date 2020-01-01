@@ -179,13 +179,13 @@ NSRect
 GeckoRectToCocoaRect
 (
 const
-nsRect
+nsIntRect
 &
 geckoRect
 )
 ;
 static
-nsRect
+nsIntRect
 CocoaRectToGeckoRect
 (
 const

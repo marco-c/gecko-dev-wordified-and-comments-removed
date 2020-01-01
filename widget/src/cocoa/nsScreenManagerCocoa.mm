@@ -633,7 +633,7 @@ nsCocoaUtils
 :
 GeckoRectToCocoaRect
 (
-nsRect
+nsIntRect
 (
 aX
 aY

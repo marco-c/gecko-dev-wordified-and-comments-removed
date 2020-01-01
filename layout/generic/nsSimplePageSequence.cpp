@@ -784,7 +784,7 @@ mPageData
 mPrintSettings
 )
 {
-nsMargin
+nsIntMargin
 unwriteableTwips
 ;
 mPageData
@@ -841,7 +841,7 @@ negative
 "
 )
 ;
-nsMargin
+nsIntMargin
 marginTwips
 ;
 mPageData
@@ -886,7 +886,7 @@ mPrintRangeType
 =
 printType
 ;
-nsMargin
+nsIntMargin
 edgeTwips
 ;
 mPageData
@@ -900,7 +900,7 @@ GetEdgeInTwips
 edgeTwips
 )
 ;
-nscoord
+PRInt32
 inchInTwips
 =
 NS_INCHES_TO_TWIPS

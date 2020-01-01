@@ -7544,6 +7544,9 @@ PresContext
 (
 )
 ;
+nsIntMargin
+widget
+;
 if
 (
 isThemed
@@ -7571,7 +7574,7 @@ disp
 >
 mAppearance
 &
-mComputedPadding
+widget
 )
 )
 {
@@ -7584,7 +7587,7 @@ presContext
 >
 DevPixelsToAppUnits
 (
-mComputedPadding
+widget
 .
 top
 )
@@ -7598,7 +7601,7 @@ presContext
 >
 DevPixelsToAppUnits
 (
-mComputedPadding
+widget
 .
 right
 )
@@ -7612,7 +7615,7 @@ presContext
 >
 DevPixelsToAppUnits
 (
-mComputedPadding
+widget
 .
 bottom
 )
@@ -7626,7 +7629,7 @@ presContext
 >
 DevPixelsToAppUnits
 (
-mComputedPadding
+widget
 .
 left
 )
@@ -7688,6 +7691,9 @@ if
 isThemed
 )
 {
+nsIntMargin
+widget
+;
 presContext
 -
 >
@@ -7710,7 +7716,7 @@ disp
 >
 mAppearance
 &
-mComputedBorderPadding
+widget
 )
 ;
 mComputedBorderPadding
@@ -7722,7 +7728,7 @@ presContext
 >
 DevPixelsToAppUnits
 (
-mComputedBorderPadding
+widget
 .
 top
 )
@@ -7736,7 +7742,7 @@ presContext
 >
 DevPixelsToAppUnits
 (
-mComputedBorderPadding
+widget
 .
 right
 )
@@ -7750,7 +7756,7 @@ presContext
 >
 DevPixelsToAppUnits
 (
-mComputedBorderPadding
+widget
 .
 bottom
 )
@@ -7764,7 +7770,7 @@ presContext
 >
 DevPixelsToAppUnits
 (
-mComputedBorderPadding
+widget
 .
 left
 )

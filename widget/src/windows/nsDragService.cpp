@@ -293,7 +293,7 @@ aDOMNode
 return
 PR_FALSE
 ;
-nsRect
+nsIntRect
 dragRect
 ;
 nsRefPtr

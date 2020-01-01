@@ -3603,7 +3603,7 @@ aViewer
 Init
 (
 nsnull
-nsRect
+nsIntRect
 (
 0
 0

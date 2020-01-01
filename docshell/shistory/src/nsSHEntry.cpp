@@ -1768,7 +1768,7 @@ nsSHEntry
 SetViewerBounds
 (
 const
-nsRect
+nsIntRect
 &
 aBounds
 )
@@ -1787,7 +1787,7 @@ nsSHEntry
 :
 GetViewerBounds
 (
-nsRect
+nsIntRect
 &
 aBounds
 )

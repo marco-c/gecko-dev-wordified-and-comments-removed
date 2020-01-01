@@ -1183,7 +1183,7 @@ nsISupports
 *
 aState
 const
-nsRect
+nsIntRect
 &
 aBounds
 PRBool
@@ -2083,7 +2083,7 @@ nsIWidget
 *
 aParentWidget
 const
-nsRect
+nsIntRect
 &
 aBounds
 )
@@ -2204,7 +2204,7 @@ BeginObservingDocument
 (
 )
 ;
-nsRect
+nsIntRect
 bounds
 ;
 mWindow
@@ -2606,7 +2606,7 @@ nsISupports
 *
 aState
 const
-nsRect
+nsIntRect
 &
 aBounds
 PRBool
@@ -4380,7 +4380,7 @@ mPresShell
 NS_ERROR_NOT_INITIALIZED
 )
 ;
-nsRect
+nsIntRect
 bounds
 ;
 mWindow
@@ -6104,7 +6104,7 @@ DocumentViewerImpl
 :
 GetBounds
 (
-nsRect
+nsIntRect
 &
 aResult
 )
@@ -6277,7 +6277,7 @@ DocumentViewerImpl
 SetBounds
 (
 const
-nsRect
+nsIntRect
 &
 aBounds
 )
@@ -6768,7 +6768,7 @@ return
 rv
 ;
 }
-nsRect
+nsIntRect
 tbounds
 ;
 if
@@ -6789,7 +6789,7 @@ else
 {
 tbounds
 =
-nsRect
+nsIntRect
 (
 0
 0
@@ -15451,7 +15451,7 @@ mIsPageMode
 =
 aPageMode
 ;
-nsRect
+nsIntRect
 bounds
 ;
 mWindow

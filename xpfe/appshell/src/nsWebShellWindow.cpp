@@ -639,7 +639,7 @@ mIsHiddenWindow
 =
 aIsHiddenWindow
 ;
-nsRect
+nsIntRect
 r
 (
 0

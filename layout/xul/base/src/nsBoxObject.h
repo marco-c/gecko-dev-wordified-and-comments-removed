@@ -60,7 +60,7 @@ class
 nsIDocShell
 ;
 struct
-nsRect
+nsIntRect
 ;
 class
 nsBoxObject
@@ -122,7 +122,7 @@ aFlushLayout
 nsresult
 GetOffsetRect
 (
-nsRect
+nsIntRect
 &
 aRect
 )

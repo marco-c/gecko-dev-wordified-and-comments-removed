@@ -115,7 +115,7 @@ nsIPresShell
 aShell
 )
 ;
-nsRect
+nsIntRect
 GetCaretRect
 (
 nsIWidget

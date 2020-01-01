@@ -494,7 +494,7 @@ if
 mTrackingMouseMove
 )
 {
-nsPoint
+nsIntPoint
 nsMoveBy
 =
 aEvent
@@ -570,7 +570,7 @@ widget
 )
 )
 ;
-nsRect
+nsIntRect
 bounds
 ;
 widget

@@ -2567,7 +2567,7 @@ PRInt32
 cy
 )
 {
-nsRect
+nsIntRect
 rect
 ;
 if

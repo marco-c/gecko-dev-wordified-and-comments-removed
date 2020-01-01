@@ -453,7 +453,7 @@ docWidth
 docHeight
 )
 ;
-nsRect
+nsIntRect
 unclippedRect
 (
 x
@@ -462,7 +462,7 @@ width
 height
 )
 ;
-nsRect
+nsIntRect
 docRect
 (
 docX
@@ -471,7 +471,7 @@ docWidth
 docHeight
 )
 ;
-nsRect
+nsIntRect
 clippedRect
 ;
 clippedRect
@@ -886,7 +886,7 @@ return
 E_FAIL
 ;
 }
-nsRect
+nsIntRect
 sum
 (
 0
@@ -930,7 +930,7 @@ GetNextContinuation
 )
 )
 {
-nsRect
+nsIntRect
 rect
 =
 iter

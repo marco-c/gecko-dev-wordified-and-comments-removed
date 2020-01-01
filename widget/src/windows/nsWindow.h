@@ -284,7 +284,7 @@ nsIWidget
 *
 aParent
 const
-nsRect
+nsIntRect
 &
 aRect
 EVENT_CALLBACK
@@ -315,7 +315,7 @@ Create
 nsNativeWidget
 aParent
 const
-nsRect
+nsIntRect
 &
 aRect
 EVENT_CALLBACK
@@ -348,7 +348,7 @@ nsIWidget
 *
 aParent
 const
-nsRect
+nsIntRect
 &
 aRect
 EVENT_CALLBACK
@@ -519,7 +519,7 @@ aRaise
 NS_IMETHOD
 GetBounds
 (
-nsRect
+nsIntRect
 &
 aRect
 )
@@ -527,7 +527,7 @@ aRect
 NS_IMETHOD
 GetClientBounds
 (
-nsRect
+nsIntRect
 &
 aRect
 )
@@ -535,7 +535,7 @@ aRect
 NS_IMETHOD
 GetScreenBounds
 (
-nsRect
+nsIntRect
 &
 aRect
 )
@@ -591,7 +591,7 @@ NS_IMETHOD
 Invalidate
 (
 const
-nsRect
+nsIntRect
 &
 aRect
 PRBool
@@ -649,7 +649,7 @@ PRInt32
 aDx
 PRInt32
 aDy
-nsRect
+nsIntRect
 *
 aClipRect
 )
@@ -666,7 +666,7 @@ aDy
 NS_IMETHOD
 ScrollRect
 (
-nsRect
+nsIntRect
 &
 aRect
 PRInt32
@@ -720,10 +720,10 @@ NS_IMETHOD
 WidgetToScreen
 (
 const
-nsRect
+nsIntRect
 &
 aOldRect
-nsRect
+nsIntRect
 &
 aNewRect
 )
@@ -732,10 +732,10 @@ NS_IMETHOD
 ScreenToWidget
 (
 const
-nsRect
+nsIntRect
 &
 aOldRect
-nsRect
+nsIntRect
 &
 aNewRect
 )
@@ -1069,7 +1069,7 @@ nsIAccessible
 *
 *
 aAccessible
-nsPoint
+nsIntPoint
 *
 aPoint
 =
@@ -1092,7 +1092,7 @@ AutoErase
 (
 )
 ;
-nsPoint
+nsIntPoint
 *
 GetLastPoint
 (
@@ -1122,7 +1122,7 @@ InitEvent
 nsGUIEvent
 &
 event
-nsPoint
+nsIntPoint
 *
 aPoint
 =
@@ -1445,7 +1445,7 @@ virtual
 PRBool
 OnResize
 (
-nsRect
+nsIntRect
 &
 aWindowRect
 )
@@ -1651,13 +1651,13 @@ ResolveIMECaretPos
 nsIWidget
 *
 aReferenceWidget
-nsRect
+nsIntRect
 &
 aCursorRect
 nsIWidget
 *
 aNewOriginWidget
-nsRect
+nsIntRect
 &
 aOutRect
 )
@@ -1796,7 +1796,7 @@ lParam
 void
 GetNonClientBounds
 (
-nsRect
+nsIntRect
 &
 aRect
 )
@@ -2009,7 +2009,7 @@ static
 TriStateBool
 sCanQuit
 ;
-nsSize
+nsIntSize
 mLastSize
 ;
 static
@@ -2017,7 +2017,7 @@ nsWindow
 *
 gCurrentWindow
 ;
-nsPoint
+nsIntPoint
 mLastPoint
 ;
 HWND

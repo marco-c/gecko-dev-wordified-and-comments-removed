@@ -515,7 +515,7 @@ PRInt32
 outHeight
 )
 {
-nsRect
+nsIntRect
 r
 =
 nsCocoaUtils
@@ -581,7 +581,7 @@ PRInt32
 outHeight
 )
 {
-nsRect
+nsIntRect
 r
 =
 nsCocoaUtils

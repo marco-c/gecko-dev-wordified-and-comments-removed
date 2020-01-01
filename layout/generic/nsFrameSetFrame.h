@@ -264,7 +264,7 @@ aIndexInParent
 nsSize
 &
 aSize
-nsPoint
+nsIntPoint
 &
 aCellIndex
 )
@@ -634,7 +634,7 @@ aOffset
 nsSize
 &
 aSize
-nsPoint
+nsIntPoint
 *
 aCellIndex
 =
@@ -737,7 +737,7 @@ mDragger
 nsFramesetDrag
 mDrag
 ;
-nsPoint
+nsIntPoint
 mFirstDragPoint
 ;
 PRInt32

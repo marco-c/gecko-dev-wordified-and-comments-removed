@@ -3633,7 +3633,7 @@ frameView
 ;
 }
 static
-nsPoint
+nsIntPoint
 GetWidgetOffset
 (
 nsIWidget
@@ -3645,7 +3645,7 @@ nsIWidget
 aRootWidget
 )
 {
-nsPoint
+nsIntPoint
 offset
 (
 0
@@ -3668,7 +3668,7 @@ while
 parent
 )
 {
-nsRect
+nsIntRect
 bounds
 ;
 aWidget
@@ -3749,7 +3749,7 @@ nsIWidget
 *
 fromRoot
 ;
-nsPoint
+nsIntPoint
 fromOffset
 =
 GetWidgetOffset
@@ -3762,7 +3762,7 @@ nsIWidget
 *
 toRoot
 ;
-nsPoint
+nsIntPoint
 toOffset
 =
 GetWidgetOffset
@@ -9440,7 +9440,7 @@ disp
 )
 )
 {
-nsSize
+nsIntSize
 size
 (
 0

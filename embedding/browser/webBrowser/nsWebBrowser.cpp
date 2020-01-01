@@ -4376,7 +4376,7 @@ mWindowType
 =
 eWindowType_child
 ;
-nsRect
+nsIntRect
 bounds
 (
 mInitInfo
@@ -5249,7 +5249,7 @@ if
 mInternalWidget
 )
 {
-nsRect
+nsIntRect
 bounds
 ;
 NS_ENSURE_SUCCESS
