@@ -1680,16 +1680,8 @@ getTokenInternal
 )
 ;
 int
-getLineFromFile
+fillUserbuf
 (
-char
-*
-buf
-int
-size
-FILE
-*
-file
 )
 ;
 int32
