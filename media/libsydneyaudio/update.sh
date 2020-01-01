@@ -114,13 +114,6 @@ patch
 -
 p3
 <
-bug525401_drain_deadlock
-.
-patch
-patch
--
-p3
-<
 bug526411_latency
 .
 patch
