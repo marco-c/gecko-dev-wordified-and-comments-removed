@@ -10815,7 +10815,6 @@ if
 (
 xpcNativeWrappers
 )
-{
 entry
 -
 >
@@ -10871,6 +10870,7 @@ urlp
 get
 (
 )
+xpcNativeWrappers
 )
 ;
 NS_ENSURE_SUCCESS
@@ -10879,7 +10879,6 @@ rv
 rv
 )
 ;
-}
 }
 }
 else

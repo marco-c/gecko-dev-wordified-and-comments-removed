@@ -1425,6 +1425,17 @@ see
 below
 *
 /
+#
+define
+JSFILENAME_PROTECTED
+0x00000002
+/
+*
+scripts
+need
+protection
+*
+/
 extern
 JS_PUBLIC_API
 (
