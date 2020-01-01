@@ -551,6 +551,10 @@ nsXMLNameSpaceMap
 .
 h
 \
+nsDOMEventTargetWrapperCache
+.
+h
+\
 (
 NULL
 )

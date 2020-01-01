@@ -579,6 +579,10 @@ nsDOMDocumentType
 .
 cpp
 \
+nsDOMEventTargetWrapperCache
+.
+cpp
+\
 nsDOMFile
 .
 cpp
