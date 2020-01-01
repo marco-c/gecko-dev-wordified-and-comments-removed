@@ -4884,7 +4884,7 @@ max
 -
 connections
 "
-24
+30
 )
 ;
 pref
@@ -4902,7 +4902,7 @@ per
 -
 server
 "
-8
+15
 )
 ;
 pref
@@ -4922,7 +4922,7 @@ per
 -
 server
 "
-2
+6
 )
 ;
 pref
@@ -4942,7 +4942,7 @@ per
 -
 proxy
 "
-4
+8
 )
 ;
 pref
