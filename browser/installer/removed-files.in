@@ -4699,6 +4699,11 @@ chrome
 chromelist
 .
 txt
+modules
+/
+JSON
+.
+jsm
 #
 ifdef
 XP_MACOSX
