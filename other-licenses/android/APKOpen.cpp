@@ -1121,6 +1121,11 @@ SHELL_WRAPPER1
 setSurfaceView
 jobject
 )
+SHELL_WRAPPER1
+(
+setSoftwareLayerClient
+jobject
+)
 SHELL_WRAPPER0
 (
 onResume
@@ -1159,6 +1164,11 @@ SHELL_WRAPPER1
 (
 cameraCallbackBridge
 jbyteArray
+)
+SHELL_WRAPPER1
+(
+notifyUriVisited
+jstring
 )
 SHELL_WRAPPER3
 (
@@ -3714,6 +3724,11 @@ setSurfaceView
 ;
 GETFUNC
 (
+setSoftwareLayerClient
+)
+;
+GETFUNC
+(
 onResume
 )
 ;
@@ -3750,6 +3765,11 @@ executeNextRunnable
 GETFUNC
 (
 cameraCallbackBridge
+)
+;
+GETFUNC
+(
+notifyUriVisited
 )
 ;
 GETFUNC
