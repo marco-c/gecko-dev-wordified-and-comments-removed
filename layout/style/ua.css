@@ -241,6 +241,15 @@ inherit
 -
 moz
 -
+align
+-
+self
+:
+inherit
+;
+-
+moz
+-
 transform
 :
 inherit
