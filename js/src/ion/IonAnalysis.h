@@ -26,9 +26,6 @@ MIRGraph
 bool
 SplitCriticalEdges
 (
-MIRGenerator
-*
-gen
 MIRGraph
 &
 graph

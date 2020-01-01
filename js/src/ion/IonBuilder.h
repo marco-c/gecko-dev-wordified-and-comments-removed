@@ -2230,7 +2230,7 @@ recompileInfo
 ;
 LIRGraph
 *
-lir
+backgroundCompiledLir
 ;
 void
 clearForBackEnd

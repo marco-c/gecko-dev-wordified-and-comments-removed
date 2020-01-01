@@ -43,9 +43,6 @@ ion
 :
 SplitCriticalEdges
 (
-MIRGenerator
-*
-gen
 MIRGraph
 &
 graph

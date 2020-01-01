@@ -1355,6 +1355,11 @@ temp
 )
 )
 ;
+builder
+-
+>
+backgroundCompiledLir
+=
 ion
 :
 :
