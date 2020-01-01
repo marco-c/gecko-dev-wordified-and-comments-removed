@@ -536,9 +536,7 @@ memory
 jemalloc
 )
 endif
-WRAP_MALLOC_LIB
-=
-WRAP_MALLOC_CFLAGS
+WRAP_LDFLAGS
 =
 include
 (

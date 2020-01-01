@@ -548,9 +548,7 @@ dummy
 .
 c
 endif
-WRAP_MALLOC_CFLAGS
-=
-WRAP_MALLOC_LIB
+WRAP_LDFLAGS
 =
 #
 need
