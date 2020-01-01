@@ -85,6 +85,10 @@ test_template
 .
 html
 \
+test_connection_store
+.
+html
+\
 (
 NULL
 )
