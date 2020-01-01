@@ -3896,7 +3896,7 @@ let
 json
 =
 {
-contentCanCaptureMouse
+contentMightCaptureMouse
 :
 content
 .
@@ -7735,6 +7735,13 @@ function
 aMessage
 )
 {
+let
+json
+=
+aMessage
+.
+json
+;
 if
 (
 Util
@@ -7795,13 +7802,6 @@ false
 return
 ;
 }
-let
-json
-=
-aMessage
-.
-json
-;
 let
 cancelled
 =
