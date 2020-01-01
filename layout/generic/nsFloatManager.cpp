@@ -643,10 +643,6 @@ floatBottom
 top
 )
 {
-haveFloats
-=
-PR_TRUE
-;
 if
 (
 floatBottom
@@ -699,6 +695,10 @@ left
 =
 rightEdge
 ;
+haveFloats
+=
+PR_TRUE
+;
 }
 }
 else
@@ -722,6 +722,10 @@ right
 right
 =
 leftEdge
+;
+haveFloats
+=
+PR_TRUE
 ;
 }
 }
