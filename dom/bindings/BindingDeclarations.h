@@ -1106,10 +1106,9 @@ class
 Sequence
 :
 public
-AutoFallibleTArray
+FallibleTArray
 <
 T
-16
 >
 {
 public
@@ -1118,10 +1117,9 @@ Sequence
 (
 )
 :
-AutoFallibleTArray
+FallibleTArray
 <
 T
-16
 >
 (
 )
