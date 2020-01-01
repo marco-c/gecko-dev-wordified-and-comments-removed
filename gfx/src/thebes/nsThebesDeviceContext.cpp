@@ -1127,7 +1127,7 @@ nscoord
 1
 )
 ;
-mAppUnitsPerInch
+mAppUnitsPerPhysicalInch
 =
 nscoord
 (
@@ -2966,7 +2966,7 @@ set
 "
 )
 ;
-mAppUnitsPerInch
+mAppUnitsPerPhysicalInch
 =
 NS_lround
 (
@@ -5018,7 +5018,7 @@ size
 width
 )
 *
-AppUnitsPerInch
+AppUnitsPerPhysicalInch
 (
 )
 /
@@ -5036,7 +5036,7 @@ size
 height
 )
 *
-AppUnitsPerInch
+AppUnitsPerPhysicalInch
 (
 )
 /
@@ -5082,7 +5082,7 @@ mAppUnitsPerDevNotScaledPixel
 PRInt32
 oldInches
 =
-mAppUnitsPerInch
+mAppUnitsPerPhysicalInch
 ;
 SetDPI
 (
@@ -5098,7 +5098,7 @@ mAppUnitsPerDevNotScaledPixel
 oldInches
 !
 =
-mAppUnitsPerInch
+mAppUnitsPerPhysicalInch
 ;
 }
 PRBool

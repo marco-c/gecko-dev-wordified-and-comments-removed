@@ -14351,10 +14351,10 @@ defaultVariableFont
 >
 size
 -
-aPresContext
--
->
-PointsToAppUnits
+nsPresContext
+:
+:
+CSSPointsToAppUnits
 (
 2
 )
