@@ -989,6 +989,15 @@ kid
 ;
 if
 (
+!
+NS_INLINE_IS_BREAK_BEFORE
+(
+aReflowStatus
+)
+)
+{
+if
+(
 NS_FRAME_IS_COMPLETE
 (
 aReflowStatus
@@ -1149,6 +1158,7 @@ continuation
 PR_TRUE
 )
 ;
+}
 }
 }
 FinishAndStoreOverflow
