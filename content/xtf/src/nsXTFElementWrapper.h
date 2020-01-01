@@ -606,7 +606,7 @@ nsIXTFAttributeHandler
 >
 mAttributeHandler
 ;
-PRInt32
+PRUint64
 mIntrinsicState
 ;
 nsAttrName
