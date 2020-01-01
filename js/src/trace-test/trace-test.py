@@ -1618,6 +1618,9 @@ print
 +
 test
 )
+        
+return
+False
     
 else
 :
@@ -1652,6 +1655,9 @@ s
 doing
 )
 )
+        
+return
+True
 if
 __name__
 =
@@ -2664,11 +2670,25 @@ exit
 try
 :
         
+ok
+=
 run_tests
 (
 test_list
 test_dir
 lib_dir
+)
+        
+if
+not
+ok
+:
+            
+sys
+.
+exit
+(
+2
 )
     
 except
