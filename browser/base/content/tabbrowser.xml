@@ -21687,7 +21687,11 @@ this
 .
 firstChild
 .
-clientWidth
+getBoundingClientRect
+(
+)
+.
+width
 >
 this
 .
