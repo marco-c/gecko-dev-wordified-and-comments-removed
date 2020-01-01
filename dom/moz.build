@@ -314,6 +314,9 @@ wappush
 '
 telephony
 '
+'
+webidl
+'
 ]
 if
 CONFIG
