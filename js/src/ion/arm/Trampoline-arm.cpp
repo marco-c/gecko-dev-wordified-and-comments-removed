@@ -1387,9 +1387,12 @@ Imm32
 (
 BailoutDataSize
 +
-16
-+
-8
+sizeof
+(
+size_t
+)
+*
+2
 )
 sp
 )

@@ -854,6 +854,14 @@ return
 offset_
 ;
 }
+void
+fixup
+(
+MacroAssembler
+*
+masm
+)
+;
 }
 ;
 class

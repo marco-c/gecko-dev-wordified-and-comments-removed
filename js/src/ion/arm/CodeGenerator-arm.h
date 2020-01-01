@@ -675,6 +675,11 @@ LRecompileCheck
 lir
 )
 ;
+bool
+generateInvalidateEpilogue
+(
+)
+;
 }
 ;
 typedef

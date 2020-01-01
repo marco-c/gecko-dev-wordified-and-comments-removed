@@ -561,6 +561,11 @@ MulNegativeZeroCheck
 ool
 )
 ;
+bool
+generateInvalidateEpilogue
+(
+)
+;
 }
 ;
 class

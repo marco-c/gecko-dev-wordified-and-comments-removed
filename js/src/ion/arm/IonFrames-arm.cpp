@@ -91,17 +91,6 @@ JS_ASSERT
 token
 )
 ;
-JS_ASSERT
-(
-GetCalleeTokenTag
-(
-token
-)
-=
-=
-CalleeToken_Function
-)
-;
 uint8
 *
 rawBase

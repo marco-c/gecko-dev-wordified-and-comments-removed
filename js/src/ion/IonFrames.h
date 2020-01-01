@@ -389,6 +389,9 @@ const
 }
 ;
 class
+MacroAssembler
+;
+class
 OsiIndex
 {
 uint32
@@ -437,6 +440,14 @@ return
 snapshotOffset_
 ;
 }
+void
+fixUpOffset
+(
+MacroAssembler
+&
+masm
+)
+;
 }
 ;
 static
