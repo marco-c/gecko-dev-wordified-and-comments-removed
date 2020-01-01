@@ -175,7 +175,10 @@ arguments
 property
 "
 "
-PASS
+[
+object
+Arguments
+]
 "
 TestFunction_4
 (
@@ -266,7 +269,7 @@ var
 arguments
 =
 "
-PASS
+FAIL
 "
 ;
 return

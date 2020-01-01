@@ -200,9 +200,6 @@ argc
 JSObject
 &
 callee
-StackFrame
-*
-fp
 )
 ;
 inline
@@ -368,9 +365,6 @@ argc
 JSObject
 &
 callee
-StackFrame
-*
-fp
 )
 ;
 public
@@ -427,9 +421,6 @@ argc
 JSObject
 &
 callee
-StackFrame
-*
-fp
 )
 ;
 }
