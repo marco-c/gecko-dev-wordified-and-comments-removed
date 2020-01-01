@@ -1031,7 +1031,9 @@ elt
 .
 text
 ;
-snippetsElt
+elt
+.
+parentNode
 .
 replaceChild
 (
