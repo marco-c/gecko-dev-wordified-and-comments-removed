@@ -1630,6 +1630,9 @@ finalURL
 data
 .
 imageData
+data
+.
+wasErrorResponse
 )
 .
 then

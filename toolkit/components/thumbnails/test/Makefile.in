@@ -150,6 +150,10 @@ thumbnails_background
 .
 sjs
 \
+thumbnails_update
+.
+sjs
+\
 (
 NULL
 )
