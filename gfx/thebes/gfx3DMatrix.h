@@ -47,6 +47,7 @@ gfx3DMatrix
 &
 aMatrix
 )
+const
 ;
 inline
 bool
@@ -226,6 +227,7 @@ gfx3DMatrix
 &
 aMatrix
 )
+const
 {
 gfx3DMatrix
 matrix
