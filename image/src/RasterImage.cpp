@@ -9884,6 +9884,9 @@ if
 (
 !
 mDecoded
+&
+&
+mHasSourceData
 )
 {
 mDrawStartTime
