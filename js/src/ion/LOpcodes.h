@@ -63,6 +63,11 @@ BitOp
 \
 _
 (
+ShiftOp
+)
+\
+_
+(
 Return
 )
 \

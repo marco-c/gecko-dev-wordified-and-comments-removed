@@ -284,6 +284,15 @@ ins
 ;
 virtual
 bool
+visitShiftOp
+(
+LShiftOp
+*
+ins
+)
+;
+virtual
+bool
 visitMoveGroup
 (
 LMoveGroup
