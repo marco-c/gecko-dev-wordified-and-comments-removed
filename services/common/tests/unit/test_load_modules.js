@@ -28,6 +28,11 @@ stringbundle
 js
 "
 "
+tokenserverclient
+.
+js
+"
+"
 utils
 .
 js

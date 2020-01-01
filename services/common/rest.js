@@ -23,6 +23,9 @@ EXPORTED_SYMBOLS
 "
 RESTRequest
 "
+"
+RESTResponse
+"
 ]
 ;
 Cu
