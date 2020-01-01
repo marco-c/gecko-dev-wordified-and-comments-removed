@@ -561,6 +561,15 @@ aIsAltDown
 )
 {
 }
+void
+InitInputEvent
+(
+nsInputEvent
+&
+aInputEvent
+)
+const
+;
 }
 ;
 struct
