@@ -7930,7 +7930,7 @@ urlbar
 .
 delay
 "
-1000
+250
 )
 ;
 pref
