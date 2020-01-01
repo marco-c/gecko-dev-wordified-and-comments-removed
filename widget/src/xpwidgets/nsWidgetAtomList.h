@@ -380,6 +380,13 @@ sbattr
 )
 WIDGET_ATOM
 (
+scrollFrame
+"
+ScrollFrame
+"
+)
+WIDGET_ATOM
+(
 scrollbarFrame
 "
 ScrollbarFrame
