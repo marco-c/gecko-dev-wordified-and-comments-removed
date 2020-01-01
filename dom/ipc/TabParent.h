@@ -875,6 +875,11 @@ ShouldDelayDialogs
 (
 )
 ;
+PRBool
+AllowContentIME
+(
+)
+;
 NS_OVERRIDE
 virtual
 PRenderFrameParent
