@@ -644,6 +644,7 @@ ok
 js_CloseIterator
 (
 cx
+&
 cx
 -
 >
@@ -655,6 +656,10 @@ sp
 -
 1
 ]
+.
+toObject
+(
+)
 )
 ;
 cx

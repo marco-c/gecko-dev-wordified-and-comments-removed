@@ -12151,6 +12151,7 @@ js_CloseIterator
 f
 .
 cx
+&
 f
 .
 regs
@@ -12160,6 +12161,10 @@ sp
 -
 1
 ]
+.
+toObject
+(
+)
 )
 )
 THROW
