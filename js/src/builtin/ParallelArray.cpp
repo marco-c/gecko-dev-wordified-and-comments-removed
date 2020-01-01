@@ -6462,6 +6462,12 @@ outermostDimension
 ;
 if
 (
+newDimension
+=
+=
+0
+|
+|
 outer
 %
 newDimension
