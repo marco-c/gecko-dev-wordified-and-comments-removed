@@ -104,6 +104,13 @@ util
 Log
 ;
 import
+android
+.
+webkit
+.
+WebIconDatabase
+;
+import
 java
 .
 io
@@ -482,6 +489,12 @@ launchBackground
 (
 )
 {
+WebIconDatabase
+.
+getInstance
+(
+)
+;
 PlacesTask
 placesTask
 =
