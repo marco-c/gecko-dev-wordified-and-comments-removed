@@ -8194,6 +8194,13 @@ mComputedHeight
 !
 =
 NS_UNCONSTRAINEDSIZE
+|
+|
+aReflowState
+.
+mFlags
+.
+mVResize
 )
 {
 SetGeometryDirty
