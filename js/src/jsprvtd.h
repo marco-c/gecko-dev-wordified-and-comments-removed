@@ -196,13 +196,6 @@ MatchPairs
 class
 PropertyName
 ;
-namespace
-detail
-{
-class
-RegExpCode
-;
-}
 enum
 RegExpFlag
 {

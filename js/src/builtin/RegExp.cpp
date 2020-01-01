@@ -1376,10 +1376,7 @@ if
 js
 :
 :
-detail
-:
-:
-RegExpCode
+RegExpShared
 :
 :
 checkSyntax
