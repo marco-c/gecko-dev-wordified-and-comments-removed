@@ -235,6 +235,13 @@ NativeState
 )
 ;
 virtual
+PRUint64
+NativeInteractiveState
+(
+)
+const
+;
+virtual
 PRInt32
 GetLevelInternal
 (
@@ -433,9 +440,10 @@ NativeRole
 ;
 virtual
 PRUint64
-NativeState
+NativeInteractiveState
 (
 )
+const
 ;
 virtual
 PRUint8

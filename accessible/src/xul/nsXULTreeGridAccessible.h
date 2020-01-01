@@ -464,6 +464,13 @@ NativeState
 )
 ;
 virtual
+PRUint64
+NativeInteractiveState
+(
+)
+const
+;
+virtual
 PRUint8
 ActionCount
 (

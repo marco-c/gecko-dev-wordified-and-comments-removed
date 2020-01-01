@@ -61,10 +61,11 @@ NativeRole
 )
 ;
 virtual
-PRUint64
-NativeState
+bool
+NativelyUnavailable
 (
 )
+const
 ;
 protected
 :

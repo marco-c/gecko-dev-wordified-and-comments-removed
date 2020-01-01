@@ -176,6 +176,13 @@ NativeState
 (
 )
 ;
+virtual
+PRUint64
+NativeInteractiveState
+(
+)
+const
+;
 protected
 :
 virtual

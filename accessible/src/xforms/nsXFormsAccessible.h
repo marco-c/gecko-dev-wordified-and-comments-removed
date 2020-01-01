@@ -116,6 +116,13 @@ NativeState
 ;
 virtual
 bool
+NativelyUnavailable
+(
+)
+const
+;
+virtual
+bool
 CanHaveAnonChildren
 (
 )
