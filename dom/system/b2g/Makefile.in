@@ -585,6 +585,10 @@ ril_worker
 .
 js
 \
+systemlibs
+.
+js
+\
 (
 NULL
 )
