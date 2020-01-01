@@ -657,6 +657,9 @@ FileReader
 Blob
 '
 '
+EventSource
+'
+'
 location
 '
 ]
