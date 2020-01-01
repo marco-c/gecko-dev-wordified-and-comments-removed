@@ -2025,6 +2025,7 @@ BytesPerArenaWithHeader
 struct
 ChunkBitmap
 {
+volatile
 uintptr_t
 bitmap
 [
@@ -2217,9 +2218,18 @@ clear
 (
 )
 {
-PodArrayZero
+memset
+(
+(
+void
+*
+)
+bitmap
+0
+sizeof
 (
 bitmap
+)
 )
 ;
 }

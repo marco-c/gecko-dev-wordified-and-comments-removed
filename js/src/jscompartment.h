@@ -1193,6 +1193,7 @@ gcState
 Finished
 ;
 }
+volatile
 size_t
 gcBytes
 ;
