@@ -2741,11 +2741,10 @@ _asyncPromptInProgress
 false
 ;
 for
-each
 (
 let
 consumer
-in
+of
 prompt
 .
 consumers
