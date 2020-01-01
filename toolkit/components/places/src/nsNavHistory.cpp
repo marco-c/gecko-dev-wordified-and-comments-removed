@@ -14562,6 +14562,16 @@ NormalizeTimeRelativeToday
 aDate
 )
 ;
+if
+(
+dateMidnight
+>
+aNormalizedNow
+)
+return
+0
+;
+else
 return
 (
 (
