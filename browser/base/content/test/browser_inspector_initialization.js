@@ -106,7 +106,7 @@ open
 "
 )
 ;
-todo
+ok
 (
 InspectorUI
 .
@@ -158,6 +158,8 @@ id
 =
 "
 inspector
+-
+style
 -
 panel
 "

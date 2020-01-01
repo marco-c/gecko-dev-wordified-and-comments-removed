@@ -478,6 +478,12 @@ NetworkPrioritizer
 .
 jsm
 \
+content
+/
+stylePanel
+.
+jsm
+\
 (
 NULL
 )

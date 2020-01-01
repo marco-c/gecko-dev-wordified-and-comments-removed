@@ -892,6 +892,10 @@ browser_inspector_highlighter
 .
 js
 \
+browser_inspector_stylePanel
+.
+js
+\
 browser_overflowScroll
 .
 js
