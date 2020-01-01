@@ -1794,7 +1794,7 @@ JS_ASSERT
 (
 lookahead
 <
-ntokensMask
+maxLookahead
 )
 ;
 lookahead
