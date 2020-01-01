@@ -4424,7 +4424,6 @@ aResult
 AssignLiteral
 (
 "
-no
 "
 )
 ;
