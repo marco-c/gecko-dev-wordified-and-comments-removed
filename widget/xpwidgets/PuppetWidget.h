@@ -129,6 +129,11 @@ aInitData
 nullptr
 )
 ;
+void
+InitIMEState
+(
+)
+;
 virtual
 already_AddRefed
 <
@@ -662,6 +667,9 @@ mIMELastReceivedSeqno
 ;
 uint32_t
 mIMELastBlurSeqno
+;
+bool
+mNeedIMEStateInit
 ;
 float
 mDPI
