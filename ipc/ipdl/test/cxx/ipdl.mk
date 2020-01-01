@@ -29,7 +29,15 @@ PTestDescSubsub
 .
 ipdl
 \
+PTestHandle
+.
+ipdl
+\
 PTestHangs
+.
+ipdl
+\
+PTestJSON
 .
 ipdl
 \

@@ -483,6 +483,8 @@ TestDesc
 \
 TestHangs
 \
+TestJSON
+\
 TestLatency
 \
 TestManyChildAllocs
