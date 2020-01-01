@@ -538,7 +538,7 @@ reopened
 ;
 gPrefService
 .
-setIntPref
+clearUserPref
 (
 "
 browser
@@ -547,7 +547,6 @@ sessionstore
 .
 max_tabs_undo
 "
-max_tabs_undo
 )
 ;
 tabbrowser

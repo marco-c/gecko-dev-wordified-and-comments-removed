@@ -175,22 +175,6 @@ nsISessionStore
 )
 ;
 let
-ss_interval
-=
-gPrefService
-.
-getIntPref
-(
-"
-browser
-.
-sessionstore
-.
-interval
-"
-)
-;
-let
 sessionStoreJS
 =
 profilePath
@@ -580,7 +564,7 @@ tab_A
 ;
 gPrefService
 .
-setIntPref
+clearUserPref
 (
 "
 browser
@@ -589,7 +573,6 @@ sessionstore
 .
 interval
 "
-ss_interval
 )
 ;
 gPrefService
@@ -653,7 +636,7 @@ changed
 ;
 gPrefService
 .
-setIntPref
+clearUserPref
 (
 "
 browser
@@ -662,7 +645,6 @@ sessionstore
 .
 interval
 "
-ss_interval
 )
 ;
 gPrefService
