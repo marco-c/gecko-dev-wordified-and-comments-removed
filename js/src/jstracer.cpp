@@ -53524,6 +53524,14 @@ JSContext
 cx
 )
 {
+#
+ifndef
+JS_TRACE_RECURSION
+return
+false
+;
+#
+else
 JSStackFrame
 *
 fp
@@ -53647,6 +53655,8 @@ false
 return
 true
 ;
+#
+endif
 }
 JS_REQUIRES_STACK
 AbortableRecordingStatus
@@ -54040,6 +54050,9 @@ inlining
 )
 ;
 }
+#
+ifdef
+JS_TRACE_RECURSION
 VMFragment
 *
 root
@@ -54401,6 +54414,8 @@ inlineCallCount
 )
 ;
 }
+#
+endif
 return
 ARECORD_CONTINUE
 ;

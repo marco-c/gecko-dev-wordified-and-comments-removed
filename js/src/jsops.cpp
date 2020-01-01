@@ -1295,6 +1295,9 @@ TRACE_0
 LeaveFrame
 )
 ;
+#
+ifdef
+JS_TRACE_RECURSION
 if
 (
 !
@@ -1350,6 +1353,8 @@ DO_OP
 ;
 }
 }
+#
+endif
 if
 (
 *
@@ -11782,6 +11787,9 @@ RESTORE_INTERP_VARS
 (
 )
 ;
+#
+ifdef
+JS_TRACE_RECURSION
 }
 else
 if
@@ -11879,6 +11887,8 @@ MONITOR_BRANCH
 Monitor_EnterFrame
 )
 ;
+#
+endif
 }
 #
 endif
