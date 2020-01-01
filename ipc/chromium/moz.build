@@ -442,11 +442,6 @@ stats_table
 cc
 '
 '
-string_escape
-.
-cc
-'
-'
 string_piece
 .
 cc
