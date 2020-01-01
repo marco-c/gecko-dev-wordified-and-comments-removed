@@ -1486,6 +1486,11 @@ TypePolicy
 cpp
 '
 '
+TypeRepresentationSet
+.
+cpp
+'
+'
 UnreachableCodeElimination
 .
 cpp

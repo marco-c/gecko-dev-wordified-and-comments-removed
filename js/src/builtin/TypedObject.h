@@ -790,6 +790,12 @@ Class
 class_
 ;
 static
+size_t
+dataOffset
+(
+)
+;
+static
 bool
 isBlock
 (

@@ -811,7 +811,7 @@ regExps
 js
 :
 :
-TypeRepresentationSet
+TypeRepresentationHash
 typeReprs
 ;
 private

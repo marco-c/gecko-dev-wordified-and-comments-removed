@@ -171,7 +171,7 @@ TypeRepresentation
 TypeRepresentationHasher
 RuntimeAllocPolicy
 >
-TypeRepresentationSet
+TypeRepresentationHash
 ;
 class
 TypeRepresentation
@@ -214,7 +214,7 @@ addToTableOrFree
 JSContext
 *
 cx
-TypeRepresentationSet
+TypeRepresentationHash
 :
 :
 AddPtr
@@ -922,7 +922,7 @@ StructField
 *
 fieldNamed
 (
-HandleId
+jsid
 id
 )
 const
