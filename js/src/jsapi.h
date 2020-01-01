@@ -2446,6 +2446,13 @@ JS_BIT
 (
 9
 )
+#
+define
+JSOPTION_ANONFUNFIX
+JS_BIT
+(
+10
+)
 extern
 JS_PUBLIC_API
 (
