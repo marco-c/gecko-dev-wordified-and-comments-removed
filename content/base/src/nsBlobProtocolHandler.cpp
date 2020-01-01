@@ -335,7 +335,7 @@ nsBlobProtocolHandler
 :
 GetDefaultPort
 (
-PRInt32
+int32_t
 *
 result
 )
@@ -356,7 +356,7 @@ nsBlobProtocolHandler
 :
 GetProtocolFlags
 (
-PRUint32
+uint32_t
 *
 result
 )
@@ -707,7 +707,7 @@ nsBlobProtocolHandler
 :
 AllowPort
 (
-PRInt32
+int32_t
 port
 const
 char
