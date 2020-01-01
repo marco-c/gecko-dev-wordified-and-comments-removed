@@ -177,6 +177,7 @@ foundContentType
 }
 class
 nsGIOMimeApp
+MOZ_FINAL
 :
 public
 nsIGIOMimeApp
@@ -433,6 +434,7 @@ NS_OK
 }
 class
 GIOUTF8StringEnumerator
+MOZ_FINAL
 :
 public
 nsIUTF8StringEnumerator
