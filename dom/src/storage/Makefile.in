@@ -428,6 +428,10 @@ nsDOMStorage
 .
 cpp
 \
+nsDOMStorageBaseDB
+.
+cpp
+\
 nsDOMStorageDBWrapper
 .
 cpp
