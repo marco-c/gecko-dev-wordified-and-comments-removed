@@ -289,11 +289,13 @@ NS_ENSURE_STATE
 sliderContent
 )
 ;
-return
 DoCommand
 (
 sliderContent
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP

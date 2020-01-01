@@ -2504,10 +2504,12 @@ eAction_Click
 return
 NS_ERROR_INVALID_ARG
 ;
-return
 DoCommand
 (
 )
+;
+return
+NS_OK
 ;
 }
 PRBool

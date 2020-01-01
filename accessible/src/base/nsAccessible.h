@@ -675,7 +675,7 @@ PRInt32
 aEndOffset
 )
 ;
-nsresult
+void
 DoCommand
 (
 nsIContent

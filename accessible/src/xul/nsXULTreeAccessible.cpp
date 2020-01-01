@@ -3592,12 +3592,14 @@ IsExpandable
 return
 NS_ERROR_INVALID_ARG
 ;
-return
 DoCommand
 (
 nsnull
 aIndex
 )
+;
+return
+NS_OK
 ;
 }
 PRBool
