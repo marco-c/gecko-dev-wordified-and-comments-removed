@@ -1365,11 +1365,13 @@ false
 conditionalExpression
 :
 "
+(
 function
 (
 )
 {
 }
+)
 "
 }
 )
@@ -1379,8 +1381,10 @@ function
 conditionalExpression
 :
 "
+(
 {
 }
+)
 "
 }
 )
