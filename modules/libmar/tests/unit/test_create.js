@@ -114,6 +114,8 @@ function
 return
 run_one_test
 (
+refMARPrefix
++
 "
 0_sized_mar
 .
@@ -136,6 +138,8 @@ function
 return
 run_one_test
 (
+refMARPrefix
++
 "
 1_byte_mar
 .
@@ -158,6 +162,8 @@ function
 return
 run_one_test
 (
+refMARPrefix
++
 "
 binary_data_mar
 .
@@ -180,6 +186,8 @@ function
 return
 run_one_test
 (
+refMARPrefix
++
 "
 multiple_file_mar
 .
@@ -244,6 +252,8 @@ mar
 return
 run_one_test
 (
+refMARPrefix
++
 "
 binary_data_mar
 .
