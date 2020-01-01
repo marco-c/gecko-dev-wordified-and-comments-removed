@@ -3437,12 +3437,6 @@ void
 aData
 )
 ;
-virtual
-void
-DispatchContentLoadedEvents
-(
-)
-;
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 (
 nsDocument
@@ -3573,6 +3567,11 @@ GetElementByIdInternal
 nsIAtom
 *
 aID
+)
+;
+void
+DispatchContentLoadedEvents
+(
 )
 ;
 void
@@ -3953,6 +3952,11 @@ mHasWarnedAboutBoxObjects
 ;
 PRPackedBool
 mDelayFrameLoaderInitialization
+:
+1
+;
+PRPackedBool
+mSynchronousDOMContentLoaded
 :
 1
 ;
