@@ -5350,6 +5350,17 @@ JSFunction
 )
 )
 ;
+JS_ASSERT
+(
+!
+sourceFun
+-
+>
+isGenerator
+(
+)
+)
+;
 RootedScript
 sourceScript
 (
