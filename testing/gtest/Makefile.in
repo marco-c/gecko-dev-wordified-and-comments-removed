@@ -147,16 +147,6 @@ LIBXUL_LIBRARY
 IS_COMPONENT
 =
 1
-GTEST_CPPSRCS
-=
-\
-SanityTest
-.
-cpp
-\
-(
-NULL
-)
 LOCAL_INCLUDES
 +
 =
