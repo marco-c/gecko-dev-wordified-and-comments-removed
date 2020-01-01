@@ -2052,9 +2052,10 @@ r0
 ;
 masm
 .
-ma_push
+pushCalleeToken
 (
 r1
+mode
 )
 ;
 masm
