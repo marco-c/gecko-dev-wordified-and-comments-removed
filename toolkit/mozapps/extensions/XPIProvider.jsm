@@ -4022,6 +4022,13 @@ AddonManager
 AUTOUPDATE_DEFAULT
 ;
 let
+storage
+=
+Services
+.
+storage
+;
+let
 rng
 =
 Cc
