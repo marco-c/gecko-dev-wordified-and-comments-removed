@@ -1230,6 +1230,10 @@ browser_tabs_owner
 .
 js
 \
+browser_urlbarTrimURLs
+.
+js
+\
 browser_urlHighlight
 .
 js
