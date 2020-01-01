@@ -490,6 +490,10 @@ StackVector
 .
 cpp
 \
+StackConditional
+.
+cpp
+\
 (
 NULL
 )
