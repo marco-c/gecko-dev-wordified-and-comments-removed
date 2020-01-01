@@ -1423,7 +1423,7 @@ ok
 onWindowOpened
 :
 function
-Weave__onWindowOpened
+WeaveSvc__onWindowOpened
 (
 )
 {
@@ -4300,7 +4300,7 @@ _syncThresh
 _checkSync
 :
 function
-Weave__checkSync
+WeaveSvc__checkSync
 (
 )
 {
@@ -4476,9 +4476,18 @@ Utils
 bind2
 (
 this
+function
+WeaveSvc__checkSyncCallback
+(
+timer
+)
 this
 .
 sync
+(
+null
+false
+)
 )
 )
 ;
