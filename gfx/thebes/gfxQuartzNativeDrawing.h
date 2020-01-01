@@ -41,7 +41,13 @@ ctx
 const
 gfxRect
 &
-nativeRect
+aNativeRect
+gfxFloat
+aBackingScale
+=
+1
+.
+0f
 )
 ;
 CGContextRef
@@ -90,6 +96,9 @@ mSurfaceContext
 ;
 gfxRect
 mNativeRect
+;
+gfxFloat
+mBackingScale
 ;
 nsRefPtr
 <
