@@ -5383,7 +5383,7 @@ NS_ENSURE_TRUE
 InitStaticMembers
 (
 )
-PR_FALSE
+NS_ERROR_NOT_AVAILABLE
 )
 ;
 return
@@ -5518,7 +5518,7 @@ NS_ENSURE_TRUE
 InitStaticMembers
 (
 )
-PR_FALSE
+NS_ERROR_NOT_AVAILABLE
 )
 ;
 return
@@ -5554,7 +5554,7 @@ NS_ENSURE_TRUE
 InitStaticMembers
 (
 )
-PR_FALSE
+NS_ERROR_NOT_AVAILABLE
 )
 ;
 return
@@ -5588,7 +5588,7 @@ NS_ENSURE_TRUE
 InitStaticMembers
 (
 )
-PR_FALSE
+NS_ERROR_NOT_AVAILABLE
 )
 ;
 return
