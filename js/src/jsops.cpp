@@ -7873,6 +7873,8 @@ do_bound_global_incop
 :
 uint32
 slot
+;
+slot
 =
 GET_SLOTNO
 (
@@ -7893,6 +7895,8 @@ slot
 ;
 JSObject
 *
+obj
+;
 obj
 =
 fp
