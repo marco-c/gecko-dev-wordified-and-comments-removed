@@ -3912,6 +3912,17 @@ range
 -
 thumb
 {
+-
+moz
+-
+appearance
+:
+range
+-
+thumb
+!
+important
+;
 display
 :
 inline

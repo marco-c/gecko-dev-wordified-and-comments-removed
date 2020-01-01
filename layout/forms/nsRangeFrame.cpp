@@ -947,17 +947,6 @@ nsHTMLReflowState
 aReflowState
 )
 {
-if
-(
-ShouldUseNativeStyle
-(
-)
-)
-{
-return
-NS_OK
-;
-}
 nscoord
 rangeFrameContentBoxWidth
 =
