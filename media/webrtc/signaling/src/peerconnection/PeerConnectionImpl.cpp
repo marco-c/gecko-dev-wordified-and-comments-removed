@@ -5,11 +5,6 @@ string
 >
 #
 include
-<
-iostream
->
-#
-include
 "
 vcm
 .
