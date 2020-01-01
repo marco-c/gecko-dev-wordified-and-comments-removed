@@ -591,6 +591,9 @@ NULL
 if
 (
 isVistaOrHigher
+&
+&
+0
 )
 {
 HMODULE
