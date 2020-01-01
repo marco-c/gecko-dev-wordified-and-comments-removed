@@ -9416,7 +9416,7 @@ editor
 component
 "
 "
-textarea
+orion
 "
 )
 ;
