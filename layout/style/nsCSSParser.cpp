@@ -39518,17 +39518,12 @@ GetUnit
 )
 break
 ;
-if
-(
-!
 ExpectSymbol
 (
 '
 '
 PR_TRUE
 )
-)
-break
 ;
 if
 (

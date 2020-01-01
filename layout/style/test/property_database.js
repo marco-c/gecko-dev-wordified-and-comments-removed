@@ -21085,6 +21085,11 @@ other_values
 2px
 "
 "
+5px
+3px
+2px
+"
+"
 1px
 "
 "
