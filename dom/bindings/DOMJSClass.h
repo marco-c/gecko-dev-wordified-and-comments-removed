@@ -434,8 +434,14 @@ ParentGetter
 JSContext
 *
 aCx
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 aObj
 )
 ;
