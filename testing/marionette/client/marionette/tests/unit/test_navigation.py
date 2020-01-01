@@ -1275,12 +1275,8 @@ e
             
 self
 .
-assertEqual
+assertTrue
 (
-str
-(
-e
-)
 "
 Error
 loading
@@ -1288,6 +1284,11 @@ page
 timed
 out
 "
+in
+str
+(
+e
+)
 )
         
 except
