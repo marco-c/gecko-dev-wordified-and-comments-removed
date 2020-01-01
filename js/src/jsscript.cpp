@@ -208,6 +208,7 @@ true
 false
 false
 false
+true
 const_cast
 <
 jsbytecode

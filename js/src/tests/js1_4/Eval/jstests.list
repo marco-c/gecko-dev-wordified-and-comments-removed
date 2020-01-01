@@ -38,12 +38,6 @@ js
 script
 regress
 -
-531037
-.
-js
-script
-regress
--
 531682
 .
 js
