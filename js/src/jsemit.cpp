@@ -26939,7 +26939,7 @@ pn_head
 ;
 op
 =
-JSOP_NEWINIT
+JSOP_NEWARRAY
 ;
 #
 if
