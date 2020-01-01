@@ -6662,6 +6662,12 @@ source_pattern
 base
 )
 ;
+_cairo_clip_init
+(
+&
+clip
+)
+;
 if
 (
 cairo_surface_has_show_text_glyphs
