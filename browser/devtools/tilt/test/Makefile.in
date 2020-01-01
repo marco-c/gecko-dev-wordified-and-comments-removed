@@ -480,6 +480,10 @@ browser_tilt_arcball
 .
 js
 \
+browser_tilt_controller
+.
+js
+\
 browser_tilt_gl01
 .
 js
