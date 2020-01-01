@@ -1595,10 +1595,6 @@ _notify
 (
 "
 sync
--
-as
--
-needed
 "
 this
 .
