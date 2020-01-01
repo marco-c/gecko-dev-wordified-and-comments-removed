@@ -5437,7 +5437,7 @@ t
 newSyntaxError
 (
 "
-Missing
+missing
 identifier
 in
 catch
@@ -6124,7 +6124,7 @@ t
 newSyntaxError
 (
 "
-Missing
+missing
 ;
 before
 statement
@@ -6489,7 +6489,7 @@ t
 newSyntaxError
 (
 "
-Missing
+missing
 function
 identifier
 "
@@ -6577,7 +6577,7 @@ t
 newSyntaxError
 (
 "
-Missing
+missing
 formal
 parameter
 "
@@ -7327,7 +7327,7 @@ t
 newSyntaxError
 (
 "
-Missing
+missing
 variable
 name
 "
@@ -7869,7 +7869,7 @@ t
 newSyntaxError
 (
 "
-Missing
+missing
 name
 in
 pattern
@@ -8224,7 +8224,7 @@ t
 newSyntaxError
 (
 "
-Missing
+missing
 identifier
 "
 )
@@ -8871,7 +8871,7 @@ t
 newSyntaxError
 (
 "
-Missing
+missing
 :
 after
 ?
@@ -11118,7 +11118,7 @@ t
 newSyntaxError
 (
 "
-Missing
+missing
 :
 after
 property
@@ -11256,7 +11256,7 @@ t
 newSyntaxError
 (
 "
-Missing
+missing
 operand
 "
 )
