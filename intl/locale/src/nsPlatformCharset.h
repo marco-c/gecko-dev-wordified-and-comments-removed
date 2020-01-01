@@ -85,17 +85,6 @@ oString
 )
 ;
 nsresult
-ConvertLocaleToCharsetUsingDeprecatedConfig
-(
-nsACString
-&
-locale
-nsACString
-&
-oResult
-)
-;
-nsresult
 VerifyCharset
 (
 nsCString
