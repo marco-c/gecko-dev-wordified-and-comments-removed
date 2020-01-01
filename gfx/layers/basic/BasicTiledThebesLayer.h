@@ -290,6 +290,9 @@ aCallback
 void
 *
 aCallbackData
+Layer
+*
+aMaskLayer
 )
 ;
 BasicTiledLayerTile
@@ -648,6 +651,9 @@ PaintThebes
 gfxContext
 *
 aContext
+Layer
+*
+aMaskLayer
 LayerManager
 :
 :

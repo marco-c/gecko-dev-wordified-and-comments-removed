@@ -392,6 +392,9 @@ aCallback
 void
 *
 aCallbackData
+Layer
+*
+aMaskLayer
 )
 {
 mThebesLayer
@@ -1331,6 +1334,9 @@ PaintThebes
 gfxContext
 *
 aContext
+Layer
+*
+aMaskLayer
 LayerManager
 :
 :
@@ -1418,6 +1424,7 @@ mVisibleRegion
 regionToPaint
 aCallback
 aCallbackData
+aMaskLayer
 )
 ;
 mTiledBuffer
