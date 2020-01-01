@@ -456,11 +456,6 @@ nsHttpTransaction
 *
 )
 ;
-nsresult
-EnsureSocketThreadTargetIfOnline
-(
-)
-;
 typedef
 void
 (
