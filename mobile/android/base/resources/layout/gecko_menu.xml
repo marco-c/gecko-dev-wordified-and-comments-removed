@@ -71,13 +71,6 @@ string
 /
 reload
 "
-android
-:
-showAsAction
-=
-"
-ifRoom
-"
 /
 >
 <
@@ -141,13 +134,6 @@ title
 string
 /
 bookmark_add
-"
-android
-:
-showAsAction
-=
-"
-ifRoom
 "
 /
 >

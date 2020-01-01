@@ -1279,6 +1279,8 @@ style
 Gecko
 .
 Light
+.
+NoActionBar
 "
 android
 :
@@ -1340,6 +1342,17 @@ mozilla
 gecko
 .
 GeckoPreferences
+"
+android
+:
+theme
+=
+"
+style
+/
+Gecko
+.
+TitleBar
 "
 android
 :
