@@ -91,14 +91,14 @@ if
 (
 cfa_rule_
 .
-invalid
+isExprInvalid
 (
 )
 |
 |
 ra_rule_
 .
-invalid
+isExprInvalid
 (
 )
 )
@@ -366,7 +366,7 @@ if
 !
 cfa_rule_
 .
-invalid
+isExprInvalid
 (
 )
 )
@@ -389,7 +389,7 @@ if
 !
 ra_rule_
 .
-invalid
+isExprInvalid
 (
 )
 )
