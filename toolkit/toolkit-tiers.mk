@@ -767,9 +767,7 @@ parser
 \
 gfx
 \
-modules
-/
-libpr0n
+image
 \
 dom
 \
