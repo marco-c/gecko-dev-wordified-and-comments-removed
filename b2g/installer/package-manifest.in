@@ -1024,13 +1024,6 @@ BINPATH
 /
 components
 /
-dom_push
-.
-xpt
-BINPATH
-/
-components
-/
 dom_json
 .
 xpt
