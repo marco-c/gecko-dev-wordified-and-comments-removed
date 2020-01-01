@@ -1659,5 +1659,10 @@ unsigned
 long
 location
 ;
+readonly
+attribute
+DOMString
+key
+;
 }
 ;

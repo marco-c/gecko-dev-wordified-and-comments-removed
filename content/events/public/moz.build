@@ -123,6 +123,11 @@ nsAsyncDOMEvent
 h
 '
 '
+nsDOMKeyNameList
+.
+h
+'
+'
 nsEventDispatcher
 .
 h
