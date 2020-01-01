@@ -105,6 +105,7 @@ ctypes
 jsm
 "
 )
+;
 const
 Cc
 =
@@ -9612,6 +9613,9 @@ cancel
 )
 ;
 }
+getUpdatesDirectory
+:
+getUpdatesDir
 get
 isDownloading
 (
