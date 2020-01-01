@@ -312,6 +312,16 @@ Services
 appinfo
 .
 platformVersion
+null
+null
+null
+null
+null
+null
+null
+"
+false
+"
 )
 ;
 writeUpdatesToXMLFile

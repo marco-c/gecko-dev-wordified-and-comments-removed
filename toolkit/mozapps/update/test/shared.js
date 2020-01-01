@@ -147,6 +147,17 @@ never
 "
 ;
 const
+PREF_APP_UPDATE_PROMPTWAITTIME
+=
+"
+app
+.
+update
+.
+promptWaitTime
+"
+;
+const
 PREF_APP_UPDATE_SHOW_INSTALLED_UI
 =
 "
