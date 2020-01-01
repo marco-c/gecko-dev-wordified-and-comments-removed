@@ -1427,6 +1427,10 @@ browser_tabDrop
 .
 js
 \
+browser_lastAccessedTab
+.
+js
+\
 (
 NULL
 )
