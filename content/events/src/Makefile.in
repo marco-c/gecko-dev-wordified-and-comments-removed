@@ -177,10 +177,6 @@ nsDOMDeviceLightEvent
 .
 cpp
 \
-nsDOMDeviceOrientationEvent
-.
-cpp
-\
 nsDOMDeviceMotionEvent
 .
 cpp

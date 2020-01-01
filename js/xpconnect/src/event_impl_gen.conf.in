@@ -130,6 +130,9 @@ CloseEvent
 '
 MozContactChangeEvent
 '
+'
+DeviceOrientationEvent
+'
 ]
 "
 "
