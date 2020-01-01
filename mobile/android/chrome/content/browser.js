@@ -16629,6 +16629,11 @@ e
 )
 {
 }
+let
+stub
+=
+false
+;
 if
 (
 !
@@ -16653,6 +16658,10 @@ id
 aParams
 .
 tabID
+;
+stub
+=
+true
 ;
 }
 else
@@ -16822,6 +16831,9 @@ desktopMode
 isPrivate
 :
 isPrivate
+stub
+:
+stub
 }
 ;
 sendMessageToJava
