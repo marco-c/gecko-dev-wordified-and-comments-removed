@@ -36,6 +36,10 @@ kMediaConduitExternalRecordingError
 kMediaConduitRecordingError
 kMediaConduitExternalPlayoutError
 kMediaConduitPlayoutError
+kMediaConduitMTUError
+kMediaConduitRTCPStatusError
+kMediaConduitKeyFrameRequestError
+kMediaConduitNACKStatusError
 }
 ;
 }
