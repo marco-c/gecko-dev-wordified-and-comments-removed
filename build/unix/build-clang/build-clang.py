@@ -1,7 +1,7 @@
 llvm_revision
 =
 "
-166095
+167750
 "
 moz_version
 =
@@ -819,7 +819,9 @@ project
 /
 llvm
 /
-trunk
+branches
+/
+release_32
 "
            
 llvm_source_dir
@@ -845,7 +847,9 @@ project
 /
 cfe
 /
-trunk
+branches
+/
+release_32
 "
            
 clang_source_dir
@@ -873,7 +877,9 @@ compiler
 -
 rt
 /
-trunk
+branches
+/
+release_32
 "
            
 compiler_rt_source_dir
@@ -963,7 +969,7 @@ linux
 .
 patch
 "
-1
+0
 clang_source_dir
 )
 if
