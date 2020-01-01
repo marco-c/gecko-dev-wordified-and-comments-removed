@@ -1914,14 +1914,14 @@ function
 _dispatchTap
 (
 aType
-aMouseUpEvent
+aMouseEvent
 )
 {
 let
 modifiers
 =
 (
-aMouseUpEvent
+aMouseEvent
 .
 altKey
 ?
@@ -1935,7 +1935,7 @@ ALT_MASK
 )
 |
 (
-aMouseUpEvent
+aMouseEvent
 .
 ctrlKey
 ?
@@ -1949,7 +1949,7 @@ CONTROL_MASK
 )
 |
 (
-aMouseUpEvent
+aMouseEvent
 .
 shiftKey
 ?
@@ -1963,7 +1963,7 @@ SHIFT_MASK
 )
 |
 (
-aMouseUpEvent
+aMouseEvent
 .
 metaKey
 ?
@@ -2001,7 +2001,7 @@ event
 .
 clientX
 =
-aMouseUpEvent
+aMouseEvent
 .
 clientX
 ;
@@ -2009,7 +2009,7 @@ event
 .
 clientY
 =
-aMouseUpEvent
+aMouseEvent
 .
 clientY
 ;
@@ -2019,9 +2019,9 @@ modifiers
 =
 modifiers
 ;
-aMouseUpEvent
+aMouseEvent
 .
-target
+originalTarget
 .
 dispatchEvent
 (
