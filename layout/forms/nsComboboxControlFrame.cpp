@@ -398,13 +398,6 @@ nsPresState
 #
 define
 FIX_FOR_BUG_53259
-const
-int32_t
-kSizeNotSet
-=
--
-1
-;
 class
 nsComboButtonListener
 :
