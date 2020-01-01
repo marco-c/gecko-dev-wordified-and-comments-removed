@@ -2418,7 +2418,9 @@ pthread_attr_setstacksize
 (
 &
 attr
-PTHREAD_STACK_MIN
+256
+*
+1024
 )
 ;
 assert
