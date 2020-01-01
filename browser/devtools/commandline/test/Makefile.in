@@ -130,6 +130,10 @@ browser_cmd_restart
 .
 js
 \
+browser_cmd_screenshot
+.
+js
+\
 browser_cmd_settings
 .
 js
@@ -158,6 +162,10 @@ browser_dbg_cmd_break
 html
 \
 browser_dbg_cmd
+.
+html
+\
+browser_cmd_screenshot
 .
 html
 \
