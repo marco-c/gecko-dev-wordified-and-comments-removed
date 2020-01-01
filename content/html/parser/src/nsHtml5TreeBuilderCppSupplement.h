@@ -89,6 +89,13 @@ nsIStyleSheetLinkingElement
 .
 h
 "
+#
+include
+"
+nsTraceRefcnt
+.
+h
+"
 jArray
 <
 PRUnichar
@@ -151,6 +158,11 @@ headPointer
 nsnull
 )
 {
+MOZ_COUNT_CTOR
+(
+nsHtml5TreeBuilder
+)
+;
 }
 nsHtml5TreeBuilder
 :
@@ -160,6 +172,11 @@ nsHtml5TreeBuilder
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+nsHtml5TreeBuilder
+)
+;
 delete
 MARKER
 ;

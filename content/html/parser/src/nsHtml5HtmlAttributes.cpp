@@ -46,6 +46,13 @@ h
 #
 include
 "
+nsTraceRefcnt
+.
+h
+"
+#
+include
+"
 jArray
 .
 h
@@ -204,6 +211,11 @@ PRInt32
 )
 )
 {
+MOZ_COUNT_CTOR
+(
+nsHtml5HtmlAttributes
+)
+;
 }
 nsHtml5HtmlAttributes
 :
@@ -213,6 +225,11 @@ nsHtml5HtmlAttributes
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+nsHtml5HtmlAttributes
+)
+;
 clear
 (
 0

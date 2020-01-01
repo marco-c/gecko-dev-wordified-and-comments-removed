@@ -46,6 +46,13 @@ h
 #
 include
 "
+nsTraceRefcnt
+.
+h
+"
+#
+include
+"
 jArray
 .
 h
@@ -647,6 +654,11 @@ prefix
 prefix
 )
 {
+MOZ_COUNT_CTOR
+(
+nsHtml5AttributeName
+)
+;
 }
 nsHtml5AttributeName
 *
@@ -696,6 +708,11 @@ nsHtml5AttributeName
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+nsHtml5AttributeName
+)
+;
 nsHtml5Portability
 :
 :

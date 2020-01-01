@@ -1,3 +1,10 @@
+#
+include
+"
+nsTraceRefcnt
+.
+h
+"
 nsHtml5UTF16Buffer
 :
 :
@@ -32,6 +39,11 @@ key
 nsnull
 )
 {
+MOZ_COUNT_CTOR
+(
+nsHtml5UTF16Buffer
+)
+;
 }
 nsHtml5UTF16Buffer
 :
@@ -64,6 +76,11 @@ key
 key
 )
 {
+MOZ_COUNT_CTOR
+(
+nsHtml5UTF16Buffer
+)
+;
 }
 nsHtml5UTF16Buffer
 :
@@ -73,6 +90,11 @@ nsHtml5UTF16Buffer
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+nsHtml5UTF16Buffer
+)
+;
 delete
 [
 ]

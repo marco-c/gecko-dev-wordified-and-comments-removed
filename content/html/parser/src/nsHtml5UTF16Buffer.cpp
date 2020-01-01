@@ -46,6 +46,13 @@ h
 #
 include
 "
+nsTraceRefcnt
+.
+h
+"
+#
+include
+"
 jArray
 .
 h
@@ -189,6 +196,11 @@ end
 end
 )
 {
+MOZ_COUNT_CTOR
+(
+nsHtml5UTF16Buffer
+)
+;
 }
 PRInt32
 nsHtml5UTF16Buffer

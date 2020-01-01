@@ -26,6 +26,13 @@ nsEncoderDecoderUtils
 .
 h
 "
+#
+include
+"
+nsTraceRefcnt
+.
+h
+"
 static
 NS_DEFINE_CID
 (
@@ -78,6 +85,11 @@ PRInt32
 )
 )
 {
+MOZ_COUNT_CTOR
+(
+nsHtml5MetaScanner
+)
+;
 }
 nsHtml5MetaScanner
 :
@@ -87,6 +99,11 @@ nsHtml5MetaScanner
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+nsHtml5MetaScanner
+)
+;
 strBuf
 .
 release
