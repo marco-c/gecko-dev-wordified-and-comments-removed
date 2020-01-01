@@ -27737,12 +27737,12 @@ IsInnerWindow
 js
 :
 :
-DontNukeForGlobalObject
+DontNukeWindowReferences
 :
 js
 :
 :
-NukeForGlobalObject
+NukeWindowReferences
 )
 ;
 }

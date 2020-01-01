@@ -18461,7 +18461,7 @@ GetObjectCompartment
 sb
 )
 )
-NukeForGlobalObject
+NukeWindowReferences
 )
 ;
 return

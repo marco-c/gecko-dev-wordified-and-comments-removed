@@ -3305,12 +3305,12 @@ errorNumber
 ;
 typedef
 enum
-NukedGlobalHandling
+NukeReferencesToWindow
 {
-NukeForGlobalObject
-DontNukeForGlobalObject
+NukeWindowReferences
+DontNukeWindowReferences
 }
-NukedGlobalHandling
+NukeReferencesToWindow
 ;
 struct
 CompartmentFilter
@@ -3514,8 +3514,8 @@ const
 CompartmentFilter
 &
 targetFilter
-NukedGlobalHandling
-nukeGlobal
+NukeReferencesToWindow
+nukeReferencesToWindow
 )
 ;
 }
