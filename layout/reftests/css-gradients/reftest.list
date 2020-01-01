@@ -36,12 +36,6 @@ contentSameGfxBackendAsCanvas
 2
 88500
 )
-fails
--
-if
-(
-Android
-)
 =
 =
 linear
