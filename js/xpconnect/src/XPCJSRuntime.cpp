@@ -7373,6 +7373,10 @@ EmptyCString
 (
 )
 _path
+\
+nsIMemoryReporter
+:
+:
 _kind
 \
 nsIMemoryReporter
@@ -8686,9 +8690,6 @@ malloc
 heap
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_HEAP
 otherSundries
 "
@@ -9624,9 +9625,6 @@ asm
 js
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_HEAP
 asmJSHeap
 "
@@ -9681,9 +9679,6 @@ asm
 js
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_NONHEAP
 asmJSNonHeap
 "
@@ -10724,9 +10719,6 @@ malloc
 heap
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_HEAP
 otherSundries
 "
@@ -10986,9 +10978,6 @@ runtime
 object
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_HEAP
 rtStats
 .
@@ -11020,9 +11009,6 @@ atoms
 table
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_HEAP
 rtStats
 .
@@ -11052,9 +11038,6 @@ runtime
 contexts
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_HEAP
 rtStats
 .
@@ -11091,9 +11074,6 @@ runtime
 dtoa
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_HEAP
 rtStats
 .
@@ -11134,9 +11114,6 @@ runtime
 temporary
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_HEAP
 rtStats
 .
@@ -11179,9 +11156,6 @@ code
 ion
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_NONHEAP
 rtStats
 .
@@ -11219,9 +11193,6 @@ code
 baseline
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_NONHEAP
 rtStats
 .
@@ -11261,9 +11232,6 @@ asm
 js
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_NONHEAP
 rtStats
 .
@@ -11301,9 +11269,6 @@ code
 regexp
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_NONHEAP
 rtStats
 .
@@ -11341,9 +11306,6 @@ code
 other
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_NONHEAP
 rtStats
 .
@@ -11386,9 +11348,6 @@ code
 unused
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_NONHEAP
 rtStats
 .
@@ -11433,9 +11392,6 @@ regexp
 data
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_NONHEAP
 rtStats
 .
@@ -11470,9 +11426,6 @@ interpreter
 stack
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_HEAP
 rtStats
 .
@@ -11504,9 +11457,6 @@ gc
 marker
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_HEAP
 rtStats
 .
@@ -11542,9 +11492,6 @@ math
 cache
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_HEAP
 rtStats
 .
@@ -11576,9 +11523,6 @@ script
 data
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_HEAP
 rtStats
 .
@@ -11618,9 +11562,6 @@ script
 sources
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_HEAP
 rtStats
 .
@@ -13406,9 +13347,6 @@ runtime
 runtime
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_OTHER
 rtTotal
 "
@@ -13454,9 +13392,6 @@ unused
 chunks
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_OTHER
 rtStats
 .
@@ -13506,9 +13441,6 @@ unused
 arenas
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_OTHER
 rtStats
 .
@@ -13558,9 +13490,6 @@ chunk
 admin
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_OTHER
 rtStats
 .
@@ -13612,9 +13541,6 @@ unused
 chunks
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_OTHER
 rtStats
 .
@@ -13666,9 +13592,6 @@ unused
 arenas
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_OTHER
 rtStats
 .
@@ -13722,9 +13645,6 @@ gc
 things
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_OTHER
 rtStats
 .
@@ -13782,9 +13702,6 @@ chunk
 admin
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_OTHER
 rtStats
 .
@@ -13838,9 +13755,6 @@ arena
 admin
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_OTHER
 rtStats
 .
@@ -13896,9 +13810,6 @@ gc
 things
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_OTHER
 rtStats
 .
@@ -13937,9 +13848,6 @@ explicit
 xpconnect
 "
 )
-nsIMemoryReporter
-:
-:
 KIND_HEAP
 xpconnect
 "
