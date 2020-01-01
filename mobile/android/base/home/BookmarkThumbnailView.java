@@ -111,12 +111,6 @@ DEFAULT_COLOR
 0x46ECF0F3
 ;
 private
-boolean
-mShowBorder
-=
-true
-;
-private
 final
 float
 mStrokeWidth
@@ -295,7 +289,12 @@ canvas
 ;
 if
 (
-mShowBorder
+getBackground
+(
+)
+=
+=
+null
 )
 {
 sBorderPaint
@@ -375,10 +374,6 @@ setBackgroundDrawable
 (
 drawable
 )
-;
-mShowBorder
-=
-false
 ;
 }
 }
