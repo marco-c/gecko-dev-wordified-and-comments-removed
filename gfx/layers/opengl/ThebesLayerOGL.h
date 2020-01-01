@@ -198,7 +198,7 @@ void
 SetFrontBuffer
 (
 const
-ThebesBuffer
+OptionalThebesBuffer
 &
 aNewFront
 const
@@ -285,9 +285,6 @@ nsRefPtr
 ShadowBufferOGL
 >
 mBuffer
-;
-SurfaceDescriptor
-mDeadweight
 ;
 }
 ;

@@ -727,7 +727,7 @@ OpCreateThebesBuffer
 PLayer
 layer
 ;
-ThebesBuffer
+OptionalThebesBuffer
 initialFront
 ;
 nsIntRegion
