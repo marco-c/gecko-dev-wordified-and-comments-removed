@@ -31,6 +31,14 @@ endif
 namespace
 js
 {
+bool
+EnsureAsmJSSignalHandlersInstalled
+(
+JSRuntime
+*
+rt
+)
+;
 extern
 void
 TriggerOperationCallbackForAsmJSCode

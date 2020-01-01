@@ -2545,6 +2545,10 @@ runtime
 >
 triggerOperationCallback
 (
+JSRuntime
+:
+:
+TriggerCallbackAnyThreadDontStopIon
 )
 ;
 }

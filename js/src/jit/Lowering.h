@@ -1065,6 +1065,14 @@ ins
 )
 ;
 bool
+visitInterruptCheck
+(
+MInterruptCheck
+*
+ins
+)
+;
+bool
 visitCheckInterruptPar
 (
 MCheckInterruptPar

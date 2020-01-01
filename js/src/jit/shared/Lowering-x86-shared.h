@@ -79,14 +79,6 @@ ins
 )
 ;
 bool
-visitInterruptCheck
-(
-MInterruptCheck
-*
-ins
-)
-;
-bool
 visitGuardShape
 (
 MGuardShape
