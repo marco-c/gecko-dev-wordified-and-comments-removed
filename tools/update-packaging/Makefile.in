@@ -91,6 +91,10 @@ config
 autoconf
 .
 mk
+STANDALONE_MAKEFILE
+:
+=
+1
 #
 input
 location

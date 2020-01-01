@@ -69,9 +69,6 @@ srcdir
 VPATH
 =
 srcdir
-DIRS
-=
-stub
 include
 (
 DEPTH
