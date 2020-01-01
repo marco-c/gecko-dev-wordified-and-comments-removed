@@ -650,7 +650,7 @@ test_enumerate
 .
 html
 \
-test_npruntim_construct
+test_npruntime_construct
 .
 html
 \
