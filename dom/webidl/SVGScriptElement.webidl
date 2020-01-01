@@ -144,6 +144,9 @@ SVGScriptElement
 :
 SVGElement
 {
+[
+SetterThrows
+]
 attribute
 DOMString
 type
@@ -152,6 +155,9 @@ type
 /
 CORS
 attribute
+[
+SetterThrows
+]
 attribute
 DOMString
 crossOrigin
