@@ -572,6 +572,10 @@ MenuPopup
 .
 java
 \
+MotionEventInterceptor
+.
+java
+\
 MultiChoicePreference
 .
 java
