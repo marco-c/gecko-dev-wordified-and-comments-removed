@@ -315,6 +315,15 @@ mCache
 cache
 ;
 }
+PRInt64
+GetMtime
+(
+)
+{
+return
+mMtime
+;
+}
 protected
 :
 nsCOMPtr
