@@ -402,6 +402,16 @@ me
 <
 !
 ENTITY
+pref_telemetry
+"
+Send
+performance
+data
+"
+>
+<
+!
+ENTITY
 pref_homepage
 "
 Home
