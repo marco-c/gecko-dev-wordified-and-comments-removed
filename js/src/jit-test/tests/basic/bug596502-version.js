@@ -99,7 +99,10 @@ vno
 ;
 version
 (
+Number
+(
 vno
+)
 )
 ;
 assertEq
