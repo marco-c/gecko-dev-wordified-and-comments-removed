@@ -7783,7 +7783,7 @@ focusedNode
 focusedNode
 -
 >
-IsEqual
+IsEqualTo
 (
 aContent
 )
