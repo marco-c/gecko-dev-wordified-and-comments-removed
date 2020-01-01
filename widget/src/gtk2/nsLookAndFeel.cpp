@@ -1243,6 +1243,10 @@ aMetric
 return
 NS_OK
 ;
+default
+:
+break
+;
 }
 res
 =

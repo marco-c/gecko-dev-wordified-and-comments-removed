@@ -891,6 +891,8 @@ rv
 FILE
 *
 destPipe
+=
+NULL
 ;
 rv
 =

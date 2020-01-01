@@ -1413,10 +1413,10 @@ mSizeState
 PluginType
 mPluginType
 ;
-PRUint32
+PRInt32
 mTransparencyBitmapWidth
 ;
-PRUint32
+PRInt32
 mTransparencyBitmapHeight
 ;
 nsRefPtr
