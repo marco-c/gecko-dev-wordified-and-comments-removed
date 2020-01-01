@@ -78,7 +78,7 @@ nbytes
 )
 ;
 }
-private
+protected
 :
 void
 *
@@ -124,8 +124,6 @@ char
 *
 current_limit
 ;
-private
-:
 void
 *
 allocChunk

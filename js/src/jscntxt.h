@@ -445,6 +445,12 @@ CLS
 (
 VMAllocator
 )
+traceAlloc
+;
+CLS
+(
+VMAllocator
+)
 tempAlloc
 ;
 CLS
