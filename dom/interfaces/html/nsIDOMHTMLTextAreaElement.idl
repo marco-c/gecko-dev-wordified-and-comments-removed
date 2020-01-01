@@ -547,15 +547,15 @@ work
 scriptable
 uuid
 (
-a6cf9094
+7a403df9
 -
-15b3
+8911
 -
-11d2
+499b
 -
-932e
+afbf
 -
-00805f8add32
+98a1bbc20dd1
 )
 ]
 interface
@@ -585,6 +585,7 @@ DOMString
 accessKey
 ;
 attribute
+unsigned
 long
 cols
 ;
@@ -601,6 +602,7 @@ boolean
 readOnly
 ;
 attribute
+unsigned
 long
 rows
 ;
