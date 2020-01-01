@@ -10287,9 +10287,14 @@ css
 :
 URLValue
 (
-buffer
-baseURI
 uri
+buffer
+doc
+-
+>
+GetDocumentURI
+(
+)
 NodePrincipal
 (
 )
