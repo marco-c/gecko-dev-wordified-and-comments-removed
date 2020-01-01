@@ -124,6 +124,10 @@ PBrowser
 ;
 include
 protocol
+PCompositor
+;
+include
+protocol
 PCrashReporter
 ;
 include
@@ -419,6 +423,10 @@ rpc
 protocol
 PContent
 {
+parent
+opens
+PCompositor
+;
 manages
 PAudio
 ;
