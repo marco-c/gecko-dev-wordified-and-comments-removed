@@ -972,7 +972,7 @@ obj_ins
 )
 ;
 bool
-getpropfromval
+getprop
 (
 jsval
 &
