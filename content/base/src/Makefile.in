@@ -346,16 +346,6 @@ I
 topsrcdir
 )
 /
-js
-/
-ipc
-\
--
-I
-(
-topsrcdir
-)
-/
 image
 /
 src
