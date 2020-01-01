@@ -138,6 +138,10 @@ cpp
 (
 NULL
 )
+PARALLEL_DIRS
+:
+=
+test
 include
 (
 topsrcdir
