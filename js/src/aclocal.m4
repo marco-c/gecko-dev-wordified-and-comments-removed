@@ -202,7 +202,7 @@ android
 .
 m4
 )
-dn
+dnl
 MOZ_PROG_CHECKMSYS
 (
 )
