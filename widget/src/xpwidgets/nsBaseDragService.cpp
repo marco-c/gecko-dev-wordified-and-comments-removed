@@ -113,13 +113,6 @@ h
 #
 include
 "
-nsIScrollableView
-.
-h
-"
-#
-include
-"
 nsIDOMNode
 .
 h

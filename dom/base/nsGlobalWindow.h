@@ -408,7 +408,7 @@ class
 nsIDOMEvent
 ;
 class
-nsIScrollableView
+nsIScrollableFrame
 ;
 class
 nsIControllers
@@ -1823,13 +1823,10 @@ nsIWebBrowserChrome
 aBrowserChrome
 )
 ;
-nsresult
-GetScrollInfo
+nsIScrollableFrame
+*
+GetScrollFrame
 (
-nsIScrollableView
-*
-*
-aScrollableView
 )
 ;
 nsresult
