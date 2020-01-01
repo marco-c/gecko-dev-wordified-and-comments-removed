@@ -20700,6 +20700,10 @@ ParseNode
 pn
 )
 {
+AssertCanGC
+(
+)
+;
 RootedFunction
 fun
 (

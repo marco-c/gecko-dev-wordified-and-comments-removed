@@ -2515,6 +2515,10 @@ HandleFunction
 srcFun
 )
 {
+AssertCanGC
+(
+)
+;
 RootedFunction
 clone
 (
@@ -3315,6 +3319,10 @@ bool
 lambdaParen
 )
 {
+AssertCanGC
+(
+)
+;
 StringBuffer
 out
 (
@@ -7717,6 +7725,10 @@ AllocKind
 allocKind
 )
 {
+AssertCanGC
+(
+)
+;
 JS_ASSERT
 (
 parent

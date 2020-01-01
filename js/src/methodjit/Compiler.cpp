@@ -37261,6 +37261,10 @@ uint32_t
 index
 )
 {
+AssertCanGC
+(
+)
+;
 PropertyName
 *
 name
@@ -45447,6 +45451,10 @@ bool
 testUndefined
 )
 {
+AssertCanGC
+(
+)
+;
 if
 (
 !

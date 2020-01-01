@@ -1290,6 +1290,10 @@ StackShape
 child
 )
 {
+AssertCanGC
+(
+)
+;
 JS_ASSERT
 (
 !
@@ -2291,6 +2295,10 @@ bool
 allowDictionary
 )
 {
+AssertCanGC
+(
+)
+;
 JS_ASSERT_IF
 (
 !
@@ -4652,6 +4660,10 @@ Shape
 newShape
 )
 {
+AssertCanGC
+(
+)
+;
 JS_ASSERT
 (
 cx
@@ -6598,6 +6610,10 @@ HandleObject
 proto
 )
 {
+AssertCanGC
+(
+)
+;
 Class
 *
 clasp

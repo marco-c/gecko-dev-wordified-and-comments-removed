@@ -6109,6 +6109,10 @@ NewObjectKind
 newKind
 )
 {
+AssertCanGC
+(
+)
+;
 JS_ASSERT
 (
 clasp
@@ -9557,6 +9561,10 @@ b
 (
 cx
 bArg
+)
+;
+AssertCanGC
+(
 )
 ;
 JS_ASSERT
@@ -15349,6 +15357,10 @@ uint32_t
 slotp
 )
 {
+AssertCanGC
+(
+)
+;
 uint32_t
 slot
 =
@@ -17521,6 +17533,14 @@ MutableHandleType
 propp
 )
 {
+if
+(
+allowGC
+)
+AssertCanGC
+(
+)
+;
 typename
 MaybeRooted
 <

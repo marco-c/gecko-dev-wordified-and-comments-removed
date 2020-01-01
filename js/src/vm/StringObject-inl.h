@@ -28,6 +28,10 @@ HandleString
 str
 )
 {
+AssertCanGC
+(
+)
+;
 JS_ASSERT
 (
 gc

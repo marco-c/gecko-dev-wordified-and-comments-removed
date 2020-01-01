@@ -903,6 +903,10 @@ JSFunction
 target
 )
 {
+AssertCanGC
+(
+)
+;
 if
 (
 !
@@ -3696,6 +3700,10 @@ JSOp
 op
 )
 {
+AssertCanGC
+(
+)
+;
 if
 (
 js_CodeSpec
@@ -13504,6 +13512,10 @@ CallInfo
 callInfo
 )
 {
+AssertCanGC
+(
+)
+;
 JS_ASSERT
 (
 target
@@ -14736,6 +14748,10 @@ AutoObjectVector
 targets
 )
 {
+AssertCanGC
+(
+)
+;
 uint32_t
 callerUses
 =
@@ -19844,6 +19860,10 @@ bool
 constructing
 )
 {
+AssertCanGC
+(
+)
+;
 AutoObjectVector
 originals
 (
@@ -33420,6 +33440,10 @@ UnaryTypes
 unaryTypes
 )
 {
+AssertCanGC
+(
+)
+;
 JS_ASSERT
 (
 *

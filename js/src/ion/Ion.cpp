@@ -1602,6 +1602,10 @@ ExecutablePool
 pool
 )
 {
+AssertCanGC
+(
+)
+;
 IonCode
 *
 codeObj
@@ -5210,6 +5214,10 @@ cx
 #
 ifdef
 JS_THREADSAFE
+AssertCanGC
+(
+)
+;
 IonCompartment
 *
 ion
@@ -8013,6 +8021,10 @@ cx
 return
 Method_Error
 ;
+AssertCanGC
+(
+)
+;
 if
 (
 !
@@ -8064,6 +8076,10 @@ void
 jitcode
 )
 {
+AssertCanGC
+(
+)
+;
 JS_CHECK_RECURSION
 (
 cx
@@ -8557,6 +8573,10 @@ StackFrame
 fp
 )
 {
+AssertCanGC
+(
+)
+;
 RootedScript
 script
 (
@@ -8698,6 +8718,10 @@ jsbytecode
 pc
 )
 {
+AssertCanGC
+(
+)
+;
 RootedScript
 script
 (

@@ -1491,6 +1491,10 @@ idp
 )
 const
 {
+AssertCanGC
+(
+)
+;
 const
 Shape
 *
