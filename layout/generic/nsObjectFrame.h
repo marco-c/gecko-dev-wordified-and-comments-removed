@@ -226,16 +226,6 @@ eReplaced
 }
 virtual
 PRBool
-SupportsVisibilityHidden
-(
-)
-{
-return
-PR_FALSE
-;
-}
-virtual
-PRBool
 NeedsView
 (
 )
