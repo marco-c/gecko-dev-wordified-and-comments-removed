@@ -1310,7 +1310,7 @@ masm
 cx
 )
 ;
-JS_ASSERT
+JS_STATIC_ASSERT
 (
 ArgumentsRectifierReg
 =
