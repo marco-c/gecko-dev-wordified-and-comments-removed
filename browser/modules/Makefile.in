@@ -446,6 +446,10 @@ NetworkPrioritizer
 .
 jsm
 \
+NewTabUtils
+.
+jsm
+\
 offlineAppCache
 .
 jsm
