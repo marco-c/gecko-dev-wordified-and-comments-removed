@@ -438,7 +438,16 @@ JSHandleObject
 aObj
 JSHandleId
 aIdval
-JSMutableHandleValue
+JS
+:
+:
+MutableHandle
+<
+JS
+:
+:
+Value
+>
 aVp
 )
 {
