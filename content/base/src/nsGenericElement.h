@@ -2268,6 +2268,10 @@ PRBool
 aFireMutation
 PRBool
 aNotify
+const
+nsAString
+*
+aValueForAfterSetAttr
 )
 ;
 virtual

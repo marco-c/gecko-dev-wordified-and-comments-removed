@@ -4521,6 +4521,7 @@ newValue
 modification
 hasListeners
 PR_TRUE
+nsnull
 )
 ;
 }
