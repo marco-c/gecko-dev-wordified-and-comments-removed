@@ -1160,6 +1160,11 @@ ELT_TITLE
 static
 nsHtml5ElementName
 *
+ELT_TRACK
+;
+static
+nsHtml5ElementName
+*
 ELT_TSPAN
 ;
 static

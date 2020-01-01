@@ -6044,6 +6044,13 @@ small
 )
 HTML5_ATOM
 (
+track
+"
+track
+"
+)
+HTML5_ATOM
+(
 tspan
 "
 tspan

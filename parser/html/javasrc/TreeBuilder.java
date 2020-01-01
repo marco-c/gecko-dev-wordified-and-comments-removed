@@ -620,7 +620,7 @@ COMMAND
 final
 static
 int
-PARAM_OR_SOURCE
+PARAM_OR_SOURCE_OR_TRACK
 =
 55
 ;
@@ -9647,7 +9647,7 @@ reconstructTheActiveFormattingElements
 )
 ;
 case
-PARAM_OR_SOURCE
+PARAM_OR_SOURCE_OR_TRACK
 :
 appendVoidElementToCurrentMayFoster
 (
@@ -16248,7 +16248,7 @@ case
 AREA_OR_WBR
 :
 case
-PARAM_OR_SOURCE
+PARAM_OR_SOURCE_OR_TRACK
 :
 case
 EMBED_OR_IMG
