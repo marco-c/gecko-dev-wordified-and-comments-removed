@@ -26381,11 +26381,6 @@ typeSet_
 types
 )
 {
-setResultType
-(
-MIRType_Value
-)
-;
 setGuard
 (
 )

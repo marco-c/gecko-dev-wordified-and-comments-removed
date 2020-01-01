@@ -12858,7 +12858,7 @@ MInstruction
 *
 ins
 =
-MTypeBarrier
+MMonitorTypes
 :
 :
 New
@@ -12866,7 +12866,6 @@ New
 *
 pvalue
 types
-Bailout_Normal
 )
 ;
 current
@@ -12876,11 +12875,6 @@ add
 (
 ins
 )
-;
-*
-pvalue
-=
-ins
 ;
 return
 true
