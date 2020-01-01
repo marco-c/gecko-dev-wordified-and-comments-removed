@@ -27,18 +27,6 @@ string
 h
 >
 #
-ifdef
-XP_OS2_VACPP
-#
-include
-<
-direct
-.
-h
->
-#
-else
-#
 include
 <
 limits
@@ -66,8 +54,6 @@ io
 .
 h
 >
-#
-endif
 struct
 _MDLock
 _pr_ioq_lock

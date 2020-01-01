@@ -133,6 +133,12 @@ defined
 (
 AIX
 )
+|
+|
+defined
+(
+SYMBIAN
+)
 #
 include
 <

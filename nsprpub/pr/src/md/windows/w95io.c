@@ -1025,14 +1025,6 @@ bytes
 int
 rv
 ;
-PRThread
-*
-me
-=
-_PR_MD_CURRENT_THREAD
-(
-)
-;
 rv
 =
 WriteFile

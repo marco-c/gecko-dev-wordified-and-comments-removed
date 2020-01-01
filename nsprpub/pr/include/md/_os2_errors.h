@@ -431,9 +431,6 @@ err
 define
 _PR_MD_MAP_SHUTDOWN_ERROR
 _MD_os2_map_shutdown_error
-#
-ifndef
-XP_OS2_VACPP
 NSPR_API
 (
 void
@@ -448,8 +445,6 @@ err
 define
 _PR_MD_MAP_SOCKETPAIR_ERROR
 _MD_os2_map_socketpair_error
-#
-endif
 NSPR_API
 (
 void

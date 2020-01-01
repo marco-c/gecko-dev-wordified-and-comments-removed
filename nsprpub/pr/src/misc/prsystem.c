@@ -930,6 +930,12 @@ defined
 (
 RISCOS
 )
+|
+|
+defined
+(
+SYMBIAN
+)
 numCpus
 =
 1

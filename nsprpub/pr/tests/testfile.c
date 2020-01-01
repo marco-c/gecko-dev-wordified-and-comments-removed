@@ -91,9 +91,6 @@ os2
 h
 >
 #
-ifdef
-XP_OS2_EMX
-#
 include
 <
 getopt
@@ -107,8 +104,6 @@ errno
 .
 h
 >
-#
-endif
 #
 endif
 static
@@ -5050,7 +5045,7 @@ XP_UNIX
 |
 defined
 (
-XP_OS2_EMX
+XP_OS2
 )
 int
 opt
@@ -5076,7 +5071,7 @@ XP_UNIX
 |
 defined
 (
-XP_OS2_EMX
+XP_OS2
 )
 while
 (

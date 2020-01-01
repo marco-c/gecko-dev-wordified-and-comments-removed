@@ -3610,6 +3610,13 @@ defined
 (
 BSDI
 )
+\
+|
+|
+defined
+(
+SYMBIAN
+)
 #
 else
 union

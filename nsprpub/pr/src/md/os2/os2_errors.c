@@ -2770,9 +2770,6 @@ break
 ;
 }
 }
-#
-ifndef
-XP_OS2_VACPP
 void
 _MD_os2_map_socketpair_error
 (
@@ -2851,8 +2848,6 @@ return
 ;
 }
 }
-#
-endif
 void
 _MD_os2_map_getsockname_error
 (

@@ -112,6 +112,11 @@ PRCallOnceType
 once
 ;
 static
+const
+PRCallOnceType
+pristineCallOnce
+;
+static
 PRStatus
 InitializeArenas
 (
@@ -1534,6 +1539,10 @@ arenaLock
 NULL
 ;
 }
+once
+=
+pristineCallOnce
+;
 }
 #
 ifdef

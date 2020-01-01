@@ -410,7 +410,7 @@ c
 Tests
 dynamic
 library
-fucntions
+functions
 .
 Used
 with

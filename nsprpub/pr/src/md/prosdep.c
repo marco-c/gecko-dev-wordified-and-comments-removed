@@ -128,6 +128,10 @@ DARWIN
 |
 defined
 NEXTSTEP
+|
+|
+defined
+SYMBIAN
 _pr_pageSize
 =
 getpagesize

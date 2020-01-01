@@ -389,6 +389,13 @@ defined
 (
 OPENBSD
 )
+\
+|
+|
+defined
+(
+SYMBIAN
+)
 )
 #
 include

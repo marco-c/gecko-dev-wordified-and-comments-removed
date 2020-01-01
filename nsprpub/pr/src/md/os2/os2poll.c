@@ -1,7 +1,4 @@
 #
-ifdef
-XP_OS2_EMX
-#
 include
 <
 sys
@@ -10,8 +7,6 @@ time
 .
 h
 >
-#
-endif
 #
 include
 "

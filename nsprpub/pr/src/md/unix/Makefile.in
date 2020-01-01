@@ -525,9 +525,9 @@ OS_RELEASE
 ifeq
 (
 (
-OS_TEST
+CPU_ARCH
 )
-sun4u
+sparc
 )
 ifdef
 USE_64
@@ -693,9 +693,9 @@ OS_RELEASE
 ifeq
 (
 (
-OS_TEST
+CPU_ARCH
 )
-sun4u
+sparc
 )
 ifdef
 USE_64
