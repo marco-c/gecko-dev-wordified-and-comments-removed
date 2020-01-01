@@ -329,7 +329,7 @@ t1
 hasAttribute
 (
 "
-empty
+isempty
 "
 )
 "
@@ -340,7 +340,7 @@ value
 =
 >
 '
-empty
+isempty
 '
 attribute
 is
@@ -446,7 +446,7 @@ t1
 hasAttribute
 (
 "
-empty
+isempty
 "
 )
 "
@@ -455,7 +455,7 @@ present
 =
 >
 '
-empty
+isempty
 '
 attribute
 not

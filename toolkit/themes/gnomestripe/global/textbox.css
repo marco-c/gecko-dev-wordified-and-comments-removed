@@ -152,7 +152,7 @@ FieldText
 }
 textbox
 [
-empty
+isempty
 =
 "
 true
