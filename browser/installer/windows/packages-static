@@ -1359,6 +1359,13 @@ bin
 \
 components
 \
+nsDownloadManagerUI
+.
+js
+bin
+\
+components
+\
 nsProxyAutoConfig
 .
 js

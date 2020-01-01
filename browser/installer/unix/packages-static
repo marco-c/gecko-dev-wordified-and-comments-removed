@@ -1417,6 +1417,13 @@ bin
 /
 components
 /
+nsDownloadManagerUI
+.
+js
+bin
+/
+components
+/
 nsInterfaceInfoToIDL
 .
 js
