@@ -1784,6 +1784,7 @@ this
 url
 length
 lastmodified
+notifyData
 headers
 mimeType
 seekable
