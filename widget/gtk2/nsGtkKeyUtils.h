@@ -57,14 +57,6 @@ GdkEventKey
 aGdkKeyEvent
 )
 ;
-static
-guint
-GuessGDKKeyval
-(
-uint32_t
-aDOMKeyCode
-)
-;
 enum
 Modifier
 {
