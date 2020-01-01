@@ -2957,10 +2957,7 @@ mNode
 aEvent
 -
 >
-mAccessible
--
->
-GetWeakShell
+GetDocAccessible
 (
 )
 )

@@ -31,9 +31,9 @@ nsXULTextAccessible
 nsIContent
 *
 aContent
-nsIWeakReference
+nsDocAccessible
 *
-aShell
+aDoc
 )
 ;
 virtual
@@ -86,9 +86,9 @@ nsXULTooltipAccessible
 nsIContent
 *
 aContent
-nsIWeakReference
+nsDocAccessible
 *
-aShell
+aDoc
 )
 ;
 virtual
@@ -124,9 +124,9 @@ nsXULLinkAccessible
 nsIContent
 *
 aContent
-nsIWeakReference
+nsDocAccessible
 *
-aShell
+aDoc
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
