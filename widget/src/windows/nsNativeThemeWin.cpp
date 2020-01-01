@@ -6466,7 +6466,7 @@ aResult
 >
 bottom
 =
-1
+2
 ;
 aResult
 -
@@ -6478,7 +6478,7 @@ aResult
 >
 right
 =
-1
+2
 ;
 return
 PR_TRUE
