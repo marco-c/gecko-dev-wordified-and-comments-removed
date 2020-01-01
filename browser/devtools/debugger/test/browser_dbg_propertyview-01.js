@@ -492,12 +492,6 @@ gDebugger
 .
 SourceScripts
 ;
-ss
-.
-onScriptsCleared
-(
-)
-;
 is
 (
 ss
