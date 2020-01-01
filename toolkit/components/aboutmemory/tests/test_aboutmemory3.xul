@@ -1079,7 +1079,7 @@ document
 getElementById
 (
 "
-fileInput
+filePickerInput
 "
 )
 ;
@@ -1717,9 +1717,6 @@ missing
 hasMozMallocUsableSize
 '
 property
-\
-n
-\
 "
 ;
 let
