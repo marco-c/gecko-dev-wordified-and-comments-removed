@@ -5198,12 +5198,6 @@ varobj
 cx
 )
 ;
-uint32
-old
-;
-bool
-doSet
-;
 jsid
 id
 =
@@ -5249,6 +5243,7 @@ THROW
 (
 )
 ;
+bool
 doSet
 =
 false
