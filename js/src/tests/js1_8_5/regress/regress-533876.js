@@ -7,6 +7,11 @@ regress
 '
 ;
 var
+savedEval
+=
+eval
+;
+var
 x
 =
 [
@@ -40,6 +45,10 @@ eval
 gc
 (
 )
+;
+eval
+=
+savedEval
 ;
 var
 f
