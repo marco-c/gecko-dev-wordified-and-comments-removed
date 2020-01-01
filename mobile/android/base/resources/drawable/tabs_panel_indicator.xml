@@ -130,9 +130,11 @@ android
 drawable
 =
 "
+android
+:
 color
 /
-tab_indicator_unselected
+transparent
 "
 /
 >
@@ -200,7 +202,7 @@ drawable
 "
 color
 /
-tab_indicator_unselected_focused
+highlight_dark_focused
 "
 /
 >
