@@ -327,6 +327,9 @@ mCumulativeMagnification
 float
 mCumulativeRotation
 ;
+BOOL
+mDidForceRefreshOpenGL
+;
 }
 +
 (
