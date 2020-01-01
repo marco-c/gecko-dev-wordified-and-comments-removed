@@ -185,10 +185,10 @@ WebGLQuery
 )
 private
 :
-WebGLuint
+GLuint
 mGLName
 ;
-WebGLenum
+GLenum
 mType
 ;
 friend

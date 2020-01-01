@@ -75,7 +75,7 @@ WebGLContext
 :
 Disable
 (
-WebGLenum
+GLenum
 cap
 )
 {
@@ -140,7 +140,7 @@ WebGLContext
 :
 Enable
 (
-WebGLenum
+GLenum
 cap
 )
 {
@@ -272,7 +272,7 @@ GetParameter
 JSContext
 *
 cx
-WebGLenum
+GLenum
 pname
 ErrorResult
 &
@@ -480,7 +480,7 @@ LOCAL_GL_DRAW_BUFFER0
 &
 pname
 <
-WebGLenum
+GLenum
 (
 LOCAL_GL_DRAW_BUFFER0
 +
@@ -2014,9 +2014,9 @@ GetParameterIndexed
 JSContext
 *
 cx
-WebGLenum
+GLenum
 pname
-WebGLuint
+GLuint
 index
 )
 {
@@ -2119,7 +2119,7 @@ WebGLContext
 :
 IsEnabled
 (
-WebGLenum
+GLenum
 cap
 )
 {
@@ -2167,7 +2167,7 @@ WebGLContext
 :
 ValidateCapabilityEnum
 (
-WebGLenum
+GLenum
 cap
 const
 char
@@ -2238,7 +2238,7 @@ WebGLContext
 :
 GetStateTrackingSlot
 (
-WebGLenum
+GLenum
 cap
 )
 {

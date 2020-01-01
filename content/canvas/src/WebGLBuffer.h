@@ -226,7 +226,7 @@ update_size_in_bytes
 bool
 Validate
 (
-WebGLenum
+GLenum
 type
 uint32_t
 max_allowed
@@ -292,7 +292,7 @@ WebGLBuffer
 )
 protected
 :
-WebGLuint
+GLuint
 mGLName
 ;
 bool

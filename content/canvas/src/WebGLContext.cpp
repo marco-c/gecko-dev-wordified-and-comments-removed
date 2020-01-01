@@ -5414,7 +5414,7 @@ char
 info
 )
 {
-WebGLenum
+GLenum
 status
 =
 CheckFramebufferStatus

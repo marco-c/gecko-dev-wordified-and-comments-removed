@@ -116,7 +116,7 @@ Clear
 )
 ;
 }
-WebGLuint
+GLuint
 GLName
 (
 )
@@ -381,7 +381,7 @@ mActiveAttribMap
 ;
 protected
 :
-WebGLuint
+GLuint
 mGLName
 ;
 bool

@@ -674,9 +674,9 @@ mHeight
 }
 WebGLRectangleObject
 (
-WebGLsizei
+GLsizei
 width
-WebGLsizei
+GLsizei
 height
 )
 :
@@ -690,7 +690,7 @@ height
 )
 {
 }
-WebGLsizei
+GLsizei
 Width
 (
 )
@@ -703,7 +703,7 @@ mWidth
 void
 width
 (
-WebGLsizei
+GLsizei
 value
 )
 {
@@ -712,7 +712,7 @@ mWidth
 value
 ;
 }
-WebGLsizei
+GLsizei
 Height
 (
 )
@@ -725,7 +725,7 @@ mHeight
 void
 height
 (
-WebGLsizei
+GLsizei
 value
 )
 {
@@ -737,9 +737,9 @@ value
 void
 setDimensions
 (
-WebGLsizei
+GLsizei
 width
-WebGLsizei
+GLsizei
 height
 )
 {
@@ -833,10 +833,10 @@ Height
 }
 protected
 :
-WebGLsizei
+GLsizei
 mWidth
 ;
-WebGLsizei
+GLsizei
 mHeight
 ;
 }

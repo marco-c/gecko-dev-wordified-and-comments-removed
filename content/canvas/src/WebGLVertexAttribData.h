@@ -57,13 +57,13 @@ WebGLBuffer
 >
 buf
 ;
-WebGLuint
+GLuint
 stride
 ;
-WebGLuint
+GLuint
 size
 ;
-WebGLuint
+GLuint
 divisor
 ;
 GLuint

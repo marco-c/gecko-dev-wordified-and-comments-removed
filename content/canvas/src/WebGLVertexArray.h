@@ -149,7 +149,7 @@ mHasEverBeenBound
 x
 ;
 }
-WebGLuint
+GLuint
 GLName
 (
 )
@@ -162,7 +162,7 @@ mGLName
 bool
 EnsureAttribIndex
 (
-WebGLuint
+GLuint
 index
 const
 char
@@ -172,7 +172,7 @@ info
 ;
 private
 :
-WebGLuint
+GLuint
 mGLName
 ;
 bool

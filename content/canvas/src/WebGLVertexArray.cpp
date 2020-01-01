@@ -170,7 +170,7 @@ WebGLVertexArray
 :
 EnsureAttribIndex
 (
-WebGLuint
+GLuint
 index
 const
 char
@@ -183,7 +183,7 @@ if
 index
 >
 =
-WebGLuint
+GLuint
 (
 mContext
 -
@@ -197,7 +197,7 @@ if
 index
 =
 =
-WebGLuint
+GLuint
 (
 -
 1
