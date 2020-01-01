@@ -103,6 +103,17 @@ Body
 ENTITY
 networkPanel
 .
+responseBodyCached
+"
+Cached
+Data
+"
+>
+<
+!
+ENTITY
+networkPanel
+.
 responseNoBody
 "
 No
