@@ -276,6 +276,11 @@ sInnerEventLoopDepth
 endif
 private
 :
+bool
+EventOccurred
+(
+)
+;
 void
 MaybeProcessDeferredIncall
 (
