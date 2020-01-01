@@ -3834,6 +3834,10 @@ SetValue
 value
 )
 ;
+mUseEditor
+=
+PR_TRUE
+;
 }
 mEditor
 -
@@ -4033,6 +4037,10 @@ nsnull
 }
 }
 }
+mUseEditor
+=
+PR_FALSE
+;
 mEditor
 =
 nsnull
