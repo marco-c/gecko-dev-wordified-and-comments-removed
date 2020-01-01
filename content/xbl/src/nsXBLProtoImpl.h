@@ -309,7 +309,7 @@ mClassName
 ;
 protected
 :
-void
+JSObject
 *
 mClassObject
 ;
