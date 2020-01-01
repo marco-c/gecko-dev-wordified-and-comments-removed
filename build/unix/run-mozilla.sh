@@ -2351,6 +2351,7 @@ MRE_HOME
 }
 {
 LD_LIBRARY_PATH
+:
 +
 "
 :
@@ -2384,6 +2385,7 @@ MRE_HOME
 }
 {
 LD_LIBRARYN32_PATH
+:
 +
 "
 :
@@ -2417,6 +2419,7 @@ MRE_HOME
 }
 {
 LD_LIBRARYN64_PATH
+:
 +
 "
 :
@@ -2451,6 +2454,7 @@ MRE_HOME
 }
 {
 LD_LIBRARY_PATH_64
+:
 +
 "
 :
@@ -2477,6 +2481,7 @@ MRE_HOME
 }
 {
 SHLIB_PATH
+:
 +
 "
 :
@@ -2501,6 +2506,7 @@ MRE_HOME
 }
 {
 LIBPATH
+:
 +
 "
 :
@@ -2530,6 +2536,7 @@ MRE_HOME
 }
 {
 DYLD_LIBRARY_PATH
+:
 +
 "
 :
@@ -2560,6 +2567,7 @@ MRE_HOME
 }
 {
 LIBRARY_PATH
+:
 +
 "
 :
@@ -2580,6 +2588,7 @@ MOZ_DIST_BIN
 }
 {
 ADDON_PATH
+:
 +
 "
 :
