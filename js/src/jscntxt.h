@@ -293,8 +293,7 @@ JSContext
 *
 cx
 ;
-JSObject
-*
+RootedObject
 obj
 ;
 bool
@@ -317,9 +316,8 @@ AutoCycleDetector
 JSContext
 *
 cx
-JSObject
-*
-obj
+HandleObject
+objArg
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
@@ -329,7 +327,8 @@ cx
 )
 obj
 (
-obj
+cx
+objArg
 )
 cyclic
 (
