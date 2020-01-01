@@ -28,6 +28,11 @@ h
 >
 #
 include
+<
+cctype
+>
+#
+include
 "
 lcms
 .
