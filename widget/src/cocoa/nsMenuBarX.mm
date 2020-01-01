@@ -5321,6 +5321,7 @@ NS_OK
 nsIMutationObserver
 /
 /
+void
 nsMenuBarX
 :
 :
