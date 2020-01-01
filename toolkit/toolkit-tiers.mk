@@ -668,6 +668,15 @@ testing
 /
 specialpowers
 endif
+ifdef
+MOZ_ENABLE_GTEST
+tier_platform_dirs
++
+=
+testing
+/
+gtest
+endif
 tier_platform_dirs
 +
 =

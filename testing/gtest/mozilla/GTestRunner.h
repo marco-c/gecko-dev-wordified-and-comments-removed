@@ -1,0 +1,9 @@
+namespace
+mozilla
+{
+int
+RunGTest
+(
+)
+;
+}

@@ -1062,6 +1062,13 @@ thebes
 gl
 ycbcr
 ifdef
+MOZ_ENABLE_GTEST
+COMPONENT_LIBS
++
+=
+gtest
+endif
+ifdef
 MOZ_ENABLE_PROFILER_SPS
 COMPONENT_LIBS
 +
