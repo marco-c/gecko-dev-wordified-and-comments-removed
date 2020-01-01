@@ -764,8 +764,7 @@ FORCE_STATIC_LIB
 1
 ifdef
 ENABLE_TESTS
-DIRS
-+
+TOOL_DIRS
 =
 test
 endif
