@@ -2042,7 +2042,7 @@ return
 NS_OK
 ;
 }
-PRUint64
+uint64_t
 location
 ;
 if
