@@ -7,6 +7,15 @@ jsproxy_h
 #
 include
 "
+mozilla
+/
+Maybe
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h

@@ -187,6 +187,10 @@ MathAlgorithms
 .
 h
 \
+Maybe
+.
+h
+\
 MemoryChecking
 .
 h
