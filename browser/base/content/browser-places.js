@@ -1535,9 +1535,7 @@ focus
 ;
 namePicker
 .
-editor
-.
-selectAll
+select
 (
 )
 ;
