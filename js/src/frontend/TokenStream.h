@@ -98,8 +98,7 @@ TokenKind
 {
 TOK_ERROR
 =
--
-1
+0
 TOK_EOF
 TOK_EOL
 TOK_SEMI
