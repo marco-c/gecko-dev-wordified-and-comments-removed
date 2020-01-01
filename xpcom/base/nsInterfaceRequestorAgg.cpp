@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsIInterfaceRequestor
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

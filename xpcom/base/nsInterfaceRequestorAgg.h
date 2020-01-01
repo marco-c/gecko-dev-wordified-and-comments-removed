@@ -7,15 +7,12 @@ nsInterfaceRequestorAgg_h__
 #
 include
 "
-nsError
+nsIInterfaceRequestor
 .
 h
 "
 class
 nsIEventTarget
-;
-class
-nsIInterfaceRequestor
 ;
 extern
 nsresult

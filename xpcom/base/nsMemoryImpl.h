@@ -27,6 +27,13 @@ nsIRunnable
 .
 h
 "
+#
+include
+"
+prtime
+.
+h
+"
 class
 nsMemoryImpl
 :
