@@ -2560,7 +2560,7 @@ src
 }
 #
 if
-1
+0
 static
 void
 fast_composite_over_8888_0888
@@ -5221,7 +5221,7 @@ d
 }
 #
 if
-0
+1
 static
 force_inline
 void
