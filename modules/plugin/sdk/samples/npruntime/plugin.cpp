@@ -1608,11 +1608,11 @@ result
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1661,7 +1661,7 @@ result
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 CPlugin
@@ -1683,7 +1683,7 @@ NULL
 )
 m_bInitialized
 (
-FALSE
+false
 )
 m_pScriptableObject
 (
@@ -2473,7 +2473,7 @@ pNPWindow
 NULL
 )
 return
-FALSE
+false
 ;
 #
 ifdef
@@ -2496,7 +2496,7 @@ m_hWnd
 NULL
 )
 return
-FALSE
+false
 ;
 lpOldProc
 =
@@ -2527,10 +2527,10 @@ pNPWindow
 ;
 m_bInitialized
 =
-TRUE
+true
 ;
 return
-TRUE
+true
 ;
 }
 void
@@ -2558,7 +2558,7 @@ NULL
 endif
 m_bInitialized
 =
-FALSE
+false
 ;
 }
 NPBool
@@ -2698,7 +2698,7 @@ InvalidateRect
 (
 m_hWnd
 NULL
-TRUE
+true
 )
 ;
 UpdateWindow
@@ -2792,7 +2792,7 @@ InvalidateRect
 (
 m_hWnd
 NULL
-TRUE
+true
 )
 ;
 UpdateWindow
