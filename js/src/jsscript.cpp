@@ -7303,6 +7303,14 @@ compressed
 :
 0
 ;
+n
++
+=
+mallocSizeOf
+(
+filename_
+)
+;
 return
 n
 ;
