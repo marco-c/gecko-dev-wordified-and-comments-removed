@@ -1744,6 +1744,10 @@ get
 }
 }
 ;
+typedef
+GCCompartmentsIter
+GCZonesIter
+;
 class
 GCCompartmentGroupIter
 {
@@ -1862,6 +1866,10 @@ get
 ;
 }
 }
+;
+typedef
+GCCompartmentGroupIter
+GCZoneGroupIter
 ;
 template
 <

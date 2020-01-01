@@ -2883,6 +2883,10 @@ get
 }
 }
 ;
+typedef
+CompartmentsIter
+ZonesIter
+;
 struct
 WrapperValue
 {
