@@ -13899,7 +13899,10 @@ push
 (
 BooleanValue
 (
-false
+op
+=
+=
+JSOP_STRICTNE
 )
 )
 ;
