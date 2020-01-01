@@ -1279,6 +1279,17 @@ onget
 return
 this
 .
+hasAttribute
+(
+'
+empty
+'
+)
+?
+0
+:
+this
+.
 inputField
 .
 textLength
