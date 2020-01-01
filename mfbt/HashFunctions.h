@@ -46,7 +46,7 @@ GoldenRatioU32
 ;
 inline
 uint32_t
-RotateLeft32
+RotateBitsLeft32
 (
 uint32_t
 value
@@ -98,7 +98,7 @@ return
 GoldenRatioU32
 *
 (
-RotateLeft32
+RotateBitsLeft32
 (
 hash
 5
