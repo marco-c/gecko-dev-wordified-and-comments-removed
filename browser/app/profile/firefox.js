@@ -9447,7 +9447,7 @@ toolbox
 .
 sideEnabled
 "
-false
+true
 )
 ;
 pref
