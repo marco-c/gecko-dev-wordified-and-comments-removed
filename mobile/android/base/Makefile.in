@@ -1638,6 +1638,14 @@ res
 /
 layout
 /
+tabs_panel_toolbar
+.
+xml
+\
+res
+/
+layout
+/
 tabs_row
 .
 xml
@@ -1784,7 +1792,7 @@ layout
 -
 xlarge
 /
-tabs_panel
+tabs_panel_toolbar
 .
 xml
 \
@@ -1850,7 +1858,7 @@ layout
 -
 sw600dp
 /
-tabs_panel
+tabs_panel_toolbar
 .
 xml
 \
