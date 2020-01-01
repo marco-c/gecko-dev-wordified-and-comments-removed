@@ -27,6 +27,9 @@ nsBoxLayoutState
 class
 nsRenderingContext
 ;
+class
+nsIGridPart
+;
 struct
 nsRect
 ;
@@ -220,6 +223,15 @@ aBox
 nsBoxLayoutState
 &
 aState
+)
+=
+0
+;
+virtual
+nsIGridPart
+*
+AsGridPart
+(
 )
 =
 0

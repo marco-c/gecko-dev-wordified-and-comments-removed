@@ -104,7 +104,8 @@ nsnull
 0
 ;
 virtual
-void
+nsIGridPart
+*
 GetParentGridPart
 (
 nsIBox
@@ -114,10 +115,6 @@ nsIBox
 *
 *
 aParentBox
-nsIGridPart
-*
-*
-aParentGridRow
 )
 =
 0
