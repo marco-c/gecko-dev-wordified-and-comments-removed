@@ -680,7 +680,7 @@ MAKE_CAB
 PYTHON
 )
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 build

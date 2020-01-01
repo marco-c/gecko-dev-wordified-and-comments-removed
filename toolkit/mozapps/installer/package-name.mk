@@ -1261,7 +1261,7 @@ shell
 PYTHON
 )
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 config
@@ -1290,7 +1290,7 @@ shell
 PYTHON
 )
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 config
