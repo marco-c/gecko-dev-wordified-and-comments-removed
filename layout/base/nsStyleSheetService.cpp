@@ -138,7 +138,7 @@ public
 mozilla
 :
 :
-MemoryUniReporter
+MemoryReporterBase
 {
 public
 :
@@ -146,7 +146,7 @@ LayoutStyleSheetServiceReporter
 (
 )
 :
-MemoryUniReporter
+MemoryReporterBase
 (
 "
 explicit

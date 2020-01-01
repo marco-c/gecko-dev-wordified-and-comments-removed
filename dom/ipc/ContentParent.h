@@ -557,7 +557,7 @@ IsForApp
 )
 ;
 void
-SetChildMemoryReports
+SetChildMemoryReporters
 (
 const
 InfallibleTArray
@@ -565,11 +565,11 @@ InfallibleTArray
 MemoryReport
 >
 &
-childReports
+report
 )
 ;
 void
-UnregisterChildMemoryReporter
+ClearChildMemoryReporters
 (
 )
 ;
@@ -1879,11 +1879,11 @@ mChildID
 int32_t
 mGeolocationWatchID
 ;
-nsCOMPtr
+nsCOMArray
 <
 nsIMemoryReporter
 >
-mChildReporter
+mMemoryReporters
 ;
 nsString
 mAppManifestURL

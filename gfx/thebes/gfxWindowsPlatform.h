@@ -164,7 +164,7 @@ class
 IDXGIAdapter1
 ;
 class
-nsIMemoryReporter
+nsIMemoryMultiReporter
 ;
 struct
 DCFromContext
@@ -1187,9 +1187,9 @@ gfxFontEntry
 >
 mPrefFonts
 ;
-nsIMemoryReporter
+nsIMemoryMultiReporter
 *
-mGPUAdapterReporter
+mGPUAdapterMultiReporter
 ;
 }
 ;

@@ -205,19 +205,19 @@ namespace
 storage
 {
 class
-StorageSQLiteUniReporter
+StorageSQLiteReporter
 MOZ_FINAL
 :
 public
-MemoryUniReporter
+MemoryReporterBase
 {
 public
 :
-StorageSQLiteUniReporter
+StorageSQLiteReporter
 (
 )
 :
-MemoryUniReporter
+MemoryReporterBase
 (
 "
 storage
@@ -259,7 +259,7 @@ StorageSQLiteMultiReporter
 MOZ_FINAL
 :
 public
-nsIMemoryReporter
+nsIMemoryMultiReporter
 {
 private
 :
@@ -389,8 +389,6 @@ AssignLiteral
 storage
 -
 sqlite
--
-multi
 "
 )
 ;
@@ -401,7 +399,7 @@ NS_OK
 NS_IMETHOD
 CollectReports
 (
-nsIMemoryReporterCallback
+nsIMemoryMultiReporterCallback
 *
 aCb
 nsISupports
@@ -701,7 +699,7 @@ private
 nsresult
 reportConn
 (
-nsIMemoryReporterCallback
+nsIMemoryMultiReporterCallback
 *
 aCb
 nsISupports
@@ -840,7 +838,7 @@ NS_OK
 NS_IMPL_ISUPPORTS1
 (
 StorageSQLiteMultiReporter
-nsIMemoryReporter
+nsIMemoryMultiReporter
 )
 NS_IMPL_ISUPPORTS2
 (
@@ -1207,7 +1205,7 @@ void
 :
 NS_UnregisterMemoryReporter
 (
-mStorageSQLiteUniReporter
+mStorageSQLiteReporter
 )
 ;
 (
@@ -1215,7 +1213,7 @@ void
 )
 :
 :
-NS_UnregisterMemoryReporter
+NS_UnregisterMemoryMultiReporter
 (
 mStorageSQLiteMultiReporter
 )
@@ -1941,10 +1939,10 @@ PREF_TS_PAGESIZE
 PREF_TS_PAGESIZE_DEFAULT
 )
 ;
-mStorageSQLiteUniReporter
+mStorageSQLiteReporter
 =
 new
-StorageSQLiteUniReporter
+StorageSQLiteReporter
 (
 )
 ;
@@ -1963,7 +1961,7 @@ void
 :
 NS_RegisterMemoryReporter
 (
-mStorageSQLiteUniReporter
+mStorageSQLiteReporter
 )
 ;
 (
@@ -1971,7 +1969,7 @@ void
 )
 :
 :
-NS_RegisterMemoryReporter
+NS_RegisterMemoryMultiReporter
 (
 mStorageSQLiteMultiReporter
 )
