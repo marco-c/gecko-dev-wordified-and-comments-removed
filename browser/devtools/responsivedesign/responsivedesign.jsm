@@ -418,11 +418,8 @@ container
 querySelector
 (
 "
-[
-anonid
-=
+.
 browserStack
-]
 "
 )
 ;
