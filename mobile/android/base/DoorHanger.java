@@ -787,11 +787,7 @@ View
 view
 )
 {
-Tabs
-.
-getInstance
-(
-)
+mActivity
 .
 loadUrlInTab
 (

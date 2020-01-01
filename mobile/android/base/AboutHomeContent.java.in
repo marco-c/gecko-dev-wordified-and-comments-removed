@@ -3628,11 +3628,7 @@ View
 v
 )
 {
-Tabs
-.
-getInstance
-(
-)
+mActivity
 .
 loadUrlInTab
 (
@@ -3717,11 +3713,7 @@ url
 :
 lastTabUrlsList
 )
-Tabs
-.
-getInstance
-(
-)
+mActivity
 .
 loadUrlInTab
 (
