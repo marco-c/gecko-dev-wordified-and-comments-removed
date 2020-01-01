@@ -1231,6 +1231,10 @@ browser_social_chatwindow
 .
 js
 \
+browser_social_usageMonitor
+.
+js
+\
 social_panel
 .
 html
