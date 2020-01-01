@@ -1210,7 +1210,7 @@ SVGAnimatedPreserveAspectRatio
 :
 ToDOMAnimatedPreserveAspectRatio
 (
-nsISupports
+DOMSVGAnimatedPreserveAspectRatio
 *
 *
 aResult

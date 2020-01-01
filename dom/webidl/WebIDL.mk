@@ -475,6 +475,10 @@ SVGGraphicsElement
 .
 webidl
 \
+SVGImageElement
+.
+webidl
+\
 SVGLengthList
 .
 webidl

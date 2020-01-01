@@ -233,10 +233,6 @@ nsSVGGradientElement
 .
 cpp
 \
-nsSVGImageElement
-.
-cpp
-\
 nsSVGInteger
 .
 cpp
@@ -398,6 +394,10 @@ SVGGElement
 cpp
 \
 SVGGraphicsElement
+.
+cpp
+\
+SVGImageElement
 .
 cpp
 \
@@ -667,6 +667,10 @@ SVGGElement
 h
 \
 SVGGraphicsElement
+.
+h
+\
+SVGImageElement
 .
 h
 \
