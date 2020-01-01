@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsISVGSVGElement
-.
-h
-"
-#
-include
-"
 nsSVGForeignObjectElement
 .
 h

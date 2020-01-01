@@ -64,13 +64,6 @@ h
 #
 include
 "
-nsISVGSVGElement
-.
-h
-"
-#
-include
-"
 nsSVGStylableElement
 .
 h

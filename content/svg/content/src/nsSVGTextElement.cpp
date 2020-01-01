@@ -43,13 +43,6 @@ h
 #
 include
 "
-nsISVGSVGElement
-.
-h
-"
-#
-include
-"
 nsSVGSVGElement
 .
 h

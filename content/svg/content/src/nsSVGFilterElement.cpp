@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsISVGSVGElement
-.
-h
-"
-#
-include
-"
 nsSVGAnimatedEnumeration
 .
 h

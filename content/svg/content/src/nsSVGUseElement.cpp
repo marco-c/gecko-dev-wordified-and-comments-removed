@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsISVGSVGElement
-.
-h
-"
-#
-include
-"
 nsIDOMSVGAnimatedString
 .
 h
