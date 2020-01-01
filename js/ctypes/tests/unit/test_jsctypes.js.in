@@ -1969,9 +1969,9 @@ do_check_eq
 (
 test_i64_i64
 (
-0x7ffffffffffffc00
+0x7ffffffffffff000
 )
-0x7ffffffffffffc00
+0x7ffffffffffff000
 )
 ;
 do_check_eq
@@ -2215,9 +2215,9 @@ do_check_eq
 (
 test_ui64_ui64
 (
-0xfffffffffffff800
+0xfffffffffffff000
 )
-0xfffffffffffff800
+0xfffffffffffff000
 )
 ;
 do_check_throws
