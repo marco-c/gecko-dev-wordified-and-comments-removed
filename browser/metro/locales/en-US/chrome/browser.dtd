@@ -148,17 +148,6 @@ Results
 <
 !
 ENTITY
-autocompleteSearchesHeader
-.
-label
-"
-Internet
-Searches
-"
->
-<
-!
-ENTITY
 appbarErrorConsole
 .
 label
