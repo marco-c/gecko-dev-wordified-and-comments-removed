@@ -95,6 +95,10 @@ test_bug808374
 .
 html
 \
+test_bug827541
+.
+html
+\
 test_AudioBuffer
 .
 html
