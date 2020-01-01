@@ -752,7 +752,7 @@ private
 :
 nsAutoTArray
 <
-uint8_t
+uint16_t
 8
 >
 mOrder

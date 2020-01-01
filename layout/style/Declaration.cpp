@@ -38,7 +38,7 @@ eCSSProperty_COUNT_no_shorthands
 1
 <
 =
-UINT8_MAX
+UINT16_MAX
 "
 CSS
 longhand
@@ -49,7 +49,7 @@ longer
 fit
 in
 a
-uint8_t
+uint16_t
 "
 )
 ;
