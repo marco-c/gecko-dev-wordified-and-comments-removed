@@ -406,7 +406,7 @@ null
 browser
 .
 documentURI
-false
+true
 null
 )
 ;
