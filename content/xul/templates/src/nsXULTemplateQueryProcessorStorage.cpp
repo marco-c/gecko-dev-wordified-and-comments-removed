@@ -1467,7 +1467,7 @@ valInt64
 =
 0
 ;
-PRFloat64
+double
 valFloat
 =
 0

@@ -5613,7 +5613,7 @@ nsIWidget
 w
 PRUint32
 directionArg
-PRFloat64
+double
 deltaArg
 )
 :
@@ -5687,7 +5687,7 @@ clickCount
 PRUint32
 direction
 ;
-PRFloat64
+double
 delta
 ;
 PRUint32

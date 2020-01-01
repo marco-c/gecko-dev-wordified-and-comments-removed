@@ -1206,7 +1206,7 @@ imgCacheQueue
 sChromeCacheQueue
 ;
 static
-PRFloat64
+double
 sCacheTimeWeight
 ;
 static

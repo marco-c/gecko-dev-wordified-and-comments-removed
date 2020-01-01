@@ -120,11 +120,6 @@ PRUint32
 ;
 SHOW_TYPE
 (
-PRFloat64
-)
-;
-SHOW_TYPE
-(
 void
 *
 )

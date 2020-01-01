@@ -222,7 +222,7 @@ nsDOMSimpleGestureEvent
 :
 GetDelta
 (
-PRFloat64
+double
 *
 aDelta
 )
@@ -328,7 +328,7 @@ nsIDOMEventTarget
 aRelatedTarget
 PRUint32
 aDirectionArg
-PRFloat64
+double
 aDeltaArg
 PRUint32
 aClickCountArg
