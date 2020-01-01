@@ -253,10 +253,9 @@ hasParametersToBeBound
 const
 {
 return
-mParamsArray
 !
-=
-nsnull
+!
+mParamsArray
 ;
 }
 inline
