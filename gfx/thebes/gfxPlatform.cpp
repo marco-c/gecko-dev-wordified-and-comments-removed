@@ -2757,6 +2757,11 @@ nativeFont
 mFont
 =
 aFont
+-
+>
+GetCairoScaledFont
+(
+)
 ;
 RefPtr
 <
