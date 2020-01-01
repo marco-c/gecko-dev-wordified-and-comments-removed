@@ -889,13 +889,6 @@ ShouldUpdateOfflineCacheEntry
 )
 ;
 nsresult
-StartBufferingCachedEntity
-(
-bool
-usingSSL
-)
-;
-nsresult
 ReadFromCache
 (
 bool
@@ -1206,9 +1199,9 @@ mCacheEntry
 ;
 AutoClose
 <
-nsIAsyncInputStream
+nsIInputStream
 >
-mCacheAsyncInputStream
+mCacheInputStream
 ;
 nsRefPtr
 <
