@@ -374,9 +374,6 @@ preferences
 securityWarnings
 .
 js
-#
-ifdef
-MOZ_PLACES_BOOKMARKS
 *
 content
 /
@@ -397,8 +394,6 @@ preferences
 selectBookmark
 .
 js
-#
-endif
 *
 content
 /

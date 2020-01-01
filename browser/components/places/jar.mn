@@ -443,9 +443,6 @@ panel
 js
 )
 #
-ifdef
-MOZ_PLACES_BOOKMARKS
-#
 ditto
 for
 the
@@ -485,8 +482,6 @@ bookmarksPanel
 .
 js
 )
-#
-endif
 *
 content
 /
