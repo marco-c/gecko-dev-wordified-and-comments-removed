@@ -18383,6 +18383,22 @@ return
 NS_OK
 ;
 }
+rx
+=
+NS_MIN
+(
+rx
+100000
+)
+;
+ry
+=
+NS_MIN
+(
+ry
+100000
+)
+;
 PRUint8
 *
 sourceData
@@ -18414,7 +18430,7 @@ Data
 (
 )
 ;
-PRUint32
+PRInt32
 stride
 =
 aTarget
@@ -18467,7 +18483,7 @@ y
 +
 )
 {
-PRUint32
+PRInt32
 startY
 =
 NS_MAX
@@ -18478,7 +18494,7 @@ y
 ry
 )
 ;
-PRUint32
+PRInt32
 endY
 =
 NS_MIN
@@ -18518,7 +18534,7 @@ x
 +
 )
 {
-PRUint32
+PRInt32
 startX
 =
 NS_MAX
@@ -18529,7 +18545,7 @@ x
 rx
 )
 ;
-PRUint32
+PRInt32
 endX
 =
 NS_MIN
@@ -18547,7 +18563,7 @@ GetSurfaceWidth
 1
 )
 ;
-PRUint32
+PRInt32
 targIndex
 =
 y
@@ -18560,7 +18576,7 @@ x
 ;
 for
 (
-PRUint32
+PRInt32
 i
 =
 0
@@ -18589,7 +18605,7 @@ i
 }
 for
 (
-PRUint32
+PRInt32
 y1
 =
 startY
@@ -18606,7 +18622,7 @@ y1
 {
 for
 (
-PRUint32
+PRInt32
 x1
 =
 startX
@@ -18623,7 +18639,7 @@ x1
 {
 for
 (
-PRUint32
+PRInt32
 i
 =
 0
