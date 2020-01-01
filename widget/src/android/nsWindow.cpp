@@ -2865,6 +2865,9 @@ nsWindow
 :
 GetLayerManager
 (
+PLayersChild
+*
+LayersBackend
 LayerManagerPersistence
 bool
 *
