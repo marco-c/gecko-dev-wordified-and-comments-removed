@@ -59,7 +59,7 @@ aContext
 #
 ifdef
 DEBUG
-NS_IMETHOD
+void
 List
 (
 FILE
