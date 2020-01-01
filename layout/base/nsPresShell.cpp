@@ -27852,11 +27852,6 @@ aStatus
 ;
 if
 (
-GetCurrentEventFrame
-(
-)
-&
-&
 NS_SUCCEEDED
 (
 rv

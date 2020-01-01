@@ -14177,11 +14177,6 @@ GetEventTarget
 )
 ;
 }
-if
-(
-mCurrentTarget
-)
-{
 ret
 =
 CheckForAndDispatchClick
@@ -14195,7 +14190,6 @@ aEvent
 aStatus
 )
 ;
-}
 }
 nsIPresShell
 *
