@@ -506,7 +506,7 @@ FrameFlagsAddress
 )
 Imm32
 (
-JSFRAME_RVAL_ASSIGNED
+JSFRAME_HAS_RVAL
 )
 )
 ;

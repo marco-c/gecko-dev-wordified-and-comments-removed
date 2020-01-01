@@ -94,6 +94,9 @@ doList
 bool
 usesRval
 ;
+bool
+usesScope
+;
 public
 :
 BytecodeAnalyzer
@@ -126,6 +129,10 @@ cx
 )
 )
 usesRval
+(
+false
+)
+usesScope
 (
 false
 )
@@ -165,6 +172,16 @@ const
 {
 return
 usesRval
+;
+}
+bool
+usesScopeChain
+(
+)
+const
+{
+return
+usesScope
 ;
 }
 inline
