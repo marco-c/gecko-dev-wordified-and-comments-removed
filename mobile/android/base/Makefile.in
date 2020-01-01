@@ -224,6 +224,10 @@ AlertNotification
 .
 java
 \
+AllCapsTextView
+.
+java
+\
 AnimatedHeightLayout
 .
 java
