@@ -31951,6 +31951,15 @@ mask
 "
 )
 ;
+bool
+oldUnitlessLengthQuirk
+=
+mUnitlessLengthQuirk
+;
+mUnitlessLengthQuirk
+=
+false
+;
 do
 {
 nsRefPtr
@@ -32011,6 +32020,10 @@ arr
 eCSSUnit_Calc
 )
 ;
+mUnitlessLengthQuirk
+=
+oldUnitlessLengthQuirk
+;
 return
 true
 ;
@@ -32026,6 +32039,10 @@ SkipUntil
 )
 '
 )
+;
+mUnitlessLengthQuirk
+=
+oldUnitlessLengthQuirk
 ;
 return
 false
