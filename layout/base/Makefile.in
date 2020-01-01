@@ -444,6 +444,10 @@ NULL
 EXPORTS
 =
 \
+FrameLayerBuilder
+.
+h
+\
 FramePropertyTable
 .
 h
@@ -553,6 +557,10 @@ NULL
 )
 CPPSRCS
 =
+\
+FrameLayerBuilder
+.
+cpp
 \
 FramePropertyTable
 .

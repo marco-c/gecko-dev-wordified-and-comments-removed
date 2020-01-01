@@ -46,6 +46,9 @@ ColorLayerOGL
 RenderLayer
 (
 int
+DrawThebesLayerCallback
+void
+*
 )
 {
 static_cast
