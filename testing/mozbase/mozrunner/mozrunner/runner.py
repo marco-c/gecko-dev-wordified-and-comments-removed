@@ -1274,14 +1274,6 @@ process_handler
 .
 run
 (
-)
-            
-self
-.
-process_handler
-.
-processOutput
-(
 timeout
 outputTimeout
 )
@@ -1386,25 +1378,23 @@ self
 .
 process_handler
 .
-waitForFinish
+wait
 (
 timeout
 )
             
 if
-not
-getattr
-(
 self
 .
 process_handler
 .
 proc
-'
-returncode
-'
-False
+.
+poll
+(
 )
+is
+None
 :
                 
 return

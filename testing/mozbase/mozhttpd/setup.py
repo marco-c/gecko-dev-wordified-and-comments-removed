@@ -4,7 +4,6 @@ from
 setuptools
 import
 setup
-find_packages
 try
 :
     
@@ -107,8 +106,11 @@ mozilla
 author
 =
 '
-Joel
-Maher
+Mozilla
+Automation
+and
+Testing
+Team
 '
       
 author_email
@@ -129,19 +131,19 @@ https
 :
 /
 /
-github
+wiki
 .
-com
-/
 mozilla
+.
+org
 /
-mozbase
+Auto
+-
+tools
 /
-tree
+Projects
 /
-master
-/
-mozhttpd
+MozBase
 '
       
 license
@@ -152,22 +154,11 @@ MPL
       
 packages
 =
-find_packages
-(
-exclude
-=
 [
 '
-ez_setup
-'
-'
-examples
-'
-'
-tests
+mozhttpd
 '
 ]
-)
       
 include_package_data
 =
