@@ -717,7 +717,7 @@ nsRegion
 &
 aDirtyRegion
 nscolor
-aBackground
+aBackstop
 )
 ;
 static
