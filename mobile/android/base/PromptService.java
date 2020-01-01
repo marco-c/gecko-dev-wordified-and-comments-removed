@@ -276,8 +276,6 @@ mInputs
 private
 AlertDialog
 mDialog
-=
-null
 ;
 private
 static
@@ -1754,6 +1752,12 @@ int
 aWhich
 )
 {
+GeckoApp
+.
+assertOnUiThread
+(
+)
+;
 JSONObject
 ret
 =
@@ -2042,6 +2046,12 @@ long
 id
 )
 {
+GeckoApp
+.
+assertOnUiThread
+(
+)
+;
 mSelected
 [
 position
@@ -2062,6 +2072,12 @@ DialogInterface
 aDialog
 )
 {
+GeckoApp
+.
+assertOnUiThread
+(
+)
+;
 JSONObject
 ret
 =
