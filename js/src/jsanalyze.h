@@ -740,6 +740,15 @@ JSOP_LE
 return
 JSOP_GE
 ;
+case
+JSOP_EQ
+:
+case
+JSOP_NE
+:
+return
+op
+;
 default
 :
 JS_NOT_REACHED
