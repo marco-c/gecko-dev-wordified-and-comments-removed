@@ -49,7 +49,8 @@ protected
 IndexedDatabaseRequest
 (
 )
-;
+{
+}
 }
 ;
 END_INDEXEDDB_NAMESPACE

@@ -65,14 +65,6 @@ forget
 )
 ;
 }
-IndexedDatabaseRequest
-:
-:
-IndexedDatabaseRequest
-(
-)
-{
-}
 NS_IMPL_ADDREF
 (
 IndexedDatabaseRequest
