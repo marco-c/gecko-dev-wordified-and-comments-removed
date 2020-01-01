@@ -86,12 +86,6 @@ DownloadsUI
 .
 js
 \
-(
-NULL
-)
-EXTRA_PP_COMPONENTS
-=
-\
 DownloadsStartup
 .
 js

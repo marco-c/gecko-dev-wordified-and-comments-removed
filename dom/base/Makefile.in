@@ -117,12 +117,6 @@ SiteSpecificUserAgent
 .
 manifest
 \
-(
-NULL
-)
-EXTRA_PP_COMPONENTS
-=
-\
 ConsoleAPI
 .
 js

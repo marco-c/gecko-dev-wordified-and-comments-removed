@@ -129,10 +129,6 @@ nsUpdateService
 .
 js
 \
-nsUpdateServiceStub
-.
-js
-\
 (
 NULL
 )
@@ -143,6 +139,10 @@ EXTRA_COMPONENTS
 nsUpdateService
 .
 manifest
+\
+nsUpdateServiceStub
+.
+js
 \
 (
 NULL
