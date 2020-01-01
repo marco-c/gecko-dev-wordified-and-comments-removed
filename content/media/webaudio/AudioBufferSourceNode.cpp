@@ -1893,10 +1893,6 @@ this
 )
 ;
 }
-DestroyMediaStream
-(
-)
-;
 }
 JSObject
 *

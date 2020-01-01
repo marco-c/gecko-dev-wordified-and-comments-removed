@@ -36,12 +36,6 @@ AudioContext
 aContext
 )
 ;
-virtual
-~
-AnalyserNode
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 virtual
 JSObject
@@ -68,13 +62,6 @@ return
 true
 ;
 }
-virtual
-void
-DestroyMediaStream
-(
-)
-MOZ_OVERRIDE
-;
 void
 GetFloatFrequencyData
 (
