@@ -18,7 +18,7 @@ class
 nsHTMLWin32ObjectOwnerAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -80,7 +80,7 @@ mHwnd
 ;
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 mNativeAccessible
 ;

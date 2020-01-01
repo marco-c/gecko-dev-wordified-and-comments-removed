@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsAccessible
+Accessible
 .
 h
 "
@@ -80,14 +80,14 @@ class
 MaiHyperlink
 ;
 class
-nsAccessibleWrap
+AccessibleWrap
 :
 public
-nsAccessible
+Accessible
 {
 public
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 nsIContent
 *
@@ -99,7 +99,7 @@ aDoc
 ;
 virtual
 ~
-nsAccessibleWrap
+AccessibleWrap
 (
 )
 ;
@@ -119,7 +119,7 @@ ifdef
 MAI_LOGGING
 virtual
 void
-DumpnsAccessibleWrapInfo
+DumpAccessibleWrapInfo
 (
 int
 aDepth

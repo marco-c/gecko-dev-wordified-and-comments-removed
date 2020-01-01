@@ -1,7 +1,7 @@
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -60,7 +60,7 @@ NSObject
 mozAccessible
 >
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 mGeckoAccessible
 ;
@@ -92,7 +92,7 @@ id
 initWithAccessible
 :
 (
-nsAccessibleWrap
+AccessibleWrap
 *
 )
 geckoParent
@@ -241,7 +241,7 @@ void
 appendChild
 :
 (
-nsAccessible
+Accessible
 *
 )
 aAccessible

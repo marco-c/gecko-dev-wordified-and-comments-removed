@@ -14,7 +14,7 @@ atk
 h
 >
 class
-nsAccessibleWrap
+AccessibleWrap
 ;
 extern
 "
@@ -114,7 +114,7 @@ AtkObject
 *
 refAccessibleAtPointHelper
 (
-nsAccessibleWrap
+AccessibleWrap
 *
 aAccWrap
 gint
@@ -128,7 +128,7 @@ aCoordType
 void
 getExtentsHelper
 (
-nsAccessibleWrap
+AccessibleWrap
 *
 aAccWrap
 gint

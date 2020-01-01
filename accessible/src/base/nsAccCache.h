@@ -82,7 +82,7 @@ static
 void
 ClearCache
 (
-nsAccessibleHashtable
+AccessibleHashtable
 &
 aCache
 )
@@ -93,7 +93,7 @@ Enumerate
 (
 ClearCacheEntry
 <
-nsAccessible
+Accessible
 >
 nsnull
 )
@@ -173,7 +173,7 @@ static
 void
 CycleCollectorTraverseCache
 (
-nsAccessibleHashtable
+AccessibleHashtable
 &
 aCache
 nsCycleCollectionTraversalCallback
@@ -187,7 +187,7 @@ EnumerateRead
 (
 CycleCollectorTraverseCacheEntry
 <
-nsAccessible
+Accessible
 >
 aCallback
 )

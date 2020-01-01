@@ -70,7 +70,7 @@ RowCount
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 CellAt
 (
@@ -128,7 +128,7 @@ protected
 virtual
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateTreeItemAccessible
 (
@@ -147,7 +147,7 @@ nsXULTreeItemAccessibleBase
 public
 :
 using
-nsAccessible
+Accessible
 :
 :
 GetChildAt
@@ -160,7 +160,7 @@ aContent
 DocAccessible
 *
 aDoc
-nsAccessible
+Accessible
 *
 aParent
 nsITreeBoxObject
@@ -213,7 +213,7 @@ aName
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 ChildAtPoint
 (
@@ -226,7 +226,7 @@ aWhichChild
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 GetChildAt
 (
@@ -242,7 +242,7 @@ ChildCount
 const
 ;
 virtual
-nsAccessible
+Accessible
 *
 GetCellAccessible
 (
@@ -269,7 +269,7 @@ CacheChildren
 (
 )
 ;
-nsAccessibleHashtable
+AccessibleHashtable
 mAccessibleCache
 ;
 }
@@ -321,12 +321,6 @@ nsIAccessibleTableCell
 {
 public
 :
-using
-nsAccessible
-:
-:
-GetParent
-;
 nsXULTreeGridCellAccessible
 (
 nsIContent
@@ -421,7 +415,7 @@ aName
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 FocusedChild
 (
@@ -493,7 +487,7 @@ CellInvalidated
 protected
 :
 virtual
-nsAccessible
+Accessible
 *
 GetSiblingAtOffset
 (

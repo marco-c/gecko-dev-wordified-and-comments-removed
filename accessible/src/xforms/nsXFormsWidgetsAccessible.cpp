@@ -269,7 +269,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc

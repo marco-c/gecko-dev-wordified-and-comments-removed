@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -44,7 +44,7 @@ gint
 i
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -92,7 +92,7 @@ AtkSelection
 aSelection
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -142,7 +142,7 @@ gint
 i
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -171,7 +171,7 @@ IsSelect
 return
 nsnull
 ;
-nsAccessible
+Accessible
 *
 selectedItem
 =
@@ -195,7 +195,7 @@ AtkObject
 *
 atkObj
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetAtkObject
@@ -207,13 +207,11 @@ if
 (
 atkObj
 )
-{
 g_object_ref
 (
 atkObj
 )
 ;
-}
 return
 atkObj
 ;
@@ -227,7 +225,7 @@ AtkSelection
 aSelection
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -277,7 +275,7 @@ gint
 i
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -327,7 +325,7 @@ gint
 i
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -375,7 +373,7 @@ AtkSelection
 aSelection
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =

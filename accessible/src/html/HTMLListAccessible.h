@@ -273,7 +273,7 @@ a11y
 :
 HTMLLIAccessible
 *
-nsAccessible
+Accessible
 :
 :
 AsHTMLListItem

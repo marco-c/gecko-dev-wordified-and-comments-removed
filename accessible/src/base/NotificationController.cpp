@@ -469,7 +469,7 @@ NotificationController
 :
 ScheduleContentInsertion
 (
-nsAccessible
+Accessible
 *
 aContainer
 nsIContent
@@ -912,7 +912,7 @@ if
 ownerContent
 )
 {
-nsAccessible
+Accessible
 *
 outerDocAcc
 =
@@ -1219,7 +1219,7 @@ AccEvent
 eDoNotEmit
 )
 {
-nsAccessible
+Accessible
 *
 target
 =
@@ -2985,7 +2985,7 @@ GetDocAccessible
 (
 )
 ;
-nsAccessible
+Accessible
 *
 container
 =
@@ -3191,7 +3191,7 @@ GetKey
 (
 )
 ;
-nsAccessible
+Accessible
 *
 textAcc
 =
@@ -3731,7 +3731,7 @@ index
 ;
 #
 endif
-nsAccessible
+Accessible
 *
 container
 =
@@ -3809,7 +3809,7 @@ ContentInsertion
 DocAccessible
 *
 aDocument
-nsAccessible
+Accessible
 *
 aContainer
 )

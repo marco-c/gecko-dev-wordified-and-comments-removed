@@ -116,7 +116,11 @@ ACCESSIBILITY
 #
 include
 "
-nsAccessible
+mozilla
+/
+a11y
+/
+Accessible
 .
 h
 "
@@ -1546,7 +1550,7 @@ ifdef
 ACCESSIBILITY
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 mRootAccessible
 ;
@@ -1555,7 +1559,7 @@ CreateRootAccessible
 (
 )
 ;
-nsAccessible
+Accessible
 *
 DispatchAccessibleEvent
 (

@@ -23867,7 +23867,7 @@ n
 )
 )
 ;
-nsAccessible
+Accessible
 *
 acc
 =
@@ -23887,7 +23887,7 @@ acc
 }
 }
 }
-nsAccessible
+Accessible
 *
 nsWindow
 :
@@ -23972,7 +23972,7 @@ accService
 return
 ;
 }
-nsAccessible
+Accessible
 *
 acc
 =

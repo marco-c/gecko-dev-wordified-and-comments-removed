@@ -85,7 +85,7 @@ class
 nsXFormsCalendarWidgetAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :

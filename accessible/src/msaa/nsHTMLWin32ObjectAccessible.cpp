@@ -42,7 +42,7 @@ void
 aHwnd
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -69,7 +69,7 @@ Shutdown
 (
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 Shutdown
@@ -107,7 +107,7 @@ NativeState
 return
 mHwnd
 ?
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 NativeState
@@ -197,7 +197,7 @@ childWnd
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 nsHTMLWin32ObjectAccessible
-nsAccessible
+Accessible
 )
 NS_IMETHODIMP
 nsHTMLWin32ObjectAccessible

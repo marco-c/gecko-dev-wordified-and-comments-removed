@@ -111,7 +111,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -121,9 +121,9 @@ aDoc
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 nsLeafAccessible
-nsAccessible
+Accessible
 )
-nsAccessible
+Accessible
 *
 nsLeafAccessible
 :
@@ -164,7 +164,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -186,7 +186,7 @@ false
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 nsLinkableAccessible
-nsAccessibleWrap
+AccessibleWrap
 )
 NS_IMETHODIMP
 nsLinkableAccessible
@@ -206,7 +206,7 @@ TakeFocus
 (
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 TakeFocus
@@ -268,7 +268,7 @@ Truncate
 (
 )
 ;
-nsAccessible
+Accessible
 :
 :
 Value
@@ -431,7 +431,7 @@ DoAction
 aIndex
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 DoAction
@@ -459,7 +459,7 @@ AccessKey
 (
 )
 :
-nsAccessible
+Accessible
 :
 :
 AccessKey
@@ -487,7 +487,7 @@ mActionAcc
 =
 nsnull
 ;
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 Shutdown
@@ -560,14 +560,14 @@ nsLinkableAccessible
 :
 BindToParent
 (
-nsAccessible
+Accessible
 *
 aParent
 PRUint32
 aIndexInParent
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 BindToParent
@@ -606,7 +606,7 @@ true
 return
 ;
 }
-nsAccessible
+Accessible
 *
 walkUpAcc
 =
@@ -710,7 +710,7 @@ mIsOnclick
 =
 false
 ;
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 UnbindFromParent
@@ -736,7 +736,7 @@ Role
 aRole
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aNode
 aDoc
@@ -750,7 +750,7 @@ aRole
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 nsEnumRoleAccessible
-nsAccessible
+Accessible
 )
 role
 nsEnumRoleAccessible

@@ -7,7 +7,7 @@ mozilla_a11y_Accessible_inl_h_
 #
 include
 "
-nsAccessible
+Accessible
 .
 h
 "
@@ -26,7 +26,7 @@ a11y
 :
 :
 role
-nsAccessible
+Accessible
 :
 :
 Role
@@ -73,7 +73,7 @@ a11y
 :
 :
 role
-nsAccessible
+Accessible
 :
 :
 ARIARole

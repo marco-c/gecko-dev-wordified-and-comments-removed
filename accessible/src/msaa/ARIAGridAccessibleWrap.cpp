@@ -24,7 +24,7 @@ ARIAGridAccessible
 IMPL_IUNKNOWN_INHERITED1
 (
 ARIAGridAccessibleWrap
-nsAccessibleWrap
+AccessibleWrap
 CAccessibleTable
 )
 NS_IMPL_ISUPPORTS_INHERITED0

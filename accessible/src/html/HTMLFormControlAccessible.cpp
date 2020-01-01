@@ -489,7 +489,7 @@ NativeState
 PRUint64
 state
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 NativeState
@@ -1126,7 +1126,7 @@ nsAString
 aName
 )
 {
-nsAccessible
+Accessible
 :
 :
 GetNameInternal
@@ -1323,7 +1323,7 @@ aDoc
 NS_IMPL_ISUPPORTS_INHERITED3
 (
 HTMLTextFieldAccessible
-nsAccessible
+Accessible
 nsHyperTextAccessible
 nsIAccessibleText
 nsIAccessibleEditableText
@@ -1384,7 +1384,7 @@ aName
 nsresult
 rv
 =
-nsAccessible
+Accessible
 :
 :
 GetNameInternal
@@ -1420,7 +1420,7 @@ GetBindingParent
 )
 )
 {
-nsAccessible
+Accessible
 *
 parent
 =
@@ -1809,7 +1809,7 @@ MULTI_LINE
 return
 state
 ;
-nsAccessible
+Accessible
 *
 widget
 =
@@ -2236,7 +2236,7 @@ return
 true
 ;
 }
-nsAccessible
+Accessible
 *
 HTMLTextFieldAccessible
 :
@@ -2408,7 +2408,7 @@ INVALID
 )
 )
 {
-nsAccessible
+Accessible
 *
 input
 =
@@ -2481,7 +2481,7 @@ childEvent
 )
 ;
 }
-nsAccessible
+Accessible
 *
 button
 =
@@ -2676,7 +2676,7 @@ aName
 nsresult
 rv
 =
-nsAccessible
+Accessible
 :
 :
 GetNameInternal
@@ -2831,7 +2831,7 @@ RELATION_LABEL_FOR
 return
 rel
 ;
-nsAccessible
+Accessible
 *
 groupbox
 =
@@ -3221,7 +3221,7 @@ RELATION_LABEL_FOR
 return
 rel
 ;
-nsAccessible
+Accessible
 *
 figure
 =

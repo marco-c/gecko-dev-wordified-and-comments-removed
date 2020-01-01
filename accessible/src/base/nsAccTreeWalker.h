@@ -19,7 +19,7 @@ nsIContent
 h
 "
 class
-nsAccessible
+Accessible
 ;
 class
 DocAccessible
@@ -54,8 +54,7 @@ nsAccTreeWalker
 (
 )
 ;
-inline
-nsAccessible
+Accessible
 *
 NextChild
 (
@@ -70,7 +69,7 @@ false
 }
 private
 :
-nsAccessible
+Accessible
 *
 NextChildInternal
 (

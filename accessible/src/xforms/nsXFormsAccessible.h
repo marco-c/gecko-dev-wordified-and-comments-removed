@@ -260,7 +260,7 @@ SelectedItemCount
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 GetSelectedItem
 (
@@ -313,7 +313,7 @@ GetItemByIndex
 PRUint32
 *
 aIndex
-nsAccessible
+Accessible
 *
 aAccessible
 =

@@ -233,7 +233,7 @@ S_OK
 ;
 }
 return
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 QueryInterface

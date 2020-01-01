@@ -7,7 +7,7 @@ _nsXULColorPickerAccessible_H_
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -15,7 +15,7 @@ class
 nsXULColorPickerTileAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -57,7 +57,7 @@ NativeState
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 ContainerWidget
 (

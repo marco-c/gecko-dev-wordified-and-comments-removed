@@ -282,7 +282,7 @@ countFetched
 .
 pdispVal
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 NativeAccessible

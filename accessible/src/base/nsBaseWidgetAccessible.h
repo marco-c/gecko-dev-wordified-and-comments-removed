@@ -7,7 +7,7 @@ _nsBaseWidgetAccessible_H_
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -29,7 +29,7 @@ class
 nsLeafAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -45,7 +45,7 @@ aDoc
 ;
 NS_DECL_ISUPPORTS_INHERITED
 virtual
-nsAccessible
+Accessible
 *
 ChildAtPoint
 (
@@ -71,7 +71,7 @@ class
 nsLinkableAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -167,7 +167,7 @@ virtual
 void
 BindToParent
 (
-nsAccessible
+Accessible
 *
 aParent
 PRUint32
@@ -180,7 +180,7 @@ UnbindFromParent
 (
 )
 ;
-nsAccessible
+Accessible
 *
 mActionAcc
 ;
@@ -196,7 +196,7 @@ class
 nsEnumRoleAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :

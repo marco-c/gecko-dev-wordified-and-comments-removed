@@ -1,9 +1,9 @@
 #
 ifndef
-_nsAccessible_H_
+_Accessible_H_
 #
 define
-_nsAccessible_H_
+_Accessible_H_
 #
 include
 "
@@ -109,7 +109,7 @@ class
 KeyBinding
 ;
 class
-nsAccessible
+Accessible
 ;
 class
 nsHyperTextAccessible
@@ -176,9 +176,9 @@ nsPtrHashKey
 const
 void
 >
-nsAccessible
+Accessible
 >
-nsAccessibleHashtable
+AccessibleHashtable
 ;
 #
 define
@@ -245,7 +245,7 @@ bd50
 \
 }
 class
-nsAccessible
+Accessible
 :
 public
 nsAccessNodeWrap
@@ -260,7 +260,7 @@ nsIAccessibleValue
 {
 public
 :
-nsAccessible
+Accessible
 (
 nsIContent
 *
@@ -272,14 +272,14 @@ aDoc
 ;
 virtual
 ~
-nsAccessible
+Accessible
 (
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
-nsAccessible
+Accessible
 nsAccessNode
 )
 NS_DECL_NSIACCESSIBLE
@@ -499,7 +499,7 @@ eDeepestChild
 }
 ;
 virtual
-nsAccessible
+Accessible
 *
 ChildAtPoint
 (
@@ -512,7 +512,7 @@ aWhichChild
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 FocusedChild
 (
@@ -584,7 +584,7 @@ virtual
 bool
 AppendChild
 (
-nsAccessible
+Accessible
 *
 aChild
 )
@@ -595,7 +595,7 @@ InsertChildAt
 (
 PRUint32
 aIndex
-nsAccessible
+Accessible
 *
 aChild
 )
@@ -604,12 +604,12 @@ virtual
 bool
 RemoveChild
 (
-nsAccessible
+Accessible
 *
 aChild
 )
 ;
-nsAccessible
+Accessible
 *
 Parent
 (
@@ -621,7 +621,7 @@ mParent
 ;
 }
 virtual
-nsAccessible
+Accessible
 *
 GetChildAt
 (
@@ -640,7 +640,7 @@ virtual
 PRInt32
 GetIndexOf
 (
-nsAccessible
+Accessible
 *
 aChild
 )
@@ -667,7 +667,7 @@ GetChildAt
 ;
 }
 inline
-nsAccessible
+Accessible
 *
 NextSibling
 (
@@ -682,7 +682,7 @@ GetSiblingAtOffset
 ;
 }
 inline
-nsAccessible
+Accessible
 *
 PrevSibling
 (
@@ -698,7 +698,7 @@ GetSiblingAtOffset
 ;
 }
 inline
-nsAccessible
+Accessible
 *
 FirstChild
 (
@@ -712,7 +712,7 @@ GetChildAt
 ;
 }
 inline
-nsAccessible
+Accessible
 *
 LastChild
 (
@@ -746,7 +746,7 @@ EmbeddedChildCount
 (
 )
 ;
-nsAccessible
+Accessible
 *
 GetEmbeddedChildAt
 (
@@ -757,7 +757,7 @@ aIndex
 PRInt32
 GetIndexOfEmbeddedChild
 (
-nsAccessible
+Accessible
 *
 aChild
 )
@@ -776,7 +776,7 @@ Length
 )
 ;
 }
-nsAccessible
+Accessible
 *
 ContentChildAt
 (
@@ -856,7 +856,7 @@ PR_UINT32_MAX
 void
 TestChildCache
 (
-nsAccessible
+Accessible
 *
 aCachedChild
 )
@@ -1307,7 +1307,7 @@ AnchorCount
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 AnchorAt
 (
@@ -1348,7 +1348,7 @@ SelectedItemCount
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 GetSelectedItem
 (
@@ -1414,7 +1414,7 @@ AreItemsOperable
 const
 ;
 virtual
-nsAccessible
+Accessible
 *
 CurrentItem
 (
@@ -1424,13 +1424,13 @@ virtual
 void
 SetCurrentItem
 (
-nsAccessible
+Accessible
 *
 aItem
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 ContainerWidget
 (
@@ -1474,7 +1474,7 @@ virtual
 void
 BindToParent
 (
-nsAccessible
+Accessible
 *
 aParent
 PRUint32
@@ -1488,7 +1488,7 @@ UnbindFromParent
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 GetSiblingAtOffset
 (
@@ -1730,7 +1730,7 @@ nsAString
 aStringOut
 )
 ;
-nsAccessible
+Accessible
 *
 GetFirstAvailableAccessible
 (
@@ -1767,7 +1767,7 @@ aActionIndex
 ;
 NS_DECL_RUNNABLEMETHOD_ARG2
 (
-nsAccessible
+Accessible
 DispatchClickEvent
 nsCOMPtr
 <
@@ -1819,7 +1819,7 @@ aEvent
 ;
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 mParent
 ;
@@ -1827,7 +1827,7 @@ nsTArray
 <
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 >
 mChildren
@@ -1880,7 +1880,7 @@ mRoleMapEntry
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
 (
-nsAccessible
+Accessible
 NS_ACCESSIBLE_IMPL_IID
 )
 class

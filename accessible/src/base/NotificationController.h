@@ -26,7 +26,7 @@ nsRefreshDriver
 h
 "
 class
-nsAccessible
+Accessible
 ;
 class
 DocAccessible
@@ -321,7 +321,7 @@ ScheduleProcessing
 void
 ScheduleContentInsertion
 (
-nsAccessible
+Accessible
 *
 aContainer
 nsIContent
@@ -672,7 +672,7 @@ ContentInsertion
 DocAccessible
 *
 aDocument
-nsAccessible
+Accessible
 *
 aContainer
 )
@@ -741,7 +741,7 @@ mDocument
 ;
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 mContainer
 ;

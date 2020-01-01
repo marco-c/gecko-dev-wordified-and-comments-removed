@@ -181,7 +181,7 @@ childIdx
 -
 )
 {
-nsAccessible
+Accessible
 *
 currAcc
 =
@@ -242,7 +242,7 @@ childIdx
 +
 )
 {
-nsAccessible
+Accessible
 *
 currAcc
 =
@@ -552,7 +552,7 @@ childIdx
 -
 )
 {
-nsAccessible
+Accessible
 *
 currAcc
 =
@@ -699,7 +699,7 @@ childIdx
 +
 )
 {
-nsAccessible
+Accessible
 *
 currAcc
 =

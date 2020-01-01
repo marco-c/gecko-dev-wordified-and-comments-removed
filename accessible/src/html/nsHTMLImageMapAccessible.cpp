@@ -148,7 +148,7 @@ ChildCount
 )
 ;
 }
-nsAccessible
+Accessible
 *
 nsHTMLImageMapAccessible
 :
@@ -179,7 +179,7 @@ PRUint32
 aAnchorIndex
 )
 {
-nsAccessible
+Accessible
 *
 area
 =
@@ -290,7 +290,7 @@ childIdx
 -
 )
 {
-nsAccessible
+Accessible
 *
 area
 =
@@ -397,7 +397,7 @@ GetAreaAt
 idx
 )
 ;
-nsAccessible
+Accessible
 *
 area
 =
@@ -427,7 +427,7 @@ areaContent
 {
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 area
 =
@@ -596,7 +596,7 @@ aName
 nsresult
 rv
 =
-nsAccessible
+Accessible
 :
 :
 GetNameInternal
@@ -703,7 +703,7 @@ return
 false
 ;
 }
-nsAccessible
+Accessible
 *
 nsHTMLAreaAccessible
 :

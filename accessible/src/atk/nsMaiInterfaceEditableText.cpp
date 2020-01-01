@@ -47,7 +47,7 @@ gint
 aEndOffset
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -137,7 +137,7 @@ gchar
 aString
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -233,7 +233,7 @@ gint
 aPosition
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -338,7 +338,7 @@ gint
 aEndPos
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -429,7 +429,7 @@ gint
 aEndPos
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -520,7 +520,7 @@ gint
 aEndPos
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -609,7 +609,7 @@ gint
 aPosition
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =

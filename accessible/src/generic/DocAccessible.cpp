@@ -523,7 +523,7 @@ DocAccessible
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
 DocAccessible
-nsAccessible
+Accessible
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NSCOMPTR
 (
@@ -599,7 +599,7 @@ NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
 DocAccessible
-nsAccessible
+Accessible
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
 (
@@ -716,7 +716,7 @@ void
 foundInterface
 )
 :
-nsAccessible
+Accessible
 :
 :
 QueryInterface
@@ -803,7 +803,7 @@ IsEmpty
 )
 )
 {
-nsAccessible
+Accessible
 :
 :
 Name
@@ -1307,7 +1307,7 @@ aState
 )
 const
 {
-nsAccessible
+Accessible
 :
 :
 ApplyARIAState
@@ -1340,7 +1340,7 @@ nsIPersistentProperties
 aAttributes
 )
 {
-nsAccessible
+Accessible
 :
 :
 GetAttributes
@@ -1366,7 +1366,7 @@ return
 NS_OK
 ;
 }
-nsAccessible
+Accessible
 *
 DocAccessible
 :
@@ -2233,7 +2233,7 @@ return
 nsnull
 ;
 }
-nsAccessible
+Accessible
 *
 DocAccessible
 :
@@ -2246,7 +2246,7 @@ aNode
 )
 const
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -2290,7 +2290,7 @@ this
 #
 ifdef
 DEBUG
-nsAccessible
+Accessible
 *
 parent
 =
@@ -3624,7 +3624,7 @@ PRInt32
 aModType
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -3766,7 +3766,7 @@ aAttribute
 )
 return
 ;
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -4078,7 +4078,7 @@ nsGkAtoms
 aria_selected
 )
 {
-nsAccessible
+Accessible
 *
 item
 =
@@ -4094,7 +4094,7 @@ item
 )
 return
 ;
-nsAccessible
+Accessible
 *
 widget
 =
@@ -4467,7 +4467,7 @@ FireDelayedAccessibleEvent
 event
 )
 ;
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -4726,7 +4726,7 @@ if
 activeDescendantElm
 )
 {
-nsAccessible
+Accessible
 *
 activeDescendant
 =
@@ -4810,7 +4810,7 @@ NS_EVENT_STATE_CHECKED
 )
 )
 {
-nsAccessible
+Accessible
 *
 item
 =
@@ -4824,7 +4824,7 @@ if
 item
 )
 {
-nsAccessible
+Accessible
 *
 widget
 =
@@ -5158,7 +5158,7 @@ return
 nsnull
 ;
 }
-nsAccessible
+Accessible
 *
 DocAccessible
 :
@@ -5170,7 +5170,7 @@ void
 aUniqueID
 )
 {
-nsAccessible
+Accessible
 *
 child
 =
@@ -5244,7 +5244,7 @@ return
 nsnull
 ;
 }
-nsAccessible
+Accessible
 *
 DocAccessible
 :
@@ -5279,7 +5279,7 @@ currNode
 =
 aNode
 ;
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -5320,7 +5320,7 @@ DocAccessible
 :
 BindToDocument
 (
-nsAccessible
+Accessible
 *
 aAccessible
 nsRoleMapEntry
@@ -5435,7 +5435,7 @@ DocAccessible
 :
 UnbindFromDocument
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -5603,7 +5603,7 @@ eTreeConstructed
 )
 )
 {
-nsAccessible
+Accessible
 *
 container
 =
@@ -5642,7 +5642,7 @@ nsIContent
 aChildNode
 )
 {
-nsAccessible
+Accessible
 *
 container
 =
@@ -5740,7 +5740,7 @@ mInvalidationList
 idx
 ]
 ;
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -5755,7 +5755,7 @@ if
 accessible
 )
 {
-nsAccessible
+Accessible
 *
 container
 =
@@ -5825,7 +5825,7 @@ CanHaveAnonChildren
 )
 )
 ;
-nsAccessible
+Accessible
 *
 child
 =
@@ -6101,7 +6101,7 @@ DocAccessible
 :
 AddDependentIDsFor
 (
-nsAccessible
+Accessible
 *
 aRelProvider
 nsIAtom
@@ -6445,7 +6445,7 @@ DocAccessible
 :
 RemoveDependentIDsFor
 (
-nsAccessible
+Accessible
 *
 aRelProvider
 nsIAtom
@@ -7038,7 +7038,7 @@ DocAccessible
 :
 ProcessContentInserted
 (
-nsAccessible
+Accessible
 *
 aContainer
 const
@@ -7131,7 +7131,7 @@ idx
 +
 )
 {
-nsAccessible
+Accessible
 *
 directContainer
 =
@@ -7171,7 +7171,7 @@ DocAccessible
 :
 UpdateTree
 (
-nsAccessible
+Accessible
 *
 aContainer
 nsIContent
@@ -7186,7 +7186,7 @@ updateFlags
 =
 eNoAccessible
 ;
-nsAccessible
+Accessible
 *
 child
 =
@@ -7270,7 +7270,7 @@ eAlertAccessible
 )
 )
 {
-nsAccessible
+Accessible
 *
 ancestor
 =
@@ -7381,7 +7381,7 @@ DocAccessible
 :
 UpdateTreeInternal
 (
-nsAccessible
+Accessible
 *
 aChild
 bool
@@ -7597,7 +7597,7 @@ aChild
 }
 else
 {
-nsAccessible
+Accessible
 *
 parent
 =
@@ -7648,7 +7648,7 @@ DocAccessible
 :
 CacheChildrenInSubtree
 (
-nsAccessible
+Accessible
 *
 aRoot
 )
@@ -7686,7 +7686,7 @@ idx
 +
 )
 {
-nsAccessible
+Accessible
 *
 child
 =
@@ -7738,7 +7738,7 @@ DocAccessible
 :
 UncacheChildrenInSubtree
 (
-nsAccessible
+Accessible
 *
 aRoot
 )
@@ -7837,7 +7837,7 @@ DocAccessible
 :
 ShutdownChildrenInSubtree
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -7871,7 +7871,7 @@ idx
 +
 )
 {
-nsAccessible
+Accessible
 *
 child
 =

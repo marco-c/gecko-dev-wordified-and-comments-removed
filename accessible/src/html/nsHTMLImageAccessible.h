@@ -146,7 +146,7 @@ aIndex
 inline
 nsHTMLImageAccessible
 *
-nsAccessible
+Accessible
 :
 :
 AsImage

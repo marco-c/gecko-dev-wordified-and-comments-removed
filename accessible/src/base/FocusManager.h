@@ -26,7 +26,7 @@ class
 AccEvent
 ;
 class
-nsAccessible
+Accessible
 ;
 class
 DocAccessible
@@ -48,7 +48,7 @@ FocusManager
 (
 )
 ;
-nsAccessible
+Accessible
 *
 FocusedAccessible
 (
@@ -59,7 +59,7 @@ bool
 IsFocused
 (
 const
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -70,7 +70,7 @@ bool
 IsActiveItem
 (
 const
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -106,7 +106,7 @@ bool
 IsFocusWithin
 (
 const
-nsAccessible
+Accessible
 *
 aContainer
 )
@@ -125,7 +125,7 @@ FocusDisposition
 IsInOrContainsFocus
 (
 const
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -150,7 +150,7 @@ aTarget
 void
 ActiveItemChanged
 (
-nsAccessible
+Accessible
 *
 aItem
 bool
@@ -170,7 +170,7 @@ DispatchFocusEvent
 DocAccessible
 *
 aDocument
-nsAccessible
+Accessible
 *
 aTarget
 )
@@ -234,13 +234,13 @@ private
 :
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 mActiveItem
 ;
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 mActiveARIAMenubar
 ;

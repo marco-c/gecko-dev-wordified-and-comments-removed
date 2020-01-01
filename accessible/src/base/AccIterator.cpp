@@ -15,7 +15,7 @@ h
 #
 include
 "
-nsAccessible
+Accessible
 .
 h
 "
@@ -46,7 +46,7 @@ AccIterator
 :
 AccIterator
 (
-nsAccessible
+Accessible
 *
 aAccessible
 filters
@@ -110,7 +110,7 @@ tmp
 ;
 }
 }
-nsAccessible
+Accessible
 *
 AccIterator
 :
@@ -124,7 +124,7 @@ while
 mState
 )
 {
-nsAccessible
+Accessible
 *
 child
 =
@@ -218,7 +218,7 @@ IteratorState
 :
 IteratorState
 (
-nsAccessible
+Accessible
 *
 aParent
 IteratorState
@@ -332,7 +332,7 @@ id
 )
 ;
 }
-nsAccessible
+Accessible
 *
 RelatedAccIterator
 :
@@ -425,7 +425,7 @@ if
 inScope
 )
 {
-nsAccessible
+Accessible
 *
 related
 =
@@ -481,7 +481,7 @@ DocAccessible
 *
 aDocument
 const
-nsAccessible
+Accessible
 *
 aAccessible
 LabelFilter
@@ -512,7 +512,7 @@ aFilter
 )
 {
 }
-nsAccessible
+Accessible
 *
 HTMLLabelIterator
 :
@@ -521,7 +521,7 @@ Next
 (
 )
 {
-nsAccessible
+Accessible
 *
 label
 =
@@ -583,7 +583,7 @@ IsWidget
 return
 nsnull
 ;
-nsAccessible
+Accessible
 *
 walkUp
 =
@@ -723,7 +723,7 @@ _for
 )
 {
 }
-nsAccessible
+Accessible
 *
 HTMLOutputIterator
 :
@@ -732,7 +732,7 @@ Next
 (
 )
 {
-nsAccessible
+Accessible
 *
 output
 =
@@ -803,7 +803,7 @@ control
 )
 {
 }
-nsAccessible
+Accessible
 *
 XULLabelIterator
 :
@@ -812,7 +812,7 @@ Next
 (
 )
 {
-nsAccessible
+Accessible
 *
 label
 =
@@ -883,7 +883,7 @@ control
 )
 {
 }
-nsAccessible
+Accessible
 *
 XULDescriptionIterator
 :
@@ -892,7 +892,7 @@ Next
 (
 )
 {
-nsAccessible
+Accessible
 *
 descr
 =
@@ -1306,7 +1306,7 @@ return
 nsnull
 ;
 }
-nsAccessible
+Accessible
 *
 IDRefsIterator
 :
@@ -1337,7 +1337,7 @@ nextElm
 nsnull
 ;
 }
-nsAccessible
+Accessible
 *
 SingleAccIterator
 :
@@ -1348,7 +1348,7 @@ Next
 {
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 nextAcc
 ;

@@ -7,7 +7,7 @@ _nsXULSliderAccessible_H_
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -22,7 +22,7 @@ class
 nsXULSliderAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -160,7 +160,7 @@ class
 nsXULThumbAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :

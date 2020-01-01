@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsAccessible
+Accessible
 .
 h
 "

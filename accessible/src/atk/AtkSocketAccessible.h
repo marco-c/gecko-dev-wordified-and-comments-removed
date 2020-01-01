@@ -7,7 +7,7 @@ _AtkSocketAccessible_H_
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -56,7 +56,7 @@ class
 AtkSocketAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :

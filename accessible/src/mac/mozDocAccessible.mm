@@ -138,7 +138,7 @@ mozView
 >
 getNativeViewFromRootAccessible
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )

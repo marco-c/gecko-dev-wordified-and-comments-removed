@@ -43,7 +43,7 @@ gint
 aLinkIndex
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -80,7 +80,7 @@ hyperText
 nsnull
 )
 ;
-nsAccessible
+Accessible
 *
 hyperLink
 =
@@ -104,7 +104,7 @@ AtkObject
 *
 hyperLinkAtkObj
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetAtkObject
@@ -112,7 +112,7 @@ GetAtkObject
 hyperLink
 )
 ;
-nsAccessibleWrap
+AccessibleWrap
 *
 accChild
 =
@@ -162,7 +162,7 @@ AtkHypertext
 aText
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -221,7 +221,7 @@ gint
 aCharIndex
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =

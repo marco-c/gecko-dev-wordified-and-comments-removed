@@ -477,7 +477,7 @@ ChildCount
 1
 )
 {
-nsAccessible
+Accessible
 *
 abbr
 =
@@ -1061,7 +1061,7 @@ GetTableAccessible
 (
 )
 {
-nsAccessible
+Accessible
 *
 parent
 =
@@ -1351,7 +1351,7 @@ COLUMNHEADER
 ;
 do
 {
-nsAccessible
+Accessible
 *
 headerCell
 =
@@ -1712,7 +1712,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -1726,7 +1726,7 @@ this
 NS_IMPL_ISUPPORTS_INHERITED1
 (
 nsHTMLTableAccessible
-nsAccessible
+Accessible
 nsIAccessibleTable
 )
 void
@@ -1741,7 +1741,7 @@ mTable
 =
 nsnull
 ;
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 Shutdown
@@ -1767,7 +1767,7 @@ CanHaveAnonChildren
 )
 )
 ;
-nsAccessible
+Accessible
 *
 child
 =
@@ -1861,7 +1861,7 @@ NativeState
 )
 {
 return
-nsAccessible
+Accessible
 :
 :
 NativeState
@@ -1885,7 +1885,7 @@ nsAString
 aName
 )
 {
-nsAccessible
+Accessible
 :
 :
 GetNameInternal
@@ -1905,7 +1905,7 @@ IsEmpty
 return
 NS_OK
 ;
-nsAccessible
+Accessible
 *
 caption
 =
@@ -1990,7 +1990,7 @@ aAttributes
 nsresult
 rv
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetAttributesInternal
@@ -2054,7 +2054,7 @@ aType
 Relation
 rel
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 RelationByType
@@ -2085,7 +2085,7 @@ return
 rel
 ;
 }
-nsAccessible
+Accessible
 *
 nsHTMLTableAccessible
 :
@@ -2094,7 +2094,7 @@ Caption
 (
 )
 {
-nsAccessible
+Accessible
 *
 child
 =
@@ -2853,7 +2853,7 @@ cellElement
 )
 )
 ;
-nsAccessible
+Accessible
 *
 cell
 =
@@ -3674,7 +3674,7 @@ return
 rv
 ;
 }
-nsAccessible
+Accessible
 *
 nsHTMLTableAccessible
 :
@@ -3732,7 +3732,7 @@ cellContent
 return
 nsnull
 ;
-nsAccessible
+Accessible
 *
 cell
 =
@@ -5295,7 +5295,7 @@ Truncate
 (
 )
 ;
-nsAccessible
+Accessible
 :
 :
 Description
@@ -5314,7 +5314,7 @@ IsEmpty
 )
 return
 ;
-nsAccessible
+Accessible
 *
 caption
 =
@@ -5868,7 +5868,7 @@ structures
 "
 )
 ;
-nsAccessible
+Accessible
 *
 caption
 =
@@ -6225,7 +6225,7 @@ structures
 )
 ;
 }
-nsAccessible
+Accessible
 *
 cell
 =
@@ -6531,7 +6531,7 @@ childIdx
 +
 )
 {
-nsAccessible
+Accessible
 *
 child
 =

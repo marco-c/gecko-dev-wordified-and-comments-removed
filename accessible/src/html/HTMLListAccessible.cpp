@@ -301,7 +301,7 @@ aHeight
 nsresult
 rv
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetBounds
@@ -506,7 +506,7 @@ AppendChild
 mBullet
 )
 ;
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 CacheChildren

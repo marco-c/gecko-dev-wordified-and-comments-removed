@@ -70,7 +70,7 @@ AnchorCount
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 AnchorAt
 (
@@ -111,7 +111,7 @@ CacheChildren
 inline
 nsHTMLImageMapAccessible
 *
-nsAccessible
+Accessible
 :
 :
 AsImageMap
@@ -179,7 +179,7 @@ aName
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 ChildAtPoint
 (

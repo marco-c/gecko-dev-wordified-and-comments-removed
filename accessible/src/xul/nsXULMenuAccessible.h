@@ -7,7 +7,7 @@ _nsXULMenuAccessible_H_
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -29,7 +29,7 @@ class
 nsXULMenuitemAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -150,7 +150,7 @@ AreItemsOperable
 const
 ;
 virtual
-nsAccessible
+Accessible
 *
 ContainerWidget
 (
@@ -296,7 +296,7 @@ AreItemsOperable
 const
 ;
 virtual
-nsAccessible
+Accessible
 *
 ContainerWidget
 (
@@ -309,7 +309,7 @@ class
 nsXULMenubarAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -365,7 +365,7 @@ AreItemsOperable
 const
 ;
 virtual
-nsAccessible
+Accessible
 *
 CurrentItem
 (
@@ -375,7 +375,7 @@ virtual
 void
 SetCurrentItem
 (
-nsAccessible
+Accessible
 *
 aItem
 )

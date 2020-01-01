@@ -252,7 +252,7 @@ nsGkAtoms
 caption
 )
 {
-nsAccessible
+Accessible
 *
 parent
 =
@@ -613,7 +613,7 @@ StartOffset
 {
 if
 (
-nsAccessible
+Accessible
 :
 :
 IsLink
@@ -621,7 +621,7 @@ IsLink
 )
 )
 return
-nsAccessible
+Accessible
 :
 :
 StartOffset
@@ -644,7 +644,7 @@ EndOffset
 {
 if
 (
-nsAccessible
+Accessible
 :
 :
 IsLink
@@ -652,7 +652,7 @@ IsLink
 )
 )
 return
-nsAccessible
+Accessible
 :
 :
 EndOffset

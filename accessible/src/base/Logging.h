@@ -22,7 +22,7 @@ class
 AccEvent
 ;
 class
-nsAccessible
+Accessible
 ;
 class
 DocAccessible
@@ -186,7 +186,7 @@ const
 char
 *
 aDescr
-nsAccessible
+Accessible
 *
 aAcc
 )

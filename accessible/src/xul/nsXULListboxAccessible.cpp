@@ -112,10 +112,10 @@ mozilla
 :
 a11y
 ;
-nsXULColumnsAccessible
+nsXULColumAccessible
 :
 :
-nsXULColumnsAccessible
+nsXULColumAccessible
 (
 nsIContent
 *
@@ -125,7 +125,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -133,7 +133,7 @@ aDoc
 {
 }
 role
-nsXULColumnsAccessible
+nsXULColumAccessible
 :
 :
 NativeRole
@@ -148,7 +148,7 @@ LIST
 ;
 }
 PRUint64
-nsXULColumnsAccessible
+nsXULColumAccessible
 :
 :
 NativeState
@@ -504,7 +504,7 @@ NativeState
 PRUint64
 states
 =
-nsAccessible
+Accessible
 :
 :
 NativeState
@@ -839,7 +839,7 @@ return
 itemCount
 ;
 }
-nsAccessible
+Accessible
 *
 nsXULListboxAccessible
 :
@@ -915,7 +915,7 @@ itemContent
 return
 nsnull
 ;
-nsAccessible
+Accessible
 *
 row
 =
@@ -1997,7 +1997,7 @@ itemNode
 )
 )
 ;
-nsAccessible
+Accessible
 *
 item
 =
@@ -2040,7 +2040,7 @@ cellIdx
 +
 )
 {
-nsAccessible
+Accessible
 *
 cell
 =
@@ -3088,7 +3088,7 @@ return
 true
 ;
 }
-nsAccessible
+Accessible
 *
 nsXULListboxAccessible
 :
@@ -3164,7 +3164,7 @@ if
 inputNode
 )
 {
-nsAccessible
+Accessible
 *
 input
 =
@@ -3238,9 +3238,9 @@ eCaseMatters
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 nsXULListitemAccessible
-nsAccessible
+Accessible
 )
-nsAccessible
+Accessible
 *
 nsXULListitemAccessible
 :
@@ -3335,7 +3335,7 @@ nsString
 aDesc
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 Description
@@ -3424,7 +3424,7 @@ NativeRole
 (
 )
 {
-nsAccessible
+Accessible
 *
 list
 =
@@ -3697,7 +3697,7 @@ return
 true
 ;
 }
-nsAccessible
+Accessible
 *
 nsXULListitemAccessible
 :
@@ -3770,7 +3770,7 @@ IsDefunct
 return
 NS_ERROR_FAILURE
 ;
-nsAccessible
+Accessible
 *
 thisRow
 =
@@ -3800,7 +3800,7 @@ ROW
 return
 NS_OK
 ;
-nsAccessible
+Accessible
 *
 table
 =
@@ -3874,7 +3874,7 @@ IsDefunct
 return
 NS_ERROR_FAILURE
 ;
-nsAccessible
+Accessible
 *
 row
 =
@@ -3918,7 +3918,7 @@ idx
 +
 )
 {
-nsAccessible
+Accessible
 *
 cell
 =
@@ -4023,7 +4023,7 @@ IsDefunct
 return
 NS_ERROR_FAILURE
 ;
-nsAccessible
+Accessible
 *
 row
 =
@@ -4039,7 +4039,7 @@ row
 return
 NS_OK
 ;
-nsAccessible
+Accessible
 *
 table
 =
@@ -4254,7 +4254,7 @@ NS_ENSURE_STATE
 table
 )
 ;
-nsAccessible
+Accessible
 *
 list
 =
@@ -4262,7 +4262,7 @@ nsnull
 ;
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 tableAcc
 (
@@ -4298,7 +4298,7 @@ childIdx
 +
 )
 {
-nsAccessible
+Accessible
 *
 child
 =

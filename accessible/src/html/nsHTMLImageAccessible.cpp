@@ -145,7 +145,7 @@ eImageAccessible
 NS_IMPL_ISUPPORTS_INHERITED1
 (
 nsHTMLImageAccessible
-nsAccessible
+Accessible
 nsIAccessibleImage
 )
 PRUint64
@@ -300,7 +300,7 @@ NS_OK
 nsresult
 rv
 =
-nsAccessible
+Accessible
 :
 :
 GetNameInternal

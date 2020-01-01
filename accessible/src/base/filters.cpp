@@ -48,7 +48,7 @@ filters
 :
 GetSelected
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -73,7 +73,7 @@ filters
 :
 GetSelectable
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -98,7 +98,7 @@ filters
 :
 GetRow
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -124,7 +124,7 @@ filters
 :
 GetCell
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -176,7 +176,7 @@ filters
 :
 GetEmbeddedObject
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )

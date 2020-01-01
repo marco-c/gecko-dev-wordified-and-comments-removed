@@ -29,7 +29,7 @@ c
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -69,7 +69,7 @@ iid
 {
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 thisObj
 =
@@ -157,7 +157,7 @@ aAnchor
 ;
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 thisObj
 =
@@ -217,13 +217,13 @@ IsLink
 return
 S_FALSE
 ;
-nsAccessibleWrap
+AccessibleWrap
 *
 anchor
 =
 static_cast
 <
-nsAccessibleWrap
+AccessibleWrap
 *
 >
 (
@@ -350,7 +350,7 @@ aAnchorTarget
 ;
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 thisObj
 =
@@ -582,7 +582,7 @@ aIndex
 ;
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 thisObj
 =
@@ -673,7 +673,7 @@ aIndex
 ;
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 thisObj
 =
@@ -764,7 +764,7 @@ false
 ;
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 thisObj
 =

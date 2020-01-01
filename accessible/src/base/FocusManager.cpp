@@ -88,7 +88,7 @@ FocusManager
 )
 {
 }
-nsAccessible
+Accessible
 *
 FocusManager
 :
@@ -162,7 +162,7 @@ FocusManager
 IsFocused
 (
 const
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -264,13 +264,13 @@ FocusManager
 IsFocusWithin
 (
 const
-nsAccessible
+Accessible
 *
 aContainer
 )
 const
 {
-nsAccessible
+Accessible
 *
 child
 =
@@ -317,13 +317,13 @@ FocusManager
 IsInOrContainsFocus
 (
 const
-nsAccessible
+Accessible
 *
 aAccessible
 )
 const
 {
-nsAccessible
+Accessible
 *
 focus
 =
@@ -349,7 +349,7 @@ aAccessible
 return
 eFocused
 ;
-nsAccessible
+Accessible
 *
 child
 =
@@ -674,7 +674,7 @@ FocusManager
 :
 ActiveItemChanged
 (
-nsAccessible
+Accessible
 *
 aItem
 bool
@@ -718,7 +718,7 @@ aItem
 aCheckIfActive
 )
 {
-nsAccessible
+Accessible
 *
 widget
 =
@@ -768,7 +768,7 @@ mActiveItem
 =
 aItem
 ;
-nsAccessible
+Accessible
 *
 target
 =
@@ -867,7 +867,7 @@ DispatchFocusEvent
 DocAccessible
 *
 aDocument
-nsAccessible
+Accessible
 *
 aTarget
 )
@@ -972,7 +972,7 @@ OwnerDoc
 )
 )
 ;
-nsAccessible
+Accessible
 *
 target
 =
@@ -992,7 +992,7 @@ target
 document
 )
 {
-nsAccessible
+Accessible
 *
 DOMFocus
 =
@@ -1015,7 +1015,7 @@ DOMFocus
 )
 return
 ;
-nsAccessible
+Accessible
 *
 activeItem
 =
@@ -1096,7 +1096,7 @@ eFromUserInput
 :
 eNoUserInput
 ;
-nsAccessible
+Accessible
 *
 target
 =
@@ -1126,7 +1126,7 @@ GetDocAccessible
 (
 )
 ;
-nsAccessible
+Accessible
 *
 DOMFocus
 =
@@ -1149,7 +1149,7 @@ DOMFocus
 )
 return
 ;
-nsAccessible
+Accessible
 *
 activeItem
 =
@@ -1191,7 +1191,7 @@ roles
 MENUITEM
 )
 {
-nsAccessible
+Accessible
 *
 ARIAMenubar
 =
@@ -1368,7 +1368,7 @@ Document
 (
 )
 ;
-nsAccessible
+Accessible
 *
 anchorJump
 =

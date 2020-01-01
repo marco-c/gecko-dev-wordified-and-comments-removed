@@ -183,7 +183,7 @@ aEvent
 void
 HandlePopupShownEvent
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -247,7 +247,7 @@ a11y
 :
 RootAccessible
 *
-nsAccessible
+Accessible
 :
 :
 AsRoot

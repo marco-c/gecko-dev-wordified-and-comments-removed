@@ -140,7 +140,7 @@ a11y
 :
 TextLeafAccessible
 *
-nsAccessible
+Accessible
 :
 :
 AsTextLeaf

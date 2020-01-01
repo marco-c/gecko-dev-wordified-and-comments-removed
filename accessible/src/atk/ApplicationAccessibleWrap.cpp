@@ -2252,7 +2252,7 @@ this
 )
 )
 ;
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 ShutdownAtkObject
@@ -2385,7 +2385,7 @@ EVENT_SHOW
 )
 )
 {
-nsAccessible
+Accessible
 *
 windowAcc
 =
@@ -2418,13 +2418,13 @@ windowAcc
 }
 else
 {
-nsAccessible
+Accessible
 *
 windowAcc
 =
 reinterpret_cast
 <
-nsAccessible
+Accessible
 *
 >
 (
@@ -2962,7 +2962,7 @@ ApplicationAccessibleWrap
 :
 AppendChild
 (
-nsAccessible
+Accessible
 *
 aChild
 )
@@ -2985,7 +2985,7 @@ AtkObject
 *
 atkAccessible
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetAtkObject
@@ -3080,7 +3080,7 @@ ApplicationAccessibleWrap
 :
 RemoveChild
 (
-nsAccessible
+Accessible
 *
 aChild
 )
@@ -3099,7 +3099,7 @@ AtkObject
 *
 atkAccessible
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetAtkObject

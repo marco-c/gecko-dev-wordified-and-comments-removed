@@ -353,7 +353,7 @@ IsWidget
 const
 ;
 virtual
-nsAccessible
+Accessible
 *
 ContainerWidget
 (

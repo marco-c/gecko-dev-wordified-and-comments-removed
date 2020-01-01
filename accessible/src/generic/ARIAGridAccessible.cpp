@@ -80,7 +80,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -94,7 +94,7 @@ this
 NS_IMPL_ISUPPORTS_INHERITED1
 (
 ARIAGridAccessible
-nsAccessible
+Accessible
 nsIAccessibleTable
 )
 void
@@ -109,7 +109,7 @@ mTable
 =
 nsnull
 ;
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 Shutdown
@@ -135,7 +135,7 @@ filters
 GetRow
 )
 ;
-nsAccessible
+Accessible
 *
 row
 =
@@ -163,7 +163,7 @@ filters
 GetCell
 )
 ;
-nsAccessible
+Accessible
 *
 cell
 =
@@ -233,7 +233,7 @@ return
 rowCount
 ;
 }
-nsAccessible
+Accessible
 *
 ARIAGridAccessible
 :
@@ -246,7 +246,7 @@ PRUint32
 aColumnIndex
 )
 {
-nsAccessible
+Accessible
 *
 row
 =
@@ -775,7 +775,7 @@ filters
 GetRow
 )
 ;
-nsAccessible
+Accessible
 *
 row
 =
@@ -807,7 +807,7 @@ row
 )
 )
 {
-nsAccessible
+Accessible
 *
 cell
 =
@@ -895,7 +895,7 @@ IsDefunct
 return
 NS_ERROR_FAILURE
 ;
-nsAccessible
+Accessible
 *
 row
 =
@@ -931,7 +931,7 @@ filters
 GetCell
 )
 ;
-nsAccessible
+Accessible
 *
 cell
 =
@@ -1009,7 +1009,7 @@ IsDefunct
 return
 NS_ERROR_FAILURE
 ;
-nsAccessible
+Accessible
 *
 row
 =
@@ -1035,7 +1035,7 @@ row
 )
 )
 {
-nsAccessible
+Accessible
 *
 cell
 =
@@ -1125,7 +1125,7 @@ filters
 GetRow
 )
 ;
-nsAccessible
+Accessible
 *
 row
 =
@@ -1176,7 +1176,7 @@ filters
 GetCell
 )
 ;
-nsAccessible
+Accessible
 *
 cell
 =
@@ -1276,7 +1276,7 @@ filters
 GetRow
 )
 ;
-nsAccessible
+Accessible
 *
 row
 =
@@ -1326,7 +1326,7 @@ filters
 GetCell
 )
 ;
-nsAccessible
+Accessible
 *
 cell
 =
@@ -1464,7 +1464,7 @@ filters
 GetRow
 )
 ;
-nsAccessible
+Accessible
 *
 row
 =
@@ -1493,7 +1493,7 @@ filters
 GetCell
 )
 ;
-nsAccessible
+Accessible
 *
 cell
 =
@@ -1681,7 +1681,7 @@ filters
 GetRow
 )
 ;
-nsAccessible
+Accessible
 *
 row
 =
@@ -1759,7 +1759,7 @@ filters
 GetCell
 )
 ;
-nsAccessible
+Accessible
 *
 cell
 =
@@ -1981,7 +1981,7 @@ filters
 GetRow
 )
 ;
-nsAccessible
+Accessible
 *
 row
 =
@@ -2040,7 +2040,7 @@ filters
 GetCell
 )
 ;
-nsAccessible
+Accessible
 *
 cell
 =
@@ -2207,7 +2207,7 @@ filters
 GetRow
 )
 ;
-nsAccessible
+Accessible
 *
 row
 =
@@ -2295,7 +2295,7 @@ filters
 GetRow
 )
 ;
-nsAccessible
+Accessible
 *
 row
 =
@@ -2329,7 +2329,7 @@ rv
 rv
 )
 ;
-nsAccessible
+Accessible
 *
 cell
 =
@@ -2374,7 +2374,7 @@ PRUint32
 aRowIdx
 )
 {
-nsAccessible
+Accessible
 *
 row
 =
@@ -2414,7 +2414,7 @@ filters
 GetRow
 )
 ;
-nsAccessible
+Accessible
 *
 row
 =
@@ -2433,7 +2433,7 @@ Next
 )
 )
 {
-nsAccessible
+Accessible
 *
 cell
 =
@@ -2591,7 +2591,7 @@ aColumn
 colCount
 ;
 }
-nsAccessible
+Accessible
 *
 ARIAGridAccessible
 :
@@ -2617,7 +2617,7 @@ filters
 GetRow
 )
 ;
-nsAccessible
+Accessible
 *
 row
 =
@@ -2653,14 +2653,14 @@ return
 row
 ;
 }
-nsAccessible
+Accessible
 *
 ARIAGridAccessible
 :
 :
 GetCellInRowAt
 (
-nsAccessible
+Accessible
 *
 aRow
 PRInt32
@@ -2682,7 +2682,7 @@ filters
 GetCell
 )
 ;
-nsAccessible
+Accessible
 *
 cell
 =
@@ -2724,7 +2724,7 @@ ARIAGridAccessible
 :
 SetARIASelected
 (
-nsAccessible
+Accessible
 *
 aAccessible
 bool
@@ -2850,7 +2850,7 @@ filters
 GetCell
 )
 ;
-nsAccessible
+Accessible
 *
 cell
 =
@@ -2918,7 +2918,7 @@ roles
 COLUMNHEADER
 )
 {
-nsAccessible
+Accessible
 *
 row
 =
@@ -2982,7 +2982,7 @@ filters
 GetCell
 )
 ;
-nsAccessible
+Accessible
 *
 cell
 =
@@ -3085,7 +3085,7 @@ filters
 GetRow
 )
 ;
-nsAccessible
+Accessible
 *
 row
 =
@@ -3194,7 +3194,7 @@ filters
 GetCell
 )
 ;
-nsAccessible
+Accessible
 *
 cell
 =
@@ -3418,7 +3418,7 @@ aTable
 =
 nsnull
 ;
-nsAccessible
+Accessible
 *
 thisRow
 =
@@ -3448,7 +3448,7 @@ ROW
 return
 NS_OK
 ;
-nsAccessible
+Accessible
 *
 table
 =
@@ -3543,7 +3543,7 @@ IsDefunct
 return
 NS_ERROR_FAILURE
 ;
-nsAccessible
+Accessible
 *
 row
 =
@@ -3587,7 +3587,7 @@ idx
 +
 )
 {
-nsAccessible
+Accessible
 *
 cell
 =
@@ -3683,7 +3683,7 @@ IsDefunct
 return
 NS_ERROR_FAILURE
 ;
-nsAccessible
+Accessible
 *
 row
 =
@@ -3699,7 +3699,7 @@ row
 return
 NS_OK
 ;
-nsAccessible
+Accessible
 *
 table
 =
@@ -4032,7 +4032,7 @@ IsDefunct
 return
 NS_ERROR_FAILURE
 ;
-nsAccessible
+Accessible
 *
 row
 =
@@ -4127,7 +4127,7 @@ SELECTED
 )
 return
 ;
-nsAccessible
+Accessible
 *
 row
 =
@@ -4252,7 +4252,7 @@ rv
 rv
 )
 ;
-nsAccessible
+Accessible
 *
 thisRow
 =
@@ -4316,7 +4316,7 @@ childIdx
 +
 )
 {
-nsAccessible
+Accessible
 *
 child
 =
@@ -4385,7 +4385,7 @@ colCount
 +
 ;
 }
-nsAccessible
+Accessible
 *
 table
 =
@@ -4469,7 +4469,7 @@ childIdx
 +
 )
 {
-nsAccessible
+Accessible
 *
 child
 =

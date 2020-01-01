@@ -393,7 +393,7 @@ if
 mRoleMapEntry
 )
 {
-nsAccessible
+Accessible
 :
 :
 Name
@@ -1399,7 +1399,7 @@ document
 "
 )
 ;
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -1652,7 +1652,7 @@ accEvent
 return
 ;
 }
-nsAccessible
+Accessible
 *
 treeItemAcc
 =
@@ -2000,7 +2000,7 @@ DOMMenuItemInactive
 )
 )
 {
-nsAccessible
+Accessible
 *
 widget
 =
@@ -2078,7 +2078,7 @@ accessible
 eFromUserInput
 )
 ;
-nsAccessible
+Accessible
 *
 activeItem
 =
@@ -2387,7 +2387,7 @@ RootAccessible
 :
 HandlePopupShownEvent
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -2468,7 +2468,7 @@ roles
 COMBOBOX_LIST
 )
 {
-nsAccessible
+Accessible
 *
 combobox
 =
@@ -2581,7 +2581,7 @@ document
 )
 return
 ;
-nsAccessible
+Accessible
 *
 popup
 =
@@ -2599,7 +2599,7 @@ if
 popup
 )
 {
-nsAccessible
+Accessible
 *
 popupContainer
 =
@@ -2644,7 +2644,7 @@ idx
 +
 )
 {
-nsAccessible
+Accessible
 *
 child
 =
@@ -2701,7 +2701,7 @@ notifyOf
 =
 0
 ;
-nsAccessible
+Accessible
 *
 widget
 =
@@ -2822,7 +2822,7 @@ IsMenuButton
 )
 )
 {
-nsAccessible
+Accessible
 *
 compositeWidget
 =

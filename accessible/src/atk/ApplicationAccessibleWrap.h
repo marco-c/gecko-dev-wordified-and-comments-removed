@@ -74,7 +74,7 @@ virtual
 bool
 AppendChild
 (
-nsAccessible
+Accessible
 *
 aChild
 )
@@ -83,7 +83,7 @@ virtual
 bool
 RemoveChild
 (
-nsAccessible
+Accessible
 *
 aChild
 )

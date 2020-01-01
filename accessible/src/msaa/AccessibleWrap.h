@@ -1,9 +1,9 @@
 #
 ifndef
-_nsAccessibleWrap_H_
+_AccessibleWrap_H_
 #
 define
-_nsAccessibleWrap_H_
+_AccessibleWrap_H_
 #
 include
 "
@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsAccessible
+Accessible
 .
 h
 "
@@ -262,10 +262,10 @@ Super
 IMPL_IUNKNOWN_QUERY_TAIL
 \
 class
-nsAccessibleWrap
+AccessibleWrap
 :
 public
-nsAccessible
+Accessible
 public
 ia2AccessibleComponent
 public
@@ -277,7 +277,7 @@ IAccessible2
 {
 public
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 nsIContent
 *
@@ -287,7 +287,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessible
+Accessible
 (
 aContent
 aDoc
@@ -296,7 +296,7 @@ aDoc
 }
 virtual
 ~
-nsAccessibleWrap
+AccessibleWrap
 (
 )
 {
@@ -897,7 +897,7 @@ static
 PRInt32
 GetChildIDFor
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -906,7 +906,7 @@ static
 HWND
 GetHWNDFor
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -928,7 +928,7 @@ UpdateSystemCaret
 (
 )
 ;
-nsAccessible
+Accessible
 *
 GetXPAccessibleFor
 (

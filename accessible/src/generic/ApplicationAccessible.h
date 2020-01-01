@@ -7,7 +7,7 @@ mozilla_a11y_ApplicationAccessible_h__
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -42,7 +42,7 @@ class
 ApplicationAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 public
 nsIAccessibleApplication
 {
@@ -319,7 +319,7 @@ aRelType
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 ChildAtPoint
 (
@@ -332,7 +332,7 @@ aWhichChild
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 FocusedChild
 (
@@ -366,7 +366,7 @@ CacheChildren
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 GetSiblingAtOffset
 (

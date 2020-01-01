@@ -163,7 +163,7 @@ class
 nsHTMLTableAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 public
 xpcAccessibleTable
 public
@@ -192,7 +192,7 @@ aDoc
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_OR_FORWARD_NSIACCESSIBLETABLE_WITH_XPCACCESSIBLETABLE
 virtual
-nsAccessible
+Accessible
 *
 Caption
 (
@@ -220,7 +220,7 @@ RowCount
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 CellAt
 (

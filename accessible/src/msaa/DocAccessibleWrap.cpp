@@ -850,7 +850,7 @@ NULL
 HRESULT
 hr
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 get_accValue

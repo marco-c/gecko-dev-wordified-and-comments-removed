@@ -2526,7 +2526,7 @@ const
 char
 *
 aDescr
-nsAccessible
+Accessible
 *
 aAcc
 )

@@ -44,7 +44,7 @@ IsMulticolumn
 ;
 IMPL_IUNKNOWN_QUERY_ENTRY
 (
-nsAccessibleWrap
+AccessibleWrap
 )
 IMPL_IUNKNOWN_QUERY_TAIL
 nsXULListCellAccessibleWrap

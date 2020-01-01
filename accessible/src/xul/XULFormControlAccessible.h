@@ -7,7 +7,7 @@ MOZILLA_A11Y_XULFormControlAccessible_H_
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -49,7 +49,7 @@ class
 XULButtonAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -134,7 +134,7 @@ AreItemsOperable
 const
 ;
 virtual
-nsAccessible
+Accessible
 *
 ContainerWidget
 (
@@ -305,7 +305,7 @@ class
 XULGroupboxAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -375,7 +375,7 @@ NativeState
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 ContainerWidget
 (
@@ -447,7 +447,7 @@ class
 XULStatusBarAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -509,7 +509,7 @@ static
 bool
 IsSeparator
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -520,7 +520,7 @@ class
 XULToolbarAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :

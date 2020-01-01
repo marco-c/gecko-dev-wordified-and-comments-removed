@@ -102,7 +102,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -239,7 +239,7 @@ NativeState
 PRUint64
 state
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 NativeState
@@ -384,7 +384,7 @@ aType
 Relation
 rel
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 RelationByType
@@ -583,7 +583,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -618,7 +618,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -653,7 +653,7 @@ aType
 Relation
 rel
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 RelationByType

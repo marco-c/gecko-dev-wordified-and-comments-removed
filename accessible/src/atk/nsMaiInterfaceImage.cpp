@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -58,7 +58,7 @@ AtkCoordType
 aCoordType
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -164,7 +164,7 @@ gint
 aAccHeight
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =

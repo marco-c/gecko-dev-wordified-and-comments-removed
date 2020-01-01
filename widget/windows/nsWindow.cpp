@@ -15076,7 +15076,7 @@ result
 #
 ifdef
 ACCESSIBILITY
-nsAccessible
+Accessible
 *
 nsWindow
 :
@@ -19388,7 +19388,7 @@ objId
 OBJID_CLIENT
 )
 {
-nsAccessible
+Accessible
 *
 rootAccessible
 =
@@ -29095,7 +29095,7 @@ NS_LOG_WMGETOBJECT_WNDACC
 aWnd
 )
 \
-nsAccessible
+Accessible
 *
 acc
 =
@@ -29429,7 +29429,7 @@ aHwnd
 )
 #
 endif
-nsAccessible
+Accessible
 *
 nsWindow
 :

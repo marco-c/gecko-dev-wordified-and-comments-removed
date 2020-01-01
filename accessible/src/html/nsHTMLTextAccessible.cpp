@@ -274,7 +274,7 @@ aType
 Relation
 rel
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 RelationByType
@@ -341,7 +341,7 @@ aAttributes
 nsresult
 rv
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetAttributesInternal

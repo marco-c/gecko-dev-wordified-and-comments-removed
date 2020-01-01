@@ -1,7 +1,7 @@
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -259,7 +259,7 @@ kIEnumVariantDisconnected
 ;
 ITypeInfo
 *
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 gTypeInfo
@@ -268,12 +268,12 @@ NULL
 ;
 NS_IMPL_ISUPPORTS_INHERITED0
 (
-nsAccessibleWrap
-nsAccessible
+AccessibleWrap
+Accessible
 )
 ;
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 QueryInterface
@@ -571,7 +571,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 get_accParent
@@ -692,7 +692,7 @@ S_OK
 }
 }
 }
-nsAccessible
+Accessible
 *
 xpParentAcc
 =
@@ -765,7 +765,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 get_accChildCount
@@ -842,7 +842,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 get_accChild
@@ -873,7 +873,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-nsAccessible
+Accessible
 *
 child
 =
@@ -932,7 +932,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 get_accName
@@ -961,7 +961,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-nsAccessible
+Accessible
 *
 xpAccessible
 =
@@ -1062,7 +1062,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 get_accValue
@@ -1091,7 +1091,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-nsAccessible
+Accessible
 *
 xpAccessible
 =
@@ -1210,7 +1210,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 get_accDescription
@@ -1239,7 +1239,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-nsAccessible
+Accessible
 *
 xpAccessible
 =
@@ -1328,7 +1328,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 get_accRole
@@ -1357,7 +1357,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-nsAccessible
+Accessible
 *
 xpAccessible
 =
@@ -1494,7 +1494,7 @@ roles
 ROW
 )
 {
-nsAccessible
+Accessible
 *
 xpParent
 =
@@ -1745,7 +1745,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 get_accState
@@ -1788,7 +1788,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-nsAccessible
+Accessible
 *
 xpAccessible
 =
@@ -1867,7 +1867,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 get_accHelp
@@ -1912,7 +1912,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 get_accHelpTopic
@@ -1966,7 +1966,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 get_accKeyboardShortcut
@@ -2003,7 +2003,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-nsAccessible
+Accessible
 *
 acc
 =
@@ -2118,7 +2118,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 get_accFocus
@@ -2145,7 +2145,7 @@ VariantInit
 pvarChild
 )
 ;
-nsAccessible
+Accessible
 *
 focusedAccessible
 =
@@ -2655,7 +2655,7 @@ i
 .
 pdispVal
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 NativeAccessible
@@ -2840,7 +2840,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 get_accSelection
@@ -2957,7 +2957,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 get_accDefaultAction
@@ -2986,7 +2986,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-nsAccessible
+Accessible
 *
 xpAccessible
 =
@@ -3084,7 +3084,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 accSelect
@@ -3106,7 +3106,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-nsAccessible
+Accessible
 *
 xpAccessible
 =
@@ -3241,7 +3241,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 accLocation
@@ -3277,7 +3277,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-nsAccessible
+Accessible
 *
 xpAccessible
 =
@@ -3380,7 +3380,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 accNavigate
@@ -3414,7 +3414,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -3448,7 +3448,7 @@ VariantInit
 pvarEndUpAt
 )
 ;
-nsAccessible
+Accessible
 *
 navAccessible
 =
@@ -3835,7 +3835,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 accHitTest
@@ -3866,7 +3866,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -3964,7 +3964,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 accDoDefaultAction
@@ -3984,7 +3984,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-nsAccessible
+Accessible
 *
 xpAccessible
 =
@@ -4050,7 +4050,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 put_accName
@@ -4066,7 +4066,7 @@ E_NOTIMPL
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 put_accValue
@@ -4082,7 +4082,7 @@ E_NOTIMPL
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 get_nRelations
@@ -4191,7 +4191,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 get_relation
@@ -4341,7 +4341,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 get_relations
@@ -4495,7 +4495,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 role
@@ -4597,7 +4597,7 @@ roles
 ROW
 )
 {
-nsAccessible
+Accessible
 *
 xpParent
 =
@@ -4657,7 +4657,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 scrollTo
@@ -4721,7 +4721,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 scrollToPoint
@@ -4807,7 +4807,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 get_groupPosition
@@ -4930,7 +4930,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 get_states
@@ -5207,7 +5207,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 get_extendedRole
@@ -5249,7 +5249,7 @@ E_NOTIMPL
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 get_localizedExtendedRole
@@ -5291,7 +5291,7 @@ E_NOTIMPL
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 get_nExtendedStates
@@ -5333,7 +5333,7 @@ E_NOTIMPL
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 get_extendedStates
@@ -5386,7 +5386,7 @@ E_NOTIMPL
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 get_localizedExtendedStates
@@ -5439,7 +5439,7 @@ E_NOTIMPL
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 get_uniqueID
@@ -5493,7 +5493,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 get_windowHandle
@@ -5555,7 +5555,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 get_indexInParent
@@ -5637,7 +5637,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 get_locale
@@ -5877,7 +5877,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 get_attributes
@@ -5965,7 +5965,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetTypeInfoCount
@@ -5985,7 +5985,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetTypeInfo
@@ -6049,7 +6049,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetIDsOfNames
@@ -6101,7 +6101,7 @@ hr
 ;
 }
 STDMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 Invoke
@@ -6169,7 +6169,7 @@ puArgErr
 ;
 }
 NS_IMETHODIMP
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetNativeInterface
@@ -6201,7 +6201,7 @@ NS_OK
 ;
 }
 nsresult
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 HandleAccEvent
@@ -6214,7 +6214,7 @@ aEvent
 nsresult
 rv
 =
-nsAccessible
+Accessible
 :
 :
 HandleAccEvent
@@ -6236,7 +6236,7 @@ aEvent
 ;
 }
 nsresult
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 FirePlatformEvent
@@ -6322,7 +6322,7 @@ IsDefunct
 NS_ERROR_FAILURE
 )
 ;
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -6576,12 +6576,12 @@ NS_OK
 ;
 }
 PRInt32
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetChildIDFor
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -6604,12 +6604,12 @@ UniqueID
 ;
 }
 HWND
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetHWNDFor
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -6778,7 +6778,7 @@ nsnull
 ;
 }
 HRESULT
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 ConvertToIA2Attributes
@@ -7096,7 +7096,7 @@ E_OUTOFMEMORY
 }
 IDispatch
 *
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 NativeAccessible
@@ -7161,9 +7161,9 @@ msaaAccessible
 )
 ;
 }
-nsAccessible
+Accessible
 *
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetXPAccessibleFor
@@ -7274,7 +7274,7 @@ Document
 (
 )
 ;
-nsAccessible
+Accessible
 *
 child
 =
@@ -7286,7 +7286,7 @@ GetAccessibleByUniqueIDInSubtree
 uniqueID
 )
 ;
-nsAccessible
+Accessible
 *
 parent
 =
@@ -7349,7 +7349,7 @@ lVal
 ;
 }
 void
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 UpdateSystemCaret
@@ -7531,7 +7531,7 @@ caretBitMap
 }
 ITypeInfo
 *
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 GetTI

@@ -34,7 +34,7 @@ FireEvent
 (
 PRUint32
 aEventType
-nsAccessible
+Accessible
 *
 aAccessible
 EIsFromUserInput

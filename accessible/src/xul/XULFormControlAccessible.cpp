@@ -188,7 +188,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -209,7 +209,7 @@ eMenuButtonAccessible
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 XULButtonAccessible
-nsAccessible
+Accessible
 )
 PRUint8
 XULButtonAccessible
@@ -315,7 +315,7 @@ NativeState
 PRUint64
 state
 =
-nsAccessible
+Accessible
 :
 :
 NativeState
@@ -587,7 +587,7 @@ IsMenuButton
 )
 )
 {
-nsAccessible
+Accessible
 *
 menuPopup
 =
@@ -632,7 +632,7 @@ return
 false
 ;
 }
-nsAccessible
+Accessible
 *
 XULButtonAccessible
 :
@@ -734,13 +734,13 @@ isMenuButton
 )
 return
 ;
-nsAccessible
+Accessible
 *
 menupopup
 =
 nsnull
 ;
-nsAccessible
+Accessible
 *
 button
 =
@@ -754,7 +754,7 @@ mContent
 true
 )
 ;
-nsAccessible
+Accessible
 *
 child
 =
@@ -1424,7 +1424,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -1457,7 +1457,7 @@ nsAString
 aName
 )
 {
-nsAccessible
+Accessible
 *
 label
 =
@@ -1503,7 +1503,7 @@ aType
 Relation
 rel
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 RelationByType
@@ -1547,7 +1547,7 @@ childIdx
 +
 )
 {
-nsAccessible
+Accessible
 *
 childAcc
 =
@@ -1586,7 +1586,7 @@ nsIAccessibleRelation
 RELATION_LABEL_FOR
 )
 ;
-nsAccessible
+Accessible
 *
 testGroupbox
 =
@@ -1741,7 +1741,7 @@ return
 state
 ;
 }
-nsAccessible
+Accessible
 *
 XULRadioButtonAccessible
 :
@@ -1799,7 +1799,7 @@ NativeState
 )
 {
 return
-nsAccessible
+Accessible
 :
 :
 NativeState
@@ -1880,7 +1880,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -1946,7 +1946,7 @@ posInSet
 =
 0
 ;
-nsAccessible
+Accessible
 *
 parent
 =
@@ -1987,7 +1987,7 @@ childIdx
 +
 )
 {
-nsAccessible
+Accessible
 *
 child
 =
@@ -2054,7 +2054,7 @@ XULToolbarButtonAccessible
 :
 IsSeparator
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -2137,7 +2137,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -2274,7 +2274,7 @@ aDoc
 NS_IMPL_ISUPPORTS_INHERITED3
 (
 XULTextFieldAccessible
-nsAccessible
+Accessible
 nsHyperTextAccessible
 nsIAccessibleText
 nsIAccessibleEditableText
@@ -2782,7 +2782,7 @@ inputContent
 false
 )
 ;
-nsAccessible
+Accessible
 *
 child
 =

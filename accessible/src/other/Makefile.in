@@ -102,7 +102,7 @@ nsAccessNodeWrap
 .
 cpp
 \
-nsAccessibleWrap
+AccessibleWrap
 .
 cpp
 \
@@ -163,6 +163,17 @@ srcdir
 .
 /
 base
+\
+-
+I
+(
+srcdir
+)
+/
+.
+.
+/
+generic
 \
 -
 I

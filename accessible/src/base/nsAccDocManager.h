@@ -54,7 +54,7 @@ nsIPresShell
 h
 "
 class
-nsAccessible
+Accessible
 ;
 class
 DocAccessible
@@ -117,7 +117,7 @@ GetDocument
 nsnull
 ;
 }
-nsAccessible
+Accessible
 *
 FindAccessibleInCache
 (
@@ -279,7 +279,7 @@ ClearDocCache
 struct
 nsSearchAccessibleInCacheArg
 {
-nsAccessible
+Accessible
 *
 mAccessible
 ;

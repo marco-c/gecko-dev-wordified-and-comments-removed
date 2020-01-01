@@ -29,7 +29,7 @@ class
 nsXULTabAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -161,7 +161,7 @@ class
 nsXULTabpanelsAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -193,7 +193,7 @@ class
 nsXULTabpanelAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :

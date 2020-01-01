@@ -538,7 +538,7 @@ id
 initWithAccessible
 :
 (
-nsAccessibleWrap
+AccessibleWrap
 *
 )
 geckoAccessible
@@ -1082,7 +1082,7 @@ nsIAccessibleRelation
 RELATION_LABELLED_BY
 )
 ;
-nsAccessible
+Accessible
 *
 tempAcc
 =
@@ -1494,7 +1494,7 @@ mIsExpired
 return
 nil
 ;
-nsAccessible
+Accessible
 *
 focusedGeckoChild
 =
@@ -1567,7 +1567,7 @@ parent
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
 ;
-nsAccessible
+Accessible
 *
 accessibleParent
 =
@@ -1825,7 +1825,7 @@ children
 .
 nsAutoTArray
 <
-nsAccessible
+Accessible
 *
 10
 >
@@ -1879,7 +1879,7 @@ idx
 +
 )
 {
-nsAccessible
+Accessible
 *
 curAccessible
 =
@@ -3016,13 +3016,13 @@ window
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
 ;
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
 static_cast
 <
-nsAccessibleWrap
+AccessibleWrap
 *
 >
 (
@@ -3137,7 +3137,7 @@ void
 appendChild
 :
 (
-nsAccessible
+Accessible
 *
 )
 aAccessible

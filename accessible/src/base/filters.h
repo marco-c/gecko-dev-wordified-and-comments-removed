@@ -5,7 +5,7 @@ a11yFilters_h_
 define
 a11yFilters_h_
 class
-nsAccessible
+Accessible
 ;
 namespace
 filters
@@ -17,14 +17,14 @@ bool
 FilterFuncPtr
 )
 (
-nsAccessible
+Accessible
 *
 )
 ;
 bool
 GetSelected
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -32,7 +32,7 @@ aAccessible
 bool
 GetSelectable
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -40,7 +40,7 @@ aAccessible
 bool
 GetRow
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -48,7 +48,7 @@ aAccessible
 bool
 GetCell
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -56,7 +56,7 @@ aAccessible
 bool
 GetEmbeddedObject
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )

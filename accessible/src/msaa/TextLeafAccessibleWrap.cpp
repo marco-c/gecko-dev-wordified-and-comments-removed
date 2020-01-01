@@ -207,7 +207,7 @@ this
 else
 {
 return
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 QueryInterface

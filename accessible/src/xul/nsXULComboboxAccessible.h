@@ -15,7 +15,7 @@ class
 nsXULComboboxAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :

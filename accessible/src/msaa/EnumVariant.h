@@ -7,7 +7,7 @@ mozilla_a11y_EnumVariant_h__
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -28,7 +28,7 @@ public
 :
 ChildrenEnumVariant
 (
-nsAccessibleWrap
+AccessibleWrap
 *
 aAnchor
 )
@@ -187,11 +187,11 @@ protected
 :
 nsRefPtr
 <
-nsAccessibleWrap
+AccessibleWrap
 >
 mAnchorAcc
 ;
-nsAccessible
+Accessible
 *
 mCurAcc
 ;

@@ -69,7 +69,7 @@ DocAccessible
 aDoc
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 aContent
 aDoc
@@ -88,7 +88,7 @@ OuterDocAccessible
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 OuterDocAccessible
-nsAccessible
+Accessible
 )
 role
 OuterDocAccessible
@@ -105,7 +105,7 @@ roles
 INTERNAL_FRAME
 ;
 }
-nsAccessible
+Accessible
 *
 OuterDocAccessible
 :
@@ -185,7 +185,7 @@ docHeight
 return
 nsnull
 ;
-nsAccessible
+Accessible
 *
 child
 =
@@ -265,7 +265,7 @@ NS_OK
 ;
 }
 return
-nsAccessible
+Accessible
 :
 :
 GetAttributesInternal
@@ -397,7 +397,7 @@ this
 }
 #
 endif
-nsAccessible
+Accessible
 *
 childAcc
 =
@@ -463,7 +463,7 @@ Shutdown
 )
 ;
 }
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 Shutdown
@@ -491,7 +491,7 @@ OuterDocAccessible
 :
 AppendChild
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -517,7 +517,7 @@ Shutdown
 if
 (
 !
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 AppendChild
@@ -588,12 +588,12 @@ OuterDocAccessible
 :
 RemoveChild
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
 {
-nsAccessible
+Accessible
 *
 child
 =
@@ -687,7 +687,7 @@ endif
 bool
 wasRemoved
 =
-nsAccessibleWrap
+AccessibleWrap
 :
 :
 RemoveChild

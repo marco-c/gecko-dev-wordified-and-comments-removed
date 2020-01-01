@@ -123,7 +123,7 @@ h
 #
 include
 "
-nsAccessible
+Accessible
 .
 h
 "
@@ -179,7 +179,7 @@ aString
 nsString
 text
 ;
-nsAccessible
+Accessible
 :
 :
 TranslateString

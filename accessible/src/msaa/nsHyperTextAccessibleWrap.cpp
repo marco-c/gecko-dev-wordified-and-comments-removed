@@ -20,7 +20,7 @@ nsHyperTextAccessible
 IMPL_IUNKNOWN_INHERITED2
 (
 nsHyperTextAccessibleWrap
-nsAccessibleWrap
+AccessibleWrap
 ia2AccessibleHypertext
 CAccessibleEditableText
 )
@@ -66,7 +66,7 @@ nsIAccessibleEvent
 EVENT_TEXT_INSERTED
 )
 {
-nsAccessible
+Accessible
 *
 accessible
 =
@@ -234,7 +234,7 @@ isInserted
 return
 NS_OK
 ;
-nsAccessible
+Accessible
 *
 targetAcc
 =

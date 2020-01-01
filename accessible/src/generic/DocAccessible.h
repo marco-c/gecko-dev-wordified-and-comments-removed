@@ -159,7 +159,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 DocAccessible
-nsAccessible
+Accessible
 )
 NS_DECL_NSIACCESSIBLEDOCUMENT
 NS_DECL_NSIOBSERVER
@@ -167,12 +167,6 @@ NS_DECL_NSIACCESSIBLECURSORABLE
 NS_DECL_NSIACCESSIBLEPIVOTOBSERVER
 public
 :
-using
-nsAccessible
-:
-:
-GetParent
-;
 DocAccessible
 (
 nsIDocument
@@ -298,7 +292,7 @@ aDescription
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 FocusedChild
 (
@@ -593,11 +587,10 @@ AccEvent
 aEvent
 )
 ;
-inline
 void
 MaybeNotifyOfValueChange
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -678,8 +671,7 @@ valueChangeEvent
 ;
 }
 }
-inline
-nsAccessible
+Accessible
 *
 AnchorJump
 (
@@ -692,7 +684,6 @@ mAnchorJumpElm
 )
 ;
 }
-inline
 void
 SetAnchorJump
 (
@@ -706,7 +697,6 @@ mAnchorJumpElm
 aTargetNode
 ;
 }
-inline
 void
 BindChildDocument
 (
@@ -731,7 +721,6 @@ Class
 class
 Arg
 >
-inline
 void
 HandleNotification
 (
@@ -774,7 +763,7 @@ aArg
 ;
 }
 }
-nsAccessible
+Accessible
 *
 GetAccessible
 (
@@ -784,7 +773,6 @@ aNode
 )
 const
 ;
-inline
 bool
 HasAccessible
 (
@@ -801,17 +789,16 @@ aNode
 )
 ;
 }
-inline
 bool
 IsInDocument
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
 const
 {
-nsAccessible
+Accessible
 *
 acc
 =
@@ -857,8 +844,7 @@ GetNode
 false
 ;
 }
-inline
-nsAccessible
+Accessible
 *
 GetAccessibleByUniqueID
 (
@@ -885,7 +871,7 @@ aUniqueID
 )
 ;
 }
-nsAccessible
+Accessible
 *
 GetAccessibleByUniqueIDInSubtree
 (
@@ -894,7 +880,7 @@ void
 aUniqueID
 )
 ;
-nsAccessible
+Accessible
 *
 GetAccessibleOrContainer
 (
@@ -903,8 +889,7 @@ nsINode
 aNode
 )
 ;
-inline
-nsAccessible
+Accessible
 *
 GetContainerAccessible
 (
@@ -952,7 +937,7 @@ nsnull
 bool
 BindToDocument
 (
-nsAccessible
+Accessible
 *
 aAccessible
 nsRoleMapEntry
@@ -963,7 +948,7 @@ aRoleMapEntry
 void
 UnbindFromDocument
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -993,7 +978,6 @@ nsIContent
 aChildNode
 )
 ;
-inline
 void
 UpdateText
 (
@@ -1067,7 +1051,6 @@ RemoveEventListeners
 (
 )
 ;
-inline
 void
 NotifyOfLoad
 (
@@ -1153,7 +1136,7 @@ aChildDocument
 void
 AddDependentIDsFor
 (
-nsAccessible
+Accessible
 *
 aRelProvider
 nsIAtom
@@ -1166,7 +1149,7 @@ nsnull
 void
 RemoveDependentIDsFor
 (
-nsAccessible
+Accessible
 *
 aRelProvider
 nsIAtom
@@ -1236,7 +1219,7 @@ aEvent
 void
 ProcessContentInserted
 (
-nsAccessible
+Accessible
 *
 aContainer
 const
@@ -1259,7 +1242,7 @@ ProcessInvalidationList
 void
 UpdateTree
 (
-nsAccessible
+Accessible
 *
 aContainer
 nsIContent
@@ -1286,7 +1269,7 @@ eAlertAccessible
 PRUint32
 UpdateTreeInternal
 (
-nsAccessible
+Accessible
 *
 aChild
 bool
@@ -1296,7 +1279,7 @@ aIsInsert
 void
 CacheChildrenInSubtree
 (
-nsAccessible
+Accessible
 *
 aRoot
 )
@@ -1304,7 +1287,7 @@ aRoot
 void
 UncacheChildrenInSubtree
 (
-nsAccessible
+Accessible
 *
 aRoot
 )
@@ -1312,7 +1295,7 @@ aRoot
 void
 ShutdownChildrenInSubtree
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -1337,7 +1320,7 @@ aClosure
 ;
 protected
 :
-nsAccessibleHashtable
+AccessibleHashtable
 mAccessibleCache
 ;
 nsDataHashtable
@@ -1347,7 +1330,7 @@ nsPtrHashKey
 const
 nsINode
 >
-nsAccessible
+Accessible
 *
 >
 mNodeToAccessibleMap
@@ -1510,7 +1493,7 @@ mPresShell
 inline
 DocAccessible
 *
-nsAccessible
+Accessible
 :
 :
 AsDoc

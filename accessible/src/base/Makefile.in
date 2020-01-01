@@ -150,10 +150,6 @@ nsAccessibilityService
 .
 cpp
 \
-nsAccessible
-.
-cpp
-\
 nsAccessiblePivot
 .
 cpp
@@ -223,10 +219,6 @@ nsAccDocManager
 h
 \
 nsAccessibilityService
-.
-h
-\
-nsAccessible
 .
 h
 \

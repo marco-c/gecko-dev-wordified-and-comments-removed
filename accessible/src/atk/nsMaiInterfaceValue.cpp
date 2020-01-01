@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -36,7 +36,7 @@ GValue
 value
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -137,7 +137,7 @@ GValue
 value
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -238,7 +238,7 @@ GValue
 value
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -339,7 +339,7 @@ GValue
 minimumIncrement
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =
@@ -441,7 +441,7 @@ GValue
 value
 )
 {
-nsAccessibleWrap
+AccessibleWrap
 *
 accWrap
 =

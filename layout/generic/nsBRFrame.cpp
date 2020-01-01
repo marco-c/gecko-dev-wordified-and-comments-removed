@@ -281,7 +281,7 @@ ACCESSIBILITY
 virtual
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateAccessible
 (
@@ -954,7 +954,7 @@ ifdef
 ACCESSIBILITY
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 BRFrame
 :

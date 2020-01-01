@@ -98,7 +98,7 @@ ApplicationAccessible
 (
 )
 :
-nsAccessibleWrap
+AccessibleWrap
 (
 nsnull
 nsnull
@@ -113,7 +113,7 @@ eApplicationAccessible
 NS_IMPL_ISUPPORTS_INHERITED1
 (
 ApplicationAccessible
-nsAccessible
+Accessible
 nsIAccessibleApplication
 )
 NS_IMETHODIMP
@@ -503,7 +503,7 @@ return
 NS_OK
 ;
 }
-nsAccessible
+Accessible
 *
 ApplicationAccessible
 :
@@ -522,7 +522,7 @@ return
 nsnull
 ;
 }
-nsAccessible
+Accessible
 *
 ApplicationAccessible
 :
@@ -531,7 +531,7 @@ FocusedChild
 (
 )
 {
-nsAccessible
+Accessible
 *
 focus
 =
@@ -1224,7 +1224,7 @@ hasMore
 ;
 }
 }
-nsAccessible
+Accessible
 *
 ApplicationAccessible
 :

@@ -200,7 +200,7 @@ aDocument
 )
 ;
 }
-nsAccessible
+Accessible
 *
 nsAccDocManager
 :
@@ -1572,7 +1572,7 @@ if
 isRootDoc
 )
 {
-nsAccessible
+Accessible
 *
 appAcc
 =

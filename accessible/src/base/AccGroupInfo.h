@@ -27,7 +27,7 @@ public
 :
 AccGroupInfo
 (
-nsAccessible
+Accessible
 *
 aItem
 mozilla
@@ -71,7 +71,7 @@ return
 mSetSize
 ;
 }
-nsAccessible
+Accessible
 *
 ConceptualParent
 (
@@ -87,7 +87,7 @@ AccGroupInfo
 *
 CreateGroupInfo
 (
-nsAccessible
+Accessible
 *
 aAccessible
 )
@@ -497,7 +497,7 @@ mPosInSet
 PRUint32
 mSetSize
 ;
-nsAccessible
+Accessible
 *
 mParent
 ;

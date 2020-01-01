@@ -1175,7 +1175,7 @@ mGeckoAccessible
 return
 nil
 ;
-nsAccessible
+Accessible
 *
 accessible
 =

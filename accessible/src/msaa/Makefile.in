@@ -98,6 +98,10 @@ LIBXUL_LIBRARY
 CPPSRCS
 =
 \
+AccessibleWrap
+.
+cpp
+\
 ApplicationAccessibleWrap
 .
 cpp
@@ -111,10 +115,6 @@ DocAccessibleWrap
 cpp
 \
 nsAccessNodeWrap
-.
-cpp
-\
-nsAccessibleWrap
 .
 cpp
 \

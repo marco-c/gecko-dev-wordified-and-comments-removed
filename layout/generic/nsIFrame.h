@@ -166,7 +166,7 @@ nsILineIterator
 ifdef
 ACCESSIBILITY
 class
-nsAccessible
+Accessible
 ;
 #
 endif
@@ -4768,7 +4768,7 @@ ACCESSIBILITY
 virtual
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 CreateAccessible
 (

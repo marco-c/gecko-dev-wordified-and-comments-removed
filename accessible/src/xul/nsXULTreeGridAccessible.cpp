@@ -1255,7 +1255,7 @@ return
 NS_OK
 ;
 }
-nsAccessible
+Accessible
 *
 nsXULTreeGridAccessible
 :
@@ -1268,7 +1268,7 @@ PRUint32
 aColumnIndex
 )
 {
-nsAccessible
+Accessible
 *
 row
 =
@@ -1622,7 +1622,7 @@ nsIAccessible
 >
 treeColumns
 ;
-nsAccessible
+Accessible
 :
 :
 GetFirstChild
@@ -2095,7 +2095,7 @@ TABLE
 }
 already_AddRefed
 <
-nsAccessible
+Accessible
 >
 nsXULTreeGridAccessible
 :
@@ -2108,7 +2108,7 @@ aRow
 {
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 accessible
 =
@@ -2142,7 +2142,7 @@ aContent
 DocAccessible
 *
 aDoc
-nsAccessible
+Accessible
 *
 aTreeAcc
 nsITreeBoxObject
@@ -2349,7 +2349,7 @@ return
 eNameOK
 ;
 }
-nsAccessible
+Accessible
 *
 nsXULTreeGridRowAccessible
 :
@@ -2511,7 +2511,7 @@ column
 )
 ;
 }
-nsAccessible
+Accessible
 *
 nsXULTreeGridRowAccessible
 :
@@ -2580,7 +2580,7 @@ mTree
 )
 ;
 }
-nsAccessible
+Accessible
 *
 nsXULTreeGridRowAccessible
 :
@@ -2616,7 +2616,7 @@ void
 aColumn
 )
 ;
-nsAccessible
+Accessible
 *
 cachedCell
 =
@@ -2636,7 +2636,7 @@ cachedCell
 ;
 nsRefPtr
 <
-nsAccessible
+Accessible
 >
 cell
 =
@@ -2779,7 +2779,7 @@ column
 )
 )
 {
-nsAccessible
+Accessible
 *
 cellAccessible
 =
@@ -2934,7 +2934,7 @@ NS_IMPL_RELEASE_INHERITED
 nsXULTreeGridCellAccessible
 nsLeafAccessible
 )
-nsAccessible
+Accessible
 *
 nsXULTreeGridCellAccessible
 :
@@ -3576,7 +3576,7 @@ IsDefunct
 return
 NS_OK
 ;
-nsAccessible
+Accessible
 *
 grandParent
 =
@@ -3821,7 +3821,7 @@ columnElm
 )
 )
 ;
-nsAccessible
+Accessible
 *
 headerCell
 =
@@ -4113,7 +4113,7 @@ IsDefunct
 return
 NS_ERROR_FAILURE
 ;
-nsAccessible
+Accessible
 *
 grandParent
 =
@@ -4631,7 +4631,7 @@ textEquiv
 ;
 }
 }
-nsAccessible
+Accessible
 *
 nsXULTreeGridCellAccessible
 :

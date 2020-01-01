@@ -42,7 +42,7 @@ class
 ARIAGridAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 public
 xpcAccessibleTable
 public
@@ -100,7 +100,7 @@ RowCount
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 CellAt
 (
@@ -151,7 +151,7 @@ PRInt32
 aColumn
 )
 ;
-nsAccessible
+Accessible
 *
 GetRowAt
 (
@@ -159,11 +159,11 @@ PRInt32
 aRow
 )
 ;
-nsAccessible
+Accessible
 *
 GetCellInRowAt
 (
-nsAccessible
+Accessible
 *
 aRow
 PRInt32
@@ -173,7 +173,7 @@ aColumn
 nsresult
 SetARIASelected
 (
-nsAccessible
+Accessible
 *
 aAccessible
 bool

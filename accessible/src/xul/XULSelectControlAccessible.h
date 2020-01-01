@@ -7,7 +7,7 @@ _XULSelectControlAccessible_H_
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
@@ -22,7 +22,7 @@ class
 XULSelectControlAccessible
 :
 public
-nsAccessibleWrap
+AccessibleWrap
 {
 public
 :
@@ -71,7 +71,7 @@ SelectedItemCount
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 GetSelectedItem
 (
@@ -116,7 +116,7 @@ UnselectAll
 )
 ;
 virtual
-nsAccessible
+Accessible
 *
 CurrentItem
 (
@@ -126,7 +126,7 @@ virtual
 void
 SetCurrentItem
 (
-nsAccessible
+Accessible
 *
 aItem
 )

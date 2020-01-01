@@ -10,7 +10,7 @@ h
 #
 include
 "
-nsAccessibleWrap
+AccessibleWrap
 .
 h
 "
