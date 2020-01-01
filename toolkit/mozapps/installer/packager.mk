@@ -3571,7 +3571,7 @@ the
 right
 place
 .
-ifdef
+ifeq
 (
 (
 OS_ARCH
