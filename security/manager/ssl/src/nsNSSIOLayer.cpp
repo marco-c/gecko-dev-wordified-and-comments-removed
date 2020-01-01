@@ -11218,6 +11218,15 @@ i_node
 error
 )
 ;
+PR_SetError
+(
+i_node
+-
+>
+error
+0
+)
+;
 return
 cancel_and_failure
 (
