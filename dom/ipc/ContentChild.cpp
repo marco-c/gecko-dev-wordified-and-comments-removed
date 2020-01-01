@@ -2429,6 +2429,10 @@ aIdentifier
 const
 bool
 &
+aDumpAllTraces
+const
+bool
+&
 aDumpChildProcesses
 )
 {
@@ -2461,6 +2465,7 @@ dumper
 DumpGCAndCCLogsToFile
 (
 aIdentifier
+aDumpAllTraces
 aDumpChildProcesses
 )
 ;
