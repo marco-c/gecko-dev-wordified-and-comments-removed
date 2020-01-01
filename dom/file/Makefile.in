@@ -272,10 +272,6 @@ nsIDOMLockedFile
 .
 idl
 \
-nsIDOMArchiveReader
-.
-idl
-\
 nsIDOMArchiveRequest
 .
 idl

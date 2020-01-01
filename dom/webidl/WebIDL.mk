@@ -75,6 +75,10 @@ NULL
 webidl_files
 =
 \
+ArchiveReader
+.
+webidl
+\
 AudioBuffer
 .
 webidl
