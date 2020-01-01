@@ -443,6 +443,16 @@ test_bug522601
 .
 xhtml
 \
+test_bug536379
+.
+html
+\
+test_bug536379
+-
+2
+.
+html
+\
 (
 NULL
 )
