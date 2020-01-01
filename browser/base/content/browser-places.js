@@ -1984,11 +1984,13 @@ rtl
 )
 ?
 '
-after_start
+bottomcenter
+topleft
 '
 :
 '
-after_end
+bottomcenter
+topright
 '
 ;
 if
