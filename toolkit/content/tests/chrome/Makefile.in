@@ -1,5 +1,4 @@
 #
-#
 This
 Source
 Code
@@ -79,10 +78,6 @@ config
 autoconf
 .
 mk
-DIRS
-=
-rtltest
-rtlchrome
 MOCHITEST_CHROME_FILES
 =
 findbar_window

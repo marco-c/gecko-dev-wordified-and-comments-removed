@@ -87,10 +87,6 @@ MODULE
 :
 =
 forgetaboutsite
-DIRS
-:
-=
-browser
 XPCSHELL_TESTS
 :
 =

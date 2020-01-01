@@ -76,13 +76,6 @@ config
 autoconf
 .
 mk
-ifdef
-ENABLE_TESTS
-TOOL_DIRS
-+
-=
-test
-endif
 MODULE
 =
 feeds

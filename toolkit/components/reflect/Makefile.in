@@ -131,16 +131,6 @@ MOZ_JS_LIBS
 (
 NULL
 )
-#
-ifdef
-ENABLE_TESTS
-#
-DIRS
-+
-=
-tests
-#
-endif
 include
 (
 topsrcdir

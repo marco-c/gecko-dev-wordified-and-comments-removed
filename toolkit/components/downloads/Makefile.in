@@ -199,10 +199,6 @@ manifest
 NULL
 )
 endif
-TEST_DIRS
-+
-=
-test
 include
 (
 topsrcdir

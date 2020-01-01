@@ -79,16 +79,6 @@ config
 autoconf
 .
 mk
-DIRS
-=
-\
-common
-\
-data
-\
-(
-NULL
-)
 MOCHITEST_BROWSER_FILES
 =
 \

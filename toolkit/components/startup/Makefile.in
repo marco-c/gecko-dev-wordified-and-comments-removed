@@ -78,9 +78,6 @@ config
 autoconf
 .
 mk
-DIRS
-=
-public
 MODULE
 =
 toolkitcomps
@@ -171,12 +168,6 @@ XPCSHELL_TESTS
 tests
 /
 unit
-TEST_DIRS
-+
-=
-tests
-/
-browser
 include
 (
 topsrcdir

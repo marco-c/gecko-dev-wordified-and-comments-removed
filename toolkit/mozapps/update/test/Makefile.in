@@ -169,14 +169,6 @@ android
 MOZ_WIDGET_TOOLKIT
 )
 )
-DIRS
-=
-\
-chrome
-\
-(
-NULL
-)
 CPPSRCS
 =
 \

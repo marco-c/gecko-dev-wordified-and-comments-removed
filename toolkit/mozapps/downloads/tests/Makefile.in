@@ -90,10 +90,6 @@ unit
 (
 NULL
 )
-DIRS
-+
-=
-chrome
 include
 (
 topsrcdir

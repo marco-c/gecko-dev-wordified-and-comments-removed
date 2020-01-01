@@ -78,17 +78,6 @@ config
 autoconf
 .
 mk
-#
-mochitest
-tests
-DIRS
-+
-=
-browser
-\
-(
-NULL
-)
 XPCSHELL_TESTS
 =
 \

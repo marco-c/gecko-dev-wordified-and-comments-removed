@@ -177,13 +177,6 @@ FINAL_TARGET
 modules
 /
 identity
-ifdef
-ENABLE_TESTS
-DIRS
-+
-=
-tests
-endif
 include
 (
 topsrcdir

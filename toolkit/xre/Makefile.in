@@ -1076,10 +1076,6 @@ NULL
 )
 endif
 endif
-TEST_DIRS
-+
-=
-test
 include
 (
 topsrcdir

@@ -93,9 +93,6 @@ manifest
 (
 NULL
 )
-TEST_DIRS
-=
-tests
 include
 (
 topsrcdir

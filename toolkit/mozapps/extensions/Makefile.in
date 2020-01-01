@@ -276,10 +276,6 @@ js
 (
 NULL
 )
-TEST_DIRS
-+
-=
-test
 EXTRA_DSO_LDOPTS
 =
 \

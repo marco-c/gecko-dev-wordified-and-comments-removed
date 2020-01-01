@@ -105,15 +105,6 @@ jsm
 (
 NULL
 )
-TEST_DIRS
-+
-=
-\
-test
-\
-(
-NULL
-)
 include
 (
 topsrcdir

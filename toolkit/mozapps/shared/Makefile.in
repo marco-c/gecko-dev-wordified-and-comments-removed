@@ -101,12 +101,6 @@ jsm
 (
 NULL
 )
-TEST_DIRS
-+
-=
-test
-/
-chrome
 ifdef
 ENABLE_TESTS
 XPCSHELL_TESTS

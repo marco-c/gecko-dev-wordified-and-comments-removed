@@ -79,16 +79,6 @@ config
 config
 .
 mk
-DIRS
-=
-\
-browser
-\
-auth2
-\
-(
-NULL
-)
 #
 Module
 name

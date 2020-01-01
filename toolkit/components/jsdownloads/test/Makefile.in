@@ -50,9 +50,6 @@ config
 autoconf
 .
 mk
-DIRS
-=
-data
 XPCSHELL_TESTS
 =
 unit

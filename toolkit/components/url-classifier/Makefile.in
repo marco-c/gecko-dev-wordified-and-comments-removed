@@ -1,5 +1,4 @@
 #
-#
 This
 Source
 Code
@@ -251,13 +250,6 @@ jsm
 (
 NULL
 )
-ifdef
-ENABLE_TESTS
-TOOL_DIRS
-+
-=
-tests
-endif
 include
 (
 topsrcdir

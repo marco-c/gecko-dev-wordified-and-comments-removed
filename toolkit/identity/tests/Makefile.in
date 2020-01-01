@@ -84,10 +84,6 @@ test_identity
 XPCSHELL_TESTS
 =
 unit
-DIRS
-=
-chrome
-mochitest
 include
 (
 topsrcdir
