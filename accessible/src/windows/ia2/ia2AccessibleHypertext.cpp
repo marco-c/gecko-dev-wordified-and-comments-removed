@@ -143,7 +143,7 @@ aLinkIndex
 if
 (
 !
-hyperText
+hyperLink
 )
 return
 E_FAIL
