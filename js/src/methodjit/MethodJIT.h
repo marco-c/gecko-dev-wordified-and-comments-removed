@@ -3672,7 +3672,7 @@ compartment
 )
 -
 >
-needsBarrier
+compileBarriers
 (
 )
 )

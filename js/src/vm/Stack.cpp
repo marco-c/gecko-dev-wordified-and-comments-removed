@@ -1069,7 +1069,7 @@ compartment
 )
 -
 >
-needsBarrier
+compileBarriers
 (
 )
 )
