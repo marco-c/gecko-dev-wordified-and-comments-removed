@@ -8529,7 +8529,7 @@ mIMESelectionChanged
 =
 false
 ;
-OnIMETextChange
+NotifyIMEOfTextChange
 (
 0
 INT32_MAX
@@ -10449,7 +10449,7 @@ NS_IMETHODIMP
 nsWindow
 :
 :
-OnIMETextChange
+NotifyIMEOfTextChange
 (
 uint32_t
 aStart
@@ -10471,7 +10471,7 @@ ALOGIME
 "
 IME
 :
-OnIMETextChange
+NotifyIMEOfTextChange
 :
 s
 =

@@ -3179,7 +3179,7 @@ true
 widget
 -
 >
-OnIMETextChange
+NotifyIMEOfTextChange
 (
 aStart
 aEnd

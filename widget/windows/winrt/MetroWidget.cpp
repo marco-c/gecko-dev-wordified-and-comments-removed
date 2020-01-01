@@ -5271,7 +5271,7 @@ NS_IMETHODIMP
 MetroWidget
 :
 :
-OnIMETextChange
+NotifyIMEOfTextChange
 (
 uint32_t
 aStart

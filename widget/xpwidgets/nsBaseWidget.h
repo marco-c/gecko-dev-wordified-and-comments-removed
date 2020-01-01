@@ -833,7 +833,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 NS_IMETHOD
-OnIMETextChange
+NotifyIMEOfTextChange
 (
 uint32_t
 aStart
@@ -842,6 +842,7 @@ aOldEnd
 uint32_t
 aNewEnd
 )
+MOZ_OVERRIDE
 {
 return
 NS_ERROR_NOT_IMPLEMENTED
