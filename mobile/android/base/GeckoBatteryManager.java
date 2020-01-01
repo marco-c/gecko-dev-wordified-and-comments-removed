@@ -216,6 +216,7 @@ if
 !
 isRegistered
 )
+{
 Log
 .
 e
@@ -228,6 +229,7 @@ failed
 "
 )
 ;
+}
 }
 }
 public
