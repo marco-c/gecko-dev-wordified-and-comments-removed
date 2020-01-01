@@ -181,6 +181,10 @@ length
 ;
 [
 getter
+binaryname
+(
+MozItem
+)
 ]
 DOMString
 item

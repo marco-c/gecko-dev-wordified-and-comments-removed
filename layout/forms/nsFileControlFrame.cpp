@@ -320,6 +320,13 @@ nsIDOMDragEvent
 .
 h
 "
+#
+include
+"
+nsContentList
+.
+h
+"
 namespace
 dom
 =

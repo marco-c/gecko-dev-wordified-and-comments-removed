@@ -47,6 +47,13 @@ nsContentUtils
 .
 h
 "
+#
+include
+"
+nsStubMutationObserver
+.
+h
+"
 using
 namespace
 mozilla

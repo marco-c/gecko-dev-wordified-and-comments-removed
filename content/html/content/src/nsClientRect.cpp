@@ -269,9 +269,7 @@ aLength
 *
 aLength
 =
-mArray
-.
-Count
+Length
 (
 )
 ;
@@ -298,10 +296,7 @@ NS_IF_ADDREF
 *
 aReturn
 =
-nsClientRectList
-:
-:
-GetItemAt
+Item
 (
 aIndex
 )
@@ -323,9 +318,7 @@ aIndex
 )
 {
 return
-mArray
-.
-SafeObjectAt
+Item
 (
 aIndex
 )

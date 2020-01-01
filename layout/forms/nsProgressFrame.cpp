@@ -121,6 +121,13 @@ Element
 .
 h
 "
+#
+include
+"
+nsContentList
+.
+h
+"
 nsIFrame
 *
 NS_NewProgressFrame

@@ -1,16 +1,5 @@
 {
 "
-document
-.
-getItems
-must
-return
-a
-NodeList
-"
-:
-true
-"
 itemValue
 must
 reflect

@@ -334,12 +334,10 @@ sandbox
 is
 (
 nl
-"
-[
-object
+String
+(
 NodeList
-]
-"
+)
 "
 '
 NodeList

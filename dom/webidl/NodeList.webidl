@@ -146,6 +146,9 @@ apply
 *
 /
 interface
+Node
+;
+interface
 NodeList
 {
 getter

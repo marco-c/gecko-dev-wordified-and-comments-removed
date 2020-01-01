@@ -426,6 +426,13 @@ h
 #
 include
 "
+nsContentList
+.
+h
+"
+#
+include
+"
 mozilla
 /
 FunctionTimer

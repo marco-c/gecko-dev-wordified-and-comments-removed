@@ -2819,9 +2819,7 @@ aIndex
 )
 {
 return
-mFiles
-.
-SafeObjectAt
+Item
 (
 aIndex
 )
@@ -2841,9 +2839,7 @@ aLength
 *
 aLength
 =
-mFiles
-.
-Count
+Length
 (
 )
 ;
@@ -2870,10 +2866,7 @@ NS_IF_ADDREF
 *
 aFile
 =
-nsDOMFileList
-:
-:
-GetItemAt
+Item
 (
 aIndex
 )
