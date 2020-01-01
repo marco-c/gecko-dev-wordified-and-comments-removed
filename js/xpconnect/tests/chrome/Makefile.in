@@ -551,6 +551,10 @@ test_getweakmapkeys
 .
 xul
 \
+test_weakmaps
+.
+xul
+\
 (
 NULL
 )
