@@ -5020,8 +5020,6 @@ nanojit
 LIns
 *
 callee_ins
-bool
-strict
 )
 ;
 JS_REQUIRES_STACK
