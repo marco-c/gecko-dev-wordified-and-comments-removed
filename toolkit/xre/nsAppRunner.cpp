@@ -34,11 +34,6 @@ MacLaunchHelper
 h
 "
 #
-endif
-#
-ifdef
-MOZ_WIDGET_COCOA
-#
 include
 "
 MacApplicationDelegate
@@ -10538,6 +10533,10 @@ MOZ_LAUNCHED_CHILD
 )
 )
 {
+EnsureUseCocoaDockAPI
+(
+)
+;
 const
 EventTypeSpec
 kFakeEventList
