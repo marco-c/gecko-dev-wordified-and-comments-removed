@@ -1096,7 +1096,7 @@ canvasElement
 )
 ;
 PRBool
-ValidateGL
+InitAndValidateGL
 (
 )
 ;
