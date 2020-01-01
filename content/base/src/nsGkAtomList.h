@@ -9552,6 +9552,13 @@ SequenceFrame
 )
 GK_ATOM
 (
+sliderFrame
+"
+sliderFrame
+"
+)
+GK_ATOM
+(
 tableCaptionFrame
 "
 TableCaptionFrame
