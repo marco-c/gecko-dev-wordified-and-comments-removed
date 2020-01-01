@@ -9248,6 +9248,14 @@ if
 seg
 -
 >
+inContext
+(
+)
+&
+&
+seg
+-
+>
 contains
 (
 target
