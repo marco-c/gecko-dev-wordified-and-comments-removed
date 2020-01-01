@@ -7985,10 +7985,10 @@ break
 else
 if
 (
-tableFrame
+tableContent
 -
 >
-GetType
+Tag
 (
 )
 =
@@ -7996,7 +7996,7 @@ GetType
 nsAccessibilityAtoms
 :
 :
-tableCellFrame
+table
 )
 {
 tryTagNameOrFrame
