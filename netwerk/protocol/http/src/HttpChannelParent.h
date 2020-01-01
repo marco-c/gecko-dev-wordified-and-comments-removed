@@ -130,6 +130,10 @@ nsHttpAtom
 &
 requestMethod
 const
+PRUint16
+&
+priority
+const
 PRUint8
 &
 redirectionLimit
@@ -141,6 +145,16 @@ const
 PRBool
 &
 forceAllowThirdPartyCookie
+)
+;
+virtual
+bool
+RecvSetPriority
+(
+const
+PRUint16
+&
+priority
 )
 ;
 }
