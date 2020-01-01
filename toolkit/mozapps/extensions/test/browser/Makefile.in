@@ -489,6 +489,10 @@ browser_bug557956_9_2
 .
 xpi
 \
+browser_bug562797
+.
+js
+\
 browser_bug562890
 .
 js
