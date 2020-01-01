@@ -161,7 +161,6 @@ transform
 scale
 (
 2
-1
 )
 translate
 (
@@ -194,6 +193,16 @@ url
 #
 p2
 )
+;
+stroke
+:
+black
+;
+stroke
+-
+width
+:
+1px
 "
 >
 a
