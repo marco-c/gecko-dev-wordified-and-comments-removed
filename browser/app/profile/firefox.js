@@ -502,7 +502,7 @@ extensions
 .
 strictCompatibility
 "
-true
+false
 )
 ;
 pref
