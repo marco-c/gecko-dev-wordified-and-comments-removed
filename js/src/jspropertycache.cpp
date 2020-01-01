@@ -934,7 +934,7 @@ tmp
 pobj
 -
 >
-internalScopeChain
+scopeChain
 (
 )
 ;
