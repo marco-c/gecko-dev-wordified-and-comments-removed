@@ -2071,6 +2071,17 @@ null
 ;
 if
 (
+StringUtils
+.
+isSearchQuery
+(
+url
+true
+)
+)
+{
+if
+(
 index
 =
 =
@@ -2127,6 +2138,7 @@ index
 1
 )
 ;
+}
 }
 if
 (
