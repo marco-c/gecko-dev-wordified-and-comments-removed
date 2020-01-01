@@ -1262,7 +1262,7 @@ savedCallerFun
 1
 ;
 bool
-strictModeCode
+strict
 :
 1
 ;
@@ -1645,7 +1645,7 @@ needsArgsObj
 &
 &
 !
-strictModeCode
+strict
 ;
 }
 bool

@@ -711,7 +711,7 @@ isInterpreted
 fun
 -
 >
-inStrictMode
+strict
 (
 )
 )
@@ -4808,7 +4808,7 @@ sp
 =
 v
 ;
-assertSameCompartment
+assertSameCompartmentDebugOnly
 (
 cx
 regs
@@ -4940,7 +4940,7 @@ setString
 s
 )
 ;
-assertSameCompartment
+assertSameCompartmentDebugOnly
 (
 cx
 regs
@@ -4977,7 +4977,7 @@ setObject
 obj
 )
 ;
-assertSameCompartment
+assertSameCompartmentDebugOnly
 (
 cx
 regs
@@ -5014,7 +5014,7 @@ setObjectOrNull
 obj
 )
 ;
-assertSameCompartment
+assertSameCompartmentDebugOnly
 (
 cx
 regs
@@ -11343,7 +11343,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 PUSH_BOOLEAN
@@ -11468,7 +11468,7 @@ res
 script
 -
 >
-strictModeCode
+strict
 )
 )
 goto
@@ -11547,7 +11547,7 @@ res
 script
 -
 >
-strictModeCode
+strict
 )
 )
 goto
@@ -11965,7 +11965,7 @@ sp
 =
 rval
 ;
-assertSameCompartment
+assertSameCompartmentDebugOnly
 (
 cx
 regs
@@ -12317,7 +12317,7 @@ value
 script
 -
 >
-strictModeCode
+strict
 )
 )
 goto
@@ -12411,7 +12411,7 @@ rval
 script
 -
 >
-strictModeCode
+strict
 )
 )
 goto
@@ -14742,7 +14742,7 @@ JSOP_GETLOCAL_LENGTH
 =
 JSOP_POP
 )
-assertSameCompartment
+assertSameCompartmentDebugOnly
 (
 cx
 regs
@@ -15287,7 +15287,7 @@ rval
 script
 -
 >
-strictModeCode
+strict
 )
 )
 goto
@@ -15888,7 +15888,7 @@ sp
 =
 rval
 ;
-assertSameCompartment
+assertSameCompartmentDebugOnly
 (
 cx
 regs
@@ -16393,7 +16393,7 @@ rval
 script
 -
 >
-strictModeCode
+strict
 )
 :
 !
@@ -17395,7 +17395,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 if
@@ -17438,7 +17438,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 cx
@@ -17517,7 +17517,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 Value
@@ -17596,7 +17596,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 Value
@@ -17676,7 +17676,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 Value
@@ -17731,7 +17731,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 Value
@@ -17812,7 +17812,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 Value
@@ -17913,7 +17913,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 Value
@@ -17991,7 +17991,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 Rooted
@@ -18063,7 +18063,7 @@ rval
 script
 -
 >
-strictModeCode
+strict
 )
 )
 goto
@@ -18116,7 +18116,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 Value
@@ -18247,7 +18247,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 JSObject
@@ -18358,7 +18358,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 PUSH_HOLE
@@ -18394,7 +18394,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 bool
@@ -18537,7 +18537,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 cx
@@ -18609,7 +18609,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 Value
@@ -18671,7 +18671,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 Value
@@ -18732,7 +18732,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 Value
@@ -18827,7 +18827,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 JSAtom
@@ -18886,7 +18886,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 JSAtom
@@ -18945,7 +18945,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 JSAtom
@@ -19033,7 +19033,7 @@ JS_ASSERT
 script
 -
 >
-strictModeCode
+strict
 )
 ;
 Value
