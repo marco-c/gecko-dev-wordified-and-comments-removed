@@ -523,7 +523,7 @@ nsRenderingContext
 .
 h
 \
-nsIFontMetrics
+nsFontMetrics
 .
 h
 \
@@ -616,7 +616,7 @@ nsRenderingContext
 .
 cpp
 \
-nsThebesFontMetrics
+nsFontMetrics
 .
 cpp
 \
