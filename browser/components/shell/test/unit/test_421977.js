@@ -586,7 +586,7 @@ checkShellToGConfColor
 "
 "
 #
-00000000ff00
+00000000ffff
 "
 )
 ;
@@ -598,7 +598,7 @@ FFFFFF
 "
 "
 #
-ff00ff00ff00
+ffffffffffff
 "
 )
 ;
@@ -610,7 +610,7 @@ checkShellToGConfColor
 "
 "
 #
-0a000b000c00
+0a0a0b0b0c0c
 "
 )
 ;
@@ -622,7 +622,7 @@ A0B0C0
 "
 "
 #
-a000b000c000
+a0a0b0b0c0c0
 "
 )
 ;
@@ -634,7 +634,7 @@ AABBCC
 "
 "
 #
-aa00bb00cc00
+aaaabbbbcccc
 "
 )
 ;
