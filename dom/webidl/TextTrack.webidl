@@ -217,14 +217,14 @@ activeCues
 void
 addCue
 (
-TextTrackCue
+VTTCue
 cue
 )
 ;
 void
 removeCue
 (
-TextTrackCue
+VTTCue
 cue
 )
 ;

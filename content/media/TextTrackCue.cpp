@@ -27,17 +27,6 @@ mozilla
 /
 dom
 /
-TextTrackCueBinding
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 ProcessingInstruction
 .
 h
@@ -793,7 +782,7 @@ aScope
 )
 {
 return
-TextTrackCueBinding
+VTTCueBinding
 :
 :
 Wrap

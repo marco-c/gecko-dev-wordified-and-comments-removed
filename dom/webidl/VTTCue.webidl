@@ -214,7 +214,7 @@ enabled
 "
 ]
 interface
-TextTrackCue
+VTTCue
 :
 EventTarget
 {

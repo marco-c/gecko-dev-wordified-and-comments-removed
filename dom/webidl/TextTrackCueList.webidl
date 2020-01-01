@@ -144,14 +144,14 @@ long
 length
 ;
 getter
-TextTrackCue
+VTTCue
 (
 unsigned
 long
 index
 )
 ;
-TextTrackCue
+VTTCue
 ?
 getCueById
 (

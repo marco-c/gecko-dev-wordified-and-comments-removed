@@ -1477,10 +1477,6 @@ TextTrack
 .
 webidl
 \
-TextTrackCue
-.
-webidl
-\
 TextTrackCueList
 .
 webidl
@@ -1538,6 +1534,10 @@ URLUtils
 webidl
 \
 URLUtilsReadOnly
+.
+webidl
+\
+VTTCue
 .
 webidl
 \
@@ -2010,15 +2010,6 @@ webidl
 (
 NULL
 )
-endif
-ifdef
-MOZ_B2G_FM
-webidl_files
-+
-=
-FMRadio
-.
-webidl
 endif
 ifdef
 ENABLE_TESTS
