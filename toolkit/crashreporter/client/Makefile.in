@@ -580,7 +580,12 @@ ifeq
 OS_ARCH
 )
 Darwin
-)
+CPPSRCS
++
+=
+crashreporter_unix
+.
+cpp
 CMMSRCS
 +
 =
@@ -697,6 +702,9 @@ CPPSRCS
 crashreporter_linux
 .
 cpp
+crashreporter_unix
+.
+cpp
 LIBS
 +
 =
@@ -778,6 +786,9 @@ CPPSRCS
 +
 =
 crashreporter_linux
+.
+cpp
+crashreporter_unix
 .
 cpp
 LIBS
