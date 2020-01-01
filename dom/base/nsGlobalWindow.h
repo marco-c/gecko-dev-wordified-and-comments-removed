@@ -705,6 +705,9 @@ nsOuterWindowProxy
 :
 JSWrapper
 (
+(
+uintN
+)
 0
 )
 {
