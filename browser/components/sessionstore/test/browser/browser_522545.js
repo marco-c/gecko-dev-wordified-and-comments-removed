@@ -1258,7 +1258,7 @@ gURLBar
 value
 =
 "
-mozilla
+example
 .
 org
 "
@@ -1299,7 +1299,7 @@ browser
 .
 userTypedValue
 "
-mozilla
+example
 .
 org
 "
@@ -1364,7 +1364,7 @@ tabs
 .
 userTypedValue
 "
-mozilla
+example
 .
 org
 "
