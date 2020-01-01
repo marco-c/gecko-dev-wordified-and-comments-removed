@@ -134,6 +134,10 @@ test_bug629535
 .
 html
 \
+test_bug861217
+.
+html
+\
 test_clientRects
 .
 html
