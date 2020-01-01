@@ -49,13 +49,6 @@ h
 #
 include
 "
-jsfriendapi
-.
-h
-"
-#
-include
-"
 nsIJSRuntimeService
 .
 h

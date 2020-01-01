@@ -7,13 +7,6 @@ mozilla_dom_StructuredCloneUtils_h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -29,6 +22,13 @@ h
 include
 "
 nsIDOMFile
+.
+h
+"
+#
+include
+"
+jsapi
 .
 h
 "

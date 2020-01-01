@@ -7,13 +7,6 @@ mozilla_osfileconstants_h__
 #
 include
 "
-jspubtd
-.
-h
-"
-#
-include
-"
 nsIOSFileConstantsService
 .
 h

@@ -7,13 +7,6 @@ _xpc_WRAPPERFACTORY_H
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jswrapper
 .
 h

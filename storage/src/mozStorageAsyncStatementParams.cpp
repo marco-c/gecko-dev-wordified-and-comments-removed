@@ -22,6 +22,13 @@ h
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 mozStoragePrivateHelpers
 .
 h
@@ -135,7 +142,10 @@ JSObject
 aScopeObj
 jsid
 aId
-jsval
+JS
+:
+:
+Value
 *
 _vp
 bool

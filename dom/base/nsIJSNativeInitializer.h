@@ -12,13 +12,6 @@ nsISupports
 h
 "
 #
-include
-"
-jsapi
-.
-h
-"
-#
 define
 NS_IJSNATIVEINITIALIZER_IID
 \

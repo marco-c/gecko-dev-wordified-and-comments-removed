@@ -40,13 +40,6 @@ nsString
 .
 h
 "
-#
-include
-"
-jspubtd
-.
-h
-"
 namespace
 mozilla
 {

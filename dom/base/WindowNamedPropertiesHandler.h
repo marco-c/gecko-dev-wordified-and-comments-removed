@@ -7,13 +7,6 @@ mozilla_dom_WindowNamedPropertiesHandler_h
 #
 include
 "
-jsproxy
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

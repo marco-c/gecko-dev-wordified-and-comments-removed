@@ -9,13 +9,6 @@ include
 <
 algorithm
 >
-#
-include
-"
-jsfriendapi
-.
-h
-"
 inline
 void
 XPCJSRuntime

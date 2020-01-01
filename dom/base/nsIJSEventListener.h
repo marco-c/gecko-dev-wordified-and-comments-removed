@@ -14,13 +14,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 xpcpublic
 .
 h

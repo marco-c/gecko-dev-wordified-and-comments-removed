@@ -50,6 +50,13 @@ h
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Base64

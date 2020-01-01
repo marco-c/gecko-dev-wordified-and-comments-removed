@@ -35,7 +35,9 @@ h
 #
 include
 "
-jsapi
+js
+/
+Value
 .
 h
 "
@@ -87,7 +89,10 @@ void
 *
 p
 ;
-jsval
+JS
+:
+:
+Value
 j
 ;
 }

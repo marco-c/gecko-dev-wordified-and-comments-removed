@@ -103,13 +103,6 @@ idl
 C
 +
 +
-#
-include
-"
-jsapi
-.
-h
-"
 namespace
 mozilla
 {

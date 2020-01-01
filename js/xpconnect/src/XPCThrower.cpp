@@ -19,6 +19,13 @@ XPCWrapper
 .
 h
 "
+#
+include
+"
+jsprf
+.
+h
+"
 bool
 XPCThrower
 :

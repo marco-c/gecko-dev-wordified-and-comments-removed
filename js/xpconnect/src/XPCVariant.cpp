@@ -26,6 +26,13 @@ jsfriendapi
 .
 h
 "
+#
+include
+"
+jsprf
+.
+h
+"
 using
 namespace
 JS

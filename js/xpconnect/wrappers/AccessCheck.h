@@ -7,13 +7,6 @@ __AccessCheck_h__
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jswrapper
 .
 h

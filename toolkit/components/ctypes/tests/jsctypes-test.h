@@ -15,7 +15,7 @@ h
 #
 include
 "
-jsapi
+jspubtd
 .
 h
 "

@@ -7,13 +7,6 @@ DOM_CAMERA_ICAMERACONTROL_H
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 nsIFile
 .
 h

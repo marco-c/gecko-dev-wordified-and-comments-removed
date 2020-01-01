@@ -21,13 +21,6 @@ h
 #
 include
 "
-jspubtd
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

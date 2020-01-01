@@ -16,13 +16,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jswrapper
 .
 h

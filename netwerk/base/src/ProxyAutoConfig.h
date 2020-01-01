@@ -14,13 +14,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 prio
 .
 h
@@ -50,6 +43,13 @@ DNS
 .
 h
 "
+namespace
+JS
+{
+class
+Value
+;
+}
 namespace
 mozilla
 {

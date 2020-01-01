@@ -51,13 +51,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h

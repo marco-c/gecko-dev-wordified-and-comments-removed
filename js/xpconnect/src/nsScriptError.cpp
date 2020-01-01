@@ -8,6 +8,13 @@ h
 #
 include
 "
+jsprf
+.
+h
+"
+#
+include
+"
 nsGlobalWindow
 .
 h

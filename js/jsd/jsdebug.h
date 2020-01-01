@@ -11,13 +11,6 @@ jsapi
 .
 h
 "
-#
-include
-"
-jsdbgapi
-.
-h
-"
 extern
 "
 C

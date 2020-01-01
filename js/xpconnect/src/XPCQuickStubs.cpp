@@ -24,6 +24,13 @@ h
 #
 include
 "
+jsprf
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

@@ -29,6 +29,15 @@ Value
 .
 h
 "
+#
+include
+"
+js
+/
+RootingAPI
+.
+h
+"
 struct
 JSTracer
 ;

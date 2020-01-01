@@ -19,13 +19,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 jswrapper
 .
 h
@@ -404,7 +397,7 @@ JSObject
 *
 >
 wrapper
-js
+JS
 :
 :
 AutoIdVector
@@ -457,7 +450,7 @@ JSObject
 *
 >
 wrapper
-js
+JS
 :
 :
 AutoIdVector
@@ -633,7 +626,7 @@ JSObject
 *
 >
 wrapper
-js
+JS
 :
 :
 AutoIdVector

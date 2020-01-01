@@ -50,6 +50,13 @@ h
 #
 include
 "
+jsprf
+.
+h
+"
+#
+include
+"
 jsproxy
 .
 h

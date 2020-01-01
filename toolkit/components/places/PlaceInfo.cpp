@@ -42,6 +42,13 @@ Services
 .
 h
 "
+#
+include
+"
+jsapi
+.
+h
+"
 namespace
 mozilla
 {

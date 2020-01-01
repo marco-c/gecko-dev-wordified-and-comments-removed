@@ -94,6 +94,13 @@ h
 #
 include
 "
+jsprf
+.
+h
+"
+#
+include
+"
 JavaScriptParent
 .
 h

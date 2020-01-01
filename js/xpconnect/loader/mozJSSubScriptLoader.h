@@ -1,13 +1,6 @@
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

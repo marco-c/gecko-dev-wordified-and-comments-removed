@@ -23,7 +23,7 @@ h
 #
 include
 "
-jsfriendapi
+jsclass
 .
 h
 "

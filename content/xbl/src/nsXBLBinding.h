@@ -67,13 +67,6 @@ nsISupportsImpl
 .
 h
 "
-#
-include
-"
-jsapi
-.
-h
-"
 class
 nsXBLPrototypeBinding
 ;

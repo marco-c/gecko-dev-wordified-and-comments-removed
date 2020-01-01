@@ -7,13 +7,6 @@ SAMPLER_H
 #
 include
 "
-jsfriendapi
-.
-h
-"
-#
-include
-"
 mozilla
 /
 NullPtr

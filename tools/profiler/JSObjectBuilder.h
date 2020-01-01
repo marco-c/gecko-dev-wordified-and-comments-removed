@@ -21,6 +21,9 @@ struct
 JSContext
 ;
 class
+JSObject
+;
+class
 nsAString
 ;
 class

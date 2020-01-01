@@ -83,13 +83,6 @@ h
 #
 include
 "
-jsfriendapi
-.
-h
-"
-#
-include
-"
 GeckoProfilerFunc
 .
 h

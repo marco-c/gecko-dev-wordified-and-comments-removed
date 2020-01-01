@@ -99,13 +99,6 @@ h
 #
 include
 "
-jsfriendapi
-.
-h
-"
-#
-include
-"
 nsISupportsUtils
 .
 h

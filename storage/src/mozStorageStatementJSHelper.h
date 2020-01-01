@@ -41,7 +41,10 @@ JSContext
 *
 JSObject
 *
-jsval
+JS
+:
+:
+Value
 *
 )
 ;
@@ -54,7 +57,10 @@ JSContext
 *
 JSObject
 *
-jsval
+JS
+:
+:
+Value
 *
 )
 ;

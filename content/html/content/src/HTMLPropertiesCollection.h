@@ -90,13 +90,6 @@ nsRefPtrHashtable
 .
 h
 "
-#
-include
-"
-jsapi
-.
-h
-"
 class
 nsGenericHTMLElement
 ;

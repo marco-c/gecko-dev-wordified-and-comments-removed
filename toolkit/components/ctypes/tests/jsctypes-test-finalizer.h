@@ -1,11 +1,4 @@
 #
-include
-"
-jsapi
-.
-h
-"
-#
 define
 EXPORT_CDECL
 (

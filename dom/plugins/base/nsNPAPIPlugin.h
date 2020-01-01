@@ -28,13 +28,6 @@ h
 #
 include
 "
-jsapi
-.
-h
-"
-#
-include
-"
 nsCxPusher
 .
 h

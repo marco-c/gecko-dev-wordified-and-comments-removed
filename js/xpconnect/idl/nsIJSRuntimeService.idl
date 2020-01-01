@@ -133,6 +133,17 @@ xpcContextCallback
 C
 +
 +
+#
+include
+"
+jsapi
+.
+h
+"
+/
+/
+for
+JSGCStatus
 typedef
 void
 (

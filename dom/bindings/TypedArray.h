@@ -14,15 +14,6 @@ h
 #
 include
 "
-js
-/
-RootingAPI
-.
-h
-"
-#
-include
-"
 jsapi
 .
 h

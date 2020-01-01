@@ -8,6 +8,13 @@ h
 #
 include
 "
+jswrapper
+.
+h
+"
+#
+include
+"
 nsCxPusher
 .
 h

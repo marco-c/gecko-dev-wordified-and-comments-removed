@@ -42,13 +42,6 @@ h
 #
 include
 "
-jsfriendapi
-.
-h
-"
-#
-include
-"
 jspubtd
 .
 h

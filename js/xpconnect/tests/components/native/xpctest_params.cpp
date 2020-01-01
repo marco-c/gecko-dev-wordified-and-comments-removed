@@ -12,6 +12,15 @@ xpctest_interfaces
 .
 h
 "
+#
+include
+"
+js
+/
+Value
+.
+h
+"
 NS_IMPL_ISUPPORTS1
 (
 nsXPCTestParams

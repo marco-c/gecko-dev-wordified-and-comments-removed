@@ -30,13 +30,6 @@ h
 #
 include
 "
-jspubtd
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h
