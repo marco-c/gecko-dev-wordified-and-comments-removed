@@ -2959,6 +2959,16 @@ label
 )
 ;
 CodeOffsetLabel
+toggledCall
+(
+IonCode
+*
+target
+bool
+enabled
+)
+;
+CodeOffsetLabel
 pushWithPatch
 (
 ImmWord
