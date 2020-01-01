@@ -805,13 +805,6 @@ OS_TARGET
 )
 WINNT
 )
-ifneq
-(
-gonk
-(
-MOZ_WIDGET_TOOLKIT
-)
-)
 CPP_UNIT_TESTS
 =
 \
@@ -846,7 +839,6 @@ CPP_UNIT_TESTS
 sctp_unittest
 .
 cpp
-endif
 endif
 endif
 include
