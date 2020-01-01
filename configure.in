@@ -42586,11 +42586,9 @@ enable
 once
 PeerConnection
 lands
-dnl
 MOZ_PEERCONNECTION
 =
 1
-dnl
 AC_DEFINE
 (
 MOZ_PEERCONNECTION

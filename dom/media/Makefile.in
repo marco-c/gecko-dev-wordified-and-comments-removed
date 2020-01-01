@@ -169,6 +169,10 @@ src
 (
 NULL
 )
+DIRS
++
+=
+bridge
 endif
 include
 (
