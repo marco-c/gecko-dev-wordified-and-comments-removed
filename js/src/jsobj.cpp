@@ -14940,11 +14940,12 @@ return
 true
 ;
 }
-JSObject
-*
+RootedObject
 cobj
-=
+(
+cx
 NULL
+)
 ;
 if
 (
