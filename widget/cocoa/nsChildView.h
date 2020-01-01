@@ -1256,6 +1256,8 @@ const
 nsIntRect
 &
 aRect
+bool
+aIsSynchronous
 )
 ;
 virtual
@@ -1319,6 +1321,11 @@ event
 nsEventStatus
 &
 aStatus
+)
+;
+NS_IMETHOD
+Update
+(
 )
 ;
 virtual
@@ -1591,7 +1598,7 @@ GetThebesSurface
 ;
 virtual
 void
-DrawWindowOverlay
+DrawOver
 (
 LayerManager
 *
