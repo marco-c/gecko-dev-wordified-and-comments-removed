@@ -1837,6 +1837,16 @@ mCacheCapacity
 (
 void
 )
+nsCacheService
+:
+:
+SyncWithCacheIOThread
+(
+)
+;
+(
+void
+)
 mCacheMap
 .
 Close
