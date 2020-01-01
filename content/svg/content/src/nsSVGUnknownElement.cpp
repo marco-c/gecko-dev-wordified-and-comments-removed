@@ -128,6 +128,10 @@ nsIDOMNode
 nsIDOMElement
 nsIDOMSVGElement
 )
+NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
+(
+SVGUnknownElement
+)
 NS_INTERFACE_MAP_END_INHERITING
 (
 nsSVGUnknownElementBase
