@@ -311,7 +311,7 @@ gContainingWindow
 null
 ;
 var
-gFilter
+gURLFilterRegex
 =
 null
 ;
@@ -1695,7 +1695,7 @@ gThisChunk
 }
 try
 {
-gFilter
+gURLFilterRegex
 =
 new
 RegExp
@@ -4103,11 +4103,11 @@ aTest
 {
 if
 (
-gFilter
+gURLFilterRegex
 &
 &
 !
-gFilter
+gURLFilterRegex
 .
 test
 (
