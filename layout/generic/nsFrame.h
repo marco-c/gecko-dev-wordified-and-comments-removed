@@ -1157,6 +1157,10 @@ aReflowState
 nsReflowStatus
 &
 aStatus
+bool
+aConstrainHeight
+=
+true
 )
 ;
 void
@@ -1175,6 +1179,10 @@ aReflowState
 nsReflowStatus
 &
 aStatus
+bool
+aConstrainHeight
+=
+true
 )
 ;
 virtual
