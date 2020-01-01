@@ -3362,6 +3362,11 @@ Configuration
 aConfigurations
 )
 ;
+void
+DidApplyPluginGeometryUpdates
+(
+)
+;
 private
 :
 nsTHashtable

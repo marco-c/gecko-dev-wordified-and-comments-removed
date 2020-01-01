@@ -383,6 +383,11 @@ aConfigurations
 )
 ;
 }
+void
+DidSetWidgetGeometry
+(
+)
+;
 #
 ifdef
 ACCESSIBILITY
