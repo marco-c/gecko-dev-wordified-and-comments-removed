@@ -474,6 +474,11 @@ Activate
 )
 ;
 void
+Deactivate
+(
+)
+;
+void
 SendMouseEvent
 (
 const

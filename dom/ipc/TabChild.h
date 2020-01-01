@@ -594,6 +594,12 @@ RecvActivate
 ;
 virtual
 bool
+RecvDeactivate
+(
+)
+;
+virtual
+bool
 RecvMouseEvent
 (
 const
