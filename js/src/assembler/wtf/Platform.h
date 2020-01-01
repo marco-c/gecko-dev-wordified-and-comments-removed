@@ -306,7 +306,6 @@ WTF_CPU_SPARC64
 #
 define
 WTF_CPU_SPARC
-1
 #
 endif
 #
@@ -2656,13 +2655,6 @@ define
 ENABLE_JIT
 1
 #
-elif
-WTF_CPU_SPARC
-#
-define
-ENABLE_JIT
-1
-#
 endif
 #
 if
@@ -2889,10 +2881,6 @@ WTF_CPU_X86
 |
 |
 WTF_CPU_X86_64
-\
-|
-|
-WTF_CPU_SPARC
 \
 |
 |

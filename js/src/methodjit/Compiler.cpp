@@ -20039,7 +20039,12 @@ Assembler
 :
 :
 NotEqual
+masm
+.
+payloadOf
+(
 parent
+)
 ImmPtr
 (
 0
@@ -20368,7 +20373,12 @@ Assembler
 :
 :
 NotEqual
+masm
+.
+payloadOf
+(
 address
+)
 ImmPtr
 (
 0
@@ -25173,7 +25183,7 @@ label
 ;
 masm
 .
-loadPtr
+loadPayload
 (
 protoAddr
 obj
