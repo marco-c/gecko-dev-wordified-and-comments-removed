@@ -546,11 +546,6 @@ tabBrowser
 addProgressListener
 (
 progressListener
-Ci
-.
-nsIWebProgress
-.
-NOTIFY_STATE_WINDOW
 )
 ;
 tabBrowser
@@ -759,6 +754,7 @@ SimpleTest
 finish
 (
 )
+;
 }
 SimpleTest
 .
