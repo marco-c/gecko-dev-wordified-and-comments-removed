@@ -19221,6 +19221,9 @@ statusText
 lastURI
 :
 null
+isBusy
+:
+false
 statusTimeoutInEffect
 :
 false
@@ -19911,6 +19914,12 @@ startDocumentLoad
 aRequest
 )
 ;
+this
+.
+isBusy
+=
+true
+;
 if
 (
 this
@@ -20290,6 +20299,12 @@ true
 )
 ;
 }
+this
+.
+isBusy
+=
+false
+;
 gProgressCollapseTimer
 =
 window
