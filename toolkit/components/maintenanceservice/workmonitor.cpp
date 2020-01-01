@@ -2559,9 +2559,6 @@ argv
 )
 ;
 }
-#
-if
-0
 else
 if
 (
@@ -2588,8 +2585,6 @@ ClearKnownPrefetch
 )
 ;
 }
-#
-endif
 else
 {
 LOG
