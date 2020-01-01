@@ -434,6 +434,10 @@ mk
 _MOCHITEST_FILES
 =
 \
+utils
+.
+js
+\
 test_getauthenticationinfo
 .
 html
@@ -722,6 +726,10 @@ window
 endif
 _MOCHICHROME_FILES
 =
+\
+utils
+.
+js
 \
 test_npruntime
 .
