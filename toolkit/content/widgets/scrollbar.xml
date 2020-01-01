@@ -231,6 +231,11 @@ base
 >
 <
 content
+allowclickthrough
+=
+"
+always
+"
 >
 <
 xul
