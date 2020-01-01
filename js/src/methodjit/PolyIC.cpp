@@ -2121,7 +2121,7 @@ shortid
 ;
 masm
 .
-loadFunctionPrivate
+loadObjPrivate
 (
 pic
 .
@@ -8137,7 +8137,7 @@ shape
 ;
 masm
 .
-loadFunctionPrivate
+loadObjPrivate
 (
 pic
 .

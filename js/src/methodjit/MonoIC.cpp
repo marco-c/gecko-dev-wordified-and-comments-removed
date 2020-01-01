@@ -3274,7 +3274,7 @@ getFunctionPrivate
 ;
 masm
 .
-loadFunctionPrivate
+loadObjPrivate
 (
 ic
 .
