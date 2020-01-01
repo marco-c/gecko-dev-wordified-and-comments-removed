@@ -4703,6 +4703,14 @@ v
 isPrimitive
 (
 )
+&
+&
+!
+v
+.
+isMagic
+(
+)
 )
 {
 jsdouble
