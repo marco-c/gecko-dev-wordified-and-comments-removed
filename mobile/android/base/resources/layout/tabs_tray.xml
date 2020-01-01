@@ -88,6 +88,16 @@ TabsListContainer
 "
 android
 :
+id
+=
+"
++
+id
+/
+list_container
+"
+android
+:
 layout_width
 =
 "
