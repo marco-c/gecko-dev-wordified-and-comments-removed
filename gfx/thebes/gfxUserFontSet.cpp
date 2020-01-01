@@ -197,6 +197,10 @@ mUnsupportedFormat
 (
 false
 )
+mLoader
+(
+nsnull
+)
 {
 mIsProxy
 =
@@ -1676,6 +1680,13 @@ nsresult
 aDownloadStatus
 )
 {
+aProxy
+-
+>
+mLoader
+=
+nsnull
+;
 if
 (
 NS_SUCCEEDED
