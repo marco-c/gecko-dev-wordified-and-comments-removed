@@ -2602,6 +2602,10 @@ hasInvalidatedCallTarget_
 (
 false
 )
+hasSPSInstrumentation_
+(
+false
+)
 runtimeData_
 (
 0

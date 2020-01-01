@@ -1749,6 +1749,9 @@ HandleFunction
 fun
 HandleScript
 script
+IonScript
+*
+ionScript
 SnapshotIterator
 &
 iter
@@ -1971,6 +1974,14 @@ runtime
 spsProfiler
 .
 enabled
+(
+)
+&
+&
+ionScript
+-
+>
+hasSPSInstrumentation
 (
 )
 )
@@ -5043,6 +5054,11 @@ caller
 callerPC
 fun
 scr
+iter
+.
+ionScript
+(
+)
 snapIter
 invalidate
 builder
