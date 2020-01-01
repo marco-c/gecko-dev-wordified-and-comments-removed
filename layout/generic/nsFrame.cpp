@@ -25285,6 +25285,7 @@ if
 parentPseudo
 |
 |
+(
 !
 nsCSSAnonBoxes
 :
@@ -25292,6 +25293,16 @@ nsCSSAnonBoxes
 IsAnonBox
 (
 parentPseudo
+)
+&
+&
+aChildPseudo
+!
+=
+nsGkAtoms
+:
+:
+placeholderFrame
 )
 )
 {
