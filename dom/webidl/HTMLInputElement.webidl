@@ -339,6 +339,15 @@ indeterminate
 [
 Pure
 SetterThrows
+Pref
+=
+"
+dom
+.
+forms
+.
+inputmode
+"
 ]
 attribute
 DOMString
