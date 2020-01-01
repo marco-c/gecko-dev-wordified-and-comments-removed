@@ -329,13 +329,13 @@ nsFaviconService
 (
 )
 :
-mFailedFaviconSerial
-(
-0
-)
 mExpirationRunning
 (
 false
+)
+mFailedFaviconSerial
+(
+0
 )
 {
 NS_ASSERTION

@@ -436,6 +436,10 @@ mOfflineForProfileChange
 (
 PR_FALSE
 )
+mManageOfflineStatus
+(
+PR_TRUE
+)
 mSettingOffline
 (
 PR_FALSE
@@ -447,10 +451,6 @@ PR_FALSE
 mShutdown
 (
 PR_FALSE
-)
-mManageOfflineStatus
-(
-PR_TRUE
 )
 mChannelEventSinks
 (
