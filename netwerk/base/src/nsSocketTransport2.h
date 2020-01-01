@@ -453,9 +453,6 @@ mProxyTransparent
 PRPackedBool
 mProxyTransparentResolvesHost
 ;
-PRUint32
-mConnectionFlags
-;
 PRUint16
 SocketPort
 (
