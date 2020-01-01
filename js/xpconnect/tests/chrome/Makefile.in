@@ -245,6 +245,10 @@ test_getweakmapkeys
 .
 xul
 \
+test_mozMatchesSelector
+.
+xul
+\
 test_nodelists
 .
 xul

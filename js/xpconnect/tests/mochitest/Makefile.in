@@ -331,6 +331,10 @@ file_bug738244
 .
 html
 \
+file_mozMatchesSelector
+.
+html
+\
 (
 NULL
 )

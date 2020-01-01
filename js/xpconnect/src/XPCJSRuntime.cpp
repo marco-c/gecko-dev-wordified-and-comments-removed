@@ -284,6 +284,9 @@ nodePrincipal
 "
 documentURIObject
 "
+"
+mozMatchesSelector
+"
 }
 ;
 struct
