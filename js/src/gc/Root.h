@@ -1592,6 +1592,11 @@ sink
 =
 ptr
 ;
+(
+void
+)
+sink
+;
 }
 }
 ;
