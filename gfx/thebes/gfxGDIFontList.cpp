@@ -1221,6 +1221,14 @@ DEFAULT_QUALITY
 define
 MISSING_GLYPH
 0x1F
+/
+/
+glyph
+index
+returned
+for
+missing
+characters
 PRBool
 GDIFontEntry
 :
@@ -1436,6 +1444,12 @@ glyph
 0xFFFF
 &
 &
+(
+IsType1
+(
+)
+|
+|
 glyph
 [
 0
@@ -1443,6 +1457,7 @@ glyph
 !
 =
 MISSING_GLYPH
+)
 )
 {
 hasGlyph
