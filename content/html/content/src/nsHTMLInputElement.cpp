@@ -16281,11 +16281,6 @@ return
 PR_FALSE
 ;
 }
-PRBool
-dotFound
-=
-PR_FALSE
-;
 for
 (
 ;
@@ -16316,10 +16311,6 @@ c
 '
 )
 {
-dotFound
-=
-PR_TRUE
-;
 if
 (
 aValue
@@ -16378,7 +16369,7 @@ PR_FALSE
 }
 }
 return
-dotFound
+PR_TRUE
 ;
 }
 PRBool
