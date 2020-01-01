@@ -290,12 +290,6 @@ test_bug733553
 html
 \
 bug733553
--
-iframe
-.
-html
-\
-bug733553
 .
 sjs
 \
