@@ -1649,9 +1649,11 @@ DEFINES
 -
 DAPP_ID
 =
+"
 (
 MOZ_APP_ID
 )
+"
 (
 srcdir
 )
