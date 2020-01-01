@@ -5019,7 +5019,7 @@ var
 gBrowserInit
 =
 {
-BrowserStartup
+onLoad
 :
 function
 (
@@ -5869,7 +5869,14 @@ gDelayedStartupTimeoutId
 =
 setTimeout
 (
-delayedStartup
+this
+.
+_delayedStartup
+.
+bind
+(
+this
+)
 0
 isLoadingBlank
 mustLoadSidebar
@@ -6423,7 +6430,7 @@ true
 )
 ;
 }
-delayedStartup
+_delayedStartup
 :
 function
 (
@@ -6762,7 +6769,9 @@ customizeChange
 =
 BrowserToolboxCustomizeChange
 ;
-initializeSanitizer
+this
+.
+_initializeSanitizer
 (
 )
 ;
@@ -8367,7 +8376,7 @@ delayedStartupFinished
 )
 ;
 }
-BrowserShutdown
+onUnload
 :
 function
 (
@@ -9244,7 +9253,14 @@ gDelayedStartupTimeoutId
 =
 setTimeout
 (
+this
+.
 nonBrowserWindowDelayedStartup
+.
+bind
+(
+this
+)
 0
 )
 ;
@@ -9265,7 +9281,9 @@ init
 (
 )
 ;
-initializeSanitizer
+this
+.
+_initializeSanitizer
 (
 )
 ;
@@ -9325,7 +9343,7 @@ uninit
 }
 #
 endif
-initializeSanitizer
+_initializeSanitizer
 :
 function
 (
@@ -9588,7 +9606,7 @@ BrowserStartup
 =
 gBrowserInit
 .
-BrowserStartup
+onLoad
 .
 bind
 (
@@ -9612,7 +9630,7 @@ BrowserShutdown
 =
 gBrowserInit
 .
-BrowserShutdown
+onUnload
 .
 bind
 (
