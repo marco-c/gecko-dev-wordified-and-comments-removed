@@ -8689,11 +8689,6 @@ mMenuOpen
 &
 this
 .
-showPopup
-&
-&
-this
-.
 focused
 &
 &
@@ -8899,6 +8894,11 @@ if
 this
 .
 focused
+&
+&
+this
+.
+showPopup
 )
 {
 this
