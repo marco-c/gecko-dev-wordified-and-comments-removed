@@ -12554,7 +12554,7 @@ bool
 JSScript
 :
 :
-applySpeculationFailed
+argumentsOptimizationFailed
 (
 JSContext
 *

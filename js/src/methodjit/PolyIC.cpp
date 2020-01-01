@@ -11266,6 +11266,14 @@ lengthAtom
 {
 if
 (
+IsOptimizedArguments
+(
+f
+.
+fp
+(
+)
+&
 f
 .
 regs
@@ -11275,10 +11283,6 @@ sp
 -
 1
 ]
-.
-isMagic
-(
-JS_OPTIMIZED_ARGUMENTS
 )
 )
 {
