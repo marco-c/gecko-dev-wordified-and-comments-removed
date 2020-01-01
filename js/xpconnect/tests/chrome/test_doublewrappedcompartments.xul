@@ -375,7 +375,7 @@ is
 typeof
 expando
 .
-QueryInterface
+querySelector
 '
 function
 '
