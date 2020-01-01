@@ -880,6 +880,9 @@ mBlocked
 PRBool
 mSuspending
 ;
+PRBool
+mSuppressEOF
+;
 eHtml5ParserLifecycle
 mLifeCycle
 ;
