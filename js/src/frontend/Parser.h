@@ -96,9 +96,6 @@ downScope
 uint32_t
 blockid
 ;
-bool
-isFunctionBodyBlock
-;
 StmtInfoPC
 (
 JSContext
@@ -109,10 +106,6 @@ cx
 StmtInfoBase
 (
 cx
-)
-isFunctionBodyBlock
-(
-false
 )
 {
 }
