@@ -641,6 +641,10 @@ TestStorageStream
 .
 cpp
 \
+TestSynchronization
+.
+cpp
+\
 TestTArray
 .
 cpp
