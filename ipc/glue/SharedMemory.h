@@ -11,6 +11,13 @@ nsDebug
 .
 h
 "
+#
+include
+"
+nsISupportsImpl
+.
+h
+"
 namespace
 {
 enum
@@ -236,6 +243,10 @@ aRights
 )
 ;
 }
+NS_INLINE_DECL_REFCOUNTING
+(
+SharedMemory
+)
 static
 void
 SystemProtect
