@@ -244,6 +244,10 @@ manager
 .
 html
 \
+test_device
+.
+html
+\
 (
 NULL
 )
