@@ -7553,6 +7553,11 @@ f
 )
 checksum
 :
+mkdir
+-
+p
+dirname
+CHECKSUM_FILE
 (
 PYTHON
 )
