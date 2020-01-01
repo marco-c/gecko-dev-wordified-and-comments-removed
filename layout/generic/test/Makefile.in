@@ -514,10 +514,6 @@ test_bug468167
 .
 html
 \
-test_bug469613
-.
-xul
-\
 test_character_movement
 .
 html
