@@ -16448,12 +16448,10 @@ mWnd
 ;
 if
 (
-!
-newWidth
-&
-&
-!
-newHeight
+mWnd
+=
+=
+toplevelWnd
 &
 &
 IsIconic
