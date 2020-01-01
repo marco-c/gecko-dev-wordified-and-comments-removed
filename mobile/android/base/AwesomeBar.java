@@ -4319,10 +4319,12 @@ true
 }
 if
 (
+TextUtils
+.
+isEmpty
+(
 mAutoCompleteResult
-=
-=
-null
+)
 |
 |
 !
