@@ -1222,6 +1222,12 @@ destroy
 "
 )
 ;
+if
+(
+isFinishing
+(
+)
+)
 GeckoAppShell
 .
 sendEventToGecko
