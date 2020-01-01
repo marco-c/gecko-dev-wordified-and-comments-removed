@@ -102,7 +102,7 @@ BrowserStreamChild
 ;
 virtual
 nsresult
-RecvTest
+AnswerTest
 (
 const
 Variant
@@ -112,6 +112,9 @@ const
 Variant
 &
 v2
+Variant
+*
+_retval
 )
 {
 printf
@@ -348,6 +351,11 @@ puts
 n
 "
 )
+;
+*
+_retval
+=
+v1
 ;
 return
 NS_OK
