@@ -85,7 +85,7 @@ MemoryReportingSundriesThreshold
 )
 ;
 struct
-StringHashPolicy
+InefficientNonFlatteningStringHashPolicy
 {
 typedef
 JSString
@@ -1130,7 +1130,7 @@ StringInfo
 js
 :
 :
-StringHashPolicy
+InefficientNonFlatteningStringHashPolicy
 js
 :
 :
