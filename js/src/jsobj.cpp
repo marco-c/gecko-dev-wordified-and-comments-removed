@@ -16796,7 +16796,7 @@ if
 slots
 )
 return
-true
+false
 ;
 *
 slots
@@ -16998,6 +16998,14 @@ jsval
 )
 )
 ;
+if
+(
+!
+slots
+)
+return
+false
+;
 *
 slots
 +
@@ -17160,6 +17168,13 @@ sizeof
 jsval
 )
 )
+;
+if
+(
+!
+slots
+)
+return
 ;
 *
 slots
