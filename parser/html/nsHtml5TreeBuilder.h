@@ -1503,6 +1503,15 @@ getStack
 (
 )
 ;
+jArray
+<
+int32_t
+int32_t
+>
+getTemplateModeStack
+(
+)
+;
 int32_t
 getMode
 (
@@ -1535,6 +1544,11 @@ getListOfActiveFormattingElementsLength
 ;
 int32_t
 getStackLength
+(
+)
+;
+int32_t
+getTemplateModeStackLength
 (
 )
 ;
