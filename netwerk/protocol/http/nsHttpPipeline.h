@@ -71,8 +71,6 @@ NS_DECL_NSAHTTPTRANSACTION
 NS_DECL_NSAHTTPSEGMENTREADER
 nsHttpPipeline
 (
-PRUint16
-maxPipelineDepth
 )
 ;
 virtual
@@ -163,9 +161,6 @@ i
 ]
 ;
 }
-PRUint16
-mMaxPipelineDepth
-;
 nsAHttpConnection
 *
 mConnection
