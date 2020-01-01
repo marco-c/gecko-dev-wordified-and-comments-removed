@@ -241,13 +241,6 @@ mMediaStreamGraphUpdateIndexAtLastInputConnection
 }
 private
 :
-friend
-class
-PlayingRefChangeHandler
-<
-ConvolverNode
->
-;
 int64_t
 mMediaStreamGraphUpdateIndexAtLastInputConnection
 ;
@@ -256,12 +249,6 @@ nsRefPtr
 AudioBuffer
 >
 mBuffer
-;
-SelfReference
-<
-ConvolverNode
->
-mPlayingRef
 ;
 bool
 mNormalize

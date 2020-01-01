@@ -141,13 +141,6 @@ friend
 class
 DelayNodeEngine
 ;
-friend
-class
-PlayingRefChangeHandler
-<
-DelayNode
->
-;
 private
 :
 int64_t
@@ -158,12 +151,6 @@ nsRefPtr
 AudioParam
 >
 mDelay
-;
-SelfReference
-<
-DelayNode
->
-mPlayingRef
 ;
 }
 ;
