@@ -42415,7 +42415,7 @@ dnl
 =
 =
 =
-MOZ_ARG_ENABLE_BOOL
+MOZ_ARG_DISABLE_BOOL
 (
 wave
 [
