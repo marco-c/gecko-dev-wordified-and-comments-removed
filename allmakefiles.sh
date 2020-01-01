@@ -5599,6 +5599,11 @@ xulappinfo
 Makefile
 suite
 /
+installer
+/
+Makefile
+suite
+/
 locales
 /
 Makefile
