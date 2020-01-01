@@ -315,6 +315,10 @@ SVGAngle
 .
 webidl
 \
+SVGAnimatedAngle
+.
+webidl
+\
 SVGAnimatedBoolean
 .
 webidl
