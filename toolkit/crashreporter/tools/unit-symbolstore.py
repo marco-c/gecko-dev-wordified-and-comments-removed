@@ -6,6 +6,9 @@ shutil
 struct
 platform
 subprocess
+multiprocessing
+.
+dummy
 import
 mock
 from
@@ -474,10 +477,16 @@ processed
 def
 mock_process_file
 (
-filename
+filenames
 )
 :
             
+for
+filename
+in
+filenames
+:
+                
 processed
 .
 append
@@ -589,14 +598,10 @@ foo
         
 d
 .
-ProcessFile
+ProcessFiles
 =
 mock_process_file
         
-self
-.
-assertTrue
-(
 d
 .
 Process
@@ -605,6 +610,14 @@ self
 .
 test_dir
 )
+        
+d
+.
+Finish
+(
+stop_pool
+=
+False
 )
         
 processed
@@ -682,10 +695,16 @@ processed
 def
 mock_process_file
 (
-filename
+filenames
 )
 :
             
+for
+filename
+in
+filenames
+:
+                
 processed
 .
 append
@@ -798,14 +817,10 @@ foo
         
 d
 .
-ProcessFile
+ProcessFiles
 =
 mock_process_file
         
-self
-.
-assertTrue
-(
 d
 .
 Process
@@ -814,6 +829,14 @@ self
 .
 test_dir
 )
+        
+d
+.
+Finish
+(
+stop_pool
+=
+False
 )
         
 processed
@@ -1082,6 +1105,22 @@ stdouts
 =
 [
 ]
+        
+self
+.
+_shutil_rmtree
+=
+shutil
+.
+rmtree
+        
+shutil
+.
+rmtree
+=
+self
+.
+mock_rmtree
     
 def
 tearDown
@@ -1096,6 +1135,14 @@ tearDown
 (
 self
 )
+        
+shutil
+.
+rmtree
+=
+self
+.
+_shutil_rmtree
         
 shutil
 .
@@ -1121,6 +1168,16 @@ Popen
 self
 .
 _subprocess_popen
+    
+def
+mock_rmtree
+(
+self
+path
+)
+:
+        
+pass
     
 def
 mock_call
@@ -1382,10 +1439,6 @@ CopyDebug
 =
 mock_copy_debug
         
-self
-.
-assertTrue
-(
 d
 .
 Process
@@ -1394,6 +1447,14 @@ self
 .
 test_dir
 )
+        
+d
+.
+Finish
+(
+stop_pool
+=
+False
 )
         
 self
@@ -2224,9 +2285,42 @@ __name__
 __main__
 '
 :
-  
+    
+symbolstore
+.
+Dumper
+.
+GlobalInit
+(
+module
+=
+multiprocessing
+.
+dummy
+)
+    
 unittest
 .
 main
+(
+)
+    
+symbolstore
+.
+Dumper
+.
+pool
+.
+close
+(
+)
+    
+symbolstore
+.
+Dumper
+.
+pool
+.
+join
 (
 )
