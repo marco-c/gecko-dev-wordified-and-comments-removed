@@ -2315,7 +2315,7 @@ mDOMNode
 {
 }
 }
-nsAccessibilityUtils
+nsAccUtils
 :
 :
 SetAccGroupAttrs

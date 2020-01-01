@@ -9522,7 +9522,7 @@ oldValueUnused
 if
 (
 !
-nsAccessibilityUtils
+nsAccUtils
 :
 :
 HasAccGroupAttrs
@@ -9829,7 +9829,7 @@ nextParent
 ;
 }
 }
-nsAccessibilityUtils
+nsAccUtils
 :
 :
 SetAccGroupAttrs
@@ -10012,7 +10012,7 @@ level
 posInSet
 setSize
 ;
-nsAccessibilityUtils
+nsAccUtils
 :
 :
 GetAccGroupAttrs

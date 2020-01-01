@@ -2185,7 +2185,7 @@ rv
 rv
 )
 ;
-nsAccessibilityUtils
+nsAccUtils
 :
 :
 SetAccAttrsForXULSelectControlItem

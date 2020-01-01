@@ -3374,7 +3374,7 @@ startIndex
 +
 1
 ;
-nsAccessibilityUtils
+nsAccUtils
 :
 :
 SetAccGroupAttrs
@@ -3404,7 +3404,7 @@ if
 isCycler
 )
 {
-nsAccessibilityUtils
+nsAccUtils
 :
 :
 SetAccAttr

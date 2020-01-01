@@ -521,7 +521,7 @@ mTempContent
 else
 if
 (
-nsAccessibilityUtils
+nsAccUtils
 :
 :
 HasListener

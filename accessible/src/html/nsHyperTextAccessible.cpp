@@ -3486,7 +3486,7 @@ AppendInt
 headLevel
 )
 ;
-nsAccessibilityUtils
+nsAccUtils
 :
 :
 SetAccAttr
