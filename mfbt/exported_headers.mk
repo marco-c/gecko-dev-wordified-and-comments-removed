@@ -191,6 +191,10 @@ MSStdInt
 .
 h
 \
+Move
+.
+h
+\
 NullPtr
 .
 h
