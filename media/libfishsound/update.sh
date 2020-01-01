@@ -756,3 +756,10 @@ p3
 fishsound_reset
 .
 patch
+patch
+-
+p3
+<
+bug520500
+.
+patch
