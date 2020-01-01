@@ -119,7 +119,7 @@ size
 :
 L10N
 .
-getFormatStr
+getFormatStrWithNumbers
 (
 "
 networkMenu
@@ -186,7 +186,7 @@ size
 :
 L10N
 .
-getFormatStr
+getFormatStrWithNumbers
 (
 "
 networkMenu
@@ -253,7 +253,7 @@ size
 :
 L10N
 .
-getFormatStr
+getFormatStrWithNumbers
 (
 "
 networkMenu
@@ -320,7 +320,7 @@ size
 :
 L10N
 .
-getFormatStr
+getFormatStrWithNumbers
 (
 "
 networkMenu
@@ -388,7 +388,7 @@ size
 :
 L10N
 .
-getFormatStr
+getFormatStrWithNumbers
 (
 "
 networkMenu
@@ -442,7 +442,7 @@ size
 :
 L10N
 .
-getFormatStr
+getFormatStrWithNumbers
 (
 "
 networkMenu
