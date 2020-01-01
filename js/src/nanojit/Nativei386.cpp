@@ -1674,7 +1674,7 @@ if
 i
 -
 >
-paramArg
+imm8
 (
 )
 <
@@ -1690,7 +1690,7 @@ Register
 i
 -
 >
-paramArg
+imm8
 (
 )
 )
@@ -5679,7 +5679,7 @@ a
 ins
 -
 >
-paramArg
+imm8
 (
 )
 ;
@@ -5689,7 +5689,7 @@ kind
 ins
 -
 >
-paramKind
+imm8b
 (
 )
 ;
