@@ -598,11 +598,6 @@ cpp
 (
 NULL
 )
-GQI_SRCS
-=
-dombase
-.
-gqi
 #
 we
 don

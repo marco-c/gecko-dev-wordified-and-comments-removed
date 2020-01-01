@@ -163,6 +163,11 @@ nsNativeModuleLoaderLog
 level
 args
 )
+NS_IMPL_QUERY_INTERFACE1
+(
+nsNativeModuleLoader
+nsIModuleLoader
+)
 NS_IMPL_ADDREF_USING_AGGREGATOR
 (
 nsNativeModuleLoader

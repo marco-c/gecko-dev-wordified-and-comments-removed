@@ -701,11 +701,6 @@ cpp
 (
 NULL
 )
-GQI_SRCS
-=
-htmlcontent
-.
-gqi
 #
 we
 don

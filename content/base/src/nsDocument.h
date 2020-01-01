@@ -2656,7 +2656,7 @@ mBaseTarget
 PRUint32
 mUpdateNestLevel
 ;
-protected
+private
 :
 friend
 class

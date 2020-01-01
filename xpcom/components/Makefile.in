@@ -457,16 +457,6 @@ cpp
 (
 NULL
 )
-GQI_SRCS
-=
-\
-xpcomcomponents
-.
-gqi
-\
-(
-NULL
-)
 EXPORTS
 =
 \
