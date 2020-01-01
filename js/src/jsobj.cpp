@@ -21486,7 +21486,7 @@ sprop
 scope
 -
 >
-addProperty
+putProperty
 (
 cx
 id
