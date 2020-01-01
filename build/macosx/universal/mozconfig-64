@@ -1,7 +1,9 @@
 #
-ppc
-/
 i386
+/
+x86
+-
+64
 Universal
 Build
 mozconfig
@@ -29,8 +31,8 @@ mk_add_options
 MOZ_BUILD_PROJECTS
 =
 "
-ppc
 i386
+x86_64
 "
 .
 topsrcdir
