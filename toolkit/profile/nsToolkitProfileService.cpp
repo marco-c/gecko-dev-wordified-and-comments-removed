@@ -171,12 +171,22 @@ nsNativeCharsetUtils
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 using
 namespace
 mozilla
 ;
 class
 nsToolkitProfile
+MOZ_FINAL
 :
 public
 nsIToolkitProfile
@@ -256,6 +266,7 @@ mForExternalApp
 ;
 class
 nsToolkitProfileLock
+MOZ_FINAL
 :
 public
 nsIProfileLock
@@ -328,6 +339,7 @@ mLock
 ;
 class
 nsToolkitProfileFactory
+MOZ_FINAL
 :
 public
 nsIFactory
@@ -340,6 +352,7 @@ NS_DECL_NSIFACTORY
 ;
 class
 nsToolkitProfileService
+MOZ_FINAL
 :
 public
 nsIToolkitProfileService
@@ -490,6 +503,7 @@ gService
 ;
 class
 ProfileEnumerator
+MOZ_FINAL
 :
 public
 nsISimpleEnumerator

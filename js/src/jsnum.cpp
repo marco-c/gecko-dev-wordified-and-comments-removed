@@ -5509,10 +5509,6 @@ RootedFunction
 ctor
 (
 cx
-)
-;
-ctor
-=
 global
 -
 >
@@ -5526,6 +5522,7 @@ cx
 Number
 )
 1
+)
 )
 ;
 if

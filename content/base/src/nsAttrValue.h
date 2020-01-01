@@ -70,9 +70,6 @@ nsAString
 class
 nsIAtom
 ;
-class
-nsIDocument
-;
 template
 <
 class

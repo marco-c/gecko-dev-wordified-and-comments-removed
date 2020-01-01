@@ -1842,6 +1842,9 @@ include
 shared
 .
 js
+#
+ifdef
+MOZ_MAINTENANCE_SERVICE
 const
 STATE_APPLIED_PLATFORM
 =
@@ -1851,6 +1854,15 @@ STATE_APPLIED_SVC
 :
 STATE_APPLIED
 ;
+#
+else
+const
+STATE_APPLIED_PLATFORM
+=
+STATE_APPLIED
+;
+#
+endif
 /
 *
 *

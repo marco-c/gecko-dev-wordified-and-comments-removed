@@ -3086,6 +3086,12 @@ NS_OK
 reason
 =
 =
+NS_ERROR_NET_TIMEOUT
+|
+|
+reason
+=
+=
 NS_BASE_STREAM_CLOSED
 )
 )

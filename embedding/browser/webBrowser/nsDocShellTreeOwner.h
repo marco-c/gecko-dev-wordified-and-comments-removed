@@ -63,13 +63,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsIEmbeddingSiteWindow
 .
 h

@@ -553,7 +553,11 @@ GetWidget
 )
 {
 return
+mInnerView
+?
 mWidget
+:
+nsnull
 ;
 }
 void

@@ -1067,7 +1067,7 @@ return
 true
 ;
 }
-inline
+MOZ_ALWAYS_INLINE
 nsISupports
 *
 castNativeFromWrapper

@@ -826,7 +826,7 @@ const
 const
 gH264Codecs
 [
-6
+7
 ]
 ;
 #
@@ -917,7 +917,6 @@ nsGenericElement
 *
 aDest
 )
-const
 ;
 virtual
 nsresult

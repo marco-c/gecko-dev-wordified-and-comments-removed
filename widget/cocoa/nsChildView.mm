@@ -26733,7 +26733,7 @@ keyCode
 ]
 =
 =
-kEscapeKeyCode
+kVK_Escape
 )
 ;
 if

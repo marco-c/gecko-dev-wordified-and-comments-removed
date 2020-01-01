@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsIJSContextStack
 .
 h

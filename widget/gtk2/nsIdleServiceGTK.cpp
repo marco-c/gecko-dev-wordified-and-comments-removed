@@ -115,11 +115,10 @@ _XSSQueryInfo
 =
 nsnull
 ;
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS_INHERITED0
 (
 nsIdleServiceGTK
 nsIdleService
-nsIIdleService
 )
 static
 void

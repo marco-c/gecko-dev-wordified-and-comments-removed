@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsIContent
-.
-h
-"
-#
-include
-"
 nsUnicharUtils
 .
 h
@@ -60,13 +53,6 @@ h
 include
 "
 nsIScriptContext
-.
-h
-"
-#
-include
-"
-nsContentUtils
 .
 h
 "

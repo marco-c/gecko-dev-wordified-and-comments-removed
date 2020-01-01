@@ -88,7 +88,6 @@ JSFlatString
 *
 props_end
 ;
-const
 Shape
 *
 *
@@ -711,7 +710,7 @@ ok
 &
 iterv
 .
-reference
+get
 (
 )
 .
@@ -771,7 +770,7 @@ ok
 !
 currentValue
 .
-reference
+get
 (
 )
 .
@@ -801,7 +800,7 @@ closed
 return
 currentValue
 .
-reference
+get
 (
 )
 ;

@@ -33,15 +33,6 @@ IAccessibleText
 {
 public
 :
-STDMETHODIMP
-QueryInterface
-(
-REFIID
-void
-*
-*
-)
-;
 virtual
 HRESULT
 STDMETHODCALLTYPE

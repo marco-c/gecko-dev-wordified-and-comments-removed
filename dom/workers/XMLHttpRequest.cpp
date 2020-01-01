@@ -4275,12 +4275,6 @@ nsIVariant
 >
 variant
 ;
-RuntimeService
-:
-:
-AutoSafeJSContext
-cx
-;
 if
 (
 mBody
@@ -4290,6 +4284,12 @@ data
 )
 )
 {
+RuntimeService
+:
+:
+AutoSafeJSContext
+cx
+;
 nsIXPConnect
 *
 xpc

@@ -1720,6 +1720,12 @@ outputStream
 {
 nsCacheServiceAutoLock
 lock
+(
+LOCK_TELEM
+(
+NSDISKCACHESTREAMIO_CLOSEOUTPUTSTREAM
+)
+)
 ;
 return
 CloseOutputStreamInternal
@@ -2196,6 +2202,12 @@ NS_OK
 ;
 nsCacheServiceAutoLock
 lock
+(
+LOCK_TELEM
+(
+NSDISKCACHESTREAMIO_WRITE
+)
+)
 ;
 if
 (

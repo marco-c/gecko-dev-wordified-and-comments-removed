@@ -669,10 +669,6 @@ RootedFunction
 ctor
 (
 cx
-)
-;
-ctor
-=
 global
 -
 >
@@ -686,6 +682,7 @@ cx
 Boolean
 )
 1
+)
 )
 ;
 if

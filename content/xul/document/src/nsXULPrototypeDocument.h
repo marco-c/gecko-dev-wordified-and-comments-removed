@@ -49,13 +49,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h

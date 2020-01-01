@@ -115,6 +115,12 @@ SendDrainDone
 (
 )
 ;
+virtual
+bool
+SendWriteDone
+(
+)
+;
 AudioParent
 (
 PRInt32

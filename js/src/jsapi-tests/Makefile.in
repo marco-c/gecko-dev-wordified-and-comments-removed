@@ -294,6 +294,10 @@ testXDR
 .
 cpp
 \
+testProfileStrings
+.
+cpp
+\
 (
 NULL
 )

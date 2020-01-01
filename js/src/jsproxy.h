@@ -61,7 +61,6 @@ return
 mFamily
 ;
 }
-;
 virtual
 bool
 isOuterWindow

@@ -2102,7 +2102,9 @@ cx
 runtime
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 |
 |
 cx
@@ -2253,7 +2255,6 @@ empty
 {
 Rooted
 <
-const
 Shape
 *
 >
@@ -9186,7 +9187,6 @@ popFront
 )
 )
 {
-const
 Shape
 &
 shape
@@ -12033,7 +12033,6 @@ popFront
 )
 )
 {
-const
 Shape
 &
 shape

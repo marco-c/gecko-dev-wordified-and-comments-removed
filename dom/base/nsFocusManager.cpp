@@ -40,13 +40,6 @@ h
 #
 include
 "
-nsIEnumerator
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h
@@ -139,13 +132,6 @@ h
 include
 "
 nsIHTMLDocument
-.
-h
-"
-#
-include
-"
-nsIFormControlFrame
 .
 h
 "

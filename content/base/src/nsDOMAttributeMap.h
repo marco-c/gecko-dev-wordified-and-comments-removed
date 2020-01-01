@@ -43,9 +43,6 @@ class
 nsIAtom
 ;
 class
-nsIContent
-;
-class
 nsDOMAttribute
 ;
 class

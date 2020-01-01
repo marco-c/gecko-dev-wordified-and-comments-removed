@@ -364,6 +364,8 @@ requestOrigin
 context
 mimeType
 extra
+originPrincipal
+\
 decision
 )
 ;
@@ -392,6 +394,8 @@ requestOrigin
 context
 mimeType
 extra
+originPrincipal
+\
 decision
 )
 ;

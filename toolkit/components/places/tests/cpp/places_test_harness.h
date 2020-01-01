@@ -99,6 +99,15 @@ prinrval
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 TOPIC_FRECENCY_UPDATED
 "
@@ -419,6 +428,7 @@ do_test_finished
 ;
 class
 WaitForTopicSpinner
+MOZ_FINAL
 :
 public
 nsIObserver
@@ -1251,6 +1261,7 @@ closed
 ;
 class
 WaitForConnectionClosed
+MOZ_FINAL
 :
 public
 nsIObserver

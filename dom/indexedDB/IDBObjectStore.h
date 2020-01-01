@@ -564,6 +564,9 @@ GetInternal
 IDBKeyRange
 *
 aKeyRange
+JSContext
+*
+aCx
 IDBRequest
 *
 *
@@ -578,6 +581,9 @@ IDBKeyRange
 aKeyRange
 PRUint32
 aLimit
+JSContext
+*
+aCx
 IDBRequest
 *
 *
@@ -590,6 +596,9 @@ DeleteInternal
 IDBKeyRange
 *
 aKeyRange
+JSContext
+*
+aCx
 IDBRequest
 *
 *
@@ -599,6 +608,9 @@ _retval
 nsresult
 ClearInternal
 (
+JSContext
+*
+aCx
 IDBRequest
 *
 *
@@ -611,6 +623,9 @@ CountInternal
 IDBKeyRange
 *
 aKeyRange
+JSContext
+*
+aCx
 IDBRequest
 *
 *
@@ -625,6 +640,9 @@ IDBKeyRange
 aKeyRange
 size_t
 aDirection
+JSContext
+*
+aCx
 IDBRequest
 *
 *
@@ -651,6 +669,14 @@ IDBCursor
 *
 *
 _retval
+)
+;
+void
+SetInfo
+(
+ObjectStoreInfo
+*
+aInfo
 )
 ;
 static

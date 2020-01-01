@@ -1164,7 +1164,9 @@ comp
 rt
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 )
 ;
 init
@@ -1192,7 +1194,9 @@ compartment
 rt
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 )
 ;
 init
@@ -1285,7 +1289,9 @@ comp
 rt
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 )
 ;
 lists
@@ -1410,7 +1416,9 @@ JS_ASSERT
 rt
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 )
 ;
 it
@@ -1650,7 +1658,9 @@ cx
 runtime
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 )
 ;
 JS_ASSERT
@@ -1882,7 +1892,9 @@ cx
 runtime
 -
 >
-gcRunning
+isHeapBusy
+(
+)
 )
 ;
 JS_ASSERT

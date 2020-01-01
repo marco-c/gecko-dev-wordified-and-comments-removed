@@ -75,6 +75,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ReentrantMonitor
 .
 h
@@ -312,6 +321,7 @@ mReentrantMonitorPtr
 ;
 class
 Factory
+MOZ_FINAL
 :
 public
 nsIFactory
@@ -368,6 +378,7 @@ nsIFactory
 )
 class
 Component1
+MOZ_FINAL
 :
 public
 nsISupports
@@ -429,6 +440,7 @@ nsISupports
 NS_INTERFACE_MAP_END
 class
 Component2
+MOZ_FINAL
 :
 public
 nsISupports

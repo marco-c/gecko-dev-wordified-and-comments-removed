@@ -160,6 +160,13 @@ nsIDOMMouseEvent
 .
 h
 "
+#
+include
+"
+nsIIdleServiceInternal
+.
+h
+"
 class
 nsNativeDragTarget
 ;
@@ -2268,6 +2275,12 @@ mAssumeWheelIsZoomUntil
 PRUint32
 mPickerDisplayCount
 ;
+HICON
+mIconSmall
+;
+HICON
+mIconBig
+;
 static
 bool
 sDropShadowEnabled
@@ -2362,7 +2375,7 @@ mCaptionHeight
 ;
 nsCOMPtr
 <
-nsIdleService
+nsIIdleServiceInternal
 >
 mIdleService
 ;

@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsPluginHost
 .
 h

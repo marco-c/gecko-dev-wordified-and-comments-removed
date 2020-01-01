@@ -211,6 +211,15 @@ CSS
 properties
 )
 #
+animateMotion
+tests
+include
+motion
+/
+reftest
+.
+list
+#
 animation
 sort
 -

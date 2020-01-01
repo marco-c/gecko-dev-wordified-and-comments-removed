@@ -37,13 +37,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

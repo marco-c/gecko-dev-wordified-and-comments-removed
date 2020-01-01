@@ -204,13 +204,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsIDOMElement
 .
 h

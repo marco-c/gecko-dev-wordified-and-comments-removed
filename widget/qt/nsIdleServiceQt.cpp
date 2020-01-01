@@ -125,10 +125,9 @@ sInitialized
 =
 false
 ;
-NS_IMPL_ISUPPORTS2
+NS_IMPL_ISUPPORTS_INHERITED0
 (
 nsIdleServiceQt
-nsIIdleService
 nsIdleService
 )
 nsIdleServiceQt

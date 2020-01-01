@@ -1830,8 +1830,6 @@ Collect
 (
 PRUint32
 reason
-PRUint32
-kind
 )
 ;
 XPCCallContext
@@ -2667,6 +2665,17 @@ RemoveJSHolder
 void
 *
 aHolder
+)
+;
+nsresult
+TestJSHolder
+(
+void
+*
+aHolder
+bool
+*
+aRetval
 )
 ;
 static

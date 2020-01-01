@@ -39,9 +39,6 @@ class
 nsIDOMWindow
 ;
 class
-nsIDOMDocument
-;
-class
 nsIDOMDragEvent
 ;
 class

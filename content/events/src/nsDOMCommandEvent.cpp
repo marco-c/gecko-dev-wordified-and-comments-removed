@@ -1,14 +1,14 @@
 #
 include
 "
-nsDOMCommandEvent
+nsDOMClassInfoID
 .
 h
 "
 #
 include
 "
-nsContentUtils
+nsDOMCommandEvent
 .
 h
 "

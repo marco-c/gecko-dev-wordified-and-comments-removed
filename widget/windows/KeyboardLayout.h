@@ -357,7 +357,7 @@ return
 (
 mModifiers
 &
-MODIFIER_WIN
+MODIFIER_OS
 )
 !
 =
@@ -408,7 +408,7 @@ return
 (
 mModifiers
 &
-MODIFIER_SCROLL
+MODIFIER_SCROLLLOCK
 )
 !
 =

@@ -134,13 +134,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsContentCreatorFunctions
 .
 h
@@ -1545,7 +1538,6 @@ nsGenericElement
 *
 aDest
 )
-const
 {
 nsresult
 rv

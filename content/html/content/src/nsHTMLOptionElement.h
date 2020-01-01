@@ -256,7 +256,6 @@ nsGenericElement
 *
 aDest
 )
-const
 ;
 virtual
 nsXPCClassInfo

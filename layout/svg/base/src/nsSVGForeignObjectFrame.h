@@ -315,6 +315,8 @@ true
 gfxMatrix
 GetCanvasTM
 (
+PRUint32
+aFor
 )
 ;
 protected
@@ -332,11 +334,6 @@ nsIPresShell
 :
 IntrinsicDirty
 aType
-)
-;
-gfxMatrix
-GetCanvasTMForChildren
-(
 )
 ;
 void

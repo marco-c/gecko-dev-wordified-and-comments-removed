@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsIDOMHTMLDocument
-.
-h
-"
-#
-include
-"
 nsIDOMText
 .
 h

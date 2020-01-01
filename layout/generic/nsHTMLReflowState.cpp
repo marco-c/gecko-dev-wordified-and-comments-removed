@@ -6851,7 +6851,6 @@ LeftRight
 (
 )
 ;
-;
 NS_ASSERTION
 (
 aContainingBlockWidth

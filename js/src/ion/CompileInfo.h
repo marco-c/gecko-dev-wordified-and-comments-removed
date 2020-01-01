@@ -587,7 +587,7 @@ script
 )
 -
 >
-argumentsHasLocalBinding
+argumentsHasVarBinding
 (
 )
 ;

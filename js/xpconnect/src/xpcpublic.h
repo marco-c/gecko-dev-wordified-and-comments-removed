@@ -1003,7 +1003,7 @@ rtStats
 const
 nsACString
 &
-pathPrefix
+rtPath
 nsIMemoryMultiReporterCallback
 *
 cb

@@ -822,6 +822,10 @@ nsSVGUtils
 GetCanvasTM
 (
 aTarget
+nsISVGChildFrame
+:
+:
+FOR_OUTERSVG_TM
 )
 ;
 if
@@ -948,6 +952,10 @@ nsSVGUtils
 GetCanvasTM
 (
 aTarget
+nsISVGChildFrame
+:
+:
+FOR_PAINTING
 )
 ;
 }

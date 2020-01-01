@@ -85,13 +85,6 @@ h
 #
 include
 "
-nsIHTMLDocument
-.
-h
-"
-#
-include
-"
 nsImageMap
 .
 h
@@ -163,13 +156,6 @@ h
 include
 "
 nsIDOMHTMLMapElement
-.
-h
-"
-#
-include
-"
-nsIDOMDocument
 .
 h
 "

@@ -2397,7 +2397,7 @@ this
 server
 =
 new
-nsHttpServer
+HttpServer
 (
 )
 ;

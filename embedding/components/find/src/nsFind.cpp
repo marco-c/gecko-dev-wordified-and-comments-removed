@@ -85,13 +85,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsTextFragment
 .
 h

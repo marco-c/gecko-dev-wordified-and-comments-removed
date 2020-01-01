@@ -573,6 +573,10 @@ SemanticAnalysis
 .
 cpp
 \
+SPSProfiler
+.
+cpp
+\
 TokenStream
 .
 cpp
@@ -586,6 +590,10 @@ TestingFunctions
 cpp
 \
 LifoAlloc
+.
+cpp
+\
+Eval
 .
 cpp
 \

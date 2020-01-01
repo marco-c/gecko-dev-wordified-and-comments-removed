@@ -49,13 +49,6 @@ h
 #
 include
 "
-nsIDOMDocument
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h
@@ -71,13 +64,6 @@ h
 include
 "
 nsIDocShellTreeItem
-.
-h
-"
-#
-include
-"
-nsIDocument
 .
 h
 "

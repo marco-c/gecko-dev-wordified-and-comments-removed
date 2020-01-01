@@ -110,6 +110,10 @@ xpcpublic
 .
 h
 \
+XPCJSMemoryReporter
+.
+h
+\
 dombindings
 .
 h

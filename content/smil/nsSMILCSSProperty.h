@@ -32,9 +32,6 @@ nsCSSValue
 .
 h
 "
-class
-nsIContent
-;
 namespace
 mozilla
 {

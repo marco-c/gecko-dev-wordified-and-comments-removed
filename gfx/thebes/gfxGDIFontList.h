@@ -986,6 +986,8 @@ aStretch
 gfxUserFontData
 *
 aUserFontData
+bool
+aFamilyHasItalicFace
 )
 ;
 static
@@ -1014,6 +1016,11 @@ mFontType
 ;
 bool
 mForceGDI
+:
+1
+;
+bool
+mFamilyHasItalicFace
 :
 1
 ;
@@ -1046,6 +1053,8 @@ aStretch
 gfxUserFontData
 *
 aUserFontData
+bool
+aFamilyHasItalicFace
 )
 ;
 void

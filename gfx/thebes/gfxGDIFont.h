@@ -279,6 +279,8 @@ LOGFONTW
 aLogFont
 gfxFloat
 aSize
+bool
+aUseGDIFakeItalic
 )
 ;
 nsAutoPtr

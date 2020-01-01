@@ -104,13 +104,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 mozAutoDocUpdate
 .
 h

@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsXBLProtoImplProperty
 .
 h
@@ -65,13 +58,6 @@ h
 include
 "
 nsIScriptGlobalObject
-.
-h
-"
-#
-include
-"
-nsContentUtils
 .
 h
 "

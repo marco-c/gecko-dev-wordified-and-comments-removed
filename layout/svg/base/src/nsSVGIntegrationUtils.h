@@ -163,7 +163,7 @@ nsRenderingContext
 aCtx
 nsIFrame
 *
-aEffectsFrame
+aFrame
 const
 nsRect
 &

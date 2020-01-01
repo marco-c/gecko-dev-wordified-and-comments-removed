@@ -8918,7 +8918,7 @@ nsHTMLMediaElement
 :
 gH264Codecs
 [
-6
+7
 ]
 =
 {
@@ -8926,6 +8926,11 @@ gH264Codecs
 avc1
 .
 42E01E
+"
+"
+avc1
+.
+42001E
 "
 "
 avc1
@@ -14538,7 +14543,6 @@ nsGenericElement
 *
 aDest
 )
-const
 {
 nsresult
 rv

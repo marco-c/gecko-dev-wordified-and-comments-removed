@@ -184,6 +184,15 @@ include
 "
 mozilla
 /
+Services
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 WebGLRenderingContextBinding

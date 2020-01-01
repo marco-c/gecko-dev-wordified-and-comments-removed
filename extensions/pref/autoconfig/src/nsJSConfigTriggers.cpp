@@ -83,6 +83,15 @@ nspr
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 extern
 PRLogModuleInfo
 *
@@ -90,6 +99,7 @@ MCD
 ;
 class
 AutoConfigSecMan
+MOZ_FINAL
 :
 public
 nsIXPCSecurityManager

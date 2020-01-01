@@ -73,13 +73,6 @@ h
 #
 include
 "
-nsIDocument
-.
-h
-"
-#
-include
-"
 nsAlgorithm
 .
 h
