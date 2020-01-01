@@ -5669,7 +5669,7 @@ rv
 int
 headerlen
 ;
-uint32
+PRUint32
 contentlen
 ;
 SECItem
