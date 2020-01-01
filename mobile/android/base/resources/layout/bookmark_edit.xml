@@ -209,6 +209,13 @@ string
 /
 bookmark_edit_location
 "
+android
+:
+inputType
+=
+"
+textNoSuggestions
+"
 /
 >
 <
