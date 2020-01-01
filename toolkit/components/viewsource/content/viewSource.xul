@@ -694,14 +694,6 @@ onLoadViewSource
 )
 ;
 "
-onunload
-=
-"
-onUnloadViewSource
-(
-)
-;
-"
 contenttitlesetting
 =
 "
