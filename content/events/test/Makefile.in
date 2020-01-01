@@ -731,6 +731,14 @@ test_bug741666
 .
 html
 \
+test_dom_keyboard_event
+.
+html
+\
+test_dom_mouse_event
+.
+html
+\
 (
 NULL
 )
