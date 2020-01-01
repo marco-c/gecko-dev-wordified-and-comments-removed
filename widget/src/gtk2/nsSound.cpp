@@ -409,10 +409,9 @@ nsSound
 if
 (
 esdref
-!
+>
 =
--
-1
+0
 )
 {
 EsdCloseType
@@ -473,9 +472,6 @@ if
 elib
 )
 {
-EsdOpenSoundType
-EsdOpenSound
-;
 elib
 =
 PR_LoadLibrary
@@ -494,6 +490,7 @@ if
 elib
 )
 {
+EsdOpenSoundType
 EsdOpenSound
 =
 (
@@ -539,8 +536,9 @@ localhost
 ;
 if
 (
-!
 esdref
+<
+0
 )
 {
 PR_UnloadLibrary
