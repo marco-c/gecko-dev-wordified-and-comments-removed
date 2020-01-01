@@ -6937,10 +6937,6 @@ mDocShell
 SetName
 (
 frameName
-.
-get
-(
-)
 )
 ;
 }
