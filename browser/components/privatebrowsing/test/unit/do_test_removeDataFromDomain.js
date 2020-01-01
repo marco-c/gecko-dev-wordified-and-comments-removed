@@ -2336,9 +2336,7 @@ aURI
 let
 principal
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -2353,9 +2351,7 @@ scriptsecuritymanager
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIScriptSecurityManager
 )
@@ -2368,9 +2364,7 @@ aURI
 let
 dsm
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -2387,9 +2381,7 @@ storagemanager
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIDOMStorageManager
 )

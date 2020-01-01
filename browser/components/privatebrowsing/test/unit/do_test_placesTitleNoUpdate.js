@@ -1,6 +1,4 @@
-Components
-.
-utils
+Cu
 .
 import
 (
@@ -19,9 +17,7 @@ jsm
 "
 )
 ;
-Components
-.
-utils
+Cu
 .
 import
 (
