@@ -308,7 +308,7 @@ nsCOMPtr
 nsIDocument
 >
 doc
-;
+=
 mBinding
 -
 >
@@ -319,10 +319,6 @@ XBLDocumentInfo
 >
 GetDocument
 (
-getter_AddRefs
-(
-doc
-)
 )
 ;
 mozilla

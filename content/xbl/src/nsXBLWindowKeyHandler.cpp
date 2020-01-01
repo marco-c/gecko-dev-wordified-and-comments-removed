@@ -527,15 +527,13 @@ aResult
 nsXBLPrototypeBinding
 *
 binding
-;
+=
 aInfo
 -
 >
 GetPrototypeBinding
 (
 aRef
-&
-binding
 )
 ;
 NS_ASSERTION

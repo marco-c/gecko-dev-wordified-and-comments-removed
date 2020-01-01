@@ -309,7 +309,7 @@ nsCOMPtr
 nsIDocument
 >
 doc
-;
+=
 mLoader
 -
 >
@@ -323,10 +323,6 @@ XBLDocumentInfo
 >
 GetDocument
 (
-getter_AddRefs
-(
-doc
-)
 )
 ;
 mozilla
