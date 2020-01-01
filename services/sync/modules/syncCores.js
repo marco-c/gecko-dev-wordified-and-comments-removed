@@ -117,6 +117,8 @@ prototype
 .
 async
 =
+Utils
+.
 generatorAsync
 ;
 function
@@ -201,6 +203,8 @@ a
 if
 (
 !
+Utils
+.
 deepEquals
 (
 a
@@ -339,6 +343,8 @@ let
 listener
 =
 new
+Utils
+.
 EventListener
 (
 cont
@@ -690,6 +696,8 @@ timer
 =
 null
 ;
+Utils
+.
 generatorDone
 (
 this
@@ -781,6 +789,8 @@ GUID
 &
 &
 !
+Utils
+.
 deepEquals
 (
 a
@@ -816,6 +826,8 @@ GUID
 &
 &
 !
+Utils
+.
 deepEquals
 (
 a
@@ -976,6 +988,8 @@ GUID
 &
 &
 !
+Utils
+.
 deepEquals
 (
 a
@@ -1180,6 +1194,8 @@ let
 listener
 =
 new
+Utils
+.
 EventListener
 (
 cont
@@ -1339,6 +1355,8 @@ true
 ;
 if
 (
+Utils
+.
 deepEquals
 (
 a
@@ -1772,6 +1790,8 @@ timer
 =
 null
 ;
+Utils
+.
 generatorDone
 (
 this

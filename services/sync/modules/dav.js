@@ -94,6 +94,8 @@ prototype
 .
 async
 =
+Utils
+.
 generatorAsync
 ;
 function
@@ -318,6 +320,8 @@ addEventListener
 load
 "
 new
+Utils
+.
 EventListener
 (
 cont
@@ -336,6 +340,8 @@ addEventListener
 error
 "
 new
+Utils
+.
 EventListener
 (
 cont
@@ -617,6 +623,8 @@ e
 }
 finally
 {
+Utils
+.
 generatorDone
 (
 this
@@ -986,6 +994,8 @@ e
 }
 finally
 {
+Utils
+.
 generatorDone
 (
 this
@@ -1383,6 +1393,8 @@ in
 let
 URI
 =
+Utils
+.
 makeURI
 (
 this
@@ -1488,6 +1500,8 @@ e
 }
 finally
 {
+Utils
+.
 generatorDone
 (
 this
@@ -1702,6 +1716,8 @@ return
 let
 tokens
 =
+Utils
+.
 xpath
 (
 resp
@@ -1804,6 +1820,8 @@ found
 "
 )
 ;
+Utils
+.
 generatorDone
 (
 this
@@ -2036,6 +2054,8 @@ return
 let
 tokens
 =
+Utils
+.
 xpath
 (
 resp
@@ -2142,6 +2162,8 @@ lock
 "
 )
 ;
+Utils
+.
 generatorDone
 (
 this
@@ -2336,6 +2358,8 @@ lock
 "
 )
 ;
+Utils
+.
 generatorDone
 (
 this
@@ -2368,6 +2392,8 @@ one
 "
 )
 ;
+Utils
+.
 generatorDone
 (
 this
@@ -2566,6 +2592,8 @@ released
 "
 )
 ;
+Utils
+.
 generatorDone
 (
 this
@@ -2684,6 +2712,8 @@ e
 }
 finally
 {
+Utils
+.
 generatorDone
 (
 this
