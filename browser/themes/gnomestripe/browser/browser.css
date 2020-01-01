@@ -996,6 +996,10 @@ cmd_newNavigator
 context
 -
 openlink
+#
+context
+-
+openframe
 {
 list
 -
@@ -1050,6 +1054,10 @@ cmd_newNavigatorTab
 context
 -
 openlinkintab
+#
+context
+-
+openframeintab
 {
 list
 -
@@ -1184,6 +1192,10 @@ saveimage
 context
 -
 savepage
+#
+context
+-
+saveframe
 {
 list
 -
@@ -1262,6 +1274,10 @@ command
 cmd_print
 "
 ]
+#
+context
+-
+printframe
 {
 list
 -
@@ -2124,6 +2140,10 @@ Reload
 context
 -
 reload
+#
+context
+-
+reloadframe
 {
 list
 -
@@ -2980,6 +3000,10 @@ PageInfo
 context
 -
 viewinfo
+#
+context
+-
+viewframeinfo
 {
 list
 -
