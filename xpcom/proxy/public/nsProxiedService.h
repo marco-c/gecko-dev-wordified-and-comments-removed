@@ -116,6 +116,7 @@ _serv
 var
 ;
 class
+NS_STACK_CLASS
 nsProxiedService
 {
 public
