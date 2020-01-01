@@ -35,14 +35,14 @@ h
 #
 include
 "
-nsIPluginTagInfo2
+nsIPluginInstanceInternal
 .
 h
 "
 #
 include
 "
-nsIPluginInstanceInternal
+nsIPluginTagInfo
 .
 h
 "

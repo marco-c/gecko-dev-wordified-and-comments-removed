@@ -507,10 +507,6 @@ nsIPluginTagInfo
 .
 idl
 \
-nsIPluginTagInfo2
-.
-idl
-\
 nsIPluginInputStream
 .
 idl

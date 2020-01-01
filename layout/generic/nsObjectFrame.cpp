@@ -175,13 +175,6 @@ h
 #
 include
 "
-nsIPluginTagInfo2
-.
-h
-"
-#
-include
-"
 plstr
 .
 h
@@ -864,7 +857,7 @@ nsPluginInstanceOwner
 public
 nsIPluginInstanceOwner
 public
-nsIPluginTagInfo2
+nsIPluginTagInfo
 public
 nsIEventListener
 public
@@ -9462,10 +9455,6 @@ nsIPluginInstanceOwner
 NS_INTERFACE_MAP_ENTRY
 (
 nsIPluginTagInfo
-)
-NS_INTERFACE_MAP_ENTRY
-(
-nsIPluginTagInfo2
 )
 NS_INTERFACE_MAP_ENTRY
 (

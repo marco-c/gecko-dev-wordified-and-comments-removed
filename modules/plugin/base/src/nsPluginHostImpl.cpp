@@ -832,8 +832,8 @@ NS_PLUGIN_CID
 static
 NS_DEFINE_IID
 (
-kIPluginTagInfo2IID
-NS_IPLUGINTAGINFO2_IID
+kIPluginTagInfoIID
+NS_IPLUGINTAGINFO_IID
 )
 ;
 static
@@ -7797,9 +7797,9 @@ mOwner
 {
 nsCOMPtr
 <
-nsIPluginTagInfo2
+nsIPluginTagInfo
 >
-pti2
+pti
 =
 do_QueryInterface
 (
@@ -7808,7 +7808,7 @@ mOwner
 ;
 NS_ENSURE_TRUE
 (
-pti2
+pti
 NS_ERROR_FAILURE
 )
 ;
@@ -7819,7 +7819,7 @@ if
 (
 NS_FAILED
 (
-pti2
+pti
 -
 >
 GetTagType
@@ -12936,9 +12936,9 @@ nsnull
 ;
 nsCOMPtr
 <
-nsIPluginTagInfo2
+nsIPluginTagInfo
 >
-pti2
+pti
 ;
 nsPluginTagType
 tagType
@@ -12950,10 +12950,10 @@ aOwner
 >
 QueryInterface
 (
-kIPluginTagInfo2IID
+kIPluginTagInfoIID
 getter_AddRefs
 (
-pti2
+pti
 )
 )
 ;
@@ -12969,7 +12969,7 @@ rv
 ;
 rv
 =
-pti2
+pti
 -
 >
 GetTagType
@@ -13105,7 +13105,7 @@ nsIDOMElement
 >
 elem
 ;
-pti2
+pti
 -
 >
 GetDOMElement
@@ -13461,9 +13461,9 @@ PR_FALSE
 ;
 nsCOMPtr
 <
-nsIPluginTagInfo2
+nsIPluginTagInfo
 >
-pti2
+pti
 (
 do_QueryInterface
 (
@@ -13473,7 +13473,7 @@ aOwner
 ;
 if
 (
-pti2
+pti
 )
 {
 const
@@ -13485,7 +13485,7 @@ bHasPluginURL
 =
 NS_SUCCEEDED
 (
-pti2
+pti
 -
 >
 GetParameter
@@ -22473,9 +22473,9 @@ rv
 {
 nsCOMPtr
 <
-nsIPluginTagInfo2
+nsIPluginTagInfo
 >
-pti2
+pti
 =
 do_QueryInterface
 (
@@ -22490,9 +22490,9 @@ element
 ;
 if
 (
-pti2
+pti
 )
-pti2
+pti
 -
 >
 GetDOMElement

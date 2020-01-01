@@ -3864,7 +3864,7 @@ mOwner
 {
 nsCOMPtr
 <
-nsIPluginTagInfo2
+nsIPluginTagInfo
 >
 tinfo
 (
@@ -3924,7 +3924,7 @@ mOwner
 {
 nsCOMPtr
 <
-nsIPluginTagInfo2
+nsIPluginTagInfo
 >
 tinfo
 (
@@ -3986,7 +3986,7 @@ mOwner
 {
 nsCOMPtr
 <
-nsIPluginTagInfo2
+nsIPluginTagInfo
 >
 tinfo
 (
@@ -6905,7 +6905,7 @@ NS_ERROR_FAILURE
 }
 nsCOMPtr
 <
-nsIPluginTagInfo2
+nsIPluginTagInfo
 >
 tinfo
 (
