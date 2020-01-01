@@ -12374,7 +12374,17 @@ JSObject
 *
 '
 '
-protoAndIfaceArray
+aProtoAndIfaceArray
+'
+)
+                
+Argument
+(
+'
+bool
+'
+'
+aDefineOnGlobal
 '
 )
 ]
@@ -13391,7 +13401,7 @@ protoCache
 =
 "
 &
-protoAndIfaceArray
+aProtoAndIfaceArray
 [
 prototypes
 :
@@ -13442,7 +13452,7 @@ interfaceCache
 =
 "
 &
-protoAndIfaceArray
+aProtoAndIfaceArray
 [
 constructors
 :
@@ -13674,6 +13684,7 @@ n
 "
 %
 s
+aDefineOnGlobal
 )
 ;
 "
@@ -13745,7 +13756,7 @@ JSObject
 *
 proto
 =
-protoAndIfaceArray
+aProtoAndIfaceArray
 [
 prototypes
 :
@@ -13904,6 +13915,10 @@ idPrefix
 =
 "
 "
+extraArgs
+=
+[
+]
 )
 :
         
@@ -13938,6 +13953,8 @@ aGlobal
 '
 )
 ]
++
+extraArgs
         
 CGAbstractMethod
 .
@@ -14091,6 +14108,7 @@ CreateInterfaceObjects
 aCx
 aGlobal
 protoAndIfaceArray
+aDefineOnGlobal
 )
 ;
   
@@ -14272,6 +14290,12 @@ needed
 .
 *
 /
+  
+bool
+aDefineOnGlobal
+=
+true
+;
 "
 "
 "
@@ -14319,17 +14343,35 @@ CGGetPerInterfaceObject
 .
 __init__
 (
+            
 self
 descriptor
 "
 GetConstructorObject
 "
-                                         
+            
 "
 constructors
 :
 :
 "
+            
+extraArgs
+=
+[
+Argument
+(
+"
+bool
+"
+"
+aDefineOnGlobal
+"
+"
+true
+"
+)
+]
 )
     
 def
@@ -14469,10 +14511,9 @@ Argument
 (
 '
 bool
-*
 '
 '
-aEnabled
+aDefineOnGlobal
 '
 )
 ]
@@ -14582,6 +14623,7 @@ GetConstructorObject
 (
 aCx
 aGlobal
+aDefineOnGlobal
 )
 ;
   
@@ -14684,26 +14726,13 @@ GetConstructorObject
 (
 aCx
 aGlobal
+aDefineOnGlobal
 )
 ;
 "
         
 return
-(
-"
-"
-"
-*
-aEnabled
-=
-true
-;
-"
-"
-"
-+
 getConstructor
-)
 class
 CGConstructorEnabledViaPrefEnabled
 (

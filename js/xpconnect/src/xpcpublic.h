@@ -1625,8 +1625,7 @@ jsid
 >
 id
 bool
-*
-enabled
+defineOnGlobal
 )
 ;
 typedef
