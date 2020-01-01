@@ -13661,6 +13661,8 @@ nsACString
 aGUID
 uint16_t
 aReason
+uint32_t
+aTransitionType
 )
 {
 if
