@@ -153,7 +153,7 @@ columns
 .
 accesskey
 "
-S
+C
 "
 >
 <
@@ -177,7 +177,7 @@ sort
 .
 accesskey
 "
-s
+S
 "
 >
 <
@@ -2047,18 +2047,6 @@ View
 Add
 -
 ons
-"
->
-<
-!
-ENTITY
-view
-.
-columns
-.
-label
-"
-Columns
 "
 >
 <
