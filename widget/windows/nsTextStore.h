@@ -1057,11 +1057,13 @@ aResult
 )
 ;
 HRESULT
-UpdateCompositionExtent
+RestartCompositionIfNecessary
 (
 ITfRange
 *
 pRangeNew
+=
+nullptr
 )
 ;
 HRESULT
