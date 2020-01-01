@@ -548,6 +548,10 @@ nsDOMNotifyPaintEvent
 .
 cpp
 \
+nsDOMNotifyAudioAvailableEvent
+.
+cpp
+\
 nsDOMSimpleGestureEvent
 .
 cpp

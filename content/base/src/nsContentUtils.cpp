@@ -3541,6 +3541,15 @@ NS_VOLUMECHANGE
 EventNameType_HTML
 NS_EVENT_NULL
 }
+{
+nsGkAtoms
+:
+:
+onMozAudioAvailable
+NS_MOZAUDIOAVAILABLE
+EventNameType_None
+NS_EVENT_NULL
+}
 #
 endif
 {
