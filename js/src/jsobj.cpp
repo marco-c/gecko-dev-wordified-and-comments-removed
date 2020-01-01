@@ -23343,7 +23343,7 @@ cx
 shape
 )
 ;
-uint32_t
+int32_t
 sample
 =
 cx
