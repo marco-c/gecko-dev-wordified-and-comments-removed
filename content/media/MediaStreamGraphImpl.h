@@ -210,8 +210,11 @@ MediaStreamGraph
 {
 public
 :
+explicit
 MediaStreamGraphImpl
 (
+bool
+aRealtime
 )
 ;
 ~
@@ -745,6 +748,9 @@ mDetectedNotRunning
 ;
 bool
 mPostedRunInStableState
+;
+bool
+mRealtime
 ;
 }
 ;
