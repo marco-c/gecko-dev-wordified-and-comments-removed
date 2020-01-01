@@ -595,10 +595,6 @@ tier_gecko_dirs
 \
 modules
 /
-libutil
-\
-modules
-/
 libjar
 \
 db

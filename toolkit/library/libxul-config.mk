@@ -815,13 +815,6 @@ NULL
 )
 endif
 ifdef
-MOZ_PERF_METRICS
-EXTRA_DSO_LIBS
-+
-=
-mozutil_s
-endif
-ifdef
 MOZ_XPINSTALL
 DEFINES
 +

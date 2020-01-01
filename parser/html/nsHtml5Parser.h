@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsTimer
-.
-h
-"
-#
-include
-"
 nsIParser
 .
 h

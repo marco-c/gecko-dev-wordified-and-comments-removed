@@ -301,12 +301,6 @@ NS_BUILD_REFCNT_LOGGING
 |
 defined
 (
-MOZ_PERF_METRICS
-)
-|
-|
-defined
-(
 MOZ_JPROF
 )
 #

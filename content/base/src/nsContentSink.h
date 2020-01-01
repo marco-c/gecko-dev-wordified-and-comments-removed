@@ -126,13 +126,6 @@ h
 #
 include
 "
-nsTimer
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h
@@ -972,10 +965,6 @@ nsContentSink
 >
 mProcessLinkHeaderEvent
 ;
-MOZ_TIMER_DECLARE
-(
-mWatch
-)
 }
 ;
 extern
