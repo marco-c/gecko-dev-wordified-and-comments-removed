@@ -3445,6 +3445,7 @@ cx
 obj
 obj2
 sprop
+JSGET_METHOD_BARRIER
 vp
 )
 )
