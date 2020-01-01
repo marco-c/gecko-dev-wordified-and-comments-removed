@@ -399,6 +399,13 @@ h
 #
 include
 "
+nsIInlineEventHandlers
+.
+h
+"
+#
+include
+"
 nsDataHashtable
 .
 h
@@ -1610,6 +1617,8 @@ public
 nsStubMutationObserver
 public
 nsIDOMDocumentTouch
+public
+nsIInlineEventHandlers
 {
 public
 :
@@ -2685,6 +2694,7 @@ GetPrincipal
 NS_DECL_NSIAPPLICATIONCACHECONTAINER
 NS_DECL_NSITOUCHEVENTRECEIVER
 NS_DECL_NSIDOMDOCUMENTTOUCH
+NS_DECL_NSIINLINEEVENTHANDLERS
 virtual
 nsresult
 Init

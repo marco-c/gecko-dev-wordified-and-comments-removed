@@ -530,6 +530,10 @@ nsIDOMDOMSettableTokenList
 .
 idl
 \
+nsIInlineEventHandlers
+.
+idl
+\
 (
 NULL
 )

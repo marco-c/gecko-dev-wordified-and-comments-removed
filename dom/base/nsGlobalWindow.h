@@ -394,6 +394,13 @@ h
 #
 include
 "
+nsIInlineEventHandlers
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h
@@ -756,6 +763,8 @@ public
 nsIDOMWindowPerformance
 public
 nsITouchEventReceiver
+public
+nsIInlineEventHandlers
 {
 public
 :
@@ -890,6 +899,7 @@ NS_DECL_NSIDOMWINDOWPERFORMANCE
 NS_DECL_NSIDOMJSWINDOW
 NS_DECL_NSIDOMEVENTTARGET
 NS_DECL_NSITOUCHEVENTRECEIVER
+NS_DECL_NSIINLINEEVENTHANDLERS
 virtual
 NS_HIDDEN_
 (
