@@ -34,6 +34,11 @@ a
 '
 )
 ;
+var
+f
+;
+f
+=
 makeFinalizeObserver
 (
 )
@@ -46,6 +51,12 @@ finalizeCount
 0
 )
 ;
+f
+=
+makeFinalizeObserver
+(
+)
+;
 for
 (
 var
@@ -55,7 +66,7 @@ i
 ;
 i
 <
-50
+80
 ;
 +
 +
