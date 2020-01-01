@@ -28195,6 +28195,9 @@ PR_FALSE
 havePosition
 =
 PR_FALSE
+haveOrigin
+=
+PR_FALSE
 haveSomething
 =
 PR_FALSE
@@ -28287,6 +28290,8 @@ haveRepeat
 haveAttach
 =
 havePosition
+=
+haveOrigin
 =
 PR_TRUE
 ;
@@ -28602,9 +28607,6 @@ return
 PR_FALSE
 ;
 }
-#
-if
-0
 }
 else
 if
@@ -28693,8 +28695,6 @@ aItem
 .
 mOrigin
 ;
-#
-endif
 }
 else
 {
