@@ -140,6 +140,13 @@ getAsyncExecutionTarget
 Mutex
 sharedAsyncExecutionMutex
 ;
+const
+nsCOMPtr
+<
+nsIThread
+>
+threadOpenedOn
+;
 nsresult
 internalClose
 (
@@ -250,12 +257,6 @@ nsCOMPtr
 mozIStorageProgressHandler
 >
 mProgressHandler
-;
-nsCOMPtr
-<
-nsIThread
->
-mOpenedThread
 ;
 nsRefPtr
 <
