@@ -2382,7 +2382,7 @@ JSScript
 volatile
 script_
 ;
-uint32_t
+int32_t
 volatile
 idx
 ;
@@ -2620,6 +2620,14 @@ script_
 )
 ;
 }
+static
+const
+int32_t
+NullPCIndex
+=
+-
+1
+;
 }
 ;
 JS_FRIEND_API
