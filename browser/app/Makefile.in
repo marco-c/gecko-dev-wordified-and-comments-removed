@@ -3078,9 +3078,9 @@ LIBXUL_DIST
 /
 bin
 /
-xulrunner
--
-stub
+(
+XULRUNNER_STUB_NAME
+)
 (
 BIN_SUFFIX
 )
