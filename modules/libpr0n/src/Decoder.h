@@ -66,6 +66,11 @@ Finish
 (
 )
 ;
+void
+FlushInvalidations
+(
+)
+;
 NS_INLINE_DECL_REFCOUNTING
 (
 Decoder
@@ -165,6 +170,14 @@ PostFrameStop
 (
 )
 ;
+void
+PostInvalidation
+(
+nsIntRect
+&
+aRect
+)
+;
 nsRefPtr
 <
 RasterImage
@@ -179,6 +192,9 @@ mObserver
 ;
 PRUint32
 mFrameCount
+;
+nsIntRect
+mInvalidRect
 ;
 bool
 mInitialized
