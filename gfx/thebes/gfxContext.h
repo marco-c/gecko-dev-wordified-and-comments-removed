@@ -855,6 +855,15 @@ GetClipExtents
 (
 )
 ;
+PRBool
+ClipContainsRect
+(
+const
+gfxRect
+&
+aRect
+)
+;
 void
 PushGroup
 (
