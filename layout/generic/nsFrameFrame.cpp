@@ -3899,9 +3899,9 @@ PR_TRUE
 if
 (
 aContentType
+!
 =
-=
-eContentTypeContent
+eContentTypeContentFrame
 )
 {
 nsresult
