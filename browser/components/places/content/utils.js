@@ -1432,7 +1432,7 @@ LMANNO_FEEDURI
 {
 feedURI
 =
-this
+PlacesUtils
 .
 _uri
 (
@@ -1458,7 +1458,7 @@ LMANNO_SITEURI
 {
 siteURI
 =
-this
+PlacesUtils
 .
 _uri
 (
