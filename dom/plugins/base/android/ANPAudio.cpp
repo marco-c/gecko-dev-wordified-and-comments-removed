@@ -1570,12 +1570,8 @@ ANPAudioTrack
 s
 )
 {
-NOT_IMPLEMENTED
-(
-)
-;
 return
-1
+100
 ;
 }
 void
