@@ -1754,7 +1754,7 @@ oldVersion
 )
 ;
 my
-sshUser
+stagingUser
 =
 config
 -
@@ -1765,12 +1765,12 @@ var
 =
 >
 '
-sshUser
+stagingUser
 '
 )
 ;
 my
-sshServer
+stagingServer
 =
 config
 -
@@ -1781,7 +1781,7 @@ var
 =
 >
 '
-sshServer
+stagingServer
 '
 )
 ;
@@ -1966,12 +1966,12 @@ rc
 '
 /
 '
-sshUser
+stagingUser
 .
 '
 '
 .
-sshServer
+stagingServer
 .
 '
 :
