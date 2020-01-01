@@ -920,7 +920,7 @@ largeAllocSize
 if
 WTF_OS_WINDOWS
 static
-int64_t
+uint64_t
 rngSeed
 ;
 #
