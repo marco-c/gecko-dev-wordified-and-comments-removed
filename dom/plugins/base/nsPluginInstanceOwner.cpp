@@ -3487,7 +3487,6 @@ NPEventModel
 (
 eventModel
 )
-)
 ;
 #
 ifndef
