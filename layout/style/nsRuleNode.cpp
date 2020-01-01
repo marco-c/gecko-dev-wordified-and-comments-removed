@@ -24190,6 +24190,8 @@ parentCoord
 SETCOORD_LPAH
 |
 SETCOORD_INITIAL_ZERO
+|
+SETCOORD_STORE_CALC
 aContext
 mPresContext
 canStoreInRuleTree
@@ -26148,6 +26150,8 @@ parentCoord
 SETCOORD_LPH
 |
 SETCOORD_INITIAL_ZERO
+|
+SETCOORD_STORE_CALC
 aContext
 mPresContext
 canStoreInRuleTree
