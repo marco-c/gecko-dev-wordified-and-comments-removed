@@ -264,6 +264,12 @@ return
 type_
 =
 =
+IonFrame_BaselineJS
+|
+|
+type_
+=
+=
 IonFrame_OptimizedJS
 ;
 }
