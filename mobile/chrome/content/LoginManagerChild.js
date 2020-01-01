@@ -3233,6 +3233,8 @@ signon
 this
 .
 _pwmgr
+.
+_observer
 )
 ;
 Services
