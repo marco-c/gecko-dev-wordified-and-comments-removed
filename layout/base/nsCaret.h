@@ -242,6 +242,13 @@ nscolor
 aColor
 )
 ;
+void
+SetIgnoreUserModify
+(
+PRBool
+aIgnoreUserModify
+)
+;
 NS_DECL_NSISELECTIONLISTENER
 static
 void
@@ -489,6 +496,9 @@ nsFrameSelection
 :
 HINT
 mLastHint
+;
+PRPackedBool
+mIgnoreUserModify
 ;
 #
 ifdef
