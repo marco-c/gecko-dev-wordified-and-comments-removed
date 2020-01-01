@@ -170,6 +170,8 @@ do_check_eq
 Async
 .
 outstandingGenerators
+.
+length
 1
 )
 ;
@@ -196,6 +198,8 @@ do_check_eq
 Async
 .
 outstandingGenerators
+.
+length
 0
 )
 ;
