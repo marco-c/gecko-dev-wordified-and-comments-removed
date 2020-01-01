@@ -460,6 +460,10 @@ nsCSSParser
 .
 h
 \
+nsCSSPropAliasList
+.
+h
+\
 nsCSSPropList
 .
 h
