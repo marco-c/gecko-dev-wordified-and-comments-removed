@@ -856,6 +856,10 @@ browser_pluginnotification
 .
 js
 \
+browser_pluginplaypreview
+.
+js
+\
 browser_relatedTabs
 .
 js
