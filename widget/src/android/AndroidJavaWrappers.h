@@ -1513,6 +1513,12 @@ ACTIVITY_SHUTDOWN
 LOAD_URI
 =
 11
+SURFACE_CREATED
+=
+12
+SURFACE_DESTROYED
+=
+13
 dummy_java_enum_list_end
 }
 ;
