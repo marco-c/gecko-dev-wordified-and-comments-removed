@@ -162,7 +162,7 @@ widgets
 =
 CustomizableUI
 .
-getWidgetsInArea
+getWidgetIdsInArea
 (
 AREA_NAVBAR
 )
@@ -170,9 +170,7 @@ AREA_NAVBAR
 filter
 (
 (
-{
 id
-}
 )
 =
 >
@@ -250,10 +248,15 @@ widgets
 length
 )
 return
+CustomizableUI
+.
+getWidget
+(
 widgets
 [
 0
 ]
+)
 .
 forWindow
 (
