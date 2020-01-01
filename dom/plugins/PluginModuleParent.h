@@ -232,6 +232,15 @@ aLibrary
 ;
 virtual
 bool
+AnswerNPN_UserAgent
+(
+nsCString
+*
+userAgent
+)
+;
+virtual
+bool
 RecvNPN_GetStringIdentifier
 (
 const
