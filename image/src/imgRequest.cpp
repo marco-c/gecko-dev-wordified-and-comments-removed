@@ -4243,7 +4243,10 @@ freshTracker
 >
 AdoptConsumers
 (
-mStatusTracker
+&
+GetStatusTracker
+(
+)
 )
 ;
 mStatusTracker
@@ -4336,9 +4339,8 @@ GetNext
 )
 -
 >
-SetImage
+SetHasImage
 (
-mImage
 )
 ;
 }
