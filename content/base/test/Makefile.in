@@ -418,6 +418,15 @@ config
 autoconf
 .
 mk
+DIRS
++
+=
+\
+chrome
+\
+(
+NULL
+)
 CPP_UNIT_TESTS
 +
 =
