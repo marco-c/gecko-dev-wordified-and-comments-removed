@@ -222,11 +222,11 @@ sp
 -
 menu
 -
-chrome
+browser
 "
 :
 "
-setChromeContext
+setBrowserContext
 "
 "
 sp

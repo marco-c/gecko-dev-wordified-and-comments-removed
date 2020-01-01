@@ -190,7 +190,7 @@ sp
 -
 menu
 -
-chrome
+browser
 "
 )
 ;
@@ -340,7 +340,7 @@ sp
 -
 cmd
 -
-chromeContext
+browserContext
 "
 )
 ;

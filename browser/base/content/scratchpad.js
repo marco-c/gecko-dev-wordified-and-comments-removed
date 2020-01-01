@@ -100,7 +100,7 @@ SCRATCHPAD_CONTEXT_CONTENT
 1
 ;
 const
-SCRATCHPAD_CONTEXT_CHROME
+SCRATCHPAD_CONTEXT_BROWSER
 =
 2
 ;
@@ -1898,7 +1898,7 @@ sp
 -
 menu
 -
-chrome
+browser
 "
 )
 .
@@ -1947,10 +1947,10 @@ resetContext
 )
 ;
 }
-setChromeContext
+setBrowserContext
 :
 function
-SP_setChromeContext
+SP_setBrowserContext
 (
 )
 {
@@ -1966,7 +1966,7 @@ sp
 -
 menu
 -
-chrome
+browser
 "
 )
 ;
@@ -2019,7 +2019,7 @@ this
 .
 executionContext
 =
-SCRATCHPAD_CONTEXT_CHROME
+SCRATCHPAD_CONTEXT_BROWSER
 ;
 this
 .
@@ -2101,7 +2101,7 @@ sp
 -
 menu
 -
-chrome
+browser
 "
 )
 ;
@@ -2149,7 +2149,7 @@ sp
 -
 cmd
 -
-chromeContext
+browserContext
 "
 )
 ;

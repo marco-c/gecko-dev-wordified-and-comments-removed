@@ -926,14 +926,14 @@ sp
 -
 cmd
 -
-chromeContext
+browserContext
 "
 oncommand
 =
 "
 Scratchpad
 .
-setChromeContext
+setBrowserContext
 (
 )
 ;
@@ -2503,7 +2503,7 @@ id
 "
 sp
 -
-context
+environment
 -
 menu
 "
@@ -2511,7 +2511,7 @@ label
 =
 "
 &
-contextMenu
+environmentMenu
 .
 label
 ;
@@ -2520,7 +2520,7 @@ accesskey
 =
 "
 &
-contextMenu
+environmentMenu
 .
 accesskey
 ;
@@ -2535,7 +2535,7 @@ sp
 -
 menu
 -
-context
+environment
 "
 >
 <
@@ -2597,7 +2597,7 @@ sp
 -
 menu
 -
-chrome
+browser
 "
 hidden
 =
@@ -2611,13 +2611,13 @@ sp
 -
 cmd
 -
-chromeContext
+browserContext
 "
 label
 =
 "
 &
-chromeContext
+browserContext
 .
 label
 ;
@@ -2626,7 +2626,7 @@ accesskey
 =
 "
 &
-chromeContext
+browserContext
 .
 accesskey
 ;
