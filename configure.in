@@ -62257,6 +62257,7 @@ if
 grep
 -
 q
+'
 __imp__
 \
 {
@@ -62265,6 +62266,7 @@ __imp__
 \
 }
 free
+'
 crtdll
 .
 obj
