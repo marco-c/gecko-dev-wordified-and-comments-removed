@@ -624,16 +624,6 @@ events
 /
 src
 \
--
-I
-(
-topsrcdir
-)
-/
-layout
-/
-style
-\
 (
 NULL
 )
