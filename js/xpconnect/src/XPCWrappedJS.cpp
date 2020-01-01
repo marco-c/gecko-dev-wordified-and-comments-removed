@@ -909,7 +909,7 @@ this
 0
 )
 ;
-JS_CallObjectTracer
+JS_CallHeapObjectTracer
 (
 trc
 &
@@ -1468,6 +1468,7 @@ map
 >
 Add
 (
+cx
 root
 )
 ;
@@ -1616,6 +1617,7 @@ map
 >
 Add
 (
+cx
 root
 )
 ;
@@ -2903,6 +2905,10 @@ non
 root
 "
 mJSObj
+.
+get
+(
+)
 )
 )
 ;

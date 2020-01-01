@@ -11137,8 +11137,14 @@ Unlink
 ;
 private
 :
+JS
+:
+:
+Heap
+<
 JSObject
 *
+>
 mJSObj
 ;
 nsXPCWrappedJSClass
