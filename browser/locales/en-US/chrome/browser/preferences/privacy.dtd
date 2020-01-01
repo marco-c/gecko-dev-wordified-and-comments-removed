@@ -21,7 +21,7 @@ rememberDaysBefore
 .
 label
 and
-rememberDaysAfter
+rememberDaysAfter2
 .
 label
 appear
@@ -46,7 +46,7 @@ of
 days
 ]
 &
-rememberDaysAfter
+rememberDaysAfter2
 .
 label
 ;
@@ -81,12 +81,11 @@ h
 <
 !
 ENTITY
-rememberDaysAfter
+rememberDaysAfter2
 .
 label
 "
 days
-.
 "
 >
 <
