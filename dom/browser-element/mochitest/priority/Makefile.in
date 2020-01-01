@@ -179,6 +179,14 @@ file_HighPriority
 .
 html
 \
+test_HighPriorityDowngrade
+.
+html
+\
+test_HighPriorityDowngrade2
+.
+html
+\
 test_Background
 .
 html
