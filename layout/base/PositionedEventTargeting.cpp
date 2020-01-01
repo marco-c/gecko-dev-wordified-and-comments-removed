@@ -62,6 +62,13 @@ h
 "
 #
 include
+"
+nsRegion
+.
+h
+"
+#
+include
 <
 algorithm
 >
