@@ -226,8 +226,11 @@ virtual
 void
 ReceiveSocketData
 (
+nsAutoPtr
+<
 UnixSocketRawData
-*
+>
+&
 aMessage
 )
 =

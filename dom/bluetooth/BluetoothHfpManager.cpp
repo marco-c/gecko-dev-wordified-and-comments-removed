@@ -2931,8 +2931,11 @@ BluetoothHfpManager
 :
 ReceiveSocketData
 (
+nsAutoPtr
+<
 UnixSocketRawData
-*
+>
+&
 aMessage
 )
 {
