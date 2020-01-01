@@ -14617,7 +14617,7 @@ WM_MOUSEMOVE
 {
 #
 ifdef
-WINCE
+WINCE_WINDOWS_MOBILE
 SetTimer
 (
 mWnd
