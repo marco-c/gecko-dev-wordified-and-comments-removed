@@ -6543,7 +6543,7 @@ if
 attributes
 )
 return
-S_OK
+S_FALSE
 ;
 nsCOMPtr
 <

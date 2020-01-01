@@ -341,7 +341,6 @@ E_FAIL
 ;
 void
 *
-*
 instancePtr
 =
 0
@@ -352,6 +351,7 @@ winAccessNode
 QueryNativeInterface
 (
 IID_IAccessible2
+&
 instancePtr
 )
 ;
@@ -373,7 +373,6 @@ IAccessible2
 *
 >
 (
-*
 instancePtr
 )
 ;
