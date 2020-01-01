@@ -228,6 +228,9 @@ license
 =
 '
 MPL
+2
+.
+0
 '
       
 packages

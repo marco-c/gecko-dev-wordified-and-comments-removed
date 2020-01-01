@@ -116,6 +116,7 @@ test_name
 this
 .
 testName
+;
 this
 .
 currentAction
@@ -266,4 +267,5 @@ return
 this
 .
 results
+;
 }

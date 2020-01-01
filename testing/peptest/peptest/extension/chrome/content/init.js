@@ -246,6 +246,9 @@ TestSuite
 obj
 .
 tests
+obj
+.
+options
 )
 ;
 suite
