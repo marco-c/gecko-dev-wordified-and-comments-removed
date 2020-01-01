@@ -4248,9 +4248,6 @@ cx
 oldSlot
 )
 ;
-#
-ifdef
-DEBUG
 else
 getSlotRef
 (
@@ -4261,8 +4258,6 @@ setUndefined
 (
 )
 ;
-#
-endif
 JS_ATOMIC_INCREMENT
 (
 &
