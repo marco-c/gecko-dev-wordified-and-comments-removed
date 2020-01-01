@@ -91,6 +91,10 @@ CPPSRCS
 :
 =
 \
+Biquad
+.
+cpp
+\
 DynamicsCompressor
 .
 cpp
