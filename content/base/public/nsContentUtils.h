@@ -3225,6 +3225,15 @@ nsIDocument
 aDoc
 )
 ;
+static
+PRBool
+IsFocusedContent
+(
+nsIContent
+*
+aContent
+)
+;
 private
 :
 static

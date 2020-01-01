@@ -69,12 +69,6 @@ nsStyleContext
 aContext
 )
 ;
-virtual
-~
-nsFileControlFrame
-(
-)
-;
 NS_IMETHOD
 Init
 (
@@ -449,10 +443,6 @@ nsCOMPtr
 nsIContent
 >
 mBrowse
-;
-nsString
-*
-mCachedState
 ;
 nsRefPtr
 <

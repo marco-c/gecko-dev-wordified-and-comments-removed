@@ -1589,13 +1589,6 @@ ShutDown
 (
 )
 ;
-nsTextControlFrame
-:
-:
-ShutDown
-(
-)
-;
 nsListControlFrame
 :
 :

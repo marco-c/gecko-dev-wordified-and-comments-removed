@@ -1935,8 +1935,10 @@ mPresShellWeak
 nsWeakPtr
 mSelConWeak
 ;
+nsCOMPtr
+<
 nsIViewManager
-*
+>
 mViewManager
 ;
 PRInt32
