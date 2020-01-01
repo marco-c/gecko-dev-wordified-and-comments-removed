@@ -14613,6 +14613,12 @@ WARNINGS_AS_ERRORS
 '
 -
 Werror
+-
+Wno
+-
+error
+=
+initialized
 '
 DSO_CFLAGS
 =
