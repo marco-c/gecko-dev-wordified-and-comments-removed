@@ -4317,6 +4317,11 @@ if
 Svc
 .
 Private
+&
+&
+Svc
+.
+Private
 .
 privateBrowsingEnabled
 )
