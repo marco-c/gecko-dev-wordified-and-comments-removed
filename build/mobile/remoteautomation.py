@@ -540,12 +540,6 @@ if
 hexpid
 =
 =
-'
-'
-or
-hexpid
-=
-=
 None
 )
 :
