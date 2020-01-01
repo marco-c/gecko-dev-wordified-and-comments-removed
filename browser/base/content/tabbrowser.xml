@@ -8560,6 +8560,16 @@ bar
 )
 .
 collapsed
+&
+&
+window
+.
+windowState
+=
+=
+window
+.
+STATE_NORMAL
 )
 {
 b
