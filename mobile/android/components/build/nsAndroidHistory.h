@@ -78,16 +78,6 @@ nsAndroidHistory
 (
 )
 ;
-static
-void
-NotifyURIVisited
-(
-const
-nsString
-&
-str
-)
-;
 private
 :
 static
