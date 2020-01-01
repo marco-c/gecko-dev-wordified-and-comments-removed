@@ -206,17 +206,6 @@ ffffff
 "
 android
 :
-listSelector
-=
-"
-android
-:
-drawable
-/
-list_selector_background
-"
-android
-:
 visibility
 =
 "
