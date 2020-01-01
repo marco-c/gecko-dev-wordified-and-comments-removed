@@ -1136,6 +1136,14 @@ requestedHelperThreadCount
 -
 1
 )
+useHelperThreadsForIonCompilation_
+(
+true
+)
+useHelperThreadsForParsing_
+(
+true
+)
 #
 ifdef
 DEBUG

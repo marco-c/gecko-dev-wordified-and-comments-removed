@@ -45850,16 +45850,6 @@ StackTypeSet
 types
 )
 {
-if
-(
-!
-js_IonOptions
-.
-parallelCompilation
-)
-return
-types
-;
 return
 types
 -

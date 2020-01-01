@@ -104,9 +104,6 @@ uce
 bool
 eaa
 ;
-bool
-parallelCompilation
-;
 #
 ifdef
 CHECK_OSIPOINT_REGISTERS
@@ -180,10 +177,6 @@ baselineUsesBeforeCompile
 =
 0
 ;
-parallelCompilation
-=
-false
-;
 }
 IonOptions
 (
@@ -236,10 +229,6 @@ true
 eaa
 (
 true
-)
-parallelCompilation
-(
-false
 )
 #
 ifdef
