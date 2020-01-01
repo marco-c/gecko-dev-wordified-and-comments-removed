@@ -71,13 +71,6 @@ DashboardTypes
 .
 h
 "
-#
-include
-"
-nsHttp
-.
-h
-"
 namespace
 mozilla
 {

@@ -161,12 +161,6 @@ long
 >
 ttl
 ;
-sequence
-<
-DOMString
->
-protocolVersion
-;
 }
 ;
 dictionary
