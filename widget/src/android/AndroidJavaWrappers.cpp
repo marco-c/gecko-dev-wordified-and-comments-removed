@@ -1766,6 +1766,17 @@ jobj
 jTimeField
 )
 ;
+mMetaState
+=
+jenv
+-
+>
+GetIntField
+(
+jobj
+jMetaStateField
+)
+;
 mCount
 =
 jenv
