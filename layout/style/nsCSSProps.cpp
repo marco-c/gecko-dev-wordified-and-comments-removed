@@ -5116,11 +5116,7 @@ member_
 type_
 kwtable_
 )
-nsStyleStructID
-(
--
-1
-)
+eStyleStruct_BackendOnly
 #
 include
 "
