@@ -2191,6 +2191,9 @@ endif
 case
 MIRType_Slots
 :
+case
+MIRType_Elements
+:
 return
 LDefinition
 :

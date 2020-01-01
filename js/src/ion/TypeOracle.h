@@ -31,6 +31,7 @@ MIRType_Value
 MIRType_Any
 MIRType_None
 MIRType_Slots
+MIRType_Elements
 MIRType_StackFrame
 }
 ;
@@ -1026,6 +1027,14 @@ MIRType_Slots
 return
 "
 Slots
+"
+;
+case
+MIRType_Elements
+:
+return
+"
+Elements
 "
 ;
 case

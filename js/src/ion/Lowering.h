@@ -470,6 +470,14 @@ ins
 )
 ;
 bool
+visitElements
+(
+MElements
+*
+ins
+)
+;
+bool
 visitLoadSlot
 (
 MLoadSlot

@@ -5155,10 +5155,10 @@ Operand
 CodeGeneratorX86Shared
 :
 :
-createArraySlotOperand
+createArrayElementOperand
 (
 Register
-slots
+elements
 const
 LAllocation
 *
@@ -5177,7 +5177,7 @@ isConstant
 return
 Operand
 (
-slots
+elements
 ToInt32
 (
 index
@@ -5195,7 +5195,7 @@ Value
 return
 Operand
 (
-slots
+elements
 ToRegister
 (
 index

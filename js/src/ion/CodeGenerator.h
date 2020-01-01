@@ -208,6 +208,15 @@ lir
 ;
 virtual
 bool
+visitElements
+(
+LElements
+*
+lir
+)
+;
+virtual
+bool
 visitTypeBarrier
 (
 LTypeBarrier
