@@ -5341,10 +5341,7 @@ mChannelOffset
 BLOCK_SIZE
 =
 =
-stream
--
->
-mChannelOffset
+desiredOffset
 /
 BLOCK_SIZE
 )
