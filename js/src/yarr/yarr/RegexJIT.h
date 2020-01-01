@@ -323,6 +323,15 @@ bool
 multiline
 =
 false
+#
+ifdef
+ANDROID
+bool
+forceFallback
+=
+false
+#
+endif
 )
 ;
 inline
