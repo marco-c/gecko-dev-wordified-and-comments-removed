@@ -9,17 +9,6 @@ Loading
 <
 !
 ENTITY
-splash_screen_installing_libs
-"
-Installing
-libraries
-\
-u2026
-"
->
-<
-!
-ENTITY
 splash_firstrun
 "
 Setting
