@@ -2725,7 +2725,7 @@ split
 ;
 if
 (
-land
+lang
 !
 =
 locale
