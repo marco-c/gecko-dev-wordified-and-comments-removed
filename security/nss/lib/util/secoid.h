@@ -216,6 +216,14 @@ PRUint32
 len
 )
 ;
+extern
+void
+UTIL_SetForkState
+(
+PRBool
+forked
+)
+;
 SEC_END_PROTOS
 #
 endif

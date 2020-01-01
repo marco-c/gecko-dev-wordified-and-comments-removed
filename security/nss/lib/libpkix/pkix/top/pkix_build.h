@@ -52,7 +52,6 @@ BUILD_DATEPREP
 BUILD_CHECKTRUSTED
 BUILD_CHECKTRUSTED2
 BUILD_ADDTOCHAIN
-BUILD_CHECKWITHANCHORS
 BUILD_CRL2PREP
 BUILD_CRL2
 BUILD_VALCHAIN
@@ -162,9 +161,6 @@ PKIX_UInt32
 aiaIndex
 ;
 PKIX_UInt32
-anchorIndex
-;
-PKIX_UInt32
 certCheckedIndex
 ;
 PKIX_UInt32
@@ -181,9 +177,6 @@ numDepth
 ;
 PKIX_UInt32
 reasonCode
-;
-PKIX_Boolean
-dsaParamsNeeded
 ;
 PKIX_Boolean
 revCheckDelayed

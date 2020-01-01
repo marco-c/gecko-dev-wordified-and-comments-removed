@@ -330,9 +330,11 @@ PKIX_ProcessingParams
 procParams
 PKIX_UInt32
 methodFlags
+PKIX_Boolean
+chainVerificationState
 PKIX_RevocationStatus
 *
-revStatus
+pRevStatus
 PKIX_UInt32
 *
 pReasonCode
@@ -375,6 +377,11 @@ PKIX_Boolean
 storeIsLocal
 =
 PKIX_FALSE
+;
+PKIX_RevocationStatus
+revStatus
+=
+PKIX_RevStatus_NoInfo
 ;
 PKIX_ENTER
 (
@@ -490,8 +497,11 @@ certStore
 cert
 issuer
 date
+!
+chainVerificationState
 &
 reasonCode
+&
 revStatus
 plContext
 )
@@ -500,7 +510,6 @@ PKIX_CERTSTORECRLCHECKFAILED
 ;
 if
 (
-*
 revStatus
 =
 =
@@ -520,6 +529,11 @@ certStore
 }
 cleanup
 :
+*
+pRevStatus
+=
+revStatus
+;
 PKIX_DECREF
 (
 certStore
@@ -897,6 +911,7 @@ certStore
 cert
 issuer
 date
+PKIX_FALSE
 &
 reasonCode
 &

@@ -1199,6 +1199,8 @@ global
 :
 SECITEM_ReallocItem
 ;
+UTIL_SetForkState
+;
 ;
 +
 local

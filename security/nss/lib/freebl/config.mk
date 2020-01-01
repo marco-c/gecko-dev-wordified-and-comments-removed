@@ -1,5 +1,4 @@
 #
-#
 *
 *
 *
@@ -728,6 +727,15 @@ RESNAME
 freebl
 .
 rc
+ifndef
+WINCE
+OS_LIBS
++
+=
+shell32
+.
+lib
+endif
 ifdef
 NS_USE_GCC
 EXTRA_SHARED_LIBS

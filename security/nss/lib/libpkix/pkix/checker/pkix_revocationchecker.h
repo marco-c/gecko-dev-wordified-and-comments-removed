@@ -94,10 +94,6 @@ PKIX_REV_MI_REQUIRE_SOME_FRESH_INFO_AVAILABLE
 struct
 PKIX_RevocationCheckerStruct
 {
-PKIX_PL_Date
-*
-date
-;
 PKIX_List
 *
 leafMethodList

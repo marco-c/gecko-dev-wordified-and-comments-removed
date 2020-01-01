@@ -196,6 +196,8 @@ SEED_CreateContext
 SEED_DestroyContext
 SEED_Encrypt
 SEED_Decrypt
+BL_Init
+BL_SetForkState
 }
 ;
 const

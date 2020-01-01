@@ -49,6 +49,8 @@ PKIX_ProcessingParams
 procParams
 PKIX_UInt32
 methodFlags
+PKIX_Boolean
+chainVerificationState
 PKIX_RevocationStatus
 *
 pRevStatus

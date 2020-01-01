@@ -18648,6 +18648,7 @@ crv
 sftk_LogAuditMessage
 (
 NSS_AUDIT_ERROR
+NSS_AUDIT_SELF_TEST
 msg
 )
 ;

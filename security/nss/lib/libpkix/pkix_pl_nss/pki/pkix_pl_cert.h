@@ -146,6 +146,9 @@ PKIX_List
 *
 subjectInfoAccess
 ;
+PKIX_Boolean
+isUserTrustAnchor
+;
 }
 ;
 PKIX_Error
