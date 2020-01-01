@@ -683,7 +683,7 @@ o
 :
 jsinterp
 .
-c
+cpp
 jsinterp
 .
 h
@@ -691,7 +691,7 @@ h
 MAKE_OBJDIR
 )
 (
-CC
+CXX
 )
 -
 o
@@ -702,7 +702,7 @@ INTERP_CFLAGS
 )
 jsinterp
 .
-c
+cpp
 (
 OBJDIR
 )
