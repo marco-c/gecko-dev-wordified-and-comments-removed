@@ -893,7 +893,7 @@ addAttribute
 nsHtml5AttributeName
 :
 :
-ATTR_CLASS
+ATTR_STYLE
 style
 )
 ;
