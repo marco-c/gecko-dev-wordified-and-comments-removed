@@ -2589,6 +2589,13 @@ cxreg
 =
 IntArgReg0
 ;
+regs
+.
+take
+(
+cxreg
+)
+;
 masm
 .
 enterExitFrameAndLoadContext
