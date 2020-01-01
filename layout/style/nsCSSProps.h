@@ -2423,6 +2423,13 @@ kTextAlignLastKTable
 static
 const
 int32_t
+kTextCombineHorizontalKTable
+[
+]
+;
+static
+const
+int32_t
 kTextDecorationLineKTable
 [
 ]
@@ -2431,6 +2438,13 @@ static
 const
 int32_t
 kTextDecorationStyleKTable
+[
+]
+;
+static
+const
+int32_t
+kTextOrientationKTable
 [
 ]
 ;

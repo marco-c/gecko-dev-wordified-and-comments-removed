@@ -5228,6 +5228,12 @@ mHyphens
 uint8_t
 mTextSizeAdjust
 ;
+uint8_t
+mTextOrientation
+;
+uint8_t
+mTextCombineHorizontal
+;
 int32_t
 mTabSize
 ;
