@@ -601,6 +601,14 @@ plugin_both2
 .
 html
 \
+browser_alltabslistener
+.
+js
+\
+alltabslistener
+.
+html
+\
 (
 NULL
 )
