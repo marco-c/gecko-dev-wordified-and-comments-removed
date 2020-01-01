@@ -48,14 +48,6 @@ EnablePrivilege
 )
 DEPRECATED_OPERATION
 (
-Position
-)
-DEPRECATED_OPERATION
-(
-TotalSize
-)
-DEPRECATED_OPERATION
-(
 InputEncoding
 )
 DEPRECATED_OPERATION

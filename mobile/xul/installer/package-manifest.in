@@ -1025,13 +1025,6 @@ BINPATH
 /
 components
 /
-dom_loadsave
-.
-xpt
-BINPATH
-/
-components
-/
 downloads
 .
 xpt

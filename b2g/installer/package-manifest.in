@@ -1150,13 +1150,6 @@ BINPATH
 /
 components
 /
-dom_loadsave
-.
-xpt
-BINPATH
-/
-components
-/
 dom_time
 .
 xpt

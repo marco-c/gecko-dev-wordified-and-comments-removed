@@ -512,10 +512,6 @@ StorageItem
 )
 DOMCI_CLASS
 (
-XMLHttpProgressEvent
-)
-DOMCI_CLASS
-(
 ClientRect
 )
 DOMCI_CLASS
