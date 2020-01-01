@@ -6068,7 +6068,7 @@ mAutoCompleteOnlyTyped
 nsresult
 rv
 =
-CreateAutoCompleteQuery
+CreateAutoCompleteQueries
 (
 )
 ;
