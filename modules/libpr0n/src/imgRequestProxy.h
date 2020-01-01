@@ -506,6 +506,9 @@ mDecodeRequested
 PRPackedBool
 mDeferNotifications
 ;
+PRPackedBool
+mSentStartContainer
+;
 }
 ;
 #

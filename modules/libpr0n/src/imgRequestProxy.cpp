@@ -148,6 +148,10 @@ mDeferNotifications
 (
 PR_FALSE
 )
+mSentStartContainer
+(
+PR_FALSE
+)
 {
 }
 imgRequestProxy
@@ -1617,6 +1621,10 @@ mListener
 &
 !
 mCanceled
+&
+&
+!
+mSentStartContainer
 )
 {
 nsCOMPtr
@@ -1636,6 +1644,10 @@ OnStartContainer
 this
 image
 )
+;
+mSentStartContainer
+=
+PR_TRUE
 ;
 }
 }
