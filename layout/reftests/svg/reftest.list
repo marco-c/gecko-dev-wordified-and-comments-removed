@@ -1207,6 +1207,7 @@ text
 ref
 .
 svg
+#
 random
 -
 if
@@ -4879,6 +4880,7 @@ in
 ref
 .
 xhtml
+fails
 =
 =
 svg
@@ -4905,6 +4907,9 @@ out
 ref
 .
 xhtml
+#
+Bug
+541270
 =
 =
 href
