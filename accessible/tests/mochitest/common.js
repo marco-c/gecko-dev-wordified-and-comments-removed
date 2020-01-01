@@ -170,6 +170,15 @@ interfaces
 nsIDOMNode
 ;
 const
+nsIPropertyElement
+=
+Components
+.
+interfaces
+.
+nsIPropertyElement
+;
+const
 ROLE_COMBOBOX
 =
 nsIAccessibleRole

@@ -450,6 +450,10 @@ longdesc_src
 .
 html
 \
+attributes
+.
+js
+\
 common
 .
 js
