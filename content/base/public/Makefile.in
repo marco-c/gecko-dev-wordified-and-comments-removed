@@ -672,6 +672,10 @@ nsIXMLHttpRequest
 .
 idl
 \
+nsIContentSecurityPolicy
+.
+idl
+\
 (
 NULL
 )
