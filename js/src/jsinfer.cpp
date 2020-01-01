@@ -2400,9 +2400,6 @@ TypeConstraintCondensed
 *
 constraint
 =
-js
-:
-:
 OffTheBooks
 :
 :

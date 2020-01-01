@@ -868,7 +868,10 @@ if
 argTypes
 )
 {
-js_free
+UnwantedForeground
+:
+:
+free_
 (
 argTypes
 )
@@ -983,6 +986,7 @@ ic
 )
 ;
 void
+*
 JS_FASTCALL
 NativeNew
 (
@@ -998,6 +1002,7 @@ ic
 )
 ;
 void
+*
 JS_FASTCALL
 NativeCall
 (

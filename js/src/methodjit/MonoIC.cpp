@@ -6126,6 +6126,7 @@ update
 ;
 }
 void
+*
 JS_FASTCALL
 ic
 :
@@ -6175,8 +6176,12 @@ f
 )
 )
 ;
+return
+NULL
+;
 }
 void
+*
 JS_FASTCALL
 ic
 :
@@ -6224,6 +6229,9 @@ staticArgc
 (
 )
 )
+;
+return
+NULL
 ;
 }
 static
