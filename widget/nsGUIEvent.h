@@ -3750,6 +3750,10 @@ widget
 :
 KEY_NAME_INDEX_Unidentified
 )
+mNativeKeyEvent
+(
+nullptr
+)
 {
 }
 uint32_t
@@ -3778,6 +3782,10 @@ widget
 :
 KeyNameIndex
 mKeyNameIndex
+;
+void
+*
+mNativeKeyEvent
 ;
 void
 GetDOMKeyName
