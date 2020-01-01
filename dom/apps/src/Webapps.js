@@ -3269,6 +3269,12 @@ false
 ;
 this
 .
+downloadAvailable
+=
+false
+;
+this
+.
 _fireEvent
 (
 "
