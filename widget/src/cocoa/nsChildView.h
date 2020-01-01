@@ -1162,6 +1162,11 @@ HidePlugin
 (
 )
 ;
+void
+ResetParent
+(
+)
+;
 protected
 :
 PRBool
