@@ -10020,9 +10020,7 @@ SerializeToStream
 (
 doc
 output
-EmptyCString
-(
-)
+charset
 )
 ;
 NS_ENSURE_SUCCESS
