@@ -36649,11 +36649,8 @@ pn_kid
 TOK_PRIMARY
 )
 {
-ReportCompileErrorNumber
+reportErrorNumber
 (
-context
-&
-tokenStream
 pn
 -
 >
