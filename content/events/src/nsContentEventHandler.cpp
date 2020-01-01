@@ -2023,7 +2023,7 @@ nsIContentIterator
 >
 iter
 =
-NS_NewContentIterator
+NS_NewPreContentIterator
 (
 )
 ;
