@@ -7010,7 +7010,7 @@ GetMarkedCCGeneration
 )
 {
 return
-NS_OK
+NS_SUCCESS_INTERRUPTED_TRAVERSE
 ;
 }
 tmp
