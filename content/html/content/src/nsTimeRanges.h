@@ -27,6 +27,7 @@ h
 "
 class
 nsTimeRanges
+MOZ_FINAL
 :
 public
 nsIDOMTimeRanges
