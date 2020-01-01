@@ -366,7 +366,6 @@ incompatible_char_type
 ;
 NS_COM
 static
-const
 char_type
 *
 sEmptyBuffer
@@ -1493,7 +1492,6 @@ incompatible_char_type
 ;
 NS_COM
 static
-const
 char_type
 *
 sEmptyBuffer
