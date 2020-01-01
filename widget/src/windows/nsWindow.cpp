@@ -18480,6 +18480,10 @@ WM_SETTEXT
 :
 if
 (
+!
+mCustomNonClient
+|
+|
 mNonClientMargins
 .
 top
