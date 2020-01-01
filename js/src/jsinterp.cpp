@@ -1059,7 +1059,7 @@ format
 JOF_SLOTATOM
 )
 ?
-2
+SLOTNO_LEN
 :
 0
 ;
@@ -1454,7 +1454,7 @@ format
 JOF_SLOTATOM
 )
 ?
-2
+SLOTNO_LEN
 :
 0
 ;
