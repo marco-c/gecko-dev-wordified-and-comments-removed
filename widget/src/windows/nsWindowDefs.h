@@ -35,14 +35,6 @@ WM_APP
 )
 #
 define
-MOZ_WM_TRACE
-(
-WM_APP
-+
-0x0301
-)
-#
-define
 WIN2K_VERSION
 0x500
 #

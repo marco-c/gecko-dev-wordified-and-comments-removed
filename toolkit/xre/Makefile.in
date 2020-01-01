@@ -495,15 +495,6 @@ cpp
 NULL
 )
 ifdef
-MOZ_INSTRUMENT_EVENT_LOOP
-CPPSRCS
-+
-=
-EventTracer
-.
-cpp
-endif
-ifdef
 MOZ_SPLASHSCREEN
 ifeq
 (

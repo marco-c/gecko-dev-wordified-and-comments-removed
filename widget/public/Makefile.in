@@ -420,7 +420,6 @@ GRE_MODULE
 EXPORTS_NAMESPACES
 =
 IPC
-mozilla
 EXPORTS_IPC
 =
 \
@@ -431,15 +430,6 @@ h
 (
 NULL
 )
-ifdef
-MOZ_INSTRUMENT_EVENT_LOOP
-EXPORTS_mozilla
-=
-\
-WidgetTraceEvent
-.
-h
-endif
 EXPORTS
 =
 \
