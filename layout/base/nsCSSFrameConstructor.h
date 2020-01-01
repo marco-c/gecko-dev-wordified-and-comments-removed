@@ -2874,9 +2874,7 @@ nsIFrame
 aParentFrame
 nsIContent
 *
-aParentContent
-PRInt32
-aContentIndex
+aPossibleTextContent
 FrameConstructionItemList
 &
 aItems
