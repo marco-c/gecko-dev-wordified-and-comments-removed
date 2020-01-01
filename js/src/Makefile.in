@@ -97,9 +97,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-js
 LIBRARY_NAME
 =
 mozjs
@@ -6195,6 +6192,16 @@ srcdir
 builtin
 /
 IntlData
+.
+js
+\
+(
+srcdir
+)
+/
+builtin
+/
+ParallelArray
 .
 js
 \
