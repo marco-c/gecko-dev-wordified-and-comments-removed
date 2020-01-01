@@ -3512,6 +3512,18 @@ function
 crumb
 )
 {
+if
+(
+LayoutHelpers
+.
+isNodeConnected
+(
+crumb
+.
+node
+)
+)
+{
 DOMUtils
 .
 clearPseudoClassLocks
@@ -3521,6 +3533,7 @@ crumb
 node
 )
 ;
+}
 }
 )
 ;

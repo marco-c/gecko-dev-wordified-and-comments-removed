@@ -219,6 +219,14 @@ browser_inspector_pseudoClass_menu
 .
 js
 \
+browser_inspector_destroyselection
+.
+html
+\
+browser_inspector_destroyselection
+.
+js
+\
 head
 .
 js
