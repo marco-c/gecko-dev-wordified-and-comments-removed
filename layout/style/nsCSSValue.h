@@ -4102,6 +4102,9 @@ mIsRadial
 bool
 mIsRepeating
 ;
+bool
+mIsToCorner
+;
 nsCSSValuePair
 mBgPos
 ;
@@ -4148,6 +4151,14 @@ mIsRepeating
 aOther
 .
 mIsRepeating
+|
+|
+mIsToCorner
+!
+=
+aOther
+.
+mIsToCorner
 |
 |
 mBgPos
