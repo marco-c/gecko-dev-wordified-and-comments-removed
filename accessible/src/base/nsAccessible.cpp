@@ -11471,10 +11471,11 @@ PR_FALSE
 ;
 if
 (
+!
 nsAccUtils
 :
 :
-IsText
+IsEmbeddedObject
 (
 aChild
 )
