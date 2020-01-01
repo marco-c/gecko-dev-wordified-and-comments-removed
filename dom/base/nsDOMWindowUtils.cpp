@@ -2336,6 +2336,16 @@ bool
 aIgnoreRootScrollFrame
 )
 {
+SAMPLE_LABEL
+(
+"
+nsDOMWindowUtils
+"
+"
+SendMouseEventToWindow
+"
+)
+;
 return
 SendMouseEventCommon
 (
