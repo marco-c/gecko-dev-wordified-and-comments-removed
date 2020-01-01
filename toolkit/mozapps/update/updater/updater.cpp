@@ -6582,7 +6582,7 @@ char
 kUpdaterKeys
 =
 "
-MAR_CHANNEL_ID
+ACCEPTED_MAR_CHANNEL_IDS
 \
 0
 "
