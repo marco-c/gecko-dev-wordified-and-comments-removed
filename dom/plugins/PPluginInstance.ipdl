@@ -998,8 +998,12 @@ NPN_ConvertPoint
 (
 double
 sourceX
+bool
+ignoreDestX
 double
 sourceY
+bool
+ignoreDestY
 NPCoordinateSpace
 sourceSpace
 NPCoordinateSpace
@@ -1009,12 +1013,8 @@ returns
 (
 double
 destX
-bool
-ignoreDestX
 double
 destY
-bool
-ignoreDestY
 bool
 result
 )
