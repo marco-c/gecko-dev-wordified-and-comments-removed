@@ -15725,6 +15725,7 @@ constructing
 ;
 if
 (
+!
 realCallInfo
 .
 init
@@ -15733,7 +15734,7 @@ callInfo
 )
 )
 return
-false
+NULL
 ;
 realCallInfo
 .
