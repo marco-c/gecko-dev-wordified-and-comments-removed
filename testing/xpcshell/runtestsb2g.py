@@ -13,6 +13,8 @@ from
 automationutils
 import
 *
+from
+mozdevice
 import
 devicemanagerADB
 DEVICE_TEST_ROOT
