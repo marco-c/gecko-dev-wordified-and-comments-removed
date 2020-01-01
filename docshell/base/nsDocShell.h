@@ -988,6 +988,9 @@ aDoHashchange
 nsresult
 StringifyJSValVariant
 (
+JSContext
+*
+aCx
 nsIVariant
 *
 aData

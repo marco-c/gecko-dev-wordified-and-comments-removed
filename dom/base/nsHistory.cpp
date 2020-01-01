@@ -1026,6 +1026,9 @@ const
 nsAString
 &
 aURL
+JSContext
+*
+aCx
 )
 {
 if
@@ -1113,6 +1116,7 @@ aData
 aTitle
 aURL
 PR_FALSE
+aCx
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1142,6 +1146,9 @@ const
 nsAString
 &
 aURL
+JSContext
+*
+aCx
 )
 {
 if
@@ -1227,6 +1234,7 @@ aData
 aTitle
 aURL
 PR_TRUE
+aCx
 )
 ;
 }
