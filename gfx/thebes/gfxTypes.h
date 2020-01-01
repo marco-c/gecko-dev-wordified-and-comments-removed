@@ -26,15 +26,6 @@ gfxFloat
 if
 defined
 (
-MOZ_STATIC_BUILD
-)
-#
-define
-THEBES_API
-#
-elif
-defined
-(
 IMPL_THEBES
 )
 #
