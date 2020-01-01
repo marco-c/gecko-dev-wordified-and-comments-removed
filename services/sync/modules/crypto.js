@@ -371,9 +371,7 @@ Crypto__openssl
 let
 extMgr
 =
-Components
-.
-classes
+Cc
 [
 "
 mozilla
@@ -390,9 +388,7 @@ manager
 .
 getService
 (
-Components
-.
-interfaces
+Ci
 .
 nsIExtensionManager
 )
