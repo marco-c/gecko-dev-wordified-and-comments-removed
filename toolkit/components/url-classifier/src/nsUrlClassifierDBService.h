@@ -162,11 +162,6 @@ nsIUrlClassifierCallback
 c
 )
 ;
-void
-EnsureThreadStarted
-(
-)
-;
 nsresult
 Shutdown
 (
