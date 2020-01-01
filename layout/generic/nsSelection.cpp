@@ -359,13 +359,6 @@ namespace
 mozilla
 ;
 static
-NS_DEFINE_IID
-(
-kCContentIteratorCID
-NS_CONTENTITERATOR_CID
-)
-;
-static
 bool
 IsValidSelectionPoint
 (

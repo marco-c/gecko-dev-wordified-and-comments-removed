@@ -141,17 +141,6 @@ mozilla
 ;
 static
 const
-PRUnichar
-kSpaceCh
-=
-PRUnichar
-(
-'
-'
-)
-;
-static
-const
 nsGlyphCode
 kNullGlyph
 =
