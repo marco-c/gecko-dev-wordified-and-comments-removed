@@ -493,6 +493,10 @@ browser_result_format_as_string
 .
 js
 \
+browser_webconsole_bug_737873_mixedcontent
+.
+js
+\
 head
 .
 js
@@ -1247,6 +1251,16 @@ format
 as
 -
 string
+.
+html
+\
+test
+-
+bug
+-
+737873
+-
+mixedcontent
 .
 html
 \
