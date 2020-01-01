@@ -868,6 +868,10 @@ browser_webconsole_bug_678816
 .
 js
 \
+browser_webconsole_bug_664131_console_group
+.
+js
+\
 head
 .
 js
