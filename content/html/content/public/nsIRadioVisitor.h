@@ -97,12 +97,6 @@ aVisitor
 ;
 nsIRadioVisitor
 *
-NS_GetRadioUpdateValueMissingVisitor
-(
-)
-;
-nsIRadioVisitor
-*
 NS_GetRadioGroupRequiredVisitor
 (
 nsIFormControl
