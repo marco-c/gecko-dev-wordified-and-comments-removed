@@ -1780,6 +1780,16 @@ AudioContext
 aAudioContext
 )
 ;
+void
+MuteAudioContexts
+(
+)
+;
+void
+UnmuteAudioContexts
+(
+)
+;
 static
 nsPIDOMWindow
 *
