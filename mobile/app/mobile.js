@@ -212,7 +212,7 @@ ui
 .
 click_hold_context_menus
 "
-true
+false
 )
 ;
 pref
