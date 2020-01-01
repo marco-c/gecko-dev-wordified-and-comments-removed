@@ -279,13 +279,6 @@ nsDNSPrefetch
 h
 "
 #
-include
-"
-nsNetSegmentUtils
-.
-h
-"
-#
 define
 BYPASS_LOCAL_CACHE
 (

@@ -1,6 +1,13 @@
 #
 include
 "
+nsIOService
+.
+h
+"
+#
+include
+"
 nsAsyncStreamCopier
 .
 h
@@ -91,7 +98,10 @@ NS_ASYNCCOPY_VIA_READSEGMENTS
 )
 mChunkSize
 (
-NET_DEFAULT_SEGMENT_SIZE
+nsIOService
+:
+:
+gDefaultSegmentSize
 )
 mStatus
 (
@@ -707,7 +717,10 @@ chunkSize
 )
 chunkSize
 =
-NET_DEFAULT_SEGMENT_SIZE
+nsIOService
+:
+:
+gDefaultSegmentSize
 ;
 mChunkSize
 =
