@@ -651,8 +651,6 @@ OS_LIBS
 -
 framework
 Cocoa
-ifdef
-MOZ_DEBUG
 OS_LIBS
 +
 =
@@ -661,6 +659,7 @@ lcrypto
 LIBS
 +
 =
+\
 (
 DEPTH
 )
@@ -685,10 +684,6 @@ breakpad_common_s
 (
 LIB_SUFFIX
 )
-endif
-LIBS
-+
-=
 \
 (
 DEPTH
