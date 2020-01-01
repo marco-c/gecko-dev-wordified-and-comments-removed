@@ -607,6 +607,10 @@ nsCopySupport
 .
 cpp
 \
+nsCrossSiteListenerProxy
+.
+cpp
+\
 nsDataDocumentContentPolicy
 .
 cpp
