@@ -11950,11 +11950,6 @@ DispatchContentLoadedEvents
 (
 )
 ;
-UnblockOnload
-(
-PR_TRUE
-)
-;
 mInitialLayoutComplete
 =
 PR_TRUE
