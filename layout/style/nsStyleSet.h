@@ -983,9 +983,15 @@ aCollectorFunc
 RuleProcessorData
 *
 aData
-nsIContent
+mozilla
+:
+:
+dom
+:
+:
+Element
 *
-aContent
+aElement
 nsRuleWalker
 *
 aRuleWalker

@@ -5164,6 +5164,16 @@ NODE_DESCENDANTS_NEED_FRAMES
 ELEMENT_ALL_RESTYLE_FLAGS
 )
 ;
+SetIsElementInStyleScope
+(
+mParent
+-
+>
+IsElementInStyleScope
+(
+)
+)
+;
 }
 else
 {
