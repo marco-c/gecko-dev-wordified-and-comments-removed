@@ -741,6 +741,10 @@ test_property_database
 .
 html
 \
+test_priority_preservation
+.
+html
+\
 test_property_syntax_errors
 .
 html
