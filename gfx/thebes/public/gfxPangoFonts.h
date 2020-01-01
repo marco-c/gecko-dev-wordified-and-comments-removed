@@ -504,7 +504,7 @@ PRUint32
 aFlags
 )
 ;
-void
+nsresult
 CreateGlyphRunsFast
 (
 gfxTextRun
