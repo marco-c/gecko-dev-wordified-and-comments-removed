@@ -4695,14 +4695,6 @@ GetOverflowRect
 )
 )
 ;
-nsSplittableFrame
-:
-:
-BreakFromPrevFlow
-(
-aNextInFlow
-)
-;
 #
 ifdef
 DEBUG
