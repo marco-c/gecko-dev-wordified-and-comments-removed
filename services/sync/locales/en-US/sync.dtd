@@ -86,3 +86,15 @@ Log
 .
 "
 >
+<
+!
+ENTITY
+status
+.
+offline
+.
+label
+"
+Offline
+"
+>

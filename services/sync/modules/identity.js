@@ -265,13 +265,10 @@ password
 {
 if
 (
+!
 this
 .
 _password
-=
-=
-=
-null
 )
 return
 findPassword
