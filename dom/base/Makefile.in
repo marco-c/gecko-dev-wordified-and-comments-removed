@@ -648,10 +648,6 @@ StructuredCloneTags
 .
 h
 \
-ScreenOrientation
-.
-h
-\
 (
 NULL
 )
