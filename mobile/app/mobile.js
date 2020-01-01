@@ -242,6 +242,16 @@ pref
 "
 ui
 .
+scrollbarsCanOverlapContent
+"
+1
+)
+;
+pref
+(
+"
+ui
+.
 click_hold_context_menus
 "
 true

@@ -3331,14 +3331,6 @@ window
 -
 height
 "
-style
-=
-"
-overflow
-:
-hidden
-;
-"
 >
 <
 vbox
