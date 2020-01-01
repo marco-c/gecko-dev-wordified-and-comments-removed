@@ -106,6 +106,16 @@ SetEmpty
 struct
 PaintState
 {
+PaintState
+(
+)
+:
+mDidSelfCopy
+(
+PR_FALSE
+)
+{
+}
 nsRefPtr
 <
 gfxContext
