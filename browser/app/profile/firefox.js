@@ -1625,7 +1625,7 @@ whitelist
 add
 "
 "
-update
+addons
 .
 mozilla
 .
@@ -1642,14 +1642,12 @@ whitelist
 .
 add
 .
-103
+36
 "
 "
-addons
+getpersonas
 .
-mozilla
-.
-org
+com
 "
 )
 ;
