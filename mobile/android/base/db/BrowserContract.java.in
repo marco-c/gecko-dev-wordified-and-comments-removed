@@ -778,16 +778,6 @@ positions
 public
 static
 final
-long
-DEFAULT_POSITION
-=
-Long
-.
-MIN_VALUE
-;
-public
-static
-final
 String
 CONTENT_TYPE
 =
