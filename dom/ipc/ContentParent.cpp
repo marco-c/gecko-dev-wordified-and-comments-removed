@@ -3798,8 +3798,7 @@ aOSPrivileges
 )
 mChildID
 (
--
-1
+CONTENT_PARENT_UNKNOWN_CHILD_ID
 )
 mGeolocationWatchID
 (
@@ -5324,6 +5323,7 @@ service
 RegisterType
 (
 aType
+mChildID
 )
 ;
 }
@@ -5367,6 +5367,7 @@ service
 UnregisterType
 (
 aType
+mChildID
 )
 ;
 }
