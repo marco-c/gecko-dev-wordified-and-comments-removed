@@ -109,10 +109,6 @@ MIRGenerator
 *
 mir
 ;
-MIRGraph
-&
-graph
-;
 public
 :
 enum
@@ -136,9 +132,6 @@ header
 MBasicBlock
 *
 footer
-MIRGraph
-&
-graph
 )
 ;
 LoopReturn
