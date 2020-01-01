@@ -7618,8 +7618,10 @@ rv
 =
 NS_OK
 ;
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 shell
 =
 GetPresContext
@@ -8015,8 +8017,10 @@ rv
 =
 NS_OK
 ;
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 shell
 =
 GetPresContext
@@ -8135,8 +8139,10 @@ rv
 =
 NS_OK
 ;
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 shell
 =
 GetPresContext
@@ -8255,8 +8261,10 @@ rv
 =
 NS_OK
 ;
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 shell
 =
 GetPresContext

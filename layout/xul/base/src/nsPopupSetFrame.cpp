@@ -2884,8 +2884,10 @@ kungFuDeathGrip
 aPopupContent
 )
 ;
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 shell
 =
 GetPresContext
@@ -3255,8 +3257,10 @@ if
 aPopupContent
 )
 {
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 shell
 =
 GetPresContext

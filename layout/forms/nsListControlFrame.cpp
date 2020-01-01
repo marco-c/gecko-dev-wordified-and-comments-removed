@@ -5982,8 +5982,10 @@ PR_TRUE
 NS_FORM_CHANGE
 )
 ;
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 presShell
 =
 GetPresContext

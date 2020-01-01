@@ -588,8 +588,10 @@ aEvent
 isMeta
 ;
 }
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 shell
 =
 GetPresContext

@@ -1092,8 +1092,10 @@ if
 doc
 )
 {
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 presShell
 =
 doc
@@ -9774,6 +9776,12 @@ NS_FORM_INPUT
 0
 )
 ;
+nsCOMPtr
+<
+nsIPresShell
+>
+shell
+=
 GetPresContext
 (
 )
@@ -9782,6 +9790,8 @@ GetPresContext
 PresShell
 (
 )
+;
+shell
 -
 >
 HandleEventWithTarget
@@ -9856,6 +9866,12 @@ NS_FORM_CHANGE
 nsnull
 )
 ;
+nsCOMPtr
+<
+nsIPresShell
+>
+shell
+=
 GetPresContext
 (
 )
@@ -9864,6 +9880,8 @@ GetPresContext
 PresShell
 (
 )
+;
+shell
 -
 >
 HandleEventWithTarget

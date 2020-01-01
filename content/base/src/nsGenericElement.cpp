@@ -9879,8 +9879,10 @@ return
 NS_OK
 ;
 }
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 shell
 =
 aPresContext
@@ -16317,8 +16319,10 @@ isShift
 break
 ;
 }
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 shell
 =
 aVisitor

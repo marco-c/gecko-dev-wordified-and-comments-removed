@@ -4671,8 +4671,10 @@ eventStructType
 =
 NS_SVG_EVENT
 ;
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 presShell
 =
 mDocument

@@ -3569,8 +3569,10 @@ return
 NS_OK
 ;
 }
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 shell
 =
 aPresContext
@@ -5250,8 +5252,10 @@ NS_UI_ACTIVATE
 1
 )
 ;
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 shell
 =
 aVisitor
@@ -6358,8 +6362,10 @@ status
 =
 nsEventStatus_eIgnore
 ;
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 presShell
 =
 aVisitor
