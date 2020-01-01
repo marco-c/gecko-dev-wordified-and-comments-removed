@@ -740,6 +740,16 @@ _
 (
 InterruptCheck
 )
+\
+_
+(
+ProfilingEnter
+)
+\
+_
+(
+ProfilingExit
+)
 #
 if
 defined

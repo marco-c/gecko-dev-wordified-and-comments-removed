@@ -571,6 +571,16 @@ _
 (
 InterruptCheck
 )
+\
+_
+(
+ProfilingEnter
+)
+\
+_
+(
+ProfilingExit
+)
 #
 define
 FORWARD_DECLARE
