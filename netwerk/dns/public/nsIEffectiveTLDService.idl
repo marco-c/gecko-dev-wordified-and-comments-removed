@@ -752,7 +752,7 @@ uk
 1
 -
 >
-news
+www
 .
 bbc
 .
@@ -767,6 +767,8 @@ public
 suffix
 for
 "
+www
+.
 developer
 .
 mozilla
@@ -800,6 +802,17 @@ org
 1
 -
 >
+developer
+.
+mozilla
+.
+org
+*
+2
+-
+>
+www
+.
 developer
 .
 mozilla
