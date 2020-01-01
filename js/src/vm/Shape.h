@@ -374,10 +374,8 @@ adding
 define
 JSPROP_SHADOWABLE
 JSPROP_INDEX
-ForwardDeclare
-(
+class
 UnownedBaseShape
-)
 ;
 ForwardDeclare
 (
@@ -634,7 +632,8 @@ inline
 void
 adoptUnowned
 (
-RawUnownedBaseShape
+UnownedBaseShape
+*
 other
 )
 ;
@@ -642,7 +641,8 @@ inline
 void
 setOwned
 (
-RawUnownedBaseShape
+UnownedBaseShape
+*
 unowned
 )
 ;
@@ -1075,7 +1075,8 @@ unowned_
 return
 static_cast
 <
-RawUnownedBaseShape
+UnownedBaseShape
+*
 >
 (
 this
@@ -1264,7 +1265,8 @@ inline
 bool
 match
 (
-RawUnownedBaseShape
+UnownedBaseShape
+*
 key
 const
 StackBaseShape
@@ -2233,7 +2235,8 @@ nfixed
 ;
 Shape
 (
-RawUnownedBaseShape
+UnownedBaseShape
+*
 base
 uint32_t
 nfixed
@@ -3907,7 +3910,8 @@ Shape
 {
 EmptyShape
 (
-RawUnownedBaseShape
+UnownedBaseShape
+*
 base
 uint32_t
 nfixed
@@ -4117,7 +4121,8 @@ InitialShapeSet
 struct
 StackShape
 {
-RawUnownedBaseShape
+UnownedBaseShape
+*
 base
 ;
 RawId
@@ -4138,7 +4143,8 @@ shortid
 explicit
 StackShape
 (
-RawUnownedBaseShape
+UnownedBaseShape
+*
 base
 jsid
 propid

@@ -4647,7 +4647,8 @@ isOwned
 )
 )
 {
-RawUnownedBaseShape
+UnownedBaseShape
+*
 unowned
 =
 base

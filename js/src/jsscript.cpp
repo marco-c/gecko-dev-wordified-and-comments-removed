@@ -653,7 +653,8 @@ BaseShape
 DELEGATE
 )
 ;
-RawUnownedBaseShape
+UnownedBaseShape
+*
 nbase
 =
 BaseShape
