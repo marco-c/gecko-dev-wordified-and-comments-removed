@@ -105,6 +105,9 @@ namespace
 storage
 {
 class
+StorageMemoryReporter
+;
+class
 Connection
 :
 public
@@ -282,9 +285,9 @@ mDatabaseFile
 ;
 nsTArray
 <
-nsCOMPtr
+nsRefPtr
 <
-nsIMemoryReporter
+StorageMemoryReporter
 >
 >
 mMemoryReporters
