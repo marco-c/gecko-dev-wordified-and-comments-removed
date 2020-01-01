@@ -3121,6 +3121,8 @@ output
 )
 )
 ;
+break
+;
 default
 :
 JS_NOT_REACHED
