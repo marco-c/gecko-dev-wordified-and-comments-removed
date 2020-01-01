@@ -133,16 +133,6 @@ PRBool
 aHandlerExists
 )
 ;
-protected
-:
-void
-UpdateCreatorInfo
-(
-nsIMIMEInfo
-*
-aMIMEInfo
-)
-;
 }
 ;
 #
