@@ -13207,7 +13207,7 @@ underline
 ;
 }
 #
-editSharePopupText
+unsharePopupText
 {
 height
 :
@@ -13215,7 +13215,7 @@ height
 ;
 }
 #
-editSharePopupBottomButtons
+unsharePopupBottomButtons
 {
 margin
 -
