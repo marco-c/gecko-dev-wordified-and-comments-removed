@@ -1,3 +1,6 @@
+#
+filter
+substitution
 [
 Desktop
 Entry
@@ -23,10 +26,7 @@ GenericName
 MOZ_APP_DISPLAYNAME
 Exec
 =
-/
-usr
-/
-local
+installdir
 /
 fennec
 /

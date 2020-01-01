@@ -1,3 +1,6 @@
+#
+filter
+substitution
 [
 D
 -
@@ -11,10 +14,7 @@ Mozilla
 MOZ_APP_DISPLAYNAME
 Exec
 =
-/
-usr
-/
-local
+installdir
 /
 fennec
 /
