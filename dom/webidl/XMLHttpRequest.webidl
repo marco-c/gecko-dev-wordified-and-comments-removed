@@ -462,5 +462,13 @@ IID
 iid
 )
 ;
+[
+TreatNonCallableAsNull
+]
+attribute
+Function
+?
+onuploadprogress
+;
 }
 ;
