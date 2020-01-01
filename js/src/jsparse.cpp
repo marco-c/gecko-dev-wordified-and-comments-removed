@@ -4817,7 +4817,7 @@ addTypePropertyId
 globalObj
 -
 >
-getTypeObject
+getType
 (
 )
 id
@@ -9084,8 +9084,9 @@ fun
 )
 -
 >
-clearProto
+clearType
 (
+context
 )
 ;
 }
@@ -39671,8 +39672,9 @@ clearParent
 obj
 -
 >
-clearProto
+clearType
 (
+context
 )
 ;
 }
