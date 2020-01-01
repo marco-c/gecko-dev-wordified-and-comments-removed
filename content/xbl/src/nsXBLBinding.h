@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsIDOMNodeList
+nsINodeList
 .
 h
 "
@@ -470,10 +470,8 @@ void
 aData
 )
 ;
-already_AddRefed
-<
-nsIDOMNodeList
->
+nsINodeList
+*
 GetAnonymousNodes
 (
 )
