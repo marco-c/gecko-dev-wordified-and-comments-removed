@@ -21598,12 +21598,6 @@ frame
 return
 NS_ERROR_FAILURE
 ;
-aVertical
-.
-mOnlyIfPerceivedScrollableDirection
-=
-false
-;
 presShell
 -
 >
