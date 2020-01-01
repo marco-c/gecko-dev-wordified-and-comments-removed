@@ -471,6 +471,10 @@ mActiveImage
 =
 aImage
 ;
+CurrentImageChanged
+(
+)
+;
 }
 already_AddRefed
 <
@@ -1670,6 +1674,16 @@ Draw
 (
 4
 0
+)
+;
+GetContainer
+(
+)
+-
+>
+NotifyPaintedImage
+(
+image
 )
 ;
 }

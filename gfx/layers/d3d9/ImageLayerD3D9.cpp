@@ -604,6 +604,10 @@ mActiveImage
 =
 aImage
 ;
+CurrentImageChanged
+(
+)
+;
 }
 already_AddRefed
 <
@@ -1764,6 +1768,16 @@ D3DTEXF_LINEAR
 ;
 }
 }
+GetContainer
+(
+)
+-
+>
+NotifyPaintedImage
+(
+image
+)
+;
 }
 PlanarYCbCrImageD3D9
 :
