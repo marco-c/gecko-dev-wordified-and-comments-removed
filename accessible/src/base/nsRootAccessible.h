@@ -209,6 +209,11 @@ aAccessibleCaret
 )
 ;
 NS_IMETHOD
+Init
+(
+)
+;
+NS_IMETHOD
 Shutdown
 (
 )
