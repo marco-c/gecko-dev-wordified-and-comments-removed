@@ -1834,6 +1834,9 @@ die_cb
 NULL
 )
 ;
+nsCAutoString
+path
+;
 char
 *
 argv1
@@ -1904,9 +1907,6 @@ rv
 )
 )
 {
-nsCAutoString
-path
-;
 nsCAutoString
 leafName
 ;
