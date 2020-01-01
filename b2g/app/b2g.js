@@ -4600,7 +4600,7 @@ gonk
 .
 notifyLowMemUnderMB
 "
-10
+14
 )
 ;
 pref
