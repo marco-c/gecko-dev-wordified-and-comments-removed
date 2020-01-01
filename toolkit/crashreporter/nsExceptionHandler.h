@@ -1,9 +1,9 @@
 #
 ifndef
-nsAirbagExceptionHandler_h__
+nsExceptionHandler_h__
 #
 define
-nsAirbagExceptionHandler_h__
+nsExceptionHandler_h__
 #
 include
 "

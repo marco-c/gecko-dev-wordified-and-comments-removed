@@ -1,7 +1,7 @@
 #
 include
 "
-nsAirbagExceptionHandler
+nsExceptionHandler
 .
 h
 "
@@ -178,7 +178,7 @@ should
 -
 disable
 -
-airbag
+crashreporter
 .
 "
 #

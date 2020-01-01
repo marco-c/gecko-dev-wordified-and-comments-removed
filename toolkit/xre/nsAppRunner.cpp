@@ -740,11 +740,11 @@ h
 endif
 #
 ifdef
-MOZ_AIRBAG
+MOZ_CRASHREPORTER
 #
 include
 "
-nsAirbagExceptionHandler
+nsExceptionHandler
 .
 h
 "
@@ -1859,7 +1859,7 @@ nsIWinAppHelper
 endif
 #
 ifdef
-MOZ_AIRBAG
+MOZ_CRASHREPORTER
 public
 nsICrashReporter
 #
@@ -1874,7 +1874,7 @@ NS_DECL_NSIXULAPPINFO
 NS_DECL_NSIXULRUNTIME
 #
 ifdef
-MOZ_AIRBAG
+MOZ_CRASHREPORTER
 NS_DECL_NSICRASHREPORTER
 #
 endif
@@ -1923,7 +1923,7 @@ nsIWinAppHelper
 endif
 #
 ifdef
-MOZ_AIRBAG
+MOZ_CRASHREPORTER
 NS_INTERFACE_MAP_ENTRY
 (
 nsICrashReporter
@@ -2678,7 +2678,7 @@ rv
 endif
 #
 ifdef
-MOZ_AIRBAG
+MOZ_CRASHREPORTER
 NS_IMETHODIMP
 nsXULAppInfo
 :
@@ -2957,7 +2957,7 @@ AppInfoConstructor
 }
 #
 ifdef
-MOZ_AIRBAG
+MOZ_CRASHREPORTER
 {
 "
 nsXULAppInfo
@@ -10290,7 +10290,7 @@ value
 }
 #
 ifdef
-MOZ_AIRBAG
+MOZ_CRASHREPORTER
 static
 void
 MakeOrSetMinidumpPath
@@ -11432,11 +11432,11 @@ return
 }
 #
 ifdef
-MOZ_AIRBAG
+MOZ_CRASHREPORTER
 const
 char
 *
-airbagEnv
+crashreporterEnv
 =
 PR_GetEnv
 (
@@ -11447,11 +11447,11 @@ MOZ_CRASHREPORTER
 ;
 if
 (
-airbagEnv
+crashreporterEnv
 &
 &
 *
-airbagEnv
+crashreporterEnv
 )
 {
 appData
@@ -12806,7 +12806,7 @@ rv
 ;
 #
 ifdef
-MOZ_AIRBAG
+MOZ_CRASHREPORTER
 if
 (
 appData
@@ -14447,7 +14447,7 @@ upgraded
 ;
 #
 ifdef
-MOZ_AIRBAG
+MOZ_CRASHREPORTER
 if
 (
 appData
@@ -14479,7 +14479,7 @@ NS_ERROR_LAUNCHED_CHILD_PROCESS
 }
 #
 ifdef
-MOZ_AIRBAG
+MOZ_CRASHREPORTER
 if
 (
 appData
