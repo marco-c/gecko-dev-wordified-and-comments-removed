@@ -902,6 +902,16 @@ nsDisplayListSet
 aLists
 )
 ;
+nsIntPoint
+GetLastClientOffset
+(
+)
+const
+{
+return
+mLastClientOffset
+;
+}
 protected
 :
 nsPopupLevel
@@ -1066,6 +1076,9 @@ mScreenXPos
 ;
 PRInt32
 mScreenYPos
+;
+nsIntPoint
+mLastClientOffset
 ;
 nsPopupType
 mPopupType
