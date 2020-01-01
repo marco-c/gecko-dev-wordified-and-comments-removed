@@ -276,7 +276,7 @@ BaseProxyHandler
 class
 JS_FRIEND_API
 (
-DirectWrapper
+Wrapper
 )
 ;
 class

@@ -356,7 +356,7 @@ extern
 js
 :
 :
-DirectWrapper
+Wrapper
 XrayWaiver
 ;
 }

@@ -32,13 +32,13 @@ OuterWrapper
 js
 :
 :
-DirectWrapper
+Wrapper
 {
 OuterWrapper
 (
 )
 :
-DirectWrapper
+Wrapper
 (
 0
 )

@@ -146,7 +146,7 @@ sWrapperFamily
 }
 void
 *
-DirectWrapper
+Wrapper
 :
 :
 getWrapperFamily
@@ -305,21 +305,6 @@ GetProxyTargetObject
 wrapper
 )
 ;
-}
-Wrapper
-:
-:
-Wrapper
-(
-unsigned
-flags
-)
-:
-mFlags
-(
-flags
-)
-{
 }
 bool
 Wrapper
@@ -725,10 +710,10 @@ CHECKED
 action
 GET
 )
-DirectWrapper
+Wrapper
 :
 :
-DirectWrapper
+Wrapper
 (
 unsigned
 flags
@@ -736,14 +721,14 @@ bool
 hasPrototype
 )
 :
-Wrapper
-(
-flags
-)
 DirectProxyHandler
 (
 &
 sWrapperFamily
+)
+mFlags
+(
+flags
 )
 {
 setHasPrototype
@@ -752,17 +737,17 @@ hasPrototype
 )
 ;
 }
-DirectWrapper
+Wrapper
 :
 :
 ~
-DirectWrapper
+Wrapper
 (
 )
 {
 }
 bool
-DirectWrapper
+Wrapper
 :
 :
 getPropertyDescriptor
@@ -819,7 +804,7 @@ GET
 ;
 }
 bool
-DirectWrapper
+Wrapper
 :
 :
 getOwnPropertyDescriptor
@@ -864,7 +849,7 @@ GET
 ;
 }
 bool
-DirectWrapper
+Wrapper
 :
 :
 defineProperty
@@ -898,7 +883,7 @@ desc
 ;
 }
 bool
-DirectWrapper
+Wrapper
 :
 :
 getOwnPropertyNames
@@ -934,7 +919,7 @@ props
 ;
 }
 bool
-DirectWrapper
+Wrapper
 :
 :
 delete_
@@ -973,7 +958,7 @@ bp
 ;
 }
 bool
-DirectWrapper
+Wrapper
 :
 :
 enumerate
@@ -1018,7 +1003,7 @@ props
 ;
 }
 bool
-DirectWrapper
+Wrapper
 :
 :
 defaultValue
@@ -1119,7 +1104,7 @@ vp
 ;
 }
 bool
-DirectWrapper
+Wrapper
 :
 :
 has
@@ -1166,7 +1151,7 @@ bp
 ;
 }
 bool
-DirectWrapper
+Wrapper
 :
 :
 hasOwn
@@ -1205,7 +1190,7 @@ bp
 ;
 }
 bool
-DirectWrapper
+Wrapper
 :
 :
 get
@@ -1250,7 +1235,7 @@ vp
 ;
 }
 bool
-DirectWrapper
+Wrapper
 :
 :
 set
@@ -1291,7 +1276,7 @@ vp
 ;
 }
 bool
-DirectWrapper
+Wrapper
 :
 :
 keys
@@ -1328,7 +1313,7 @@ props
 ;
 }
 bool
-DirectWrapper
+Wrapper
 :
 :
 iterate
@@ -1383,7 +1368,7 @@ vp
 ;
 }
 bool
-DirectWrapper
+Wrapper
 :
 :
 call
@@ -1431,7 +1416,7 @@ CALL
 ;
 }
 bool
-DirectWrapper
+Wrapper
 :
 :
 construct
@@ -1483,7 +1468,7 @@ CALL
 ;
 }
 bool
-DirectWrapper
+Wrapper
 :
 :
 nativeCall
@@ -1542,7 +1527,7 @@ CALL
 ;
 }
 bool
-DirectWrapper
+Wrapper
 :
 :
 hasInstance
@@ -1587,7 +1572,7 @@ bp
 }
 JSString
 *
-DirectWrapper
+Wrapper
 :
 :
 obj_toString
@@ -1658,7 +1643,7 @@ str
 }
 JSString
 *
-DirectWrapper
+Wrapper
 :
 :
 fun_toString
@@ -1761,8 +1746,8 @@ return
 str
 ;
 }
-DirectWrapper
-DirectWrapper
+Wrapper
+Wrapper
 :
 :
 singleton
@@ -1773,8 +1758,8 @@ unsigned
 0
 )
 ;
-DirectWrapper
-DirectWrapper
+Wrapper
+Wrapper
 :
 :
 singletonWithPrototype
@@ -2033,7 +2018,7 @@ bool
 hasPrototype
 )
 :
-DirectWrapper
+Wrapper
 (
 CROSS_COMPARTMENT
 |
@@ -2154,7 +2139,7 @@ cx
 &
 id
 )
-DirectWrapper
+Wrapper
 :
 :
 getPropertyDescriptor
@@ -2221,7 +2206,7 @@ cx
 &
 id
 )
-DirectWrapper
+Wrapper
 :
 :
 getOwnPropertyDescriptor
@@ -2303,7 +2288,7 @@ cx
 &
 desc2
 )
-DirectWrapper
+Wrapper
 :
 :
 defineProperty
@@ -2341,7 +2326,7 @@ cx
 wrapper
 GET
 NOTHING
-DirectWrapper
+Wrapper
 :
 :
 getOwnPropertyNames
@@ -2400,7 +2385,7 @@ cx
 &
 id
 )
-DirectWrapper
+Wrapper
 :
 :
 delete_
@@ -2437,7 +2422,7 @@ cx
 wrapper
 GET
 NOTHING
-DirectWrapper
+Wrapper
 :
 :
 enumerate
@@ -2496,7 +2481,7 @@ cx
 &
 id
 )
-DirectWrapper
+Wrapper
 :
 :
 has
@@ -2546,7 +2531,7 @@ cx
 &
 id
 )
-DirectWrapper
+Wrapper
 :
 :
 hasOwn
@@ -2640,7 +2625,7 @@ address
 (
 )
 )
-DirectWrapper
+Wrapper
 :
 :
 get
@@ -2770,7 +2755,7 @@ address
 (
 )
 )
-DirectWrapper
+Wrapper
 :
 :
 set
@@ -2813,7 +2798,7 @@ cx
 wrapper
 GET
 NOTHING
-DirectWrapper
+Wrapper
 :
 :
 keys
@@ -3264,7 +3249,7 @@ cx
 wrapper
 GET
 NOTHING
-DirectWrapper
+Wrapper
 :
 :
 iterate
@@ -3431,7 +3416,7 @@ false
 if
 (
 !
-DirectWrapper
+Wrapper
 :
 :
 call
@@ -3548,7 +3533,7 @@ false
 if
 (
 !
-DirectWrapper
+Wrapper
 :
 :
 construct
@@ -3870,7 +3855,7 @@ return
 false
 ;
 return
-DirectWrapper
+Wrapper
 :
 :
 hasInstance
@@ -3916,7 +3901,7 @@ wrapper
 ;
 str
 =
-DirectWrapper
+Wrapper
 :
 :
 obj_toString
@@ -3993,7 +3978,7 @@ wrapper
 ;
 str
 =
-DirectWrapper
+Wrapper
 :
 :
 fun_toString
@@ -4063,7 +4048,7 @@ wrapper
 )
 ;
 return
-DirectWrapper
+Wrapper
 :
 :
 regexp_toShared
@@ -4096,7 +4081,7 @@ vp
 if
 (
 !
-DirectWrapper
+Wrapper
 :
 :
 defaultValue
@@ -4464,7 +4449,7 @@ js
 :
 SecurityWrapper
 <
-DirectWrapper
+Wrapper
 >
 ;
 template
