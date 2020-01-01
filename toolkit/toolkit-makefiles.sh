@@ -2384,6 +2384,13 @@ uriloader
 exthandler
 /
 Makefile
+uriloader
+/
+exthandler
+/
+tests
+/
+Makefile
 "
 MAKEFILES_profile
 =
