@@ -181,7 +181,7 @@ nsGkAtoms
 :
 :
 menu
-nsnull
+nullptr
 getter_AddRefs
 (
 menu
@@ -222,7 +222,7 @@ nsGkAtoms
 :
 :
 menupopup
-nsnull
+nullptr
 getter_AddRefs
 (
 menuPopup
@@ -588,7 +588,7 @@ nsGkAtoms
 :
 :
 menuseparator
-nsnull
+nullptr
 getter_AddRefs
 (
 menuseparator
@@ -715,7 +715,7 @@ mFragment
 {
 mCurrentNode
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -881,7 +881,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -900,7 +900,7 @@ NodeInfoManager
 GetNodeInfo
 (
 aTag
-nsnull
+nullptr
 kNameSpaceID_XUL
 nsIDOMNode
 :

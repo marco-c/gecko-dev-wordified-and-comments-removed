@@ -84,11 +84,11 @@ aFaceName
 {
 mFTFace
 =
-nsnull
+nullptr
 ;
 mFontFace
 =
-nsnull
+nullptr
 ;
 mFTFontIndex
 =
@@ -164,7 +164,7 @@ PRUint8
 *
 aFontData
 =
-nsnull
+nullptr
 )
 ;
 virtual
@@ -418,7 +418,7 @@ FontNameCache
 *
 aCache
 =
-nsnull
+nullptr
 )
 ;
 void

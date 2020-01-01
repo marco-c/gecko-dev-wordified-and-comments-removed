@@ -99,7 +99,7 @@ nsWindowDataSource
 :
 kNC_Name
 =
-nsnull
+nullptr
 ;
 nsIRDFResource
 *
@@ -108,7 +108,7 @@ nsWindowDataSource
 :
 kNC_WindowRoot
 =
-nsnull
+nullptr
 ;
 nsIRDFResource
 *
@@ -117,7 +117,7 @@ nsWindowDataSource
 :
 kNC_KeyIndex
 =
-nsnull
+nullptr
 ;
 nsIRDFService
 *
@@ -126,7 +126,7 @@ nsWindowDataSource
 :
 gRDFService
 =
-nsnull
+nullptr
 ;
 PRUint32
 nsWindowDataSource
@@ -506,11 +506,11 @@ NS_XPCOM_SHUTDOWN_OBSERVER_ID
 {
 mContainer
 =
-nsnull
+nullptr
 ;
 mInner
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -1340,7 +1340,7 @@ windowResource
 get
 (
 )
-nsnull
+nullptr
 }
 ;
 mWindowResources

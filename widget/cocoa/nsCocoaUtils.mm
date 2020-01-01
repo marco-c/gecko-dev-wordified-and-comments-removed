@@ -1059,7 +1059,7 @@ ref
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -1099,7 +1099,7 @@ bug
 358607
 .
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -1139,7 +1139,7 @@ nsIXULWindow
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -1183,7 +1183,7 @@ nsIBaseWindow
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return

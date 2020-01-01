@@ -446,7 +446,7 @@ aForPrinting
 :
 mCGContext
 (
-nsnull
+nullptr
 )
 mSize
 (
@@ -608,7 +608,7 @@ surface
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -712,7 +712,7 @@ if
 surface
 )
 return
-nsnull
+nullptr
 ;
 nsRefPtr
 <

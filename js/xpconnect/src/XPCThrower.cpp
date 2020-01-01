@@ -63,7 +63,7 @@ nsXPCException
 NameAndFormatForNSResult
 (
 rv
-nsnull
+nullptr
 &
 format
 )
@@ -161,7 +161,7 @@ Get
 >
 SetPendingException
 (
-nsnull
+nullptr
 )
 ;
 nsresult
@@ -249,7 +249,7 @@ nsXPCException
 NameAndFormatForNSResult
 (
 rv
-nsnull
+nullptr
 &
 format
 )
@@ -353,7 +353,7 @@ nsXPCException
 NameAndFormatForNSResult
 (
 rv
-nsnull
+nullptr
 &
 format
 )
@@ -377,7 +377,7 @@ NameAndFormatForNSResult
 result
 &
 name
-nsnull
+nullptr
 )
 &
 &
@@ -484,7 +484,7 @@ nsXPCException
 NameAndFormatForNSResult
 (
 rv
-nsnull
+nullptr
 &
 format
 )
@@ -562,7 +562,7 @@ char
 *
 sz
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -742,8 +742,8 @@ NewException
 (
 sz
 rv
-nsnull
-nsnull
+nullptr
+nullptr
 getter_AddRefs
 (
 defaultException
@@ -789,7 +789,7 @@ if
 finalException
 =
 =
-nsnull
+nullptr
 )
 {
 finalException

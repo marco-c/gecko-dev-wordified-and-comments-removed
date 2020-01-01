@@ -137,7 +137,7 @@ PRLibrary
 *
 sATKLib
 =
-nsnull
+nullptr
 ;
 static
 const
@@ -1938,7 +1938,7 @@ gail_get_root
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -2816,7 +2816,7 @@ aOutAccessible
 *
 aOutAccessible
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3697,7 +3697,7 @@ DBusPendingCall
 *
 sPendingCall
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -3750,7 +3750,7 @@ bus
 dbus_bus_get
 (
 DBUS_BUS_SESSION
-nsnull
+nullptr
 )
 ;
 if
@@ -3955,7 +3955,7 @@ DBusMessage
 *
 reply
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3984,7 +3984,7 @@ sPendingCall
 ;
 sPendingCall
 =
-nsnull
+nullptr
 ;
 if
 (

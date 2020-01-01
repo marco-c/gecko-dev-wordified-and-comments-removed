@@ -609,7 +609,7 @@ IsAtom
 (
 )
 ?
-nsnull
+nullptr
 :
 NodeInfo
 (

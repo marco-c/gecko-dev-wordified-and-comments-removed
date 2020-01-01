@@ -86,7 +86,7 @@ mOwnSafeJSContext
 ;
 mOwnSafeJSContext
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -299,7 +299,7 @@ GetPrincipal
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -840,7 +840,7 @@ rv
 )
 glob
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -857,7 +857,7 @@ nsIScriptObjectPrincipal
 *
 priv
 =
-nsnull
+nullptr
 ;
 sop
 .
@@ -893,7 +893,7 @@ glob
 {
 glob
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -913,7 +913,7 @@ mSafeJSContext
 ;
 mSafeJSContext
 =
-nsnull
+nullptr
 ;
 }
 mOwnSafeJSContext
@@ -992,7 +992,7 @@ IsEmpty
 )
 mStack
 =
-nsnull
+nullptr
 ;
 else
 mPosition
@@ -1073,7 +1073,7 @@ mPosition
 )
 mStack
 =
-nsnull
+nullptr
 ;
 else
 -

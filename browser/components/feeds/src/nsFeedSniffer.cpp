@@ -328,7 +328,7 @@ get
 uncompressed
 "
 this
-nsnull
+nullptr
 getter_AddRefs
 (
 converter
@@ -347,7 +347,7 @@ converter
 OnStartRequest
 (
 request
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -399,7 +399,7 @@ converter
 OnDataAvailable
 (
 request
-nsnull
+nullptr
 rawStream
 0
 length
@@ -417,7 +417,7 @@ converter
 OnStopRequest
 (
 request
-nsnull
+nullptr
 NS_OK
 )
 ;
@@ -560,7 +560,7 @@ begin
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 static

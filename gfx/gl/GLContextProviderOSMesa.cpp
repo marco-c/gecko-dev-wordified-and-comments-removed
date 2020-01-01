@@ -204,7 +204,7 @@ false
 )
 mOSMesaLibrary
 (
-nsnull
+nullptr
 )
 {
 }
@@ -596,15 +596,15 @@ GLContext
 (
 aFormat
 true
-nsnull
+nullptr
 )
 mThebesSurface
 (
-nsnull
+nullptr
 )
 mContext
 (
-nsnull
+nullptr
 )
 {
 }
@@ -1003,7 +1003,7 @@ get
 default
 :
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -1044,7 +1044,7 @@ aWidget
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 already_AddRefed
@@ -1079,7 +1079,7 @@ EnsureInitialized
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 ContextFormat
@@ -1119,7 +1119,7 @@ aSize
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -1142,7 +1142,7 @@ ContextFlags
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 void

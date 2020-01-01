@@ -238,7 +238,7 @@ GetTarget
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 private

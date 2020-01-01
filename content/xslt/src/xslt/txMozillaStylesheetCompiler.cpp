@@ -454,7 +454,7 @@ GetTarget
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 private
@@ -994,7 +994,7 @@ mCompiler
 cancel
 (
 NS_ERROR_XSLT_WRONG_MIME_TYPE
-nsnull
+nullptr
 spec
 .
 get
@@ -1435,7 +1435,7 @@ mCompiler
 cancel
 (
 result
-nsnull
+nullptr
 spec
 .
 get
@@ -1459,7 +1459,7 @@ aStatusCode
 ;
 mListener
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -1502,7 +1502,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -1539,7 +1539,7 @@ wwatcher
 >
 GetNewAuthPrompter
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 prompt
@@ -1556,7 +1556,7 @@ nsIAuthPrompt
 *
 rawPtr
 =
-nsnull
+nullptr
 ;
 prompt
 .
@@ -1796,7 +1796,7 @@ nsIContentPolicy
 TYPE_STYLESHEET
 uri
 referrerPrincipal
-nsnull
+nullptr
 NS_LITERAL_CSTRING
 (
 "
@@ -1805,7 +1805,7 @@ application
 xml
 "
 )
-nsnull
+nullptr
 &
 shouldLoad
 )
@@ -2224,7 +2224,7 @@ application
 xml
 "
 )
-nsnull
+nullptr
 &
 shouldLoad
 )
@@ -2517,7 +2517,7 @@ rv
 ;
 atts
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -2861,7 +2861,7 @@ nsIContentPolicy
 TYPE_STYLESHEET
 uri
 referrerPrincipal
-nsnull
+nullptr
 NS_LITERAL_CSTRING
 (
 "
@@ -2870,7 +2870,7 @@ application
 xml
 "
 )
-nsnull
+nullptr
 &
 shouldLoad
 )
@@ -2929,7 +2929,7 @@ OwnerDoc
 (
 )
 :
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -2947,7 +2947,7 @@ LoadDocument
 (
 uri
 referrerPrincipal
-nsnull
+nullptr
 false
 getter_AddRefs
 (
@@ -3005,7 +3005,7 @@ aCompiler
 cancel
 (
 rv
-nsnull
+nullptr
 NS_ConvertUTF8toUTF16
 (
 spec

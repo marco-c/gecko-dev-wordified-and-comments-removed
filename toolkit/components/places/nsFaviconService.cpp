@@ -273,7 +273,7 @@ this
 )
 gFaviconService
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -3684,7 +3684,7 @@ char
 data
 )
 dataLen
-nsnull
+nullptr
 )
 ;
 nsMemory
@@ -5079,9 +5079,9 @@ observerService
 >
 NotifyObservers
 (
-nsnull
+nullptr
 NS_PLACES_FAVICONS_EXPIRED_TOPIC_ID
-nsnull
+nullptr
 )
 ;
 }

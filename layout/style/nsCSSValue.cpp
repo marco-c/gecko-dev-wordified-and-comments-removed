@@ -7594,7 +7594,7 @@ Clone
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 void
@@ -9582,7 +9582,7 @@ GetBufferValue
 mString
 )
 )
-nsnull
+nullptr
 mURI
 )
 ;
@@ -9714,7 +9714,7 @@ aURI
 aDocument
 aOriginPrincipal
 aReferrer
-nsnull
+nullptr
 nsIRequest
 :
 :

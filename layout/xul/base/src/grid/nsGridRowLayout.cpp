@@ -178,7 +178,7 @@ aParentBox
 *
 aParentBox
 =
-nsnull
+nullptr
 ;
 aBox
 =
@@ -245,7 +245,7 @@ parentGridRow
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsGrid
@@ -271,7 +271,7 @@ if
 aRequestor
 =
 =
-nsnull
+nullptr
 )
 {
 nsIBox
@@ -305,7 +305,7 @@ this
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 PRInt32
@@ -432,7 +432,7 @@ aIndex
 1
 ;
 return
-nsnull
+nullptr
 ;
 }
 (
@@ -474,7 +474,7 @@ this
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsMargin
@@ -503,7 +503,7 @@ nsIBox
 *
 parent
 =
-nsnull
+nullptr
 ;
 nsIGridPart
 *
@@ -578,7 +578,7 @@ aBox
 next
 =
 =
-nsnull
+nullptr
 )
 {
 if
@@ -612,7 +612,7 @@ if
 next
 !
 =
-nsnull
+nullptr
 )
 {
 if

@@ -69,7 +69,7 @@ nsGBKUnique2BytesToUnicode
 nsTableDecoderSupport
 (
 u2BytesCharset
-nsnull
+nullptr
 (
 uMappingTable
 *
@@ -130,7 +130,7 @@ nsGB18030Unique2BytesToUnicode
 nsTableDecoderSupport
 (
 u2BytesCharset
-nsnull
+nullptr
 (
 uMappingTable
 *
@@ -191,7 +191,7 @@ nsGB18030Unique4BytesToUnicode
 nsTableDecoderSupport
 (
 u4BytesGB18030Charset
-nsnull
+nullptr
 (
 uMappingTable
 *
@@ -819,7 +819,7 @@ Create4BytesDecoder
 {
 m4BytesDecoder
 =
-nsnull
+nullptr
 ;
 }
 void

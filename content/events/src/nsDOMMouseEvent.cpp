@@ -69,7 +69,7 @@ nsMouseEvent
 (
 false
 0
-nsnull
+nullptr
 nsMouseEvent
 :
 :
@@ -251,7 +251,7 @@ break
 }
 mEvent
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1129,13 +1129,13 @@ aRelatedTarget
 *
 aRelatedTarget
 =
-nsnull
+nullptr
 ;
 nsISupports
 *
 relatedTarget
 =
-nsnull
+nullptr
 ;
 switch
 (

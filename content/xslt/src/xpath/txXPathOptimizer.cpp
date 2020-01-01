@@ -145,7 +145,7 @@ context
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 txResultRecycler
@@ -198,7 +198,7 @@ txXPathNode
 *
 >
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -272,7 +272,7 @@ aOutExpr
 *
 aOutExpr
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -423,7 +423,7 @@ Expr
 *
 newExpr
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -564,7 +564,7 @@ txNameTest
 *
 nameTest
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1115,7 +1115,7 @@ path
 setSubExprAt
 (
 1
-nsnull
+nullptr
 )
 ;
 return
@@ -1256,7 +1256,7 @@ txUnionNodeTest
 *
 unionTest
 =
-nsnull
+nullptr
 ;
 PRUint32
 i
@@ -1429,7 +1429,7 @@ step
 >
 setNodeTest
 (
-nsnull
+nullptr
 )
 ;
 uni
@@ -1472,7 +1472,7 @@ uni
 setSubExprAt
 (
 0
-nsnull
+nullptr
 )
 ;
 *

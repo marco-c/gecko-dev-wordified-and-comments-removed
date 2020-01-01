@@ -1992,7 +1992,7 @@ Init
 (
 segmentSize
 maxSize
-nsnull
+nullptr
 )
 ;
 if

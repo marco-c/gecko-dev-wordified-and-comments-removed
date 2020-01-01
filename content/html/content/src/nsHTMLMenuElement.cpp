@@ -328,7 +328,7 @@ this
 presContext
 &
 event
-nsnull
+nullptr
 &
 status
 )
@@ -363,7 +363,7 @@ NS_ERROR_DOM_SECURITY_ERR
 *
 _retval
 =
-nsnull
+nullptr
 ;
 if
 (

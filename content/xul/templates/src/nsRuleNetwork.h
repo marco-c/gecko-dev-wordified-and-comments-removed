@@ -314,7 +314,7 @@ MemoryElementSet
 :
 mElements
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -670,7 +670,7 @@ const
 return
 ConstIterator
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -987,7 +987,7 @@ nsAssignmentSet
 :
 mAssignments
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -1343,7 +1343,7 @@ const
 return
 ConstIterator
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -1430,7 +1430,7 @@ return
 mAssignments
 =
 =
-nsnull
+nullptr
 ;
 }
 bool

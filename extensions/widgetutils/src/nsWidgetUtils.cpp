@@ -1043,7 +1043,7 @@ nsWidgetUtils
 :
 :
 StopPanningCallback
-nsnull
+nullptr
 500
 nsITimer
 :
@@ -1899,7 +1899,7 @@ nsIDOMEventTarget
 *
 chromeEventHandler
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2331,7 +2331,7 @@ char
 *
 previous
 =
-nsnull
+nullptr
 ;
 rv
 =

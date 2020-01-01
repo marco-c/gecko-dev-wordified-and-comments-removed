@@ -601,7 +601,7 @@ wrapper
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 inline

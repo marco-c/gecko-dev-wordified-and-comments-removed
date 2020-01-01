@@ -212,7 +212,7 @@ nsAutoPushCurrentTableItem
 :
 mBuilder
 (
-nsnull
+nullptr
 )
 {
 }
@@ -1004,7 +1004,7 @@ nsCellMap
 *
 aCellMap
 =
-nsnull
+nullptr
 )
 ;
 virtual
@@ -1019,7 +1019,7 @@ nsCellMap
 *
 aCellMap
 =
-nsnull
+nullptr
 )
 const
 ;
@@ -1581,13 +1581,13 @@ nsTableRowGroupFrame
 *
 aHead
 =
-nsnull
+nullptr
 nsTableRowGroupFrame
 *
 *
 aFoot
 =
-nsnull
+nullptr
 )
 const
 ;

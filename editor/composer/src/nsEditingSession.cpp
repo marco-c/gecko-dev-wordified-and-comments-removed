@@ -1749,8 +1749,8 @@ editor
 Init
 (
 domDoc
-nsnull
-nsnull
+nullptr
+nullptr
 mEditorFlags
 )
 ;
@@ -2018,7 +2018,7 @@ Cancel
 ;
 mLoadBlankDocTimer
 =
-nsnull
+nullptr
 ;
 }
 mDoneSetup
@@ -2146,7 +2146,7 @@ editor
 SetEditorOnControllers
 (
 aWindow
-nsnull
+nullptr
 )
 ;
 }
@@ -2155,7 +2155,7 @@ editorDocShell
 >
 SetEditor
 (
-nsnull
+nullptr
 )
 ;
 RemoveListenersAndControllers
@@ -3859,9 +3859,9 @@ get
 (
 )
 0
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 }
@@ -4177,7 +4177,7 @@ aWindow
 NS_ENSURE_TRUE
 (
 window
-nsnull
+nullptr
 )
 ;
 return
@@ -4924,7 +4924,7 @@ Cancel
 ;
 mLoadBlankDocTimer
 =
-nsnull
+nullptr
 ;
 }
 RemoveEditorControllers
@@ -4949,7 +4949,7 @@ aWindow
 ;
 mDocShell
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

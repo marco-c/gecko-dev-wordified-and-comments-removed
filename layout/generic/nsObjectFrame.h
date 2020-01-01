@@ -557,7 +557,7 @@ mInnerView
 ?
 mWidget
 :
-nsnull
+nullptr
 ;
 }
 void
@@ -623,7 +623,7 @@ PRInt32
 *
 aTabIndex
 =
-nsnull
+nullptr
 bool
 aWithMouse
 =

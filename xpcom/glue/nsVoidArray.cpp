@@ -788,7 +788,7 @@ else
 {
 mImpl
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1267,7 +1267,7 @@ nsVoidArray
 :
 mImpl
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -1317,7 +1317,7 @@ aCount
 :
 mImpl
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -3620,7 +3620,7 @@ HasSingle
 {
 mImpl
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -4301,7 +4301,7 @@ GetSingle
 {
 mImpl
 =
-nsnull
+nullptr
 ;
 return
 true
@@ -4350,7 +4350,7 @@ aIndex
 {
 mImpl
 =
-nsnull
+nullptr
 ;
 return
 true
@@ -4408,7 +4408,7 @@ aCount
 {
 mImpl
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -4449,7 +4449,7 @@ HasSingle
 {
 mImpl
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -4505,7 +4505,7 @@ aMin
 {
 mImpl
 =
-nsnull
+nullptr
 ;
 return
 true
@@ -4533,7 +4533,7 @@ GetSingle
 ;
 mImpl
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4755,7 +4755,7 @@ GetSingle
 ;
 mImpl
 =
-nsnull
+nullptr
 ;
 if
 (

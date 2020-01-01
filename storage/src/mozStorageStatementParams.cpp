@@ -59,7 +59,7 @@ NS_ASSERTION
 mStatement
 !
 =
-nsnull
+nullptr
 "
 mStatement
 is
@@ -615,8 +615,8 @@ aCtx
 aScopeObj
 idx
 JSVAL_VOID
-nsnull
-nsnull
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 ;
@@ -706,8 +706,8 @@ aCtx
 aScopeObj
 aId
 JSVAL_VOID
-nsnull
-nsnull
+nullptr
+nullptr
 JSPROP_ENUMERATE
 )
 ;
@@ -732,7 +732,7 @@ ok
 ?
 aScopeObj
 :
-nsnull
+nullptr
 ;
 return
 NS_OK

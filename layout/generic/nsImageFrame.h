@@ -629,7 +629,7 @@ usemap
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 bool

@@ -986,11 +986,11 @@ nsScannerSharedSubstring
 :
 mBuffer
 (
-nsnull
+nullptr
 )
 mBufferList
 (
-nsnull
+nullptr
 )
 {
 }

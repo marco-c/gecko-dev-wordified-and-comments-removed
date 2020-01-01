@@ -47,7 +47,7 @@ gfxOS2Platform
 :
 sFontconfigUtils
 =
-nsnull
+nullptr
 ;
 gfxOS2Platform
 :
@@ -151,7 +151,7 @@ Shutdown
 ;
 sFontconfigUtils
 =
-nsnull
+nullptr
 ;
 cairo_os2_fini
 (
@@ -233,7 +233,7 @@ gfxASurface
 *
 newSurface
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -296,7 +296,7 @@ contentType
 else
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_IF_ADDREF
@@ -651,7 +651,7 @@ aCh
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsTArray
@@ -863,6 +863,6 @@ aCh
 )
 ;
 return
-nsnull
+nullptr
 ;
 }

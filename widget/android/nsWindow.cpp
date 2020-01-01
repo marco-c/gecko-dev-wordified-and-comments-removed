@@ -506,7 +506,7 @@ created
 }
 gContentCreationNotifier
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -567,7 +567,7 @@ void
 *
 sNativeWindow
 =
-nsnull
+nullptr
 ;
 static
 const
@@ -612,7 +612,7 @@ gTopLevelWindows
 ]
 ;
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -828,11 +828,11 @@ false
 )
 mParent
 (
-nsnull
+nullptr
 )
 mFocus
 (
-nsnull
+nullptr
 )
 mIMEComposing
 (
@@ -878,7 +878,7 @@ top
 >
 mFocus
 =
-nsnull
+nullptr
 ;
 ALOG
 (
@@ -1030,7 +1030,7 @@ Bridge
 {
 aNativeParent
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -1138,7 +1138,7 @@ height
 }
 BaseCreate
 (
-nsnull
+nullptr
 mBounds
 aHandleEventFunction
 aContext
@@ -1294,7 +1294,7 @@ mChildren
 >
 SetParent
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -1313,7 +1313,7 @@ this
 ;
 SetParent
 (
-nsnull
+nullptr
 )
 ;
 nsBaseWidget
@@ -2594,7 +2594,7 @@ nsWindow
 *
 oldTop
 =
-nsnull
+nullptr
 ;
 nsWindow
 *
@@ -3248,7 +3248,7 @@ mLayerManager
 {
 sGLContext
 =
-nsnull
+nullptr
 ;
 sFailedToCreateGLContext
 =
@@ -4317,7 +4317,7 @@ sNativeWindow
 ;
 sNativeWindow
 =
-nsnull
+nullptr
 ;
 }
 sSurfaceExists
@@ -4674,7 +4674,7 @@ switch
 (
 GetLayerManager
 (
-nsnull
+nullptr
 )
 -
 >
@@ -4786,7 +4786,7 @@ LayerManagerOGL
 (
 GetLayerManager
 (
-nsnull
+nullptr
 )
 )
 -
@@ -5364,7 +5364,7 @@ if
 (
 GetLayerManager
 (
-nsnull
+nullptr
 )
 -
 >
@@ -5679,7 +5679,7 @@ if
 buf
 =
 =
-nsnull
+nullptr
 )
 {
 ALOG
@@ -6095,7 +6095,7 @@ context
 ;
 DrawTo
 (
-nsnull
+nullptr
 )
 ;
 sview
@@ -6367,7 +6367,7 @@ this
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -7402,7 +7402,7 @@ mStartDist
 ;
 mStartPoint
 =
-nsnull
+nullptr
 ;
 break
 ;
@@ -7461,7 +7461,7 @@ mSwipeMaxPinchDelta
 )
 mStartPoint
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -9809,7 +9809,7 @@ this
 InitEvent
 (
 event
-nsnull
+nullptr
 )
 ;
 event
@@ -9882,7 +9882,7 @@ this
 InitEvent
 (
 event
-nsnull
+nullptr
 )
 ;
 DispatchEvent
@@ -9962,7 +9962,7 @@ this
 InitEvent
 (
 event
-nsnull
+nullptr
 )
 ;
 event
@@ -10023,7 +10023,7 @@ this
 InitEvent
 (
 compositionUpdate
-nsnull
+nullptr
 )
 ;
 compositionUpdate
@@ -10182,7 +10182,7 @@ this
 InitEvent
 (
 event
-nsnull
+nullptr
 )
 ;
 event
@@ -10238,7 +10238,7 @@ Bridge
 >
 ReturnIMEQueryResult
 (
-nsnull
+nullptr
 0
 0
 0
@@ -10406,7 +10406,7 @@ this
 InitEvent
 (
 selEvent
-nsnull
+nullptr
 )
 ;
 selEvent
@@ -10518,7 +10518,7 @@ this
 InitEvent
 (
 event
-nsnull
+nullptr
 )
 ;
 DispatchEvent
@@ -10556,7 +10556,7 @@ Bridge
 >
 ReturnIMEQueryResult
 (
-nsnull
+nullptr
 0
 0
 0
@@ -10650,7 +10650,7 @@ pt
 )
 )
 return
-nsnull
+nullptr
 ;
 nsIntPoint
 childPoint
@@ -10803,7 +10803,7 @@ this
 InitEvent
 (
 textEvent
-nsnull
+nullptr
 )
 ;
 textEvent
@@ -10836,7 +10836,7 @@ this
 InitEvent
 (
 event
-nsnull
+nullptr
 )
 ;
 DispatchEvent
@@ -11135,7 +11135,7 @@ this
 InitEvent
 (
 textEvent
-nsnull
+nullptr
 )
 ;
 DispatchEvent
@@ -11162,7 +11162,7 @@ this
 InitEvent
 (
 compEvent
-nsnull
+nullptr
 )
 ;
 DispatchEvent
@@ -11303,7 +11303,7 @@ AndroidBridge
 :
 NotifyIMEChange
 (
-nsnull
+nullptr
 0
 0
 0
@@ -11334,7 +11334,7 @@ this
 InitEvent
 (
 event
-nsnull
+nullptr
 )
 ;
 event
@@ -11426,7 +11426,7 @@ AndroidBridge
 :
 NotifyIMEChange
 (
-nsnull
+nullptr
 0
 0
 0
@@ -11458,7 +11458,7 @@ this
 InitEvent
 (
 event
-nsnull
+nullptr
 )
 ;
 DispatchEvent
@@ -11482,7 +11482,7 @@ AndroidBridge
 :
 NotifyIMEChange
 (
-nsnull
+nullptr
 0
 int
 (

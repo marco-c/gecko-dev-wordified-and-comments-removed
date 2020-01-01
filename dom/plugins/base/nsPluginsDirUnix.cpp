@@ -669,7 +669,7 @@ res
 prefs
 !
 =
-nsnull
+nullptr
 )
 )
 {
@@ -1573,13 +1573,13 @@ outLibrary
 *
 outLibrary
 =
-nsnull
+nullptr
 ;
 info
 .
 fVersion
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -1924,7 +1924,7 @@ info
 fName
 !
 =
-nsnull
+nullptr
 )
 PL_strfree
 (
@@ -1940,7 +1940,7 @@ info
 fDescription
 !
 =
-nsnull
+nullptr
 )
 PL_strfree
 (
@@ -1977,7 +1977,7 @@ i
 ]
 !
 =
-nsnull
+nullptr
 )
 PL_strfree
 (
@@ -1999,7 +1999,7 @@ i
 ]
 !
 =
-nsnull
+nullptr
 )
 PL_strfree
 (
@@ -2021,7 +2021,7 @@ i
 ]
 !
 =
-nsnull
+nullptr
 )
 PL_strfree
 (
@@ -2062,7 +2062,7 @@ info
 fFullPath
 !
 =
-nsnull
+nullptr
 )
 PL_strfree
 (
@@ -2078,7 +2078,7 @@ info
 fFileName
 !
 =
-nsnull
+nullptr
 )
 PL_strfree
 (
@@ -2094,7 +2094,7 @@ info
 fVersion
 !
 =
-nsnull
+nullptr
 )
 PL_strfree
 (

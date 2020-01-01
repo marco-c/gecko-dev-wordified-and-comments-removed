@@ -360,7 +360,7 @@ JSPROP_PERMANENT
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -407,7 +407,7 @@ wrapper
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 js
@@ -421,7 +421,7 @@ stopAtOuter
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 }

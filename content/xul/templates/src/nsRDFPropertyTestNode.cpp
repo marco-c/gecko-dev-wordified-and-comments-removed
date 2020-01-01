@@ -79,7 +79,7 @@ aSourceVariable
 )
 mSource
 (
-nsnull
+nullptr
 )
 mProperty
 (
@@ -91,7 +91,7 @@ aTargetVariable
 )
 mTarget
 (
-nsnull
+nullptr
 )
 {
 #
@@ -283,7 +283,7 @@ aTargetVariable
 )
 mTarget
 (
-nsnull
+nullptr
 )
 {
 #
@@ -455,7 +455,7 @@ aSourceVariable
 )
 mSource
 (
-nsnull
+nullptr
 )
 mProperty
 (
@@ -1167,7 +1167,7 @@ NS_ASSERTION
 value
 !
 =
-nsnull
+nullptr
 "
 target
 is
@@ -1276,7 +1276,7 @@ NS_ASSERTION
 source
 !
 =
-nsnull
+nullptr
 "
 source
 is

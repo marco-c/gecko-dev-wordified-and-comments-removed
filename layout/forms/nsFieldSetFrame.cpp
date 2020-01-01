@@ -471,11 +471,11 @@ aContext
 {
 mContentFrame
 =
-nsnull
+nullptr
 ;
 mLegendFrame
 =
-nsnull
+nullptr
 ;
 mLegendSpace
 =
@@ -593,7 +593,7 @@ FirstChild
 ;
 mLegendFrame
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -1612,14 +1612,14 @@ reflowContent
 mContentFrame
 !
 =
-nsnull
+nullptr
 ;
 reflowLegend
 =
 mLegendFrame
 !
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -2643,7 +2643,7 @@ mLegendFrame
 {
 aPrevFrame
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -2745,7 +2745,7 @@ PresShell
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 #

@@ -3381,7 +3381,7 @@ mValueArray
 *
 aResult
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -3469,7 +3469,7 @@ if
 enumer
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY

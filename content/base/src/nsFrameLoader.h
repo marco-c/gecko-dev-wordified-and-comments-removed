@@ -615,7 +615,7 @@ GetPrimaryFrame
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 nsIDocument
@@ -635,7 +635,7 @@ OwnerDoc
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 PBrowserParent

@@ -243,7 +243,7 @@ PRLogModuleInfo
 *
 gLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -480,7 +480,7 @@ MatchEntry
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
 PL_DHashFinalizeStub
-nsnull
+nullptr
 }
 ;
 struct
@@ -603,7 +603,7 @@ MatchEntry
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
 PL_DHashFinalizeStub
-nsnull
+nullptr
 }
 ;
 struct
@@ -719,7 +719,7 @@ MatchEntry
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
 PL_DHashFinalizeStub
-nsnull
+nullptr
 }
 ;
 struct
@@ -885,7 +885,7 @@ MatchEntry
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
 PL_DHashFinalizeStub
-nsnull
+nullptr
 }
 ;
 class
@@ -1344,7 +1344,7 @@ MatchEntry
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
 PL_DHashFinalizeStub
-nsnull
+nullptr
 }
 ;
 class
@@ -1696,7 +1696,7 @@ NS_ERROR_NULL_POINTER
 *
 result
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2072,7 +2072,7 @@ NS_ERROR_NULL_POINTER
 *
 result
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2456,7 +2456,7 @@ NS_ERROR_NULL_POINTER
 *
 result
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2710,38 +2710,38 @@ RDFServiceImpl
 :
 mNamedDataSources
 (
-nsnull
+nullptr
 )
 {
 mResources
 .
 ops
 =
-nsnull
+nullptr
 ;
 mLiterals
 .
 ops
 =
-nsnull
+nullptr
 ;
 mInts
 .
 ops
 =
-nsnull
+nullptr
 ;
 mDates
 .
 ops
 =
-nsnull
+nullptr
 ;
 mBlobs
 .
 ops
 =
-nsnull
+nullptr
 ;
 gRDFService
 =
@@ -2769,7 +2769,7 @@ PL_CompareStrings
 PL_CompareValues
 &
 dataSourceHashAllocOps
-nsnull
+nullptr
 )
 ;
 if
@@ -2789,7 +2789,7 @@ PL_DHashTableInit
 mResources
 &
 gResourceTableOps
-nsnull
+nullptr
 sizeof
 (
 ResourceHashEntry
@@ -2802,7 +2802,7 @@ mResources
 .
 ops
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -2817,7 +2817,7 @@ PL_DHashTableInit
 mLiterals
 &
 gLiteralTableOps
-nsnull
+nullptr
 sizeof
 (
 LiteralHashEntry
@@ -2830,7 +2830,7 @@ mLiterals
 .
 ops
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -2845,7 +2845,7 @@ PL_DHashTableInit
 mInts
 &
 gIntTableOps
-nsnull
+nullptr
 sizeof
 (
 IntHashEntry
@@ -2858,7 +2858,7 @@ mInts
 .
 ops
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -2873,7 +2873,7 @@ PL_DHashTableInit
 mDates
 &
 gDateTableOps
-nsnull
+nullptr
 sizeof
 (
 DateHashEntry
@@ -2886,7 +2886,7 @@ mDates
 .
 ops
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -2901,7 +2901,7 @@ PL_DHashTableInit
 mBlobs
 &
 gBlobTableOps
-nsnull
+nullptr
 sizeof
 (
 BlobHashEntry
@@ -2914,7 +2914,7 @@ mBlobs
 .
 ops
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -2998,7 +2998,7 @@ mNamedDataSources
 ;
 mNamedDataSources
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -3063,7 +3063,7 @@ mBlobs
 ;
 gRDFService
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -3283,7 +3283,7 @@ NS_PRECONDITION
 aResource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -3613,7 +3613,7 @@ factory
 >
 CreateInstance
 (
-nsnull
+nullptr
 NS_GET_IID
 (
 nsIRDFResource
@@ -3935,7 +3935,7 @@ NS_PRECONDITION
 aValue
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -3955,7 +3955,7 @@ NS_PRECONDITION
 aLiteral
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -4350,7 +4350,7 @@ NS_PRECONDITION
 aResource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -4509,7 +4509,7 @@ NS_PRECONDITION
 aResource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -4574,7 +4574,7 @@ NS_ASSERTION
 uri
 !
 =
-nsnull
+nullptr
 "
 resource
 has
@@ -4775,7 +4775,7 @@ NS_PRECONDITION
 aResource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -4824,7 +4824,7 @@ NS_ASSERTION
 uri
 !
 =
-nsnull
+nullptr
 "
 resource
 has
@@ -4926,7 +4926,7 @@ NS_PRECONDITION
 aDataSource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -5132,7 +5132,7 @@ NS_PRECONDITION
 aDataSource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -5340,7 +5340,7 @@ NS_PRECONDITION
 aURI
 !
 =
-nsnull
+nullptr
 "
 null
 ptr

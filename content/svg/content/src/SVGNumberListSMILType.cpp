@@ -140,7 +140,7 @@ mU
 .
 mPtr
 =
-nsnull
+nullptr
 ;
 aValue
 .

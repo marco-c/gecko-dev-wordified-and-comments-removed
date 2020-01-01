@@ -61,6 +61,13 @@ h
 #
 include
 "
+nsEventShell
+.
+h
+"
+#
+include
+"
 nsTextEquivUtils
 .
 h
@@ -409,7 +416,7 @@ mLoadEventType
 )
 mVirtualCursor
 (
-nsnull
+nullptr
 )
 mPresShell
 (
@@ -420,6 +427,14 @@ mFlags
 |
 =
 eDocAccessible
+;
+mPresShell
+-
+>
+SetAccDocument
+(
+this
+)
 ;
 mDependentIDsHash
 .
@@ -1468,7 +1483,7 @@ mDocument
 GetWindow
 (
 )
-nsnull
+nullptr
 nsIFocusManager
 :
 :
@@ -1851,7 +1866,7 @@ aDOMWin
 *
 aDOMWin
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1912,7 +1927,7 @@ aDOMDocument
 *
 aDOMDocument
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1948,7 +1963,7 @@ aDocument
 *
 aDocument
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2032,7 +2047,7 @@ aDocument
 *
 aDocument
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2083,7 +2098,7 @@ aVirtualCursor
 *
 aVirtualCursor
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2169,7 +2184,7 @@ NODE_IS_EDITABLE
 )
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -2202,7 +2217,7 @@ if
 editingSession
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -2233,7 +2248,7 @@ if
 editor
 )
 return
-nsnull
+nullptr
 ;
 bool
 isEditable
@@ -2261,7 +2276,7 @@ forget
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 Accessible
@@ -2304,7 +2319,7 @@ GetNode
 aNode
 )
 return
-nsnull
+nullptr
 ;
 accessible
 =
@@ -2480,6 +2495,14 @@ this
 ;
 #
 endif
+mPresShell
+-
+>
+SetAccDocument
+(
+nullptr
+)
+;
 if
 (
 mNotificationController
@@ -2494,7 +2517,7 @@ Shutdown
 ;
 mNotificationController
 =
-nsnull
+nullptr
 ;
 }
 RemoveEventListeners
@@ -2516,7 +2539,7 @@ mDocument
 ;
 mDocument
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2613,12 +2636,12 @@ this
 ;
 mVirtualCursor
 =
-nsnull
+nullptr
 ;
 }
 mPresShell
 =
-nsnull
+nullptr
 ;
 mDependentIDsHash
 .
@@ -2669,7 +2692,7 @@ nsIFrame
 *
 root
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2720,7 +2743,7 @@ nsIDocument
 *
 parentDoc
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -3174,7 +3197,7 @@ Cancel
 ;
 mScrollWatchTimer
 =
-nsnull
+nullptr
 ;
 NS_RELEASE_THIS
 (
@@ -3317,7 +3340,7 @@ docAcc
 >
 mScrollWatchTimer
 =
-nsnull
+nullptr
 ;
 NS_RELEASE
 (
@@ -3749,7 +3772,7 @@ aElement
 aAttribute
 )
 :
-nsnull
+nullptr
 ;
 }
 }
@@ -5142,7 +5165,7 @@ if
 mPresShell
 )
 return
-nsnull
+nullptr
 ;
 nsIViewManager
 *
@@ -5161,7 +5184,7 @@ if
 vm
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -5194,7 +5217,7 @@ NS_NATIVE_WINDOW
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 Accessible
@@ -5280,7 +5303,7 @@ child
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 Accessible
@@ -5310,7 +5333,7 @@ IsInDoc
 )
 )
 return
-nsnull
+nullptr
 ;
 nsINode
 *
@@ -5322,7 +5345,7 @@ Accessible
 *
 accessible
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -5521,7 +5544,7 @@ FocusMgr
 >
 ActiveItemChanged
 (
-nsnull
+nullptr
 )
 ;
 A11YDEBUG_FOCUS_ACTIVEITEMCHANGE_CAUSE
@@ -5868,7 +5891,7 @@ Accessible
 *
 child
 =
-nsnull
+nullptr
 ;
 while
 (

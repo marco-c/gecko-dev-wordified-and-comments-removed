@@ -69,7 +69,7 @@ mValidityBitField
 )
 mValidity
 (
-nsnull
+nullptr
 )
 mBarredFromConstraintValidation
 (

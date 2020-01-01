@@ -1435,7 +1435,7 @@ event
 (
 true
 NS_FORM_SELECTED
-nsnull
+nullptr
 )
 ;
 nsEventDispatcher
@@ -1454,7 +1454,7 @@ this
 presContext
 &
 event
-nsnull
+nullptr
 &
 status
 )
@@ -1917,7 +1917,7 @@ mState
 CreatePlaceholderNode
 (
 )
-nsnull
+nullptr
 )
 ;
 return
@@ -3616,8 +3616,8 @@ textControlFrame
 >
 GetSelectionRange
 (
-nsnull
-nsnull
+nullptr
+nullptr
 &
 dir
 )
@@ -4050,7 +4050,7 @@ nsPresState
 *
 state
 =
-nsnull
+nullptr
 ;
 if
 (

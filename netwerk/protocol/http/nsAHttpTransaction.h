@@ -258,7 +258,7 @@ QueryPipeline
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual

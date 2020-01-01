@@ -49,7 +49,7 @@ nsLineBreaker
 :
 mCurrentWordLangGroup
 (
-nsnull
+nullptr
 )
 mCurrentWordContainsMixedLang
 (
@@ -801,7 +801,7 @@ false
 ;
 mCurrentWordLangGroup
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

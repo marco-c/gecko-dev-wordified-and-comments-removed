@@ -173,7 +173,7 @@ nsStandaloneNativeMenu
 :
 mMenu
 (
-nsnull
+nullptr
 )
 {
 }
@@ -209,7 +209,7 @@ NS_ASSERTION
 mMenu
 =
 =
-nsnull
+nullptr
 "
 nsNativeMenu
 :
@@ -341,7 +341,7 @@ mMenu
 ;
 mMenu
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -456,7 +456,7 @@ NS_ASSERTION
 mMenu
 !
 =
-nsnull
+nullptr
 "
 nsStandaloneNativeMenu
 :
@@ -557,7 +557,7 @@ else
 *
 aVoidPointer
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_NOT_INITIALIZED

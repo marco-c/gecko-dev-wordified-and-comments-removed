@@ -227,14 +227,14 @@ hashEntry
 >
 key
 =
-nsnull
+nullptr
 ;
 hashEntry
 -
 >
 value
 =
-nsnull
+nullptr
 ;
 }
 static
@@ -250,7 +250,7 @@ matchKeyEntry
 PL_DHashMoveEntryStub
 clearHashEntry
 PL_DHashFinalizeStub
-nsnull
+nullptr
 }
 ;
 struct
@@ -405,7 +405,7 @@ PL_DHashTableInit
 mHashtable
 &
 hashtableOps
-nsnull
+nullptr
 sizeof
 (
 HTEntry
@@ -433,7 +433,7 @@ mHashtable
 .
 ops
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -603,7 +603,7 @@ mHashtable
 ops
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -723,7 +723,7 @@ mHashtable
 ops
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -767,7 +767,7 @@ entry
 >
 value
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -802,7 +802,7 @@ mHashtable
 ops
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -852,7 +852,7 @@ entry
 {
 res
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -961,7 +961,7 @@ mHashtable
 ops
 )
 return
-nsnull
+nullptr
 ;
 bool
 threadSafe
@@ -970,7 +970,7 @@ threadSafe
 mLock
 !
 =
-nsnull
+nullptr
 )
 ;
 nsHashtable
@@ -1180,7 +1180,7 @@ destroyFunc
 {
 thunkp
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -1231,7 +1231,7 @@ aRetVal
 :
 mLock
 (
-nsnull
+nullptr
 )
 mEnumerating
 (
@@ -1326,7 +1326,7 @@ PL_DHashTableInit
 mHashtable
 &
 hashtableOps
-nsnull
+nullptr
 sizeof
 (
 HTEntry
@@ -1344,7 +1344,7 @@ mHashtable
 .
 ops
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -1406,7 +1406,7 @@ aFreeEntryFunc
 (
 aStream
 key
-nsnull
+nullptr
 )
 ;
 }
@@ -1541,7 +1541,7 @@ threadSafe
 mLock
 !
 =
-nsnull
+nullptr
 )
 ;
 nsresult
@@ -1642,7 +1642,7 @@ aResult
 :
 mKey
 (
-nsnull
+nullptr
 )
 {
 bool
@@ -1707,7 +1707,7 @@ nonnull
 mKey
 !
 =
-nsnull
+nullptr
 )
 ;
 nsresult
@@ -2333,7 +2333,7 @@ aResult
 :
 mStr
 (
-nsnull
+nullptr
 )
 mStrLen
 (
@@ -2989,7 +2989,7 @@ aResult
 :
 mStr
 (
-nsnull
+nullptr
 )
 mStrLen
 (
@@ -3196,7 +3196,7 @@ if
 newElement
 =
 =
-nsnull
+nullptr
 )
 return
 PL_DHASH_STOP
@@ -3234,7 +3234,7 @@ mHashtable
 ops
 )
 return
-nsnull
+nullptr
 ;
 bool
 threadSafe
@@ -3390,7 +3390,7 @@ nsSupportsHashtable
 Enumerate
 (
 ReleaseElement
-nsnull
+nullptr
 )
 ;
 }
@@ -3462,7 +3462,7 @@ return
 prev
 !
 =
-nsnull
+nullptr
 ;
 }
 nsISupports
@@ -3495,7 +3495,7 @@ if
 data
 )
 return
-nsnull
+nullptr
 ;
 nsISupports
 *
@@ -3578,7 +3578,7 @@ return
 data
 !
 =
-nsnull
+nullptr
 ;
 }
 PLDHashOperator
@@ -3679,7 +3679,7 @@ mHashtable
 ops
 )
 return
-nsnull
+nullptr
 ;
 bool
 threadSafe
@@ -3688,7 +3688,7 @@ threadSafe
 mLock
 !
 =
-nsnull
+nullptr
 )
 ;
 nsSupportsHashtable
@@ -3727,7 +3727,7 @@ Reset
 Enumerate
 (
 ReleaseElement
-nsnull
+nullptr
 )
 ;
 nsHashtable

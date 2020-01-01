@@ -153,7 +153,7 @@ gfxPlatformFontList
 :
 sPlatformFontList
 =
-nsnull
+nullptr
 ;
 static
 const
@@ -181,7 +181,7 @@ intl
 .
 accept_languages
 "
-nsnull
+nullptr
 }
 ;
 class
@@ -202,7 +202,7 @@ gfxFontListPrefObserver
 *
 gFontListPrefObserver
 =
-nsnull
+nullptr
 ;
 NS_IMPL_ISUPPORTS1
 (
@@ -1727,7 +1727,7 @@ gfxFontEntry
 *
 fontEntry
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1740,7 +1740,7 @@ aCh
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -2329,7 +2329,7 @@ fontEntry
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 gfxFontEntry
@@ -2537,7 +2537,7 @@ key
 )
 !
 =
-nsnull
+nullptr
 )
 {
 return
@@ -2575,7 +2575,7 @@ key
 )
 !
 =
-nsnull
+nullptr
 )
 {
 return
@@ -2584,7 +2584,7 @@ familyEntry
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 gfxFontEntry
@@ -2636,7 +2636,7 @@ aNeedsBold
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 bool

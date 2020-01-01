@@ -64,7 +64,7 @@ PRLogModuleInfo
 *
 g_LogMod
 =
-nsnull
+nullptr
 ;
 static
 bool
@@ -164,7 +164,7 @@ g_Spaces
 ;
 g_LogMod
 =
-nsnull
+nullptr
 ;
 }
 g_InitState
@@ -466,7 +466,7 @@ char
 *
 className
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <

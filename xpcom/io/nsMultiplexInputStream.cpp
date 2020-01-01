@@ -1450,7 +1450,7 @@ result
 *
 result
 =
-nsnull
+nullptr
 ;
 if
 (

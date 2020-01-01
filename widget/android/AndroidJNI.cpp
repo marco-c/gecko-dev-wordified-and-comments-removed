@@ -435,7 +435,7 @@ gAppShell
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 memory
 -
@@ -664,7 +664,7 @@ gAppShell
 >
 NotifyObservers
 (
-nsnull
+nullptr
 NS_NETWORK_LINK_TOPIC
 sStatus
 .
@@ -1006,7 +1006,7 @@ NotifyObservers
 (
 message
 kSmsReceivedObserverTopic
-nsnull
+nullptr
 )
 ;
 return
@@ -1242,7 +1242,7 @@ NotifyObservers
 (
 message
 kSmsSentObserverTopic
-nsnull
+nullptr
 )
 ;
 if
@@ -1482,7 +1482,7 @@ NotifyObservers
 (
 message
 kSmsDeliveredObserverTopic
-nsnull
+nullptr
 )
 ;
 return
@@ -3716,7 +3716,7 @@ static
 jclass
 jSurfaceBitsClass
 =
-nsnull
+nullptr
 ;
 static
 jmethodID
@@ -3734,14 +3734,14 @@ jSurfaceBitsBuffer
 jobject
 surfaceBits
 =
-nsnull
+nullptr
 ;
 unsigned
 char
 *
 bitsCopy
 =
-nsnull
+nullptr
 ;
 int
 dstWidth
@@ -3772,7 +3772,7 @@ if
 window
 )
 return
-nsnull
+nullptr
 ;
 unsigned
 char
@@ -3804,7 +3804,7 @@ srcStride
 )
 )
 return
-nsnull
+nullptr
 ;
 AndroidBridge
 :
@@ -3838,7 +3838,7 @@ srcStride
 )
 )
 return
-nsnull
+nullptr
 ;
 int
 bpp
@@ -4318,7 +4318,7 @@ static
 jclass
 jMessageQueueCls
 =
-nsnull
+nullptr
 ;
 static
 jfieldID

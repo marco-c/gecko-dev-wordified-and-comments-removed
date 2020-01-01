@@ -817,7 +817,7 @@ aBlob
 *
 aBlob
 =
-nsnull
+nullptr
 ;
 PRUint64
 thisLength
@@ -1478,7 +1478,7 @@ shutdown
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 PRUint32
@@ -1586,7 +1586,7 @@ fileInfo
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP

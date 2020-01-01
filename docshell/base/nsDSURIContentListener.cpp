@@ -118,7 +118,7 @@ aDocShell
 )
 mParentContentListener
 (
-nsnull
+nullptr
 )
 {
 }
@@ -586,7 +586,7 @@ false
 *
 aDesiredContentType
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -799,7 +799,7 @@ aParentListener
 {
 mParentContentListener
 =
-nsnull
+nullptr
 ;
 mWeakParentContentListener
 =
@@ -824,11 +824,11 @@ else
 {
 mWeakParentContentListener
 =
-nsnull
+nullptr
 ;
 mParentContentListener
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -1403,9 +1403,9 @@ get
 (
 )
 0
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 }

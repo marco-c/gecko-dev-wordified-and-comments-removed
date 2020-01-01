@@ -74,6 +74,15 @@ nsIDNSListener
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIHttpAuthenticator
 ;
@@ -125,7 +134,7 @@ get
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 PRInt32
@@ -582,6 +591,7 @@ mResolvedHost
 ;
 class
 DNSCallback
+MOZ_FINAL
 :
 public
 nsIDNSListener

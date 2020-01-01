@@ -50,7 +50,7 @@ aNode
 :
 mQuery
 (
-nsnull
+nullptr
 )
 mNode
 (
@@ -566,7 +566,7 @@ aValue
 *
 aValue
 =
-nsnull
+nullptr
 ;
 mInst
 .
@@ -649,7 +649,7 @@ GetMemberVariable
 (
 )
 :
-nsnull
+nullptr
 this
 mBindingValues
 )

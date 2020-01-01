@@ -188,7 +188,7 @@ nsXULTooltipListener
 :
 mInstance
 =
-nsnull
+nullptr
 ;
 nsXULTooltipListener
 :
@@ -262,7 +262,7 @@ chrome
 .
 toolbar_tips
 "
-nsnull
+nullptr
 )
 ;
 }
@@ -371,7 +371,7 @@ Cancel
 ;
 mTooltipTimer
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -483,7 +483,7 @@ mLastTreeRow
 ;
 mLastTreeCol
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -812,7 +812,7 @@ tooltip
 {
 mSourceNode
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -897,11 +897,11 @@ rv
 {
 mTargetNode
 =
-nsnull
+nullptr
 ;
 mSourceNode
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1691,7 +1691,7 @@ mLastTreeRow
 ;
 mLastTreeCol
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -1709,7 +1709,7 @@ LaunchTooltip
 ;
 mTargetNode
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1825,7 +1825,7 @@ true
 }
 mSourceNode
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2223,7 +2223,7 @@ currentTooltip
 )
 mCurrentTooltip
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -2312,7 +2312,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 PRUint32
 childCount
@@ -2738,7 +2738,7 @@ aTooltip
 *
 aTooltip
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -2976,7 +2976,7 @@ currentTooltip
 ;
 mCurrentTooltip
 =
-nsnull
+nullptr
 ;
 evtTarget
 -
@@ -3000,14 +3000,14 @@ KillTooltipTimer
 ;
 mSourceNode
 =
-nsnull
+nullptr
 ;
 #
 ifdef
 MOZ_XUL
 mLastTreeCol
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -3037,11 +3037,11 @@ Cancel
 ;
 mTooltipTimer
 =
-nsnull
+nullptr
 ;
 mTargetNode
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -3097,7 +3097,7 @@ aBoxObject
 *
 aBoxObject
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <

@@ -84,7 +84,7 @@ Analysis
 *
 analysis
 =
-nsnull
+nullptr
 )
 ;
 #

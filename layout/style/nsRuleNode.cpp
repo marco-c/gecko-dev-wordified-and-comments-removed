@@ -777,7 +777,7 @@ gfxUserFontSet
 *
 fs
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1098,7 +1098,7 @@ StyleSet
 ResolveStyleFor
 (
 docElement
-nsnull
+nullptr
 )
 ;
 if
@@ -1347,7 +1347,7 @@ CalcLengthWith
 aValue
 -
 1
-nsnull
+nullptr
 aStyleContext
 aPresContext
 false
@@ -1421,7 +1421,7 @@ aValue
 1
 &
 defaultFont
-nsnull
+nullptr
 aPresContext
 true
 false
@@ -3084,13 +3084,13 @@ nsStyleContext
 *
 dummyStyleContext
 =
-nsnull
+nullptr
 ;
 nsPresContext
 *
 dummyPresContext
 =
-nsnull
+nullptr
 ;
 bool
 dummyCanStoreInRuleTree
@@ -5494,7 +5494,7 @@ else
 {
 destroyQueue
 =
-nsnull
+nullptr
 ;
 destroyQueueTail
 =
@@ -5528,7 +5528,7 @@ destroyQueueTail
 *
 destroyQueueTail
 =
-nsnull
+nullptr
 ;
 PL_DHashTableDestroy
 (
@@ -5576,7 +5576,7 @@ mChildren
 .
 asVoid
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5694,8 +5694,8 @@ aPresContext
 nsRuleNode
 (
 aPresContext
-nsnull
-nsnull
+nullptr
+nullptr
 0xff
 false
 )
@@ -5766,7 +5766,7 @@ mChildren
 .
 asVoid
 =
-nsnull
+nullptr
 ;
 MOZ_COUNT_CTOR
 (
@@ -5953,7 +5953,7 @@ nsRuleNode
 *
 next
 =
-nsnull
+nullptr
 ;
 nsRuleNode
 :
@@ -6253,7 +6253,7 @@ PL_NewDHashTable
 (
 &
 ChildrenHashOps
-nsnull
+nullptr
 sizeof
 (
 ChildrenHashEntry
@@ -8424,7 +8424,7 @@ void
 *
 startStruct
 =
-nsnull
+nullptr
 ;
 nsRuleNode
 *
@@ -8436,7 +8436,7 @@ nsRuleNode
 *
 highestNode
 =
-nsnull
+nullptr
 ;
 nsRuleNode
 *
@@ -8499,7 +8499,7 @@ aSID
 )
 =
 =
-nsnull
+nullptr
 "
 dependent
 bit
@@ -9017,7 +9017,7 @@ NS_LIKELY
 res
 !
 =
-nsnull
+nullptr
 )
 )
 )
@@ -9089,7 +9089,7 @@ NS_LIKELY
 fontData
 !
 =
-nsnull
+nullptr
 )
 )
 {
@@ -9192,7 +9192,7 @@ NS_LIKELY
 disp
 !
 =
-nsnull
+nullptr
 )
 )
 {
@@ -9234,7 +9234,7 @@ NS_LIKELY
 vis
 !
 =
-nsnull
+nullptr
 )
 )
 {
@@ -9275,7 +9275,7 @@ NS_LIKELY
 text
 !
 =
-nsnull
+nullptr
 )
 )
 {
@@ -9316,7 +9316,7 @@ NS_LIKELY
 text
 !
 =
-nsnull
+nullptr
 )
 )
 {
@@ -9358,7 +9358,7 @@ NS_LIKELY
 color
 !
 =
-nsnull
+nullptr
 )
 )
 {
@@ -9399,7 +9399,7 @@ NS_LIKELY
 bg
 !
 =
-nsnull
+nullptr
 )
 )
 {
@@ -9440,7 +9440,7 @@ NS_LIKELY
 margin
 !
 =
-nsnull
+nullptr
 )
 )
 {
@@ -9482,7 +9482,7 @@ NS_LIKELY
 border
 !
 =
-nsnull
+nullptr
 )
 )
 {
@@ -9523,7 +9523,7 @@ NS_LIKELY
 padding
 !
 =
-nsnull
+nullptr
 )
 )
 {
@@ -9565,7 +9565,7 @@ NS_LIKELY
 outline
 !
 =
-nsnull
+nullptr
 )
 )
 {
@@ -9606,7 +9606,7 @@ NS_LIKELY
 list
 !
 =
-nsnull
+nullptr
 )
 )
 {
@@ -9647,7 +9647,7 @@ NS_LIKELY
 pos
 !
 =
-nsnull
+nullptr
 )
 )
 {
@@ -9688,7 +9688,7 @@ NS_LIKELY
 table
 !
 =
-nsnull
+nullptr
 )
 )
 {
@@ -9730,7 +9730,7 @@ NS_LIKELY
 table
 !
 =
-nsnull
+nullptr
 )
 )
 {
@@ -9771,7 +9771,7 @@ NS_LIKELY
 content
 !
 =
-nsnull
+nullptr
 )
 )
 {
@@ -9812,7 +9812,7 @@ NS_LIKELY
 quotes
 !
 =
-nsnull
+nullptr
 )
 )
 {
@@ -9853,7 +9853,7 @@ NS_LIKELY
 ui
 !
 =
-nsnull
+nullptr
 )
 )
 {
@@ -9894,7 +9894,7 @@ NS_LIKELY
 ui
 !
 =
-nsnull
+nullptr
 )
 )
 {
@@ -9935,7 +9935,7 @@ NS_LIKELY
 xul
 !
 =
-nsnull
+nullptr
 )
 )
 {
@@ -9977,7 +9977,7 @@ NS_LIKELY
 column
 !
 =
-nsnull
+nullptr
 )
 )
 {
@@ -10018,7 +10018,7 @@ NS_LIKELY
 svg
 !
 =
-nsnull
+nullptr
 )
 )
 {
@@ -10059,7 +10059,7 @@ NS_LIKELY
 svgReset
 !
 =
-nsnull
+nullptr
 )
 )
 {
@@ -10080,11 +10080,11 @@ svgReset
 default
 :
 return
-nsnull
+nullptr
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -10328,7 +10328,7 @@ type_
 *
 data_
 =
-nsnull
+nullptr
 ;
 \
 const
@@ -10339,7 +10339,7 @@ type_
 *
 parentdata_
 =
-nsnull
+nullptr
 ;
 \
 bool
@@ -10632,7 +10632,7 @@ data_
 )
 \
 return
-nsnull
+nullptr
 ;
 /
 *
@@ -10846,7 +10846,7 @@ data_
 )
 \
 return
-nsnull
+nullptr
 ;
 /
 *
@@ -11116,7 +11116,7 @@ mPresContext
 ;
 \
 return
-nsnull
+nullptr
 ;
 \
 }
@@ -11447,7 +11447,7 @@ mPresContext
 ;
 \
 return
-nsnull
+nullptr
 ;
 \
 }
@@ -12997,7 +12997,7 @@ CalcLengthWith
 aValue
 mParentSize
 mParentFont
-nsnull
+nullptr
 mPresContext
 mAtRoot
 true
@@ -14761,7 +14761,7 @@ aParentFont
 >
 mSize
 aParentFont
-nsnull
+nullptr
 aPresContext
 atRoot
 true
@@ -16329,7 +16329,7 @@ font
 aStartStruct
 !
 =
-nsnull
+nullptr
 canStoreInRuleTree
 )
 ;
@@ -16471,7 +16471,7 @@ if
 shadowList
 )
 return
-nsnull
+nullptr
 ;
 nsStyleCoord
 tempCoord
@@ -17032,7 +17032,7 @@ text
 >
 mTextShadow
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -18991,7 +18991,7 @@ ui
 >
 mCursorArray
 =
-nsnull
+nullptr
 ;
 ui
 -
@@ -19891,7 +19891,7 @@ GetListValue
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -23458,7 +23458,7 @@ display
 >
 mBinding
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -23492,7 +23492,7 @@ display
 >
 mBinding
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -24540,7 +24540,7 @@ display
 >
 mSpecifiedTransform
 =
-nsnull
+nullptr
 ;
 break
 ;
@@ -24605,7 +24605,7 @@ head
 mNext
 =
 =
-nsnull
+nullptr
 "
 none
 must
@@ -24619,7 +24619,7 @@ display
 >
 mSpecifiedTransform
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -29384,7 +29384,7 @@ border
 >
 mBoxShadow
 =
-nsnull
+nullptr
 ;
 break
 ;
@@ -30979,7 +30979,7 @@ border
 >
 SetBorderImage
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -32260,7 +32260,7 @@ list
 >
 SetListStyleImage
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -33385,7 +33385,7 @@ SETCOORD_IA
 |
 SETCOORD_INITIAL_AUTO
 aContext
-nsnull
+nullptr
 canStoreInRuleTree
 )
 )
@@ -34044,7 +34044,7 @@ mContent
 .
 mString
 =
-nsnull
+nullptr
 ;
 break
 ;
@@ -34386,7 +34386,7 @@ mContent
 .
 mString
 =
-nsnull
+nullptr
 ;
 }
 contentValueList
@@ -36950,7 +36950,7 @@ svg
 >
 mMarkerEnd
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -37050,7 +37050,7 @@ svg
 >
 mMarkerMid
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -37150,7 +37150,7 @@ svg
 >
 mMarkerStart
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -37365,7 +37365,7 @@ svg
 >
 mStrokeDasharray
 =
-nsnull
+nullptr
 ;
 svg
 -
@@ -37396,7 +37396,7 @@ svg
 >
 mStrokeDasharray
 =
-nsnull
+nullptr
 ;
 svg
 -
@@ -37472,7 +37472,7 @@ i
 ;
 while
 (
-nsnull
+nullptr
 !
 =
 value
@@ -38067,7 +38067,7 @@ svgReset
 >
 mClipPath
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -38267,7 +38267,7 @@ svgReset
 >
 mFilter
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -38367,7 +38367,7 @@ svgReset
 >
 mMask
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -38453,7 +38453,7 @@ aSID
 )
 =
 =
-nsnull
+nullptr
 "
 both
 struct
@@ -38504,7 +38504,7 @@ aSID
 )
 =
 =
-nsnull
+nullptr
 "
 both
 struct
@@ -38606,7 +38606,7 @@ name_
 )
 =
 =
-nsnull
+nullptr
 \
 "
 both
@@ -38693,7 +38693,7 @@ name_
 )
 =
 =
-nsnull
+nullptr
 \
 "
 both
@@ -38819,7 +38819,7 @@ NS_LIKELY
 data
 !
 =
-nsnull
+nullptr
 )
 )
 return
@@ -38834,7 +38834,7 @@ aComputeData
 )
 )
 return
-nsnull
+nullptr
 ;
 data
 =
@@ -38851,7 +38851,7 @@ NS_LIKELY
 data
 !
 =
-nsnull
+nullptr
 )
 )
 return
@@ -39005,7 +39005,7 @@ NS_LIKELY
 data
 !
 =
-nsnull
+nullptr
 )
 )
 \
@@ -39024,7 +39024,7 @@ aComputeData
 )
 \
 return
-nsnull
+nullptr
 ;
 \
 \
@@ -39060,7 +39060,7 @@ NS_LIKELY
 data
 !
 =
-nsnull
+nullptr
 )
 )
 \
@@ -39321,7 +39321,7 @@ PL_DHashTableEnumerate
 (
 children
 SweepRuleNodeChildren
-nsnull
+nullptr
 )
 ;
 childrenDestroyed

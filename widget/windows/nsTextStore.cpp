@@ -119,7 +119,7 @@ PRLogModuleInfo
 *
 sTextStoreLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -144,7 +144,7 @@ mSinkMask
 ;
 mWindow
 =
-nsnull
+nullptr
 ;
 mLock
 =
@@ -172,7 +172,7 @@ acpNewEnd
 ;
 mLastDispatchedTextEvent
 =
-nsnull
+nullptr
 ;
 }
 nsTextStore
@@ -197,12 +197,12 @@ Cancel
 ;
 mCompositionTimer
 =
-nsnull
+nullptr
 ;
 }
 SaveTextEvent
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -2328,7 +2328,7 @@ mLastDispatchedTextEvent
 ;
 mLastDispatchedTextEvent
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -2346,7 +2346,7 @@ nsTextEvent
 (
 true
 NS_TEXT_TEXT
-nsnull
+nullptr
 )
 ;
 if
@@ -2382,7 +2382,7 @@ mLastDispatchedTextEvent
 >
 rangeArray
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2434,7 +2434,7 @@ mLastDispatchedTextEvent
 ;
 mLastDispatchedTextEvent
 =
-nsnull
+nullptr
 ;
 return
 E_OUTOFMEMORY
@@ -3837,7 +3837,7 @@ hr
 =
 UpdateCompositionExtent
 (
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -6747,7 +6747,7 @@ n
 ;
 SaveTextEvent
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -6764,7 +6764,7 @@ Cancel
 ;
 mCompositionTimer
 =
-nsnull
+nullptr
 ;
 }
 if

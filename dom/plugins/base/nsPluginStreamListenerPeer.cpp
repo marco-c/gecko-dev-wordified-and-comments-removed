@@ -441,7 +441,7 @@ MULTIPART_BYTERANGES
 *
 "
 finalStreamListener
-nsnull
+nullptr
 getter_AddRefs
 (
 mStreamConverter
@@ -1124,7 +1124,7 @@ false
 ;
 mDataForwardToRequest
 =
-nsnull
+nullptr
 ;
 mSeekable
 =
@@ -1199,7 +1199,7 @@ mPStreamListener
 >
 SetStreamListenerPeer
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -1209,7 +1209,7 @@ mFileCacheOutputStream
 )
 mFileCacheOutputStream
 =
-nsnull
+nullptr
 ;
 delete
 mDataForwardToRequest
@@ -1260,7 +1260,7 @@ if
 aURL
 !
 =
-nsnull
+nullptr
 )
 aURL
 -
@@ -1447,7 +1447,7 @@ NS_ASSERTION
 mPluginInstance
 =
 =
-nsnull
+nullptr
 "
 nsPluginStreamListenerPeer
 :
@@ -1456,7 +1456,7 @@ InitializeEmbedded
 mPluginInstance
 !
 =
-nsnull
+nullptr
 "
 )
 ;
@@ -1536,7 +1536,7 @@ NS_ASSERTION
 mPluginInstance
 =
 =
-nsnull
+nullptr
 "
 nsPluginStreamListenerPeer
 :
@@ -1545,7 +1545,7 @@ InitializeFullPage
 mPluginInstance
 !
 =
-nsnull
+nullptr
 "
 )
 ;
@@ -2781,7 +2781,7 @@ aRangeList
 range
 !
 =
-nsnull
+nullptr
 ;
 range
 =
@@ -2953,7 +2953,7 @@ getter_AddRefs
 channel
 )
 mURL
-nsnull
+nullptr
 loadGroup
 callbacks
 )
@@ -3249,7 +3249,7 @@ NPWindow
 *
 window
 =
-nsnull
+nullptr
 ;
 owner
 -
@@ -3588,7 +3588,7 @@ char
 *
 url
 =
-nsnull
+nullptr
 ;
 GetURL
 (
@@ -4063,7 +4063,7 @@ else
 {
 mFileCacheOutputStream
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -4417,8 +4417,8 @@ mPluginInstance
 >
 NewStreamListener
 (
-nsnull
-nsnull
+nullptr
+nullptr
 getter_AddRefs
 (
 streamListener

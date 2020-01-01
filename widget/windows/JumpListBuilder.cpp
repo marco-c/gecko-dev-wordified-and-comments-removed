@@ -299,7 +299,7 @@ kPrefTaskbarEnabled
 ;
 mJumpListMgr
 =
-nsnull
+nullptr
 ;
 :
 :
@@ -753,7 +753,7 @@ shortcut
 >
 SetFaviconPageUri
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -1962,13 +1962,13 @@ IShellLinkW
 *
 pLink
 =
-nsnull
+nullptr
 ;
 IShellItem
 *
 pItem
 =
-nsnull
+nullptr
 ;
 if
 (

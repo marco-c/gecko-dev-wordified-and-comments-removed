@@ -243,19 +243,19 @@ mCertArray
 )
 mTmpFile
 (
-nsnull
+nullptr
 )
 mTmpFilePath
 (
-nsnull
+nullptr
 )
 mDigest
 (
-nsnull
+nullptr
 )
 mDigestIterator
 (
-nsnull
+nullptr
 )
 mTokenSet
 (
@@ -565,7 +565,7 @@ PK11SlotInfo
 *
 slot
 =
-nsnull
+nullptr
 ;
 nsXPIDLString
 tokenName
@@ -2650,7 +2650,7 @@ cx
 >
 mDigestIterator
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2668,7 +2668,7 @@ cx
 >
 mDigest
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -2922,7 +2922,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 int
 count
@@ -3049,7 +3049,7 @@ if
 newNick
 )
 return
-nsnull
+nullptr
 ;
 newNick
 -
@@ -3273,7 +3273,7 @@ char
 *
 msgID
 =
-nsnull
+nullptr
 ;
 switch
 (

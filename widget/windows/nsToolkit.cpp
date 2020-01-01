@@ -96,7 +96,7 @@ nsToolkit
 :
 gToolkit
 =
-nsnull
+nullptr
 ;
 HINSTANCE
 nsToolkit
@@ -225,7 +225,7 @@ nsToolkit
 ;
 gMouseTrailer
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -266,7 +266,7 @@ gToolkit
 ;
 gToolkit
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -337,11 +337,11 @@ MouseTrailer
 :
 mMouseTrailerWindow
 (
-nsnull
+nullptr
 )
 mCaptureWindow
 (
-nsnull
+nullptr
 )
 mIsInCaptureMode
 (
@@ -389,8 +389,8 @@ mTimer
 {
 TimerProc
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -482,7 +482,7 @@ mTimer
 InitWithFuncCallback
 (
 TimerProc
-nsnull
+nullptr
 200
 nsITimer
 :
@@ -513,7 +513,7 @@ Cancel
 ;
 mTimer
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -594,7 +594,7 @@ mtrailer
 >
 mMouseTrailerWindow
 =
-nsnull
+nullptr
 ;
 mtrailer
 -
@@ -700,7 +700,7 @@ mtrailer
 >
 mMouseTrailerWindow
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -718,7 +718,7 @@ mtrailer
 >
 mMouseTrailerWindow
 =
-nsnull
+nullptr
 ;
 }
 }

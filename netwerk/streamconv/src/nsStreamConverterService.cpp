@@ -117,7 +117,7 @@ nsStreamConverterService
 :
 mAdjacencyList
 (
-nsnull
+nullptr
 )
 {
 }
@@ -231,10 +231,10 @@ mAdjacencyList
 new
 nsObjectHashtable
 (
-nsnull
-nsnull
+nullptr
+nullptr
 DeleteAdjacencyEntry
-nsnull
+nullptr
 )
 ;
 if
@@ -563,7 +563,7 @@ data
 >
 key
 =
-nsnull
+nullptr
 ;
 delete
 data
@@ -694,7 +694,7 @@ data
 >
 key
 =
-nsnull
+nullptr
 ;
 delete
 data
@@ -1005,7 +1005,7 @@ state
 >
 predecessor
 =
-nsnull
+nullptr
 ;
 SCTableData
 *
@@ -1103,7 +1103,7 @@ data
 >
 key
 =
-nsnull
+nullptr
 ;
 delete
 data
@@ -1184,7 +1184,7 @@ NS_ERROR_NULL_POINTER
 *
 aEdgeList
 =
-nsnull
+nullptr
 ;
 PRInt32
 vertexCount
@@ -1209,10 +1209,10 @@ NS_ERROR_FAILURE
 nsObjectHashtable
 lBFSTable
 (
-nsnull
-nsnull
+nullptr
+nullptr
 DeleteBFSEntry
-nsnull
+nullptr
 )
 ;
 mAdjacencyList
@@ -1759,7 +1759,7 @@ cur
 ;
 cur
 =
-nsnull
+nullptr
 ;
 }
 nsCAutoString
@@ -2172,7 +2172,7 @@ nsCString
 *
 converterChain
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -2347,7 +2347,7 @@ nsCString
 *
 converterChain
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -2724,7 +2724,7 @@ nsCString
 *
 converterChain
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -3002,7 +3002,7 @@ NS_PRECONDITION
 aStreamConv
 !
 =
-nsnull
+nullptr
 "
 null
 ptr

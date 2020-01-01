@@ -241,7 +241,7 @@ HANDLE
 *
 hProcess
 =
-nsnull
+nullptr
 )
 ;
 BOOL

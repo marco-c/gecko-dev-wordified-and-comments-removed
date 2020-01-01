@@ -102,7 +102,7 @@ mIMC
 ;
 mIMC
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -159,11 +159,11 @@ aSrc
 :
 mWnd
 (
-nsnull
+nullptr
 )
 mIMC
 (
-nsnull
+nullptr
 )
 {
 NS_ERROR
@@ -856,7 +856,7 @@ PRUint32
 *
 aLength
 =
-nsnull
+nullptr
 )
 ;
 void

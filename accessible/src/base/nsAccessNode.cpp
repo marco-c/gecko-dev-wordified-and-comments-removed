@@ -126,7 +126,7 @@ nsAccessNode
 :
 gApplicationAccessible
 =
-nsnull
+nullptr
 ;
 NS_IMPL_CYCLE_COLLECTION_1
 (
@@ -254,11 +254,11 @@ Shutdown
 {
 mContent
 =
-nsnull
+nullptr
 ;
 mDoc
 =
-nsnull
+nullptr
 ;
 }
 ApplicationAccessible
@@ -345,7 +345,7 @@ gApplicationAccessible
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -431,7 +431,7 @@ docShellTreeItem
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -470,7 +470,7 @@ root
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 DocAccessible
@@ -495,7 +495,7 @@ AsRoot
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 nsIFrame
@@ -518,7 +518,7 @@ GetPrimaryFrame
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 bool
@@ -564,7 +564,7 @@ nsCoreUtils
 GetLanguageFor
 (
 mContent
-nsnull
+nullptr
 aLanguage
 )
 ;

@@ -177,15 +177,15 @@ GetPresShell
 )
 mSelection
 (
-nsnull
+nullptr
 )
 mFirstSelectedRange
 (
-nsnull
+nullptr
 )
 mRootContent
 (
-nsnull
+nullptr
 )
 {
 }
@@ -3232,7 +3232,7 @@ nsIFrame
 *
 firstFrame
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -3351,7 +3351,7 @@ nsIFrame
 *
 lastFrame
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -3725,7 +3725,7 @@ GetNextContinuation
 )
 !
 =
-nsnull
+nullptr
 )
 {
 nsRect
@@ -4250,7 +4250,7 @@ mReply
 .
 mTransferable
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -4990,7 +4990,7 @@ nsIWidget
 *
 targetWidget
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -5446,7 +5446,7 @@ nsIContent
 *
 content
 =
-nsnull
+nullptr
 ;
 nsINode
 *
@@ -5608,7 +5608,7 @@ nsIView
 *
 view
 =
-nsnull
+nullptr
 ;
 nsPoint
 posInView
@@ -5641,7 +5641,7 @@ view
 >
 GetOffsetTo
 (
-nsnull
+nullptr
 )
 ;
 return

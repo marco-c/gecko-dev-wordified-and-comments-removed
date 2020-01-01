@@ -308,7 +308,7 @@ if
 place
 )
 return
-nsnull
+nullptr
 ;
 char
 *

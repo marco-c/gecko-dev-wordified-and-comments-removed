@@ -63,7 +63,7 @@ aTextLen2
 {
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aText1
@@ -75,7 +75,7 @@ ptr
 ;
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aText2
@@ -651,7 +651,7 @@ range
 ;
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aText

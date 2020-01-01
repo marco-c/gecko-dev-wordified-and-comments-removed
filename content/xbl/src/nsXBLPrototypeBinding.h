@@ -460,7 +460,7 @@ FindField
 aFieldName
 )
 :
-nsnull
+nullptr
 ;
 }
 bool
@@ -601,7 +601,7 @@ return
 mImplementation
 !
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -702,7 +702,7 @@ return
 mInsertionPointTable
 !
 =
-nsnull
+nullptr
 ;
 }
 bool

@@ -519,7 +519,7 @@ delete
 valueList
 ;
 return
-nsnull
+nullptr
 ;
 }
 props
@@ -1275,6 +1275,14 @@ len
 =
 0
 ;
+aValue
+.
+CompressWhitespace
+(
+true
+false
+)
+;
 if
 (
 0
@@ -1900,13 +1908,13 @@ nsIAtom
 *
 MOZrowAtom
 =
-nsnull
+nullptr
 ;
 nsIAtom
 *
 MOZcolAtom
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2313,7 +2321,7 @@ nsGkAtoms
 tableRowGroupFrame
 )
 return
-nsnull
+nullptr
 ;
 nsTableIterator
 rowIter
@@ -2376,7 +2384,7 @@ nsGkAtoms
 tableRowFrame
 )
 return
-nsnull
+nullptr
 ;
 return
 rowFrame
@@ -2389,7 +2397,7 @@ aRowIndex
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -2477,7 +2485,7 @@ eAlign_axis
 GetAttribute
 (
 mContent
-nsnull
+nullptr
 nsGkAtoms
 :
 :
@@ -2519,7 +2527,7 @@ nsIFrame
 *
 rowFrame
 =
-nsnull
+nullptr
 ;
 if
 (

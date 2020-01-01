@@ -141,7 +141,7 @@ tmp
 >
 SetInput
 (
-nsnull
+nullptr
 )
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
@@ -249,7 +249,7 @@ nsAutoCompleteController
 {
 SetInput
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -390,7 +390,7 @@ newValue
 ;
 mTree
 =
-nsnull
+nullptr
 ;
 mSearchString
 =
@@ -1261,7 +1261,7 @@ NS_ENSURE_TRUE
 popup
 !
 =
-nsnull
+nullptr
 NS_ERROR_FAILURE
 )
 ;
@@ -2602,7 +2602,7 @@ timer
 {
 mTimer
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3563,7 +3563,7 @@ NS_ENSURE_TRUE
 popup
 !
 =
-nsnull
+nullptr
 NS_ERROR_FAILURE
 )
 ;
@@ -3805,7 +3805,7 @@ RESULT_NOMATCH
 )
 result
 =
-nsnull
+nullptr
 ;
 }
 nsAutoString
@@ -4180,7 +4180,7 @@ rv
 )
 mTimer
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -4208,7 +4208,7 @@ Cancel
 ;
 mTimer
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -4256,7 +4256,7 @@ NS_ENSURE_TRUE
 popup
 !
 =
-nsnull
+nullptr
 NS_ERROR_FAILURE
 )
 ;
@@ -4499,7 +4499,7 @@ enter
 -
 text
 "
-nsnull
+nullptr
 )
 ;
 if
@@ -4557,7 +4557,7 @@ enter
 -
 text
 "
-nsnull
+nullptr
 )
 ;
 ClosePopup
@@ -4667,7 +4667,7 @@ revert
 -
 text
 "
-nsnull
+nullptr
 )
 ;
 nsAutoString
@@ -4716,7 +4716,7 @@ revert
 -
 text
 "
-nsnull
+nullptr
 )
 ;
 }
@@ -5044,7 +5044,7 @@ NS_ENSURE_TRUE
 popup
 !
 =
-nsnull
+nullptr
 NS_ERROR_FAILURE
 )
 ;
@@ -5299,7 +5299,7 @@ NS_ENSURE_TRUE
 popup
 !
 =
-nsnull
+nullptr
 NS_ERROR_FAILURE
 )
 ;

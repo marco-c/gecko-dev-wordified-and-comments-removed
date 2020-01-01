@@ -203,7 +203,7 @@ nsIEventQueue
 *
 gEventQ
 =
-nsnull
+nullptr
 ;
 class
 TestListener
@@ -669,7 +669,7 @@ transport
 AsyncRead
 (
 listener
-nsnull
+nullptr
 0
 0
 0
@@ -1344,7 +1344,7 @@ CreateTransport
 (
 hostName
 port
-nsnull
+nullptr
 0
 0
 getter_AddRefs
@@ -1408,7 +1408,7 @@ TestProvider
 (
 buffer
 )
-nsnull
+nullptr
 0
 0
 0

@@ -166,7 +166,7 @@ nsIThreadPool
 *
 gCertVerificationThreadPool
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -1063,7 +1063,7 @@ SEC_ERROR_REVOKED_CERTIFICATE
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -1096,7 +1096,7 @@ PR_INVALID_STATE_ERROR
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -1139,7 +1139,7 @@ SEC_ERROR_NO_MEMORY
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 SECStatus
@@ -1185,7 +1185,7 @@ defaultErrorCodeToReport
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -1227,7 +1227,7 @@ defaultErrorCodeToReport
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 PRArenaPool
@@ -1260,7 +1260,7 @@ failed
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 CERTVerifyLog
@@ -1288,7 +1288,7 @@ failed
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 CERTVerifyLogContentsCleaner
@@ -1623,7 +1623,7 @@ error
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -1669,7 +1669,7 @@ defaultErrorCodeToReport
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 infoObject
@@ -3284,7 +3284,7 @@ CERTCertList
 *
 certList
 =
-nsnull
+nullptr
 ;
 certList
 =
@@ -3601,7 +3601,7 @@ GetInstance
 RememberCertHasError
 (
 infoObject
-nsnull
+nullptr
 rv
 )
 ;

@@ -286,7 +286,7 @@ aProperty
 aTarget
 )
 :
-nsnull
+nullptr
 ;
 }
 void

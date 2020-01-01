@@ -46,7 +46,7 @@ b
 :
 mHead
 (
-nsnull
+nullptr
 )
 mFragA
 (
@@ -77,7 +77,7 @@ head
 )
 mFragA
 (
-nsnull
+nullptr
 )
 mFragB
 (

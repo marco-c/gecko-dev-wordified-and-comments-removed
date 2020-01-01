@@ -319,7 +319,7 @@ nsXPLookAndFeel
 )
 mStyle
 (
-nsnull
+nullptr
 )
 mDefaultFontCached
 (
@@ -4199,7 +4199,7 @@ mStyle
 ;
 mStyle
 =
-nsnull
+nullptr
 ;
 InitWidget
 (

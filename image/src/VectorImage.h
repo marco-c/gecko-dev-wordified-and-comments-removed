@@ -280,7 +280,7 @@ imgStatusTracker
 *
 aStatusTracker
 =
-nsnull
+nullptr
 )
 ;
 virtual

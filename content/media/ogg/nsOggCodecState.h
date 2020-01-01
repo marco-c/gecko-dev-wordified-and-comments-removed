@@ -179,7 +179,7 @@ delete
 p
 ;
 return
-nsnull
+nullptr
 ;
 }
 }

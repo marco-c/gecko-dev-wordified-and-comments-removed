@@ -14,6 +14,10 @@ h
 #
 include
 "
+mozilla
+/
+a11y
+/
 Accessible
 .
 h
@@ -1194,7 +1198,7 @@ if
 mRawPtr
 )
 return
-nsnull
+nullptr
 ;
 return
 mRawPtr
@@ -1223,7 +1227,7 @@ Destination
 mRawPtr
 )
 :
-nsnull
+nullptr
 ;
 }
 private

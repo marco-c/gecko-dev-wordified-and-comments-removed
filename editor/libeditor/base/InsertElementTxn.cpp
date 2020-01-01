@@ -455,7 +455,7 @@ AsDOMNode
 (
 )
 :
-nsnull
+nullptr
 ;
 mEditor
 -

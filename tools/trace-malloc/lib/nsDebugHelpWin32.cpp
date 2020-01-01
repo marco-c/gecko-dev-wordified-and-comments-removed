@@ -105,7 +105,7 @@ DHWImportHooker
 :
 gLock
 =
-nsnull
+nullptr
 ;
 DHWImportHooker
 *
@@ -114,7 +114,7 @@ DHWImportHooker
 :
 gHooks
 =
-nsnull
+nullptr
 ;
 GETPROCADDRESS
 DHWImportHooker
@@ -122,7 +122,7 @@ DHWImportHooker
 :
 gRealGetProcAddress
 =
-nsnull
+nullptr
 ;
 static
 bool
@@ -521,7 +521,7 @@ info
 .
 AllocationBase
 :
-nsnull
+nullptr
 ;
 }
 DHWImportHooker
@@ -545,7 +545,7 @@ aExcludeOurModule
 :
 mNext
 (
-nsnull
+nullptr
 )
 mModuleName
 (
@@ -557,7 +557,7 @@ aFunctionName
 )
 mOriginal
 (
-nsnull
+nullptr
 )
 mHook
 (
@@ -571,7 +571,7 @@ ThisModule
 (
 )
 :
-nsnull
+nullptr
 )
 mHooking
 (
@@ -724,7 +724,7 @@ gLock
 ;
 gLock
 =
-nsnull
+nullptr
 ;
 PR_Unlock
 (
@@ -1095,7 +1095,7 @@ sizeof
 (
 replacement
 )
-nsnull
+nullptr
 )
 ;
 if

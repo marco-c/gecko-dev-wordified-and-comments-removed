@@ -105,7 +105,7 @@ nsIExceptionProvider
 *
 gExceptionProvider
 =
-nsnull
+nullptr
 ;
 nsDOMScriptObjectFactory
 :
@@ -324,7 +324,7 @@ GetNameSpaceManager
 NS_ENSURE_TRUE
 (
 nameSpaceManager
-nsnull
+nullptr
 )
 ;
 const
@@ -382,7 +382,7 @@ rv
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 rv
@@ -406,7 +406,7 @@ this
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 globalStruct
@@ -422,7 +422,7 @@ aName
 NS_ENSURE_TRUE
 (
 globalStruct
-nsnull
+nullptr
 )
 ;
 NS_ASSERTION
@@ -483,7 +483,7 @@ mData
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP

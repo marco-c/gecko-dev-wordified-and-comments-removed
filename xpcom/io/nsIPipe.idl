@@ -1128,7 +1128,7 @@ nsIMemory
 *
 segmentAlloc
 =
-nsnull
+nullptr
 )
 ;
 /
@@ -1376,7 +1376,7 @@ nsIMemory
 *
 segmentAlloc
 =
-nsnull
+nullptr
 )
 ;
 %

@@ -83,7 +83,7 @@ aContent
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 NS_DECL_ISUPPORTS_INHERITED

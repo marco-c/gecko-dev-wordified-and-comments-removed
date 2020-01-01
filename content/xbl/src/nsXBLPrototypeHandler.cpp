@@ -552,7 +552,7 @@ aLineNumber
 :
 mHandlerText
 (
-nsnull
+nullptr
 )
 mLineNumber
 (
@@ -560,7 +560,7 @@ aLineNumber
 )
 mNextHandler
 (
-nsnull
+nullptr
 )
 mPrototypeBinding
 (
@@ -573,7 +573,7 @@ Init
 ;
 ConstructPrototype
 (
-nsnull
+nullptr
 aEvent
 aPhase
 aAction
@@ -601,7 +601,7 @@ aHandlerElement
 :
 mHandlerElement
 (
-nsnull
+nullptr
 )
 mLineNumber
 (
@@ -609,11 +609,11 @@ mLineNumber
 )
 mNextHandler
 (
-nsnull
+nullptr
 )
 mPrototypeBinding
 (
-nsnull
+nullptr
 )
 {
 Init
@@ -638,7 +638,7 @@ aBinding
 :
 mHandlerText
 (
-nsnull
+nullptr
 )
 mLineNumber
 (
@@ -646,7 +646,7 @@ mLineNumber
 )
 mNextHandler
 (
-nsnull
+nullptr
 )
 mPrototypeBinding
 (
@@ -739,7 +739,7 @@ nsIContent
 *
 el
 =
-nsnull
+nullptr
 ;
 element
 .
@@ -753,7 +753,7 @@ el
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -2227,8 +2227,8 @@ DispatchXULCommand
 (
 handlerElement
 true
-nsnull
-nsnull
+nullptr
+nullptr
 isControl
 isAlt
 isShift
@@ -2437,7 +2437,7 @@ controller
 else
 controller
 =
-nsnull
+nullptr
 ;
 return
 controller
@@ -3076,7 +3076,7 @@ NS_HANDLER_TYPE_XBL_JS
 ;
 mHandlerText
 =
-nsnull
+nullptr
 ;
 }
 mDetail
@@ -4017,7 +4017,7 @@ ArrayLength
 (
 params
 )
-nsnull
+nullptr
 EmptyString
 (
 )

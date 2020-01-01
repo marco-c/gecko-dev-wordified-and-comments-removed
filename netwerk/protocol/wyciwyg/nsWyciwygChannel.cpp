@@ -1262,7 +1262,7 @@ mLoadGroup
 AddRequest
 (
 this
-nsnull
+nullptr
 )
 ;
 return
@@ -2167,7 +2167,7 @@ mProgressSink
 OnProgress
 (
 this
-nsnull
+nullptr
 PRUint64
 (
 offset
@@ -2319,7 +2319,7 @@ mLoadGroup
 RemoveRequest
 (
 this
-nsnull
+nullptr
 mStatus
 )
 ;
@@ -2663,7 +2663,7 @@ mPump
 AsyncRead
 (
 this
-nsnull
+nullptr
 )
 ;
 }
@@ -2803,7 +2803,7 @@ mLoadGroup
 RemoveRequest
 (
 this
-nsnull
+nullptr
 mStatus
 )
 ;

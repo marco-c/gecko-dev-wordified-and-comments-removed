@@ -534,7 +534,7 @@ Notify
 {
 DoMouseClick
 (
-nsnull
+nullptr
 mTrustedEvent
 )
 ;

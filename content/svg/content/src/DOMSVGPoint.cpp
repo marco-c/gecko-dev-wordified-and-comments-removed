@@ -102,7 +102,7 @@ tmp
 mListIndex
 ]
 =
-nsnull
+nullptr
 ;
 }
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
@@ -669,7 +669,7 @@ InternalItem
 ;
 mList
 =
-nsnull
+nullptr
 ;
 NS_ABORT_IF_FALSE
 (

@@ -75,7 +75,7 @@ mStorage
 new
 DOMStorageImpl
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -114,7 +114,7 @@ mStorage
 new
 DOMStorageImpl
 (
-nsnull
+nullptr
 *
 other
 -

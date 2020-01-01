@@ -633,7 +633,7 @@ tvr
 jsval_addr
 (
 )
-nsnull
+nullptr
 )
 )
 return
@@ -823,7 +823,7 @@ if
 argv8
 =
 =
-nsnull
+nullptr
 )
 {
 rv
@@ -841,7 +841,7 @@ argv4
 argv5
 argv6
 argv7
-nsnull
+nullptr
 cx
 )
 ;
@@ -1001,7 +1001,7 @@ tvr
 jsval_addr
 (
 )
-nsnull
+nullptr
 )
 )
 return

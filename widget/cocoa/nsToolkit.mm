@@ -331,7 +331,7 @@ nsToolkit
 :
 gToolkit
 =
-nsnull
+nullptr
 ;
 nsToolkit
 :
@@ -342,15 +342,15 @@ nsToolkit
 :
 mSleepWakeNotificationRLS
 (
-nsnull
+nullptr
 )
 mEventTapPort
 (
-nsnull
+nullptr
 )
 mEventTapRLS
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -431,9 +431,9 @@ observerService
 >
 NotifyObservers
 (
-nsnull
+nullptr
 aNotification
-nsnull
+nullptr
 )
 ;
 }
@@ -752,7 +752,7 @@ kCFRunLoopDefaultMode
 ;
 mSleepWakeNotificationRLS
 =
-nsnull
+nullptr
 ;
 }
 NS_OBJC_END_TRY_ABORT_BLOCK
@@ -1452,7 +1452,7 @@ CGEventMaskBit
 kCGEventOtherMouseDown
 )
 EventTapCallback
-nsnull
+nullptr
 )
 ;
 if
@@ -1466,7 +1466,7 @@ mEventTapRLS
 =
 CFMachPortCreateRunLoopSource
 (
-nsnull
+nullptr
 mEventTapPort
 0
 )
@@ -1484,7 +1484,7 @@ mEventTapPort
 ;
 mEventTapPort
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -1533,7 +1533,7 @@ mEventTapRLS
 ;
 mEventTapRLS
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -1597,7 +1597,7 @@ mEventTapPort
 ;
 mEventTapPort
 =
-nsnull
+nullptr
 ;
 }
 NS_OBJC_END_TRY_ABORT_BLOCK
@@ -1658,7 +1658,7 @@ gToolkit
 ;
 NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
 (
-nsnull
+nullptr
 )
 ;
 }

@@ -100,7 +100,7 @@ DOMSVGPathSegList
 *
 animValWrapper
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -409,7 +409,7 @@ mBaseVal
 }
 mAnimVal
 =
-nsnull
+nullptr
 ;
 aElement
 -

@@ -2437,7 +2437,7 @@ void
 *
 data
 =
-nsnull
+nullptr
 ;
 PRUint32
 dataSize

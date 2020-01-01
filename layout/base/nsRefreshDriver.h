@@ -267,7 +267,7 @@ aShell
 )
 !
 =
-nsnull
+nullptr
 ;
 EnsureTimerStarted
 (
@@ -330,7 +330,7 @@ aShell
 )
 !
 =
-nsnull
+nullptr
 ;
 EnsureTimerStarted
 (
@@ -426,7 +426,7 @@ StopTimer
 ;
 mPresContext
 =
-nsnull
+nullptr
 ;
 }
 void

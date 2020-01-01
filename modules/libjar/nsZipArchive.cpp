@@ -348,7 +348,7 @@ nsZipHandle
 :
 mFileData
 (
-nsnull
+nullptr
 )
 mLen
 (
@@ -356,7 +356,7 @@ mLen
 )
 mMap
 (
-nsnull
+nullptr
 )
 mRefCnt
 (
@@ -667,7 +667,7 @@ handle
 >
 mMap
 =
-nsnull
+nullptr
 ;
 handle
 -
@@ -770,15 +770,15 @@ mMap
 }
 mFileData
 =
-nsnull
+nullptr
 ;
 mMap
 =
-nsnull
+nullptr
 ;
 mBuf
 =
-nsnull
+nullptr
 ;
 MOZ_COUNT_DTOR
 (
@@ -1367,11 +1367,11 @@ next
 MOZ_WIN_MEM_TRY_CATCH
 (
 return
-nsnull
+nullptr
 )
 }
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -2852,7 +2852,7 @@ ZIPLOCAL_SIZE
 len
 )
 return
-nsnull
+nullptr
 ;
 ZipLocal
 *
@@ -2884,7 +2884,7 @@ LOCALSIG
 )
 )
 return
-nsnull
+nullptr
 ;
 offset
 +
@@ -2921,7 +2921,7 @@ Size
 len
 )
 return
-nsnull
+nullptr
 ;
 return
 data
@@ -2931,7 +2931,7 @@ offset
 MOZ_WIN_MEM_TRY_CATCH
 (
 return
-nsnull
+nullptr
 )
 }
 bool
@@ -3671,7 +3671,7 @@ if
 isSynthetic
 )
 return
-nsnull
+nullptr
 ;
 MOZ_WIN_MEM_TRY_BEGIN
 const
@@ -3794,10 +3794,10 @@ blocksize
 MOZ_WIN_MEM_TRY_CATCH
 (
 return
-nsnull
+nullptr
 )
 return
-nsnull
+nullptr
 ;
 }
 PRTime
@@ -4105,7 +4105,7 @@ PRUint8
 *
 buf
 =
-nsnull
+nullptr
 ;
 bool
 verifyCRC
@@ -4120,7 +4120,7 @@ mZs
 next_in
 )
 return
-nsnull
+nullptr
 ;
 MOZ_WIN_MEM_TRY_BEGIN
 switch
@@ -4259,7 +4259,7 @@ zerr
 Z_STREAM_END
 )
 return
-nsnull
+nullptr
 ;
 *
 aBytesRead
@@ -4284,7 +4284,7 @@ break
 default
 :
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -4324,13 +4324,13 @@ CRC32
 )
 )
 return
-nsnull
+nullptr
 ;
 }
 MOZ_WIN_MEM_TRY_CATCH
 (
 return
-nsnull
+nullptr
 )
 return
 buf
@@ -4354,7 +4354,7 @@ doCRC
 :
 mReturnBuf
 (
-nsnull
+nullptr
 )
 {
 mZipHandle
@@ -4482,7 +4482,7 @@ underflow
 ;
 mReturnBuf
 =
-nsnull
+nullptr
 ;
 return
 ;

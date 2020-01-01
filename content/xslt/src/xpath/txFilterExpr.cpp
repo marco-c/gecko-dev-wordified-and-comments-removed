@@ -37,7 +37,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -107,7 +107,7 @@ exprRes
 ;
 exprRes
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <

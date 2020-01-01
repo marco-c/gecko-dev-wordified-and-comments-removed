@@ -884,7 +884,7 @@ VideoInfo
 {
 mSurfaceTexture
 =
-nsnull
+nullptr
 ;
 }
 nsRefPtr

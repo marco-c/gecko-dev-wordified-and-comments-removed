@@ -65,7 +65,7 @@ PRLogModuleInfo
 *
 gIOThreadPoolLog
 =
-nsnull
+nullptr
 ;
 #
 endif

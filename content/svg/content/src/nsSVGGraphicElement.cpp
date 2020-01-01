@@ -229,7 +229,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -325,7 +325,7 @@ IsSingular
 (
 )
 ?
-nsnull
+nullptr
 :
 new
 DOMSVGMatrix
@@ -376,7 +376,7 @@ IsSingular
 (
 )
 ?
-nsnull
+nullptr
 :
 new
 DOMSVGMatrix
@@ -423,7 +423,7 @@ rv
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -557,6 +557,7 @@ GetDOMWrapper
 (
 GetAnimatedTransformList
 (
+DO_ALLOCATE
 )
 this
 )
@@ -975,7 +976,7 @@ gfxMatrix
 aMatrix
 )
 :
-nsnull
+nullptr
 ;
 DidAnimateTransformList
 (
@@ -989,12 +990,21 @@ nsSVGGraphicElement
 :
 GetAnimatedTransformList
 (
+PRUint32
+aFlags
 )
 {
 if
 (
 !
 mTransforms
+&
+&
+(
+aFlags
+&
+DO_ALLOCATE
+)
 )
 {
 mTransforms

@@ -620,7 +620,7 @@ height
 rx
 &
 ry
-nsnull
+nullptr
 )
 ;
 if

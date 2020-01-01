@@ -386,7 +386,7 @@ aTable
 *
 aTable
 =
-nsnull
+nullptr
 ;
 nsIContent
 *
@@ -812,10 +812,10 @@ nsContentList
 (
 this
 IsCell
-nsnull
-nsnull
+nullptr
+nullptr
 false
-nsnull
+nullptr
 kNameSpaceID_XHTML
 false
 )
@@ -850,7 +850,7 @@ aValue
 *
 aValue
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1781,7 +1781,7 @@ nsGkAtoms
 height
 }
 {
-nsnull
+nullptr
 }
 }
 ;

@@ -1882,7 +1882,7 @@ idp
 {
 if
 (
-nsnull
+nullptr
 =
 =
 (
@@ -1926,7 +1926,7 @@ outp
 +
 )
 =
-nsnull
+nullptr
 ;
 allocatedValueCount
 +
@@ -2001,7 +2001,7 @@ str
 {
 if
 (
-nsnull
+nullptr
 =
 =
 (
@@ -2050,7 +2050,7 @@ outp
 +
 )
 =
-nsnull
+nullptr
 ;
 allocatedValueCount
 +
@@ -2125,7 +2125,7 @@ str
 {
 if
 (
-nsnull
+nullptr
 =
 =
 (
@@ -2174,7 +2174,7 @@ outp
 +
 )
 =
-nsnull
+nullptr
 ;
 allocatedValueCount
 +
@@ -2342,7 +2342,7 @@ outValue
 *
 outValue
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -5883,7 +5883,7 @@ else
 *
 _retval
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -6029,7 +6029,7 @@ iface
 *
 iface
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

@@ -188,7 +188,7 @@ aResolver
 >
 lookupNamespace
 (
-nsnull
+nullptr
 )
 :
 kNameSpaceID_None
@@ -233,14 +233,14 @@ PRUnichar
 *
 uriEnd
 =
-nsnull
+nullptr
 ;
 const
 PRUnichar
 *
 nameEnd
 =
-nsnull
+nullptr
 ;
 const
 PRUnichar
@@ -382,7 +382,7 @@ pos
 *
 aPrefix
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -404,7 +404,7 @@ pos
 *
 aPrefix
 =
-nsnull
+nullptr
 ;
 }
 *
@@ -539,7 +539,7 @@ else
 *
 aPrefix
 =
-nsnull
+nullptr
 ;
 *
 aLocalName

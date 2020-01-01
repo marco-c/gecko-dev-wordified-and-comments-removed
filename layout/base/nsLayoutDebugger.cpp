@@ -415,7 +415,7 @@ GetBottom
 i
 !
 =
-nsnull
+nullptr
 ;
 i
 =

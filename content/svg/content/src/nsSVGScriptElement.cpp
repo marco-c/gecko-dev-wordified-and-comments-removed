@@ -437,7 +437,7 @@ const
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -690,7 +690,7 @@ getter_AddRefs
 mUri
 )
 src
-nsnull
+nullptr
 baseURI
 )
 ;

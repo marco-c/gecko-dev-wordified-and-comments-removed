@@ -228,7 +228,7 @@ mResultContent
 )
 mResultFrame
 (
-nsnull
+nullptr
 )
 mContentOffset
 (
@@ -1363,12 +1363,16 @@ mMaintainedAmount
 PRInt32
 mBatching
 ;
+nsCOMPtr
+<
 nsIContent
-*
+>
 mLimiter
 ;
+nsCOMPtr
+<
 nsIContent
-*
+>
 mAncestorLimiter
 ;
 nsIPresShell

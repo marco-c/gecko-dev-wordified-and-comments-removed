@@ -59,7 +59,7 @@ Length
 1
 )
 :
-nsnull
+nullptr
 ;
 }
 inline
@@ -93,7 +93,7 @@ void
 *
 object
 =
-nsnull
+nullptr
 ;
 NS_ASSERTION
 (
@@ -239,7 +239,7 @@ Length
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return

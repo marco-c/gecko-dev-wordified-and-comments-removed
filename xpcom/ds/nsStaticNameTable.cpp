@@ -413,7 +413,7 @@ matchNameKeysCaseInsensitive
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
 PL_DHashFinalizeStub
-nsnull
+nullptr
 }
 ;
 nsStaticCaseInsensitiveNameTable
@@ -425,7 +425,7 @@ nsStaticCaseInsensitiveNameTable
 :
 mNameArray
 (
-nsnull
+nullptr
 )
 mNullStr
 (
@@ -442,7 +442,7 @@ mNameTable
 .
 ops
 =
-nsnull
+nullptr
 ;
 }
 nsStaticCaseInsensitiveNameTable
@@ -612,7 +612,7 @@ PL_DHashTableInit
 mNameTable
 &
 nametable_CaseInsensitiveHashTableOps
-nsnull
+nullptr
 sizeof
 (
 NameTableEntry
@@ -625,7 +625,7 @@ mNameTable
 .
 ops
 =
-nsnull
+nullptr
 ;
 return
 false

@@ -147,8 +147,8 @@ mStatus
 init
 (
 aStylesheetURI
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -400,7 +400,7 @@ mMappings
 >
 mapNamespace
 (
-nsnull
+nullptr
 attr
 -
 >
@@ -1214,7 +1214,7 @@ attr
 >
 mLocalName
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -1985,7 +1985,7 @@ aParam
 ;
 mObserver
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2354,7 +2354,7 @@ mStatus
 ;
 mObserver
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -2373,11 +2373,11 @@ aObserver
 :
 mHandlerTable
 (
-nsnull
+nullptr
 )
 mSorter
 (
-nsnull
+nullptr
 )
 mDOE
 (
@@ -2401,11 +2401,11 @@ false
 )
 mNextInstrPtr
 (
-nsnull
+nullptr
 )
 mToplevelIterator
 (
-nsnull
+nullptr
 )
 {
 mHandlerTable
@@ -3447,7 +3447,7 @@ compiler
 )
 =
 =
-nsnull
+nullptr
 )
 {
 return
@@ -3615,7 +3615,7 @@ compiler
 )
 =
 =
-nsnull
+nullptr
 )
 {
 return
@@ -3677,7 +3677,7 @@ aTargetPointer
 )
 =
 =
-nsnull
+nullptr
 )
 {
 return
@@ -3861,7 +3861,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_XPATH_BAD_EXTENSION_FUNCTION
@@ -4390,7 +4390,7 @@ txXPCOMFunctionMapping
 *
 sXPCOMFunctionMappings
 =
-nsnull
+nullptr
 ;
 static
 nsresult
@@ -4558,7 +4558,7 @@ txXPCOMFunctionMapping
 *
 map
 =
-nsnull
+nullptr
 ;
 PRUint32
 count
@@ -4753,7 +4753,7 @@ map
 mContractID
 aNamespaceID
 aName
-nsnull
+nullptr
 aResult
 )
 ;
@@ -4781,7 +4781,7 @@ txStylesheetCompiler
 EmptyString
 (
 )
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -4832,7 +4832,7 @@ aFunction
 *
 aFunction
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -4926,7 +4926,7 @@ sXPCOMFunctionMappings
 ;
 sXPCOMFunctionMappings
 =
-nsnull
+nullptr
 ;
 }
 txElementContext

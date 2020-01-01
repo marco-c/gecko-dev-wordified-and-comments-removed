@@ -764,7 +764,7 @@ if
 script
 -
 >
-hasJITInfo
+hasMJITInfo
 (
 )
 )
@@ -13811,7 +13811,9 @@ code
 skip
 (
 cx
-this
+thisForCtor
+(
+)
 )
 {
 if
@@ -13889,6 +13891,16 @@ lineno
 }
 private
 :
+BytecodeRangeWithLineNumbers
+*
+thisForCtor
+(
+)
+{
+return
+this
+;
+}
 void
 updateLine
 (

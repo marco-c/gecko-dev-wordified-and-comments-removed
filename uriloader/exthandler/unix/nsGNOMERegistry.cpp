@@ -540,7 +540,7 @@ stream
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -563,7 +563,7 @@ if
 gnomevfs
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -594,7 +594,7 @@ stream
 )
 )
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -634,7 +634,7 @@ aMIMEType
 NS_ENSURE_TRUE
 (
 mimeInfo
-nsnull
+nullptr
 )
 ;
 nsCAutoString
@@ -688,7 +688,7 @@ gioHandlerApp
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 gioHandlerApp
@@ -728,7 +728,7 @@ if
 gnomevfs
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -759,7 +759,7 @@ gnomeHandlerApp
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 gnomeHandlerApp

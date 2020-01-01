@@ -49,19 +49,19 @@ nsAuthSambaNTLM
 :
 mInitialMessage
 (
-nsnull
+nullptr
 )
 mChildPID
 (
-nsnull
+nullptr
 )
 mFromChildFD
 (
-nsnull
+nullptr
 )
 mToChildFD
 (
-nsnull
+nullptr
 )
 {
 }
@@ -103,7 +103,7 @@ mFromChildFD
 ;
 mFromChildFD
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -118,7 +118,7 @@ mToChildFD
 ;
 mToChildFD
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -138,7 +138,7 @@ exitCode
 ;
 mChildPID
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -317,7 +317,7 @@ aArgs
 0
 ]
 aArgs
-nsnull
+nullptr
 attr
 )
 ;
@@ -697,7 +697,7 @@ chars
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 PRInt32
@@ -761,7 +761,7 @@ PL_Base64Decode
 (
 s
 length
-nsnull
+nullptr
 )
 )
 ;
@@ -835,7 +835,7 @@ creds
 username
 "
 username
-nsnull
+nullptr
 }
 ;
 bool
@@ -1064,7 +1064,7 @@ char
 inToken
 )
 inTokenLen
-nsnull
+nullptr
 )
 ;
 if

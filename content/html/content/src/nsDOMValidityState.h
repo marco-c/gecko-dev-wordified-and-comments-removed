@@ -50,7 +50,7 @@ Disconnect
 {
 mConstraintValidation
 =
-nsnull
+nullptr
 ;
 }
 inline

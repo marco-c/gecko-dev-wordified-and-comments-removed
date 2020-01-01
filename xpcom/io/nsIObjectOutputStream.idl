@@ -500,7 +500,7 @@ nonnull
 aObject
 !
 =
-nsnull
+nullptr
 )
 ;
 nsresult
@@ -558,7 +558,7 @@ nonnull
 aObject
 !
 =
-nsnull
+nullptr
 )
 ;
 nsresult
@@ -621,7 +621,7 @@ nonnull
 aObject
 !
 =
-nsnull
+nullptr
 )
 ;
 nsresult

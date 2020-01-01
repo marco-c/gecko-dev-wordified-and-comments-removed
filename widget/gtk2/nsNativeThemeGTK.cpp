@@ -402,7 +402,7 @@ GetContent
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -847,7 +847,7 @@ nsIAtom
 *
 atom
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2709,10 +2709,6 @@ mFlags
 GtkTextDirection
 mDirection
 ;
-GdkWindow
-*
-mWindow
-;
 const
 GdkRectangle
 &
@@ -3928,8 +3924,8 @@ GetGtkWidgetAndState
 aWidgetType
 aFrame
 gtkWidgetType
-nsnull
-nsnull
+nullptr
+nullptr
 )
 )
 {
@@ -4090,8 +4086,8 @@ GetGtkWidgetAndState
 aWidgetType
 aFrame
 gtkWidgetType
-nsnull
-nsnull
+nullptr
+nullptr
 )
 )
 {

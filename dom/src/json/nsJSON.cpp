@@ -210,7 +210,7 @@ warningFlag
 DOM
 Core
 "
-nsnull
+nullptr
 nsContentUtils
 :
 :
@@ -1109,11 +1109,11 @@ nsJSONWriter
 :
 mStream
 (
-nsnull
+nullptr
 )
 mBuffer
 (
-nsnull
+nullptr
 )
 mBufferCount
 (
@@ -1125,7 +1125,7 @@ false
 )
 mEncoder
 (
-nsnull
+nullptr
 )
 {
 }
@@ -1145,7 +1145,7 @@ aStream
 )
 mBuffer
 (
-nsnull
+nullptr
 )
 mBufferCount
 (
@@ -1157,7 +1157,7 @@ false
 )
 mEncoder
 (
-nsnull
+nullptr
 )
 {
 }
@@ -1247,7 +1247,7 @@ nsIUnicodeEncoder
 :
 :
 kOnError_Signal
-nsnull
+nullptr
 '
 \
 0
@@ -1868,7 +1868,7 @@ jsonListener
 OnStartRequest
 (
 jsonChannel
-nsnull
+nullptr
 )
 ;
 if
@@ -1979,7 +1979,7 @@ jsonListener
 OnDataAvailable
 (
 jsonChannel
-nsnull
+nullptr
 aStream
 offset
 available
@@ -2033,7 +2033,7 @@ jsonListener
 OnStopRequest
 (
 jsonChannel
-nsnull
+nullptr
 status
 )
 ;
@@ -2375,7 +2375,7 @@ Truncate
 ;
 mDecoder
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -2414,7 +2414,7 @@ rv
 =
 ProcessBytes
 (
-nsnull
+nullptr
 0
 )
 ;

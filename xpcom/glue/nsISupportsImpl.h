@@ -652,7 +652,7 @@ e
 >
 mObject
 =
-nsnull
+nullptr
 ;
 }
 mTagged
@@ -820,7 +820,7 @@ mTagged
 >
 mObject
 =
-nsnull
+nullptr
 ;
 unmarkPurple
 (
@@ -2186,7 +2186,7 @@ _ptr
 )
 \
 {
-nsnull
+nullptr
 0
 }
 }
@@ -6602,7 +6602,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 \
 return
@@ -6630,7 +6630,7 @@ _contractID
 *
 _contractID
 =
-nsnull
+nullptr
 ;
 \
 return
@@ -6658,7 +6658,7 @@ _classDescription
 *
 _classDescription
 =
-nsnull
+nullptr
 ;
 \
 return
@@ -6686,7 +6686,7 @@ _classID
 *
 _classID
 =
-nsnull
+nullptr
 ;
 \
 return

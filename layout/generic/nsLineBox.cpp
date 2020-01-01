@@ -789,7 +789,7 @@ mInlineData
 }
 mData
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1987,7 +1987,7 @@ child
 >
 SetNextSibling
 (
-nsnull
+nullptr
 )
 ;
 child
@@ -2500,7 +2500,7 @@ mInlineData
 ;
 mInlineData
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2522,7 +2522,7 @@ mBlockData
 ;
 mBlockData
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2564,7 +2564,7 @@ Head
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 void
@@ -3205,7 +3205,7 @@ mNumLines
 *
 aFirstFrameOnLine
 =
-nsnull
+nullptr
 ;
 *
 aNumFramesOnLine
@@ -3450,12 +3450,12 @@ false
 *
 aFirstVisual
 =
-nsnull
+nullptr
 ;
 *
 aLastVisual
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -3612,7 +3612,7 @@ line
 *
 aFrameFound
 =
-nsnull
+nullptr
 ;
 *
 aXIsBeforeFirstFrame
@@ -3667,13 +3667,13 @@ nsIFrame
 *
 closestFromLeft
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
 closestFromRight
 =
-nsnull
+nullptr
 ;
 PRInt32
 n
@@ -3994,7 +3994,7 @@ nsFloatCacheList
 :
 mHead
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -4063,7 +4063,7 @@ next
 }
 mHead
 =
-nsnull
+nullptr
 ;
 }
 nsFloatCache
@@ -4197,13 +4197,13 @@ aList
 .
 mHead
 =
-nsnull
+nullptr
 ;
 aList
 .
 mTail
 =
-nsnull
+nullptr
 ;
 }
 nsFloatCache
@@ -4279,7 +4279,7 @@ nsFloatCache
 *
 prev
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -4337,7 +4337,7 @@ mNext
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 #
@@ -4352,7 +4352,7 @@ nsFloatCacheFreeList
 :
 mTail
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -4461,7 +4461,7 @@ aList
 .
 mHead
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -4518,7 +4518,7 @@ DeleteAll
 ;
 mTail
 =
-nsnull
+nullptr
 ;
 }
 nsFloatCache
@@ -4587,7 +4587,7 @@ mHead
 =
 mTail
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -4605,7 +4605,7 @@ fc
 >
 mNext
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -4658,7 +4658,7 @@ aFloat
 >
 mNext
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4719,11 +4719,11 @@ nsFloatCache
 :
 mFloat
 (
-nsnull
+nullptr
 )
 mNext
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR

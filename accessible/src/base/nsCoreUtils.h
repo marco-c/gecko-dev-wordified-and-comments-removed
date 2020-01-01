@@ -220,7 +220,7 @@ nsINode
 *
 aRootNode
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -629,7 +629,7 @@ aName
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 private

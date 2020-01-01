@@ -20,7 +20,7 @@ aBuffer
 :
 txAExprResult
 (
-nsnull
+nullptr
 )
 mBuffer
 (
@@ -90,7 +90,7 @@ mBuffer
 >
 mStringValue
 :
-nsnull
+nullptr
 ;
 }
 bool

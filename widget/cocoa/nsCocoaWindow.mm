@@ -712,7 +712,7 @@ nsCocoaWindow
 :
 mParent
 (
-nsnull
+nullptr
 )
 mWindow
 (
@@ -1040,7 +1040,7 @@ childWindow
 >
 mParent
 =
-nsnull
+nullptr
 ;
 kid
 =
@@ -3056,11 +3056,11 @@ mPopupContentView
 Create
 (
 thisAsWidget
-nsnull
+nullptr
 aRect
 aHandleEventFunction
 aContext
-nsnull
+nullptr
 )
 ;
 ChildView
@@ -3290,7 +3290,7 @@ mWindowType
 eWindowType_sheet
 )
 return
-nsnull
+nullptr
 ;
 nsCocoaWindow
 *
@@ -3355,7 +3355,7 @@ void
 *
 retVal
 =
-nsnull
+nullptr
 ;
 switch
 (
@@ -3431,7 +3431,7 @@ matter
 so
 just
 return
-nsnull
+nullptr
 .
 NS_ERROR
 (
@@ -4362,7 +4362,7 @@ nsCocoaWindow
 *
 sheetShown
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5258,7 +5258,7 @@ nsCocoaWindow
 *
 siblingSheetToShow
 =
-nsnull
+nullptr
 ;
 bool
 parentIsSheet
@@ -6483,7 +6483,7 @@ aAllowRetaining
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsTransparencyMode
@@ -8904,7 +8904,7 @@ GetNextSibling
 *
 _retval
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -9526,7 +9526,7 @@ mMenuBar
 >
 SetParent
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -9537,7 +9537,7 @@ mWindow
 {
 mMenuBar
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -9948,7 +9948,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
 ;
 gRollupListener
 =
-nsnull
+nullptr
 ;
 NS_IF_RELEASE
 (
@@ -10922,7 +10922,7 @@ GetThebesSurface
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP

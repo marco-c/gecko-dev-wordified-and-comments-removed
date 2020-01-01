@@ -1312,7 +1312,7 @@ mPointer
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 inline

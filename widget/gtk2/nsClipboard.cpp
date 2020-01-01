@@ -276,7 +276,7 @@ false
 )
 data
 (
-nsnull
+nullptr
 )
 {
 }
@@ -1410,7 +1410,7 @@ PRUnichar
 *
 htmlBody
 =
-nsnull
+nullptr
 ;
 PRInt32
 htmlBodyLen
@@ -1595,12 +1595,12 @@ mSelectionTransferable
 ;
 mSelectionOwner
 =
-nsnull
+nullptr
 ;
 }
 mSelectionTransferable
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -1620,12 +1620,12 @@ mGlobalTransferable
 ;
 mGlobalOwner
 =
-nsnull
+nullptr
 ;
 }
 mGlobalTransferable
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -2506,7 +2506,7 @@ void
 *
 primitive_data
 =
-nsnull
+nullptr
 ;
 nsPrimitiveHelpers
 :
@@ -4082,7 +4082,7 @@ context
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -4188,7 +4188,7 @@ context
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return

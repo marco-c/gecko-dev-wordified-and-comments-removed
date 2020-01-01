@@ -68,7 +68,7 @@ nsSprocketLayout
 :
 gInstance
 =
-nsnull
+nullptr
 ;
 #
 define
@@ -735,13 +735,13 @@ nsBoxSize
 *
 boxSizes
 =
-nsnull
+nullptr
 ;
 nsComputedBoxSize
 *
 computedBoxSizes
 =
-nsnull
+nullptr
 ;
 nscoord
 min
@@ -1051,7 +1051,7 @@ if
 childBoxSize
 =
 =
-nsnull
+nullptr
 )
 {
 NS_NOTREACHED
@@ -2531,7 +2531,7 @@ nsBoxSize
 *
 currentBox
 =
-nsnull
+nullptr
 ;
 #
 if
@@ -2688,7 +2688,7 @@ nsBoxSize
 *
 last
 =
-nsnull
+nullptr
 ;
 nscoord
 maxFlex
@@ -6265,7 +6265,7 @@ size
 ;
 next
 =
-nsnull
+nullptr
 ;
 }
 nsBoxSize
@@ -6305,7 +6305,7 @@ flex
 ;
 next
 =
-nsnull
+nullptr
 ;
 bogus
 =

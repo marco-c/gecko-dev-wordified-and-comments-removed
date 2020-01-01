@@ -124,6 +124,10 @@ SVGAnimatedTransformList
 *
 GetAnimatedTransformList
 (
+PRUint32
+aFlags
+=
+0
 )
 ;
 virtual

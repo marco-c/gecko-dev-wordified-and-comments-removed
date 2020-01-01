@@ -273,7 +273,7 @@ charset
 get
 (
 )
-nsnull
+nullptr
 io
 )
 ;
@@ -323,7 +323,7 @@ charset
 get
 (
 )
-nsnull
+nullptr
 io
 )
 ;
@@ -379,7 +379,7 @@ charset
 get
 (
 )
-nsnull
+nullptr
 io
 )
 ;
@@ -564,7 +564,7 @@ charset
 get
 (
 )
-nsnull
+nullptr
 io
 )
 ;
@@ -661,7 +661,7 @@ charset
 get
 (
 )
-nsnull
+nullptr
 io
 )
 ;
@@ -696,7 +696,7 @@ charset
 get
 (
 )
-nsnull
+nullptr
 io
 )
 ;
@@ -757,7 +757,7 @@ entry
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -820,7 +820,7 @@ contentBaseURI
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsresult

@@ -270,7 +270,7 @@ nsOfflineCacheUpdateService
 *
 gOfflineCacheUpdateService
 =
-nsnull
+nullptr
 ;
 typedef
 mozilla
@@ -689,7 +689,7 @@ mManifestURI
 mDocumentURI
 updateDoc
 window
-nsnull
+nullptr
 getter_AddRefs
 (
 update
@@ -859,7 +859,7 @@ nsOfflineCacheUpdateService
 {
 gOfflineCacheUpdateService
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -971,7 +971,7 @@ if
 gOfflineCacheUpdateService
 )
 return
-nsnull
+nullptr
 ;
 NS_ADDREF
 (
@@ -1002,7 +1002,7 @@ gOfflineCacheUpdateService
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -1517,7 +1517,7 @@ else
 *
 aUpdate
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -1803,9 +1803,9 @@ Schedule
 (
 aManifestURI
 aDocumentURI
-nsnull
+nullptr
 aWindow
-nsnull
+nullptr
 aUpdate
 )
 ;
@@ -1841,8 +1841,8 @@ Schedule
 (
 aManifestURI
 aDocumentURI
-nsnull
-nsnull
+nullptr
+nullptr
 aProfileDir
 aUpdate
 )

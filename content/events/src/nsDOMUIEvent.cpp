@@ -308,7 +308,7 @@ break
 }
 mView
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1023,7 +1023,7 @@ nsIFrame
 *
 targetFrame
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1048,7 +1048,7 @@ GetEventTarget
 *
 aRangeParent
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1144,7 +1144,7 @@ nsIFrame
 *
 targetFrame
 =
-nsnull
+nullptr
 ;
 if
 (

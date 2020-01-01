@@ -240,15 +240,15 @@ aNode
 )
 parent
 (
-nsnull
+nullptr
 )
 next
 (
-nsnull
+nullptr
 )
 previous
 (
-nsnull
+nullptr
 )
 level
 (
@@ -323,7 +323,7 @@ inDOMView
 {
 SetRootNode
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -341,7 +341,7 @@ inDOMView
 :
 name_
 =
-nsnull
+nullptr
 ;
 #
 include
@@ -547,7 +547,7 @@ AppendNode
 CreateNode
 (
 aNode
-nsnull
+nullptr
 )
 )
 ;
@@ -615,7 +615,7 @@ else
 {
 mRootDocument
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -651,7 +651,7 @@ inDOMViewNode
 *
 viewNode
 =
-nsnull
+nullptr
 ;
 RowToNode
 (
@@ -990,7 +990,7 @@ inDOMViewNode
 *
 node
 =
-nsnull
+nullptr
 ;
 RowToNode
 (
@@ -1437,7 +1437,7 @@ inDOMViewNode
 *
 node
 =
-nsnull
+nullptr
 ;
 RowToNode
 (
@@ -1701,7 +1701,7 @@ inDOMViewNode
 *
 node
 =
-nsnull
+nullptr
 ;
 RowToNode
 (
@@ -1747,7 +1747,7 @@ inDOMViewNode
 *
 node
 =
-nsnull
+nullptr
 ;
 RowToNode
 (
@@ -1793,7 +1793,7 @@ inDOMViewNode
 *
 node
 =
-nsnull
+nullptr
 ;
 RowToNode
 (
@@ -1843,7 +1843,7 @@ inDOMViewNode
 *
 node
 =
-nsnull
+nullptr
 ;
 RowToNode
 (
@@ -1889,7 +1889,7 @@ inDOMViewNode
 *
 node
 =
-nsnull
+nullptr
 ;
 RowToNode
 (
@@ -1916,7 +1916,7 @@ inDOMViewNode
 *
 checkNode
 =
-nsnull
+nullptr
 ;
 PRInt32
 i
@@ -2001,7 +2001,7 @@ inDOMViewNode
 *
 node
 =
-nsnull
+nullptr
 ;
 RowToNode
 (
@@ -2027,7 +2027,7 @@ node
 next
 !
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -2047,7 +2047,7 @@ inDOMViewNode
 *
 node
 =
-nsnull
+nullptr
 ;
 RowToNode
 (
@@ -2747,7 +2747,7 @@ inDOMViewNode
 *
 contentNode
 =
-nsnull
+nullptr
 ;
 PRInt32
 contentRow
@@ -2839,7 +2839,7 @@ inDOMViewNode
 *
 insertNode
 =
-nsnull
+nullptr
 ;
 RowToNode
 (
@@ -2926,7 +2926,7 @@ inDOMViewNode
 *
 contentNode
 =
-nsnull
+nullptr
 ;
 PRInt32
 contentRow
@@ -2991,7 +2991,7 @@ inDOMViewNode
 *
 checkNode
 =
-nsnull
+nullptr
 ;
 PRInt32
 row
@@ -3289,7 +3289,7 @@ inDOMViewNode
 *
 parentNode
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3373,7 +3373,7 @@ inDOMViewNode
 *
 previousNode
 =
-nsnull
+nullptr
 ;
 PRInt32
 row
@@ -3632,7 +3632,7 @@ oldNode
 previous
 =
 =
-nsnull
+nullptr
 &
 &
 oldNode
@@ -3641,7 +3641,7 @@ oldNode
 next
 =
 =
-nsnull
+nullptr
 ;
 PRInt32
 oldCount
@@ -4181,7 +4181,7 @@ inDOMViewNode
 *
 node
 =
-nsnull
+nullptr
 ;
 RowToNode
 (
@@ -4232,13 +4232,13 @@ inDOMViewNode
 *
 newNode
 =
-nsnull
+nullptr
 ;
 inDOMViewNode
 *
 prevNode
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -4331,7 +4331,7 @@ inDOMViewNode
 *
 node
 =
-nsnull
+nullptr
 ;
 nsresult
 rv

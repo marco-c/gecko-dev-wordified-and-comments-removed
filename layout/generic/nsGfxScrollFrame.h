@@ -338,7 +338,7 @@ Revoke
 {
 mInner
 =
-nsnull
+nullptr
 ;
 }
 private
@@ -378,7 +378,7 @@ Revoke
 {
 mInner
 =
-nsnull
+nullptr
 ;
 }
 private
@@ -418,7 +418,7 @@ Revoke
 {
 mInner
 =
-nsnull
+nullptr
 ;
 }
 private
@@ -657,7 +657,7 @@ nsRect
 *
 aRange
 =
-nsnull
+nullptr
 )
 {
 ScrollToWithOrigin
@@ -719,7 +719,7 @@ nsIAtom
 *
 aOrigin
 =
-nsnull
+nullptr
 )
 ;
 void
@@ -1847,7 +1847,7 @@ nsRect
 *
 aRange
 =
-nsnull
+nullptr
 )
 {
 mInner
@@ -1893,7 +1893,7 @@ nsIAtom
 *
 aOrigin
 =
-nsnull
+nullptr
 )
 {
 mInner
@@ -2888,7 +2888,7 @@ nsRect
 *
 aRange
 =
-nsnull
+nullptr
 )
 {
 mInner
@@ -2934,7 +2934,7 @@ nsIAtom
 *
 aOrigin
 =
-nsnull
+nullptr
 )
 {
 mInner

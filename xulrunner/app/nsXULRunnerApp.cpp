@@ -566,7 +566,7 @@ GetGREVersion
 argv0
 &
 milestone
-nsnull
+nullptr
 )
 ;
 Output
@@ -816,8 +816,8 @@ NSFuncPtr
 XRE_main
 }
 {
-nsnull
-nsnull
+nullptr
+nullptr
 }
 }
 ;
@@ -1028,9 +1028,9 @@ rv
 =
 NS_InitXPCOM2
 (
-nsnull
+nullptr
 aXULRunnerDir
-nsnull
+nullptr
 )
 ;
 if
@@ -1099,7 +1099,7 @@ leafName
 }
 NS_ShutdownXPCOM
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -1130,7 +1130,7 @@ aINIFile
 :
 mAppData
 (
-nsnull
+nullptr
 )
 {
 nsresult
@@ -1152,7 +1152,7 @@ rv
 )
 mAppData
 =
-nsnull
+nullptr
 ;
 }
 ~
@@ -1543,7 +1543,7 @@ argv
 ]
 &
 milestone
-nsnull
+nullptr
 )
 ;
 if
@@ -1664,7 +1664,7 @@ char
 *
 installTo
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1688,14 +1688,14 @@ installTo
 )
 installTo
 =
-nsnull
+nullptr
 ;
 }
 char
 *
 leafName
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1719,7 +1719,7 @@ leafName
 )
 leafName
 =
-nsnull
+nullptr
 ;
 }
 nsCOMPtr

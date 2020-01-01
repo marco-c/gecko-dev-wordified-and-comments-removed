@@ -530,7 +530,7 @@ aReturn
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -912,7 +912,7 @@ GetStyleSheet
 (
 )
 :
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -936,7 +936,7 @@ aCSSParseEnv
 .
 mPrincipal
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -998,7 +998,7 @@ CSSLoader
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 nsresult

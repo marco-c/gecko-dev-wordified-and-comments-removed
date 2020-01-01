@@ -571,7 +571,7 @@ eMathMLFrameType
 *
 aMathMLFrameType
 =
-nsnull
+nullptr
 )
 ;
 void
@@ -659,7 +659,7 @@ nsIFrame
 *
 aStop
 =
-nsnull
+nullptr
 )
 ;
 private

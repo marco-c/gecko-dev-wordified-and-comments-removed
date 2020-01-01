@@ -535,11 +535,11 @@ rv
 ;
 testURI
 =
-nsnull
+nullptr
 ;
 testLink
 =
-nsnull
+nullptr
 ;
 run_next_test
 (

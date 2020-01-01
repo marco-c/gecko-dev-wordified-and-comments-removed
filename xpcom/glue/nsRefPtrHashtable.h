@@ -96,7 +96,7 @@ bool
 *
 aFound
 =
-nsnull
+nullptr
 )
 const
 ;
@@ -242,7 +242,7 @@ pRefPtr
 *
 pRefPtr
 =
-nsnull
+nullptr
 ;
 return
 false
@@ -321,7 +321,7 @@ aFound
 false
 ;
 return
-nsnull
+nullptr
 ;
 }
 template
@@ -417,7 +417,7 @@ pRefPtr
 *
 pRefPtr
 =
-nsnull
+nullptr
 ;
 PR_Unlock
 (

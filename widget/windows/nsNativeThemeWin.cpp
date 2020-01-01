@@ -6424,7 +6424,7 @@ vpOrg
 HPEN
 hPen
 =
-nsnull
+nullptr
 ;
 PRUint8
 id

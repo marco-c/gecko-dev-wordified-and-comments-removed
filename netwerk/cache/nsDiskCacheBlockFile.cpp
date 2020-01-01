@@ -521,7 +521,7 @@ NS_ERROR_UNEXPECTED
 ;
 mFD
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -536,7 +536,7 @@ mBitMap
 ;
 mBitMap
 =
-nsnull
+nullptr
 ;
 }
 return

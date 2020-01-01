@@ -381,7 +381,7 @@ nsIDOMNode
 *
 DOMNode
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -831,7 +831,7 @@ childCount
 1
 )
 :
-nsnull
+nullptr
 ;
 }
 PRUint32
@@ -1306,7 +1306,7 @@ AsTable
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 inline
@@ -1637,7 +1637,7 @@ nsresult
 *
 aError
 =
-nsnull
+nullptr
 )
 const
 ;
@@ -1898,7 +1898,7 @@ nsIContent
 *
 aContent
 =
-nsnull
+nullptr
 PRUint32
 aActionIndex
 =

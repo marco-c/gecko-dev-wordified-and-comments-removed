@@ -238,7 +238,7 @@ cpc
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsPrefBranch
@@ -2429,7 +2429,7 @@ aChildArray
 *
 aChildArray
 =
-nsnull
+nullptr
 ;
 *
 aCount
@@ -3074,7 +3074,7 @@ Enumerate
 (
 &
 FreeObserverFunc
-nsnull
+nullptr
 )
 ;
 mFreeingObserverList

@@ -712,7 +712,7 @@ nsITreeBoxObject
 *
 result
 =
-nsnull
+nullptr
 ;
 nsIContent
 *

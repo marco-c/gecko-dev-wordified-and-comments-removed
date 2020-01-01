@@ -1045,7 +1045,7 @@ if
 address
 )
 return
-nsnull
+nullptr
 ;
 return
 *
@@ -1114,7 +1114,7 @@ sIOSurfaceFramework
 ;
 sIOSurfaceFramework
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -1364,11 +1364,11 @@ sOpenGLFramework
 }
 sIOSurfaceFramework
 =
-nsnull
+nullptr
 ;
 sOpenGLFramework
 =
-nsnull
+nullptr
 ;
 }
 nsIOSurface
@@ -1411,7 +1411,7 @@ isInit
 )
 )
 return
-nsnull
+nullptr
 ;
 CFMutableDictionaryRef
 props
@@ -1434,7 +1434,7 @@ if
 props
 )
 return
-nsnull
+nullptr
 ;
 int32_t
 bytesPerElem
@@ -1573,7 +1573,7 @@ if
 surfaceRef
 )
 return
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -1601,7 +1601,7 @@ surfaceRef
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -1636,7 +1636,7 @@ isInit
 )
 )
 return
-nsnull
+nullptr
 ;
 IOSurfacePtr
 surfaceRef
@@ -1655,7 +1655,7 @@ if
 surfaceRef
 )
 return
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -1683,7 +1683,7 @@ surfaceRef
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -2041,12 +2041,12 @@ CreateSystemColorSpace
 CMProfileRef
 system_profile
 =
-nsnull
+nullptr
 ;
 CGColorSpaceRef
 cspace
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2187,7 +2187,7 @@ caRenderer
 .
 layer
 =
-nsnull
+nullptr
 ;
 [
 caRenderer
@@ -2344,15 +2344,15 @@ mFBOTexture
 ;
 mOpenGLContext
 =
-nsnull
+nullptr
 ;
 mCGImage
 =
-nsnull
+nullptr
 ;
 mIOSurface
 =
-nsnull
+nullptr
 ;
 mFBO
 =
@@ -2432,7 +2432,7 @@ CARenderer
 *
 caRenderer
 =
-nsnull
+nullptr
 ;
 CGLPixelFormatAttribute
 attributes
@@ -2518,7 +2518,7 @@ if
 CGLCreateContext
 (
 format
-nsnull
+nullptr
 &
 mOpenGLContext
 )
@@ -2673,7 +2673,7 @@ aHeight
 CGDataProviderRef
 dataProvider
 =
-nsnull
+nullptr
 ;
 dataProvider
 =
@@ -3485,7 +3485,7 @@ surface
 .
 aSurface
 =
-nsnull
+nullptr
 ;
 return
 ;

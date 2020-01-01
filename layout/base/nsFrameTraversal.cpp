@@ -447,7 +447,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -720,7 +720,7 @@ if
 mOffEdge
 )
 return
-nsnull
+nullptr
 ;
 return
 mCurrent
@@ -901,7 +901,7 @@ nsIFrame
 *
 result
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -1086,7 +1086,7 @@ scrollFrame
 {
 result
 =
-nsnull
+nullptr
 ;
 break
 ;
@@ -1142,7 +1142,7 @@ nsIFrame
 *
 result
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -1327,7 +1327,7 @@ scrollFrame
 {
 result
 =
-nsnull
+nullptr
 ;
 break
 ;
@@ -1408,7 +1408,7 @@ GetParent
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsIFrame
@@ -1463,7 +1463,7 @@ parent
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsIFrame
@@ -1509,7 +1509,7 @@ nsGkAtoms
 scrollFrame
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -1591,7 +1591,7 @@ nsGkAtoms
 scrollFrame
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -1646,7 +1646,7 @@ nsIFrame
 *
 result
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1726,7 +1726,7 @@ nsIFrame
 *
 result
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2004,7 +2004,7 @@ PrincipalChildList
 .
 GetNextVisualFor
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -2030,7 +2030,7 @@ PrincipalChildList
 .
 GetPrevVisualFor
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -2061,7 +2061,7 @@ if
 parent
 )
 return
-nsnull
+nullptr
 ;
 return
 parent
@@ -2104,7 +2104,7 @@ if
 parent
 )
 return
-nsnull
+nullptr
 ;
 return
 parent

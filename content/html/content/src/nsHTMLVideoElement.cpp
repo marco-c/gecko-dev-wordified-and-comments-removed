@@ -334,7 +334,7 @@ nsGkAtoms
 :
 :
 src
-nsnull
+nullptr
 aValue
 )
 ;
@@ -553,7 +553,7 @@ nsGkAtoms
 height
 }
 {
-nsnull
+nullptr
 }
 }
 ;

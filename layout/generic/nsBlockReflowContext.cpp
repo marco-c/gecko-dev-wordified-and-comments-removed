@@ -315,7 +315,7 @@ nsBlockFrame
 *
 block
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -366,7 +366,7 @@ topMarginRoot
 {
 block
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -458,7 +458,7 @@ frames
 >
 mLines
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -1435,7 +1435,7 @@ GetNextInFlow
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 kidNextInFlow

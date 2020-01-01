@@ -369,7 +369,7 @@ PRInt32
 *
 aIndexes
 =
-nsnull
+nullptr
 )
 ;
 nsIContent
@@ -386,7 +386,7 @@ PRInt32
 *
 aIndexes
 =
-nsnull
+nullptr
 )
 ;
 nsINode
@@ -403,7 +403,7 @@ PRInt32
 *
 aIndexes
 =
-nsnull
+nullptr
 )
 ;
 nsIContent
@@ -420,7 +420,7 @@ PRInt32
 *
 aIndexes
 =
-nsnull
+nullptr
 )
 ;
 nsIContent
@@ -437,7 +437,7 @@ PRInt32
 *
 aIndexes
 =
-nsnull
+nullptr
 )
 ;
 nsIContent
@@ -454,7 +454,7 @@ PRInt32
 *
 aIndexes
 =
-nsnull
+nullptr
 )
 ;
 nsINode
@@ -471,7 +471,7 @@ PRInt32
 *
 aIndexes
 =
-nsnull
+nullptr
 )
 ;
 nsINode
@@ -488,7 +488,7 @@ PRInt32
 *
 aIndexes
 =
-nsnull
+nullptr
 )
 ;
 nsresult
@@ -941,7 +941,7 @@ nsIContent
 *
 cChild
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1011,7 +1011,7 @@ endIndx
 {
 mFirst
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1054,7 +1054,7 @@ else
 {
 mFirst
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1099,7 +1099,7 @@ endIndx
 {
 mFirst
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1167,7 +1167,7 @@ else
 {
 mLast
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1202,7 +1202,7 @@ endIndx
 {
 mLast
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1287,7 +1287,7 @@ endIndx
 {
 mLast
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1311,11 +1311,11 @@ mLast
 {
 mFirst
 =
-nsnull
+nullptr
 ;
 mLast
 =
-nsnull
+nullptr
 ;
 }
 mCurNode
@@ -1447,19 +1447,19 @@ MakeEmpty
 {
 mCurNode
 =
-nsnull
+nullptr
 ;
 mFirst
 =
-nsnull
+nullptr
 ;
 mLast
 =
-nsnull
+nullptr
 ;
 mCommonParent
 =
-nsnull
+nullptr
 ;
 mIsDone
 =
@@ -1561,7 +1561,7 @@ aRoot
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIContent
@@ -1714,7 +1714,7 @@ aRoot
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIContent
@@ -1809,7 +1809,7 @@ aNode
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsINode
@@ -1830,7 +1830,7 @@ parent
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 PRInt32
@@ -2068,7 +2068,7 @@ aNode
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsINode
@@ -2089,7 +2089,7 @@ parent
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 PRInt32
@@ -2398,7 +2398,7 @@ nsIContent
 *
 sibling
 =
-nsnull
+nullptr
 ;
 PRInt32
 indx
@@ -2655,7 +2655,7 @@ nsIContent
 *
 sibling
 =
-nsnull
+nullptr
 ;
 PRInt32
 indx
@@ -2977,7 +2977,7 @@ mIsDone
 mFirst
 =
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -3038,7 +3038,7 @@ mIsDone
 mLast
 =
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -3631,7 +3631,7 @@ mIsDone
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_ASSERTION
@@ -4054,13 +4054,13 @@ nsIContent
 *
 firstCandidate
 =
-nsnull
+nullptr
 ;
 nsIContent
 *
 lastCandidate
 =
-nsnull
+nullptr
 ;
 PRInt32
 offset
@@ -4380,7 +4380,7 @@ mIsDone
 mFirst
 =
 =
-nsnull
+nullptr
 ;
 mCurNode
 =
@@ -4400,7 +4400,7 @@ mIsDone
 mLast
 =
 =
-nsnull
+nullptr
 ;
 mCurNode
 =
@@ -4530,7 +4530,7 @@ mIsDone
 mCurNode
 =
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -4603,7 +4603,7 @@ mIsDone
 mCurNode
 =
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -4658,7 +4658,7 @@ GetNodeParent
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIContent
@@ -4736,7 +4736,7 @@ nodeAfter
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 while

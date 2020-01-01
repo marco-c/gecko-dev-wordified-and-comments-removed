@@ -142,7 +142,7 @@ JSVAL_TO_OBJECT
 (
 mJSVal
 )
-nsnull
+nullptr
 &
 proto
 )
@@ -418,7 +418,7 @@ wstr
 .
 mWStringValue
 =
-nsnull
+nullptr
 ;
 nsVariant
 :
@@ -537,7 +537,7 @@ if
 variant
 )
 return
-nsnull
+nullptr
 ;
 NS_ADDREF
 (
@@ -1635,7 +1635,7 @@ len
 type
 &
 id
-nsnull
+nullptr
 )
 )
 return
@@ -1717,7 +1717,7 @@ nsISupports
 )
 ;
 return
-nsnull
+nullptr
 !
 =
 (
@@ -2885,7 +2885,7 @@ nsID
 *
 pid
 =
-nsnull
+nullptr
 ;
 switch
 (
@@ -3209,7 +3209,7 @@ JS_NewArrayObject
 (
 cx
 0
-nsnull
+nullptr
 )
 ;
 if

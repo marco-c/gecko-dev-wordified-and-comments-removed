@@ -50,7 +50,7 @@ nsCString
 *
 gVolumeList
 =
-nsnull
+nullptr
 ;
 static
 bool
@@ -294,7 +294,7 @@ gVolumeList
 ;
 gVolumeList
 =
-nsnull
+nullptr
 ;
 }
 static
@@ -712,7 +712,7 @@ get
 )
 &
 testRef
-nsnull
+nullptr
 )
 !
 =

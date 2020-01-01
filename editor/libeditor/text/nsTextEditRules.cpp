@@ -312,7 +312,7 @@ nsTextEditRules
 :
 mEditor
 (
-nsnull
+nullptr
 )
 mPasswordText
 (
@@ -576,7 +576,7 @@ Cancel
 ;
 mEditor
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -775,9 +775,9 @@ action
 selection
 mCachedSelectionNode
 mCachedSelectionOffset
-nsnull
+nullptr
 0
-nsnull
+nullptr
 0
 )
 ;
@@ -1267,7 +1267,7 @@ aDocumentIsEmpty
 mBogusNode
 !
 =
-nsnull
+nullptr
 )
 ;
 return
@@ -1318,7 +1318,7 @@ mBogusNode
 ;
 mBogusNode
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -1806,7 +1806,7 @@ selOffset
 NS_ENSURE_SUCCESS
 (
 res
-nsnull
+nullptr
 )
 ;
 if
@@ -1835,7 +1835,7 @@ selNode
 NS_ENSURE_TRUE
 (
 node
-nsnull
+nullptr
 )
 ;
 nsNodeIterator
@@ -1846,7 +1846,7 @@ nsIDOMNodeFilter
 :
 :
 SHOW_TEXT
-nsnull
+nullptr
 )
 ;
 while
@@ -1884,7 +1884,7 @@ selNode
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -3730,7 +3730,7 @@ else
 {
 mBogusNode
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -3903,7 +3903,7 @@ len
 {
 mBogusNode
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -3951,7 +3951,7 @@ else
 {
 mBogusNode
 =
-nsnull
+nullptr
 ;
 }
 }

@@ -1510,7 +1510,7 @@ mOuterFocusStyle
 default
 :
 return
-nsnull
+nullptr
 ;
 }
 }

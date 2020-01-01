@@ -351,7 +351,7 @@ nsScriptSecurityManager
 :
 ReportError
 (
-nsnull
+nullptr
 NS_LITERAL_STRING
 (
 "

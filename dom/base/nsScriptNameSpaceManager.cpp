@@ -596,7 +596,7 @@ entry
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -931,7 +931,7 @@ char
 *
 if_name
 =
-nsnull
+nullptr
 ;
 const
 nsIID
@@ -1614,7 +1614,7 @@ PL_DHashTableInit
 mGlobalNames
 &
 hash_table_ops
-nsnull
+nullptr
 sizeof
 (
 GlobalNameMapEntry
@@ -1636,7 +1636,7 @@ PL_DHashTableInit
 mNavigatorNames
 &
 hash_table_ops
-nsnull
+nullptr
 sizeof
 (
 GlobalNameMapEntry
@@ -2100,11 +2100,11 @@ aClassName
 *
 aClassName
 =
-nsnull
+nullptr
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -2182,7 +2182,7 @@ else
 *
 aNameStruct
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -2826,7 +2826,7 @@ u
 .
 mExternalConstructorFptr
 =
-nsnull
+nullptr
 ;
 s
 -
@@ -2836,7 +2836,7 @@ mData
 >
 mCachedClassInfo
 =
-nsnull
+nullptr
 ;
 s
 -
@@ -3342,7 +3342,7 @@ mAlias
 >
 mProto
 =
-nsnull
+nullptr
 ;
 }
 else

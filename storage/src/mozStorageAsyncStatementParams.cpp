@@ -73,7 +73,7 @@ NS_ASSERTION
 mStatement
 !
 =
-nsnull
+nullptr
 "
 mStatement
 is
@@ -368,8 +368,8 @@ aCtx
 aScopeObj
 idx
 JSVAL_VOID
-nsnull
-nsnull
+nullptr
+nullptr
 0
 )
 ;
@@ -397,8 +397,8 @@ aCtx
 aScopeObj
 aId
 JSVAL_VOID
-nsnull
-nsnull
+nullptr
+nullptr
 0
 )
 ;
@@ -422,7 +422,7 @@ ok
 ?
 aScopeObj
 :
-nsnull
+nullptr
 ;
 return
 NS_OK

@@ -86,7 +86,7 @@ aEvent
 ;
 sEventTargetNode
 =
-nsnull
+nullptr
 ;
 }
 void

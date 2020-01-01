@@ -217,7 +217,7 @@ nsDragService
 :
 mDataObject
 (
-nsnull
+nullptr
 )
 mSentLocalDropEvent
 (
@@ -772,7 +772,7 @@ nsIURI
 *
 uri
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1420,7 +1420,7 @@ nsDataObjCollection
 *
 dataObjCol
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1757,7 +1757,7 @@ GetDataFromDataObject
 (
 dataObj
 0
-nsnull
+nullptr
 aTransferable
 )
 ;
@@ -1794,7 +1794,7 @@ GetDataFromDataObject
 (
 mDataObject
 anItem
-nsnull
+nullptr
 aTransferable
 )
 ;
@@ -1838,7 +1838,7 @@ GetDataFromDataObject
 (
 mDataObject
 anItem
-nsnull
+nullptr
 aTransferable
 )
 ;

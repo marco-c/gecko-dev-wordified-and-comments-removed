@@ -2029,7 +2029,7 @@ hb_face_create_for_tables
 (
 GetTableForHarfBuzz
 aFontEntry
-nsnull
+nullptr
 )
 ;
 unsigned
@@ -2918,7 +2918,7 @@ MacOSFontEntry
 (
 aPostscriptName
 aWeight
-nsnull
+nullptr
 false
 )
 {
@@ -2979,7 +2979,7 @@ mIsUserFont
 aUserFontData
 !
 =
-nsnull
+nullptr
 )
 |
 |
@@ -3069,7 +3069,7 @@ kInvalidFont
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 mFontRef
@@ -3363,7 +3363,7 @@ MacOSFontEntry
 (
 aPostscriptName
 aWeight
-nsnull
+nullptr
 false
 )
 {
@@ -4783,7 +4783,7 @@ kATSGenerationInitial
 )
 mDefaultFont
 (
-nsnull
+nullptr
 )
 {
 :
@@ -4797,7 +4797,7 @@ void
 *
 )
 this
-nsnull
+nullptr
 )
 ;
 /
@@ -5310,7 +5310,7 @@ fontEntry
 =
 LookupLocalFont
 (
-nsnull
+nullptr
 singleFaceFonts
 [
 i
@@ -5979,7 +5979,7 @@ str
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 len
@@ -6000,7 +6000,7 @@ gfxFontEntry
 *
 fontEntry
 =
-nsnull
+nullptr
 ;
 CTFontRef
 fallback
@@ -6198,7 +6198,7 @@ aCh
 {
 fontEntry
 =
-nsnull
+nullptr
 ;
 cantUseFallbackFont
 =
@@ -6446,7 +6446,7 @@ kInvalidFont
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -6504,7 +6504,7 @@ mItalic
 NS_FONT_STYLE_ITALIC
 :
 NS_FONT_STYLE_NORMAL
-nsnull
+nullptr
 true
 )
 ;
@@ -6521,7 +6521,7 @@ fontRef
 400
 0
 NS_FONT_STYLE_NORMAL
-nsnull
+nullptr
 false
 )
 ;
@@ -6559,7 +6559,7 @@ fontRef
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -6803,7 +6803,7 @@ rv
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 CGDataProviderRef
@@ -6813,7 +6813,7 @@ provider
 :
 CGDataProviderCreateWithData
 (
-nsnull
+nullptr
 aFontData
 aLength
 &
@@ -6844,7 +6844,7 @@ fontRef
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsAutoPtr
@@ -6986,7 +6986,7 @@ warnBuf
 #
 endif
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -7374,7 +7374,7 @@ warnBuf
 #
 endif
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -7479,7 +7479,7 @@ kATSOptionFlagsDefault
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -7691,7 +7691,7 @@ rv
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 /
@@ -7943,6 +7943,6 @@ use
 this
 font
 return
-nsnull
+nullptr
 ;
 }

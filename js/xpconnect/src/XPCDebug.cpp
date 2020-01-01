@@ -165,7 +165,7 @@ char
 *
 value
 =
-nsnull
+nullptr
 ;
 JSString
 *
@@ -292,7 +292,7 @@ callProps
 =
 {
 0
-nsnull
+nullptr
 }
 ;
 JSPropertyDescArray
@@ -300,7 +300,7 @@ thisProps
 =
 {
 0
-nsnull
+nullptr
 }
 ;
 JSBool
@@ -315,13 +315,13 @@ JSObject
 *
 callObj
 =
-nsnull
+nullptr
 ;
 JSString
 *
 funname
 =
-nsnull
+nullptr
 ;
 JSAutoByteString
 funbytes
@@ -331,7 +331,7 @@ char
 *
 filename
 =
-nsnull
+nullptr
 ;
 PRInt32
 lineno
@@ -342,7 +342,7 @@ JSFunction
 *
 fun
 =
-nsnull
+nullptr
 ;
 uint32_t
 namedArgCount
@@ -480,7 +480,7 @@ callProps
 .
 array
 =
-nsnull
+nullptr
 ;
 }
 gotThisVal
@@ -526,7 +526,7 @@ thisProps
 .
 array
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -666,7 +666,7 @@ isString
 )
 name
 =
-nsnull
+nullptr
 ;
 JSAutoByteString
 valueBytes
@@ -1078,7 +1078,7 @@ desc
 -
 >
 id
-nsnull
+nullptr
 &
 nameBytes
 )
@@ -1180,7 +1180,7 @@ thisValBytes
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 (
@@ -1325,7 +1325,7 @@ desc
 -
 >
 id
-nsnull
+nullptr
 &
 nameBytes
 )
@@ -1470,7 +1470,7 @@ JSStackFrame
 *
 iter
 =
-nsnull
+nullptr
 ;
 int
 num
@@ -1479,7 +1479,7 @@ num
 ;
 while
 (
-nsnull
+nullptr
 !
 =
 (
@@ -1649,7 +1649,7 @@ buf
 FormatJSStackDump
 (
 cx
-nsnull
+nullptr
 showArgs
 showLocals
 showThisProps
@@ -1741,7 +1741,7 @@ JSStackFrame
 *
 iter
 =
-nsnull
+nullptr
 ;
 uint32_t
 num
@@ -1800,7 +1800,7 @@ text
 ;
 while
 (
-nsnull
+nullptr
 !
 =
 (
@@ -1909,7 +1909,7 @@ rval
 )
 &
 &
-nsnull
+nullptr
 !
 =
 (
@@ -2154,7 +2154,7 @@ JS_SetDebuggerHandler
 (
 rt
 xpc_DebuggerKeywordHandler
-nsnull
+nullptr
 )
 ;
 }
@@ -2753,11 +2753,11 @@ GetJSRuntime
 (
 )
 stdout
-nsnull
+nullptr
 JSTRACE_OBJECT
 p
 0x7fffffff
-nsnull
+nullptr
 )
 ;
 }

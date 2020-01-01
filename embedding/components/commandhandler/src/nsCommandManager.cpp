@@ -105,7 +105,7 @@ nsCommandManager
 :
 mWindow
 (
-nsnull
+nullptr
 )
 {
 }
@@ -656,7 +656,7 @@ get
 )
 !
 =
-nsnull
+nullptr
 )
 ;
 return
@@ -997,7 +997,7 @@ NS_ERROR_FAILURE
 *
 outController
 =
-nsnull
+nullptr
 ;
 bool
 isChrome

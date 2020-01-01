@@ -756,7 +756,7 @@ sGEUS_ElementCounts
 Enumerate
 (
 GEUS_enum_func
-nsnull
+nullptr
 )
 ;
 printf
@@ -1667,7 +1667,7 @@ slots
 >
 mDataset
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -2064,7 +2064,7 @@ aOffsetParent
 *
 aOffsetParent
 =
-nsnull
+nullptr
 ;
 aRect
 =
@@ -2788,7 +2788,7 @@ else
 *
 aOffsetParent
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -3631,7 +3631,7 @@ aFirst
 :
 mLast
 (
-nsnull
+nullptr
 )
 mLength
 (
@@ -6452,7 +6452,7 @@ mozAutoSubtreeModified
 subtree
 (
 doc
-nsnull
+nullptr
 )
 ;
 FireNodeRemovedForChildren
@@ -6990,7 +6990,7 @@ nsGkAtoms
 :
 :
 body
-nsnull
+nullptr
 kNameSpaceID_XHTML
 nsIDOMNode
 :
@@ -7249,7 +7249,7 @@ mozAutoSubtreeModified
 subtree
 (
 doc
-nsnull
+nullptr
 )
 ;
 nsresult
@@ -7728,7 +7728,7 @@ nsGkAtoms
 :
 :
 _false
-nsnull
+nullptr
 }
 ;
 switch
@@ -8327,7 +8327,7 @@ properties
 >
 SetDocument
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -8585,7 +8585,7 @@ aCurrentForm
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -8834,7 +8834,7 @@ return
 aURI
 !
 =
-nsnull
+nullptr
 ;
 }
 already_AddRefed
@@ -8861,7 +8861,7 @@ nsGkAtoms
 :
 :
 href
-nsnull
+nullptr
 getter_AddRefs
 (
 uri
@@ -9159,7 +9159,7 @@ true
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -10008,7 +10008,7 @@ form_frame
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -10034,7 +10034,7 @@ aPresState
 *
 aPresState
 =
-nsnull
+nullptr
 ;
 nsresult
 result
@@ -10145,7 +10145,7 @@ doc
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -10168,7 +10168,7 @@ history
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -10186,7 +10186,7 @@ HasStates
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -10215,7 +10215,7 @@ rv
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -10228,7 +10228,7 @@ IsEmpty
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 aKey
@@ -10391,7 +10391,7 @@ GetPresContext
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -11382,7 +11382,7 @@ nsGkAtoms
 hidden
 }
 {
-nsnull
+nullptr
 }
 }
 ;
@@ -11428,7 +11428,7 @@ nsGkAtoms
 vspace
 }
 {
-nsnull
+nullptr
 }
 }
 ;
@@ -11453,7 +11453,7 @@ nsGkAtoms
 align
 }
 {
-nsnull
+nullptr
 }
 }
 ;
@@ -11478,7 +11478,7 @@ nsGkAtoms
 align
 }
 {
-nsnull
+nullptr
 }
 }
 ;
@@ -11503,7 +11503,7 @@ nsGkAtoms
 border
 }
 {
-nsnull
+nullptr
 }
 }
 ;
@@ -11535,7 +11535,7 @@ nsGkAtoms
 bgcolor
 }
 {
-nsnull
+nullptr
 }
 }
 ;
@@ -11560,7 +11560,7 @@ nsGkAtoms
 bgcolor
 }
 {
-nsnull
+nullptr
 }
 }
 ;
@@ -11585,7 +11585,7 @@ nsGkAtoms
 scrolling
 }
 {
-nsnull
+nullptr
 }
 }
 ;
@@ -14076,7 +14076,7 @@ const
 *
 aURI
 =
-nsnull
+nullptr
 ;
 const
 nsAttrValue
@@ -14815,7 +14815,7 @@ aContextMenu
 *
 aContextMenu
 =
-nsnull
+nullptr
 ;
 nsAutoString
 value
@@ -14938,11 +14938,11 @@ aNodeInfo
 )
 mForm
 (
-nsnull
+nullptr
 )
 mFieldSet
 (
-nsnull
+nullptr
 )
 {
 }
@@ -15111,7 +15111,7 @@ NS_ASSERTION
 mForm
 !
 =
-nsnull
+nullptr
 )
 =
 =
@@ -15226,7 +15226,7 @@ ADDED_TO_FORM
 ;
 mForm
 =
-nsnull
+nullptr
 ;
 }
 Element
@@ -15288,7 +15288,7 @@ nsIEditor
 >
 editor
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -15498,7 +15498,7 @@ aParent
 UpdateFormOwner
 (
 true
-nsnull
+nullptr
 )
 ;
 }
@@ -16075,7 +16075,7 @@ Element
 *
 formIdElement
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -16293,7 +16293,7 @@ aFieldset
 {
 mFieldSet
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -17090,7 +17090,7 @@ Element
 *
 element
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -17267,7 +17267,7 @@ true
 oldForm
 =
 =
-nsnull
+nullptr
 )
 ;
 if
@@ -17343,13 +17343,13 @@ nsIContent
 *
 parent
 =
-nsnull
+nullptr
 ;
 nsIContent
 *
 prev
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -17469,7 +17469,7 @@ this
 ;
 mFieldSet
 =
-nsnull
+nullptr
 ;
 FieldSetDisabledChanged
 (
@@ -17749,7 +17749,7 @@ IsCallerChrome
 (
 )
 NS_MOUSE_CLICK
-nsnull
+nullptr
 nsMouseEvent
 :
 :
@@ -18136,7 +18136,7 @@ event
 (
 aIsTrustedEvent
 NS_MOUSE_CLICK
-nsnull
+nullptr
 nsMouseEvent
 :
 :
@@ -18242,7 +18242,7 @@ aEditor
 *
 aEditor
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -18281,7 +18281,7 @@ aEditor
 *
 aEditor
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -18335,7 +18335,7 @@ nsIEditor
 *
 editor
 =
-nsnull
+nullptr
 ;
 GetEditorInternal
 (
@@ -18869,7 +18869,7 @@ NODE_IS_EDITABLE
 {
 document
 =
-nsnull
+nullptr
 ;
 }
 nsAutoScriptBlocker

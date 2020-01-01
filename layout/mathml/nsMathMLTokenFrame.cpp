@@ -763,7 +763,7 @@ childSize
 childSize
 .
 mBoundingMetrics
-nsnull
+nullptr
 )
 ;
 mBoundingMetrics
@@ -924,7 +924,7 @@ childFrame
 PresContext
 (
 )
-nsnull
+nullptr
 childSize
 dx
 dy

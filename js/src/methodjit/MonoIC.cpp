@@ -3107,7 +3107,7 @@ t0
 JSScript
 :
 :
-offsetOfJITInfo
+offsetOfMJITInfo
 (
 )
 )

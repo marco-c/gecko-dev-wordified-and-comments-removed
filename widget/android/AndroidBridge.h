@@ -341,7 +341,7 @@ sBridge
 mJavaVM
 ;
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -432,7 +432,7 @@ mThread
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -443,7 +443,7 @@ mJNIEnv
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -679,13 +679,13 @@ nsIMutableArray
 *
 handlersArray
 =
-nsnull
+nullptr
 nsIHandlerApp
 *
 *
 aDefaultApp
 =
-nsnull
+nullptr
 const
 nsAString
 &
@@ -707,13 +707,13 @@ nsIMutableArray
 *
 handlersArray
 =
-nsnull
+nullptr
 nsIHandlerApp
 *
 *
 aDefaultApp
 =
-nsnull
+nullptr
 const
 nsAString
 &
@@ -1071,7 +1071,7 @@ JNIEnv
 *
 env
 =
-nsnull
+nullptr
 )
 ;
 bool
@@ -1092,7 +1092,7 @@ JNIEnv
 *
 env
 =
-nsnull
+nullptr
 )
 ;
 void

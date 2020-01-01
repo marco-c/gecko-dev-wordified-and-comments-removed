@@ -841,7 +841,7 @@ nsString
 *
 aJSONRetVal
 =
-nsnull
+nullptr
 )
 ;
 virtual

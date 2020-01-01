@@ -800,7 +800,7 @@ return
 mDB
 !
 =
-nsnull
+nullptr
 ;
 }
 nsresult

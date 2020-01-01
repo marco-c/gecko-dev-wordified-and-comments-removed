@@ -396,7 +396,7 @@ aObject
 )
 !
 =
-nsnull
+nullptr
 )
 {
 const
@@ -491,7 +491,7 @@ aObject
 )
 !
 =
-nsnull
+nullptr
 )
 {
 PRInt32
@@ -636,7 +636,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nsnull
+nullptr
 "
 null
 ptr

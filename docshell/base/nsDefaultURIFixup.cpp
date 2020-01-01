@@ -417,7 +417,7 @@ rv
 *
 aURI
 =
-nsnull
+nullptr
 ;
 nsCAutoString
 uriString
@@ -911,7 +911,7 @@ GetCharsetForUrlBar
 (
 )
 :
-nsnull
+nullptr
 )
 ;
 if
@@ -1232,7 +1232,7 @@ GetCharsetForUrlBar
 (
 )
 :
-nsnull
+nullptr
 )
 ;
 if
@@ -1301,7 +1301,7 @@ aURI
 *
 aURI
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_STATE
 (
@@ -2187,7 +2187,7 @@ uriSpecOut
 get
 (
 )
-nsnull
+nullptr
 )
 )
 )
@@ -3057,7 +3057,7 @@ if
 fixup
 =
 =
-nsnull
+nullptr
 )
 {
 return

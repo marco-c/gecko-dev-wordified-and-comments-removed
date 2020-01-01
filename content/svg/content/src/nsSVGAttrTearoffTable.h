@@ -151,13 +151,13 @@ IsInitialized
 )
 )
 return
-nsnull
+nullptr
 ;
 TearoffType
 *
 tearoff
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -249,7 +249,7 @@ mTable
 Get
 (
 aSimple
-nsnull
+nullptr
 )
 )
 {

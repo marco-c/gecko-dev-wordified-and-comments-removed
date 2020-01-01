@@ -377,11 +377,11 @@ Clear
 ;
 mDocument
 =
-nsnull
+nullptr
 ;
 mPresShell
 =
-nsnull
+nullptr
 ;
 mTextHash
 .
@@ -670,8 +670,6 @@ Telemetry
 A11Y_UPDATE_TIME
 >
 updateTimer
-(
-)
 ;
 NS_ASSERTION
 (
@@ -2740,7 +2738,7 @@ aThisEvent
 >
 mPackedEvent
 =
-nsnull
+nullptr
 ;
 }
 aThisEvent
@@ -3413,7 +3411,7 @@ AsElement
 (
 )
 :
-nsnull
+nullptr
 ;
 nsAutoString
 text
@@ -4009,11 +4007,11 @@ mInsertedContent
 ;
 mDocument
 =
-nsnull
+nullptr
 ;
 mContainer
 =
-nsnull
+nullptr
 ;
 mInsertedContent
 .

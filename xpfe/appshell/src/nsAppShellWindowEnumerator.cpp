@@ -732,7 +732,7 @@ aTypeString
 )
 mCurrentPosition
 (
-nsnull
+nullptr
 )
 {
 mWindowMediator
@@ -918,7 +918,7 @@ NS_ERROR_INVALID_ARG
 *
 retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1010,7 +1010,7 @@ NS_ERROR_INVALID_ARG
 *
 retval
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1107,7 +1107,7 @@ if
 mCurrentPosition
 )
 return
-nsnull
+nullptr
 ;
 info
 =
@@ -1156,7 +1156,7 @@ mYounger
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsASXULWindowEarlyToLateEnumerator
@@ -1229,7 +1229,7 @@ if
 mCurrentPosition
 )
 return
-nsnull
+nullptr
 ;
 info
 =
@@ -1278,7 +1278,7 @@ mYounger
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsASDOMWindowFrontToBackEnumerator
@@ -1351,7 +1351,7 @@ if
 mCurrentPosition
 )
 return
-nsnull
+nullptr
 ;
 info
 =
@@ -1400,7 +1400,7 @@ mLower
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsASXULWindowFrontToBackEnumerator
@@ -1473,7 +1473,7 @@ if
 mCurrentPosition
 )
 return
-nsnull
+nullptr
 ;
 info
 =
@@ -1522,7 +1522,7 @@ mLower
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsASDOMWindowBackToFrontEnumerator
@@ -1558,7 +1558,7 @@ mTopmostWindow
 >
 mHigher
 :
-nsnull
+nullptr
 ;
 AdjustInitialPosition
 (
@@ -1604,7 +1604,7 @@ if
 mCurrentPosition
 )
 return
-nsnull
+nullptr
 ;
 info
 =
@@ -1664,7 +1664,7 @@ mHigher
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsASXULWindowBackToFrontEnumerator
@@ -1700,7 +1700,7 @@ mTopmostWindow
 >
 mHigher
 :
-nsnull
+nullptr
 ;
 AdjustInitialPosition
 (
@@ -1746,7 +1746,7 @@ if
 mCurrentPosition
 )
 return
-nsnull
+nullptr
 ;
 info
 =
@@ -1806,6 +1806,6 @@ mHigher
 ;
 }
 return
-nsnull
+nullptr
 ;
 }

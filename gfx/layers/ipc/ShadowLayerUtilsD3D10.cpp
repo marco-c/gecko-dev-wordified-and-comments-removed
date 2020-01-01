@@ -74,7 +74,7 @@ SurfaceDescriptor
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -189,7 +189,7 @@ GLenum
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -233,7 +233,7 @@ IDXGIResource
 *
 dr
 =
-nsnull
+nullptr
 ;
 hr
 =
@@ -324,7 +324,7 @@ ID3D10Texture2D
 *
 tex
 =
-nsnull
+nullptr
 ;
 hr
 =
@@ -370,7 +370,7 @@ hr
 tex
 )
 return
-nsnull
+nullptr
 ;
 return
 nsRefPtr

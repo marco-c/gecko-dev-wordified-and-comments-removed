@@ -152,7 +152,7 @@ IteratorState
 *
 mParentState
 =
-nsnull
+nullptr
 )
 ;
 Accessible

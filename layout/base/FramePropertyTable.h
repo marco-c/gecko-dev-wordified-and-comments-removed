@@ -76,11 +76,11 @@ FramePropertyTable
 :
 mLastFrame
 (
-nsnull
+nullptr
 )
 mLastEntry
 (
-nsnull
+nullptr
 )
 {
 mEntries
@@ -131,7 +131,7 @@ bool
 *
 aFoundResult
 =
-nsnull
+nullptr
 )
 ;
 void
@@ -149,7 +149,7 @@ bool
 *
 aFoundResult
 =
-nsnull
+nullptr
 )
 ;
 void
@@ -196,11 +196,11 @@ PropertyValue
 :
 mProperty
 (
-nsnull
+nullptr
 )
 mValue
 (
-nsnull
+nullptr
 )
 {
 }
@@ -647,7 +647,7 @@ bool
 *
 aFoundResult
 =
-nsnull
+nullptr
 )
 const
 {
@@ -675,7 +675,7 @@ bool
 *
 aFoundResult
 =
-nsnull
+nullptr
 )
 const
 {

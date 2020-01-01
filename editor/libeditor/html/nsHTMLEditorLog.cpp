@@ -3671,7 +3671,7 @@ Close
 ;
 mFileStream
 =
-nsnull
+nullptr
 ;
 }
 return

@@ -76,7 +76,7 @@ return
 GetEvent
 (
 false
-nsnull
+nullptr
 )
 ;
 }

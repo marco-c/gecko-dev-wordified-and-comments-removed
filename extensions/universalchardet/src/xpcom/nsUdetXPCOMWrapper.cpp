@@ -127,7 +127,7 @@ NS_ASSERTION
 mObserver
 =
 =
-nsnull
+nullptr
 "
 Init
 twice
@@ -136,7 +136,7 @@ twice
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 aObserver
@@ -174,7 +174,7 @@ NS_ASSERTION
 mObserver
 !
 =
-nsnull
+nullptr
 "
 have
 not
@@ -186,7 +186,7 @@ yet
 if
 (
 (
-nsnull
+nullptr
 =
 =
 aBuf
@@ -194,7 +194,7 @@ aBuf
 |
 |
 (
-nsnull
+nullptr
 =
 =
 oDontFeedMe
@@ -274,7 +274,7 @@ NS_ASSERTION
 mObserver
 !
 =
-nsnull
+nullptr
 "
 have
 not
@@ -350,7 +350,7 @@ NS_ASSERTION
 mObserver
 !
 =
-nsnull
+nullptr
 "
 have
 not
@@ -487,7 +487,7 @@ oConf
 {
 mResult
 =
-nsnull
+nullptr
 ;
 this
 -

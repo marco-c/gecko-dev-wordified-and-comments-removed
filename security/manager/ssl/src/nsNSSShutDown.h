@@ -300,7 +300,7 @@ singleton
 >
 mActivityState
 :
-nsnull
+nullptr
 ;
 }
 private

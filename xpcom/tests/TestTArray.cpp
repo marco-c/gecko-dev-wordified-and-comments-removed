@@ -826,7 +826,7 @@ Elements
 )
 =
 =
-nsnull
+nullptr
 )
 return
 false
@@ -1693,7 +1693,7 @@ get
 )
 =
 =
-nsnull
+nullptr
 )
 return
 false
@@ -2577,7 +2577,7 @@ SafeElementAt
 )
 !
 =
-nsnull
+nullptr
 )
 return
 false
@@ -2592,7 +2592,7 @@ SafeElementAt
 )
 !
 =
-nsnull
+nullptr
 )
 return
 false
@@ -2658,7 +2658,7 @@ SafeElementAt
 )
 !
 =
-nsnull
+nullptr
 )
 return
 false
@@ -2673,7 +2673,7 @@ SafeElementAt
 )
 !
 =
-nsnull
+nullptr
 )
 return
 false
@@ -5003,8 +5003,8 @@ DECL_TEST
 test_fallible
 )
 {
-nsnull
-nsnull
+nullptr
+nullptr
 }
 }
 ;
@@ -5051,9 +5051,9 @@ NS_FAILED
 (
 NS_InitXPCOM2
 (
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 )
 )
@@ -5088,7 +5088,7 @@ t
 name
 !
 =
-nsnull
+nullptr
 ;
 +
 +
@@ -5144,7 +5144,7 @@ false
 }
 NS_ShutdownXPCOM
 (
-nsnull
+nullptr
 )
 ;
 return

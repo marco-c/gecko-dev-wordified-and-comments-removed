@@ -1,4 +1,10 @@
 #
+ifndef
+__FilteringWrapper_h__
+#
+define
+__FilteringWrapper_h__
+#
 include
 <
 jsapi
@@ -148,3 +154,5 @@ singleton
 }
 ;
 }
+#
+endif

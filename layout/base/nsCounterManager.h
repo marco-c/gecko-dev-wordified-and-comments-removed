@@ -98,11 +98,11 @@ mValueAfter
 )
 mScopeStart
 (
-nsnull
+nullptr
 )
 mScopePrev
 (
-nsnull
+nullptr
 )
 {
 }

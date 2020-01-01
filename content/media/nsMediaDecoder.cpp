@@ -60,7 +60,7 @@ nsMediaDecoder
 :
 mElement
 (
-nsnull
+nullptr
 )
 mFrameBufferLength
 (
@@ -153,7 +153,7 @@ StopProgress
 ;
 mElement
 =
-nsnull
+nullptr
 ;
 }
 nsHTMLMediaElement
@@ -453,7 +453,7 @@ Cancel
 ;
 mProgressTimer
 =
-nsnull
+nullptr
 ;
 return
 rv

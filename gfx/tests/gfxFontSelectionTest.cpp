@@ -1243,7 +1243,7 @@ test
 -
 >
 fontStyle
-nsnull
+nullptr
 )
 ;
 nsAutoPtr
@@ -1260,9 +1260,9 @@ params
 =
 {
 ctx
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 0
 60
 }
@@ -1416,8 +1416,8 @@ gfxPoint
 )
 0
 length
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 gfxFontTestStore
@@ -1527,9 +1527,9 @@ rv
 =
 NS_InitXPCOM2
 (
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 if

@@ -171,7 +171,7 @@ mData
 Length
 (
 )
-nsnull
+nullptr
 )
 ;
 if

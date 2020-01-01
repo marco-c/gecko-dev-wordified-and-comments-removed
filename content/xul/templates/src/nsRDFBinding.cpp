@@ -724,12 +724,12 @@ mValues
 ;
 mValues
 =
-nsnull
+nullptr
 ;
 }
 mBindings
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -790,7 +790,7 @@ else
 {
 mValues
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -818,7 +818,7 @@ aValue
 *
 aValue
 =
-nsnull
+nullptr
 ;
 if
 (

@@ -471,7 +471,7 @@ tempFileRef
 kLSRolesAll
 &
 appFSRef
-nsnull
+nullptr
 )
 =
 =

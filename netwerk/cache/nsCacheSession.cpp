@@ -182,7 +182,7 @@ else
 *
 profileDir
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -249,7 +249,7 @@ this
 key
 accessRequested
 blockingMode
-nsnull
+nullptr
 result
 )
 ;
@@ -292,7 +292,7 @@ accessRequested
 !
 noWait
 listener
-nsnull
+nullptr
 )
 ;
 if

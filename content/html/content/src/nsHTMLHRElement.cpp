@@ -1577,7 +1577,7 @@ nsGkAtoms
 noshade
 }
 {
-nsnull
+nullptr
 }
 }
 ;

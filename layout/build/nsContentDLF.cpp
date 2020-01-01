@@ -1269,7 +1269,7 @@ NS_TIME_FUNCTION
 *
 aDocument
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -1670,7 +1670,7 @@ ifdef
 NOISY_CREATE_DOC
 if
 (
-nsnull
+nullptr
 !
 =
 aURL

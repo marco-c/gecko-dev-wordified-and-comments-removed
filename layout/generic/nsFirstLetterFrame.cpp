@@ -781,10 +781,10 @@ nsLineLayout
 ll
 (
 aPresContext
-nsnull
+nullptr
 &
 aReflowState
-nsnull
+nullptr
 )
 ;
 PRUint8
@@ -1055,7 +1055,7 @@ kid
 DidReflow
 (
 aPresContext
-nsnull
+nullptr
 NS_FRAME_REFLOW_FINISHED
 )
 ;
@@ -1345,7 +1345,7 @@ args
 *
 aContinuation
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -1547,7 +1547,7 @@ GetPrevInFlow
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 prevInFlow
@@ -1598,7 +1598,7 @@ mFrames
 InsertFrames
 (
 this
-nsnull
+nullptr
 *
 overflowFrames
 )
@@ -1637,7 +1637,7 @@ mFrames
 .
 AppendFrames
 (
-nsnull
+nullptr
 *
 overflowFrames
 )

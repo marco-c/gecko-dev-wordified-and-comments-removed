@@ -228,7 +228,7 @@ return
 mListener
 !
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -500,7 +500,7 @@ if
 mOwner
 )
 return
-nsnull
+nullptr
 ;
 return
 mOwner

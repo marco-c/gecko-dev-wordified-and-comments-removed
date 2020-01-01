@@ -162,7 +162,7 @@ ClearTooltipCache
 {
 mInstance
 =
-nsnull
+nullptr
 ;
 }
 protected

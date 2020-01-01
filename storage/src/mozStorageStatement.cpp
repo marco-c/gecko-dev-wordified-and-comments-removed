@@ -236,7 +236,7 @@ NS_OK
 *
 _helper
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -254,7 +254,7 @@ _contractID
 *
 _contractID
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -272,7 +272,7 @@ _desc
 *
 _desc
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -290,7 +290,7 @@ _id
 *
 _id
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -888,7 +888,7 @@ array
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 mParamsArray
@@ -937,7 +937,7 @@ this
 NS_ENSURE_TRUE
 (
 params
-nsnull
+nullptr
 )
 ;
 rv
@@ -953,7 +953,7 @@ params
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 params
@@ -1153,7 +1153,7 @@ SQLITE_OK
 *
 _stmt
 =
-nsnull
+nullptr
 ;
 return
 rc
@@ -1511,11 +1511,11 @@ params
 >
 mStatement
 =
-nsnull
+nullptr
 ;
 mStatementParamsHolder
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -1567,11 +1567,11 @@ row
 >
 mStatement
 =
-nsnull
+nullptr
 ;
 mStatementRowHolder
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -1972,7 +1972,7 @@ mDBStatement
 endif
 mParamsArray
 =
-nsnull
+nullptr
 ;
 (
 void
@@ -2272,7 +2272,7 @@ srv
 }
 mParamsArray
 =
-nsnull
+nullptr
 ;
 }
 int
@@ -3083,7 +3083,7 @@ void
 *
 blob
 =
-nsnull
+nullptr
 ;
 if
 (

@@ -195,7 +195,7 @@ state
 .
 patternTransform
 :
-nsnull
+nullptr
 )
 ;
 }
@@ -4510,7 +4510,7 @@ default
 :
 SetDash
 (
-nsnull
+nullptr
 0
 0
 .
@@ -6974,7 +6974,7 @@ gfxPattern
 *
 wrapper
 =
-nsnull
+nullptr
 ;
 if
 (

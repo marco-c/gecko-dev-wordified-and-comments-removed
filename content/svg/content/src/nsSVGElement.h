@@ -501,7 +501,7 @@ GetAnimateMotionTransform
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -905,6 +905,13 @@ PRUint8
 aAttrEnum
 )
 ;
+enum
+{
+DO_ALLOCATE
+=
+0x1
+}
+;
 nsSVGLength2
 *
 GetAnimatedLength
@@ -992,7 +999,7 @@ GetAnimatedPointList
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -1003,7 +1010,7 @@ GetAnimPathSegList
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -1011,10 +1018,14 @@ SVGAnimatedTransformList
 *
 GetAnimatedTransformList
 (
+PRUint32
+aFlags
+=
+0
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -1076,7 +1087,7 @@ GetPointListAttrName
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -1088,7 +1099,7 @@ GetPathDataAttrName
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -1100,7 +1111,7 @@ GetTransformListAttrName
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 protected

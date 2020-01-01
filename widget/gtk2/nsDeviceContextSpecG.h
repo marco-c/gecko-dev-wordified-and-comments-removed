@@ -42,6 +42,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCRT
 .
 h
@@ -252,6 +261,7 @@ mSpoolFile
 ;
 class
 nsPrinterEnumeratorGTK
+MOZ_FINAL
 :
 public
 nsIPrinterEnumerator

@@ -296,7 +296,7 @@ DropReference
 {
 mNode
 =
-nsnull
+nullptr
 ;
 }
 virtual
@@ -400,7 +400,7 @@ NoticeNodeDestruction
 {
 mNode
 =
-nsnull
+nullptr
 ;
 }
 private
@@ -724,7 +724,7 @@ SetAttr
 (
 aNameSpaceID
 aName
-nsnull
+nullptr
 aValue
 aNotify
 )
@@ -1044,7 +1044,7 @@ nsIAtom
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -1488,7 +1488,7 @@ return
 InsertBefore
 (
 aNewChild
-nsnull
+nullptr
 aReturn
 )
 ;
@@ -1816,7 +1816,7 @@ get
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 virtual
@@ -2807,7 +2807,7 @@ nsIFrame
 *
 aStyledFrame
 =
-nsnull
+nullptr
 )
 ;
 nsContentList
@@ -2847,7 +2847,7 @@ const
 *
 aResult
 =
-nsnull
+nullptr
 ;
 \
 nsCOMPtr
@@ -2971,7 +2971,7 @@ const
 *
 aResult
 =
-nsnull
+nullptr
 ;
 \
 nsCOMPtr
@@ -3190,7 +3190,7 @@ nsGkAtoms
 :
 :
 _atom
-nsnull
+nullptr
 aValue
 true
 )

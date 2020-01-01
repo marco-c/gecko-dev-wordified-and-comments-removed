@@ -135,7 +135,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -232,7 +232,7 @@ NS_OK
 }
 res
 =
-nsnull
+nullptr
 ;
 PRUint32
 i
@@ -854,7 +854,7 @@ get
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 void

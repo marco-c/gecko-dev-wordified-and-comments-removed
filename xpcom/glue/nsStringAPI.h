@@ -116,7 +116,7 @@ char_type
 *
 end
 =
-nsnull
+nullptr
 )
 const
 ;
@@ -261,7 +261,7 @@ char_type
 *
 end
 =
-nsnull
+nullptr
 PRUint32
 newSize
 =
@@ -935,7 +935,7 @@ Replace
 (
 cutStart
 cutLength
-nsnull
+nullptr
 0
 )
 ;
@@ -1732,7 +1732,7 @@ char_type
 *
 end
 =
-nsnull
+nullptr
 )
 const
 ;
@@ -1877,7 +1877,7 @@ char_type
 *
 end
 =
-nsnull
+nullptr
 PRUint32
 newSize
 =
@@ -2564,7 +2564,7 @@ Replace
 (
 cutStart
 cutLength
-nsnull
+nullptr
 0
 )
 ;
@@ -4904,7 +4904,7 @@ aStr
 )
 mData
 (
-nsnull
+nullptr
 )
 {
 }
@@ -4983,7 +4983,7 @@ aStr
 )
 mData
 (
-nsnull
+nullptr
 )
 {
 }

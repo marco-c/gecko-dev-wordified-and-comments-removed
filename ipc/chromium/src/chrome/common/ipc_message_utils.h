@@ -5472,6 +5472,8 @@ r
 {
 int
 type
+=
+0
 ;
 bool
 result

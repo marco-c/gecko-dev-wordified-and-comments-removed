@@ -553,7 +553,7 @@ y1
 x2
 &
 y2
-nsnull
+nullptr
 )
 ;
 float
@@ -623,7 +623,7 @@ y1
 x2
 &
 y2
-nsnull
+nullptr
 )
 ;
 aCtx

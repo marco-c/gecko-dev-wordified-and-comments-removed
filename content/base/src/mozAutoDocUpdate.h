@@ -42,7 +42,7 @@ aNotify
 ?
 aDocument
 :
-nsnull
+nullptr
 )
 mUpdateType
 (
@@ -183,7 +183,7 @@ aNotify
 ?
 aDocument
 :
-nsnull
+nullptr
 )
 {
 if

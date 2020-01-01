@@ -766,7 +766,7 @@ gStyleVerifyTreeEnable
 {
 if
 (
-nsnull
+nullptr
 =
 =
 gStyleVerifyTreeLogModuleInfo
@@ -823,7 +823,7 @@ GetLogModuleInfo
 {
 if
 (
-nsnull
+nullptr
 =
 =
 gLogModule
@@ -1572,7 +1572,7 @@ GetPresShell
 (
 )
 :
-nsnull
+nullptr
 )
 ;
 mFrame
@@ -1630,7 +1630,7 @@ else
 {
 mFrame
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2261,7 +2261,7 @@ container
 }
 DidSetStyleContext
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -2635,7 +2635,7 @@ placeholder
 >
 SetOutOfFlowFrame
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -2838,7 +2838,7 @@ view
 >
 SetFrame
 (
-nsnull
+nullptr
 )
 ;
 view
@@ -2870,7 +2870,7 @@ mContent
 >
 SetPrimaryFrame
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -3101,7 +3101,7 @@ nsPresContext
 :
 :
 BACKGROUND_IMAGE
-nsnull
+nullptr
 )
 ;
 break
@@ -3374,7 +3374,7 @@ GetBorderImage
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -4424,7 +4424,7 @@ return
 !
 ApplyOverflowClipping
 (
-nsnull
+nullptr
 this
 GetStyleDisplay
 (
@@ -4437,7 +4437,7 @@ temp
 !
 ApplyClipPropClipping
 (
-nsnull
+nullptr
 GetStyleDisplay
 (
 )
@@ -4526,7 +4526,7 @@ nsStyleDisplay
 *
 parentDisp
 =
-nsnull
+nullptr
 ;
 nsStyleContext
 *
@@ -5501,7 +5501,7 @@ number
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -5805,7 +5805,7 @@ IsSelectable
 (
 &
 selectable
-nsnull
+nullptr
 )
 ;
 if
@@ -6626,7 +6626,7 @@ bg
 *
 aBackground
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -7294,7 +7294,7 @@ aBuilder
 nsDisplayClipRoundedRect
 (
 aBuilder
-nsnull
+nullptr
 aList
 mRect
 mRadii
@@ -7309,7 +7309,7 @@ aBuilder
 nsDisplayClip
 (
 aBuilder
-nsnull
+nullptr
 aList
 mRect
 )
@@ -7351,7 +7351,7 @@ IsProperAncestorFrame
 (
 mContainer
 f
-nsnull
+nullptr
 )
 )
 {
@@ -7465,7 +7465,7 @@ aBuilder
 nsDisplayClip
 (
 aBuilder
-nsnull
+nullptr
 aList
 mRect
 )
@@ -9498,7 +9498,7 @@ NS_OK
 ;
 childType
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -11104,7 +11104,7 @@ NS_ERROR_NULL_POINTER
 *
 aParentContent
 =
-nsnull
+nullptr
 ;
 *
 aContentOffset
@@ -11984,7 +11984,7 @@ nsIScrollableFrame
 *
 scrollFrame
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -12036,7 +12036,7 @@ nsFrameSelection
 *
 frameselection
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -13351,7 +13351,7 @@ nsIScrollableFrame
 *
 scrollFrame
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -13683,7 +13683,7 @@ nsIPresShell
 :
 SetCapturingContent
 (
-nsnull
+nullptr
 0
 )
 ;
@@ -14090,7 +14090,7 @@ content
 return
 FrameContentRange
 (
-nsnull
+nullptr
 -
 1
 -
@@ -14296,7 +14296,7 @@ Null
 return
 FrameTarget
 (
-nsnull
+nullptr
 false
 false
 )
@@ -14575,7 +14575,7 @@ nsIFrame
 *
 result
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -14746,11 +14746,11 @@ nsIFrame
 *
 closestFromLeft
 =
-nsnull
+nullptr
 *
 closestFromRight
 =
-nsnull
+nullptr
 ;
 nsRect
 rect
@@ -15484,7 +15484,7 @@ nsIFrame
 *
 closestFrame
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -16686,7 +16686,7 @@ aData
 >
 trailingTextFrame
 =
-nsnull
+nullptr
 ;
 aData
 -
@@ -16890,7 +16890,7 @@ Clear
 ;
 trailingTextFrame
 =
-nsnull
+nullptr
 ;
 skipWhitespace
 =
@@ -16915,7 +16915,7 @@ aHyphenWidth
 {
 trailingTextFrame
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -19148,7 +19148,7 @@ GetPrevContinuation
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -19194,7 +19194,7 @@ GetNextContinuation
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -19230,7 +19230,7 @@ GetPrevInFlowVirtual
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -19276,7 +19276,7 @@ GetNextInFlowVirtual
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -19416,7 +19416,7 @@ frame
 NS_DECLARE_FRAME_PROPERTY
 (
 ViewProperty
-nsnull
+nullptr
 )
 nsIView
 *
@@ -19440,7 +19440,7 @@ NS_FRAME_HAS_VIEW
 )
 )
 return
-nsnull
+nullptr
 ;
 void
 *
@@ -19623,7 +19623,7 @@ f
 =
 mParent
 ;
-nsnull
+nullptr
 !
 =
 f
@@ -19654,7 +19654,7 @@ f
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsPoint
@@ -19965,7 +19965,7 @@ nsIFrame
 *
 root
 =
-nsnull
+nullptr
 ;
 nsPoint
 offset
@@ -20487,7 +20487,7 @@ const
 {
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aView
@@ -20512,7 +20512,7 @@ this
 *
 aView
 =
-nsnull
+nullptr
 ;
 aOffset
 .
@@ -20594,7 +20594,7 @@ GetClosestView
 >
 GetNearestWidget
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -20655,7 +20655,7 @@ GetType
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -20723,7 +20723,7 @@ aDamageRect
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 PRUint32
@@ -20816,7 +20816,7 @@ TYPE_TRANSFORM
 )
 !
 =
-nsnull
+nullptr
 ;
 mParent
 -
@@ -20954,7 +20954,7 @@ LayerActivityTracker
 *
 gLayerActivityTracker
 =
-nsnull
+nullptr
 ;
 LayerActivity
 :
@@ -21046,7 +21046,7 @@ aObject
 >
 mFrame
 =
-nsnull
+nullptr
 ;
 f
 -
@@ -21195,7 +21195,7 @@ LayerActivityProperty
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 bool
@@ -21257,7 +21257,7 @@ gLayerActivityTracker
 ;
 gLayerActivityTracker
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -21321,7 +21321,7 @@ InvalidateInternal
 aDamageRect
 0
 0
-nsnull
+nullptr
 aFlags
 )
 ;
@@ -21704,7 +21704,7 @@ nsPoint
 0
 )
 scaleFactor
-nsnull
+nullptr
 aOutAncestor
 )
 ;
@@ -24260,7 +24260,7 @@ GetNextInFlow
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 prevInFlow
@@ -24292,7 +24292,7 @@ prevInFlow
 }
 if
 (
-nsnull
+nullptr
 !
 =
 nextInFlow
@@ -26040,7 +26040,7 @@ NS_PRECONDITION
 outPoint
 !
 =
-nsnull
+nullptr
 "
 Null
 parameter
@@ -26290,14 +26290,14 @@ aPos
 >
 mResultFrame
 =
-nsnull
+nullptr
 ;
 aPos
 -
 >
 mResultContent
 =
-nsnull
+nullptr
 ;
 aPos
 -
@@ -26421,19 +26421,19 @@ nsIFrame
 *
 resultFrame
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
 farStoppingFrame
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
 nearStoppingFrame
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -27164,7 +27164,7 @@ IsSelectable
 (
 &
 selectable
-nsnull
+nullptr
 )
 ;
 if
@@ -27366,7 +27366,7 @@ IsSelectable
 (
 &
 selectable
-nsnull
+nullptr
 )
 ;
 if
@@ -27628,7 +27628,7 @@ result
 .
 mContent
 =
-nsnull
+nullptr
 ;
 result
 .
@@ -27970,7 +27970,7 @@ blockFrameOrBR
 .
 mContent
 =
-nsnull
+nullptr
 ;
 bool
 reachedBlockAncestor
@@ -28117,7 +28117,7 @@ frame
 )
 !
 =
-nsnull
+nullptr
 )
 ;
 }
@@ -28273,7 +28273,7 @@ frame
 )
 !
 =
-nsnull
+nullptr
 )
 ;
 }
@@ -29168,7 +29168,7 @@ aPos
 >
 mResultFrame
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -29522,7 +29522,7 @@ nsIFrame
 *
 baseFrame
 =
-nsnull
+nullptr
 ;
 bool
 endOfLine
@@ -30522,7 +30522,7 @@ PresContext
 *
 aOutFrame
 =
-nsnull
+nullptr
 ;
 *
 aOutOffset
@@ -31018,7 +31018,7 @@ IsSelectable
 (
 &
 selectable
-nsnull
+nullptr
 )
 ;
 }
@@ -31195,7 +31195,7 @@ happen
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -31247,7 +31247,7 @@ CreateAccessible
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 #
@@ -32747,7 +32747,7 @@ child
 RecomputePerspectiveChildrenOverflow
 (
 aStartStyle
-nsnull
+nullptr
 )
 ;
 }
@@ -33490,7 +33490,7 @@ mozAnonymousPositionedBlock
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 aFrame
@@ -33574,7 +33574,7 @@ parent
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIAtom
@@ -33875,7 +33875,7 @@ this
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsIFrame
@@ -33914,7 +33914,7 @@ GetPseudo
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -34923,7 +34923,7 @@ nsIFrame
 *
 firstFrame
 =
-nsnull
+nullptr
 ;
 PRInt32
 framesOnLine
@@ -35141,7 +35141,7 @@ GetLineIterator
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsSize
@@ -38824,7 +38824,7 @@ mLength
 )
 mTarget
 (
-nsnull
+nullptr
 )
 mDisplay
 (
@@ -39726,7 +39726,7 @@ DR_Rule
 *
 rule
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -39818,7 +39818,7 @@ rule
 >
 AddPart
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -40823,7 +40823,7 @@ PopupSet
 endif
 AddFrameTypeInfo
 (
-nsnull
+nullptr
 "
 unknown
 "
@@ -41365,7 +41365,7 @@ parentRS
 >
 frame
 :
-nsnull
+nullptr
 ;
 }
 else
@@ -41384,13 +41384,13 @@ DR_FrameTreeNode
 *
 parentNode
 =
-nsnull
+nullptr
 ;
 DR_FrameTreeNode
 *
 lastLeaf
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -42260,7 +42260,7 @@ DR_state
 mActive
 )
 return
-nsnull
+nullptr
 ;
 NS_ASSERTION
 (
@@ -42341,7 +42341,7 @@ DR_state
 mActive
 )
 return
-nsnull
+nullptr
 ;
 NS_ASSERTION
 (
@@ -42362,7 +42362,7 @@ DR_state
 CreateTreeNode
 (
 aFrame
-nsnull
+nullptr
 )
 ;
 if
@@ -42442,7 +42442,7 @@ DR_state
 mActive
 )
 return
-nsnull
+nullptr
 ;
 NS_ASSERTION
 (
@@ -42463,7 +42463,7 @@ DR_state
 CreateTreeNode
 (
 aFrame
-nsnull
+nullptr
 )
 ;
 if
@@ -42546,7 +42546,7 @@ DR_state
 mActive
 )
 return
-nsnull
+nullptr
 ;
 NS_ASSERTION
 (
@@ -42567,7 +42567,7 @@ DR_state
 CreateTreeNode
 (
 aFrame
-nsnull
+nullptr
 )
 ;
 if
@@ -43582,7 +43582,7 @@ DR_state
 ;
 DR_state
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -43702,7 +43702,7 @@ DR_state
 mActive
 )
 return
-nsnull
+nullptr
 ;
 DR_FrameTreeNode
 *
@@ -44211,7 +44211,7 @@ DR_state
 mActive
 )
 return
-nsnull
+nullptr
 ;
 DR_FrameTreeNode
 *
@@ -44223,7 +44223,7 @@ DR_state
 CreateTreeNode
 (
 aFrame
-nsnull
+nullptr
 )
 ;
 if
@@ -44536,7 +44536,7 @@ DR_state
 mActive
 )
 return
-nsnull
+nullptr
 ;
 return
 DR_state

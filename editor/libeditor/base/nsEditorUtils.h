@@ -158,7 +158,7 @@ aEd
 nsAutoPlaceHolderBatch
 (
 aEd
-nsnull
+nullptr
 )
 {
 }

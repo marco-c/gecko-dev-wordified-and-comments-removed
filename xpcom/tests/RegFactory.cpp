@@ -581,8 +581,8 @@ getter_AddRefs
 (
 servMan
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 if
@@ -631,7 +631,7 @@ registrar
 >
 AutoRegister
 (
-nsnull
+nullptr
 )
 ;
 ret

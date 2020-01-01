@@ -602,7 +602,7 @@ PresShell
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 #

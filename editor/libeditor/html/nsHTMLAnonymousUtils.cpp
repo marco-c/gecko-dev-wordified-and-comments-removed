@@ -678,7 +678,7 @@ aReturn
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1341,7 +1341,7 @@ NS_LITERAL_STRING
 td
 "
 )
-nsnull
+nullptr
 getter_AddRefs
 (
 cellElement

@@ -985,7 +985,7 @@ rv
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsAutoString
 tmpstr
@@ -1077,7 +1077,7 @@ mReentrantMonitor
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsAutoString
 tmpstr
@@ -1573,7 +1573,7 @@ aParams
 0
 ]
 :
-nsnull
+nullptr
 aLength
 >
 =
@@ -1584,7 +1584,7 @@ aParams
 1
 ]
 :
-nsnull
+nullptr
 aLength
 >
 =
@@ -1595,7 +1595,7 @@ aParams
 2
 ]
 :
-nsnull
+nullptr
 aLength
 >
 =
@@ -1606,7 +1606,7 @@ aParams
 3
 ]
 :
-nsnull
+nullptr
 aLength
 >
 =
@@ -1617,7 +1617,7 @@ aParams
 4
 ]
 :
-nsnull
+nullptr
 aLength
 >
 =
@@ -1628,7 +1628,7 @@ aParams
 5
 ]
 :
-nsnull
+nullptr
 aLength
 >
 =
@@ -1639,7 +1639,7 @@ aParams
 6
 ]
 :
-nsnull
+nullptr
 aLength
 >
 =
@@ -1650,7 +1650,7 @@ aParams
 7
 ]
 :
-nsnull
+nullptr
 aLength
 >
 =
@@ -1661,7 +1661,7 @@ aParams
 8
 ]
 :
-nsnull
+nullptr
 aLength
 >
 =
@@ -1672,7 +1672,7 @@ aParams
 9
 ]
 :
-nsnull
+nullptr
 )
 ;
 if
@@ -1684,7 +1684,7 @@ text
 *
 aResult
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -3643,7 +3643,7 @@ i
 ]
 =
 =
-nsnull
+nullptr
 )
 {
 rv

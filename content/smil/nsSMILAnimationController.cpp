@@ -298,7 +298,7 @@ GetRefreshDriver
 ;
 mDocument
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -784,7 +784,7 @@ Unlink
 {
 mLastCompositorTable
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -1361,7 +1361,7 @@ mLastCompositorTable
 EnumerateEntries
 (
 DoClearAnimationEffects
-nsnull
+nullptr
 )
 ;
 }
@@ -1371,7 +1371,7 @@ currentCompositorTable
 EnumerateEntries
 (
 DoComposeAttribute
-nsnull
+nullptr
 )
 ;
 mRunningSample
@@ -1436,7 +1436,7 @@ mAnimationElementTable
 EnumerateEntries
 (
 RewindAnimation
-nsnull
+nullptr
 )
 ;
 mChildContainerTable
@@ -1444,7 +1444,7 @@ mChildContainerTable
 EnumerateEntries
 (
 ClearRewindNeeded
-nsnull
+nullptr
 )
 ;
 }
@@ -2867,7 +2867,7 @@ disconnected
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsIPresShell
@@ -2888,7 +2888,7 @@ shell
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsPresContext
@@ -2912,7 +2912,7 @@ RefreshDriver
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 void

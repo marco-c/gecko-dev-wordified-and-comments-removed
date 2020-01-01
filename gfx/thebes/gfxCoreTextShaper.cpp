@@ -2315,7 +2315,7 @@ SetGlyphs
 (
 baseCharIndex
 g
-nsnull
+nullptr
 )
 ;
 }

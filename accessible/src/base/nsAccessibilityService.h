@@ -598,14 +598,6 @@ nsIContent
 aTarget
 )
 ;
-void
-PresShellDestroyed
-(
-nsIPresShell
-*
-aPresShell
-)
-;
 virtual
 void
 PresShellActivated
@@ -661,7 +653,7 @@ bool
 *
 aIsSubtreeHidden
 =
-nsnull
+nullptr
 )
 ;
 private

@@ -327,7 +327,7 @@ DiscardTempSurface
 {
 mCachedTempSurface
 =
-nsnull
+nullptr
 ;
 }
 }

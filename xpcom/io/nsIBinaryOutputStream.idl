@@ -530,7 +530,7 @@ nonnull
 aString
 !
 =
-nsnull
+nullptr
 )
 ;
 nsresult
@@ -588,7 +588,7 @@ nonnull
 aString
 !
 =
-nsnull
+nullptr
 )
 ;
 nsresult

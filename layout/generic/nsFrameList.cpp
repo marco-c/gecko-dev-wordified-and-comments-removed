@@ -188,7 +188,7 @@ Destroy
 }
 mLastChild
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -234,7 +234,7 @@ aDestructRoot
 }
 mLastChild
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -338,7 +338,7 @@ aFrame
 >
 SetNextSibling
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -349,7 +349,7 @@ nextFrame
 {
 mLastChild
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -400,7 +400,7 @@ aFrame
 >
 SetNextSibling
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -509,8 +509,8 @@ result
 .
 InsertFrames
 (
-nsnull
-nsnull
+nullptr
+nullptr
 *
 this
 )
@@ -576,7 +576,7 @@ aAfterFrame
 >
 SetNextSibling
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -587,7 +587,7 @@ tail
 ?
 oldLastChild
 :
-nsnull
+nullptr
 )
 ;
 }
@@ -621,7 +621,7 @@ firstChild
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -1065,7 +1065,7 @@ aLink
 mEnd
 =
 =
-nsnull
+nullptr
 "
 Unexpected
 mEnd
@@ -1090,7 +1090,7 @@ nsIFrame
 *
 newFirstFrame
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1102,7 +1102,7 @@ prev
 >
 SetNextSibling
 (
-nsnull
+nullptr
 )
 ;
 newFirstFrame
@@ -1125,14 +1125,14 @@ mFirstChild
 {
 mLastChild
 =
-nsnull
+nullptr
 ;
 }
 aLink
 .
 mPrev
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -1268,7 +1268,7 @@ aLink
 mEnd
 =
 =
-nsnull
+nullptr
 "
 Unexpected
 mEnd
@@ -1307,7 +1307,7 @@ prev
 >
 SetNextSibling
 (
-nsnull
+nullptr
 )
 ;
 newFirstFrame
@@ -1324,7 +1324,7 @@ newFirstFrame
 ?
 mLastChild
 :
-nsnull
+nullptr
 ;
 mLastChild
 =
@@ -1350,7 +1350,7 @@ aLink
 .
 mFrame
 =
-nsnull
+nullptr
 ;
 NS_POSTCONDITION
 (
@@ -1409,7 +1409,7 @@ aIndex
 0
 )
 return
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -1747,7 +1747,7 @@ if
 mFirstChild
 )
 return
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -1945,7 +1945,7 @@ thisLine
 0
 )
 return
-nsnull
+nullptr
 ;
 }
 else
@@ -1964,7 +1964,7 @@ nsIFrame
 *
 frame
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -2079,7 +2079,7 @@ nsBidiPresUtils
 :
 GetFrameToLeftOf
 (
-nsnull
+nullptr
 firstFrameOnLine
 numFramesOnLine
 )
@@ -2094,7 +2094,7 @@ nsBidiPresUtils
 :
 GetFrameToRightOf
 (
-nsnull
+nullptr
 firstFrameOnLine
 numFramesOnLine
 )
@@ -2124,7 +2124,7 @@ if
 mFirstChild
 )
 return
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -2320,7 +2320,7 @@ thisLine
 0
 )
 return
-nsnull
+nullptr
 ;
 }
 else
@@ -2335,7 +2335,7 @@ nsIFrame
 *
 frame
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -2462,7 +2462,7 @@ nsBidiPresUtils
 :
 GetFrameToRightOf
 (
-nsnull
+nullptr
 firstFrameOnLine
 numFramesOnLine
 )
@@ -2477,7 +2477,7 @@ nsBidiPresUtils
 :
 GetFrameToLeftOf
 (
-nsnull
+nullptr
 firstFrameOnLine
 numFramesOnLine
 )
@@ -2508,7 +2508,7 @@ NS_ASSERTION
 mFirstChild
 =
 =
-nsnull
+nullptr
 )
 =
 =
@@ -2516,7 +2516,7 @@ nsnull
 mLastChild
 =
 =
-nsnull
+nullptr
 )
 "
 bad

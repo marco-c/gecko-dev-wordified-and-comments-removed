@@ -104,7 +104,7 @@ LayerManagerD3D9
 :
 mDefaultDeviceManager
 =
-nsnull
+nullptr
 ;
 LayerManagerD3D9
 :
@@ -302,7 +302,7 @@ Init
 {
 mDeviceManager
 =
-nsnull
+nullptr
 ;
 return
 false
@@ -419,11 +419,11 @@ LayerManagerDestroyed
 }
 mSwapChain
 =
-nsnull
+nullptr
 ;
 mDeviceManager
 =
-nsnull
+nullptr
 ;
 }
 LayerManager
@@ -497,8 +497,8 @@ false
 ;
 EndTransaction
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 return
@@ -819,7 +819,7 @@ manager
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -871,7 +871,7 @@ manager
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -923,7 +923,7 @@ manager
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -975,7 +975,7 @@ manager
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -1027,7 +1027,7 @@ manager
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -1385,7 +1385,7 @@ Next
 )
 !
 =
-nsnull
+nullptr
 ;
 )
 {

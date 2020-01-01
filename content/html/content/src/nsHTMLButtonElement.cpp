@@ -1435,7 +1435,7 @@ aVisitor
 mEvent
 )
 NS_MOUSE_CLICK
-nsnull
+nullptr
 nsMouseEvent
 :
 :
@@ -1469,7 +1469,7 @@ aVisitor
 mPresContext
 &
 event
-nsnull
+nullptr
 &
 status
 )
@@ -1801,7 +1801,7 @@ EventStateManager
 >
 SetContentState
 (
-nsnull
+nullptr
 NS_EVENT_STATE_HOVER
 )
 ;
@@ -2352,7 +2352,7 @@ nsPresState
 *
 state
 =
-nsnull
+nullptr
 ;
 nsresult
 rv

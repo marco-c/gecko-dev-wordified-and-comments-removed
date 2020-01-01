@@ -123,7 +123,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1253,6 +1253,16 @@ maxFractionSize
 bool
 carry
 =
+(
+0
+<
+=
+i
++
+1
+)
+&
+&
 (
 i
 +

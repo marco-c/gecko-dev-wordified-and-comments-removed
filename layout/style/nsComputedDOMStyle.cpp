@@ -322,7 +322,7 @@ aPresShell
 ;
 sCachedComputedDOMStyle
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -363,7 +363,7 @@ aFrame
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -397,19 +397,19 @@ aPresShell
 :
 mDocumentWeak
 (
-nsnull
+nullptr
 )
 mOuterFrame
 (
-nsnull
+nullptr
 )
 mInnerFrame
 (
-nsnull
+nullptr
 )
 mPresShell
 (
-nsnull
+nullptr
 )
 mExposeVisitedStyle
 (
@@ -580,7 +580,7 @@ mPseudo
 {
 mPseudo
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -624,7 +624,7 @@ sCachedComputedDOMStyle
 ;
 sCachedComputedDOMStyle
 =
-nsnull
+nullptr
 ;
 }
 NS_IMPL_CYCLE_COLLECTION_1
@@ -885,7 +885,7 @@ aParentRule
 *
 aParentRule
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1001,7 +1001,7 @@ if
 presShell
 )
 return
-nsnull
+nullptr
 ;
 }
 presShell
@@ -1075,7 +1075,7 @@ if
 presShell
 )
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -1184,7 +1184,7 @@ parent
 AsElement
 (
 )
-nsnull
+nullptr
 presShell
 )
 ;
@@ -1205,7 +1205,7 @@ if
 presContext
 )
 return
-nsnull
+nullptr
 ;
 nsStyleSet
 *
@@ -1249,7 +1249,7 @@ ePseudo_PseudoElementCount
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -1304,7 +1304,7 @@ if
 currentDoc
 )
 return
-nsnull
+nullptr
 ;
 return
 currentDoc
@@ -1340,7 +1340,7 @@ GetCSSDeclaration
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -1392,7 +1392,7 @@ DocToUpdate
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -1421,7 +1421,7 @@ aCSSParseEnv
 .
 mPrincipal
 =
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -1453,7 +1453,7 @@ state
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1499,7 +1499,7 @@ ComputedStyleMapEntry
 *
 propEntry
 =
-nsnull
+nullptr
 ;
 {
 PRUint32
@@ -1985,19 +1985,19 @@ aReturn
 ;
 mOuterFrame
 =
-nsnull
+nullptr
 ;
 mInnerFrame
 =
-nsnull
+nullptr
 ;
 mPresShell
 =
-nsnull
+nullptr
 ;
 mStyleContextHolder
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -3783,7 +3783,7 @@ mTransformOrigin
 2
 ]
 false
-nsnull
+nullptr
 )
 ;
 valueList
@@ -10984,7 +10984,7 @@ GetStyleText
 >
 mLineHeight
 true
-nsnull
+nullptr
 nsCSSProps
 :
 :
@@ -11210,7 +11210,7 @@ NS_STYLE_TEXT_DECORATION_STYLE_SOLID
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nscolor
@@ -11235,7 +11235,7 @@ isForegroundColor
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 PRUint8
@@ -13199,8 +13199,8 @@ Get
 (
 side
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -13304,8 +13304,8 @@ Get
 (
 side
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -13373,8 +13373,8 @@ Get
 (
 side
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -13677,7 +13677,7 @@ GetStylePosition
 >
 mFlexBasis
 true
-nsnull
+nullptr
 nsCSSProps
 :
 :
@@ -14559,7 +14559,7 @@ mOverflowY
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsROCSSPrimitiveValue
@@ -14995,8 +14995,8 @@ positionData
 >
 mHeight
 true
-nsnull
-nsnull
+nullptr
+nullptr
 minHeight
 maxHeight
 )
@@ -15158,7 +15158,7 @@ positionData
 >
 mWidth
 true
-nsnull
+nullptr
 nsCSSProps
 :
 :
@@ -15551,7 +15551,7 @@ position
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -17743,7 +17743,7 @@ nsStyleSVGPaint
 *
 paint
 =
-nsnull
+nullptr
 ;
 if
 (

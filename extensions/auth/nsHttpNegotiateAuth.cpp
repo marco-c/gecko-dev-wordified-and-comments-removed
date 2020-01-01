@@ -684,9 +684,9 @@ get
 (
 )
 req_flags
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 if
@@ -972,7 +972,7 @@ else
 {
 inToken
 =
-nsnull
+nullptr
 ;
 inTokenLen
 =
@@ -1048,7 +1048,7 @@ char
 )
 outToken
 outTokenLen
-nsnull
+nullptr
 )
 ;
 nsMemory

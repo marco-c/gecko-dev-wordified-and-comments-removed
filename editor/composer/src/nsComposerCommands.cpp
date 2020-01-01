@@ -4950,7 +4950,7 @@ positionedElement
 outCmdEnabled
 =
 (
-nsnull
+nullptr
 !
 =
 positionedElement

@@ -625,7 +625,7 @@ test_null_database_connection
 mozStorageTransaction
 transaction
 (
-nsnull
+nullptr
 false
 )
 ;

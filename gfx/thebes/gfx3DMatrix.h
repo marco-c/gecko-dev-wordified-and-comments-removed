@@ -228,7 +228,7 @@ gfxMatrix
 *
 aMatrix
 =
-nsnull
+nullptr
 )
 const
 ;

@@ -76,11 +76,11 @@ aNodeInfo
 )
 mElements
 (
-nsnull
+nullptr
 )
 mFirstLegend
 (
-nsnull
+nullptr
 )
 {
 SetBarredFromConstraintValidation
@@ -321,8 +321,8 @@ nsContentList
 (
 this
 MatchListedElements
-nsnull
-nsnull
+nullptr
+nullptr
 true
 )
 ;
@@ -506,8 +506,8 @@ nsContentList
 (
 this
 MatchListedElements
-nsnull
-nsnull
+nullptr
+nullptr
 true
 )
 ;
@@ -703,7 +703,7 @@ GetNextSibling
 ;
 mFirstLegend
 =
-nsnull
+nullptr
 ;
 firstLegendHasChanged
 =
@@ -791,8 +791,8 @@ nsContentList
 (
 this
 MatchListedElements
-nsnull
-nsnull
+nullptr
+nullptr
 true
 )
 ;

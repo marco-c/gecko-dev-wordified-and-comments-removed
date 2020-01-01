@@ -533,7 +533,7 @@ aColumn
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -582,7 +582,7 @@ nsresult
 *
 aError
 =
-nsnull
+nullptr
 )
 const
 ;
@@ -747,7 +747,7 @@ nsresult
 *
 aError
 =
-nsnull
+nullptr
 )
 const
 ;
@@ -791,7 +791,7 @@ XULTreeAccessible
 this
 )
 :
-nsnull
+nullptr
 ;
 }
 #

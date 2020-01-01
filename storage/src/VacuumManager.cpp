@@ -785,7 +785,7 @@ os
 >
 NotifyObservers
 (
-nsnull
+nullptr
 OBSERVER_TOPIC_HEAVY_IO
 OBSERVER_DATA_VACUUM_BEGIN
 .
@@ -1330,7 +1330,7 @@ os
 >
 NotifyObservers
 (
-nsnull
+nullptr
 OBSERVER_TOPIC_HEAVY_IO
 OBSERVER_DATA_VACUUM_END
 .
@@ -1374,7 +1374,7 @@ VacuumManager
 :
 gVacuumManager
 =
-nsnull
+nullptr
 ;
 VacuumManager
 *
@@ -1496,7 +1496,7 @@ this
 {
 gVacuumManager
 =
-nsnull
+nullptr
 ;
 }
 }

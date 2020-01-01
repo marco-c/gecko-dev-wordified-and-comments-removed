@@ -112,11 +112,11 @@ inCSSValueSearch
 :
 mResults
 (
-nsnull
+nullptr
 )
 mProperties
 (
-nsnull
+nullptr
 )
 mResultCount
 (
@@ -961,7 +961,7 @@ getter_AddRefs
 baseURL
 )
 href
-nsnull
+nullptr
 aBaseURL
 )
 ;
@@ -1382,7 +1382,7 @@ getter_AddRefs
 uri
 )
 url
-nsnull
+nullptr
 aBaseURL
 )
 ;

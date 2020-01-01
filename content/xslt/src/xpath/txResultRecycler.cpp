@@ -28,15 +28,15 @@ txResultRecycler
 :
 mEmptyStringResult
 (
-nsnull
+nullptr
 )
 mTrueResult
 (
-nsnull
+nullptr
 )
 mFalseResult
 (
-nsnull
+nullptr
 )
 {
 }
@@ -188,7 +188,7 @@ mEmptyStringResult
 new
 StringResult
 (
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_TRUE

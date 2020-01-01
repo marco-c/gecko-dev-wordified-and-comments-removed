@@ -296,7 +296,7 @@ nsGkAtoms
 :
 :
 always
-nsnull
+nullptr
 }
 ;
 switch

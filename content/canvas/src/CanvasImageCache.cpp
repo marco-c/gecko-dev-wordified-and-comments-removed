@@ -177,7 +177,7 @@ mImage
 )
 mILC
 (
-nsnull
+nullptr
 )
 mCanvas
 (
@@ -477,7 +477,7 @@ ImageCache
 *
 gImageCache
 =
-nsnull
+nullptr
 ;
 class
 CanvasImageCacheShutdownObserver
@@ -692,7 +692,7 @@ if
 gImageCache
 )
 return
-nsnull
+nullptr
 ;
 ImageCacheEntry
 *
@@ -728,7 +728,7 @@ mData
 mILC
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -771,7 +771,7 @@ mData
 mRequest
 )
 return
-nsnull
+nullptr
 ;
 gImageCache
 -
@@ -846,7 +846,7 @@ gImageCache
 ;
 gImageCache
 =
-nsnull
+nullptr
 ;
 nsContentUtils
 :

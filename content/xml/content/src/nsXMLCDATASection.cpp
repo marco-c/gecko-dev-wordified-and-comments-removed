@@ -161,7 +161,7 @@ manager
 *
 aInstancePtrResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -180,7 +180,7 @@ nsGkAtoms
 :
 :
 cdataTagName
-nsnull
+nullptr
 kNameSpaceID_None
 nsIDOMNode
 :

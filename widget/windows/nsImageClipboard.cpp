@@ -235,7 +235,7 @@ outBitmap
 *
 outBitmap
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -611,7 +611,7 @@ rv
 *
 aInputStream
 =
-nsnull
+nullptr
 ;
 BITMAPINFO
 *

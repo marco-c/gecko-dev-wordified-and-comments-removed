@@ -483,7 +483,7 @@ mPackagesHash
 .
 ops
 =
-nsnull
+nullptr
 ;
 }
 nsChromeRegistryChrome
@@ -580,7 +580,7 @@ PL_DHashTableInit
 mPackagesHash
 &
 kTableOps
-nsnull
+nullptr
 sizeof
 (
 PackageEntry
@@ -648,7 +648,7 @@ prefserv
 >
 GetDefaultBranch
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 prefs
@@ -1772,7 +1772,7 @@ PL_DHashTableEnumerate
 &
 mPackagesHash
 RemoveAll
-nsnull
+nullptr
 )
 ;
 mOverlayHash
@@ -1901,7 +1901,7 @@ has
 -
 changed
 "
-nsnull
+nullptr
 )
 ;
 }
@@ -2431,7 +2431,7 @@ if
 mInitialized
 )
 return
-nsnull
+nullptr
 ;
 LogMessage
 (
@@ -2472,7 +2472,7 @@ get
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -2553,7 +2553,7 @@ baseURI
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -2854,13 +2854,13 @@ if
 i
 )
 return
-nsnull
+nullptr
 ;
 ProviderEntry
 *
 found
 =
-nsnull
+nullptr
 ;
 ProviderEntry
 *
@@ -3007,7 +3007,7 @@ if
 provider
 )
 return
-nsnull
+nullptr
 ;
 return
 provider
@@ -3386,7 +3386,7 @@ if
 entry
 )
 return
-nsnull
+nullptr
 ;
 return
 &

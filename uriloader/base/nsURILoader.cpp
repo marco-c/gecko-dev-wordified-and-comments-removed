@@ -362,7 +362,7 @@ nsURILoader
 :
 mLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -1836,7 +1836,7 @@ rv
 {
 m_targetStreamListener
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -2088,7 +2088,7 @@ loadFlags
 ;
 m_targetStreamListener
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2308,7 +2308,7 @@ nextLink
 >
 m_targetStreamListener
 =
-nsnull
+nullptr
 ;
 nextLink
 -
@@ -2535,7 +2535,7 @@ rv
 {
 m_targetStreamListener
 =
-nsnull
+nullptr
 ;
 }
 LOG
@@ -2564,7 +2564,7 @@ return
 m_targetStreamListener
 !
 =
-nsnull
+nullptr
 ;
 }
 nsLoadFlags
@@ -2698,7 +2698,7 @@ loadFlags
 ;
 m_targetStreamListener
 =
-nsnull
+nullptr
 ;
 return
 false
@@ -2724,7 +2724,7 @@ load
 ;
 m_targetStreamListener
 =
-nsnull
+nullptr
 ;
 }
 NS_ASSERTION
@@ -3023,7 +3023,7 @@ channel
 AsyncOpen
 (
 loader
-nsnull
+nullptr
 )
 ;
 if
@@ -3467,7 +3467,7 @@ loadGroup
 AddRequest
 (
 channel
-nsnull
+nullptr
 )
 ;
 if
@@ -3481,7 +3481,7 @@ oldGroup
 RemoveRequest
 (
 channel
-nsnull
+nullptr
 NS_BINDING_RETARGETED
 )
 ;

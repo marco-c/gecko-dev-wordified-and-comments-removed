@@ -311,7 +311,7 @@ ColData
 {
 mColGroup
 =
-nsnull
+nullptr
 ;
 }
 }

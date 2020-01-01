@@ -31,6 +31,13 @@ h
 #
 include
 "
+nsEventShell
+.
+h
+"
+#
+include
+"
 nsTextEquivUtils
 .
 h
@@ -2070,7 +2077,7 @@ if
 editableElt
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -2108,7 +2115,7 @@ stack
 >
 Push
 (
-nsnull
+nullptr
 )
 )
 ;
@@ -2210,7 +2217,7 @@ AUTOCOMPLETE
 ?
 mParent
 :
-nsnull
+nullptr
 ;
 }
 HTMLFileInputAccessible
@@ -2604,7 +2611,7 @@ legendContent
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -3094,7 +3101,7 @@ childContent
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 HTMLFigcaptionAccessible

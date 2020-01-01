@@ -90,7 +90,7 @@ return
 mCacheEntry
 !
 =
-nsnull
+nullptr
 ;
 }
 public

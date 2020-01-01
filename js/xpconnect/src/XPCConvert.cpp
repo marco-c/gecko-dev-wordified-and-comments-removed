@@ -1693,10 +1693,10 @@ NativeInterface2JSObject
 (
 lccx
 d
-nsnull
+nullptr
 helper
 iid
-nsnull
+nullptr
 true
 pErr
 )
@@ -2522,7 +2522,7 @@ nsID
 *
 pid
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2700,13 +2700,13 @@ PRUnichar
 *
 chars
 =
-nsnull
+nullptr
 ;
 JSString
 *
 str
 =
-nsnull
+nullptr
 ;
 JSBool
 isNewString
@@ -2833,7 +2833,7 @@ else
 {
 str
 =
-nsnull
+nullptr
 ;
 chars
 =
@@ -3088,7 +3088,7 @@ char
 d
 )
 =
-nsnull
+nullptr
 ;
 return
 true
@@ -3122,11 +3122,11 @@ jschar
 *
 chars
 =
-nsnull
+nullptr
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 (
@@ -3302,7 +3302,7 @@ jschar
 *
 chars
 =
-nsnull
+nullptr
 ;
 JSString
 *
@@ -3332,7 +3332,7 @@ jschar
 d
 )
 =
-nsnull
+nullptr
 ;
 return
 true
@@ -4137,7 +4137,7 @@ return
 atom
 !
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -4159,7 +4159,7 @@ nsISupports
 d
 )
 =
-nsnull
+nullptr
 ;
 return
 true
@@ -4222,7 +4222,7 @@ toObject
 (
 )
 iid
-nsnull
+nullptr
 pErr
 )
 ;
@@ -4380,7 +4380,7 @@ dest
 *
 dest
 =
-nsnull
+nullptr
 ;
 nsISupports
 *
@@ -4667,7 +4667,7 @@ else
 {
 flat
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -5329,7 +5329,7 @@ false
 *
 dest
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5354,7 +5354,7 @@ JSObject
 *
 inner
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5678,7 +5678,7 @@ char
 *
 sz
 =
-nsnull
+nullptr
 ;
 nsXPIDLString
 xmsg
@@ -5749,7 +5749,7 @@ nsXPCException
 NameAndFormatForNSResult
 (
 rv
-nsnull
+nullptr
 &
 msg
 )
@@ -5795,7 +5795,7 @@ NewException
 (
 msg
 rv
-nsnull
+nullptr
 data
 exceptn
 )
@@ -6009,7 +6009,7 @@ wrapper
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 (
@@ -6079,13 +6079,13 @@ return
 ConstructException
 (
 NS_ERROR_XPC_JS_THREW_NATIVE_OBJECT
-nsnull
+nullptr
 ifaceName
 methodName
 supports
 exceptn
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -6099,7 +6099,7 @@ report
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 (
@@ -6122,7 +6122,7 @@ str
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 (
@@ -6229,7 +6229,7 @@ NS_GET_IID
 (
 nsIException
 )
-nsnull
+nullptr
 &
 jswrapper
 )
@@ -6309,7 +6309,7 @@ ptr
 )
 ifaceName
 methodName
-nsnull
+nullptr
 exceptn
 cx
 &
@@ -6336,10 +6336,10 @@ return
 ConstructException
 (
 NS_ERROR_XPC_JS_THREW_NULL
-nsnull
+nullptr
 ifaceName
 methodName
-nsnull
+nullptr
 exceptn
 cx
 &
@@ -6473,10 +6473,10 @@ return
 ConstructException
 (
 rv
-nsnull
+nullptr
 ifaceName
 methodName
-nsnull
+nullptr
 exceptn
 cx
 &
@@ -6521,7 +6521,7 @@ cm
 CreateInstanceByContractID
 (
 NS_SUPPORTS_DOUBLE_CONTRACTID
-nsnull
+nullptr
 NS_GET_IID
 (
 nsISupportsDouble
@@ -6552,7 +6552,7 @@ rv
 ConstructException
 (
 NS_ERROR_XPC_JS_THREW_NUMBER
-nsnull
+nullptr
 ifaceName
 methodName
 data
@@ -6612,7 +6612,7 @@ ptr
 )
 ifaceName
 methodName
-nsnull
+nullptr
 exceptn
 cx
 &
@@ -6846,8 +6846,8 @@ get
 )
 )
 exceptn
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -6858,13 +6858,13 @@ rv
 ConstructException
 (
 NS_ERROR_XPC_JAVASCRIPT_ERROR
-nsnull
+nullptr
 ifaceName
 methodName
-nsnull
+nullptr
 exceptn
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -6993,7 +6993,7 @@ JS_NewArrayObject
 (
 cx
 count
-nsnull
+nullptr
 )
 ;
 if
@@ -7700,7 +7700,7 @@ void
 *
 output
 =
-nsnull
+nullptr
 ;
 switch
 (
@@ -8142,7 +8142,7 @@ false
 *
 d
 =
-nsnull
+nullptr
 ;
 return
 true
@@ -8302,7 +8302,7 @@ max
 |
 |
 \
-nsnull
+nullptr
 =
 =
 (
@@ -8415,7 +8415,7 @@ void
 *
 array
 =
-nsnull
+nullptr
 ;
 uint32_t
 initedCount
@@ -9329,7 +9329,7 @@ char
 d
 )
 =
-nsnull
+nullptr
 ;
 return
 true
@@ -9505,7 +9505,7 @@ jschar
 *
 chars
 =
-nsnull
+nullptr
 ;
 JSString
 *
@@ -9608,7 +9608,7 @@ jschar
 d
 )
 =
-nsnull
+nullptr
 ;
 return
 true

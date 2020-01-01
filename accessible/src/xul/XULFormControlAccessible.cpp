@@ -543,7 +543,7 @@ mChildren
 SafeElementAt
 (
 0
-nsnull
+nullptr
 )
 ;
 if
@@ -610,7 +610,7 @@ return
 mParent
 ;
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -685,13 +685,13 @@ Accessible
 *
 menupopup
 =
-nsnull
+nullptr
 ;
 Accessible
 *
 button
 =
-nsnull
+nullptr
 ;
 nsAccTreeWalker
 walker
@@ -705,7 +705,7 @@ Accessible
 *
 child
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -835,7 +835,7 @@ nsGkAtoms
 :
 :
 menuButton
-nsnull
+nullptr
 }
 ;
 return
@@ -1537,7 +1537,7 @@ Accessible
 *
 testGroupbox
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -2659,7 +2659,7 @@ if
 editableElt
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -2729,7 +2729,7 @@ Accessible
 *
 child
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -2794,7 +2794,7 @@ GetFrameSelection
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 already_AddRefed
@@ -2888,7 +2888,7 @@ nsIContent
 *
 inputField
 =
-nsnull
+nullptr
 ;
 if
 (

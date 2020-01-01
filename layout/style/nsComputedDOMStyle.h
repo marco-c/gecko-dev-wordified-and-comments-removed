@@ -1899,14 +1899,14 @@ aClampNegativeCalc
 PercentageBaseGetter
 aPercentageBaseGetter
 =
-nsnull
+nullptr
 const
 PRInt32
 aTable
 [
 ]
 =
-nsnull
+nullptr
 nscoord
 aMinAppUnits
 =

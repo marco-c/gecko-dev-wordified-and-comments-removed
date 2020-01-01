@@ -1131,7 +1131,7 @@ aOptions
 *
 aQueries
 =
-nsnull
+nullptr
 ;
 *
 aResultCount
@@ -1319,7 +1319,7 @@ Clear
 *
 aOptions
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -2102,7 +2102,7 @@ PRInt64
 *
 folders
 =
-nsnull
+nullptr
 ;
 PRUint32
 folderCount
@@ -5315,7 +5315,7 @@ aHasUri
 mUri
 !
 =
-nsnull
+nullptr
 )
 ;
 return
@@ -5564,7 +5564,7 @@ nsIDataType
 :
 :
 VTYPE_WCHAR_STR
-nsnull
+nullptr
 arrayLen
 reinterpret_cast
 <
@@ -6042,7 +6042,7 @@ PRInt64
 *
 folders
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -6213,7 +6213,7 @@ PRUint32
 *
 transitions
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -6366,7 +6366,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsNavHistoryQuery
 *
@@ -6902,7 +6902,7 @@ nsNavHistoryQueryOptions
 *
 clone
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -6937,7 +6937,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsNavHistoryQueryOptions
 *

@@ -511,7 +511,7 @@ Hold
 aAfter
 )
 :
-nsnull
+nullptr
 )
 ;
 }
@@ -1114,7 +1114,7 @@ phase
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }

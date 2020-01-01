@@ -73,7 +73,7 @@ tmp
 mListIndex
 ]
 =
-nsnull
+nullptr
 ;
 }
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
@@ -163,11 +163,11 @@ aIsAnimValItem
 )
 mTransform
 (
-nsnull
+nullptr
 )
 mMatrixTearoff
 (
-nsnull
+nullptr
 )
 {
 NS_ABORT_IF_FALSE
@@ -221,7 +221,7 @@ DOMSVGTransform
 :
 mList
 (
-nsnull
+nullptr
 )
 mListIndex
 (
@@ -240,7 +240,7 @@ SVGTransform
 )
 mMatrixTearoff
 (
-nsnull
+nullptr
 )
 {
 }
@@ -257,7 +257,7 @@ aMatrix
 :
 mList
 (
-nsnull
+nullptr
 )
 mListIndex
 (
@@ -277,7 +277,7 @@ aMatrix
 )
 mMatrixTearoff
 (
-nsnull
+nullptr
 )
 {
 }
@@ -294,7 +294,7 @@ aTransform
 :
 mList
 (
-nsnull
+nullptr
 )
 mListIndex
 (
@@ -314,7 +314,7 @@ aTransform
 )
 mMatrixTearoff
 (
-nsnull
+nullptr
 )
 {
 }
@@ -1010,7 +1010,7 @@ aIsAnimValItem
 ;
 mTransform
 =
-nsnull
+nullptr
 ;
 NS_ABORT_IF_FALSE
 (
@@ -1068,7 +1068,7 @@ InternalItem
 ;
 mList
 =
-nsnull
+nullptr
 ;
 mIsAnimValItem
 =
@@ -1329,7 +1329,7 @@ cleared
 ;
 mMatrixTearoff
 =
-nsnull
+nullptr
 ;
 }
 void

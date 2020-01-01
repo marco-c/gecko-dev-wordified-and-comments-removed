@@ -227,7 +227,7 @@ sNetshell
 {
 sNcFreeNetconProperties
 =
-nsnull
+nullptr
 ;
 FreeLibrary
 (
@@ -236,7 +236,7 @@ sNetshell
 ;
 sNetshell
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -268,7 +268,7 @@ false
 )
 mShutdownEvent
 (
-nsnull
+nullptr
 )
 {
 }
@@ -405,10 +405,10 @@ ev
 =
 CreateEvent
 (
-nsnull
+nullptr
 FALSE
 FALSE
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -728,7 +728,7 @@ Shutdown
 ;
 mThread
 =
-nsnull
+nullptr
 ;
 CloseHandle
 (

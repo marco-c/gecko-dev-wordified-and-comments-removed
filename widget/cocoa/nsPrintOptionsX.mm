@@ -238,7 +238,7 @@ rv
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsPrintSettingsX
 *

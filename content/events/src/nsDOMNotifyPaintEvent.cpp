@@ -952,7 +952,7 @@ aInvalidateRequests
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 it

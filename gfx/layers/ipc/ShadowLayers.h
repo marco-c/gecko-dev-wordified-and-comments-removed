@@ -846,7 +846,7 @@ CreateShadowRefLayer
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -1114,7 +1114,7 @@ mUseShadowClipRect
 aRect
 !
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1155,7 +1155,7 @@ mUseShadowClipRect
 &
 mShadowClipRect
 :
-nsnull
+nullptr
 ;
 }
 const
@@ -1199,7 +1199,7 @@ ShadowLayer
 :
 mAllocator
 (
-nsnull
+nullptr
 )
 mUseShadowClipRect
 (

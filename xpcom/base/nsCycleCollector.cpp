@@ -382,7 +382,7 @@ PRThread
 *
 gCycleCollectorThread
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -867,7 +867,7 @@ mSentinelAndBlocks
 .
 block
 =
-nsnull
+nullptr
 ;
 mSentinelAndBlocks
 [
@@ -876,7 +876,7 @@ mSentinelAndBlocks
 .
 block
 =
-nsnull
+nullptr
 ;
 mNumBlocks
 =
@@ -983,7 +983,7 @@ mSentinelAndBlocks
 .
 block
 =
-nsnull
+nullptr
 ;
 mSentinelAndBlocks
 [
@@ -992,7 +992,7 @@ mSentinelAndBlocks
 .
 block
 =
-nsnull
+nullptr
 ;
 }
 private
@@ -1044,7 +1044,7 @@ BlockSize
 .
 block
 =
-nsnull
+nullptr
 ;
 mPointers
 [
@@ -1055,7 +1055,7 @@ BlockSize
 .
 block
 =
-nsnull
+nullptr
 ;
 }
 Block
@@ -1146,7 +1146,7 @@ Iterator
 :
 mPointer
 (
-nsnull
+nullptr
 )
 {
 }
@@ -1195,7 +1195,7 @@ mPointer
 ptrInfo
 =
 =
-nsnull
+nullptr
 )
 {
 mPointer
@@ -1238,7 +1238,7 @@ mPointer
 ptrInfo
 =
 =
-nsnull
+nullptr
 )
 {
 return
@@ -1610,7 +1610,7 @@ mBytes
 )
 mName
 (
-nsnull
+nullptr
 )
 #
 endif
@@ -1792,11 +1792,11 @@ NodePool
 :
 mBlocks
 (
-nsnull
+nullptr
 )
 mLast
 (
-nsnull
+nullptr
 )
 mNumBlocks
 (
@@ -1919,11 +1919,11 @@ n
 }
 mBlocks
 =
-nsnull
+nullptr
 ;
 mLast
 =
-nsnull
+nullptr
 ;
 }
 class
@@ -1960,7 +1960,7 @@ mLast
 )
 mBlockEnd
 (
-nsnull
+nullptr
 )
 mNumBlocks
 (
@@ -1976,7 +1976,7 @@ aPool
 mBlocks
 =
 =
-nsnull
+nullptr
 &
 &
 aPool
@@ -1984,7 +1984,7 @@ aPool
 mLast
 =
 =
-nsnull
+nullptr
 "
 pool
 not
@@ -2043,7 +2043,7 @@ Block
 )
 )
 return
-nsnull
+nullptr
 ;
 mNext
 =
@@ -2066,7 +2066,7 @@ block
 >
 mNext
 =
-nsnull
+nullptr
 ;
 mNextBlock
 =
@@ -2144,15 +2144,15 @@ mBlocks
 )
 mCurBlock
 (
-nsnull
+nullptr
 )
 mNext
 (
-nsnull
+nullptr
 )
 mBlockEnd
 (
-nsnull
+nullptr
 )
 mLast
 (
@@ -2427,7 +2427,7 @@ Block
 :
 mNext
 (
-nsnull
+nullptr
 )
 {
 }
@@ -2558,7 +2558,7 @@ mCount
 ;
 mFreeList
 =
-nsnull
+nullptr
 ;
 StartBlock
 (
@@ -2749,7 +2749,7 @@ mFirstBlock
 .
 mNext
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -2930,7 +2930,7 @@ b
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 mNumBlocksAlloced
@@ -3014,7 +3014,7 @@ e
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 +
@@ -3949,7 +3949,7 @@ nsCycleCollector
 *
 sCollector
 =
-nsnull
+nullptr
 ;
 MOZ_NEVER_INLINE
 static
@@ -3965,7 +3965,7 @@ void
 *
 ptr
 =
-nsnull
+nullptr
 )
 {
 if
@@ -4706,7 +4706,7 @@ nsCycleCollectorLogger
 :
 mStream
 (
-nsnull
+nullptr
 )
 mWantAllTraces
 (
@@ -5720,7 +5720,7 @@ mStream
 ;
 mStream
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -6117,7 +6117,7 @@ PtrToNodeMatchEntry
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
 PL_DHashFinalizeStub
-nsnull
+nullptr
 }
 ;
 class
@@ -6574,7 +6574,7 @@ mMergeCompartments
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 JSCompartment
@@ -6601,7 +6601,7 @@ comp
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -6648,7 +6648,7 @@ mWeakMaps
 )
 mJSParticipant
 (
-nsnull
+nullptr
 )
 mJSCompParticipant
 (
@@ -6674,7 +6674,7 @@ PL_DHashTableInit
 mPtrToNodeMap
 &
 PtrNodeOps
-nsnull
+nullptr
 sizeof
 (
 PtrToNodeEntry
@@ -6686,7 +6686,7 @@ mPtrToNodeMap
 .
 ops
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -6866,7 +6866,7 @@ if
 e
 )
 return
-nsnull
+nullptr
 ;
 PtrInfo
 *
@@ -6905,7 +6905,7 @@ e
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 e
@@ -7707,7 +7707,7 @@ WantAllTraces
 )
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -7798,7 +7798,7 @@ AddWeakMapNode
 map
 )
 :
-nsnull
+nullptr
 ;
 mapping
 -
@@ -7812,7 +7812,7 @@ AddWeakMapNode
 key
 )
 :
-nsnull
+nullptr
 ;
 mapping
 -
@@ -8464,7 +8464,7 @@ obs
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 cycle
 -
@@ -8474,7 +8474,7 @@ forget
 -
 skippable
 "
-nsnull
+nullptr
 )
 ;
 }
@@ -9734,15 +9734,15 @@ false
 )
 mResults
 (
-nsnull
+nullptr
 )
 mJSRuntime
 (
-nsnull
+nullptr
 )
 mWhiteNodes
 (
-nsnull
+nullptr
 )
 mWhiteNodeCount
 (
@@ -9758,11 +9758,11 @@ mVisitedGCed
 )
 mBeforeUnlinkCB
 (
-nsnull
+nullptr
 )
 mForgetSkippableCB
 (
-nsnull
+nullptr
 )
 #
 ifdef
@@ -9774,7 +9774,7 @@ mStats
 )
 mPtrLog
 (
-nsnull
+nullptr
 )
 #
 else
@@ -9885,7 +9885,7 @@ runtime
 ;
 mJSRuntime
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -9951,7 +9951,7 @@ if
 sSuppressionList
 =
 =
-nsnull
+nullptr
 )
 {
 mSuppressThisNode
@@ -10044,7 +10044,7 @@ objName
 )
 !
 =
-nsnull
+nullptr
 )
 ;
 }
@@ -10074,7 +10074,7 @@ objName
 )
 !
 =
-nsnull
+nullptr
 )
 ;
 }
@@ -10196,7 +10196,7 @@ Suppressor
 :
 sSuppressionList
 =
-nsnull
+nullptr
 ;
 bool
 Suppressor
@@ -10264,7 +10264,7 @@ return
 cp
 !
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -10510,7 +10510,7 @@ if
 mScanInProgress
 )
 return
-nsnull
+nullptr
 ;
 NS_ASSERTION
 (
@@ -10535,7 +10535,7 @@ mParams
 mDoNothing
 )
 return
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -10554,7 +10554,7 @@ n
 )
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -10963,7 +10963,7 @@ obs
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 cycle
 -
@@ -10971,7 +10971,7 @@ collector
 -
 begin
 "
-nsnull
+nullptr
 )
 ;
 mFollowupCollection
@@ -11011,7 +11011,7 @@ CleanupAfterCollection
 {
 mWhiteNodes
 =
-nsnull
+nullptr
 ;
 mCollectionInProgress
 =
@@ -11180,7 +11180,7 @@ mVisitedGCed
 ;
 mResults
 =
-nsnull
+nullptr
 ;
 }
 Telemetry
@@ -11304,7 +11304,7 @@ Begin
 )
 aListener
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -12130,7 +12130,7 @@ nsCycleCollectorLogger
 Collect
 (
 false
-nsnull
+nullptr
 SHUTDOWN_COLLECTIONS
 (
 mParams
@@ -12146,7 +12146,7 @@ builder
 (
 mGraph
 mJSRuntime
-nsnull
+nullptr
 false
 )
 ;
@@ -12538,7 +12538,7 @@ n
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -12850,7 +12850,7 @@ collector
 )
 mListener
 (
-nsnull
+nullptr
 )
 mLock
 (
@@ -13030,7 +13030,7 @@ Begin
 )
 aListener
 =
-nsnull
+nullptr
 ;
 mListener
 =
@@ -13092,7 +13092,7 @@ mListener
 }
 mListener
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -13602,7 +13602,7 @@ sCollector
 ;
 sCollector
 =
-nsnull
+nullptr
 ;
 }
 }

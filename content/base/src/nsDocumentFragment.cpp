@@ -129,7 +129,7 @@ SetAttr
 (
 aNameSpaceID
 aName
-nsnull
+nullptr
 aValue
 aNotify
 )
@@ -207,7 +207,7 @@ aIndex
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 virtual
@@ -304,7 +304,7 @@ nsGkAtoms
 :
 :
 documentFragmentNodeName
-nsnull
+nullptr
 kNameSpaceID_None
 nsIDOMNode
 :
@@ -412,7 +412,7 @@ DoGetID
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIAtom
@@ -426,7 +426,7 @@ GetIDAttributeName
 const
 {
 return
-nsnull
+nullptr
 ;
 }
 DOMCI_NODE_DATA

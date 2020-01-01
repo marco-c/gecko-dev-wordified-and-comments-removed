@@ -238,7 +238,7 @@ pki
 ;
 pki
 =
-nsnull
+nullptr
 ;
 if
 (

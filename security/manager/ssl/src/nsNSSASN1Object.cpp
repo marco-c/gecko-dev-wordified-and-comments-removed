@@ -451,7 +451,7 @@ rv
 parentObjects
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_FAILURE
@@ -751,7 +751,7 @@ nsNSSASN1Sequence
 *
 retval
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -813,7 +813,7 @@ if
 retval
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_FAILURE
@@ -880,7 +880,7 @@ if
 mASN1Objects
 =
 =
-nsnull
+nullptr
 )
 {
 mASN1Objects
@@ -1187,7 +1187,7 @@ mTag
 )
 mData
 (
-nsnull
+nullptr
 )
 mLen
 (
@@ -1422,7 +1422,7 @@ mData
 ;
 mData
 =
-nsnull
+nullptr
 ;
 }
 }

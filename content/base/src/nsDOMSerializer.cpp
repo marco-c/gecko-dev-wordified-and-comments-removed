@@ -142,7 +142,7 @@ aEncoder
 *
 aEncoder
 =
-nsnull
+nullptr
 ;
 nsresult
 rv

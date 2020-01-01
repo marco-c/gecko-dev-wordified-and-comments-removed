@@ -69,7 +69,7 @@ nsRange
 :
 mRoot
 (
-nsnull
+nullptr
 )
 mStartOffset
 (

@@ -406,7 +406,7 @@ GetTarget
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHOD
@@ -626,7 +626,7 @@ bool
 *
 aIsAnonymous
 =
-nsnull
+nullptr
 )
 ;
 nsresult
@@ -658,7 +658,7 @@ PRInt32
 *
 aCount
 =
-nsnull
+nullptr
 )
 ;
 void
@@ -983,7 +983,7 @@ RDFContentSinkImpl
 :
 mText
 (
-nsnull
+nullptr
 )
 mTextLength
 (
@@ -1003,11 +1003,11 @@ eRDFContentSinkParseMode_Literal
 )
 mContextStack
 (
-nsnull
+nullptr
 )
 mDocumentURL
 (
-nsnull
+nullptr
 )
 {
 if
@@ -1285,7 +1285,7 @@ nsIRDFResource
 *
 resource
 =
-nsnull
+nullptr
 ;
 RDFContentSinkState
 state
@@ -1456,7 +1456,7 @@ NS_ERROR_NULL_POINTER
 *
 result
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2280,7 +2280,7 @@ NS_PRECONDITION
 aURL
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -2328,7 +2328,7 @@ NS_PRECONDITION
 aDataSource
 !
 =
-nsnull
+nullptr
 "
 SetDataSource
 null
@@ -2345,7 +2345,7 @@ NS_ASSERTION
 mDataSource
 !
 =
-nsnull
+nullptr
 "
 Couldn
 '
@@ -4057,7 +4057,7 @@ NS_ERROR_UNEXPECTED
 }
 PushContext
 (
-nsnull
+nullptr
 mState
 mParseMode
 )
@@ -4707,7 +4707,7 @@ resource
 }
 PushContext
 (
-nsnull
+nullptr
 mState
 mParseMode
 )
@@ -4933,7 +4933,7 @@ kXMLNSAtom
 {
 preferred
 =
-nsnull
+nullptr
 ;
 }
 sink
@@ -5237,7 +5237,7 @@ mMakeFn
 (
 mDataSource
 aContainer
-nsnull
+nullptr
 )
 ;
 }
@@ -5428,7 +5428,7 @@ ancestor
 if
 (
 (
-nsnull
+nullptr
 =
 =
 mContextStack
@@ -5452,7 +5452,7 @@ Length
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -5592,7 +5592,7 @@ aParseMode
 if
 (
 (
-nsnull
+nullptr
 =
 =
 mContextStack
@@ -5686,7 +5686,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nsnull
+nullptr
 "
 null
 ptr

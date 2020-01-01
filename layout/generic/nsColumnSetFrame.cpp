@@ -218,7 +218,7 @@ if
 frame
 )
 return
-nsnull
+nullptr
 ;
 return
 frame
@@ -3096,7 +3096,7 @@ deleted
 ;
 child
 =
-nsnull
+nullptr
 ;
 break
 ;
@@ -3173,7 +3173,7 @@ continuation
 ;
 child
 =
-nsnull
+nullptr
 ;
 break
 ;
@@ -3307,7 +3307,7 @@ continuationColumns
 }
 child
 =
-nsnull
+nullptr
 ;
 break
 ;
@@ -3955,7 +3955,7 @@ mFrames
 InsertFrames
 (
 this
-nsnull
+nullptr
 *
 overflows
 )
@@ -3982,7 +3982,7 @@ mFrames
 .
 AppendFrames
 (
-nsnull
+nullptr
 *
 overflows
 )

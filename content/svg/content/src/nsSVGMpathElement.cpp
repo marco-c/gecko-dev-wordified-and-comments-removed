@@ -656,7 +656,7 @@ attribute
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsIContent
@@ -698,7 +698,7 @@ genericTarget
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void

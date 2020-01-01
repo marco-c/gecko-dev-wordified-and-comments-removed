@@ -479,7 +479,7 @@ JSObject
 *
 obj
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -663,7 +663,7 @@ JSObject
 *
 obj
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -998,7 +998,7 @@ stepFunc
 )
 !
 =
-nsnull
+nullptr
 ;
 *
 _objp

@@ -141,7 +141,7 @@ tvr
 jsval_addr
 (
 )
-nsnull
+nullptr
 )
 )
 return
@@ -201,7 +201,7 @@ setfunc
 )
 (
 arg0
-nsnull
+nullptr
 )
 ;
 }
@@ -1151,7 +1151,7 @@ tvr
 jsval_addr
 (
 )
-nsnull
+nullptr
 )
 )
 return

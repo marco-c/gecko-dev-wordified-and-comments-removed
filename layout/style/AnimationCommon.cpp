@@ -90,7 +90,7 @@ RemoveAllElementData
 ;
 mPresContext
 =
-nsnull
+nullptr
 ;
 }
 void

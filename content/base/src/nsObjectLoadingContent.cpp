@@ -513,7 +513,7 @@ mContent
 >
 mPendingInstantiateEvent
 =
-nsnull
+nullptr
 ;
 return
 mContent
@@ -1422,10 +1422,10 @@ nsEventDispatcher
 DispatchDOMEvent
 (
 mContent
-nsnull
+nullptr
 event
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 return
@@ -1690,7 +1690,7 @@ crash
 }
 mTimer
 =
-nsnull
+nullptr
 ;
 static_cast
 <
@@ -2788,11 +2788,11 @@ nsObjectLoadingContent
 :
 mPendingInstantiateEvent
 (
-nsnull
+nullptr
 )
 mChannel
 (
-nsnull
+nullptr
 )
 mType
 (
@@ -3976,7 +3976,7 @@ nsIImageLoadingContent
 this
 )
 mContentType
-nsnull
+nullptr
 &
 shouldProcess
 nsContentUtils
@@ -4363,7 +4363,7 @@ NewEmbeddedPluginStreamListener
 (
 uri
 this
-nsnull
+nullptr
 getter_AddRefs
 (
 mFinalListener
@@ -4558,7 +4558,7 @@ NS_BINDING_ABORTED
 }
 mChannel
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4577,7 +4577,7 @@ aStatusCode
 ;
 mFinalListener
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -4863,7 +4863,7 @@ mInstanceOwner
 >
 SetFrame
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -4886,7 +4886,7 @@ aInstance
 *
 aInstance
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5562,7 +5562,7 @@ mPendingInstantiateEvent
 {
 mPendingInstantiateEvent
 =
-nsnull
+nullptr
 ;
 }
 AutoNotifier
@@ -5684,18 +5684,18 @@ mFinalListener
 OnStopRequest
 (
 mChannel
-nsnull
+nullptr
 NS_BINDING_ABORTED
 )
 ;
 mFinalListener
 =
-nsnull
+nullptr
 ;
 }
 mChannel
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -5824,7 +5824,7 @@ nsIImageLoadingContent
 this
 )
 aTypeHint
-nsnull
+nullptr
 &
 shouldLoad
 nsContentUtils
@@ -6057,7 +6057,7 @@ mFrameLoader
 {
 mURI
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -6588,7 +6588,7 @@ getter_AddRefs
 chan
 )
 aURI
-nsnull
+nullptr
 group
 this
 nsIChannel
@@ -6733,7 +6733,7 @@ chan
 AsyncOpen
 (
 this
-nsnull
+nullptr
 )
 ;
 if
@@ -6840,11 +6840,11 @@ Destroy
 ;
 mFrameLoader
 =
-nsnull
+nullptr
 ;
 mURI
 =
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -7137,7 +7137,7 @@ return
 extHandler
 =
 =
-nsnull
+nullptr
 ;
 }
 bool
@@ -7376,7 +7376,7 @@ Destroy
 ;
 mFrameLoader
 =
-nsnull
+nullptr
 ;
 }
 mType
@@ -8041,7 +8041,7 @@ NS_PRECONDITION
 aURI
 =
 =
-nsnull
+nullptr
 "
 URI
 must
@@ -9490,7 +9490,7 @@ char
 *
 mime
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -9549,7 +9549,7 @@ delayedStop
 ;
 mInstanceOwner
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -9695,7 +9695,7 @@ JSObject
 *
 obj
 =
-nsnull
+nullptr
 ;
 nsresult
 rv

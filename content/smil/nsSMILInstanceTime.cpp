@@ -73,7 +73,7 @@ aCreator
 )
 mBaseInterval
 (
-nsnull
+nullptr
 )
 {
 switch
@@ -207,12 +207,12 @@ this
 ;
 mBaseInterval
 =
-nsnull
+nullptr
 ;
 }
 mCreator
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -362,7 +362,7 @@ not
 ;
 mBaseInterval
 =
-nsnull
+nullptr
 ;
 mFlags
 &
@@ -390,7 +390,7 @@ this
 ;
 mCreator
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -419,7 +419,7 @@ time
 ;
 mBaseInterval
 =
-nsnull
+nullptr
 ;
 mFlags
 &
@@ -429,7 +429,7 @@ kMayUpdate
 ;
 mCreator
 =
-nsnull
+nullptr
 ;
 }
 bool
@@ -659,7 +659,7 @@ mBaseInterval
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_ABORT_IF_FALSE
@@ -686,7 +686,7 @@ mCreator
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return

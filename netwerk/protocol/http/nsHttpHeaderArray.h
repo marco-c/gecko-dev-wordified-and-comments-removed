@@ -256,7 +256,7 @@ value
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -278,13 +278,13 @@ nsHttpAtom
 *
 header
 =
-nsnull
+nullptr
 char
 *
 *
 value
 =
-nsnull
+nullptr
 )
 ;
 void

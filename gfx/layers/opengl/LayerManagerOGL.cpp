@@ -310,7 +310,7 @@ Destroy
 }
 mRoot
 =
-nsnull
+nullptr
 ;
 CleanupResources
 (
@@ -509,7 +509,7 @@ mQuadVBO
 }
 mGLContext
 =
-nsnull
+nullptr
 ;
 }
 already_AddRefed
@@ -714,7 +714,7 @@ mVariations
 maskType
 ]
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -749,7 +749,7 @@ NS_ABORT_IF_FALSE
 mGLContext
 =
 =
-nsnull
+nullptr
 "
 Don
 '
@@ -1694,8 +1694,8 @@ false
 ;
 EndTransaction
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 return
@@ -1799,11 +1799,11 @@ Render
 ;
 mThebesLayerCallback
 =
-nsnull
+nullptr
 ;
 mThebesLayerCallbackData
 =
-nsnull
+nullptr
 ;
 }
 mTarget
@@ -1897,7 +1897,7 @@ manager
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -1948,7 +1948,7 @@ manager
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -1999,7 +1999,7 @@ manager
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -2050,7 +2050,7 @@ manager
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -2101,7 +2101,7 @@ manager
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -2151,7 +2151,7 @@ manager
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -4354,7 +4354,7 @@ Next
 )
 !
 =
-nsnull
+nullptr
 )
 {
 nsIntRect
@@ -5965,7 +5965,7 @@ manager
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 #
@@ -6041,7 +6041,7 @@ manager
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -6093,7 +6093,7 @@ manager
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -6145,7 +6145,7 @@ manager
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -6197,7 +6197,7 @@ manager
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -6249,7 +6249,7 @@ manager
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return

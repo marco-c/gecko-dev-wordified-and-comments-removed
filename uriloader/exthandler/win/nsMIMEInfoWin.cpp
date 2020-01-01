@@ -2436,7 +2436,7 @@ rv
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <

@@ -568,9 +568,9 @@ getter_AddRefs
 mChannel
 )
 mURI
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 nsIRequest
 :
 :
@@ -640,7 +640,7 @@ mChannel
 AsyncOpen
 (
 this
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -998,7 +998,7 @@ type
 )
 mChannel
 (
-nsnull
+nullptr
 )
 mState
 (
@@ -1109,8 +1109,8 @@ getter_AddRefs
 mChannel
 )
 mURI
-nsnull
-nsnull
+nullptr
+nullptr
 this
 nsIRequest
 :
@@ -1242,7 +1242,7 @@ mChannel
 AsyncOpen
 (
 this
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1289,7 +1289,7 @@ NS_ERROR_ABORT
 ;
 mChannel
 =
-nsnull
+nullptr
 ;
 }
 mState
@@ -1360,7 +1360,7 @@ aStream
 ReadSegments
 (
 NS_DiscardSegment
-nsnull
+nullptr
 aCount
 &
 bytesRead
@@ -1816,7 +1816,7 @@ aSource
 *
 aSource
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -2444,7 +2444,7 @@ manifest
 >
 mManifestHash
 =
-nsnull
+nullptr
 ;
 LOG
 (
@@ -2517,7 +2517,7 @@ manifest
 >
 mManifestHash
 =
-nsnull
+nullptr
 ;
 LOG
 (
@@ -3204,7 +3204,7 @@ getter_AddRefs
 uri
 )
 line
-nsnull
+nullptr
 mURI
 )
 ;
@@ -3373,7 +3373,7 @@ getter_AddRefs
 namespaceURI
 )
 namespaceSpec
-nsnull
+nullptr
 mURI
 )
 ;
@@ -3432,7 +3432,7 @@ getter_AddRefs
 fallbackURI
 )
 fallbackSpec
-nsnull
+nullptr
 mURI
 )
 ;
@@ -3603,7 +3603,7 @@ getter_AddRefs
 bypassURI
 )
 line
-nsnull
+nullptr
 mURI
 )
 ;
@@ -3858,7 +3858,7 @@ mManifestHashValue
 ;
 mManifestHash
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4450,7 +4450,7 @@ STATE_UNINITIALIZED
 )
 mOwner
 (
-nsnull
+nullptr
 )
 mAddedItems
 (
@@ -4767,7 +4767,7 @@ aCustomProfileDir
 {
 mPreviousApplicationCache
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -6130,7 +6130,7 @@ Init
 (
 mManifestURI
 mDocumentURI
-nsnull
+nullptr
 mCustomProfileDir
 )
 ;
@@ -6474,7 +6474,7 @@ char
 *
 keys
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -6699,7 +6699,7 @@ nsOfflineCacheUpdateItem
 *
 runItem
 =
-nsnull
+nullptr
 ;
 PRUint32
 completedItems
@@ -7374,7 +7374,7 @@ this
 ;
 mImplicitUpdate
 =
-nsnull
+nullptr
 ;
 NotifyState
 (
@@ -7845,7 +7845,7 @@ this
 ;
 mOwner
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -8307,7 +8307,7 @@ aIsUpgrade
 mPreviousApplicationCache
 !
 =
-nsnull
+nullptr
 )
 ;
 return

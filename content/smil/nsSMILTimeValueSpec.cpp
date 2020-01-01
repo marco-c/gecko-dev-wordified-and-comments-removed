@@ -222,7 +222,7 @@ Disconnect
 ;
 mEventListener
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1130,7 +1130,7 @@ if
 aElement
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1149,7 +1149,7 @@ if
 animElement
 )
 return
-nsnull
+nullptr
 ;
 return
 &
@@ -1510,7 +1510,7 @@ if
 doc
 )
 return
-nsnull
+nullptr
 ;
 nsPIDOMWindow
 *
@@ -1529,7 +1529,7 @@ if
 win
 )
 return
-nsnull
+nullptr
 ;
 target
 =
@@ -1552,7 +1552,7 @@ if
 target
 )
 return
-nsnull
+nullptr
 ;
 return
 target

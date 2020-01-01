@@ -359,7 +359,7 @@ aURI
 ;
 mDocumentURI
 =
-nsnull
+nullptr
 ;
 mCaps
 =
@@ -762,7 +762,7 @@ aLoadGroup
 ;
 mProgressSink
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -998,7 +998,7 @@ aCallbacks
 ;
 mProgressSink
 =
-nsnull
+nullptr
 ;
 mPrivateBrowsing
 =
@@ -2301,7 +2301,7 @@ mResponseHead
 *
 aEncodings
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -2332,7 +2332,7 @@ encoding
 *
 aEncodings
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -3007,7 +3007,7 @@ ENSURE_CALLED_BEFORE_ASYNC_OPEN
 ;
 mReferrer
 =
-nsnull
+nullptr
 ;
 mRequestHead
 .
@@ -3244,7 +3244,7 @@ ftp
 "
 gopher
 "
-nsnull
+nullptr
 }
 ;
 match
@@ -4574,8 +4574,8 @@ cs
 SetCookieStringFromHttp
 (
 mURI
-nsnull
-nsnull
+nullptr
+nullptr
 aCookieHeader
 mResponseHead
 -
@@ -5439,11 +5439,11 @@ false
 }
 mCallbacks
 =
-nsnull
+nullptr
 ;
 mProgressSink
 =
-nsnull
+nullptr
 ;
 DoNotifyListenerCleanup
 (
@@ -5510,7 +5510,7 @@ cs
 GetCookieStringFromHttp
 (
 mURI
-nsnull
+nullptr
 this
 getter_Copies
 (

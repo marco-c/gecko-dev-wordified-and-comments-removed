@@ -293,7 +293,7 @@ aObjectStore
 )
 mActor
 (
-nsnull
+nullptr
 )
 {
 NS_ASSERTION
@@ -405,7 +405,7 @@ aObjectStore
 AsyncConnectionHelper
 (
 aTransaction
-nsnull
+nullptr
 )
 mObjectStore
 (
@@ -1675,7 +1675,7 @@ forget
 {
 mObjectStoreInfo
 =
-nsnull
+nullptr
 ;
 }
 private
@@ -1825,7 +1825,7 @@ ThreadLocalJSRuntime
 NS_ENSURE_TRUE
 (
 entry
-nsnull
+nullptr
 )
 ;
 if
@@ -1845,7 +1845,7 @@ delete
 entry
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -3615,8 +3615,8 @@ IDBObjectStore
 :
 :
 StructuredCloneReadCallback
-nsnull
-nsnull
+nullptr
+nullptr
 }
 ;
 return
@@ -3689,9 +3689,9 @@ JSStructuredCloneCallbacks
 callbacks
 =
 {
-nsnull
+nullptr
 StructuredCloneWriteCallback
-nsnull
+nullptr
 }
 ;
 JSAutoStructuredCloneBuffer
@@ -4091,7 +4091,7 @@ index
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsRefPtr
@@ -4139,7 +4139,7 @@ type
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_ConvertUTF8toUTF16
@@ -4162,7 +4162,7 @@ name
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_ConvertUTF8toUTF16
@@ -4245,7 +4245,7 @@ native
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -4297,7 +4297,7 @@ directory
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -4338,7 +4338,7 @@ file
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 PRUint64
@@ -4371,7 +4371,7 @@ size
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 size
@@ -4395,7 +4395,7 @@ type
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_ConvertUTF8toUTF16
@@ -4473,7 +4473,7 @@ native
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -4497,7 +4497,7 @@ name
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_ConvertUTF8toUTF16
@@ -4568,7 +4568,7 @@ native
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -4606,12 +4606,12 @@ aCx
 aReader
 aTag
 aData
-nsnull
+nullptr
 )
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 JSBool
@@ -5507,7 +5507,7 @@ write
 aCx
 aWriter
 aObj
-nsnull
+nullptr
 )
 ;
 }
@@ -5650,11 +5650,11 @@ false
 )
 mActorChild
 (
-nsnull
+nullptr
 )
 mActorParent
 (
-nsnull
+nullptr
 )
 {
 NS_ASSERTION
@@ -6321,7 +6321,7 @@ request
 GenerateRequest
 (
 this
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_TRUE
@@ -7558,7 +7558,7 @@ IndexInfo
 *
 indexInfo
 =
-nsnull
+nullptr
 ;
 PRUint32
 indexCount
@@ -10060,7 +10060,7 @@ ReleaseMainThreadObjects
 {
 mObjectStore
 =
-nsnull
+nullptr
 ;
 AsyncConnectionHelper
 :
@@ -10214,7 +10214,7 @@ process
 ;
 mObjectStore
 =
-nsnull
+nullptr
 ;
 AsyncConnectionHelper
 :
@@ -11862,7 +11862,7 @@ ReleaseMainThreadObjects
 {
 mKeyRange
 =
-nsnull
+nullptr
 ;
 IDBObjectStore
 :
@@ -13596,7 +13596,7 @@ ReleaseMainThreadObjects
 {
 mKeyRange
 =
-nsnull
+nullptr
 ;
 IDBObjectStore
 :
@@ -13610,13 +13610,13 @@ mCloneBuffer
 ;
 mCursor
 =
-nsnull
+nullptr
 ;
 mSerializedCloneReadInfo
 .
 data
 =
-nsnull
+nullptr
 ;
 mSerializedCloneReadInfo
 .
@@ -14585,7 +14585,7 @@ ReleaseMainThreadObjects
 {
 mIndex
 =
-nsnull
+nullptr
 ;
 NoRequestObjectStoreHelper
 :
@@ -14824,8 +14824,8 @@ IDBObjectStore
 :
 :
 StructuredCloneReadCallback
-nsnull
-nsnull
+nullptr
+nullptr
 }
 ;
 jsval
@@ -15733,7 +15733,7 @@ ReleaseMainThreadObjects
 {
 mKeyRange
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -16651,7 +16651,7 @@ ReleaseMainThreadObjects
 {
 mKeyRange
 =
-nsnull
+nullptr
 ;
 ObjectStoreHelper
 :

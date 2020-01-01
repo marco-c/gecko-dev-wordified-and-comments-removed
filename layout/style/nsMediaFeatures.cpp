@@ -1290,7 +1290,7 @@ nsMediaFeature
 :
 eLength
 {
-nsnull
+nullptr
 }
 GetWidth
 }
@@ -1309,7 +1309,7 @@ nsMediaFeature
 :
 eLength
 {
-nsnull
+nullptr
 }
 GetHeight
 }
@@ -1328,7 +1328,7 @@ nsMediaFeature
 :
 eLength
 {
-nsnull
+nullptr
 }
 GetDeviceWidth
 }
@@ -1347,7 +1347,7 @@ nsMediaFeature
 :
 eLength
 {
-nsnull
+nullptr
 }
 GetDeviceHeight
 }
@@ -1385,7 +1385,7 @@ nsMediaFeature
 :
 eIntRatio
 {
-nsnull
+nullptr
 }
 GetAspectRatio
 }
@@ -1404,7 +1404,7 @@ nsMediaFeature
 :
 eIntRatio
 {
-nsnull
+nullptr
 }
 GetDeviceAspectRatio
 }
@@ -1423,7 +1423,7 @@ nsMediaFeature
 :
 eInteger
 {
-nsnull
+nullptr
 }
 GetColor
 }
@@ -1442,7 +1442,7 @@ nsMediaFeature
 :
 eInteger
 {
-nsnull
+nullptr
 }
 GetColorIndex
 }
@@ -1461,7 +1461,7 @@ nsMediaFeature
 :
 eInteger
 {
-nsnull
+nullptr
 }
 GetMonochrome
 }
@@ -1480,7 +1480,7 @@ nsMediaFeature
 :
 eResolution
 {
-nsnull
+nullptr
 }
 GetResolution
 }
@@ -1518,7 +1518,7 @@ nsMediaFeature
 :
 eBoolInteger
 {
-nsnull
+nullptr
 }
 GetGrid
 }
@@ -1537,7 +1537,7 @@ nsMediaFeature
 :
 eFloat
 {
-nsnull
+nullptr
 }
 GetDevicePixelRatio
 }
@@ -1575,7 +1575,7 @@ nsMediaFeature
 :
 eBoolInteger
 {
-nsnull
+nullptr
 }
 GetIsResourceDocument
 }
@@ -1939,12 +1939,12 @@ nsMediaFeature
 :
 eIdent
 {
-nsnull
+nullptr
 }
 GetWindowsTheme
 }
 {
-nsnull
+nullptr
 nsMediaFeature
 :
 :
@@ -1954,9 +1954,9 @@ nsMediaFeature
 :
 eInteger
 {
-nsnull
+nullptr
 }
-nsnull
+nullptr
 }
 }
 ;

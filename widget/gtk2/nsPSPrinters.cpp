@@ -451,7 +451,7 @@ BeginWriting
 state
 )
 ;
-nsnull
+nullptr
 !
 =
 name
@@ -460,7 +460,7 @@ name
 =
 PL_strtok_r
 (
-nsnull
+nullptr
 "
 "
 &

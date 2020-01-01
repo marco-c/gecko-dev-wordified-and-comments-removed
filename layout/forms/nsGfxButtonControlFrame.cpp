@@ -419,7 +419,7 @@ nsIFrame
 *
 newFrame
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -498,7 +498,7 @@ Init
 (
 mTextContent
 parentFrame
-nsnull
+nullptr
 )
 ;
 mTextContent

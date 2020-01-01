@@ -37,7 +37,7 @@ nsInputEvent
 (
 false
 0
-nsnull
+nullptr
 )
 )
 {

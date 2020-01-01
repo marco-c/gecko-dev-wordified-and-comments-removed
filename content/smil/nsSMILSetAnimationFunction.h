@@ -37,7 +37,7 @@ nsresult
 *
 aParseResult
 =
-nsnull
+nullptr
 )
 ;
 virtual

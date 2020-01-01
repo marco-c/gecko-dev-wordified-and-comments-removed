@@ -302,7 +302,7 @@ PL_DHashMatchStringKey
 PL_DHashMoveEntryStub
 PL_DHashClearEntryStub
 PL_DHashFinalizeStub
-nsnull
+nullptr
 }
 ;
 enum
@@ -1344,7 +1344,7 @@ PRUnichar
 *
 tokenStart
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1642,7 +1642,7 @@ nsPersistentProperties
 :
 mIn
 (
-nsnull
+nullptr
 )
 {
 mSubclass
@@ -1660,7 +1660,7 @@ mTable
 .
 ops
 =
-nsnull
+nullptr
 ;
 PL_INIT_ARENA_POOL
 (
@@ -1717,7 +1717,7 @@ PL_DHashTableInit
 mTable
 &
 property_HashTableOps
-nsnull
+nullptr
 sizeof
 (
 PropertyTableEntry
@@ -1730,7 +1730,7 @@ mTable
 .
 ops
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -1778,7 +1778,7 @@ if
 props
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -1924,7 +1924,7 @@ nProcessed
 ;
 mIn
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2551,7 +2551,7 @@ if
 propElem
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY

@@ -180,7 +180,7 @@ mProp
 .
 mProperty
 =
-nsnull
+nullptr
 ;
 MOZ_STATIC_ASSERT
 (
@@ -435,7 +435,7 @@ if
 entry
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -484,7 +484,7 @@ IsArray
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsTArray
@@ -538,7 +538,7 @@ PropertyValue
 NoIndex
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -647,7 +647,7 @@ if
 entry
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -682,7 +682,7 @@ entry
 ;
 mLastEntry
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -713,7 +713,7 @@ IsArray
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsTArray
@@ -768,7 +768,7 @@ NoIndex
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -1104,11 +1104,11 @@ aFrame
 {
 mLastFrame
 =
-nsnull
+nullptr
 ;
 mLastEntry
 =
-nsnull
+nullptr
 ;
 }
 DeleteAllForEntry
@@ -1157,18 +1157,18 @@ DeleteAll
 {
 mLastFrame
 =
-nsnull
+nullptr
 ;
 mLastEntry
 =
-nsnull
+nullptr
 ;
 mEntries
 .
 EnumerateEntries
 (
 DeleteEnumerator
-nsnull
+nullptr
 )
 ;
 }

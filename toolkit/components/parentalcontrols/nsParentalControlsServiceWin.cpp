@@ -193,7 +193,7 @@ nsParentalControlsServiceWin
 :
 mPC
 (
-nsnull
+nullptr
 )
 mEnabled
 (
@@ -271,7 +271,7 @@ Release
 ;
 mPC
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -758,7 +758,7 @@ NS_ERROR_INVALID_ARG
 HWND
 hWnd
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -794,7 +794,7 @@ if
 hWnd
 =
 =
-nsnull
+nullptr
 )
 hWnd
 =
@@ -956,7 +956,7 @@ _retval
 HWND
 hWnd
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -992,7 +992,7 @@ if
 hWnd
 =
 =
-nsnull
+nullptr
 )
 hWnd
 =

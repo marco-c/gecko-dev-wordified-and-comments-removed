@@ -280,7 +280,7 @@ nsXULPopupManager
 :
 sInstance
 =
-nsnull
+nullptr
 ;
 nsIContent
 *
@@ -344,7 +344,7 @@ mParent
 >
 mChild
 =
-nsnull
+nullptr
 ;
 }
 mParent
@@ -371,7 +371,7 @@ mChild
 >
 mParent
 =
-nsnull
+nullptr
 ;
 mParent
 -
@@ -459,7 +459,7 @@ mParent
 ;
 SetParent
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -493,19 +493,19 @@ mCachedModifiers
 )
 mActiveMenuBar
 (
-nsnull
+nullptr
 )
 mPopups
 (
-nsnull
+nullptr
 )
 mNoHidePanels
 (
-nsnull
+nullptr
 )
 mTimerMenu
 (
-nsnull
+nullptr
 )
 {
 nsCOMPtr
@@ -702,12 +702,12 @@ true
 ;
 mKeyListener
 =
-nsnull
+nullptr
 ;
 }
 mRangeParent
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -779,7 +779,7 @@ nsIContent
 *
 lastRolledUpPopup
 =
-nsnull
+nullptr
 ;
 nsMenuChainItem
 *
@@ -837,7 +837,7 @@ nsIContent
 *
 lastPopup
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1286,7 +1286,7 @@ frame
 >
 SetPopupPosition
 (
-nsnull
+nullptr
 true
 )
 ;
@@ -1336,7 +1336,7 @@ nsGkAtoms
 menuPopupFrame
 )
 return
-nsnull
+nullptr
 ;
 nsMenuPopupFrame
 *
@@ -1364,7 +1364,7 @@ PopupState
 ePopupOpenAndVisible
 )
 return
-nsnull
+nullptr
 ;
 return
 menuPopupFrame
@@ -1491,7 +1491,7 @@ menuPopupFrame
 >
 SetPopupPosition
 (
-nsnull
+nullptr
 true
 )
 ;
@@ -1756,7 +1756,7 @@ aFrameType
 ?
 frame
 :
-nsnull
+nullptr
 ;
 }
 nsMenuFrame
@@ -1937,7 +1937,7 @@ aTriggerContent
 *
 aTriggerContent
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2359,7 +2359,7 @@ else
 {
 mRangeParent
 =
-nsnull
+nullptr
 ;
 mRangeOffset
 =
@@ -2398,7 +2398,7 @@ aMenuBar
 )
 mActiveMenuBar
 =
-nsnull
+nullptr
 ;
 UpdateKeyboardListeners
 (
@@ -2640,9 +2640,9 @@ end_before
 ;
 InitTriggerEvent
 (
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 popupFrame
@@ -2651,7 +2651,7 @@ popupFrame
 InitializePopup
 (
 aMenu
-nsnull
+nullptr
 position
 0
 0
@@ -2927,9 +2927,9 @@ return
 ;
 InitTriggerEvent
 (
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 mCachedMousePoint
@@ -3070,9 +3070,9 @@ return
 ;
 InitTriggerEvent
 (
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 popupFrame
@@ -3404,7 +3404,7 @@ nsIContent
 *
 oldmenu
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3449,7 +3449,7 @@ next
 GetNextMenuItem
 (
 aPopupFrame
-nsnull
+nullptr
 true
 )
 ;
@@ -3500,7 +3500,7 @@ nsMenuPopupFrame
 *
 popupFrame
 =
-nsnull
+nullptr
 ;
 bool
 foundPanel
@@ -3561,7 +3561,7 @@ nsMenuChainItem
 *
 foundMenu
 =
-nsnull
+nullptr
 ;
 item
 =
@@ -3753,7 +3753,7 @@ aLastPopup
 (
 aHideChain
 ?
-nsnull
+nullptr
 :
 aPopup
 )
@@ -3900,11 +3900,11 @@ Cancel
 ;
 mCloseTimer
 =
-nsnull
+nullptr
 ;
 mTimerMenu
 =
-nsnull
+nullptr
 ;
 }
 nsMenuChainItem
@@ -4046,7 +4046,7 @@ event
 (
 true
 NS_XUL_POPUP_HIDDEN
-nsnull
+nullptr
 nsMouseEvent
 :
 :
@@ -4067,7 +4067,7 @@ PresContext
 )
 &
 event
-nsnull
+nullptr
 &
 status
 )
@@ -4087,7 +4087,7 @@ nsMenuChainItem
 *
 foundMenu
 =
-nsnull
+nullptr
 ;
 nsMenuChainItem
 *
@@ -4514,7 +4514,7 @@ ePopupInvisible
 }
 SetCaptureState
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -4846,7 +4846,7 @@ nsGkAtoms
 :
 :
 single
-nsnull
+nullptr
 }
 ;
 switch
@@ -5175,7 +5175,7 @@ event
 (
 true
 NS_XUL_POPUP_SHOWING
-nsnull
+nullptr
 nsMouseEvent
 :
 :
@@ -5233,7 +5233,7 @@ event
 .
 widget
 =
-nsnull
+nullptr
 ;
 }
 event
@@ -5257,7 +5257,7 @@ popup
 presContext
 &
 event
-nsnull
+nullptr
 &
 status
 )
@@ -5272,7 +5272,7 @@ nsIntPoint
 ;
 mOpeningPopup
 =
-nsnull
+nullptr
 ;
 mCachedModifiers
 =
@@ -5397,7 +5397,7 @@ GetWindow
 }
 mRangeParent
 =
-nsnull
+nullptr
 ;
 mRangeOffset
 =
@@ -5528,7 +5528,7 @@ event
 (
 true
 NS_XUL_POPUP_HIDING
-nsnull
+nullptr
 nsMouseEvent
 :
 :
@@ -5544,7 +5544,7 @@ aPopup
 aPresContext
 &
 event
-nsnull
+nullptr
 &
 status
 )
@@ -6131,7 +6131,7 @@ GetParent
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsTArray
@@ -6307,7 +6307,7 @@ if
 aDocument
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -6946,12 +6946,12 @@ Cancel
 ;
 mCloseTimer
 =
-nsnull
+nullptr
 ;
 }
 mTimerMenu
 =
-nsnull
+nullptr
 ;
 }
 nsMenuChainItem
@@ -7273,7 +7273,7 @@ false
 ;
 mWidget
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -7495,7 +7495,7 @@ true
 ;
 mKeyListener
 =
-nsnull
+nullptr
 ;
 nsContentUtils
 :
@@ -7896,7 +7896,7 @@ Cancel
 ;
 mCloseTimer
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -7923,7 +7923,7 @@ true
 }
 mTimerMenu
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -7957,11 +7957,11 @@ Cancel
 ;
 mCloseTimer
 =
-nsnull
+nullptr
 ;
 mTimerMenu
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -7988,7 +7988,7 @@ GetInternalNSEvent
 (
 )
 :
-nsnull
+nullptr
 ;
 return
 evt
@@ -8011,7 +8011,7 @@ nsGUIEvent
 evt
 )
 :
-nsnull
+nullptr
 ;
 }
 bool
@@ -8210,7 +8210,7 @@ nsMenuChainItem
 *
 item
 =
-nsnull
+nullptr
 ;
 nsMenuChainItem
 *
@@ -8594,7 +8594,7 @@ nextItem
 GetNextMenuItem
 (
 aFrame
-nsnull
+nullptr
 true
 )
 ;
@@ -8672,7 +8672,7 @@ GetChild
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -8799,7 +8799,7 @@ nextItem
 GetNextMenuItem
 (
 aFrame
-nsnull
+nullptr
 true
 )
 ;
@@ -8809,7 +8809,7 @@ nextItem
 GetPreviousMenuItem
 (
 aFrame
-nsnull
+nullptr
 true
 )
 ;
@@ -8910,7 +8910,7 @@ nsIFrame
 *
 immediateParent
 =
-nsnull
+nullptr
 ;
 nsPresContext
 *
@@ -8939,7 +8939,7 @@ FrameConstructor
 GetInsertionPoint
 (
 aParent
-nsnull
+nullptr
 &
 immediateParent
 )
@@ -8957,7 +8957,7 @@ nsIFrame
 *
 currFrame
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -9027,7 +9027,7 @@ nsMenuFrame
 currFrame
 )
 :
-nsnull
+nullptr
 ;
 }
 currFrame
@@ -9100,7 +9100,7 @@ nsMenuFrame
 currFrame
 )
 :
-nsnull
+nullptr
 ;
 }
 currFrame
@@ -9138,7 +9138,7 @@ nsIFrame
 *
 immediateParent
 =
-nsnull
+nullptr
 ;
 nsPresContext
 *
@@ -9167,7 +9167,7 @@ FrameConstructor
 GetInsertionPoint
 (
 aParent
-nsnull
+nullptr
 &
 immediateParent
 )
@@ -9198,7 +9198,7 @@ nsIFrame
 *
 currFrame
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -9267,7 +9267,7 @@ nsMenuFrame
 currFrame
 )
 :
-nsnull
+nullptr
 ;
 }
 currFrame
@@ -9339,7 +9339,7 @@ nsMenuFrame
 currFrame
 )
 :
-nsnull
+nullptr
 ;
 }
 currFrame
@@ -10249,7 +10249,7 @@ nsMenuFrame
 *
 menuToOpen
 =
-nsnull
+nullptr
 ;
 nsMenuChainItem
 *
@@ -10334,7 +10334,7 @@ else
 HandleShortcutNavigation
 (
 keyEvent
-nsnull
+nullptr
 )
 ;
 }
@@ -10719,7 +10719,7 @@ nsAutoHandlingUserInputStatePusher
 userInpStatePusher
 (
 mUserInput
-nsnull
+nullptr
 shell
 -
 >
@@ -10735,7 +10735,7 @@ DispatchXULCommand
 (
 mMenu
 mIsTrusted
-nsnull
+nullptr
 shell
 mControl
 mAlt

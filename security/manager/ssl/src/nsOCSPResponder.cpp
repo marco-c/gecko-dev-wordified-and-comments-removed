@@ -195,7 +195,7 @@ PR_ASSERT
 trust
 !
 =
-nsnull
+nullptr
 )
 ;
 if
@@ -203,7 +203,7 @@ if
 trust
 =
 =
-nsnull
+nullptr
 )
 {
 return
@@ -342,13 +342,13 @@ if
 aTok
 !
 =
-nsnull
+nullptr
 &
 &
 bTok
 !
 =
-nsnull
+nullptr
 )
 {
 cmp1
@@ -368,7 +368,7 @@ cmp1
 aTok
 =
 =
-nsnull
+nullptr
 )
 ?
 1

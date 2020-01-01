@@ -1002,7 +1002,7 @@ return
 domwin
 !
 =
-nsnull
+nullptr
 ;
 }
 static
@@ -1321,7 +1321,7 @@ JSScript
 *
 script
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1337,7 +1337,7 @@ JS_DescribeScriptedCaller
 cx
 &
 script
-nsnull
+nullptr
 )
 )
 {

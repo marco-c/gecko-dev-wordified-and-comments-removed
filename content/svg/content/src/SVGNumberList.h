@@ -416,7 +416,7 @@ SVGNumberListAndInfo
 :
 mElement
 (
-nsnull
+nullptr
 )
 {
 }

@@ -1057,7 +1057,7 @@ by
 calling
 setContext
 :
-nsnull
+nullptr
 as
 soon
 as
@@ -1124,7 +1124,7 @@ aString
 {
 mContext
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -5614,7 +5614,7 @@ aFrame
 cell
 setContext
 :
-nsnull
+nullptr
 ]
 ;
 NS_OBJC_END_TRY_ABORT_BLOCK
@@ -9210,7 +9210,7 @@ aBefore
 aAfter
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -9900,7 +9900,7 @@ nsGkAtoms
 :
 :
 scrollbarDownBottom
-nsnull
+nullptr
 }
 ;
 /
@@ -11604,7 +11604,7 @@ if
 cgContext
 =
 =
-nsnull
+nullptr
 )
 {
 /

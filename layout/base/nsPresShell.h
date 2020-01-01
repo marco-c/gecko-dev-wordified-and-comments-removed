@@ -2018,7 +2018,7 @@ mDocument
 {
 SetCapturingContent
 (
-nsnull
+nullptr
 0
 )
 ;
@@ -2040,8 +2040,8 @@ aTarget
 {
 PushCurrentEventInfo
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 mCurrentEventContent
@@ -2205,7 +2205,7 @@ nsDelayedEvent
 )
 mEvent
 (
-nsnull
+nullptr
 )
 {
 }
@@ -2524,7 +2524,7 @@ Flush_Display
 ;
 mPresShell
 =
-nsnull
+nullptr
 ;
 }
 }

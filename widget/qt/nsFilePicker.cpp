@@ -86,7 +86,7 @@ PRLogModuleInfo
 *
 sFilePickerLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -398,7 +398,7 @@ aFile
 *
 aFile
 =
-nsnull
+nullptr
 ;
 if
 (

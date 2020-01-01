@@ -28647,7 +28647,7 @@ encoder
 -
 >
 kOnError_Signal
-nsnull
+nullptr
 '
 ?
 '

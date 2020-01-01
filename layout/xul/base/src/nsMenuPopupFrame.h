@@ -599,7 +599,7 @@ parent
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -619,7 +619,7 @@ ClearTriggerContent
 {
 mTriggerContent
 =
-nsnull
+nullptr
 ;
 }
 bool

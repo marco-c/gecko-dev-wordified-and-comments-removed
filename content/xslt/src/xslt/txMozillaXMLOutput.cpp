@@ -646,7 +646,7 @@ aNsID
 {
 aPrefix
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1670,7 +1670,7 @@ true
 }
 mNonAddedNode
 =
-nsnull
+nullptr
 ;
 }
 mCurrentNode
@@ -2070,7 +2070,7 @@ owner
 return
 startElementInternal
 (
-nsnull
+nullptr
 aLowercaseLocalName
 kNameSpaceID_XHTML
 )
@@ -2186,7 +2186,7 @@ nsId
 {
 aPrefix
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2582,7 +2582,7 @@ mOpenedElement
 ;
 mOpenedElement
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -4311,7 +4311,7 @@ createHTMLElement
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -4327,7 +4327,7 @@ mNodeInfoManager
 GetNodeInfo
 (
 aName
-nsnull
+nullptr
 kNameSpaceID_XHTML
 nsIDOMNode
 :

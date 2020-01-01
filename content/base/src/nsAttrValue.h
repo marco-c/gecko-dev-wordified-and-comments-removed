@@ -991,7 +991,7 @@ EnumTable
 *
 aDefaultValue
 =
-nsnull
+nullptr
 )
 ;
 bool
@@ -1406,7 +1406,7 @@ bool
 *
 aIsPercent
 =
-nsnull
+nullptr
 )
 const
 ;

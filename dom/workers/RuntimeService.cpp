@@ -481,7 +481,7 @@ RuntimeService
 *
 gRuntimeService
 =
-nsnull
+nullptr
 ;
 enum
 {
@@ -1147,7 +1147,7 @@ runtime
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 JS_SetGCParameter
@@ -1202,7 +1202,7 @@ context
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 JS_SetContextPrivate
@@ -1382,7 +1382,7 @@ mWorkerPrivate
 ;
 mWorkerPrivate
 =
-nsnull
+nullptr
 ;
 workerPrivate
 -
@@ -1546,7 +1546,7 @@ aObjp
 .
 set
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -1776,7 +1776,7 @@ aObjp
 .
 set
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -1887,7 +1887,7 @@ aObjp
 .
 set
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -2179,7 +2179,7 @@ runnable
 >
 Dispatch
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -2304,7 +2304,7 @@ service
 ;
 gRuntimeService
 =
-nsnull
+nullptr
 ;
 }
 RuntimeService
@@ -2368,7 +2368,7 @@ Cleanup
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 gRuntimeService
@@ -2904,7 +2904,7 @@ WorkerPrivate
 *
 queuedWorker
 =
-nsnull
+nullptr
 ;
 {
 const
@@ -3422,7 +3422,7 @@ getter_AddRefs
 (
 thread
 )
-nsnull
+nullptr
 WORKER_STACK_SIZE
 )
 )
@@ -3905,7 +3905,7 @@ aTimer
 InitWithFuncCallback
 (
 ShutdownIdleThreads
-nsnull
+nullptr
 delay
 nsITimer
 :
@@ -4305,9 +4305,9 @@ obs
 >
 NotifyObservers
 (
-nsnull
+nullptr
 WORKERS_SHUTDOWN_TOPIC
-nsnull
+nullptr
 )
 )
 )
@@ -4359,7 +4359,7 @@ timer
 }
 mIdleThreadTimer
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -5536,7 +5536,7 @@ mIdleThreadTimer
 InitWithFuncCallback
 (
 ShutdownIdleThreads
-nsnull
+nullptr
 IDLE_THREAD_TIMEOUT_SEC
 *
 1000
@@ -5819,7 +5819,7 @@ JSContext
 ;
 mContext
 =
-nsnull
+nullptr
 ;
 return
 ;
@@ -6008,7 +6008,7 @@ JSContext
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 NS_ASSERTION

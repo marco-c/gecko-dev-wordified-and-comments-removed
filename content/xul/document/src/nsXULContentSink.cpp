@@ -304,7 +304,7 @@ ContextStack
 :
 mTop
 (
-nsnull
+nullptr
 )
 mDepth
 (
@@ -585,7 +585,7 @@ next
 }
 mTop
 =
-nsnull
+nullptr
 ;
 mDepth
 =
@@ -601,7 +601,7 @@ XULContentSinkImpl
 :
 mText
 (
-nsnull
+nullptr
 )
 mTextLength
 (
@@ -621,7 +621,7 @@ eInProlog
 )
 mParser
 (
-nsnull
+nullptr
 )
 {
 #
@@ -763,7 +763,7 @@ EndLoad
 ;
 mDocument
 =
-nsnull
+nullptr
 ;
 }
 NS_IF_RELEASE
@@ -913,7 +913,7 @@ NS_PRECONDITION
 aDocument
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -1342,7 +1342,7 @@ nsPrototypeArray
 *
 children
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -1872,7 +1872,7 @@ nsPrototypeArray
 *
 children
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -2410,7 +2410,7 @@ nsPrototypeArray
 *
 children
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -3126,7 +3126,7 @@ nsPrototypeArray
 *
 children
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -3458,7 +3458,7 @@ application
 /
 ecmascript
 "
-nsnull
+nullptr
 }
 ;
 bool
@@ -3896,7 +3896,7 @@ nsIScriptGlobalObject
 *
 globalObject
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3954,7 +3954,7 @@ script
 mSrcURI
 )
 src
-nsnull
+nullptr
 mDocumentURL
 )
 ;
@@ -4056,7 +4056,7 @@ script
 >
 DeserializeOutOfLine
 (
-nsnull
+nullptr
 globalObject
 )
 ;
@@ -4065,7 +4065,7 @@ nsPrototypeArray
 *
 children
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -4144,7 +4144,7 @@ nsXULPrototypeAttribute
 *
 attrs
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4416,7 +4416,7 @@ PRUnichar
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 mText
@@ -4522,7 +4522,7 @@ mTextSize
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 mText

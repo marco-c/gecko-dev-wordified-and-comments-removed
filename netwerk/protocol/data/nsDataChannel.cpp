@@ -329,7 +329,7 @@ get
 (
 )
 dataLen
-nsnull
+nullptr
 )
 ;
 if

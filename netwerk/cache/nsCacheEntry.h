@@ -1288,7 +1288,7 @@ DetachEntry
 {
 mCacheEntry
 =
-nsnull
+nullptr
 ;
 }
 private

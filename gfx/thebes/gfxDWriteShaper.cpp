@@ -539,7 +539,7 @@ GetAdjustedSize
 1
 .
 0
-nsnull
+nullptr
 FALSE
 FALSE
 FALSE
@@ -738,7 +738,7 @@ SetGlyphs
 (
 absC
 g
-nsnull
+nullptr
 )
 ;
 continue

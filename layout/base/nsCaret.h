@@ -148,7 +148,7 @@ nscoord
 *
 aBidiIndicatorSize
 =
-nsnull
+nullptr
 )
 ;
 void
@@ -181,7 +181,7 @@ PRInt32
 *
 aOffset
 =
-nsnull
+nullptr
 )
 ;
 nsRect

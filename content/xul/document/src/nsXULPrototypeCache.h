@@ -136,7 +136,7 @@ aURI
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 void

@@ -88,7 +88,7 @@ nsICOEncoder
 :
 mImageBufferStart
 (
-nsnull
+nullptr
 )
 mImageBufferCurr
 (
@@ -136,11 +136,11 @@ mImageBufferStart
 ;
 mImageBufferStart
 =
-nsnull
+nullptr
 ;
 mImageBufferCurr
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1304,7 +1304,7 @@ mImageBufferStart
 ;
 mImageBufferStart
 =
-nsnull
+nullptr
 ;
 mImageBufferSize
 =
@@ -1316,7 +1316,7 @@ mImageBufferReadPoint
 ;
 mImageBufferCurr
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -1686,11 +1686,11 @@ callback
 ;
 mCallback
 =
-nsnull
+nullptr
 ;
 mCallbackTarget
 =
-nsnull
+nullptr
 ;
 mNotifyThreshold
 =

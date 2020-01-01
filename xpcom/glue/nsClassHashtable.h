@@ -242,7 +242,7 @@ retVal
 *
 retVal
 =
-nsnull
+nullptr
 ;
 return
 false
@@ -331,7 +331,7 @@ aOut
 {
 aOut
 =
-nsnull
+nullptr
 ;
 nsAutoPtr
 <
@@ -464,7 +464,7 @@ retVal
 *
 retVal
 =
-nsnull
+nullptr
 ;
 PR_Unlock
 (

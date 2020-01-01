@@ -217,7 +217,7 @@ JSObject
 *
 obj
 =
-nsnull
+nullptr
 ;
 rv
 =

@@ -818,7 +818,7 @@ loadInfo
 .
 mChannel
 =
-nsnull
+nullptr
 ;
 loadInfo
 .
@@ -1171,7 +1171,7 @@ text
 javascript
 "
 )
-nsnull
+nullptr
 &
 shouldLoad
 nsContentUtils
@@ -1479,7 +1479,7 @@ channel
 uri
 ios
 loadGroup
-nsnull
+nullptr
 flags
 channelPolicy
 )
@@ -1563,7 +1563,7 @@ aLoadInfo
 .
 mChannel
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2245,7 +2245,7 @@ runnable
 >
 Dispatch
 (
-nsnull
+nullptr
 )
 )
 {
@@ -2706,7 +2706,7 @@ get
 (
 )
 1
-nsnull
+nullptr
 )
 )
 {

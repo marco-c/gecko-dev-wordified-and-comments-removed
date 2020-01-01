@@ -52,7 +52,7 @@ ChildIterator
 :
 mContent
 (
-nsnull
+nullptr
 )
 mChild
 (
@@ -60,7 +60,7 @@ mChild
 )
 mNodes
 (
-nsnull
+nullptr
 )
 {
 }
@@ -520,7 +520,7 @@ else
 {
 mChild
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -534,7 +534,7 @@ return
 mNodes
 !
 =
-nsnull
+nullptr
 ;
 }
 static

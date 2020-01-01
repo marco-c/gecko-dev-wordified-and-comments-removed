@@ -423,7 +423,7 @@ spec
 get
 (
 )
-nsnull
+nullptr
 aLineNumber
 0
 flags
@@ -466,7 +466,7 @@ nsChromeRegistry
 {
 gChromeRegistry
 =
-nsnull
+nullptr
 ;
 }
 NS_INTERFACE_MAP_BEGIN
@@ -1423,7 +1423,7 @@ NS_NewURI
 (
 aResult
 path
-nsnull
+nullptr
 baseURI
 )
 ;
@@ -1526,7 +1526,7 @@ windowMediator
 >
 GetEnumerator
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 windowEnumerator
@@ -1612,7 +1612,7 @@ windowMediator
 >
 GetEnumerator
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 windowEnumerator
@@ -1742,7 +1742,7 @@ nsIChromeRegistry
 this
 )
 NS_CHROME_FLUSH_SKINS_TOPIC
-nsnull
+nullptr
 )
 ;
 }
@@ -2225,7 +2225,7 @@ GetOriginalURI
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -2338,7 +2338,7 @@ nsIChromeRegistry
 )
 this
 NS_CHROME_FLUSH_TOPIC
-nsnull
+nullptr
 )
 ;
 }
@@ -2393,7 +2393,7 @@ windowMediator
 >
 GetEnumerator
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 windowEnumerator

@@ -1031,7 +1031,7 @@ endif
 NS_DECLARE_FRAME_PROPERTY
 (
 LineCursorProperty
-nsnull
+nullptr
 )
 nsLineBox
 *
@@ -1066,7 +1066,7 @@ LineCursorProperty
 )
 )
 :
-nsnull
+nullptr
 ;
 }
 nsLineBox

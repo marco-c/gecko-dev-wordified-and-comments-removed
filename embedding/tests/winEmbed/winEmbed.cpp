@@ -1319,7 +1319,7 @@ XRE_InitEmbedding2
 (
 xuldir
 appdir
-nsnull
+nullptr
 )
 ;
 if
@@ -1472,7 +1472,7 @@ nsIWebBrowserChrome
 :
 :
 CHROME_ALL
-nsnull
+nullptr
 getter_AddRefs
 (
 chrome
@@ -1534,9 +1534,9 @@ nsIWebNavigation
 :
 :
 LOAD_FLAGS_NONE
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 }
@@ -2203,7 +2203,7 @@ nsIWebBrowserChrome
 *
 chrome
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2427,9 +2427,9 @@ nsIWebNavigation
 :
 :
 LOAD_FLAGS_NONE
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 }
@@ -3469,7 +3469,7 @@ nsIWebBrowser
 >
 browser
 =
-nsnull
+nullptr
 ;
 chrome
 -
@@ -3509,7 +3509,7 @@ chrome
 >
 SetWebBrowser
 (
-nsnull
+nullptr
 )
 ;
 NS_RELEASE
@@ -3561,7 +3561,7 @@ SetWindowLongPtr
 (
 hwndBrowser
 GWLP_USERDATA
-nsnull
+nullptr
 )
 ;
 DestroyWindow

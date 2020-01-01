@@ -454,7 +454,7 @@ OnCallbacksChanged
 {
 mFTPEventSink
 =
-nsnull
+nullptr
 ;
 }
 namespace

@@ -547,7 +547,7 @@ nsIFrame
 *
 nextToLastColGroup
 =
-nsnull
+nullptr
 ;
 nsFrameList
 :
@@ -595,7 +595,7 @@ PrevFrame
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsTableColGroupType
@@ -1093,7 +1093,7 @@ cols
 ;
 aPrevFrame
 =
-nsnull
+nullptr
 ;
 }
 RemoveFrame
@@ -1309,7 +1309,7 @@ nsIFrame
 *
 nextChild
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1727,7 +1727,7 @@ skip
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 GetPrevInFlow
@@ -1746,7 +1746,7 @@ NS_SIDE_TOP
 }
 if
 (
-nsnull
+nullptr
 !
 =
 GetNextInFlow
@@ -1806,7 +1806,7 @@ aStatus
 ;
 NS_ASSERTION
 (
-nsnull
+nullptr
 !
 =
 mContent
@@ -1934,7 +1934,7 @@ FinishReflowChild
 (
 kidFrame
 aPresContext
-nsnull
+nullptr
 kidSize
 0
 0
@@ -1981,7 +1981,7 @@ GetFirstColumn
 return
 GetNextColumn
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -2001,7 +2001,7 @@ nsTableColFrame
 *
 result
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *

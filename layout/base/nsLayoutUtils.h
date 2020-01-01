@@ -351,7 +351,7 @@ nsIContent
 *
 aCommonAncestor
 =
-nsnull
+nullptr
 )
 {
 return
@@ -385,7 +385,7 @@ nsIContent
 *
 aCommonAncestor
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -402,7 +402,7 @@ nsIFrame
 *
 aCommonAncestor
 =
-nsnull
+nullptr
 )
 {
 return
@@ -435,7 +435,7 @@ nsIFrame
 *
 aCommonAncestor
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -484,7 +484,7 @@ nsPoint
 *
 aCrossDocOffset
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -501,7 +501,7 @@ nsIFrame
 *
 aCommonAncestor
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -518,7 +518,7 @@ nsIFrame
 *
 aCommonAncestor
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -535,7 +535,7 @@ nsIFrame
 *
 aCommonAncestor
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -566,7 +566,7 @@ bool
 *
 aShouldFixToViewport
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -2215,7 +2215,7 @@ nsRect
 *
 aSourceArea
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -2245,7 +2245,7 @@ nsRect
 *
 aSourceArea
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -3051,7 +3051,7 @@ else
 {
 mPresContext
 =
-nsnull
+nullptr
 ;
 }
 }

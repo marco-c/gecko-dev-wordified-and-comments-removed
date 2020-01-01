@@ -464,7 +464,7 @@ if
 entry
 )
 return
-nsnull
+nullptr
 ;
 PR_REMOVE_AND_INIT_LINK
 (

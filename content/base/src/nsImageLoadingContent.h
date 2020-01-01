@@ -130,7 +130,7 @@ nsIDocument
 *
 aDocument
 =
-nsnull
+nullptr
 nsLoadFlags
 aLoadFlags
 =
@@ -233,7 +233,7 @@ aObserver
 )
 mNext
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR

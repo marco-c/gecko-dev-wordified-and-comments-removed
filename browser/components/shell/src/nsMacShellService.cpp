@@ -850,10 +850,10 @@ wbp
 SaveURI
 (
 imageURI
-nsnull
+nullptr
 docURI
-nsnull
-nsnull
+nullptr
+nullptr
 mBackgroundFile
 )
 ;
@@ -1007,7 +1007,7 @@ os
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 shell
 :
@@ -1017,7 +1017,7 @@ background
 -
 changed
 "
-nsnull
+nullptr
 )
 ;
 bool
@@ -1928,7 +1928,7 @@ NS_ERROR_FAILURE
 *
 _retval
 =
-nsnull
+nullptr
 ;
 CFStringRef
 defaultHandlerID

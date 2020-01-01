@@ -575,7 +575,7 @@ NS_FRAME_IS_FLUID_CONTINUATION
 ?
 mPrevContinuation
 :
-nsnull
+nullptr
 ;
 }
 NS_METHOD
@@ -678,7 +678,7 @@ NS_FRAME_IS_FLUID_CONTINUATION
 ?
 mNextContinuation
 :
-nsnull
+nullptr
 ;
 }
 NS_METHOD
@@ -1009,7 +1009,7 @@ aFrame
 >
 SetPrevInFlow
 (
-nsnull
+nullptr
 )
 ;
 aFrame
@@ -1017,7 +1017,7 @@ aFrame
 >
 SetNextInFlow
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -1052,7 +1052,7 @@ aIndent
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 mNextContinuation
@@ -1094,7 +1094,7 @@ mNextContinuation
 }
 if
 (
-nsnull
+nullptr
 !
 =
 mPrevContinuation

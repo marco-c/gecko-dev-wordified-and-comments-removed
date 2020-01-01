@@ -52,7 +52,7 @@ PRLogModuleInfo
 *
 gLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -451,7 +451,7 @@ L
 "
 EnableAutodial
 "
-nsnull
+nullptr
 &
 entryType
 (
@@ -509,7 +509,7 @@ L
 "
 NoNetAutodial
 "
-nsnull
+nullptr
 &
 entryType
 (
@@ -753,9 +753,9 @@ dialed
 =
 RasDialDlgW
 (
-nsnull
+nullptr
 mDefaultEntryName
-nsnull
+nullptr
 &
 rasDialDlg
 )
@@ -892,8 +892,8 @@ dialed
 =
 RasPhonebookDlgW
 (
-nsnull
-nsnull
+nullptr
+nullptr
 &
 rasPBDlg
 )
@@ -1124,8 +1124,8 @@ result
 =
 RasEnumEntriesW
 (
-nsnull
-nsnull
+nullptr
+nullptr
 &
 rasEntryName
 &
@@ -1209,8 +1209,8 @@ result
 =
 RasEnumEntriesW
 (
-nsnull
-nsnull
+nullptr
+nullptr
 &
 rasEntryName
 &
@@ -1392,7 +1392,7 @@ RegQueryValueExW
 (
 hKey
 val
-nsnull
+nullptr
 &
 entryType
 (
@@ -1439,7 +1439,7 @@ hSCManager
 (
 OpenSCManager
 (
-nsnull
+nullptr
 SERVICES_ACTIVE_DATABASE
 SERVICE_QUERY_STATUS
 )
@@ -1450,7 +1450,7 @@ if
 hSCManager
 =
 =
-nsnull
+nullptr
 )
 {
 LOGE
@@ -1502,7 +1502,7 @@ if
 hSCManager
 =
 =
-nsnull
+nullptr
 )
 {
 LOGE
@@ -1623,7 +1623,7 @@ result
 RasGetAutodialAddressW
 (
 hostName
-nsnull
+nullptr
 &
 autodialEntry
 &
@@ -1892,7 +1892,7 @@ L
 "
 CurrentID
 "
-nsnull
+nullptr
 &
 entryType
 (

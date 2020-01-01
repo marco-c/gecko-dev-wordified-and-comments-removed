@@ -783,7 +783,7 @@ avail_in
 {
 mFd
 =
-nsnull
+nullptr
 ;
 }
 break
@@ -856,7 +856,7 @@ mOutSize
 {
 mFd
 =
-nsnull
+nullptr
 ;
 }
 break
@@ -957,7 +957,7 @@ MODE_CLOSED
 ;
 mFd
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

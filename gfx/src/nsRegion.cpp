@@ -762,8 +762,8 @@ mChunkListHead
 AllocChunk
 (
 aNumOfEntries
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 mFreeEntries
@@ -1015,7 +1015,7 @@ gRectPoolTlsIndex
 .
 set
 (
-nsnull
+nullptr
 )
 ;
 }

@@ -294,7 +294,7 @@ eLineParticipant
 )
 )
 return
-nsnull
+nullptr
 ;
 for
 (
@@ -340,7 +340,7 @@ r
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -423,7 +423,7 @@ get
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 aFrame
@@ -432,7 +432,7 @@ parent
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -588,7 +588,7 @@ nsCaret
 :
 mPresShell
 (
-nsnull
+nullptr
 )
 mBlinkRate
 (
@@ -1111,7 +1111,7 @@ KillTimer
 ;
 mBlinkTimer
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1150,15 +1150,15 @@ this
 ;
 mDomSelectionWeak
 =
-nsnull
+nullptr
 ;
 mPresShell
 =
-nsnull
+nullptr
 ;
 mLastContent
 =
-nsnull
+nullptr
 ;
 }
 NS_IMPL_ISUPPORTS1
@@ -1674,7 +1674,7 @@ rv
 focusNode
 )
 return
-nsnull
+nullptr
 ;
 PRInt32
 focusOffset
@@ -1698,7 +1698,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1717,7 +1717,7 @@ if
 contentNode
 )
 return
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -1735,7 +1735,7 @@ if
 frameSelection
 )
 return
-nsnull
+nullptr
 ;
 PRUint8
 bidiLevel
@@ -1785,7 +1785,7 @@ rv
 frame
 )
 return
-nsnull
+nullptr
 ;
 GetGeometryForFrame
 (
@@ -2101,7 +2101,7 @@ if
 mDrawn
 )
 return
-nsnull
+nullptr
 ;
 PRInt32
 offset
@@ -2110,7 +2110,7 @@ nsIFrame
 *
 frame
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -2135,7 +2135,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -2903,7 +2903,7 @@ nsIFrame
 *
 theFrame
 =
-nsnull
+nullptr
 ;
 PRInt32
 theFrameOffset
@@ -3182,7 +3182,7 @@ nsIFrame
 *
 theFrame
 =
-nsnull
+nullptr
 ;
 PRInt32
 theFrameOffset
@@ -4558,7 +4558,7 @@ GetCurrentDoc
 {
 mLastContent
 =
-nsnull
+nullptr
 ;
 mDrawn
 =
@@ -4939,13 +4939,13 @@ if
 privateSelection
 )
 return
-nsnull
+nullptr
 ;
 nsFrameSelection
 *
 frameSelection
 =
-nsnull
+nullptr
 ;
 privateSelection
 -

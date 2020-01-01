@@ -237,7 +237,7 @@ bool
 *
 aIsContextSensitive
 =
-nsnull
+nullptr
 )
 ;
 static

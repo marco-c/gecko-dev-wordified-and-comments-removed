@@ -537,7 +537,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -735,7 +735,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1305,7 +1305,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsAutoString
 langGroup

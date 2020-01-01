@@ -153,7 +153,7 @@ nsExternalHelperAppService
 )
 mAppAssoc
 (
-nsnull
+nullptr
 )
 {
 CoInitialize
@@ -198,7 +198,7 @@ Release
 ;
 mAppAssoc
 =
-nsnull
+nullptr
 ;
 CoUninitialize
 (
@@ -516,7 +516,7 @@ PRUnichar
 *
 pResult
 =
-nsnull
+nullptr
 ;
 NS_ConvertASCIItoUTF16
 scheme
@@ -701,7 +701,7 @@ PRUnichar
 *
 pResult
 =
-nsnull
+nullptr
 ;
 HRESULT
 hr
@@ -1522,7 +1522,7 @@ aAppInfo
 *
 aDefaultApplication
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1926,7 +1926,7 @@ nsILocalFileWin
 *
 lfw
 =
-nsnull
+nullptr
 ;
 CallQueryInterface
 (
@@ -1989,7 +1989,7 @@ IsEmpty
 )
 )
 return
-nsnull
+nullptr
 ;
 nsAutoString
 fileExtToUse
@@ -2055,7 +2055,7 @@ if
 regKey
 )
 return
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -2084,7 +2084,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 nsCAutoString
 typeToUse
@@ -2140,7 +2140,7 @@ IsEmpty
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 LossyAppendUTF16toASCII
@@ -2166,7 +2166,7 @@ if
 mimeInfo
 )
 return
-nsnull
+nullptr
 ;
 NS_ADDREF
 (
@@ -2220,7 +2220,7 @@ PRUnichar
 *
 pResult
 =
-nsnull
+nullptr
 ;
 HRESULT
 hr
@@ -2322,7 +2322,7 @@ mimeInfo
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsAutoString
@@ -2356,7 +2356,7 @@ mimeInfo
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 mimeInfo
@@ -2522,7 +2522,7 @@ nsMIMEInfoWin
 *
 mi
 =
-nsnull
+nullptr
 ;
 if
 (

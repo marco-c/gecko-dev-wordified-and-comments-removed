@@ -193,13 +193,6 @@ pFuncs
 >
 newp
 ;
-mNPP_GetValue
-=
-pFuncs
--
->
-getvalue
-;
 mNPP_ClearSiteData
 =
 pFuncs
@@ -1245,7 +1238,7 @@ plugin
 *
 aCtx
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

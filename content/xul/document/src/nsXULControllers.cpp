@@ -141,7 +141,7 @@ NS_PRECONDITION
 aOuter
 =
 =
-nsnull
+nullptr
 "
 no
 aggregation
@@ -339,7 +339,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 PRUint32
 count
@@ -501,7 +501,7 @@ NS_ASSERTION
 inserted
 !
 =
-nsnull
+nullptr
 "
 Insertion
 of
@@ -536,7 +536,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsXULControllerData
 *
@@ -601,7 +601,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsXULControllerData
 *
@@ -686,7 +686,7 @@ NS_ASSERTION
 appended
 !
 =
-nsnull
+nullptr
 "
 Appending
 controller

@@ -576,7 +576,7 @@ PRLibrary
 *
 lib
 =
-nsnull
+nullptr
 ;
 PRFuncPtr
 result
@@ -2122,7 +2122,7 @@ value
 FcResultMatch
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -2152,7 +2152,7 @@ property
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -5296,7 +5296,7 @@ FcPattern
 *
 familyFonts
 =
-nsnull
+nullptr
 ;
 bool
 isUserFont
@@ -6077,7 +6077,7 @@ if
 mHaveFallbackFonts
 )
 return
-nsnull
+nullptr
 ;
 mFcFontSet
 =
@@ -7611,7 +7611,7 @@ forget
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 gfxFcFontSet
@@ -7823,7 +7823,7 @@ forget
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 PR_STATIC_ASSERT
@@ -8233,7 +8233,7 @@ SkipHarfBuzz
 ;
 mHarfBuzzShaper
 =
-nsnull
+nullptr
 ;
 }
 bool
@@ -8325,7 +8325,7 @@ if
 utils
 )
 return
-nsnull
+nullptr
 ;
 nsAutoRef
 <
@@ -8344,7 +8344,7 @@ if
 pattern
 )
 return
-nsnull
+nullptr
 ;
 NS_ConvertUTF16toUTF8
 fullname
@@ -8440,7 +8440,7 @@ fonts
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 FT_Library
@@ -8479,7 +8479,7 @@ serif
 )
 &
 style
-nsnull
+nullptr
 )
 ;
 gfxFcFont
@@ -8593,7 +8593,7 @@ aFontData
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -10428,7 +10428,7 @@ SetGlyphs
 (
 utf16Offset
 g
-nsnull
+nullptr
 )
 ;
 }

@@ -377,7 +377,7 @@ NS_ENSURE_TRUE
 gNeckoChild
 !
 =
-nsnull
+nullptr
 NS_ERROR_FAILURE
 )
 ;

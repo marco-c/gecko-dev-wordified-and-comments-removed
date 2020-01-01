@@ -699,7 +699,7 @@ nsRect
 *
 aBGClipRect
 =
-nsnull
+nullptr
 )
 ;
 static
@@ -736,7 +736,7 @@ nsRect
 *
 aBGClipRect
 =
-nsnull
+nullptr
 )
 ;
 static

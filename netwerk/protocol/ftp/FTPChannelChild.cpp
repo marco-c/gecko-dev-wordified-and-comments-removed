@@ -564,7 +564,7 @@ mLoadGroup
 AddRequest
 (
 this
-nsnull
+nullptr
 )
 ;
 bool
@@ -1518,11 +1518,11 @@ statusCode
 ;
 mListener
 =
-nsnull
+nullptr
 ;
 mListenerContext
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1534,7 +1534,7 @@ mLoadGroup
 RemoveRequest
 (
 this
-nsnull
+nullptr
 statusCode
 )
 ;
@@ -1669,7 +1669,7 @@ mLoadGroup
 RemoveRequest
 (
 this
-nsnull
+nullptr
 statusCode
 )
 ;
@@ -1711,11 +1711,11 @@ false
 }
 mListener
 =
-nsnull
+nullptr
 ;
 mListenerContext
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2146,7 +2146,7 @@ mLoadGroup
 AddRequest
 (
 this
-nsnull
+nullptr
 )
 ;
 return

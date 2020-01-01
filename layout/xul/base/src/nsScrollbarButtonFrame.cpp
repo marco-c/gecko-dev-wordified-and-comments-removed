@@ -411,7 +411,7 @@ if
 scrollbar
 =
 =
-nsnull
+nullptr
 )
 return
 false
@@ -447,7 +447,7 @@ nsGkAtoms
 :
 :
 decrement
-nsnull
+nullptr
 }
 ;
 PRInt32
@@ -688,7 +688,7 @@ nsIPresShell
 :
 SetCapturingContent
 (
-nsnull
+nullptr
 0
 )
 ;
@@ -799,7 +799,7 @@ if
 scrollbar
 =
 =
-nsnull
+nullptr
 )
 return
 ;
@@ -1016,7 +1016,7 @@ GetFirstPrincipalChild
 ;
 while
 (
-nsnull
+nullptr
 !
 =
 childFrame
@@ -1073,7 +1073,7 @@ if
 result
 !
 =
-nsnull
+nullptr
 )
 return
 NS_OK
@@ -1090,7 +1090,7 @@ GetNextSibling
 }
 result
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1172,7 +1172,7 @@ NS_OK
 }
 result
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

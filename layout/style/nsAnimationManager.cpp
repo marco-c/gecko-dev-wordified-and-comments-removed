@@ -459,7 +459,7 @@ aRefreshTime
 ;
 mStyleRule
 =
-nsnull
+nullptr
 ;
 mNeedsRefreshes
 =
@@ -1342,7 +1342,7 @@ mElementData
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIAtom
@@ -1436,7 +1436,7 @@ after
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 ElementAnimations
@@ -1493,7 +1493,7 @@ memory
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -1507,7 +1507,7 @@ SetProperty
 propName
 ea
 ElementAnimationsPropertyDtor
-nsnull
+nullptr
 )
 ;
 if
@@ -1530,7 +1530,7 @@ delete
 ea
 ;
 return
-nsnull
+nullptr
 ;
 }
 AddElementData
@@ -1864,7 +1864,7 @@ IsEmpty
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 InfallibleTArray
@@ -1902,7 +1902,7 @@ Destroy
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 TimeStamp
@@ -1930,7 +1930,7 @@ ea
 >
 mStyleRule
 =
-nsnull
+nullptr
 ;
 ea
 -
@@ -1993,7 +1993,7 @@ ElementAnimation
 *
 oldAnim
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -3376,7 +3376,7 @@ KeyframeData
 *
 fromKeyframe
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -3515,7 +3515,7 @@ aSrc
 .
 0f
 aStyleContext
-nsnull
+nullptr
 toKeyframe
 .
 mKey
@@ -3870,7 +3870,7 @@ ea
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_WARN_IF_FALSE
@@ -3939,7 +3939,7 @@ mPresContext
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 return

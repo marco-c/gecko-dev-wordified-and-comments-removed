@@ -206,7 +206,7 @@ nsAString
 *
 aValue
 =
-nsnull
+nullptr
 )
 ;
 bool
@@ -227,7 +227,7 @@ nsAString
 *
 aValue
 =
-nsnull
+nullptr
 )
 ;
 nsresult

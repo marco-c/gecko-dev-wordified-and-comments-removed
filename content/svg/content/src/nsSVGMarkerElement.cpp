@@ -178,7 +178,7 @@ nsIDOMSVGMarkerElement
 SVG_MARKERUNITS_USERSPACEONUSE
 }
 {
-nsnull
+nullptr
 0
 }
 }
@@ -367,7 +367,7 @@ nsGkAtoms
 :
 :
 orient
-nsnull
+nullptr
 (
 aValue
 =
@@ -464,7 +464,7 @@ aNodeInfo
 )
 mCoordCtx
 (
-nsnull
+nullptr
 )
 {
 }
@@ -703,7 +703,7 @@ nsGkAtoms
 :
 :
 orient
-nsnull
+nullptr
 NS_LITERAL_STRING
 (
 "
@@ -1061,7 +1061,7 @@ aContext
 ;
 mViewBoxToViewportTransform
 =
-nsnull
+nullptr
 ;
 }
 bool

@@ -625,7 +625,7 @@ DoDialog
 (
 parent
 block
-nsnull
+nullptr
 printSettings
 kPageSetupDialogURL
 )
@@ -695,7 +695,7 @@ DoDialog
 (
 parent
 block
-nsnull
+nullptr
 printSettings
 kPrinterPropertiesURL
 )
@@ -1056,11 +1056,11 @@ true
 }
 mPrintProgress
 =
-nsnull
+nullptr
 ;
 mWebProgressListener
 =
-nsnull
+nullptr
 ;
 }
 return

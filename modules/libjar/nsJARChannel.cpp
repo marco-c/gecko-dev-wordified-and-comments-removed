@@ -150,7 +150,7 @@ PRLogModuleInfo
 *
 gJarProtocolLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -628,7 +628,7 @@ nsJARChannel
 :
 mAppURI
 (
-nsnull
+nullptr
 )
 mContentLength
 (
@@ -653,7 +653,7 @@ true
 )
 mJarInput
 (
-nsnull
+nullptr
 )
 {
 #
@@ -1370,9 +1370,9 @@ rv
 NS_OpenURI
 (
 mDownloader
-nsnull
+nullptr
 mJarBaseURI
-nsnull
+nullptr
 mLoadGroup
 mCallbacks
 mLoadFlags
@@ -1805,7 +1805,7 @@ mJarInput
 *
 result
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -2173,7 +2173,7 @@ char
 *
 ext
 =
-nsnull
+nullptr
 *
 fileName
 =
@@ -2557,7 +2557,7 @@ NS_ERROR_IN_PROGRESS
 ;
 mJarFile
 =
-nsnull
+nullptr
 ;
 mIsUnsafe
 =
@@ -2669,7 +2669,7 @@ NS_ERROR_IN_PROGRESS
 ;
 mJarFile
 =
-nsnull
+nullptr
 ;
 mIsUnsafe
 =
@@ -2743,7 +2743,7 @@ mPump
 AsyncRead
 (
 this
-nsnull
+nullptr
 )
 ;
 if
@@ -2760,11 +2760,11 @@ false
 ;
 mListenerContext
 =
-nsnull
+nullptr
 ;
 mListener
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -2781,7 +2781,7 @@ mLoadGroup
 AddRequest
 (
 this
-nsnull
+nullptr
 )
 ;
 return
@@ -3276,7 +3276,7 @@ rv
 =
 CreateJarInput
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -3313,7 +3313,7 @@ mPump
 AsyncRead
 (
 this
-nsnull
+nullptr
 )
 ;
 }
@@ -3336,14 +3336,14 @@ status
 ;
 OnStartRequest
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 OnStopRequest
 (
-nsnull
-nsnull
+nullptr
+nullptr
 status
 )
 ;
@@ -3499,7 +3499,7 @@ mLoadGroup
 RemoveRequest
 (
 this
-nsnull
+nullptr
 status
 )
 ;
@@ -3630,7 +3630,7 @@ mProgressSink
 OnProgress
 (
 this
-nsnull
+nullptr
 PRUint64
 (
 offset

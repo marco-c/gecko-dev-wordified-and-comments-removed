@@ -129,7 +129,7 @@ get
 )
 )
 :
-nsnull
+nullptr
 ;
 }
 class
@@ -1041,7 +1041,7 @@ childReflowState
 0
 0
 childStatus
-nsnull
+nullptr
 )
 ;
 FinishReflowChild
@@ -1243,7 +1243,7 @@ IsEmpty
 )
 )
 return
-nsnull
+nullptr
 ;
 CanvasLayer
 *
@@ -1291,7 +1291,7 @@ if
 layer
 )
 return
-nsnull
+nullptr
 ;
 nsPresContext
 *
@@ -1712,7 +1712,7 @@ PresShell
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 #

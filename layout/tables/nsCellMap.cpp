@@ -222,11 +222,11 @@ aTableFrame
 )
 mFirstMap
 (
-nsnull
+nullptr
 )
 mBCInfo
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -251,7 +251,7 @@ nsTableRowGroupFrame
 *
 prior
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -382,7 +382,7 @@ mBCInfo
 )
 ABORT1
 (
-nsnull
+nullptr
 )
 ;
 PRInt32
@@ -434,7 +434,7 @@ aRowIndex
 )
 ABORT1
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -468,7 +468,7 @@ mBCInfo
 )
 ABORT1
 (
-nsnull
+nullptr
 )
 ;
 PRInt32
@@ -520,7 +520,7 @@ aColIndex
 )
 ABORT1
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -657,14 +657,14 @@ aNewGroup
 mBCInfo
 !
 =
-nsnull
+nullptr
 )
 ;
 nsCellMap
 *
 prevMap
 =
-nsnull
+nullptr
 ;
 nsCellMap
 *
@@ -751,14 +751,14 @@ GetRowGroup
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 else
 {
 aPrevGroup
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -791,7 +791,7 @@ nsCellMap
 *
 prior
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -927,7 +927,7 @@ map
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsCellMap
@@ -988,7 +988,7 @@ FindMapFor
 (
 aRowGroup
 aStartHint
-nsnull
+nullptr
 )
 ;
 if
@@ -1109,7 +1109,7 @@ aStartHint
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -1162,7 +1162,7 @@ nsCellMap
 *
 map
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -1231,7 +1231,7 @@ map
 ;
 map
 =
-nsnull
+nullptr
 ;
 NS_WARNING
 (
@@ -1274,7 +1274,7 @@ nextMap
 >
 SetNextSibling
 (
-nsnull
+nullptr
 )
 ;
 for
@@ -1728,7 +1728,7 @@ GetNextSibling
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsColInfo
@@ -1901,7 +1901,7 @@ GetNextSibling
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -2644,7 +2644,7 @@ CellData
 *
 result
 =
-nsnull
+nullptr
 ;
 PRInt32
 rowIndex
@@ -3097,7 +3097,7 @@ RebuildConsideringCells
 *
 this
 numOrigCols
-nsnull
+nullptr
 -
 1
 0
@@ -3245,7 +3245,7 @@ RebuildConsideringCells
 *
 this
 numOrigCols
-nsnull
+nullptr
 -
 1
 0
@@ -3531,7 +3531,7 @@ cellMap
 >
 Dump
 (
-nsnull
+nullptr
 !
 =
 mBCInfo
@@ -3549,7 +3549,7 @@ GetNextSibling
 }
 if
 (
-nsnull
+nullptr
 !
 =
 mBCInfo
@@ -4019,7 +4019,7 @@ GetNextSibling
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 PRInt32
@@ -4561,7 +4561,7 @@ BCData
 *
 bcData
 =
-nsnull
+nullptr
 ;
 switch
 (
@@ -4886,7 +4886,7 @@ BCData
 *
 bcData
 =
-nsnull
+nullptr
 ;
 cellData
 =
@@ -4939,7 +4939,7 @@ AppendCell
 (
 *
 this
-nsnull
+nullptr
 rgYPos
 false
 0
@@ -5050,7 +5050,7 @@ AppendCell
 (
 *
 this
-nsnull
+nullptr
 0
 false
 0
@@ -5395,13 +5395,13 @@ BCCellData
 *
 cellData
 =
-nsnull
+nullptr
 ;
 BCData
 *
 bcData
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -5500,7 +5500,7 @@ AppendCell
 (
 *
 this
-nsnull
+nullptr
 rgYPos
 false
 0
@@ -5590,7 +5590,7 @@ AppendCell
 (
 *
 this
-nsnull
+nullptr
 0
 false
 0
@@ -5686,7 +5686,7 @@ aRowGroup
 )
 mNextSibling
 (
-nsnull
+nullptr
 )
 mIsBC
 (
@@ -5846,7 +5846,7 @@ sEmptyRow
 ;
 sEmptyRow
 =
-nsnull
+nullptr
 ;
 }
 nsTableCellFrame
@@ -5950,7 +5950,7 @@ GetCellFrame
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 PRInt32
@@ -6483,7 +6483,7 @@ numCols
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -6513,7 +6513,7 @@ aNumCols
 CellData
 *
 )
-nsnull
+nullptr
 )
 ;
 }
@@ -6854,7 +6854,7 @@ RebuildConsideringRows
 (
 this
 aFirstRowIndex
-nsnull
+nullptr
 aNumRowsToRemove
 aDamageArea
 )
@@ -6988,7 +6988,7 @@ CellData
 *
 origData
 =
-nsnull
+nullptr
 ;
 PRInt32
 startColIndex
@@ -7658,7 +7658,7 @@ cellData
 =
 AllocCellData
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -7988,7 +7988,7 @@ data
 >
 Init
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -9258,7 +9258,7 @@ insertionIndex
 CellData
 *
 )
-nsnull
+nullptr
 )
 &
 &
@@ -9321,7 +9321,7 @@ data
 =
 AllocCellData
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -12194,7 +12194,7 @@ aMap
 RebuildConsideringCells
 (
 this
-nsnull
+nullptr
 aRowIndex
 startColIndex
 false
@@ -12624,7 +12624,7 @@ newData
 =
 AllocCellData
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -13734,7 +13734,7 @@ nsTableCellFrame
 *
 cellFrame
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -14453,7 +14453,7 @@ aColSpan
 1
 ;
 return
-nsnull
+nullptr
 ;
 }
 while
@@ -14737,6 +14737,6 @@ here
 )
 ;
 return
-nsnull
+nullptr
 ;
 }

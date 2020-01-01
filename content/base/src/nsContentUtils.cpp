@@ -1121,7 +1121,7 @@ nsContentUtils
 :
 sDOMScriptObjectFactory
 =
-nsnull
+nullptr
 ;
 nsIXPConnect
 *
@@ -1151,7 +1151,7 @@ nsContentUtils
 :
 sParserService
 =
-nsnull
+nullptr
 ;
 nsINameSpaceManager
 *
@@ -1177,7 +1177,7 @@ nsContentUtils
 :
 sXTFService
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -1213,7 +1213,7 @@ nsContentUtils
 :
 sAtomEventTable
 =
-nsnull
+nullptr
 ;
 nsDataHashtable
 <
@@ -1226,7 +1226,7 @@ nsContentUtils
 :
 sStringEventTable
 =
-nsnull
+nullptr
 ;
 nsCOMArray
 <
@@ -1238,7 +1238,7 @@ nsContentUtils
 :
 sUserDefinedEvents
 =
-nsnull
+nullptr
 ;
 nsIStringBundleService
 *
@@ -1302,7 +1302,7 @@ nsContentUtils
 :
 sBidiKeyboard
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -1348,7 +1348,7 @@ nsContentUtils
 :
 sBlockedScriptRunners
 =
-nsnull
+nullptr
 ;
 PRUint32
 nsContentUtils
@@ -1365,7 +1365,7 @@ nsContentUtils
 :
 sSameOriginChecker
 =
-nsnull
+nullptr
 ;
 bool
 nsContentUtils
@@ -1390,7 +1390,7 @@ nsContentUtils
 :
 sShiftText
 =
-nsnull
+nullptr
 ;
 nsString
 *
@@ -1399,7 +1399,7 @@ nsContentUtils
 :
 sControlText
 =
-nsnull
+nullptr
 ;
 nsString
 *
@@ -1408,7 +1408,7 @@ nsContentUtils
 :
 sMetaText
 =
-nsnull
+nullptr
 ;
 nsString
 *
@@ -1417,7 +1417,7 @@ nsContentUtils
 :
 sOSText
 =
-nsnull
+nullptr
 ;
 nsString
 *
@@ -1426,7 +1426,7 @@ nsContentUtils
 :
 sAltText
 =
-nsnull
+nullptr
 ;
 nsString
 *
@@ -1435,7 +1435,7 @@ nsContentUtils
 :
 sModifierSeparator
 =
-nsnull
+nullptr
 ;
 bool
 nsContentUtils
@@ -1484,7 +1484,7 @@ nsContentUtils
 :
 sHTMLFragmentParser
 =
-nsnull
+nullptr
 ;
 nsIParser
 *
@@ -1493,7 +1493,7 @@ nsContentUtils
 :
 sXMLFragmentParser
 =
-nsnull
+nullptr
 ;
 nsIFragmentContentSink
 *
@@ -1502,7 +1502,7 @@ nsContentUtils
 :
 sXMLFragmentSink
 =
-nsnull
+nullptr
 ;
 bool
 nsContentUtils
@@ -1918,7 +1918,7 @@ rv
 {
 sIOService
 =
-nsnull
+nullptr
 ;
 }
 rv
@@ -1993,7 +1993,7 @@ PL_DHashTableInit
 sEventListenerManagersHash
 &
 hash_table_ops
-nsnull
+nullptr
 sizeof
 (
 EventListenerManagerMapEntry
@@ -2006,7 +2006,7 @@ sEventListenerManagersHash
 .
 ops
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -2664,11 +2664,11 @@ rv
 {
 sImgLoader
 =
-nsnull
+nullptr
 ;
 sImgCache
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -2697,7 +2697,7 @@ sImgCache
 )
 sImgCache
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2785,7 +2785,7 @@ WINDOW_ONLY_EVENT
 undef
 EVENT
 {
-nsnull
+nullptr
 }
 }
 ;
@@ -3008,7 +3008,7 @@ TOUCH_EVENT
 undef
 EVENT
 {
-nsnull
+nullptr
 }
 }
 ;
@@ -3929,7 +3929,7 @@ PRUnichar
 *
 afterEntity
 =
-nsnull
+nullptr
 ;
 PRUnichar
 result
@@ -4515,7 +4515,7 @@ rv
 {
 sParserService
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -4561,7 +4561,7 @@ rv
 {
 sXTFService
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -4619,7 +4619,7 @@ rv
 {
 sBidiKeyboard
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -7009,11 +7009,11 @@ sDOMScriptObjectFactory
 ;
 sXPConnect
 =
-nsnull
+nullptr
 ;
 sThreadJSContextStack
 =
-nsnull
+nullptr
 ;
 NS_IF_RELEASE
 (
@@ -7080,21 +7080,21 @@ sAtomEventTable
 ;
 sAtomEventTable
 =
-nsnull
+nullptr
 ;
 delete
 sStringEventTable
 ;
 sStringEventTable
 =
-nsnull
+nullptr
 ;
 delete
 sUserDefinedEvents
 ;
 sUserDefinedEvents
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -7144,7 +7144,7 @@ sEventListenerManagersHash
 .
 ops
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -7178,49 +7178,49 @@ sBlockedScriptRunners
 ;
 sBlockedScriptRunners
 =
-nsnull
+nullptr
 ;
 delete
 sShiftText
 ;
 sShiftText
 =
-nsnull
+nullptr
 ;
 delete
 sControlText
 ;
 sControlText
 =
-nsnull
+nullptr
 ;
 delete
 sMetaText
 ;
 sMetaText
 =
-nsnull
+nullptr
 ;
 delete
 sOSText
 ;
 sOSText
 =
-nsnull
+nullptr
 ;
 delete
 sAltText
 ;
 sAltText
 =
-nsnull
+nullptr
 ;
 delete
 sModifierSeparator
 ;
 sModifierSeparator
 =
-nsnull
+nullptr
 ;
 NS_IF_RELEASE
 (
@@ -7789,7 +7789,7 @@ sgo
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIScriptContext
@@ -7810,7 +7810,7 @@ scx
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -7964,7 +7964,7 @@ JSContext
 *
 cx
 =
-nsnull
+nullptr
 ;
 sThreadJSContextStack
 -
@@ -8002,7 +8002,7 @@ win
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsIDOMDocument
@@ -8018,13 +8018,13 @@ JSContext
 *
 cx
 =
-nsnull
+nullptr
 ;
 JSObject
 *
 obj
 =
-nsnull
+nullptr
 ;
 sXPConnect
 -
@@ -8068,7 +8068,7 @@ obj
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -8096,7 +8096,7 @@ win
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -8121,7 +8121,7 @@ JSContext
 *
 cx
 =
-nsnull
+nullptr
 ;
 sThreadJSContextStack
 -
@@ -8182,7 +8182,7 @@ GetExtantDocument
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -8372,7 +8372,7 @@ FindContentForSubDocument
 doc
 )
 :
-nsnull
+nullptr
 ;
 }
 bool
@@ -8775,7 +8775,7 @@ aCommonAncestor
 *
 aCommonAncestor
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -8938,7 +8938,7 @@ nsINode
 *
 parent
 =
-nsnull
+nullptr
 ;
 PRUint32
 len
@@ -10529,7 +10529,7 @@ get
 (
 )
 :
-nsnull
+nullptr
 aBaseURI
 sIOService
 )
@@ -10707,7 +10707,7 @@ char
 *
 colon
 =
-nsnull
+nullptr
 ;
 const
 PRUnichar
@@ -11117,7 +11117,7 @@ aNodeInfoManager
 GetNodeInfo
 (
 aQualifiedName
-nsnull
+nullptr
 nsID
 aNodeType
 aNodeInfo
@@ -11198,14 +11198,14 @@ PRUnichar
 *
 uriEnd
 =
-nsnull
+nullptr
 ;
 const
 PRUnichar
 *
 nameEnd
 =
-nsnull
+nullptr
 ;
 const
 PRUnichar
@@ -11336,7 +11336,7 @@ pos
 *
 aPrefix
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -11358,7 +11358,7 @@ pos
 *
 aPrefix
 =
-nsnull
+nullptr
 ;
 }
 *
@@ -11430,7 +11430,7 @@ GetPresContext
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -11664,7 +11664,7 @@ aContext
 EmptyCString
 (
 )
-nsnull
+nullptr
 &
 decision
 GetContentPolicy
@@ -11997,8 +11997,8 @@ loadGroup
 aObserver
 aLoadingDocument
 aLoadFlags
-nsnull
-nsnull
+nullptr
+nullptr
 channelPolicy
 aRequest
 )
@@ -12030,13 +12030,13 @@ aRequest
 *
 aRequest
 =
-nsnull
+nullptr
 ;
 }
 NS_ENSURE_TRUE
 (
 aContent
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -12067,7 +12067,7 @@ imgRequest
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -12094,7 +12094,7 @@ imgContainer
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -12136,7 +12136,7 @@ aRequest
 NS_ENSURE_TRUE
 (
 aRequest
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -12319,7 +12319,7 @@ return
 imgRequest
 !
 =
-nsnull
+nullptr
 ;
 }
 bool
@@ -12679,7 +12679,7 @@ JSContext
 *
 ctx
 =
-nsnull
+nullptr
 ;
 aStack
 -
@@ -12937,7 +12937,7 @@ JSContext
 *
 cx
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -13210,7 +13210,7 @@ false
 ;
 mScx
 =
-nsnull
+nullptr
 ;
 return
 false
@@ -13244,7 +13244,7 @@ PushNull
 return
 DoPush
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -13279,7 +13279,7 @@ stack
 {
 mScx
 =
-nsnull
+nullptr
 ;
 mPushedSomething
 =
@@ -13359,7 +13359,7 @@ true
 }
 mScx
 =
-nsnull
+nullptr
 ;
 mScriptIsRunning
 =
@@ -13939,7 +13939,7 @@ JSContext
 *
 cx
 =
-nsnull
+nullptr
 ;
 sThreadJSContextStack
 -
@@ -14188,7 +14188,7 @@ return
 sameTypeParent
 !
 =
-nsnull
+nullptr
 ;
 }
 bool
@@ -15258,9 +15258,9 @@ piTarget
 >
 DispatchDOMEvent
 (
-nsnull
+nullptr
 event
-nsnull
+nullptr
 &
 status
 )
@@ -15346,7 +15346,7 @@ AsElement
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 Element
@@ -15400,7 +15400,7 @@ id
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -16307,7 +16307,7 @@ nsGkAtoms
 :
 :
 _empty
-nsnull
+nullptr
 }
 ;
 return
@@ -16616,7 +16616,7 @@ GetInnerWindow
 (
 )
 :
-nsnull
+nullptr
 ;
 return
 !
@@ -16796,7 +16796,7 @@ nsEventDispatcher
 Dispatch
 (
 aChild
-nsnull
+nullptr
 &
 mutation
 )
@@ -17034,7 +17034,7 @@ NODE_HAS_LISTENERMANAGER
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -17046,7 +17046,7 @@ ops
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -17090,7 +17090,7 @@ mListenerManager
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 EventListenerManagerMapEntry
@@ -17119,7 +17119,7 @@ entry
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -17386,7 +17386,7 @@ aReturn
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_ARG
 (
@@ -17523,7 +17523,7 @@ IsElement
 {
 contextAsContent
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -18516,11 +18516,11 @@ EmptyString
 EmptyString
 (
 )
-nsnull
+nullptr
 uri
 uri
 principal
-nsnull
+nullptr
 DocumentFlavorHTML
 getter_AddRefs
 (
@@ -18720,8 +18720,8 @@ owningContent
 mozAutoSubtreeModified
 subtree
 (
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 {
@@ -18750,7 +18750,7 @@ subtree
 UpdateTarget
 (
 doc
-nsnull
+nullptr
 )
 ;
 owningContent
@@ -19433,7 +19433,7 @@ GetBindingParent
 )
 =
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -20307,8 +20307,8 @@ aTargetSpec
 get
 (
 )
-nsnull
-nsnull
+nullptr
+nullptr
 aIsTrusted
 )
 ;
@@ -20393,7 +20393,7 @@ if
 aWidget
 )
 return
-nsnull
+nullptr
 ;
 return
 aWidget
@@ -20531,7 +20531,7 @@ GetInternalNSEvent
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 bool
@@ -21715,7 +21715,7 @@ aRunnable
 )
 !
 =
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -23328,7 +23328,7 @@ nsIDragSession
 *
 dragSession
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -24226,7 +24226,7 @@ aRv
 NS_ERROR_UNEXPECTED
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -24257,7 +24257,7 @@ aRv
 NS_ERROR_UNEXPECTED
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -24265,7 +24265,7 @@ scx
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 JSContext
@@ -24281,7 +24281,7 @@ JSContext
 *
 cx
 =
-nsnull
+nullptr
 ;
 sThreadJSContextStack
 -
@@ -26031,7 +26031,7 @@ if
 aScriptContext
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -26053,7 +26053,7 @@ nsIDocument
 *
 doc
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -26164,7 +26164,7 @@ aString
 )
 mService
 (
-nsnull
+nullptr
 )
 {
 CallGetService
@@ -26234,7 +26234,7 @@ EmptyCString
 (
 )
 false
-nsnull
+nullptr
 aResult
 )
 ;
@@ -26251,7 +26251,7 @@ JSContext
 *
 cx
 =
-nsnull
+nullptr
 ;
 sThreadJSContextStack
 -
@@ -26300,7 +26300,7 @@ JSScript
 *
 script
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -26316,7 +26316,7 @@ JS_DescribeScriptedCaller
 cx
 &
 script
-nsnull
+nullptr
 )
 )
 {
@@ -26859,7 +26859,7 @@ sThreadJSContextStack
 >
 Pop
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -27304,7 +27304,7 @@ ClassMatchingInfo
 NS_ENSURE_TRUE
 (
 info
-nsnull
+nullptr
 )
 ;
 if
@@ -28518,7 +28518,7 @@ displayRoot
 >
 GetNearestWidget
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -28526,7 +28526,7 @@ nsnull
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -28597,7 +28597,7 @@ forget
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 already_AddRefed
@@ -29848,7 +29848,7 @@ nsIDocument
 *
 parent
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -29944,7 +29944,7 @@ aDoc
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIDocument
@@ -30243,7 +30243,7 @@ JSString
 *
 str
 =
-nsnull
+nullptr
 ;
 JS
 :
@@ -30634,8 +30634,8 @@ tokenizer
 nextToken
 (
 )
-nsnull
-nsnull
+nullptr
+nullptr
 ios
 )
 )
@@ -31058,7 +31058,7 @@ isEditable
 isEditable
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <

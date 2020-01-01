@@ -550,7 +550,7 @@ AsDOMNode
 (
 )
 :
-nsnull
+nullptr
 ;
 nsCOMPtr
 <

@@ -502,7 +502,7 @@ PRLibrary
 *
 gioLib
 =
-nsnull
+nullptr
 ;
 class
 nsGSettingsCollection
@@ -1542,7 +1542,7 @@ gioLib
 ;
 gioLib
 =
-nsnull
+nullptr
 ;
 }
 }

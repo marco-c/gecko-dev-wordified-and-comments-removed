@@ -228,9 +228,9 @@ Init
 (
 serviceName
 serviceFlags
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 return

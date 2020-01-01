@@ -207,7 +207,7 @@ PRLogModuleInfo
 *
 gAudioStreamLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -987,7 +987,7 @@ Mutex
 *
 gAudioPrefsLock
 =
-nsnull
+nullptr
 ;
 static
 double
@@ -1086,7 +1086,7 @@ utf8
 get
 (
 )
-nsnull
+nullptr
 )
 )
 ;
@@ -1289,7 +1289,7 @@ failed
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -1355,7 +1355,7 @@ gAudioPrefsLock
 PrefChanged
 (
 PREF_VOLUME_SCALE
-nsnull
+nullptr
 )
 ;
 Preferences
@@ -1376,7 +1376,7 @@ MOZ_CUBEB
 PrefChanged
 (
 PREF_USE_CUBEB
-nsnull
+nullptr
 )
 ;
 Preferences
@@ -1391,7 +1391,7 @@ PREF_USE_CUBEB
 PrefChanged
 (
 PREF_CUBEB_LATENCY
-nsnull
+nullptr
 )
 ;
 Preferences
@@ -1445,7 +1445,7 @@ gAudioPrefsLock
 ;
 gAudioPrefsLock
 =
-nsnull
+nullptr
 ;
 #
 if
@@ -1465,7 +1465,7 @@ gCubebContext
 ;
 gCubebContext
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -1496,7 +1496,7 @@ getter_AddRefs
 (
 mAudioPlaybackThread
 )
-nsnull
+nullptr
 MEDIA_THREAD_STACK_SIZE
 )
 ;
@@ -1679,7 +1679,7 @@ SA_SUCCESS
 {
 mAudioHandle
 =
-nsnull
+nullptr
 ;
 mInError
 =
@@ -1735,7 +1735,7 @@ mAudioHandle
 ;
 mAudioHandle
 =
-nsnull
+nullptr
 ;
 mInError
 =
@@ -1796,7 +1796,7 @@ mAudioHandle
 ;
 mAudioHandle
 =
-nsnull
+nullptr
 ;
 mInError
 =
@@ -2750,7 +2750,7 @@ nsRemotedAudioStream
 :
 mAudioChild
 (
-nsnull
+nullptr
 )
 mBytesPerFrame
 (
@@ -2913,7 +2913,7 @@ event
 ;
 mAudioChild
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -3351,7 +3351,7 @@ nsCircularByteBuffer
 :
 mBuffer
 (
-nsnull
+nullptr
 )
 mCapacity
 (

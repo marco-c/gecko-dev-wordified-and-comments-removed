@@ -1772,7 +1772,7 @@ aStreamListener
 *
 aStreamListener
 =
-nsnull
+nullptr
 ;
 }
 mListener
@@ -1947,7 +1947,7 @@ mChannel
 AsyncOpen
 (
 listener
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2253,7 +2253,7 @@ new
 ChannelMediaResource
 (
 aDecoder
-nsnull
+nullptr
 mURI
 )
 ;
@@ -2363,7 +2363,7 @@ Revoke
 ;
 mListener
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -2393,7 +2393,7 @@ NS_ERROR_PARSED_DATA_CACHED
 ;
 mChannel
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -2931,9 +2931,9 @@ getter_AddRefs
 mChannel
 )
 mURI
-nsnull
+nullptr
 loadGroup
-nsnull
+nullptr
 loadFlags
 )
 ;
@@ -3264,7 +3264,7 @@ rv
 return
 OpenChannel
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -3913,7 +3913,7 @@ aActiveResource
 *
 aActiveResource
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -4103,7 +4103,7 @@ aStreamListener
 *
 aStreamListener
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -4352,15 +4352,15 @@ NS_ERROR_PARSED_DATA_CACHED
 ;
 mChannel
 =
-nsnull
+nullptr
 ;
 mInput
 =
-nsnull
+nullptr
 ;
 mSeekable
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -4419,7 +4419,7 @@ secMan
 mChannel
 )
 return
-nsnull
+nullptr
 ;
 secMan
 -
@@ -4497,7 +4497,7 @@ element
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -4516,7 +4516,7 @@ GetDocumentLoadGroup
 NS_ENSURE_TRUE
 (
 loadGroup
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -4535,9 +4535,9 @@ getter_AddRefs
 channel
 )
 mURI
-nsnull
+nullptr
 loadGroup
-nsnull
+nullptr
 0
 )
 ;
@@ -4549,7 +4549,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 new
@@ -4922,7 +4922,7 @@ uri
 NS_ENSURE_SUCCESS
 (
 rv
-nsnull
+nullptr
 )
 ;
 nsCOMPtr
@@ -5184,7 +5184,7 @@ loadGroup
 RemoveRequest
 (
 mChannel
-nsnull
+nullptr
 status
 )
 ;
@@ -5248,7 +5248,7 @@ loadGroup
 AddRequest
 (
 mChannel
-nsnull
+nullptr
 )
 ;
 NS_ASSERTION

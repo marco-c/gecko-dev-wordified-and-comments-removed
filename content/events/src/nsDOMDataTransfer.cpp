@@ -891,7 +891,7 @@ aFileList
 *
 aFileList
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1100,7 +1100,7 @@ aTypes
 *
 aTypes
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -1686,7 +1686,7 @@ aSourceNode
 *
 aSourceNode
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1772,7 +1772,7 @@ aTypes
 *
 aTypes
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -1883,7 +1883,7 @@ aData
 *
 aData
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1935,7 +1935,7 @@ nsIPrincipal
 *
 principal
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -2798,7 +2798,7 @@ aDragTarget
 *
 aArray
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -3174,7 +3174,7 @@ aLength
 *
 aSupports
 =
-nsnull
+nullptr
 ;
 *
 aLength
@@ -3728,7 +3728,7 @@ NS_ENSURE_SUCCESS
 (
 *
 rv
-nsnull
+nullptr
 )
 ;
 if
@@ -4014,7 +4014,7 @@ text
 plain
 "
 )
-nsnull
+nullptr
 c
 sysPrincipal
 )
@@ -4048,7 +4048,7 @@ uri
 list
 "
 )
-nsnull
+nullptr
 c
 sysPrincipal
 )
@@ -4062,7 +4062,7 @@ formats
 f
 ]
 )
-nsnull
+nullptr
 c
 sysPrincipal
 )
@@ -4254,7 +4254,7 @@ GetLoadContext
 (
 )
 :
-nsnull
+nullptr
 )
 ;
 trans

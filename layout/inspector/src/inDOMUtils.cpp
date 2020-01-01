@@ -437,7 +437,7 @@ nsIContent
 *
 bparent
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -678,7 +678,7 @@ aElement
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -708,7 +708,7 @@ nsRuleNode
 *
 ruleNode
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -941,7 +941,7 @@ NS_ENSURE_TRUE
 cssrule
 !
 =
-nsnull
+nullptr
 NS_ERROR_FAILURE
 )
 ;
@@ -1081,7 +1081,7 @@ aElement
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1355,12 +1355,12 @@ aRuleNode
 *
 aRuleNode
 =
-nsnull
+nullptr
 ;
 *
 aStyleContext
 =
-nsnull
+nullptr
 ;
 if
 (

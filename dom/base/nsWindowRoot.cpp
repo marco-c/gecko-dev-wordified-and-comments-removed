@@ -322,9 +322,9 @@ nsIDOMEventTarget
 (
 this
 )
-nsnull
+nullptr
 aEvt
-nsnull
+nullptr
 &
 status
 )
@@ -612,7 +612,7 @@ aRv
 NS_OK
 ;
 return
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -704,7 +704,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -889,7 +889,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 {
 nsCOMPtr

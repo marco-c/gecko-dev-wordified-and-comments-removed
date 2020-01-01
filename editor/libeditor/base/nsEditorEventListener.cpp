@@ -370,7 +370,7 @@ nsEditorEventListener
 :
 mEditor
 (
-nsnull
+nullptr
 )
 mCommitText
 (
@@ -846,7 +846,7 @@ UninstallFromEditor
 ;
 mEditor
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -2129,7 +2129,7 @@ GetPresContext
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -2153,7 +2153,7 @@ HasFlag
 NODE_IS_EDITABLE
 )
 ?
-nsnull
+nullptr
 :
 focusedContent
 mouseEvent
@@ -2938,7 +2938,7 @@ Terminate
 ;
 mCaret
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -3985,7 +3985,7 @@ selectionPrivate
 >
 SetAncestorLimiter
 (
-nsnull
+nullptr
 )
 ;
 }

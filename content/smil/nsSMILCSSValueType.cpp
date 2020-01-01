@@ -300,7 +300,7 @@ sZeroColor
 default
 :
 return
-nsnull
+nullptr
 ;
 }
 }
@@ -641,7 +641,7 @@ mU
 .
 mPtr
 =
-nsnull
+nullptr
 ;
 aValue
 .
@@ -823,7 +823,7 @@ mPtr
 =
 destWrapper
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -1109,7 +1109,7 @@ valueToAddWrapper
 >
 mCSSValue
 :
-nsnull
+nullptr
 ;
 const
 nsStyleAnimation
@@ -1127,7 +1127,7 @@ destWrapper
 >
 mCSSValue
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -1317,7 +1317,7 @@ fromWrapper
 >
 mCSSValue
 :
-nsnull
+nullptr
 ;
 const
 nsStyleAnimation
@@ -1532,7 +1532,7 @@ startWrapper
 >
 mCSSValue
 :
-nsnull
+nullptr
 ;
 const
 nsStyleAnimation
@@ -1644,7 +1644,7 @@ doc
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIPresShell
@@ -1668,7 +1668,7 @@ GetPresContext
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 static

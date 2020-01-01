@@ -408,7 +408,7 @@ mDecodeThreadCount
 )
 mStateMachineThread
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -587,7 +587,7 @@ StateMachineTracker
 :
 sInstance
 =
-nsnull
+nullptr
 ;
 StateMachineTracker
 &
@@ -698,7 +698,7 @@ State
 "
 &
 mStateMachineThread
-nsnull
+nullptr
 )
 ;
 NS_ABORT_IF_FALSE
@@ -923,7 +923,7 @@ mStateMachineThread
 ;
 mStateMachineThread
 =
-nsnull
+nullptr
 ;
 NS_DispatchToMainThread
 (
@@ -949,7 +949,7 @@ zero
 ;
 sInstance
 =
-nsnull
+nullptr
 ;
 }
 delete
@@ -1586,11 +1586,11 @@ Cancel
 ;
 mTimer
 =
-nsnull
+nullptr
 ;
 mReader
 =
-nsnull
+nullptr
 ;
 StateMachineTracker
 :
@@ -5597,7 +5597,7 @@ GetReentrantMonitor
 ;
 mAudioStream
 =
-nsnull
+nullptr
 ;
 mEventManager
 .
@@ -5641,7 +5641,7 @@ Shutdown
 ;
 audioStream
 =
-nsnull
+nullptr
 ;
 LOG
 (
@@ -5746,7 +5746,7 @@ mEventManager
 .
 QueueWrittenAudioData
 (
-nsnull
+nullptr
 frames
 *
 aChannels
@@ -6017,7 +6017,7 @@ nsBuiltinDecoderReader
 *
 cloneReader
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -7809,7 +7809,7 @@ NoteDecodeThreadDestroyed
 }
 mDecodeThread
 =
-nsnull
+nullptr
 ;
 mDecodeThreadIdle
 =
@@ -7943,7 +7943,7 @@ Shutdown
 }
 mAudioThread
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -8242,7 +8242,7 @@ getter_AddRefs
 (
 mDecodeThread
 )
-nsnull
+nullptr
 MEDIA_THREAD_STACK_SIZE
 )
 ;
@@ -8387,7 +8387,7 @@ getter_AddRefs
 (
 mAudioThread
 )
-nsnull
+nullptr
 MEDIA_THREAD_STACK_SIZE
 )
 ;
@@ -9573,7 +9573,7 @@ PeekFront
 (
 )
 :
-nsnull
+nullptr
 ;
 NS_ASSERTION
 (
@@ -10026,11 +10026,11 @@ ReleaseStateMachine
 ;
 mStateMachine
 =
-nsnull
+nullptr
 ;
 mDecoder
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -11781,7 +11781,7 @@ now
 ;
 currentFrame
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -12047,7 +12047,7 @@ VideoData
 *
 v
 =
-nsnull
+nullptr
 ;
 {
 ReentrantMonitorAutoExit

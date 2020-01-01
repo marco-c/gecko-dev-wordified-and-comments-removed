@@ -61,7 +61,7 @@ mRefNode
 )
 mRangeUpdater
 (
-nsnull
+nullptr
 )
 {
 }

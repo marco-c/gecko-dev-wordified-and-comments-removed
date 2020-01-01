@@ -78,10 +78,6 @@ h
 namespace
 js
 {
-extern
-Class
-dummy_class
-;
 namespace
 ion
 {
@@ -2185,11 +2181,6 @@ JSCompartment
 *
 const
 origin
-;
-JSObject
-*
-const
-target
 ;
 JSCompartment
 *

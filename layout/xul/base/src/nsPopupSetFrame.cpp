@@ -395,7 +395,7 @@ rootBox
 >
 SetPopupSetFrame
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -478,7 +478,7 @@ popupChild
 LayoutPopup
 (
 aState
-nsnull
+nullptr
 false
 )
 ;
@@ -644,8 +644,8 @@ mPopupList
 .
 InsertFrames
 (
-nsnull
-nsnull
+nullptr
+nullptr
 aPopupFrameList
 )
 ;
@@ -766,7 +766,7 @@ GetNextSibling
 }
 if
 (
-nsnull
+nullptr
 !
 =
 GetPrevContinuation
@@ -800,7 +800,7 @@ GetPrevContinuation
 }
 if
 (
-nsnull
+nullptr
 !
 =
 GetNextContinuation

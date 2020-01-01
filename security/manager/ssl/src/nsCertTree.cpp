@@ -218,7 +218,7 @@ CompareCacheHashEntry
 :
 key
 (
-nsnull
+nullptr
 )
 {
 for
@@ -432,7 +432,7 @@ nsCertTreeDispInfo
 :
 mAddonInfo
 (
-nsnull
+nullptr
 )
 mTypeOfEntry
 (
@@ -584,7 +584,7 @@ else
 *
 _cert
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -648,7 +648,7 @@ mCompareCache
 .
 ops
 =
-nsnull
+nullptr
 ;
 mNSSComponent
 =
@@ -702,7 +702,7 @@ get
 ;
 mCellText
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -730,7 +730,7 @@ mCompareCache
 .
 ops
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -755,7 +755,7 @@ PL_DHashTableInit
 mCompareCache
 &
 gMapOps
-nsnull
+nullptr
 sizeof
 (
 CompareCacheHashEntryPtr
@@ -768,7 +768,7 @@ mCompareCache
 .
 ops
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -926,7 +926,7 @@ nsIX509Cert
 >
 orgCert
 =
-nsnull
+nullptr
 ;
 nsCertAddonInfo
 *
@@ -961,7 +961,7 @@ nsIX509Cert
 >
 nextCert
 =
-nsnull
+nullptr
 ;
 PRInt32
 orgCount
@@ -985,7 +985,7 @@ i
 {
 nextCert
 =
-nsnull
+nullptr
 ;
 addonInfo
 =
@@ -1068,7 +1068,7 @@ index
 0
 )
 return
-nsnull
+nullptr
 ;
 for
 (
@@ -1136,7 +1136,7 @@ break
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 already_AddRefed
@@ -1173,13 +1173,13 @@ if
 certdi
 )
 return
-nsnull
+nullptr
 ;
 nsIX509Cert
 *
 rawPtr
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1259,7 +1259,7 @@ index
 0
 )
 return
-nsnull
+nullptr
 ;
 for
 (
@@ -1284,7 +1284,7 @@ index
 idx
 )
 return
-nsnull
+nullptr
 ;
 idx
 +
@@ -1417,7 +1417,7 @@ break
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsCertTree
@@ -1877,7 +1877,7 @@ certdi
 >
 mAddonInfo
 =
-nsnull
+nullptr
 ;
 certdi
 -
@@ -2038,7 +2038,7 @@ mOriginalOverrideService
 >
 EnumerateCertOverrides
 (
-nsnull
+nullptr
 CollectAllHostPortOverridesCallback
 &
 allHostPortOverrideKeys
@@ -2436,7 +2436,7 @@ nsIX509Cert
 >
 cert
 =
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -2677,7 +2677,7 @@ mOriginalOverrideService
 >
 EnumerateCertOverrides
 (
-nsnull
+nullptr
 AddRemaningHostPortOverridesCallback
 &
 cap
@@ -2843,7 +2843,7 @@ mTreeArray
 ;
 mTreeArray
 =
-nsnull
+nullptr
 ;
 mNumRows
 =
@@ -2923,7 +2923,7 @@ mTreeArray
 ;
 mTreeArray
 =
-nsnull
+nullptr
 ;
 mNumRows
 =
@@ -3038,7 +3038,7 @@ nsIX509Cert
 >
 orgCert
 =
-nsnull
+nullptr
 ;
 nsCertAddonInfo
 *
@@ -3183,7 +3183,7 @@ nsIX509Cert
 >
 nextCert
 =
-nsnull
+nullptr
 ;
 nsCertAddonInfo
 *
@@ -3252,7 +3252,7 @@ break
 ;
 nextCert
 =
-nsnull
+nullptr
 ;
 addonInfo
 =
@@ -3486,7 +3486,7 @@ nsIX509Cert
 >
 cert
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3526,7 +3526,7 @@ certdi
 >
 mAddonInfo
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -3606,7 +3606,7 @@ CERTCertificate
 *
 nsscert
 =
-nsnull
+nullptr
 ;
 CERTCertificateCleaner
 nsscertCleaner
@@ -3737,7 +3737,7 @@ mTreeArray
 ;
 mTreeArray
 =
-nsnull
+nullptr
 ;
 return
 UpdateUIContents
@@ -4660,7 +4660,7 @@ if
 el
 !
 =
-nsnull
+nullptr
 )
 {
 if
@@ -6279,7 +6279,7 @@ if
 el
 !
 =
-nsnull
+nullptr
 )
 {
 nsAutoString
@@ -6336,7 +6336,7 @@ if
 ct
 !
 =
-nsnull
+nullptr
 )
 {
 PRUnichar

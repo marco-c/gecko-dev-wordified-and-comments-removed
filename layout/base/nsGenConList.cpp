@@ -65,7 +65,7 @@ mFirstNode
 ;
 mFirstNode
 =
-nsnull
+nullptr
 ;
 mSize
 =
@@ -145,7 +145,7 @@ isLastNode
 {
 mFirstNode
 =
-nsnull
+nullptr
 ;
 return
 true

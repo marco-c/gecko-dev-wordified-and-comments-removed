@@ -752,7 +752,7 @@ growl
 -
 registration
 "
-nsnull
+nullptr
 )
 ;
 mDelegate
@@ -839,7 +839,7 @@ nsAlertsService
 :
 mDelegate
 (
-nsnull
+nullptr
 )
 {
 }

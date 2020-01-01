@@ -1651,7 +1651,7 @@ IsEmpty
 )
 )
 return
-nsnull
+nullptr
 ;
 gfxIntSize
 size
@@ -1714,7 +1714,7 @@ CairoStatus
 )
 )
 return
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -1788,7 +1788,7 @@ if
 resultPattern
 )
 return
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -2804,7 +2804,7 @@ Next
 )
 !
 =
-nsnull
+nullptr
 )
 {
 aContext

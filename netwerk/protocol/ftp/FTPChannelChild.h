@@ -384,7 +384,7 @@ FTPChannelChild
 *
 retval
 =
-nsnull
+nullptr
 )
 ;
 nsCOMPtr

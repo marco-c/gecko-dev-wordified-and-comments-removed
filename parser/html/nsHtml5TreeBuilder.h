@@ -605,7 +605,7 @@ insertMarker
 {
 append
 (
-nsnull
+nullptr
 )
 ;
 }

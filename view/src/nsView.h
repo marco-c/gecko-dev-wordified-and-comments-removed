@@ -73,7 +73,7 @@ nsViewManager
 *
 aViewManager
 =
-nsnull
+nullptr
 nsViewVisibility
 aVisibility
 =

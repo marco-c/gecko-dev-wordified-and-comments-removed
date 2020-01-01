@@ -3973,7 +3973,7 @@ nsBorderColors
 *
 compositeColors
 =
-nsnull
+nullptr
 ;
 PRUint32
 borderColorStyleCount
@@ -3994,7 +3994,7 @@ BorderColorStyle
 *
 borderColorStyle
 =
-nsnull
+nullptr
 ;
 NS_FOR_CSS_SIDES
 (
@@ -5462,7 +5462,7 @@ i
 ]
 !
 =
-nsnull
+nullptr
 )
 {
 *
@@ -8667,7 +8667,7 @@ mCompositeColors
 ]
 !
 =
-nsnull
+nullptr
 &
 &
 !

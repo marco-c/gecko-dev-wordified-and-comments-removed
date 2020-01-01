@@ -451,7 +451,7 @@ nullData
 >
 Init
 (
-nsnull
+nullptr
 )
 ;
 rv
@@ -462,7 +462,7 @@ clipboard
 SetData
 (
 nullData
-nsnull
+nullptr
 nsIClipboard
 :
 :
@@ -496,7 +496,7 @@ NS_PRECONDITION
 aHandler
 !
 =
-nsnull
+nullptr
 "
 null
 ptr

@@ -1457,7 +1457,7 @@ void
 *
 vparam
 =
-nsnull
+nullptr
 )
 ;
 void

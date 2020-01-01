@@ -882,7 +882,7 @@ gService
 >
 mSmartSizeTimer
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -4012,7 +4012,7 @@ ProcessRequest
 (
 mRequest
 false
-nsnull
+nullptr
 )
 ;
 if
@@ -4310,7 +4310,7 @@ NS_DISPATCH_NORMAL
 ;
 mListener
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -4344,7 +4344,7 @@ nsCacheService
 :
 gService
 =
-nsnull
+nullptr
 ;
 static
 nsCOMPtr
@@ -4353,7 +4353,7 @@ nsIMemoryReporter
 >
 MemoryCacheReporter
 =
-nsnull
+nullptr
 ;
 NS_THREADSAFE_MEMORY_REPORTER_IMPLEMENT
 (
@@ -4431,15 +4431,15 @@ true
 )
 mMemoryDevice
 (
-nsnull
+nullptr
 )
 mDiskDevice
 (
-nsnull
+nullptr
 )
 mOfflineDevice
 (
-nsnull
+nullptr
 )
 mTotalEntries
 (
@@ -4479,7 +4479,7 @@ NS_ASSERTION
 gService
 =
 =
-nsnull
+nullptr
 "
 multiple
 nsCacheService
@@ -4526,7 +4526,7 @@ Shutdown
 ;
 gService
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -4906,7 +4906,7 @@ Cancel
 ;
 mSmartSizeTimer
 =
-nsnull
+nullptr
 ;
 }
 (
@@ -4953,21 +4953,21 @@ MemoryCacheReporter
 ;
 MemoryCacheReporter
 =
-nsnull
+nullptr
 ;
 delete
 mMemoryDevice
 ;
 mMemoryDevice
 =
-nsnull
+nullptr
 ;
 delete
 mDiskDevice
 ;
 mDiskDevice
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4994,7 +4994,7 @@ nsCacheService
 :
 :
 ShutdownCustomCacheDeviceEnum
-nsnull
+nullptr
 )
 ;
 #
@@ -5157,7 +5157,7 @@ if
 aOuter
 !
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_NO_AGGREGATION
@@ -5176,7 +5176,7 @@ if
 cacheService
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -5247,14 +5247,14 @@ result
 *
 result
 =
-nsnull
+nullptr
 ;
 if
 (
 this
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_NOT_AVAILABLE
@@ -5412,7 +5412,7 @@ NotifyObservers
 (
 mSubject
 NS_CACHESERVICE_EMPTYCACHE_TOPIC_ID
-nsnull
+nullptr
 )
 ;
 }
@@ -5664,7 +5664,7 @@ if
 gService
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_NOT_AVAILABLE
@@ -6069,7 +6069,7 @@ storagePolicy
 return
 EvictEntriesForClient
 (
-nsnull
+nullptr
 storagePolicy
 )
 ;
@@ -6134,7 +6134,7 @@ else
 *
 aCacheIOTarget
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -6339,7 +6339,7 @@ mDiskDevice
 ;
 mDiskDevice
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -6428,7 +6428,7 @@ timer
 ;
 mSmartSizeTimer
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -6967,7 +6967,7 @@ mMemoryDevice
 ;
 mMemoryDevice
 =
-nsnull
+nullptr
 ;
 }
 MemoryCacheReporter
@@ -7337,7 +7337,7 @@ request
 >
 mListener
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -7402,13 +7402,13 @@ nsCacheEntry
 *
 entry
 =
-nsnull
+nullptr
 ;
 nsCacheEntry
 *
 doomedEntry
 =
-nsnull
+nullptr
 ;
 nsCacheAccessMode
 accessGranted
@@ -7425,7 +7425,7 @@ result
 *
 result
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -7657,7 +7657,7 @@ nsICacheEntryDescriptor
 *
 descriptor
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -7708,7 +7708,7 @@ doomedEntry
 ;
 doomedEntry
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -7866,7 +7866,7 @@ result
 *
 result
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -7883,7 +7883,7 @@ nsCacheRequest
 *
 request
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -8079,7 +8079,7 @@ NS_ASSERTION
 request
 !
 =
-nsnull
+nullptr
 "
 ActivateEntry
 called
@@ -8096,7 +8096,7 @@ result
 *
 result
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -8105,7 +8105,7 @@ doomedEntry
 *
 doomedEntry
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -8400,7 +8400,7 @@ rv
 }
 entry
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -8562,7 +8562,7 @@ error
 *
 result
 =
-nsnull
+nullptr
 ;
 delete
 entry
@@ -8604,7 +8604,7 @@ nsCacheEntry
 *
 entry
 =
-nsnull
+nullptr
 ;
 CACHE_LOG_DEBUG
 (
@@ -8760,7 +8760,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 }
 entry
@@ -8838,7 +8838,7 @@ rv
 )
 )
 return
-nsnull
+nullptr
 ;
 }
 entry
@@ -9008,7 +9008,7 @@ failed
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 entry
@@ -9133,7 +9133,7 @@ failed
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 entry
@@ -9270,7 +9270,7 @@ rv
 )
 device
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -9586,7 +9586,7 @@ gService
 >
 DoomActiveEntries
 (
-nsnull
+nullptr
 )
 ;
 gService
@@ -9629,7 +9629,7 @@ mDiskDevice
 >
 EvictEntries
 (
-nsnull
+nullptr
 )
 ;
 gService
@@ -9676,7 +9676,7 @@ mOfflineDevice
 >
 EvictEntries
 (
-nsnull
+nullptr
 )
 ;
 gService
@@ -9702,7 +9702,7 @@ nsCacheService
 :
 :
 ShutdownCustomCacheDeviceEnum
-nsnull
+nullptr
 )
 ;
 gService
@@ -9728,7 +9728,7 @@ mMemoryDevice
 >
 EvictEntries
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -11283,7 +11283,7 @@ nsCacheDevice
 *
 device
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -11927,7 +11927,7 @@ ProcessRequest
 (
 request
 false
-nsnull
+nullptr
 )
 ;
 if
@@ -12003,7 +12003,7 @@ nsICacheEntryDescriptor
 *
 descriptor
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -12243,7 +12243,7 @@ mActiveEntries
 VisitEntries
 (
 DeactivateAndClearEntry
-nsnull
+nullptr
 )
 ;
 mActiveEntries
@@ -12297,7 +12297,7 @@ entry
 active
 entry
 =
-nsnull
+nullptr
 !
 "
 )
@@ -12469,7 +12469,7 @@ entry
 active
 entry
 =
-nsnull
+nullptr
 !
 "
 )
@@ -12519,7 +12519,7 @@ mActiveArray
 #
 array
 =
-nsnull
+nullptr
 !
 "
 )

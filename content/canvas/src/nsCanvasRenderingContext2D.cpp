@@ -565,7 +565,7 @@ nsIMemoryReporter
 *
 gCanvasMemoryReporter
 =
-nsnull
+nullptr
 ;
 static
 PRInt64
@@ -921,7 +921,7 @@ parser
 ParseColorString
 (
 colorstr
-nsnull
+nullptr
 0
 value
 )
@@ -943,8 +943,8 @@ nsRuleNode
 ComputeColor
 (
 value
-nsnull
-nsnull
+nullptr
+nullptr
 color
 )
 )
@@ -1436,7 +1436,7 @@ GetSurfaceSnapshot
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHOD
@@ -2090,7 +2090,7 @@ gfxRect
 *
 dirtyRect
 =
-nsnull
+nullptr
 )
 ;
 nsresult
@@ -2160,7 +2160,7 @@ get
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 enum
@@ -2420,14 +2420,14 @@ gradientStyles
 whichStyle
 ]
 =
-nsnull
+nullptr
 ;
 patternStyles
 [
 whichStyle
 ]
 =
-nsnull
+nullptr
 ;
 }
 inline
@@ -2446,7 +2446,7 @@ gradientStyles
 whichStyle
 ]
 =
-nsnull
+nullptr
 ;
 patternStyles
 [
@@ -2479,7 +2479,7 @@ patternStyles
 whichStyle
 ]
 =
-nsnull
+nullptr
 ;
 }
 inline
@@ -2800,7 +2800,7 @@ Forget
 {
 mContext
 =
-nsnull
+nullptr
 ;
 }
 private
@@ -2889,7 +2889,7 @@ sUnpremultiplyTable
 256
 ]
 =
-nsnull
+nullptr
 ;
 PRUint8
 (
@@ -2903,7 +2903,7 @@ sPremultiplyTable
 256
 ]
 =
-nsnull
+nullptr
 ;
 nsresult
 NS_NewCanvasRenderingContext2DThebes
@@ -3076,11 +3076,11 @@ sPremultiplyTable
 ;
 sUnpremultiplyTable
 =
-nsnull
+nullptr
 ;
 sPremultiplyTable
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -3112,7 +3112,7 @@ OwnerDoc
 (
 )
 :
-nsnull
+nullptr
 ;
 nsCSSParser
 parser
@@ -3126,7 +3126,7 @@ CSSLoader
 (
 )
 :
-nsnull
+nullptr
 )
 ;
 nsCSSValue
@@ -3140,7 +3140,7 @@ parser
 ParseColorString
 (
 aString
-nsnull
+nullptr
 0
 value
 )
@@ -3185,7 +3185,7 @@ nsComputedDOMStyle
 GetStyleContextForElement
 (
 mCanvasElement
-nsnull
+nullptr
 presShell
 )
 ;
@@ -3208,7 +3208,7 @@ GetPresContext
 (
 )
 :
-nsnull
+nullptr
 parentContext
 *
 aColor
@@ -3261,11 +3261,11 @@ mHeight
 ;
 mSurface
 =
-nsnull
+nullptr
 ;
 mThebes
 =
-nsnull
+nullptr
 ;
 mValid
 =
@@ -3452,7 +3452,7 @@ OwnerDoc
 (
 )
 :
-nsnull
+nullptr
 nsContentUtils
 :
 :
@@ -3585,7 +3585,7 @@ aStr
 *
 aInterface
 =
-nsnull
+nullptr
 ;
 *
 aType
@@ -4040,7 +4040,7 @@ mCanvasElement
 >
 InvalidateCanvasContent
 (
-nsnull
+nullptr
 )
 ;
 return
@@ -4629,7 +4629,7 @@ nsIDocument
 *
 ownerDoc
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4650,7 +4650,7 @@ LayerManager
 >
 layerManager
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -4760,7 +4760,7 @@ CairoStatus
 {
 surface
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -4775,7 +4775,7 @@ if
 gCanvasMemoryReporter
 =
 =
-nsnull
+nullptr
 )
 {
 gCanvasMemoryReporter
@@ -6373,7 +6373,7 @@ return
 SetStrokeStyle_multi
 (
 str
-nsnull
+nullptr
 )
 ;
 }
@@ -6671,7 +6671,7 @@ return
 SetFillStyle_multi
 (
 str
-nsnull
+nullptr
 )
 ;
 }
@@ -8028,8 +8028,8 @@ gfxIntSize
 0
 )
 blurRadius
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 if
@@ -8038,7 +8038,7 @@ if
 ctx
 )
 return
-nsnull
+nullptr
 ;
 return
 ctx
@@ -10486,7 +10486,7 @@ nsComputedDOMStyle
 GetStyleContextForElement
 (
 mCanvasElement
-nsnull
+nullptr
 presShell
 )
 ;
@@ -10544,7 +10544,7 @@ styleSet
 >
 ResolveStyleForRules
 (
-nsnull
+nullptr
 parentRules
 )
 ;
@@ -11386,7 +11386,7 @@ x
 y
 maxWidth
 TEXT_DRAW_OPERATION_FILL
-nsnull
+nullptr
 )
 ;
 }
@@ -11416,7 +11416,7 @@ x
 y
 maxWidth
 TEXT_DRAW_OPERATION_STROKE
-nsnull
+nullptr
 )
 ;
 }
@@ -11596,7 +11596,7 @@ gfxFont
 :
 LOOSE_INK_EXTENTS
 mThebes
-nsnull
+nullptr
 )
 ;
 if
@@ -11700,7 +11700,7 @@ gfxFont
 :
 LOOSE_INK_EXTENTS
 mThebes
-nsnull
+nullptr
 )
 ;
 point
@@ -11744,9 +11744,9 @@ mTextRun
 GetLength
 (
 )
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 }
@@ -11935,7 +11935,7 @@ nsComputedDOMStyle
 GetStyleContextForElement
 (
 mCanvasElement
-nsnull
+nullptr
 presShell
 )
 ;
@@ -12168,7 +12168,7 @@ nsBidiPresUtils
 :
 :
 MODE_MEASURE
-nsnull
+nullptr
 0
 &
 totalWidthCoord
@@ -12671,9 +12671,9 @@ nsBidiPresUtils
 :
 :
 MODE_DRAW
-nsnull
+nullptr
 0
-nsnull
+nullptr
 &
 bidiEngine
 )
@@ -12774,9 +12774,9 @@ nsBidiPresUtils
 :
 :
 MODE_DRAW
-nsnull
+nullptr
 0
-nsnull
+nullptr
 &
 bidiEngine
 )
@@ -12963,7 +12963,7 @@ CreateFontGroup
 kDefaultFontName
 &
 style
-nsnull
+nullptr
 )
 ;
 if
@@ -13053,7 +13053,7 @@ if
 currentFontStyle
 )
 return
-nsnull
+nullptr
 ;
 currentFontStyle
 -
@@ -13790,7 +13790,7 @@ mThebes
 CurrentDash
 (
 dashes
-nsnull
+nullptr
 )
 )
 {
@@ -13860,7 +13860,7 @@ mThebes
 CurrentDash
 (
 dashes
-nsnull
+nullptr
 )
 )
 {
@@ -15381,7 +15381,7 @@ NS_ENSURE_ARG
 aWindow
 !
 =
-nsnull
+nullptr
 )
 ;
 if
@@ -15745,7 +15745,7 @@ NS_ENSURE_ARG
 aElem
 !
 =
-nsnull
+nullptr
 )
 ;
 if
@@ -17671,7 +17671,7 @@ EnsureSurface
 *
 surface
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_NOT_AVAILABLE
@@ -17803,7 +17803,7 @@ EnsureSurface
 )
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -17888,14 +17888,14 @@ null
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 CanvasRenderingContext2DUserData
 *
 userData
 =
-nsnull
+nullptr
 ;
 if
 (

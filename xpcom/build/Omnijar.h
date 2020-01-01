@@ -102,12 +102,12 @@ nsIFile
 *
 aGrePath
 =
-nsnull
+nullptr
 nsIFile
 *
 aAppPath
 =
-nsnull
+nullptr
 )
 ;
 static

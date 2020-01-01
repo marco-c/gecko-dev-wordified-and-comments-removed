@@ -449,7 +449,7 @@ PRUnichar
 *
 subString
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -2548,8 +2548,8 @@ mIOService
 NewURI
 (
 utf8URL
-nsnull
-nsnull
+nullptr
+nullptr
 getter_AddRefs
 (
 uri
@@ -6993,7 +6993,7 @@ NS_PRECONDITION
 aConv
 !
 =
-nsnull
+nullptr
 "
 null
 ptr

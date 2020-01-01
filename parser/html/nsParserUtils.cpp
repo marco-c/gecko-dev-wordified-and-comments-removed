@@ -403,11 +403,11 @@ EmptyString
 EmptyString
 (
 )
-nsnull
+nullptr
 uri
 uri
 principal
-nsnull
+nullptr
 DocumentFlavorHTML
 getter_AddRefs
 (
@@ -602,7 +602,7 @@ aContextElement
 *
 aReturn
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <

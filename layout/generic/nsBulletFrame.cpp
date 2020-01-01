@@ -150,7 +150,7 @@ mozilla
 NS_DECLARE_FRAME_PROPERTY
 (
 FontSizeInflationProperty
-nsnull
+nullptr
 )
 NS_IMPL_FRAMEARENA_HELPERS
 (
@@ -204,7 +204,7 @@ NS_ERROR_FAILURE
 ;
 mImageRequest
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -217,7 +217,7 @@ mListener
 >
 SetFrame
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -470,7 +470,7 @@ NS_ERROR_FAILURE
 ;
 mImageRequest
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -543,7 +543,7 @@ NS_ERROR_FAILURE
 ;
 mImageRequest
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -6278,7 +6278,7 @@ return
 ;
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aLoadGroup
@@ -6350,7 +6350,7 @@ VoidPtrOrFloat
 :
 p
 (
-nsnull
+nullptr
 )
 {
 }
@@ -6673,7 +6673,7 @@ nsBulletListener
 :
 mFrame
 (
-nsnull
+nullptr
 )
 {
 }

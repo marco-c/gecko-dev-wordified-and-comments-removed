@@ -579,7 +579,7 @@ StartupCache
 :
 gStartupCache
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -635,11 +635,11 @@ NULL
 )
 mMappingMemoryReporter
 (
-nsnull
+nullptr
 )
 mDataMemoryReporter
 (
-nsnull
+nullptr
 )
 {
 }
@@ -674,7 +674,7 @@ WriteToDisk
 ;
 gStartupCache
 =
-nsnull
+nullptr
 ;
 (
 void
@@ -698,11 +698,11 @@ mDataMemoryReporter
 ;
 mMappingMemoryReporter
 =
-nsnull
+nullptr
 ;
 mDataMemoryReporter
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -1655,7 +1655,7 @@ NS_ASSERTION
 entry
 =
 =
-nsnull
+nullptr
 "
 Existing
 entry
@@ -1687,7 +1687,7 @@ NS_ASSERTION
 zipItem
 =
 =
-nsnull
+nullptr
 "
 Existing
 entry
@@ -3079,7 +3079,7 @@ StartupCacheWrapper
 :
 gStartupCacheWrapper
 =
-nsnull
+nullptr
 ;
 NS_IMPL_THREADSAFE_ISUPPORTS1
 (

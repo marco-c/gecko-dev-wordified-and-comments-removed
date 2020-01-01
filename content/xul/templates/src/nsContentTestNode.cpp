@@ -86,7 +86,7 @@ aRefVariable
 :
 TestNode
 (
-nsnull
+nullptr
 )
 mProcessor
 (
@@ -94,7 +94,7 @@ aProcessor
 )
 mDocument
 (
-nsnull
+nullptr
 )
 mRefVariable
 (
@@ -102,7 +102,7 @@ aRefVariable
 )
 mTag
 (
-nsnull
+nullptr
 )
 {
 #

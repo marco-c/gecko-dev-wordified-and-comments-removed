@@ -98,7 +98,7 @@ nsGridRowLayout
 *
 aRequestor
 =
-nsnull
+nullptr
 )
 =
 0

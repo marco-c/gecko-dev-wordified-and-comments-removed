@@ -387,7 +387,7 @@ mSlot
 ;
 mSlot
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -799,7 +799,7 @@ mSlot
 *
 aName
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1066,7 +1066,7 @@ mModule
 ;
 mModule
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1325,7 +1325,7 @@ if
 asciiname
 =
 =
-nsnull
+nullptr
 )
 {
 return

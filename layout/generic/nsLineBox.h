@@ -117,7 +117,7 @@ nsFloatCacheList
 :
 mHead
 (
-nsnull
+nullptr
 )
 {
 }
@@ -135,7 +135,7 @@ IsEmpty
 const
 {
 return
-nsnull
+nullptr
 =
 =
 mHead
@@ -148,7 +148,7 @@ NotEmpty
 const
 {
 return
-nsnull
+nullptr
 !
 =
 mHead
@@ -257,7 +257,7 @@ nsFloatCacheFreeList
 :
 mTail
 (
-nsnull
+nullptr
 )
 {
 }
@@ -276,7 +276,7 @@ IsEmpty
 const
 {
 return
-nsnull
+nullptr
 =
 =
 mHead
@@ -311,7 +311,7 @@ NotEmpty
 const
 {
 return
-nsnull
+nullptr
 !
 =
 mHead
@@ -6159,7 +6159,7 @@ mIndex
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -6188,7 +6188,7 @@ mNumLines
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -6226,7 +6226,7 @@ mNumLines
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return

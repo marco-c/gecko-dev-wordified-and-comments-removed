@@ -847,7 +847,7 @@ if
 target
 !
 =
-nsnull
+nullptr
 )
 {
 empty
@@ -987,7 +987,7 @@ NS_ASSERTION
 property
 !
 =
-nsnull
+nullptr
 "
 not
 a

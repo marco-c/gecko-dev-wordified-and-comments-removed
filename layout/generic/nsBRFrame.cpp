@@ -981,7 +981,7 @@ accService
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIContent
@@ -1020,7 +1020,7 @@ GetChildCount
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return

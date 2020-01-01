@@ -215,7 +215,7 @@ NS_ASSERTION
 gLiterals
 =
 =
-nsnull
+nullptr
 "
 already
 initialized
@@ -254,7 +254,7 @@ gLiterals
 ;
 gLiterals
 =
-nsnull
+nullptr
 ;
 }
 nsChromeTreeOwner
@@ -266,7 +266,7 @@ nsChromeTreeOwner
 :
 mXULWindow
 (
-nsnull
+nullptr
 )
 {
 }
@@ -521,7 +521,7 @@ aFoundItem
 *
 aFoundItem
 =
-nsnull
+nullptr
 ;
 bool
 fIs_Content
@@ -640,7 +640,7 @@ windowMediator
 >
 GetXULWindowEnumerator
 (
-nsnull
+nullptr
 getter_AddRefs
 (
 windowEnumerator
@@ -672,7 +672,7 @@ nsISupports
 >
 nextWindow
 =
-nsnull
+nullptr
 ;
 windowEnumerator
 -

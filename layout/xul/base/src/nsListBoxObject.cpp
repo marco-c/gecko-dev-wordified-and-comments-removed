@@ -129,7 +129,7 @@ nsListBoxObject
 :
 mListBoxBody
 (
-nsnull
+nullptr
 )
 {
 }
@@ -620,7 +620,7 @@ shell
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsIFrame
@@ -647,7 +647,7 @@ if
 frame
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -675,7 +675,7 @@ if
 content
 )
 return
-nsnull
+nullptr
 ;
 frame
 =
@@ -692,7 +692,7 @@ if
 frame
 )
 return
-nsnull
+nullptr
 ;
 nsIScrollableFrame
 *
@@ -709,7 +709,7 @@ if
 scrollFrame
 )
 return
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -728,7 +728,7 @@ if
 yeahBaby
 )
 return
-nsnull
+nullptr
 ;
 nsListBoxBodyFrame
 *
@@ -751,7 +751,7 @@ SetBoxObject
 (
 this
 )
-nsnull
+nullptr
 )
 ;
 mListBoxBody
@@ -792,7 +792,7 @@ ClearCachedValues
 {
 mListBoxBody
 =
-nsnull
+nullptr
 ;
 }
 nsresult

@@ -555,12 +555,12 @@ nsIContentPolicy
 *
 policyService
 =
-nsnull
+nullptr
 nsIScriptSecurityManager
 *
 aSecMan
 =
-nsnull
+nullptr
 )
 {
 CHECK_PRINCIPAL
@@ -612,12 +612,12 @@ nsIContentPolicy
 *
 policyService
 =
-nsnull
+nullptr
 nsIScriptSecurityManager
 *
 aSecMan
 =
-nsnull
+nullptr
 )
 {
 CHECK_PRINCIPAL
@@ -663,7 +663,7 @@ aContext
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -770,7 +770,7 @@ window
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return

@@ -1128,7 +1128,7 @@ nsIAtom
 *
 outPrefix
 =
-nsnull
+nullptr
 ;
 prefix
 .
@@ -2142,7 +2142,7 @@ aValue
 )
 !
 =
-nsnull
+nullptr
 )
 {
 nsCAutoString
@@ -2250,7 +2250,7 @@ aValue
 )
 !
 =
-nsnull
+nullptr
 )
 {
 const
@@ -2331,7 +2331,7 @@ aValue
 )
 !
 =
-nsnull
+nullptr
 )
 {
 PRInt32
@@ -2412,7 +2412,7 @@ aValue
 )
 !
 =
-nsnull
+nullptr
 )
 {
 PRTime
@@ -2727,7 +2727,7 @@ PRUnichar
 *
 literalVal
 =
-nsnull
+nullptr
 ;
 literal
 -
@@ -3705,7 +3705,7 @@ aMember
 )
 !
 =
-nsnull
+nullptr
 )
 {
 nsCAutoString
@@ -3813,7 +3813,7 @@ aMember
 )
 !
 =
-nsnull
+nullptr
 )
 {
 const
@@ -3908,7 +3908,7 @@ aMember
 )
 !
 =
-nsnull
+nullptr
 )
 {
 PRInt32
@@ -3989,7 +3989,7 @@ aMember
 )
 !
 =
-nsnull
+nullptr
 )
 {
 PRTime
@@ -4551,7 +4551,7 @@ NS_ASSERTION
 element
 !
 =
-nsnull
+nullptr
 "
 not
 an
@@ -5238,7 +5238,7 @@ mQNames
 Get
 (
 resType
-nsnull
+nullptr
 )
 )
 {
@@ -5268,7 +5268,7 @@ mQNames
 Get
 (
 aPredicate
-nsnull
+nullptr
 )
 )
 {

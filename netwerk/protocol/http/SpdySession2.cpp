@@ -120,11 +120,11 @@ aSocketTransport
 )
 mSegmentReader
 (
-nsnull
+nullptr
 )
 mSegmentWriter
 (
-nsnull
+nullptr
 )
 mSendingChunkSize
 (
@@ -159,11 +159,11 @@ false
 )
 mInputFrameDataStream
 (
-nsnull
+nullptr
 )
 mNeedsCleanup
 (
-nsnull
+nullptr
 )
 mDecompressBufferSize
 (
@@ -883,7 +883,7 @@ sControlFunctions
 ]
 =
 {
-nsnull
+nullptr
 SpdySession2
 :
 :
@@ -1859,7 +1859,7 @@ countRead
 ;
 ReadSegments
 (
-nsnull
+nullptr
 kDefaultBufferSize
 &
 countRead
@@ -2421,7 +2421,7 @@ mInputFrameBufferUsed
 ;
 mInputFrameDataStream
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -4766,7 +4766,7 @@ DISCARDING_DATA_FRAME
 ;
 mInputFrameDataStream
 =
-nsnull
+nullptr
 ;
 }
 PRUint32
@@ -5278,7 +5278,7 @@ streamID
 ;
 mInputFrameDataStream
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_UNEXPECTED
@@ -7896,7 +7896,7 @@ rv
 LogIO
 (
 this
-nsnull
+nullptr
 "
 Reading
 Frame
@@ -8528,7 +8528,7 @@ unexpectedly
 ;
 mNeedsCleanup
 =
-nsnull
+nullptr
 ;
 mSegmentWriter
 =
@@ -8548,7 +8548,7 @@ countWritten
 ;
 mSegmentWriter
 =
-nsnull
+nullptr
 ;
 mLastDataReadEpoch
 =
@@ -8659,7 +8659,7 @@ frame
 ;
 mNeedsCleanup
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -8724,7 +8724,7 @@ RST_CANCEL
 ;
 mNeedsCleanup
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -8831,7 +8831,7 @@ rv
 LogIO
 (
 this
-nsnull
+nullptr
 "
 Discarding
 Frame
@@ -8966,7 +8966,7 @@ rv
 LogIO
 (
 this
-nsnull
+nullptr
 "
 Reading
 Control
@@ -9188,15 +9188,15 @@ GenerateGoAway
 ;
 mConnection
 =
-nsnull
+nullptr
 ;
 mSegmentReader
 =
-nsnull
+nullptr
 ;
 mSegmentWriter
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -10194,7 +10194,7 @@ SpdySession2
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 PRUint32

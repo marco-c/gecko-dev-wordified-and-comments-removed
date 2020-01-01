@@ -620,7 +620,7 @@ mValue
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 const
@@ -690,7 +690,7 @@ mValue
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 bool
@@ -1279,7 +1279,7 @@ mName
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 PRInt32

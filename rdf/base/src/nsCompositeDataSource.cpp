@@ -143,7 +143,7 @@ PRLogModuleInfo
 *
 nsRDFLog
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -380,11 +380,11 @@ aCompositeDataSource
 )
 mCurrent
 (
-nsnull
+nullptr
 )
 mResult
 (
-nsnull
+nullptr
 )
 mNext
 (
@@ -462,7 +462,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -564,7 +564,7 @@ NS_ASSERTION
 mCurrent
 !
 =
-nsnull
+nullptr
 "
 you
 '
@@ -926,7 +926,7 @@ mResult
 ;
 mResult
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1001,7 +1001,7 @@ aAllowNegativeAssertions
 aCoalesceDuplicateArcs
 )
 :
-nsnull
+nullptr
 ;
 }
 virtual
@@ -1354,7 +1354,7 @@ aAllowNegativeAssertions
 aCoalesceDuplicateArcs
 )
 :
-nsnull
+nullptr
 ;
 }
 virtual
@@ -1837,7 +1837,7 @@ if
 nsRDFLog
 =
 =
-nsnull
+nullptr
 )
 nsRDFLog
 =
@@ -1984,7 +1984,7 @@ uri
 *
 uri
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -2155,7 +2155,7 @@ NS_PRECONDITION
 aProperty
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -2175,7 +2175,7 @@ NS_PRECONDITION
 aTarget
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -2195,7 +2195,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -2234,7 +2234,7 @@ Create
 (
 mAllocator
 this
-nsnull
+nullptr
 aProperty
 aTarget
 aTruthValue
@@ -2286,7 +2286,7 @@ NS_PRECONDITION
 aSource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -2306,7 +2306,7 @@ NS_PRECONDITION
 aProperty
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -2326,7 +2326,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -2566,7 +2566,7 @@ NS_PRECONDITION
 aSource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -2586,7 +2586,7 @@ NS_PRECONDITION
 aProperty
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -2606,7 +2606,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -2647,7 +2647,7 @@ mAllocator
 this
 aSource
 aProperty
-nsnull
+nullptr
 aTruthValue
 mAllowNegativeAssertions
 mCoalesceDuplicateArcs
@@ -2696,7 +2696,7 @@ NS_PRECONDITION
 aSource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -2716,7 +2716,7 @@ NS_PRECONDITION
 aProperty
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -2736,7 +2736,7 @@ NS_PRECONDITION
 aTarget
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -2854,7 +2854,7 @@ NS_PRECONDITION
 aSource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -2874,7 +2874,7 @@ NS_PRECONDITION
 aProperty
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -2894,7 +2894,7 @@ NS_PRECONDITION
 aTarget
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -3113,7 +3113,7 @@ NS_PRECONDITION
 aSource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -3133,7 +3133,7 @@ NS_PRECONDITION
 aProperty
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -3153,7 +3153,7 @@ NS_PRECONDITION
 aOldTarget
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -3173,7 +3173,7 @@ NS_PRECONDITION
 aNewTarget
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -3280,7 +3280,7 @@ NS_PRECONDITION
 aOldSource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -3300,7 +3300,7 @@ NS_PRECONDITION
 aNewSource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -3320,7 +3320,7 @@ NS_PRECONDITION
 aProperty
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -3340,7 +3340,7 @@ NS_PRECONDITION
 aTarget
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -3449,7 +3449,7 @@ NS_PRECONDITION
 aSource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -3469,7 +3469,7 @@ NS_PRECONDITION
 aProperty
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -3489,7 +3489,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -3669,7 +3669,7 @@ NS_PRECONDITION
 aObserver
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -3711,7 +3711,7 @@ NS_PRECONDITION
 aObserver
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -3933,7 +3933,7 @@ NS_PRECONDITION
 aTarget
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -3953,7 +3953,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -4030,7 +4030,7 @@ NS_PRECONDITION
 aSource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -4050,7 +4050,7 @@ NS_PRECONDITION
 aResult
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -4708,7 +4708,7 @@ NS_ASSERTION
 aDataSource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr
@@ -4758,7 +4758,7 @@ NS_ASSERTION
 aDataSource
 !
 =
-nsnull
+nullptr
 "
 null
 ptr

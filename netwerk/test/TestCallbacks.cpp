@@ -1102,9 +1102,9 @@ rv
 =
 NS_InitXPCOM2
 (
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 if
@@ -1169,7 +1169,7 @@ PumpEvents
 ;
 NS_ShutdownXPCOM
 (
-nsnull
+nullptr
 )
 ;
 if

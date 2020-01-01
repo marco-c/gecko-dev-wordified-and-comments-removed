@@ -2714,7 +2714,7 @@ mChannel
 AsyncOpen
 (
 this
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS

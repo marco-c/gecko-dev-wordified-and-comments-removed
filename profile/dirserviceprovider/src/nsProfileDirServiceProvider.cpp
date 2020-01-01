@@ -172,7 +172,7 @@ ifdef
 MOZ_PROFILELOCKING
 mProfileDirLock
 (
-nsnull
+nullptr
 )
 #
 endif
@@ -366,7 +366,7 @@ mProfileDirLock
 Lock
 (
 dirToLock
-nsnull
+nullptr
 )
 ;
 if
@@ -428,7 +428,7 @@ observerService
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 profile
 -
@@ -448,7 +448,7 @@ observerService
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 profile
 -
@@ -565,7 +565,7 @@ observerService
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 profile
 -
@@ -1999,7 +1999,7 @@ aProvider
 *
 aProvider
 =
-nsnull
+nullptr
 ;
 nsProfileDirServiceProvider
 *

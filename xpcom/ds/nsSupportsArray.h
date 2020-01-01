@@ -137,7 +137,7 @@ aIndex
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 element

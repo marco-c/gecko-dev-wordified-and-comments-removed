@@ -152,7 +152,7 @@ ppv
 *
 ppv
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -795,7 +795,7 @@ nsIFrame
 *
 textFrame
 =
-nsnull
+nullptr
 ;
 PRInt32
 outOffset
@@ -820,7 +820,7 @@ textFrame
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 textFrame

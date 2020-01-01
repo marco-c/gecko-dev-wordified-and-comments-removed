@@ -110,11 +110,11 @@ aParent
 )
 mChild
 (
-nsnull
+nullptr
 )
 mEmptyChild
 (
-nsnull
+nullptr
 )
 mPseudoTag
 (
@@ -126,11 +126,11 @@ aRuleNode
 )
 mAllocations
 (
-nsnull
+nullptr
 )
 mCachedResetData
 (
-nsnull
+nullptr
 )
 mBits
 (
@@ -335,7 +335,7 @@ nsStyleContext
 NS_ASSERTION
 (
 (
-nsnull
+nullptr
 =
 =
 mChild
@@ -343,7 +343,7 @@ mChild
 &
 &
 (
-nsnull
+nullptr
 =
 =
 mEmptyChild
@@ -577,7 +577,7 @@ aChild
 {
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aChild
@@ -677,7 +677,7 @@ pointers
 list
 )
 =
-nsnull
+nullptr
 ;
 }
 aChild
@@ -775,7 +775,7 @@ nsStyleContext
 *
 result
 =
-nsnull
+nullptr
 ;
 nsStyleContext
 *
@@ -1019,7 +1019,7 @@ else
 {
 cachedData
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1247,7 +1247,7 @@ can
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -3038,7 +3038,7 @@ out
 }
 if
 (
-nsnull
+nullptr
 !
 =
 mChild
@@ -3082,7 +3082,7 @@ child
 }
 if
 (
-nsnull
+nullptr
 !
 =
 mEmptyChild

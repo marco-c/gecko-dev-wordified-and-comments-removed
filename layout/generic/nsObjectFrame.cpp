@@ -992,7 +992,7 @@ mFrame
 >
 mBackgroundSink
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1049,7 +1049,7 @@ aSequenceNumber
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 mFrame
@@ -1098,7 +1098,7 @@ Destroy
 {
 mFrame
 =
-nsnull
+nullptr
 ;
 }
 protected
@@ -1268,7 +1268,7 @@ PresShell
 )
 )
 :
-nsnull
+nullptr
 ;
 }
 #
@@ -1450,13 +1450,13 @@ mInstanceOwner
 >
 SetFrame
 (
-nsnull
+nullptr
 )
 ;
 }
 SetInstanceOwner
 (
-nsnull
+nullptr
 )
 ;
 nsObjectFrameSuper
@@ -1826,7 +1826,7 @@ InsertChild
 (
 view
 mInnerView
-nsnull
+nullptr
 true
 )
 ;
@@ -2992,7 +2992,7 @@ NPWindow
 *
 win
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -3424,7 +3424,7 @@ mWidget
 >
 SetParent
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -5072,7 +5072,7 @@ obsSvc
 >
 NotifyObservers
 (
-nsnull
+nullptr
 "
 plugin
 -
@@ -5221,7 +5221,7 @@ NPWindow
 *
 window
 =
-nsnull
+nullptr
 ;
 mInstanceOwner
 -
@@ -5440,7 +5440,7 @@ NPWindow
 *
 window
 =
-nsnull
+nullptr
 ;
 mInstanceOwner
 -
@@ -5612,7 +5612,7 @@ IsPaintingToWindow
 GetLayerState
 (
 aBuilder
-nsnull
+nullptr
 )
 =
 =
@@ -5666,7 +5666,7 @@ IsPaintingToWindow
 GetLayerState
 (
 aBuilder
-nsnull
+nullptr
 )
 =
 =
@@ -5822,7 +5822,7 @@ CairoStatus
 )
 )
 return
-nsnull
+nullptr
 ;
 return
 (
@@ -5897,7 +5897,7 @@ nsIFrame
 *
 frame
 =
-nsnull
+nullptr
 ;
 obj
 -
@@ -5987,7 +5987,7 @@ window
 .
 window
 =
-nsnull
+nullptr
 ;
 NPPrint
 npprint
@@ -6893,7 +6893,7 @@ frame
 DidReflow
 (
 presContext
-nsnull
+nullptr
 status
 )
 ;
@@ -7083,7 +7083,7 @@ mInstanceOwner
 DoCocoaEventDrawRect
 (
 aRect
-nsnull
+nullptr
 )
 ;
 mInstanceOwner
@@ -7228,13 +7228,13 @@ if
 mInstanceOwner
 )
 return
-nsnull
+nullptr
 ;
 NPWindow
 *
 window
 =
-nsnull
+nullptr
 ;
 mInstanceOwner
 -
@@ -7250,7 +7250,7 @@ if
 window
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -7272,7 +7272,7 @@ height
 0
 )
 return
-nsnull
+nullptr
 ;
 nsRefPtr
 <
@@ -7294,7 +7294,7 @@ container
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 gfxIntSize
@@ -7450,7 +7450,7 @@ if
 layer
 )
 return
-nsnull
+nullptr
 ;
 }
 NS_ASSERTION
@@ -7652,7 +7652,7 @@ if
 container
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -7675,7 +7675,7 @@ if
 layer
 )
 return
-nsnull
+nullptr
 ;
 }
 ImageLayer
@@ -7820,7 +7820,7 @@ if
 layer
 )
 return
-nsnull
+nullptr
 ;
 }
 NS_ASSERTION
@@ -7887,7 +7887,7 @@ readback
 >
 SetSink
 (
-nsnull
+nullptr
 )
 ;
 readback
@@ -8902,7 +8902,7 @@ HandleEvent
 (
 &
 pluginEvent
-nsnull
+nullptr
 )
 ;
 }
@@ -9133,7 +9133,7 @@ HandleEvent
 (
 &
 pluginEvent
-nsnull
+nullptr
 )
 ;
 }
@@ -9963,7 +9963,7 @@ aPluginInstance
 *
 aPluginInstance
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -10208,7 +10208,7 @@ GetNextSibling
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void

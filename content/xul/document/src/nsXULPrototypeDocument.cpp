@@ -456,7 +456,7 @@ nsXULPrototypeDocument
 :
 mRoot
 (
-nsnull
+nullptr
 )
 mLoaded
 (
@@ -499,7 +499,7 @@ mNodeInfoManager
 >
 Init
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -773,7 +773,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 return
 rv
@@ -823,7 +823,7 @@ gSystemGlobal
 new
 nsXULPDGlobalObject
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -832,7 +832,7 @@ if
 gSystemGlobal
 )
 return
-nsnull
+nullptr
 ;
 NS_ADDREF
 (
@@ -861,7 +861,7 @@ if
 global
 )
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -1103,7 +1103,7 @@ prefixIsNull
 {
 prefix
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -1460,7 +1460,7 @@ name
 Atom
 (
 )
-nsnull
+nullptr
 kNameSpaceID_None
 nsIDOMNode
 :
@@ -2640,7 +2640,7 @@ cx
 &
 gSharedGlobalClass
 principal
-nsnull
+nullptr
 false
 &
 newGlob

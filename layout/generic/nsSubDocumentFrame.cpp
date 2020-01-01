@@ -393,7 +393,7 @@ PresShell
 (
 )
 :
-nsnull
+nullptr
 ;
 return
 ps
@@ -405,7 +405,7 @@ GetDocument
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 class
@@ -487,7 +487,7 @@ PresShell
 )
 )
 :
-nsnull
+nullptr
 ;
 }
 #
@@ -917,7 +917,7 @@ if
 mInnerView
 )
 return
-nsnull
+nullptr
 ;
 nsIView
 *
@@ -940,7 +940,7 @@ GetFrame
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -1087,7 +1087,7 @@ nsIPresShell
 >
 presShell
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -1160,7 +1160,7 @@ nsIFrame
 *
 frame
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1365,7 +1365,7 @@ GetRootElement
 (
 )
 :
-nsnull
+nullptr
 ;
 nsRect
 displayPort
@@ -1804,7 +1804,7 @@ ObtainIntrinsicSizeFrame
 )
 =
 =
-nsnull
+nullptr
 "
 Intrinsic
 width
@@ -1872,7 +1872,7 @@ ObtainIntrinsicSizeFrame
 )
 =
 =
-nsnull
+nullptr
 "
 Intrinsic
 height
@@ -3477,7 +3477,7 @@ if
 content
 )
 return
-nsnull
+nullptr
 ;
 if
 (
@@ -3554,7 +3554,7 @@ aDocShell
 *
 aDocShell
 =
-nsnull
+nullptr
 ;
 NS_ENSURE_STATE
 (
@@ -3700,7 +3700,7 @@ GetRootFrame
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -3724,7 +3724,7 @@ nsObjectFrame
 :
 :
 BeginSwapDocShells
-nsnull
+nullptr
 )
 ;
 aDocument
@@ -3733,7 +3733,7 @@ aDocument
 EnumerateSubDocuments
 (
 BeginSwapDocShellsForDocument
-nsnull
+nullptr
 )
 ;
 return
@@ -3754,7 +3754,7 @@ nsIView
 *
 removedViews
 =
-nsnull
+nullptr
 ;
 while
 (
@@ -3782,7 +3782,7 @@ doc
 BeginSwapDocShellsForDocument
 (
 doc
-nsnull
+nullptr
 )
 ;
 }
@@ -3901,7 +3901,7 @@ aSibling
 >
 SetNextSibling
 (
-nsnull
+nullptr
 )
 ;
 vm
@@ -3911,7 +3911,7 @@ InsertChild
 (
 aParent
 aSibling
-nsnull
+nullptr
 true
 )
 ;
@@ -4191,7 +4191,7 @@ DeviceContext
 (
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -4221,10 +4221,10 @@ v
 >
 GetNearestWidget
 (
-nsnull
+nullptr
 )
 :
-nsnull
+nullptr
 )
 ;
 }
@@ -4260,7 +4260,7 @@ nsObjectFrame
 :
 :
 EndSwapDocShells
-nsnull
+nullptr
 )
 ;
 aDocument
@@ -4269,7 +4269,7 @@ aDocument
 EnumerateSubDocuments
 (
 EndSwapDocShellsForDocument
-nsnull
+nullptr
 )
 ;
 return
@@ -4321,7 +4321,7 @@ doc
 EndSwapDocShellsForDocument
 (
 doc
-nsnull
+nullptr
 )
 ;
 }
@@ -4570,7 +4570,7 @@ view
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 mInnerView
@@ -4584,7 +4584,7 @@ InsertChild
 (
 outerView
 innerView
-nsnull
+nullptr
 true
 )
 ;
@@ -4623,7 +4623,7 @@ nsIFrame
 *
 subDocRoot
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -4753,6 +4753,6 @@ subDocRoot
 }
 }
 return
-nsnull
+nullptr
 ;
 }

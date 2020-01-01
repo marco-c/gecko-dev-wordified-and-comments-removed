@@ -98,7 +98,7 @@ aColumns
 )
 mPrevious
 (
-nsnull
+nullptr
 )
 {
 NS_ASSERTION
@@ -161,7 +161,7 @@ mNext
 >
 SetPrevious
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -194,7 +194,7 @@ mNext
 >
 SetPrevious
 (
-nsnull
+nullptr
 )
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
@@ -285,7 +285,7 @@ GetFrame
 NS_ENSURE_TRUE
 (
 mContent
-nsnull
+nullptr
 )
 ;
 return
@@ -679,7 +679,7 @@ aElement
 *
 aElement
 =
-nsnull
+nullptr
 ;
 return
 NS_ERROR_FAILURE
@@ -1338,7 +1338,7 @@ nsGkAtoms
 :
 :
 progressmeter
-nsnull
+nullptr
 }
 ;
 switch
@@ -1412,7 +1412,7 @@ nsGkAtoms
 :
 :
 start
-nsnull
+nullptr
 }
 ;
 switch
@@ -1474,7 +1474,7 @@ aTree
 )
 mFirstColumn
 (
-nsnull
+nullptr
 )
 {
 }
@@ -1663,7 +1663,7 @@ EnsureColumns
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsTreeColumn
 *
@@ -1758,7 +1758,7 @@ EnsureColumns
 *
 _retval
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -1841,7 +1841,7 @@ EnsureColumns
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsTreeColumn
 *
@@ -1861,7 +1861,7 @@ primary
 =
 sorted
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -2042,7 +2042,7 @@ EnsureColumns
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -2160,7 +2160,7 @@ currCol
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -2248,7 +2248,7 @@ currCol
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 NS_IMETHODIMP
@@ -2313,7 +2313,7 @@ currCol
 >
 SetColumns
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -2537,7 +2537,7 @@ currCol
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -2696,7 +2696,7 @@ nsTreeColumn
 *
 currCol
 =
-nsnull
+nullptr
 ;
 while
 (

@@ -176,7 +176,7 @@ nsDeleteDir
 :
 gInstance
 =
-nsnull
+nullptr
 ;
 nsDeleteDir
 :
@@ -216,7 +216,7 @@ NS_ASSERTION
 gInstance
 =
 =
-nsnull
+nullptr
 "
 multiple
 nsCacheService
@@ -236,7 +236,7 @@ nsDeleteDir
 {
 gInstance
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -684,7 +684,7 @@ mThread
 ;
 mThread
 =
-nsnull
+nullptr
 ;
 }
 void
@@ -1126,7 +1126,7 @@ dir
 >
 MoveToNative
 (
-nsnull
+nullptr
 leaf
 )
 ;

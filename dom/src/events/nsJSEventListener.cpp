@@ -280,7 +280,7 @@ tmp
 >
 mScopeObject
 =
-nsnull
+nullptr
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
 (
@@ -778,7 +778,7 @@ NS_ENSURE_TRUE
 iargv
 !
 =
-nsnull
+nullptr
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
@@ -807,7 +807,7 @@ JSContext
 *
 cx
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <

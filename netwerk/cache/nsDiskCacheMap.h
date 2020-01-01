@@ -1390,15 +1390,15 @@ nsDiskCacheMap
 :
 mCacheDirectory
 (
-nsnull
+nullptr
 )
 mMapFD
 (
-nsnull
+nullptr
 )
 mRecordArray
 (
-nsnull
+nullptr
 )
 mBufferSize
 (
@@ -1406,7 +1406,7 @@ mBufferSize
 )
 mBuffer
 (
-nsnull
+nullptr
 )
 mMaxRecordCount
 (

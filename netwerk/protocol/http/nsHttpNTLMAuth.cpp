@@ -1396,7 +1396,7 @@ n
 *
 creds
 =
-nsnull
+nullptr
 ;
 *
 aFlags
@@ -1705,7 +1705,7 @@ inBufLen
 ;
 inBuf
 =
-nsnull
+nullptr
 ;
 }
 #
@@ -1716,7 +1716,7 @@ inBufLen
 ;
 inBuf
 =
-nsnull
+nullptr
 ;
 #
 endif
@@ -1810,7 +1810,7 @@ inBuf
 )
 =
 =
-nsnull
+nullptr
 )
 {
 nsMemory

@@ -141,6 +141,7 @@ MOCHITEST_FILES
 test_resizer_incontent
 .
 xul
+\
 MOCHITEST_CHROME_FILES
 +
 =

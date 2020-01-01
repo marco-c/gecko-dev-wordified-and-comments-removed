@@ -214,12 +214,12 @@ gfxASurface
 *
 aDestSurface
 =
-nsnull
+nullptr
 Layer
 *
 aMaskLayer
 =
-nsnull
+nullptr
 )
 ;
 nsRefPtr
@@ -350,7 +350,7 @@ DiscardTempSurface
 {
 mCachedTempSurface
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -372,7 +372,7 @@ NS_ASSERTION
 mSurface
 =
 =
-nsnull
+nullptr
 "
 BasicCanvasLayer
 :
@@ -404,7 +404,7 @@ aData
 mGLContext
 =
 =
-nsnull
+nullptr
 "
 CanvasLayer
 can
@@ -1990,7 +1990,7 @@ ImplData
 Paint
 (
 aContext
-nsnull
+nullptr
 )
 ;
 }
@@ -2001,7 +2001,7 @@ autoBackSurface
 Get
 (
 )
-nsnull
+nullptr
 )
 ;
 FireDidTransactionCallback

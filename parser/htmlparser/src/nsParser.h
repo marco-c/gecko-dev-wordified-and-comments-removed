@@ -268,7 +268,7 @@ nsIRequestObserver
 *
 aListener
 =
-nsnull
+nullptr
 void
 *
 aKey

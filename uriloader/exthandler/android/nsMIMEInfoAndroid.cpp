@@ -231,7 +231,7 @@ nsIHandlerApp
 *
 systemDefault
 =
-nsnull
+nullptr
 ;
 bridge
 -
@@ -497,7 +497,7 @@ nsIHandlerApp
 *
 systemDefault
 =
-nsnull
+nullptr
 ;
 bridge
 -

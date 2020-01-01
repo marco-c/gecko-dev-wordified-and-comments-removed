@@ -527,11 +527,11 @@ nsDirEnumeratorUnix
 :
 mDir
 (
-nsnull
+nullptr
 )
 mEntry
 (
-nsnull
+nullptr
 )
 {
 }
@@ -850,7 +850,7 @@ mEntry
 *
 _retval
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -950,7 +950,7 @@ mDir
 ;
 mDir
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -1038,7 +1038,7 @@ outer
 *
 aInstancePtr
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1770,7 +1770,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 return
 mkdir
@@ -2019,7 +2019,7 @@ PRFileDesc
 *
 junk
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -2210,7 +2210,7 @@ char
 *
 resolved_path_ptr
 =
-nsnull
+nullptr
 ;
 resolved_path_ptr
 =
@@ -4335,7 +4335,7 @@ mPath
 get
 (
 )
-nsnull
+nullptr
 )
 ;
 }
@@ -5493,7 +5493,7 @@ aParent
 *
 aParent
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -7159,7 +7159,7 @@ rv
 *
 entries
 =
-nsnull
+nullptr
 ;
 NS_RELEASE
 (
@@ -7351,7 +7351,7 @@ get
 (
 )
 dataSize
-nsnull
+nullptr
 )
 ;
 if
@@ -7428,7 +7428,7 @@ NS_OK
 Handle
 newHandle
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -7477,7 +7477,7 @@ err
 :
 FSResolveAlias
 (
-nsnull
+nullptr
 (
 AliasHandle
 )
@@ -7806,7 +7806,7 @@ NS_ERROR_FAILURE
 }
 if
 (
-nsnull
+nullptr
 =
 =
 connection
@@ -9201,10 +9201,10 @@ FSGetCatalogInfo
 &
 fsRef
 kFSCatInfoNone
-nsnull
-nsnull
+nullptr
+nullptr
 _retval
-nsnull
+nullptr
 )
 ;
 return
@@ -9273,9 +9273,9 @@ kFSCatInfoDataSizes
 kFSCatInfoRsrcSizes
 &
 catalogInfo
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 if
@@ -10440,7 +10440,7 @@ if
 file
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY

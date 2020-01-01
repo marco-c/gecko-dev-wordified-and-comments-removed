@@ -23,6 +23,13 @@ nsDOMError
 .
 h
 "
+#
+include
+"
+sampler
+.
+h
+"
 namespace
 mozilla
 {
@@ -560,6 +567,16 @@ nsresult
 rv
 )
 {
+SAMPLE_LABEL
+(
+"
+StorageChild
+"
+"
+GetValue
+"
+)
+;
 nsresult
 rv2
 =
@@ -599,7 +616,7 @@ rv2
 NS_ERROR_DOM_NOT_FOUND_ERR
 )
 return
-nsnull
+nullptr
 ;
 *
 rv
@@ -628,7 +645,7 @@ StorageItem
 Tnull_t
 )
 return
-nsnull
+nullptr
 ;
 const
 ItemData
@@ -1001,7 +1018,7 @@ GetSingleton
 StorageClone
 clone
 (
-nsnull
+nullptr
 other
 aCallerSecure
 )

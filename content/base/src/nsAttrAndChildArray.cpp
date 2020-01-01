@@ -274,7 +274,7 @@ nsAttrAndChildArray
 :
 mImpl
 (
-nsnull
+nullptr
 )
 {
 }
@@ -334,7 +334,7 @@ aPos
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsIContent
@@ -367,7 +367,7 @@ aChildCount
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -853,7 +853,7 @@ child
 >
 mNextSibling
 =
-nsnull
+nullptr
 ;
 memmove
 (
@@ -1353,7 +1353,7 @@ mValue
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 const
@@ -1509,7 +1509,7 @@ val
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 const
@@ -2080,8 +2080,8 @@ rv
 =
 GetModifiableMapped
 (
-nsnull
-nsnull
+nullptr
+nullptr
 false
 getter_AddRefs
 (
@@ -2338,7 +2338,7 @@ AttrSlotCount
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -2363,7 +2363,7 @@ pos
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -2482,7 +2482,7 @@ aName
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 PRInt32
@@ -2728,7 +2728,7 @@ aLocalName
 )
 =
 =
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -2836,8 +2836,8 @@ rv
 =
 GetModifiableMapped
 (
-nsnull
-nsnull
+nullptr
+nullptr
 false
 getter_AddRefs
 (
@@ -3008,7 +3008,7 @@ mImpl
 ;
 mImpl
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -3214,7 +3214,7 @@ child
 >
 mNextSibling
 =
-nsnull
+nullptr
 ;
 NS_RELEASE
 (
@@ -3344,7 +3344,7 @@ aModifiable
 *
 aModifiable
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -3681,7 +3681,7 @@ mImpl
 >
 mMappedAttrs
 =
-nsnull
+nullptr
 ;
 SetAttrSlotAndChildCount
 (
@@ -3824,14 +3824,14 @@ offset
 0
 ]
 =
-nsnull
+nullptr
 ;
 offset
 [
 1
 ]
 =
-nsnull
+nullptr
 ;
 return
 true

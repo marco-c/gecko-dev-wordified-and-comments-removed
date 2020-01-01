@@ -573,7 +573,7 @@ SOCKS_INITIAL
 )
 mDataIoPtr
 (
-nsnull
+nullptr
 )
 mDataLength
 (
@@ -903,11 +903,11 @@ mData
 ;
 mData
 =
-nsnull
+nullptr
 ;
 mDataIoPtr
 =
-nsnull
+nullptr
 ;
 mDataLength
 =
@@ -936,7 +936,7 @@ NS_ERROR_FAILURE
 ;
 mLookup
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1097,7 +1097,7 @@ query
 ;
 mLookup
 =
-nsnull
+nullptr
 ;
 mLookupStatus
 =
@@ -1118,7 +1118,7 @@ mFD
 ;
 mFD
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -4642,7 +4642,7 @@ end
 {
 mDataIoPtr
 =
-nsnull
+nullptr
 ;
 mAmountToRead
 =
@@ -4790,7 +4790,7 @@ end
 {
 mDataIoPtr
 =
-nsnull
+nullptr
 ;
 mDataLength
 =

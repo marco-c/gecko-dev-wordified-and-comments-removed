@@ -3294,7 +3294,7 @@ n
 '
 result
 =
-nsnull
+nullptr
 ;
 '
 }
@@ -3361,7 +3361,7 @@ n
 '
 result
 =
-nsnull
+nullptr
 ;
 '
 }
@@ -3414,7 +3414,7 @@ rv
 ?
 arg0
 :
-nsnull
+nullptr
 ;
 '
 }
@@ -3473,7 +3473,7 @@ n
 '
 result
 =
-nsnull
+nullptr
 ;
 '
 }

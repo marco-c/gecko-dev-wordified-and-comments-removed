@@ -209,7 +209,7 @@ view
 *
 aInstancePtr
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -411,7 +411,7 @@ wrapper
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 static
@@ -522,7 +522,7 @@ aWidget
 {
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aWidget
@@ -554,7 +554,7 @@ aWidget
 {
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aWidget
@@ -580,7 +580,7 @@ if
 wrapper
 )
 return
-nsnull
+nullptr
 ;
 return
 wrapper
@@ -682,11 +682,11 @@ aViewManager
 ;
 mDirtyRegion
 =
-nsnull
+nullptr
 ;
 mDeletionObserver
 =
-nsnull
+nullptr
 ;
 mWidgetIsTopLevel
 =
@@ -835,7 +835,7 @@ mViewManager
 >
 SetRootView
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -857,7 +857,7 @@ this
 }
 mViewManager
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -947,7 +947,7 @@ mWindow
 >
 SetAttachedViewPtr
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -958,7 +958,7 @@ mWindow
 >
 SetClientData
 (
-nsnull
+nullptr
 )
 ;
 mWindow
@@ -994,7 +994,7 @@ aInstancePtr
 {
 if
 (
-nsnull
+nullptr
 =
 =
 aInstancePtr
@@ -1032,7 +1032,7 @@ derived
 *
 aInstancePtr
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1082,7 +1082,7 @@ aWidget
 {
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aWidget
@@ -1131,7 +1131,7 @@ GetView
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 void
@@ -1836,7 +1836,7 @@ DropMouseGrabbing
 }
 if
 (
-nsnull
+nullptr
 !
 =
 mWindow
@@ -2077,7 +2077,7 @@ aSibling
 {
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aChild
@@ -2089,7 +2089,7 @@ ptr
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 aChild
@@ -2097,7 +2097,7 @@ aChild
 {
 if
 (
-nsnull
+nullptr
 !
 =
 aSibling
@@ -2204,7 +2204,7 @@ aChild
 >
 InvalidateHierarchy
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -2223,7 +2223,7 @@ child
 {
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 child
@@ -2235,7 +2235,7 @@ ptr
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 child
@@ -2245,7 +2245,7 @@ nsView
 *
 prevKid
 =
-nsnull
+nullptr
 ;
 nsView
 *
@@ -2260,7 +2260,7 @@ false
 ;
 while
 (
-nsnull
+nullptr
 !
 =
 kid
@@ -2276,7 +2276,7 @@ child
 {
 if
 (
-nsnull
+nullptr
 !
 =
 prevKid
@@ -2313,7 +2313,7 @@ child
 >
 SetParent
 (
-nsnull
+nullptr
 )
 ;
 found
@@ -2813,10 +2813,10 @@ GetParent
 >
 GetNearestWidget
 (
-nsnull
+nullptr
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -3140,10 +3140,10 @@ GetParent
 >
 GetNearestWidget
 (
-nsnull
+nullptr
 )
 :
-nsnull
+nullptr
 ;
 if
 (
@@ -3293,7 +3293,7 @@ aWidget
 {
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aWidget
@@ -3495,7 +3495,7 @@ mWindow
 >
 SetAttachedViewPtr
 (
-nsnull
+nullptr
 )
 ;
 NS_RELEASE
@@ -3635,7 +3635,7 @@ mWindow
 >
 SetClientData
 (
-nsnull
+nullptr
 )
 ;
 mWindow
@@ -3670,7 +3670,7 @@ void
 *
 data
 =
-nsnull
+nullptr
 ;
 aWidget
 -
@@ -3712,7 +3712,7 @@ if
 wrapper
 )
 return
-nsnull
+nullptr
 ;
 NS_ADDREF
 (
@@ -3784,7 +3784,7 @@ aWidget
 >
 SetClientData
 (
-nsnull
+nullptr
 )
 ;
 }
@@ -3845,7 +3845,7 @@ this
 ;
 if
 (
-nsnull
+nullptr
 !
 =
 mWindow
@@ -4312,7 +4312,7 @@ nsView
 *
 root
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -4840,7 +4840,7 @@ pt
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 if
@@ -4898,7 +4898,7 @@ NS_ASSERTION
 mViewManager
 !
 =
-nsnull
+nullptr
 "
 View
 manager

@@ -842,7 +842,7 @@ nsGkAtoms
 color
 }
 {
-nsnull
+nullptr
 }
 }
 ;

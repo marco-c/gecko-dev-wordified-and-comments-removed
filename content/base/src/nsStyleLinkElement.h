@@ -190,7 +190,7 @@ UpdateStyleSheetInternal
 {
 UpdateStyleSheetInternal
 (
-nsnull
+nullptr
 )
 ;
 }

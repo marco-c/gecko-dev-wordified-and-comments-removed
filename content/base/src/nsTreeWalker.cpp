@@ -149,7 +149,7 @@ aRoot
 *
 aRoot
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -252,7 +252,7 @@ aCurrentNode
 *
 aCurrentNode
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -342,7 +342,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -528,7 +528,7 @@ filtered
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -744,7 +744,7 @@ FILTER_ACCEPT
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -833,7 +833,7 @@ nsINode
 *
 sibling
 =
-nsnull
+nullptr
 ;
 nsINode
 *
@@ -959,7 +959,7 @@ filtered
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1181,7 +1181,7 @@ filtered
 *
 _retval
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <

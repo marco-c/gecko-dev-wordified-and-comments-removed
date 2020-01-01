@@ -79,7 +79,7 @@ aNegate
 )
 mNext
 (
-nsnull
+nullptr
 )
 {
 SetRelation
@@ -131,7 +131,7 @@ aNegate
 )
 mNext
 (
-nsnull
+nullptr
 )
 {
 SetRelation
@@ -283,7 +283,7 @@ aNegate
 )
 mNext
 (
-nsnull
+nullptr
 )
 {
 SetRelation
@@ -1115,11 +1115,11 @@ aAction
 )
 mBindings
 (
-nsnull
+nullptr
 )
 mConditions
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -1166,11 +1166,11 @@ mAction
 )
 mBindings
 (
-nsnull
+nullptr
 )
 mConditions
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -1419,7 +1419,7 @@ mBindings
 binding
 !
 =
-nsnull
+nullptr
 ;
 binding
 =
@@ -1584,7 +1584,7 @@ newbinding
 >
 mParent
 =
-nsnull
+nullptr
 ;
 newbinding
 -

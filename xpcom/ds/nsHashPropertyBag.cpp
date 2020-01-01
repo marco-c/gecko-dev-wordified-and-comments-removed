@@ -199,7 +199,7 @@ mPropertyHash
 Get
 (
 name
-nsnull
+nullptr
 )
 ;
 return
@@ -236,7 +236,7 @@ _retval
 *
 _retval
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -333,7 +333,7 @@ mPropertyHash
 Get
 (
 name
-nsnull
+nullptr
 )
 ;
 if
@@ -925,7 +925,7 @@ val
 *
 _retval
 =
-nsnull
+nullptr
 ;
 return
 NS_OK

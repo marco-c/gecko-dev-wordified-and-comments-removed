@@ -108,7 +108,7 @@ nsIDirectoryServiceProvider
 *
 aAppProvider
 =
-nsnull
+nullptr
 )
 ;
 ~
@@ -205,9 +205,9 @@ GetUserDataDirectory
 (
 aFile
 false
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 }
@@ -226,9 +226,9 @@ GetUserDataDirectory
 (
 aFile
 true
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
 )
 ;
 }

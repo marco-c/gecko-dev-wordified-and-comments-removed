@@ -105,7 +105,7 @@ false
 )
 mNext
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -151,7 +151,7 @@ mCount
 )
 mFirst
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -278,11 +278,11 @@ nsBindingValues
 :
 mBindings
 (
-nsnull
+nullptr
 )
 mValues
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR

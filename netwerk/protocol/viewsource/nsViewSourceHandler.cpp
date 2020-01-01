@@ -134,7 +134,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 PRInt32
 colon

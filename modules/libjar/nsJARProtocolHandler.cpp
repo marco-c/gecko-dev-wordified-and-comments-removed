@@ -111,7 +111,7 @@ nsJARProtocolHandler
 *
 gJarHandler
 =
-nsnull
+nullptr
 ;
 nsJARProtocolHandler
 :
@@ -246,7 +246,7 @@ if
 gJarHandler
 )
 return
-nsnull
+nullptr
 ;
 NS_ADDREF
 (
@@ -277,7 +277,7 @@ gJarHandler
 )
 ;
 return
-nsnull
+nullptr
 ;
 }
 }

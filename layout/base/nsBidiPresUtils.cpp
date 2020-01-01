@@ -278,7 +278,7 @@ nsBidi
 ;
 mPrevContent
 =
-nsnull
+nullptr
 ;
 mParagraphDepth
 =
@@ -464,7 +464,7 @@ nsBidi
 ;
 mPrevContent
 =
-nsnull
+nullptr
 ;
 mIsVisual
 =
@@ -650,7 +650,7 @@ BufferLength
 (
 )
 mParaLevel
-nsnull
+nullptr
 )
 ;
 }
@@ -783,7 +783,7 @@ SetLength
 ;
 mPrevContent
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -830,7 +830,7 @@ AppendElement
 nsLineBox
 *
 )
-nsnull
+nullptr
 )
 ;
 }
@@ -848,7 +848,7 @@ nsIContent
 *
 aContent
 =
-nsnull
+nullptr
 )
 {
 if
@@ -946,7 +946,7 @@ AppendFrame
 (
 frame
 aLineIter
-nsnull
+nullptr
 )
 ;
 if
@@ -1115,7 +1115,7 @@ AppendElement
 nsLineBox
 *
 )
-nsnull
+nullptr
 )
 ;
 AppendUnichar
@@ -1241,7 +1241,7 @@ IsLastLineInList
 (
 )
 ?
-nsnull
+nullptr
 :
 aLineIter
 -
@@ -1437,7 +1437,7 @@ lines
 ;
 aPrevFrame
 =
-nsnull
+nullptr
 ;
 }
 aPrevFrame
@@ -1976,7 +1976,7 @@ nsIFrame
 :
 :
 kNoReflowPrincipalList
-nsnull
+nullptr
 tail
 )
 ;
@@ -2268,7 +2268,7 @@ ptr
 *
 aNewFrame
 =
-nsnull
+nullptr
 ;
 nsPresContext
 *
@@ -2659,7 +2659,7 @@ bpd
 .
 mPrevFrame
 =
-nsnull
+nullptr
 ;
 bpd
 .
@@ -2670,7 +2670,7 @@ GetSubParagraph
 >
 mPrevFrame
 =
-nsnull
+nullptr
 ;
 TraverseFrames
 (
@@ -2900,13 +2900,13 @@ nsIFrame
 *
 frame
 =
-nsnull
+nullptr
 ;
 nsIContent
 *
 content
 =
-nsnull
+nullptr
 ;
 PRInt32
 contentTextLength
@@ -2928,7 +2928,7 @@ nsLineBox
 *
 currentLine
 =
-nsnull
+nullptr
 ;
 #
 ifdef
@@ -3020,13 +3020,13 @@ nsIFrame
 *
 firstFrame
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
 lastFrame
 =
-nsnull
+nullptr
 ;
 for
 (
@@ -3354,7 +3354,7 @@ NS_BIDI_CONTROL_FRAME
 {
 frame
 =
-nsnull
+nullptr
 ;
 +
 +
@@ -4436,7 +4436,7 @@ do
 {
 next
 =
-nsnull
+nullptr
 ;
 PRInt32
 start
@@ -4608,7 +4608,7 @@ aBpd
 >
 mPrevContent
 =
-nsnull
+nullptr
 ;
 break
 ;
@@ -4695,7 +4695,7 @@ SetLength
 endLine
 -
 start
-nsnull
+nullptr
 )
 ;
 if
@@ -5515,7 +5515,7 @@ mHasContOnPrevLines
 frame
 !
 =
-nsnull
+nullptr
 )
 ;
 for
@@ -5578,7 +5578,7 @@ mHasContOnNextLines
 frame
 !
 =
-nsnull
+nullptr
 )
 ;
 aIsLeftMost
@@ -5951,7 +5951,7 @@ AppendElement
 nsIFrame
 *
 )
-nsnull
+nullptr
 )
 ;
 while
@@ -6144,7 +6144,7 @@ state
 >
 mFirstVisualFrame
 =
-nsnull
+nullptr
 ;
 state
 -
@@ -6525,7 +6525,7 @@ if
 aFrame
 =
 =
-nsnull
+nullptr
 &
 &
 count
@@ -6582,7 +6582,7 @@ i
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsIFrame
@@ -6626,7 +6626,7 @@ if
 aFrame
 =
 =
-nsnull
+nullptr
 &
 &
 count
@@ -6683,7 +6683,7 @@ i
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 inline
@@ -7337,7 +7337,7 @@ aTextLength
 if
 (
 (
-nsnull
+nullptr
 =
 =
 aText
@@ -7768,7 +7768,7 @@ NS_ASSERTION
 aPosResolve
 =
 =
-nsnull
+nullptr
 )
 !
 =
@@ -7807,7 +7807,7 @@ SetPara
 aText
 aLength
 aBaseDirection
-nsnull
+nullptr
 )
 ;
 if
@@ -8893,7 +8893,7 @@ SetPara
 src
 aSrcLength
 aBaseDirection
-nsnull
+nullptr
 )
 ;
 if

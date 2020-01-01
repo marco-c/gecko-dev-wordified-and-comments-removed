@@ -355,7 +355,7 @@ nsWidgetInitData
 *
 aInitData
 =
-nsnull
+nullptr
 bool
 aForceUseIWidgetParent
 =

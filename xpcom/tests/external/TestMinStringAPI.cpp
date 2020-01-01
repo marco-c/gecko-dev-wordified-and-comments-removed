@@ -129,7 +129,7 @@ if
 ptr
 =
 =
-nsnull
+nullptr
 |
 |
 *
@@ -175,7 +175,7 @@ if
 ptr
 =
 =
-nsnull
+nullptr
 |
 |
 strcmp
@@ -237,7 +237,7 @@ if
 ptr
 =
 =
-nsnull
+nullptr
 |
 |
 strcmp
@@ -295,7 +295,7 @@ if
 ptr
 =
 =
-nsnull
+nullptr
 |
 |
 strcmp
@@ -397,7 +397,7 @@ if
 ptr
 =
 =
-nsnull
+nullptr
 |
 |
 *
@@ -470,7 +470,7 @@ if
 ptr
 =
 =
-nsnull
+nullptr
 |
 |
 memcmp
@@ -511,7 +511,7 @@ if
 ptr
 =
 =
-nsnull
+nullptr
 |
 |
 memcmp
@@ -600,7 +600,7 @@ if
 ptr
 =
 =
-nsnull
+nullptr
 |
 |
 memcmp
@@ -4130,8 +4130,8 @@ test_parse_string_helper
 str
 separator
 0
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 }
@@ -4158,7 +4158,7 @@ str
 separator
 1
 s1
-nsnull
+nullptr
 )
 ;
 }
@@ -4456,8 +4456,8 @@ test_parse_string
 test_parse_string
 }
 {
-nsnull
-nsnull
+nullptr
+nullptr
 }
 }
 ;
@@ -4515,7 +4515,7 @@ t
 name
 !
 =
-nsnull
+nullptr
 ;
 +
 +

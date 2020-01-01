@@ -471,7 +471,7 @@ GetHrefURI
 (
 )
 :
-nsnull
+nullptr
 ;
 }
 bool

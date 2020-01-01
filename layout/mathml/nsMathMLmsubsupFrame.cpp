@@ -327,13 +327,13 @@ nsIFrame
 *
 subScriptFrame
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
 supScriptFrame
 =
-nsnull
+nullptr
 ;
 nsIFrame
 *
@@ -1086,7 +1086,7 @@ FinishReflowChild
 (
 baseFrame
 aPresContext
-nsnull
+nullptr
 baseSize
 dx
 dy
@@ -1129,7 +1129,7 @@ FinishReflowChild
 (
 subScriptFrame
 aPresContext
-nsnull
+nullptr
 subScriptSize
 dx
 dy
@@ -1174,7 +1174,7 @@ FinishReflowChild
 (
 supScriptFrame
 aPresContext
-nsnull
+nullptr
 supScriptSize
 dx
 dy

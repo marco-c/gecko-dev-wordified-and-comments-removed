@@ -143,7 +143,7 @@ aWidget
 )
 mDropTargetHelper
 (
-nsnull
+nullptr
 )
 {
 mHWnd
@@ -194,7 +194,7 @@ Release
 ;
 mDropTargetHelper
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -939,7 +939,7 @@ void
 *
 tempOutData
 =
-nsnull
+nullptr
 ;
 PRUint32
 tempDataLen
@@ -962,7 +962,7 @@ RegisterClipboardFormat
 (
 CFSTR_PREFERREDDROPEFFECT
 )
-nsnull
+nullptr
 &
 tempOutData
 &

@@ -1837,7 +1837,7 @@ rv
 *
 aFile
 =
-nsnull
+nullptr
 ;
 file
 .
@@ -2310,7 +2310,7 @@ char
 *
 tPath
 =
-nsnull
+nullptr
 ;
 if
 (

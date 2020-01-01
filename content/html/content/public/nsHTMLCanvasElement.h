@@ -164,7 +164,7 @@ canvas
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -326,7 +326,7 @@ SetAttr
 (
 aNameSpaceID
 aName
-nsnull
+nullptr
 aValue
 aNotify
 )
@@ -436,7 +436,7 @@ nsIPropertyBag
 *
 aNewContextOptions
 =
-nsnull
+nullptr
 )
 ;
 nsresult

@@ -751,7 +751,7 @@ Void
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 }

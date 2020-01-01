@@ -131,7 +131,7 @@ nsXFormsAccessibleBase
 :
 sXFormsService
 =
-nsnull
+nullptr
 ;
 nsXFormsAccessibleBase
 :
@@ -1143,7 +1143,7 @@ aDoc
 )
 mIsSelect1Element
 (
-nsnull
+nullptr
 )
 {
 mIsSelect1Element
@@ -1205,7 +1205,7 @@ if
 selectedItems
 )
 return
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -1263,7 +1263,7 @@ itemDOMNode
 mDoc
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1306,7 +1306,7 @@ nsIMutableArray
 *
 items
 =
-nsnull
+nullptr
 ;
 selectedItems
 .
@@ -1356,7 +1356,7 @@ itemNodeList
 mDoc
 )
 return
-nsnull
+nullptr
 ;
 PRUint32
 length
@@ -1412,7 +1412,7 @@ if
 itemDOMNode
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1456,7 +1456,7 @@ nsIMutableArray
 *
 items
 =
-nsnull
+nullptr
 ;
 selectedItems
 .
@@ -1739,7 +1739,7 @@ sXFormsService
 SetSelectedItemForSelect1
 (
 DOMNode
-nsnull
+nullptr
 )
 ;
 return
@@ -1776,7 +1776,7 @@ if
 mDoc
 )
 return
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -1806,7 +1806,7 @@ aIndex
 0
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -1862,7 +1862,7 @@ itemNode
 ;
 }
 return
-nsnull
+nullptr
 ;
 }
 nsCOMPtr
@@ -1897,7 +1897,7 @@ rv
 itemNodeList
 )
 return
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -2065,7 +2065,7 @@ sXFormsService
 SetSelectedItemForSelect1
 (
 DOMNode
-nsnull
+nullptr
 )
 ;
 sXFormsService
@@ -2283,7 +2283,7 @@ itemContent
 }
 }
 return
-nsnull
+nullptr
 ;
 }
 nsXFormsSelectableItemAccessible

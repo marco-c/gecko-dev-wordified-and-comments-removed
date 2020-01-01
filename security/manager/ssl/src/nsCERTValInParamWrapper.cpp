@@ -26,11 +26,11 @@ false
 )
 mCVIN
 (
-nsnull
+nullptr
 )
 mRev
 (
-nsnull
+nullptr
 )
 {
 MOZ_COUNT_CTOR
@@ -332,7 +332,7 @@ wantsCrlFirst
 firstNetworkRevocationMethod
 !
 =
-nsnull
+nullptr
 )
 &
 &

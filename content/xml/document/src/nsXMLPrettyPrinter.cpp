@@ -149,7 +149,7 @@ nsXMLPrettyPrinter
 :
 mDocument
 (
-nsnull
+nullptr
 )
 mUpdateDepth
 (
@@ -455,8 +455,8 @@ nsSyncLoadService
 LoadDocument
 (
 xslUri
-nsnull
-nsnull
+nullptr
+nullptr
 true
 getter_AddRefs
 (
@@ -956,7 +956,7 @@ prettyprint
 }
 mDocument
 =
-nsnull
+nullptr
 ;
 NS_RELEASE_THIS
 (
@@ -1082,7 +1082,7 @@ aNode
 {
 mDocument
 =
-nsnull
+nullptr
 ;
 NS_RELEASE_THIS
 (

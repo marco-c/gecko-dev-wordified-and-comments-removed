@@ -165,7 +165,7 @@ dpy
 aVisual
 aDepth
 ZPixmap
-nsnull
+nullptr
 &
 (
 shm
@@ -191,7 +191,7 @@ mImage
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 size_t
@@ -258,7 +258,7 @@ size
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 shm
@@ -400,7 +400,7 @@ gShmAvailable
 false
 ;
 return
-nsnull
+nullptr
 ;
 }
 shm
@@ -526,7 +526,7 @@ gShmAvailable
 false
 ;
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -651,7 +651,7 @@ XCreateGC
 dpy
 d
 0
-nsnull
+nullptr
 )
 ;
 for
@@ -774,7 +774,7 @@ XCreateGC
 dpy
 d
 0
-nsnull
+nullptr
 )
 ;
 cairo_rectangle_t
@@ -904,7 +904,7 @@ XCreateGC
 dpy
 d
 0
-nsnull
+nullptr
 )
 ;
 QRect
@@ -1031,7 +1031,7 @@ return
 !
 aImage
 ?
-nsnull
+nullptr
 :
 aImage
 -

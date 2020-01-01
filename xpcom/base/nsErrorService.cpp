@@ -74,9 +74,9 @@ nsInt2StrHashtable
 mHashtable
 (
 CloneCString
-nsnull
+nullptr
 DeleteCString
-nsnull
+nullptr
 16
 )
 {
@@ -109,7 +109,7 @@ if
 value
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -190,10 +190,10 @@ if
 value
 =
 =
-nsnull
+nullptr
 )
 return
-nsnull
+nullptr
 ;
 return
 NS_strdup
@@ -290,7 +290,7 @@ if
 serv
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -394,7 +394,7 @@ if
 value
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY
@@ -481,7 +481,7 @@ if
 value
 =
 =
-nsnull
+nullptr
 )
 return
 NS_ERROR_OUT_OF_MEMORY

@@ -940,7 +940,7 @@ aIFace
 *
 aIFace
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -1809,8 +1809,8 @@ mProgressListener
 >
 OnStateChange
 (
-nsnull
-nsnull
+nullptr
+nullptr
 nsIWebProgressListener
 :
 :
@@ -1828,8 +1828,8 @@ mProgressListener
 >
 OnStateChange
 (
-nsnull
-nsnull
+nullptr
+nullptr
 nsIWebProgressListener
 :
 :
@@ -2024,7 +2024,7 @@ destChannel
 AsyncOpen
 (
 this
-nsnull
+nullptr
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2166,8 +2166,8 @@ mProgressListener
 >
 OnStateChange
 (
-nsnull
-nsnull
+nullptr
+nullptr
 nsIWebProgressListener
 :
 :
@@ -2239,8 +2239,8 @@ mProgressListener
 >
 OnStateChange
 (
-nsnull
-nsnull
+nullptr
+nullptr
 nsIWebProgressListener
 :
 :
@@ -2279,7 +2279,7 @@ rv
 =
 SaveGatheredURIs
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -2376,7 +2376,7 @@ mProgressListener
 >
 OnStateChange
 (
-nsnull
+nullptr
 request
 stateFlags
 NS_OK
@@ -3018,7 +3018,7 @@ mProgressListener
 >
 OnStateChange
 (
-nsnull
+nullptr
 request
 stateFlags
 status
@@ -3032,15 +3032,15 @@ completed
 {
 mProgressListener
 =
-nsnull
+nullptr
 ;
 mProgressListener2
 =
-nsnull
+nullptr
 ;
 mEventSink
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -3155,7 +3155,7 @@ aIStream
 ReadSegments
 (
 NS_DiscardSegment
-nsnull
+nullptr
 aLength
 &
 n
@@ -3488,7 +3488,7 @@ data
 >
 mStream
 =
-nsnull
+nullptr
 ;
 rv
 =
@@ -3535,7 +3535,7 @@ readError
 ?
 request
 :
-nsnull
+nullptr
 data
 -
 >
@@ -3705,7 +3705,7 @@ mProgressListener2
 >
 OnProgressChange64
 (
-nsnull
+nullptr
 request
 aProgress
 aProgressMax
@@ -3721,7 +3721,7 @@ mProgressListener
 >
 OnProgressChange
 (
-nsnull
+nullptr
 request
 PRUint64
 (
@@ -3835,7 +3835,7 @@ mProgressListener
 >
 OnStatusChange
 (
-nsnull
+nullptr
 request
 status
 statusArg
@@ -4173,7 +4173,7 @@ mProgressListener
 >
 OnStatusChange
 (
-nsnull
+nullptr
 aRequest
 aResult
 msgText
@@ -4647,8 +4647,8 @@ getter_AddRefs
 inputChannel
 )
 aURI
-nsnull
-nsnull
+nullptr
+nullptr
 static_cast
 <
 nsIInterfaceRequestor
@@ -4671,7 +4671,7 @@ rv
 inputChannel
 =
 =
-nsnull
+nullptr
 )
 {
 EndDownload
@@ -5211,7 +5211,7 @@ aChannel
 AsyncOpen
 (
 this
-nsnull
+nullptr
 )
 ;
 if
@@ -5327,7 +5327,7 @@ aExt
 *
 aExt
 =
-nsnull
+nullptr
 ;
 nsresult
 rv
@@ -5452,7 +5452,7 @@ rv
 GetDocEncoderContentType
 (
 aDocument
-nsnull
+nullptr
 getter_Copies
 (
 contentType
@@ -5509,7 +5509,7 @@ aRealContentType
 *
 aRealContentType
 =
-nsnull
+nullptr
 ;
 nsAutoString
 defaultContentType
@@ -6157,7 +6157,7 @@ nsIDOMNodeFilter
 :
 :
 SHOW_PROCESSING_INSTRUCTION
-nsnull
+nullptr
 true
 getter_AddRefs
 (
@@ -6292,7 +6292,7 @@ SendErrorStatusChange
 (
 false
 rv
-nsnull
+nullptr
 aFile
 )
 ;
@@ -6452,7 +6452,7 @@ get
 (
 )
 :
-nsnull
+nullptr
 getter_Copies
 (
 realContentType
@@ -6477,7 +6477,7 @@ rv
 SaveDocumentWithFixup
 (
 aDocument
-nsnull
+nullptr
 aFile
 mReplaceExisting
 contentType
@@ -6623,7 +6623,7 @@ get
 (
 )
 :
-nsnull
+nullptr
 getter_Copies
 (
 realContentType
@@ -9036,7 +9036,7 @@ data
 .
 mMatchingKey
 =
-nsnull
+nullptr
 ;
 data
 .
@@ -9744,10 +9744,10 @@ pthis
 SaveURIInternal
 (
 uri
-nsnull
-nsnull
-nsnull
-nsnull
+nullptr
+nullptr
+nullptr
+nullptr
 fileAsURI
 true
 )
@@ -10957,7 +10957,7 @@ URIData
 *
 archiveURIData
 =
-nsnull
+nullptr
 ;
 StoreURIAttribute
 (
@@ -11190,7 +11190,7 @@ URIData
 *
 data
 =
-nsnull
+nullptr
 ;
 StoreURIAttribute
 (
@@ -11277,7 +11277,7 @@ URIData
 *
 data
 =
-nsnull
+nullptr
 ;
 StoreURIAttribute
 (
@@ -11505,7 +11505,7 @@ rv
 *
 aNodeOut
 =
-nsnull
+nullptr
 ;
 *
 aSerializeCloneKids
@@ -13305,7 +13305,7 @@ aData
 *
 aData
 =
-nsnull
+nullptr
 ;
 }
 bool
@@ -13351,7 +13351,7 @@ URIData
 *
 data
 =
-nsnull
+nullptr
 ;
 MakeAndStoreLocalFilenameInURIMap
 (
@@ -14758,7 +14758,7 @@ NS_OK
 *
 aChannel
 =
-nsnull
+nullptr
 ;
 nsCOMPtr
 <
@@ -14955,7 +14955,7 @@ SendErrorStatusChange
 (
 false
 rv
-nsnull
+nullptr
 aFile
 )
 ;
@@ -16537,7 +16537,7 @@ nsEncoderNodeFixup
 :
 mWebBrowserPersist
 (
-nsnull
+nullptr
 )
 {
 }
@@ -16609,7 +16609,7 @@ NS_ERROR_FAILURE
 *
 aOutNode
 =
-nsnull
+nullptr
 ;
 PRUint16
 type

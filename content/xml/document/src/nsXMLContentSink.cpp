@@ -424,7 +424,7 @@ aChannel
 {
 NS_PRECONDITION
 (
-nsnull
+nullptr
 !
 =
 aResult
@@ -436,7 +436,7 @@ ptr
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 aResult
@@ -457,7 +457,7 @@ nsXMLContentSink
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 it
@@ -614,7 +614,7 @@ eXMLContentSinkState_InProlog
 ;
 mDocElement
 =
-nsnull
+nullptr
 ;
 return
 NS_OK
@@ -1177,6 +1177,16 @@ bool
 aTerminated
 )
 {
+if
+(
+!
+mParser
+)
+{
+return
+NS_OK
+;
+}
 DidBuildModelImpl
 (
 aTerminated
@@ -1294,7 +1304,7 @@ currentDOMDoc
 ;
 mXSLTProcessor
 =
-nsnull
+nullptr
 ;
 }
 else
@@ -1933,7 +1943,7 @@ nodeinfo
 *
 aResult
 =
-nsnull
+nullptr
 ;
 *
 aAppendContent
@@ -2690,7 +2700,7 @@ UpdateStyleSheet
 (
 mRunsToCompletion
 ?
-nsnull
+nullptr
 :
 this
 &
@@ -3231,7 +3241,7 @@ getter_AddRefs
 url
 )
 aHref
-nsnull
+nullptr
 mDocument
 -
 >
@@ -3308,7 +3318,7 @@ NodePrincipal
 )
 aElement
 type
-nsnull
+nullptr
 &
 decision
 nsContentUtils
@@ -3474,7 +3484,7 @@ mLastTextNodeSize
 ;
 mLastTextNode
 =
-nsnull
+nullptr
 ;
 FlushText
 (
@@ -3602,7 +3612,7 @@ mLastTextNodeSize
 ;
 mLastTextNode
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -3631,7 +3641,7 @@ Length
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return
@@ -3675,7 +3685,7 @@ count
 1
 ]
 :
-nsnull
+nullptr
 ;
 }
 nsresult
@@ -4768,7 +4778,7 @@ content
 {
 mCurrentHead
 =
-nsnull
+nullptr
 ;
 }
 if
@@ -5592,7 +5602,7 @@ UpdateStyleSheet
 (
 mRunsToCompletion
 ?
-nsnull
+nullptr
 :
 this
 &
@@ -6046,7 +6056,7 @@ CancelLoads
 ;
 mXSLTProcessor
 =
-nsnull
+nullptr
 ;
 }
 mContentStack
@@ -6463,7 +6473,7 @@ NS_ACCUMULATION_BUFFER_SIZE
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 mText
@@ -6567,7 +6577,7 @@ mTextSize
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 mText

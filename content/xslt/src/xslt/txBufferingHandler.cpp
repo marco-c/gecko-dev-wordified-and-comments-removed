@@ -1303,7 +1303,7 @@ aTransaction
 )
 =
 =
-nsnull
+nullptr
 )
 {
 return
@@ -1814,7 +1814,7 @@ last
 )
 {
 return
-nsnull
+nullptr
 ;
 }
 return

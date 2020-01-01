@@ -102,7 +102,7 @@ nsXPathResult
 :
 mDocument
 (
-nsnull
+nullptr
 )
 mCurrentPos
 (
@@ -470,7 +470,7 @@ else
 *
 aSingleNodeValue
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -621,7 +621,7 @@ else
 *
 aResult
 =
-nsnull
+nullptr
 ;
 }
 return
@@ -694,7 +694,7 @@ this
 ;
 mDocument
 =
-nsnull
+nullptr
 ;
 Invalidate
 (
@@ -719,7 +719,7 @@ nsIContent
 aNode
 )
 :
-nsnull
+nullptr
 )
 ;
 }
@@ -933,7 +933,7 @@ this
 ;
 mDocument
 =
-nsnull
+nullptr
 ;
 }
 mResultNodes
@@ -1077,7 +1077,7 @@ count
 {
 mResult
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1228,7 +1228,7 @@ nsIContent
 *
 ctxBindingParent
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -1354,7 +1354,7 @@ this
 ;
 mDocument
 =
-nsnull
+nullptr
 ;
 }
 }
@@ -1426,7 +1426,7 @@ nodeSet
 new
 txNodeSet
 (
-nsnull
+nullptr
 )
 ;
 if
@@ -1529,7 +1529,7 @@ aResult
 *
 aResult
 =
-nsnull
+nullptr
 ;
 if
 (

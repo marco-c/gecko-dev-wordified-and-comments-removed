@@ -1430,7 +1430,7 @@ mWindow
 ;
 mWindow
 =
-nsnull
+nullptr
 ;
 nsIDocShell
 *
@@ -1611,7 +1611,7 @@ update
 -
 added
 "
-nsnull
+nullptr
 )
 ;
 LOG
@@ -1637,7 +1637,7 @@ stickDocument
 mDocument
 !
 =
-nsnull
+nullptr
 ;
 child
 -
@@ -2059,7 +2059,7 @@ update
 -
 completed
 "
-nsnull
+nullptr
 )
 ;
 LOG

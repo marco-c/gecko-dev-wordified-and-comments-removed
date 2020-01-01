@@ -362,7 +362,7 @@ mFileData
 ;
 mFileData
 =
-nsnull
+nullptr
 ;
 mDataLen
 =

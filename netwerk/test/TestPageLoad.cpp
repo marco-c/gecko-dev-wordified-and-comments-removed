@@ -682,7 +682,7 @@ if
 ctxt
 =
 =
-nsnull
+nullptr
 )
 {
 bytesRead
@@ -1237,8 +1237,8 @@ getter_AddRefs
 chan
 )
 uri
-nsnull
-nsnull
+nullptr
+nullptr
 callbacks
 )
 ;
@@ -1353,8 +1353,8 @@ getter_AddRefs
 (
 servMan
 )
-nsnull
-nsnull
+nullptr
+nullptr
 )
 ;
 PRTime
@@ -1433,8 +1433,8 @@ getter_AddRefs
 chan
 )
 baseURI
-nsnull
-nsnull
+nullptr
+nullptr
 callbacks
 )
 ;
@@ -1477,7 +1477,7 @@ chan
 AsyncOpen
 (
 listener
-nsnull
+nullptr
 )
 ;
 RETURN_IF_FAILED
@@ -1596,7 +1596,7 @@ rv
 =
 NS_ShutdownXPCOM
 (
-nsnull
+nullptr
 )
 ;
 NS_ASSERTION

@@ -360,13 +360,13 @@ if
 domwin
 )
 return
-nsnull
+nullptr
 ;
 nsIWebBrowserChrome
 *
 browserChrome
 =
-nsnull
+nullptr
 ;
 mDOMWindow
 -

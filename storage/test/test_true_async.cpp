@@ -709,7 +709,7 @@ params
 ;
 params
 =
-nsnull
+nullptr
 ;
 stmt
 -
@@ -721,7 +721,7 @@ paramsArray
 ;
 paramsArray
 =
-nsnull
+nullptr
 ;
 blocking_async_execute
 (
@@ -1180,7 +1180,7 @@ mutex_used_on_watched_thread
 ;
 stmt
 =
-nsnull
+nullptr
 ;
 do_check_false
 (

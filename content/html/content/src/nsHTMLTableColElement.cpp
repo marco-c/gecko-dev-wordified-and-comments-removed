@@ -910,7 +910,7 @@ nsGkAtoms
 span
 }
 {
-nsnull
+nullptr
 }
 }
 ;

@@ -757,8 +757,8 @@ ioService
 NewURI
 (
 spec
-nsnull
-nsnull
+nullptr
+nullptr
 getter_AddRefs
 (
 uri

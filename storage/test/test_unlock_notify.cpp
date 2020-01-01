@@ -384,7 +384,7 @@ NS_ERROR_FILE_IS_LOCKED
 ;
 mConnection
 =
-nsnull
+nullptr
 ;
 Notify
 (

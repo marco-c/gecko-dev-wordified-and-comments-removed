@@ -137,7 +137,7 @@ aRequestingWindow
 *
 aRequestingWindow
 =
-nsnull
+nullptr
 ;
 if
 (
@@ -255,7 +255,7 @@ aEvent
 ;
 if
 (
-nsnull
+nullptr
 =
 =
 it
