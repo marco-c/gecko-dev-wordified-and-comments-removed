@@ -26,10 +26,7 @@ h
 namespace
 mozilla
 {
-MFBT_API
-(
 uint32_t
-)
 HashBytes
 (
 const

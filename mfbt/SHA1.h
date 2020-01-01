@@ -67,8 +67,6 @@ mDone
 public
 :
 MFBT_API
-(
-)
 SHA1Sum
 (
 )
@@ -88,9 +86,7 @@ HashSize
 ]
 ;
 MFBT_API
-(
 void
-)
 update
 (
 const
@@ -102,9 +98,7 @@ len
 )
 ;
 MFBT_API
-(
 void
-)
 finish
 (
 SHA1Sum
