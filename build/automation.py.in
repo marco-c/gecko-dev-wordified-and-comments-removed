@@ -3341,7 +3341,7 @@ APP
 def
 processLeakLog
 (
-LEAK_REPORT_FILE
+leakLogFile
 leakThreshold
 )
 :
@@ -3360,7 +3360,7 @@ path
 .
 exists
 (
-LEAK_REPORT_FILE
+leakLogFile
 )
 :
 log
@@ -3506,7 +3506,7 @@ leaks
 =
 open
 (
-LEAK_REPORT_FILE
+leakLogFile
 "
 r
 "
@@ -3574,14 +3574,11 @@ leaks
 close
 (
 )
-threshold
-=
-leakThreshold
 leaks
 =
 open
 (
-LEAK_REPORT_FILE
+leakLogFile
 "
 r
 "
@@ -3720,7 +3717,7 @@ bytesLeaked
 or
 bytesLeaked
 >
-threshold
+leakThreshold
 :
 prefix
 =
@@ -3822,7 +3819,7 @@ default
 goal
 .
 if
-threshold
+leakThreshold
 !
 =
 0
@@ -3841,7 +3838,7 @@ bytes
 )
 "
 %
-threshold
+leakThreshold
 #
 Log
 the
