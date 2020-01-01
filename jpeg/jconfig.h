@@ -195,12 +195,3 @@ aligned
 )
 #
 endif
-!
-XP_WIN32
-&
-&
-_M_IX86
-&
-&
-!
-__GNUC

@@ -197,15 +197,8 @@ define
 HAVE_SSE2_INTRINSICS
 #
 endif
-!
-XP_MACOSX
 #
 endif
-!
-GNUC
-&
-&
-i386
 #
 ifdef
 HAVE_UNSIGNED_CHAR
