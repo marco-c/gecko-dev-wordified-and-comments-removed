@@ -862,6 +862,10 @@ sharkctl
 .
 cpp
 \
+ArgumentsObject
+.
+cpp
+\
 ScopeObject
 .
 cpp
