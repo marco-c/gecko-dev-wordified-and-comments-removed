@@ -11398,7 +11398,6 @@ call_NewDoubleInRootedValue
 (
 cx
 d
-&
 regs
 .
 sp
@@ -11473,7 +11472,6 @@ call_NewDoubleInRootedValue
 (
 cx
 d
-&
 regs
 .
 sp
@@ -11548,7 +11546,6 @@ call_NewDoubleInRootedValue
 (
 cx
 d
-&
 regs
 .
 sp
@@ -11649,7 +11646,6 @@ else
 call_ValueToNumber
 (
 cx
-&
 regs
 .
 sp
@@ -11797,7 +11793,6 @@ else
 call_ValueToECMAInt32
 (
 cx
-&
 regs
 .
 sp
@@ -11889,7 +11884,6 @@ else
 call_ValueToECMAUint32
 (
 cx
-&
 regs
 .
 sp
@@ -12187,7 +12181,6 @@ call_obj_default_value
 cx
 obj
 hint
-&
 regs
 .
 sp
