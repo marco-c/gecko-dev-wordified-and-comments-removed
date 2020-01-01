@@ -2429,12 +2429,5 @@ function
 )
 {
 }
-batching
-:
-function
-(
-)
-{
-}
 }
 ;
