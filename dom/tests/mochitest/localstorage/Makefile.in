@@ -535,6 +535,10 @@ test_localStorageBaseSessionOnly
 .
 html
 \
+test_localStorageCookieSettings
+.
+html
+\
 test_localStorageOriginsEquals
 .
 html
