@@ -2835,6 +2835,10 @@ if
 results
 .
 perfdata
+and
+options
+.
+perf
 :
                 
 self
