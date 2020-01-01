@@ -485,6 +485,10 @@ long
 WebGLsizei
 ;
 typedef
+long
+WebGLsizeiptr
+;
+typedef
 unsigned
 long
 WebGLuint
@@ -5765,10 +5769,10 @@ in
 WebGLboolean
 normalized
 in
-WebGLuint
+WebGLsizei
 stride
 in
-WebGLuint
+WebGLsizeiptr
 offset
 )
 ;
