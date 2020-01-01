@@ -852,7 +852,7 @@ browser_plugins_added_dynamically
 .
 js
 \
-browser_clickToPlayPluginScriptAccessPopup
+browser_CTPScriptPlugin
 .
 js
 \
