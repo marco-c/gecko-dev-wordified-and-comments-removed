@@ -372,7 +372,7 @@ DropTimer
 )
 ;
 void
-MaybeSetEncodingFromExpat
+SetEncodingFromExpat
 (
 const
 PRUnichar
