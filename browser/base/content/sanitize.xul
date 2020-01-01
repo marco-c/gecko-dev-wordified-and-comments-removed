@@ -1857,7 +1857,7 @@ label
 =
 "
 &
-itemSessions
+itemActiveLogins
 .
 label
 ;
@@ -1866,7 +1866,7 @@ accesskey
 =
 "
 &
-itemSessions
+itemActiveLogins
 .
 accesskey
 ;
