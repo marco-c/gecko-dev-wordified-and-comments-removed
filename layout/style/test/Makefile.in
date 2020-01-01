@@ -883,6 +883,10 @@ test_bug580685
 .
 html
 \
+test_bug635286
+.
+html
+\
 test_cascade
 .
 html
