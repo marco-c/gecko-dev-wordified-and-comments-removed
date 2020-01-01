@@ -1225,10 +1225,16 @@ Condition
 cond
 )
 {
+const
+uint32
+ConditionInversionBit
+=
+0x10000000
+;
 return
 Condition
 (
-0x80000000
+ConditionInversionBit
 ^
 cond
 )

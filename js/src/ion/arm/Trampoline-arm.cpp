@@ -311,7 +311,7 @@ as_dtr
 IsLoad
 32
 Offset
-r10
+r11
 DTRAddr
 (
 sp
@@ -348,7 +348,7 @@ JS_STATIC_ASSERT
 OsrFrameReg
 =
 =
-r7
+r10
 )
 ;
 #
@@ -607,7 +607,7 @@ masm
 .
 transferReg
 (
-r10
+r11
 )
 ;
 masm

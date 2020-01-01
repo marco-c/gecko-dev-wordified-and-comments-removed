@@ -302,7 +302,7 @@ OsrFrameReg
 Registers
 :
 :
-r7
+r10
 }
 ;
 static
