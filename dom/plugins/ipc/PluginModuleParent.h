@@ -1342,7 +1342,10 @@ mHangID
 #
 ifdef
 XP_WIN
+InfallibleTArray
+<
 float
+>
 mPluginCpuUsageOnHang
 ;
 #
