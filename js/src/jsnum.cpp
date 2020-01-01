@@ -3123,12 +3123,12 @@ FIX_FPU
 )
 _control87
 (
-MCW_EM
+_MCW_EM
 |
-PC_53
-MCW_EM
+_PC_53
+_MCW_EM
 |
-MCW_PC
+_MCW_PC
 )
 #
 else

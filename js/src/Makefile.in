@@ -2824,6 +2824,9 @@ ifeq
 CROSS_COMPILE
 )
 (
+GNU_CC
+)
+(
 filter
 -
 out
