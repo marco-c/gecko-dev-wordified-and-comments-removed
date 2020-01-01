@@ -40,6 +40,9 @@ cx
 XPCWrappedNative
 *
 wrapper
+JSObject
+*
+callee
 )
 ;
 static
