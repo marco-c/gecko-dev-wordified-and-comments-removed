@@ -1582,11 +1582,14 @@ aEvent
 {
 if
 (
+!
+(
 aEvent
 .
-target
+originalTarget
 instanceof
-XULElement
+HTMLAnchorElement
+)
 &
 &
 aEvent
