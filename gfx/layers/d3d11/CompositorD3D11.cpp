@@ -2958,6 +2958,10 @@ UpdateRenderTarget
 ;
 if
 (
+!
+mDefaultRT
+|
+|
 mSize
 .
 width
