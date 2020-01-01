@@ -1996,9 +1996,6 @@ PaintFrameCallback
 nsIFrame
 *
 aFrame
-nsIFrame
-*
-aTarget
 const
 nsSize
 aPaintServerSize
@@ -2010,10 +2007,6 @@ aRenderSize
 mFrame
 (
 aFrame
-)
-mTarget
-(
-aTarget
 )
 mPaintServerSize
 (
@@ -2056,10 +2049,6 @@ private
 nsIFrame
 *
 mFrame
-;
-nsIFrame
-*
-mTarget
 ;
 nsSize
 mPaintServerSize
@@ -2578,7 +2567,6 @@ new
 PaintFrameCallback
 (
 aFrame
-aTarget
 aPaintServerSize
 aRenderSize
 )
