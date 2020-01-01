@@ -969,7 +969,7 @@ if
 nsWinUtils
 :
 :
-IsWindowEmulationEnabled
+IsWindowEmulationStarted
 (
 )
 )
@@ -985,9 +985,6 @@ mDocument
 )
 )
 {
-nsAccessibleWrap
-:
-:
 sHWNDCache
 .
 Remove
@@ -1065,7 +1062,7 @@ if
 nsWinUtils
 :
 :
-IsWindowEmulationEnabled
+IsWindowEmulationStarted
 (
 )
 )
@@ -1113,7 +1110,7 @@ if
 nsWinUtils
 :
 :
-IsWindowEmulationEnabled
+IsWindowEmulationFor
 (
 kDolphinModuleHandle
 )
@@ -1237,9 +1234,6 @@ height
 isActive
 )
 ;
-nsAccessibleWrap
-:
-:
 sHWNDCache
 .
 Put

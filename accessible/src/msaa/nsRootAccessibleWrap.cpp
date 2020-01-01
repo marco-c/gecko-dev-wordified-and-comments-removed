@@ -75,7 +75,7 @@ if
 nsWinUtils
 :
 :
-IsWindowEmulationEnabled
+IsWindowEmulationFor
 (
 kDolphinModuleHandle
 )

@@ -734,7 +734,7 @@ ParentDocument
 nsWinUtils
 :
 :
-IsWindowEmulationEnabled
+IsWindowEmulationStarted
 (
 )
 &
