@@ -214,7 +214,7 @@ MTableSwitch
 ins
 ;
 uint32
-currentSuccessor
+currentBlock
 ;
 }
 tableswitch
