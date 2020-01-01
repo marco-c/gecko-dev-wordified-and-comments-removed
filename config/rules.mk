@@ -4510,6 +4510,15 @@ dir
 )
 )
 endif
+touch
+(
+DIST
+)
+/
+bin
+/
+.
+purgecaches
 (
 MAKE
 )
