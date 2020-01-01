@@ -5151,3 +5151,13 @@ webapp
 "
 )
 ;
+pref
+(
+"
+disk_space_watcher
+.
+enabled
+"
+true
+)
+;

@@ -284,6 +284,10 @@ GonkFMRadio
 .
 cpp
 \
+GonkDiskSpaceWatcher
+.
+cpp
+\
 (
 NULL
 )
@@ -582,6 +586,10 @@ FallbackFMRadio
 cpp
 \
 FallbackFactoryReset
+.
+cpp
+\
+FallbackDiskSpaceWatcher
 .
 cpp
 \

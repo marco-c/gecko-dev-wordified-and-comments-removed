@@ -968,6 +968,16 @@ StopMonitoringGamepadStatus
 (
 )
 ;
+void
+StartDiskSpaceWatcher
+(
+)
+;
+void
+StopDiskSpaceWatcher
+(
+)
+;
 }
 }
 #
