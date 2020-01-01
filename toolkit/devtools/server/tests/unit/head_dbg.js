@@ -1110,6 +1110,9 @@ function
 getFileUrl
 (
 aName
+aAllowMissing
+=
+false
 )
 {
 let
@@ -1118,6 +1121,7 @@ file
 do_get_file
 (
 aName
+aAllowMissing
 )
 ;
 return
@@ -1137,6 +1141,9 @@ function
 getFilePath
 (
 aName
+aAllowMissing
+=
+false
 )
 {
 let
@@ -1145,6 +1152,7 @@ file
 do_get_file
 (
 aName
+aAllowMissing
 )
 ;
 let
