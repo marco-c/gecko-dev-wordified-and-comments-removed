@@ -541,6 +541,10 @@ nsCSSValue
 .
 h
 \
+nsDOMCSSAttrDeclaration
+.
+h
+\
 nsDOMCSSDeclaration
 .
 h
@@ -566,10 +570,6 @@ nsICSSLoaderObserver
 h
 \
 nsICSSNameSpaceRule
-.
-h
-\
-nsICSSOMFactory
 .
 h
 \
@@ -700,10 +700,6 @@ nsCSSKeywords
 cpp
 \
 nsCSSLoader
-.
-cpp
-\
-nsCSSOMFactory
 .
 cpp
 \

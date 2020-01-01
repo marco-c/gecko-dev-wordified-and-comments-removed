@@ -147,13 +147,6 @@ h
 #
 include
 "
-nsICSSOMFactory
-.
-h
-"
-#
-include
-"
 nsLayoutCID
 .
 h
@@ -1520,11 +1513,6 @@ NS_IF_RELEASE
 gXBLService
 )
 ;
-NS_IF_RELEASE
-(
-gCSSOMFactory
-)
-;
 }
 protected
 :
@@ -1532,11 +1520,6 @@ static
 nsIXBLService
 *
 gXBLService
-;
-static
-nsICSSOMFactory
-*
-gCSSOMFactory
 ;
 public
 :
