@@ -1268,16 +1268,6 @@ aFlags
 const
 ;
 virtual
-already_AddRefed
-<
-nsIURI
->
-GetBaseURI
-(
-)
-const
-;
-virtual
 PRBool
 IsLink
 (
