@@ -738,6 +738,12 @@ NO_DIST_INSTALL
 NO_DIST_INSTALL
 '
             
+OS_LIBS
+=
+'
+OS_LIBS
+'
+            
 SDK_LIBRARY
 =
 '
