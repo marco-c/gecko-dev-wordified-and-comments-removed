@@ -6879,12 +6879,8 @@ function
 (
 )
 {
-gNetworkManager
-.
-setWifiOperationMode
+loadDriver
 (
-ifname
-WIFI_FIRMWARE_STATION
 function
 (
 status
@@ -6911,8 +6907,12 @@ UNINITIALIZED
 return
 ;
 }
-loadDriver
+gNetworkManager
+.
+setWifiOperationMode
 (
+ifname
+WIFI_FIRMWARE_STATION
 function
 (
 status
