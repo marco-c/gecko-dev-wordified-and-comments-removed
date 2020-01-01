@@ -71,6 +71,9 @@ CreateCompositor
 LayerManager
 *
 aLayerManager
+CompositorParent
+*
+aCompositorParent
 )
 ;
 protected

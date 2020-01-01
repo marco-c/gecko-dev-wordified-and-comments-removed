@@ -590,12 +590,12 @@ PLayers
 ;
 parent
 :
-rpc
+sync
 Init
 (
 )
 ;
-rpc
+sync
 Stop
 (
 )
