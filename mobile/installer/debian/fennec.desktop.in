@@ -21,9 +21,6 @@ Comment
 MOZ_APP_DISPLAYNAME
 mobile
 browser
-GenericName
-=
-MOZ_APP_DISPLAYNAME
 Exec
 =
 installdir
@@ -145,6 +142,6 @@ Osso
 -
 Service
 =
-Mozilla
+mozilla
 .
-MOZ_APP_DISPLAYNAME
+MOZ_APP_NAME

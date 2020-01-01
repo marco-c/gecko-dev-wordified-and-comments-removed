@@ -1,6 +1,6 @@
 MOZ_APP_DISPLAYNAME
 =
-Fennec
+Firefox
 MOZ_APP_UA_EXTRA
 =
 Firefox
