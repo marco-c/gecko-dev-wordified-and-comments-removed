@@ -433,6 +433,8 @@ return
 PR_SUCCESS
 ;
 }
+public
+:
 static
 void
 Shutdown
@@ -447,6 +449,8 @@ sDeadlockDetector
 0
 ;
 }
+private
+:
 #
 ifdef
 MOZILLA_INTERNAL_API

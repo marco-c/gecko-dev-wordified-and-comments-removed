@@ -421,9 +421,17 @@ ucvlatin_s
 FORCE_STATIC_LIB
 =
 1
+ifneq
+(
+WINNT
+(
+OS_TARGET
+)
+)
 LIBXUL_LIBRARY
 =
 1
+endif
 CPPSRCS
 =
 \

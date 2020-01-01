@@ -112,6 +112,10 @@ define
 NS_CycleCollectorForget2
 NS_CycleCollectorForget2_P
 #
+define
+NS_IsCycleCollectorThread
+NS_IsCycleCollectorThread_P
+#
 endif
 #
 include
@@ -606,6 +610,14 @@ NS_CycleCollectorForget2
 nsPurpleBufferEntry
 *
 e
+)
+;
+XPCOM_API
+(
+bool
+)
+NS_IsCycleCollectorThread
+(
 )
 ;
 #

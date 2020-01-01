@@ -2342,6 +2342,9 @@ wrapCommand
 cmd
 )
     
+print
+cmd
+    
 proc
 =
 Popen

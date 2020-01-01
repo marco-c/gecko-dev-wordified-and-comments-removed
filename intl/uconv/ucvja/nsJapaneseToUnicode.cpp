@@ -33,6 +33,13 @@ nsIServiceManager
 .
 h
 "
+#
+include
+"
+nsServiceManagerUtils
+.
+h
+"
 static
 NS_DEFINE_CID
 (
