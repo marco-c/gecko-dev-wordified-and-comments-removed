@@ -153,3 +153,12 @@ git
 commit
 4b97ad
 .
+bug493140
+:
+Fix
+for
+offsets
+not
+being
+used
+.
