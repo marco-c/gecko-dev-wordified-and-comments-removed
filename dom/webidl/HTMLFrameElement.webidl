@@ -268,3 +268,7 @@ marginWidth
 ;
 }
 ;
+HTMLFrameElement
+implements
+MozFrameLoaderOwner
+;
