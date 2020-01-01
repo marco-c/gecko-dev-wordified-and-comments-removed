@@ -269,6 +269,10 @@ Nullable
 .
 h
 \
+TypedArray
+.
+h
+\
 BindingUtils
 .
 h
