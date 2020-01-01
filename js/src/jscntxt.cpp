@@ -5674,10 +5674,6 @@ defaultVersion
 (
 JSVERSION_DEFAULT
 )
-hasVersionOverride
-(
-false
-)
 throwing
 (
 false
@@ -7221,13 +7217,6 @@ findVersion
 )
 const
 {
-if
-(
-hasVersionOverride
-)
-return
-versionOverride
-;
 if
 (
 JSScript
