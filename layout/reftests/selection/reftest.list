@@ -469,6 +469,9 @@ if
 (
 cocoaWidget
 )
+needs
+-
+focus
 =
 =
 non
@@ -505,6 +508,9 @@ if
 (
 cocoaWidget
 )
+needs
+-
+focus
 =
 =
 themed
