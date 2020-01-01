@@ -1,3 +1,10 @@
+ifeq
+(
+(
+OS_TARGET
+)
+WINNT
+)
 NO_PROFILE_GUIDED_OPTIMIZE
 :
 =
@@ -7,3 +14,4 @@ Don
 '
 t
 PGO
+endif
