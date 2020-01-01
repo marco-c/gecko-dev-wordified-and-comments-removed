@@ -391,6 +391,10 @@ nsBidiUtils
 .
 cpp
 \
+nsUnicodeProperties
+.
+cpp
+\
 (
 NULL
 )

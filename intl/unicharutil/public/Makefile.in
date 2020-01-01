@@ -434,14 +434,6 @@ nsUnicodeNormalizer
 .
 h
 \
-nsUnicodeProperties
-.
-h
-\
-nsUnicodeScriptCodes
-.
-h
-\
 (
 NULL
 )
