@@ -2264,11 +2264,6 @@ LIST_GCObjects
 >
 names
 ;
-const
-CallInfo
-*
-_functions
-;
 LabelMap
 *
 labels
@@ -2293,10 +2288,6 @@ avmplus
 GC
 *
 gc
-const
-CallInfo
-*
-_functions
 LabelMap
 *
 r
@@ -2313,10 +2304,6 @@ gc
 names
 (
 gc
-)
-_functions
-(
-_functions
 )
 labels
 (
@@ -3497,10 +3484,6 @@ LirBuffer
 *
 )
 _buf
-;
-LInsp
-spref
-rpref
 ;
 public
 :

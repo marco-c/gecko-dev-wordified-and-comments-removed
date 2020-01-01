@@ -66,13 +66,6 @@ r
 )
 ;
 void
-removeFree
-(
-Register
-r
-)
-;
-void
 addActive
 (
 Register
