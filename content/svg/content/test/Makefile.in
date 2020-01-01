@@ -530,6 +530,10 @@ helper
 .
 svg
 \
+test_SVGStyleElement
+.
+xhtml
+\
 test_switch
 .
 xhtml
