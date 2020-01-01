@@ -2870,6 +2870,11 @@ sidebar
 -
 tabs
 "
+handleCtrlTab
+=
+"
+false
+"
 >
 <
 tabs
