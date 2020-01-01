@@ -362,6 +362,11 @@ nsIView
 aView
 )
 ;
+PRUint8
+GetShadowStyle
+(
+)
+;
 NS_IMETHOD
 SetInitialChildList
 (
