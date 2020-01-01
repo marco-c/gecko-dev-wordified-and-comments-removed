@@ -53,7 +53,7 @@ errno
         
 self
 .
-message
+msg
 =
 message
         
@@ -119,7 +119,7 @@ message
 =
 self
 .
-message
+msg
         
 if
 message
