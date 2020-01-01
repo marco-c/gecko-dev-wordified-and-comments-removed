@@ -3426,6 +3426,7 @@ global
 toolbarbutton
 .
 css
+*
 skin
 /
 classic
@@ -3437,6 +3438,13 @@ global
 tree
 .
 css
+(
+tree
+-
+aero
+.
+css
+)
 skin
 /
 classic
