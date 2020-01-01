@@ -240,6 +240,12 @@ aAttributeId
 =
 0
 ;
+nsCOMPtr
+<
+nsIThread
+>
+mBluetoothCommandThread
+;
 protected
 :
 BluetoothService

@@ -274,6 +274,9 @@ DBusConnection
 conn
 int
 timeout_ms
+DBusError
+*
+err
 const
 char
 *

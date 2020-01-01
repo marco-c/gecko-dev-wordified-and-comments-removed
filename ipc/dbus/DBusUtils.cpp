@@ -787,6 +787,12 @@ err
 )
 )
 {
+LOG_AND_FREE_DBUS_ERROR_WITH_MSG
+(
+err
+msg
+)
+;
 }
 done
 :
@@ -824,6 +830,9 @@ DBusConnection
 conn
 int
 timeout_ms
+DBusError
+*
+err
 const
 char
 *
@@ -862,7 +871,7 @@ dbus_func_args_timeout_valist
 (
 conn
 timeout_ms
-NULL
+err
 path
 ifc
 func
