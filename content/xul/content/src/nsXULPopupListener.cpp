@@ -231,13 +231,6 @@ nsDOMError
 .
 h
 "
-#
-include
-"
-nsIMenuFrame
-.
-h
-"
 using
 namespace
 mozilla

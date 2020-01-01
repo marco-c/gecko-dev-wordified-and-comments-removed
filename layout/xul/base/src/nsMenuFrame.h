@@ -56,13 +56,6 @@ h
 #
 include
 "
-nsIMenuFrame
-.
-h
-"
-#
-include
-"
 nsXULPopupManager
 .
 h
@@ -133,6 +126,14 @@ eMenuType_Radio
 2
 }
 ;
+enum
+nsMenuListType
+{
+eNotMenuList
+eReadonlyMenuList
+eEditableMenuList
+}
+;
 class
 nsMenuFrame
 ;
@@ -176,8 +177,6 @@ nsMenuFrame
 :
 public
 nsBoxFrame
-public
-nsIMenuFrame
 {
 public
 :
@@ -191,6 +190,10 @@ nsStyleContext
 aContext
 )
 ;
+NS_DECL_QUERYFRAME_TARGET
+(
+nsMenuFrame
+)
 NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
 NS_IMETHOD
@@ -482,7 +485,6 @@ return
 mPopupFrame
 ;
 }
-virtual
 PRBool
 IsOnMenuBar
 (
@@ -500,7 +502,6 @@ IsMenuBar
 )
 ;
 }
-virtual
 PRBool
 IsOnActiveMenuBar
 (
@@ -532,7 +533,6 @@ IsMenu
 (
 )
 ;
-virtual
 nsMenuListType
 GetParentMenuListType
 (

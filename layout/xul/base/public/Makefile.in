@@ -431,10 +431,6 @@ nsPIBoxObject
 .
 h
 \
-nsIMenuFrame
-.
-h
-\
 nsIScrollbarMediator
 .
 h
