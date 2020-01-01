@@ -48,11 +48,14 @@ waitForExplicitFinish
 (
 )
 ;
-removePermission
+setPermission
 (
 testPageURL
 "
 indexedDB
+"
+"
+allow
 "
 )
 ;
@@ -164,7 +167,7 @@ interfaces
 .
 nsIPermissionManager
 .
-ALLOW_ACTION
+UNKNOWN_ACTION
 "
 Correct
 permission
@@ -379,7 +382,7 @@ interfaces
 .
 nsIPermissionManager
 .
-ALLOW_ACTION
+UNKNOWN_ACTION
 "
 Correct
 permission

@@ -55,14 +55,6 @@ requestLongerTimeout
 10
 )
 ;
-setPermission
-(
-testPageURL
-"
-indexedDB
-"
-)
-;
 removePermission
 (
 testPageURL
@@ -258,7 +250,7 @@ unregisterAllPopupEventHandlers
 ;
 executeSoon
 (
-test2
+finish
 )
 ;
 }
