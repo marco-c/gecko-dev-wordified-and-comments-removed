@@ -871,6 +871,16 @@ gWyciwygSessionCnt
 ;
 static
 bool
+IsAsciiCompatible
+(
+const
+nsACString
+&
+aPreferredName
+)
+;
+static
+void
 TryHintCharset
 (
 nsIMarkupDocumentViewer
@@ -917,7 +927,7 @@ nsACString
 aCharset
 )
 ;
-bool
+void
 TryParentCharset
 (
 nsIDocShell
@@ -935,7 +945,7 @@ aCharset
 )
 ;
 static
-bool
+void
 UseWeakDocTypeDefault
 (
 int32_t
