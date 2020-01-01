@@ -14873,7 +14873,7 @@ dw
 =
 _MAX_PATH
 "
-Falied
+Failed
 to
 obtain
 the
@@ -14881,11 +14881,11 @@ current
 directory
 which
 may
-leads
+lead
 to
 incorrect
 class
-laoding
+loading
 "
 )
 ;
@@ -14993,7 +14993,7 @@ bCheck
 "
 Error
 restoring
-driectoy
+directory
 "
 )
 ;
