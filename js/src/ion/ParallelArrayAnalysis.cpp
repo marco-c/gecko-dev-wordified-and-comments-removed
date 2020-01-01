@@ -1016,7 +1016,7 @@ UNSAFE_OP
 (
 GetNameCache
 )
-SAFE_OP
+UNSAFE_OP
 (
 CallGetIntrinsicValue
 )
