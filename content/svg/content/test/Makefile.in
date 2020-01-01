@@ -554,6 +554,10 @@ test_transform
 .
 xhtml
 \
+test_valueAsString
+.
+xhtml
+\
 test_valueLeaks
 .
 xhtml

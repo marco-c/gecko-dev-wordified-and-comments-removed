@@ -1421,7 +1421,7 @@ else
 {
 rv
 =
-NS_ERROR_FAILURE
+NS_ERROR_DOM_SYNTAX_ERR
 ;
 }
 }
@@ -1429,7 +1429,7 @@ else
 {
 rv
 =
-NS_ERROR_FAILURE
+NS_ERROR_DOM_SYNTAX_ERR
 ;
 }
 }
@@ -1472,7 +1472,7 @@ unitType
 )
 )
 return
-NS_ERROR_FAILURE
+NS_ERROR_DOM_NOT_SUPPORTED_ERR
 ;
 WillModify
 (
@@ -1513,7 +1513,7 @@ unitType
 )
 )
 return
-NS_ERROR_FAILURE
+NS_ERROR_DOM_NOT_SUPPORTED_ERR
 ;
 WillModify
 (

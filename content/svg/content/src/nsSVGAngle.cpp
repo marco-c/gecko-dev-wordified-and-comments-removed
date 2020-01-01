@@ -201,12 +201,7 @@ float
 valueInSpecifiedUnits
 )
 {
-NS_ENSURE_FINITE
-(
-valueInSpecifiedUnits
-NS_ERROR_ILLEGAL_VALUE
-)
-;
+return
 mVal
 .
 NewValueSpecifiedUnits
@@ -216,9 +211,6 @@ valueInSpecifiedUnits
 nsnull
 )
 ;
-return
-NS_OK
-;
 }
 NS_IMETHOD
 ConvertToSpecifiedUnits
@@ -227,6 +219,7 @@ PRUint16
 unitType
 )
 {
+return
 mVal
 .
 ConvertToSpecifiedUnits
@@ -234,9 +227,6 @@ ConvertToSpecifiedUnits
 unitType
 nsnull
 )
-;
-return
-NS_OK
 ;
 }
 private
@@ -724,7 +714,7 @@ str
 )
 )
 return
-NS_ERROR_FAILURE
+NS_ERROR_DOM_SYNTAX_ERR
 ;
 char
 *
@@ -781,7 +771,7 @@ NS_OK
 }
 }
 return
-NS_ERROR_FAILURE
+NS_ERROR_DOM_SYNTAX_ERR
 ;
 }
 float
@@ -894,7 +884,7 @@ PR_TRUE
 )
 ;
 }
-void
+nsresult
 nsSVGAngle
 :
 :
@@ -916,6 +906,7 @@ unitType
 )
 )
 return
+NS_ERROR_DOM_NOT_SUPPORTED_ERR
 ;
 float
 valueInUserUnits
@@ -939,8 +930,11 @@ valueInUserUnits
 aSVGElement
 )
 ;
+return
+NS_OK
+;
 }
-void
+nsresult
 nsSVGAngle
 :
 :
@@ -955,6 +949,12 @@ nsSVGElement
 aSVGElement
 )
 {
+NS_ENSURE_FINITE
+(
+valueInSpecifiedUnits
+NS_ERROR_ILLEGAL_VALUE
+)
+;
 if
 (
 !
@@ -964,6 +964,7 @@ unitType
 )
 )
 return
+NS_ERROR_DOM_NOT_SUPPORTED_ERR
 ;
 mBaseVal
 =
@@ -993,6 +994,9 @@ PR_TRUE
 )
 ;
 }
+return
+NS_OK
+;
 }
 nsresult
 nsSVGAngle

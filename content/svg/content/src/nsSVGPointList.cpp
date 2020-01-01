@@ -646,7 +646,7 @@ x
 {
 rv
 =
-NS_ERROR_FAILURE
+NS_ERROR_DOM_SYNTAX_ERR
 ;
 break
 ;
@@ -685,7 +685,7 @@ y
 {
 rv
 =
-NS_ERROR_FAILURE
+NS_ERROR_DOM_SYNTAX_ERR
 ;
 break
 ;
@@ -740,7 +740,7 @@ rv
 {
 rv
 =
-NS_ERROR_FAILURE
+NS_ERROR_DOM_SYNTAX_ERR
 ;
 }
 else
