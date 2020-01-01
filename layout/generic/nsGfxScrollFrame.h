@@ -1449,6 +1449,12 @@ mInner
 mSupppressScrollbarUpdate
 ;
 }
+PRBool
+InInitialReflow
+(
+)
+const
+;
 private
 :
 friend
