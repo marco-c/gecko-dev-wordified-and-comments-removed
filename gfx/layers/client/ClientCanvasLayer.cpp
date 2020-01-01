@@ -197,7 +197,7 @@ new
 SurfaceFactory_GLTexture
 (
 mGLContext
-mGLContext
+nullptr
 screen
 -
 >
