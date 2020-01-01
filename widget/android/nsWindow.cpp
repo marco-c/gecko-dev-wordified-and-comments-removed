@@ -209,13 +209,6 @@ h
 #
 include
 "
-BasicLayers
-.
-h
-"
-#
-include
-"
 LayerManagerOGL
 .
 h

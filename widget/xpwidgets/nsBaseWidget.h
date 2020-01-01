@@ -1496,7 +1496,7 @@ forget
 )
 ;
 }
-BasicLayerManager
+LayerManager
 *
 CreateBasicLayerManager
 (
