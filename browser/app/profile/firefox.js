@@ -2224,7 +2224,7 @@ disable_window_open_feature
 .
 location
 "
-false
+true
 )
 ;
 pref
