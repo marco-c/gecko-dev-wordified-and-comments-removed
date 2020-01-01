@@ -2397,13 +2397,10 @@ BKPT_insn
 }
 else
 {
-NanoAssert
-(
 at
 [
 0
 ]
-=
 =
 (
 NIns
@@ -2434,7 +2431,6 @@ PC
 |
 (
 4
-)
 )
 )
 ;
