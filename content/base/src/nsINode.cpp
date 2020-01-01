@@ -383,13 +383,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsILinkHandler
 .
 h
