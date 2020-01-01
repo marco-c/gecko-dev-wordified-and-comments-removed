@@ -956,6 +956,8 @@ MaybeInvalidateCacheEntryForSubsequentGet
 nsCacheStoragePolicy
 DetermineStoragePolicy
 (
+bool
+isPrivate
 )
 ;
 nsresult
@@ -1057,7 +1059,8 @@ newURI
 void
 DoInvalidateCacheEntry
 (
-nsACString
+const
+nsCString
 &
 key
 )
