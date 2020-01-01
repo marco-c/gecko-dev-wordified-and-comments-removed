@@ -3295,13 +3295,6 @@ base
 Makefile
 embedding
 /
-base
-/
-standalone
-/
-Makefile
-embedding
-/
 browser
 /
 Makefile
