@@ -70,6 +70,9 @@ h
 class
 nsPresContext
 ;
+class
+nsDisplayItem
+;
 nsIFrame
 *
 NS_NewVideoFrame
@@ -348,6 +351,9 @@ aBuilder
 LayerManager
 *
 aManager
+nsDisplayItem
+*
+aItem
 )
 ;
 protected
