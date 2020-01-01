@@ -157,6 +157,10 @@ browser_social_multiprovider
 .
 js
 \
+browser_social_multiworker
+.
+js
+\
 browser_social_errorPage
 .
 js
