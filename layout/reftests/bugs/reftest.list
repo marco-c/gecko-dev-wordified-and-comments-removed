@@ -7442,7 +7442,6 @@ html
 ref
 .
 html
-#
 =
 =
 405577
@@ -7457,14 +7456,6 @@ html
 ref
 .
 html
-#
-disabled
-because
-of
-failure
-:
-bug
-405577
 =
 =
 405584
