@@ -2011,6 +2011,8 @@ const
 nsAString
 &
 aFragment
+PRBool
+aPreventScriptExecution
 nsIDOMDocumentFragment
 *
 *
@@ -2056,6 +2058,8 @@ nsString
 >
 &
 aTagStack
+PRBool
+aPreventScriptExecution
 nsIDOMDocumentFragment
 *
 *

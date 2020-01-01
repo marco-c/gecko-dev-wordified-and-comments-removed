@@ -892,6 +892,11 @@ mFragmentMode
 :
 1
 ;
+PRUint8
+mPreventScriptExecution
+:
+1
+;
 PRUint32
 mDeflectedCount
 ;
