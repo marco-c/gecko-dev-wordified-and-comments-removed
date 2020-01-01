@@ -457,6 +457,14 @@ updated
 <
 !
 ENTITY
+bookmark_options
+"
+Options
+"
+>
+<
+!
+ENTITY
 history_today_section
 "
 Today
