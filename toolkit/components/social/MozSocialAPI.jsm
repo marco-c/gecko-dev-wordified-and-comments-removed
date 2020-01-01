@@ -429,7 +429,7 @@ port
 =
 provider
 .
-_getWorkerPort
+getWorkerPort
 (
 targetWindow
 )
