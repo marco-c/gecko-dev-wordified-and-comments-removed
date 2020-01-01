@@ -114,6 +114,10 @@ file_empty
 .
 html
 \
+file_focus
+.
+html
+\
 browserFrameHelpers
 .
 js
@@ -151,6 +155,10 @@ test_browserFrame8
 html
 \
 test_browserFrame9
+.
+html
+\
+test_browserFrame_keyEvents
 .
 html
 \
