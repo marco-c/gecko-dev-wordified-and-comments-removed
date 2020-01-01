@@ -18296,6 +18296,7 @@ target
 exceptionCode
                  
 isCallbackReturnValue
+sourceDescription
 )
 :
         
@@ -18318,6 +18319,10 @@ MSG_DOES_NOT_IMPLEMENT_INTERFACE
 %
 s
 "
+"
+%
+s
+"
 )
 ;
 \
@@ -18330,9 +18335,15 @@ s
 '
 %
 (
+sourceDescription
 descriptor
 .
+interface
+.
+identifier
+.
 name
+                    
 exceptionCode
 )
             
@@ -18404,6 +18415,7 @@ source
 target
 exceptionCode
                  
+sourceDescription
 codeOnFailure
 =
 None
@@ -18429,6 +18441,10 @@ MSG_DOES_NOT_IMPLEMENT_INTERFACE
 %
 s
 "
+"
+%
+s
+"
 )
 ;
 \
@@ -18441,9 +18457,15 @@ s
 '
 %
 (
+sourceDescription
 descriptor
 .
+interface
+.
+identifier
+.
 name
+                        
 exceptionCode
 )
 )
@@ -20145,6 +20167,7 @@ typeName
 return
 CGWrapper
 (
+            
 CGGeneric
 (
                 
@@ -20161,6 +20184,10 @@ MSG_DOES_NOT_IMPLEMENT_INTERFACE
 %
 s
 "
+"
+%
+s
+"
 )
 ;
 \
@@ -20173,11 +20200,17 @@ s
 '
 %
 (
+firstCap
+(
+sourceDescription
+)
 typeName
+                         
 exceptionCode
 )
 )
 )
+            
 post
 =
 "
@@ -23414,6 +23447,11 @@ declName
                     
 exceptionCode
                     
+firstCap
+(
+sourceDescription
+)
+                    
 codeOnFailure
 =
 failureCode
@@ -23579,6 +23617,11 @@ declName
 exceptionCode
                         
 isCallbackReturnValue
+                        
+firstCap
+(
+sourceDescription
+)
 )
 )
         
@@ -38058,6 +38101,9 @@ ThrowErrorMessage
 (
 cx
 MSG_THIS_DOES_NOT_IMPLEMENT_INTERFACE
+"
+Value
+"
 "
 %
 s
