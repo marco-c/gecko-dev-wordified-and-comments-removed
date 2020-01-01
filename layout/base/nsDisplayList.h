@@ -861,6 +861,11 @@ aDirtyRect
 )
 ;
 void
+ResetMarkedFramesForDisplayList
+(
+)
+;
+void
 LeavePresShell
 (
 nsIFrame
