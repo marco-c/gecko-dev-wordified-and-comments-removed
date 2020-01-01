@@ -1270,10 +1270,6 @@ JSObject
 *
 globalObj
 ;
-JSObject
-*
-lexicalBlock
-;
 Tracker
 tracker
 ;
