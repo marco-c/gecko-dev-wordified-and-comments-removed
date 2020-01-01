@@ -1463,6 +1463,11 @@ NotifyFontSizeInflationEnabledIsDirty
 (
 )
 ;
+bool
+changed
+=
+false
+;
 if
 (
 presShell
@@ -1487,9 +1492,6 @@ FontSizeInflationMinTwips
 0
 )
 {
-bool
-changed
-;
 aPresContext
 -
 >
@@ -1499,6 +1501,7 @@ ScreenWidthInchesForFontInflation
 changed
 )
 ;
+}
 changed
 =
 changed
@@ -1688,7 +1691,6 @@ eStyleChange
 NS_FRAME_IS_DIRTY
 )
 ;
-}
 }
 }
 }
