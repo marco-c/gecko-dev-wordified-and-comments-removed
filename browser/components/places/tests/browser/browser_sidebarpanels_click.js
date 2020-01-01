@@ -834,7 +834,7 @@ currentTest
 =
 tests
 .
-push
+shift
 (
 )
 ;
