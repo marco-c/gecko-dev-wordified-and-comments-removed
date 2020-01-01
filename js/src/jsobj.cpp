@@ -21770,6 +21770,13 @@ METHOD
 )
 )
 ;
+id
+=
+js_CheckForStringIndex
+(
+id
+)
+;
 js_PurgeScopeChain
 (
 cx
@@ -21790,13 +21797,6 @@ cx
 )
 return
 NULL
-;
-id
-=
-js_CheckForStringIndex
-(
-id
-)
 ;
 return
 obj

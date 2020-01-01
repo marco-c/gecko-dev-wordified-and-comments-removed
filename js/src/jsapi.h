@@ -8629,7 +8629,7 @@ cx
 JSObject
 *
 obj
-jsint
+uint32
 index
 jsval
 value
@@ -8654,7 +8654,7 @@ cx
 JSObject
 *
 obj
-jsint
+uint32
 index
 JSBool
 *
@@ -8674,7 +8674,7 @@ cx
 JSObject
 *
 obj
-jsint
+uint32
 index
 JSBool
 *
@@ -8694,7 +8694,7 @@ cx
 JSObject
 *
 obj
-jsint
+uint32
 index
 jsval
 *
@@ -8714,7 +8714,7 @@ cx
 JSObject
 *
 obj
-jsint
+uint32
 index
 jsval
 *
@@ -8734,7 +8734,7 @@ cx
 JSObject
 *
 obj
-jsint
+uint32
 index
 jsval
 *
@@ -8754,7 +8754,7 @@ cx
 JSObject
 *
 obj
-jsint
+uint32
 index
 )
 ;
@@ -8771,7 +8771,7 @@ cx
 JSObject
 *
 obj
-jsint
+uint32
 index
 jsval
 *
