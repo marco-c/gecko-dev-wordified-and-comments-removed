@@ -71,13 +71,6 @@ h
 #
 include
 "
-mozIAsyncFavicons
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Preferences
