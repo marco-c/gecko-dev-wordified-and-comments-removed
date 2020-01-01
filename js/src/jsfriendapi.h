@@ -3293,14 +3293,13 @@ const
 jschar
 *
 )
-GetErrorTypeNameFromNumber
+GetErrorTypeName
 (
 JSContext
 *
 cx
-const
-unsigned
-errorNumber
+int16_t
+exnType
 )
 ;
 typedef
