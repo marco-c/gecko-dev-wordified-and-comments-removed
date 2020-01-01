@@ -15647,8 +15647,8 @@ LOAD_INTERRUPT_HANDLER
 cx
 )
 ;
-PUSH
-(
+rval
+=
 BOOLEAN_TO_JSVAL
 (
 regs
@@ -15662,6 +15662,10 @@ sp
 =
 JSVAL_HOLE
 )
+;
+PUSH
+(
+rval
 )
 ;
 TRACE_0
