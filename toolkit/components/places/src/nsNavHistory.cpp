@@ -14099,6 +14099,10 @@ queryType
 %
 d
 &
+excludeQueries
+=
+1
+&
 folder
 =
 '
