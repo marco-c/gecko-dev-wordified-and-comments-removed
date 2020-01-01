@@ -55,6 +55,9 @@ interface
 calling
 collapse
 (
+Node
+unsigned
+long
 )
 on
 getSelection
@@ -77,6 +80,9 @@ interface
 calling
 extend
 (
+Node
+unsigned
+long
 )
 on
 getSelection
@@ -99,6 +105,7 @@ interface
 calling
 selectAllChildren
 (
+Node
 )
 on
 getSelection
@@ -121,6 +128,8 @@ interface
 calling
 getRangeAt
 (
+unsigned
+long
 )
 on
 getSelection
@@ -143,6 +152,7 @@ interface
 calling
 addRange
 (
+Range
 )
 on
 getSelection
@@ -165,6 +175,7 @@ interface
 calling
 removeRange
 (
+Range
 )
 on
 getSelection
