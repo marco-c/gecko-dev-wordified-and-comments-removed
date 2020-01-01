@@ -1,3 +1,8 @@
+function
+test
+(
+)
+{
 Object
 .
 prototype
@@ -80,5 +85,18 @@ a
 b
 ;
 }
+)
+;
+}
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
+test
+(
 )
 ;

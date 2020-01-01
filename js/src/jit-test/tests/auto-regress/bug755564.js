@@ -1,3 +1,12 @@
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
+{
 var
 p
 =
@@ -72,3 +81,4 @@ join
 )
 )
 ;
+}

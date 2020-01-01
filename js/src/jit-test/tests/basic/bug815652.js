@@ -87,7 +87,17 @@ false
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
+{
 testScatterConflict
 (
 )
 ;
+}

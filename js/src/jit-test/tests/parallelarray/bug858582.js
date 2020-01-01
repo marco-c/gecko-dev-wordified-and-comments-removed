@@ -1,3 +1,12 @@
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
+{
 gczeal
 (
 2
@@ -609,3 +618,13 @@ x
 }
 )
 ;
+}
+else
+{
+throw
+new
+TypeError
+(
+)
+;
+}

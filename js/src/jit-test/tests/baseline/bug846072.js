@@ -1,3 +1,12 @@
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
+{
 toString
 =
 undefined
@@ -12,4 +21,14 @@ ParallelArray
 )
 )
 {
+}
+}
+else
+{
+throw
+new
+TypeError
+(
+)
+;
 }

@@ -1,3 +1,12 @@
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
+{
 var
 p
 =
@@ -66,6 +75,7 @@ y
 }
 )
 ;
+}
 function
 range
 (

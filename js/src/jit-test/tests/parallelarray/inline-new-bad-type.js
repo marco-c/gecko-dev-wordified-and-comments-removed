@@ -1,3 +1,12 @@
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
+{
 function
 TestCase
 (
@@ -57,3 +66,13 @@ reportCompare
 (
 )
 ;
+}
+else
+{
+throw
+new
+RangeError
+(
+)
+;
+}

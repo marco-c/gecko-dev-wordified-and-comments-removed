@@ -31,7 +31,17 @@ undefined
 )
 ;
 }
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
+{
 testNegativeZeroScatter
 (
 )
 ;
+}

@@ -1,3 +1,12 @@
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
+{
 var
 p
 =
@@ -42,3 +51,4 @@ b
 }
 )
 ;
+}

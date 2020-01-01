@@ -1,3 +1,12 @@
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
+{
 var
 p
 =
@@ -23,3 +32,13 @@ partition
 34
 )
 ;
+}
+else
+{
+throw
+new
+Error
+(
+)
+;
+}

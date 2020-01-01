@@ -1,3 +1,11 @@
+if
+(
+getBuildConfiguration
+(
+)
+.
+parallelJS
+)
 ParallelArray
 (
 7
