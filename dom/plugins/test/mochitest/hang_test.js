@@ -699,15 +699,6 @@ extraData
 PluginCpuUsage
 "
 ]
-.
-replace
-(
-'
-'
-'
-.
-'
-)
 )
 ;
 if
