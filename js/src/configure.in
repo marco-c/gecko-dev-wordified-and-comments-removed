@@ -34158,7 +34158,6 @@ AC_DEFINE
 (
 MOZ_TRACEVIS
 )
-fi
 if
 test
 -
@@ -34186,6 +34185,7 @@ disable
 jit
 ]
 )
+fi
 fi
 dnl
 =
