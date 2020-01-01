@@ -11052,6 +11052,16 @@ timeout
 0
 )
 ;
+pref
+(
+"
+plugins
+.
+click_to_play
+"
+false
+)
+;
 #
 ifndef
 DEBUG
