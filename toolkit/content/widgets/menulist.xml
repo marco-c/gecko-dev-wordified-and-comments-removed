@@ -3065,6 +3065,9 @@ inherits
 "
 open
 disabled
+parentfocused
+=
+focused
 "
 /
 >
