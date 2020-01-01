@@ -39,6 +39,12 @@ StopInternal
 (
 )
 ;
+virtual
+bool
+IsEnabledInternal
+(
+)
+;
 }
 ;
 END_BLUETOOTH_NAMESPACE
