@@ -305,6 +305,14 @@ LIns
 ;
 }
 ;
+typedef
+SeqBuilder
+<
+char
+*
+>
+StringList
+;
 class
 Assembler
 MMGC_SUBCLASS_DECL
@@ -417,6 +425,9 @@ Assembler
 CodeAlloc
 &
 codeAlloc
+Allocator
+&
+alloc
 AvmCore
 *
 core
@@ -834,6 +845,10 @@ r
 0
 ;
 }
+Allocator
+&
+alloc
+;
 AvmCore
 *
 core

@@ -5401,6 +5401,9 @@ assm
 Fragment
 *
 frag
+Allocator
+&
+alloc
 )
 ;
 verbose_only
@@ -5430,9 +5433,6 @@ lirbuf
 LInsp
 sp
 ;
-avmplus
-:
-:
 BitSet
 stk
 ;
@@ -5453,6 +5453,9 @@ StackFilter
 LirFilter
 *
 in
+Allocator
+&
+alloc
 LirBuffer
 *
 lirbuf
@@ -5460,13 +5463,6 @@ LInsp
 sp
 )
 ;
-virtual
-~
-StackFilter
-(
-)
-{
-}
 LInsp
 read
 (
