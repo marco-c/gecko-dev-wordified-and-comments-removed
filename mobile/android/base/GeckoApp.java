@@ -621,7 +621,7 @@ private
 File
 mProfileDir
 ;
-private
+public
 static
 boolean
 sIsGeckoReady
