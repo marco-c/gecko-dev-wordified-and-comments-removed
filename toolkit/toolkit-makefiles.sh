@@ -879,13 +879,6 @@ src
 Makefile
 gfx
 /
-src
-/
-thebes
-/
-Makefile
-gfx
-/
 tests
 /
 Makefile

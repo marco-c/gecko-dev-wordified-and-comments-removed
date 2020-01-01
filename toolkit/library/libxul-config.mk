@@ -677,8 +677,6 @@ xpcom_core
 \
 ucvutil_s
 \
-gkgfx
-\
 (
 NULL
 )
@@ -728,6 +726,8 @@ pref
 htmlpars
 \
 imglib2
+\
+gkgfx
 \
 gklayout
 \
@@ -1127,10 +1127,6 @@ STATIC_LIBS
 +
 =
 angle
-COMPONENT_LIBS
-+
-=
-gkgfxthebes
 ifeq
 (
 windows

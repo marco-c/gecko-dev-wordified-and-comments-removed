@@ -483,9 +483,6 @@ ots
 /
 src
 thebes
-src
-/
-thebes
 ifdef
 BUILD_STATIC_LIBS
 DIRS
