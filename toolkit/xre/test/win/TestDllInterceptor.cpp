@@ -72,6 +72,9 @@ C
 __declspec
 (
 dllexport
+)
+__declspec
+(
 noinline
 )
 payload
