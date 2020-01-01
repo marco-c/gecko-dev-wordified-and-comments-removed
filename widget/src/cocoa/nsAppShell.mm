@@ -558,13 +558,6 @@ nsCocoaUtils
 .
 h
 "
-#
-include
-"
-nsChildView
-.
-h
-"
 /
 /
 defined
@@ -1751,10 +1744,6 @@ nsBaseAppShell
 :
 :
 Init
-(
-)
-;
-NS_InstallPluginKeyEventsHandler
 (
 )
 ;
@@ -4705,10 +4694,6 @@ NS_OK
 mTerminated
 =
 PR_TRUE
-;
-NS_RemovePluginKeyEventsHandler
-(
-)
 ;
 /
 /
