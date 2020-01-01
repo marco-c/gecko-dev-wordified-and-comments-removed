@@ -1988,6 +1988,9 @@ PR_FALSE
 PRUint32
 n
 ;
+nsresult
+rv
+=
 stream
 -
 >
@@ -2003,6 +2006,12 @@ n
 ;
 return
 result
+|
+|
+NS_SUCCEEDED
+(
+rv
+)
 ;
 }
 static
