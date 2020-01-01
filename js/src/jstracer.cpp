@@ -14424,6 +14424,15 @@ fp
 imacpc
 &
 &
+ngslots
+=
+=
+e
+-
+>
+numGlobalSlots
+&
+&
 !
 memcmp
 (
