@@ -2030,6 +2030,16 @@ aDumpCellMap
 endif
 protected
 :
+void
+DoRemoveFrame
+(
+ChildListID
+aListID
+nsIFrame
+*
+aOldFrame
+)
+;
 #
 ifdef
 DEBUG
