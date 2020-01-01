@@ -464,9 +464,6 @@ XLIBS
 endif
 EXPORTS
 =
-gtkxtbin
-.
-h
 gtk2xtbin
 .
 h
