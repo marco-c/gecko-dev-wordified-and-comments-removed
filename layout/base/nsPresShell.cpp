@@ -30570,6 +30570,10 @@ aWillSendDidPaint
 if
 (
 mPaintingSuppressed
+|
+|
+!
+mIsActive
 )
 {
 return
