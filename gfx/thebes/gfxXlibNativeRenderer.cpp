@@ -503,7 +503,7 @@ device_offset_y
 ;
 NS_ASSERTION
 (
-PRUint32
+PRInt32
 (
 device_offset_x
 )
@@ -512,7 +512,7 @@ device_offset_x
 device_offset_x
 &
 &
-PRUint32
+PRInt32
 (
 device_offset_y
 )
