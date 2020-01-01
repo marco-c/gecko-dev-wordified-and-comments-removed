@@ -10682,9 +10682,12 @@ element
 ;
 if
 (
-cwu
+!
+rect
 .
-nodesFromRect
+isEmpty
+(
+)
 &
 &
 (
