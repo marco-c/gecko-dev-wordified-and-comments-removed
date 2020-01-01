@@ -490,6 +490,10 @@ test_nsIAccessibleTable_listboxes
 .
 xul
 \
+test_nsIAccessibleDocument
+.
+html
+\
 test_nsIAccessibleHyperLink
 .
 html
