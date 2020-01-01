@@ -179,6 +179,10 @@ bool
 aRemoveChildlessNodes
 =
 false
+bool
+aAsyncSnowWhiteFreeing
+=
+false
 )
 ;
 void
