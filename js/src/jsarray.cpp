@@ -13217,13 +13217,15 @@ NULL
 ;
 #
 endif
-jsint
+jsuint
 start
 =
 0
 end
 =
 length
+;
+jsint
 step
 =
 1
@@ -13546,7 +13548,7 @@ cx
 ;
 for
 (
-jsint
+jsuint
 i
 =
 start
