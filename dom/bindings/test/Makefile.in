@@ -442,6 +442,10 @@ test_bug907548
 .
 html
 \
+test_defineProperty
+.
+html
+\
 (
 NULL
 )
