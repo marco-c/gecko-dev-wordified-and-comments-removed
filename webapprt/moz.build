@@ -187,11 +187,6 @@ ContentPermission
 js
 '
 '
-ContentPolicy
-.
-js
-'
-'
 DirectoryProvider
 .
 js
