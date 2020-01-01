@@ -552,7 +552,7 @@ kPrintPageDelay
 ]
 =
 "
-print_pagedelay
+print_page_delay
 "
 ;
 static

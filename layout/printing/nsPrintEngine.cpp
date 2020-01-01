@@ -15919,7 +15919,7 @@ rv
 PRInt32
 printPageDelay
 =
-500
+50
 ;
 mPrt
 -

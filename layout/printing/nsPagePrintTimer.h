@@ -108,6 +108,9 @@ mTimer
 PRUint32
 mDelay
 ;
+PRUint32
+mFiringCount
+;
 nsPrintObject
 *
 mPrintObj
