@@ -1008,7 +1008,7 @@ mCanInterruptParser
 =
 PR_TRUE
 ;
-NS_ASSERTION
+NS_PRECONDITION
 (
 (
 mLifeCycle
