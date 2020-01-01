@@ -2336,8 +2336,10 @@ extendMode
 D2D1_EXTEND_MODE_CLAMP
 ;
 }
+RefPtr
+<
 ID2D1Bitmap
-*
+>
 sourceBitmap
 ;
 bool
