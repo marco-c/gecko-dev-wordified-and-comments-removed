@@ -972,12 +972,6 @@ sLoadedModules
 =
 modules
 ;
-#
-if
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_LONGHORN
 mozilla
 :
 :
@@ -988,8 +982,6 @@ StartAudioSession
 (
 )
 ;
-#
-endif
 nsresult
 rv
 =
@@ -1000,12 +992,6 @@ Run
 (
 )
 ;
-#
-if
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_LONGHORN
 mozilla
 :
 :
@@ -1016,8 +1002,6 @@ StopAudioSession
 (
 )
 ;
-#
-endif
 sLoadedModules
 =
 nsnull

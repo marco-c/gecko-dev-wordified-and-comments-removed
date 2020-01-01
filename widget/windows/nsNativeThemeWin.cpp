@@ -5114,12 +5114,6 @@ drawThemeBG
 return
 NS_ERROR_FAILURE
 ;
-#
-if
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_LONGHORN
 if
 (
 nsUXThemeData
@@ -5185,8 +5179,6 @@ break
 ;
 }
 }
-#
-endif
 PRInt32
 part
 state
@@ -8200,12 +8192,6 @@ SizeTo
 0
 )
 ;
-#
-if
-MOZ_WINSDK_TARGETVER
->
-=
-MOZ_NTDDI_LONGHORN
 if
 (
 nsUXThemeData
@@ -8218,8 +8204,6 @@ CheckForCompositor
 return
 true
 ;
-#
-endif
 if
 (
 aWidgetType

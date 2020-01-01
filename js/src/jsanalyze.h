@@ -2648,6 +2648,11 @@ isInlineable
 1
 ;
 bool
+isCompileable
+:
+1
+;
+bool
 canTrackVars
 :
 1
@@ -2833,6 +2838,15 @@ function
 -
 >
 nargs
+;
+}
+bool
+compileable
+(
+)
+{
+return
+isCompileable
 ;
 }
 bool
