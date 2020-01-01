@@ -16453,14 +16453,9 @@ document
 .
 getElementById
 (
-this
-.
-getAttribute
-(
 "
-context
+tabContextMenu
 "
-)
 )
 ;
 <
@@ -21655,6 +21650,11 @@ resources
 >
 <
 content
+context
+=
+"
+tabContextMenu
+"
 closetabtext
 =
 "

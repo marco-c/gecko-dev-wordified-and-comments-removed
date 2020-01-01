@@ -7917,11 +7917,6 @@ tabbrowser
 -
 tabs
 "
-context
-=
-"
-tabContextMenu
-"
 tabbrowser
 =
 "
