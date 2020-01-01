@@ -422,5 +422,10 @@ nsIDOMMozConnection
 :
 nsISupports
 {
+readonly
+attribute
+boolean
+metered
+;
 }
 ;
