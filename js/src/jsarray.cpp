@@ -11582,7 +11582,7 @@ getDenseArrayInitializedLength
 obj
 -
 >
-moveDenseArrayElements
+moveDenseArrayElementsUnbarriered
 (
 0
 1
@@ -11764,7 +11764,14 @@ moveDenseArrayElements
 (
 0
 1
-length
+obj
+-
+>
+getDenseArrayInitializedLength
+(
+)
+-
+1
 )
 ;
 obj
