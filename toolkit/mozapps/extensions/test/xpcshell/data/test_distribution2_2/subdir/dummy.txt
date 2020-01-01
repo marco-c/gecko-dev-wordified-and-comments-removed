@@ -1,0 +1,8 @@
+Test
+of
+a
+file
+in
+a
+sub
+directory

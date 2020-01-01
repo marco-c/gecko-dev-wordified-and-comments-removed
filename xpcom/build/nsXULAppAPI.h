@@ -190,6 +190,12 @@ XRE_USER_SYS_EXTENSION_DIR
 "
 XREUSysExt
 "
+#
+define
+XRE_APP_DISTRIBUTION_DIR
+"
+XREAppDist
+"
 XRE_API
 (
 int
