@@ -114,6 +114,10 @@ skipped_tests_winxp
 .
 txt
 \
+skipped_tests_win_vista
+.
+txt
+\
 failing_tests_mac
 .
 txt
