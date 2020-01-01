@@ -3977,7 +3977,7 @@ v
 getWindowToken
 (
 )
-imm
+InputMethodManager
 .
 SHOW_FORCED
 0

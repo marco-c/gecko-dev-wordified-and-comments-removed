@@ -5066,6 +5066,9 @@ null
 return
 ;
 Iterator
+<
+OnTabsChangedListener
+>
 items
 =
 mTabsChangedListeners
@@ -5083,15 +5086,10 @@ hasNext
 )
 )
 {
-(
-(
-OnTabsChangedListener
-)
 items
 .
 next
 (
-)
 )
 .
 onTabsChanged

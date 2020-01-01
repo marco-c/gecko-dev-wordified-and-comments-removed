@@ -550,10 +550,6 @@ try
 {
 Thread
 .
-currentThread
-(
-)
-.
 sleep
 (
 100
@@ -623,10 +619,6 @@ countdown
 try
 {
 Thread
-.
-currentThread
-(
-)
 .
 sleep
 (

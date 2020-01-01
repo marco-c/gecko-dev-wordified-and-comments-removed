@@ -983,6 +983,9 @@ keySet
 )
 ;
 Iterator
+<
+Long
+>
 iter
 =
 taskIds
@@ -1003,9 +1006,6 @@ hasNext
 long
 taskId
 =
-(
-Long
-)
 iter
 .
 next

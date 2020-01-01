@@ -2391,6 +2391,12 @@ TITLE
 }
 else
 {
+SuppressWarnings
+(
+"
+rawtypes
+"
+)
 Map
 map
 =
@@ -2643,6 +2649,12 @@ instanceof
 Map
 )
 {
+SuppressWarnings
+(
+"
+rawtypes
+"
+)
 Map
 map
 =
