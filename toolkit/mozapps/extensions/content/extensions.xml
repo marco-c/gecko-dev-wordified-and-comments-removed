@@ -6473,6 +6473,11 @@ hbox
 xul
 :
 hbox
+align
+=
+"
+start
+"
 >
 <
 xul
@@ -6486,7 +6491,7 @@ center
 pack
 =
 "
-start
+center
 "
 class
 =
