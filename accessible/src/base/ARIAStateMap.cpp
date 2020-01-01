@@ -1,14 +1,7 @@
 #
 include
 "
-ARIAStateMap
-.
-h
-"
-#
-include
-"
-nsARIAMap
+ARIAMap
 .
 h
 "

@@ -104,6 +104,10 @@ Filters
 .
 cpp
 \
+ARIAMap
+.
+cpp
+\
 ARIAStateMap
 .
 cpp
@@ -125,10 +129,6 @@ NotificationController
 cpp
 \
 nsAccessNode
-.
-cpp
-\
-nsARIAMap
 .
 cpp
 \

@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsARIAMap
+ARIAMap
 .
 h
 "
