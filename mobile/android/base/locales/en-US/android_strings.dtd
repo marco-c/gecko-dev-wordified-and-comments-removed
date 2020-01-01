@@ -1156,10 +1156,8 @@ clear
 <
 !
 ENTITY
-add_to_reading_list
+reading_list
 "
-Add
-to
 Reading
 List
 "

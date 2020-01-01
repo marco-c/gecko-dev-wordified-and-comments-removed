@@ -1401,11 +1401,11 @@ string
 name
 =
 "
-add_to_reading_list
+reading_list
 "
 >
 &
-add_to_reading_list
+reading_list
 ;
 <
 /
