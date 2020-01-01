@@ -5253,7 +5253,7 @@ cx
 obj
 id
 Exception
-3
+1
 JSFUN_CONSTRUCTOR
 )
 ;
