@@ -24258,6 +24258,12 @@ target
 =
 nsnull
 ;
+nsWeakView
+weakView
+(
+aView
+)
+;
 rv
 =
 manager
@@ -24414,7 +24420,11 @@ GetCurrentEventFrame
 (
 )
 aStatus
-aView
+weakView
+.
+GetView
+(
+)
 )
 ;
 }
