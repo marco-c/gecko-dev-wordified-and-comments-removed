@@ -970,6 +970,12 @@ bool
 forProxy
 )
 ;
+virtual
+bool
+UsingPrivateBrowsing
+(
+)
+;
 template
 <
 class
