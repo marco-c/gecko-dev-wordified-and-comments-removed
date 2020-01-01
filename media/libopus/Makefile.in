@@ -149,6 +149,14 @@ DEFINES
 Dinline
 =
 __inline
+ifdef
+GNU_CC
+DEFINES
++
+=
+-
+DHAVE_LRINTF
+endif
 endif
 ifeq
 (
