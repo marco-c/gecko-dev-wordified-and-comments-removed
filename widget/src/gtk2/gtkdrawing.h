@@ -351,14 +351,6 @@ size
 )
 ;
 gint
-moz_gtk_get_menu_popup_vertical_padding
-(
-gint
-*
-vertical_padding
-)
-;
-gint
 moz_gtk_get_menu_separator_height
 (
 gint
