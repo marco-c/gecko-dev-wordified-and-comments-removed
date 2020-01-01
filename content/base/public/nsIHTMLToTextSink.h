@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsAString
+nsStringGlue
 .
 h
 "
