@@ -27,6 +27,9 @@ float
 h
 >
 #
+ifndef
+CAIRO_DISABLE_FONTCONFIG
+#
 include
 <
 fontconfig
@@ -44,6 +47,8 @@ fcfreetype
 .
 h
 >
+#
+endif
 #
 include
 <
@@ -255,6 +260,9 @@ cairo_ft_unscaled_font_t
 unscaled
 )
 ;
+#
+ifndef
+CAIRO_DISABLE_FONTCONFIG
 static
 cairo_status_t
 _cairo_ft_font_options_substitute
@@ -268,6 +276,8 @@ FcPattern
 pattern
 )
 ;
+#
+endif
 typedef
 enum
 _cairo_ft_extra_flags
@@ -1351,6 +1361,9 @@ return
 NULL
 ;
 }
+#
+ifndef
+CAIRO_DISABLE_FONTCONFIG
 static
 cairo_ft_unscaled_font_t
 *
@@ -1459,6 +1472,8 @@ return
 NULL
 ;
 }
+#
+endif
 static
 cairo_ft_unscaled_font_t
 *
@@ -5055,6 +5070,9 @@ const
 cairo_scaled_font_backend_t
 _cairo_ft_scaled_font_backend
 ;
+#
+ifndef
+CAIRO_DISABLE_FONTCONFIG
 static
 void
 _get_pattern_ft_options
@@ -5533,6 +5551,8 @@ ret
 ft_options
 ;
 }
+#
+endif
 static
 void
 _cairo_ft_options_merge
@@ -6493,6 +6513,9 @@ cairo_scaled_font_t
 font
 )
 {
+#
+ifndef
+CAIRO_DISABLE_FONTCONFIG
 FcPattern
 *
 pattern
@@ -6874,6 +6897,13 @@ pattern
 return
 status
 ;
+#
+else
+return
+CAIRO_INT_STATUS_UNSUPPORTED
+;
+#
+endif
 }
 static
 void
@@ -8836,6 +8866,19 @@ face
 return
 0
 ;
+#
+ifdef
+CAIRO_DISABLE_FONTCONFIG
+index
+=
+FT_Get_Char_Index
+(
+face
+ucs4
+)
+;
+#
+else
 index
 =
 FcFreeTypeCharIndex
@@ -8844,6 +8887,8 @@ face
 ucs4
 )
 ;
+#
+endif
 _cairo_ft_unscaled_font_unlock_face
 (
 unscaled
@@ -9595,6 +9640,9 @@ font_face
 base
 ;
 }
+#
+ifndef
+CAIRO_DISABLE_FONTCONFIG
 static
 cairo_status_t
 _cairo_ft_font_options_substitute
@@ -10065,6 +10113,8 @@ return
 font_face
 ;
 }
+#
+endif
 cairo_font_face_t
 *
 cairo_ft_font_face_create_for_ft_face
