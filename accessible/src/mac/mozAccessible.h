@@ -243,12 +243,6 @@ aAccessible
 (
 void
 )
-invalidateParent
-;
--
-(
-void
-)
 expire
 ;
 -
