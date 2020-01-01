@@ -333,13 +333,6 @@ id
 /
 tabviewpager
 "
-style
-=
-"
-style
-/
-AwesomeBarList
-"
 android
 :
 layout_width
