@@ -715,7 +715,7 @@ aContainer
 void
 ChangeExplicitBlockerCountImpl
 (
-StreamTime
+GraphTime
 aTime
 int32_t
 aDelta
