@@ -4266,6 +4266,9 @@ EXT_unpack_subimage
 OES_standard_derivatives
 EXT_texture_filter_anisotropic
 EXT_texture_compression_s3tc
+EXT_texture_compression_dxt1
+ANGLE_texture_compression_dxt3
+ANGLE_texture_compression_dxt5
 EXT_framebuffer_blit
 ANGLE_framebuffer_blit
 EXT_framebuffer_multisample

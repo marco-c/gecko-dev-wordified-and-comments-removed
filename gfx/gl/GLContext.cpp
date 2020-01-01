@@ -226,6 +226,15 @@ GL_EXT_texture_filter_anisotropic
 GL_EXT_texture_compression_s3tc
 "
 "
+GL_EXT_texture_compression_dxt1
+"
+"
+GL_ANGLE_texture_compression_dxt3
+"
+"
+GL_ANGLE_texture_compression_dxt5
+"
+"
 GL_EXT_framebuffer_blit
 "
 "
