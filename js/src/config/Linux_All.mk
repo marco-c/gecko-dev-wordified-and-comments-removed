@@ -425,6 +425,8 @@ Wno
 format
 -
 MMD
+-
+DLINUX
 OS_CFLAGS
 =
 -
