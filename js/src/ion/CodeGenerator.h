@@ -395,6 +395,14 @@ lir
 )
 ;
 bool
+visitTypedArrayLength
+(
+LTypedArrayLength
+*
+lir
+)
+;
+bool
 visitStringLength
 (
 LStringLength

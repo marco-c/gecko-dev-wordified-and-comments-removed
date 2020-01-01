@@ -703,6 +703,14 @@ ins
 )
 ;
 bool
+visitTypedArrayLength
+(
+MTypedArrayLength
+*
+ins
+)
+;
+bool
 visitInitializedLength
 (
 MInitializedLength
