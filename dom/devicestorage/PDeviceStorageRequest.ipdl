@@ -161,6 +161,9 @@ totalBytes
 PRInt64
 freeBytes
 ;
+nsString
+mountState
+;
 }
 ;
 union
