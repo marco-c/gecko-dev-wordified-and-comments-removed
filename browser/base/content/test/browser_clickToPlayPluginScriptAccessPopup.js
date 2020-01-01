@@ -598,6 +598,8 @@ gTestBrowser
 _pluginScriptedState
 =
 =
+gPluginHandler
+.
 PLUGIN_SCRIPTED_STATE_DONE
 ;
 waitForCondition
