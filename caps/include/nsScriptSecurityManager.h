@@ -1334,8 +1334,14 @@ GetFunctionObjectPrincipal
 JSContext
 *
 cx
+JS
+:
+:
+Handle
+<
 JSObject
 *
+>
 obj
 nsresult
 *
