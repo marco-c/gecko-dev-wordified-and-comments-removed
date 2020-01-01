@@ -483,9 +483,14 @@ NULL
 endif
 ifdef
 MOZ_XUL
-DIRS
+PARALLEL_DIRS
 =
 tree
+/
+public
+tree
+/
+src
 grid
 endif
 EXPORTS
