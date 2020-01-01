@@ -507,10 +507,6 @@ nsSVGAnimatedPreserveAspectRatio
 .
 cpp
 \
-nsSVGAnimatedString
-.
-cpp
-\
 nsSVGAnimatedTransformList
 .
 cpp
@@ -684,6 +680,10 @@ nsSVGPreserveAspectRatio
 cpp
 \
 nsSVGScriptElement
+.
+cpp
+\
+nsSVGString
 .
 cpp
 \

@@ -444,6 +444,16 @@ mk
 _TEST_FILES
 =
 \
+test_dataTypes
+.
+html
+\
+dataTypes
+-
+helper
+.
+svg
+\
 test_getSubStringLength
 .
 xhtml

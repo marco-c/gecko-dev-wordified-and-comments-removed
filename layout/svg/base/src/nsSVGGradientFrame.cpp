@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsIDOMSVGAnimatedString
-.
-h
-"
-#
-include
-"
 nsIDOMSVGAnimTransformList
 .
 h
