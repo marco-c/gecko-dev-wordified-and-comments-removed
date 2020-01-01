@@ -308,6 +308,15 @@ newRect
 ;
 }
 }
+else
+{
+Trenches
+.
+hideGuides
+(
+)
+;
+}
 newRect
 =
 this
