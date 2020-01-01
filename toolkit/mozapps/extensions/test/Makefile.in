@@ -515,14 +515,6 @@ config
 rules
 .
 mk
-#
-disabled
-due
-to
-potentially
-breaking
-other
-tests
 libs
 :
 :
