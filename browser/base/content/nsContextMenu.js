@@ -6106,10 +6106,11 @@ nsIBrowserSearchService
 ;
 if
 (
+isElementVisible
+(
 BrowserSearch
 .
-getSearchBar
-(
+searchBar
 )
 )
 engineName
