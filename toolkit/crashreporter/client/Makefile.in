@@ -683,11 +683,6 @@ OS_LIBS
 -
 framework
 Cocoa
-OS_LIBS
-+
-=
--
-lcrypto
 LIBS
 +
 =

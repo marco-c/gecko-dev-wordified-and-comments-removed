@@ -573,9 +573,6 @@ HOST_LDFLAGS
 framework
 Foundation
 \
--
-lcrypto
-\
 (
 NULL
 )
