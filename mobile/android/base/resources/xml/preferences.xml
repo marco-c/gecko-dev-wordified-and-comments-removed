@@ -40,6 +40,13 @@ res
 /
 android
 "
+android
+:
+enabled
+=
+"
+false
+"
 >
 <
 PreferenceCategory
