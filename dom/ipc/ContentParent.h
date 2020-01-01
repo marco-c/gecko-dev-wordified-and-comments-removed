@@ -523,6 +523,12 @@ MaybeTakePreallocatedAppProcess
 (
 )
 ;
+static
+void
+FirstIdle
+(
+)
+;
 using
 PContentParent
 :
@@ -1329,6 +1335,12 @@ const
 bool
 &
 aExist
+)
+;
+virtual
+bool
+RecvFirstIdle
+(
 )
 ;
 virtual
