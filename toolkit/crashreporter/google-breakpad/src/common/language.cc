@@ -18,6 +18,11 @@ Language
 {
 public
 :
+CPPLanguage
+(
+)
+{
+}
 string
 MakeQualifiedName
 (
