@@ -2507,8 +2507,11 @@ dbg
 object
 )
 ;
-Value
+RootedValue
 completion
+(
+cx
+)
 ;
 if
 (
@@ -2557,8 +2560,11 @@ frameobj
 )
 handler
 1
-&
 completion
+.
+address
+(
+)
 &
 rval
 )
@@ -3773,8 +3779,7 @@ JSTrapStatus
 status
 Value
 value_
-Value
-*
+MutableHandleValue
 result
 )
 {
@@ -3848,8 +3853,7 @@ case
 JSTRAP_ERROR
 :
 result
--
->
+.
 setNull
 (
 )
@@ -3921,8 +3925,7 @@ false
 ;
 }
 result
--
->
+.
 setObject
 (
 *
@@ -3949,8 +3952,7 @@ bool
 ok
 Value
 val
-Value
-*
+MutableHandleValue
 vp
 )
 {
@@ -20181,10 +20183,6 @@ ac
 ok
 rval
 vp
-.
-address
-(
-)
 )
 ;
 }
@@ -24402,10 +24400,6 @@ rval
 args
 .
 rval
-(
-)
-.
-address
 (
 )
 )

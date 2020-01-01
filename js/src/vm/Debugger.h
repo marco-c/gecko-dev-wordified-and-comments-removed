@@ -2045,8 +2045,7 @@ JSTrapStatus
 status
 Value
 value
-Value
-*
+MutableHandleValue
 result
 )
 ;
@@ -2066,8 +2065,7 @@ bool
 ok
 Value
 val
-Value
-*
+MutableHandleValue
 vp
 )
 ;
