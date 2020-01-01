@@ -93,6 +93,7 @@ BluetoothProfileManagerBase
 public
 :
 NS_DECL_ISUPPORTS
+NS_DECL_NSIOBSERVER
 static
 const
 int
@@ -248,11 +249,6 @@ ExtractBlobHeaders
 (
 )
 ;
-nsresult
-HandleShutdown
-(
-)
-;
 bool
 IsTransferring
 (
@@ -350,6 +346,16 @@ MOZ_OVERRIDE
 private
 :
 BluetoothOppManager
+(
+)
+;
+bool
+Init
+(
+)
+;
+nsresult
+HandleShutdown
 (
 )
 ;
