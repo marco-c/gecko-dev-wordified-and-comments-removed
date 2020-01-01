@@ -172,6 +172,7 @@ void
 aCallbackData
 )
 ;
+virtual
 void
 SetRoot
 (
@@ -179,7 +180,12 @@ Layer
 *
 aLayer
 )
+{
+mRoot
+=
+aLayer
 ;
+}
 virtual
 already_AddRefed
 <
@@ -878,10 +884,6 @@ sLayerProgramTypes
 [
 ]
 ;
-LayerOGL
-*
-mRootLayer
-;
 GLuint
 mBackBufferFBO
 ;
@@ -909,6 +911,13 @@ mClippingRegion
 ;
 PRPackedBool
 mHasBGRA
+;
+LayerOGL
+*
+RootLayer
+(
+)
+const
 ;
 void
 Render
