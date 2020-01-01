@@ -1591,7 +1591,7 @@ purgePICs
 )
 ;
 size_t
-auxCodeSize
+scriptDataSize
 (
 )
 ;
