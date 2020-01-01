@@ -19425,7 +19425,7 @@ direction
 nsIDOMSimpleGestureEvent
 :
 :
-DIRECTION_LEFT
+ROTATION_COUNTERCLOCKWISE
 ;
 }
 else
@@ -19437,7 +19437,7 @@ direction
 nsIDOMSimpleGestureEvent
 :
 :
-DIRECTION_RIGHT
+ROTATION_CLOCKWISE
 ;
 }
 /
@@ -19655,7 +19655,7 @@ direction
 nsIDOMSimpleGestureEvent
 :
 :
-DIRECTION_LEFT
+ROTATION_COUNTERCLOCKWISE
 ;
 }
 else
@@ -19667,7 +19667,7 @@ direction
 nsIDOMSimpleGestureEvent
 :
 :
-DIRECTION_RIGHT
+ROTATION_CLOCKWISE
 ;
 }
 /

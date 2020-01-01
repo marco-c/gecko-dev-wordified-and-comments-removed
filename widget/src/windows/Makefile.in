@@ -514,6 +514,10 @@ nsNativeThemeWin
 .
 cpp
 \
+nsWinGesture
+.
+cpp
+\
 (
 NULL
 )

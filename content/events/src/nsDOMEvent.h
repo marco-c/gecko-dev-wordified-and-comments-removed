@@ -218,6 +218,8 @@ eDOMEvents_MozMagnifyGesture
 eDOMEvents_MozRotateGestureStart
 eDOMEvents_MozRotateGestureUpdate
 eDOMEvents_MozRotateGesture
+eDOMEvents_MozTapGesture
+eDOMEvents_MozPressTapGesture
 }
 ;
 nsDOMEvent

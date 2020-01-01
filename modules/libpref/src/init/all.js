@@ -8632,6 +8632,16 @@ false
 pref
 (
 "
+gestures
+.
+enable_single_finger_input
+"
+true
+)
+;
+pref
+(
+"
 editor
 .
 resizing
