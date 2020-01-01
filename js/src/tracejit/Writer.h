@@ -2388,6 +2388,13 @@ obj
 )
 const
 {
+JS_NOT_REACHED
+(
+"
+FIXME
+"
+)
+;
 return
 name
 (
@@ -2401,11 +2408,7 @@ nj
 :
 LIR_ldi
 obj
-offsetof
-(
-JSObject
-flags
-)
+0
 ACCSET_OBJ_FLAGS
 )
 "
