@@ -2653,6 +2653,9 @@ mScriptEventManager
 nsString
 mBaseTarget
 ;
+PRUint32
+mUpdateNestLevel
+;
 private
 :
 friend
@@ -2746,9 +2749,6 @@ mVisitednessChangedURIs
 ;
 nsString
 mLastStyleSheetSet
-;
-PRUint32
-mUpdateNestLevel
 ;
 }
 ;
