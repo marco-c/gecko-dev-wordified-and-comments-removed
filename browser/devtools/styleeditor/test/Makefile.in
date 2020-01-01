@@ -151,6 +151,10 @@ browser_styleeditor_sv_resize
 .
 js
 \
+browser_styleeditor_bug_826982_location_changed
+.
+js
+\
 head
 .
 js
