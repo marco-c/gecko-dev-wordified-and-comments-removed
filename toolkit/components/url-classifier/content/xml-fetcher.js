@@ -616,6 +616,12 @@ abort
 (
 )
 ;
+this
+.
+_request
+=
+null
+;
 }
 readyStateChange
 :
