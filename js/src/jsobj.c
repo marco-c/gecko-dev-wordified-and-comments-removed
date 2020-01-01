@@ -4925,10 +4925,6 @@ JSObject
 *
 scopeobj
 ;
-JSClass
-*
-clasp
-;
 JSString
 *
 str
