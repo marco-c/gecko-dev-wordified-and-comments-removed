@@ -855,7 +855,7 @@ __1cIJSStringOintStringTable_
 endif
 #
 ifndef
-_M_X64
+JS_64BIT
 static
 JSString
 unitStringTable

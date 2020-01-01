@@ -14807,7 +14807,7 @@ push
 endif
 #
 ifndef
-_M_X64
+JS_64BIT
 JSString
 JSString
 :
@@ -15870,7 +15870,7 @@ U
 ;
 #
 ifdef
-_M_X64
+JS_64BIT
 JSString
 *
 JSString
@@ -17019,7 +17019,7 @@ push
 endif
 #
 ifndef
-_M_X64
+JS_64BIT
 JSString
 JSString
 :
@@ -18082,7 +18082,7 @@ L3
 ;
 #
 ifdef
-_M_X64
+JS_64BIT
 JSString
 *
 JSString
