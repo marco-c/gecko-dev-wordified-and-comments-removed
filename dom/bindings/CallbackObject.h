@@ -405,9 +405,6 @@ JSCompartment
 *
 mCompartment
 ;
-nsAutoMicroTask
-mMt
-;
 nsCxPusher
 mCxPusher
 ;
@@ -440,6 +437,10 @@ mExceptionHandling
 ;
 uint32_t
 mSavedJSContextOptions
+;
+const
+bool
+mIsMainThread
 ;
 }
 ;

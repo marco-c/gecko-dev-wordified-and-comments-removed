@@ -4568,8 +4568,12 @@ false
 *
 d
 =
-OBJECT_TO_JSVAL
+JS
+:
+:
+ObjectValue
 (
+*
 cpow
 )
 ;

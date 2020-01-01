@@ -2818,6 +2818,13 @@ GetSafeJSContext
 )
 ;
 static
+JSContext
+*
+GetDefaultJSContextForThread
+(
+)
+;
+static
 bool
 EqualsIgnoreASCIICase
 (
