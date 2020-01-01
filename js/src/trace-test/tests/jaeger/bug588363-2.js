@@ -7,6 +7,9 @@ evalcx
 )
 )
 {
+delete
+eval
+;
 eval
 (
 "
@@ -22,4 +25,5 @@ x
 Function
 )
 )
+;
 }
