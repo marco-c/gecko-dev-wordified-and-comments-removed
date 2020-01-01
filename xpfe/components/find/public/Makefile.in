@@ -424,10 +424,6 @@ mozfind
 XPIDLSRCS
 =
 \
-nsISearchContext
-.
-idl
-\
 nsIFindService
 .
 idl
