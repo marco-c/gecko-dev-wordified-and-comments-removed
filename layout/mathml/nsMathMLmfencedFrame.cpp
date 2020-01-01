@@ -515,10 +515,8 @@ else
 {
 value
 .
-Trim
+StripWhitespace
 (
-"
-"
 )
 ;
 }
