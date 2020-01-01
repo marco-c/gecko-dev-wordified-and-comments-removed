@@ -196,14 +196,6 @@ file_bug821850
 .
 xhtml
 \
-test_bug844783
-.
-html
-\
-file_bug844783
-.
-xhtml
-\
 (
 NULL
 )
