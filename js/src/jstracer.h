@@ -8103,6 +8103,9 @@ JSContext
 uintN
 &
 inlineCallCount
+uint32
+*
+loopCounter
 bool
 *
 blacklist
