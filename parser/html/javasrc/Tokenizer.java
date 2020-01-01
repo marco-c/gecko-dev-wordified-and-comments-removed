@@ -15886,10 +15886,6 @@ pos
 throws
 SAXException
 {
-silentCarriageReturn
-(
-)
-;
 flushChars
 (
 buf
@@ -15909,9 +15905,9 @@ REPLACEMENT_CHARACTER
 ;
 cstart
 =
-Integer
-.
-MAX_VALUE
+pos
++
+1
 ;
 }
 private
