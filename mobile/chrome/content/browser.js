@@ -13384,6 +13384,16 @@ browser
 ;
 browser
 .
+style
+.
+display
+=
+"
+none
+"
+;
+browser
+.
 stop
 (
 )
