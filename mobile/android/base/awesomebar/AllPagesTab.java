@@ -3055,7 +3055,7 @@ getColumnIndexOrThrow
 (
 Combined
 .
-_ID
+HISTORY_ID
 )
 )
 ;
