@@ -32,6 +32,13 @@ nsCOMArray
 .
 h
 "
+#
+include
+"
+prlink
+.
+h
+"
 class
 nsScreenManagerGtk
 :
@@ -65,6 +72,10 @@ nsCOMArray
 nsIScreen
 >
 mCachedScreenArray
+;
+PRLibrary
+*
+mXineramalib
 ;
 }
 ;
