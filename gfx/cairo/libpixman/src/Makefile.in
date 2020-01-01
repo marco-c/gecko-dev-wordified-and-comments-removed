@@ -667,6 +667,8 @@ DPACKAGE
 "
 mozpixman
 "
+-
+D_USE_MATH_DEFINES
 ifdef
 MOZ_X11
 #
