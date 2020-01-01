@@ -1302,6 +1302,10 @@ test_bug499538
 .
 html
 \
+test_bug569520
+.
+html
+\
 test_bug570378
 -
 arabic
