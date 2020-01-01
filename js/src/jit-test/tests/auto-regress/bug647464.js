@@ -1,0 +1,3 @@
+RegExp
+.
+__proto__

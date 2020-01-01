@@ -1,0 +1,8 @@
+ArrayBuffer
+.
+prototype
+[
+'
+byteLength
+'
+]

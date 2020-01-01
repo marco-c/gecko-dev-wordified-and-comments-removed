@@ -1,0 +1,9 @@
+decompileBody
+(
+function
+(
+)
+{
+}
+)
+;
