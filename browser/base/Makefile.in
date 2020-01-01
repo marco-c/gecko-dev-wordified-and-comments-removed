@@ -480,6 +480,12 @@ jsm
 \
 content
 /
+domplate
+.
+jsm
+\
+content
+/
 stylePanel
 .
 jsm
