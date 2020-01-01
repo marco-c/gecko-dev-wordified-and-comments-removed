@@ -715,8 +715,16 @@ null
 ;
 if
 (
-!
 aError
+=
+=
+"
+jpake
+.
+error
+.
+userabort
+"
 |
 |
 container
