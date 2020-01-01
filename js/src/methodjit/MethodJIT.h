@@ -116,6 +116,19 @@ Arguments
 {
 struct
 {
+void
+*
+ptr
+;
+void
+*
+ptr2
+;
+}
+x
+;
+struct
+{
 uint32
 lazyArgsObj
 ;
@@ -1874,7 +1887,7 @@ all
 struct
 UnsyncedEntry
 {
-uint32
+int32
 offset
 ;
 bool
@@ -1894,7 +1907,7 @@ knownType
 ;
 union
 {
-uint32
+int32
 copiedOffset
 ;
 Value
