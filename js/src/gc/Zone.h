@@ -465,7 +465,7 @@ return
 rt
 -
 >
-isHeapCollecting
+isHeapMajorCollecting
 (
 )
 &

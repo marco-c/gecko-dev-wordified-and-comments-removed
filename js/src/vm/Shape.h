@@ -121,6 +121,9 @@ js
 class
 Bindings
 ;
+class
+Nursery
+;
 static
 const
 uint32_t
@@ -1491,6 +1494,13 @@ js
 :
 :
 Bindings
+;
+friend
+class
+js
+:
+:
+Nursery
 ;
 friend
 class

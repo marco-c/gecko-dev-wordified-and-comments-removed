@@ -2007,6 +2007,14 @@ value
 )
 {
 }
+typedef
+Key
+KeyType
+;
+typedef
+Value
+ValueType
+;
 const
 Key
 key

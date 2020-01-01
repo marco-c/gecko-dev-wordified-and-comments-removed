@@ -4321,6 +4321,15 @@ JSGC_GENERATIONAL
 rt
 -
 >
+gcNursery
+.
+disable
+(
+)
+;
+rt
+-
+>
 gcStoreBuffer
 .
 disable
