@@ -246,6 +246,10 @@ test_max_attribute
 .
 html
 \
+test_min_attribute
+.
+html
+\
 (
 NULL
 )

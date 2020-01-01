@@ -939,6 +939,12 @@ IsRangeOverflow
 )
 const
 ;
+bool
+IsRangeUnderflow
+(
+)
+const
+;
 void
 UpdateTooLongValidityState
 (
@@ -961,6 +967,11 @@ UpdatePatternMismatchValidityState
 ;
 void
 UpdateRangeOverflowValidityState
+(
+)
+;
+void
+UpdateRangeUnderflowValidityState
 (
 )
 ;
