@@ -21225,11 +21225,15 @@ obj
 if
 (
 parentId
-!
+=
 =
 NO_PARENT_INDEX
 )
-{
+parent
+=
+NULL
+;
+else
 parent
 =
 xdr
@@ -21251,7 +21255,6 @@ setStaticBlockScopeChain
 parent
 )
 ;
-}
 }
 AutoObjectRooter
 tvr
