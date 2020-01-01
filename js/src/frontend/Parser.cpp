@@ -3524,10 +3524,7 @@ tc
 parser
 -
 >
-new_
-<
-ParseNode
->
+cloneNode
 (
 *
 pn

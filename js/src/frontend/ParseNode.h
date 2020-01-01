@@ -235,6 +235,15 @@ pn_defn
 :
 1
 ;
+ParseNode
+(
+const
+ParseNode
+&
+other
+)
+MOZ_DELETE
+;
 void
 operator
 =
