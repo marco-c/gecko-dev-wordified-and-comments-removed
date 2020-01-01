@@ -13819,6 +13819,14 @@ returnState
 if
 (
 value
+<
+=
+0xFFFF
+)
+{
+if
+(
+value
 >
 =
 0x80
@@ -13913,13 +13921,6 @@ returnState
 ;
 }
 else
-if
-(
-value
-<
-=
-0xFFFF
-)
 {
 PRUnichar
 ch
@@ -13942,6 +13943,7 @@ bmpChar
 returnState
 )
 ;
+}
 }
 else
 if
