@@ -6085,6 +6085,9 @@ toTransplant
 cx
 )
 ;
+if
+(
+!
 toTransplant
 .
 reserve
@@ -6095,6 +6098,9 @@ length
 (
 )
 )
+)
+return
+NULL
 ;
 for
 (
@@ -6158,7 +6164,7 @@ origv
 {
 toTransplant
 .
-append
+infallibleAppend
 (
 wp
 -
@@ -6545,6 +6551,9 @@ toTransplant
 cx
 )
 ;
+if
+(
+!
 toTransplant
 .
 reserve
@@ -6555,6 +6564,9 @@ length
 (
 )
 )
+)
+return
+NULL
 ;
 for
 (
@@ -6618,7 +6630,7 @@ origv
 {
 toTransplant
 .
-append
+infallibleAppend
 (
 wp
 -

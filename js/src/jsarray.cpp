@@ -15409,9 +15409,6 @@ getDenseArrayCapacity
 length
 )
 ;
-js
-:
-:
 AutoValueVector
 vector
 (
@@ -15507,7 +15504,7 @@ JS_TRUE
 }
 vector
 .
-append
+infallibleAppend
 (
 val
 )

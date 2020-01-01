@@ -23958,7 +23958,7 @@ fninfo
 >
 mArgTypes
 .
-append
+infallibleAppend
 (
 argType
 )
@@ -23968,7 +23968,7 @@ fninfo
 >
 mFFITypes
 .
-append
+infallibleAppend
 (
 ffiType
 )
