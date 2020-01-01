@@ -1353,6 +1353,15 @@ SkTextBox
 .
 h
 '
+'
+src
+/
+core
+/
+SkTypefaceCache
+.
+h
+'
 ]
 if
 CONFIG
