@@ -30,12 +30,6 @@ nsBuiltinDecoder
 aDecoder
 )
 ;
-virtual
-void
-LoadMetadata
-(
-)
-;
 }
 ;
 #
