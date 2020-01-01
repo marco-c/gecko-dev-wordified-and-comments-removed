@@ -20,6 +20,13 @@ skip
 -
 if
 (
+!
+haveTestPlugin
+)
+skip
+-
+if
+(
 winWidget
 )
 asserts
