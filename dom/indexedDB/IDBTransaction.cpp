@@ -101,6 +101,13 @@ h
 #
 include
 "
+IndexedDatabaseManager
+.
+h
+"
+#
+include
+"
 TransactionThreadPool
 .
 h
@@ -4249,7 +4256,7 @@ if
 mConnection
 )
 {
-IDBFactory
+IndexedDatabaseManager
 :
 :
 SetCurrentDatabase
@@ -4425,7 +4432,7 @@ mConnection
 =
 nsnull
 ;
-IDBFactory
+IndexedDatabaseManager
 :
 :
 SetCurrentDatabase
