@@ -337,7 +337,7 @@ struct
 DOMBaseVal
 ;
 friend
-class
+struct
 DOMBaseVal
 ;
 struct
@@ -471,7 +471,7 @@ struct
 DOMAnimVal
 ;
 friend
-class
+struct
 DOMAnimVal
 ;
 struct
