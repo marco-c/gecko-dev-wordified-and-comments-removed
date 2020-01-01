@@ -1107,6 +1107,10 @@ jsutil
 .
 h
 \
+jsvector
+.
+h
+\
 jsversion
 .
 h
