@@ -662,3 +662,9 @@ srcdir
 .
 /
 include
+CFLAGS
++
+=
+(
+MOZ_ALSA_CFLAGS
+)
