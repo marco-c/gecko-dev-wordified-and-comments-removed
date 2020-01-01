@@ -1633,16 +1633,6 @@ q
 pref
 (
 "
-snav
-.
-enabled
-"
-false
-)
-;
-pref
-(
-"
 accessibility
 .
 typeaheadfind
