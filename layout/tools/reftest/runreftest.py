@@ -60,7 +60,6 @@ from
 automationutils
 import
 addCommonOptions
-processLeakLog
 from
 optparse
 import
@@ -1019,6 +1018,8 @@ options
 symbolsPath
 )
     
+automation
+.
 processLeakLog
 (
 leakLogFile
