@@ -1315,6 +1315,8 @@ QuickTime
 -
 framework
 IOKit
+-
+lcrypto
 ifdef
 USE_PREBINDING
 BIN_FLAGS

@@ -2356,6 +2356,9 @@ have
 any
 .
 cpp
+or
+.
+mm
 files
 #
 (
@@ -2381,8 +2384,15 @@ are
 defined
 )
 #
-ifdef
+ifneq
+(
+(
 CPPSRCS
+)
+(
+CMMSRCS
+)
+)
 CPP_PROG_LINK
 =
 1

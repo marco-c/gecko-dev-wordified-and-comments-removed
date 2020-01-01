@@ -1068,6 +1068,9 @@ QuickTime
 framework
 IOKit
 \
+-
+lcrypto
+\
 (
 TK_LIBS
 )
