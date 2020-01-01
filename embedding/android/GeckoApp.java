@@ -1553,7 +1553,7 @@ org
 .
 mozilla
 .
-fennec
+gecko
 .
 WEBAPP
 "
