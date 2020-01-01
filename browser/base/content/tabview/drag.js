@@ -976,7 +976,6 @@ drag
 function
 (
 event
-ui
 )
 {
 this

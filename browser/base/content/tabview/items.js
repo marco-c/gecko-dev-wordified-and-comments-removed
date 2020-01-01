@@ -438,7 +438,6 @@ drag
 function
 (
 e
-ui
 )
 {
 drag
@@ -448,7 +447,6 @@ info
 drag
 (
 e
-ui
 )
 ;
 }
@@ -2664,8 +2662,6 @@ apply
 self
 [
 e
-{
-}
 ]
 )
 ;
