@@ -359,11 +359,7 @@ is
 (
 propertyView
 .
-propertyInfo
-.
 hasMatchedSelectors
-(
-)
 true
 "
 hasMatchedSelectors
@@ -500,11 +496,7 @@ is
 (
 propertyView
 .
-propertyInfo
-.
 hasUnmatchedSelectors
-(
-)
 true
 "
 hasUnmatchedSelectors
