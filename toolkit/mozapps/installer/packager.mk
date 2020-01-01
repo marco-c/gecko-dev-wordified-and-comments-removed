@@ -2241,9 +2241,7 @@ uses
 this
 makefile
 for
-it
-'
-s
+its
 variable
 defs
 but

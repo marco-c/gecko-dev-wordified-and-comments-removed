@@ -712,9 +712,7 @@ using
 linear
 regression
 ;
-it
-'
-s
+its
 output
 is
 #

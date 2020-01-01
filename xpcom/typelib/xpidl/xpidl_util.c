@@ -2212,9 +2212,7 @@ s
 ]
 refers
 to
-it
-'
-s
+its
 own
 parameter
 "

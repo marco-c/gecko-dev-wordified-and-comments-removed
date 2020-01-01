@@ -605,9 +605,7 @@ a
 data
 source
 write
-it
-'
-s
+its
 contents
 out
 to

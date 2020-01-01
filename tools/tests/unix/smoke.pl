@@ -1998,9 +1998,7 @@ can
 t
 grab
 #
-it
-'
-s
+its
 pid
 .
 (

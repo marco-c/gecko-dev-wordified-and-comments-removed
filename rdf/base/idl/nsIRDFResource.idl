@@ -617,9 +617,7 @@ resource
 object
 to
 initialize
-it
-'
-s
+its
 URI
 .
 You

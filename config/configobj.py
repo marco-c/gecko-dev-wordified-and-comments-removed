@@ -4759,9 +4759,7 @@ and
 then
 recurses
 into
-it
-'
-s
+its
 members
 .
 This
