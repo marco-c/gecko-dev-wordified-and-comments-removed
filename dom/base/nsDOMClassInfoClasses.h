@@ -1305,14 +1305,6 @@ MathMLElement
 )
 DOMCI_CLASS
 (
-Worker
-)
-DOMCI_CLASS
-(
-ChromeWorker
-)
-DOMCI_CLASS
-(
 WebGLRenderingContext
 )
 DOMCI_CLASS
