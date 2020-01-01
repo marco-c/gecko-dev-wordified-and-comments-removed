@@ -553,12 +553,6 @@ html
 \
 test_bug421839
 -
-1
-.
-html
-\
-test_bug421839
--
 2
 .
 html
