@@ -8662,7 +8662,7 @@ for
 (
 fp
 =
-JS_FrameIterator
+JS_BrokenFrameIterator
 (
 cx
 &
@@ -8673,7 +8673,7 @@ fp
 ;
 fp
 =
-JS_FrameIterator
+JS_BrokenFrameIterator
 (
 cx
 &
@@ -8785,7 +8785,7 @@ nullptr
 *
 frameResult
 =
-JS_FrameIterator
+JS_BrokenFrameIterator
 (
 cx
 &
@@ -9424,7 +9424,7 @@ fp
 =
 cx
 ?
-JS_FrameIterator
+JS_BrokenFrameIterator
 (
 cx
 &
@@ -9652,7 +9652,7 @@ while
 (
 fp
 =
-JS_FrameIterator
+JS_BrokenFrameIterator
 (
 cx
 &
