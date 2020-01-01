@@ -526,7 +526,7 @@ Init
 ;
 static
 nsresult
-GetContextAndScopes
+GetContextAndScope
 (
 nsIDocument
 *
@@ -538,10 +538,6 @@ JSContext
 *
 *
 aCx
-JSObject
-*
-*
-aOldScope
 JSObject
 *
 *
