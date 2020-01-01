@@ -367,6 +367,7 @@ promptWin
 domWin
 .
 top
+;
 var
 chromeWin
 =
