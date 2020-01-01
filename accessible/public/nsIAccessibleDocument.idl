@@ -450,9 +450,6 @@ interface
 nsIAccessible
 ;
 interface
-nsIAccessNode
-;
-interface
 nsIDOMDocument
 ;
 interface
@@ -515,16 +512,13 @@ QueryInterface
 to
 nsIAccessibleDocument
 from
-*
 the
 nsIAccessible
-or
-nsIAccessNode
 for
+*
 the
 root
 node
-*
 of
 a
 document
@@ -536,7 +530,7 @@ get
 one
 from
 *
-nsIAccessNode
+nsIAccessible
 :
 :
 GetAccessibleDocument
