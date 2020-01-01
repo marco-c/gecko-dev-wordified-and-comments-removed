@@ -25,7 +25,7 @@ namespace
 mozilla
 {
 class
-SVGTransform
+nsSVGTransform
 ;
 class
 SVGTransformListParser
@@ -38,7 +38,7 @@ public
 const
 nsTArray
 <
-SVGTransform
+nsSVGTransform
 >
 &
 GetTransformList
@@ -54,7 +54,7 @@ private
 :
 nsTArray
 <
-SVGTransform
+nsSVGTransform
 >
 mTransforms
 ;

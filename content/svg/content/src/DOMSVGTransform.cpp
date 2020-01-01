@@ -274,7 +274,7 @@ false
 mTransform
 (
 new
-SVGTransform
+nsSVGTransform
 (
 )
 )
@@ -310,7 +310,7 @@ false
 mTransform
 (
 new
-SVGTransform
+nsSVGTransform
 (
 aMatrix
 )
@@ -327,7 +327,7 @@ DOMSVGTransform
 DOMSVGTransform
 (
 const
-SVGTransform
+nsSVGTransform
 &
 aTransform
 )
@@ -347,7 +347,7 @@ false
 mTransform
 (
 new
-SVGTransform
+nsSVGTransform
 (
 aTransform
 )
@@ -1130,7 +1130,7 @@ it
 mTransform
 =
 new
-SVGTransform
+nsSVGTransform
 (
 InternalItem
 (
@@ -1146,7 +1146,7 @@ mIsAnimValItem
 false
 ;
 }
-SVGTransform
+nsSVGTransform
 &
 DOMSVGTransform
 :
@@ -1198,7 +1198,7 @@ mListIndex
 ;
 }
 const
-SVGTransform
+nsSVGTransform
 &
 DOMSVGTransform
 :
@@ -1331,7 +1331,7 @@ Type
 SVG_TRANSFORM_MATRIX
 &
 &
-SVGTransform
+nsSVGTransform
 :
 :
 MatricesEqual

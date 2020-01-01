@@ -25,7 +25,7 @@ namespace
 mozilla
 {
 class
-SVGTransform
+nsSVGTransform
 ;
 class
 SVGTransformList
@@ -202,7 +202,7 @@ nsSMILValue
 aValue
 FallibleTArray
 <
-SVGTransform
+nsSVGTransform
 >
 &
 aTransforms

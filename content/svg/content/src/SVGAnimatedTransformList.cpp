@@ -47,7 +47,7 @@ h
 #
 include
 "
-SVGTransform
+nsSVGTransform
 .
 h
 "

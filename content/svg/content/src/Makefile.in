@@ -226,6 +226,10 @@ nsSVGString
 .
 cpp
 \
+nsSVGTransform
+.
+cpp
+\
 nsSVGViewBox
 .
 cpp
@@ -607,10 +611,6 @@ SVGTextPositioningElement
 cpp
 \
 SVGTitleElement
-.
-cpp
-\
-SVGTransform
 .
 cpp
 \

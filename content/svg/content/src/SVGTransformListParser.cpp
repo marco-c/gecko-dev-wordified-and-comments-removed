@@ -17,7 +17,7 @@ h
 #
 include
 "
-SVGTransform
+nsSVGTransform
 .
 h
 "
@@ -811,7 +811,7 @@ case
 2
 :
 {
-SVGTransform
+nsSVGTransform
 *
 transform
 =
@@ -912,7 +912,7 @@ case
 2
 :
 {
-SVGTransform
+nsSVGTransform
 *
 transform
 =
@@ -1017,7 +1017,7 @@ case
 3
 :
 {
-SVGTransform
+nsSVGTransform
 *
 transform
 =
@@ -1107,7 +1107,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-SVGTransform
+nsSVGTransform
 *
 transform
 =
@@ -1177,7 +1177,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-SVGTransform
+nsSVGTransform
 *
 transform
 =
@@ -1252,7 +1252,7 @@ return
 NS_ERROR_FAILURE
 ;
 }
-SVGTransform
+nsSVGTransform
 *
 transform
 =

@@ -78,11 +78,11 @@ SVG_TRANSFORM_SKEWY
 6
 ;
 class
-SVGTransform
+nsSVGTransform
 {
 public
 :
-SVGTransform
+nsSVGTransform
 (
 )
 :
@@ -113,7 +113,7 @@ SVG_TRANSFORM_MATRIX
 )
 {
 }
-SVGTransform
+nsSVGTransform
 (
 const
 gfxMatrix
@@ -155,7 +155,7 @@ operator
 =
 (
 const
-SVGTransform
+nsSVGTransform
 &
 rhs
 )
@@ -582,12 +582,12 @@ f
 SVGTransformSMILData
 (
 const
-SVGTransform
+nsSVGTransform
 &
 aTransform
 )
 ;
-SVGTransform
+nsSVGTransform
 ToSVGTransform
 (
 )
