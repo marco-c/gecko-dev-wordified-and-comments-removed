@@ -28889,7 +28889,7 @@ JSOP_NOP
 )
 )
 return
-NULL
+false
 ;
 }
 JSScript
