@@ -4441,6 +4441,15 @@ Zc
 wchar_t
 -
 "
+LDFLAGS
+=
+"
+LDFLAGS
+-
+MANIFESTUAC
+:
+NO
+"
 _USE_DYNAMICBASE
 =
 1
