@@ -135,6 +135,9 @@ t
 .
 name
 )
+t
+.
+loc
 )
 ;
 let
