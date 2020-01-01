@@ -10586,6 +10586,7 @@ if
 mRoleMapEntry
 &
 &
+(
 mRoleMapEntry
 -
 >
@@ -10596,6 +10597,19 @@ nsIAccessibleRole
 :
 :
 ROLE_OUTLINEITEM
+|
+|
+mRoleMapEntry
+-
+>
+role
+=
+=
+nsIAccessibleRole
+:
+:
+ROLE_ROW
+)
 )
 {
 nsCOMPtr
