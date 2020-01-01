@@ -27,6 +27,13 @@ nsIAccessibleEvent
 EVENT_NAME_CHANGE
 ;
 const
+EVENT_SCROLLING_START
+=
+nsIAccessibleEvent
+.
+EVENT_SCROLLING_START
+;
+const
 EVENT_STATE_CHANGE
 =
 nsIAccessibleEvent

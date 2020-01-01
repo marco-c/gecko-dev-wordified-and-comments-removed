@@ -826,6 +826,7 @@ ROLE_STATICTEXT
 ;
 }
 static
+inline
 PRBool
 IsLeaf
 (
@@ -836,6 +837,8 @@ aAcc
 {
 PRInt32
 numChildren
+=
+0
 ;
 aAcc
 -
@@ -848,7 +851,8 @@ numChildren
 ;
 return
 numChildren
->
+=
+=
 0
 ;
 }

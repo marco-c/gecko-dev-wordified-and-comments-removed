@@ -548,6 +548,10 @@ test_actions
 .
 xul
 \
+test_actions_anchors
+.
+html
+\
 test_actions_aria
 .
 html
