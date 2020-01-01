@@ -13478,6 +13478,10 @@ cx
 obj
 id
 value
+script
+-
+>
+strictModeCode
 )
 )
 goto
