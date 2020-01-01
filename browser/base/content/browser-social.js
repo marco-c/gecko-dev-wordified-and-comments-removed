@@ -2319,6 +2319,9 @@ null
 ;
 sizeSocialPanelToContent
 (
+this
+.
+panel
 iframe
 )
 ;
@@ -5811,8 +5814,16 @@ null
 null
 )
 ;
+let
+panel
+=
+aNotificationFrame
+.
+parentNode
+;
 sizeSocialPanelToContent
 (
+panel
 aNotificationFrame
 )
 ;
