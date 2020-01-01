@@ -374,6 +374,10 @@ nsNSSShutDown
 .
 h
 \
+ScopedNSSTypes
+.
+h
+\
 (
 NULL
 )
