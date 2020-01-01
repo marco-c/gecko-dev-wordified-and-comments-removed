@@ -682,14 +682,6 @@ event
 )
 ;
 bool
-SendMouseScrollEvent
-(
-nsMouseScrollEvent
-&
-event
-)
-;
-bool
 SendMouseWheelEvent
 (
 mozilla

@@ -1820,12 +1820,6 @@ nsKeyEvent
 event
 )
 ;
-MouseScrollEvent
-(
-nsMouseScrollEvent
-event
-)
-;
 MouseWheelEvent
 (
 WheelEvent
