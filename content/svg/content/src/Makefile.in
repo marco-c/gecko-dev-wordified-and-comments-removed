@@ -201,10 +201,6 @@ nsSVGDataParser
 .
 cpp
 \
-nsSVGDefsElement
-.
-cpp
-\
 nsSVGElement
 .
 cpp
@@ -489,6 +485,10 @@ SVGContentUtils
 .
 cpp
 \
+SVGDefsElement
+.
+cpp
+\
 SVGDescElement
 .
 cpp
@@ -647,6 +647,10 @@ SVGAnimatedAngle
 h
 \
 SVGAnimatedBoolean
+.
+h
+\
+SVGDefsElement
 .
 h
 \
