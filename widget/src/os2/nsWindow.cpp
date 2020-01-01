@@ -10907,7 +10907,7 @@ PR_TRUE
 nsMouseEvent
 :
 :
-eRightButton
+eLeftButton
 )
 ;
 }

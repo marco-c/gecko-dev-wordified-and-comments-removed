@@ -3600,6 +3600,16 @@ acceptActivation
 mouseEvent
 -
 >
+context
+=
+oldMouseEvent
+-
+>
+context
+;
+mouseEvent
+-
+>
 relatedTarget
 =
 oldMouseEvent

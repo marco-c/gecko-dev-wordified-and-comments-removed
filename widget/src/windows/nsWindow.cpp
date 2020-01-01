@@ -19065,6 +19065,13 @@ NS_CONTEXTMENU
 wParam
 pos
 contextMenukey
+contextMenukey
+?
+nsMouseEvent
+:
+:
+eLeftButton
+:
 nsMouseEvent
 :
 :

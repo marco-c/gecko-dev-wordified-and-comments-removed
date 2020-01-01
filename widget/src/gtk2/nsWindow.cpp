@@ -20435,7 +20435,7 @@ button
 nsMouseEvent
 :
 :
-eRightButton
+eLeftButton
 ;
 aCMEvent
 -
