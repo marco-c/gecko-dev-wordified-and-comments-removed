@@ -1,3 +1,10 @@
+if
+(
+Proxy
+.
+fix
+)
+{
 var
 handler
 =
@@ -47,3 +54,4 @@ p
 (
 )
 ;
+}
