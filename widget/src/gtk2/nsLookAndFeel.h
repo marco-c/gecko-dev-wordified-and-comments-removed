@@ -168,6 +168,10 @@ float
 sCaretRatio
 ;
 static
+PRBool
+sMenuSupportsDrag
+;
+static
 void
 InitLookAndFeel
 (

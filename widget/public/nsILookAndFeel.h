@@ -209,6 +209,7 @@ eMetric_IMESelectedConvertedTextUnderline
 eMetric_SpellCheckerUnderlineStyle
 eMetric_ImagesInMenus
 eMetric_ImagesInButtons
+eMetric_MenuBarDrag
 }
 nsMetricID
 ;
