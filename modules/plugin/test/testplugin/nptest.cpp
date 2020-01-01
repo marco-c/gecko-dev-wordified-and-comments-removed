@@ -14534,6 +14534,7 @@ id
 )
 ;
 }
+#
 else
 bool
 getClipboardText
