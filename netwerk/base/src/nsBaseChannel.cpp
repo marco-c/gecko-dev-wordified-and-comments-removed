@@ -2532,6 +2532,10 @@ SUSPEND_PUMP_FOR_SCOPE
 (
 )
 ;
+if
+(
+mListener
+)
 return
 mListener
 -
@@ -2541,6 +2545,9 @@ OnStartRequest
 this
 mListenerContext
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP
@@ -2574,6 +2581,10 @@ mPump
 =
 nullptr
 ;
+if
+(
+mListener
+)
 mListener
 -
 >
