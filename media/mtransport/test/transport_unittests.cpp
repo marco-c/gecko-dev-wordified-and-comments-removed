@@ -169,7 +169,6 @@ MOZ_MTLOG_MODULE
 mtransport
 "
 )
-;
 MtransportTestUtils
 *
 test_utils

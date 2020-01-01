@@ -491,7 +491,6 @@ NS_IMPL_ISUPPORTS0
 (
 SocketHandler
 )
-;
 void
 SocketTransportServiceTest
 :
