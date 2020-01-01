@@ -1,3 +1,17 @@
+#
+ifdef
+XP_WIN
+#
+define
+USE_HITTEST
+#
+elifdef
+MOZ_WIDGET_COCOA
+#
+define
+USE_HITTEST
+#
+endif
 let
 EXPORTED_SYMBOLS
 =
@@ -31,7 +45,7 @@ defaultView
 ;
 #
 ifdef
-XP_WIN
+USE_HITTEST
 if
 (
 !
@@ -357,7 +371,7 @@ isPanel
 ;
 #
 ifdef
-XP_WIN
+USE_HITTEST
 if
 (
 !

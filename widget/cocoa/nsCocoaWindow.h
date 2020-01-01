@@ -53,6 +53,9 @@ nsChildView
 class
 nsMenuBarX
 ;
+class
+ChildView
+;
 #
 define
 CUIDRAW_MAX_AREA
@@ -576,6 +579,10 @@ NSColor
 *
 mBackgroundColor
 ;
+NSView
+*
+mTitlebarView
+;
 }
 -
 (
@@ -662,6 +669,13 @@ setDrawsContentsIntoWindowFrame
 BOOL
 )
 aState
+;
+-
+(
+ChildView
+*
+)
+mainChildView
 ;
 end
 class
