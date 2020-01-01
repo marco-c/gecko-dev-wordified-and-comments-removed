@@ -202,11 +202,11 @@ points
 console_scripts
 ]
       
-sut
+dm
 =
 mozdevice
 .
-sutcli
+dmcli
 :
 cli
       
