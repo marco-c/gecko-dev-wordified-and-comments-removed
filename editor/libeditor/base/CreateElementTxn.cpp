@@ -50,7 +50,11 @@ h
 #
 include
 "
-nsIContent
+mozilla
+/
+dom
+/
+Element
 .
 h
 "
@@ -65,6 +69,10 @@ false
 ;
 #
 endif
+using
+namespace
+mozilla
+;
 CreateElementTxn
 :
 :
@@ -357,7 +365,10 @@ NS_ERROR_NOT_INITIALIZED
 ;
 nsCOMPtr
 <
-nsIContent
+dom
+:
+:
+Element
 >
 newContent
 ;

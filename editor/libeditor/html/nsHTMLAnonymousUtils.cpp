@@ -131,6 +131,10 @@ nsContentUtils
 .
 h
 "
+using
+namespace
+mozilla
+;
 static
 PRInt32
 GetCSSFloatValue
@@ -546,7 +550,10 @@ NS_ERROR_NOT_INITIALIZED
 ;
 nsCOMPtr
 <
-nsIContent
+dom
+:
+:
+Element
 >
 newContent
 ;
