@@ -40,6 +40,17 @@ VMFrame
 f
 )
 ;
+void
+JS_FASTCALL
+SetName
+(
+VMFrame
+&
+f
+uint32
+index
+)
+;
 }
 }
 }
