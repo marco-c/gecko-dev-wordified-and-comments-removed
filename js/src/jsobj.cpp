@@ -6358,6 +6358,12 @@ HandleObject
 obj
 )
 {
+assertSameCompartment
+(
+cx
+obj
+)
+;
 if
 (
 obj
