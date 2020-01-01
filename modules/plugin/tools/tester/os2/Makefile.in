@@ -504,11 +504,10 @@ NO_INSTALL
 SHARED_LIBRARY_LIBS
 =
 \
-(
-DIST
-)
+.
+.
 /
-lib
+common
 /
 (
 LIB_PREFIX
