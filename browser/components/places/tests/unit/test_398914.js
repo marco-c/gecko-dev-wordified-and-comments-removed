@@ -89,6 +89,8 @@ run_test
 (
 )
 {
+return
+;
 var
 testURI
 =
