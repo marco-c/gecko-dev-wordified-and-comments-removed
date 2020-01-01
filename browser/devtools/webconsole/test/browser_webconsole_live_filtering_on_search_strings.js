@@ -189,7 +189,9 @@ hud
 .
 outputNode
 .
-itemCount
+children
+.
+length
 50
 "
 number
@@ -594,9 +596,7 @@ querySelectorAll
 (
 "
 .
-hud
--
-log
+message
 "
 )
 ;
