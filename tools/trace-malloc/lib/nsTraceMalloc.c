@@ -8231,9 +8231,7 @@ ofp
 :
 0
 ;
-fd
-=
-fileno
+MozillaUnRegisterDebugFILE
 (
 ofp
 )
@@ -8241,11 +8239,6 @@ ofp
 fclose
 (
 ofp
-)
-;
-MozillaUnRegisterDebugFD
-(
-fd
 )
 ;
 }

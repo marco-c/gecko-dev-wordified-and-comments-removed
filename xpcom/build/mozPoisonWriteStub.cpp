@@ -1,3 +1,10 @@
+#
+include
+<
+stdio
+.
+h
+>
 namespace
 mozilla
 {
@@ -32,6 +39,15 @@ MozillaUnRegisterDebugFD
 (
 int
 fd
+)
+{
+}
+void
+MozillaUnRegisterDebugFILE
+(
+FILE
+*
+f
 )
 {
 }
