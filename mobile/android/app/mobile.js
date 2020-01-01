@@ -3979,16 +3979,6 @@ false
 pref
 (
 "
-plugins
-.
-click_to_play
-"
-true
-)
-;
-pref
-(
-"
 plugin
 .
 default
