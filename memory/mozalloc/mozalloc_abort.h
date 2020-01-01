@@ -74,6 +74,16 @@ MOZALLOC_EXPORT
 #
 endif
 MOZALLOC_EXPORT
+#
+if
+!
+defined
+(
+__arm__
+)
+MOZ_NORETURN
+#
+endif
 void
 mozalloc_abort
 (
