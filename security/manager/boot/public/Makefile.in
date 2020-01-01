@@ -441,10 +441,6 @@ NULL
 XPIDLSRCS
 =
 \
-nsISSLStatusProvider
-.
-idl
-\
 nsIBufEntropyCollector
 .
 idl

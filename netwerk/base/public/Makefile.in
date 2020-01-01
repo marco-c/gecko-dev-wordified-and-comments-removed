@@ -477,6 +477,10 @@ nsITraceableChannel
 .
 idl
 \
+nsIX509Cert
+.
+idl
+\
 (
 NULL
 )
@@ -804,6 +808,14 @@ mozIThirdPartyUtil
 idl
 \
 nsISerializationHelper
+.
+idl
+\
+nsISSLStatus
+.
+idl
+\
+nsISSLStatusProvider
 .
 idl
 \

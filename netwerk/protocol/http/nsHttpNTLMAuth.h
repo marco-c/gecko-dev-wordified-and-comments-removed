@@ -33,6 +33,11 @@ nsHttpNTLMAuth
 )
 {
 }
+private
+:
+PRBool
+mUseNative
+;
 }
 ;
 #

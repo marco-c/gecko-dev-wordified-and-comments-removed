@@ -116,6 +116,16 @@ mUsername
 nsString
 mPassword
 ;
+PRBool
+mIsFirst
+;
+void
+*
+mCertDERData
+;
+PRUint32
+mCertDERLength
+;
 }
 ;
 #
