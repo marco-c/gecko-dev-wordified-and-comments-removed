@@ -746,6 +746,13 @@ components
 dom_telephony
 .
 xpt
+BINPATH
+/
+components
+/
+dom_system_b2g
+.
+xpt
 #
 endif
 BINPATH

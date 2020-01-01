@@ -453,10 +453,6 @@ mozIDOMTelephony
 .
 idl
 \
-nsITelephonyWorker
-.
-idl
-\
 nsITelephone
 .
 idl

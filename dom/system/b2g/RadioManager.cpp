@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsITelephonyWorker
+nsIRadioWorker
 .
 h
 "
@@ -57,6 +57,13 @@ h
 include
 "
 jstypedarray
+.
+h
+"
+#
+include
+"
+nsTelephonyWorker
 .
 h
 "
@@ -961,7 +968,7 @@ rv
 ;
 nsCOMPtr
 <
-nsITelephonyWorker
+nsIRadioWorker
 >
 worker
 (

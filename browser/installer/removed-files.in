@@ -375,6 +375,11 @@ components
 dom_telephony
 .
 xpt
+components
+/
+dom_system_b2g
+.
+xpt
 #
 endif
 components
@@ -8720,6 +8725,11 @@ MOZ_B2G_RIL
 components
 /
 dom_telephony
+.
+xpt
+components
+/
+dom_system_b2g
 .
 xpt
 #
