@@ -156,6 +156,10 @@ aFilename
 PRUint8
 aIndex
 const
+nsAString
+&
+aName
+const
 PRUint8
 *
 aFontData
