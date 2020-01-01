@@ -8522,7 +8522,7 @@ localName
 toLowerCase
 (
 )
-=
+!
 =
 "
 html
@@ -8555,6 +8555,15 @@ this
 node
 .
 textContent
+;
+}
+if
+(
+s
+)
+{
+return
+s
 ;
 }
 var
