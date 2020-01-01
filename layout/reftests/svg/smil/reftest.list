@@ -357,6 +357,15 @@ reftest
 .
 list
 #
+event
+tests
+include
+event
+/
+reftest
+.
+list
+#
 General
 tests
 =

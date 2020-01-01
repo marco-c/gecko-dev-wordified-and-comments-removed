@@ -868,6 +868,12 @@ IsEmpty
 )
 ;
 }
+PRBool
+EndHasEventConditions
+(
+)
+const
+;
 PR_STATIC_CALLBACK
 (
 PLDHashOperator
@@ -945,9 +951,6 @@ EnumTable
 sRestartModeTable
 [
 ]
-;
-PRPackedBool
-mEndHasEventConditions
 ;
 InstanceTimeList
 mBeginInstances
