@@ -75,6 +75,14 @@ VPATH
 (
 srcdir
 )
+relativesrcdir
+=
+tools
+/
+profiler
+XPCSHELL_TESTS
+=
+tests
 include
 (
 DEPTH
