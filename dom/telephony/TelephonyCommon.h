@@ -140,6 +140,9 @@ Telephony
 class
 TelephonyCall
 ;
+class
+TelephonyCallGroup
+;
 END_TELEPHONY_NAMESPACE
 #
 endif

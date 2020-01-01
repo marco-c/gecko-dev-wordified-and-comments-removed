@@ -34,6 +34,12 @@ Telephony
 >
 mTelephony
 ;
+nsRefPtr
+<
+TelephonyCallGroup
+>
+mGroup
+;
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
@@ -46,6 +52,11 @@ CallsList
 Telephony
 *
 aTelephony
+TelephonyCallGroup
+*
+aGroup
+=
+nullptr
 )
 ;
 nsPIDOMWindow

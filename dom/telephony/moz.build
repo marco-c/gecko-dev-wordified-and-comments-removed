@@ -137,4 +137,9 @@ TelephonyCall
 .
 cpp
 '
+'
+TelephonyCallGroup
+.
+cpp
+'
 ]
