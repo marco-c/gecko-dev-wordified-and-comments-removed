@@ -6,11 +6,6 @@ QApplication
 #
 include
 <
-QSound
->
-#
-include
-<
 string
 .
 h
