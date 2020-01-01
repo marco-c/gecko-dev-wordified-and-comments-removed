@@ -3160,6 +3160,14 @@ if
 this
 .
 _highlightElement
+&
+&
+!
+(
+element
+instanceof
+HTMLSelectElement
+)
 )
 {
 this
