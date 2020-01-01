@@ -5237,7 +5237,11 @@ SetUpListWalker
 ;
 }
 }
-else
+if
+(
+!
+mOverflowContList
+)
 {
 mOverflowContList
 =
