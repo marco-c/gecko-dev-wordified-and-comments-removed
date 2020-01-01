@@ -683,7 +683,7 @@ ok
 true
 "
 function
-succesfully
+successfully
 caught
 exception
 :
