@@ -22,6 +22,16 @@ if
 (
 !
 count
+|
+|
+request
+.
+queryString
+=
+=
+'
+countreset
+'
 )
 count
 =
