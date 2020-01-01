@@ -1,4 +1,10 @@
 #
+ifndef
+MOZ_THREAD_HELPER_H
+#
+define
+MOZ_THREAD_HELPER_H
+#
 if
 defined
 (
@@ -279,3 +285,5 @@ NULL
 endif
 }
 }
+#
+endif
