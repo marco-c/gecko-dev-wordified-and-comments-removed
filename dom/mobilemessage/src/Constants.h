@@ -23,6 +23,12 @@ extern
 const
 char
 *
+kSmsRetrievingObserverTopic
+;
+extern
+const
+char
+*
 kSmsSendingObserverTopic
 ;
 extern

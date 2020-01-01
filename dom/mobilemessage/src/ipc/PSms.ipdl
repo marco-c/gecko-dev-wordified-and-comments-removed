@@ -278,6 +278,12 @@ MobileMessageData
 aMessageData
 )
 ;
+NotifyRetrievingMessage
+(
+MobileMessageData
+aMessageData
+)
+;
 NotifySendingMessage
 (
 MobileMessageData
