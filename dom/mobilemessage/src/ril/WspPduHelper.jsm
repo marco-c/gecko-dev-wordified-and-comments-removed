@@ -714,7 +714,8 @@ offset
 )
 {
 return
-null
+[
+]
 ;
 }
 let
@@ -7169,11 +7170,6 @@ content
 =
 null
 ;
-if
-(
-octetArray
-)
-{
 let
 charset
 =
@@ -7440,7 +7436,6 @@ mimeType
 }
 )
 ;
-}
 }
 parts
 [
