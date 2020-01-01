@@ -14319,6 +14319,13 @@ JSContext
 cx
 )
 {
+JS_CHECK_RECURSION
+(
+cx
+return
+false
+)
+;
 return
 GetProxyHandler
 (
