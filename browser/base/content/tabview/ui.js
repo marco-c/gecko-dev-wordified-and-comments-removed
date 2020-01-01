@@ -4133,9 +4133,7 @@ if
 (
 nextTab
 .
-inStack
-(
-)
+isStacked
 &
 &
 !
