@@ -189,10 +189,6 @@ nsSVGElement
 .
 cpp
 \
-nsSVGElementFactory
-.
-cpp
-\
 nsSVGEnum
 .
 cpp
@@ -342,6 +338,10 @@ SVGDefsElement
 cpp
 \
 SVGDescElement
+.
+cpp
+\
+SVGElementFactory
 .
 cpp
 \
