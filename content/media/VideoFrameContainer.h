@@ -25,13 +25,6 @@ h
 #
 include
 "
-nsISupportsImpl
-.
-h
-"
-#
-include
-"
 gfxPoint
 .
 h

@@ -7,6 +7,13 @@ h
 "
 #
 include
+"
+nsTArray
+.
+h
+"
+#
+include
 <
 algorithm
 >

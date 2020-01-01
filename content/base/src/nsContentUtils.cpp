@@ -124,6 +124,13 @@ h
 #
 include
 "
+nsNPAPIPluginInstance
+.
+h
+"
+#
+include
+"
 mozAutoDocUpdate
 .
 h
@@ -819,13 +826,6 @@ h
 include
 "
 nsIObjectLoadingContent
-.
-h
-"
-#
-include
-"
-nsNPAPIPluginInstance
 .
 h
 "

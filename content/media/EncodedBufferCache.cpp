@@ -15,7 +15,14 @@ h
 #
 include
 "
-nsLocalFile
+nsDOMFile
+.
+h
+"
+#
+include
+"
+prio
 .
 h
 "
