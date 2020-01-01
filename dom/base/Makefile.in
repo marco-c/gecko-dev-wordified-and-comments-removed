@@ -741,6 +741,14 @@ DEFINES
 -
 DMOZ_JSDEBUGGER
 endif
+ifdef
+MOZ_B2G_RIL
+DEFINES
++
+=
+-
+DMOZ_B2G_RIL
+endif
 include
 (
 topsrcdir
