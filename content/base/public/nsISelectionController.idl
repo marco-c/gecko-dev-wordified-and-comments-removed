@@ -737,6 +737,15 @@ SCROLL_FIRST_ANCESTOR_ONLY
 <
 2
 ;
+const
+short
+SCROLL_CENTER_VERTICALLY
+=
+1
+<
+<
+4
+;
 /
 *
 *
