@@ -2061,7 +2061,7 @@ login_failed
 "
 )
 ;
-alert
+doPrompt
 (
 alertStr
 )
@@ -2780,7 +2780,7 @@ nsIPKCS11Slot
 .
 SLOT_READY
 :
-alert
+doPrompt
 (
 bundle
 .
