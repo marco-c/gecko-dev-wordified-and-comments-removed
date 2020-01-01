@@ -420,15 +420,11 @@ open
 is
 (
 focusedWindow
-.
-location
 document
 .
 commandDispatcher
 .
 focusedWindow
-.
-location
 "
 Ctrl
 +
