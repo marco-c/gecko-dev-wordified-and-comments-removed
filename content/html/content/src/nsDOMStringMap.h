@@ -46,6 +46,13 @@ nsGenericHTMLElement
 .
 h
 "
+#
+include
+"
+jsfriendapi
+.
+h
+"
 namespace
 mozilla
 {

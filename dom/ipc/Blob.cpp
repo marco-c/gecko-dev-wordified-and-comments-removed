@@ -127,6 +127,13 @@ h
 #
 include
 "
+jsapi
+.
+h
+"
+#
+include
+"
 ContentChild
 .
 h

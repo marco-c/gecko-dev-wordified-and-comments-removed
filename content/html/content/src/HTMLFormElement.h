@@ -111,6 +111,13 @@ nsAsyncDOMEvent
 .
 h
 "
+#
+include
+"
+jsfriendapi
+.
+h
+"
 class
 nsIMutableArray
 ;

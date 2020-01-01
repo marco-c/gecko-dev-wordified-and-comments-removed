@@ -13,6 +13,13 @@ CheckedInt
 .
 h
 "
+#
+include
+"
+jsapi
+.
+h
+"
 class
 nsIPrincipal
 ;

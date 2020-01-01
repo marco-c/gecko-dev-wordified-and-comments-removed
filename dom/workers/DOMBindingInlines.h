@@ -70,6 +70,13 @@ WorkerNavigatorBinding
 .
 h
 "
+#
+include
+"
+jsfriendapi
+.
+h
+"
 BEGIN_WORKERS_NAMESPACE
 class
 FileReaderSync
