@@ -65,10 +65,6 @@ nsSVGGeometryFrame
 aSource
 float
 aOpacity
-void
-*
-*
-aClosure
 )
 =
 0

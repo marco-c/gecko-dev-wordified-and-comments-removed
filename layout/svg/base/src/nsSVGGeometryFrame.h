@@ -193,10 +193,6 @@ SetupCairoFill
 gfxContext
 *
 aContext
-void
-*
-*
-aClosure
 )
 ;
 void
@@ -221,10 +217,6 @@ SetupCairoStroke
 gfxContext
 *
 aContext
-void
-*
-*
-aClosure
 )
 ;
 protected

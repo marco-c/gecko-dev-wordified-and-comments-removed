@@ -1227,10 +1227,6 @@ return
 NS_OK
 ;
 }
-void
-*
-closure
-;
 if
 (
 HasFill
@@ -1241,8 +1237,6 @@ HasFill
 SetupCairoFill
 (
 gfx
-&
-closure
 )
 )
 {
@@ -1265,8 +1259,6 @@ HasStroke
 SetupCairoStroke
 (
 gfx
-&
-closure
 )
 )
 {

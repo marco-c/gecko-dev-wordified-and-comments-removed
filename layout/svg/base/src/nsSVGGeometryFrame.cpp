@@ -1285,10 +1285,6 @@ SetupCairoFill
 gfxContext
 *
 aContext
-void
-*
-*
-aClosure
 )
 {
 if
@@ -1376,7 +1372,6 @@ SetupPaintServer
 aContext
 this
 opacity
-aClosure
 )
 ;
 }
@@ -1651,10 +1646,6 @@ SetupCairoStroke
 gfxContext
 *
 aContext
-void
-*
-*
-aClosure
 )
 {
 SetupCairoStrokeHitGeometry
@@ -1712,7 +1703,6 @@ SetupPaintServer
 aContext
 this
 opacity
-aClosure
 )
 ;
 }

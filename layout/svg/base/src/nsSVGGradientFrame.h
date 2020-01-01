@@ -93,10 +93,6 @@ nsSVGGeometryFrame
 aSource
 float
 aGraphicOpacity
-void
-*
-*
-aClosure
 )
 ;
 NS_IMETHOD
