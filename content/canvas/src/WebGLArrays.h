@@ -223,7 +223,7 @@ JSContext
 cx
 jsval
 id
-PRUint32
+uint32
 *
 retval
 )
@@ -348,7 +348,7 @@ JSContext
 cx
 jsval
 id
-PRUint32
+uint32
 *
 retval
 )
@@ -474,7 +474,7 @@ JSContext
 cx
 jsval
 id
-PRUint32
+uint32
 *
 retval
 )
@@ -599,7 +599,7 @@ JSContext
 cx
 jsval
 id
-PRUint32
+uint32
 *
 retval
 )
@@ -725,7 +725,7 @@ JSContext
 cx
 jsval
 id
-PRUint32
+uint32
 *
 retval
 )
@@ -850,7 +850,7 @@ JSContext
 cx
 jsval
 id
-PRUint32
+uint32
 *
 retval
 )
@@ -976,7 +976,7 @@ JSContext
 cx
 jsval
 id
-PRUint32
+uint32
 *
 retval
 )

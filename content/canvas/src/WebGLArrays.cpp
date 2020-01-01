@@ -1227,7 +1227,7 @@ JSContext
 cx
 jsval
 id
-PRUint32
+uint32
 *
 retval
 )
@@ -1237,7 +1237,7 @@ ok
 =
 PR_FALSE
 ;
-PRUint32
+uint32
 index
 ;
 if
@@ -1321,7 +1321,7 @@ PRBool
 _retval
 )
 {
-PRUint32
+uint32
 index
 ;
 if
@@ -1394,7 +1394,7 @@ PRBool
 _retval
 )
 {
-PRUint32
+uint32
 index
 ;
 float
@@ -1437,6 +1437,9 @@ vp
 {
 val
 =
+(
+float
+)
 JSVAL_TO_INT
 (
 *
@@ -1466,6 +1469,9 @@ dval
 ;
 val
 =
+(
+float
+)
 dval
 ;
 }
@@ -1522,7 +1528,7 @@ PRBool
 _retval
 )
 {
-PRUint32
+uint32
 index
 ;
 PRBool
@@ -2527,7 +2533,7 @@ JSContext
 cx
 jsval
 id
-PRUint32
+uint32
 *
 retval
 )
@@ -2537,7 +2543,7 @@ ok
 =
 PR_FALSE
 ;
-PRUint32
+uint32
 index
 ;
 if
@@ -2621,7 +2627,7 @@ PRBool
 _retval
 )
 {
-PRUint32
+uint32
 index
 ;
 if
@@ -2694,10 +2700,10 @@ PRBool
 _retval
 )
 {
-PRUint32
+uint32
 index
 ;
-PRInt32
+int32
 val
 ;
 if
@@ -2780,6 +2786,9 @@ NS_ERROR_INVALID_ARG
 Set
 (
 index
+(
+char
+)
 val
 )
 ;
@@ -2815,7 +2824,7 @@ PRBool
 _retval
 )
 {
-PRUint32
+uint32
 index
 ;
 PRBool
@@ -3826,7 +3835,7 @@ JSContext
 cx
 jsval
 id
-PRUint32
+uint32
 *
 retval
 )
@@ -3836,7 +3845,7 @@ ok
 =
 PR_FALSE
 ;
-PRUint32
+uint32
 index
 ;
 if
@@ -3920,7 +3929,7 @@ PRBool
 _retval
 )
 {
-PRUint32
+uint32
 index
 ;
 if
@@ -3993,10 +4002,10 @@ PRBool
 _retval
 )
 {
-PRUint32
+uint32
 index
 ;
-PRUint32
+uint32
 val
 ;
 if
@@ -4079,6 +4088,10 @@ NS_ERROR_INVALID_ARG
 Set
 (
 index
+(
+unsigned
+char
+)
 val
 )
 ;
@@ -4114,7 +4127,7 @@ PRBool
 _retval
 )
 {
-PRUint32
+uint32
 index
 ;
 PRBool
@@ -5176,7 +5189,7 @@ JSContext
 cx
 jsval
 id
-PRUint32
+uint32
 *
 retval
 )
@@ -5186,7 +5199,7 @@ ok
 =
 PR_FALSE
 ;
-PRUint32
+uint32
 index
 ;
 if
@@ -5270,7 +5283,7 @@ PRBool
 _retval
 )
 {
-PRUint32
+uint32
 index
 ;
 if
@@ -5343,10 +5356,10 @@ PRBool
 _retval
 )
 {
-PRUint32
+uint32
 index
 ;
-PRInt32
+int32
 val
 ;
 if
@@ -5429,6 +5442,9 @@ NS_ERROR_INVALID_ARG
 Set
 (
 index
+(
+short
+)
 val
 )
 ;
@@ -5464,7 +5480,7 @@ PRBool
 _retval
 )
 {
-PRUint32
+uint32
 index
 ;
 PRBool
@@ -6532,7 +6548,7 @@ JSContext
 cx
 jsval
 id
-PRUint32
+uint32
 *
 retval
 )
@@ -6542,7 +6558,7 @@ ok
 =
 PR_FALSE
 ;
-PRUint32
+uint32
 index
 ;
 if
@@ -6626,7 +6642,7 @@ PRBool
 _retval
 )
 {
-PRUint32
+uint32
 index
 ;
 if
@@ -6699,10 +6715,10 @@ PRBool
 _retval
 )
 {
-PRUint32
+uint32
 index
 ;
-PRUint32
+uint32
 val
 ;
 if
@@ -6785,6 +6801,10 @@ NS_ERROR_INVALID_ARG
 Set
 (
 index
+(
+unsigned
+short
+)
 val
 )
 ;
@@ -6820,7 +6840,7 @@ PRBool
 _retval
 )
 {
-PRUint32
+uint32
 index
 ;
 PRBool
@@ -7879,7 +7899,7 @@ JSContext
 cx
 jsval
 id
-PRUint32
+uint32
 *
 retval
 )
@@ -7889,7 +7909,7 @@ ok
 =
 PR_FALSE
 ;
-PRUint32
+uint32
 index
 ;
 if
@@ -7973,7 +7993,7 @@ PRBool
 _retval
 )
 {
-PRUint32
+uint32
 index
 ;
 if
@@ -8046,10 +8066,10 @@ PRBool
 _retval
 )
 {
-PRUint32
+uint32
 index
 ;
-PRInt32
+int32
 val
 ;
 if
@@ -8167,7 +8187,7 @@ PRBool
 _retval
 )
 {
-PRUint32
+uint32
 index
 ;
 PRBool
@@ -9231,7 +9251,7 @@ JSContext
 cx
 jsval
 id
-PRUint32
+uint32
 *
 retval
 )
@@ -9241,7 +9261,7 @@ ok
 =
 PR_FALSE
 ;
-PRUint32
+uint32
 index
 ;
 if
@@ -9325,7 +9345,7 @@ PRBool
 _retval
 )
 {
-PRUint32
+uint32
 index
 ;
 if
@@ -9398,10 +9418,10 @@ PRBool
 _retval
 )
 {
-PRUint32
+uint32
 index
 ;
-PRUint32
+uint32
 val
 ;
 if
@@ -9519,7 +9539,7 @@ PRBool
 _retval
 )
 {
-PRUint32
+uint32
 index
 ;
 PRBool
