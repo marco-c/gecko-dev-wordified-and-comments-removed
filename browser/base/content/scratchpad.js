@@ -739,10 +739,10 @@ aString
 )
 ;
 }
-execute
+run
 :
 function
-SP_execute
+SP_run
 (
 )
 {
@@ -798,7 +798,7 @@ result
 =
 this
 .
-execute
+run
 (
 )
 ;
@@ -817,10 +817,10 @@ result
 ;
 }
 }
-print
+display
 :
 function
-SP_print
+SP_display
 (
 )
 {
@@ -869,7 +869,7 @@ result
 =
 this
 .
-execute
+run
 (
 )
 ;
