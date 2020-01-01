@@ -479,9 +479,16 @@ NULL
 )
 ifeq
 (
-android
 (
 MOZ_WIDGET_TOOLKIT
+)
+(
+findstring
+(
+MOZ_WIDGET_TOOLKIT
+)
+android
+gonk
 )
 )
 OS_CXXFLAGS
