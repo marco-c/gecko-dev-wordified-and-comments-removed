@@ -1751,8 +1751,11 @@ JSScript
 *
 script
 ;
-unsigned
-finalizeKind
+gc
+:
+:
+AllocKind
+allocKind
 ;
 const
 Shape
@@ -1998,7 +2001,10 @@ js
 Class
 *
 aclasp
-unsigned
+gc
+:
+:
+AllocKind
 kind
 )
 ;

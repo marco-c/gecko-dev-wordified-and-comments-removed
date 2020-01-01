@@ -1964,12 +1964,7 @@ isAtom
 ;
 if
 (
-arenaHeader
-(
-)
--
->
-getThingKind
+getAllocKind
 (
 )
 =
@@ -1994,12 +1989,7 @@ rt
 else
 JS_ASSERT
 (
-arenaHeader
-(
-)
--
->
-getThingKind
+getAllocKind
 (
 )
 =

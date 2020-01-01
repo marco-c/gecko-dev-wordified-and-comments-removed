@@ -169,7 +169,10 @@ js
 Class
 *
 aclasp
-unsigned
+gc
+:
+:
+AllocKind
 kind
 )
 {

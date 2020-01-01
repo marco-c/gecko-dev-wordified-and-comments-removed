@@ -9438,10 +9438,7 @@ NULL
 #
 ifdef
 JS_THREADSAFE
-Maybe
-<
 AutoLockGC
->
 maybeLock
 ;
 if
@@ -9457,7 +9454,7 @@ gcMarkAndSweep
 )
 maybeLock
 .
-construct
+lock
 (
 cx
 -
@@ -22062,7 +22059,7 @@ return
 gc
 :
 :
-FinalizeKind
+AllocKind
 kind
 =
 gc
@@ -22258,12 +22255,9 @@ type
 newScript
 -
 >
-finalizeKind
+allocKind
 =
-unsigned
-(
 kind
-)
 ;
 type
 -

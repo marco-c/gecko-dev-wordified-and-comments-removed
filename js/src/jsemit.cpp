@@ -22774,7 +22774,7 @@ PNX_NONCONST
 gc
 :
 :
-FinalizeKind
+AllocKind
 kind
 =
 GuessObjectGCKind
@@ -32538,7 +32538,7 @@ compileAndGo
 gc
 :
 :
-FinalizeKind
+AllocKind
 kind
 =
 GuessObjectGCKind

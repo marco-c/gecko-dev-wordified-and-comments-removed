@@ -27553,7 +27553,7 @@ else
 gc
 :
 :
-FinalizeKind
+AllocKind
 kind
 =
 GuessObjectGCKind

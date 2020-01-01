@@ -1998,12 +1998,6 @@ hasPropertyTable
 )
 const
 ;
-unsigned
-finalizeKind
-(
-)
-const
-;
 uint32
 numSlots
 (
@@ -4539,7 +4533,13 @@ parent
 void
 *
 priv
-unsigned
+js
+:
+:
+gc
+:
+:
+AllocKind
 kind
 )
 ;
