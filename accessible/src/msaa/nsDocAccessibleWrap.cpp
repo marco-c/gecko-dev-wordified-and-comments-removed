@@ -1053,6 +1053,13 @@ NotifyOfInitialUpdate
 (
 )
 {
+nsDocAccessible
+:
+:
+NotifyOfInitialUpdate
+(
+)
+;
 if
 (
 nsWinUtils
