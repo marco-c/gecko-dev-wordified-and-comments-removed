@@ -56,7 +56,6 @@ Action
 GET
 SET
 CALL
-PUNCTURE
 }
 ;
 enum
