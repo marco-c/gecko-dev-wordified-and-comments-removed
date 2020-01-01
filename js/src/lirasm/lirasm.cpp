@@ -9823,7 +9823,7 @@ OP___
 mOpMap
 [
 "
-alloc
+allocp
 "
 ]
 =
@@ -9832,10 +9832,10 @@ mOpMap
 PTR_SIZE
 (
 "
-ialloc
+allocl
 "
 "
-qalloc
+allocq
 "
 )
 ]
@@ -9843,7 +9843,7 @@ qalloc
 mOpMap
 [
 "
-param
+paramp
 "
 ]
 =
@@ -9852,10 +9852,10 @@ mOpMap
 PTR_SIZE
 (
 "
-iparam
+paraml
 "
 "
-qparam
+paramq
 "
 )
 ]

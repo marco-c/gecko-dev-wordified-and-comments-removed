@@ -13,11 +13,11 @@ overflow
 .
 big
 =
-int
+imml
 1073741824
 two
 =
-int
+imml
 2
 ;
 Because
@@ -82,7 +82,7 @@ trickery
 .
 res
 =
-mulxov
+mulxovl
 big
 two
 ;
@@ -105,9 +105,9 @@ dead
 .
 m
 =
-alloc
+allocp
 4
-sti
+stl
 res
 m
 0
