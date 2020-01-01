@@ -10361,6 +10361,9 @@ enclosingScriptsCompiledSuccessfully
 )
 const
 {
+AutoAssertNoGC
+nogc
+;
 RawObject
 enclosing
 =
@@ -10397,8 +10400,13 @@ if
 fun
 -
 >
-hasScript
+script
 (
+)
+.
+get
+(
+nogc
 )
 )
 return
