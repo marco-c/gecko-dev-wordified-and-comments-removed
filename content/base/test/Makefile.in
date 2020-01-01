@@ -886,6 +886,10 @@ test_bug424212
 .
 html
 \
+test_bug425013
+.
+html
+\
 test_XHR
 .
 html
