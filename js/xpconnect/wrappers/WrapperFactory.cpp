@@ -43,6 +43,13 @@ h
 #
 include
 "
+WrapperFactory
+.
+h
+"
+#
+include
+"
 xpcprivate
 .
 h

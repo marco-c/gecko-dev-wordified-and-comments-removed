@@ -66,6 +66,13 @@ h
 #
 include
 "
+WrapperFactory
+.
+h
+"
+#
+include
+"
 nsWrapperCacheInlines
 .
 h
