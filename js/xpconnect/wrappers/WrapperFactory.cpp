@@ -1714,10 +1714,10 @@ if
 AccessCheck
 :
 :
-isSameOrigin
+subsumes
 (
-origin
 target
+origin
 )
 )
 {
