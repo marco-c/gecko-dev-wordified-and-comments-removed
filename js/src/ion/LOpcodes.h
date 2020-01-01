@@ -363,6 +363,11 @@ Lambda
 \
 _
 (
+LambdaForSingleton
+)
+\
+_
+(
 ImplicitThis
 )
 \
