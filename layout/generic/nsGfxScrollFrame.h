@@ -179,8 +179,10 @@ CreateAnonymousContent
 (
 nsTArray
 <
-nsIContent
-*
+nsIAnonymousContentCreator
+:
+:
+ContentInfo
 >
 &
 aElements
@@ -1517,8 +1519,7 @@ CreateAnonymousContent
 (
 nsTArray
 <
-nsIContent
-*
+ContentInfo
 >
 &
 aElements
@@ -2314,8 +2315,7 @@ CreateAnonymousContent
 (
 nsTArray
 <
-nsIContent
-*
+ContentInfo
 >
 &
 aElements
