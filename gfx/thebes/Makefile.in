@@ -437,6 +437,14 @@ gfxAlphaRecovery
 .
 h
 \
+gfxAtomList
+.
+h
+\
+gfxAtoms
+.
+h
+\
 gfxBlur
 .
 h
