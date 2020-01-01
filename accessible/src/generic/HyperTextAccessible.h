@@ -582,6 +582,13 @@ aName
 )
 MOZ_OVERRIDE
 ;
+virtual
+void
+CacheChildren
+(
+)
+MOZ_OVERRIDE
+;
 int32_t
 ConvertMagicOffset
 (

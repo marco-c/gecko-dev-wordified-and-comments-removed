@@ -84,6 +84,10 @@ aContent
 aDoc
 )
 {
+mType
+=
+eHTMLBRType
+;
 }
 virtual
 a11y
