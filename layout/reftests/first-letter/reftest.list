@@ -473,8 +473,7 @@ fails
 -
 if
 (
-!
-gtk2Widget
+winWidget
 )
 =
 =
@@ -497,8 +496,11 @@ fails
 -
 if
 (
+winWidget
+&
+&
 !
-gtk2Widget
+d2d
 )
 =
 =
@@ -516,7 +518,7 @@ ref
 html
 #
 bug
-614468
+615445
 =
 =
 342120
