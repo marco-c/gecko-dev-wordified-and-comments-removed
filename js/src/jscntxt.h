@@ -2801,10 +2801,6 @@ VMAllocator
 *
 tempAlloc
 ;
-VMAllocator
-*
-reTempAlloc
-;
 nanojit
 :
 :
