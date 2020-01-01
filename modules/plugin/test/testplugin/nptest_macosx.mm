@@ -437,6 +437,9 @@ return
 NPERR_INCOMPATIBLE_VERSION_ERROR
 ;
 }
+#
+ifndef
+NP_NO_CARBON
 /
 /
 The
@@ -522,6 +525,8 @@ NPEventModelCarbon
 ;
 }
 }
+#
+endif
 if
 (
 sCurrentEventModel
