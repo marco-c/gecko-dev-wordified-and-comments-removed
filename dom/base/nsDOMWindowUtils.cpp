@@ -3439,7 +3439,6 @@ presShell
 NS_ERROR_FAILURE
 )
 ;
-return
 presShell
 -
 >
@@ -3447,6 +3446,9 @@ DisableNonTestMouseEvents
 (
 aDisable
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP
