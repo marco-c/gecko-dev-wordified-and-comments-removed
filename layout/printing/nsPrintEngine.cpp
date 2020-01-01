@@ -1210,6 +1210,10 @@ mIsDestroying
 (
 false
 )
+mDisallowSelectionPrint
+(
+false
+)
 {
 }
 nsPrintEngine
@@ -2519,6 +2523,11 @@ nsIPrintSettings
 :
 :
 kEnableSelectionRB
+!
+mDisallowSelectionPrint
+&
+&
+(
 isSelection
 |
 |
@@ -2526,6 +2535,7 @@ mPrt
 -
 >
 mIsIFrameSelected
+)
 )
 ;
 nsCOMPtr
