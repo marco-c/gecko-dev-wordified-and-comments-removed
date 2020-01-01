@@ -110,13 +110,6 @@ nsIContent
 .
 h
 "
-#
-include
-"
-xpcpublic
-.
-h
-"
 using
 namespace
 mozilla
