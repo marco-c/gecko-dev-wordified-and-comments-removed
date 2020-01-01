@@ -14,13 +14,6 @@ h
 #
 ifdef
 CAIRO_HAS_DIRECTFB_SURFACE
-#
-include
-<
-directfb
-.
-h
->
 CAIRO_BEGIN_DECLS
 cairo_public
 cairo_surface_t
