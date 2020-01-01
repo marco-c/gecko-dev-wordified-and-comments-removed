@@ -183,7 +183,7 @@ class
 nsIObjectOutputStream
 ;
 class
-nsIScriptGlobalObjectOwner
+nsIScriptGlobalObject
 ;
 class
 nsXULPrototypeNode
@@ -840,9 +840,9 @@ aLineNo
 nsIDocument
 *
 aDocument
-nsIScriptGlobalObjectOwner
+nsIScriptGlobalObject
 *
-aGlobalOwner
+aGlobal
 )
 ;
 void
