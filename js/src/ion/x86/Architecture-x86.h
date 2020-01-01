@@ -176,7 +176,7 @@ const
 uint32
 Allocatable
 =
-6
+7
 ;
 static
 const

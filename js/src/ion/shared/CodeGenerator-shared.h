@@ -240,7 +240,10 @@ framePushed
 (
 )
 +
-ION_FRAME_PREFIX_SIZE
+sizeof
+(
+IonJSFrameLayout
+)
 +
 slot
 ;

@@ -525,6 +525,10 @@ pendingProxyOperation
 ConservativeGCThreadData
 conservativeGC
 ;
+uint8
+*
+ionTop
+;
 #
 ifdef
 DEBUG
