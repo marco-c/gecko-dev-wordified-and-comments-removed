@@ -2758,13 +2758,6 @@ rv
 )
 )
 {
-aTextRun
--
->
-ResetGlyphRuns
-(
-)
-;
 result
 =
 PR_FALSE
