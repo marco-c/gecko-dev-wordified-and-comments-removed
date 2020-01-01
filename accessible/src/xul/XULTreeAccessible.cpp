@@ -8,6 +8,15 @@ h
 #
 include
 "
+DocAccessible
+-
+inl
+.
+h
+"
+#
+include
+"
 nsAccCache
 .
 h
@@ -2659,7 +2668,7 @@ Document
 )
 -
 >
-FireDelayedAccessibleEvent
+FireDelayedEvent
 (
 reorderEvent
 )

@@ -1008,7 +1008,7 @@ eCoalesceOfSameType
 aDocument
 -
 >
-FireDelayedAccessibleEvent
+FireDelayedEvent
 (
 event
 )

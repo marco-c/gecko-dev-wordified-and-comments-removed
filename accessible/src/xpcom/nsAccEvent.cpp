@@ -149,6 +149,11 @@ node
 mEvent
 -
 >
+GetAccessible
+(
+)
+-
+>
 GetNode
 (
 )

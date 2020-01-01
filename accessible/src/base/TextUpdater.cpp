@@ -428,7 +428,7 @@ false
 mDocument
 -
 >
-FireDelayedAccessibleEvent
+FireDelayedEvent
 (
 textRemoveEvent
 )
@@ -459,7 +459,7 @@ true
 mDocument
 -
 >
-FireDelayedAccessibleEvent
+FireDelayedEvent
 (
 textInsertEvent
 )
@@ -714,7 +714,7 @@ idx
 mDocument
 -
 >
-FireDelayedAccessibleEvent
+FireDelayedEvent
 (
 events
 [
