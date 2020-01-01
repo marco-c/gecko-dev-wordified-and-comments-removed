@@ -3289,11 +3289,10 @@ operands_
 block
 -
 >
-gen
+graph
 (
 )
--
->
+.
 allocate
 <
 MDefinition
