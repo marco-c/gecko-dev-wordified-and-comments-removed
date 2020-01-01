@@ -7631,7 +7631,7 @@ support
 baseURL
 "
 "
-http
+https
 :
 /
 /
