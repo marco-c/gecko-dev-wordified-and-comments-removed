@@ -147,7 +147,7 @@ aState
 aExtraState
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_A11Y_SUCCESS
 (
 rv
 rv
@@ -378,7 +378,7 @@ aState
 aExtraState
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_A11Y_SUCCESS
 (
 rv
 rv
@@ -622,7 +622,7 @@ aState
 aExtraState
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_A11Y_SUCCESS
 (
 rv
 rv

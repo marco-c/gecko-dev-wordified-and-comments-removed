@@ -1047,6 +1047,9 @@ PRUint32
 aExtraState
 )
 {
+nsresult
+rv
+=
 nsAccessible
 :
 :
@@ -1056,13 +1059,11 @@ aState
 aExtraState
 )
 ;
-if
+NS_ENSURE_A11Y_SUCCESS
 (
-!
-mDOMNode
+rv
+rv
 )
-return
-NS_OK
 ;
 #
 ifdef
