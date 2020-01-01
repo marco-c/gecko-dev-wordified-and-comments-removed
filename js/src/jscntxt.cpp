@@ -1114,6 +1114,10 @@ cxCallback
 (
 cx
 JSCONTEXT_NEW
+rt
+-
+>
+cxCallbackData
 )
 )
 {
@@ -1255,6 +1259,10 @@ cxCallback
 (
 cx
 JSCONTEXT_DESTROY
+rt
+-
+>
+cxCallbackData
 )
 )
 ;

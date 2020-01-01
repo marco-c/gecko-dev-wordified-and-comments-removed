@@ -3437,6 +3437,10 @@ interpreterFrames
 JSContextCallback
 cxCallback
 ;
+void
+*
+cxCallbackData
+;
 JSDestroyCompartmentCallback
 destroyCompartmentCallback
 ;

@@ -3458,6 +3458,9 @@ JSContext
 cx
 unsigned
 contextOp
+void
+*
+data
 )
 ;
 typedef
@@ -6692,7 +6695,7 @@ MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 extern
 JS_PUBLIC_API
 (
-JSContextCallback
+void
 )
 JS_SetContextCallback
 (
@@ -6701,6 +6704,9 @@ JSRuntime
 rt
 JSContextCallback
 cxCallback
+void
+*
+data
 )
 ;
 extern
