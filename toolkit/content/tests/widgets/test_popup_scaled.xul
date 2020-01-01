@@ -736,12 +736,6 @@ screenTest
 =
 true
 ;
-setScale
-(
-window
-2
-)
-;
 var
 box
 =
@@ -829,6 +823,12 @@ screenY
 )
 /
 2
+;
+setScale
+(
+window
+2
+)
 ;
 (
 "
