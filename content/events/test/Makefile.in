@@ -431,6 +431,14 @@ mk
 _TEST_FILES
 =
 \
+test_bug226361
+.
+xhtml
+\
+bug226361_iframe
+.
+xhtml
+\
 test_bug238987
 .
 html
