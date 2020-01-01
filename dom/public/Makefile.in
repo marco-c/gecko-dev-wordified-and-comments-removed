@@ -515,6 +515,10 @@ nsDOMScriptObjectHolder
 .
 h
 \
+nsWrapperCache
+.
+h
+\
 (
 NULL
 )
