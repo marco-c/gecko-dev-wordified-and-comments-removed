@@ -577,9 +577,6 @@ GARBAGE_DIRS
 +
 =
 classes
-DIRS
-=
-utils
 #
 Bug
 567884
