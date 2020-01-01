@@ -1,4 +1,10 @@
 include
+checkbox
+/
+reftest
+.
+list
+include
 email
 /
 reftest
