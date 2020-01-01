@@ -231,7 +231,7 @@ process_exit_wait_handle_
 value
 ;
 }
-bool
+void
 UnregisterWaits
 (
 )
