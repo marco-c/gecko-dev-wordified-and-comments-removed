@@ -1040,6 +1040,9 @@ return
 zLevel
 ;
 }
+#
+ifdef
+XP_WIN
 static
 PRBool
 CheckForFullscreenWindow
@@ -1208,6 +1211,8 @@ return
 PR_FALSE
 ;
 }
+#
+endif
 nsresult
 nsAppShellService
 :
