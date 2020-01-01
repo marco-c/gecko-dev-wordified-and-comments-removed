@@ -1412,9 +1412,10 @@ closedTabItem
 )
 self
 .
-_activeTab
-=
+setActiveTab
+(
 null
+)
 ;
 }
 )
