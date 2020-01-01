@@ -380,7 +380,7 @@ nsHTMLModElement
 .
 cpp
 \
-nsHTMLObjectElement
+HTMLObjectElement
 .
 cpp
 \
