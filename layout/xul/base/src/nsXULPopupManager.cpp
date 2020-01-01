@@ -2040,6 +2040,7 @@ InitializePopupAtScreen
 (
 aXPos
 aYPos
+aIsContextMenu
 )
 ;
 FirePopupShowingEvent

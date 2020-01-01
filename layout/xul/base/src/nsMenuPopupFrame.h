@@ -509,6 +509,8 @@ PRInt32
 aXPos
 PRInt32
 aYPos
+PRBool
+aIsContextMenu
 )
 ;
 void
@@ -840,6 +842,9 @@ mIsOpenChanged
 ;
 PRPackedBool
 mIsContextMenu
+;
+PRPackedBool
+mAdjustOffsetForContextMenu
 ;
 PRPackedBool
 mGeneratedChildren
