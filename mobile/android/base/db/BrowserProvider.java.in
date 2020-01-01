@@ -10319,7 +10319,6 @@ private
 int
 createDistributionBookmarks
 (
-final
 SQLiteDatabase
 db
 )
@@ -10637,6 +10636,13 @@ run
 (
 )
 {
+SQLiteDatabase
+db
+=
+getWritableDatabase
+(
+)
+;
 try
 {
 String
@@ -10745,7 +10751,6 @@ private
 void
 createDefaultBookmarks
 (
-final
 SQLiteDatabase
 db
 int
@@ -10985,6 +10990,13 @@ run
 (
 )
 {
+SQLiteDatabase
+db
+=
+getWritableDatabase
+(
+)
+;
 Bitmap
 icon
 =
