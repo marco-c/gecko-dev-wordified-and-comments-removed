@@ -267,6 +267,11 @@ aType
 1
 "
 ;
+let
+wrapped
+=
+false
+;
 if
 (
 contractID
@@ -316,6 +321,10 @@ wrapMessage
 aMessage
 )
 ;
+wrapped
+=
+true
+;
 debug
 (
 "
@@ -332,6 +341,10 @@ aHandler
 .
 handleMessage
 (
+wrapped
+?
+aMessage
+:
 ObjectWrapper
 .
 wrap
