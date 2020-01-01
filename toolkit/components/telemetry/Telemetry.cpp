@@ -166,6 +166,15 @@ Preferences
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 {
 using
@@ -448,6 +457,7 @@ Count
 }
 class
 TelemetryImpl
+MOZ_FINAL
 :
 public
 nsITelemetry

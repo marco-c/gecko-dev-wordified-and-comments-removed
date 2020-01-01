@@ -11,6 +11,15 @@ nsIJSInspector
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -19,6 +28,7 @@ jsinspector
 {
 class
 nsJSInspector
+MOZ_FINAL
 :
 public
 nsIJSInspector

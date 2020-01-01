@@ -11,6 +11,15 @@ nsIXPCScriptable
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -19,6 +28,7 @@ jsperf
 {
 class
 Module
+MOZ_FINAL
 :
 public
 nsIXPCScriptable
