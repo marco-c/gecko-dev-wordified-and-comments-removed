@@ -11,4 +11,14 @@ importedScriptFunction
 (
 )
 {
+dump
+(
+"
+running
+importedScriptFunction
+\
+n
+"
+)
+;
 }

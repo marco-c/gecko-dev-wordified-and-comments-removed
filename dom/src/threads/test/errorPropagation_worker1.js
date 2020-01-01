@@ -52,7 +52,7 @@ preventDefault
 throw
 event
 .
-message
+data
 ;
 break
 ;
@@ -69,7 +69,7 @@ postMessage
 (
 event
 .
-message
+data
 )
 ;
 worker
