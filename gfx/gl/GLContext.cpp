@@ -199,6 +199,9 @@ GL_EXT_unpack_subimage
 GL_OES_standard_derivatives
 "
 "
+GL_EXT_texture_filter_anisotropic
+"
+"
 GL_EXT_framebuffer_blit
 "
 "

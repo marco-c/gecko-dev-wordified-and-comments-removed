@@ -5,6 +5,15 @@ standard
 derivatives
 .
 html
+ext
+-
+texture
+-
+filter
+-
+anisotropic
+.
+html
 oes
 -
 texture

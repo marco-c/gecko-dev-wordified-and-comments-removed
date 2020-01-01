@@ -500,6 +500,10 @@ WebGLExtensionStandardDerivatives
 .
 cpp
 \
+WebGLExtensionTextureFilterAnisotropic
+.
+cpp
+\
 WebGLExtensionLoseContext
 .
 cpp

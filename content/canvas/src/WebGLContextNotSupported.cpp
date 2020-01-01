@@ -99,6 +99,11 @@ void
 )
 DOMCI_DATA
 (
+WebGLExtensionTextureFilterAnisotropic
+void
+)
+DOMCI_DATA
+(
 WebGLExtensionLoseContext
 void
 )
