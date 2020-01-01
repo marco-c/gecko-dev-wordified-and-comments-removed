@@ -11,6 +11,13 @@ MIR
 .
 h
 "
+#
+include
+"
+MIRGraph
+.
+h
+"
 namespace
 js
 {
@@ -278,7 +285,7 @@ oracle
 public
 :
 bool
-analyze
+build
 (
 )
 ;

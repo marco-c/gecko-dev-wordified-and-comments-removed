@@ -39,14 +39,6 @@ MIRGraph
 graph
 )
 ;
-void
-RenumberInstructions
-(
-MIRGraph
-&
-graph
-)
-;
 }
 }
 #
