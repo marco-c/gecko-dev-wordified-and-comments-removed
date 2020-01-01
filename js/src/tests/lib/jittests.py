@@ -1,7 +1,5 @@
 import
-datetime
 os
-re
 sys
 tempfile
 traceback
@@ -26,7 +24,6 @@ from
 multiprocessing
 import
 Process
-Queue
 Manager
 cpu_count
     
@@ -1236,9 +1233,6 @@ l
 )
 )
     
-import
-signal
-    
 sigint_handler
 =
 signal
@@ -1413,9 +1407,6 @@ None
             
 try
 :
-                
-import
-signal
                 
 if
 sys
