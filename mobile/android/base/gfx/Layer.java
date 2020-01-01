@@ -553,6 +553,11 @@ pageSize
 ;
 public
 final
+IntSize
+screenSize
+;
+public
+final
 float
 zoomFactor
 ;
@@ -578,6 +583,8 @@ RectF
 aViewport
 FloatSize
 aPageSize
+IntSize
+aScreenSize
 float
 aZoomFactor
 int
@@ -595,6 +602,10 @@ aViewport
 pageSize
 =
 aPageSize
+;
+screenSize
+=
+aScreenSize
 ;
 zoomFactor
 =
