@@ -1092,12 +1092,8 @@ key
 <
 string
 >
-org
-.
-mozilla
-.
 %
-LOWER_MAC_APP_NAME
+MOZ_MACBUNDLE_ID
 %
 <
 /
@@ -1440,7 +1436,7 @@ key
 string
 >
 %
-APP_VERSION
+MAC_BUNDLE_VERSION
 %
 <
 /

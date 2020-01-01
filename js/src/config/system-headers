@@ -3883,6 +3883,11 @@ sydneyaudio
 sydney_audio
 .
 h
+speex
+/
+speex_resampler
+.
+h
 vorbis
 /
 codec

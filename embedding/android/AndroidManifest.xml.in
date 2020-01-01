@@ -128,7 +128,7 @@ android
 largeScreens
 =
 "
-true
+false
 "
 android
 :

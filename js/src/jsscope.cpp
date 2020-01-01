@@ -348,12 +348,9 @@ nbase
 )
 BaseShape
 (
-*
-self
--
->
-base
+StackBaseShape
 (
+self
 )
 )
 ;

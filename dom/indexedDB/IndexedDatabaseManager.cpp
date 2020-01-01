@@ -410,6 +410,7 @@ true
 }
 class
 QuotaCallback
+MOZ_FINAL
 :
 public
 mozIStorageQuotaCallback

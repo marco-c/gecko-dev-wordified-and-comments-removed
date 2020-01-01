@@ -81,6 +81,7 @@ StructuredCloneWriteInfo
 ;
 class
 IDBObjectStore
+MOZ_FINAL
 :
 public
 nsIIDBObjectStore

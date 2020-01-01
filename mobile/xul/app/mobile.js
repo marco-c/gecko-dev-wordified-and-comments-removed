@@ -2198,10 +2198,6 @@ sourceid
 =
 navclient
 &
-gfns
-=
-1
-&
 q
 =
 "
