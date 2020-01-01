@@ -179,9 +179,4 @@ nsIDOMBluetoothDeviceEvent
 .
 idl
 '
-'
-nsIDOMBluetoothDeviceAddressEvent
-.
-idl
-'
 ]
