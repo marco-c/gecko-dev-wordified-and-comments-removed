@@ -494,6 +494,17 @@ h
 (
 NULL
 )
+ifdef
+MOZ_X11
+EXPORTS_NAMESPACES
+=
+mozilla
+EXPORTS_mozilla
+=
+X11Util
+.
+h
+endif
 include
 (
 topsrcdir
