@@ -2621,6 +2621,7 @@ PaintType
 {
 PaintType_Composite
 PaintType_NoComposite
+PaintType_Full
 }
 ;
 virtual
