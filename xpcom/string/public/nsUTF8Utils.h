@@ -1034,7 +1034,6 @@ mErrorEncountered
 ;
 }
 void
-NS_ALWAYS_INLINE
 write
 (
 const
@@ -1232,7 +1231,6 @@ mLength
 ;
 }
 void
-NS_ALWAYS_INLINE
 write
 (
 const
@@ -1550,7 +1548,6 @@ mStart
 ;
 }
 void
-NS_ALWAYS_INLINE
 write
 (
 const
@@ -2061,7 +2058,6 @@ mSize
 ;
 }
 void
-NS_ALWAYS_INLINE
 write
 (
 const
