@@ -717,6 +717,11 @@ aCallbacks
 \
 {
 \
+if
+(
+fwdObject
+)
+\
 (
 fwdObject
 )
