@@ -559,6 +559,7 @@ return
 mBuffer
 ;
 }
+virtual
 void
 SetBuffer
 (
@@ -591,6 +592,13 @@ mDeAllocator
 =
 aAllocator
 ;
+}
+virtual
+void
+ForgetBuffer
+(
+)
+{
 }
 protected
 :
