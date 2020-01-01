@@ -192,7 +192,7 @@ if
 itemCount
 )
 {
-qDebug
+NS_WARNING
 (
 "
 No
@@ -215,7 +215,7 @@ if
 itemCount
 )
 {
-qDebug
+NS_WARNING
 (
 "
 Dragging
@@ -683,7 +683,7 @@ if
 aImage
 )
 {
-qDebug
+NS_WARNING
 (
 "
 Support

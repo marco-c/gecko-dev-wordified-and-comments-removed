@@ -11321,6 +11321,9 @@ nsPopupWindow
 (
 )
 {
+#
+ifdef
+DEBUG_WIDGETS
 qDebug
 (
 "
@@ -11350,6 +11353,8 @@ popup
 "
 )
 ;
+#
+endif
 }
 nsPopupWindow
 :
