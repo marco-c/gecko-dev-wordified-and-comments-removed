@@ -2339,12 +2339,6 @@ mSelConWeak
 PRInt32
 mUpdateCount
 ;
-nsIViewManager
-:
-:
-UpdateViewBatch
-mBatch
-;
 enum
 Tristate
 {
