@@ -141,13 +141,6 @@ h
 #
 include
 "
-nsNPAPIPluginInstance
-.
-h
-"
-#
-include
-"
 Layers
 .
 h

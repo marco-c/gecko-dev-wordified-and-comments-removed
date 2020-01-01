@@ -126,13 +126,9 @@ nsIURI
 C
 +
 +
-#
-include
-"
+class
 nsNPAPIPluginInstance
-.
-h
-"
+;
 %
 }
 [

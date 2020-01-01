@@ -39,9 +39,13 @@ nsPluginTags
 .
 h
 "
-class
+#
+include
+"
 nsPIDOMWindow
-;
+.
+h
+"
 class
 nsPluginElement
 ;

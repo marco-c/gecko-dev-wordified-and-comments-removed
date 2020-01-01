@@ -8,6 +8,13 @@ PluginPRLibrary
 h
 "
 #
+include
+"
+nsNPAPIPluginInstance
+.
+h
+"
+#
 if
 defined
 (

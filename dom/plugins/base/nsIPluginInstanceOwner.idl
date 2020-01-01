@@ -129,13 +129,9 @@ npapi
 .
 h
 "
-#
-include
-"
+class
 nsNPAPIPluginInstance
-.
-h
-"
+;
 class
 nsPluginEvent
 ;
