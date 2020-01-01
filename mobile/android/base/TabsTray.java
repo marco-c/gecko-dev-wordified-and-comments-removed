@@ -438,6 +438,13 @@ show
 (
 )
 {
+setVisibility
+(
+View
+.
+VISIBLE
+)
+;
 Tabs
 .
 getInstance
@@ -469,6 +476,13 @@ hide
 (
 )
 {
+setVisibility
+(
+View
+.
+GONE
+)
+;
 Tabs
 .
 unregisterOnTabsChangedListener
