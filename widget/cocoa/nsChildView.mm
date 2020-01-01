@@ -661,13 +661,6 @@ h
 #
 include
 "
-nsCocoaFeatures
-.
-h
-"
-#
-include
-"
 nsCocoaUtils
 .
 h
@@ -2115,7 +2108,7 @@ ifdef
 __LP64__
 if
 (
-nsCocoaFeatures
+nsToolkit
 :
 :
 OnLionOrLater
@@ -17634,7 +17627,7 @@ overflow
 if
 (
 !
-nsCocoaFeatures
+nsToolkit
 :
 :
 OnLionOrLater

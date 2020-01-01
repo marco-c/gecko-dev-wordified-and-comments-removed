@@ -489,13 +489,6 @@ h
 #
 include
 "
-nsCocoaFeatures
-.
-h
-"
-#
-include
-"
 nsCocoaUtils
 .
 h
@@ -983,7 +976,7 @@ explicitly
 .
 if
 (
-nsCocoaFeatures
+nsToolkit
 :
 :
 OnSnowLeopardOrLater

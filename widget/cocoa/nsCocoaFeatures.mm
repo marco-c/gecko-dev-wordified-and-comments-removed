@@ -485,13 +485,6 @@ nsDebug
 h
 "
 #
-include
-"
-nsObjCExceptions
-.
-h
-"
-#
 import
 <
 Cocoa
@@ -521,8 +514,6 @@ OSXVersion
 (
 )
 {
-NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
-;
 if
 (
 !
@@ -613,11 +604,6 @@ MAC_OS_X_VERSION_MASK
 }
 return
 mOSXVersion
-;
-NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
-(
-0
-)
 ;
 }
 /

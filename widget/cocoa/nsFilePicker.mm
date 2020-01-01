@@ -553,14 +553,14 @@ h
 #
 include
 "
-nsCocoaFeatures
+nsCocoaUtils
 .
 h
 "
 #
 include
 "
-nsCocoaUtils
+nsToolkit
 .
 h
 "
@@ -2466,7 +2466,7 @@ Length
 1
 &
 &
-nsCocoaFeatures
+nsToolkit
 :
 :
 OnSnowLeopardOrLater

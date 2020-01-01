@@ -605,13 +605,6 @@ h
 #
 include
 "
-nsCocoaFeatures
-.
-h
-"
-#
-include
-"
 gfxPlatform
 .
 h
@@ -14115,7 +14108,7 @@ NSButtonCell
 .
 if
 (
-nsCocoaFeatures
+nsToolkit
 :
 :
 OnLionOrLater
@@ -16153,7 +16146,7 @@ nil
 ;
 if
 (
-nsCocoaFeatures
+nsToolkit
 :
 :
 OnLionOrLater

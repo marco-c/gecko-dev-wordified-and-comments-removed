@@ -440,13 +440,6 @@ h
 #
 include
 "
-nsCocoaFeatures
-.
-h
-"
-#
-include
-"
 nsObjCExceptions
 .
 h
@@ -1549,7 +1542,7 @@ eColorID__moz_mac_menutextdisable
 :
 aColor
 =
-nsCocoaFeatures
+nsToolkit
 :
 :
 OnSnowLeopardOrLater
@@ -1966,7 +1959,7 @@ eIntID_ScrollArrowStyle
 :
 if
 (
-nsCocoaFeatures
+nsToolkit
 :
 :
 OnLionOrLater
@@ -2180,7 +2173,7 @@ eIntID_MacLionTheme
 :
 aResult
 =
-nsCocoaFeatures
+nsToolkit
 :
 :
 OnLionOrLater

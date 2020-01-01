@@ -7,7 +7,7 @@ nsNativeThemeColors_h_
 #
 include
 "
-nsCocoaFeatures
+nsToolkit
 .
 h
 "
@@ -159,7 +159,7 @@ isMain
 {
 if
 (
-nsCocoaFeatures
+nsToolkit
 :
 :
 OnLionOrLater
@@ -181,7 +181,7 @@ isMain
 ;
 if
 (
-nsCocoaFeatures
+nsToolkit
 :
 :
 OnSnowLeopardOrLater

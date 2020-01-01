@@ -591,7 +591,7 @@ h
 #
 include
 "
-nsCocoaFeatures
+nsToolkit
 .
 h
 "
@@ -10108,7 +10108,7 @@ aShouldGetButtonStates
 &
 &
 !
-nsCocoaFeatures
+nsToolkit
 :
 :
 OnLionOrLater
@@ -14240,7 +14240,7 @@ arrows
 if
 (
 !
-nsCocoaFeatures
+nsToolkit
 :
 :
 OnLionOrLater
