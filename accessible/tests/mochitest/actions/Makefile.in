@@ -467,6 +467,10 @@ test_inputs
 .
 html
 \
+test_link
+.
+html
+\
 test_tree
 .
 xul
