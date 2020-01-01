@@ -718,6 +718,14 @@ test_seekLies
 .
 html
 \
+test_media_sniffer
+.
+html
+\
+contentType
+.
+sjs
+\
 (
 NULL
 )

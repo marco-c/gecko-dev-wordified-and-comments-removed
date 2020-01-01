@@ -578,6 +578,14 @@ webm
 "
 #
 define
+AUDIO_MP3
+"
+audio
+/
+mpeg
+"
+#
+define
 BINARY_OCTET_STREAM
 "
 binary
