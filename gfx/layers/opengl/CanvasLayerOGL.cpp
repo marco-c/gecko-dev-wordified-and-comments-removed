@@ -1436,14 +1436,13 @@ mDeadweight
 )
 )
 {
-mOGLManager
+mAllocator
 -
 >
 DestroySharedSurface
 (
 &
 mDeadweight
-mAllocator
 )
 ;
 }
