@@ -1856,7 +1856,7 @@ relatedEl
 )
 )
 ;
-finalFocusContent
+finalFocusNode
 =
 do_QueryInterface
 (
@@ -1866,7 +1866,7 @@ relatedEl
 if
 (
 !
-finalFocusContent
+finalFocusNode
 )
 {
 return
