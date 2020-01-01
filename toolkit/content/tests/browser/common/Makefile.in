@@ -461,6 +461,10 @@ _loadAll
 .
 js
 \
+mockFilePicker
+.
+js
+\
 mockObjects
 .
 js
