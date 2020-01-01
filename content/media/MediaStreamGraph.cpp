@@ -8046,6 +8046,14 @@ Destroy
 (
 )
 {
+nsRefPtr
+<
+MediaStream
+>
+kungFuDeathGrip
+=
+this
+;
 class
 Message
 :
