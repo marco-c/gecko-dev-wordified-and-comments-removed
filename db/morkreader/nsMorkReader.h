@@ -33,6 +33,7 @@ nsAutoPtr
 h
 "
 class
+NS_STACK_CLASS
 nsMorkReader
 {
 public
