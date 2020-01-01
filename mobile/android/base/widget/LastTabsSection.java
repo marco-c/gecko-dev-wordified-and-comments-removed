@@ -734,9 +734,10 @@ favicon
 ;
 faviconView
 .
-setImageBitmap
+updateImage
 (
 favicon
+url
 )
 ;
 }

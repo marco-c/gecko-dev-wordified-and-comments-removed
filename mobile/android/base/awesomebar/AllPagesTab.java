@@ -3023,6 +3023,9 @@ iconView
 engine
 .
 icon
+engine
+.
+name
 )
 ;
 viewHolder
@@ -5146,6 +5149,7 @@ viewHolder
 .
 faviconView
 bitmap
+url
 )
 ;
 }
