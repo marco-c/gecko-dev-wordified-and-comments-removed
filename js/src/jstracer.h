@@ -663,6 +663,10 @@ nanojit
 :
 SideExit
 {
+JSObject
+*
+block
+;
 intptr_t
 ip_adj
 ;
@@ -868,6 +872,10 @@ FrameInfo
 JSObject
 *
 callee
+;
+JSObject
+*
+block
 ;
 intptr_t
 ip_adj
