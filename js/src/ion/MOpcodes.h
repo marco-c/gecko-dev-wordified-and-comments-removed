@@ -324,6 +324,11 @@ GetPropertyCache
 \
 _
 (
+BindNameCache
+)
+\
+_
+(
 GuardShape
 )
 \
