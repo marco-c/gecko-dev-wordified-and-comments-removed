@@ -235,13 +235,6 @@ storageData
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-storageData
--
->
-mUsageDelta
-=
-0
-;
 if
 (
 !
