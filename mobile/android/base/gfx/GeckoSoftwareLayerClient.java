@@ -587,6 +587,8 @@ registerGeckoEventListener
 Tab
 :
 Selected
+:
+Done
 "
 this
 )
@@ -2449,6 +2451,8 @@ event
 Tab
 :
 Selected
+:
+Done
 "
 .
 equals
