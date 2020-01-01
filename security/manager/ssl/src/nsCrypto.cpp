@@ -7327,6 +7327,9 @@ nsIPrincipal
 >
 principals
 ;
+nsresult
+rv
+=
 secMan
 -
 >
@@ -7336,6 +7339,12 @@ getter_AddRefs
 (
 principals
 )
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 NS_ENSURE_TRUE
@@ -7440,7 +7449,6 @@ cryptoRunnable
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-nsresult
 rv
 =
 NS_DispatchToMainThread

@@ -1918,6 +1918,9 @@ if
 secMan
 )
 {
+nsresult
+rv
+=
 secMan
 -
 >
@@ -1927,6 +1930,12 @@ getter_AddRefs
 (
 subjectPrincipal
 )
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 }

@@ -4993,6 +4993,9 @@ secMan
 NS_ERROR_UNEXPECTED
 )
 ;
+nsresult
+rv
+=
 secMan
 -
 >
@@ -5002,6 +5005,12 @@ getter_AddRefs
 (
 prin
 )
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 NS_ENSURE_TRUE

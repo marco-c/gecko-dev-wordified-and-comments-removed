@@ -858,6 +858,9 @@ nsIPrincipal
 >
 principal
 ;
+nsresult
+rv
+=
 secman
 -
 >
@@ -871,6 +874,12 @@ principal
 ;
 if
 (
+NS_FAILED
+(
+rv
+)
+|
+|
 !
 principal
 )
@@ -1483,7 +1492,6 @@ resolvedIcon
 )
 ;
 }
-nsresult
 rv
 =
 InstallTriggerCheckLoadURIFromScript
@@ -1615,7 +1623,6 @@ nsIURI
 >
 checkuri
 ;
-nsresult
 rv
 =
 nativeThis
