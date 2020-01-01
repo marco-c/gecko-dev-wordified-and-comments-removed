@@ -234,6 +234,9 @@ typedef
 uint32
 jsatomid
 ;
+#
+ifdef
+__cplusplus
 namespace
 js
 {
@@ -244,6 +247,8 @@ struct
 Compiler
 ;
 }
+#
+endif
 typedef
 struct
 JSArgumentFormatMap
