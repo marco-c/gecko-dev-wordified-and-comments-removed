@@ -7994,6 +7994,12 @@ mLength
 =
 0
 ;
+mXPosition
+.
+mHasPercent
+=
+PR_TRUE
+;
 mYPosition
 .
 mPercent
@@ -8007,6 +8013,12 @@ mYPosition
 mLength
 =
 0
+;
+mYPosition
+.
+mHasPercent
+=
+PR_TRUE
 ;
 }
 void
