@@ -353,6 +353,15 @@ nsIPrivateTextRangeList
 aTextRange
 )
 ;
+virtual
+already_AddRefed
+<
+nsIContent
+>
+GetInputEventTargetContent
+(
+)
+;
 NS_IMETHOD
 TypedText
 (

@@ -649,6 +649,10 @@ test_contenteditable_focus
 .
 html
 \
+test_dom_input_event_on_htmleditor
+.
+html
+\
 test_htmleditor_keyevent_handling
 .
 html
