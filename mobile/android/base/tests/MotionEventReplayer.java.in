@@ -592,7 +592,7 @@ toString
 (
 )
 in
-LayerController
+LayerView
 '
 s
 /
