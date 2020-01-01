@@ -2309,12 +2309,9 @@ setIonStackLimit
 1
 )
 ;
-JS_ATOMIC_SET
-(
-&
 interrupt
+=
 1
-)
 ;
 #
 ifdef
