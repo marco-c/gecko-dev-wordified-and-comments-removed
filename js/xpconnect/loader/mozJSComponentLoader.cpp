@@ -221,7 +221,7 @@ h
 #
 include
 "
-nsDOMBlobBuilder
+nsDOMFile
 .
 h
 "
@@ -1190,7 +1190,7 @@ native
 ;
 rv
 =
-nsDOMMultipartFile
+nsDOMFileFile
 :
 :
 NewFile
