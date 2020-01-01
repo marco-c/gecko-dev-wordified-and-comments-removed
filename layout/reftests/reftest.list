@@ -1243,6 +1243,15 @@ reftest
 list
 #
 xul
+/
+include
+xul
+/
+reftest
+.
+list
+#
+xul
 grid
 include
 .

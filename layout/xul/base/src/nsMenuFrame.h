@@ -667,6 +667,8 @@ aPresContext
 void
 BuildAcceleratorText
 (
+PRBool
+aNotify
 )
 ;
 void
@@ -777,6 +779,9 @@ mIsMenu
 ;
 PRPackedBool
 mChecked
+;
+PRPackedBool
+mIgnoreAccelTextChange
 ;
 nsMenuType
 mType
