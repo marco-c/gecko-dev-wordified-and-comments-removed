@@ -1652,6 +1652,11 @@ isCallsiteClone
 :
 1
 ;
+bool
+shouldInline
+:
+1
+;
 #
 ifdef
 JS_ION

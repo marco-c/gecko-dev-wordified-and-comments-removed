@@ -13783,6 +13783,16 @@ isGeneratorExp
 dst
 -
 >
+shouldInline
+=
+src
+-
+>
+shouldInline
+;
+dst
+-
+>
 shouldCloneAtCallsite
 =
 src

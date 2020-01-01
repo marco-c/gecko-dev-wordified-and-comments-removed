@@ -17346,6 +17346,16 @@ nonLazyScript
 ;
 if
 (
+targetScript
+-
+>
+shouldInline
+)
+return
+true
+;
+if
+(
 IsSmallFunction
 (
 targetScript
