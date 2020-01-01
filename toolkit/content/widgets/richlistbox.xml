@@ -517,6 +517,9 @@ this
 selectedCount
 )
 {
+let
+getId
+=
 function
 getId
 (
