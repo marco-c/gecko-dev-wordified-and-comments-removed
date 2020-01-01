@@ -199,7 +199,7 @@ ar
 cx
 )
 ;
-JSAutoEnterCompartment
+JSAutoCompartment
 ac
 (
 cx
