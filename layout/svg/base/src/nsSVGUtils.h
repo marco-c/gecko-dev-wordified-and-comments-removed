@@ -431,6 +431,16 @@ nsSVGUtils
 public
 :
 static
+nsIContent
+*
+GetParentElement
+(
+nsIContent
+*
+aContent
+)
+;
+static
 float
 GetFontSize
 (
