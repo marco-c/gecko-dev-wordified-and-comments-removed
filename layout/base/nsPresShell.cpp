@@ -24663,6 +24663,10 @@ params
 -
 >
 mBackgroundColor
+nsLayoutUtils
+:
+:
+PAINT_WIDGET_LAYERS
 )
 ;
 }
