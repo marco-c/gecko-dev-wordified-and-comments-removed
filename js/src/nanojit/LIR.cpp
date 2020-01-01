@@ -8582,6 +8582,9 @@ LIR_i2f
 case
 LIR_u2f
 :
+case
+LIR_mod
+:
 live
 .
 add
@@ -8713,9 +8716,6 @@ LIR_mul
 :
 case
 LIR_div
-:
-case
-LIR_mod
 :
 case
 LIR_fadd
