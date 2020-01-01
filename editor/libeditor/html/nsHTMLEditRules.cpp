@@ -18724,7 +18724,7 @@ n
 mHTMLEditor
 -
 >
-IsNodeInActiveEditor
+IsDescendantOfEditorRoot
 (
 n
 )
@@ -25610,7 +25610,7 @@ if
 mHTMLEditor
 -
 >
-IsNodeInActiveEditor
+IsDescendantOfEditorRoot
 (
 parent
 )
@@ -25624,7 +25624,7 @@ blockLevelAction
 mHTMLEditor
 -
 >
-IsNodeInActiveEditor
+IsDescendantOfEditorRoot
 (
 node
 )
@@ -25894,7 +25894,7 @@ if
 mHTMLEditor
 -
 >
-IsNodeInActiveEditor
+IsDescendantOfEditorRoot
 (
 node
 )
@@ -25904,7 +25904,7 @@ node
 mHTMLEditor
 -
 >
-IsNodeInActiveEditor
+IsDescendantOfEditorRoot
 (
 parent
 )
@@ -26450,7 +26450,7 @@ if
 mHTMLEditor
 -
 >
-IsNodeInActiveEditor
+IsDescendantOfEditorRoot
 (
 nsEditor
 :
@@ -26467,7 +26467,7 @@ opStartOffset
 mHTMLEditor
 -
 >
-IsNodeInActiveEditor
+IsDescendantOfEditorRoot
 (
 nsEditor
 :
@@ -29524,7 +29524,7 @@ parent
 mHTMLEditor
 -
 >
-IsNodeInActiveEditor
+IsDescendantOfEditorRoot
 (
 parent
 )
@@ -33269,7 +33269,7 @@ if
 mHTMLEditor
 -
 >
-IsNodeInActiveEditor
+IsDescendantOfEditorRoot
 (
 parent
 )
@@ -40545,7 +40545,7 @@ GetActiveEditingHost
 mHTMLEditor
 -
 >
-IsNodeInActiveEditor
+IsDescendantOfEditorRoot
 (
 node
 )
