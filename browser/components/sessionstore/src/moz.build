@@ -154,3 +154,13 @@ _SessionFile
 jsm
 '
 ]
+EXTRA_PP_JS_MODULES
++
+=
+[
+'
+SessionStore
+.
+jsm
+'
+]

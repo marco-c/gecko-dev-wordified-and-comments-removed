@@ -104,16 +104,6 @@ build
 (
 NULL
 )
-EXTRA_PP_JS_MODULES
-=
-\
-FormHistory
-.
-jsm
-\
-(
-NULL
-)
 include
 (
 topsrcdir
