@@ -177,6 +177,16 @@ true
 pref
 (
 "
+ui
+.
+click_hold_context_menus
+"
+true
+)
+;
+pref
+(
+"
 browser
 .
 cache
