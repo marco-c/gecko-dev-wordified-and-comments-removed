@@ -190,9 +190,6 @@ gfxFontFaceSrc
 >
 &
 aFontFaceSrcList
-gfxMixedFontFamily
-*
-aFamily
 uint32_t
 aWeight
 uint32_t
@@ -221,7 +218,6 @@ NS_LITERAL_STRING
 Proxy
 "
 )
-aFamily
 )
 mLoadingState
 (
@@ -467,7 +463,6 @@ new
 gfxProxyFontEntry
 (
 aFontFaceSrcList
-family
 aWeight
 aStretch
 aItalicStyle

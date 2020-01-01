@@ -2648,9 +2648,6 @@ nsAString
 aPostscriptName
 int32_t
 aWeight
-gfxFontFamily
-*
-aFamily
 bool
 aIsStandardFace
 )
@@ -2658,7 +2655,6 @@ aIsStandardFace
 gfxFontEntry
 (
 aPostscriptName
-aFamily
 aIsStandardFace
 )
 mFontRef
@@ -2713,7 +2709,6 @@ aIsLocal
 gfxFontEntry
 (
 aPostscriptName
-nullptr
 false
 )
 mFontRef
@@ -3552,7 +3547,6 @@ MacOSFontEntry
 (
 postscriptFontName
 cssWeight
-this
 isStandardFace
 )
 ;

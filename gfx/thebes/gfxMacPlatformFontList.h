@@ -85,9 +85,6 @@ nsAString
 aPostscriptName
 int32_t
 aWeight
-gfxFontFamily
-*
-aFamily
 bool
 aIsStandardFace
 =

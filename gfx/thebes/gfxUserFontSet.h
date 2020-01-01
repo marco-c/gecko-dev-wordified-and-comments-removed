@@ -1320,9 +1320,6 @@ gfxFontFaceSrc
 >
 &
 aFontFaceSrcList
-gfxMixedFontFamily
-*
-aFamily
 uint32_t
 aWeight
 uint32_t
