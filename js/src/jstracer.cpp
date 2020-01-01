@@ -47173,6 +47173,8 @@ addr
 =
 v
 ;
+JS_ALWAYS_TRUE
+(
 ValueToNumber
 (
 cx
@@ -47183,6 +47185,7 @@ value
 )
 &
 num
+)
 )
 ;
 v_ins_after
