@@ -29,11 +29,6 @@ jsm
 '
 )
 ;
-ignoreReportedErrors
-(
-true
-)
-;
 function
 run_test
 (
