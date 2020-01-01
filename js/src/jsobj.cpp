@@ -17133,10 +17133,10 @@ primitive
 type
 "
 :
-js_type_strs
-[
+JS_TYPE_STR
+(
 hint
-]
+)
 )
 ;
 return

@@ -8007,7 +8007,7 @@ JOF_TYPEMASK
 )
 =
 =
-JOF_CONST
+JOF_ATOM
 )
 ;
 ale
@@ -8129,7 +8129,7 @@ VARNO_LEN
 ;
 static
 JSBool
-EmitIndexConstOp
+EmitSlotIndexOp
 (
 JSContext
 *
@@ -8169,7 +8169,7 @@ JOF_TYPEMASK
 )
 =
 =
-JOF_INDEXCONST
+JOF_SLOTATOM
 |
 |
 (
@@ -8184,7 +8184,7 @@ JOF_TYPEMASK
 )
 =
 =
-JOF_INDEXOBJECT
+JOF_SLOTOBJECT
 )
 ;
 bigSuffix
@@ -10605,7 +10605,7 @@ ale
 )
 ;
 return
-EmitIndexConstOp
+EmitSlotIndexOp
 (
 cx
 op
@@ -14951,7 +14951,7 @@ JOF_TYPEMASK
 )
 =
 =
-JOF_CONST
+JOF_ATOM
 &
 &
 (
@@ -18517,7 +18517,7 @@ obj
 if
 (
 !
-EmitIndexConstOp
+EmitSlotIndexOp
 (
 cx
 JSOP_DEFLOCALFUN
@@ -25378,7 +25378,7 @@ JOF_TYPEMASK
 )
 =
 =
-JOF_CONST
+JOF_ATOM
 )
 ?
 JSOP_GETGVAR
