@@ -98,12 +98,6 @@ then
 =
 >
 {
-debuggee
-.
-performRequests
-(
-)
-;
 return
 waitForRequestsToOverflowContainer
 (
