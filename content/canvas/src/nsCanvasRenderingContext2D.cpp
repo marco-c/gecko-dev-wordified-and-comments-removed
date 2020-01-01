@@ -17778,13 +17778,6 @@ aOldLayer
 >
 Updated
 (
-nsIntRect
-(
-0
-0
-mWidth
-mHeight
-)
 )
 ;
 MarkContextClean
@@ -17912,13 +17905,6 @@ canvasLayer
 >
 Updated
 (
-nsIntRect
-(
-0
-0
-mWidth
-mHeight
-)
 )
 ;
 mResetLayer
