@@ -705,6 +705,15 @@ uri
 isExternalURL
 )
 ;
+mDoorHangerPopup
+=
+new
+DoorHangerPopup
+(
+this
+null
+)
+;
 Tabs
 .
 getInstance
