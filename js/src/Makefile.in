@@ -741,10 +741,6 @@ jsinterp
 .
 cpp
 \
-jsinvoke
-.
-cpp
-\
 jsiter
 .
 cpp

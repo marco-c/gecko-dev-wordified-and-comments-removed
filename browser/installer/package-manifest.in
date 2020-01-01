@@ -950,6 +950,13 @@ BINPATH
 /
 components
 /
+jsdebugger
+.
+xpt
+BINPATH
+/
+components
+/
 layout_base
 .
 xpt
