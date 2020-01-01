@@ -5286,7 +5286,7 @@ aObject
 mOuter
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
@@ -12851,7 +12851,7 @@ else
 aBox
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;
@@ -12908,7 +12908,7 @@ else
 aBox
 -
 >
-InvalidateOverflowRect
+InvalidateFrameSubtree
 (
 )
 ;

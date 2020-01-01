@@ -780,8 +780,6 @@ URI
 uri
 nsCString
 aMimeContentType
-nsCString
-aContentDisposition
 bool
 aForceSave
 PRInt64
