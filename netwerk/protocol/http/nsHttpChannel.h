@@ -1451,12 +1451,6 @@ nsContinueRedirectionFunc
 func
 )
 ;
-mozilla
-:
-:
-TimeStamp
-mCacheEffectExperimentAsyncOpenTime
-;
 protected
 :
 virtual
