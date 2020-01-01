@@ -484,6 +484,17 @@ Tabs
 <
 !
 ENTITY
+inputCheckbox
+.
+label
+"
+Input
+History
+"
+>
+<
+!
+ENTITY
 extensionsCheckbox
 .
 label
