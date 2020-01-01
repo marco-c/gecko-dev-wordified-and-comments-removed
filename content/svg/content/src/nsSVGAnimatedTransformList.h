@@ -86,6 +86,15 @@ mBaseVal
 ;
 }
 nsresult
+SetBaseValue
+(
+const
+SVGTransformList
+&
+aValue
+)
+;
+nsresult
 SetBaseValueString
 (
 const
