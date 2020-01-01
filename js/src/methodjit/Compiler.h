@@ -1762,7 +1762,7 @@ StubCompiler
 stubcc
 ;
 Label
-invokeLabel
+fastEntryLabel
 ;
 Label
 arityLabel
