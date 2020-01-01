@@ -169,7 +169,7 @@ h
 #
 include
 "
-nsGenericHTMLElement
+nsStyledElement
 .
 h
 "
@@ -1206,7 +1206,7 @@ nsRuleNode
 gLangService
 )
 ;
-nsGenericHTMLElement
+nsStyledElement
 :
 :
 Shutdown

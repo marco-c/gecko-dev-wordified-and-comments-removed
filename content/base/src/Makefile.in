@@ -763,6 +763,10 @@ nsStubMutationObserver
 .
 cpp
 \
+nsStyledElement
+.
+cpp
+\
 nsStyleLinkElement
 .
 cpp

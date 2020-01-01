@@ -533,7 +533,7 @@ h
 #
 include
 "
-nsGenericHTMLElement
+nsStyledElement
 .
 h
 "
@@ -4337,13 +4337,12 @@ nsGkAtoms
 style
 )
 {
-nsGenericHTMLElement
+nsStyledElement
 :
 :
 ParseStyleAttribute
 (
 this
-PR_TRUE
 aValue
 aResult
 )
