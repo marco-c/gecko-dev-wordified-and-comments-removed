@@ -1958,7 +1958,7 @@ aStrokePattern
 ;
 }
 }
-gfxRect
+SVGBBox
 nsSVGGlyphFrame
 :
 :

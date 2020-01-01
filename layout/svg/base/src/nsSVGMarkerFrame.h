@@ -220,7 +220,7 @@ float
 aStrokeWidth
 )
 ;
-gfxRect
+SVGBBox
 GetMarkBBoxContribution
 (
 const

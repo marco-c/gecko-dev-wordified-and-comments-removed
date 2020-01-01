@@ -37,6 +37,9 @@ gfxMatrix
 struct
 nsPoint
 ;
+class
+SVGBBox
+;
 namespace
 mozilla
 {
@@ -175,7 +178,7 @@ aFlags
 0
 ;
 virtual
-gfxRect
+SVGBBox
 GetBBoxContribution
 (
 const
