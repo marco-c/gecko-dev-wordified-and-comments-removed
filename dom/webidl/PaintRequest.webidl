@@ -101,7 +101,7 @@ are
 exposed
 by
 the
-MozAfterPaint
+MozDOMAfterPaint
 event
 .
 Each
@@ -123,16 +123,6 @@ browser
 .
 *
 /
-[
-Func
-=
-"
-nsDOMNotifyPaintEvent
-:
-:
-Enabled
-"
-]
 interface
 PaintRequest
 {

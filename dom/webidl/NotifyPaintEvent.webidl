@@ -103,16 +103,6 @@ nsIDOMNotifyPaintEvent
 idl
 *
 /
-[
-Func
-=
-"
-nsDOMNotifyPaintEvent
-:
-:
-Enabled
-"
-]
 interface
 NotifyPaintEvent
 :
