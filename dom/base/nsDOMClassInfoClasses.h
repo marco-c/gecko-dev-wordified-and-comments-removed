@@ -143,14 +143,6 @@ HTMLDocument
 )
 DOMCI_CLASS
 (
-HTMLAppletElement
-)
-DOMCI_CLASS
-(
-HTMLEmbedElement
-)
-DOMCI_CLASS
-(
 HTMLFormElement
 )
 DOMCI_CLASS
@@ -160,10 +152,6 @@ HTMLIFrameElement
 DOMCI_CLASS
 (
 HTMLInputElement
-)
-DOMCI_CLASS
-(
-HTMLObjectElement
 )
 DOMCI_CLASS
 (
