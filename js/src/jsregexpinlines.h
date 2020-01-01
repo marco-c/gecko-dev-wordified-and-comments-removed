@@ -2262,7 +2262,7 @@ append
 source
 -
 >
-flatChars
+chars
 (
 )
 source
