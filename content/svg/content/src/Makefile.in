@@ -341,6 +341,10 @@ SVGFEBlendElement
 .
 cpp
 \
+SVGFEComponentTransferElement
+.
+cpp
+\
 SVGFEDistantLightElement
 .
 cpp
@@ -735,6 +739,10 @@ SVGEllipseElement
 h
 \
 SVGFEBlendElement
+.
+h
+\
+SVGFEComponentTransferElement
 .
 h
 \
