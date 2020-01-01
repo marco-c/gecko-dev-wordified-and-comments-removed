@@ -3717,9 +3717,6 @@ public
 MNullaryInstruction
 {
 CompilerRootObject
-baseObj_
-;
-CompilerRootObject
 templateObject_
 ;
 MNewObject
@@ -15448,6 +15445,9 @@ TempObject
 {
 struct
 Entry
+:
+public
+TempObject
 {
 CompilerRoot
 <
@@ -15498,6 +15498,7 @@ priorResumePoint_
 Vector
 <
 Entry
+*
 4
 IonAllocPolicy
 >
@@ -15587,6 +15588,7 @@ entries_
 .
 append
 (
+new
 Entry
 (
 typeObj
@@ -15635,7 +15637,8 @@ entries_
 [
 i
 ]
-.
+-
+>
 typeObj
 ;
 }
@@ -15662,7 +15665,8 @@ entries_
 [
 i
 ]
-.
+-
+>
 func
 ;
 }
@@ -15719,7 +15723,8 @@ entries_
 [
 i
 ]
-.
+-
+>
 func
 =
 =
