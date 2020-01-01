@@ -880,10 +880,6 @@ labels
 ;
 #
 endif
-jsbytecode
-*
-pc
-;
 JSAtom
 *
 atom

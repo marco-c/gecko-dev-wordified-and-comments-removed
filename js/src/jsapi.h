@@ -3102,13 +3102,6 @@ JS_BIT
 (
 14
 )
-#
-define
-JSOPTION_PROFILING
-JS_BIT
-(
-15
-)
 extern
 JS_PUBLIC_API
 (
