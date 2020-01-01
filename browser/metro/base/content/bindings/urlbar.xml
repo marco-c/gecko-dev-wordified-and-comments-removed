@@ -3332,11 +3332,6 @@ autocomplete
 >
 <
 content
-orient
-=
-"
-horizontal
-"
 >
 <
 xul
