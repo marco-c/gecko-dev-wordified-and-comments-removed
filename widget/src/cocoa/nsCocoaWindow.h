@@ -368,11 +368,7 @@ SetModal
 PRBool
 aState
 )
-{
-return
-NS_OK
 ;
-}
 NS_IMETHOD
 IsVisible
 (
@@ -766,6 +762,9 @@ mVisible
 ;
 PRPackedBool
 mSheetNeedsShow
+;
+PRPackedBool
+mModal
 ;
 }
 ;
