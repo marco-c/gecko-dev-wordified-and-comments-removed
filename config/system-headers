@@ -3861,8 +3861,11 @@ h
 #
 endif
 #
-ifndef
+if
 MOZ_TREE_PIXMAN
+!
+=
+1
 pixman
 .
 h
