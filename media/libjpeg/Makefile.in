@@ -404,7 +404,7 @@ simd
 jsimd_x86_64
 .
 c
-ASFILES
+DISABLED_ASFILES
 +
 =
 \
@@ -547,7 +547,7 @@ simd
 jsimd_i386
 .
 c
-ASFILES
+DISABLED_ASFILES
 +
 =
 \
