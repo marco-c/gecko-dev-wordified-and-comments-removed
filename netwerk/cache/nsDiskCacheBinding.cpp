@@ -277,6 +277,9 @@ nsDiskCacheBinding
 (
 )
 {
+nsCacheServiceAutoLock
+lock
+;
 NS_ASSERTION
 (
 PR_CLIST_IS_EMPTY
