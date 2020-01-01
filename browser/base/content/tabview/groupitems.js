@@ -5525,7 +5525,13 @@ Utils
 defaultFaviconURL
 )
 ;
+return
+false
+;
 }
+return
+true
+;
 }
 )
 ;
@@ -5725,12 +5731,16 @@ xulTab
 xulTab
 )
 return
+true
 ;
 icon
 .
 remove
 (
 )
+;
+return
+false
 ;
 }
 )
@@ -5822,6 +5832,7 @@ xulTab
 xulTab
 )
 return
+true
 ;
 let
 targetIndex
@@ -5895,6 +5906,9 @@ self
 .
 appTabTray
 )
+;
+return
+false
 ;
 }
 )
@@ -9743,6 +9757,7 @@ xulTab
 xulTab
 )
 return
+true
 ;
 if
 (
@@ -9767,6 +9782,9 @@ src
 "
 iconUrl
 )
+;
+return
+false
 ;
 }
 )
