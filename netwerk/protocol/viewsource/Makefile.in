@@ -153,3 +153,17 @@ config
 rules
 .
 mk
+XPIDL_FLAGS
++
+=
+-
+I
+(
+topsrcdir
+)
+/
+netwerk
+/
+base
+/
+public
