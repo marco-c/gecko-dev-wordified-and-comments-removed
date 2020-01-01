@@ -1997,6 +1997,7 @@ phdr_section
 insertAfter
 (
 ehdr
+false
 )
 ;
 sections
@@ -2008,6 +2009,7 @@ sections
 insertAfter
 (
 phdr_section
+false
 )
 ;
 for
@@ -2071,6 +2073,7 @@ i
 -
 1
 ]
+false
 )
 ;
 sections
@@ -2082,6 +2085,7 @@ i
 insertAfter
 (
 shdr_section
+false
 )
 ;
 }
@@ -2100,6 +2104,7 @@ i
 -
 1
 ]
+false
 )
 ;
 }
@@ -2129,6 +2134,7 @@ e_shnum
 -
 1
 ]
+false
 )
 ;
 tmp_file
@@ -2311,13 +2317,6 @@ segment
 addSection
 (
 phdr_section
-)
-;
-ehdr
--
->
-markDirty
-(
 )
 ;
 }
@@ -3168,12 +3167,7 @@ getName
 )
 ;
 }
-phdr_section
--
->
-getNext
-(
-)
+ehdr
 -
 >
 markDirty
