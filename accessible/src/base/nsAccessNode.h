@@ -358,12 +358,6 @@ aLocale
 ;
 protected
 :
-nsPresContext
-*
-GetPresContext
-(
-)
-;
 void
 LastRelease
 (
