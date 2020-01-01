@@ -4404,17 +4404,6 @@ mSpan
 -
 >
 mHasNonemptyContent
-&
-&
-pfd
--
->
-mFrame
--
->
-IsSelfEmpty
-(
-)
 ;
 }
 else
