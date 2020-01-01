@@ -5503,6 +5503,14 @@ mListenerContext
 =
 nsnull
 ;
+mCallbacks
+=
+nsnull
+;
+mProgressSink
+=
+nsnull
+;
 return
 rv
 ;
