@@ -389,6 +389,7 @@ char
 *
 pch
 ;
+unsigned
 int
 ii
 ;

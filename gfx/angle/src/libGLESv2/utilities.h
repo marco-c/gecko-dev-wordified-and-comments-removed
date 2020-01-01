@@ -19,6 +19,15 @@ h
 #
 include
 <
+GLES2
+/
+gl2ext
+.
+h
+>
+#
+include
+<
 d3d9
 .
 h

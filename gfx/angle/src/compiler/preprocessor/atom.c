@@ -2530,6 +2530,7 @@ int
 htsize
 )
 {
+unsigned
 int
 ii
 ;

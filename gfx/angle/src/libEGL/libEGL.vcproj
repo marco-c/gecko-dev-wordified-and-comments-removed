@@ -303,7 +303,7 @@ VCLinkerTool
 AdditionalDependencies
 =
 "
-d3d9
+dxguid
 .
 lib
 "
@@ -764,7 +764,7 @@ VCLinkerTool
 AdditionalDependencies
 =
 "
-d3d9
+dxguid
 .
 lib
 "

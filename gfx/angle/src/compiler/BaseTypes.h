@@ -31,7 +31,7 @@ EbpMedium
 EbpHigh
 }
 ;
-__inline
+inline
 const
 char
 *
@@ -102,7 +102,7 @@ EbtStruct
 EbtAddress
 }
 ;
-__inline
+inline
 bool
 IsSampler
 (
@@ -149,7 +149,7 @@ EvqFragData
 EvqLast
 }
 ;
-__inline
+inline
 const
 char
 *

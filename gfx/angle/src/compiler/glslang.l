@@ -3671,6 +3671,9 @@ parseContextLocal
 ;
 if
 (
+ret
+|
+|
 cpp
 -
 >
@@ -3707,6 +3710,7 @@ return
 void
 yyerror
 (
+const
 char
 *
 s

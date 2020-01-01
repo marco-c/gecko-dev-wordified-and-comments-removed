@@ -1687,6 +1687,9 @@ case
 GL_RGBA
 :
 case
+GL_BGRA_EXT
+:
+case
 GL_RGB
 :
 case
@@ -1775,6 +1778,9 @@ UNREACHABLE
 ;
 case
 GL_RGBA
+:
+case
+GL_BGRA_EXT
 :
 psConst0
 [

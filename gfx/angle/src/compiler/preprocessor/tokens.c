@@ -664,7 +664,6 @@ char
 *
 s
 ;
-unsigned
 char
 *
 str

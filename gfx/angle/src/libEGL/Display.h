@@ -262,6 +262,9 @@ const
 HDC
 mDc
 ;
+HMODULE
+mD3d9Module
+;
 UINT
 mAdapter
 ;
@@ -271,6 +274,10 @@ mDeviceType
 IDirect3D9
 *
 mD3d9
+;
+IDirect3D9Ex
+*
+mD3d9ex
 ;
 IDirect3DDevice9
 *
