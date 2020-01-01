@@ -154,6 +154,9 @@ nsIAndroidDisplayport
 class
 nsIAndroidViewport
 ;
+class
+nsIWidget
+;
 namespace
 mozilla
 {

@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsServiceManagerUtils
+nsContentUtils
 .
 h
 "
@@ -16,6 +16,13 @@ h
 include
 "
 nsNPAPIPlugin
+.
+h
+"
+#
+include
+"
+nsServiceManagerUtils
 .
 h
 "

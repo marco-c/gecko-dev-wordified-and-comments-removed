@@ -64,6 +64,13 @@ h
 #
 include
 "
+nsIDocument
+.
+h
+"
+#
+include
+"
 prprf
 .
 h

@@ -141,6 +141,13 @@ h
 #
 include
 "
+nsContentUtils
+.
+h
+"
+#
+include
+"
 nsTArrayHelpers
 .
 h

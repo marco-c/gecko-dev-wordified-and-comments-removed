@@ -138,6 +138,17 @@ mozilla
 /
 dom
 /
+Element
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ExternalHelperAppParent
 .
 h

@@ -4158,12 +4158,12 @@ offset
 presContext
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMTouch
+Touch
 >
 t
-(
+=
 new
 Touch
 (
@@ -4191,7 +4191,6 @@ aForces
 [
 i
 ]
-)
 )
 ;
 event
