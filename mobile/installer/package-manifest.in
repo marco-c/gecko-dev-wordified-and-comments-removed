@@ -1555,6 +1555,13 @@ components
 zipwriter
 .
 xpt
+BINPATH
+/
+components
+/
+webapps
+.
+xpt
 ;
 JavaScript
 components
@@ -3561,6 +3568,13 @@ UpdatePrompt
 js
 #
 endif
+BINPATH
+/
+components
+/
+WebappsSupport
+.
+js
 BINPATH
 /
 components
