@@ -4816,7 +4816,7 @@ com
 LOCALE
 %
 /
-plugins
+plugincheck
 /
 "
 )
