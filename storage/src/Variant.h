@@ -1,9 +1,9 @@
 #
 ifndef
-__mozStorageVariant_h__
+mozilla_storage_Variant_h__
 #
 define
-__mozStorageVariant_h__
+mozilla_storage_Variant_h__
 #
 include
 <
@@ -1166,5 +1166,12 @@ NullVariant
 ;
 }
 }
+#
+include
+"
+Variant_inl
+.
+h
+"
 #
 endif
