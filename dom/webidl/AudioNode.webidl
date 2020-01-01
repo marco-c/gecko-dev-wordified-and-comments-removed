@@ -207,13 +207,9 @@ input
 0
 )
 ;
-/
-/
 [
 Throws
 ]
-/
-/
 void
 connect
 (
