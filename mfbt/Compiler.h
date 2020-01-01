@@ -19,6 +19,10 @@ __GNUC__
 )
 #
 define
+MOZ_IS_GCC
+1
+#
+define
 MOZ_GCC_VERSION_AT_LEAST
 (
 major
@@ -89,6 +93,12 @@ build
 "
 #
 endif
+#
+else
+#
+define
+MOZ_IS_GCC
+0
 #
 endif
 #
