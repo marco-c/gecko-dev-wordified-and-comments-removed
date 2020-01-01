@@ -167,6 +167,16 @@ devtools
 -
 toolbarbutton
 "
+tooltipText
+:
+gcli
+.
+lookup
+(
+"
+resizeModeToggleTooltip
+"
+)
 description
 :
 gcli
