@@ -717,7 +717,7 @@ InstanceTimeList
 aList
 )
 ;
-nsresult
+PRBool
 GetNextInterval
 (
 const
