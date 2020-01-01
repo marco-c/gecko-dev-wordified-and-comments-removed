@@ -3566,7 +3566,7 @@ if
 target
 -
 >
-jitinfo
+jitInfo
 (
 )
 -
