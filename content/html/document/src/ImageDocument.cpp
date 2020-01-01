@@ -43,6 +43,13 @@ h
 #
 include
 "
+nsIDocumentInlines
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLImageElement
 .
 h
