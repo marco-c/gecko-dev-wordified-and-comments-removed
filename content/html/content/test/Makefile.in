@@ -1520,6 +1520,14 @@ api
 .
 html
 \
+test_li_attributes_reflection
+.
+html
+\
+test_ol_attributes_reflection
+.
+html
+\
 (
 NULL
 )
