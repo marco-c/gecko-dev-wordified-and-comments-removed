@@ -37,6 +37,11 @@ AccGroupInfo
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+AccGroupInfo
+)
+;
 }
 PRInt32
 PosInSet
