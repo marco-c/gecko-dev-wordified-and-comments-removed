@@ -1640,7 +1640,10 @@ tokenStream
 .
 peekToken
 (
-TSF_OPERAND
+TokenStream
+:
+:
+Operand
 )
 ;
 if
