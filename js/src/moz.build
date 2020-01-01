@@ -852,6 +852,11 @@ TokenStream
 cpp
 '
 '
+TypedArrayObject
+.
+cpp
+'
+'
 Unicode
 .
 cpp
@@ -1058,11 +1063,6 @@ cpp
 '
 '
 jsstr
-.
-cpp
-'
-'
-jstypedarray
 .
 cpp
 '

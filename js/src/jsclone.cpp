@@ -33,7 +33,9 @@ h
 #
 include
 "
-jstypedarray
+vm
+/
+TypedArrayObject
 .
 h
 "
