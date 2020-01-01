@@ -74,6 +74,12 @@ moz_downloads
 )
 ;
 stmt
+.
+finalize
+(
+)
+;
+stmt
 =
 dbConn
 .
@@ -323,7 +329,7 @@ getIsNull
 ;
 stmt
 .
-reset
+finalize
 (
 )
 ;
