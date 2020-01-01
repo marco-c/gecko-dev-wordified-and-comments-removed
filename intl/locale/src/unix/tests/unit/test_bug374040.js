@@ -216,6 +216,8 @@ run_test
 (
 )
 {
+return
+;
 test_full
 (
 )
