@@ -306,6 +306,9 @@ width
 int
 height
 ;
+uint32_t
+rtcp_fb_types
+;
 }
 video
 ;
