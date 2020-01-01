@@ -173,6 +173,10 @@ browser_favicon_setAndFetchFaviconForPage
 .
 js
 \
+browser_favicon_setAndFetchFaviconForPage_failures
+.
+js
+\
 (
 NULL
 )
@@ -325,6 +329,12 @@ visituri
 final
 .
 html
+\
+favicon
+-
+normal16
+.
+png
 \
 favicon
 -
