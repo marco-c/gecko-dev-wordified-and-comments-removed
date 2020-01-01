@@ -5150,9 +5150,11 @@ DLL_SUFFIX
 "
 |
 xargs
-(
-DEPTH
-)
+.
+.
+/
+.
+.
 /
 build
 /
