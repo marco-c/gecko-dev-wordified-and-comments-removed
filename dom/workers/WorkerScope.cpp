@@ -4245,7 +4245,7 @@ JSObject
 *
 global
 =
-JS_NewCompartmentAndGlobalObject
+JS_NewGlobalObject
 (
 aCx
 DedicatedWorkerGlobalScope

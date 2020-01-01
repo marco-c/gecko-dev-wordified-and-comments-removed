@@ -107,14 +107,6 @@ GetNumberOfOptions
 ;
 virtual
 void
-SyncViewWithFrame
-(
-)
-=
-0
-;
-virtual
-void
 AboutToDropDown
 (
 )

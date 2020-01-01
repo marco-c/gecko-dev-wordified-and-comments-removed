@@ -1123,6 +1123,9 @@ mAppVersion
 nsCString
 mCompatFirefox
 ;
+bool
+mCompatFirefoxEnabled
+;
 nsXPIDLCString
 mCompatDevice
 ;

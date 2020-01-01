@@ -4621,7 +4621,7 @@ NS_OK
 }
 static
 bool
-CreateNewCompartment
+CreateNewGlobal
 (
 JSContext
 *
@@ -4664,7 +4664,7 @@ JSObject
 *
 tempGlobal
 =
-JS_NewCompartmentAndGlobalObject
+JS_NewGlobalObject
 (
 cx
 clasp
@@ -5123,7 +5123,7 @@ wantXrays
 if
 (
 !
-CreateNewCompartment
+CreateNewGlobal
 (
 cx
 clasp

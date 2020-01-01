@@ -1569,6 +1569,11 @@ dnl
 set
 up
 compilers
+TOOLCHAIN_PREFIX
+=
+"
+gonk_toolchain_prefix
+"
 AS
 =
 "
@@ -68451,10 +68456,7 @@ MDDEPDIR
 )
 /
 (
-basename
-(
 F
-)
 )
 .
 pp
@@ -73029,6 +73031,10 @@ MOZ_HELP_VIEWER
 )
 AC_SUBST
 (
+TOOLCHAIN_PREFIX
+)
+AC_SUBST
+(
 JAVA
 )
 AC_SUBST
@@ -73985,13 +73991,6 @@ MOZ_APP_VERSION
 AC_SUBST
 (
 MOZ_APP_MAXVERSION
-)
-AC_DEFINE_UNQUOTED
-(
-MOZ_UA_FIREFOX_VERSION
-"
-FIREFOX_VERSION
-"
 )
 AC_DEFINE_UNQUOTED
 (

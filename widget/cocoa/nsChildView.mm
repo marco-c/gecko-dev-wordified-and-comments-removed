@@ -4576,6 +4576,11 @@ setNeedsDisplay
 YES
 ]
 ;
+NotifyRollupGeometryChange
+(
+gRollupListener
+)
+;
 ReportMoveEvent
 (
 )
@@ -4672,6 +4677,11 @@ setNeedsDisplay
 :
 YES
 ]
+;
+NotifyRollupGeometryChange
+(
+gRollupListener
+)
 ;
 ReportSizeEvent
 (
@@ -4829,6 +4839,11 @@ setNeedsDisplay
 :
 YES
 ]
+;
+NotifyRollupGeometryChange
+(
+gRollupListener
+)
 ;
 if
 (

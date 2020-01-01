@@ -232,6 +232,10 @@ principals
 (
 NULL
 )
+global_
+(
+NULL
+)
 needsBarrier_
 (
 false
@@ -253,6 +257,10 @@ gcTriggerBytes
 0
 )
 hold
+(
+false
+)
+isSystemCompartment
 (
 false
 )

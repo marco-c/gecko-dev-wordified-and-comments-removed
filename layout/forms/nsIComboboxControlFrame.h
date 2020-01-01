@@ -104,14 +104,6 @@ aIndex
 ;
 virtual
 void
-AbsolutelyPositionDropDown
-(
-)
-=
-0
-;
-virtual
-void
 OnContentReset
 (
 )

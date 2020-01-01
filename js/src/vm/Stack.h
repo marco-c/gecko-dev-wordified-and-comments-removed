@@ -2870,10 +2870,6 @@ false
 ;
 template
 <
-class
-T
-class
-U
 TriggerPostBarriers
 doPostBarrier
 >
@@ -2883,13 +2879,14 @@ copyFrameAndValues
 JSContext
 *
 cx
-T
+Value
 *
 vp
 StackFrame
 *
 otherfp
-U
+const
+Value
 *
 othervp
 Value
