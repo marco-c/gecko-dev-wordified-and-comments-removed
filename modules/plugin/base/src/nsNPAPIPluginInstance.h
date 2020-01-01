@@ -264,15 +264,7 @@ SetCached
 PRBool
 aCache
 )
-{
-mCached
-=
-aCache
 ;
-return
-NS_OK
-;
-}
 already_AddRefed
 <
 nsPIDOMWindow
