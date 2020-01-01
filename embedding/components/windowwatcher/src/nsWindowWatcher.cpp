@@ -5529,7 +5529,7 @@ baseURI
 doc
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 ;

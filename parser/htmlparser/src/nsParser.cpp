@@ -962,7 +962,7 @@ base
 doc
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 ;

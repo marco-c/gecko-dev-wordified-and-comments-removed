@@ -556,7 +556,7 @@ get
 document
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 ;

@@ -3233,7 +3233,7 @@ nsnull
 mDocument
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 )

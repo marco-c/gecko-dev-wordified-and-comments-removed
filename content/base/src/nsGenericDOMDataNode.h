@@ -397,14 +397,6 @@ aReturn
 )
 ;
 nsresult
-GetBaseURI
-(
-nsAString
-&
-aURI
-)
-;
-nsresult
 LookupPrefix
 (
 const

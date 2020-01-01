@@ -991,7 +991,7 @@ SetupRefreshURIFromHeader
 mDocument
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 mRefreshString

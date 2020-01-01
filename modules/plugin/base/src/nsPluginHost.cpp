@@ -18160,7 +18160,7 @@ aURL
 doc
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 )
@@ -18686,7 +18686,7 @@ aURL
 doc
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 )

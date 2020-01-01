@@ -860,7 +860,7 @@ SetBaseURI
 sourceDoc
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 )

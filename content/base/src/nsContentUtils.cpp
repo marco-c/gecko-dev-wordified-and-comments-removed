@@ -4703,7 +4703,7 @@ aDocument
 aDocument
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 )

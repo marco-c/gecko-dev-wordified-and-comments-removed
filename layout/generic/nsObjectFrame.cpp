@@ -13398,7 +13398,7 @@ rv
 doc
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 -

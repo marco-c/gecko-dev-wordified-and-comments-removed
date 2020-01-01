@@ -20440,7 +20440,7 @@ baseURL
 doc
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 ;
@@ -35032,7 +35032,7 @@ baseURI
 doc
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 ;

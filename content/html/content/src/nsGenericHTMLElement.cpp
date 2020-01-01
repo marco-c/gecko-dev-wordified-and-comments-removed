@@ -8407,7 +8407,7 @@ doc
 doc
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 )

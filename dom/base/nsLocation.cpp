@@ -3590,8 +3590,6 @@ if
 doc
 )
 {
-NS_IF_ADDREF
-(
 *
 sourceURL
 =
@@ -3601,6 +3599,9 @@ doc
 GetBaseURI
 (
 )
+.
+get
+(
 )
 ;
 }

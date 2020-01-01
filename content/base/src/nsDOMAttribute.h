@@ -363,6 +363,16 @@ aResult
 )
 const
 ;
+virtual
+already_AddRefed
+<
+nsIURI
+>
+GetBaseURI
+(
+)
+const
+;
 static
 void
 Initialize

@@ -1375,7 +1375,7 @@ baseURI
 document
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 ;

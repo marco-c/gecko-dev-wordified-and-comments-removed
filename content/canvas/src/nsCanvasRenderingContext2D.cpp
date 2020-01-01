@@ -8095,7 +8095,7 @@ baseURL
 document
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 ;

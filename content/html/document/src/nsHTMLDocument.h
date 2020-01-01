@@ -446,14 +446,6 @@ nsDocument
 :
 )
 NS_IMETHOD
-GetBaseURI
-(
-nsAString
-&
-aBaseURI
-)
-;
-NS_IMETHOD
 GetTitle
 (
 nsAString

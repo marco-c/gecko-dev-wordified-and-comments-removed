@@ -4452,7 +4452,7 @@ get
 doc
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 )

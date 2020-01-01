@@ -35057,7 +35057,7 @@ docBaseURI
 document
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 ;

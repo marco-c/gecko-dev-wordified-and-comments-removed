@@ -240,7 +240,7 @@ baseURI
 aDocument
 -
 >
-GetBaseURI
+GetDocBaseURI
 (
 )
 ;
