@@ -241,8 +241,6 @@ event
 originalTarget
 gBrowser
 .
-selectedBrowser
-.
 contentDocument
 "
 Alt
@@ -350,8 +348,6 @@ event
 .
 originalTarget
 gBrowser
-.
-selectedBrowser
 .
 contentDocument
 "
@@ -516,8 +512,6 @@ event
 originalTarget
 gBrowser
 .
-selectedBrowser
-.
 contentDocument
 "
 MiddleClick
@@ -613,8 +607,6 @@ event
 originalTarget
 gBrowser
 .
-selectedBrowser
-.
 contentDocument
 "
 Shift
@@ -645,11 +637,7 @@ init
 (
 )
 ;
-gBrowser
-.
-selectedBrowser
-.
-contentWindow
+content
 .
 location
 .
@@ -760,11 +748,7 @@ mTabs
 )
 ;
 }
-gBrowser
-.
-selectedBrowser
-.
-contentWindow
+content
 .
 location
 .

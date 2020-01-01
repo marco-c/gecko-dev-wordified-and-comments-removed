@@ -159,8 +159,6 @@ newWin
 .
 gBrowser
 .
-selectedBrowser
-.
 loadURI
 (
 testURL

@@ -74,9 +74,7 @@ false
 var
 frame
 =
-gBrowser
-.
-contentWindow
+content
 .
 frames
 [
