@@ -759,6 +759,14 @@ GetImageContainer
 (
 )
 ;
+if
+(
+!
+container
+)
+return
+nsnull
+;
 gfxIntSize
 frameSize
 =
