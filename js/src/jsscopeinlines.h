@@ -181,6 +181,17 @@ singleton
 ;
 JS_ASSERT
 (
+this
+=
+=
+proto
+-
+>
+newType
+)
+;
+JS_ASSERT
+(
 kind
 >
 =
