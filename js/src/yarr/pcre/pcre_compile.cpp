@@ -6638,9 +6638,7 @@ return
 int
 length
 =
-3
-+
-LINK_SIZE
+BRA_LEN
 ;
 int
 branch_extra
@@ -7981,9 +7979,7 @@ branch_newextra
 int
 bracket_length
 =
-3
-+
-LINK_SIZE
+BRA_LEN
 ;
 bool
 capturing
@@ -8059,7 +8055,7 @@ return
 else
 capturing
 =
-1
+true
 ;
 if
 (
@@ -8147,9 +8143,7 @@ duplength
 length
 +
 =
-1
-+
-LINK_SIZE
+KET_LEN
 ;
 if
 (
@@ -8360,6 +8354,8 @@ duplength
 BRA_LEN
 +
 KET_LEN
++
+OPCODE_LEN
 )
 ;
 if
@@ -8598,9 +8594,9 @@ continue
 length
 +
 =
-2
+KET_LEN
 +
-LINK_SIZE
+OPCODE_LEN
 ;
 cd
 .
