@@ -642,13 +642,6 @@ h
 #
 include
 "
-nsInt64
-.
-h
-"
-#
-include
-"
 nsStreamUtils
 .
 h
@@ -16272,7 +16265,7 @@ the
 entire
 document
 .
-nsInt64
+PRInt64
 contentLength
 =
 mCachedResponseHead
@@ -16287,7 +16280,7 @@ if
 contentLength
 !
 =
-nsInt64
+PRInt64
 (
 -
 1
@@ -16316,7 +16309,7 @@ rv
 ;
 if
 (
-nsInt64
+PRInt64
 (
 size
 )
@@ -16385,7 +16378,7 @@ nsnull
 if
 (
 (
-nsInt64
+PRInt64
 (
 size
 )
@@ -18785,12 +18778,12 @@ getter_AddRefs
 mCachePump
 )
 stream
-nsInt64
+PRInt64
 (
 -
 1
 )
-nsInt64
+PRInt64
 (
 -
 1
