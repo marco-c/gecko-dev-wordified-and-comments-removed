@@ -402,6 +402,8 @@ nsIAtom
 aAttribute
 PRInt32
 aModType
+PRUint32
+aStateMask
 )
 :
 RuleProcessorData
@@ -417,6 +419,10 @@ aAttribute
 mModType
 (
 aModType
+)
+mStateMask
+(
+aStateMask
 )
 {
 NS_PRECONDITION
@@ -435,6 +441,9 @@ mAttribute
 ;
 PRInt32
 mModType
+;
+PRUint32
+mStateMask
 ;
 }
 ;
