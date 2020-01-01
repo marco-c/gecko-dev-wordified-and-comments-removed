@@ -3670,6 +3670,13 @@ serial
 )
     
 if
+not
+id
+:
+      
+return
+    
+if
 self
 .
 currentTest
@@ -3768,6 +3775,13 @@ id
 )
     
 if
+not
+id
+:
+      
+return
+    
+if
 self
 .
 currentTest
@@ -3832,7 +3846,8 @@ name
 )
 :
     
-return
+match
+=
 re
 .
 search
@@ -3855,11 +3870,21 @@ s
 name
 line
 )
+    
+if
+match
+:
+      
+return
+match
 .
 group
 (
 1
 )
+    
+return
+None
   
 def
 _parseLeakingTests

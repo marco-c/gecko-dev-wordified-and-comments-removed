@@ -23816,14 +23816,7 @@ function
 ifdef
 XP_MACOSX
 return
-/
-^
-11
-\
-.
-/
-.
-test
+parseFloat
 (
 Services
 .
@@ -23836,6 +23829,9 @@ version
 "
 )
 )
+>
+=
+11
 &
 &
 document
