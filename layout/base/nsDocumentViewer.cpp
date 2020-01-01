@@ -1045,7 +1045,7 @@ nsIContentViewerEdit
 public
 nsIContentViewerFile
 public
-nsIMarkupDocumentViewer_MOZILLA_2_0_BRANCH
+nsIMarkupDocumentViewer
 public
 nsIDocumentViewerPrint
 #
@@ -1115,7 +1115,6 @@ FindContainerView
 NS_DECL_NSICONTENTVIEWEREDIT
 NS_DECL_NSICONTENTVIEWERFILE
 NS_DECL_NSIMARKUPDOCUMENTVIEWER
-NS_DECL_NSIMARKUPDOCUMENTVIEWER_MOZILLA_2_0_BRANCH
 #
 ifdef
 NS_PRINTING
@@ -1831,10 +1830,6 @@ nsIDocumentViewer
 NS_INTERFACE_MAP_ENTRY
 (
 nsIMarkupDocumentViewer
-)
-NS_INTERFACE_MAP_ENTRY
-(
-nsIMarkupDocumentViewer_MOZILLA_2_0_BRANCH
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -10195,7 +10190,7 @@ aClosure
 {
 nsCOMPtr
 <
-nsIMarkupDocumentViewer_MOZILLA_2_0_BRANCH
+nsIMarkupDocumentViewer
 >
 branch
 =

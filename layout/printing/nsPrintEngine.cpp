@@ -2095,7 +2095,7 @@ PR_TRUE
 ;
 nsCOMPtr
 <
-nsIMarkupDocumentViewer_MOZILLA_2_0_BRANCH
+nsIMarkupDocumentViewer
 >
 viewer
 =

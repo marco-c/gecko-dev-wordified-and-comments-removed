@@ -4239,7 +4239,7 @@ QueryInterface
 (
 Ci
 .
-nsIMarkupDocumentViewer_MOZILLA_2_0_BRANCH
+nsIMarkupDocumentViewer
 )
 ;
 if
