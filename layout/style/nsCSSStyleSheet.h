@@ -591,11 +591,6 @@ StyleRuleCount
 )
 const
 ;
-nsresult
-GetStyleRuleAt
-(
-int32_t
-aIndex
 mozilla
 :
 :
@@ -604,8 +599,10 @@ css
 :
 Rule
 *
-&
-aRule
+GetStyleRuleAt
+(
+int32_t
+aIndex
 )
 const
 ;

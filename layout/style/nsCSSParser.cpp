@@ -4262,6 +4262,7 @@ if
 ruleCount
 )
 {
+const
 css
 :
 :
@@ -4269,8 +4270,6 @@ Rule
 *
 lastRule
 =
-nullptr
-;
 mSheet
 -
 >
@@ -4279,7 +4278,6 @@ GetStyleRuleAt
 ruleCount
 -
 1
-lastRule
 )
 ;
 if
@@ -4345,11 +4343,6 @@ eCSSSection_General
 break
 ;
 }
-NS_RELEASE
-(
-lastRule
-)
-;
 }
 }
 else
