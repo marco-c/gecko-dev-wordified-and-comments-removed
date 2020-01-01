@@ -222,7 +222,7 @@ windowUtils
 .
 setApp
 (
-mozApp
+appManifestURL
 )
 ;
 }
