@@ -7653,7 +7653,7 @@ cx
 runtime
 -
 >
-gcRunning
+gcRegenShapes
 )
 {
 JSStackFrame
