@@ -424,6 +424,12 @@ mVideoUpdateLock
 float
 mFramerate
 ;
+PRPackedBool
+mShuttingDown
+;
+PRPackedBool
+mStopping
+;
 }
 ;
 #

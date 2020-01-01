@@ -466,9 +466,6 @@ mPlayState
 PlayState
 mNextState
 ;
-PRPackedBool
-mIsStopping
-;
 }
 ;
 #
