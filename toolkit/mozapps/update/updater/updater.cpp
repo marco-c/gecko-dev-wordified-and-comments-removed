@@ -9690,6 +9690,14 @@ pending
 "
 )
 ;
+putenv
+(
+"
+MOZ_PROCESS_UPDATES
+=
+"
+)
+;
 reportRealResults
 =
 false
