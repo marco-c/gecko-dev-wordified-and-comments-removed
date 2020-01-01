@@ -93,6 +93,10 @@ mCurrentMode
 (
 MODE_PLAYBACK
 )
+mInitialized
+(
+PR_FALSE
+)
 mClosed
 (
 PR_FALSE
@@ -123,6 +127,14 @@ nsMediaCacheStream
 nsresult
 Init
 (
+)
+;
+nsresult
+InitAsClone
+(
+nsMediaCacheStream
+*
+aOriginal
 )
 ;
 void
@@ -596,6 +608,9 @@ mPinCount
 ;
 ReadMode
 mCurrentMode
+;
+PRPackedBool
+mInitialized
 ;
 PRPackedBool
 mClosed
