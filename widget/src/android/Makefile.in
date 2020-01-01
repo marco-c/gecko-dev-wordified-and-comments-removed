@@ -474,6 +474,14 @@ AndroidBridge
 .
 cpp
 \
+AndroidDirectTexture
+.
+cpp
+\
+AndroidGraphicBuffer
+.
+cpp
+\
 AndroidJNI
 .
 cpp
