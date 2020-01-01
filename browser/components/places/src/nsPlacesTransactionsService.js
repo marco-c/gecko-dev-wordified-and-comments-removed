@@ -160,9 +160,9 @@ gre
 /
 modules
 /
-utils
+PlacesUtils
 .
-js
+jsm
 "
 )
 ;

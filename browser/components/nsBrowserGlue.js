@@ -4672,9 +4672,9 @@ gre
 /
 modules
 /
-utils
+PlacesUtils
 .
-js
+jsm
 "
 )
 ;
@@ -5312,9 +5312,9 @@ gre
 /
 modules
 /
-utils
+PlacesUtils
 .
-js
+jsm
 "
 )
 ;
