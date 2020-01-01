@@ -297,11 +297,6 @@ uint32
 flags
 )
 {
-JSD_ASSERT_VALID_CONTEXT
-(
-jsdc
-)
-;
 uint32
 oldFlags
 =
@@ -309,6 +304,11 @@ jsdc
 -
 >
 flags
+;
+JSD_ASSERT_VALID_CONTEXT
+(
+jsdc
+)
 ;
 jsdc
 -
