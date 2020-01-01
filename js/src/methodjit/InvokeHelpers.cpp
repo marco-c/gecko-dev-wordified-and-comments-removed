@@ -587,7 +587,14 @@ ok
 goto
 error
 ;
+break
+;
 }
+case
+JSTRY_LOOP
+:
+break
+;
 }
 }
 }
