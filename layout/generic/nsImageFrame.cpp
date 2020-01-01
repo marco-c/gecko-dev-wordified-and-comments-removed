@@ -7704,8 +7704,8 @@ resource
 /
 /
 gre
--
-resources
+/
+res
 /
 loading
 -
@@ -7724,8 +7724,8 @@ resource
 /
 /
 gre
--
-resources
+/
+res
 /
 broken
 -

@@ -161,8 +161,8 @@ resource
 /
 /
 gre
--
-resources
+/
+res
 /
 mathml
 \
