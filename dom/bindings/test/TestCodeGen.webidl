@@ -309,7 +309,7 @@ optional
 short
 arg
 =
-0
+5
 )
 ;
 readonly
@@ -348,7 +348,7 @@ optional
 long
 arg
 =
-0
+7
 )
 ;
 readonly
@@ -393,7 +393,8 @@ long
 long
 arg
 =
-0
+-
+12
 )
 ;
 readonly
@@ -432,7 +433,7 @@ optional
 octet
 arg
 =
-0
+19
 )
 ;
 readonly
@@ -477,7 +478,7 @@ unsigned
 short
 arg
 =
-0
+2
 )
 ;
 readonly
@@ -522,7 +523,7 @@ unsigned
 long
 arg
 =
-0
+6
 )
 ;
 readonly
@@ -573,7 +574,7 @@ long
 long
 arg
 =
-0
+17
 )
 ;
 /
@@ -1741,6 +1742,16 @@ passOptionalAny
 optional
 any
 arg
+)
+;
+void
+passAnyDefaultNull
+(
+optional
+any
+arg
+=
+null
 )
 ;
 any
