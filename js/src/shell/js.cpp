@@ -9786,7 +9786,7 @@ n
 )
 ;
 RootedFunction
-fun
+f
 (
 cx
 obj
@@ -9809,7 +9809,7 @@ JSFunction
 maybeGetOrCreateScript
 (
 cx
-fun
+f
 &
 script
 )
@@ -27129,8 +27129,11 @@ front
 (
 )
 ;
-jsval
+RootedValue
 rval
+(
+cx
+)
 ;
 if
 (
@@ -27149,8 +27152,11 @@ code
 e
 "
 1
-&
 rval
+.
+address
+(
+)
 )
 )
 return
