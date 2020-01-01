@@ -504,13 +504,7 @@ r
 uint64_t
 h
 =
-seed
-^
-(
-len
-*
-m
-)
+0
 ;
 const
 uint64_t
