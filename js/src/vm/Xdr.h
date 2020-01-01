@@ -23,14 +23,14 @@ h
 #
 include
 "
-jsprvtd
+jsnum
 .
 h
 "
 #
 include
 "
-jsnum
+jsprvtd
 .
 h
 "

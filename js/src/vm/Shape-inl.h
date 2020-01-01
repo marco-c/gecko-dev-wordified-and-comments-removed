@@ -7,6 +7,15 @@ vm_Shape_inl_h
 #
 include
 "
+vm
+/
+Shape
+.
+h
+"
+#
+include
+"
 mozilla
 /
 PodOperations
