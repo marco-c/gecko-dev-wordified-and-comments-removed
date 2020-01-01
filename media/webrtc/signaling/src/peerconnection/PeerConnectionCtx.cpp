@@ -165,9 +165,6 @@ gMainThread
 }
 else
 {
-#
-ifdef
-MOZILLA_INTERNAL_API
 MOZ_ASSERT
 (
 gMainThread
@@ -176,8 +173,6 @@ gMainThread
 mainThread
 )
 ;
-#
-endif
 }
 nsresult
 res
