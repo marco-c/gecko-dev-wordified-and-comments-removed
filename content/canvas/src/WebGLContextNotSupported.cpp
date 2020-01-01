@@ -79,6 +79,11 @@ void
 )
 DOMCI_DATA
 (
+WebGLShaderPrecisionFormat
+void
+)
+DOMCI_DATA
+(
 WebGLActiveInfo
 void
 )

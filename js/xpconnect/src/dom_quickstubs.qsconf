@@ -2678,6 +2678,13 @@ nsIWebGLRenderbuffer
 nsIDOMWebGLRenderingContext
 '
 '
+nsIWebGLShaderPrecisionFormat
+'
+:
+'
+nsIDOMWebGLRenderingContext
+'
+'
 nsIWebGLActiveInfo
 '
 :
