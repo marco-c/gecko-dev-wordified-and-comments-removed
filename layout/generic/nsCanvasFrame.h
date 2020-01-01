@@ -729,6 +729,16 @@ aCtx
 )
 MOZ_OVERRIDE
 ;
+virtual
+bool
+SupportsOptimizingToImage
+(
+)
+{
+return
+false
+;
+}
 void
 SetExtraBackgroundColor
 (
