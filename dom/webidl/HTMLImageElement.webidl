@@ -203,6 +203,8 @@ MozChannel
 interface
 nsIStreamListener
 ;
+/
+/
 [
 NamedConstructor
 =

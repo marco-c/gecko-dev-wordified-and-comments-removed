@@ -564,6 +564,16 @@ OnlyForUseInConstructor
 )
 arg3
 )
+NamedConstructor
+=
+Test
+NamedConstructor
+=
+Test
+(
+DOMString
+str
+)
 ]
 interface
 TestInterface
