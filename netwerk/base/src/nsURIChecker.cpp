@@ -84,11 +84,12 @@ Enterprise
 )
 ;
 }
-NS_IMPL_ISUPPORTS5
+NS_IMPL_ISUPPORTS6
 (
 nsURIChecker
 nsIURIChecker
 nsIRequest
+nsIRequestObserver
 nsIStreamListener
 nsIChannelEventSink
 nsIInterfaceRequestor
