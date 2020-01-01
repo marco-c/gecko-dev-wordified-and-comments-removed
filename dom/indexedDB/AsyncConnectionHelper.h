@@ -121,7 +121,7 @@ DoDatabaseWork
 0
 ;
 virtual
-void
+PRUint16
 OnSuccess
 (
 nsIDOMEventTarget
