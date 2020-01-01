@@ -3753,9 +3753,10 @@ THROW
 if
 (
 !
-JSID_IS_INT
+idval
+.
+isInt32
 (
-id
 )
 )
 f
