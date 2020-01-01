@@ -360,7 +360,9 @@ false
 .
 menulist
 -
-dropmarker
+editable
+-
+box
 {
 -
 moz
