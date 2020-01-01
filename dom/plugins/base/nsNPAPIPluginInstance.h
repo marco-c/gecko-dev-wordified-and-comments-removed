@@ -341,6 +341,10 @@ event
 int16_t
 *
 result
+NSPluginCallReentry
+aSafeToReenterGecko
+=
+NS_PLUGIN_CALL_UNSAFE_TO_REENTER_GECKO
 )
 ;
 nsresult
