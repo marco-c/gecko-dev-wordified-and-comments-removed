@@ -172,6 +172,9 @@ nscoord
 aLeftEdge
 nscoord
 aRightEdge
+nscoord
+*
+aBaseline
 )
 ;
 nscoord
@@ -1285,6 +1288,10 @@ mLogicalHeight
 nscoord
 mMinY
 mMaxY
+;
+nscoord
+*
+mBaseline
 ;
 void
 AppendFrame

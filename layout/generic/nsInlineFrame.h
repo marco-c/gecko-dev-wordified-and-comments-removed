@@ -510,6 +510,9 @@ InlineReflowState
 aState
 )
 ;
+nscoord
+mBaseline
+;
 }
 ;
 class

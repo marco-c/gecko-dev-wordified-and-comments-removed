@@ -825,6 +825,12 @@ SetInFirstLetter
 PR_FALSE
 )
 ;
+mBaseline
+=
+aMetrics
+.
+ascent
+;
 }
 else
 {
@@ -872,6 +878,8 @@ left
 availSize
 .
 width
+&
+mBaseline
 )
 ;
 ll
@@ -966,12 +974,6 @@ ascent
 bp
 .
 top
-;
-mBaseline
-=
-aMetrics
-.
-ascent
 ;
 aMetrics
 .
