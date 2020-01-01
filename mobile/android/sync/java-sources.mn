@@ -166,7 +166,7 @@ sync
 /
 jpake
 /
-Gx4IsOneException
+Gx3OrGx4IsZeroOrOneException
 .
 java
 sync
