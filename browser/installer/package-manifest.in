@@ -863,6 +863,13 @@ components
 dom_system_gonk
 .
 xpt
+BINPATH
+/
+components
+/
+dom_icc
+.
+xpt
 #
 endif
 BINPATH
