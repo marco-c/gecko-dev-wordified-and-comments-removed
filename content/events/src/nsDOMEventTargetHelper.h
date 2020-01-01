@@ -514,6 +514,7 @@ nsPIDOMWindow
 GetOwner
 (
 )
+const
 {
 return
 mOwner
