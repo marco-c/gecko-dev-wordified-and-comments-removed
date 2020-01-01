@@ -376,10 +376,8 @@ i
 PRBool
 bEqual
 ;
-nsCOMPtr
-<
 nsIURI
->
+*
 uri
 =
 sheets

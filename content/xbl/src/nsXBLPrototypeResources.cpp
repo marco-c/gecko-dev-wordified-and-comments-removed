@@ -397,10 +397,8 @@ oldSheets
 i
 ]
 ;
-nsCOMPtr
-<
 nsIURI
->
+*
 uri
 =
 oldSheet

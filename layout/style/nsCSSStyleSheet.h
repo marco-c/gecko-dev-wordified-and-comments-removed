@@ -517,15 +517,6 @@ StyleSheetCount
 )
 const
 ;
-nsCSSStyleSheet
-*
-GetStyleSheetAt
-(
-PRInt32
-aIndex
-)
-const
-;
 void
 SetURIs
 (
