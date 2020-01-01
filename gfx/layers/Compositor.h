@@ -706,6 +706,12 @@ sBackend
 DiagnosticTypes
 mDiagnosticTypes
 ;
+size_t
+mPixelsPerFrame
+;
+size_t
+mPixelsFilled
+;
 }
 ;
 }

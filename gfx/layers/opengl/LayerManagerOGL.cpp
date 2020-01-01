@@ -3902,6 +3902,7 @@ TimeStamp
 Now
 (
 )
+0
 mGLContext
 GetProgram
 (
