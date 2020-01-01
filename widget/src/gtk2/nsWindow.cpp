@@ -20444,7 +20444,7 @@ FireToolkitEvent
 nsIAccessibleEvent
 :
 :
-EVENT_ATK_WINDOW_ACTIVATE
+EVENT_WINDOW_ACTIVATE
 rootAcc
 nsnull
 )
@@ -20519,7 +20519,7 @@ FireToolkitEvent
 nsIAccessibleEvent
 :
 :
-EVENT_ATK_WINDOW_DEACTIVATE
+EVENT_WINDOW_DEACTIVATE
 rootAcc
 nsnull
 )
