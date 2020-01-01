@@ -324,6 +324,11 @@ ps
 h
 cairo
 -
+tee
+.
+h
+cairo
+-
 quartz
 .
 h

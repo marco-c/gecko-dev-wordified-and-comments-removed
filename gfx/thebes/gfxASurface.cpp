@@ -663,6 +663,9 @@ mFloatingRefs
 =
 1
 ;
+#
+ifdef
+MOZ_TREE_CAIRO
 if
 (
 cairo_surface_get_content
@@ -681,6 +684,8 @@ CAIRO_SUBPIXEL_ANTIALIASING_DISABLED
 )
 ;
 }
+#
+endif
 }
 }
 gfxASurface
@@ -1433,6 +1438,9 @@ PRBool
 aEnabled
 )
 {
+#
+ifdef
+MOZ_TREE_CAIRO
 if
 (
 !
@@ -1450,6 +1458,8 @@ CAIRO_SUBPIXEL_ANTIALIASING_ENABLED
 CAIRO_SUBPIXEL_ANTIALIASING_DISABLED
 )
 ;
+#
+endif
 }
 PRBool
 gfxASurface
@@ -1467,6 +1477,9 @@ mSurfaceValid
 return
 PR_FALSE
 ;
+#
+ifdef
+MOZ_TREE_CAIRO
 return
 cairo_surface_get_subpixel_antialiasing
 (
@@ -1476,6 +1489,13 @@ mSurface
 =
 CAIRO_SUBPIXEL_ANTIALIASING_ENABLED
 ;
+#
+else
+return
+PR_TRUE
+;
+#
+endif
 }
 PRInt32
 gfxASurface
