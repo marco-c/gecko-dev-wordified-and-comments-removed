@@ -26123,6 +26123,13 @@ lied
 "
 )
 ;
+JSAutoCompartment
+ac
+(
+cx
+class_obj
+)
+;
 rv
 =
 DefineInterfaceConstants
