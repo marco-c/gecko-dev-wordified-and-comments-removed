@@ -54,7 +54,7 @@ uint16
 nvars
 ;
 uint16
-nregexps
+spare
 ;
 JSScript
 *

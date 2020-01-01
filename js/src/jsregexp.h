@@ -200,9 +200,6 @@ nrefs
 uint16
 flags
 ;
-uint16
-cloneIndex
-;
 size_t
 parenCount
 ;
