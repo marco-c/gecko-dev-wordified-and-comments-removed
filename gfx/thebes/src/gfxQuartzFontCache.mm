@@ -5631,6 +5631,16 @@ mTraits
 =
 NSFixedPitchFontMask
 ;
+fontlist
+[
+i
+]
+-
+>
+mFixedPitch
+=
+1
+;
 }
 }
 void
