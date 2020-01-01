@@ -708,10 +708,6 @@ browser_bug356571
 .
 js
 \
-browser_bug380960
-.
-js
-\
 browser_bug386835
 .
 js
@@ -868,10 +864,6 @@ browser_bug580956
 .
 js
 \
-browser_bug581242
-.
-js
-\
 browser_contextSearchTabPosition
 .
 js
@@ -913,10 +905,6 @@ browser_inspector_stylePanel
 js
 \
 browser_inspector_iframeTest
-.
-js
-\
-browser_inspector_scrolling
 .
 js
 \
