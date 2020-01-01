@@ -22,7 +22,7 @@ nsICSSPseudoComparator
 {
 public
 :
-NS_DECLARE_FRAME_ACCESSOR
+NS_DECL_QUERYFRAME_TARGET
 (
 nsICSSPseudoComparator
 )
