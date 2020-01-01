@@ -582,6 +582,7 @@ tab
 dollar
 quote
 backslash
+parentheses
 .
 _opt
 =
@@ -604,6 +605,10 @@ s
 "
 \
 \
+\
+(
+\
+)
 ]
 \
 )
