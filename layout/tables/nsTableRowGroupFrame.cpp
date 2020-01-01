@@ -1182,6 +1182,10 @@ nsTableRowGroupFrame
 :
 GetSkipSides
 (
+const
+nsHTMLReflowState
+*
+aReflowState
 )
 const
 {
