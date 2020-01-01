@@ -31321,7 +31321,6 @@ batch
 .
 EndUpdateViewBatch
 (
-NS_VMREFRESH_NO_SYNC
 )
 ;
 }
@@ -31468,7 +31467,6 @@ batch
 .
 EndUpdateViewBatch
 (
-NS_VMREFRESH_DEFERRED
 )
 ;
 }
@@ -46137,7 +46135,6 @@ batch
 .
 EndUpdateViewBatch
 (
-NS_VMREFRESH_NO_SYNC
 )
 ;
 return
@@ -46221,7 +46218,6 @@ batch
 .
 EndUpdateViewBatch
 (
-NS_VMREFRESH_NO_SYNC
 )
 ;
 }

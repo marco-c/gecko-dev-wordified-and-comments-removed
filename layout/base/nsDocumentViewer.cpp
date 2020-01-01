@@ -5613,7 +5613,6 @@ rootView
 GetPosition
 (
 )
-NS_VMREFRESH_NO_SYNC
 )
 ;
 nsIView
@@ -10619,7 +10618,6 @@ batch
 .
 EndUpdateViewBatch
 (
-NS_VMREFRESH_NO_SYNC
 )
 ;
 return
@@ -10764,7 +10762,6 @@ batch
 .
 EndUpdateViewBatch
 (
-NS_VMREFRESH_NO_SYNC
 )
 ;
 return
@@ -10998,7 +10995,6 @@ batch
 .
 EndUpdateViewBatch
 (
-NS_VMREFRESH_NO_SYNC
 )
 ;
 return
@@ -11073,7 +11069,6 @@ batch
 .
 EndUpdateViewBatch
 (
-NS_VMREFRESH_NO_SYNC
 )
 ;
 return

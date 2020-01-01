@@ -250,10 +250,6 @@ mRecursiveRefreshPending
 =
 false
 ;
-mUpdateBatchFlags
-=
-0
-;
 }
 nsViewManager
 :
@@ -1523,7 +1519,6 @@ false
 ;
 UpdateAllViews
 (
-0
 )
 ;
 }
@@ -1838,8 +1833,6 @@ UpdateView
 nsIView
 *
 aView
-PRUint32
-aUpdateFlags
 )
 {
 return
@@ -1852,7 +1845,6 @@ aView
 GetDimensions
 (
 )
-aUpdateFlags
 )
 ;
 }
@@ -2503,8 +2495,6 @@ const
 nsRect
 &
 aRect
-PRUint32
-aUpdateFlags
 )
 {
 if
@@ -2524,7 +2514,6 @@ UpdateViewNoSuppression
 (
 aView
 aRect
-aUpdateFlags
 )
 ;
 }
@@ -2541,8 +2530,6 @@ const
 nsRect
 &
 aRect
-PRUint32
-aUpdateFlags
 )
 {
 NS_PRECONDITION
@@ -2718,8 +2705,6 @@ nsViewManager
 :
 UpdateAllViews
 (
-PRUint32
-aUpdateFlags
 )
 {
 if
@@ -2740,14 +2725,12 @@ RootViewManager
 >
 UpdateAllViews
 (
-aUpdateFlags
 )
 ;
 }
 UpdateViews
 (
 mRootView
-aUpdateFlags
 )
 ;
 return
@@ -2763,14 +2746,11 @@ UpdateViews
 nsView
 *
 aView
-PRUint32
-aUpdateFlags
 )
 {
 UpdateView
 (
 aView
-aUpdateFlags
 )
 ;
 nsView
@@ -2803,7 +2783,6 @@ GetViewManager
 UpdateViews
 (
 childView
-aUpdateFlags
 )
 ;
 childView
@@ -3454,7 +3433,6 @@ vm
 -
 >
 mRootView
-NS_VMREFRESH_NO_SYNC
 )
 ;
 didResize
@@ -3557,7 +3535,6 @@ batch
 .
 EndUpdateViewBatch
 (
-NS_VMREFRESH_NO_SYNC
 )
 ;
 view
@@ -3697,7 +3674,6 @@ rgn
 GetBounds
 (
 )
-NS_VMREFRESH_NO_SYNC
 )
 ;
 }
@@ -4810,7 +4786,6 @@ GetViewManager
 UpdateView
 (
 child
-NS_VMREFRESH_NO_SYNC
 )
 ;
 }
@@ -4940,7 +4915,6 @@ GetViewManager
 UpdateView
 (
 child
-NS_VMREFRESH_NO_SYNC
 )
 ;
 parent
@@ -5100,7 +5074,6 @@ UpdateView
 (
 parentView
 oldBounds
-NS_VMREFRESH_NO_SYNC
 )
 ;
 parentVM
@@ -5115,7 +5088,6 @@ view
 GetBoundsInParentUnits
 (
 )
-NS_VMREFRESH_NO_SYNC
 )
 ;
 }
@@ -5142,8 +5114,6 @@ const
 nsRect
 &
 aCutOut
-PRUint32
-aUpdateFlags
 nscoord
 aY1
 nscoord
@@ -5191,7 +5161,6 @@ UpdateView
 (
 aView
 r
-aUpdateFlags
 )
 ;
 }
@@ -5229,7 +5198,6 @@ UpdateView
 (
 aView
 r
-aUpdateFlags
 )
 ;
 }
@@ -5275,7 +5243,6 @@ UpdateView
 (
 aView
 r
-aUpdateFlags
 )
 ;
 }
@@ -5297,8 +5264,6 @@ const
 nsRect
 &
 aCutOut
-PRUint32
-aUpdateFlags
 )
 {
 NS_ASSERTION
@@ -5341,7 +5306,6 @@ InvalidateHorizontalBandDifference
 aView
 aRect
 aCutOut
-aUpdateFlags
 aRect
 .
 y
@@ -5370,7 +5334,6 @@ InvalidateHorizontalBandDifference
 aView
 aRect
 aCutOut
-aUpdateFlags
 aCutOut
 .
 y
@@ -5403,7 +5366,6 @@ InvalidateHorizontalBandDifference
 aView
 aRect
 aCutOut
-aUpdateFlags
 aCutOut
 .
 YMost
@@ -5575,7 +5537,6 @@ UpdateView
 (
 view
 aRect
-NS_VMREFRESH_NO_SYNC
 )
 ;
 parentVM
@@ -5585,7 +5546,6 @@ UpdateView
 (
 parentView
 oldBounds
-NS_VMREFRESH_NO_SYNC
 )
 ;
 }
@@ -5596,7 +5556,6 @@ InvalidateRectDifference
 view
 aRect
 oldDimensions
-NS_VMREFRESH_NO_SYNC
 )
 ;
 nsRect
@@ -5617,7 +5576,6 @@ InvalidateRectDifference
 parentView
 oldBounds
 newBounds
-NS_VMREFRESH_NO_SYNC
 )
 ;
 }
@@ -5805,7 +5763,6 @@ view
 GetBoundsInParentUnits
 (
 )
-NS_VMREFRESH_NO_SYNC
 )
 ;
 }
@@ -5815,7 +5772,6 @@ else
 UpdateView
 (
 view
-NS_VMREFRESH_NO_SYNC
 )
 ;
 }
@@ -6054,7 +6010,6 @@ aAutoZIndex
 UpdateView
 (
 view
-NS_VMREFRESH_NO_SYNC
 )
 ;
 }
@@ -6093,8 +6048,6 @@ nsViewManager
 :
 TriggerRefresh
 (
-PRUint32
-aUpdateFlags
 )
 {
 if
@@ -6112,7 +6065,6 @@ RootViewManager
 >
 TriggerRefresh
 (
-aUpdateFlags
 )
 ;
 return
@@ -6166,19 +6118,6 @@ BeginUpdateViewBatch
 )
 ;
 }
-if
-(
-mUpdateBatchCnt
-=
-=
-0
-)
-{
-mUpdateBatchFlags
-=
-0
-;
-}
 +
 +
 mUpdateBatchCnt
@@ -6193,8 +6132,6 @@ nsViewManager
 :
 EndUpdateViewBatch
 (
-PRUint32
-aUpdateFlags
 )
 {
 NS_ASSERTION
@@ -6245,11 +6182,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-mUpdateBatchFlags
-|
-=
-aUpdateFlags
-;
 if
 (
 mUpdateBatchCnt
@@ -6260,7 +6192,6 @@ mUpdateBatchCnt
 {
 TriggerRefresh
 (
-mUpdateBatchFlags
 )
 ;
 }

@@ -174,8 +174,6 @@ UpdateView
 nsIView
 *
 aView
-PRUint32
-aUpdateFlags
 )
 ;
 NS_IMETHOD
@@ -188,15 +186,11 @@ const
 nsRect
 &
 aRect
-PRUint32
-aUpdateFlags
 )
 ;
 NS_IMETHOD
 UpdateAllViews
 (
-PRUint32
-aUpdateFlags
 )
 ;
 NS_IMETHOD
@@ -359,8 +353,6 @@ void
 NS_IMETHOD
 EndUpdateViewBatch
 (
-PRUint32
-aUpdateFlags
 )
 ;
 NS_IMETHOD
@@ -480,15 +472,11 @@ UpdateViews
 nsView
 *
 aView
-PRUint32
-aUpdateFlags
 )
 ;
 void
 TriggerRefresh
 (
-PRUint32
-aUpdateFlags
 )
 ;
 void
@@ -543,8 +531,6 @@ const
 nsRect
 &
 aCutOut
-PRUint32
-aUpdateFlags
 )
 ;
 void
@@ -561,8 +547,6 @@ const
 nsRect
 &
 aCutOut
-PRUint32
-aUpdateFlags
 nscoord
 aY1
 nscoord
@@ -747,8 +731,6 @@ const
 nsRect
 &
 aRect
-PRUint32
-aUpdateFlags
 )
 ;
 public
@@ -865,9 +847,6 @@ mUpdateCnt
 ;
 PRInt32
 mUpdateBatchCnt
-;
-PRUint32
-mUpdateBatchFlags
 ;
 bool
 mPainting
