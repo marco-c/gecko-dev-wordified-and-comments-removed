@@ -68,7 +68,6 @@ code
 return
 false
 ;
-else
 if
 (
 (
@@ -328,11 +327,9 @@ can_dbl
 op
 )
 )
-{
 return
 false
 ;
-}
 ALUOp
 interop
 =
@@ -365,11 +362,9 @@ fst
 .
 invalid
 )
-{
 return
 false
 ;
-}
 as_alu
 (
 ScratchRegister
@@ -425,7 +420,6 @@ dest
 =
 InvalidReg
 )
-{
 JS_ASSERT
 (
 sc
@@ -434,7 +428,6 @@ sc
 SetCond
 )
 ;
-}
 Imm8
 imm8
 =
@@ -3085,7 +3078,6 @@ return
 cond
 ;
 }
-else
 if
 (
 cond
@@ -3180,7 +3172,6 @@ return
 cond
 ;
 }
-else
 if
 (
 cond
@@ -4831,6 +4822,7 @@ c
 )
 ;
 }
+static
 Assembler
 :
 :
@@ -10698,7 +10690,6 @@ end
 ;
 }
 else
-{
 if
 (
 src
@@ -10714,6 +10705,7 @@ gpr
 (
 )
 )
+{
 as_mov
 (
 dest
@@ -12161,7 +12153,6 @@ isMarkable
 (
 )
 )
-{
 ma_mov
 (
 ImmGCPtr
@@ -12184,9 +12175,7 @@ ptr
 lr
 )
 ;
-}
 else
-{
 ma_mov
 (
 Imm32
@@ -12202,7 +12191,6 @@ i32
 lr
 )
 ;
-}
 ma_str
 (
 lr
@@ -12302,7 +12290,6 @@ isMarkable
 (
 )
 )
-{
 ma_mov
 (
 ImmGCPtr
@@ -12325,9 +12312,7 @@ ptr
 ScratchRegister
 )
 ;
-}
 else
-{
 ma_mov
 (
 Imm32
@@ -12343,7 +12328,6 @@ i32
 ScratchRegister
 )
 ;
-}
 JS_STATIC_ASSERT
 (
 NUNBOX32_PAYLOAD_OFFSET
@@ -13292,7 +13276,6 @@ isInvalid
 (
 )
 )
-{
 ma_vxfer
 (
 floatArgsInGPR
@@ -13321,7 +13304,6 @@ i
 )
 )
 ;
-}
 }
 checkStackAlignment
 (

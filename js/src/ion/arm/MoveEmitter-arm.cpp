@@ -1134,7 +1134,6 @@ isFloatReg
 (
 )
 )
-{
 masm
 .
 ma_vmov
@@ -1151,9 +1150,7 @@ floatReg
 )
 )
 ;
-}
 else
-{
 masm
 .
 ma_vstr
@@ -1170,7 +1167,6 @@ true
 )
 )
 ;
-}
 }
 else
 if
@@ -1392,7 +1388,6 @@ spilledReg_
 =
 InvalidReg
 )
-{
 masm
 .
 ma_ldr
@@ -1403,7 +1398,6 @@ spillSlot
 spilledReg_
 )
 ;
-}
 masm
 .
 freeStack
