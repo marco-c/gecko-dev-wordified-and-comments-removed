@@ -7653,7 +7653,7 @@ mjit
 ExpandInlineFrames
 (
 cx
-FRAME_EXPAND_ALL
+true
 )
 ;
 #

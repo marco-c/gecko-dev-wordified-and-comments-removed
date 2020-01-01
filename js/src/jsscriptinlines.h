@@ -290,16 +290,9 @@ if
 !
 lastBinding
 )
-{
-js_ReportOutOfMemory
-(
-cx
-)
-;
 return
 false
 ;
-}
 }
 return
 true
