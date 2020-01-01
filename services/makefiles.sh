@@ -102,6 +102,11 @@ sync
 locales
 /
 Makefile
+services
+/
+captivedetect
+/
+Makefile
 "
 if
 [

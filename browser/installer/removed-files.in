@@ -7502,6 +7502,15 @@ sync
 js
 defaults
 /
+pref
+/
+services
+-
+captivedetect
+.
+js
+defaults
+/
 profile
 /
 bookmarks
