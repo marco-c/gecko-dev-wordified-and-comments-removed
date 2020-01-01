@@ -606,6 +606,10 @@ NS_DISCONNECT_EVENT_HANDLER
 (
 Error
 )
+Close
+(
+)
+;
 }
 NS_IMETHODIMP
 nsEventSource
