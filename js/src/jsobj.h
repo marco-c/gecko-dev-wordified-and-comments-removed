@@ -2353,6 +2353,8 @@ JSObject
 parent
 uintN
 objectSize
+uintN
+flags
 )
 ;
 extern

@@ -17981,7 +17981,6 @@ n
 .
 clasp
 )
-{
 ABORT_TRACE
 (
 "
@@ -17989,10 +17988,6 @@ NYI
 "
 )
 ;
-return
-true
-;
-}
 ABORT_TRACE
 (
 "
