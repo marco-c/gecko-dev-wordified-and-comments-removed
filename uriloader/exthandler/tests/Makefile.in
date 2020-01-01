@@ -511,6 +511,13 @@ config
 rules
 .
 mk
+ifeq
+(
+(
+MOZ_WIDGET_TOOLKIT
+)
+gtk2
+)
 export
 PERSONAL_MAILCAP
 =
@@ -526,3 +533,4 @@ pwd
 )
 /
 mailcap
+endif
