@@ -445,6 +445,10 @@ gcli
 .
 jsm
 \
+GcliCommands
+.
+jsm
+\
 (
 NULL
 )
