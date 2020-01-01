@@ -1583,7 +1583,7 @@ width
 surface_rect
 .
 height
-CAIRO_COLOR_WHITE
+CAIRO_COLOR_TRANSPARENT
 &
 pattern
 .
@@ -1630,7 +1630,7 @@ status
 =
 _cairo_surface_composite_trapezoids
 (
-CAIRO_OPERATOR_IN
+CAIRO_OPERATOR_ADD
 &
 pattern
 .

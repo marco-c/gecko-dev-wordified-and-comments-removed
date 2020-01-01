@@ -4262,9 +4262,14 @@ return
 status
 ;
 }
+cairo_surface_show_page
+(
+paginated_surface
+)
+;
 status
 =
-cairo_surface_show_page
+cairo_surface_status
 (
 paginated_surface
 )
@@ -4729,6 +4734,8 @@ status
 ;
 int
 id
+=
+0
 ;
 p2u
 =

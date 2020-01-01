@@ -57,6 +57,16 @@ int
 height
 )
 ;
+cairo_public
+XRenderPictFormat
+*
+cairo_xlib_surface_get_xrender_format
+(
+cairo_surface_t
+*
+surface
+)
+;
 CAIRO_END_DECLS
 #
 else
