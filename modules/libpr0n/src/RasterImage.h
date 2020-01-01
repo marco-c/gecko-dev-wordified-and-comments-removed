@@ -763,6 +763,14 @@ framenum
 ;
 imgFrame
 *
+GetImgFrameNoDecode
+(
+PRUint32
+framenum
+)
+;
+imgFrame
+*
 GetImgFrame
 (
 PRUint32
