@@ -9415,6 +9415,9 @@ ariaProperties
 live
 "
 "
+channel
+"
+"
 atomic
 "
 "
@@ -9434,6 +9437,12 @@ setsize
 "
 "
 sort
+"
+"
+grab
+"
+"
+dropeffect
 "
 }
 ;
