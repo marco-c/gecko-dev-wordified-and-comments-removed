@@ -19996,6 +19996,10 @@ c
 setNeedsBarrier
 (
 false
+JSCompartment
+:
+:
+DontUpdateIon
 )
 ;
 c
@@ -20314,6 +20318,10 @@ c
 setNeedsBarrier
 (
 false
+JSCompartment
+:
+:
+DontUpdateIon
 )
 ;
 }
@@ -20379,6 +20387,10 @@ c
 setNeedsBarrier
 (
 true
+JSCompartment
+:
+:
+UpdateIon
 )
 ;
 c
@@ -20410,6 +20422,10 @@ c
 setNeedsBarrier
 (
 false
+JSCompartment
+:
+:
+UpdateIon
 )
 ;
 }
@@ -25592,6 +25608,10 @@ c
 setNeedsBarrier
 (
 true
+JSCompartment
+:
+:
+UpdateIon
 )
 ;
 c
@@ -25978,6 +25998,10 @@ c
 setNeedsBarrier
 (
 false
+JSCompartment
+:
+:
+UpdateIon
 )
 ;
 }
