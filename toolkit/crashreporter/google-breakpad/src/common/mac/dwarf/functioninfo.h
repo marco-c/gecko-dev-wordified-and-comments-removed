@@ -47,6 +47,9 @@ string
 name
 ;
 string
+mangled_name
+;
+string
 file
 ;
 uint32
@@ -397,6 +400,9 @@ reader_
 FunctionInfo
 *
 current_function_info_
+;
+uint64
+current_compilation_unit_offset_
 ;
 }
 ;

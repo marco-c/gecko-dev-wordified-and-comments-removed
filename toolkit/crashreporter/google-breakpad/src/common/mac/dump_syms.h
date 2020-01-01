@@ -69,10 +69,6 @@ NSMutableDictionary
 *
 sources_
 ;
-NSMutableArray
-*
-cppAddresses_
-;
 NSMutableDictionary
 *
 headers_
