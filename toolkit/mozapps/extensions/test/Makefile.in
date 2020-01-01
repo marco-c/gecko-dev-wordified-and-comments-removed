@@ -585,7 +585,9 @@ xpcshell
 /
 &
 &
-tar
+(
+TAR
+)
 -
 cPf
 -
@@ -602,7 +604,9 @@ xpcshell
 unpack
 &
 &
-tar
+(
+TAR
+)
 -
 xPvf
 -
