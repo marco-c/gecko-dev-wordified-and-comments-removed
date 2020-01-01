@@ -983,11 +983,6 @@ NS_FORM_OPTGROUP
 break
 ;
 case
-NS_FORM_LEGEND
-:
-break
-;
-case
 NS_FORM_SELECT
 :
 break
