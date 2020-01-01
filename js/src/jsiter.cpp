@@ -1745,6 +1745,7 @@ ida
 JSIdArray
 *
 )
+(
 uintptr_t
 (
 ni
@@ -1762,6 +1763,7 @@ JSIdArray
 sizeof
 (
 jsid
+)
 )
 )
 ;
