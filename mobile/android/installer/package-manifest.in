@@ -2439,6 +2439,13 @@ BINPATH
 /
 components
 /
+TCPServerSocket
+.
+js
+BINPATH
+/
+components
+/
 TCPSocket
 .
 manifest
