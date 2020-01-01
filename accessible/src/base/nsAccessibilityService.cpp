@@ -7129,12 +7129,12 @@ frame
 GetType
 (
 )
-!
+=
 =
 nsAccessibilityAtoms
 :
 :
-placeholderFrame
+tableCaptionFrame
 &
 &
 frame
