@@ -193,11 +193,6 @@ IsAltPressed
 (
 )
 ;
-bool
-UserAccountControlIsEnabled
-(
-)
-;
 std
 :
 :
