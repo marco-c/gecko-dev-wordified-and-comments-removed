@@ -5864,6 +5864,14 @@ DLL_SUFFIX
 #
 ifdef
 XP_WIN
+js3250
+.
+dll
+#
+endif
+#
+ifdef
+XP_WIN
 components
 /
 brwsrcmp
