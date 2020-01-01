@@ -196,6 +196,13 @@ input
 )
 WIDGET_ATOM
 (
+indeterminate
+"
+indeterminate
+"
+)
+WIDGET_ATOM
+(
 key
 "
 key

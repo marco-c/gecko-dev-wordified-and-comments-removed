@@ -525,5 +525,13 @@ PRBool
 aCheckSelected
 )
 ;
+PRBool
+GetIndeterminate
+(
+nsIFrame
+*
+aFrame
+)
+;
 }
 ;
