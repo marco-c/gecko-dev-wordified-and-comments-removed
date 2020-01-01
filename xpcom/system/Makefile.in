@@ -439,6 +439,10 @@ nsIGnomeVFSService
 .
 idl
 \
+nsIBlocklistService
+.
+idl
+\
 (
 NULL
 )
