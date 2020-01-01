@@ -29,19 +29,13 @@ priv
 h
 "
 #
-include
-<
-stdlib
-.
-h
->
-#
 define
 ECP521_DIGITS
 ECL_CURVE_DIGITS
 (
 521
 )
+static
 mp_err
 ec_GFp_nistp521_mod
 (
@@ -389,6 +383,7 @@ return
 res
 ;
 }
+static
 mp_err
 ec_GFp_nistp521_sqr
 (
@@ -435,6 +430,7 @@ return
 res
 ;
 }
+static
 mp_err
 ec_GFp_nistp521_mul
 (
@@ -486,6 +482,7 @@ return
 res
 ;
 }
+static
 mp_err
 ec_GFp_nistp521_div
 (

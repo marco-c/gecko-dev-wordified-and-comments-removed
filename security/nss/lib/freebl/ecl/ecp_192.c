@@ -29,19 +29,13 @@ priv
 h
 "
 #
-include
-<
-stdlib
-.
-h
->
-#
 define
 ECP192_DIGITS
 ECL_CURVE_DIGITS
 (
 192
 )
+static
 mp_err
 ec_GFp_nistp192_mod
 (
@@ -1427,6 +1421,7 @@ res
 #
 ifndef
 ECL_THIRTY_TWO_BIT
+static
 mp_err
 ec_GFp_nistp192_add
 (
@@ -1944,6 +1939,7 @@ return
 res
 ;
 }
+static
 mp_err
 ec_GFp_nistp192_sub
 (
@@ -2421,6 +2417,7 @@ res
 }
 #
 endif
+static
 mp_err
 ec_GFp_nistp192_sqr
 (
@@ -2467,6 +2464,7 @@ return
 res
 ;
 }
+static
 mp_err
 ec_GFp_nistp192_mul
 (
@@ -2518,6 +2516,7 @@ return
 res
 ;
 }
+static
 mp_err
 ec_GFp_nistp192_div
 (

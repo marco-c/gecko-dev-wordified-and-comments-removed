@@ -125,9 +125,11 @@ extern
 void
 SECU_PrintError
 (
+const
 char
 *
 progName
+const
 char
 *
 msg
@@ -140,9 +142,11 @@ extern
 void
 SECU_PrintSystemError
 (
+const
 char
 *
 progName
+const
 char
 *
 msg
@@ -160,9 +164,11 @@ FILE
 out
 int
 level
+const
 char
 *
 progName
+const
 char
 *
 msg
@@ -364,6 +370,7 @@ extern
 void
 SECU_PrintPRandOSError
 (
+const
 char
 *
 progName

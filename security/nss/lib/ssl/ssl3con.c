@@ -51606,7 +51606,10 @@ hs
 .
 negotiatedECCurves
 =
-SSL3_SUPPORTED_CURVES_MASK
+ssl3_GetSupportedECCCurveMask
+(
+ss
+)
 ;
 #
 endif

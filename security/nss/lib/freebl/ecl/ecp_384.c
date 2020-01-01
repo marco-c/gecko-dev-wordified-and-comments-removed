@@ -28,13 +28,7 @@ priv
 .
 h
 "
-#
-include
-<
-stdlib
-.
-h
->
+static
 mp_err
 ec_GFp_nistp384_mod
 (
@@ -2284,6 +2278,7 @@ return
 res
 ;
 }
+static
 mp_err
 ec_GFp_nistp384_sqr
 (
@@ -2330,6 +2325,7 @@ return
 res
 ;
 }
+static
 mp_err
 ec_GFp_nistp384_mul
 (

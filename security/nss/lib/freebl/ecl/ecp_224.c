@@ -29,19 +29,13 @@ priv
 h
 "
 #
-include
-<
-stdlib
-.
-h
->
-#
 define
 ECP224_DIGITS
 ECL_CURVE_DIGITS
 (
 224
 )
+static
 mp_err
 ec_GFp_nistp224_mod
 (
@@ -1624,6 +1618,7 @@ return
 res
 ;
 }
+static
 mp_err
 ec_GFp_nistp224_sqr
 (
@@ -1670,6 +1665,7 @@ return
 res
 ;
 }
+static
 mp_err
 ec_GFp_nistp224_mul
 (
@@ -1721,6 +1717,7 @@ return
 res
 ;
 }
+static
 mp_err
 ec_GFp_nistp224_div
 (

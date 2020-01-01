@@ -76,5 +76,6 @@ RELEASE
 nss
 DIRS
 =
+coreconf
 lib
 cmd
