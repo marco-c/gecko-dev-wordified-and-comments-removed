@@ -321,6 +321,15 @@ VMFrame
 f
 )
 ;
+void
+JS_FASTCALL
+Neg
+(
+VMFrame
+&
+f
+)
+;
 JSBool
 JS_FASTCALL
 ValueToBoolean
