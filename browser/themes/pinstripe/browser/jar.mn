@@ -1956,7 +1956,7 @@ browser
 /
 preferences
 /
-prefbutton
+panebutton
 -
 active
 .
@@ -1964,7 +1964,7 @@ png
 (
 preferences
 /
-prefbutton
+panebutton
 -
 active
 .
@@ -1978,7 +1978,7 @@ browser
 /
 preferences
 /
-prefbutton
+panebutton
 -
 inactive
 .
@@ -1986,7 +1986,7 @@ png
 (
 preferences
 /
-prefbutton
+panebutton
 -
 inactive
 .
