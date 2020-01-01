@@ -1593,7 +1593,7 @@ MediaDecoderStateMachine
 >
 mDecoderStateMachine
 ;
-nsAutoPtr
+nsRefPtr
 <
 MediaResource
 >
