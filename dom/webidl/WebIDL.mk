@@ -283,6 +283,10 @@ HTMLPropertiesCollection
 .
 webidl
 \
+HTMLTitleElement
+.
+webidl
+\
 ImageData
 .
 webidl
