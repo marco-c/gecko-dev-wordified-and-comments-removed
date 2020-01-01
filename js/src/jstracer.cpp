@@ -36603,11 +36603,6 @@ recorder
 NULL
 )
 ;
-AUDIT
-(
-recorderAborted
-)
-;
 Fragment
 *
 f
@@ -36642,6 +36637,11 @@ cx
 return
 ;
 }
+AUDIT
+(
+recorderAborted
+)
+;
 JS_ASSERT
 (
 !
