@@ -138,10 +138,7 @@ aDevice
 >
 QueryInterface
 (
-__uuidof
-(
-IDirect3DDevice9Ex
-)
+IID_IDirect3DDevice9Ex
 (
 void
 *
@@ -2380,10 +2377,7 @@ aDevice
 >
 QueryInterface
 (
-__uuidof
-(
-IDirect3DDevice9Ex
-)
+IID_IDirect3DDevice9Ex
 getter_AddRefs
 (
 deviceEx

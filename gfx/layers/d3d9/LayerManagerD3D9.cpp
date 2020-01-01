@@ -55,6 +55,13 @@ nsIGfxInfo
 h
 "
 #
+include
+"
+nsServiceManagerUtils
+.
+h
+"
+#
 ifdef
 CAIRO_HAS_D2D_SURFACE
 #
