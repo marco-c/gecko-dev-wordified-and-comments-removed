@@ -1022,6 +1022,16 @@ Fragment
 >
 dependentTrees
 ;
+Queue
+<
+nanojit
+:
+:
+Fragment
+*
+>
+linkedTrees
+;
 unsigned
 branchCount
 ;
