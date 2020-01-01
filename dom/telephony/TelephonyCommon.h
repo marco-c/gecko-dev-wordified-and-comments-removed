@@ -112,6 +112,13 @@ class
 nsIDOMTelephonyCall
 ;
 BEGIN_TELEPHONY_NAMESPACE
+enum
+{
+kOutgoingPlaceholderCallIndex
+=
+PR_UINT32_MAX
+}
+;
 class
 Telephony
 ;
