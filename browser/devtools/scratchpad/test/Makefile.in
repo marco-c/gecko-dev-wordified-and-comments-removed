@@ -185,6 +185,10 @@ browser_scratchpad_bug807924_cannot_convert_to_string
 .
 js
 \
+browser_scratchpad_long_string
+.
+js
+\
 head
 .
 js
