@@ -22079,10 +22079,10 @@ if
 pn
 -
 >
-pn_arity
+pn_op
 =
 =
-PN_NAME
+JSOP_NAME
 &
 &
 pn
