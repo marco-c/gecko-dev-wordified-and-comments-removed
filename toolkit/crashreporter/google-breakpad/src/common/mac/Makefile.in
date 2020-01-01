@@ -445,6 +445,9 @@ srcdir
 /
 .
 .
+DIRS
+=
+dwarf
 #
 This
 is
