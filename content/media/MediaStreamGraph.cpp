@@ -5812,14 +5812,6 @@ IsEmpty
 |
 |
 !
-mCurrentTaskMessageQueue
-.
-IsEmpty
-(
-)
-|
-|
-!
 mStreamUpdates
 .
 IsEmpty
