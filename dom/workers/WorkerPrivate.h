@@ -951,8 +951,6 @@ JSContext
 aCx
 jsval
 aMessage
-jsval
-aTransferable
 )
 ;
 uint64_t
@@ -1931,8 +1929,6 @@ JSContext
 aCx
 jsval
 aMessage
-jsval
-transferable
 )
 ;
 bool

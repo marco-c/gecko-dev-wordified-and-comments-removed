@@ -1224,11 +1224,6 @@ aCx
 jsval
 message
 ;
-jsval
-transferable
-=
-JSVAL_VOID
-;
 if
 (
 !
@@ -1243,13 +1238,9 @@ aVp
 )
 "
 v
-/
-v
 "
 &
 message
-&
-transferable
 )
 )
 {
@@ -1265,7 +1256,6 @@ PostMessage
 (
 aCx
 message
-transferable
 )
 ;
 }

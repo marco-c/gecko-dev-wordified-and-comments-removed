@@ -8999,8 +8999,6 @@ JSContext
 aCx
 jsval
 aMessage
-jsval
-aTransferable
 )
 {
 AssertIsOnParentThread
@@ -9109,7 +9107,6 @@ write
 (
 aCx
 aMessage
-aTransferable
 callbacks
 &
 clonedObjects
@@ -14258,8 +14255,6 @@ JSContext
 aCx
 jsval
 aMessage
-jsval
-aTransferable
 )
 {
 AssertIsOnWorkerThread
@@ -14301,7 +14296,6 @@ write
 (
 aCx
 aMessage
-aTransferable
 callbacks
 &
 clonedObjects
