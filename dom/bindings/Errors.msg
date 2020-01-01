@@ -213,9 +213,11 @@ to
 MSG_DEF
 (
 MSG_NOT_OBJECT
-0
+1
 "
-Value
+{
+0
+}
 is
 not
 an
