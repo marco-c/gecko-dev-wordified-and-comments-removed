@@ -443,13 +443,6 @@ if
 mTrackUnionStream
 )
 {
-mStreamPort
--
->
-Destroy
-(
-)
-;
 mTrackUnionStream
 -
 >
@@ -858,7 +851,11 @@ SetAutofinish
 true
 )
 ;
-mStreamPort
+nsRefPtr
+<
+MediaInputPort
+>
+port
 =
 mTrackUnionStream
 -

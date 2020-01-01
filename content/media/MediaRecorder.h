@@ -342,12 +342,6 @@ ProcessedMediaStream
 >
 mTrackUnionStream
 ;
-nsRefPtr
-<
-MediaInputPort
->
-mStreamPort
-;
 nsAutoPtr
 <
 EncodedBufferCache
