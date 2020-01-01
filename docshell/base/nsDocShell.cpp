@@ -35099,6 +35099,13 @@ if
 (
 !
 bIsJavascript
+&
+&
+aFileName
+.
+IsVoid
+(
+)
 )
 {
 nsCOMPtr
