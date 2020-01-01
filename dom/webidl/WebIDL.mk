@@ -171,6 +171,10 @@ FileReaderSync
 .
 webidl
 \
+Function
+.
+webidl
+\
 GainNode
 .
 webidl
