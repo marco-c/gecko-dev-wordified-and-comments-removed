@@ -712,11 +712,15 @@ networkMenu
 .
 sizeKB
 "
-"
+L10N
+.
+numberWithDecimals
+(
 0
 .
-169
-"
+168
+3
+)
 )
 +
 "
@@ -771,7 +775,6 @@ requestHeaders
 "
 (
 0
-.
 "
 )
 "
