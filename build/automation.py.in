@@ -6381,6 +6381,15 @@ outputPipe
 subprocess
 .
 PIPE
+self
+.
+lastTestSeen
+=
+"
+automation
+.
+py
+"
 proc
 =
 self
