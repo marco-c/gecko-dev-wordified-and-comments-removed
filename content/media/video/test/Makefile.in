@@ -452,6 +452,10 @@ test_bug461281
 .
 html
 \
+test_bug465498
+.
+html
+\
 test_constants
 .
 html
@@ -545,6 +549,10 @@ test_wav_8bit
 html
 \
 test_wav_ended1
+.
+html
+\
+test_wav_onloadedmetadata
 .
 html
 \
