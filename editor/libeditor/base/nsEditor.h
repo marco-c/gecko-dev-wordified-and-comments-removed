@@ -1570,7 +1570,7 @@ aChildTag
 )
 ;
 bool
-IsRootNode
+IsRoot
 (
 nsIDOMNode
 *
@@ -1578,7 +1578,7 @@ inNode
 )
 ;
 bool
-IsRootNode
+IsRoot
 (
 nsINode
 *
@@ -1586,7 +1586,7 @@ inNode
 )
 ;
 bool
-IsDescendantOfBody
+IsDescendantOfRoot
 (
 nsIDOMNode
 *
@@ -1594,7 +1594,7 @@ inNode
 )
 ;
 bool
-IsDescendantOfBody
+IsDescendantOfRoot
 (
 nsINode
 *
