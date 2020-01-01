@@ -1739,6 +1739,11 @@ mError
 =
 nsnull
 ;
+SetDOMStringToNull
+(
+mResult
+)
+;
 nsresult
 rv
 ;
