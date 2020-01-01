@@ -43,10 +43,8 @@ var
 RESULTS
 =
 [
--
-1
--
-1
+null
+null
 0
 2
 4
@@ -106,7 +104,7 @@ addons
 i
 ]
 .
-rating
+averageRating
 !
 =
 RESULTS
@@ -137,7 +135,7 @@ addons
 i
 ]
 .
-rating
+averageRating
 +
 "
 should
