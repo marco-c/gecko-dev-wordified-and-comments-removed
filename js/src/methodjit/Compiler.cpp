@@ -4429,6 +4429,10 @@ BEGIN_CASE
 (
 JSOP_SETPROP
 )
+BEGIN_CASE
+(
+JSOP_SETMETHOD
+)
 prepareStubCall
 (
 )
