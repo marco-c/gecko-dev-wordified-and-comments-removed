@@ -80,6 +80,7 @@ enum
 GestureState
 {
 GESTURE_NONE
+GESTURE_WAITING_PINCH
 GESTURE_PINCH
 GESTURE_WAITING_SINGLE_TAP
 GESTURE_WAITING_DOUBLE_TAP
@@ -151,6 +152,9 @@ mTouches
 ;
 GestureState
 mState
+;
+float
+mSpanChange
 ;
 float
 mPreviousSpan
