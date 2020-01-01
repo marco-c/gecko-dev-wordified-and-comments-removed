@@ -422,7 +422,6 @@ autoconf
 mk
 DIRS
 =
-communicator
 global
 mozapps
 help

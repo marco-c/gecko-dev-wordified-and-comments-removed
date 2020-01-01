@@ -422,6 +422,7 @@ mk
 DIRS
 =
 browser
+communicator
 include
 (
 topsrcdir
