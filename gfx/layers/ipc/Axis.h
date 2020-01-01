@@ -31,6 +31,13 @@ gfx
 .
 h
 "
+#
+include
+"
+nsTArray
+.
+h
+"
 namespace
 mozilla
 {
@@ -267,6 +274,12 @@ mAcceleration
 AsyncPanZoomController
 *
 mAsyncPanZoomController
+;
+nsTArray
+<
+float
+>
+mVelocityQueue
 ;
 }
 ;
