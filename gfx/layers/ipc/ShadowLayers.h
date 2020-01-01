@@ -166,6 +166,9 @@ DestroyedThebesBuffer
 ShadowableLayer
 *
 aThebes
+gfxSharedImageSurface
+*
+aBackBufferToDestroy
 )
 ;
 void
