@@ -471,6 +471,10 @@ browser_library_panel_leak
 .
 js
 \
+browser_library_search
+.
+js
+\
 (
 NULL
 )
