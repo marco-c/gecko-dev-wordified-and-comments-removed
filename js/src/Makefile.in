@@ -760,6 +760,10 @@ srcdir
 CPPSRCS
 =
 \
+jsanalyze
+.
+cpp
+\
 jsapi
 .
 cpp
@@ -979,6 +983,10 @@ h
 js
 .
 msg
+\
+jsanalyze
+.
+h
 \
 jsapi
 .
@@ -1494,10 +1502,6 @@ CPPSRCS
 +
 =
 MethodJIT
-.
-cpp
-\
-BytecodeAnalyzer
 .
 cpp
 \

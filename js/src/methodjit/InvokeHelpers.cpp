@@ -143,6 +143,13 @@ h
 #
 include
 "
+jsanalyze
+.
+h
+"
+#
+include
+"
 jsinterpinlines
 .
 h

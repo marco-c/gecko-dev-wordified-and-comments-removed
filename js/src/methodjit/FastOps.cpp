@@ -3394,11 +3394,12 @@ JSOP_POP
 &
 !
 analysis
-[
+-
+>
+jumpTarget
+(
 PC
-]
-.
-nincoming
+)
 )
 {
 popped
