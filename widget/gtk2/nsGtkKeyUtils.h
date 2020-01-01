@@ -185,6 +185,11 @@ Init
 )
 ;
 void
+InitXKBExtension
+(
+)
+;
+void
 InitBySystemSettings
 (
 )
@@ -284,6 +289,9 @@ endif
 GdkKeymap
 *
 mGdkKeymap
+;
+int
+mXKBBaseEventCode
 ;
 static
 KeymapWrapper
