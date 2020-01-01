@@ -211,6 +211,12 @@ mCheckPhishing
 PRBool
 mInUpdate
 ;
+nsTArray
+<
+nsCString
+>
+mGethashWhitelist
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
