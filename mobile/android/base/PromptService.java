@@ -1218,7 +1218,7 @@ promptServiceResult
 }
 public
 void
-Show
+show
 (
 String
 aTitle
@@ -2488,9 +2488,7 @@ ex
 )
 {
 }
-this
-.
-Show
+show
 (
 title
 text
