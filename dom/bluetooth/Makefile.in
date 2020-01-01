@@ -193,10 +193,6 @@ BluetoothDevice
 .
 cpp
 \
-BluetoothDeviceEvent
-.
-cpp
-\
 BluetoothPropertyEvent
 .
 cpp

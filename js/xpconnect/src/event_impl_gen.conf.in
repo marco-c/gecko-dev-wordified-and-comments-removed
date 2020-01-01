@@ -151,6 +151,9 @@ MOZ_B2G_BT
 '
 BluetoothDeviceAddressEvent
 '
+'
+BluetoothDeviceEvent
+'
 #
 endif
 '

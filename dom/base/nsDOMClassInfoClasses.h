@@ -1607,10 +1607,6 @@ BluetoothDevice
 )
 DOMCI_CLASS
 (
-BluetoothDeviceEvent
-)
-DOMCI_CLASS
-(
 BluetoothPropertyEvent
 )
 DOMCI_CLASS
