@@ -2029,6 +2029,11 @@ type
 "
 arrow
 "
+footertype
+=
+"
+promobox
+"
 orient
 =
 "
@@ -3269,6 +3274,11 @@ type
 =
 "
 arrow
+"
+footertype
+=
+"
+promobox
 "
 position
 =
