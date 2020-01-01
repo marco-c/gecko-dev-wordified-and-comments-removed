@@ -80,6 +80,9 @@ class
 nsIHttpAuthenticator
 ;
 class
+nsHttpHandler
+;
+class
 nsHttpChannelAuthProvider
 :
 public
@@ -537,6 +540,12 @@ uint32_t
 mSuppressDefensiveAuth
 :
 1
+;
+nsRefPtr
+<
+nsHttpHandler
+>
+mHttpHandler
 ;
 }
 ;

@@ -1410,6 +1410,12 @@ nsString
 >
 mContentDispositionFilename
 ;
+nsRefPtr
+<
+nsHttpHandler
+>
+mHttpHandler
+;
 }
 ;
 template

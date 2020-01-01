@@ -118,6 +118,9 @@ class
 nsHttpResponseHead
 ;
 class
+nsHttpHandler
+;
+class
 nsHttpConnection
 :
 public
@@ -712,6 +715,12 @@ nsRefPtr
 nsAHttpTransaction
 >
 mTransaction
+;
+nsRefPtr
+<
+nsHttpHandler
+>
+mHttpHandler
 ;
 mozilla
 :

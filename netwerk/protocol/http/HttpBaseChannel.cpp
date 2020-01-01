@@ -245,6 +245,10 @@ mContentDispositionHint
 (
 UINT32_MAX
 )
+mHttpHandler
+(
+gHttpHandler
+)
 {
 LOG
 (
@@ -259,11 +263,6 @@ n
 "
 this
 )
-)
-;
-NS_ADDREF
-(
-gHttpHandler
 )
 ;
 mSelfAddr
@@ -307,13 +306,6 @@ this
 )
 ;
 CleanRedirectCacheChainIfNecessary
-(
-)
-;
-gHttpHandler
--
->
-Release
 (
 )
 ;
