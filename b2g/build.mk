@@ -97,10 +97,6 @@ endif
 tier_app_dirs
 +
 =
-services
-tier_app_dirs
-+
-=
 \
 (
 MOZ_BRANDING_DIRECTORY
