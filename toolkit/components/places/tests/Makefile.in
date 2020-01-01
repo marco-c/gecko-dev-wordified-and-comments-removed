@@ -465,12 +465,6 @@ test_bug_405924
 .
 html
 \
-mochitest
-/
-test_bug_411966
-.
-html
-\
 (
 NULL
 )
@@ -491,10 +485,6 @@ DIRS
 =
 \
 chrome
-\
-mochitest
-/
-test_bug_411966
 \
 #
 These
