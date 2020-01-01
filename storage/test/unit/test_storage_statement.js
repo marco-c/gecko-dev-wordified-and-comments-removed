@@ -192,7 +192,6 @@ stmt
 getParameterIndex
 (
 "
-:
 id
 "
 )
@@ -206,7 +205,6 @@ stmt
 getParameterIndex
 (
 "
-:
 name
 "
 )
@@ -243,10 +241,12 @@ test
 WHERE
 id
 =
+:
 test
 OR
 name
 =
+:
 test
 "
 )
