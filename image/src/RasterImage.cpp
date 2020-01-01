@@ -1800,6 +1800,13 @@ Length
 (
 )
 ;
+if
+(
+NS_IsMainThread
+(
+)
+)
+{
 DiscardTracker
 :
 :
@@ -1809,6 +1816,7 @@ Remove
 mDiscardTrackerNode
 )
 ;
+}
 }
 void
 RasterImage
