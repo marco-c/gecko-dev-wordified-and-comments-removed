@@ -79,6 +79,15 @@ Bootstrap
 Step
 :
 :
+PatcherConfig
+;
+use
+Bootstrap
+:
+:
+Step
+:
+:
 Updates
 ;
 use
@@ -117,6 +126,9 @@ Source
 '
 '
 Repack
+'
+'
+PatcherConfig
 '
 '
 Updates
@@ -1085,7 +1097,6 @@ exit
 }
 }
 }
-&
 main
 (
 )
