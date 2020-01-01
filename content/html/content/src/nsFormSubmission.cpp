@@ -1,7 +1,7 @@
 #
 include
 "
-nsIFormSubmission
+nsFormSubmission
 .
 h
 "

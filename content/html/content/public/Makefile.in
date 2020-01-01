@@ -482,7 +482,7 @@ nsIFileControlElement
 .
 h
 \
-nsIFormSubmission
+nsFormSubmission
 .
 h
 \
