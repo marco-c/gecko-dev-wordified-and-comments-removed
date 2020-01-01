@@ -83,6 +83,13 @@ FindMemCards
 )
 ;
 BOOL
+OnDialogCreated
+(
+HWND
+hDlg
+)
+;
+BOOL
 OnBtnExtract
 (
 )
@@ -148,9 +155,12 @@ WCHAR
 sPath
 )
 ;
-void
+BOOL
 RunUninstall
 (
+BOOL
+*
+pbCancelled
 )
 ;
 void
