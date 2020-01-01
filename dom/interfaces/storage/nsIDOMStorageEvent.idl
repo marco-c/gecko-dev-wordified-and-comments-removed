@@ -756,9 +756,11 @@ DOMString
 key
 ;
 DOMString
+?
 oldValue
 ;
 DOMString
+?
 newValue
 ;
 DOMString
