@@ -1006,6 +1006,10 @@ ParseMaps
 .
 cpp
 \
+Unicode
+.
+cpp
+\
 (
 NULL
 )
@@ -1414,6 +1418,10 @@ String
 h
 \
 StringObject
+.
+h
+\
+Unicode
 .
 h
 \

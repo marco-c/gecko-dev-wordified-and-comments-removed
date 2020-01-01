@@ -75,6 +75,13 @@ typedef
 JSLinearString
 UString
 ;
+using
+namespace
+js
+:
+:
+unicode
+;
 class
 Unicode
 {
@@ -89,7 +96,7 @@ c
 )
 {
 return
-JS_TOUPPER
+ToUpperCase
 (
 c
 )
@@ -104,7 +111,7 @@ c
 )
 {
 return
-JS_TOLOWER
+ToLowerCase
 (
 c
 )
