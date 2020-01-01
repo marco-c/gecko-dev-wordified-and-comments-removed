@@ -502,6 +502,10 @@ IDBFactory
 .
 cpp
 \
+IndexedDatabaseManager
+.
+cpp
+\
 LazyIdleThread
 .
 cpp
@@ -553,6 +557,10 @@ IDBTransaction
 h
 \
 IndexedDatabase
+.
+h
+\
+IndexedDatabaseManager
 .
 h
 \
@@ -701,6 +709,10 @@ nsIIDBTransactionEvent
 idl
 \
 nsIIDBFactory
+.
+idl
+\
+nsIIndexedDatabaseManager
 .
 idl
 \
