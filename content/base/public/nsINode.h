@@ -2147,7 +2147,7 @@ nsAString
 aNamespaceURI
 )
 ;
-NS_IMETHOD
+nsresult
 IsEqualNode
 (
 nsIDOMNode
@@ -2157,8 +2157,14 @@ PRBool
 *
 aReturn
 )
-=
-0
+;
+PRBool
+IsEqualTo
+(
+nsINode
+*
+aOther
+)
 ;
 nsIContent
 *
