@@ -2911,16 +2911,6 @@ const
 =
 0
 ;
-bool
-HasAncestor
-(
-const
-ReteNode
-*
-aNode
-)
-const
-;
 nsresult
 AddChild
 (
