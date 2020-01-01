@@ -1221,6 +1221,7 @@ thread
 =
 js_CurrentThread
 (
+rt
 )
 ;
 if
