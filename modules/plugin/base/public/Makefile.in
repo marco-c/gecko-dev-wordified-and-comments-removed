@@ -523,10 +523,6 @@ nsIEventHandler
 .
 idl
 \
-nsICookieStorage
-.
-idl
-\
 nsIWindowlessPlugInstPeer
 .
 idl
