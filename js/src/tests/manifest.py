@@ -106,10 +106,6 @@ isDebugBuild
 %
 s
 ;
-var
-Android
-=
-false
 '
 %
 (
