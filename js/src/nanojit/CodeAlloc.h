@@ -280,6 +280,11 @@ CodeAlloc
 )
 ;
 void
+reset
+(
+)
+;
+void
 alloc
 (
 NIns
