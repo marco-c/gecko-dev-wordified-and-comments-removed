@@ -1345,13 +1345,6 @@ closeOtherTabs
 accesskey
 ;
 "
-tbattr
-=
-"
-tabbrowser
--
-multiple
-"
 oncommand
 =
 "
