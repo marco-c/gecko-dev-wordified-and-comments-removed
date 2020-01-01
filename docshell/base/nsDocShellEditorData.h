@@ -107,6 +107,11 @@ nsIEditor
 inEditor
 )
 ;
+void
+TearDownEditor
+(
+)
+;
 protected
 :
 nsresult
