@@ -445,13 +445,8 @@ mk
 MODULE
 =
 reftest
-ifneq
-(
-(
-OS_ARCH
-)
-WINNT
-)
+ifdef
+DISABLED_SEE_BUG_387132
 LIBRARY_NAME
 =
 reftest
@@ -589,10 +584,7 @@ nsReftestHelper
 cpp
 endif
 #
-OS_ARCH
-!
-=
-WINNT
+DISABLED_SEE_BUG_387132
 EXTRA_COMPONENTS
 =
 \
