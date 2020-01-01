@@ -7964,6 +7964,17 @@ contenttooltip
 )
 )
 ;
+if
+(
+this
+.
+hasAttribute
+(
+"
+autocompletepopup
+"
+)
+)
 b
 .
 setAttribute
