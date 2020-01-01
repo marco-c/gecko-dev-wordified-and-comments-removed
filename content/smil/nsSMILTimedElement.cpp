@@ -4064,6 +4064,10 @@ nsIContent
 aContextNode
 )
 {
+mPrevRegisteredMilestone
+=
+sMaxMilestone
+;
 if
 (
 mElementState
@@ -4154,10 +4158,6 @@ aContextNode
 )
 ;
 }
-mPrevRegisteredMilestone
-=
-sMaxMilestone
-;
 RegisterMilestone
 (
 )
