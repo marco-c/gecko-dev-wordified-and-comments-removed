@@ -368,6 +368,7 @@ prologue
 01
 .
 js
+fails
 script
 eval
 -

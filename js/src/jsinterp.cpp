@@ -4297,6 +4297,9 @@ getGlobal
 chain
 ;
 }
+#
+if
+0
 if
 (
 script
@@ -4378,6 +4381,8 @@ initialVarObj
 )
 ;
 }
+#
+endif
 JS_ASSERT
 (
 !
