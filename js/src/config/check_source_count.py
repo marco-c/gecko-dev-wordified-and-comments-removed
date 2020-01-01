@@ -164,8 +164,8 @@ print
 "
 There
 are
-less
-occurences
+fewer
+occurrences
 of
 /
 %
@@ -206,7 +206,7 @@ print
 There
 are
 more
-occurences
+occurrences
 of
 /
 %
