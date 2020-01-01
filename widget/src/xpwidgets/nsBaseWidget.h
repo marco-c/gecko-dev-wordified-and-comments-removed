@@ -1285,6 +1285,9 @@ mSizeMode
 nsPopupLevel
 mPopupLevel
 ;
+PRBool
+mDrawFPS
+;
 static
 nsIContent
 *
