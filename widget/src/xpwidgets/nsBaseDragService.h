@@ -216,6 +216,9 @@ mScreenX
 PRInt32
 mScreenY
 ;
+PRUint32
+mSuppressLevel
+;
 }
 ;
 #
