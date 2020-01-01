@@ -6,7 +6,9 @@ GRAPHITE2_NTRACING
 #
 include
 <
-cstdio
+stdio
+.
+h
 >
 #
 include
