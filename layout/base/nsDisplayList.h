@@ -5143,8 +5143,13 @@ return
 mIsThemed
 ;
 }
+nsRect
+GetPositioningArea
+(
+)
+;
 bool
-RenderingMightDependOnFrameSize
+RenderingMightDependOnPositioningAreaSizeChange
 (
 )
 ;

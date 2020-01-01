@@ -8599,7 +8599,7 @@ nsStyleBackground
 Size
 :
 :
-DependsOnFrameSize
+DependsOnPositioningAreaSize
 (
 const
 nsStyleImage
@@ -9155,7 +9155,7 @@ nsStyleBackground
 Layer
 :
 :
-RenderingMightDependOnFrameSize
+RenderingMightDependOnPositioningAreaSizeChange
 (
 )
 const
@@ -9176,14 +9176,14 @@ false
 return
 mPosition
 .
-DependsOnFrameSize
+DependsOnPositioningAreaSize
 (
 )
 |
 |
 mSize
 .
-DependsOnFrameSize
+DependsOnPositioningAreaSize
 (
 mImage
 )

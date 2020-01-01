@@ -18,6 +18,9 @@ class
 nsDisplayListBuilder
 ;
 class
+nsDisplayBackground
+;
+class
 nsDisplayItemGeometry
 {
 public
@@ -142,7 +145,7 @@ public
 :
 nsDisplayBackgroundGeometry
 (
-nsDisplayItem
+nsDisplayBackground
 *
 aItem
 nsDisplayListBuilder
@@ -161,10 +164,7 @@ aOffset
 )
 ;
 nsRect
-mPaddingRect
-;
-nsRect
-mContentRect
+mPositioningArea
 ;
 }
 ;
