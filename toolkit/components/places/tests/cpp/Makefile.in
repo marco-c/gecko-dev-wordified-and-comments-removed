@@ -444,6 +444,9 @@ mk
 MODULE
 =
 test_places
+FAIL_ON_WARNINGS
+=
+1
 CPP_UNIT_TESTS
 =
 \
