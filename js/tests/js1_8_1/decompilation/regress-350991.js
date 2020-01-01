@@ -176,7 +176,7 @@ function
 {
 \
 n
-let
+var
 x
 =
 5
