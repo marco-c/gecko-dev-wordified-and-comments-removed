@@ -460,6 +460,16 @@ aLastPart
 )
 ;
 void
+BlockOnload
+(
+)
+;
+void
+UnblockOnload
+(
+)
+;
+void
 DoCancel
 (
 nsresult

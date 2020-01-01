@@ -751,6 +751,11 @@ nsIImageLoadingContent
 NS_INTERFACE_TABLE_ENTRY
 (
 nsHTMLObjectElement
+imgIOnloadBlocker
+)
+NS_INTERFACE_TABLE_ENTRY
+(
+nsHTMLObjectElement
 imgIContainerObserver
 )
 NS_INTERFACE_TABLE_ENTRY
