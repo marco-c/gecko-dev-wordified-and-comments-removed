@@ -17,7 +17,7 @@ failure
 trap
 (
 main
-4
+3
 "
 '
 success

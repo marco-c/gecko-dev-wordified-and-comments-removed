@@ -5612,6 +5612,17 @@ mainLength
 <
 =
 3
+&
+&
+!
+(
+cg
+-
+>
+flags
+&
+TCF_IN_FUNCTION
+)
 )
 {
 jsbytecode
