@@ -25948,6 +25948,7 @@ compartment
 )
 *
 (
+volatile
 int
 *
 )
