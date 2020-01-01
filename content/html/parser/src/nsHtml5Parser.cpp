@@ -642,7 +642,7 @@ aCommand
 Assign
 (
 "
-loadAsData
+view
 "
 )
 ;
