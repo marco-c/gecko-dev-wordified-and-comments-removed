@@ -812,7 +812,11 @@ lineNumber
 6
 functionName
 :
-null
+"
+window
+.
+foobar585956c
+"
 language
 :
 2

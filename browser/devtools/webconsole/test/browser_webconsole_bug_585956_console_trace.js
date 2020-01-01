@@ -149,7 +149,11 @@ lineNumber
 9
 functionName
 :
-null
+"
+window
+.
+foobar585956c
+"
 language
 :
 2
