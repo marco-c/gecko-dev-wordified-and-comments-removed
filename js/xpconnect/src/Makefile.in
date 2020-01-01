@@ -441,6 +441,10 @@ LIBXUL_LIBRARY
 EXPORTS
 =
 \
+xpcObjectHelper
+.
+h
+\
 xpcpublic
 .
 h
