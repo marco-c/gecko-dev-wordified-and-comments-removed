@@ -379,6 +379,9 @@ EGL
 #
 ifdef
 XP_WIN
+#
+ifdef
+MOZ_WEBGL
 if
 (
 !
@@ -472,6 +475,8 @@ return
 false
 ;
 }
+#
+endif
 #
 else
 #

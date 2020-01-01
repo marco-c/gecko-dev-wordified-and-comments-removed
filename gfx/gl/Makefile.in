@@ -160,6 +160,13 @@ h
 (
 NULL
 )
+ifdef
+MOZ_WEBGL
+DEFINES
++
+=
+-
+DMOZ_WEBGL
 DEFINES
 +
 =
@@ -178,6 +185,7 @@ DMOZ_D3DCOMPILER_DLL
 (
 MOZ_D3DCOMPILER_DLL
 )
+endif
 endif
 CPPSRCS
 =
