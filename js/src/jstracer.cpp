@@ -6217,7 +6217,6 @@ return
 ibinary
 (
 LIR_lsh
-false
 )
 ;
 }
@@ -6233,7 +6232,6 @@ return
 ibinary
 (
 LIR_rsh
-false
 )
 ;
 }
@@ -6249,7 +6247,6 @@ return
 ibinary
 (
 LIR_ush
-false
 )
 ;
 }
