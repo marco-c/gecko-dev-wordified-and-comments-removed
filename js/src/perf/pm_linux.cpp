@@ -948,10 +948,7 @@ toMeasure
 :
 impl
 (
-OffTheBooks
-:
-:
-new_
+js_new
 <
 Impl
 >
@@ -1072,13 +1069,7 @@ PerfMeasurement
 (
 )
 {
-js
-:
-:
-Foreground
-:
-:
-delete_
+js_delete
 (
 static_cast
 <

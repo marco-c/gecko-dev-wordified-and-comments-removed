@@ -3319,10 +3319,7 @@ if
 (
 p
 )
-cx
--
->
-free_
+js_free
 (
 p
 )

@@ -615,10 +615,7 @@ self
 )
 )
 {
-rt
--
->
-free_
+js_free
 (
 table
 )
@@ -1194,10 +1191,7 @@ oldsize
 -
 ;
 }
-cx
--
->
-free_
+js_free
 (
 oldTable
 )

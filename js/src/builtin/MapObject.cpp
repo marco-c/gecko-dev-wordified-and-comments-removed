@@ -3622,10 +3622,7 @@ if
 iterobj
 )
 {
-cx
--
->
-delete_
+js_delete
 (
 range
 )
@@ -3800,10 +3797,7 @@ empty
 )
 )
 {
-cx
--
->
-delete_
+js_delete
 (
 range
 )
@@ -6145,10 +6139,7 @@ if
 iterobj
 )
 {
-cx
--
->
-delete_
+js_delete
 (
 range
 )
@@ -6323,10 +6314,7 @@ empty
 )
 )
 {
-cx
--
->
-delete_
+js_delete
 (
 range
 )

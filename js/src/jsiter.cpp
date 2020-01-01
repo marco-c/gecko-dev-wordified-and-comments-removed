@@ -3302,10 +3302,7 @@ JSMSG_NOT_ITERABLE
 bytes
 )
 ;
-cx
--
->
-free_
+js_free
 (
 bytes
 )

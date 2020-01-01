@@ -232,13 +232,7 @@ ShapeTable
 (
 )
 {
-js
-:
-:
-UnwantedForeground
-:
-:
-free_
+js_free
 (
 entries
 )

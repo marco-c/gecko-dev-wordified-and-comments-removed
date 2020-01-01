@@ -241,10 +241,7 @@ end
 +
 it
 )
-cx
--
->
-delete_
+js_delete
 <
 AtomMapT
 >

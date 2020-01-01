@@ -87,10 +87,7 @@ if
 (
 cx
 )
-cx
--
->
-free_
+js_free
 (
 entries
 )
@@ -134,10 +131,7 @@ entries
 SyncEntry
 *
 )
-OffTheBooks
-:
-:
-calloc_
+js_calloc
 (
 sizeof
 (

@@ -534,10 +534,7 @@ malloc_
 bytes
 )
 :
-OffTheBooks
-:
-:
-malloc_
+js_malloc
 (
 bytes
 )

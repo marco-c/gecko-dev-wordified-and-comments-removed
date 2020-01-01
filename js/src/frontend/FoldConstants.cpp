@@ -3402,10 +3402,7 @@ if
 str
 )
 {
-cx
--
->
-free_
+js_free
 (
 chars
 )

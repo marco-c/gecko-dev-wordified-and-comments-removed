@@ -849,6 +849,7 @@ pn
 }
 JS_DECLARE_NEW_METHODS
 (
+new_
 allocParseNode
 inline
 )
