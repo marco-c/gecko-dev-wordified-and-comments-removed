@@ -4109,11 +4109,9 @@ button
 class
 =
 "
-tab
+tabs
 -
-close
--
-button
+closebutton
 "
 oncommand
 =
