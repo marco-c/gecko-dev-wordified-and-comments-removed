@@ -167,6 +167,10 @@ test_audioParamSetTargetAtTime
 .
 html
 \
+test_audioParamTimelineDestinationOffset
+.
+html
+\
 test_audioBufferSourceNode
 .
 html
