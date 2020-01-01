@@ -570,6 +570,7 @@ EXPAND_LIBNAME
 comctl32
 shell32
 wininet
+shlwapi
 )
 MOZ_WINCONSOLE
 =
