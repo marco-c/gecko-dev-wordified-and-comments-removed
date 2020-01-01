@@ -7964,9 +7964,7 @@ nsCERTValInParamWrapper
 :
 :
 any_revo_relaxed
-"
-ocsp
-"
+FIRST_REVO_METHOD_DEFAULT
 )
 ;
 if
