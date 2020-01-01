@@ -265,10 +265,7 @@ args
 ]
 +
 (
-int
-)
-(
-long
+intptr_t
 )
 userdata
 ;
@@ -535,7 +532,7 @@ args
 int
 )
 (
-long
+intptr_t
 )
 userdata
 (

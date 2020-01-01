@@ -158,9 +158,13 @@ printf
 res
 :
 %
-lld
+"
+PRIdLL
+"
 %
-lld
+"
+PRIdLL
+"
 \
 n
 "
