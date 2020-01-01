@@ -1322,7 +1322,7 @@ stream
 mDecoder
 -
 >
-GetCurrentStream
+GetStream
 (
 )
 ;
@@ -2635,7 +2635,7 @@ rv
 mDecoder
 -
 >
-GetCurrentStream
+GetStream
 (
 )
 -
@@ -2992,7 +2992,7 @@ stream
 mDecoder
 -
 >
-GetCurrentStream
+GetStream
 (
 )
 ;
@@ -3120,7 +3120,7 @@ stream
 mDecoder
 -
 >
-GetCurrentStream
+GetStream
 (
 )
 ;
@@ -3201,7 +3201,7 @@ stream
 mDecoder
 -
 >
-GetCurrentStream
+GetStream
 (
 )
 ;
@@ -3742,7 +3742,7 @@ res
 mDecoder
 -
 >
-GetCurrentStream
+GetStream
 (
 )
 -
@@ -3963,7 +3963,7 @@ eo
 mDecoder
 -
 >
-GetCurrentStream
+GetStream
 (
 )
 -
@@ -4144,7 +4144,7 @@ stream
 mDecoder
 -
 >
-GetCurrentStream
+GetStream
 (
 )
 ;
@@ -4202,7 +4202,7 @@ stream
 mDecoder
 -
 >
-GetCurrentStream
+GetStream
 (
 )
 ;
@@ -5034,7 +5034,7 @@ stream
 mDecoder
 -
 >
-GetCurrentStream
+GetStream
 (
 )
 ;
@@ -5602,7 +5602,7 @@ stream
 mDecoder
 -
 >
-GetCurrentStream
+GetStream
 (
 )
 ;
@@ -6877,7 +6877,7 @@ stream
 mDecoder
 -
 >
-GetCurrentStream
+GetStream
 (
 )
 ;
