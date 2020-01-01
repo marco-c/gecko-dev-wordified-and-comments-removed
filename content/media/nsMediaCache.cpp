@@ -2628,7 +2628,6 @@ stream
 >
 mPinCount
 >
-=
 0
 |
 |
