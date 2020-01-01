@@ -204,7 +204,7 @@ Kraft
 <
 morac99
 -
-firefox
+firefox2
 yahoo
 .
 com
@@ -763,6 +763,10 @@ js
 browser_586068
 -
 cascaded_restore
+.
+js
+\
+browser_600545
 .
 js
 \
