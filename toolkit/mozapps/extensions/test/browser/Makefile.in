@@ -597,6 +597,10 @@ browser_globalwarnings
 .
 js
 \
+discovery
+.
+html
+\
 redirect
 .
 sjs
