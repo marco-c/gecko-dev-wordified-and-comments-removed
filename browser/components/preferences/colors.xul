@@ -1355,6 +1355,11 @@ display
 .
 use_document_colors
 "
+flex
+=
+"
+1
+"
 /
 >
 <
