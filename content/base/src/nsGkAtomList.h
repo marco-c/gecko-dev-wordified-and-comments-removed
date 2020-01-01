@@ -7387,6 +7387,15 @@ xml
 )
 GK_ATOM
 (
+xml_stylesheet
+"
+xml
+-
+stylesheet
+"
+)
+GK_ATOM
+(
 xmlns
 "
 xmlns

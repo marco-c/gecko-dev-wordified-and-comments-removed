@@ -382,6 +382,10 @@ nsGkAtoms
 documentFragmentNodeName
 nsnull
 kNameSpaceID_None
+nsIDOMNode
+:
+:
+DOCUMENT_FRAGMENT_NODE
 )
 ;
 NS_ENSURE_TRUE
