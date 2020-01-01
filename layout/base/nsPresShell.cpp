@@ -3466,6 +3466,10 @@ mIsActive
 =
 true
 ;
+mIsFirstPaint
+=
+false
+;
 mFrozen
 =
 false
