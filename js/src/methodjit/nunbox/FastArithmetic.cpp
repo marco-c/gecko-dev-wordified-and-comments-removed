@@ -2717,6 +2717,15 @@ feTypeReg
 if
 (
 !
+fe
+-
+>
+isTypeKnown
+(
+)
+&
+&
+!
 frame
 .
 shouldAvoidTypeRemat
