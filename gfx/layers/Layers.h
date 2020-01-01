@@ -608,16 +608,6 @@ nsnull
 ;
 }
 virtual
-bool
-IsWidgetLayerManager
-(
-)
-{
-return
-true
-;
-}
-virtual
 void
 BeginTransaction
 (
