@@ -335,6 +335,16 @@ bin
 blocklist
 .
 xml
+#
+ifdef
+MOZ_SPLASHSCREEN
+bin
+\
+splash
+.
+bmp
+#
+endif
 ;
 [
 Components
