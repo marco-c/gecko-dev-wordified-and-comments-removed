@@ -1257,6 +1257,13 @@ userDisabled
 +
 addon
 .
+softDisabled
++
+"
+"
++
+addon
+.
 appDisabled
 ;
 }
@@ -1484,6 +1491,7 @@ addons
 "
 true
 false
+false
 "
 )
 ;
@@ -1497,6 +1505,7 @@ addons
 ]
 )
 "
+false
 false
 false
 "
@@ -1514,6 +1523,7 @@ addons
 "
 false
 false
+false
 "
 )
 ;
@@ -1527,6 +1537,7 @@ addons
 ]
 )
 "
+true
 true
 false
 "
@@ -1544,6 +1555,7 @@ addons
 "
 false
 false
+false
 "
 )
 ;
@@ -1557,6 +1569,7 @@ addons
 ]
 )
 "
+false
 false
 true
 "
@@ -1572,6 +1585,7 @@ addons
 ]
 )
 "
+false
 false
 true
 "
@@ -1772,6 +1786,7 @@ addons
 "
 false
 false
+false
 "
 )
 ;
@@ -1785,6 +1800,7 @@ addons
 ]
 )
 "
+false
 false
 false
 "
@@ -1802,6 +1818,7 @@ addons
 "
 false
 false
+false
 "
 )
 ;
@@ -1815,6 +1832,7 @@ addons
 ]
 )
 "
+true
 true
 false
 "
@@ -1831,6 +1849,7 @@ addons
 )
 "
 true
+true
 false
 "
 )
@@ -1846,6 +1865,7 @@ addons
 )
 "
 false
+false
 true
 "
 )
@@ -1860,6 +1880,7 @@ addons
 ]
 )
 "
+false
 false
 true
 "
@@ -2177,6 +2198,7 @@ addons
 )
 "
 true
+true
 false
 "
 )
@@ -2206,6 +2228,7 @@ addons
 ]
 )
 "
+true
 true
 false
 "
@@ -2238,6 +2261,7 @@ addons
 "
 true
 false
+false
 "
 )
 ;
@@ -2253,6 +2277,7 @@ addons
 "
 false
 false
+false
 "
 )
 ;
@@ -2266,6 +2291,7 @@ addons
 ]
 )
 "
+true
 true
 false
 "
@@ -2283,6 +2309,7 @@ addons
 "
 false
 false
+false
 "
 )
 ;
@@ -2296,6 +2323,7 @@ addons
 ]
 )
 "
+false
 false
 true
 "
@@ -2739,6 +2767,7 @@ addons
 )
 "
 true
+false
 true
 "
 )
@@ -2753,6 +2782,7 @@ addons
 ]
 )
 "
+false
 false
 true
 "
@@ -2769,21 +2799,7 @@ addons
 )
 "
 false
-true
-"
-)
-;
-do_check_eq
-(
-check_addon_state
-(
-addons
-[
-3
-]
-)
-"
-true
+false
 true
 "
 )
@@ -2798,6 +2814,7 @@ addons
 ]
 )
 "
+false
 false
 true
 "
@@ -2884,10 +2901,27 @@ check_addon_state
 (
 addons
 [
+3
+]
+)
+"
+false
+false
+true
+"
+)
+;
+do_check_eq
+(
+check_addon_state
+(
+addons
+[
 5
 ]
 )
 "
+false
 false
 true
 "
@@ -2903,6 +2937,7 @@ addons
 ]
 )
 "
+false
 false
 true
 "
@@ -3134,6 +3169,7 @@ addons
 "
 false
 false
+false
 "
 )
 ;
@@ -3158,11 +3194,28 @@ check_addon_state
 (
 addons
 [
+3
+]
+)
+"
+false
+false
+false
+"
+)
+;
+do_check_eq
+(
+check_addon_state
+(
+addons
+[
 0
 ]
 )
 "
 true
+false
 false
 "
 )
@@ -3177,6 +3230,7 @@ addons
 ]
 )
 "
+false
 false
 false
 "
@@ -3194,20 +3248,6 @@ addons
 "
 false
 false
-"
-)
-;
-do_check_eq
-(
-check_addon_state
-(
-addons
-[
-3
-]
-)
-"
-true
 false
 "
 )
@@ -3224,6 +3264,7 @@ addons
 "
 false
 false
+false
 "
 )
 ;
@@ -3237,6 +3278,7 @@ addons
 ]
 )
 "
+false
 false
 true
 "
