@@ -75,6 +75,10 @@ NULL
 webidl_files
 =
 \
+AnimationEvent
+.
+webidl
+\
 ArchiveReader
 .
 webidl
