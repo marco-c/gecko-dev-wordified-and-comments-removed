@@ -6563,7 +6563,6 @@ eCSSUnit_Number
 )
 ;
 }
-static
 already_AddRefed
 <
 nsCSSValue
@@ -6571,6 +6570,9 @@ nsCSSValue
 :
 Array
 >
+nsStyleAnimation
+:
+:
 AppendTransformFunction
 (
 nsCSSKeyword
@@ -7898,6 +7900,9 @@ arr
 ;
 arr
 =
+nsStyleAnimation
+:
+:
 AppendTransformFunction
 (
 eCSSKeyword_interpolatematrix
@@ -8180,6 +8185,9 @@ eCSSKeyword_perspective
 {
 arr
 =
+nsStyleAnimation
+:
+:
 AppendTransformFunction
 (
 tfunc
