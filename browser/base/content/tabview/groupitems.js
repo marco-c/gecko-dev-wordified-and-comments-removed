@@ -5400,9 +5400,6 @@ Utils
 defaultFaviconURL
 )
 ;
-return
-true
-;
 }
 }
 )
