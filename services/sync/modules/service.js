@@ -1342,7 +1342,7 @@ Prefs
 set
 (
 "
-nextSync
+syncThreshold
 "
 value
 )
