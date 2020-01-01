@@ -47,6 +47,9 @@ nsDiskCacheStreams
 h
 "
 class
+nsDiskCacheDeviceDeactivateEntryEvent
+;
+class
 nsDiskCacheBinding
 :
 public
@@ -108,6 +111,10 @@ mDoomed
 ;
 PRUint8
 mGeneration
+;
+nsDiskCacheDeviceDeactivateEntryEvent
+*
+mDeactivateEvent
 ;
 }
 ;
