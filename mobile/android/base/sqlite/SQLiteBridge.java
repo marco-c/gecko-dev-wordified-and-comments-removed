@@ -1291,7 +1291,7 @@ bridge
 .
 mDbPointer
 =
-bridge
+SQLiteBridge
 .
 openDatabase
 (
