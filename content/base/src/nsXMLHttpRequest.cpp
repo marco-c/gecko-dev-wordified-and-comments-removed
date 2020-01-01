@@ -7386,6 +7386,12 @@ NS_SUCCEEDED
 (
 rv
 )
+&
+&
+xmlHttpRequest
+-
+>
+mXMLParserStreamListener
 )
 {
 NS_ASSERTION
