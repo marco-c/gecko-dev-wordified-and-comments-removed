@@ -141,6 +141,14 @@ template
 .
 webapp
 \
+test_arrays
+.
+html
+\
+file_arrays
+.
+html
+\
 (
 NULL
 )
