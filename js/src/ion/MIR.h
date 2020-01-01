@@ -4130,7 +4130,7 @@ CompilerRootFunction
 target_
 ;
 uint32
-bytecodeArgc_
+numActualArgs_
 ;
 MCall
 (
@@ -4138,7 +4138,7 @@ JSFunction
 *
 target
 uint32
-bytecodeArgc
+numActualArgs
 bool
 construct
 )
@@ -4151,9 +4151,9 @@ target_
 (
 target
 )
-bytecodeArgc_
+numActualArgs_
 (
-bytecodeArgc
+numActualArgs
 )
 {
 setResultType
@@ -4178,9 +4178,9 @@ JSFunction
 *
 target
 size_t
-argc
+maxArgc
 size_t
-bytecodeArgc
+numActualArgs
 bool
 construct
 )
@@ -4317,7 +4317,7 @@ construct_
 ;
 }
 uint32
-argc
+numStackArgs
 (
 )
 const
@@ -4331,13 +4331,13 @@ NumNonArgumentOperands
 ;
 }
 uint32
-bytecodeArgc
+numActualArgs
 (
 )
 const
 {
 return
-bytecodeArgc_
+numActualArgs_
 ;
 }
 TypePolicy

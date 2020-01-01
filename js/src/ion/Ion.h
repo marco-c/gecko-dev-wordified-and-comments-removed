@@ -87,6 +87,9 @@ usesBeforeCompileNoJaeger
 uint32
 usesBeforeInlining
 ;
+uint32
+maxStackArgs
+;
 void
 setEagerCompilation
 (
@@ -150,6 +153,10 @@ usesBeforeCompileNoJaeger
 usesBeforeInlining
 (
 usesBeforeCompile
+)
+maxStackArgs
+(
+4096
 )
 {
 }

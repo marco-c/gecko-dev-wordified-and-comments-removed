@@ -747,6 +747,9 @@ jsbytecode
 *
 pc_
 ;
+uint32
+numActualArgs_
+;
 private
 :
 void

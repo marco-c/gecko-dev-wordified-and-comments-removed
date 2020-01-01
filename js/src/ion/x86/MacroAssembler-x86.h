@@ -4435,6 +4435,14 @@ code
 {
 push
 (
+Imm32
+(
+0
+)
+)
+;
+push
+(
 calleeToken
 )
 ;
