@@ -403,13 +403,12 @@ unicode
 -
 bidi
 :
-bidi
--
-override
 -
 moz
 -
 isolate
+-
+override
 ;
 }
 textarea
