@@ -3237,7 +3237,16 @@ return
 script
 -
 >
-sourceMap
+hasSourceMap
+?
+script
+-
+>
+getSourceMap
+(
+)
+:
+NULL
 ;
 }
 JS_PUBLIC_API

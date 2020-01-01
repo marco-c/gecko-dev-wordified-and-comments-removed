@@ -1602,6 +1602,13 @@ ScriptCountsMap
 *
 scriptCountsMap
 ;
+js
+:
+:
+SourceMapMap
+*
+sourceMapMap
+;
 }
 ;
 #
