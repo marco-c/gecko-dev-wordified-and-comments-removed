@@ -4670,6 +4670,7 @@ nsXMLNameSpaceMap
 :
 Create
 (
+PR_FALSE
 )
 ;
 NS_ENSURE_TRUE

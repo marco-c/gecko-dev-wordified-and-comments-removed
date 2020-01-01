@@ -72,6 +72,8 @@ nsXMLNameSpaceMap
 )
 Create
 (
+PRBool
+aForXML
 )
 ;
 NS_HIDDEN_
