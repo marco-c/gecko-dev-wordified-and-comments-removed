@@ -557,11 +557,6 @@ SetupTransaction
 )
 ;
 nsresult
-ApplyContentConversions
-(
-)
-;
-nsresult
 CallOnStartRequest
 (
 )
