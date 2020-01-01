@@ -539,6 +539,10 @@ mozIStorageServiceQuotaManagement
 .
 idl
 \
+mozIStorageVacuumParticipant
+.
+idl
+\
 (
 NULL
 )
