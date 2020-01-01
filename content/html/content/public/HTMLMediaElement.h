@@ -1916,6 +1916,11 @@ aMuted
 )
 ;
 void
+SetVolumeInternal
+(
+)
+;
+void
 SuspendOrResumeElement
 (
 bool
