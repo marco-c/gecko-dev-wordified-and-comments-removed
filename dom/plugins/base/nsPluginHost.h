@@ -1313,7 +1313,7 @@ thread
 ;
 mDelayedDestroy
 =
-PR_FALSE
+false
 ;
 PR_INIT_CLIST
 (

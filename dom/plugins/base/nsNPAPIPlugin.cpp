@@ -742,7 +742,7 @@ sPluginThreadAsyncCallLock
 ;
 initialized
 =
-PR_TRUE
+true
 ;
 NPN_PLUGIN_LOG
 (
@@ -971,7 +971,7 @@ GMA9XXGraphics
 bool
 hasIntelGMA9XX
 =
-PR_FALSE
+false
 ;
 CGLRendererInfoObj
 renderer
@@ -1052,7 +1052,7 @@ CGLRendererIntel900ID
 {
 hasIntelGMA9XX
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1096,7 +1096,7 @@ MOZ_DISABLE_OOP_PLUGINS
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1106,7 +1106,7 @@ aPluginTag
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -1131,7 +1131,7 @@ OSXVersion
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1170,7 +1170,7 @@ FindChar
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1217,7 +1217,7 @@ EqualsASCII
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1240,7 +1240,7 @@ GMA9XXGraphics
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -1299,7 +1299,7 @@ dwMinorVersion
 )
 )
 return
-PR_FALSE
+false
 ;
 #
 endif
@@ -1321,7 +1321,7 @@ prefs
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCAutoString
@@ -1359,7 +1359,7 @@ kNotFound
 slashPos
 )
 return
-PR_FALSE
+false
 ;
 prefFile
 .
@@ -1509,7 +1509,7 @@ javaIsEnabled
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRUint32
@@ -1695,7 +1695,7 @@ oopPluginsEnabled
 {
 prefSet
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1716,7 +1716,7 @@ prefSet
 {
 oopPluginsEnabled
 =
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -2410,7 +2410,7 @@ nsnull
 NPBool
 file
 =
-PR_FALSE
+false
 )
 {
 if
@@ -2541,7 +2541,7 @@ get
 >
 SetCallNotify
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -3995,7 +3995,7 @@ npp
 relativeURL
 target
 eNPPStreamTypeInternal_Get
-PR_TRUE
+true
 notifyData
 )
 ;
@@ -4131,7 +4131,7 @@ npp
 relativeURL
 target
 eNPPStreamTypeInternal_Post
-PR_TRUE
+true
 notifyData
 len
 buf
@@ -4254,7 +4254,7 @@ npp
 relativeURL
 target
 eNPPStreamTypeInternal_Post
-PR_FALSE
+false
 nsnull
 len
 buf
@@ -5129,7 +5129,7 @@ nsMemory
 :
 HeapMinimize
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -7952,7 +7952,7 @@ javaCompatible
 )
 javaCompatible
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -9348,7 +9348,7 @@ windowless
 NPBool
 needXEmbed
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -9378,7 +9378,7 @@ res
 {
 needXEmbed
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -9591,7 +9591,7 @@ NPBool
 )
 result
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -9663,7 +9663,7 @@ NPBool
 )
 result
 =
-PR_FALSE
+false
 ;
 return
 NPERR_NO_ERROR
@@ -9797,7 +9797,7 @@ NPBool
 )
 result
 =
-PR_TRUE
+true
 ;
 #
 elif
@@ -9829,7 +9829,7 @@ NPBool
 )
 result
 =
-PR_TRUE
+true
 ;
 #
 else
@@ -9840,7 +9840,7 @@ NPBool
 )
 result
 =
-PR_FALSE
+false
 ;
 #
 endif
@@ -9956,7 +9956,7 @@ NPBool
 )
 result
 =
-PR_TRUE
+true
 ;
 #
 else
@@ -9967,7 +9967,7 @@ NPBool
 )
 result
 =
-PR_FALSE
+false
 ;
 #
 endif
@@ -10295,7 +10295,7 @@ NPBool
 )
 result
 =
-PR_TRUE
+true
 ;
 return
 NPERR_NO_ERROR
@@ -10314,7 +10314,7 @@ NPBool
 )
 result
 =
-PR_TRUE
+true
 ;
 return
 NPERR_NO_ERROR
@@ -10331,7 +10331,7 @@ NPBool
 )
 result
 =
-PR_TRUE
+true
 ;
 return
 NPERR_NO_ERROR
@@ -10348,7 +10348,7 @@ NPBool
 )
 result
 =
-PR_TRUE
+true
 ;
 return
 NPERR_NO_ERROR
@@ -10368,7 +10368,7 @@ NPBool
 )
 result
 =
-PR_TRUE
+true
 ;
 return
 NPERR_NO_ERROR
@@ -10387,7 +10387,7 @@ NPBool
 )
 result
 =
-PR_TRUE
+true
 ;
 return
 NPERR_NO_ERROR
@@ -13079,7 +13079,7 @@ if
 inst
 )
 return
-PR_FALSE
+false
 ;
 return
 inst

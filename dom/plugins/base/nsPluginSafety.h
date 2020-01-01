@@ -163,7 +163,7 @@ fun
 \
 MOZ_SEH_EXCEPT
 (
-PR_TRUE
+true
 )
 \
 {
@@ -284,7 +284,7 @@ fun
 \
 MOZ_SEH_EXCEPT
 (
-PR_TRUE
+true
 )
 \
 {

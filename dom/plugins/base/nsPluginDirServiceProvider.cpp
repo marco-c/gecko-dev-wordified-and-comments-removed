@@ -823,7 +823,7 @@ nsnull
 *
 persistant
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -1259,7 +1259,7 @@ rv
 NS_NewLocalFile
 (
 newestPath
-PR_TRUE
+true
 getter_AddRefs
 (
 localFile
@@ -1651,7 +1651,7 @@ rv
 NS_NewLocalFile
 (
 path
-PR_TRUE
+true
 getter_AddRefs
 (
 localFile
@@ -1904,7 +1904,7 @@ rv
 NS_NewLocalFile
 (
 path
-PR_TRUE
+true
 getter_AddRefs
 (
 localFile
@@ -2267,7 +2267,7 @@ rv
 NS_NewLocalFile
 (
 newestPath
-PR_TRUE
+true
 getter_AddRefs
 (
 localFile
@@ -2553,7 +2553,7 @@ NS_SUCCEEDED
 NS_NewLocalFile
 (
 path
-PR_TRUE
+true
 getter_AddRefs
 (
 localFile

@@ -536,7 +536,7 @@ handle
 {
 ret
 =
-PR_FALSE
+false
 ;
 DisplayPR_LoadLibraryErrorMessage
 (
@@ -572,7 +572,7 @@ char
 *
 soname
 NULL
-PR_FALSE
+false
 )
 ;
 }
@@ -711,7 +711,7 @@ sonameList
 {
 prefSonameListIsSet
 =
-PR_FALSE
+false
 ;
 sonameList
 =
@@ -905,7 +905,7 @@ else
 {
 head
 =
-PR_FALSE
+false
 ;
 p
 +
@@ -991,7 +991,7 @@ i
 else
 tryToGetSoname
 =
-PR_FALSE
+false
 ;
 }
 char
@@ -1206,7 +1206,7 @@ filename
 )
 )
 return
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -1236,7 +1236,7 @@ libstagefright
 NULL
 )
 return
-PR_FALSE
+false
 ;
 #
 endif
@@ -1268,7 +1268,7 @@ dllSuffix
 )
 )
 return
-PR_TRUE
+true
 ;
 #
 ifdef
@@ -1301,12 +1301,12 @@ dllAltSuffix
 )
 )
 return
-PR_TRUE
+true
 ;
 #
 endif
 return
-PR_FALSE
+false
 ;
 }
 nsPluginFile
