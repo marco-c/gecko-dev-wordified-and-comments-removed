@@ -81,7 +81,7 @@ debugMode_
 FrameInfo
 frame
 ;
-ICStubSpace
+FallbackICStubSpace
 stubSpace_
 ;
 js

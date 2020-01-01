@@ -416,6 +416,10 @@ regexpCompartment
 cStats
 .
 debuggeesSet
+&
+cStats
+.
+baselineOptimizedStubs
 )
 ;
 }
@@ -1178,7 +1182,7 @@ size_t
 baselineData
 =
 0
-baselineStubs
+baselineFallbackStubs
 =
 0
 ;
@@ -1195,7 +1199,7 @@ mallocSizeOf_
 &
 baselineData
 &
-baselineStubs
+baselineFallbackStubs
 )
 ;
 cStats
@@ -1209,10 +1213,10 @@ baselineData
 cStats
 -
 >
-baselineStubs
+baselineFallbackStubs
 +
 =
-baselineStubs
+baselineFallbackStubs
 ;
 cStats
 -
