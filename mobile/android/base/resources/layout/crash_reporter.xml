@@ -360,7 +360,7 @@ text
 "
 string
 /
-crash_send_report_message2
+crash_send_report_message3
 "
 /
 >
@@ -579,7 +579,7 @@ text
 "
 string
 /
-crash_allow_contact
+crash_allow_contact2
 "
 /
 >

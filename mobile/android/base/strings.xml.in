@@ -320,11 +320,11 @@ string
 name
 =
 "
-crash_send_report_message2
+crash_send_report_message3
 "
 >
 &
-crash_send_report_message2
+crash_send_report_message3
 ;
 <
 /
@@ -380,11 +380,11 @@ string
 name
 =
 "
-crash_allow_contact
+crash_allow_contact2
 "
 >
 &
-crash_allow_contact
+crash_allow_contact2
 ;
 <
 /
