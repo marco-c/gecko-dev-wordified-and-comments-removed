@@ -506,10 +506,6 @@ nsIDOM3Node
 .
 idl
 \
-nsIDOM3Text
-.
-idl
-\
 nsIDOM3TypeInfo
 .
 idl
