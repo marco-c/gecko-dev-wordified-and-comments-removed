@@ -9451,12 +9451,19 @@ test
 .
 join
 (
+1
 )
                     
 if
 test
 .
 retry
+or
+test
+.
+is_alive
+(
+)
 :
                         
 self
