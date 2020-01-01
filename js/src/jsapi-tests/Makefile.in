@@ -465,6 +465,10 @@ testLookup
 .
 cpp
 \
+testNewObject
+.
+cpp
+\
 testPropCache
 .
 cpp
