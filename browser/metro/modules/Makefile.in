@@ -92,6 +92,10 @@ video
 .
 jsm
 \
+colorUtils
+.
+jsm
+\
 (
 NULL
 )
