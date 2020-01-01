@@ -1632,6 +1632,16 @@ pref
 "
 app
 .
+showCrashDialog
+"
+true
+)
+;
+pref
+(
+"
+app
+.
 reportCrashes
 "
 true
