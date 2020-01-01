@@ -517,7 +517,7 @@ __b
 ;
 __b
 =
-dynamic_cast
+static_cast
 <
 NPPProtocolParent
 *

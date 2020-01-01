@@ -218,7 +218,7 @@ host
 >
 HandleBadPlugin
 (
-library
+nsnull
 pluginInst
 )
 ;
@@ -331,7 +331,7 @@ host
 >
 HandleBadPlugin
 (
-library
+nsnull
 pluginInst
 )
 ;

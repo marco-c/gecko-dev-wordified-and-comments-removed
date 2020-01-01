@@ -661,7 +661,7 @@ __a
 ;
 __a
 =
-dynamic_cast
+static_cast
 <
 NPPProtocolChild
 *
