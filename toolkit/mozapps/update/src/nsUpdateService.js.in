@@ -13104,6 +13104,12 @@ _activeUpdate
 =
 null
 ;
+this
+.
+saveUpdates
+(
+)
+;
 /
 /
 Destroy
@@ -13739,6 +13745,12 @@ _addUpdate
 this
 .
 _activeUpdate
+)
+;
+this
+.
+_ensureUpdates
+(
 )
 ;
 /
