@@ -8212,6 +8212,19 @@ descriptor
 name
 )
         
+if
+not
+descriptor
+.
+interface
+.
+isCallback
+(
+)
+or
+static
+:
+            
 methods
 =
 [
@@ -8225,7 +8238,7 @@ interface
 .
 members
 if
-                   
+                       
 m
 .
 isMethod
@@ -8241,13 +8254,21 @@ isStatic
 =
 static
 and
-                   
+                       
 not
 m
 .
 isIdentifierLess
 (
 )
+]
+        
+else
+:
+            
+methods
+=
+[
 ]
         
 self
@@ -8861,6 +8882,19 @@ name
 =
 name
         
+if
+not
+descriptor
+.
+interface
+.
+isCallback
+(
+)
+or
+static
+:
+            
 attributes
 =
 [
@@ -8874,7 +8908,7 @@ interface
 .
 members
 if
-                      
+                          
 m
 .
 isAttr
@@ -8890,7 +8924,7 @@ isStatic
 =
 static
 and
-                      
+                          
 m
 .
 isUnforgeable
@@ -8899,6 +8933,14 @@ isUnforgeable
 =
 =
 unforgeable
+]
+        
+else
+:
+            
+attributes
+=
+[
 ]
         
 self

@@ -235,6 +235,10 @@ Node
 .
 webidl
 \
+NodeFilter
+.
+webidl
+\
 NodeList
 .
 webidl
