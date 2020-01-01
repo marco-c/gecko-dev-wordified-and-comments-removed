@@ -7354,7 +7354,6 @@ ParseSpecialIntValue
 (
 aString
 PR_TRUE
-PR_FALSE
 )
 ;
 }

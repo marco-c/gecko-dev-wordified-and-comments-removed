@@ -3464,7 +3464,6 @@ ParseSpecialIntValue
 (
 aValue
 PR_TRUE
-PR_FALSE
 )
 ;
 }
@@ -3542,7 +3541,6 @@ ParseSpecialIntValue
 (
 aValue
 PR_TRUE
-PR_FALSE
 )
 ;
 }
@@ -3565,7 +3563,6 @@ ParseSpecialIntValue
 (
 aValue
 PR_TRUE
-PR_FALSE
 )
 )
 {
