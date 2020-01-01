@@ -2358,10 +2358,14 @@ charXferString
 if
 (
 !
-EnsureStringLength
-(
 charXferString
+.
+SetLength
+(
 charLength
+fallible_t
+(
+)
 )
 )
 return
