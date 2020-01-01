@@ -5980,6 +5980,15 @@ PropertyName
 name
 )
 {
+gc
+:
+:
+AutoSuppressGC
+suppress
+(
+cx_
+)
+;
 JSAutoByteString
 bytes
 ;
