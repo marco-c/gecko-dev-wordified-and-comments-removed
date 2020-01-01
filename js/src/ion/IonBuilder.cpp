@@ -4043,14 +4043,6 @@ true
 case
 JSOP_SETARG
 :
-JS_ASSERT
-(
-inliningDepth
-=
-=
-0
-)
-;
 if
 (
 info

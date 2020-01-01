@@ -1749,8 +1749,6 @@ modifiesArguments_
 =
 true
 ;
-isIonInlineable
-=
 isJaegerInlineable
 =
 false
