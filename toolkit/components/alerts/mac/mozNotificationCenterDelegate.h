@@ -55,7 +55,7 @@ NSUserNotificationCenterDelegate
 >
 {
 private
-PRUint32
+uint32_t
 mKey
 ;
 NSMutableDictionary
@@ -92,7 +92,7 @@ aText
 key
 :
 (
-PRUint32
+uint32_t
 )
 aKey
 cookie
@@ -106,7 +106,7 @@ aCookie
 ;
 -
 (
-PRUint32
+uint32_t
 )
 addObserver
 :
