@@ -77,7 +77,6 @@ includedir
 {
 includetype
 }
--
-fshort
--
-wchar
+%
+WCHAR_CFLAGS
+%
