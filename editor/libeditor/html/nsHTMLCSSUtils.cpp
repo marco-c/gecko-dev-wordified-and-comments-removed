@@ -4295,13 +4295,6 @@ aAtom
 =
 nsnull
 ;
-if
-(
-0
-<
-aProperty
-)
-{
 switch
 (
 aProperty
@@ -4559,7 +4552,6 @@ eCSSEditableProperty_NONE
 :
 break
 ;
-}
 }
 }
 void
