@@ -8,6 +8,8 @@ import
 JavascriptException
 MarionetteException
 ScriptTimeoutException
+import
+time
 class
 TestExecuteAsyncContent
 (
@@ -198,6 +200,13 @@ marionetteScriptFinished
 )
 ;
 "
+)
+        
+time
+.
+sleep
+(
+3
 )
     
 def
