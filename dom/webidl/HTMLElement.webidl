@@ -180,6 +180,9 @@ DOMStringMap
 interface
 HTMLMenuElement
 ;
+[
+PrefControlled
+]
 interface
 HTMLElement
 :
@@ -924,7 +927,7 @@ dom
 .
 w3c_touch_events
 .
-enabled
+expose
 "
 ]
 attribute
@@ -940,7 +943,7 @@ dom
 .
 w3c_touch_events
 .
-enabled
+expose
 "
 ]
 attribute
@@ -956,7 +959,7 @@ dom
 .
 w3c_touch_events
 .
-enabled
+expose
 "
 ]
 attribute
@@ -972,7 +975,7 @@ dom
 .
 w3c_touch_events
 .
-enabled
+expose
 "
 ]
 attribute
@@ -988,7 +991,7 @@ dom
 .
 w3c_touch_events
 .
-enabled
+expose
 "
 ]
 attribute
@@ -1004,7 +1007,7 @@ dom
 .
 w3c_touch_events
 .
-enabled
+expose
 "
 ]
 attribute

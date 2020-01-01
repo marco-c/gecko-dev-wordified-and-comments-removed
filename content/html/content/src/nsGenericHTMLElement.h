@@ -2301,6 +2301,12 @@ IsLabelable
 )
 const
 ;
+static
+bool
+PrefEnabled
+(
+)
+;
 protected
 :
 void
