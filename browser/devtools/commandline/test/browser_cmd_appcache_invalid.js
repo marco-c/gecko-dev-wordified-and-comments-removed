@@ -379,7 +379,7 @@ NETWORK
 section
 \
 .
-Otherwice
+Otherwise
 such
 URIs
 will
@@ -1219,7 +1219,7 @@ NETWORK
 section
 \
 .
-Otherwice
+Otherwise
 such
 URIs
 will
