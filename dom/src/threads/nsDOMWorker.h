@@ -393,9 +393,9 @@ NextTimeoutId
 )
 {
 return
++
++
 mNextTimeoutId
-+
-+
 ;
 }
 nsresult
