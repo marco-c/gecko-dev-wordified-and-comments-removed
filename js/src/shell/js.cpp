@@ -6265,7 +6265,7 @@ JS_FlatStringEqualsAscii
 (
 flat
 "
-OBJECT_MARK_STACK_LENGTH
+MARK_STACK_LENGTH
 "
 )
 )
@@ -6280,13 +6280,7 @@ UINT_TO_JSVAL
 js
 :
 :
-OBJECT_MARK_STACK_SIZE
-/
-sizeof
-(
-JSObject
-*
-)
+MARK_STACK_LENGTH
 )
 ;
 }

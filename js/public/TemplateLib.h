@@ -258,7 +258,10 @@ const
 size_t
 result
 =
-1u
+size_t
+(
+1
+)
 <
 <
 CeilingLog2

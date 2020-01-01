@@ -33,7 +33,7 @@ N
 internalConst
 (
 "
-OBJECT_MARK_STACK_LENGTH
+MARK_STACK_LENGTH
 "
 )
 +
