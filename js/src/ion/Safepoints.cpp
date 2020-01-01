@@ -911,7 +911,7 @@ Part_Arg
 ;
 }
 static
-inline
+MOZ_ALWAYS_INLINE
 bool
 CanEncodeInfoInHeader
 (
