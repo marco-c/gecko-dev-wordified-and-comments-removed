@@ -477,6 +477,10 @@ nsIAccessNode
 .
 idl
 \
+nsIAccessibleCursorable
+.
+idl
+\
 nsIAccessibleEvent
 .
 idl
@@ -490,6 +494,10 @@ nsIAccessibleHyperLink
 idl
 \
 nsIAccessibleHyperText
+.
+idl
+\
+nsIAccessiblePivot
 .
 idl
 \

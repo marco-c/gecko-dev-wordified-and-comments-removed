@@ -500,6 +500,10 @@ nsAccessible
 .
 cpp
 \
+nsAccessiblePivot
+.
+cpp
+\
 nsAccTreeWalker
 .
 cpp

@@ -1695,6 +1695,11 @@ object
 attribute
 changed
 "
+"
+virtual
+cursor
+changed
+"
 }
 ;
 static
