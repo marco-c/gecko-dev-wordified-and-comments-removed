@@ -372,6 +372,12 @@ aPopupContent
 )
 )
 ;
+NS_ENSURE_TRUE
+(
+popupContent
+NS_ERROR_INVALID_ARG
+)
+;
 nsAutoString
 popupType
 (
