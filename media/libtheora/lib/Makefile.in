@@ -617,6 +617,8 @@ NULL
 )
 endif
 else
+ifndef
+HAVE_OLD_CLANG
 VPATH
 +
 =
@@ -656,6 +658,7 @@ c
 (
 NULL
 )
+endif
 endif
 endif
 ifdef
