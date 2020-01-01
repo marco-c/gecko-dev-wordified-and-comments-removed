@@ -852,11 +852,6 @@ dir_path
                 
 break
         
-if
-not
-topsrcdir
-:
-            
 mozinfo_path
 =
 os
@@ -881,7 +876,7 @@ mozinfo
 json
 "
 )
-            
+        
 if
 os
 .
@@ -892,7 +887,7 @@ isfile
 mozinfo_path
 )
 :
-                
+            
 topsrcdir
 topobjdir
 mozconfig
