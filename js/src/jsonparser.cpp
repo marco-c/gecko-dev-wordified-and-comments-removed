@@ -356,8 +356,7 @@ c
 '
 )
 {
-JSFlatString
-*
+UnrootedFlatString
 str
 =
 (
@@ -370,10 +369,13 @@ JSONParser
 PropertyName
 )
 ?
+UnrootedFlatString
+(
 buffer
 .
 finishAtom
 (
+)
 )
 :
 buffer

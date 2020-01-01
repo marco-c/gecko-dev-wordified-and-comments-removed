@@ -50,6 +50,11 @@ h
 "
 ForwardDeclareJS
 (
+Atom
+)
+;
+ForwardDeclareJS
+(
 Script
 )
 ;
@@ -700,8 +705,10 @@ inline
 void
 setGuessedAtom
 (
-JSAtom
-*
+js
+:
+:
+UnrootedAtom
 atom
 )
 ;

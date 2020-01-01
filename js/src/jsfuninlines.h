@@ -95,8 +95,10 @@ JSFunction
 :
 setGuessedAtom
 (
-JSAtom
-*
+js
+:
+:
+UnrootedAtom
 atom
 )
 {
