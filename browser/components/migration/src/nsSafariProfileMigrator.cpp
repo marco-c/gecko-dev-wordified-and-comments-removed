@@ -5338,6 +5338,7 @@ NS_SUCCEEDED
 (
 rv
 )
+)
 {
 nsCOMPtr
 <
