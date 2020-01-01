@@ -61,6 +61,13 @@ gfxFont
 .
 h
 "
+#
+include
+"
+nsIAccessibleTypes
+.
+h
+"
 using
 namespace
 mozilla

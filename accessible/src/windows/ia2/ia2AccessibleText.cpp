@@ -33,6 +33,13 @@ nsIPersistentProperties2
 .
 h
 "
+#
+include
+"
+nsIAccessibleTypes
+.
+h
+"
 using
 namespace
 mozilla

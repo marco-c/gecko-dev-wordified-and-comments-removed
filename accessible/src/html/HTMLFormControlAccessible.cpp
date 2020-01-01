@@ -133,6 +133,13 @@ h
 #
 include
 "
+nsIPersistentProperties2
+.
+h
+"
+#
+include
+"
 nsISelectionController
 .
 h

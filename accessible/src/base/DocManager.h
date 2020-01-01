@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsIWebProgress
-.
-h
-"
-#
-include
-"
 nsIWebProgressListener
 .
 h

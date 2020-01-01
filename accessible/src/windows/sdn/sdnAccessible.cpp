@@ -38,6 +38,13 @@ h
 #
 include
 "
+nsIAccessibleTypes
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLElement
 .
 h

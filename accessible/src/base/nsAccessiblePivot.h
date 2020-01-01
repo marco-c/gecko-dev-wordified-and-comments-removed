@@ -51,9 +51,6 @@ Attributes
 h
 "
 class
-nsIAccessibleTraversalRule
-;
-class
 RuleCache
 ;
 class
