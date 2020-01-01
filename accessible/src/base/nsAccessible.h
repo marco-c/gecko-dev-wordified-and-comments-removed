@@ -640,6 +640,16 @@ PRUint32
 aStates
 )
 ;
+nsresult
+ComputeGroupAttributes
+(
+PRUint32
+aRole
+nsIPersistentProperties
+*
+aAttributes
+)
+;
 virtual
 nsresult
 FirePlatformEvent
