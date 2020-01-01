@@ -454,6 +454,9 @@ test_applicationacc
 xul
 temporarily
 disabled
+see
+bug
+561508
 )
 \
 test_aria_globals
