@@ -229,4 +229,8 @@ FLOAT_WORDS_BIGENDIAN
 #
 endif
 #
+define
+CAIRO_NO_MUTEX
+1
+#
 endif
