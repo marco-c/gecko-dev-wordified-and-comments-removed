@@ -2425,6 +2425,16 @@ name
 .
 ico
 "
+!
+-
+name
+"
+(
+MOZ_PKG_APPNAME
+)
+.
+exe
+"
 endif
 ifneq
 (
