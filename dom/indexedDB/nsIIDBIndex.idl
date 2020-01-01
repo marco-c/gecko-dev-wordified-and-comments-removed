@@ -509,15 +509,15 @@ information
 scriptable
 uuid
 (
-b44450e2
+9df1ac24
 -
-4a44
+06cf
 -
-41e8
+47d1
 -
-b098
+9159
 -
-1a7b389634b5
+3b3d65975b80
 )
 ]
 interface
@@ -559,7 +559,7 @@ key
 )
 ;
 nsIIDBRequest
-getObject
+getKey
 (
 in
 nsIVariant
@@ -601,7 +601,7 @@ limit
 optional_argc
 ]
 nsIIDBRequest
-getAllObjects
+getAllKeys
 (
 [
 optional
@@ -666,7 +666,7 @@ direction
 optional_argc
 ]
 nsIIDBRequest
-openObjectCursor
+openKeyCursor
 (
 [
 optional
