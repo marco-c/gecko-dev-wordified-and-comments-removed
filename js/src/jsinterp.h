@@ -219,6 +219,10 @@ JSVersion
 callerVersion
 ;
 void
+*
+padding
+;
+void
 putActivationObjects
 (
 JSContext

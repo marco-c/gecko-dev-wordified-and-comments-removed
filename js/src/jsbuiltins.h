@@ -4914,10 +4914,6 @@ JS_DECLARE_CALLINFO
 (
 js_PopInterpFrame
 )
-JS_DECLARE_CALLINFO
-(
-js_ConcatN
-)
 /
 *
 Defined
