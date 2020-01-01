@@ -18496,6 +18496,13 @@ return
 result
 ;
 }
+canvas
+-
+>
+MarkContextClean
+(
+)
+;
 if
 (
 aSurfaceFlags
