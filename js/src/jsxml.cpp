@@ -35394,17 +35394,10 @@ xml_class
 JSXML
 *
 xml
-;
-xml
 =
-(
-JSXML
-*
-)
 js_NewGCXML
 (
 cx
-GCX_XML
 )
 ;
 if
