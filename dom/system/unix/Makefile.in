@@ -191,6 +191,7 @@ MOZ_DBUS_CFLAGS
 (
 NULL
 )
+endif
 ifdef
 MOZ_ENABLE_QTMOBILITY
 MOCSRCS
@@ -235,7 +236,6 @@ geolocation
 (
 NULL
 )
-endif
 endif
 include
 (
