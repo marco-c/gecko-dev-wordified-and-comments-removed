@@ -859,6 +859,12 @@ CFLAGS
 =
 -
 O2
+-
+fno
+-
+stack
+-
+protector
 (
 filter
 -
