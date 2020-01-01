@@ -1757,6 +1757,15 @@ constructing
 )
 ;
 InliningStatus
+inlineMathPow
+(
+uint32
+argc
+bool
+constructing
+)
+;
+InliningStatus
 inlineMathFunction
 (
 MMathFunction

@@ -543,6 +543,14 @@ ins
 )
 ;
 bool
+visitPow
+(
+MPow
+*
+ins
+)
+;
+bool
 visitMathFunction
 (
 MMathFunction

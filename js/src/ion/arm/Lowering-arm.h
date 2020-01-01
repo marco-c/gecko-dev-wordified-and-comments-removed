@@ -251,6 +251,14 @@ rhs
 )
 ;
 bool
+visitPowHalf
+(
+MPowHalf
+*
+ins
+)
+;
+bool
 visitTableSwitch
 (
 MTableSwitch
