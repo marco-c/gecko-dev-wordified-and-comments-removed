@@ -602,6 +602,10 @@ test_sizetocontent_clamp
 .
 html
 \
+test_protochains
+.
+html
+\
 (
 NULL
 )
