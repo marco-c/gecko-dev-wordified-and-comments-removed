@@ -650,10 +650,9 @@ window
 window
 .
 arguments
-.
-length
->
+[
 0
+]
 &
 &
 window
