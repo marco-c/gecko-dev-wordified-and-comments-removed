@@ -6327,6 +6327,9 @@ stackTypeMap
 ;
 #
 if
+0
+&
+&
 defined
 (
 JS_HAS_OPERATION_COUNT
