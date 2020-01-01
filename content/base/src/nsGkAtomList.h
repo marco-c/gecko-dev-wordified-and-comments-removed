@@ -12325,3 +12325,15 @@ pixel
 ratio
 "
 )
+GK_ATOM
+(
+_moz_device_orientation
+"
+-
+moz
+-
+device
+-
+orientation
+"
+)
