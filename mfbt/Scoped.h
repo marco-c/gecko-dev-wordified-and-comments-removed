@@ -68,13 +68,13 @@ Scoped
 const
 Resource
 &
-value
+v
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 value
 (
-value
+v
 )
 {
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
