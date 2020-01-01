@@ -564,6 +564,10 @@ TestID
 .
 cpp
 \
+TestObserverArray
+.
+cpp
+\
 TestObserverService
 .
 cpp
