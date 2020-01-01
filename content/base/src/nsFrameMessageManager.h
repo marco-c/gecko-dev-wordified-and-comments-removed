@@ -67,9 +67,6 @@ struct
 JSContext
 ;
 struct
-JSObject
-;
-struct
 nsMessageListenerInfo
 {
 nsCOMPtr
@@ -309,9 +306,6 @@ const
 nsAString
 &
 aJSON
-JSObject
-*
-aObjectsArray
 nsTArray
 <
 nsString
@@ -385,16 +379,6 @@ nsAString
 aJSON
 )
 ;
-JSContext
-*
-GetJSContext
-(
-)
-{
-return
-mContext
-;
-}
 protected
 :
 nsTArray
