@@ -214,6 +214,9 @@ int64_t
 oldRangeStartSeconds
 oldRangeEndSeconds
 ;
+int32_t
+utcToLocalStandardOffsetSeconds
+;
 static
 const
 int64_t
