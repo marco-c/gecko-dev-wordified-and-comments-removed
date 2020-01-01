@@ -2342,6 +2342,12 @@ execPools
 ;
 #
 endif
+types
+:
+:
+RecompileInfo
+recompileInfo
+;
 Vector
 <
 NativeCallStub
