@@ -10297,16 +10297,6 @@ aResult
 =
 nsnull
 ;
-if
-(
-!
-mIsRegularHTML
-)
-{
-return
-NS_OK
-;
-}
 nsCOMPtr
 <
 nsIAtom
