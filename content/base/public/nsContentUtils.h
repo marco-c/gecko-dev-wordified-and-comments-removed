@@ -2903,9 +2903,6 @@ uint32_t
 aDisplayHeight
 )
 ;
-#
-ifdef
-MOZ_WIDGET_ANDROID
 static
 double
 GetDevicePixelsPerMetaViewportPixel
@@ -2915,8 +2912,6 @@ nsIWidget
 aWidget
 )
 ;
-#
-endif
 static
 void
 EnterMicroTask

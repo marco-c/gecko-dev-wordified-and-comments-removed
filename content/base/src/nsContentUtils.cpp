@@ -22194,9 +22194,6 @@ aDisplayHeight
 )
 ;
 }
-#
-ifdef
-MOZ_WIDGET_ANDROID
 double
 nsContentUtils
 :
@@ -22295,8 +22292,6 @@ dpi
 )
 ;
 }
-#
-endif
 nsresult
 nsContentUtils
 :
