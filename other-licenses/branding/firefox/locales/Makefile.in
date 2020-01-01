@@ -428,6 +428,15 @@ config
 autoconf
 .
 mk
+DEFINES
++
+=
+-
+DAB_CD
+=
+(
+AB_CD
+)
 include
 (
 topsrcdir
