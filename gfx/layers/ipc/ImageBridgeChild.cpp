@@ -104,6 +104,13 @@ LayersTypes
 .
 h
 "
+#
+include
+"
+ShadowLayers
+.
+h
+"
 using
 namespace
 base

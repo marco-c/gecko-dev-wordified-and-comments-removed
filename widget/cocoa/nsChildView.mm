@@ -361,6 +361,10 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
 LayerManagerComposite
 .
 h
@@ -16052,7 +16056,7 @@ mDidForceRefreshOpenGL
 layerManager
 -
 >
-AsShadowManager
+AsLayerManagerComposite
 (
 )
 )

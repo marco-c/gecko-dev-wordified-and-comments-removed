@@ -36,6 +36,10 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
 LayerManagerComposite
 .
 h
@@ -75,7 +79,7 @@ class
 ContainerLayerComposite
 :
 public
-ShadowContainerLayer
+ContainerLayer
 public
 LayerComposite
 {
@@ -262,7 +266,7 @@ class
 RefLayerComposite
 :
 public
-ShadowRefLayer
+RefLayer
 public
 LayerComposite
 {
@@ -367,6 +371,18 @@ CleanupResources
 )
 MOZ_OVERRIDE
 ;
+virtual
+LayerComposite
+*
+AsLayerComposite
+(
+)
+MOZ_OVERRIDE
+{
+return
+this
+;
+}
 CompositableHost
 *
 GetCompositableHost

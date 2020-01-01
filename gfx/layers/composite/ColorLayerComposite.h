@@ -29,6 +29,10 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
 LayerManagerComposite
 .
 h
@@ -43,7 +47,7 @@ class
 ColorLayerComposite
 :
 public
-ShadowColorLayer
+ColorLayer
 public
 LayerComposite
 {
@@ -56,7 +60,7 @@ LayerManagerComposite
 aManager
 )
 :
-ShadowColorLayer
+ColorLayer
 (
 aManager
 nullptr
