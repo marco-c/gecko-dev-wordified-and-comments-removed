@@ -411,7 +411,7 @@ public
 src
 ifdef
 ENABLE_TESTS
-TOOL_DIRS
+DIRS
 +
 =
 tests
