@@ -537,6 +537,11 @@ test
 (
 )
 {
+requestLongerTimeout
+(
+2
+)
+;
 setTimeout
 (
 runNextTest
