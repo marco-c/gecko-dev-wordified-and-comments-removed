@@ -330,6 +330,9 @@ class
 nsDOMWorkerPool
 ;
 class
+nsDOMWorkerScriptLoader
+;
+class
 nsDOMWorkerTimeout
 ;
 class
