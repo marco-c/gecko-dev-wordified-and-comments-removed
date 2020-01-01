@@ -19917,15 +19917,6 @@ next
 )
 )
 {
-if
-(
-!
-IsContinuationPlaceholder
-(
-f
-)
-)
-{
 NS_ASSERTION
 (
 IsContinuationPlaceholder
@@ -19943,7 +19934,6 @@ placeholders
 "
 )
 ;
-}
 next
 =
 f
