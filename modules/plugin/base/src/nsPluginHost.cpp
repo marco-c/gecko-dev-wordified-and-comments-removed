@@ -15678,7 +15678,6 @@ AppendLiteral
 "
 )
 ;
-'
 }
 NS_ConvertUTF8toUTF16
 msg
