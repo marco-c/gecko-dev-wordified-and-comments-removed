@@ -2283,6 +2283,17 @@ JSContext
 cx
 )
 ;
+extern
+jsdouble
+FASTCALL
+js_dmod
+(
+jsdouble
+a
+jsdouble
+b
+)
+;
 #
 else
 #
