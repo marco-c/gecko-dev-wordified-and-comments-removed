@@ -2216,11 +2216,9 @@ aFontData
 )
 ;
 }
-LoadStatus
-status
-;
-status
-=
+(
+void
+)
 LoadNext
 (
 aProxy
