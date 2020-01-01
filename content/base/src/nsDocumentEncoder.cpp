@@ -785,7 +785,7 @@ bool
 mHaltRangeHint
 ;
 bool
-mContextAlreadySerialized
+mDisableContextSerialize
 ;
 bool
 mIsCopying
@@ -941,7 +941,7 @@ mHaltRangeHint
 =
 false
 ;
-mContextAlreadySerialized
+mDisableContextSerialize
 =
 false
 ;
@@ -3777,7 +3777,7 @@ aString
 {
 if
 (
-mContextAlreadySerialized
+mDisableContextSerialize
 )
 {
 return
@@ -3893,7 +3893,7 @@ aString
 {
 if
 (
-mContextAlreadySerialized
+mDisableContextSerialize
 )
 {
 return
@@ -4789,7 +4789,7 @@ rv
 rv
 )
 ;
-mContextAlreadySerialized
+mDisableContextSerialize
 =
 true
 ;
@@ -4842,6 +4842,10 @@ GetNodeParent
 mCommonAncestors
 )
 ;
+mDisableContextSerialize
+=
+false
+;
 rv
 =
 SerializeRangeContextEnd
@@ -4855,10 +4859,6 @@ NS_ENSURE_SUCCESS
 rv
 rv
 )
-;
-mContextAlreadySerialized
-=
-false
 ;
 prevNode
 =
@@ -4948,6 +4948,10 @@ GetNodeParent
 mCommonAncestors
 )
 ;
+mDisableContextSerialize
+=
+false
+;
 rv
 =
 SerializeRangeContextEnd
@@ -4963,7 +4967,7 @@ rv
 )
 ;
 }
-mContextAlreadySerialized
+mDisableContextSerialize
 =
 false
 ;
