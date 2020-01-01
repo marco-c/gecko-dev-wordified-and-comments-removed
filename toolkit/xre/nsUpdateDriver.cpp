@@ -2393,7 +2393,7 @@ getpid
 endif
 pid
 .
-AppendASCII
+AppendLiteral
 (
 "
 /

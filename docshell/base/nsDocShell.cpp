@@ -18511,7 +18511,7 @@ IsEmpty
 {
 errorPageUrl
 .
-AppendASCII
+AppendLiteral
 (
 "
 &

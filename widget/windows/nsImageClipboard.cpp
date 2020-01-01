@@ -349,7 +349,7 @@ mWantDIBV5
 {
 options
 .
-AppendASCII
+AppendLiteral
 (
 "
 version
@@ -366,7 +366,7 @@ else
 {
 options
 .
-AppendASCII
+AppendLiteral
 (
 "
 version
