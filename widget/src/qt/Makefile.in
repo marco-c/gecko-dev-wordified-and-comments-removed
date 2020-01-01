@@ -520,7 +520,7 @@ MOZ_JS_LIBS
 )
 \
 (
-MOZ_QT_LDFLAGS
+MOZ_QT_LIBS
 )
 \
 (
