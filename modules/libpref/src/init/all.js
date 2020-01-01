@@ -13034,7 +13034,7 @@ plugins
 .
 hangUITimeoutSecs
 "
-5
+11
 )
 ;
 pref
