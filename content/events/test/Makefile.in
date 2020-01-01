@@ -441,6 +441,10 @@ test_dblclick_explicit_original_target
 .
 html
 \
+test_all_synthetic_events
+.
+html
+\
 (
 NULL
 )
