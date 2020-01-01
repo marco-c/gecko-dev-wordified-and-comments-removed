@@ -1730,6 +1730,14 @@ options
 .
 RESULTS_AS_SITE_QUERY
 ;
+options
+.
+sortingMode
+=
+options
+.
+SORT_BY_TITLE_ASCENDING
+;
 var
 query
 =
