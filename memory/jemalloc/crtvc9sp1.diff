@@ -742,10 +742,6 @@ DMOZ_MEMORY
 DMOZ_MEMORY_WINDOWS
 =
 1
--
-arch
-:
-SSE2
 .
 diff
 -
