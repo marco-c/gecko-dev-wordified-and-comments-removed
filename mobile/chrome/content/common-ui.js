@@ -895,6 +895,10 @@ action
 id
 )
 ;
+if
+(
+node
+)
 node
 .
 hidden
