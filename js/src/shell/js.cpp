@@ -27621,7 +27621,13 @@ type
 )
 ;
 return
-JS_TRUE
+JS_ConvertStub
+(
+cx
+obj
+type
+vp
+)
 ;
 }
 static
