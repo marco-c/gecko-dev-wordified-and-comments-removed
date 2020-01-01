@@ -199,10 +199,6 @@ DOMTransaction
 .
 webidl
 \
-DummyBinding
-.
-webidl
-\
 DynamicsCompressorNode
 .
 webidl
@@ -428,10 +424,6 @@ Rect
 webidl
 \
 RGBColor
-.
-webidl
-\
-RTCIceServer
 .
 webidl
 \
@@ -791,6 +783,10 @@ webidl_files
 =
 \
 MediaStreamList
+.
+webidl
+\
+RTCIceServer
 .
 webidl
 \

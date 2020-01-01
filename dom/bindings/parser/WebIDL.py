@@ -14979,6 +14979,12 @@ self
 _treatNonCallableAsNull
 =
 False
+        
+self
+.
+_workerOnly
+=
+False
     
 def
 isCallback
@@ -15216,6 +15222,18 @@ isDate
 )
     
 def
+isWorkerOnly
+(
+self
+)
+:
+        
+return
+self
+.
+_workerOnly
+    
+def
 addExtendedAttributes
 (
 self
@@ -15250,6 +15268,25 @@ TreatNonCallableAsNull
 self
 .
 _treatNonCallableAsNull
+=
+True
+            
+elif
+attr
+.
+identifier
+(
+)
+=
+=
+"
+WorkerOnly
+"
+:
+                
+self
+.
+_workerOnly
 =
 True
             
