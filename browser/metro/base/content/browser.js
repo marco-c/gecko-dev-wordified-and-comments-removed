@@ -4548,7 +4548,7 @@ center
 =
 browser
 .
-transformClientToBrowser
+ptClientToBrowser
 (
 browserRect
 .
@@ -4571,10 +4571,10 @@ _getZoomRectForPoint
 (
 center
 .
-x
+xPos
 center
 .
-y
+yPos
 zoomLevel
 )
 ;
