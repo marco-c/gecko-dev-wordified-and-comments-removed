@@ -635,6 +635,10 @@ extern
 int
 sUnwindStackScan
 ;
+extern
+int
+sProfileEntries
+;
 class
 PseudoStack
 ;
