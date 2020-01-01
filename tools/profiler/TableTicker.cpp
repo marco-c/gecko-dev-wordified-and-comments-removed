@@ -2909,6 +2909,13 @@ false
 return
 ;
 }
+void
+*
+stackTop
+=
+&
+stack
+;
 ThreadProfile
 threadProfile
 (
@@ -2926,6 +2933,7 @@ AllocPlatformData
 0
 )
 false
+stackTop
 )
 ;
 doSampleStackTrace

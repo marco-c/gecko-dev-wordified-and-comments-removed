@@ -1123,6 +1123,7 @@ GetCurrentThreadId
 )
 aIsMainThread
 aPseudoStack
+stackTop
 )
 ;
 if
