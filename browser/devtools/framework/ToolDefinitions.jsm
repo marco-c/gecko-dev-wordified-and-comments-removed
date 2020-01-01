@@ -658,7 +658,7 @@ shift
 "
 ordinal
 :
-1
+2
 killswitch
 :
 "
@@ -796,7 +796,7 @@ inspectorStrings
 )
 ordinal
 :
-2
+1
 modifiers
 :
 osString
