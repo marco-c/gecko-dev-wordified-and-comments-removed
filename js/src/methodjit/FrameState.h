@@ -371,6 +371,13 @@ allocReg
 (
 )
 ;
+void
+takeReg
+(
+RegisterID
+reg
+)
+;
 inline
 FrameEntry
 *
@@ -537,6 +544,13 @@ reg
 RegisterID
 evictSomething
 (
+)
+;
+void
+evictReg
+(
+RegisterID
+reg
 )
 ;
 inline
