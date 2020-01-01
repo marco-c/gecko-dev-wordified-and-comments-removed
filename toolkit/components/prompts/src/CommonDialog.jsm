@@ -830,6 +830,10 @@ ui
 .
 infoIcon
 ;
+if
+(
+icon
+)
 this
 .
 iconClass
@@ -881,6 +885,7 @@ defaultButtonNum
 |
 0
 )
+;
 let
 button
 =
