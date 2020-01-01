@@ -1924,15 +1924,6 @@ mSocketIn
 &
 &
 !
-mConnInfo
--
->
-UsingSSL
-(
-)
-&
-&
-!
 mUsingSpdy
 &
 &
