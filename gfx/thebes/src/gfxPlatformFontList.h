@@ -400,9 +400,8 @@ PreloadNamesList
 (
 )
 ;
-virtual
 void
-InitBadUnderlineList
+LoadBadUnderlineList
 (
 )
 ;
@@ -520,6 +519,12 @@ mReplacementCharFallbackFamily
 ;
 PRPackedBool
 mOtherFamilyNamesInitialized
+;
+nsTHashtable
+<
+nsStringHashKey
+>
+mBadUnderlineFamilyNames
 ;
 nsTArray
 <
