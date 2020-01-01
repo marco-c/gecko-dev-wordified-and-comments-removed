@@ -585,6 +585,12 @@ browser_tilt_picking_delete
 js
 \
 browser_tilt_picking_highlight01
+-
+offs
+.
+js
+\
+browser_tilt_picking_highlight01
 .
 js
 \

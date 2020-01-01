@@ -711,6 +711,9 @@ presenter
 highlightNode
 (
 aNode
+"
+moveIntoView
+"
 )
 ;
 }
