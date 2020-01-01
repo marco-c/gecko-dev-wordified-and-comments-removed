@@ -6658,6 +6658,10 @@ TimeoutTouchListeners
 (
 )
 {
+mTouchListenerTimeoutTask
+=
+nullptr
+;
 ContentReceivedTouch
 (
 false
