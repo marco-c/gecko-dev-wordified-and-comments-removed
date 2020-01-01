@@ -11520,10 +11520,7 @@ payload
 boo
 =
 =
-JSBool
-(
-true
-)
+JS_TRUE
 ;
 }
 bool
@@ -11552,7 +11549,7 @@ payload
 boo
 =
 =
-false
+JS_FALSE
 ;
 }
 bool
