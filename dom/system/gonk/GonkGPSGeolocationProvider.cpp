@@ -2600,16 +2600,6 @@ ar
 cx
 )
 ;
-JSAutoCompartment
-ac
-(
-cx
-JSVAL_TO_OBJECT
-(
-aResult
-)
-)
-;
 if
 (
 aResult
