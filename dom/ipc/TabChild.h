@@ -279,6 +279,13 @@ FrameMetrics
 .
 h
 "
+#
+include
+"
+ProcessUtils
+.
+h
+"
 struct
 gfxMatrix
 ;
@@ -1401,6 +1408,11 @@ InitRenderingState
 ;
 void
 DestroyWindow
+(
+)
+;
+void
+SetProcessNameToAppName
 (
 )
 ;
