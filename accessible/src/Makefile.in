@@ -504,7 +504,7 @@ libs
 :
 :
 (
-NSINSTALL
+INSTALL
 )
 (
 PLATFORM_DIR
