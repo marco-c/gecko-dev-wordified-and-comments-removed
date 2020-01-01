@@ -431,16 +431,6 @@ idl
 (
 NULL
 )
-XPIDLSRCS
-=
-\
-nsIDOMRangeException
-.
-idl
-\
-(
-NULL
-)
 include
 (
 topsrcdir

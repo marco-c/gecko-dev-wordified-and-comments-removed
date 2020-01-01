@@ -538,10 +538,6 @@ CSSRGBColor
 )
 DOMCI_CLASS
 (
-RangeException
-)
-DOMCI_CLASS
-(
 CSSValueList
 )
 DOMCI_CLASS

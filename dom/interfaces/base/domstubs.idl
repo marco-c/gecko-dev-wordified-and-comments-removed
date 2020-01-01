@@ -550,9 +550,6 @@ IDL
 interface
 DOMException
 ;
-interface
-RangeException
-;
 /
 /
 Style
