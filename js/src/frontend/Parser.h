@@ -631,9 +631,6 @@ newFunctionBox
 JSObject
 *
 obj
-ParseNode
-*
-fn
 ParseContext
 *
 pc
@@ -1197,6 +1194,9 @@ ParseNode
 *
 *
 list
+ParseNode
+*
+funcpn
 bool
 &
 hasRest
