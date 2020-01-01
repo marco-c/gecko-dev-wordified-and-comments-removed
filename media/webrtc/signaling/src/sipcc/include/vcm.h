@@ -911,7 +911,7 @@ max_digest_len
 )
 ;
 short
-vcmSetDataChannelParameters
+vcmInitializeDataChannel
 (
 const
 char
@@ -920,7 +920,9 @@ peerconnection
 cc_uint16_t
 streams
 int
-sctp_port
+local_datachannel_port
+int
+remote_datachannel_port
 const
 char
 *

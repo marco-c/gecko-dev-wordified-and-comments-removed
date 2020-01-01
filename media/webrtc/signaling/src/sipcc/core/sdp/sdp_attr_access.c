@@ -22,6 +22,13 @@ h
 #
 include
 "
+fsm
+.
+h
+"
+#
+include
+"
 CSFLog
 .
 h
@@ -30214,6 +30221,11 @@ conf_p
 num_invalid_param
 +
 +
+;
+*
+val
+=
+WEBRTC_DATACHANNEL_STREAMS_DEFAULT
 ;
 return
 (
