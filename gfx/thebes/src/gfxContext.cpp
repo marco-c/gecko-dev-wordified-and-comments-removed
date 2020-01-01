@@ -2606,7 +2606,7 @@ gfxRGBA
 )
 )
 ;
-NS_ADDREF
+NS_IF_ADDREF
 (
 wrapper
 )
@@ -2741,7 +2741,12 @@ gfxPattern
 pat
 )
 ;
-NS_ADDREF
+cairo_pattern_destroy
+(
+pat
+)
+;
+NS_IF_ADDREF
 (
 wrapper
 )
