@@ -29,6 +29,9 @@ Utils
 h
 "
 #
+undef
+DEBUG
+#
 include
 "
 mozilla
