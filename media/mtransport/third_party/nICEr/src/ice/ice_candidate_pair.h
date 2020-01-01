@@ -83,13 +83,6 @@ char
 *
 foundation
 ;
-char
-*
-r2l_user
-;
-Data
-r2l_pwd
-;
 nr_stun_client_ctx
 *
 stun_client

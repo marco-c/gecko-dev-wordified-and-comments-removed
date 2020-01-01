@@ -179,6 +179,9 @@ password
 UINT4
 priority
 ;
+UINT8
+tiebreaker
+;
 }
 nr_stun_client_ice_use_candidate_params
 ;
