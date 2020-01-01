@@ -1,11 +1,11 @@
 <
 !
 ENTITY
-filter
+search
 .
 placeholder
 "
-Filter
+Search
 Preferences
 "
 >
