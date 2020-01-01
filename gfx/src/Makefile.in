@@ -539,10 +539,6 @@ nsGfxCIID
 .
 h
 \
-nsIRegion
-.
-h
-\
 nsITheme
 .
 h
@@ -602,10 +598,6 @@ gfxCrashReporterUtils
 cpp
 \
 nsDeviceContext
-.
-cpp
-\
-nsThebesRegion
 .
 cpp
 \

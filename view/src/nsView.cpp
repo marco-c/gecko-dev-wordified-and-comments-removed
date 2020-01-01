@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsIRegion
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestor
 .
 h

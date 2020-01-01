@@ -225,13 +225,6 @@ h
 #
 include
 "
-nsIRegion
-.
-h
-"
-#
-include
-"
 nsILookAndFeel
 .
 h

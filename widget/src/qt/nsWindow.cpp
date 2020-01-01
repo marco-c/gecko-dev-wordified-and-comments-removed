@@ -272,13 +272,6 @@ h
 #
 include
 "
-nsIRegion
-.
-h
-"
-#
-include
-"
 nsIRollupListener
 .
 h

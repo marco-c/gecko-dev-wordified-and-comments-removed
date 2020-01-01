@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsIRegion
-.
-h
-"
-#
-include
-"
 gfxImageSurface
 .
 h

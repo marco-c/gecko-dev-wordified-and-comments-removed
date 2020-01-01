@@ -594,13 +594,6 @@ h
 #
 include
 "
-nsIRegion
-.
-h
-"
-#
-include
-"
 gfxASurface
 .
 h
