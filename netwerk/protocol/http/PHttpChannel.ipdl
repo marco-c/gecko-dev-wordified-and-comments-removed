@@ -682,6 +682,18 @@ nsCString
 charset
 )
 ;
+UpdateAssociatedContentSecurity
+(
+PRInt32
+high
+PRInt32
+low
+PRInt32
+broken
+PRInt32
+no
+)
+;
 Suspend
 (
 )
@@ -733,6 +745,8 @@ PRUint32
 cacheExpirationTime
 nsCString
 cachedCharset
+nsCString
+securityInfoSerialization
 )
 ;
 OnDataAvailable
