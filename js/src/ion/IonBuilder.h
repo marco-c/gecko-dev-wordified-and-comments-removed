@@ -1710,13 +1710,6 @@ arg
 )
 ;
 InliningStatus
-inlineNanResult
-(
-int
-argc
-)
-;
-InliningStatus
 inlineArray
 (
 uint32
