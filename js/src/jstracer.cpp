@@ -19821,8 +19821,6 @@ LIns
 *
 i
 bool
-initializing
-bool
 demote
 )
 {
@@ -24543,7 +24541,6 @@ info
 .
 vp
 )
-false
 false
 )
 ;
@@ -43788,10 +43785,6 @@ stackval
 n
 )
 i
-n
->
-=
-0
 )
 ;
 }
@@ -54031,7 +54024,6 @@ vp
 +
 +
 void_ins
-true
 )
 ;
 }
@@ -54070,7 +54062,6 @@ vp
 +
 +
 void_ins
-true
 )
 ;
 set
@@ -54083,7 +54074,6 @@ argsobj
 INS_NULL
 (
 )
-true
 )
 ;
 LIns
@@ -54151,7 +54141,6 @@ scopeChainVal
 INS_NULL
 (
 )
-true
 )
 ;
 if
@@ -54261,7 +54250,6 @@ fp
 >
 scopeChainVal
 scopeChain_ins
-true
 )
 ;
 }
@@ -54819,7 +54807,6 @@ stackval
 1
 )
 rval_ins
-true
 )
 ;
 return
@@ -63967,7 +63954,6 @@ set
 (
 outp
 result_ins
-true
 )
 ;
 if
@@ -63997,7 +63983,6 @@ outp
 +
 1
 obj_ins
-true
 )
 ;
 pendingGuardCondition
@@ -71594,7 +71579,6 @@ JSVAL_TO_SPECIAL
 JSVAL_VOID
 )
 )
-true
 )
 ;
 return
@@ -72103,7 +72087,6 @@ set
 (
 outp
 v_ins
-true
 )
 ;
 return
