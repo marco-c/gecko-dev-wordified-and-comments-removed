@@ -55,7 +55,7 @@ IOError
 description
 =
 None
-version
+PACKAGE_VERSION
 =
 '
 0
@@ -76,7 +76,7 @@ mozhttpd
       
 version
 =
-version
+PACKAGE_VERSION
       
 description
 =

@@ -55,12 +55,12 @@ IOError
 description
 =
 None
-version
+PACKAGE_VERSION
 =
 '
 1
 .
-1
+2
 '
 deps
 =
@@ -86,7 +86,7 @@ mozInstall
       
 version
 =
-version
+PACKAGE_VERSION
       
 description
 =

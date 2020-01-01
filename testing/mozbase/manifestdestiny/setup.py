@@ -39,7 +39,7 @@ here
 '
 README
 .
-txt
+md
 '
 )
     
