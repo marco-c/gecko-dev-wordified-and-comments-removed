@@ -671,6 +671,9 @@ False
 logcat_dir
 =
 None
+busybox
+=
+None
 )
 :
         
@@ -756,12 +759,6 @@ self
 logcat_dir
 =
 logcat_dir
-        
-self
-.
-gecko_path
-=
-gecko_path
         
 self
 .
@@ -983,23 +980,32 @@ wait_for_system_message
 (
 self
 )
-        
+            
 if
-self
-.
 gecko_path
 :
-            
+                
 self
 .
 emulator
 .
 install_gecko
 (
-self
-.
 gecko_path
 self
+)
+            
+if
+busybox
+:
+                
+self
+.
+emulator
+.
+install_busybox
+(
+busybox
 )
     
 def
