@@ -756,6 +756,14 @@ context
 )
 )
 ;
+if
+(
+!
+linear
+)
+return
+false
+;
 size_t
 strLen
 =
