@@ -443,7 +443,7 @@ edx
 ;
 static
 const
-uint32
+uint32_t
 StackAlignment
 =
 16
@@ -469,7 +469,7 @@ mask
 :
 Imm32
 (
-int32
+int32_t
 (
 mask
 )
@@ -528,7 +528,7 @@ kind_
 :
 4
 ;
-int32
+int32_t
 index_
 :
 5
@@ -538,10 +538,10 @@ scale_
 :
 3
 ;
-int32
+int32_t
 base_
 ;
-int32
+int32_t
 disp_
 ;
 public
@@ -674,7 +674,7 @@ Register
 index
 Scale
 scale
-int32
+int32_t
 disp
 =
 0
@@ -714,7 +714,7 @@ Operand
 (
 Register
 reg
-int32
+int32_t
 disp
 )
 :
@@ -753,7 +753,7 @@ base_
 (
 reinterpret_cast
 <
-int32
+int32_t
 >
 (
 address
@@ -780,7 +780,7 @@ base_
 (
 reinterpret_cast
 <
-int32
+int32_t
 >
 (
 address
@@ -942,7 +942,7 @@ Code
 base_
 ;
 }
-int32
+int32_t
 disp
 (
 )
@@ -1342,7 +1342,7 @@ flush
 void
 executableCopy
 (
-uint8
+uint8_t
 *
 buffer
 )

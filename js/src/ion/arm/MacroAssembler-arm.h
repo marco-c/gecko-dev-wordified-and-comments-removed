@@ -1396,7 +1396,7 @@ Register
 dest
 Register
 hold
-int32
+int32_t
 shift
 )
 ;
@@ -2145,7 +2145,7 @@ Register
 base
 Register
 index
-int32
+int32_t
 shift
 =
 defaultShift
@@ -2198,13 +2198,13 @@ MacroAssemblerARM
 bool
 inCall_
 ;
-uint32
+uint32_t
 args_
 ;
-uint32
+uint32_t
 passedArgs_
 ;
-uint32
+uint32_t
 usedSlots_
 ;
 bool
@@ -2222,7 +2222,7 @@ floatArgsInGPR
 void
 setupABICall
 (
-uint32
+uint32_t
 arg
 )
 ;
@@ -2231,7 +2231,7 @@ protected
 MoveResolver
 moveResolver_
 ;
-uint32
+uint32_t
 framePushed_
 ;
 void
@@ -2552,7 +2552,7 @@ ma_mov
 Imm32
 (
 (
-uint32
+uint32_t
 )
 c
 -
@@ -2607,7 +2607,7 @@ ma_mov
 Imm32
 (
 (
-uint32
+uint32_t
 )
 c
 -
@@ -3657,7 +3657,7 @@ const
 FloatRegister
 &
 dest
-int32
+int32_t
 shift
 =
 defaultShift
@@ -4967,7 +4967,7 @@ Register
 base
 Register
 index
-int32
+int32_t
 shift
 =
 defaultShift
@@ -5513,7 +5513,7 @@ Register
 base
 Register
 index
-int32
+int32_t
 shift
 =
 defaultShift
@@ -5528,7 +5528,7 @@ Register
 base
 Register
 index
-int32
+int32_t
 shift
 =
 defaultShift
@@ -5552,7 +5552,7 @@ Register
 base
 Register
 index
-int32
+int32_t
 shift
 =
 defaultShift
@@ -5816,7 +5816,7 @@ STACK_SLOT_SIZE
 void
 implicitPop
 (
-uint32
+uint32_t
 args
 )
 {
@@ -5837,7 +5837,7 @@ args
 )
 ;
 }
-uint32
+uint32_t
 framePushed
 (
 )
@@ -5850,7 +5850,7 @@ framePushed_
 void
 setFramePushed
 (
-uint32
+uint32_t
 framePushed
 )
 {
@@ -5866,7 +5866,7 @@ const
 Register
 &
 scratch
-uint32
+uint32_t
 *
 offset
 )
@@ -5909,14 +5909,14 @@ callee
 void
 reserveStack
 (
-uint32
+uint32_t
 amount
 )
 ;
 void
 freeStack
 (
-uint32
+uint32_t
 amount
 )
 ;
@@ -6557,7 +6557,7 @@ offset
 0
 )
 ;
-uint32
+uint32_t
 scale
 =
 Imm32
@@ -6630,7 +6630,7 @@ offset
 0
 )
 ;
-uint32
+uint32_t
 scale
 =
 Imm32
@@ -6891,7 +6891,7 @@ const
 Register
 &
 reg
-uint32
+uint32_t
 arg
 )
 ;
@@ -6969,14 +6969,14 @@ dest
 void
 setupAlignedABICall
 (
-uint32
+uint32_t
 args
 )
 ;
 void
 setupUnalignedABICall
 (
-uint32
+uint32_t
 args
 const
 Register

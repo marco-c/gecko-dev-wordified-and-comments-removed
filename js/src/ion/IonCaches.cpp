@@ -2484,7 +2484,7 @@ shape
 ;
 DebugOnly
 <
-uint32
+uint32_t
 >
 initialStack
 =
@@ -5120,7 +5120,7 @@ takeGeneral
 ;
 DebugOnly
 <
-uint32
+uint32_t
 >
 initialStack
 =

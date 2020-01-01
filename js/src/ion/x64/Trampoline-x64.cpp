@@ -970,7 +970,7 @@ void
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -1027,7 +1027,7 @@ double
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -1595,7 +1595,7 @@ cx
 MacroAssembler
 &
 masm
-uint32
+uint32_t
 frameClass
 )
 {
@@ -1617,7 +1617,7 @@ void
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -1674,7 +1674,7 @@ double
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -1750,7 +1750,7 @@ Bailout
 ;
 static
 const
-uint32
+uint32_t
 BailoutDataSize
 =
 sizeof
@@ -1828,7 +1828,7 @@ generateBailoutTable
 JSContext
 *
 cx
-uint32
+uint32_t
 frameClass
 )
 {
@@ -2135,7 +2135,7 @@ reserveStack
 (
 sizeof
 (
-int32
+int32_t
 )
 )
 ;
@@ -2218,7 +2218,7 @@ explicitArgs
 {
 for
 (
-uint32
+uint32_t
 explicitArg
 =
 0
@@ -2499,7 +2499,7 @@ freeStack
 (
 sizeof
 (
-int32
+int32_t
 )
 )
 ;

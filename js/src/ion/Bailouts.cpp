@@ -407,7 +407,7 @@ iter
 AutoAssertNoGC
 nogc
 ;
-uint32
+uint32_t
 exprStackSlots
 =
 iter
@@ -671,7 +671,7 @@ nfixed
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -722,7 +722,7 @@ maybeFun
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -787,7 +787,7 @@ regs
 ;
 for
 (
-uint32
+uint32_t
 i
 =
 0
@@ -1204,7 +1204,7 @@ fp
 ;
 }
 static
-uint32
+uint32_t
 ConvertFrames
 (
 JSContext
@@ -1876,7 +1876,7 @@ IonFrame_Bailed_JS
 )
 ;
 }
-uint32
+uint32_t
 ion
 :
 :
@@ -1955,7 +1955,7 @@ snapshotOffset
 )
 )
 ;
-uint32
+uint32_t
 retval
 =
 ConvertFrames
@@ -1978,7 +1978,7 @@ return
 retval
 ;
 }
-uint32
+uint32_t
 ion
 :
 :
@@ -2077,7 +2077,7 @@ topFrameSize
 (
 )
 ;
-uint32
+uint32_t
 retval
 =
 ConvertFrames
@@ -2558,13 +2558,13 @@ DONT_CHECK_ALIASING
 )
 ;
 }
-uint32
+uint32_t
 ion
 :
 :
 ReflowTypeInfo
 (
-uint32
+uint32_t
 bailoutResult
 )
 {
@@ -2792,7 +2792,7 @@ return
 true
 ;
 }
-uint32
+uint32_t
 ion
 :
 :
@@ -2947,7 +2947,7 @@ return
 true
 ;
 }
-uint32
+uint32_t
 ion
 :
 :
@@ -3039,7 +3039,7 @@ return
 true
 ;
 }
-uint32
+uint32_t
 ion
 :
 :
@@ -3119,7 +3119,7 @@ script
 )
 ;
 }
-uint32
+uint32_t
 ion
 :
 :
@@ -3239,7 +3239,7 @@ script
 )
 ;
 }
-uint32
+uint32_t
 ion
 :
 :
