@@ -4325,6 +4325,9 @@ alwaysPreserveCode
 bool
 hadOutOfMemory
 ;
+bool
+haveCreatedContext
+;
 mozilla
 :
 :
