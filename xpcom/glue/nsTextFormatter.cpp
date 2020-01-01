@@ -1209,9 +1209,6 @@ num
 0
 )
 {
-int32_t
-digit
-;
 int64_t
 quot
 rem
@@ -1226,9 +1223,11 @@ num
 rad
 )
 ;
-LL_L2I
-(
+int32_t
 digit
+=
+int32_t
+(
 rem
 )
 ;

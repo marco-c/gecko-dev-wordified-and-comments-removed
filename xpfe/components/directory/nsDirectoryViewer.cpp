@@ -1960,10 +1960,9 @@ minus1
 {
 int32_t
 intSize
-;
-LL_L2I
+=
+int32_t
 (
-intSize
 size
 )
 ;

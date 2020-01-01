@@ -5601,11 +5601,8 @@ rv
 int32_t
 aFileSize32
 =
-0
-;
-LL_L2I
+int32_t
 (
-aFileSize32
 aFileSize64
 )
 ;
