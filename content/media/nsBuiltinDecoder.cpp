@@ -1607,6 +1607,10 @@ if
 (
 !
 mElement
+|
+|
+!
+mElement
 -
 >
 MayHaveAudioAvailableEventListener
@@ -2667,6 +2671,11 @@ aStatus
 NS_BINDING_ABORTED
 )
 {
+if
+(
+mElement
+)
+{
 mElement
 -
 >
@@ -2674,6 +2683,7 @@ LoadAborted
 (
 )
 ;
+}
 return
 ;
 }

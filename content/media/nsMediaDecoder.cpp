@@ -144,7 +144,7 @@ nsMediaDecoder
 :
 mElement
 (
-0
+nsnull
 )
 mRGBWidth
 (
