@@ -2710,18 +2710,6 @@ rv
 rv
 )
 ;
-if
-(
-GetStyleDisplay
-(
-)
--
->
-IsScrollableOverflow
-(
-)
-)
-{
 nsRect
 clipRect
 =
@@ -2769,7 +2757,6 @@ rv
 rv
 )
 ;
-}
 WrapReplacedContentForBorderRadius
 (
 aBuilder
