@@ -201,7 +201,7 @@ false
 )
 mProvider
 (
-nsnull
+NULL
 )
 {
 HRESULT
