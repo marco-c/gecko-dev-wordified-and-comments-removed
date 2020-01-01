@@ -12502,8 +12502,16 @@ re
 requesting
 phone
 state
-.
+and
+ICC
+status
 "
+)
+;
+this
+.
+getICCStatus
+(
 )
 ;
 this
