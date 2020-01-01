@@ -2621,7 +2621,7 @@ JSObject
 *
 obj
 =
-ComputeThisObjectFromVp
+ComputeThisFromVp
 (
 cx
 vp

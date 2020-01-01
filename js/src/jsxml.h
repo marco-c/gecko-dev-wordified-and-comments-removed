@@ -580,10 +580,10 @@ JSObject
 *
 name
 ;
-uint32
+size_t
 xml_class
 ;
-uint32
+size_t
 xml_flags
 ;
 union

@@ -3470,10 +3470,12 @@ JSObject
 *
 errProto
 =
-JSVAL_TO_OBJECT
-(
-*
+&
 rval
+-
+>
+asObject
+(
 )
 ;
 obj

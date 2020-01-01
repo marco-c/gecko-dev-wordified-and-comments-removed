@@ -488,7 +488,9 @@ newscope
 -
 >
 freeslot
-JSVAL_VOID
+UndefinedTag
+(
+)
 )
 ;
 #

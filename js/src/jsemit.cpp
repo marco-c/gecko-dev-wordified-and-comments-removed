@@ -6277,13 +6277,10 @@ blockObj
 >
 setParent
 (
-ObjectOrNullTag
-(
 tc
 -
 >
 blockChain
-)
 )
 ;
 stmt

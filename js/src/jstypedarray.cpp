@@ -3735,7 +3735,7 @@ vp
 ;
 obj
 =
-ComputeThisObjectFromVp
+ComputeThisFromVp
 (
 cx
 vp
@@ -3744,7 +3744,7 @@ vp
 if
 (
 !
-JS_InstanceOf
+InstanceOf
 (
 cx
 obj
@@ -7620,11 +7620,7 @@ obj
 >
 setProto
 (
-ObjectTag
-(
-*
 proto
-)
 )
 ;
 obj
@@ -7632,11 +7628,7 @@ obj
 >
 setParent
 (
-ObjectTag
-(
-*
 scope
-)
 )
 ;
 key
@@ -7670,11 +7662,7 @@ buffer
 >
 setProto
 (
-ObjectTag
-(
-*
 proto
-)
 )
 ;
 buffer
@@ -7682,11 +7670,7 @@ buffer
 >
 setParent
 (
-ObjectTag
-(
-*
 scope
-)
 )
 ;
 return

@@ -2293,7 +2293,7 @@ JSObject
 *
 obj
 =
-ComputeThisObjectFromVp
+ComputeThisFromVp
 (
 cx
 vp
@@ -3388,7 +3388,7 @@ isNull
 &
 (
 !
-ComputeThisFromVpInPlace
+ComputeThisFromVp
 (
 cx
 vp

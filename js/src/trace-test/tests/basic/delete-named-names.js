@@ -101,10 +101,10 @@ recorderAborted
 0
 traceCompleted
 :
-2
+1
 sideExitIntoInterpreter
 :
-2
+1
 }
 )
 ;

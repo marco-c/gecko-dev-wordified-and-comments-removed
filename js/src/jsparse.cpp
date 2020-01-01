@@ -24364,13 +24364,10 @@ obj
 >
 setParent
 (
-ObjectOrNullTag
-(
 tc
 -
 >
 blockChain
-)
 )
 ;
 tc

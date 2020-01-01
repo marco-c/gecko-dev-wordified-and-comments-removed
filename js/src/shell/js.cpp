@@ -13735,10 +13735,9 @@ JSObject
 obj
 )
 {
-Outerize
+OBJ_TO_OUTER_OBJECT
 (
 cx
-&
 obj
 )
 ;
@@ -14699,7 +14698,7 @@ AutoValueRooter
 root
 (
 cx
-BOOLEAN_TO_JSVAL
+BooleanTag
 (
 lazy
 )
@@ -14717,7 +14716,7 @@ lazy
 "
 root
 .
-addr
+jsval_addr
 (
 )
 )
@@ -15183,7 +15182,10 @@ compartment
 wrap
 (
 cx
+Valueify
+(
 rval
+)
 )
 ;
 }
