@@ -1227,6 +1227,8 @@ GetXScale
 (
 shadowTransform
 )
+*
+mXScale
 ;
 aTempScaleDiffY
 *
@@ -1235,6 +1237,8 @@ GetYScale
 (
 shadowTransform
 )
+*
+mYScale
 ;
 nsIntPoint
 metricsScrollOffset
