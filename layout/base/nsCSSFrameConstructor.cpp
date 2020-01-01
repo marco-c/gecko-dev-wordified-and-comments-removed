@@ -63,13 +63,6 @@ h
 #
 include
 "
-nsHashtable
-.
-h
-"
-#
-include
-"
 nsIHTMLDocument
 .
 h

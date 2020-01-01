@@ -56,13 +56,6 @@ h
 #
 include
 "
-nsHashtable
-.
-h
-"
-#
-include
-"
 nsIScriptContext
 .
 h

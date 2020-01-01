@@ -51,13 +51,6 @@ h
 #
 include
 "
-nsHashtable
-.
-h
-"
-#
-include
-"
 nsITimer
 .
 h

@@ -37,13 +37,6 @@ h
 #
 include
 "
-nsHashtable
-.
-h
-"
-#
-include
-"
 nsDataHashtable
 .
 h

@@ -67,13 +67,6 @@ h
 #
 include
 "
-nsHashtable
-.
-h
-"
-#
-include
-"
 nsICSSPseudoComparator
 .
 h
