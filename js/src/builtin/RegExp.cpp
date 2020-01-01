@@ -2732,14 +2732,6 @@ ensureLinear
 cx
 )
 ;
-if
-(
-!
-linearInput
-)
-return
-false
-;
 const
 jschar
 *
