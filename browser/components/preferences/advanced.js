@@ -2250,9 +2250,9 @@ documentElement
 openWindow
 (
 "
-Mozilla
+mozilla
 :
-CRLManager
+crlmanager
 "
 "
 chrome
