@@ -658,6 +658,10 @@ browser_dbg_bug786070_hide_nonenums
 .
 js
 \
+browser_dbg_bug868163_highight_on_pause
+.
+js
+\
 browser_dbg_displayName
 .
 js

@@ -145,6 +145,10 @@ browser_toolbox_options_disablejs_iframe
 .
 html
 \
+browser_toolbox_highlight
+.
+js
+\
 (
 NULL
 )
