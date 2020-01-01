@@ -1829,7 +1829,7 @@ mChromeFlags
 nsIntRect
 mOuterRect
 ;
-nsIntSize
+ScreenIntSize
 mInnerSize
 ;
 nsIntPoint

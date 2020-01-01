@@ -171,7 +171,7 @@ void
 UpdateCompositionBounds
 (
 const
-LayerIntRect
+ScreenIntRect
 &
 aCompositionBounds
 )

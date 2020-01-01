@@ -1378,7 +1378,7 @@ aScale
 CSSIntRect
 cssCompositionBounds
 =
-LayerIntRect
+ScreenIntRect
 :
 :
 ToCSSIntRectRoundIn

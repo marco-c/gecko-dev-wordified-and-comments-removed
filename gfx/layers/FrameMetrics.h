@@ -390,7 +390,7 @@ height
 )
 ;
 }
-LayerIntRect
+ScreenIntRect
 mCompositionBounds
 ;
 CSSRect

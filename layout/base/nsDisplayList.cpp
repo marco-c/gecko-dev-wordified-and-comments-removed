@@ -4170,7 +4170,7 @@ metrics
 .
 mCompositionBounds
 =
-LayerIntRect
+ScreenIntRect
 :
 :
 FromUnknownRect

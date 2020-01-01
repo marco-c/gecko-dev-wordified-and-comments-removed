@@ -360,10 +360,8 @@ aOutEvent
 void
 NotifyDimensionsChanged
 (
-int
-width
-int
-height
+ScreenIntSize
+size
 )
 ;
 void
