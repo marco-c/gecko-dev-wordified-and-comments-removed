@@ -1532,7 +1532,7 @@ _localLock
 (
 this
 .
-_syncAsNeeded
+_sync
 )
 )
 )
