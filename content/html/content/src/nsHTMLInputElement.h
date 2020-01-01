@@ -1058,6 +1058,13 @@ GetFilterFromAccept
 (
 )
 ;
+void
+UpdateValidityUIBits
+(
+bool
+aIsFocused
+)
+;
 protected
 :
 using
