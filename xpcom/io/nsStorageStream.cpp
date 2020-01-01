@@ -773,13 +773,6 @@ PRUint32
 _retval
 )
 {
-NS_NOTREACHED
-(
-"
-WriteFrom
-"
-)
-;
 return
 NS_ERROR_NOT_IMPLEMENTED
 ;
@@ -802,13 +795,6 @@ PRUint32
 _retval
 )
 {
-NS_NOTREACHED
-(
-"
-WriteSegments
-"
-)
-;
 return
 NS_ERROR_NOT_IMPLEMENTED
 ;
