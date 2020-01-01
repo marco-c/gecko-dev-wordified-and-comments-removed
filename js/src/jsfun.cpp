@@ -11376,7 +11376,7 @@ emptyString
 ;
 }
 return
-JSCompiler
+Compiler
 :
 :
 compileFunctionBody

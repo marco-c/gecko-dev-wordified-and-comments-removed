@@ -561,7 +561,7 @@ false
 ;
 }
 bool
-JSCompiler
+Parser
 :
 :
 init
@@ -633,11 +633,11 @@ return
 true
 ;
 }
-JSCompiler
+Parser
 :
 :
 ~
-JSCompiler
+Parser
 (
 )
 {
@@ -675,7 +675,7 @@ tempPoolMark
 ;
 }
 void
-JSCompiler
+Parser
 :
 :
 setPrincipals
@@ -708,7 +708,7 @@ prin
 }
 JSObjectBox
 *
-JSCompiler
+Parser
 :
 :
 newObjectBox
@@ -784,7 +784,7 @@ objbox
 }
 JSFunctionBox
 *
-JSCompiler
+Parser
 :
 :
 newFunctionBox
@@ -899,7 +899,7 @@ funbox
 tc
 -
 >
-compiler
+parser
 -
 >
 functionCount
@@ -1122,7 +1122,7 @@ false
 ;
 }
 void
-JSCompiler
+Parser
 :
 :
 trace
@@ -1658,7 +1658,7 @@ pn
 tc
 -
 >
-compiler
+parser
 -
 >
 nodeList
@@ -1713,7 +1713,7 @@ head
 tc
 -
 >
-compiler
+parser
 -
 >
 nodeList
@@ -1847,7 +1847,7 @@ pn
 tc
 -
 >
-compiler
+parser
 -
 >
 nodeList
@@ -1865,7 +1865,7 @@ cx
 tc
 -
 >
-compiler
+parser
 -
 >
 context
@@ -1897,7 +1897,7 @@ else
 tc
 -
 >
-compiler
+parser
 -
 >
 nodeList
@@ -2009,7 +2009,7 @@ pn_tail
 tc
 -
 >
-compiler
+parser
 -
 >
 nodeList
@@ -2017,7 +2017,7 @@ nodeList
 tc
 -
 >
-compiler
+parser
 -
 >
 nodeList
@@ -2263,7 +2263,7 @@ tok
 tc
 -
 >
-compiler
+parser
 -
 >
 tokenStream
@@ -2885,7 +2885,7 @@ JS_ReportErrorNumber
 tc
 -
 >
-compiler
+parser
 -
 >
 context
@@ -3002,7 +3002,7 @@ true
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 parse
@@ -3137,7 +3137,7 @@ JS_ReportErrorNumber
 tc
 -
 >
-compiler
+parser
 -
 >
 context
@@ -3164,7 +3164,7 @@ true
 }
 JSScript
 *
-JSCompiler
+Compiler
 :
 :
 compileScript
@@ -3205,8 +3205,8 @@ unsigned
 staticLevel
 )
 {
-JSCompiler
-jsc
+Compiler
+compiler
 (
 cx
 principals
@@ -3290,7 +3290,7 @@ callerFrame
 if
 (
 !
-jsc
+compiler
 .
 init
 (
@@ -3342,17 +3342,31 @@ cx
 scriptStackQuota
 )
 ;
+Parser
+&
+parser
+=
+compiler
+.
+parser
+;
+TokenStream
+&
+tokenStream
+=
+parser
+.
+tokenStream
+;
 JSCodeGenerator
 cg
 (
 &
-jsc
+parser
 &
 codePool
 &
 notePool
-jsc
-.
 tokenStream
 .
 getLineno
@@ -3424,8 +3438,6 @@ flags
 =
 TCF_STRICT_MODE_CODE
 ;
-jsc
-.
 tokenStream
 .
 setStrictMode
@@ -3478,7 +3490,7 @@ atomList
 add
 (
 &
-jsc
+parser
 atom
 )
 )
@@ -3499,7 +3511,7 @@ fun
 {
 funbox
 =
-jsc
+parser
 .
 newObjectBox
 (
@@ -3626,8 +3638,6 @@ for
 {
 tt
 =
-jsc
-.
 tokenStream
 .
 peekToken
@@ -3666,7 +3676,7 @@ out
 }
 pn
 =
-jsc
+parser
 .
 statement
 (
@@ -3694,7 +3704,7 @@ inDirectivePrologue
 )
 inDirectivePrologue
 =
-jsc
+parser
 .
 recognizeDirectivePrologue
 (
@@ -3725,7 +3735,7 @@ functionList
 if
 (
 !
-jsc
+parser
 .
 analyzeFunctions
 (
@@ -3832,8 +3842,6 @@ ReportCompileErrorNumber
 (
 cx
 &
-jsc
-.
 tokenStream
 NULL
 JSREPORT_ERROR
@@ -4338,8 +4346,6 @@ ReportCompileErrorNumber
 (
 cx
 &
-jsc
-.
 tokenStream
 NULL
 JSREPORT_ERROR
@@ -5036,7 +5042,7 @@ TS
 tc
 -
 >
-compiler
+parser
 )
 NULL
 flags
@@ -5193,7 +5199,7 @@ TS
 tc
 -
 >
-compiler
+parser
 )
 tc
 lhs
@@ -5298,7 +5304,7 @@ TS
 tc
 -
 >
-compiler
+parser
 )
 tc
 pn
@@ -5420,7 +5426,7 @@ TS
 tc
 -
 >
-compiler
+parser
 )
 tc
 pn
@@ -5536,7 +5542,7 @@ TS
 tc
 -
 >
-compiler
+parser
 )
 tc
 dn
@@ -5556,7 +5562,7 @@ true
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 functionBody
@@ -5882,7 +5888,7 @@ add
 tc
 -
 >
-compiler
+parser
 pn
 -
 >
@@ -6243,7 +6249,7 @@ rawRemove
 tc
 -
 >
-compiler
+parser
 ale
 hep
 )
@@ -6263,7 +6269,7 @@ add
 tc
 -
 >
-compiler
+parser
 atom
 let
 ?
@@ -7003,7 +7009,7 @@ atom
 tc
 -
 >
-compiler
+parser
 -
 >
 context
@@ -7032,7 +7038,7 @@ atom
 tc
 -
 >
-compiler
+parser
 -
 >
 context
@@ -7215,7 +7221,7 @@ true
 ;
 }
 bool
-JSCompiler
+Compiler
 :
 :
 compileFunctionBody
@@ -7243,8 +7249,8 @@ uintN
 lineno
 )
 {
-JSCompiler
-jsc
+Compiler
+compiler
 (
 cx
 principals
@@ -7253,7 +7259,7 @@ principals
 if
 (
 !
-jsc
+compiler
 .
 init
 (
@@ -7309,17 +7315,31 @@ cx
 scriptStackQuota
 )
 ;
+Parser
+&
+parser
+=
+compiler
+.
+parser
+;
+TokenStream
+&
+tokenStream
+=
+parser
+.
+tokenStream
+;
 JSCodeGenerator
 funcg
 (
 &
-jsc
+parser
 &
 codePool
 &
 notePool
-jsc
-.
 tokenStream
 .
 getLineno
@@ -7355,8 +7375,6 @@ bodyid
 return
 NULL
 ;
-jsc
-.
 tokenStream
 .
 mungeCurrentToken
@@ -7489,8 +7507,6 @@ break
 }
 }
 }
-jsc
-.
 tokenStream
 .
 mungeCurrentToken
@@ -7504,7 +7520,7 @@ pn
 =
 fn
 ?
-jsc
+parser
 .
 functionBody
 (
@@ -7539,8 +7555,6 @@ else
 if
 (
 !
-jsc
-.
 tokenStream
 .
 matchToken
@@ -7553,8 +7567,6 @@ ReportCompileErrorNumber
 (
 cx
 &
-jsc
-.
 tokenStream
 NULL
 JSREPORT_ERROR
@@ -7593,7 +7605,7 @@ functionList
 &
 &
 !
-jsc
+parser
 .
 analyzeFunctions
 (
@@ -7862,7 +7874,7 @@ atom
 tc
 -
 >
-compiler
+parser
 -
 >
 context
@@ -7891,7 +7903,7 @@ atom
 tc
 -
 >
-compiler
+parser
 -
 >
 context
@@ -7952,7 +7964,7 @@ TS
 tc
 -
 >
-compiler
+parser
 )
 NULL
 JSREPORT_ERROR
@@ -8067,7 +8079,7 @@ JS_TRUE
 endif
 JSFunction
 *
-JSCompiler
+Parser
 :
 :
 newFunction
@@ -8279,7 +8291,7 @@ JS_TRUE
 ;
 }
 bool
-JSCompiler
+Parser
 :
 :
 analyzeFunctions
@@ -8697,7 +8709,7 @@ allskipmin
 ;
 }
 bool
-JSCompiler
+Parser
 :
 :
 markFunArgs
@@ -9640,7 +9652,7 @@ tcflags
 ;
 }
 void
-JSCompiler
+Parser
 :
 :
 setFunctionKinds
@@ -10596,7 +10608,7 @@ fun
 tc
 -
 >
-compiler
+parser
 -
 >
 newFunction
@@ -10621,7 +10633,7 @@ funbox
 tc
 -
 >
-compiler
+parser
 -
 >
 newFunctionBox
@@ -11223,7 +11235,7 @@ add
 tc
 -
 >
-compiler
+parser
 atom
 )
 ;
@@ -11331,7 +11343,7 @@ remove
 tc
 -
 >
-compiler
+parser
 funAtom
 )
 ;
@@ -11375,7 +11387,7 @@ true
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 functionDef
@@ -11855,7 +11867,7 @@ rawRemove
 tc
 -
 >
-compiler
+parser
 ale
 hep
 )
@@ -12016,7 +12028,7 @@ funtc
 tc
 -
 >
-compiler
+parser
 )
 ;
 JSFunctionBox
@@ -13087,7 +13099,7 @@ result
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 functionStmt
@@ -13104,7 +13116,7 @@ true
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 functionExpr
@@ -13120,7 +13132,7 @@ true
 ;
 }
 bool
-JSCompiler
+Parser
 :
 :
 recognizeDirectivePrologue
@@ -13203,7 +13215,7 @@ true
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 statements
@@ -13489,7 +13501,7 @@ pn
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 condition
@@ -13798,7 +13810,7 @@ TS
 tc
 -
 >
-compiler
+parser
 )
 pn
 JSREPORT_ERROR
@@ -13856,7 +13868,7 @@ TS
 tc
 -
 >
-compiler
+parser
 )
 pn
 JSREPORT_ERROR
@@ -14103,7 +14115,7 @@ atom
 tc
 -
 >
-compiler
+parser
 -
 >
 context
@@ -14128,7 +14140,7 @@ remove
 tc
 -
 >
-compiler
+parser
 atom
 )
 ;
@@ -14398,7 +14410,7 @@ TS
 tc
 -
 >
-compiler
+parser
 )
 pn
 JSREPORT_ERROR
@@ -14421,7 +14433,7 @@ TS
 tc
 -
 >
-compiler
+parser
 )
 pn
 JSREPORT_WARNING
@@ -14535,7 +14547,7 @@ TS
 tc
 -
 >
-compiler
+parser
 )
 pn
 !
@@ -14797,7 +14809,7 @@ rawRemove
 tc
 -
 >
-compiler
+parser
 ale
 hep
 )
@@ -14868,7 +14880,7 @@ add
 tc
 -
 >
-compiler
+parser
 atom
 JSAtomList
 :
@@ -14961,7 +14973,7 @@ TCF_COMPILING
 tc
 -
 >
-compiler
+parser
 -
 >
 callerFrame
@@ -14989,7 +15001,7 @@ add
 tc
 -
 >
-compiler
+parser
 atom
 )
 ;
@@ -15387,7 +15399,7 @@ TS
 tc
 -
 >
-compiler
+parser
 )
 pn
 JSREPORT_ERROR
@@ -15902,7 +15914,7 @@ TS
 tc
 -
 >
-compiler
+parser
 )
 pn
 JSREPORT_ERROR
@@ -16741,7 +16753,7 @@ TS
 tc
 -
 >
-compiler
+parser
 )
 left
 JSREPORT_ERROR
@@ -16787,7 +16799,7 @@ TS
 tc
 -
 >
-compiler
+parser
 )
 right
 JSREPORT_ERROR
@@ -17261,7 +17273,7 @@ TS
 tc
 -
 >
-compiler
+parser
 )
 pn
 JSREPORT_ERROR
@@ -17345,7 +17357,7 @@ ReportCompileErrorNumber
 tc
 -
 >
-compiler
+parser
 -
 >
 context
@@ -17354,7 +17366,7 @@ TS
 tc
 -
 >
-compiler
+parser
 )
 right
 JSREPORT_ERROR
@@ -17651,7 +17663,7 @@ JS_TRUE
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 destructuringExpr
@@ -17864,7 +17876,7 @@ pn_funbox
 tc
 -
 >
-compiler
+parser
 -
 >
 newFunctionBox
@@ -18584,7 +18596,7 @@ NULL
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 returnOrYield
@@ -19009,7 +19021,7 @@ blockbox
 tc
 -
 >
-compiler
+parser
 -
 >
 newObjectBox
@@ -19103,7 +19115,7 @@ if
 JS_HAS_BLOCK_SCOPE
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 letBlock
@@ -19596,7 +19608,7 @@ remove
 tc
 -
 >
-compiler
+parser
 atom
 )
 ;
@@ -20011,7 +20023,7 @@ true
 endif
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 statement
@@ -24224,7 +24236,7 @@ js_NewBlockObject
 tc
 -
 >
-compiler
+parser
 -
 >
 context
@@ -24243,7 +24255,7 @@ blockbox
 tc
 -
 >
-compiler
+parser
 -
 >
 newObjectBox
@@ -25409,7 +25421,7 @@ PND_FUNARG
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 variables
@@ -26328,7 +26340,7 @@ NULL
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 expr
@@ -26512,7 +26524,7 @@ pn
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 assignExpr
@@ -26896,7 +26908,7 @@ tc
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 condExpr
@@ -27079,7 +27091,7 @@ pn
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 orExpr
@@ -27130,7 +27142,7 @@ pn
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 andExpr
@@ -27181,7 +27193,7 @@ pn
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 bitOrExpr
@@ -27234,7 +27246,7 @@ pn
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 bitXorExpr
@@ -27287,7 +27299,7 @@ pn
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 bitAndExpr
@@ -27338,7 +27350,7 @@ pn
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 eqExpr
@@ -27404,7 +27416,7 @@ pn
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 relExpr
@@ -27536,7 +27548,7 @@ pn
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 shiftExpr
@@ -27602,7 +27614,7 @@ pn
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 addExpr
@@ -27694,7 +27706,7 @@ pn
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 mulExpr
@@ -28184,7 +28196,7 @@ JS_TRUE
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 unaryExpr
@@ -28785,7 +28797,7 @@ JS_ReportErrorNumber
 tc
 -
 >
-compiler
+parser
 -
 >
 context
@@ -29431,7 +29443,7 @@ add
 tc
 -
 >
-compiler
+parser
 dn
 -
 >
@@ -29473,7 +29485,7 @@ remove
 tc
 -
 >
-compiler
+parser
 atom
 )
 ;
@@ -29691,7 +29703,7 @@ true
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 comprehensionTail
@@ -30490,7 +30502,7 @@ if
 JS_HAS_GENERATOR_EXPRS
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 generatorExpr
@@ -30622,7 +30634,7 @@ gentc
 tc
 -
 >
-compiler
+parser
 )
 ;
 JSFunctionBox
@@ -30897,7 +30909,7 @@ endif
 #
 endif
 JSBool
-JSCompiler
+Parser
 :
 :
 argumentList
@@ -31214,7 +31226,7 @@ pn
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 memberExpr
@@ -32423,7 +32435,7 @@ pn
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 bracketedExpr
@@ -32484,7 +32496,7 @@ if
 JS_HAS_XML_SUPPORT
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 endBracketedExpr
@@ -32521,7 +32533,7 @@ pn
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 propertySelector
@@ -32645,7 +32657,7 @@ pn
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 qualifiedSuffix
@@ -32904,7 +32916,7 @@ pn2
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 qualifiedIdentifier
@@ -32961,7 +32973,7 @@ pn
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 attributeIdentifier
@@ -33099,7 +33111,7 @@ pn
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 xmlExpr
@@ -33213,7 +33225,7 @@ pn
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 xmlAtomNode
@@ -33293,7 +33305,7 @@ pn
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 xmlNameExpr
@@ -33557,7 +33569,7 @@ TOK_LC
 )
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 xmlTagContent
@@ -33929,7 +33941,7 @@ result
 \
 JS_END_MACRO
 JSBool
-JSCompiler
+Parser
 :
 :
 xmlElementContent
@@ -34220,7 +34232,7 @@ JS_TRUE
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 xmlElementOrList
@@ -34962,7 +34974,7 @@ pn
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 xmlElementOrListRoot
@@ -35010,7 +35022,7 @@ pn
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 parseXMLText
@@ -35172,7 +35184,7 @@ false
 endif
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 primaryExpr
@@ -35694,7 +35706,7 @@ seen
 tc
 -
 >
-compiler
+parser
 )
 ;
 pn
@@ -36489,7 +36501,7 @@ add
 tc
 -
 >
-compiler
+parser
 atom
 )
 ;
@@ -37696,7 +37708,7 @@ pn_objbox
 tc
 -
 >
-compiler
+parser
 -
 >
 newObjectBox
@@ -37832,7 +37844,7 @@ pn
 }
 JSParseNode
 *
-JSCompiler
+Parser
 :
 :
 parenExpr
@@ -42059,7 +42071,7 @@ xmlbox
 tc
 -
 >
-compiler
+parser
 -
 >
 newObjectBox

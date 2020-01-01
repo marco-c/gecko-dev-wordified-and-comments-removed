@@ -6066,7 +6066,7 @@ script
 {
 script
 =
-JSCompiler
+Compiler
 :
 :
 compileScript

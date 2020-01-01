@@ -20792,7 +20792,7 @@ TCF_NEED_MUTABLE_SCRIPT
 ;
 script
 =
-JSCompiler
+Compiler
 :
 :
 compileScript
@@ -20888,15 +20888,15 @@ cx
 )
 ;
 {
-JSCompiler
-jsc
+Parser
+parser
 (
 cx
 )
 ;
 if
 (
-jsc
+parser
 .
 init
 (
@@ -20919,7 +20919,7 @@ NULL
 if
 (
 !
-jsc
+parser
 .
 parse
 (
@@ -20927,7 +20927,7 @@ obj
 )
 &
 &
-jsc
+parser
 .
 tokenStream
 .
@@ -21073,7 +21073,7 @@ cx
 ;
 script
 =
-JSCompiler
+Compiler
 :
 :
 compileScript
@@ -21191,7 +21191,7 @@ cx
 ;
 script
 =
-JSCompiler
+Compiler
 :
 :
 compileScript
@@ -21840,7 +21840,7 @@ out
 if
 (
 !
-JSCompiler
+Compiler
 :
 :
 compileFunctionBody
@@ -22495,7 +22495,7 @@ cx
 ;
 script
 =
-JSCompiler
+Compiler
 :
 :
 compileScript

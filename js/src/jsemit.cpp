@@ -287,9 +287,9 @@ JSCodeGenerator
 :
 JSCodeGenerator
 (
-JSCompiler
+Parser
 *
-jsc
+parser
 JSArenaPool
 *
 cpool
@@ -302,7 +302,7 @@ lineno
 :
 JSTreeContext
 (
-jsc
+parser
 )
 codePool
 (
@@ -460,7 +460,7 @@ if
 (
 spanDeps
 )
-compiler
+parser
 -
 >
 context
@@ -477,7 +477,7 @@ upvarMap
 .
 vector
 )
-compiler
+parser
 -
 >
 context
@@ -892,7 +892,7 @@ ts
 cg
 -
 >
-compiler
+parser
 -
 >
 tokenStream
@@ -4235,7 +4235,7 @@ ts
 cg
 -
 >
-compiler
+parser
 -
 >
 tokenStream
@@ -5907,7 +5907,7 @@ JSContext
 *
 cx
 =
-compiler
+parser
 -
 >
 context
@@ -7240,7 +7240,7 @@ add
 cg
 -
 >
-compiler
+parser
 atom
 )
 ;
@@ -8114,7 +8114,7 @@ add
 cg
 -
 >
-compiler
+parser
 pn
 -
 >
@@ -8720,7 +8720,7 @@ cx
 cg
 -
 >
-compiler
+parser
 -
 >
 context
@@ -8732,7 +8732,7 @@ fun
 cg
 -
 >
-compiler
+parser
 -
 >
 callerFrame
@@ -9005,7 +9005,7 @@ add
 cg
 -
 >
-compiler
+parser
 atom
 )
 ;
@@ -9472,7 +9472,7 @@ if
 cg
 -
 >
-compiler
+parser
 -
 >
 callerFrame
@@ -9552,7 +9552,7 @@ caller
 cg
 -
 >
-compiler
+parser
 -
 >
 callerFrame
@@ -9642,7 +9642,7 @@ scopeobj
 cg
 -
 >
-compiler
+parser
 -
 >
 callerVarObj
@@ -9667,7 +9667,7 @@ fun
 cg
 -
 >
-compiler
+parser
 -
 >
 callerFrame
@@ -9954,7 +9954,7 @@ caller
 cg
 -
 >
-compiler
+parser
 -
 >
 callerFrame
@@ -10038,7 +10038,7 @@ fun
 cg
 -
 >
-compiler
+parser
 -
 >
 callerVarObj
@@ -10326,7 +10326,7 @@ add
 cg
 -
 >
-compiler
+parser
 atom
 )
 ;
@@ -12152,7 +12152,7 @@ add
 cg
 -
 >
-compiler
+parser
 pn
 -
 >
@@ -12539,7 +12539,7 @@ add
 cg
 -
 >
-compiler
+parser
 pn
 -
 >
@@ -13803,7 +13803,7 @@ add
 cg
 -
 >
-compiler
+parser
 atom
 )
 ;
@@ -15595,7 +15595,7 @@ add
 cg
 -
 >
-compiler
+parser
 pn4
 -
 >
@@ -15713,7 +15713,7 @@ add
 cg
 -
 >
-compiler
+parser
 pn4
 -
 >
@@ -16170,7 +16170,7 @@ add
 cg
 -
 >
-compiler
+parser
 atom
 )
 ;
@@ -16754,7 +16754,7 @@ add
 cg
 -
 >
-compiler
+parser
 pn
 -
 >
@@ -20150,7 +20150,7 @@ JSCodeGenerator
 cg
 -
 >
-compiler
+parser
 cg
 -
 >
@@ -23009,7 +23009,7 @@ add
 cg
 -
 >
-compiler
+parser
 atom
 )
 ;
@@ -23162,7 +23162,7 @@ add
 cg
 -
 >
-compiler
+parser
 atom
 )
 ;
@@ -25478,7 +25478,7 @@ add
 cg
 -
 >
-compiler
+parser
 atom
 )
 ;
@@ -25860,7 +25860,7 @@ add
 cg
 -
 >
-compiler
+parser
 pn2
 -
 >
@@ -25934,7 +25934,7 @@ add
 cg
 -
 >
-compiler
+parser
 pn2
 -
 >
@@ -30145,7 +30145,7 @@ add
 cg
 -
 >
-compiler
+parser
 pn3
 -
 >
@@ -30952,7 +30952,7 @@ add
 cg
 -
 >
-compiler
+parser
 atom
 )
 ;
@@ -31080,7 +31080,7 @@ add
 cg
 -
 >
-compiler
+parser
 (
 pn
 -
@@ -31330,7 +31330,7 @@ add
 cg
 -
 >
-compiler
+parser
 (
 pn
 -
@@ -31598,7 +31598,7 @@ add
 cg
 -
 >
-compiler
+parser
 pn
 -
 >

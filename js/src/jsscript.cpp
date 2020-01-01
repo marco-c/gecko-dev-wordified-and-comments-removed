@@ -4950,7 +4950,7 @@ filename
 cg
 -
 >
-compiler
+parser
 -
 >
 tokenStream
@@ -5071,7 +5071,7 @@ principals
 cg
 -
 >
-compiler
+parser
 -
 >
 principals

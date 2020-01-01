@@ -5964,9 +5964,9 @@ JSObject
 *
 ParseNodeToQName
 (
-JSCompiler
+Parser
 *
-jsc
+parser
 JSParseNode
 *
 pn
@@ -5981,7 +5981,7 @@ JSContext
 *
 cx
 =
-jsc
+parser
 -
 >
 context
@@ -6286,12 +6286,12 @@ uri
 {
 ReportCompileErrorNumber
 (
-jsc
+parser
 -
 >
 context
 &
-jsc
+parser
 -
 >
 tokenStream
@@ -6300,7 +6300,7 @@ JSREPORT_ERROR
 JSMSG_BAD_XML_NAMESPACE
 js_ValueToPrintableString
 (
-jsc
+parser
 -
 >
 context
@@ -6319,7 +6319,7 @@ localName
 =
 js_NewStringCopyN
 (
-jsc
+parser
 -
 >
 context
@@ -6427,7 +6427,7 @@ empty
 (
 )
 ?
-jsc
+parser
 -
 >
 context
@@ -6449,7 +6449,7 @@ str
 return
 NewXMLQName
 (
-jsc
+parser
 -
 >
 context
@@ -6601,9 +6601,9 @@ JSXML
 *
 ParseNodeToXML
 (
-JSCompiler
+Parser
 *
-jsc
+parser
 JSParseNode
 *
 pn
@@ -6618,7 +6618,7 @@ JSContext
 *
 cx
 =
-jsc
+parser
 -
 >
 context
@@ -6684,7 +6684,7 @@ ReportCompileErrorNumber
 (
 cx
 &
-jsc
+parser
 -
 >
 tokenStream
@@ -6751,7 +6751,7 @@ xml
 =
 ParseNodeToXML
 (
-jsc
+parser
 pn2
 inScopeNSes
 flags
@@ -6884,7 +6884,7 @@ kid
 =
 ParseNodeToXML
 (
-jsc
+parser
 pn2
 inScopeNSes
 flags
@@ -7111,7 +7111,7 @@ kid
 =
 ParseNodeToXML
 (
-jsc
+parser
 pn2
 inScopeNSes
 flags
@@ -7352,7 +7352,7 @@ ReportCompileErrorNumber
 (
 cx
 &
-jsc
+parser
 -
 >
 tokenStream
@@ -7705,7 +7705,7 @@ qn
 =
 ParseNodeToQName
 (
-jsc
+parser
 pn2
 inScopeNSes
 JS_FALSE
@@ -7788,7 +7788,7 @@ qn
 =
 ParseNodeToQName
 (
-jsc
+parser
 pn2
 inScopeNSes
 JS_TRUE
@@ -7880,7 +7880,7 @@ ReportCompileErrorNumber
 (
 cx
 &
-jsc
+parser
 -
 >
 tokenStream
@@ -8080,7 +8080,7 @@ ReportCompileErrorNumber
 (
 cx
 &
-jsc
+parser
 -
 >
 tokenStream
@@ -8114,7 +8114,7 @@ qn
 =
 ParseNodeToQName
 (
-jsc
+parser
 pn
 inScopeNSes
 JS_FALSE
@@ -8269,7 +8269,7 @@ ReportCompileErrorNumber
 (
 cx
 &
-jsc
+parser
 -
 >
 tokenStream
@@ -9123,15 +9123,15 @@ lineno
 }
 }
 {
-JSCompiler
-jsc
+Parser
+parser
 (
 cx
 )
 ;
 if
 (
-jsc
+parser
 .
 init
 (
@@ -9145,7 +9145,7 @@ lineno
 {
 pn
 =
-jsc
+parser
 .
 parseXMLText
 (
@@ -9187,7 +9187,7 @@ xml
 ParseNodeToXML
 (
 &
-jsc
+parser
 pn
 &
 nsarray

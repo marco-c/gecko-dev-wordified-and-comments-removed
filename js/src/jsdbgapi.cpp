@@ -6509,7 +6509,7 @@ JS_FALSE
 ;
 script
 =
-JSCompiler
+Compiler
 :
 :
 compileScript
