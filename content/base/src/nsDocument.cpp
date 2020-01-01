@@ -242,7 +242,11 @@ h
 #
 include
 "
-nsIDOMProcessingInstruction
+mozilla
+/
+dom
+/
+ProcessingInstruction
 .
 h
 "
@@ -975,13 +979,6 @@ h
 include
 "
 nsTextNode
-.
-h
-"
-#
-include
-"
-nsXMLProcessingInstruction
 .
 h
 "
@@ -20056,7 +20053,7 @@ ErrorCode
 }
 already_AddRefed
 <
-nsXMLProcessingInstruction
+ProcessingInstruction
 >
 nsIDocument
 :
@@ -20178,7 +20175,7 @@ nullptr
 return
 static_cast
 <
-nsXMLProcessingInstruction
+ProcessingInstruction
 *
 >
 (

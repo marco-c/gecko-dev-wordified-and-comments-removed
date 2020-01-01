@@ -102,6 +102,10 @@ CDATASection
 .
 h
 \
+ProcessingInstruction
+.
+h
+\
 (
 NULL
 )
@@ -116,7 +120,7 @@ CDATASection
 .
 cpp
 \
-nsXMLProcessingInstruction
+ProcessingInstruction
 .
 cpp
 \

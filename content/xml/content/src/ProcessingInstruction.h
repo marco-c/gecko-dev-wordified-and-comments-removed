@@ -1,9 +1,9 @@
 #
 ifndef
-nsIXMLProcessingInstruction_h___
+mozilla_dom_ProcessingInstruction_h
 #
 define
-nsIXMLProcessingInstruction_h___
+mozilla_dom_ProcessingInstruction_h
 #
 include
 "
@@ -25,8 +25,14 @@ nsAString
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+dom
+{
 class
-nsXMLProcessingInstruction
+ProcessingInstruction
 :
 public
 nsGenericDOMDataNode
@@ -35,7 +41,7 @@ nsIDOMProcessingInstruction
 {
 public
 :
-nsXMLProcessingInstruction
+ProcessingInstruction
 (
 already_AddRefed
 <
@@ -50,7 +56,7 @@ aData
 ;
 virtual
 ~
-nsXMLProcessingInstruction
+ProcessingInstruction
 (
 )
 ;
@@ -149,5 +155,7 @@ aValue
 ;
 }
 ;
+}
+}
 #
 endif
