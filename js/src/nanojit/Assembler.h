@@ -340,13 +340,6 @@ outlineEOL
 512
 ]
 ;
-bool
-outputAddr
-vpad
-[
-3
-]
-;
 void
 output
 (
