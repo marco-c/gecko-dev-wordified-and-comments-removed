@@ -44394,6 +44394,17 @@ z
 "
 GNU_CC
 "
+\
+|
+|
+test
+"
+OS_ARCH
+"
+=
+"
+Darwin
+"
 ;
 then
 MOZ_AIRBAG
