@@ -829,6 +829,13 @@ h
 srcdir
 )
 /
+jemalloc_types
+.
+h
+(
+srcdir
+)
+/
 rb
 .
 h
@@ -845,6 +852,13 @@ srcdir
 )
 /
 jemalloc
+.
+h
+(
+srcdir
+)
+/
+jemalloc_types
 .
 h
 (
@@ -997,6 +1011,9 @@ EXPORTS
 jemalloc
 .
 h
+jemalloc_types
+.
+h
 else
 #
 Not
@@ -1069,6 +1086,9 @@ endif
 EXPORTS
 =
 jemalloc
+.
+h
+jemalloc_types
 .
 h
 CSRCS
