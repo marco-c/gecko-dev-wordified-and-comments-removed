@@ -508,7 +508,7 @@ kCGPathElementAddQuadCurveToPoint
 :
 {
 CGPoint
-pt
+cpt
 =
 element
 -
@@ -519,7 +519,7 @@ points
 ]
 ;
 CGPoint
-cpt
+pt
 =
 element
 -
@@ -562,7 +562,7 @@ kCGPathElementAddCurveToPoint
 :
 {
 CGPoint
-pt
+cpt1
 =
 element
 -
@@ -573,7 +573,7 @@ points
 ]
 ;
 CGPoint
-cpt1
+cpt2
 =
 element
 -
@@ -584,7 +584,7 @@ points
 ]
 ;
 CGPoint
-cpt2
+pt
 =
 element
 -
