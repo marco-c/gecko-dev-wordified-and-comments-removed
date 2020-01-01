@@ -2662,6 +2662,10 @@ mJSObject
 (
 nsnull
 )
+mPendingStorageEventsObsolete
+(
+nsnull
+)
 mTimeoutsSuspendDepth
 (
 0
@@ -2669,10 +2673,6 @@ mTimeoutsSuspendDepth
 mFocusMethod
 (
 0
-)
-mPendingStorageEventsObsolete
-(
-nsnull
 )
 #
 ifdef
