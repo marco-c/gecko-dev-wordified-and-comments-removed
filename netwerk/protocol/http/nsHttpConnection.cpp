@@ -134,6 +134,13 @@ nsISupportsPriority
 h
 "
 #
+include
+"
+nsHttpPipeline
+.
+h
+"
+#
 ifdef
 DEBUG
 extern

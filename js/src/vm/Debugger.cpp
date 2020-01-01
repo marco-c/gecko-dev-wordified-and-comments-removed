@@ -19477,7 +19477,7 @@ script
 >
 bindings
 .
-countArgs
+numArgs
 (
 )
 )

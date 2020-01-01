@@ -794,8 +794,16 @@ GetBounds
 nsDisplayListBuilder
 *
 aBuilder
+bool
+*
+aSnap
 )
 {
+*
+aSnap
+=
+false
+;
 nsRect
 shadowRect
 =

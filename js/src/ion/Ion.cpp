@@ -3718,7 +3718,7 @@ script
 )
 -
 >
-mayNeedArgsObj
+argumentsHasLocalBinding
 (
 )
 )

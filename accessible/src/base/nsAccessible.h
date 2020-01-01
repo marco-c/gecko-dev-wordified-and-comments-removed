@@ -302,6 +302,15 @@ nsString
 aDescription
 )
 ;
+virtual
+void
+Value
+(
+nsString
+&
+aValue
+)
+;
 inline
 already_AddRefed
 <

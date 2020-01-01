@@ -1007,7 +1007,7 @@ cx
 ;
 }
 inline
-void
+bool
 TypeMonitorCall
 (
 JSContext
@@ -1113,6 +1113,7 @@ environment
 )
 )
 return
+false
 ;
 if
 (
@@ -1133,6 +1134,9 @@ constructing
 ;
 }
 }
+return
+true
+;
 }
 inline
 bool

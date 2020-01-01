@@ -9650,8 +9650,9 @@ if
 mIsAboutBlank
 )
 {
-MOZ_NOT_REACHED
+MOZ_ASSERT
 (
+false
 "
 Must
 not

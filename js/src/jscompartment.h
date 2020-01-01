@@ -1610,6 +1610,13 @@ WatchpointMap
 *
 watchpointMap
 ;
+js
+:
+:
+ScriptCountsMap
+*
+scriptCountsMap
+;
 #
 ifdef
 JS_ION

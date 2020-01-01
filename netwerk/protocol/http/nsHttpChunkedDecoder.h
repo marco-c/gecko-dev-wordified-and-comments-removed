@@ -123,6 +123,15 @@ return
 h
 ;
 }
+PRUint32
+GetChunkRemaining
+(
+)
+{
+return
+mChunkRemaining
+;
+}
 private
 :
 nsresult

@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsHttpPipeline
-.
-h
-"
-#
-include
-"
 nsXPIDLString
 .
 h

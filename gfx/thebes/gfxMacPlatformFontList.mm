@@ -1060,7 +1060,7 @@ eComplexScript
 {
 eComplexScriptArabic
 eComplexScriptIndic
-eComplexScriptTibetan
+eComplexScriptLaoTibetan
 }
 ;
 struct
@@ -1113,12 +1113,13 @@ Bengali
 .
 Malayalam
 {
-eComplexScriptTibetan
-0x0F00
+eComplexScriptLaoTibetan
+0x0E80
 0x0FFF
 }
 /
 /
+Lao
 Tibetan
 /
 /
@@ -1137,7 +1138,6 @@ tables
 /
 xxx
 -
-Lao
 Khmer
 ?
 }

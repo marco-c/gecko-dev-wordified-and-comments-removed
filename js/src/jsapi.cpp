@@ -3676,14 +3676,6 @@ numGrouping
 (
 0
 )
-anynameObject
-(
-NULL
-)
-functionNamespaceObject
-(
-NULL
-)
 waiveGCQuota
 (
 false

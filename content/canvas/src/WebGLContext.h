@@ -4277,7 +4277,7 @@ mCachedMaxUshortElement
 =
 FindMaxElementInSubArray
 <
-GLshort
+GLushort
 >
 (
 mByteLength

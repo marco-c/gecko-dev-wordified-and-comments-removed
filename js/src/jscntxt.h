@@ -1333,14 +1333,6 @@ char
 *
 numGrouping
 ;
-JSObject
-*
-anynameObject
-;
-JSObject
-*
-functionNamespaceObject
-;
 bool
 waiveGCQuota
 ;

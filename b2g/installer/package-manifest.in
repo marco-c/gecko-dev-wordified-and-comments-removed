@@ -1323,6 +1323,9 @@ components
 profile
 .
 xpt
+#
+ifdef
+MOZ_ENABLE_PROFILER_SPS
 BINPATH
 /
 components
@@ -1330,6 +1333,8 @@ components
 profiler
 .
 xpt
+#
+endif
 BINPATH
 /
 components

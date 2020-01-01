@@ -963,11 +963,13 @@ if
 (
 killPipeline
 )
+{
 CancelPipeline
 (
 reason
 )
 ;
+}
 }
 void
 nsHttpPipeline

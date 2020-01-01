@@ -1451,7 +1451,7 @@ script
 >
 bindings
 .
-countVars
+numVars
 (
 )
 )

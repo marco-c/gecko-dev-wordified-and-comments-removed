@@ -47,10 +47,11 @@ aDoc
 }
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIACCESSIBLEVALUE
-NS_IMETHOD
-GetValue
+virtual
+void
+Value
 (
-nsAString
+nsString
 &
 aValue
 )

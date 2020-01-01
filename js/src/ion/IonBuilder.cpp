@@ -10888,10 +10888,6 @@ target
 script
 (
 )
-.
-get
-(
-)
 target
 (
 jsbytecode

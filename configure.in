@@ -61536,6 +61536,11 @@ fork
 wrap
 =
 pthread_atfork
+-
+-
+wrap
+=
+raise
 "
 fi
 dnl

@@ -2989,7 +2989,10 @@ aOffset
 0
 |
 |
+PRUint32
+(
 aOffset
+)
 >
 parent
 -
@@ -4081,7 +4084,10 @@ aOffset
 0
 |
 |
+PRUint32
+(
 aOffset
+)
 >
 aParent
 -
@@ -4354,7 +4360,10 @@ aOffset
 0
 |
 |
+PRUint32
+(
 aOffset
+)
 >
 aParent
 -

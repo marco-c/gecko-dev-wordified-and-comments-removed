@@ -769,10 +769,11 @@ void
 GetMaxPipelineObjectSize
 (
 PRInt64
-&
+*
 outVal
 )
 {
+*
 outVal
 =
 mMaxPipelineObjectSize

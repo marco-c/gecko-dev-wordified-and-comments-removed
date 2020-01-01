@@ -279,6 +279,9 @@ AndroidGeckoEvent
 *
 mQueuedViewportEvent
 ;
+bool
+mAllowCoalescingNextDraw
+;
 nsTArray
 <
 mozilla

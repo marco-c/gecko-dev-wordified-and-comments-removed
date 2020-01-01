@@ -181,6 +181,9 @@ GetBounds
 nsDisplayListBuilder
 *
 aBuilder
+bool
+*
+aSnap
 )
 ;
 void

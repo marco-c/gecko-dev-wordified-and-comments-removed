@@ -214,9 +214,6 @@ fails
 if
 (
 Android
-&
-&
-layersOpenGL
 )
 HTTP
 (
