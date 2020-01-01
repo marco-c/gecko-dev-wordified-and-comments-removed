@@ -1,7 +1,9 @@
 #
 include
 <
-cstdio
+stdio
+.
+h
 >
 #
 include
