@@ -879,6 +879,7 @@ endif
 static
 const
 struct
+BrowseCommand
 {
 const
 char
