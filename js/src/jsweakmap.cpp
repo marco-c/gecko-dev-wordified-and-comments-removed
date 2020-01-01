@@ -1978,6 +1978,12 @@ if
 map
 )
 {
+AutoSuppressGC
+suppress
+(
+cx
+)
+;
 for
 (
 ObjectValueMap
