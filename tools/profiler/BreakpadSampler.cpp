@@ -20,7 +20,7 @@ h
 #
 include
 <
-iostream
+ostream
 >
 #
 include
