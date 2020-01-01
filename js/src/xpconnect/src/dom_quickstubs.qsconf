@@ -1961,6 +1961,16 @@ toDataURL
 '
 nsIDOMNSHTMLDocument
 .
+width
+'
+'
+nsIDOMNSHTMLDocument
+.
+height
+'
+'
+nsIDOMNSHTMLDocument
+.
 domain
 '
 '
