@@ -46,6 +46,9 @@ protected
 nsString
 mName
 ;
+nsString
+mDetailedDescription
+;
 nsCString
 mService
 ;
