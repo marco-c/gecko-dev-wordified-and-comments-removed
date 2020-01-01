@@ -142,10 +142,6 @@ DOMSVGStringList
 .
 cpp
 \
-DOMSVGTransform
-.
-cpp
-\
 DOMSVGTransformList
 .
 cpp
@@ -614,6 +610,10 @@ SVGTitleElement
 .
 cpp
 \
+SVGTransform
+.
+cpp
+\
 SVGTransformableElement
 .
 cpp
@@ -988,6 +988,10 @@ SVGTextPositioningElement
 h
 \
 SVGTitleElement
+.
+h
+\
+SVGTransform
 .
 h
 \

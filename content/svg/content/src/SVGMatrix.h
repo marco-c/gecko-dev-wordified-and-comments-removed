@@ -7,7 +7,11 @@ mozilla_dom_SVGMatrix_h
 #
 include
 "
-DOMSVGTransform
+mozilla
+/
+dom
+/
+SVGTransform
 .
 h
 "
@@ -73,7 +77,7 @@ SVGMatrix
 )
 SVGMatrix
 (
-DOMSVGTransform
+SVGTransform
 &
 aTransform
 )
@@ -137,7 +141,7 @@ Matrixgfx
 mMatrix
 ;
 }
-DOMSVGTransform
+SVGTransform
 *
 GetParentObject
 (
@@ -515,7 +519,7 @@ false
 }
 nsRefPtr
 <
-DOMSVGTransform
+SVGTransform
 >
 mTransform
 ;
