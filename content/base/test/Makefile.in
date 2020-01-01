@@ -2557,14 +2557,6 @@ test_bug761120
 .
 html
 \
-test_bug787778
-.
-html
-\
-test_bug787778
-.
-sjs
-\
 test_XHR_onuploadprogress
 .
 html
