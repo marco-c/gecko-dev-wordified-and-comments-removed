@@ -507,6 +507,13 @@ EXPORTS
 SDK_HEADERS
 )
 endif
+REPORT_BUILD
+=
+echo
+(
+notdir
+<
+)
 ifeq
 (
 (
@@ -8179,6 +8186,9 @@ c
 GLOBAL_DEPS
 )
 (
+REPORT_BUILD
+)
+(
 ELOG
 )
 (
@@ -8213,6 +8223,9 @@ OBJ_SUFFIX
 cpp
 (
 GLOBAL_DEPS
+)
+(
+REPORT_BUILD
 )
 (
 ELOG
@@ -8251,6 +8264,9 @@ cc
 GLOBAL_DEPS
 )
 (
+REPORT_BUILD
+)
+(
 ELOG
 )
 (
@@ -8285,6 +8301,9 @@ OBJ_SUFFIX
 m
 (
 GLOBAL_DEPS
+)
+(
+REPORT_BUILD
 )
 (
 ELOG
@@ -8326,6 +8345,9 @@ mm
 GLOBAL_DEPS
 )
 (
+REPORT_BUILD
+)
+(
 ELOG
 )
 (
@@ -8361,6 +8383,9 @@ c
 GLOBAL_DEPS
 )
 (
+REPORT_BUILD
+)
+(
 MAKE_DEPS_AUTO_CC
 )
 (
@@ -8392,6 +8417,9 @@ OBJ_SUFFIX
 c
 (
 GLOBAL_DEPS
+)
+(
+REPORT_BUILD
 )
 (
 MAKE_DEPS_AUTO_CC
@@ -8494,6 +8522,9 @@ cc
 cc
 (
 GLOBAL_DEPS
+)
+(
+REPORT_BUILD
 )
 (
 ELOG
@@ -8647,6 +8678,9 @@ cc
 GLOBAL_DEPS
 )
 (
+REPORT_BUILD
+)
+(
 MAKE_DEPS_AUTO_CXX
 )
 (
@@ -8677,6 +8711,9 @@ OBJ_SUFFIX
 cpp
 (
 GLOBAL_DEPS
+)
+(
+REPORT_BUILD
 )
 (
 MAKE_DEPS_AUTO_CXX
@@ -8768,6 +8805,9 @@ mm
 GLOBAL_DEPS
 )
 (
+REPORT_BUILD
+)
+(
 MAKE_DEPS_AUTO_CXX
 )
 (
@@ -8803,6 +8843,9 @@ OBJ_SUFFIX
 m
 (
 GLOBAL_DEPS
+)
+(
+REPORT_BUILD
 )
 (
 MAKE_DEPS_AUTO_CC
@@ -11283,6 +11326,9 @@ XPIDL_GEN_DIR
 .
 done
 (
+REPORT_BUILD
+)
+(
 PYTHON_PATH
 )
 \
@@ -11454,6 +11500,9 @@ XPIDL_GEN_DIR
 /
 .
 done
+(
+REPORT_BUILD
+)
 (
 PYTHON_PATH
 )
@@ -13828,6 +13877,9 @@ pp
 .
 c
 (
+REPORT_BUILD
+)
+(
 MAKE_DEPS_NOAUTO
 )
 (
@@ -13842,6 +13894,9 @@ pp
 .
 cpp
 (
+REPORT_BUILD
+)
+(
 MAKE_DEPS_NOAUTO
 )
 (
@@ -13855,6 +13910,9 @@ pp
 %
 .
 s
+(
+REPORT_BUILD
+)
 (
 MAKE_DEPS_NOAUTO
 )

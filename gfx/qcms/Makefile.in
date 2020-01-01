@@ -701,6 +701,9 @@ c
 GLOBAL_DEPS
 )
 (
+REPORT_BUILD
+)
+(
 MAKE_DEPS_AUTO_CC
 )
 (
@@ -738,6 +741,9 @@ sse2
 c
 (
 GLOBAL_DEPS
+)
+(
+REPORT_BUILD
 )
 (
 MAKE_DEPS_AUTO_CC
