@@ -519,6 +519,11 @@ JSOP_NEW
 \
 _
 (
+JSOP_THROW
+)
+\
+_
+(
 JSOP_RETURN
 )
 \
