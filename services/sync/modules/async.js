@@ -892,6 +892,7 @@ item
 for
 each
 (
+let
 name
 in
 this
