@@ -1500,17 +1500,6 @@ removeBookmarkButtonCommand
 )
 ;
 "
-label
-=
-"
-&
-editBookmark
-.
-removeBookmark
-.
-label
-;
-"
 accesskey
 =
 "
