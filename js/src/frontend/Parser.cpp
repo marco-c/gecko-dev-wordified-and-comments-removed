@@ -5767,7 +5767,7 @@ funtc
 sc
 -
 >
-bindingsAccessedDynamically
+funHasExtensibleScope
 (
 )
 |
