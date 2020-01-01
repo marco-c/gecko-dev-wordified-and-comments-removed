@@ -94,6 +94,16 @@ delete
 12
 )
 ;
+testcase
+(
+obj
+Set
+.
+prototype
+.
+clear
+)
+;
 }
 test
 (

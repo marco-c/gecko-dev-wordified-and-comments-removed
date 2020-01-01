@@ -124,6 +124,16 @@ x
 "
 )
 ;
+testcase
+(
+obj
+Map
+.
+prototype
+.
+clear
+)
+;
 }
 test
 (
