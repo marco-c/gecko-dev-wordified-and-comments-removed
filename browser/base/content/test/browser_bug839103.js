@@ -252,6 +252,12 @@ contentDocument
 ;
 doc
 .
+styleSheetChangeEventsEnabled
+=
+true
+;
+doc
+.
 addEventListener
 (
 "
