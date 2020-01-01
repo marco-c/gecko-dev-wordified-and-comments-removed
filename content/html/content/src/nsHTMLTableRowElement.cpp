@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLTableRowElement
 .
 h
@@ -105,10 +96,6 @@ nsContentUtils
 .
 h
 "
-using
-namespace
-mozilla
-;
 class
 nsHTMLTableRowElement
 :
@@ -1874,7 +1861,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-ArrayLength
+NS_ARRAY_LENGTH
 (
 map
 )

@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsAccessible
 .
 h
@@ -203,10 +194,6 @@ nsMaiInterfaceImage
 .
 h
 "
-using
-namespace
-mozilla
-;
 using
 namespace
 mozilla
@@ -1782,7 +1769,7 @@ index
 ;
 index
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 atk_if_infos
 )
@@ -3644,7 +3631,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 relationTypes
 )

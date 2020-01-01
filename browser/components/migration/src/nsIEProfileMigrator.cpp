@@ -1,14 +1,5 @@
 #
 include
-"
-mozilla
-/
-Util
-.
-h
-"
-#
-include
 <
 stdio
 .
@@ -490,10 +481,6 @@ Explorer
 SearchUrl
 "
 )
-using
-namespace
-mozilla
-;
 const
 int
 sInitialCookieBufferSize
@@ -7648,7 +7635,9 @@ entry
 *
 endEntry
 =
-ArrayEnd
+gRegEntries
++
+NS_ARRAY_LENGTH
 (
 gRegEntries
 )
@@ -10071,7 +10060,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 data
 )
@@ -10202,7 +10191,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 data
 )

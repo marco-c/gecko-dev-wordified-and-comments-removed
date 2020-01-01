@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 gfxFontconfigUtils
 .
 h
@@ -1204,7 +1195,7 @@ g
 ;
 g
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sFontconfigGenerics
 )
@@ -1966,7 +1957,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 MozLangGroups
 )

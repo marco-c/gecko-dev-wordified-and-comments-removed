@@ -177,7 +177,7 @@ index
 ;
 index
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kColorNames
 )
@@ -542,7 +542,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kJunkNames
 )

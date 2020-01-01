@@ -25364,7 +25364,7 @@ makeAtomIndex
 pn
 -
 >
-pn_pidata
+pn_atom2
 &
 index
 )

@@ -11,15 +11,6 @@ endif
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 base
 /
 basictypes
@@ -7277,7 +7268,7 @@ AutoArrayRooter
 tvr
 (
 cx
-ArrayLength
+NS_ARRAY_LENGTH
 (
 vec
 )

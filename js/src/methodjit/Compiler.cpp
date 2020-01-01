@@ -26919,7 +26919,7 @@ getClass
 >
 ops
 .
-lookupGeneric
+lookupProperty
 )
 return
 false
@@ -26950,7 +26950,7 @@ if
 obj
 -
 >
-lookupGeneric
+lookupProperty
 (
 cx
 id

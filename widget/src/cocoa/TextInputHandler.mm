@@ -453,15 +453,6 @@ BLOCK
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 TextInputHandler
 .
 h
@@ -583,10 +574,6 @@ prlog
 .
 h
 "
-using
-namespace
-mozilla
-;
 using
 namespace
 mozilla
@@ -7800,7 +7787,7 @@ const
 PRUint32
 kModifierCount
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kModifierMaskTable
 )
@@ -21309,7 +21296,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sModifierFlagMap
 )

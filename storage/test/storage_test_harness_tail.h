@@ -60,10 +60,7 @@ i
 ;
 i
 <
-mozilla
-:
-:
-ArrayLength
+NS_ARRAY_LENGTH
 (
 gTests
 )

@@ -3,15 +3,6 @@ include
 "
 mozilla
 /
-Util
-.
-h
-"
-#
-include
-"
-mozilla
-/
 MapsMemoryReporter
 .
 h
@@ -549,7 +540,7 @@ const
 PRUint32
 len
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 mozillaLibraries
 )

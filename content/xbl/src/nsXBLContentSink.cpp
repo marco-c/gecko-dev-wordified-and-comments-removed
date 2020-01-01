@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsXBLContentSink
 .
 h
@@ -170,10 +161,6 @@ Element
 .
 h
 "
-using
-namespace
-mozilla
-;
 using
 namespace
 mozilla
@@ -936,7 +923,7 @@ eXBL_PROPERTIES
 UnexpectedElement
 "
 params
-ArrayLength
+NS_ARRAY_LENGTH
 (
 params
 )

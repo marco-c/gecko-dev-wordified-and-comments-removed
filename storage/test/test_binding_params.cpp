@@ -12,10 +12,6 @@ mozStorageHelper
 .
 h
 "
-using
-namespace
-mozilla
-;
 void
 test_ASCIIString
 (
@@ -379,7 +375,7 @@ nsCAutoString
 inserted
 (
 sCharArray
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sCharArray
 )
@@ -396,7 +392,7 @@ Length
 )
 =
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sCharArray
 )
@@ -665,7 +661,7 @@ nsCAutoString
 insertedUTF8
 (
 sCharArray
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sCharArray
 )
@@ -682,7 +678,7 @@ Length
 )
 =
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sCharArray
 )

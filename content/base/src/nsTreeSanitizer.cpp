@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsTreeSanitizer
 .
 h
@@ -124,10 +115,6 @@ nsContentUtils
 .
 h
 "
-using
-namespace
-mozilla
-;
 nsIAtom
 *
 *
@@ -6852,7 +6839,7 @@ sElementsHTML
 >
 Init
 (
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kElementsHTML
 )
@@ -6903,7 +6890,7 @@ sAttributesHTML
 >
 Init
 (
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kAttributesHTML
 )
@@ -6954,7 +6941,7 @@ sElementsSVG
 >
 Init
 (
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kElementsSVG
 )
@@ -7005,7 +6992,7 @@ sAttributesSVG
 >
 Init
 (
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kAttributesSVG
 )
@@ -7056,7 +7043,7 @@ sElementsMathML
 >
 Init
 (
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kElementsMathML
 )
@@ -7107,7 +7094,7 @@ sAttributesMathML
 >
 Init
 (
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kAttributesMathML
 )

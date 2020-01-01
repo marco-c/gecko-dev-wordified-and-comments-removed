@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 SVGNumberList
 .
 h
@@ -189,7 +180,7 @@ nsTextFormatter
 snprintf
 (
 buf
-ArrayLength
+NS_ARRAY_LENGTH
 (
 buf
 )

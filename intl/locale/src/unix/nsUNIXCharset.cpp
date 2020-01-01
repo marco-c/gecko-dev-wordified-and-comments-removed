@@ -8,15 +8,6 @@ h
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsIPlatformCharset
 .
 h
@@ -152,10 +143,6 @@ nsUnicharUtils
 .
 h
 "
-using
-namespace
-mozilla
-;
 static
 const
 char
@@ -263,7 +250,7 @@ nsUConvPropertySearch
 SearchPropertyValue
 (
 kUnixCharsets
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kUnixCharsets
 )
@@ -313,7 +300,7 @@ nsUConvPropertySearch
 SearchPropertyValue
 (
 kUnixCharsets
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kUnixCharsets
 )

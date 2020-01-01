@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 txStylesheetCompiler
 .
 h
@@ -98,10 +89,6 @@ txXSLTFunctions
 .
 h
 "
-using
-namespace
-mozilla
-;
 txHandlerTable
 *
 gTxIgnoreHandler
@@ -11597,7 +11584,7 @@ _name
 #
 ElementHandlers
 \
-ArrayLength
+NS_ARRAY_LENGTH
 (
 gTx
 #

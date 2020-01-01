@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsContentSink
 .
 h
@@ -5831,7 +5822,7 @@ PRUint32
 i
 )
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 mNodeInfoCache
 )
@@ -5893,7 +5884,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 tmp
 -
@@ -5957,7 +5948,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 tmp
 -

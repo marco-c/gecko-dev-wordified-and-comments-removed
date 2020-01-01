@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsIAtom
 .
 h
@@ -42,10 +33,6 @@ nsStaticAtom
 .
 h
 "
-using
-namespace
-mozilla
-;
 namespace
 TestAtoms
 {
@@ -64,7 +51,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 ValidStrings
 )
@@ -256,7 +243,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 ValidStrings
 )
@@ -495,7 +482,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 Invalid16Strings
 )
@@ -575,7 +562,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 Invalid8Strings
 )
@@ -692,7 +679,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 Malformed8Strings
 )
@@ -980,7 +967,7 @@ PR_FALSE
 NS_RegisterStaticAtoms
 (
 sAtoms_info
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sAtoms_info
 )

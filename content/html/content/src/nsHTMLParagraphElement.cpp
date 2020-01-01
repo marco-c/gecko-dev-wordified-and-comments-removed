@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLParagraphElement
 .
 h
@@ -56,10 +47,6 @@ nsRuleData
 .
 h
 "
-using
-namespace
-mozilla
-;
 class
 nsHTMLParagraphElement
 :
@@ -365,7 +352,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-ArrayLength
+NS_ARRAY_LENGTH
 (
 map
 )

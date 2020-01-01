@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLBRElement
 .
 h
@@ -56,10 +47,6 @@ nsRuleData
 .
 h
 "
-using
-namespace
-mozilla
-;
 class
 nsHTMLBRElement
 :
@@ -506,7 +493,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-ArrayLength
+NS_ARRAY_LENGTH
 (
 map
 )

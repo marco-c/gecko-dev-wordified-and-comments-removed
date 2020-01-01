@@ -1,14 +1,5 @@
 #
 include
-"
-mozilla
-/
-Util
-.
-h
-"
-#
-include
 <
 stdio
 .
@@ -63,10 +54,6 @@ nsCRT
 .
 h
 "
-using
-namespace
-mozilla
-;
 namespace
 TestUTF
 {
@@ -85,7 +72,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 ValidStrings
 )
@@ -254,7 +241,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 Invalid16Strings
 )
@@ -370,7 +357,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 Invalid8Strings
 )
@@ -492,7 +479,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 Malformed8Strings
 )
@@ -599,7 +586,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 ValidStrings
 )
@@ -675,7 +662,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 Invalid8Strings
 )
@@ -754,7 +741,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 Malformed8Strings
 )

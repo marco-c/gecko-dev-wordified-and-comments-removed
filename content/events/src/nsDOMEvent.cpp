@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 base
 /
 basictypes
@@ -1938,7 +1929,7 @@ nsContentUtils
 eDOM_PROPERTIES
 aWarning
 strings
-ArrayLength
+NS_ARRAY_LENGTH
 (
 strings
 )

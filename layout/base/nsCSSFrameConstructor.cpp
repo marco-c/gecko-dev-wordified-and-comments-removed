@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsCSSFrameConstructor
 .
 h
@@ -13971,7 +13962,7 @@ aTag
 aElement
 aStyleContext
 sHTMLData
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sHTMLData
 )
@@ -14226,7 +14217,7 @@ GetType
 aElement
 aStyleContext
 sInputData
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sInputData
 )
@@ -14375,7 +14366,7 @@ type
 aElement
 aStyleContext
 sObjectData
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sObjectData
 )
@@ -16316,7 +16307,7 @@ aTag
 aElement
 aStyleContext
 sXULTagData
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sXULTagData
 )
@@ -16881,7 +16872,7 @@ mDisplay
 aElement
 aStyleContext
 sXULDisplayData
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sXULDisplayData
 )
@@ -17615,7 +17606,7 @@ mDisplay
 aElement
 aStyleContext
 sDisplayData
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sDisplayData
 )
@@ -18762,7 +18753,7 @@ aTag
 aElement
 aStyleContext
 sMathMLData
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sMathMLData
 )
@@ -19495,7 +19486,7 @@ aTag
 aElement
 aStyleContext
 sSVGData
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sSVGData
 )
@@ -39145,7 +39136,7 @@ nsContentUtils
 eXUL_PROPERTIES
 message
 params
-ArrayLength
+NS_ARRAY_LENGTH
 (
 params
 )

@@ -471,10 +471,6 @@ IPDLUnitTestProcessChild
 #
 endif
 using
-namespace
-mozilla
-;
-using
 mozilla
 :
 :
@@ -958,7 +954,7 @@ i
 (
 int
 )
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kGeckoProcessTypeString
 )

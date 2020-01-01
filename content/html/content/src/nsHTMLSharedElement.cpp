@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLParamElement
 .
 h
@@ -91,10 +82,6 @@ nsContentUtils
 .
 h
 "
-using
-namespace
-mozilla
-;
 extern
 nsAttrValue
 :
@@ -1088,7 +1075,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-ArrayLength
+NS_ARRAY_LENGTH
 (
 map
 )

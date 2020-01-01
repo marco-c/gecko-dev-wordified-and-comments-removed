@@ -1,13 +1,4 @@
 #
-include
-"
-mozilla
-/
-Util
-.
-h
-"
-#
 ifdef
 MOZ_LOGGING
 #
@@ -40973,7 +40964,7 @@ get
 (
 )
 formatStrings
-ArrayLength
+NS_ARRAY_LENGTH
 (
 formatStrings
 )

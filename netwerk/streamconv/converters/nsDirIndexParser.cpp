@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 prprf
 .
 h
@@ -98,10 +89,6 @@ nsIPrefLocalizedString
 .
 h
 "
-using
-namespace
-mozilla
-;
 NS_IMPL_ISUPPORTS3
 (
 nsDirIndexParser
@@ -628,7 +615,7 @@ num
 (
 2
 *
-ArrayLength
+NS_ARRAY_LENGTH
 (
 gFieldTable
 )

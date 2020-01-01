@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nscore
 .
 h
@@ -161,10 +152,6 @@ jsapi
 .
 h
 "
-using
-namespace
-mozilla
-;
 class
 nsHTMLBodyElement
 ;
@@ -2395,7 +2382,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-ArrayLength
+NS_ARRAY_LENGTH
 (
 map
 )

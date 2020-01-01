@@ -1,14 +1,5 @@
 #
 include
-"
-mozilla
-/
-Util
-.
-h
-"
-#
-include
 <
 stdio
 .
@@ -171,10 +162,6 @@ nsNativeCharsetUtils
 .
 h
 "
-using
-namespace
-mozilla
-;
 class
 nsToolkitProfile
 :
@@ -2452,7 +2439,7 @@ rand
 (
 )
 %
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kTable
 )

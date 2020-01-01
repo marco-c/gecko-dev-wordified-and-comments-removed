@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 jsstdint
 .
 h
@@ -482,10 +473,6 @@ h
 >
 #
 endif
-using
-namespace
-mozilla
-;
 #
 ifdef
 DEBUG
@@ -66095,7 +66082,7 @@ getOps
 )
 -
 >
-lookupGeneric
+lookupProperty
 )
 return
 false
@@ -69789,7 +69776,7 @@ JS_ASSERT
 obj
 -
 >
-lookupGeneric
+lookupProperty
 (
 cx
 shape
@@ -76021,7 +76008,7 @@ if
 length
 >
 =
-ArrayLength
+JS_ARRAY_LENGTH
 (
 funapply_imacro_table
 )
@@ -76055,7 +76042,7 @@ if
 argc
 >
 =
-ArrayLength
+JS_ARRAY_LENGTH
 (
 funcall_imacro_table
 )
@@ -82580,7 +82567,7 @@ ok
 obj
 -
 >
-lookupGeneric
+lookupProperty
 (
 cx
 id
@@ -82601,7 +82588,7 @@ RETURN_ERROR_A
 obj
 -
 >
-lookupGeneric
+lookupProperty
 failed
 in
 JSOP_IN

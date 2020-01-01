@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 jsapi
 .
 h
@@ -9007,7 +8998,7 @@ list
 size_t
 count
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 interface_list
 )
@@ -14301,7 +14292,7 @@ NS_DEBUG
 PRUint32
 i
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sClassInfoData
 )
@@ -19091,7 +19082,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kConstructorMap
 )
@@ -19151,7 +19142,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kConstructorFuncMap
 )
@@ -25474,7 +25465,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sOtherResolveFuncs
 )

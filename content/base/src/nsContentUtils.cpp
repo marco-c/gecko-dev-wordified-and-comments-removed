@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 jsapi
 .
 h
@@ -2684,7 +2675,7 @@ Init
 (
 int
 (
-ArrayLength
+NS_ARRAY_LENGTH
 (
 eventArray
 )
@@ -2706,7 +2697,7 @@ Init
 (
 int
 (
-ArrayLength
+NS_ARRAY_LENGTH
 (
 eventArray
 )
@@ -2754,7 +2745,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 eventArray
 )
@@ -2930,7 +2921,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 touchEventArray
 )
@@ -17654,7 +17645,7 @@ Length
 )
 PRUint32
 (
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sBuf
 )
@@ -22274,7 +22265,7 @@ strncmp
 (
 filename
 prefix
-ArrayLength
+NS_ARRAY_LENGTH
 (
 prefix
 )
@@ -24607,7 +24598,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 nsHTMLMediaElement
 :
@@ -24713,7 +24704,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 nsHTMLMediaElement
 :

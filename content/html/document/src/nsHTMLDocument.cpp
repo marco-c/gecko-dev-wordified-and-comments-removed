@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsICharsetAlias
 .
 h
@@ -13115,7 +13106,7 @@ j
 ;
 j
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 gBlocks
 )
@@ -13159,7 +13150,7 @@ return
 j
 !
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 gBlocks
 )

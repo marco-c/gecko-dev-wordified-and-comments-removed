@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 mozStorageSQLFunctions
 .
 h
@@ -874,7 +865,7 @@ rv
 &
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 functions
 )

@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 gfxWindowsPlatform
 .
 h
@@ -166,10 +157,6 @@ include
 <
 string
 >
-using
-namespace
-mozilla
-;
 using
 namespace
 mozilla
@@ -3146,7 +3133,7 @@ i
 {
 size
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 displayName
 )
@@ -3201,7 +3188,7 @@ false
 swprintf_s
 (
 subkeyName
-ArrayLength
+NS_ARRAY_LENGTH
 (
 subkeyName
 )

@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsHTMLTableElement
 .
 h
@@ -154,10 +145,6 @@ dombindings
 .
 h
 "
-using
-namespace
-mozilla
-;
 class
 TableRowsCollection
 :
@@ -5186,7 +5173,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-ArrayLength
+NS_ARRAY_LENGTH
 (
 map
 )

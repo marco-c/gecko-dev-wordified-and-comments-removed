@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 SQLCollations
 .
 h
@@ -333,7 +324,7 @@ rv
 &
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 collations
 )

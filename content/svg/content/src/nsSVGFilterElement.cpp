@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h
@@ -35,10 +26,6 @@ nsSVGEffects
 .
 h
 "
-using
-namespace
-mozilla
-;
 nsSVGElement
 :
 :
@@ -570,7 +557,7 @@ FindAttributeDependence
 (
 name
 map
-ArrayLength
+NS_ARRAY_LENGTH
 (
 map
 )
@@ -697,7 +684,7 @@ LengthAttributesInfo
 (
 mLengthAttributes
 sLengthInfo
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sLengthInfo
 )
@@ -720,7 +707,7 @@ IntegerPairAttributesInfo
 (
 mIntegerPairAttributes
 sIntegerPairInfo
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sIntegerPairInfo
 )
@@ -743,7 +730,7 @@ EnumAttributesInfo
 (
 mEnumAttributes
 sEnumInfo
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sEnumInfo
 )
@@ -766,7 +753,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sStringInfo
 )

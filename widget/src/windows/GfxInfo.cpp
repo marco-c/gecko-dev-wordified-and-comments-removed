@@ -1,14 +1,5 @@
 #
 include
-"
-mozilla
-/
-Util
-.
-h
-"
-#
-include
 <
 windows
 .
@@ -126,10 +117,6 @@ reporter
 "
 #
 endif
-using
-namespace
-mozilla
-;
 using
 namespace
 mozilla
@@ -534,7 +521,7 @@ displayNames
 swprintf_s
 (
 valStr
-ArrayLength
+NS_ARRAY_LENGTH
 (
 valStr
 )
@@ -578,7 +565,7 @@ true
 swprintf_s
 (
 valStr
-ArrayLength
+NS_ARRAY_LENGTH
 (
 valStr
 )
@@ -637,7 +624,7 @@ PIXEL_STRUCT_BGR
 swprintf_s
 (
 valStr
-ArrayLength
+NS_ARRAY_LENGTH
 (
 valStr
 )
@@ -675,7 +662,7 @@ else
 swprintf_s
 (
 valStr
-ArrayLength
+NS_ARRAY_LENGTH
 (
 valStr
 )
@@ -718,7 +705,7 @@ true
 swprintf_s
 (
 valStr
-ArrayLength
+NS_ARRAY_LENGTH
 (
 valStr
 )
@@ -760,7 +747,7 @@ true
 swprintf_s
 (
 valStr
-ArrayLength
+NS_ARRAY_LENGTH
 (
 valStr
 )
@@ -1452,7 +1439,7 @@ wcsnlen
 displayDevice
 .
 DeviceKey
-ArrayLength
+NS_ARRAY_LENGTH
 (
 displayDevice
 .
@@ -1461,7 +1448,7 @@ DeviceKey
 )
 =
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 displayDevice
 .
@@ -1487,7 +1474,7 @@ displayDevice
 .
 DeviceKey
 DEVICE_KEY_PREFIX
-ArrayLength
+NS_ARRAY_LENGTH
 (
 DEVICE_KEY_PREFIX
 )
@@ -1507,7 +1494,7 @@ displayDevice
 .
 DeviceKey
 +
-ArrayLength
+NS_ARRAY_LENGTH
 (
 DEVICE_KEY_PREFIX
 )

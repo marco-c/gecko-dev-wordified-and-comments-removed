@@ -15,15 +15,6 @@ h
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 jspubtd
 .
 h
@@ -170,10 +161,6 @@ jsscriptinlines
 .
 h
 "
-using
-namespace
-mozilla
-;
 using
 namespace
 js
@@ -829,7 +816,7 @@ Invoke
 cx
 userv
 fun
-ArrayLength
+JS_ARRAY_LENGTH
 (
 argv
 )
@@ -913,7 +900,7 @@ Invoke
 cx
 userv
 fun
-ArrayLength
+JS_ARRAY_LENGTH
 (
 argv
 )
@@ -937,7 +924,7 @@ Invoke
 cx
 userv
 fun
-ArrayLength
+JS_ARRAY_LENGTH
 (
 argv
 )
@@ -1001,7 +988,7 @@ Invoke
 cx
 userv
 fun
-ArrayLength
+JS_ARRAY_LENGTH
 (
 argv
 )
@@ -1026,7 +1013,7 @@ Invoke
 cx
 userv
 fun
-ArrayLength
+JS_ARRAY_LENGTH
 (
 argv
 )
@@ -1093,7 +1080,7 @@ Invoke
 cx
 userv
 fun
-ArrayLength
+JS_ARRAY_LENGTH
 (
 argv
 )
@@ -1119,7 +1106,7 @@ Invoke
 cx
 userv
 fun
-ArrayLength
+JS_ARRAY_LENGTH
 (
 argv
 )
@@ -1189,7 +1176,7 @@ Invoke
 cx
 userv
 fun
-ArrayLength
+JS_ARRAY_LENGTH
 (
 argv
 )
@@ -1216,7 +1203,7 @@ Invoke
 cx
 userv
 fun
-ArrayLength
+JS_ARRAY_LENGTH
 (
 argv
 )
@@ -1289,7 +1276,7 @@ Invoke
 cx
 userv
 fun
-ArrayLength
+JS_ARRAY_LENGTH
 (
 argv
 )
@@ -1317,7 +1304,7 @@ Invoke
 cx
 userv
 fun
-ArrayLength
+JS_ARRAY_LENGTH
 (
 argv
 )
@@ -14389,7 +14376,7 @@ if
 pn
 -
 >
-pn_pidata
+pn_atom2
 )
 return
 builder
@@ -14401,7 +14388,7 @@ atomContents
 pn
 -
 >
-pn_pitarget
+pn_atom
 )
 &
 pn
@@ -14422,14 +14409,14 @@ atomContents
 pn
 -
 >
-pn_pitarget
+pn_atom
 )
 atomContents
 (
 pn
 -
 >
-pn_pidata
+pn_atom2
 )
 &
 pn

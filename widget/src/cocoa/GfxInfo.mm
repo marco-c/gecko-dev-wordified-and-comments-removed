@@ -450,15 +450,6 @@ h
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 GfxInfo
 .
 h
@@ -542,10 +533,6 @@ reporter
 "
 #
 endif
-using
-namespace
-mozilla
-;
 using
 namespace
 mozilla
@@ -807,7 +794,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 devices
 )
@@ -947,7 +934,7 @@ rendererCount
 (
 GLint
 )
-ArrayLength
+NS_ARRAY_LENGTH
 (
 mRendererIDs
 )
@@ -2059,7 +2046,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 mRendererIDs
 )

@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLTableColElement
 .
 h
@@ -56,10 +47,6 @@ nsRuleData
 .
 h
 "
-using
-namespace
-mozilla
-;
 #
 define
 MAX_COLSPAN
@@ -922,7 +909,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-ArrayLength
+NS_ARRAY_LENGTH
 (
 map
 )

@@ -8,15 +8,6 @@ h
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsDeviceMotionSystem
 .
 h
@@ -28,10 +19,6 @@ nsIServiceManager
 .
 h
 "
-using
-namespace
-mozilla
-;
 typedef
 struct
 {
@@ -846,7 +833,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 gAccelerometers
 )

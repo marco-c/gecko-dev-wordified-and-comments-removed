@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsCSSParser
 .
 h
@@ -3108,7 +3099,7 @@ ReportUnexpectedParams
 #
 msg_
 params_
-ArrayLength
+NS_ARRAY_LENGTH
 (
 params_
 )
@@ -3172,7 +3163,7 @@ mToken
 msg_
 \
 params_
-ArrayLength
+NS_ARRAY_LENGTH
 (
 params_
 )
@@ -18695,7 +18686,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 UnitData
 )
@@ -18753,7 +18744,7 @@ if
 i
 =
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 UnitData
 )
@@ -30170,7 +30161,7 @@ const
 PRInt32
 numProps
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 columnIDs
 )
@@ -30392,12 +30383,12 @@ nsCSSProps
 :
 kContentKTable
 [
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kContentListKWs
 )
 +
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kContentSolitaryKWs
 )
@@ -30414,12 +30405,12 @@ nsCSSProps
 :
 kContentKTable
 [
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kContentListKWs
 )
 +
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kContentSolitaryKWs
 )
@@ -34038,7 +34029,7 @@ eCSSProperty_list_style_image
 nsCSSValue
 values
 [
-ArrayLength
+NS_ARRAY_LENGTH
 (
 listStyleIDs
 )
@@ -34051,7 +34042,7 @@ ParseChoice
 (
 values
 listStyleIDs
-ArrayLength
+NS_ARRAY_LENGTH
 (
 listStyleIDs
 )
@@ -34281,7 +34272,7 @@ index
 ;
 index
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 listStyleIDs
 )
@@ -36831,7 +36822,7 @@ const
 PRUint32
 numProps
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kTransitionProperties
 )
@@ -37169,7 +37160,7 @@ const
 PRUint32
 numProps
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kAnimationProperties
 )

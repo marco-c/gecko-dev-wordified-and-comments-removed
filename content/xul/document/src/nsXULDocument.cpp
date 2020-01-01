@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsXULDocument
 .
 h
@@ -12073,7 +12064,7 @@ eXUL_PROPERTIES
 PINotInProlog
 "
 params
-ArrayLength
+NS_ARRAY_LENGTH
 (
 params
 )
@@ -13246,7 +13237,7 @@ eXUL_PROPERTIES
 MissingOverlay
 "
 params
-ArrayLength
+NS_ARRAY_LENGTH
 (
 params
 )

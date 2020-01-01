@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsDOMDataTransfer
 .
 h
@@ -126,10 +117,6 @@ nsIScriptObjectPrincipal
 .
 h
 "
-using
-namespace
-mozilla
-;
 NS_IMPL_CYCLE_COLLECTION_2
 (
 nsDOMDataTransfer
@@ -656,7 +643,7 @@ e
 ;
 e
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sEffects
 )
@@ -3735,7 +3722,7 @@ f
 ;
 f
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 formats
 )

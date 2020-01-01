@@ -3,15 +3,6 @@ include
 "
 mozilla
 /
-Util
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ipc
 /
 RPCChannel
@@ -27447,7 +27438,7 @@ GetUniChars
 (
 uniChars
 shiftStates
-ArrayLength
+NS_ARRAY_LENGTH
 (
 uniChars
 )
@@ -27492,7 +27483,7 @@ GetUniCharsWithShiftState
 virtualKeyCode
 capsLockState
 unshiftedChars
-ArrayLength
+NS_ARRAY_LENGTH
 (
 unshiftedChars
 )
@@ -27509,7 +27500,7 @@ capsLockState
 |
 eShift
 shiftedChars
-ArrayLength
+NS_ARRAY_LENGTH
 (
 shiftedChars
 )
@@ -28637,7 +28628,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sModifierKeyMap
 )
@@ -30660,7 +30651,7 @@ pGetProcessImageFileName
 (
 hProcess
 path
-ArrayLength
+NS_ARRAY_LENGTH
 (
 path
 )

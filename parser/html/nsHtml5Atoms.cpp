@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsHtml5Atoms
 .
 h
@@ -21,10 +12,6 @@ nsStaticAtom
 .
 h
 "
-using
-namespace
-mozilla
-;
 #
 define
 HTML5_ATOM
@@ -124,7 +111,7 @@ AddRefAtoms
 NS_RegisterStaticAtoms
 (
 Html5Atoms_info
-ArrayLength
+NS_ARRAY_LENGTH
 (
 Html5Atoms_info
 )

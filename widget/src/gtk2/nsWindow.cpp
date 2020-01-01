@@ -1,13 +1,4 @@
 #
-include
-"
-mozilla
-/
-Util
-.
-h
-"
-#
 ifdef
 MOZ_PLATFORM_MAEMO
 #
@@ -1879,7 +1870,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 gCursorCache
 )
@@ -6964,7 +6955,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 extensions
 )
@@ -6979,7 +6970,7 @@ if
 i
 =
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 extensions
 )

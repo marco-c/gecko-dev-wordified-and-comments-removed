@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLHeadingElement
 .
 h
@@ -63,10 +54,6 @@ mozAutoDocUpdate
 .
 h
 "
-using
-namespace
-mozilla
-;
 class
 nsHTMLHeadingElement
 :
@@ -371,7 +358,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-ArrayLength
+NS_ARRAY_LENGTH
 (
 map
 )

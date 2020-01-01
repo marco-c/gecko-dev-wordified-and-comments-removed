@@ -3,15 +3,6 @@ include
 "
 mozilla
 /
-Util
-.
-h
-"
-#
-include
-"
-mozilla
-/
 layers
 /
 PLayers
@@ -914,7 +905,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 textureTargets
 )
@@ -5243,7 +5234,7 @@ lpindex
 \
 lpindex
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 sLayerProgramTypes
 )

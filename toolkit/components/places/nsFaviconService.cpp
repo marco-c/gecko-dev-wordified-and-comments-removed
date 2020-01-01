@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsFaviconService
 .
 h
@@ -156,10 +147,6 @@ image
 /
 png
 "
-using
-namespace
-mozilla
-;
 using
 namespace
 mozilla
@@ -810,7 +797,7 @@ mDBConn
 ExecuteAsync
 (
 stmts
-ArrayLength
+NS_ARRAY_LENGTH
 (
 stmts
 )
@@ -3942,7 +3929,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 stmts
 )

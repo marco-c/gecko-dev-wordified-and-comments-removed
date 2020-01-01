@@ -8,15 +8,6 @@ h
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsStyleUtil
 .
 h
@@ -105,10 +96,6 @@ nsCSSProps
 .
 h
 "
-using
-namespace
-mozilla
-;
 nscoord
 nsStyleUtil
 :
@@ -1621,7 +1608,7 @@ nsTextFormatter
 snprintf
 (
 buf
-ArrayLength
+NS_ARRAY_LENGTH
 (
 buf
 )
@@ -1860,7 +1847,7 @@ nsTextFormatter
 snprintf
 (
 buf
-ArrayLength
+NS_ARRAY_LENGTH
 (
 buf
 )

@@ -44,10 +44,6 @@ inl
 .
 h
 "
-using
-namespace
-mozilla
-;
 template
 <
 size_t
@@ -270,7 +266,7 @@ i
 0
 sz
 =
-ArrayLength
+JS_ARRAY_LENGTH
 (
 tests
 )
@@ -395,7 +391,7 @@ i
 0
 sz
 =
-ArrayLength
+JS_ARRAY_LENGTH
 (
 tests
 )

@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 jsversion
 .
 h
@@ -124,10 +115,6 @@ jsobjinlines
 .
 h
 "
-using
-namespace
-mozilla
-;
 using
 namespace
 js
@@ -3277,7 +3264,7 @@ if
 nchars
 <
 =
-ArrayLength
+JS_ARRAY_LENGTH
 (
 stackChars
 )

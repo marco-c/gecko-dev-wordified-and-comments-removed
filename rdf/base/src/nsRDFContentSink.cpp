@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -189,10 +180,6 @@ nsIDTD
 .
 h
 "
-using
-namespace
-mozilla
-;
 static
 NS_DEFINE_IID
 (
@@ -1174,7 +1161,7 @@ gRDFContainerUtils
 NS_RegisterStaticAtoms
 (
 rdf_atoms
-ArrayLength
+NS_ARRAY_LENGTH
 (
 rdf_atoms
 )

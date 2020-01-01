@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nscore
 .
 h
@@ -70,10 +61,6 @@ nsCRT
 .
 h
 "
-using
-namespace
-mozilla
-;
 struct
 iso_pair
 {
@@ -2115,7 +2102,7 @@ SUBLANG_CHINESE_MACAU
 #
 define
 LENGTH_MAPPING_LIST
-ArrayLength
+NS_ARRAY_LENGTH
 (
 iso_list
 )

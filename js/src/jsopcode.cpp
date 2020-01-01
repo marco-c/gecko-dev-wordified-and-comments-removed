@@ -41,15 +41,6 @@ h
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 jstypes
 .
 h
@@ -242,10 +233,6 @@ inl
 .
 h
 "
-using
-namespace
-mozilla
-;
 using
 namespace
 js
@@ -14371,7 +14358,7 @@ size_t
 argc
 <
 =
-ArrayLength
+JS_ARRAY_LENGTH
 (
 smallv
 )

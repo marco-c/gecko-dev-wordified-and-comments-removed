@@ -1,13 +1,4 @@
 #
-include
-"
-mozilla
-/
-Util
-.
-h
-"
-#
 if
 defined
 (
@@ -7699,7 +7690,7 @@ i
 ;
 i
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 attribsToTry
 )
@@ -7722,7 +7713,7 @@ i
 EGLint
 ncfg
 =
-ArrayLength
+NS_ARRAY_LENGTH
 (
 configs
 )

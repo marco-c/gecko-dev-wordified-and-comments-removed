@@ -1,15 +1,6 @@
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 nscore
 .
 h
@@ -115,10 +106,6 @@ nsGkAtoms
 .
 h
 "
-using
-namespace
-mozilla
-;
 static
 const
 size_t
@@ -746,7 +733,7 @@ if
 (
 nsid
 <
-ArrayLength
+NS_ARRAY_LENGTH
 (
 kNSURIs
 )

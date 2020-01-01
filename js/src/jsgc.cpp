@@ -15,15 +15,6 @@ h
 #
 include
 "
-mozilla
-/
-Util
-.
-h
-"
-#
-include
-"
 jstypes
 .
 h
@@ -335,10 +326,6 @@ h
 >
 #
 endif
-using
-namespace
-mozilla
-;
 using
 namespace
 js
@@ -2478,7 +2465,7 @@ end
 &
 arenas
 [
-ArrayLength
+JS_ARRAY_LENGTH
 (
 arenas
 )
@@ -4371,7 +4358,7 @@ ctd
 registerSnapshot
 .
 words
-ArrayEnd
+JS_ARRAY_END
 (
 ctd
 -

@@ -1,14 +1,5 @@
 #
 include
-"
-mozilla
-/
-Util
-.
-h
-"
-#
-include
 <
 gtk
 /
@@ -145,10 +136,6 @@ h
 >
 #
 endif
-using
-namespace
-mozilla
-;
 #
 define
 MAX_PREVIEW_SIZE
@@ -1500,7 +1487,7 @@ get
 (
 )
 formatStrings
-ArrayLength
+NS_ARRAY_LENGTH
 (
 formatStrings
 )
