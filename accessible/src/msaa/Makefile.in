@@ -138,10 +138,6 @@ nsWinUtils
 .
 cpp
 \
-CAccessibleHyperlink
-.
-cpp
-\
 CAccessibleTable
 .
 cpp
@@ -175,6 +171,10 @@ ia2AccessibleEditableText
 cpp
 \
 ia2AccessibleImage
+.
+cpp
+\
+ia2AccessibleHyperlink
 .
 cpp
 \

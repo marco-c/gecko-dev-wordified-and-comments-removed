@@ -26,7 +26,7 @@ AccessibleHyperlink
 h
 "
 class
-CAccessibleHyperlink
+ia2AccessibleHyperlink
 :
 public
 ia2AccessibleAction
