@@ -484,7 +484,6 @@ cocoa
 MOZ_WIDGET_TOOLKIT
 )
 )
-)
 _NON_MAC_BROWSER_TESTS
 =
 browser_bug415846

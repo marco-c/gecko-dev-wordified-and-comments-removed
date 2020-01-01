@@ -430,7 +430,6 @@ cocoa
 MOZ_WIDGET_TOOLKIT
 )
 )
-)
 ifndef
 MOZ_PHOENIX
 DIRS
