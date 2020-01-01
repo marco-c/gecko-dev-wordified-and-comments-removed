@@ -1800,6 +1800,7 @@ aChild
 uri
 )
 )
+;
 }
 }
 button
@@ -4710,6 +4711,7 @@ aNode
 uri
 )
 )
+;
 }
 }
 itemReplaced
