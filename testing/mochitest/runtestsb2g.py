@@ -883,7 +883,14 @@ remoteTestRoot
 "
 ]
 =
-None
+"
+/
+data
+/
+local
+/
+tests
+"
         
 defaults
 [
@@ -957,6 +964,13 @@ automation
 )
 :
         
+if
+not
+options
+.
+remoteTestRoot
+:
+            
 options
 .
 remoteTestRoot
@@ -1635,17 +1649,6 @@ None
 localProfile
 =
 None
-    
-testDir
-=
-'
-/
-data
-/
-local
-/
-tests
-'
     
 def
 __init__
@@ -4101,9 +4104,9 @@ adbPath
 deviceRoot
 '
 :
-B2GMochitest
+options
 .
-testDir
+remoteTestRoot
 }
     
 if

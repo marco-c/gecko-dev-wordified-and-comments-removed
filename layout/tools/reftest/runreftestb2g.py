@@ -905,7 +905,14 @@ remoteTestRoot
 "
 ]
 =
-None
+"
+/
+data
+/
+local
+/
+tests
+"
         
 defaults
 [
@@ -965,6 +972,13 @@ options
 )
 :
         
+if
+not
+options
+.
+remoteTestRoot
+:
+            
 options
 .
 remoteTestRoot
@@ -1733,19 +1747,6 @@ local
 user
 .
 js
-'
-        
-self
-.
-testDir
-=
-'
-/
-data
-/
-local
-/
-tests
 '
         
 self
@@ -4041,6 +4042,14 @@ adbPath
 options
 .
 adbPath
+              
+'
+deviceRoot
+'
+:
+options
+.
+remoteTestRoot
 }
     
 if
@@ -4304,15 +4313,6 @@ auto
 dm
 options
 SCRIPT_DIRECTORY
-)
-    
-dm
-.
-mkDirs
-(
-reftest
-.
-testDir
 )
     
 logParent
