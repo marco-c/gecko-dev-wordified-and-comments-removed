@@ -491,11 +491,11 @@ WTF_PLATFORM_WINCE
 WTF_PLATFORM_TORCHMOBILE
 #
 include
-"
-jswin
+<
+windows
 .
 h
-"
+>
 #
 undef
 min

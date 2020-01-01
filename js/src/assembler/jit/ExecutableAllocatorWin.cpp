@@ -14,7 +14,7 @@ WTF_PLATFORM_WIN_OS
 #
 include
 "
-jswin
+windows
 .
 h
 "
