@@ -153,7 +153,7 @@ aMargin
 )
 ;
 static
-nsresult
+void
 StoreRegionFor
 (
 nsIFrame
