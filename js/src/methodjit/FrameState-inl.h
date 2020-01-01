@@ -3636,7 +3636,7 @@ inRegister
 &
 !
 regstate
-[
+(
 backing
 -
 >
@@ -3645,7 +3645,7 @@ data
 reg
 (
 )
-]
+)
 .
 isPinned
 (
@@ -3702,7 +3702,7 @@ inRegister
 &
 !
 regstate
-[
+(
 backing
 -
 >
@@ -3711,7 +3711,7 @@ type
 reg
 (
 )
-]
+)
 .
 isPinned
 (
