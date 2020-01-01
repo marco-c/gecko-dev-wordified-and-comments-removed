@@ -156,14 +156,10 @@ aStyle
 ;
 FontEntry
 *
-FindFontForString
+FindFontForChar
 (
-const
-PRUnichar
-*
-aString
 PRUint32
-aLength
+aCh
 gfxWindowsFont
 *
 aFont
@@ -305,7 +301,7 @@ userArg
 static
 PLDHashOperator
 PR_CALLBACK
-FindFontForStringProc
+FindFontForCharProc
 (
 nsStringHashKey
 :
@@ -373,6 +369,9 @@ mFontSubstitutes
 ;
 nsStringArray
 mNonExistingFonts
+;
+gfxSparseBitSet
+mCodepointsWithNoFonts
 ;
 nsDataHashtable
 <
