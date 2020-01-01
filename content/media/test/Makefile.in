@@ -1596,6 +1596,10 @@ test_referer
 .
 html
 \
+test_bug686137
+.
+html
+\
 (
 NULL
 )
