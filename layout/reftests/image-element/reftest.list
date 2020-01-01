@@ -102,6 +102,12 @@ html
 about
 :
 blank
+fails
+-
+if
+(
+cocoaWidget
+)
 =
 =
 canvas
@@ -118,6 +124,10 @@ html
 about
 :
 blank
+#
+See
+bug
+666800
 =
 =
 element

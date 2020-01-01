@@ -109,7 +109,7 @@ function
 {
 ctx
 .
-fillStyle
+strokeStyle
 =
 "
 white
@@ -117,7 +117,7 @@ white
 ;
 ctx
 .
-mozTextStyle
+font
 =
 "
 50px
@@ -136,10 +136,18 @@ translate
 ;
 ctx
 .
-mozDrawText
+lineWidth
+=
+50
+;
+ctx
+.
+strokeText
 (
 "
 "
+0
+0
 )
 ;
 document
