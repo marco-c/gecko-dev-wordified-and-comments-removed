@@ -165,6 +165,7 @@ NewBuiltinClassInstance
 cx
 &
 RegExpClass
+TenuredObject
 )
 ;
 if
@@ -230,6 +231,7 @@ proto
 getParent
 (
 )
+TenuredObject
 )
 ;
 if
