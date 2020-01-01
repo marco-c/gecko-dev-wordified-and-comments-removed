@@ -238,6 +238,10 @@ endif
 EXPORTS
 =
 \
+InputData
+.
+h
+\
 nsIWidget
 .
 h
