@@ -93,6 +93,13 @@ nsEventStatus
 aEventStatus
 )
 ;
+virtual
+nscoord
+GetBaseline
+(
+)
+const
+;
 NS_IMETHOD
 Reflow
 (
