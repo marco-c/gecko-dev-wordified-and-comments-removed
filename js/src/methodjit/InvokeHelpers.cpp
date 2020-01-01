@@ -2783,8 +2783,7 @@ clearPendingException
 (
 )
 ;
-return
-NULL
+break
 ;
 case
 JSTRAP_CONTINUE
