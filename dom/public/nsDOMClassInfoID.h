@@ -330,6 +330,8 @@ eDOMClassInfo_FileException_id
 eDOMClassInfo_ModalContentWindow_id
 eDOMClassInfo_DataContainerEvent_id
 eDOMClassInfo_MessageEvent_id
+eDOMClassInfo_Geolocation_id
+eDOMClassInfo_Geolocator_id
 #
 if
 defined
