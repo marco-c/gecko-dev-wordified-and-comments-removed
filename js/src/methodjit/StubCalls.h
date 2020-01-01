@@ -501,7 +501,7 @@ strict
 >
 void
 JS_FASTCALL
-SetGlobalNameDumb
+SetGlobalNameNoCache
 (
 VMFrame
 &

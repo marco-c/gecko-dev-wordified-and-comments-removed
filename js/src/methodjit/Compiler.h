@@ -203,6 +203,9 @@ typeConst
 bool
 dataConst
 ;
+bool
+usePropertyCache
+;
 }
 name
 ;
@@ -1617,6 +1620,8 @@ jsop_setgname
 (
 uint32
 index
+bool
+usePropertyCache
 )
 ;
 void
@@ -1624,6 +1629,8 @@ jsop_setgname_slow
 (
 uint32
 index
+bool
+usePropertyCache
 )
 ;
 void
