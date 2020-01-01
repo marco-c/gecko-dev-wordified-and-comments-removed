@@ -785,6 +785,11 @@ pt
 )
 ;
 gfxRect
+GetUserPathExtent
+(
+)
+;
+gfxRect
 GetUserFillExtent
 (
 )

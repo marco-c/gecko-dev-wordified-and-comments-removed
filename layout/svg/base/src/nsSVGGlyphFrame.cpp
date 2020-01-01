@@ -1970,7 +1970,7 @@ extent
 gfx
 -
 >
-GetUserFillExtent
+GetUserPathExtent
 (
 )
 ;
@@ -2238,7 +2238,7 @@ rect
 gfx
 -
 >
-GetUserFillExtent
+GetUserPathExtent
 (
 )
 ;
@@ -3942,7 +3942,7 @@ rect
 gfx
 -
 >
-GetUserFillExtent
+GetUserPathExtent
 (
 )
 ;
