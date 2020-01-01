@@ -720,6 +720,8 @@ aContent
 DocAccessible
 *
 aDoc
+bool
+aIsLegalPartOfHTMLTable
 )
 ;
 already_AddRefed

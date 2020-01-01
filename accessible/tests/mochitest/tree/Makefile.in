@@ -112,6 +112,10 @@ test_aria_presentation
 .
 html
 \
+test_brokencontext
+.
+html
+\
 test_button
 .
 xul
