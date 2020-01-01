@@ -663,7 +663,7 @@ ReflowCallbackCanceled
 protected
 :
 nsIntSize
-GetMargin
+GetMarginAttributes
 (
 )
 ;
@@ -3113,7 +3113,7 @@ nsIntSize
 nsSubDocumentFrame
 :
 :
-GetMargin
+GetMarginAttributes
 (
 )
 {
@@ -3650,7 +3650,7 @@ NS_OK
 nsIntSize
 margin
 =
-GetMargin
+GetMarginAttributes
 (
 )
 ;
