@@ -54,6 +54,7 @@ Util
 qw
 (
 CvsCatfile
+SyncNightlyDirToStaging
 )
 ;
 use
@@ -1819,6 +1820,10 @@ logFile
 =
 >
 pushLog
+)
+;
+SyncNightlyDirToStaging
+(
 )
 ;
 }

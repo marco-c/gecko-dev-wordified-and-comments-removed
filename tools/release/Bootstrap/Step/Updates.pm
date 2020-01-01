@@ -48,6 +48,7 @@ Util
 qw
 (
 CvsCatfile
+SyncNightlyDirToStaging
 )
 ;
 use
@@ -2182,6 +2183,10 @@ pushLog
 )
 ;
 }
+SyncNightlyDirToStaging
+(
+)
+;
 }
 sub
 Announce

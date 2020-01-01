@@ -65,6 +65,16 @@ qw
 MkdirWithPath
 )
 ;
+use
+Bootstrap
+:
+:
+Util
+qw
+(
+SyncNightlyDirToStaging
+)
+;
 ISA
 =
 (
@@ -695,6 +705,10 @@ catfile
 (
 stageDir
 )
+)
+;
+SyncNightlyDirToStaging
+(
 )
 ;
 }
