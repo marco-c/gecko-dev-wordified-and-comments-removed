@@ -802,6 +802,10 @@ NS_PRESSHELL_SCROLL_IF_NOT_VISIBLE
 NS_PRESSHELL_SCROLL_IF_NOT_VISIBLE
 )
 ;
+if
+(
+mFocusedPopup
+)
 mFocusedPopup
 -
 >
