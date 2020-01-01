@@ -656,7 +656,7 @@ nsIUUIDGenerator
 )
 ;
 function
-MobileICCCardLockResult
+MobileIccCardLockResult
 (
 options
 )
@@ -694,7 +694,7 @@ options
 success
 ;
 }
-MobileICCCardLockResult
+MobileIccCardLockResult
 .
 prototype
 =
@@ -2720,10 +2720,10 @@ return
 request
 ;
 }
-getCardLock
+getCardLockState
 :
 function
-getCardLock
+getCardLockState
 (
 window
 lockType
@@ -2785,7 +2785,7 @@ sendAsyncMessage
 "
 RIL
 :
-GetCardLock
+GetCardLockState
 "
 {
 lockType
@@ -6364,7 +6364,7 @@ let
 result
 =
 new
-MobileICCCardLockResult
+MobileIccCardLockResult
 (
 msg
 .
@@ -6417,7 +6417,7 @@ this
 _deliverEvent
 (
 "
-_mobileConnectionListeners
+_iccListeners
 "
 "
 notifyIccCardLockError

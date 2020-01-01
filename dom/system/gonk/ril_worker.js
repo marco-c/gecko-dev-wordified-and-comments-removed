@@ -4416,10 +4416,10 @@ sendParcel
 )
 ;
 }
-iccGetCardLock
+iccGetCardLockState
 :
 function
-iccGetCardLock
+iccGetCardLockState
 (
 options
 )
