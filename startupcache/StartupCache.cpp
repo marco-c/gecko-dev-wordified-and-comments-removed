@@ -2965,6 +2965,7 @@ const
 char
 *
 id
+const
 char
 *
 inbuf
