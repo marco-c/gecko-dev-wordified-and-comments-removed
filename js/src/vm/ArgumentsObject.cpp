@@ -1093,7 +1093,7 @@ script
 )
 -
 >
-argIsAliased
+formalIsAliased
 (
 arg
 )
@@ -1345,7 +1345,7 @@ script
 )
 -
 >
-argIsAliased
+formalIsAliased
 (
 arg
 )

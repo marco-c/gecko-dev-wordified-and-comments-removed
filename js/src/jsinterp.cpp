@@ -5276,7 +5276,7 @@ script
 )
 -
 >
-argLivesInArgumentsObject
+formalLivesInArgumentsObject
 (
 index
 )
@@ -5290,7 +5290,7 @@ script
 )
 -
 >
-needsArgsObj
+argsObjAliasesFormals
 (
 )
 )
@@ -5352,7 +5352,7 @@ JS_ASSERT
 script
 -
 >
-argLivesInCallObject
+formalLivesInCallObject
 (
 script
 -
