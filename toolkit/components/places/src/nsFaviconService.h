@@ -499,6 +499,17 @@ FaviconLoadListener
 bool
 mShuttingDown
 ;
+nsresult
+GetDefaultFaviconData
+(
+nsCString
+&
+byteStr
+)
+;
+nsCString
+mDefaultFaviconData
+;
 }
 ;
 #
