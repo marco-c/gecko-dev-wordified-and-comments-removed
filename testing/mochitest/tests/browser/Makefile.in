@@ -455,7 +455,7 @@ browser_async
 .
 js
 \
-browser_scope
+browser_privileges
 .
 js
 \
