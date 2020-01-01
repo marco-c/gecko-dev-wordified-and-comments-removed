@@ -147,6 +147,9 @@ Transferable
 transfer
 )
 ;
+[
+Throws
+]
 void
 postMessage
 (
