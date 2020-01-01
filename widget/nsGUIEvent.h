@@ -4748,6 +4748,10 @@ customizedByUserPrefs
 (
 false
 )
+isPixelOnlyDevice
+(
+false
+)
 lineOrPageDeltaX
 (
 0
@@ -4784,6 +4788,9 @@ deltaMode
 ;
 bool
 customizedByUserPrefs
+;
+bool
+isPixelOnlyDevice
 ;
 PRInt32
 lineOrPageDeltaX
