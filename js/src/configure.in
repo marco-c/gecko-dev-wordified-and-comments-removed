@@ -21411,6 +21411,9 @@ compiler
 ]
 ENABLE_ION
 =
+ENABLE_ION
+=
+1
 )
 AC_SUBST
 (

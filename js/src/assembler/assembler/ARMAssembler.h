@@ -193,6 +193,7 @@ r15
 pc
 =
 r15
+invalid_reg
 }
 RegisterID
 ;
@@ -234,6 +235,7 @@ d28
 d29
 d30
 d31
+invalid_freg
 }
 FPRegisterID
 ;
@@ -882,6 +884,15 @@ m_offset
 1
 )
 {
+}
+int
+offset
+(
+)
+{
+return
+m_offset
+;
 }
 private
 :
@@ -3161,6 +3172,8 @@ sr
 s
 %
 s
+%
+s
 [
 %
 s
@@ -3465,6 +3478,8 @@ IPFX
 "
 %
 sr
+%
+s
 %
 s
 %
@@ -6092,15 +6107,16 @@ true
 )
 ;
 }
-int
+size_t
 size
 (
 )
+const
 {
 return
 m_buffer
 .
-size
+uncheckedSize
 (
 )
 ;
@@ -6680,7 +6696,6 @@ js
 :
 :
 JSpew_Insns
-ISPFX
 "
 #
 #
@@ -6750,7 +6765,6 @@ js
 :
 :
 JSpew_Insns
-ISPFX
 "
 #
 #
@@ -6765,7 +6779,7 @@ holds
 (
 (
 %
-p
+x
 )
 )
 \
@@ -6816,7 +6830,6 @@ js
 :
 :
 JSpew_Insns
-ISPFX
 "
 #
 #
@@ -10021,8 +10034,6 @@ IPFX
 s
 %
 s
-%
-s
 \
 n
 "
@@ -10385,10 +10396,6 @@ IPFX
 %
 -
 15s
-%
-s
-%
-s
 %
 s
 %

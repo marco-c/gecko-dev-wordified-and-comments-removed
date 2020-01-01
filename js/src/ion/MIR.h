@@ -3217,7 +3217,7 @@ MBinaryInstruction
 public
 ComparePolicy
 {
-AssemblerX86Shared
+Assembler
 :
 :
 Condition
@@ -3296,7 +3296,7 @@ return
 specialization_
 ;
 }
-AssemblerX86Shared
+Assembler
 :
 :
 Condition

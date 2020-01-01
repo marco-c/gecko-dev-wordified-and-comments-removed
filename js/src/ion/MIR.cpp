@@ -1973,7 +1973,7 @@ JSOP_LT
 :
 cond_
 =
-AssemblerX86Shared
+Assembler
 :
 :
 LessThan
@@ -1985,7 +1985,7 @@ JSOP_LE
 :
 cond_
 =
-AssemblerX86Shared
+Assembler
 :
 :
 LessThanOrEqual
@@ -1997,7 +1997,7 @@ JSOP_GT
 :
 cond_
 =
-AssemblerX86Shared
+Assembler
 :
 :
 GreaterThan
@@ -2009,7 +2009,7 @@ JSOP_GE
 :
 cond_
 =
-AssemblerX86Shared
+Assembler
 :
 :
 GreaterThanOrEqual

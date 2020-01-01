@@ -58,7 +58,7 @@ arm
 /
 Architecture
 -
-ARM
+arm
 .
 h
 "
