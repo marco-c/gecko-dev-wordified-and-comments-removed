@@ -2716,7 +2716,11 @@ code
 script
 -
 >
-ncode
+nmap
+[
+-
+1
+]
 ;
 else
 code
@@ -3011,6 +3015,8 @@ script
 -
 >
 nmap
+-
+1
 )
 ;
 script

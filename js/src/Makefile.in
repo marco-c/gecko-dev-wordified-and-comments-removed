@@ -1580,6 +1580,10 @@ ImmutableSync
 .
 cpp
 \
+InvokeHelpers
+.
+cpp
+\
 (
 NULL
 )

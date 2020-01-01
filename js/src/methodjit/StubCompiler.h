@@ -334,6 +334,11 @@ VoidStubUInt32
 ;
 STUB_CALL_TYPE
 (
+VoidPtrStubUInt32
+)
+;
+STUB_CALL_TYPE
+(
 BoolStub
 )
 ;
@@ -345,6 +350,15 @@ linkExit
 (
 Jump
 j
+)
+;
+void
+linkExitDirect
+(
+Jump
+j
+Label
+L
 )
 ;
 void
