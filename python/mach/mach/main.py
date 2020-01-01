@@ -1645,7 +1645,10 @@ assert
 isinstance
 (
 result
+(
 int
+long
+)
 )
             
 return
