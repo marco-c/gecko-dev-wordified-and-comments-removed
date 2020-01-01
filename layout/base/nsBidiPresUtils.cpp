@@ -2434,6 +2434,15 @@ runLength
 <
 =
 0
+&
+&
+!
+frame
+-
+>
+GetNextInFlow
+(
+)
 )
 {
 nsIFrame
