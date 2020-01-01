@@ -437,6 +437,12 @@ test_snav
 .
 xul
 \
+chrome
+/
+test_snav_tightlinks
+.
+xul
+\
 (
 NULL
 )
