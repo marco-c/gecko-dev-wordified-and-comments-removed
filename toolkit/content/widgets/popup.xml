@@ -2143,6 +2143,11 @@ panel
 -
 arrowcontainer
 "
+flex
+=
+"
+1
+"
 >
 <
 xul
@@ -2196,6 +2201,11 @@ panel
 -
 arrowcontent
 "
+flex
+=
+"
+1
+"
 >
 <
 xul
@@ -2219,6 +2229,11 @@ align
 dir
 orient
 pack
+"
+flex
+=
+"
+1
 "
 >
 <
