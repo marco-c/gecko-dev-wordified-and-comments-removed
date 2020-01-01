@@ -154,11 +154,6 @@ EnableWebSpeechRecognitionCheck
 cpp
 '
 '
-FakeSpeechRecognitionService
-.
-cpp
-'
-'
 SpeechGrammar
 .
 cpp
@@ -207,6 +202,13 @@ cc
 energy_endpointer_params
 .
 cc
+'
+'
+test
+/
+FakeSpeechRecognitionService
+.
+cpp
 '
 ]
 LIBXUL_LIBRARY
