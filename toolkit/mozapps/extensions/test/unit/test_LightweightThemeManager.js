@@ -30,14 +30,14 @@ Math
 random
 (
 )
-textColor
+textcolor
 :
 Math
 .
 random
 (
 )
-dominantColor
+accentcolor
 :
 Math
 .

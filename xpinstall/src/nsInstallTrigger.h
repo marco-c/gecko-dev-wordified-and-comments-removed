@@ -150,7 +150,7 @@ add
 "
 #
 define
-XPINSTALL_WHITELIST_ADD_103
+XPINSTALL_WHITELIST_ADD_36
 "
 xpinstall
 .
@@ -158,7 +158,7 @@ whitelist
 .
 add
 .
-103
+36
 "
 #
 define
