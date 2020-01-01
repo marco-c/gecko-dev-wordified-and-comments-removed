@@ -93,6 +93,14 @@ Shutdown
 ;
 static
 bool
+NeedsMessage
+(
+UINT
+aMsg
+)
+;
+static
+bool
 ProcessMessage
 (
 nsWindowBase
