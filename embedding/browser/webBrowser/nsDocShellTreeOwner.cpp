@@ -1661,7 +1661,7 @@ this
 "
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

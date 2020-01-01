@@ -1333,7 +1333,7 @@ nsIViewManager
 >
 mViewManager
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -4659,7 +4659,7 @@ aShell
 )
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -5175,7 +5175,7 @@ nsnull
 )
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -12022,7 +12022,7 @@ rv
 rv
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

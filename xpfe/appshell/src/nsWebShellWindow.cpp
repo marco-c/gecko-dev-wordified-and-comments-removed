@@ -2957,7 +2957,7 @@ if
 docViewer
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

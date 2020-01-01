@@ -1371,7 +1371,7 @@ if
 docShell
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -1563,7 +1563,7 @@ sHandlingScriptError
 =
 PR_TRUE
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

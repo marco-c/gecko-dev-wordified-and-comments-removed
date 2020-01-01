@@ -12566,7 +12566,7 @@ mDocShell
 return
 px
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -12619,7 +12619,7 @@ mDocShell
 return
 px
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -12672,7 +12672,7 @@ mDocShell
 return
 px
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -12739,7 +12739,7 @@ mDocShell
 return
 px
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -12829,7 +12829,7 @@ mDocShell
 )
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -13088,7 +13088,7 @@ mDocShell
 )
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -25849,7 +25849,7 @@ GetPrimaryShell
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -27866,7 +27866,7 @@ GetPrimaryShell
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -36463,7 +36463,7 @@ NS_OK
 ;
 }
 }
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

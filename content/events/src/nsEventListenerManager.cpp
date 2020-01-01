@@ -5891,7 +5891,7 @@ GetPrimaryShell
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

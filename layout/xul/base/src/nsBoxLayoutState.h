@@ -230,7 +230,7 @@ mReflowDepth
 }
 private
 :
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

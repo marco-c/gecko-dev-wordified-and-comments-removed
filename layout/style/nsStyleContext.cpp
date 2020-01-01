@@ -2467,7 +2467,7 @@ Destroy
 (
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

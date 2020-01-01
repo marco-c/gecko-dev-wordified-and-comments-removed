@@ -344,7 +344,7 @@ docShell
 return
 nsnull
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

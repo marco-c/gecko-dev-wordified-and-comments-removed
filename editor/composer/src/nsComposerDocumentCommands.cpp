@@ -346,7 +346,7 @@ editor
 return
 NS_ERROR_INVALID_ARG
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -597,7 +597,7 @@ rv
 rv
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

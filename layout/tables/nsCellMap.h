@@ -54,6 +54,13 @@ nsAlgorithm
 h
 "
 #
+include
+"
+nsAutoPtr
+.
+h
+"
+#
 undef
 DEBUG_TABLE_CELLMAP
 class
@@ -1375,7 +1382,7 @@ mNextSibling
 PRBool
 mIsBC
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

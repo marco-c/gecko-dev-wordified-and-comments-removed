@@ -2096,7 +2096,7 @@ externalDOMEvent
 aDOMEvent
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

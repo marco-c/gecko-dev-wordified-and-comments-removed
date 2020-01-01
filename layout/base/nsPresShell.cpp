@@ -33942,7 +33942,7 @@ n
 )
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

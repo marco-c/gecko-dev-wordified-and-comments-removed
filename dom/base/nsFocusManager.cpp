@@ -7435,7 +7435,7 @@ mTarget
 PRUint32
 mType
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

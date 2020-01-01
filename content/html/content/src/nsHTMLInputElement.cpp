@@ -4950,7 +4950,7 @@ PR_TRUE
 NS_FORM_CHANGE
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -5199,7 +5199,7 @@ GetFocusManager
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -5547,7 +5547,7 @@ GetPrimaryShell
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -6878,7 +6878,7 @@ FLAG_BYMOVEFOCUS
 )
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

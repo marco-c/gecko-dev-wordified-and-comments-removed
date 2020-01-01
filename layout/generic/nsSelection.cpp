@@ -18266,7 +18266,7 @@ mFrameSelection
 return
 NS_OK
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -18453,7 +18453,7 @@ SetInterlinePosition
 PR_TRUE
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -18642,7 +18642,7 @@ EndOffset
 )
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -18872,7 +18872,7 @@ NS_ERROR_FAILURE
 nsresult
 result
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -19581,7 +19581,7 @@ nsIRange
 aRange
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -19903,7 +19903,7 @@ result2
 return
 NS_OK
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -22528,7 +22528,7 @@ frameStart
 frameEnd
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

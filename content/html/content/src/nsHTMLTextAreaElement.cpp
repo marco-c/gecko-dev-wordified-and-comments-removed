@@ -978,7 +978,7 @@ GetFocusManager
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

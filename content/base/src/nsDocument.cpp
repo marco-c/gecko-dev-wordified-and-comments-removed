@@ -16246,7 +16246,7 @@ if
 shell
 )
 {
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -25006,7 +25006,7 @@ GetPrimaryShell
 (
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

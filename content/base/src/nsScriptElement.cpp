@@ -115,7 +115,7 @@ nsIScriptElement
 this
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -254,7 +254,7 @@ nsIScriptElement
 this
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >

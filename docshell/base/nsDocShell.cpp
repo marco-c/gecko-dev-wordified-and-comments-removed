@@ -6604,7 +6604,7 @@ aPresShell
 =
 nsnull
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -6671,7 +6671,7 @@ aPresShell
 =
 nsnull
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
@@ -11114,7 +11114,7 @@ presShell
 )
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
 nsPresContext
 >
