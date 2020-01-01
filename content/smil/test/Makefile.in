@@ -442,6 +442,14 @@ test_smilRestart
 .
 xhtml
 \
+test_smilGetStartTime
+.
+xhtml
+\
+test_smilGetSimpleDuration
+.
+xhtml
+\
 (
 NULL
 )
