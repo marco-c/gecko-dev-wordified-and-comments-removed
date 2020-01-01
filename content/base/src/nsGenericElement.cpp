@@ -21497,7 +21497,7 @@ win
 win
 -
 >
-IsPartOfApp
+IsInAppOrigin
 (
 )
 )
