@@ -141,10 +141,10 @@ hasTypeCheck
 :
 1
 ;
-uint8
+uint16
 typeCheckOffset
 :
-8
+9
 ;
 uint32
 objRemat
