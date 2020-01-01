@@ -322,9 +322,6 @@ JS
 Value
 &
 result
-JSContext
-*
-cx
 )
 {
 if
@@ -551,9 +548,6 @@ const
 nsAString
 &
 name
-JSContext
-*
-cx
 )
 {
 fprintf
