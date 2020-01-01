@@ -396,6 +396,17 @@ class
 "
 downloadDetails
 "
+style
+=
+"
+width
+:
+&
+downloadDetails
+.
+width
+;
+"
 crop
 =
 "
