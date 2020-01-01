@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsAccUtils
+.
+h
+"
+#
+include
+"
 nsRoleMap
 .
 h
@@ -16,6 +23,13 @@ h
 include
 "
 nsString
+.
+h
+"
+#
+include
+"
+nsIDOMDOMStringList
 .
 h
 "

@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsAccessibilityService
+.
+h
+"
+#
+include
+"
 nsAccessNode
 .
 h

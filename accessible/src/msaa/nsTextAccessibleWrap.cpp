@@ -15,6 +15,13 @@ c
 #
 include
 "
+nsCoreUtils
+.
+h
+"
+#
+include
+"
 nsDocAccessible
 .
 h

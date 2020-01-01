@@ -22,6 +22,13 @@ h
 #
 include
 "
+nsAccUtils
+.
+h
+"
+#
+include
+"
 nsTextAttrs
 .
 h

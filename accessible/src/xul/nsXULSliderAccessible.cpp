@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsAccessibilityAtoms
+.
+h
+"
+#
+include
+"
 nsIDOMDocument
 .
 h
@@ -16,6 +23,13 @@ h
 include
 "
 nsIDOMDocumentXBL
+.
+h
+"
+#
+include
+"
+nsIFrame
 .
 h
 "

@@ -15,6 +15,13 @@ h
 #
 include
 "
+nsAccUtils
+.
+h
+"
+#
+include
+"
 nsIComponentManager
 .
 h

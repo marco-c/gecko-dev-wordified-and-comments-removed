@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsEventShell
+.
+h
+"
+#
+include
+"
 nsIAccessibleDocument
 .
 h

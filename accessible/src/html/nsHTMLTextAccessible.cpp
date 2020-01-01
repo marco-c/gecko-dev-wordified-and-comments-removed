@@ -15,6 +15,13 @@ h
 #
 include
 "
+nsTextEquivUtils
+.
+h
+"
+#
+include
+"
 nsIFrame
 .
 h

@@ -530,7 +530,11 @@ NULL
 EXPORTS
 =
 \
-nsRootAccessible
+a11yGeneric
+.
+h
+\
+nsAccessible
 .
 h
 \

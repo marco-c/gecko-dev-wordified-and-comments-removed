@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsAccUtils
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLCollection
 .
 h

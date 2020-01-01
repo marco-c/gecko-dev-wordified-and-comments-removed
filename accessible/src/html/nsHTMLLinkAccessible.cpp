@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsCoreUtils
+.
+h
+"
+#
+include
+"
 nsILink
 .
 h
