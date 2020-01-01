@@ -34190,15 +34190,3 @@ disabled
 true
 )
 ;
-pref
-(
-"
-dom
-.
-mozApps
-.
-dev_mode
-"
-false
-)
-;
