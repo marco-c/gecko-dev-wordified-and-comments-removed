@@ -139,11 +139,12 @@ NS_IMPL_RELEASE
 (
 nsMenuBarListener
 )
-NS_IMPL_QUERY_INTERFACE3
+NS_IMPL_QUERY_INTERFACE4
 (
 nsMenuBarListener
 nsIDOMKeyListener
 nsIDOMFocusListener
+nsIDOMEventListener
 nsIDOMMouseListener
 )
 #

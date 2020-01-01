@@ -463,6 +463,10 @@ nsIStreamListener
 )
 NS_INTERFACE_MAP_ENTRY
 (
+nsIRequestObserver
+)
+NS_INTERFACE_MAP_ENTRY
+(
 nsIProgressEventSink
 )
 NS_INTERFACE_MAP_ENTRY

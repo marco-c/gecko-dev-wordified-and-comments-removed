@@ -334,6 +334,10 @@ nsIDOMLoadListener
 )
 NS_INTERFACE_MAP_ENTRY
 (
+nsIDOMEventListener
+)
+NS_INTERFACE_MAP_ENTRY
+(
 nsISupportsWeakReference
 )
 NS_INTERFACE_MAP_ENTRY

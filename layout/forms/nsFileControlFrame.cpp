@@ -2533,13 +2533,14 @@ NS_ERROR_FAILURE
 }
 #
 endif
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS2
 (
 nsFileControlFrame
 :
 :
 MouseListener
 nsIDOMMouseListener
+nsIDOMEventListener
 )
 NS_IMETHODIMP
 nsFileControlFrame

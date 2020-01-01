@@ -445,14 +445,15 @@ NS_HTML_CONTENT_CC_INTERFACE_TABLE_HEAD
 nsHTMLObjectElement
 nsGenericHTMLFormElement
 )
-NS_INTERFACE_TABLE_INHERITED9
+NS_INTERFACE_TABLE_INHERITED10
 (
 nsHTMLObjectElement
 nsIDOMHTMLObjectElement
-imgIDecoderObserver
 nsIRequestObserver
 nsIStreamListener
 nsIFrameLoaderOwner
+imgIContainerObserver
+imgIDecoderObserver
 nsIObjectLoadingContent
 nsIImageLoadingContent
 nsIInterfaceRequestor

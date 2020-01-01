@@ -329,10 +329,11 @@ mFile
 fp
 ;
 }
-NS_IMPL_ISUPPORTS1
+NS_IMPL_ISUPPORTS2
 (
 StreamToFile
 nsIStreamListener
+nsIRequestObserver
 )
 StreamToFile
 :
