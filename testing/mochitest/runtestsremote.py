@@ -67,11 +67,11 @@ Mochitest
 from
 runtests
 import
-MochitestOptions
-from
-runtests
-import
 MochitestServer
+from
+mochitest_options
+import
+MochitestOptions
 import
 devicemanager
 import
@@ -90,7 +90,6 @@ __init__
 (
 self
 automation
-scriptdir
 *
 *
 kwargs
@@ -108,7 +107,6 @@ __init__
 (
 self
 automation
-scriptdir
 )
         
 self
@@ -4385,31 +4383,6 @@ main
 )
 :
     
-scriptdir
-=
-os
-.
-path
-.
-abspath
-(
-os
-.
-path
-.
-realpath
-(
-os
-.
-path
-.
-dirname
-(
-__file__
-)
-)
-)
-    
 auto
 =
 RemoteAutomation
@@ -4425,7 +4398,6 @@ parser
 RemoteOptions
 (
 auto
-scriptdir
 )
     
 options
