@@ -1288,16 +1288,6 @@ base
 /
 src
 \
--
-I
-(
-topsrcdir
-)
-/
-xpcom
-/
-ds
-\
 (
 NULL
 )
