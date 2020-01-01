@@ -3602,6 +3602,14 @@ funbox
 return
 NULL
 ;
+fn
+-
+>
+pn_funbox
+=
+*
+funbox
+;
 ParseContext
 funpc
 (
