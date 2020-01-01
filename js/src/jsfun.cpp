@@ -629,16 +629,6 @@ return
 true
 ;
 }
-StackIter
-prev
-(
-iter
-)
-;
-+
-+
-prev
-;
 #
 ifdef
 JS_METHODJIT
