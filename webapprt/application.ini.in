@@ -83,6 +83,9 @@ GRE_MILESTONE
 BuildID
 =
 GRE_BUILDID
+UAName
+=
+MOZ_APP_BASENAME
 [
 Gecko
 ]
