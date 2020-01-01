@@ -145,6 +145,11 @@ return
 gfxContext
 :
 :
+FLAG_SIMPLIFY_OPERATORS
+|
+gfxContext
+:
+:
 FLAG_DISABLE_SNAPPING
 ;
 }
