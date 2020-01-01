@@ -35,18 +35,9 @@ REMOTE
 "
 ;
 const
-REMOTE_FMT
+EMULATOR
 =
 "
-+
-15559997777
-"
-;
-const
-EMU_FMT
-=
-"
-+
 15555215554
 "
 ;
@@ -284,7 +275,7 @@ is
 incomingSms
 .
 receiver
-EMU_FMT
+EMULATOR
 "
 receiver
 "
@@ -295,7 +286,7 @@ is
 incomingSms
 .
 sender
-REMOTE_FMT
+REMOTE
 "
 sender
 "
@@ -524,7 +515,7 @@ is
 sentSms
 .
 receiver
-REMOTE_FMT
+REMOTE
 "
 receiver
 "
@@ -535,7 +526,7 @@ is
 sentSms
 .
 sender
-EMU_FMT
+EMULATOR
 "
 sender
 "
@@ -940,7 +931,7 @@ is
 foundSms
 .
 receiver
-EMU_FMT
+EMULATOR
 "
 receiver
 "
@@ -951,7 +942,7 @@ is
 foundSms
 .
 sender
-REMOTE_FMT
+REMOTE
 "
 sender
 "
@@ -1289,7 +1280,7 @@ is
 foundSms
 .
 receiver
-REMOTE_FMT
+REMOTE
 "
 receiver
 "
@@ -1300,7 +1291,7 @@ is
 foundSms
 .
 sender
-EMU_FMT
+EMULATOR
 "
 sender
 "
