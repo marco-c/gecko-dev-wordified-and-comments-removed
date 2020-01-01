@@ -210,7 +210,7 @@ mParent
 }
 nsIAtom
 *
-GetPseudoType
+GetPseudo
 (
 )
 const

@@ -2367,7 +2367,7 @@ GetStyleContext
 )
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 )
@@ -7677,7 +7677,7 @@ GetStyleContext
 )
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 ;
@@ -7763,7 +7763,7 @@ GetStyleContext
 )
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 =
@@ -7800,7 +7800,7 @@ GetStyleContext
 )
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 =
@@ -7825,7 +7825,7 @@ GetStyleContext
 )
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 =
@@ -13600,7 +13600,7 @@ GetStyleContext
 )
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 ;
@@ -14355,7 +14355,7 @@ GetStyleContext
 )
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 !
@@ -14433,7 +14433,7 @@ GetStyleContext
 )
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 !
@@ -20675,7 +20675,7 @@ if
 aStyleContext
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 )
@@ -22143,7 +22143,7 @@ SetProperty
 styleContext
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 item
@@ -44406,7 +44406,7 @@ GetStyleContext
 )
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 )

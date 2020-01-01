@@ -1537,7 +1537,7 @@ pseudoTag
 mStyleContext
 -
 >
-GetPseudoType
+GetPseudo
 (
 )
 ;
