@@ -2984,14 +2984,13 @@ id
 {
 atom
 =
-js_AtomizeInt
+js_ValueToStringAtom
 (
 cx
-JSID_TO_INT
+INT_JSID_TO_JSVAL
 (
 id
 )
-0
 )
 ;
 if
