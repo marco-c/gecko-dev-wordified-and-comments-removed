@@ -497,6 +497,14 @@ test_bug445544
 .
 html
 \
+test_bug460353
+.
+html
+\
+test_bug474696
+.
+html
+\
 test_foreign
 .
 html
@@ -527,10 +535,6 @@ cacheManifest
 ^
 headers
 ^
-\
-test_bug460353
-.
-html
 \
 460353_iframe_nomanifest
 .

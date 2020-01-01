@@ -458,6 +458,10 @@ script
 .
 js
 \
+redirectToDifferentOrigin
+.
+sjs
+\
 (
 NULL
 )
