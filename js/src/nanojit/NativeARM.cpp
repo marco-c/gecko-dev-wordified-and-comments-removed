@@ -5179,14 +5179,8 @@ NIns
 *
 targ
 bool
-far
 )
 {
-(
-void
-)
-far
-;
 NIns
 *
 at
