@@ -1519,6 +1519,7 @@ onIndexedDBUsageCallback
 (
 uri
 usage
+fileUsage
 )
 {
 if

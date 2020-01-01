@@ -580,6 +580,10 @@ TelemetryVFS
 .
 cpp
 \
+FileSystemModule
+.
+cpp
+\
 (
 NULL
 )
