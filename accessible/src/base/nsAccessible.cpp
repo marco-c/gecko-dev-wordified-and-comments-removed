@@ -4912,6 +4912,13 @@ if
 !
 *
 aAccessible
+|
+|
+*
+aAccessible
+=
+=
+this
 )
 return
 NS_OK
@@ -4949,9 +4956,8 @@ if
 parent
 )
 {
-NS_ASSERTION
+NS_NOTREACHED
 (
-PR_FALSE
 "
 Obtained
 accessible
