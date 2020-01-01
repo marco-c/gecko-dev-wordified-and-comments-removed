@@ -99,6 +99,15 @@ tab
 }
 tab
 :
+focus
+{
+position
+:
+relative
+;
+}
+tab
+:
 first
 -
 of
