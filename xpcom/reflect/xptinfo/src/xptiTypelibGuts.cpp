@@ -5,6 +5,10 @@ xptiprivate
 .
 h
 "
+using
+namespace
+mozilla
+;
 xptiTypelibGuts
 *
 xptiTypelibGuts
@@ -172,6 +176,16 @@ GetWorkingSet
 (
 )
 ;
+{
+MonitorAutoEnter
+monitor
+(
+set
+-
+>
+mTableMonitor
+)
+;
 if
 (
 iface
@@ -215,6 +229,7 @@ iface
 iid
 )
 ;
+}
 if
 (
 r
