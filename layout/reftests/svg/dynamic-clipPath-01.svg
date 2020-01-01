@@ -65,7 +65,7 @@ onload
 setTimeout
 (
 doTest
-10
+500
 )
 "
 xmlns
