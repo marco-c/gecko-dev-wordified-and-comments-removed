@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsIObserver
+.
+h
+"
+#
+include
+"
 gfxTypes
 .
 h
@@ -515,6 +522,12 @@ cmsHPROFILE
 GetPlatformCMSOutputProfile
 (
 )
+;
+nsCOMPtr
+<
+nsIObserver
+>
+overrideObserver
 ;
 }
 ;
