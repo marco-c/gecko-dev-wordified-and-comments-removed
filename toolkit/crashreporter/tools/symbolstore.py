@@ -4681,7 +4681,7 @@ rel_path
         
 shutil
 .
-copyfile
+move
 (
 file_dbg
 full_path
