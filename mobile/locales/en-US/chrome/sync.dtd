@@ -257,11 +257,12 @@ sync
 .
 setup
 .
-waiting
+waiting2
 "
-Pairing
-in
-progress
+Waiting
+for
+other
+device
 "
 >
 <
