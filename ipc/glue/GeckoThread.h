@@ -80,6 +80,7 @@ MessageLoop
 :
 TYPE_MOZILLA_CHILD
 0
+false
 )
 )
 {
