@@ -1390,7 +1390,7 @@ if
 reobj
 )
 return
-NULL
+false
 ;
 args
 .

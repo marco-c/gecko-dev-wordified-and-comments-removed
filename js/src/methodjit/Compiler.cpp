@@ -29443,7 +29443,7 @@ NULL
 )
 )
 return
-NULL
+false
 ;
 return
 testSingletonProperty

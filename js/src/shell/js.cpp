@@ -849,10 +849,6 @@ cx
 (
 aCx
 )
-mThrow
-(
-aThrow
-)
 {
 mStr
 =
@@ -979,9 +975,6 @@ cx
 JSString
 *
 mStr
-;
-bool
-mThrow
 ;
 JSAutoByteString
 mBytes

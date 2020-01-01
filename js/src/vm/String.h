@@ -1954,6 +1954,8 @@ jschar
 )
 ;
 }
+protected
+:
 jschar
 inlineStorageExtension
 [
