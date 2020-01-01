@@ -809,6 +809,10 @@ mFlags
 (
 flags
 )
+mSafeToUnwrap
+(
+true
+)
 {
 setHasPrototype
 (
@@ -4412,6 +4416,14 @@ Base
 flags
 )
 {
+Base
+:
+:
+setSafeToUnwrap
+(
+false
+)
+;
 }
 template
 <
