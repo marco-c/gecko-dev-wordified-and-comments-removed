@@ -1,6 +1,10 @@
 #
-ifndef
+if
+!
+defined
+(
 CUBEB_INTERNAL_0eb56756_4e20_4404_a76d_42bf88cd15a5
+)
 #
 define
 CUBEB_INTERNAL_0eb56756_4e20_4404_a76d_42bf88cd15a5
