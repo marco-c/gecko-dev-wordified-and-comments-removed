@@ -1213,6 +1213,15 @@ bool
 aRequireTrust
 )
 ;
+virtual
+NS_HIDDEN_
+(
+bool
+)
+IsPartOfApp
+(
+)
+;
 NS_DECL_NSIDOMSTORAGEINDEXEDDB
 NS_DECL_NSIINTERFACEREQUESTOR
 nsGlobalWindow
@@ -1949,11 +1958,6 @@ RemoveEventTargetObject
 nsDOMEventTargetHelper
 *
 aObject
-)
-;
-bool
-IsPartOfApp
-(
 )
 ;
 protected
