@@ -219,12 +219,15 @@ DIV
 id
 :
 "
+#
 top
 "
 classes
 :
 "
+.
 class1
+.
 class2
 "
 }
@@ -253,6 +256,7 @@ DIV
 id
 :
 "
+#
 vertical
 "
 classes
@@ -285,6 +289,7 @@ DIV
 id
 :
 "
+#
 bottom
 "
 classes
