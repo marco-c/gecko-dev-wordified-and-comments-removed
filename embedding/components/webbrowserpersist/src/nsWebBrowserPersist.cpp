@@ -1157,7 +1157,7 @@ nsWebBrowserPersist
 :
 GetResult
 (
-PRUint32
+nsresult
 *
 aResult
 )

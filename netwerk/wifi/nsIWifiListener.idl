@@ -185,7 +185,7 @@ void
 onError
 (
 in
-long
+nsresult
 error
 )
 ;

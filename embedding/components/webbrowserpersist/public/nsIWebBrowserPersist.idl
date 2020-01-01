@@ -764,8 +764,7 @@ failure
 /
 readonly
 attribute
-unsigned
-long
+nsresult
 result
 ;
 /

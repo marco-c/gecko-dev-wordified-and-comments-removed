@@ -5427,7 +5427,7 @@ ResetIfSet
 (
 )
 ;
-PRInt32
+nsresult
 ec
 ;
 bool
@@ -5566,7 +5566,7 @@ ResetIfSet
 (
 )
 ;
-PRInt32
+nsresult
 ec
 ;
 bool
@@ -5657,7 +5657,7 @@ ResetIfSet
 (
 )
 ;
-PRInt32
+nsresult
 ec
 ;
 bool
@@ -5724,7 +5724,7 @@ ResetIfSet
 (
 )
 ;
-PRInt32
+nsresult
 ec
 ;
 bool
@@ -6932,7 +6932,7 @@ aValue
 bool
 *
 aStrict
-PRInt32
+nsresult
 *
 aErrorCode
 bool
