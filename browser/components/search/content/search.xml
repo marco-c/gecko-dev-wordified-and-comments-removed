@@ -3746,6 +3746,15 @@ history
 if
 (
 textValue
+&
+&
+!
+PrivateBrowsingUtils
+.
+isWindowPrivate
+(
+window
+)
 )
 {
 try
