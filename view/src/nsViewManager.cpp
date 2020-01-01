@@ -1824,12 +1824,6 @@ nsIRenderingContext
 >
 localcx
 ;
-nsIDrawingSurface
-*
-ds
-=
-nsnull
-;
 if
 (
 nsnull
@@ -1965,7 +1959,6 @@ aView
 *
 localcx
 damageRegion
-ds
 )
 ;
 ctx
@@ -2444,9 +2437,6 @@ const
 nsRegion
 &
 aRegion
-nsIDrawingSurface
-*
-aRCSurface
 )
 {
 if

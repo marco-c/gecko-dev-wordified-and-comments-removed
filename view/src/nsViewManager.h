@@ -877,9 +877,6 @@ const
 nsRegion
 &
 aRegion
-nsIDrawingSurface
-*
-aRCSurface
 )
 ;
 void
