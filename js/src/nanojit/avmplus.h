@@ -589,6 +589,10 @@ void
 *
 f
 ;
+void
+*
+cx
+;
 }
 ;
 class
