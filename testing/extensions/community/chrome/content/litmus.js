@@ -458,8 +458,6 @@ handleDialogCancel
 litmus
 .
 undisableAll
-(
-)
 )
 ;
 }
