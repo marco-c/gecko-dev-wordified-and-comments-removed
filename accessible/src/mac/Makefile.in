@@ -540,10 +540,6 @@ nsAccessibleRelationWrap
 .
 h
 \
-nsApplicationAccessibleWrap
-.
-h
-\
 mozDocAccessible
 .
 h

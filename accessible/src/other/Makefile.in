@@ -528,10 +528,6 @@ nsAccessibleRelationWrap
 .
 h
 \
-nsApplicationAccessibleWrap
-.
-h
-\
 (
 NULL
 )

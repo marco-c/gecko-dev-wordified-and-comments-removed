@@ -116,9 +116,6 @@ nsITimer
 class
 nsRootAccessible
 ;
-class
-nsApplicationAccessibleWrap
-;
 #
 define
 ACCESSIBLE_BUNDLE_URL
@@ -317,15 +314,6 @@ InitXPAccessibility
 static
 void
 ShutdownXPAccessibility
-(
-)
-;
-static
-already_AddRefed
-<
-nsApplicationAccessibleWrap
->
-GetApplicationAccessible
 (
 )
 ;
@@ -768,11 +756,6 @@ static
 nsIAccessibilityService
 *
 sAccService
-;
-static
-nsApplicationAccessibleWrap
-*
-gApplicationAccessible
 ;
 }
 ;

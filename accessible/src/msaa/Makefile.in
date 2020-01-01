@@ -510,10 +510,6 @@ nsAccessibleRelationWrap
 .
 cpp
 \
-nsApplicationAccessibleWrap
-.
-cpp
-\
 CAccessibleAction
 .
 cpp
@@ -601,10 +597,6 @@ nsHTMLTableAccessibleWrap
 h
 \
 nsAccessibleRelationWrap
-.
-h
-\
-nsApplicationAccessibleWrap
 .
 h
 \

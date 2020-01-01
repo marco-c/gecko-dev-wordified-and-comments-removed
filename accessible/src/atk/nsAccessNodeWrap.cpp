@@ -72,7 +72,7 @@ ShutdownXPAccessibility
 (
 )
 ;
-nsApplicationAccessibleWrap
+nsAppRootAccessible
 :
 :
 Unload
