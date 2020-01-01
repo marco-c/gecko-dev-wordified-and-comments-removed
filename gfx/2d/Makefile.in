@@ -161,6 +161,7 @@ MOZ_WIDGET_TOOLKIT
 )
 android
 gtk2
+gtk3
 gonk
 qt
 )

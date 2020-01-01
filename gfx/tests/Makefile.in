@@ -361,13 +361,8 @@ OS_LIBS
 framework
 Cocoa
 endif
-ifeq
-(
-(
-MOZ_WIDGET_TOOLKIT
-)
-gtk2
-)
+ifdef
+MOZ_WIDGET_GTK
 OS_LIBS
 +
 =

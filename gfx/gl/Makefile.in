@@ -161,13 +161,8 @@ GL_PROVIDER
 =
 CGL
 endif
-ifeq
-(
-(
-MOZ_WIDGET_TOOLKIT
-)
-gtk2
-)
+ifdef
+MOZ_WIDGET_GTK
 ifdef
 MOZ_PLATFORM_MAEMO
 GL_PROVIDER

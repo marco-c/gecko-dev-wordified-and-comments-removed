@@ -872,13 +872,8 @@ font
 .
 c
 endif
-ifeq
-(
-(
-MOZ_WIDGET_TOOLKIT
-)
-gtk2
-)
+ifdef
+MOZ_WIDGET_GTK
 CSRCS
 +
 =
