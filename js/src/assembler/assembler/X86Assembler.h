@@ -1953,7 +1953,7 @@ js
 JSpew_Insns
 IPFX
 "
-add
+addl
 %
 s0x
 %
