@@ -127,6 +127,14 @@ thrown
 )
     
 parser
+=
+parser
+.
+reset
+(
+)
+    
+parser
 .
 parse
 (
@@ -151,12 +159,4 @@ TestNamedConstructorNoInterfaceObject
 "
 "
 "
-)
-    
-parser
-=
-parser
-.
-reset
-(
 )
