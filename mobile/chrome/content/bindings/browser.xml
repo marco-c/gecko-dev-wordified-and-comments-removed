@@ -1049,8 +1049,6 @@ this
 contentWindowId
 )
 return
-{
-}
 ;
 let
 linkType
@@ -1163,10 +1161,6 @@ break
 break
 ;
 }
-return
-{
-}
-;
 ]
 ]
 >
@@ -1932,10 +1926,6 @@ args
 break
 ;
 }
-return
-{
-}
-;
 }
 _notify
 :
@@ -3783,10 +3773,6 @@ args
 break
 ;
 }
-return
-{
-}
-;
 }
 _notify
 :

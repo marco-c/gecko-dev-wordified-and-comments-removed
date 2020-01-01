@@ -1857,10 +1857,6 @@ aMessage
 break
 ;
 }
-return
-{
-}
-;
 }
 updateDirtyTiles
 :

@@ -455,10 +455,6 @@ break
 ;
 }
 }
-return
-{
-}
-;
 }
 _titleChanged
 :
@@ -592,10 +588,6 @@ true
 ;
 }
 }
-return
-{
-}
-;
 }
 _updateButtons
 :
@@ -4308,10 +4300,6 @@ selectedTab
 )
 ;
 }
-return
-{
-}
-;
 }
 supportsCommand
 :
