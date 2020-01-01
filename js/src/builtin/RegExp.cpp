@@ -1217,7 +1217,6 @@ if
 RegExpToShared
 (
 cx
-*
 sourceObj
 &
 g

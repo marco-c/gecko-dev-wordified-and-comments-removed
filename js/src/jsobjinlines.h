@@ -4857,10 +4857,6 @@ getPrototypeOf
 cx
 obj
 protop
-.
-address
-(
-)
 )
 ;
 }

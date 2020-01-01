@@ -1543,8 +1543,7 @@ RegExpToShared
 JSContext
 *
 cx
-JSObject
-&
+HandleObject
 obj
 RegExpGuard
 *
