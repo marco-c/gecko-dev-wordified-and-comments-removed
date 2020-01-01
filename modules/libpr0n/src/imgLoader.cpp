@@ -1900,6 +1900,15 @@ imgCacheEntry
 entry
 )
 {
+nsRefPtr
+<
+imgCacheEntry
+>
+kungFuDeathGrip
+(
+entry
+)
+;
 #
 if
 defined
