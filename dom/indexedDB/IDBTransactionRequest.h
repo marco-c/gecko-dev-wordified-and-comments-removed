@@ -72,6 +72,9 @@ class
 AsyncConnectionHelper
 ;
 class
+ObjectStoreInfo
+;
+class
 IDBTransactionRequest
 :
 public
@@ -110,10 +113,10 @@ IDBDatabaseRequest
 aDatabase
 nsTArray
 <
-ObjectStoreInfo
+nsString
 >
 &
-aObjectStores
+aObjectStoreNames
 PRUint16
 aMode
 PRUint32
@@ -189,9 +192,9 @@ mConnection
 ;
 nsTArray
 <
-ObjectStoreInfo
+nsString
 >
-mObjectStores
+mObjectStoreNames
 ;
 PRUint16
 mReadyState

@@ -98,5 +98,13 @@ dom
 :
 indexedDB
 ;
+BEGIN_INDEXEDDB_NAMESPACE
+extern
+void
+Shutdown
+(
+)
+;
+END_INDEXEDDB_NAMESPACE
 #
 endif

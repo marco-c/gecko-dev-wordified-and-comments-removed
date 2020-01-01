@@ -454,6 +454,10 @@ AsyncConnectionHelper
 .
 cpp
 \
+DatabaseInfo
+.
+cpp
+\
 IDBDatabaseRequest
 .
 cpp
