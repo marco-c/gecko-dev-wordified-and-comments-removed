@@ -5364,6 +5364,9 @@ MarkChildren
 this
 reinterpret_cast
 <
+ion
+:
+:
 IonCode
 *
 >
