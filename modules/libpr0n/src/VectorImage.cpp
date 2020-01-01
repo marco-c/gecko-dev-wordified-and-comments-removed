@@ -137,9 +137,6 @@ mozilla
 namespace
 imagelib
 {
-#
-ifdef
-MOZ_ENABLE_LIBXUL
 class
 SVGRootRenderingObserver
 :
@@ -378,8 +375,6 @@ mVectorImage
 ;
 }
 ;
-#
-endif
 class
 SVGDrawingCallback
 :
@@ -2211,9 +2206,6 @@ IsAnimated
 (
 )
 ;
-#
-ifdef
-MOZ_ENABLE_LIBXUL
 mRenderingObserver
 =
 new
@@ -2223,8 +2215,6 @@ mSVGDocumentWrapper
 this
 )
 ;
-#
-endif
 nsCOMPtr
 <
 imgIDecoderObserver
