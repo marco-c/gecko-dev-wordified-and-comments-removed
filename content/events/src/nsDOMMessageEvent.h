@@ -68,6 +68,9 @@ mData
 nsString
 mOrigin
 ;
+nsString
+mLastEventId
+;
 nsCOMPtr
 <
 nsIDOMWindow
