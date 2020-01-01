@@ -1921,6 +1921,8 @@ function
 (
 )
 {
+try
+{
 if
 (
 !
@@ -1964,6 +1966,13 @@ getItemTitle
 aItemId
 )
 ;
+}
+catch
+(
+ex
+)
+{
+}
 }
 }
 Ci
