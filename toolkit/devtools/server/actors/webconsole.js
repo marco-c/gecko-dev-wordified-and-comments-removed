@@ -2085,6 +2085,9 @@ window
 aRequest
 .
 text
+aRequest
+.
+cursor
 )
 |
 |
