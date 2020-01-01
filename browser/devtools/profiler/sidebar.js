@@ -140,6 +140,11 @@ new
 SideMenuWidget
 (
 el
+{
+showArrows
+:
+true
+}
 )
 ;
 this
