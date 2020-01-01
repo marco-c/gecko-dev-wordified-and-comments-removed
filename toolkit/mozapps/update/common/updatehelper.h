@@ -4,7 +4,7 @@ LaunchWinPostProcess
 const
 WCHAR
 *
-appExe
+installationDir
 const
 WCHAR
 *
