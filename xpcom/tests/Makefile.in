@@ -580,10 +580,6 @@ TestTextFormatter
 .
 cpp
 \
-TestTimeStamp
-.
-cpp
-\
 (
 NULL
 )
@@ -646,6 +642,10 @@ TestStorageStream
 cpp
 \
 TestTArray
+.
+cpp
+\
+TestTimeStamp
 .
 cpp
 \
