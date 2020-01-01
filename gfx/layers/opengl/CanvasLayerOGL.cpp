@@ -1918,6 +1918,13 @@ GetTileRect
 Size
 (
 )
+mTexImage
+-
+>
+GetWrapMode
+(
+)
+mNeedsYFlip
 )
 ;
 }

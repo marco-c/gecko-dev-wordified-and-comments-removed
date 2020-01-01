@@ -3749,6 +3749,10 @@ GLfloat
 tx1
 GLfloat
 ty1
+bool
+flip_y
+=
+false
 )
 ;
 float
@@ -3853,6 +3857,10 @@ aTexSize
 RectTriangles
 &
 aRects
+bool
+aFlipY
+=
+false
 )
 ;
 enum
