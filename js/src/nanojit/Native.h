@@ -421,6 +421,15 @@ NJ_JTBL_SUPPORTED
 0
 #
 endif
+#
+ifndef
+NJ_EXPANDED_LOADSTORE_SUPPORTED
+#
+define
+NJ_EXPANDED_LOADSTORE_SUPPORTED
+0
+#
+endif
 namespace
 nanojit
 {
