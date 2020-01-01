@@ -910,14 +910,6 @@ aScrollQuantity
 )
 ;
 void
-ForceViewUpdate
-(
-nsIView
-*
-aView
-)
-;
-void
 DoScrollHistory
 (
 PRInt32
