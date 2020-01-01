@@ -2731,6 +2731,13 @@ aBlockFrame
 subParagraph
 )
 ;
+subParagraph
+-
+>
+EmptyBuffer
+(
+)
+;
 }
 return
 ResolveParagraph
