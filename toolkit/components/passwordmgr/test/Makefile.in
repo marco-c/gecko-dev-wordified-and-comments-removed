@@ -456,6 +456,9 @@ tests
 MODULE
 =
 test_passwordmgr
+XPCSHELL_TESTS
+=
+unit
 #
 Mochitest
 tests
@@ -742,9 +745,6 @@ privatebrowsing
 support
 )
 endif
-XPCSHELL_TESTS
-=
-unit
 #
 This
 test
