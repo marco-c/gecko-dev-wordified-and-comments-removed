@@ -253,16 +253,11 @@ SVG_ELEMENT
 font_face_uri
 ATTRS_NONE
 )
-#
-ifdef
-MOZ_SVG_FOREIGNOBJECT
 SVG_ELEMENT
 (
 foreignObject
 ATTRS_ALL
 )
-#
-endif
 SVG_ELEMENT
 (
 g

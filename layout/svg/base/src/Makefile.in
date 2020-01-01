@@ -490,6 +490,10 @@ nsSVGFilterInstance
 .
 cpp
 \
+nsSVGForeignObjectFrame
+.
+cpp
+\
 nsSVGGFrame
 .
 cpp
@@ -581,15 +585,6 @@ cpp
 (
 NULL
 )
-ifdef
-MOZ_SVG_FOREIGNOBJECT
-CPPSRCS
-+
-=
-nsSVGForeignObjectFrame
-.
-cpp
-endif
 include
 (
 topsrcdir

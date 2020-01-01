@@ -567,6 +567,10 @@ nsSVGFilters
 .
 cpp
 \
+nsSVGForeignObjectElement
+.
+cpp
+\
 nsSVGGElement
 .
 cpp
@@ -762,15 +766,6 @@ cpp
 (
 NULL
 )
-ifdef
-MOZ_SVG_FOREIGNOBJECT
-CPPSRCS
-+
-=
-nsSVGForeignObjectElement
-.
-cpp
-endif
 include
 (
 topsrcdir
