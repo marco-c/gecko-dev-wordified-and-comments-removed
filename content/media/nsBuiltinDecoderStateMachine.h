@@ -647,6 +647,12 @@ HaveEnoughDecodedVideo
 (
 )
 ;
+bool
+IsShutdown
+(
+)
+MOZ_OVERRIDE
+;
 protected
 :
 class
