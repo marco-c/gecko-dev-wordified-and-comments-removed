@@ -2123,15 +2123,6 @@ Browser
 .
 selectedBrowser
 ;
-let
-uri
-=
-browser
-.
-contentDocument
-.
-documentURIObject
-;
 switch
 (
 aState

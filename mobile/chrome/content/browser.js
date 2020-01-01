@@ -14732,7 +14732,9 @@ this
 .
 _browser
 .
-currentURI
+contentDocument
+.
+documentURIObject
 .
 prePath
 +
