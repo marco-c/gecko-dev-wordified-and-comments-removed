@@ -99,16 +99,6 @@ Modified
 <
 !
 ENTITY
-permissions
-.
-label
-"
-Permissions
-"
->
-<
-!
-ENTITY
 showHiddenFiles
 .
 label
