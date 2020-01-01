@@ -684,13 +684,10 @@ CanActivateAutoplay
 (
 )
 ;
-virtual
 void
-NotifyAutoplayDataReady
+CheckAutoplayDataReady
 (
 )
-MOZ_FINAL
-MOZ_OVERRIDE
 ;
 bool
 ShouldCheckAllowOrigin
