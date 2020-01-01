@@ -1893,7 +1893,7 @@ nsAutoPtr
 gfxWindowsFont
 >
 tempFont
-=
+(
 new
 gfxWindowsFont
 (
@@ -1904,6 +1904,7 @@ GetStyle
 (
 )
 CAIRO_ANTIALIAS_NONE
+)
 )
 ;
 if

@@ -76,11 +76,6 @@ win32
 .
 h
 >
-#
-include
-<
-bitset
->
 class
 GDIFontEntry
 ;

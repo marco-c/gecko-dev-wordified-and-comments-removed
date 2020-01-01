@@ -109,6 +109,7 @@ void
 DebugGetHeader
 (
 )
+const
 {
 return
 mHdr
