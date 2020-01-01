@@ -347,6 +347,12 @@ args
 ]
 )
 ;
+let
+reftest
+=
+{
+}
+;
 Components
 .
 utils
@@ -366,8 +372,11 @@ reftest
 .
 jsm
 "
+reftest
 )
 ;
+reftest
+.
 OnRefTestLoad
 (
 win
