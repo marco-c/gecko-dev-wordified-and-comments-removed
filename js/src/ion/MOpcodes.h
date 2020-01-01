@@ -459,6 +459,11 @@ BoundsCheckLower
 \
 _
 (
+InArray
+)
+\
+_
+(
 LoadElement
 )
 \

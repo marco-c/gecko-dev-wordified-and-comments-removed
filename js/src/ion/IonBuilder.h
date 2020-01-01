@@ -1755,6 +1755,11 @@ jsop_in
 )
 ;
 bool
+jsop_in_dense
+(
+)
+;
+bool
 jsop_instanceof
 (
 )

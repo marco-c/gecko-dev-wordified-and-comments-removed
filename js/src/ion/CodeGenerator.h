@@ -1175,6 +1175,14 @@ ins
 )
 ;
 bool
+visitInArray
+(
+LInArray
+*
+ins
+)
+;
+bool
 visitInstanceOfO
 (
 LInstanceOfO
