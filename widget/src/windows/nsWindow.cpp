@@ -25647,6 +25647,7 @@ while
 (
 width_left
 >
+=
 4
 )
 {
