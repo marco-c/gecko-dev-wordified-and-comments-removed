@@ -3811,6 +3811,11 @@ locales
 l
 '
 linuxExtension
+'
+-
+p
+'
+product
 ]
 logFile
 =
