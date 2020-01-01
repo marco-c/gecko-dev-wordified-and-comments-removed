@@ -161,6 +161,9 @@ NSAccessibilityGroupRole
 NSAccessibilityGroupRole
 NSAccessibilityGroupRole
 NSAccessibilityCheckBoxRole
+NSAccessibilityListRole
+NSAccessibilityGroupRole
+NSAccessibilityGroupRole
 "
 ROLE_LAST_ENTRY
 "

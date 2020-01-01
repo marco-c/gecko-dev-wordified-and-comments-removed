@@ -1240,6 +1240,15 @@ check
 rich
 option
 "
+"
+definitionlist
+"
+"
+term
+"
+"
+definition
+"
 }
 ;
 static
