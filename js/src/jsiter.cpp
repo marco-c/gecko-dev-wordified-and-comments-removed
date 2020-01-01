@@ -4283,6 +4283,7 @@ getNativeIterator
 ;
 if
 (
+(
 ni
 -
 >
@@ -4290,10 +4291,8 @@ flags
 &
 JSITER_FOREACH
 )
-continue
-;
-if
-(
+&
+&
 ni
 -
 >
