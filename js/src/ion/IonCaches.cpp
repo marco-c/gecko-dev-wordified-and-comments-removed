@@ -13869,7 +13869,10 @@ if
 scopeObj
 -
 >
-isCall
+is
+<
+CallObject
+>
 (
 )
 )
@@ -13882,7 +13885,10 @@ callObj
 scopeObj
 -
 >
-asCall
+as
+<
+CallObject
+>
 (
 )
 ;
@@ -14888,7 +14894,10 @@ if
 obj
 -
 >
-isCall
+is
+<
+CallObject
+>
 (
 )
 )

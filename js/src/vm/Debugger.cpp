@@ -28635,7 +28635,10 @@ if
 !
 scope
 .
-isCall
+is
+<
+CallObject
+>
 (
 )
 )
@@ -28648,7 +28651,10 @@ callobj
 =
 scope
 .
-asCall
+as
+<
+CallObject
+>
 (
 )
 ;

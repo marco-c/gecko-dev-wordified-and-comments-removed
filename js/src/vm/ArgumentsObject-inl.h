@@ -352,7 +352,10 @@ toObject
 (
 )
 .
-asCall
+as
+<
+CallObject
+>
 (
 )
 ;
@@ -467,7 +470,10 @@ toObject
 (
 )
 .
-asCall
+as
+<
+CallObject
+>
 (
 )
 ;

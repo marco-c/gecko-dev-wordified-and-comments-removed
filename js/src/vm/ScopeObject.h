@@ -311,6 +311,10 @@ callee
 public
 :
 static
+Class
+class_
+;
+static
 CallObject
 *
 create
@@ -1724,7 +1728,13 @@ isScope
 const
 {
 return
-isCall
+is
+<
+js
+:
+:
+CallObject
+>
 (
 )
 |

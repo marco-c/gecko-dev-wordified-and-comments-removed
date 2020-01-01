@@ -450,7 +450,10 @@ getInitialShape
 (
 cx
 &
-CallClass
+CallObject
+:
+:
+class_
 NULL
 cx
 -
@@ -619,7 +622,10 @@ compartment
 (
 )
 &
-CallClass
+CallObject
+:
+:
+class_
 cx
 -
 >

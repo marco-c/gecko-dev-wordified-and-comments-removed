@@ -572,7 +572,10 @@ if
 scope
 -
 >
-isCall
+is
+<
+CallObject
+>
 (
 )
 &
@@ -581,7 +584,10 @@ isCall
 scope
 -
 >
-asCall
+as
+<
+CallObject
+>
 (
 )
 .
@@ -597,7 +603,10 @@ cx
 scope
 -
 >
-asCall
+as
+<
+CallObject
+>
 (
 )
 .

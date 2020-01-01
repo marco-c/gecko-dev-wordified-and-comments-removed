@@ -7134,7 +7134,10 @@ if
 (
 scope
 .
-isCall
+is
+<
+CallObject
+>
 (
 )
 )

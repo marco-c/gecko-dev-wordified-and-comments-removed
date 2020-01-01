@@ -1259,7 +1259,10 @@ BlockObject
 object
 -
 >
-isCall
+is
+<
+CallObject
+>
 (
 )
 |

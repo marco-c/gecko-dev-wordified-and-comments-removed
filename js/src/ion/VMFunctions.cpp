@@ -3135,7 +3135,10 @@ scopeChain
 )
 -
 >
-asCall
+as
+<
+CallObject
+>
 (
 )
 .
