@@ -382,12 +382,5 @@ ArrayTypeObject
 js_InitBinaryDataClasses
 )
 \
-macro
-(
-GeneratorFunction
-53
-js_InitIteratorClasses
-)
-\
 #
 endif

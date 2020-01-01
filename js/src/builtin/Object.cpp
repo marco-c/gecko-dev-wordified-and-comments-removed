@@ -384,10 +384,8 @@ true
 #
 if
 JS_HAS_TOSOURCE
+static
 bool
-js
-:
-:
 obj_toSource
 (
 JSContext
