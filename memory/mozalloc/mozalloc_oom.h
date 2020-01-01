@@ -8,6 +8,12 @@ mozilla_mozalloc_oom_h
 if
 defined
 (
+MOZALLOC_EXPORT
+)
+#
+elif
+defined
+(
 XP_WIN
 )
 |
@@ -29,7 +35,7 @@ define
 MOZALLOC_EXPORT
 __declspec
 (
-dllexport
+dllimport
 )
 #
 elif
