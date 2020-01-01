@@ -5977,9 +5977,7 @@ remove
 (
 )
 ;
-Utils
-.
-timeout
+setTimeout
 (
 function
 (
