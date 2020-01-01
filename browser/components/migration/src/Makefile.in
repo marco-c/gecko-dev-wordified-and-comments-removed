@@ -120,11 +120,7 @@ ifeq
 (
 OS_ARCH
 )
-_
-(
-GNU_CXX
-)
-WINNT_
+WINNT
 )
 CPPSRCS
 +
