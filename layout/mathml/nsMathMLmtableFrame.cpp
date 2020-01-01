@@ -2223,10 +2223,13 @@ rowCount
 aRowIndex
 ;
 }
+else
+{
 -
 -
 aRowIndex
 ;
+}
 if
 (
 0
