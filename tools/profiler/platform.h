@@ -411,6 +411,15 @@ milliseconds
 )
 ;
 static
+void
+SleepMicro
+(
+const
+int
+microseconds
+)
+;
+static
 Mutex
 *
 CreateMutex
@@ -752,7 +761,7 @@ public
 explicit
 Sampler
 (
-int
+double
 interval
 bool
 profiling
@@ -766,7 +775,7 @@ Sampler
 (
 )
 ;
-int
+double
 interval
 (
 )
@@ -1043,7 +1052,7 @@ value
 ;
 }
 const
-int
+double
 interval_
 ;
 const

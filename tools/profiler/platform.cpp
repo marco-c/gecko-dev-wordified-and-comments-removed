@@ -2312,7 +2312,7 @@ mozilla_sampler_start
 (
 int
 aProfileEntries
-int
+double
 aInterval
 const
 char

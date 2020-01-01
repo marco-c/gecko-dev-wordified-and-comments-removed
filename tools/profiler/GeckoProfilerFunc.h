@@ -96,7 +96,7 @@ mozilla_sampler_start
 (
 int
 aEntries
-int
+double
 aInterval
 const
 char
