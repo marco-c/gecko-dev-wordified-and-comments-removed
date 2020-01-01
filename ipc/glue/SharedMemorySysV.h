@@ -111,6 +111,10 @@ mData
 (
 nsnull
 )
+mAllocSize
+(
+0
+)
 mSize
 (
 0
@@ -130,6 +134,10 @@ aHandle
 mData
 (
 nsnull
+)
+mAllocSize
+(
+0
 )
 mSize
 (
@@ -197,6 +205,10 @@ false
 mHandle
 =
 id
+;
+mAllocSize
+=
+aNbytes
 ;
 if
 (
@@ -466,6 +478,9 @@ mHandle
 void
 *
 mData
+;
+size_t
+mAllocSize
 ;
 size_t
 mSize
