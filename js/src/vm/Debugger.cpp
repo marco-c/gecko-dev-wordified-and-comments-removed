@@ -22436,17 +22436,6 @@ type
 =
 !
 frame
-&
-&
-env
--
->
-is
-<
-GlobalObject
->
-(
-)
 ?
 EXECUTE_DEBUG_GLOBAL
 :
