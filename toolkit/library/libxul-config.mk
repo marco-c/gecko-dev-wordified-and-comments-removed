@@ -650,6 +650,9 @@ OS_LIBS
 psapi
 .
 lib
+dbghelp
+.
+lib
 endif
 endif
 STATIC_LIBS
