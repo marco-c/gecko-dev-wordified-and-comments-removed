@@ -821,11 +821,6 @@ nsIDOMDocument
 adoptNode
 '
 '
-nsIDOMDocument
-.
-renameNode
-'
-'
 nsIDOMElement
 .
 removeAttributeNS
