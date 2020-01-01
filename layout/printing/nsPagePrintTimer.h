@@ -49,9 +49,9 @@ nsPagePrintTimer
 MOZ_FINAL
 :
 public
-nsITimerCallback
-public
 nsRunnable
+public
+nsITimerCallback
 {
 public
 :
