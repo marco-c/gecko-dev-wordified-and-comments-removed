@@ -1082,7 +1082,7 @@ elem
 nsIFocusManager
 :
 :
-FLAG_BYKEY
+FLAG_BYMOVEFOCUS
 )
 ;
 }

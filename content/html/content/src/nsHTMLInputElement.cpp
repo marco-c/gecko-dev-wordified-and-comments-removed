@@ -6396,10 +6396,17 @@ if
 (
 lastFocusMethod
 &
+(
 nsIFocusManager
 :
 :
 FLAG_BYKEY
+|
+nsIFocusManager
+:
+:
+FLAG_BYMOVEFOCUS
+)
 )
 {
 nsCOMPtr

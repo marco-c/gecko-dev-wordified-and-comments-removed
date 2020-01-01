@@ -938,7 +938,10 @@ nsIFocusManager
 :
 :
 MOVEFOCUS_BACKWARD
-0
+nsIFocusManager
+:
+:
+FLAG_BYKEY
 getter_AddRefs
 (
 result
