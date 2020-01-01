@@ -634,6 +634,9 @@ nsIDOMHTMLFormElement
 interface
 nsIDOMHTMLCollection
 ;
+interface
+nsIDOMHTMLHeadElement
+;
 /
 /
 CSS
