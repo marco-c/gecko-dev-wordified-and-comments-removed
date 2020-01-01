@@ -1002,7 +1002,8 @@ prop
 ;
 if
 (
-js_LookupPropertyWithFlags
+!
+LookupPropertyWithFlags
 (
 cx
 obj
@@ -1013,8 +1014,6 @@ obj2
 &
 prop
 )
-<
-0
 )
 return
 JS_NEITHER

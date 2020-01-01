@@ -5273,7 +5273,7 @@ NULL
 if
 (
 !
-js_DefineNativeProperty
+DefineNativeProperty
 (
 cx
 scopeChain
@@ -5297,7 +5297,6 @@ JSPROP_PERMANENT
 JSPROP_READONLY
 0
 0
-NULL
 )
 )
 {
@@ -7169,7 +7168,7 @@ argumentsAtom
 if
 (
 !
-js_DefineNativeProperty
+DefineNativeProperty
 (
 cx
 obj
@@ -7186,8 +7185,7 @@ JSPROP_SHARED
 JSPROP_ENUMERATE
 0
 0
-NULL
-JSDNP_DONT_PURGE
+DNP_DONT_PURGE
 )
 )
 {
@@ -8812,7 +8810,7 @@ obj
 if
 (
 !
-js_DefineNativeProperty
+DefineNativeProperty
 (
 cx
 obj
@@ -8831,7 +8829,6 @@ JSPROP_PERMANENT
 JSPROP_READONLY
 0
 0
-NULL
 )
 )
 {
@@ -8909,7 +8906,7 @@ obj
 if
 (
 !
-js_DefineNativeProperty
+DefineNativeProperty
 (
 cx
 obj
@@ -8931,7 +8928,6 @@ lfp
 -
 >
 tinyid
-NULL
 )
 )
 {
@@ -9087,7 +9083,7 @@ StrictPropertyStub
 if
 (
 !
-js_DefineNativeProperty
+DefineNativeProperty
 (
 cx
 obj
@@ -9105,7 +9101,6 @@ HAS_SHORTID
 p
 .
 tinyid
-NULL
 )
 )
 {

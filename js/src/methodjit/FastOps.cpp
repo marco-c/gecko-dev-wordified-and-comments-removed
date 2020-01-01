@@ -10321,12 +10321,12 @@ NULL
 #
 ifdef
 DEBUG
-int
+bool
 res
 =
 #
 endif
-js_LookupPropertyWithFlags
+LookupPropertyWithFlags
 (
 cx
 baseobj
@@ -10344,9 +10344,6 @@ prop
 JS_ASSERT
 (
 res
->
-=
-0
 &
 &
 prop

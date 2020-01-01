@@ -3287,7 +3287,7 @@ JSAutoResolveFlags
 rf
 (
 cx
-JSRESOLVE_INFER
+RESOLVE_INFER
 )
 ;
 ok
