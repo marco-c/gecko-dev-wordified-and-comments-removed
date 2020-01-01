@@ -365,13 +365,6 @@ MOZ_NATIVE_NSPR
 ifeq
 (
 (
-OS_ARCH
-)
-WINNT
-)
-ifeq
-(
-(
 _MSC_VER
 )
 1400
@@ -481,7 +474,6 @@ msvcr110
 .
 dll
 endif
-else
 ifdef
 MOZ_FOLD_LIBS
 JSSHELL_BINS
@@ -553,7 +545,6 @@ NULL
 endif
 #
 MOZ_FOLD_LIBS
-endif
 endif
 #
 MOZ_NATIVE_NSPR
