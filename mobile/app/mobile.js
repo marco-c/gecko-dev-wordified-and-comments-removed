@@ -1272,7 +1272,7 @@ cache
 .
 enabled
 "
-true
+false
 )
 ;
 pref
