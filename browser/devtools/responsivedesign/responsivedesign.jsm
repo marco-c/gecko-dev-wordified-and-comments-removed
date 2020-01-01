@@ -1060,7 +1060,7 @@ _transitionsEnabled
 true
 _floatingScrollbars
 :
-false
+true
 get
 transitionsEnabled
 (
