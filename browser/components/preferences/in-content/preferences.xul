@@ -933,6 +933,11 @@ include
 advanced
 .
 xul
+#
+include
+applications
+.
+xul
 <
 /
 prefpane
