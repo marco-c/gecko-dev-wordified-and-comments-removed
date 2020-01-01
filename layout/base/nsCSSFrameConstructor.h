@@ -4083,7 +4083,7 @@ nsFrameItems
 aResult
 )
 ;
-nsresult
+void
 CreateLetterFrame
 (
 nsIFrame
@@ -4103,7 +4103,7 @@ nsFrameItems
 aResult
 )
 ;
-nsresult
+void
 WrapFramesInFirstLetterFrame
 (
 nsIContent
@@ -4117,7 +4117,7 @@ nsFrameItems
 aBlockFrames
 )
 ;
-nsresult
+void
 WrapFramesInFirstLetterFrame
 (
 nsIFrame
@@ -4152,7 +4152,7 @@ bool
 aStopLooking
 )
 ;
-nsresult
+void
 RecoverLetterFrames
 (
 nsIFrame
