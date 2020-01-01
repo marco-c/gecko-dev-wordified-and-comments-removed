@@ -2515,7 +2515,7 @@ textbox
 id
 =
 "
-searchbox
+searchfield
 "
 emptytext
 =
@@ -2525,6 +2525,16 @@ searchAddons
 .
 label
 ;
+"
+type
+=
+"
+search
+"
+searchbutton
+=
+"
+true
 "
 oncommand
 =
@@ -2536,11 +2546,6 @@ this
 value
 )
 ;
-"
-persist
-=
-"
-value
 "
 /
 >
