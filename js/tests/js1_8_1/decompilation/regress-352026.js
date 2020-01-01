@@ -90,8 +90,10 @@ function
 {
 z
 (
+(
 yield
 3
+)
 )
 ;
 }
