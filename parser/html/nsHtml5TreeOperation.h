@@ -76,12 +76,6 @@ eTreeOpMarkMalformedIfScript
 eTreeOpStreamEnded
 eTreeOpSetStyleLineNumber
 eTreeOpSetScriptLineNumberAndFreeze
-#
-ifdef
-MOZ_SVG
-eTreeOpSvgLoad
-#
-endif
 eTreeOpStartLayout
 }
 ;
