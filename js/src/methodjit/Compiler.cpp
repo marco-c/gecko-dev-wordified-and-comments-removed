@@ -2775,6 +2775,10 @@ BEGIN_CASE
 (
 JSOP_TYPEOF
 )
+BEGIN_CASE
+(
+JSOP_TYPEOFEXPR
+)
 jsop_typeof
 (
 )
