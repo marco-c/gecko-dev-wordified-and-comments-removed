@@ -23,7 +23,7 @@ Nop
 \
 _
 (
-CaptureAllocations
+OsiPoint
 )
 \
 _

@@ -1843,6 +1843,16 @@ cpp
 CPPSRCS
 +
 =
+IonFrames
+-
+x86
+-
+shared
+.
+cpp
+CPPSRCS
++
+=
 MoveEmitter
 -
 x86
