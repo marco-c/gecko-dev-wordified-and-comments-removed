@@ -476,6 +476,10 @@ nsRecentBadCerts
 .
 cpp
 \
+nsClientAuthRemember
+.
+cpp
+\
 nsPSMBackgroundThread
 .
 cpp
