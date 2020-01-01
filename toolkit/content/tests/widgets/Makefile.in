@@ -455,6 +455,10 @@ test_popup_coords
 .
 xul
 \
+test_popup_recreate
+.
+xul
+\
 (
 NULL
 )
