@@ -33274,6 +33274,7 @@ self
 infoName
 opName
 infallible
+constant
 )
 :
         
@@ -33313,15 +33314,17 @@ protoID
         
 failstr
 =
-"
-true
-"
-if
+toStringBool
+(
 infallible
-else
-"
-false
-"
+)
+        
+conststr
+=
+toStringBool
+(
+constant
+)
         
 return
 (
@@ -33380,7 +33383,8 @@ n
 "
                 
 "
-false
+%
+s
 /
 *
 isConstant
@@ -33409,6 +33413,7 @@ opName
 protoID
 depth
 failstr
+conststr
 )
 )
     
@@ -33506,6 +33511,19 @@ self
 descriptor
 )
             
+getterconst
+=
+self
+.
+member
+.
+getExtendedAttribute
+(
+"
+Constant
+"
+)
+            
 result
 =
 self
@@ -33515,6 +33533,7 @@ defineJitInfo
 getterinfo
 getter
 getterinfal
+getterconst
 )
             
 if
@@ -33587,6 +33606,7 @@ defineJitInfo
 (
 setterinfo
 setter
+False
 False
 )
             
@@ -33720,6 +33740,7 @@ defineJitInfo
 methodinfo
 method
 methodInfal
+False
 )
             
 return

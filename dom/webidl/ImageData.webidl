@@ -181,6 +181,9 @@ unsigned
 long
 height
 ;
+[
+Constant
+]
 readonly
 attribute
 Uint8ClampedArray
