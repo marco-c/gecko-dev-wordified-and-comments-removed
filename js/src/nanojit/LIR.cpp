@@ -1306,12 +1306,6 @@ priorBlock
 =
 0
 ;
-LIns
-*
-priorIns
-=
-0
-;
 LirReader
 rdr
 (
@@ -1513,10 +1507,6 @@ put
 ins
 true
 )
-;
-priorIns
-=
-ins
 ;
 }
 }
