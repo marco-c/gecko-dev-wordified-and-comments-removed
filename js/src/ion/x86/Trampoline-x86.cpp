@@ -48,6 +48,9 @@ cx
 {
 MacroAssembler
 masm
+(
+cx
+)
 ;
 masm
 .
