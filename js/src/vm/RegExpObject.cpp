@@ -1200,12 +1200,9 @@ if
 cx
 -
 >
-compartment
+regExps
 (
 )
--
->
-regExps
 .
 get
 (

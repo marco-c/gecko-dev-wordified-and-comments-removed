@@ -3412,8 +3412,6 @@ runtime
 -
 >
 atomsCompartment
-(
-)
 )
 ;
 for

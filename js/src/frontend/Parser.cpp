@@ -28941,12 +28941,7 @@ res
 context
 -
 >
-global
-(
-)
--
->
-getRegExpStatics
+regExpStatics
 (
 )
 )
