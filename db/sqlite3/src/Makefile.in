@@ -345,16 +345,6 @@ MODULE_OPTIMIZE_FLAGS
 -
 O2
 endif
-EXPORTS
-=
-\
-sqlite3
-.
-h
-\
-(
-NULL
-)
 CSRCS
 =
 \

@@ -130,16 +130,6 @@ cpp
 (
 NULL
 )
-EXPORTS
-=
-\
-nsCollation
-.
-h
-\
-(
-NULL
-)
 EXPORT_RESOURCE
 =
 \

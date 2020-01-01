@@ -98,3 +98,13 @@ MODULE
 '
 editor
 '
+EXPORTS
++
+=
+[
+'
+nsEditorCID
+.
+h
+'
+]

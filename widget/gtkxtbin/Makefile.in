@@ -98,11 +98,6 @@ c
 NULL
 )
 endif
-EXPORTS
-=
-gtk2xtbin
-.
-h
 include
 (
 topsrcdir

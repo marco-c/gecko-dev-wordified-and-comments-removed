@@ -76,16 +76,6 @@ config
 autoconf
 .
 mk
-EXPORTS
-=
-\
-nsJSPrincipals
-.
-h
-\
-(
-NULL
-)
 include
 (
 topsrcdir

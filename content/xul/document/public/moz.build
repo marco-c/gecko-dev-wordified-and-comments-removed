@@ -126,6 +126,16 @@ nsIXULOverlayProvider
 idl
 '
 ]
+EXPORTS
++
+=
+[
+'
+nsIXULDocument
+.
+h
+'
+]
 MODULE
 =
 '

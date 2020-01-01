@@ -75,14 +75,6 @@ config
 autoconf
 .
 mk
-EXPORTS_NAMESPACES
-=
-vorbis
-EXPORTS_vorbis
-=
-codec
-.
-h
 include
 (
 topsrcdir

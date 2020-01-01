@@ -159,11 +159,6 @@ config
 autoconf
 .
 mk
-EXPORTS
-=
-OrientationObserver
-.
-h
 LIBRARY_NAME
 =
 widget_gonk

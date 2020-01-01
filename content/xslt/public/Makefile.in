@@ -75,16 +75,6 @@ config
 autoconf
 .
 mk
-EXPORTS
-=
-\
-nsIDocumentTransformer
-.
-h
-\
-(
-NULL
-)
 include
 (
 topsrcdir

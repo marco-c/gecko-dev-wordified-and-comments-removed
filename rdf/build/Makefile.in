@@ -149,11 +149,6 @@ LIB_SUFFIX
 (
 NULL
 )
-EXPORTS
-=
-nsRDFCID
-.
-h
 include
 (
 topsrcdir

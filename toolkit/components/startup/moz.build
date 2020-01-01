@@ -116,3 +116,15 @@ MODULE
 '
 toolkitcomps
 '
+EXPORTS
+.
+mozilla
++
+=
+[
+'
+StartupTimeline
+.
+h
+'
+]

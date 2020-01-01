@@ -75,14 +75,6 @@ config
 autoconf
 .
 mk
-EXPORTS_NAMESPACES
-=
-tremor
-EXPORTS_tremor
-=
-ivorbiscodec
-.
-h
 include
 (
 topsrcdir

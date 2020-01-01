@@ -150,3 +150,13 @@ MODULE
 '
 locale
 '
+EXPORTS
++
+=
+[
+'
+nsCollation
+.
+h
+'
+]

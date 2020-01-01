@@ -115,3 +115,13 @@ MODULE
 '
 parser
 '
+EXPORTS
++
+=
+[
+'
+nsCharsetSource
+.
+h
+'
+]

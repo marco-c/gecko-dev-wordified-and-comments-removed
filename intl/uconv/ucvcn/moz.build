@@ -98,3 +98,13 @@ MODULE
 '
 ucvcn
 '
+EXPORTS
++
+=
+[
+'
+nsUCvCnCID
+.
+h
+'
+]

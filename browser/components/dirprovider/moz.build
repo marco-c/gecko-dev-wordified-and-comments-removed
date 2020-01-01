@@ -106,3 +106,17 @@ MODULE
 '
 browserdir
 '
+EXPORTS
+.
+mozilla
+.
+browser
++
+=
+[
+'
+DirectoryProvider
+.
+h
+'
+]

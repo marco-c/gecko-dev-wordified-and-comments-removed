@@ -98,3 +98,13 @@ MODULE
 '
 tracemalloc
 '
+EXPORTS
++
+=
+[
+'
+nsTraceMalloc
+.
+h
+'
+]

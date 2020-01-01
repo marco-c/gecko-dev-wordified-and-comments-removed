@@ -138,3 +138,17 @@ MODULE
 '
 necko
 '
+EXPORTS
+.
+mozilla
+.
+net
++
+=
+[
+'
+DNS
+.
+h
+'
+]

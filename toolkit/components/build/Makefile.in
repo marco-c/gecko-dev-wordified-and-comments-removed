@@ -91,11 +91,6 @@ nsToolkitCompsModule
 LIBXUL_LIBRARY
 =
 1
-EXPORTS
-=
-nsToolkitCompsCID
-.
-h
 CPPSRCS
 =
 nsToolkitCompsModule

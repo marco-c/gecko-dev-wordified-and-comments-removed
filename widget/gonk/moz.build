@@ -169,3 +169,13 @@ MODULE
 '
 widget
 '
+EXPORTS
++
+=
+[
+'
+OrientationObserver
+.
+h
+'
+]

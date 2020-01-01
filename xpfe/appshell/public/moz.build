@@ -133,3 +133,13 @@ MODULE
 '
 appshell
 '
+EXPORTS
++
+=
+[
+'
+nsAppShellCID
+.
+h
+'
+]

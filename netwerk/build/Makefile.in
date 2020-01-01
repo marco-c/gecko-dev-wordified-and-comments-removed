@@ -100,11 +100,6 @@ CPPSRCS
 nsNetModule
 .
 cpp
-EXPORTS
-=
-nsNetCID
-.
-h
 SHARED_LIBRARY_LIBS
 =
 \

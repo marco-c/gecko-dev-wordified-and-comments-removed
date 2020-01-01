@@ -76,11 +76,6 @@ config
 autoconf
 .
 mk
-EXPORTS
-=
-jemalloc_types
-.
-h
 ifndef
 MOZ_JEMALLOC3
 CSRCS

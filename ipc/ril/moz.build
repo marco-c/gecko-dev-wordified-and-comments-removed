@@ -98,3 +98,17 @@ MODULE
 '
 ipc
 '
+EXPORTS
+.
+mozilla
+.
+ipc
++
+=
+[
+'
+Ril
+.
+h
+'
+]

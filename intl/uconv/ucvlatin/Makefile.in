@@ -547,11 +547,6 @@ cpp
 (
 NULL
 )
-EXPORTS
-=
-nsUCvLatinCID
-.
-h
 LOCAL_INCLUDES
 =
 -

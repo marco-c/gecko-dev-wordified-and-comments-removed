@@ -477,11 +477,6 @@ nss
 lib
 /
 ssl
-EXPORTS
-=
-APKOpen
-.
-h
 include
 (
 topsrcdir

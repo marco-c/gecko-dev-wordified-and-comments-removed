@@ -164,3 +164,13 @@ MODULE
 '
 dom
 '
+EXPORTS
++
+=
+[
+'
+nsPIDOMStorage
+.
+h
+'
+]

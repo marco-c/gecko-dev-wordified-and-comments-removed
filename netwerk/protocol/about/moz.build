@@ -113,3 +113,13 @@ MODULE
 '
 necko
 '
+EXPORTS
++
+=
+[
+'
+nsAboutProtocolUtils
+.
+h
+'
+]

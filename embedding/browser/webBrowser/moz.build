@@ -211,3 +211,13 @@ MODULE
 '
 webbrwsr
 '
+EXPORTS
++
+=
+[
+'
+nsCTooltipTextProvider
+.
+h
+'
+]

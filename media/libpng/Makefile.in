@@ -183,17 +183,6 @@ DMOZ_PNG_READ
 \
 -
 DMOZ_PNG_WRITE
-EXPORTS
-=
-png
-.
-h
-pngconf
-.
-h
-mozpngconf
-.
-h
 LOCAL_INCLUDES
 =
 -

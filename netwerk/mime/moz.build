@@ -136,3 +136,13 @@ MODULE
 '
 mimetype
 '
+EXPORTS
++
+=
+[
+'
+nsMimeTypes
+.
+h
+'
+]

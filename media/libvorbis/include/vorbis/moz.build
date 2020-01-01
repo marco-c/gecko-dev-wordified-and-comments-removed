@@ -93,3 +93,15 @@ MPL
 0
 /
 .
+EXPORTS
+.
+vorbis
++
+=
+[
+'
+codec
+.
+h
+'
+]

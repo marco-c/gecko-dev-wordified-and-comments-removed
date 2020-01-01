@@ -76,16 +76,6 @@ config
 autoconf
 .
 mk
-EXPORTS
-=
-\
-nsIXMLContentSink
-.
-h
-\
-(
-NULL
-)
 include
 (
 topsrcdir

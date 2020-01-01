@@ -76,16 +76,6 @@ config
 autoconf
 .
 mk
-EXPORTS
-=
-\
-nsIAccessibilityService
-.
-h
-\
-(
-NULL
-)
 include
 (
 topsrcdir

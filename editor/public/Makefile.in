@@ -80,17 +80,6 @@ config
 autoconf
 .
 mk
-EXPORTS
-:
-=
-\
-nsEditorCID
-.
-h
-\
-(
-NULL
-)
 include
 (
 topsrcdir

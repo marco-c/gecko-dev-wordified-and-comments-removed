@@ -76,11 +76,6 @@ config
 autoconf
 .
 mk
-EXPORTS
-=
-ImageLogging
-.
-h
 include
 (
 topsrcdir

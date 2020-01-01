@@ -88,15 +88,6 @@ LIBXUL_LIBRARY
 FAIL_ON_WARNINGS
 =
 1
-EXPORTS
-=
-nsSHEntryShared
-.
-h
-\
-(
-NULL
-)
 CPPSRCS
 =
 nsSHEntry

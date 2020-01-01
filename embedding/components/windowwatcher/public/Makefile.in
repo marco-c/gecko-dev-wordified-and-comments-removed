@@ -91,15 +91,6 @@ config
 autoconf
 .
 mk
-EXPORTS
-=
-nsPromptUtils
-.
-h
-\
-(
-NULL
-)
 include
 (
 topsrcdir

@@ -98,3 +98,17 @@ MODULE
 '
 dom
 '
+EXPORTS
+.
+mozilla
+.
+dom
++
+=
+[
+'
+DOMStorageIPC
+.
+h
+'
+]

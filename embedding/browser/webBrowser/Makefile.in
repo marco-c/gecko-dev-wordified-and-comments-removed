@@ -82,16 +82,6 @@ nsWebBrowser_s
 LIBXUL_LIBRARY
 =
 1
-EXPORTS
-=
-\
-nsCTooltipTextProvider
-.
-h
-\
-(
-NULL
-)
 LOCAL_INCLUDES
 =
 \

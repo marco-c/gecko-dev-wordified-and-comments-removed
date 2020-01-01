@@ -115,16 +115,6 @@ cpp
 (
 NULL
 )
-EXPORTS
-=
-\
-nsIHTMLDocument
-.
-h
-\
-(
-NULL
-)
 #
 we
 don

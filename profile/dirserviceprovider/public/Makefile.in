@@ -75,16 +75,6 @@ config
 autoconf
 .
 mk
-EXPORTS
-=
-\
-nsProfileDirServiceProvider
-.
-h
-\
-(
-NULL
-)
 include
 (
 topsrcdir

@@ -133,3 +133,15 @@ MODULE
 '
 pref
 '
+EXPORTS
+.
+mozilla
++
+=
+[
+'
+Preferences
+.
+h
+'
+]

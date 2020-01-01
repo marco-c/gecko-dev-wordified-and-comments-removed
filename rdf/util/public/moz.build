@@ -98,3 +98,13 @@ MODULE
 '
 rdfutil
 '
+EXPORTS
++
+=
+[
+'
+nsRDFResource
+.
+h
+'
+]

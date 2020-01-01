@@ -98,3 +98,17 @@ XPIDL_MODULE
 '
 dom_cellbroadcast
 '
+EXPORTS
+.
+mozilla
+.
+dom
++
+=
+[
+'
+CellBroadcast
+.
+h
+'
+]

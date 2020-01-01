@@ -114,3 +114,13 @@ MODULE
 '
 jsdebug
 '
+EXPORTS
++
+=
+[
+'
+jsdebug
+.
+h
+'
+]

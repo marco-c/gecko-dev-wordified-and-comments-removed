@@ -91,16 +91,6 @@ cpp
 (
 NULL
 )
-EXPORTS
-=
-\
-nsIAppStartupNotifier
-.
-h
-\
-(
-NULL
-)
 #
 we
 don

@@ -119,11 +119,6 @@ cpp
 (
 NULL
 )
-EXPORTS
-=
-nsTraceMalloc
-.
-h
 ifeq
 (
 (

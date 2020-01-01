@@ -82,12 +82,6 @@ accessibility_xpcom_s
 LIBXUL_LIBRARY
 =
 1
-EXPORTS
-:
-=
-xpcAccEvents
-.
-h
 CPPSRCS
 =
 \

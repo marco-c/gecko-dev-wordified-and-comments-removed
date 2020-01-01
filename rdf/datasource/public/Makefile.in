@@ -76,16 +76,6 @@ config
 autoconf
 .
 mk
-EXPORTS
-=
-\
-nsILocalStore
-.
-h
-\
-(
-NULL
-)
 include
 (
 topsrcdir

@@ -218,16 +218,6 @@ HOST_CSRCS
 (
 CSRCS
 )
-EXPORTS
-=
-\
-bzlib
-.
-h
-\
-(
-NULL
-)
 include
 (
 topsrcdir

@@ -106,3 +106,13 @@ MODULE
 '
 layout
 '
+EXPORTS
++
+=
+[
+'
+nsITableCellLayout
+.
+h
+'
+]

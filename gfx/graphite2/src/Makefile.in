@@ -191,14 +191,6 @@ src
 _SOURCES
 )
 )
-EXPORTS_NAMESPACES
-=
-graphite2
-EXPORTS_graphite2
-=
-(
-_PUBLIC_HEADERS
-)
 FORCE_STATIC_LIB
 =
 1

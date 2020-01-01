@@ -153,3 +153,13 @@ MODULE
 '
 imglib2
 '
+EXPORTS
++
+=
+[
+'
+ImageLogging
+.
+h
+'
+]

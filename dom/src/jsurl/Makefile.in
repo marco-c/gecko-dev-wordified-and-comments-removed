@@ -97,15 +97,6 @@ CPPSRCS
 nsJSProtocolHandler
 .
 cpp
-EXPORTS
-=
-(
-srcdir
-)
-/
-nsJSProtocolHandler
-.
-h
 LOCAL_INCLUDES
 +
 =

@@ -123,11 +123,6 @@ cpp
 (
 NULL
 )
-EXPORTS
-=
-nsUCvCnCID
-.
-h
 LOCAL_INCLUDES
 =
 -

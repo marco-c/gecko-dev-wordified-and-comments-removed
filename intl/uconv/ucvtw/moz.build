@@ -98,3 +98,13 @@ MODULE
 '
 ucvtw
 '
+EXPORTS
++
+=
+[
+'
+nsUCvTWCID
+.
+h
+'
+]

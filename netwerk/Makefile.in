@@ -75,13 +75,6 @@ config
 autoconf
 .
 mk
-EXPORTS
-=
-necko
--
-config
-.
-h
 include
 (
 topsrcdir

@@ -98,3 +98,13 @@ MODULE
 '
 ucvlatin
 '
+EXPORTS
++
+=
+[
+'
+nsUCvLatinCID
+.
+h
+'
+]

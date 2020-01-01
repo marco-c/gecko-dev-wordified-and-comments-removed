@@ -154,3 +154,15 @@ MODULE
 '
 dom
 '
+EXPORTS
+.
+mozilla
++
+=
+[
+'
+MediaManager
+.
+h
+'
+]

@@ -238,16 +238,6 @@ DEFINES
 DUNICODE
 -
 D_UNICODE
-EXPORTS
-=
-\
-nsExceptionHandler
-.
-h
-\
-(
-NULL
-)
 CPPSRCS
 =
 \

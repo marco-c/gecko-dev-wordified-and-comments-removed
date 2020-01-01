@@ -98,3 +98,13 @@ MODULE
 '
 content
 '
+EXPORTS
++
+=
+[
+'
+nsIHTMLDocument
+.
+h
+'
+]

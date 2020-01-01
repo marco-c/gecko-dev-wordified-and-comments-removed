@@ -98,3 +98,13 @@ MODULE
 '
 profdirserviceprovider
 '
+EXPORTS
++
+=
+[
+'
+nsProfileDirServiceProvider
+.
+h
+'
+]

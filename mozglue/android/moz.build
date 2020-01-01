@@ -98,3 +98,13 @@ MODULE
 '
 android
 '
+EXPORTS
++
+=
+[
+'
+APKOpen
+.
+h
+'
+]

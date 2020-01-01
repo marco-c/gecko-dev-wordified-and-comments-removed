@@ -228,17 +228,6 @@ xpwidgets
 libxpwidgets_s
 .
 a
-EXPORTS
-=
-AndroidBridge
-.
-h
-AndroidJavaWrappers
-.
-h
-AndroidJNIWrapper
-.
-h
 include
 (
 topsrcdir

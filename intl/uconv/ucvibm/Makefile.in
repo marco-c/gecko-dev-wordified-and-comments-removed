@@ -178,11 +178,6 @@ cpp
 NULL
 )
 endif
-EXPORTS
-=
-nsUCvIBMCID
-.
-h
 LOCAL_INCLUDES
 =
 -

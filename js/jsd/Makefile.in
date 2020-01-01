@@ -115,11 +115,6 @@ REQUIRES
 =
 java
 js
-EXPORTS
-=
-jsdebug
-.
-h
 ifdef
 JS_THREADSAFE
 DEFINES

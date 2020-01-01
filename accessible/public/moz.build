@@ -262,3 +262,13 @@ MODULE
 '
 accessibility
 '
+EXPORTS
++
+=
+[
+'
+nsIAccessibilityService
+.
+h
+'
+]

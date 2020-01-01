@@ -108,3 +108,13 @@ MODULE
 '
 browsercomps
 '
+EXPORTS
++
+=
+[
+'
+nsBrowserComponents
+.
+h
+'
+]

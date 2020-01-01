@@ -111,16 +111,6 @@ cpp
 (
 NULL
 )
-EXPORTS
-=
-\
-nsMediaSniffer
-.
-h
-\
-(
-NULL
-)
 include
 (
 topsrcdir

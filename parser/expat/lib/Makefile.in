@@ -96,16 +96,6 @@ c
 (
 NULL
 )
-EXPORTS
-=
-\
-expat
-.
-h
-\
-expat_external
-.
-h
 #
 We
 want

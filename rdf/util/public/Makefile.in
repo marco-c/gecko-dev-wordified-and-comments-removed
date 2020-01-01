@@ -76,15 +76,6 @@ config
 autoconf
 .
 mk
-EXPORTS
-=
-(
-srcdir
-)
-/
-nsRDFResource
-.
-h
 include
 (
 topsrcdir

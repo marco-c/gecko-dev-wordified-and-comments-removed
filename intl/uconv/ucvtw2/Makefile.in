@@ -128,11 +128,6 @@ srcdir
 .
 /
 util
-EXPORTS
-=
-nsUCvTW2CID
-.
-h
 include
 (
 topsrcdir

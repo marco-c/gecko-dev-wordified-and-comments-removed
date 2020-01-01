@@ -98,3 +98,13 @@ MODULE
 '
 jprof
 '
+EXPORTS
++
+=
+[
+'
+jprof
+.
+h
+'
+]
