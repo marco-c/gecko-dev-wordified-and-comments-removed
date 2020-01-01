@@ -29723,6 +29723,10 @@ isMagic
 JS_OPTIMIZED_ARGUMENTS
 )
 )
+{
+if
+(
+!
 GuardFunApplyArgumentsOptimization
 (
 cx
@@ -29731,7 +29735,11 @@ callee
 args
 argc
 )
+)
+return
+false
 ;
+}
 bool
 constructing
 =
