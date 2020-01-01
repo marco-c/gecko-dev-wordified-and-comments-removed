@@ -3650,6 +3650,11 @@ yet
 "
 )
 ;
+if
+(
+sWindowsById
+)
+{
 sWindowsById
 -
 >
@@ -3659,6 +3664,7 @@ mWindowID
 this
 )
 ;
+}
 mEventTargetObjects
 .
 Init
