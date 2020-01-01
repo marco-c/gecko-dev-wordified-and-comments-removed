@@ -6547,7 +6547,7 @@ TabParent
 RecvZoomToRect
 (
 const
-gfxRect
+CSSRect
 &
 aRect
 )
