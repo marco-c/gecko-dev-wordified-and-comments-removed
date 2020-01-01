@@ -554,6 +554,10 @@ nsIDocumentLoaderFactory
 .
 idl
 \
+nsIPrivacyTransitionObserver
+.
+idl
+\
 (
 NULL
 )
