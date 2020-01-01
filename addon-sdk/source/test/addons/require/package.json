@@ -15,4 +15,13 @@ packages
 "
 packages
 "
+"
+ignore
+-
+deprecated
+-
+path
+"
+:
+true
 }

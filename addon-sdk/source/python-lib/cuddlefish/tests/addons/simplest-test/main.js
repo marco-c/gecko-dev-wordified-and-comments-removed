@@ -24,9 +24,9 @@ callbacks
 require
 (
 "
-api
--
-utils
+sdk
+/
+deprecated
 /
 window
 -
@@ -45,9 +45,9 @@ if
 require
 (
 "
-api
--
-utils
+sdk
+/
+system
 /
 runtime
 "

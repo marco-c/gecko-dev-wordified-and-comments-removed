@@ -4,6 +4,8 @@ self
 require
 (
 "
+sdk
+/
 self
 "
 )
@@ -14,9 +16,7 @@ panels
 require
 (
 "
-addon
--
-kit
+sdk
 /
 panel
 "
@@ -28,9 +28,7 @@ widgets
 require
 (
 "
-addon
--
-kit
+sdk
 /
 widget
 "

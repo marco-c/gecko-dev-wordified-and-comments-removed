@@ -10,4 +10,13 @@ layout
 -
 change
 "
+"
+ignore
+-
+deprecated
+-
+path
+"
+:
+true
 }

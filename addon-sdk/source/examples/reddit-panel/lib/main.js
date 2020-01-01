@@ -4,6 +4,8 @@ data
 require
 (
 "
+sdk
+/
 self
 "
 )
@@ -16,6 +18,8 @@ reddit_panel
 require
 (
 "
+sdk
+/
 panel
 "
 )
@@ -101,6 +105,8 @@ url
 require
 (
 "
+sdk
+/
 tabs
 "
 )
@@ -116,6 +122,8 @@ url
 require
 (
 "
+sdk
+/
 widget
 "
 )

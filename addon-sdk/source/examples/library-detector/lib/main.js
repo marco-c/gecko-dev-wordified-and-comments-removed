@@ -4,6 +4,8 @@ tabs
 require
 (
 '
+sdk
+/
 tabs
 '
 )
@@ -14,6 +16,8 @@ widgets
 require
 (
 '
+sdk
+/
 widget
 '
 )
@@ -24,6 +28,8 @@ data
 require
 (
 '
+sdk
+/
 self
 '
 )
@@ -36,6 +42,8 @@ pageMod
 require
 (
 '
+sdk
+/
 page
 -
 mod
@@ -48,6 +56,8 @@ panel
 require
 (
 '
+sdk
+/
 panel
 '
 )
