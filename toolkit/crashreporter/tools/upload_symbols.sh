@@ -646,6 +646,14 @@ SYMBOL_ARCHIVE
 }
 "
 scp
+-
+oLogLevel
+=
+DEBUG
+-
+oRekeyLimit
+=
+10M
 {
 SYMBOL_SERVER_PORT
 :
