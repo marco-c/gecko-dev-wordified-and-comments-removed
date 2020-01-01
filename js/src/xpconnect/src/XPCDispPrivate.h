@@ -682,6 +682,14 @@ Unmark
 (
 )
 ;
+inline
+void
+Mark
+(
+JSContext
+*
+)
+;
 JSBool
 IsMarked
 (

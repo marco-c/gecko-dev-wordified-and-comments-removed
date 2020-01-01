@@ -1660,11 +1660,8 @@ void
 XPCDispIDArray
 :
 :
-TraceJS
+Mark
 (
-JSTracer
-*
-trc
 )
 {
 }
