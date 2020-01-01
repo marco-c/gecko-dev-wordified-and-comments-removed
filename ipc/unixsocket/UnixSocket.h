@@ -303,6 +303,7 @@ SocketConnectionStatus
 GetConnectionStatus
 (
 )
+const
 {
 return
 mConnectionStatus
