@@ -5671,6 +5671,11 @@ ccx
 JSObject
 *
 aGlobal
+nsISupports
+*
+aNative
+=
+nsnull
 )
 ;
 XPCJSRuntime
@@ -5984,6 +5989,9 @@ ccx
 JSObject
 *
 aGlobal
+nsISupports
+*
+aNative
 )
 ;
 static
@@ -6132,6 +6140,9 @@ ccx
 JSObject
 *
 aGlobal
+nsISupports
+*
+aNative
 )
 ;
 virtual
