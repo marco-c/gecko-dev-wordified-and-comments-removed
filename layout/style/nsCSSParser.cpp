@@ -1303,11 +1303,11 @@ class
 nsAutoParseCompoundProperty
 ;
 class
-nsAutoParseCompoundProperty
+nsAutoFailingSupportsRule
 ;
 friend
 class
-nsAutoParseCompoundProperty
+nsAutoFailingSupportsRule
 ;
 class
 nsAutoSuppressErrors
