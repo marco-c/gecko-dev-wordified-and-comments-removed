@@ -80,7 +80,7 @@ h
 #
 include
 "
-nsDependentString
+nsPromiseFlatString
 .
 h
 "
@@ -227,7 +227,7 @@ cpc
 >
 AddRemoteAlertObserver
 (
-nsDependentString
+PromiseFlatString
 (
 aAlertCookie
 )
