@@ -2646,6 +2646,10 @@ object
 uintN
 index
 ;
+JSObjectBox
+*
+parent
+;
 }
 ;
 #

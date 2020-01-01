@@ -2052,6 +2052,9 @@ closedArgs
 SlotVector
 closedVars
 ;
+uint16
+traceIndex
+;
 JSCodeGenerator
 (
 js
@@ -2829,6 +2832,9 @@ SRC_FOR
 =
 3
 SRC_WHILE
+=
+4
+SRC_TRACE
 =
 4
 SRC_CONTINUE
