@@ -3582,7 +3582,7 @@ result
 ;
 for
 (
-PRUint32
+size_t
 iHigh
 =
 0
@@ -3613,7 +3613,7 @@ continue
 ;
 for
 (
-PRInt32
+size_t
 iLow
 =
 0
@@ -4076,7 +4076,7 @@ nsnull
 }
 for
 (
-PRUint32
+size_t
 iHigh
 =
 0
@@ -4107,7 +4107,7 @@ continue
 ;
 for
 (
-PRInt32
+size_t
 iLow
 =
 0
@@ -4682,7 +4682,7 @@ Clear
 {
 for
 (
-PRUint32
+size_t
 iHigh
 =
 0
@@ -4713,7 +4713,7 @@ continue
 ;
 for
 (
-PRInt32
+size_t
 iLow
 =
 0
