@@ -2229,9 +2229,6 @@ nm2tsv
 nsinstall
 *
 \
-rebasedlls
-*
-\
 res
 /
 samples
