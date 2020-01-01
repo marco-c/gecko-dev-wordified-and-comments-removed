@@ -223,7 +223,7 @@ dom
 :
 Element
 *
-aElement
+aTargetElement
 const
 nsAString
 &
@@ -233,6 +233,11 @@ aUseSVGMode
 Value
 &
 aComputedValue
+PRBool
+*
+aIsContextSensitive
+=
+nsnull
 )
 ;
 static
