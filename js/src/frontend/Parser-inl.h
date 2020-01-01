@@ -178,14 +178,9 @@ prs
 >
 context
 )
-yieldNode
+yieldOffset
 (
-ParseHandler
-:
-:
-null
-(
-)
+0
 )
 parserPC
 (
