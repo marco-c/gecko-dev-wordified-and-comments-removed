@@ -2722,8 +2722,11 @@ vp
 2
 ]
 :
-undefinedValue
+Value
 (
+UndefinedTag
+(
+)
 )
 )
 ;
@@ -9551,8 +9554,14 @@ sp
 +
 -
 >
-setNull
+setObjectOrNull
 (
+lambda
+-
+>
+getParent
+(
+)
 )
 ;
 if
@@ -20657,7 +20666,7 @@ atomState
 .
 lengthAtom
 )
-undefinedValue
+UndefinedTag
 (
 )
 NULL

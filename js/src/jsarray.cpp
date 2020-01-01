@@ -15035,7 +15035,7 @@ bytes
 ;
 bytes
 =
-js_DecompileValueGenerator
+DecompileValueGenerator
 (
 cx
 JSDVG_SEARCH_STACK

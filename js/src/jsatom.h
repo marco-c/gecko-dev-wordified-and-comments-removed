@@ -68,6 +68,13 @@ jslock
 h
 "
 #
+include
+"
+jsvalue
+.
+h
+"
+#
 define
 ATOM_PINNED
 0x1

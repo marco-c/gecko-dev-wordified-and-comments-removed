@@ -3936,6 +3936,7 @@ if
 JSDOUBLE_IS_INT32
 (
 d
+&
 i
 )
 )
@@ -4116,6 +4117,7 @@ if
 JSDOUBLE_IS_INT32
 (
 d
+&
 i
 )
 )

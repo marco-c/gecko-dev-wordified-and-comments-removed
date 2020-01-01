@@ -32,6 +32,13 @@ jsprvtd
 .
 h
 "
+#
+include
+"
+jsvalue
+.
+h
+"
 namespace
 js
 {
@@ -591,9 +598,6 @@ shape
 }
 enum
 {
-INVALID_SHAPE
-=
-0x8fffffff
 SHAPELESS
 =
 0xffffffff
@@ -1570,6 +1574,8 @@ Value
 pthis
 )
 ;
+private
+:
 static
 const
 uint32
@@ -1577,8 +1583,6 @@ JSSLOT_ARRAY_LENGTH
 =
 JSSLOT_PRIVATE
 ;
-private
-:
 static
 const
 uint32
@@ -5656,14 +5660,6 @@ JSStackFrame
 start
 =
 NULL
-)
-;
-bool
-IsSaneThisObject
-(
-JSObject
-&
-obj
 )
 ;
 #
