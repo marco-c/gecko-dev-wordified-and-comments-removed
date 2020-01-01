@@ -1554,7 +1554,7 @@ HUD
 jsterm
 ;
 let
-group
+node
 =
 jsterm
 .
@@ -1567,6 +1567,16 @@ querySelector
 hud
 -
 group
+:
+last
+-
+child
+>
+label
+:
+last
+-
+child
 "
 )
 ;
@@ -1579,19 +1589,9 @@ bar
 .
 test
 (
-group
+node
 .
-childNodes
-[
-1
-]
-.
-childNodes
-[
-0
-]
-.
-nodeValue
+textContent
 )
 "
 Emitted
@@ -1797,7 +1797,7 @@ group
 childNodes
 .
 length
-5
+4
 "
 Four
 children
@@ -1817,7 +1817,7 @@ isnot
 (
 outputChildren
 [
-1
+0
 ]
 .
 textContent
@@ -1846,7 +1846,7 @@ isnot
 (
 outputChildren
 [
-2
+1
 ]
 .
 textContent
@@ -1874,7 +1874,7 @@ imageLogged
 (
 outputChildren
 [
-3
+2
 ]
 .
 textContent
@@ -1897,7 +1897,7 @@ png
 |
 outputChildren
 [
-4
+3
 ]
 .
 textContent
@@ -1945,7 +1945,7 @@ logLogged
 (
 outputChildren
 [
-3
+2
 ]
 .
 textContent
@@ -1962,7 +1962,7 @@ logOutput
 |
 outputChildren
 [
-4
+3
 ]
 .
 textContent
@@ -2746,7 +2746,7 @@ group
 childNodes
 .
 length
-4
+3
 "
 Four
 children
@@ -2787,7 +2787,7 @@ test
 (
 outputChildren
 [
-1
+0
 ]
 .
 childNodes
@@ -2810,7 +2810,7 @@ test
 (
 outputChildren
 [
-2
+1
 ]
 .
 childNodes
@@ -3096,7 +3096,7 @@ group
 childNodes
 .
 length
-3
+2
 "
 Three
 children
@@ -3116,7 +3116,7 @@ is
 (
 outputChildren
 [
-2
+1
 ]
 .
 childNodes
@@ -3175,7 +3175,7 @@ group
 childNodes
 .
 length
-3
+2
 "
 Three
 children
@@ -3194,7 +3194,7 @@ is
 (
 outputChildren
 [
-2
+1
 ]
 .
 childNodes
@@ -3284,7 +3284,7 @@ jsInputNode
 =
 outputChildren
 [
-1
+0
 ]
 ;
 isnot
@@ -3368,7 +3368,7 @@ jsOutputNode
 =
 outputChildren
 [
-2
+1
 ]
 ;
 isnot
@@ -6709,7 +6709,7 @@ group
 childNodes
 .
 length
-3
+2
 "
 Three
 children
@@ -6736,7 +6736,7 @@ test
 (
 outputChildren
 [
-1
+0
 ]
 .
 childNodes
@@ -6762,7 +6762,7 @@ isnot
 (
 outputChildren
 [
-2
+1
 ]
 .
 childNodes
@@ -6878,7 +6878,7 @@ group
 .
 childNodes
 [
-2
+1
 ]
 .
 textContent
@@ -6954,7 +6954,7 @@ group
 .
 childNodes
 [
-4
+3
 ]
 .
 textContent
@@ -7047,7 +7047,7 @@ group
 .
 childNodes
 [
-4
+3
 ]
 .
 textContent
@@ -7098,7 +7098,7 @@ group
 .
 childNodes
 [
-1
+0
 ]
 .
 textContent
@@ -7173,7 +7173,7 @@ group
 .
 childNodes
 [
-2
+1
 ]
 .
 textContent
@@ -7248,7 +7248,7 @@ group
 .
 childNodes
 [
-2
+1
 ]
 .
 textContent
@@ -7313,7 +7313,7 @@ group
 .
 childNodes
 [
-2
+1
 ]
 .
 textContent
