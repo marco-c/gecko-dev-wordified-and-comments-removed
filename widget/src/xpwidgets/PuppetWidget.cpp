@@ -1254,6 +1254,12 @@ textEvent
 nsnull
 )
 ;
+textEvent
+.
+seqno
+=
+mIMELastReceivedSeqno
+;
 if
 (
 !
@@ -1306,6 +1312,12 @@ InitEvent
 compEvent
 nsnull
 )
+;
+compEvent
+.
+seqno
+=
+mIMELastReceivedSeqno
 ;
 DispatchEvent
 (
