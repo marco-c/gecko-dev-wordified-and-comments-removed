@@ -470,6 +470,10 @@ jupiter
 .
 jpg
 \
+test_cancelOfflineCache
+.
+html
+\
 (
 NULL
 )
