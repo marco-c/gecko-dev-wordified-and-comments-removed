@@ -432,6 +432,10 @@ nsIExtensionManager
 .
 idl
 \
+nsIBlocklistService
+.
+idl
+\
 nsIAddonRepository
 .
 idl
