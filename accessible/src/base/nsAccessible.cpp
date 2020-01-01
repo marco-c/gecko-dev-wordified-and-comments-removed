@@ -764,6 +764,9 @@ NS_ADDREF_THIS
 (
 )
 ;
+return
+NS_OK
+;
 }
 }
 }
@@ -809,6 +812,9 @@ this
 NS_ADDREF_THIS
 (
 )
+;
+return
+NS_OK
 ;
 }
 }
