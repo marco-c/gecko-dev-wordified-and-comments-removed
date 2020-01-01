@@ -378,7 +378,15 @@ child
 >
 SendPContentPermissionRequestConstructor
 (
-request
+copy
+.
+forget
+(
+)
+.
+get
+(
+)
 NS_LITERAL_CSTRING
 (
 "
