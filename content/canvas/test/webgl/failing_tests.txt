@@ -161,15 +161,6 @@ conformance
 /
 gl
 -
-uniform
--
-arrays
-.
-html
-conformance
-/
-gl
--
 unknown
 -
 uniform
