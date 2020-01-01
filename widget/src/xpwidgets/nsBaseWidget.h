@@ -897,6 +897,16 @@ eBorderStyle_title
 )
 ;
 }
+NS_IMETHOD
+ReparentNativeWidget
+(
+nsIWidget
+*
+aNewParent
+)
+=
+0
+;
 class
 AutoLayerManagerSetup
 {

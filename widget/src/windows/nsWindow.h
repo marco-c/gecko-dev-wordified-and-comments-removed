@@ -1205,6 +1205,14 @@ preview
 }
 #
 endif
+NS_IMETHOD
+ReparentNativeWidget
+(
+nsIWidget
+*
+aNewParent
+)
+;
 protected
 :
 static

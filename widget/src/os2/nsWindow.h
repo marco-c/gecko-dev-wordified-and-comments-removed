@@ -599,6 +599,14 @@ nsEventStatus
 aStatus
 )
 ;
+NS_IMETHOD
+ReparentNativeWidget
+(
+nsIWidget
+*
+aNewParent
+)
+;
 static
 void
 ReleaseGlobals

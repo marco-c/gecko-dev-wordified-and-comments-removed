@@ -1110,6 +1110,14 @@ SetPopupWindowLevel
 (
 )
 ;
+NS_IMETHOD
+ReparentNativeWidget
+(
+nsIWidget
+*
+aNewParent
+)
+;
 protected
 :
 nsresult

@@ -553,6 +553,14 @@ aPoint
 nsnull
 )
 ;
+NS_IMETHOD
+ReparentNativeWidget
+(
+nsIWidget
+*
+aNewParent
+)
+;
 protected
 :
 static
