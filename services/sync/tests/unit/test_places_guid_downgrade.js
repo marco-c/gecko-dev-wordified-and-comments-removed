@@ -203,7 +203,7 @@ file
 .
 copyTo
 (
-gProfD
+gSyncProfile
 kDBName
 )
 ;
@@ -227,7 +227,7 @@ sqlite
 let
 file
 =
-gProfD
+gSyncProfile
 .
 clone
 (
@@ -289,7 +289,7 @@ test_initial_state
 let
 dbFile
 =
-gProfD
+gSyncProfile
 .
 clone
 (
