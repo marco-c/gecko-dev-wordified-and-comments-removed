@@ -316,11 +316,6 @@ nsGUIEvent
 aEvent
 )
 ;
-void
-UpdateThumbPositionForValueChange
-(
-)
-;
 private
 :
 nsresult
