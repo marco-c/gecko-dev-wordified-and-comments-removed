@@ -628,12 +628,6 @@ void
 ctx
 )
 ;
-static
-PRBool
-GetStrictFileOriginPolicy
-(
-)
-;
 PRBool
 Initialized
 (
