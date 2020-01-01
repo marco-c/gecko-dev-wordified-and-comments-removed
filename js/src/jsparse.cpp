@@ -29102,6 +29102,9 @@ pn_atom
 =
 0
 ;
+#
+if
+JS_HAS_GENERATOR_EXPRS
 case
 JSOP_CALL
 :
@@ -29154,6 +29157,8 @@ TCF_GENEXP_LAMBDA
 break
 ;
 }
+#
+endif
 case
 JSOP_DEFFUN
 :
