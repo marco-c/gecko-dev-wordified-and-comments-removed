@@ -108,6 +108,16 @@ SimpleTest
 .
 is
 ;
+window
+.
+onerror
+=
+window
+.
+opener
+.
+onerror
+;
 const
 anchorPositions
 =
