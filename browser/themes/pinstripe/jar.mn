@@ -655,7 +655,7 @@ png
 (
 feeds
 /
-videoFeedIcon
+feedIcon
 .
 png
 )
@@ -673,7 +673,7 @@ png
 (
 feeds
 /
-videoFeedIcon16
+feedIcon16
 .
 png
 )
@@ -691,7 +691,7 @@ png
 (
 feeds
 /
-audioFeedIcon
+feedIcon
 .
 png
 )
@@ -709,7 +709,7 @@ png
 (
 feeds
 /
-audioFeedIcon16
+feedIcon16
 .
 png
 )
