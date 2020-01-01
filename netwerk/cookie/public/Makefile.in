@@ -449,10 +449,6 @@ nsICookie2
 .
 idl
 \
-nsICookieConsent
-.
-idl
-\
 nsICookieManager2
 .
 idl
