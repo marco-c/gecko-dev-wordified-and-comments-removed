@@ -7620,6 +7620,7 @@ NS_GET_IID
 (
 nsISupports
 )
+PR_FALSE
 &
 v
 nsnull
