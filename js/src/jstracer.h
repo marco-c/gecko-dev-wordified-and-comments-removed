@@ -1935,6 +1935,10 @@ prev
 uint32
 builtinStatus
 ;
+double
+*
+deepBailSp
+;
 }
 ;
 static
