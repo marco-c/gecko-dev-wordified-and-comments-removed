@@ -686,13 +686,13 @@ const
 char
 *
 aValue
-PRInt32
+int32_t
 len
 )
 {
 for
 (
-PRInt32
+int32_t
 i
 =
 0
