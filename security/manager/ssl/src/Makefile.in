@@ -621,6 +621,10 @@ nsKeyModule
 .
 cpp
 \
+nsIdentityChecking
+.
+cpp
+\
 (
 NULL
 )
