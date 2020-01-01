@@ -13199,7 +13199,7 @@ strings
 formatStringFromName
 (
 "
-xpinstallPromptWarning
+xpinstallPromptWarning2
 "
 [
 brandShortName
