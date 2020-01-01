@@ -3260,8 +3260,11 @@ JSRuntime
 rt
 )
 {
+DebugOnly
+<
 PerThreadData
 *
+>
 pt
 =
 js
@@ -3315,8 +3318,11 @@ Zone
 zone
 )
 {
+DebugOnly
+<
 PerThreadData
 *
+>
 pt
 =
 js
