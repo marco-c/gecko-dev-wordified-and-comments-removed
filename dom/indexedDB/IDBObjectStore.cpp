@@ -15,7 +15,14 @@ h
 #
 include
 "
-jsclone
+jscntxt
+.
+h
+"
+#
+include
+"
+jsfriendapi
 .
 h
 "

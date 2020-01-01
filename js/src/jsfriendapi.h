@@ -2128,5 +2128,17 @@ uintN
 errorNumber
 )
 ;
+extern
+JS_FRIEND_API
+(
+uint64_t
+)
+js_GetSCOffset
+(
+JSStructuredCloneWriter
+*
+writer
+)
+;
 #
 endif
