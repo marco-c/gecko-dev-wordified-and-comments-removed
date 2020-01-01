@@ -511,10 +511,6 @@ nsSupportsPrimitives
 .
 cpp
 \
-nsTimelineService
-.
-cpp
-\
 nsUnicharBuffer
 .
 cpp
@@ -729,10 +725,6 @@ nsISupportsArray
 idl
 \
 nsISupportsIterators
-.
-idl
-\
-nsITimelineService
 .
 idl
 \

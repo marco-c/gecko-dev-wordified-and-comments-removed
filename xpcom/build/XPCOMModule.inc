@@ -117,16 +117,6 @@ COMPONENT
 ATOMSERVICE
 nsAtomServiceConstructor
 )
-#
-ifdef
-MOZ_TIMELINE
-COMPONENT
-(
-TIMELINESERVICE
-nsTimelineServiceConstructor
-)
-#
-endif
 COMPONENT
 (
 OBSERVERSERVICE
