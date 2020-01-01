@@ -3474,6 +3474,15 @@ requestLayout
 }
 else
 {
+mTabsPanel
+.
+setVisibility
+(
+View
+.
+INVISIBLE
+)
+;
 mBrowserToolbar
 .
 updateTabs

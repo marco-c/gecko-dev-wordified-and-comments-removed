@@ -181,6 +181,13 @@ color
 /
 background_tabs_light
 "
+android
+:
+visibility
+=
+"
+invisible
+"
 gecko
 :
 sidebar
