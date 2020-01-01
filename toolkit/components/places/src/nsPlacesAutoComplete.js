@@ -2028,6 +2028,12 @@ PAC_stopSearch
 (
 )
 {
+if
+(
+this
+.
+_pendingQuery
+)
 this
 .
 _stopActiveQuery
