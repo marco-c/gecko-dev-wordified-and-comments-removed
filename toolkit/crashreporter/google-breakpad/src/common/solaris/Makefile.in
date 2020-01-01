@@ -78,7 +78,7 @@ mk
 LIBRARY_NAME
 =
 breakpad_solaris_common_s
-HOST_LIBRARY_NAME
+DISABLED_HOST_LIBRARY_NAME
 =
 host_breakpad_solaris_common_s
 LOCAL_INCLUDES

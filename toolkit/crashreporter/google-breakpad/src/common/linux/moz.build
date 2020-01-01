@@ -156,3 +156,16 @@ http_upload
 cc
 '
 ]
+if
+CONFIG
+[
+'
+MOZ_CRASHREPORTER
+'
+]
+:
+HOST_LIBRARY_NAME
+=
+'
+host_breakpad_linux_common_s
+'

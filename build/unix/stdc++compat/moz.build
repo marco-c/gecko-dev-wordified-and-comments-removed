@@ -111,3 +111,11 @@ compat
 cpp
 '
 ]
+HOST_LIBRARY_NAME
+=
+'
+host_stdc
++
++
+compat
+'

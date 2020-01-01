@@ -77,7 +77,7 @@ autoconf
 mk
 ifdef
 MOZ_CRASHREPORTER
-HOST_LIBRARY_NAME
+DISABLED_HOST_LIBRARY_NAME
 =
 host_breakpad_dwarf_s
 LOCAL_INCLUDES

@@ -81,7 +81,7 @@ stdc
 +
 +
 compat
-HOST_LIBRARY_NAME
+DISABLED_HOST_LIBRARY_NAME
 =
 host_stdc
 +

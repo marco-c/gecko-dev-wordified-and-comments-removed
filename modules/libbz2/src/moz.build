@@ -108,3 +108,8 @@ bzlib
 h
 '
 ]
+HOST_LIBRARY_NAME
+=
+'
+hostbz2
+'

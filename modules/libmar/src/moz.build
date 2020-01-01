@@ -113,3 +113,8 @@ mar_cmdline
 h
 '
 ]
+HOST_LIBRARY_NAME
+=
+'
+hostmar
+'

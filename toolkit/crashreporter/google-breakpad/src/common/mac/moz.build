@@ -143,6 +143,11 @@ string_utilities
 cc
 '
 ]
+HOST_LIBRARY_NAME
+=
+'
+host_breakpad_mac_common_s
+'
 CMMSRCS
 +
 =
