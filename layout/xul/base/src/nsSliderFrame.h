@@ -593,6 +593,11 @@ aEventStatus
 ;
 private
 :
+PRBool
+GetScrollToClick
+(
+)
+;
 nsIBox
 *
 GetScrollbar

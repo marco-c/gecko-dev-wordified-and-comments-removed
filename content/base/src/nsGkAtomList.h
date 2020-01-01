@@ -967,6 +967,13 @@ clickcount
 )
 GK_ATOM
 (
+movetoclick
+"
+movetoclick
+"
+)
+GK_ATOM
+(
 clip
 "
 clip
