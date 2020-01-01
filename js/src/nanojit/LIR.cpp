@@ -14199,6 +14199,11 @@ va_end
 vargs
 )
 ;
+fflush
+(
+stdout
+)
+;
 }
 #
 endif
