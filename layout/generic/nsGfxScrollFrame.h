@@ -7,7 +7,7 @@ nsGfxScrollFrame_h___
 #
 include
 "
-nsHTMLContainerFrame
+nsContainerFrame
 .
 h
 "
@@ -1146,7 +1146,7 @@ class
 nsHTMLScrollFrame
 :
 public
-nsHTMLContainerFrame
+nsContainerFrame
 public
 nsIScrollableFrame
 public

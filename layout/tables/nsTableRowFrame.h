@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsHTMLContainerFrame
+nsContainerFrame
 .
 h
 "
@@ -52,7 +52,7 @@ class
 nsTableRowFrame
 :
 public
-nsHTMLContainerFrame
+nsContainerFrame
 {
 public
 :

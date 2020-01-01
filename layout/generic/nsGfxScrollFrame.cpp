@@ -50,7 +50,7 @@ h
 #
 include
 "
-nsHTMLContainerFrame
+nsContainerFrame
 .
 h
 "
@@ -362,7 +362,7 @@ bool
 aIsRoot
 )
 :
-nsHTMLContainerFrame
+nsContainerFrame
 (
 aContext
 )
@@ -440,7 +440,7 @@ DestroyAbsoluteFrames
 aDestructRoot
 )
 ;
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 DestroyFrom
@@ -465,7 +465,7 @@ aChildList
 nsresult
 rv
 =
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 SetInitialChildList
@@ -833,7 +833,7 @@ thebesLayerDamage
 )
 )
 {
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 InvalidateInternal
@@ -858,7 +858,7 @@ INVALIDATE_NO_THEBES_LAYERS
 )
 )
 {
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 InvalidateInternal
@@ -891,7 +891,7 @@ IsEmpty
 )
 )
 {
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 InvalidateInternal
@@ -920,7 +920,7 @@ IsEmpty
 )
 )
 {
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 InvalidateInternal
@@ -1012,7 +1012,7 @@ return
 }
 }
 }
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 InvalidateInternal
@@ -4064,7 +4064,7 @@ nsIStatefulFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsHTMLContainerFrame
+nsContainerFrame
 )
 nsIFrame
 *

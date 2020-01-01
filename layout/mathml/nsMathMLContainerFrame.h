@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsHTMLContainerFrame
+nsContainerFrame
 .
 h
 "
@@ -92,7 +92,7 @@ class
 nsMathMLContainerFrame
 :
 public
-nsHTMLContainerFrame
+nsContainerFrame
 public
 nsMathMLFrame
 {
@@ -109,7 +109,7 @@ nsStyleContext
 aContext
 )
 :
-nsHTMLContainerFrame
+nsContainerFrame
 (
 aContext
 )
@@ -189,7 +189,7 @@ eLineParticipant
 )
 &
 &
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 IsFrameOfType
@@ -317,7 +317,7 @@ flags
 NS_MATHML_ERROR
 ;
 return
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 WillReflow
@@ -349,7 +349,7 @@ flags
 NS_MATHML_STRETCH_DONE
 ;
 return
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 DidReflow

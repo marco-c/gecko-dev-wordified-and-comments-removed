@@ -124,7 +124,7 @@ nsStyleContext
 aContext
 )
 :
-nsHTMLContainerFrame
+nsContainerFrame
 (
 aContext
 )
@@ -154,7 +154,7 @@ nsTableRowGroupFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsHTMLContainerFrame
+nsContainerFrame
 )
 PRInt32
 nsTableRowGroupFrame

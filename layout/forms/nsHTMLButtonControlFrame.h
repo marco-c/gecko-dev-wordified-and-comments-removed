@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsHTMLContainerFrame
+nsContainerFrame
 .
 h
 "
@@ -91,7 +91,7 @@ class
 nsHTMLButtonControlFrame
 :
 public
-nsHTMLContainerFrame
+nsContainerFrame
 public
 nsIFormControlFrame
 {
@@ -376,7 +376,7 @@ aFlags
 const
 {
 return
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 IsFrameOfType

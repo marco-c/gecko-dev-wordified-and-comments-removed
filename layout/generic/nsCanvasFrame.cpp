@@ -22,7 +22,7 @@ h
 #
 include
 "
-nsHTMLContainerFrame
+nsContainerFrame
 .
 h
 "
@@ -173,7 +173,7 @@ nsCanvasFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsHTMLContainerFrame
+nsContainerFrame
 )
 void
 nsCanvasFrame
@@ -223,7 +223,7 @@ this
 )
 ;
 }
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 DestroyFrom
@@ -412,7 +412,7 @@ it
 )
 ;
 return
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 SetInitialChildList

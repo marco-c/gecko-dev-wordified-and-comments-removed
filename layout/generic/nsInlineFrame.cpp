@@ -160,7 +160,7 @@ nsInlineFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsInlineFrameSuper
+nsContainerFrame
 )
 #
 ifdef
@@ -648,10 +648,7 @@ aLists
 nsresult
 rv
 =
-nsHTMLContainerFrame
-:
-:
-BuildDisplayList
+BuildDisplayListForInline
 (
 aBuilder
 aDirtyRect
@@ -3870,7 +3867,7 @@ DestroyAbsoluteFrames
 aDestructRoot
 )
 ;
-nsInlineFrameSuper
+nsContainerFrame
 :
 :
 DestroyFrom

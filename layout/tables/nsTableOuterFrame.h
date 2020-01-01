@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsHTMLContainerFrame
+nsContainerFrame
 .
 h
 "
@@ -146,7 +146,7 @@ class
 nsTableOuterFrame
 :
 public
-nsHTMLContainerFrame
+nsContainerFrame
 public
 nsITableLayout
 {

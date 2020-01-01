@@ -64,7 +64,7 @@ h
 #
 include
 "
-nsHTMLContainerFrame
+nsContainerFrame
 .
 h
 "
@@ -4741,13 +4741,13 @@ nsnull
 kidNextInFlow
 )
 {
-nsHTMLContainerFrame
+nsContainerFrame
 *
 parent
 =
 static_cast
 <
-nsHTMLContainerFrame
+nsContainerFrame
 *
 >
 (

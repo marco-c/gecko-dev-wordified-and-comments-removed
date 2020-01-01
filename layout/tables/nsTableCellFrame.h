@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsHTMLContainerFrame
+nsContainerFrame
 .
 h
 "
@@ -95,7 +95,7 @@ class
 nsTableCellFrame
 :
 public
-nsHTMLContainerFrame
+nsContainerFrame
 public
 nsITableCellLayout
 public

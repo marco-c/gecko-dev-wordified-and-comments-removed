@@ -586,10 +586,6 @@ nsHTMLCanvasFrame
 .
 cpp
 \
-nsHTMLContainerFrame
-.
-cpp
-\
 nsCanvasFrame
 .
 cpp
