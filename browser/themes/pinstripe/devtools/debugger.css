@@ -896,9 +896,6 @@ open
 animated
 ]
 {
--
-moz
--
 animation
 -
 duration
@@ -907,9 +904,6 @@ duration
 .
 25s
 ;
--
-moz
--
 animation
 -
 name
@@ -917,9 +911,6 @@ name
 showblock
 ;
 }
--
-moz
--
 keyframes
 showblock
 {
