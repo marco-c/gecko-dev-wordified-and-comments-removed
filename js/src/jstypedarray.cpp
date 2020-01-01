@@ -219,9 +219,6 @@ inl
 .
 h
 "
-#
-define
-ENABLE_TYPEDARRAY_MOVE
 using
 namespace
 js
