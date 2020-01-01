@@ -602,6 +602,13 @@ nsISupports
 s
 )
 ;
+static
+void
+InitMemHook
+(
+void
+)
+;
 #
 endif
 struct
