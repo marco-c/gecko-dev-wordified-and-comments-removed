@@ -5448,10 +5448,8 @@ void
 const
 ;
 virtual
-already_AddRefed
-<
 nsIStyleRule
->
+*
 GetImportantRule
 (
 void
@@ -6033,10 +6031,8 @@ return
 mDeclaration
 ;
 }
-already_AddRefed
-<
 nsIStyleRule
->
+*
 CSSStyleRuleImpl
 :
 :
@@ -6103,11 +6099,6 @@ mImportantRule
 )
 ;
 }
-NS_ADDREF
-(
-mImportantRule
-)
-;
 return
 mImportantRule
 ;
