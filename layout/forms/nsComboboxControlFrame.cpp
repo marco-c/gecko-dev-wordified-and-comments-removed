@@ -5044,7 +5044,7 @@ if
 nsGkAtoms
 :
 :
-popupList
+selectPopupList
 =
 =
 aListName
@@ -5092,7 +5092,7 @@ if
 nsGkAtoms
 :
 :
-popupList
+selectPopupList
 =
 =
 aListName
@@ -5245,7 +5245,7 @@ return
 nsGkAtoms
 :
 :
-popupList
+selectPopupList
 ;
 }
 return
