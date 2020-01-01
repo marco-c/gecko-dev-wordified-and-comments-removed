@@ -258,8 +258,8 @@ BandInfoType
 aInfoType
 nscoord
 aHeight
-nscoord
-aContentAreaWidth
+nsRect
+aContentArea
 SavedState
 *
 aState

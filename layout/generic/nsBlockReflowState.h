@@ -123,11 +123,6 @@ PRBool
 aBlockNeedsFloatManager
 )
 ;
-~
-nsBlockReflowState
-(
-)
-;
 nsFlowAreaRect
 GetFloatAvailableSpace
 (
@@ -520,7 +515,7 @@ mFloatManagerStateBefore
 nscoord
 mBottomEdge
 ;
-nsSize
+nsRect
 mContentArea
 ;
 nsFrameList
