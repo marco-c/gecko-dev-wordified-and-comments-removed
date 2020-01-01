@@ -178,14 +178,6 @@ doc
 IsLoadedAsData
 (
 )
-|
-|
-doc
--
->
-IsBeingUsedAsImage
-(
-)
 )
 {
 *
