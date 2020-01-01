@@ -543,6 +543,10 @@ test_removeOwnersAPI
 .
 html
 \
+test_storageConstructor
+.
+html
+\
 (
 NULL
 )
