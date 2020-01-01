@@ -901,6 +901,11 @@ attribute
 boolean
 shuttingDown
 ;
+readonly
+attribute
+PRUint64
+restoredTimestamp
+;
 }
 ;
 %
