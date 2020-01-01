@@ -612,8 +612,12 @@ NS_ERROR_NOT_IMPLEMENTED
 }
 virtual
 nsresult
-ForceNativeMenuReload
+ForceUpdateNativeMenuAt
 (
+const
+nsAString
+&
+indexString
 )
 {
 return
