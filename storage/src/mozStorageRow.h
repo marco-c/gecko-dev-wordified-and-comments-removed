@@ -25,6 +25,15 @@ nsDataHashtable
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 nsIVariant
 ;
@@ -39,6 +48,7 @@ storage
 {
 class
 Row
+MOZ_FINAL
 :
 public
 mozIStorageRow

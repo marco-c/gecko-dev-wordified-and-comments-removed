@@ -110,6 +110,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 sqlite3
 .
 h
@@ -430,6 +439,7 @@ SQLite
 )
 class
 StorageSQLiteMultiReporter
+MOZ_FINAL
 :
 public
 nsIMemoryMultiReporter

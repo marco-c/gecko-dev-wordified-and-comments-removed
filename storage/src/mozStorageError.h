@@ -18,6 +18,15 @@ nsString
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 namespace
 mozilla
 {
@@ -26,6 +35,7 @@ storage
 {
 class
 Error
+MOZ_FINAL
 :
 public
 mozIStorageError

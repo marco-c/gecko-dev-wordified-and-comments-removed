@@ -77,6 +77,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 mozIStorageAggregateFunction
 .
 h
@@ -1473,6 +1482,7 @@ mCallbackEvent
 }
 class
 StorageMemoryReporter
+MOZ_FINAL
 :
 public
 nsIMemoryReporter

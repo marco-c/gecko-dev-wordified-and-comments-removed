@@ -79,6 +79,15 @@ h
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 sqlite3
 .
 h
@@ -103,6 +112,7 @@ storage
 {
 class
 Connection
+MOZ_FINAL
 :
 public
 mozIStorageConnection

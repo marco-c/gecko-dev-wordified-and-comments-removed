@@ -18,6 +18,15 @@ nsCOMArray
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 class
 mozIStorageRow
 ;
@@ -29,6 +38,7 @@ storage
 {
 class
 ResultSet
+MOZ_FINAL
 :
 public
 mozIStorageResultSet
