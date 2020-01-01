@@ -1484,6 +1484,10 @@ PeerConnectionImpl
 (
 )
 {
+Close
+(
+)
+;
 peerconnections
 .
 erase
@@ -1491,7 +1495,15 @@ erase
 mHandle
 )
 ;
-Close
+if
+(
+peerconnections
+.
+empty
+(
+)
+)
+Shutdown
 (
 )
 ;
