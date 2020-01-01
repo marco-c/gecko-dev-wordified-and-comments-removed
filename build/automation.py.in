@@ -262,6 +262,9 @@ deps
 mozcrash
 '
 '
+mozfile
+'
+'
 mozlog
 '
 ]

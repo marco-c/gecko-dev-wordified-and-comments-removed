@@ -103,6 +103,10 @@ mozcrash
 '
             
 '
+mozfile
+'
+            
+'
 mozlog
 '
 ]
