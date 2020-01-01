@@ -14,6 +14,16 @@ h
 class
 nsIPrintSettings
 ;
+typedef
+enum
+{
+_GTK_PRINT_PAGES_ALL
+_GTK_PRINT_PAGES_CURRENT
+_GTK_PRINT_PAGES_RANGES
+_GTK_PRINT_PAGES_SELECTION
+}
+_GtkPrintPages
+;
 class
 nsPrintDialogServiceGTK
 :
