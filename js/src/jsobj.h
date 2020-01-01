@@ -4212,16 +4212,6 @@ this
 }
 JSObject
 *
-wrappedObject
-(
-JSContext
-*
-cx
-)
-const
-;
-JSObject
-*
 thisObject
 (
 JSContext

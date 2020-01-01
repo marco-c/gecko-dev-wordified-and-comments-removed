@@ -13009,16 +13009,6 @@ obj2
 ;
 )
 {
-obj2
-=
-obj2
--
->
-wrappedObject
-(
-cx
-)
-;
 if
 (
 obj2
