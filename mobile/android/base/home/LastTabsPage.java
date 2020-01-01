@@ -757,6 +757,7 @@ mEmptyView
 null
 )
 {
+final
 ViewStub
 emptyViewStub
 =
