@@ -1484,15 +1484,6 @@ JSD_LOCK_SOURCE_TEXT
 jsdc
 )
 ;
-#
-ifdef
-LIVEWIRE
-new_url_string
-=
-url
-;
-#
-else
 new_url_string
 =
 jsd_BuildNormalizedURL
@@ -1500,8 +1491,6 @@ jsd_BuildNormalizedURL
 url
 )
 ;
-#
-endif
 if
 (
 !
