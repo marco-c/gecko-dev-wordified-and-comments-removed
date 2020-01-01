@@ -428,8 +428,6 @@ sessionstore
 /
 test
 /
-browser
-/
 browser_463205_helper
 .
 html

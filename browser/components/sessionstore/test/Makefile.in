@@ -414,9 +414,6 @@ DEPTH
 /
 .
 .
-/
-.
-.
 topsrcdir
 =
 top_srcdir
@@ -435,8 +432,6 @@ components
 sessionstore
 /
 test
-/
-browser
 include
 (
 DEPTH

@@ -77,8 +77,6 @@ sessionstore
 /
 test
 /
-browser
-/
 browser_423132_sample
 .
 html

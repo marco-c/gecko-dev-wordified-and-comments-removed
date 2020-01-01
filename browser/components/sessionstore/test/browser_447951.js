@@ -34,8 +34,6 @@ sessionstore
 /
 test
 /
-browser
-/
 browser_447951_sample
 .
 html
