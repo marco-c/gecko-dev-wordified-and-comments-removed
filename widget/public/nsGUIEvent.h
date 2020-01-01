@@ -2010,6 +2010,13 @@ eNormal
 eContextMenuKey
 }
 ;
+enum
+exitType
+{
+eChild
+eTopLevel
+}
+;
 nsMouseEvent
 (
 PRBool
@@ -2045,6 +2052,10 @@ aReason
 context
 (
 aContext
+)
+exit
+(
+eChild
 )
 clickCount
 (
@@ -2146,6 +2157,9 @@ contextType
 context
 :
 4
+;
+exitType
+exit
 ;
 PRUint32
 clickCount
