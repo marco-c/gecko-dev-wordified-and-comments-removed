@@ -124,9 +124,6 @@ nsIObserver
 Ci
 .
 nsIFrameMessageListener
-Ci
-.
-nsISupportsWeakReference
 ]
 )
 debug
@@ -475,7 +472,7 @@ addObserver
 "
 "
 this
-true
+false
 )
 ;
 this
