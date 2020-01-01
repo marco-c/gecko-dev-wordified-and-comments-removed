@@ -597,6 +597,13 @@ nsIPrincipal
 .
 h
 "
+#
+include
+"
+nsDeviceStorage
+.
+h
+"
 using
 namespace
 base
