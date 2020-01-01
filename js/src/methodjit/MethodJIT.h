@@ -2145,17 +2145,6 @@ scriptDataSize
 (
 )
 ;
-size_t
-mainCodeSize
-(
-)
-{
-return
-code
-.
-m_size
-;
-}
 jsbytecode
 *
 nativeToPC

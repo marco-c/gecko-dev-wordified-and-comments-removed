@@ -41343,14 +41343,6 @@ correction
 Wcoverage
 -
 mismatch
--
-freorder
--
-blocks
--
-and
--
-partition
 "
 PROFILE_USE_LDFLAGS
 =

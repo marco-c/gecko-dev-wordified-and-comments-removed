@@ -76,6 +76,9 @@ struct
 OOMCheck
 ;
 }
+class
+ArgumentsObject
+;
 #
 ifdef
 JS_METHODJIT
@@ -555,7 +558,7 @@ union
 uintN
 nactual
 ;
-JSObject
+ArgumentsObject
 *
 obj
 ;
@@ -1652,7 +1655,7 @@ HAS_ARGS_OBJ
 )
 ;
 }
-JSObject
+ArgumentsObject
 &
 argsObj
 (
@@ -1681,7 +1684,7 @@ args
 obj
 ;
 }
-JSObject
+ArgumentsObject
 *
 maybeArgsObj
 (
@@ -1705,7 +1708,7 @@ inline
 void
 setArgsObj
 (
-JSObject
+ArgumentsObject
 &
 obj
 )

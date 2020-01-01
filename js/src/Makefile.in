@@ -1405,6 +1405,10 @@ vm
 EXPORTS_vm
 =
 \
+ArgumentsObject
+.
+h
+\
 GlobalObject
 .
 h
