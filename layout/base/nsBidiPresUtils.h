@@ -519,11 +519,6 @@ aWidth
 )
 ;
 void
-CreateBlockBuffer
-(
-)
-;
-void
 InitLogicalArray
 (
 nsIFrame
@@ -754,6 +749,10 @@ mLevels
 ;
 nsresult
 mSuccess
+;
+nsIContent
+*
+mPrevContent
 ;
 nsBidi
 *
