@@ -1563,11 +1563,6 @@ ToNewUTF8String
 aValue
 )
 ;
-SetValueChanged
-(
-PR_TRUE
-)
-;
 return
 NS_OK
 ;
