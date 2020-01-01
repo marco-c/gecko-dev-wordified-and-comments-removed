@@ -5331,6 +5331,17 @@ backgroundAllocation
 false
 ;
 }
+PRThread
+*
+getThread
+(
+)
+const
+{
+return
+thread
+;
+}
 bool
 sweeping
 (
