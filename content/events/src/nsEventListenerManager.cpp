@@ -342,7 +342,7 @@ h
 #
 include
 "
-nsIFocusController
+nsFocusManager
 .
 h
 "

@@ -590,10 +590,6 @@ nsLayoutUtils
 .
 h
 \
-nsIFocusEventSuppressor
-.
-h
-\
 nsPresContext
 .
 h
@@ -701,10 +697,6 @@ nsStyleChangeList
 cpp
 \
 nsStyleSheetService
-.
-cpp
-\
-nsFocusEventSuppressor
 .
 cpp
 \

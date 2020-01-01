@@ -642,6 +642,10 @@ browser_discovery
 .
 js
 \
+browser_tabfocus
+.
+js
+\
 discovery
 .
 html

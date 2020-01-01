@@ -544,7 +544,7 @@ win
 addEventListener
 (
 "
-load
+focus
 "
 function
 (
@@ -555,7 +555,7 @@ win
 removeEventListener
 (
 "
-load
+focus
 "
 arguments
 .
@@ -968,7 +968,7 @@ win
 addEventListener
 (
 "
-load
+focus
 "
 function
 (
@@ -979,7 +979,7 @@ win
 removeEventListener
 (
 "
-load
+focus
 "
 arguments
 .
@@ -1146,6 +1146,16 @@ setFilter
 string
 )
 {
+filter
+.
+ownerDocument
+.
+defaultView
+.
+focus
+(
+)
+;
 filter
 .
 focus

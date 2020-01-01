@@ -530,6 +530,10 @@ nsPIWindowRoot
 .
 h
 \
+nsFocusManager
+.
+h
+\
 nsWrapperCache
 .
 h
@@ -561,6 +565,10 @@ nsJSTimeoutHandler
 cpp
 \
 nsFocusController
+.
+cpp
+\
+nsFocusManager
 .
 cpp
 \

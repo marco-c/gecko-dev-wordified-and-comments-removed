@@ -3902,6 +3902,11 @@ normal
 onblur
 =
 "
+setTimeout
+(
+function
+(
+)
 document
 .
 getElementById
@@ -3918,8 +3923,9 @@ style
 MozUserFocus
 =
 '
-ignore
 '
+0
+)
 ;
 "
 >

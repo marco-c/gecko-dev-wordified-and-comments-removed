@@ -1303,9 +1303,6 @@ mPluginDrawing
 PRPackedBool
 mPluginIsCG
 ;
-PRPackedBool
-mInSetFocus
-;
 nsPluginPort
 mPluginPort
 ;

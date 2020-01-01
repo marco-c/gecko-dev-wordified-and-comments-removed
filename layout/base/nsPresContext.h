@@ -2266,8 +2266,6 @@ PRBool
 )
 EnsureVisible
 (
-PRBool
-aUnsuppressFocus
 )
 ;
 #

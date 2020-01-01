@@ -1291,17 +1291,6 @@ gTestsOccurred
 true
 )
 ;
-synthesizeMouse
-(
-document
-.
-documentElement
-1
-1
-{
-}
-)
-;
 for
 (
 t

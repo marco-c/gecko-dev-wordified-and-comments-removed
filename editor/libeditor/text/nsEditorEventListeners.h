@@ -582,9 +582,6 @@ mEditor
 nsWeakPtr
 mPresShell
 ;
-PRBool
-mIsFocused
-;
 }
 ;
 extern

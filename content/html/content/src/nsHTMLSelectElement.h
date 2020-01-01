@@ -602,15 +602,6 @@ aVisitor
 )
 ;
 virtual
-void
-SetFocus
-(
-nsPresContext
-*
-aPresContext
-)
-;
-virtual
 PRBool
 IsHTMLFocusable
 (

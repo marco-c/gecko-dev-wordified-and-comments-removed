@@ -538,6 +538,10 @@ nsIDOMClientRectList
 .
 idl
 \
+nsIFocusManager
+.
+idl
+\
 (
 NULL
 )

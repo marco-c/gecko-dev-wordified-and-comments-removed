@@ -2032,12 +2032,6 @@ PRPackedBool
 mAllowDNSPrefetch
 ;
 PRPackedBool
-mFocusDocFirst
-;
-PRPackedBool
-mHasFocus
-;
-PRPackedBool
 mCreatingDocument
 ;
 PRPackedBool

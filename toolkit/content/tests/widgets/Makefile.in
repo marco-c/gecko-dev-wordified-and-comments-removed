@@ -671,6 +671,10 @@ test_focus
 .
 xul
 \
+test_focus_anons
+.
+xul
+\
 test_tabindex
 .
 xul

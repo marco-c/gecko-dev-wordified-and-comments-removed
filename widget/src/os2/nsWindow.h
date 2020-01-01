@@ -793,8 +793,6 @@ DispatchFocus
 (
 PRUint32
 aEventType
-PRBool
-isMozWindowTakingFocus
 )
 ;
 virtual
