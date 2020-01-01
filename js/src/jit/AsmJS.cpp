@@ -8838,9 +8838,6 @@ labeledBreaks_
 LabeledBlockMap
 labeledContinues_
 ;
-AutoFlushCache
-autoFlushCache_
-;
 public
 :
 FunctionCompiler
@@ -8951,14 +8948,6 @@ m
 cx
 (
 )
-)
-autoFlushCache_
-(
-"
-asm
-.
-js
-"
 )
 {
 }
