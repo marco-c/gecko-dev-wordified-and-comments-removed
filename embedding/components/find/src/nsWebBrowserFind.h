@@ -282,12 +282,6 @@ mRootSearchFrame
 nsWeakPtr
 mLastFocusedWindow
 ;
-nsCOMPtr
-<
-nsIFind
->
-mFind
-;
 }
 ;
 #
