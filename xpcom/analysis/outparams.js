@@ -843,7 +843,12 @@ ESP
 PropVarSpec
 (
 v
-true
+v
+=
+=
+this
+.
+retvar
 ESP
 .
 TOP
