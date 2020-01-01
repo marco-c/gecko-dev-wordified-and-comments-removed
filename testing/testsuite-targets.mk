@@ -1104,6 +1104,7 @@ bzip2
 -
 f
 >
+"
 (
 DIST
 )
@@ -1114,6 +1115,7 @@ PKG_PATH
 (
 TEST_PACKAGE
 )
+"
 make
 -
 stage
