@@ -306,6 +306,12 @@ GetDPI
 )
 ;
 virtual
+double
+GetDefaultScaleInternal
+(
+)
+;
+virtual
 mozilla
 :
 :
