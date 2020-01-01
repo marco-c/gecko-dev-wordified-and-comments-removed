@@ -15217,7 +15217,7 @@ if
 source
 -
 >
-hasSourceMap
+hasSourceMapURL
 (
 )
 )
@@ -15232,7 +15232,7 @@ cx
 source
 -
 >
-sourceMap
+sourceMapURL
 (
 )
 )

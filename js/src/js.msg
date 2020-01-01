@@ -5161,7 +5161,7 @@ function
 )
 MSG_DEF
 (
-JSMSG_ALREADY_HAS_SOURCEMAP
+JSMSG_ALREADY_HAS_SOURCE_MAP_URL
 303
 1
 JSEXN_ERR
@@ -5175,7 +5175,8 @@ assigned
 a
 source
 map
-yet
+URL
+but
 already
 has
 one
