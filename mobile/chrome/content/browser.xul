@@ -4878,7 +4878,7 @@ title
 type
 =
 "
-button
+control
 "
 >
 &
@@ -5170,7 +5170,7 @@ title
 type
 =
 "
-button
+control
 "
 >
 &
