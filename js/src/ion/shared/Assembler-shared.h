@@ -802,6 +802,9 @@ JS_ASSERT
 newOffset
 !
 =
+(
+uint32
+)
 INVALID_OFFSET
 )
 ;

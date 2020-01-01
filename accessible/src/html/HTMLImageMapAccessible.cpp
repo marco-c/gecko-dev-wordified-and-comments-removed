@@ -134,7 +134,7 @@ roles
 IMAGE_MAP
 ;
 }
-uint32_t
+PRUint32
 HTMLImageMapAccessible
 :
 :
@@ -155,7 +155,7 @@ HTMLImageMapAccessible
 :
 AnchorAt
 (
-uint32_t
+PRUint32
 aAnchorIndex
 )
 {
@@ -175,7 +175,7 @@ HTMLImageMapAccessible
 :
 AnchorURIAt
 (
-uint32_t
+PRUint32
 aAnchorIndex
 )
 {
@@ -194,7 +194,7 @@ if
 area
 )
 return
-nullptr
+nsnull
 ;
 nsIContent
 *
@@ -217,7 +217,7 @@ GetHrefURI
 (
 )
 :
-nullptr
+nsnull
 ;
 }
 void
@@ -269,7 +269,7 @@ false
 ;
 for
 (
-int32_t
+PRInt32
 childIdx
 =
 mChildren
@@ -359,7 +359,7 @@ area
 )
 ;
 }
-uint32_t
+PRUint32
 areaElmCount
 =
 imageMapObj
@@ -371,7 +371,7 @@ AreaCount
 ;
 for
 (
-uint32_t
+PRUint32
 idx
 =
 0
@@ -581,11 +581,6 @@ aContent
 aDoc
 )
 {
-mFlags
-|
-=
-eSharedNode
-;
 }
 nsresult
 HTMLAreaAccessible
@@ -695,6 +690,19 @@ aDescription
 )
 ;
 }
+bool
+HTMLAreaAccessible
+:
+:
+IsPrimaryForNode
+(
+)
+const
+{
+return
+false
+;
+}
 Accessible
 *
 HTMLAreaAccessible
@@ -702,9 +710,9 @@ HTMLAreaAccessible
 :
 ChildAtPoint
 (
-int32_t
+PRInt32
 aX
-int32_t
+PRInt32
 aY
 EWhichChildAtPoint
 aWhichChild
@@ -714,7 +722,7 @@ return
 this
 ;
 }
-uint32_t
+PRUint32
 HTMLAreaAccessible
 :
 :
@@ -728,7 +736,7 @@ IndexInParent
 )
 ;
 }
-uint32_t
+PRUint32
 HTMLAreaAccessible
 :
 :

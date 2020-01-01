@@ -344,7 +344,7 @@ uint16_t
 immediates
 followed
 by
-atom
+block
 index
 *
 /

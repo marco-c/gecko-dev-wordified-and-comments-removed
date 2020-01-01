@@ -158,10 +158,6 @@ nsAccTreeWalker
 .
 cpp
 \
-nsBaseWidgetAccessible
-.
-cpp
-\
 nsEventShell
 .
 cpp

@@ -196,6 +196,14 @@ HTMLCollection
 )
 DOMCI_CLASS
 (
+HTMLPropertiesCollection
+)
+DOMCI_CLASS
+(
+PropertyNodeList
+)
+DOMCI_CLASS
+(
 HTMLElement
 )
 DOMCI_CLASS
