@@ -4460,10 +4460,7 @@ XPCWrappedNativeScope
 *
 scope
 =
-XPCWrappedNativeScope
-:
-:
-GetNativeScope
+ObjectScope
 (
 obj
 )
