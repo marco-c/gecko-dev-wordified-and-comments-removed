@@ -20,6 +20,15 @@ testing
 mozbase
 /
 manifestdestiny
+mozcrash
+.
+pth
+:
+testing
+/
+mozbase
+/
+mozcrash
 mozdevice
 .
 pth
