@@ -3250,6 +3250,10 @@ gcThread
 (
 NULL
 )
+gcHelperThread
+(
+this
+)
 rtLock
 (
 NULL
