@@ -2974,7 +2974,7 @@ Ci
 .
 nsIDocumentEncoder
 .
-OutputDropInvisibleBreak
+OutputNonTextContentAsPlaceholder
 ;
 encoder
 .
