@@ -8276,11 +8276,16 @@ NULL
 ;
 if
 (
+(
 gfxPlatform
 :
 :
-IsCMSEnabled
+GetCMSMode
 (
+)
+=
+=
+eCMSMode_All
 )
 &
 &

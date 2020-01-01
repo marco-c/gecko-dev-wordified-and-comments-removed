@@ -620,9 +620,9 @@ gfx
 .
 color_management
 .
-enabled
+mode
 "
-false
+0
 )
 ;
 pref

@@ -215,9 +215,12 @@ if
 gfxPlatform
 :
 :
-IsCMSEnabled
+GetCMSMode
 (
 )
+=
+=
+eCMSMode_All
 )
 {
 cmsHTRANSFORM
