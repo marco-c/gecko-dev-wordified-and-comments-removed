@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsIDOMSVGLineElement
-.
-h
-"
-#
-include
-"
 nsSVGLength2
 .
 h
@@ -56,7 +49,7 @@ MOZ_FINAL
 public
 SVGLineElementBase
 public
-nsIDOMSVGLineElement
+nsIDOMSVGElement
 {
 protected
 :
@@ -108,7 +101,6 @@ aNodeInfo
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMSVGLINEELEMENT
 NS_FORWARD_NSIDOMNODE_TO_NSINODE
 NS_FORWARD_NSIDOMELEMENT_TO_GENERIC
 NS_FORWARD_NSIDOMSVGELEMENT
@@ -174,13 +166,6 @@ nsINode
 aResult
 )
 const
-;
-virtual
-nsXPCClassInfo
-*
-GetClassInfo
-(
-)
 ;
 virtual
 nsIDOMNode

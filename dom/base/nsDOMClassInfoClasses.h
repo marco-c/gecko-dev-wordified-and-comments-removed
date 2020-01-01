@@ -707,10 +707,6 @@ SVGImageElement
 )
 DOMCI_CLASS
 (
-SVGLineElement
-)
-DOMCI_CLASS
-(
 SVGMarkerElement
 )
 DOMCI_CLASS
