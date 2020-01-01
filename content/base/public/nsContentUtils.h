@@ -2655,6 +2655,13 @@ aPrincipal
 )
 ;
 static
+nsIPrincipal
+*
+GetSystemPrincipal
+(
+)
+;
+static
 bool
 CombineResourcePrincipals
 (
