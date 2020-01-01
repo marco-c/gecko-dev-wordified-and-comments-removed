@@ -3523,7 +3523,7 @@ _ogg_free
 frag_buf_offs
 )
 ;
-_ogg_free
+oc_aligned_free
 (
 ref_frame_data
 )
