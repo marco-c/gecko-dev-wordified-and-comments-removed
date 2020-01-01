@@ -1402,6 +1402,13 @@ EndAllTrackAndFinish
 (
 )
 ;
+TrackTicks
+GetBufferedTicks
+(
+TrackID
+aID
+)
+;
 friend
 class
 MediaStreamGraphImpl
