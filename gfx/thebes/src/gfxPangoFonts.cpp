@@ -2853,12 +2853,7 @@ aPangoFont
 {
 #
 if
-PANGO_VERSION_CHECK
-(
-1
-17
-5
-)
+0
 return
 cairo_scaled_font_reference
 (
