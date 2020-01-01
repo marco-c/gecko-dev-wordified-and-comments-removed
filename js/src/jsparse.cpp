@@ -9430,6 +9430,7 @@ NULLCHECK
 (
 e
 )
+JS_BEGIN_MACRO
 if
 (
 !
@@ -9440,7 +9441,7 @@ e
 return
 NULL
 ;
-else
+JS_END_MACRO
 case
 PN_FUNC
 :
