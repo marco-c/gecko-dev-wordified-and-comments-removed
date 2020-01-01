@@ -2587,16 +2587,6 @@ CCC
 .
 title
 -
-container
-{
-cursor
-:
-text
-;
-}
-.
-title
--
 shield
 {
 margin
@@ -2650,6 +2640,10 @@ height
 :
 100
 %
+;
+cursor
+:
+text
 ;
 }
 html
