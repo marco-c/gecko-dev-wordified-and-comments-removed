@@ -405,6 +405,8 @@ PRUint32
 maxCacheEntries
 PRUint32
 maxCacheLifetime
+PRUint32
+lifetimeGracePeriod
 nsHostResolver
 *
 *
@@ -496,6 +498,10 @@ PRUint32
 maxCacheLifetime
 =
 1
+PRUint32
+lifetimeGracePeriod
+=
+0
 )
 ;
 ~
@@ -587,6 +593,9 @@ mMaxCacheEntries
 ;
 PRUint32
 mMaxCacheLifetime
+;
+PRUint32
+mGracePeriod
 ;
 Mutex
 mLock
