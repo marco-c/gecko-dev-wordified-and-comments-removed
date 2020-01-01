@@ -43,6 +43,11 @@ Parameter
 \
 _
 (
+TableSwitch
+)
+\
+_
+(
 Goto
 )
 \
