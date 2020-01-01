@@ -1,4 +1,5 @@
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -7,6 +8,10 @@ PageMenu
 "
 ]
 ;
+this
+.
+PageMenu
+=
 function
 PageMenu
 (

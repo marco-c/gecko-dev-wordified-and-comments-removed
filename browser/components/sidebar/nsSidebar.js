@@ -911,7 +911,8 @@ nsISidebarExternal
 ]
 )
 ;
-var
+this
+.
 NSGetFactory
 =
 XPCOMUtils

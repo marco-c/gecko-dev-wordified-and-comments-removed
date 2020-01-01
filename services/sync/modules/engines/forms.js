@@ -1,4 +1,5 @@
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -169,6 +170,10 @@ FORMS_TTL
 =
 5184000
 ;
+this
+.
+FormRec
+=
 function
 FormRec
 (
@@ -980,6 +985,10 @@ stmt
 }
 }
 ;
+this
+.
+FormEngine
+=
 function
 FormEngine
 (

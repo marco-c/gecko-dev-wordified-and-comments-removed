@@ -220,7 +220,8 @@ timeReadOnly
 1
 }
 ;
-var
+this
+.
 NSGetFactory
 =
 XPCOMUtils

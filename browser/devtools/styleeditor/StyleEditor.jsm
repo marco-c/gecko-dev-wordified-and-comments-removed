@@ -3,7 +3,8 @@ use
 strict
 "
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -310,6 +311,10 @@ getBoolPref
 TRANSITIONS_PREF
 )
 ;
+this
+.
+StyleEditor
+=
 function
 StyleEditor
 (
@@ -4001,7 +4006,8 @@ bindings
 }
 }
 ;
-let
+this
+.
 StyleEditorFlags
 =
 {
@@ -4633,6 +4639,10 @@ false
 )
 ;
 }
+this
+.
+StyleEditorManager
+=
 function
 StyleEditorManager
 (

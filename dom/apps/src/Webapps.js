@@ -5089,7 +5089,8 @@ Mgmt
 }
 )
 }
-const
+this
+.
 NSGetFactory
 =
 XPCOMUtils

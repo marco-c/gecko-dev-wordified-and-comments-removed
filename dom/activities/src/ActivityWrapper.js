@@ -225,7 +225,8 @@ nsISystemMessagesWrapper
 ]
 )
 }
-const
+this
+.
 NSGetFactory
 =
 XPCOMUtils

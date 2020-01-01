@@ -3,7 +3,8 @@ use
 strict
 "
 ;
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -320,7 +321,8 @@ converter
 }
 )
 ;
-let
+this
+.
 PageThumbs
 =
 {
@@ -1176,7 +1178,8 @@ true
 }
 }
 ;
-let
+this
+.
 PageThumbsStorage
 =
 {

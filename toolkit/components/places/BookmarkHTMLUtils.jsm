@@ -1,4 +1,5 @@
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -191,7 +192,8 @@ serialNumber
 =
 0
 ;
-let
+this
+.
 BookmarkHTMLUtils
 =
 Object

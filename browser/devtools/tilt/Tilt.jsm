@@ -169,7 +169,8 @@ jsm
 "
 )
 ;
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -178,6 +179,10 @@ Tilt
 "
 ]
 ;
+this
+.
+Tilt
+=
 function
 Tilt
 (

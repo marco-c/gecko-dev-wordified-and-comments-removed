@@ -1,4 +1,5 @@
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -7988,7 +7989,8 @@ result
 }
 }
 ;
-let
+this
+.
 Service
 =
 new

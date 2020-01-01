@@ -1,4 +1,5 @@
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -111,7 +112,8 @@ jsm
 "
 )
 ;
-let
+this
+.
 Status
 =
 {

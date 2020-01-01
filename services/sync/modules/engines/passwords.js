@@ -1,4 +1,5 @@
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -114,6 +115,10 @@ js
 "
 )
 ;
+this
+.
+LoginRec
+=
 function
 LoginRec
 (
@@ -185,6 +190,10 @@ passwordField
 ]
 )
 ;
+this
+.
+PasswordEngine
+=
 function
 PasswordEngine
 (

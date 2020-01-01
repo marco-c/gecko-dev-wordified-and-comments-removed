@@ -166,7 +166,8 @@ TestInterfaceADefaultName
 "
 }
 ;
-var
+this
+.
 NSGetFactory
 =
 XPCOMUtils

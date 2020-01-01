@@ -3,7 +3,8 @@ use
 strict
 "
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -83,7 +84,8 @@ jsm
 "
 )
 ;
-var
+this
+.
 ScratchpadManager
 =
 {

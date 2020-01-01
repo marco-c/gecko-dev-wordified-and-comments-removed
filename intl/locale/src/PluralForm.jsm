@@ -1,4 +1,5 @@
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -826,7 +827,8 @@ n
 ]
 ]
 ;
-let
+this
+.
 PluralForm
 =
 {

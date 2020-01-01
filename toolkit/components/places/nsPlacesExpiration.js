@@ -4410,7 +4410,8 @@ components
 nsPlacesExpiration
 ]
 ;
-var
+this
+.
 NSGetFactory
 =
 XPCOMUtils

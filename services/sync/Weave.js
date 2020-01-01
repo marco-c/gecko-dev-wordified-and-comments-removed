@@ -460,7 +460,8 @@ WeaveService
 AboutWeaveLog
 ]
 ;
-const
+this
+.
 NSGetFactory
 =
 XPCOMUtils

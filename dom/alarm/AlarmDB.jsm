@@ -3,7 +3,8 @@ use
 strict
 "
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -118,6 +119,10 @@ ALARMSTORE_NAME
 alarms
 "
 ;
+this
+.
+AlarmDB
+=
 function
 AlarmDB
 (

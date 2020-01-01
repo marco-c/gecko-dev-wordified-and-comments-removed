@@ -77,7 +77,8 @@ jsm
 "
 )
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -155,6 +156,10 @@ focus
 "
 ]
 ;
+this
+.
+Highlighter
+=
 function
 Highlighter
 (

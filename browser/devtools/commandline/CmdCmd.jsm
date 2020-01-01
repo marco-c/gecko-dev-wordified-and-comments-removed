@@ -1,4 +1,5 @@
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -186,7 +187,8 @@ commands
 [
 ]
 ;
-let
+this
+.
 CmdCommands
 =
 {

@@ -3,7 +3,8 @@ use
 strict
 "
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -160,6 +161,10 @@ js
 "
 )
 ;
+this
+.
+Aitc
+=
 function
 Aitc
 (

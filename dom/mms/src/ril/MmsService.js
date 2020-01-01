@@ -2980,7 +2980,8 @@ proxyInfo
 }
 }
 ;
-const
+this
+.
 NSGetFactory
 =
 XPCOMUtils

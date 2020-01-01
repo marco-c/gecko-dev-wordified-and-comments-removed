@@ -111,7 +111,8 @@ jsm
 "
 )
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -1828,7 +1829,8 @@ aProvId
 }
 }
 ;
-let
+this
+.
 IdentityProvider
 =
 new

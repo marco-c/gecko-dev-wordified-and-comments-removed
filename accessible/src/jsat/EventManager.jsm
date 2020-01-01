@@ -127,7 +127,8 @@ jsm
 '
 )
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -136,7 +137,8 @@ EventManager
 '
 ]
 ;
-var
+this
+.
 EventManager
 =
 {

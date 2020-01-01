@@ -92,7 +92,8 @@ requestMethod
 null
 }
 ;
-const
+this
+.
 NSGetFactory
 =
 XPCOMUtils

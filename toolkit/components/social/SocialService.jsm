@@ -1,4 +1,5 @@
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -530,7 +531,8 @@ DISPATCH_NORMAL
 )
 ;
 }
-const
+this
+.
 SocialService
 =
 {

@@ -3,7 +3,8 @@ use
 strict
 "
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -92,6 +93,10 @@ js
 .
 btoa
 ;
+this
+.
+FakeFilesystemService
+=
 function
 FakeFilesystemService
 (
@@ -237,6 +242,10 @@ obj
 ;
 }
 ;
+this
+.
+fakeSHA256HMAC
+=
 function
 fakeSHA256HMAC
 (
@@ -273,6 +282,10 @@ return
 message
 ;
 }
+this
+.
+FakeGUIDService
+=
 function
 FakeGUIDService
 (
@@ -307,6 +320,10 @@ latestGUID
 }
 ;
 }
+this
+.
+FakeCryptoService
+=
 function
 FakeCryptoService
 (

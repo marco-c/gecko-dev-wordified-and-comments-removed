@@ -73,7 +73,8 @@ jsm
 "
 )
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -691,6 +692,10 @@ debug
 }
 }
 ;
+this
+.
+CSPdebug
+=
 function
 CSPdebug
 (
@@ -1032,6 +1037,10 @@ resume
 }
 }
 ;
+this
+.
+CSPRep
+=
 function
 CSPRep
 (
@@ -3512,6 +3521,10 @@ consoleMsg
 }
 }
 ;
+this
+.
+CSPSourceList
+=
 function
 CSPSourceList
 (
@@ -4400,6 +4413,10 @@ newCSPSrcList
 ;
 }
 }
+this
+.
+CSPSource
+=
 function
 CSPSource
 (
@@ -6391,6 +6408,10 @@ _host
 }
 }
 ;
+this
+.
+CSPHost
+=
 function
 CSPHost
 (
@@ -7036,6 +7057,10 @@ true
 }
 }
 ;
+this
+.
+CSPViolationReportListener
+=
 function
 CSPViolationReportListener
 (
@@ -7372,6 +7397,8 @@ aMessage
 ;
 }
 }
+this
+.
 CSPLocalizer
 =
 {

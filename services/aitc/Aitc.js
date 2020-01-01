@@ -623,7 +623,8 @@ AitcService
 AboutApps
 ]
 ;
-const
+this
+.
 NSGetFactory
 =
 XPCOMUtils

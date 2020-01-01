@@ -613,7 +613,8 @@ gComponentsArray
 vacuumParticipant
 ]
 ;
-let
+this
+.
 NSGetFactory
 =
 XPCOMUtils

@@ -69,6 +69,10 @@ js
 let
 DEBUG
 ;
+this
+.
+translatePduErrorToStatus
+=
 function
 translatePduErrorToStatus
 (
@@ -151,7 +155,8 @@ pattern
 )
 ;
 }
-let
+this
+.
 BooleanValue
 =
 {
@@ -245,7 +250,8 @@ value
 }
 }
 ;
-let
+this
+.
 Address
 =
 {
@@ -1133,7 +1139,8 @@ w
 "
 )
 ;
-let
+this
+.
 HeaderField
 =
 {
@@ -1186,7 +1193,8 @@ ApplicationHeader
 }
 }
 ;
-let
+this
+.
 MmsHeader
 =
 {
@@ -1439,7 +1447,8 @@ value
 }
 }
 ;
-let
+this
+.
 ContentClassValue
 =
 {
@@ -1565,7 +1574,8 @@ value
 }
 }
 ;
-let
+this
+.
 ContentLocationValue
 =
 {
@@ -1708,7 +1718,8 @@ result
 }
 }
 ;
-let
+this
+.
 ElementDescriptorValue
 =
 {
@@ -1805,7 +1816,8 @@ result
 }
 }
 ;
-let
+this
+.
 Parameter
 =
 {
@@ -2137,7 +2149,8 @@ TextString
 }
 }
 ;
-let
+this
+.
 EncodedStringValue
 =
 {
@@ -2696,7 +2709,8 @@ str
 }
 }
 ;
-let
+this
+.
 ExpiryValue
 =
 {
@@ -2999,7 +3013,8 @@ value
 }
 }
 ;
-let
+this
+.
 FromValue
 =
 {
@@ -3226,7 +3241,8 @@ value
 }
 }
 ;
-let
+this
+.
 PreviouslySentByValue
 =
 {
@@ -3312,7 +3328,8 @@ result
 }
 }
 ;
-let
+this
+.
 PreviouslySentDateValue
 =
 {
@@ -3400,7 +3417,8 @@ result
 }
 }
 ;
-let
+this
+.
 MessageClassValue
 =
 {
@@ -3606,7 +3624,8 @@ klass
 }
 }
 ;
-let
+this
+.
 MessageTypeValue
 =
 {
@@ -3732,7 +3751,8 @@ type
 }
 }
 ;
-let
+this
+.
 MmFlagsValue
 =
 {
@@ -3980,7 +4000,8 @@ text
 }
 }
 ;
-let
+this
+.
 MmStateValue
 =
 {
@@ -4106,7 +4127,8 @@ state
 }
 }
 ;
-let
+this
+.
 PriorityValue
 =
 {
@@ -4228,7 +4250,8 @@ priority
 }
 }
 ;
-let
+this
+.
 RecommendedRetrievalModeValue
 =
 {
@@ -4254,7 +4277,8 @@ data
 }
 }
 ;
-let
+this
+.
 ReplyChargingValue
 =
 {
@@ -4380,7 +4404,8 @@ value
 }
 }
 ;
-let
+this
+.
 ResponseText
 =
 {
@@ -4519,7 +4544,8 @@ result
 }
 }
 ;
-let
+this
+.
 RetrieveStatusValue
 =
 {
@@ -4582,7 +4608,8 @@ MMS_PDU_ERROR_PERMANENT_FAILURE
 }
 }
 ;
-let
+this
+.
 StatusValue
 =
 {
@@ -4704,7 +4731,8 @@ value
 }
 }
 ;
-let
+this
+.
 PduHelper
 =
 {
@@ -7045,7 +7073,8 @@ s
 }
 ;
 }
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 ALL_CONST_SYMBOLS

@@ -13,7 +13,8 @@ Cu
 =
 Components
 ;
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [

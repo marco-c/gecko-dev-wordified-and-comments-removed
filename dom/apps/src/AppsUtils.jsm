@@ -69,7 +69,8 @@ jsm
 "
 )
 ;
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -88,7 +89,8 @@ s
 )
 {
 }
-let
+this
+.
 AppsUtils
 =
 {
@@ -1122,7 +1124,8 @@ savedBuildID
 ;
 }
 }
-let
+this
+.
 ManifestHelper
 =
 function

@@ -3,7 +3,8 @@ use
 strict
 "
 ;
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -63,7 +64,8 @@ js
 "
 )
 ;
-const
+this
+.
 Task
 =
 {

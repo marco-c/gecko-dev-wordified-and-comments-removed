@@ -212,7 +212,8 @@ nsIDownloadManagerUI
 )
 }
 ;
-const
+this
+.
 NSGetFactory
 =
 XPCOMUtils

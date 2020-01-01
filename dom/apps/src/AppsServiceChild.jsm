@@ -24,7 +24,8 @@ Components
 .
 interfaces
 ;
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -78,7 +79,8 @@ s
 )
 {
 }
-let
+this
+.
 DOMApplicationRegistry
 =
 {

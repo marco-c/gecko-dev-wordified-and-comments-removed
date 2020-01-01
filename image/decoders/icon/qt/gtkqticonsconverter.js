@@ -452,7 +452,8 @@ components
 GtkQtIconsConverter
 ]
 ;
-const
+this
+.
 NSGetFactory
 =
 XPCOMUtils

@@ -29,7 +29,8 @@ PREVIEW_AREA
 =
 700
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -137,6 +138,10 @@ jsm
 "
 )
 ;
+this
+.
+MarkupView
+=
 function
 MarkupView
 (

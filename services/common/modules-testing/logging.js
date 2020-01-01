@@ -3,7 +3,8 @@ use
 strict
 "
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -43,6 +44,10 @@ js
 "
 )
 ;
+this
+.
+initTestLogging
+=
 function
 initTestLogging
 (
@@ -259,6 +264,10 @@ return
 logStats
 ;
 }
+this
+.
+getTestLogger
+=
 function
 getTestLogger
 (

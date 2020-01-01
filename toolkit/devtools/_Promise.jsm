@@ -1,4 +1,5 @@
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -7,6 +8,10 @@ Promise
 "
 ]
 ;
+this
+.
+Promise
+=
 function
 Promise
 (

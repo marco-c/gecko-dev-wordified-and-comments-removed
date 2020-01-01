@@ -1,4 +1,5 @@
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -567,7 +568,8 @@ aMsg
 )
 ;
 }
-let
+this
+.
 SessionStore
 =
 {

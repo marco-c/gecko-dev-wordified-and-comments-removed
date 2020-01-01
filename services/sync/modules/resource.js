@@ -1,4 +1,5 @@
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -173,6 +174,10 @@ nsIRequest
 .
 LOAD_ANONYMOUS
 ;
+this
+.
+AsyncResource
+=
 function
 AsyncResource
 (
@@ -1779,6 +1784,10 @@ callback
 }
 }
 ;
+this
+.
+Resource
+=
 function
 Resource
 (

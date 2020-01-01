@@ -1400,7 +1400,8 @@ amIWebInstallListener
 )
 }
 ;
-var
+this
+.
 NSGetFactory
 =
 XPCOMUtils
