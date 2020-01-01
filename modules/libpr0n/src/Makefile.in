@@ -432,6 +432,10 @@ LIBXUL_LIBRARY
 CPPSRCS
 =
 \
+Image
+.
+cpp
+\
 imgContainer
 .
 cpp
