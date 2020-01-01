@@ -109,9 +109,6 @@ nsString
 name
 ;
 nsString
-description
-;
-nsString
 version
 ;
 PRUint32
