@@ -1628,7 +1628,6 @@ viewbox
 .
 height
 mPreserveAspectRatio
-PR_TRUE
 )
 ;
 gfxPoint

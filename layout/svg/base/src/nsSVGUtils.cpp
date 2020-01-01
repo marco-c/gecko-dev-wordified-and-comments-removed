@@ -4401,8 +4401,6 @@ const
 nsSVGPreserveAspectRatio
 &
 aPreserveAspectRatio
-PRBool
-aIgnoreAlign
 )
 {
 NS_ASSERTION
@@ -4498,17 +4496,6 @@ nsIDOMSVGPreserveAspectRatio
 :
 :
 SVG_MEETORSLICE_MEET
-;
-if
-(
-aIgnoreAlign
-)
-align
-=
-nsIDOMSVGPreserveAspectRatio
-:
-:
-SVG_PRESERVEASPECTRATIO_XMINYMIN
 ;
 float
 a
