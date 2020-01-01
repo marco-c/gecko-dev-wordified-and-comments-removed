@@ -80,8 +80,7 @@ virtual
 nsBaseAppShell
 (
 )
-{
-}
+;
 nsresult
 Init
 (
