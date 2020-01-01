@@ -7117,7 +7117,10 @@ default
 #
 endif
 friend
+JS_FRIEND_API
+(
 void
+)
 MarkContext
 (
 JSTracer

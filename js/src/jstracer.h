@@ -7610,6 +7610,9 @@ globalSlots
 >
 offsetOf
 (
+(
+uint16
+)
 nativeGlobalSlot
 (
 vp
