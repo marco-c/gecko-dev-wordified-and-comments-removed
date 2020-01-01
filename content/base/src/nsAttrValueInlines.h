@@ -11,6 +11,13 @@ stdint
 .
 h
 >
+#
+include
+"
+nsAttrValue
+.
+h
+"
 struct
 MiscContainer
 {
