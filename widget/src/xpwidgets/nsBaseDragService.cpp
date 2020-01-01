@@ -2251,6 +2251,7 @@ Draw
 *
 rc
 inRect
+inRect
 outRect
 )
 ;
