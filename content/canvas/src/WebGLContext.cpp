@@ -236,10 +236,6 @@ include
 "
 mozilla
 /
-dom
-/
-ipc
-/
 ProcessPriorityManager
 .
 h
@@ -922,14 +918,8 @@ WrapObject
 JSContext
 *
 cx
-JS
-:
-:
-Handle
-<
 JSObject
 *
->
 scope
 )
 {

@@ -625,10 +625,6 @@ include
 "
 mozilla
 /
-dom
-/
-ipc
-/
 ProcessPriorityManager
 .
 h

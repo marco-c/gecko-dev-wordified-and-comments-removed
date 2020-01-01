@@ -150,11 +150,6 @@ Blob
 h
 '
 '
-ProcessPriorityManager
-.
-h
-'
-'
 nsIRemoteBlob
 .
 h
@@ -232,6 +227,11 @@ mozilla
 [
 '
 AppProcessChecker
+.
+h
+'
+'
+ProcessPriorityManager
 .
 h
 '
