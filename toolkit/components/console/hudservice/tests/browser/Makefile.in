@@ -740,6 +740,10 @@ browser_webconsole_view_source
 .
 js
 \
+browser_webconsole_bug_614793_jsterm_scroll
+.
+js
+\
 head
 .
 js
