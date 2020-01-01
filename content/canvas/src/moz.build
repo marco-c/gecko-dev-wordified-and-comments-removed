@@ -195,6 +195,11 @@ WebGLBuffer
 cpp
 '
 '
+WebGL1Context
+.
+cpp
+'
+'
 WebGLContext
 .
 cpp
