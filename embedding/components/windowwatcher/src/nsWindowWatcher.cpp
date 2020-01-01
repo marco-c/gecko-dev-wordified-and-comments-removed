@@ -2259,6 +2259,16 @@ GetJSContextFromWindow
 aParent
 )
 ;
+bool
+windowTypeIsChrome
+=
+chromeFlags
+&
+nsIWebBrowserChrome
+:
+:
+CHROME_OPENAS_CHROME
+;
 if
 (
 isCallerChrome
@@ -2266,6 +2276,10 @@ isCallerChrome
 &
 !
 hasChromeParent
+&
+&
+!
+windowTypeIsChrome
 &
 &
 cx
