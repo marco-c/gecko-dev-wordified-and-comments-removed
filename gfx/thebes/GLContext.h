@@ -998,6 +998,7 @@ aValue
 ;
 }
 void
+THEBES_API
 MarkDestroyed
 (
 )
