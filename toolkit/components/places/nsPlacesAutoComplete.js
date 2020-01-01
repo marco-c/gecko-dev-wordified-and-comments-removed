@@ -911,6 +911,12 @@ executeAsync
 (
 )
 ;
+stmt
+.
+finalize
+(
+)
+;
 delete
 this
 .
