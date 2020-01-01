@@ -1303,6 +1303,10 @@ const
 nsAString
 &
 aURL
+const
+nsAString
+&
+aCrossOrigin
 )
 ;
 void
