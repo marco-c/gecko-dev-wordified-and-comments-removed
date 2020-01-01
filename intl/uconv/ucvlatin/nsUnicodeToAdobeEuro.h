@@ -12,7 +12,7 @@ nsISupports
 .
 h
 "
-NS_METHOD
+nsresult
 nsUnicodeToAdobeEuroConstructor
 (
 nsISupports

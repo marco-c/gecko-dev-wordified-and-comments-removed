@@ -19,7 +19,7 @@ nsUnicodeToISO88596E
 .
 h
 "
-NS_METHOD
+nsresult
 nsUnicodeToISO88596EConstructor
 (
 nsISupports

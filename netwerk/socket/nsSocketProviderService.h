@@ -34,7 +34,7 @@ nsSocketProviderService
 {
 }
 static
-NS_METHOD
+nsresult
 Create
 (
 nsISupports

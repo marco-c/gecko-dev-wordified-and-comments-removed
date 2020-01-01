@@ -19,7 +19,7 @@ nsISO88596EToUnicode
 .
 h
 "
-NS_METHOD
+nsresult
 nsISO88596EToUnicodeConstructor
 (
 nsISupports

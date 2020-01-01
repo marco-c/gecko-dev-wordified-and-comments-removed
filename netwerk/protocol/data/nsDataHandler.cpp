@@ -111,7 +111,7 @@ NS_IMPL_ISUPPORTS1
 nsDataHandler
 nsIProtocolHandler
 )
-NS_METHOD
+nsresult
 nsDataHandler
 :
 :

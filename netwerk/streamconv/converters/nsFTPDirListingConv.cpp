@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsIGenericFactory
-.
-h
-"
-#
-include
-"
 nsXPIDLString
 .
 h

@@ -189,7 +189,7 @@ Close
 ;
 }
 static
-NS_METHOD
+nsresult
 Create
 (
 nsISupports
@@ -294,7 +294,7 @@ Close
 ;
 }
 static
-NS_METHOD
+nsresult
 Create
 (
 nsISupports

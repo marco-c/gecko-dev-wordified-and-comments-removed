@@ -12,7 +12,7 @@ nsTIS620ToUnicode
 .
 h
 "
-NS_METHOD
+nsresult
 nsTIS620ToUnicodeConstructor
 (
 nsISupports

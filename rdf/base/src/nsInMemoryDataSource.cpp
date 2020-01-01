@@ -1156,7 +1156,7 @@ Init
 )
 ;
 friend
-NS_IMETHODIMP
+nsresult
 NS_NewRDFInMemoryDataSource
 (
 nsISupports
@@ -2964,7 +2964,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 NS_NewRDFInMemoryDataSource
 (
 nsISupports

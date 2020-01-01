@@ -11,7 +11,7 @@ nsISupports
 .
 h
 "
-NS_METHOD
+nsresult
 nsMacFarsiToUnicodeConstructor
 (
 nsISupports

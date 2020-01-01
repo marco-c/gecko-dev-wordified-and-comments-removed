@@ -19,7 +19,7 @@ nsUnicodeToISO88598I
 .
 h
 "
-NS_METHOD
+nsresult
 nsUnicodeToISO88598IConstructor
 (
 nsISupports

@@ -273,7 +273,7 @@ nsXULPrototypeCache
 nsIXULPrototypeCache
 nsIObserver
 )
-NS_IMETHODIMP
+nsresult
 NS_NewXULPrototypeCache
 (
 nsISupports

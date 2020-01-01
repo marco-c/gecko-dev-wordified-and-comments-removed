@@ -117,7 +117,7 @@ mController
 ;
 }
 ;
-NS_IMETHODIMP
+nsresult
 NS_NewXULControllers
 (
 nsISupports
@@ -142,7 +142,7 @@ nsISecurityCheckedComponent
 public
 :
 friend
-NS_IMETHODIMP
+nsresult
 NS_NewXULControllers
 (
 nsISupports

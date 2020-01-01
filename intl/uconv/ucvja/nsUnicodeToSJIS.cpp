@@ -76,7 +76,7 @@ u2BytesChar
 )
 }
 ;
-NS_METHOD
+nsresult
 nsUnicodeToSJISConstructor
 (
 nsISupports

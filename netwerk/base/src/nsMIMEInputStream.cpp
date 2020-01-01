@@ -1009,7 +1009,7 @@ SetEOF
 )
 ;
 }
-NS_METHOD
+nsresult
 nsMIMEInputStreamConstructor
 (
 nsISupports

@@ -31,7 +31,7 @@ ut
 "
 }
 ;
-NS_METHOD
+nsresult
 nsISO885910ToUnicodeConstructor
 (
 nsISupports

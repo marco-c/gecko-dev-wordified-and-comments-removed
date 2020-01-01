@@ -52,7 +52,7 @@ windows
 -
 1252
 "
-NS_METHOD
+nsresult
 nsUnicodeToCP1252Constructor
 (
 nsISupports

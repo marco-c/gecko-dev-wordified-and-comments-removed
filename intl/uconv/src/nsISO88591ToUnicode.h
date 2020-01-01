@@ -54,7 +54,7 @@ ISO
 -
 1
 "
-NS_METHOD
+nsresult
 nsISO88591ToUnicodeConstructor
 (
 nsISupports

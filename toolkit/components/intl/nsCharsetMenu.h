@@ -31,7 +31,7 @@ charset
 -
 menu
 "
-NS_IMETHODIMP
+nsresult
 NS_NewCharsetMenu
 (
 nsISupports

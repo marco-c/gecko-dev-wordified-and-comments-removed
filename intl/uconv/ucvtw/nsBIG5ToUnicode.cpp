@@ -62,7 +62,7 @@ g_BIG5Ranges
 }
 }
 ;
-NS_METHOD
+nsresult
 nsBIG5ToUnicodeConstructor
 (
 nsISupports

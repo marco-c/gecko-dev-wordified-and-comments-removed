@@ -11,7 +11,7 @@ nsISupports
 .
 h
 "
-NS_METHOD
+nsresult
 nsUnicodeToCP1257Constructor
 (
 nsISupports

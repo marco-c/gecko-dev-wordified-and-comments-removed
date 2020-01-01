@@ -653,7 +653,7 @@ scriptabledateformat
 1
 "
 extern
-NS_IMETHODIMP
+nsresult
 NS_NewScriptableDateFormat
 (
 nsISupports

@@ -1316,7 +1316,7 @@ nsKeygenFormProcessor
 )
 {
 }
-NS_METHOD
+nsresult
 nsKeygenFormProcessor
 :
 :

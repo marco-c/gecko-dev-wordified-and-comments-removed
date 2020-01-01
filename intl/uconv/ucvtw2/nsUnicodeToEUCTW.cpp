@@ -56,7 +56,7 @@ g_ufCNS6MappingTable
 g_ufCNS7MappingTable
 }
 ;
-NS_METHOD
+nsresult
 nsUnicodeToEUCTWConstructor
 (
 nsISupports

@@ -51,7 +51,7 @@ nsSOCKSSocketProvider
 {
 }
 static
-NS_METHOD
+nsresult
 CreateV4
 (
 nsISupports
@@ -65,7 +65,7 @@ aResult
 )
 ;
 static
-NS_METHOD
+nsresult
 CreateV5
 (
 nsISupports

@@ -582,14 +582,6 @@ nsDefaultURIFixup
 .
 cpp
 \
-nsGlobalHistoryAdapter
-.
-cpp
-\
-nsGlobalHistory2Adapter
-.
-cpp
-\
 nsWebNavigationInfo
 .
 cpp

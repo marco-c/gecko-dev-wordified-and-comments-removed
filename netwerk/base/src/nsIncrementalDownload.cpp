@@ -2819,7 +2819,7 @@ rv
 ;
 }
 extern
-NS_METHOD
+nsresult
 net_NewIncrementalDownload
 (
 nsISupports

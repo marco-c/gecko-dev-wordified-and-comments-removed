@@ -14,7 +14,7 @@ h
 class
 nsIRDFDataSource
 ;
-NS_IMETHODIMP
+nsresult
 NS_NewRDFInMemoryDataSource
 (
 nsISupports

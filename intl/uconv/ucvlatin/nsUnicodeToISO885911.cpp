@@ -31,7 +31,7 @@ uf
 "
 }
 ;
-NS_METHOD
+nsresult
 nsUnicodeToISO885911Constructor
 (
 nsISupports

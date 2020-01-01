@@ -557,7 +557,7 @@ return
 rv
 ;
 }
-NS_IMETHODIMP
+nsresult
 NS_NewScriptableDateFormat
 (
 nsISupports

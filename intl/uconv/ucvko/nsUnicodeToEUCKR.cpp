@@ -48,7 +48,7 @@ u2BytesGRCharset
 uDecomposedHangulCharset
 }
 ;
-NS_METHOD
+nsresult
 nsUnicodeToEUCKRConstructor
 (
 nsISupports

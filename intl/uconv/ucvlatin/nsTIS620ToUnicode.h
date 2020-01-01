@@ -11,7 +11,7 @@ nsCP874ToUnicode
 .
 h
 "
-NS_METHOD
+nsresult
 nsTIS620ToUnicodeConstructor
 (
 nsISupports

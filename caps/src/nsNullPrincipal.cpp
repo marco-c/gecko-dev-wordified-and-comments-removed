@@ -68,6 +68,15 @@ nsScriptSecurityManager
 .
 h
 "
+NS_IMPL_CLASSINFO
+(
+nsNullPrincipal
+NULL
+nsIClassInfo
+:
+:
+MAIN_THREAD_ONLY
+)
 NS_IMPL_QUERY_INTERFACE2_CI
 (
 nsNullPrincipal

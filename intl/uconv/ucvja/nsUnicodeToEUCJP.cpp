@@ -99,7 +99,7 @@ g_uf0201Mapping
 g_uf0212Mapping
 }
 ;
-NS_METHOD
+nsresult
 nsUnicodeToEUCJPConstructor
 (
 nsISupports

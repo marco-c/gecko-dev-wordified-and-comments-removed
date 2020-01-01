@@ -29,7 +29,7 @@ uf
 "
 }
 ;
-NS_METHOD
+nsresult
 nsUnicodeToCP1252Constructor
 (
 nsISupports

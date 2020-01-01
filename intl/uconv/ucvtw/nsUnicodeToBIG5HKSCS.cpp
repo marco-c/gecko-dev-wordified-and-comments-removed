@@ -46,7 +46,7 @@ u2BytesCharset
 u2BytesCharset
 }
 ;
-NS_METHOD
+nsresult
 nsUnicodeToBIG5HKSCSConstructor
 (
 nsISupports

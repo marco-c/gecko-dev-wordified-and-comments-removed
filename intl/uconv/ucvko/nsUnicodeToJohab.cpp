@@ -50,7 +50,7 @@ u2BytesCharset
 uJohabSymbolCharset
 }
 ;
-NS_METHOD
+nsresult
 nsUnicodeToJohabConstructor
 (
 nsISupports

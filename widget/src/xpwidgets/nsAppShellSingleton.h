@@ -13,9 +13,6 @@ static
 nsresult
 nsAppShellInit
 (
-nsIModule
-*
-module
 )
 {
 NS_ASSERTION
@@ -83,9 +80,6 @@ static
 void
 nsAppShellShutdown
 (
-nsIModule
-*
-module
 )
 {
 NS_RELEASE
@@ -95,7 +89,7 @@ sAppShell
 ;
 }
 static
-NS_METHOD
+nsresult
 nsAppShellConstructor
 (
 nsISupports

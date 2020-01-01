@@ -42,7 +42,7 @@ g_Big5HKSCSScanClassIDs
 u2BytesCharset
 }
 ;
-NS_METHOD
+nsresult
 nsUnicodeToHKSCSConstructor
 (
 nsISupports

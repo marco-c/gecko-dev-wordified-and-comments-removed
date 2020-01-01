@@ -495,6 +495,15 @@ sInvalid
 Invalid
 "
 ;
+NS_IMPL_CLASSINFO
+(
+nsPrincipal
+NULL
+nsIClassInfo
+:
+:
+MAIN_THREAD_ONLY
+)
 NS_IMPL_QUERY_INTERFACE2_CI
 (
 nsPrincipal

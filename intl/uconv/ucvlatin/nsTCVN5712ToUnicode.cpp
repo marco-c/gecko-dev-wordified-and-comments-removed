@@ -29,7 +29,7 @@ ut
 "
 }
 ;
-NS_METHOD
+nsresult
 nsTCVN5712ToUnicodeConstructor
 (
 nsISupports

@@ -97,7 +97,7 @@ g_utKSC5601Mapping
 g_utKSC5601Mapping
 }
 ;
-NS_METHOD
+nsresult
 nsJohabToUnicodeConstructor
 (
 nsISupports

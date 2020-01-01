@@ -217,7 +217,7 @@ LoadData
 )
 ;
 friend
-NS_IMETHODIMP
+nsresult
 NS_NewLocalStore
 (
 nsISupports
@@ -806,7 +806,7 @@ this
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 NS_NewLocalStore
 (
 nsISupports

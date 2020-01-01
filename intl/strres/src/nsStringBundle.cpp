@@ -134,13 +134,6 @@ h
 #
 include
 "
-nsIGenericFactory
-.
-h
-"
-#
-include
-"
 nsIMemory
 .
 h
@@ -163,13 +156,6 @@ h
 include
 "
 prmem
-.
-h
-"
-#
-include
-"
-nsIModule
 .
 h
 "

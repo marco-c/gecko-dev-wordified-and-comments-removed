@@ -303,7 +303,7 @@ type
 >
 "
 ;
-NS_IMETHODIMP
+nsresult
 nsRDFXMLSerializer
 :
 :

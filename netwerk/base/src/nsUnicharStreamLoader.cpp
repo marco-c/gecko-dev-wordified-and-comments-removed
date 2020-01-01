@@ -115,7 +115,7 @@ return
 NS_OK
 ;
 }
-NS_METHOD
+nsresult
 nsUnicharStreamLoader
 :
 :

@@ -46,7 +46,7 @@ u1ByteCharset
 u2BytesCharset
 }
 ;
-NS_METHOD
+nsresult
 nsUnicodeToBIG5Constructor
 (
 nsISupports

@@ -86,7 +86,7 @@ g_BIG5HKSCSRanges
 }
 }
 ;
-NS_METHOD
+nsresult
 nsBIG5HKSCSToUnicodeConstructor
 (
 nsISupports

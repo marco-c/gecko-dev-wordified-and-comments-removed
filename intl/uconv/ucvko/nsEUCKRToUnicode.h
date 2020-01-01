@@ -11,7 +11,7 @@ nsCP949ToUnicode
 .
 h
 "
-NS_METHOD
+nsresult
 nsEUCKRToUnicodeConstructor
 (
 nsISupports

@@ -104,7 +104,7 @@ FileSystemDataSource
 )
 NS_DECL_NSIRDFDATASOURCE
 static
-NS_METHOD
+nsresult
 Create
 (
 nsISupports

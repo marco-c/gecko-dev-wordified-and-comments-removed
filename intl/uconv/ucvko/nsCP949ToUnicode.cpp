@@ -97,7 +97,7 @@ g_utCP949NoKSCHangulMapping
 g_utCP949NoKSCHangulMapping
 }
 ;
-NS_METHOD
+nsresult
 nsCP949ToUnicodeConstructor
 (
 nsISupports

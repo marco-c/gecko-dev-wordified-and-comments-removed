@@ -98,7 +98,7 @@ g_EUCTWRanges
 }
 }
 ;
-NS_METHOD
+nsresult
 nsEUCTWToUnicodeConstructor
 (
 nsISupports

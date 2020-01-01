@@ -85,7 +85,7 @@ nsILocalStore
 NS_ILOCALSTORE_IID
 )
 extern
-NS_IMETHODIMP
+nsresult
 NS_NewLocalStore
 (
 nsISupports

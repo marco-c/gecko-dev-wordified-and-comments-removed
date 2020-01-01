@@ -54,7 +54,7 @@ mac
 -
 roman
 "
-NS_METHOD
+nsresult
 nsUnicodeToMacRomanConstructor
 (
 nsISupports

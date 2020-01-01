@@ -91,7 +91,7 @@ NS_DEFINE_STATIC_IID_ACCESSOR
 nsIXULPrototypeCache
 NS_IXULPROTOTYPECACHE_IID
 )
-NS_IMETHODIMP
+nsresult
 NS_NewXULPrototypeCache
 (
 nsISupports

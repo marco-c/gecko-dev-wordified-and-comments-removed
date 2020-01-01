@@ -29,7 +29,7 @@ ut
 "
 }
 ;
-NS_METHOD
+nsresult
 nsCP850ToUnicodeConstructor
 (
 nsISupports

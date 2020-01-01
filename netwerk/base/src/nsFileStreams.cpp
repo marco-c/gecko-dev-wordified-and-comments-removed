@@ -582,7 +582,7 @@ nsIInputStream
 nsIFileInputStream
 nsILineInputStream
 )
-NS_METHOD
+nsresult
 nsFileInputStream
 :
 :
@@ -1280,7 +1280,7 @@ nsFileStream
 nsIOutputStream
 nsIFileOutputStream
 )
-NS_METHOD
+nsresult
 nsFileOutputStream
 :
 :

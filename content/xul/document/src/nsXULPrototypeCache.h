@@ -270,7 +270,7 @@ sInstance
 protected
 :
 friend
-NS_IMETHODIMP
+nsresult
 NS_NewXULPrototypeCache
 (
 nsISupports

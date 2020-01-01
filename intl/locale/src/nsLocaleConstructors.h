@@ -21,7 +21,9 @@ h
 #
 include
 "
-nsIGenericFactory
+mozilla
+/
+ModuleUtils
 .
 h
 "
@@ -211,7 +213,7 @@ func_
 )
 \
 static
-NS_IMETHODIMP
+nsresult
 \
 ctor_
 (

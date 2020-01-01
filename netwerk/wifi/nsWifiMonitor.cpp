@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsIGenericFactory
-.
-h
-"
-#
-include
-"
 nsServiceManagerUtils
 .
 h
