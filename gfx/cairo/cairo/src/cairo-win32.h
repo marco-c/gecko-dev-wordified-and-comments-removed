@@ -418,6 +418,17 @@ cairo_content_t
 content
 )
 ;
+cairo_public
+struct
+ID3D10Texture2D
+*
+cairo_d2d_surface_get_texture
+(
+cairo_surface_t
+*
+surf
+)
+;
 void
 cairo_d2d_present_backbuffer
 (

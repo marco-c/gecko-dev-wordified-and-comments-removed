@@ -39,6 +39,10 @@ EXPORT_LIBRARY
 EXPORTS
 =
 \
+gfx2DGlue
+.
+h
+\
 gfx3DMatrix
 .
 h

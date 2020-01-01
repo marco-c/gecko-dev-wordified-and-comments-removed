@@ -132,6 +132,12 @@ nsIntRect
 aClip
 )
 ;
+ID3D10Texture2D
+*
+GetTexture
+(
+)
+;
 HDC
 GetDC
 (
