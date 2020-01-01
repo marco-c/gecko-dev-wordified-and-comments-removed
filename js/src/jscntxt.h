@@ -525,6 +525,9 @@ JSContext
 *
 ionJSContext
 ;
+jsuword
+ionStackLimit
+;
 ion
 :
 :
