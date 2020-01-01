@@ -4660,7 +4660,7 @@ if
 ret
 )
 return
-nullptr
+NULL
 ;
 Impl
 :

@@ -6083,6 +6083,10 @@ delete
 mDetachedWrappedNativeProtoMap
 ;
 }
+JS_ShutDown
+(
+)
+;
 #
 ifdef
 MOZ_ENABLE_PROFILER_SPS

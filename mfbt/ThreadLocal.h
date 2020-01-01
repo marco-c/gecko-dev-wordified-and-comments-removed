@@ -90,15 +90,6 @@ Attributes
 .
 h
 "
-#
-include
-"
-mozilla
-/
-NullPtr
-.
-h
-"
 namespace
 mozilla
 {
@@ -289,7 +280,7 @@ pthread_key_create
 (
 &
 key
-nullptr
+NULL
 )
 ;
 #
