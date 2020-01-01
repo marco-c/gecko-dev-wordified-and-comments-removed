@@ -2431,6 +2431,8 @@ BasicLayerManager
 :
 EndEmptyTransaction
 (
+EndTransactionFlags
+aFlags
 )
 {
 if
@@ -2448,6 +2450,7 @@ EndTransactionInternal
 (
 nullptr
 nullptr
+aFlags
 )
 ;
 }
@@ -5217,6 +5220,8 @@ BasicShadowLayerManager
 :
 EndEmptyTransaction
 (
+EndTransactionFlags
+aFlags
 )
 {
 if
@@ -5227,6 +5232,7 @@ BasicLayerManager
 :
 EndEmptyTransaction
 (
+aFlags
 )
 )
 {

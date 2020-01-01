@@ -1682,6 +1682,8 @@ LayerManagerOGL
 :
 EndEmptyTransaction
 (
+EndTransactionFlags
+aFlags
 )
 {
 if
@@ -1696,6 +1698,7 @@ EndTransaction
 (
 nullptr
 nullptr
+aFlags
 )
 ;
 return
