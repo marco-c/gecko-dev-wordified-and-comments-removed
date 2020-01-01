@@ -626,7 +626,10 @@ return
 NS_OK
 ;
 }
-else
+if
+(
+mPicture
+)
 {
 SendPicture
 (
