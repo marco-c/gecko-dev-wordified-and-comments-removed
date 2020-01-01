@@ -481,6 +481,16 @@ forInStatement
 )
 ASTDEF
 (
+AST_FOR_OF_STMT
+"
+ForOfStatement
+"
+"
+forOfStatement
+"
+)
+ASTDEF
+(
 AST_BREAK_STMT
 "
 BreakStatement
