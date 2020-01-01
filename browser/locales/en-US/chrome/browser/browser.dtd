@@ -648,10 +648,9 @@ Tabs
 ENTITY
 showAllBookmarksCmd
 .
-label
+label2
 "
-Show
-All
+Organize
 Bookmarks
 "
 >
@@ -1687,7 +1686,7 @@ Home
 ENTITY
 showAllHistoryCmd
 .
-label
+label2
 "
 Show
 All
