@@ -9457,12 +9457,10 @@ intOpaqueRect
 ;
 if
 (
-gfxUtils
-:
-:
-RectToIntRect
-(
 opaqueRect
+.
+ToIntRect
+(
 &
 intOpaqueRect
 )
