@@ -675,7 +675,7 @@ CONFIG_DIR
 &
 &
 (
-MAKENSIS
+MAKENSISU
 )
 installer
 .
@@ -703,7 +703,7 @@ CONFIG_DIR
 &
 &
 (
-MAKENSIS
+MAKENSISU
 )
 uninstaller
 .
@@ -1048,7 +1048,7 @@ CONFIG_DIR
 &
 &
 (
-MAKENSIS
+MAKENSISU
 )
 uninstaller
 .
