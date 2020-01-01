@@ -10065,7 +10065,7 @@ aOptions
 title
 icon
 :
-resolveGeckoUri
+resolveGeckoURI
 (
 aOptions
 .
