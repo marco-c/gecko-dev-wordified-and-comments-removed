@@ -1959,6 +1959,11 @@ NPCoordinateSpace
 destSpace
 )
 ;
+void
+SendIdleEvent
+(
+)
+;
 NS_DECL_CYCLE_COLLECTION_CLASS
 (
 nsDummyJavaPluginOwner
@@ -2339,6 +2344,15 @@ eventModel
 return
 NS_ERROR_NOT_IMPLEMENTED
 ;
+}
+void
+nsDummyJavaPluginOwner
+:
+:
+SendIdleEvent
+(
+)
+{
 }
 class
 nsGlobalWindowObserver
