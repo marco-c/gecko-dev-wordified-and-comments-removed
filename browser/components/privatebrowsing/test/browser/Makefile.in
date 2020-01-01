@@ -465,10 +465,6 @@ browser_privatebrowsing_commandline_toggle
 .
 js
 \
-browser_privatebrowsing_contextmenu_blockimage
-.
-js
-\
 browser_privatebrowsing_cookieacceptdialog
 .
 js

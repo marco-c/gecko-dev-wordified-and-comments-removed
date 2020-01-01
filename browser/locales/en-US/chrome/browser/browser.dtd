@@ -3594,16 +3594,6 @@ o
 <
 !
 ENTITY
-blockImageCmd
-.
-accesskey
-"
-B
-"
->
-<
-!
-ENTITY
 copyEmailCmd
 .
 label
