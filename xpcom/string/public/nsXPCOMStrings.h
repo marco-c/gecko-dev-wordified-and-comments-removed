@@ -147,8 +147,7 @@ d1
 PRUint32
 d2
 ;
-void
-*
+PRUint32
 d3
 ;
 }
