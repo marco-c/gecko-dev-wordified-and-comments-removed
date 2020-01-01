@@ -328,7 +328,7 @@ dest
 )
 ;
 }
-void
+DataLabelPtr
 loadDouble
 (
 const
@@ -352,6 +352,12 @@ movsd_mr
 (
 address
 dest
+)
+;
+return
+DataLabelPtr
+(
+this
 )
 ;
 }

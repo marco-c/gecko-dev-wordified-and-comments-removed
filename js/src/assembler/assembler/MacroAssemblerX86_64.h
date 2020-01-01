@@ -315,7 +315,7 @@ dest
 ;
 }
 }
-void
+DataLabelPtr
 loadDouble
 (
 const
@@ -326,7 +326,10 @@ FPRegisterID
 dest
 )
 {
-move
+DataLabelPtr
+label
+=
+moveWithPatch
 (
 ImmPtr
 (
@@ -340,6 +343,9 @@ loadDouble
 scratchRegister
 dest
 )
+;
+return
+label
 ;
 }
 void
