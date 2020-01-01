@@ -837,12 +837,6 @@ GetPeakPagefileUsage
 )
 const
 ;
-size_t
-GetWorkingSetSize
-(
-)
-const
-;
 int
 GetCPUUsage
 (
