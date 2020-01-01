@@ -1123,6 +1123,13 @@ drawable
 /
 crash_reporter
 "
+android
+:
+excludeFromRecents
+=
+"
+true
+"
 >
 <
 intent
