@@ -36,6 +36,13 @@ h
 #
 include
 "
+nsIContent
+.
+h
+"
+#
+include
+"
 nsIMEStateManager
 .
 h

@@ -7,6 +7,13 @@ nsTreeContentView_h__
 #
 include
 "
+nsCycleCollectionParticipant
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h

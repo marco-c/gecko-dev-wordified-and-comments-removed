@@ -91,13 +91,6 @@ h
 #
 include
 "
-nsBindingManager
-.
-h
-"
-#
-include
-"
 nsIURI
 .
 h

@@ -61,13 +61,6 @@ h
 #
 include
 "
-nsIContent
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h
@@ -79,6 +72,9 @@ nsSelectsAreaFrame
 .
 h
 "
+class
+nsIContent
+;
 class
 nsIDOMHTMLSelectElement
 ;

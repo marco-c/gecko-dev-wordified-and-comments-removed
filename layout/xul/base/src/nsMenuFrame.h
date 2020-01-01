@@ -63,13 +63,6 @@ h
 #
 include
 "
-nsIContent
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
@@ -99,6 +92,9 @@ nsStyleContext
 *
 aContext
 )
+;
+class
+nsIContent
 ;
 class
 nsMenuBarFrame

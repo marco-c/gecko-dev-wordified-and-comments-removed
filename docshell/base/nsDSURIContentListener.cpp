@@ -50,6 +50,13 @@ h
 #
 include
 "
+nsIDocument
+.
+h
+"
+#
+include
+"
 nsIDOMWindow
 .
 h

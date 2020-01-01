@@ -11,13 +11,9 @@ nsAutoPtr
 .
 h
 "
-#
-include
-"
+class
 nsIContent
-.
-h
-"
+;
 namespace
 mozilla
 {

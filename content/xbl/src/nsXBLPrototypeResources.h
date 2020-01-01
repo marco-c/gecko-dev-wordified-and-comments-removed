@@ -7,7 +7,7 @@ nsXBLPrototypeResources_h__
 #
 include
 "
-nsCOMPtr
+nsAutoPtr
 .
 h
 "

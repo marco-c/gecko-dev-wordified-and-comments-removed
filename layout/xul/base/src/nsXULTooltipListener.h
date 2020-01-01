@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsIContent
-.
-h
-"
-#
-include
-"
 nsIDOMElement
 .
 h
@@ -88,6 +81,9 @@ Attributes
 .
 h
 "
+class
+nsIContent
+;
 class
 nsXULTooltipListener
 MOZ_FINAL

@@ -39,6 +39,13 @@ h
 #
 include
 "
+nsIContent
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -58,13 +65,6 @@ mozilla
 dom
 /
 Nullable
-.
-h
-"
-#
-include
-"
-nsIContent
 .
 h
 "

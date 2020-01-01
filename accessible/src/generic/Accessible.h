@@ -114,9 +114,6 @@ struct
 nsRect
 ;
 class
-nsIContent
-;
-class
 nsIFrame
 ;
 class

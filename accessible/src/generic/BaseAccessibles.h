@@ -18,13 +18,9 @@ HyperTextAccessibleWrap
 .
 h
 "
-#
-include
-"
+class
 nsIContent
-.
-h
-"
+;
 namespace
 mozilla
 {

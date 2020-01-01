@@ -282,13 +282,6 @@ h
 #
 include
 "
-nsIContent
-.
-h
-"
-#
-include
-"
 nsIIDBFactory
 .
 h
@@ -435,6 +428,9 @@ MAX_IDLE_FUZZ_TIME_MS
 define
 MIN_IDLE_NOTIFICATION_TIME_S
 1
+class
+nsIContent
+;
 class
 nsIDOMBarProp
 ;

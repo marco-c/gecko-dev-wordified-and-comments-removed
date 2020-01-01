@@ -99,6 +99,9 @@ nsISupports
 idl
 "
 interface
+nsFrameLoader
+;
+interface
 nsIDocShell
 ;
 interface

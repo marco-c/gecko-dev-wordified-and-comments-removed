@@ -7,13 +7,6 @@ nsTreeSanitizer_h_
 #
 include
 "
-nsIContent
-.
-h
-"
-#
-include
-"
 mozilla
 /
 css
@@ -40,6 +33,9 @@ Element
 .
 h
 "
+class
+nsIContent
+;
 class
 NS_STACK_CLASS
 nsTreeSanitizer
