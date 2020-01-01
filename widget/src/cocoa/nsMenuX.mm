@@ -1313,9 +1313,14 @@ re
 a
 submenu
 )
+#
+ifdef
+DEBUG
 nsMenuObjectTypeX
 parentType
 =
+#
+endif
 mParent
 -
 >
