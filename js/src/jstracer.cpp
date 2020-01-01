@@ -15881,6 +15881,7 @@ Assembler
 *
 codeAlloc
 alloc
+alloc
 core
 &
 js_LogController
