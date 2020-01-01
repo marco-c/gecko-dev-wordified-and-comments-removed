@@ -497,7 +497,7 @@ arc4random
 )
 ;
 const
-int
+size_t
 mRBytes
 =
 4
