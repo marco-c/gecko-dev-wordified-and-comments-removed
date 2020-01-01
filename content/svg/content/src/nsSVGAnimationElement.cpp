@@ -1725,7 +1725,7 @@ bool
 nsSVGAnimationElement
 :
 :
-IsEventName
+IsEventAttributeName
 (
 nsIAtom
 *

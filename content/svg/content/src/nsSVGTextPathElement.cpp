@@ -453,7 +453,7 @@ bool
 nsSVGTextPathElement
 :
 :
-IsEventName
+IsEventAttributeName
 (
 nsIAtom
 *

@@ -1344,15 +1344,6 @@ nsAString
 aValue
 )
 ;
-virtual
-bool
-IsEventName
-(
-nsIAtom
-*
-aName
-)
-;
 void
 UpdateContentStyleRule
 (

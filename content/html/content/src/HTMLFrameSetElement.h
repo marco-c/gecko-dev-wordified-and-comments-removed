@@ -191,6 +191,16 @@ aError
 )
 ;
 }
+virtual
+bool
+IsEventAttributeName
+(
+nsIAtom
+*
+aName
+)
+MOZ_OVERRIDE
+;
 #
 define
 EVENT

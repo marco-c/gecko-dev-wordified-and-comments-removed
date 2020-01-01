@@ -153,16 +153,15 @@ return
 this
 ;
 }
-protected
-:
 virtual
 bool
-IsEventName
+IsEventAttributeName
 (
 nsIAtom
 *
 aName
 )
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -284,7 +283,7 @@ bool
 nsSVGTSpanElement
 :
 :
-IsEventName
+IsEventAttributeName
 (
 nsIAtom
 *

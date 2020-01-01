@@ -1156,6 +1156,16 @@ return
 style
 ;
 }
+virtual
+bool
+IsEventAttributeName
+(
+nsIAtom
+*
+aName
+)
+MOZ_OVERRIDE
+;
 #
 define
 EVENT
@@ -3484,6 +3494,7 @@ void
 aData
 )
 ;
+virtual
 bool
 IsElementDisabledForEvents
 (

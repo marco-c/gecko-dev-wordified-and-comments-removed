@@ -3195,7 +3195,7 @@ bool
 nsSVGSVGElement
 :
 :
-IsEventName
+IsEventAttributeName
 (
 nsIAtom
 *

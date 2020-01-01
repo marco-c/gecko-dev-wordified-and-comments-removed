@@ -776,7 +776,7 @@ bool
 nsSVGGraphicElement
 :
 :
-IsEventName
+IsEventAttributeName
 (
 nsIAtom
 *
