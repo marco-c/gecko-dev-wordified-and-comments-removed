@@ -516,6 +516,13 @@ csisolatin4
 "
 iso88594
 "
+"
+iso_8859
+-
+4
+:
+1988
+"
 ]
 ;
 function

@@ -372,6 +372,13 @@ csisolatinhebrew
 "
 iso88598
 "
+"
+iso_8859
+-
+8
+:
+1988
+"
 ]
 ;
 function

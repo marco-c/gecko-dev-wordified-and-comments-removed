@@ -488,6 +488,13 @@ csisolatin3
 "
 iso88593
 "
+"
+iso_8859
+-
+3
+:
+1988
+"
 ]
 ;
 function

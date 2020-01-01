@@ -516,6 +516,13 @@ csisolatin5
 "
 iso88599
 "
+"
+iso_8859
+-
+9
+:
+1989
+"
 ]
 ;
 function
