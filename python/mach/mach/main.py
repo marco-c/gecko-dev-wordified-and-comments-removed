@@ -28,9 +28,17 @@ mozbuild
 logger
 import
 LoggingManager
+from
+mach
+.
+settings
+import
+Settings
 HANDLERS
 =
 [
+    
+Settings
 ]
 SETTINGS_PROVIDERS
 =
