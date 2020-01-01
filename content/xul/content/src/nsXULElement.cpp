@@ -5419,8 +5419,10 @@ if
 doc
 )
 {
+nsRefPtr
+<
 nsXBLBinding
-*
+>
 binding
 =
 doc
