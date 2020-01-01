@@ -1005,6 +1005,9 @@ gfxContext
 *
 mDestinationCtx
 ;
+bool
+mPreTransformed
+;
 }
 ;
 #
