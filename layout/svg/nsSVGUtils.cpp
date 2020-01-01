@@ -6514,7 +6514,10 @@ IsSVGText
 {
 if
 (
-NS_SVGTextCSSFramesEnabled
+aFrame
+-
+>
+IsSVGText
 (
 )
 )

@@ -156,6 +156,11 @@ GetSVGTextFrame
 (
 )
 ;
+bool
+FrameIsSVGText
+(
+)
+;
 }
 ;
 }

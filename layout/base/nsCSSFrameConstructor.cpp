@@ -19926,13 +19926,6 @@ sSuppressData
 }
 if
 (
-NS_SVGTextCSSFramesEnabled
-(
-)
-)
-{
-if
-(
 aIsWithinSVGText
 )
 {
@@ -20020,6 +20013,12 @@ sSuppressData
 ;
 }
 else
+if
+(
+NS_SVGTextCSSFramesEnabled
+(
+)
+)
 {
 if
 (
@@ -20088,7 +20087,6 @@ return
 &
 sSuppressData
 ;
-}
 }
 }
 else
