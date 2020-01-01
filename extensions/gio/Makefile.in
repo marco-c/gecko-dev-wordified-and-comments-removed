@@ -93,9 +93,6 @@ mk
 LIBRARY_NAME
 =
 nkgio
-SHORT_LIBNAME
-=
-nkgio
 IS_COMPONENT
 =
 1

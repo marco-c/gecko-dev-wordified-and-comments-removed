@@ -81,9 +81,6 @@ spellchecker
 MODULE_NAME
 =
 mozSpellCheckerModule
-SHORT_LIBNAME
-=
-spellchk
 EXPORT_LIBRARY
 =
 1

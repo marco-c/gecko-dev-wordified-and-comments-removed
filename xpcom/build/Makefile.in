@@ -122,9 +122,6 @@ mk
 LIBRARY_NAME
 =
 xpcom_core
-SHORT_LIBNAME
-=
-xpcomcor
 LIBXUL_LIBRARY
 =
 1

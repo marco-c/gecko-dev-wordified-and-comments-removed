@@ -81,9 +81,6 @@ StartupCacheModule
 LIBRARY_NAME
 =
 startupcache
-SHORT_LIBNAME
-=
-scache
 EXPORT_LIBRARY
 =
 1

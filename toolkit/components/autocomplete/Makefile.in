@@ -81,9 +81,6 @@ tkAutoCompleteModule
 LIBRARY_NAME
 =
 tkautocomplete
-SHORT_LIBNAME
-=
-tkautoc
 IS_COMPONENT
 =
 1

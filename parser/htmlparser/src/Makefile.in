@@ -87,9 +87,6 @@ IS_COMPONENT
 MODULE_NAME
 =
 nsParserModule
-SHORT_LIBNAME
-=
-gkparser
 LIBXUL_LIBRARY
 =
 1

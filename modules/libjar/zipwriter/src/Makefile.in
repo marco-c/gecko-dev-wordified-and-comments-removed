@@ -78,9 +78,6 @@ mk
 LIBRARY_NAME
 =
 zipwriter
-SHORT_LIBNAME
-=
-zipwrite
 MODULE_NAME
 =
 ZipWriterModule

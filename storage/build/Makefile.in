@@ -79,9 +79,6 @@ mk
 LIBRARY_NAME
 =
 storagecomps
-SHORT_LIBNAME
-=
-strgcmps
 EXPORT_LIBRARY
 =
 1

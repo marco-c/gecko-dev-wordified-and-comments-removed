@@ -88,9 +88,6 @@ IS_COMPONENT
 MODULE_NAME
 =
 nsUniversalCharDetModule
-SHORT_LIBNAME
-=
-ucdet
 LIBXUL_LIBRARY
 =
 1

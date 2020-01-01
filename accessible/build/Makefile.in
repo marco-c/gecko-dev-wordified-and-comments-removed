@@ -82,9 +82,6 @@ accessibility
 EXPORT_LIBRARY
 =
 1
-SHORT_LIBNAME
-=
-access
 IS_COMPONENT
 =
 1
