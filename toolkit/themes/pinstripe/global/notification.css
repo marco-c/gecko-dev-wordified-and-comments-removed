@@ -642,6 +642,15 @@ popup
 notification
 -
 menubutton
+[
+type
+=
+"
+menu
+-
+button
+"
+]
 {
 -
 moz
