@@ -269,7 +269,7 @@ DOM_SRCDIRS
 \
 dom
 /
-fm
+fmradio
 \
 (
 NULL
