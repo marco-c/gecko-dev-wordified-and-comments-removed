@@ -291,6 +291,8 @@ nsACString
 dbName
 PRUint32
 delay
+bool
+isDynamicString
 )
 ;
 const
