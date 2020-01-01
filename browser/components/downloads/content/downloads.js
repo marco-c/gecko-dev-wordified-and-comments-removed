@@ -3915,6 +3915,12 @@ localFile
 )
 ;
 }
+DownloadsPanel
+.
+hidePanel
+(
+)
+;
 }
 downloadsCmd_show
 :
@@ -3989,6 +3995,12 @@ parent
 }
 }
 }
+DownloadsPanel
+.
+hidePanel
+(
+)
+;
 }
 downloadsCmd_pauseResume
 :
