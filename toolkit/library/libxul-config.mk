@@ -408,9 +408,15 @@ NULL
 ifeq
 (
 (
+filter
+-
+out
+WINCE
+WINNT
+(
 OS_ARCH
 )
-WINNT
+)
 )
 REQUIRES
 +
