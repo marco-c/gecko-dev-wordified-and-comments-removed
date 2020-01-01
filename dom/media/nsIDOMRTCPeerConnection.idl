@@ -225,15 +225,15 @@ html
 scriptable
 uuid
 (
-f888648c
+474074ab
 -
-5e6b
+11f9
 -
-4af9
+4933
 -
-91ad
+a200
 -
-a911e53d7a39
+8ea1a5f84e4c
 )
 ]
 interface
@@ -297,7 +297,7 @@ desc
 optional
 ]
 in
-RTCPeerConnectionCallback
+RTCPeerConnectionCallbackVoid
 successCallback
 [
 optional
@@ -317,7 +317,7 @@ desc
 optional
 ]
 in
-RTCPeerConnectionCallback
+RTCPeerConnectionCallbackVoid
 successCallback
 [
 optional
@@ -360,7 +360,7 @@ candidate
 optional
 ]
 in
-RTCPeerConnectionCallback
+RTCPeerConnectionCallbackVoid
 successCallback
 [
 optional
