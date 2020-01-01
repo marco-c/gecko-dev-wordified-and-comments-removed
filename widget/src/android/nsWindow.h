@@ -763,6 +763,10 @@ DrawTo
 gfxASurface
 *
 targetSurface
+const
+nsIntRect
+&
+aRect
 )
 ;
 bool
@@ -949,6 +953,11 @@ mozilla
 AndroidGeckoEvent
 *
 ae
+)
+;
+void
+RedrawAll
+(
 )
 ;
 #
