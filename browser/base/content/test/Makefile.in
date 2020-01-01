@@ -1065,6 +1065,10 @@ plugin_hidden_to_visible
 .
 html
 \
+plugin_two_types
+.
+html
+\
 alltabslistener
 .
 html
