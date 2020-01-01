@@ -6,11 +6,11 @@ define
 mozHunspell_h__
 #
 include
-"
+<
 hunspell
 .
 hxx
-"
+>
 #
 include
 "

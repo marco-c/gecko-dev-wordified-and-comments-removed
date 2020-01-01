@@ -608,6 +608,10 @@ MOZ_UNICHARUTIL_LIBS
 )
 \
 (
+MOZ_HUNSPELL_LIBS
+)
+\
+(
 NULL
 )
 include

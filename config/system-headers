@@ -3593,3 +3593,14 @@ util
 h
 #
 endif
+#
+if
+MOZ_NATIVE_HUNSPELL
+=
+=
+1
+hunspell
+.
+hxx
+#
+endif

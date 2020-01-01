@@ -432,6 +432,15 @@ EXTRA_DSO_LDOPTS
 MOZ_ZLIB_LIBS
 )
 endif
+ifdef
+MOZ_NATIVE_HUNSPELL
+EXTRA_DSO_LDOPTS
++
+=
+(
+MOZ_HUNSPELL_LIBS
+)
+endif
 #
 need
 widget
