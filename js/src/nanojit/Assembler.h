@@ -1516,6 +1516,13 @@ _endJit2Addr
 ;
 #
 endif
+avmplus
+:
+:
+Config
+&
+config
+;
 }
 ;
 inline
