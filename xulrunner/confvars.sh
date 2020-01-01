@@ -408,17 +408,9 @@ omni
 MOZ_APP_VERSION
 =
 MOZILLA_VERSION
-if
-test
-"
-MOZ_STORAGE
-"
-;
-then
 MOZ_PLACES
 =
 1
-fi
 MOZ_EXTENSIONS_DEFAULT
 =
 "

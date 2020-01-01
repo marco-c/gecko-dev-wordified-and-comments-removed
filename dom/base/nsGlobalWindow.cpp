@@ -32161,9 +32161,6 @@ NS_ENSURE_ARG_POINTER
 aGlobalStorage
 )
 ;
-#
-ifdef
-MOZ_STORAGE
 if
 (
 !
@@ -32221,13 +32218,6 @@ aGlobalStorage
 return
 NS_OK
 ;
-#
-else
-return
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
-;
-#
-endif
 }
 NS_IMETHODIMP
 nsGlobalWindow

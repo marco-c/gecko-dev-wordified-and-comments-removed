@@ -648,6 +648,8 @@ libjar
 \
 db
 \
+storage
+\
 (
 NULL
 )
@@ -668,13 +670,6 @@ permissions
 (
 NULL
 )
-endif
-ifdef
-MOZ_STORAGE
-tier_platform_dirs
-+
-=
-storage
 endif
 ifdef
 MOZ_RDF

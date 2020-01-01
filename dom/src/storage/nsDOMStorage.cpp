@@ -1126,9 +1126,6 @@ data
 PR_FALSE
 )
 ;
-#
-ifdef
-MOZ_STORAGE
 os
 -
 >
@@ -1165,8 +1162,6 @@ NS_DOMSTORAGE_FLUSH_TIMER_OBSERVER
 PR_FALSE
 )
 ;
-#
-endif
 return
 NS_OK
 ;
@@ -1224,9 +1219,6 @@ gStorageManager
 =
 nsnull
 ;
-#
-ifdef
-MOZ_STORAGE
 delete
 DOMStorageImpl
 :
@@ -1240,8 +1232,6 @@ gStorageDB
 =
 nsnull
 ;
-#
-endif
 }
 static
 PLDHashOperator
@@ -1628,9 +1618,6 @@ removed
 )
 )
 {
-#
-ifdef
-MOZ_STORAGE
 nsresult
 rv
 =
@@ -1663,8 +1650,6 @@ aData
 PR_TRUE
 )
 ;
-#
-endif
 }
 else
 if
@@ -1709,9 +1694,6 @@ ClearStorage
 nsnull
 )
 ;
-#
-ifdef
-MOZ_STORAGE
 nsresult
 rv
 =
@@ -1761,8 +1743,6 @@ PR_TRUE
 PR_FALSE
 )
 ;
-#
-endif
 }
 else
 if
@@ -1830,9 +1810,6 @@ mInPrivateBrowsing
 =
 PR_FALSE
 ;
-#
-ifdef
-MOZ_STORAGE
 nsresult
 rv
 =
@@ -1860,8 +1837,6 @@ DropPrivateBrowsingStorages
 (
 )
 ;
-#
-endif
 }
 else
 if
@@ -1986,9 +1961,6 @@ IsEmpty
 return
 NS_OK
 ;
-#
-ifdef
-MOZ_STORAGE
 nsresult
 rv
 =
@@ -2017,8 +1989,6 @@ DropSessionOnlyStoragesForHost
 host
 )
 ;
-#
-endif
 }
 }
 else
@@ -2173,9 +2143,6 @@ ClearStorageIfDomainMatches
 key
 )
 ;
-#
-ifdef
-MOZ_STORAGE
 rv
 =
 DOMStorageImpl
@@ -2325,8 +2292,6 @@ failed
 )
 ;
 }
-#
-endif
 }
 return
 NS_OK
@@ -2598,9 +2563,6 @@ aStorage
 )
 ;
 }
-#
-ifdef
-MOZ_STORAGE
 nsDOMStorageDBWrapper
 *
 DOMStorageImpl
@@ -2610,8 +2572,6 @@ gStorageDB
 =
 nsnull
 ;
-#
-endif
 nsDOMStorageEntry
 :
 :
@@ -2897,9 +2857,6 @@ GetAsciiHost
 mDomain
 )
 ;
-#
-ifdef
-MOZ_STORAGE
 mUseDB
 =
 PR_FALSE
@@ -2916,8 +2873,6 @@ Truncate
 (
 )
 ;
-#
-endif
 mStorageType
 =
 nsPIDOMStorage
@@ -2947,9 +2902,6 @@ GetAsciiHost
 mDomain
 )
 ;
-#
-ifdef
-MOZ_STORAGE
 nsDOMStorageDBWrapper
 :
 :
@@ -2990,8 +2942,6 @@ PR_TRUE
 mQuotaETLDplus1DomainDBKey
 )
 ;
-#
-endif
 mCanUseChromePersist
 =
 aCanUseChromePersist
@@ -3020,9 +2970,6 @@ mDomain
 =
 aDomainDemanded
 ;
-#
-ifdef
-MOZ_STORAGE
 nsDOMStorageDBWrapper
 :
 :
@@ -3077,8 +3024,6 @@ PR_TRUE
 mQuotaETLDplus1DomainDBKey
 )
 ;
-#
-endif
 mStorageType
 =
 nsPIDOMStorage
@@ -3307,9 +3252,6 @@ InitDB
 (
 )
 {
-#
-ifdef
-MOZ_STORAGE
 if
 (
 !
@@ -3361,8 +3303,6 @@ rv
 ;
 }
 }
-#
-endif
 return
 NS_OK
 ;
@@ -3665,9 +3605,6 @@ Truncate
 (
 )
 ;
-#
-ifdef
-MOZ_STORAGE
 if
 (
 !
@@ -3747,8 +3684,6 @@ Assign
 value
 )
 ;
-#
-endif
 return
 NS_OK
 ;
@@ -3771,9 +3706,6 @@ PRBool
 aSecure
 )
 {
-#
-ifdef
-MOZ_STORAGE
 if
 (
 !
@@ -3993,8 +3925,6 @@ get
 )
 ;
 }
-#
-endif
 return
 NS_OK
 ;
@@ -4013,9 +3943,6 @@ PRBool
 aSecure
 )
 {
-#
-ifdef
-MOZ_STORAGE
 if
 (
 UseDB
@@ -4048,13 +3975,6 @@ aSecure
 )
 ;
 }
-#
-else
-return
-NS_ERROR_NOT_IMPLEMENTED
-;
-#
-endif
 nsSessionStorageEntry
 *
 entry
@@ -4341,9 +4261,6 @@ CacheKeysFromDB
 (
 )
 {
-#
-ifdef
-MOZ_STORAGE
 if
 (
 !
@@ -4392,8 +4309,6 @@ mItemsCached
 PR_TRUE
 ;
 }
-#
-endif
 return
 NS_OK
 ;
@@ -5313,9 +5228,6 @@ UseDB
 )
 )
 {
-#
-ifdef
-MOZ_STORAGE
 nsresult
 rv
 =
@@ -5399,8 +5311,6 @@ rv
 rv
 )
 ;
-#
-endif
 }
 else
 if
@@ -5561,9 +5471,6 @@ return
 NS_ERROR_DOM_SECURITY_ERR
 ;
 }
-#
-ifdef
-MOZ_STORAGE
 if
 (
 UseDB
@@ -5601,8 +5508,6 @@ rv
 )
 ;
 }
-#
-endif
 *
 aOldCount
 =

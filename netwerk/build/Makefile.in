@@ -1050,14 +1050,11 @@ srcdir
 /
 wifi
 endif
-ifdef
-MOZ_STORAGE
 DEFINES
 +
 =
 -
 DNECKO_OFFLINE_CACHE
-endif
 include
 (
 topsrcdir
