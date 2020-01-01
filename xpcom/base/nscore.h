@@ -910,10 +910,13 @@ define
 NS_NO_VTABLE
 #
 endif
-typedef
-uint32_t
-nsresult
-;
+#
+include
+"
+nsError
+.
+h
+"
 #
 ifdef
 XP_WIN
