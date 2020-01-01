@@ -2787,6 +2787,11 @@ nsCSSPropertiesQS
 .
 h
 '
+'
+nsDOMQS
+.
+h
+'
 ]
 customQuickStubs
 =

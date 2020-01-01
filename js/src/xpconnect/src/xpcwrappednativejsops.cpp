@@ -6585,6 +6585,12 @@ GetFlags
 )
 name
 isGlobal
+sci
+-
+>
+GetInterfacesBitmap
+(
+)
 newObj
 )
 ;
