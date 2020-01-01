@@ -1717,17 +1717,6 @@ FontTableHashEntry
 aHashtable
 )
 ;
-void
-SaveTable
-(
-FallibleTArray
-<
-uint8_t
->
-&
-aTable
-)
-;
 hb_blob_t
 *
 GetBlob
