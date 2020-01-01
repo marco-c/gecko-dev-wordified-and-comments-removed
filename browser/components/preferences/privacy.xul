@@ -1104,6 +1104,11 @@ id
 "
 historyDays
 "
+type
+=
+"
+number
+"
 size
 =
 "

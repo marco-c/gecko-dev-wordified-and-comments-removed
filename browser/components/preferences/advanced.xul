@@ -2111,6 +2111,11 @@ id
 "
 cacheSize
 "
+type
+=
+"
+number
+"
 size
 =
 "
