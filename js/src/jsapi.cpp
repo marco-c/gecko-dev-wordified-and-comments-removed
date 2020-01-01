@@ -26352,6 +26352,8 @@ js_ErrorToException
 cx
 message
 reportp
+NULL
+NULL
 )
 ;
 }

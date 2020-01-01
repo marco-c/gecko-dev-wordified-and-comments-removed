@@ -36,6 +36,11 @@ message
 JSErrorReport
 *
 reportp
+JSErrorCallback
+callback
+void
+*
+userRef
 )
 ;
 extern
