@@ -828,6 +828,9 @@ nsIScriptElement
 >
 mScriptElements
 ;
+nsCString
+mRef
+;
 PRInt32
 mBackoffCount
 ;
@@ -851,6 +854,11 @@ mLayoutStarted
 1
 ;
 PRUint8
+mScrolledToRefAlready
+:
+1
+;
+PRUint8
 mCanInterruptParser
 :
 1
@@ -867,6 +875,11 @@ mParsing
 ;
 PRUint8
 mDroppedTimer
+:
+1
+;
+PRUint8
+mChangeScrollPosWhenScrollingToRef
 :
 1
 ;
