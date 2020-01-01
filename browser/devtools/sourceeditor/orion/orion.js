@@ -17161,6 +17161,14 @@ focus
 )
 ;
 }
+}
+if
+(
+e
+.
+preventDefault
+)
+{
 e
 .
 preventDefault
