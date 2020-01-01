@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsSVGGraphicElement
 .
 h
@@ -1079,7 +1088,7 @@ FindAttributeDependence
 (
 name
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )
@@ -1118,7 +1127,7 @@ nsSVGUtils
 :
 :
 X
-PR_FALSE
+false
 }
 {
 &
@@ -1130,7 +1139,7 @@ nsSVGUtils
 :
 :
 Y
-PR_FALSE
+false
 }
 {
 &
@@ -1142,7 +1151,7 @@ nsSVGUtils
 :
 :
 X
-PR_TRUE
+true
 }
 {
 &
@@ -1154,7 +1163,7 @@ nsSVGUtils
 :
 :
 Y
-PR_TRUE
+true
 }
 }
 ;
@@ -1174,7 +1183,7 @@ LengthListAttributesInfo
 (
 mLengthListAttributes
 sLengthListInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sLengthListInfo
 )
@@ -1219,7 +1228,7 @@ NumberListAttributesInfo
 (
 mNumberListAttributes
 sNumberListInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberListInfo
 )

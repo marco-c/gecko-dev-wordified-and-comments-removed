@@ -669,7 +669,7 @@ NS_ERROR_INVALID_ARG
 *
 aCanDrag
 =
-PR_TRUE
+true
 ;
 DragDataProducer
 provider
@@ -1156,7 +1156,7 @@ aIsAltKeyPressed
 )
 mIsAnchor
 (
-PR_FALSE
+false
 )
 {
 }
@@ -1633,7 +1633,7 @@ nodeToSerialize
 *
 aDragSelection
 =
-PR_FALSE
+false
 ;
 {
 bool
@@ -1689,7 +1689,7 @@ NS_FORM_OBJECT
 *
 aCanDrag
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1759,7 +1759,7 @@ mIsAltKeyPressed
 *
 aCanDrag
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1768,7 +1768,7 @@ NS_OK
 *
 aDragSelection
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1805,7 +1805,7 @@ mIsAltKeyPressed
 *
 aCanDrag
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1885,7 +1885,7 @@ mTitleString
 }
 mIsAnchor
 =
-PR_TRUE
+true
 ;
 GetAnchorURL
 (
@@ -1957,7 +1957,7 @@ image
 {
 mIsAnchor
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -2397,7 +2397,7 @@ linkNode
 {
 mIsAnchor
 =
-PR_TRUE
+true
 ;
 GetAnchorURL
 (
@@ -3136,7 +3136,7 @@ nsnull
 *
 outDragSelectedText
 =
-PR_FALSE
+false
 ;
 bool
 selectionContainsTarget
@@ -3180,7 +3180,7 @@ inSelection
 ContainsNode
 (
 realTargetNode
-PR_FALSE
+false
 &
 selectionContainsTarget
 )
@@ -3361,7 +3361,7 @@ outImageOrLinkNode
 *
 outDragSelectedText
 =
-PR_TRUE
+true
 ;
 }
 }

@@ -87,7 +87,7 @@ m_totalResourceForkWritten
 ;
 m_headerOk
 =
-PR_FALSE
+false
 ;
 m_comment
 [
@@ -1171,7 +1171,7 @@ offset
 }
 m_headerOk
 =
-PR_TRUE
+true
 ;
 m_state
 =

@@ -484,7 +484,7 @@ aCompiler
 )
 mCheckedForXML
 (
-PR_FALSE
+false
 )
 {
 mListener
@@ -837,7 +837,7 @@ arguments
 *
 _retval
 =
-PR_TRUE
+true
 ;
 mCompiler
 -
@@ -934,7 +934,7 @@ dtd
 {
 mCheckedForXML
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1995,7 +1995,7 @@ NS_LITERAL_CSTRING
 *
 "
 )
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -2112,7 +2112,7 @@ nsCORSListenerProxy
 sink
 aReferrerPrincipal
 channel
-PR_FALSE
+false
 &
 rv
 )
@@ -2909,7 +2909,7 @@ LoadDocument
 uri
 referrerPrincipal
 nsnull
-PR_FALSE
+false
 getter_AddRefs
 (
 document

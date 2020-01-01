@@ -146,7 +146,7 @@ rv
 {
 permission
 =
-PR_TRUE
+true
 ;
 }
 mPolicy
@@ -170,7 +170,7 @@ AddObserver
 (
 kPopupDisablePref
 this
-PR_TRUE
+true
 )
 ;
 }

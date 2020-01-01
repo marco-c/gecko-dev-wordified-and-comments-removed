@@ -238,7 +238,7 @@ UpdateText
 {
 UpdateText
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1196,7 +1196,7 @@ this
 ;
 UpdateText
 (
-PR_FALSE
+false
 )
 ;
 return

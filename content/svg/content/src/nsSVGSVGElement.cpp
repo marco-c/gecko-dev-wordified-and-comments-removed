@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsGkAtoms
 .
 h
@@ -842,11 +851,11 @@ aFromParser
 endif
 mImageNeedsTransformInvalidation
 (
-PR_FALSE
+false
 )
 mIsPaintingSVGImageElement
 (
-PR_FALSE
+false
 )
 {
 }
@@ -2558,7 +2567,7 @@ nsSVGUtils
 GetCTM
 (
 this
-PR_FALSE
+false
 )
 ;
 *
@@ -2609,7 +2618,7 @@ nsSVGUtils
 GetCTM
 (
 this
-PR_TRUE
+true
 )
 ;
 *
@@ -3005,7 +3014,7 @@ nsEventStatus_eIgnore
 nsGUIEvent
 event
 (
-PR_TRUE
+true
 scaling
 ?
 NS_SVG_ZOOM
@@ -3164,7 +3173,7 @@ FindAttributeDependence
 (
 name
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )
@@ -3500,7 +3509,7 @@ tmpPAR
 .
 SetDefer
 (
-PR_FALSE
+false
 )
 ;
 tmpPAR
@@ -3700,7 +3709,7 @@ nsnull
 ;
 mStartAnimationOnBindToTree
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3757,7 +3766,7 @@ Begin
 ;
 mStartAnimationOnBindToTree
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -3870,7 +3879,7 @@ foreignObject
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -3885,7 +3894,7 @@ svg
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 parent
@@ -3899,7 +3908,7 @@ GetParent
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -4309,7 +4318,7 @@ LengthAttributesInfo
 (
 mLengthAttributes
 sLengthInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sLengthInfo
 )
@@ -4332,7 +4341,7 @@ EnumAttributesInfo
 (
 mEnumAttributes
 sEnumInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sEnumInfo
 )
@@ -4512,12 +4521,12 @@ ShouldSynthesizeViewBox
 {
 mImageNeedsTransformInvalidation
 =
-PR_TRUE
+true
 ;
 }
 mIsPaintingSVGImageElement
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -4608,7 +4617,7 @@ rv
 {
 mImageNeedsTransformInvalidation
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -4653,7 +4662,7 @@ images
 endif
 mIsPaintingSVGImageElement
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4670,7 +4679,7 @@ ShouldSynthesizeViewBox
 {
 mImageNeedsTransformInvalidation
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -4692,7 +4701,7 @@ valPtr
 {
 mImageNeedsTransformInvalidation
 =
-PR_TRUE
+true
 ;
 delete
 static_cast
@@ -4828,7 +4837,7 @@ InvalidateTransformNotifyFrame
 ;
 mImageNeedsTransformInvalidation
 =
-PR_FALSE
+false
 ;
 }
 }

@@ -772,7 +772,7 @@ pElement
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 NS_IMPL_ISUPPORTS2
@@ -790,7 +790,7 @@ nsSystemPrefService
 :
 mInitialized
 (
-PR_FALSE
+false
 )
 mGConf
 (
@@ -812,7 +812,7 @@ nsSystemPrefService
 {
 mInitialized
 =
-PR_FALSE
+false
 ;
 delete
 mGConf
@@ -930,7 +930,7 @@ NS_ERROR_FAILURE
 }
 mInitialized
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2232,7 +2232,7 @@ aElement
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 GConfProxy
@@ -2255,7 +2255,7 @@ nsnull
 )
 mInitialized
 (
-PR_FALSE
+false
 )
 mSysPrefService
 (
@@ -2338,14 +2338,14 @@ if
 mSysPrefService
 )
 return
-PR_FALSE
+false
 ;
 if
 (
 mInitialized
 )
 return
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -2364,7 +2364,7 @@ if
 pref
 )
 return
-PR_FALSE
+false
 ;
 nsXPIDLCString
 gconfLibName
@@ -2501,7 +2501,7 @@ n
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 GConfFuncListType
@@ -2613,10 +2613,10 @@ init_failed
 }
 mInitialized
 =
-PR_TRUE
+true
 ;
 return
-PR_TRUE
+true
 ;
 init_failed_unload
 :
@@ -2632,7 +2632,7 @@ mGConfLib
 nsnull
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsresult

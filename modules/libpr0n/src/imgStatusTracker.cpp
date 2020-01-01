@@ -117,7 +117,7 @@ STATUS_NONE
 )
 mHadLastPart
 (
-PR_FALSE
+false
 )
 {
 }
@@ -305,7 +305,7 @@ i
 >
 SetNotificationsDeferred
 (
-PR_FALSE
+false
 )
 ;
 statusTracker
@@ -440,7 +440,7 @@ proxy
 >
 SetNotificationsDeferred
 (
-PR_TRUE
+true
 )
 ;
 imgRequestNotifyRunnable
@@ -545,7 +545,7 @@ mProxy
 >
 SetNotificationsDeferred
 (
-PR_FALSE
+false
 )
 ;
 mStatus
@@ -646,7 +646,7 @@ proxy
 >
 SetNotificationsDeferred
 (
-PR_TRUE
+true
 )
 ;
 nsCOMPtr
@@ -1073,7 +1073,7 @@ aProxy
 >
 OnStopRequest
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1153,7 +1153,7 @@ STATUS_LOAD_COMPLETE
 ;
 mHadLastPart
 =
-PR_TRUE
+true
 ;
 }
 void

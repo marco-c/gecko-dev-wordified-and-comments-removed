@@ -602,7 +602,7 @@ h
 #
 include
 "
-nsWidgetAtoms
+nsGkAtoms
 .
 h
 "
@@ -784,13 +784,6 @@ PRThread
 aThread
 )
 {
-nsWidgetAtoms
-:
-:
-RegisterAtoms
-(
-)
-;
 mInited
 =
 true

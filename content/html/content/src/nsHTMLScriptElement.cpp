@@ -603,7 +603,7 @@ nsContentUtils
 GetNodeTextContent
 (
 this
-PR_FALSE
+false
 aValue
 )
 ;
@@ -631,7 +631,7 @@ SetNodeTextContent
 (
 this
 aValue
-PR_TRUE
+true
 )
 ;
 }
@@ -690,7 +690,7 @@ mForceAsync
 *
 aValue
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -719,7 +719,7 @@ aValue
 {
 mForceAsync
 =
-PR_FALSE
+false
 ;
 return
 SetBoolAttr
@@ -770,7 +770,7 @@ aNamespaceID
 {
 mForceAsync
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -803,7 +803,7 @@ nsContentUtils
 GetNodeTextContent
 (
 this
-PR_FALSE
+false
 aInnerHTML
 )
 ;
@@ -831,7 +831,7 @@ SetNodeTextContent
 (
 this
 aInnerHTML
-PR_TRUE
+true
 )
 ;
 }
@@ -847,7 +847,7 @@ aHaveNotified
 {
 mDoneAddingChildren
 =
-PR_TRUE
+true
 ;
 nsresult
 rv
@@ -981,7 +981,7 @@ src
 ;
 mExternal
 =
-PR_TRUE
+true
 ;
 bool
 defer
@@ -1014,7 +1014,7 @@ async
 }
 mFrozen
 =
-PR_TRUE
+true
 ;
 }
 bool

@@ -382,7 +382,7 @@ aDidMerge
 *
 aDidMerge
 =
-PR_FALSE
+false
 ;
 if
 (

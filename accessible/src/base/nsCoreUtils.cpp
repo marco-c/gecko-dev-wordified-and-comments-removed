@@ -212,7 +212,7 @@ aContent
 NS_ENSURE_TRUE
 (
 aContent
-PR_FALSE
+false
 )
 ;
 nsEventListenerManager
@@ -224,7 +224,7 @@ aContent
 >
 GetListenerManager
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -640,7 +640,7 @@ if
 frame
 )
 return
-PR_FALSE
+false
 ;
 nsPoint
 point
@@ -665,7 +665,7 @@ if
 widget
 )
 return
-PR_FALSE
+false
 ;
 nsSize
 size
@@ -738,7 +738,7 @@ widget
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -770,7 +770,7 @@ aRootWidget
 nsMouseEvent
 event
 (
-PR_TRUE
+true
 aEventType
 aRootWidget
 nsMouseEvent
@@ -1237,7 +1237,7 @@ aPossibleAncestorNode
 &
 &
 aPossibleDescendantNode
-PR_FALSE
+false
 )
 ;
 nsINode
@@ -1274,11 +1274,11 @@ parentNode
 aPossibleAncestorNode
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -1498,7 +1498,7 @@ nsISelectionController
 :
 :
 SELECTION_ANCHOR_REGION
-PR_TRUE
+true
 aVPercent
 aHPercent
 )
@@ -2279,7 +2279,7 @@ if
 isAboutScheme
 )
 return
-PR_FALSE
+false
 ;
 nsCAutoString
 path
@@ -2509,7 +2509,7 @@ idAttribute
 aID
 )
 :
-PR_FALSE
+false
 ;
 }
 bool
@@ -2587,12 +2587,12 @@ aUInt
 integer
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -2612,7 +2612,7 @@ if
 aContent
 )
 return
-PR_FALSE
+false
 ;
 return
 aContent

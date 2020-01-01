@@ -450,7 +450,7 @@ s
 #
 endif
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -1096,7 +1096,7 @@ fileStat
 {
 found
 =
-PR_TRUE
+true
 ;
 lastSlash
 =
@@ -1337,7 +1337,7 @@ argc
 {
 Output
 (
-PR_FALSE
+false
 "
 specify
 APP
@@ -1426,7 +1426,7 @@ kAppEnv
 )
 Output
 (
-PR_FALSE
+false
 "
 Couldn
 '
@@ -1473,7 +1473,7 @@ result
 {
 Output
 (
-PR_TRUE
+true
 "
 Invalid
 application
@@ -1653,7 +1653,7 @@ XUL
 Framework
 "
 )
-PR_TRUE
+true
 )
 ;
 if
@@ -1676,7 +1676,7 @@ libxpcom
 dylib
 "
 )
-PR_FALSE
+false
 )
 ;
 if
@@ -1695,7 +1695,7 @@ if
 CFURLGetFileSystemRepresentation
 (
 xpcomurl
-PR_TRUE
+true
 (
 UInt8
 *
@@ -1731,7 +1731,7 @@ greDir
 {
 greFound
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1776,7 +1776,7 @@ greFound
 {
 Output
 (
-PR_FALSE
+false
 "
 Could
 not
@@ -1887,7 +1887,7 @@ applicationName
 ;
 Output
 (
-PR_TRUE
+true
 "
 Not
 enough
@@ -1909,7 +1909,7 @@ else
 {
 Output
 (
-PR_TRUE
+true
 "
 Couldn
 '
@@ -1991,7 +1991,7 @@ rv
 {
 Output
 (
-PR_TRUE
+true
 "
 Couldn
 '
@@ -2034,7 +2034,7 @@ NS_ConvertUTF8toUTF16
 (
 iniPath
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 iniFile
@@ -2051,7 +2051,7 @@ nsDependentCString
 (
 iniPath
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 iniFile
@@ -2070,7 +2070,7 @@ rv
 {
 Output
 (
-PR_TRUE
+true
 "
 Couldn
 '
@@ -2104,7 +2104,7 @@ appData
 {
 Output
 (
-PR_TRUE
+true
 "
 Error
 :
@@ -2181,7 +2181,7 @@ NS_ConvertUTF8toUTF16
 (
 greDir
 )
-PR_FALSE
+false
 &
 appData
 -
@@ -2197,7 +2197,7 @@ nsDependentCString
 (
 greDir
 )
-PR_FALSE
+false
 &
 appData
 -

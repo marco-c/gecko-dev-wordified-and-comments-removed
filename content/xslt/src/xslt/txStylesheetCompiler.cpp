@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 txStylesheetCompiler
 .
 h
@@ -110,6 +119,10 @@ nsTArray
 .
 h
 "
+using
+namespace
+mozilla
+;
 txStylesheetCompiler
 :
 :
@@ -362,7 +375,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 hasOwnNamespaceMap
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -694,7 +707,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 hasOwnNamespaceMap
 =
-PR_TRUE
+true
 ;
 }
 rv
@@ -1868,7 +1881,7 @@ mStatus
 }
 mDoneWithThisStylesheet
 =
-PR_TRUE
+true
 ;
 return
 maybeDoneCompiling
@@ -2366,11 +2379,11 @@ nsnull
 )
 mDOE
 (
-PR_FALSE
+false
 )
 mSearchingForFallback
 (
-PR_FALSE
+false
 )
 mObserver
 (
@@ -2382,7 +2395,7 @@ eNoEmbed
 )
 mDoneWithThisStylesheet
 (
-PR_FALSE
+false
 )
 mNextInstrPtr
 (
@@ -2519,7 +2532,7 @@ aInsertPosition
 ;
 mIsTopCompiler
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -2572,7 +2585,7 @@ next
 ;
 mIsTopCompiler
 =
-PR_TRUE
+true
 ;
 }
 mElementContext
@@ -3773,7 +3786,7 @@ aContext
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -4314,7 +4327,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kExtensionFunctions
 )
@@ -4366,7 +4379,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kExtensionFunctions
 )
@@ -4667,7 +4680,7 @@ nsnull
 NS_ENSURE_TRUE
 (
 compiler
-PR_FALSE
+false
 )
 ;
 nsAutoPtr
@@ -4779,7 +4792,7 @@ caseInsensitiveNameTests
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -4822,11 +4835,11 @@ aBaseURI
 :
 mPreserveWhitespace
 (
-PR_FALSE
+false
 )
 mForwardsCompatibleParsing
 (
-PR_TRUE
+true
 )
 mBaseURI
 (

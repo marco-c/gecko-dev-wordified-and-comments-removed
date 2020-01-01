@@ -501,7 +501,7 @@ theNewSize
 mCapacity
 )
 return
-PR_FALSE
+false
 ;
 void
 *
@@ -530,7 +530,7 @@ if
 temp
 )
 return
-PR_FALSE
+false
 ;
 memcpy
 (
@@ -597,7 +597,7 @@ mData
 temp
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsDeque

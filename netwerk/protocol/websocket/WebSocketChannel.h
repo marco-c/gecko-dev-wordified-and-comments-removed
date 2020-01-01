@@ -484,7 +484,7 @@ str
 )
 mIsControl
 (
-PR_FALSE
+false
 )
 mBinaryLen
 (
@@ -513,7 +513,7 @@ str
 )
 mIsControl
 (
-PR_FALSE
+false
 )
 mBinaryLen
 (
@@ -536,7 +536,7 @@ nsnull
 )
 mIsControl
 (
-PR_TRUE
+true
 )
 mBinaryLen
 (
@@ -991,7 +991,7 @@ BaseWebSocketChannel
 :
 mEncrypted
 =
-PR_TRUE
+true
 ;
 }
 protected

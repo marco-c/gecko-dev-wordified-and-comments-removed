@@ -229,7 +229,7 @@ mScaleY
 ;
 mDrawNormal
 =
-PR_TRUE
+true
 ;
 }
 ~

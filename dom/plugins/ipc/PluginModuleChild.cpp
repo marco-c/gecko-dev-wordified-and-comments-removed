@@ -40,6 +40,15 @@ include
 "
 mozilla
 /
+Util
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 SyncChannel
@@ -234,6 +243,10 @@ h
 "
 #
 endif
+using
+namespace
+mozilla
+;
 using
 namespace
 mozilla
@@ -493,7 +506,7 @@ mUserAgent
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 #
@@ -742,7 +755,7 @@ NS_ConvertUTF8toUTF16
 (
 mPluginFilename
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 localFile
@@ -7812,7 +7825,7 @@ GetClassNameW
 (
 hWnd
 szClass
-NS_ARRAY_LENGTH
+ArrayLength
 (
 szClass
 )
@@ -9456,7 +9469,7 @@ voidString
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 ident

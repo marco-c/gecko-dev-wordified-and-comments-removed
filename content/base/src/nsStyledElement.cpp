@@ -291,11 +291,11 @@ ParseStyleAttribute
 (
 aValue
 aResult
-PR_FALSE
+false
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -322,7 +322,7 @@ aValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -354,7 +354,7 @@ ClearHasID
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 aResult
@@ -378,7 +378,7 @@ GetAtomValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -793,7 +793,7 @@ IsXUL
 {
 ReparseStyleAttribute
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -906,7 +906,7 @@ mStyle
 {
 ReparseStyleAttribute
 (
-PR_TRUE
+true
 )
 ;
 slots
@@ -921,7 +921,7 @@ this
 #
 ifdef
 MOZ_SMIL
-PR_FALSE
+false
 #
 endif
 )

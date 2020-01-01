@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsAnnotationService
 .
 h
@@ -77,6 +86,10 @@ storage
 .
 h
 "
+using
+namespace
+mozilla
+;
 #
 define
 ENSURE_ANNO_TYPE
@@ -1332,7 +1345,7 @@ mozStorageTransaction
 transaction
 (
 mDBConn
-PR_FALSE
+false
 )
 ;
 mozIStorageStatement
@@ -2369,7 +2382,7 @@ mozStorageTransaction
 transaction
 (
 mDBConn
-PR_FALSE
+false
 )
 ;
 mozIStorageStatement
@@ -2644,7 +2657,7 @@ mozStorageTransaction
 transaction
 (
 mDBConn
-PR_FALSE
+false
 )
 ;
 mozIStorageStatement
@@ -2919,7 +2932,7 @@ mozStorageTransaction
 transaction
 (
 mDBConn
-PR_FALSE
+false
 )
 ;
 mozIStorageStatement
@@ -3216,7 +3229,7 @@ mozStorageTransaction
 transaction
 (
 mDBConn
-PR_FALSE
+false
 )
 ;
 mozIStorageStatement
@@ -7091,7 +7104,7 @@ mozStorageTransaction
 transaction
 (
 mDBConn
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -7621,7 +7634,7 @@ mozStorageTransaction
 transaction
 (
 mDBConn
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -8412,7 +8425,7 @@ hasResult
 *
 _hasAnno
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -9243,7 +9256,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 stmts
 )

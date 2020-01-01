@@ -107,7 +107,7 @@ aElement
 )
 mRemovingProp
 (
-PR_FALSE
+false
 )
 {
 }
@@ -228,7 +228,7 @@ attr
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -249,7 +249,7 @@ attrAtom
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -296,7 +296,7 @@ aResult
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -338,7 +338,7 @@ aResult
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -387,7 +387,7 @@ nsContentUtils
 CheckQName
 (
 attr
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -422,7 +422,7 @@ SetAttr
 kNameSpaceID_None
 attrAtom
 aValue
-PR_TRUE
+true
 )
 ;
 }
@@ -492,7 +492,7 @@ UnsetAttr
 (
 kNameSpaceID_None
 attrAtom
-PR_TRUE
+true
 )
 ;
 }
@@ -595,7 +595,7 @@ nsContentUtils
 WrapNative
 (
 cx
-JS_GetScopeChain
+JS_GetGlobalForScopeChain
 (
 cx
 )
@@ -634,7 +634,7 @@ NS_ERROR_FAILURE
 }
 mRemovingProp
 =
-PR_TRUE
+true
 ;
 jsval
 dummy
@@ -662,7 +662,7 @@ dummy
 ;
 mRemovingProp
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -896,7 +896,7 @@ z
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -974,7 +974,7 @@ attr
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -1009,7 +1009,7 @@ data
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -1144,6 +1144,6 @@ prop
 )
 ;
 return
-PR_TRUE
+true
 ;
 }

@@ -371,7 +371,7 @@ SetIncludeAllOutOfFlows
 {
 mIncludeAllOutOfFlows
 =
-PR_TRUE
+true
 ;
 }
 bool
@@ -391,7 +391,7 @@ SetSelectedFramesOnly
 {
 mSelectedFramesOnly
 =
-PR_TRUE
+true
 ;
 }
 bool
@@ -410,7 +410,7 @@ SetAccurateVisibleRegions
 {
 mAccurateVisibleRegions
 =
-PR_TRUE
+true
 ;
 }
 bool
@@ -429,7 +429,7 @@ IgnorePaintSuppression
 {
 mIgnoreSuppression
 =
-PR_TRUE
+true
 ;
 }
 bool
@@ -617,7 +617,7 @@ SetHasFixedItems
 {
 mHasFixedItems
 =
-PR_TRUE
+true
 ;
 }
 bool
@@ -1536,7 +1536,7 @@ aForceTransparentSurface
 *
 aForceTransparentSurface
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -1574,7 +1574,7 @@ aFrame
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 virtual
@@ -1587,7 +1587,7 @@ aBuilder
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 virtual
@@ -1693,7 +1693,7 @@ aItem
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 virtual
@@ -1706,7 +1706,7 @@ aBuilder
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 virtual
@@ -1879,7 +1879,7 @@ nsDisplayList
 :
 mIsOpaque
 (
-PR_FALSE
+false
 )
 {
 mTop
@@ -1898,7 +1898,7 @@ ifdef
 DEBUG
 mDidComputeVisibility
 =
-PR_FALSE
+false
 ;
 #
 endif
@@ -3844,7 +3844,7 @@ aOutTransparentBackground
 *
 aOutTransparentBackground
 =
-PR_FALSE
+false
 ;
 }
 nsRegion
@@ -3891,7 +3891,7 @@ aColor
 mColor
 ;
 return
-PR_TRUE
+true
 ;
 }
 virtual
@@ -4641,7 +4641,7 @@ flattened
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 NS_DISPLAY_DECL_NAME
@@ -5021,7 +5021,7 @@ aItem
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 NS_DISPLAY_DECL_NAME

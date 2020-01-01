@@ -504,7 +504,7 @@ theRadix
 ;
 done
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -560,7 +560,7 @@ case
 :
 done
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -571,7 +571,7 @@ case
 :
 negate
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -690,7 +690,7 @@ theChar
 ;
 haveValue
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -746,7 +746,7 @@ result
 ;
 haveValue
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -788,7 +788,7 @@ A
 ;
 haveValue
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -845,7 +845,7 @@ result
 ;
 haveValue
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -887,7 +887,7 @@ a
 ;
 haveValue
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1074,7 +1074,7 @@ aIndex
 mLength
 )
 return
-PR_FALSE
+false
 ;
 EnsureMutable
 (
@@ -1091,7 +1091,7 @@ aChar
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -1358,7 +1358,7 @@ aTarget
 Length
 (
 )
-PR_FALSE
+false
 )
 ;
 if

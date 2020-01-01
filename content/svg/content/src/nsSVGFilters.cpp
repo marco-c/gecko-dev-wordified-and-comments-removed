@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsSVGElement
 .
 h
@@ -1501,7 +1510,7 @@ FindAttributeDependence
 (
 name
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )
@@ -1533,7 +1542,7 @@ LengthAttributesInfo
 (
 mLengthAttributes
 sLengthInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sLengthInfo
 )
@@ -2144,7 +2153,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
-PR_TRUE
+true
 }
 {
 &
@@ -2153,7 +2162,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
-PR_TRUE
+true
 }
 }
 ;
@@ -4260,7 +4269,7 @@ NumberPairAttributesInfo
 (
 mNumberPairAttributes
 sNumberPairInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberPairInfo
 )
@@ -4283,7 +4292,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )
@@ -4612,7 +4621,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
-PR_TRUE
+true
 }
 {
 &
@@ -4621,7 +4630,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
-PR_TRUE
+true
 }
 {
 &
@@ -4630,7 +4639,7 @@ nsGkAtoms
 :
 in2
 kNameSpaceID_None
-PR_TRUE
+true
 }
 }
 ;
@@ -5252,7 +5261,7 @@ EnumAttributesInfo
 (
 mEnumAttributes
 sEnumInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sEnumInfo
 )
@@ -5275,7 +5284,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )
@@ -5627,7 +5636,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
-PR_TRUE
+true
 }
 {
 &
@@ -5636,7 +5645,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
-PR_TRUE
+true
 }
 }
 ;
@@ -6869,7 +6878,7 @@ EnumAttributesInfo
 (
 mEnumAttributes
 sEnumInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sEnumInfo
 )
@@ -6892,7 +6901,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )
@@ -6915,7 +6924,7 @@ NumberListAttributesInfo
 (
 mNumberListAttributes
 sNumberListInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberListInfo
 )
@@ -7191,7 +7200,7 @@ nsGkAtoms
 :
 k1
 0
-PR_FALSE
+false
 }
 {
 &
@@ -7200,7 +7209,7 @@ nsGkAtoms
 :
 k2
 0
-PR_FALSE
+false
 }
 {
 &
@@ -7209,7 +7218,7 @@ nsGkAtoms
 :
 k3
 0
-PR_FALSE
+false
 }
 {
 &
@@ -7218,7 +7227,7 @@ nsGkAtoms
 :
 k4
 0
-PR_FALSE
+false
 }
 }
 ;
@@ -7350,7 +7359,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
-PR_TRUE
+true
 }
 {
 &
@@ -7359,7 +7368,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
-PR_TRUE
+true
 }
 {
 &
@@ -7368,7 +7377,7 @@ nsGkAtoms
 :
 in2
 kNameSpaceID_None
-PR_TRUE
+true
 }
 }
 ;
@@ -8231,7 +8240,7 @@ NumberAttributesInfo
 (
 mNumberAttributes
 sNumberInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberInfo
 )
@@ -8254,7 +8263,7 @@ EnumAttributesInfo
 (
 mEnumAttributes
 sEnumInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sEnumInfo
 )
@@ -8277,7 +8286,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )
@@ -8489,7 +8498,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
-PR_TRUE
+true
 }
 {
 &
@@ -8498,7 +8507,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
-PR_TRUE
+true
 }
 }
 ;
@@ -8587,7 +8596,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )
@@ -9217,7 +9226,7 @@ nsGkAtoms
 :
 slope
 1
-PR_FALSE
+false
 }
 {
 &
@@ -9226,7 +9235,7 @@ nsGkAtoms
 :
 intercept
 0
-PR_FALSE
+false
 }
 {
 &
@@ -9235,7 +9244,7 @@ nsGkAtoms
 :
 amplitude
 1
-PR_FALSE
+false
 }
 {
 &
@@ -9244,7 +9253,7 @@ nsGkAtoms
 :
 exponent
 1
-PR_FALSE
+false
 }
 {
 &
@@ -9253,7 +9262,7 @@ nsGkAtoms
 :
 offset
 0
-PR_FALSE
+false
 }
 }
 ;
@@ -10078,7 +10087,7 @@ NumberListAttributesInfo
 (
 mNumberListAttributes
 sNumberListInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberListInfo
 )
@@ -10101,7 +10110,7 @@ EnumAttributesInfo
 (
 mEnumAttributes
 sEnumInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sEnumInfo
 )
@@ -10124,7 +10133,7 @@ NumberAttributesInfo
 (
 mNumberAttributes
 sNumberInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberInfo
 )
@@ -11075,7 +11084,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
-PR_TRUE
+true
 }
 }
 ;
@@ -11313,7 +11322,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )
@@ -11345,7 +11354,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
-PR_TRUE
+true
 }
 }
 ;
@@ -11464,7 +11473,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )
@@ -11753,7 +11762,7 @@ nsGkAtoms
 :
 dx
 0
-PR_FALSE
+false
 }
 {
 &
@@ -11762,7 +11771,7 @@ nsGkAtoms
 :
 dy
 0
-PR_FALSE
+false
 }
 }
 ;
@@ -11786,7 +11795,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
-PR_TRUE
+true
 }
 {
 &
@@ -11795,7 +11804,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
-PR_TRUE
+true
 }
 }
 ;
@@ -12217,7 +12226,7 @@ NumberAttributesInfo
 (
 mNumberAttributes
 sNumberInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberInfo
 )
@@ -12240,7 +12249,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )
@@ -12434,7 +12443,7 @@ Image
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 virtual
@@ -12483,7 +12492,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
-PR_TRUE
+true
 }
 }
 ;
@@ -12743,7 +12752,7 @@ FindAttributeDependence
 (
 name
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )
@@ -12775,7 +12784,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )
@@ -13040,7 +13049,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
-PR_TRUE
+true
 }
 {
 &
@@ -13049,7 +13058,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
-PR_TRUE
+true
 }
 }
 ;
@@ -13585,7 +13594,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )
@@ -14193,7 +14202,7 @@ nsGkAtoms
 :
 seed
 0
-PR_FALSE
+false
 }
 }
 ;
@@ -14377,7 +14386,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
-PR_TRUE
+true
 }
 }
 ;
@@ -14849,7 +14858,7 @@ SVG_STITCHTYPE_STITCH
 {
 doStitch
 =
-PR_TRUE
+true
 ;
 float
 lowFreq
@@ -15107,7 +15116,7 @@ point
 fX
 fY
 octaves
-PR_FALSE
+false
 doStitch
 filterX
 filterY
@@ -15148,7 +15157,7 @@ point
 fX
 fY
 octaves
-PR_TRUE
+true
 doStitch
 filterX
 filterY
@@ -16555,7 +16564,7 @@ NumberAttributesInfo
 (
 mNumberAttributes
 sNumberInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberInfo
 )
@@ -16578,7 +16587,7 @@ NumberPairAttributesInfo
 (
 mNumberPairAttributes
 sNumberPairInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberPairInfo
 )
@@ -16601,7 +16610,7 @@ IntegerAttributesInfo
 (
 mIntegerAttributes
 sIntegerInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sIntegerInfo
 )
@@ -16624,7 +16633,7 @@ EnumAttributesInfo
 (
 mEnumAttributes
 sEnumInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sEnumInfo
 )
@@ -16647,7 +16656,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )
@@ -17072,7 +17081,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
-PR_TRUE
+true
 }
 {
 &
@@ -17081,7 +17090,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
-PR_TRUE
+true
 }
 }
 ;
@@ -18186,7 +18195,7 @@ NumberPairAttributesInfo
 (
 mNumberPairAttributes
 sNumberPairInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberPairInfo
 )
@@ -18209,7 +18218,7 @@ EnumAttributesInfo
 (
 mEnumAttributes
 sEnumInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sEnumInfo
 )
@@ -18232,7 +18241,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )
@@ -18682,7 +18691,7 @@ nsGkAtoms
 :
 divisor
 1
-PR_FALSE
+false
 }
 {
 &
@@ -18691,7 +18700,7 @@ nsGkAtoms
 :
 bias
 0
-PR_FALSE
+false
 }
 }
 ;
@@ -18793,7 +18802,7 @@ nsGkAtoms
 :
 :
 preserveAlpha
-PR_FALSE
+false
 }
 }
 ;
@@ -18892,7 +18901,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
-PR_TRUE
+true
 }
 {
 &
@@ -18901,7 +18910,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
-PR_TRUE
+true
 }
 }
 ;
@@ -20423,7 +20432,7 @@ NumberAttributesInfo
 (
 mNumberAttributes
 sNumberInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberInfo
 )
@@ -20446,7 +20455,7 @@ NumberPairAttributesInfo
 (
 mNumberPairAttributes
 sNumberPairInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberPairInfo
 )
@@ -20469,7 +20478,7 @@ IntegerAttributesInfo
 (
 mIntegerAttributes
 sIntegerInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sIntegerInfo
 )
@@ -20492,7 +20501,7 @@ IntegerPairAttributesInfo
 (
 mIntegerPairAttributes
 sIntegerPairInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sIntegerPairInfo
 )
@@ -20515,7 +20524,7 @@ BooleanAttributesInfo
 (
 mBooleanAttributes
 sBooleanInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sBooleanInfo
 )
@@ -20538,7 +20547,7 @@ EnumAttributesInfo
 (
 mEnumAttributes
 sEnumInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sEnumInfo
 )
@@ -20561,7 +20570,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )
@@ -20584,7 +20593,7 @@ NumberListAttributesInfo
 (
 mNumberListAttributes
 sNumberListInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberListInfo
 )
@@ -20745,7 +20754,7 @@ nsGkAtoms
 :
 azimuth
 0
-PR_FALSE
+false
 }
 {
 &
@@ -20754,7 +20763,7 @@ nsGkAtoms
 :
 elevation
 0
-PR_FALSE
+false
 }
 }
 ;
@@ -20863,7 +20872,7 @@ NumberAttributesInfo
 (
 mNumberAttributes
 sNumberInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberInfo
 )
@@ -21025,7 +21034,7 @@ nsGkAtoms
 :
 x
 0
-PR_FALSE
+false
 }
 {
 &
@@ -21034,7 +21043,7 @@ nsGkAtoms
 :
 y
 0
-PR_FALSE
+false
 }
 {
 &
@@ -21043,7 +21052,7 @@ nsGkAtoms
 :
 z
 0
-PR_FALSE
+false
 }
 }
 ;
@@ -21177,7 +21186,7 @@ NumberAttributesInfo
 (
 mNumberAttributes
 sNumberInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberInfo
 )
@@ -21348,7 +21357,7 @@ nsGkAtoms
 :
 x
 0
-PR_FALSE
+false
 }
 {
 &
@@ -21357,7 +21366,7 @@ nsGkAtoms
 :
 y
 0
-PR_FALSE
+false
 }
 {
 &
@@ -21366,7 +21375,7 @@ nsGkAtoms
 :
 z
 0
-PR_FALSE
+false
 }
 {
 &
@@ -21375,7 +21384,7 @@ nsGkAtoms
 :
 pointsAtX
 0
-PR_FALSE
+false
 }
 {
 &
@@ -21384,7 +21393,7 @@ nsGkAtoms
 :
 pointsAtY
 0
-PR_FALSE
+false
 }
 {
 &
@@ -21393,7 +21402,7 @@ nsGkAtoms
 :
 pointsAtZ
 0
-PR_FALSE
+false
 }
 {
 &
@@ -21402,7 +21411,7 @@ nsGkAtoms
 :
 specularExponent
 1
-PR_FALSE
+false
 }
 {
 &
@@ -21411,7 +21420,7 @@ nsGkAtoms
 :
 limitingConeAngle
 0
-PR_FALSE
+false
 }
 }
 ;
@@ -21670,7 +21679,7 @@ NumberAttributesInfo
 (
 mNumberAttributes
 sNumberInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberInfo
 )
@@ -21954,7 +21963,7 @@ nsGkAtoms
 :
 surfaceScale
 1
-PR_FALSE
+false
 }
 {
 &
@@ -21963,7 +21972,7 @@ nsGkAtoms
 :
 diffuseConstant
 1
-PR_FALSE
+false
 }
 {
 &
@@ -21972,7 +21981,7 @@ nsGkAtoms
 :
 specularConstant
 1
-PR_FALSE
+false
 }
 {
 &
@@ -21981,7 +21990,7 @@ nsGkAtoms
 :
 specularExponent
 1
-PR_FALSE
+false
 }
 }
 ;
@@ -22029,7 +22038,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
-PR_TRUE
+true
 }
 {
 &
@@ -22038,7 +22047,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
-PR_TRUE
+true
 }
 }
 ;
@@ -22094,7 +22103,7 @@ FindAttributeDependence
 (
 name
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )
@@ -24025,7 +24034,7 @@ NumberAttributesInfo
 (
 mNumberAttributes
 sNumberInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberInfo
 )
@@ -24048,7 +24057,7 @@ NumberPairAttributesInfo
 (
 mNumberPairAttributes
 sNumberPairInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberPairInfo
 )
@@ -24071,7 +24080,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )
@@ -25438,7 +25447,7 @@ Image
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 virtual
@@ -25506,7 +25515,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
-PR_TRUE
+true
 }
 {
 &
@@ -25515,7 +25524,7 @@ nsGkAtoms
 :
 href
 kNameSpaceID_XLink
-PR_TRUE
+true
 }
 }
 ;
@@ -25773,7 +25782,7 @@ FindAttributeDependence
 (
 name
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )
@@ -25832,7 +25841,7 @@ aValue
 {
 LoadSVGImage
 (
-PR_TRUE
+true
 aNotify
 )
 ;
@@ -25884,8 +25893,8 @@ NS_FAILED
 (
 LoadSVGImage
 (
-PR_FALSE
-PR_TRUE
+false
+true
 )
 )
 |
@@ -25899,7 +25908,7 @@ LoadingEnabled
 {
 CancelImageRequests
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -26367,7 +26376,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )
@@ -26394,8 +26403,8 @@ HREF
 {
 LoadSVGImage
 (
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 return
@@ -26848,7 +26857,7 @@ model
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -26973,7 +26982,7 @@ nsGkAtoms
 :
 scale
 0
-PR_FALSE
+false
 }
 }
 ;
@@ -27095,7 +27104,7 @@ nsGkAtoms
 :
 result
 kNameSpaceID_None
-PR_TRUE
+true
 }
 {
 &
@@ -27104,7 +27113,7 @@ nsGkAtoms
 :
 in
 kNameSpaceID_None
-PR_TRUE
+true
 }
 {
 &
@@ -27113,7 +27122,7 @@ nsGkAtoms
 :
 in2
 kNameSpaceID_None
-PR_TRUE
+true
 }
 }
 ;
@@ -27815,7 +27824,7 @@ NumberAttributesInfo
 (
 mNumberAttributes
 sNumberInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sNumberInfo
 )
@@ -27838,7 +27847,7 @@ EnumAttributesInfo
 (
 mEnumAttributes
 sEnumInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sEnumInfo
 )
@@ -27861,7 +27870,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )

@@ -133,11 +133,11 @@ DrawTarget
 ;
 mNeedsYFlip
 =
-PR_FALSE
+false
 ;
 mDataIsPremultiplied
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -192,7 +192,7 @@ mGLBufferIsPremultiplied
 ;
 mNeedsYFlip
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -288,11 +288,11 @@ Surface
 ;
 mNeedsYFlip
 =
-PR_FALSE
+false
 ;
 mDataIsPremultiplied
 =
-PR_TRUE
+true
 ;
 mBounds
 .
@@ -415,7 +415,7 @@ data
 ;
 mIsD2DTexture
 =
-PR_TRUE
+true
 ;
 device
 (
@@ -453,11 +453,11 @@ return
 }
 mIsD2DTexture
 =
-PR_FALSE
+false
 ;
 mUsingSharedTexture
 =
-PR_FALSE
+false
 ;
 HANDLE
 shareHandle
@@ -508,7 +508,7 @@ hr
 )
 mUsingSharedTexture
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -518,7 +518,7 @@ mUsingSharedTexture
 {
 mNeedsYFlip
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -626,7 +626,7 @@ return
 ;
 mDirty
 =
-PR_FALSE
+false
 ;
 if
 (

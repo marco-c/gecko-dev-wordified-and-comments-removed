@@ -578,7 +578,7 @@ nsDOMEvent
 Serialize
 (
 aMsg
-PR_FALSE
+false
 )
 ;
 PRUint32
@@ -724,7 +724,7 @@ Deserialize
 aMsg
 aIter
 )
-PR_FALSE
+false
 )
 ;
 PRUint32
@@ -744,7 +744,7 @@ aIter
 &
 length
 )
-PR_FALSE
+false
 )
 ;
 mInvalidateRequests
@@ -792,7 +792,7 @@ mRect
 .
 x
 )
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_TRUE
@@ -811,7 +811,7 @@ mRect
 .
 y
 )
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_TRUE
@@ -830,7 +830,7 @@ mRect
 .
 width
 )
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_TRUE
@@ -849,7 +849,7 @@ mRect
 .
 height
 )
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_TRUE
@@ -866,7 +866,7 @@ req
 .
 mFlags
 )
-PR_FALSE
+false
 )
 ;
 mInvalidateRequests
@@ -878,7 +878,7 @@ req
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 nsresult

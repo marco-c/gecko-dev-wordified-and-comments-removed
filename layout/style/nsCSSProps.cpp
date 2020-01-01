@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsCSSProps
 .
 h
@@ -70,6 +79,10 @@ prlog
 .
 h
 "
+using
+namespace
+mozilla
+;
 extern
 const
 char
@@ -835,7 +848,7 @@ if
 gShorthandsContainingPool
 )
 return
-PR_FALSE
+false
 ;
 {
 nsCSSProperty
@@ -942,7 +955,7 @@ NS_QuickSort
 (
 &
 subpropCounts
-NS_ARRAY_LENGTH
+ArrayLength
 (
 subpropCounts
 )
@@ -968,9 +981,7 @@ subpropCounts
 *
 shorthandAndCountEnd
 =
-subpropCounts
-+
-NS_ARRAY_LENGTH
+ArrayEnd
 (
 subpropCounts
 )
@@ -1412,7 +1423,7 @@ table
 #
 endif
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -1626,9 +1637,7 @@ gAliases
 *
 alias_end
 =
-gAliases
-+
-NS_ARRAY_LENGTH
+ArrayEnd
 (
 gAliases
 )
@@ -1728,9 +1737,7 @@ gAliases
 *
 alias_end
 =
-gAliases
-+
-NS_ARRAY_LENGTH
+ArrayEnd
 (
 gAliases
 )
@@ -2040,7 +2047,7 @@ default
 :
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 bad
 caller
@@ -4941,7 +4948,7 @@ index
 ]
 ;
 return
-PR_TRUE
+true
 ;
 }
 index
@@ -4951,7 +4958,7 @@ index
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsCSSKeyword
@@ -5277,7 +5284,7 @@ ReleaseTable
 ;
 rv
 =
-PR_TRUE
+true
 ;
 }
 return

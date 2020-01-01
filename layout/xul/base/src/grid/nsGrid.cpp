@@ -83,7 +83,7 @@ nsnull
 )
 mNeedsRebuild
 (
-PR_TRUE
+true
 )
 mRowCount
 (
@@ -107,7 +107,7 @@ nsnull
 )
 mMarkingDirty
 (
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR
@@ -153,7 +153,7 @@ return
 ;
 mNeedsRebuild
 =
-PR_TRUE
+true
 ;
 mRowsBox
 =
@@ -201,7 +201,7 @@ return
 ;
 mNeedsRebuild
 =
-PR_FALSE
+false
 ;
 FindRowsAndColumns
 (
@@ -287,7 +287,7 @@ mRowsBox
 rowCount
 &
 mRows
-PR_TRUE
+true
 )
 ;
 BuildRows
@@ -296,7 +296,7 @@ mColumnsBox
 columnCount
 &
 mColumns
-PR_FALSE
+false
 )
 ;
 mCellMap
@@ -321,7 +321,7 @@ mRows
 mColumns
 mRowCount
 mColumnCount
-PR_TRUE
+true
 )
 ;
 PopulateCellMap
@@ -330,7 +330,7 @@ mColumns
 mRows
 mColumnCount
 mRowCount
-PR_FALSE
+false
 )
 ;
 }
@@ -761,7 +761,7 @@ i
 Init
 (
 nsnull
-PR_FALSE
+false
 )
 ;
 row
@@ -818,7 +818,7 @@ i
 Init
 (
 nsnull
-PR_FALSE
+false
 )
 ;
 row
@@ -1171,7 +1171,7 @@ aState
 {
 mMarkingDirty
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1205,7 +1205,7 @@ aState
 }
 mMarkingDirty
 =
-PR_FALSE
+false
 ;
 }
 nsGridRow
@@ -3483,7 +3483,7 @@ if
 part
 )
 return
-PR_FALSE
+false
 ;
 nsGridLayout2
 *
@@ -3501,10 +3501,10 @@ if
 grid
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 nscoord

@@ -1,5 +1,14 @@
 #
 include
+"
+mozilla
+/
+Util
+.
+h
+"
+#
+include
 <
 stdlib
 .
@@ -75,6 +84,10 @@ nsILocalFile
 .
 h
 "
+using
+namespace
+mozilla
+;
 namespace
 TestTArray
 {
@@ -165,7 +178,7 @@ dataLen
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -180,7 +193,7 @@ ary
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRUint32
@@ -219,7 +232,7 @@ i
 ]
 )
 return
-PR_FALSE
+false
 ;
 }
 for
@@ -258,7 +271,7 @@ i
 ]
 )
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -297,7 +310,7 @@ extra
 extra
 )
 return
-PR_FALSE
+false
 ;
 ary
 .
@@ -322,7 +335,7 @@ k
 )
 )
 return
-PR_FALSE
+false
 ;
 for
 (
@@ -358,7 +371,7 @@ k
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -367,7 +380,7 @@ k
 j
 )
 return
-PR_FALSE
+false
 ;
 j
 =
@@ -405,7 +418,7 @@ i
 ]
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -442,7 +455,7 @@ ary
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 for
@@ -480,7 +493,7 @@ i
 i
 )
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -498,7 +511,7 @@ ary
 NoIndex
 )
 return
-PR_FALSE
+false
 ;
 PRUint32
 oldLen
@@ -537,7 +550,7 @@ oldLen
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -550,7 +563,7 @@ ary
 )
 )
 return
-PR_FALSE
+false
 ;
 PRUint32
 index
@@ -575,7 +588,7 @@ extra
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -588,7 +601,7 @@ ary
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -601,7 +614,7 @@ index
 extra
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -616,7 +629,7 @@ extra
 PR_UINT32_MAX
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -631,7 +644,7 @@ extra
 PR_UINT32_MAX
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -650,7 +663,7 @@ extra
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -672,7 +685,7 @@ index
 )
 )
 return
-PR_FALSE
+false
 ;
 nsTArray
 <
@@ -694,7 +707,7 @@ copy
 )
 )
 return
-PR_FALSE
+false
 ;
 for
 (
@@ -729,7 +742,7 @@ i
 ]
 )
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -743,7 +756,7 @@ copy
 )
 )
 return
-PR_FALSE
+false
 ;
 PRUint32
 cap
@@ -788,7 +801,7 @@ Capacity
 cap
 )
 return
-PR_FALSE
+false
 ;
 ary
 .
@@ -816,7 +829,7 @@ Elements
 nsnull
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -834,7 +847,7 @@ ElementType
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -844,7 +857,7 @@ ary
 copy
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -872,7 +885,7 @@ extra
 extra
 )
 return
-PR_FALSE
+false
 ;
 ary
 =
@@ -889,7 +902,7 @@ copy
 )
 )
 return
-PR_FALSE
+false
 ;
 for
 (
@@ -924,7 +937,7 @@ i
 ]
 )
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -939,7 +952,7 @@ copy
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -949,7 +962,7 @@ ary
 copy
 )
 return
-PR_FALSE
+false
 ;
 ary
 .
@@ -996,7 +1009,7 @@ i
 ]
 )
 return
-PR_FALSE
+false
 ;
 }
 nsTArray
@@ -1042,7 +1055,7 @@ extra
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -1072,7 +1085,7 @@ return
 test_basic_array
 (
 data
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data
 )
@@ -1110,7 +1123,7 @@ return
 test_basic_array
 (
 data
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data
 )
@@ -1148,7 +1161,7 @@ return
 test_basic_array
 (
 data
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data
 )
@@ -1186,7 +1199,7 @@ return
 test_basic_array
 (
 data
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data
 )
@@ -1411,7 +1424,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kdata
 )
@@ -1452,7 +1465,7 @@ i
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 for
@@ -1463,7 +1476,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kdata
 )
@@ -1494,7 +1507,7 @@ i
 ]
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1511,7 +1524,7 @@ Num
 i
 )
 return
-PR_FALSE
+false
 ;
 }
 objArray
@@ -1540,7 +1553,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kdata
 )
@@ -1573,11 +1586,11 @@ i
 ]
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -1618,7 +1631,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kdata
 )
@@ -1669,7 +1682,7 @@ obj
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1683,7 +1696,7 @@ get
 nsnull
 )
 return
-PR_FALSE
+false
 ;
 obj
 .
@@ -1701,7 +1714,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kdata
 )
@@ -1733,7 +1746,7 @@ i
 ]
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1751,11 +1764,11 @@ Num
 i
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -1819,7 +1832,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kdata
 )
@@ -1853,7 +1866,7 @@ str
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 for
@@ -1864,7 +1877,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kdata
 )
@@ -1893,7 +1906,7 @@ i
 ]
 )
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -1927,7 +1940,7 @@ kextra
 )
 )
 return
-PR_FALSE
+false
 ;
 strArray
 .
@@ -1948,7 +1961,7 @@ Length
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1965,7 +1978,7 @@ e
 1
 )
 return
-PR_FALSE
+false
 ;
 strArray
 .
@@ -1989,7 +2002,7 @@ for
 (
 i
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kdata
 )
@@ -2019,7 +2032,7 @@ i
 ]
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -2084,7 +2097,7 @@ i
 i
 )
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -2104,7 +2117,7 @@ strArray
 NoIndex
 )
 return
-PR_FALSE
+false
 ;
 nsCString
 rawArray
@@ -2125,7 +2138,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 rawArray
 )
@@ -2150,7 +2163,7 @@ return
 test_basic_array
 (
 rawArray
-NS_ARRAY_LENGTH
+ArrayLength
 (
 rawArray
 )
@@ -2235,7 +2248,7 @@ if
 tmpDir
 )
 return
-PR_FALSE
+false
 ;
 const
 char
@@ -2279,7 +2292,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kNames
 )
@@ -2309,7 +2322,7 @@ if
 f
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -2331,7 +2344,7 @@ i
 )
 )
 return
-PR_FALSE
+false
 ;
 fileArray
 .
@@ -2361,7 +2374,7 @@ nsFileNameComparator
 1
 )
 return
-PR_FALSE
+false
 ;
 return
 test_basic_array
@@ -2539,7 +2552,7 @@ b
 )
 rv
 =
-PR_FALSE
+false
 ;
 a
 -
@@ -2592,7 +2605,7 @@ SafeElementAt
 nsnull
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -2607,7 +2620,7 @@ SafeElementAt
 nsnull
 )
 return
-PR_FALSE
+false
 ;
 PRUint32
 a
@@ -2634,7 +2647,7 @@ ary
 a
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -2650,7 +2663,7 @@ SafeElementAt
 a
 )
 return
-PR_FALSE
+false
 ;
 nsTArray
 <
@@ -2673,7 +2686,7 @@ SafeElementAt
 nsnull
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -2688,7 +2701,7 @@ SafeElementAt
 nsnull
 )
 return
-PR_FALSE
+false
 ;
 const
 PRUint32
@@ -2734,7 +2747,7 @@ cary
 b
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -2762,10 +2775,10 @@ SafeElementAt
 b
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -2831,7 +2844,7 @@ DebugGetHeader
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -2854,7 +2867,7 @@ DebugGetHeader
 )
 )
 return
-PR_FALSE
+false
 ;
 array
 .
@@ -2875,7 +2888,7 @@ DebugGetHeader
 )
 )
 return
-PR_FALSE
+false
 ;
 array
 .
@@ -2889,7 +2902,7 @@ array
 AppendElements
 (
 data
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data
 )
@@ -2907,7 +2920,7 @@ DebugGetHeader
 )
 )
 return
-PR_FALSE
+false
 ;
 array
 .
@@ -2928,7 +2941,7 @@ DebugGetHeader
 )
 )
 return
-PR_FALSE
+false
 ;
 array
 .
@@ -2954,14 +2967,14 @@ DebugGetHeader
 )
 )
 return
-PR_FALSE
+false
 ;
 array
 .
 AppendElements
 (
 data
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data
 )
@@ -2979,7 +2992,7 @@ DebugGetHeader
 )
 )
 return
-PR_FALSE
+false
 ;
 nsTArray
 <
@@ -3016,7 +3029,7 @@ DebugGetHeader
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -3030,7 +3043,7 @@ DebugGetHeader
 )
 )
 return
-PR_FALSE
+false
 ;
 PRUint32
 i
@@ -3043,7 +3056,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data
 )
@@ -3067,7 +3080,7 @@ i
 ]
 )
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -3080,7 +3093,7 @@ IsEmpty
 )
 )
 return
-PR_FALSE
+false
 ;
 array
 .
@@ -3093,7 +3106,7 @@ array
 AppendElements
 (
 data
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data
 )
@@ -3125,7 +3138,7 @@ array3
 AppendElements
 (
 data3
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data3
 )
@@ -3146,7 +3159,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data
 )
@@ -3170,7 +3183,7 @@ i
 ]
 )
 return
-PR_FALSE
+false
 ;
 }
 for
@@ -3181,7 +3194,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data3
 )
@@ -3205,11 +3218,11 @@ i
 ]
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -3311,7 +3324,7 @@ index
 ]
 )
 return
-PR_FALSE
+false
 ;
 index
 +
@@ -3319,7 +3332,7 @@ index
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -3357,7 +3370,7 @@ ary
 AppendElements
 (
 data
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data
 )
@@ -3375,14 +3388,14 @@ if
 is_heap
 (
 ary
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data
 )
 )
 )
 return
-PR_FALSE
+false
 ;
 int
 root
@@ -3404,7 +3417,7 @@ if
 is_heap
 (
 ary
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data
 )
@@ -3413,7 +3426,7 @@ data
 )
 )
 return
-PR_FALSE
+false
 ;
 ary
 .
@@ -3428,14 +3441,14 @@ if
 is_heap
 (
 ary
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data
 )
 )
 )
 return
-PR_FALSE
+false
 ;
 const
 int
@@ -3466,7 +3479,7 @@ index
 ;
 index
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data
 )
@@ -3489,10 +3502,10 @@ index
 ]
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -3591,7 +3604,7 @@ arr
 ;
 \
 return
-PR_FALSE
+false
 ;
 \
 }
@@ -3647,7 +3660,7 @@ arr
 ;
 \
 return
-PR_FALSE
+false
 ;
 \
 }
@@ -3718,7 +3731,7 @@ arr
 ;
 \
 return
-PR_FALSE
+false
 ;
 \
 }
@@ -3795,7 +3808,7 @@ expected
 ;
 \
 return
-PR_FALSE
+false
 ;
 \
 }
@@ -3825,7 +3838,7 @@ arr
 Length
 (
 )
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data
 )
@@ -3841,7 +3854,7 @@ _i
 ;
 _i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data
 )
@@ -3925,7 +3938,7 @@ a
 AppendElements
 (
 data1
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data1
 )
@@ -3936,7 +3949,7 @@ b
 AppendElements
 (
 data2
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data2
 )
@@ -4002,7 +4015,7 @@ a
 AppendElements
 (
 data1
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data1
 )
@@ -4020,7 +4033,7 @@ b
 AppendElements
 (
 data2
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data2
 )
@@ -4092,7 +4105,7 @@ a
 AppendElements
 (
 data1
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data1
 )
@@ -4110,7 +4123,7 @@ b
 AppendElements
 (
 data2
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data2
 )
@@ -4199,7 +4212,7 @@ a
 AppendElements
 (
 data1
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data1
 )
@@ -4210,7 +4223,7 @@ b
 AppendElements
 (
 data2
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data2
 )
@@ -4255,7 +4268,7 @@ b
 AppendElements
 (
 data2
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data2
 )
@@ -4452,7 +4465,7 @@ b
 AppendElements
 (
 data2
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data2
 )
@@ -4540,7 +4553,7 @@ a
 AppendElements
 (
 data1
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data1
 )
@@ -4606,7 +4619,7 @@ a
 AppendElements
 (
 data1
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data1
 )
@@ -4724,7 +4737,7 @@ a
 AppendElements
 (
 data1
-NS_ARRAY_LENGTH
+ArrayLength
 (
 data1
 )
@@ -4765,7 +4778,7 @@ Length
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 typedef

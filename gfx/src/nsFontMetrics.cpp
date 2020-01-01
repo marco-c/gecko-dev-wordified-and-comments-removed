@@ -357,7 +357,7 @@ mP2A
 )
 mTextRunRTL
 (
-PR_FALSE
+false
 )
 {
 }

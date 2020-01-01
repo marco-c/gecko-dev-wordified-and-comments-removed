@@ -1373,7 +1373,7 @@ if
 m
 )
 return
-PR_FALSE
+false
 ;
 aMargin
 =
@@ -1381,7 +1381,7 @@ aMargin
 m
 ;
 return
-PR_TRUE
+true
 ;
 }
 inline

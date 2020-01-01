@@ -204,7 +204,7 @@ schemeEnd
 )
 )
 return
-PR_FALSE
+false
 ;
 hostStart
 =
@@ -262,7 +262,7 @@ PRInt32
 port
 )
 return
-PR_FALSE
+false
 ;
 }
 else
@@ -278,7 +278,7 @@ hostStart
 hostEnd
 )
 return
-PR_TRUE
+true
 ;
 PRUint32
 hostLen
@@ -298,7 +298,7 @@ Length
 hostLen
 )
 return
-PR_FALSE
+false
 ;
 const
 char
@@ -366,11 +366,11 @@ hostLen
 '
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -403,7 +403,7 @@ if
 prefs
 )
 return
-PR_FALSE
+false
 ;
 nsCAutoString
 scheme
@@ -426,7 +426,7 @@ scheme
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -442,7 +442,7 @@ host
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -459,7 +459,7 @@ port
 )
 )
 return
-PR_FALSE
+false
 ;
 char
 *
@@ -485,7 +485,7 @@ hostList
 hostList
 )
 return
-PR_FALSE
+false
 ;
 char
 *
@@ -568,7 +568,7 @@ end
 )
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -599,7 +599,7 @@ hostList
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -625,7 +625,7 @@ if
 prefs
 )
 return
-PR_FALSE
+false
 ;
 bool
 flag
@@ -649,7 +649,7 @@ flag
 )
 flag
 =
-PR_FALSE
+false
 ;
 LOG
 (
@@ -704,7 +704,7 @@ if
 prefs
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -731,7 +731,7 @@ val
 )
 val
 =
-PR_FALSE
+false
 ;
 LOG
 (
@@ -889,7 +889,7 @@ continuationState
 *
 identityInvalid
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -976,7 +976,7 @@ ntlm
 *
 identityInvalid
 =
-PR_TRUE
+true
 ;
 }
 #
@@ -1097,7 +1097,7 @@ ntlm
 *
 identityInvalid
 =
-PR_TRUE
+true
 ;
 }
 if

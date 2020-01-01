@@ -382,7 +382,7 @@ mEnd
 aBegin
 )
 return
-PR_TRUE
+true
 ;
 current
 =
@@ -393,7 +393,7 @@ mNext
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -440,7 +440,7 @@ mEnd
 aEnd
 )
 return
-PR_TRUE
+true
 ;
 current
 =
@@ -451,6 +451,6 @@ mNext
 ;
 }
 return
-PR_FALSE
+false
 ;
 }

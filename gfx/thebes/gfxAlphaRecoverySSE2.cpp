@@ -299,7 +299,7 @@ ImageFormatRGB24
 )
 )
 return
-PR_FALSE
+false
 ;
 blackSurf
 -
@@ -381,7 +381,7 @@ Stride
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 __m128i
@@ -900,7 +900,7 @@ MarkDirty
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static

@@ -613,7 +613,7 @@ nonBlocking
 *
 nonBlocking
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -641,11 +641,11 @@ NS_OK
 )
 mIsPending
 (
-PR_FALSE
+false
 )
 mIsUnsafe
 (
-PR_TRUE
+true
 )
 mJarInput
 (
@@ -1306,7 +1306,7 @@ mJarFile
 {
 mIsUnsafe
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -2540,14 +2540,14 @@ nsnull
 ;
 mIsUnsafe
 =
-PR_TRUE
+true
 ;
 nsresult
 rv
 =
 EnsureJarInput
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -2652,7 +2652,7 @@ nsnull
 ;
 mIsUnsafe
 =
-PR_TRUE
+true
 ;
 NS_QueryNotificationCallbacks
 (
@@ -2666,7 +2666,7 @@ rv
 =
 EnsureJarInput
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -2689,7 +2689,7 @@ ctx
 ;
 mIsPending
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -2735,7 +2735,7 @@ rv
 {
 mIsPending
 =
-PR_FALSE
+false
 ;
 mListenerContext
 =
@@ -3441,7 +3441,7 @@ mJarInput
 ;
 mIsPending
 =
-PR_FALSE
+false
 ;
 mDownloader
 =

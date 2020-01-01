@@ -441,7 +441,7 @@ BRS_LINE_LAYOUT_EMPTY
 SetFlag
 (
 BRS_LINE_LAYOUT_EMPTY
-PR_FALSE
+false
 )
 ;
 }
@@ -629,13 +629,13 @@ NS_ASSERTION
 aValue
 =
 =
-PR_FALSE
+false
 |
 |
 aValue
 =
 =
-PR_TRUE
+true
 "
 bad
 value

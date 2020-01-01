@@ -10,6 +10,15 @@ h
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 IPC
 /
 IPCMessageUtils
@@ -599,7 +608,7 @@ aPresContext
 ;
 mPrivateDataDuplicated
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -612,21 +621,21 @@ aEvent
 ;
 mEventIsInternal
 =
-PR_FALSE
+false
 ;
 }
 else
 {
 mEventIsInternal
 =
-PR_TRUE
+true
 ;
 mEvent
 =
 new
 nsEvent
 (
-PR_FALSE
+false
 0
 )
 ;
@@ -1929,7 +1938,7 @@ nsContentUtils
 eDOM_PROPERTIES
 aWarning
 strings
-NS_ARRAY_LENGTH
+ArrayLength
 (
 strings
 )
@@ -2254,7 +2263,7 @@ enabled
 {
 SetTrusted
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2408,7 +2417,7 @@ newEvent
 new
 nsEvent
 (
-PR_FALSE
+false
 msg
 )
 ;
@@ -2424,7 +2433,7 @@ newEvent
 new
 nsGUIEvent
 (
-PR_FALSE
+false
 msg
 nsnull
 )
@@ -2443,7 +2452,7 @@ sizeEvent
 new
 nsSizeEvent
 (
-PR_FALSE
+false
 msg
 nsnull
 )
@@ -2504,7 +2513,7 @@ newEvent
 new
 nsSizeModeEvent
 (
-PR_FALSE
+false
 msg
 nsnull
 )
@@ -2553,7 +2562,7 @@ zLevelEvent
 new
 nsZLevelEvent
 (
-PR_FALSE
+false
 msg
 nsnull
 )
@@ -2623,7 +2632,7 @@ newEvent
 new
 nsScrollbarEvent
 (
-PR_FALSE
+false
 msg
 nsnull
 )
@@ -2670,14 +2679,14 @@ newEvent
 new
 nsInputEvent
 (
-PR_FALSE
+false
 msg
 nsnull
 )
 ;
 isInputEvent
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2693,7 +2702,7 @@ keyEvent
 new
 nsKeyEvent
 (
-PR_FALSE
+false
 msg
 nsnull
 )
@@ -2719,7 +2728,7 @@ mEvent
 ;
 isInputEvent
 =
-PR_TRUE
+true
 ;
 keyEvent
 -
@@ -2782,7 +2791,7 @@ mouseEvent
 new
 nsMouseEvent
 (
-PR_FALSE
+false
 msg
 nsnull
 oldMouseEvent
@@ -2799,7 +2808,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 isInputEvent
 =
-PR_TRUE
+true
 ;
 mouseEvent
 -
@@ -2902,7 +2911,7 @@ dragEvent
 new
 nsDragEvent
 (
-PR_FALSE
+false
 msg
 nsnull
 )
@@ -2915,7 +2924,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 isInputEvent
 =
-PR_TRUE
+true
 ;
 dragEvent
 -
@@ -3007,7 +3016,7 @@ newEvent
 new
 nsScriptErrorEvent
 (
-PR_FALSE
+false
 msg
 )
 ;
@@ -3053,14 +3062,14 @@ newEvent
 new
 nsTextEvent
 (
-PR_FALSE
+false
 msg
 nsnull
 )
 ;
 isInputEvent
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -3076,7 +3085,7 @@ compositionEvent
 new
 nsCompositionEvent
 (
-PR_FALSE
+false
 msg
 nsnull
 )
@@ -3122,7 +3131,7 @@ mouseScrollEvent
 new
 nsMouseScrollEvent
 (
-PR_FALSE
+false
 msg
 nsnull
 )
@@ -3135,7 +3144,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 isInputEvent
 =
-PR_TRUE
+true
 ;
 nsMouseScrollEvent
 *
@@ -3230,7 +3239,7 @@ newEvent
 new
 nsScrollPortEvent
 (
-PR_FALSE
+false
 msg
 nsnull
 )
@@ -3279,7 +3288,7 @@ newScrollAreaEvent
 new
 nsScrollAreaEvent
 (
-PR_FALSE
+false
 msg
 nsnull
 )
@@ -3325,7 +3334,7 @@ mutationEvent
 new
 nsMutationEvent
 (
-PR_FALSE
+false
 msg
 )
 ;
@@ -3417,14 +3426,14 @@ newEvent
 new
 nsAccessibleEvent
 (
-PR_FALSE
+false
 msg
 nsnull
 )
 ;
 isInputEvent
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -3440,7 +3449,7 @@ newEvent
 new
 nsFormEvent
 (
-PR_FALSE
+false
 msg
 )
 ;
@@ -3458,7 +3467,7 @@ newFocusEvent
 new
 nsFocusEvent
 (
-PR_FALSE
+false
 msg
 )
 ;
@@ -3517,7 +3526,7 @@ newEvent
 new
 nsInputEvent
 (
-PR_FALSE
+false
 msg
 nsnull
 )
@@ -3530,7 +3539,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 isInputEvent
 =
-PR_TRUE
+true
 ;
 newEvent
 -
@@ -3551,7 +3560,7 @@ newEvent
 new
 nsCommandEvent
 (
-PR_FALSE
+false
 mEvent
 -
 >
@@ -3588,7 +3597,7 @@ newEvent
 new
 nsUIEvent
 (
-PR_FALSE
+false
 msg
 static_cast
 <
@@ -3615,7 +3624,7 @@ newEvent
 new
 nsEvent
 (
-PR_FALSE
+false
 msg
 )
 ;
@@ -3644,7 +3653,7 @@ newEvent
 new
 nsGUIEvent
 (
-PR_FALSE
+false
 msg
 nsnull
 )
@@ -3677,7 +3686,7 @@ newEvent
 new
 nsUIEvent
 (
-PR_FALSE
+false
 msg
 0
 )
@@ -3724,7 +3733,7 @@ simpleGestureEvent
 new
 nsSimpleGestureEvent
 (
-PR_FALSE
+false
 msg
 nsnull
 0
@@ -3741,7 +3750,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 isInputEvent
 =
-PR_TRUE
+true
 ;
 simpleGestureEvent
 -
@@ -3792,7 +3801,7 @@ newEvent
 new
 nsTransitionEvent
 (
-PR_FALSE
+false
 msg
 oldTransitionEvent
 -
@@ -3835,7 +3844,7 @@ newEvent
 new
 nsAnimationEvent
 (
-PR_FALSE
+false
 msg
 oldAnimationEvent
 -
@@ -3865,7 +3874,7 @@ newEvent
 new
 nsMozTouchEvent
 (
-PR_FALSE
+false
 msg
 nsnull
 static_cast
@@ -3889,7 +3898,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 isInputEvent
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -4072,11 +4081,11 @@ nsnull
 ;
 mEventIsInternal
 =
-PR_TRUE
+true
 ;
 mPrivateDataDuplicated
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -4220,7 +4229,7 @@ sPopupAllowedEvents
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -4289,7 +4298,7 @@ enditer
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -4328,7 +4337,7 @@ enditer
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 startiter
@@ -4337,7 +4346,7 @@ enditer
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 PopupControlState
@@ -6393,7 +6402,7 @@ aIter
 &
 type
 )
-PR_FALSE
+false
 )
 ;
 bool
@@ -6413,7 +6422,7 @@ aIter
 &
 bubbles
 )
-PR_FALSE
+false
 )
 ;
 bool
@@ -6433,7 +6442,7 @@ aIter
 &
 cancelable
 )
-PR_FALSE
+false
 )
 ;
 bool
@@ -6453,7 +6462,7 @@ aIter
 &
 trusted
 )
-PR_FALSE
+false
 )
 ;
 nsresult
@@ -6469,7 +6478,7 @@ cancelable
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 SetTrusted
@@ -6478,7 +6487,7 @@ trusted
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult

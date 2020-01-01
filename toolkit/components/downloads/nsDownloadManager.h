@@ -188,7 +188,7 @@ DATABASE_DISK
 )
 mInPrivateBrowsing
 (
-PR_FALSE
+false
 )
 #
 ifdef

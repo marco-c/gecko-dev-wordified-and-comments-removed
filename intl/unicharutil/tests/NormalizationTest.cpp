@@ -235,7 +235,7 @@ normalized
 \
 rv
 =
-PR_FALSE
+false
 ;
 \
 showError
@@ -1463,7 +1463,7 @@ argc
 )
 verboseMode
 =
-PR_FALSE
+false
 ;
 else
 if
@@ -1493,7 +1493,7 @@ v
 )
 verboseMode
 =
-PR_TRUE
+true
 ;
 else
 {

@@ -253,7 +253,7 @@ aHyphens
 Elements
 (
 )
-PR_FALSE
+false
 aHyphens
 .
 Length
@@ -417,7 +417,7 @@ inWord
 {
 inWord
 =
-PR_TRUE
+true
 ;
 wordStart
 =
@@ -604,7 +604,7 @@ cur
 begin
 ]
 =
-PR_TRUE
+true
 ;
 }
 cur
@@ -650,7 +650,7 @@ hyphPtr
 }
 inWord
 =
-PR_FALSE
+false
 ;
 }
 return

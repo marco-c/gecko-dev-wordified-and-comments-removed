@@ -30,7 +30,7 @@ CharDistributionAnalysis
 {
 Reset
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -130,7 +130,7 @@ aIsPreferredLanguage
 {
 mDone
 =
-PR_FALSE
+false
 ;
 mTotalChars
 =

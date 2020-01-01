@@ -57,7 +57,7 @@ mGamma
 )
 mAbsolute
 (
-PR_TRUE
+true
 )
 {
 }

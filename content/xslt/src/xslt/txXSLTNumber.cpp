@@ -1756,7 +1756,7 @@ moveToLastChild
 {
 }
 return
-PR_TRUE
+true
 ;
 }
 return

@@ -589,7 +589,7 @@ didSaveSession
 >
 SetData
 (
-PR_FALSE
+false
 )
 ;
 obsServ
@@ -643,7 +643,7 @@ cancelQuit
 >
 SetData
 (
-PR_FALSE
+false
 )
 ;
 obsServ
@@ -1209,7 +1209,7 @@ on
 )
 result
 =
-PR_TRUE
+true
 ;
 osso_rpc_free_val
 (
@@ -1372,7 +1372,7 @@ nsnull
 OssoRequestAccelerometer
 (
 context
-PR_TRUE
+true
 )
 ;
 }
@@ -1401,7 +1401,7 @@ nsnull
 OssoRequestAccelerometer
 (
 context
-PR_FALSE
+false
 )
 ;
 }
@@ -2230,7 +2230,7 @@ version
 .
 0
 "
-PR_TRUE
+true
 nsnull
 )
 ;
@@ -2302,7 +2302,7 @@ endif
 *
 aRetVal
 =
-PR_TRUE
+true
 ;
 #
 ifdef
@@ -2792,7 +2792,7 @@ aResult
 *
 aResult
 =
-PR_TRUE
+true
 ;
 #
 if
@@ -2810,7 +2810,7 @@ m_osso_context
 OssoRequestAccelerometer
 (
 m_osso_context
-PR_FALSE
+false
 )
 ;
 DBusConnection
@@ -2888,7 +2888,7 @@ m_osso_context
 OssoRequestAccelerometer
 (
 m_osso_context
-PR_TRUE
+true
 )
 ;
 #

@@ -293,7 +293,7 @@ if
 isDefined
 )
 return
-PR_FALSE
+false
 ;
 Format
 (
@@ -303,7 +303,7 @@ aValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 virtual
@@ -338,7 +338,7 @@ mIsDefined
 isDefined
 )
 return
-PR_TRUE
+true
 ;
 if
 (

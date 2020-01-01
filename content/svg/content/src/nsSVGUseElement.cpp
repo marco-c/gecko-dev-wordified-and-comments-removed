@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsSVGUseElement
 .
 h
@@ -72,6 +81,10 @@ nsContentUtils
 .
 h
 "
+using
+namespace
+mozilla
+;
 using
 namespace
 mozilla
@@ -178,7 +191,7 @@ nsGkAtoms
 :
 href
 kNameSpaceID_XLink
-PR_TRUE
+true
 }
 }
 ;
@@ -1176,7 +1189,7 @@ nsNodeUtils
 Clone
 (
 targetContent
-PR_TRUE
+true
 nodeInfoManager
 unused
 getter_AddRefs
@@ -1406,7 +1419,7 @@ GetPrefix
 (
 )
 value
-PR_FALSE
+false
 )
 ;
 }
@@ -1454,7 +1467,7 @@ newcontent
 RemoveChildAt
 (
 0
-PR_FALSE
+false
 )
 ;
 svgNode
@@ -1464,7 +1477,7 @@ InsertChildAt
 (
 child
 i
-PR_TRUE
+true
 )
 ;
 }
@@ -1597,7 +1610,7 @@ NS_ConvertUTF8toUTF16
 (
 spec
 )
-PR_FALSE
+false
 )
 ;
 targetContent
@@ -2112,7 +2125,7 @@ LengthAttributesInfo
 (
 mLengthAttributes
 sLengthInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sLengthInfo
 )
@@ -2135,7 +2148,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )
@@ -2183,7 +2196,7 @@ FindAttributeDependence
 (
 name
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )

@@ -134,7 +134,7 @@ aStream
 >
 ReadObject
 (
-PR_TRUE
+true
 getter_AddRefs
 (
 mInnerURI
@@ -225,7 +225,7 @@ NS_GET_IID
 (
 nsIURI
 )
-PR_TRUE
+true
 )
 ;
 return
@@ -264,7 +264,7 @@ aIter
 )
 )
 return
-PR_FALSE
+false
 ;
 IPC
 :
@@ -284,14 +284,14 @@ uri
 )
 )
 return
-PR_FALSE
+false
 ;
 mInnerURI
 =
 uri
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -400,7 +400,7 @@ result
 *
 result
 =
-PR_FALSE
+false
 ;
 NS_ENSURE_TRUE
 (
@@ -601,7 +601,7 @@ url
 >
 SetMutable
 (
-PR_FALSE
+false
 )
 ;
 return

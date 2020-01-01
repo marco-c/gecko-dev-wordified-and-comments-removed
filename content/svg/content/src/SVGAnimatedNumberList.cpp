@@ -113,7 +113,7 @@ newBaseValue
 }
 mIsBaseSet
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -194,7 +194,7 @@ Clear
 ;
 mIsBaseSet
 =
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -463,7 +463,7 @@ val
 }
 aPreventCachingOfSandwich
 =
-PR_FALSE
+false
 ;
 return
 rv

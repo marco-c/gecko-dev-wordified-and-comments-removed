@@ -436,7 +436,7 @@ LOG_WILL_MORPH_FOR_PROP
 (
 cx
 obj
-nullptr
+nsnull
 )
 ;
 \
@@ -538,7 +538,7 @@ SLIM_LOG_WILL_MORPH_FOR_PROP
 (
 cx
 obj
-nullptr
+nsnull
 )
 #
 endif

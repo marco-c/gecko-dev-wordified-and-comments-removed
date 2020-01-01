@@ -52,11 +52,11 @@ mRunCharCount
 )
 mRunSkipped
 (
-PR_FALSE
+false
 )
 mInErrorState
 (
-PR_FALSE
+false
 )
 {
 }
@@ -70,7 +70,7 @@ aChars
 DoChars
 (
 aChars
-PR_TRUE
+true
 )
 ;
 }
@@ -84,7 +84,7 @@ aChars
 DoChars
 (
 aChars
-PR_FALSE
+false
 )
 ;
 }
@@ -452,7 +452,7 @@ aSkipCharsBuilder
 >
 mRunSkipped
 =
-PR_FALSE
+false
 ;
 BuildShortcuts
 (
@@ -738,7 +738,7 @@ SetOffsets
 aOriginalStringOffset
 +
 mOriginalStringToSkipCharsOffset
-PR_TRUE
+true
 )
 ;
 }
@@ -752,7 +752,7 @@ aSkippedStringOffset
 SetOffsets
 (
 aSkippedStringOffset
-PR_FALSE
+false
 )
 ;
 }
@@ -815,7 +815,7 @@ SetOffsets
 mOriginalStringOffset
 +
 aDelta
-PR_TRUE
+true
 )
 ;
 }
@@ -831,7 +831,7 @@ SetOffsets
 mSkippedStringOffset
 +
 aDelta
-PR_FALSE
+false
 )
 ;
 }

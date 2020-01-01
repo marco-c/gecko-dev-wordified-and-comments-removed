@@ -681,7 +681,7 @@ Cancel
 {
 mInited
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -705,11 +705,11 @@ mFrame
 >
 mNotifyOnInput
 =
-PR_FALSE
+false
 ;
 mInited
 =
-PR_TRUE
+true
 ;
 }
 ~
@@ -733,7 +733,7 @@ mFrame
 >
 mNotifyOnInput
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -996,7 +996,7 @@ shell
 >
 ObserveNativeAnonMutationsForPrint
 (
-PR_TRUE
+true
 )
 ;
 mFrame

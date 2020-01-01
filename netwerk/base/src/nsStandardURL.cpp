@@ -690,7 +690,7 @@ extraLen
 {
 appended
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -864,7 +864,7 @@ initLen
 ;
 appended
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -895,7 +895,7 @@ Length
 ;
 appended
 =
-PR_TRUE
+true
 ;
 }
 len
@@ -1055,7 +1055,7 @@ manager
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -1097,11 +1097,11 @@ mEncoder
 0
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -1199,7 +1199,7 @@ URLTYPE_STANDARD
 )
 mMutable
 (
-PR_TRUE
+true
 )
 mSupportsFileURL
 (
@@ -1251,7 +1251,7 @@ gInitialized
 {
 gInitialized
 =
-PR_TRUE
+true
 ;
 InitGlobalObjects
 (
@@ -1477,7 +1477,7 @@ obs
 get
 (
 )
-PR_FALSE
+false
 )
 ;
 prefBranch
@@ -1491,7 +1491,7 @@ obs
 get
 (
 )
-PR_FALSE
+false
 )
 ;
 prefBranch
@@ -1505,7 +1505,7 @@ obs
 get
 (
 )
-PR_FALSE
+false
 )
 ;
 prefBranch
@@ -1519,7 +1519,7 @@ obs
 get
 (
 )
-PR_FALSE
+false
 )
 ;
 PrefsChanged
@@ -1765,11 +1765,11 @@ Append
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1833,7 +1833,7 @@ mHostEncoding
 eEncoding_UTF8
 ;
 return
-PR_TRUE
+true
 ;
 }
 result
@@ -1843,7 +1843,7 @@ Truncate
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -3218,7 +3218,7 @@ mLen
 0
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -3355,7 +3355,7 @@ mLen
 0
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -3459,7 +3459,7 @@ seg2
 mLen
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -3485,7 +3485,7 @@ IsEmpty
 )
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -3493,7 +3493,7 @@ if
 val
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -5225,7 +5225,7 @@ NS_EscapeURL
 (
 Userpass
 (
-PR_TRUE
+true
 )
 esc_OnlyNonASCII
 |
@@ -8189,7 +8189,7 @@ rv
 *
 result
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -8209,7 +8209,7 @@ mSupportsFileURL
 *
 result
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -8328,7 +8328,7 @@ Port
 *
 result
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -8364,7 +8364,7 @@ mRef
 *
 result
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -8429,7 +8429,7 @@ mExtension
 *
 result
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -8443,7 +8443,7 @@ mSupportsFileURL
 *
 result
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -8621,7 +8621,7 @@ result
 *
 result
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -8916,7 +8916,7 @@ clone
 >
 mMutable
 =
-PR_TRUE
+true
 ;
 clone
 -
@@ -9208,7 +9208,7 @@ scheme
 "
 ftp
 "
-PR_TRUE
+true
 )
 )
 {
@@ -9233,7 +9233,7 @@ SegmentIs
 mScheme
 relpath
 scheme
-PR_TRUE
+true
 )
 )
 {
@@ -9277,7 +9277,7 @@ else
 {
 relative
 =
-PR_TRUE
+true
 ;
 offset
 =
@@ -9371,7 +9371,7 @@ else
 {
 relative
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -13639,13 +13639,13 @@ if
 isMutable
 !
 =
-PR_TRUE
+true
 &
 &
 isMutable
 !
 =
-PR_FALSE
+false
 )
 {
 NS_WARNING
@@ -13694,13 +13694,13 @@ if
 supportsFileURL
 !
 =
-PR_TRUE
+true
 &
 &
 supportsFileURL
 !
 =
-PR_FALSE
+false
 )
 {
 NS_WARNING
@@ -14345,7 +14345,7 @@ urlType
 )
 )
 return
-PR_FALSE
+false
 ;
 mURLType
 =
@@ -14400,7 +14400,7 @@ urlType
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 PRUint32
@@ -14590,7 +14590,7 @@ hostEncoding
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -14616,7 +14616,7 @@ encoding
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 mHostEncoding
@@ -14632,7 +14632,7 @@ mSupportsFileURL
 supportsFileURL
 ;
 return
-PR_TRUE
+true
 ;
 }
 void

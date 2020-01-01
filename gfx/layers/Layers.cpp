@@ -1203,7 +1203,7 @@ GetContentFlags
 CONTENT_OPAQUE
 )
 return
-PR_TRUE
+true
 ;
 ContainerLayer
 *
@@ -2169,11 +2169,11 @@ count
 1
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -2388,14 +2388,14 @@ HasMultipleChildren
 {
 useIntermediateSurface
 =
-PR_TRUE
+true
 ;
 }
 else
 {
 useIntermediateSurface
 =
-PR_FALSE
+false
 ;
 gfxMatrix
 contTransform
@@ -2497,7 +2497,7 @@ IsEmpty
 {
 useIntermediateSurface
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2718,7 +2718,7 @@ TYPE_READBACK
 {
 mMayHaveReadbackChild
 =
-PR_TRUE
+true
 ;
 }
 }

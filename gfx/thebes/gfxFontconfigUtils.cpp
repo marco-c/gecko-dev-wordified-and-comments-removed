@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 gfxFontconfigUtils
 .
 h
@@ -1195,7 +1204,7 @@ g
 ;
 g
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sFontconfigGenerics
 )
@@ -1232,7 +1241,7 @@ get
 {
 useWeakBinding
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1957,7 +1966,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 MozLangGroups
 )
@@ -2063,7 +2072,7 @@ pos
 =
 languages
 ;
-PR_TRUE
+true
 ;
 +
 +
@@ -2434,7 +2443,7 @@ UpdateFontList
 return
 UpdateFontListInternal
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -2796,8 +2805,8 @@ name
 .
 CompressWhitespace
 (
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 mAliasForMultiFonts
@@ -3244,7 +3253,7 @@ i
 {
 equal
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -3344,7 +3353,7 @@ aAborted
 {
 aAborted
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -3511,7 +3520,7 @@ family
 FcResultMatch
 )
 return
-PR_FALSE
+false
 ;
 aFullname
 -
@@ -3587,7 +3596,7 @@ style
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -4452,7 +4461,7 @@ NULL
 ;
 UpdateFontListInternal
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -4491,7 +4500,7 @@ entry
 GetLangSupportEntry
 (
 aLang
-PR_FALSE
+false
 )
 ;
 if
@@ -4536,7 +4545,7 @@ entry
 GetLangSupportEntry
 (
 aLang
-PR_TRUE
+true
 )
 ;
 if
@@ -4596,10 +4605,10 @@ i
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }

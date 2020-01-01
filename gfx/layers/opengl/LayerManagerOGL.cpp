@@ -12,6 +12,15 @@ h
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 LayerManagerOGL
 .
 h
@@ -293,7 +302,7 @@ CleanupResources
 ;
 mDestroyed
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -603,7 +612,7 @@ if
 aContext
 )
 return
-PR_FALSE
+false
 ;
 mGLContext
 =
@@ -614,7 +623,7 @@ mGLContext
 >
 SetFlipped
 (
-PR_TRUE
+true
 )
 ;
 MakeCurrent
@@ -732,7 +741,7 @@ p
 ;
 \
 return
-PR_FALSE
+false
 ;
 \
 }
@@ -905,7 +914,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 textureTargets
 )
@@ -3652,7 +3661,7 @@ height
 {
 MakeCurrent
 (
-PR_TRUE
+true
 )
 ;
 mWidgetSize
@@ -5234,7 +5243,7 @@ lpindex
 \
 lpindex
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sLayerProgramTypes
 )

@@ -259,7 +259,7 @@ mVerifier
 >
 Finish
 (
-PR_FALSE
+false
 hashString
 )
 ;
@@ -2537,7 +2537,7 @@ challenge
 *
 stale
 =
-PR_FALSE
+false
 ;
 *
 algorithm
@@ -2711,7 +2711,7 @@ p
 ;
 quoted
 =
-PR_TRUE
+true
 ;
 }
 PRInt16
@@ -3020,13 +3020,13 @@ true
 *
 stale
 =
-PR_TRUE
+true
 ;
 else
 *
 stale
 =
-PR_FALSE
+false
 ;
 }
 else

@@ -236,7 +236,7 @@ aCantHandleYet
 *
 aCantHandleYet
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

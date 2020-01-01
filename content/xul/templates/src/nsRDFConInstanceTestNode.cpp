@@ -394,7 +394,7 @@ aCantHandleYet
 *
 aCantHandleYet
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -825,7 +825,7 @@ GetTarget
 valueres
 *
 property
-PR_TRUE
+true
 getter_AddRefs
 (
 target
@@ -1252,7 +1252,7 @@ if
 rdfc
 )
 return
-PR_FALSE
+false
 ;
 rv
 =
@@ -1274,7 +1274,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1425,11 +1425,11 @@ aSource
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void

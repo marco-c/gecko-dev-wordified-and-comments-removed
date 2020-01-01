@@ -311,7 +311,7 @@ shell
 {
 NS_ASSERTION
 (
-PR_TRUE
+true
 "
 There
 is
@@ -403,7 +403,7 @@ aString
 ;
 goThroughDOMSubtree
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -525,7 +525,7 @@ NS_STYLE_DISPLAY_TABLE_CELL
 {
 isHTMLBlock
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -890,7 +890,7 @@ NS_OK_NO_NAME_CLAUSE_HANDLED
 )
 isEmptyTextEquiv
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -940,7 +940,7 @@ NS_OK_NO_NAME_CLAUSE_HANDLED
 )
 isEmptyTextEquiv
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -1462,7 +1462,7 @@ IsEmpty
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1495,7 +1495,7 @@ aTextEquivalent
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool

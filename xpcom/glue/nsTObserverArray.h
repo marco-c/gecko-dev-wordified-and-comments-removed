@@ -489,7 +489,7 @@ array_type
 NoIndex
 )
 return
-PR_FALSE
+false
 ;
 mArray
 .
@@ -506,7 +506,7 @@ index
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -521,6 +521,19 @@ Clear
 )
 ;
 ClearIterators
+(
+)
+;
+}
+PRUint64
+SizeOf
+(
+)
+{
+return
+mArray
+.
+SizeOf
 (
 )
 ;

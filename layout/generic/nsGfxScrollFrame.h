@@ -2939,7 +2939,7 @@ eReplaced
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 nsBoxFrame

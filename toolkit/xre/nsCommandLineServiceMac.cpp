@@ -226,7 +226,7 @@ sArgsUsed
 ;
 sBuildingCommandLine
 =
-PR_TRUE
+true
 ;
 for
 (
@@ -349,7 +349,7 @@ foreground
 }
 sBuildingCommandLine
 =
-PR_FALSE
+false
 ;
 argc
 =
@@ -376,7 +376,7 @@ sBuildingCommandLine
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 AddToCommandLine
@@ -393,7 +393,7 @@ aURL
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }

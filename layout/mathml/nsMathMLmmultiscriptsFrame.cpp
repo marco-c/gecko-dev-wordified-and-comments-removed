@@ -877,7 +877,7 @@ childFrame
 ;
 firstPrescriptsPair
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1168,7 +1168,7 @@ firstPrescriptsPair
 {
 firstPrescriptsPair
 =
-PR_FALSE
+false
 ;
 mBoundingMetrics
 .

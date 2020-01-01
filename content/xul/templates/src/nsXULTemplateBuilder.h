@@ -285,7 +285,7 @@ RunnableLoadAndRebuild
 {
 Uninit
 (
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -340,7 +340,7 @@ UninitFalse
 {
 Uninit
 (
-PR_FALSE
+false
 )
 ;
 mRoot
@@ -355,7 +355,7 @@ UninitTrue
 {
 Uninit
 (
-PR_TRUE
+true
 )
 ;
 mRoot

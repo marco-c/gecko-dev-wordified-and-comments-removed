@@ -223,12 +223,12 @@ mPriorAvailWidth
 ;
 SetContentEmpty
 (
-PR_FALSE
+false
 )
 ;
 SetHasPctOverHeight
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -551,7 +551,7 @@ if
 rs
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -565,7 +565,7 @@ this
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 rs
@@ -582,7 +582,7 @@ rs
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsIAtom
@@ -610,7 +610,7 @@ tableFrame
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return
@@ -961,7 +961,7 @@ aFrameList
 {
 NS_PRECONDITION
 (
-PR_FALSE
+false
 "
 unsupported
 operation
@@ -990,7 +990,7 @@ aFrameList
 {
 NS_PRECONDITION
 (
-PR_FALSE
+false
 "
 unsupported
 operation
@@ -1016,7 +1016,7 @@ aOldFrame
 {
 NS_PRECONDITION
 (
-PR_FALSE
+false
 "
 unsupported
 operation
@@ -2721,7 +2721,7 @@ height
 0
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -2733,7 +2733,7 @@ IsBorderCollapse
 )
 )
 return
-PR_TRUE
+true
 ;
 nsIFrame
 *
@@ -2796,7 +2796,7 @@ HasNoncollapsedCharacters
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -2812,7 +2812,7 @@ frameType
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -2834,7 +2834,7 @@ if
 floatFrame
 )
 return
-PR_TRUE
+true
 ;
 }
 innerFrame
@@ -2848,7 +2848,7 @@ GetNextSibling
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nscoord
@@ -3883,7 +3883,7 @@ else
 {
 SetHasPctOverHeight
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -3919,7 +3919,7 @@ mFlags
 .
 mSpecialHeightReflow
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3950,7 +3950,7 @@ mFlags
 .
 mVResize
 =
-PR_TRUE
+true
 ;
 }
 nsPoint
@@ -4235,7 +4235,7 @@ height
 {
 SetHasPctOverHeight
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -4639,7 +4639,7 @@ corner
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 #

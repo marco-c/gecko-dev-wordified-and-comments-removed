@@ -235,7 +235,7 @@ if
 ent
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -250,7 +250,7 @@ ent
 mData
 ;
 return
-PR_TRUE
+true
 ;
 }
 UserDataType
@@ -315,7 +315,7 @@ if
 ent
 )
 return
-PR_FALSE
+false
 ;
 ent
 -
@@ -325,7 +325,7 @@ mData
 aData
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -1109,7 +1109,7 @@ initSize
 )
 )
 return
-PR_FALSE
+false
 ;
 this
 -

@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 prenv
 .
 h
@@ -280,7 +289,7 @@ PR_SUCCESS
 PR_SetFDInheritable
 (
 readStdin
-PR_TRUE
+true
 )
 "
 couldn
@@ -331,7 +340,7 @@ PR_SUCCESS
 PR_SetFDInheritable
 (
 writeStdout
-PR_TRUE
+true
 )
 "
 couldn
@@ -382,7 +391,7 @@ PR_SUCCESS
 PR_SetFDInheritable
 (
 writeStderr
-PR_TRUE
+true
 )
 "
 couldn
@@ -717,7 +726,7 @@ stderr
 ;
 Finish
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -882,14 +891,14 @@ isStdout
 {
 stdoutOpen
 =
-PR_FALSE
+false
 ;
 }
 else
 {
 stderrOpen
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -1135,7 +1144,7 @@ mStderr
 Find
 (
 token
-PR_FALSE
+false
 idx
 )
 ;
@@ -2560,7 +2569,7 @@ i
 (
 PRInt32
 )
-NS_ARRAY_LENGTH
+ArrayLength
 (
 cndMs
 )
@@ -2584,7 +2593,7 @@ for
 PRInt32
 i
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 cndMs
 )
@@ -2643,7 +2652,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 cndMs
 )
@@ -2684,7 +2693,7 @@ i
 (
 PRInt32
 )
-NS_ARRAY_LENGTH
+ArrayLength
 (
 threads
 )
@@ -2716,7 +2725,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 threads
 )
@@ -2742,7 +2751,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 cndMs
 )

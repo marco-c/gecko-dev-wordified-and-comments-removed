@@ -230,19 +230,19 @@ LOAD_NORMAL
 )
 mQueriedProgressSink
 (
-PR_TRUE
+true
 )
 mSynthProgressEvents
 (
-PR_FALSE
+false
 )
 mWasOpened
 (
-PR_FALSE
+false
 )
 mWaitingOnAsyncRedirect
 (
-PR_FALSE
+false
 )
 mStatus
 (
@@ -773,7 +773,7 @@ rv
 =
 OpenContentStream
 (
-PR_TRUE
+true
 getter_AddRefs
 (
 stream
@@ -840,7 +840,7 @@ rv
 )
 mWaitingOnAsyncRedirect
 =
-PR_TRUE
+true
 ;
 return
 rv
@@ -864,7 +864,7 @@ stream
 1
 0
 0
-PR_TRUE
+true
 )
 ;
 if
@@ -936,7 +936,7 @@ nsIChannelEventSink
 :
 :
 REDIRECT_TEMPORARY
-PR_TRUE
+true
 )
 ;
 if
@@ -969,7 +969,7 @@ result
 {
 mWaitingOnAsyncRedirect
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1831,7 +1831,7 @@ rv
 =
 OpenContentStream
 (
-PR_FALSE
+false
 result
 getter_AddRefs
 (
@@ -1880,7 +1880,7 @@ nsIChannelEventSink
 :
 :
 REDIRECT_INTERNAL
-PR_FALSE
+false
 )
 ;
 if
@@ -1929,7 +1929,7 @@ rv
 {
 mWasOpened
 =
-PR_TRUE
+true
 ;
 ClassifyURI
 (
@@ -2047,7 +2047,7 @@ rv
 }
 mWasOpened
 =
-PR_TRUE
+true
 ;
 SUSPEND_PUMP_FOR_SCOPE
 (
@@ -2135,7 +2135,7 @@ mProgressSink
 ;
 mQueriedProgressSink
 =
-PR_TRUE
+true
 ;
 if
 (

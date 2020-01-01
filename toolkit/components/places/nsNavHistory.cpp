@@ -8,6 +8,15 @@ h
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsNavHistory
 .
 h
@@ -1351,7 +1360,7 @@ aDBConn
 ExecuteAsync
 (
 stmts
-NS_ARRAY_LENGTH
+ArrayLength
 (
 stmts
 )
@@ -1694,7 +1703,7 @@ mLastSessionID
 )
 mHistoryEnabled
 (
-PR_TRUE
+true
 )
 mNumVisitsForFrecency
 (
@@ -1861,7 +1870,7 @@ rv
 =
 InitDBFile
 (
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1888,7 +1897,7 @@ rv
 =
 InitDBFile
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2003,7 +2012,7 @@ AddObserver
 "
 "
 this
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -2032,7 +2041,7 @@ AddObserver
 (
 this
 TOPIC_PROFILE_TEARDOWN
-PR_FALSE
+false
 )
 ;
 (
@@ -2045,7 +2054,7 @@ AddObserver
 (
 this
 TOPIC_PROFILE_CHANGE
-PR_FALSE
+false
 )
 ;
 (
@@ -2058,7 +2067,7 @@ AddObserver
 (
 this
 TOPIC_IDLE_DAILY
-PR_FALSE
+false
 )
 ;
 (
@@ -2071,7 +2080,7 @@ AddObserver
 (
 this
 NS_PRIVATE_BROWSING_SWITCH_TOPIC
-PR_FALSE
+false
 )
 ;
 #
@@ -2087,7 +2096,7 @@ AddObserver
 (
 this
 TOPIC_AUTOCOMPLETE_FEEDBACK_INCOMING
-PR_FALSE
+false
 )
 ;
 #
@@ -2255,7 +2264,7 @@ mDBFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -2377,7 +2386,7 @@ rv
 =
 InitDBFile
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2453,7 +2462,7 @@ mDBFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3358,7 +3367,7 @@ mozStorageTransaction
 transaction
 (
 mDBConn
-PR_FALSE
+false
 )
 ;
 if
@@ -5757,7 +5766,7 @@ h
 id
 "
 )
-PR_TRUE
+true
 tagsFragment
 )
 ;
@@ -6148,7 +6157,7 @@ mozStorageTransaction
 transaction
 (
 aDBConn
-PR_FALSE
+false
 )
 ;
 bool
@@ -6928,7 +6937,7 @@ mozStorageTransaction
 transaction
 (
 aDBConn
-PR_FALSE
+false
 )
 ;
 nsresult
@@ -7169,7 +7178,7 @@ mozStorageTransaction
 transaction
 (
 aDBConn
-PR_FALSE
+false
 )
 ;
 bool
@@ -7757,7 +7766,7 @@ voidString
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 rv
@@ -7766,10 +7775,10 @@ InternalAddNewPage
 (
 aURI
 voidString
-PR_TRUE
-PR_FALSE
+true
+false
 0
-PR_TRUE
+true
 _pageId
 _GUID
 )
@@ -8516,7 +8525,7 @@ DECLARE_AND_ASSIGN_SCOPED_LAZY_STMT_RET
 (
 stmt
 mDBRecentVisitOfURL
-PR_FALSE
+false
 )
 ;
 nsresult
@@ -8540,7 +8549,7 @@ aURI
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 bool
@@ -8560,7 +8569,7 @@ hasMore
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 if
@@ -8582,7 +8591,7 @@ aVisitID
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 rv
@@ -8599,7 +8608,7 @@ aSessionID
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 rv
@@ -8616,15 +8625,15 @@ aTime
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -8643,7 +8652,7 @@ DECLARE_AND_ASSIGN_SCOPED_LAZY_STMT_RET
 (
 stmt
 mDBIsPageVisited
-PR_FALSE
+false
 )
 ;
 nsresult
@@ -8662,7 +8671,7 @@ aURIString
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 bool
@@ -8684,7 +8693,7 @@ hasMore
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 return
@@ -8757,12 +8766,12 @@ mPrefBranch
 SetBoolPref
 (
 PREF_HISTORY_ENABLED
-PR_FALSE
+false
 )
 ;
 mHistoryEnabled
 =
-PR_FALSE
+false
 ;
 }
 prefSvc
@@ -9630,7 +9639,7 @@ query
 *
 aHasSearchTerms
 =
-PR_FALSE
+false
 ;
 PRInt32
 i
@@ -9775,7 +9784,7 @@ Length
 )
 queryContainsTransitions
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -9817,7 +9826,7 @@ nsnull
 )
 nonTimeBasedItems
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -9835,7 +9844,7 @@ IsVoid
 )
 domainBasedItems
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -10343,7 +10352,7 @@ equals
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 if
@@ -10425,11 +10434,11 @@ continue
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -11103,7 +11112,7 @@ IsHistoryDisabled
 *
 canAdd
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -11144,7 +11153,7 @@ http
 *
 canAdd
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -11165,7 +11174,7 @@ https
 *
 canAdd
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -11290,7 +11299,7 @@ javascript
 *
 canAdd
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -11299,7 +11308,7 @@ NS_OK
 *
 canAdd
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -11423,7 +11432,7 @@ mozStorageTransaction
 transaction
 (
 mDBConn
-PR_FALSE
+false
 )
 ;
 DECLARE_AND_ASSIGN_SCOPED_LAZY_STMT
@@ -11680,7 +11689,7 @@ oldVisitCount
 )
 newItem
 =
-PR_TRUE
+true
 ;
 DECLARE_AND_ASSIGN_SCOPED_LAZY_STMT
 (
@@ -11774,7 +11783,7 @@ else
 {
 newItem
 =
-PR_TRUE
+true
 ;
 stmt
 -
@@ -11829,7 +11838,7 @@ voidString
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 rv
@@ -11847,7 +11856,7 @@ typed
 =
 1
 1
-PR_TRUE
+true
 &
 pageID
 guid
@@ -11920,7 +11929,7 @@ aTime
 1
 nsnull
 TRANSITION_LINK
-PR_FALSE
+false
 aSessionID
 &
 referringVisitID
@@ -12456,7 +12465,7 @@ options
 >
 SetExcludeItems
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -12557,7 +12566,7 @@ Count
 1
 )
 return
-PR_FALSE
+false
 ;
 nsNavHistoryQuery
 *
@@ -12584,7 +12593,7 @@ nsINavHistoryQueryOptions
 QUERY_TYPE_HISTORY
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -12602,7 +12611,7 @@ nsINavHistoryQueryOptions
 RESULTS_AS_URI
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -12617,7 +12626,7 @@ SortingMode
 aSortMode
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -12632,7 +12641,7 @@ MaxResults
 0
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -12644,7 +12653,7 @@ ExcludeItems
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -12656,7 +12665,7 @@ IncludeHidden
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -12684,7 +12693,7 @@ MaxVisits
 1
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -12704,7 +12713,7 @@ BeginTimeReference
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -12724,7 +12733,7 @@ EndTimeReference
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -12741,7 +12750,7 @@ IsEmpty
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -12753,7 +12762,7 @@ OnlyBookmarked
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -12778,7 +12787,7 @@ IsEmpty
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -12803,7 +12812,7 @@ IsEmpty
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -12823,7 +12832,7 @@ Uri
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -12841,7 +12850,7 @@ Length
 0
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -12859,7 +12868,7 @@ Length
 0
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -12877,10 +12886,10 @@ Length
 0
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -12947,7 +12956,7 @@ nsINavHistoryQueryOptions
 RESULTS_AS_SITE_QUERY
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -12965,7 +12974,7 @@ nsINavHistoryQueryOptions
 QUERY_TYPE_BOOKMARKS
 )
 return
-PR_TRUE
+true
 ;
 nsCString
 parentAnnotationToExclude
@@ -12984,7 +12993,7 @@ parentAnnotationToExclude
 NS_ENSURE_SUCCESS
 (
 rv
-PR_TRUE
+true
 )
 ;
 if
@@ -12997,7 +13006,7 @@ IsEmpty
 )
 )
 return
-PR_TRUE
+true
 ;
 for
 (
@@ -13040,12 +13049,12 @@ Length
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 class
@@ -13304,7 +13313,7 @@ MaxResults
 )
 mSkipOrderBy
 (
-PR_FALSE
+false
 )
 mAddParams
 (
@@ -13720,7 +13729,7 @@ RESULTS_AS_TAG_CONTENTS
 {
 mSkipOrderBy
 =
-PR_TRUE
+true
 ;
 GetTagsSqlFragment
 (
@@ -14279,7 +14288,7 @@ SelectAsDay
 {
 mSkipOrderBy
 =
-PR_TRUE
+true
 ;
 PRUint16
 sortingMode
@@ -15909,7 +15918,7 @@ history
 ;
 mHasDateColumns
 =
-PR_TRUE
+true
 ;
 mQueryString
 =
@@ -16980,7 +16989,7 @@ rv
 ;
 aParamsPresent
 =
-PR_FALSE
+false
 ;
 PRInt32
 sortingMode
@@ -17540,7 +17549,7 @@ IsEmpty
 {
 aParamsPresent
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -18132,7 +18141,7 @@ new
 mozStorageTransaction
 (
 mDBConn
-PR_FALSE
+false
 )
 ;
 NOTIFY_OBSERVERS
@@ -18386,7 +18395,7 @@ aURI
 aLastVisited
 0
 TRANSITION_LINK
-PR_FALSE
+false
 0
 &
 visitID
@@ -18503,7 +18512,7 @@ mozStorageTransaction
 transaction
 (
 mDBConn
-PR_FALSE
+false
 )
 ;
 nsresult
@@ -19295,7 +19304,7 @@ IsEmpty
 )
 aEntireDomain
 =
-PR_FALSE
+false
 ;
 nsCString
 localFiles
@@ -20158,7 +20167,7 @@ mozStorageTransaction
 transaction
 (
 mDBConn
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -21013,7 +21022,7 @@ mozStorageTransaction
 transaction
 (
 mDBConn
-PR_FALSE
+false
 )
 ;
 PRInt64
@@ -21405,7 +21414,7 @@ IsHistoryDisabled
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -21439,7 +21448,7 @@ hasEmbedVisit
 aURI
 )
 ?
-PR_TRUE
+true
 :
 IsURIStringVisited
 (
@@ -21516,7 +21525,7 @@ voidString
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 rv
@@ -21655,7 +21664,7 @@ aTitle
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -21742,7 +21751,7 @@ _vacuumGranted
 *
 _vacuumGranted
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -21838,7 +21847,7 @@ aSource
 aStartTime
 aReferrer
 TRANSITION_DOWNLOAD
-PR_FALSE
+false
 0
 &
 visitID
@@ -23328,7 +23337,7 @@ aData
 {
 mInPrivateBrowsing
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -23347,7 +23356,7 @@ aData
 {
 mInPrivateBrowsing
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -23527,7 +23536,7 @@ mDBConn
 ExecuteAsync
 (
 stmts
-NS_ARRAY_LENGTH
+ArrayLength
 (
 stmts
 )
@@ -26805,7 +26814,7 @@ ancestor
 {
 belongs
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -26846,7 +26855,7 @@ continue
 }
 appendNode
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -27135,14 +27144,14 @@ GetNow
 RECENT_EVENT_THRESHOLD
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -28079,7 +28088,7 @@ Options
 >
 SetExcludeItems
 (
-PR_TRUE
+true
 )
 ;
 NS_ADDREF
@@ -29947,7 +29956,7 @@ mDBConn
 ExecuteAsync
 (
 stmts
-NS_ARRAY_LENGTH
+ArrayLength
 (
 stmts
 )
@@ -30527,7 +30536,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 stmts
 )
@@ -30687,7 +30696,7 @@ aClosure
 *
 aWantCharset
 =
-PR_FALSE
+false
 ;
 *
 aClosure

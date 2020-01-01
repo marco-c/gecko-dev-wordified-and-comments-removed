@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsGenericElement
 .
 h
@@ -659,17 +668,13 @@ h
 using
 namespace
 mozilla
-:
-:
-dom
 ;
+using
 namespace
-css
-=
 mozilla
 :
 :
-css
+dom
 ;
 NS_DEFINE_IID
 (
@@ -1170,7 +1175,7 @@ NODE_IS_EDITABLE
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 nsIDocument
@@ -2400,7 +2405,7 @@ return
 RemoveChildAt
 (
 index
-PR_TRUE
+true
 )
 ;
 }
@@ -2621,7 +2626,7 @@ TEXT_NODE
 {
 canMerge
 =
-PR_FALSE
+false
 ;
 continue
 ;
@@ -2654,7 +2659,7 @@ else
 {
 canMerge
 =
-PR_TRUE
+true
 ;
 }
 canMerge
@@ -2765,7 +2770,7 @@ batch
 (
 doc
 UPDATE_CONTENT_MODEL
-PR_TRUE
+true
 )
 ;
 nsAutoString
@@ -2939,7 +2944,7 @@ text
 GetLength
 (
 )
-PR_TRUE
+true
 node
 )
 ;
@@ -2975,7 +2980,7 @@ tmpStr
 Length
 (
 )
-PR_TRUE
+true
 node
 )
 ;
@@ -3035,7 +3040,7 @@ IndexOf
 (
 node
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -3299,7 +3304,7 @@ nsPropertyTable
 :
 :
 SupportsDtorFunc
-PR_TRUE
+true
 aOldValue
 )
 ;
@@ -4114,7 +4119,7 @@ aOther
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsAutoString
@@ -4159,7 +4164,7 @@ NodeType
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsINodeInfo
@@ -4209,7 +4214,7 @@ GetExtraName
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 switch
@@ -4270,7 +4275,7 @@ GetAttrCount
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 for
@@ -4372,7 +4377,7 @@ eCaseMatters
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -4458,7 +4463,7 @@ string2
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 break
@@ -4640,7 +4645,7 @@ string2
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 docType1
@@ -4671,7 +4676,7 @@ string2
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 docType1
@@ -4702,7 +4707,7 @@ string2
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 break
@@ -4712,7 +4717,7 @@ default
 :
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 Unknown
 node
@@ -4764,7 +4769,7 @@ GetFirstChild
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 while
@@ -4806,7 +4811,7 @@ time
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nextNode
@@ -4850,7 +4855,7 @@ GetNextSibling
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 node1
@@ -4895,7 +4900,7 @@ node2
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -5001,7 +5006,7 @@ set
 "
 aWantsUntrusted
 to
-PR_FALSE
+false
 or
 make
 the
@@ -5046,7 +5051,7 @@ GetOwnerDoc
 {
 aWantsUntrusted
 =
-PR_TRUE
+true
 ;
 }
 nsEventListenerManager
@@ -5055,7 +5060,7 @@ listener_manager
 =
 GetListenerManager
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_STATE
@@ -5101,7 +5106,7 @@ elm
 =
 GetListenerManager
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -5176,7 +5181,7 @@ document
 *
 aRetVal
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -7769,7 +7774,7 @@ nsGkAtoms
 :
 :
 _asterix
-PR_FALSE
+false
 )
 ;
 }
@@ -10369,7 +10374,7 @@ aReturn
 *
 aReturn
 =
-PR_FALSE
+false
 ;
 NS_ConvertUTF16toUTF8
 feature
@@ -10471,7 +10476,7 @@ v
 *
 aReturn
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -10648,7 +10653,7 @@ v
 *
 aReturn
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -10693,7 +10698,7 @@ v
 *
 aReturn
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -10774,7 +10779,7 @@ v
 *
 aReturn
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -10827,7 +10832,7 @@ v
 *
 aReturn
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -11165,7 +11170,7 @@ nsContentUtils
 CheckQName
 (
 aName
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -11197,7 +11202,7 @@ SetAttr
 kNameSpaceID_None
 nameAtom
 aValue
-PR_TRUE
+true
 )
 ;
 }
@@ -11223,7 +11228,7 @@ GetPrefix
 (
 )
 aValue
-PR_TRUE
+true
 )
 ;
 }
@@ -11281,7 +11286,7 @@ name
 LocalName
 (
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -11864,7 +11869,7 @@ GetPrefixAtom
 (
 )
 aValue
-PR_TRUE
+true
 )
 ;
 }
@@ -11927,7 +11932,7 @@ UnsetAttr
 (
 nsid
 name
-PR_TRUE
+true
 )
 ;
 return
@@ -12374,7 +12379,7 @@ kNameSpaceID_Unknown
 *
 aReturn
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -13316,7 +13321,7 @@ rv
 }
 UpdateEditableState
 (
-PR_FALSE
+false
 )
 ;
 for
@@ -13707,8 +13712,8 @@ i
 >
 UnbindFromTree
 (
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 }
@@ -14098,7 +14103,7 @@ aVisitor
 .
 mCanHandle
 =
-PR_TRUE
+true
 ;
 aVisitor
 .
@@ -14851,7 +14856,7 @@ new
 nsDOMCSSAttributeDeclaration
 (
 this
-PR_TRUE
+true
 )
 ;
 }
@@ -15051,7 +15056,7 @@ aAttribute
 const
 {
 return
-PR_FALSE
+false
 ;
 }
 nsChangeHint
@@ -15162,13 +15167,13 @@ attribute
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 already_AddRefed
@@ -15290,7 +15295,7 @@ aURI
 nsnull
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -15321,7 +15326,7 @@ if
 document
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -15345,7 +15350,7 @@ if
 window
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -15363,7 +15368,7 @@ nsFocusManager
 GetFocusedDescendant
 (
 window
-PR_FALSE
+false
 getter_AddRefs
 (
 focusedFrame
@@ -15378,7 +15383,7 @@ contentToBlur
 aContent
 )
 return
-PR_TRUE
+true
 ;
 return
 (
@@ -15912,7 +15917,7 @@ BindToTree
 doc
 parent
 nsnull
-PR_TRUE
+true
 )
 ;
 if
@@ -16035,7 +16040,7 @@ this
 nsMutationEvent
 mutation
 (
-PR_TRUE
+true
 NS_MUTATION_NODEINSERTED
 )
 ;
@@ -16303,7 +16308,7 @@ nsContentUtils
 GetNodeTextContent
 (
 this
-PR_TRUE
+true
 aTextContent
 )
 ;
@@ -16331,7 +16336,7 @@ SetNodeTextContent
 (
 this
 aTextContent
-PR_FALSE
+false
 )
 ;
 }
@@ -16993,7 +16998,7 @@ aNewChild
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 switch
@@ -17019,7 +17024,7 @@ nsIDOMNode
 PROCESSING_INSTRUCTION_NODE
 :
 return
-PR_TRUE
+true
 ;
 case
 nsIDOMNode
@@ -17068,7 +17073,7 @@ eDOCUMENT
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 Element
@@ -17111,7 +17116,7 @@ aRefChild
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 nsCOMPtr
@@ -17171,7 +17176,7 @@ docTypeContent
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 PRInt32
@@ -17234,7 +17239,7 @@ eDOCUMENT
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -17327,7 +17332,7 @@ rootElement
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -17337,7 +17342,7 @@ aRefChild
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRInt32
@@ -17392,7 +17397,7 @@ eDOCUMENT
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -17441,12 +17446,12 @@ sawElement
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 sawElement
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -17462,12 +17467,12 @@ aRefChild
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 default
@@ -17476,7 +17481,7 @@ break
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -17552,7 +17557,7 @@ aParent
 nsMutationEvent
 mutation
 (
-PR_TRUE
+true
 NS_MUTATION_NODEINSERTED
 )
 ;
@@ -17807,7 +17812,7 @@ GetCurrentDoc
 (
 )
 UPDATE_CONTENT_MODEL
-PR_TRUE
+true
 )
 ;
 if
@@ -17872,7 +17877,7 @@ res
 RemoveChildAt
 (
 insPos
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -17960,7 +17965,7 @@ oldParent
 RemoveChildAt
 (
 removeIndex
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -18140,7 +18145,7 @@ RemoveChildAt
 -
 -
 i
-PR_TRUE
+true
 )
 ;
 }
@@ -18307,7 +18312,7 @@ InsertChildAt
 (
 newContent
 insPos
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -18807,7 +18812,7 @@ if
 (
 nsid
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kNSURIs
 )
@@ -19627,7 +19632,7 @@ GetPrefix
 (
 )
 valStr
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -19800,12 +19805,12 @@ GetPrefix
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 modification
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -19837,7 +19842,7 @@ ADDITION
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -20363,7 +20368,7 @@ AttributeChanged
 (
 aName
 aNamespaceID
-PR_FALSE
+false
 aNotify
 )
 ;
@@ -20461,7 +20466,7 @@ aFireMutation
 nsMutationEvent
 mutation
 (
-PR_TRUE
+true
 NS_MUTATION_ATTRMODIFIED
 )
 ;
@@ -20618,7 +20623,7 @@ aResult
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -20647,7 +20652,7 @@ aRetval
 NS_OK
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsEventListenerManager
@@ -20668,12 +20673,12 @@ aDefer
 *
 aDefer
 =
-PR_TRUE
+true
 ;
 return
 GetListenerManager
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -20844,7 +20849,7 @@ Truncate
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 val
@@ -20856,7 +20861,7 @@ aResult
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -21460,7 +21465,7 @@ AttributeChanged
 (
 aName
 aNameSpaceID
-PR_TRUE
+true
 aNotify
 )
 ;
@@ -21527,7 +21532,7 @@ this
 nsMutationEvent
 mutation
 (
-PR_TRUE
+true
 NS_MUTATION_ATTRMODIFIED
 )
 ;
@@ -21755,7 +21760,7 @@ TextIsOnlyWhitespace
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -23010,7 +23015,7 @@ NS_EVENT_FLAG_PREVENT_MULTIPLE_ACTIONS
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -23159,9 +23164,9 @@ aVisitor
 mPresContext
 absURI
 target
-PR_FALSE
-PR_TRUE
-PR_TRUE
+false
+true
+true
 )
 ;
 aVisitor
@@ -23626,8 +23631,8 @@ aVisitor
 mPresContext
 absURI
 target
-PR_TRUE
-PR_TRUE
+true
+true
 NS_IS_TRUSTED_EVENT
 (
 aVisitor
@@ -23703,7 +23708,7 @@ aVisitor
 mPresContext
 keyEvent
 this
-PR_FALSE
+false
 0
 &
 status
@@ -24070,7 +24075,7 @@ nsnull
 TreeMatchContext
 matchingContext
 (
-PR_FALSE
+false
 nsRuleWalker
 :
 :
@@ -24226,7 +24231,7 @@ rv
 TreeMatchContext
 matchingContext
 (
-PR_FALSE
+false
 nsRuleWalker
 :
 :
@@ -24356,7 +24361,7 @@ aResult
 TreeMatchContext
 matchingContext
 (
-PR_FALSE
+false
 nsRuleWalker
 :
 :
@@ -24463,7 +24468,7 @@ this
 >
 GetListenerManager
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -24565,7 +24570,7 @@ elm
 =
 GetListenerManager
 (
-PR_FALSE
+false
 )
 ;
 \
@@ -24634,7 +24639,7 @@ elm
 =
 GetListenerManager
 (
-PR_TRUE
+true
 )
 ;
 \
@@ -24749,7 +24754,7 @@ this
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -24814,7 +24819,7 @@ GetFirstChild
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -24871,7 +24876,7 @@ eDOCUMENT_FRAGMENT
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -24908,7 +24913,7 @@ GetBindingParent
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return

@@ -76,7 +76,7 @@ mCookiesLifetimePolicy
 )
 mCookiesAlwaysAcceptSession
 (
-PR_FALSE
+false
 )
 {
 }

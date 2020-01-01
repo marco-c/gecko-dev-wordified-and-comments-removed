@@ -394,14 +394,14 @@ mService
 >
 mShuttingDown
 =
-PR_FALSE
+false
 ;
 mService
 -
 >
 mRunning
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -422,23 +422,23 @@ mConsiderQuitStopper
 )
 mRunning
 (
-PR_FALSE
+false
 )
 mShuttingDown
 (
-PR_FALSE
+false
 )
 mAttemptingQuit
 (
-PR_FALSE
+false
 )
 mRestart
 (
-PR_FALSE
+false
 )
 mInterrupted
 (
-PR_FALSE
+false
 )
 {
 }
@@ -525,7 +525,7 @@ application
 -
 forced
 "
-PR_TRUE
+true
 )
 ;
 os
@@ -541,7 +541,7 @@ windows
 -
 restored
 "
-PR_TRUE
+true
 )
 ;
 os
@@ -557,7 +557,7 @@ change
 -
 teardown
 "
-PR_TRUE
+true
 )
 ;
 os
@@ -573,7 +573,7 @@ window
 -
 registered
 "
-PR_TRUE
+true
 )
 ;
 os
@@ -589,7 +589,7 @@ window
 -
 destroyed
 "
-PR_TRUE
+true
 )
 ;
 return
@@ -637,7 +637,6 @@ appShellService
 >
 CreateHiddenWindow
 (
-mAppShell
 )
 ;
 }
@@ -723,7 +722,7 @@ EnterLastWindowClosingSurvivalArea
 endif
 mRunning
 =
-PR_TRUE
+true
 ;
 nsresult
 rv
@@ -1020,7 +1019,7 @@ NS_OK
 }
 mShuttingDown
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1095,7 +1094,7 @@ mAttemptingQuit
 {
 mAttemptingQuit
 =
-PR_TRUE
+true
 ;
 #
 ifdef
@@ -1315,7 +1314,7 @@ mRunning
 {
 postedExitEvent
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1349,7 +1348,7 @@ rv
 {
 postedExitEvent
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1374,7 +1373,7 @@ postedExitEvent
 )
 mShuttingDown
 =
-PR_FALSE
+false
 ;
 return
 rv
@@ -1691,7 +1690,7 @@ _retval
 *
 aCancel
 =
-PR_FALSE
+false
 ;
 *
 _retval
@@ -1774,7 +1773,6 @@ xulParent
 CreateNewWindow
 (
 aChromeFlags
-mAppShell
 getter_AddRefs
 (
 newWindow
@@ -1841,7 +1839,6 @@ nsIAppShellService
 :
 :
 SIZE_TO_CONTENT
-mAppShell
 getter_AddRefs
 (
 newWindow
@@ -1948,7 +1945,7 @@ forced
 {
 mShuttingDown
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2939,7 +2936,7 @@ ncc
 >
 SetReturnValueWasSet
 (
-PR_TRUE
+true
 )
 ;
 JSContext
@@ -2990,7 +2987,7 @@ ncc
 >
 SetReturnValueWasSet
 (
-PR_TRUE
+true
 )
 ;
 char

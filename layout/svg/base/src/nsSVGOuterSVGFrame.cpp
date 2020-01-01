@@ -425,20 +425,20 @@ mFullZoom
 )
 mViewportInitialized
 (
-PR_FALSE
+false
 )
 #
 ifdef
 XP_MACOSX
 mEnableBitmapFallback
 (
-PR_FALSE
+false
 )
 #
 endif
 mIsRootContent
 (
-PR_FALSE
+false
 )
 {
 }
@@ -559,7 +559,7 @@ mContent
 {
 mIsRootContent
 =
-PR_TRUE
+true
 ;
 }
 doc
@@ -1667,7 +1667,7 @@ newViewportSize
 ;
 mViewportInitialized
 =
-PR_TRUE
+true
 ;
 mFullZoom
 =
@@ -2647,7 +2647,7 @@ ctx
 .
 SetPaintingToWindow
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -2740,7 +2740,7 @@ mEnableBitmapFallback
 {
 mEnableBitmapFallback
 =
-PR_TRUE
+true
 ;
 nsIFrame
 *
@@ -2755,7 +2755,7 @@ flags
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 nsIFrame
@@ -2984,7 +2984,7 @@ if
 svgFrame
 )
 return
-PR_FALSE
+false
 ;
 nsRect
 oldRegion
@@ -3035,7 +3035,7 @@ newRegion
 )
 )
 return
-PR_FALSE
+false
 ;
 Invalidate
 (
@@ -3050,7 +3050,7 @@ newRegion
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -3750,7 +3750,7 @@ frame
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -3767,7 +3767,7 @@ nsnull
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -3814,11 +3814,11 @@ IsBeingUsedAsImage
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }

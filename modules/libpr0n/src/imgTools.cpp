@@ -505,7 +505,7 @@ aScaledHeight
 {
 doScaling
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -589,7 +589,7 @@ imgIContainer
 :
 :
 FRAME_CURRENT
-PR_TRUE
+true
 getter_AddRefs
 (
 frame

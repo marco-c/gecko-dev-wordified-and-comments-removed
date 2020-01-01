@@ -55,7 +55,7 @@ aIsRTL
 *
 aIsRTL
 =
-PR_FALSE
+false
 ;
 Qt
 :
@@ -84,7 +84,7 @@ RightToLeft
 *
 aIsRTL
 =
-PR_TRUE
+true
 ;
 }
 return

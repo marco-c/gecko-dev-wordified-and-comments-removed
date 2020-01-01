@@ -418,11 +418,11 @@ nsTypeAheadFind
 :
 mStartLinksOnlyPref
 (
-PR_FALSE
+false
 )
 mCaretBrowsingOn
 (
-PR_FALSE
+false
 )
 mLastFindLength
 (
@@ -430,7 +430,7 @@ mLastFindLength
 )
 mIsSoundInitialized
 (
-PR_FALSE
+false
 )
 {
 }
@@ -581,7 +581,7 @@ accessibility
 browsewithcaret
 "
 this
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -599,7 +599,7 @@ mFind
 >
 SetCaseSensitive
 (
-PR_FALSE
+false
 )
 ;
 mFind
@@ -1099,7 +1099,7 @@ mSoundInterface
 {
 mIsSoundInitialized
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1691,12 +1691,12 @@ aFindPrev
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 while
 (
-PR_TRUE
+true
 )
 {
 mFind
@@ -1761,7 +1761,7 @@ presShell
 presContext
 returnRange
 aIsFirstVisiblePreferred
-PR_FALSE
+false
 getter_AddRefs
 (
 mStartPointRange
@@ -2059,7 +2059,7 @@ rootContentTreeItem
 )
 shouldFocusEditableElement
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2477,7 +2477,7 @@ docShellEnumerator
 ;
 hasTriedFirstDoc
 =
-PR_TRUE
+true
 ;
 }
 while
@@ -2499,7 +2499,7 @@ startingDocShell
 )
 continueLoop
 =
-PR_TRUE
+true
 ;
 else
 if
@@ -2513,15 +2513,15 @@ aIsFirstVisiblePreferred
 {
 aIsFirstVisiblePreferred
 =
-PR_FALSE
+false
 ;
 hasWrapped
 =
-PR_TRUE
+true
 ;
 continueLoop
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -2960,7 +2960,7 @@ mEndPointRange
 >
 Collapse
 (
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -3043,7 +3043,7 @@ presShell
 presContext
 mSearchRange
 aIsFirstVisiblePreferred
-PR_TRUE
+true
 getter_AddRefs
 (
 mStartPointRange
@@ -3144,7 +3144,7 @@ mStartPointRange
 >
 Collapse
 (
-PR_TRUE
+true
 )
 ;
 *
@@ -3196,12 +3196,12 @@ aIsStartingLink
 *
 aIsInsideLink
 =
-PR_FALSE
+false
 ;
 *
 aIsStartingLink
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -3362,7 +3362,7 @@ index
 *
 aIsStartingLink
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -3401,7 +3401,7 @@ type
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 if
@@ -3490,7 +3490,7 @@ eCaseMatters
 *
 aIsInsideLink
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -3564,7 +3564,7 @@ startContent
 *
 aIsStartingLink
 =
-PR_FALSE
+false
 ;
 }
 startContent
@@ -3575,7 +3575,7 @@ parent
 *
 aIsStartingLink
 =
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -3611,7 +3611,7 @@ FindItNow
 (
 nsnull
 aLinksOnly
-PR_FALSE
+false
 aFindBackwards
 aResult
 )
@@ -3858,7 +3858,7 @@ newStr
 )
 atEnd
 =
-PR_TRUE
+true
 ;
 const
 nsAString
@@ -3903,7 +3903,7 @@ newStr2
 )
 atEnd
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -3931,7 +3931,7 @@ IsEmpty
 {
 mIsSoundInitialized
 =
-PR_TRUE
+true
 ;
 mSoundInterface
 =
@@ -4137,7 +4137,7 @@ fm
 GetFocusedElementForWindow
 (
 window
-PR_FALSE
+false
 getter_AddRefs
 (
 focusedWindow
@@ -4176,7 +4176,7 @@ window
 ;
 isFirstVisiblePreferred
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -4190,7 +4190,7 @@ FindItNow
 nsnull
 aLinksOnly
 isFirstVisiblePreferred
-PR_FALSE
+false
 aResult
 )
 ;
@@ -4468,7 +4468,7 @@ if
 content
 )
 return
-PR_FALSE
+false
 ;
 nsIFrame
 *
@@ -4487,7 +4487,7 @@ if
 frame
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -4505,7 +4505,7 @@ IsVisible
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -4533,7 +4533,7 @@ if
 aMustBeInViewPort
 )
 return
-PR_TRUE
+true
 ;
 PRInt32
 startRangeOffset
@@ -4551,7 +4551,7 @@ startRangeOffset
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 frame
@@ -4669,7 +4669,7 @@ nsRectVisibility_kAboveViewport
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -4707,9 +4707,9 @@ frameTraversal
 aPresContext
 frame
 eLeaf
-PR_FALSE
-PR_FALSE
-PR_FALSE
+false
+false
+false
 )
 ;
 if
@@ -4718,7 +4718,7 @@ if
 frameTraversal
 )
 return
-PR_FALSE
+false
 ;
 while
 (
@@ -4750,7 +4750,7 @@ if
 frame
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -4860,13 +4860,13 @@ aFirstVisibleRange
 >
 Collapse
 (
-PR_TRUE
+true
 )
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 already_AddRefed

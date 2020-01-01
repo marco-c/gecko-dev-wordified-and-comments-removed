@@ -575,7 +575,7 @@ aShouldRollup
 *
 aShouldRollup
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -592,7 +592,7 @@ aShouldRollup
 *
 aShouldRollup
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

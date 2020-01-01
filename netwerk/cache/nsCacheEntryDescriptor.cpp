@@ -1824,7 +1824,7 @@ rv
 ;
 mInitialized
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1998,7 +1998,7 @@ result
 *
 result
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2220,7 +2220,7 @@ stream
 ;
 mInitialized
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2466,7 +2466,7 @@ result
 *
 result
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

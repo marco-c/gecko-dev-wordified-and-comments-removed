@@ -78,7 +78,7 @@ this
 )
 mIncrementScriptLevel
 (
-PR_FALSE
+false
 )
 {
 }

@@ -2168,9 +2168,9 @@ compatMode
 =
 eCompatibility_NavQuirks
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 )
 ;
 nsStyleContext
@@ -2822,7 +2822,7 @@ nsCSSRendering
 FindNonTransparentBackgroundFrame
 (
 aForFrame
-PR_FALSE
+false
 )
 ;
 nsStyleContext
@@ -3966,7 +3966,7 @@ aRootElementFrame
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 *
@@ -4010,7 +4010,7 @@ nsGkAtoms
 body
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -4027,7 +4027,7 @@ GetPseudo
 )
 )
 return
-PR_TRUE
+true
 ;
 nsIDocument
 *
@@ -4046,7 +4046,7 @@ if
 document
 )
 return
-PR_TRUE
+true
 ;
 dom
 :
@@ -4070,7 +4070,7 @@ bodyContent
 content
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -4078,7 +4078,7 @@ if
 aRootElementFrame
 )
 return
-PR_TRUE
+true
 ;
 const
 nsStyleBackground
@@ -4159,7 +4159,7 @@ rootElementFrame
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -4296,7 +4296,7 @@ transparency
 {
 hasBorderRadius
 =
-PR_FALSE
+false
 ;
 nativeTheme
 =
@@ -4313,7 +4313,7 @@ else
 {
 nativeTheme
 =
-PR_FALSE
+false
 ;
 nscoord
 twipsRadii
@@ -5869,7 +5869,7 @@ RoundedRectangle
 (
 shadowGfxRect
 innerRadii
-PR_FALSE
+false
 )
 ;
 else
@@ -5950,7 +5950,7 @@ RoundedRectangle
 (
 shadowClipGfxRect
 clipRectRadii
-PR_FALSE
+false
 )
 ;
 else
@@ -6166,7 +6166,7 @@ aSide
 0
 )
 return
-PR_TRUE
+true
 ;
 switch
 (
@@ -6198,7 +6198,7 @@ break
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -6210,7 +6210,7 @@ GetBorderImage
 )
 )
 return
-PR_FALSE
+false
 ;
 nscolor
 color
@@ -6232,7 +6232,7 @@ if
 isForeground
 )
 return
-PR_FALSE
+false
 ;
 return
 NS_GET_A
@@ -6261,7 +6261,7 @@ aBorder
 mBorderColors
 )
 return
-PR_FALSE
+false
 ;
 NS_FOR_CSS_SIDES
 (
@@ -6278,11 +6278,11 @@ i
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -6455,14 +6455,14 @@ aClipState
 >
 mCustomClip
 =
-PR_FALSE
+false
 ;
 aClipState
 -
 >
 mRadiiAreOuter
 =
-PR_TRUE
+true
 ;
 aClipState
 -
@@ -6605,7 +6605,7 @@ aClipState
 >
 mRadiiAreOuter
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -6840,7 +6840,7 @@ Rectangle
 aClipState
 .
 mDirtyRectGfx
-PR_TRUE
+true
 )
 ;
 aCtx
@@ -6953,7 +6953,7 @@ aCtx
 Rectangle
 (
 dirty
-PR_TRUE
+true
 )
 ;
 aCtx
@@ -7022,11 +7022,11 @@ aDrawBackgroundColor
 {
 aDrawBackgroundImage
 =
-PR_TRUE
+true
 ;
 aDrawBackgroundColor
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -7087,7 +7087,7 @@ bgColor
 )
 aDrawBackgroundColor
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -7121,7 +7121,7 @@ IsTransparent
 )
 aDrawBackgroundColor
 =
-PR_TRUE
+true
 ;
 else
 bgColor
@@ -7961,7 +7961,7 @@ default
 :
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 unknown
 radial
@@ -8562,7 +8562,7 @@ default
 :
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 Unknown
 stop
@@ -9643,7 +9643,7 @@ tileRect
 TopLeft
 (
 )
-PR_TRUE
+true
 )
 ;
 ctx
@@ -10084,7 +10084,7 @@ clipState
 .
 mCustomClip
 =
-PR_TRUE
+true
 ;
 SetupDirtyRects
 (
@@ -10248,7 +10248,7 @@ IsOpaque
 )
 drawBackgroundColor
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -10500,12 +10500,12 @@ IsTransformed
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -14016,7 +14016,7 @@ float
 )
 aStartBevelOffset
 twipsPerPixel
-PR_TRUE
+true
 )
 :
 0
@@ -14041,7 +14041,7 @@ float
 )
 aEndBevelOffset
 twipsPerPixel
-PR_TRUE
+true
 )
 :
 0
@@ -14898,7 +14898,7 @@ NS_STYLE_BORDER_STYLE_INSET
 :
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 inset
 outset
@@ -14919,7 +14919,7 @@ NS_STYLE_BORDER_STYLE_AUTO
 :
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 Unexpected
 '
@@ -15138,7 +15138,7 @@ Save
 ;
 contextIsSaved
 =
-PR_TRUE
+true
 ;
 aGfxContext
 -
@@ -15214,7 +15214,7 @@ Save
 ;
 contextIsSaved
 =
-PR_TRUE
+true
 ;
 aGfxContext
 -
@@ -15329,7 +15329,7 @@ Save
 ;
 contextIsSaved
 =
-PR_TRUE
+true
 ;
 aGfxContext
 -
@@ -16625,7 +16625,7 @@ nsnull
 )
 mIsReady
 (
-PR_FALSE
+false
 )
 mSize
 (
@@ -16732,7 +16732,7 @@ img
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 switch
@@ -16857,7 +16857,7 @@ IsEmpty
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -16962,7 +16962,7 @@ rect
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 mImageContainer
@@ -16976,7 +16976,7 @@ subImage
 }
 mIsReady
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -16995,7 +16995,7 @@ GetGradientData
 ;
 mIsReady
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -17101,7 +17101,7 @@ if
 property
 )
 return
-PR_FALSE
+false
 ;
 mPaintServerFrame
 =
@@ -17152,12 +17152,12 @@ mImageElementSurface
 mSurface
 )
 return
-PR_FALSE
+false
 ;
 }
 mIsReady
 =
-PR_TRUE
+true
 ;
 break
 ;

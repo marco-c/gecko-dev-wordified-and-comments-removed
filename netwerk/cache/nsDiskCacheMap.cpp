@@ -511,7 +511,7 @@ mHeader
 .
 mIsDirty
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -539,7 +539,7 @@ void
 )
 Close
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -591,7 +591,7 @@ rv
 =
 FlushRecords
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -606,7 +606,7 @@ mHeader
 .
 mIsDirty
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -2929,7 +2929,7 @@ void
 )
 CloseBlockFiles
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -3051,7 +3051,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 rv
 =
@@ -3076,11 +3076,11 @@ rv
 exists
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -3311,7 +3311,7 @@ nsDiskCache
 :
 :
 kMetaData
-PR_FALSE
+false
 getter_AddRefs
 (
 file
@@ -4251,7 +4251,7 @@ nsDiskCache
 :
 :
 kMetaData
-PR_TRUE
+true
 getter_AddRefs
 (
 localFile
@@ -4804,7 +4804,7 @@ GetFileForDiskCacheRecord
 (
 record
 metaData
-PR_FALSE
+false
 getter_AddRefs
 (
 file
@@ -4826,7 +4826,7 @@ file
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 }

@@ -470,7 +470,7 @@ if
 nameAttr
 )
 return
-PR_FALSE
+false
 ;
 NS_ASSERTION
 (
@@ -1133,7 +1133,7 @@ AnimationNeedsResample
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -1205,11 +1205,11 @@ aValue
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 }

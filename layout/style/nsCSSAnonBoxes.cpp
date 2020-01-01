@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsCSSAnonBoxes
 .
 h
@@ -33,6 +42,10 @@ nsCRT
 .
 h
 "
+using
+namespace
+mozilla
+;
 #
 define
 CSS_ANON_BOX
@@ -140,7 +153,7 @@ AddRefAtoms
 NS_RegisterStaticAtoms
 (
 CSSAnonBoxes_info
-NS_ARRAY_LENGTH
+ArrayLength
 (
 CSSAnonBoxes_info
 )
@@ -166,7 +179,7 @@ IsMember
 (
 aAtom
 CSSAnonBoxes_info
-NS_ARRAY_LENGTH
+ArrayLength
 (
 CSSAnonBoxes_info
 )

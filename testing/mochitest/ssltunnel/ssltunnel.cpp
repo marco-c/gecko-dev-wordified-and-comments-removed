@@ -1816,21 +1816,21 @@ SSL_OptionSet
 (
 ssl_socket
 SSL_SECURITY
-PR_TRUE
+true
 )
 ;
 SSL_OptionSet
 (
 ssl_socket
 SSL_HANDSHAKE_AS_CLIENT
-PR_FALSE
+false
 )
 ;
 SSL_OptionSet
 (
 ssl_socket
 SSL_HANDSHAKE_AS_SERVER
-PR_TRUE
+true
 )
 ;
 if
@@ -1845,7 +1845,7 @@ SSL_OptionSet
 (
 ssl_socket
 SSL_REQUEST_CERTIFICATE
-PR_TRUE
+true
 )
 ;
 SSL_OptionSet
@@ -1862,7 +1862,7 @@ caRequire
 SSL_ResetHandshake
 (
 ssl_socket
-PR_TRUE
+true
 )
 ;
 return
@@ -2705,7 +2705,7 @@ value
 .
 non_blocking
 =
-PR_TRUE
+true
 ;
 PR_SetSocketOption
 (
@@ -3385,7 +3385,7 @@ socketErrorState
 s
 ]
 =
-PR_TRUE
+true
 ;
 buffers
 [
@@ -3585,7 +3585,7 @@ socketErrorState
 s
 ]
 =
-PR_TRUE
+true
 ;
 buffers
 [
@@ -4360,7 +4360,7 @@ socketErrorState
 s
 ]
 =
-PR_TRUE
+true
 ;
 buffers
 [
@@ -4798,7 +4798,7 @@ value
 .
 reuse_addr
 =
-PR_TRUE
+true
 ;
 PR_SetSocketOption
 (
@@ -4974,7 +4974,7 @@ value
 .
 non_blocking
 =
-PR_TRUE
+true
 ;
 PR_SetSocketOption
 (
@@ -4998,7 +4998,7 @@ PR_QueueJob
 threads
 HandleConnection
 ci
-PR_TRUE
+true
 )
 ;
 else
@@ -7406,7 +7406,7 @@ StartServer
 *
 it
 )
-PR_TRUE
+true
 )
 ;
 }

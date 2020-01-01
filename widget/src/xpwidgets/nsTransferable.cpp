@@ -1329,7 +1329,7 @@ aDataLen
 ;
 found
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1795,7 +1795,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

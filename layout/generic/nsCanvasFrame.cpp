@@ -251,7 +251,7 @@ mDoPaintFocus
 {
 mDoPaintFocus
 =
-PR_FALSE
+false
 ;
 PresContext
 (
@@ -354,7 +354,7 @@ this
 ;
 mAddedScrollPositionListener
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1888,7 +1888,7 @@ mFlags
 .
 mVResize
 =
-PR_TRUE
+true
 ;
 }
 nsPoint

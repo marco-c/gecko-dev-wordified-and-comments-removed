@@ -338,11 +338,11 @@ s
 0x80
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 int

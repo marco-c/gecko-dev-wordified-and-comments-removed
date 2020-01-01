@@ -855,7 +855,7 @@ aIsSelected
 *
 aIsSelected
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1237,7 +1237,7 @@ nsIAccessible
 (
 headerCell
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -2772,7 +2772,7 @@ nsIAccessible
 (
 cell
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -3020,7 +3020,7 @@ states
 index
 ]
 =
-PR_TRUE
+true
 ;
 (
 *
@@ -3037,7 +3037,7 @@ states
 index
 ]
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -4209,7 +4209,7 @@ aIsSelected
 *
 aIsSelected
 =
-PR_FALSE
+false
 ;
 PRInt32
 colCount
@@ -4343,7 +4343,7 @@ aIsSelected
 *
 aIsSelected
 =
-PR_FALSE
+false
 ;
 PRInt32
 rowCount
@@ -4479,7 +4479,7 @@ aIsSelected
 *
 aIsSelected
 =
-PR_FALSE
+false
 ;
 nsITableLayout
 *
@@ -4580,7 +4580,7 @@ nsISelectionPrivate
 :
 :
 TABLESELECTION_ROW
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4629,7 +4629,7 @@ nsISelectionPrivate
 :
 :
 TABLESELECTION_COLUMN
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4676,7 +4676,7 @@ nsISelectionPrivate
 :
 :
 TABLESELECTION_ROW
-PR_FALSE
+false
 )
 ;
 }
@@ -4707,7 +4707,7 @@ nsISelectionPrivate
 :
 :
 TABLESELECTION_COLUMN
-PR_FALSE
+false
 )
 ;
 }
@@ -5417,7 +5417,7 @@ mContent
 NS_ENSURE_TRUE
 (
 tableElt
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -5441,7 +5441,7 @@ nodeList
 NS_ENSURE_TRUE
 (
 nodeList
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -5468,14 +5468,14 @@ if
 foundItem
 )
 return
-PR_FALSE
+false
 ;
 if
 (
 aAllowEmpty
 )
 return
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -5500,7 +5500,7 @@ GetChildCount
 1
 )
 return
-PR_TRUE
+true
 ;
 nsIContent
 *
@@ -5528,7 +5528,7 @@ TextIsOnlyWhitespace
 )
 )
 return
-PR_TRUE
+true
 ;
 nodeList
 -
@@ -6464,7 +6464,7 @@ rowCount
 0
 &
 &
-PR_FALSE
+false
 =
 =
 lastRowColor

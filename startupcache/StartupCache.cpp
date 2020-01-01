@@ -415,7 +415,7 @@ NULL
 )
 mStartupWriteInitiated
 (
-PR_FALSE
+false
 )
 mWriteThread
 (
@@ -553,7 +553,7 @@ NS_ConvertUTF8toUTF16
 (
 env
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 mFile
@@ -732,7 +732,7 @@ AddObserver
 (
 mListener
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -754,7 +754,7 @@ startupcache
 -
 invalidate
 "
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1449,7 +1449,7 @@ rv
 hasEntry
 =
 =
-PR_FALSE
+false
 "
 Existing
 entry
@@ -1474,9 +1474,9 @@ holder
 -
 >
 time
-PR_TRUE
+true
 stream
-PR_FALSE
+false
 )
 ;
 if
@@ -1520,7 +1520,7 @@ rv
 ;
 mStartupWriteInitiated
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1912,7 +1912,7 @@ StartupCache
 :
 gShutdownInitiated
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2013,7 +2013,7 @@ ResetStartupWriteTimer
 {
 mStartupWriteInitiated
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -2129,7 +2129,7 @@ nsIClassInfo
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 PRUint32
@@ -2149,7 +2149,7 @@ flags
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 if
@@ -2162,7 +2162,7 @@ nsIClassInfo
 SINGLETON
 )
 return
-PR_TRUE
+true
 ;
 nsISupportsHashKey
 *
@@ -2208,7 +2208,7 @@ that
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 mObjectMap
@@ -2220,7 +2220,7 @@ aObject
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult

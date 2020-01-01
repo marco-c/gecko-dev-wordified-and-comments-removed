@@ -203,7 +203,7 @@ IsAnimVal
 (
 )
 :
-PR_FALSE
+false
 ;
 }
 nsRefPtr

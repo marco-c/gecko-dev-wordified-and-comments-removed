@@ -754,9 +754,9 @@ mData
 flag
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 }
 private
@@ -956,7 +956,7 @@ IsFullyResolved
 (
 )
 ?
-PR_TRUE
+true
 :
 Resolve
 (
@@ -1364,7 +1364,7 @@ IsFullyResolved
 (
 )
 ?
-PR_TRUE
+true
 :
 ResolveLocked
 (

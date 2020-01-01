@@ -220,10 +220,10 @@ enum
 {
 DELETE_ENTRY
 =
-PR_TRUE
+true
 DO_NOT_DELETE_ENTRY
 =
-PR_FALSE
+false
 }
 ;
 void

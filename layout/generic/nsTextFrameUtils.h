@@ -399,10 +399,10 @@ LengthMode
 {
 LENGTH_UNSKIPPED_ONLY
 =
-PR_FALSE
+false
 LENGTH_INCLUDES_SKIPPED
 =
-PR_TRUE
+true
 }
 ;
 nsSkipCharsRunIterator
@@ -431,7 +431,7 @@ mRunLength
 )
 mVisitSkipped
 (
-PR_FALSE
+false
 )
 mLengthIncludesSkipped
 (
@@ -446,7 +446,7 @@ SetVisitSkipped
 {
 mVisitSkipped
 =
-PR_TRUE
+true
 ;
 }
 void

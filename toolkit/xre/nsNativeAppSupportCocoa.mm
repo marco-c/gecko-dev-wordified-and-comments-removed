@@ -723,7 +723,7 @@ nsNativeAppSupportCocoa
 :
 mCanShowUI
 (
-PR_FALSE
+false
 )
 {
 }
@@ -762,7 +762,7 @@ Enable
 {
 mCanShowUI
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -826,7 +826,7 @@ supported
 if
 not
 return
-PR_FALSE
+false
 /
 /
 which
@@ -929,13 +929,13 @@ met
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1088,7 +1088,7 @@ else
 {
 haveOpenWindows
 =
-PR_TRUE
+true
 ;
 }
 nsCOMPtr
@@ -1155,7 +1155,7 @@ isMiniaturized
 {
 haveNonMiniaturized
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1248,7 +1248,7 @@ nil
 ;
 done
 =
-PR_TRUE
+true
 ;
 }
 }

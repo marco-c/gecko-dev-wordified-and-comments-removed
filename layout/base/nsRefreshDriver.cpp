@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsRefreshDriver
 .
 h
@@ -134,7 +143,7 @@ frame_rate
 .
 precise
 "
-PR_FALSE
+false
 )
 ;
 }
@@ -741,7 +750,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 mObservers
 )
@@ -886,7 +895,7 @@ default
 :
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 bad
 flush
@@ -1034,7 +1043,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 mObservers
 )
@@ -1238,7 +1247,7 @@ i
 nsEvent
 ev
 (
-PR_TRUE
+true
 NS_BEFOREPAINT
 )
 ;
@@ -1397,7 +1406,7 @@ FrameConstructor
 >
 mObservingRefreshDriver
 =
-PR_FALSE
+false
 ;
 shell
 -
@@ -1521,14 +1530,14 @@ shell
 >
 mReflowScheduled
 =
-PR_FALSE
+false
 ;
 shell
 -
 >
 mSuppressInterruptibleReflows
 =
-PR_FALSE
+false
 ;
 shell
 -

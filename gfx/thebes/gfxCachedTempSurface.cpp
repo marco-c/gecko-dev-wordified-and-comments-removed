@@ -372,7 +372,7 @@ nsnull
 ;
 cleared
 =
-PR_TRUE
+true
 ;
 #
 ifdef

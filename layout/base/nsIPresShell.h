@@ -1495,7 +1495,7 @@ DisableThemeSupport
 {
 mIsThemeSupportDisabled
 =
-PR_TRUE
+true
 ;
 }
 bool

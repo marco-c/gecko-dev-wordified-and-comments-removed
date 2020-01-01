@@ -222,7 +222,7 @@ AddObserver
 (
 kPrefCookieBehavior
 this
-PR_TRUE
+true
 )
 ;
 prefBranch
@@ -232,7 +232,7 @@ AddObserver
 (
 kPrefThirdPartySession
 this
-PR_TRUE
+true
 )
 ;
 PrefChanged

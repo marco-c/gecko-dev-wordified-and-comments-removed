@@ -667,37 +667,37 @@ mBits
 .
 mHaveReflowedColGroups
 =
-PR_FALSE
+false
 ;
 mBits
 .
 mCellSpansPctCol
 =
-PR_FALSE
+false
 ;
 mBits
 .
 mNeedToCalcBCBorders
 =
-PR_FALSE
+false
 ;
 mBits
 .
 mIsBorderCollapse
 =
-PR_FALSE
+false
 ;
 mBits
 .
 mResizedColumns
 =
-PR_FALSE
+false
 ;
 mBits
 .
 mGeometryDirty
 =
-PR_FALSE
+false
 ;
 }
 NS_QUERYFRAME_HEAD
@@ -1164,7 +1164,7 @@ aSourceFrame
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -1900,7 +1900,7 @@ GetRowSpan
 (
 rowIndex
 colIndex
-PR_TRUE
+true
 )
 ;
 else
@@ -2401,7 +2401,7 @@ cgFrame
 AddColsToTable
 (
 colIndex
-PR_FALSE
+false
 colGroups
 .
 get
@@ -2628,7 +2628,7 @@ RemoveChild
 (
 *
 lastCol
-PR_FALSE
+false
 )
 ;
 if
@@ -2659,7 +2659,7 @@ lastColGroup
 }
 removedFromCache
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3045,7 +3045,7 @@ AppendAnonymousColFrames
 colGroupFrame
 aNumColsToAdd
 eColAnonymousCell
-PR_TRUE
+true
 )
 ;
 }
@@ -3333,7 +3333,7 @@ aColGroupFrame
 AddColsToTable
 (
 startColIndex
-PR_TRUE
+true
 newCols
 )
 ;
@@ -3431,7 +3431,7 @@ HasZeroColSpans
 {
 SetNeedColSpanExpansion
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -3520,7 +3520,7 @@ mBits
 .
 mResizedColumns
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -3565,7 +3565,7 @@ AppendCell
 (
 aCellFrame
 aRowIndex
-PR_TRUE
+true
 damageArea
 )
 ;
@@ -3767,15 +3767,15 @@ RemoveChild
 (
 *
 colFrame
-PR_FALSE
+false
 )
 ;
 RemoveCol
 (
 nsnull
 colX
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 numColsRemoved
@@ -3994,7 +3994,7 @@ InsertRows
 aRowGroupFrame
 aRowFrames
 absRowIndex
-PR_TRUE
+true
 )
 ;
 }
@@ -4043,9 +4043,9 @@ aRowIndex
 ;
 Dump
 (
-PR_TRUE
-PR_FALSE
-PR_TRUE
+true
+false
+true
 )
 ;
 #
@@ -4196,9 +4196,9 @@ n
 ;
 Dump
 (
-PR_TRUE
-PR_FALSE
-PR_TRUE
+true
+false
+true
 )
 ;
 #
@@ -4295,7 +4295,7 @@ cellFrame
 GetMaximumWidth
 (
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -4338,9 +4338,9 @@ aNumRowsToRemove
 ;
 Dump
 (
-PR_TRUE
-PR_FALSE
-PR_TRUE
+true
+false
+true
 )
 ;
 #
@@ -4421,9 +4421,9 @@ n
 ;
 Dump
 (
-PR_TRUE
-PR_TRUE
-PR_TRUE
+true
+true
+true
 )
 ;
 #
@@ -4541,9 +4541,9 @@ n
 ;
 Dump
 (
-PR_TRUE
-PR_FALSE
-PR_TRUE
+true
+false
+true
 )
 ;
 #
@@ -4828,7 +4828,7 @@ rgIndex
 ]
 rows
 rowIndex
-PR_TRUE
+true
 )
 ;
 rows
@@ -4861,9 +4861,9 @@ n
 ;
 Dump
 (
-PR_TRUE
-PR_TRUE
-PR_TRUE
+true
+true
+true
 )
 ;
 #
@@ -4949,7 +4949,7 @@ return
 mFrame
 -
 >
-GetVisualOverflowRect
+GetVisualOverflowRectRelativeToSelf
 (
 )
 +
@@ -4978,7 +4978,7 @@ if
 mPartHasFixedBackground
 )
 return
-PR_FALSE
+false
 ;
 return
 mFrame
@@ -5052,7 +5052,7 @@ return
 ;
 mPartHasFixedBackground
 =
-PR_TRUE
+true
 ;
 }
 class
@@ -5808,7 +5808,7 @@ HasBorder
 )
 )
 return
-PR_TRUE
+true
 ;
 nsTableCellFrame
 *
@@ -5843,11 +5843,11 @@ nsnull
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -5936,7 +5936,7 @@ DisplayBackgroundUnconditional
 (
 aBuilder
 aLists
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -6602,7 +6602,7 @@ aNewHeight
 {
 SetRowInserted
 (
-PR_FALSE
+false
 )
 ;
 nsTableFrame
@@ -6701,7 +6701,7 @@ rowFrame
 >
 SetFirstInserted
 (
-PR_FALSE
+false
 )
 ;
 nscoord
@@ -6747,7 +6747,7 @@ damageRect
 ;
 SetRowInserted
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -6882,7 +6882,7 @@ LayoutStrategy
 GetPrefWidth
 (
 aRenderingContext
-PR_FALSE
+false
 )
 ;
 }
@@ -7079,7 +7079,7 @@ LayoutStrategy
 GetPrefWidth
 (
 aRenderingContext
-PR_TRUE
+true
 )
 ;
 if
@@ -7274,7 +7274,7 @@ IsCalcUnit
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -7309,17 +7309,17 @@ eStyleUnit_Auto
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 else
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -7677,7 +7677,7 @@ mTableLayoutStrategy
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 strategy
 should
@@ -7741,7 +7741,7 @@ false
 ;
 SetHaveReflowedColGroups
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -7856,7 +7856,7 @@ NS_UNCONSTRAINEDSIZE
 {
 needToInitiateSpecialReflow
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -7918,7 +7918,7 @@ NS_FRAME_CONTAINS_RELATIVE_HEIGHT
 )
 needToInitiateSpecialReflow
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -7956,7 +7956,7 @@ mFlags
 .
 mSpecialHeightReflow
 =
-PR_TRUE
+true
 ;
 ReflowTable
 (
@@ -8015,7 +8015,7 @@ YMost
 }
 haveDesiredHeight
 =
-PR_TRUE
+true
 ;
 mutable_rs
 .
@@ -8023,7 +8023,7 @@ mFlags
 .
 mSpecialHeightReflow
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -8687,7 +8687,7 @@ yTotalOffset
 ;
 SetNeedToCollapse
 (
-PR_FALSE
+false
 )
 ;
 RowGroupArray
@@ -9075,7 +9075,7 @@ else
 {
 SetNeedToCollapse
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -9449,9 +9449,9 @@ n
 ;
 Dump
 (
-PR_TRUE
-PR_TRUE
-PR_TRUE
+true
+true
+true
 )
 ;
 #
@@ -10195,9 +10195,9 @@ n
 ;
 Dump
 (
-PR_TRUE
-PR_TRUE
-PR_TRUE
+true
+true
+true
 )
 ;
 #
@@ -10359,8 +10359,8 @@ RemoveCol
 (
 colGroup
 colX
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 }
@@ -10487,7 +10487,7 @@ nsnull
 nsnull
 0
 0
-PR_FALSE
+false
 damageArea
 )
 ;
@@ -10576,9 +10576,9 @@ n
 ;
 Dump
 (
-PR_TRUE
-PR_TRUE
-PR_TRUE
+true
+true
+true
 )
 ;
 #
@@ -11237,7 +11237,7 @@ mFlags
 .
 mHResize
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -11853,7 +11853,7 @@ NS_UNCONSTRAINEDSIZE
 1
 -
 1
-PR_FALSE
+false
 )
 ;
 InitChildReflowState
@@ -11867,7 +11867,7 @@ mFlags
 .
 mIsTopOfPage
 =
-PR_TRUE
+true
 ;
 nsHTMLReflowMetrics
 desiredSize
@@ -11986,7 +11986,7 @@ kidAvailSize
 1
 -
 1
-PR_FALSE
+false
 )
 ;
 InitChildReflowState
@@ -12381,7 +12381,7 @@ tfoot
 >
 SetRepeatable
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -12408,7 +12408,7 @@ availSize
 ;
 allowRepeatedFooter
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -12498,7 +12498,7 @@ height
 {
 allowRepeatedFooter
 =
-PR_TRUE
+true
 ;
 kidAvailSize
 .
@@ -12558,7 +12558,7 @@ kidAvailSize
 1
 -
 1
-PR_FALSE
+false
 )
 ;
 InitChildReflowState
@@ -12606,7 +12606,7 @@ mFlags
 .
 mIsTopOfPage
 =
-PR_FALSE
+false
 ;
 }
 aReflowState
@@ -12654,7 +12654,7 @@ GetNextInFlow
 )
 reorder
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -12827,7 +12827,7 @@ tfoot
 >
 SetRepeatable
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -12891,7 +12891,7 @@ tfoot
 >
 SetRepeatable
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -12955,7 +12955,7 @@ kidFrame
 ;
 pageBreak
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -13148,7 +13148,7 @@ tfoot
 >
 SetRepeatable
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -13298,7 +13298,7 @@ mBits
 .
 mResizedColumns
 =
-PR_FALSE
+false
 ;
 ClearGeometryDirty
 (
@@ -13419,7 +13419,7 @@ kidMet
 }
 SetHaveReflowedColGroups
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -13455,7 +13455,7 @@ cellMap
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 never
 ever
@@ -14399,7 +14399,7 @@ InvalidateFrame
 rgFrame
 origRgRect
 origRgVisualOverflow
-PR_FALSE
+false
 )
 ;
 }
@@ -14765,7 +14765,7 @@ eligibleRows
 {
 expandEmptyRows
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -15132,7 +15132,7 @@ InvalidateFrame
 rowFrame
 rowRect
 rowVisualOverflow
-PR_FALSE
+false
 )
 ;
 }
@@ -15274,7 +15274,7 @@ InvalidateFrame
 rgFrame
 rgRect
 rgVisualOverflow
-PR_FALSE
+false
 )
 ;
 }
@@ -15860,7 +15860,7 @@ mLayoutStrategy
 NS_STYLE_TABLE_LAYOUT_AUTO
 )
 return
-PR_TRUE
+true
 ;
 const
 nsStyleCoord
@@ -16742,7 +16742,7 @@ nsnull
 ;
 mLeftToRight
 =
-PR_TRUE
+true
 ;
 mCount
 =
@@ -17092,7 +17092,7 @@ aColSpan
 ;
 aIsSelected
 =
-PR_FALSE
+false
 ;
 nsTableCellMap
 *
@@ -17511,7 +17511,7 @@ nsITableLayoutStrategy
 Fixed
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -17521,7 +17521,7 @@ aColIndex
 0
 )
 return
-PR_TRUE
+true
 ;
 nsTableCellMap
 *
@@ -17537,7 +17537,7 @@ if
 cellMap
 )
 return
-PR_FALSE
+false
 ;
 return
 cellMap
@@ -17630,7 +17630,7 @@ aNumRows
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 invalid
 BC
@@ -17717,7 +17717,7 @@ IsBorderCollapse
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 invalid
 call
@@ -17734,7 +17734,7 @@ return
 }
 SetNeedToCalcBCBorders
 (
-PR_TRUE
+true
 )
 ;
 FrameProperties
@@ -18384,7 +18384,7 @@ mCgAtLeft
 =
 mCgAtRight
 =
-PR_FALSE
+false
 ;
 }
 inline
@@ -18724,7 +18724,7 @@ mRowGroups
 ;
 mAtEnd
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -18977,7 +18977,7 @@ else
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 error
 in
@@ -19236,7 +19236,7 @@ aRow
 {
 mAtEnd
 =
-PR_TRUE
+true
 ;
 mPrevRow
 =
@@ -19308,7 +19308,7 @@ Length
 )
 ABORT1
 (
-PR_FALSE
+false
 )
 ;
 const
@@ -19378,7 +19378,7 @@ AppendCell
 mTableCellMap
 nsnull
 rgRowIndex
-PR_FALSE
+false
 damageArea
 )
 ;
@@ -19389,7 +19389,7 @@ cellData
 )
 ABORT1
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -19422,17 +19422,17 @@ break
 }
 mIsNewRow
 =
-PR_TRUE
+true
 ;
 mAtEnd
 =
-PR_FALSE
+false
 ;
 }
 else
 ABORT1
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -19452,7 +19452,7 @@ aFindFirstDamagedRow
 {
 mAtEnd
 =
-PR_TRUE
+true
 ;
 PRInt32
 numRowGroups
@@ -19541,7 +19541,7 @@ mCellMap
 )
 ABORT1
 (
-PR_FALSE
+false
 )
 ;
 nsTableRowFrame
@@ -19628,7 +19628,7 @@ firstRow
 )
 ABORT1
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -19677,7 +19677,7 @@ ResetCellInfo
 ;
 SetNewRowGroup
 (
-PR_TRUE
+true
 )
 ;
 while
@@ -19808,7 +19808,7 @@ incorrectly
 }
 SetNewRowGroup
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -19840,7 +19840,7 @@ ResetCellInfo
 ;
 mIsNewRow
 =
-PR_FALSE
+false
 ;
 mColIndex
 +
@@ -19930,7 +19930,7 @@ AppendCell
 mTableCellMap
 nsnull
 rgRowIndex
-PR_FALSE
+false
 damageArea
 )
 )
@@ -19992,7 +19992,7 @@ mRowGroupEnd
 {
 SetNewRowGroup
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -20006,7 +20006,7 @@ SetNewRow
 }
 mAtEnd
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -20111,7 +20111,7 @@ AppendCell
 mTableCellMap
 nsnull
 rgRowIndex
-PR_FALSE
+false
 damageArea
 )
 )
@@ -20446,7 +20446,7 @@ AppendCell
 mTableCellMap
 nsnull
 rgRowIndex
-PR_FALSE
+false
 damageArea
 )
 )
@@ -20535,7 +20535,7 @@ styleToPriority
 #
 define
 CELL_CORNER
-PR_TRUE
+true
 static
 void
 GetColorAndStyle
@@ -20983,7 +20983,7 @@ if
 oldStyleData
 )
 return
-PR_FALSE
+false
 ;
 const
 nsStyleBorder
@@ -21015,7 +21015,7 @@ if
 change
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -21024,7 +21024,7 @@ change
 nsChangeHint_ReflowFrame
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -21051,11 +21051,11 @@ evt
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -21104,9 +21104,9 @@ firstDominates
 aIsCorner
 )
 ?
-PR_FALSE
+false
 :
-PR_TRUE
+true
 ;
 }
 else
@@ -21126,9 +21126,9 @@ firstDominates
 aIsCorner
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 }
 else
@@ -21145,7 +21145,7 @@ width
 {
 firstDominates
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -21180,7 +21180,7 @@ style
 {
 firstDominates
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -21234,7 +21234,7 @@ owner
 {
 firstDominates
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -21410,7 +21410,7 @@ CompareBorders
 CELL_CORNER
 border
 tempBorder
-PR_FALSE
+false
 )
 ;
 if
@@ -21473,7 +21473,7 @@ CompareBorders
 CELL_CORNER
 border
 tempBorder
-PR_FALSE
+false
 )
 ;
 if
@@ -21535,7 +21535,7 @@ CompareBorders
 CELL_CORNER
 border
 tempBorder
-PR_FALSE
+false
 )
 ;
 if
@@ -21597,7 +21597,7 @@ CompareBorders
 CELL_CORNER
 border
 tempBorder
-PR_FALSE
+false
 )
 ;
 if
@@ -21656,7 +21656,7 @@ CompareBorders
 CELL_CORNER
 border
 tempBorder
-PR_FALSE
+false
 )
 ;
 }
@@ -23174,7 +23174,7 @@ IsRowSpan
 {
 haveSpanner
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -23277,7 +23277,7 @@ IsRowSpan
 {
 haveSpanner
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -23492,7 +23492,7 @@ IsColSpan
 {
 haveSpanner
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -23536,7 +23536,7 @@ IsColSpan
 {
 haveSpanner
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -23615,11 +23615,11 @@ dStartY
 #
 define
 ADJACENT
-PR_TRUE
+true
 #
 define
 HORIZONTAL
-PR_TRUE
+true
 void
 BCMapCellInfo
 :
@@ -24128,7 +24128,7 @@ currentBorder
 =
 CompareBorders
 (
-PR_FALSE
+false
 currentBorder
 adjacentBorder
 HORIZONTAL
@@ -25191,7 +25191,7 @@ tableBorderReset
 sideX
 ]
 =
-PR_FALSE
+false
 ;
 }
 BCCellBorders
@@ -25361,7 +25361,7 @@ IsNewRow
 {
 gotRowBorder
 =
-PR_FALSE
+false
 ;
 lastTopBorder
 .
@@ -25480,7 +25480,7 @@ mRowSpan
 ;
 bottomRowSpan
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -25515,7 +25515,7 @@ tableBorderReset
 NS_SIDE_TOP
 ]
 =
-PR_TRUE
+true
 ;
 }
 for
@@ -25777,7 +25777,7 @@ data
 .
 SetTopStart
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -25815,7 +25815,7 @@ tableBorderReset
 NS_SIDE_LEFT
 ]
 =
-PR_TRUE
+true
 ;
 }
 info
@@ -26050,7 +26050,7 @@ tableBorderReset
 NS_SIDE_RIGHT
 ]
 =
-PR_TRUE
+true
 ;
 }
 info
@@ -26776,7 +26776,7 @@ trCorner
 -
 >
 subWidth
-PR_FALSE
+false
 )
 ;
 }
@@ -26915,7 +26915,7 @@ tableBorderReset
 NS_SIDE_BOTTOM
 ]
 =
-PR_TRUE
+true
 ;
 }
 for
@@ -27080,7 +27080,7 @@ subWidth
 brCorner
 .
 bevel
-PR_TRUE
+true
 )
 ;
 }
@@ -27398,7 +27398,7 @@ GetCellEndRowIndex
 {
 update
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -27432,7 +27432,7 @@ currentBorder
 ;
 update
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -27591,7 +27591,7 @@ ownerSide
 corner
 .
 subWidth
-PR_FALSE
+false
 )
 ;
 }
@@ -27834,7 +27834,7 @@ mTopRow
 ;
 gotRowBorder
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -28006,7 +28006,7 @@ GetCellEndColIndex
 }
 SetNeedToCalcBCBorders
 (
-PR_FALSE
+false
 )
 ;
 propData
@@ -29114,7 +29114,7 @@ fifRow
 )
 ABORT1
 (
-PR_FALSE
+false
 )
 ;
 endRowIndex
@@ -29130,7 +29130,7 @@ GetRowIndex
 else
 done
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -29183,7 +29183,7 @@ fifRow
 )
 ABORT1
 (
-PR_FALSE
+false
 )
 ;
 startRowIndex
@@ -29199,7 +29199,7 @@ GetRowIndex
 ;
 haveIntersect
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -29232,11 +29232,11 @@ if
 haveIntersect
 )
 return
-PR_FALSE
+false
 ;
 haveIntersect
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -29246,7 +29246,7 @@ if
 mNumTableCols
 )
 return
-PR_FALSE
+false
 ;
 PRInt32
 leftCol
@@ -29356,7 +29356,7 @@ colFrame
 )
 ABORT1
 (
-PR_FALSE
+false
 )
 ;
 nscoord
@@ -29463,7 +29463,7 @@ colX
 ;
 haveIntersect
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -29558,7 +29558,7 @@ colFrame
 )
 ABORT1
 (
-PR_FALSE
+false
 )
 ;
 nsSize
@@ -29588,7 +29588,7 @@ if
 haveIntersect
 )
 return
-PR_FALSE
+false
 ;
 mDamageArea
 =
@@ -29636,10 +29636,10 @@ if
 mVerInfo
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -29652,7 +29652,7 @@ Reset
 {
 mAtEnd
 =
-PR_TRUE
+true
 ;
 mRg
 =
@@ -30046,7 +30046,7 @@ mRow
 {
 mIsNewRow
 =
-PR_TRUE
+true
 ;
 mRowIndex
 =
@@ -30082,7 +30082,7 @@ else
 {
 mAtEnd
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -30104,11 +30104,11 @@ mRgIndex
 ;
 mIsRepeatedHeader
 =
-PR_FALSE
+false
 ;
 mIsRepeatedFooter
 =
-PR_FALSE
+false
 ;
 NS_ASSERTION
 (
@@ -30231,7 +30231,7 @@ mCellMap
 )
 ABORT1
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -30313,7 +30313,7 @@ else
 {
 mAtEnd
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -30360,7 +30360,7 @@ ABORT0
 ;
 mAtEnd
 =
-PR_FALSE
+false
 ;
 PRUint32
 numRowGroups
@@ -30499,7 +30499,7 @@ return
 }
 mAtEnd
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -30520,7 +30520,7 @@ ABORT0
 ;
 mIsNewRow
 =
-PR_FALSE
+false
 ;
 mColIndex
 +
@@ -30597,7 +30597,7 @@ else
 {
 mAtEnd
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -31060,7 +31060,7 @@ CalcVerCornerOffset
 ownerSide
 cornerSubWidth
 maxHorSegHeight
-PR_TRUE
+true
 topBevel
 )
 ;
@@ -31348,7 +31348,7 @@ mWidth
 ?
 bevel
 :
-PR_FALSE
+false
 ;
 mBottomHorSegHeight
 =
@@ -31367,7 +31367,7 @@ CalcVerCornerOffset
 ownerSide
 cornerSubWidth
 mBottomHorSegHeight
-PR_FALSE
+false
 mIsBottomBevel
 )
 ;
@@ -31640,7 +31640,7 @@ eAjaRowOwner
 :
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 program
 error
@@ -32034,7 +32034,7 @@ CalcHorCornerOffset
 cornerOwnerSide
 cornerSubWidth
 maxVerSegWidth
-PR_TRUE
+true
 leftBevel
 aIter
 .
@@ -32227,7 +32227,7 @@ CalcHorCornerOffset
 ownerSide
 cornerSubWidth
 verWidth
-PR_FALSE
+false
 mIsRightBevel
 aIter
 .

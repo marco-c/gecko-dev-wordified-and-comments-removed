@@ -96,7 +96,7 @@ h
 #
 include
 "
-nsIDOMNSHTMLFrameElement
+nsIDOMHTMLFrameElement
 .
 h
 "
@@ -845,7 +845,7 @@ xpcom
 -
 shutdown
 "
-PR_TRUE
+true
 )
 ;
 }
@@ -921,8 +921,8 @@ browsewithcaret
 {
 UpdateCaret
 (
-PR_FALSE
-PR_TRUE
+false
+true
 mFocusedContent
 )
 ;
@@ -1719,8 +1719,8 @@ SetFocusInner
 (
 frameContent
 0
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 }
@@ -1977,8 +1977,8 @@ SetFocusInner
 (
 newFocus
 aFlags
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 return
@@ -2301,7 +2301,7 @@ aType
 !
 =
 MOVEFOCUS_CARET
-PR_TRUE
+true
 )
 ;
 CallQueryInterface
@@ -2444,7 +2444,7 @@ Blur
 window
 nsnull
 isAncestor
-PR_TRUE
+true
 )
 )
 {
@@ -2457,10 +2457,10 @@ Focus
 window
 nsnull
 0
-PR_TRUE
-PR_FALSE
-PR_FALSE
-PR_TRUE
+true
+false
+false
+true
 )
 ;
 }
@@ -3127,7 +3127,7 @@ baseWindow
 >
 SetVisibility
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -3136,7 +3136,7 @@ window
 >
 ActivateOrDeactivate
 (
-PR_TRUE
+true
 )
 ;
 nsCOMPtr
@@ -3168,8 +3168,8 @@ NS_LITERAL_STRING
 activate
 "
 )
-PR_TRUE
-PR_TRUE
+true
+true
 nsnull
 )
 ;
@@ -3188,7 +3188,7 @@ currentFocus
 GetFocusedDescendant
 (
 window
-PR_TRUE
+true
 getter_AddRefs
 (
 currentWindow
@@ -3269,7 +3269,7 @@ frameSelection
 >
 SetMouseDownState
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -3278,10 +3278,10 @@ Focus
 currentWindow
 currentFocus
 0
-PR_TRUE
-PR_FALSE
-PR_TRUE
-PR_TRUE
+true
+false
+true
+true
 )
 ;
 return
@@ -3515,7 +3515,7 @@ window
 >
 ActivateOrDeactivate
 (
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -3547,8 +3547,8 @@ NS_LITERAL_STRING
 deactivate
 "
 )
-PR_TRUE
-PR_TRUE
+true
+true
 nsnull
 )
 ;
@@ -3568,8 +3568,8 @@ Blur
 (
 nsnull
 nsnull
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 mWindowBeingLowered
@@ -3797,7 +3797,7 @@ NotifyFocusStateChange
 (
 aContent
 shouldShowFocusRing
-PR_FALSE
+false
 )
 ;
 }
@@ -4031,7 +4031,7 @@ currentFocus
 GetFocusedDescendant
 (
 window
-PR_TRUE
+true
 getter_AddRefs
 (
 currentWindow
@@ -4047,10 +4047,10 @@ Focus
 currentWindow
 currentFocus
 0
-PR_TRUE
-PR_FALSE
-PR_FALSE
-PR_TRUE
+true
+false
+false
+true
 )
 ;
 }
@@ -4356,7 +4356,7 @@ mFocusedWindow
 ShouldShowFocusRing
 (
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -4425,7 +4425,7 @@ FOCUS_REMOVED
 SetCaretVisible
 (
 presShell
-PR_FALSE
+false
 nsnull
 )
 ;
@@ -4697,7 +4697,7 @@ presShell
 aDocument
 target
 0
-PR_FALSE
+false
 )
 ;
 -
@@ -4730,8 +4730,8 @@ SetFocusInner
 (
 aContent
 0
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 return
@@ -4916,7 +4916,7 @@ widget
 >
 SetFocus
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -4986,7 +4986,7 @@ contentToFocus
 GetFocusedDescendant
 (
 subWindow
-PR_TRUE
+true
 getter_AddRefs
 (
 newWindow
@@ -4995,7 +4995,7 @@ newWindow
 ;
 aFocusChanged
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -5593,7 +5593,7 @@ aFlags
 !
 isElementInFocusedWindow
 aFocusChanged
-PR_FALSE
+false
 aAdjustWidget
 )
 ;
@@ -5607,7 +5607,7 @@ allowFrameSwitch
 AdjustWindowFocus
 (
 newWindow
-PR_TRUE
+true
 )
 ;
 PRUint32
@@ -5791,7 +5791,7 @@ dsti
 ancestordsti
 )
 return
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -5819,7 +5819,7 @@ parentDsti
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 already_AddRefed
@@ -6252,7 +6252,7 @@ if
 aWindow
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -6285,7 +6285,7 @@ if
 baseWin
 )
 return
-PR_FALSE
+false
 ;
 bool
 visible
@@ -6764,7 +6764,7 @@ mFocusedContent
 nsnull
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -6775,7 +6775,7 @@ content
 mFirstBlurEvent
 )
 return
-PR_TRUE
+true
 ;
 }
 nsCOMPtr
@@ -6797,7 +6797,7 @@ mFocusedContent
 nsnull
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsCOMPtr
@@ -6824,7 +6824,7 @@ mFocusedContent
 nsnull
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsCOMPtr
@@ -6855,7 +6855,7 @@ mFocusedContent
 nsnull
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -6875,7 +6875,7 @@ content
 ;
 clearFirstBlurEvent
 =
-PR_TRUE
+true
 ;
 }
 nsIMEStateManager
@@ -6991,7 +6991,7 @@ NotifyFocusStateChange
 (
 content
 shouldShowFocusRing
-PR_FALSE
+false
 )
 ;
 }
@@ -7070,7 +7070,7 @@ widget
 >
 SetFocus
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -7155,7 +7155,7 @@ GetCurrentDoc
 )
 content
 1
-PR_FALSE
+false
 )
 ;
 }
@@ -7170,7 +7170,7 @@ mActiveWindow
 SetCaretVisible
 (
 presShell
-PR_FALSE
+false
 nsnull
 )
 ;
@@ -7196,7 +7196,7 @@ aIsLeavingDocument
 {
 result
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -7210,7 +7210,7 @@ window
 >
 TakeFocus
 (
-PR_FALSE
+false
 0
 )
 ;
@@ -7225,7 +7225,7 @@ SetFocusedNode
 (
 nsnull
 0
-PR_TRUE
+true
 )
 ;
 mFocusedWindow
@@ -7263,7 +7263,7 @@ presShell
 doc
 doc
 1
-PR_FALSE
+false
 )
 ;
 if
@@ -7280,7 +7280,7 @@ presShell
 doc
 window
 1
-PR_FALSE
+false
 )
 ;
 result
@@ -7304,8 +7304,8 @@ mActiveWindow
 {
 UpdateCaret
 (
-PR_FALSE
-PR_TRUE
+false
+true
 nsnull
 )
 ;
@@ -7498,7 +7498,7 @@ aContent
 ;
 clearFirstFocusEvent
 =
-PR_TRUE
+true
 ;
 }
 #
@@ -7594,7 +7594,7 @@ aIsNewDocument
 AdjustWindowFocus
 (
 aWindow
-PR_FALSE
+false
 )
 ;
 aWindow
@@ -7612,13 +7612,13 @@ aWindow
 >
 TakeFocus
 (
-PR_TRUE
+true
 focusMethod
 )
 )
 aIsNewDocument
 =
-PR_TRUE
+true
 ;
 mFocusedWindow
 =
@@ -7720,7 +7720,7 @@ widget
 >
 SetFocus
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -7903,7 +7903,7 @@ aWindow
 ShouldShowFocusRing
 (
 )
-PR_TRUE
+true
 )
 ;
 if
@@ -7936,7 +7936,7 @@ objectFrameWidget
 >
 SetFocus
 (
-PR_FALSE
+false
 )
 ;
 TabParent
@@ -8153,7 +8153,7 @@ widget
 >
 SetFocus
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -8295,7 +8295,7 @@ Run
 nsFocusEvent
 event
 (
-PR_TRUE
+true
 mType
 )
 ;
@@ -8697,7 +8697,7 @@ childWindow
 GetFocusedDescendant
 (
 aWindow
-PR_TRUE
+true
 getter_AddRefs
 (
 childWindow
@@ -8799,7 +8799,7 @@ widget
 >
 SetFocus
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -8858,7 +8858,7 @@ widget
 >
 SetFocus
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -9559,7 +9559,7 @@ caret
 >
 SetCaretVisible
 (
-PR_FALSE
+false
 )
 ;
 caret
@@ -10057,9 +10057,9 @@ frameTraversal
 presContext
 startFrame
 eLeaf
-PR_FALSE
-PR_FALSE
-PR_TRUE
+false
+false
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -10453,8 +10453,8 @@ GetRootForFocus
 (
 aWindow
 doc
-PR_FALSE
-PR_FALSE
+false
+false
 )
 )
 ;
@@ -10477,7 +10477,7 @@ aNextContent
 =
 GetNextTabbableDocument
 (
-PR_TRUE
+true
 )
 )
 ;
@@ -10500,7 +10500,7 @@ aNextContent
 =
 GetNextTabbableDocument
 (
-PR_FALSE
+false
 )
 )
 ;
@@ -10566,9 +10566,9 @@ presShell
 startContent
 nsnull
 startContent
-PR_TRUE
+true
 1
-PR_FALSE
+false
 aNextContent
 )
 ;
@@ -10597,9 +10597,9 @@ presShell
 startContent
 nsnull
 startContent
-PR_FALSE
+false
 0
-PR_FALSE
+false
 aNextContent
 )
 ;
@@ -10738,7 +10738,7 @@ rootContent
 )
 ignoreTabIndex
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -10809,7 +10809,7 @@ rootContent
 {
 doNavigation
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -10841,7 +10841,7 @@ doc
 {
 doNavigation
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -11065,7 +11065,7 @@ startContent
 {
 ignoreTabIndex
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -11270,15 +11270,15 @@ NS_OK
 }
 doNavigation
 =
-PR_TRUE
+true
 ;
 skipOriginalContentCheck
 =
-PR_FALSE
+false
 ;
 ignoreTabIndex
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -11455,7 +11455,7 @@ tabIndex
 ;
 ignoreTabIndex
 =
-PR_TRUE
+true
 ;
 }
 popupFrame
@@ -11567,8 +11567,8 @@ Blur
 (
 mFocusedWindow
 nsnull
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 else
@@ -11767,7 +11767,7 @@ GetPreviousContent
 ;
 getNextFrame
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -11800,9 +11800,9 @@ frameTraversal
 presContext
 startFrame
 ePreOrder
-PR_FALSE
-PR_FALSE
-PR_TRUE
+false
+false
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -12238,8 +12238,8 @@ GetRootForFocus
 (
 subframe
 subdoc
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 }
@@ -12307,7 +12307,7 @@ aForward
 :
 0
 )
-PR_FALSE
+false
 aResultContent
 )
 ;
@@ -12498,8 +12498,8 @@ aRootContent
 GetCurrentDoc
 (
 )
-PR_FALSE
-PR_TRUE
+false
+true
 )
 )
 ;
@@ -14081,8 +14081,8 @@ GetRootForFocus
 (
 nextFrame
 doc
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 if
@@ -14095,8 +14095,8 @@ GetRootForFocus
 (
 nextFrame
 doc
-PR_FALSE
-PR_FALSE
+false
+false
 )
 )
 {
@@ -14142,9 +14142,9 @@ presShell
 rootElement
 nsnull
 rootElement
-PR_TRUE
+true
 1
-PR_FALSE
+false
 getter_AddRefs
 (
 nextFocus
@@ -14488,7 +14488,7 @@ testNode
 }
 while
 (
-PR_TRUE
+true
 )
 ;
 }

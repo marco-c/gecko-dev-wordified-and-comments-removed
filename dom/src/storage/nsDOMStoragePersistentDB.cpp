@@ -686,7 +686,7 @@ storageFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -744,7 +744,7 @@ mozStorageTransaction
 transaction
 (
 mConnection
-PR_FALSE
+false
 )
 ;
 rv
@@ -2528,7 +2528,7 @@ mozStorageTransaction
 trans
 (
 mConnection
-PR_FALSE
+false
 )
 ;
 nsresult
@@ -4569,7 +4569,7 @@ CreateQuotaDomainDBKey
 (
 aDomain
 aIncludeSubDomains
-PR_FALSE
+false
 quotadomainDBKey
 )
 ;
@@ -4583,7 +4583,7 @@ return
 GetUsageInternal
 (
 quotadomainDBKey
-PR_FALSE
+false
 aUsage
 )
 ;

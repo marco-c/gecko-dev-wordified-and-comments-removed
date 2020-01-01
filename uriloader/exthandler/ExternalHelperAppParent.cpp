@@ -115,7 +115,7 @@ uri
 )
 mPending
 (
-PR_FALSE
+false
 )
 mLoadFlags
 (
@@ -267,7 +267,7 @@ entityID
 ;
 mPending
 =
-PR_TRUE
+true
 ;
 mStatus
 =
@@ -400,7 +400,7 @@ code
 {
 mPending
 =
-PR_FALSE
+false
 ;
 mListener
 -

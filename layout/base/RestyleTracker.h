@@ -72,7 +72,7 @@ aFrameConstructor
 )
 mHaveLaterSiblingRestyles
 (
-PR_FALSE
+false
 )
 {
 NS_PRECONDITION

@@ -253,7 +253,7 @@ aInfo
 {
 SendTitleChangeEvent
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -278,7 +278,7 @@ aNewIndexInContainer
 {
 SendTitleChangeEvent
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -303,7 +303,7 @@ aIndexInContainer
 {
 SendTitleChangeEvent
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -331,7 +331,7 @@ aPreviousSibling
 {
 SendTitleChangeEvent
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -376,7 +376,7 @@ rv
 ;
 SendTitleChangeEvent
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -397,7 +397,7 @@ aNullParent
 {
 SendTitleChangeEvent
 (
-PR_FALSE
+false
 )
 ;
 nsSVGTitleElementBase
@@ -428,7 +428,7 @@ aHaveNotified
 {
 SendTitleChangeEvent
 (
-PR_FALSE
+false
 )
 ;
 }

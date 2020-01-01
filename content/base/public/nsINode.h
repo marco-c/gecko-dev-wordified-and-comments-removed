@@ -826,7 +826,7 @@ aReturn
 return
 ReplaceOrInsertBefore
 (
-PR_FALSE
+false
 aNewChild
 aRefChild
 aReturn
@@ -851,7 +851,7 @@ aReturn
 return
 ReplaceOrInsertBefore
 (
-PR_TRUE
+true
 aNewChild
 aOldChild
 aReturn
@@ -1635,7 +1635,7 @@ NODE_IS_IN_ANONYMOUS_SUBTREE
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 CheckNotNativeAnonymous
@@ -1643,7 +1643,7 @@ CheckNotNativeAnonymous
 )
 ;
 return
-PR_FALSE
+false
 ;
 #
 else
@@ -2099,7 +2099,7 @@ return
 GetNextNodeImpl
 (
 aRoot
-PR_FALSE
+false
 )
 ;
 }
@@ -2120,7 +2120,7 @@ return
 GetNextNodeImpl
 (
 aRoot
-PR_TRUE
+true
 )
 ;
 }

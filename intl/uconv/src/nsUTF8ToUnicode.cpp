@@ -164,7 +164,7 @@ mBytes
 ;
 mFirst
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -750,7 +750,7 @@ mBytes
 ;
 mFirst
 =
-PR_FALSE
+false
 ;
 }
 PRInt32
@@ -809,7 +809,7 @@ aSrc
 )
 mFirst
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -1350,7 +1350,7 @@ mBytes
 ;
 mFirst
 =
-PR_FALSE
+false
 ;
 }
 }

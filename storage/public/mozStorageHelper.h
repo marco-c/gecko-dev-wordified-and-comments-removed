@@ -59,7 +59,7 @@ aConnection
 )
 mHasTransaction
 (
-PR_FALSE
+false
 )
 mCommitOnComplete
 (
@@ -67,7 +67,7 @@ aCommitOnComplete
 )
 mCompleted
 (
-PR_FALSE
+false
 )
 {
 if
@@ -144,7 +144,7 @@ NS_OK
 ;
 mCompleted
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -173,7 +173,7 @@ rv
 )
 mHasTransaction
 =
-PR_FALSE
+false
 ;
 return
 rv
@@ -197,7 +197,7 @@ NS_OK
 ;
 mCompleted
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -256,7 +256,7 @@ rv
 )
 mHasTransaction
 =
-PR_FALSE
+false
 ;
 return
 rv

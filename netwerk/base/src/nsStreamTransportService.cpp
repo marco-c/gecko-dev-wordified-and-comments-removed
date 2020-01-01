@@ -156,11 +156,11 @@ closeWhenDone
 )
 mFirstTime
 (
-PR_TRUE
+true
 )
 mInProgress
 (
-PR_FALSE
+false
 )
 {
 }
@@ -309,7 +309,7 @@ getter_AddRefs
 pipeOut
 )
 nonblocking
-PR_TRUE
+true
 segsize
 segcount
 segalloc
@@ -327,7 +327,7 @@ rv
 ;
 mInProgress
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -533,7 +533,7 @@ mFirstTime
 {
 mFirstTime
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -702,7 +702,7 @@ result
 *
 result
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -752,11 +752,11 @@ closeWhenDone
 )
 mFirstTime
 (
-PR_TRUE
+true
 )
 mInProgress
 (
-PR_FALSE
+false
 )
 {
 }
@@ -936,7 +936,7 @@ getter_AddRefs
 (
 mPipeOut
 )
-PR_TRUE
+true
 nonblocking
 segsize
 segcount
@@ -955,7 +955,7 @@ rv
 ;
 mInProgress
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -1127,7 +1127,7 @@ mFirstTime
 {
 mFirstTime
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1316,7 +1316,7 @@ result
 *
 result
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1425,7 +1425,7 @@ shutdown
 -
 threads
 "
-PR_FALSE
+false
 )
 ;
 return

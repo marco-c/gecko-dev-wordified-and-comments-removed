@@ -303,7 +303,7 @@ nsnull
 )
 mNeedsOblique
 (
-PR_FALSE
+false
 )
 mNeedsBold
 (
@@ -311,11 +311,11 @@ aNeedsBold
 )
 mUseSubpixelPositions
 (
-PR_FALSE
+false
 )
 mAllowManualShowGlyphs
 (
-PR_TRUE
+true
 )
 {
 gfxDWriteFontEntry
@@ -368,7 +368,7 @@ IsItalic
 {
 mNeedsOblique
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -406,7 +406,7 @@ rv
 {
 mIsValid
 =
-PR_FALSE
+false
 ;
 return
 ;
@@ -593,7 +593,7 @@ mFontEntry
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsRefPtr
@@ -641,7 +641,7 @@ aFontMetrics
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -796,7 +796,7 @@ kAntialiasSubpixel
 {
 mUseSubpixelPositions
 =
-PR_TRUE
+true
 ;
 }
 gfxDWriteFontEntry
@@ -844,11 +844,11 @@ mAdjustedSize
 ;
 mUseSubpixelPositions
 =
-PR_FALSE
+false
 ;
 mAllowManualShowGlyphs
 =
-PR_FALSE
+false
 ;
 }
 mMetrics
@@ -1901,7 +1901,7 @@ hr
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -2094,7 +2094,7 @@ hasStrike
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 hr
@@ -2144,7 +2144,7 @@ hr
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 while
@@ -2290,7 +2290,7 @@ aSize
 {
 hasStrike
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2393,7 +2393,7 @@ CAIRO_STATUS_SUCCESS
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 cairo_set_scaled_font
@@ -2408,7 +2408,7 @@ scaledFont
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool

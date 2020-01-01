@@ -340,7 +340,7 @@ maxIdx
 ;
 mDone
 =
-PR_TRUE
+true
 ;
 }
 nsCyrXPCOMDetector
@@ -487,7 +487,7 @@ aLen
 *
 oDontFeedMe
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -643,7 +643,7 @@ nsnull
 ;
 mDone
 =
-PR_FALSE
+false
 ;
 this
 -

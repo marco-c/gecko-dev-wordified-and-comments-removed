@@ -1,5 +1,14 @@
 #
 include
+"
+mozilla
+/
+Util
+.
+h
+"
+#
+include
 <
 sys
 /
@@ -263,7 +272,7 @@ h
 endif
 #
 ifdef
-XP_MACOSX
+MOZ_WIDGET_COCOA
 #
 include
 <
@@ -388,6 +397,10 @@ nsTraceRefcntImpl
 .
 h
 "
+using
+namespace
+mozilla
+;
 #
 define
 ENSURE_STAT_CACHE
@@ -956,7 +969,7 @@ mPath
 }
 #
 ifdef
-XP_MACOSX
+MOZ_WIDGET_COCOA
 NS_IMPL_THREADSAFE_ISUPPORTS4
 (
 nsLocalFile
@@ -1085,12 +1098,12 @@ mCachedStat
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP
@@ -3862,7 +3875,7 @@ rv
 =
 Remove
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -3998,7 +4011,7 @@ dir
 Init
 (
 this
-PR_FALSE
+false
 )
 ;
 if
@@ -5513,7 +5526,7 @@ nsDependentCString
 (
 buffer
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 localFile
@@ -5887,7 +5900,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 executableExts
 )
@@ -5913,7 +5926,7 @@ i
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -5923,7 +5936,7 @@ NS_OK
 }
 #
 ifdef
-XP_MACOSX
+MOZ_WIDGET_COCOA
 CFURLRef
 url
 ;
@@ -5996,7 +6009,7 @@ kLSItemInfoIsApplication
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -6139,7 +6152,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 ENSURE_STAT_CACHE
 (
@@ -6178,7 +6191,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 ENSURE_STAT_CACHE
 (
@@ -6394,7 +6407,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 nsCAutoString
 inPath
@@ -6499,7 +6512,7 @@ rv
 *
 _retval
 =
-PR_FALSE
+false
 ;
 ssize_t
 len
@@ -6546,7 +6559,7 @@ len
 *
 _retval
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -6713,7 +6726,7 @@ maxLinks
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 if
@@ -7025,7 +7038,7 @@ aFollowLinks
 *
 aFollowLinks
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -7088,7 +7101,7 @@ dir
 Init
 (
 this
-PR_FALSE
+false
 )
 ;
 if
@@ -7151,7 +7164,7 @@ nsTraceRefcntImpl
 :
 SetActivityIsLegal
 (
-PR_FALSE
+false
 )
 ;
 #
@@ -7176,7 +7189,7 @@ nsTraceRefcntImpl
 :
 SetActivityIsLegal
 (
-PR_TRUE
+true
 )
 ;
 #
@@ -7226,7 +7239,7 @@ aPersistentDescriptor
 {
 #
 ifdef
-XP_MACOSX
+MOZ_WIDGET_COCOA
 if
 (
 aPersistentDescriptor
@@ -7633,7 +7646,7 @@ dirPath
 elif
 defined
 (
-XP_MACOSX
+MOZ_WIDGET_COCOA
 )
 CFURLRef
 url
@@ -8011,7 +8024,7 @@ NS_ERROR_FAILURE
 elif
 defined
 (
-XP_MACOSX
+MOZ_WIDGET_COCOA
 )
 CFURLRef
 url
@@ -8528,7 +8541,7 @@ otherFile
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -8638,7 +8651,7 @@ GlobalShutdown
 }
 #
 ifdef
-XP_MACOSX
+MOZ_WIDGET_COCOA
 static
 nsresult
 MacErrorMapper
@@ -8792,7 +8805,7 @@ inStrLen
 )
 kCFStringEncodingUTF8
 0
-PR_FALSE
+false
 NULL
 0
 &
@@ -9897,7 +9910,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 CFURLRef
 url

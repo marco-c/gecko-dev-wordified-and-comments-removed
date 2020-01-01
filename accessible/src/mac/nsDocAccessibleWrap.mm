@@ -492,7 +492,7 @@ Init
 )
 )
 return
-PR_FALSE
+false
 ;
 NS_ASSERTION
 (
@@ -552,10 +552,10 @@ if
 mNativeWrapper
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }

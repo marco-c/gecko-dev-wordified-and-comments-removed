@@ -322,7 +322,7 @@ NUMBER_OF_THREADS
 {
 gAllThreadsCreated
 =
-PR_TRUE
+true
 ;
 mon
 .
@@ -338,7 +338,7 @@ NS_OK
 }
 TEST_ASSERTION
 (
-PR_FALSE
+false
 "
 Too
 many
@@ -459,7 +459,7 @@ NUMBER_OF_THREADS
 {
 gAllThreadsShutDown
 =
-PR_TRUE
+true
 ;
 mon
 .
@@ -475,7 +475,7 @@ NS_OK
 }
 TEST_ASSERTION
 (
-PR_FALSE
+false
 "
 Too
 many
@@ -819,7 +819,7 @@ rv
 }
 gAllRunnablesPosted
 =
-PR_TRUE
+true
 ;
 mon
 .
@@ -964,7 +964,7 @@ created
 {
 match
 =
-PR_TRUE
+true
 ;
 break
 ;

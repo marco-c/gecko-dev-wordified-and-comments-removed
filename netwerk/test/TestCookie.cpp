@@ -881,7 +881,7 @@ nsnull
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -942,7 +942,7 @@ i
 {
 failed
 =
-PR_TRUE
+true
 ;
 sBuffer
 =
@@ -1023,7 +1023,7 @@ aPrefBranch
 SetBoolPref
 (
 kCookiesLifetimeEnabled
-PR_TRUE
+true
 )
 ;
 aPrefBranch
@@ -1050,7 +1050,7 @@ aPrefBranch
 SetBoolPref
 (
 kCookiesAskPermission
-PR_FALSE
+false
 )
 ;
 aPrefBranch
@@ -7284,9 +7284,9 @@ NS_LITERAL_CSTRING
 yes
 "
 )
-PR_FALSE
-PR_FALSE
-PR_TRUE
+false
+false
+true
 LL_MAXINT
 )
 )
@@ -7330,9 +7330,9 @@ NS_LITERAL_CSTRING
 yes
 "
 )
-PR_FALSE
-PR_TRUE
-PR_TRUE
+false
+true
+true
 PR_Now
 (
 )
@@ -7382,9 +7382,9 @@ NS_LITERAL_CSTRING
 yes
 "
 )
-PR_FALSE
-PR_FALSE
-PR_TRUE
+false
+false
+true
 LL_MAXINT
 )
 )
@@ -7725,7 +7725,7 @@ NS_LITERAL_CSTRING
 rabbit
 "
 )
-PR_TRUE
+true
 )
 )
 ;
@@ -7790,9 +7790,9 @@ NS_LITERAL_CSTRING
 yes
 "
 )
-PR_FALSE
-PR_FALSE
-PR_TRUE
+false
+false
+true
 LL_MININT
 )
 )

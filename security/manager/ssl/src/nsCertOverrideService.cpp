@@ -644,7 +644,7 @@ mSettingsFile
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -1219,7 +1219,7 @@ AddEntryToList
 host
 port
 nsnull
-PR_FALSE
+false
 algo_string
 fingerprint
 bits
@@ -2010,7 +2010,7 @@ SECITEM_FreeItem
 (
 &
 oid
-PR_FALSE
+false
 )
 ;
 if
@@ -2249,7 +2249,7 @@ slot
 nsscert
 CK_INVALID_HANDLE
 nickname
-PR_FALSE
+false
 )
 ;
 PK11_FreeSlot
@@ -2500,7 +2500,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 *
 aOverrideBits
@@ -2690,7 +2690,7 @@ aOverrideBits
 *
 _found
 =
-PR_FALSE
+false
 ;
 *
 aOverrideBits
@@ -2743,7 +2743,7 @@ entry
 *
 _found
 =
-PR_TRUE
+true
 ;
 settings
 =
@@ -3101,7 +3101,7 @@ rv
 dbkey
 )
 return
-PR_FALSE
+false
 ;
 bool
 found_mismatch
@@ -3222,7 +3222,7 @@ c2
 {
 found_mismatch
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -3350,7 +3350,7 @@ aCheckPermanents
 {
 still_ok
 =
-PR_FALSE
+false
 ;
 }
 if

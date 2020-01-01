@@ -263,10 +263,10 @@ eStateUninitialized
 1
 eStateOff
 =
-PR_FALSE
+false
 eStateOn
 =
-PR_TRUE
+true
 }
 ;
 bool

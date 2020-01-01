@@ -557,16 +557,6 @@ srcdir
 I
 "
 (
-DXSDK_DIR
-)
-/
-include
-"
-\
--
-I
-"
-(
 MOZ_DIRECTX_SDK_PATH
 )
 /

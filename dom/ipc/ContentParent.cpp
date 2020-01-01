@@ -900,7 +900,7 @@ xpcom
 -
 shutdown
 "
-PR_FALSE
+false
 )
 ;
 obs
@@ -910,7 +910,7 @@ AddObserver
 (
 this
 NS_IPC_IOSERVICE_SET_OFFLINE_TOPIC
-PR_FALSE
+false
 )
 ;
 obs
@@ -928,7 +928,7 @@ reporter
 -
 request
 "
-PR_FALSE
+false
 )
 ;
 obs
@@ -942,7 +942,7 @@ memory
 -
 pressure
 "
-PR_FALSE
+false
 )
 ;
 obs
@@ -958,7 +958,7 @@ gc
 -
 request
 "
-PR_FALSE
+false
 )
 ;
 obs
@@ -974,7 +974,7 @@ cc
 -
 request
 "
-PR_FALSE
+false
 )
 ;
 #
@@ -995,7 +995,7 @@ or
 -
 shutdown
 "
-PR_FALSE
+false
 )
 ;
 #
@@ -1026,7 +1026,7 @@ AddObserver
 "
 "
 this
-PR_FALSE
+false
 )
 ;
 }
@@ -1765,7 +1765,7 @@ NS_LITERAL_STRING
 abnormal
 "
 )
-PR_TRUE
+true
 )
 ;
 #
@@ -3267,7 +3267,7 @@ showPassword
 *
 showPassword
 =
-PR_TRUE
+true
 ;
 #
 ifdef
@@ -5661,7 +5661,7 @@ get
 )
 )
 aMsg
-PR_TRUE
+true
 aJSON
 nsnull
 aRetvals
@@ -5719,7 +5719,7 @@ get
 )
 )
 aMsg
-PR_FALSE
+false
 aJSON
 nsnull
 nsnull

@@ -247,7 +247,7 @@ StealFrame
 (
 aPresContext
 aChild
-PR_TRUE
+true
 )
 ;
 }
@@ -2645,7 +2645,7 @@ mFlags
 .
 mIsTopOfPage
 =
-PR_TRUE
+true
 ;
 kidReflowState
 .
@@ -2653,7 +2653,7 @@ mFlags
 .
 mTableIsSplittable
 =
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -2736,7 +2736,7 @@ mFlags
 .
 mNextInFlowUntouched
 =
-PR_TRUE
+true
 ;
 }
 nsHTMLReflowMetrics
@@ -2892,7 +2892,7 @@ mColMaxHeight
 {
 allFit
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -3114,7 +3114,7 @@ NS_FRAME_REFLOW_NEXTINFLOW
 ;
 reflowNext
 =
-PR_TRUE
+true
 ;
 kidNextInFlow
 -
@@ -3146,7 +3146,7 @@ NS_FRAME_REFLOW_NEXTINFLOW
 ;
 reflowNext
 =
-PR_TRUE
+true
 ;
 kidNextInFlow
 -
@@ -4251,7 +4251,7 @@ knownFeasibleHeight
 {
 maybeContinuousBreakingDetected
 =
-PR_TRUE
+true
 ;
 }
 nscoord
@@ -4382,7 +4382,7 @@ nextGuess
 ;
 unboundedLastColumn
 =
-PR_FALSE
+false
 ;
 AddStateBits
 (
@@ -4397,7 +4397,7 @@ aDesiredSize
 aReflowState
 aStatus
 config
-PR_FALSE
+false
 &
 carriedOutBottomMargin
 colData
@@ -4448,7 +4448,7 @@ availableContentHeight
 {
 skip
 =
-PR_TRUE
+true
 ;
 }
 }

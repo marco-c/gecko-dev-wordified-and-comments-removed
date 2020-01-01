@@ -1557,7 +1557,7 @@ mContentType
 .
 SetIsVoid
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -1834,7 +1834,7 @@ rv
 NS_NewLocalFile
 (
 xpcomStr
-PR_FALSE
+false
 getter_AddRefs
 (
 localFile

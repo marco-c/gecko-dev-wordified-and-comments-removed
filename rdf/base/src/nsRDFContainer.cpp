@@ -445,7 +445,7 @@ GetTarget
 (
 mContainer
 kRDF_nextVal
-PR_TRUE
+true
 getter_AddRefs
 (
 nextValNode
@@ -689,7 +689,7 @@ Assert
 mContainer
 nextVal
 aElement
-PR_TRUE
+true
 )
 ;
 if
@@ -1050,7 +1050,7 @@ Assert
 mContainer
 ordinal
 aElement
-PR_TRUE
+true
 )
 ;
 if
@@ -1187,7 +1187,7 @@ GetTarget
 (
 mContainer
 ordinal
-PR_TRUE
+true
 getter_AddRefs
 (
 old
@@ -1783,7 +1783,7 @@ propagatable
 >
 SetPropagateChanges
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -1851,7 +1851,7 @@ rv
 {
 err
 =
-PR_TRUE
+true
 ;
 continue
 ;
@@ -1888,7 +1888,7 @@ rv
 {
 err
 =
-PR_TRUE
+true
 ;
 continue
 ;
@@ -1908,7 +1908,7 @@ GetTargets
 (
 mContainer
 oldOrdinal
-PR_TRUE
+true
 getter_AddRefs
 (
 targets
@@ -1925,7 +1925,7 @@ rv
 {
 err
 =
-PR_TRUE
+true
 ;
 continue
 ;
@@ -1959,7 +1959,7 @@ rv
 {
 err
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2000,7 +2000,7 @@ rv
 {
 err
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2040,7 +2040,7 @@ element
 {
 err
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -2071,7 +2071,7 @@ rv
 {
 err
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2086,7 +2086,7 @@ Assert
 mContainer
 newOrdinal
 element
-PR_TRUE
+true
 )
 ;
 if
@@ -2099,7 +2099,7 @@ rv
 {
 err
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2145,7 +2145,7 @@ rv
 {
 err
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2159,7 +2159,7 @@ propagatable
 >
 SetPropagateChanges
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -2220,7 +2220,7 @@ GetTarget
 (
 mContainer
 kRDF_nextVal
-PR_TRUE
+true
 getter_AddRefs
 (
 nextValNode
@@ -2328,7 +2328,7 @@ Assert
 mContainer
 kRDF_nextVal
 nextVal
-PR_TRUE
+true
 )
 ;
 if
@@ -2399,7 +2399,7 @@ GetTarget
 (
 mContainer
 kRDF_nextVal
-PR_TRUE
+true
 getter_AddRefs
 (
 nextValNode
@@ -2717,7 +2717,7 @@ Assert
 mContainer
 kRDF_nextVal
 nextValLiteral
-PR_TRUE
+true
 )
 ;
 if

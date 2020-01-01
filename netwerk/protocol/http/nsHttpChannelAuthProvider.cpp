@@ -103,19 +103,19 @@ nsnull
 )
 mProxyAuth
 (
-PR_FALSE
+false
 )
 mTriedProxyAuth
 (
-PR_FALSE
+false
 )
 mTriedHostAuth
 (
-PR_FALSE
+false
 )
 mSuppressDefensiveAuth
 (
-PR_FALSE
+false
 )
 {
 nsHttpHandler
@@ -940,7 +940,7 @@ NS_LITERAL_STRING
 SuperfluousAuth
 "
 )
-PR_TRUE
+true
 )
 )
 {
@@ -1978,7 +1978,7 @@ rv
 {
 gotCreds
 =
-PR_TRUE
+true
 ;
 *
 currentAuthType
@@ -2659,7 +2659,7 @@ Identity
 ;
 identFromURI
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2816,7 +2816,7 @@ rv
 ;
 identFromURI
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -2836,7 +2836,7 @@ NS_LITERAL_STRING
 AutomaticAuth
 "
 )
-PR_FALSE
+false
 )
 )
 {
@@ -3243,7 +3243,7 @@ p
 {
 has_quote
 =
-PR_TRUE
+true
 ;
 p
 +
@@ -3628,7 +3628,7 @@ PREVIOUS_FAILED
 ;
 mTriedProxyAuth
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3655,7 +3655,7 @@ PREVIOUS_FAILED
 ;
 mTriedHostAuth
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -3813,7 +3813,7 @@ proxyAuth
 )
 mSuppressDefensiveAuth
 =
-PR_TRUE
+true
 ;
 return
 rv
@@ -3916,7 +3916,7 @@ rv
 OnAuthCancelled
 (
 aContext
-PR_FALSE
+false
 )
 ;
 nsCAutoString
@@ -4072,7 +4072,7 @@ rv
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 GetAuthenticator
 failed
@@ -4082,7 +4082,7 @@ failed
 OnAuthCancelled
 (
 aContext
-PR_TRUE
+true
 )
 ;
 return
@@ -4146,7 +4146,7 @@ rv
 OnAuthCancelled
 (
 aContext
-PR_TRUE
+true
 )
 ;
 return
@@ -4401,7 +4401,7 @@ rv
 )
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -4419,7 +4419,7 @@ LOAD_INITIAL_DOCUMENT_URI
 )
 )
 return
-PR_TRUE
+true
 ;
 nsCAutoString
 userPass
@@ -4458,7 +4458,7 @@ PhishyUserPassLength
 )
 )
 return
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -4477,7 +4477,7 @@ if
 bundleService
 )
 return
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -4503,7 +4503,7 @@ if
 bundle
 )
 return
-PR_TRUE
+true
 ;
 nsCAutoString
 host
@@ -4526,7 +4526,7 @@ rv
 )
 )
 return
-PR_TRUE
+true
 ;
 nsCAutoString
 user
@@ -4549,7 +4549,7 @@ rv
 )
 )
 return
-PR_TRUE
+true
 ;
 NS_ConvertUTF8toUTF16
 ucsHost
@@ -4609,7 +4609,7 @@ if
 msg
 )
 return
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -4638,7 +4638,7 @@ rv
 )
 )
 return
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -4667,7 +4667,7 @@ rv
 )
 )
 return
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -4695,11 +4695,11 @@ if
 prompt
 )
 return
-PR_TRUE
+true
 ;
 mSuppressDefensiveAuth
 =
-PR_TRUE
+true
 ;
 bool
 confirmed
@@ -4753,7 +4753,7 @@ rv
 )
 )
 return
-PR_TRUE
+true
 ;
 confirmed
 =
@@ -4786,7 +4786,7 @@ rv
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 return
@@ -4975,13 +4975,13 @@ Identity
 ;
 identFromURI
 =
-PR_FALSE
+false
 ;
 }
 else
 identFromURI
 =
-PR_TRUE
+true
 ;
 nsXPIDLCString
 temp
@@ -5200,7 +5200,7 @@ Authorization
 )
 mSuppressDefensiveAuth
 =
-PR_TRUE
+true
 ;
 }
 else

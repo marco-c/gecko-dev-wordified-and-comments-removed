@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsXRemoteService
 .
 h
@@ -172,6 +181,10 @@ Xatom
 .
 h
 >
+using
+namespace
+mozilla
+;
 #
 define
 MOZILLA_VERSION_PROP
@@ -472,7 +485,7 @@ end
 )
 )
 return
-PR_FALSE
+false
 ;
 nsACString
 :
@@ -533,7 +546,7 @@ idEnd
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsXRemoteService
@@ -615,7 +628,7 @@ xpcom
 -
 shutdown
 "
-PR_FALSE
+false
 )
 ;
 obs
@@ -629,7 +642,7 @@ quit
 -
 application
 "
-PR_FALSE
+false
 )
 ;
 }
@@ -924,7 +937,7 @@ result
 Success
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -947,7 +960,7 @@ data
 )
 )
 return
-PR_FALSE
+false
 ;
 const
 char
@@ -1016,7 +1029,7 @@ data
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -1029,7 +1042,7 @@ sMozResponseAtom
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -1042,11 +1055,11 @@ sMozLockAtom
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -1189,8 +1202,8 @@ Trim
 (
 "
 "
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 ToLowerCase
@@ -1464,7 +1477,7 @@ nsDependentCString
 (
 wd
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 lf
@@ -1730,7 +1743,7 @@ DefaultXDisplay
 (
 )
 XAtomNames
-NS_ARRAY_LENGTH
+ArrayLength
 (
 XAtomNames
 )

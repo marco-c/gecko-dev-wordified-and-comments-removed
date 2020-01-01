@@ -49,7 +49,7 @@ nsDOMStorageMemoryDB
 :
 mPreloading
 (
-PR_FALSE
+false
 )
 {
 }

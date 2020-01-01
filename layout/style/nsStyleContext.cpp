@@ -1065,7 +1065,7 @@ GetStyleData
 (
 aSID
 this
-PR_TRUE
+true
 )
 ;
 }
@@ -2164,7 +2164,7 @@ mColor
 {
 change
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2205,7 +2205,7 @@ mBackgroundColor
 {
 change
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2299,7 +2299,7 @@ otherColor
 {
 change
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2401,7 +2401,7 @@ otherColor
 {
 change
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2468,7 +2468,7 @@ mColumnRuleColorIsForeground
 {
 change
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2555,7 +2555,7 @@ otherVisDecColor
 {
 change
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2622,7 +2622,7 @@ mStroke
 {
 change
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -3434,7 +3434,7 @@ aColors
 {
 aLinkIsVisited
 =
-PR_FALSE
+false
 ;
 }
 const

@@ -246,7 +246,7 @@ clear
 )
 clear
 =
-PR_TRUE
+true
 ;
 else
 if
@@ -262,7 +262,7 @@ leaks
 )
 leaks
 =
-PR_TRUE
+true
 ;
 }
 nsCOMPtr

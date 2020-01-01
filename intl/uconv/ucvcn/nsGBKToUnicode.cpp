@@ -941,7 +941,7 @@ aSrc
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -955,7 +955,7 @@ aSrc
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -969,7 +969,7 @@ aSrc
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -983,7 +983,7 @@ aSrc
 )
 )
 return
-PR_FALSE
+false
 ;
 PRUint8
 a1
@@ -1114,7 +1114,7 @@ idx
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -1250,11 +1250,11 @@ res
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1273,7 +1273,7 @@ aOut
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1396,10 +1396,10 @@ res
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }

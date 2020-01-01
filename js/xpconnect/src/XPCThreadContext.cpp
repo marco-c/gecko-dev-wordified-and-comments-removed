@@ -1287,7 +1287,7 @@ gThreads
 )
 doDestroyLock
 =
-PR_TRUE
+true
 ;
 }
 if

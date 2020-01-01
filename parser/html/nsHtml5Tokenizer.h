@@ -907,7 +907,7 @@ line
 ;
 lastCR
 =
-PR_TRUE
+true
 ;
 }
 inline

@@ -38,6 +38,15 @@ h
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsCycleCollectionParticipant
 .
 h
@@ -519,7 +528,7 @@ DEFAULT_SHUTDOWN_COLLECTIONS
 else
 mDoNothing
 (
-PR_FALSE
+false
 )
 mLogGraphs
 (
@@ -2612,7 +2621,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 aBlock
 -
@@ -2652,7 +2661,7 @@ i
 }
 entries
 [
-NS_ARRAY_LENGTH
+ArrayLength
 (
 aBlock
 -
@@ -2775,9 +2784,7 @@ mEntries
 *
 eEnd
 =
-e
-+
-NS_ARRAY_LENGTH
+ArrayEnd
 (
 b
 -
@@ -3408,9 +3415,7 @@ mEntries
 *
 eEnd
 =
-e
-+
-NS_ARRAY_LENGTH
+ArrayEnd
 (
 b
 -
@@ -4215,7 +4220,7 @@ mParams
 .
 mDoNothing
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -6930,7 +6935,7 @@ pinfo
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 cp
@@ -6942,7 +6947,7 @@ root
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -7056,9 +7061,7 @@ mEntries
 *
 eEnd
 =
-e
-+
-NS_ARRAY_LENGTH
+ArrayEnd
 (
 b
 -
@@ -8463,7 +8466,7 @@ install_new_hooks
 ;
 hookedMalloc
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -8539,7 +8542,7 @@ AllocHook
 ;
 hookedMalloc
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -8642,7 +8645,7 @@ freehook
 ;
 hookedMalloc
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -8669,11 +8672,11 @@ nsCycleCollector
 :
 mCollectionInProgress
 (
-PR_FALSE
+false
 )
 mScanInProgress
 (
-PR_FALSE
+false
 )
 mCollectedObjects
 (
@@ -8977,7 +8980,7 @@ XPCOM_CC_SUPPRESS
 ;
 sInitialized
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -8990,7 +8993,7 @@ nsnull
 {
 mSuppressThisNode
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -9034,7 +9037,7 @@ s
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 cp
@@ -9257,7 +9260,7 @@ if
 s
 )
 return
-PR_FALSE
+false
 ;
 nsXPCOMCycleCollectionParticipant
 *
@@ -9299,7 +9302,7 @@ if
 mScanInProgress
 )
 return
-PR_FALSE
+false
 ;
 NS_ASSERTION
 (
@@ -9324,7 +9327,7 @@ mParams
 mDoNothing
 )
 return
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -9343,7 +9346,7 @@ n
 )
 )
 return
-PR_FALSE
+false
 ;
 #
 ifndef
@@ -9436,7 +9439,7 @@ if
 mScanInProgress
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -9445,7 +9448,7 @@ mParams
 mDoNothing
 )
 return
-PR_TRUE
+true
 ;
 #
 ifdef
@@ -9526,7 +9529,7 @@ n
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsPurpleBufferEntry
@@ -9687,7 +9690,7 @@ if
 mScanInProgress
 )
 return
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -9771,7 +9774,7 @@ e
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -10081,7 +10084,7 @@ if
 mCollectionInProgress
 )
 return
-PR_FALSE
+false
 ;
 NS_TIME_FUNCTION
 ;
@@ -10125,7 +10128,7 @@ mVisitedGCed
 ;
 mCollectionInProgress
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -10165,7 +10168,7 @@ nsnull
 ;
 mFollowupCollection
 =
-PR_FALSE
+false
 ;
 mCollectedObjects
 =
@@ -10176,7 +10179,7 @@ mWhiteNodes
 aWhiteNodes
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -10193,7 +10196,7 @@ nsnull
 ;
 mCollectionInProgress
 =
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -10351,7 +10354,7 @@ totalCollections
 {
 GCIfNeeded
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -10403,7 +10406,7 @@ mParams
 mDoNothing
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -10444,7 +10447,7 @@ Initialized
 )
 )
 return
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -10494,7 +10497,7 @@ i
 BeginCycleCollection
 (
 builder
-PR_FALSE
+false
 )
 ;
 }
@@ -10556,7 +10559,7 @@ Count
 endif
 mScanInProgress
 =
-PR_TRUE
+true
 ;
 SelectPurple
 (
@@ -10831,7 +10834,7 @@ PR_USEC_PER_MSEC
 endif
 mScanInProgress
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -11107,11 +11110,11 @@ else
 {
 mScanInProgress
 =
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -11238,7 +11241,7 @@ FinishCycleCollection
 }
 mFollowupCollection
 =
-PR_TRUE
+true
 ;
 #
 ifdef
@@ -11379,7 +11382,7 @@ mParams
 .
 mDoNothing
 =
-PR_FALSE
+false
 ;
 return
 collected
@@ -11452,7 +11455,7 @@ nsnull
 ;
 mScanInProgress
 =
-PR_TRUE
+true
 ;
 SelectPurple
 (
@@ -11461,7 +11464,7 @@ builder
 ;
 mScanInProgress
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -11515,7 +11518,7 @@ mParams
 .
 mDoNothing
 =
-PR_TRUE
+true
 ;
 }
 #
@@ -11874,11 +11877,11 @@ return
 }
 mCollectionInProgress
 =
-PR_TRUE
+true
 ;
 mScanInProgress
 =
-PR_TRUE
+true
 ;
 {
 GCGraphBuilder
@@ -11944,7 +11947,7 @@ i
 BeginCycleCollection
 (
 builder
-PR_TRUE
+true
 )
 ;
 }
@@ -11966,7 +11969,7 @@ ScanRoots
 ;
 mScanInProgress
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -12068,7 +12071,7 @@ white
 {
 findCycleRoots
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -12102,7 +12105,7 @@ mRootCount
 {
 describeExtraRefcounts
 =
-PR_TRUE
+true
 ;
 }
 +
@@ -13398,7 +13401,7 @@ ClearGraph
 ;
 mCollectionInProgress
 =
-PR_FALSE
+false
 ;
 for
 (
@@ -13553,7 +13556,7 @@ edges
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 ReversedEdge
@@ -13706,7 +13709,7 @@ misallocation
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -13988,7 +13991,7 @@ regMemReport
 {
 regMemReport
 =
-PR_FALSE
+false
 ;
 NS_RegisterMemoryReporter
 (
@@ -14067,7 +14070,7 @@ n
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -14089,7 +14092,7 @@ Forget
 n
 )
 :
-PR_TRUE
+true
 ;
 }
 nsPurpleBufferEntry
@@ -14137,7 +14140,7 @@ Forget2
 e
 )
 :
-PR_TRUE
+true
 ;
 }
 PRUint32
@@ -14332,7 +14335,7 @@ NS_OK
 ;
 mRunning
 =
-PR_TRUE
+true
 ;
 while
 (
@@ -14427,15 +14430,15 @@ condvar
 )
 mRunning
 (
-PR_FALSE
+false
 )
 mShutdown
 (
-PR_FALSE
+false
 )
 mCollected
 (
-PR_FALSE
+false
 )
 {
 NS_ASSERTION
@@ -14476,7 +14479,7 @@ mCollector
 >
 GCIfNeeded
 (
-PR_FALSE
+false
 )
 ;
 MutexAutoLock
@@ -14612,7 +14615,7 @@ mLock
 ;
 mShutdown
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -14623,7 +14626,7 @@ return
 ;
 mRunning
 =
-PR_FALSE
+false
 ;
 mRequest
 .

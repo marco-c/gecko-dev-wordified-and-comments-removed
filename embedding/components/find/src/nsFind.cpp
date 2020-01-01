@@ -705,7 +705,7 @@ IsDone
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -1079,7 +1079,7 @@ formControl
 >
 IsTextControl
 (
-PR_TRUE
+true
 )
 )
 {
@@ -1475,7 +1475,7 @@ outerRange
 >
 Collapse
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1648,11 +1648,11 @@ nsFind
 :
 mFindBackward
 (
-PR_FALSE
+false
 )
 mCaseSensitive
 (
-PR_FALSE
+false
 )
 mIterOffset
 (
@@ -2936,7 +2936,7 @@ IsHTML
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsIAtom
@@ -2976,7 +2976,7 @@ atom
 sTdAtom
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -2997,7 +2997,7 @@ if
 mParserService
 )
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -3095,7 +3095,7 @@ if
 content
 )
 return
-PR_FALSE
+false
 ;
 nsIFrame
 *
@@ -3115,7 +3115,7 @@ frame
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -3301,7 +3301,7 @@ node
 #
 endif
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -3312,7 +3312,7 @@ content
 )
 )
 return
-PR_FALSE
+false
 ;
 content
 =
@@ -3325,7 +3325,7 @@ GetParent
 ;
 }
 return
-PR_FALSE
+false
 ;
 #
 endif
@@ -3870,7 +3870,7 @@ NextNode
 aSearchRange
 aStartPoint
 aEndPoint
-PR_FALSE
+false
 )
 ;
 if
@@ -3888,7 +3888,7 @@ NextNode
 aSearchRange
 aStartPoint
 aEndPoint
-PR_TRUE
+true
 )
 ;
 ResetAll
@@ -4006,7 +4006,7 @@ patLen
 ;
 inWhitespace
 =
-PR_FALSE
+false
 ;
 }
 tc
@@ -4528,7 +4528,7 @@ c
 {
 inWhitespace
 =
-PR_FALSE
+false
 ;
 pindex
 +
@@ -4544,7 +4544,7 @@ OVERFLOW_PINDEX
 )
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 Missed
 a
@@ -4578,7 +4578,7 @@ patc
 )
 inWhitespace
 =
-PR_TRUE
+true
 ;
 else
 if
@@ -5060,7 +5060,7 @@ incr
 ;
 inWhitespace
 =
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -5240,7 +5240,7 @@ matchAnchorOffset
 ;
 inWhitespace
 =
-PR_FALSE
+false
 ;
 pindex
 =
@@ -5323,7 +5323,7 @@ range
 >
 SetMaySpanAnonymousSubtrees
 (
-PR_TRUE
+true
 )
 ;
 nsIDOMRange

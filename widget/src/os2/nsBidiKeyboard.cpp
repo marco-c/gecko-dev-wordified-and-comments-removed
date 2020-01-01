@@ -45,7 +45,7 @@ aIsRTL
 *
 aIsRTL
 =
-PR_FALSE
+false
 ;
 return
 NS_ERROR_NOT_IMPLEMENTED

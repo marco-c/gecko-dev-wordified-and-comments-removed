@@ -63,13 +63,6 @@ h
 "
 #
 include
-"
-nsWidgetAtoms
-.
-h
-"
-#
-include
 <
 objbase
 .
@@ -826,13 +819,6 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
-)
-;
-nsWidgetAtoms
-:
-:
-RegisterAtoms
-(
 )
 ;
 return

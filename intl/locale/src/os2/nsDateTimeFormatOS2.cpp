@@ -201,7 +201,7 @@ pString
 {
 f24Hour
 =
-PR_TRUE
+true
 ;
 }
 switch

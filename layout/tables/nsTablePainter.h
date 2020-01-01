@@ -107,7 +107,7 @@ return
 PaintRowGroup
 (
 aFrame
-PR_FALSE
+false
 )
 ;
 }
@@ -123,7 +123,7 @@ return
 PaintRow
 (
 aFrame
-PR_FALSE
+false
 )
 ;
 }

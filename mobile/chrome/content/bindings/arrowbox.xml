@@ -1551,6 +1551,12 @@ anchorNode
 =
 aAnchorNode
 ;
+this
+.
+position
+=
+aPosition
+;
 let
 anchorRect
 =
@@ -2544,6 +2550,9 @@ anchorTo
 self
 .
 anchorNode
+self
+.
+position
 )
 ;
 break

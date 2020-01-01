@@ -350,11 +350,11 @@ SVGLength
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 float
@@ -422,11 +422,11 @@ SVGLength
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool

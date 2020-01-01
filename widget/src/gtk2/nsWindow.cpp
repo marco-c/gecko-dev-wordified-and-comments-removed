@@ -1,4 +1,13 @@
 #
+include
+"
+mozilla
+/
+Util
+.
+h
+"
+#
 ifdef
 MOZ_PLATFORM_MAEMO
 #
@@ -249,7 +258,7 @@ endif
 #
 include
 "
-nsWidgetAtoms
+nsGkAtoms
 .
 h
 "
@@ -1870,7 +1879,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 gCursorCache
 )
@@ -6955,7 +6964,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 extensions
 )
@@ -6970,7 +6979,7 @@ if
 i
 =
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 extensions
 )
@@ -11524,7 +11533,7 @@ case
 :
 DispatchCommandEvent
 (
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 Back
@@ -11537,7 +11546,7 @@ case
 :
 DispatchCommandEvent
 (
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 Forward
@@ -12225,7 +12234,7 @@ nsCommandEvent
 event
 (
 true
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 onAppCommand
@@ -12850,7 +12859,7 @@ XF86XK_Back
 return
 DispatchCommandEvent
 (
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 Back
@@ -12862,7 +12871,7 @@ XF86XK_Forward
 return
 DispatchCommandEvent
 (
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 Forward
@@ -12874,7 +12883,7 @@ XF86XK_Refresh
 return
 DispatchCommandEvent
 (
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 Reload
@@ -12886,7 +12895,7 @@ XF86XK_Stop
 return
 DispatchCommandEvent
 (
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 Stop
@@ -12898,7 +12907,7 @@ XF86XK_Search
 return
 DispatchCommandEvent
 (
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 Search
@@ -12910,7 +12919,7 @@ XF86XK_Favorites
 return
 DispatchCommandEvent
 (
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 Bookmarks
@@ -12922,7 +12931,7 @@ XF86XK_HomePage
 return
 DispatchCommandEvent
 (
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 Home
@@ -15862,9 +15871,6 @@ aHandleEventFunction
 nsDeviceContext
 *
 aContext
-nsIAppShell
-*
-aAppShell
 nsIToolkit
 *
 aToolkit
@@ -15934,7 +15940,6 @@ baseParent
 aRect
 aHandleEventFunction
 aContext
-aAppShell
 aToolkit
 aInitData
 )

@@ -291,7 +291,7 @@ nsContentUtils
 GetNodeTextContent
 (
 mContent
-PR_FALSE
+false
 data
 )
 ;
@@ -428,7 +428,7 @@ cont
 SetText
 (
 text
-PR_FALSE
+false
 )
 ;
 }
@@ -505,7 +505,7 @@ rv
 ;
 SetQuotes
 (
-PR_FALSE
+false
 )
 ;
 ProcessTextData
@@ -986,7 +986,7 @@ aAttribute
 {
 SetQuotes
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1071,7 +1071,7 @@ nsGkAtoms
 mi_
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1083,7 +1083,7 @@ FirstChild
 )
 )
 return
-PR_FALSE
+false
 ;
 nsAutoString
 data
@@ -1094,7 +1094,7 @@ nsContentUtils
 GetNodeTextContent
 (
 mContent
-PR_FALSE
+false
 data
 )
 ;
@@ -1113,7 +1113,7 @@ if
 length
 )
 return
-PR_FALSE
+false
 ;
 nsAutoString
 fontstyle
@@ -1298,11 +1298,11 @@ nsGkAtoms
 :
 :
 _moz_math_fontstyle_
-PR_FALSE
+false
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -1336,15 +1336,15 @@ nsGkAtoms
 :
 _moz_math_fontstyle_
 fontstyle
-PR_FALSE
+false
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 static

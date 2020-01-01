@@ -393,7 +393,7 @@ nsFrameLoader
 {
 mNeedsAsyncDestroy
 =
-PR_TRUE
+true
 ;
 if
 (

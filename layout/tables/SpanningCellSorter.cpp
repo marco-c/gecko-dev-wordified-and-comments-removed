@@ -264,7 +264,7 @@ i
 !
 =
 nsnull
-PR_FALSE
+false
 )
 ;
 i
@@ -357,7 +357,7 @@ entryCount
 0
 ;
 return
-PR_FALSE
+false
 ;
 }
 HashTableEntry
@@ -385,7 +385,7 @@ PL_DHASH_ADD
 NS_ENSURE_TRUE
 (
 entry
-PR_FALSE
+false
 )
 ;
 NS_ASSERTION
@@ -472,7 +472,7 @@ i
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 PLDHashOperator

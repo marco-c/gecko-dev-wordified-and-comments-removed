@@ -184,7 +184,7 @@ mStartPos
 )
 mResumeRequested
 (
-PR_FALSE
+false
 )
 mLastModifiedTime
 (

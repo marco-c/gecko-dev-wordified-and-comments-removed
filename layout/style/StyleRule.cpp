@@ -401,7 +401,7 @@ this
 mNext
 result
 (
-PR_FALSE
+false
 )
 )
 ;
@@ -832,7 +832,7 @@ this
 mNext
 result
 (
-PR_FALSE
+false
 )
 )
 ;
@@ -1146,7 +1146,7 @@ this
 mNext
 result
 (
-PR_FALSE
+false
 )
 )
 ;
@@ -1370,8 +1370,8 @@ this
 mNegations
 result
 (
-PR_TRUE
-PR_FALSE
+true
+false
 )
 )
 ;
@@ -1388,8 +1388,8 @@ this
 mNext
 result
 (
-PR_FALSE
-PR_TRUE
+false
+true
 )
 )
 ;
@@ -2463,7 +2463,7 @@ AppendToStringWithoutCombinatorsOrNegations
 (
 aString
 aSheet
-PR_FALSE
+false
 )
 ;
 for
@@ -2503,7 +2503,7 @@ AppendToStringWithoutCombinatorsOrNegations
 (
 aString
 aSheet
-PR_TRUE
+true
 )
 ;
 aString
@@ -2628,7 +2628,7 @@ PRUnichar
 ;
 wroteNamespace
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2715,7 +2715,7 @@ PRUnichar
 ;
 wroteNamespace
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2807,7 +2807,7 @@ PRUnichar
 ;
 wroteNamespace
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2832,7 +2832,7 @@ AppendLiteral
 ;
 wroteNamespace
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -4101,7 +4101,7 @@ ToString
 (
 aResult
 aSheet
-PR_TRUE
+true
 )
 ;
 p
@@ -4173,7 +4173,7 @@ this
 mNext
 result
 (
-PR_FALSE
+false
 )
 )
 ;
@@ -4837,7 +4837,7 @@ updateBatch
 (
 owningDoc
 UPDATE_STYLE
-PR_TRUE
+true
 )
 ;
 nsRefPtr
@@ -4859,7 +4859,7 @@ oldRule
 DeclarationChanged
 (
 aDecl
-PR_TRUE
+true
 )
 .
 get
@@ -5379,7 +5379,7 @@ mLineNumber
 )
 mWasMatched
 (
-PR_FALSE
+false
 )
 {
 NS_PRECONDITION
@@ -5453,7 +5453,7 @@ mLineNumber
 )
 mWasMatched
 (
-PR_FALSE
+false
 )
 {
 }
@@ -5502,7 +5502,7 @@ mLineNumber
 )
 mWasMatched
 (
-PR_FALSE
+false
 )
 {
 aCopy
@@ -5672,7 +5672,7 @@ yet
 ;
 mWasMatched
 =
-PR_TRUE
+true
 ;
 mDeclaration
 -

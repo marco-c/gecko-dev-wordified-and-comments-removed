@@ -166,11 +166,11 @@ mExpireTime
 )
 mDeleted
 (
-PR_FALSE
+false
 )
 mIncludeSubdomains
 (
-PR_FALSE
+false
 )
 {
 }
@@ -220,7 +220,7 @@ nsStrictTransportSecurityService
 :
 mInPrivateMode
 (
-PR_FALSE
+false
 )
 {
 }
@@ -312,7 +312,7 @@ AddObserver
 (
 this
 NS_PRIVATE_BROWSING_SWITCH_TOPIC
-PR_FALSE
+false
 )
 ;
 if
@@ -1021,7 +1021,7 @@ maxAge
 ;
 foundMaxAge
 =
-PR_TRUE
+true
 ;
 directive
 =
@@ -1049,7 +1049,7 @@ directive
 {
 foundUnrecognizedTokens
 =
-PR_TRUE
+true
 ;
 STSLOG
 (
@@ -1138,7 +1138,7 @@ directive
 {
 includeSubdomains
 =
-PR_TRUE
+true
 ;
 STSLOG
 (
@@ -1182,7 +1182,7 @@ directive
 {
 foundUnrecognizedTokens
 =
-PR_TRUE
+true
 ;
 STSLOG
 (
@@ -1208,7 +1208,7 @@ else
 {
 foundUnrecognizedTokens
 =
-PR_TRUE
+true
 ;
 STSLOG
 (
@@ -1234,7 +1234,7 @@ else
 {
 foundUnrecognizedTokens
 =
-PR_TRUE
+true
 ;
 STSLOG
 (
@@ -1402,7 +1402,7 @@ aURI
 STS_PERMISSION
 &
 permExact
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1419,7 +1419,7 @@ aURI
 STS_SUBDOMAIN_PERMISSION
 &
 permGeneral
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1691,7 +1691,7 @@ NS_ERROR_OUT_OF_MEMORY
 }
 mInPrivateMode
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1716,7 +1716,7 @@ Clear
 ;
 mInPrivateMode
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -1865,7 +1865,7 @@ entry
 >
 mIncludeSubdomains
 =
-PR_TRUE
+true
 ;
 }
 entry
@@ -1873,7 +1873,7 @@ entry
 >
 mDeleted
 =
-PR_FALSE
+false
 ;
 entry
 -
@@ -2048,14 +2048,14 @@ entry
 >
 mDeleted
 =
-PR_TRUE
+true
 ;
 entry
 -
 >
 mIncludeSubdomains
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2271,14 +2271,14 @@ entry
 >
 mDeleted
 =
-PR_TRUE
+true
 ;
 entry
 -
 >
 mIncludeSubdomains
 =
-PR_FALSE
+false
 ;
 }
 rv

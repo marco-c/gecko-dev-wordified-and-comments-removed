@@ -465,7 +465,7 @@ sUserInputEventDepth
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 TimeDuration
@@ -1462,7 +1462,7 @@ NS_MOUSE_BUTTON_DOWN
 )
 mResetFMMouseDownState
 (
-PR_FALSE
+false
 )
 {
 if
@@ -1496,7 +1496,7 @@ nsIPresShell
 :
 AllowMouseCapture
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -1536,7 +1536,7 @@ aDocument
 ;
 mResetFMMouseDownState
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1570,7 +1570,7 @@ nsIPresShell
 :
 AllowMouseCapture
 (
-PR_FALSE
+false
 )
 ;
 if

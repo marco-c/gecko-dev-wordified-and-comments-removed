@@ -1843,7 +1843,7 @@ NS_ProxyRelease
 (
 thread
 mCallback
-PR_TRUE
+true
 )
 ;
 }
@@ -1871,7 +1871,7 @@ NS_ProxyRelease
 (
 thread
 faviconSvc
-PR_TRUE
+true
 )
 ;
 }
@@ -2475,7 +2475,7 @@ NS_ProxyRelease
 (
 thread
 mChannel
-PR_TRUE
+true
 )
 ;
 }
@@ -3172,7 +3172,7 @@ mozStorageTransaction
 transaction
 (
 mDBConn
-PR_FALSE
+false
 mozIStorageConnection
 :
 :

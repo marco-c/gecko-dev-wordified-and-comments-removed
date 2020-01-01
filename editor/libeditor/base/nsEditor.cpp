@@ -613,23 +613,23 @@ mIMEBufferLength
 )
 mInIMEMode
 (
-PR_FALSE
+false
 )
 mIsIMEComposing
 (
-PR_FALSE
+false
 )
 mShouldTxnSetSelection
 (
-PR_TRUE
+true
 )
 mDidPreDestroy
 (
-PR_FALSE
+false
 )
 mDidPostCreate
 (
-PR_FALSE
+false
 )
 mDocDirtyState
 (
@@ -977,7 +977,7 @@ selCon
 >
 SetCaretReadOnly
 (
-PR_FALSE
+false
 )
 ;
 selCon
@@ -1013,11 +1013,11 @@ state
 ;
 mDidPreDestroy
 =
-PR_FALSE
+false
 ;
 mDidPostCreate
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1059,7 +1059,7 @@ mDidPostCreate
 {
 mDidPostCreate
 =
-PR_TRUE
+true
 ;
 CreateEventListeners
 (
@@ -1119,7 +1119,7 @@ AddObserver
 (
 this
 SPELLCHECK_DICTIONARY_UPDATE_NOTIFICATION
-PR_FALSE
+false
 )
 ;
 }
@@ -1424,7 +1424,7 @@ spellcheckLevel
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1436,7 +1436,7 @@ CanEnableSpellCheck
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -1480,7 +1480,7 @@ IsDynamic
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -1504,7 +1504,7 @@ content
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1545,7 +1545,7 @@ element
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1665,7 +1665,7 @@ nsnull
 ;
 mDidPreDestroy
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1925,9 +1925,9 @@ aIsDocumentEditable
 =
 doc
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2596,7 +2596,7 @@ NS_OK
 ;
 if
 (
-PR_TRUE
+true
 =
 =
 aEnable
@@ -2977,7 +2977,7 @@ else
 *
 aCanUndo
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -3220,7 +3220,7 @@ else
 *
 aCanRedo
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -3478,7 +3478,7 @@ selPrivate
 >
 SetCanCacheFrameOffset
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -3524,7 +3524,7 @@ EndUpdateViewBatch
 ;
 ScrollSelectionIntoView
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -3538,7 +3538,7 @@ selPrivate
 >
 SetCanCacheFrameOffset
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -3664,7 +3664,7 @@ aDocumentIsEmpty
 *
 aDocumentIsEmpty
 =
-PR_TRUE
+true
 ;
 nsIDOMElement
 *
@@ -4537,7 +4537,7 @@ NS_ERROR_NULL_POINTER
 *
 aResultIsSet
 =
-PR_FALSE
+false
 ;
 nsresult
 result
@@ -4698,7 +4698,7 @@ mozdirty
 EmptyString
 (
 )
-PR_FALSE
+false
 )
 ;
 return
@@ -7286,7 +7286,7 @@ BeginIMEComposition
 {
 mInIMEMode
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -7421,11 +7421,11 @@ mIMEBufferLength
 ;
 mInIMEMode
 =
-PR_FALSE
+false
 ;
 mIsIMEComposing
 =
-PR_FALSE
+false
 ;
 NotifyEditorObservers
 (
@@ -8269,7 +8269,7 @@ tmp
 {
 destInBody
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -8505,7 +8505,7 @@ SetAttributeOrEquivalent
 destElement
 sourceAttrName
 sourceAttrValue
-PR_FALSE
+false
 )
 ;
 }
@@ -8518,7 +8518,7 @@ SetAttributeOrEquivalent
 destElement
 sourceAttrName
 sourceAttrValue
-PR_TRUE
+true
 )
 ;
 }
@@ -9611,7 +9611,7 @@ imeTxn
 ;
 isIMETransaction
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -9914,7 +9914,7 @@ rv
 GetNextNode
 (
 node
-PR_TRUE
+true
 address_of
 (
 next
@@ -10015,7 +10015,7 @@ rv
 GetPriorNode
 (
 node
-PR_TRUE
+true
 address_of
 (
 next
@@ -12051,7 +12051,7 @@ aNodeToJoin
 {
 bNeedToAdjust
 =
-PR_TRUE
+true
 ;
 selStartNode
 =
@@ -12090,7 +12090,7 @@ aNodeToKeepIsFirst
 {
 bNeedToAdjust
 =
-PR_TRUE
+true
 ;
 selStartOffset
 +
@@ -12112,7 +12112,7 @@ aNodeToJoin
 {
 bNeedToAdjust
 =
-PR_TRUE
+true
 ;
 selEndNode
 =
@@ -12151,7 +12151,7 @@ aNodeToKeepIsFirst
 {
 bNeedToAdjust
 =
-PR_TRUE
+true
 ;
 selEndOffset
 +
@@ -13878,7 +13878,7 @@ else
 {
 hasChildren
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -13991,7 +13991,7 @@ else
 {
 hasChildren
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -14015,7 +14015,7 @@ aNode
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -14047,7 +14047,7 @@ aParent
 NS_ENSURE_TRUE
 (
 parentElement
-PR_FALSE
+false
 )
 ;
 nsAutoString
@@ -14122,7 +14122,7 @@ aChild
 NS_ENSURE_TRUE
 (
 childElement
-PR_FALSE
+false
 )
 ;
 childElement
@@ -14159,7 +14159,7 @@ aChildTag
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -14176,7 +14176,7 @@ inNode
 NS_ENSURE_TRUE
 (
 inNode
-PR_FALSE
+false
 )
 ;
 nsIDOMElement
@@ -14219,7 +14219,7 @@ inNode
 NS_ENSURE_TRUE
 (
 inNode
-PR_FALSE
+false
 )
 ;
 nsIDOMElement
@@ -14233,7 +14233,7 @@ GetRoot
 NS_ENSURE_TRUE
 (
 rootElement
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -14259,7 +14259,7 @@ get
 )
 )
 return
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -14294,7 +14294,7 @@ parent
 root
 )
 return
-PR_TRUE
+true
 ;
 node
 =
@@ -14307,7 +14307,7 @@ parent
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -14324,9 +14324,9 @@ aNode
 return
 aNode
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 }
 bool
@@ -14341,7 +14341,7 @@ aNode
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -14358,7 +14358,7 @@ aNode
 NS_ENSURE_TRUE
 (
 aNode
-PR_FALSE
+false
 )
 ;
 if
@@ -14376,7 +14376,7 @@ aNode
 )
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -14411,7 +14411,7 @@ if
 resultFrame
 )
 return
-PR_FALSE
+false
 ;
 NS_ASSERTION
 (
@@ -14461,7 +14461,7 @@ eTEXT
 )
 )
 return
-PR_TRUE
+true
 ;
 while
 (
@@ -14498,7 +14498,7 @@ HasAnyNoncollapsedCharacters
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 resultFrame
@@ -14513,7 +14513,7 @@ GetNextContinuation
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -15022,7 +15022,7 @@ NodesSameType
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -15069,7 +15069,7 @@ IsTextOrElementNode
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 PRUint16
@@ -15140,7 +15140,7 @@ IsTextNode
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 PRUint16
@@ -15824,7 +15824,7 @@ elementStyle
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -16012,7 +16012,7 @@ len
 {
 bDoSplit
 =
-PR_TRUE
+true
 ;
 res
 =
@@ -17230,7 +17230,7 @@ type
 ;
 mIsIMEComposing
 =
-PR_FALSE
+false
 ;
 listlen
 =
@@ -17335,7 +17335,7 @@ TEXTRANGE_SELECTEDCONVERTEDTEXT
 {
 mIsIMEComposing
 =
-PR_TRUE
+true
 ;
 #
 ifdef
@@ -17348,7 +17348,7 @@ nsEditor
 :
 mIsIMEComposing
 =
-PR_TRUE
+true
 \
 n
 "
@@ -17952,7 +17952,7 @@ this
 aElement
 aAttribute
 aValue
-PR_FALSE
+false
 )
 ;
 if
@@ -18025,7 +18025,7 @@ aAttribute
 EmptyString
 (
 )
-PR_TRUE
+true
 )
 ;
 if
@@ -19178,7 +19178,7 @@ aAction
 &
 &
 (
-PR_TRUE
+true
 =
 =
 isFirst
@@ -19196,7 +19196,7 @@ result
 GetPriorNode
 (
 node
-PR_TRUE
+true
 address_of
 (
 priorNode
@@ -19405,7 +19405,7 @@ aAction
 &
 &
 (
-PR_TRUE
+true
 =
 =
 isLast
@@ -19423,7 +19423,7 @@ result
 GetNextNode
 (
 node
-PR_TRUE
+true
 address_of
 (
 nextNode
@@ -19711,7 +19711,7 @@ GetPriorNode
 (
 node
 offset
-PR_TRUE
+true
 address_of
 (
 selectedNode
@@ -19734,7 +19734,7 @@ GetNextNode
 (
 node
 offset
-PR_TRUE
+true
 address_of
 (
 selectedNode
@@ -20340,7 +20340,7 @@ CreateElem
 aTag
 nsnull
 kNameSpaceID_XHTML
-PR_FALSE
+false
 aContent
 )
 ;
@@ -20901,7 +20901,7 @@ caret
 >
 SetIgnoreUserModify
 (
-PR_FALSE
+false
 )
 ;
 caret
@@ -20927,7 +20927,7 @@ selCon
 >
 SetCaretEnabled
 (
-PR_TRUE
+true
 )
 ;
 selCon
@@ -21823,7 +21823,7 @@ aNode
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 nsKeyEvent
@@ -21997,7 +21997,7 @@ piTarget
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsFocusManager
@@ -22014,7 +22014,7 @@ GetFocusManager
 NS_ENSURE_TRUE
 (
 fm
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -22055,7 +22055,7 @@ nsFocusManager
 GetFocusedDescendant
 (
 ourWindow
-PR_FALSE
+false
 getter_AddRefs
 (
 win
@@ -22095,7 +22095,7 @@ aEvent
 NS_ENSURE_TRUE
 (
 NSEvent
-PR_FALSE
+false
 )
 ;
 bool
@@ -22116,7 +22116,7 @@ isTrusted
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 if
@@ -22125,7 +22125,7 @@ isTrusted
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return

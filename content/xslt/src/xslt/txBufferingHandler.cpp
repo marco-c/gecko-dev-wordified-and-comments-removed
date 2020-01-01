@@ -570,7 +570,7 @@ txBufferingHandler
 :
 mCanAddAttribute
 (
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR
@@ -758,7 +758,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 mCanAddAttribute
 =
-PR_FALSE
+false
 ;
 txOutputTransaction
 :
@@ -895,7 +895,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 mCanAddAttribute
 =
-PR_FALSE
+false
 ;
 txOutputTransaction
 *
@@ -984,7 +984,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 mCanAddAttribute
 =
-PR_FALSE
+false
 ;
 txOutputTransaction
 *
@@ -1039,7 +1039,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 mCanAddAttribute
 =
-PR_FALSE
+false
 ;
 txOutputTransaction
 *
@@ -1138,7 +1138,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 mCanAddAttribute
 =
-PR_TRUE
+true
 ;
 txOutputTransaction
 *
@@ -1195,7 +1195,7 @@ NS_ERROR_OUT_OF_MEMORY
 ;
 mCanAddAttribute
 =
-PR_TRUE
+true
 ;
 txOutputTransaction
 *

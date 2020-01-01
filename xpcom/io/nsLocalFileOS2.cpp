@@ -1063,7 +1063,7 @@ nsnull
 *
 result
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1621,7 +1621,7 @@ nsDependentCString
 (
 drive
 )
-PR_FALSE
+false
 &
 file
 )
@@ -2024,7 +2024,7 @@ nsLocalFile
 :
 mDirty
 (
-PR_TRUE
+true
 )
 {
 }
@@ -2128,7 +2128,7 @@ other
 :
 mDirty
 (
-PR_TRUE
+true
 )
 mWorkingPath
 (
@@ -2284,7 +2284,7 @@ NS_ERROR_FILE_NOT_FOUND
 ;
 mDirty
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2985,7 +2985,7 @@ PromiseFlatCString
 (
 node
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -3008,7 +3008,7 @@ PromiseFlatCString
 (
 node
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -4393,7 +4393,7 @@ mutArray
 AppendElement
 (
 typeString
-PR_FALSE
+false
 )
 ;
 cnt
@@ -4455,7 +4455,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 TypeEaEnumerator
 typeEnum
@@ -4525,7 +4525,7 @@ lth
 *
 _retval
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -6256,7 +6256,7 @@ rv
 =
 Remove
 (
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -6364,7 +6364,7 @@ CopyMove
 (
 newParentDir
 newName
-PR_FALSE
+false
 )
 ;
 }
@@ -6388,7 +6388,7 @@ CopyMove
 (
 newParentDir
 newName
-PR_FALSE
+false
 )
 ;
 }
@@ -6412,7 +6412,7 @@ CopyMove
 (
 newParentDir
 newName
-PR_TRUE
+true
 )
 ;
 }
@@ -6470,7 +6470,7 @@ nsTraceRefcntImpl
 :
 SetActivityIsLegal
 (
-PR_FALSE
+false
 )
 ;
 #
@@ -6495,7 +6495,7 @@ nsTraceRefcntImpl
 :
 SetActivityIsLegal
 (
-PR_TRUE
+true
 )
 ;
 #
@@ -7731,7 +7731,7 @@ rv
 NS_NewNativeLocalFile
 (
 parentPath
-PR_FALSE
+false
 getter_AddRefs
 (
 localFile
@@ -7784,7 +7784,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 MakeDirty
 (
@@ -7832,7 +7832,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -7938,7 +7938,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -7960,7 +7960,7 @@ rv
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -7989,7 +7989,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -8235,7 +8235,7 @@ bat
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -8260,7 +8260,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -8314,7 +8314,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -8368,7 +8368,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -8473,7 +8473,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -8498,7 +8498,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -8576,7 +8576,7 @@ CHECK_mWorkingPath
 *
 _retval
 =
-PR_FALSE
+false
 ;
 nsCAutoString
 myFilePath
@@ -8667,7 +8667,7 @@ myFilePathLen
 *
 _retval
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -8717,7 +8717,7 @@ aFollowLinks
 *
 aFollowLinks
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -9727,7 +9727,7 @@ otherfile
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

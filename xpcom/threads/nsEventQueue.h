@@ -75,7 +75,7 @@ HasPendingEvent
 return
 GetEvent
 (
-PR_FALSE
+false
 nsnull
 )
 ;
@@ -92,7 +92,7 @@ runnable
 return
 GetEvent
 (
-PR_FALSE
+false
 runnable
 )
 ;
@@ -109,7 +109,7 @@ runnable
 return
 GetEvent
 (
-PR_TRUE
+true
 runnable
 )
 ;

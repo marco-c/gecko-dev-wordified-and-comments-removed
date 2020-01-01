@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 prprf
 .
 h
@@ -89,6 +98,10 @@ nsIPrefLocalizedString
 .
 h
 "
+using
+namespace
+mozilla
+;
 NS_IMPL_ISUPPORTS3
 (
 nsDirIndexParser
@@ -118,7 +131,7 @@ mLineStart
 ;
 mHasDescription
 =
-PR_FALSE
+false
 ;
 mFormat
 =
@@ -615,7 +628,7 @@ num
 (
 2
 *
-NS_ARRAY_LENGTH
+ArrayLength
 (
 gFieldTable
 )
@@ -816,7 +829,7 @@ description
 )
 mHasDescription
 =
-PR_TRUE
+true
 ;
 for
 (
@@ -1191,7 +1204,7 @@ result
 ;
 success
 =
-PR_TRUE
+true
 ;
 }
 NS_Free
@@ -1346,7 +1359,7 @@ if
 PR_ParseTimeString
 (
 value
-PR_FALSE
+false
 &
 tm
 )
@@ -1634,7 +1647,7 @@ numItems
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 +

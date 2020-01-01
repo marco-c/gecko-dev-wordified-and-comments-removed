@@ -1900,7 +1900,7 @@ NS_ConvertUTF8toUTF16
 (
 wdpath
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 workingDir
@@ -2020,7 +2020,7 @@ MOZ_NO_REMOTE
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2034,7 +2034,7 @@ NS_ERROR_FAILURE
 *
 aResult
 =
-PR_FALSE
+false
 ;
 :
 :
@@ -2139,7 +2139,7 @@ StartDDE
 *
 aResult
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2206,12 +2206,12 @@ CP_WINANSI
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 int
@@ -2390,7 +2390,7 @@ NS_OK
 *
 aResult
 =
-PR_TRUE
+true
 ;
 Mutex
 ddeLock
@@ -2429,7 +2429,7 @@ else
 *
 aResult
 =
-PR_FALSE
+false
 ;
 }
 ddeLock
@@ -2444,7 +2444,7 @@ else
 *
 aResult
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -2653,7 +2653,7 @@ Enable
 {
 mCanHandleRequests
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -2687,7 +2687,7 @@ quit
 -
 application
 "
-PR_FALSE
+false
 )
 ;
 }
@@ -3738,7 +3738,7 @@ endif
 }
 while
 (
-PR_FALSE
+false
 )
 ;
 break
@@ -3826,7 +3826,7 @@ result
 =
 CreateDDEData
 (
-PR_FALSE
+false
 )
 ;
 break
@@ -3840,7 +3840,7 @@ result
 =
 CreateDDEData
 (
-PR_FALSE
+false
 )
 ;
 break
@@ -5736,7 +5736,7 @@ window
 }
 while
 (
-PR_FALSE
+false
 )
 ;
 char

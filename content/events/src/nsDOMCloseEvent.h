@@ -45,7 +45,7 @@ aEvent
 )
 mWasClean
 (
-PR_FALSE
+false
 )
 mReasonCode
 (

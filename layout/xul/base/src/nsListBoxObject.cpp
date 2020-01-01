@@ -157,7 +157,7 @@ body
 =
 GetListBoxBody
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -194,7 +194,7 @@ body
 =
 GetListBoxBody
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -231,7 +231,7 @@ body
 =
 GetListBoxBody
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -267,7 +267,7 @@ body
 =
 GetListBoxBody
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -303,7 +303,7 @@ body
 =
 GetListBoxBody
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -339,7 +339,7 @@ body
 =
 GetListBoxBody
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -379,7 +379,7 @@ body
 =
 GetListBoxBody
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -425,7 +425,7 @@ body
 =
 GetListBoxBody
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -617,7 +617,7 @@ shell
 =
 GetPresShell
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -638,7 +638,7 @@ aFlush
 ?
 GetFrame
 (
-PR_FALSE
+false
 )
 :
 mContent

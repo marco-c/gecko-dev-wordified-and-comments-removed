@@ -815,7 +815,7 @@ GetAllowsAnonChildAccessibles
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsXFormsContainerAccessible
@@ -862,7 +862,7 @@ GetAllowsAnonChildAccessibles
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 nsXFormsEditableAccessible
@@ -1260,7 +1260,7 @@ selectedItems
 AppendElement
 (
 item
-PR_FALSE
+false
 )
 ;
 nsIMutableArray
@@ -1408,7 +1408,7 @@ selectedItems
 AppendElement
 (
 item
-PR_FALSE
+false
 )
 ;
 }
@@ -2387,7 +2387,7 @@ if
 content
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -2542,6 +2542,6 @@ DOMNode
 }
 }
 return
-PR_FALSE
+false
 ;
 }

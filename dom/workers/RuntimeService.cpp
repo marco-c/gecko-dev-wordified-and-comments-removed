@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 RuntimeService
 .
 h
@@ -182,6 +191,10 @@ WorkerPrivate
 .
 h
 "
+using
+namespace
+mozilla
+;
 USING_WORKERS_NAMESPACE
 using
 mozilla
@@ -1463,7 +1476,7 @@ failed
 ;
 isChrome
 =
-PR_FALSE
+false
 ;
 }
 isChrome
@@ -3601,7 +3614,7 @@ AddObserver
 (
 this
 NS_XPCOM_SHUTDOWN_THREADS_OBSERVER_ID
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3623,7 +3636,7 @@ index
 ;
 index
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 gPrefsToWatch
 )
@@ -4182,7 +4195,7 @@ index
 ;
 index
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 gPrefsToWatch
 )

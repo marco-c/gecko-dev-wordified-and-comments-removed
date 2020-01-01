@@ -507,13 +507,6 @@ h
 #
 include
 "
-nsIAppShell
-.
-h
-"
-#
-include
-"
 nsIAppShellService
 .
 h
@@ -1777,9 +1770,6 @@ aHandleEventFunction
 nsDeviceContext
 *
 aContext
-nsIAppShell
-*
-aAppShell
 nsIToolkit
 *
 aToolkit
@@ -1999,7 +1989,6 @@ aParent
 newBounds
 aHandleEventFunction
 aContext
-aAppShell
 aToolkit
 aInitData
 )
@@ -2094,7 +2083,6 @@ CreatePopupContentView
 newBounds
 aHandleEventFunction
 aContext
-aAppShell
 aToolkit
 )
 ;
@@ -3306,9 +3294,6 @@ aHandleEventFunction
 nsDeviceContext
 *
 aContext
-nsIAppShell
-*
-aAppShell
 nsIToolkit
 *
 aToolkit
@@ -3371,7 +3356,6 @@ nsnull
 aRect
 aHandleEventFunction
 aContext
-aAppShell
 aToolkit
 nsnull
 )

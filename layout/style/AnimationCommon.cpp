@@ -254,7 +254,7 @@ aData
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsRestyleHint
@@ -287,7 +287,7 @@ aPresContext
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRInt64
@@ -755,7 +755,7 @@ default
 :
 NS_ABORT_IF_FALSE
 (
-PR_FALSE
+false
 "
 bad
 type

@@ -71,7 +71,7 @@ nsnull
 )
 mAllowAudioData
 (
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR

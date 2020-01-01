@@ -757,7 +757,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -779,7 +779,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1090,7 +1090,7 @@ seq
 >
 SetIsExpanded
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -1104,7 +1104,7 @@ seq
 >
 SetIsExpanded
 (
-PR_TRUE
+true
 )
 ;
 rowCountChange
@@ -1198,7 +1198,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1223,7 +1223,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1352,7 +1352,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1391,7 +1391,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1488,7 +1488,7 @@ next
 *
 _retval
 =
-PR_FALSE
+false
 ;
 }
 else

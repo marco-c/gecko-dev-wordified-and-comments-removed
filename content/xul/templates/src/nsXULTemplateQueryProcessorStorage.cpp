@@ -253,7 +253,7 @@ mStatement
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -599,7 +599,7 @@ nsXULTemplateQueryProcessorStorage
 :
 mGenerationStarted
 (
-PR_FALSE
+false
 )
 {
 }
@@ -637,7 +637,7 @@ nsnull
 *
 aShouldDelayBuilding
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1080,7 +1080,7 @@ Done
 {
 mGenerationStarted
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1165,7 +1165,7 @@ nsContentUtils
 GetNodeTextContent
 (
 queryContent
-PR_FALSE
+false
 sqlQuery
 )
 ;
@@ -1266,7 +1266,7 @@ nsContentUtils
 GetNodeTextContent
 (
 child
-PR_FALSE
+false
 value
 )
 ;
@@ -1730,7 +1730,7 @@ aResults
 {
 mGenerationStarted
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <

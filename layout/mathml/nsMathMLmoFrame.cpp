@@ -182,7 +182,7 @@ if
 aFrame
 )
 return
-PR_FALSE
+false
 ;
 bool
 isSelected
@@ -204,7 +204,7 @@ if
 isSelected
 )
 return
-PR_FALSE
+false
 ;
 const
 nsFrameSelection
@@ -235,7 +235,7 @@ GetContent
 )
 0
 1
-PR_TRUE
+true
 )
 ;
 if
@@ -244,7 +244,7 @@ if
 details
 )
 return
-PR_FALSE
+false
 ;
 while
 (
@@ -269,7 +269,7 @@ next
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -416,7 +416,7 @@ GetRect
 ;
 isSelected
 =
-PR_TRUE
+true
 ;
 }
 rv
@@ -493,7 +493,7 @@ nsContentUtils
 GetNodeTextContent
 (
 mContent
-PR_FALSE
+false
 data
 )
 ;
@@ -606,7 +606,7 @@ mContent
 mStyleContext
 &
 mMathMLChar
-PR_FALSE
+false
 )
 ;
 return
@@ -2638,7 +2638,7 @@ NS_STRETCH_DIRECTION_VERTICAL
 {
 isVertical
 =
-PR_TRUE
+true
 ;
 }
 PRUint32
@@ -3195,7 +3195,7 @@ NS_MATHML_OPERATOR_FORM
 ;
 useMathMLChar
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -3214,7 +3214,7 @@ rv
 Place
 (
 aRenderingContext
-PR_TRUE
+true
 aDesiredStretchSize
 )
 ;
@@ -4085,7 +4085,7 @@ GetStretchHint
 (
 mFlags
 mPresentationData
-PR_TRUE
+true
 )
 ;
 width

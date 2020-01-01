@@ -502,7 +502,7 @@ mDirBufCursor
 )
 mDirOpen
 (
-PR_FALSE
+false
 )
 mMonitorMountInProgress
 (
@@ -938,7 +938,7 @@ rv
 }
 mDirOpen
 =
-PR_TRUE
+true
 ;
 mDirList
 =
@@ -2471,7 +2471,7 @@ aResult
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3388,7 +3388,7 @@ AddObserver
 (
 MOZ_GIO_SUPPORTED_PROTOCOLS
 this
-PR_FALSE
+false
 )
 ;
 }
@@ -3523,7 +3523,7 @@ if
 colon
 )
 return
-PR_FALSE
+false
 ;
 PRUint32
 length
@@ -3565,7 +3565,7 @@ if
 found
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -3591,10 +3591,10 @@ length
 '
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP
@@ -3827,7 +3827,7 @@ uri_schemes
 {
 uri_scheme_supported
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -4036,7 +4036,7 @@ aResult
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

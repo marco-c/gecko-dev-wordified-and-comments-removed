@@ -2051,7 +2051,7 @@ GetModifiableMapped
 (
 nsnull
 nsnull
-PR_FALSE
+false
 getter_AddRefs
 (
 mapped
@@ -2794,7 +2794,7 @@ GetModifiableMapped
 (
 nsnull
 nsnull
-PR_FALSE
+false
 getter_AddRefs
 (
 mapped
@@ -3157,7 +3157,7 @@ child
 >
 UnbindFromTree
 (
-PR_FALSE
+false
 )
 ;
 child
@@ -3620,7 +3620,7 @@ void
 NS_ENSURE_TRUE
 (
 newImpl
-PR_FALSE
+false
 )
 ;
 mImpl
@@ -3656,7 +3656,7 @@ size
 NS_IMPL_EXTRA_SIZE
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -3714,7 +3714,7 @@ ATTRSIZE
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -3790,7 +3790,7 @@ offset
 nsnull
 ;
 return
-PR_TRUE
+true
 ;
 }
 inline

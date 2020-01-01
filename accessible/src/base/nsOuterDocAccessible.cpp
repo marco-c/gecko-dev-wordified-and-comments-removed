@@ -442,7 +442,7 @@ aAccessible
 )
 )
 return
-PR_FALSE
+false
 ;
 NS_LOG_ACCDOCCREATE
 (
@@ -467,7 +467,7 @@ outerdoc
 this
 )
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -513,7 +513,7 @@ remove
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 NS_LOG_ACCDOCDESTROY_FOR

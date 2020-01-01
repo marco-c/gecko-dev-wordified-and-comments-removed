@@ -1147,7 +1147,7 @@ if
 aString
 )
 return
-PR_FALSE
+false
 ;
 aString
 +
@@ -1155,7 +1155,7 @@ aString
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -1181,7 +1181,7 @@ if
 aString
 )
 return
-PR_FALSE
+false
 ;
 aString
 +
@@ -1189,7 +1189,7 @@ aString
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -1227,7 +1227,7 @@ if
 aString
 )
 return
-PR_FALSE
+false
 ;
 +
 +
@@ -1235,7 +1235,7 @@ aString
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool

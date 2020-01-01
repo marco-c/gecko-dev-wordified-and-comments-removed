@@ -132,7 +132,7 @@ aNodeInfo
 )
 mHandlingEvent
 (
-PR_FALSE
+false
 )
 {
 }
@@ -410,7 +410,7 @@ aChild
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -435,7 +435,7 @@ GetParent
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -563,7 +563,7 @@ this
 {
 mHandlingEvent
 =
-PR_TRUE
+true
 ;
 switch
 (
@@ -880,7 +880,7 @@ aVisitor
 mEvent
 )
 content
-PR_FALSE
+false
 NS_EVENT_FLAG_PREVENT_MULTIPLE_ACTIONS
 &
 status
@@ -902,7 +902,7 @@ break
 }
 mHandlingEvent
 =
-PR_FALSE
+false
 ;
 }
 return

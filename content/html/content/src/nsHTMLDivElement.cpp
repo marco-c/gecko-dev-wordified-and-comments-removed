@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsIDOMHTMLDivElement
 .
 h
@@ -47,6 +56,10 @@ nsDOMMemoryReporter
 .
 h
 "
+using
+namespace
+mozilla
+;
 class
 nsHTMLDivElement
 :
@@ -538,7 +551,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )
@@ -579,7 +592,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )

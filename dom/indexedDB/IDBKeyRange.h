@@ -81,11 +81,11 @@ IDBKeyRange
 :
 mLowerOpen
 (
-PR_FALSE
+false
 )
 mUpperOpen
 (
-PR_FALSE
+false
 )
 {
 }

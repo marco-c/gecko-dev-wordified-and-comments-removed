@@ -207,7 +207,7 @@ nsnull
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -251,7 +251,7 @@ NULL
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -287,11 +287,11 @@ CERTDB_VALID_CA
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 PRInt32

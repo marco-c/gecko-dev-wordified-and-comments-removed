@@ -448,7 +448,7 @@ rv
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 PRUint32
@@ -1613,7 +1613,7 @@ outSpec
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -1960,7 +1960,7 @@ nsDependentCString
 (
 inDir
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 inDirFile
@@ -1991,7 +1991,7 @@ nsDependentCString
 (
 outDir
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 outDirFile

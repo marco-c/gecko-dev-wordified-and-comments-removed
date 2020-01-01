@@ -75,7 +75,7 @@ __VA_ARGS__
 ;
 \
 return
-PR_FALSE
+false
 ;
 \
 }
@@ -109,7 +109,7 @@ __VA_ARGS__
 ;
 \
 return
-PR_FALSE
+false
 ;
 \
 }
@@ -144,7 +144,7 @@ __VA_ARGS__
 ;
 \
 return
-PR_FALSE
+false
 ;
 \
 }
@@ -283,7 +283,7 @@ hdr
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -373,7 +373,7 @@ hdr
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 int
@@ -517,7 +517,7 @@ age
 =
 100
 "
-PR_FALSE
+false
 stss
 pm
 )
@@ -536,7 +536,7 @@ age
 =
 100
 "
-PR_FALSE
+false
 stss
 pm
 )
@@ -555,7 +555,7 @@ age
 =
 100
 "
-PR_FALSE
+false
 stss
 pm
 )
@@ -574,7 +574,7 @@ age
 =
 100
 "
-PR_FALSE
+false
 stss
 pm
 )
@@ -593,7 +593,7 @@ age
 =
 100
 "
-PR_FALSE
+false
 stss
 pm
 )
@@ -612,7 +612,7 @@ aGe
 =
 100
 "
-PR_FALSE
+false
 stss
 pm
 )
@@ -631,7 +631,7 @@ age
 =
 100
 "
-PR_FALSE
+false
 stss
 pm
 )
@@ -650,7 +650,7 @@ AGE
 =
 100
 "
-PR_FALSE
+false
 stss
 pm
 )
@@ -669,7 +669,7 @@ Age
 =
 100
 "
-PR_FALSE
+false
 stss
 pm
 )
@@ -688,7 +688,7 @@ AGE
 =
 100
 "
-PR_FALSE
+false
 stss
 pm
 )
@@ -709,7 +709,7 @@ age
 ;
 includeSubdomains
 "
-PR_FALSE
+false
 stss
 pm
 )
@@ -730,7 +730,7 @@ age
 ;
 includeSubdomains
 "
-PR_FALSE
+false
 stss
 pm
 )
@@ -751,7 +751,7 @@ age
 ;
 includeSubdomains
 "
-PR_FALSE
+false
 stss
 pm
 )
@@ -772,7 +772,7 @@ age
 ;
 includeSubdomains
 "
-PR_FALSE
+false
 stss
 pm
 )
@@ -793,7 +793,7 @@ age
 ;
 includeSubdomains
 "
-PR_FALSE
+false
 stss
 pm
 )
@@ -814,7 +814,7 @@ aGe
 ;
 includeSUBDOMAINS
 "
-PR_FALSE
+false
 stss
 pm
 )
@@ -835,7 +835,7 @@ age
 ;
 includeSubDomains
 "
-PR_FALSE
+false
 stss
 pm
 )
@@ -856,7 +856,7 @@ AGE
 ;
 iNcLuDeSuBdoMaInS
 "
-PR_FALSE
+false
 stss
 pm
 )
@@ -877,7 +877,7 @@ Age
 ;
 includesubdomains
 "
-PR_FALSE
+false
 stss
 pm
 )
@@ -898,7 +898,7 @@ AgE
 =
 100
 "
-PR_FALSE
+false
 stss
 pm
 )
@@ -917,7 +917,7 @@ age
 =
 100randomstuffhere
 "
-PR_TRUE
+true
 stss
 pm
 )
@@ -937,7 +937,7 @@ age
 100
 includesubdomains
 "
-PR_TRUE
+true
 stss
 pm
 )
@@ -958,7 +958,7 @@ age
 bar
 foo
 "
-PR_TRUE
+true
 stss
 pm
 )
@@ -979,7 +979,7 @@ age
 ;
 includesubdomainsSomeStuff
 "
-PR_TRUE
+true
 stss
 pm
 )
@@ -991,7 +991,7 @@ rvs
 .
 Contains
 (
-PR_FALSE
+false
 )
 ?
 1
@@ -1261,7 +1261,7 @@ rvs
 .
 Contains
 (
-PR_FALSE
+false
 )
 ?
 1

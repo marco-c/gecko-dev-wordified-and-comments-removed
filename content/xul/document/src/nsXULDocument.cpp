@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsXULDocument
 .
 h
@@ -539,10 +548,10 @@ isChrome
 isChrome
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -580,7 +589,7 @@ canOverlay
 canOverlay
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -603,10 +612,10 @@ canOverlay
 canOverlay
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -823,7 +832,7 @@ aElement
 0
 )
 return
-PR_TRUE
+true
 ;
 return
 mRefContentList
@@ -918,11 +927,11 @@ kNameSpaceID_XUL
 ;
 mIsXUL
 =
-PR_TRUE
+true
 ;
 mDelayFrameLoaderInitialization
 =
-PR_TRUE
+true
 ;
 mAllowXULXBL
 =
@@ -1699,11 +1708,11 @@ aSink
 {
 mStillWalking
 =
-PR_TRUE
+true
 ;
 mMayStartLayout
 =
-PR_FALSE
+false
 ;
 mDocumentLoadGroup
 =
@@ -1718,7 +1727,7 @@ aChannel
 ;
 mHaveInputEncoding
 =
-PR_TRUE
+true
 ;
 nsresult
 rv
@@ -2266,7 +2275,7 @@ return
 }
 OnPrototypeLoadDone
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -2430,11 +2439,11 @@ get
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -2590,12 +2599,12 @@ observes
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 struct
@@ -3711,7 +3720,7 @@ continue
 nsEvent
 event
 (
-PR_TRUE
+true
 NS_XUL_BROADCAST
 )
 ;
@@ -4938,7 +4947,7 @@ nsContentUtils
 :
 DestroyMatchString
 attrValue
-PR_TRUE
+true
 attrAtom
 kNameSpaceID_Unknown
 )
@@ -5075,7 +5084,7 @@ nsContentUtils
 :
 DestroyMatchString
 attrValue
-PR_TRUE
+true
 attrAtom
 nameSpaceId
 )
@@ -5232,7 +5241,7 @@ PromiseFlatString
 (
 aAttr
 )
-PR_TRUE
+true
 &
 colon
 )
@@ -5342,7 +5351,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 enabled
@@ -5548,7 +5557,7 @@ GetTarget
 (
 element
 attr
-PR_TRUE
+true
 getter_AddRefs
 (
 oldvalue
@@ -5669,7 +5678,7 @@ Assert
 element
 attr
 newvalue
-PR_TRUE
+true
 )
 ;
 }
@@ -5751,7 +5760,7 @@ HasAssertion
 doc
 kNC_persist
 element
-PR_TRUE
+true
 &
 hasAssertion
 )
@@ -5782,7 +5791,7 @@ Assert
 doc
 kNC_persist
 element
-PR_TRUE
+true
 )
 ;
 if
@@ -7866,7 +7875,7 @@ void
 {
 mMayStartLayout
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -8271,7 +8280,7 @@ eCaseMatters
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -8605,7 +8614,7 @@ NS_OK
 ;
 mApplyingPersistedAttrs
 =
-PR_TRUE
+true
 ;
 ApplyPersistentAttributesInternal
 (
@@ -8613,7 +8622,7 @@ ApplyPersistentAttributesInternal
 ;
 mApplyingPersistedAttrs
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -8675,7 +8684,7 @@ GetTargets
 (
 doc
 kNC_persist
-PR_TRUE
+true
 getter_AddRefs
 (
 persisted
@@ -9036,7 +9045,7 @@ GetTarget
 (
 aResource
 property
-PR_TRUE
+true
 getter_AddRefs
 (
 node
@@ -9175,7 +9184,7 @@ SetAttr
 kNameSpaceID_None
 attr
 wrapper
-PR_TRUE
+true
 )
 ;
 }
@@ -9539,13 +9548,13 @@ kNameSpaceID_XUL
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -9827,7 +9836,7 @@ rv
 AppendChildTo
 (
 root
-PR_FALSE
+false
 )
 ;
 if
@@ -10063,7 +10072,7 @@ InsertChildAt
 (
 node
 aIndex
-PR_FALSE
+false
 )
 ;
 }
@@ -10129,7 +10138,7 @@ ssle
 >
 InitStyleLinkElement
 (
-PR_FALSE
+false
 )
 ;
 ssle
@@ -10137,7 +10146,7 @@ ssle
 >
 SetEnableUpdates
 (
-PR_FALSE
+false
 )
 ;
 ssle
@@ -10162,7 +10171,7 @@ InsertChildAt
 (
 aPINode
 aIndex
-PR_FALSE
+false
 )
 ;
 if
@@ -10180,7 +10189,7 @@ ssle
 >
 SetEnableUpdates
 (
-PR_TRUE
+true
 )
 ;
 bool
@@ -10271,7 +10280,7 @@ InsertChildAt
 (
 aPINode
 aIndex
-PR_FALSE
+false
 )
 ;
 if
@@ -10703,7 +10712,7 @@ rv
 LoadOverlayInternal
 (
 uri
-PR_TRUE
+true
 &
 shouldReturn
 &
@@ -10760,12 +10769,12 @@ rv
 *
 aShouldReturn
 =
-PR_FALSE
+false
 ;
 *
 aFailureFromContent
 =
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -10849,7 +10858,7 @@ NodePrincipal
 CheckMayLoad
 (
 aURI
-PR_TRUE
+true
 )
 ;
 if
@@ -10863,7 +10872,7 @@ rv
 *
 aFailureFromContent
 =
-PR_TRUE
+true
 ;
 return
 rv
@@ -10957,7 +10966,7 @@ loaded
 *
 aShouldReturn
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -11182,7 +11191,7 @@ aURI
 *
 aFailureFromContent
 =
-PR_TRUE
+true
 ;
 return
 rv
@@ -11221,7 +11230,7 @@ aIsDynamic
 *
 aShouldReturn
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -11536,7 +11545,7 @@ element
 >
 DoneAddingChildren
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -11679,7 +11688,7 @@ element
 AppendChildTo
 (
 child
-PR_FALSE
+false
 )
 ;
 if
@@ -11803,7 +11812,7 @@ child
 >
 DoneAddingChildren
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -11957,7 +11966,7 @@ textproto
 -
 >
 mValue
-PR_FALSE
+false
 )
 ;
 rv
@@ -11968,7 +11977,7 @@ element
 AppendChildTo
 (
 text
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -12064,7 +12073,7 @@ eXUL_PROPERTIES
 PINotInProlog
 "
 params
-NS_ARRAY_LENGTH
+ArrayLength
 (
 params
 )
@@ -12197,7 +12206,7 @@ rv
 LoadOverlayInternal
 (
 uri
-PR_FALSE
+false
 &
 shouldReturn
 &
@@ -12309,7 +12318,7 @@ ApplyPersistentAttributes
 ;
 mStillWalking
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -12413,11 +12422,11 @@ mDocumentLoaded
 {
 mDocumentLoaded
 =
-PR_TRUE
+true
 ;
 NotifyPossibleTitleChange
 (
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -12556,7 +12565,7 @@ true
 ;
 mDelayFrameLoaderInitialization
 =
-PR_FALSE
+false
 ;
 NS_WARN_IF_FALSE
 (
@@ -12604,7 +12613,7 @@ DispatchContentLoadedEvents
 ;
 mInitialLayoutComplete
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -12920,7 +12929,7 @@ mHandlingDelayedAttrChange
 {
 mHandlingDelayedAttrChange
 =
-PR_TRUE
+true
 ;
 for
 (
@@ -13007,7 +13016,7 @@ SetAttr
 kNameSpaceID_None
 attrName
 value
-PR_TRUE
+true
 )
 ;
 }
@@ -13020,7 +13029,7 @@ UnsetAttr
 (
 kNameSpaceID_None
 attrName
-PR_TRUE
+true
 )
 ;
 }
@@ -13062,7 +13071,7 @@ Clear
 ;
 mHandlingDelayedAttrChange
 =
-PR_FALSE
+false
 ;
 }
 PRUint32
@@ -13086,7 +13095,7 @@ mHandlingDelayedBroadcasters
 ;
 mHandlingDelayedBroadcasters
 =
-PR_TRUE
+true
 ;
 nsTArray
 <
@@ -13237,7 +13246,7 @@ eXUL_PROPERTIES
 MissingOverlay
 "
 params
-NS_ARRAY_LENGTH
+ArrayLength
 (
 params
 )
@@ -13307,7 +13316,7 @@ aScriptProto
 *
 aBlock
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -13431,7 +13440,7 @@ aScriptProto
 *
 aBlock
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -13481,7 +13490,7 @@ rv
 *
 aBlock
 =
-PR_FALSE
+false
 ;
 return
 rv
@@ -13599,13 +13608,13 @@ aScriptProto
 >
 mSrcLoading
 =
-PR_TRUE
+true
 ;
 }
 *
 aBlock
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -13783,7 +13792,7 @@ scriptProto
 >
 mSrcLoading
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -14502,7 +14511,7 @@ Create
 (
 aPrototype
 this
-PR_TRUE
+true
 getter_AddRefs
 (
 result
@@ -14884,7 +14893,7 @@ GetPrefix
 (
 )
 valueStr
-PR_FALSE
+false
 )
 ;
 if
@@ -14957,7 +14966,7 @@ ds
 *
 aNeedsHookup
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -15099,7 +15108,7 @@ content
 {
 isTreeBuilder
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -15195,7 +15204,7 @@ treechildren
 )
 nsnull
 kNameSpaceID_XUL
-PR_FALSE
+false
 getter_AddRefs
 (
 bodyContent
@@ -15214,7 +15223,7 @@ aElement
 AppendChildTo
 (
 bodyContent
-PR_FALSE
+false
 )
 ;
 }
@@ -15268,7 +15277,7 @@ builder
 CreateContents
 (
 aElement
-PR_FALSE
+false
 )
 ;
 }
@@ -15677,7 +15686,7 @@ get
 endif
 mResolved
 =
-PR_TRUE
+true
 ;
 return
 eResolve_Succeeded
@@ -16211,7 +16220,7 @@ aOverlayNode
 RemoveChildAt
 (
 0
-PR_FALSE
+false
 )
 ;
 if
@@ -16236,7 +16245,7 @@ aOverlayNode
 RemoveChildAt
 (
 0
-PR_FALSE
+false
 )
 ;
 if
@@ -16847,7 +16856,7 @@ aNameSpaceID
 aAttribute
 aPrefix
 aValue
-PR_FALSE
+false
 )
 ;
 if
@@ -17207,7 +17216,7 @@ rv
 *
 aDidResolve
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -17255,7 +17264,7 @@ NS_FINDBROADCASTER_NOT_FOUND
 *
 aNeedsHookup
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -17266,7 +17275,7 @@ NS_FINDBROADCASTER_AWAIT_OVERLAYS
 *
 aNeedsHookup
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -17419,12 +17428,12 @@ endif
 *
 aNeedsHookup
 =
-PR_FALSE
+false
 ;
 *
 aDidResolve
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -17496,7 +17505,7 @@ posStr
 ;
 isInsertAfter
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -17670,7 +17679,7 @@ rv
 ;
 wasInserted
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -17777,7 +17786,7 @@ rv
 )
 wasInserted
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -17835,7 +17844,7 @@ aParent
 RemoveChildAt
 (
 nodeOffset
-PR_TRUE
+true
 )
 ;
 }
@@ -17949,7 +17958,7 @@ mDocument
 >
 OnPrototypeLoadDone
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -18349,13 +18358,13 @@ case
 0
 :
 return
-PR_FALSE
+false
 ;
 case
 1
 :
 return
-PR_TRUE
+true
 ;
 default
 :
@@ -18385,7 +18394,7 @@ if
 reg
 )
 return
-PR_FALSE
+false
 ;
 nsCAutoString
 package
@@ -18495,7 +18504,7 @@ global
 else
 {
 return
-PR_FALSE
+false
 ;
 }
 }

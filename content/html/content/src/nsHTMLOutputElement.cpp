@@ -150,7 +150,7 @@ IsDisabled
 const
 {
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -410,7 +410,7 @@ SetNodeTextContent
 (
 this
 mDefaultValue
-PR_TRUE
+true
 )
 ;
 return
@@ -479,7 +479,7 @@ aValue
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -703,7 +703,7 @@ nsContentUtils
 GetNodeTextContent
 (
 this
-PR_TRUE
+true
 aValue
 )
 ;
@@ -735,7 +735,7 @@ SetNodeTextContent
 (
 this
 aValue
-PR_TRUE
+true
 )
 ;
 }
@@ -790,7 +790,7 @@ SetNodeTextContent
 (
 this
 mDefaultValue
-PR_TRUE
+true
 )
 ;
 }
@@ -863,7 +863,7 @@ nsContentUtils
 GetNodeTextContent
 (
 this
-PR_TRUE
+true
 mDefaultValue
 )
 ;

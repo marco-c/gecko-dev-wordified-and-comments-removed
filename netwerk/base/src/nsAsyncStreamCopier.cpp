@@ -110,7 +110,7 @@ NS_OK
 )
 mIsPending
 (
-PR_FALSE
+false
 )
 {
 #
@@ -272,7 +272,7 @@ mIsPending
 {
 mIsPending
 =
-PR_FALSE
+false
 ;
 mStatus
 =
@@ -839,7 +839,7 @@ rv
 }
 mIsPending
 =
-PR_TRUE
+true
 ;
 mObserverContext
 =

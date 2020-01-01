@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsICharsetAlias
 .
 h
@@ -47,6 +56,10 @@ nsCharsetAlias
 .
 h
 "
+using
+namespace
+mozilla
+;
 NS_IMPL_THREADSAFE_ISUPPORTS1
 (
 nsCharsetAlias2
@@ -138,7 +151,7 @@ nsUConvPropertySearch
 SearchPropertyValue
 (
 kAliases
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kAliases
 )
@@ -190,7 +203,7 @@ nsCaseInsensitiveCStringComparator
 *
 oResult
 =
-PR_TRUE
+true
 ;
 return
 res
@@ -215,7 +228,7 @@ IsEmpty
 *
 oResult
 =
-PR_FALSE
+false
 ;
 return
 res
@@ -224,7 +237,7 @@ res
 *
 oResult
 =
-PR_FALSE
+false
 ;
 nsCAutoString
 name1

@@ -481,6 +481,15 @@ BLOCK
 *
 /
 #
+include
+"
+mozilla
+/
+Util
+.
+h
+"
+#
 ifdef
 MOZ_LOGGING
 #
@@ -756,6 +765,10 @@ ApplicationServices
 .
 h
 >
+using
+namespace
+mozilla
+;
 using
 namespace
 mozilla
@@ -2042,9 +2055,6 @@ aHandleEventFunction
 nsDeviceContext
 *
 aContext
-nsIAppShell
-*
-aAppShell
 nsIToolkit
 *
 aToolkit
@@ -2218,7 +2228,6 @@ aParent
 aRect
 aHandleEventFunction
 aContext
-aAppShell
 aToolkit
 aInitData
 )
@@ -9563,7 +9572,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 eventTypes
 )

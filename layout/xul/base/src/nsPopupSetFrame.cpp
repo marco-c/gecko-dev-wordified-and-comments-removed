@@ -479,7 +479,7 @@ LayoutPopup
 (
 aState
 nsnull
-PR_FALSE
+false
 )
 ;
 }
@@ -1124,7 +1124,7 @@ aIndent
 }
 outputOneList
 =
-PR_TRUE
+true
 ;
 fprintf
 (
@@ -1393,7 +1393,7 @@ out
 ;
 outputOneList
 =
-PR_TRUE
+true
 ;
 }
 if

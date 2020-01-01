@@ -483,7 +483,7 @@ items
 AppendElement
 (
 obj
-PR_FALSE
+false
 )
 ;
 g_free
@@ -804,7 +804,7 @@ else
 *
 aEnabled
 =
-PR_FALSE
+false
 ;
 }
 aHandler
@@ -1030,7 +1030,7 @@ key
 get
 (
 )
-PR_TRUE
+true
 nsnull
 )
 ;
@@ -1069,7 +1069,7 @@ key
 get
 (
 )
-PR_FALSE
+false
 nsnull
 )
 ;

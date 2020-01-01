@@ -280,7 +280,7 @@ nsFtpState
 :
 nsBaseContentStream
 (
-PR_TRUE
+true
 )
 mState
 (
@@ -292,19 +292,19 @@ FTP_S_USER
 )
 mKeepRunning
 (
-PR_TRUE
+true
 )
 mReceivedControlData
 (
-PR_FALSE
+false
 )
 mTryingCachedControl
 (
-PR_FALSE
+false
 )
 mRETRFailed
 (
-PR_FALSE
+false
 )
 mFileSize
 (
@@ -320,15 +320,15 @@ GET
 )
 mAnonymous
 (
-PR_TRUE
+true
 )
 mRetryPass
 (
-PR_FALSE
+false
 )
 mStorReplyReceived
 (
-PR_FALSE
+false
 )
 mInternalError
 (
@@ -336,7 +336,7 @@ NS_OK
 )
 mReconnectAndLoginAgain
 (
-PR_FALSE
+false
 )
 mPort
 (
@@ -344,11 +344,11 @@ mPort
 )
 mAddressChecked
 (
-PR_FALSE
+false
 )
 mServerIsIPv6
 (
-PR_FALSE
+false
 )
 mControlStatus
 (
@@ -523,7 +523,7 @@ NS_NET_STATUS_BEGIN_FTP_TRANSACTION
 ;
 mReceivedControlData
 =
-PR_TRUE
+true
 ;
 }
 nsCString
@@ -857,7 +857,7 @@ ftpSink
 >
 OnFTPControlLog
 (
-PR_TRUE
+true
 mResponseMsg
 .
 get
@@ -985,11 +985,11 @@ mInternalError
 {
 mReconnectAndLoginAgain
 =
-PR_FALSE
+false
 ;
 mAnonymous
 =
-PR_FALSE
+false
 ;
 mControlStatus
 =
@@ -1014,7 +1014,7 @@ mInternalError
 {
 mTryingCachedControl
 =
-PR_FALSE
+false
 ;
 Connect
 (
@@ -1163,7 +1163,7 @@ mPwd
 ;
 mTryingCachedControl
 =
-PR_TRUE
+true
 ;
 mState
 =
@@ -1179,7 +1179,7 @@ NS_OK
 ;
 mReceivedControlData
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -1609,7 +1609,7 @@ get
 ;
 processingRead
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -1688,7 +1688,7 @@ NS_ERROR_FTP_LOGIN
 {
 mAnonymous
 =
-PR_FALSE
+false
 ;
 mState
 =
@@ -1739,7 +1739,7 @@ failed
 ;
 processingRead
 =
-PR_FALSE
+false
 ;
 }
 break
@@ -1786,7 +1786,7 @@ failed
 ;
 processingRead
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -2558,7 +2558,7 @@ mAnonymous
 {
 mReconnectAndLoginAgain
 =
-PR_TRUE
+true
 ;
 usernameStr
 .
@@ -2574,7 +2574,7 @@ else
 {
 mReconnectAndLoginAgain
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2748,7 +2748,7 @@ R_user
 {
 mReconnectAndLoginAgain
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3155,7 +3155,7 @@ mResponseCode
 {
 mRetryPass
 =
-PR_FALSE
+false
 ;
 return
 FTP_S_USER
@@ -3184,7 +3184,7 @@ mAnonymous
 )
 mRetryPass
 =
-PR_TRUE
+true
 ;
 return
 FTP_ERROR
@@ -3528,7 +3528,7 @@ Find
 "
 WIN32
 "
-PR_TRUE
+true
 )
 >
 -
@@ -3544,7 +3544,7 @@ Find
 "
 windows
 "
-PR_TRUE
+true
 )
 >
 -
@@ -3569,7 +3569,7 @@ OS
 /
 2
 "
-PR_TRUE
+true
 )
 >
 -
@@ -3591,7 +3591,7 @@ Find
 "
 VMS
 "
-PR_TRUE
+true
 )
 >
 -
@@ -4922,7 +4922,7 @@ FTP_COMPLETE
 ;
 mDoomCache
 =
-PR_FALSE
+false
 ;
 return
 FTP_COMPLETE
@@ -5123,7 +5123,7 @@ mResponseCode
 {
 mRETRFailed
 =
-PR_TRUE
+true
 ;
 return
 FTP_S_PASV
@@ -5405,7 +5405,7 @@ FTP_COMPLETE
 ;
 mStorReplyReceived
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -5462,7 +5462,7 @@ FTP_READ_BUF
 }
 mStorReplyReceived
 =
-PR_TRUE
+true
 ;
 return
 FTP_ERROR
@@ -5484,7 +5484,7 @@ mAddressChecked
 {
 mAddressChecked
 =
-PR_TRUE
+true
 ;
 PR_InitializeNetAddr
 (
@@ -6182,7 +6182,7 @@ isAlive
 )
 newDataConn
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -6503,8 +6503,8 @@ UploadStream
 )
 output
 stEventTarget
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 if
@@ -6689,7 +6689,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -6704,7 +6704,7 @@ ACCESS_READ
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -6720,7 +6720,7 @@ LOAD_FROM_CACHE
 )
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -6736,7 +6736,7 @@ LOAD_BYPASS_CACHE
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -6752,7 +6752,7 @@ VALIDATE_ALWAYS
 )
 )
 return
-PR_FALSE
+false
 ;
 PRUint32
 time
@@ -6790,7 +6790,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 (
@@ -6814,7 +6814,7 @@ VALIDATE_NEVER
 )
 )
 return
-PR_TRUE
+true
 ;
 rv
 =
@@ -6835,7 +6835,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 (
@@ -7018,7 +7018,7 @@ input
 1
 -
 1
-PR_TRUE
+true
 getter_AddRefs
 (
 transport
@@ -7130,7 +7130,7 @@ channel
 ;
 mKeepRunning
 =
-PR_TRUE
+true
 ;
 mSuppliedEntityID
 =
@@ -7453,7 +7453,7 @@ anonymous
 {
 mAnonymous
 =
-PR_FALSE
+false
 ;
 CopyUTF8toUTF16
 (
@@ -7658,11 +7658,11 @@ Truncate
 ;
 mAddressChecked
 =
-PR_FALSE
+false
 ;
 mServerIsIPv6
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -7826,7 +7826,7 @@ NS_OK
 ;
 mKeepRunning
 =
-PR_FALSE
+false
 ;
 LOG_ALWAYS
 (
@@ -8082,7 +8082,7 @@ ftpSink
 >
 OnFTPControlLog
 (
-PR_FALSE
+false
 logcmd
 .
 get
@@ -9013,7 +9013,7 @@ entry
 {
 mDoomCache
 =
-PR_TRUE
+true
 ;
 mCacheEntry
 =
@@ -9064,7 +9064,7 @@ context
 {
 mStorReplyReceived
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -9513,7 +9513,7 @@ OpenCacheDataStream
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -9536,10 +9536,10 @@ CallbackTarget
 ;
 mDoomCache
 =
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -9568,7 +9568,7 @@ ResumeRequested
 )
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -9587,7 +9587,7 @@ if
 cache
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -9623,14 +9623,14 @@ if
 session
 )
 return
-PR_FALSE
+false
 ;
 session
 -
 >
 SetDoomEntriesIfExpired
 (
-PR_FALSE
+false
 )
 ;
 nsCacheAccessMode
@@ -9718,7 +9718,7 @@ nsICache
 ACCESS_NONE
 )
 return
-PR_FALSE
+false
 ;
 }
 nsCAutoString
@@ -9770,7 +9770,7 @@ key
 IsEmpty
 (
 )
-PR_FALSE
+false
 )
 ;
 nsresult
@@ -9783,7 +9783,7 @@ OpenCacheEntry
 (
 key
 accessReq
-PR_FALSE
+false
 getter_AddRefs
 (
 mCacheEntry
@@ -9803,10 +9803,10 @@ mCacheEntry
 {
 mDoomCache
 =
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -9837,7 +9837,7 @@ rv
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult

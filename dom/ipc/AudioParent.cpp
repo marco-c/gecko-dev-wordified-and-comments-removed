@@ -782,7 +782,7 @@ new
 AudioPauseEvent
 (
 mStream
-PR_TRUE
+true
 )
 ;
 nsCOMPtr
@@ -840,7 +840,7 @@ new
 AudioPauseEvent
 (
 mStream
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -965,7 +965,7 @@ aFormat
 :
 mIPCOpen
 (
-PR_TRUE
+true
 )
 {
 mStream
@@ -1077,7 +1077,7 @@ aWhy
 {
 mIPCOpen
 =
-PR_FALSE
+false
 ;
 Shutdown
 (

@@ -14,11 +14,11 @@ nsSMILInterval
 :
 mBeginFixed
 (
-PR_FALSE
+false
 )
 mEndFixed
 (
-PR_FALSE
+false
 )
 {
 }
@@ -47,11 +47,11 @@ mEnd
 )
 mBeginFixed
 (
-PR_FALSE
+false
 )
 mEndFixed
 (
-PR_FALSE
+false
 )
 {
 NS_ABORT_IF_FALSE
@@ -518,7 +518,7 @@ FixBegin
 ;
 mBeginFixed
 =
-PR_TRUE
+true
 ;
 mBegin
 -
@@ -587,7 +587,7 @@ FixEnd
 ;
 mEndFixed
 =
-PR_TRUE
+true
 ;
 mEnd
 -
@@ -724,7 +724,7 @@ mBegin
 mEnd
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -735,7 +735,7 @@ IsEmpty
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 (

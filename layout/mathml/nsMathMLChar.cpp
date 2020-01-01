@@ -1541,7 +1541,7 @@ aChar
 mParent
 )
 return
-PR_FALSE
+false
 ;
 mCharCache
 =
@@ -1574,7 +1574,7 @@ Length
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 (
@@ -1966,7 +1966,7 @@ AddObserver
 (
 this
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2030,7 +2030,7 @@ NS_ERROR_FAILURE
 ;
 gInitialized
 =
-PR_FALSE
+false
 ;
 return
 rv
@@ -2326,7 +2326,7 @@ break
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 nsCAutoString
@@ -2482,10 +2482,10 @@ aFamily
 )
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -2512,7 +2512,7 @@ initialized
 ;
 gInitialized
 =
-PR_TRUE
+true
 ;
 nsresult
 rv
@@ -3134,7 +3134,7 @@ if
 olda
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -3619,8 +3619,8 @@ family
 .
 CompressWhitespace
 (
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 PRUint8
@@ -3887,11 +3887,11 @@ aFamilies
 )
 mTryVariants
 (
-PR_TRUE
+true
 )
 mTryParts
 (
-PR_TRUE
+true
 )
 mGlyphFound
 (
@@ -4325,7 +4325,7 @@ mStretchHint
 {
 mGlyphFound
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -4399,7 +4399,7 @@ bm
 ;
 haveBetter
 =
-PR_TRUE
+true
 ;
 bestSize
 =
@@ -4539,7 +4539,7 @@ mChar
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -4632,7 +4632,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 mChar
 -
@@ -4643,7 +4643,7 @@ kNullGlyph
 ;
 mGlyphFound
 =
-PR_TRUE
+true
 ;
 mChar
 -
@@ -4657,7 +4657,7 @@ mBoundingMetrics
 compositeSize
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsFont
@@ -4991,7 +4991,7 @@ get
 #
 endif
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -5315,14 +5315,14 @@ computedSize
 }
 mGlyphFound
 =
-PR_TRUE
+true
 ;
 if
 (
 maxWidth
 )
 return
-PR_FALSE
+false
 ;
 mChar
 -
@@ -5451,7 +5451,7 @@ if
 isOK
 )
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -5479,11 +5479,11 @@ if
 isOK
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -5552,7 +5552,7 @@ glyphTable
 )
 )
 return
-PR_TRUE
+true
 ;
 context
 -
@@ -6126,7 +6126,7 @@ aStretchHint
 )
 done
 =
-PR_TRUE
+true
 ;
 }
 bool
@@ -6205,7 +6205,7 @@ enumData
 .
 mTryParts
 =
-PR_FALSE
+false
 ;
 done
 =
@@ -6270,7 +6270,7 @@ enumData
 .
 mTryVariants
 =
-PR_FALSE
+false
 ;
 done
 =
@@ -6844,7 +6844,7 @@ flags
 ;
 mDrawNormal
 =
-PR_TRUE
+true
 ;
 mScaleY
 =

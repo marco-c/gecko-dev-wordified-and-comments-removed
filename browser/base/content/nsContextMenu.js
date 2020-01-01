@@ -6000,7 +6000,7 @@ toDataURL
 "
 image
 /
-jpg
+jpeg
 "
 "
 "

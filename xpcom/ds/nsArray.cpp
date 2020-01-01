@@ -746,7 +746,7 @@ targetElement
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 closure
@@ -757,7 +757,7 @@ resultIndex
 +
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult

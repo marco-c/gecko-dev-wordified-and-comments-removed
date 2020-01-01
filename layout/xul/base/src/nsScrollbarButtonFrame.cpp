@@ -331,14 +331,14 @@ eIntID_ScrollButtonRightMouseButtonAction
 else
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 else
 {
 return
-PR_FALSE
+false
 ;
 }
 PRInt32
@@ -361,7 +361,7 @@ pressedButtonAction
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsIFrame
@@ -386,7 +386,7 @@ scrollbar
 nsnull
 )
 return
-PR_FALSE
+false
 ;
 nsIContent
 *
@@ -468,7 +468,7 @@ direction
 ;
 else
 return
-PR_FALSE
+false
 ;
 bool
 repeat
@@ -564,7 +564,7 @@ repeat
 =
 smoothScroll
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -574,7 +574,7 @@ case
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 nsWeakFrame
@@ -599,7 +599,7 @@ NS_LITERAL_STRING
 true
 "
 )
-PR_TRUE
+true
 )
 ;
 if
@@ -626,7 +626,7 @@ StartRepeat
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP
@@ -656,7 +656,7 @@ nsGkAtoms
 :
 :
 active
-PR_TRUE
+true
 )
 ;
 StopRepeat
@@ -677,7 +677,7 @@ Notify
 {
 DoButtonAction
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -882,7 +882,7 @@ NS_LITERAL_STRING
 true
 "
 )
-PR_FALSE
+false
 )
 ;
 content
@@ -896,7 +896,7 @@ nsGkAtoms
 :
 curpos
 curposStr
-PR_TRUE
+true
 )
 ;
 if
@@ -913,7 +913,7 @@ nsGkAtoms
 :
 :
 smooth
-PR_FALSE
+false
 )
 ;
 }

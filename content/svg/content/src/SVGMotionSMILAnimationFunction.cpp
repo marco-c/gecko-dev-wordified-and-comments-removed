@@ -80,7 +80,7 @@ ePathSourceType_None
 )
 mIsPathStale
 (
-PR_TRUE
+true
 )
 {
 }
@@ -214,7 +214,7 @@ attrs
 ;
 isAffected
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -224,11 +224,11 @@ isAffected
 {
 mIsPathStale
 =
-PR_TRUE
+true
 ;
 mHasChanged
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -415,7 +415,7 @@ aParseResult
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -529,7 +529,7 @@ aAttribute
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 nsSMILAnimationFunction
@@ -941,7 +941,7 @@ AppendElement
 }
 success
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -1336,7 +1336,7 @@ firstMpathChild
 ;
 mValueNeedsReparsingEverySample
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -1357,7 +1357,7 @@ RebuildPathAndVerticesFromPathAttr
 ;
 mValueNeedsReparsingEverySample
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -1369,12 +1369,12 @@ aTargetElement
 ;
 mValueNeedsReparsingEverySample
 =
-PR_TRUE
+true
 ;
 }
 mIsPathStale
 =
-PR_FALSE
+false
 ;
 }
 bool
@@ -1491,12 +1491,12 @@ mRotateAngle
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -1726,7 +1726,7 @@ CALC_PACED
 {
 SetKeyPointsErrorFlag
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -1741,7 +1741,7 @@ IsEmpty
 {
 SetKeyPointsErrorFlag
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -1785,7 +1785,7 @@ nsSMILParserUtils
 ParseSemicolonDelimitedProgressList
 (
 aKeyPoints
-PR_FALSE
+false
 mKeyPoints
 )
 ;
@@ -1826,7 +1826,7 @@ Clear
 }
 mHasChanged
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1848,12 +1848,12 @@ Clear
 ;
 SetKeyPointsErrorFlag
 (
-PR_FALSE
+false
 )
 ;
 mHasChanged
 =
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -1873,7 +1873,7 @@ aResult
 {
 mHasChanged
 =
-PR_TRUE
+true
 ;
 aResult
 .
@@ -1943,7 +1943,7 @@ SetBaseValueString
 (
 aRotate
 nsnull
-PR_FALSE
+false
 )
 ;
 if
@@ -2040,7 +2040,7 @@ eRotateType_Explicit
 ;
 mHasChanged
 =
-PR_TRUE
+true
 ;
 }
 }

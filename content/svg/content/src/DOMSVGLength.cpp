@@ -274,7 +274,7 @@ mAttrEnum
 )
 mIsAnimValItem
 (
-PR_FALSE
+false
 )
 mUnit
 (
@@ -521,7 +521,7 @@ Element
 DidChangeLengthList
 (
 mAttrEnum
-PR_TRUE
+true
 )
 ;
 #
@@ -703,7 +703,7 @@ Element
 DidChangeLengthList
 (
 mAttrEnum
-PR_TRUE
+true
 )
 ;
 #
@@ -806,7 +806,7 @@ Element
 DidChangeLengthList
 (
 mAttrEnum
-PR_TRUE
+true
 )
 ;
 #
@@ -1010,7 +1010,7 @@ Element
 DidChangeLengthList
 (
 mAttrEnum
-PR_TRUE
+true
 )
 ;
 #
@@ -1273,7 +1273,7 @@ nsnull
 ;
 mIsAnimValItem
 =
-PR_FALSE
+false
 ;
 }
 SVGLength

@@ -208,7 +208,7 @@ mStart
 =
 mEnd
 :
-PR_TRUE
+true
 ;
 }
 PRInt32

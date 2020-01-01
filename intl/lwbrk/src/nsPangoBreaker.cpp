@@ -67,7 +67,7 @@ null
 memset
 (
 aBreakBefore
-PR_FALSE
+false
 aLength
 *
 sizeof
@@ -213,7 +213,7 @@ aBreakBefore
 u16Offset
 ]
 =
-PR_FALSE
+false
 ;
 +
 +

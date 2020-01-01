@@ -1431,7 +1431,7 @@ mSurface
 >
 SetSubpixelAntialiasingEnabled
 (
-PR_FALSE
+false
 )
 ;
 }

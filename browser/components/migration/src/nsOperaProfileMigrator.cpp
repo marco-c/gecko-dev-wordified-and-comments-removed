@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsAppDirectoryServiceDefs
 .
 h
@@ -213,6 +222,10 @@ h
 >
 #
 endif
+using
+namespace
+mozilla
+;
 #
 define
 MIGRATION_BUNDLE
@@ -621,7 +634,7 @@ nsIBrowserProfileMigrator
 :
 :
 SETTINGS
-PR_FALSE
+false
 }
 {
 ToNewUnicode
@@ -632,7 +645,7 @@ nsIBrowserProfileMigrator
 :
 :
 COOKIES
-PR_FALSE
+false
 }
 {
 ToNewUnicode
@@ -643,7 +656,7 @@ nsIBrowserProfileMigrator
 :
 :
 HISTORY
-PR_FALSE
+false
 }
 {
 ToNewUnicode
@@ -654,7 +667,7 @@ nsIBrowserProfileMigrator
 :
 :
 BOOKMARKS
-PR_FALSE
+false
 }
 }
 ;
@@ -733,7 +746,7 @@ else
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -798,7 +811,7 @@ endif
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1401,7 +1414,7 @@ _OPM
 (
 SetFile
 )
-PR_FALSE
+false
 {
 -
 1
@@ -1428,7 +1441,7 @@ _OPM
 (
 SetCookieBehavior
 )
-PR_FALSE
+false
 {
 -
 1
@@ -1457,7 +1470,7 @@ _OPM
 (
 SetCookieLifetime
 )
-PR_FALSE
+false
 {
 -
 1
@@ -1485,7 +1498,7 @@ _OPM
 (
 SetBool
 )
-PR_FALSE
+false
 {
 -
 1
@@ -1513,7 +1526,7 @@ _OPM
 (
 SetBool
 )
-PR_FALSE
+false
 {
 -
 1
@@ -1541,7 +1554,7 @@ _OPM
 (
 SetBool
 )
-PR_FALSE
+false
 {
 -
 1
@@ -1569,7 +1582,7 @@ _OPM
 (
 SetBool
 )
-PR_FALSE
+false
 {
 -
 1
@@ -1595,7 +1608,7 @@ _OPM
 (
 SetBool
 )
-PR_FALSE
+false
 {
 -
 1
@@ -1622,7 +1635,7 @@ _OPM
 (
 SetImageBehavior
 )
-PR_FALSE
+false
 {
 -
 1
@@ -1647,7 +1660,7 @@ _OPM
 (
 SetString
 )
-PR_FALSE
+false
 {
 -
 1
@@ -1671,7 +1684,7 @@ _OPM
 (
 SetString
 )
-PR_FALSE
+false
 {
 -
 1
@@ -1695,7 +1708,7 @@ _OPM
 (
 SetBool
 )
-PR_FALSE
+false
 {
 -
 1
@@ -1721,7 +1734,7 @@ _OPM
 (
 SetBool
 )
-PR_FALSE
+false
 {
 -
 1
@@ -1749,7 +1762,7 @@ _OPM
 (
 SetBool
 )
-PR_FALSE
+false
 {
 -
 1
@@ -1775,7 +1788,7 @@ _OPM
 (
 SetBool
 )
-PR_FALSE
+false
 {
 -
 1
@@ -2419,7 +2432,7 @@ transform
 >
 prefHasValue
 =
-PR_TRUE
+true
 ;
 transform
 -
@@ -2556,7 +2569,7 @@ transform
 >
 prefHasValue
 =
-PR_TRUE
+true
 ;
 transform
 -
@@ -2715,7 +2728,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 protocols
 )
@@ -3247,7 +3260,7 @@ rv
 NS_NewNativeLocalFile
 (
 userContentCSS
-PR_TRUE
+true
 getter_AddRefs
 (
 userContentCSSFile
@@ -3482,7 +3495,7 @@ mPayloadTypeLength
 )
 mCookieOpen
 (
-PR_FALSE
+false
 )
 mCurrHandlingInfo
 (
@@ -3520,7 +3533,7 @@ mCurrCookie
 .
 isSecure
 =
-PR_FALSE
+false
 ;
 mCurrCookie
 .
@@ -4014,7 +4027,7 @@ segmentLength
 ;
 mCookieOpen
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -4220,7 +4233,7 @@ mCurrCookie
 .
 isSecure
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -4640,7 +4653,7 @@ path
 ;
 mCookieOpen
 =
-PR_FALSE
+false
 ;
 nsresult
 rv
@@ -4661,8 +4674,8 @@ data
 mCurrCookie
 .
 isSecure
-PR_FALSE
-PR_FALSE
+false
+false
 PRInt64
 (
 mCurrCookie
@@ -5018,7 +5031,7 @@ rv
 =
 CopyHistoryBatched
 (
-PR_FALSE
+false
 )
 ;
 break
@@ -5030,7 +5043,7 @@ rv
 =
 CopyHistoryBatched
 (
-PR_TRUE
+true
 )
 ;
 break
@@ -5042,7 +5055,7 @@ rv
 =
 CopyBookmarksBatched
 (
-PR_FALSE
+false
 )
 ;
 break
@@ -5054,7 +5067,7 @@ rv
 =
 CopyBookmarksBatched
 (
-PR_TRUE
+true
 )
 ;
 break
@@ -7105,7 +7118,7 @@ data
 )
 onToolbar
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -7225,7 +7238,7 @@ Truncate
 ;
 onToolbar
 =
-PR_FALSE
+false
 ;
 }
 }

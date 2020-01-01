@@ -933,10 +933,10 @@ aDestLength
 #
 ifdef
 IS_LITTLE_ENDIAN
-PR_TRUE
+true
 #
 else
-PR_FALSE
+false
 #
 endif
 )
@@ -1093,10 +1093,10 @@ aDestLength
 #
 ifdef
 IS_BIG_ENDIAN
-PR_TRUE
+true
 #
 else
-PR_FALSE
+false
 #
 endif
 )
@@ -1119,7 +1119,7 @@ kUnknown
 ;
 mFoundBOM
 =
-PR_FALSE
+false
 ;
 return
 nsUTF16ToUnicodeBase
@@ -1242,7 +1242,7 @@ kLittleEndian
 ;
 mFoundBOM
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1282,7 +1282,7 @@ kBigEndian
 ;
 mFoundBOM
 =
-PR_TRUE
+true
 ;
 }
 else

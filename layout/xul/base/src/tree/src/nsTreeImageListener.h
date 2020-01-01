@@ -168,7 +168,7 @@ UnsuppressInvalidation
 {
 mInvalidationSuppressed
 =
-PR_FALSE
+false
 ;
 }
 void

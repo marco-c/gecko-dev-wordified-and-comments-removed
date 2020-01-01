@@ -520,7 +520,7 @@ h
 #
 include
 "
-nsWidgetAtoms
+nsGkAtoms
 .
 h
 "
@@ -1341,7 +1341,7 @@ mContent
 GetAttr
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 image

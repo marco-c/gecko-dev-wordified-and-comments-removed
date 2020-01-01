@@ -111,7 +111,7 @@ aTextLen2
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 (

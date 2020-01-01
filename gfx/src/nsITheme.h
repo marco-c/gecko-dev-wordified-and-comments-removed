@@ -200,7 +200,7 @@ aOverflowRect
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHOD

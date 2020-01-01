@@ -143,7 +143,7 @@ key
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -547,7 +547,7 @@ singleton
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 MutexAutoLock
@@ -987,7 +987,7 @@ mBlockingUICounter
 )
 mIsUIForbidden
 (
-PR_FALSE
+false
 )
 mNSSRestrictedThread
 (
@@ -1175,7 +1175,7 @@ mBlockingUICounter
 {
 retval
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1187,7 +1187,7 @@ do_it_for_real
 {
 mIsUIForbidden
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1211,7 +1211,7 @@ mNSSActivityStateLock
 ;
 mIsUIForbidden
 =
-PR_FALSE
+false
 ;
 }
 PRStatus
@@ -1309,7 +1309,7 @@ nsnull
 ;
 mIsUIForbidden
 =
-PR_FALSE
+false
 ;
 mNSSActivityChanged
 .
@@ -1477,7 +1477,7 @@ if
 state
 )
 return
-PR_FALSE
+false
 ;
 return
 state

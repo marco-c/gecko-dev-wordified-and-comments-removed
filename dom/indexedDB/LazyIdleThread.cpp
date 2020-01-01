@@ -173,15 +173,15 @@ aShutdownMethod
 )
 mShutdown
 (
-PR_FALSE
+false
 )
 mThreadIsShuttingDown
 (
-PR_FALSE
+false
 )
 mIdleTimeoutEnabled
 (
-PR_TRUE
+true
 )
 {
 NS_ASSERTION
@@ -281,7 +281,7 @@ return
 }
 mIdleTimeoutEnabled
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -357,7 +357,7 @@ return
 }
 mIdleTimeoutEnabled
 =
-PR_TRUE
+true
 ;
 {
 MutexAutoLock
@@ -597,7 +597,7 @@ shutdown
 -
 threads
 "
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -811,7 +811,7 @@ ever
 ;
 mThreadIsShuttingDown
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -1197,7 +1197,7 @@ Huh
 ;
 mThreadIsShuttingDown
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -1578,7 +1578,7 @@ aIsOnCurrentThread
 *
 aIsOnCurrentThread
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1634,7 +1634,7 @@ ASSERT_OWNING_THREAD
 ;
 mShutdown
 =
-PR_TRUE
+true
 ;
 nsresult
 rv

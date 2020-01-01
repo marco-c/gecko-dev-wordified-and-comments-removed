@@ -384,7 +384,7 @@ nsReadConfig
 :
 mRead
 (
-PR_FALSE
+false
 )
 {
 if
@@ -450,7 +450,7 @@ AddObserver
 (
 this
 NS_PREFSERVICE_READ_TOPIC_ID
-PR_FALSE
+false
 )
 ;
 }
@@ -724,8 +724,8 @@ prefcalls
 js
 "
 0
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 if
@@ -748,8 +748,8 @@ platform
 js
 "
 0
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 if
@@ -764,7 +764,7 @@ rv
 ;
 mRead
 =
-PR_TRUE
+true
 ;
 }
 nsCOMPtr
@@ -855,8 +855,8 @@ get
 (
 )
 obscureValue
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 if
@@ -1419,13 +1419,13 @@ EvaluateAdminConfigScript
 buf
 amt
 aFileName
-PR_FALSE
-PR_TRUE
+false
+true
 isEncoded
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 )
 ;
 }

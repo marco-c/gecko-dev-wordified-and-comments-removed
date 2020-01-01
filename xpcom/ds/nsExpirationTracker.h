@@ -128,7 +128,7 @@ mNewestGeneration
 )
 mInAgeOneGeneration
 (
-PR_FALSE
+false
 )
 {
 PR_STATIC_ASSERT
@@ -541,7 +541,7 @@ return
 }
 mInAgeOneGeneration
 =
-PR_TRUE
+true
 ;
 PRUint32
 reapGeneration
@@ -657,7 +657,7 @@ reapGeneration
 ;
 mInAgeOneGeneration
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -846,11 +846,11 @@ IsEmpty
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 protected

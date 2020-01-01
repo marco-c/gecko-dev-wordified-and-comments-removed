@@ -194,7 +194,7 @@ nsGkAtoms
 :
 label
 aLabel
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -232,7 +232,7 @@ menu
 AppendChildTo
 (
 menuPopup
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -249,7 +249,7 @@ mCurrentNode
 AppendChildTo
 (
 menu
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -367,7 +367,7 @@ NS_LITERAL_STRING
 checkbox
 "
 )
-PR_FALSE
+false
 )
 ;
 bool
@@ -403,7 +403,7 @@ NS_LITERAL_STRING
 true
 "
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -430,7 +430,7 @@ nsGkAtoms
 :
 label
 label
-PR_FALSE
+false
 )
 ;
 nsAutoString
@@ -472,7 +472,7 @@ menuitem
 iconic
 "
 )
-PR_FALSE
+false
 )
 ;
 if
@@ -491,7 +491,7 @@ nsGkAtoms
 :
 image
 icon
-PR_FALSE
+false
 )
 ;
 }
@@ -529,7 +529,7 @@ NS_LITERAL_STRING
 true
 "
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -540,7 +540,7 @@ mCurrentNode
 AppendChildTo
 (
 menuitem
-PR_FALSE
+false
 )
 ;
 }
@@ -597,7 +597,7 @@ mCurrentNode
 AppendChildTo
 (
 menuseparator
-PR_FALSE
+false
 )
 ;
 }
@@ -670,7 +670,7 @@ RemoveChildAt
 count
 -
 1
-PR_FALSE
+false
 )
 ;
 }
@@ -970,7 +970,7 @@ SetAttr
 kNameSpaceID_None
 mGeneratedItemIdAttr
 generateditemid
-PR_FALSE
+false
 )
 ;
 return

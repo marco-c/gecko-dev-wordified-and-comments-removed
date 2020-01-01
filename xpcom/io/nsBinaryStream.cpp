@@ -1029,7 +1029,7 @@ NS_GET_IID
 (
 nsISupports
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -2493,7 +2493,7 @@ closure
 >
 mHasCarryoverByte
 =
-PR_FALSE
+false
 ;
 }
 const
@@ -2606,7 +2606,7 @@ closure
 >
 mHasCarryoverByte
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -2709,7 +2709,7 @@ closure
 .
 mHasCarryoverByte
 =
-PR_FALSE
+false
 ;
 rv
 =

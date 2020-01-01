@@ -383,7 +383,7 @@ control
 )
 RegUnregAccessKey
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -418,7 +418,7 @@ CropRight
 )
 mNeedsReflowCallback
 (
-PR_FALSE
+false
 )
 {
 MarkIntrinsicWidthsDirty
@@ -480,7 +480,7 @@ aRedraw
 ;
 RegUnregAccessKey
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -500,7 +500,7 @@ aDestructRoot
 {
 RegUnregAccessKey
 (
-PR_FALSE
+false
 )
 ;
 nsTextBoxFrameSuper
@@ -528,7 +528,7 @@ gAccessKeyPrefInitialized
 {
 gAccessKeyPrefInitialized
 =
-PR_TRUE
+true
 ;
 const
 char
@@ -589,7 +589,7 @@ gInsertSeparatorPrefInitialized
 {
 gInsertSeparatorPrefInitialized
 =
-PR_TRUE
+true
 ;
 const
 char
@@ -750,7 +750,7 @@ aWeakThis
 IsAlive
 (
 )
-PR_FALSE
+false
 )
 ;
 if
@@ -786,7 +786,7 @@ aWeakThis
 IsAlive
 (
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -860,11 +860,11 @@ NS_FRAME_IS_DIRTY
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -891,11 +891,11 @@ false
 ;
 aResize
 =
-PR_FALSE
+false
 ;
 aRedraw
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1024,7 +1024,7 @@ mCropType
 {
 aResize
 =
-PR_TRUE
+true
 ;
 mCropType
 =
@@ -1064,7 +1064,7 @@ mTitle
 ;
 doUpdateTitle
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -1086,11 +1086,11 @@ accesskey
 {
 mNeedsReflowCallback
 =
-PR_TRUE
+true
 ;
 aResize
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -1104,7 +1104,7 @@ UpdateAccessTitle
 ;
 aResize
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1133,7 +1133,7 @@ aFrame
 )
 mDisableSubpixelAA
 (
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR
@@ -1204,7 +1204,7 @@ DisableComponentAlpha
 {
 mDisableSubpixelAA
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -2313,7 +2313,7 @@ aRenderingContext
 .
 SetTextRunRTL
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -2551,7 +2551,7 @@ aRenderingContext
 .
 SetTextRunRTL
 (
-PR_FALSE
+false
 )
 ;
 mAccessKeyInfo
@@ -2751,7 +2751,7 @@ aRenderingContext
 .
 SetTextRunRTL
 (
-PR_FALSE
+false
 )
 ;
 titleWidth
@@ -3143,7 +3143,7 @@ aRenderingContext
 .
 SetTextRunRTL
 (
-PR_FALSE
+false
 )
 ;
 for
@@ -3812,7 +3812,7 @@ cb
 }
 mNeedsReflowCallback
 =
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -3950,7 +3950,7 @@ ComputesOwnOverflowArea
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -3963,7 +3963,7 @@ MarkIntrinsicWidthsDirty
 {
 mNeedsRecalc
 =
-PR_TRUE
+true
 ;
 nsTextBoxFrameSuper
 :
@@ -4127,7 +4127,7 @@ size
 ;
 mNeedsRecalc
 =
-PR_FALSE
+false
 ;
 }
 }

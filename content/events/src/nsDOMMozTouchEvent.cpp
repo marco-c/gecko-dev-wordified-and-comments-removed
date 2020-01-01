@@ -42,7 +42,7 @@ aEvent
 new
 nsMozTouchEvent
 (
-PR_FALSE
+false
 0
 nsnull
 0
@@ -73,14 +73,14 @@ aEvent
 {
 mEventIsInternal
 =
-PR_FALSE
+false
 ;
 }
 else
 {
 mEventIsInternal
 =
-PR_TRUE
+true
 ;
 mEvent
 -

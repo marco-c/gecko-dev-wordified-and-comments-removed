@@ -394,6 +394,8 @@ aLoadedAsData
 nsIScriptGlobalObject
 *
 aEventObject
+bool
+aSVGDocument
 )
 {
 nsresult
@@ -420,6 +422,23 @@ isXHTML
 =
 false
 ;
+if
+(
+aSVGDocument
+)
+{
+rv
+=
+NS_NewSVGDocument
+(
+getter_AddRefs
+(
+d
+)
+)
+;
+}
+else
 if
 (
 aDoctype
@@ -621,7 +640,7 @@ d
 ;
 isHTML
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -711,11 +730,11 @@ d
 ;
 isHTML
 =
-PR_TRUE
+true
 ;
 isXHTML
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1107,7 +1126,7 @@ aContentType
 )
 mAsync
 (
-PR_TRUE
+true
 )
 {
 }
@@ -1121,7 +1140,7 @@ nsXMLDocument
 {
 mLoopingForSyncLoad
 =
-PR_FALSE
+false
 ;
 }
 DOMCI_NODE_DATA
@@ -1404,7 +1423,7 @@ aReturn
 *
 aReturn
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -1521,7 +1540,7 @@ principal
 CheckMayLoad
 (
 uri
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1919,7 +1938,7 @@ getter_AddRefs
 (
 listener
 )
-PR_FALSE
+false
 )
 )
 )
@@ -1967,7 +1986,7 @@ rv
 {
 mChannelIsPending
 =
-PR_FALSE
+false
 ;
 return
 rv
@@ -1991,7 +2010,7 @@ do_GetCurrentThread
 ;
 mLoopingForSyncLoad
 =
-PR_TRUE
+true
 ;
 while
 (
@@ -2099,7 +2118,7 @@ else
 *
 aReturn
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2109,7 +2128,7 @@ else
 *
 aReturn
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -2192,7 +2211,7 @@ aCommand
 {
 mLoadedAsInteractiveData
 =
-PR_TRUE
+true
 ;
 aCommand
 =
@@ -2374,7 +2393,7 @@ here
 ;
 mChannelIsPending
 =
-PR_TRUE
+true
 ;
 SetDocumentCharacterSet
 (
@@ -2434,11 +2453,11 @@ EndLoad
 {
 mChannelIsPending
 =
-PR_FALSE
+false
 ;
 mLoopingForSyncLoad
 =
-PR_FALSE
+false
 ;
 mSynchronousDOMContentLoaded
 =
@@ -2463,7 +2482,7 @@ mSynchronousDOMContentLoaded
 {
 mSynchronousDOMContentLoaded
 =
-PR_FALSE
+false
 ;
 nsDocument
 :
@@ -2479,7 +2498,7 @@ READYSTATE_COMPLETE
 nsEvent
 event
 (
-PR_TRUE
+true
 NS_LOAD
 )
 ;

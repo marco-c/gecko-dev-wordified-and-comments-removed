@@ -754,7 +754,7 @@ DoGetStyle
 #
 name_
 (
-PR_TRUE
+true
 )
 ;
 \
@@ -798,7 +798,7 @@ DoGetStyle
 #
 name_
 (
-PR_FALSE
+false
 )
 ;
 \

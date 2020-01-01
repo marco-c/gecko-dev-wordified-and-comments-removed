@@ -50,7 +50,7 @@ nsDownloader
 :
 mLocationIsTemp
 (
-PR_FALSE
+false
 )
 {
 }

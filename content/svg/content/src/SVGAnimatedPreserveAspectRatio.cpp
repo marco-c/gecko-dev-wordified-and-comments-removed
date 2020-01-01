@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 SVGAnimatedPreserveAspectRatio
 .
 h
@@ -254,7 +263,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sAlignStrings
 )
@@ -366,7 +375,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sMeetOrSliceStrings
 )
@@ -819,7 +828,7 @@ val
 ;
 mIsBaseSet
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -972,7 +981,7 @@ rv
 ;
 mIsBaseSet
 =
-PR_TRUE
+true
 ;
 mAnimVal
 .
@@ -987,7 +996,7 @@ aSVGElement
 >
 DidChangePreserveAspectRatio
 (
-PR_TRUE
+true
 )
 ;
 #
@@ -1043,7 +1052,7 @@ rv
 ;
 mIsBaseSet
 =
-PR_TRUE
+true
 ;
 mAnimVal
 .
@@ -1058,7 +1067,7 @@ aSVGElement
 >
 DidChangePreserveAspectRatio
 (
-PR_TRUE
+true
 )
 ;
 #
@@ -1111,9 +1120,9 @@ aPackedValue
 16
 )
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 )
 ;
 mAnimVal
@@ -1147,7 +1156,7 @@ aPackedValue
 ;
 mIsAnimated
 =
-PR_TRUE
+true
 ;
 aSVGElement
 -
@@ -1365,7 +1374,7 @@ val
 ;
 aPreventCachingOfSandwich
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1448,7 +1457,7 @@ mVal
 >
 mIsAnimated
 =
-PR_FALSE
+false
 ;
 }
 }

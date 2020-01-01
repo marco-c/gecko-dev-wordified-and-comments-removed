@@ -430,7 +430,7 @@ mResult
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -456,7 +456,7 @@ GetTargets
 (
 mContainer
 kRDF_nextVal
-PR_TRUE
+true
 getter_AddRefs
 (
 targets
@@ -623,7 +623,7 @@ GetTargets
 (
 mContainer
 mOrdinalProperty
-PR_TRUE
+true
 getter_AddRefs
 (
 mCurrent
@@ -738,7 +738,7 @@ rv
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -748,7 +748,7 @@ NS_OK
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

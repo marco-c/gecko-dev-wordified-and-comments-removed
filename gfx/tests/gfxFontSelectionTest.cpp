@@ -364,7 +364,7 @@ aString
 )
 isRTL
 (
-PR_FALSE
+false
 )
 {
 }
@@ -404,7 +404,7 @@ aString
 )
 isRTL
 (
-PR_FALSE
+false
 )
 {
 }
@@ -458,7 +458,7 @@ aFontName
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -477,7 +477,7 @@ Length
 )
 )
 return
-PR_FALSE
+false
 ;
 for
 (
@@ -513,11 +513,11 @@ j
 index
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 nsCString
@@ -535,7 +535,7 @@ SetRTL
 {
 isRTL
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -709,7 +709,7 @@ Length
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 for
@@ -772,11 +772,11 @@ num_glyphs
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 const
@@ -1486,11 +1486,11 @@ test
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 int

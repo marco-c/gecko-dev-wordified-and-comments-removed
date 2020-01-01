@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsSVGMpathElement
 .
 h
@@ -36,6 +45,10 @@ h
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
 :
 :
 dom
@@ -60,7 +73,7 @@ nsGkAtoms
 :
 href
 kNameSpaceID_XLink
-PR_FALSE
+false
 }
 }
 ;
@@ -82,7 +95,7 @@ tmp
 >
 UnlinkHrefTarget
 (
-PR_FALSE
+false
 )
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
@@ -202,7 +215,7 @@ nsSVGMpathElement
 {
 UnlinkHrefTarget
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -362,7 +375,7 @@ aNullParent
 {
 UnlinkHrefTarget
 (
-PR_TRUE
+true
 )
 ;
 nsSVGMpathElementBase
@@ -497,7 +510,7 @@ href
 {
 UnlinkHrefTarget
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -521,7 +534,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )

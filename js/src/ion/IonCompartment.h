@@ -21,13 +21,6 @@ h
 #
 include
 "
-jsvector
-.
-h
-"
-#
-include
-"
 vm
 /
 Stack

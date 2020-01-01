@@ -90,7 +90,7 @@ mImageBufferReadPoint
 )
 mFinished
 (
-PR_FALSE
+false
 )
 mCallback
 (
@@ -913,7 +913,7 @@ NS_ERROR_NOT_INITIALIZED
 }
 mFinished
 =
-PR_TRUE
+true
 ;
 NotifyListener
 (
@@ -1373,7 +1373,7 @@ _retval
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

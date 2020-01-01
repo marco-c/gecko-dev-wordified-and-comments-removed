@@ -961,7 +961,7 @@ mType
 eStyleSVGPaintType_None
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1042,7 +1042,7 @@ opacity
 )
 )
 return
-PR_TRUE
+true
 ;
 SetupFallbackOrPaintColor
 (
@@ -1059,7 +1059,7 @@ opacity
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -1353,7 +1353,7 @@ HasStroke
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 SetupCairoStrokeHitGeometry
@@ -1416,7 +1416,7 @@ opacity
 )
 )
 return
-PR_TRUE
+true
 ;
 SetupFallbackOrPaintColor
 (
@@ -1433,7 +1433,7 @@ opacity
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 PRUint16

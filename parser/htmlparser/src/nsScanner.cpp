@@ -242,7 +242,7 @@ mCurrentPosition
 ;
 mIncremental
 =
-PR_FALSE
+false
 ;
 mUnicodeDecoder
 =
@@ -254,7 +254,7 @@ kCharsetUninitialized
 ;
 mHasInvalidCharacter
 =
-PR_FALSE
+false
 ;
 mReplacementCharacter
 =
@@ -330,7 +330,7 @@ mCurrentPosition
 ;
 mIncremental
 =
-PR_TRUE
+true
 ;
 mFirstNonWhitespacePosition
 =
@@ -351,7 +351,7 @@ kCharsetUninitialized
 ;
 mHasInvalidCharacter
 =
-PR_FALSE
+false
 ;
 mReplacementCharacter
 =
@@ -718,7 +718,7 @@ mSlidingBuffer
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 mSlidingBuffer
@@ -761,7 +761,7 @@ mCountRemaining
 length
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -1461,7 +1461,7 @@ t
 {
 skipped
 =
-PR_TRUE
+true
 ;
 PRUnichar
 thePrevChar
@@ -1556,7 +1556,7 @@ default
 :
 done
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1881,7 +1881,7 @@ case
 :
 found
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2030,7 +2030,7 @@ theChar
 {
 found
 =
-PR_FALSE
+false
 ;
 switch
 (
@@ -2054,7 +2054,7 @@ case
 :
 found
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2321,7 +2321,7 @@ f
 '
 )
 :
-PR_TRUE
+true
 )
 ;
 if
@@ -2392,7 +2392,7 @@ aHaveCR
 {
 aHaveCR
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2577,7 +2577,7 @@ current
 ;
 haveCR
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2622,7 +2622,7 @@ current
 ;
 haveCR
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2663,7 +2663,7 @@ default
 :
 done
 =
-PR_TRUE
+true
 ;
 AppendUnicodeTo
 (
@@ -2920,7 +2920,7 @@ default
 :
 done
 =
-PR_TRUE
+true
 ;
 aStart
 =
@@ -3981,7 +3981,7 @@ if
 mSlidingBuffer
 )
 return
-PR_FALSE
+false
 ;
 mSlidingBuffer
 -
@@ -4074,7 +4074,7 @@ mHasInvalidCharacter
 {
 mHasInvalidCharacter
 =
-PR_TRUE
+true
 ;
 mFirstInvalidPosition
 =
@@ -4150,7 +4150,7 @@ iter
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 void

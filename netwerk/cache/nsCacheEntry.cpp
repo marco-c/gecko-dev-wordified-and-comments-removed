@@ -854,7 +854,7 @@ mDescriptorQ
 )
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -865,10 +865,10 @@ mRequestQ
 )
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -1318,7 +1318,7 @@ nsCacheEntryHashTable
 :
 initialized
 (
-PR_FALSE
+false
 )
 {
 MOZ_COUNT_CTOR
@@ -1412,7 +1412,7 @@ table
 ;
 initialized
 =
-PR_FALSE
+false
 ;
 }
 }

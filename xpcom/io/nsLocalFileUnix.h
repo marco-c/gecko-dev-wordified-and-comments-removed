@@ -66,7 +66,7 @@ h
 "
 #
 ifdef
-XP_MACOSX
+MOZ_WIDGET_COCOA
 #
 include
 "
@@ -293,7 +293,7 @@ nsLocalFile
 :
 #
 ifdef
-XP_MACOSX
+MOZ_WIDGET_COCOA
 public
 nsILocalFileMac
 #
@@ -337,7 +337,7 @@ NS_DECL_NSIFILE
 NS_DECL_NSILOCALFILE
 #
 ifdef
-XP_MACOSX
+MOZ_WIDGET_COCOA
 NS_DECL_NSILOCALFILEMAC
 #
 endif

@@ -239,7 +239,7 @@ dbusHandlerApp
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -273,7 +273,7 @@ rv
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -300,7 +300,7 @@ rv
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -475,7 +475,7 @@ NS_ERROR_FAILURE
 dbus_message_set_no_reply
 (
 msg
-PR_TRUE
+true
 )
 ;
 DBusMessageIter

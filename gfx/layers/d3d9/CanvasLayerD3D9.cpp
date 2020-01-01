@@ -156,11 +156,11 @@ GLContext
 ;
 mNeedsYFlip
 =
-PR_FALSE
+false
 ;
 mDataIsPremultiplied
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -215,7 +215,7 @@ mGLBufferIsPremultiplied
 ;
 mNeedsYFlip
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -274,7 +274,7 @@ return
 ;
 mDirty
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1358,7 +1358,7 @@ aManager
 )
 mNeedsYFlip
 (
-PR_FALSE
+false
 )
 {
 mImplData

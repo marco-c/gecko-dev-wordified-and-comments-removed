@@ -120,7 +120,7 @@ NSSCleanupAutoPtrClass_WithParam
 SECItem
 SECITEM_FreeItem
 TrueParam
-PR_TRUE
+true
 )
 #
 define
@@ -4039,7 +4039,7 @@ if
 rootCert
 )
 return
-PR_FALSE
+false
 ;
 NS_ConvertASCIItoUTF16
 info_sha1
@@ -4071,7 +4071,7 @@ fingerprint
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -4081,7 +4081,7 @@ fingerprint
 info_sha1
 )
 return
-PR_FALSE
+false
 ;
 return
 (
@@ -4351,7 +4351,7 @@ seperatorIndex
 {
 found_error
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -4519,7 +4519,7 @@ else
 {
 found_error
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -4724,7 +4724,7 @@ SECITEM_FreeItem
 ias
 .
 derIssuer
-PR_FALSE
+false
 )
 ;
 SECITEM_FreeItem
@@ -4733,7 +4733,7 @@ SECITEM_FreeItem
 ias
 .
 serialNumber
-PR_FALSE
+false
 )
 ;
 if
@@ -4865,7 +4865,7 @@ temp_ev
 ;
 found_error
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -4889,7 +4889,7 @@ SECITEM_FreeItem
 (
 &
 ev_oid_item
-PR_FALSE
+false
 )
 ;
 testEVInfos
@@ -4939,7 +4939,7 @@ if
 testEVInfos
 )
 return
-PR_FALSE
+false
 ;
 char
 *
@@ -4958,7 +4958,7 @@ if
 env_val
 )
 return
-PR_FALSE
+false
 ;
 int
 enabled_val
@@ -4974,7 +4974,7 @@ if
 enabled_val
 )
 return
-PR_FALSE
+false
 ;
 for
 (
@@ -5027,11 +5027,11 @@ ev
 oid_tag
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -5051,7 +5051,7 @@ if
 testEVInfos
 )
 return
-PR_FALSE
+false
 ;
 char
 *
@@ -5070,7 +5070,7 @@ if
 env_val
 )
 return
-PR_FALSE
+false
 ;
 int
 enabled_val
@@ -5086,7 +5086,7 @@ if
 enabled_val
 )
 return
-PR_FALSE
+false
 ;
 for
 (
@@ -5152,7 +5152,7 @@ cert
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -5172,7 +5172,7 @@ if
 testEVInfos
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -5180,7 +5180,7 @@ if
 rootCert
 )
 return
-PR_FALSE
+false
 ;
 char
 *
@@ -5199,7 +5199,7 @@ if
 env_val
 )
 return
-PR_FALSE
+false
 ;
 int
 enabled_val
@@ -5215,7 +5215,7 @@ if
 enabled_val
 )
 return
-PR_FALSE
+false
 ;
 for
 (
@@ -5268,11 +5268,11 @@ ev
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -5340,7 +5340,7 @@ oid_tag
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -5356,13 +5356,13 @@ policyOIDTag
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 #
 endif
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -5487,7 +5487,7 @@ if
 rootCert
 )
 return
-PR_FALSE
+false
 ;
 for
 (
@@ -5544,7 +5544,7 @@ entry
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -5561,13 +5561,13 @@ rootCert
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 #
 endif
 return
-PR_FALSE
+false
 ;
 }
 PRStatus
@@ -5743,7 +5743,7 @@ SECITEM_FreeItem
 ias
 .
 derIssuer
-PR_FALSE
+false
 )
 ;
 SECITEM_FreeItem
@@ -5752,7 +5752,7 @@ SECITEM_FreeItem
 ias
 .
 serialNumber
-PR_FALSE
+false
 )
 ;
 if
@@ -5886,7 +5886,7 @@ SECITEM_FreeItem
 (
 &
 ev_oid_item
-PR_FALSE
+false
 )
 ;
 }
@@ -5901,7 +5901,7 @@ testEVInfosLoaded
 {
 testEVInfosLoaded
 =
-PR_TRUE
+true
 ;
 testEVInfos
 =
@@ -6107,7 +6107,7 @@ oid_tag
 ;
 found
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -6146,7 +6146,7 @@ mSSLStatus
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return
@@ -6175,7 +6175,7 @@ aIsEV
 *
 aIsEV
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -6355,7 +6355,7 @@ EnsureIdentityInfoLoaded
 ;
 validEV
 =
-PR_FALSE
+false
 ;
 resultOidTag
 =
@@ -6981,7 +6981,7 @@ aIsEV
 *
 aIsEV
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -7231,7 +7231,7 @@ testEVInfosLoaded
 {
 testEVInfosLoaded
 =
-PR_FALSE
+false
 ;
 if
 (

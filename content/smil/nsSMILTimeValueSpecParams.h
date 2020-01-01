@@ -40,7 +40,7 @@ INDEFINITE
 )
 mSyncBegin
 (
-PR_FALSE
+false
 )
 mRepeatIterationOrAccessKey
 (

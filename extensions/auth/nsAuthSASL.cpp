@@ -451,7 +451,7 @@ message
 messageLen
 -
 1
-PR_FALSE
+false
 outToken
 outTokenLen
 )

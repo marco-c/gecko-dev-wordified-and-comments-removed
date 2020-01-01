@@ -256,7 +256,7 @@ aTest
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 struct
@@ -359,7 +359,7 @@ kBlock
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 inline
@@ -396,7 +396,7 @@ kBlockEntity
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 inline
@@ -433,7 +433,7 @@ kSpecial
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 inline
@@ -470,7 +470,7 @@ kPhrase
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 inline
@@ -507,7 +507,7 @@ kFontStyle
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 inline
@@ -560,7 +560,7 @@ eHTMLTag_colgroup
 :
 result
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -568,7 +568,7 @@ default
 :
 result
 =
-PR_FALSE
+false
 ;
 }
 return

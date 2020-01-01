@@ -77,12 +77,12 @@ mName
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -94,7 +94,7 @@ IsMarkable
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 void

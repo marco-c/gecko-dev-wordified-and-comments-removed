@@ -250,7 +250,7 @@ T
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 template
@@ -278,7 +278,7 @@ T
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 #

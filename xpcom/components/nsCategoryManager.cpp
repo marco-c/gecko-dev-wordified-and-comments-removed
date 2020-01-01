@@ -1245,7 +1245,7 @@ args
 >
 success
 =
-PR_FALSE
+false
 ;
 status
 =
@@ -1567,7 +1567,7 @@ nsCategoryManager
 )
 mSuppressNotifications
 (
-PR_FALSE
+false
 )
 {
 PL_INIT_ARENA_POOL

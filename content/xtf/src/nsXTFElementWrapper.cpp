@@ -753,7 +753,7 @@ NOTIFY_PERFORM_ACCESSKEY
 )
 RegUnregAccessKey
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -908,7 +908,7 @@ NOTIFY_PERFORM_ACCESSKEY
 )
 RegUnregAccessKey
 (
-PR_FALSE
+false
 )
 ;
 nsXTFElementWrapperBase
@@ -1347,7 +1347,7 @@ aNameSpaceID
 )
 RegUnregAccessKey
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1562,7 +1562,7 @@ ourVal
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -1684,7 +1684,7 @@ ourVal
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -2035,7 +2035,7 @@ aNameSpaceID
 )
 RegUnregAccessKey
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2723,7 +2723,7 @@ SetAttr
 kNameSpaceID_None
 attrName
 value
-PR_TRUE
+true
 )
 ;
 }
@@ -2822,7 +2822,7 @@ nsContentUtils
 CheckQName
 (
 aName
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2920,7 +2920,7 @@ name
 LocalName
 (
 )
-PR_TRUE
+true
 )
 ;
 }
@@ -2945,7 +2945,7 @@ UnsetAttr
 (
 kNameSpaceID_None
 nameAtom
-PR_TRUE
+true
 )
 ;
 }
@@ -2986,7 +2986,7 @@ name
 *
 aReturn
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -3024,7 +3024,7 @@ NS_OK
 *
 aReturn
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -3766,7 +3766,7 @@ nsIXPConnectWrappedJS
 )
 )
 return
-PR_FALSE
+false
 ;
 GetXTFElement
 (

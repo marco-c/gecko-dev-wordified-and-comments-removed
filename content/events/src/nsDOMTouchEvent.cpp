@@ -556,7 +556,7 @@ aEvent
 new
 nsInputEvent
 (
-PR_FALSE
+false
 0
 nsnull
 )
@@ -569,14 +569,14 @@ aEvent
 {
 mEventIsInternal
 =
-PR_FALSE
+false
 ;
 }
 else
 {
 mEventIsInternal
 =
-PR_TRUE
+true
 ;
 mEvent
 -
@@ -1043,7 +1043,7 @@ sDidCheckPref
 {
 sDidCheckPref
 =
-PR_TRUE
+true
 ;
 sPrefValue
 =

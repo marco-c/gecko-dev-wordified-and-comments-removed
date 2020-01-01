@@ -298,11 +298,11 @@ aItalic
 ;
 mIsUserFont
 =
-PR_TRUE
+true
 ;
 mIsLocalUserFont
 =
-PR_TRUE
+true
 ;
 mIsCJK
 =
@@ -357,7 +357,7 @@ aItalic
 ;
 mIsUserFont
 =
-PR_TRUE
+true
 ;
 mIsCJK
 =

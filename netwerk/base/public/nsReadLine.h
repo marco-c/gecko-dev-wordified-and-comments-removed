@@ -216,7 +216,7 @@ bytesRead
 *
 more
 =
-PR_FALSE
+false
 ;
 return
 rv
@@ -432,7 +432,7 @@ current
 *
 more
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

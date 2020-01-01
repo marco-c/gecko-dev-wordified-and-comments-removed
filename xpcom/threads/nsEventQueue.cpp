@@ -175,7 +175,7 @@ result
 nsnull
 ;
 return
-PR_FALSE
+false
 ;
 }
 LOG
@@ -275,7 +275,7 @@ mOffsetHead
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -330,7 +330,7 @@ mHead
 {
 rv
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -374,7 +374,7 @@ page
 {
 rv
 =
-PR_FALSE
+false
 ;
 }
 else

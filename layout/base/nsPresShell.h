@@ -2154,7 +2154,7 @@ frameSelection
 >
 SetMouseDownState
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -3194,6 +3194,11 @@ return
 result
 ;
 }
+PRUint64
+ComputeTextRunMemoryUsed
+(
+)
+;
 class
 MemoryReporter
 :

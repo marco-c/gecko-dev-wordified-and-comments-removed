@@ -525,10 +525,10 @@ intLen
 '
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 inline
@@ -573,7 +573,7 @@ aStart
 substrLen
 )
 return
-PR_FALSE
+false
 ;
 bool
 result
@@ -599,7 +599,7 @@ substrLen
 ;
 result
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -661,7 +661,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 size_t
 len
@@ -692,7 +692,7 @@ if
 isExp
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -709,7 +709,7 @@ aStart
 '
 )
 return
-PR_FALSE
+false
 ;
 aResult
 =
@@ -825,7 +825,7 @@ begin
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -888,7 +888,7 @@ MSEC_PER_HOUR
 ;
 result
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -926,7 +926,7 @@ multiplicand
 ;
 result
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -966,7 +966,7 @@ MSEC_PER_MIN
 ;
 result
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -983,7 +983,7 @@ MSEC_PER_SEC
 ;
 result
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1076,7 +1076,7 @@ aSpec
 aResult
 .
 mOffset
-PR_TRUE
+true
 )
 ;
 }
@@ -1551,7 +1551,7 @@ read
 {
 escape
 =
-PR_TRUE
+true
 ;
 +
 +
@@ -1572,7 +1572,7 @@ read
 ;
 escape
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -1624,7 +1624,7 @@ tokenEnd
 GetTokenEnd
 (
 aSpec
-PR_TRUE
+true
 )
 ;
 nsAutoString
@@ -1663,7 +1663,7 @@ nsContentUtils
 CheckQName
 (
 token
-PR_FALSE
+false
 )
 )
 )
@@ -1719,7 +1719,7 @@ EndReading
 (
 )
 )
-PR_FALSE
+false
 )
 ;
 const
@@ -1761,7 +1761,7 @@ result
 .
 mSyncBegin
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1793,7 +1793,7 @@ result
 .
 mSyncBegin
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -1879,7 +1879,7 @@ nsContentUtils
 CheckQName
 (
 token2
-PR_FALSE
+false
 )
 )
 )
@@ -2497,7 +2497,7 @@ tmpPreventCachingOfSandwich
 *
 mPreventCachingOfSandwich
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -2560,7 +2560,7 @@ aPreventCachingOfSandwich
 {
 aPreventCachingOfSandwich
 =
-PR_FALSE
+false
 ;
 SMILValueParser
 valueParser
@@ -2950,7 +2950,7 @@ spec
 aResult
 .
 mOffset
-PR_TRUE
+true
 )
 ;
 if
@@ -3148,7 +3148,7 @@ aIsMedia
 *
 aIsMedia
 =
-PR_FALSE
+false
 ;
 }
 NS_ConvertUTF16toUTF8
@@ -3253,7 +3253,7 @@ sign
 {
 isValid
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -3265,7 +3265,7 @@ started
 {
 isValid
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -3322,14 +3322,14 @@ numCouldBeSec
 {
 isValid
 =
-PR_FALSE
+false
 ;
 break
 ;
 }
 started
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3355,7 +3355,7 @@ numIsReal
 {
 isValid
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -3368,7 +3368,7 @@ started
 {
 isValid
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -3382,7 +3382,7 @@ colonCount
 {
 isValid
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -3428,7 +3428,7 @@ colonCount
 {
 isValid
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -3454,7 +3454,7 @@ indefinite
 {
 isIndefinite
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -3489,7 +3489,7 @@ media
 *
 aIsMedia
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3506,7 +3506,7 @@ metricMultiplicand
 {
 isValid
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -3518,7 +3518,7 @@ else
 {
 isValid
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -3532,7 +3532,7 @@ started
 {
 isValid
 =
-PR_FALSE
+false
 ;
 }
 SkipBeginWsp
@@ -3551,7 +3551,7 @@ end
 {
 isValid
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -3589,7 +3589,7 @@ numCouldBeSec
 {
 isValid
 =
-PR_FALSE
+false
 ;
 }
 if

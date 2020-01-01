@@ -482,7 +482,7 @@ AddObserver
 (
 this
 mTopic
-PR_FALSE
+false
 )
 ;
 while
@@ -627,7 +627,7 @@ nsINavHistoryService
 :
 :
 TRANSITION_LINK
-PR_FALSE
+false
 0
 &
 id
@@ -1285,7 +1285,7 @@ AddObserver
 (
 this
 NS_XPCOM_WILL_SHUTDOWN_OBSERVER_ID
-PR_FALSE
+false
 )
 ;
 }

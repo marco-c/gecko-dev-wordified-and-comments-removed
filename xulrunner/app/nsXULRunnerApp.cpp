@@ -349,7 +349,7 @@ s
 #
 endif
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -556,7 +556,7 @@ nsnull
 ;
 Output
 (
-PR_FALSE
+false
 "
 Mozilla
 XULRunner
@@ -780,7 +780,7 @@ rv
 {
 Output
 (
-PR_TRUE
+true
 "
 Could
 not
@@ -818,7 +818,7 @@ rv
 {
 Output
 (
-PR_TRUE
+true
 "
 Could
 not
@@ -1237,7 +1237,7 @@ version
 ;
 Output
 (
-PR_FALSE
+false
 "
 Mozilla
 XULRunner
@@ -1681,7 +1681,7 @@ rv
 {
 Output
 (
-PR_TRUE
+true
 "
 Error
 :
@@ -1714,7 +1714,7 @@ appData
 {
 Output
 (
-PR_TRUE
+true
 "
 Error
 :

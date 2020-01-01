@@ -3061,7 +3061,7 @@ aChild
 )
 )
 return
-PR_FALSE
+false
 ;
 AtkObject
 *
@@ -3153,7 +3153,7 @@ eventData
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool

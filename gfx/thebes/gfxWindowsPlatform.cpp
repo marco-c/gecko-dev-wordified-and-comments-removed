@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 gfxWindowsPlatform
 .
 h
@@ -157,6 +166,10 @@ include
 <
 string
 >
+using
+namespace
+mozilla
+;
 using
 namespace
 mozilla
@@ -540,7 +553,7 @@ UNINITIALIZED_VALUE
 ;
 mUsingGDIFonts
 =
-PR_FALSE
+false
 ;
 CoInitialize
 (
@@ -802,7 +815,7 @@ FEATURE_NO_INFO
 {
 d2dDisabled
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -826,7 +839,7 @@ FEATURE_BLOCKED_DEVICE
 {
 d2dBlocked
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -918,7 +931,7 @@ RENDER_DIRECT2D
 ;
 mUseDirectWrite
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1425,11 +1438,11 @@ WINDOWS7_RTM_BUILD
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -1445,7 +1458,7 @@ CreatePlatformFontList
 {
 mUsingGDIFonts
 =
-PR_FALSE
+false
 ;
 gfxPlatformFontList
 *
@@ -1514,7 +1527,7 @@ gfxGDIFontList
 ;
 mUsingGDIFonts
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -2080,7 +2093,7 @@ resolvedName
 {
 aAborted
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2290,7 +2303,7 @@ FLAG_FORMAT_TRUETYPE
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -2302,11 +2315,11 @@ aFormatFlags
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 gfxFontFamily
@@ -3133,7 +3146,7 @@ i
 {
 size
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 displayName
 )
@@ -3188,7 +3201,7 @@ false
 swprintf_s
 (
 subkeyName
-NS_ARRAY_LENGTH
+ArrayLength
 (
 subkeyName
 )
@@ -3591,7 +3604,7 @@ else
 {
 clearTextFontCaches
 =
-PR_FALSE
+false
 ;
 }
 if

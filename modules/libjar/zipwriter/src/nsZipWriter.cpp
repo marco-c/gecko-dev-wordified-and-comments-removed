@@ -125,7 +125,7 @@ Init
 ;
 mInQueue
 =
-PR_FALSE
+false
 ;
 }
 nsZipWriter
@@ -202,7 +202,7 @@ aComment
 ;
 mCDSDirty
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1048,7 +1048,7 @@ rv
 ;
 mCDSDirty
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -1059,7 +1059,7 @@ mCDSOffset
 ;
 mCDSDirty
 =
-PR_TRUE
+true
 ;
 mComment
 .
@@ -1609,7 +1609,7 @@ aZipEntry
 modtime
 aCompression
 inputStream
-PR_FALSE
+false
 permissions
 )
 ;
@@ -1777,7 +1777,7 @@ aZipEntry
 aModTime
 aCompression
 inputStream
-PR_FALSE
+false
 PERMISSIONS_FILE
 )
 ;
@@ -2575,7 +2575,7 @@ pos
 ;
 mCDSDirty
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -2624,7 +2624,7 @@ aContext
 ;
 mInQueue
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -3323,7 +3323,7 @@ rv
 }
 mCDSDirty
 =
-PR_TRUE
+true
 ;
 mCDSOffset
 +
@@ -3573,7 +3573,7 @@ NS_ERROR_OUT_OF_MEMORY
 }
 mCDSDirty
 =
-PR_TRUE
+true
 ;
 mCDSOffset
 +
@@ -3913,7 +3913,7 @@ mStream
 1
 0
 0
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4052,7 +4052,7 @@ NS_OK
 *
 complete
 =
-PR_TRUE
+true
 ;
 return
 InternalAddEntryDirectory
@@ -4128,7 +4128,7 @@ inputStream
 1
 0
 0
-PR_TRUE
+true
 )
 ;
 if
@@ -4337,7 +4337,7 @@ aPos
 ;
 mCDSDirty
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -4660,7 +4660,7 @@ nsnull
 ;
 mInQueue
 =
-PR_FALSE
+false
 ;
 if
 (

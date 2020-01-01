@@ -289,7 +289,7 @@ mNeedsRebuild
 {
 mNeedsRebuild
 =
-PR_FALSE
+false
 ;
 mFactory
 -
@@ -302,6 +302,12 @@ aRefContext
 ;
 }
 }
+virtual
+PRUint64
+ComputeSize
+(
+)
+;
 nsTransformingTextRunFactory
 *
 mFactory
@@ -383,7 +389,7 @@ aOwnsFactory
 )
 mNeedsRebuild
 (
-PR_TRUE
+true
 )
 {
 PRUint32

@@ -91,7 +91,7 @@ aASCIIOrigin
 )
 mHasPrompted
 (
-PR_FALSE
+false
 )
 mPromptResult
 (

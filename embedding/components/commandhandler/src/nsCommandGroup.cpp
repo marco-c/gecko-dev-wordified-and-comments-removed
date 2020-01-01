@@ -162,7 +162,7 @@ nsnull
 )
 mInitted
 (
-PR_FALSE
+false
 )
 {
 }
@@ -430,7 +430,7 @@ mIndex
 +
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -492,7 +492,7 @@ mIndex
 ;
 mInitted
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1101,7 +1101,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 nsCStringKey
 groupKey
@@ -1195,7 +1195,7 @@ commandString
 *
 _retval
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1438,6 +1438,6 @@ commandList
 ;
 }
 return
-PR_TRUE
+true
 ;
 }

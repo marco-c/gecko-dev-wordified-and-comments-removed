@@ -586,7 +586,7 @@ aChild
 ;
 DocLoaderIsEmpty
 (
-PR_TRUE
+true
 )
 ;
 }

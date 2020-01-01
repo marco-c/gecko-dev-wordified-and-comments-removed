@@ -170,7 +170,7 @@ aElement
 )
 mEvent
 (
-PR_TRUE
+true
 aMessage
 aAnimationName
 aElapsedTime
@@ -197,7 +197,7 @@ mElement
 )
 mEvent
 (
-PR_TRUE
+true
 aOther
 .
 mEvent
@@ -295,7 +295,7 @@ KeyframesListIsDirty
 {
 mKeyframesListIsDirty
 =
-PR_TRUE
+true
 ;
 }
 typedef

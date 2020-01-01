@@ -59,7 +59,7 @@ mContext
 PK11_DestroyContext
 (
 mContext
-PR_TRUE
+true
 )
 ;
 }
@@ -123,7 +123,7 @@ mContext
 PK11_DestroyContext
 (
 mContext
-PR_TRUE
+true
 )
 ;
 void
@@ -211,7 +211,7 @@ param
 SECITEM_FreeItem
 (
 param
-PR_TRUE
+true
 )
 ;
 if

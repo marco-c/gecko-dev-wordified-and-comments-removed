@@ -442,7 +442,7 @@ nsGenConList
 )
 mDirty
 (
-PR_FALSE
+false
 )
 {
 }
@@ -606,7 +606,7 @@ SetDirty
 {
 mDirty
 =
-PR_TRUE
+true
 ;
 }
 private

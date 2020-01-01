@@ -107,7 +107,7 @@ aContext
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 #

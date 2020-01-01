@@ -964,7 +964,7 @@ passes
 endif
 finished
 =
-PR_TRUE
+true
 ;
 HandleBoxPack
 (
@@ -1542,7 +1542,7 @@ passes
 {
 layout
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -1557,7 +1557,7 @@ child
 )
 layout
 =
-PR_FALSE
+false
 ;
 }
 nsRect
@@ -1727,7 +1727,7 @@ childRect
 ;
 needsRedraw
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -1753,7 +1753,7 @@ y
 )
 needsRedraw
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -1873,7 +1873,7 @@ finished
 ;
 childResized
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -2057,7 +2057,7 @@ count
 )
 finished
 =
-PR_TRUE
+true
 ;
 }
 x
@@ -2133,7 +2133,7 @@ break
 }
 while
 (
-PR_FALSE
+false
 =
 =
 finished
@@ -2503,12 +2503,12 @@ aBox
 )
 isHorizontal
 =
-PR_TRUE
+true
 ;
 else
 isHorizontal
 =
-PR_FALSE
+false
 ;
 nsIBox
 *
@@ -3915,7 +3915,7 @@ GetPosition
 *
 aNeedsRedraw
 =
-PR_TRUE
+true
 ;
 child
 -
@@ -4138,7 +4138,7 @@ childActualHeight
 ;
 aFinished
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4149,7 +4149,7 @@ aFlexes
 {
 recompute
 =
-PR_TRUE
+true
 ;
 InvalidateComputedSizes
 (
@@ -4172,7 +4172,7 @@ node
 >
 resized
 =
-PR_FALSE
+false
 ;
 node
 =
@@ -4336,7 +4336,7 @@ aChildComputedSize
 >
 resized
 =
-PR_TRUE
+true
 ;
 while
 (
@@ -4355,7 +4355,7 @@ node
 >
 valid
 =
-PR_TRUE
+true
 ;
 node
 =
@@ -4367,11 +4367,11 @@ next
 }
 recompute
 =
-PR_TRUE
+true
 ;
 aFinished
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -4512,7 +4512,7 @@ aComputedBoxSizes
 >
 valid
 =
-PR_FALSE
+false
 ;
 aComputedBoxSizes
 =
@@ -4673,7 +4673,7 @@ computedBoxSizes
 >
 valid
 =
-PR_TRUE
+true
 ;
 computedBoxSizes
 -
@@ -4784,7 +4784,7 @@ pass
 =
 1
 ;
-PR_TRUE
+true
 =
 =
 limit
@@ -4796,7 +4796,7 @@ pass
 {
 limit
 =
-PR_FALSE
+false
 ;
 boxSizes
 =
@@ -4905,7 +4905,7 @@ computedBoxSizes
 >
 valid
 =
-PR_TRUE
+true
 ;
 spacerConstantsRemaining
 -
@@ -4924,7 +4924,7 @@ min
 ;
 limit
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -4948,7 +4948,7 @@ computedBoxSizes
 >
 valid
 =
-PR_TRUE
+true
 ;
 spacerConstantsRemaining
 -
@@ -4967,7 +4967,7 @@ max
 ;
 limit
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -5062,7 +5062,7 @@ computedBoxSizes
 >
 valid
 =
-PR_TRUE
+true
 ;
 }
 aGivenSize
@@ -6244,7 +6244,7 @@ aFlex
 0
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsComputedBoxSize
@@ -6256,11 +6256,11 @@ nsComputedBoxSize
 {
 resized
 =
-PR_FALSE
+false
 ;
 valid
 =
-PR_FALSE
+false
 ;
 size
 =
@@ -6292,7 +6292,7 @@ NS_INTRINSICSIZE
 ;
 collapsed
 =
-PR_FALSE
+false
 ;
 left
 =
@@ -6312,7 +6312,7 @@ nsnull
 ;
 bogus
 =
-PR_FALSE
+false
 ;
 }
 void

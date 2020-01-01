@@ -1,10 +1,4 @@
 #
-ifndef
-__FilteringWrapper_h__
-#
-define
-__FilteringWrapper_h__
-#
 include
 <
 jsapi
@@ -38,7 +32,7 @@ public
 :
 FilteringWrapper
 (
-unsigned
+uintN
 flags
 )
 ;
@@ -112,7 +106,7 @@ cx
 JSObject
 *
 proxy
-unsigned
+uintN
 flags
 js
 :
@@ -154,5 +148,3 @@ singleton
 }
 ;
 }
-#
-endif

@@ -314,11 +314,11 @@ mBuffer
 newbuf
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult

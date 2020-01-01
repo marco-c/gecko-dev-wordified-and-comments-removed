@@ -305,7 +305,7 @@ Length
 )
 )
 return
-PR_FALSE
+false
 ;
 Block
 *
@@ -322,7 +322,7 @@ if
 block
 )
 return
-PR_FALSE
+false
 ;
 return
 (
@@ -400,7 +400,7 @@ startBlock
 blockLen
 )
 return
-PR_FALSE
+false
 ;
 PRUint32
 blockIndex
@@ -451,7 +451,7 @@ blockIndex
 )
 hasBlocksInRange
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -460,7 +460,7 @@ if
 hasBlocksInRange
 )
 return
-PR_FALSE
+false
 ;
 Block
 *
@@ -557,7 +557,7 @@ i
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -569,7 +569,7 @@ endBlock
 startBlock
 )
 return
-PR_FALSE
+false
 ;
 for
 (
@@ -637,7 +637,7 @@ index
 ]
 )
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -720,12 +720,12 @@ i
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -1025,7 +1025,7 @@ blockLastBit
 )
 fullBlock
 =
-PR_TRUE
+true
 ;
 block
 =
@@ -3402,7 +3402,7 @@ aCh
 kUnicodeBidiScriptsEnd
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -3424,7 +3424,7 @@ aCh
 kUnicodeRLO
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -3440,7 +3440,7 @@ aCh
 kUnicodeBidiPresentationEnd
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -3454,10 +3454,10 @@ aCh
 kUnicodeFirstHighSurrogateBlock
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 static

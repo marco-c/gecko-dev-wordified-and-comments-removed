@@ -119,11 +119,11 @@ aCtxType
 ;
 mIsAnimated
 =
-PR_FALSE
+false
 ;
 mIsBaseSet
 =
-PR_FALSE
+false
 ;
 }
 nsSVGLength2
@@ -846,7 +846,7 @@ SetBaseValueString
 (
 aValue
 mSVGElement
-PR_TRUE
+true
 )
 ;
 }

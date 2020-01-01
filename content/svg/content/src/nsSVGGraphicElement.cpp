@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsSVGGraphicElement
 .
 h
@@ -297,7 +306,7 @@ nsSVGUtils
 GetCTM
 (
 this
-PR_FALSE
+false
 )
 ;
 *
@@ -348,7 +357,7 @@ nsSVGUtils
 GetCTM
 (
 this
-PR_TRUE
+true
 )
 ;
 *
@@ -589,7 +598,7 @@ FindAttributeDependence
 (
 name
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )

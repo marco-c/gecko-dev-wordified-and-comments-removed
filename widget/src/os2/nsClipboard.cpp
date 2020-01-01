@@ -390,7 +390,7 @@ if
 pClipboardData
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -483,7 +483,7 @@ Elements
 ;
 TempBufAllocated
 =
-PR_TRUE
+true
 ;
 NumOfBytes
 =
@@ -546,7 +546,7 @@ pTempBuf
 ;
 TempBufAllocated
 =
-PR_TRUE
+true
 ;
 }
 nsLinebreakHelpers
@@ -805,7 +805,7 @@ pDataMem
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -1688,7 +1688,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1750,7 +1750,7 @@ fmtInfo
 *
 _retval
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1782,7 +1782,7 @@ fmtInfo
 *
 _retval
 =
-PR_TRUE
+true
 ;
 break
 ;

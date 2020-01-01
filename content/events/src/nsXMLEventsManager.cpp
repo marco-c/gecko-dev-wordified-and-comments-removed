@@ -129,7 +129,7 @@ GetDocument
 aDocument
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -184,7 +184,7 @@ IsEmpty
 )
 )
 return
-PR_FALSE
+false
 ;
 nsAutoString
 handlerURIStr
@@ -224,7 +224,7 @@ handlerURIStr
 {
 hasHandlerURI
 =
-PR_TRUE
+true
 ;
 nsCAutoString
 handlerRef
@@ -341,7 +341,7 @@ if
 handler
 )
 return
-PR_FALSE
+false
 ;
 aContent
 -
@@ -573,7 +573,7 @@ eli
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -583,7 +583,7 @@ eli
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 nsXMLEventsListener
@@ -828,7 +828,7 @@ mTarget
 {
 targetMatched
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -876,7 +876,7 @@ mTarget
 )
 targetMatched
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -1215,11 +1215,11 @@ aContent
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void

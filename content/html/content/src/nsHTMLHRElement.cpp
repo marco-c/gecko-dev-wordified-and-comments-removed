@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsGenericHTMLElement
 .
 h
@@ -61,6 +70,10 @@ nsCSSProps
 .
 h
 "
+using
+namespace
+mozilla
+;
 class
 nsHTMLHRElement
 :
@@ -387,7 +400,7 @@ ParseEnumValue
 (
 aValue
 kAlignTable
-PR_FALSE
+false
 )
 ;
 }
@@ -503,7 +516,7 @@ colorIsSet
 {
 noshade
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1059,7 +1072,7 @@ sizePerSide
 ;
 allSides
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -1576,7 +1589,7 @@ FindAttributeDependence
 (
 aAttribute
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )

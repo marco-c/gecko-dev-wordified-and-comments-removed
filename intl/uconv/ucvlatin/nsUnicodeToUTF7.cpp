@@ -949,11 +949,11 @@ aChar
 )
 )
 return
-PR_TRUE
+true
 ;
 else
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -1266,7 +1266,7 @@ Z
 )
 )
 return
-PR_TRUE
+true
 ;
 else
 if
@@ -1291,7 +1291,7 @@ z
 )
 )
 return
-PR_TRUE
+true
 ;
 else
 if
@@ -1316,7 +1316,7 @@ aChar
 )
 )
 return
-PR_TRUE
+true
 ;
 else
 if
@@ -1337,7 +1337,7 @@ aChar
 )
 )
 return
-PR_TRUE
+true
 ;
 else
 if
@@ -1358,7 +1358,7 @@ aChar
 )
 )
 return
-PR_TRUE
+true
 ;
 else
 if
@@ -1369,7 +1369,7 @@ aChar
 58
 )
 return
-PR_TRUE
+true
 ;
 else
 if
@@ -1380,7 +1380,7 @@ aChar
 63
 )
 return
-PR_TRUE
+true
 ;
 else
 if
@@ -1392,7 +1392,7 @@ aChar
 '
 )
 return
-PR_TRUE
+true
 ;
 else
 if
@@ -1403,7 +1403,7 @@ aChar
 9
 )
 return
-PR_TRUE
+true
 ;
 else
 if
@@ -1414,7 +1414,7 @@ aChar
 13
 )
 return
-PR_TRUE
+true
 ;
 else
 if
@@ -1425,7 +1425,7 @@ aChar
 10
 )
 return
-PR_TRUE
+true
 ;
 else
 if
@@ -1436,7 +1436,7 @@ aChar
 60
 )
 return
-PR_TRUE
+true
 ;
 else
 if
@@ -1447,7 +1447,7 @@ aChar
 33
 )
 return
-PR_TRUE
+true
 ;
 else
 if
@@ -1458,7 +1458,7 @@ aChar
 34
 )
 return
-PR_TRUE
+true
 ;
 else
 if
@@ -1469,7 +1469,7 @@ aChar
 62
 )
 return
-PR_TRUE
+true
 ;
 else
 if
@@ -1480,7 +1480,7 @@ aChar
 61
 )
 return
-PR_TRUE
+true
 ;
 else
 if
@@ -1491,7 +1491,7 @@ aChar
 59
 )
 return
-PR_TRUE
+true
 ;
 else
 if
@@ -1502,7 +1502,7 @@ aChar
 91
 )
 return
-PR_TRUE
+true
 ;
 else
 if
@@ -1513,10 +1513,10 @@ aChar
 93
 )
 return
-PR_TRUE
+true
 ;
 else
 return
-PR_FALSE
+false
 ;
 }

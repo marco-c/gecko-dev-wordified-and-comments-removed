@@ -471,7 +471,7 @@ topicA
 get
 (
 )
-PR_FALSE
+false
 )
 ;
 testResult
@@ -513,7 +513,7 @@ topicA
 get
 (
 )
-PR_FALSE
+false
 )
 ;
 testResult
@@ -555,7 +555,7 @@ topicB
 get
 (
 )
-PR_FALSE
+false
 )
 ;
 testResult

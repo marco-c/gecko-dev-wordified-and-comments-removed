@@ -297,7 +297,7 @@ BeginDeferringScripts
 {
 mDeferEnabled
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -681,7 +681,7 @@ mLoader
 >
 SetEnabled
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -701,7 +701,7 @@ mLoader
 >
 SetEnabled
 (
-PR_TRUE
+true
 )
 ;
 }

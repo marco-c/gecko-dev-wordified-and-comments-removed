@@ -184,8 +184,8 @@ Trim
 (
 "
 "
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 const
@@ -237,8 +237,8 @@ Trim
 (
 "
 "
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 mSlotHWVersion
@@ -1249,7 +1249,7 @@ mModule
 dllName
 asciiname
 NULL
-PR_FALSE
+false
 )
 ;
 if
@@ -1268,7 +1268,7 @@ mModule
 dllName
 NULL
 asciiname
-PR_FALSE
+false
 )
 ;
 }

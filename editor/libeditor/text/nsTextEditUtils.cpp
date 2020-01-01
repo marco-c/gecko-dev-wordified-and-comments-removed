@@ -120,10 +120,10 @@ node
 )
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -208,11 +208,11 @@ _moz
 )
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsAutoEditInitRulesTrigger

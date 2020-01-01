@@ -12,6 +12,15 @@ h
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsWindow
 .
 h
@@ -231,7 +240,7 @@ h
 #
 include
 "
-nsWidgetAtoms
+nsGkAtoms
 .
 h
 "
@@ -1571,9 +1580,6 @@ aHandleEventFunction
 nsDeviceContext
 *
 aContext
-nsIAppShell
-*
-aAppShell
 nsIToolkit
 *
 aToolkit
@@ -1655,7 +1661,6 @@ baseParent
 aRect
 aHandleEventFunction
 aContext
-aAppShell
 aToolkit
 aInitData
 )
@@ -14138,7 +14143,7 @@ APPCOMMAND_BROWSER_BACKWARD
 :
 command
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 Back
@@ -14150,7 +14155,7 @@ APPCOMMAND_BROWSER_FORWARD
 :
 command
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 Forward
@@ -14162,7 +14167,7 @@ APPCOMMAND_BROWSER_REFRESH
 :
 command
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 Reload
@@ -14174,7 +14179,7 @@ APPCOMMAND_BROWSER_STOP
 :
 command
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 Stop
@@ -14186,7 +14191,7 @@ APPCOMMAND_BROWSER_SEARCH
 :
 command
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 Search
@@ -14198,7 +14203,7 @@ APPCOMMAND_BROWSER_FAVORITES
 :
 command
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 Bookmarks
@@ -14210,7 +14215,7 @@ APPCOMMAND_BROWSER_HOME
 :
 command
 =
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 Home
@@ -14227,7 +14232,7 @@ nsCommandEvent
 event
 (
 true
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 onAppCommand
@@ -27438,7 +27443,7 @@ GetUniChars
 (
 uniChars
 shiftStates
-NS_ARRAY_LENGTH
+ArrayLength
 (
 uniChars
 )
@@ -27483,7 +27488,7 @@ GetUniCharsWithShiftState
 virtualKeyCode
 capsLockState
 unshiftedChars
-NS_ARRAY_LENGTH
+ArrayLength
 (
 unshiftedChars
 )
@@ -27500,7 +27505,7 @@ capsLockState
 |
 eShift
 shiftedChars
-NS_ARRAY_LENGTH
+ArrayLength
 (
 shiftedChars
 )
@@ -28628,7 +28633,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sModifierKeyMap
 )
@@ -30651,7 +30656,7 @@ pGetProcessImageFileName
 (
 hProcess
 path
-NS_ARRAY_LENGTH
+ArrayLength
 (
 path
 )

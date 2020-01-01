@@ -135,7 +135,7 @@ aResult
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -155,7 +155,7 @@ aResult
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -313,9 +313,9 @@ mConsumed
 (
 mValue
 ?
-PR_FALSE
+false
 :
-PR_TRUE
+true
 )
 ;
 }
@@ -420,7 +420,7 @@ NS_ERROR_UNEXPECTED
 ;
 mConsumed
 =
-PR_TRUE
+true
 ;
 *
 aResult
@@ -567,11 +567,11 @@ secondEnumerator
 )
 mConsumed
 (
-PR_FALSE
+false
 )
 mAtSecond
 (
-PR_FALSE
+false
 )
 {
 }
@@ -631,7 +631,7 @@ mConsumed
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -673,7 +673,7 @@ NS_OK
 ;
 mAtSecond
 =
-PR_TRUE
+true
 ;
 }
 rv
@@ -707,11 +707,11 @@ NS_OK
 *
 aResult
 =
-PR_FALSE
+false
 ;
 mConsumed
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

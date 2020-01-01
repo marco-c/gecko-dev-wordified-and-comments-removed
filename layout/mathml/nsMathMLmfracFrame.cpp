@@ -568,9 +568,9 @@ return
 PlaceInternal
 (
 aRenderingContext
-PR_FALSE
+false
 aDesiredSize
-PR_TRUE
+true
 )
 ;
 }
@@ -638,7 +638,7 @@ PlaceInternal
 aRenderingContext
 aPlaceOrigin
 aDesiredSize
-PR_FALSE
+false
 )
 ;
 }

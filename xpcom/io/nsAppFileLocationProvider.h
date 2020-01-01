@@ -79,7 +79,7 @@ false
 if
 defined
 (
-XP_MACOSX
+MOZ_WIDGET_COCOA
 )
 static
 bool

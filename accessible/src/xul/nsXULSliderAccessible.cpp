@@ -517,7 +517,7 @@ GetAllowsAnonChildAccessibles
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 already_AddRefed
@@ -764,7 +764,7 @@ SetAttr
 kNameSpaceID_None
 aName
 aValue
-PR_TRUE
+true
 )
 ;
 return

@@ -38,7 +38,7 @@ EditAggregateTxn
 )
 mAbsorb
 (
-PR_TRUE
+true
 )
 mForwarding
 (
@@ -50,7 +50,7 @@ nsnull
 )
 mCommitted
 (
-PR_FALSE
+false
 )
 mStartSel
 (
@@ -365,7 +365,7 @@ NS_ERROR_NULL_POINTER
 *
 aDidMerge
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -544,7 +544,7 @@ editTxn
 *
 aDidMerge
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -679,7 +679,7 @@ isSame
 {
 mAbsorb
 =
-PR_TRUE
+true
 ;
 plcTxn
 -
@@ -696,7 +696,7 @@ RememberEndingSelection
 *
 aDidMerge
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -819,7 +819,7 @@ IsCollapsed
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -850,7 +850,7 @@ EndPlaceHolderBatch
 {
 mAbsorb
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -918,7 +918,7 @@ Commit
 {
 mCommitted
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

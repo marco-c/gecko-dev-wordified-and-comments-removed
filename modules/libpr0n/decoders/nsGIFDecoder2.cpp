@@ -171,11 +171,11 @@ mLastFlushedPass
 )
 mGIFOpen
 (
-PR_FALSE
+false
 )
 mSawTransparency
 (
-PR_FALSE
+false
 )
 {
 memset
@@ -288,7 +288,7 @@ PostDecodeDone
 ;
 mGIFOpen
 =
-PR_FALSE
+false
 ;
 }
 mImage
@@ -432,7 +432,7 @@ return
 ;
 mGIFOpen
 =
-PR_TRUE
+true
 ;
 PostSize
 (
@@ -1228,7 +1228,7 @@ rgb
 {
 mSawTransparency
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1433,7 +1433,7 @@ mGIFStruct
 rows_remaining
 )
 return
-PR_TRUE
+true
 ;
 int
 avail
@@ -1766,7 +1766,7 @@ code
 MAX_BITS
 )
 return
-PR_FALSE
+false
 ;
 *
 rowp
@@ -1832,7 +1832,7 @@ stack
 MAX_BITS
 )
 return
-PR_FALSE
+false
 ;
 }
 while
@@ -1864,7 +1864,7 @@ code
 )
 )
 return
-PR_FALSE
+false
 ;
 *
 stackp
@@ -1893,7 +1893,7 @@ stack
 MAX_BITS
 )
 return
-PR_FALSE
+false
 ;
 }
 *
@@ -2065,7 +2065,7 @@ rowp
 rowp
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -3620,7 +3620,7 @@ mGIFStruct
 .
 interlaced
 =
-PR_TRUE
+true
 ;
 mGIFStruct
 .
@@ -3635,7 +3635,7 @@ mGIFStruct
 .
 interlaced
 =
-PR_FALSE
+false
 ;
 mGIFStruct
 .
@@ -3975,7 +3975,7 @@ PostDecodeDone
 ;
 mGIFOpen
 =
-PR_FALSE
+false
 ;
 goto
 done

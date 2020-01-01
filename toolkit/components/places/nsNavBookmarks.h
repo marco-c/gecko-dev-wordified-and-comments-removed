@@ -1321,7 +1321,7 @@ mID
 mParent
 mTitle
 mType
-PR_TRUE
+true
 &
 mIndex
 &
@@ -1351,7 +1351,7 @@ aResult
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1371,7 +1371,7 @@ aResult
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK

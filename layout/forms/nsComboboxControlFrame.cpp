@@ -1272,7 +1272,7 @@ nsnull
 ;
 mDroppedDown
 =
-PR_FALSE
+false
 ;
 mDisplayFrame
 =
@@ -1288,7 +1288,7 @@ nsnull
 ;
 mInRedisplayText
 =
-PR_FALSE
+false
 ;
 mRecentSelectedIndex
 =
@@ -1647,7 +1647,7 @@ nsEventStatus_eIgnore
 nsMouseEvent
 event
 (
-PR_TRUE
+true
 aShowPopup
 ?
 NS_XUL_POPUP_SHOWING
@@ -1777,7 +1777,7 @@ GetViewManager
 SetViewFloating
 (
 view
-PR_TRUE
+true
 )
 ;
 nsWidgetInitData
@@ -1821,7 +1821,7 @@ IsAlive
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 mDroppedDown
@@ -1845,7 +1845,7 @@ mListControlFrame
 >
 CaptureMouseEvents
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1873,7 +1873,7 @@ IsAlive
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsIFrame
@@ -2278,7 +2278,7 @@ else
 {
 is3DTransform
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -3732,7 +3732,7 @@ RedisplayText
 ;
 mInRedisplayText
 =
-PR_TRUE
+true
 ;
 mRedisplayTextEvent
 .
@@ -3742,7 +3742,7 @@ Forget
 ;
 ActuallyDisplayText
 (
-PR_TRUE
+true
 )
 ;
 PresContext
@@ -3767,7 +3767,7 @@ NS_FRAME_IS_DIRTY
 ;
 mInRedisplayText
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -4378,7 +4378,7 @@ mDisplayedOptionText
 }
 ActuallyDisplayText
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -4464,8 +4464,8 @@ click
 "
 )
 mButtonListener
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 mButtonContent
@@ -4484,7 +4484,7 @@ NS_LITERAL_STRING
 button
 "
 )
-PR_FALSE
+false
 )
 ;
 mButtonContent
@@ -4504,7 +4504,7 @@ NS_LITERAL_STRING
 1
 "
 )
-PR_FALSE
+false
 )
 ;
 if
@@ -5184,7 +5184,7 @@ nsIFrame
 (
 this
 )
-PR_FALSE
+false
 )
 ;
 if
@@ -5255,8 +5255,8 @@ CaptureRollupEvents
 (
 this
 nsnull
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 }
@@ -5555,7 +5555,7 @@ NS_OK
 ;
 ShowDropDown
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -5575,7 +5575,7 @@ mListControlFrame
 >
 CaptureMouseEvents
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -5595,7 +5595,7 @@ if
 (
 ShowList
 (
-PR_FALSE
+false
 )
 )
 mListControlFrame
@@ -5603,7 +5603,7 @@ mListControlFrame
 >
 CaptureMouseEvents
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -6291,8 +6291,8 @@ NS_LITERAL_STRING
 ValueChange
 "
 )
-PR_TRUE
-PR_FALSE
+true
+false
 )
 )
 ;
@@ -6421,12 +6421,12 @@ ToolkitHasNativePopup
 ifdef
 MOZ_USE_NATIVE_POPUP_WINDOWS
 return
-PR_TRUE
+true
 ;
 #
 else
 return
-PR_FALSE
+false
 ;
 #
 endif

@@ -155,7 +155,7 @@ aFrame
 )
 mPartHasFixedBackground
 (
-PR_FALSE
+false
 )
 {
 }
@@ -1678,7 +1678,7 @@ mBits
 .
 mGeometryDirty
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -1690,7 +1690,7 @@ mBits
 .
 mGeometryDirty
 =
-PR_FALSE
+false
 ;
 }
 bool
@@ -2612,7 +2612,7 @@ ABORT0
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 CellIterator
 program
@@ -2634,7 +2634,7 @@ aReturn
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 CellIterator
 program

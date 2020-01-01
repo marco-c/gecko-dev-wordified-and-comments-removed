@@ -885,7 +885,7 @@ GetPointFromOffset
 (
 frame
 aStartOffset
-PR_TRUE
+true
 startPoint
 )
 ;
@@ -897,7 +897,7 @@ GetPointFromOffset
 (
 frame
 aEndOffset
-PR_FALSE
+false
 endPoint
 )
 ;

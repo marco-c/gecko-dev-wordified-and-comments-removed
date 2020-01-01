@@ -182,7 +182,7 @@ aNotifyObservers
 )
 mSharingEnabled
 (
-PR_FALSE
+false
 )
 {
 }
@@ -640,7 +640,7 @@ NS_ERROR_FAILURE
 *
 persistant
 =
-PR_TRUE
+true
 ;
 nsIFile
 *

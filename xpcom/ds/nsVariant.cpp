@@ -3570,7 +3570,7 @@ String2ID
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 char
@@ -3589,7 +3589,7 @@ if
 pChars
 )
 return
-PR_FALSE
+false
 ;
 bool
 result
@@ -8470,7 +8470,7 @@ nsVariant
 :
 mWritable
 (
-PR_TRUE
+true
 )
 {
 nsVariant
@@ -8759,7 +8759,7 @@ declaration
 ;
 inited
 =
-PR_TRUE
+true
 ;
 }
 }

@@ -288,7 +288,7 @@ aEventType
 mEventName
 )
 return
-PR_FALSE
+false
 ;
 return
 KeyEventMatched
@@ -327,7 +327,7 @@ aEventType
 mEventName
 )
 return
-PR_FALSE
+false
 ;
 return
 MouseEventMatched

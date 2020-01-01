@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsSVGGraphicElement
 .
 h
@@ -12,6 +21,10 @@ nsIDOMSVGGElement
 .
 h
 "
+using
+namespace
+mozilla
+;
 typedef
 nsSVGGraphicElement
 nsSVGGElementBase
@@ -210,7 +223,7 @@ FindAttributeDependence
 (
 name
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )

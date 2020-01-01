@@ -390,7 +390,7 @@ res
 ;
 found
 =
-PR_TRUE
+true
 ;
 }
 +
@@ -449,10 +449,10 @@ i
 aResource
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }

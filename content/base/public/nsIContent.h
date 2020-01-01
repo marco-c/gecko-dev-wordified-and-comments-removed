@@ -821,7 +821,7 @@ aCaseSensitive
 const
 {
 return
-PR_FALSE
+false
 ;
 }
 virtual
@@ -842,7 +842,7 @@ aCaseSensitive
 const
 {
 return
-PR_FALSE
+false
 ;
 }
 enum
@@ -1046,7 +1046,7 @@ aTabIndex
 1
 ;
 return
-PR_FALSE
+false
 ;
 }
 virtual
@@ -1197,7 +1197,7 @@ IsDoneAddingChildren
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 nsIAtom

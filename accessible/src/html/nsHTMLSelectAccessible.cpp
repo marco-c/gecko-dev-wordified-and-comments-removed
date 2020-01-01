@@ -1304,7 +1304,7 @@ mContent
 )
 isContentFound
 =
-PR_TRUE
+true
 ;
 posInSet
 +

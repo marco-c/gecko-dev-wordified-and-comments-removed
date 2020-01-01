@@ -449,7 +449,7 @@ viewerFile
 >
 Print
 (
-PR_TRUE
+true
 fp
 nsnull
 )

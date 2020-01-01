@@ -210,7 +210,7 @@ nsDownloadScanner
 :
 mAESExists
 (
-PR_FALSE
+false
 )
 {
 }
@@ -273,7 +273,7 @@ NS_ERROR_NOT_AVAILABLE
 }
 mAESExists
 =
-PR_TRUE
+true
 ;
 mWatchdog
 =
@@ -383,11 +383,11 @@ n
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 AVCheckPolicyState
@@ -898,7 +898,7 @@ AVSCAN_NOTSTARTED
 )
 mSkipSource
 (
-PR_FALSE
+false
 )
 {
 InitializeCriticalSection
@@ -1593,7 +1593,7 @@ GetExceptionCode
 {
 gotException
 =
-PR_TRUE
+true
 ;
 }
 MOZ_SEH_TRY
@@ -1615,7 +1615,7 @@ GetExceptionCode
 {
 gotException
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -1722,7 +1722,7 @@ AVSCAN_SCANNING
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 #

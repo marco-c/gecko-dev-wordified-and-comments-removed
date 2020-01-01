@@ -550,6 +550,16 @@ friend
 class
 nsAutoScriptBlockerSuppressNodeRemoved
 ;
+friend
+class
+mozilla
+:
+:
+AutoRestore
+<
+bool
+>
+;
 typedef
 mozilla
 :
@@ -2043,7 +2053,7 @@ aReturn
 )
 ;
 static
-void
+nsresult
 ParseFragmentHTML
 (
 const
@@ -2116,6 +2126,8 @@ aPrincipal
 nsIScriptGlobalObject
 *
 aScriptObject
+bool
+aSVGDocument
 nsIDOMDocument
 *
 *
@@ -2437,7 +2449,7 @@ aCache
 >
 SetPreservingWrapper
 (
-PR_TRUE
+true
 )
 ;
 #
@@ -3811,6 +3823,10 @@ static
 nsIFragmentContentSink
 *
 sXMLFragmentSink
+;
+static
+bool
+sFragmentParsingActive
 ;
 static
 nsString

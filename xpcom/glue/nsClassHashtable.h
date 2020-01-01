@@ -232,7 +232,7 @@ ent
 mData
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -245,7 +245,7 @@ retVal
 nsnull
 ;
 return
-PR_FALSE
+false
 ;
 }
 template
@@ -454,7 +454,7 @@ mLock
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -475,7 +475,7 @@ mLock
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 #

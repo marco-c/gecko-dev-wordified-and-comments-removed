@@ -303,7 +303,7 @@ if
 progress
 )
 return
-PR_FALSE
+false
 ;
 progress
 -
@@ -325,7 +325,7 @@ NOTIFY_STATE_DOCUMENT
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -1134,7 +1134,7 @@ target
 >
 GetListenerManager
 (
-PR_TRUE
+true
 )
 ;
 elm

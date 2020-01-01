@@ -364,12 +364,12 @@ defined
 MOZ_PLATFORM_MAEMO
 )
 return
-PR_TRUE
+true
 ;
 #
 else
 return
-PR_FALSE
+false
 ;
 #
 endif

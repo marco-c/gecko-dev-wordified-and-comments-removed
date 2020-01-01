@@ -209,7 +209,7 @@ NS_OK
 }
 gInitialized
 =
-PR_TRUE
+true
 ;
 nsresult
 rv
@@ -260,7 +260,7 @@ Shutdown
 ;
 gInitialized
 =
-PR_FALSE
+false
 ;
 }
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT

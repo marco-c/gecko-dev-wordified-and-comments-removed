@@ -413,7 +413,7 @@ mEmptyTest
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 protected

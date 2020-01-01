@@ -3111,7 +3111,7 @@ xpAccessible
 >
 SetSelected
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -3125,7 +3125,7 @@ xpAccessible
 >
 SetSelected
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -6762,6 +6762,11 @@ GetNearestWidget
 (
 )
 ;
+if
+(
+widget
+)
+{
 bool
 isVisible
 =
@@ -6849,6 +6854,7 @@ NS_NATIVE_WINDOW
 )
 )
 ;
+}
 }
 }
 }

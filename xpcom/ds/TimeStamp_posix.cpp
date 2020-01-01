@@ -468,7 +468,7 @@ sResolutionSigDigs
 ;
 gInitialized
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

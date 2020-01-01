@@ -207,7 +207,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 HashEntry
 *
@@ -273,7 +273,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 HashEntry
 *

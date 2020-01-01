@@ -387,7 +387,7 @@ nsEventStatus_eIgnore
 nsEvent
 event
 (
-PR_TRUE
+true
 mMessage
 )
 ;
@@ -622,11 +622,11 @@ LOAD_NORMAL
 )
 mUseSrcAttr
 (
-PR_FALSE
+false
 )
 mSuppressStyleCheck
 (
-PR_FALSE
+false
 )
 {
 MarkIntrinsicWidthsDirty
@@ -787,7 +787,7 @@ listener
 }
 mSuppressStyleCheck
 =
-PR_TRUE
+true
 ;
 nsresult
 rv
@@ -804,7 +804,7 @@ aPrevInFlow
 ;
 mSuppressStyleCheck
 =
-PR_FALSE
+false
 ;
 UpdateLoadFlags
 (

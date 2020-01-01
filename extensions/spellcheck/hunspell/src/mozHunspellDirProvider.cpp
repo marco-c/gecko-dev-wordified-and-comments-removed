@@ -212,9 +212,9 @@ aResult
 =
 mNext
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 return
 NS_OK

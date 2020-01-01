@@ -175,7 +175,7 @@ MakeDirty
 {
 mDirty
 =
-PR_TRUE
+true
 ;
 }
 nsresult

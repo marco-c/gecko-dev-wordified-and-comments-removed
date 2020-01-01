@@ -1419,7 +1419,7 @@ NS_SIDE_TOP
 ;
 mCornerBevel
 =
-PR_FALSE
+false
 ;
 }
 inline

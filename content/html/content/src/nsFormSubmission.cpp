@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsFormSubmission
 .
 h
@@ -229,6 +238,10 @@ nsContentUtils
 .
 h
 "
+using
+namespace
+mozilla
+;
 static
 void
 SendJSWarning
@@ -317,7 +330,7 @@ aDocument
 )
 mWarnedFileControl
 (
-PR_FALSE
+false
 )
 {
 }
@@ -368,7 +381,7 @@ SupportsIsindexSubmission
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 virtual
@@ -618,7 +631,7 @@ nsnull
 ;
 mWarnedFileControl
 =
-PR_TRUE
+true
 ;
 }
 nsAutoString
@@ -710,7 +723,7 @@ Length
 {
 hasParams
 =
-PR_TRUE
+true
 ;
 PRInt32
 nameEnd
@@ -812,7 +825,7 @@ subject
 {
 hasSubject
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -919,7 +932,7 @@ eFORMS_PROPERTIES
 DefaultFormSubject
 "
 formatStrings
-NS_ARRAY_LENGTH
+ArrayLength
 (
 formatStrings
 )
@@ -1224,7 +1237,7 @@ mimeStream
 >
 SetAddContentLength
 (
-PR_TRUE
+true
 )
 ;
 mimeStream
@@ -2302,7 +2315,7 @@ mimeStream
 >
 SetAddContentLength
 (
-PR_TRUE
+true
 )
 ;
 mimeStream
@@ -2819,7 +2832,7 @@ mimeStream
 >
 SetAddContentLength
 (
-PR_TRUE
+true
 )
 ;
 mimeStream

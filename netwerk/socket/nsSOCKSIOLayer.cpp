@@ -5122,7 +5122,7 @@ nsSOCKSIOLayerClose
 ;
 firstTime
 =
-PR_FALSE
+false
 ;
 #
 if

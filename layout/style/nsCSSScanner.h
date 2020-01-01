@@ -225,13 +225,13 @@ NS_ASSERTION
 aSVGMode
 =
 =
-PR_TRUE
+true
 |
 |
 aSVGMode
 =
 =
-PR_FALSE
+false
 "
 bad
 bool

@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsSVGImageElement
 .
 h
@@ -159,7 +168,7 @@ nsGkAtoms
 :
 href
 kNameSpaceID_XLink
-PR_TRUE
+true
 }
 }
 ;
@@ -541,7 +550,7 @@ aValue
 {
 LoadSVGImage
 (
-PR_TRUE
+true
 aNotify
 )
 ;
@@ -593,8 +602,8 @@ NS_FAILED
 (
 LoadSVGImage
 (
-PR_FALSE
-PR_TRUE
+false
+true
 )
 )
 |
@@ -608,7 +617,7 @@ LoadingEnabled
 {
 CancelImageRequests
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -753,7 +762,7 @@ FindAttributeDependence
 (
 name
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )
@@ -845,7 +854,7 @@ LengthAttributesInfo
 (
 mLengthAttributes
 sLengthInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sLengthInfo
 )
@@ -882,7 +891,7 @@ StringAttributesInfo
 (
 mStringAttributes
 sStringInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sStringInfo
 )
@@ -909,8 +918,8 @@ HREF
 {
 LoadSVGImage
 (
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 return

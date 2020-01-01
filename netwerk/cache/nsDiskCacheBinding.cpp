@@ -383,7 +383,7 @@ nsDiskCacheBindery
 :
 initialized
 (
-PR_FALSE
+false
 )
 {
 }
@@ -463,7 +463,7 @@ table
 ;
 initialized
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -1304,7 +1304,7 @@ if
 initialized
 )
 return
-PR_FALSE
+false
 ;
 bool
 activeBinding

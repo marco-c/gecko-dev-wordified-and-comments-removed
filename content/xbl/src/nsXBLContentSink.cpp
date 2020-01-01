@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsXBLContentSink
 .
 h
@@ -164,6 +173,10 @@ h
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
 :
 :
 dom
@@ -262,11 +275,11 @@ nsnull
 )
 mIsChromeOrResource
 (
-PR_FALSE
+false
 )
 mFoundFirstBinding
 (
-PR_FALSE
+false
 )
 mBinding
 (
@@ -303,7 +316,7 @@ nsnull
 {
 mPrettyPrintXML
 =
-PR_FALSE
+false
 ;
 }
 nsXBLContentSink
@@ -730,7 +743,7 @@ ch
 {
 isWS
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -923,7 +936,7 @@ eXBL_PROPERTIES
 UnexpectedElement
 "
 params
-NS_ARRAY_LENGTH
+ArrayLength
 (
 params
 )
@@ -1599,7 +1612,7 @@ aLineNumber
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 \
@@ -1635,7 +1648,7 @@ eXBL_Error
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -1647,7 +1660,7 @@ kNameSpaceID_XBL
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -1692,7 +1705,7 @@ mState
 eXBL_Error
 ;
 return
-PR_TRUE
+true
 ;
 }
 mDocument
@@ -1830,7 +1843,7 @@ eXBL_InHandlers
 ;
 ret
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -1865,7 +1878,7 @@ aLineNumber
 ;
 ret
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -2593,7 +2606,7 @@ mFoundFirstBinding
 {
 mFoundFirstBinding
 =
-PR_TRUE
+true
 ;
 mDocInfo
 -
@@ -2614,7 +2627,7 @@ nsGkAtoms
 :
 :
 id
-PR_FALSE
+false
 )
 ;
 }
@@ -2752,12 +2765,12 @@ aAtts
 ]
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -4040,7 +4053,7 @@ MOZ_XUL
 *
 aAppendContent
 =
-PR_TRUE
+true
 ;
 nsRefPtr
 <
@@ -4099,7 +4112,7 @@ Create
 (
 prototype
 mDocument
-PR_FALSE
+false
 &
 result
 )

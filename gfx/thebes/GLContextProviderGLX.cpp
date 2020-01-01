@@ -299,7 +299,7 @@ mInitialized
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -308,12 +308,12 @@ mTriedInitializing
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 mTriedInitializing
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -368,7 +368,7 @@ library
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 reporter
@@ -390,7 +390,7 @@ MOZ_GLX_DEBUG
 {
 mDebug
 =
-PR_TRUE
+true
 ;
 }
 LibrarySymbolLoader
@@ -908,7 +908,7 @@ library
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 Display
@@ -970,7 +970,7 @@ gGLXMinorVersion
 0
 ;
 return
-PR_FALSE
+false
 ;
 }
 serverVendor
@@ -1001,7 +1001,7 @@ GLXVersionCheck
 )
 )
 return
-PR_FALSE
+false
 ;
 extensionsStr
 =
@@ -1041,7 +1041,7 @@ GLX_SGIX_fbconfig
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 sym13
@@ -1087,7 +1087,7 @@ library
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 LibrarySymbolLoader
@@ -1120,7 +1120,7 @@ GLX_ARB_get_proc_address
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 sym14
@@ -1166,7 +1166,7 @@ library
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1200,7 +1200,7 @@ xGetProcAddress
 {
 mHasTextureFromPixmap
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1260,10 +1260,10 @@ Chromium
 ;
 mInitialized
 =
-PR_TRUE
+true
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -1286,7 +1286,7 @@ EnsureInitialized
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1310,11 +1310,11 @@ mHasTextureFromPixmap
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 GLXPixmap
@@ -2855,12 +2855,12 @@ InitWithPrefix
 "
 gl
 "
-PR_TRUE
+true
 )
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -2948,7 +2948,7 @@ GLXLibrary
 xGetProcAddress
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -3003,7 +3003,7 @@ if
 mDoubleBuffered
 )
 return
-PR_FALSE
+false
 ;
 sGLXLibrary
 .
@@ -3020,7 +3020,7 @@ xWaitGL
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -3096,9 +3096,9 @@ GLContext
 aFormat
 aDeleteDrawable
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 aShareContext
 )
 mContext
@@ -3220,7 +3220,7 @@ aRegion
 {
 mInUpdate
 =
-PR_TRUE
+true
 ;
 return
 mUpdateSurface
@@ -3234,7 +3234,7 @@ EndUpdate
 {
 mInUpdate
 =
-PR_FALSE
+false
 ;
 }
 virtual
@@ -3452,7 +3452,7 @@ aPixmap
 )
 mInUpdate
 (
-PR_FALSE
+false
 )
 mTexture
 (
@@ -3878,7 +3878,7 @@ c_class
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -3896,7 +3896,7 @@ depth
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -3938,7 +3938,7 @@ blue_mask
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -3956,11 +3956,11 @@ bits_per_rgb
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 already_AddRefed
@@ -4435,7 +4435,7 @@ matchIndex
 ]
 vinfo
 shareContext
-PR_FALSE
+false
 )
 ;
 return
@@ -4900,7 +4900,7 @@ GetGlobalContextGLX
 )
 :
 nsnull
-PR_TRUE
+true
 xsurface
 )
 ;
@@ -4942,7 +4942,7 @@ CreateOffscreenPixmapContext
 (
 aSize
 aFormat
-PR_TRUE
+true
 )
 ;
 if
@@ -5269,7 +5269,7 @@ cfg
 ]
 NULL
 NULL
-PR_FALSE
+false
 xs
 )
 ;
@@ -5333,7 +5333,7 @@ ContextFormat
 :
 BasicRGB24
 )
-PR_FALSE
+false
 )
 ;
 if
@@ -5345,7 +5345,7 @@ gGlobalContext
 >
 SetIsGlobalSharedContext
 (
-PR_TRUE
+true
 )
 ;
 }

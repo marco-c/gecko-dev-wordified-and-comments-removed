@@ -192,7 +192,7 @@ decl
 =
 GetCSSDeclaration
 (
-PR_FALSE
+false
 )
 ;
 aValue
@@ -256,7 +256,7 @@ ParsePropertyValue
 (
 aPropID
 aValue
-PR_FALSE
+false
 )
 ;
 }
@@ -280,7 +280,7 @@ decl
 =
 GetCSSDeclaration
 (
-PR_FALSE
+false
 )
 ;
 aCssText
@@ -328,7 +328,7 @@ olddecl
 =
 GetCSSDeclaration
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -367,7 +367,7 @@ autoUpdate
 DocToUpdate
 (
 )
-PR_TRUE
+true
 )
 ;
 nsAutoPtr
@@ -475,7 +475,7 @@ decl
 =
 GetCSSDeclaration
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -558,7 +558,7 @@ decl
 =
 GetCSSDeclaration
 (
-PR_FALSE
+false
 )
 ;
 aReturn
@@ -664,7 +664,7 @@ decl
 =
 GetCSSDeclaration
 (
-PR_FALSE
+false
 )
 ;
 aReturn
@@ -774,7 +774,7 @@ ParsePropertyValue
 (
 propID
 aValue
-PR_FALSE
+false
 )
 ;
 }
@@ -795,7 +795,7 @@ ParsePropertyValue
 (
 propID
 aValue
-PR_TRUE
+true
 )
 ;
 }
@@ -1015,7 +1015,7 @@ olddecl
 =
 GetCSSDeclaration
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -1054,7 +1054,7 @@ autoUpdate
 DocToUpdate
 (
 )
-PR_TRUE
+true
 )
 ;
 css
@@ -1161,7 +1161,7 @@ decl
 =
 GetCSSDeclaration
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -1180,7 +1180,7 @@ autoUpdate
 DocToUpdate
 (
 )
-PR_TRUE
+true
 )
 ;
 decl

@@ -392,7 +392,7 @@ mAxis
 )
 mCanZeroPadList
 (
-PR_FALSE
+false
 )
 {
 }

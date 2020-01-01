@@ -33,7 +33,7 @@ mozStorageTransaction
 transaction
 (
 db
-PR_FALSE
+false
 )
 ;
 do_check_true
@@ -69,7 +69,7 @@ mozStorageTransaction
 transaction
 (
 db
-PR_FALSE
+false
 )
 ;
 do_check_true
@@ -104,7 +104,7 @@ mozStorageTransaction
 outerTransaction
 (
 db
-PR_FALSE
+false
 )
 ;
 do_check_true
@@ -121,7 +121,7 @@ mozStorageTransaction
 innerTransaction
 (
 db
-PR_FALSE
+false
 )
 ;
 do_check_false
@@ -156,7 +156,7 @@ mozStorageTransaction
 transaction
 (
 db
-PR_FALSE
+false
 )
 ;
 (
@@ -243,7 +243,7 @@ mozStorageTransaction
 transaction
 (
 db
-PR_TRUE
+true
 )
 ;
 (
@@ -330,7 +330,7 @@ mozStorageTransaction
 transaction
 (
 db
-PR_TRUE
+true
 )
 ;
 (
@@ -408,7 +408,7 @@ mozStorageTransaction
 transaction
 (
 db
-PR_FALSE
+false
 )
 ;
 (
@@ -486,7 +486,7 @@ mozStorageTransaction
 transaction
 (
 db
-PR_TRUE
+true
 )
 ;
 (
@@ -517,7 +517,7 @@ transaction
 .
 SetDefaultAction
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -554,7 +554,7 @@ mozStorageTransaction
 transaction
 (
 db
-PR_FALSE
+false
 )
 ;
 (
@@ -585,13 +585,13 @@ transaction
 .
 SetDefaultAction
 (
-PR_TRUE
+true
 )
 ;
 }
 exists
 =
-PR_FALSE
+false
 ;
 (
 void
@@ -626,7 +626,7 @@ mozStorageTransaction
 transaction
 (
 nsnull
-PR_FALSE
+false
 )
 ;
 do_check_false

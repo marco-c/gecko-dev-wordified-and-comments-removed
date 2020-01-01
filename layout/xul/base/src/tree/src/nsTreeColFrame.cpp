@@ -191,7 +191,7 @@ aDestructRoot
 {
 InvalidateColumns
 (
-PR_FALSE
+false
 )
 ;
 nsBoxFrame
@@ -355,7 +355,7 @@ XMost
 {
 right
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -376,7 +376,7 @@ x
 {
 left
 =
-PR_TRUE
+true
 ;
 }
 if

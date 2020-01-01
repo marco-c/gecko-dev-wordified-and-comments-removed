@@ -584,11 +584,11 @@ value
 )
 mDisabledChanged
 (
-PR_FALSE
+false
 )
 mInInternalActivate
 (
-PR_FALSE
+false
 )
 mInhibitStateRestoration
 (
@@ -603,7 +603,7 @@ FROM_PARSER_FRAGMENT
 {
 SetBarredFromConstraintValidation
 (
-PR_TRUE
+true
 )
 ;
 AddStatesSilently
@@ -793,7 +793,7 @@ aTabIndex
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 *
@@ -822,7 +822,7 @@ IsDisabled
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -922,7 +922,7 @@ ParseEnumValue
 (
 aValue
 kFormMethodTable
-PR_FALSE
+false
 )
 ;
 }
@@ -944,7 +944,7 @@ ParseEnumValue
 (
 aValue
 kFormEnctypeTable
-PR_FALSE
+false
 )
 ;
 }
@@ -979,7 +979,7 @@ formControlFrame
 =
 GetFormControlFrame
 (
-PR_FALSE
+false
 )
 ;
 nsIFrame
@@ -1005,7 +1005,7 @@ aVisitor
 .
 mCanHandle
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1190,7 +1190,7 @@ nsEventStatus_eIgnore
 ;
 mInInternalActivate
 =
-PR_TRUE
+true
 ;
 shell
 -
@@ -1206,7 +1206,7 @@ status
 ;
 mInInternalActivate
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1758,7 +1758,7 @@ NS_FORM_BUTTON_RESET
 nsFormEvent
 event
 (
-PR_TRUE
+true
 (
 mType
 =
@@ -2022,7 +2022,7 @@ nsGkAtoms
 :
 value
 aDefaultValue
-PR_TRUE
+true
 )
 ;
 }
@@ -2208,7 +2208,7 @@ kNameSpaceID_None
 {
 mDisabledChanged
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -2391,7 +2391,7 @@ GetDisabled
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsEventStates

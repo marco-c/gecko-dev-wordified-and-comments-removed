@@ -490,7 +490,7 @@ max
 {
 passRangeCheck
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -523,7 +523,7 @@ bcr
 {
 passScan
 =
-PR_TRUE
+true
 ;
 done
 =

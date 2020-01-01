@@ -421,11 +421,11 @@ eIgnoreCase
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 PRUint8

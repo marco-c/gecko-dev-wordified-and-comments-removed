@@ -2155,7 +2155,7 @@ index
 {
 compressWhitespace
 =
-PR_FALSE
+false
 ;
 break
 ;

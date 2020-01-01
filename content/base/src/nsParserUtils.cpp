@@ -229,7 +229,7 @@ SKIP_WHITESPACE
 (
 start
 end
-PR_FALSE
+false
 )
 iter
 =
@@ -249,7 +249,7 @@ iter
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -271,7 +271,7 @@ SKIP_WHITESPACE
 (
 start
 end
-PR_FALSE
+false
 )
 if
 (
@@ -285,7 +285,7 @@ start
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 +
@@ -296,7 +296,7 @@ SKIP_WHITESPACE
 (
 start
 end
-PR_FALSE
+false
 )
 PRUnichar
 q
@@ -319,7 +319,7 @@ kApostrophe
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 +
@@ -359,7 +359,7 @@ end
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -387,7 +387,7 @@ GetParserService
 NS_ENSURE_TRUE
 (
 parserService
-PR_FALSE
+false
 )
 ;
 const
@@ -421,7 +421,7 @@ Truncate
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -488,7 +488,7 @@ Truncate
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 aValue
@@ -525,7 +525,7 @@ start
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 start
@@ -536,7 +536,7 @@ iter
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -784,7 +784,7 @@ version
 JSVERSION_UNKNOWN
 )
 return
-PR_FALSE
+false
 ;
 *
 aFlags
@@ -792,7 +792,7 @@ aFlags
 version
 ;
 return
-PR_TRUE
+true
 ;
 }
 void

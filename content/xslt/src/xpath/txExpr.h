@@ -2165,7 +2165,7 @@ TX_TO_STRING
 :
 mSerialize
 (
-PR_TRUE
+true
 )
 #
 endif

@@ -548,7 +548,7 @@ Init
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -595,11 +595,11 @@ if
 mNativeWrapper
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 NS_IMETHODIMP
@@ -1330,7 +1330,7 @@ childAcc
 >
 GetUnignoredChildCount
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1375,7 +1375,7 @@ childAcc
 >
 GetUnignoredChildCount
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -1918,7 +1918,7 @@ parent
 )
 )
 return
-PR_TRUE
+true
 ;
 parent
 =
@@ -1937,6 +1937,6 @@ parent
 was
 flat
 return
-PR_FALSE
+false
 ;
 }

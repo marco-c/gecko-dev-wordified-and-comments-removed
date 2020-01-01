@@ -2054,7 +2054,7 @@ mWatchRecursive
 *
 result
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2062,7 +2062,7 @@ else
 *
 result
 =
-PR_FALSE
+false
 ;
 }
 return

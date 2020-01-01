@@ -75,7 +75,7 @@ aExpandEntityReferences
 )
 mInAcceptNode
 (
-PR_FALSE
+false
 )
 {
 NS_ASSERTION
@@ -191,7 +191,7 @@ aNode
 ;
 mInAcceptNode
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -206,7 +206,7 @@ _filtered
 ;
 mInAcceptNode
 =
-PR_FALSE
+false
 ;
 return
 rv

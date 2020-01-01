@@ -985,7 +985,7 @@ NS_ConvertUTF8toUTF16
 (
 env
 )
-PR_FALSE
+false
 getter_AddRefs
 (
 logFile
@@ -1780,7 +1780,7 @@ NON_SXP
 :
 regExp
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -1789,7 +1789,7 @@ VALID_SXP
 :
 regExp
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1797,7 +1797,7 @@ default
 :
 PR_ASSERT
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -1940,7 +1940,7 @@ mPattern
 )
 found
 =
-PR_TRUE
+true
 ;
 else
 if
@@ -1991,7 +1991,7 @@ NS_WildCardMatch
 (
 buf
 mPattern
-PR_FALSE
+false
 )
 =
 =
@@ -2762,7 +2762,7 @@ dirlen
 {
 found
 =
-PR_TRUE
+true
 ;
 break
 ;

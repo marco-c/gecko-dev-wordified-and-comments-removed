@@ -281,7 +281,7 @@ mPrefPercent
 ;
 mHasSpecifiedCoord
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -357,7 +357,7 @@ mMinCoord
 ;
 mHasSpecifiedCoord
 =
-PR_TRUE
+true
 ;
 }
 if

@@ -441,7 +441,7 @@ NS_GetAuthHostPort
 (
 aChannel
 aAuthInfo
-PR_TRUE
+true
 host
 &
 port

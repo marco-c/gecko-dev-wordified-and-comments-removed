@@ -450,7 +450,7 @@ NS_LITERAL_STRING
 mozResizer
 "
 )
-PR_FALSE
+false
 aReturn
 )
 ;
@@ -492,7 +492,7 @@ mousedown
 "
 )
 mEventListener
-PR_TRUE
+true
 )
 ;
 nsAutoString
@@ -686,7 +686,7 @@ NS_LITERAL_STRING
 mozResizingShadow
 "
 )
-PR_TRUE
+true
 aReturn
 )
 ;
@@ -734,7 +734,7 @@ NS_LITERAL_STRING
 mozResizingInfo
 "
 )
-PR_TRUE
+true
 aReturn
 )
 ;
@@ -1513,7 +1513,7 @@ resize
 "
 )
 mResizeEventListenerP
-PR_FALSE
+false
 )
 ;
 aResizedElement
@@ -1623,7 +1623,7 @@ RemoveListenerAndDeleteRef
 (
 mousedown
 mEventListener
-PR_TRUE
+true
 mTopLeftHandle
 parentContent
 ps
@@ -1637,7 +1637,7 @@ RemoveListenerAndDeleteRef
 (
 mousedown
 mEventListener
-PR_TRUE
+true
 mTopHandle
 parentContent
 ps
@@ -1651,7 +1651,7 @@ RemoveListenerAndDeleteRef
 (
 mousedown
 mEventListener
-PR_TRUE
+true
 mTopRightHandle
 parentContent
 ps
@@ -1665,7 +1665,7 @@ RemoveListenerAndDeleteRef
 (
 mousedown
 mEventListener
-PR_TRUE
+true
 mLeftHandle
 parentContent
 ps
@@ -1679,7 +1679,7 @@ RemoveListenerAndDeleteRef
 (
 mousedown
 mEventListener
-PR_TRUE
+true
 mRightHandle
 parentContent
 ps
@@ -1693,7 +1693,7 @@ RemoveListenerAndDeleteRef
 (
 mousedown
 mEventListener
-PR_TRUE
+true
 mBottomLeftHandle
 parentContent
 ps
@@ -1707,7 +1707,7 @@ RemoveListenerAndDeleteRef
 (
 mousedown
 mEventListener
-PR_TRUE
+true
 mBottomHandle
 parentContent
 ps
@@ -1721,7 +1721,7 @@ RemoveListenerAndDeleteRef
 (
 mousedown
 mEventListener
-PR_TRUE
+true
 mBottomRightHandle
 parentContent
 ps
@@ -1735,7 +1735,7 @@ RemoveListenerAndDeleteRef
 (
 mousedown
 mEventListener
-PR_TRUE
+true
 mResizingShadow
 parentContent
 ps
@@ -1749,7 +1749,7 @@ RemoveListenerAndDeleteRef
 (
 mousedown
 mEventListener
-PR_TRUE
+true
 mResizingInfo
 parentContent
 ps
@@ -1814,7 +1814,7 @@ mousemove
 "
 )
 mMouseMotionListenerP
-PR_TRUE
+true
 )
 ;
 NS_ASSERTION
@@ -1914,7 +1914,7 @@ resize
 "
 )
 mResizeEventListenerP
-PR_FALSE
+false
 )
 ;
 NS_ASSERTION
@@ -2082,7 +2082,7 @@ mResizedObject
 }
 mIsResizing
 =
-PR_TRUE
+true
 ;
 mActivatedHandle
 =
@@ -2191,7 +2191,7 @@ SetResizeIncrements
 0
 -
 1
-PR_FALSE
+false
 )
 ;
 }
@@ -2235,7 +2235,7 @@ SetResizeIncrements
 -
 1
 0
-PR_FALSE
+false
 )
 ;
 }
@@ -2256,7 +2256,7 @@ SetResizeIncrements
 0
 1
 0
-PR_FALSE
+false
 )
 ;
 }
@@ -2299,7 +2299,7 @@ SetResizeIncrements
 0
 0
 1
-PR_FALSE
+false
 )
 ;
 }
@@ -2426,7 +2426,7 @@ mousemove
 "
 )
 mMouseMotionListenerP
-PR_TRUE
+true
 )
 ;
 NS_ASSERTION
@@ -2614,7 +2614,7 @@ mIsResizing
 {
 mIsResizing
 =
-PR_FALSE
+false
 ;
 HideShadowAndInfo
 (
@@ -3915,7 +3915,7 @@ yThreshold
 {
 mGrabberClicked
 =
-PR_FALSE
+false
 ;
 StartMoving
 (
@@ -4212,7 +4212,7 @@ nsEditProperty
 :
 cssTop
 y
-PR_FALSE
+false
 )
 ;
 if
@@ -4230,7 +4230,7 @@ nsEditProperty
 :
 cssLeft
 x
-PR_FALSE
+false
 )
 ;
 }
@@ -4271,7 +4271,7 @@ widthStr
 ;
 hasAttr
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4315,7 +4315,7 @@ nsEditProperty
 :
 cssWidth
 width
-PR_FALSE
+false
 )
 ;
 if
@@ -4333,7 +4333,7 @@ nsEditProperty
 :
 cssHeight
 height
-PR_FALSE
+false
 )
 ;
 }
@@ -4354,7 +4354,7 @@ nsEditProperty
 :
 cssWidth
 width
-PR_FALSE
+false
 )
 ;
 if
@@ -4372,7 +4372,7 @@ nsEditProperty
 :
 cssHeight
 height
-PR_FALSE
+false
 )
 ;
 if
@@ -4438,7 +4438,7 @@ cssWidth
 EmptyString
 (
 )
-PR_FALSE
+false
 )
 ;
 if
@@ -4458,7 +4458,7 @@ cssHeight
 EmptyString
 (
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -4638,7 +4638,7 @@ aListener
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 trying
 to
@@ -4708,7 +4708,7 @@ aListener
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 trying
 to

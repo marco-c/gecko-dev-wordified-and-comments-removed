@@ -133,7 +133,7 @@ aCanceled
 *
 aCanceled
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -378,7 +378,7 @@ status
 *
 aCanceled
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -386,7 +386,7 @@ else
 *
 aCanceled
 =
-PR_FALSE
+false
 ;
 rv
 =

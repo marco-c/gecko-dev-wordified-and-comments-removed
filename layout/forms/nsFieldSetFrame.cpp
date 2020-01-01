@@ -1912,7 +1912,7 @@ mContentFrame
 {
 reflowContent
 =
-PR_TRUE
+true
 ;
 }
 FinishReflowChild

@@ -1375,7 +1375,7 @@ aReturn
 return
 ReplaceOrInsertBefore
 (
-PR_FALSE
+false
 aNewChild
 aRefChild
 aReturn
@@ -1400,7 +1400,7 @@ aReturn
 return
 ReplaceOrInsertBefore
 (
-PR_TRUE
+true
 aNewChild
 aOldChild
 aReturn
@@ -1682,7 +1682,7 @@ CloneNodeImpl
 (
 this
 aDeep
-PR_TRUE
+true
 aResult
 )
 ;
@@ -2187,7 +2187,7 @@ list
 >
 Length
 (
-PR_TRUE
+true
 )
 ;
 return

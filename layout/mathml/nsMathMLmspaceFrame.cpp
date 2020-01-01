@@ -86,7 +86,7 @@ IsLeaf
 const
 {
 return
-PR_TRUE
+true
 ;
 }
 void

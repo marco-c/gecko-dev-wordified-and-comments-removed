@@ -94,6 +94,7 @@ template
 class
 Alloc
 >
+const
 nsTArrayHeader
 *
 nsTArray_base
@@ -107,7 +108,9 @@ GetAutoArrayBufferUnsafe
 size_t
 elemAlign
 )
+const
 {
+const
 void
 *
 autoBuf
@@ -115,6 +118,7 @@ autoBuf
 &
 reinterpret_cast
 <
+const
 nsAutoArrayBase
 <
 nsTArray
@@ -243,6 +247,7 @@ autoBuf
 =
 reinterpret_cast
 <
+const
 char
 *
 >
@@ -256,6 +261,7 @@ autoBuf
 return
 reinterpret_cast
 <
+const
 Header
 *
 >
@@ -279,6 +285,7 @@ Alloc
 UsesAutoArrayBuffer
 (
 )
+const
 {
 if
 (
@@ -290,7 +297,7 @@ mIsAutoArray
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PR_STATIC_ASSERT
@@ -311,6 +318,7 @@ diff
 =
 reinterpret_cast
 <
+const
 char
 *
 >
@@ -323,6 +331,7 @@ GetAutoArrayBuffer
 -
 reinterpret_cast
 <
+const
 char
 *
 >
@@ -410,7 +419,7 @@ mHdr
 mCapacity
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -443,7 +452,7 @@ array
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -488,7 +497,7 @@ if
 header
 )
 return
-PR_FALSE
+false
 ;
 header
 -
@@ -516,7 +525,7 @@ mHdr
 header
 ;
 return
-PR_TRUE
+true
 ;
 }
 const
@@ -691,7 +700,7 @@ if
 header
 )
 return
-PR_FALSE
+false
 ;
 memcpy
 (
@@ -736,7 +745,7 @@ if
 header
 )
 return
-PR_FALSE
+false
 ;
 }
 PRUint32
@@ -783,7 +792,7 @@ mHdr
 header
 ;
 return
-PR_TRUE
+true
 ;
 }
 template
@@ -1200,7 +1209,7 @@ Capacity
 newLen
 )
 return
-PR_FALSE
+false
 ;
 ShiftData
 (
@@ -1212,7 +1221,7 @@ elemAlign
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 template
@@ -1443,7 +1452,7 @@ elemSize
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 Header
@@ -1465,7 +1474,7 @@ mHdr
 temp
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -1495,7 +1504,7 @@ elemSize
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 NS_ABORT_IF_FALSE
@@ -1637,7 +1646,7 @@ elemSize
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 memcpy
@@ -1756,7 +1765,7 @@ mLength
 tempLength
 ;
 return
-PR_TRUE
+true
 ;
 }
 template
@@ -1801,7 +1810,7 @@ EmptyHdr
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 size_type
@@ -1843,7 +1852,7 @@ if
 header
 )
 return
-PR_FALSE
+false
 ;
 memcpy
 (
@@ -1867,6 +1876,6 @@ header
 ;
 }
 return
-PR_TRUE
+true
 ;
 }

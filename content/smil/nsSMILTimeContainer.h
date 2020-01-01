@@ -208,7 +208,7 @@ ClearNeedsRewind
 {
 mNeedsRewind
 =
-PR_FALSE
+false
 ;
 }
 bool
@@ -228,7 +228,7 @@ MarkSeekFinished
 {
 mIsSeeking
 =
-PR_FALSE
+false
 ;
 }
 nsresult

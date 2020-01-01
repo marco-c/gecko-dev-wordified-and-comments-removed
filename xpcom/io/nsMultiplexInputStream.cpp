@@ -205,7 +205,7 @@ mCurrentStream
 )
 mStartedReadingCurrent
 (
-PR_FALSE
+false
 )
 mStatus
 (
@@ -362,7 +362,7 @@ aIndex
 )
 mStartedReadingCurrent
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -711,7 +711,7 @@ mCurrentStream
 ;
 mStartedReadingCurrent
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -748,7 +748,7 @@ read
 ;
 mStartedReadingCurrent
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -851,7 +851,7 @@ state
 .
 mDone
 =
-PR_FALSE
+false
 ;
 PRUint32
 len
@@ -952,7 +952,7 @@ mCurrentStream
 ;
 mStartedReadingCurrent
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -985,7 +985,7 @@ read
 ;
 mStartedReadingCurrent
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1084,7 +1084,7 @@ state
 >
 mDone
 =
-PR_TRUE
+true
 ;
 return
 rv
@@ -1271,7 +1271,7 @@ mCurrentStream
 ;
 mStartedReadingCurrent
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1515,7 +1515,7 @@ count
 )
 )
 return
-PR_FALSE
+false
 ;
 for
 (
@@ -1551,7 +1551,7 @@ inputStream
 )
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -1578,7 +1578,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1613,10 +1613,10 @@ mStatus
 )
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 void

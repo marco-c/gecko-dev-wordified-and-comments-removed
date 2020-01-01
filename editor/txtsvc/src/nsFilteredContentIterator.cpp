@@ -84,11 +84,11 @@ aFilter
 )
 mDidSkip
 (
-PR_FALSE
+false
 )
 mIsOutOfRange
 (
-PR_FALSE
+false
 )
 mDirection
 (
@@ -207,7 +207,7 @@ NS_ERROR_FAILURE
 ;
 mIsOutOfRange
 =
-PR_FALSE
+false
 ;
 mDirection
 =
@@ -342,7 +342,7 @@ aRange
 ;
 mIsOutOfRange
 =
-PR_FALSE
+false
 ;
 mDirection
 =
@@ -512,7 +512,7 @@ rv
 {
 mIsOutOfRange
 =
-PR_TRUE
+true
 ;
 return
 rv
@@ -567,7 +567,7 @@ eForward
 ;
 mIsOutOfRange
 =
-PR_FALSE
+false
 ;
 }
 mCurrentIterator
@@ -668,7 +668,7 @@ eBackward
 ;
 mIsOutOfRange
 =
-PR_FALSE
+false
 ;
 }
 mCurrentIterator
@@ -835,7 +835,7 @@ aEndNode
 &
 &
 aContent
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -863,7 +863,7 @@ indx
 NS_ENSURE_TRUE
 (
 parentNode
-PR_FALSE
+false
 )
 ;
 if
@@ -900,7 +900,7 @@ startRes
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 rv
@@ -921,7 +921,7 @@ endRes
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 return
@@ -985,7 +985,7 @@ content
 &
 &
 range
-PR_FALSE
+false
 )
 ;
 nsCOMPtr
@@ -1231,7 +1231,7 @@ NS_OK
 }
 mIsOutOfRange
 =
-PR_TRUE
+true
 ;
 return
 NS_ERROR_FAILURE
@@ -1255,11 +1255,11 @@ aDir
 {
 aDidSkip
 =
-PR_FALSE
+false
 ;
 mIsOutOfRange
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1311,7 +1311,7 @@ skipIt
 {
 aDidSkip
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -1434,7 +1434,7 @@ rv
 =
 SwitchDirections
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -1543,7 +1543,7 @@ rv
 =
 SwitchDirections
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -1658,7 +1658,7 @@ mCurrentIterator
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return
@@ -1689,7 +1689,7 @@ NS_ERROR_FAILURE
 ;
 mIsOutOfRange
 =
-PR_FALSE
+false
 ;
 return
 mCurrentIterator

@@ -1,5 +1,14 @@
 #
 include
+"
+mozilla
+/
+Util
+.
+h
+"
+#
+include
 <
 stdio
 .
@@ -162,6 +171,10 @@ nsNativeCharsetUtils
 .
 h
 "
+using
+namespace
+mozilla
+;
 class
 nsToolkitProfile
 :
@@ -355,15 +368,15 @@ nsToolkitProfileService
 :
 mDirty
 (
-PR_FALSE
+false
 )
 mStartWithLast
 (
-PR_TRUE
+true
 )
 mStartOffline
 (
-PR_FALSE
+false
 )
 {
 gService
@@ -659,7 +672,7 @@ gService
 >
 mDirty
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -739,7 +752,7 @@ mLocalDir
 >
 Remove
 (
-PR_TRUE
+true
 )
 ;
 mRootDir
@@ -747,7 +760,7 @@ mRootDir
 >
 Remove
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -823,7 +836,7 @@ gService
 >
 mDirty
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1448,7 +1461,7 @@ EqualsLiteral
 )
 mStartWithLast
 =
-PR_FALSE
+false
 ;
 nsToolkitProfile
 *
@@ -1468,7 +1481,7 @@ c
 =
 0
 ;
-PR_TRUE
+true
 ;
 +
 +
@@ -1630,7 +1643,7 @@ NS_NewNativeLocalFile
 EmptyCString
 (
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 rootDir
@@ -1700,7 +1713,7 @@ NS_NewNativeLocalFile
 EmptyCString
 (
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 localDir
@@ -1816,7 +1829,7 @@ aValue
 ;
 mDirty
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -1951,9 +1964,9 @@ aResult
 =
 mCurrent
 ?
-PR_TRUE
+true
 :
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2077,7 +2090,7 @@ aProfile
 ;
 mDirty
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -2439,7 +2452,7 @@ rand
 (
 )
 %
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kTable
 )
@@ -3191,7 +3204,7 @@ cur
 -
 >
 mRootDir
-PR_TRUE
+true
 &
 isRelative
 )
@@ -3707,7 +3720,7 @@ NS_NewNativeLocalFile
 EmptyCString
 (
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 lf
@@ -3809,7 +3822,7 @@ nsDependentCString
 (
 fullPath
 )
-PR_TRUE
+true
 aResult
 )
 ;
@@ -3878,7 +3891,7 @@ nsDependentCString
 (
 fullPath
 )
-PR_TRUE
+true
 aResult
 )
 ;
@@ -3921,7 +3934,7 @@ nsDependentString
 (
 fullPath
 )
-PR_TRUE
+true
 aResult
 )
 ;

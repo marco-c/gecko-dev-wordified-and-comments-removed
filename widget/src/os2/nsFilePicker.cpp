@@ -535,7 +535,7 @@ DID_OK
 {
 result
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -987,14 +987,14 @@ PR_SUCCESS
 {
 fileExists
 =
-PR_TRUE
+true
 ;
 }
 else
 {
 fileExists
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -1344,7 +1344,7 @@ MBID_YES
 {
 fileExists
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -1381,7 +1381,7 @@ DID_OK
 {
 result
 =
-PR_TRUE
+true
 ;
 if
 (

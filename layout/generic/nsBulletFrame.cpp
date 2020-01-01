@@ -580,7 +580,7 @@ same
 {
 needNewRequest
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -1183,7 +1183,7 @@ eCSSProperty_color
 ;
 mTextIsRTL
 =
-PR_FALSE
+false
 ;
 nsAutoString
 text
@@ -1773,7 +1773,7 @@ cbuf
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -1815,7 +1815,7 @@ cbuf
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -1891,7 +1891,7 @@ p
 diff
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -1936,7 +1936,7 @@ ordinal
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRUnichar
@@ -1982,7 +1982,7 @@ p
 diff
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -2067,7 +2067,7 @@ result
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsAutoString
@@ -2340,7 +2340,7 @@ addOn
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -3050,7 +3050,7 @@ result
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 do
@@ -3104,7 +3104,7 @@ idx
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -3283,7 +3283,7 @@ result
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 PRUnichar
@@ -3384,7 +3384,7 @@ bOutputZero
 {
 bOutputZero
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3408,7 +3408,7 @@ else
 {
 bOutputZero
 =
-PR_TRUE
+true
 ;
 cUnit
 =
@@ -3533,7 +3533,7 @@ idx
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -3603,7 +3603,7 @@ result
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -3825,7 +3825,7 @@ ordinal
 ;
 outputSep
 =
-PR_TRUE
+true
 ;
 }
 while
@@ -3844,7 +3844,7 @@ allText
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -3877,7 +3877,7 @@ result
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 PRUnichar
@@ -3965,7 +3965,7 @@ idx
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -4046,7 +4046,7 @@ result
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 PRUnichar
@@ -4139,7 +4139,7 @@ idx
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -4193,7 +4193,7 @@ asciiNumberString
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 PRUint8
@@ -4420,7 +4420,7 @@ ETHIOPIC_TEN_THOUSAND
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -5244,7 +5244,7 @@ NS_STYLE_LIST_STYLE_HEBREW
 )
 mTextIsRTL
 =
-PR_TRUE
+true
 ;
 nsString
 suffix
@@ -6231,7 +6231,7 @@ mImageRequest
 {
 imageFailed
 =
-PR_TRUE
+true
 ;
 }
 }

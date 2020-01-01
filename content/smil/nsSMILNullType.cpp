@@ -144,7 +144,7 @@ value
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult

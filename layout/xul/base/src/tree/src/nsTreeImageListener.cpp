@@ -49,7 +49,7 @@ aTree
 )
 mInvalidationSuppressed
 (
-PR_TRUE
+true
 )
 mInvalidationArea
 (

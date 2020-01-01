@@ -730,7 +730,7 @@ aElement
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
@@ -1252,7 +1252,7 @@ twostate
 )
 hasNaturalState
 =
-PR_FALSE
+false
 ;
 }
 nsAutoString
@@ -2147,7 +2147,7 @@ mRootResult
 *
 aResult
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -3193,7 +3193,7 @@ mBoxObject
 {
 Uninit
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -3648,7 +3648,7 @@ nsXULContentUtils
 :
 :
 true_
-PR_TRUE
+true
 )
 ;
 }
@@ -3965,7 +3965,7 @@ _retval
 *
 _retval
 =
-PR_TRUE
+true
 ;
 NS_ENSURE_ARG_POINTER
 (
@@ -4082,7 +4082,7 @@ false
 *
 _retval
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -4148,7 +4148,7 @@ NS_ERROR_INVALID_ARG
 *
 _retval
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -4220,7 +4220,7 @@ false
 *
 _retval
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -4595,7 +4595,7 @@ aGenerated
 *
 aGenerated
 =
-PR_FALSE
+false
 ;
 NS_ENSURE_ARG_POINTER
 (
@@ -4665,7 +4665,7 @@ Last
 *
 aGenerated
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -4724,7 +4724,7 @@ IsEmpty
 )
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -4754,7 +4754,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -4768,7 +4768,7 @@ GetRootResource
 )
 )
 return
-PR_TRUE
+true
 ;
 nsTreeRows
 :
@@ -4795,7 +4795,7 @@ Last
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 (
@@ -5884,7 +5884,7 @@ mQueriesCompiled
 {
 Uninit
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -7065,7 +7065,7 @@ IsActive
 )
 generateContent
 =
-PR_FALSE
+false
 ;
 prevmatch
 =
@@ -7192,7 +7192,7 @@ Destroy
 (
 mPool
 newmatch
-PR_FALSE
+false
 )
 ;
 return
@@ -7209,7 +7209,7 @@ parentid
 {
 cyclic
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -7239,7 +7239,7 @@ Destroy
 (
 mPool
 newmatch
-PR_FALSE
+false
 )
 ;
 continue
@@ -7282,7 +7282,7 @@ Destroy
 (
 mPool
 newmatch
-PR_FALSE
+false
 )
 ;
 return
@@ -7322,7 +7322,7 @@ Destroy
 (
 mPool
 newmatch
-PR_FALSE
+false
 )
 ;
 return
@@ -7386,7 +7386,7 @@ OutputMatchToLog
 (
 resultid
 newmatch
-PR_TRUE
+true
 )
 ;
 }
@@ -7423,7 +7423,7 @@ Destroy
 (
 mPool
 newmatch
-PR_TRUE
+true
 )
 ;
 return
@@ -7703,7 +7703,7 @@ Destroy
 (
 mPool
 existingmatch
-PR_TRUE
+true
 )
 ;
 existingmatch
@@ -7785,7 +7785,7 @@ mRootResult
 *
 aOpen
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -7859,7 +7859,7 @@ nsXULContentUtils
 :
 :
 true_
-PR_TRUE
+true
 aOpen
 )
 ;
@@ -7867,7 +7867,7 @@ else
 *
 aOpen
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -8322,7 +8322,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 if
 (

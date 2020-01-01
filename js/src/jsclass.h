@@ -569,8 +569,9 @@ cx
 JSObject
 *
 obj
-jsid
-id
+PropertyName
+*
+name
 JSObject
 *
 *

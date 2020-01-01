@@ -223,7 +223,7 @@ domDoc
 {
 entireDocument
 =
-PR_FALSE
+false
 ;
 rv
 =

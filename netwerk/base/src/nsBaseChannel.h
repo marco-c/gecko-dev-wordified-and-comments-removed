@@ -192,7 +192,7 @@ statusArg
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 virtual
@@ -508,7 +508,7 @@ nsnull
 ;
 mQueriedProgressSink
 =
-PR_FALSE
+false
 ;
 OnCallbacksChanged
 (

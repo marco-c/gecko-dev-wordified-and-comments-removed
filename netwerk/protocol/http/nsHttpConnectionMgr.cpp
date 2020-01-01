@@ -212,7 +212,7 @@ mMaxPersistConnsPerProxy
 )
 mIsShuttingDown
 (
-PR_FALSE
+false
 )
 mNumActiveConns
 (
@@ -438,7 +438,7 @@ maxPipelinedRequests
 ;
 mIsShuttingDown
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -497,7 +497,7 @@ OnMsgShutdown
 ;
 mIsShuttingDown
 =
-PR_TRUE
+true
 ;
 mSocketThreadTarget
 =
@@ -2697,7 +2697,7 @@ trans
 {
 alreadyHalfOpen
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -2825,12 +2825,12 @@ conn
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -2916,7 +2916,7 @@ n
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsHttpConnection
@@ -4052,7 +4052,7 @@ mMaxPipelinedRequests
 2
 )
 return
-PR_FALSE
+false
 ;
 nsHttpPipeline
 *
@@ -4127,7 +4127,7 @@ if
 pipeline
 )
 return
-PR_FALSE
+false
 ;
 pipeline
 -
@@ -4191,7 +4191,7 @@ numAdded
 0
 )
 return
-PR_FALSE
+false
 ;
 LOG
 (
@@ -4217,7 +4217,7 @@ pipeline
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -4452,7 +4452,7 @@ GetConnection
 (
 ent
 trans
-PR_FALSE
+false
 &
 conn
 )
@@ -6443,7 +6443,7 @@ getter_AddRefs
 (
 mStreamOut
 )
-PR_FALSE
+false
 )
 ;
 LOG
@@ -6551,7 +6551,7 @@ getter_AddRefs
 (
 mBackupStreamOut
 )
-PR_TRUE
+true
 )
 ;
 LOG

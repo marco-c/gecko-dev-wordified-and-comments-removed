@@ -207,7 +207,7 @@ nsIOService
 gDefaultSegmentSize
 PR_UINT32_MAX
 async
-PR_TRUE
+true
 )
 ;
 if

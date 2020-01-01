@@ -101,6 +101,15 @@ h
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsAppRunner
 .
 h
@@ -471,6 +480,10 @@ unused
 .
 h
 "
+using
+namespace
+mozilla
+;
 using
 mozilla
 :
@@ -1322,7 +1335,7 @@ nsDependentString
 (
 path
 )
-PR_TRUE
+true
 &
 file
 )
@@ -1373,7 +1386,7 @@ nsDependentCString
 (
 arg
 )
-PR_TRUE
+true
 &
 file
 )
@@ -1478,7 +1491,7 @@ if
 mixedstr
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1493,7 +1506,7 @@ mixedstr
 lowerstr
 )
 return
-PR_FALSE
+false
 ;
 +
 +
@@ -1510,10 +1523,10 @@ if
 mixedstr
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -3183,7 +3196,7 @@ dwSize
 *
 aUserCanElevate
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -3604,7 +3617,7 @@ rv
 NS_NewLocalFile
 (
 path
-PR_FALSE
+false
 aMinidumpPath
 )
 ;
@@ -3897,12 +3910,12 @@ gLogConsoleErrors
 ifdef
 DEBUG
 =
-PR_TRUE
+true
 ;
 #
 else
 =
-PR_FALSE
+false
 ;
 #
 endif
@@ -3945,7 +3958,7 @@ failed
 \
 gLogConsoleErrors
 =
-PR_TRUE
+true
 ;
 \
 return
@@ -5298,7 +5311,7 @@ CheckArg
 "
 p
 "
-PR_FALSE
+false
 &
 profile
 )
@@ -5347,7 +5360,7 @@ CheckArg
 "
 a
 "
-PR_FALSE
+false
 &
 temp
 )
@@ -5406,7 +5419,7 @@ CheckArg
 "
 u
 "
-PR_FALSE
+false
 &
 username
 )
@@ -5640,7 +5653,7 @@ CheckArg
 "
 a
 "
-PR_TRUE
+true
 &
 temp
 )
@@ -5699,7 +5712,7 @@ CheckArg
 "
 u
 "
-PR_TRUE
+true
 &
 username
 )
@@ -6412,7 +6425,7 @@ SetupMacCommandLine
 (
 gRestartArgc
 gRestartArgv
-PR_TRUE
+true
 )
 ;
 PRUint32
@@ -7773,7 +7786,7 @@ SetupMacCommandLine
 (
 gRestartArgc
 gRestartArgv
-PR_TRUE
+true
 )
 ;
 #
@@ -7784,7 +7797,7 @@ XP_WIN
 ProcessDDE
 (
 aNative
-PR_FALSE
+false
 )
 ;
 #
@@ -8159,7 +8172,7 @@ SetupMacCommandLine
 (
 gRestartArgc
 gRestartArgv
-PR_TRUE
+true
 )
 ;
 #
@@ -8249,7 +8262,7 @@ nsnull
 *
 aStartOffline
 =
-PR_FALSE
+false
 ;
 ar
 =
@@ -8258,7 +8271,7 @@ CheckArg
 "
 offline
 "
-PR_TRUE
+true
 )
 ;
 if
@@ -8310,7 +8323,7 @@ XRE_START_OFFLINE
 *
 aStartOffline
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -8395,7 +8408,7 @@ CheckArg
 "
 p
 "
-PR_FALSE
+false
 &
 dummy
 )
@@ -8405,7 +8418,7 @@ CheckArg
 "
 profile
 "
-PR_FALSE
+false
 &
 dummy
 )
@@ -8434,7 +8447,7 @@ CheckArg
 "
 migration
 "
-PR_TRUE
+true
 )
 ;
 if
@@ -8482,7 +8495,7 @@ ARG_FOUND
 {
 gDoMigration
 =
-PR_TRUE
+true
 ;
 }
 ar
@@ -8492,7 +8505,7 @@ CheckArg
 "
 profile
 "
-PR_TRUE
+true
 &
 arg
 )
@@ -8696,7 +8709,7 @@ CheckArg
 "
 createprofile
 "
-PR_TRUE
+true
 &
 arg
 )
@@ -8775,7 +8788,7 @@ delim
 +
 1
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 lf
@@ -9054,7 +9067,7 @@ CheckArg
 "
 p
 "
-PR_FALSE
+false
 &
 arg
 )
@@ -9317,7 +9330,7 @@ CheckArg
 "
 profilemanager
 "
-PR_TRUE
+true
 )
 ;
 if
@@ -9379,7 +9392,7 @@ count
 {
 gDoMigration
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -9679,7 +9692,7 @@ aCachesOK
 *
 aCachesOK
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -9704,7 +9717,7 @@ if
 file
 )
 return
-PR_FALSE
+false
 ;
 file
 -
@@ -9747,7 +9760,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 nsCAutoString
 buf
@@ -9784,7 +9797,7 @@ buf
 )
 )
 return
-PR_FALSE
+false
 ;
 rv
 =
@@ -9818,7 +9831,7 @@ buf
 )
 )
 return
-PR_FALSE
+false
 ;
 rv
 =
@@ -9843,7 +9856,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -9856,7 +9869,7 @@ rv
 NS_NewNativeLocalFile
 (
 buf
-PR_FALSE
+false
 getter_AddRefs
 (
 lf
@@ -9871,7 +9884,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 bool
 eq
@@ -9900,7 +9913,7 @@ rv
 eq
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -9930,14 +9943,14 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 rv
 =
 NS_NewNativeLocalFile
 (
 buf
-PR_FALSE
+false
 getter_AddRefs
 (
 lf
@@ -9952,7 +9965,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 rv
 =
@@ -9978,7 +9991,7 @@ rv
 eq
 )
 return
-PR_FALSE
+false
 ;
 }
 rv
@@ -10048,7 +10061,7 @@ purgeCaches
 aCachesOK
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -10500,7 +10513,7 @@ file
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -10581,7 +10594,7 @@ file
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 file
@@ -10603,7 +10616,7 @@ file
 >
 Remove
 (
-PR_FALSE
+false
 )
 ;
 file
@@ -10624,12 +10637,13 @@ file
 >
 Remove
 (
-PR_TRUE
+true
 )
 ;
 }
 static
 struct
+SavedVar
 {
 const
 char
@@ -10669,7 +10683,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 gSavedVars
 )
@@ -10740,7 +10754,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 gSavedVars
 )
@@ -11969,7 +11983,7 @@ pw_dir
 {
 Output
 (
-PR_TRUE
+true
 "
 Could
 not
@@ -12111,7 +12125,7 @@ CheckArg
 "
 override
 "
-PR_TRUE
+true
 &
 override
 )
@@ -12126,7 +12140,7 @@ ARG_BAD
 {
 Output
 (
-PR_TRUE
+true
 "
 Incorrect
 number
@@ -12179,7 +12193,7 @@ rv
 {
 Output
 (
-PR_TRUE
+true
 "
 Error
 :
@@ -12229,7 +12243,7 @@ rv
 {
 Output
 (
-PR_TRUE
+true
 "
 Couldn
 '
@@ -12267,7 +12281,7 @@ name
 {
 Output
 (
-PR_TRUE
+true
 "
 Error
 :
@@ -12299,7 +12313,7 @@ buildID
 {
 Output
 (
-PR_TRUE
+true
 "
 Error
 :
@@ -12436,7 +12450,7 @@ minVersion
 {
 Output
 (
-PR_TRUE
+true
 "
 Error
 :
@@ -12505,7 +12519,7 @@ gToolkitVersion
 {
 Output
 (
-PR_TRUE
+true
 "
 Error
 :
@@ -12948,7 +12962,7 @@ kFakeEventList
 )
 kFakeEventList
 kEventDurationNoWait
-PR_FALSE
+false
 &
 event
 )
@@ -13164,7 +13178,7 @@ MOZ_SAFE_MODE_RESTART
 {
 gSafeMode
 =
-PR_TRUE
+true
 ;
 SaveToEnv
 (
@@ -13184,7 +13198,7 @@ safe
 -
 mode
 "
-PR_TRUE
+true
 )
 ;
 if
@@ -13234,7 +13248,7 @@ ARG_FOUND
 {
 gSafeMode
 =
-PR_TRUE
+true
 ;
 }
 #
@@ -13274,7 +13288,7 @@ VK_MENU
 {
 gSafeMode
 =
-PR_TRUE
+true
 ;
 }
 #
@@ -13292,7 +13306,7 @@ optionKey
 )
 gSafeMode
 =
-PR_TRUE
+true
 ;
 #
 endif
@@ -13305,7 +13319,7 @@ no
 -
 remote
 "
-PR_TRUE
+true
 )
 ;
 if
@@ -13454,7 +13468,7 @@ CheckArg
 "
 register
 "
-PR_TRUE
+true
 )
 ;
 if
@@ -13617,10 +13631,10 @@ CheckArg
 "
 graphicssystem
 "
-PR_TRUE
+true
 &
 qgraphicssystemARG
-PR_FALSE
+false
 )
 ;
 if
@@ -14043,7 +14057,7 @@ CheckArg
 "
 remote
 "
-PR_TRUE
+true
 &
 xremotearg
 )
@@ -14248,7 +14262,7 @@ _gtk_window_set_auto_startup_notification
 {
 _gtk_window_set_auto_startup_notification
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -14783,7 +14797,7 @@ purgecaches
 {
 cachesOK
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -14798,7 +14812,7 @@ MOZ_PURGE_CACHES
 {
 cachesOK
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -14810,7 +14824,7 @@ RemoveComponentRegistries
 (
 profD
 profLD
-PR_FALSE
+false
 )
 ;
 WriteVersion
@@ -14852,7 +14866,7 @@ RemoveComponentRegistries
 (
 profD
 profLD
-PR_FALSE
+false
 )
 ;
 WriteVersion
@@ -14879,7 +14893,7 @@ RemoveComponentRegistries
 (
 profD
 profLD
-PR_TRUE
+true
 )
 ;
 WriteVersion
@@ -14909,7 +14923,7 @@ flagFile
 >
 Remove
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -15337,7 +15351,7 @@ io
 >
 SetManageOfflineStatus
 (
-PR_FALSE
+false
 )
 ;
 io
@@ -15345,7 +15359,7 @@ io
 >
 SetOffline
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -15552,7 +15566,7 @@ F
 {
 gDoMigration
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -15573,7 +15587,7 @@ gDoMigration
 {
 gDoMigration
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -15987,7 +16001,7 @@ SetupMacCommandLine
 (
 gArgc
 gArgv
-PR_FALSE
+false
 )
 ;
 rv
@@ -16259,7 +16273,7 @@ appstartup
 ;
 gLogConsoleErrors
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -16308,7 +16322,7 @@ NS_SUCCESS_RESTART_APP
 )
 appInitiatedRestart
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -16390,7 +16404,7 @@ rv
 LaunchChild
 (
 nativeApp
-PR_TRUE
+true
 )
 ;
 #
@@ -16692,7 +16706,7 @@ CheckArg
 "
 greomni
 "
-PR_FALSE
+false
 &
 path
 )
@@ -16789,7 +16803,7 @@ CheckArg
 "
 appomni
 "
-PR_FALSE
+false
 &
 path
 )

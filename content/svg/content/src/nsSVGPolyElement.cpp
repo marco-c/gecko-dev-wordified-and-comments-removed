@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsSVGPolyElement
 .
 h
@@ -102,7 +111,7 @@ GetDOMWrapper
 (
 key
 this
-PR_FALSE
+false
 )
 .
 get
@@ -145,7 +154,7 @@ GetDOMWrapper
 (
 key
 this
-PR_TRUE
+true
 )
 .
 get
@@ -190,7 +199,7 @@ FindAttributeDependence
 (
 name
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )
@@ -229,10 +238,10 @@ nsGkAtoms
 points
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 void

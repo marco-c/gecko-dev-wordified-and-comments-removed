@@ -165,7 +165,7 @@ mIdleCount
 )
 mShutdown
 (
-PR_FALSE
+false
 )
 {
 }
@@ -282,7 +282,7 @@ mThreadLimit
 )
 spawnThread
 =
-PR_TRUE
+true
 ;
 mEvents
 .
@@ -400,7 +400,7 @@ else
 {
 killThread
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -722,7 +722,7 @@ mShutdown
 {
 exitThread
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -750,7 +750,7 @@ timeout
 )
 exitThread
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -765,7 +765,7 @@ mIdleThreadLimit
 {
 exitThread
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -780,7 +780,7 @@ now
 ;
 wasIdle
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -862,7 +862,7 @@ wasIdle
 {
 wasIdle
 =
-PR_FALSE
+false
 ;
 -
 -
@@ -1125,7 +1125,7 @@ me
 *
 result
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1164,7 +1164,7 @@ GetReentrantMonitor
 ;
 mShutdown
 =
-PR_TRUE
+true
 ;
 mon
 .

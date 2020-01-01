@@ -635,6 +635,12 @@ GetNormalVector
 const
 ;
 bool
+IsBackfaceVisible
+(
+)
+const
+;
+bool
 IsSingular
 (
 )

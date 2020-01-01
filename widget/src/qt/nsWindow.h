@@ -52,7 +52,7 @@ h
 #
 include
 "
-nsWidgetAtoms
+nsGkAtoms
 .
 h
 "
@@ -318,9 +318,6 @@ aHandleEventFunction
 nsDeviceContext
 *
 aContext
-nsIAppShell
-*
-aAppShell
 nsIToolkit
 *
 aToolkit
@@ -345,11 +342,6 @@ aHandleEventFunction
 nsDeviceContext
 *
 aContext
-nsIAppShell
-*
-aAppShell
-=
-nsnull
 nsIToolkit
 *
 aToolkit
@@ -1576,7 +1568,7 @@ needDispatch
 nsMouseEvent
 event
 (
-PR_TRUE
+true
 NS_MOUSE_MOVE
 this
 nsMouseEvent
@@ -1720,7 +1712,7 @@ false
 }
 mTimerStarted
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -1757,7 +1749,7 @@ event
 ;
 mTimerStarted
 =
-PR_TRUE
+true
 ;
 }
 }

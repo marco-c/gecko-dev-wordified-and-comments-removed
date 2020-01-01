@@ -166,7 +166,7 @@ mDirPropsMemory
 &
 mDirPropsSize
 \
-PR_TRUE
+true
 (
 length
 )
@@ -190,7 +190,7 @@ mLevelsMemory
 &
 mLevelsSize
 \
-PR_TRUE
+true
 (
 length
 )
@@ -214,7 +214,7 @@ mRunsMemory
 &
 mRunsSize
 \
-PR_TRUE
+true
 (
 length
 )
@@ -1425,7 +1425,7 @@ s
 start
 i
 c
-PR_FALSE
+false
 )
 #
 define

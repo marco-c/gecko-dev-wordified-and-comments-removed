@@ -477,12 +477,12 @@ aFrame
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 nsFrameList
@@ -693,11 +693,11 @@ Destroy
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsFrameList
@@ -1544,7 +1544,7 @@ aFrame
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 frame
@@ -1558,7 +1558,7 @@ GetNextSibling
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 PRInt32
@@ -1739,7 +1739,7 @@ return
 }
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 Frames
 for

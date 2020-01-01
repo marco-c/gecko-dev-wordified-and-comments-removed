@@ -266,7 +266,7 @@ NS_NOINTERFACE
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -353,7 +353,7 @@ gRDFService
 RegisterResource
 (
 this
-PR_TRUE
+true
 )
 ;
 }

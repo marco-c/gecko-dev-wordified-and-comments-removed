@@ -534,7 +534,7 @@ nsSupportsPRBoolImpl
 :
 mData
 (
-PR_FALSE
+false
 )
 {
 }

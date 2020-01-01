@@ -943,7 +943,7 @@ aIsSelected
 *
 aIsSelected
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1054,7 +1054,7 @@ Next
 *
 aIsSelected
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1081,7 +1081,7 @@ aIsSelected
 *
 aIsSelected
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1166,7 +1166,7 @@ NS_OK
 *
 aIsSelected
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1195,7 +1195,7 @@ aIsSelected
 *
 aIsSelected
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1265,7 +1265,7 @@ NS_OK
 *
 aIsSelected
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1561,7 +1561,7 @@ cell
 {
 isRowSelected
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -1732,7 +1732,7 @@ nsIAccessible
 (
 cell
 )
-PR_FALSE
+false
 )
 ;
 continue
@@ -1774,7 +1774,7 @@ nsIAccessible
 (
 cell
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -2275,7 +2275,7 @@ cell
 {
 isRowSelected
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -2517,7 +2517,7 @@ rv
 SetARIASelected
 (
 row
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2546,7 +2546,7 @@ rv
 SetARIASelected
 (
 cell
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2598,7 +2598,7 @@ return
 SetARIASelected
 (
 row
-PR_FALSE
+false
 )
 ;
 }
@@ -2679,7 +2679,7 @@ rv
 SetARIASelected
 (
 cell
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2713,7 +2713,7 @@ aIsProbablyForLayout
 *
 aIsProbablyForLayout
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2736,7 +2736,7 @@ aRow
 0
 )
 return
-PR_FALSE
+false
 ;
 PRInt32
 rowCount
@@ -2772,7 +2772,7 @@ aColumn
 0
 )
 return
-PR_FALSE
+false
 ;
 PRInt32
 colCount
@@ -2815,7 +2815,7 @@ aColumn
 0
 )
 return
-PR_FALSE
+false
 ;
 PRInt32
 rowCount
@@ -2836,7 +2836,7 @@ aRow
 rowCount
 )
 return
-PR_FALSE
+false
 ;
 PRInt32
 colCount
@@ -3135,8 +3135,8 @@ rv
 SetARIASelected
 (
 cell
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3223,8 +3223,8 @@ rv
 SetARIASelected
 (
 row
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3275,8 +3275,8 @@ rv
 SetARIASelected
 (
 cell
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3424,7 +3424,7 @@ isColSelArray
 i
 ]
 =
-PR_TRUE
+true
 ;
 do
 {
@@ -3489,7 +3489,7 @@ isColSelArray
 SafeElementAt
 (
 colIdx
-PR_FALSE
+false
 )
 &
 &
@@ -3508,7 +3508,7 @@ isColSelArray
 colIdx
 ]
 =
-PR_FALSE
+false
 ;
 selColCount
 -
@@ -4276,7 +4276,7 @@ aIsSelected
 *
 aIsSelected
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -4344,7 +4344,7 @@ NS_OK
 *
 aIsSelected
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

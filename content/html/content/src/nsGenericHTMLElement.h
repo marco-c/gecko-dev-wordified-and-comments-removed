@@ -35,7 +35,7 @@ h
 #
 include
 "
-nsIDOMNSHTMLFrameElement
+nsIDOMHTMLFrameElement
 .
 h
 "
@@ -1418,7 +1418,7 @@ NODE_HAS_ACCESSKEY
 {
 RegUnRegAccessKey
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1438,7 +1438,7 @@ NODE_HAS_ACCESSKEY
 {
 RegUnRegAccessKey
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -1988,7 +1988,7 @@ aState
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 virtual
@@ -1998,7 +1998,7 @@ AllowDrop
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 virtual
@@ -2267,8 +2267,6 @@ nsGenericHTMLFrameElement
 public
 nsGenericHTMLElement
 public
-nsIDOMNSHTMLFrameElement
-public
 nsIFrameLoaderOwner
 {
 public
@@ -2327,7 +2325,6 @@ void
 aInstancePtr
 )
 ;
-NS_DECL_NSIDOMNSHTMLFRAMEELEMENT
 NS_DECL_NSIFRAMELOADEROWNER
 virtual
 bool
@@ -2475,6 +2472,15 @@ nsIDOMDocument
 *
 *
 aContentDocument
+)
+;
+nsresult
+GetContentWindow
+(
+nsIDOMWindow
+*
+*
+aContentWindow
 )
 ;
 nsRefPtr

@@ -47,7 +47,7 @@ aAttrEnum
 ;
 mIsBaseSet
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -246,7 +246,7 @@ SetBaseValue
 (
 aValue
 mSVGElement
-PR_TRUE
+true
 )
 ;
 return

@@ -261,7 +261,7 @@ mExistingRightNode
 >
 CloneNode
 (
-PR_FALSE
+false
 getter_AddRefs
 (
 mNewLeftNode
@@ -589,7 +589,7 @@ JoinNodesImpl
 mExistingRightNode
 mNewLeftNode
 mParent
-PR_FALSE
+false
 )
 ;
 #

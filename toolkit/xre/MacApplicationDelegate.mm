@@ -1088,7 +1088,7 @@ keepSpinning
 {
 sProcessedGetURLEvent
 =
-PR_FALSE
+false
 ;
 NSEvent
 *
@@ -1637,7 +1637,7 @@ NS_NewLocalFileWithCFURL
 CFURLRef
 )
 url
-PR_TRUE
+true
 getter_AddRefs
 (
 inFile
@@ -2367,7 +2367,7 @@ cancelQuit
 >
 SetData
 (
-PR_FALSE
+false
 )
 ;
 obsServ
@@ -2504,7 +2504,7 @@ isGetURLEvent
 )
 sProcessedGetURLEvent
 =
-PR_TRUE
+true
 ;
 if
 (

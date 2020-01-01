@@ -109,7 +109,7 @@ input
 output
 )
 return
-PR_FALSE
+false
 ;
 PRUint32
 n
@@ -147,7 +147,7 @@ kData
 )
 )
 return
-PR_FALSE
+false
 ;
 output
 =
@@ -169,7 +169,7 @@ buf
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -182,10 +182,10 @@ kData
 )
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 typedef

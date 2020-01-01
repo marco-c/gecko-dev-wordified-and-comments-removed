@@ -56,7 +56,7 @@ h
 #
 include
 "
-nsHtml5UTF16Buffer
+nsHtml5OwningUTF16Buffer
 .
 h
 "
@@ -352,7 +352,7 @@ mTerminatedMutex
 ;
 mTerminated
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -389,6 +389,11 @@ ret
 #
 endif
 void
+MarkAsBroken
+(
+)
+;
+void
 Interrupt
 (
 )
@@ -404,7 +409,7 @@ mTerminatedMutex
 ;
 mInterrupted
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -432,7 +437,7 @@ AssertCurrentThreadOwns
 ;
 mInterrupted
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -671,11 +676,11 @@ mReparseForbidden
 ;
 nsRefPtr
 <
-nsHtml5UTF16Buffer
+nsHtml5OwningUTF16Buffer
 >
 mFirstBuffer
 ;
-nsHtml5UTF16Buffer
+nsHtml5OwningUTF16Buffer
 *
 mLastBuffer
 ;

@@ -307,7 +307,7 @@ mNumCoords
 ;
 mHasFocus
 =
-PR_FALSE
+false
 ;
 }
 Area
@@ -665,7 +665,7 @@ break
 }
 has_comma
 =
-PR_FALSE
+false
 ;
 while
 (
@@ -702,7 +702,7 @@ has_comma
 {
 has_comma
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1021,7 +1021,7 @@ y
 const
 {
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -1342,7 +1342,7 @@ x
 ;
 saneRect
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -1385,7 +1385,7 @@ y
 ;
 saneRect
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -1397,7 +1397,7 @@ mNumCoords
 {
 saneRect
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -1405,7 +1405,7 @@ else
 {
 saneRect
 =
-PR_FALSE
+false
 ;
 flag
 =
@@ -1544,12 +1544,12 @@ y2
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -2476,12 +2476,12 @@ intersects
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -2956,7 +2956,7 @@ mNumCoords
 {
 wrongNumberOfCoords
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2964,7 +2964,7 @@ else
 {
 wrongNumberOfCoords
 =
-PR_TRUE
+true
 ;
 flag
 =
@@ -3044,7 +3044,7 @@ radius
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nscoord
@@ -3089,12 +3089,12 @@ radius
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -3317,7 +3317,7 @@ nsnull
 )
 mContainsBlockContents
 (
-PR_FALSE
+false
 )
 {
 }
@@ -3553,7 +3553,7 @@ focus
 "
 )
 this
-PR_FALSE
+false
 )
 ;
 area
@@ -3571,7 +3571,7 @@ blur
 "
 )
 this
-PR_FALSE
+false
 )
 ;
 delete
@@ -3732,7 +3732,7 @@ area
 {
 aFoundArea
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -3772,7 +3772,7 @@ a
 {
 aFoundAnchor
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -3801,7 +3801,7 @@ IsElement
 {
 mContainsBlockContents
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -3848,7 +3848,7 @@ false
 ;
 mContainsBlockContents
 =
-PR_FALSE
+false
 ;
 return
 SearchForAreas
@@ -4049,8 +4049,8 @@ focus
 "
 )
 this
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 aArea
@@ -4065,8 +4065,8 @@ blur
 "
 )
 this
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 aArea
@@ -4198,12 +4198,12 @@ mArea
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 void

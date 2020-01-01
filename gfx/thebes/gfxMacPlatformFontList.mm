@@ -955,19 +955,19 @@ NULL
 )
 mFontRefInitialized
 (
-PR_FALSE
+false
 )
 mRequiresAAT
 (
-PR_FALSE
+false
 )
 mIsCFF
 (
-PR_FALSE
+false
 )
 mIsCFFInitialized
 (
-PR_FALSE
+false
 )
 {
 mWeight
@@ -1148,7 +1148,7 @@ NS_OK
 }
 mCmapInitialized
 =
-PR_TRUE
+true
 ;
 PRUint32
 kCMAP
@@ -1244,7 +1244,7 @@ rv
 }
 mHasCmapTable
 =
-PR_TRUE
+true
 ;
 CGFontRef
 fontRef
@@ -1386,7 +1386,7 @@ hasGPOS
 {
 mRequiresAAT
 =
-PR_TRUE
+true
 ;
 /
 /
@@ -1483,7 +1483,7 @@ hasAATLayout
 {
 omitRange
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -1528,7 +1528,7 @@ bug
 )
 mRequiresAAT
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -1673,7 +1673,7 @@ tag
 .
 omitRange
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -1789,7 +1789,7 @@ mIsCFFInitialized
 {
 mIsCFFInitialized
 =
-PR_TRUE
+true
 ;
 mIsCFF
 =
@@ -1867,7 +1867,7 @@ kInvalidFont
 )
 mATSFontRefInitialized
 (
-PR_FALSE
+false
 )
 {
 }
@@ -1900,7 +1900,7 @@ MacOSFontEntry
 aPostscriptName
 aWeight
 nsnull
-PR_FALSE
+false
 )
 {
 mATSFontRef
@@ -1909,7 +1909,7 @@ aFontRef
 ;
 mATSFontRefInitialized
 =
-PR_TRUE
+true
 ;
 mWeight
 =
@@ -1921,7 +1921,7 @@ aStretch
 ;
 mFixedPitch
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -1987,7 +1987,7 @@ mATSFontRefInitialized
 {
 mATSFontRefInitialized
 =
-PR_TRUE
+true
 ;
 NSString
 *
@@ -2065,7 +2065,7 @@ mATSFontRef
 ;
 mFontRefInitialized
 =
-PR_TRUE
+true
 ;
 return
 mFontRef
@@ -2313,7 +2313,7 @@ MacOSFontEntry
 aPostscriptName
 aWeight
 nsnull
-PR_FALSE
+false
 )
 {
 mFontRef
@@ -2322,7 +2322,7 @@ aFontRef
 ;
 mFontRefInitialized
 =
-PR_TRUE
+true
 ;
 :
 :
@@ -2341,7 +2341,7 @@ aStretch
 ;
 mFixedPitch
 =
-PR_FALSE
+false
 ;
 /
 /
@@ -2395,7 +2395,7 @@ mFontRefInitialized
 {
 mFontRefInitialized
 =
-PR_TRUE
+true
 ;
 NSString
 *
@@ -2570,7 +2570,7 @@ fontRef
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 CFDataRef
@@ -2591,7 +2591,7 @@ tableData
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 :
@@ -2602,7 +2602,7 @@ tableData
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -3081,7 +3081,7 @@ Oblique
 {
 isStandardFace
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -3251,7 +3251,7 @@ fontEntry
 >
 mItalic
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -3266,7 +3266,7 @@ fontEntry
 >
 mFixedPitch
 =
-PR_TRUE
+true
 ;
 }
 #
@@ -3402,7 +3402,7 @@ SortAvailableFonts
 ;
 SetHasStyles
 (
-PR_TRUE
+true
 )
 ;
 if
@@ -3663,12 +3663,12 @@ ReadOtherFamilyNamesForFace
 (
 aPlatformFontList
 buffer
-PR_TRUE
+true
 )
 ;
 mOtherFamilyNamesInitialized
 =
-PR_TRUE
+true
 ;
 }
 /
@@ -3689,7 +3689,7 @@ gfxMacPlatformFontList
 :
 gfxPlatformFontList
 (
-PR_FALSE
+false
 )
 mATSGeneration
 (
@@ -4330,7 +4330,7 @@ familyEntry
 >
 SetHasStyles
 (
-PR_TRUE
+true
 )
 ;
 mFontFamilies
@@ -4429,7 +4429,7 @@ aFamilyName
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 /
@@ -4590,7 +4590,7 @@ kInvalidFontFamily
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -4629,7 +4629,7 @@ noErr
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -4689,11 +4689,11 @@ aFamilyName
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -5000,7 +5000,7 @@ FONT_STYLE_ITALIC
 :
 FONT_STYLE_NORMAL
 nsnull
-PR_TRUE
+true
 )
 ;
 }
@@ -5017,7 +5017,7 @@ fontRef
 0
 FONT_STYLE_NORMAL
 nsnull
-PR_FALSE
+false
 )
 ;
 }
@@ -5111,8 +5111,8 @@ mItalic
 FONT_STYLE_ITALIC
 :
 FONT_STYLE_NORMAL
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 }
@@ -5128,8 +5128,8 @@ fontRef
 400
 0
 FONT_STYLE_NORMAL
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 }
@@ -5366,8 +5366,8 @@ mItalic
 FONT_STYLE_ITALIC
 :
 FONT_STYLE_NORMAL
-PR_TRUE
-PR_FALSE
+true
+false
 )
 )
 ;
@@ -6222,7 +6222,7 @@ FONT_STYLE_ITALIC
 :
 FONT_STYLE_NORMAL
 userFontData
-PR_FALSE
+false
 )
 ;
 /

@@ -88,11 +88,11 @@ aRV
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -312,7 +312,7 @@ if
 file
 )
 return
-PR_FALSE
+false
 ;
 nsCString
 name
@@ -362,11 +362,11 @@ get
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -409,7 +409,7 @@ if
 file
 )
 return
-PR_FALSE
+false
 ;
 nsCString
 name
@@ -442,7 +442,7 @@ AppendNative
 )
 )
 return
-PR_FALSE
+false
 ;
 bool
 exists
@@ -473,7 +473,7 @@ before
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -500,7 +500,7 @@ get
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 rv
@@ -526,7 +526,7 @@ Create
 )
 )
 return
-PR_FALSE
+false
 ;
 rv
 =
@@ -554,7 +554,7 @@ after
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -583,11 +583,11 @@ get
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -630,7 +630,7 @@ if
 file
 )
 return
-PR_FALSE
+false
 ;
 nsCString
 name
@@ -663,7 +663,7 @@ AppendNative
 )
 )
 return
-PR_FALSE
+false
 ;
 bool
 existsBefore
@@ -694,7 +694,7 @@ before
 )
 )
 return
-PR_FALSE
+false
 ;
 rv
 =
@@ -719,7 +719,7 @@ Create
 )
 )
 return
-PR_FALSE
+false
 ;
 bool
 existsAfter
@@ -750,7 +750,7 @@ after
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -779,7 +779,7 @@ get
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -812,7 +812,7 @@ GetNativeLeafName
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -850,12 +850,12 @@ get
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -898,7 +898,7 @@ if
 file
 )
 return
-PR_FALSE
+false
 ;
 nsCString
 name
@@ -931,7 +931,7 @@ AppendNative
 )
 )
 return
-PR_FALSE
+false
 ;
 bool
 exists
@@ -962,7 +962,7 @@ before
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -989,7 +989,7 @@ get
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 PRFileDesc
@@ -1026,7 +1026,7 @@ OpenNSPRFileDesc
 )
 )
 return
-PR_FALSE
+false
 ;
 PRStatus
 status
@@ -1066,7 +1066,7 @@ get
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 rv
@@ -1095,7 +1095,7 @@ after
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1126,11 +1126,11 @@ get
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -1171,7 +1171,7 @@ if
 file
 )
 return
-PR_FALSE
+false
 ;
 nsCString
 name
@@ -1204,7 +1204,7 @@ AppendNative
 )
 )
 return
-PR_FALSE
+false
 ;
 bool
 exists
@@ -1235,7 +1235,7 @@ before
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1264,7 +1264,7 @@ get
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 rv
@@ -1289,7 +1289,7 @@ Remove
 )
 )
 return
-PR_FALSE
+false
 ;
 rv
 =
@@ -1317,7 +1317,7 @@ after
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1345,11 +1345,11 @@ get
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -1395,7 +1395,7 @@ if
 file
 )
 return
-PR_FALSE
+false
 ;
 nsCString
 name
@@ -1428,7 +1428,7 @@ AppendNative
 )
 )
 return
-PR_FALSE
+false
 ;
 bool
 exists
@@ -1459,7 +1459,7 @@ before
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1488,7 +1488,7 @@ get
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -1533,7 +1533,7 @@ MoveToNative
 )
 )
 return
-PR_FALSE
+false
 ;
 rv
 =
@@ -1561,7 +1561,7 @@ after
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1589,7 +1589,7 @@ get
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 file
@@ -1605,7 +1605,7 @@ if
 file
 )
 return
-PR_FALSE
+false
 ;
 rv
 =
@@ -1629,7 +1629,7 @@ AppendNative
 )
 )
 return
-PR_FALSE
+false
 ;
 bool
 equal
@@ -1658,7 +1658,7 @@ Equals
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1683,7 +1683,7 @@ gFunction
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 rv
@@ -1713,7 +1713,7 @@ after
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1743,11 +1743,11 @@ get
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -1793,7 +1793,7 @@ if
 file
 )
 return
-PR_FALSE
+false
 ;
 nsCString
 name
@@ -1826,7 +1826,7 @@ AppendNative
 )
 )
 return
-PR_FALSE
+false
 ;
 bool
 exists
@@ -1857,7 +1857,7 @@ before
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1886,7 +1886,7 @@ get
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -1931,7 +1931,7 @@ MoveToNative
 )
 )
 return
-PR_FALSE
+false
 ;
 bool
 equal
@@ -1960,7 +1960,7 @@ Equals
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1982,7 +1982,7 @@ gFunction
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 rv
@@ -2011,7 +2011,7 @@ after
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -2039,7 +2039,7 @@ get
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 file
@@ -2055,7 +2055,7 @@ if
 file
 )
 return
-PR_FALSE
+false
 ;
 rv
 =
@@ -2079,7 +2079,7 @@ AppendNative
 )
 )
 return
-PR_FALSE
+false
 ;
 rv
 =
@@ -2108,7 +2108,7 @@ after
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -2138,11 +2138,11 @@ get
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -2180,7 +2180,7 @@ if
 file
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -2251,11 +2251,11 @@ gFunction
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -2293,7 +2293,7 @@ if
 file
 )
 return
-PR_FALSE
+false
 ;
 nsCAutoString
 path
@@ -2436,11 +2436,11 @@ normalization
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 int
@@ -2546,7 +2546,7 @@ base
 >
 Remove
 (
-PR_TRUE
+true
 )
 ;
 rv
@@ -2746,7 +2746,7 @@ file
 .
 txt
 "
-PR_FALSE
+false
 )
 )
 {
@@ -2977,7 +2977,7 @@ base
 "
 subdir
 "
-PR_TRUE
+true
 )
 )
 {
@@ -3111,7 +3111,7 @@ base
 >
 Remove
 (
-PR_TRUE
+true
 )
 ;
 VerifyResult

@@ -504,11 +504,11 @@ nsNetworkLinkService
 :
 mLinkUp
 (
-PR_TRUE
+true
 )
 mStatusKnown
 (
-PR_FALSE
+false
 )
 mReachability
 (
@@ -706,7 +706,7 @@ xpcom
 -
 shutdown
 "
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1079,7 +1079,7 @@ flags
 {
 mStatusKnown
 =
-PR_FALSE
+false
 ;
 return
 ;
@@ -1120,7 +1120,7 @@ needsConnection
 ;
 mStatusKnown
 =
-PR_TRUE
+true
 ;
 }
 void

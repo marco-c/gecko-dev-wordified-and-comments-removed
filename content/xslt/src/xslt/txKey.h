@@ -227,7 +227,7 @@ aKey
 )
 mIndexed
 (
-PR_FALSE
+false
 )
 {
 }

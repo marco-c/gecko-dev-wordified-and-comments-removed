@@ -579,12 +579,12 @@ nsXMLFragmentContentSink
 :
 mParseError
 (
-PR_FALSE
+false
 )
 {
 mFragmentMode
 =
-PR_TRUE
+true
 ;
 }
 nsXMLFragmentContentSink
@@ -789,7 +789,7 @@ aContent
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -852,7 +852,7 @@ Length
 *
 aAppendContent
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -1161,11 +1161,11 @@ arguments
 *
 _retval
 =
-PR_TRUE
+true
 ;
 mParseError
 =
-PR_TRUE
+true
 ;
 #
 ifdef
@@ -1421,7 +1421,7 @@ nsnull
 ;
 mParseError
 =
-PR_FALSE
+false
 ;
 return
 NS_ERROR_DOM_SYNTAX_ERR

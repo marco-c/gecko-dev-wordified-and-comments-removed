@@ -286,11 +286,11 @@ mReentrantMonitor
 )
 mAttemptedLoad
 (
-PR_FALSE
+false
 )
 mLoaded
 (
-PR_FALSE
+false
 )
 {
 }
@@ -320,7 +320,7 @@ NS_ERROR_UNEXPECTED
 }
 mAttemptedLoad
 =
-PR_TRUE
+true
 ;
 nsresult
 rv
@@ -470,7 +470,7 @@ mAttemptedLoad
 =
 mLoaded
 =
-PR_TRUE
+true
 ;
 rv
 =
@@ -1290,7 +1290,7 @@ resultArray
 AppendElement
 (
 supports
-PR_FALSE
+false
 )
 ;
 rv
@@ -1420,7 +1420,7 @@ resultArray
 AppendElement
 (
 propElement
-PR_FALSE
+false
 )
 ;
 }
@@ -1729,7 +1729,7 @@ nsExtensibleStringBundle
 {
 mLoaded
 =
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -2280,7 +2280,7 @@ nsStringBundleService
 mBundleMap
 (
 MAX_CACHED_BUNDLES
-PR_TRUE
+true
 )
 {
 #
@@ -2418,7 +2418,7 @@ memory
 -
 pressure
 "
-PR_TRUE
+true
 )
 ;
 os
@@ -2434,7 +2434,7 @@ do
 -
 change
 "
-PR_TRUE
+true
 )
 ;
 os
@@ -2450,7 +2450,7 @@ flush
 -
 caches
 "
-PR_TRUE
+true
 )
 ;
 os
@@ -2468,7 +2468,7 @@ entry
 -
 added
 "
-PR_TRUE
+true
 )
 ;
 }

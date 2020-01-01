@@ -370,7 +370,7 @@ nsIAccessible
 (
 item
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -443,7 +443,7 @@ nsIAccessible
 (
 item
 )
-PR_FALSE
+false
 )
 ;
 }
@@ -1361,7 +1361,7 @@ INVISIBLE
 )
 isCollapsed
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -2332,7 +2332,7 @@ GetAllowsAnonChildAccessibles
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP

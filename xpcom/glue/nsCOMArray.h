@@ -357,7 +357,7 @@ aCapacity
 )
 )
 :
-PR_TRUE
+true
 ;
 }
 private

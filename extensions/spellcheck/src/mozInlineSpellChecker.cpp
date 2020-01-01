@@ -786,7 +786,7 @@ root
 *
 aContinue
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -855,7 +855,7 @@ rv
 *
 aContinue
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1275,7 +1275,7 @@ mSpellChecker
 >
 mNeedsCheckAfterNavigation
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -1682,7 +1682,7 @@ mMaxNumWordsInSpellSelection
 )
 mNeedsCheckAfterNavigation
 (
-PR_FALSE
+false
 )
 {
 nsCOMPtr
@@ -1901,7 +1901,7 @@ rv
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 bool
@@ -1923,7 +1923,7 @@ canSpellCheck
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 if
@@ -2048,8 +2048,8 @@ blur
 "
 )
 this
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 piTarget
@@ -2064,8 +2064,8 @@ click
 "
 )
 this
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 piTarget
@@ -2080,8 +2080,8 @@ keypress
 "
 )
 this
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 return
@@ -2174,7 +2174,7 @@ blur
 "
 )
 this
-PR_TRUE
+true
 )
 ;
 piTarget
@@ -2189,7 +2189,7 @@ click
 "
 )
 this
-PR_FALSE
+false
 )
 ;
 piTarget
@@ -2204,7 +2204,7 @@ keypress
 "
 )
 this
-PR_FALSE
+false
 )
 ;
 return
@@ -2262,7 +2262,7 @@ nsnull
 return
 Cleanup
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2362,7 +2362,7 @@ spellchecker
 InitSpellChecker
 (
 editor
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2499,7 +2499,7 @@ NS_OK
 ;
 mNeedsCheckAfterNavigation
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -3802,7 +3802,7 @@ checkSpelling
 *
 checkSpelling
 =
-PR_TRUE
+true
 ;
 NS_ENSURE_ARG_POINTER
 (
@@ -3938,7 +3938,7 @@ nsCaseInsensitiveStringComparator
 *
 checkSpelling
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -3999,7 +3999,7 @@ signature
 *
 checkSpelling
 =
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -4355,7 +4355,7 @@ endOffset
 *
 aDoneChecking
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -4760,7 +4760,7 @@ beginNode
 beginOffset
 endNode
 endOffset
-PR_TRUE
+true
 &
 ranges
 )
@@ -4994,7 +4994,7 @@ NS_OK
 *
 aDoneChecking
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -5325,7 +5325,7 @@ aNode
 aOffset
 aNode
 aOffset
-PR_TRUE
+true
 &
 ranges
 )
@@ -5793,7 +5793,7 @@ aPossibleDescendant
 aPossibleAncestor
 )
 return
-PR_TRUE
+true
 ;
 aPossibleDescendant
 =
@@ -5811,7 +5811,7 @@ aPossibleDescendant
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -6012,7 +6012,7 @@ aEvent
 {
 HandleNavigationEvent
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -6130,7 +6130,7 @@ DOM_VK_LEFT
 :
 HandleNavigationEvent
 (
-PR_FALSE
+false
 keyCode
 =
 =
@@ -6185,7 +6185,7 @@ DOM_VK_PAGE_DOWN
 :
 HandleNavigationEvent
 (
-PR_TRUE
+true
 )
 ;
 break

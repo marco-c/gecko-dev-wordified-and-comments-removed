@@ -401,7 +401,7 @@ PSMContentDownloader
 {
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 don
 '
@@ -1542,7 +1542,7 @@ SetPanic
 {
 isPanic
 =
-PR_TRUE
+true
 ;
 }
 static

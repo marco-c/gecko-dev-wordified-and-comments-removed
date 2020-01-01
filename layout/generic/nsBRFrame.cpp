@@ -575,7 +575,7 @@ ll
 >
 SetLineEndsInBR
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -880,7 +880,7 @@ offsets
 .
 associateWithNext
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -942,7 +942,7 @@ aOffset
 0
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
@@ -988,7 +988,7 @@ range
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1030,7 +1030,7 @@ range
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 #

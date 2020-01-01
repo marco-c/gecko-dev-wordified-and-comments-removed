@@ -154,7 +154,7 @@ gTried
 {
 gTried
 =
-PR_TRUE
+true
 ;
 HMODULE
 module
@@ -246,7 +246,7 @@ dw
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -284,7 +284,7 @@ dhw
 name_
 )
 return
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -316,7 +316,7 @@ undef
 INIT_PROC
 gInitialized
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -575,7 +575,7 @@ nsnull
 )
 mHooking
 (
-PR_TRUE
+true
 )
 {
 if
@@ -654,7 +654,7 @@ gLock
 ;
 mHooking
 =
-PR_FALSE
+false
 ;
 PatchAllModules
 (
@@ -881,7 +881,7 @@ mIgnoreModule
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 PIMAGE_IMPORT_DESCRIPTOR
@@ -898,7 +898,7 @@ PIMAGE_IMPORT_DESCRIPTOR
 dhwImageDirectoryEntryToData
 (
 aModule
-PR_TRUE
+true
 IMAGE_DIRECTORY_ENTRY_IMPORT
 &
 size
@@ -911,7 +911,7 @@ desc
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 for
@@ -972,7 +972,7 @@ Name
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 PIMAGE_THUNK_DATA
@@ -1130,7 +1130,7 @@ GetLastError
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 else
@@ -1149,7 +1149,7 @@ result
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -1213,7 +1213,7 @@ gLock
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 HMODULE

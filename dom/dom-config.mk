@@ -1,6 +1,3 @@
-MODULE
-=
-dom
 DOM_SRCDIRS
 =
 \

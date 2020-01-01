@@ -1805,7 +1805,7 @@ try
       
 self
 .
-checkCmd
+runCmd
 (
 [
 "
@@ -1814,6 +1814,12 @@ pull
 remoteFile
 localFile
 ]
+)
+.
+stdout
+.
+read
+(
 )
       
 f
@@ -2025,16 +2031,21 @@ readline
 (
 )
     
-ret
-.
-pop
+if
 (
 len
 (
 ret
 )
--
-1
+>
+0
+)
+:
+      
+ret
+.
+pop
+(
 )
     
 return

@@ -488,7 +488,7 @@ h
 #
 include
 "
-nsWidgetAtoms
+nsGkAtoms
 .
 h
 "
@@ -1605,11 +1605,11 @@ inContent
 AttrValueIs
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 hidden
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 _true
@@ -1623,11 +1623,11 @@ inContent
 AttrValueIs
 (
 kNameSpaceID_None
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 collapsed
-nsWidgetAtoms
+nsGkAtoms
 :
 :
 _true

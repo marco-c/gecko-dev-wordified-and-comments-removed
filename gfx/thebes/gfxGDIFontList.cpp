@@ -1,4 +1,13 @@
 #
+include
+"
+mozilla
+/
+Util
+.
+h
+"
+#
 ifdef
 MOZ_LOGGING
 #
@@ -677,11 +686,11 @@ aFontType
 )
 mForceGDI
 (
-PR_FALSE
+false
 )
 mUnknownCMAP
 (
-PR_FALSE
+false
 )
 mCharset
 (
@@ -714,7 +723,7 @@ IsType1
 )
 mForceGDI
 =
-PR_TRUE
+true
 ;
 mIsUserFont
 =
@@ -771,7 +780,7 @@ NS_OK
 ;
 mCmapInitialized
 =
-PR_TRUE
+true
 ;
 const
 PRUint32
@@ -1278,7 +1287,7 @@ NS_OK
 {
 mUnknownCMAP
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -1293,7 +1302,7 @@ aCh
 0xFFFF
 )
 return
-PR_FALSE
+false
 ;
 gfxFontStyle
 fakeStyle
@@ -1326,7 +1335,7 @@ FindOrMakeFont
 (
 &
 fakeStyle
-PR_FALSE
+false
 )
 ;
 if
@@ -1344,7 +1353,7 @@ Valid
 )
 )
 return
-PR_FALSE
+false
 ;
 gfxGDIFont
 *
@@ -1483,7 +1492,7 @@ MISSING_GLYPH
 {
 hasGlyph
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1517,7 +1526,7 @@ S_OK
 )
 hasGlyph
 =
-PR_TRUE
+true
 ;
 }
 SelectObject
@@ -1545,7 +1554,7 @@ aCh
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -1561,7 +1570,7 @@ aCh
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -2368,7 +2377,7 @@ return
 ;
 mHasStyles
 =
-PR_TRUE
+true
 ;
 HDC
 hdc
@@ -2704,7 +2713,7 @@ aliasName
 ;
 lenAlias
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 aliasName
 )
@@ -3304,14 +3313,14 @@ fe
 >
 mIsUserFont
 =
-PR_TRUE
+true
 ;
 fe
 -
 >
 mIsLocalUserFont
 =
-PR_TRUE
+true
 ;
 return
 fe
@@ -3959,7 +3968,7 @@ eotlen
 ;
 isEmbedded
 =
-PR_TRUE
+true
 ;
 PRUint32
 nameLen
@@ -4174,7 +4183,7 @@ newFontData
 ;
 isEmbedded
 =
-PR_FALSE
+false
 ;
 rv
 =
@@ -4368,7 +4377,7 @@ fe
 >
 mIsUserFont
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -4393,7 +4402,7 @@ fe
 >
 mForceGDI
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -4596,7 +4605,7 @@ Name
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -4609,7 +4618,7 @@ keyName
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -4623,9 +4632,9 @@ aResolvedFontName
 )
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }

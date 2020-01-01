@@ -147,7 +147,7 @@ frame
 =
 GetFrame
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -174,8 +174,8 @@ pm
 ShowMenu
 (
 content
-PR_FALSE
-PR_FALSE
+false
+false
 )
 ;
 }
@@ -232,9 +232,9 @@ popupFrame
 GetContent
 (
 )
-PR_FALSE
-PR_TRUE
-PR_FALSE
+false
+true
+false
 )
 ;
 }
@@ -268,7 +268,7 @@ frame
 =
 GetFrame
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -326,7 +326,7 @@ frame
 =
 GetFrame
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -384,7 +384,7 @@ aHandledFlag
 *
 aHandledFlag
 =
-PR_FALSE
+false
 ;
 NS_ENSURE_ARG
 (
@@ -469,7 +469,7 @@ frame
 =
 GetFrame
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -610,7 +610,7 @@ aOpenedWithKey
 *
 aOpenedWithKey
 =
-PR_FALSE
+false
 ;
 nsIFrame
 *
@@ -618,7 +618,7 @@ frame
 =
 GetFrame
 (
-PR_FALSE
+false
 )
 ;
 if

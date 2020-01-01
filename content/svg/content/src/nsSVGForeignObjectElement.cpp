@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -12,6 +21,10 @@ nsSVGForeignObjectElement
 .
 h
 "
+using
+namespace
+mozilla
+;
 nsSVGElement
 :
 :
@@ -357,7 +370,7 @@ FindAttributeDependence
 (
 name
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )
@@ -389,7 +402,7 @@ LengthAttributesInfo
 (
 mLengthAttributes
 sLengthInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sLengthInfo
 )

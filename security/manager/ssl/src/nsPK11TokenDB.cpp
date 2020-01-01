@@ -208,8 +208,8 @@ Trim
 (
 "
 "
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 const
@@ -261,8 +261,8 @@ Trim
 (
 "
 "
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 mTokenHWVersion
@@ -376,8 +376,8 @@ Trim
 (
 "
 "
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 }
@@ -894,7 +894,7 @@ srv
 PK11_Authenticate
 (
 mSlot
-PR_TRUE
+true
 mUIContext
 )
 ;
@@ -1167,7 +1167,7 @@ SECSuccess
 *
 _retval
 =
-PR_FALSE
+false
 ;
 prerr
 =
@@ -1193,7 +1193,7 @@ else
 *
 _retval
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -1932,8 +1932,8 @@ list
 PK11_GetAllTokens
 (
 CKM_INVALID_MECHANISM
-PR_FALSE
-PR_FALSE
+false
+false
 0
 )
 ;
@@ -1968,7 +1968,7 @@ PK11_GetNextSafe
 (
 list
 le
-PR_FALSE
+false
 )
 )
 {

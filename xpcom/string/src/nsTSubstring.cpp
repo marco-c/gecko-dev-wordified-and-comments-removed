@@ -188,7 +188,7 @@ capacity
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -214,7 +214,7 @@ mFlags
 F_VOIDED
 ;
 return
-PR_TRUE
+true
 ;
 }
 size_type
@@ -329,7 +329,7 @@ if
 newHdr
 )
 return
-PR_FALSE
+false
 ;
 hdr
 =
@@ -355,7 +355,7 @@ mFlags
 F_VOIDED
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -425,7 +425,7 @@ if
 newHdr
 )
 return
-PR_FALSE
+false
 ;
 newData
 =
@@ -467,7 +467,7 @@ newDataFlags
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -523,7 +523,7 @@ oldFlags
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -671,7 +671,7 @@ mLength
 newLen
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsTSubstring_CharT
@@ -825,7 +825,7 @@ F_OWNED
 )
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -851,7 +851,7 @@ IsReadonly
 )
 )
 return
-PR_TRUE
+true
 ;
 char_type
 *
@@ -1398,7 +1398,7 @@ else
 {
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1822,7 +1822,7 @@ oldFlags
 )
 )
 return
-PR_FALSE
+false
 ;
 size_type
 newLen
@@ -1885,7 +1885,7 @@ char_type
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 void

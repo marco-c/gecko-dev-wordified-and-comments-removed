@@ -395,7 +395,7 @@ mStringBundle
 }
 mIsSyntheticDocument
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -762,7 +762,7 @@ rv
 AppendChildTo
 (
 root
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -893,7 +893,7 @@ NS_LITERAL_STRING
 viewport
 "
 )
-PR_TRUE
+true
 )
 ;
 metaContent
@@ -923,7 +923,7 @@ height
 ;
 "
 )
-PR_TRUE
+true
 )
 ;
 head
@@ -932,7 +932,7 @@ head
 AppendChildTo
 (
 metaContent
-PR_FALSE
+false
 )
 ;
 root
@@ -941,7 +941,7 @@ root
 AppendChildTo
 (
 head
-PR_FALSE
+false
 )
 ;
 nodeInfo
@@ -1000,7 +1000,7 @@ root
 AppendChildTo
 (
 body
-PR_FALSE
+false
 )
 ;
 return
@@ -1017,7 +1017,7 @@ StartLayout
 {
 mMayStartLayout
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <

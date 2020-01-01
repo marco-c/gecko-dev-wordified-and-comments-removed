@@ -85,7 +85,7 @@ dir
 >
 Remove
 (
-PR_TRUE
+true
 )
 ;
 NS_RELEASE

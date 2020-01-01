@@ -372,7 +372,7 @@ STATE_INITIAL_LAUNCH
 )
 mPreventDefault
 (
-PR_FALSE
+false
 )
 {
 }
@@ -724,7 +724,7 @@ found
 *
 aResult
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -733,7 +733,7 @@ NS_OK
 *
 aResult
 =
-PR_TRUE
+true
 ;
 RemoveArguments
 (
@@ -797,7 +797,7 @@ aResult
 .
 SetIsVoid
 (
-PR_TRUE
+true
 )
 ;
 return

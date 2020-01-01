@@ -514,7 +514,7 @@ if
 buf
 )
 return
-PR_FALSE
+false
 ;
 AppendToBuffer
 (
@@ -523,7 +523,7 @@ nsnull
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsScannerString

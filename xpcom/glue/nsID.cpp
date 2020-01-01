@@ -196,7 +196,7 @@ A
 \
 else
 return
-PR_FALSE
+false
 #
 define
 PARSE_CHARS_TO_NUM
@@ -270,7 +270,7 @@ char_pointer
 '
 )
 return
-PR_FALSE
+false
 bool
 nsID
 :
@@ -290,7 +290,7 @@ aIDStr
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -417,7 +417,7 @@ aIDStr
 }
 '
 :
-PR_TRUE
+true
 ;
 }
 #

@@ -97,7 +97,7 @@ aLogFont
 :
 mOwnsFont
 (
-PR_FALSE
+false
 )
 {
 mFont
@@ -116,7 +116,7 @@ mFont
 {
 mOwnsFont
 =
-PR_TRUE
+true
 ;
 mDC
 =
@@ -154,7 +154,7 @@ aFont
 :
 mOwnsFont
 (
-PR_FALSE
+false
 )
 {
 mDC
@@ -471,7 +471,7 @@ IsEmpty
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -533,7 +533,7 @@ case
 FF_DONTCARE
 :
 return
-PR_FALSE
+false
 ;
 case
 FF_ROMAN
@@ -604,7 +604,7 @@ fantasy
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 virtual
@@ -633,7 +633,7 @@ x_unicode
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 PRInt16
@@ -915,7 +915,7 @@ bit
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 virtual

@@ -142,10 +142,10 @@ isOnline
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }

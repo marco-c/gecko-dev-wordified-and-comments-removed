@@ -1899,7 +1899,7 @@ nsCORSListenerProxy
 streamLoader
 principal
 channel
-PR_FALSE
+false
 &
 rv
 )
@@ -2005,7 +2005,7 @@ Count
 {
 modified
 =
-PR_TRUE
+true
 ;
 }
 mLoaders
@@ -2090,7 +2090,7 @@ Length
 {
 modified
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -2319,7 +2319,7 @@ i
 {
 aFontSetModified
 =
-PR_TRUE
+true
 ;
 }
 return
@@ -2818,7 +2818,7 @@ face
 >
 mIsLocal
 =
-PR_TRUE
+true
 ;
 face
 -
@@ -2844,7 +2844,7 @@ face
 >
 mIsLocal
 =
-PR_FALSE
+false
 ;
 face
 -
@@ -3269,7 +3269,7 @@ ruleRec
 }
 aFontSetModified
 =
-PR_TRUE
+true
 ;
 }
 }

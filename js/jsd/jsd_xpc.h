@@ -742,7 +742,7 @@ jsdService
 :
 mOn
 (
-PR_FALSE
+false
 )
 mPauseLevel
 (

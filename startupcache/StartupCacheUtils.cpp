@@ -552,7 +552,7 @@ Length
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -565,7 +565,7 @@ spec
 get
 (
 )
-PR_FALSE
+false
 base
 .
 Length
@@ -574,7 +574,7 @@ Length
 )
 )
 return
-PR_FALSE
+false
 ;
 out
 .
@@ -613,7 +613,7 @@ Length
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 NS_EXPORT

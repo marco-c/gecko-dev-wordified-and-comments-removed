@@ -888,7 +888,7 @@ FindRealWordContaining
 (
 textOffset
 HINT_END
-PR_TRUE
+true
 )
 ;
 return
@@ -919,7 +919,7 @@ BuildRealWords
 ;
 mSoftTextValid
 =
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -1040,7 +1040,7 @@ FindRealWordContaining
 (
 offset
 HINT_BEGIN
-PR_FALSE
+false
 )
 ;
 if
@@ -1225,7 +1225,7 @@ nsnull
 *
 aSkipChecking
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1457,7 +1457,7 @@ r
 '
 )
 return
-PR_TRUE
+true
 ;
 if
 (
@@ -1505,10 +1505,10 @@ ch
 )
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -1668,7 +1668,7 @@ aSeparatorOffset
 0
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -1680,7 +1680,7 @@ aNode
 )
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -1824,12 +1824,12 @@ aSeparatorOffset
 i
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 static
@@ -1861,7 +1861,7 @@ if
 element
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1871,7 +1871,7 @@ aNode
 )
 )
 return
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -1900,7 +1900,7 @@ if
 style
 )
 return
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -1983,7 +1983,7 @@ inline
 )
 )
 return
-PR_TRUE
+true
 ;
 nsAutoString
 position
@@ -2040,10 +2040,10 @@ static
 )
 )
 return
-PR_TRUE
+true
 ;
 return
-PR_FALSE
+false
 ;
 }
 struct
@@ -2107,7 +2107,7 @@ cl
 >
 mLeftBreakElement
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2294,7 +2294,7 @@ mNode
 {
 seenSoftEnd
 =
-PR_TRUE
+true
 ;
 }
 bool
@@ -2423,7 +2423,7 @@ i
 {
 exit
 =
-PR_TRUE
+true
 ;
 lastOffsetInNode
 =
@@ -2495,7 +2495,7 @@ closure
 =
 {
 mCSSView
-PR_FALSE
+false
 }
 ;
 node
@@ -3895,7 +3895,7 @@ mCurCharClass
 ClassifyCharacter
 (
 mDOMWordOffset
-PR_TRUE
+true
 )
 ;
 }
@@ -4007,7 +4007,7 @@ ClassifyCharacter
 i
 -
 1
-PR_FALSE
+false
 )
 =
 =
@@ -4033,7 +4033,7 @@ ClassifyCharacter
 i
 +
 1
-PR_FALSE
+false
 )
 =
 =
@@ -4088,7 +4088,7 @@ Length
 {
 foundDot
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -4330,11 +4330,11 @@ ch
 '
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -4369,7 +4369,7 @@ state
 ClassifyCharacter
 (
 0
-PR_TRUE
+true
 )
 ;
 while
@@ -4427,7 +4427,7 @@ state
 .
 mDOMWordOffset
 specialWordLength
-PR_FALSE
+false
 )
 )
 ;
@@ -4467,7 +4467,7 @@ ClassifyCharacter
 state
 .
 mDOMWordOffset
-PR_TRUE
+true
 )
 ;
 continue

@@ -6993,7 +6993,7 @@ toklen
 )
 is_old_Hellsoft
 =
-PR_TRUE
+true
 ;
 }
 }

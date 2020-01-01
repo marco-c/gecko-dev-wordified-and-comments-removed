@@ -121,7 +121,7 @@ aManager
 :
 mInvalidateAllLayers
 (
-PR_FALSE
+false
 )
 mLayerManager
 (
@@ -296,7 +296,7 @@ mNextFreeRecycledImageLayer
 )
 mInvalidateAllThebesContent
 (
-PR_FALSE
+false
 )
 {
 CollectOldLayers
@@ -325,7 +325,7 @@ SetInvalidateAllThebesContent
 {
 mInvalidateAllThebesContent
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -381,15 +381,15 @@ nsnull
 )
 mIsSolidColorInVisibleRegion
 (
-PR_FALSE
+false
 )
 mNeedComponentAlpha
 (
-PR_FALSE
+false
 )
 mForceTransparentSurface
 (
-PR_FALSE
+false
 )
 mImage
 (
@@ -878,11 +878,11 @@ mLayerState
 LAYER_ACTIVE_EMPTY
 )
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsTArray
@@ -1300,7 +1300,7 @@ data
 >
 mInvalidateAllLayers
 =
-PR_FALSE
+false
 ;
 NS_ASSERTION
 (
@@ -1892,7 +1892,7 @@ if
 array
 )
 return
-PR_FALSE
+false
 ;
 for
 (
@@ -1963,13 +1963,13 @@ gLayerManagerUserData
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 Layer
@@ -3764,7 +3764,7 @@ backgroundColor
 {
 isOpaque
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -4036,7 +4036,7 @@ IsEmpty
 )
 )
 return
-PR_FALSE
+false
 ;
 nsIFrame
 *
@@ -4078,7 +4078,7 @@ PresContext
 )
 )
 return
-PR_FALSE
+false
 ;
 for
 (
@@ -4110,7 +4110,7 @@ IsTransformed
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -4279,7 +4279,7 @@ uniformColor
 ;
 mIsSolidColorInVisibleRegion
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -4312,7 +4312,7 @@ else
 {
 mIsSolidColorInVisibleRegion
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -4320,7 +4320,7 @@ else
 {
 mIsSolidColorInVisibleRegion
 =
-PR_FALSE
+false
 ;
 }
 mVisibleRegion
@@ -4654,7 +4654,7 @@ else
 {
 mNeedComponentAlpha
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -6477,7 +6477,7 @@ entry
 >
 mHasExplicitLastPaintOffset
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -7121,7 +7121,7 @@ transform2d
 .
 ScaleFactors
 (
-PR_TRUE
+true
 )
 ;
 gfxMatrix
@@ -8139,7 +8139,7 @@ NS_FRAME_HAS_CONTAINER_LAYER_DESCENDANT
 )
 )
 return
-PR_FALSE
+false
 ;
 bool
 foundContainerLayer
@@ -8174,7 +8174,7 @@ ThebesLayerInvalidRegionProperty
 ;
 foundContainerLayer
 =
-PR_TRUE
+true
 ;
 }
 nsAutoTArray
@@ -8337,7 +8337,7 @@ get
 {
 foundContainerLayer
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -8419,7 +8419,7 @@ data
 >
 mInvalidateAllLayers
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -9490,7 +9490,7 @@ GetDOMGeneration
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -9498,12 +9498,12 @@ mDetectedDOMModification
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 mDetectedDOMModification
 =
-PR_TRUE
+true
 ;
 NS_WARNING
 (
@@ -9520,7 +9520,7 @@ out
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 #
@@ -9576,7 +9576,7 @@ mRoundedClipRects
 )
 mHaveClipRect
 (
-PR_TRUE
+true
 )
 {
 nsDisplayItem
@@ -9777,7 +9777,7 @@ aContext
 Rectangle
 (
 clip
-PR_TRUE
+true
 )
 ;
 aContext

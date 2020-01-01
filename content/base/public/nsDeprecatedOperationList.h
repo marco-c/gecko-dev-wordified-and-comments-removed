@@ -144,17 +144,5 @@ GlobalStorage
 )
 DEPRECATED_OPERATION
 (
-XmlVersion
-)
-DEPRECATED_OPERATION
-(
 InputEncoding
-)
-DEPRECATED_OPERATION
-(
-XmlStandalone
-)
-DEPRECATED_OPERATION
-(
-IsElementContentWhitespace
 )

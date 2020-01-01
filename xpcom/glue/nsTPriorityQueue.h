@@ -178,7 +178,7 @@ if
 elem
 )
 return
-PR_FALSE
+false
 ;
 size_type
 i
@@ -244,7 +244,7 @@ parent
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 T

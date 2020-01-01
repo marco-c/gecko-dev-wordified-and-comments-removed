@@ -692,7 +692,7 @@ path
 get
 (
 )
-PR_FALSE
+false
 aNeedMini
 _retval
 )
@@ -2914,7 +2914,7 @@ for
 (
 fSkip
 =
-PR_TRUE
+true
 pSrc
 =
 pDst
@@ -2988,7 +2988,7 @@ pDst
 ;
 fSkip
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3012,7 +3012,7 @@ pDst
 ;
 fSkip
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -3291,7 +3291,7 @@ info
 FindExtension
 (
 aExt
-PR_TRUE
+true
 )
 ;
 if
@@ -3556,7 +3556,7 @@ info
 FindExtension
 (
 aExt
-PR_TRUE
+true
 )
 ;
 if
@@ -4729,7 +4729,7 @@ quit
 -
 application
 "
-PR_FALSE
+false
 )
 ;
 return

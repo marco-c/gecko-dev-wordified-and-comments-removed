@@ -214,7 +214,7 @@ LockUntilChromeLoad
 {
 mLockedUntilChromeLoad
 =
-PR_TRUE
+true
 ;
 }
 bool
@@ -409,9 +409,6 @@ CreateNewChromeWindow
 (
 PRInt32
 aChromeFlags
-nsIAppShell
-*
-aAppShell
 nsIXULWindow
 *
 *
@@ -423,9 +420,6 @@ CreateNewContentWindow
 (
 PRInt32
 aChromeFlags
-nsIAppShell
-*
-aAppShell
 nsIXULWindow
 *
 *
@@ -600,9 +594,6 @@ mIgnoreXULSizeMode
 ;
 PRUint32
 mContextFlags
-;
-PRUint32
-mBlurSuppressionLevel
 ;
 PRUint32
 mPersistentAttributesDirty

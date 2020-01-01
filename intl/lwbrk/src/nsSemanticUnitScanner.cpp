@@ -102,7 +102,7 @@ pos
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -145,7 +145,7 @@ pos
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -244,7 +244,7 @@ next
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK

@@ -168,7 +168,7 @@ ClearDidSkip
 {
 mDidSkip
 =
-PR_FALSE
+false
 ;
 }
 protected

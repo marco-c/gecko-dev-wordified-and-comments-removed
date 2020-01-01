@@ -211,11 +211,11 @@ DontReuse
 {
 mKeepAliveMask
 =
-PR_FALSE
+false
 ;
 mKeepAlive
 =
-PR_FALSE
+false
 ;
 mIdleTimeout
 =

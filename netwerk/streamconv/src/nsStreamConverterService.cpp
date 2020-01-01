@@ -215,7 +215,7 @@ delete
 entry
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -968,7 +968,7 @@ if
 BFSTable
 )
 return
-PR_FALSE
+false
 ;
 BFSState
 *
@@ -983,7 +983,7 @@ if
 state
 )
 return
-PR_FALSE
+false
 ;
 state
 -
@@ -1034,7 +1034,7 @@ delete
 state
 ;
 return
-PR_FALSE
+false
 ;
 }
 data
@@ -1056,7 +1056,7 @@ data
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -1109,7 +1109,7 @@ delete
 data
 ;
 return
-PR_TRUE
+true
 ;
 }
 class

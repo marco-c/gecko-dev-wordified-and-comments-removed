@@ -369,7 +369,7 @@ Main
 endif
 mInitialized
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -400,7 +400,7 @@ thread
 ;
 mInitialized
 =
-PR_FALSE
+false
 ;
 NS_ProcessPendingEvents
 (

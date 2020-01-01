@@ -236,7 +236,7 @@ nsListItemFrame
 (
 aPresShell
 aContext
-PR_FALSE
+false
 layout
 )
 ;

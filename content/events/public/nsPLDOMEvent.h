@@ -107,7 +107,7 @@ aEvent
 )
 mDispatchChromeOnly
 (
-PR_FALSE
+false
 )
 {
 }

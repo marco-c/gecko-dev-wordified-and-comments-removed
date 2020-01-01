@@ -37,7 +37,7 @@ mTime
 )
 mIsEnd
 (
-PR_FALSE
+false
 )
 {
 }

@@ -180,12 +180,12 @@ i
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -210,7 +210,7 @@ Length
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -252,7 +252,7 @@ X
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 for
@@ -288,12 +288,12 @@ i
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -318,7 +318,7 @@ Length
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -335,7 +335,7 @@ num
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 for
@@ -393,12 +393,12 @@ i
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 nsUrlClassifierUtils
@@ -696,7 +696,7 @@ cleaned
 SpecialEncode
 (
 cleaned
-PR_FALSE
+false
 _retval
 )
 ;
@@ -770,7 +770,7 @@ Truncate
 SpecialEncode
 (
 decodedPath
-PR_TRUE
+true
 _retval
 )
 ;
@@ -1232,7 +1232,7 @@ j
 {
 allowOctal
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -1734,7 +1734,7 @@ c
 ;
 changed
 =
-PR_TRUE
+true
 ;
 }
 else

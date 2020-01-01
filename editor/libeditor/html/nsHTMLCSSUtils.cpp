@@ -904,8 +904,8 @@ ProcessBValue
 nsnull
 nsnull
 nsnull
-PR_TRUE
-PR_FALSE
+true
+false
 }
 {
 nsHTMLCSSUtils
@@ -937,8 +937,8 @@ italic
 "
 nsnull
 nsnull
-PR_TRUE
-PR_FALSE
+true
+false
 }
 {
 nsHTMLCSSUtils
@@ -970,8 +970,8 @@ underline
 "
 nsnull
 nsnull
-PR_TRUE
-PR_FALSE
+true
+false
 }
 {
 nsHTMLCSSUtils
@@ -1005,8 +1005,8 @@ through
 "
 nsnull
 nsnull
-PR_TRUE
-PR_FALSE
+true
+false
 }
 {
 nsHTMLCSSUtils
@@ -1038,8 +1038,8 @@ monospace
 "
 nsnull
 nsnull
-PR_TRUE
-PR_FALSE
+true
+false
 }
 {
 nsHTMLCSSUtils
@@ -1069,8 +1069,8 @@ ProcessSameValue
 nsnull
 nsnull
 nsnull
-PR_TRUE
-PR_FALSE
+true
+false
 }
 {
 nsHTMLCSSUtils
@@ -1100,8 +1100,8 @@ ProcessSameValue
 nsnull
 nsnull
 nsnull
-PR_TRUE
-PR_FALSE
+true
+false
 }
 {
 nsHTMLCSSUtils
@@ -1131,8 +1131,8 @@ ProcessSameValue
 nsnull
 nsnull
 nsnull
-PR_TRUE
-PR_FALSE
+true
+false
 }
 {
 nsHTMLCSSUtils
@@ -1167,8 +1167,8 @@ url
 "
 )
 "
-PR_TRUE
-PR_TRUE
+true
+true
 }
 {
 nsHTMLCSSUtils
@@ -1198,8 +1198,8 @@ ProcessSameValue
 nsnull
 nsnull
 nsnull
-PR_TRUE
-PR_FALSE
+true
+false
 }
 {
 nsHTMLCSSUtils
@@ -1232,8 +1232,8 @@ nsnull
 px
 solid
 "
-PR_TRUE
-PR_FALSE
+true
+false
 }
 {
 nsHTMLCSSUtils
@@ -1263,8 +1263,8 @@ ProcessSameValue
 nsnull
 nsnull
 nsnull
-PR_TRUE
-PR_FALSE
+true
+false
 }
 {
 nsHTMLCSSUtils
@@ -1294,8 +1294,8 @@ ProcessSameValue
 nsnull
 nsnull
 nsnull
-PR_TRUE
-PR_FALSE
+true
+false
 }
 {
 nsHTMLCSSUtils
@@ -1325,8 +1325,8 @@ ProcessSameValue
 nsnull
 nsnull
 nsnull
-PR_TRUE
-PR_FALSE
+true
+false
 }
 {
 nsHTMLCSSUtils
@@ -1358,8 +1358,8 @@ nowrap
 "
 nsnull
 nsnull
-PR_TRUE
-PR_FALSE
+true
+false
 }
 {
 nsHTMLCSSUtils
@@ -1389,8 +1389,8 @@ ProcessLengthValue
 nsnull
 nsnull
 nsnull
-PR_TRUE
-PR_FALSE
+true
+false
 }
 {
 nsHTMLCSSUtils
@@ -1420,8 +1420,8 @@ ProcessLengthValue
 nsnull
 nsnull
 nsnull
-PR_TRUE
-PR_FALSE
+true
+false
 }
 {
 nsHTMLCSSUtils
@@ -1451,8 +1451,8 @@ ProcessListStyleTypeValue
 nsnull
 nsnull
 nsnull
-PR_TRUE
-PR_TRUE
+true
+true
 }
 {
 nsHTMLCSSUtils
@@ -1484,8 +1484,8 @@ left
 "
 nsnull
 nsnull
-PR_FALSE
-PR_FALSE
+false
+false
 }
 {
 nsHTMLCSSUtils
@@ -1496,8 +1496,8 @@ ProcessMarginLeftValue
 nsnull
 nsnull
 nsnull
-PR_TRUE
-PR_FALSE
+true
+false
 }
 {
 nsHTMLCSSUtils
@@ -1508,8 +1508,8 @@ ProcessMarginRightValue
 nsnull
 nsnull
 nsnull
-PR_TRUE
-PR_FALSE
+true
+false
 }
 {
 nsHTMLCSSUtils
@@ -1539,8 +1539,8 @@ ProcessMarginLeftValue
 nsnull
 nsnull
 nsnull
-PR_TRUE
-PR_FALSE
+true
+false
 }
 {
 nsHTMLCSSUtils
@@ -1551,8 +1551,8 @@ ProcessMarginRightValue
 nsnull
 nsnull
 nsnull
-PR_TRUE
-PR_FALSE
+true
+false
 }
 {
 nsHTMLCSSUtils
@@ -1579,7 +1579,7 @@ aEditor
 )
 mIsCSSPrefChecked
 (
-PR_FALSE
+false
 )
 {
 mIsCSSPrefChecked
@@ -1687,7 +1687,7 @@ node
 NS_ENSURE_TRUE
 (
 content
-PR_FALSE
+false
 )
 ;
 nsIAtom
@@ -1789,7 +1789,7 @@ face
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -1939,7 +1939,7 @@ tagName
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -2035,7 +2035,7 @@ tagName
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -2090,7 +2090,7 @@ bgcolor
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -2110,7 +2110,7 @@ bgcolor
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -2178,7 +2178,7 @@ nowrap
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -2222,7 +2222,7 @@ width
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -2266,7 +2266,7 @@ width
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -2315,7 +2315,7 @@ type
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -2368,7 +2368,7 @@ height
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -2471,11 +2471,11 @@ tagName
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -2516,7 +2516,7 @@ getter_AddRefs
 (
 txn
 )
-PR_FALSE
+false
 )
 ;
 if
@@ -2643,7 +2643,7 @@ getter_AddRefs
 (
 txn
 )
-PR_TRUE
+true
 )
 ;
 if
@@ -3246,7 +3246,7 @@ RemoveCSSProperty
 elem
 aProperty
 aPropertyValue
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3922,7 +3922,7 @@ c
 {
 floatingPointFound
 =
-PR_TRUE
+true
 ;
 a
 =
@@ -5170,7 +5170,7 @@ aAttribute
 aValue
 cssPropertyArray
 cssValueArray
-PR_FALSE
+false
 )
 ;
 *
@@ -5319,7 +5319,7 @@ aAttribute
 aValue
 cssPropertyArray
 cssValueArray
-PR_TRUE
+true
 )
 ;
 count
@@ -5400,7 +5400,7 @@ isIdSet
 ;
 aReturn
 =
-PR_FALSE
+false
 ;
 nsresult
 res
@@ -5605,7 +5605,7 @@ aAttribute
 nsnull
 cssPropertyArray
 cssValueArray
-PR_TRUE
+true
 )
 ;
 PRInt32
@@ -5726,7 +5726,7 @@ valueString
 ;
 aIsSet
 =
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -5805,7 +5805,7 @@ boldStr
 {
 aIsSet
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -5823,7 +5823,7 @@ normal
 {
 aIsSet
 =
-PR_FALSE
+false
 ;
 }
 else
@@ -5841,7 +5841,7 @@ bolder
 {
 aIsSet
 =
-PR_TRUE
+true
 ;
 valueString
 .
@@ -5887,7 +5887,7 @@ weight
 {
 aIsSet
 =
-PR_TRUE
+true
 ;
 valueString
 .
@@ -5901,7 +5901,7 @@ else
 {
 aIsSet
 =
-PR_FALSE
+false
 ;
 valueString
 .
@@ -5951,7 +5951,7 @@ oblique
 {
 aIsSet
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -6088,7 +6088,7 @@ IsEmpty
 )
 aIsSet
 =
-PR_TRUE
+true
 ;
 else
 {
@@ -6453,14 +6453,14 @@ align
 {
 aIsSet
 =
-PR_TRUE
+true
 ;
 }
 else
 {
 aIsSet
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -6491,7 +6491,7 @@ nsCaseInsensitiveStringComparator
 {
 aIsSet
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -6733,7 +6733,7 @@ isSecondIDSet
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsAutoString
@@ -6802,7 +6802,7 @@ secondClass
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -6816,7 +6816,7 @@ isSecondClassSet
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -6855,7 +6855,7 @@ res
 firstCSSDecl
 )
 return
-PR_FALSE
+false
 ;
 res
 =
@@ -6882,7 +6882,7 @@ res
 secondCSSDecl
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -6893,7 +6893,7 @@ secondLength
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 else
@@ -6906,7 +6906,7 @@ firstLength
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 PRUint32
@@ -6973,7 +6973,7 @@ secondValue
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -7031,12 +7031,12 @@ secondValue
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 nsresult

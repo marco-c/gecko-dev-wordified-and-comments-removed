@@ -175,7 +175,7 @@ NS_ConvertUTF8toUTF16
 (
 path
 )
-PR_TRUE
+true
 getter_AddRefs
 (
 file
@@ -332,7 +332,7 @@ u
 :
 gUnreg
 =
-PR_TRUE
+true
 ;
 break
 ;

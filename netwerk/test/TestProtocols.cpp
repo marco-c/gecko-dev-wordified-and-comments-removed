@@ -1157,7 +1157,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -1549,7 +1549,7 @@ buf
 *
 _retval
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1587,7 +1587,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_ERROR_NOT_IMPLEMENTED
@@ -2673,7 +2673,7 @@ httpStatus
 ;
 bHTTPURL
 =
-PR_TRUE
+true
 ;
 }
 LOG
@@ -3332,7 +3332,7 @@ timed
 >
 SetTimingEnabled
 (
-PR_TRUE
+true
 )
 ;
 nsCOMPtr
@@ -3434,7 +3434,7 @@ Sample
 Value
 "
 )
-PR_FALSE
+false
 )
 ;
 if
@@ -4093,7 +4093,7 @@ q
 )
 gAskUserForInput
 =
-PR_FALSE
+false
 ;
 else
 StartLoadingURL
@@ -4321,7 +4321,7 @@ verbose
 {
 gVerbose
 =
-PR_TRUE
+true
 ;
 continue
 ;
@@ -4377,7 +4377,7 @@ console
 {
 gAskUserForInput
 =
-PR_TRUE
+true
 ;
 continue
 ;
@@ -4402,7 +4402,7 @@ resume
 {
 gResume
 =
-PR_TRUE
+true
 ;
 PR_sscanf
 (

@@ -730,7 +730,7 @@ if
 aWindow
 )
 return
-PR_TRUE
+true
 ;
 NSWindow
 *
@@ -753,7 +753,7 @@ isMainWindow
 ;
 NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -1191,7 +1191,7 @@ destX
 destY
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -1220,7 +1220,7 @@ destY
 sourceY
 ;
 return
-PR_TRUE
+true
 ;
 }
 NSView
@@ -1383,7 +1383,7 @@ break
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 /
@@ -1520,7 +1520,7 @@ break
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -1546,6 +1546,6 @@ destPoint
 y
 ;
 return
-PR_TRUE
+true
 ;
 }

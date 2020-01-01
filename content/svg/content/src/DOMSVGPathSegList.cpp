@@ -889,7 +889,7 @@ Element
 >
 DidChangePathSegList
 (
-PR_TRUE
+true
 )
 ;
 #
@@ -1326,7 +1326,7 @@ Element
 >
 DidChangePathSegList
 (
-PR_TRUE
+true
 )
 ;
 #
@@ -1652,7 +1652,7 @@ Element
 >
 DidChangePathSegList
 (
-PR_TRUE
+true
 )
 ;
 #
@@ -1847,7 +1847,7 @@ Element
 >
 DidChangePathSegList
 (
-PR_TRUE
+true
 )
 ;
 #

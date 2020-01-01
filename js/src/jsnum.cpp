@@ -188,13 +188,6 @@ h
 #
 include
 "
-jsvector
-.
-h
-"
-#
-include
-"
 jslibmath
 .
 h

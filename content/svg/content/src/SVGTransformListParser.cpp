@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 SVGTransformListParser
 .
 h
@@ -398,7 +407,7 @@ getter_AddRefs
 (
 keyatom
 )
-PR_TRUE
+true
 )
 ;
 if
@@ -565,7 +574,7 @@ getter_AddRefs
 (
 keyatom
 )
-PR_FALSE
+false
 )
 ;
 if
@@ -577,7 +586,7 @@ rv
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -637,11 +646,11 @@ matrix
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -803,7 +812,7 @@ ENSURE_MATCHED
 MatchNumberArguments
 (
 t
-NS_ARRAY_LENGTH
+ArrayLength
 (
 t
 )
@@ -903,7 +912,7 @@ ENSURE_MATCHED
 MatchNumberArguments
 (
 s
-NS_ARRAY_LENGTH
+ArrayLength
 (
 s
 )
@@ -1004,7 +1013,7 @@ ENSURE_MATCHED
 MatchNumberArguments
 (
 r
-NS_ARRAY_LENGTH
+ArrayLength
 (
 r
 )
@@ -1253,7 +1262,7 @@ ENSURE_MATCHED
 MatchNumberArguments
 (
 m
-NS_ARRAY_LENGTH
+ArrayLength
 (
 m
 )

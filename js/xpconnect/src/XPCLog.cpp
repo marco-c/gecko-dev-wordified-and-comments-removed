@@ -64,7 +64,7 @@ PRLogModuleInfo
 *
 g_LogMod
 =
-nullptr
+nsnull
 ;
 static
 bool
@@ -164,7 +164,7 @@ g_Spaces
 ;
 g_LogMod
 =
-nullptr
+nsnull
 ;
 }
 g_InitState
@@ -440,9 +440,9 @@ obj
 xpc_DumpJSStack
 (
 cx
-false
-false
-false
+JS_FALSE
+JS_FALSE
+JS_FALSE
 )
 ;
 }
@@ -466,7 +466,7 @@ char
 *
 className
 =
-nullptr
+nsnull
 ;
 nsCOMPtr
 <
@@ -556,9 +556,9 @@ cx
 xpc_DumpJSStack
 (
 cx
-false
-false
-false
+JS_FALSE
+JS_FALSE
+JS_FALSE
 )
 ;
 }

@@ -471,6 +471,10 @@ IPDLUnitTestProcessChild
 #
 endif
 using
+namespace
+mozilla
+;
+using
 mozilla
 :
 :
@@ -954,7 +958,7 @@ i
 (
 int
 )
-NS_ARRAY_LENGTH
+ArrayLength
 (
 kGeckoProcessTypeString
 )
@@ -2897,7 +2901,7 @@ init
 aCx
 aCommand
 )
-NS_ERROR_FAILURE
+false
 )
 ;
 if

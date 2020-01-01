@@ -155,12 +155,12 @@ nsBoxFrame
 (
 aPresShell
 aContext
-PR_FALSE
+false
 )
 {
 mTrackingMouseMove
 =
-PR_FALSE
+false
 ;
 UpdateMouseThrough
 (
@@ -375,7 +375,7 @@ typeChrome
 {
 mTrackingMouseMove
 =
-PR_TRUE
+true
 ;
 nsIPresShell
 :
@@ -404,7 +404,7 @@ nsEventStatus_eConsumeNoDefault
 ;
 doDefault
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -449,7 +449,7 @@ eLeftButton
 {
 mTrackingMouseMove
 =
-PR_FALSE
+false
 ;
 nsIPresShell
 :
@@ -467,7 +467,7 @@ nsEventStatus_eConsumeNoDefault
 ;
 doDefault
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -592,7 +592,7 @@ y
 nsMoveBy
 .
 y
-PR_FALSE
+false
 )
 ;
 }
@@ -652,7 +652,7 @@ nsEventStatus_eConsumeNoDefault
 ;
 doDefault
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -726,7 +726,7 @@ NS_IS_TRUSTED_EVENT
 aEvent
 )
 :
-PR_FALSE
+false
 )
 ;
 }

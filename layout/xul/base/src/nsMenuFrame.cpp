@@ -307,7 +307,7 @@ static
 PRInt32
 gEatMouseMove
 =
-PR_FALSE
+false
 ;
 const
 PRInt32
@@ -378,7 +378,7 @@ NS_LITERAL_STRING
 true
 "
 )
-PR_TRUE
+true
 )
 ;
 domEventToFire
@@ -403,7 +403,7 @@ nsGkAtoms
 :
 :
 menuactive
-PR_TRUE
+true
 )
 ;
 domEventToFire
@@ -453,8 +453,8 @@ event
 InitEvent
 (
 domEventToFire
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 nsCOMPtr
@@ -474,7 +474,7 @@ privateEvent
 >
 SetTrusted
 (
-PR_TRUE
+true
 )
 ;
 nsEventDispatcher
@@ -618,7 +618,7 @@ frame
 >
 BuildAcceleratorText
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -639,7 +639,7 @@ frame
 >
 BuildAcceleratorText
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -730,7 +730,7 @@ it
 >
 SetIsMenu
 (
-PR_TRUE
+true
 )
 ;
 return
@@ -772,7 +772,7 @@ it
 >
 SetIsMenu
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -815,15 +815,15 @@ aContext
 )
 mIsMenu
 (
-PR_FALSE
+false
 )
 mChecked
 (
-PR_FALSE
+false
 )
 mIgnoreAccelTextChange
 (
-PR_FALSE
+false
 )
 mType
 (
@@ -1050,7 +1050,7 @@ PresContext
 ;
 shouldFlush
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -1132,7 +1132,7 @@ aParent
 ;
 BuildAcceleratorText
 (
-PR_FALSE
+false
 )
 ;
 nsIReflowCallback
@@ -1433,7 +1433,7 @@ nsGkAtoms
 :
 :
 menuactive
-PR_FALSE
+false
 )
 ;
 if
@@ -1713,7 +1713,7 @@ nsEventStatus_eConsumeNoDefault
 ;
 OpenMenu
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -1853,7 +1853,7 @@ IsOpen
 {
 OpenMenu
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2114,7 +2114,7 @@ mMenuParent
 ChangeMenuItem
 (
 nsnull
-PR_FALSE
+false
 )
 ;
 }
@@ -2158,7 +2158,7 @@ gEatMouseMove
 {
 gEatMouseMove
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2170,7 +2170,7 @@ mMenuParent
 ChangeMenuItem
 (
 this
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_TRUE
@@ -2309,13 +2309,13 @@ IsOpen
 )
 CloseMenu
 (
-PR_FALSE
+false
 )
 ;
 else
 OpenMenu
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2349,7 +2349,7 @@ NS_LITERAL_STRING
 true
 "
 )
-PR_TRUE
+true
 )
 ;
 if
@@ -2373,7 +2373,7 @@ mMenuParent
 >
 SetActive
 (
-PR_TRUE
+true
 )
 ;
 mMenuParent
@@ -2449,7 +2449,7 @@ aDeselectMenu
 {
 SelectMenu
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -2489,7 +2489,7 @@ GetContent
 PresContext
 (
 )
-PR_TRUE
+true
 )
 ;
 NS_DispatchToCurrentThread
@@ -2746,7 +2746,7 @@ mIgnoreAccelTextChange
 {
 mIgnoreAccelTextChange
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2844,7 +2844,7 @@ return
 ;
 gEatMouseMove
 =
-PR_TRUE
+true
 ;
 nsXULPopupManager
 *
@@ -2876,7 +2876,7 @@ ShowMenu
 (
 mContent
 aSelectFirstItem
-PR_TRUE
+true
 )
 ;
 }
@@ -2893,7 +2893,7 @@ aDeselectMenu
 {
 gEatMouseMove
 =
-PR_TRUE
+true
 ;
 nsXULPopupManager
 *
@@ -2924,9 +2924,9 @@ mPopupFrame
 GetContent
 (
 )
-PR_FALSE
+false
 aDeselectMenu
-PR_TRUE
+true
 )
 ;
 }
@@ -2963,7 +2963,7 @@ select
 )
 sizeToPopup
 =
-PR_TRUE
+true
 ;
 else
 {
@@ -3048,7 +3048,7 @@ if
 IsSizedToPopup
 (
 mContent
-PR_TRUE
+true
 )
 )
 SizeToPopup
@@ -3318,9 +3318,9 @@ popup
 GetContent
 (
 )
-PR_TRUE
-PR_TRUE
-PR_TRUE
+true
+true
+true
 )
 ;
 }
@@ -3590,7 +3590,7 @@ eCaseMatters
 {
 OpenMenu
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -3661,7 +3661,7 @@ NS_LITERAL_STRING
 true
 "
 )
-PR_TRUE
+true
 )
 ;
 if
@@ -3702,7 +3702,7 @@ mMenuParent
 >
 LockMenuUntilClosed
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -3857,7 +3857,7 @@ nsGkAtoms
 :
 :
 checked
-PR_TRUE
+true
 )
 ;
 ENSURE_TRUE
@@ -4068,7 +4068,7 @@ nsGkAtoms
 :
 :
 checked
-PR_TRUE
+true
 )
 ;
 return
@@ -4826,7 +4826,7 @@ accelString
 ;
 mIgnoreAccelTextChange
 =
-PR_TRUE
+true
 ;
 mContent
 -
@@ -4853,7 +4853,7 @@ IsAlive
 ;
 mIgnoreAccelTextChange
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -4984,7 +4984,7 @@ if
 shouldBlink
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -4996,10 +4996,10 @@ GetParentMenuListType
 eEditableMenuList
 )
 return
-PR_FALSE
+false
 ;
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -5056,7 +5056,7 @@ nsGkAtoms
 :
 :
 menuactive
-PR_TRUE
+true
 )
 ;
 if
@@ -5080,7 +5080,7 @@ mMenuParent
 >
 LockMenuUntilClosed
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -5733,7 +5733,7 @@ if
 mPopupFrame
 )
 return
-PR_FALSE
+false
 ;
 tmpSize
 =
@@ -5812,12 +5812,12 @@ scrollbarWidth
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 nsSize
@@ -5854,14 +5854,14 @@ if
 IsSizedToPopup
 (
 mContent
-PR_TRUE
+true
 )
 &
 &
 IsSizedToPopup
 (
 mContent
-PR_FALSE
+false
 )
 &
 &
@@ -6014,7 +6014,7 @@ mPopupFrame
 ChangeMenuItem
 (
 nsnull
-PR_FALSE
+false
 )
 ;
 return
@@ -6075,7 +6075,7 @@ nsMenuFrame
 (
 kid
 )
-PR_FALSE
+false
 )
 ;
 return

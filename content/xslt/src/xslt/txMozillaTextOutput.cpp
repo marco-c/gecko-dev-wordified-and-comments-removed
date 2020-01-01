@@ -327,7 +327,7 @@ text
 SetText
 (
 mText
-PR_FALSE
+false
 )
 ;
 rv
@@ -338,7 +338,7 @@ mTextParent
 AppendChildTo
 (
 text
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -692,7 +692,7 @@ nsGkAtoms
 :
 transformiix
 namespaceID
-PR_FALSE
+false
 getter_AddRefs
 (
 mTextParent
@@ -713,7 +713,7 @@ mDocument
 AppendChildTo
 (
 mTextParent
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -781,7 +781,7 @@ html
 AppendChildTo
 (
 head
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -818,7 +818,7 @@ html
 AppendChildTo
 (
 body
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -865,7 +865,7 @@ NS_LITERAL_STRING
 transformiixResult
 "
 )
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -882,7 +882,7 @@ body
 AppendChildTo
 (
 mTextParent
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -899,7 +899,7 @@ mDocument
 AppendChildTo
 (
 html
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS

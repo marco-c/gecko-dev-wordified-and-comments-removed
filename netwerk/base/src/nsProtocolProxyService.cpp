@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsProtocolProxyService
 .
 h
@@ -152,6 +161,10 @@ nsPACMan
 .
 h
 "
+using
+namespace
+mozilla
+;
 #
 include
 "
@@ -272,7 +285,7 @@ NS_OK
 )
 mDispatched
 (
-PR_FALSE
+false
 )
 mResolveFlags
 (
@@ -414,7 +427,7 @@ else
 {
 mDispatched
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1028,7 +1041,7 @@ rv
 )
 aResult
 =
-PR_FALSE
+false
 ;
 else
 aResult
@@ -1090,7 +1103,7 @@ nsProtocolProxyService
 :
 mFilterLocalHosts
 (
-PR_FALSE
+false
 )
 mFilters
 (
@@ -1126,7 +1139,7 @@ mSOCKSProxyVersion
 )
 mSOCKSProxyRemoteDNS
 (
-PR_FALSE
+false
 )
 mPACMan
 (
@@ -1231,7 +1244,7 @@ AddObserver
 (
 PROXY_PREF_BRANCH
 this
-PR_FALSE
+false
 )
 ;
 PrefsChanged
@@ -1268,7 +1281,7 @@ AddObserver
 (
 this
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
-PR_FALSE
+false
 )
 ;
 return
@@ -1561,7 +1574,7 @@ type
 ;
 reloadPAC
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -2044,7 +2057,7 @@ autoconfig_url
 )
 reloadPAC
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -2127,7 +2140,7 @@ IsEmpty
 ConfigureFromPAC
 (
 tempString
-PR_FALSE
+false
 )
 ;
 }
@@ -2157,7 +2170,7 @@ Length
 0
 )
 return
-PR_TRUE
+true
 ;
 PRInt32
 port
@@ -2191,7 +2204,7 @@ IsEmpty
 )
 )
 return
-PR_FALSE
+false
 ;
 rv
 =
@@ -2212,7 +2225,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -2322,7 +2335,7 @@ family
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -2378,7 +2391,7 @@ get
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 PRInt32
@@ -2496,7 +2509,7 @@ PRIPv6Addr
 0
 )
 return
-PR_FALSE
+false
 ;
 }
 else
@@ -2559,13 +2572,13 @@ filter_host_len
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -3354,7 +3367,7 @@ val
 )
 )
 return
-PR_FALSE
+false
 ;
 PRUint32
 dsec
@@ -3378,11 +3391,11 @@ key
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -3720,7 +3733,7 @@ IsEmpty
 ConfigureFromPAC
 (
 pacSpec
-PR_TRUE
+true
 )
 ;
 return
@@ -4169,7 +4182,7 @@ i
 ;
 i
 <
-NS_ARRAY_LENGTH
+ArrayLength
 (
 types
 )
@@ -4707,7 +4720,7 @@ return
 ;
 mFilterLocalHosts
 =
-PR_FALSE
+false
 ;
 while
 (
@@ -4888,7 +4901,7 @@ local
 {
 mFilterLocalHosts
 =
-PR_TRUE
+true
 ;
 LOG
 (
@@ -4967,7 +4980,7 @@ hinfo
 >
 is_ipaddr
 =
-PR_TRUE
+true
 ;
 hinfo
 -
@@ -5184,7 +5197,7 @@ hinfo
 >
 is_ipaddr
 =
-PR_FALSE
+false
 ;
 hinfo
 -
@@ -5761,7 +5774,7 @@ uri
 *
 usePAC
 =
-PR_FALSE
+false
 ;
 *
 result
@@ -5874,7 +5887,7 @@ rv
 ConfigureFromPAC
 (
 PACURI
-PR_FALSE
+false
 )
 ;
 if
@@ -5939,7 +5952,7 @@ PROXYCONFIG_SYSTEM
 *
 usePAC
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -6637,7 +6650,7 @@ iter
 {
 allDisabled
 =
-PR_FALSE
+false
 ;
 break
 ;

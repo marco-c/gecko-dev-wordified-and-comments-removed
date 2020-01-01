@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 DOMSVGPathSeg
 .
 h
@@ -204,7 +213,7 @@ mListIndex
 )
 mIsAnimValItem
 (
-PR_FALSE
+false
 )
 {
 }
@@ -365,7 +374,7 @@ nsnull
 ;
 mIsAnimValItem
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -576,7 +585,7 @@ segType
 \
 NS_ABORT_IF_FALSE
 (
-NS_ARRAY_LENGTH
+ArrayLength
 (
 mArgs
 )
@@ -936,7 +945,7 @@ HasOwner
 )
 =
 =
-PR_FALSE
+false
 *
 /
 \
@@ -1071,7 +1080,7 @@ Element
 >
 DidChangePathSegList
 (
-PR_TRUE
+true
 )
 ;
 \

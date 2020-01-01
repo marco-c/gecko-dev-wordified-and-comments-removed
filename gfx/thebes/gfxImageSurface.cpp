@@ -40,7 +40,7 @@ mSize
 )
 mOwnsData
 (
-PR_FALSE
+false
 )
 mFormat
 (
@@ -100,7 +100,7 @@ csurf
 ;
 mOwnsData
 =
-PR_FALSE
+false
 ;
 mStride
 =
@@ -112,7 +112,7 @@ csurf
 Init
 (
 csurf
-PR_TRUE
+true
 )
 ;
 }
@@ -197,7 +197,7 @@ aSize
 ;
 mOwnsData
 =
-PR_FALSE
+false
 ;
 mData
 =
@@ -330,7 +330,7 @@ size
 )
 mOwnsData
 (
-PR_FALSE
+false
 )
 mData
 (
@@ -407,7 +407,7 @@ mStride
 }
 mOwnsData
 =
-PR_TRUE
+true
 ;
 cairo_surface_t
 *
@@ -509,7 +509,7 @@ csurf
 ;
 mOwnsData
 =
-PR_FALSE
+false
 ;
 mStride
 =
@@ -521,7 +521,7 @@ csurf
 Init
 (
 csurf
-PR_TRUE
+true
 )
 ;
 }
@@ -707,7 +707,7 @@ mSize
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -758,7 +758,7 @@ ImageFormatARGB32
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -857,7 +857,7 @@ lineSize
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 already_AddRefed

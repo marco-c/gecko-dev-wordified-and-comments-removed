@@ -256,7 +256,7 @@ ImageFormatUnknown
 )
 mDelayedConversion
 (
-PR_FALSE
+false
 )
 {
 }
@@ -774,7 +774,7 @@ ImageFormatUnknown
 )
 mDelayed
 (
-PR_FALSE
+false
 )
 {
 }
@@ -959,12 +959,12 @@ aFormat
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 already_AddRefed
@@ -1333,11 +1333,11 @@ LAYERS_BASIC
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 already_AddRefed

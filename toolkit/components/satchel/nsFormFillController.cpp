@@ -265,23 +265,23 @@ mMaxRows
 )
 mDisableAutoComplete
 (
-PR_FALSE
+false
 )
 mCompleteDefaultIndex
 (
-PR_FALSE
+false
 )
 mCompleteSelectedIndex
 (
-PR_FALSE
+false
 )
 mForceComplete
 (
-PR_FALSE
+false
 )
 mSuppressOnInput
 (
-PR_FALSE
+false
 )
 {
 mController
@@ -877,7 +877,7 @@ else
 *
 aPopupOpen
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1240,7 +1240,7 @@ aShowImageColumn
 *
 aShowImageColumn
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1274,7 +1274,7 @@ aShowCommentColumn
 *
 aShowCommentColumn
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -1539,7 +1539,7 @@ editable
 {
 mSuppressOnInput
 =
-PR_TRUE
+true
 ;
 editable
 -
@@ -1551,7 +1551,7 @@ aTextValue
 ;
 mSuppressOnInput
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -1763,8 +1763,8 @@ NS_LITERAL_STRING
 DOMAutoComplete
 "
 )
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 privateEvent
@@ -1772,7 +1772,7 @@ privateEvent
 >
 SetTrusted
 (
-PR_TRUE
+true
 )
 ;
 nsCOMPtr
@@ -1838,7 +1838,7 @@ aConsumeRollupEvent
 *
 aConsumeRollupEvent
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -2803,7 +2803,7 @@ dummy
 )
 isPwmgrInput
 =
-PR_TRUE
+true
 ;
 nsCOMPtr
 <
@@ -2826,7 +2826,7 @@ formControl
 >
 IsSingleLineTextControl
 (
-PR_TRUE
+true
 )
 &
 &
@@ -2896,7 +2896,7 @@ off
 {
 autoCompleteOff
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -3239,7 +3239,7 @@ HandleTab
 ;
 cancel
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -3254,7 +3254,7 @@ mController
 >
 HandleEnter
 (
-PR_FALSE
+false
 &
 cancel
 )
@@ -3544,8 +3544,8 @@ focus
 "
 )
 this
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 target
@@ -3560,8 +3560,8 @@ blur
 "
 )
 this
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 target
@@ -3576,8 +3576,8 @@ pagehide
 "
 )
 this
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 target
@@ -3592,8 +3592,8 @@ mousedown
 "
 )
 this
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 target
@@ -3608,8 +3608,8 @@ input
 "
 )
 this
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 target
@@ -3624,8 +3624,8 @@ compositionstart
 "
 )
 this
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 target
@@ -3640,8 +3640,8 @@ compositionend
 "
 )
 this
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 target
@@ -3656,8 +3656,8 @@ contextmenu
 "
 )
 this
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 }
@@ -3758,7 +3758,7 @@ focus
 "
 )
 this
-PR_TRUE
+true
 )
 ;
 target
@@ -3773,7 +3773,7 @@ blur
 "
 )
 this
-PR_TRUE
+true
 )
 ;
 target
@@ -3788,7 +3788,7 @@ pagehide
 "
 )
 this
-PR_TRUE
+true
 )
 ;
 target
@@ -3803,7 +3803,7 @@ mousedown
 "
 )
 this
-PR_TRUE
+true
 )
 ;
 target
@@ -3818,7 +3818,7 @@ input
 "
 )
 this
-PR_TRUE
+true
 )
 ;
 target
@@ -3833,7 +3833,7 @@ compositionstart
 "
 )
 this
-PR_TRUE
+true
 )
 ;
 target
@@ -3848,7 +3848,7 @@ compositionend
 "
 )
 this
-PR_TRUE
+true
 )
 ;
 target
@@ -3863,7 +3863,7 @@ contextmenu
 "
 )
 this
-PR_TRUE
+true
 )
 ;
 }
@@ -3908,8 +3908,8 @@ keypress
 "
 )
 this
-PR_TRUE
-PR_FALSE
+true
+false
 )
 ;
 }
@@ -3951,7 +3951,7 @@ keypress
 "
 )
 this
-PR_TRUE
+true
 )
 ;
 }

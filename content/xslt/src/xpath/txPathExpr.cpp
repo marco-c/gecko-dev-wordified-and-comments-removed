@@ -935,7 +935,7 @@ aContext
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 Expr
@@ -968,7 +968,7 @@ NO_CONTEXT
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 PRUint32
@@ -1042,12 +1042,12 @@ context
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
 return
-PR_FALSE
+false
 ;
 }
 #

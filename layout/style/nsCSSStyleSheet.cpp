@@ -658,7 +658,7 @@ eCSSUnit_Null
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -713,7 +713,7 @@ GetFloatValue
 0
 ;
 return
-PR_TRUE
+true
 ;
 }
 NS_ASSERTION
@@ -1598,7 +1598,7 @@ mRange
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -1753,7 +1753,7 @@ mMedium
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 for
@@ -1814,7 +1814,7 @@ actual
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 for
@@ -1872,13 +1872,13 @@ mExpressionMatches
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -2679,7 +2679,7 @@ if
 mHadUnknownExpression
 )
 return
-PR_FALSE
+false
 ;
 bool
 match
@@ -2764,7 +2764,7 @@ actual
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 match
@@ -2841,7 +2841,7 @@ nsMediaList
 :
 mIsEmpty
 (
-PR_TRUE
+true
 )
 mStyleSheet
 (
@@ -3086,7 +3086,7 @@ aKey
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 }
@@ -3306,7 +3306,7 @@ updateBatch
 (
 doc
 UPDATE_STYLE
-PR_TRUE
+true
 )
 ;
 \
@@ -3928,14 +3928,14 @@ mSheets
 )
 mComplete
 (
-PR_FALSE
+false
 )
 #
 ifdef
 DEBUG
 mPrincipalSet
 (
-PR_FALSE
+false
 )
 #
 endif
@@ -4005,7 +4005,7 @@ aSheet
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -4061,7 +4061,7 @@ clone
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 struct
@@ -4198,7 +4198,7 @@ IMPORT_RULE
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -4216,7 +4216,7 @@ IMPORT_RULE
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 ChildSheetListBuilder
@@ -4288,7 +4288,7 @@ cssSheet
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 (
@@ -4331,7 +4331,7 @@ sheetSlot
 mNext
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsCSSStyleSheetInner
@@ -4758,7 +4758,7 @@ aNameSpacePtr
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 return
@@ -4831,7 +4831,7 @@ nsXMLNameSpaceMap
 :
 Create
 (
-PR_FALSE
+false
 )
 ;
 NS_ENSURE_TRUE
@@ -4885,11 +4885,11 @@ nsnull
 )
 mDisabled
 (
-PR_FALSE
+false
 )
 mDirty
 (
-PR_FALSE
+false
 )
 mRuleProcessors
 (
@@ -5487,7 +5487,7 @@ mInner
 >
 mPrincipalSet
 =
-PR_TRUE
+true
 ;
 #
 endif
@@ -5584,7 +5584,7 @@ aKey
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -5743,7 +5743,7 @@ mInner
 >
 mComplete
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -5768,7 +5768,7 @@ mDocument
 SetStyleSheetApplicableState
 (
 this
-PR_TRUE
+true
 )
 ;
 mDocument
@@ -6749,7 +6749,7 @@ EnsureUniqueInner
 {
 mDirty
 =
-PR_TRUE
+true
 ;
 NS_ABORT_IF_FALSE
 (
@@ -6881,12 +6881,12 @@ child
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 }
 return
-PR_TRUE
+true
 ;
 }
 already_AddRefed
@@ -7616,7 +7616,7 @@ MOZ_AUTO_DOC_UPDATE
 (
 mDocument
 UPDATE_STYLE
-PR_TRUE
+true
 )
 ;
 nsCSSStyleSheet
@@ -8167,7 +8167,7 @@ updateBatch
 (
 mDocument
 UPDATE_STYLE
-PR_TRUE
+true
 )
 ;
 nsCOMArray
@@ -8755,7 +8755,7 @@ childSheet
 {
 notify
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -8833,7 +8833,7 @@ updateBatch
 (
 mDocument
 UPDATE_STYLE
-PR_TRUE
+true
 )
 ;
 result
@@ -9048,7 +9048,7 @@ updateBatch
 (
 mDocument
 UPDATE_STYLE
-PR_TRUE
+true
 )
 ;
 result
@@ -9232,7 +9232,7 @@ updateBatch
 (
 mDocument
 UPDATE_STYLE
-PR_TRUE
+true
 )
 ;
 result
@@ -9596,7 +9596,7 @@ updateBatch
 (
 mDocument
 UPDATE_STYLE
-PR_TRUE
+true
 )
 ;
 mDocument

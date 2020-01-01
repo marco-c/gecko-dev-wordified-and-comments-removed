@@ -93,13 +93,6 @@ h
 #
 include
 "
-nsIDocumentViewer
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h
@@ -427,7 +420,7 @@ void
 key
 ;
 return
-PR_TRUE
+true
 ;
 }
 static
@@ -521,7 +514,7 @@ lis_no_security
 )
 mNotifiedToplevelIsEV
 (
-PR_FALSE
+false
 )
 mNewToplevelSecurityState
 (
@@ -529,15 +522,15 @@ STATE_IS_INSECURE
 )
 mNewToplevelIsEV
 (
-PR_FALSE
+false
 )
 mNewToplevelSecurityStateKnown
 (
-PR_TRUE
+true
 )
 mIsViewSource
 (
-PR_FALSE
+false
 )
 mSubRequestsHighSecurity
 (
@@ -873,7 +866,7 @@ AddObserver
 (
 this
 NS_FORMSUBMIT_SUBJECT
-PR_TRUE
+true
 )
 ;
 }
@@ -1324,7 +1317,7 @@ value
 *
 value
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1337,7 +1330,7 @@ child
 *
 value
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1576,7 +1569,7 @@ cancelSubmit
 *
 cancelSubmit
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -1646,7 +1639,7 @@ principal
 *
 cancelSubmit
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1736,7 +1729,7 @@ Bug
 *
 cancelSubmit
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -1823,7 +1816,7 @@ okayToPost
 *
 cancelSubmit
 =
-PR_TRUE
+true
 ;
 return
 res
@@ -2029,7 +2022,7 @@ sp
 {
 updateStatus
 =
-PR_TRUE
+true
 ;
 sp
 -
@@ -2067,7 +2060,7 @@ secInfo
 {
 updateTooltip
 =
-PR_TRUE
+true
 ;
 secInfo
 -
@@ -2131,7 +2124,7 @@ mReentrantMonitor
 ;
 mNewToplevelSecurityStateKnown
 =
-PR_TRUE
+true
 ;
 mNewToplevelSecurityState
 =
@@ -3156,7 +3149,7 @@ this
 ;
 isSubDocumentRelevant
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -3204,7 +3197,7 @@ hasFlag
 {
 isSubDocumentRelevant
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -3969,7 +3962,7 @@ PL_DHASH_REMOVE
 ;
 requestHasTransferedData
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -4034,7 +4027,7 @@ LOAD_RETARGETED_DOCUMENT_URI
 {
 allowSecurityStateChange
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -4279,7 +4272,7 @@ STATE_RESTORING
 {
 retrieveAssociatedState
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -4303,7 +4296,7 @@ wyciwygRequest
 {
 retrieveAssociatedState
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -4431,7 +4424,7 @@ newSubNo
 ;
 mNewToplevelSecurityStateKnown
 =
-PR_FALSE
+false
 ;
 }
 PR_LOG
@@ -4612,7 +4605,7 @@ EvaluateAndUpdateSecurityState
 (
 aRequest
 securityInfo
-PR_FALSE
+false
 )
 ;
 }
@@ -4676,9 +4669,9 @@ return
 UpdateSecurityState
 (
 aRequest
-PR_FALSE
-PR_FALSE
-PR_FALSE
+false
+false
+false
 )
 ;
 }
@@ -4949,11 +4942,11 @@ newSecurityState
 {
 mustTellTheWorld
 =
-PR_TRUE
+true
 ;
 showWarning
 =
-PR_TRUE
+true
 ;
 switch
 (
@@ -4979,7 +4972,7 @@ lis_broken_security
 :
 showWarning
 =
-PR_FALSE
+false
 ;
 break
 ;
@@ -5037,7 +5030,7 @@ mNewToplevelIsEV
 {
 mustTellTheWorld
 =
-PR_TRUE
+true
 ;
 mNotifiedToplevelIsEV
 =
@@ -5370,7 +5363,7 @@ this
 }
 updateIsViewSource
 =
-PR_TRUE
+true
 ;
 temp_IsViewSource
 =
@@ -5477,7 +5470,7 @@ EvaluateAndUpdateSecurityState
 (
 aRequest
 securityInfo
-PR_TRUE
+true
 )
 ;
 }
@@ -5509,9 +5502,9 @@ return
 UpdateSecurityState
 (
 aRequest
-PR_TRUE
-PR_FALSE
-PR_FALSE
+true
+false
+false
 )
 ;
 return
@@ -5777,7 +5770,7 @@ value
 *
 value
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -5817,7 +5810,7 @@ value
 *
 value
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -5959,7 +5952,7 @@ actionJavaScript
 *
 okayToPost
 =
-PR_TRUE
+true
 ;
 nsresult
 rv
@@ -6360,7 +6353,7 @@ if
 dialogs
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -6453,7 +6446,7 @@ if
 dialogs
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -6546,7 +6539,7 @@ if
 dialogs
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -6639,7 +6632,7 @@ if
 dialogs
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -6735,7 +6728,7 @@ if
 dialogs
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -6806,7 +6799,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 result
@@ -6843,7 +6836,7 @@ if
 dialogs
 )
 return
-PR_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -6914,7 +6907,7 @@ rv
 )
 )
 return
-PR_FALSE
+false
 ;
 return
 result

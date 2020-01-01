@@ -422,10 +422,10 @@ aProperty
 *
 aChanged
 =
-PR_FALSE
+false
 ;
 return
-PR_FALSE
+false
 ;
 }
 nsCSSCompressedDataBlock
@@ -447,10 +447,10 @@ block
 *
 aChanged
 =
-PR_FALSE
+false
 ;
 return
-PR_FALSE
+false
 ;
 }
 #
@@ -599,7 +599,7 @@ const
 {
 mImmutable
 =
-PR_TRUE
+true
 ;
 }
 void

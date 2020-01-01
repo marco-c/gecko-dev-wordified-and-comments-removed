@@ -700,7 +700,7 @@ mSessionOnlyDB
 RemoveOwner
 (
 aHostName
-PR_TRUE
+true
 )
 ;
 }

@@ -251,7 +251,7 @@ _retval
 *
 _retval
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -400,7 +400,7 @@ surl
 >
 SetMutable
 (
-PR_FALSE
+false
 )
 ;
 NS_ADDREF

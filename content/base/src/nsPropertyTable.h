@@ -155,7 +155,7 @@ GetPropertyInternal
 (
 aObject
 aPropertyName
-PR_FALSE
+false
 aResult
 )
 ;
@@ -238,7 +238,7 @@ GetPropertyInternal
 (
 aObject
 aPropertyName
-PR_TRUE
+true
 aStatus
 )
 ;

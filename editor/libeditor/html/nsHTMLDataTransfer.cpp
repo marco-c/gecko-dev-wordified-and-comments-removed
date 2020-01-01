@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsHTMLEditor
 .
 h
@@ -1153,7 +1162,7 @@ empty
 nsnull
 nsnull
 0
-PR_TRUE
+true
 )
 ;
 }
@@ -1202,7 +1211,7 @@ aSourceDoc
 aDestNode
 aDestOffset
 aDeleteSelection
-PR_TRUE
+true
 )
 ;
 }
@@ -1614,7 +1623,7 @@ cell
 {
 cellSelectionMode
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -1644,7 +1653,7 @@ firstNode
 )
 cellSelectionMode
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -1925,7 +1934,7 @@ res
 =
 GetListAndTableParents
 (
-PR_FALSE
+false
 nodeList
 startListAndTableArray
 )
@@ -1982,7 +1991,7 @@ res
 =
 ReplaceOrphanedStructure
 (
-PR_FALSE
+false
 nodeList
 startListAndTableArray
 highWaterMark
@@ -2005,7 +2014,7 @@ res
 =
 GetListAndTableParents
 (
-PR_TRUE
+true
 nodeList
 endListAndTableArray
 )
@@ -2061,7 +2070,7 @@ res
 =
 ReplaceOrphanedStructure
 (
-PR_TRUE
+true
 nodeList
 endListAndTableArray
 highWaterMark
@@ -2266,7 +2275,7 @@ parentNode
 )
 &
 offsetOfNewNode
-PR_TRUE
+true
 )
 ;
 if
@@ -2280,7 +2289,7 @@ break
 ;
 bDidInsert
 =
-PR_TRUE
+true
 ;
 lastInsertNode
 =
@@ -2399,7 +2408,7 @@ IsEmptyNode
 parentNode
 &
 isEmpty
-PR_TRUE
+true
 )
 ;
 if
@@ -2467,7 +2476,7 @@ parentNode
 )
 &
 offsetOfNewNode
-PR_TRUE
+true
 )
 ;
 if
@@ -2481,7 +2490,7 @@ break
 ;
 bDidInsert
 =
-PR_TRUE
+true
 ;
 lastInsertNode
 =
@@ -2575,7 +2584,7 @@ parentNode
 )
 &
 offsetOfNewNode
-PR_TRUE
+true
 )
 ;
 if
@@ -2589,7 +2598,7 @@ break
 ;
 bDidInsert
 =
-PR_TRUE
+true
 ;
 lastInsertNode
 =
@@ -2635,7 +2644,7 @@ parentNode
 )
 &
 offsetOfNewNode
-PR_TRUE
+true
 )
 ;
 if
@@ -2648,7 +2657,7 @@ res
 {
 bDidInsert
 =
-PR_TRUE
+true
 ;
 lastInsertNode
 =
@@ -2709,7 +2718,7 @@ parentNode
 )
 &
 offsetOfNewNode
-PR_TRUE
+true
 )
 ;
 if
@@ -2722,7 +2731,7 @@ res
 {
 bDidInsert
 =
-PR_TRUE
+true
 ;
 insertedContextParent
 =
@@ -3191,7 +3200,7 @@ selNode
 selOffset
 &
 linkOffset
-PR_TRUE
+true
 address_of
 (
 leftLink
@@ -4105,7 +4114,7 @@ nsIDOMNodeFilter
 :
 SHOW_ELEMENT
 nsnull
-PR_TRUE
+true
 getter_AddRefs
 (
 walker
@@ -4302,7 +4311,7 @@ aDoContinue
 *
 aDoContinue
 =
-PR_TRUE
+true
 ;
 PRInt32
 i
@@ -4393,7 +4402,7 @@ outLink
 NS_ENSURE_TRUE
 (
 aNode
-PR_FALSE
+false
 )
 ;
 if
@@ -4440,7 +4449,7 @@ outLink
 node
 ;
 return
-PR_TRUE
+true
 ;
 }
 tmp
@@ -4460,7 +4469,7 @@ node
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -4942,7 +4951,7 @@ numFront
 1
 )
 return
-PR_FALSE
+false
 ;
 numFront
 +
@@ -4972,7 +4981,7 @@ numBack
 1
 )
 return
-PR_FALSE
+false
 ;
 nsCAutoString
 numStr
@@ -5001,7 +5010,7 @@ errorCode
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult
@@ -5048,7 +5057,7 @@ Find
 -
 >
 "
-PR_FALSE
+false
 startCommentIndx
 )
 ;
@@ -5109,7 +5118,7 @@ Find
 -
 >
 "
-PR_FALSE
+false
 endCommentIndx
 )
 ;
@@ -5285,7 +5294,7 @@ startHTML
 1
 )
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -5332,12 +5341,12 @@ endHTML
 1
 )
 return
-PR_FALSE
+false
 ;
 endHTML
 +
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 endFragmentMarker
 )
@@ -6083,7 +6092,7 @@ image
 {
 insertAsImage
 =
-PR_TRUE
+true
 ;
 bestFlavor
 =
@@ -6702,7 +6711,7 @@ rv
 )
 ScrollSelectionIntoView
 (
-PR_FALSE
+false
 )
 ;
 return
@@ -7602,14 +7611,14 @@ else
 {
 deleteSelection
 =
-PR_FALSE
+false
 ;
 }
 }
 }
 doPlaceCaret
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -8196,7 +8205,7 @@ aClipboard
 NS_ENSURE_TRUE
 (
 aClipboard
-PR_FALSE
+false
 )
 ;
 bool
@@ -8225,7 +8234,7 @@ aClipboard
 HasDataMatchingFlavors
 (
 flavArray
-NS_ARRAY_LENGTH
+ArrayLength
 (
 flavArray
 )
@@ -8242,7 +8251,7 @@ return
 bHavePrivateHTMLFlavor
 ;
 return
-PR_FALSE
+false
 ;
 }
 NS_IMETHODIMP
@@ -8656,7 +8665,7 @@ contextStr
 infoStr
 nsnull
 0
-PR_TRUE
+true
 )
 ;
 }
@@ -8730,7 +8739,7 @@ contextStr
 infoStr
 nsnull
 0
-PR_TRUE
+true
 )
 ;
 }
@@ -8850,7 +8859,7 @@ empty
 empty
 nsnull
 0
-PR_TRUE
+true
 )
 ;
 }
@@ -8908,7 +8917,7 @@ aCanPaste
 *
 aCanPaste
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -8970,7 +8979,7 @@ clipboard
 HasDataMatchingFlavors
 (
 textEditorFlavors
-NS_ARRAY_LENGTH
+ArrayLength
 (
 textEditorFlavors
 )
@@ -8988,7 +8997,7 @@ clipboard
 HasDataMatchingFlavors
 (
 textHtmlEditorFlavors
-NS_ARRAY_LENGTH
+ArrayLength
 (
 textHtmlEditorFlavors
 )
@@ -9042,7 +9051,7 @@ IsModifiable
 *
 aCanPaste
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -9057,7 +9066,7 @@ aTransferable
 *
 aCanPaste
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -9085,7 +9094,7 @@ textEditorFlavors
 ;
 length
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 textEditorFlavors
 )
@@ -9099,7 +9108,7 @@ textHtmlEditorFlavors
 ;
 length
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 textHtmlEditorFlavors
 )
@@ -9166,7 +9175,7 @@ data
 *
 aCanPaste
 =
-PR_TRUE
+true
 ;
 return
 NS_OK
@@ -9176,7 +9185,7 @@ NS_OK
 *
 aCanPaste
 =
-PR_FALSE
+false
 ;
 return
 NS_OK
@@ -9706,7 +9715,7 @@ rv
 InsertAsPlaintextQuotation
 (
 stuffToPaste
-PR_TRUE
+true
 0
 )
 ;
@@ -9819,7 +9828,7 @@ strEnd
 )
 NS_ASSERTION
 (
-PR_FALSE
+false
 "
 Return
 characters
@@ -10005,7 +10014,7 @@ rv
 InsertAsPlaintextQuotation
 (
 curHunk
-PR_FALSE
+false
 getter_AddRefs
 (
 dummyNode
@@ -10070,7 +10079,7 @@ return
 InsertAsPlaintextQuotation
 (
 aQuotedText
-PR_TRUE
+true
 aNodeInserted
 )
 ;
@@ -10082,7 +10091,7 @@ InsertAsCitedQuotation
 (
 aQuotedText
 citation
-PR_FALSE
+false
 aNodeInserted
 )
 ;
@@ -10618,7 +10627,7 @@ return
 InsertAsPlaintextQuotation
 (
 aQuotedText
-PR_TRUE
+true
 aNodeInserted
 )
 ;
@@ -11604,7 +11613,7 @@ StripFormattingNodes
 (
 *
 outFragNode
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -11837,6 +11846,9 @@ bool
 aTrustedInput
 )
 {
+nsresult
+rv
+;
 nsCOMPtr
 <
 nsIDOMDocumentFragment
@@ -11868,6 +11880,8 @@ do_QueryInterface
 frag
 )
 ;
+rv
+=
 nsContentUtils
 :
 :
@@ -11884,8 +11898,8 @@ nsGkAtoms
 :
 body
 kNameSpaceID_XHTML
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 if
@@ -11921,7 +11935,7 @@ frag
 )
 ;
 return
-NS_OK
+rv
 ;
 }
 nsresult

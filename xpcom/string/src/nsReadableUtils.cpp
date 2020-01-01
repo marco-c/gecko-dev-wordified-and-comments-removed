@@ -1819,11 +1819,11 @@ c
 NOT_ASCII
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -1906,11 +1906,11 @@ c
 NOT_ASCII
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 bool
@@ -2047,7 +2047,7 @@ c
 0xC1
 )
 return
-PR_FALSE
+false
 ;
 else
 if
@@ -2090,7 +2090,7 @@ c
 {
 overlong
 =
-PR_TRUE
+true
 ;
 olupper
 =
@@ -2108,7 +2108,7 @@ c
 {
 surrogate
 =
-PR_TRUE
+true
 ;
 slower
 =
@@ -2125,7 +2125,7 @@ c
 )
 nonchar
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2143,7 +2143,7 @@ state
 ;
 nonchar
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -2155,7 +2155,7 @@ c
 {
 overlong
 =
-PR_TRUE
+true
 ;
 olupper
 =
@@ -2173,7 +2173,7 @@ c
 {
 surrogate
 =
-PR_TRUE
+true
 ;
 slower
 =
@@ -2183,7 +2183,7 @@ slower
 }
 else
 return
-PR_FALSE
+false
 ;
 }
 if
@@ -2196,7 +2196,7 @@ aRejectNonChar
 )
 nonchar
 =
-PR_FALSE
+false
 ;
 while
 (
@@ -2270,7 +2270,7 @@ c
 )
 nonchar
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2315,13 +2315,13 @@ state
 )
 )
 return
-PR_FALSE
+false
 ;
 overlong
 =
 surrogate
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -3162,7 +3162,7 @@ oldLength
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -3192,7 +3192,7 @@ break
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 template
@@ -3333,7 +3333,7 @@ aPatternEnd
 {
 found_it
 =
-PR_TRUE
+true
 ;
 aSearchEnd
 =
@@ -3510,7 +3510,7 @@ aSearchEnd
 searchEnd
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -3526,7 +3526,7 @@ aSearchStart
 aSearchEnd
 ;
 return
-PR_FALSE
+false
 ;
 }
 -
@@ -3567,7 +3567,7 @@ aSearchStart
 aSearchEnd
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -3819,7 +3819,7 @@ get
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 aSearchStart
@@ -3830,7 +3830,7 @@ fragmentLength
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -3909,7 +3909,7 @@ get
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 aSearchStart
@@ -3920,7 +3920,7 @@ fragmentLength
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 PRUint32
@@ -4102,7 +4102,7 @@ sub_len
 src_len
 )
 return
-PR_FALSE
+false
 ;
 return
 Substring
@@ -4162,7 +4162,7 @@ sub_len
 src_len
 )
 return
-PR_FALSE
+false
 ;
 return
 Substring
@@ -4222,7 +4222,7 @@ sub_len
 src_len
 )
 return
-PR_FALSE
+false
 ;
 return
 Substring
@@ -4284,7 +4284,7 @@ sub_len
 src_len
 )
 return
-PR_FALSE
+false
 ;
 return
 Substring

@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsStackWalk
 .
 h
@@ -69,13 +78,6 @@ h
 #
 include
 "
-nsMemory
-.
-h
-"
-#
-include
-"
 mozilla
 /
 FunctionTimer
@@ -122,6 +124,10 @@ USING_WXP_VERSION
 endif
 #
 endif
+using
+namespace
+mozilla
+;
 PR_BEGIN_EXTERN_C
 typedef
 DWORD
@@ -940,7 +946,7 @@ CreateThread
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 :
@@ -1014,7 +1020,7 @@ if
 module
 )
 return
-PR_FALSE
+false
 ;
 }
 _SymSetOptions
@@ -1038,7 +1044,7 @@ if
 _SymSetOptions
 )
 return
-PR_FALSE
+false
 ;
 _SymInitialize
 =
@@ -1061,7 +1067,7 @@ if
 _SymInitialize
 )
 return
-PR_FALSE
+false
 ;
 _SymCleanup
 =
@@ -1082,7 +1088,7 @@ if
 _SymCleanup
 )
 return
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -1125,7 +1131,7 @@ _StackWalk64
 _StackWalk
 )
 return
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -1168,7 +1174,7 @@ _SymFunctionTableAccess64
 _SymFunctionTableAccess
 )
 return
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -1211,7 +1217,7 @@ _SymGetModuleBase64
 _SymGetModuleBase
 )
 return
-PR_FALSE
+false
 ;
 _SymGetSymFromAddr
 =
@@ -1254,7 +1260,7 @@ _SymFromAddr
 _SymGetSymFromAddr
 )
 return
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -1297,7 +1303,7 @@ _SymLoadModule64
 _SymLoadModule
 )
 return
-PR_FALSE
+false
 ;
 _SymUnDName
 =
@@ -1318,7 +1324,7 @@ if
 _SymUnDName
 )
 return
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -1361,7 +1367,7 @@ _SymGetModuleInfo64
 _SymGetModuleInfo
 )
 return
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -1404,7 +1410,7 @@ _EnumerateLoadedModules64
 _EnumerateLoadedModules
 )
 return
-PR_FALSE
+false
 ;
 #
 ifdef
@@ -1447,12 +1453,12 @@ _SymGetLineFromAddr64
 _SymGetLineFromAddr
 )
 return
-PR_FALSE
+false
 ;
 return
 gInitialized
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -2472,7 +2478,7 @@ EnsureImageHlpInitialized
 )
 )
 return
-PR_FALSE
+false
 ;
 if
 (
@@ -2638,7 +2644,7 @@ data
 .
 pc_size
 =
-NS_ARRAY_LENGTH
+ArrayLength
 (
 local_pcs
 )
@@ -2854,7 +2860,7 @@ data
 .
 pc_size
 >
-NS_ARRAY_LENGTH
+ArrayLength
 (
 local_pcs
 )
@@ -3541,7 +3547,7 @@ EnsureImageHlpInitialized
 )
 )
 return
-PR_FALSE
+false
 ;
 _SymSetOptions
 (
@@ -6005,7 +6011,7 @@ mStart
 ;
 while
 (
-PR_TRUE
+true
 )
 {
 Dl_info

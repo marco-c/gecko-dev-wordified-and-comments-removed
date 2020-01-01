@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsSVGPathGeometryElement
 .
 h
@@ -33,6 +42,10 @@ gfxContext
 .
 h
 "
+using
+namespace
+mozilla
+;
 typedef
 nsSVGPathGeometryElement
 nsSVGRectElementBase
@@ -494,7 +507,7 @@ LengthAttributesInfo
 (
 mLengthAttributes
 sLengthInfo
-NS_ARRAY_LENGTH
+ArrayLength
 (
 sLengthInfo
 )

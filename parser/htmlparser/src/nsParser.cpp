@@ -506,11 +506,11 @@ mCVar
 )
 mKeepParsing
 (
-PR_FALSE
+false
 )
 mCurrentlyParsing
 (
-PR_FALSE
+false
 )
 mNumConsumed
 (
@@ -522,7 +522,7 @@ nsnull
 )
 mTerminated
 (
-PR_FALSE
+false
 )
 {
 }
@@ -661,11 +661,11 @@ Terminate
 {
 mTerminated
 =
-PR_TRUE
+true
 ;
 StopParsing
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -1110,7 +1110,7 @@ alreadyPreloaded
 Put
 (
 spec
-PR_TRUE
+true
 )
 ;
 switch
@@ -1245,7 +1245,7 @@ mTokenizer
 >
 WillTokenize
 (
-PR_FALSE
+false
 &
 mTokenAllocator
 )
@@ -1327,7 +1327,7 @@ mTokenizer
 >
 DidTokenize
 (
-PR_FALSE
+false
 )
 ;
 if
@@ -1360,7 +1360,7 @@ mLock
 ;
 mCurrentlyParsing
 =
-PR_FALSE
+false
 ;
 mCVar
 .
@@ -1732,7 +1732,7 @@ mScanner
 >
 SetIncremental
 (
-PR_TRUE
+true
 )
 ;
 mDocument
@@ -1744,11 +1744,11 @@ doc
 ;
 mKeepParsing
 =
-PR_TRUE
+true
 ;
 mCurrentlyParsing
 =
-PR_TRUE
+true
 ;
 mContext
 =
@@ -1805,7 +1805,7 @@ mLock
 ;
 mKeepParsing
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -2693,7 +2693,7 @@ nsParser
 {
 Initialize
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -2814,7 +2814,7 @@ NS_PARSER_FLAG_CAN_TOKENIZE
 ;
 mProcessingNetworkData
 =
-PR_FALSE
+false
 ;
 }
 void
@@ -3546,7 +3546,7 @@ Find
 -
 -
 "
-PR_FALSE
+false
 aIndex
 +
 2
@@ -3718,7 +3718,7 @@ Find
 "
 DOCTYPE
 "
-PR_TRUE
+true
 tmpIndex
 0
 )
@@ -3727,7 +3727,7 @@ tmpIndex
 {
 haveDoctype
 =
-PR_TRUE
+true
 ;
 theIndex
 +
@@ -3805,7 +3805,7 @@ if
 haveDoctype
 )
 return
-PR_TRUE
+true
 ;
 *
 aResultFlags
@@ -3830,7 +3830,7 @@ Find
 "
 HTML
 "
-PR_TRUE
+true
 theIndex
 0
 )
@@ -3843,7 +3843,7 @@ kNotFound
 theIndex
 )
 return
-PR_FALSE
+false
 ;
 theIndex
 =
@@ -3865,7 +3865,7 @@ Find
 "
 PUBLIC
 "
-PR_TRUE
+true
 theIndex
 0
 )
@@ -3928,7 +3928,7 @@ PRUnichar
 )
 )
 return
-PR_FALSE
+false
 ;
 PRInt32
 PublicIDStart
@@ -3956,7 +3956,7 @@ kNotFound
 PublicIDEnd
 )
 return
-PR_FALSE
+false
 ;
 theIndex
 =
@@ -4055,7 +4055,7 @@ kNotFound
 SystemIDEnd
 )
 return
-PR_FALSE
+false
 ;
 aSystemID
 =
@@ -4093,7 +4093,7 @@ PARSE_DTD_HAVE_INTERNAL_SUBSET
 else
 {
 return
-PR_FALSE
+false
 ;
 }
 aPublicID
@@ -4111,8 +4111,8 @@ aPublicID
 .
 CompressWhitespace
 (
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 *
@@ -4133,7 +4133,7 @@ Find
 "
 SYSTEM
 "
-PR_TRUE
+true
 theIndex
 0
 )
@@ -4198,7 +4198,7 @@ PRUnichar
 )
 )
 return
-PR_FALSE
+false
 ;
 PRInt32
 SystemIDStart
@@ -4226,7 +4226,7 @@ kNotFound
 SystemIDEnd
 )
 return
-PR_FALSE
+false
 ;
 aSystemID
 =
@@ -4292,11 +4292,11 @@ PRUnichar
 )
 )
 return
-PR_FALSE
+false
 ;
 }
 return
-PR_TRUE
+true
 ;
 }
 struct
@@ -6470,7 +6470,7 @@ gVerified
 {
 gVerified
 =
-PR_TRUE
+true
 ;
 PRUint32
 i
@@ -8027,7 +8027,7 @@ mSink
 >
 DidBuildModel
 (
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -8117,7 +8117,7 @@ mSpeculativeScriptThread
 >
 StopParsing
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -8137,7 +8137,7 @@ eOnStop
 ;
 mProcessingNetworkData
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -8156,13 +8156,13 @@ result
 =
 ResumeParse
 (
-PR_TRUE
+true
 isFinalChunk
 )
 ;
 mProcessingNetworkData
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -8365,7 +8365,7 @@ IsInsertionPointDefined
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 void
@@ -8404,7 +8404,7 @@ IsScriptCreated
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 void
@@ -8539,7 +8539,7 @@ new
 nsScanner
 (
 theName
-PR_FALSE
+false
 mCharset
 mCharsetSource
 )
@@ -8571,7 +8571,7 @@ pc
 >
 mMultipart
 =
-PR_TRUE
+true
 ;
 pc
 -
@@ -8682,7 +8682,7 @@ mSpeculativeScriptThread
 >
 StopParsing
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -8914,7 +8914,7 @@ mScanner
 >
 SetIncremental
 (
-PR_TRUE
+true
 )
 ;
 }
@@ -8944,7 +8944,7 @@ mScanner
 >
 SetIncremental
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -9026,9 +9026,9 @@ result
 =
 ResumeParse
 (
-PR_FALSE
-PR_FALSE
-PR_FALSE
+false
+false
+false
 )
 ;
 }
@@ -9074,7 +9074,7 @@ mScanner
 >
 SetIncremental
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -9088,9 +9088,9 @@ mParserContext
 {
 ResumeParse
 (
-PR_FALSE
-PR_FALSE
-PR_FALSE
+false
+false
+false
 )
 ;
 }
@@ -9247,7 +9247,7 @@ application
 xml
 "
 )
-PR_FALSE
+false
 eDTDMode_full_standards
 )
 ;
@@ -9332,7 +9332,7 @@ application
 xml
 "
 )
-PR_TRUE
+true
 eDTDMode_full_standards
 )
 ;
@@ -9369,7 +9369,7 @@ application
 xml
 "
 )
-PR_FALSE
+false
 eDTDMode_full_standards
 )
 ;
@@ -9504,7 +9504,7 @@ application
 xml
 "
 )
-PR_TRUE
+true
 eDTDMode_full_standards
 )
 ;
@@ -9718,7 +9718,7 @@ PostContinueEvent
 }
 SetCanInterrupt
 (
-PR_FALSE
+false
 )
 ;
 theIterationIsOk
@@ -10335,12 +10335,12 @@ H
 '
 :
 return
-PR_TRUE
+true
 ;
 default
 :
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -10752,7 +10752,7 @@ qi
 {
 versionFound
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -10954,7 +10954,7 @@ kCharsetFromMetaTag
 }
 encodingFound
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -11184,7 +11184,7 @@ TEXT_HTML
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 const
@@ -11325,7 +11325,7 @@ end
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 +
@@ -11393,7 +11393,7 @@ end
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 else
@@ -11413,7 +11413,7 @@ currPos
 {
 foundMDC
 =
-PR_TRUE
+true
 ;
 +
 +
@@ -11772,7 +11772,7 @@ get
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 currPos
@@ -11781,7 +11781,7 @@ tagEnd
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 typedef
@@ -11892,7 +11892,7 @@ pws
 >
 mNeedCharsetCheck
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -12336,7 +12336,7 @@ mSpeculativeScriptThread
 >
 StopParsing
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -12382,7 +12382,7 @@ mScanner
 SetPosition
 (
 iter
-PR_TRUE
+true
 )
 ;
 }
@@ -12488,7 +12488,7 @@ FirstNonWhitespacePosition
 {
 mProcessingNetworkData
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -12511,7 +12511,7 @@ ResumeParse
 ;
 mProcessingNetworkData
 =
-PR_FALSE
+false
 ;
 }
 }
@@ -12564,7 +12564,7 @@ mSpeculativeScriptThread
 >
 StopParsing
 (
-PR_FALSE
+false
 )
 ;
 }
@@ -12605,7 +12605,7 @@ mScanner
 >
 SetIncremental
 (
-PR_FALSE
+false
 )
 ;
 break
@@ -12649,7 +12649,7 @@ rv
 {
 mProcessingNetworkData
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -12668,13 +12668,13 @@ rv
 =
 ResumeParse
 (
-PR_TRUE
-PR_TRUE
+true
+true
 )
 ;
 mProcessingNetworkData
 =
-PR_FALSE
+false
 ;
 }
 if
@@ -12714,7 +12714,7 @@ mParserContext
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 nsITokenizer
@@ -12737,7 +12737,7 @@ theTokenizer
 NS_ENSURE_SUCCESS
 (
 result
-PR_FALSE
+false
 )
 ;
 return
@@ -12931,7 +12931,7 @@ result
 {
 killSink
 =
-PR_TRUE
+true
 ;
 result
 =
@@ -13027,7 +13027,7 @@ mParserContext
 )
 {
 return
-PR_TRUE
+true
 ;
 }
 nsITokenizer
@@ -13050,7 +13050,7 @@ theTokenizer
 NS_ENSURE_SUCCESS
 (
 rv
-PR_FALSE
+false
 )
 ;
 rv

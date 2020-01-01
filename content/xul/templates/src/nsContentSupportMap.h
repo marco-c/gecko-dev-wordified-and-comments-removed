@@ -158,7 +158,7 @@ mMap
 ops
 )
 return
-PR_FALSE
+false
 ;
 PLDHashEntryHdr
 *
@@ -180,7 +180,7 @@ hdr
 )
 )
 return
-PR_FALSE
+false
 ;
 Entry
 *
@@ -204,7 +204,7 @@ entry
 mMatch
 ;
 return
-PR_TRUE
+true
 ;
 }
 nsresult

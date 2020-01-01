@@ -1,6 +1,15 @@
 #
 include
 "
+mozilla
+/
+Util
+.
+h
+"
+#
+include
+"
 nsSVGStylableElement
 .
 h
@@ -33,6 +42,10 @@ nsGenericHTMLElement
 .
 h
 "
+using
+namespace
+mozilla
+;
 typedef
 nsSVGStylableElement
 nsSVGStopElementBase
@@ -160,7 +173,7 @@ nsGkAtoms
 :
 offset
 0
-PR_TRUE
+true
 }
 ;
 NS_IMPL_NS_NEW_SVG_ELEMENT
@@ -302,7 +315,7 @@ FindAttributeDependence
 (
 name
 map
-NS_ARRAY_LENGTH
+ArrayLength
 (
 map
 )

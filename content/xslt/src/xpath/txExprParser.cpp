@@ -264,7 +264,7 @@ NS_ERROR_XPATH_UNBALANCED_CURLY_BRACE
 }
 inExpr
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -362,7 +362,7 @@ rv
 ;
 inExpr
 =
-PR_FALSE
+false
 ;
 +
 +
@@ -1449,7 +1449,7 @@ rv
 {
 done
 =
-PR_TRUE
+true
 ;
 break
 ;
@@ -1484,7 +1484,7 @@ pushBack
 ;
 done
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2747,7 +2747,7 @@ getter_AddRefs
 lName
 )
 nspace
-PR_TRUE
+true
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3345,7 +3345,7 @@ get
 >
 setSerialize
 (
-PR_FALSE
+false
 )
 ;
 #

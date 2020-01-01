@@ -558,7 +558,7 @@ ReadUntil
 (
 aString
 aEndCondition
-PR_FALSE
+false
 )
 ;
 if
@@ -739,7 +739,7 @@ else
 {
 done
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -800,7 +800,7 @@ aTag
 {
 mEmpty
 =
-PR_FALSE
+false
 ;
 mContainerInfo
 =
@@ -811,7 +811,7 @@ ifdef
 DEBUG
 mAttributed
 =
-PR_FALSE
+false
 ;
 #
 endif
@@ -834,7 +834,7 @@ eHTMLTag_unknown
 {
 mEmpty
 =
-PR_FALSE
+false
 ;
 mContainerInfo
 =
@@ -852,7 +852,7 @@ ifdef
 DEBUG
 mAttributed
 =
-PR_FALSE
+false
 ;
 #
 endif
@@ -877,7 +877,7 @@ aTag
 {
 mEmpty
 =
-PR_FALSE
+false
 ;
 mContainerInfo
 =
@@ -895,7 +895,7 @@ ifdef
 DEBUG
 mAttributed
 =
-PR_FALSE
+false
 ;
 #
 endif
@@ -1931,7 +1931,7 @@ ReadUntil
 start
 end
 theEndCondition
-PR_FALSE
+false
 )
 ;
 if
@@ -2100,7 +2100,7 @@ else
 {
 done
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -2390,7 +2390,7 @@ endPos
 {
 found
 =
-PR_TRUE
+true
 ;
 theTermStrPos
 =
@@ -2564,11 +2564,11 @@ ltOffset
 ;
 aFlushTokens
 =
-PR_TRUE
+true
 ;
 done
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -2597,14 +2597,14 @@ theAltTermStrPos
 ;
 theLastIteration
 =
-PR_TRUE
+true
 ;
 }
 else
 {
 done
 =
-PR_TRUE
+true
 ;
 result
 =
@@ -2833,8 +2833,8 @@ theContent
 mNewlineCount
 aScanner
 theEndCondition
-PR_TRUE
-PR_FALSE
+true
+false
 aFlag
 )
 ;
@@ -2982,7 +2982,7 @@ where
 }
 aDiscardFirstNewline
 =
-PR_FALSE
+false
 ;
 if
 (
@@ -3010,7 +3010,7 @@ IsIncremental
 {
 aFound
 =
-PR_TRUE
+true
 ;
 result
 =
@@ -3047,8 +3047,8 @@ aScanner
 SetPosition
 (
 altEndPos
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 }
@@ -3068,7 +3068,7 @@ else
 {
 aFound
 =
-PR_FALSE
+false
 ;
 }
 return
@@ -3222,7 +3222,7 @@ r
 {
 aFound
 =
-PR_TRUE
+true
 ;
 mTextValue
 .
@@ -3240,8 +3240,8 @@ aScanner
 SetPosition
 (
 currPos
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 break
@@ -3659,7 +3659,7 @@ ReadUntil
 (
 mTextValue
 theEndCondition
-PR_FALSE
+false
 )
 ;
 if
@@ -3889,7 +3889,7 @@ aChar
 ;
 canClose
 =
-PR_TRUE
+true
 ;
 }
 bool
@@ -3980,7 +3980,7 @@ ReadUntil
 (
 dummy
 kGreaterThan
-PR_FALSE
+false
 )
 ;
 }
@@ -4020,7 +4020,7 @@ aChar
 ;
 done
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -4028,7 +4028,7 @@ else
 {
 done
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -4051,7 +4051,7 @@ IsIncremental
 {
 mInError
 =
-PR_TRUE
+true
 ;
 result
 =
@@ -4254,7 +4254,7 @@ ReadUntil
 start
 end
 theEndCondition
-PR_FALSE
+false
 )
 ;
 if
@@ -4462,7 +4462,7 @@ start
 ;
 done
 =
-PR_TRUE
+true
 ;
 }
 break
@@ -4496,7 +4496,7 @@ else
 {
 done
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -4520,7 +4520,7 @@ result
 {
 mInError
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -4670,7 +4670,7 @@ aGt
 current
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -4705,7 +4705,7 @@ current
 ;
 }
 return
-PR_FALSE
+false
 ;
 }
 nsresult
@@ -4995,8 +4995,8 @@ aScanner
 SetPosition
 (
 lt
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 return
@@ -5188,7 +5188,7 @@ kMinus
 {
 goodComment
 =
-PR_TRUE
+true
 ;
 -
 -
@@ -5258,7 +5258,7 @@ current
 ;
 goodComment
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -5274,7 +5274,7 @@ beginLastMinus
 {
 goodComment
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -5593,8 +5593,8 @@ aScanner
 SetPosition
 (
 lt
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 return
@@ -5623,7 +5623,7 @@ aFlag
 nsresult
 result
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -5899,7 +5899,7 @@ eHTMLTag_unknown
 {
 mHasEqualWithoutValue
 =
-PR_FALSE
+false
 ;
 }
 CAttributeToken
@@ -5931,7 +5931,7 @@ aName
 ;
 mHasEqualWithoutValue
 =
-PR_FALSE
+false
 ;
 }
 CAttributeToken
@@ -5974,7 +5974,7 @@ aKey
 ;
 mHasEqualWithoutValue
 =
-PR_FALSE
+false
 ;
 }
 PRInt32
@@ -6265,8 +6265,8 @@ aNewlineCount
 aScanner
 *
 terminateCondition
-PR_TRUE
-PR_TRUE
+true
+true
 aFlag
 )
 ;
@@ -6354,8 +6354,8 @@ aScanner
 SetPosition
 (
 theOffset
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 result
@@ -6366,8 +6366,8 @@ aString
 aNewlineCount
 aScanner
 theAttributeTerminator
-PR_FALSE
-PR_TRUE
+false
+true
 aFlag
 )
 ;
@@ -6674,7 +6674,7 @@ ReadUntil
 start
 end
 theEndCondition
-PR_FALSE
+false
 )
 ;
 if
@@ -6972,7 +6972,7 @@ NS_OK
 ;
 mInError
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -6987,11 +6987,11 @@ aChar
 {
 mHasEqualWithoutValue
 =
-PR_TRUE
+true
 ;
 mInError
 =
-PR_TRUE
+true
 ;
 }
 else
@@ -7012,8 +7012,8 @@ mTextValue
 mNewlineCount
 aScanner
 theAttributeTerminator
-PR_FALSE
-PR_TRUE
+false
+true
 aFlag
 )
 ;
@@ -7067,11 +7067,11 @@ else
 {
 mHasEqualWithoutValue
 =
-PR_TRUE
+true
 ;
 mInError
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -7116,7 +7116,7 @@ NS_IPARSER_FLAG_XML
 {
 mInError
 =
-PR_TRUE
+true
 ;
 }
 if
@@ -7419,8 +7419,8 @@ SetPosition
 -
 -
 start
-PR_FALSE
-PR_TRUE
+false
+true
 )
 ;
 bool
@@ -8418,7 +8418,7 @@ ReadUntil
 (
 mTextValue
 kGreaterThan
-PR_FALSE
+false
 )
 ;
 if
@@ -8451,7 +8451,7 @@ Last
 {
 done
 =
-PR_TRUE
+true
 ;
 }
 aScanner
@@ -8488,7 +8488,7 @@ IsIncremental
 {
 mInError
 =
-PR_TRUE
+true
 ;
 result
 =
@@ -8640,7 +8640,7 @@ ReadUntil
 start
 end
 theEndCondition
-PR_FALSE
+false
 )
 ;
 if
@@ -8709,7 +8709,7 @@ error
 ;
 mInError
 =
-PR_TRUE
+true
 ;
 }
 }
@@ -8726,7 +8726,7 @@ IsIncremental
 {
 mInError
 =
-PR_TRUE
+true
 ;
 result
 =

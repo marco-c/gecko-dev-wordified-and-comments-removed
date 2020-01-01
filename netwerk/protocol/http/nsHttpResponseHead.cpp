@@ -284,7 +284,7 @@ mHeaders
 Flatten
 (
 buf
-PR_FALSE
+false
 )
 ;
 return
@@ -1428,7 +1428,7 @@ n
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -1460,7 +1460,7 @@ n
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -1492,7 +1492,7 @@ n
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 if
@@ -1519,7 +1519,7 @@ n
 )
 ;
 return
-PR_TRUE
+true
 ;
 }
 LOG
@@ -1537,7 +1537,7 @@ n
 )
 ;
 return
-PR_FALSE
+false
 ;
 }
 bool
@@ -1645,7 +1645,7 @@ maxAgeVal
 )
 {
 return
-PR_FALSE
+false
 ;
 }
 return
@@ -2012,15 +2012,15 @@ LL_MAXUINT
 ;
 mCacheControlNoStore
 =
-PR_FALSE
+false
 ;
 mCacheControlNoCache
 =
-PR_FALSE
+false
 ;
 mPragmaNoCache
 =
-PR_FALSE
+false
 ;
 mStatusText
 .
@@ -2081,7 +2081,7 @@ st
 PR_ParseTimeString
 (
 val
-PR_TRUE
+true
 &
 time
 )
@@ -2284,7 +2284,7 @@ st
 PR_ParseTimeString
 (
 val
-PR_TRUE
+true
 &
 time
 )
@@ -2684,11 +2684,11 @@ val
 {
 mCacheControlNoCache
 =
-PR_FALSE
+false
 ;
 mCacheControlNoStore
 =
-PR_FALSE
+false
 ;
 return
 ;
@@ -2711,7 +2711,7 @@ HTTP_HEADER_VALUE_SEPS
 )
 mCacheControlNoCache
 =
-PR_TRUE
+true
 ;
 if
 (
@@ -2731,7 +2731,7 @@ HTTP_HEADER_VALUE_SEPS
 )
 mCacheControlNoStore
 =
-PR_TRUE
+true
 ;
 }
 void
@@ -2781,7 +2781,7 @@ val
 {
 mPragmaNoCache
 =
-PR_FALSE
+false
 ;
 return
 ;
@@ -2804,6 +2804,6 @@ HTTP_HEADER_VALUE_SEPS
 )
 mPragmaNoCache
 =
-PR_TRUE
+true
 ;
 }
