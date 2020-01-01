@@ -9890,6 +9890,17 @@ R
 .
 id
 .
+middle_handle
+)
+(
+TextSelectionHandle
+)
+findViewById
+(
+R
+.
+id
+.
 end_handle
 )
 GeckoAppShell
