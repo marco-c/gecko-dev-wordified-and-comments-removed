@@ -46,3 +46,13 @@ export
 MOZILLA_OFFICIAL
 =
 1
+ac_add_options
+-
+-
+with
+-
+macbundlename
+-
+prefix
+=
+Firefox

@@ -1056,7 +1056,7 @@ key
 string
 >
 %
-APP_NAME
+MAC_APP_NAME
 %
 %
 APP_VERSION
@@ -1097,7 +1097,7 @@ org
 mozilla
 .
 %
-LOWER_APP_NAME
+LOWER_MAC_APP_NAME
 %
 <
 /
@@ -1133,7 +1133,7 @@ key
 string
 >
 %
-APP_NAME
+MAC_APP_NAME
 %
 <
 /

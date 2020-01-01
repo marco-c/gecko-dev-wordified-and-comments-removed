@@ -106,3 +106,13 @@ MOZ_MAKE_FLAGS
 -
 j4
 "
+ac_add_options
+-
+-
+with
+-
+macbundlename
+-
+prefix
+=
+Firefox
