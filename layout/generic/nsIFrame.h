@@ -417,7 +417,7 @@ define
 NS_FRAME_IMPL_RESERVED
 nsFrameState
 (
-0xF0000000FFF00000
+0xFFF00000
 )
 #
 define
