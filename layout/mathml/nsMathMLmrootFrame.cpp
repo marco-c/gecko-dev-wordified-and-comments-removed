@@ -745,6 +745,10 @@ if
 count
 )
 {
+ReportChildCountError
+(
+)
+;
 rv
 =
 ReflowError

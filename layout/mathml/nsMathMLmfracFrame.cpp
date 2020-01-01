@@ -648,6 +648,16 @@ GetNextSibling
 )
 )
 {
+if
+(
+aPlaceOrigin
+)
+{
+ReportChildCountError
+(
+)
+;
+}
 return
 ReflowError
 (
