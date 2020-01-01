@@ -601,7 +601,10 @@ aName
 ]
 =
 aLambda
+.
+apply
 (
+aObject
 )
 ;
 }
