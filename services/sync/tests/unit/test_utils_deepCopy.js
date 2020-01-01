@@ -61,6 +61,8 @@ bar
 let
 ret
 =
+Utils
+.
 deepCopy
 (
 thing
