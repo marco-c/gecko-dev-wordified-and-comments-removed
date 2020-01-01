@@ -9636,6 +9636,11 @@ htmlPanel
 tooltiptext
 ;
 "
+tabindex
+=
+"
+0
+"
 command
 =
 "
@@ -9722,6 +9727,11 @@ inspect3DViewButton
 accesskey
 ;
 "
+tabindex
+=
+"
+0
+"
 command
 =
 "
@@ -9766,6 +9776,11 @@ inspectStyleButton
 .
 accesskey
 ;
+"
+tabindex
+=
+"
+0
 "
 command
 =
