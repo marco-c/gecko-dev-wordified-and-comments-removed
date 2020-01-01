@@ -189,7 +189,7 @@ WEAKROOTS
 :
 static_cast
 <
-AutoSaveRestoreWeakRoots
+AutoPreserveWeakRoots
 *
 >
 (
