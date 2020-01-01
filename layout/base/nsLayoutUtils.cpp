@@ -12532,14 +12532,12 @@ NS_STYLE_BOX_SIZING_CONTENT
 else
 if
 (
+!
 styleWidth
 .
-GetUnit
+ConvertsToLength
 (
 )
-!
-=
-eStyleUnit_Coord
 &
 &
 !
