@@ -200,11 +200,6 @@ _SessionFile
 write
 (
 content
-{
-backupOnFirstWrite
-:
-true
-}
 )
 ;
 do_check_true
@@ -303,11 +298,6 @@ _SessionFile
 write
 (
 content
-{
-backupOnFirstWrite
-:
-true
-}
 )
 ;
 let
