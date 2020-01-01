@@ -8277,14 +8277,11 @@ NULL
 if
 (
 !
-JS_DefineFunctionsWithPrefix
+JS_DefineFunctions
 (
 cx
 module
 static_methods
-"
-Proxy
-"
 )
 )
 return

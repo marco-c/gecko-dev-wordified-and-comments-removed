@@ -7882,12 +7882,11 @@ NULL
 if
 (
 !
-JS_DefineFunctionsWithPrefix
+JS_DefineFunctions
 (
 cx
 JSON
 json_static_methods
-js_JSON_str
 )
 )
 return

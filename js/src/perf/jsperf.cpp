@@ -636,7 +636,6 @@ pm_get_
 #
 name
 0
-JS_TypeHandlerFloat
 }
 static
 JSPropertySpec
