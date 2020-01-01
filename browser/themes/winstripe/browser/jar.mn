@@ -611,9 +611,7 @@ browser
 /
 urlbar
 -
-favicon
--
-glow
+arrow
 .
 png
 skin
@@ -2406,9 +2404,7 @@ browser
 /
 urlbar
 -
-favicon
--
-glow
+arrow
 .
 png
 skin
