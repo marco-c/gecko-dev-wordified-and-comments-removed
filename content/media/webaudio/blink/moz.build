@@ -128,6 +128,16 @@ FFTConvolver
 cpp
 '
 '
+HRTFDatabase
+.
+cpp
+'
+'
+HRTFDatabaseLoader
+.
+cpp
+'
+'
 HRTFElevation
 .
 cpp
