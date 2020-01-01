@@ -961,6 +961,9 @@ word
 ;
 }
 ;
+uint32
+caller_argc
+;
 }
 ;
 struct
