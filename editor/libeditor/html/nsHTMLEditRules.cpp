@@ -41439,6 +41439,9 @@ mHTMLEditor
 return
 ;
 }
+nsAutoScriptBlockerSuppressNodeRemoved
+scriptBlocker
+;
 nsCOMPtr
 <
 nsIHTMLEditor
