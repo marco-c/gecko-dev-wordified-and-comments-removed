@@ -5204,6 +5204,17 @@ this
 rect
 )
 ;
+mGLContext
+-
+>
+fBlendFuncSeparate
+(
+LOCAL_GL_ONE
+LOCAL_GL_ONE_MINUS_SRC_ALPHA
+LOCAL_GL_ONE
+LOCAL_GL_ONE
+)
+;
 RootLayer
 (
 )
