@@ -4842,7 +4842,7 @@ mClosed
 continue
 ;
 PRInt64
-desiredOffset
+dataOffset
 =
 stream
 -
@@ -4854,6 +4854,11 @@ stream
 >
 mStreamOffset
 )
+;
+PRInt64
+desiredOffset
+=
+dataOffset
 ;
 if
 (
@@ -4955,7 +4960,7 @@ mStreamLength
 0
 &
 &
-desiredOffset
+dataOffset
 >
 =
 stream
@@ -4990,7 +4995,10 @@ stream
 mCacheSuspended
 &
 &
-desiredOffset
+stream
+-
+>
+mStreamLength
 =
 =
 stream
