@@ -2406,11 +2406,9 @@ ArrayPopDense
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
-Value
-*
+MutableHandleValue
 rval
 )
 ;
@@ -2420,8 +2418,7 @@ ArrayPushDense
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
 HandleValue
 v
@@ -2436,11 +2433,9 @@ ArrayShiftDense
 JSContext
 *
 cx
-JSObject
-*
+HandleObject
 obj
-Value
-*
+MutableHandleValue
 rval
 )
 ;

@@ -14276,10 +14276,8 @@ pf
 (
 JSContext
 *
-JSObject
-*
-Value
-*
+HandleObject
+MutableHandleValue
 )
 ;
 if
@@ -15000,8 +14998,7 @@ pf
 (
 JSContext
 *
-JSObject
-*
+HandleObject
 HandleValue
 uint32_t
 *
