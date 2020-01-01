@@ -541,7 +541,7 @@ test_ui_stays_open_on_alert_clickback
 .
 xul
 \
-test_unkownContentType_dialog_layout
+test_unknownContentType_dialog_layout
 .
 xul
 \
