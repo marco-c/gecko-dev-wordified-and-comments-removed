@@ -301,6 +301,8 @@ novalidate
 html
 select
 -
+required
+-
 ref
 .
 html
