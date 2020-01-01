@@ -359,4 +359,14 @@ Ci
 nsIPropertyBag2
 )
 ;
+checkService
+(
+"
+clipboard
+"
+Ci
+.
+nsIClipboard
+)
+;
 }
