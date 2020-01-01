@@ -2224,6 +2224,12 @@ mCanvasTM
 ;
 if
 (
+mCurrentScale
+&
+&
+mCurrentTranslate
+&
+&
 svgElement
 -
 >
