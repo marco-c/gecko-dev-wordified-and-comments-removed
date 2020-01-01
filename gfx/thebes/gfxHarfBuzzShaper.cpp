@@ -229,6 +229,11 @@ hb_blob_destroy
 mHmtxTable
 )
 ;
+hb_blob_destroy
+(
+mKernTable
+)
+;
 hb_face_destroy
 (
 mHBFace
