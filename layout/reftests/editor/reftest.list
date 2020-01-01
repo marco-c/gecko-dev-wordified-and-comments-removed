@@ -161,6 +161,9 @@ passwd
 ref
 .
 html
+needs
+-
+focus
 asserts
 (
 1
@@ -664,6 +667,9 @@ caret_on_focus
 ref
 .
 html
+needs
+-
+focus
 !
 =
 caret_on_textarea_lastline
@@ -674,6 +680,9 @@ caret_on_textarea_lastline
 ref
 .
 html
+needs
+-
+focus
 =
 =
 input
@@ -696,6 +705,9 @@ reframe
 ref
 .
 html
+needs
+-
+focus
 =
 =
 input
@@ -722,6 +734,9 @@ reframe
 ref
 .
 html
+needs
+-
+focus
 =
 =
 caret_after_reframe

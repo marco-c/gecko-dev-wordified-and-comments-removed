@@ -154,6 +154,9 @@ textarea
 ref
 .
 html
+needs
+-
+focus
 =
 =
 placeholder
@@ -168,6 +171,9 @@ focus
 ref
 .
 html
+needs
+-
+focus
 =
 =
 placeholder
@@ -182,6 +188,9 @@ focus
 ref
 .
 html
+needs
+-
+focus
 =
 =
 placeholder
@@ -196,6 +205,9 @@ focus
 ref
 .
 html
+needs
+-
+focus
 =
 =
 placeholder
@@ -266,6 +278,9 @@ visible
 ref
 .
 html
+needs
+-
+focus
 =
 =
 placeholder
@@ -280,6 +295,9 @@ focus
 ref
 .
 html
+needs
+-
+focus
 =
 =
 placeholder
@@ -294,6 +312,9 @@ focus
 ref
 .
 html
+needs
+-
+focus
 =
 =
 placeholder
@@ -336,6 +357,9 @@ overridden
 ref
 .
 xul
+needs
+-
+focus
 =
 =
 placeholder
@@ -350,6 +374,9 @@ focus
 ref
 .
 html
+needs
+-
+focus
 =
 =
 placeholder
@@ -364,6 +391,9 @@ focus
 ref
 .
 html
+needs
+-
+focus
 =
 =
 placeholder
