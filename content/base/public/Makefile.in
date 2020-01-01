@@ -673,14 +673,6 @@ nsIDroppedLinkHandler
 .
 idl
 \
-nsIScriptEventHandler
-.
-idl
-\
-nsIScriptEventManager
-.
-idl
-\
 nsIImageLoadingContent
 .
 idl

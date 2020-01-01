@@ -738,10 +738,6 @@ nsScriptElement
 .
 cpp
 \
-nsScriptEventManager
-.
-cpp
-\
 nsScriptLoader
 .
 cpp
