@@ -590,9 +590,6 @@ lir
 new
 LCheckOverRecursed
 (
-temp
-(
-)
 )
 ;
 if
