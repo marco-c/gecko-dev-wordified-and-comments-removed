@@ -485,7 +485,6 @@ aWhichClipboard
 bool
 *
 aHasText
-NS_OUTPARAM
 )
 {
 *
@@ -567,7 +566,6 @@ SupportsSelectionClipboard
 bool
 *
 aIsSupported
-NS_OUTPARAM
 )
 {
 *

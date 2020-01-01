@@ -113,7 +113,6 @@ aFeature
 PRInt32
 *
 _retval
-NS_OUTPARAM
 )
 ;
 NS_SCRIPTABLE
@@ -125,7 +124,6 @@ aFeature
 nsAString
 &
 _retval
-NS_OUTPARAM
 )
 ;
 NS_SCRIPTABLE
@@ -139,7 +137,6 @@ aParam
 nsAString
 &
 _retval
-NS_OUTPARAM
 )
 ;
 NS_SCRIPTABLE
@@ -149,13 +146,11 @@ GetFailures
 PRUint32
 *
 failureCount
-NS_OUTPARAM
 char
 *
 *
 *
 failures
-NS_OUTPARAM
 )
 ;
 NS_IMETHOD_

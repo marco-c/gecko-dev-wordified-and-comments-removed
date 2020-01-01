@@ -110,31 +110,25 @@ char
 *
 *
 prefBranch
-NS_OUTPARAM
 char
 *
 *
 id
-NS_OUTPARAM
 char
 *
 *
 subjectName
-NS_OUTPARAM
 char
 *
 *
 grantedList
-NS_OUTPARAM
 char
 *
 *
 deniedList
-NS_OUTPARAM
 bool
 *
 isTrusted
-NS_OUTPARAM
 )
 ;
 NS_IMETHOD
@@ -164,7 +158,6 @@ capability
 PRInt16
 *
 _retval
-NS_OUTPARAM
 )
 ;
 NS_IMETHOD
@@ -180,7 +173,6 @@ annotation
 bool
 *
 _retval
-NS_OUTPARAM
 )
 ;
 NS_IMETHOD
@@ -194,7 +186,6 @@ void
 *
 *
 annotation
-NS_INOUTPARAM
 )
 ;
 NS_IMETHOD
@@ -475,7 +466,6 @@ other
 bool
 *
 _retval
-NS_OUTPARAM
 )
 ;
 NS_IMETHOD
@@ -487,7 +477,6 @@ other
 bool
 *
 _retval
-NS_OUTPARAM
 )
 ;
 NS_IMETHOD
@@ -542,7 +531,6 @@ other
 bool
 *
 _retval
-NS_OUTPARAM
 )
 ;
 NS_IMETHOD
@@ -554,7 +542,6 @@ other
 bool
 *
 _retval
-NS_OUTPARAM
 )
 ;
 NS_IMETHOD
@@ -791,7 +778,6 @@ other
 bool
 *
 _retval
-NS_OUTPARAM
 )
 ;
 NS_IMETHOD
@@ -803,7 +789,6 @@ other
 bool
 *
 _retval
-NS_OUTPARAM
 )
 ;
 NS_IMETHOD
@@ -858,7 +843,6 @@ other
 bool
 *
 _retval
-NS_OUTPARAM
 )
 ;
 NS_IMETHOD
@@ -870,7 +854,6 @@ other
 bool
 *
 _retval
-NS_OUTPARAM
 )
 ;
 NS_IMETHOD

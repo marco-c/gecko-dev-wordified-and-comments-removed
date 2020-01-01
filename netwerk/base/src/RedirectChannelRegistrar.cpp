@@ -137,7 +137,6 @@ channel
 PRUint32
 *
 _retval
-NS_OUTPARAM
 )
 {
 mRealChannels
@@ -182,7 +181,6 @@ nsIChannel
 *
 *
 _retval
-NS_OUTPARAM
 )
 {
 if
@@ -258,7 +256,6 @@ nsIParentChannel
 *
 *
 _retval
-NS_OUTPARAM
 )
 {
 if

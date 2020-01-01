@@ -137,7 +137,6 @@ gfxASurface
 *
 *
 _retval
-NS_OUTPARAM
 )
 ;
 NS_IMETHOD
@@ -153,7 +152,6 @@ ImageContainer
 *
 *
 _retval
-NS_OUTPARAM
 )
 {
 *
@@ -176,7 +174,6 @@ gfxImageSurface
 *
 *
 _retval
-NS_OUTPARAM
 )
 ;
 NS_IMETHOD
@@ -194,7 +191,6 @@ imgIContainer
 *
 *
 _retval
-NS_OUTPARAM
 )
 ;
 NS_IMETHOD

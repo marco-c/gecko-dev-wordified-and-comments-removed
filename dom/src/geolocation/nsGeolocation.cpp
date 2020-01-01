@@ -3804,7 +3804,6 @@ cx
 PRInt32
 *
 _retval
-NS_OUTPARAM
 )
 {
 NS_ENSURE_ARG_POINTER

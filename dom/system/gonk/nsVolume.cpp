@@ -240,7 +240,6 @@ nsIVolumeStat
 *
 *
 aResult
-NS_OUTPARAM
 )
 {
 if

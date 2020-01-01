@@ -26,7 +26,6 @@ nsIStringEnumerator
 *
 *
 aResult
-NS_OUTPARAM
 const
 nsTArray
 <
@@ -46,7 +45,6 @@ nsIUTF8StringEnumerator
 *
 *
 aResult
-NS_OUTPARAM
 const
 nsTArray
 <
@@ -63,7 +61,6 @@ nsIStringEnumerator
 *
 *
 aResult
-NS_OUTPARAM
 const
 nsTArray
 <
@@ -80,7 +77,6 @@ nsIStringEnumerator
 *
 *
 aResult
-NS_OUTPARAM
 nsTArray
 <
 nsString
@@ -96,7 +92,6 @@ nsIUTF8StringEnumerator
 *
 *
 aResult
-NS_OUTPARAM
 nsTArray
 <
 nsCString
@@ -112,7 +107,6 @@ nsIUTF8StringEnumerator
 *
 *
 aResult
-NS_OUTPARAM
 const
 nsTArray
 <

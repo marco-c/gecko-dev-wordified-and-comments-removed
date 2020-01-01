@@ -358,7 +358,6 @@ data
 char
 *
 _retval
-NS_OUTPARAM
 )
 ;
 static
@@ -372,7 +371,6 @@ data
 PRUnichar
 *
 _retval
-NS_OUTPARAM
 )
 ;
 static
@@ -386,7 +384,6 @@ data
 nsID
 *
 _retval
-NS_OUTPARAM
 )
 ;
 static
@@ -400,7 +397,6 @@ data
 nsAString
 &
 _retval
-NS_OUTPARAM
 )
 ;
 static
@@ -483,12 +479,10 @@ nsIID
 *
 *
 iid
-NS_OUTPARAM
 void
 *
 *
 iface
-NS_OUTPARAM
 )
 ;
 static
@@ -502,15 +496,12 @@ data
 PRUint16
 *
 type
-NS_OUTPARAM
 nsIID
 *
 iid
-NS_OUTPARAM
 PRUint32
 *
 count
-NS_OUTPARAM
 void
 *
 *
@@ -528,7 +519,6 @@ data
 PRUint32
 *
 size
-NS_OUTPARAM
 char
 *
 *
@@ -546,7 +536,6 @@ data
 PRUint32
 *
 size
-NS_OUTPARAM
 PRUnichar
 *
 *

@@ -9778,7 +9778,6 @@ void
 *
 *
 result
-NS_OUTPARAM
 )
 {
 LOG

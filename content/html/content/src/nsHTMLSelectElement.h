@@ -904,7 +904,6 @@ aIndex
 bool
 *
 aIsDisabled
-NS_OUTPARAM
 )
 ;
 NS_IMETHOD
@@ -925,7 +924,6 @@ aNotify
 bool
 *
 aChangedSomething
-NS_OUTPARAM
 )
 ;
 NS_IMETHOD
@@ -941,7 +939,6 @@ aForward
 PRInt32
 *
 aIndex
-NS_OUTPARAM
 )
 ;
 virtual

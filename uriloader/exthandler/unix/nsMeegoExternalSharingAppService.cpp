@@ -211,13 +211,11 @@ aMIMEType
 PRUint32
 *
 aLen
-NS_OUTPARAM
 nsISharingHandlerApp
 *
 *
 *
 aHandlers
-NS_OUTPARAM
 )
 {
 return

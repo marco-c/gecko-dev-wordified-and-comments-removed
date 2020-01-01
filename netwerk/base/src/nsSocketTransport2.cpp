@@ -7786,7 +7786,6 @@ nsINetAddr
 *
 *
 addr
-NS_OUTPARAM
 )
 {
 PRNetAddr
@@ -7840,7 +7839,6 @@ nsINetAddr
 *
 *
 addr
-NS_OUTPARAM
 )
 {
 PRNetAddr

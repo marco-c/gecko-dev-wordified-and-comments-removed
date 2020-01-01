@@ -265,7 +265,6 @@ aKey
 UserDataType
 *
 pData
-NS_OUTPARAM
 )
 const
 {

@@ -137,7 +137,6 @@ Available
 PRUint32
 *
 _retval
-NS_OUTPARAM
 )
 {
 PRUint32
@@ -192,7 +191,6 @@ aCount
 PRUint32
 *
 _retval
-NS_OUTPARAM
 )
 {
 if
@@ -378,7 +376,6 @@ IsNonBlocking
 bool
 *
 _retval
-NS_OUTPARAM
 )
 {
 return

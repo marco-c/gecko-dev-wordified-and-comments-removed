@@ -2349,7 +2349,6 @@ GetCharsetAndSource
 PRInt32
 *
 aSource
-NS_OUTPARAM
 nsACString
 &
 _retval

@@ -607,7 +607,6 @@ T
 *
 *
 aResult
-NS_INPARAM
 )
 {
 if
