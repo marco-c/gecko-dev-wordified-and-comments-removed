@@ -413,6 +413,15 @@ nsIConstraintValidation
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
 using
 namespace
 mozilla
@@ -3706,6 +3715,7 @@ forget
 }
 class
 DefaultTooltipTextProvider
+MOZ_FINAL
 :
 public
 nsITooltipTextProvider
