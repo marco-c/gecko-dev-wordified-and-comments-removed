@@ -2896,10 +2896,10 @@ numSuccessors
 -
 1
 ;
-DebugOnly
-<
+#
+ifdef
+DEBUG
 size_t
->
 numBlocks
 =
 graph
@@ -2908,6 +2908,8 @@ numBlocks
 (
 )
 ;
+#
+endif
 graph
 .
 clearBlockList
