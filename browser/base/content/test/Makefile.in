@@ -697,7 +697,7 @@ browser_gestureSupport
 .
 js
 \
-browser_feed_tab
+browser_pageInfo
 .
 js
 \
