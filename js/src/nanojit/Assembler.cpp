@@ -241,7 +241,7 @@ _entries
 ]
 =
 =
-BAD_ENTRY
+NULL
 )
 ;
 for
@@ -315,6 +315,17 @@ _highWaterMark
 =
 0
 ;
+NanoAssert
+(
+_entries
+[
+0
+]
+=
+=
+NULL
+)
+;
 #
 ifdef
 _DEBUG
@@ -323,7 +334,7 @@ for
 uint32_t
 i
 =
-0
+1
 ;
 i
 <
