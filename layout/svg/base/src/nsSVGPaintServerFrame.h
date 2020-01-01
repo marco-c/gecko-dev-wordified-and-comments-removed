@@ -104,6 +104,12 @@ GetPaintServerPattern
 nsIFrame
 *
 aSource
+nsStyleSVGPaint
+nsStyleSVG
+:
+:
+*
+aFillOrStroke
 float
 aOpacity
 const
@@ -126,6 +132,12 @@ aContext
 nsSVGGeometryFrame
 *
 aSource
+nsStyleSVGPaint
+nsStyleSVG
+:
+:
+*
+aFillOrStroke
 float
 aOpacity
 )

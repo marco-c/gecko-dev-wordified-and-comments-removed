@@ -1495,6 +1495,15 @@ aFrame
 #
 endif
 static
+gfxMatrix
+GetStrokeTransform
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
 gfxRect
 PathExtentsToMaxStrokeExtents
 (

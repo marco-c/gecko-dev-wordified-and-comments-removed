@@ -2638,6 +2638,11 @@ values
 nsGkAtoms
 :
 :
+vector_effect
+&
+nsGkAtoms
+:
+:
 viewBox
 &
 nsGkAtoms

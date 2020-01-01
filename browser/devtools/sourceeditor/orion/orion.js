@@ -68744,6 +68744,11 @@ unicode
 bidi
 "
 "
+vector
+-
+effect
+"
+"
 vertical
 -
 align
