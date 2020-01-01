@@ -135,7 +135,7 @@ MOZ_WIDGET_GONK
 #
 include
 "
-BootAnimation
+GonkDisplay
 .
 h
 "
@@ -746,7 +746,10 @@ MOZ_WIDGET_GONK
 (
 void
 )
-NativeWindow
+mozilla
+:
+:
+GetGonkDisplay
 (
 )
 ;
