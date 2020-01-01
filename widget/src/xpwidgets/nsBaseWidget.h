@@ -584,7 +584,8 @@ PRInt32
 aVertical
 )
 ;
-NS_IMETHOD
+virtual
+nsresult
 ActivateNativeMenuItemAt
 (
 const

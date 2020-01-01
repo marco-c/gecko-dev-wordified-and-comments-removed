@@ -1508,7 +1508,7 @@ ActivateNativeMenuItemAt
 const
 nsAString
 &
-aString
+indexString
 )
 =
 0
