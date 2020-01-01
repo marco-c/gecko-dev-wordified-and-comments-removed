@@ -647,6 +647,10 @@ test_elm_plugin
 .
 html
 \
+test_elm_select
+.
+html
+\
 test_elm_tree
 .
 xul
