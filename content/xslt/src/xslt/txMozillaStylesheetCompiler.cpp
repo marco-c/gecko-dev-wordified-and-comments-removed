@@ -2169,6 +2169,7 @@ nsCrossSiteListenerProxy
 sink
 aReferrerPrincipal
 channel
+PR_FALSE
 &
 rv
 )

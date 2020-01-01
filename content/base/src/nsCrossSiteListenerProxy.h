@@ -117,6 +117,8 @@ aRequestingPrincipal
 nsIChannel
 *
 aChannel
+PRBool
+aWithCredentials
 nsresult
 *
 aResult
@@ -133,6 +135,8 @@ aRequestingPrincipal
 nsIChannel
 *
 aChannel
+PRBool
+aWithCredentials
 const
 nsCString
 &
@@ -189,6 +193,9 @@ nsCOMPtr
 nsIInterfaceRequestor
 >
 mOuterNotificationCallbacks
+;
+PRBool
+mWithCredentials
 ;
 PRBool
 mRequestApproved

@@ -718,6 +718,7 @@ nsCrossSiteListenerProxy
 listener
 aLoaderPrincipal
 mChannel
+PR_FALSE
 &
 rv
 )
