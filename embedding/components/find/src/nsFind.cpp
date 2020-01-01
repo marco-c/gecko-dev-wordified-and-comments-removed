@@ -905,6 +905,17 @@ range
 ;
 if
 (
+mOuterIterator
+-
+>
+IsDone
+(
+)
+)
+return
+;
+if
+(
 !
 mFindBackward
 )
