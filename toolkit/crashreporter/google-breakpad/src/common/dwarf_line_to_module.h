@@ -6,6 +6,11 @@ define
 COMMON_LINUX_DWARF_LINE_TO_MODULE_H
 #
 include
+<
+string
+>
+#
+include
 "
 common
 /
@@ -21,6 +26,15 @@ common
 dwarf
 /
 dwarf2reader
+.
+h
+"
+#
+include
+"
+common
+/
+using_std_string
 .
 h
 "
@@ -91,9 +105,6 @@ void
 DefineDir
 (
 const
-std
-:
-:
 string
 &
 name
@@ -105,9 +116,6 @@ void
 DefineFile
 (
 const
-std
-:
-:
 string
 &
 name
@@ -145,9 +153,6 @@ std
 map
 <
 uint32
-std
-:
-:
 string
 >
 DirectoryTable

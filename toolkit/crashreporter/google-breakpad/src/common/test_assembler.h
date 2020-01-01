@@ -22,6 +22,15 @@ string
 #
 include
 "
+common
+/
+using_std_string
+.
+h
+"
+#
+include
+"
 google_breakpad
 /
 common
@@ -38,12 +47,6 @@ std
 :
 :
 list
-;
-using
-std
-:
-:
-string
 ;
 using
 std
@@ -299,6 +302,7 @@ endianness
 {
 }
 ;
+virtual
 ~
 Section
 (

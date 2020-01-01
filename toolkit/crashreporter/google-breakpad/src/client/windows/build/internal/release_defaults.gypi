@@ -10,7 +10,7 @@ VCCLCompilerTool
 :
 {
 '
-Optimizations
+Optimization
 '
 :
 '

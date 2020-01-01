@@ -17,7 +17,6 @@ HANDLE_EINTR
 (
 x
 )
-__extension__
 (
 {
 \

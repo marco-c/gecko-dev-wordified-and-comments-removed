@@ -47,6 +47,15 @@ h
 #
 include
 "
+common
+/
+using_std_string
+.
+h
+"
+#
+include
+"
 breakpad_googletest_includes
 .
 h
@@ -76,9 +85,6 @@ std
 :
 set
 <
-std
-:
-:
 string
 >
 dent_set

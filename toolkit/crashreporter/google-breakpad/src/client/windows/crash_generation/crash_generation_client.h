@@ -98,6 +98,13 @@ Register
 )
 ;
 bool
+RequestUpload
+(
+DWORD
+crash_id
+)
+;
+bool
 RequestDump
 (
 EXCEPTION_POINTERS

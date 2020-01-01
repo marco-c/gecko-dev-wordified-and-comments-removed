@@ -260,6 +260,7 @@ char
 *
 key
 )
+const
 ;
 void
 SetKeyValue

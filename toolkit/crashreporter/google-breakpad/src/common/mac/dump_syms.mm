@@ -17,7 +17,7 @@ Copyright
 (
 c
 )
-2010
+2011
 Google
 Inc
 .
@@ -393,6 +393,11 @@ include
 stdio
 .
 h
+>
+#
+include
+<
+ostream
 >
 #
 include
@@ -3107,9 +3112,14 @@ DumpSymbols
 :
 WriteSymbolFile
 (
-FILE
-*
+std
+:
+:
+ostream
+&
 stream
+bool
+cfi
 )
 {
 /
@@ -3600,6 +3610,7 @@ module
 Write
 (
 stream
+cfi
 )
 ;
 }
