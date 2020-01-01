@@ -941,6 +941,15 @@ Location
 <
 !
 ENTITY
+permPlugins
+"
+Activate
+Plugins
+"
+>
+<
+!
+ENTITY
 permIndexedDB
 "
 Maintain

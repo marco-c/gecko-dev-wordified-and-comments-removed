@@ -254,6 +254,16 @@ Location
 >
 <
 !
+ENTITY
+plugins
+.
+label
+"
+Plugins
+"
+>
+<
+!
 -
 -
 LOCALIZATION
