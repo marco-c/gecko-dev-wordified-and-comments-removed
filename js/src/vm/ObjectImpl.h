@@ -4920,6 +4920,13 @@ return
 false
 ;
 }
+inline
+bool
+isProxy
+(
+)
+const
+;
 protected
 :
 #

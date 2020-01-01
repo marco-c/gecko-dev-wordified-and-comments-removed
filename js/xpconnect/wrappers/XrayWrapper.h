@@ -194,6 +194,16 @@ XrayWrapper
 ;
 virtual
 bool
+isExtensible
+(
+JSObject
+*
+wrapper
+)
+MOZ_OVERRIDE
+;
+virtual
+bool
 getPropertyDescriptor
 (
 JSContext
