@@ -284,9 +284,6 @@ DoApplyRenderingChangeToTree
 nsIFrame
 *
 aFrame
-nsFrameManager
-*
-aFrameManager
 nsChangeHint
 aChange
 )
@@ -298,9 +295,6 @@ SyncViewsAndInvalidateDescendants
 nsIFrame
 *
 aFrame
-nsFrameManager
-*
-aFrameManager
 nsChangeHint
 aChange
 )
@@ -494,7 +488,6 @@ child
 DoApplyRenderingChangeToTree
 (
 outOfFlowFrame
-aFrameManager
 aChange
 )
 ;
@@ -518,7 +511,6 @@ kPopupList
 DoApplyRenderingChangeToTree
 (
 child
-aFrameManager
 aChange
 )
 ;
@@ -528,7 +520,6 @@ else
 SyncViewsAndInvalidateDescendants
 (
 child
-aFrameManager
 aChange
 )
 ;
@@ -682,9 +673,6 @@ DoApplyRenderingChangeToTree
 nsIFrame
 *
 aFrame
-nsFrameManager
-*
-aFrameManager
 nsChangeHint
 aChange
 )
@@ -721,7 +709,6 @@ aFrame
 SyncViewsAndInvalidateDescendants
 (
 aFrame
-aFrameManager
 nsChangeHint
 (
 aChange
@@ -1233,12 +1220,6 @@ endif
 DoApplyRenderingChangeToTree
 (
 aFrame
-shell
--
->
-FrameManager
-(
-)
 aChange
 )
 ;
