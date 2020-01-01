@@ -41,6 +41,13 @@ nsEventDispatcher
 .
 h
 "
+#
+include
+"
+nsGUIEvent
+.
+h
+"
 NS_IMPL_NS_NEW_HTML_ELEMENT_CHECK_PARSER
 (
 MenuItem
