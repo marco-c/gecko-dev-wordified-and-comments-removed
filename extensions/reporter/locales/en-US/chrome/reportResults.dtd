@@ -83,6 +83,14 @@ Language
 <
 !
 ENTITY
+reportCharset
+"
+Charset
+"
+>
+<
+!
+ENTITY
 reportEmail
 "
 Email
