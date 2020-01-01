@@ -972,7 +972,6 @@ FreeBSD
 HP
 -
 UX
-IRIX
 Linux
 NetBSD
 OpenBSD
