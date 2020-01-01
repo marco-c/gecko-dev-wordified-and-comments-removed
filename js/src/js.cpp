@@ -15160,6 +15160,10 @@ file
 JS_free
 (
 cx
+(
+void
+*
+)
 pathname
 )
 ;
