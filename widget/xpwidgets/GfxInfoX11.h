@@ -306,6 +306,7 @@ bool
 mHasTextureFromPixmap
 ;
 int
+mGLMajorVersion
 mMajorVersion
 mMinorVersion
 mRevisionVersion
