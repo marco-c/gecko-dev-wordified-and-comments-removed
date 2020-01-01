@@ -3993,6 +3993,22 @@ jsval
 '
 :
             
+f
+.
+write
+(
+"
+jsval
+%
+s
+;
+\
+n
+"
+%
+varname
+)
+            
 return
     
 elif
@@ -4093,19 +4109,6 @@ unaliasType
 type
 )
     
-assert
-getBuiltinOrNativeTypeName
-(
-type
-)
-is
-not
-'
-[
-jsval
-]
-'
-    
 if
 type
 .
@@ -4151,8 +4154,10 @@ jsval
             
 return
 '
-vp
+&
 '
++
+name
         
 elif
 type
@@ -4550,8 +4555,25 @@ jsval
 :
         
 "
+{
+jsvalRef
+}
+=
+result
+;
+\
+n
+"
+        
+"
 return
-JS_TRUE
+JS_WrapValue
+(
+cx
+{
+jsvalPtr
+}
+)
 ;
 \
 n
