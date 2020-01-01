@@ -598,6 +598,16 @@ DAPP_UA_NAME
 (
 APP_UA_NAME
 )
+ifdef
+WINCE
+DEFINES
++
+=
+-
+DWINCE
+=
+1
+endif
 APP_BINARY
 =
 (
