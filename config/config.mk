@@ -2213,14 +2213,6 @@ DEFINES
 -
 DSTATIC_EXPORTABLE_JS_API
 endif
-ifndef
-MOZ_NATIVE_ZLIB
-DEFINES
-+
-=
--
-DZLIB_INTERNAL
-endif
 endif
 endif
 #

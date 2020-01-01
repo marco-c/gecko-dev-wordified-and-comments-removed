@@ -476,11 +476,6 @@ dlldeps
 zlib
 .
 cpp
-DEFINES
-+
-=
--
-DZLIB_INTERNAL
 endif
 LOCAL_INCLUDES
 +
@@ -557,11 +552,6 @@ dlldeps
 zlib
 .
 cpp
-DEFINES
-+
-=
--
-DZLIB_INTERNAL
 endif
 ifdef
 MOZ_ENABLE_LIBXUL
