@@ -12,6 +12,13 @@ nsNetError
 .
 h
 "
+#
+include
+"
+mozStorage
+.
+h
+"
 static
 struct
 ResultMap
