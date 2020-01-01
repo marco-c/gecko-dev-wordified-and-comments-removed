@@ -14869,6 +14869,7 @@ setPointer
 void
 *
 where
+const
 void
 *
 value
@@ -14913,6 +14914,7 @@ value
 ;
 reinterpret_cast
 <
+const
 void
 *
 *

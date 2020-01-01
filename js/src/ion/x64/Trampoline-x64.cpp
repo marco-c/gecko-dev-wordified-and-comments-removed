@@ -1,6 +1,13 @@
 #
 include
 "
+jscompartment
+.
+h
+"
+#
+include
+"
 assembler
 /
 assembler
