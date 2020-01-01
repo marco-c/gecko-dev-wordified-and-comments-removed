@@ -5895,7 +5895,7 @@ dom
 .
 omit_components_in_content
 "
-false
+true
 )
 ;
 pref
