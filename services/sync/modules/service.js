@@ -2626,7 +2626,7 @@ baseURL
 +
 DAV
 .
-defaltPrefix
+defaultPrefix
 )
 ;
 this
