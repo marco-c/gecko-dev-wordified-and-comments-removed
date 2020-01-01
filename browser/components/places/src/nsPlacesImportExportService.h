@@ -280,15 +280,6 @@ nsIOutputStream
 aOutput
 )
 ;
-nsresult
-ArchiveBookmarksFile
-(
-PRInt32
-aNumberOfBackups
-PRBool
-aForceArchive
-)
-;
 inline
 nsresult
 EnsureServiceState
