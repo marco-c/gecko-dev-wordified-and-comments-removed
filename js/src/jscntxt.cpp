@@ -1666,8 +1666,8 @@ lrs
 }
 #
 ifdef
-JS_THREADSAFE
-js_ClearContextThread
+JS_TRACER
+js_DestroyJIT
 (
 cx
 )
@@ -1676,8 +1676,8 @@ cx
 endif
 #
 ifdef
-JS_TRACER
-js_DestroyJIT
+JS_THREADSAFE
+js_ClearContextThread
 (
 cx
 )
