@@ -473,6 +473,9 @@ stdout
 ;
 #
 endif
+struct
+Clip
+;
 void
 AddLayerDisplayItem
 (
@@ -482,6 +485,10 @@ aLayer
 nsDisplayItem
 *
 aItem
+const
+Clip
+&
+aClip
 LayerState
 aLayerState
 LayerManager
@@ -490,9 +497,6 @@ aManager
 =
 nsnull
 )
-;
-struct
-Clip
 ;
 void
 AddThebesDisplayItem
@@ -622,6 +626,12 @@ nsDisplayItemGeometry
 *
 *
 aOldGeometry
+=
+nsnull
+Clip
+*
+*
+aOldClip
 =
 nsnull
 )
@@ -1178,6 +1188,9 @@ nsAutoPtr
 nsDisplayItemGeometry
 >
 mGeometry
+;
+Clip
+mClip
 ;
 PRUint32
 mDisplayItemKey
