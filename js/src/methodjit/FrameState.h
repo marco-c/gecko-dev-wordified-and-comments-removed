@@ -1417,10 +1417,6 @@ bool
 popGuaranteed
 =
 false
-bool
-fixedType
-=
-false
 )
 ;
 void
@@ -2604,6 +2600,15 @@ fe
 )
 ;
 inline
+void
+fakeSync
+(
+FrameEntry
+*
+fe
+)
+;
+inline
 FrameEntry
 *
 getCallee
@@ -2845,7 +2850,6 @@ mask
 bool
 includePinned
 )
-const
 ;
 inline
 analyze
