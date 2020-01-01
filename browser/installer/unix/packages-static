@@ -764,6 +764,13 @@ bin
 /
 components
 /
+libimgicon
+.
+so
+bin
+/
+components
+/
 jsdservice
 .
 xpt
