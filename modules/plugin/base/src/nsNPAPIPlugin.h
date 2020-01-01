@@ -267,14 +267,6 @@ CheckClassInitialized
 void
 )
 ;
-#
-ifdef
-XP_MACOSX
-short
-fPluginRefNum
-;
-#
-endif
 NPPluginFuncs
 fCallbacks
 ;

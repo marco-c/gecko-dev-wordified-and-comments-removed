@@ -3388,11 +3388,7 @@ ifdef
 XP_MACOSX
 mCanUnloadLibrary
 (
-!
-aPluginInfo
--
->
-fBundle
+PR_FALSE
 )
 #
 else
