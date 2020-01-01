@@ -2015,6 +2015,7 @@ function
 Expiration_expireThumbnails
 (
 aURLsToKeep
+aCallback
 )
 {
 PageThumbsWorker
@@ -2056,6 +2057,7 @@ aURLsToKeep
 )
 ]
 }
+aCallback
 )
 ;
 }
