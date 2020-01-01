@@ -986,7 +986,8 @@ rv
 )
 )
 return
-rv
+-
+1
 ;
 nsCString
 previous
@@ -1012,7 +1013,8 @@ rv
 )
 )
 return
-rv
+-
+1
 ;
 static
 const
@@ -1083,7 +1085,8 @@ rv
 )
 )
 return
-rv
+-
+1
 ;
 rv
 =
@@ -1112,7 +1115,8 @@ rv
 )
 )
 return
-rv
+-
+1
 ;
 nsCOMPtr
 <
@@ -1177,7 +1181,8 @@ rv
 )
 )
 return
-rv
+-
+1
 ;
 NS_RELEASE
 (
@@ -1203,7 +1208,8 @@ rv
 )
 )
 return
-rv
+-
+1
 ;
 rv
 =
@@ -1222,7 +1228,8 @@ rv
 )
 )
 return
-rv
+-
+1
 ;
 rv
 =
@@ -1241,7 +1248,8 @@ rv
 )
 )
 return
-rv
+-
+1
 ;
 rv
 =
@@ -1263,7 +1271,8 @@ rv
 )
 )
 return
-rv
+-
+1
 ;
 NS_RELEASE
 (
@@ -1303,7 +1312,8 @@ rv
 )
 )
 return
-rv
+-
+1
 ;
 #
 endif
@@ -1330,6 +1340,6 @@ nullptr
 )
 ;
 return
-rv
+0
 ;
 }

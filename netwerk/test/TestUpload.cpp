@@ -489,7 +489,8 @@ rv
 )
 )
 return
-rv
+-
+1
 ;
 nsCOMPtr
 <
@@ -516,7 +517,8 @@ rv
 )
 )
 return
-rv
+-
+1
 ;
 nsCOMPtr
 <
@@ -546,7 +548,8 @@ rv
 )
 )
 return
-rv
+-
+1
 ;
 nsCOMPtr
 <

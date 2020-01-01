@@ -1115,7 +1115,8 @@ rv
 )
 )
 return
-rv
+-
+1
 ;
 if
 (
@@ -1161,7 +1162,8 @@ rv
 )
 )
 return
-rv
+-
+1
 ;
 PumpEvents
 (
@@ -1209,7 +1211,7 @@ n
 ;
 }
 return
-rv
+0
 ;
 }
 nsresult
