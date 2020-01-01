@@ -1973,9 +1973,6 @@ PRInt32
 aY
 )
 {
-nsresult
-res
-;
 PRInt32
 positioningOffset
 =
