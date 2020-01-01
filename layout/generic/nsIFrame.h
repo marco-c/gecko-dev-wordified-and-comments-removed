@@ -6150,6 +6150,17 @@ mState
 NS_FRAME_IS_SVG_TEXT
 ;
 }
+void
+CreateOwnLayerIfNeeded
+(
+nsDisplayListBuilder
+*
+aBuilder
+nsDisplayList
+*
+aList
+)
+;
 protected
 :
 nsRect
