@@ -56,13 +56,6 @@ h
 #
 include
 "
-nsSVGMatrix
-.
-h
-"
-#
-include
-"
 nsTextFragment
 .
 h
@@ -836,9 +829,9 @@ GetRotate
 (
 )
 ;
-nsCOMPtr
+nsAutoPtr
 <
-nsIDOMSVGMatrix
+gfxMatrix
 >
 mOverrideCanvasTM
 ;

@@ -54,10 +54,6 @@ nsSVGClipPathFrameBase
 (
 aContext
 )
-mClipParentMatrix
-(
-nsnull
-)
 mInUse
 (
 PR_FALSE
@@ -235,9 +231,9 @@ nsIFrame
 *
 mClipParent
 ;
-nsCOMPtr
+nsAutoPtr
 <
-nsIDOMSVGMatrix
+gfxMatrix
 >
 mClipParentMatrix
 ;

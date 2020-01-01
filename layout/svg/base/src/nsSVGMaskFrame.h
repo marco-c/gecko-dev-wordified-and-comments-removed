@@ -64,10 +64,6 @@ nsSVGMaskFrameBase
 (
 aContext
 )
-mMaskParentMatrix
-(
-nsnull
-)
 mInUse
 (
 PR_FALSE
@@ -233,9 +229,9 @@ nsIFrame
 *
 mMaskParent
 ;
-nsCOMPtr
+nsAutoPtr
 <
-nsIDOMSVGMatrix
+gfxMatrix
 >
 mMaskParentMatrix
 ;
