@@ -572,7 +572,11 @@ ifeq
 (
 OS_ARCH
 )
-WINNT
+_
+(
+GNU_CC
+)
+WINNT_
 )
 LDFLAGS
 +
