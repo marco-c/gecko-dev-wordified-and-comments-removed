@@ -883,6 +883,13 @@ aDump
 )
 ;
 }
+#
+if
+!
+defined
+(
+XP_MACOSX
+)
 PRBool
 XRE_SetRemoteExceptionHandler
 (
@@ -940,6 +947,8 @@ platform
 #
 endif
 }
+#
+endif
 #
 endif
 nsresult

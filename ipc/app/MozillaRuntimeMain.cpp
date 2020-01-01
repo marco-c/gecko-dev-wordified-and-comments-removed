@@ -65,6 +65,13 @@ defined
 (
 MOZ_CRASHREPORTER
 )
+&
+&
+!
+defined
+(
+XP_MACOSX
+)
 if
 (
 argc
