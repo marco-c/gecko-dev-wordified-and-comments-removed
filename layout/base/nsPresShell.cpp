@@ -19988,6 +19988,16 @@ IsSafeToFlush
 (
 )
 ;
+if
+(
+mDocument
+-
+>
+GetScriptGlobalObject
+(
+)
+)
+{
 isSafeToFlush
 =
 isSafeToFlush
@@ -20000,6 +20010,7 @@ IsSafeToRunScript
 (
 )
 ;
+}
 NS_ASSERTION
 (
 !
