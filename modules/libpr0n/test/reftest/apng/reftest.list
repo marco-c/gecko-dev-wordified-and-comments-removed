@@ -20,6 +20,7 @@ animation
 to
 complete
 .
+random
 =
 =
 delaytest
@@ -38,6 +39,7 @@ bug411852
 ref
 .
 png
+random
 =
 =
 delaytest
