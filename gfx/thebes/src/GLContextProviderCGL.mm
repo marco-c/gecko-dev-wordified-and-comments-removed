@@ -493,6 +493,10 @@ mInitialized
 (
 PR_FALSE
 )
+mOGLLibrary
+(
+nsnull
+)
 {
 }
 PRBool
