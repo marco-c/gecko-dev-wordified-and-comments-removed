@@ -2233,6 +2233,10 @@ rv
 rv
 )
 ;
+{
+nsAutoScriptBlocker
+scriptBlocker
+;
 mPrt
 -
 >
@@ -2348,6 +2352,7 @@ mPrt
 mPrintObject
 )
 ;
+}
 if
 (
 !
