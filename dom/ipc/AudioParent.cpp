@@ -364,11 +364,17 @@ AudioDrainDoneEvent
 AudioParent
 *
 owner
+nsresult
+status
 )
 {
 mOwner
 =
 owner
+;
+mStatus
+=
+status
 ;
 }
 NS_IMETHOD
@@ -381,6 +387,7 @@ mOwner
 >
 SendDrainDone
 (
+mStatus
 )
 ;
 return
@@ -394,6 +401,9 @@ nsRefPtr
 AudioParent
 >
 mOwner
+;
+nsresult
+mStatus
 ;
 }
 ;
@@ -429,6 +439,9 @@ Run
 (
 )
 {
+nsresult
+rv
+=
 mOwner
 -
 >
@@ -446,6 +459,7 @@ new
 AudioDrainDoneEvent
 (
 mParent
+rv
 )
 ;
 NS_DispatchToMainThread
@@ -933,6 +947,8 @@ AudioParent
 :
 SendDrainDone
 (
+nsresult
+status
 )
 {
 if
@@ -945,6 +961,7 @@ PAudioParent
 :
 SendDrainDone
 (
+status
 )
 ;
 return

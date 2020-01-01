@@ -140,7 +140,7 @@ aVolume
 0
 ;
 virtual
-void
+nsresult
 Drain
 (
 )
