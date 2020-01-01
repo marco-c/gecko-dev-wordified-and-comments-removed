@@ -217,6 +217,17 @@ argc
 ;
 void
 JS_FASTCALL
+Eval
+(
+VMFrame
+&
+f
+uint32
+argc
+)
+;
+void
+JS_FASTCALL
 EnterScript
 (
 VMFrame
