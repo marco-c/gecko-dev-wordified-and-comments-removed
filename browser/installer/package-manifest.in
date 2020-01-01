@@ -177,6 +177,9 @@ Contents
 /
 Resources
 /
+#
+ifdef
+MOZ_SIGNING
 APPNAME
 /
 Contents
@@ -184,6 +187,8 @@ Contents
 _CodeSignature
 /
 CodeResources
+#
+endif
 #
 endif
 [
