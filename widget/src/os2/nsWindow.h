@@ -367,6 +367,13 @@ aActivate
 )
 ;
 NS_IMETHOD
+SetZIndex
+(
+PRInt32
+aZIndex
+)
+;
+NS_IMETHOD
 CaptureMouse
 (
 PRBool
