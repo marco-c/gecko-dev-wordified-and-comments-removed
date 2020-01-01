@@ -16395,7 +16395,7 @@ js_GetMethod
 cx
 obj
 id
-JSGET_METHOD_BARRIER
+false
 vp
 )
 )
