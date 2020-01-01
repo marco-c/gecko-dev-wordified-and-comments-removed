@@ -11873,7 +11873,7 @@ canvas
 )
 )
 ;
-PRUint32
+uint32_t
 canvasCount
 =
 canvases
@@ -11886,7 +11886,7 @@ true
 ;
 for
 (
-PRUint32
+uint32_t
 i
 =
 0

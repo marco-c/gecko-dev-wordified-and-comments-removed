@@ -12580,7 +12580,7 @@ combobox
 )
 )
 {
-PRUint32
+uint32_t
 childCount
 =
 ChildCount
@@ -12589,7 +12589,7 @@ ChildCount
 ;
 for
 (
-PRUint32
+uint32_t
 idx
 =
 0

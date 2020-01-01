@@ -733,7 +733,7 @@ eDuringReflow
 void
 ChildrenOnlyTransformChanged
 (
-PRUint32
+uint32_t
 aFlags
 =
 0
