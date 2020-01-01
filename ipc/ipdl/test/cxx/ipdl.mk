@@ -85,6 +85,14 @@ PTestSanity
 .
 ipdl
 \
+PTestSelfManage
+.
+ipdl
+\
+PTestSelfManageRoot
+.
+ipdl
+\
 PTestShmem
 .
 ipdl

@@ -501,6 +501,8 @@ TestRacyRPCReplies
 \
 TestSanity
 \
+TestSelfManageRoot
+\
 TestShmem
 \
 TestShutdown
