@@ -952,6 +952,7 @@ PSB_onItemAdded
 aItemId
 aFolderId
 aIndex
+aItemType
 aURI
 )
 {
