@@ -1910,6 +1910,16 @@ BPP_onDialogAccept
 (
 )
 {
+document
+.
+commandDispatcher
+.
+focusedElement
+.
+blur
+(
+)
+;
 gEditItemOverlay
 .
 uninitPanel
