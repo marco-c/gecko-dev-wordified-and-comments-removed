@@ -221,7 +221,7 @@ nsnull
 }
 #
 ifndef
-WINCE
+WINCE_WINDOWS_MOBILE
 int
 CALLBACK
 BrowseCallbackProc
@@ -403,7 +403,7 @@ Truncate
 ;
 #
 ifndef
-WINCE
+WINCE_WINDOWS_MOBILE
 if
 (
 mMode
