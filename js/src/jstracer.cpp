@@ -25804,7 +25804,7 @@ fp
 >
 regs
 ;
-JS_ASSERT
+if
 (
 !
 fp
@@ -25812,7 +25812,7 @@ fp
 >
 imacpc
 )
-;
+{
 fp
 -
 >
@@ -25852,6 +25852,7 @@ runtime
 atomState
 )
 ;
+}
 return
 false
 ;
