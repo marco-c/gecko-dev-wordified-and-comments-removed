@@ -157,6 +157,10 @@ test_archivereader_zip_in_zip
 .
 html
 \
+test_bug_793311
+.
+html
+\
 (
 NULL
 )
