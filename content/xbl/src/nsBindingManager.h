@@ -620,6 +620,11 @@ DoProcessAttachedQueue
 (
 )
 ;
+void
+PostProcessAttachedQueueEvent
+(
+)
+;
 protected
 :
 void
