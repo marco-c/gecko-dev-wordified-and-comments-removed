@@ -474,6 +474,10 @@ test_geoPrompt
 .
 html
 \
+test_timeoutWatch
+.
+html
+\
 prompt_common
 .
 js
