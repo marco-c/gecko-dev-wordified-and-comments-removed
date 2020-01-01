@@ -1967,12 +1967,6 @@ address
 return
 false
 ;
-AUTO_MARK_JSVAL
-(
-ccx
-funval
-)
-;
 #
 ifdef
 off_DEBUG_jband
