@@ -1352,9 +1352,6 @@ LirWriter
 *
 func_filter
 ;
-#
-ifdef
-NJ_SOFTFLOAT
 nanojit
 :
 :
@@ -1362,8 +1359,6 @@ LirWriter
 *
 float_filter
 ;
-#
-endif
 nanojit
 :
 :

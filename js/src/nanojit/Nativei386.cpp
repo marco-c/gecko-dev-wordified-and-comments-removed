@@ -4242,9 +4242,6 @@ isCond
 )
 )
 ;
-#
-ifndef
-NJ_SOFTFLOAT
 if
 (
 condop
@@ -4268,8 +4265,6 @@ targ
 )
 ;
 }
-#
-endif
 if
 (
 branchOnFalse
@@ -4999,16 +4994,6 @@ r
 ins
 )
 ;
-#
-ifdef
-NJ_ARM_VFP
-SETE
-(
-r
-)
-;
-#
-else
 MOVZX8
 (
 r
@@ -5020,8 +5005,6 @@ SETNP
 r
 )
 ;
-#
-endif
 asm_fcmp
 (
 ins
