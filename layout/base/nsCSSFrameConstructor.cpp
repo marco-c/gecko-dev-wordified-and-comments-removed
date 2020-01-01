@@ -671,13 +671,6 @@ h
 #
 include
 "
-nsIDOMSVGFilters
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

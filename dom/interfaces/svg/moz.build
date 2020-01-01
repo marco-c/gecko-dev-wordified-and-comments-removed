@@ -111,11 +111,6 @@ nsIDOMSVGElement
 idl
 '
 '
-nsIDOMSVGFilters
-.
-idl
-'
-'
 nsIDOMSVGLength
 .
 idl
