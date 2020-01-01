@@ -3164,6 +3164,16 @@ argv
 if
 (
 !
+funToCall
+)
+{
+return
+JS_TRUE
+;
+}
+if
+(
+!
 CanCallerAccess
 (
 cx
