@@ -1,4 +1,13 @@
-PR_BEGIN_EXTERN_C
+#
+ifdef
+__cplusplus
+extern
+"
+C
+"
+{
+#
+endif
 PR_EXPORT
 (
 int
@@ -61,4 +70,9 @@ bool
 passed
 )
 ;
-PR_END_EXTERN_C
+#
+ifdef
+__cplusplus
+}
+#
+endif

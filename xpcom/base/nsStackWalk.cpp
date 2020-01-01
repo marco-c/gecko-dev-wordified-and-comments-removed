@@ -800,7 +800,11 @@ imagehlp
 h
 #
 endif
-PR_BEGIN_EXTERN_C
+extern
+"
+C
+"
+{
 extern
 HANDLE
 hStackWalkMutex
@@ -896,7 +900,7 @@ gStackWalkThread
 CRITICAL_SECTION
 gDbgHelpCS
 ;
-PR_END_EXTERN_C
+}
 void
 PrintError
 (

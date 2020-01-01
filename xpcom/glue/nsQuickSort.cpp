@@ -26,7 +26,11 @@ nsQuickSort
 .
 h
 "
-PR_BEGIN_EXTERN_C
+extern
+"
+C
+"
+{
 #
 if
 !
@@ -1134,4 +1138,4 @@ loop
 ;
 }
 }
-PR_END_EXTERN_C
+}
