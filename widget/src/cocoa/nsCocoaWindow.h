@@ -340,14 +340,6 @@ aListener
 )
 ;
 NS_IMETHOD
-AddMenuListener
-(
-nsIMenuListener
-*
-aListener
-)
-;
-NS_IMETHOD
 Enable
 (
 PRBool
