@@ -15619,6 +15619,9 @@ UpdateChannelMuteState
 (
 )
 {
+#
+ifdef
+MOZ_B2G
 bool
 hidden
 =
@@ -15759,6 +15762,8 @@ mozinterruptend
 )
 ;
 }
+#
+endif
 return
 NS_OK
 ;
@@ -15771,6 +15776,9 @@ UpdateAudioChannelPlayingState
 (
 )
 {
+#
+ifdef
+MOZ_B2G
 bool
 playingThroughTheAudioChannel
 =
@@ -15850,6 +15858,8 @@ this
 ;
 }
 }
+#
+endif
 }
 nsresult
 nsHTMLMediaElement
