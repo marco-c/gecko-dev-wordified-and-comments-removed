@@ -3285,7 +3285,7 @@ IDBCursor
 :
 Advance
 (
-PRInt32
+PRInt64
 aCount
 )
 {
@@ -3306,6 +3306,11 @@ if
 aCount
 <
 1
+|
+|
+aCount
+>
+PR_UINT32_MAX
 )
 {
 return
