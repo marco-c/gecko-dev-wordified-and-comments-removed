@@ -453,9 +453,6 @@ aBuilder
 bool
 *
 aSnap
-bool
-*
-aForceTransparentSurface
 )
 {
 if
@@ -469,11 +466,6 @@ mExtraBackgroundColor
 255
 )
 {
-*
-aForceTransparentSurface
-=
-false
-;
 return
 nsRegion
 (
@@ -493,7 +485,6 @@ GetOpaqueRegion
 (
 aBuilder
 aSnap
-aForceTransparentSurface
 )
 ;
 }
