@@ -82,14 +82,6 @@ FORCE_STATIC_LIB
 USE_STATIC_LIBS
 =
 1
-DISABLED_EXTRA_COMPONENTS
-=
-nsSetDefaultBrowser
-.
-js
-nsSetDefaultBrowser
-.
-manifest
 include
 (
 topsrcdir

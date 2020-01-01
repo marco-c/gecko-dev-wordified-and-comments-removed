@@ -75,16 +75,6 @@ config
 autoconf
 .
 mk
-DISABLED_EXTRA_COMPONENTS
-=
-\
-BrowserComponents
-.
-manifest
-\
-(
-NULL
-)
 include
 (
 topsrcdir

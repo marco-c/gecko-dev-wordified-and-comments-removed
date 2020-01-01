@@ -76,11 +76,6 @@ config
 config
 .
 mk
-DISABLED_EXTRA_COMPONENTS
-=
-nsHelperAppDlg
-.
-manifest
 EXTRA_PP_JS_MODULES
 =
 DownloadTaskbarProgress
