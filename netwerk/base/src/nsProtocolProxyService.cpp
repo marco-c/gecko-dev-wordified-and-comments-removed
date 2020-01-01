@@ -863,7 +863,7 @@ AsyncGetProxyForURI
 (
 mURI
 newRequest
-false
+true
 )
 ;
 }
