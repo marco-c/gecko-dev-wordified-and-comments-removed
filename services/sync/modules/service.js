@@ -4801,14 +4801,10 @@ else
 let
 privkey
 =
-yield
 PrivKeys
 .
 get
 (
-self
-.
-cb
 pubkey
 .
 privateKeyUri

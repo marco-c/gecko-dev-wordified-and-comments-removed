@@ -1769,14 +1769,10 @@ there
 let
 meta
 =
-yield
 CryptoMetas
 .
 get
 (
-self
-.
-cb
 this
 .
 cryptoMetaURL
