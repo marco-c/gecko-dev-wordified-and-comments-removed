@@ -18447,7 +18447,7 @@ x
 -
 xpinstall
 "
-this
+window
 null
 installs
 )
