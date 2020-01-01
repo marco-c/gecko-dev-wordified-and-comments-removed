@@ -78,14 +78,6 @@ char
 *
 fVersion
 ;
-#
-ifdef
-XP_MACOSX
-PRBool
-fBundle
-;
-#
-endif
 }
 ;
 class
@@ -143,12 +135,6 @@ FreePluginInfo
 nsPluginInfo
 &
 PluginInfo
-)
-;
-short
-OpenPluginResource
-(
-void
 )
 ;
 }
