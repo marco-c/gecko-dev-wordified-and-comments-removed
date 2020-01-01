@@ -5,6 +5,13 @@ MOZCE_SHUNT_H
 define
 MOZCE_SHUNT_H
 #
+include
+"
+environment
+.
+h
+"
+#
 ifdef
 __cplusplus
 extern

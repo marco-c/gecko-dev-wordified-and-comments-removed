@@ -42,9 +42,14 @@ define
 access
 _access
 #
+ifndef
+WINCE
+#
 define
 putenv
 _putenv
+#
+endif
 #
 define
 snprintf
