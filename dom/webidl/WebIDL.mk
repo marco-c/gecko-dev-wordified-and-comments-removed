@@ -1127,6 +1127,10 @@ USSDReceivedEvent
 .
 webidl
 \
+XMLDocument
+.
+webidl
+\
 XMLHttpRequest
 .
 webidl
