@@ -65,6 +65,10 @@ srcdir
 VPATH
 =
 srcdir
+FAIL_ON_WARNINGS
+:
+=
+1
 include
 (
 DEPTH
@@ -95,6 +99,7 @@ cpp
 LOCAL_INCLUDES
 +
 =
+\
 -
 I
 (
@@ -104,9 +109,7 @@ topsrcdir
 toolkit
 /
 xre
-LOCAL_INCLUDES
-+
-=
+\
 -
 I
 (
@@ -116,9 +119,7 @@ topsrcdir
 xpcom
 /
 base
-LOCAL_INCLUDES
-+
-=
+\
 -
 I
 (
@@ -128,9 +129,7 @@ topsrcdir
 xpcom
 /
 build
-LOCAL_INCLUDES
-+
-=
+\
 -
 I
 (
@@ -138,6 +137,10 @@ DEPTH
 )
 /
 build
+\
+(
+NULL
+)
 DEFINES
 +
 =
