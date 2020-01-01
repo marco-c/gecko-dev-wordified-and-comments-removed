@@ -70338,7 +70338,7 @@ id
 obj
 -
 >
-setProperty
+setGeneric
 (
 cx
 id
@@ -70695,7 +70695,7 @@ addr
 obj
 -
 >
-setProperty
+setGeneric
 (
 cx
 idr

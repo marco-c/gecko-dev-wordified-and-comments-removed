@@ -24108,8 +24108,9 @@ cx
 JSObject
 *
 obj
-jsid
-id
+PropertyName
+*
+name
 Value
 *
 vp
@@ -24122,7 +24123,10 @@ xml_setGeneric
 (
 cx
 obj
-id
+ATOM_TO_JSID
+(
+name
+)
 vp
 strict
 )
@@ -26419,7 +26423,7 @@ xml_getGeneric
 xml_getProperty
 xml_getElement
 xml_getSpecial
-xml_setProperty
+xml_setGeneric
 xml_setProperty
 xml_setElement
 xml_setSpecial
@@ -29948,13 +29952,10 @@ if
 arrayobj
 -
 >
-setProperty
+setElement
 (
 cx
-INT_TO_JSID
-(
 i
-)
 tvr
 .
 addr

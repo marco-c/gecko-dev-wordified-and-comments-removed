@@ -19094,7 +19094,7 @@ return
 obj
 -
 >
-setProperty
+setGeneric
 (
 cx
 id
