@@ -2811,6 +2811,11 @@ aDownload
 ;
 }
 }
+.
+bind
+(
+this
+)
 )
 ;
 }
@@ -2901,6 +2906,11 @@ aDownload
 ;
 }
 }
+.
+bind
+(
+this
+)
 )
 ;
 aItem
