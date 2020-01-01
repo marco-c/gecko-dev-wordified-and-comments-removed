@@ -760,7 +760,7 @@ nullptr
 const
 ;
 nsresult
-RequestDecode
+StartDecoding
 (
 )
 const
