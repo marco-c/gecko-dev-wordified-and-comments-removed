@@ -4590,7 +4590,7 @@ rect
 ;
 }
 #
-tabcandy
+tabview
 -
 button
 {
@@ -4610,9 +4610,9 @@ browser
 /
 skin
 /
-tabcandy
+tabview
 /
-tabcandy
+tabview
 .
 png
 )

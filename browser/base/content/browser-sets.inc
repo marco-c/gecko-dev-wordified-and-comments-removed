@@ -1475,12 +1475,12 @@ id
 "
 Browser
 :
-ToggleTabCandy
+ToggleTabView
 "
 oncommand
 =
 "
-TabCandy
+TabView
 .
 toggle
 (

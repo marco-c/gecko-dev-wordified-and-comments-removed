@@ -4801,7 +4801,7 @@ CDATA
 [
 if
 (
-TabCandy
+TabView
 .
 isVisible
 (
@@ -4833,7 +4833,7 @@ ownerDocument
 .
 title
 =
-TabCandy
+TabView
 .
 getWindowTitle
 (
@@ -9282,7 +9282,7 @@ length
 if
 (
 !
-TabCandy
+TabView
 .
 isVisible
 (

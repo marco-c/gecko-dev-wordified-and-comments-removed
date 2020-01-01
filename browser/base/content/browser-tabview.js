@@ -143,7 +143,7 @@ Code
 is
 the
 Tab
-Candy
+View
 #
 #
 The
@@ -154,8 +154,8 @@ the
 Original
 Code
 is
-Google
-Inc
+Mozilla
+Foundation
 .
 #
 Portions
@@ -169,7 +169,7 @@ Copyright
 (
 C
 )
-2006
+2010
 #
 the
 Initial
@@ -386,8 +386,8 @@ BLOCK
 *
 *
 *
-var
-TabCandy
+let
+TabView
 =
 {
 toggle
@@ -422,7 +422,7 @@ event
 initEvent
 (
 "
-tabcandyhide
+tabviewhide
 "
 false
 false
@@ -436,7 +436,7 @@ event
 initEvent
 (
 "
-tabcandyshow
+tabviewshow
 "
 false
 false
@@ -466,7 +466,7 @@ getElementById
 "
 tab
 -
-candy
+view
 -
 deck
 "
@@ -515,7 +515,7 @@ gNavigatorBundle
 getFormattedString
 (
 "
-tabCandy
+tabView
 .
 title
 "

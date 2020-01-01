@@ -1952,9 +1952,9 @@ duration
 200
 easing
 :
-'
-tabcandyBounce
-'
+"
+tabviewBounce
+"
 complete
 :
 function

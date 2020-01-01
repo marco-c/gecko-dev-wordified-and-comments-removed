@@ -1153,7 +1153,7 @@ id
 "
 tab
 -
-candy
+view
 -
 deck
 "
@@ -7885,7 +7885,7 @@ new
 tab
 -
 button
-tabcandy
+tabview
 -
 button
 alltabs
@@ -8145,7 +8145,7 @@ toolbarbutton
 id
 =
 "
-tabcandy
+tabview
 -
 button
 "
@@ -8165,7 +8165,7 @@ label
 =
 "
 &
-tabCandyButton
+tabViewButton
 .
 label
 ;
@@ -8175,13 +8175,13 @@ command
 "
 Browser
 :
-ToggleTabCandy
+ToggleTabView
 "
 tooltiptext
 =
 "
 &
-tabCandyButton
+tabViewButton
 .
 tooltip
 ;
@@ -9619,7 +9619,7 @@ id
 "
 tab
 -
-candy
+view
 "
 transparent
 =
@@ -9642,7 +9642,7 @@ browser
 /
 content
 /
-tabcandy
+tabview
 .
 html
 "

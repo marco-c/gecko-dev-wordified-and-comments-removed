@@ -661,9 +661,9 @@ duration
 350
 easing
 :
-'
-tabcandyBounce
-'
+"
+tabviewBounce
+"
 complete
 :
 function

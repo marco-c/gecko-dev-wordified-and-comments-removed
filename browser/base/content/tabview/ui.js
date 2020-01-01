@@ -26,7 +26,7 @@ null
 _closedLastVisibleTab
 :
 false
-_closedSelectedTabInTabCandy
+_closedSelectedTabInTabView
 :
 false
 _stopZoomPreparation
@@ -190,7 +190,7 @@ gWindow
 addEventListener
 (
 "
-tabcandyshow
+tabviewshow
 "
 function
 (
@@ -198,7 +198,7 @@ function
 {
 self
 .
-showTabCandy
+showTabView
 (
 true
 )
@@ -212,7 +212,7 @@ gWindow
 addEventListener
 (
 "
-tabcandyhide
+tabviewhide
 "
 function
 (
@@ -700,7 +700,7 @@ if
 (
 data
 .
-tabCandyVisible
+tabViewVisible
 )
 {
 var
@@ -737,7 +737,7 @@ true
 ;
 self
 .
-showTabCandy
+showTabView
 (
 )
 ;
@@ -769,7 +769,7 @@ else
 {
 self
 .
-hideTabCandy
+hideTabView
 (
 )
 ;
@@ -849,7 +849,7 @@ if
 (
 self
 .
-_isTabCandyVisible
+_isTabViewVisible
 (
 )
 )
@@ -1023,7 +1023,7 @@ makeActive
 ;
 }
 }
-_isTabCandyVisible
+_isTabViewVisible
 :
 function
 (
@@ -1038,7 +1038,7 @@ selectedIndex
 1
 ;
 }
-showTabCandy
+showTabView
 :
 function
 (
@@ -1207,7 +1207,7 @@ true
 ;
 }
 }
-hideTabCandy
+hideTabView
 :
 function
 (
@@ -1373,7 +1373,7 @@ if
 (
 self
 .
-_isTabCandyVisible
+_isTabViewVisible
 (
 )
 )
@@ -1389,7 +1389,7 @@ this
 )
 self
 .
-_closedSelectedTabInTabCandy
+_closedSelectedTabInTabView
 =
 true
 ;
@@ -1477,7 +1477,7 @@ false
 ;
 self
 .
-showTabCandy
+showTabView
 (
 )
 ;
@@ -1524,7 +1524,7 @@ length
 )
 self
 .
-hideTabCandy
+hideTabView
 (
 )
 ;
@@ -1574,7 +1574,7 @@ if
 !
 self
 .
-_isTabCandyVisible
+_isTabViewVisible
 (
 )
 )
@@ -1697,7 +1697,7 @@ if
 (
 this
 .
-_isTabCandyVisible
+_isTabViewVisible
 (
 )
 &
@@ -1710,7 +1710,7 @@ _closedLastVisibleTab
 |
 this
 .
-_closedSelectedTabInTabCandy
+_closedSelectedTabInTabView
 )
 )
 {
@@ -1722,7 +1722,7 @@ false
 ;
 this
 .
-_closedSelectedTabInTabCandy
+_closedSelectedTabInTabView
 =
 false
 ;
@@ -1733,13 +1733,13 @@ if
 (
 this
 .
-_isTabCandyVisible
+_isTabViewVisible
 (
 )
 )
 this
 .
-hideTabCandy
+hideTabView
 (
 )
 ;
@@ -1751,7 +1751,7 @@ false
 ;
 this
 .
-_closedSelectedTabInTabCandy
+_closedSelectedTabInTabView
 =
 false
 ;
@@ -1902,7 +1902,7 @@ newItem
 !
 self
 .
-_isTabCandyVisible
+_isTabViewVisible
 (
 )
 )
@@ -1927,7 +1927,7 @@ setZoomPrep
 !
 self
 .
-_isTabCandyVisible
+_isTabViewVisible
 (
 )
 )
@@ -1949,7 +1949,7 @@ if
 (
 this
 .
-_isTabCandyVisible
+_isTabViewVisible
 (
 )
 )
@@ -2012,7 +2012,7 @@ if
 (
 self
 .
-_isTabCandyVisible
+_isTabViewVisible
 (
 )
 )
@@ -2103,7 +2103,7 @@ preventDefault
 ;
 self
 .
-showTabCandy
+showTabView
 (
 true
 )
@@ -3600,7 +3600,7 @@ force
 !
 this
 .
-_isTabCandyVisible
+_isTabViewVisible
 (
 )
 )
@@ -4264,7 +4264,7 @@ location
 href
 =
 "
-tabcandy
+tabview
 .
 html
 "
@@ -4518,11 +4518,11 @@ var
 data
 =
 {
-tabCandyVisible
+tabViewVisible
 :
 this
 .
-_isTabCandyVisible
+_isTabViewVisible
 (
 )
 pageBounds
