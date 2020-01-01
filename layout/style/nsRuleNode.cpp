@@ -29596,18 +29596,6 @@ outlineColor
 ;
 else
 {
-#
-ifdef
-GFX_HAS_INVERT
-outline
--
->
-SetOutlineInitialColor
-(
-)
-;
-#
-else
 outline
 -
 >
@@ -29624,8 +29612,6 @@ GetStyleColor
 mColor
 )
 ;
-#
-endif
 }
 }
 else

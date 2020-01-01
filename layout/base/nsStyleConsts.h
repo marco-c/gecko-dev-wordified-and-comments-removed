@@ -805,15 +805,6 @@ directly
 *
 /
 #
-ifdef
-GFX_HAS_INVERT
-#
-define
-NS_STYLE_COLOR_INVERT
-3
-#
-endif
-#
 define
 NS_COLOR_CURRENTCOLOR
 -

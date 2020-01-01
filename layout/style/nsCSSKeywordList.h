@@ -1755,16 +1755,6 @@ CSS_KEY
 interpolatematrix
 interpolatematrix
 )
-#
-ifdef
-GFX_HAS_INVERT
-CSS_KEY
-(
-invert
-invert
-)
-#
-endif
 CSS_KEY
 (
 italic
