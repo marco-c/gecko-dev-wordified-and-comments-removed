@@ -458,6 +458,10 @@ mozIAsyncFavicons
 .
 idl
 \
+mozIAsyncLivemarks
+.
+idl
+\
 mozIPlacesAutoComplete
 .
 idl
