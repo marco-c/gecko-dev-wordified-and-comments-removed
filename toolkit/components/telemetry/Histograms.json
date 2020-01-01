@@ -3029,7 +3029,7 @@ shutdown
 "
 }
 "
-IMAGE_DECODE_LATENCY
+IMAGE_DECODE_LATENCY_US
 "
 :
 {

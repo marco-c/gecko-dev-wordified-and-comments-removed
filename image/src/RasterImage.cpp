@@ -13139,7 +13139,7 @@ Accumulate
 Telemetry
 :
 :
-IMAGE_DECODE_LATENCY
+IMAGE_DECODE_LATENCY_US
 uint32_t
 (
 (
@@ -13153,7 +13153,7 @@ Now
 eventStart
 )
 .
-ToMilliseconds
+ToMicroseconds
 (
 )
 )
