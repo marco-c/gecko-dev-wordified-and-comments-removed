@@ -5912,6 +5912,7 @@ dblclick
 mouseup
 reset
 submit
+touchend
 "
 )
 ;
