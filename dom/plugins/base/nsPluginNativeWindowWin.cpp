@@ -54,13 +54,6 @@ h
 #
 include
 "
-nsPluginSafety
-.
-h
-"
-#
-include
-"
 nsPluginNativeWindow
 .
 h

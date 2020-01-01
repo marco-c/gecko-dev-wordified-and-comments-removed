@@ -8,13 +8,6 @@ PluginPRLibrary
 h
 "
 #
-include
-"
-nsPluginSafety
-.
-h
-"
-#
 if
 defined
 (
