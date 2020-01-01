@@ -263,8 +263,6 @@ DISPATCH_NORMAL
 }
 }
 ;
-Point
-=
 function
 Point
 (
