@@ -384,6 +384,10 @@ test_secure_input
 .
 html
 \
+test_native_key_bindings_mac
+.
+html
+\
 (
 NULL
 )
