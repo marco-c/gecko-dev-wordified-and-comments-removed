@@ -546,15 +546,3 @@ jsdouble
 1
 1
 )
-BUILTIN1
-(
-get_this
-LO
-LO
-JSObject
-*
-JSContext
-*
-1
-1
-)
