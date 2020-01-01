@@ -359,10 +359,6 @@ FileList
 .
 webidl
 \
-FileMode
-.
-webidl
-\
 FileReader
 .
 webidl
@@ -384,6 +380,10 @@ FormData
 webidl
 \
 Function
+.
+webidl
+\
+Future
 .
 webidl
 \
@@ -760,10 +760,6 @@ MozMmsMessage
 webidl
 \
 MozNamedAttrMap
-.
-webidl
-\
-MozTimeManager
 .
 webidl
 \
