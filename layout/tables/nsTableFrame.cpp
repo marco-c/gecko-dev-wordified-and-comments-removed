@@ -8141,6 +8141,11 @@ reflowedChildren
 =
 PR_FALSE
 ;
+SetHaveReflowedColGroups
+(
+PR_FALSE
+)
+;
 if
 (
 aReflowState
@@ -13748,6 +13753,14 @@ GetNextSibling
 )
 )
 {
+if
+(
+NS_SUBTREE_DIRTY
+(
+kidFrame
+)
+)
+{
 nsHTMLReflowState
 kidReflowState
 (
@@ -13787,6 +13800,7 @@ kidMet
 0
 )
 ;
+}
 }
 SetHaveReflowedColGroups
 (
