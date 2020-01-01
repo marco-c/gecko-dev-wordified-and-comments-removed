@@ -73,3 +73,12 @@ pause
 resume
 .
 patch
+patch
+-
+p4
+<
+include
+-
+CoreServices
+.
+patch
