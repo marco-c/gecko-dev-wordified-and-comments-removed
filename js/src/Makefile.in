@@ -866,13 +866,13 @@ NULL
 )
 ifdef
 HAVE_DTRACE
-CSRCS
+CPPSRCS
 +
 =
 \
 jsdtracef
 .
-c
+cpp
 endif
 INSTALLED_HEADERS
 =
