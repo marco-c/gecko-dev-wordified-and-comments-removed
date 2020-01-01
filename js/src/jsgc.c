@@ -218,6 +218,7 @@ HAS_POSIX_MEMALIGN
 &
 &
 MOZ_MEMORY_WINDOWS
+JS_BEGIN_EXTERN_C
 extern
 int
 posix_memalign
@@ -232,6 +233,7 @@ size_t
 size
 )
 ;
+JS_END_EXTERN_C
 #
 endif
 #
