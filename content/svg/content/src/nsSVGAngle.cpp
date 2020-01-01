@@ -1573,6 +1573,9 @@ nsISMILAnimationElement
 nsSMILValue
 &
 aValue
+PRBool
+&
+aCanCache
 )
 const
 {
@@ -1681,6 +1684,10 @@ SVG_MARKER_ORIENT_ANGLE
 aValue
 =
 val
+;
+aCanCache
+=
+PR_TRUE
 ;
 return
 NS_OK

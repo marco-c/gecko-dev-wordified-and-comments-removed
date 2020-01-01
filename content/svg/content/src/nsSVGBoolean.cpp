@@ -391,6 +391,9 @@ nsISMILAnimationElement
 nsSMILValue
 &
 aValue
+PRBool
+&
+aCanCache
 )
 const
 {
@@ -450,6 +453,10 @@ NS_ERROR_FAILURE
 aValue
 =
 val
+;
+aCanCache
+=
+PR_TRUE
 ;
 return
 NS_OK

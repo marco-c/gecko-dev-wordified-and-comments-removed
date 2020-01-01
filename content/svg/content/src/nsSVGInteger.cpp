@@ -393,6 +393,9 @@ nsISMILAnimationElement
 nsSMILValue
 &
 aValue
+PRBool
+&
+aCanCache
 )
 const
 {
@@ -482,6 +485,10 @@ val
 aValue
 =
 smilVal
+;
+aCanCache
+=
+PR_TRUE
 ;
 return
 NS_OK
