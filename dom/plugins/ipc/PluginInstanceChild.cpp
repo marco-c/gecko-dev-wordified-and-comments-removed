@@ -11374,9 +11374,11 @@ Format
 ;
 if
 (
+!
 visual
-&
-&
+|
+|
+(
 defaultVisual
 !
 =
@@ -11385,6 +11387,7 @@ visual
 &
 !
 supportNonDefaultVisual
+)
 )
 {
 visual
