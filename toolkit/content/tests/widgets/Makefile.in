@@ -447,10 +447,6 @@ test_bug365773
 .
 xul
 \
-test_notificationbox
-.
-xul
-\
 (
 NULL
 )
