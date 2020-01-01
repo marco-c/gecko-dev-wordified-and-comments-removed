@@ -694,6 +694,14 @@ test_property_syntax_errors
 .
 html
 \
+test_redundant_font_download
+.
+html
+\
+redundant_font_download
+.
+sjs
+\
 test_rem_unit
 .
 html
