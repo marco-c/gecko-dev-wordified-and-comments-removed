@@ -880,7 +880,7 @@ docEvents
 {
 #
 ifdef
-DEBUG
+DEBUG_DRAGDROPSTART
 "
 mouseover
 "
@@ -3141,7 +3141,7 @@ eRemoveDupes
 }
 #
 ifdef
-DEBUG
+DEBUG_DRAGDROPSTART
 else
 if
 (
