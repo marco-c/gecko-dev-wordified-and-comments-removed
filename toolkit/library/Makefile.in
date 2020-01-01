@@ -1203,6 +1203,10 @@ SQLITE_LIBS
 )
 \
 (
+SOUNDTOUCH_LIBS
+)
+\
+(
 NULL
 )
 ifdef
