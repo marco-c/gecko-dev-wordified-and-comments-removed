@@ -550,6 +550,8 @@ children
 includes
 =
 "
+xul
+:
 listheader
 "
 /
