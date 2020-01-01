@@ -135,15 +135,6 @@ int64_t
 aStartTime
 )
 ;
-bool
-IsSeekableInBufferedRanges
-(
-)
-{
-return
-true
-;
-}
 private
 :
 bool

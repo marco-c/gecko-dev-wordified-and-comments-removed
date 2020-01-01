@@ -321,11 +321,6 @@ int64_t
 aOutStartTime
 )
 ;
-bool
-IsSeekableInBufferedRanges
-(
-)
-;
 void
 RequestVideoReaderSwitch
 (

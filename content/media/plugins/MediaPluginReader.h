@@ -184,16 +184,6 @@ int64_t
 aStartTime
 )
 ;
-virtual
-bool
-IsSeekableInBufferedRanges
-(
-)
-{
-return
-true
-;
-}
 }
 ;
 }

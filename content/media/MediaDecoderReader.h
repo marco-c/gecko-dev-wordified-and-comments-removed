@@ -1242,14 +1242,6 @@ aStartTime
 =
 0
 ;
-virtual
-bool
-IsSeekableInBufferedRanges
-(
-)
-=
-0
-;
 class
 VideoQueueMemoryFunctor
 :
