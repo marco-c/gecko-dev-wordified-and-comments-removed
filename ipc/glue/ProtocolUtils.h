@@ -90,6 +90,9 @@ mozilla
 namespace
 ipc
 {
+class
+AsyncChannel
+;
 struct
 ActorHandle
 {
@@ -289,6 +292,15 @@ OtherProcess
 (
 )
 const
+=
+0
+;
+virtual
+AsyncChannel
+*
+GetIPCChannel
+(
+)
 =
 0
 ;
