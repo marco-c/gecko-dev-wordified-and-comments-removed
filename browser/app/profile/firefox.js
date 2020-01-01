@@ -2654,16 +2654,6 @@ pref
 "
 dom
 .
-disable_window_move_resize
-"
-false
-)
-;
-pref
-(
-"
-dom
-.
 disable_window_flip
 "
 true
