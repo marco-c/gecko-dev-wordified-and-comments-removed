@@ -142,14 +142,14 @@ nsIDOMEventListener
 >
 mListener
 ;
-uint32_t
-mEventType
-;
 nsCOMPtr
 <
 nsIAtom
 >
 mTypeAtom
+;
+uint32_t
+mEventType
 ;
 uint16_t
 mFlags
