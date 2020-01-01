@@ -1983,12 +1983,6 @@ TEST_MEMORY
 "
 \
 -
-S
-"
-TEST_CPUSPEED
-"
-\
--
 z
 date
 +

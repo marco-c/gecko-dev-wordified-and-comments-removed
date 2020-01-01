@@ -2072,13 +2072,6 @@ DocumentLeak
 nsDocShellLeak
 :
 5
-TEST_CPUSPEED
-=
-"
-mips
-.
-pl
-"
 TEST_MEMORY
 =
 "

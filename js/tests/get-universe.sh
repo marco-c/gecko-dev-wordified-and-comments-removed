@@ -606,12 +606,6 @@ TEST_MEMORY
 ^
 ]
 *
-TEST_CPUSPEED
-=
-[
-^
-]
-*
 TEST_TIMEZONE
 =
 [
