@@ -1895,6 +1895,11 @@ hasTryFinally_
 :
 1
 ;
+bool
+argumentsContentsObserved_
+:
+1
+;
 uint32_t
 numReturnSites_
 ;
