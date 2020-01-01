@@ -562,6 +562,10 @@ platInit
 (
 )
 ;
+strlib_init
+(
+)
+;
 #
 ifdef
 _WIN32

@@ -195,6 +195,12 @@ void
 mem
 )
 ;
+void
+strlib_init
+(
+void
+)
+;
 #
 ifndef
 __STRINGLIB_INTERNAL__

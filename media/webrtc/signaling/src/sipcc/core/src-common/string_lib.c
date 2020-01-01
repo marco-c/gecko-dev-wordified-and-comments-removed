@@ -1044,3 +1044,17 @@ empty_str
 )
 ;
 }
+void
+strlib_init
+(
+void
+)
+{
+(
+void
+)
+strlib_empty
+(
+)
+;
+}
