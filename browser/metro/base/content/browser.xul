@@ -4459,6 +4459,11 @@ true
 >
 <
 label
+id
+=
+"
+snappedRemoteTabsLabel
+"
 class
 =
 "
@@ -4472,7 +4477,7 @@ value
 =
 "
 &
-startRemoteTabsHeader
+snappedRemoteTabsHeader
 .
 label
 ;
