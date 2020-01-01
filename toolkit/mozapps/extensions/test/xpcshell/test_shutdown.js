@@ -83,6 +83,9 @@ recordSimpleMeasure
 "
 getSimpleMeasures
 "
+"
+simpleTimer
+"
 ]
 ;
 function

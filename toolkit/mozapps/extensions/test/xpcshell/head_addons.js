@@ -5471,6 +5471,7 @@ if
 gNext
 )
 return
+undefined
 ;
 if
 (
@@ -5486,6 +5487,7 @@ length
 0
 )
 return
+undefined
 ;
 else
 for
@@ -5506,6 +5508,7 @@ length
 0
 )
 return
+undefined
 ;
 }
 for
@@ -5528,6 +5531,7 @@ length
 0
 )
 return
+undefined
 ;
 }
 return
@@ -6217,6 +6221,9 @@ value
 value
 ;
 }
+return
+null
+;
 }
 }
 ;
@@ -6907,11 +6914,13 @@ entry
 ;
 while
 (
+(
 entry
 =
 dirEntries
 .
 nextFile
+)
 )
 {
 do_throw
