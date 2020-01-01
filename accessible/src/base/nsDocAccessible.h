@@ -461,14 +461,6 @@ PRBool
 aForceIsFromUserInput
 )
 ;
-void
-AdoptChildren
-(
-nsIAccessible
-*
-aAccessible
-)
-;
 nsAccessNodeHashtable
 mAccessNodeCache
 ;
