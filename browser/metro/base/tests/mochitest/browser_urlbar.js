@@ -523,11 +523,6 @@ true
 }
 )
 ;
-delete
-window
-.
-r
-;
 }
 gTests
 .

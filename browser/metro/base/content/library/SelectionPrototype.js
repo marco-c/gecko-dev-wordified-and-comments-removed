@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 kSelectionNodeAnchor
 =
@@ -3069,6 +3074,7 @@ _contentOffset
 y
 ;
 }
+let
 r
 =
 this

@@ -303,11 +303,6 @@ active
 "
 )
 ;
-delete
-window
-.
-r
-;
 }
 }
 )
@@ -452,11 +447,6 @@ clearSelection
 (
 edit
 )
-;
-delete
-window
-.
-r
 ;
 }
 }
@@ -681,11 +671,6 @@ clearSelection
 edit
 )
 ;
-delete
-window
-.
-r
-;
 }
 }
 )
@@ -797,11 +782,6 @@ clearSelection
 (
 edit
 )
-;
-delete
-window
-.
-r
 ;
 }
 }
