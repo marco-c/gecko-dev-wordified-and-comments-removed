@@ -4487,9 +4487,6 @@ cb
 >
 NoteScriptChild
 (
-nsIProgrammingLanguage
-:
-:
 JAVASCRIPT
 thing
 )
