@@ -505,6 +505,11 @@ code
 nbytes
 )
 ;
+JS_CLEAR_GSN_CACHE
+(
+cx
+)
+;
 }
 code
 [
