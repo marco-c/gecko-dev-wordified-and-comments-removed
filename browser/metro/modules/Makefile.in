@@ -88,10 +88,6 @@ mk
 EXTRA_JS_MODULES
 =
 \
-video
-.
-jsm
-\
 colorUtils
 .
 jsm
