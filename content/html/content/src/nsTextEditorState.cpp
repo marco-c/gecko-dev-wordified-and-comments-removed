@@ -5222,7 +5222,7 @@ nsTextControlFrame
 aFrame
 )
 {
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 mBoundFrame
 )
@@ -7775,7 +7775,7 @@ GetPlaceholderNode
 (
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 placeholderDiv
 )

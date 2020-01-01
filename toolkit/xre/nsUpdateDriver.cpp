@@ -4516,7 +4516,7 @@ false
 mUpdaterPID
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_SUCCESS_VOID
 (
 rv
 )
@@ -4541,7 +4541,7 @@ WaitForProcess
 )
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_SUCCESS_VOID
 (
 rv
 )
@@ -4564,7 +4564,7 @@ ShutdownWatcherThread
 )
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_SUCCESS_VOID
 (
 rv
 )

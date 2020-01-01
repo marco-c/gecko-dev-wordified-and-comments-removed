@@ -1592,7 +1592,7 @@ SAVEPOINT_NAME
 )
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 stmt
 )
@@ -1613,7 +1613,7 @@ Execute
 (
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_SUCCESS_VOID
 (
 rv
 )
@@ -4995,7 +4995,7 @@ RemoveJournals
 mJournalsToRemoveAfterCommit
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_SUCCESS_VOID
 (
 rv
 )
@@ -5017,7 +5017,7 @@ RemoveJournals
 mJournalsToRemoveAfterAbort
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_SUCCESS_VOID
 (
 rv
 )

@@ -658,7 +658,7 @@ menuButton
 eCaseMatters
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 mDoc
 )
@@ -2687,7 +2687,7 @@ CacheChildren
 (
 )
 {
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 mDoc
 )

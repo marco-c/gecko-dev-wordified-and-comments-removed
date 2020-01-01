@@ -436,7 +436,7 @@ CacheChildren
 (
 )
 {
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 mDoc
 )

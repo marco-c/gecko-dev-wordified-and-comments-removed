@@ -234,7 +234,7 @@ do_QueryInterface
 parent
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 localFile
 )
@@ -281,7 +281,7 @@ do_QueryInterface
 parent
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 localFile
 )
@@ -315,7 +315,7 @@ do_QueryInterface
 parent
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 localFile
 )
@@ -349,7 +349,7 @@ do_QueryInterface
 parent
 )
 ;
-NS_ENSURE_TRUE
+NS_ENSURE_TRUE_VOID
 (
 localFile
 )
