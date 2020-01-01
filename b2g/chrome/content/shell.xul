@@ -139,16 +139,6 @@ height
 :
 480px
 "
-onload
-=
-"
-shell
-.
-start
-(
-)
-;
-"
 onunload
 =
 "
