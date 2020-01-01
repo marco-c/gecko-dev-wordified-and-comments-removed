@@ -17526,6 +17526,11 @@ e
 }
 )
 ;
+if
+(
+msg
+)
+{
 ppmm
 .
 broadcastAsyncMessage
@@ -17540,6 +17545,7 @@ Return
 msg
 )
 ;
+}
 }
 registerBrowserElementParentForApp
 :
