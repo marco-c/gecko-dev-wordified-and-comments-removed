@@ -1196,7 +1196,7 @@ contextList
 JSDebugHooks
 globalDebugHooks
 ;
-JSBool
+bool
 debugMode
 ;
 #
@@ -1224,10 +1224,10 @@ callHook
 #
 endif
 JSCList
-trapList
+watchPointList
 ;
 JSCList
-watchPointList
+debuggerList
 ;
 void
 *

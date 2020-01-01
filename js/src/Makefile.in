@@ -814,6 +814,10 @@ jsdbgapi
 .
 cpp
 \
+jsdbg
+.
+cpp
+\
 jsdhash
 .
 cpp

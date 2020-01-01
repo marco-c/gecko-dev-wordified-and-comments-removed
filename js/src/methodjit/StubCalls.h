@@ -83,7 +83,7 @@ trapTypes
 ;
 void
 JS_FASTCALL
-Debugger
+DebuggerStatement
 (
 VMFrame
 &
