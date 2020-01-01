@@ -3937,7 +3937,7 @@ false
 mTransaction
 -
 >
-SetProxyConnectFailed
+SetSSLConnectFailed
 (
 )
 ;

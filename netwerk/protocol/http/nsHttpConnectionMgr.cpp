@@ -6389,7 +6389,7 @@ ent
 mConnInfo
 -
 >
-UsingConnect
+UsingSSL
 (
 )
 )

@@ -660,8 +660,15 @@ ContinueProcessRedirectionAfterFallback
 nsresult
 )
 ;
+bool
+ShouldSSLProxyResponseContinue
+(
+PRUint32
+httpStatus
+)
+;
 nsresult
-ProcessFailedProxyConnect
+ProcessFailedSSLConnect
 (
 PRUint32
 httpStatus
