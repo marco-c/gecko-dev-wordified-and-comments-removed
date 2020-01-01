@@ -38,13 +38,6 @@ JavaScript
 navigator
 -
 property
--
-maybe
-dom
-.
-mozSettings
-.
-enabled
 mozSettings
 mozilla
 .
