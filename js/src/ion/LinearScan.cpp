@@ -5047,6 +5047,17 @@ removePhi
 )
 ;
 }
+graph
+.
+setStackHeight
+(
+stackAssignment
+.
+stackHeight
+(
+)
+)
+;
 return
 true
 ;
