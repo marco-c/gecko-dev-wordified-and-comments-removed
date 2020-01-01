@@ -304,7 +304,7 @@ deflateInit
 (
 &
 zs
-Z_DEFAULT_COMPRESSION
+Z_BEST_SPEED
 )
 ;
 if
