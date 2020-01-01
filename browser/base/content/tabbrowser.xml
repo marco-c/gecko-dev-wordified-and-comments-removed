@@ -1040,13 +1040,13 @@ if
 (
 event
 .
-target
+originalTarget
 .
 localName
-=
+!
 =
 '
-tabs
+tab
 '
 )
 this
