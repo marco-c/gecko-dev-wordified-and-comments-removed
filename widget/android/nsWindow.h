@@ -178,7 +178,7 @@ ae
 )
 ;
 void
-OnMotionEvent
+OnMouseEvent
 (
 mozilla
 :
