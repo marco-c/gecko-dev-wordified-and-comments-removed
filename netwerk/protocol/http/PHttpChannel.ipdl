@@ -1106,7 +1106,7 @@ on
 the
 parent
 .
-CancelEarly
+FailedAsyncOpen
 (
 nsresult
 status

@@ -526,7 +526,7 @@ rv
 )
 )
 return
-SendCancelEarly
+SendFailedAsyncOpen
 (
 rv
 )
@@ -554,7 +554,7 @@ rv
 )
 )
 return
-SendCancelEarly
+SendFailedAsyncOpen
 (
 rv
 )
@@ -981,7 +981,7 @@ rv
 )
 )
 return
-SendCancelEarly
+SendFailedAsyncOpen
 (
 rv
 )
@@ -1080,6 +1080,11 @@ PRUint16
 priority
 )
 {
+if
+(
+mChannel
+)
+{
 nsHttpChannel
 *
 httpChan
@@ -1105,6 +1110,7 @@ SetPriority
 priority
 )
 ;
+}
 nsCOMPtr
 <
 nsISupportsPriority
@@ -1140,6 +1146,11 @@ RecvSuspend
 (
 )
 {
+if
+(
+mChannel
+)
+{
 mChannel
 -
 >
@@ -1147,6 +1158,7 @@ Suspend
 (
 )
 ;
+}
 return
 true
 ;
@@ -1159,6 +1171,11 @@ RecvResume
 (
 )
 {
+if
+(
+mChannel
+)
+{
 mChannel
 -
 >
@@ -1166,6 +1183,7 @@ Resume
 (
 )
 ;
+}
 return
 true
 ;
