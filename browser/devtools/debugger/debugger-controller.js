@@ -4456,6 +4456,14 @@ isBlackBoxed
 )
 ;
 }
+DebuggerView
+.
+Sources
+.
+maybeShowBlackBoxMessage
+(
+)
+;
 }
 blackBox
 :
