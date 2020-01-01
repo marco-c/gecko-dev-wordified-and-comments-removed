@@ -562,6 +562,16 @@ startup
 )
 ;
 "
+onresize
+=
+"
+BrowserUI
+.
+sizeAutocompletePopup
+(
+)
+;
+"
 windowtype
 =
 "
