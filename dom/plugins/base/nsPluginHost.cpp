@@ -13857,6 +13857,12 @@ if
 httpChannel
 )
 {
+if
+(
+!
+aPostStream
+)
+{
 rv
 =
 httpChannel
@@ -13878,6 +13884,7 @@ rv
 rv
 )
 ;
+}
 if
 (
 aPostStream
