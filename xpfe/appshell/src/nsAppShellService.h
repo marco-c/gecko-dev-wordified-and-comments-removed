@@ -40,6 +40,15 @@ nsAutoPtr
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_APPSHELLSERVICE_CID
 \
@@ -60,6 +69,7 @@ NS_APPSHELLSERVICE_CID
 }
 class
 nsAppShellService
+MOZ_FINAL
 :
 public
 nsIAppShellService
