@@ -1109,15 +1109,7 @@ NSArray
 arrayWithObjects
 :
 NSAccessibilityPressAction
-#
-if
-MAC_OS_X_VERSION_MAX_ALLOWED
->
-=
-MAC_OS_X_VERSION_10_4
 NSAccessibilityShowMenuAction
-#
-endif
 nil
 ]
 ;
@@ -1143,12 +1135,6 @@ action
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
 ;
-#
-if
-MAC_OS_X_VERSION_MAX_ALLOWED
->
-=
-MAC_OS_X_VERSION_10_4
 if
 (
 [
@@ -1164,8 +1150,6 @@ show
 menu
 "
 ;
-#
-endif
 return
 [
 super
