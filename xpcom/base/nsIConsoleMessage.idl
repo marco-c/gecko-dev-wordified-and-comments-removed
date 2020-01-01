@@ -193,17 +193,5 @@ NS_CONSOLEMESSAGE_CID
 0xbb
 }
 }
-#
-define
-NS_CONSOLEMESSAGE_CONTRACTID
-"
-mozilla
-.
-org
-/
-consolemessage
-;
-1
-"
 %
 }
