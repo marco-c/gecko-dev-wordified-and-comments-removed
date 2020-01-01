@@ -2288,7 +2288,7 @@ uint16
 traceIndex
 ;
 uint16
-typesetIndex
+typesetCount
 ;
 JSCodeGenerator
 (
