@@ -1247,7 +1247,7 @@ GetFormat
 )
 =
 =
-Image
+ImageFormat
 :
 :
 SHARED_TEXTURE
@@ -1359,7 +1359,7 @@ GetFormat
 )
 =
 =
-Image
+ImageFormat
 :
 :
 PLANAR_YCBCR

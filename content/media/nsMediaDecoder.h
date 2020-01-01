@@ -31,6 +31,13 @@ MediaStreamGraph
 .
 h
 "
+#
+include
+"
+nsIObserver
+.
+h
+"
 class
 nsHTMLMediaElement
 ;

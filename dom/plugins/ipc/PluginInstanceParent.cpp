@@ -139,6 +139,13 @@ nsNPAPIPluginInstance
 h
 "
 #
+include
+"
+Layers
+.
+h
+"
+#
 if
 defined
 (
@@ -3130,13 +3137,10 @@ endif
 return
 NS_ERROR_NOT_AVAILABLE
 ;
-Image
-:
-:
-Format
+ImageFormat
 format
 =
-Image
+ImageFormat
 :
 :
 CAIRO_SURFACE
@@ -3151,7 +3155,7 @@ ioSurface
 {
 format
 =
-Image
+ImageFormat
 :
 :
 MAC_IO_SURFACE
@@ -3244,7 +3248,7 @@ GetFormat
 )
 =
 =
-Image
+ImageFormat
 :
 :
 MAC_IO_SURFACE
@@ -3326,7 +3330,7 @@ GetFormat
 )
 =
 =
-Image
+ImageFormat
 :
 :
 CAIRO_SURFACE

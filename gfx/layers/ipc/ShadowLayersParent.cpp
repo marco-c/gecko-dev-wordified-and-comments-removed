@@ -93,6 +93,13 @@ TiledLayerBuffer
 .
 h
 "
+#
+include
+"
+gfxPlatform
+.
+h
+"
 typedef
 std
 :

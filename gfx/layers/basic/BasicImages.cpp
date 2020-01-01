@@ -193,10 +193,7 @@ Image
 CreateImage
 (
 const
-Image
-:
-:
-Format
+ImageFormat
 *
 aFormats
 PRUint32
@@ -234,7 +231,7 @@ aFormats
 ]
 =
 =
-Image
+ImageFormat
 :
 :
 PLANAR_YCBCR

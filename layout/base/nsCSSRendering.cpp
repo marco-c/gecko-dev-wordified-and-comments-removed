@@ -282,6 +282,13 @@ ImageLoader
 .
 h
 "
+#
+include
+"
+ImageContainer
+.
+h
+"
 using
 namespace
 mozilla

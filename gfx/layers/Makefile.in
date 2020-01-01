@@ -165,7 +165,15 @@ CompositorParent
 .
 h
 \
+ImageContainer
+.
+h
+\
 ImageLayers
+.
+h
+\
+ImageTypes
 .
 h
 \
@@ -252,6 +260,10 @@ BasicBuffers
 cpp
 \
 BasicTiledThebesLayer
+.
+cpp
+\
+ImageContainer
 .
 cpp
 \

@@ -537,6 +537,13 @@ gfxPlatform
 h
 "
 #
+include
+"
+ImageLayers
+.
+h
+"
+#
 ifdef
 XP_WIN
 #

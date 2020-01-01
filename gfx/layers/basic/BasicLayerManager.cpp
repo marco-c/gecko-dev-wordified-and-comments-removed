@@ -55,6 +55,13 @@ h
 #
 include
 "
+gfxPlatform
+.
+h
+"
+#
+include
+"
 nsXULAppAPI
 .
 h

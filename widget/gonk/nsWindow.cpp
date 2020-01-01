@@ -85,6 +85,13 @@ h
 #
 include
 "
+gfxPlatform
+.
+h
+"
+#
+include
+"
 gfxUtils
 .
 h

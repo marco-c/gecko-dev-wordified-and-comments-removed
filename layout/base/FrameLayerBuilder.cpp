@@ -15045,13 +15045,10 @@ layer
 ;
 static
 const
-Image
-:
-:
-Format
+ImageFormat
 format
 =
-Image
+ImageFormat
 :
 :
 CAIRO_SURFACE

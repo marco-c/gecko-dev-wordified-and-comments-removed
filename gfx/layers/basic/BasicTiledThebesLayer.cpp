@@ -31,6 +31,13 @@ sampler
 h
 "
 #
+include
+"
+gfxPlatform
+.
+h
+"
+#
 ifdef
 GFX_TILEDLAYER_DEBUG_OVERLAY
 #

@@ -75,6 +75,13 @@ h
 #
 include
 "
+gfxPlatform
+.
+h
+"
+#
+include
+"
 sampler
 .
 h

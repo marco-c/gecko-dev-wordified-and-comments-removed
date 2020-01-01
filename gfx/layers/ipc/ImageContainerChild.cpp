@@ -44,7 +44,7 @@ h
 #
 include
 "
-ImageLayers
+ImageContainer
 .
 h
 "
@@ -394,7 +394,7 @@ GetFormat
 )
 =
 =
-Image
+ImageFormat
 :
 :
 PLANAR_YCBCR
@@ -728,7 +728,7 @@ GetFormat
 )
 =
 =
-Image
+ImageFormat
 :
 :
 PLANAR_YCBCR
@@ -1096,7 +1096,7 @@ GetFormat
 )
 =
 =
-Image
+ImageFormat
 :
 :
 GONK_IO_SURFACE
@@ -1266,7 +1266,7 @@ GetFormat
 )
 {
 case
-Image
+ImageFormat
 :
 :
 PLANAR_YCBCR

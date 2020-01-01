@@ -72,9 +72,6 @@ mStereoMode
 mozilla
 :
 :
-layers
-:
-:
 STEREO_MODE_MONO
 )
 mHasAudio
@@ -115,9 +112,6 @@ nsIntSize
 mDisplay
 ;
 mozilla
-:
-:
-layers
 :
 :
 StereoMode
@@ -1557,10 +1551,7 @@ GetFormat
 mozilla
 :
 :
-layers
-:
-:
-Image
+ImageFormat
 :
 :
 PLANAR_YCBCR

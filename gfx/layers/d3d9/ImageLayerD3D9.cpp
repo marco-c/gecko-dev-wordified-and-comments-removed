@@ -1652,7 +1652,7 @@ GetFormat
 )
 =
 =
-Image
+ImageFormat
 :
 :
 REMOTE_IMAGE_BITMAP
@@ -1780,7 +1780,7 @@ GetFormat
 )
 =
 =
-Image
+ImageFormat
 :
 :
 CAIRO_SURFACE
@@ -2091,7 +2091,7 @@ GetFormat
 )
 =
 =
-Image
+ImageFormat
 :
 :
 CAIRO_SURFACE
@@ -2105,7 +2105,7 @@ GetFormat
 )
 =
 =
-Image
+ImageFormat
 :
 :
 REMOTE_IMAGE_BITMAP
@@ -2121,7 +2121,7 @@ GetFormat
 )
 !
 =
-Image
+ImageFormat
 :
 :
 CAIRO_SURFACE
@@ -2949,7 +2949,7 @@ GetFormat
 )
 !
 =
-Image
+ImageFormat
 :
 :
 CAIRO_SURFACE
@@ -2963,7 +2963,7 @@ GetFormat
 )
 !
 =
-Image
+ImageFormat
 :
 :
 REMOTE_IMAGE_BITMAP

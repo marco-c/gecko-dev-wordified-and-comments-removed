@@ -130,6 +130,13 @@ nsTArray
 h
 "
 #
+include
+"
+nsRegion
+.
+h
+"
+#
 define
 LOG
 (
