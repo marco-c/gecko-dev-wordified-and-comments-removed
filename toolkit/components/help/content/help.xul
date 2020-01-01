@@ -2281,6 +2281,17 @@ search
 emptytext
 ;
 "
+aria
+-
+controls
+=
+"
+help
+-
+toc
+-
+panel
+"
 oncommand
 =
 "

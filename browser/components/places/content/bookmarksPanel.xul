@@ -822,6 +822,15 @@ size
 "
 small
 "
+aria
+-
+controls
+=
+"
+bookmarks
+-
+view
+"
 oncommand
 =
 "
