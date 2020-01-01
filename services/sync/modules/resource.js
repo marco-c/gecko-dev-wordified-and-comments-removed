@@ -507,6 +507,17 @@ INHIBIT_CACHING
 ;
 channel
 .
+loadFlags
+|
+=
+Ci
+.
+nsIRequest
+.
+LOAD_ANONYMOUS
+;
+channel
+.
 notificationCallbacks
 =
 new

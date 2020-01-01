@@ -310,6 +310,12 @@ Ci
 nsIRequest
 .
 INHIBIT_CACHING
+|
+Ci
+.
+nsIRequest
+.
+LOAD_ANONYMOUS
 channel
 :
 null
