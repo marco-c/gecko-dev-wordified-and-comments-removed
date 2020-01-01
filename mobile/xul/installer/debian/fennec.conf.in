@@ -56,8 +56,7 @@ script
 -
 name
 >
-/
-usr
+installdir
 /
 share
 /
@@ -79,8 +78,7 @@ script
 -
 name
 >
-/
-usr
+installdir
 /
 share
 /

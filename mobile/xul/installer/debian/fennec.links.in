@@ -1,6 +1,12 @@
 #
 filter
 substitution
+#
+if
+MOZ_PLATFORM_MAEMO
+=
+=
+5
 installdir
 /
 fennec
@@ -31,3 +37,5 @@ menu
 0112_fennec
 .
 desktop
+#
+endif

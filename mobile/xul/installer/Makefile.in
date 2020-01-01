@@ -1628,10 +1628,6 @@ dbus
 /
 services
 /
-org
-.
-mozilla
-.
 (
 MOZ_APP_NAME
 )
@@ -1687,6 +1683,10 @@ meegotouch
 /
 icons
 /
+icon
+-
+l
+-
 (
 MOZ_APP_NAME
 )
@@ -1771,7 +1771,9 @@ backup
 DEBDESTDIR
 )
 /
-usr
+(
+installdir
+)
 /
 share
 /
@@ -1792,7 +1794,9 @@ restore
 DEBDESTDIR
 )
 /
-usr
+(
+installdir
+)
 /
 share
 /
@@ -1936,6 +1940,8 @@ d
 (
 MOZ_APP_NAME
 )
+.
+conf
 else
 (
 NSINSTALL
