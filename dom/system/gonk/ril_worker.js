@@ -8532,6 +8532,9 @@ if
 response
 .
 itemIdentifier
+!
+=
+null
 )
 {
 GsmPDUHelper
@@ -8782,6 +8785,9 @@ if
 localInfo
 .
 imei
+!
+=
+null
 )
 {
 let
@@ -8870,6 +8876,9 @@ if
 localInfo
 .
 date
+!
+=
+null
 )
 {
 ComprehensionTlvHelper
@@ -9377,6 +9386,9 @@ if
 options
 .
 itemIdentifier
+!
+=
+null
 )
 {
 GsmPDUHelper
@@ -9434,6 +9446,9 @@ if
 options
 .
 eventList
+!
+=
+null
 )
 {
 GsmPDUHelper
@@ -9467,6 +9482,9 @@ if
 options
 .
 locationStatus
+!
+=
+null
 )
 {
 let
@@ -9526,6 +9544,9 @@ if
 options
 .
 transactionId
+!
+=
+null
 )
 {
 GsmPDUHelper
@@ -9605,6 +9626,9 @@ if
 options
 .
 cause
+!
+=
+null
 )
 {
 ComprehensionTlvHelper
@@ -9622,6 +9646,9 @@ if
 options
 .
 timerId
+!
+=
+null
 )
 {
 GsmPDUHelper
@@ -9655,6 +9682,9 @@ if
 options
 .
 timerValue
+!
+=
+null
 )
 {
 ComprehensionTlvHelper
