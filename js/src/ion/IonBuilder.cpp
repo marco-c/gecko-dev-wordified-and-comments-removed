@@ -9479,8 +9479,11 @@ store
 return
 false
 ;
+DebugOnly
+<
 MDefinition
 *
+>
 pushedGlobal
 =
 current

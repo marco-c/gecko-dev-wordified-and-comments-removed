@@ -633,7 +633,7 @@ const
 ;
 }
 ;
-struct
+class
 IonCode
 ;
 struct
