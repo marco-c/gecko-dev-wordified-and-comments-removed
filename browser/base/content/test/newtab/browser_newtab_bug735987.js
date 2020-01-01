@@ -46,7 +46,7 @@ checkGrid
 )
 ;
 yield
-simulateDrop
+simulateExternalDrop
 (
 1
 )
@@ -88,7 +88,7 @@ checkGrid
 )
 ;
 yield
-simulateDrop
+simulateExternalDrop
 (
 1
 )
@@ -113,6 +113,14 @@ NewTabUtils
 blockedLinks
 .
 resetCache
+(
+)
+;
+NewTabUtils
+.
+allPages
+.
+update
 (
 )
 ;
