@@ -2220,8 +2220,10 @@ if
 realElement
 )
 {
+nsCOMPtr
+<
 nsIAtom
-*
+>
 dstAttr
 =
 xblAttr

@@ -2142,8 +2142,10 @@ NamespaceID
 (
 )
 ;
+nsCOMPtr
+<
 nsIAtom
-*
+>
 attribName
 =
 name

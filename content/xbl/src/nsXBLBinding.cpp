@@ -3316,8 +3316,10 @@ NamespaceID
 (
 )
 ;
+nsCOMPtr
+<
 nsIAtom
-*
+>
 name
 =
 attrName
