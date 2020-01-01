@@ -866,12 +866,6 @@ aCycleCount
 )
 ;
 virtual
-PRBool
-HasPendingInputEvent
-(
-)
-;
-virtual
 nsTransparencyMode
 GetTransparencyMode
 (

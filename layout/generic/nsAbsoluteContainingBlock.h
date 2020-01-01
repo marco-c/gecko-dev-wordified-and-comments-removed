@@ -244,11 +244,6 @@ MarkSizeDependentFramesDirty
 (
 )
 ;
-void
-MarkAllFramesDirty
-(
-)
-;
 protected
 :
 PRBool
@@ -291,13 +286,6 @@ aStatus
 nsRect
 *
 aChildBounds
-)
-;
-void
-DoMarkFramesDirty
-(
-PRBool
-aMarkAllDirty
 )
 ;
 protected

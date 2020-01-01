@@ -754,12 +754,6 @@ PRInt32
 aCycleCount
 )
 ;
-virtual
-PRBool
-HasPendingInputEvent
-(
-)
-;
 NS_IMETHOD
 MakeFullScreen
 (

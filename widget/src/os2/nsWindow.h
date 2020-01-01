@@ -425,12 +425,6 @@ PRUint32
 aTime
 )
 ;
-virtual
-PRBool
-HasPendingInputEvent
-(
-)
-;
 NS_IMETHOD
 SetCursor
 (
