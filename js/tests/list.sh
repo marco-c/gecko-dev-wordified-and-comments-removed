@@ -116,7 +116,7 @@ result
 =
 grep
 jsfile
-spidermonkey
+excluded
 -
 n
 .
@@ -288,14 +288,6 @@ version
 1
 .
 7
-"
-;
-;
-*
-)
-version
-=
-"
 "
 ;
 ;
