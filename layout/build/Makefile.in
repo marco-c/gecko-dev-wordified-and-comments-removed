@@ -1928,10 +1928,6 @@ SHARED_LIBRARY_LIBS
 /
 svg
 /
-base
-/
-src
-/
 (
 LIB_PREFIX
 )

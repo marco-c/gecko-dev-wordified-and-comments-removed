@@ -883,10 +883,6 @@ topsrcdir
 layout
 /
 svg
-/
-base
-/
-src
 \
 -
 I

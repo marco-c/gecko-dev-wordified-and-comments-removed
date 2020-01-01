@@ -1526,10 +1526,6 @@ layout
 /
 svg
 /
-base
-/
-src
-/
 Makefile
 layout
 /
