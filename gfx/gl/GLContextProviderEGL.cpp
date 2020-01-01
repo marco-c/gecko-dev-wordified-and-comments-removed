@@ -8106,7 +8106,7 @@ ContextFlags
 {
 #
 ifdef
-ANDROID
+MOZ_JAVA_COMPOSITOR
 return
 nsnull
 ;

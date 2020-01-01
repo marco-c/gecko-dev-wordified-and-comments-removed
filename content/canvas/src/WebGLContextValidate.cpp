@@ -2963,7 +2963,7 @@ false
 }
 #
 ifdef
-ANDROID
+MOZ_JAVA_COMPOSITOR
 bool
 forceEnabled
 =
