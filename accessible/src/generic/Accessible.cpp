@@ -11967,10 +11967,11 @@ idx
 }
 if
 (
+!
 nsAccUtils
 :
 :
-IsText
+IsEmbeddedObject
 (
 aChild
 )

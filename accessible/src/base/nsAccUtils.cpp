@@ -1916,7 +1916,8 @@ childIdx
 ;
 if
 (
-IsText
+!
+IsEmbeddedObject
 (
 child
 )
@@ -1974,8 +1975,7 @@ aAccessible
 {
 if
 (
-!
-IsText
+IsEmbeddedObject
 (
 aAccessible
 )
