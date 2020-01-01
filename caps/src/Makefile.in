@@ -487,6 +487,10 @@ nsNullPrincipal
 .
 cpp
 \
+nsNullPrincipalURI
+.
+cpp
+\
 nsJSPrincipals
 .
 cpp
