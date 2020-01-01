@@ -1500,6 +1500,15 @@ _retval
 {
 if
 (
+IsDefunct
+(
+)
+)
+return
+NS_ERROR_FAILURE
+;
+if
+(
 NativeState
 (
 )
