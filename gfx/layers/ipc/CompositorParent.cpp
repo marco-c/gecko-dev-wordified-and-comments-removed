@@ -4110,12 +4110,9 @@ TransformFixedLayers
 (
 aLayer
 -
-gfxPoint
-(
 treeTransform
 .
 mTranslation
-)
 /
 treeTransform
 .
