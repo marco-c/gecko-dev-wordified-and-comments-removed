@@ -46998,7 +46998,7 @@ JUMPX_OFFSET_LEN
 ;
 low
 =
-GET_JUMPX_OFFSET
+GET_JUMP_OFFSET
 (
 pc
 )
@@ -47006,11 +47006,11 @@ pc
 pc
 +
 =
-JUMPX_OFFSET_LEN
+JUMP_OFFSET_LEN
 ;
 high
 =
-GET_JUMPX_OFFSET
+GET_JUMP_OFFSET
 (
 pc
 )
@@ -47024,6 +47024,14 @@ high
 1
 -
 low
+;
+JS_ASSERT
+(
+count
+>
+=
+0
+)
 ;
 if
 (
