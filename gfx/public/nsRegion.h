@@ -182,7 +182,6 @@ aRect
 )
 {
 }
-inline
 void
 *
 operator
@@ -192,7 +191,6 @@ size_t
 )
 CPP_THROW_NEW
 ;
-inline
 void
 operator
 delete
