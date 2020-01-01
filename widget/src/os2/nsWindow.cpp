@@ -3265,6 +3265,7 @@ if
 (
 aParent
 )
+{
 mToolkit
 =
 aParent
@@ -3274,6 +3275,12 @@ GetToolkit
 (
 )
 ;
+NS_IF_ADDREF
+(
+mToolkit
+)
+;
+}
 else
 {
 mToolkit

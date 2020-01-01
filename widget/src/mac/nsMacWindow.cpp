@@ -1334,14 +1334,11 @@ aParent
 )
 theToolkit
 =
-getter_AddRefs
-(
 aParent
 -
 >
 GetToolkit
 (
-)
 )
 ;
 mAcceptsActivation
