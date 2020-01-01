@@ -1119,7 +1119,7 @@ field
 name
 =
 "
-mPlacesAutocomplete
+_placesAutocomplete
 "
 readonly
 =
@@ -3574,7 +3574,7 @@ this
 .
 mTabBrowser
 .
-mPlacesAutocomplete
+_placesAutocomplete
 ;
 if
 (
@@ -10201,7 +10201,7 @@ aTabWillBeMoved
 {
 this
 .
-mPlacesAutocomplete
+_placesAutocomplete
 .
 unregisterOpenPage
 (
@@ -11627,7 +11627,7 @@ registeredOpenURI
 {
 this
 .
-mPlacesAutocomplete
+_placesAutocomplete
 .
 unregisterOpenPage
 (
@@ -16094,7 +16094,7 @@ registeredOpenURI
 {
 this
 .
-mPlacesAutocomplete
+_placesAutocomplete
 .
 unregisterOpenPage
 (
