@@ -453,7 +453,7 @@ NULL
 EXTRA_COMPONENTS
 =
 \
-aboutFirstrun
+AboutRedirector
 .
 js
 \
