@@ -416,13 +416,10 @@ EXTRA_JS_MODULES
 Microformats
 .
 js
-ifdef
-ENABLE_TESTS
-DIRS
+TEST_DIRS
 +
 =
 tests
-endif
 include
 (
 topsrcdir

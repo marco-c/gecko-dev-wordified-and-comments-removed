@@ -428,13 +428,10 @@ config
 config
 .
 mk
-ifdef
-ENABLE_TESTS
-DIRS
+TEST_DIRS
 +
 =
 test
-endif
 EXTRA_JS_MODULES
 =
 \

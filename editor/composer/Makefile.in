@@ -413,13 +413,10 @@ DIRS
 =
 public
 src
-ifdef
-ENABLE_TESTS
-DIRS
+TEST_DIRS
 +
 =
 test
-endif
 #
 Enable
 Editor

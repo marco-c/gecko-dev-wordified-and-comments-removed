@@ -420,12 +420,10 @@ browserdir
 LIBRARY_NAME
 =
 browserdir_s
-ifdef
-ENABLE_TESTS
-DIRS
+TEST_DIRS
++
 =
 tests
-endif
 FORCE_STATIC_LIB
 =
 1

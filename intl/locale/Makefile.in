@@ -443,13 +443,10 @@ DIRS
 public
 idl
 src
-ifdef
-ENABLE_TESTS
-DIRS
+TEST_DIRS
 +
 =
 tests
-endif
 include
 (
 topsrcdir

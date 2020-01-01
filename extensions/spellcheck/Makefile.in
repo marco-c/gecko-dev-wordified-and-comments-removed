@@ -424,15 +424,12 @@ idl
 locales
 hunspell
 src
-ifdef
-ENABLE_TESTS
-DIRS
+TEST_DIRS
 +
 =
 tests
 /
 chrome
-endif
 include
 (
 topsrcdir

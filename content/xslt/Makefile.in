@@ -413,9 +413,7 @@ PARALLEL_DIRS
 =
 public
 src
-ifdef
-ENABLE_TESTS
-DIRS
+TEST_DIRS
 +
 =
 tests
@@ -425,7 +423,6 @@ buster
 tests
 /
 mochitest
-endif
 include
 (
 topsrcdir

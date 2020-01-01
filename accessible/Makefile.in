@@ -414,13 +414,10 @@ DIRS
 public
 src
 build
-ifdef
-ENABLE_TESTS
-DIRS
+TEST_DIRS
 +
 =
 tests
-endif
 include
 (
 topsrcdir

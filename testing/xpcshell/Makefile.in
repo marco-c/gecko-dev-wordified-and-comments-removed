@@ -447,13 +447,10 @@ example
 "
 folder
 :
-ifdef
-ENABLE_TESTS
-DIRS
+TEST_DIRS
 +
 =
 example
-endif
 include
 (
 topsrcdir

@@ -414,15 +414,12 @@ DIRS
 idl
 include
 src
-ifdef
-ENABLE_TESTS
-DIRS
+TEST_DIRS
 +
 =
 tests
 /
 mochitest
-endif
 include
 (
 topsrcdir

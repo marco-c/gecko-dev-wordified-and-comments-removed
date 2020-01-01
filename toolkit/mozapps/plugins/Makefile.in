@@ -422,13 +422,10 @@ EXTRA_COMPONENTS
 pluginGlue
 .
 manifest
-ifdef
-ENABLE_TESTS
-DIRS
+TEST_DIRS
 +
 =
 tests
-endif
 include
 (
 topsrcdir

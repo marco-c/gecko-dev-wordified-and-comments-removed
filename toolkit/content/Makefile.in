@@ -707,13 +707,10 @@ DEFINES
 -
 DMOZ_TOOLKIT_SEARCH
 endif
-ifdef
-ENABLE_TESTS
-DIRS
+TEST_DIRS
 +
 =
 tests
-endif
 EXTRA_JS_MODULES
 =
 \

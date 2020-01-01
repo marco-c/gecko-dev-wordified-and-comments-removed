@@ -513,12 +513,10 @@ lib
 FORCE_STATIC_LIB
 =
 1
-ifdef
-ENABLE_TESTS
-DIRS
+TEST_DIRS
++
 =
 test
-endif
 include
 (
 topsrcdir

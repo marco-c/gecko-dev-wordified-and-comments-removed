@@ -571,9 +571,7 @@ wifi
 NULL
 )
 endif
-ifdef
-ENABLE_TESTS
-DIRS
+TEST_DIRS
 +
 =
 tests
@@ -592,13 +590,12 @@ MOZ_WIDGET_TOOLKIT
 )
 )
 )
-DIRS
+TEST_DIRS
 +
 =
 plugins
 /
 test
-endif
 endif
 include
 (

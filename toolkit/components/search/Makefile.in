@@ -456,13 +456,10 @@ DMOZ_DISTRIBUTION_ID
 (
 MOZ_DISTRIBUTION_ID
 )
-ifdef
-ENABLE_TESTS
-DIRS
+TEST_DIRS
 +
 =
 tests
-endif
 include
 (
 topsrcdir

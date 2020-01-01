@@ -415,13 +415,10 @@ config
 autoconf
 .
 mk
-ifdef
-ENABLE_TESTS
-DIRS
+TEST_DIRS
 +
 =
 tests
-endif
 MODULE
 =
 editor

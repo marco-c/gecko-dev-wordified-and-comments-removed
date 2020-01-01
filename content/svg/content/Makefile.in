@@ -418,13 +418,10 @@ mk
 PARALLEL_DIRS
 =
 src
-ifdef
-ENABLE_TESTS
-DIRS
+TEST_DIRS
 +
 =
 test
-endif
 include
 (
 topsrcdir

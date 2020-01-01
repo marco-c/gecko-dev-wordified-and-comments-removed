@@ -423,8 +423,6 @@ config
 autoconf
 .
 mk
-ifdef
-ENABLE_TESTS
 #
 This
 extra
@@ -507,7 +505,7 @@ the
 tests
 here
 .
-DIRS
+TEST_DIRS
 +
 =
 bug649134
@@ -519,11 +517,10 @@ related
 test
 suite
 .
-DIRS
+TEST_DIRS
 +
 =
 forms
-endif
 include
 (
 topsrcdir

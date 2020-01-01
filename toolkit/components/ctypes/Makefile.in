@@ -488,13 +488,10 @@ cpp
 (
 NULL
 )
-ifdef
-ENABLE_TESTS
-DIRS
+TEST_DIRS
 +
 =
 tests
-endif
 include
 (
 topsrcdir

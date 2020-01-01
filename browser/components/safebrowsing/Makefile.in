@@ -411,15 +411,12 @@ config
 autoconf
 .
 mk
-ifdef
-ENABLE_TESTS
-DIRS
+TEST_DIRS
 +
 =
 content
 /
 test
-endif
 ifdef
 MOZILLA_OFFICIAL
 DEFINES

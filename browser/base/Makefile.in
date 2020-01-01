@@ -454,15 +454,12 @@ app
 license
 .
 html
-ifdef
-ENABLE_TESTS
-DIRS
+TEST_DIRS
 +
 =
 content
 /
 test
-endif
 include
 (
 topsrcdir

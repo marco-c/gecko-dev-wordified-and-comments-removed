@@ -418,13 +418,10 @@ offline
 json
 geolocation
 notification
-ifdef
-ENABLE_TESTS
-DIRS
+TEST_DIRS
 +
 =
 foo
-endif
 include
 (
 topsrcdir

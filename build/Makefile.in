@@ -444,9 +444,7 @@ DIRS
 +
 =
 pgo
-ifdef
-ENABLE_TESTS
-DIRS
+TEST_DIRS
 +
 =
 autoconf
@@ -459,7 +457,7 @@ android
 MOZ_WIDGET_TOOLKIT
 )
 )
-DIRS
+TEST_DIRS
 +
 =
 mobile
@@ -499,7 +497,6 @@ robocop
 (
 NULL
 )
-endif
 endif
 ifdef
 MOZ_APP_BASENAME

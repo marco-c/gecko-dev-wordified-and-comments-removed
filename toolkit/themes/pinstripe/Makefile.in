@@ -431,13 +431,10 @@ DIRS
 =
 help
 endif
-ifdef
-ENABLE_TESTS
-DIRS
+TEST_DIRS
 +
 =
 mochitests
-endif
 include
 (
 topsrcdir
