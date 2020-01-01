@@ -289,8 +289,11 @@ vp
 ;
 static
 bool
-markAllIteratively
+markCompartmentIteratively
 (
+JSCompartment
+*
+c
 JSTracer
 *
 trc
