@@ -3752,6 +3752,16 @@ selection
 .
 parentNode
 ;
+if
+(
+this
+.
+treePanel
+.
+isOpen
+(
+)
+)
 this
 .
 treePanel
