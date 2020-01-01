@@ -779,7 +779,7 @@ i
 ]
 )
 ;
-memcpy
+js_memcpy
 (
 cursor
 report
@@ -849,7 +849,7 @@ jschar
 )
 cursor
 ;
-memcpy
+js_memcpy
 (
 cursor
 report
@@ -885,7 +885,7 @@ jschar
 )
 cursor
 ;
-memcpy
+js_memcpy
 (
 cursor
 report
@@ -952,7 +952,7 @@ char
 )
 cursor
 ;
-memcpy
+js_memcpy
 (
 cursor
 report
@@ -1019,7 +1019,7 @@ char
 )
 cursor
 ;
-memcpy
+js_memcpy
 (
 cursor
 report

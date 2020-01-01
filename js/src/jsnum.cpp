@@ -3772,7 +3772,7 @@ tmpGroup
 buflen
 )
 ;
-memcpy
+js_memcpy
 (
 tmpDest
 tmpSrc
@@ -4997,7 +4997,7 @@ storage
 return
 false
 ;
-memcpy
+js_memcpy
 (
 storage
 thousandsSeparator
@@ -5016,7 +5016,7 @@ storage
 =
 thousandsSeparatorSize
 ;
-memcpy
+js_memcpy
 (
 storage
 decimalPoint
@@ -5035,7 +5035,7 @@ storage
 =
 decimalPointSize
 ;
-memcpy
+js_memcpy
 (
 storage
 grouping

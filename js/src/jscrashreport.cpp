@@ -335,7 +335,7 @@ Rbp
 endif
 #
 endif
-memcpy
+js_memcpy
 (
 buffer
 (
@@ -629,7 +629,7 @@ REG_EIP
 ;
 #
 endif
-memcpy
+js_memcpy
 (
 buffer
 (
@@ -924,7 +924,7 @@ size
 -
 first
 ;
-memcpy
+js_memcpy
 (
 &
 buffer
@@ -935,7 +935,7 @@ data
 first
 )
 ;
-memcpy
+js_memcpy
 (
 buffer
 (
@@ -955,7 +955,7 @@ second
 }
 else
 {
-memcpy
+js_memcpy
 (
 &
 buffer

@@ -605,7 +605,7 @@ bin
 ]
 ;
 }
-memcpy
+js_memcpy
 (
 bs
 -

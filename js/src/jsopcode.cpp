@@ -6076,7 +6076,6 @@ text
 +
 1
 ;
-const
 char
 *
 ntext
@@ -6117,12 +6116,8 @@ return
 false
 ;
 }
-memcpy
+js_memcpy
 (
-(
-char
-*
-)
 ntext
 text
 len
@@ -6138,7 +6133,15 @@ pc
 .
 text
 =
+const_cast
+<
+const
+char
+*
+>
+(
 ntext
+)
 ;
 }
 return
@@ -6197,7 +6200,7 @@ if
 nstr
 )
 {
-memcpy
+js_memcpy
 (
 (
 char

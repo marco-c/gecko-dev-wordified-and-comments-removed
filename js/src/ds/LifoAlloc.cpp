@@ -795,7 +795,7 @@ newSize
 return
 newPtr
 ?
-memcpy
+js_memcpy
 (
 newPtr
 origPtr
