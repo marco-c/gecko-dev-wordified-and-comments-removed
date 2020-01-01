@@ -6471,6 +6471,16 @@ unknown
 return
 true
 ;
+if
+(
+objectCount
+=
+=
+0
+)
+return
+true
+;
 unsigned
 count
 =
