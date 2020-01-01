@@ -679,6 +679,13 @@ executableCopy
 code_
 )
 ;
+masm
+.
+processCodeLabels
+(
+code_
+)
+;
 dataSize_
 =
 masm
