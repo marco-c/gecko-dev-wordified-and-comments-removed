@@ -2169,6 +2169,12 @@ application
 .
 ini
 \
+package
+-
+name
+.
+txt
+\
 platform
 .
 ini
