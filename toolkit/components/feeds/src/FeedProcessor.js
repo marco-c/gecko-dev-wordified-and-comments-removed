@@ -8409,10 +8409,6 @@ Ci
 nsIChannel
 )
 ;
-if
-(
-channel
-)
 channel
 .
 contentType
@@ -8420,7 +8416,13 @@ contentType
 "
 application
 /
-xml
+vnd
+.
+mozilla
+.
+maybe
+.
+feed
 "
 ;
 this
