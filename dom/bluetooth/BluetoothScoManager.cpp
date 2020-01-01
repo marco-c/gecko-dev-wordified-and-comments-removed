@@ -1020,7 +1020,7 @@ BluetoothSocketType
 :
 SCO
 true
-false
+true
 this
 )
 ;
