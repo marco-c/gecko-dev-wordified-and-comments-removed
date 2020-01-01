@@ -1319,13 +1319,6 @@ cx
 selfHostedGlobal_
 )
 ;
-RootedObject
-shg
-(
-cx
-selfHostedGlobal_
-)
-;
 CompileOptions
 options
 (
@@ -1358,6 +1351,13 @@ JS_SetErrorReporter
 (
 cx
 selfHosting_ErrorReporter
+)
+;
+RootedObject
+shg
+(
+cx
+selfHostedGlobal_
 )
 ;
 Value
