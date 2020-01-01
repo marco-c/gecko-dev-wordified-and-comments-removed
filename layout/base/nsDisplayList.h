@@ -6251,6 +6251,15 @@ float
 aFactor
 )
 ;
+float
+GetHitDepthAtPoint
+(
+const
+nsPoint
+&
+aPoint
+)
+;
 static
 nsRect
 TransformRect
