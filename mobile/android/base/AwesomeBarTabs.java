@@ -24,6 +24,13 @@ Drawable
 import
 android
 .
+net
+.
+Uri
+;
+import
+android
+.
 util
 .
 AttributeSet
@@ -976,7 +983,12 @@ url
 =
 "
 +
+Uri
+.
+encode
+(
 url
+)
 ;
 }
 public

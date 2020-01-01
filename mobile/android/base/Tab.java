@@ -54,6 +54,13 @@ Drawable
 import
 android
 .
+net
+.
+Uri
+;
+import
+android
+.
 os
 .
 AsyncTask
@@ -2157,8 +2164,13 @@ url
 =
 "
 +
+Uri
+.
+encode
+(
 getURL
 (
+)
 )
 )
 ;
