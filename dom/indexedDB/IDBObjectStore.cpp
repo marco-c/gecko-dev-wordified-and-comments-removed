@@ -1760,7 +1760,7 @@ const
 unsigned
 sRuntimeHeapSize
 =
-256
+512
 *
 1024
 ;
