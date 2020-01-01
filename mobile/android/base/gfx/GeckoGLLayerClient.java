@@ -694,12 +694,10 @@ mScreenSize
 GeckoEvent
 event
 =
-new
-GeckoEvent
-(
 GeckoEvent
 .
-SIZE_CHANGED
+createSizeChangedEvent
+(
 mScreenSize
 .
 width

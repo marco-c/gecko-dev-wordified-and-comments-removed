@@ -97,6 +97,14 @@ nsnull
 ;
 #
 endif
+PRUint32
+GLContext
+:
+:
+sDebugMode
+=
+0
+;
 const
 ContextFormat
 ContextFormat
@@ -4037,7 +4045,7 @@ MOZ_GL_DEBUG
 "
 )
 )
-mDebugMode
+sDebugMode
 |
 =
 DebugEnabled
@@ -4051,7 +4059,7 @@ MOZ_GL_DEBUG_VERBOSE
 "
 )
 )
-mDebugMode
+sDebugMode
 |
 =
 DebugTrace
@@ -4065,7 +4073,7 @@ MOZ_GL_DEBUG_ABORT_ON_ERROR
 "
 )
 )
-mDebugMode
+sDebugMode
 |
 =
 DebugAbortOnError

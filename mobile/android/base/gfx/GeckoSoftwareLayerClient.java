@@ -754,18 +754,11 @@ height
 ;
 if
 (
-!
-(
 mTileLayer
 instanceof
 MultiTileLayer
 )
-)
 {
-return
-true
-;
-}
 int
 bpp
 =
@@ -836,6 +829,7 @@ allocateDirectBuffer
 size
 )
 ;
+}
 }
 }
 return

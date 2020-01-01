@@ -1657,8 +1657,6 @@ length
 PanZoomController
 .
 PAN_THRESHOLD
-*
-240
 )
 {
 initialTouchLocation
