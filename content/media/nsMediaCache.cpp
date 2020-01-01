@@ -9774,6 +9774,10 @@ aOriginal
 >
 mIsSeekable
 ;
+mCacheSuspended
+=
+PR_TRUE
+;
 for
 (
 PRUint32
