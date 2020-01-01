@@ -3015,6 +3015,15 @@ statep
 =
 JSON_PARSE_STATE_FINISHED
 ;
+jsval
+*
+v
+=
+jp
+-
+>
+rootVal
+;
 JS_free
 (
 cx
@@ -3058,10 +3067,7 @@ Revive
 (
 cx
 reviver
-jp
--
->
-rootVal
+v
 )
 ;
 return
