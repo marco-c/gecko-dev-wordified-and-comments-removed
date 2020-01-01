@@ -1,6 +1,13 @@
 #
 include
 "
+jscntxt
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
@@ -79,13 +86,6 @@ h
 include
 "
 nsIX509Cert
-.
-h
-"
-#
-include
-"
-jscntxt
 .
 h
 "

@@ -1,14 +1,14 @@
 #
 include
 "
-xpcJSWeakReference
+xpcprivate
 .
 h
 "
 #
 include
 "
-xpcprivate
+xpcJSWeakReference
 .
 h
 "

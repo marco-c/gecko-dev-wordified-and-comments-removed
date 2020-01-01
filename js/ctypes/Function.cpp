@@ -1,6 +1,13 @@
 #
 include
 "
+jscntxt
+.
+h
+"
+#
+include
+"
 Function
 .
 h
@@ -16,13 +23,6 @@ h
 include
 "
 nsAutoPtr
-.
-h
-"
-#
-include
-"
-jscntxt
 .
 h
 "

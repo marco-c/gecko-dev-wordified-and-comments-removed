@@ -1,13 +1,6 @@
 #
 include
 "
-jsd_xpc
-.
-h
-"
-#
-include
-"
 jsdbgapi
 .
 h
@@ -23,6 +16,13 @@ h
 include
 "
 jsfun
+.
+h
+"
+#
+include
+"
+jsd_xpc
 .
 h
 "
