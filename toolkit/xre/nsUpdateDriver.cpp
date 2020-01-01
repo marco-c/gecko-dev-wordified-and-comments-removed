@@ -1704,7 +1704,7 @@ defined
 XP_WIN
 )
 nsAutoString
-applyToDir
+applyToDirW
 ;
 rv
 =
@@ -1713,7 +1713,13 @@ appDir
 >
 GetPath
 (
+applyToDirW
+)
+;
+NS_ConvertUTF16toUTF8
 applyToDir
+(
+applyToDirW
 )
 ;
 #
