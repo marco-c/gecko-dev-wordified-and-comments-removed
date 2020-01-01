@@ -1379,7 +1379,7 @@ getSingleTarget
 (
 )
 ;
-JS_STATIC_ASSERT
+JS_ASSERT
 (
 CallTempReg0
 !
@@ -1387,7 +1387,7 @@ CallTempReg0
 ArgumentsRectifierReg
 )
 ;
-JS_STATIC_ASSERT
+JS_ASSERT
 (
 CallTempReg1
 !
@@ -1395,7 +1395,7 @@ CallTempReg1
 ArgumentsRectifierReg
 )
 ;
-JS_STATIC_ASSERT
+JS_ASSERT
 (
 CallTempReg2
 !
@@ -1403,7 +1403,7 @@ CallTempReg2
 JSReturnReg_Type
 )
 ;
-JS_STATIC_ASSERT
+JS_ASSERT
 (
 CallTempReg2
 !
