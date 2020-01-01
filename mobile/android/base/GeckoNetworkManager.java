@@ -440,8 +440,9 @@ GeckoAppShell
 .
 sendEventToGecko
 (
-new
 GeckoEvent
+.
+createNetworkEvent
 (
 getNetworkSpeed
 (

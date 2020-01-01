@@ -1232,8 +1232,9 @@ GeckoAppShell
 .
 sendEventToGecko
 (
-new
 GeckoEvent
+.
+createBroadcastEvent
 (
 "
 SearchEngines

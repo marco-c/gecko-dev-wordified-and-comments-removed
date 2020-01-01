@@ -759,8 +759,9 @@ GeckoAppShell
 .
 sendEventToGecko
 (
-new
 GeckoEvent
+.
+createBroadcastEvent
 (
 "
 Tab
