@@ -14785,6 +14785,13 @@ temp
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
+*
+aOutIndex
+=
+startIndex
++
+insertionPoint
+;
 return
 NS_OK
 ;
