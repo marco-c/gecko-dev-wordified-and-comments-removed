@@ -1248,6 +1248,10 @@ plugin_bug820497
 .
 html
 \
+browser_bug882977
+.
+js
+\
 plugin_hidden_to_visible
 .
 html
