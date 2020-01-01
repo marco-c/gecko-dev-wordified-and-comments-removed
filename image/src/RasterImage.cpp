@@ -2693,7 +2693,7 @@ frameDirtyRect
 if
 (
 !
-frameAdvanced
+didAdvance
 &
 &
 (
