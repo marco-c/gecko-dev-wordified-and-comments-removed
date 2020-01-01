@@ -201,6 +201,17 @@ mozilla
 pth
 :
 config
+mozilla
+.
+pth
+:
+xpcom
+/
+typelib
+/
+xpt
+/
+tools
 copy
 :
 build

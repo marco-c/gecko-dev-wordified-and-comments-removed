@@ -46,6 +46,9 @@ mach
 '
 mozbuild
 '
+'
+mozpack
+'
 ]
     
 version
