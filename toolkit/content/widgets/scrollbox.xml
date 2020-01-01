@@ -3490,6 +3490,15 @@ this
 .
 scrollByIndex
 (
+this
+.
+_isRTLScrollbox
+?
+-
+event
+.
+detail
+:
 event
 .
 detail
