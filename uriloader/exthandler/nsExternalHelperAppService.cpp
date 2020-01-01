@@ -1688,7 +1688,7 @@ NS_ERROR_FAILURE
 elif
 defined
 (
-MAEMO
+MOZ_PLATFORM_MAEMO
 )
 nsresult
 rv
