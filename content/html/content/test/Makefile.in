@@ -840,6 +840,10 @@ test_bug481335
 .
 xhtml
 \
+test_bug500885
+.
+html
+\
 test_bug514856
 .
 html
