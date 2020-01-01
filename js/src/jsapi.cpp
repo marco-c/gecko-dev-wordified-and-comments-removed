@@ -7883,12 +7883,12 @@ type
 )
 (
 &
-TypedArray
+TypedArrayObject
 :
 :
 classes
 [
-TypedArray
+TypedArrayObject
 :
 :
 type

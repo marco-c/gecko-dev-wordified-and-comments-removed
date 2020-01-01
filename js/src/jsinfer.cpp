@@ -10503,7 +10503,7 @@ return
 clasp
 -
 &
-TypedArray
+TypedArrayObject
 :
 :
 classes
@@ -10512,7 +10512,7 @@ classes
 ]
 ;
 return
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_MAX

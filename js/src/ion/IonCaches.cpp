@@ -5759,7 +5759,7 @@ tmpReg
 ImmWord
 (
 &
-TypedArray
+TypedArrayObject
 :
 :
 classes
@@ -5783,12 +5783,12 @@ tmpReg
 ImmWord
 (
 &
-TypedArray
+TypedArrayObject
 :
 :
 classes
 [
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_MAX
@@ -5807,7 +5807,7 @@ Address
 object
 (
 )
-TypedArray
+TypedArrayObject
 :
 :
 lengthOffset
@@ -10964,7 +10964,7 @@ this
 int
 arrayType
 =
-TypedArray
+TypedArrayObject
 :
 :
 type
@@ -10981,7 +10981,7 @@ floatOutput
 arrayType
 =
 =
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_FLOAT32
@@ -10990,7 +10990,7 @@ TYPE_FLOAT32
 arrayType
 =
 =
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_FLOAT64
@@ -11417,7 +11417,7 @@ length
 object
 (
 )
-TypedArray
+TypedArrayObject
 :
 :
 lengthOffset
@@ -11467,7 +11467,7 @@ Address
 object
 (
 )
-TypedArray
+TypedArrayObject
 :
 :
 dataOffset
@@ -11480,7 +11480,7 @@ elementReg
 int
 width
 =
-TypedArray
+TypedArrayObject
 :
 :
 slotWidth
@@ -12892,7 +12892,7 @@ UINT32_MAX
 int
 arrayType
 =
-TypedArray
+TypedArrayObject
 :
 :
 type
@@ -12906,7 +12906,7 @@ floatOutput
 arrayType
 =
 =
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_FLOAT32
@@ -12915,7 +12915,7 @@ TYPE_FLOAT32
 arrayType
 =
 =
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_FLOAT64

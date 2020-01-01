@@ -9840,7 +9840,7 @@ valObj
 )
 {
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_INT8
@@ -9852,13 +9852,13 @@ TYPE_int8_t
 break
 ;
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT8
 :
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT8_CLAMPED
@@ -9870,7 +9870,7 @@ TYPE_uint8_t
 break
 ;
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_INT16
@@ -9882,7 +9882,7 @@ TYPE_int16_t
 break
 ;
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT16
@@ -9894,7 +9894,7 @@ TYPE_uint16_t
 break
 ;
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_INT32
@@ -9906,7 +9906,7 @@ TYPE_int32_t
 break
 ;
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT32
@@ -9918,7 +9918,7 @@ TYPE_uint32_t
 break
 ;
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_FLOAT32
@@ -9930,7 +9930,7 @@ TYPE_float32_t
 break
 ;
 case
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_FLOAT64

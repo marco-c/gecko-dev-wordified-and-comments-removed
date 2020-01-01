@@ -939,7 +939,7 @@ vp
 .
 setInt32
 (
-TypedArray
+TypedArrayObject
 :
 :
 length

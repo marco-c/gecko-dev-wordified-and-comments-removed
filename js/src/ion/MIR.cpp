@@ -11887,7 +11887,7 @@ base
 const
 {
 return
-TypedArray
+TypedArrayObject
 :
 :
 viewData
@@ -11906,7 +11906,7 @@ length
 const
 {
 return
-TypedArray
+TypedArrayObject
 :
 :
 byteLength
@@ -11926,7 +11926,7 @@ base
 const
 {
 return
-TypedArray
+TypedArrayObject
 :
 :
 viewData
@@ -11945,7 +11945,7 @@ length
 const
 {
 return
-TypedArray
+TypedArrayObject
 :
 :
 byteLength
@@ -12682,7 +12682,7 @@ return
 arrayType
 !
 =
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_MAX

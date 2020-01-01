@@ -19283,7 +19283,7 @@ obj
 uint32_t
 type
 =
-TypedArray
+TypedArrayObject
 :
 :
 type
@@ -19296,7 +19296,7 @@ return
 type
 =
 =
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT32
@@ -19305,7 +19305,7 @@ TYPE_UINT32
 type
 =
 =
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_FLOAT32
@@ -19314,7 +19314,7 @@ TYPE_FLOAT32
 type
 =
 =
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_FLOAT64
@@ -19907,7 +19907,7 @@ obj
 lastProperty
 (
 )
-TypedArray
+TypedArrayObject
 :
 :
 type
@@ -21307,7 +21307,7 @@ unboxInt32
 Address
 (
 obj
-TypedArray
+TypedArrayObject
 :
 :
 lengthOffset
@@ -21338,7 +21338,7 @@ loadPtr
 Address
 (
 obj
-TypedArray
+TypedArrayObject
 :
 :
 dataOffset
@@ -21355,7 +21355,7 @@ scratchReg
 key
 ScaleFromElemWidth
 (
-TypedArray
+TypedArrayObject
 :
 :
 slotWidth
@@ -23480,7 +23480,7 @@ true
 uint32_t
 len
 =
-TypedArray
+TypedArrayObject
 :
 :
 length
@@ -23570,7 +23570,7 @@ obj
 lastProperty
 (
 )
-TypedArray
+TypedArrayObject
 :
 :
 type
@@ -23601,7 +23601,7 @@ obj
 lastProperty
 (
 )
-TypedArray
+TypedArrayObject
 :
 :
 type
@@ -25601,7 +25601,7 @@ unboxInt32
 Address
 (
 obj
-TypedArray
+TypedArrayObject
 :
 :
 lengthOffset
@@ -25637,7 +25637,7 @@ loadPtr
 Address
 (
 obj
-TypedArray
+TypedArrayObject
 :
 :
 dataOffset
@@ -25654,7 +25654,7 @@ scratchReg
 key
 ScaleFromElemWidth
 (
-TypedArray
+TypedArrayObject
 :
 :
 slotWidth
@@ -25713,7 +25713,7 @@ if
 type_
 =
 =
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_FLOAT32
@@ -25722,7 +25722,7 @@ TYPE_FLOAT32
 type_
 =
 =
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_FLOAT64
@@ -25759,7 +25759,7 @@ if
 type_
 =
 =
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_UINT8_CLAMPED
@@ -30794,7 +30794,7 @@ scratch
 ImmWord
 (
 &
-TypedArray
+TypedArrayObject
 :
 :
 classes
@@ -30818,12 +30818,12 @@ scratch
 ImmWord
 (
 &
-TypedArray
+TypedArrayObject
 :
 :
 classes
 [
-TypedArray
+TypedArrayObject
 :
 :
 TYPE_MAX
@@ -30840,7 +30840,7 @@ loadValue
 Address
 (
 obj
-TypedArray
+TypedArrayObject
 :
 :
 lengthOffset

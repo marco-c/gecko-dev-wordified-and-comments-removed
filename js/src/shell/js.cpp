@@ -5980,7 +5980,7 @@ buf
 char
 *
 )
-TypedArray
+TypedArrayObject
 :
 :
 viewData
@@ -18335,7 +18335,7 @@ JS_ASSERT
 (
 uintptr_t
 (
-TypedArray
+TypedArrayObject
 :
 :
 viewData
@@ -18353,7 +18353,7 @@ array
 ;
 js_memcpy
 (
-TypedArray
+TypedArrayObject
 :
 :
 viewData
@@ -18469,7 +18469,7 @@ false
 if
 (
 (
-TypedArray
+TypedArrayObject
 :
 :
 byteLength
@@ -18504,7 +18504,7 @@ if
 (
 uintptr_t
 (
-TypedArray
+TypedArrayObject
 :
 :
 viewData
@@ -18542,14 +18542,14 @@ cx
 uint64_t
 *
 )
-TypedArray
+TypedArrayObject
 :
 :
 viewData
 (
 obj
 )
-TypedArray
+TypedArrayObject
 :
 :
 byteLength
