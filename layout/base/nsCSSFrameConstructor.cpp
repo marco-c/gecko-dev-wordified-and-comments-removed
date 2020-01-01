@@ -1826,7 +1826,7 @@ aNewParentFrame
 aFrameManager
 -
 >
-ReParentStyleContext
+ReparentStyleContext
 (
 aFrame
 )

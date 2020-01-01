@@ -3255,7 +3255,7 @@ nsresult
 nsFrameManager
 :
 :
-ReParentStyleContext
+ReparentStyleContext
 (
 nsIFrame
 *
@@ -3304,7 +3304,7 @@ frame
 "
 )
 ;
-ReParentStyleContext
+ReparentStyleContext
 (
 outOfFlow
 )
@@ -3374,7 +3374,7 @@ if
 providerIsChild
 )
 {
-ReParentStyleContext
+ReparentStyleContext
 (
 providerFrame
 )
@@ -3808,7 +3808,7 @@ provider
 }
 #
 endif
-ReParentStyleContext
+ReparentStyleContext
 (
 child
 )
@@ -3898,7 +3898,7 @@ if
 sib
 )
 {
-ReParentStyleContext
+ReparentStyleContext
 (
 sib
 )

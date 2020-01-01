@@ -926,17 +926,6 @@ OpenBrowserWindow
 )
 ;
 static
-nsresult
-ReParent
-(
-nsISupports
-*
-window
-HWND
-newParent
-)
-;
-static
 void
 SetupSysTrayIcon
 (

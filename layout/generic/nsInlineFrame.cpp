@@ -1209,7 +1209,7 @@ return
 }
 static
 void
-ReParentChildListStyle
+ReparentChildListStyle
 (
 nsPresContext
 *
@@ -1286,7 +1286,7 @@ parentage
 frameManager
 -
 >
-ReParentStyleContext
+ReparentStyleContext
 (
 e
 .
@@ -1512,7 +1512,7 @@ GetInFirstLine
 )
 )
 {
-ReParentChildListStyle
+ReparentChildListStyle
 (
 aPresContext
 newFrames
@@ -2137,7 +2137,7 @@ inFirstLine
 frameManager
 -
 >
-ReParentStyleContext
+ReparentStyleContext
 (
 frame
 )
@@ -2214,7 +2214,7 @@ inFirstLine
 frameManager
 -
 >
-ReParentStyleContext
+ReparentStyleContext
 (
 nextInFlow
 )
@@ -2360,7 +2360,7 @@ inFirstLine
 frameManager
 -
 >
-ReParentStyleContext
+ReparentStyleContext
 (
 nextInFlow
 )
@@ -3155,7 +3155,7 @@ FrameManager
 )
 -
 >
-ReParentStyleContext
+ReparentStyleContext
 (
 f
 )
@@ -4424,7 +4424,7 @@ FrameManager
 )
 -
 >
-ReParentStyleContext
+ReparentStyleContext
 (
 frame
 )
@@ -4565,7 +4565,7 @@ nsnull
 prevOverflowFrames
 )
 ;
-ReParentChildListStyle
+ReparentChildListStyle
 (
 aPresContext
 newFrames
@@ -4624,7 +4624,7 @@ nsnull
 overflowFrames
 )
 ;
-ReParentChildListStyle
+ReparentChildListStyle
 (
 aPresContext
 newFrames
@@ -4841,7 +4841,7 @@ SetStyleContext
 newSC
 )
 ;
-ReParentChildListStyle
+ReparentChildListStyle
 (
 aPresContext
 mFrames
@@ -4974,7 +4974,7 @@ nsnull
 prevOverflowFrames
 )
 ;
-ReParentChildListStyle
+ReparentChildListStyle
 (
 PresContext
 (
