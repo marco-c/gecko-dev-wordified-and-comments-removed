@@ -465,6 +465,8 @@ next
 (
 )
 ;
+return
+;
 }
 let
 toolsPopup
@@ -1185,10 +1187,14 @@ Mac
 "
 )
 )
+{
 next
 (
 )
 ;
+return
+;
+}
 let
 toolsPopup
 =
