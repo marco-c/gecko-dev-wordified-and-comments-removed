@@ -785,7 +785,7 @@ _stringBundle
 GetStringFromName
 (
 "
-differentAccount
+stopUsingAccount
 .
 title
 "

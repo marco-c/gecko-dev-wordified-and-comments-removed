@@ -227,13 +227,13 @@ Sync
 <
 !
 ENTITY
-differentAccount
+stopUsingAccount
 .
 label
 "
-Use
-a
-Different
+Stop
+Using
+This
 Account
 "
 >
