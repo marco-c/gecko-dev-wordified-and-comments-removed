@@ -3082,6 +3082,7 @@ aBidiLevel
 levelBefore
 |
 |
+(
 aBidiLevel
 >
 levelBefore
@@ -3102,8 +3103,10 @@ levelBefore
 &
 1
 )
+)
 |
 |
+(
 aBidiLevel
 <
 levelBefore
@@ -3123,6 +3126,7 @@ levelBefore
 )
 &
 1
+)
 )
 )
 {
@@ -3233,6 +3237,7 @@ aBidiLevel
 levelAfter
 |
 |
+(
 aBidiLevel
 >
 levelBefore
@@ -3253,8 +3258,10 @@ levelAfter
 &
 1
 )
+)
 |
 |
+(
 aBidiLevel
 <
 levelBefore
@@ -3274,6 +3281,7 @@ levelAfter
 )
 &
 1
+)
 )
 )
 {

@@ -3839,6 +3839,7 @@ d
 {
 if
 (
+(
 meetOrSlice
 =
 =
@@ -3851,8 +3852,10 @@ SVG_MEETORSLICE_MEET
 a
 <
 d
+)
 |
 |
+(
 meetOrSlice
 =
 =
@@ -3865,6 +3868,7 @@ SVG_MEETORSLICE_SLICE
 d
 <
 a
+)
 )
 {
 d
@@ -3975,6 +3979,7 @@ align
 else
 if
 (
+(
 meetOrSlice
 =
 =
@@ -3987,8 +3992,10 @@ SVG_MEETORSLICE_MEET
 d
 <
 a
+)
 |
 |
+(
 meetOrSlice
 =
 =
@@ -4001,6 +4008,7 @@ SVG_MEETORSLICE_SLICE
 a
 <
 d
+)
 )
 {
 a

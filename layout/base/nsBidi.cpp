@@ -641,6 +641,7 @@ NULL
 |
 |
 (
+(
 NSBIDI_MAX_EXPLICIT_LEVEL
 <
 aParaLevel
@@ -651,6 +652,7 @@ aParaLevel
 IS_DEFAULT_LEVEL
 (
 aParaLevel
+)
 )
 |
 |
@@ -2207,6 +2209,7 @@ aFlags
 MASK_RTL
 |
 |
+(
 aFlags
 &
 DIRPROP_FLAG
@@ -2218,6 +2221,7 @@ AN
 aFlags
 &
 MASK_POSSIBLE_N
+)
 )
 )
 {
@@ -2638,6 +2642,7 @@ nextDirProp
 AN
 |
 |
+(
 nextDirProp
 =
 =
@@ -2648,6 +2653,7 @@ lastStrong
 =
 =
 AL
+)
 )
 )
 {
@@ -2717,6 +2723,7 @@ historyOfEN
 PREV_EN_AFTER_W4
 |
 |
+(
 nextDirProp
 =
 =
@@ -2727,6 +2734,7 @@ lastStrong
 !
 =
 AL
+)
 )
 {
 if
@@ -4298,6 +4306,7 @@ aRunIndex
 0
 |
 |
+(
 mRunCount
 =
 =
@@ -4308,6 +4317,7 @@ mRunCount
 !
 GetRuns
 (
+)
 )
 |
 |

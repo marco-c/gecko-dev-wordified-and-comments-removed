@@ -521,10 +521,12 @@ status
 \
 status
 =
+(
 status
 &
 ~
 NS_FRAME_OVERFLOW_INCOMPLETE
+)
 |
 NS_FRAME_NOT_COMPLETE
 #
@@ -536,10 +538,12 @@ status
 \
 status
 =
+(
 status
 &
 ~
 NS_FRAME_NOT_COMPLETE
+)
 |
 NS_FRAME_OVERFLOW_INCOMPLETE
 #

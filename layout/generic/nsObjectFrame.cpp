@@ -4083,6 +4083,7 @@ IsEmpty
 )
 |
 |
+(
 !
 hidden
 .
@@ -4113,6 +4114,7 @@ LowerCaseEqualsLiteral
 "
 off
 "
+)
 )
 )
 )

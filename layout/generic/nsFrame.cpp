@@ -19911,6 +19911,7 @@ this
 ;
 if
 (
+(
 !
 isRTL
 &
@@ -19918,8 +19919,10 @@ isRTL
 inOffset
 >
 newOffset
+)
 |
 |
+(
 isRTL
 &
 &
@@ -19927,6 +19930,7 @@ inOffset
 <
 =
 newOffset
+)
 )
 bottomLeft
 .
@@ -21581,6 +21585,7 @@ result
 ;
 if
 (
+(
 nsLayoutUtils
 :
 :
@@ -21600,6 +21605,7 @@ GetStateBits
 )
 &
 NS_FRAME_IS_SPECIAL
+)
 )
 |
 |
@@ -22720,6 +22726,7 @@ result
 )
 |
 |
+(
 jumpedLine
 &
 &
@@ -22730,6 +22737,7 @@ wordSelectEatSpace
 state
 .
 mSawBeforeType
+)
 )
 {
 done
@@ -24512,6 +24520,7 @@ if
 (
 (
 (
+(
 embeddingLevel
 &
 1
@@ -24519,8 +24528,10 @@ embeddingLevel
 &
 &
 lineIsRTL
+)
 |
 |
+(
 !
 (
 embeddingLevel
@@ -24531,6 +24542,7 @@ embeddingLevel
 &
 !
 lineIsRTL
+)
 )
 =
 =
