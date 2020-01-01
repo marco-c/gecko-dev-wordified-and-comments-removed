@@ -286,11 +286,6 @@ nsIPersistentProperties
 aAttributes
 )
 ;
-PRUint32
-GetARIAState
-(
-)
-;
 #
 ifdef
 DEBUG_A11Y

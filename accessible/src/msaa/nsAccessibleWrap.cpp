@@ -1309,6 +1309,13 @@ GetValue
 value
 )
 )
+|
+|
+value
+.
+IsEmpty
+(
+)
 )
 return
 S_FALSE
