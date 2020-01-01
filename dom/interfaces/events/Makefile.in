@@ -254,6 +254,10 @@ nsIDOMWheelEvent
 .
 idl
 \
+nsIDOMBlobEvent
+.
+idl
+\
 (
 NULL
 )

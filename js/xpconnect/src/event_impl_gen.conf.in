@@ -206,6 +206,9 @@ DeviceStorageChangeEvent
 '
 PopupBlockedEvent
 '
+'
+BlobEvent
+'
 ]
 "
 "
@@ -231,6 +234,11 @@ h
 '
 '
 nsIDOMApplicationRegistry
+.
+h
+'
+'
+nsIDOMFile
 .
 h
 '
@@ -264,5 +272,8 @@ nsISupports
 '
 '
 mozIDOMApplication
+'
+'
+nsIDOMBlob
 '
 ]
