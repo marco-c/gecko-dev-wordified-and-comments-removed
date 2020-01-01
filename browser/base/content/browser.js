@@ -16365,6 +16365,12 @@ link
 .
 href
 )
+&
+&
+!
+gPrivateBrowsingUI
+.
+privateBrowsingEnabled
 )
 {
 var
