@@ -804,7 +804,7 @@ JSC
 :
 ExecutableAllocator
 *
-execPool
+execAlloc
 ;
 Trampolines
 trampolines

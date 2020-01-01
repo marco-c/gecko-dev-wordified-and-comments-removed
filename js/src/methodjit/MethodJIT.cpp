@@ -3325,7 +3325,7 @@ Initialize
 (
 )
 {
-execPool
+execAlloc
 =
 new
 JSC
@@ -3338,7 +3338,7 @@ ExecutableAllocator
 if
 (
 !
-execPool
+execAlloc
 )
 return
 false
@@ -3346,7 +3346,7 @@ false
 TrampolineCompiler
 tc
 (
-execPool
+execAlloc
 &
 trampolines
 )
@@ -3362,7 +3362,7 @@ compile
 )
 {
 delete
-execPool
+execAlloc
 ;
 return
 false
@@ -3421,7 +3421,7 @@ trampolines
 )
 ;
 delete
-execPool
+execAlloc
 ;
 #
 ifdef
