@@ -1468,12 +1468,9 @@ this
 )
 TabView
 .
-updateContextMenu
+moveToGroupPopupShowing
 (
-TabContextMenu
-.
-contextTab
-this
+event
 )
 ;
 "
