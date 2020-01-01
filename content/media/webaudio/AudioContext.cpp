@@ -313,6 +313,10 @@ mIsStarted
 !
 aIsOffline
 )
+mIsShutDown
+(
+false
+)
 {
 mDestination
 -
@@ -2021,6 +2025,12 @@ AudioNode
 aNode
 )
 {
+if
+(
+!
+mIsShutDown
+)
+{
 mActiveNodes
 .
 PutEntry
@@ -2028,6 +2038,7 @@ PutEntry
 aNode
 )
 ;
+}
 }
 void
 AudioContext
@@ -2394,6 +2405,10 @@ Shutdown
 (
 )
 {
+mIsShutDown
+=
+true
+;
 Suspend
 (
 )
