@@ -1149,7 +1149,7 @@ bookmarks
 .
 removeItem
 (
-folderId
+itemId
 )
 ;
 nextTest
