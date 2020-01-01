@@ -2946,10 +2946,6 @@ view
 -
 container
 {
-overflow
-:
-auto
-;
 padding
 :
 2em
@@ -3079,11 +3075,6 @@ bottom
 :
 2em
 ;
-outline
-:
-solid
-transparent
-;
 }
 #
 detail
@@ -3098,6 +3089,11 @@ margin
 start
 :
 6px
+;
+outline
+:
+solid
+transparent
 ;
 white
 -
