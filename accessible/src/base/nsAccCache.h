@@ -7,6 +7,13 @@ _nsAccCache_H_
 #
 include
 "
+nsIAccessible
+.
+h
+"
+#
+include
+"
 nsRefPtrHashtable
 .
 h
@@ -18,9 +25,6 @@ nsCycleCollectionParticipant
 .
 h
 "
-class
-nsIAccessible
-;
 template
 <
 class
