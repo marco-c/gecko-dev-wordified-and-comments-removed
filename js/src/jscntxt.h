@@ -221,6 +221,13 @@ class
 JaegerCompartment
 ;
 }
+namespace
+ion
+{
+class
+IonActivation
+;
+}
 class
 WeakMapBase
 ;
@@ -517,6 +524,13 @@ ionTop
 JSContext
 *
 ionJSContext
+;
+ion
+:
+:
+IonActivation
+*
+ionActivation
 ;
 #
 ifdef
