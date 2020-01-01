@@ -1194,6 +1194,11 @@ ApplyTransparencyBitmap
 (
 )
 ;
+void
+ClearTransparencyBitmap
+(
+)
+;
 virtual
 void
 SetTransparencyMode
