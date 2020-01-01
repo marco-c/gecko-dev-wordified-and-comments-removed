@@ -15273,7 +15273,7 @@ result
 ;
 }
 function
-FillInHTMLTooltip
+FillInHTMLTooltipEditor
 (
 tooltip
 )
