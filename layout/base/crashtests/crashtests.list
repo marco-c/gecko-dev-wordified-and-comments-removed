@@ -2375,6 +2375,9 @@ if
 Android
 |
 |
+B2G
+|
+|
 browserIsRemote
 )
 asserts
@@ -2404,6 +2407,10 @@ for
 android
 bug
 760271
+for
+b2g
+bug
+833371
 asserts
 (
 0
