@@ -1902,15 +1902,6 @@ xml
 /
 content
 /
-public
-/
-Makefile
-content
-/
-xml
-/
-content
-/
 src
 /
 Makefile
