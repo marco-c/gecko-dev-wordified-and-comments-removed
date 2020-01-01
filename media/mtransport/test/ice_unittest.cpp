@@ -1719,6 +1719,17 @@ char
 argv
 )
 {
+#
+ifdef
+LINUX
+CHECK_ENVIRONMENT_FLAG
+(
+"
+MOZ_WEBRTC_TESTS
+"
+)
+#
+endif
 test_utils
 =
 new
