@@ -422,6 +422,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+RilMessageManager
+.
+jsm
+'
+'
 net_worker
 .
 js
