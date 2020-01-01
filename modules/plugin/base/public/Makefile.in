@@ -447,10 +447,6 @@ nsPluginsCID
 .
 h
 \
-nsIPluginInstanceInternal
-.
-h
-\
 (
 NULL
 )
