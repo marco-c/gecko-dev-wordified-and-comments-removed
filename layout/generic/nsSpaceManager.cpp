@@ -326,11 +326,11 @@ PR_TRUE
 )
 mMaximalLeftYMost
 (
-0
+nscoord_MIN
 )
 mMaximalRightYMost
 (
-0
+nscoord_MIN
 )
 mCachedBandPosition
 (
@@ -3680,7 +3680,7 @@ mMaximalLeftYMost
 =
 mMaximalRightYMost
 =
-0
+nscoord_MIN
 ;
 }
 void
@@ -4815,7 +4815,7 @@ mHaveCachedLeftYMost
 ?
 mMaximalLeftYMost
 :
-0
+nscoord_MIN
 ;
 nscoord
 maximalRightYMost
@@ -4824,7 +4824,7 @@ mHaveCachedRightYMost
 ?
 mMaximalRightYMost
 :
-0
+nscoord_MIN
 ;
 for
 (
