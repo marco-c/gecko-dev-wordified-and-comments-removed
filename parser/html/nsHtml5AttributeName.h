@@ -709,6 +709,11 @@ ATTR_LANG
 static
 nsHtml5AttributeName
 *
+ATTR_LOOP
+;
+static
+nsHtml5AttributeName
+*
 ATTR_LIST
 ;
 static
@@ -1429,11 +1434,6 @@ ATTR_MAXSIZE
 static
 nsHtml5AttributeName
 *
-ATTR_LOOPEND
-;
-static
-nsHtml5AttributeName
-*
 ATTR_LARGEOP
 ;
 static
@@ -1919,11 +1919,6 @@ ATTR_LINEBREAK
 static
 nsHtml5AttributeName
 *
-ATTR_LOOPSTART
-;
-static
-nsHtml5AttributeName
-*
 ATTR_TRANSFORM
 ;
 static
@@ -1950,11 +1945,6 @@ static
 nsHtml5AttributeName
 *
 ATTR_POINTSATY
-;
-static
-nsHtml5AttributeName
-*
-ATTR_PLAYCOUNT
 ;
 static
 nsHtml5AttributeName
