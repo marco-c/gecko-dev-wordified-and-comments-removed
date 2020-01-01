@@ -174,13 +174,6 @@ nsIAsyncVerifyRedirectCallback
 .
 h
 "
-static
-nsOfflineCacheUpdateService
-*
-gOfflineCacheUpdateService
-=
-nsnull
-;
 #
 if
 defined
