@@ -2148,8 +2148,7 @@ js
 :
 Vector
 <
-FrameEntry
-*
+uint32
 4
 CompilerAllocPolicy
 >

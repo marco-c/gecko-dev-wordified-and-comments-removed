@@ -8,6 +8,11 @@ cipher
 }
 }
 ;
+var
+global
+=
+99
+;
 sjcl
 .
 cipher
@@ -100,7 +105,7 @@ a
 {
 c
 =
-99
+global
 ;
 if
 (
