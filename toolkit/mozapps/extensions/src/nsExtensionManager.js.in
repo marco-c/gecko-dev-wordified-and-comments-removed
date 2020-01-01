@@ -16698,6 +16698,12 @@ datasource
 UPDATE_WHEN_PERIODIC_UPDATE
 )
 ;
+LightweightThemeManager
+.
+updateCurrentTheme
+(
+)
+;
 }
 /
 *
