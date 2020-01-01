@@ -221,7 +221,7 @@ Enable
 (
 double
 aFrequency
-ReplyRunnable
+FMRadioReplyRunnable
 *
 aReplyRunnable
 )
@@ -242,7 +242,7 @@ FMRadioChild
 :
 Disable
 (
-ReplyRunnable
+FMRadioReplyRunnable
 *
 aReplyRunnable
 )
@@ -264,7 +264,7 @@ SetFrequency
 (
 double
 aFrequency
-ReplyRunnable
+FMRadioReplyRunnable
 *
 aReplyRunnable
 )
@@ -287,7 +287,7 @@ Seek
 (
 FMRadioSeekDirection
 aDirection
-ReplyRunnable
+FMRadioReplyRunnable
 *
 aReplyRunnable
 )
@@ -308,7 +308,7 @@ FMRadioChild
 :
 CancelSeek
 (
-ReplyRunnable
+FMRadioReplyRunnable
 *
 aReplyRunnable
 )
@@ -385,7 +385,7 @@ FMRadioChild
 :
 SendRequest
 (
-ReplyRunnable
+FMRadioReplyRunnable
 *
 aReplyRunnable
 FMRadioRequestArgs

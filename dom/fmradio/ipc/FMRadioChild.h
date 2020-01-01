@@ -65,7 +65,7 @@ FMRadioChild
 void
 SendRequest
 (
-ReplyRunnable
+FMRadioReplyRunnable
 *
 aReplyRunnable
 FMRadioRequestArgs
@@ -118,7 +118,7 @@ Enable
 (
 double
 aFrequency
-ReplyRunnable
+FMRadioReplyRunnable
 *
 aReplyRunnable
 )
@@ -128,7 +128,7 @@ virtual
 void
 Disable
 (
-ReplyRunnable
+FMRadioReplyRunnable
 *
 aReplyRunnable
 )
@@ -140,7 +140,7 @@ SetFrequency
 (
 double
 frequency
-ReplyRunnable
+FMRadioReplyRunnable
 *
 aReplyRunnable
 )
@@ -158,7 +158,7 @@ hal
 :
 FMRadioSeekDirection
 aDirection
-ReplyRunnable
+FMRadioReplyRunnable
 *
 aReplyRunnable
 )
@@ -168,7 +168,7 @@ virtual
 void
 CancelSeek
 (
-ReplyRunnable
+FMRadioReplyRunnable
 *
 aReplyRunnable
 )

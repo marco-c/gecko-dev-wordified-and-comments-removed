@@ -29,7 +29,7 @@ FMRadioRequestChild
 :
 FMRadioRequestChild
 (
-ReplyRunnable
+FMRadioReplyRunnable
 *
 aReplyRunnable
 )

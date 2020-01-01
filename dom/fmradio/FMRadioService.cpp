@@ -536,7 +536,7 @@ ReadRilSettingTask
 (
 nsRefPtr
 <
-ReplyRunnable
+FMRadioReplyRunnable
 >
 aPendingRequest
 )
@@ -755,7 +755,7 @@ private
 :
 nsRefPtr
 <
-ReplyRunnable
+FMRadioReplyRunnable
 >
 mPendingRequest
 ;
@@ -1336,7 +1336,7 @@ Enable
 (
 double
 aFrequencyInMHz
-ReplyRunnable
+FMRadioReplyRunnable
 *
 aReplyRunnable
 )
@@ -1696,7 +1696,7 @@ FMRadioService
 :
 Disable
 (
-ReplyRunnable
+FMRadioReplyRunnable
 *
 aReplyRunnable
 )
@@ -1802,7 +1802,7 @@ break
 }
 nsRefPtr
 <
-ReplyRunnable
+FMRadioReplyRunnable
 >
 enablingRequest
 =
@@ -1946,7 +1946,7 @@ SetFrequency
 (
 double
 aFrequencyInMHz
-ReplyRunnable
+FMRadioReplyRunnable
 *
 aReplyRunnable
 )
@@ -2167,7 +2167,7 @@ Seek
 (
 FMRadioSeekDirection
 aDirection
-ReplyRunnable
+FMRadioReplyRunnable
 *
 aReplyRunnable
 )
@@ -2341,7 +2341,7 @@ FMRadioService
 :
 CancelSeek
 (
-ReplyRunnable
+FMRadioReplyRunnable
 *
 aReplyRunnable
 )
