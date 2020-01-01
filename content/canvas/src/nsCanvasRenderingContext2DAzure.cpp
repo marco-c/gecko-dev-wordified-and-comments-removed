@@ -13588,6 +13588,10 @@ GetPlatform
 >
 GetScaledFontForFont
 (
+mCtx
+-
+>
+mTarget
 font
 )
 ;
