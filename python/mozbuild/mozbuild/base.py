@@ -1448,16 +1448,6 @@ topobjdir
 *
 args
 )
-        
-return
-[
-_current_shell
-'
--
-c
-'
-cline
-]
     
 def
 _is_windows
