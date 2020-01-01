@@ -1868,6 +1868,17 @@ target
 )
 ;
 }
+VALGRIND_DISCARD_TRANSLATIONS
+(
+at
+2
+*
+sizeof
+(
+NIns
+)
+)
+;
 #
 if
 defined
