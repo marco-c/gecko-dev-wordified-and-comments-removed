@@ -138,17 +138,6 @@ create_rule
 (
 [
 outputprefix
-+
-'
-.
-h
-'
-outputprefix
-+
-'
-.
-cpp
-'
 ]
 )
     
