@@ -136,6 +136,8 @@ function
 {
 Service
 .
+_clusterManager
+.
 _findCluster
 (
 )
@@ -312,6 +314,8 @@ cluster
 =
 Service
 .
+_clusterManager
+.
 _findCluster
 (
 )
@@ -361,6 +365,8 @@ cluster
 =
 Service
 .
+_clusterManager
+.
 _findCluster
 (
 )
@@ -403,6 +409,8 @@ cluster
 =
 Service
 .
+_clusterManager
+.
 _findCluster
 (
 )
@@ -444,6 +452,8 @@ function
 )
 {
 Service
+.
+_clusterManager
 .
 _findCluster
 (
@@ -489,6 +499,8 @@ function
 )
 {
 Service
+.
+_clusterManager
 .
 _findCluster
 (
@@ -660,7 +672,9 @@ do_check_true
 (
 Service
 .
-_setCluster
+_clusterManager
+.
+setCluster
 (
 )
 )
@@ -711,7 +725,9 @@ do_check_false
 (
 Service
 .
-_setCluster
+_clusterManager
+.
+setCluster
 (
 )
 )
@@ -766,7 +782,9 @@ do_check_false
 (
 Service
 .
-_setCluster
+_clusterManager
+.
+setCluster
 (
 )
 )
