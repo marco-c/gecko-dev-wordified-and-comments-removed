@@ -7,7 +7,7 @@ imgRequest_h__
 #
 include
 "
-imgIContainer
+imgContainer
 .
 h
 "
@@ -148,6 +148,9 @@ imgCacheEntry
 ;
 class
 imgMemoryReporter
+;
+class
+imgRequestNotifyRunnable
 ;
 class
 imgRequest
@@ -310,6 +313,10 @@ imgCacheValidator
 friend
 class
 imgCacheExpirationTracker
+;
+friend
+class
+imgRequestNotifyRunnable
 ;
 inline
 void
