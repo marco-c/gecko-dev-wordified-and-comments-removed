@@ -11669,7 +11669,7 @@ aTransitionType
 TRANSITION_DOWNLOAD
 )
 {
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -19906,7 +19906,7 @@ BeginTransaction
 (
 )
 ;
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -19955,7 +19955,7 @@ mBatchHasTransaction
 =
 PR_FALSE
 ;
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -21219,7 +21219,7 @@ NS_ENSURE_ARG
 aURI
 )
 ;
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -21255,7 +21255,7 @@ rv
 rv
 )
 ;
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -22733,7 +22733,7 @@ rv
 rv
 )
 ;
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -24835,7 +24835,7 @@ if
 aWholeEntry
 )
 {
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -24850,7 +24850,7 @@ aURI
 }
 else
 {
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -31084,7 +31084,7 @@ nsAString
 aValue
 )
 {
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers
@@ -31624,7 +31624,7 @@ rv
 rv
 )
 ;
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 mCanNotify
 mCacheObservers

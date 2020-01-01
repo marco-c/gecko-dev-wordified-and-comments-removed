@@ -7,7 +7,7 @@ h
 "
 #
 define
-ENUMERATE_OBSERVERS
+NOTIFY_OBSERVERS
 (
 canFire
 cache
