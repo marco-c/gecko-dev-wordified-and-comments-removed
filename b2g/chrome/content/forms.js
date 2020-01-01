@@ -2105,6 +2105,16 @@ element
 {
 if
 (
+!
+element
+)
+{
+return
+false
+;
+}
+if
+(
 element
 .
 isContentEditable
