@@ -3737,9 +3737,9 @@ mozapps
 /
 skin
 /
-xpinstall
+update
 /
-xpinstallItemGeneric
+update
 .
 png
 "
