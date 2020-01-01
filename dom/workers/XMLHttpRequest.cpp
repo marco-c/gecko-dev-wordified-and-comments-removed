@@ -563,6 +563,17 @@ nsXMLHttpRequest
 (
 )
 ;
+nsCOMPtr
+<
+nsIGlobalObject
+>
+global
+=
+do_QueryInterface
+(
+ownerWindow
+)
+;
 if
 (
 NS_FAILED
@@ -584,7 +595,7 @@ mWorkerPrivate
 GetScriptContext
 (
 )
-ownerWindow
+global
 mWorkerPrivate
 -
 >
