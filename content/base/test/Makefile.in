@@ -2314,6 +2314,10 @@ test_blobbuilder
 .
 html
 \
+test_blobconstructor
+.
+html
+\
 fileutils
 .
 js

@@ -11095,7 +11095,7 @@ nsnull
 ;
 }
 bool
-DefineStaticDictionaryJSVals
+InternStaticDictionaryJSVals
 (
 JSContext
 *
@@ -11252,7 +11252,7 @@ false
 ;
 ok
 =
-DefineStaticDictionaryJSVals
+InternStaticDictionaryJSVals
 (
 cx
 )

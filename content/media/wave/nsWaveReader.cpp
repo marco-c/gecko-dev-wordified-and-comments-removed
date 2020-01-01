@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsBuiltinDecoderStateMachine
-.
-h
-"
-#
-include
-"
 nsBuiltinDecoder
 .
 h

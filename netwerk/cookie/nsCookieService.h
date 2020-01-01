@@ -302,6 +302,9 @@ aKey
 )
 {
 return
+mozilla
+:
+:
 HashString
 (
 *

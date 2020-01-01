@@ -6504,6 +6504,12 @@ mTransformStyle
 =
 =
 NS_STYLE_TRANSFORM_STYLE_PRESERVE_3D
+|
+|
+mBackfaceVisibility
+=
+=
+NS_STYLE_BACKFACE_VISIBILITY_HIDDEN
 ;
 }
 }

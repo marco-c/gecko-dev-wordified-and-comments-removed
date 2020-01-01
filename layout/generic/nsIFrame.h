@@ -2950,6 +2950,12 @@ HasPerspective
 )
 const
 ;
+bool
+ChildrenHavePerspective
+(
+)
+const
+;
 void
 ComputePreserve3DChildrenOverflow
 (
@@ -2966,9 +2972,9 @@ void
 RecomputePerspectiveChildrenOverflow
 (
 const
-nsIFrame
+nsStyleContext
 *
-aStartFrame
+aStartStyle
 const
 nsRect
 *

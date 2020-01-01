@@ -1403,7 +1403,9 @@ SetupLookupFunction
 (
 )
 ;
-return
+if
+(
+!
 InitWithPrefix
 (
 "
@@ -1411,6 +1413,16 @@ gl
 "
 true
 )
+)
+return
+false
+;
+InitFramebuffers
+(
+)
+;
+return
+true
 ;
 }
 bool

@@ -505,13 +505,6 @@ smil
 (
 NULL
 )
-ifeq
-(
-gonk
-(
-MOZ_WIDGET_TOOLKIT
-)
-)
 DIRS
 +
 =
@@ -523,7 +516,6 @@ apps
 (
 NULL
 )
-endif
 DIRS
 +
 =
