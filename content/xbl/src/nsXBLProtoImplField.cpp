@@ -874,6 +874,11 @@ JSObject
 callee
 (
 cx
+js
+:
+:
+UnwrapObject
+(
 &
 args
 .
@@ -883,6 +888,7 @@ calleev
 .
 toObject
 (
+)
 )
 )
 ;
@@ -1107,6 +1113,11 @@ JSObject
 callee
 (
 cx
+js
+:
+:
+UnwrapObject
+(
 &
 args
 .
@@ -1116,6 +1127,7 @@ calleev
 .
 toObject
 (
+)
 )
 )
 ;
