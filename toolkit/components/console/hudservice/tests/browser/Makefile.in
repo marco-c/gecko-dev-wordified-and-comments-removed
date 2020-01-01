@@ -652,6 +652,10 @@ browser_webconsole_bug_589162_css_filter
 .
 js
 \
+browser_webconsole_bug_597103_deactivateHUDForContext_unfocused_window
+.
+js
+\
 head
 .
 js
