@@ -8012,6 +8012,8 @@ rv
 ;
 PRInt64
 pageId
+=
+0
 ;
 {
 DECLARE_AND_ASSIGN_SCOPED_LAZY_STMT
