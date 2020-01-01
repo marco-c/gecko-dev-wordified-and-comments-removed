@@ -55,7 +55,7 @@ this
 0
 sizeof
 (
-this
+GLContextSymbols
 )
 )
 ;
