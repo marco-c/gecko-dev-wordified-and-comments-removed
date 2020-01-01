@@ -1888,6 +1888,16 @@ cache_size
 user_pref
 (
 "
+security
+.
+warn_viewing_mixed
+"
+false
+)
+;
+user_pref
+(
+"
 camino
 .
 warn_when_closing

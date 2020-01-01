@@ -587,6 +587,9 @@ mMaxTotalProgress
 PLDHashTable
 mRequestInfoHash
 ;
+nsInt64
+mCompletedTotalProgress
+;
 PRPackedBool
 mIsLoadingDocument
 ;
@@ -627,6 +630,14 @@ GetMaxTotalProgress
 ;
 nsresult
 AddRequestInfo
+(
+nsIRequest
+*
+aRequest
+)
+;
+void
+RemoveRequestInfo
 (
 nsIRequest
 *
