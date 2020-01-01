@@ -1235,6 +1235,10 @@ test_li_attributes_reflection
 .
 html
 \
+test_link_attributes_reflection
+.
+html
+\
 test_ol_attributes_reflection
 .
 html
@@ -1300,10 +1304,6 @@ test_bug763626
 html
 \
 test_bug780993
-.
-html
-\
-test_bug786564
 .
 html
 \
