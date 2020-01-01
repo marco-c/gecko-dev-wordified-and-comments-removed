@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsISupportsArray
-.
-h
-"
-#
-include
-"
 nsCRT
 .
 h
