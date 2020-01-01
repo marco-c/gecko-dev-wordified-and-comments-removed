@@ -989,7 +989,7 @@ label
 =
 "
 &
-viewQuota2
+viewQuota
 .
 label
 ;
@@ -1039,7 +1039,7 @@ label
 =
 "
 &
-mySyncKey2
+mySyncKey
 .
 label
 ;
