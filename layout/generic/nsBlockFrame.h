@@ -858,6 +858,11 @@ StyleSet
 ProbePseudoElementStyle
 (
 mContent
+-
+>
+AsElement
+(
+)
 nsCSSPseudoElements
 :
 :

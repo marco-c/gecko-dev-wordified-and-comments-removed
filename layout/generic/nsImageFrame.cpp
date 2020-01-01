@@ -6866,6 +6866,11 @@ StyleSet
 ResolveStyleFor
 (
 area
+-
+>
+AsElement
+(
+)
 GetStyleContext
 (
 )

@@ -27031,12 +27031,8 @@ mContent
 mContent
 -
 >
-IsNodeOfType
+IsElement
 (
-nsINode
-:
-:
-eELEMENT
 )
 &
 &

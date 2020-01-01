@@ -29703,6 +29703,11 @@ StyleSet
 ResolvePseudoElementStyle
 (
 mContent
+-
+>
+AsElement
+(
+)
 pseudoType
 parentStyle
 )
