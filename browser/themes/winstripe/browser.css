@@ -7477,7 +7477,9 @@ toolbarbutton
 -
 icon
 {
-mask
+clip
+-
+path
 :
 url
 (
@@ -7499,7 +7501,9 @@ keyhole
 -
 forward
 -
-mask
+clip
+-
+path
 )
 ;
 -
@@ -9909,7 +9913,9 @@ urlbar
 -
 container
 {
-mask
+clip
+-
+path
 :
 url
 (
@@ -9934,7 +9940,9 @@ back
 -
 button
 -
-mask
+clip
+-
+path
 "
 )
 ;
