@@ -2328,7 +2328,7 @@ jsbytecode
 target
 )
 ;
-void
+bool
 watchGlobalReallocation
 (
 )
