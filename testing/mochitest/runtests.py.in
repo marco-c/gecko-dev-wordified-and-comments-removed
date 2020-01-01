@@ -2360,7 +2360,7 @@ not
 found
 cannot
 automate
-VMWare
+VMware
 recording
 .
 "
@@ -4252,7 +4252,7 @@ options
 profilePath
 )
 def
-startVMWareRecording
+startVMwareRecording
 (
 self
 options
@@ -4325,7 +4325,7 @@ to
 load
 "
 "
-VMWare
+VMware
 recording
 helper
 "
@@ -4347,7 +4347,7 @@ runtests
 py
 |
 Starting
-VMWare
+VMware
 recording
 .
 "
@@ -4385,7 +4385,7 @@ to
 start
 "
 "
-VMWare
+VMware
 recording
 :
 (
@@ -4405,7 +4405,7 @@ vmwareHelper
 =
 None
 def
-stopVMWareRecording
+stopVMwareRecording
 (
 self
 )
@@ -4458,7 +4458,7 @@ runtests
 py
 |
 Stopping
-VMWare
+VMware
 "
 "
 recording
@@ -4498,7 +4498,7 @@ to
 stop
 "
 "
-VMWare
+VMware
 recording
 :
 (
@@ -4761,7 +4761,7 @@ vmwareRecording
 :
 self
 .
-startVMWareRecording
+startVMwareRecording
 (
 options
 )
@@ -4848,7 +4848,7 @@ vmwareRecording
 :
 self
 .
-stopVMWareRecording
+stopVMwareRecording
 (
 )
 ;

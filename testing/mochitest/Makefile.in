@@ -510,6 +510,10 @@ runtestsremote
 .
 py
 \
+runtestsvmware
+.
+py
+\
 (
 topsrcdir
 )
