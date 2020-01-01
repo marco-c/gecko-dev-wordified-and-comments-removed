@@ -921,6 +921,12 @@ java
 \
 sqlite
 /
+MatrixBlobCursor
+.
+java
+\
+sqlite
+/
 SQLiteBridge
 .
 java
