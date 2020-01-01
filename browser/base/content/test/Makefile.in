@@ -715,6 +715,10 @@ browser_scope
 .
 js
 \
+browser_bug419612
+.
+js
+\
 (
 NULL
 )
