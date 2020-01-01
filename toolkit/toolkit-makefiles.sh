@@ -725,13 +725,6 @@ gfx
 /
 src
 /
-beos
-/
-Makefile
-gfx
-/
-src
-/
 psshared
 /
 Makefile
