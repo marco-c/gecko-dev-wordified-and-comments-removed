@@ -133,6 +133,12 @@ DebugOnly
 .
 h
 \
+decimal
+/
+Decimal
+.
+h
+\
 Endian
 .
 h
