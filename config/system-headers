@@ -3791,3 +3791,13 @@ libosso
 h
 #
 endif
+#
+ifdef
+MOZ_ENABLE_GIO
+gio
+/
+gio
+.
+h
+#
+endif
