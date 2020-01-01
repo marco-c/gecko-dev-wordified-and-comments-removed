@@ -10400,12 +10400,6 @@ unregistered
 }
 if
 (
-longName
-&
-&
-shortName
-&
-&
 networkTuple
 )
 {
