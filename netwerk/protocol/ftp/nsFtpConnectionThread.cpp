@@ -7194,9 +7194,13 @@ BeginWriting
 ;
 if
 (
+!
 fwdPtr
-&
-&
+)
+return
+NS_ERROR_OUT_OF_MEMORY
+;
+if
 (
 *
 fwdPtr
@@ -7205,7 +7209,6 @@ fwdPtr
 '
 /
 '
-)
 )
 fwdPtr
 +
