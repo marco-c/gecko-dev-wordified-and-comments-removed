@@ -4996,6 +4996,17 @@ DestroyFrame
 aRow
 )
 ;
+if
+(
+overflows
+-
+>
+IsEmpty
+(
+)
+)
+return
+;
 mFrames
 .
 InsertFrames
