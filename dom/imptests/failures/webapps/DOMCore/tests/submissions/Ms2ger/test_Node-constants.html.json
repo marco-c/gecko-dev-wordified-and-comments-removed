@@ -2,7 +2,7 @@
 "
 Constants
 for
-createDocumentPosition
+nodeType
 on
 Node
 prototype
@@ -14,7 +14,7 @@ true
 "
 Constants
 for
-nodeType
+createDocumentPosition
 on
 Node
 prototype

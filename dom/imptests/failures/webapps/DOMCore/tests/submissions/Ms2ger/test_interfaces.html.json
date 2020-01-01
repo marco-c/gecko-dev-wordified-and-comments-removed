@@ -5,7 +5,7 @@ be
 able
 to
 delete
-CharacterData
+Node
 .
 "
 :
@@ -27,7 +27,7 @@ be
 able
 to
 delete
-Node
+CharacterData
 .
 "
 :
