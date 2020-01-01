@@ -11,6 +11,17 @@ cairo
 .
 h
 "
+#
+include
+"
+cairo
+-
+compiler
+-
+private
+.
+h
+"
 cairo_private
 cairo_bool_t
 _cairo_font_face_is_user

@@ -9,6 +9,9 @@ cairoint
 h
 "
 #
+if
+CAIRO_HAS_FONT_SUBSET
+#
 include
 "
 cairo
@@ -11072,3 +11075,5 @@ data
 )
 ;
 }
+#
+endif

@@ -6,6 +6,9 @@ cairoint
 h
 "
 #
+if
+CAIRO_HAS_FONT_SUBSET
+#
 include
 "
 cairo
@@ -354,7 +357,7 @@ base
 )
 ;
 return
-CAIRO_STATUS_SUCCESS
+status
 ;
 }
 static
@@ -1586,3 +1589,5 @@ return
 status
 ;
 }
+#
+endif

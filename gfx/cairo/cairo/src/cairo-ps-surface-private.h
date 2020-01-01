@@ -37,6 +37,13 @@ private
 .
 h
 "
+#
+include
+<
+time
+.
+h
+>
 typedef
 struct
 cairo_ps_surface
@@ -111,6 +118,12 @@ paginated_mode
 ;
 cairo_bool_t
 force_fallbacks
+;
+cairo_bool_t
+has_creation_date
+;
+time_t
+creation_date
 ;
 cairo_scaled_font_subsets_t
 *
