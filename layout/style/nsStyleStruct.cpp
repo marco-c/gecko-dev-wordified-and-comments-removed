@@ -4886,11 +4886,7 @@ return
 NS_CombineHint
 (
 hint
-NS_SubtractHint
-(
 nsChangeHint_ReflowFrame
-nsChangeHint_ClearDescendantIntrinsics
-)
 )
 ;
 }
