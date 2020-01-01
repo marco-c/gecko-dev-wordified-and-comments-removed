@@ -104,7 +104,7 @@ false
 ;
 presenter
 .
-_onSetupMesh
+_onInitializationFinished
 =
 function
 (
