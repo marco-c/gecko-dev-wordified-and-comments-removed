@@ -12009,6 +12009,13 @@ if
 num
 )
 {
+this
+.
+_handleDisconnectedCall
+(
+options
+)
+;
 return
 ;
 }
