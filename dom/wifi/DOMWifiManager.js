@@ -878,7 +878,7 @@ request
 =
 this
 .
-_takeRequest
+takeRequest
 (
 msg
 .
@@ -912,7 +912,7 @@ request
 =
 this
 .
-_takeRequest
+takeRequest
 (
 msg
 .
@@ -1419,15 +1419,10 @@ NS_ERROR_FAILURE
 var
 request
 =
-Services
-.
-DOMRequest
+this
 .
 createRequest
 (
-this
-.
-_window
 )
 ;
 this
