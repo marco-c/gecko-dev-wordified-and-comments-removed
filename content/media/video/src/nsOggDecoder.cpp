@@ -1978,6 +1978,10 @@ Init
 (
 mAudioChannels
 mAudioRate
+nsAudioStream
+:
+:
+FORMAT_FLOAT32_LE
 )
 ;
 mAudioStream

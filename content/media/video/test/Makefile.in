@@ -540,6 +540,10 @@ test_volume
 .
 html
 \
+test_wav_8bit
+.
+html
+\
 test_wav_ended1
 .
 html
@@ -557,6 +561,10 @@ seek
 ogg
 \
 r11025_s16_c1
+.
+wav
+\
+r11025_u8_c1
 .
 wav
 \
