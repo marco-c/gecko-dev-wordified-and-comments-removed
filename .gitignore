@@ -95,8 +95,8 @@ checkout
 Build
 directories
 obj
-/
 *
+/
 #
 Build
 directories
