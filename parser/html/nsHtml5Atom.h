@@ -34,11 +34,6 @@ nsHtml5Atom
 (
 )
 ;
-private
-:
-nsString
-mData
-;
 }
 ;
 #

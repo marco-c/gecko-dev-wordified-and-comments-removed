@@ -417,7 +417,6 @@ nsAString
 aName
 )
 {
-return
 mName
 -
 >
@@ -425,6 +424,9 @@ ToString
 (
 aName
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP
@@ -559,7 +561,6 @@ nsAString
 aNodeName
 )
 {
-return
 mName
 -
 >
@@ -567,6 +568,9 @@ ToString
 (
 aNodeName
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP

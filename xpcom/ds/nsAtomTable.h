@@ -135,13 +135,6 @@ return
 mRefCnt
 ;
 }
-PRUint32
-mLength
-;
-PRUnichar
-*
-mString
-;
 }
 ;
 class
