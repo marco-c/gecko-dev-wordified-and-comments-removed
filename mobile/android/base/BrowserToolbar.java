@@ -1615,6 +1615,16 @@ panel
 }
 }
 public
+View
+getLayout
+(
+)
+{
+return
+mLayout
+;
+}
+public
 void
 requestLayout
 (

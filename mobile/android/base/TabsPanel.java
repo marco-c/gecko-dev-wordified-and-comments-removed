@@ -833,6 +833,11 @@ hide
 (
 )
 {
+if
+(
+mVisible
+)
+{
 mVisible
 =
 false
@@ -843,6 +848,7 @@ dispatchLayoutChange
 0
 )
 ;
+}
 }
 public
 void
