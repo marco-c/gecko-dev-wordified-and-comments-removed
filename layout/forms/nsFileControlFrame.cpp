@@ -1982,7 +1982,7 @@ nsContentUtils
 :
 eFORMS_PROPERTIES
 "
-FileUpload
+MediaUpload
 "
 title
 )
