@@ -94,6 +94,15 @@ FreeSystemMetrics
 ;
 static
 PRBool
+HasSystemMetric
+(
+nsIAtom
+*
+aMetric
+)
+;
+static
+PRBool
 SelectorListMatches
 (
 RuleProcessorData

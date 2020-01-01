@@ -6267,6 +6267,11 @@ FreeSystemMetrics
 (
 )
 ;
+MediaFeatureValuesChanged
+(
+PR_TRUE
+)
+;
 RebuildAllStyleData
 (
 NS_STYLE_HINT_REFLOW

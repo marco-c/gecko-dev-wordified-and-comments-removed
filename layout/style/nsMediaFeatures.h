@@ -86,6 +86,12 @@ PRInt32
 *
 mKeywordTable
 ;
+nsIAtom
+*
+const
+*
+mMetric
+;
 }
 mData
 ;
