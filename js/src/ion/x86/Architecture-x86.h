@@ -456,6 +456,10 @@ RegisterID
 ;
 }
 ;
+typedef
+uint8
+PackedRegisterMask
+;
 class
 FloatRegisters
 {

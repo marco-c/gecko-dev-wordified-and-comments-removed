@@ -575,6 +575,10 @@ NonAllocatableMask
 ;
 }
 ;
+typedef
+uint16
+PackedRegisterMask
+;
 class
 FloatRegisters
 {

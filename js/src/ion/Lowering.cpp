@@ -622,10 +622,10 @@ false
 if
 (
 !
-assignPostSnapshot
+assignSafepoint
 (
-call
 ins
+call
 )
 )
 return
