@@ -126,10 +126,6 @@ js
 Value
 *
 rootVal
-bool
-suppressErrors
-=
-false
 )
 ;
 extern
