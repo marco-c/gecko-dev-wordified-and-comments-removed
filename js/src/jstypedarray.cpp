@@ -993,7 +993,7 @@ propp
 JSProperty
 *
 )
-id
+1
 ;
 *
 objp
@@ -2861,7 +2861,7 @@ id
 const
 Value
 *
-vp
+v
 PropertyOp
 getter
 PropertyOp
@@ -2892,10 +2892,10 @@ return
 true
 ;
 Value
-v
+tmp
 =
 *
-vp
+v
 ;
 return
 obj_setProperty
@@ -2904,7 +2904,7 @@ cx
 obj
 id
 &
-v
+tmp
 )
 ;
 }

@@ -26811,9 +26811,9 @@ index
 )
 {
 Value
-undef
+tmp
 =
-undefinedValue
+UndefinedTag
 (
 )
 ;
@@ -26830,7 +26830,7 @@ num
 1
 )
 &
-undef
+tmp
 NULL
 NULL
 JSPROP_ENUMERATE

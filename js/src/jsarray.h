@@ -33,8 +33,8 @@ extern
 JSBool
 js_IdIsIndex
 (
-jsboxedword
-idw
+jsid
+id
 jsuint
 *
 indexp
@@ -440,9 +440,8 @@ cx
 JSObject
 *
 obj
-JSProperty
-*
-prop
+jsid
+id
 js
 :
 :

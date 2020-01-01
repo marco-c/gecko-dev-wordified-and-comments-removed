@@ -1395,7 +1395,7 @@ if
 js_ValueToStringId
 (
 cx
-IdToValue
+ID_TO_VALUE
 (
 ida
 [
@@ -1611,7 +1611,7 @@ s
 js_ValueToString
 (
 cx
-IdToValue
+ID_TO_VALUE
 (
 id
 )
@@ -2041,12 +2041,9 @@ vec
 ]
 =
 {
-Jsvalify
-(
-IdToValue
+ID_TO_JSVAL
 (
 id
-)
 )
 *
 vp
@@ -3327,7 +3324,7 @@ key
 js_ValueToString
 (
 cx
-IdToValue
+ID_TO_VALUE
 (
 id
 )
@@ -6447,12 +6444,15 @@ vp
 *
 vp
 =
-ATOM_TO_JSVAL
+STRING_TO_JSVAL
+(
+ATOM_TO_STRING
 (
 CLASS_ATOM
 (
 cx
 JSON
+)
 )
 )
 ;

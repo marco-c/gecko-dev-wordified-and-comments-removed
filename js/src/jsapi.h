@@ -2559,13 +2559,6 @@ JS_BIT
 (
 13
 )
-#
-define
-JSOPTION_METHODJIT
-JS_BIT
-(
-14
-)
 extern
 JS_PUBLIC_API
 (
@@ -2674,7 +2667,7 @@ cx
 JSObject
 *
 obj
-jsid
+jsval
 id
 JSBool
 *
@@ -4923,8 +4916,6 @@ JSCLASS_IS_GLOBAL
 JSCLASS_HAS_RESERVED_SLOTS
 (
 JSProto_LIMIT
-*
-2
 )
 )
 #
@@ -5080,7 +5071,7 @@ JS_DEFAULT_XML_NAMESPACE_ID
 (
 jsid
 )
-JSBOXEDWORD_VOID
+JSVAL_VOID
 )
 #
 define
@@ -5197,7 +5188,7 @@ cx
 JSObject
 *
 obj
-jsid
+jsval
 id
 jsval
 *
@@ -5232,7 +5223,7 @@ cx
 JSObject
 *
 obj
-jsid
+jsval
 id
 )
 ;
