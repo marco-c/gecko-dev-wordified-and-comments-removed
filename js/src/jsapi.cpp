@@ -19640,6 +19640,7 @@ obj
 js_FunctionClass
 ;
 }
+JS_BEGIN_EXTERN_C
 JS_STATIC_DLL_CALLBACK
 (
 JSBool
@@ -20029,6 +20030,7 @@ rval
 )
 ;
 }
+JS_END_EXTERN_C
 JS_PUBLIC_API
 (
 JSBool

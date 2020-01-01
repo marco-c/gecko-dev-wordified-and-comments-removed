@@ -135,6 +135,17 @@ reason
 #
 endif
 #
+ifdef
+__SUNPRO_CC
+#
+define
+JS_STATIC_ASSERT
+(
+condition
+)
+#
+else
+#
 define
 JS_STATIC_ASSERT
 (
@@ -158,6 +169,8 @@ condition
 1
 ]
 )
+#
+endif
 extern
 JS_PUBLIC_API
 (
