@@ -65,6 +65,10 @@ webidl
 webidl_files
 =
 \
+CanvasRenderingContext2D
+.
+webidl
+\
 Function
 .
 webidl
