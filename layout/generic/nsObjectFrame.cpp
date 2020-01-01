@@ -620,6 +620,13 @@ h
 #
 include
 "
+FrameLayerBuilder
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
@@ -14274,6 +14281,9 @@ TYPE_PLUGIN
 else
 if
 (
+mozilla
+:
+:
 FrameLayerBuilder
 :
 :
