@@ -1,4 +1,10 @@
 #
+ifndef
+NS_SVGAELEMENT_H_
+#
+define
+NS_SVGAELEMENT_H_
+#
 include
 "
 nsSVGGraphicElement
@@ -338,3 +344,5 @@ sStringInfo
 ;
 }
 ;
+#
+endif
