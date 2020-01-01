@@ -95,6 +95,13 @@ jsutil
 .
 h
 "
+#
+include
+"
+jsarray
+.
+h
+"
 JS_BEGIN_EXTERN_C
 typedef
 struct
@@ -2280,6 +2287,10 @@ regExpStatics
 ;
 JSSharpObjectMap
 sharpObjectMap
+;
+JSHashTable
+*
+busyArrayTable
 ;
 JSArgumentFormatMap
 *
