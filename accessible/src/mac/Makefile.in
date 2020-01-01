@@ -506,6 +506,10 @@ nsAccessibleWrap
 .
 h
 \
+nsARIAGridAccessibleWrap
+.
+h
+\
 nsDocAccessibleWrap
 .
 h
