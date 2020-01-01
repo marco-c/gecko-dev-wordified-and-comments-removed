@@ -1507,6 +1507,12 @@ html
 lime100x100
 .
 svg
+fails
+-
+if
+(
+Android
+)
 =
 =
 svg
@@ -1518,7 +1524,7 @@ external
 1
 .
 html
-blue100x100
+lime100x100
 .
 svg
 HTTP
@@ -1565,6 +1571,7 @@ html
 lime100x100
 .
 svg
+random
 =
 =
 svg
@@ -1576,9 +1583,15 @@ external
 1
 .
 html
-blue100x100
+lime100x100
 .
 svg
+#
+see
+bug
+629885
+comment
+9
 HTTP
 =
 =

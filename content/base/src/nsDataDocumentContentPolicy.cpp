@@ -229,11 +229,6 @@ nsIProtocolHandler
 :
 :
 URI_IS_LOCAL_RESOURCE
-|
-nsIProtocolHandler
-:
-:
-URI_INHERITS_SECURITY_CONTEXT
 &
 hasFlags
 )
