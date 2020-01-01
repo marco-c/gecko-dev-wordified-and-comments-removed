@@ -95,6 +95,10 @@ TYPE_ONE_SHOT
 var
 observer
 =
+SpecialPowers
+.
+wrapCallbackObject
+(
 {
 QueryInterface
 :
@@ -186,6 +190,7 @@ startCallbackTimer
 ;
 }
 }
+)
 ;
 function
 getDialogDoc

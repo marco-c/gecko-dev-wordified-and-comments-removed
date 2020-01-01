@@ -750,10 +750,8 @@ data
 =
 SpecialPowers
 .
-wrap
+createBlankObject
 (
-{
-}
 )
 ;
 transferable
@@ -767,7 +765,12 @@ data
 )
 ;
 return
+SpecialPowers
+.
+wrap
+(
 data
+)
 ;
 }
 function

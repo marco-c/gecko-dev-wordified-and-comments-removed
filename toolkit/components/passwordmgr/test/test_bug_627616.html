@@ -140,6 +140,10 @@ login2
 var
 resolveCallback
 =
+SpecialPowers
+.
+wrapCallbackObject
+(
 {
 QueryInterface
 :
@@ -225,6 +229,7 @@ port
 ;
 }
 }
+)
 ;
 function
 init1
