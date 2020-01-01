@@ -514,6 +514,10 @@ nsIDOMRect
 .
 idl
 \
+nsIDOMViewCSS
+.
+idl
+\
 nsIDOMNSRGBAColor
 .
 idl

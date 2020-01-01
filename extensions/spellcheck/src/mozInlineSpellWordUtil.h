@@ -22,6 +22,13 @@ h
 #
 include
 "
+nsIDOMViewCSS
+.
+h
+"
+#
+include
+"
 nsIDocument
 .
 h
@@ -241,7 +248,7 @@ mDocument
 ;
 nsCOMPtr
 <
-nsIDOMWindow
+nsIDOMViewCSS
 >
 mCSSView
 ;

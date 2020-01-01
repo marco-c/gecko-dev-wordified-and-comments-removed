@@ -213,7 +213,7 @@ PRBool
 aCanBubble
 PRBool
 aCancelable
-nsIDOMWindow
+nsIDOMAbstractView
 *
 aView
 PRInt32
@@ -436,6 +436,12 @@ nsDOMDragEvent
 (
 aPresContext
 aEvent
+)
+;
+NS_ENSURE_TRUE
+(
+event
+NS_ERROR_OUT_OF_MEMORY
 )
 ;
 return

@@ -1,9 +1,9 @@
 #
 ifndef
-nsDOMUIEvent_h
+nsDOMUIEvent_h__
 #
 define
-nsDOMUIEvent_h
+nsDOMUIEvent_h__
 #
 include
 "
@@ -15,6 +15,13 @@ h
 include
 "
 nsIDOMNSUIEvent
+.
+h
+"
+#
+include
+"
+nsIDOMAbstractView
 .
 h
 "
@@ -124,7 +131,7 @@ protected
 :
 nsCOMPtr
 <
-nsIDOMWindow
+nsIDOMAbstractView
 >
 mView
 ;

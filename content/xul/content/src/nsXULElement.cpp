@@ -453,6 +453,13 @@ h
 #
 include
 "
+nsIDOMViewCSS
+.
+h
+"
+#
+include
+"
 nsIDOMCSSStyleDeclaration
 .
 h
