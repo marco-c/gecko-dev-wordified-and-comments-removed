@@ -258,6 +258,11 @@ ImportDownloadHistory
 )
 ;
 nsresult
+RestoreDatabaseState
+(
+)
+;
+nsresult
 GetDownloadFromDB
 (
 PRUint32
