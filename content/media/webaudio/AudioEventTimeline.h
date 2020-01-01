@@ -212,7 +212,7 @@ static
 bool
 IsValid
 (
-float
+double
 value
 )
 {
