@@ -2095,11 +2095,6 @@ Table
 ;
 DO_STRUCT_DIFFERENCE
 (
-Background
-)
-;
-DO_STRUCT_DIFFERENCE
-(
 UIReset
 )
 ;
@@ -2159,6 +2154,11 @@ NS_STYLE_HINT_VISUAL
 DO_STRUCT_DIFFERENCE
 (
 Color
+)
+;
+DO_STRUCT_DIFFERENCE
+(
+Background
 )
 ;
 #
