@@ -1939,6 +1939,12 @@ Ci
 nsIScriptSecurityManager
 .
 DISALLOW_INHERIT_PRINCIPAL
+|
+Ci
+.
+nsIScriptSecurityManager
+.
+DONT_REPORT_ERRORS
 ;
 }
 checkLoadURI
