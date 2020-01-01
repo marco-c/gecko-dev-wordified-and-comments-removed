@@ -2491,7 +2491,7 @@ box
 shadow
 box_shadow
 MozBoxShadow
-0
+CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 Margin
 mBoxShadow
 eCSSType_ValueList
@@ -2748,7 +2748,7 @@ CSS_PROP_USERINTERFACE
 cursor
 cursor
 Cursor
-0
+CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 UserInterface
 mCursor
 eCSSType_ValueList
@@ -4035,7 +4035,7 @@ text
 shadow
 text_shadow
 TextShadow
-0
+CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 Text
 mTextShadow
 eCSSType_ValueList
@@ -4775,7 +4775,7 @@ stroke
 dasharray
 stroke_dasharray
 StrokeDasharray
-0
+CSS_PROPERTY_VALUE_LIST_USES_COMMAS
 SVG
 mStrokeDasharray
 eCSSType_ValueList
