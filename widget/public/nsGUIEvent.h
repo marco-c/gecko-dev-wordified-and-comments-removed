@@ -1517,6 +1517,14 @@ NS_NOTIFYPAINT_START
 )
 #
 define
+NS_BEFOREPAINT
+(
+NS_NOTIFYPAINT_START
++
+1
+)
+#
+define
 NS_SIMPLE_GESTURE_EVENT_START
 3500
 #
@@ -1895,7 +1903,7 @@ message
 nsIntPoint
 refPoint
 ;
-PRUint32
+PRUint64
 time
 ;
 PRUint32

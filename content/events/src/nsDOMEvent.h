@@ -222,6 +222,7 @@ eDOMEvents_volumechange
 #
 endif
 eDOMEvents_afterpaint
+eDOMEvents_beforepaint
 eDOMEvents_MozSwipeGesture
 eDOMEvents_MozMagnifyGestureStart
 eDOMEvents_MozMagnifyGestureUpdate
