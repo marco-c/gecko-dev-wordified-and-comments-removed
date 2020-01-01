@@ -696,6 +696,16 @@ onLoad
 )
 ;
 "
+onunload
+=
+"
+gUpdates
+.
+onUnload
+(
+)
+;
+"
 >
 <
 script
