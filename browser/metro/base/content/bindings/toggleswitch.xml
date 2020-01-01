@@ -302,6 +302,11 @@ disabled
 xul
 :
 radio
+type
+=
+"
+toggle
+"
 anonid
 =
 "
@@ -322,6 +327,11 @@ on
 xul
 :
 radio
+type
+=
+"
+toggle
+"
 anonid
 =
 "

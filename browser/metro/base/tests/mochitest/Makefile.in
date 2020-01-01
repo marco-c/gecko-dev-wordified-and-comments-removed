@@ -155,7 +155,7 @@ block
 .
 html
 \
-browser_sanitize_ui
+browser_prefs_ui
 .
 js
 \
