@@ -538,6 +538,9 @@ mozilla
 :
 null_t
 ;
+using
+gfxIntSize
+;
 namespace
 mozilla
 {
@@ -725,6 +728,12 @@ double
 y
 double
 z
+)
+;
+ScreenSizeChanged
+(
+gfxIntSize
+size
 )
 ;
 parent
