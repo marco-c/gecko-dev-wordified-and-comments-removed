@@ -479,6 +479,10 @@ mInFrame
 =
 false
 ;
+FlushInvalidations
+(
+)
+;
 if
 (
 mObserver
@@ -529,10 +533,6 @@ UnionRect
 (
 mInvalidRect
 aRect
-)
-;
-FlushInvalidations
-(
 )
 ;
 }
