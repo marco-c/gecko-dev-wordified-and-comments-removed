@@ -3364,6 +3364,11 @@ nsAFlatCString
 aCharSet
 )
 ;
+void
+AppUnitsPerDevPixelChanged
+(
+)
+;
 PRBool
 MayHavePaintEventListener
 (
