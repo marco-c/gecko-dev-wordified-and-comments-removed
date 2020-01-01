@@ -1866,6 +1866,12 @@ Factory
 public
 :
 static
+bool
+HasSSE2
+(
+)
+;
+static
 TemporaryRef
 <
 DrawTarget
