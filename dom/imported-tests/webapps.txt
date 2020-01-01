@@ -20,3 +20,8 @@ tests
 submissions
 /
 Opera
+WebStorage
+/
+tests
+/
+submissions

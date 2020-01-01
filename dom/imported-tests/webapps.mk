@@ -12,6 +12,14 @@ submissions
 /
 Opera
 \
+webapps
+/
+WebStorage
+/
+tests
+/
+submissions
+\
 (
 NULL
 )
