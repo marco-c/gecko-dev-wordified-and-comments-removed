@@ -125,13 +125,13 @@ stackSlot_
 ;
 union
 {
-RegisterCodes
+Registers
 :
 :
 Code
 gprCode
 ;
-FloatRegisterCodes
+FloatRegisters
 :
 :
 Code
@@ -560,7 +560,7 @@ VirtualRegister
 *
 gprs
 [
-RegisterCodes
+Registers
 :
 :
 Total
@@ -570,7 +570,7 @@ VirtualRegister
 *
 fpus
 [
-FloatRegisterCodes
+FloatRegisters
 :
 :
 Total

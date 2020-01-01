@@ -11,7 +11,7 @@ namespace
 ion
 {
 class
-StackAssignmentX64
+StackAssignment
 {
 js
 :
@@ -29,7 +29,7 @@ height_
 ;
 public
 :
-StackAssignmentX64
+StackAssignment
 (
 )
 :
@@ -137,10 +137,6 @@ height_
 ;
 }
 }
-;
-typedef
-StackAssignmentX64
-StackAssignment
 ;
 }
 }

@@ -1362,7 +1362,7 @@ allocate
 CodePosition
 >
 (
-RegisterCodes
+Registers
 :
 :
 Total
@@ -1383,7 +1383,7 @@ allocate
 CodePosition
 >
 (
-RegisterCodes
+Registers
 :
 :
 Total
@@ -6103,7 +6103,7 @@ i
 ;
 i
 <
-RegisterCodes
+Registers
 :
 :
 Total
@@ -6372,7 +6372,7 @@ i
 ;
 i
 <
-RegisterCodes
+Registers
 :
 :
 Total
@@ -6451,7 +6451,7 @@ i
 ;
 i
 <
-RegisterCodes
+Registers
 :
 :
 Total
@@ -6811,7 +6811,7 @@ i
 ;
 i
 <
-RegisterCodes
+Registers
 :
 :
 Total

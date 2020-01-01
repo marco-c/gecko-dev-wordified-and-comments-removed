@@ -13,6 +13,11 @@ _
 \
 _
 (
+Label
+)
+\
+_
+(
 Move
 )
 \
@@ -29,6 +34,11 @@ Pointer
 _
 (
 Double
+)
+\
+_
+(
+Value
 )
 \
 _
