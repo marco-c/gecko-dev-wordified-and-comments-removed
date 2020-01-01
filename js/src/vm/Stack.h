@@ -5468,6 +5468,10 @@ friend
 class
 ContextStack
 ;
+PerThreadData
+*
+perThread_
+;
 JSContext
 *
 maybecx_

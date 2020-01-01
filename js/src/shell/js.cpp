@@ -17526,6 +17526,8 @@ cx
 runtime
 -
 >
+mainThread
+.
 gcRelaxRootChecks
 =
 true
