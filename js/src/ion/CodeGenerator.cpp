@@ -8357,17 +8357,6 @@ LApplyArgsGeneric
 apply
 )
 {
-JSContext
-*
-cx
-=
-GetIonContext
-(
-)
--
->
-cx
-;
 Register
 calleereg
 =
