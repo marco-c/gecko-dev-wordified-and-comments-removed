@@ -418,6 +418,8 @@ object
 )
 throw
 "
+Generator
+:
 expected
 type
 '
@@ -473,6 +475,8 @@ function
 )
 throw
 "
+Generator
+:
 expected
 type
 '
@@ -544,6 +548,8 @@ function
 )
 throw
 "
+Generator
+:
 expected
 type
 '
