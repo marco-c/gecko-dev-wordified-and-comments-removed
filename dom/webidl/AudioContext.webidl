@@ -155,7 +155,7 @@ Constructor
 PrefControlled
 ]
 interface
-mozAudioContext
+AudioContext
 {
 readonly
 attribute
@@ -265,8 +265,4 @@ createDynamicsCompressor
 )
 ;
 }
-;
-typedef
-mozAudioContext
-AudioContext
 ;
