@@ -201,13 +201,10 @@ title
 style
 =
 "
-width
-:
-52em
-;
-height
-:
-32em
+&
+devmgr
+.
+style
 ;
 "
 persist
