@@ -335,8 +335,9 @@ attrs
 ;
 mGLController
 =
-new
 GLController
+.
+getInstance
 (
 this
 )
