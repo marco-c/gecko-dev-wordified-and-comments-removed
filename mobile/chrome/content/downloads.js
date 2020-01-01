@@ -1485,6 +1485,14 @@ dv_downloadCompleted
 aDownload
 )
 {
+if
+(
+DownloadsView
+.
+visible
+)
+return
+;
 let
 element
 =
