@@ -251,7 +251,7 @@ Message
 msg
 Message
 *
-*
+&
 reply
 )
 {

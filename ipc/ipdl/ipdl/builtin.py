@@ -113,4 +113,14 @@ MessageTypes
 .
 h
 '
+    
+'
+mozilla
+/
+ipc
+/
+ProtocolUtils
+.
+h
+'
 )

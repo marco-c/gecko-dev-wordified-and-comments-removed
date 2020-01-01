@@ -15,6 +15,15 @@ include
 "
 base
 /
+basictypes
+.
+h
+"
+#
+include
+"
+base
+/
 message_loop
 .
 h
@@ -118,6 +127,9 @@ Result
 MsgProcessed
 MsgNotKnown
 MsgNotAllowed
+MsgPayloadError
+MsgRouteError
+MsgValueError
 }
 ;
 virtual
@@ -137,7 +149,7 @@ Message
 aMessage
 Message
 *
-*
+&
 aReply
 )
 =

@@ -114,7 +114,7 @@ Message
 msg
 Message
 *
-*
+&
 reply
 )
 {
@@ -163,7 +163,6 @@ init
 parentWidget
 )
 ;
-*
 reply
 =
 new
@@ -171,10 +170,7 @@ IFrameEmbedding_ChildToParentMsg_Reply_init
 (
 )
 ;
-(
-*
 reply
-)
 -
 >
 set_reply
@@ -221,7 +217,6 @@ loadURL
 uri
 )
 ;
-*
 reply
 =
 new
@@ -229,10 +224,7 @@ IFrameEmbedding_ChildToParentMsg_Reply_loadURL
 (
 )
 ;
-(
-*
 reply
-)
 -
 >
 set_reply
@@ -314,7 +306,6 @@ width
 height
 )
 ;
-*
 reply
 =
 new
@@ -322,10 +313,7 @@ IFrameEmbedding_ChildToParentMsg_Reply_move
 (
 )
 ;
-(
-*
 reply
-)
 -
 >
 set_reply

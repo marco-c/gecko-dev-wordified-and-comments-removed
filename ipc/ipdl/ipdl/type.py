@@ -730,6 +730,26 @@ self
 direction
 is
 INOUT
+    
+def
+hasImplicitActorParam
+(
+self
+)
+:
+        
+return
+self
+.
+isCtor
+(
+)
+or
+self
+.
+isDtor
+(
+)
 class
 ProtocolType
 (
@@ -824,7 +844,7 @@ manager
 mgr
     
 def
-isManager
+isManagerOf
 (
 self
 pt
@@ -850,6 +870,23 @@ True
         
 return
 False
+    
+def
+isManager
+(
+self
+)
+:
+        
+return
+len
+(
+self
+.
+manages
+)
+>
+0
     
 def
 isManaged
@@ -3546,7 +3583,7 @@ if
 not
 mgrtype
 .
-isManager
+isManagerOf
 (
 ptype
 )
@@ -3741,7 +3778,7 @@ and
 not
 ptype
 .
-isManager
+isManagerOf
 (
 mtype
 .

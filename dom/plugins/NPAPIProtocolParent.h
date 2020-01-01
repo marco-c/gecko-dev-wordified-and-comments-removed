@@ -518,7 +518,7 @@ Message
 msg
 Message
 *
-*
+&
 reply
 )
 {
