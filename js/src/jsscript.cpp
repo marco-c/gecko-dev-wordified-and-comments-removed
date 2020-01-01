@@ -1300,8 +1300,6 @@ rval
 JSObject
 *
 scopeobj
-*
-parent
 ;
 JSStackFrame
 *
@@ -1414,17 +1412,6 @@ flags
 )
 )
 ;
-parent
-=
-OBJ_GET_PARENT
-(
-cx
-caller
--
->
-callee
-)
-;
 if
 (
 !
@@ -1432,7 +1419,6 @@ js_GetCallObject
 (
 cx
 caller
-parent
 )
 )
 return

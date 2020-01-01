@@ -3446,10 +3446,6 @@ js_GetCallObject
 (
 cx
 fp
-fp
--
->
-scopeChain
 )
 )
 return
@@ -6229,7 +6225,6 @@ js_GetCallObject
 cx
 &
 frame
-parent
 )
 )
 {
@@ -25224,7 +25219,6 @@ newifp
 -
 >
 frame
-parent
 )
 )
 {

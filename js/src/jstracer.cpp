@@ -19307,12 +19307,6 @@ newifp
 -
 >
 frame
-newifp
--
->
-frame
-.
-scopeChain
 )
 ;
 JS_ASSERT
