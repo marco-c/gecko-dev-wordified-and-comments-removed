@@ -63,7 +63,7 @@ h
 #
 include
 "
-nsSVGElement
+nsSVGStylableElement
 .
 h
 "
@@ -89,7 +89,7 @@ SVGAnimatedTransformList
 h
 "
 typedef
-nsSVGElement
+nsSVGStylableElement
 nsSVGPatternElementBase
 ;
 class

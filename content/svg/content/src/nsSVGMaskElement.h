@@ -42,12 +42,12 @@ h
 #
 include
 "
-nsSVGElement
+nsSVGStylableElement
 .
 h
 "
 typedef
-nsSVGElement
+nsSVGStylableElement
 nsSVGMaskElementBase
 ;
 class

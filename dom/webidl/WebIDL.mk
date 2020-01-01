@@ -339,10 +339,6 @@ SVGAnimatedTransformList
 .
 webidl
 \
-SVGElement
-.
-webidl
-\
 SVGLengthList
 .
 webidl

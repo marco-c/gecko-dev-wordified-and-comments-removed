@@ -10,7 +10,7 @@ h
 #
 include
 "
-nsSVGElement
+nsSVGStylableElement
 .
 h
 "
@@ -40,7 +40,7 @@ namespace
 mozilla
 ;
 typedef
-nsSVGElement
+nsSVGStylableElement
 nsSVGStopElementBase
 ;
 class

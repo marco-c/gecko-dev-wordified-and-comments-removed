@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsSVGElement
+nsSVGStylableElement
 .
 h
 "
@@ -33,7 +33,7 @@ nsSVGTextContainerFrame
 h
 "
 typedef
-nsSVGElement
+nsSVGStylableElement
 nsSVGTextContentElementBase
 ;
 class

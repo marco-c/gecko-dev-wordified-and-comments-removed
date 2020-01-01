@@ -1,7 +1,7 @@
 #
 include
 "
-nsSVGElement
+nsSVGStylableElement
 .
 h
 "
@@ -13,7 +13,7 @@ nsIDOMSVGDescElement
 h
 "
 typedef
-nsSVGElement
+nsSVGStylableElement
 nsSVGDescElementBase
 ;
 class

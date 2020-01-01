@@ -1,7 +1,7 @@
 #
 include
 "
-nsSVGElement
+nsSVGStylableElement
 .
 h
 "
@@ -20,7 +20,7 @@ nsStubMutationObserver
 h
 "
 typedef
-nsSVGElement
+nsSVGStylableElement
 nsSVGTitleElementBase
 ;
 class

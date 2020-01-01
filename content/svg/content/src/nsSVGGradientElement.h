@@ -35,7 +35,7 @@ h
 #
 include
 "
-nsSVGElement
+nsSVGStylableElement
 .
 h
 "
@@ -68,7 +68,7 @@ SVGAnimatedTransformList
 h
 "
 typedef
-nsSVGElement
+nsSVGStylableElement
 nsSVGGradientElementBase
 ;
 class

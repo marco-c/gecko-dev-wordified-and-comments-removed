@@ -284,6 +284,10 @@ nsIDOMSVGStringList
 .
 idl
 \
+nsIDOMSVGStylable
+.
+idl
+\
 nsIDOMSVGStyleElement
 .
 idl

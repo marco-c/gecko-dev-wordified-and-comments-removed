@@ -63,7 +63,7 @@ h
 #
 include
 "
-nsSVGElement
+nsSVGStylableElement
 .
 h
 "
@@ -119,7 +119,7 @@ mElement
 }
 ;
 typedef
-nsSVGElement
+nsSVGStylableElement
 nsSVGFEBase
 ;
 #

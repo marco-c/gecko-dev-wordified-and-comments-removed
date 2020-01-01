@@ -56,7 +56,7 @@ Attributes
 h
 "
 class
-nsSVGElement
+nsSVGStylableElement
 ;
 class
 nsSVGClass
@@ -80,7 +80,7 @@ const
 nsAString
 &
 aValue
-nsSVGElement
+nsSVGStylableElement
 *
 aSVGElement
 bool
@@ -94,7 +94,7 @@ nsAString
 &
 aValue
 const
-nsSVGElement
+nsSVGStylableElement
 *
 aSVGElement
 )
@@ -107,7 +107,7 @@ const
 nsAString
 &
 aValue
-nsSVGElement
+nsSVGStylableElement
 *
 aSVGElement
 )
@@ -119,7 +119,7 @@ nsAString
 &
 aValue
 const
-nsSVGElement
+nsSVGStylableElement
 *
 aSVGElement
 )
@@ -144,7 +144,7 @@ nsIDOMSVGAnimatedString
 *
 *
 aResult
-nsSVGElement
+nsSVGStylableElement
 *
 aSVGElement
 )
@@ -153,7 +153,7 @@ nsISMILAttr
 *
 ToSMILAttr
 (
-nsSVGElement
+nsSVGStylableElement
 *
 aSVGElement
 )
@@ -185,7 +185,7 @@ DOMAnimatedString
 nsSVGClass
 *
 aVal
-nsSVGElement
+nsSVGStylableElement
 *
 aSVGElement
 )
@@ -206,7 +206,7 @@ mVal
 ;
 nsRefPtr
 <
-nsSVGElement
+nsSVGStylableElement
 >
 mSVGElement
 ;
@@ -277,7 +277,7 @@ SMILString
 nsSVGClass
 *
 aVal
-nsSVGElement
+nsSVGStylableElement
 *
 aSVGElement
 )
@@ -296,7 +296,7 @@ nsSVGClass
 *
 mVal
 ;
-nsSVGElement
+nsSVGStylableElement
 *
 mSVGElement
 ;
