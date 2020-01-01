@@ -1050,6 +1050,11 @@ uint32
 count
 )
 ;
+bool
+jsop_this
+(
+)
+;
 enum
 InliningStatus
 {
