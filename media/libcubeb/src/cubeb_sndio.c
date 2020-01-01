@@ -52,8 +52,11 @@ internal
 h
 "
 #
-ifdef
+if
+defined
+(
 CUBEB_SNDIO_DEBUG
+)
 #
 define
 DPR
