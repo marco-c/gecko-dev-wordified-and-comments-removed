@@ -410,6 +410,7 @@ _privBrowsingSvc
 log
 :
 function
+log
 (
 message
 )
@@ -456,6 +457,7 @@ message
 init
 :
 function
+init
 (
 )
 {
@@ -693,6 +695,7 @@ countAllEntries
 addEntry
 :
 function
+addEntry
 (
 name
 value
@@ -1026,6 +1029,7 @@ reset
 removeEntry
 :
 function
+removeEntry
 (
 name
 value
@@ -1226,6 +1230,7 @@ commitTransaction
 removeEntriesForName
 :
 function
+removeEntriesForName
 (
 name
 )
@@ -1410,6 +1415,7 @@ commitTransaction
 removeAllEntries
 :
 function
+removeAllEntries
 (
 )
 {
@@ -1523,7 +1529,7 @@ this
 log
 (
 "
-removeEntriesForName
+removeAllEntries
 failed
 :
 "
@@ -1562,6 +1568,7 @@ commitTransaction
 nameExists
 :
 function
+nameExists
 (
 name
 )
@@ -1683,6 +1690,7 @@ reset
 entryExists
 :
 function
+entryExists
 (
 name
 value
@@ -1747,6 +1755,7 @@ id
 removeEntriesByTimeframe
 :
 function
+removeEntriesByTimeframe
 (
 beginTime
 endTime
@@ -1951,6 +1960,7 @@ commitTransaction
 moveToDeletedTable
 :
 function
+moveToDeletedTable
 (
 values
 params
@@ -1964,10 +1974,12 @@ this
 log
 (
 "
-move
+Moving
 entries
 to
 deleted
+table
+.
 "
 )
 ;
@@ -2025,8 +2037,9 @@ this
 log
 (
 "
-move
-entry
+Moving
+deleted
+entries
 failed
 :
 "
@@ -2228,6 +2241,7 @@ dbConnection
 observe
 :
 function
+observe
 (
 subject
 topic
