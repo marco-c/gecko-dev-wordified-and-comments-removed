@@ -1659,6 +1659,15 @@ showTabView
 label
 ;
 "
+accesskey
+=
+"
+&
+showTabView
+.
+accesskey
+;
+"
 command
 =
 "

@@ -2366,6 +2366,16 @@ TabView
 <
 !
 ENTITY
+showTabView
+.
+accesskey
+"
+V
+"
+>
+<
+!
+ENTITY
 viewToolbarsMenu
 .
 label

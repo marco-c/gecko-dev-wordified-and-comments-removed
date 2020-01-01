@@ -4863,11 +4863,15 @@ gain
 ability
 to
 draw
-o
+to
 the
 menu
 bar
 .
+/
+/
+Bug
+586175
 this
 .
 ownerDocument
