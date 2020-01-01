@@ -278,7 +278,7 @@ places
 enum
 HistoryStatementId
 {
-DB_GET_PAGE_INFO
+DB_GET_PAGE_INFO_BY_URL
 =
 0
 DB_GET_TAGS
@@ -623,16 +623,6 @@ const
 PRInt32
 kGetInfoIndex_ItemParentId
 ;
-mozIStorageStatement
-*
-DBGetIdPageInfo
-(
-)
-{
-return
-mDBGetIdPageInfo
-;
-}
 PRInt64
 GetTagsFolder
 (
@@ -1033,7 +1023,7 @@ aStatementId
 )
 {
 case
-DB_GET_PAGE_INFO
+DB_GET_PAGE_INFO_BY_URL
 :
 return
 mDBGetURLPageInfo
