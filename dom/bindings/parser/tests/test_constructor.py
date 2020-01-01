@@ -703,9 +703,6 @@ constructor
 (
 "
 TestConstructorNoArgs
-(
-Wrapper
-)
 "
 [
 ]
@@ -740,9 +737,6 @@ constructor
 (
 "
 TestConstructorWithArgs
-(
-Wrapper
-)
 "
                  
 [
@@ -799,9 +793,6 @@ constructor
 (
 "
 TestConstructorOverloads
-(
-Wrapper
-)
 "
                  
 [
@@ -832,9 +823,6 @@ False
 (
 "
 TestConstructorOverloads
-(
-Wrapper
-)
 "
                  
 [
