@@ -67,6 +67,9 @@ nsNavHistory
 *
 mHistory
 ;
+PRUint32
+mSequentialRuns
+;
 nsCOMPtr
 <
 nsITimer
@@ -95,6 +98,9 @@ mAddCount
 ;
 PRUint32
 mExpiredItems
+;
+PRUint32
+mExpireRuns
 ;
 nsresult
 DoPartialExpiration
