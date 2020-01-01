@@ -2087,6 +2087,13 @@ bin
 /
 components
 /
+nsAboutAbout
+.
+js
+bin
+/
+components
+/
 websrvcs
 .
 dll

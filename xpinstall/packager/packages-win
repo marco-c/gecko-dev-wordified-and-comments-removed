@@ -1213,6 +1213,13 @@ bin
 \
 components
 \
+nsAboutAbout
+.
+js
+bin
+\
+components
+\
 xulappinfo
 .
 js
