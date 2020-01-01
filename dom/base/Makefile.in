@@ -487,7 +487,12 @@ NULL
 EXTRA_JS_MODULES
 +
 =
+\
 DOMRequestHelper
+.
+jsm
+\
+IndexedDBHelper
 .
 jsm
 \

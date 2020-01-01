@@ -295,6 +295,15 @@ ContactDB
 myGlobal
 )
 ;
+this
+.
+_db
+.
+init
+(
+myGlobal
+)
+;
 Services
 .
 obs
