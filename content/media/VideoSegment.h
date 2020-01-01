@@ -345,6 +345,12 @@ SetNull
 (
 )
 ;
+mTimeStamp
+=
+TimeStamp
+(
+)
+;
 }
 void
 SetForceBlack
@@ -366,6 +372,12 @@ mDuration
 ;
 VideoFrame
 mFrame
+;
+mozilla
+:
+:
+TimeStamp
+mTimeStamp
 ;
 }
 ;

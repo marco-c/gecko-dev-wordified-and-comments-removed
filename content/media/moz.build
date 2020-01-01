@@ -417,6 +417,11 @@ FileBlockCache
 h
 '
 '
+Latency
+.
+h
+'
+'
 MP3FrameParser
 .
 h
@@ -637,6 +642,11 @@ cpp
 '
 '
 FileBlockCache
+.
+cpp
+'
+'
+Latency
 .
 cpp
 '
