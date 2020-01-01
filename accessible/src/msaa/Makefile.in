@@ -514,6 +514,10 @@ CAccessibleTable
 .
 cpp
 \
+CAccessibleValue
+.
+cpp
+\
 (
 NULL
 )
@@ -569,6 +573,10 @@ CAccessibleEditableText
 h
 \
 CAccessibleTable
+.
+h
+\
+CAccessibleValue
 .
 h
 \
