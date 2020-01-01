@@ -2166,6 +2166,7 @@ to_dir_path
 patch_filename
 shas
 patch_info
+forced_updates
 )
 :
     
@@ -2232,6 +2233,21 @@ build_marfile_entry_hash
 to_dir_path
 )
     
+forced_list
+=
+forced_updates
+.
+strip
+(
+)
+.
+split
+(
+'
+|
+'
+)
+    
 patch_filenames
 =
 list
@@ -2271,6 +2287,31 @@ filename
 ]
         
 if
+filename
+in
+forced_list
+:
+            
+print
+"
+Forcing
+"
++
+filename
+       	    
+create_add_patch_for_file
+(
+to_dir_hash
+[
+filename
+]
+patch_info
+)
+        
+else
+:
+          
+if
 from_marfile_entry
 .
 sha
@@ -2284,7 +2325,7 @@ sha
 (
 )
 :
-            
+              
 create_partial_patch_for_file
 (
 from_marfile_entry
@@ -3312,6 +3353,7 @@ txt
 '
 ]
 )
+forced_updates
 )
             
 partial_buildid
