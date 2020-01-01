@@ -2326,9 +2326,13 @@ sNumLivingContexts
 )
 {
 delete
+[
+]
 sUnpremultiplyTable
 ;
 delete
+[
+]
 sPremultiplyTable
 ;
 sUnpremultiplyTable
