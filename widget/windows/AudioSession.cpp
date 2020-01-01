@@ -282,6 +282,7 @@ STARTED
 CLONED
 FAILED
 STOPPED
+AUDIO_SESSION_DISCONNECTED
 }
 ;
 protected
@@ -591,6 +592,12 @@ mState
 =
 =
 CLONED
+|
+|
+mState
+=
+=
+AUDIO_SESSION_DISCONNECTED
 "
 State
 invariants
@@ -1604,6 +1611,14 @@ this
 mAudioSessionControl
 =
 nsnull
+;
+mState
+=
+AUDIO_SESSION_DISCONNECTED
+;
+CoUninitialize
+(
+)
 ;
 Start
 (
