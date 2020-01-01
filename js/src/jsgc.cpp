@@ -15458,9 +15458,13 @@ AutoUnlockGC
 >
 unlockIf
 (
+!
+!
+(
 gckind
 &
 GC_LOCK_HELD
+)
 rt
 )
 ;
@@ -15950,9 +15954,13 @@ AutoKeepAtoms
 >
 keepIf
 (
+!
+!
+(
 gckind
 &
 GC_KEEP_ATOMS
+)
 rt
 )
 ;

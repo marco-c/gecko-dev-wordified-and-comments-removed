@@ -3677,6 +3677,8 @@ AutoLockGC
 >
 lockIf
 (
+!
+!
 unlocked
 rt
 )
