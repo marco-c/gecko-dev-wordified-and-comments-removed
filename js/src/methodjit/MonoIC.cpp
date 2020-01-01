@@ -5957,6 +5957,16 @@ fp
 unsigned
 n
 ;
+JS_ASSERT
+(
+fp
+-
+>
+hasArgsObj
+(
+)
+)
+;
 if
 (
 !
