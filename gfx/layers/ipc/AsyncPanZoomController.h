@@ -343,6 +343,16 @@ InputData
 aEvent
 )
 ;
+static
+void
+SetFrameTime
+(
+const
+TimeStamp
+&
+aMilliseconds
+)
+;
 protected
 :
 nsEventStatus
