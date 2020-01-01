@@ -1130,11 +1130,13 @@ struct
 ProductInformationBlock
 infoBlock
 ;
+PRUint32
+numSignatures
+numAdditionalBlocks
+;
 int
 hasSignatureBlock
-numSignatures
 hasAdditionalBlock
-numAdditionalBlocks
 ;
 if
 (
