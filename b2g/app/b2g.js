@@ -364,7 +364,7 @@ max
 -
 connections
 "
-6
+20
 )
 ;
 pref
@@ -384,7 +384,7 @@ per
 -
 server
 "
-4
+6
 )
 ;
 pref
@@ -404,7 +404,7 @@ per
 -
 proxy
 "
-4
+20
 )
 ;
 pref
