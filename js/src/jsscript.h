@@ -1091,9 +1091,9 @@ HeapPtrAtom
 *
 atoms
 ;
-JSPrincipals
+void
 *
-principals
+principalsPad
 ;
 JSPrincipals
 *
@@ -1530,6 +1530,13 @@ frontend
 BytecodeEmitter
 *
 bce
+)
+;
+inline
+JSPrincipals
+*
+principals
+(
 )
 ;
 void
