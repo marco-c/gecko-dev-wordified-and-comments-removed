@@ -360,10 +360,8 @@ retValue
 void
 FindFontsInDirectory
 (
-const
-char
-*
-aDirectory
+nsCString
+aFontsDir
 FontNameCache
 *
 aFontCache
