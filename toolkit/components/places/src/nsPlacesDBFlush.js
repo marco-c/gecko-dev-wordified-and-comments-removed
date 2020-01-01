@@ -741,7 +741,7 @@ _self
 .
 _db
 .
-close
+asyncClose
 (
 )
 ;
