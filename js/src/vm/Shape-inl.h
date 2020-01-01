@@ -101,6 +101,13 @@ h
 #
 include
 "
+jsatominlines
+.
+h
+"
+#
+include
+"
 jscntxtinlines
 .
 h
@@ -109,13 +116,6 @@ h
 include
 "
 jsgcinlines
-.
-h
-"
-#
-include
-"
-jsobjinlines
 .
 h
 "

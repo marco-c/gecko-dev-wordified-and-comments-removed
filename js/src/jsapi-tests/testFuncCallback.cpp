@@ -20,13 +20,6 @@ jscntxt
 h
 "
 #
-include
-"
-jsobjinlines
-.
-h
-"
-#
 ifdef
 MOZ_TRACE_JSCALLS
 static

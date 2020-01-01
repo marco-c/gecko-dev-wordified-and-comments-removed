@@ -26,6 +26,13 @@ jsfriendapi
 .
 h
 "
+#
+include
+"
+jsscriptinlines
+.
+h
+"
 static
 JSScript
 *

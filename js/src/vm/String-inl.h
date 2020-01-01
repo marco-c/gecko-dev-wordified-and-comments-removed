@@ -45,13 +45,6 @@ jsgcinlines
 .
 h
 "
-#
-include
-"
-jsobjinlines
-.
-h
-"
 namespace
 js
 {

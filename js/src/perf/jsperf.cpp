@@ -22,13 +22,6 @@ h
 #
 include
 "
-jsobjinlines
-.
-h
-"
-#
-include
-"
 vm
 /
 ObjectImpl

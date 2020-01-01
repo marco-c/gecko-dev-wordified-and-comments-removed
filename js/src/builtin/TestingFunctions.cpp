@@ -50,13 +50,6 @@ h
 #
 include
 "
-jsobjinlines
-.
-h
-"
-#
-include
-"
 jsprf
 .
 h
@@ -83,6 +76,13 @@ include
 vm
 /
 ForkJoin
+.
+h
+"
+#
+include
+"
+jsobjinlines
 .
 h
 "

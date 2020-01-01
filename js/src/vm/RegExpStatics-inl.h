@@ -7,6 +7,8 @@ RegExpStatics_inl_h__
 #
 include
 "
+vm
+/
 RegExpStatics
 .
 h
@@ -17,6 +19,13 @@ include
 gc
 /
 Marking
+.
+h
+"
+#
+include
+"
+jsinferinlines
 .
 h
 "

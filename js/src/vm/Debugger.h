@@ -2039,7 +2039,6 @@ global
 )
 const
 ;
-inline
 bool
 observesFrame
 (

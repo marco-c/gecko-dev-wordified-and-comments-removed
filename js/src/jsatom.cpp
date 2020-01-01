@@ -107,6 +107,13 @@ h
 #
 include
 "
+jscompartmentinlines
+.
+h
+"
+#
+include
+"
 vm
 /
 String
