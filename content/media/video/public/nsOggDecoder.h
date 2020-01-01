@@ -122,6 +122,9 @@ class
 nsOggDecodeStateMachine
 ;
 class
+nsOggStepDecodeEvent
+;
+class
 nsOggDecoder
 :
 public
@@ -130,6 +133,10 @@ nsMediaDecoder
 friend
 class
 nsOggDecodeStateMachine
+;
+friend
+class
+nsOggStepDecodeEvent
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIOBSERVER
