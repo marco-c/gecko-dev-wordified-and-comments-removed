@@ -2895,6 +2895,12 @@ if
 rootTreeItem
 )
 {
+nsCOMPtr
+<
+nsIAccessibleDocument
+>
+rootAccDoc
+=
 GetDocAccessibleFor
 (
 rootTreeItem

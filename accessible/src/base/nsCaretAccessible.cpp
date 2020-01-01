@@ -1062,8 +1062,10 @@ presShell
 caretRect
 )
 ;
+nsCOMPtr
+<
 nsICaret
-*
+>
 caret
 ;
 presShell
@@ -1071,8 +1073,10 @@ presShell
 >
 GetCaret
 (
-&
+getter_AddRefs
+(
 caret
+)
 )
 ;
 NS_ENSURE_TRUE
