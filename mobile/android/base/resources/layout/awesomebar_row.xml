@@ -118,17 +118,6 @@ minHeight
 "
 android
 :
-src
-=
-"
-android
-:
-id
-/
-empty
-"
-android
-:
 scaleType
 =
 "
