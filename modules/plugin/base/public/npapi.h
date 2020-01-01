@@ -772,6 +772,9 @@ NPNVWindowNPObject
 NPNVPluginElementNPObject
 =
 16
+NPNVSupportsWindowless
+=
+17
 #
 ifdef
 XP_MACOSX
