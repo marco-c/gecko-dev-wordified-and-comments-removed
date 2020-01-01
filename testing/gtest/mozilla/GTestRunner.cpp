@@ -302,6 +302,7 @@ i
 \
 n
 "
+!
 aTestPartResult
 .
 failed
