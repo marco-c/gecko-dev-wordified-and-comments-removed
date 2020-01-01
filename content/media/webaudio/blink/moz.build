@@ -128,6 +128,11 @@ FFTConvolver
 cpp
 '
 '
+HRTFKernel
+.
+cpp
+'
+'
 Reverb
 .
 cpp
