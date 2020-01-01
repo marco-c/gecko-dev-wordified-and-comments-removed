@@ -685,7 +685,7 @@ size_t
 aSize
 )
 {
-PR_Free
+free
 (
 (
 void
@@ -1719,7 +1719,7 @@ bitmap
 PRUint8
 *
 )
-PR_Malloc
+malloc
 (
 kIconBytes
 )
@@ -1757,7 +1757,7 @@ if
 bitmapContext
 )
 {
-PR_Free
+free
 (
 bitmap
 )
@@ -1822,7 +1822,7 @@ if
 provider
 )
 {
-PR_Free
+free
 (
 bitmap
 )
@@ -2968,7 +2968,7 @@ if
 provider
 )
 {
-PR_Free
+free
 (
 reorderedData
 )
@@ -3079,7 +3079,7 @@ bitmap
 PRUint8
 *
 )
-PR_Malloc
+malloc
 (
 kIconBytes
 )
@@ -3125,7 +3125,7 @@ CGImageRelease
 cgImage
 )
 ;
-PR_Free
+free
 (
 bitmap
 )
@@ -3203,7 +3203,7 @@ if
 provider
 )
 {
-PR_Free
+free
 (
 bitmap
 )
