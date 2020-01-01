@@ -1668,9 +1668,8 @@ currentScriptedScopeChain
 (
 )
 ;
-bool
-global
-=
+if
+(
 js_CodeSpec
 [
 *
@@ -1680,10 +1679,6 @@ pc
 format
 &
 JOF_GNAME
-;
-if
-(
-global
 )
 obj
 =
@@ -1779,7 +1774,7 @@ FindPropertyHelper
 cx
 name
 true
-global
+obj
 &
 obj
 &

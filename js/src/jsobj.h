@@ -7625,8 +7625,9 @@ PropertyName
 name
 bool
 cacheResult
-bool
-global
+JSObject
+*
+scopeChain
 JSObject
 *
 *
@@ -7651,8 +7652,9 @@ cx
 PropertyName
 *
 name
-bool
-global
+JSObject
+*
+scopeChain
 JSObject
 *
 *
