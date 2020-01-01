@@ -62,6 +62,13 @@ imgRequest
 h
 "
 #
+include
+"
+nsIObserverService
+.
+h
+"
+#
 ifdef
 LOADER_THREADSAFE
 #
@@ -87,6 +94,9 @@ imgIDecoderObserver
 ;
 class
 nsILoadGroup
+;
+class
+nsIPrefBranch
 ;
 class
 imgCacheEntry
@@ -695,6 +705,8 @@ public
 imgICache
 public
 nsSupportsWeakReference
+public
+nsIObserver
 {
 public
 :
@@ -702,6 +714,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_IMGILOADER
 NS_DECL_NSICONTENTSNIFFER
 NS_DECL_IMGICACHE
+NS_DECL_NSIOBSERVER
 imgLoader
 (
 )
@@ -709,6 +722,11 @@ imgLoader
 virtual
 ~
 imgLoader
+(
+)
+;
+nsresult
+Init
 (
 )
 ;
@@ -1018,6 +1036,14 @@ imgIRequest
 _retval
 )
 ;
+void
+ReadAcceptHeaderPref
+(
+nsIPrefBranch
+*
+aBranch
+)
+;
 typedef
 nsRefPtrHashtable
 <
@@ -1118,6 +1144,9 @@ sCacheTimeWeight
 static
 PRUint32
 sCacheMaxSize
+;
+nsCString
+mAcceptHeader
 ;
 }
 ;
