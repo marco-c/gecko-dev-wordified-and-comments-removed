@@ -134,7 +134,7 @@ mXULWindow
 ;
 nsSiteWindow
 *
-mSiteWindow2
+mSiteWindow
 ;
 bool
 mPrimary
