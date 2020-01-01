@@ -1557,6 +1557,15 @@ XtNwidth
 width
 )
 ;
+if
+(
+xtbin
+-
+>
+xtclient
+.
+top_widget
+)
 XtSetValues
 (
 xtbin
