@@ -625,12 +625,12 @@ true
 "
 android
 :
-src
+background
 =
 "
 drawable
 /
-address_bar_bg_shadow
+address_bar_bg_shadow_repeat
 "
 android
 :
