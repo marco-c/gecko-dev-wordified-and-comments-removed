@@ -159,7 +159,7 @@ ons
 ENTITY
 view
 .
-languages
+locales
 .
 label
 "

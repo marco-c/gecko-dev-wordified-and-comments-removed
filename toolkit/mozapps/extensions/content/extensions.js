@@ -3288,7 +3288,7 @@ addons
 /
 list
 /
-language
+locale
 "
 "
 addons
