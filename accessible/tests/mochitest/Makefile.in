@@ -616,14 +616,9 @@ test_nsIAccessibleHyperLink
 .
 html
 \
-(
-warning
 test_nsIAccessibleHyperLink
 .
 xul
-temporarily
-disabled
-)
 \
 test_nsIAccessibleHyperText
 .
