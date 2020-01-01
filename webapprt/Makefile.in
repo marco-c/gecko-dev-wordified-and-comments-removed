@@ -260,6 +260,14 @@ DMOZ_DEBUG
 =
 1
 endif
+ifdef
+MOZILLA_OFFICIAL
+DEFINES
++
+=
+-
+DMOZILLA_OFFICIAL
+endif
 libs
 :
 :
