@@ -12,7 +12,7 @@ PNG_LIBPNG_VER_STRING
 .
 4
 .
-7
+8
 "
 #
 define
@@ -25,10 +25,10 @@ version
 .
 4
 .
-7
+8
 -
-April
-10
+July
+7
 2011
 \
 n
@@ -52,7 +52,7 @@ PNG_LIBPNG_VER_MINOR
 #
 define
 PNG_LIBPNG_VER_RELEASE
-7
+8
 #
 define
 PNG_LIBPNG_VER_BUILD
@@ -130,14 +130,14 @@ PNG_LIBPNG_BUILD_BETA
 #
 define
 PNG_LIBPNG_VER
-10407
+10408
 /
 *
 1
 .
 4
 .
-7
+8
 *
 /
 #
@@ -3097,7 +3097,7 @@ PNG_BLEND_OP_OVER
 endif
 typedef
 png_structp
-version_1_4_7
+version_1_4_8
 ;
 typedef
 png_struct

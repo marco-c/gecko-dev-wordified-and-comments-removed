@@ -1580,6 +1580,17 @@ PNG_HAVE_IDAT
 )
 &
 &
+!
+(
+up
+-
+>
+location
+&
+PNG_AFTER_IDAT
+)
+&
+&
 (
 (
 up
