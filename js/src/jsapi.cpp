@@ -4595,6 +4595,9 @@ false
 #
 ifdef
 JS_THREADSAFE
+#
+ifdef
+JS_ION
 workerThreadState
 =
 this
@@ -4625,6 +4628,8 @@ this
 return
 false
 ;
+#
+endif
 if
 (
 !
@@ -4728,11 +4733,16 @@ this
 #
 ifdef
 JS_THREADSAFE
+#
+ifdef
+JS_ION
 js_delete
 (
 workerThreadState
 )
 ;
+#
+endif
 sourceCompressorThread
 .
 finish

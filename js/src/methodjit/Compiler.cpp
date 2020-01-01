@@ -23243,6 +23243,7 @@ Changes
 ;
 }
 static
+inline
 bool
 MaybeIonCompileable
 (

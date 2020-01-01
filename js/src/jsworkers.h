@@ -29,8 +29,20 @@ IonBuilder
 ;
 }
 #
-ifdef
+if
+defined
+(
 JS_THREADSAFE
+)
+&
+&
+defined
+(
+JS_ION
+)
+#
+define
+JS_PARALLEL_COMPILATION
 struct
 WorkerThread
 ;
@@ -250,7 +262,7 @@ rt
 {
 #
 ifdef
-JS_THREADSAFE
+JS_PARALLEL_COMPILATION
 rt
 -
 >
@@ -273,7 +285,7 @@ AutoLockWorkerThreadState
 {
 #
 ifdef
-JS_THREADSAFE
+JS_PARALLEL_COMPILATION
 rt
 -
 >
@@ -314,7 +326,7 @@ rt
 {
 #
 ifdef
-JS_THREADSAFE
+JS_PARALLEL_COMPILATION
 rt
 -
 >
@@ -337,7 +349,7 @@ AutoUnlockWorkerThreadState
 {
 #
 ifdef
-JS_THREADSAFE
+JS_PARALLEL_COMPILATION
 rt
 -
 >
