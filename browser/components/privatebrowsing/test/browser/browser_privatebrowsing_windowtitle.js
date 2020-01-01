@@ -69,8 +69,6 @@ test
 /
 browser
 /
-global
-/
 browser_privatebrowsing_windowtitle_page
 .
 html

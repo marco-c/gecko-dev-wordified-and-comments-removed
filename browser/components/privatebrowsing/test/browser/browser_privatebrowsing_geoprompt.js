@@ -55,8 +55,6 @@ test
 /
 browser
 /
-global
-/
 browser_privatebrowsing_geoprompt_page
 .
 html

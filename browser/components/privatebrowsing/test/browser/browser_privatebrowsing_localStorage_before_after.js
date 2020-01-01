@@ -29,8 +29,6 @@ test
 /
 browser
 /
-global
-/
 '
 ;
 waitForExplicitFinish

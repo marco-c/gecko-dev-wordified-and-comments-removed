@@ -83,8 +83,6 @@ test
 /
 browser
 /
-global
-/
 title
 .
 sjs
