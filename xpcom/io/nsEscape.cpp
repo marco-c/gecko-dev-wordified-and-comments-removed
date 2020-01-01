@@ -2064,7 +2064,7 @@ ignoreNonAscii
 (
 c
 >
-0x1f
+0x20
 &
 &
 c
