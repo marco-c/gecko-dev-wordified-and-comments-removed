@@ -1075,6 +1075,8 @@ for
 (
 PRUint32
 i
+=
+0
 len
 =
 mTransactions
@@ -1632,6 +1634,8 @@ for
 (
 PRUint32
 i
+=
+0
 len
 =
 mTransactions
