@@ -909,6 +909,17 @@ c
 }
 public
 void
+removeHistoryEntry
+(
+ContentResolver
+cr
+int
+id
+)
+{
+}
+public
+void
 clearHistory
 (
 ContentResolver
