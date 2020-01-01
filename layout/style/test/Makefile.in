@@ -995,6 +995,10 @@ test_flexbox_flex_grow_and_shrink
 .
 html
 \
+test_flexbox_flex_shorthand
+.
+html
+\
 (
 NULL
 )
