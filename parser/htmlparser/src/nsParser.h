@@ -387,11 +387,6 @@ void
 )
 ;
 NS_IMETHOD
-ContinueParsing
-(
-)
-;
-NS_IMETHOD
 ContinueInterruptedParsing
 (
 )
