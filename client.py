@@ -1,7 +1,7 @@
 NSPR_CO_TAG
 =
 '
-NSPR_4_7_1_BETA2
+NSPR_4_7_1_RTM
 '
 NSS_CO_TAG
 =

@@ -31531,6 +31531,15 @@ LOAD_OBJECT
 ;
 JS_ASSERT
 (
+!
+OBJ_IS_CLONED_BLOCK
+(
+obj
+)
+)
+;
+JS_ASSERT
+(
 fp
 -
 >
