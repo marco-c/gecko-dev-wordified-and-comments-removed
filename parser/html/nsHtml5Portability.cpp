@@ -511,6 +511,7 @@ if
 (
 strPtr
 =
+=
 end
 )
 {
