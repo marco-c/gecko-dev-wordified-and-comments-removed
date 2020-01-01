@@ -19,10 +19,10 @@ namespace
 js
 ;
 Class
-js
+Module
 :
 :
-ModuleClass
+class_
 =
 {
 "
@@ -109,7 +109,7 @@ NewBuiltinClassInstance
 (
 cx
 &
-ModuleClass
+class_
 )
 )
 ;
@@ -129,7 +129,10 @@ cx
 object
 -
 >
-asModule
+as
+<
+Module
+>
 (
 )
 )

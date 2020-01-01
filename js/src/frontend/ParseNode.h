@@ -23,6 +23,15 @@ h
 #
 include
 "
+builtin
+/
+Module
+.
+h
+"
+#
+include
+"
 frontend
 /
 TokenStream
@@ -5231,7 +5240,10 @@ return
 object
 -
 >
-isModule
+is
+<
+Module
+>
 (
 )
 ;

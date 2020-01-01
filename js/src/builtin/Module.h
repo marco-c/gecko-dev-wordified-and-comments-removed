@@ -82,6 +82,10 @@ toPrivate
 )
 ;
 }
+static
+Class
+class_
+;
 private
 :
 inline
