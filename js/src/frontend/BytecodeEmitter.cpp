@@ -8358,6 +8358,10 @@ tokenStream
 reportStrictModeErrorNumberVA
 (
 pn
+sc
+-
+>
+strict
 errorNumber
 args
 )

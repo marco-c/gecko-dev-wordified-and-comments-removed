@@ -1939,6 +1939,8 @@ reportStrictModeErrorNumberVA
 ParseNode
 *
 pn
+bool
+strictMode
 unsigned
 errorNumber
 va_list
@@ -1953,8 +1955,6 @@ JSREPORT_STRICT
 if
 (
 strictMode
-(
-)
 )
 flags
 |
@@ -2621,6 +2621,9 @@ result
 reportStrictModeErrorNumberVA
 (
 NULL
+strictMode
+(
+)
 errorNumber
 args
 )
