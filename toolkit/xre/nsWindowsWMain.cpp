@@ -292,7 +292,10 @@ SanitizeEnvironmentVariables
 (
 )
 ;
-SetDllDirectoryW
+mozilla
+:
+:
+NS_SetDllDirectory
 (
 L
 "

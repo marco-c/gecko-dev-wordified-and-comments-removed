@@ -161,6 +161,9 @@ static
 PRIntervalTime
 mDontRetryUntil
 ;
+OSVERSIONINFO
+mOSVerInfo
+;
 public
 :
 nsAutodial
