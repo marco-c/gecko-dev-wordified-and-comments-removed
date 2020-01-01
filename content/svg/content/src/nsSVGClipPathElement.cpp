@@ -75,12 +75,13 @@ NS_INTERFACE_TABLE_HEAD
 (
 nsSVGClipPathElement
 )
-NS_NODE_INTERFACE_TABLE5
+NS_NODE_INTERFACE_TABLE6
 (
 nsSVGClipPathElement
 nsIDOMNode
 nsIDOMElement
 nsIDOMSVGElement
+nsIDOMSVGTests
 nsIDOMSVGClipPathElement
 nsIDOMSVGUnitTypes
 )

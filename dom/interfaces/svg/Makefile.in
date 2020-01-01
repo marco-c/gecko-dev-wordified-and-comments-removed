@@ -693,6 +693,10 @@ nsIDOMSVGStopElement
 .
 idl
 \
+nsIDOMSVGStringList
+.
+idl
+\
 nsIDOMSVGStylable
 .
 idl
@@ -706,6 +710,10 @@ nsIDOMSVGSwitchElement
 idl
 \
 nsIDOMSVGSymbolElement
+.
+idl
+\
+nsIDOMSVGTests
 .
 idl
 \

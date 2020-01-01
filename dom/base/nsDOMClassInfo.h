@@ -83,6 +83,9 @@ class
 DOMSVGPointList
 ;
 class
+DOMSVGStringList
+;
+class
 DOMSVGTransformList
 ;
 }
@@ -121,6 +124,12 @@ nsIDOMSVGPoint
 ;
 class
 nsIDOMSVGPointList
+;
+class
+nsIDOMSVGStringList
+;
+class
+nsIDOMSVGTests
 ;
 class
 nsIDOMSVGTransform

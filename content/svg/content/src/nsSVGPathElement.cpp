@@ -137,12 +137,13 @@ NS_INTERFACE_TABLE_HEAD
 (
 nsSVGPathElement
 )
-NS_NODE_INTERFACE_TABLE5
+NS_NODE_INTERFACE_TABLE6
 (
 nsSVGPathElement
 nsIDOMNode
 nsIDOMElement
 nsIDOMSVGElement
+nsIDOMSVGTests
 nsIDOMSVGPathElement
 nsIDOMSVGAnimatedPathData
 )

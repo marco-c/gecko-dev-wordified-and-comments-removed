@@ -218,12 +218,13 @@ NS_INTERFACE_TABLE_HEAD
 (
 nsSVGPatternElement
 )
-NS_NODE_INTERFACE_TABLE7
+NS_NODE_INTERFACE_TABLE8
 (
 nsSVGPatternElement
 nsIDOMNode
 nsIDOMElement
 nsIDOMSVGElement
+nsIDOMSVGTests
 nsIDOMSVGFitToViewBox
 nsIDOMSVGURIReference
 nsIDOMSVGPatternElement

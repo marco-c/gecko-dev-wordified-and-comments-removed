@@ -28,13 +28,14 @@ NS_INTERFACE_TABLE_HEAD
 (
 nsSVGAnimateMotionElement
 )
-NS_NODE_INTERFACE_TABLE5
+NS_NODE_INTERFACE_TABLE6
 (
 nsSVGAnimateMotionElement
 nsIDOMNode
 nsIDOMElement
 nsIDOMSVGElement
 nsIDOMSVGAnimationElement
+nsIDOMSVGTests
 nsIDOMSVGAnimateMotionElement
 )
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO

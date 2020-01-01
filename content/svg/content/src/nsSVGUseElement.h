@@ -28,6 +28,13 @@ h
 #
 include
 "
+DOMSVGTests
+.
+h
+"
+#
+include
+"
 nsStubMutationObserver
 .
 h
@@ -136,9 +143,11 @@ nsSVGUseElement
 public
 nsSVGUseElementBase
 public
-nsIDOMSVGURIReference
-public
 nsIDOMSVGUseElement
+public
+DOMSVGTests
+public
+nsIDOMSVGURIReference
 public
 nsStubMutationObserver
 {

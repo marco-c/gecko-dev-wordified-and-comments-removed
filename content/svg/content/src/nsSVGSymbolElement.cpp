@@ -17,6 +17,13 @@ h
 #
 include
 "
+DOMSVGTests
+.
+h
+"
+#
+include
+"
 nsSVGStylableElement
 .
 h
@@ -63,9 +70,11 @@ nsSVGSymbolElement
 public
 nsSVGSymbolElementBase
 public
-nsIDOMSVGFitToViewBox
-public
 nsIDOMSVGSymbolElement
+public
+DOMSVGTests
+public
+nsIDOMSVGFitToViewBox
 {
 protected
 :

@@ -28,6 +28,13 @@ h
 #
 include
 "
+DOMSVGTests
+.
+h
+"
+#
+include
+"
 nsSVGEnum
 .
 h
@@ -43,6 +50,8 @@ public
 nsSVGClipPathElementBase
 public
 nsIDOMSVGClipPathElement
+public
+DOMSVGTests
 public
 nsIDOMSVGUnitTypes
 {

@@ -21,6 +21,13 @@ h
 #
 include
 "
+DOMSVGTests
+.
+h
+"
+#
+include
+"
 nsIDOMSVGUnitTypes
 .
 h
@@ -69,6 +76,8 @@ nsSVGGradientElement
 :
 public
 nsSVGGradientElementBase
+public
+DOMSVGTests
 public
 nsIDOMSVGURIReference
 public

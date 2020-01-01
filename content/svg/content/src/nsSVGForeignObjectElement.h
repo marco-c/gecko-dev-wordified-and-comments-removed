@@ -21,6 +21,13 @@ h
 #
 include
 "
+DOMSVGTests
+.
+h
+"
+#
+include
+"
 nsSVGLength2
 .
 h
@@ -36,6 +43,8 @@ public
 nsSVGForeignObjectElementBase
 public
 nsIDOMSVGForeignObjectElement
+public
+DOMSVGTests
 {
 friend
 class
