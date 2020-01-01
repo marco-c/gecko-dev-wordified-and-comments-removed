@@ -1654,7 +1654,13 @@ LIST_UP_TO_DATE
 )
 PopulateSelf
 (
+NS_MIN
+(
 aIndex
+PR_UINT32_MAX
+-
+1
+)
 +
 1
 )
