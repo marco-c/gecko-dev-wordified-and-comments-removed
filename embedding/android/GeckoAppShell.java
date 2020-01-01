@@ -2591,14 +2591,6 @@ geckoLoaded
 (
 )
 {
-GeckoApp
-.
-mAppContext
-.
-connectGeckoLayerClient
-(
-)
-;
 final
 LayerController
 layerController
