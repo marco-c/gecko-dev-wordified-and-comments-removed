@@ -356,7 +356,7 @@ gLeftWindow
 open
 (
 '
-window_bug596600
+empty_window
 .
 xul
 '
@@ -393,7 +393,7 @@ gRightWindow
 open
 (
 '
-window_bug596600
+empty_window
 .
 xul
 '
