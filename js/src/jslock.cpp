@@ -1137,7 +1137,7 @@ nv
 ;
 }
 void
-js_AtomicUnsetMask
+js_AtomicClearMask
 (
 jsword
 *
@@ -1161,11 +1161,8 @@ nv
 =
 ov
 &
-=
-(
 ~
 mask
-)
 ;
 }
 while
