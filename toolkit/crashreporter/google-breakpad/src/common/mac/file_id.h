@@ -11,6 +11,15 @@ limits
 .
 h
 >
+#
+include
+<
+mach
+/
+machine
+.
+h
+>
 namespace
 google_breakpad
 {
@@ -48,8 +57,10 @@ identifier
 bool
 MachoIdentifier
 (
-int
+cpu_type_t
 cpu_type
+cpu_subtype_t
+cpu_subtype
 unsigned
 char
 identifier

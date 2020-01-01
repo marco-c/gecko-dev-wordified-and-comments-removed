@@ -204,6 +204,9 @@ barrier
 mutex
 )
 ;
+return
+0
+;
 }
 #
 endif

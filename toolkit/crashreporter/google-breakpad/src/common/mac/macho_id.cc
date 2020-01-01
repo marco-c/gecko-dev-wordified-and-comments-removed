@@ -646,8 +646,10 @@ MachoID
 :
 UUIDCommand
 (
-int
+cpu_type_t
 cpu_type
+cpu_subtype_t
+cpu_subtype
 unsigned
 char
 bytes
@@ -672,6 +674,7 @@ if
 WalkHeader
 (
 cpu_type
+cpu_subtype
 UUIDWalkerCB
 &
 uuid_cmd
@@ -718,8 +721,10 @@ MachoID
 :
 IDCommand
 (
-int
+cpu_type_t
 cpu_type
+cpu_subtype_t
+cpu_subtype
 unsigned
 char
 identifier
@@ -744,6 +749,7 @@ if
 WalkHeader
 (
 cpu_type
+cpu_subtype
 IDWalkerCB
 &
 dylib_cmd
@@ -1045,8 +1051,10 @@ MachoID
 :
 Adler32
 (
-int
+cpu_type_t
 cpu_type
+cpu_subtype_t
+cpu_subtype
 )
 {
 update_function_
@@ -1067,6 +1075,7 @@ if
 WalkHeader
 (
 cpu_type
+cpu_subtype
 WalkerCB
 this
 )
@@ -1084,8 +1093,10 @@ MachoID
 :
 MD5
 (
-int
+cpu_type_t
 cpu_type
+cpu_subtype_t
+cpu_subtype
 unsigned
 char
 identifier
@@ -1114,6 +1125,7 @@ if
 WalkHeader
 (
 cpu_type
+cpu_subtype
 WalkerCB
 this
 )
@@ -1138,8 +1150,10 @@ MachoID
 :
 WalkHeader
 (
-int
+cpu_type_t
 cpu_type
+cpu_subtype_t
+cpu_subtype
 MachoWalker
 :
 :
@@ -1170,6 +1184,7 @@ walker
 WalkHeader
 (
 cpu_type
+cpu_subtype
 )
 ;
 }
@@ -1189,6 +1204,7 @@ walker
 WalkHeader
 (
 cpu_type
+cpu_subtype
 )
 ;
 }

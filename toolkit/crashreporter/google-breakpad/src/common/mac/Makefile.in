@@ -150,6 +150,10 @@ both
 CPPSRCS
 =
 \
+arch_utilities
+.
+cc
+\
 bootstrap_compat
 .
 cc

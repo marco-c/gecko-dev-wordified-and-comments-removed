@@ -22,6 +22,15 @@ include
 <
 mach
 /
+machine
+.
+h
+>
+#
+include
+<
+mach
+/
 vm_statistics
 .
 h
@@ -5984,6 +5993,7 @@ macho
 UUIDCommand
 (
 cpu_type
+CPU_SUBTYPE_MULTIPLE
 identifier
 )
 ;
@@ -5999,6 +6009,7 @@ macho
 MD5
 (
 cpu_type
+CPU_SUBTYPE_MULTIPLE
 identifier
 )
 ;
@@ -6022,6 +6033,7 @@ file_id
 MachoIdentifier
 (
 cpu_type
+CPU_SUBTYPE_MULTIPLE
 identifier
 )
 ;

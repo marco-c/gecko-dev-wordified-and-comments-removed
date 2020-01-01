@@ -613,7 +613,7 @@ value
 |
 static_cast
 <
-uint16_t
+u_int16_t
 >
 (
 value
