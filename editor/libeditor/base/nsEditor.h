@@ -269,8 +269,6 @@ public
 nsSupportsWeakReference
 public
 nsIPhonetic
-public
-nsIEditor_MOZILLA_2_0_BRANCH
 {
 public
 :
@@ -347,7 +345,6 @@ void
 NS_DECL_NSIEDITOR
 NS_DECL_NSIEDITORIMESUPPORT
 NS_DECL_NSIPHONETIC
-NS_DECL_NSIEDITOR_MOZILLA_2_0_BRANCH
 public
 :
 NS_IMETHOD
