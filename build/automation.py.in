@@ -2833,10 +2833,6 @@ browser
 .
 safebrowsing
 .
-provider
-.
-0
-.
 gethashURL
 "
 "
@@ -2865,10 +2861,6 @@ browser
 .
 safebrowsing
 .
-provider
-.
-0
-.
 keyURL
 "
 "
@@ -2896,10 +2888,6 @@ user_pref
 browser
 .
 safebrowsing
-.
-provider
-.
-0
 .
 updateURL
 "
