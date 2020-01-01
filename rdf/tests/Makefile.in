@@ -399,6 +399,9 @@ srcdir
 VPATH
 =
 srcdir
+MODULE
+=
+test_rdf
 include
 (
 DEPTH
@@ -414,6 +417,9 @@ DIRS
 rdfcat
 rdfpoll
 triplescat
+XPCSHELL_TESTS
+=
+unit
 include
 (
 topsrcdir
