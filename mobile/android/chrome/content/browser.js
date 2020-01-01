@@ -43784,9 +43784,6 @@ instanceof
 Ci
 .
 nsIDOMHTMLMediaElement
-&
-&
-mediaSrc
 )
 )
 {
