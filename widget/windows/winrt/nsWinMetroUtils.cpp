@@ -494,17 +494,6 @@ TileOptions
 TileOptions_ShowNameOnLogo
 )
 ;
-secondaryTile
--
->
-put_ForegroundText
-(
-ForegroundText
-:
-:
-ForegroundText_Dark
-)
-;
 ComPtr
 <
 IAsyncOperationCompletedHandler
