@@ -235,6 +235,14 @@ edit
 .
 js
 \
+browser_dbg_reload
+-
+same
+-
+script
+.
+js
+\
 browser_dbg_panesize
 .
 js
