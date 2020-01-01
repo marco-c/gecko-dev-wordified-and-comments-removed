@@ -1110,6 +1110,8 @@ let
 newComment
 =
 "
+\
+n
 /
 *
 \

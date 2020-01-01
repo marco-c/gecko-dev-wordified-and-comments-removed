@@ -137,6 +137,8 @@ sp
 .
 selectedText
 "
+\
+n
 /
 *
 \
@@ -176,6 +178,8 @@ sp
 .
 selectedText
 "
+\
+n
 /
 *
 \
@@ -215,6 +219,8 @@ sp
 .
 selectedText
 "
+\
+n
 /
 *
 \
@@ -254,6 +260,8 @@ sp
 .
 selectedText
 "
+\
+n
 /
 *
 \
@@ -293,6 +301,8 @@ sp
 .
 selectedText
 "
+\
+n
 /
 *
 \
@@ -333,6 +343,8 @@ sp
 .
 selectedText
 "
+\
+n
 /
 *
 \
