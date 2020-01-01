@@ -1800,6 +1800,9 @@ gail_get_root
 (
 )
 ;
+return
+nsnull
+;
 }
 nsRefPtr
 <
