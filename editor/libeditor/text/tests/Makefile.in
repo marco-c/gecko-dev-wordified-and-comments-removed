@@ -556,6 +556,10 @@ endif
 _CHROME_TEST_FILES
 =
 \
+test_bug483651
+.
+html
+\
 test_bug636465
 .
 xul

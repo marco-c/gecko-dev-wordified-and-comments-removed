@@ -506,6 +506,11 @@ aResult
 )
 ;
 nsresult
+RemoveRedundantTrailingBR
+(
+)
+;
+nsresult
 CreateTrailingBRIfNeeded
 (
 )
