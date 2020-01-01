@@ -1268,3 +1268,8 @@ True
 LIBXUL_LIBRARY
 =
 True
+LIBRARY_NAME
+=
+'
+gkcontentsvg_s
+'

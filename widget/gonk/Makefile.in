@@ -159,9 +159,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-widget_gonk
 EXPORT_LIBRARY
 =
 1

@@ -218,3 +218,8 @@ xptcstubs
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+xptcmd
+'

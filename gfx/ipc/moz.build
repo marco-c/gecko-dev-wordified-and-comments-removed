@@ -184,3 +184,8 @@ cpp
 LIBXUL_LIBRARY
 =
 True
+LIBRARY_NAME
+=
+'
+gfxipc_s
+'

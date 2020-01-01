@@ -1186,3 +1186,8 @@ cc
 LIBXUL_LIBRARY
 =
 True
+LIBRARY_NAME
+=
+'
+chromium_s
+'

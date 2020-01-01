@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-xpcomio_s
 MOZILLA_INTERNAL_API
 =
 1

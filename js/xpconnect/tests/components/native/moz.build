@@ -121,3 +121,8 @@ xpctest_params
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+xpctest
+'

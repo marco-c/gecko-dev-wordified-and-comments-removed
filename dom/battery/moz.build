@@ -138,3 +138,8 @@ True
 LIBXUL_LIBRARY
 =
 True
+LIBRARY_NAME
+=
+'
+dom_battery_s
+'

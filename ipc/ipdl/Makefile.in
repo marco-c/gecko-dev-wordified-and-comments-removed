@@ -114,9 +114,6 @@ cxx
 .
 pyc
 )
-LIBRARY_NAME
-=
-mozipdlgen_s
 EXPORT_LIBRARY
 =
 1

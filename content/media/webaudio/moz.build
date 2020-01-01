@@ -459,3 +459,8 @@ True
 LIBXUL_LIBRARY
 =
 True
+LIBRARY_NAME
+=
+'
+gkconwebaudio_s
+'

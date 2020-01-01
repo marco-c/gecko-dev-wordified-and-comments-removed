@@ -111,3 +111,8 @@ c
 LIBXUL_LIBRARY
 =
 True
+LIBRARY_NAME
+=
+'
+widget_shared_x11
+'

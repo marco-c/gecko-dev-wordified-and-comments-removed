@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-xpwidgets_s
 SHARED_LIBRARY_LIBS
 =
 .

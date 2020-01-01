@@ -204,3 +204,8 @@ True
 LIBXUL_LIBRARY
 =
 True
+LIBRARY_NAME
+=
+'
+ipcshell_s
+'

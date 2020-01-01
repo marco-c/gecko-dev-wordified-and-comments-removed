@@ -257,3 +257,8 @@ ANDROID_VERSION
 ]
 )
 )
+LIBRARY_NAME
+=
+'
+display
+'

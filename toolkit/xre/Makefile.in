@@ -124,9 +124,6 @@ config
 milestone
 .
 txt
-LIBRARY_NAME
-=
-xulapp_s
 ifeq
 (
 (

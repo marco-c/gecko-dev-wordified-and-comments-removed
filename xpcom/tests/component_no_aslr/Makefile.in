@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-testcompnoaslr
 IS_COMPONENT
 =
 1

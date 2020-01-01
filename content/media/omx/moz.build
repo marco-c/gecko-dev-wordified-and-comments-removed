@@ -146,3 +146,8 @@ cpp
 LIBXUL_LIBRARY
 =
 True
+LIBRARY_NAME
+=
+'
+gkconomx_s
+'

@@ -119,9 +119,6 @@ glue
 objs
 .
 mk
-LIBRARY_NAME
-=
-xpcom_core
 EXPORT_LIBRARY
 =
 1

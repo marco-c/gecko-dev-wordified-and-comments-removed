@@ -1741,3 +1741,8 @@ xptcstubs_linux_s390x
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+xptcmd
+'

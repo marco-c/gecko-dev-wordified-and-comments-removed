@@ -125,9 +125,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-nksrtp_s
 LOCAL_INCLUDES
 =
 \

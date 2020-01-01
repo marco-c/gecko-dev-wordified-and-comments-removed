@@ -90,9 +90,6 @@ wchar
 OS_CXXFLAGS
 )
 )
-LIBRARY_NAME
-=
-chromium_s
 EXPORT_LIBRARY
 =
 1

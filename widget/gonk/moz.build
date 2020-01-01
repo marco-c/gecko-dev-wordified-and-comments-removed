@@ -265,11 +265,6 @@ OrientationObserver
 cpp
 '
 '
-ProcessOrientation
-.
-cpp
-'
-'
 PixelFormat
 .
 cpp
@@ -381,3 +376,8 @@ cpp
 LIBXUL_LIBRARY
 =
 True
+LIBRARY_NAME
+=
+'
+widget_gonk
+'

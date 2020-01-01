@@ -513,3 +513,8 @@ True
 MSVC_ENABLE_PGO
 =
 True
+LIBRARY_NAME
+=
+'
+xulapp_s
+'

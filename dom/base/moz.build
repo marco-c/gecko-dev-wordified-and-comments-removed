@@ -116,11 +116,6 @@ nsIDOMDOMRequest
 idl
 '
 '
-nsIDOMDOMWindowResizeEventDetail
-.
-idl
-'
-'
 nsIEntropyCollector
 .
 idl
@@ -380,6 +375,11 @@ Navigator
 cpp
 '
 '
+URL
+.
+cpp
+'
+'
 nsContentPermissionHelper
 .
 cpp
@@ -406,11 +406,6 @@ cpp
 '
 '
 nsDOMWindowList
-.
-cpp
-'
-'
-nsDOMWindowResizeEventDetail
 .
 cpp
 '
@@ -510,11 +505,6 @@ nsWrapperCache
 cpp
 '
 '
-URL
-.
-cpp
-'
-'
 WindowNamedPropertiesHandler
 .
 cpp
@@ -579,3 +569,8 @@ True
 MSVC_ENABLE_PGO
 =
 True
+LIBRARY_NAME
+=
+'
+jsdombase_s
+'

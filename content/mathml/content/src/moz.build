@@ -119,3 +119,8 @@ True
 LIBXUL_LIBRARY
 =
 True
+LIBRARY_NAME
+=
+'
+gkcontentmathml_s
+'

@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-sandbox_s
 EXPORT_LIBRARY
 =
 1

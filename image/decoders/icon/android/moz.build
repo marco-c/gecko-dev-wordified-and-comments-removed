@@ -114,3 +114,8 @@ True
 LIBXUL_LIBRARY
 =
 True
+LIBRARY_NAME
+=
+'
+imgiconandroid_s
+'

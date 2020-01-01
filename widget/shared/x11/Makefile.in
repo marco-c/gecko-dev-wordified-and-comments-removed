@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-widget_shared_x11
 include
 (
 topsrcdir

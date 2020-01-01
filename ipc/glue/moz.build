@@ -538,3 +538,8 @@ ipdlh
 LIBXUL_LIBRARY
 =
 True
+LIBRARY_NAME
+=
+'
+mozipc_s
+'

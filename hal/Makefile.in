@@ -128,9 +128,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-hal_s
 EXPORT_LIBRARY
 =
 1

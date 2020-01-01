@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-widget_winrt
 EXPORT_LIBRARY
 =
 1

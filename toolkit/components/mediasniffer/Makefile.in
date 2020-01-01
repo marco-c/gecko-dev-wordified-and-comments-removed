@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-mediasniffer
 EXPORT_LIBRARY
 =
 1

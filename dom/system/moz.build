@@ -316,3 +316,8 @@ True
 LIBXUL_LIBRARY
 =
 True
+LIBRARY_NAME
+=
+'
+domsystem_s
+'

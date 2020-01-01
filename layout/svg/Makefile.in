@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-gksvgbase_s
 include
 (
 topsrcdir

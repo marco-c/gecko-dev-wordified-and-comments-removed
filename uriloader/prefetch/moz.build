@@ -193,3 +193,8 @@ True
 LIBXUL_LIBRARY
 =
 True
+LIBRARY_NAME
+=
+'
+prefetch_s
+'

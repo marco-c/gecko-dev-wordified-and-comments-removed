@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-gkconcvs_s
 ifdef
 MOZ_WEBGL
 LOCAL_INCLUDES

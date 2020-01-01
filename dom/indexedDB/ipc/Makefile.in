@@ -78,9 +78,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-dom_indexeddb_ipc_s
 LOCAL_INCLUDES
 +
 =

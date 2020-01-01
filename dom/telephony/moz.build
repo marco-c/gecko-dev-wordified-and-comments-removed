@@ -149,3 +149,8 @@ True
 LIBXUL_LIBRARY
 =
 True
+LIBRARY_NAME
+=
+'
+domtelephony_s
+'

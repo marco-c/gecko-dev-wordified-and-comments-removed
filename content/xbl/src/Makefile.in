@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-gkconxbl_s
 include
 (
 topsrcdir

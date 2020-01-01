@@ -68,9 +68,6 @@ srcdir
 relativesrcdir
 =
 relativesrcdir
-LIBRARY_NAME
-=
-dombindings_test_s
 #
 Do
 NOT

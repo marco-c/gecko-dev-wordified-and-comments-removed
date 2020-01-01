@@ -143,3 +143,8 @@ libxul
 or
 anything
 .
+LIBRARY_NAME
+=
+'
+dombindings_test_s
+'

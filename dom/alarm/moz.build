@@ -188,3 +188,8 @@ True
 LIBXUL_LIBRARY
 =
 True
+LIBRARY_NAME
+=
+'
+domalarm_s
+'

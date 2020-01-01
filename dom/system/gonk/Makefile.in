@@ -149,9 +149,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-domsystemgonk_s
 include
 (
 topsrcdir

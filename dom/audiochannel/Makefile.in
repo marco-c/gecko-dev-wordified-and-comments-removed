@@ -146,9 +146,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-domaudiochannel_s
 EXPORT_LIBRARY
 =
 1

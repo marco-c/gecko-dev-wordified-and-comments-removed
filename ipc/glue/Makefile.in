@@ -87,9 +87,6 @@ topsrcdir
 toolkit
 /
 crashreporter
-LIBRARY_NAME
-=
-mozipc_s
 EXPORT_LIBRARY
 =
 1

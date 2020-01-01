@@ -131,9 +131,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-layers
 ifdef
 MOZ_DEBUG
 DEFINES

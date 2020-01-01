@@ -1339,3 +1339,8 @@ True
 MSVC_ENABLE_PGO
 =
 True
+LIBRARY_NAME
+=
+'
+thebes
+'

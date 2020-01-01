@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-prefetch_s
 LOCAL_INCLUDES
 =
 \

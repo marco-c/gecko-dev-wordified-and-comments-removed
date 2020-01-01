@@ -149,9 +149,6 @@ srcdir
 (
 OSDIR
 )
-LIBRARY_NAME
-=
-exthandler_s
 ifeq
 (
 (

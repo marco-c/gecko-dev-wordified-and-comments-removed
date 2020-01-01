@@ -101,3 +101,8 @@ xpctest
 NO_DIST_INSTALL
 =
 True
+LIBRARY_NAME
+=
+'
+xpctest
+'

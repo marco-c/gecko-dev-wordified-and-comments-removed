@@ -161,3 +161,8 @@ True
 LIBXUL_LIBRARY
 =
 True
+LIBRARY_NAME
+=
+'
+nkdevice_s
+'

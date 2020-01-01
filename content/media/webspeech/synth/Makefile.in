@@ -104,10 +104,6 @@ ipc
 (
 NULL
 )
-LIBRARY_NAME
-:
-=
-gkconwebspeechsynth_s
 EXPORT_LIBRARY
 =
 1

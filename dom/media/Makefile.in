@@ -78,9 +78,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-dom_media_s
 include
 (
 topsrcdir

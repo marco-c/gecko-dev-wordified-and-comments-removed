@@ -138,3 +138,8 @@ strcpy
 c
 '
 ]
+LIBRARY_NAME
+=
+'
+dmd
+'

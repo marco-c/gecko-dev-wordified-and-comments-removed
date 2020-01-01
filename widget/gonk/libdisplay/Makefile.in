@@ -153,9 +153,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-display
 FORCE_STATIC_LIB
 =
 1

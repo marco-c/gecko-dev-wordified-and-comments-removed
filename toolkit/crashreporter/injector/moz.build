@@ -103,3 +103,8 @@ injector
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+breakpadinjector
+'

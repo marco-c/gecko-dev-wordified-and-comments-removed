@@ -78,9 +78,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-ipcshell_s
 EXPORT_LIBRARY
 =
 1

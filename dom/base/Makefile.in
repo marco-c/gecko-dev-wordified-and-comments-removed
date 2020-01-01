@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-jsdombase_s
 include
 (
 topsrcdir

@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-testcomponent
 IS_COMPONENT
 =
 1

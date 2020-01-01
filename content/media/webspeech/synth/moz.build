@@ -235,3 +235,8 @@ True
 LIBXUL_LIBRARY
 =
 True
+LIBRARY_NAME
+=
+'
+gkconwebspeechsynth_s
+'

@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-domsystemandroid_s
 EXPORT_LIBRARY
 =
 1

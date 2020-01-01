@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-xpctest
 IS_COMPONENT
 =
 1

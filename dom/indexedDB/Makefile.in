@@ -75,9 +75,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-dom_indexeddb_s
 LOCAL_INCLUDES
 =
 \

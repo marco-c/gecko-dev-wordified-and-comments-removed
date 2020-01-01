@@ -121,3 +121,8 @@ dom
 LIBXUL_LIBRARY
 =
 True
+LIBRARY_NAME
+=
+'
+domdevicestorage_s
+'

@@ -86,9 +86,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-test656331
 IS_COMPONENT
 =
 1

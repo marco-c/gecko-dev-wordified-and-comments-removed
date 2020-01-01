@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-gkconhtmlcon_s
 include
 (
 topsrcdir

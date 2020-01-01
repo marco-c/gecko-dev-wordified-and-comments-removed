@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-nkdatachan_s
 NO_PROFILE_GUIDED_OPTIMIZE
 =
 1

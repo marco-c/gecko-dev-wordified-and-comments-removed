@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-LIBRARY_NAME
-=
-gkcontentmathml_s
 include
 (
 topsrcdir
