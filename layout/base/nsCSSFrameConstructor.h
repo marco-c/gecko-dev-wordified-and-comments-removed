@@ -1672,8 +1672,6 @@ aParent
 nsIFrame
 *
 aNewFrame
-PRBool
-aAppendToExisting
 nsFrameItems
 &
 aChildItems
@@ -1692,14 +1690,9 @@ aState
 nsIContent
 *
 aParent
-nsIDocument
-*
-aDocument
 nsIFrame
 *
-aNewFrame
-PRBool
-aAppendToExisting
+aParentFrame
 nsFrameItems
 &
 aChildItems

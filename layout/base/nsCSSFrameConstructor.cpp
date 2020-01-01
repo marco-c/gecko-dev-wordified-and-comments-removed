@@ -16188,7 +16188,6 @@ nsnull
 aState
 aContent
 aNewInnerFrame
-PR_FALSE
 childItems
 )
 ;
@@ -16707,7 +16706,6 @@ nsnull
 aState
 aContent
 aNewFrame
-PR_FALSE
 childItems
 )
 ;
@@ -17220,7 +17218,6 @@ nsnull
 aState
 aContent
 aNewFrame
-PR_FALSE
 childItems
 )
 ;
@@ -19258,7 +19255,6 @@ nsnull
 aState
 aDocElement
 contentFrame
-PR_FALSE
 childItems
 PR_TRUE
 )
@@ -21022,7 +21018,6 @@ aTag
 aState
 aContent
 buttonFrame
-PR_FALSE
 anonymousChildItems
 )
 ;
@@ -21475,7 +21470,6 @@ combobox
 aState
 aContent
 comboboxFrame
-PR_TRUE
 childItems
 )
 ;
@@ -24277,7 +24271,6 @@ aTag
 aState
 aContent
 newFrame
-PR_FALSE
 childItems
 )
 ;
@@ -24372,8 +24365,6 @@ aParent
 nsIFrame
 *
 aNewFrame
-PRBool
-aAppendToExisting
 nsFrameItems
 &
 aChildItems
@@ -24476,9 +24467,7 @@ CreateAnonymousFrames
 (
 aState
 aParent
-mDocument
 aNewFrame
-aAppendToExisting
 aChildItems
 )
 ;
@@ -24495,14 +24484,9 @@ aState
 nsIContent
 *
 aParent
-nsIDocument
-*
-aDocument
 nsIFrame
 *
 aParentFrame
-PRBool
-aAppendToExisting
 nsFrameItems
 &
 aChildItems
@@ -24671,7 +24655,7 @@ content
 >
 BindToTree
 (
-aDocument
+mDocument
 aParent
 aParent
 PR_TRUE
@@ -26644,7 +26628,6 @@ aTag
 aState
 aContent
 newFrame
-PR_FALSE
 childItems
 )
 ;
@@ -26926,9 +26909,7 @@ CreateAnonymousFrames
 (
 aState
 aContent
-mDocument
 gfxScrollFrame
-PR_FALSE
 anonymousItems
 )
 ;
@@ -29723,7 +29704,6 @@ aTag
 aState
 aContent
 newFrame
-PR_FALSE
 childItems
 )
 ;
@@ -31181,7 +31161,6 @@ aTag
 aState
 aContent
 newFrame
-PR_FALSE
 childItems
 )
 ;
@@ -51772,7 +51751,6 @@ Tag
 aState
 aContent
 blockFrame
-PR_FALSE
 childItems
 )
 ;
@@ -51939,7 +51917,6 @@ Tag
 aState
 aContent
 aNewFrame
-PR_FALSE
 childItems
 )
 ;
@@ -56156,7 +56133,6 @@ Tag
 state
 mContent
 frame
-PR_FALSE
 childItems
 )
 ;
