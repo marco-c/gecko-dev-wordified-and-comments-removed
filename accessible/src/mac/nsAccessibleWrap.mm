@@ -1816,11 +1816,7 @@ NS_IF_ADDREF
 (
 outValue
 =
-parent
-.
-get
-(
-)
+parentWrap
 )
 ;
 return
