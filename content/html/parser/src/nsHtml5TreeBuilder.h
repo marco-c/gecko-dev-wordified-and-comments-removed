@@ -662,11 +662,6 @@ pop
 (
 )
 ;
-PRBool
-isTainted
-(
-)
-;
 void
 appendHtmlElementToDocumentAndPush
 (
@@ -1152,6 +1147,11 @@ private
 :
 void
 flushCharacters
+(
+)
+;
+PRBool
+charBufferContainsNonWhitespace
 (
 )
 ;
