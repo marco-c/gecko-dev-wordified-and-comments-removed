@@ -4064,11 +4064,6 @@ retVal
 =
 None
         
-logcat
-=
-[
-]
-        
 for
 test
 in
@@ -4201,14 +4196,6 @@ runTests
 options
 )
                 
-logcat
-=
-dm
-.
-getLogcat
-(
-)
-                
 mochitest
 .
 addLogData
@@ -4264,7 +4251,7 @@ options
 try
 :
                     
-self
+mochitest
 .
 cleanup
 (
@@ -4273,16 +4260,18 @@ options
 )
                 
 except
+devicemanager
+.
+DMError
 :
                     
 pass
                 
-sys
-.
-exit
-(
+retVal
+=
 1
-)
+                
+break
         
 if
 retVal
@@ -4309,6 +4298,13 @@ retVal
 =
 1
         
+if
+retVal
+=
+=
+0
+:
+            
 retVal
 =
 mochitest
@@ -4319,16 +4315,16 @@ printLog
     
 else
 :
-      
+        
 try
 :
-        
+            
 dm
 .
 recordLogcat
 (
 )
-        
+            
 retVal
 =
 mochitest
@@ -4338,17 +4334,9 @@ runTests
 options
 )
         
-logcat
-=
-dm
-.
-getLogcat
-(
-)
-      
 except
 :
-        
+            
 print
 "
 TEST
@@ -4376,44 +4364,55 @@ exc_info
 [
 1
 ]
-        
+            
 mochitest
 .
 stopWebServer
 (
 options
 )
-        
+            
 mochitest
 .
 stopWebSocketServer
 (
 options
 )
-        
+            
 try
 :
-            
-self
+                
+mochitest
 .
 cleanup
 (
 None
 options
 )
-        
-except
-:
             
-pass
-        
-sys
+except
+devicemanager
 .
-exit
-(
+DMError
+:
+                
+pass
+            
+retVal
+=
 1
-)
     
+try
+:
+        
+logcat
+=
+dm
+.
+getLogcat
+(
+)
+        
 print
 '
 '
@@ -4429,13 +4428,33 @@ logcat
 1
 ]
 )
-    
+        
 print
 dm
 .
 getInfo
 (
 )
+    
+except
+devicemanager
+.
+DMError
+:
+        
+print
+"
+WARNING
+:
+Error
+getting
+device
+information
+at
+end
+of
+test
+"
     
 sys
 .
