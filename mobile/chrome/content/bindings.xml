@@ -930,6 +930,17 @@ _selectedItem
 true
 )
 ;
+this
+.
+_scrollBoxObject
+.
+ensureElementIsVisible
+(
+this
+.
+_selectedItem
+)
+;
 }
 return
 this
