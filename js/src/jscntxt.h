@@ -5785,11 +5785,11 @@ ifdef
 DEBUG
 void
 *
-tracefp
+logfp
 ;
 jsbytecode
 *
-tracePrevPc
+logPrevPc
 ;
 #
 endif

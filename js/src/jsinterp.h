@@ -3479,7 +3479,7 @@ vp2
 extern
 JS_REQUIRES_STACK
 void
-js_TraceOpcode
+js_LogOpcode
 (
 JSContext
 *
