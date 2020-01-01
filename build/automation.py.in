@@ -492,6 +492,9 @@ IS_WIN32
 IS_MAC
 "
 "
+log
+"
+"
 runApp
 "
 "
