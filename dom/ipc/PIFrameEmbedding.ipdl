@@ -457,6 +457,15 @@ PDocumentRenderer
 ipdl
 "
 ;
+include
+"
+mozilla
+/
+TabTypes
+.
+h
+"
+;
 using
 PRUint32
 ;

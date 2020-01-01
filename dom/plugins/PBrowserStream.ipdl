@@ -431,6 +431,17 @@ PPluginInstance
 ipdl
 "
 ;
+include
+"
+mozilla
+/
+plugins
+/
+PluginMessageUtils
+.
+h
+"
+;
 using
 mozilla
 :
