@@ -948,11 +948,12 @@ IonFrame_JS
 {
 InlineFrameIterator
 ifi
-=
-InlineFrameIterator
 (
 &
 fiter
+MachineState
+(
+)
 )
 ;
 JS_ASSERT
