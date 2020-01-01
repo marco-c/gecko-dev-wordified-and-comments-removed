@@ -1127,7 +1127,7 @@ label
 =
 "
 &
-actionColumn
+actionColumn2
 .
 label
 ;
@@ -1141,7 +1141,7 @@ accesskey
 =
 "
 &
-actionColumn
+actionColumn2
 .
 accesskey
 ;
