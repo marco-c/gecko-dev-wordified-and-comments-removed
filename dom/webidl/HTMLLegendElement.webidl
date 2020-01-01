@@ -270,6 +270,9 @@ partial
 interface
 HTMLLegendElement
 {
+[
+SetterThrows
+]
 attribute
 DOMString
 align
