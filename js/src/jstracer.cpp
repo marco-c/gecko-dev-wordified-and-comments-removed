@@ -21721,19 +21721,8 @@ void
 TraceRecorder
 :
 :
-checkForGlobalObjectReallocation
+checkForGlobalObjectReallocationHelper
 (
-)
-{
-if
-(
-global_dslots
-!
-=
-globalObj
--
->
-dslots
 )
 {
 debug_only_print0
@@ -21880,7 +21869,6 @@ globalObj
 >
 dslots
 ;
-}
 }
 static
 JS_REQUIRES_STACK
@@ -54763,6 +54751,7 @@ argv
 ;
 JS_ASSERT
 (
+!
 fp
 -
 >
@@ -54770,7 +54759,7 @@ getThisValue
 (
 )
 .
-isObject
+isPrimitive
 (
 )
 )
@@ -54806,7 +54795,6 @@ failed
 ;
 JS_ASSERT
 (
-&
 fp
 -
 >
@@ -54814,7 +54802,7 @@ getThisValue
 (
 )
 .
-toObject
+toObjectOrNull
 (
 )
 =
@@ -54828,7 +54816,6 @@ this_ins
 =
 INS_CONSTOBJ
 (
-&
 fp
 -
 >
@@ -54836,7 +54823,7 @@ getThisValue
 (
 )
 .
-toObject
+toObjectOrNull
 (
 )
 )
@@ -54845,7 +54832,6 @@ return
 RECORD_CONTINUE
 ;
 }
-const
 Value
 &
 thisv
@@ -54968,9 +54954,8 @@ argv
 ]
 =
 =
-ObjectValue
+ObjectOrNullValue
 (
-*
 obj
 )
 )
