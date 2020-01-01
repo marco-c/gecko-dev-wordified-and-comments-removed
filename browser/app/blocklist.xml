@@ -34,7 +34,7 @@ blocklist
 lastupdate
 =
 "
-1356125617000
+1357164966000
 "
 >
 <
@@ -4322,7 +4322,15 @@ minVersion
 maxVersion
 =
 "
-*
+2
+.
+1
+.
+0
+.
+19
+.
+99
 "
 severity
 =
@@ -7410,7 +7418,7 @@ versionRange
 minVersion
 =
 "
-18
+19
 .
 0a1
 "
@@ -7531,7 +7539,7 @@ versionRange
 minVersion
 =
 "
-18
+19
 .
 0a1
 "
