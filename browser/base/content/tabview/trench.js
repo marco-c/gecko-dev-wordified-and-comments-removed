@@ -510,6 +510,9 @@ extent
 )
 ;
 }
+return
+true
+;
 }
 setWithRect
 :
