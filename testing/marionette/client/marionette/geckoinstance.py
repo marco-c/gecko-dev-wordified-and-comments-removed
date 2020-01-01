@@ -97,6 +97,9 @@ host
 port
 bin
 profile
+app_args
+=
+None
 )
 :
         
@@ -123,6 +126,15 @@ self
 profile
 =
 profile
+        
+self
+.
+app_args
+=
+app_args
+or
+[
+]
         
 self
 .
@@ -262,6 +274,10 @@ remote
 marionette
 '
 ]
++
+self
+.
+app_args
             
 kp_kwargs
 =

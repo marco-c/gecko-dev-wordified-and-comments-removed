@@ -1423,6 +1423,9 @@ port
 app
 =
 None
+app_args
+=
+None
 bin
 =
 None
@@ -1493,12 +1496,6 @@ self
 local_port
 =
 port
-        
-self
-.
-app
-=
-app
         
 self
 .
@@ -1733,6 +1730,9 @@ profile
 self
 .
 profile
+app_args
+=
+app_args
 )
             
 self
