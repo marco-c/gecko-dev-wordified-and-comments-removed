@@ -1305,10 +1305,6 @@ JSContext
 *
 cx
 =
-(
-JSContext
-*
-)
 aScriptContext
 -
 >

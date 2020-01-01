@@ -1221,10 +1221,6 @@ nsnull
 )
 ;
 return
-(
-JSContext
-*
-)
 scx
 -
 >

@@ -2956,10 +2956,6 @@ pusher
 .
 Push
 (
-(
-JSContext
-*
-)
 context
 -
 >

@@ -4046,10 +4046,6 @@ JAVASCRIPT
 {
 cx
 =
-(
-JSContext
-*
-)
 context
 -
 >

@@ -24862,10 +24862,6 @@ else
 {
 my_cx
 =
-(
-JSContext
-*
-)
 my_context
 -
 >
@@ -36311,10 +36307,6 @@ mContext
 {
 cx
 =
-(
-JSContext
-*
-)
 mContext
 -
 >

@@ -4948,10 +4948,6 @@ JSContext
 *
 jscontext
 =
-(
-JSContext
-*
-)
 context
 -
 >

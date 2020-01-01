@@ -1,9 +1,9 @@
 #
 ifndef
-nsJSEnvironment_h___
+nsJSEnvironment_h
 #
 define
-nsJSEnvironment_h___
+nsJSEnvironment_h
 #
 include
 "
@@ -372,7 +372,7 @@ GetGlobalObject
 )
 ;
 virtual
-void
+JSContext
 *
 GetNativeContext
 (
