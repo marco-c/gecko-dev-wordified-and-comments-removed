@@ -2461,7 +2461,7 @@ mimetype
 getAddon
 :
 function
-AM_getAdon
+AM_getAddon
 (
 id
 callback
