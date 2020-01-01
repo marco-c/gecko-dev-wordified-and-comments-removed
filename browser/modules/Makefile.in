@@ -132,6 +132,10 @@ webappsUI
 .
 jsm
 \
+webrtcUI
+.
+jsm
+\
 (
 NULL
 )
