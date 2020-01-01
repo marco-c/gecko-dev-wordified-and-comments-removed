@@ -3094,14 +3094,7 @@ Refresh
 (
 view
 aRegion
-(
-aFlags
-&
-nsIWidgetListener
-:
-:
-WILL_SEND_DID_PAINT
-)
+true
 )
 ;
 }

@@ -8706,15 +8706,7 @@ true
 uint32_t
 flags
 =
-nsIWidgetListener
-:
-:
-SENT_WILL_PAINT
-|
-nsIWidgetListener
-:
-:
-WILL_SEND_DID_PAINT
+0
 ;
 if
 (
