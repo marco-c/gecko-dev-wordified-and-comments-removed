@@ -44,9 +44,8 @@ ScriptDebugPrologue
 JSContext
 *
 cx
-StackFrame
-*
-fp
+AbstractFramePtr
+frame
 )
 ;
 extern
@@ -56,9 +55,8 @@ ScriptDebugEpilogue
 JSContext
 *
 cx
-StackFrame
-*
-fp
+AbstractFramePtr
+frame
 bool
 ok
 )
