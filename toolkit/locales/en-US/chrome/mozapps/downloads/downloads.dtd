@@ -441,12 +441,12 @@ y
 ENTITY
 cmd
 .
-cleanUp
+clearList
 .
 label
 "
-Clean
-Up
+Clear
+List
 "
 >
 <
@@ -454,7 +454,7 @@ Up
 ENTITY
 cmd
 .
-cleanUp
+clearList
 .
 tooltip
 "
@@ -474,7 +474,7 @@ list
 ENTITY
 cmd
 .
-cleanUp
+clearList
 .
 accesskey
 "
