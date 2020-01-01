@@ -93,7 +93,7 @@ static
 void
 InformAllocation
 (
-ssize_t
+PRUint64
 bytes
 )
 ;
@@ -200,7 +200,7 @@ bool
 sDiscardRunnablePending
 ;
 static
-ssize_t
+PRUint64
 sCurrentDecodedImageBytes
 ;
 static
