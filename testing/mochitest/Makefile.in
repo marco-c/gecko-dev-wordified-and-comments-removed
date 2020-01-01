@@ -753,6 +753,11 @@ crashinjectdll
 DLL_SUFFIX
 )
 \
+vmwarerecordinghelper
+(
+DLL_SUFFIX
+)
+\
 (
 NULL
 )
