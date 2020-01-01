@@ -1635,7 +1635,7 @@ SkMatrix
 .
 cpp
 \
-SkMemory_stdlib
+SkMemory_malloc
 .
 cpp
 \
