@@ -1175,14 +1175,25 @@ UPLOAD_PATH
     
 port
 =
-int
-(
 OptionalEnvironmentVariable
 (
 '
 UPLOAD_PORT
 '
 )
+    
+if
+port
+is
+not
+None
+:
+        
+port
+=
+int
+(
+port
 )
     
 key
@@ -1221,6 +1232,13 @@ FixupMsysPath
 path
 )
         
+if
+post_upload_command
+is
+not
+None
+:
+            
 post_upload_command
 =
 FixupMsysPath
