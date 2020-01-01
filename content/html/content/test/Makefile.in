@@ -1662,10 +1662,6 @@ test_mozaudiochannel
 .
 html
 \
-test_mozLoadFrom
-.
-html
-\
 test_style_attributes_reflection
 .
 html
