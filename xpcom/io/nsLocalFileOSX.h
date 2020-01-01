@@ -210,16 +210,6 @@ mFollowLinks
 PRPackedBool
 mFollowLinksDirty
 ;
-static
-const
-char
-kPathSepChar
-;
-static
-const
-PRInt64
-kJanuaryFirst1970Seconds
-;
 }
 ;
 #
