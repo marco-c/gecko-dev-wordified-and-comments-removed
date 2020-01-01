@@ -5560,9 +5560,6 @@ DelayedEditorInit
 (
 )
 {
-nsAutoScriptBlocker
-scriptBlocker
-;
 nsCxPusher
 pusher
 ;
