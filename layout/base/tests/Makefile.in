@@ -551,6 +551,10 @@ bug
 492575
 )
 \
+test_bug370436
+.
+html
+\
 test_bug386575
 .
 xhtml
