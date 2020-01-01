@@ -147,7 +147,7 @@ h
 "
 #
 ifdef
-XP_MACOSX
+MOZ_WIDGET_COCOA
 #
 include
 <
@@ -217,7 +217,7 @@ NS_WIN_APPDATA_DIR
 elif
 defined
 (
-XP_MACOSX
+MOZ_WIDGET_COCOA
 )
 #
 define
@@ -451,7 +451,7 @@ NS_OK
 elif
 defined
 (
-XP_MACOSX
+MOZ_WIDGET_COCOA
 )
 CFBundleRef
 appBundle
@@ -2549,7 +2549,7 @@ localFile
 if
 defined
 (
-XP_MACOSX
+MOZ_WIDGET_COCOA
 )
 else
 if

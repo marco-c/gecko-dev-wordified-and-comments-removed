@@ -479,7 +479,7 @@ h
 endif
 #
 ifdef
-XP_MACOSX
+MOZ_WIDGET_COCOA
 #
 include
 "
@@ -801,7 +801,7 @@ Init
 )
 #
 ifdef
-XP_MACOSX
+MOZ_WIDGET_COCOA
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsMacUtilsImpl

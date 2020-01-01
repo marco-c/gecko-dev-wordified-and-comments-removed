@@ -336,8 +336,11 @@ nsWindowsRegKeyConstructor
 #
 endif
 #
-ifdef
-XP_MACOSX
+if
+defined
+(
+MOZ_WIDGET_COCOA
+)
 COMPONENT
 (
 MACUTILSIMPL

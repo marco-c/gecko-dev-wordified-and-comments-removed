@@ -20,7 +20,7 @@ h
 "
 #
 ifdef
-XP_MACOSX
+MOZ_WIDGET_COCOA
 #
 include
 <
@@ -277,7 +277,7 @@ aFile
 ;
 #
 ifdef
-XP_MACOSX
+MOZ_WIDGET_COCOA
 nsresult
 GetOSXFolderType
 (

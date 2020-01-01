@@ -43,7 +43,7 @@ h
 elif
 defined
 (
-XP_MACOSX
+MOZ_WIDGET_COCOA
 )
 #
 include
@@ -2008,7 +2008,7 @@ dwMinorVersion
 elif
 defined
 (
-XP_MACOSX
+MOZ_WIDGET_COCOA
 )
 SInt32
 majorVersion
