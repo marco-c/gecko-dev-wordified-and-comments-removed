@@ -9899,6 +9899,13 @@ pnright
 pn
 -
 >
+pn_used
+?
+NULL
+:
+pn
+-
+>
 pn_expr
 ;
 }
