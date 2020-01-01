@@ -3510,9 +3510,8 @@ parentsFirstChild
 parent
 -
 >
-GetChildAt
+GetFirstChild
 (
-0
 )
 ;
 if
@@ -3530,12 +3529,11 @@ TextIsOnlyWhitespace
 {
 parentsFirstChild
 =
-parent
+parentsFirstChild
 -
 >
-GetChildAt
+GetNextSibling
 (
-1
 )
 ;
 }
