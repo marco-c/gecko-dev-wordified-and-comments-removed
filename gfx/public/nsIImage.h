@@ -193,7 +193,7 @@ GetAlphaLineStride
 0
 ;
 virtual
-void
+nsresult
 ImageUpdated
 (
 nsIDeviceContext

@@ -292,10 +292,17 @@ mFrame
 )
 )
 ;
+nsresult
+rv
+=
+NS_OK
+;
 if
 (
 img
 )
+rv
+=
 img
 -
 >
@@ -424,7 +431,7 @@ mDecodingAndMask
 PR_FALSE
 ;
 return
-NS_OK
+rv
 ;
 }
 NS_IMETHODIMP

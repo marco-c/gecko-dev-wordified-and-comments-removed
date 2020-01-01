@@ -140,12 +140,12 @@ EndImageFrame
 (
 )
 ;
-void
+nsresult
 FlushImageData
 (
 )
 ;
-void
+nsresult
 FlushImageData
 (
 PRUint32

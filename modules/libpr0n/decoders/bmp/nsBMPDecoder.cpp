@@ -3081,6 +3081,8 @@ rv
 rv
 )
 ;
+rv
+=
 img
 -
 >
@@ -3091,6 +3093,16 @@ nsImageUpdateFlags_kBitsChanged
 &
 r
 )
+;
+if
+(
+NS_FAILED
+(
+rv
+)
+)
+return
+rv
 ;
 mObserver
 -

@@ -162,7 +162,7 @@ GetIsImageComplete
 )
 ;
 virtual
-void
+nsresult
 ImageUpdated
 (
 nsIDeviceContext
