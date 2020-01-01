@@ -78,6 +78,12 @@ node
 )
 ;
 static
+nsresult
+Initialize
+(
+)
+;
+static
 void
 Shutdown
 (
@@ -124,12 +130,6 @@ Run
 )
 ;
 }
-;
-static
-nsresult
-Initialize
-(
-)
 ;
 static
 void
@@ -196,7 +196,7 @@ bool
 sTimerOn
 ;
 static
-bool
+PRInt32
 sDiscardRunnablePending
 ;
 static
@@ -210,6 +210,11 @@ sMinDiscardTimeoutMs
 static
 PRUint32
 sMaxDecodedImageKB
+;
+static
+PRLock
+*
+sAllocationLock
 ;
 }
 ;
