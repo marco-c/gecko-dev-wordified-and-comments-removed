@@ -340,6 +340,8 @@ aPresShell
 nsStyleContext
 *
 aContext
+PRUint32
+aFlags
 )
 ;
 nsIFrame
@@ -378,6 +380,7 @@ NS_NewMathMLmathBlockFrame
 (
 aPresShell
 aContext
+0
 )
 :
 NS_NewMathMLmathInlineFrame

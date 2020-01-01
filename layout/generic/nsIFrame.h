@@ -113,6 +113,9 @@ class
 gfxSkipCharsIterator
 ;
 class
+gfxContext
+;
+class
 nsLineList_iterator
 ;
 struct
@@ -2497,6 +2500,16 @@ aShrinkWrap
 )
 =
 0
+;
+virtual
+nsRect
+ComputeTightBounds
+(
+gfxContext
+*
+aContext
+)
+const
 ;
 NS_IMETHOD
 WillReflow

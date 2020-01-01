@@ -627,6 +627,16 @@ nsIRenderingContext
 aRenderingContext
 )
 ;
+virtual
+nsRect
+ComputeTightBounds
+(
+gfxContext
+*
+aContext
+)
+const
+;
 NS_IMETHOD
 Reflow
 (

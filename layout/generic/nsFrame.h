@@ -1084,6 +1084,15 @@ PRBool
 aShrinkWrap
 )
 ;
+nsRect
+ComputeSimpleTightBounds
+(
+gfxContext
+*
+aContext
+)
+const
+;
 virtual
 nsSize
 ComputeAutoSize
@@ -1822,6 +1831,7 @@ PRBool
 HasBorder
 (
 )
+const
 ;
 nsresult
 DisplaySelectionOverlay
