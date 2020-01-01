@@ -107,6 +107,14 @@ nsCSSProperty
 aProperty
 )
 ;
+PRBool
+HasProperty
+(
+nsCSSProperty
+aProperty
+)
+const
+;
 void
 GetValue
 (
