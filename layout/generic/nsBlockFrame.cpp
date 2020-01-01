@@ -5151,11 +5151,6 @@ n
 #
 endif
 }
-CheckFloats
-(
-state
-)
-;
 if
 (
 HasOutsideBullet
@@ -5352,6 +5347,11 @@ bbox
 ;
 }
 }
+CheckFloats
+(
+state
+)
+;
 nscoord
 bottomEdgeOfChildren
 ;
