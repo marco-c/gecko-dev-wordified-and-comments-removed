@@ -2749,6 +2749,14 @@ GetInt
 kHangUITimeoutPref
 0
 )
+Preferences
+:
+:
+GetInt
+(
+kChildTimeoutPref
+0
+)
 )
 ;
 nsAutoString

@@ -72,6 +72,9 @@ aModule
 const
 int32_t
 aHangUITimeoutPref
+const
+int32_t
+aChildTimeoutPref
 )
 ;
 virtual
@@ -216,6 +219,10 @@ const
 uint32_t
 mTimeoutPrefMs
 ;
+const
+uint32_t
+mIPCTimeoutMs
+;
 MessageLoop
 *
 mMainThreadMessageLoop
@@ -251,11 +258,6 @@ mResponseTicks
 ;
 MiniShmParent
 mMiniShm
-;
-static
-const
-DWORD
-kTimeout
 ;
 DISALLOW_COPY_AND_ASSIGN
 (

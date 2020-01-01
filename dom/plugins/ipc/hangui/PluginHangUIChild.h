@@ -198,6 +198,9 @@ mParentProcess
 HANDLE
 mRegWaitProcess
 ;
+DWORD
+mIPCTimeoutMs
+;
 MiniShmChild
 mMiniShm
 ;
@@ -205,16 +208,6 @@ static
 const
 int
 kExpectedMinimumArgc
-;
-static
-const
-DWORD
-kProcessTimeout
-;
-static
-const
-DWORD
-kShmTimeout
 ;
 typedef
 HRESULT
