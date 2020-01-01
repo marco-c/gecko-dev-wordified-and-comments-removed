@@ -9307,10 +9307,11 @@ run
 if
 (
 !
-oldURL
+TextUtils
 .
 equals
 (
+oldURL
 tab
 .
 getURL
