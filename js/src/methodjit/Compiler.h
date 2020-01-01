@@ -378,6 +378,11 @@ size
 )
 ;
 void
+restoreFrameRegs
+(
+)
+;
+void
 jsop_bindname
 (
 uint32
@@ -401,6 +406,13 @@ index
 void
 emitReturn
 (
+)
+;
+void
+dispatchCall
+(
+VoidPtrStubUInt32
+stub
 )
 ;
 void
@@ -466,6 +478,11 @@ VoidStubUInt32
 STUB_CALL_TYPE
 (
 VoidStub
+)
+;
+STUB_CALL_TYPE
+(
+VoidPtrStubUInt32
 )
 ;
 #
