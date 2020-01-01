@@ -5724,7 +5724,7 @@ max
 -
 connections
 "
-30
+256
 )
 ;
 pref
