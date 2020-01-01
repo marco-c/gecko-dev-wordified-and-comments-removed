@@ -50,9 +50,6 @@ SOURCE_ROOT
 /
 '
 var
-functionName
-;
-var
 functionBodies
 ;
 if
@@ -1236,15 +1233,6 @@ edge
 {
 if
 (
-functionName
-in
-suppressedFunctions
-)
-return
-false
-;
-if
-(
 edge
 .
 Kind
@@ -1573,6 +1561,7 @@ edge
 function
 variableUseFollowsGC
 (
+suppressed
 variable
 worklist
 )
@@ -1947,6 +1936,10 @@ body
 .
 suppressed
 )
+&
+&
+!
+suppressed
 )
 {
 var
@@ -2132,6 +2125,7 @@ null
 function
 variableLiveAcrossGC
 (
+suppressed
 variable
 )
 {
@@ -2234,6 +2228,7 @@ call
 =
 variableUseFollowsGC
 (
+suppressed
 variable
 worklist
 )
@@ -2255,6 +2250,7 @@ null
 function
 unsafeVariableAddressTaken
 (
+suppressed
 variable
 )
 {
@@ -2310,9 +2306,15 @@ Assign
 "
 |
 |
+(
+!
+suppressed
+&
+&
 edgeCanGC
 (
 edge
+)
 )
 )
 return
@@ -2340,6 +2342,7 @@ null
 function
 computePrintedLines
 (
+functionName
 )
 {
 assert
@@ -2676,6 +2679,7 @@ return
 function
 printEntryTrace
 (
+functionName
 entry
 )
 {
@@ -2691,6 +2695,7 @@ lines
 )
 computePrintedLines
 (
+functionName
 )
 ;
 while
@@ -3031,6 +3036,7 @@ return
 function
 processBodies
 (
+functionName
 )
 {
 if
@@ -3048,6 +3054,15 @@ functionBodies
 )
 )
 return
+;
+var
+suppressed
+=
+(
+functionName
+in
+suppressedFunctions
+)
 ;
 for
 (
@@ -3126,6 +3141,7 @@ if
 !
 variableLiveAcrossGC
 (
+suppressed
 variable
 .
 Variable
@@ -3232,6 +3248,7 @@ result
 =
 variableLiveAcrossGC
 (
+suppressed
 variable
 .
 Variable
@@ -3324,6 +3341,7 @@ lineText
 ;
 printEntryTrace
 (
+functionName
 result
 .
 why
@@ -3334,6 +3352,7 @@ result
 =
 unsafeVariableAddressTaken
 (
+suppressed
 variable
 .
 Variable
@@ -3395,6 +3414,7 @@ lineText
 ;
 printEntryTrace
 (
+functionName
 {
 body
 :
@@ -3551,6 +3571,7 @@ read_key
 nameIndex
 )
 ;
+var
 functionName
 =
 name
@@ -3610,6 +3631,7 @@ body
 ;
 processBodies
 (
+functionName
 )
 ;
 xdb
