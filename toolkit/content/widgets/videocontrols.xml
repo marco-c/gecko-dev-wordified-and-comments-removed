@@ -10658,6 +10658,12 @@ clickToPlay
 shouldShow
 &
 &
+!
+this
+.
+isAudioOnly
+&
+&
 this
 .
 video

@@ -482,6 +482,10 @@ test_videocontrols_audio_direction
 .
 html
 \
+test_audiocontrols_dimensions
+.
+html
+\
 videocontrols_direction
 -
 1
