@@ -998,6 +998,11 @@ aPrevSibling
 #
 ifdef
 IBMBIDI
+nsresult
+ResolveBidi
+(
+)
+;
 PRBool
 IsVisualFormControl
 (
