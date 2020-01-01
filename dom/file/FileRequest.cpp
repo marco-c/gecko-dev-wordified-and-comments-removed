@@ -522,7 +522,6 @@ NS_IMPL_EVENT_HANDLER
 FileRequest
 progress
 )
-;
 void
 FileRequest
 :
