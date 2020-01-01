@@ -448,7 +448,7 @@ rc
 SQLITE_OK
 )
 return
-ConvertResultCode
+convertResultCode
 (
 rc
 )
@@ -469,7 +469,7 @@ rc
 SQLITE_OK
 )
 return
-ConvertResultCode
+convertResultCode
 (
 rc
 )
@@ -491,7 +491,7 @@ rc
 SQLITE_OK
 )
 return
-ConvertResultCode
+convertResultCode
 (
 rc
 )
@@ -857,7 +857,7 @@ rc
 SQLITE_OK
 )
 return
-ConvertResultCode
+convertResultCode
 (
 rc
 )
@@ -889,7 +889,7 @@ rc
 SQLITE_OK
 )
 return
-ConvertResultCode
+convertResultCode
 (
 rc
 )

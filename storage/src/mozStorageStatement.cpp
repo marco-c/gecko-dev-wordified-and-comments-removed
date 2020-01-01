@@ -1134,7 +1134,7 @@ nsnull
 ;
 }
 return
-ConvertResultCode
+convertResultCode
 (
 srv
 )
@@ -1530,7 +1530,7 @@ mDBStatement
 )
 )
 ;
-CheckAndLogStatementPerformance
+checkAndLogStatementPerformance
 (
 mDBStatement
 )
@@ -1603,7 +1603,7 @@ SQLITE_TRANSIENT
 )
 ;
 return
-ConvertResultCode
+convertResultCode
 (
 srv
 )
@@ -1659,7 +1659,7 @@ SQLITE_TRANSIENT
 )
 ;
 return
-ConvertResultCode
+convertResultCode
 (
 srv
 )
@@ -1698,7 +1698,7 @@ aValue
 )
 ;
 return
-ConvertResultCode
+convertResultCode
 (
 srv
 )
@@ -1737,7 +1737,7 @@ aValue
 )
 ;
 return
-ConvertResultCode
+convertResultCode
 (
 srv
 )
@@ -1776,7 +1776,7 @@ aValue
 )
 ;
 return
-ConvertResultCode
+convertResultCode
 (
 srv
 )
@@ -1812,7 +1812,7 @@ aParamIndex
 )
 ;
 return
-ConvertResultCode
+convertResultCode
 (
 srv
 )
@@ -1857,7 +1857,7 @@ SQLITE_TRANSIENT
 )
 ;
 return
-ConvertResultCode
+convertResultCode
 (
 srv
 )
@@ -2084,7 +2084,7 @@ PR_FALSE
 ;
 }
 return
-ConvertResultCode
+convertResultCode
 (
 srv
 )

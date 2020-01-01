@@ -862,7 +862,7 @@ false
 #
 ifdef
 DEBUG
-CheckAndLogStatementPerformance
+checkAndLogStatementPerformance
 (
 aStatement
 )
