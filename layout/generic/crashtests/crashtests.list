@@ -2375,3 +2375,17 @@ load
 667025
 .
 html
+asserts
+(
+14
+)
+load
+673770
+.
+html
+#
+bug
+569193
+and
+bug
+459597
