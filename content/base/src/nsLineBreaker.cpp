@@ -795,7 +795,7 @@ currentStart
 =
 breakState
 [
-offset
+wordStart
 ]
 ;
 nsContentUtils
@@ -820,12 +820,12 @@ Elements
 (
 )
 +
-offset
+wordStart
 )
 ;
 breakState
 [
-offset
+wordStart
 ]
 =
 currentStart
