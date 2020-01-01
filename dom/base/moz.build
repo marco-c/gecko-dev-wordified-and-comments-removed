@@ -202,11 +202,6 @@ nsDOMJSUtils
 h
 '
 '
-nsDOMNavigationTiming
-.
-h
-'
-'
 nsDOMString
 .
 h
@@ -298,11 +293,6 @@ h
 '
 '
 nsPIWindowRoot
-.
-h
-'
-'
-nsPerformance
 .
 h
 '
