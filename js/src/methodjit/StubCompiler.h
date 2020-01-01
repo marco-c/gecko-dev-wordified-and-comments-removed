@@ -271,6 +271,15 @@ buffer
 )
 ;
 }
+Call
+vpInc
+(
+JSOp
+op
+uint32
+depth
+)
+;
 JSC
 :
 :
@@ -391,8 +400,6 @@ emitStubCall
 void
 *
 ptr
-uint32
-id
 )
 ;
 Call
@@ -403,8 +410,6 @@ void
 ptr
 int32
 slots
-uint32
-id
 )
 ;
 }

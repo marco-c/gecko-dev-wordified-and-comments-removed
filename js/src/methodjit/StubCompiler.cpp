@@ -627,8 +627,6 @@ emitStubCall
 void
 *
 ptr
-uint32
-id
 )
 {
 return
@@ -645,7 +643,6 @@ script
 -
 >
 nfixed
-id
 )
 ;
 }
@@ -666,8 +663,6 @@ void
 ptr
 int32
 slots
-uint32
-id
 )
 {
 JaegerSpew
@@ -745,7 +740,10 @@ cc
 getPC
 (
 )
-id
+(
+size_t
+)
+ptr
 true
 true
 )
@@ -1060,7 +1058,6 @@ void
 stub
 )
 slots
-__LINE__
 )
 ;
 }

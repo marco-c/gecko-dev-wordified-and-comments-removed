@@ -1538,6 +1538,15 @@ VMFrame
 f
 )
 ;
+void
+JS_FASTCALL
+NegZeroHelper
+(
+VMFrame
+&
+f
+)
+;
 }
 template
 <
