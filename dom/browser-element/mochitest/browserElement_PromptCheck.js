@@ -9,14 +9,14 @@ waitForExplicitFinish
 (
 )
 ;
-browserFrameHelpers
+browserElementTestHelpers
 .
 setEnabledPref
 (
 true
 )
 ;
-browserFrameHelpers
+browserElementTestHelpers
 .
 addToWhitelist
 (
