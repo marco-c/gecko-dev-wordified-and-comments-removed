@@ -75,6 +75,13 @@ NativeState
 )
 ;
 virtual
+PRUint64
+NativeLinkState
+(
+)
+const
+;
+virtual
 PRUint8
 ActionCount
 (

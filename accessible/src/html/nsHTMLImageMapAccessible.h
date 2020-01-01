@@ -179,12 +179,6 @@ aName
 )
 ;
 virtual
-PRUint64
-NativeState
-(
-)
-;
-virtual
 nsAccessible
 *
 ChildAtPoint
