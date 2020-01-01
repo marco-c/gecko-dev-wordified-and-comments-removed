@@ -696,8 +696,6 @@ f
 bool
 ifop
 (
-bool
-sense
 )
 ;
 bool
