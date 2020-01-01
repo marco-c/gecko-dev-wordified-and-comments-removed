@@ -6719,6 +6719,15 @@ _activeCall
 =
 null
 ;
+}
+if
+(
+!
+this
+.
+_activeCall
+)
+{
 gAudioManager
 .
 phoneState
