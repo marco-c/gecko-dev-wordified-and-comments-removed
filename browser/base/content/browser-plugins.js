@@ -4549,13 +4549,6 @@ true
 ;
 if
 (
-!
-isElementVisible
-(
-gURLBar
-)
-|
-|
 aPrimaryPlugin
 )
 dismissed
