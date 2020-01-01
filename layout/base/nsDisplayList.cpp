@@ -5374,6 +5374,15 @@ IsChrome
 )
 &
 &
+!
+aItem
+-
+>
+GetChildren
+(
+)
+&
+&
 f
 -
 >
