@@ -3277,6 +3277,10 @@ mMayHaveAudioAvailableEventListener
 (
 PR_FALSE
 )
+mMayHaveMouseEnterLeaveEventListener
+(
+PR_FALSE
+)
 mIsModalContentWindow
 (
 PR_FALSE
