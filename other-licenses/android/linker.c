@@ -13977,7 +13977,7 @@ map
 >
 l_name
 "
-libmozutils
+libmozglue
 .
 so
 "

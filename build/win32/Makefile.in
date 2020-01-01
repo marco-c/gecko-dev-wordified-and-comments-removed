@@ -473,7 +473,7 @@ cpp
 endif
 #
 ENABLE_TESTS
-MOZ_UTILS_LDFLAGS
+MOZ_GLUE_LDFLAGS
 =
 include
 (
