@@ -5339,15 +5339,6 @@ chrome
 Makefile
 toolkit
 /
-identity
-/
-tests
-/
-mochitest
-/
-Makefile
-toolkit
-/
 mozapps
 /
 downloads
