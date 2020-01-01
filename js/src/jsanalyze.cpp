@@ -510,7 +510,7 @@ debugMode
 script
 -
 >
-argumentsHasLocalBinding
+argumentsHasVarBinding
 (
 )
 )
@@ -779,7 +779,7 @@ bindingsAccessedDynamically
 script
 -
 >
-argumentsHasLocalBinding
+argumentsHasVarBinding
 (
 )
 |
@@ -9030,7 +9030,7 @@ JS_ASSERT
 script
 -
 >
-argumentsHasLocalBinding
+argumentsHasVarBinding
 (
 )
 )
