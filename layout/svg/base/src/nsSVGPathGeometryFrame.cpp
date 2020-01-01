@@ -326,6 +326,7 @@ GetAnimatedTransformList
 ;
 if
 (
+(
 list
 &
 &
@@ -338,6 +339,15 @@ GetAnimValue
 )
 .
 IsEmpty
+(
+)
+)
+|
+|
+content
+-
+>
+GetAnimateMotionTransform
 (
 )
 )

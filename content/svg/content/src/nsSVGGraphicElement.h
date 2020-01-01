@@ -108,6 +108,15 @@ eAllTransforms
 const
 ;
 virtual
+const
+gfxMatrix
+*
+GetAnimateMotionTransform
+(
+)
+const
+;
+virtual
 void
 SetAnimateMotionTransform
 (
