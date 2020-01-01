@@ -630,6 +630,13 @@ todo
 test
 .
 name
++
+"
+"
++
+test
+.
+diag
 ;
 }
 else
