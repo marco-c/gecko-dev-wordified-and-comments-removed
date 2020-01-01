@@ -4577,7 +4577,10 @@ state
 stopAtFrame
 nsnull
 nsnull
+PRPackedBool
+(
 seenTextRunBoundaryOnLaterLine
+)
 PR_FALSE
 PR_FALSE
 }
