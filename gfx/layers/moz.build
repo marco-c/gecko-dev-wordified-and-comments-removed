@@ -472,12 +472,12 @@ ShadowLayers
 h
 '
 '
-LayerTransactionChild
+ShadowLayersChild
 .
 h
 '
 '
-LayerTransactionParent
+ShadowLayersParent
 .
 h
 '

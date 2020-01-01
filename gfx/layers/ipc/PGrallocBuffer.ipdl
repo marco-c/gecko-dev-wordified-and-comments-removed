@@ -114,7 +114,7 @@ PImageBridge
 ;
 include
 protocol
-PLayerTransaction
+PLayers
 ;
 namespace
 mozilla
@@ -197,7 +197,7 @@ PImageContainer
 manager
 PImageBridge
 or
-PLayerTransaction
+PLayers
 ;
 /
 *

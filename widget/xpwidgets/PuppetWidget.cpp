@@ -74,7 +74,7 @@ mozilla
 /
 layers
 /
-PLayerTransactionChild
+PLayersChild
 .
 h
 "
@@ -1304,7 +1304,7 @@ PuppetWidget
 :
 GetLayerManager
 (
-PLayerTransactionChild
+PLayersChild
 *
 aShadowManager
 LayersBackend
