@@ -2878,13 +2878,15 @@ usageAtom
 ;
 DebugOnly
 <
-RawShape
+Shape
+*
 >
 shape
 =
 static_cast
 <
-RawShape
+Shape
+*
 >
 (
 callee

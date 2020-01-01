@@ -111,7 +111,8 @@ l
 )
 ;
 }
-RawShape
+Shape
+*
 PropertyTree
 :
 :
@@ -122,7 +123,8 @@ JSContext
 cx
 )
 {
-RawShape
+Shape
+*
 shape
 =
 js_NewGCShape
@@ -149,9 +151,11 @@ KidsHash
 *
 HashChildren
 (
-RawShape
+Shape
+*
 kid1
-RawShape
+Shape
+*
 kid2
 )
 {
@@ -228,9 +232,11 @@ insertChild
 JSContext
 *
 cx
-RawShape
+Shape
+*
 parent
-RawShape
+Shape
+*
 child
 )
 {
@@ -344,7 +350,8 @@ isShape
 )
 )
 {
-RawShape
+Shape
+*
 shape
 =
 kidp
@@ -464,7 +471,8 @@ Shape
 :
 removeChild
 (
-RawShape
+Shape
+*
 child
 )
 {
@@ -643,7 +651,8 @@ hash
 ;
 }
 }
-RawShape
+Shape
+*
 PropertyTree
 :
 :
@@ -664,7 +673,8 @@ child
 )
 {
 {
-RawShape
+Shape
+*
 shape
 =
 NULL
@@ -694,7 +704,8 @@ isShape
 )
 )
 {
-RawShape
+Shape
+*
 kid
 =
 kidp
@@ -907,7 +918,8 @@ cx
 parent_
 )
 ;
-RawShape
+Shape
+*
 shape
 =
 newShape
@@ -1047,7 +1059,8 @@ KidsPointer
 :
 checkConsistency
 (
-RawShape
+Shape
+*
 aKid
 )
 const
@@ -1626,7 +1639,8 @@ isShape
 )
 )
 {
-RawShape
+Shape
+*
 kid
 =
 kids
@@ -1699,7 +1713,8 @@ popFront
 )
 )
 {
-RawShape
+Shape
+*
 kid
 =
 range

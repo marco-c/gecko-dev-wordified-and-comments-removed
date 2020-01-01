@@ -7294,7 +7294,8 @@ AutoShapeVector
 public
 AutoVectorRooter
 <
-RawShape
+Shape
+*
 >
 {
 public
@@ -7310,7 +7311,8 @@ MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 :
 AutoVectorRooter
 <
-RawShape
+Shape
+*
 >
 (
 cx

@@ -11353,7 +11353,8 @@ i
 +
 )
 {
-RawShape
+Shape
+*
 shape
 =
 this

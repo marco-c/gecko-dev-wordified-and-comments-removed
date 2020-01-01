@@ -1219,7 +1219,8 @@ return
 true
 ;
 }
-RawShape
+Shape
+*
 RegExpObject
 :
 :

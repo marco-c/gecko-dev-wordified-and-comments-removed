@@ -8858,7 +8858,8 @@ Uses
 )
 )
 ;
-RawShape
+Shape
+*
 shape
 =
 GetDenseArrayShape
@@ -12371,7 +12372,8 @@ slowPathStart
 )
 ;
 }
-RawShape
+Shape
+*
 shape
 =
 GetDenseArrayShape

@@ -7644,7 +7644,8 @@ return
 NULL
 ;
 }
-RawShape
+Shape
+*
 nshape
 =
 shape
@@ -16278,7 +16279,8 @@ return
 true
 ;
 }
-RawShape
+Shape
+*
 js_AddNativeProperty
 (
 JSContext
@@ -16315,7 +16317,8 @@ id
 return
 NULL
 ;
-RawShape
+Shape
+*
 shape
 =
 JSObject
@@ -17929,7 +17932,8 @@ return
 true
 ;
 }
-RawShape
+Shape
+*
 shape
 ;
 if
@@ -18096,7 +18100,8 @@ return
 true
 ;
 }
-RawShape
+Shape
+*
 shape
 =
 current
@@ -23199,7 +23204,8 @@ true
 }
 if
 (
-RawShape
+Shape
+*
 shape
 =
 obj
@@ -25027,7 +25033,8 @@ trc
 debugPrintIndex
 )
 ;
-RawShape
+Shape
+*
 shape
 ;
 if
@@ -26841,7 +26848,8 @@ n
 ;
 Vector
 <
-RawShape
+Shape
+*
 8
 SystemAllocPolicy
 >

@@ -738,7 +738,8 @@ HAS_SHORTID
 frameIndex
 )
 ;
-RawShape
+Shape
+*
 shape
 =
 self

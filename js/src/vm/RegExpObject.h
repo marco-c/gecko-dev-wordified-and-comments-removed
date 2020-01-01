@@ -1473,7 +1473,8 @@ friend
 class
 RegExpObjectBuilder
 ;
-RawShape
+Shape
+*
 assignInitialShape
 (
 JSContext

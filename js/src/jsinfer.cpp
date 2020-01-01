@@ -4665,7 +4665,8 @@ target
 }
 static
 inline
-RawShape
+Shape
+*
 GetSingletonShape
 (
 JSContext
@@ -4697,7 +4698,8 @@ cx
 idArg
 )
 ;
-RawShape
+Shape
+*
 shape
 =
 obj
@@ -4824,7 +4826,8 @@ JSVAL_TYPE_UNDEFINED
 )
 )
 ;
-RawShape
+Shape
+*
 shape
 =
 GetSingletonShape
@@ -17939,7 +17942,8 @@ TypeSet
 types
 RawObject
 obj
-RawShape
+Shape
+*
 shape
 bool
 force
@@ -18337,7 +18341,8 @@ cx
 id
 )
 ;
-RawShape
+Shape
+*
 shape
 =
 singleton
@@ -18672,7 +18677,8 @@ found
 =
 false
 ;
-RawShape
+Shape
+*
 shape
 =
 obj

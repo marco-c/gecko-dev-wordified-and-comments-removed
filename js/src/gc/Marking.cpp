@@ -189,7 +189,8 @@ PushMarkStack
 GCMarker
 *
 gcmarker
-RawShape
+Shape
+*
 thing
 )
 ;
@@ -258,7 +259,8 @@ MarkChildren
 JSTracer
 *
 trc
-RawShape
+Shape
+*
 shape
 )
 ;
@@ -1989,7 +1991,8 @@ MarkInternal
 trc
 reinterpret_cast
 <
-RawShape
+Shape
+*
 *
 >
 (
@@ -4219,7 +4222,8 @@ ScanShape
 GCMarker
 *
 gcmarker
-RawShape
+Shape
+*
 shape
 )
 ;
@@ -4230,7 +4234,8 @@ PushMarkStack
 GCMarker
 *
 gcmarker
-RawShape
+Shape
+*
 thing
 )
 {
@@ -4421,7 +4426,8 @@ ScanShape
 GCMarker
 *
 gcmarker
-RawShape
+Shape
+*
 shape
 )
 {
@@ -5301,7 +5307,8 @@ MarkChildren
 JSTracer
 *
 trc
-RawShape
+Shape
+*
 shape
 )
 {
@@ -5519,7 +5526,8 @@ MarkCycleCollectorChildren
 JSTracer
 *
 trc
-RawShape
+Shape
+*
 shape
 )
 {
@@ -7650,7 +7658,8 @@ this
 type
 )
 ;
-RawShape
+Shape
+*
 shape
 =
 obj
@@ -8112,7 +8121,8 @@ MarkChildren
 trc
 static_cast
 <
-RawShape
+Shape
+*
 >
 (
 thing

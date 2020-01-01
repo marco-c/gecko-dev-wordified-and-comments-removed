@@ -205,7 +205,8 @@ HandleObject
 global
 )
 ;
-RawShape
+Shape
+*
 assignInitialShape
 (
 JSContext

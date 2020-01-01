@@ -432,7 +432,8 @@ patchInlineShapeGuard
 Repatcher
 &
 repatcher
-RawShape
+Shape
+*
 shape
 )
 ;

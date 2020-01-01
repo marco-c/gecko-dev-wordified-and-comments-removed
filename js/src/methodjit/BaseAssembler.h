@@ -930,7 +930,8 @@ guardShape
 (
 RegisterID
 objReg
-RawShape
+Shape
+*
 shape
 )
 {
@@ -4517,7 +4518,8 @@ objReg
 js
 :
 :
-RawShape
+Shape
+*
 shape
 RegisterID
 typeReg

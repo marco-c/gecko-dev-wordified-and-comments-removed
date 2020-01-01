@@ -1719,7 +1719,8 @@ repatcher
 void
 setInlinePathShape
 (
-RawShape
+Shape
+*
 shape
 )
 {
@@ -1734,7 +1735,8 @@ inlinePathShape_
 shape
 ;
 }
-RawShape
+Shape
+*
 getSingleShape
 (
 )

@@ -1062,7 +1062,8 @@ MarkCycleCollectorChildren
 trc
 static_cast
 <
-RawShape
+Shape
+*
 >
 (
 shape

@@ -35805,7 +35805,8 @@ loadSlot
 MDefinition
 *
 obj
-RawShape
+Shape
+*
 shape
 MIRType
 rvalType
@@ -35994,7 +35995,8 @@ storeSlot
 MDefinition
 *
 obj
-RawShape
+Shape
+*
 shape
 MDefinition
 *
@@ -37393,7 +37395,8 @@ cx
 ;
 if
 (
-RawShape
+Shape
+*
 objShape
 =
 mjit
@@ -37525,7 +37528,8 @@ GETPROP
 "
 )
 ;
-RawShape
+Shape
+*
 objShape
 =
 shapes
@@ -37542,7 +37546,8 @@ objShape
 Bailout_CachedShapeGuard
 )
 ;
-RawShape
+Shape
+*
 shape
 =
 objShape
@@ -37646,7 +37651,8 @@ i
 +
 )
 {
-RawShape
+Shape
+*
 objShape
 =
 shapes
@@ -37654,7 +37660,8 @@ shapes
 i
 ]
 ;
-RawShape
+Shape
+*
 shape
 =
 objShape
@@ -38555,7 +38562,8 @@ cx
 ;
 if
 (
-RawShape
+Shape
+*
 objShape
 =
 mjit
@@ -38647,7 +38655,8 @@ SETPROP
 "
 )
 ;
-RawShape
+Shape
+*
 objShape
 =
 shapes
@@ -38664,7 +38673,8 @@ objShape
 Bailout_CachedShapeGuard
 )
 ;
-RawShape
+Shape
+*
 shape
 =
 objShape
@@ -38777,7 +38787,8 @@ i
 +
 )
 {
-RawShape
+Shape
+*
 objShape
 =
 shapes
@@ -38785,7 +38796,8 @@ shapes
 i
 ]
 ;
-RawShape
+Shape
+*
 shape
 =
 objShape
@@ -41050,8 +41062,9 @@ addShapeGuard
 MDefinition
 *
 obj
+Shape
+*
 const
-RawShape
 shape
 BailoutKind
 bailoutKind

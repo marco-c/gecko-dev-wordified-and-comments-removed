@@ -289,7 +289,8 @@ canonicalized
 )
 ;
 extern
-RawShape
+Shape
+*
 GetDenseArrayShape
 (
 JSContext

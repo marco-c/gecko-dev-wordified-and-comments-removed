@@ -7230,7 +7230,8 @@ offsetOfEnclosingScope
 reg
 )
 ;
-RawShape
+Shape
+*
 shape
 =
 ScopeCoordinateToStaticScopeShape

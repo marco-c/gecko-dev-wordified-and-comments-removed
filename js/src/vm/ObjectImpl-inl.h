@@ -197,7 +197,8 @@ inline
 js
 :
 :
-RawShape
+Shape
+*
 js
 :
 :
@@ -229,7 +230,8 @@ inline
 js
 :
 :
-RawShape
+Shape
+*
 js
 :
 :

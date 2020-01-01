@@ -174,7 +174,8 @@ next
 )
 )
 {
-RawShape
+Shape
+*
 shape
 ;
 if

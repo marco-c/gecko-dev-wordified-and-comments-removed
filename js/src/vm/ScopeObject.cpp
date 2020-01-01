@@ -311,7 +311,8 @@ isHeavyweight
 )
 ;
 }
-RawShape
+Shape
+*
 StaticScopeIter
 :
 :
@@ -459,7 +460,8 @@ nonLazyScript
 )
 ;
 }
-RawShape
+Shape
+*
 js
 :
 :
@@ -3570,7 +3572,8 @@ asStaticBlock
 )
 ;
 }
-RawShape
+Shape
+*
 StaticBlockObject
 :
 :
@@ -6318,7 +6321,8 @@ asClonedBlock
 )
 )
 ;
-RawShape
+Shape
+*
 shape
 =
 block
