@@ -1156,7 +1156,7 @@ range
 )
 globalHistory
 .
-removePagesByTimeframe
+removeVisitsByTimeframe
 (
 this
 .
