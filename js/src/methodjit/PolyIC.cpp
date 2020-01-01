@@ -848,6 +848,7 @@ getProto
 (
 )
 )
+scratchReg
 )
 ;
 }
@@ -881,6 +882,7 @@ type
 (
 )
 )
+scratchReg
 )
 ;
 }

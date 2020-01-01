@@ -1971,6 +1971,8 @@ AbsoluteAddress
 left
 ImmPtr
 right
+RegisterID
+scratch
 )
 {
 move
@@ -1981,7 +1983,7 @@ left
 .
 m_ptr
 )
-scratchRegister
+scratch
 )
 ;
 return
@@ -1990,7 +1992,7 @@ branchPtr
 cond
 Address
 (
-scratchRegister
+scratch
 )
 right
 )
