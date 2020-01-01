@@ -4676,6 +4676,12 @@ fireError
 "
 fireSuccess
 "
+"
+fireErrorAsync
+"
+"
+fireSuccessAsync
+"
 ]
 ;
 for
