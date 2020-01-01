@@ -723,6 +723,12 @@ so
 libnss3
 .
 so
+libnssdbm3
+.
+chk
+libnssdbm3
+.
+so
 libsmime3
 .
 so

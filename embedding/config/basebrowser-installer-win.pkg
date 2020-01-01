@@ -918,6 +918,12 @@ dll
 nss3
 .
 dll
+nssdbm3
+.
+chk
+nssdbm3
+.
+dll
 smime3
 .
 dll
