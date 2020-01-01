@@ -121,6 +121,7 @@ imgINotificationObserver
 ;
 [
 scriptable
+builtinclass
 uuid
 (
 98bd5bf9
