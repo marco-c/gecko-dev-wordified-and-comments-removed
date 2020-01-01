@@ -354,6 +354,7 @@ mElement
 SetInlineStyleRule
 (
 newRule
+nsnull
 true
 )
 ;
@@ -544,6 +545,7 @@ mElement
 SetInlineStyleRule
 (
 newRule
+nsnull
 false
 )
 ;

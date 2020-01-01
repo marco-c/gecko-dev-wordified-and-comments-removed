@@ -1631,6 +1631,10 @@ test_object_plugin_nav
 .
 html
 \
+test_bug742030
+.
+html
+\
 (
 NULL
 )
