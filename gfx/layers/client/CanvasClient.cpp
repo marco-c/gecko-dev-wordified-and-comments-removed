@@ -232,7 +232,7 @@ mTextureClient
 =
 CreateTextureClient
 (
-TEXTURE_SHMEM
+TEXTURE_CONTENT
 )
 ;
 MOZ_ASSERT
