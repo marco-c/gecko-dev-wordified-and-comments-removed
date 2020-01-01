@@ -155,6 +155,14 @@ DEFINES
 =
 -
 D_IMPL_NS_LAYOUT
+#
+Bug
+770046
+-
+Cannot
+fail
+.
+#
 MOCHITEST_FILES
 =
 test_ipc
