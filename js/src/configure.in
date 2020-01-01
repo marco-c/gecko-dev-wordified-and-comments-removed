@@ -15084,9 +15084,6 @@ lib
 advapi32
 .
 lib
-psapi
-.
-lib
 "
 MOZ_DEBUG_FLAGS
 =
