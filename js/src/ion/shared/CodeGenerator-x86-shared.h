@@ -567,15 +567,6 @@ comp
 ;
 virtual
 bool
-visitBitAndAndBranch
-(
-LBitAndAndBranch
-*
-baab
-)
-;
-virtual
-bool
 visitNotI
 (
 LNotI
