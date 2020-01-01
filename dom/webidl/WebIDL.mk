@@ -963,6 +963,10 @@ TimeRanges
 .
 webidl
 \
+TransitionEvent
+.
+webidl
+\
 TreeWalker
 .
 webidl
