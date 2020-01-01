@@ -4454,7 +4454,7 @@ ifdef
 __cplusplus
 JS_END_EXTERN_C
 namespace
-js
+JS
 {
 template
 <

@@ -8653,7 +8653,7 @@ f
 write
 (
 "
-js
+JS
 :
 :
 Anchor
@@ -9974,7 +9974,7 @@ f
 write
 (
 "
-js
+JS
 :
 :
 Anchor
