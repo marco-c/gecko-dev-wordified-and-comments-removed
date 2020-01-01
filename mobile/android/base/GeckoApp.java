@@ -715,8 +715,7 @@ private
 PromptService
 mPromptService
 ;
-public
-static
+protected
 DoorHangerPopup
 mDoorHangerPopup
 ;
@@ -724,7 +723,7 @@ protected
 FormAssistPopup
 mFormAssistPopup
 ;
-public
+protected
 TabsPanel
 mTabsPanel
 ;
