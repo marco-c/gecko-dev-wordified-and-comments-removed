@@ -8215,9 +8215,6 @@ if
 HasResizer
 (
 )
-&
-&
-mResizerBox
 )
 {
 rv
@@ -8248,6 +8245,14 @@ rv
 AppendToTop
 (
 aBuilder
+mIsRoot
+?
+aLists
+.
+PositionedDescendants
+(
+)
+:
 aLists
 .
 Content
