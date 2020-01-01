@@ -478,6 +478,8 @@ DEFINES
 =
 -
 DXPCOM_GLUE
+STL_FLAGS
+=
 export
 :
 :
