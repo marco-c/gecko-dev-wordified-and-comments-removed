@@ -1356,7 +1356,7 @@ InitProcessPriorityManager
 nsPermissionManager
 :
 :
-AppClearDataObserverInit
+AppUninstallObserverInit
 (
 )
 ;
