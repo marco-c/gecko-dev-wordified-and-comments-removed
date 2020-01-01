@@ -201,6 +201,16 @@ nsIRDFObserver
 {
 public
 :
+typedef
+nsTArray
+<
+nsCOMPtr
+<
+nsXULTemplateResultRDF
+>
+>
+ResultArray
+;
 nsXULTemplateQueryProcessorRDF
 (
 )
@@ -435,7 +445,7 @@ nsIDOMNode
 aRule
 )
 ;
-nsresult
+void
 AddBindingDependency
 (
 nsXULTemplateResultRDF
@@ -446,7 +456,7 @@ nsIRDFResource
 aResource
 )
 ;
-nsresult
+void
 RemoveBindingDependency
 (
 nsXULTemplateResultRDF
@@ -640,10 +650,7 @@ mLastRef
 nsClassHashtable
 <
 nsISupportsHashKey
-nsCOMArray
-<
-nsXULTemplateResultRDF
->
+ResultArray
 >
 mBindingDependencies
 ;
