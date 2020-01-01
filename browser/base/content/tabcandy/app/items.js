@@ -629,8 +629,9 @@ resizeInfo
 .
 snap
 (
-e
-ui
+'
+topleft
+'
 false
 self
 .
