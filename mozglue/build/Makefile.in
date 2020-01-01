@@ -219,6 +219,11 @@ t
 link
 against
 ourselves
+DEFINES
++
+=
+-
+DIMPL_MFBT
 ifeq
 (
 WINNT
