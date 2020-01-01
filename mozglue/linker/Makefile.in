@@ -106,6 +106,10 @@ szip
 .
 cpp
 \
+SeekableZStream
+.
+cpp
+\
 (
 NULL
 )
