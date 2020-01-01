@@ -185,6 +185,7 @@ nsXPIDLString
 &
 aLabel
 )
+const
 ;
 nsresult
 GetLabel
@@ -200,6 +201,7 @@ IsFileBrowseButton
 int32_t
 type
 )
+const
 ;
 virtual
 bool
