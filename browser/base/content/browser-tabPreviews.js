@@ -466,6 +466,17 @@ hasAttribute
 busy
 "
 )
+&
+&
+!
+aTab
+.
+hasAttribute
+(
+"
+pending
+"
+)
 )
 self
 .
