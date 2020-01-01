@@ -2066,6 +2066,10 @@ static
 BOOL
 sIsPopupClassRegistered
 ;
+static
+BOOL
+sIsOleInitialized
+;
 HDWP
 mDeferredPositioner
 ;
