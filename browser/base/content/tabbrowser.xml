@@ -4870,6 +4870,8 @@ _cancelStalledTimer
 (
 )
 ;
+/
+/
 this
 .
 _stalledTimer
@@ -4881,6 +4883,8 @@ function
 self
 )
 {
+/
+/
 self
 .
 mTab
@@ -4895,6 +4899,8 @@ true
 "
 )
 ;
+/
+/
 }
 700
 this
