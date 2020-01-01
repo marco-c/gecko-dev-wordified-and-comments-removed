@@ -13325,7 +13325,7 @@ _browser
 return
 ;
 let
-srcCanvas
+browserView
 =
 (
 Browser
@@ -13338,16 +13338,9 @@ this
 _browser
 )
 ?
-document
+Browser
 .
-getElementById
-(
-"
-browser
--
-canvas
-"
-)
+_browserView
 :
 null
 ;
@@ -13360,7 +13353,7 @@ updateThumbnail
 this
 .
 _browser
-srcCanvas
+browserView
 )
 ;
 }
