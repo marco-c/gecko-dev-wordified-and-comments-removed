@@ -5488,7 +5488,7 @@ mTileSize
 ;
 rect
 .
-MoveTo
+MoveBy
 (
 xPos
 yPos
