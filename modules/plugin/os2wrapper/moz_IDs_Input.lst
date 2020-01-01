@@ -413,7 +413,6 @@ nsIFileProtocolHandler
 nsIFileSpec
 nsIFileStreams
 nsIFileURL
-nsIFileUtilities
 nsIFind
 nsIFindService
 nsIFolder

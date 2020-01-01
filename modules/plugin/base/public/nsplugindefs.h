@@ -806,9 +806,6 @@ class
 nsIPluginManager
 ;
 class
-nsIFileUtilities
-;
-class
 nsIPluginInstancePeer
 ;
 class

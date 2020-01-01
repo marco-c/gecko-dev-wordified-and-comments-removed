@@ -63,13 +63,6 @@ h
 #
 include
 "
-nsIFileUtilities
-.
-h
-"
-#
-include
-"
 nsIPluginTagInfo2
 .
 h

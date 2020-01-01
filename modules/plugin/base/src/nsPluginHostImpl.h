@@ -112,13 +112,6 @@ h
 #
 include
 "
-nsIFileUtilities
-.
-h
-"
-#
-include
-"
 nsICookieStorage
 .
 h
@@ -847,8 +840,6 @@ nsIPluginManager2
 public
 nsIPluginHost
 public
-nsIFileUtilities
-public
 nsICookieStorage
 public
 nsIObserver
@@ -1105,7 +1096,6 @@ aCID
 NS_DECL_NSIPLUGINHOST
 NS_DECL_NSIPLUGINMANAGER2
 NS_DECL_NSIFACTORY
-NS_DECL_NSIFILEUTILITIES
 NS_DECL_NSICOOKIESTORAGE
 NS_DECL_NSIOBSERVER
 NS_DECL_NSPIPLUGINHOST
