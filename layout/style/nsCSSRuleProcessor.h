@@ -81,14 +81,8 @@ ClearRuleCascades
 )
 ;
 static
-nsresult
-Startup
-(
-)
-;
-static
 void
-Shutdown
+Startup
 (
 )
 ;
