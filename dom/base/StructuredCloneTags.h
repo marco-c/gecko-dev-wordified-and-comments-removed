@@ -4,6 +4,15 @@ StructuredCloneTags_h__
 #
 define
 StructuredCloneTags_h__
+#
+include
+"
+js
+/
+StructuredClone
+.
+h
+"
 namespace
 mozilla
 {

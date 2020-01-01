@@ -29,6 +29,15 @@ h
 #
 include
 "
+js
+/
+StructuredClone
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
