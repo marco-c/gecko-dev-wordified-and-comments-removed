@@ -3512,6 +3512,13 @@ type
 "
 autocomplete
 "
+class
+=
+"
+uri
+-
+element
+"
 autocompletesearch
 =
 "
