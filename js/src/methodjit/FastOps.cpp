@@ -5557,7 +5557,6 @@ pushLocal
 (
 slot
 type
-NULL
 )
 ;
 frame
@@ -5599,7 +5598,6 @@ storeLocal
 (
 slot
 type
-NULL
 popped
 true
 )
@@ -5644,7 +5642,6 @@ pushLocal
 (
 slot
 type
-NULL
 )
 ;
 jsop_pos
@@ -5696,7 +5693,6 @@ storeLocal
 (
 slot
 type
-NULL
 true
 true
 )
@@ -5783,7 +5779,6 @@ pushArg
 (
 slot
 type
-NULL
 )
 ;
 frame
@@ -5825,7 +5820,6 @@ storeArg
 (
 slot
 type
-NULL
 popped
 )
 ;
@@ -5869,7 +5863,6 @@ pushArg
 (
 slot
 type
-NULL
 )
 ;
 jsop_pos
@@ -5921,7 +5914,6 @@ storeArg
 (
 slot
 type
-NULL
 true
 )
 ;
@@ -6772,11 +6764,11 @@ TypeSet
 *
 types
 =
-obj
--
->
+frame
+.
 getTypeSet
 (
+obj
 )
 ;
 types
@@ -7926,18 +7918,6 @@ knownPushedType
 0
 )
 ;
-types
-:
-:
-TypeSet
-*
-typeSet
-=
-pushedTypeSet
-(
-0
-)
-;
 RegisterID
 objReg
 =
@@ -8335,7 +8315,6 @@ reg
 )
 dataReg
 type
-typeSet
 )
 ;
 else
@@ -8345,7 +8324,6 @@ pushTypedPayload
 (
 type
 dataReg
-typeSet
 )
 ;
 stubcc
@@ -8543,11 +8521,11 @@ TypeSet
 *
 types
 =
-obj
--
->
+frame
+.
 getTypeSet
 (
+obj
 )
 ;
 types
@@ -9340,10 +9318,6 @@ ic
 .
 objReg
 knownPushedType
-(
-0
-)
-pushedTypeSet
 (
 0
 )
