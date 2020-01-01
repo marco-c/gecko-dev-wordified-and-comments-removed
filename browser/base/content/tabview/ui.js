@@ -1930,7 +1930,6 @@ newItem
 .
 parent
 )
-{
 GroupItems
 .
 setActiveGroupItem
@@ -1940,7 +1939,6 @@ newItem
 parent
 )
 ;
-}
 else
 {
 GroupItems

@@ -2776,7 +2776,6 @@ selectedTab
 =
 tab
 )
-{
 UI
 .
 tabOnFocus
@@ -2784,16 +2783,13 @@ tabOnFocus
 tab
 )
 ;
-}
 else
-{
 gBrowser
 .
 selectedTab
 =
 tab
 ;
-}
 tabEl
 .
 css
@@ -4815,12 +4811,6 @@ hideCachedData
 )
 ;
 }
-GroupItems
-.
-updateTabBar
-(
-)
-;
 item
 .
 reconnected
