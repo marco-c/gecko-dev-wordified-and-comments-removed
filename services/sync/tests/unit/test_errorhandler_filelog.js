@@ -114,7 +114,7 @@ error
 const
 CLEANUP_DELAY
 =
-1000
+2000
 ;
 const
 DELAY_BUFFER
