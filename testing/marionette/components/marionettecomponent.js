@@ -533,6 +533,14 @@ DebuggerServer
 .
 initTransport
 (
+function
+(
+)
+{
+return
+true
+;
+}
 )
 ;
 DebuggerServer
