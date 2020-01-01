@@ -5513,6 +5513,10 @@ getAction
 (
 )
 )
+|
+|
+!
+mInitialized
 )
 return
 ;
