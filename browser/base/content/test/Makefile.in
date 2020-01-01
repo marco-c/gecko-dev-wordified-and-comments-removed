@@ -982,6 +982,10 @@ browser_bug616836
 .
 js
 \
+browser_bug623155
+.
+js
+\
 browser_bug623893
 .
 js
@@ -1350,6 +1354,10 @@ js
 browser_middleMouse_inherit
 .
 js
+\
+redirect_bug623155
+.
+sjs
 \
 (
 NULL
