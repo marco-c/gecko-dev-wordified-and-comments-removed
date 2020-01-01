@@ -56,13 +56,6 @@ h
 #
 include
 "
-nsIDOM3Node
-.
-h
-"
-#
-include
-"
 nsIDOM3Attr
 .
 h
@@ -88,16 +81,6 @@ nsContentUtils
 .
 h
 "
-#
-include
-"
-nsIDOMXPathNSResolver
-.
-h
-"
-class
-nsDOMAttribute
-;
 class
 nsDOMAttribute
 :
@@ -107,8 +90,6 @@ public
 nsIDOMAttr
 public
 nsIDOM3Attr
-public
-nsIDOMXPathNSResolver
 {
 public
 :
@@ -134,7 +115,6 @@ nsDOMAttribute
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSIDOMNODE
-NS_DECL_NSIDOM3NODE
 NS_DECL_NSIDOMATTR
 NS_DECL_NSIDOM3ATTR
 void
