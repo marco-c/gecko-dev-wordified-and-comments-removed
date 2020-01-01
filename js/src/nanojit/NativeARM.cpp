@@ -9159,8 +9159,7 @@ e_bit
 )
 ;
 }
-NIns
-*
+Branches
 Assembler
 :
 :
@@ -9472,7 +9471,10 @@ cond
 )
 ;
 return
+Branches
+(
 at
+)
 ;
 }
 NIns

@@ -6734,8 +6734,7 @@ return
 patch_target
 ;
 }
-NIns
-*
+Branches
 Assembler
 :
 :
@@ -6801,7 +6800,10 @@ condition
 )
 ;
 return
+Branches
+(
 patch_target
+)
 ;
 }
 void
