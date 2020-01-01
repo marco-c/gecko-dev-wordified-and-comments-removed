@@ -2350,9 +2350,7 @@ mValidRegion
 Or
 (
 mValidRegion
-state
-.
-mRegionToDraw
+mVisibleRegion
 )
 ;
 }
