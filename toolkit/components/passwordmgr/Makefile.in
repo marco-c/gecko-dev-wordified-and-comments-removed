@@ -423,13 +423,6 @@ DIRS
 =
 base
 resources
-ifdef
-ENABLE_TESTS
-DIRS
-+
-=
-test
-endif
 include
 (
 topsrcdir
