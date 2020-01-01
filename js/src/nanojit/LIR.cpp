@@ -5104,7 +5104,7 @@ oprnd1
 )
 =
 =
-oprnd1
+oprnd2
 -
 >
 oprnd1
