@@ -101,6 +101,10 @@ unsafeBidiFileName
 .
 sjs
 \
+test_badMimeType
+.
+html
+\
 (
 NULL
 )
