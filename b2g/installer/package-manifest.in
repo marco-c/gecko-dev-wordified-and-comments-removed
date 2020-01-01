@@ -1105,6 +1105,13 @@ BINPATH
 /
 components
 /
+jsdebugger
+.
+xpt
+BINPATH
+/
+components
+/
 jsdservice
 .
 xpt
