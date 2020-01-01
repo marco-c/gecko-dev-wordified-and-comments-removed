@@ -24041,6 +24041,12 @@ inherits
 ;
 if
 (
+aLoadType
+!
+=
+LOAD_NORMAL_EXTERNAL
+&
+&
 !
 owner
 &
