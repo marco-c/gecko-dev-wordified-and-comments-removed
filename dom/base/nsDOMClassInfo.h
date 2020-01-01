@@ -1129,7 +1129,13 @@ cx
 JSObject
 *
 obj
+JS
+:
+:
+Handle
+<
 jsid
+>
 id
 bool
 *
