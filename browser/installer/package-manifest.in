@@ -681,6 +681,13 @@ BINPATH
 /
 components
 /
+dom_battery
+.
+xpt
+BINPATH
+/
+components
+/
 dom_canvas
 .
 xpt
