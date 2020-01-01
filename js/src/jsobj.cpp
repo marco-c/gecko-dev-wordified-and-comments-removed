@@ -25285,8 +25285,7 @@ obj
 methodWriteBarrier
 (
 cx
-*
-shape
+slot
 *
 vp
 )
