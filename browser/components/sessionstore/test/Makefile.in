@@ -231,10 +231,6 @@ browser_394759_purge
 .
 js
 \
-browser_394759_privatebrowsing
-.
-js
-\
 browser_408470
 .
 js
@@ -707,6 +703,10 @@ browser_354894_perwindowpb
 .
 js
 \
+browser_394759_perwindowpb
+.
+js
+\
 (
 NULL
 )
@@ -716,6 +716,10 @@ MOCHITEST_BROWSER_FILES
 =
 \
 browser_354894
+.
+js
+\
+browser_394759_privatebrowsing
 .
 js
 \
