@@ -2406,8 +2406,8 @@ void
 LogConsoleMessage
 (
 const
-nsString
-&
+PRUnichar
+*
 fmt
 .
 .
@@ -2433,10 +2433,6 @@ nsTextFormatter
 vsmprintf
 (
 fmt
-.
-get
-(
-)
 args
 )
 ;
@@ -2688,6 +2684,10 @@ be
 created
 .
 "
+)
+.
+get
+(
 )
 contractID
 .
