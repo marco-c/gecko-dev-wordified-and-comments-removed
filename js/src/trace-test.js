@@ -1587,6 +1587,15 @@ NaN
 )
 ;
 function
+global_func
+(
+)
+{
+return
+1
+;
+}
+function
 call
 (
 )
@@ -1596,6 +1605,9 @@ q1
 =
 0
 q2
+=
+0
+q3
 =
 0
 ;
@@ -1651,6 +1663,13 @@ f2
 f1
 )
 ;
+q3
++
+=
+global_func
+(
+)
+;
 }
 var
 ret
@@ -1658,6 +1677,7 @@ ret
 [
 q1
 q2
+q3
 ]
 ;
 return
@@ -1673,6 +1693,7 @@ call
 (
 )
 "
+100
 100
 100
 "
