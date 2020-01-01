@@ -2106,6 +2106,10 @@ ExecutableAllocatorWin
 .
 cpp
 \
+ExecutableAllocatorOS2
+.
+cpp
+\
 ExecutableAllocator
 .
 cpp
