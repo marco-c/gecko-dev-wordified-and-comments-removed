@@ -488,6 +488,13 @@ aUpdate
 static
 nsOfflineCacheUpdateService
 *
+EnsureService
+(
+)
+;
+static
+nsOfflineCacheUpdateService
+*
 GetInstance
 (
 )
