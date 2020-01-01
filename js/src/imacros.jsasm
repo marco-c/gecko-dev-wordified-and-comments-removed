@@ -661,6 +661,7 @@ stop
 end
 .
 end
+equality
 .
 igroup
 binary
@@ -1125,6 +1126,7 @@ stop
 end
 .
 end
+binary
 .
 igroup
 add
@@ -1587,6 +1589,7 @@ stop
 end
 .
 end
+add
 .
 igroup
 unary
@@ -1694,6 +1697,7 @@ stop
 end
 .
 end
+unary
 .
 igroup
 call
@@ -1970,6 +1974,7 @@ strobj
 end
 .
 end
+call
 .
 igroup
 apply
@@ -3568,7 +3573,7 @@ call
 pop
 #
 fun
-nullthis
+null
 #
 fun
 this
@@ -3866,6 +3871,7 @@ end
 #
 .
 end
+apply
 .
 igroup
 iter
@@ -4008,6 +4014,7 @@ stop
 end
 .
 end
+iter
 .
 igroup
 nextiter
@@ -4113,6 +4120,7 @@ stop
 end
 .
 end
+nextiter
 .
 igroup
 getelem
@@ -4273,6 +4281,7 @@ stop
 end
 .
 end
+getelem
 .
 igroup
 setelem
@@ -4393,6 +4402,7 @@ stop
 end
 .
 end
+setelem
 .
 igroup
 initelem
@@ -4511,3 +4521,4 @@ stop
 end
 .
 end
+initelem

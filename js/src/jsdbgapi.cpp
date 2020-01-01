@@ -5987,7 +5987,10 @@ JS_FALSE
 ;
 script
 =
-js_CompileScript
+JSCompiler
+:
+:
+compileScript
 (
 cx
 scobj
@@ -5999,7 +6002,7 @@ fp
 )
 TCF_COMPILE_N_GO
 |
-TCF_PUT_STATIC_DEPTH
+TCF_PUT_STATIC_LEVEL
 (
 JS_DISPLAY_SIZE
 )

@@ -2676,7 +2676,10 @@ frame
 )
 ;
 }
+JS_FRIEND_DATA
+(
 JSClass
+)
 js_GeneratorClass
 =
 {

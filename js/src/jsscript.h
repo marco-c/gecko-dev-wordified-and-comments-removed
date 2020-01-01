@@ -101,6 +101,10 @@ JSUpvarArray
 ;
 #
 define
+FREE_UPVAR_COOKIE
+0xffffffff
+#
+define
 MAKE_UPVAR_COOKIE
 (
 skip
@@ -237,7 +241,7 @@ uint16
 nslots
 ;
 uint16
-staticDepth
+staticLevel
 ;
 JSPrincipals
 *
