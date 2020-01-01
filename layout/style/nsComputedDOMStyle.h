@@ -2357,6 +2357,14 @@ nscoord
 aWidth
 )
 ;
+PRBool
+GetFrameBorderRectHeight
+(
+nscoord
+&
+aHeight
+)
+;
 struct
 ComputedStyleMapEntry
 {
