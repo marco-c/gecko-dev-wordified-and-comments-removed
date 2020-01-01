@@ -8152,11 +8152,7 @@ count
 0
 &
 &
-(
-0
-!
-=
-PL_strcmp
+PL_strncasecmp
 (
 "
 UTF
@@ -8172,7 +8168,7 @@ aBytes
 +
 encStart
 )
-)
+count
 )
 )
 {
