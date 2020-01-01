@@ -2505,6 +2505,10 @@ Destroy
 if
 (
 mValid
+&
+&
+!
+mDocShell
 )
 gCanvasMemoryUsed
 -
