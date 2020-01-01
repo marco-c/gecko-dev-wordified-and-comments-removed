@@ -7253,12 +7253,11 @@ aLineHeight
 #
 define
 VERTICAL_ALIGN_FRAMES_NO_MINIMUM
-32767
+nscoord_MAX
 #
 define
 VERTICAL_ALIGN_FRAMES_NO_MAXIMUM
--
-32768
+nscoord_MIN
 void
 nsLineLayout
 :
