@@ -14492,15 +14492,6 @@ ThreeDFace
 %
 ifdef
 MOZ_WIDGET_GTK2
-border
--
-right
-:
-1px
-solid
-#
-888
-;
 %
 else
 -
