@@ -9617,6 +9617,12 @@ index
 ]
 )
 ;
+NS_ENSURE_TRUE
+(
+attr
+NS_ERROR_OUT_OF_MEMORY
+)
+;
 if
 (
 content
@@ -10239,6 +10245,12 @@ aStateMapEntry
 -
 >
 attributeName
+)
+;
+NS_ENSURE_TRUE
+(
+attribAtom
+NS_ERROR_OUT_OF_MEMORY
 )
 ;
 if
