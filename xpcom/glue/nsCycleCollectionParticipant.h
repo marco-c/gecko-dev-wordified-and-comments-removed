@@ -2485,6 +2485,12 @@ cb
 define
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 \
+(
+void
+)
+tmp
+;
+\
 return
 NS_OK
 ;
