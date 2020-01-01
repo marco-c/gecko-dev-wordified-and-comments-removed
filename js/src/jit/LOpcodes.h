@@ -953,6 +953,11 @@ CallDeleteProperty
 \
 _
 (
+CallDeleteElement
+)
+\
+_
+(
 SetPropertyCacheV
 )
 \

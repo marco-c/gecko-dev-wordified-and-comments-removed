@@ -2227,6 +2227,11 @@ name
 )
 ;
 bool
+jsop_delelem
+(
+)
+;
+bool
 jsop_newarray
 (
 uint32_t

@@ -1361,6 +1361,14 @@ ins
 )
 ;
 bool
+visitDeleteElement
+(
+MDeleteElement
+*
+ins
+)
+;
+bool
 visitGetNameCache
 (
 MGetNameCache

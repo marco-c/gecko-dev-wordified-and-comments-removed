@@ -1652,6 +1652,14 @@ lir
 )
 ;
 bool
+visitCallDeleteElement
+(
+LCallDeleteElement
+*
+lir
+)
+;
+bool
 visitBitNotV
 (
 LBitNotV
