@@ -374,6 +374,9 @@ mColGap
 nscoord
 mColMaxHeight
 ;
+bool
+mIsBalancing
+;
 }
 ;
 struct
@@ -1791,6 +1794,7 @@ colWidth
 expectedWidthLeftOver
 colGap
 colHeight
+isBalancing
 }
 ;
 return
@@ -4044,15 +4048,6 @@ ChooseColumnStrategy
 aReflowState
 )
 ;
-bool
-isBalancing
-=
-config
-.
-mBalanceColCount
-<
-INT32_MAX
-;
 nsIFrame
 *
 nextInFlow
@@ -4064,7 +4059,9 @@ GetNextInFlow
 bool
 unboundedLastColumn
 =
-isBalancing
+config
+.
+mIsBalancing
 &
 &
 !
@@ -4099,7 +4096,9 @@ aReflowState
 true
 )
 ;
-isBalancing
+config
+.
+mIsBalancing
 =
 false
 ;
@@ -4121,7 +4120,9 @@ colData
 ;
 if
 (
-isBalancing
+config
+.
+mIsBalancing
 &
 &
 !
