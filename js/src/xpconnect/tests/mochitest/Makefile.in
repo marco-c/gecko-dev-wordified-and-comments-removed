@@ -528,6 +528,10 @@ test_bug517163
 .
 html
 \
+test_cows
+.
+html
+\
 (
 NULL
 )
