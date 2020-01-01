@@ -30,6 +30,17 @@ mozilla
 /
 dom
 /
+SVGAnimatedLength
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SVGCircleElementBinding
 .
 h
@@ -234,7 +245,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 SVGCircleElement
 :
@@ -284,7 +295,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 SVGCircleElement
 :
@@ -334,7 +345,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 SVGCircleElement
 :

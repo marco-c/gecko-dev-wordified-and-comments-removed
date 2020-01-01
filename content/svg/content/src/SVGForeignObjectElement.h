@@ -195,7 +195,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 X
 (
@@ -203,7 +203,7 @@ X
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 Y
 (
@@ -211,7 +211,7 @@ Y
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 Width
 (
@@ -219,7 +219,7 @@ Width
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 Height
 (

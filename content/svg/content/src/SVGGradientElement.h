@@ -414,7 +414,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 X1
 (
@@ -422,7 +422,7 @@ X1
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 Y1
 (
@@ -430,7 +430,7 @@ Y1
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 X2
 (
@@ -438,7 +438,7 @@ X2
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 Y2
 (
@@ -592,7 +592,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 Cx
 (
@@ -600,7 +600,7 @@ Cx
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 Cy
 (
@@ -608,7 +608,7 @@ Cy
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 R
 (
@@ -616,7 +616,7 @@ R
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 Fx
 (
@@ -624,7 +624,7 @@ Fx
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 Fy
 (

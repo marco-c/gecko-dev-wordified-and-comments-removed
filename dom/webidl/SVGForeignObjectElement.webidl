@@ -140,9 +140,6 @@ apply
 *
 /
 interface
-SVGAnimatedLength
-;
-interface
 SVGForeignObjectElement
 :
 SVGGraphicsElement

@@ -285,6 +285,10 @@ SVGAnimatedBoolean
 .
 cpp
 \
+SVGAnimatedLength
+.
+cpp
+\
 SVGAnimatedLengthList
 .
 cpp
@@ -659,6 +663,10 @@ SVGAnimatedAngle
 h
 \
 SVGAnimatedBoolean
+.
+h
+\
+SVGAnimatedLength
 .
 h
 \

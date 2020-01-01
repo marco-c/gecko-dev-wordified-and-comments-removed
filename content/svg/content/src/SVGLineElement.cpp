@@ -5,6 +5,17 @@ mozilla
 /
 dom
 /
+SVGAnimatedLength
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SVGLineElement
 .
 h
@@ -243,7 +254,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 SVGLineElement
 :
@@ -293,7 +304,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 SVGLineElement
 :
@@ -343,7 +354,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 SVGLineElement
 :
@@ -393,7 +404,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 SVGLineElement
 :

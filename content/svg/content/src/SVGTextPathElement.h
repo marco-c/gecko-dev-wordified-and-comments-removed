@@ -266,7 +266,7 @@ MOZ_OVERRIDE
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 StartOffset
 (

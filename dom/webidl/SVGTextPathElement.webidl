@@ -140,9 +140,6 @@ apply
 *
 /
 interface
-SVGAnimatedLength
-;
-interface
 SVGAnimatedEnumeration
 ;
 interface

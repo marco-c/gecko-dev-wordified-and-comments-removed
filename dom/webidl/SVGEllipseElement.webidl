@@ -140,9 +140,6 @@ apply
 *
 /
 interface
-SVGAnimatedLength
-;
-interface
 SVGEllipseElement
 :
 SVGGraphicsElement

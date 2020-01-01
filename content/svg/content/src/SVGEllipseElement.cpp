@@ -5,6 +5,17 @@ mozilla
 /
 dom
 /
+SVGAnimatedLength
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SVGEllipseElement
 .
 h
@@ -243,7 +254,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 SVGEllipseElement
 :
@@ -293,7 +304,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 SVGEllipseElement
 :
@@ -343,7 +354,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 SVGEllipseElement
 :
@@ -393,7 +404,7 @@ NS_OK
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 SVGEllipseElement
 :

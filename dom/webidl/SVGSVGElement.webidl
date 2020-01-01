@@ -143,9 +143,6 @@ interface
 SVGAnimatedString
 ;
 interface
-SVGAnimatedLength
-;
-interface
 SVGViewSpec
 ;
 interface

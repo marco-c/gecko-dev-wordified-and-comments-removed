@@ -167,7 +167,7 @@ this
 }
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 Cx
 (
@@ -175,7 +175,7 @@ Cx
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 Cy
 (
@@ -183,7 +183,7 @@ Cy
 ;
 already_AddRefed
 <
-nsIDOMSVGAnimatedLength
+SVGAnimatedLength
 >
 R
 (
