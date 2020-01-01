@@ -225,12 +225,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 nsHTMLCanvasElement
 nsGenericHTMLElement
 )
-nsIFrame
-*
-GetPrimaryCanvasFrame
-(
-)
-;
 nsIntSize
 GetSize
 (
