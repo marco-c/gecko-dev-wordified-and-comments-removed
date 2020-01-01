@@ -29113,12 +29113,6 @@ GetPseudoType
 PRBool
 haveFirstLetterStyle
 =
-!
-GetPrevContinuation
-(
-)
-&
-&
 (
 !
 pseudo
