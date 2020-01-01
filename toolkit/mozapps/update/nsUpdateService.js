@@ -9287,6 +9287,16 @@ this
 .
 _sendBoolPrefTelemetryPing
 (
+PREF_APP_UPDATE_METRO_ENABLED
+"
+UPDATER_UPDATES_METRO_ENABLED
+"
+)
+;
+this
+.
+_sendBoolPrefTelemetryPing
+(
 PREF_APP_UPDATE_AUTO
 "
 UPDATER_UPDATES_AUTOMATIC
