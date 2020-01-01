@@ -20577,6 +20577,17 @@ document
 )
 ;
 }
+HelperApps
+.
+updatePageAction
+(
+this
+.
+browser
+.
+currentURI
+)
+;
 if
 (
 !
