@@ -6805,7 +6805,16 @@ if
 (
 mPreviousViewer
 )
+{
+nsCOMPtr
+<
+nsIContentViewer
+>
+previousViewer
+=
 mPreviousViewer
+;
+previousViewer
 -
 >
 SetBounds
@@ -6813,6 +6822,7 @@ SetBounds
 aBounds
 )
 ;
+}
 return
 NS_OK
 ;
