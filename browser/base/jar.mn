@@ -13,6 +13,9 @@ browser
 xpcnativewrappers
 =
 yes
+contentaccessible
+=
+yes
 #
 ifdef
 XP_MACOSX
