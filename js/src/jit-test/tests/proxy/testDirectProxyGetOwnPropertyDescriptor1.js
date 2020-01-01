@@ -37,7 +37,6 @@ Object
 .
 getOwnPropertyDescriptor
 (
-new
 Proxy
 (
 target
@@ -131,7 +130,6 @@ Object
 .
 getOwnPropertyDescriptor
 (
-new
 Proxy
 (
 target

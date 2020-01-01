@@ -1,6 +1,5 @@
 assertEq
 (
-new
 Proxy
 (
 {
@@ -22,7 +21,6 @@ bar
 ;
 assertEq
 (
-new
 Proxy
 (
 {

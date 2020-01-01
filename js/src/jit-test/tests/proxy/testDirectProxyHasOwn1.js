@@ -1,7 +1,6 @@
 var
 proxy
 =
-new
 Proxy
 (
 Object

@@ -5,7 +5,6 @@ Object
 .
 keys
 (
-new
 Proxy
 (
 Object

@@ -851,10 +851,6 @@ extern
 Class
 ObjectClass
 ;
-extern
-Class
-ProxyClass
-;
 class
 ArrayBufferObject
 ;

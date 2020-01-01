@@ -40,7 +40,6 @@ Object
 .
 getOwnPropertyDescriptor
 (
-new
 Proxy
 (
 target

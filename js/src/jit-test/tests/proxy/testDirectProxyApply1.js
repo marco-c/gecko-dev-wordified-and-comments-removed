@@ -15,7 +15,6 @@ y
 }
 assertEq
 (
-new
 Proxy
 (
 target

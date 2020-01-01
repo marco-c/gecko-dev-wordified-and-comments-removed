@@ -9,7 +9,6 @@ bar
 '
 }
 ;
-new
 Proxy
 (
 target
