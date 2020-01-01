@@ -9847,7 +9847,7 @@ setResultLive
 (
 )
 ;
-NanoAssert
+if
 (
 !
 ins
@@ -9868,12 +9868,13 @@ isExtant
 (
 )
 )
-;
+{
 asm_call
 (
 ins
 )
 ;
+}
 break
 ;
 #
