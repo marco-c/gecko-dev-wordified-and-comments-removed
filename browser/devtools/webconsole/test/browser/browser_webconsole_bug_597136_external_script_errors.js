@@ -137,6 +137,10 @@ button
 "
 )
 ;
+expectUncaughtException
+(
+)
+;
 EventUtils
 .
 sendMouseEvent
