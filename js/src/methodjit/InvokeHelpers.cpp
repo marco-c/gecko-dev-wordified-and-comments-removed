@@ -1430,13 +1430,6 @@ f
 .
 regs
 ;
-PreserveRegsGuard
-regsGuard
-(
-cx
-regs
-)
-;
 LimitCheck
 check
 (
@@ -1469,6 +1462,13 @@ check
 )
 return
 false
+;
+PreserveRegsGuard
+regsGuard
+(
+cx
+regs
+)
 ;
 if
 (
