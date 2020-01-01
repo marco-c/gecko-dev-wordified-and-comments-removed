@@ -1202,6 +1202,12 @@ UseLowPrecisionBuffer
 )
 ;
 static
+float
+GetLowPrecisionResolution
+(
+)
+;
+static
 bool
 UseReusableTileStore
 (
