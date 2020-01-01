@@ -2237,6 +2237,14 @@ self
 .
 logcat_proc
 .
+processOutput
+(
+)
+        
+self
+.
+logcat_proc
+.
 waitForFinish
 (
 )
