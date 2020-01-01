@@ -206,9 +206,6 @@ PRBool
 framesetOk
 ;
 PRBool
-inForeign
-;
-PRBool
 needToDropLF
 ;
 PRBool
@@ -250,8 +247,6 @@ PRInt32
 originalMode
 PRBool
 framesetOk
-PRBool
-inForeign
 PRBool
 needToDropLF
 PRBool
@@ -311,11 +306,6 @@ getOriginalMode
 ;
 PRBool
 isFramesetOk
-(
-)
-;
-PRBool
-isInForeign
 (
 )
 ;

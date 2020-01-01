@@ -107,14 +107,6 @@ isFramesetOk
 ;
 virtual
 PRBool
-isInForeign
-(
-)
-=
-0
-;
-virtual
-PRBool
 isNeedToDropLF
 (
 )
