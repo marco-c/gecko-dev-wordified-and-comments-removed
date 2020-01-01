@@ -527,6 +527,10 @@ test_bug51034
 .
 html
 \
+test_bug199959
+.
+html
+\
 test_bug218236
 .
 html
