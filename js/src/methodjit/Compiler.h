@@ -2458,6 +2458,16 @@ Uses
 uses
 )
 ;
+void
+tryConvertInteger
+(
+FrameEntry
+*
+fe
+Uses
+uses
+)
+;
 bool
 jumpAndTrace
 (

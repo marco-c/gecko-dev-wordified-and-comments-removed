@@ -6508,7 +6508,7 @@ getKind
 )
 {
 case
-TOK_XMLELEM
+PNK_XMLELEM
 :
 length
 =
@@ -6614,7 +6614,7 @@ pn2
 >
 isKind
 (
-TOK_XMLETAGO
+PNK_XMLETAGO
 )
 )
 ;
@@ -6640,7 +6640,7 @@ pn2
 >
 isKind
 (
-TOK_XMLSPACE
+PNK_XMLSPACE
 )
 )
 {
@@ -6797,7 +6797,7 @@ length
 break
 ;
 case
-TOK_XMLLIST
+PNK_XMLLIST
 :
 xml
 =
@@ -6869,7 +6869,7 @@ pn2
 >
 isKind
 (
-TOK_XMLSPACE
+PNK_XMLSPACE
 )
 )
 {
@@ -6950,10 +6950,10 @@ trim
 break
 ;
 case
-TOK_XMLSTAGO
+PNK_XMLSTAGO
 :
 case
-TOK_XMLPTAGC
+PNK_XMLPTAGC
 :
 length
 =
@@ -6976,7 +6976,7 @@ pn2
 >
 isKind
 (
-TOK_XMLNAME
+PNK_XMLNAME
 )
 )
 ;
@@ -7071,7 +7071,7 @@ pn2
 >
 isKind
 (
-TOK_XMLNAME
+PNK_XMLNAME
 )
 |
 |
@@ -7201,7 +7201,7 @@ pn2
 >
 isKind
 (
-TOK_XMLATTR
+PNK_XMLATTR
 )
 )
 goto
@@ -7672,7 +7672,7 @@ pn2
 >
 isKind
 (
-TOK_XMLATTR
+PNK_XMLATTR
 )
 )
 ;
@@ -7735,7 +7735,7 @@ pn
 >
 isKind
 (
-TOK_XMLPTAGC
+PNK_XMLPTAGC
 )
 )
 XMLARRAY_TRUNCATE
@@ -7748,19 +7748,19 @@ length
 break
 ;
 case
-TOK_XMLSPACE
+PNK_XMLSPACE
 :
 case
-TOK_XMLTEXT
+PNK_XMLTEXT
 :
 case
-TOK_XMLCDATA
+PNK_XMLCDATA
 :
 case
-TOK_XMLCOMMENT
+PNK_XMLCOMMENT
 :
 case
-TOK_XMLPI
+PNK_XMLPI
 :
 str
 =
@@ -7780,7 +7780,7 @@ pn
 >
 isKind
 (
-TOK_XMLCOMMENT
+PNK_XMLCOMMENT
 )
 )
 {
@@ -7806,7 +7806,7 @@ pn
 >
 isKind
 (
-TOK_XMLPI
+PNK_XMLPI
 )
 )
 {
@@ -7952,7 +7952,7 @@ pn
 >
 isKind
 (
-TOK_XMLSPACE
+PNK_XMLSPACE
 )
 )
 xml
@@ -26464,6 +26464,7 @@ xml_defineSpecial
 xml_getGeneric
 xml_getProperty
 xml_getElement
+NULL
 xml_getSpecial
 xml_setGeneric
 xml_setProperty

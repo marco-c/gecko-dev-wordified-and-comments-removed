@@ -343,7 +343,7 @@ pn
 >
 isKind
 (
-TOK_UPVARS
+PNK_UPVARS
 )
 )
 {
@@ -715,7 +715,7 @@ pn
 >
 isKind
 (
-TOK_UPVARS
+PNK_UPVARS
 )
 )
 {
@@ -1622,7 +1622,7 @@ pn
 >
 isKind
 (
-TOK_UPVARS
+PNK_UPVARS
 )
 )
 {
@@ -1845,7 +1845,7 @@ pn
 >
 isKind
 (
-TOK_UPVARS
+PNK_UPVARS
 )
 )
 {
