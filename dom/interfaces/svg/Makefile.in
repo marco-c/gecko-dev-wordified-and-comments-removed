@@ -116,10 +116,6 @@ nsIDOMSVGAnimatedNumber
 .
 idl
 \
-nsIDOMSVGAnimatedPathData
-.
-idl
-\
 nsIDOMSVGAnimatedRect
 .
 idl

@@ -459,6 +459,10 @@ SVGAnimatedNumberList
 .
 webidl
 \
+SVGAnimatedPathData
+.
+webidl
+\
 SVGAnimatedPoints
 .
 webidl
@@ -560,6 +564,10 @@ SVGMPathElement
 webidl
 \
 SVGNumberList
+.
+webidl
+\
+SVGPathElement
 .
 webidl
 \

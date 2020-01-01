@@ -1884,13 +1884,6 @@ h
 #
 include
 "
-nsIDOMSVGAnimatedPathData
-.
-h
-"
-#
-include
-"
 nsIDOMSVGAnimatedRect
 .
 h
@@ -12112,10 +12105,6 @@ nsIDOMSVGPathElement
 DOM_CLASSINFO_MAP_ENTRY
 (
 nsIDOMSVGPathElement
-)
-DOM_CLASSINFO_MAP_ENTRY
-(
-nsIDOMSVGAnimatedPathData
 )
 DOM_CLASSINFO_SVG_GRAPHIC_ELEMENT_MAP_ENTRIES
 DOM_CLASSINFO_MAP_END
