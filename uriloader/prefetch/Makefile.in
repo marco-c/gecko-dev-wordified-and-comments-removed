@@ -446,6 +446,10 @@ nsPrefetchService
 .
 cpp
 \
+nsOfflineCacheUpdate
+.
+cpp
+\
 (
 NULL
 )
@@ -453,6 +457,10 @@ XPIDLSRCS
 =
 \
 nsIPrefetchService
+.
+idl
+\
+nsIOfflineCacheUpdate
 .
 idl
 \

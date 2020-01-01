@@ -12304,7 +12304,6 @@ PrefetchHref
 hrefVal
 element
 hasPrefetch
-PR_FALSE
 )
 ;
 }
@@ -12359,18 +12358,7 @@ IsEmpty
 AddOfflineResource
 (
 hrefVal
-)
-;
-if
-(
-mSaveOfflineResources
-)
-PrefetchHref
-(
-hrefVal
 element
-PR_TRUE
-PR_TRUE
 )
 ;
 }

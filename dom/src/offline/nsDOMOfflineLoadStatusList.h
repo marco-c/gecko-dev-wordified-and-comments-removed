@@ -35,7 +35,7 @@ h
 #
 include
 "
-nsIOfflineCacheSession
+nsIOfflineCacheUpdate
 .
 h
 "
@@ -115,6 +115,8 @@ nsIDOMEventTarget
 public
 nsIObserver
 public
+nsIOfflineCacheUpdateObserver
+public
 nsSupportsWeakReference
 {
 public
@@ -123,6 +125,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIDOMLOADSTATUSLIST
 NS_DECL_NSIDOMEVENTTARGET
 NS_DECL_NSIOBSERVER
+NS_DECL_NSIOFFLINECACHEUPDATEOBSERVER
 nsDOMOfflineLoadStatusList
 (
 nsIURI
@@ -144,14 +147,11 @@ Init
 private
 :
 nsresult
-ShouldInclude
+WatchUpdate
 (
-nsIDOMLoadStatus
+nsIOfflineCacheUpdate
 *
-aStatus
-PRBool
-*
-aInclude
+aUpdate
 )
 ;
 nsIDOMLoadStatus
@@ -217,12 +217,6 @@ mItems
 ;
 nsCString
 mHostPort
-;
-nsCOMPtr
-<
-nsIOfflineCacheSession
->
-mCacheSession
 ;
 nsCOMPtr
 <
