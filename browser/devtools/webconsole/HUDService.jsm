@@ -25025,9 +25025,9 @@ this
 parentNode
 ;
 let
-allChecked
+someChecked
 =
-true
+false
 ;
 let
 menuItem
@@ -25051,7 +25051,7 @@ getAttribute
 checked
 "
 )
-!
+=
 =
 =
 "
@@ -25059,9 +25059,9 @@ true
 "
 )
 {
-allChecked
+someChecked
 =
-false
+true
 ;
 break
 ;
@@ -25087,7 +25087,7 @@ setAttribute
 "
 checked
 "
-allChecked
+someChecked
 )
 ;
 break
