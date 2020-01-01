@@ -879,14 +879,6 @@ aValue
 nsnull
 )
 ;
-void
-RemoveNewlines
-(
-nsString
-&
-aString
-)
-;
 PRBool
 GetMaxLength
 (
