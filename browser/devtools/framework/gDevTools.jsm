@@ -3525,6 +3525,11 @@ label
 "
 toolDefinition
 .
+menuLabel
+|
+|
+toolDefinition
+.
 label
 )
 ;
