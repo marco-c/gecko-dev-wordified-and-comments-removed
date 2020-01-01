@@ -7827,9 +7827,6 @@ rv
 {
 if
 (
-isPositioned
-&
-&
 applyAbsPosClipping
 )
 {
