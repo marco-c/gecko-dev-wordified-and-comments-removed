@@ -234,6 +234,17 @@ menuactive
 true
 "
 ]
+:
+not
+(
+[
+disabled
+=
+"
+true
+"
+]
+)
 {
 color
 :
