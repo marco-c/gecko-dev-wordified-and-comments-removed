@@ -1863,10 +1863,6 @@ void
 *
 listenerTSData
 ;
-jschar
-*
-saveEOL
-;
 JSCharBuffer
 tokenbuf
 ;
