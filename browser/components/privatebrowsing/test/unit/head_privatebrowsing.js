@@ -354,6 +354,11 @@ signons
 .
 sqlite
 "
+"
+permissions
+.
+sqlite
+"
 ]
 ;
 for
