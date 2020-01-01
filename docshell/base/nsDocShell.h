@@ -450,8 +450,6 @@ nsIDocShell
 public
 nsIDocShellTreeItem
 public
-nsIDocShellTreeNode
-public
 nsIDocShellHistory
 public
 nsIWebNavigation
