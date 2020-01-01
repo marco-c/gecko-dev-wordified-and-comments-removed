@@ -144,10 +144,6 @@ nsIDOMSVGFilters
 .
 idl
 \
-nsIDOMSVGGradientElement
-.
-idl
-\
 nsIDOMSVGImageElement
 .
 idl

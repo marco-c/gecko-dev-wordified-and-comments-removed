@@ -707,10 +707,6 @@ SVGImageElement
 )
 DOMCI_CLASS
 (
-SVGLinearGradientElement
-)
-DOMCI_CLASS
-(
 SVGLineElement
 )
 DOMCI_CLASS
@@ -740,10 +736,6 @@ SVGPolygonElement
 DOMCI_CLASS
 (
 SVGPolylineElement
-)
-DOMCI_CLASS
-(
-SVGRadialGradientElement
 )
 DOMCI_CLASS
 (

@@ -1278,9 +1278,6 @@ if
 aSpread
 =
 =
-nsIDOMSVGGradientElement
-:
-:
 SVG_SPREADMETHOD_PAD
 )
 gradient
@@ -1300,9 +1297,6 @@ if
 aSpread
 =
 =
-nsIDOMSVGGradientElement
-:
-:
 SVG_SPREADMETHOD_REFLECT
 )
 gradient
@@ -1322,9 +1316,6 @@ if
 aSpread
 =
 =
-nsIDOMSVGGradientElement
-:
-:
 SVG_SPREADMETHOD_REPEAT
 )
 gradient
