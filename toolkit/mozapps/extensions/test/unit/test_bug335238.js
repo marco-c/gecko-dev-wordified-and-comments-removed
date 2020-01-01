@@ -118,7 +118,7 @@ US
 reqVersion
 :
 "
-1
+2
 "
 }
 {
@@ -185,7 +185,7 @@ US
 reqVersion
 :
 "
-1
+2
 "
 }
 ]

@@ -1519,6 +1519,11 @@ PERMS_DIRECTORY
 =
 0755
 ;
+const
+REQ_VERSION
+=
+2
+;
 var
 gApp
 =
@@ -45829,7 +45834,7 @@ REQ_VERSION
 %
 /
 g
-1
+REQ_VERSION
 )
 ;
 aURI
