@@ -14806,6 +14806,16 @@ GetPrimaryShell
 (
 )
 ;
+if
+(
+!
+shell
+)
+{
+return
+PR_FALSE
+;
+}
 nsIFrame
 *
 frame
