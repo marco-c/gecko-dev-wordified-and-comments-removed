@@ -4748,6 +4748,16 @@ eCSSProperty_UNKNOWN
 =
 =
 aPropID
+|
+|
+!
+nsCSSProps
+:
+:
+IsEnabled
+(
+aPropID
+)
 )
 {
 NS_ConvertASCIItoUTF16
@@ -17783,6 +17793,10 @@ nsCSSProps
 LookupProperty
 (
 propertyName
+nsCSSProps
+:
+:
+eEnabled
 )
 ;
 if
