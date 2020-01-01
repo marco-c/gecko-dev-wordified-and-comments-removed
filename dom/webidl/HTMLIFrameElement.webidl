@@ -205,8 +205,10 @@ attribute
 DOMString
 src
 ;
-/
-/
+[
+SetterThrows
+Pure
+]
 attribute
 DOMString
 srcdoc
