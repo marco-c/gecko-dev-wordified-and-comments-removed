@@ -27343,10 +27343,9 @@ CFLAGS
 -
 D_GNU_SOURCE
 "
-AC_CHECK_FUNCS
+AC_CHECK_FUNC
 (
 dladdr
-memmem
 )
 CFLAGS
 =
