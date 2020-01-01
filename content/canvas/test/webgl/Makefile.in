@@ -494,7 +494,11 @@ relativesrcdir
 (
 TAR
 )
-cC
+-
+cf
+-
+-
+C
 (
 srcdir
 )
@@ -507,7 +511,11 @@ conformance
 (
 TAR
 )
-xC
+-
+xf
+-
+-
+C
 (
 DEPTH
 )
