@@ -178,13 +178,6 @@ script
 >
 failedBoundsCheck
 )
-failedCachedShapeGuard_
-(
-script
--
->
-failedCachedShapeGuard
-)
 lazyArguments_
 (
 NULL
@@ -2028,17 +2021,6 @@ callerBuilder
 failedBoundsCheck_
 )
 failedBoundsCheck_
-=
-true
-;
-if
-(
-callerBuilder
--
->
-failedCachedShapeGuard_
-)
-failedCachedShapeGuard_
 =
 true
 ;
@@ -22160,7 +22142,6 @@ globalObj
 lastProperty
 (
 )
-Bailout_Invalidate
 )
 ;
 current
@@ -22496,7 +22477,6 @@ globalObj
 lastProperty
 (
 )
-Bailout_Invalidate
 )
 ;
 current
@@ -26312,7 +26292,6 @@ foundProto
 lastProperty
 (
 )
-Bailout_Invalidate
 )
 ;
 current
@@ -28726,10 +28705,6 @@ objShape
 ;
 if
 (
-!
-failedCachedShapeGuard_
-&
-&
 (
 objShape
 =
@@ -28772,7 +28747,6 @@ New
 (
 obj
 objShape
-Bailout_CachedShapeGuard
 )
 ;
 current
@@ -29393,10 +29367,6 @@ objShape
 ;
 if
 (
-!
-failedCachedShapeGuard_
-&
-&
 (
 objShape
 =
@@ -29439,7 +29409,6 @@ New
 (
 obj
 objShape
-Bailout_CachedShapeGuard
 )
 ;
 current

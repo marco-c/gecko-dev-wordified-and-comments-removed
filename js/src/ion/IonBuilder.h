@@ -2138,9 +2138,6 @@ inliningDepth
 bool
 failedBoundsCheck_
 ;
-bool
-failedCachedShapeGuard_
-;
 MInstruction
 *
 lazyArguments_

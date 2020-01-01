@@ -1304,11 +1304,6 @@ invalidatedIdempotentCache
 1
 ;
 bool
-failedCachedShapeGuard
-:
-1
-;
-bool
 isGenerator
 :
 1

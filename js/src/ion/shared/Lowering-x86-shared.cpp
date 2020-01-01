@@ -348,12 +348,7 @@ return
 assignSnapshot
 (
 guard
-ins
--
->
-bailoutKind
-(
-)
+Bailout_Invalidate
 )
 &
 &
