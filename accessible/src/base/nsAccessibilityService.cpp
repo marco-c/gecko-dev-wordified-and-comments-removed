@@ -10613,6 +10613,9 @@ GetContent
 (
 )
 ;
+#
+ifdef
+MOZ_XUL
 if
 (
 parentContent
@@ -10645,7 +10648,8 @@ weakShell
 ;
 }
 else
-{
+#
+endif
 *
 aAccessible
 =
@@ -10660,7 +10664,6 @@ nsIAccessibleRole
 ROLE_PROPERTYPAGE
 )
 ;
-}
 NS_ENSURE_TRUE
 (
 *
