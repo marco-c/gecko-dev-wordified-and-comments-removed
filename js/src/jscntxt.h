@@ -1048,10 +1048,10 @@ gcLocksHash
 jsrefcount
 gcKeepAtoms
 ;
-uint32_t
+size_t
 gcBytes
 ;
-uint32_t
+size_t
 gcTriggerBytes
 ;
 size_t
@@ -1578,7 +1578,7 @@ gckind
 void
 reduceGCTriggerBytes
 (
-uint32_t
+size_t
 amount
 )
 ;
