@@ -2135,6 +2135,7 @@ AppendElement
 new
 TextureUpdateRequest
 (
+mDeAllocator
 aTextureId
 aSurface
 aUpdated
@@ -3240,18 +3241,6 @@ offset
 )
 ;
 }
-aHost
--
->
-mDeAllocator
--
->
-DestroySharedSurface
-(
-&
-mDescriptor
-)
-;
 }
 #
 ifdef
