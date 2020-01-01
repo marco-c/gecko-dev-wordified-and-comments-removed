@@ -6863,6 +6863,9 @@ defined
 (
 XP_MACOSX
 )
+CommandLineServiceMac
+:
+:
 SetupMacCommandLine
 (
 gRestartArgc
@@ -8283,6 +8286,9 @@ NS_ERROR_FAILURE
 #
 ifdef
 XP_MACOSX
+CommandLineServiceMac
+:
+:
 SetupMacCommandLine
 (
 gRestartArgc
@@ -8678,6 +8684,9 @@ RegisterProfileService
 #
 ifdef
 XP_MACOSX
+CommandLineServiceMac
+:
+:
 SetupMacCommandLine
 (
 gRestartArgc
@@ -16072,6 +16081,9 @@ cmdLine
 1
 )
 ;
+CommandLineServiceMac
+:
+:
 SetupMacCommandLine
 (
 gArgc
@@ -16101,11 +16113,6 @@ rv
 1
 )
 ;
-#
-endif
-#
-ifdef
-MOZ_WIDGET_COCOA
 SetupMacApplicationDelegate
 (
 )
@@ -16464,6 +16471,9 @@ endif
 #
 ifdef
 XP_MACOSX
+CommandLineServiceMac
+:
+:
 SetupMacCommandLine
 (
 gRestartArgc

@@ -2397,6 +2397,9 @@ end
 #
 ifdef
 XP_MACOSX
+CommandLineServiceMac
+:
+:
 SetupMacCommandLine
 (
 argc
