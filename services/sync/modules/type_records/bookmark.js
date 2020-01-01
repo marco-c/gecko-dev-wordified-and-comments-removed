@@ -172,7 +172,6 @@ function
 PlacesItem
 (
 uri
-authenticator
 )
 {
 this
@@ -180,7 +179,6 @@ this
 _PlacesItem_init
 (
 uri
-authenticator
 )
 ;
 }
@@ -207,7 +205,6 @@ function
 BmkItemRec_init
 (
 uri
-authenticator
 )
 {
 this
@@ -215,7 +212,6 @@ this
 _CryptoWrap_init
 (
 uri
-authenticator
 )
 ;
 this
@@ -256,7 +252,6 @@ function
 Bookmark
 (
 uri
-authenticator
 )
 {
 this
@@ -264,7 +259,6 @@ this
 _Bookmark_init
 (
 uri
-authenticator
 )
 ;
 }
@@ -291,7 +285,6 @@ function
 BmkRec_init
 (
 uri
-authenticator
 )
 {
 this
@@ -299,7 +292,6 @@ this
 _PlacesItem_init
 (
 uri
-authenticator
 )
 ;
 this
@@ -462,7 +454,6 @@ function
 BookmarkMicsum
 (
 uri
-authenticator
 )
 {
 this
@@ -470,7 +461,6 @@ this
 _BookmarkMicsum_init
 (
 uri
-authenticator
 )
 ;
 }
@@ -497,7 +487,6 @@ function
 BmkMicsumRec_init
 (
 uri
-authenticator
 )
 {
 this
@@ -505,7 +494,6 @@ this
 _Bookmark_init
 (
 uri
-authenticator
 )
 ;
 this
@@ -601,7 +589,6 @@ function
 BookmarkFolder
 (
 uri
-authenticator
 )
 {
 this
@@ -609,7 +596,6 @@ this
 _BookmarkFolder_init
 (
 uri
-authenticator
 )
 ;
 }
@@ -636,7 +622,6 @@ function
 FolderRec_init
 (
 uri
-authenticator
 )
 {
 this
@@ -644,7 +629,6 @@ this
 _PlacesItem_init
 (
 uri
-authenticator
 )
 ;
 this
@@ -688,7 +672,6 @@ function
 Livemark
 (
 uri
-authenticator
 )
 {
 this
@@ -696,7 +679,6 @@ this
 _Livemark_init
 (
 uri
-authenticator
 )
 ;
 }
@@ -723,7 +705,6 @@ function
 LvmkRec_init
 (
 uri
-authenticator
 )
 {
 this
@@ -731,7 +712,6 @@ this
 _BookmarkFolder_init
 (
 uri
-authenticator
 )
 ;
 this
@@ -855,7 +835,6 @@ function
 BookmarkSeparator
 (
 uri
-authenticator
 )
 {
 this
@@ -863,7 +842,6 @@ this
 _BookmarkSeparator_init
 (
 uri
-authenticator
 )
 ;
 }
@@ -890,7 +868,6 @@ function
 SepRec_init
 (
 uri
-authenticator
 )
 {
 this
@@ -898,7 +875,6 @@ this
 _PlacesItem_init
 (
 uri
-authenticator
 )
 ;
 this

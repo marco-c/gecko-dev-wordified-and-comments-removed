@@ -157,7 +157,6 @@ function
 HistoryRec
 (
 uri
-authenticator
 )
 {
 this
@@ -165,7 +164,6 @@ this
 _HistoryRec_init
 (
 uri
-authenticator
 )
 ;
 }
@@ -192,7 +190,6 @@ function
 HistItem_init
 (
 uri
-authenticator
 )
 {
 this
@@ -200,7 +197,6 @@ this
 _CryptoWrap_init
 (
 uri
-authenticator
 )
 ;
 this

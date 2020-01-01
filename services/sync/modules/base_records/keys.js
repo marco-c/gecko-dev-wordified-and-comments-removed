@@ -201,7 +201,6 @@ function
 PubKey
 (
 uri
-authenticator
 )
 {
 this
@@ -209,7 +208,6 @@ this
 _PubKey_init
 (
 uri
-authenticator
 )
 ;
 }
@@ -236,7 +234,6 @@ function
 PubKey_init
 (
 uri
-authenticator
 )
 {
 this
@@ -244,7 +241,6 @@ this
 _WBORec_init
 (
 uri
-authenticator
 )
 ;
 this
@@ -393,7 +389,6 @@ function
 PrivKey
 (
 uri
-authenticator
 )
 {
 this
@@ -401,7 +396,6 @@ this
 _PrivKey_init
 (
 uri
-authenticator
 )
 ;
 }
@@ -428,7 +422,6 @@ function
 PrivKey_init
 (
 uri
-authenticator
 )
 {
 this
@@ -436,7 +429,6 @@ this
 _WBORec_init
 (
 uri
-authenticator
 )
 ;
 this

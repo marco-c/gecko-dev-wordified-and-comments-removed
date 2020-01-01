@@ -258,7 +258,6 @@ function
 CryptoWrapper
 (
 uri
-authenticator
 )
 {
 this
@@ -266,7 +265,6 @@ this
 _CryptoWrap_init
 (
 uri
-authenticator
 )
 ;
 }
@@ -293,7 +291,6 @@ function
 CryptoWrap_init
 (
 uri
-authenticator
 )
 {
 this
@@ -301,7 +298,6 @@ this
 _WBORec_init
 (
 uri
-authenticator
 )
 ;
 this
@@ -644,7 +640,6 @@ function
 CryptoMeta
 (
 uri
-authenticator
 )
 {
 this
@@ -652,7 +647,6 @@ this
 _CryptoMeta_init
 (
 uri
-authenticator
 )
 ;
 }
@@ -679,7 +673,6 @@ function
 CryptoMeta_init
 (
 uri
-authenticator
 )
 {
 this
@@ -687,7 +680,6 @@ this
 _WBORec_init
 (
 uri
-authenticator
 )
 ;
 this

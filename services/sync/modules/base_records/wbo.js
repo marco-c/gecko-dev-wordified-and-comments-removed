@@ -100,7 +100,6 @@ function
 WBORecord
 (
 uri
-authenticator
 )
 {
 this
@@ -108,7 +107,6 @@ this
 _WBORec_init
 (
 uri
-authenticator
 )
 ;
 }
@@ -135,7 +133,6 @@ function
 WBORec_init
 (
 uri
-authenticator
 )
 {
 this
@@ -143,7 +140,6 @@ this
 _init
 (
 uri
-authenticator
 )
 ;
 this

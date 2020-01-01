@@ -242,7 +242,7 @@ function
 Collection
 (
 uri
-authenticator
+recordObj
 )
 {
 this
@@ -250,8 +250,13 @@ this
 _Coll_init
 (
 uri
-authenticator
 )
+;
+this
+.
+_recordObj
+=
+recordObj
 ;
 }
 Collection
@@ -275,7 +280,6 @@ function
 Coll_init
 (
 uri
-authenticator
 )
 {
 this
@@ -283,7 +287,6 @@ this
 _init
 (
 uri
-authenticator
 )
 ;
 this
@@ -814,7 +817,11 @@ let
 wrap
 =
 new
-CryptoWrapper
+this
+.
+_coll
+.
+_recordObj
 (
 this
 .
