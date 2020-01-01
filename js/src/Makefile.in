@@ -1337,7 +1337,14 @@ buildicu
 buildffi
 buildicu
 :
+(
+if
+(
+MOZ_PSEUDO_DERECURSE
+)
 compile
+export
+)
 :
 :
 buildffi

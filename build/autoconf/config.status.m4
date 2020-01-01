@@ -1340,3 +1340,9 @@ exit
 fi
 ]
 )
+AC_SUBST
+(
+[
+MOZ_PSEUDO_DERECURSE
+]
+)

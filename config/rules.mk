@@ -4219,10 +4219,13 @@ all
 MAKE
 )
 export
+ifdef
+MOZ_PSEUDO_DERECURSE
 (
 MAKE
 )
 compile
+endif
 (
 MAKE
 )
