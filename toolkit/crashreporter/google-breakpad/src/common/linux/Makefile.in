@@ -81,9 +81,12 @@ breakpad_linux_common
 LIBRARY_NAME
 =
 breakpad_linux_common_s
+ifdef
+MOZ_CRASHREPORTER
 HOST_LIBRARY_NAME
 =
 host_breakpad_linux_common_s
+endif
 LOCAL_INCLUDES
 =
 \
@@ -196,6 +199,8 @@ DEFINES
 =
 -
 DNO_STABS_SUPPORT
+ifdef
+MOZ_CRASHREPORTER
 HOST_CPPSRCS
 =
 \
@@ -230,6 +235,7 @@ cc
 (
 NULL
 )
+endif
 #
 need
 static

@@ -81,9 +81,12 @@ breakpad_sps_common
 LIBRARY_NAME
 =
 breakpad_sps_common_s
+ifdef
+MOZ_CRASHREPORTER
 HOST_LIBRARY_NAME
 =
 host_breakpad_sps_common_s
+endif
 LOCAL_INCLUDES
 =
 -
@@ -175,6 +178,8 @@ cc
 (
 NULL
 )
+ifdef
+MOZ_CRASHREPORTER
 HOST_CPPSRCS
 =
 \
@@ -189,6 +194,7 @@ cc
 (
 NULL
 )
+endif
 #
 need
 static

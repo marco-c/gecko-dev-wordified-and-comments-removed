@@ -88,9 +88,12 @@ WINNT
 OS_TARGET
 )
 )
+ifdef
+MOZ_CRASHREPORTER
 HOST_LIBRARY_NAME
 =
 host_breakpad_common_s
+endif
 endif
 LOCAL_INCLUDES
 =
@@ -172,6 +175,8 @@ cc
 (
 NULL
 )
+ifdef
+MOZ_CRASHREPORTER
 HOST_CPPSRCS
 =
 \
@@ -218,6 +223,7 @@ cc
 (
 NULL
 )
+endif
 endif
 ifeq
 (
@@ -461,11 +467,14 @@ WINNT
 OS_TARGET
 )
 )
+ifdef
+MOZ_CRASHREPORTER
 HOST_CSRCS
 =
 (
 CSRCS
 )
+endif
 endif
 #
 need
