@@ -257,10 +257,10 @@ MAX_PASS
 {
 setTimeout
 (
-500
 arguments
 .
 callee
+500
 )
 ;
 return
