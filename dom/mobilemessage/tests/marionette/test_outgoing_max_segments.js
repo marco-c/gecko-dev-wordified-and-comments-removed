@@ -28,13 +28,13 @@ document
 )
 ;
 let
-sms
+manager
 =
 window
 .
 navigator
 .
-mozSms
+mozMobileMessage
 ;
 let
 maxCharsPerSms
@@ -63,10 +63,19 @@ state
 ;
 ok
 (
-sms
+manager
+instanceof
+MozMobileMessageManager
 "
-mozSms
+manager
+is
+instance
+of
 "
++
+manager
+.
+constructor
 )
 ;
 sendSms
@@ -147,7 +156,7 @@ total
 "
 )
 ;
-sms
+manager
 .
 onsent
 =
@@ -156,7 +165,7 @@ function
 event
 )
 {
-sms
+manager
 .
 onsent
 =
@@ -169,7 +178,6 @@ Received
 '
 onsent
 '
-smsmanager
 event
 .
 "
@@ -293,7 +301,7 @@ sentSms
 let
 requestRet
 =
-sms
+manager
 .
 send
 (
@@ -367,7 +375,7 @@ smsrequest
 returned
 false
 for
-sms
+manager
 .
 send
 "
@@ -429,7 +437,7 @@ ok
 (
 false
 "
-sms
+manager
 .
 send
 request
@@ -484,7 +492,7 @@ id
 let
 requestRet
 =
-sms
+manager
 .
 getMessage
 (
@@ -779,7 +787,7 @@ parameter
 let
 requestRet
 =
-sms
+manager
 .
 delete
 (
@@ -841,7 +849,7 @@ smsrequest
 returned
 false
 for
-sms
+manager
 .
 delete
 "
@@ -903,7 +911,7 @@ ok
 (
 false
 "
-sms
+manager
 .
 delete
 request

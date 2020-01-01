@@ -28,13 +28,13 @@ true
 )
 ;
 let
-sms
+manager
 =
 window
 .
 navigator
 .
-mozSms
+mozMobileMessage
 ;
 let
 smsList
@@ -61,10 +61,19 @@ state
 ;
 ok
 (
-sms
+manager
+instanceof
+MozMobileMessageManager
 "
-mozSms
+manager
+is
+instance
+of
 "
++
+manager
+.
+constructor
 )
 ;
 simulateIncomingSms
@@ -151,7 +160,7 @@ true
 )
 ;
 }
-sms
+manager
 .
 onreceived
 =
@@ -303,7 +312,7 @@ SMS
 "
 )
 ;
-sms
+manager
 .
 onsent
 =
@@ -319,7 +328,6 @@ Received
 '
 onsent
 '
-smsmanager
 event
 .
 "
@@ -414,7 +422,7 @@ test1
 let
 request
 =
-sms
+manager
 .
 send
 (
@@ -480,7 +488,7 @@ smsrequest
 returned
 false
 for
-sms
+manager
 .
 send
 "
@@ -542,7 +550,7 @@ ok
 (
 false
 "
-sms
+manager
 .
 send
 request
@@ -579,7 +587,7 @@ nextFunction
 let
 request
 =
-sms
+manager
 .
 markMessageRead
 (
@@ -664,7 +672,7 @@ smsId
 let
 requestRet
 =
-sms
+manager
 .
 getMessage
 (
@@ -988,7 +996,7 @@ ok
 (
 false
 "
-sms
+manager
 .
 markMessageRead
 request
@@ -1311,7 +1319,7 @@ smsId
 let
 request
 =
-sms
+manager
 .
 delete
 (
@@ -1401,7 +1409,7 @@ ok
 (
 false
 "
-sms
+manager
 .
 delete
 request
@@ -1456,7 +1464,7 @@ ok
 (
 false
 "
-sms
+manager
 .
 delete
 request
@@ -1487,7 +1495,7 @@ cleanUp
 (
 )
 {
-sms
+manager
 .
 onreceived
 =

@@ -90,7 +90,7 @@ window
 .
 navigator
 .
-mozSms
+mozMobileMessage
 !
 =
 null
@@ -116,7 +116,7 @@ window
 .
 navigator
 .
-mozSms
+mozMobileMessage
 .
 addEventListener
 (
@@ -161,7 +161,7 @@ window
 .
 navigator
 .
-mozSms
+mozMobileMessage
 .
 send
 (

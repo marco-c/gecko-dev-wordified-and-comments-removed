@@ -28,13 +28,13 @@ true
 )
 ;
 let
-sms
+manager
 =
 window
 .
 navigator
 .
-mozSms
+mozMobileMessage
 ;
 let
 numberMsgs
@@ -66,10 +66,19 @@ state
 ;
 ok
 (
-sms
+manager
+instanceof
+MozMobileMessageManager
 "
-mozSms
+manager
+is
+instance
+of
 "
++
+manager
+.
+constructor
 )
 ;
 deleteAllMsgs
@@ -101,7 +110,7 @@ MozSmsFilter
 let
 cursor
 =
-sms
+manager
 .
 getMessages
 (
@@ -252,7 +261,7 @@ obj
 log
 (
 "
-sms
+manager
 .
 getMessages
 error
@@ -324,7 +333,7 @@ smsId
 let
 request
 =
-sms
+manager
 .
 delete
 (
@@ -427,7 +436,7 @@ ok
 (
 false
 "
-sms
+manager
 .
 delete
 request
@@ -482,7 +491,7 @@ ok
 (
 false
 "
-sms
+manager
 .
 delete
 request
@@ -610,7 +619,7 @@ true
 )
 ;
 }
-sms
+manager
 .
 onreceived
 =
@@ -744,7 +753,7 @@ read
 let
 request
 =
-sms
+manager
 .
 markMessageRead
 (
@@ -831,7 +840,7 @@ ok
 (
 false
 "
-sms
+manager
 .
 markMessageRead
 request
@@ -886,7 +895,7 @@ ok
 (
 false
 "
-sms
+manager
 .
 markMessageRead
 request
@@ -954,7 +963,7 @@ messages
 let
 cursor
 =
-sms
+manager
 .
 getMessages
 (
@@ -1123,7 +1132,7 @@ of
 messages
 returned
 by
-sms
+manager
 .
 getMessages
 "
@@ -1175,7 +1184,7 @@ obj
 log
 (
 "
-sms
+manager
 .
 getMessages
 error
@@ -1279,7 +1288,7 @@ cleanUp
 (
 )
 {
-sms
+manager
 .
 onreceived
 =

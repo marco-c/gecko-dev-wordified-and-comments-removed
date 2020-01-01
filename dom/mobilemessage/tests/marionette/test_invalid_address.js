@@ -182,7 +182,7 @@ next
 }
 ;
 let
-mozMobileMessage
+manager
 ;
 function
 getAllMessages
@@ -213,7 +213,7 @@ messages
 let
 request
 =
-mozMobileMessage
+manager
 .
 getMessages
 (
@@ -324,7 +324,7 @@ return
 let
 request
 =
-mozMobileMessage
+manager
 .
 delete
 (
@@ -386,7 +386,7 @@ aInvalidAddr
 log
 (
 "
-mozMobileMessage
+manager
 .
 send
 (
@@ -418,7 +418,7 @@ aInvalidAddr
 let
 request
 =
-mozMobileMessage
+manager
 .
 send
 (
@@ -512,7 +512,7 @@ aInvalidAddrs
 log
 (
 "
-mozMobileMessage
+manager
 .
 sendMMS
 (
@@ -544,7 +544,7 @@ aInvalidAddrs
 let
 request
 =
-mozMobileMessage
+manager
 .
 sendMMS
 (
@@ -657,7 +657,7 @@ state
 "
 )
 ;
-mozMobileMessage
+manager
 =
 window
 .
@@ -667,9 +667,19 @@ mozMobileMessage
 ;
 ok
 (
-mozMobileMessage
+manager
 instanceof
 MozMobileMessageManager
+"
+manager
+is
+instance
+of
+"
++
+manager
+.
+constructor
 )
 ;
 tasks
