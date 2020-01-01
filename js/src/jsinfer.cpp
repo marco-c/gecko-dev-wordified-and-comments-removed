@@ -28925,6 +28925,7 @@ NoCompilerRunning
 ;
 if
 (
+!
 isCompiling
 &
 &
