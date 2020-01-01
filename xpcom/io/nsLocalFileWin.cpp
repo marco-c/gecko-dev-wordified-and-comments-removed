@@ -1969,6 +1969,7 @@ CloseDir
 (
 nsDir
 *
+&
 d
 )
 {
@@ -2170,10 +2171,6 @@ mDir
 )
 return
 NS_ERROR_FAILURE
-;
-mDir
-=
-nsnull
 ;
 *
 result
@@ -2415,10 +2412,6 @@ rv
 )
 return
 NS_ERROR_FAILURE
-;
-mDir
-=
-nsnull
 ;
 }
 return
