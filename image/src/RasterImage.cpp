@@ -10116,15 +10116,9 @@ mHasBeenDecoded
 Decoder
 :
 :
-DecodeStyle
-:
-:
 SEQUENTIAL
 :
 Decoder
-:
-:
-DecodeStyle
 :
 :
 PROGRESSIVE
