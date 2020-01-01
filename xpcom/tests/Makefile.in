@@ -498,15 +498,6 @@ cpp
 (
 NULL
 )
-ifdef
-WRAP_STL_INCLUDES
-CPPSRCS
-+
-=
-TestSTLWrappers
-.
-cpp
-endif
 SIMPLE_PROGRAMS
 :
 =
