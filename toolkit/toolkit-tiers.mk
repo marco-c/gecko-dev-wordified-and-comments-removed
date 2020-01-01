@@ -583,6 +583,10 @@ tier_gecko_dirs
 +
 =
 \
+(
+tier_necko_dirs
+)
+\
 js
 /
 src
