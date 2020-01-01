@@ -443,6 +443,16 @@ test_bug1823
 .
 html
 \
+test_bug196523
+.
+html
+\
+bug196523
+-
+subframe
+.
+html
+\
 test_bug199692
 .
 html
