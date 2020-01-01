@@ -71,6 +71,7 @@ class
 nsPlaintextEditor
 ;
 class
+NS_STACK_CLASS
 nsAutoPlaceHolderBatch
 {
 private
@@ -164,6 +165,7 @@ nsAutoEditBatch
 }
 ;
 class
+NS_STACK_CLASS
 nsAutoSelectionReset
 {
 private
@@ -203,6 +205,7 @@ Abort
 }
 ;
 class
+NS_STACK_CLASS
 nsAutoRules
 {
 public
@@ -293,6 +296,7 @@ mDoNothing
 }
 ;
 class
+NS_STACK_CLASS
 nsAutoTxnsConserveSelection
 {
 public
@@ -369,6 +373,7 @@ mOldState
 }
 ;
 class
+NS_STACK_CLASS
 nsAutoUpdateViewBatch
 {
 public
@@ -475,6 +480,7 @@ aNode
 }
 ;
 class
+NS_STACK_CLASS
 nsDOMIterator
 {
 public
@@ -601,6 +607,7 @@ PR_TRUE
 }
 ;
 struct
+NS_STACK_CLASS
 DOMPoint
 {
 nsCOMPtr

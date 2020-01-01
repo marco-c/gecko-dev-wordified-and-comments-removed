@@ -181,6 +181,7 @@ nsLayoutErrors
 h
 "
 class
+NS_STACK_CLASS
 nsSetSelectionAfterTableEdit
 {
 private
@@ -291,6 +292,7 @@ nsnull
 }
 ;
 class
+NS_STACK_CLASS
 nsSelectionBatcher
 {
 private

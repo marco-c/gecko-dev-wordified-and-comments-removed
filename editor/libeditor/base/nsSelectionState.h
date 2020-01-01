@@ -361,6 +361,7 @@ mLock
 }
 ;
 class
+NS_STACK_CLASS
 nsAutoTrackDOMPoint
 {
 private
@@ -482,6 +483,7 @@ startOffset
 }
 ;
 class
+NS_STACK_CLASS
 nsAutoReplaceContainerSelNotify
 {
 private
@@ -550,6 +552,7 @@ mNewNode
 }
 ;
 class
+NS_STACK_CLASS
 nsAutoRemoveContainerSelNotify
 {
 private
@@ -638,6 +641,7 @@ mNodeOrigLen
 }
 ;
 class
+NS_STACK_CLASS
 nsAutoInsertContainerSelNotify
 {
 private
@@ -682,6 +686,7 @@ DidInsertContainer
 }
 ;
 class
+NS_STACK_CLASS
 nsAutoMoveNodeSelNotify
 {
 private
