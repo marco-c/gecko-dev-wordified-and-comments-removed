@@ -194,7 +194,6 @@ s
 )
 test
 :
-#
 for
 f
 in
@@ -216,7 +215,6 @@ pm
 ;
 do
 \
-#
 perl
 -
 c
