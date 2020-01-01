@@ -1627,6 +1627,7 @@ fullName
 recipient
 )
 {
+var
 msgXml
 =
 "
