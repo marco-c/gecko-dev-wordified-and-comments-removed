@@ -7285,7 +7285,7 @@ TabChild
 RecvHandleDoubleTap
 (
 const
-nsIntPoint
+CSSIntPoint
 &
 aPoint
 )
@@ -7382,7 +7382,7 @@ TabChild
 RecvHandleSingleTap
 (
 const
-nsIntPoint
+CSSIntPoint
 &
 aPoint
 )
@@ -7472,7 +7472,7 @@ TabChild
 RecvHandleLongTap
 (
 const
-nsIntPoint
+CSSIntPoint
 &
 aPoint
 )

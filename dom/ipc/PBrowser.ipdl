@@ -347,6 +347,12 @@ layers
 :
 TextureFactoryIdentifier
 ;
+using
+mozilla
+:
+:
+CSSIntPoint
+;
 namespace
 mozilla
 {
@@ -1928,7 +1934,7 @@ to
 /
 HandleDoubleTap
 (
-nsIntPoint
+CSSIntPoint
 point
 )
 ;
@@ -1983,7 +1989,7 @@ point
 /
 HandleSingleTap
 (
-nsIntPoint
+CSSIntPoint
 point
 )
 ;
@@ -2032,7 +2038,7 @@ point
 /
 HandleLongTap
 (
-nsIntPoint
+CSSIntPoint
 point
 )
 ;

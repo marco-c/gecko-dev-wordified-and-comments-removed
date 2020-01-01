@@ -2130,7 +2130,7 @@ TabParent
 HandleDoubleTap
 (
 const
-nsIntPoint
+CSSIntPoint
 &
 aPoint
 )
@@ -2158,7 +2158,7 @@ TabParent
 HandleSingleTap
 (
 const
-nsIntPoint
+CSSIntPoint
 &
 aPoint
 )
@@ -2186,7 +2186,7 @@ TabParent
 HandleLongTap
 (
 const
-nsIntPoint
+CSSIntPoint
 &
 aPoint
 )

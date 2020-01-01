@@ -858,7 +858,7 @@ bool
 RecvHandleDoubleTap
 (
 const
-nsIntPoint
+CSSIntPoint
 &
 aPoint
 )
@@ -868,7 +868,7 @@ bool
 RecvHandleSingleTap
 (
 const
-nsIntPoint
+CSSIntPoint
 &
 aPoint
 )
@@ -878,7 +878,7 @@ bool
 RecvHandleLongTap
 (
 const
-nsIntPoint
+CSSIntPoint
 &
 aPoint
 )
