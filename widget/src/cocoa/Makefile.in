@@ -942,11 +942,6 @@ CXXFLAGS
 -
 DUSE_COCOA
 \
--
-fobjc
--
-exceptions
-\
 (
 NULL
 )
