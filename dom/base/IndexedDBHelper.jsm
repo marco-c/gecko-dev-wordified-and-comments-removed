@@ -163,6 +163,12 @@ close
 (
 )
 ;
+this
+.
+_db
+=
+null
+;
 }
 }
 open

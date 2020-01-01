@@ -332,7 +332,6 @@ _db
 new
 ContactDB
 (
-myGlobal
 )
 ;
 this
