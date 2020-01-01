@@ -1061,6 +1061,13 @@ mRepeatTransaction
 true
 ;
 }
+bool
+ShouldAbortProgressiveUpdate
+(
+bool
+aHasPendingNewThebesContent
+)
+;
 private
 :
 void
