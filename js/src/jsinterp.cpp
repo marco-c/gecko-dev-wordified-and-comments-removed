@@ -20823,11 +20823,8 @@ FetchElementId
 cx
 obj
 indexval
+&
 id
-.
-address
-(
-)
 &
 indexval
 )
