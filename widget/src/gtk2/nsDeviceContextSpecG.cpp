@@ -1945,7 +1945,7 @@ mGtkPrinter
 format
 =
 (
-gtk_printer_accepts_pdf
+gtk_printer_accepts_ps
 (
 mGtkPrinter
 )
@@ -1954,12 +1954,12 @@ mGtkPrinter
 nsIPrintSettings
 :
 :
-kOutputFormatPDF
+kOutputFormatPS
 :
 nsIPrintSettings
 :
 :
-kOutputFormatPS
+kOutputFormatPDF
 ;
 }
 else
