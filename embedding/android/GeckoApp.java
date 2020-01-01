@@ -591,6 +591,12 @@ prepare
 if
 (
 msg
+!
+=
+null
+&
+&
+msg
 .
 equalsIgnoreCase
 (
