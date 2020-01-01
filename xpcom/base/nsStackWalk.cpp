@@ -5022,6 +5022,9 @@ defined
 HAVE__UNWIND_BACKTRACE
 )
 #
+define
+_GNU_SOURCE
+#
 include
 <
 unwind
