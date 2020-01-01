@@ -1361,15 +1361,13 @@ numBlocks_
 #
 endif
 uint32
-maxBlockId
+numBlockIds
 (
 )
 const
 {
 return
 blockIdGen_
--
-1
 ;
 }
 void

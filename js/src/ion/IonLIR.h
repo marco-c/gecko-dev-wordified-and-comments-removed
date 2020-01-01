@@ -3528,7 +3528,7 @@ i
 ;
 }
 uint32
-maxBlockId
+numBlockIds
 (
 )
 const
@@ -3536,7 +3536,7 @@ const
 return
 mir_
 .
-maxBlockId
+numBlockIds
 (
 )
 ;
