@@ -390,6 +390,10 @@ gfxPlatformMac
 LookupLocalFont
 (
 const
+gfxProxyFontEntry
+*
+aProxyEntry
+const
 nsAString
 &
 aFontName

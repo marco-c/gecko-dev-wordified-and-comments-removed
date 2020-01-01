@@ -1249,6 +1249,7 @@ GetPlatform
 >
 LookupLocalFont
 (
+aProxyEntry
 currSrc
 .
 mLocalName
