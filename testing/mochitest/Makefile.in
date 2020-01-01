@@ -852,11 +852,6 @@ pk12util
 BIN_SUFFIX
 )
 \
-OCSPStaplingServer
-(
-BIN_SUFFIX
-)
-\
 fix_stack_using_bpsyms
 .
 py
