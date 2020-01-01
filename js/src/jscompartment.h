@@ -149,6 +149,9 @@ JSContext
 *
 tracecx
 ;
+unsigned
+iterationCounter
+;
 TraceNativeStorage
 *
 storage

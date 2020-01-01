@@ -12925,10 +12925,7 @@ void
 *
 )
 &
-JS_THREAD_DATA
-(
-cx
-)
+traceMonitor
 -
 >
 iterationCounter
@@ -35273,10 +35270,7 @@ globalSlots
 0xdeadbeefdeadbeefLL
 ;
 )
-JS_THREAD_DATA
-(
-cx
-)
+tm
 -
 >
 iterationCounter
@@ -35419,10 +35413,7 @@ ok
 size_t
 iters
 =
-JS_THREAD_DATA
-(
-cx
-)
+tm
 -
 >
 iterationCounter
