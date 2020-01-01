@@ -9990,6 +9990,15 @@ DOMWindowClose
 [
 CDATA
 [
+if
+(
+!
+event
+.
+isTrusted
+)
+return
+;
 const
 browsers
 =
