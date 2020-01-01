@@ -410,6 +410,10 @@ SVGFETileElement
 .
 cpp
 \
+SVGFETurbulenceElement
+.
+cpp
+\
 SVGFilterElement
 .
 cpp
@@ -860,6 +864,10 @@ SVGFESpotLightElement
 h
 \
 SVGFETileElement
+.
+h
+\
+SVGFETurbulenceElement
 .
 h
 \
