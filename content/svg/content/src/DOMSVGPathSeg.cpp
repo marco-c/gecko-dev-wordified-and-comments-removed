@@ -162,11 +162,9 @@ aList
 &
 aListIndex
 <
+=
+MaxListIndex
 (
-1U
-<
-<
-31
 )
 "
 bad
