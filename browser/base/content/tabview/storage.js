@@ -1183,10 +1183,7 @@ Error
 while
 loading
 thumbnail
-:
 "
-+
-e
 )
 ;
 }
