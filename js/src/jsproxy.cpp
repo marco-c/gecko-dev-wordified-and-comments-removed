@@ -8275,7 +8275,7 @@ unsigned
 flags
 JSAtom
 *
-trapName
+trapName_
 )
 {
 JS_ASSERT
@@ -8297,6 +8297,13 @@ v
 toObject
 (
 )
+)
+;
+RootedAtom
+trapName
+(
+cx
+trapName_
 )
 ;
 uint32_t
