@@ -232,7 +232,6 @@ quit
 -
 application
 "
-false
 )
 ;
 dump

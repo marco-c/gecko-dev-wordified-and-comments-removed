@@ -296,6 +296,15 @@ window
 close
 (
 )
+frame
+.
+parentNode
+.
+removeChild
+(
+frame
+)
+;
 }
 )
 ;

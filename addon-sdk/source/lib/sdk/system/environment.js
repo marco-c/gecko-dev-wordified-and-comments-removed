@@ -168,11 +168,17 @@ function
 (
 name
 )
+{
 set
 (
 name
 null
 )
+;
+return
+true
+;
+}
 has
 :
 function

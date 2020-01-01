@@ -186,6 +186,17 @@ OptionsValidator
 url
 :
 {
+map
+:
+function
+(
+url
+)
+url
+.
+toString
+(
+)
 ok
 :
 isValidURI
