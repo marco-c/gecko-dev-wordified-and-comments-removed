@@ -3077,6 +3077,10 @@ WindowByIdTable
 *
 sWindowsById
 ;
+static
+bool
+sWarnedAboutWindowInternal
+;
 }
 ;
 class
