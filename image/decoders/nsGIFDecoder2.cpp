@@ -114,7 +114,7 @@ nsGIFDecoder2
 RasterImage
 &
 aImage
-imgIDecoderObserver
+imgDecoderObserver
 *
 aObserver
 )

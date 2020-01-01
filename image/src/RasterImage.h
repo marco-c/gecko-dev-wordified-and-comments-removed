@@ -56,13 +56,6 @@ h
 #
 include
 "
-nsWeakReference
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -152,9 +145,6 @@ h
 "
 #
 endif
-class
-imgIDecoder
-;
 class
 nsIInputStream
 ;
@@ -272,7 +262,7 @@ StopAnimation
 nsresult
 Init
 (
-imgIDecoderObserver
+imgDecoderObserver
 *
 aObserver
 const
@@ -1246,7 +1236,13 @@ mAnim
 int32_t
 mLoopCount
 ;
-nsWeakPtr
+mozilla
+:
+:
+WeakPtr
+<
+imgDecoderObserver
+>
 mObserver
 ;
 uint32_t

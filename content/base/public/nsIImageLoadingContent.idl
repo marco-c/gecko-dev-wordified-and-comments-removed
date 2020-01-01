@@ -818,7 +818,7 @@ passed
 through
 to
 the
-imgIDecoderObserver
+imgINotificationObserver
 *
 interface
 of

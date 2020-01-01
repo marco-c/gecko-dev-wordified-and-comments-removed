@@ -28,7 +28,9 @@ h
 #
 include
 "
-nsWeakReference
+mozilla
+/
+TimeStamp
 .
 h
 "
@@ -37,12 +39,12 @@ include
 "
 mozilla
 /
-TimeStamp
+WeakPtr
 .
 h
 "
 class
-imgIDecoderObserver
+imgDecoderObserver
 ;
 namespace
 mozilla
@@ -89,7 +91,7 @@ VectorImage
 nsresult
 Init
 (
-imgIDecoderObserver
+imgDecoderObserver
 *
 aObserver
 const
@@ -224,7 +226,10 @@ ShouldAnimate
 ;
 private
 :
-nsWeakPtr
+WeakPtr
+<
+imgDecoderObserver
+>
 mObserver
 ;
 nsRefPtr

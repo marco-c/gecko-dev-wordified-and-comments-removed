@@ -21,7 +21,7 @@ h
 #
 include
 "
-imgIDecoderObserver
+imgDecoderObserver
 .
 h
 "
@@ -54,7 +54,7 @@ nsGIFDecoder2
 RasterImage
 &
 aImage
-imgIDecoderObserver
+imgDecoderObserver
 *
 aObserver
 )

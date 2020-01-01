@@ -57,13 +57,6 @@ h
 #
 include
 "
-imgIDecoderObserver
-.
-h
-"
-#
-include
-"
 gfxContext
 .
 h

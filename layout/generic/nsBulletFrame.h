@@ -37,13 +37,6 @@ h
 #
 include
 "
-imgIDecoderObserver
-.
-h
-"
-#
-include
-"
 imgINotificationObserver
 .
 h

@@ -14,7 +14,7 @@ h
 #
 include
 "
-imgIDecoderObserver
+imgDecoderObserver
 .
 h
 "
@@ -68,7 +68,7 @@ nsPNGDecoder
 RasterImage
 &
 aImage
-imgIDecoderObserver
+imgDecoderObserver
 *
 aObserver
 )

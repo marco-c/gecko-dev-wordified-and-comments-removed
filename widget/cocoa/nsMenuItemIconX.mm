@@ -532,7 +532,7 @@ if
 calls
 to
 our
-imgIDecoderObserver
+imgINotificationObserver
 methods
 /
 /

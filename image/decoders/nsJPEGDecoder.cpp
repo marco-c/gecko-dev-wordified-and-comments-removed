@@ -312,7 +312,7 @@ nsJPEGDecoder
 RasterImage
 &
 aImage
-imgIDecoderObserver
+imgDecoderObserver
 *
 aObserver
 Decoder
