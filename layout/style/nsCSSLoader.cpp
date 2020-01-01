@@ -6612,12 +6612,6 @@ URI
 )
 )
 ;
-SheetComplete
-(
-aLoadData
-rv
-)
-;
 channel
 -
 >
@@ -6671,12 +6665,6 @@ channel
 >
 Cancel
 (
-NS_ERROR_OUT_OF_MEMORY
-)
-;
-SheetComplete
-(
-aLoadData
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
