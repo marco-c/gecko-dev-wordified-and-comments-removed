@@ -16179,6 +16179,8 @@ if
 cx
 )
 {
+cx
+=
 nsContentUtils
 :
 :
@@ -16189,8 +16191,6 @@ ThreadJSContextStack
 >
 GetSafeJSContext
 (
-&
-cx
 )
 ;
 NS_ASSERTION
@@ -25086,13 +25086,13 @@ if
 cx
 )
 {
+cx
+=
 stack
 -
 >
 GetSafeJSContext
 (
-&
-cx
 )
 ;
 if
