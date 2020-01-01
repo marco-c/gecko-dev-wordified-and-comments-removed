@@ -634,11 +634,6 @@ shapeRegHasBaseShape
 1
 ;
 bool
-usePropCache
-:
-1
-;
-bool
 hit
 :
 1
