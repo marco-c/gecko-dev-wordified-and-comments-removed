@@ -1361,7 +1361,7 @@ ParseNode
 *
 fn
 =
-FunctionNode
+CodeNode
 :
 :
 create
