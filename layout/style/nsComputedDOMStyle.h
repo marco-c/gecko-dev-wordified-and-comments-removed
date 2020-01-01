@@ -965,6 +965,15 @@ aValue
 )
 ;
 nsresult
+GetWindowShadow
+(
+nsIDOMCSSValue
+*
+*
+aValue
+)
+;
+nsresult
 GetMarginWidth
 (
 nsIDOMCSSValue

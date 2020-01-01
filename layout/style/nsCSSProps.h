@@ -917,6 +917,13 @@ kWidthKTable
 static
 const
 PRInt32
+kWindowShadowKTable
+[
+]
+;
+static
+const
+PRInt32
 kWordwrapKTable
 [
 ]

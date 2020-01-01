@@ -1904,6 +1904,9 @@ mForceBrokenImageIcon
 nsCSSValue
 mIMEMode
 ;
+nsCSSValue
+mWindowShadow
+;
 private
 :
 nsCSSUserInterface

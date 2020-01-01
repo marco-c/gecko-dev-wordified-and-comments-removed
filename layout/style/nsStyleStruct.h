@@ -4945,6 +4945,9 @@ mForceBrokenImageIcon
 PRUint8
 mIMEMode
 ;
+PRUint8
+mWindowShadow
+;
 }
 ;
 struct

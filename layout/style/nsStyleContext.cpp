@@ -4512,6 +4512,8 @@ data
 d
 %
 d
+%
+d
 \
 "
 /
@@ -4533,6 +4535,13 @@ uiReset
 -
 >
 mIMEMode
+(
+int
+)
+uiReset
+-
+>
+mWindowShadow
 )
 ;
 IndentBy
