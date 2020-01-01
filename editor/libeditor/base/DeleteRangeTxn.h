@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsIEditor
+nsEditor
 .
 h
 "
@@ -41,9 +41,6 @@ h
 "
 class
 nsIDOMRange
-;
-class
-nsIEditor
 ;
 class
 nsRangeUpdater
@@ -59,7 +56,7 @@ public
 NS_IMETHOD
 Init
 (
-nsIEditor
+nsEditor
 *
 aEditor
 nsIDOMRange
@@ -162,7 +159,7 @@ mCommonParent
 PRInt32
 mEndOffset
 ;
-nsIEditor
+nsEditor
 *
 mEditor
 ;

@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsIEditor
-.
-h
-"
-#
-include
-"
 nsIDOMCharacterData
 .
 h
@@ -32,6 +25,9 @@ nsCOMPtr
 .
 h
 "
+class
+nsEditor
+;
 class
 nsRangeUpdater
 ;
@@ -46,12 +42,12 @@ public
 NS_IMETHOD
 Init
 (
-nsIEditor
+nsEditor
 *
 aEditor
 nsIDOMCharacterData
 *
-aElement
+aCharData
 PRUint32
 aOffset
 PRUint32
@@ -102,7 +98,7 @@ mNumCharsToDelete
 }
 protected
 :
-nsIEditor
+nsEditor
 *
 mEditor
 ;
@@ -110,7 +106,7 @@ nsCOMPtr
 <
 nsIDOMCharacterData
 >
-mElement
+mCharData
 ;
 PRUint32
 mOffset
