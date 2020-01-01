@@ -644,8 +644,9 @@ vpx_codec_dec_init
 (
 &
 mVP8
-&
-vpx_codec_vp8_dx_algo
+vpx_codec_vp8_dx
+(
+)
 NULL
 0
 )
@@ -3072,8 +3073,9 @@ si
 ;
 vpx_codec_peek_stream_info
 (
-&
-vpx_codec_vp8_dx_algo
+vpx_codec_vp8_dx
+(
+)
 data
 length
 &
