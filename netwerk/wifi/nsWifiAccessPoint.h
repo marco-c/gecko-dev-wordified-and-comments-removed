@@ -91,7 +91,6 @@ mSignal
 signal
 ;
 }
-;
 void
 setMac
 (
@@ -193,7 +192,6 @@ mMac
 0
 ;
 }
-;
 void
 setSSID
 (
@@ -255,7 +253,6 @@ mSsidLen
 ;
 }
 }
-;
 }
 ;
 bool
