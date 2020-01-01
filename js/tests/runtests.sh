@@ -628,8 +628,8 @@ t
 \
 [
 -
-Z
-n
+J
+javascriptoptions
 ]
 variable
 description
