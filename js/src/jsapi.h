@@ -494,10 +494,6 @@ VALVECTOR
 =
 -
 10
-DESCRIPTOR
-=
--
-11
 STRING
 =
 -
