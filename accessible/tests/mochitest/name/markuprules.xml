@@ -1869,16 +1869,6 @@ select
 markup
 >
 <
-!
--
--
-Temporarily
-disabled
-for
-causing
-bug
-733848
-<
 markup
 ref
 =
@@ -2105,9 +2095,6 @@ png
 <
 /
 markup
->
--
--
 >
 <
 markup
