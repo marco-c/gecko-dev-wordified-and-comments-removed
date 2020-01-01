@@ -401,7 +401,7 @@ dimen
 name
 =
 "
-site_identity_popup_width
+popup_width
 "
 >
 400dp

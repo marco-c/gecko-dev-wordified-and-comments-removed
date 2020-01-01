@@ -965,7 +965,7 @@ R
 .
 dimen
 .
-site_identity_popup_width
+popup_width
 )
 ;
 offset
