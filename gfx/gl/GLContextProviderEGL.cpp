@@ -9008,6 +9008,14 @@ nsnull
 ;
 #
 endif
+#
+ifdef
+XP_WIN
+return
+nsnull
+;
+#
+endif
 static
 bool
 triedToCreateContext
