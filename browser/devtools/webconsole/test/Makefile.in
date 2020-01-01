@@ -593,6 +593,10 @@ browser_console_filters
 .
 js
 \
+browser_console_dead_objects
+.
+js
+\
 head
 .
 js

@@ -2802,6 +2802,8 @@ return
 null
 ;
 }
+try
+{
 if
 (
 WCU
@@ -2810,6 +2812,16 @@ isIteratorOrGenerator
 (
 obj
 )
+)
+{
+return
+null
+;
+}
+}
+catch
+(
+ex
 )
 {
 return
