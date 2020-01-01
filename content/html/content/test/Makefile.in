@@ -742,6 +742,10 @@ file_bug417760
 .
 png
 \
+test_bug418756
+.
+html
+\
 test_bug421640
 .
 html
