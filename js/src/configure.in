@@ -2227,9 +2227,11 @@ echo
 MOZILLA_VERSION
 |
 grep
+'
 [
 ab
 ]
+'
 dnl
 XXX
 in
