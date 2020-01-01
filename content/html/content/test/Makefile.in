@@ -1522,6 +1522,10 @@ test_bug682886
 .
 html
 \
+test_bug717819
+.
+html
+\
 file_fullscreen
 -
 api
