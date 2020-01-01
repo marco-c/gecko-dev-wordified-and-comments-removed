@@ -850,7 +850,7 @@ padding
 -
 start
 :
-4px
+8px
 ;
 font
 -
@@ -869,8 +869,7 @@ transform
 -
 origin
 :
--
-4px
+left
 center
 ;
 }
