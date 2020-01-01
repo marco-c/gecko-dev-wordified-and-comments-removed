@@ -2207,7 +2207,11 @@ OS_LDFLAGS
 DEF
 :
 (
+call
+normalizepath
+(
 DEFFILE
+)
 )
 EXTRA_DEPS
 +
