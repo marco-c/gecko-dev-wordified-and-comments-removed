@@ -11448,6 +11448,16 @@ pref
 "
 security
 .
+notification_enable_delay
+"
+500
+)
+;
+pref
+(
+"
+security
+.
 csp
 .
 enable
