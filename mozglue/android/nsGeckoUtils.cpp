@@ -49,7 +49,7 @@ default
 )
 void
 JNICALL
-Java_org_mozilla_gecko_GeckoAppShell_putenv
+Java_org_mozilla_gecko_mozglue_GeckoLoader_putenv
 (
 JNIEnv
 *

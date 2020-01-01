@@ -34,6 +34,17 @@ mozilla
 .
 gecko
 .
+mozglue
+.
+GeckoLoader
+;
+import
+org
+.
+mozilla
+.
+gecko
+.
 sqlite
 .
 SQLiteBridge
@@ -199,7 +210,7 @@ String
 query
 )
 {
-GeckoAppShell
+GeckoLoader
 .
 loadSQLiteLibs
 (
