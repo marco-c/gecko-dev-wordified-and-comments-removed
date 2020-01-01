@@ -145,8 +145,13 @@ _PR_HAVE_INET_NTOP
 define
 _PR_HAVE_GETHOSTBYNAME2
 #
+ifdef
+_AIX51
+#
 define
 _PR_HAVE_GETADDRINFO
+#
+endif
 #
 endif
 #

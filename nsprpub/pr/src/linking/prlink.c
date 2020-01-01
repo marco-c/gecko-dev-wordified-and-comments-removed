@@ -163,6 +163,15 @@ ldr
 h
 >
 #
+ifndef
+L_IGNOREUNLOAD
+#
+define
+L_IGNOREUNLOAD
+0x10000000
+#
+endif
+#
 endif
 #
 ifdef

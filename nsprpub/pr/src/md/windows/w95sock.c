@@ -86,8 +86,14 @@ PWSA_COMPATIBILITY_BEHAVIOR_ID
 ;
 #
 define
-NTDDI_LONGHORN
+NTDDI_WIN6
 0x06000000
+/
+*
+Windows
+Vista
+*
+/
 #
 define
 WSAEVENT
@@ -432,7 +438,7 @@ mode
 .
 TargetOsVersion
 =
-NTDDI_LONGHORN
+NTDDI_WIN6
 ;
 if
 (
