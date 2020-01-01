@@ -8560,14 +8560,6 @@ select_item_multichoice
 .
 xml
 \
-res
-/
-color
-/
-tab_title
-.
-xml
-\
 (
 NULL
 )

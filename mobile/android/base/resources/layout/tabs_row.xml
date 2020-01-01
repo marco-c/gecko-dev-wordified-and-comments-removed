@@ -318,9 +318,8 @@ android
 textColor
 =
 "
-color
-/
-tab_title
+#
+FFFFFFFF
 "
 android
 :
