@@ -91,11 +91,6 @@ CancelTouch
 (
 )
 ;
-void
-LockPanning
-(
-)
-;
 float
 GetDisplacementForDuration
 (
@@ -274,9 +269,6 @@ nsRefPtr
 AsyncPanZoomController
 >
 mAsyncPanZoomController
-;
-bool
-mLockPanning
 ;
 }
 ;
