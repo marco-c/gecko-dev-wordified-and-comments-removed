@@ -3775,7 +3775,13 @@ SHARP_NSLOTS
 ;
 if
 (
-prev
+!
+fp
+-
+>
+isGlobalFrame
+(
+)
 &
 &
 prev
@@ -3818,7 +3824,7 @@ isFunctionFrame
 prev
 -
 >
-isEvalOrDebuggerFrame
+isDirectEvalOrDebuggerFrame
 (
 )
 )
@@ -4198,6 +4204,12 @@ initGlobalFrame
 script
 *
 innerizedChain
+cx
+-
+>
+maybefp
+(
+)
 flags
 )
 ;

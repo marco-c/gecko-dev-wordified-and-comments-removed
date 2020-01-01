@@ -9997,6 +9997,16 @@ result
 return
 NS_OK
 ;
+if
+(
+JS_IsGlobalFrame
+(
+cx
+fp
+)
+)
+break
+;
 }
 while
 (

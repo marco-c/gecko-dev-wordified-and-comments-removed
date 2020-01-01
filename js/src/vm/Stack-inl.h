@@ -1519,6 +1519,9 @@ script
 JSObject
 &
 chain
+StackFrame
+*
+prev
 uint32
 flagsArg
 )
@@ -1603,7 +1606,7 @@ chain
 ;
 prev_
 =
-NULL
+prev
 ;
 JS_ASSERT
 (
