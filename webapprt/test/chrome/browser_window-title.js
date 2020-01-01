@@ -267,8 +267,6 @@ testNext
 ;
 appBrowser
 .
-webProgress
-.
 addProgressListener
 (
 progressListener
