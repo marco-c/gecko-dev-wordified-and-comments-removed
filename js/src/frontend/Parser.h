@@ -549,11 +549,6 @@ FunctionBodyType
 type
 )
 ;
-bool
-checkForArgumentsAndRest
-(
-)
-;
 private
 :
 ParseNode
@@ -819,9 +814,6 @@ ParseNode
 *
 *
 list
-bool
-&
-hasRest
 )
 ;
 ParseNode
