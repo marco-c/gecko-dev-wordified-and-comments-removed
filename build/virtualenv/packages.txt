@@ -27,6 +27,13 @@ pth
 python
 /
 blessings
+configobj
+.
+pth
+:
+python
+/
+configobj
 mach
 .
 pth
