@@ -3960,7 +3960,7 @@ context_cpu_type
 "
 wrong
 for
-MinidumpSysmtemInfo
+MinidumpSystemInfo
 CPU
 "
 <
