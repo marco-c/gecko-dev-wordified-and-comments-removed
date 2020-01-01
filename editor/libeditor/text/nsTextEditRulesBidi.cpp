@@ -115,15 +115,11 @@ shell
 )
 )
 ;
-if
-(
-NS_FAILED
+NS_ENSURE_SUCCESS
 (
 res
-)
-)
-return
 res
+)
 ;
 NS_ENSURE_TRUE
 (

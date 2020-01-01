@@ -121,15 +121,11 @@ GetNodeName
 tagName
 )
 ;
-if
-(
-NS_FAILED
+NS_ENSURE_SUCCESS
 (
 rv
-)
-)
-return
 rv
+)
 ;
 if
 (
