@@ -4330,7 +4330,7 @@ GLint
 &
 nf
 .
-alpha
+red
 )
 ;
 fGetIntegerv
@@ -4343,7 +4343,7 @@ GLint
 &
 nf
 .
-alpha
+green
 )
 ;
 fGetIntegerv
@@ -4356,7 +4356,7 @@ GLint
 &
 nf
 .
-alpha
+blue
 )
 ;
 fGetIntegerv
@@ -4395,7 +4395,7 @@ GLint
 &
 nf
 .
-depth
+stencil
 )
 ;
 mActualFormat
