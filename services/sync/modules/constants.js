@@ -153,6 +153,9 @@ kSyncInPrivateBrowsing
 kSyncNotScheduled
 '
 '
+kSyncBackoffNotMet
+'
+'
 FIREFOX_ID
 '
 '
