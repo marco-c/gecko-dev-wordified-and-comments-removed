@@ -234,6 +234,14 @@ maxDelayTime
 1
 )
 ;
+[
+Creator
+]
+PannerNode
+createPanner
+(
+)
+;
 }
 ;
 typedef

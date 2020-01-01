@@ -195,6 +195,10 @@ PaintRequestList
 .
 webidl
 \
+PannerNode
+.
+webidl
+\
 Performance
 .
 webidl
