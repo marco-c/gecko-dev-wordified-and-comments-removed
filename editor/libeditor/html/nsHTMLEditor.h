@@ -1521,12 +1521,6 @@ GetFocusedNode
 (
 )
 ;
-nsIContent
-*
-GetActiveEditingHost
-(
-)
-;
 PRBool
 SetCaretInTableCell
 (

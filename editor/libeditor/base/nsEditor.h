@@ -2173,6 +2173,14 @@ nsIDOMEventTarget
 aFocusEventTarget
 )
 ;
+void
+OnFocus
+(
+nsIDOMEventTarget
+*
+aFocusEventTarget
+)
+;
 protected
 :
 PRUint32
