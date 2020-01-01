@@ -125,6 +125,12 @@ textCopied
 )
 )
 ;
+SelectionHelperUI
+.
+closeEditSessionAndClear
+(
+)
+;
 }
 }
 else
@@ -242,6 +248,12 @@ Browser
 ContextCommand
 "
 json
+)
+;
+SelectionHelperUI
+.
+closeEditSessionAndClear
+(
 )
 ;
 }
