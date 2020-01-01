@@ -3641,6 +3641,11 @@ clear
 (
 )
 ;
+void
+rewind
+(
+)
+;
 LInsp
 next
 (
@@ -3717,9 +3722,6 @@ NumSavedRegs
 ;
 bool
 explicitSavedRegs
-;
-bool
-shared
 ;
 protected
 :

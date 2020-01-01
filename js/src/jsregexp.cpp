@@ -11812,6 +11812,13 @@ clearFrags
 (
 )
 ;
+lirbuf
+-
+>
+rewind
+(
+)
+;
 }
 else
 {
