@@ -3938,9 +3938,8 @@ return
 JS_TRUE
 ;
 }
-static
 JSBool
-num_valueOf
+js_num_valueOf
 (
 JSContext
 *
@@ -4392,14 +4391,14 @@ JSFUN_PRIMITIVE_THIS
 JS_FN
 (
 js_valueOf_str
-num_valueOf
+js_num_valueOf
 0
 JSFUN_PRIMITIVE_THIS
 )
 JS_FN
 (
 js_toJSON_str
-num_valueOf
+js_num_valueOf
 0
 JSFUN_PRIMITIVE_THIS
 )
