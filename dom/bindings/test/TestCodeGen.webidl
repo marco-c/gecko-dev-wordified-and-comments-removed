@@ -2156,6 +2156,11 @@ Dict
 x
 )
 ;
+Dict
+receiveDictionary
+(
+)
+;
 void
 passOtherDictionary
 (

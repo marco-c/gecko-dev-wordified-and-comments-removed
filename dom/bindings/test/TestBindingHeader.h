@@ -2411,6 +2411,13 @@ Dict
 )
 ;
 void
+ReceiveDictionary
+(
+Dict
+&
+)
+;
+void
 PassOtherDictionary
 (
 const
