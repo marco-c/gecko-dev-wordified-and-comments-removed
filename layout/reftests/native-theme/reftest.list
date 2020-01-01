@@ -760,6 +760,9 @@ resizer
 bottomright
 .
 xul
+#
+bug
+581086
 !
 =
 resizer
@@ -800,6 +803,12 @@ if
 (
 gtk2Widget
 )
+random
+-
+if
+(
+d2d
+)
 =
 =
 resizer
@@ -816,6 +825,9 @@ bottomend
 flipped
 .
 xul
+#
+bug
+581086
 #
 Windows
 -
