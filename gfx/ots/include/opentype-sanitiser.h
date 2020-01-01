@@ -800,6 +800,10 @@ uint8_t
 input
 size_t
 length
+bool
+preserve_graphite_tables
+=
+false
 )
 ;
 void
