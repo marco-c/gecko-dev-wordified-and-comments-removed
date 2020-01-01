@@ -4805,3 +4805,13 @@ metro
 modules
 #
 endif
+#
+ifdef
+MOZ_ASAN
+BINPATH
+/
+llvm
+-
+symbolizer
+#
+endif
