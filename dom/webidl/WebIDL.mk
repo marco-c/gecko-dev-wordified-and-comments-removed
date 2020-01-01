@@ -323,6 +323,10 @@ SVGAnimatedBoolean
 .
 webidl
 \
+SVGAnimatedLengthList
+.
+webidl
+\
 SVGAnimatedNumberList
 .
 webidl
