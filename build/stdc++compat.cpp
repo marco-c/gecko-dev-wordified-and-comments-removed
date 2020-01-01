@@ -9,15 +9,10 @@ include
 istream
 >
 #
-ifdef
-DEBUG
-#
 include
 <
 string
 >
-#
-endif
 #
 define
 GLIBCXX_VERSION
@@ -124,9 +119,6 @@ double
 ;
 #
 endif
-#
-ifdef
-DEBUG
 #
 if
 MOZ_LIBSTDCXX_VERSION
@@ -245,8 +237,6 @@ wstring
 &
 )
 ;
-#
-endif
 #
 endif
 #
