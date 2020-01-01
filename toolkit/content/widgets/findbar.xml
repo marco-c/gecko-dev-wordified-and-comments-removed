@@ -8368,6 +8368,12 @@ _quickFindTimeout
 null
 ;
 }
+this
+.
+_findFailedString
+=
+null
+;
 ]
 ]
 >
@@ -12161,12 +12167,6 @@ _browser
 fastFind
 .
 searchString
-&
-&
-!
-this
-.
-hidden
 )
 res
 =
