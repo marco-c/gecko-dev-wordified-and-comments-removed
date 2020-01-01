@@ -233,7 +233,7 @@ mNextPingID
 1
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -241,10 +241,6 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
 LOG3
@@ -891,7 +887,7 @@ RoomForMoreConcurrent
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -899,10 +895,6 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
 return
@@ -969,7 +961,7 @@ PRIntervalTime
 now
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -977,13 +969,9 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mNextPingID
 &
@@ -1263,7 +1251,7 @@ SpdyStream2
 stream
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -1271,10 +1259,6 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
 LOG3
@@ -1312,7 +1296,7 @@ mConcurrent
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mNextStreamID
 <
@@ -1371,7 +1355,7 @@ n
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -1417,7 +1401,7 @@ int32_t
 aPriority
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -1425,10 +1409,6 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
 if
@@ -1455,7 +1435,7 @@ n
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -1614,7 +1594,7 @@ SpdyStream2
 stream
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -1622,10 +1602,6 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
 mConcurrent
@@ -1715,7 +1691,7 @@ ProcessPending
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -1723,10 +1699,6 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
 while
@@ -1809,7 +1781,7 @@ uint32_t
 countWritten
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -1817,10 +1789,6 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
 if
@@ -2115,7 +2083,7 @@ GetWriteQueueSize
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -2123,10 +2091,6 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
 return
@@ -2154,7 +2118,7 @@ stateType
 newState
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -2162,10 +2126,6 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
 LOG3
@@ -2206,7 +2166,7 @@ ResetDownstreamState
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -2214,10 +2174,6 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
 LOG3
@@ -3718,7 +3674,7 @@ uint32_t
 aID
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -3726,10 +3682,6 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
 LOG3
@@ -3870,7 +3822,7 @@ uint32_t
 aID
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -3878,10 +3830,6 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
 LOG3
@@ -4038,7 +3986,7 @@ GenerateGoAway
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -4046,10 +3994,6 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
 LOG3
@@ -4151,7 +4095,7 @@ aOptionalID
 0
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -4159,10 +4103,6 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
 #
@@ -4371,7 +4311,7 @@ test
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -4398,7 +4338,7 @@ rstReason
 aResetCode
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -4406,10 +4346,6 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
 LOG3
@@ -4596,7 +4532,7 @@ nsresult
 aResult
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -4604,10 +4540,6 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
 LOG3
@@ -4865,7 +4797,7 @@ SpdySession2
 self
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 self
 -
@@ -4874,11 +4806,6 @@ mFrameControlType
 =
 =
 CONTROL_TYPE_SYN_STREAM
-"
-wrong
-control
-type
-"
 )
 ;
 if
@@ -5202,7 +5129,7 @@ SpdySession2
 self
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 self
 -
@@ -5211,11 +5138,6 @@ mFrameControlType
 =
 =
 CONTROL_TYPE_SYN_REPLY
-"
-wrong
-control
-type
-"
 )
 ;
 if
@@ -5792,7 +5714,7 @@ SpdySession2
 self
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 self
 -
@@ -5801,11 +5723,6 @@ mFrameControlType
 =
 =
 CONTROL_TYPE_RST_STREAM
-"
-wrong
-control
-type
-"
 )
 ;
 if
@@ -6150,7 +6067,7 @@ SpdySession2
 self
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 self
 -
@@ -6159,11 +6076,6 @@ mFrameControlType
 =
 =
 CONTROL_TYPE_SETTINGS
-"
-wrong
-control
-type
-"
 )
 ;
 if
@@ -6583,7 +6495,7 @@ SpdySession2
 self
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 self
 -
@@ -6592,11 +6504,6 @@ mFrameControlType
 =
 =
 CONTROL_TYPE_NOOP
-"
-wrong
-control
-type
-"
 )
 ;
 if
@@ -6677,7 +6584,7 @@ SpdySession2
 self
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 self
 -
@@ -6686,11 +6593,6 @@ mFrameControlType
 =
 =
 CONTROL_TYPE_PING
-"
-wrong
-control
-type
-"
 )
 ;
 if
@@ -6830,7 +6732,7 @@ SpdySession2
 self
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 self
 -
@@ -6839,11 +6741,6 @@ mFrameControlType
 =
 =
 CONTROL_TYPE_GOAWAY
-"
-wrong
-control
-type
-"
 )
 ;
 if
@@ -7184,7 +7081,7 @@ SpdySession2
 self
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 self
 -
@@ -7193,11 +7090,6 @@ mFrameControlType
 =
 =
 CONTROL_TYPE_HEADERS
-"
-wrong
-control
-type
-"
 )
 ;
 if
@@ -7333,7 +7225,7 @@ SpdySession2
 self
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 self
 -
@@ -7342,11 +7234,6 @@ mFrameControlType
 =
 =
 CONTROL_TYPE_WINDOW_UPDATE
-"
-wrong
-control
-type
-"
 )
 ;
 LOG3
@@ -7408,7 +7295,7 @@ uint64_t
 aProgress
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -7416,10 +7303,6 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
 switch
@@ -7495,7 +7378,7 @@ uint32_t
 countRead
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -7503,13 +7386,9 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mSegmentReader
@@ -7880,7 +7759,7 @@ uint32_t
 countWritten
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -7888,10 +7767,6 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
 nsresult
@@ -7921,7 +7796,7 @@ mDownstreamState
 BUFFERING_FRAME_HEADER
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mInputFrameBufferUsed
 <
@@ -8617,7 +8492,7 @@ mDownstreamState
 PROCESSING_CONTROL_SYN_REPLY
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mNeedsCleanup
@@ -8746,7 +8621,7 @@ NS_OK
 RST_CANCEL
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mNeedsCleanup
@@ -8976,7 +8851,7 @@ mDownstreamState
 BUFFERING_CONTROL_FRAME
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -8993,7 +8868,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 mInputFrameBufferUsed
 =
@@ -9117,7 +8992,7 @@ mFrameControlType
 CONTROL_TYPE_FIRST
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -9143,7 +9018,7 @@ mFrameControlType
 this
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 NS_FAILED
 (
@@ -9199,7 +9074,7 @@ nsresult
 aReason
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -9207,10 +9082,6 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
 if
@@ -9298,7 +9169,7 @@ nsresult
 aResult
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -9306,10 +9177,6 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
 LOG3
@@ -9456,7 +9323,7 @@ uint32_t
 countRead
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -9464,10 +9331,6 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
 nsresult
@@ -9714,7 +9577,7 @@ mOutputQueueUsed
 mOutputQueueSize
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 (
 mOutputQueueUsed
@@ -9758,7 +9621,7 @@ uint32_t
 countWritten
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -9766,10 +9629,6 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
 nsresult
@@ -10046,7 +9905,7 @@ StreamID
 )
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 !
 mNeedsCleanup
@@ -10077,7 +9936,7 @@ nsAHttpTransaction
 caller
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -10085,10 +9944,6 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
 LOG3
@@ -10203,7 +10058,7 @@ SpdyStream2
 stream
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -10211,10 +10066,6 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
 LOG3
@@ -10288,7 +10139,7 @@ nsIAsyncOutputStream
 *
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -10311,7 +10162,7 @@ TakeHttpConnection
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -10380,7 +10231,7 @@ nsAHttpConnection
 *
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -10405,7 +10256,7 @@ nsIInterfaceRequestor
 *
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -10427,7 +10278,7 @@ SetProxyConnectFailed
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -10466,7 +10317,7 @@ Status
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -10491,7 +10342,7 @@ Caps
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -10516,7 +10367,7 @@ Available
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -10542,7 +10393,7 @@ RequestHead
 (
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -10550,13 +10401,9 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -10734,7 +10581,7 @@ nsAHttpTransaction
 *
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -10783,7 +10630,7 @@ int32_t
 position
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "
@@ -10825,7 +10672,7 @@ Connection
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 PR_GetCurrentThread
 (
@@ -10833,10 +10680,6 @@ PR_GetCurrentThread
 =
 =
 gSocketThread
-"
-wrong
-thread
-"
 )
 ;
 return

@@ -2787,7 +2787,7 @@ PrepareForNext
 void
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mCurStart
 =

@@ -381,7 +381,7 @@ CreateAtomTable
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 sAtomTable
@@ -526,7 +526,7 @@ stub
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 stub

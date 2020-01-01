@@ -219,7 +219,7 @@ nsHttpChannelAuthProvider
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 mAuthChannel
@@ -255,7 +255,7 @@ nsIHttpAuthenticableChannel
 channel
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 channel
 "
@@ -436,7 +436,7 @@ SSLConnectFailed
 )
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 mAuthChannel
 "
@@ -739,7 +739,7 @@ mAuthChannel
 )
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 mAuthChannel
 "
@@ -997,7 +997,7 @@ mAuthChannel
 )
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 mAuthChannel
 "
@@ -1048,7 +1048,7 @@ nsresult
 status
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mAuthChannel
 "
@@ -2217,7 +2217,7 @@ if
 proxyAuth
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 UsingHttpProxy
 (
@@ -4367,7 +4367,7 @@ rv
 )
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 false
 "

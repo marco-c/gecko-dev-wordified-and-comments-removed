@@ -67,7 +67,7 @@ int32_t
 aPriority
 )
 {
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 version
 =
@@ -259,7 +259,7 @@ IsSpdyV2Enabled
 (
 )
 ;
-NS_ABORT_IF_FALSE
+MOZ_ASSERT
 (
 false
 "

@@ -248,7 +248,7 @@ paramType
 aParam
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 aParam
 .
@@ -328,7 +328,7 @@ get
 )
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 aResult
 -

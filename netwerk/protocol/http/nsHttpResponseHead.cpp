@@ -1086,7 +1086,7 @@ result
 ageValue
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 now
 >
