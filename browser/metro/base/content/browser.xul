@@ -4529,6 +4529,16 @@ flex
 "
 1
 "
+onpaste
+=
+"
+this
+.
+focus
+(
+)
+;
+"
 ontextentered
 =
 "
