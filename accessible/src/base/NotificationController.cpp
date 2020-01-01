@@ -670,8 +670,6 @@ Telemetry
 A11Y_UPDATE_TIME
 >
 updateTimer
-(
-)
 ;
 NS_ASSERTION
 (
