@@ -177,11 +177,6 @@ nsIFrame
 *
 GetCaretFrame
 (
-PRInt32
-*
-aOffset
-=
-nsnull
 )
 ;
 nsRect
