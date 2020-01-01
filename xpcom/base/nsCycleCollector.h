@@ -165,7 +165,7 @@ public
 nsCycleCollectionLanguageRuntime
 {
 virtual
-void
+bool
 NotifyLeaveMainThread
 (
 )

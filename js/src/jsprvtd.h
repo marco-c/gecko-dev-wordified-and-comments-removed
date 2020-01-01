@@ -108,11 +108,6 @@ JSSharpObjectMap
 ;
 typedef
 struct
-JSThread
-JSThread
-;
-typedef
-struct
 JSTryNote
 JSTryNote
 ;
