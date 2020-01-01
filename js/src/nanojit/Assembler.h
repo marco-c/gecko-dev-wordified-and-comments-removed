@@ -721,7 +721,7 @@ bool
 optimize
 verbose_only
 (
-LabelMap
+LInsPrinter
 *
 )
 )

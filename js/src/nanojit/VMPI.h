@@ -200,6 +200,10 @@ VMPI_sprintf
 sprintf
 #
 define
+VMPI_snprintf
+snprintf
+#
+define
 VMPI_vfprintf
 vfprintf
 #
