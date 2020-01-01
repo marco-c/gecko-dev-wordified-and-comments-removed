@@ -129,11 +129,6 @@ nsIIDBDatabase
 idl
 '
 '
-nsIIDBFileHandle
-.
-idl
-'
-'
 nsIIDBIndex
 .
 idl

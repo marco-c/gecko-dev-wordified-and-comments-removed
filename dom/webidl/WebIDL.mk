@@ -691,6 +691,10 @@ IDBFactory
 .
 webidl
 \
+IDBFileHandle
+.
+webidl
+\
 IDBVersionChangeEvent
 .
 webidl

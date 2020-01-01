@@ -571,11 +571,6 @@ nsIIDBDatabase
 *
 '
 '
-nsIIDBFileHandle
-.
-*
-'
-'
 nsIIDBIndex
 .
 *
