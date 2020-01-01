@@ -253,12 +253,12 @@ ProvidesGetGlyph
 (
 )
 )
-mUseHintedWidths
+mUseFontGlyphWidths
 (
 aFont
 -
 >
-ProvidesHintedWidths
+ProvidesGlyphWidths
 (
 )
 )
@@ -728,7 +728,7 @@ const
 {
 if
 (
-mUseHintedWidths
+mUseFontGlyphWidths
 )
 {
 *
@@ -737,7 +737,7 @@ x_advance
 mFont
 -
 >
-GetHintedGlyphWidth
+GetGlyphWidth
 (
 aContext
 glyph
@@ -3058,7 +3058,7 @@ mCmapTable
 if
 (
 !
-mUseHintedWidths
+mUseFontGlyphWidths
 )
 {
 hb_blob_t
@@ -3227,7 +3227,7 @@ mCmapFormat
 |
 (
 !
-mUseHintedWidths
+mUseFontGlyphWidths
 &
 &
 !

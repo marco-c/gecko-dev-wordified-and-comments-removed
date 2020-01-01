@@ -797,7 +797,7 @@ PRInt32
 gfxFT2FontBase
 :
 :
-GetHintedGlyphWidth
+GetGlyphWidth
 (
 gfxContext
 *

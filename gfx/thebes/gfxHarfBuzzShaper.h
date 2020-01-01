@@ -208,7 +208,7 @@ PRPackedBool
 mUseFontGetGlyph
 ;
 PRPackedBool
-mUseHintedWidths
+mUseFontGlyphWidths
 ;
 }
 ;
