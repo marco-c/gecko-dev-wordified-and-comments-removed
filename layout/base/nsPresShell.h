@@ -1694,6 +1694,8 @@ DidDoReflow
 (
 bool
 aInterruptible
+bool
+aWasInterrupted
 )
 ;
 bool
