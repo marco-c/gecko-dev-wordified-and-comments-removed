@@ -8971,7 +8971,7 @@ xpc
 WrapperFactory
 :
 :
-IsPartiallyTransparent
+IsXOW
 (
 obj
 )

@@ -52,7 +52,7 @@ IS_XRAY_WRAPPER_FLAG
 <
 <
 1
-PARTIALLY_TRANSPARENT
+XOW_FLAG
 =
 SCRIPT_ACCESS_ONLY_FLAG
 <
@@ -60,7 +60,7 @@ SCRIPT_ACCESS_ONLY_FLAG
 1
 SOW_FLAG
 =
-PARTIALLY_TRANSPARENT
+XOW_FLAG
 <
 <
 1
@@ -128,7 +128,7 @@ IS_XRAY_WRAPPER_FLAG
 }
 static
 bool
-IsPartiallyTransparent
+IsXOW
 (
 JSObject
 *
@@ -139,7 +139,7 @@ return
 HasWrapperFlag
 (
 wrapper
-PARTIALLY_TRANSPARENT
+XOW_FLAG
 )
 ;
 }
