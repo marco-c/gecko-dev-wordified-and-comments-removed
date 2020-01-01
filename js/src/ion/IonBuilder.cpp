@@ -26717,6 +26717,11 @@ cacheable
 =
 false
 ;
+bool
+intIndex
+=
+false
+;
 oracle
 -
 >
@@ -26728,6 +26733,8 @@ pc
 cacheable
 &
 mustMonitorResult
+&
+intIndex
 )
 ;
 if
@@ -26820,6 +26827,9 @@ pc
 if
 (
 cacheable
+&
+&
+intIndex
 &
 &
 !

@@ -2208,6 +2208,9 @@ cacheable
 bool
 *
 monitorResult
+bool
+*
+intIndex
 )
 {
 MIRType
@@ -2279,6 +2282,14 @@ id
 MIRType_String
 )
 )
+;
+*
+intIndex
+=
+id
+=
+=
+MIRType_Int32
 ;
 if
 (
