@@ -1260,6 +1260,17 @@ TCF_FUN_LOCAL_ARGUMENTS
 ;
 }
 void
+noteLocalOverwritesArguments
+(
+)
+{
+flags
+|
+=
+TCF_FUN_LOCAL_ARGUMENTS
+;
+}
+void
 noteArgumentsNameUse
 (
 ParseNode
