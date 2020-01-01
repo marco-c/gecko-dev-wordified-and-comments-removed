@@ -1820,7 +1820,7 @@ TOPSRCDIR
 /
 mkfile
 preflight_all
-topsrcdir
+TOPSRCDIR
 =
 (
 TOPSRCDIR
@@ -1891,7 +1891,7 @@ TOPSRCDIR
 /
 mkfile
 preflight_all
-topsrcdir
+TOPSRCDIR
 =
 (
 TOPSRCDIR
@@ -2716,7 +2716,7 @@ TOPSRCDIR
 /
 mkfile
 preflight
-topsrcdir
+TOPSRCDIR
 =
 (
 TOPSRCDIR
@@ -2937,7 +2937,7 @@ TOPSRCDIR
 /
 mkfile
 postflight
-topsrcdir
+TOPSRCDIR
 =
 (
 TOPSRCDIR
@@ -3077,7 +3077,7 @@ TOPSRCDIR
 /
 mkfile
 postflight_all
-topsrcdir
+TOPSRCDIR
 =
 (
 TOPSRCDIR
@@ -3148,7 +3148,7 @@ TOPSRCDIR
 /
 mkfile
 postflight_all
-topsrcdir
+TOPSRCDIR
 =
 (
 TOPSRCDIR

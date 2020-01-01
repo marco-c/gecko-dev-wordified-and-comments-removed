@@ -515,7 +515,7 @@ it
 up
 .
 (
-topsrcdir
+TOPSRCDIR
 )
 /
 build
@@ -606,7 +606,7 @@ MOZ_PKG_APPNAME
 APPNAME
 )
 (
-topsrcdir
+TOPSRCDIR
 )
 /
 build
@@ -871,7 +871,7 @@ reftest
 ;
 \
 (
-topsrcdir
+TOPSRCDIR
 )
 /
 build
