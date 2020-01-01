@@ -1396,10 +1396,13 @@ padding
 5px
 ;
 overflow
--
-x
 :
+-
+moz
+-
 hidden
+-
+unscrollable
 ;
 text
 -
