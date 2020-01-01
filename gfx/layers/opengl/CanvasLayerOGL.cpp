@@ -189,6 +189,10 @@ GLContext
 "
 )
 ;
+mNeedsYFlip
+=
+PR_TRUE
+;
 }
 else
 if
@@ -247,6 +251,10 @@ mGLBufferIsPremultiplied
 aData
 .
 mGLBufferIsPremultiplied
+;
+mNeedsYFlip
+=
+PR_FALSE
 ;
 }
 else
