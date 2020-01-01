@@ -1521,6 +1521,12 @@ topleft
 ;
 this
 .
+_hidePanel
+(
+)
+;
+this
+.
 _currentAnchorElement
 =
 anchorElement
