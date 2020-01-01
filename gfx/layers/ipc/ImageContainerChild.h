@@ -148,6 +148,12 @@ Image
 >
 CreateImage
 (
+const
+uint32_t
+*
+aFormats
+uint32_t
+aNumFormats
 )
 ;
 bool
