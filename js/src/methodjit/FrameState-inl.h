@@ -693,9 +693,7 @@ rawPush
 fe
 -
 >
-type
-.
-unsync
+resetSynced
 (
 )
 ;
@@ -705,15 +703,6 @@ fe
 setTypeTag
 (
 tag
-)
-;
-fe
--
->
-data
-.
-setMemory
-(
 )
 ;
 }
