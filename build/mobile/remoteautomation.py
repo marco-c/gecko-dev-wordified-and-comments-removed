@@ -647,6 +647,16 @@ javaException
 return
 True
         
+if
+not
+self
+.
+CRASHREPORTER
+:
+            
+return
+False
+        
 try
 :
             
