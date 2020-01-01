@@ -703,6 +703,10 @@ browser_localerepository
 .
 js
 \
+browser_localerepository_pref
+.
+js
+\
 locales_list
 .
 sjs
