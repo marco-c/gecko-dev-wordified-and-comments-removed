@@ -559,6 +559,10 @@ SVGLocatableElement
 .
 webidl
 \
+SVGMaskElement
+.
+webidl
+\
 SVGMatrix
 .
 webidl

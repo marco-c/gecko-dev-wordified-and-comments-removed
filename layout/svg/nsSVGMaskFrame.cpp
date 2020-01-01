@@ -200,7 +200,7 @@ mLengthAttributes
 SVGMaskElement
 :
 :
-X
+ATTR_X
 ]
 bbox
 aParent
