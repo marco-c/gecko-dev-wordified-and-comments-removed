@@ -23864,6 +23864,9 @@ oldscript
 ;
 if
 (
+ok
+&
+&
 ss
 .
 top
