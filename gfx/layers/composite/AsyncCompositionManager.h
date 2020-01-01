@@ -513,6 +513,13 @@ const
 gfx3DMatrix
 &
 aPreviousTransformForRoot
+const
+gfx
+:
+:
+Margin
+&
+aFixedLayerMargins
 )
 ;
 void
