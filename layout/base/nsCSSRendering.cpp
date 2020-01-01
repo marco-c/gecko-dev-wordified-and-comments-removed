@@ -17400,7 +17400,7 @@ pos
 PR_MIN
 (
 pos
-stride
+rows
 -
 1
 )
