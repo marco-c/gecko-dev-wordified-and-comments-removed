@@ -1154,6 +1154,9 @@ AlphaBoxBlur
 :
 BoxBlur_SSE2
 (
+uint8_t
+*
+aData
 int32_t
 aLeftLobe
 int32_t
@@ -1271,7 +1274,7 @@ aTopLobe
 aBottomLobe
 aIntegralImage
 aIntegralImageStride
-mData
+aData
 mStride
 size
 )
@@ -1323,7 +1326,7 @@ uint8_t
 *
 data
 =
-mData
+aData
 ;
 for
 (
