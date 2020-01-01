@@ -11791,6 +11791,11 @@ GetCGContext
 (
 )
 ;
+CGContextSaveGState
+(
+ctx
+)
+;
 double
 scale
 =
@@ -12158,6 +12163,11 @@ setCurrentContext
 :
 oldContext
 ]
+;
+CGContextRestoreGState
+(
+ctx
+)
 ;
 mUpdatedTitlebarRegion
 .
