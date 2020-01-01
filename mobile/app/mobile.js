@@ -2214,3 +2214,15 @@ unvisitedTypedBonus
 200
 )
 ;
+pref
+(
+"
+gfx
+.
+color_management
+.
+mode
+"
+0
+)
+;
