@@ -110,6 +110,10 @@ failing_tests_android
 .
 txt
 \
+skipped_tests_android
+.
+txt
+\
 (
 NULL
 )
