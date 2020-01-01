@@ -1803,6 +1803,12 @@ wat
 "
 )
 ;
+return
+RegisterID
+(
+worst
+)
+;
 }
 bool
 forgetReg
@@ -1938,11 +1944,7 @@ for
 uint32
 i
 =
-tracker
-.
-nentries
--
-1
+resumeAt
 ;
 i
 <
