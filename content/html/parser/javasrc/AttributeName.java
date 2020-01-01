@@ -6510,7 +6510,7 @@ public
 static
 final
 AttributeName
-UNI_CODE
+UNICODE
 =
 new
 AttributeName
@@ -15022,7 +15022,7 @@ MINSIZE
 MAXSIZE
 LOOPEND
 LARGEOP
-UNI_CODE
+UNICODE
 TARGETX
 TARGETY
 VIEWBOX
