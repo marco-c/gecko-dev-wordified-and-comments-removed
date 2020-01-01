@@ -158,7 +158,7 @@ strResult
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+PR_FALSE
 )
 ;
 PRInt32
@@ -313,7 +313,7 @@ strResult
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+PR_FALSE
 )
 ;
 PRInt32

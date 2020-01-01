@@ -4753,7 +4753,7 @@ nsnull
 NS_ENSURE_TRUE
 (
 compiler
-NS_ERROR_OUT_OF_MEMORY
+PR_FALSE
 )
 ;
 nsAutoPtr

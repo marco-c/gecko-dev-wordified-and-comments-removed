@@ -5174,7 +5174,7 @@ codebase
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+PR_FALSE
 )
 ;
 nsCOMPtr
@@ -5199,7 +5199,7 @@ channelURI
 NS_ENSURE_SUCCESS
 (
 rv
-rv
+PR_FALSE
 )
 ;
 rv
@@ -9660,9 +9660,13 @@ _retval
 *
 _retval
 =
+!
+!
+(
 mState
 &
 XML_HTTP_REQUEST_MULTIPART
+)
 ;
 return
 NS_OK

@@ -678,9 +678,10 @@ nsPresContext
 aPresContext
 )
 {
-NS_ENSURE_ARG_POINTER
+NS_ENSURE_TRUE
 (
 aPresContext
+PR_FALSE
 )
 ;
 nsPIDOMWindow
@@ -974,6 +975,8 @@ IME_STATUS_MASK_OPENED
 PRBool
 open
 =
+!
+!
 (
 aState
 &

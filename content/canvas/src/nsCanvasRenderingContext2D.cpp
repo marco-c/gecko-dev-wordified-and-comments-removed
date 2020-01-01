@@ -7803,9 +7803,8 @@ NS_ERROR_DOM_SYNTAX_ERR
 *
 retVal
 =
-(
-PRBool
-)
+!
+!
 cairo_in_fill
 (
 mCairo

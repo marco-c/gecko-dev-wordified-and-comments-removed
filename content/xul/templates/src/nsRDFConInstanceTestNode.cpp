@@ -1252,7 +1252,7 @@ if
 rdfc
 )
 return
-NS_ERROR_FAILURE
+PR_FALSE
 ;
 rv
 =

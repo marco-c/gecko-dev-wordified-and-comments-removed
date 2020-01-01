@@ -971,6 +971,8 @@ rv
 PRBool
 isXULKey
 =
+!
+!
 (
 mType
 &
@@ -980,6 +982,8 @@ NS_HANDLER_TYPE_XUL
 PRBool
 isXBLCommand
 =
+!
+!
 (
 mType
 &
