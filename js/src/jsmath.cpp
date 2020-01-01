@@ -2160,7 +2160,6 @@ math_toSource
 0
 0
 0
-0
 )
 #
 endif
@@ -2173,7 +2172,6 @@ math_abs
 1
 1
 0
-0
 )
 JS_FN
 (
@@ -2183,7 +2181,6 @@ acos
 math_acos
 1
 1
-0
 0
 )
 JS_FN
@@ -2195,7 +2192,6 @@ math_asin
 1
 1
 0
-0
 )
 JS_FN
 (
@@ -2205,7 +2201,6 @@ atan
 math_atan
 1
 1
-0
 0
 )
 JS_FN
@@ -2217,7 +2212,6 @@ math_atan2
 2
 2
 0
-0
 )
 JS_FN
 (
@@ -2227,7 +2221,6 @@ ceil
 math_ceil
 1
 1
-0
 0
 )
 JS_FN
@@ -2239,7 +2232,6 @@ math_cos
 1
 1
 0
-0
 )
 JS_FN
 (
@@ -2249,7 +2241,6 @@ exp
 math_exp
 1
 1
-0
 0
 )
 JS_FN
@@ -2261,7 +2252,6 @@ math_floor
 1
 1
 0
-0
 )
 JS_FN
 (
@@ -2271,7 +2261,6 @@ log
 math_log
 1
 1
-0
 0
 )
 JS_FN
@@ -2283,7 +2272,6 @@ math_max
 0
 2
 0
-0
 )
 JS_FN
 (
@@ -2293,7 +2281,6 @@ min
 math_min
 0
 2
-0
 0
 )
 JS_FN
@@ -2305,7 +2292,6 @@ math_pow
 2
 2
 0
-0
 )
 JS_FN
 (
@@ -2313,7 +2299,6 @@ JS_FN
 random
 "
 math_random
-0
 0
 0
 0
@@ -2327,7 +2312,6 @@ math_round
 1
 1
 0
-0
 )
 JS_FN
 (
@@ -2337,7 +2321,6 @@ sin
 math_sin
 1
 1
-0
 0
 )
 JS_FN
@@ -2349,7 +2332,6 @@ math_sqrt
 1
 1
 0
-0
 )
 JS_FN
 (
@@ -2359,7 +2341,6 @@ tan
 math_tan
 1
 1
-0
 0
 )
 JS_FS_END

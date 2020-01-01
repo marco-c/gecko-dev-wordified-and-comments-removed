@@ -3622,7 +3622,6 @@ script_toSource
 0
 0
 0
-0
 )
 #
 endif
@@ -3630,7 +3629,6 @@ JS_FN
 (
 js_toString_str
 script_toString
-0
 0
 0
 0
@@ -3644,7 +3642,6 @@ script_compile
 0
 2
 0
-0
 )
 JS_FN
 (
@@ -3654,7 +3651,6 @@ exec
 script_exec
 0
 1
-0
 0
 )
 #
@@ -3669,7 +3665,6 @@ script_freeze
 0
 0
 0
-0
 )
 JS_FN
 (
@@ -3677,7 +3672,6 @@ js_thaw_str
 script_thaw
 0
 1
-0
 0
 )
 #
@@ -4053,7 +4047,6 @@ js_thaw_str
 script_static_thaw
 1
 1
-0
 0
 )
 JS_FS_END
