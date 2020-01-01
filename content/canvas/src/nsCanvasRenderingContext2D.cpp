@@ -10267,6 +10267,12 @@ GetArgvPtr
 argv
 )
 ;
+JSAutoRequest
+ar
+(
+ctx
+)
+;
 int32
 x
 y
@@ -10956,6 +10962,12 @@ GetArgvPtr
 (
 &
 argv
+)
+;
+JSAutoRequest
+ar
+(
+ctx
 )
 ;
 JSObject

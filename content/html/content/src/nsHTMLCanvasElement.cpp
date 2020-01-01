@@ -1161,6 +1161,12 @@ aDataURL
 )
 ;
 }
+JSAutoRequest
+ar
+(
+ctx
+)
+;
 if
 (
 argc
