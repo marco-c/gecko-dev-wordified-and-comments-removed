@@ -732,6 +732,7 @@ inst
 NS_ERROR_NULL_POINTER
 )
 ;
+*
 aIsAsync
 =
 PR_FALSE
