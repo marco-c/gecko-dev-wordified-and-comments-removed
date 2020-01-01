@@ -702,7 +702,7 @@ WARNING
 *
 EOF
 exit
-2
+1
 }
 unset
 directory

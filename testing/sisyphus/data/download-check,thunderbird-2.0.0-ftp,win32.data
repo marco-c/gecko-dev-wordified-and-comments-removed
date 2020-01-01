@@ -4,7 +4,7 @@ http
 :
 /
 /
-stage
+ftp
 .
 mozilla
 .
@@ -26,7 +26,7 @@ releases
 .
 0
 .
-4
+7
 /
 product
 =
@@ -66,7 +66,7 @@ releases
 .
 0
 .
-4
+7
 /
 win32
 /
@@ -84,7 +84,7 @@ Firefox
 .
 0
 .
-4
+7
 .
 exe
 profilename

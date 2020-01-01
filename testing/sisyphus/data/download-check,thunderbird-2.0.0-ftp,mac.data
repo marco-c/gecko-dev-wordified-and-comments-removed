@@ -4,7 +4,7 @@ http
 :
 /
 /
-stage
+ftp
 .
 mozilla
 .
@@ -26,7 +26,7 @@ releases
 .
 0
 .
-4
+7
 /
 product
 =
@@ -66,7 +66,7 @@ releases
 .
 0
 .
-4
+7
 /
 mac
 /
@@ -82,7 +82,7 @@ Firefox
 .
 0
 .
-4
+7
 .
 dmg
 profilename

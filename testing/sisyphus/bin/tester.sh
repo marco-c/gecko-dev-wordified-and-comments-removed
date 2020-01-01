@@ -668,7 +668,7 @@ item4
 }
 EOF
 exit
-2
+1
 }
 unset
 testscript

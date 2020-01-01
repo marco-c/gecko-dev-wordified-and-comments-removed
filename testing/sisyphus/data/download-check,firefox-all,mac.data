@@ -4,13 +4,11 @@ http
 :
 /
 /
-khan
+www
 .
-landfill
+mozilla
 .
-bugzilla
-.
-org
+com
 /
 en
 -
@@ -59,7 +57,7 @@ releases
 .
 0
 .
-3
+7
 /
 mac
 /
@@ -75,7 +73,7 @@ Firefox
 .
 0
 .
-3
+7
 .
 dmg
 profilename

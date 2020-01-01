@@ -14,7 +14,7 @@ http
 :
 /
 /
-stage
+ftp
 .
 mozilla
 .
@@ -46,7 +46,7 @@ firefox
 .
 0
 .
-13pre
+14pre
 .
 en
 -

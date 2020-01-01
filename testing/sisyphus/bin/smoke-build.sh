@@ -463,7 +463,7 @@ build
 sh
 directorypattern
 exit
-2
+1
 fi
 for
 filepath

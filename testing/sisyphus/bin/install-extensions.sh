@@ -1226,6 +1226,8 @@ fi
 echo
 installing
 extension
+if
+!
 TEST_BIN
 /
 timed_run
@@ -1250,6 +1252,16 @@ extension
 "
 extensionos
 "
+;
+then
+error
+"
+Failed
+to
+install
+extensionos
+"
+fi
 done
 #
 restart

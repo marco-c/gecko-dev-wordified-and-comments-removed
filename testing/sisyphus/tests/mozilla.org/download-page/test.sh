@@ -567,6 +567,8 @@ all
 ]
 ;
 then
+TEST_BIN
+/
 timed_run
 .
 py
@@ -663,6 +665,8 @@ ftp
 ]
 ;
 then
+TEST_BIN
+/
 timed_run
 .
 py
