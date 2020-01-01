@@ -985,6 +985,7 @@ mGetterText
 GetLineNumber
 (
 )
+JSVERSION_LATEST
 PR_TRUE
 (
 void
@@ -1150,6 +1151,7 @@ mSetterText
 GetLineNumber
 (
 )
+JSVERSION_LATEST
 PR_TRUE
 (
 void

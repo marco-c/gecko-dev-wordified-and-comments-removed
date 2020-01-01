@@ -813,6 +813,7 @@ args
 scriptBody
 nsnull
 lineNumber
+JSVERSION_DEFAULT
 PR_FALSE
 &
 funcObject

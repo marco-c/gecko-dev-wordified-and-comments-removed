@@ -3040,6 +3040,7 @@ argNames
 aBody
 aURL
 aLineNo
+SCRIPTVERSION_DEFAULT
 aHandler
 )
 ;

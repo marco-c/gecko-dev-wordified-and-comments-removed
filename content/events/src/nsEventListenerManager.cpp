@@ -3863,6 +3863,7 @@ get
 (
 )
 lineNo
+SCRIPTVERSION_DEFAULT
 handler
 )
 ;
@@ -4822,6 +4823,7 @@ get
 (
 )
 lineNo
+SCRIPTVERSION_DEFAULT
 handler
 )
 ;

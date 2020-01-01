@@ -915,6 +915,7 @@ mBodyText
 GetLineNumber
 (
 )
+JSVERSION_LATEST
 PR_TRUE
 (
 void

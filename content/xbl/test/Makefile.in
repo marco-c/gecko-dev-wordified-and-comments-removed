@@ -481,6 +481,10 @@ test_bug397934
 .
 xhtml
 \
+test_bug389322
+.
+xhtml
+\
 test_bug398135
 .
 xhtml

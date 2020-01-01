@@ -401,7 +401,7 @@ get
 (
 )
 mLineNumber
-nsnull
+JSVERSION_LATEST
 (
 void
 *
