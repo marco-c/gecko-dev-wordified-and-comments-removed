@@ -112,6 +112,9 @@ mozIStorageConnection
 .
 h
 "
+class
+nsIMemoryReporter
+;
 namespace
 mozilla
 {
@@ -505,6 +508,12 @@ nsIURI
 *
 aURI
 )
+;
+nsCOMPtr
+<
+nsIMemoryReporter
+>
+mReporter
 ;
 }
 ;
