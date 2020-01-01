@@ -516,6 +516,10 @@ friend
 class
 InitializationGuard
 ;
+friend
+class
+PrepareEditorEvent
+;
 nsITextControlElement
 *
 const
@@ -584,6 +588,9 @@ mEditorInitialized
 ;
 PRPackedBool
 mInitializing
+;
+PRPackedBool
+mValueTransferInProgress
 ;
 }
 ;
