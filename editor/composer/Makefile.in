@@ -412,13 +412,7 @@ mk
 DIRS
 =
 public
-ifndef
-MOZ_PLAINTEXT_EDITOR_ONLY
-DIRS
-+
-=
 src
-endif
 ifdef
 ENABLE_TESTS
 DIRS
