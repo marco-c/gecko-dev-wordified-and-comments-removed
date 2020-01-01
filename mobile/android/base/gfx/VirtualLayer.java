@@ -14,17 +14,6 @@ graphics
 .
 Point
 ;
-import
-javax
-.
-microedition
-.
-khronos
-.
-opengles
-.
-GL10
-;
 public
 class
 VirtualLayer
@@ -91,8 +80,6 @@ protected
 boolean
 performUpdates
 (
-GL10
-gl
 RenderContext
 context
 )
@@ -111,7 +98,6 @@ super
 .
 performUpdates
 (
-gl
 context
 )
 ;

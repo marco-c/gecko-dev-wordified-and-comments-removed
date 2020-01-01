@@ -690,8 +690,6 @@ protected
 boolean
 performUpdates
 (
-GL10
-gl
 RenderContext
 context
 )
@@ -700,7 +698,6 @@ super
 .
 performUpdates
 (
-gl
 context
 )
 ;
@@ -729,14 +726,14 @@ mBlend
 =
 mNewBlend
 ;
-gl
+GLES11
 .
 glEnable
 (
 LOCAL_GL_TEXTURE_EXTERNAL_OES
 )
 ;
-gl
+GLES11
 .
 glBindTexture
 (
@@ -750,7 +747,7 @@ updateTexImage
 (
 )
 ;
-gl
+GLES11
 .
 glDisable
 (

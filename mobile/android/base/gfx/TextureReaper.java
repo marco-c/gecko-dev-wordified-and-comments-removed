@@ -8,15 +8,11 @@ gecko
 gfx
 ;
 import
-javax
+android
 .
-microedition
+opengl
 .
-khronos
-.
-opengles
-.
-GL10
+GLES20
 ;
 import
 java
@@ -125,8 +121,6 @@ public
 void
 reap
 (
-GL10
-gl
 )
 {
 int
@@ -179,7 +173,7 @@ clear
 (
 )
 ;
-gl
+GLES20
 .
 glDeleteTextures
 (

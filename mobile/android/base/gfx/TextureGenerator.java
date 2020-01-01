@@ -12,7 +12,7 @@ android
 .
 opengl
 .
-GLES10
+GLES20
 ;
 import
 java
@@ -144,7 +144,7 @@ size
 MIN_TEXTURES
 )
 {
-GLES10
+GLES20
 .
 glGenTextures
 (
