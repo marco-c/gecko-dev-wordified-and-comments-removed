@@ -3638,7 +3638,9 @@ pc
 Registers
 :
 :
-ReturnReg
+tempCallReg
+(
+)
 )
 ;
 void
@@ -5036,7 +5038,9 @@ pc
 Registers
 :
 :
-ReturnReg
+tempCallReg
+(
+)
 )
 ;
 masm

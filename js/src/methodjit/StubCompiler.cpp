@@ -717,7 +717,9 @@ PC
 Registers
 :
 :
-ReturnReg
+tempCallReg
+(
+)
 )
 ;
 DataLabelPtr
