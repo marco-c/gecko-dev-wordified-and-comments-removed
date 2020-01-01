@@ -456,6 +456,10 @@ mk
 _TEST_FILES
 =
 \
+content
+.
+html
+\
 empty
 .
 js
