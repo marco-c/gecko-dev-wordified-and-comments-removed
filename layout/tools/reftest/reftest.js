@@ -1408,7 +1408,7 @@ document
 getElementsByTagName
 (
 "
-window
+html
 "
 )
 [
