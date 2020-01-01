@@ -29,7 +29,7 @@ public
 AtomImpl
 (
 const
-nsACString
+nsAString
 &
 aString
 )
@@ -59,7 +59,7 @@ mLength
 *
 sizeof
 (
-char
+PRUnichar
 )
 <
 =
@@ -138,7 +138,7 @@ mRefCnt
 PRUint32
 mLength
 ;
-char
+PRUnichar
 *
 mString
 ;
@@ -155,7 +155,7 @@ public
 PermanentAtomImpl
 (
 const
-nsACString
+nsAString
 &
 aString
 )

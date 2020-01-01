@@ -76,10 +76,7 @@ aResult
 =
 NS_NewPermanentAtom
 (
-NS_ConvertUTF16toUTF8
-(
 aString
-)
 )
 ;
 if
@@ -153,7 +150,7 @@ aResult
 =
 NS_NewPermanentAtom
 (
-nsDependentCString
+NS_ConvertUTF8toUTF16
 (
 aValue
 )
