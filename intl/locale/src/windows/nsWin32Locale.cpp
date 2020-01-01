@@ -2745,7 +2745,7 @@ char
 *
 country_code
 ;
-int
+size_t
 i
 j
 ;
@@ -3032,7 +3032,7 @@ DWORD
 lang_id
 sublang_id
 ;
-int
+size_t
 i
 j
 ;
@@ -3301,7 +3301,7 @@ test_internal_tables
 void
 )
 {
-int
+size_t
 i
 ;
 for

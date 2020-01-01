@@ -205,7 +205,7 @@ h
 #
 include
 "
-nsIHTMLContentSink
+nsIFrame
 .
 h
 "

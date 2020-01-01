@@ -297,6 +297,10 @@ gfxPattern
 :
 GraphicsFilter
 aFilter
+PRUint32
+aFlags
+=
+RenderFlagPremultAlpha
 )
 ;
 virtual

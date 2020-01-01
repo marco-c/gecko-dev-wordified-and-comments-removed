@@ -101,7 +101,7 @@ mAList
 aAList
 )
 {
-SetIsProxy
+SetIsDOMBinding
 (
 )
 ;

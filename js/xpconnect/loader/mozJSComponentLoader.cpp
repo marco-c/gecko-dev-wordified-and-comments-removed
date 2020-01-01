@@ -216,13 +216,6 @@ h
 #
 include
 "
-jsxdrapi
-.
-h
-"
-#
-include
-"
 jsprf
 .
 h
@@ -641,12 +634,8 @@ consoleService
 errorObject
 )
 {
-nsAutoString
+NS_ConvertASCIItoUTF16
 fileUni
-;
-fileUni
-.
-AssignWithConversion
 (
 rep
 -

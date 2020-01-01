@@ -592,6 +592,15 @@ aFrameNum
 )
 ;
 nsresult
+SetFrameAsNonPremult
+(
+PRUint32
+aFrameNum
+bool
+aIsNonPremult
+)
+;
+nsresult
 SetSize
 (
 PRInt32

@@ -3009,12 +3009,6 @@ global
 >
 GetScriptContext
 (
-aContext
--
->
-GetScriptTypeID
-(
-)
 )
 ;
 NS_ASSERTION
@@ -12832,9 +12826,6 @@ aGlobal
 >
 GetScriptContext
 (
-mScriptObject
-.
-mLangID
 )
 ;
 NS_ASSERTION
@@ -13205,9 +13196,6 @@ aGlobal
 >
 GetScriptContext
 (
-mScriptObject
-.
-mLangID
 )
 ;
 NS_ASSERTION
@@ -13615,9 +13603,6 @@ global
 >
 GetScriptContext
 (
-mScriptObject
-.
-mLangID
 )
 ;
 NS_ASSERTION

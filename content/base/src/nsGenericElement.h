@@ -243,7 +243,7 @@ mNode
 aNode
 )
 {
-SetIsProxy
+SetIsDOMBinding
 (
 )
 ;

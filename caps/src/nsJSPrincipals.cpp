@@ -64,13 +64,6 @@ h
 #
 include
 "
-jsxdrapi
-.
-h
-"
-#
-include
-"
 nsIJSRuntimeService
 .
 h

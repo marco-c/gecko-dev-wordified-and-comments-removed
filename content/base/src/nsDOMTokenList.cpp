@@ -62,7 +62,7 @@ mAttrAtom
 aAttrAtom
 )
 {
-SetIsProxy
+SetIsDOMBinding
 (
 )
 ;

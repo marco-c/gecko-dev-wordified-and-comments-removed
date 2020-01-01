@@ -29285,7 +29285,7 @@ if
 aCache
 -
 >
-IsProxy
+IsDOMBinding
 (
 )
 )

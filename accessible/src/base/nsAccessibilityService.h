@@ -1237,6 +1237,11 @@ note
 "
 figure
 "
+"
+check
+rich
+option
+"
 }
 ;
 static

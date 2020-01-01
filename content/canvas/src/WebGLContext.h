@@ -1677,6 +1677,10 @@ gfxPattern
 :
 GraphicsFilter
 f
+PRUint32
+aFlags
+=
+RenderFlagPremultAlpha
 )
 ;
 NS_IMETHOD

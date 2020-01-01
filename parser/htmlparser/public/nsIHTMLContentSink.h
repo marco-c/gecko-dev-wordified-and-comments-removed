@@ -45,10 +45,6 @@ NS_IHTML_CONTENT_SINK_IID
 0x3e
 }
 }
-#
-define
-MAX_REFLOW_DEPTH
-200
 class
 nsIHTMLContentSink
 :

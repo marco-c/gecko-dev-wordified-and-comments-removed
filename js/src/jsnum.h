@@ -84,7 +84,6 @@ JSDOUBLE_HI32_EXPSHIFT
 define
 JSDOUBLE_EXPBIAS
 1023
-typedef
 union
 jsdpun
 {
@@ -125,7 +124,6 @@ double
 d
 ;
 }
-jsdpun
 ;
 static
 inline

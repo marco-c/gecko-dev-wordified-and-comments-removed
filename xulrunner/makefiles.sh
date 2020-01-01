@@ -495,11 +495,6 @@ OS_ARCH
 "
 WINNT
 "
--
-a
-"
-MOZ_INSTALLER
-"
 ]
 ;
 then

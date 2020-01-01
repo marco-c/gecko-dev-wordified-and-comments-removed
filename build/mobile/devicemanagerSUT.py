@@ -3301,8 +3301,30 @@ killProcess
 (
 self
 appname
+forceKill
+=
+False
 )
 :
+    
+if
+forceKill
+:
+      
+print
+"
+WARNING
+:
+killProcess
+(
+)
+:
+forceKill
+parameter
+unsupported
+on
+SUT
+"
     
 try
 :
@@ -3327,10 +3349,10 @@ AgentError
 :
       
 return
-None
+False
     
 return
-data
+True
   
 def
 getTempDir

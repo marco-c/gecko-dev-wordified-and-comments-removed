@@ -54,13 +54,6 @@ nsParserBase
 h
 "
 #
-include
-"
-nsCharsetSource
-.
-h
-"
-#
 define
 NS_IPARSER_IID
 \

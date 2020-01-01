@@ -159,7 +159,7 @@ nsBaseContentList
 (
 )
 {
-SetIsProxy
+SetIsDOMBinding
 (
 )
 ;

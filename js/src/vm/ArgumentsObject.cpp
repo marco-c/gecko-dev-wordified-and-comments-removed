@@ -49,6 +49,15 @@ h
 #
 include
 "
+vm
+/
+Xdr
+.
+h
+"
+#
+include
+"
 jsobjinlines
 .
 h

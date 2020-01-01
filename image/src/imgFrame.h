@@ -315,6 +315,13 @@ SetHasNoAlpha
 (
 )
 ;
+void
+SetAsNonPremult
+(
+bool
+aIsNonPremult
+)
+;
 bool
 GetCompositingFailed
 (
@@ -673,6 +680,9 @@ mFormatChanged
 ;
 bool
 mCompositingFailed
+;
+bool
+mNonPremult
 ;
 bool
 mLocked

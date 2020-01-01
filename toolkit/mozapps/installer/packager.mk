@@ -3870,6 +3870,7 @@ rm
 -
 rf
 jsloader
+jssubloader
 &
 &
 \
@@ -3900,6 +3901,15 @@ r9m
 OMNIJAR_NAME
 )
 jsloader
+/
+resource
+/
+(
+PRECOMPILE_RESOURCE
+)
+jssubloader
+/
+*
 /
 resource
 /
@@ -3954,6 +3964,8 @@ greprefs
 js
 \
 jsloader
+\
+jssubloader
 \
 hyphenation
 \

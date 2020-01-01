@@ -1232,10 +1232,6 @@ boundGlobal
 >
 GetScriptContext
 (
-nsIProgrammingLanguage
-:
-:
-JAVASCRIPT
 )
 ;
 if

@@ -4939,6 +4939,14 @@ UpdateEditableState
 aNotify
 )
 ;
+mState
+-
+>
+UpdateEditableState
+(
+aNotify
+)
+;
 }
 UpdateState
 (

@@ -7051,7 +7051,7 @@ nsHTMLSelectElement
 aSelect
 )
 {
-SetIsProxy
+SetIsDOMBinding
 (
 )
 ;

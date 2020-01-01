@@ -136,6 +136,13 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 (
 NS_ICANVASRENDERINGCONTEXTINTERNAL_IID
 )
+enum
+{
+RenderFlagPremultAlpha
+=
+0x1
+}
+;
 NS_IMETHOD
 SetCanvasElement
 (
@@ -185,6 +192,10 @@ gfxPattern
 :
 GraphicsFilter
 aFilter
+PRUint32
+aFlags
+=
+RenderFlagPremultAlpha
 )
 =
 0
