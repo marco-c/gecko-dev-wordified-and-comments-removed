@@ -1923,6 +1923,8 @@ docshell
 /
 test
 /
+navigation
+/
 test_bug344861
 .
 html

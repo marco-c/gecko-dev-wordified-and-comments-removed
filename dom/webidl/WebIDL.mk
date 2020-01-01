@@ -603,6 +603,10 @@ NodeList
 .
 webidl
 \
+Notification
+.
+webidl
+\
 PaintRequest
 .
 webidl

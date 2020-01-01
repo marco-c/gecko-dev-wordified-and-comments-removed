@@ -127,10 +127,6 @@ subframe
 .
 html
 \
-test_bug344861
-.
-html
-\
 test_bug369814
 .
 html
