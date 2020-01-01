@@ -408,11 +408,9 @@ do_check_eq
 (
 PubKeys
 .
-lastResource
+response
 .
-lastChannel
-.
-responseStatus
+status
 200
 )
 ;
@@ -458,11 +456,9 @@ do_check_eq
 (
 PrivKeys
 .
-lastResource
+response
 .
-lastChannel
-.
-responseStatus
+status
 200
 )
 ;

@@ -391,11 +391,9 @@ protected
 ;
 do_check_eq
 (
-res
+content
 .
-lastChannel
-.
-responseStatus
+status
 200
 )
 ;
