@@ -2684,6 +2684,23 @@ child
 )
     
 def
+extend
+(
+self
+kids
+)
+:
+        
+self
+.
+children
+.
+extend
+(
+kids
+)
+    
+def
 join
 (
 self
@@ -34403,6 +34420,10 @@ object
 "
 self
 "
+argsPost
+=
+[
+]
 )
 :
         
@@ -34724,6 +34745,20 @@ CGGeneric
 rv
 "
 )
+)
+        
+args
+.
+extend
+(
+CGGeneric
+(
+arg
+)
+for
+arg
+in
+argsPost
 )
         
 self
@@ -36444,6 +36479,11 @@ needsUnwrap
 =
 False
         
+argsPost
+=
+[
+]
+        
 if
 isConstructor
 :
@@ -36480,7 +36520,7 @@ needsUnwrappedVar
 =
 True
             
-argsPre
+argsPost
 .
 append
 (
@@ -36984,6 +37024,9 @@ descriptor
 nativeMethodName
                     
 static
+argsPost
+=
+argsPost
 )
 )
         
@@ -74444,9 +74487,8 @@ argList
         
 args
 .
-insert
+append
 (
-0
 Argument
 (
 "
@@ -74455,6 +74497,9 @@ JSCompartment
 "
 "
 aCompartment
+"
+"
+nullptr
 "
 )
 )
@@ -74772,9 +74817,8 @@ args
             
 constructorArgs
 .
-insert
+append
 (
-0
 "
 js
 :
@@ -79321,9 +79365,8 @@ rethrowContentException
                 
 args
 .
-insert
+append
 (
-0
 Argument
 (
 "
@@ -79332,6 +79375,9 @@ JSCompartment
 "
 "
 aCompartment
+"
+"
+nullptr
 "
 )
 )
