@@ -298,7 +298,11 @@ if
 (
 Social
 .
-enabled
+providers
+.
+length
+>
+0
 )
 {
 this

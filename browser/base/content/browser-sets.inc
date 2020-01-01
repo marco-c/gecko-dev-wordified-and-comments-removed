@@ -1773,6 +1773,11 @@ toggleSidebar
 )
 ;
 "
+hidden
+=
+"
+true
+"
 /
 >
 <

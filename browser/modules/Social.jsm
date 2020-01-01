@@ -926,7 +926,7 @@ if
 (
 SocialService
 .
-enabled
+hasEnabledProviders
 )
 {
 SocialService
