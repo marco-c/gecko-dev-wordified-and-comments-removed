@@ -8,6 +8,8 @@ an
 image
 tests
 include
+as
+-
 image
 /
 reftest
