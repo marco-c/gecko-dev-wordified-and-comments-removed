@@ -1799,17 +1799,6 @@ LPARAM
 aLParam
 )
 ;
-void
-OnScrollInternal
-(
-UINT
-aMsg
-WPARAM
-aWParam
-LPARAM
-aLParam
-)
-;
 bool
 OnGesture
 (
