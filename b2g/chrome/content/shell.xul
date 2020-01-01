@@ -214,7 +214,7 @@ js
 >
 #
 ifndef
-ANDROID
+MOZ_WIDGET_GONK
 <
 !
 -
