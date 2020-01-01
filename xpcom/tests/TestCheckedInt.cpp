@@ -2739,6 +2739,10 @@ x
 +
 )
 ;
+x
+=
+max_value
+;
 VERIFY_IS_INVALID
 (
 +
@@ -2756,6 +2760,10 @@ x
 -
 -
 )
+;
+x
+=
+min_value
 ;
 VERIFY_IS_INVALID
 (
