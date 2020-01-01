@@ -19790,20 +19790,16 @@ double
 :
         
 return
-wrapAndSetPtr
+setValue
 (
 "
-JS_NewNumberValue
+JS_NumberValue
 (
-cx
 double
 (
 %
 s
 )
-{
-jsvalPtr
-}
 )
 "
 %
