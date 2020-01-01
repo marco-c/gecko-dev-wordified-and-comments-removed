@@ -7505,6 +7505,10 @@ PluginModuleChild
 :
 AnswerNP_Initialize
 (
+const
+uint32_t
+&
+aFlags
 NPError
 *
 _retval
@@ -7515,6 +7519,12 @@ PLUGIN_LOG_DEBUG_METHOD
 AssertPluginThread
 (
 )
+;
+mAsyncDrawingAllowed
+=
+aFlags
+&
+kAllowAsyncDrawing
 ;
 #
 ifdef

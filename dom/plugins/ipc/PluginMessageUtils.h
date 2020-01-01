@@ -240,6 +240,12 @@ PRLogModuleInfo
 *
 gPluginLog
 ;
+const
+uint32_t
+kAllowAsyncDrawing
+=
+0x1
+;
 #
 if
 defined

@@ -1268,6 +1268,9 @@ mData
 NPWindow
 mWindow
 ;
+int16_t
+mDrawingModel
+;
 PluginScriptableObjectChild
 *
 mCachedWindowActor
@@ -1468,9 +1471,6 @@ mShColorSpace
 ;
 CGContextRef
 mShContext
-;
-int16_t
-mDrawingModel
 ;
 nsCARenderer
 mCARenderer

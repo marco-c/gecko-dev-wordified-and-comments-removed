@@ -1119,6 +1119,9 @@ mNPNIface
 NPWindowType
 mWindowType
 ;
+int16_t
+mDrawingModel
+;
 nsDataHashtable
 <
 nsVoidPtrHashKey
@@ -1242,9 +1245,6 @@ mShHeight
 ;
 CGColorSpaceRef
 mShColorSpace
-;
-int16_t
-mDrawingModel
 ;
 nsRefPtr
 <

@@ -11582,8 +11582,8 @@ useDOMForCursor
 ;
 }
 #
-ifdef
-XP_MACOSX
+ifndef
+MOZ_WIDGET_ANDROID
 case
 NPPVpluginDrawingModel
 :
@@ -11618,6 +11618,11 @@ NPERR_GENERIC_ERROR
 ;
 }
 }
+#
+endif
+#
+ifdef
+XP_MACOSX
 case
 NPPVpluginEventModel
 :
