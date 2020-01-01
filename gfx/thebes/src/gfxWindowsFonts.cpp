@@ -6078,6 +6078,13 @@ du
 )
 *
 appUnitsPerDevUnit
+*
+aRun
+-
+>
+GetDirection
+(
+)
 ;
 details
 -
