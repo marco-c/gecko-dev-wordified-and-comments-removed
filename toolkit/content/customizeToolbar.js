@@ -633,12 +633,6 @@ finishToolbarCustomization
 (
 )
 {
-gToolbox
-.
-customizing
-=
-false
-;
 removeToolboxListeners
 (
 )
@@ -650,6 +644,12 @@ unwrapToolbarItems
 persistCurrentSets
 (
 )
+;
+gToolbox
+.
+customizing
+=
+false
 ;
 notifyParentComplete
 (
