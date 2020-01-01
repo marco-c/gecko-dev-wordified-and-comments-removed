@@ -23167,6 +23167,13 @@ return
 NS_ERROR_DOCUMENT_NOT_CACHED
 ;
 }
+if
+(
+mCanceled
+)
+return
+rv
+;
 }
 if
 (
