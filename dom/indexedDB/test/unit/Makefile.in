@@ -155,6 +155,10 @@ test_cursors
 .
 js
 \
+test_deleteDatabase
+.
+js
+\
 test_event_source
 .
 js
