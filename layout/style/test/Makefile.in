@@ -671,6 +671,14 @@ events
 .
 html
 \
+file_position_sticky
+.
+html
+\
+test_position_sticky
+.
+html
+\
 test_property_database
 .
 html
