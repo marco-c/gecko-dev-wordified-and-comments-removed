@@ -5,13 +5,6 @@ nsDOMKeyboardEvent
 .
 h
 "
-#
-include
-"
-nsDOMClassInfoID
-.
-h
-"
 nsDOMKeyboardEvent
 :
 :
@@ -137,11 +130,6 @@ NS_IMPL_RELEASE_INHERITED
 nsDOMKeyboardEvent
 nsDOMUIEvent
 )
-DOMCI_DATA
-(
-KeyboardEvent
-nsDOMKeyboardEvent
-)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMKeyboardEvent
@@ -149,10 +137,6 @@ nsDOMKeyboardEvent
 NS_INTERFACE_MAP_ENTRY
 (
 nsIDOMKeyEvent
-)
-NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
-(
-KeyboardEvent
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
