@@ -5566,6 +5566,16 @@ Array
 js
 \
 (
+srcdir
+)
+/
+builtin
+/
+Intl
+.
+js
+\
+(
 NULL
 )
 selfhosted_out_h_deps
