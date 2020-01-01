@@ -483,9 +483,6 @@ nsRestyleHint
 aRestyleHint
 nsChangeHint
 aChangeHint
-OverflowChangedTracker
-&
-aTracker
 )
 {
 NS_PRECONDITION
@@ -584,7 +581,6 @@ eRestyle_Subtree
 !
 =
 0
-aTracker
 )
 ;
 }
@@ -624,7 +620,6 @@ mFrameConstructor
 ProcessRestyledFrames
 (
 changeList
-aTracker
 )
 ;
 }
@@ -660,9 +655,6 @@ mFrameConstructor
 mInStyleRefresh
 =
 true
-;
-OverflowChangedTracker
-tracker
 ;
 while
 (
@@ -985,7 +977,6 @@ mRestyleHint
 data
 .
 mChangeHint
-tracker
 )
 ;
 }
@@ -1086,15 +1077,15 @@ currentRestyle
 -
 >
 mChangeHint
-tracker
 )
 ;
 }
 }
 }
-tracker
-.
-Flush
+mFrameConstructor
+-
+>
+FlushOverflowChangedTracker
 (
 )
 ;
