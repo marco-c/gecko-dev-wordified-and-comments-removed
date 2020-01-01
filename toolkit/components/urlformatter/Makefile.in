@@ -76,6 +76,16 @@ config
 autoconf
 .
 mk
+DISABLED_EXTRA_COMPONENTS
+=
+\
+nsURLFormatter
+.
+manifest
+\
+(
+NULL
+)
 export
 :
 :

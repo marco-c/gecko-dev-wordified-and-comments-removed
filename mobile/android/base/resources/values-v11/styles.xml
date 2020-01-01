@@ -699,7 +699,11 @@ style
 name
 =
 "
-SpinnerDropDownItem
+Widget
+.
+DropDownItem
+.
+Spinner
 "
 parent
 =
@@ -711,6 +715,8 @@ style
 Widget
 .
 Holo
+.
+Light
 .
 DropDownItem
 .
@@ -728,7 +734,7 @@ textColor
 "
 >
 #
-FF222222
+FF000000
 <
 /
 item

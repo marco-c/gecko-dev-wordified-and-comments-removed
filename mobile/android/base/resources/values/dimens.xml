@@ -424,8 +424,8 @@ dimen
 Max
 width
 of
-the
-doorhanger
+arrow
+popups
 on
 tablets
 -
@@ -436,7 +436,7 @@ dimen
 name
 =
 "
-doorhanger_width
+arrow_popup_width
 "
 >
 400dp
@@ -488,10 +488,10 @@ dimen
 name
 =
 "
-doorhanger_padding_spinners
+flow_layout_spacing
 "
 >
-10dp
+6dp
 <
 /
 dimen
@@ -501,10 +501,10 @@ dimen
 name
 =
 "
-flow_layout_spacing
+menu_item_action_icon
 "
 >
-6dp
+80dp
 <
 /
 dimen
