@@ -563,6 +563,16 @@ const
 PRInt32
 kGetItemPropertiesIndex_FolderType
 ;
+static
+const
+PRInt32
+kGetItemPropertiesIndex_DateAdded
+;
+static
+const
+PRInt32
+kGetItemPropertiesIndex_LastModified
+;
 nsCOMPtr
 <
 mozIStorageStatement
