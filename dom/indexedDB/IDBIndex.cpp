@@ -7575,6 +7575,7 @@ InfallibleTArray
 PBlobChild
 *
 >
+&
 blobs
 =
 blobArrays
