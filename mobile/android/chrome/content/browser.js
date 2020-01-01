@@ -12317,9 +12317,7 @@ scale
 return
 this
 .
-viewport
-.
-zoom
+_zoom
 ;
 }
 QueryInterface
