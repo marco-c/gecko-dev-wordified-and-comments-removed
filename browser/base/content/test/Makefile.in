@@ -1213,6 +1213,10 @@ browser_bug818009
 .
 js
 \
+browser_bug818118
+.
+js
+\
 blockPluginVulnerableUpdatable
 .
 xml
