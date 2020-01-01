@@ -724,6 +724,10 @@ test_pluginstream_referer
 .
 html
 \
+test_pluginstream_src_referer
+.
+html
+\
 plugin
 -
 stream
