@@ -383,11 +383,6 @@ nsIDOMHTMLTableCaptionElem
 idl
 '
 '
-nsIDOMHTMLTableColElement
-.
-idl
-'
-'
 nsIDOMHTMLTableElement
 .
 idl
