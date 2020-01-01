@@ -125,6 +125,10 @@ browser_privatebrowsing_searchbar
 .
 js
 \
+browser_privatebrowsing_sslsite_transition
+.
+js
+\
 browser_privatebrowsing_transition
 .
 js
