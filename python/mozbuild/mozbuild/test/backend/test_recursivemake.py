@@ -1351,6 +1351,21 @@ host_bar
 ]
             
 '
+LIBRARY_NAME
+'
+:
+[
+                
+'
+LIBRARY_NAME
+:
+=
+lib_name
+'
+            
+]
+            
+'
 SIMPLE_PROGRAMS
 '
 :
