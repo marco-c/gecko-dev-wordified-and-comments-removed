@@ -6397,7 +6397,6 @@ sa_flags
 &
 SA_SIGINFO
 )
-{
 prevHandler
 -
 >
@@ -6408,12 +6407,6 @@ info
 context
 )
 ;
-exit
-(
-signum
-)
-;
-}
 else
 if
 (
@@ -6434,7 +6427,6 @@ sa_handler
 =
 SIG_IGN
 )
-{
 sigaction
 (
 signum
@@ -6442,9 +6434,7 @@ prevHandler
 NULL
 )
 ;
-}
 else
-{
 prevHandler
 -
 >
@@ -6453,12 +6443,6 @@ sa_handler
 signum
 )
 ;
-exit
-(
-signum
-)
-;
-}
 }
 #
 endif
