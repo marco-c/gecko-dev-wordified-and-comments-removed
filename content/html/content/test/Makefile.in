@@ -1526,6 +1526,12 @@ plugins
 .
 html
 \
+file_fullscreen
+-
+denied
+.
+html
+\
 test_li_attributes_reflection
 .
 html
