@@ -160,7 +160,7 @@ nsIFrame
 aFloatFrame
 )
 ;
-nsresult
+void
 BeginSpan
 (
 nsIFrame
@@ -1289,13 +1289,10 @@ PerFrameData
 aResult
 )
 ;
-nsresult
-NewPerSpanData
-(
 PerSpanData
 *
-*
-aResult
+NewPerSpanData
+(
 )
 ;
 void
