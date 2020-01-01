@@ -130,6 +130,10 @@ mNumberOfInputChannels
 (
 2
 )
+mMarkAsFinishedAfterThisBlock
+(
+false
+)
 {
 mMixingMode
 .
@@ -389,6 +393,9 @@ mChannelInterpretation
 ;
 }
 mMixingMode
+;
+bool
+mMarkAsFinishedAfterThisBlock
 ;
 }
 ;
