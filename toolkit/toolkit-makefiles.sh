@@ -1085,13 +1085,6 @@ ucvibm
 Makefile
 intl
 /
-uconv
-/
-native
-/
-Makefile
-intl
-/
 locale
 /
 Makefile

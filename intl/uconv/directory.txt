@@ -39,14 +39,6 @@ public
 .
 idl
 files
-native
--
-support
-for
-native
-platform
-charset
-conversion
 public
 -
 public

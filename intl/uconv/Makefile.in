@@ -496,16 +496,6 @@ DIRS
 idl
 public
 util
-ifdef
-MOZ_USE_NATIVE_UCONV
-DIRS
-+
-=
-native
-else
-DIRS
-+
-=
 ucvja
 ucvcn
 ucvlatin
@@ -513,10 +503,6 @@ ucvtw
 ucvtw2
 ucvko
 ucvibm
-endif
-DIRS
-+
-=
 src
 ifdef
 ENABLE_TESTS
