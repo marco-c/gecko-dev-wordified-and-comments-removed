@@ -1032,6 +1032,11 @@ FrameConstructor
 PostRestyleEvent
 (
 mContent
+-
+>
+AsElement
+(
+)
 eRestyle_Self
 NS_STYLE_HINT_NONE
 )
