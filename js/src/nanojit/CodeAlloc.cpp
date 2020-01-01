@@ -1623,11 +1623,9 @@ start
 (
 int
 )
-(
 start
 +
 len
-)
 0
 )
 ;
@@ -1658,11 +1656,9 @@ start
 char
 *
 )
-(
 start
 +
 len
-)
 )
 ;
 }
