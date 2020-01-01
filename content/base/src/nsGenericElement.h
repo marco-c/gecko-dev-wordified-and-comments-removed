@@ -498,9 +498,9 @@ private
 :
 nsDOMEventRTTearoff
 (
-nsINode
+nsIContent
 *
-aNode
+aContent
 )
 ;
 static
@@ -542,9 +542,9 @@ nsDOMEventRTTearoff
 *
 Create
 (
-nsINode
+nsIContent
 *
-aNode
+aContent
 )
 ;
 static
@@ -566,9 +566,9 @@ private
 :
 nsCOMPtr
 <
-nsINode
+nsIContent
 >
-mNode
+mContent
 ;
 }
 ;
