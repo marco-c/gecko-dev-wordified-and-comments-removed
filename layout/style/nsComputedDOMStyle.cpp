@@ -6927,7 +6927,7 @@ aValue
 ;
 }
 static
-nsStyleCoord
+nscoord
 nsCSSShadowItem
 :
 :
@@ -6956,7 +6956,7 @@ mRadius
 }
 ;
 static
-nsStyleCoord
+nscoord
 nsCSSShadowItem
 :
 :
@@ -6989,7 +6989,7 @@ nsCSSShadowItem
 mSpread
 }
 ;
-nsStyleCoord
+nscoord
 nsCSSShadowItem
 :
 :
@@ -7230,9 +7230,11 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-SetValueToCoord
-(
 val
+-
+>
+SetAppUnits
+(
 item
 -
 >
