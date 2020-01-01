@@ -341,8 +341,6 @@ SendAsyncScrollEvent
 (
 )
 ;
-protected
-:
 nsEventStatus
 HandleInputEvent
 (
@@ -352,6 +350,8 @@ InputData
 aEvent
 )
 ;
+protected
+:
 nsEventStatus
 OnTouchStart
 (
