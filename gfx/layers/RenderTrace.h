@@ -1,7 +1,4 @@
 #
-define
-MOZ_RENDERTRACE
-#
 ifdef
 MOZ_RENDERTRACE
 #
