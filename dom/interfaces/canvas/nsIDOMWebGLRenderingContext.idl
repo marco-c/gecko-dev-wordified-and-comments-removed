@@ -5965,5 +5965,15 @@ isContextLost
 (
 )
 ;
+readonly
+attribute
+WebGLsizei
+drawingBufferWidth
+;
+readonly
+attribute
+WebGLsizei
+drawingBufferHeight
+;
 }
 ;
