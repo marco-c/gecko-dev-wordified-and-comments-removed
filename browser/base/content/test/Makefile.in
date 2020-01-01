@@ -873,6 +873,10 @@ browser_relatedTabs
 .
 js
 \
+browser_plainTextLinks
+.
+js
+\
 browser_contextSearchTabPosition
 .
 js
