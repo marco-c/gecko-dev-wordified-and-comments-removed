@@ -1500,6 +1500,9 @@ PropertyProvider
 aProvider
 PRBool
 aSuppressInitialBreak
+gfxFloat
+*
+aTrimWhitespace
 Metrics
 *
 aMetrics
