@@ -2847,7 +2847,10 @@ cache_size
 PRInt64
 maxBlocks
 =
+static_cast
+<
 PRInt64
+>
 (
 cacheSize
 )
@@ -4493,7 +4496,10 @@ PLAYED_BLOCK
 :
 NS_ASSERTION
 (
+static_cast
+<
 PRInt64
+>
 (
 bo
 -
@@ -4548,7 +4554,10 @@ READAHEAD_BLOCK
 PRInt64
 bytesAhead
 =
+static_cast
+<
 PRInt64
+>
 (
 bo
 -
