@@ -445,6 +445,10 @@ MediaSegment
 .
 h
 \
+MediaStreamGraph
+.
+h
+\
 nsAudioAvailableEventManager
 .
 h
@@ -508,6 +512,10 @@ FileBlockCache
 cpp
 \
 MediaResource
+.
+cpp
+\
+MediaStreamGraph
 .
 cpp
 \
