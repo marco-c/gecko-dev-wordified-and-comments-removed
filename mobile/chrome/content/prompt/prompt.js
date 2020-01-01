@@ -1,4 +1,4 @@
-var
+const
 PromptHelper
 =
 {
@@ -89,7 +89,6 @@ dialog
 .
 arguments
 )
-{
 dialog
 .
 arguments
@@ -111,7 +110,6 @@ checkbox
 .
 checked
 ;
-}
 }
 closeConfirm
 :
@@ -159,7 +157,6 @@ dialog
 arguments
 )
 )
-{
 dialog
 .
 arguments
@@ -183,7 +180,6 @@ checkbox
 .
 checked
 ;
-}
 }
 closePrompt
 :
@@ -411,7 +407,6 @@ dialog
 .
 arguments
 )
-{
 dialog
 .
 arguments
@@ -437,4 +432,4 @@ selectedIndex
 ;
 }
 }
-}
+;
