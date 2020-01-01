@@ -62,6 +62,10 @@ friend
 class
 nsCacheEntry
 ;
+friend
+class
+nsProcessRequestEvent
+;
 nsCacheRequest
 (
 nsCString
