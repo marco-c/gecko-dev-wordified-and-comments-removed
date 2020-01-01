@@ -27,7 +27,7 @@ ion
 {
 static
 const
-uint32_t
+ptrdiff_t
 STACK_SLOT_SIZE
 =
 4
@@ -809,11 +809,6 @@ hasMOVWT
 ;
 bool
 hasVFPv3
-(
-)
-;
-bool
-hasVFP
 (
 )
 ;
