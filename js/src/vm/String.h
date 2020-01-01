@@ -1191,14 +1191,6 @@ MOZ_DELETE
 ;
 public
 :
-void
-mark
-(
-JSTracer
-*
-trc
-)
-;
 JS_ALWAYS_INLINE
 const
 jschar
