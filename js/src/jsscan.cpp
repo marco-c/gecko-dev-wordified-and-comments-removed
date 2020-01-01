@@ -6122,9 +6122,7 @@ JS_ISSPACE_OR_BOM
 c
 )
 )
-goto
-retry
-;
+{
 if
 (
 c
@@ -6147,6 +6145,7 @@ updateFlagsForEOL
 (
 )
 ;
+}
 goto
 retry
 ;
