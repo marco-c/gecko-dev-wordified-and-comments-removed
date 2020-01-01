@@ -22,6 +22,13 @@ prlog
 .
 h
 "
+#
+include
+"
+nsTArray
+.
+h
+"
 extern
 PRLogModuleInfo
 *
@@ -152,6 +159,12 @@ mSamplesBuffered
 ;
 SampleFormat
 mFormat
+;
+nsTArray
+<
+short
+>
+mBufferOverflow
 ;
 PRPackedBool
 mPaused
