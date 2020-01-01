@@ -2144,14 +2144,6 @@ TokenStream
 other
 )
 ;
-void
-positionAfterLastFunctionKeyword
-(
-Position
-&
-pos
-)
-;
 size_t
 positionToOffset
 (
@@ -3033,9 +3025,6 @@ originPrincipals
 StrictModeGetter
 *
 strictModeGetter
-;
-Position
-lastFunctionKeyword
 ;
 SkipRoot
 tokenSkip
