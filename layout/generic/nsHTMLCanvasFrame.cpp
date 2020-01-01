@@ -130,6 +130,9 @@ public
 :
 nsDisplayCanvas
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsIFrame
 *
 aFrame
@@ -137,6 +140,7 @@ aFrame
 :
 nsDisplayItem
 (
+aBuilder
 aFrame
 )
 {
@@ -1270,6 +1274,7 @@ aBuilder
 )
 nsDisplayCanvas
 (
+aBuilder
 this
 )
 )

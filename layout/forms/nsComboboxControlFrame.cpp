@@ -5193,6 +5193,9 @@ public
 :
 nsDisplayComboboxFocus
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsComboboxControlFrame
 *
 aFrame
@@ -5200,6 +5203,7 @@ aFrame
 :
 nsDisplayItem
 (
+aBuilder
 aFrame
 )
 {
@@ -5507,6 +5511,7 @@ aBuilder
 )
 nsDisplayComboboxFocus
 (
+aBuilder
 this
 )
 )

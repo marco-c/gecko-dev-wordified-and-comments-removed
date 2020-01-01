@@ -4866,6 +4866,9 @@ public
 :
 nsDisplayImage
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsImageFrame
 *
 aFrame
@@ -4876,6 +4879,7 @@ aImage
 :
 nsDisplayItem
 (
+aBuilder
 aFrame
 )
 mImage
@@ -5396,6 +5400,7 @@ aBuilder
 )
 nsDisplayGeneric
 (
+aBuilder
 this
 PaintAltFeedback
 "
@@ -5434,6 +5439,7 @@ aBuilder
 )
 nsDisplayImage
 (
+aBuilder
 this
 imgCon
 )
@@ -5498,6 +5504,7 @@ aBuilder
 )
 nsDisplayGeneric
 (
+aBuilder
 this
 PaintDebugImageMap
 "

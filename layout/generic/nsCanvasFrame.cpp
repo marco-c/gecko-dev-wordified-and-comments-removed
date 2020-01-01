@@ -1073,6 +1073,9 @@ public
 :
 nsDisplayCanvasFocus
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsCanvasFrame
 *
 aFrame
@@ -1080,6 +1083,7 @@ aFrame
 :
 nsDisplayItem
 (
+aBuilder
 aFrame
 )
 {
@@ -1267,6 +1271,7 @@ aBuilder
 )
 nsDisplayCanvasBackground
 (
+aBuilder
 this
 )
 )
@@ -1546,6 +1551,7 @@ aBuilder
 )
 nsDisplayCanvasFocus
 (
+aBuilder
 this
 )
 )

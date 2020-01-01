@@ -1161,6 +1161,9 @@ public
 :
 nsDisplayXULTextBox
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsTextBoxFrame
 *
 aFrame
@@ -1168,6 +1171,7 @@ aFrame
 :
 nsDisplayItem
 (
+aBuilder
 aFrame
 )
 {
@@ -1356,6 +1360,7 @@ aBuilder
 )
 nsDisplayXULTextBox
 (
+aBuilder
 this
 )
 )

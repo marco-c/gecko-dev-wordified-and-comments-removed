@@ -2438,6 +2438,9 @@ public
 :
 nsDisplayTableRowBackground
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsTableRowFrame
 *
 aFrame
@@ -2445,6 +2448,7 @@ aFrame
 :
 nsDisplayTableItem
 (
+aBuilder
 aFrame
 )
 {
@@ -2629,6 +2633,7 @@ aBuilder
 )
 nsDisplayTableRowBackground
 (
+aBuilder
 this
 )
 ;

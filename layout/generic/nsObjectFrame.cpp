@@ -5592,6 +5592,7 @@ aBuilder
 )
 nsDisplayGeneric
 (
+aBuilder
 this
 PaintPrintPlugin
 "
@@ -5620,6 +5621,7 @@ aBuilder
 )
 nsDisplayPlugin
 (
+aBuilder
 this
 )
 )

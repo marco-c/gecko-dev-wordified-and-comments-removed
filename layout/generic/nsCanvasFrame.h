@@ -452,6 +452,9 @@ public
 :
 nsDisplayCanvasBackground
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsIFrame
 *
 aFrame
@@ -459,6 +462,7 @@ aFrame
 :
 nsDisplayBackground
 (
+aBuilder
 aFrame
 )
 {

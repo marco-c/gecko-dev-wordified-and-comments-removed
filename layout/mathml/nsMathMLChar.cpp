@@ -7742,6 +7742,9 @@ public
 :
 nsDisplayMathMLSelectionRect
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsIFrame
 *
 aFrame
@@ -7753,6 +7756,7 @@ aRect
 :
 nsDisplayItem
 (
+aBuilder
 aFrame
 )
 mRect
@@ -7890,6 +7894,9 @@ public
 :
 nsDisplayMathMLCharBackground
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsIFrame
 *
 aFrame
@@ -7904,6 +7911,7 @@ aStyleContext
 :
 nsDisplayItem
 (
+aBuilder
 aFrame
 )
 mStyleContext
@@ -8046,6 +8054,9 @@ public
 :
 nsDisplayMathMLCharForeground
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsIFrame
 *
 aFrame
@@ -8058,6 +8069,7 @@ aIsSelected
 :
 nsDisplayItem
 (
+aBuilder
 aFrame
 )
 mChar
@@ -8237,6 +8249,9 @@ public
 :
 nsDisplayMathMLCharDebug
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsIFrame
 *
 aFrame
@@ -8248,6 +8263,7 @@ aRect
 :
 nsDisplayItem
 (
+aBuilder
 aFrame
 )
 mRect
@@ -8493,6 +8509,7 @@ aBuilder
 )
 nsDisplayMathMLSelectionRect
 (
+aBuilder
 aForFrame
 *
 aSelectedRect
@@ -8567,6 +8584,7 @@ aBuilder
 )
 nsDisplayMathMLCharBackground
 (
+aBuilder
 aForFrame
 mRect
 styleContext
@@ -8609,6 +8627,7 @@ aBuilder
 )
 nsDisplayMathMLCharDebug
 (
+aBuilder
 aForFrame
 mRect
 )
@@ -8639,6 +8658,7 @@ aBuilder
 )
 nsDisplayMathMLCharForeground
 (
+aBuilder
 aForFrame
 this
 aSelectedRect

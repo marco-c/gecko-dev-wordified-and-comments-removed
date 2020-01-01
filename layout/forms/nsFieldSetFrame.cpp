@@ -589,6 +589,9 @@ public
 :
 nsDisplayFieldSetBorderBackground
 (
+nsDisplayListBuilder
+*
+aBuilder
 nsFieldSetFrame
 *
 aFrame
@@ -596,6 +599,7 @@ aFrame
 :
 nsDisplayItem
 (
+aBuilder
 aFrame
 )
 {
@@ -800,6 +804,7 @@ aBuilder
 )
 nsDisplayBoxShadowOuter
 (
+aBuilder
 this
 )
 )
@@ -829,6 +834,7 @@ aBuilder
 )
 nsDisplayFieldSetBorderBackground
 (
+aBuilder
 this
 )
 )
