@@ -427,6 +427,7 @@ DIRS
 =
 external
 component
+bug656331_component
 ifeq
 (
 (
