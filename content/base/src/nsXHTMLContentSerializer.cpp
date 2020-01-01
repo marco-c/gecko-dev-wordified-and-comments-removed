@@ -780,6 +780,8 @@ FindCharInSet
 &
 =
 +
+[
+]
 "
 start
 )
