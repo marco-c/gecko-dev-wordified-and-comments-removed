@@ -948,6 +948,9 @@ mShWidth
 size_t
 mShHeight
 ;
+CGColorSpaceRef
+mShColorSpace
+;
 #
 endif
 }

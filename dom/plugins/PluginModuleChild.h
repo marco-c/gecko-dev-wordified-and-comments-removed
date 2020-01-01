@@ -281,6 +281,9 @@ virtual
 bool
 AnswerNP_Initialize
 (
+NativeThreadId
+*
+tid
 NPError
 *
 rv

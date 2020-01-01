@@ -29,13 +29,6 @@ h
 #
 include
 "
-jsnum
-.
-h
-"
-#
-include
-"
 jsarray
 .
 h

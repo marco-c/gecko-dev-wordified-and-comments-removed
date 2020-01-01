@@ -273,6 +273,10 @@ PluginProcessParent
 aFilePath
 )
 )
+mPluginThread
+(
+0
+)
 mShutdown
 (
 false
@@ -949,6 +953,7 @@ CreatePairedMinidumps
 OtherProcess
 (
 )
+mPluginThread
 &
 mHangID
 getter_AddRefs
@@ -2612,6 +2617,8 @@ if
 !
 CallNP_Initialize
 (
+&
+mPluginThread
 error
 )
 )
@@ -2684,6 +2691,8 @@ if
 !
 CallNP_Initialize
 (
+&
+mPluginThread
 error
 )
 )

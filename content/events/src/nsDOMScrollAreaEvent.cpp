@@ -132,6 +132,11 @@ NS_IMPL_RELEASE_INHERITED
 nsDOMScrollAreaEvent
 nsDOMUIEvent
 )
+DOMCI_DATA
+(
+ScrollAreaEvent
+nsDOMScrollAreaEvent
+)
 NS_INTERFACE_MAP_BEGIN
 (
 nsDOMScrollAreaEvent
