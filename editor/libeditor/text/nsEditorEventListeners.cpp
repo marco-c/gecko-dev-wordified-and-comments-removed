@@ -1978,6 +1978,11 @@ SetCanDrop
 canDrop
 )
 ;
+if
+(
+canDrop
+)
+{
 aDragEvent
 -
 >
@@ -1985,11 +1990,6 @@ PreventDefault
 (
 )
 ;
-if
-(
-canDrop
-)
-{
 if
 (
 mCaret
