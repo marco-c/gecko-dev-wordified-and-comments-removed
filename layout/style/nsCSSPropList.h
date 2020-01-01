@@ -1329,7 +1329,7 @@ Margin
 mBorderRadius
 .
 mTopLeft
-eCSSType_ValuePair
+eCSSType_Value
 nsnull
 offsetof
 (
@@ -1355,7 +1355,7 @@ Margin
 mBorderRadius
 .
 mTopRight
-eCSSType_ValuePair
+eCSSType_Value
 nsnull
 offsetof
 (
@@ -1381,7 +1381,7 @@ Margin
 mBorderRadius
 .
 mBottomRight
-eCSSType_ValuePair
+eCSSType_Value
 nsnull
 offsetof
 (
@@ -1407,7 +1407,7 @@ Margin
 mBorderRadius
 .
 mBottomLeft
-eCSSType_ValuePair
+eCSSType_Value
 nsnull
 offsetof
 (
@@ -1445,7 +1445,7 @@ Margin
 mOutlineRadius
 .
 mTopLeft
-eCSSType_ValuePair
+eCSSType_Value
 nsnull
 offsetof
 (
@@ -1471,7 +1471,7 @@ Margin
 mOutlineRadius
 .
 mTopRight
-eCSSType_ValuePair
+eCSSType_Value
 nsnull
 offsetof
 (
@@ -1497,7 +1497,7 @@ Margin
 mOutlineRadius
 .
 mBottomRight
-eCSSType_ValuePair
+eCSSType_Value
 nsnull
 offsetof
 (
@@ -1523,7 +1523,7 @@ Margin
 mOutlineRadius
 .
 mBottomLeft
-eCSSType_ValuePair
+eCSSType_Value
 nsnull
 offsetof
 (
@@ -2644,7 +2644,7 @@ BorderSpacing
 0
 Table
 mBorderSpacing
-eCSSType_ValuePair
+eCSSType_Value
 nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Custom
@@ -4728,7 +4728,7 @@ Size
 0
 Page
 mSize
-eCSSType_ValuePair
+eCSSType_Value
 kPageSizeKTable
 )
 CSS_PROP_BACKENDONLY
@@ -4944,7 +4944,7 @@ MozTransformOrigin
 0
 Display
 mTransformOrigin
-eCSSType_ValuePair
+eCSSType_Value
 kBackgroundPositionKTable
 CSS_PROP_NO_OFFSET
 eStyleAnimType_Custom
@@ -5614,7 +5614,7 @@ Fill
 0
 SVG
 mFill
-eCSSType_ValuePair
+eCSSType_Value
 nsnull
 offsetof
 (
@@ -5880,7 +5880,7 @@ Stroke
 0
 SVG
 mStroke
-eCSSType_ValuePair
+eCSSType_Value
 nsnull
 offsetof
 (
