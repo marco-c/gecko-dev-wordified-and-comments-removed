@@ -11,6 +11,17 @@ History
 <
 !
 ENTITY
+locationBar
+.
+label
+"
+Location
+Bar
+"
+>
+<
+!
+ENTITY
 locbar
 .
 pre
