@@ -49,6 +49,13 @@ h
 #
 include
 "
+nsIDOMNavigatorNetwork
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h
@@ -132,6 +139,8 @@ public
 nsIDOMNavigatorTelephony
 #
 endif
+public
+nsIDOMMozNavigatorNetwork
 {
 public
 :
@@ -161,6 +170,7 @@ MOZ_B2G_RIL
 NS_DECL_NSIDOMNAVIGATORTELEPHONY
 #
 endif
+NS_DECL_NSIDOMMOZNAVIGATORNETWORK
 static
 void
 Init
