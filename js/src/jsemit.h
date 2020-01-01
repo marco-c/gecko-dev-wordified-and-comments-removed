@@ -741,6 +741,13 @@ ensureSharpSlots
 (
 )
 ;
+bool
+skipSpansGenerator
+(
+unsigned
+skip
+)
+;
 }
 ;
 #
