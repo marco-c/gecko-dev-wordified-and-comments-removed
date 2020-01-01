@@ -1264,7 +1264,7 @@ objects
 param
 groupLevel
 -
-0
+1
 -
 based
 similar
@@ -1292,7 +1292,7 @@ property
 param
 positionInGroup
 -
-0
+1
 -
 based
 similar

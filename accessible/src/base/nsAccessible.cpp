@@ -11181,8 +11181,6 @@ level
 aPositionInGroup
 =
 posInSet
--
-1
 ;
 *
 aSimilarItemsInGroup
