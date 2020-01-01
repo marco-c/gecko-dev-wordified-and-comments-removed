@@ -648,6 +648,9 @@ case
 HB_SCRIPT_ORIYA
 :
 case
+HB_SCRIPT_SINHALA
+:
+case
 HB_SCRIPT_TAMIL
 :
 case
