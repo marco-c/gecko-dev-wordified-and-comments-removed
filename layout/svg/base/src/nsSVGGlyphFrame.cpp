@@ -1113,8 +1113,10 @@ drawMode
 SetupCairoState
 (
 gfx
-&
+getter_AddRefs
+(
 strokePattern
+)
 )
 ;
 if
@@ -3578,10 +3580,8 @@ SetupCairoState
 gfxContext
 *
 aContext
-nsRefPtr
-<
 gfxPattern
->
+*
 *
 aStrokePattern
 )
@@ -3764,6 +3764,11 @@ opacity
 )
 ;
 }
+*
+aStrokePattern
+=
+nsnull
+;
 strokePattern
 .
 swap

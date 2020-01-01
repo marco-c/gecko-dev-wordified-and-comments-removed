@@ -888,10 +888,8 @@ SetupCairoState
 gfxContext
 *
 aContext
-nsRefPtr
-<
 gfxPattern
->
+*
 *
 aStrokePattern
 )
