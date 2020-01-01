@@ -12172,13 +12172,8 @@ getPPBrowser
 )
 {
 return
-document
-.
-getElementById
+getBrowser
 (
-"
-content
-"
 )
 ;
 }
