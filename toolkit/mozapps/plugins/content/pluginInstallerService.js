@@ -12,11 +12,12 @@ function
 pluginPidArray
 :
 null
-startPluginInsallation
+startPluginInstallation
 :
 function
 (
 aPluginXPIUrlsArray
+aPluginHashes
 aPluginPidArray
 )
 {
@@ -59,9 +60,10 @@ nsIXPInstallManager
 ;
 xpiManager
 .
-initManagerFromChrome
+initManagerWithHashes
 (
 aPluginXPIUrlsArray
+aPluginHashes
 aPluginXPIUrlsArray
 .
 length
