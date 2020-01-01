@@ -2566,10 +2566,13 @@ w
 )
 ;
 return
+jsint
+(
 w
 >
 >
 JSBOXEDWORD_TAGBITS
+)
 ;
 }
 static
