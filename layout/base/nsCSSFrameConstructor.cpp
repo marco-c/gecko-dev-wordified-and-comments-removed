@@ -29248,10 +29248,13 @@ IsPositioned
 !
 IsTableRelated
 (
-disp
+frame
 -
 >
-mDisplay
+GetType
+(
+)
+PR_TRUE
 )
 )
 {
