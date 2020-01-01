@@ -115,7 +115,7 @@ defined
 (
 JS_CPU_ARM
 )
-uintptr_t
+uint32
 padding
 ;
 #
