@@ -3885,6 +3885,11 @@ GetCGContext
 (
 )
 ;
+CGContextSaveGState
+(
+context
+)
+;
 [
 (
 ChildView
@@ -3898,6 +3903,11 @@ inTitlebarContext
 :
 context
 ]
+;
+CGContextRestoreGState
+(
+context
+)
 ;
 }
 void
@@ -14035,6 +14045,10 @@ if
 count
 <
 MAX_RECTS_IN_REGION
+&
+&
+!
+aIsAlternate
 )
 {
 for

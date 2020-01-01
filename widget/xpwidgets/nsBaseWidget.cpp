@@ -3470,8 +3470,6 @@ if
 mLayerManager
 )
 {
-mBasicLayerManager
-=
 mLayerManager
 =
 CreateBasicLayerManager
