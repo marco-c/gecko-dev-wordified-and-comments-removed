@@ -1804,6 +1804,16 @@ aSurfaceFlags
 0
 )
 ;
+static
+nsIContent
+*
+GetEditableRootContentByContentEditable
+(
+nsIDocument
+*
+aDocument
+)
+;
 }
 ;
 class

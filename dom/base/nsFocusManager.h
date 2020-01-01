@@ -209,6 +209,14 @@ nsPIDOMWindow
 aWindow
 )
 ;
+PRBool
+IsNonFocusableRoot
+(
+nsIContent
+*
+aContent
+)
+;
 nsIContent
 *
 CheckIfFocusable

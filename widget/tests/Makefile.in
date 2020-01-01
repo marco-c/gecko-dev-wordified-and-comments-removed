@@ -502,6 +502,10 @@ test_imestate
 .
 html
 \
+window_imestate_iframes
+.
+html
+\
 test_plugin_scroll_consistency
 .
 html
