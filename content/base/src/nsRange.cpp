@@ -1341,6 +1341,15 @@ newEndNode
 GetParent
 (
 )
+|
+|
+!
+newStartNode
+-
+>
+GetParent
+(
+)
 #
 endif
 )
