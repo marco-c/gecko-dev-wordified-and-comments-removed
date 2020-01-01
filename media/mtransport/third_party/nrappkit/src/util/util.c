@@ -2162,6 +2162,15 @@ Ws2ipdef
 h
 >
 #
+ifndef
+EAFNOSUPPORT
+#
+define
+EAFNOSUPPORT
+WSAEAFNOSUPPORT
+#
+endif
+#
 else
 #
 include
