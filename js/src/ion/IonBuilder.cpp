@@ -14661,7 +14661,7 @@ pop
 )
 ;
 }
-MCallGetPropertyOrName
+MCallGetNameInstruction
 *
 ins
 ;
