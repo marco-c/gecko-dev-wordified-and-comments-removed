@@ -126,7 +126,7 @@ class
 nsIXULPrototypeCache
 ;
 class
-nsIFocusController
+nsPIWindowRoot
 ;
 #
 if
@@ -735,13 +735,12 @@ nsIAtom
 aAttr
 )
 ;
-void
-GetFocusController
+already_AddRefed
+<
+nsPIWindowRoot
+>
+GetWindowRoot
 (
-nsIFocusController
-*
-*
-aFocusController
 )
 ;
 PRInt32

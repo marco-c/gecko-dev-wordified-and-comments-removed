@@ -134,13 +134,6 @@ h
 #
 include
 "
-nsIFocusController
-.
-h
-"
-#
-include
-"
 nsIGenericFactory
 .
 h

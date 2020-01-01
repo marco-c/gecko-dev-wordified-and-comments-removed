@@ -57,7 +57,7 @@ class
 nsIDOMElement
 ;
 class
-nsIFocusController
+nsPIWindowRoot
 ;
 class
 nsXULCommandDispatcher
@@ -96,9 +96,11 @@ Disconnect
 ;
 protected
 :
-nsIFocusController
-*
-GetFocusController
+already_AddRefed
+<
+nsPIWindowRoot
+>
+GetWindowRoot
 (
 )
 ;
