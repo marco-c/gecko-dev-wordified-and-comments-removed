@@ -15717,7 +15717,7 @@ SetFlagsOnSubtree
 nsIContent
 *
 aNode
-PtrBits
+uintptr_t
 aFlagsToSet
 )
 {

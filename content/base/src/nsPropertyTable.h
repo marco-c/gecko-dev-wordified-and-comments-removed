@@ -22,10 +22,6 @@ class
 nsIAtom
 ;
 typedef
-uintptr_t
-PtrBits
-;
-typedef
 void
 (
 *

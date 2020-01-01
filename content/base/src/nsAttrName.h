@@ -25,10 +25,6 @@ nsDOMString
 .
 h
 "
-typedef
-uintptr_t
-PtrBits
-;
 #
 define
 NS_ATTRNAME_NODEINFO_BIT
@@ -70,7 +66,7 @@ mBits
 (
 reinterpret_cast
 <
-PtrBits
+uintptr_t
 >
 (
 aAtom
@@ -132,7 +128,7 @@ mBits
 =
 reinterpret_cast
 <
-PtrBits
+uintptr_t
 >
 (
 aNodeInfo
@@ -160,7 +156,7 @@ mBits
 =
 reinterpret_cast
 <
-PtrBits
+uintptr_t
 >
 (
 aNodeInfo
@@ -225,7 +221,7 @@ mBits
 =
 reinterpret_cast
 <
-PtrBits
+uintptr_t
 >
 (
 aNodeInfo
@@ -253,7 +249,7 @@ mBits
 =
 reinterpret_cast
 <
-PtrBits
+uintptr_t
 >
 (
 aNodeInfo
@@ -297,7 +293,7 @@ mBits
 =
 reinterpret_cast
 <
-PtrBits
+uintptr_t
 >
 (
 aAtom
@@ -429,7 +425,7 @@ const
 return
 reinterpret_cast
 <
-PtrBits
+uintptr_t
 >
 (
 aAtom
@@ -766,7 +762,7 @@ mBits
 <
 reinterpret_cast
 <
-PtrBits
+uintptr_t
 >
 (
 aOther
@@ -829,7 +825,7 @@ name
 )
 ;
 }
-PtrBits
+uintptr_t
 mBits
 ;
 }

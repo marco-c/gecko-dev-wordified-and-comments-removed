@@ -294,7 +294,7 @@ SetWrapper
 aObject
 )
 ;
-PtrBits
+uintptr_t
 oldWrapperPtrBits
 =
 mWrapperPtrBits

@@ -252,10 +252,6 @@ mConstructorCID
 ;
 }
 ;
-typedef
-uintptr_t
-PtrBits
-;
 #
 define
 GET_CLEAN_CI_PTR
@@ -267,7 +263,7 @@ nsIClassInfo
 *
 )
 (
-PtrBits
+uintptr_t
 (
 _ptr
 )
@@ -286,7 +282,7 @@ nsIClassInfo
 *
 )
 (
-PtrBits
+uintptr_t
 (
 _ptr
 )
@@ -300,7 +296,7 @@ IS_EXTERNAL
 _ptr
 )
 (
-PtrBits
+uintptr_t
 (
 _ptr
 )

@@ -249,10 +249,6 @@ ContentUnbinder
 struct
 nsRect
 ;
-typedef
-uintptr_t
-PtrBits
-;
 class
 nsGenericElement
 :

@@ -20,10 +20,6 @@ JSContext
 class
 XPCWrappedNativeScope
 ;
-typedef
-uintptr_t
-PtrBits
-;
 namespace
 mozilla
 {
@@ -395,7 +391,7 @@ mWrapperPtrBits
 =
 reinterpret_cast
 <
-PtrBits
+uintptr_t
 >
 (
 aWrapper
@@ -439,7 +435,7 @@ WRAPPER_IS_DOM_BINDING
 )
 }
 ;
-PtrBits
+uintptr_t
 mWrapperPtrBits
 ;
 }
