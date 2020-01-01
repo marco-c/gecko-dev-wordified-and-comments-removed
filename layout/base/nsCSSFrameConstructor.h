@@ -973,9 +973,6 @@ AppendFrames
 nsFrameConstructorState
 &
 aState
-nsIContent
-*
-aContainer
 nsIFrame
 *
 aParentFrame
@@ -984,7 +981,7 @@ nsFrameItems
 aFrameList
 nsIFrame
 *
-aAfterFrame
+aPrevSibling
 )
 ;
 nsresult
