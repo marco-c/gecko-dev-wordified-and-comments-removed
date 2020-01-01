@@ -292,7 +292,7 @@ CALL_STATE_ALERTING
 return
 nsIRadioInterfaceLayer
 .
-CALL_STATE_RINGING
+CALL_STATE_ALERTING
 ;
 case
 RIL
@@ -1650,7 +1650,7 @@ state
 =
 nsIRadioInterfaceLayer
 .
-CALL_STATE_RINGING
+CALL_STATE_ALERTING
 |
 |
 call
