@@ -37,6 +37,10 @@ mInitialized
 (
 PR_FALSE
 )
+mTriedInitializing
+(
+PR_FALSE
+)
 mOGLLibrary
 (
 nsnull
@@ -337,6 +341,9 @@ private
 :
 PRBool
 mInitialized
+;
+PRBool
+mTriedInitializing
 ;
 PRLibrary
 *
