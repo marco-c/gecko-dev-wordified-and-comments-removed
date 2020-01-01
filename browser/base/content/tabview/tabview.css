@@ -20,6 +20,15 @@ auto
 #
 content
 {
+overflow
+:
+-
+moz
+-
+hidden
+-
+unscrollable
+;
 position
 :
 absolute
