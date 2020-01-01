@@ -90,7 +90,7 @@ timeout
 \
 PR_Sleep
 (
-200
+10
 )
 ;
 \
@@ -151,7 +151,7 @@ timeout
 \
 PR_Sleep
 (
-200
+10
 )
 ;
 \
