@@ -9524,13 +9524,6 @@ CleanUpWidgetTracing
 (
 )
 {
-if
-(
-sTracerRunnable
-)
-delete
-sTracerRunnable
-;
 sTracerRunnable
 =
 nullptr
