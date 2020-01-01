@@ -1710,15 +1710,6 @@ unit
 ref
 .
 html
-random
--
-if
-(
-cocoaWidget
-&
-&
-layersGPUAccelerated
-)
 HTTP
 (
 .

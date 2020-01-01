@@ -390,15 +390,6 @@ hidden
 ref
 .
 svg
-random
--
-if
-(
-cocoaWidget
-&
-&
-layersGPUAccelerated
-)
 =
 =
 href
