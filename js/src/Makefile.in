@@ -846,6 +846,10 @@ jswrapper
 .
 cpp
 \
+jsxdrapi
+.
+cpp
+\
 jsxml
 .
 cpp
@@ -963,10 +967,6 @@ StringBuffer
 cpp
 \
 Unicode
-.
-cpp
-\
-Xdr
 .
 cpp
 \
@@ -1115,6 +1115,10 @@ jsversion
 h
 \
 jswrapper
+.
+h
+\
+jsxdrapi
 .
 h
 \

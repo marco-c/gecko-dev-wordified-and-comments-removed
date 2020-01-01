@@ -59,6 +59,13 @@ h
 #
 include
 "
+jsxdrapi
+.
+h
+"
+#
+include
+"
 js
 /
 HashTable
