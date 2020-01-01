@@ -4471,6 +4471,15 @@ doc
 "
 )
 ;
+nsCOMPtr
+<
+nsIMutationObserver
+>
+kungFuDeathGrip
+(
+this
+)
+;
 RemoveSubtreeFromDocument
 (
 aChild

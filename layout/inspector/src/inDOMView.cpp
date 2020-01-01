@@ -3586,6 +3586,15 @@ oldNode
 )
 return
 ;
+nsCOMPtr
+<
+nsIMutationObserver
+>
+kungFuDeathGrip
+(
+this
+)
+;
 inDOMViewNode
 *
 parentNode

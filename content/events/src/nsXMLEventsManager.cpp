@@ -1673,6 +1673,15 @@ IsElement
 )
 return
 ;
+nsCOMPtr
+<
+nsIMutationObserver
+>
+kungFuDeathGrip
+(
+this
+)
+;
 mListeners
 .
 Enumerate
