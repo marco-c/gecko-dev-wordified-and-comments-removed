@@ -689,9 +689,6 @@ size_t
 bufEnd
 ;
 uint16_t
-level
-;
-uint16_t
 ndefaults
 ;
 StrictMode
