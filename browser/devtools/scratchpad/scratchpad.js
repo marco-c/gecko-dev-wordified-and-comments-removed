@@ -1676,6 +1676,14 @@ setText
 content
 )
 ;
+self
+.
+editor
+.
+resetUndo
+(
+)
+;
 }
 else
 if

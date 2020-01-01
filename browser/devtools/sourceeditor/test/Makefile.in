@@ -478,6 +478,10 @@ browser_bug687580_drag_and_drop
 .
 js
 \
+browser_bug684546_reset_undo
+.
+js
+\
 browser_bug695035_middle_click_paste
 .
 js
