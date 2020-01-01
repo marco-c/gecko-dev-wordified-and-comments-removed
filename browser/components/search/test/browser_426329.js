@@ -1465,7 +1465,12 @@ entryExists
 (
 textbox
 .
-searchParam
+getAttribute
+(
+"
+autocompletesearchparam
+"
+)
 searchEntries
 [
 i
