@@ -10298,7 +10298,7 @@ GetContainer
 ;
 nsCOMPtr
 <
-nsPIDOMWindow
+nsIDOMWindow
 >
 window
 =

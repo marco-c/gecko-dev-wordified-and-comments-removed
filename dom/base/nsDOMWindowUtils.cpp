@@ -29,7 +29,7 @@ h
 #
 include
 "
-nsIDOMEvent
+nsIDOMNSEvent
 .
 h
 "

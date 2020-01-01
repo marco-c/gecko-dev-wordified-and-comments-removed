@@ -347,12 +347,7 @@ GLOBAL_DEPS
 NULL
 )
 MOCHITEST_FILES
-:
 =
-\
-test_bug773326
-.
-html
 \
 test_enums
 .

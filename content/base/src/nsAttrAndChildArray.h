@@ -555,8 +555,7 @@ MappedAttrCount
 )
 const
 ;
-nsMappedAttributes
-*
+nsresult
 GetModifiableMapped
 (
 nsMappedAttributeElement
@@ -567,6 +566,10 @@ nsHTMLStyleSheet
 aSheet
 bool
 aWillAddAttr
+nsMappedAttributes
+*
+*
+aModifiable
 )
 ;
 nsresult

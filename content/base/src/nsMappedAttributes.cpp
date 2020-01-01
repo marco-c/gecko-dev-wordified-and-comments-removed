@@ -302,6 +302,11 @@ InternalAttr
 #
 ifdef
 DEBUG
+if
+(
+newAttrs
+)
+{
 static_cast
 <
 nsMappedAttributes
@@ -316,6 +321,7 @@ mBufferSize
 =
 aAttrCount
 ;
+}
 #
 endif
 return

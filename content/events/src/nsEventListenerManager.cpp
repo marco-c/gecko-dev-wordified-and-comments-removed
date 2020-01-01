@@ -57,6 +57,13 @@ h
 #
 include
 "
+nsIDOMNSEvent
+.
+h
+"
+#
+include
+"
 nsIDOMEventListener
 .
 h

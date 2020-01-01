@@ -74,6 +74,16 @@ html
 .
 json
 \
+test_setrequestheader
+-
+invalid
+-
+arguments
+.
+htm
+.
+json
+\
 (
 NULL
 )

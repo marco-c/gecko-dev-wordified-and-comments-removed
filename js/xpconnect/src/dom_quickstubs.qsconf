@@ -1002,6 +1002,16 @@ long
 parameters
 .
 '
+nsIDOMNSEvent
+.
+originalTarget
+'
+'
+nsIDOMNSEvent
+.
+getPreventDefault
+'
+'
 nsIDOMUIEvent
 .
 which
