@@ -1173,7 +1173,7 @@ masm
 .
 setupUnalignedABICall
 (
-3
+2
 rdx
 )
 ;
