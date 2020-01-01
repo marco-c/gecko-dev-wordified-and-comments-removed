@@ -339,7 +339,6 @@ blank
 #
 crash
 test
-fails
 =
 =
 stress
@@ -354,14 +353,6 @@ stress
 ref
 .
 xhtml
-#
-crash
-test
-fails
-due
-to
-bug
-402933
 =
 =
 border
