@@ -26,7 +26,7 @@ nsSVGTextContainerFrame
 public
 nsSVGDisplayContainerFrame
 {
-public
+protected
 :
 nsSVGTextContainerFrame
 (
@@ -41,6 +41,8 @@ aContext
 )
 {
 }
+public
+:
 void
 NotifyGlyphMetricsChange
 (
@@ -78,8 +80,6 @@ GetRotate
 (
 )
 ;
-public
-:
 NS_DECL_QUERYFRAME_TARGET
 (
 nsSVGTextContainerFrame
@@ -248,16 +248,6 @@ node
 )
 ;
 void
-SetWhitespaceHandling
-(
-)
-;
-PRBool
-IsAllWhitespace
-(
-)
-;
-void
 CopyPositionList
 (
 nsTArray
@@ -309,6 +299,11 @@ PRUint32
 aOffset
 PRUint32
 aDepth
+)
+;
+void
+SetWhitespaceCompression
+(
 )
 ;
 private
