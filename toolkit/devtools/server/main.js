@@ -1918,7 +1918,7 @@ if
 !
 (
 "
-ContentTabActor
+ContentAppActor
 "
 in
 DebuggerServer

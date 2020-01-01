@@ -4,7 +4,7 @@ strict
 "
 ;
 function
-ContentTabActor
+ContentAppActor
 (
 connection
 browser
@@ -20,7 +20,7 @@ browser
 )
 ;
 }
-ContentTabActor
+ContentAppActor
 .
 prototype
 =
@@ -33,19 +33,19 @@ BrowserTabActor
 prototype
 )
 ;
-ContentTabActor
+ContentAppActor
 .
 prototype
 .
 constructor
 =
-ContentTabActor
+ContentAppActor
 ;
 Object
 .
 defineProperty
 (
-ContentTabActor
+ContentAppActor
 .
 prototype
 "
@@ -79,7 +79,7 @@ Object
 .
 defineProperty
 (
-ContentTabActor
+ContentAppActor
 .
 prototype
 "
@@ -115,7 +115,7 @@ Object
 .
 defineProperty
 (
-ContentTabActor
+ContentAppActor
 .
 prototype
 "
@@ -143,7 +143,7 @@ false
 }
 )
 ;
-ContentTabActor
+ContentAppActor
 .
 prototype
 .
