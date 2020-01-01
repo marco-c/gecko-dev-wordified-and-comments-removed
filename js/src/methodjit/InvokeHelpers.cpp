@@ -2240,11 +2240,9 @@ ucr
 fun
 -
 >
-u
-.
-n
-.
 native
+(
+)
 args
 )
 )

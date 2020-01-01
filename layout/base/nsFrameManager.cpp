@@ -2166,6 +2166,8 @@ aListID
 nsIFrame
 *
 aOldFrame
+bool
+aInvalidate
 )
 {
 bool
@@ -2177,6 +2179,11 @@ mIsDestroyingFrames
 =
 true
 ;
+if
+(
+aInvalidate
+)
+{
 aOldFrame
 -
 >
@@ -2184,6 +2191,7 @@ InvalidateFrameSubtree
 (
 )
 ;
+}
 NS_ASSERTION
 (
 !

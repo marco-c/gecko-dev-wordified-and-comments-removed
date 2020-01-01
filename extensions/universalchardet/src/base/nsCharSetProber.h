@@ -98,14 +98,6 @@ void
 =
 0
 ;
-virtual
-void
-SetOpion
-(
-)
-=
-0
-;
 #
 ifdef
 DEBUG_chardet

@@ -3895,15 +3895,6 @@ int
 selectionLength
 )
 {
-mInputConnection
-.
-returnIMEQueryResult
-(
-result
-selectionStart
-selectionLength
-)
-;
 }
 static
 void

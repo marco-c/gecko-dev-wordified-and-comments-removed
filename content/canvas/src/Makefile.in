@@ -441,6 +441,10 @@ CustomQS_WebGL
 .
 h
 \
+WebGLContext
+.
+h
+\
 (
 NULL
 )

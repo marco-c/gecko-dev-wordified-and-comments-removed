@@ -3081,6 +3081,7 @@ nsIFrame
 *
 aContentParentFrame
 )
+const
 ;
 nsresult
 AddChild
@@ -3996,6 +3997,7 @@ nsIFrame
 *
 aContentParentFrame
 )
+const
 {
 NS_PRECONDITION
 (

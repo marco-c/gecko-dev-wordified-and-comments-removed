@@ -198,13 +198,6 @@ GetConfidence
 void
 )
 ;
-virtual
-void
-SetOpion
-(
-)
-{
-}
 bool
 KeepEnglishLetters
 (

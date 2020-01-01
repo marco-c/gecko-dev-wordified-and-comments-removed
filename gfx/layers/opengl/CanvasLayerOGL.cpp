@@ -415,7 +415,15 @@ mGLBufferIsPremultiplied
 ;
 mNeedsYFlip
 =
-true
+mCanvasGLContext
+-
+>
+GetOffscreenTexture
+(
+)
+!
+=
+0
 ;
 }
 else

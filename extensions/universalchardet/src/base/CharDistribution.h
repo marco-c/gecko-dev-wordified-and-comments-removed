@@ -149,12 +149,6 @@ aIsPreferredLanguage
 MINIMUM_DATA_THRESHOLD
 ;
 }
-void
-SetOpion
-(
-)
-{
-}
 bool
 GotEnoughData
 (

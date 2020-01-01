@@ -661,8 +661,6 @@ createConstructor
 (
 cx
 Boolean
-&
-BooleanClass
 CLASS_ATOM
 (
 cx

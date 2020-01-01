@@ -279,11 +279,6 @@ defined
 MOZ_WIDGET_QT
 )
 #
-include
-<
-QX11Info
->
-#
 undef
 KeyPress
 #

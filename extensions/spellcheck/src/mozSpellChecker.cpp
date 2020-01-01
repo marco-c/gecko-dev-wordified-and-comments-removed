@@ -1386,7 +1386,7 @@ rv
 ;
 for
 (
-PRUint32
+PRInt32
 i
 =
 0
@@ -1626,7 +1626,7 @@ rv
 ;
 for
 (
-PRUint32
+PRInt32
 i
 =
 0
