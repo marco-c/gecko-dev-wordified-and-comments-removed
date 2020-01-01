@@ -819,6 +819,12 @@ LocalBrowserDB
 .
 java
 \
+db
+/
+DBUtils
+.
+java
+\
 DoorHanger
 .
 java
@@ -1189,6 +1195,12 @@ java
 db
 /
 BrowserProvider
+.
+java
+\
+db
+/
+PasswordsProvider
 .
 java
 \
