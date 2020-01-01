@@ -466,6 +466,7 @@ true
 )
 ;
 }
+virtual
 imgStatusTracker
 &
 GetStatusTracker
@@ -527,10 +528,6 @@ nsRefPtr
 imgRequest
 >
 mOwner
-;
-imgStatusTracker
-*
-mStatusTracker
 ;
 nsCOMPtr
 <
@@ -629,6 +626,15 @@ nsIPrincipal
 *
 aPrincipal
 )
+;
+virtual
+imgStatusTracker
+&
+GetStatusTracker
+(
+)
+const
+MOZ_OVERRIDE
 ;
 protected
 :
