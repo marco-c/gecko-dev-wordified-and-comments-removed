@@ -242,6 +242,12 @@ GetCMSRGBTransform
 ;
 static
 cmsHTRANSFORM
+GetCMSInverseRGBTransform
+(
+)
+;
+static
+cmsHTRANSFORM
 GetCMSRGBATransform
 (
 )

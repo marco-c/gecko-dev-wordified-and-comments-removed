@@ -606,6 +606,10 @@ MOZ_UNICHARUTIL_LIBS
 )
 \
 (
+LCMS_LIBS
+)
+\
+(
 NULL
 )
 include

@@ -697,6 +697,10 @@ MOZ_FIX_LINK_PATHS
 )
 \
 (
+LCMS_LIBS
+)
+\
+(
 NULL
 )
 include

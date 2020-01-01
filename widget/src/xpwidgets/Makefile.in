@@ -452,6 +452,8 @@ view
 \
 windowwatcher
 \
+lcms
+\
 (
 NULL
 )
