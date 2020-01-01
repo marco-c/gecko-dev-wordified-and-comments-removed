@@ -239,10 +239,7 @@ fp
 #
 endif
 extern
-JS_FRIEND_API
-(
 JSClass
-)
 js_GeneratorClass
 ;
 extern

@@ -852,15 +852,3 @@ CONTEXT
 0
 0
 )
-BUILTIN4
-(
-extern
-OBJECT
-js_NewNullClosure
-CONTEXT
-OBJECT
-OBJECT
-OBJECT
-0
-0
-)
