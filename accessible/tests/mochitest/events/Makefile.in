@@ -520,6 +520,10 @@ test_scroll
 .
 xul
 \
+test_selection
+.
+html
+\
 test_statechange
 .
 html
