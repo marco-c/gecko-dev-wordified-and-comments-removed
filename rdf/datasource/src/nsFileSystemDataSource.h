@@ -54,13 +54,6 @@ nsString
 h
 "
 #
-include
-"
-nsCycleCollectionParticipant
-.
-h
-"
-#
 if
 defined
 (
@@ -97,11 +90,7 @@ nsIRDFDataSource
 {
 public
 :
-NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_CYCLE_COLLECTION_CLASS
-(
-FileSystemDataSource
-)
+NS_DECL_ISUPPORTS
 NS_DECL_NSIRDFDATASOURCE
 static
 NS_METHOD
