@@ -39397,6 +39397,26 @@ text
 )
 :
     
+tail
+=
+'
+\
+n
+'
+if
+text
+.
+endswith
+(
+'
+\
+n
+'
+)
+else
+'
+'
+    
 lines
 =
 text
@@ -39441,6 +39461,8 @@ join
 (
 lines
 )
++
+tail
 class
 CGDescriptor
 (
