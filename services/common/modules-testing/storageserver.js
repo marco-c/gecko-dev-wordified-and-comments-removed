@@ -1194,6 +1194,12 @@ request
 .
 timestamp
 ;
+this
+.
+deleted
+=
+false
+;
 response
 .
 setHeader
@@ -2388,6 +2394,12 @@ bso
 modified
 =
 timestamp
+;
+bso
+.
+deleted
+=
+false
 ;
 success
 .
