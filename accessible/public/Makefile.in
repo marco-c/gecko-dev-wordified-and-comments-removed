@@ -437,10 +437,6 @@ nsIAccessibleTypes
 .
 idl
 \
-nsIAccessibilityService
-.
-idl
-\
 nsIAccessibleRetrieval
 .
 idl
@@ -516,6 +512,16 @@ idl
 nsIXBLAccessible
 .
 idl
+\
+(
+NULL
+)
+EXPORTS
+=
+\
+nsIAccessibilityService
+.
+h
 \
 (
 NULL

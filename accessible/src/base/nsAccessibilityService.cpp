@@ -1062,7 +1062,7 @@ aEventType
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -1187,7 +1187,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -1623,7 +1623,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -1983,7 +1983,7 @@ forget
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -2065,7 +2065,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -2604,7 +2604,7 @@ forget
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -2694,7 +2694,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -2792,7 +2792,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -2874,7 +2874,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -2921,7 +2921,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -3132,7 +3132,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -3155,7 +3155,7 @@ aAccessible
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -3237,7 +3237,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -3284,7 +3284,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -3374,7 +3374,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -3588,7 +3588,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -3670,7 +3670,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -3720,7 +3720,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -3802,7 +3802,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -3884,7 +3884,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -3971,7 +3971,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -4053,7 +4053,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -4135,7 +4135,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -4217,7 +4217,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -4299,7 +4299,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -9771,7 +9771,7 @@ forget
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -9857,7 +9857,7 @@ NS_ERROR_NOT_IMPLEMENTED
 #
 endif
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
@@ -9919,7 +9919,7 @@ NS_ERROR_NOT_IMPLEMENTED
 #
 endif
 }
-NS_IMETHODIMP
+nsresult
 nsAccessibilityService
 :
 :
