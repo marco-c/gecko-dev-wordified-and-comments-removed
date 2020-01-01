@@ -10066,17 +10066,8 @@ scrollFrame
 PRInt32
 lineCount
 =
-1
-;
-#
-ifdef
-MOZ_WIDGET_COCOA
-lineCount
-=
 2
 ;
-#
-endif
 scrollFrame
 -
 >
