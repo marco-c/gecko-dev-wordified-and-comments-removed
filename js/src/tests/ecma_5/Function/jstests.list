@@ -63,3 +63,11 @@ function
 bind
 .
 js
+script
+redefine
+-
+arguments
+-
+length
+.
+js
