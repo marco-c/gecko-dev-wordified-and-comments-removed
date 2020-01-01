@@ -213,14 +213,6 @@ const
 nsRect
 &
 aBorderArea
-const
-nsStyleBorder
-&
-aBorderStyle
-const
-nsStyleOutline
-&
-aOutlineStyle
 nsStyleContext
 *
 aStyleContext
