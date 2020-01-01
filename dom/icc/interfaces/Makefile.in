@@ -112,6 +112,10 @@ nsIDOMICCCardLockErrorEvent
 .
 idl
 \
+nsIIccProvider
+.
+idl
+\
 (
 NULL
 )
