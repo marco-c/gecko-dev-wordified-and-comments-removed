@@ -120,6 +120,9 @@ class
 PropertyNodeList
 ;
 class
+Element
+;
+class
 PropertyStringList
 :
 public
@@ -217,7 +220,7 @@ triedToWrap
 )
 ;
 virtual
-nsGenericElement
+Element
 *
 GetElementAt
 (
