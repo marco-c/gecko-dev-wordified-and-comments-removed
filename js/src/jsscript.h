@@ -1907,10 +1907,7 @@ return
 JITScript_Valid
 ;
 }
-JS_FRIEND_API
-(
 size_t
-)
 jitDataSize
 (
 JSMallocSizeOfFun

@@ -759,6 +759,16 @@ PRUint8
 aAttrEnum
 )
 ;
+nsSVGLength2
+*
+GetAnimatedLength
+(
+const
+nsIAtom
+*
+aAttrName
+)
+;
 void
 GetAnimatedLengthValues
 (

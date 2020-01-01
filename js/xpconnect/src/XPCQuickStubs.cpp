@@ -4564,8 +4564,11 @@ return
 true
 ;
 }
-JSBool
-xpc_qsStringToJsval
+namespace
+xpc
+{
+bool
+StringToJsval
 (
 JSContext
 *
@@ -4573,7 +4576,10 @@ cx
 nsString
 &
 str
-jsval
+JS
+:
+:
+Value
 *
 rval
 )
@@ -4644,6 +4650,7 @@ ForgetSharedBuffer
 return
 true
 ;
+}
 }
 JSBool
 xpc_qsStringToJsstring

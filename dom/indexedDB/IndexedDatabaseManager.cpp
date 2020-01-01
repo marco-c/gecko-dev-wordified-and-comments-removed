@@ -126,7 +126,7 @@ h
 #
 include
 "
-xpcprivate
+xpcpublic
 .
 h
 "

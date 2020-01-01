@@ -5298,6 +5298,12 @@ client
 .
 BeginDrawing
 (
+gAndroidBounds
+.
+width
+gAndroidBounds
+.
+height
 )
 ;
 nsAutoString

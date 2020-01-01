@@ -9734,7 +9734,6 @@ getAtom
 (
 js_GetIndexFromBytecode
 (
-cx
 script
 pc
 0
@@ -11176,7 +11175,6 @@ getAtom
 (
 js_GetIndexFromBytecode
 (
-cx
 script
 pc
 0

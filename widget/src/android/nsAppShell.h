@@ -233,6 +233,9 @@ mQueueCond
 int
 mNumDraws
 ;
+int
+mNumViewports
+;
 mozilla
 :
 :
