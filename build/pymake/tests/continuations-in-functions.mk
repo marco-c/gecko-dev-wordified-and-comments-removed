@@ -21,11 +21,11 @@ test
 '
 (
 Hello
-\
 world
 .
 )
 '
+!
 =
 '
 (

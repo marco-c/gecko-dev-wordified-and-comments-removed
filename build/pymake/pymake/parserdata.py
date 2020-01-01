@@ -4,9 +4,9 @@ re
 os
 import
 data
+parser
 functions
 util
-parser
 from
 cStringIO
 import
@@ -136,10 +136,12 @@ column
 column
     
 def
-__add__
+offset
 (
 self
-data
+s
+start
+end
 )
 :
         
@@ -164,11 +166,10 @@ string
 "
         
 if
-data
+start
 =
 =
-'
-'
+end
 :
             
 return
@@ -176,7 +177,7 @@ self
         
 skiplines
 =
-data
+s
 .
 count
 (
@@ -184,6 +185,8 @@ count
 \
 n
 '
+start
+end
 )
         
 line
@@ -200,7 +203,7 @@ skiplines
             
 lastnl
 =
-data
+s
 .
 rfind
 (
@@ -208,6 +211,8 @@ rfind
 \
 n
 '
+start
+end
 )
             
 assert
@@ -217,15 +222,11 @@ lastnl
 -
 1
             
-data
+start
 =
-data
-[
 lastnl
 +
 1
-:
-]
             
 column
 =
@@ -240,17 +241,13 @@ self
 .
 column
         
-i
-=
-0
-        
 while
 True
 :
             
 j
 =
-data
+s
 .
 find
 (
@@ -258,7 +255,8 @@ find
 \
 t
 '
-i
+start
+end
 )
             
 if
@@ -272,12 +270,9 @@ j
 column
 +
 =
-len
-(
-data
-)
+end
 -
-i
+start
                 
 break
             
@@ -286,7 +281,7 @@ column
 =
 j
 -
-i
+start
             
 column
 +
@@ -300,7 +295,7 @@ column
 %
 _tabwidth
             
-i
+start
 =
 j
 +
@@ -624,9 +619,6 @@ data
 Variables
 .
 SOURCE_COMMANDLINE
-endloc
-=
-None
 )
 )
         
@@ -910,6 +902,34 @@ ispattern
 =
 ispatterns
         
+if
+ispattern
+and
+context
+.
+weak
+:
+            
+raise
+data
+.
+DataError
+(
+"
+Pattern
+rules
+not
+allowed
+in
+includedeps
+"
+self
+.
+targetexp
+.
+loc
+)
+        
 deps
 =
 [
@@ -996,6 +1016,11 @@ self
 targetexp
 .
 loc
+weakdeps
+=
+context
+.
+weak
 )
             
 for
@@ -1181,6 +1206,33 @@ makefile
 context
 )
 :
+        
+if
+context
+.
+weak
+:
+            
+raise
+data
+.
+DataError
+(
+"
+Static
+pattern
+rules
+not
+allowed
+in
+includedeps
+"
+self
+.
+targetexp
+.
+loc
+)
         
 targets
 =
@@ -1588,6 +1640,31 @@ is
 not
 None
         
+if
+context
+.
+weak
+:
+            
+raise
+data
+.
+DataError
+(
+"
+rules
+not
+allowed
+in
+includedeps
+"
+self
+.
+exp
+.
+loc
+)
+        
 context
 .
 currule
@@ -1665,8 +1742,8 @@ value
 valueloc
 targetexp
 source
-                 
-endloc
+=
+None
 )
 :
         
@@ -1709,6 +1786,20 @@ StringExpansion
 )
 )
         
+if
+source
+is
+None
+:
+            
+source
+=
+data
+.
+Variables
+.
+SOURCE_MAKEFILE
+        
 self
 .
 vnameexp
@@ -1744,12 +1835,6 @@ self
 source
 =
 source
-        
-self
-.
-endloc
-=
-endloc
     
 def
 execute
@@ -2111,9 +2196,6 @@ sSetVariable
 <
 %
 s
--
-%
-s
 >
 %
 s
@@ -2132,9 +2214,6 @@ indent
 self
 .
 valueloc
-self
-.
-endloc
 self
 .
 vnameexp
@@ -2933,6 +3012,9 @@ exp
 '
 required
 '
+'
+deps
+'
 )
     
 def
@@ -2941,6 +3023,7 @@ __init__
 self
 exp
 required
+weak
 )
 :
         
@@ -2969,6 +3052,12 @@ self
 required
 =
 required
+        
+self
+.
+weak
+=
+weak
     
 def
 execute
@@ -3014,6 +3103,11 @@ self
 exp
 .
 loc
+weak
+=
+self
+.
+weak
 )
     
 def
@@ -3644,7 +3738,24 @@ __slots__
 '
 currule
 '
+'
+weak
+'
 )
+    
+def
+__init__
+(
+self
+weak
+)
+:
+        
+self
+.
+weak
+=
+weak
 class
 StatementList
 (
@@ -3691,6 +3802,9 @@ makefile
 context
 =
 None
+weak
+=
+False
 )
 :
         
@@ -3704,6 +3818,9 @@ context
 =
 _EvalContext
 (
+weak
+=
+weak
 )
         
 for
@@ -3805,7 +3922,7 @@ s
 for
 s2
 in
-iterstatements
+iterstatments
 (
 sl
 )

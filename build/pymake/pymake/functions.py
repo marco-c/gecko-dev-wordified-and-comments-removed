@@ -9,7 +9,6 @@ functions
 "
 import
 parser
-data
 util
 import
 subprocess
@@ -3772,9 +3771,11 @@ self
 loc
 )
         
-text
+stmts
 =
-StringIO
+parser
+.
+parsestring
 (
 self
 .
@@ -3789,15 +3790,7 @@ makefile
 variables
 setting
 )
-)
-        
-stmts
-=
-parser
-.
-parsestream
-(
-text
+                                   
 '
 evaluation
 from
@@ -4713,3 +4706,5 @@ info
 :
 InfoFunction
 }
+import
+data
