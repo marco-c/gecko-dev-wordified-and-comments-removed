@@ -553,7 +553,6 @@ testTableSelection
 aIdentifier
 aCellsArray
 aMsg
-aSkipStatesTesting
 )
 {
 var
@@ -1337,12 +1336,6 @@ selected
 )
 ;
 }
-if
-(
-aSkipStatesTesting
-)
-return
-;
 for
 (
 var
@@ -1426,7 +1419,7 @@ else
 testStates
 (
 cell
-0
+STATE_SELECTABLE
 0
 STATE_SELECTED
 )
@@ -1766,7 +1759,6 @@ testSelectTableRow
 aIdentifier
 aRowIdx
 aCellsArray
-aSkipStatesTesting
 )
 {
 var
@@ -1887,7 +1879,6 @@ aRowIdx
 row
 :
 "
-aSkipStatesTesting
 )
 ;
 }
