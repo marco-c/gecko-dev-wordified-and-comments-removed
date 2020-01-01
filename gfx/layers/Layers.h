@@ -281,11 +281,6 @@ mCSSContentSize
 0
 0
 )
-mResolution
-(
-1
-1
-)
 {
 }
 bool
@@ -425,9 +420,6 @@ gfx
 :
 Size
 mCSSContentSize
-;
-gfxSize
-mResolution
 ;
 }
 ;
