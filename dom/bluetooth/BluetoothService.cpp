@@ -3574,9 +3574,7 @@ name
 .
 EqualsLiteral
 (
-"
-PairedStatusChanged
-"
+PAIRED_STATUS_CHANGED_ID
 )
 )
 {
@@ -3599,7 +3597,7 @@ Length
 =
 1
 "
-PairedStatusChagned
+pairedstatuschanged
 :
 Wrong
 length
