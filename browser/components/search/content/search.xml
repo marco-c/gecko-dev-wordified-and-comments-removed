@@ -972,6 +972,15 @@ go
 -
 container
 "
+chromedir
+=
+"
+&
+locale
+.
+dir
+;
+"
 >
 <
 xul

@@ -80,9 +80,12 @@ label
 -
 box
 {
+-
+moz
+-
 margin
 -
-left
+start
 :
 0px
 ;
@@ -96,9 +99,12 @@ radio
 -
 icon
 {
+-
+moz
+-
 margin
 -
-right
+end
 :
 2px
 ;

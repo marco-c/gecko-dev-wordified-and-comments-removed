@@ -1779,6 +1779,15 @@ align
 "
 center
 "
+chromedir
+=
+"
+&
+locale
+.
+dir
+;
+"
 >
 <
 toolbarbutton
