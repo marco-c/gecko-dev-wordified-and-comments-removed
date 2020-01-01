@@ -16,7 +16,7 @@ PACKAGE_VERSION
 '
 5
 .
-12
+13
 '
 desc
 =
@@ -103,9 +103,7 @@ mozinfo
 =
 0
 .
-3
-.
-3
+4
 '
         
 '

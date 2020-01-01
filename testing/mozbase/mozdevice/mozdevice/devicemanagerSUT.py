@@ -674,7 +674,7 @@ self
 debug
 >
 =
-2
+4
 :
                     
 print
@@ -3074,7 +3074,7 @@ ps
 ]
 )
         
-files
+processTuples
 =
 [
 ]
@@ -3117,7 +3117,7 @@ pidproc
 )
 :
                     
-files
+processTuples
 +
 =
 [
@@ -3145,28 +3145,34 @@ pidproc
 )
 :
                     
-files
+processTuples
 +
 =
 [
 [
+int
+(
 pidproc
 [
 1
 ]
+)
 pidproc
 [
 2
 ]
+int
+(
 pidproc
 [
 0
 ]
+)
 ]
 ]
         
 return
-files
+processTuples
     
 def
 fireProcess

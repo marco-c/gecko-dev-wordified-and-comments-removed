@@ -5,8 +5,6 @@ threading
 import
 Thread
 import
-unittest
-import
 time
 class
 MockAgent
@@ -59,7 +57,7 @@ mnt
 sdcard
 "
 )
-                                   
+                             
 (
 "
 isdir
@@ -74,7 +72,7 @@ tests
 TRUE
 "
 )
-                                   
+                             
 (
 "
 ver
