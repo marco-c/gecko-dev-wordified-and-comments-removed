@@ -712,7 +712,7 @@ PRInt32
 *
 ioYPos
 const
-nsRect
+nsSize
 &
 inParentRect
 PRBool

@@ -607,6 +607,10 @@ test_popuphidden
 .
 xul
 \
+test_popup_scaled
+.
+xul
+\
 test_popupremoving
 .
 xul
