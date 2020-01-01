@@ -44,6 +44,11 @@ test_modules
 =
 [
 "
+aitcserver
+.
+js
+"
+"
 storageserver
 .
 js
