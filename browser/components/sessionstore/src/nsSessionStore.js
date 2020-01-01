@@ -13367,6 +13367,13 @@ if
 this
 .
 windowToFocus
+&
+&
+this
+.
+windowToFocus
+.
+content
 )
 {
 this
