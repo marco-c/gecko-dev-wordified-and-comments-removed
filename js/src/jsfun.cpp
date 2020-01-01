@@ -1994,6 +1994,13 @@ obj
 }
 }
 else
+if
+(
+JSVAL_IS_STRING
+(
+id
+)
+)
 {
 str
 =
