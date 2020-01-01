@@ -200,9 +200,7 @@ getOwnPropertyDescriptor
 Map
 .
 prototype
-"
-get
-"
+name
 )
 ;
 assertEq
