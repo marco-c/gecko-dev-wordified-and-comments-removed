@@ -211,6 +211,12 @@ JSContext
 aJSContext
 )
 {
+NS_HOLD_JS_OBJECTS
+(
+this
+AudioBuffer
+)
+;
 if
 (
 !
@@ -270,12 +276,6 @@ array
 )
 ;
 }
-NS_HOLD_JS_OBJECTS
-(
-this
-AudioBuffer
-)
-;
 return
 true
 ;
