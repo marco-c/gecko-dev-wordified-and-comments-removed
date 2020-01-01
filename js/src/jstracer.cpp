@@ -2383,6 +2383,11 @@ jsbytecode
 pc
 )
 {
+AUDIT
+(
+blacklisted
+)
+;
 JS_ASSERT
 (
 *
@@ -32517,6 +32522,11 @@ unstableInnerCalls
 %
 llu
 )
+blacklisted
+(
+%
+llu
+)
 \
 n
 "
@@ -32550,6 +32560,9 @@ returnLoopExits
 jitstats
 .
 noCompatInnerTrees
+jitstats
+.
+blacklisted
 )
 ;
 nj_dprintf

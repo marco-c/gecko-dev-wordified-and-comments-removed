@@ -509,3 +509,7 @@ JITSTAT
 (
 noCompatInnerTrees
 )
+JITSTAT
+(
+blacklisted
+)

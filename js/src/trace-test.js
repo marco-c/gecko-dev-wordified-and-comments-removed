@@ -257,6 +257,13 @@ noCompatInnerTrees
 "
 )
 ;
+f
+(
+"
+blacklisted
+"
+)
+;
 }
 var
 jitProps
