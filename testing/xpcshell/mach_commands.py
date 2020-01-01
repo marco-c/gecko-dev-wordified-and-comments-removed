@@ -130,6 +130,7 @@ ini
 '
 )
         
+return
 self
 .
 _run_xpcshell_harness
@@ -452,6 +453,7 @@ basename
 test_file
 )
         
+return
 self
 .
 _run_xpcshell_harness
@@ -858,6 +860,8 @@ k
 =
 v
         
+result
+=
 xpcshell
 .
 runTests
@@ -873,6 +877,13 @@ log_manager
 .
 disable_unstructured
 (
+)
+        
+return
+int
+(
+not
+result
 )
 CommandProvider
 class
