@@ -1,0 +1,16 @@
+http
+:
+/
+/
+mozilla
+.
+org
+privileged
+http
+:
+/
+/
+mozillians
+.
+org
+privileged
