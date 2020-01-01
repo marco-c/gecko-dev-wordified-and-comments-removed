@@ -214,7 +214,6 @@ Length
 (
 )
 ;
-\
 for
 (
 i
@@ -238,15 +237,9 @@ tmp
 -
 >
 mObservers
-.
-ElementAt
-(
+[
 i
-)
-.
-get
-(
-)
+]
 )
 ;
 }
