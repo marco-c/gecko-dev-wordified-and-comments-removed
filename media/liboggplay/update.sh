@@ -806,3 +806,10 @@ p3
 bug485291_yuv_align
 .
 patch
+patch
+-
+p3
+<
+endian
+.
+patch
