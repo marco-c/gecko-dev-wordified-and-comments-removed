@@ -1048,6 +1048,9 @@ mWorker
 PRUint32
 mBytesDecoded
 ;
+PRInt32
+mDecodeCount
+;
 #
 ifdef
 DEBUG
