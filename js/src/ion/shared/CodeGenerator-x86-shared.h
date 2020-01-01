@@ -255,6 +255,10 @@ dest
 Label
 *
 fail
+bool
+negativeZeroCheck
+=
+true
 )
 ;
 Operand

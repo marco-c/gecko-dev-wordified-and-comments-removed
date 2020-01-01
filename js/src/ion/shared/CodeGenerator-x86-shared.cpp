@@ -4269,6 +4269,7 @@ ToRegister
 temp
 )
 defaultcase
+false
 )
 ;
 }
@@ -5031,6 +5032,8 @@ dest
 Label
 *
 fail
+bool
+negativeZeroCheck
 )
 {
 masm
@@ -5079,6 +5082,11 @@ NotEqual
 fail
 )
 ;
+if
+(
+negativeZeroCheck
+)
+{
 Label
 notZero
 ;
@@ -5173,6 +5181,7 @@ bind
 notZero
 )
 ;
+}
 }
 class
 OutOfLineTruncate

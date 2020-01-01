@@ -4127,6 +4127,7 @@ ToRegister
 temp
 )
 defaultcase
+false
 )
 ;
 }
@@ -4922,7 +4923,7 @@ return
 true
 ;
 }
-bool
+void
 CodeGeneratorARM
 :
 :
@@ -4939,6 +4940,8 @@ dest
 Label
 *
 fail
+bool
+negativeZeroCheck
 )
 {
 masm
@@ -4991,6 +4994,11 @@ Assembler
 VFP_NotEqualOrUnordered
 )
 ;
+if
+(
+negativeZeroCheck
+)
+{
 masm
 .
 ma_cmp
@@ -5013,9 +5021,7 @@ Assembler
 Equal
 )
 ;
-return
-true
-;
+}
 }
 void
 CodeGeneratorARM
