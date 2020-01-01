@@ -2087,6 +2087,15 @@ HasMultipleChildren
 (
 )
 ;
+PRBool
+SupportsComponentAlphaChildren
+(
+)
+{
+return
+mSupportsComponentAlphaChildren
+;
+}
 protected
 :
 ContainerLayer
@@ -2113,6 +2122,10 @@ mLastChild
 nsnull
 )
 mUseIntermediateSurface
+(
+PR_FALSE
+)
+mSupportsComponentAlphaChildren
 (
 PR_FALSE
 )
@@ -2167,6 +2180,9 @@ mFrameMetrics
 ;
 PRPackedBool
 mUseIntermediateSurface
+;
+PRPackedBool
+mSupportsComponentAlphaChildren
 ;
 }
 ;

@@ -391,6 +391,10 @@ MOZ_COUNT_CTOR
 BasicContainerLayer
 )
 ;
+mSupportsComponentAlphaChildren
+=
+PR_TRUE
+;
 }
 virtual
 ~
