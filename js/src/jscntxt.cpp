@@ -323,7 +323,6 @@ normal
 mallocSizeOf
 (
 dtoaState
-0
 )
 ;
 if
@@ -5406,10 +5405,6 @@ return
 mallocSizeOf
 (
 this
-sizeof
-(
-JSContext
-)
 )
 +
 busyArrays

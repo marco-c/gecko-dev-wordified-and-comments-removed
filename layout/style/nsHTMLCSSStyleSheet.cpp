@@ -511,10 +511,6 @@ return
 aMallocSizeOf
 (
 this
-sizeof
-(
-nsHTMLCSSStyleSheet
-)
 )
 +
 SizeOfExcludingThis

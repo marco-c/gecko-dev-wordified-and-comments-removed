@@ -3010,8 +3010,6 @@ const
 void
 *
 p
-size_t
-computedSize
 )
 ;
 #

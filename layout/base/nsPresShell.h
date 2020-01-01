@@ -251,10 +251,6 @@ n
 aMallocSizeOf
 (
 block
-sizeof
-(
-StackBlock
-)
 )
 ;
 block
@@ -271,12 +267,6 @@ n
 aMallocSizeOf
 (
 mMarks
-mMarkLength
-*
-sizeof
-(
-StackMark
-)
 )
 ;
 return
@@ -3252,10 +3242,6 @@ n
 aMallocSizeOf
 (
 this
-sizeof
-(
-PresShell
-)
 )
 ;
 n

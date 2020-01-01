@@ -6644,10 +6644,6 @@ return
 aMallocSizeOf
 (
 this
-sizeof
-(
-DetailedGlyphStore
-)
 )
 +
 mDetails

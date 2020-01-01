@@ -1405,11 +1405,6 @@ n
 aMallocSizeOf
 (
 this
-sizeof
-(
-*
-this
-)
 )
 ;
 const
@@ -1434,15 +1429,6 @@ n
 aMallocSizeOf
 (
 arena
-arena
--
->
-limit
--
-arena
--
->
-base
 )
 ;
 arena

@@ -1786,10 +1786,6 @@ n
 mallocSizeOf
 (
 arena
-sizeof
-(
-XPTArena
-)
 )
 ;
 BLK_HDR
@@ -1825,10 +1821,6 @@ n
 mallocSizeOf
 (
 cur
-cur
--
->
-size
 )
 ;
 cur

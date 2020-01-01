@@ -1610,10 +1610,6 @@ return
 aMallocSizeOf
 (
 this
-sizeof
-(
-StartupCache
-)
 )
 +
 mTable

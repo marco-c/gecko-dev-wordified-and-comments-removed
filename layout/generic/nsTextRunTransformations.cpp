@@ -345,7 +345,6 @@ total
 aMallocSizeOf
 (
 mFactory
-0
 )
 ;
 }
@@ -367,19 +366,6 @@ return
 aMallocSizeOf
 (
 this
-sizeof
-(
-nsTransformedTextRun
-)
-+
-GetLength
-(
-)
-*
-sizeof
-(
-CompressedGlyph
-)
 )
 +
 SizeOfExcludingThis

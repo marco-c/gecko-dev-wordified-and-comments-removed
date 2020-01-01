@@ -1712,10 +1712,6 @@ return
 aMallocSizeOf
 (
 this
-sizeof
-(
-AtomImpl
-)
 )
 +
 nsStringBuffer
