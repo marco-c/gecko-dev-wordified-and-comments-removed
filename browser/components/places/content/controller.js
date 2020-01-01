@@ -8105,7 +8105,7 @@ utils
 .
 bookmarks
 .
-getItemURI
+getFolderURI
 (
 this
 .
