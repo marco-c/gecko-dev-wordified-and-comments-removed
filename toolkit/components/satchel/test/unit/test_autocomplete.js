@@ -307,6 +307,7 @@ Ci
 nsIPrefBranch
 )
 ;
+var
 timeGroupingSize
 =
 prefs
@@ -326,6 +327,7 @@ timeGroupingSize
 *
 1000
 ;
+var
 maxTimeGroupings
 =
 prefs
@@ -341,6 +343,7 @@ maxTimeGroupings
 "
 )
 ;
+var
 bucketSize
 =
 prefs
@@ -611,6 +614,7 @@ testnum
 +
 +
 ;
+var
 results
 =
 fac
