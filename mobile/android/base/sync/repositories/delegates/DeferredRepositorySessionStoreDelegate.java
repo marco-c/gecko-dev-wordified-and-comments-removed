@@ -193,6 +193,9 @@ public
 void
 onStoreCompleted
 (
+final
+long
+storeEnd
 )
 {
 executor
@@ -215,6 +218,7 @@ inner
 .
 onStoreCompleted
 (
+storeEnd
 )
 ;
 }
