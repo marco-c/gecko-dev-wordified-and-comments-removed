@@ -520,6 +520,10 @@ browser_tabview_privatebrowsing
 .
 js
 \
+browser_tabview_rtl
+.
+js
+\
 browser_tabview_search
 .
 js
