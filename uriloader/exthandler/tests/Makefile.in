@@ -518,4 +518,8 @@ PERSONAL_MAILCAP
 CURDIR
 )
 /
+(
+srcdir
+)
+/
 mailcap
