@@ -22,13 +22,6 @@ h
 #
 include
 "
-jsnum
-.
-h
-"
-#
-include
-"
 jsbool
 .
 h
@@ -183,7 +176,7 @@ XPConnect
 #
 define
 JSON_STREAM_BUFSIZE
-4096
+1024
 NS_INTERFACE_MAP_BEGIN
 (
 nsJSON
