@@ -341,9 +341,6 @@ include
 algorithm
 >
 #
-ifdef
-MOZ_MEDIA
-#
 include
 "
 mozilla
@@ -354,8 +351,6 @@ HTMLVideoElement
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -23668,9 +23663,6 @@ aSurfaceFlags
 )
 ;
 }
-#
-ifdef
-MOZ_MEDIA
 if
 (
 HTMLVideoElement
@@ -23694,8 +23686,6 @@ aSurfaceFlags
 )
 ;
 }
-#
-endif
 nsCOMPtr
 <
 nsIImageLoadingContent

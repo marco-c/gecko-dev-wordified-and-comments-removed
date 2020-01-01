@@ -768,12 +768,6 @@ nsStyleContext
 aContext
 )
 ;
-#
-if
-defined
-(
-MOZ_MEDIA
-)
 nsIFrame
 *
 NS_NewHTMLVideoFrame
@@ -786,8 +780,6 @@ nsStyleContext
 aContext
 )
 ;
-#
-endif
 #
 include
 "
@@ -13287,12 +13279,6 @@ nsCSSFrameConstructor
 :
 FindCanvasData
 )
-#
-if
-defined
-(
-MOZ_MEDIA
-)
 SIMPLE_TAG_CREATE
 (
 video
@@ -13303,8 +13289,6 @@ SIMPLE_TAG_CREATE
 audio
 NS_NewHTMLVideoFrame
 )
-#
-endif
 SIMPLE_TAG_CREATE
 (
 progress
