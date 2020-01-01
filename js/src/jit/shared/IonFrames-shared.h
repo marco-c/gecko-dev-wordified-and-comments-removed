@@ -36,7 +36,7 @@ IonCode
 )
 #
 define
-ION_FRAME_OOL_NATIVE_GETTER
+ION_FRAME_OOL_NATIVE
 (
 (
 IonCode
