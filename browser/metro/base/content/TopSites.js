@@ -1257,7 +1257,7 @@ TopSitesView
 this
 .
 _grid
-9
+8
 true
 )
 ;
@@ -1382,7 +1382,7 @@ _grid
 arrangeItems
 (
 1
-9
+8
 )
 ;
 }
@@ -1402,7 +1402,7 @@ TopSitesView
 this
 .
 _grid
-9
+8
 )
 ;
 if
