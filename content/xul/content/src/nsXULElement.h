@@ -1828,6 +1828,12 @@ GetAttrCount
 )
 const
 ;
+virtual
+void
+DestroyContent
+(
+)
+;
 #
 ifdef
 DEBUG

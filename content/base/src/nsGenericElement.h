@@ -1103,6 +1103,12 @@ PRUint32
 aLang
 )
 ;
+virtual
+void
+DestroyContent
+(
+)
+;
 #
 ifdef
 DEBUG

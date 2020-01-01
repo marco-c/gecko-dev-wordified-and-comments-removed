@@ -1949,6 +1949,12 @@ aFlags
 )
 const
 ;
+virtual
+void
+DestroyContent
+(
+)
+;
 NS_IMETHOD
 GetForm
 (
@@ -2280,6 +2286,12 @@ nsAString
 aValue
 PRBool
 aNotify
+)
+;
+virtual
+void
+DestroyContent
+(
 )
 ;
 NS_IMETHOD
