@@ -1788,7 +1788,7 @@ mReflowCallbackPosted
 PR_FALSE
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsListBoxBodyFrame
 :
 :
@@ -1810,7 +1810,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsListBoxBodyFrame
 :
 :
@@ -1838,7 +1838,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsListBoxBodyFrame
 :
 :
@@ -1858,7 +1858,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsListBoxBodyFrame
 :
 :
@@ -2001,7 +2001,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsListBoxBodyFrame
 :
 :
@@ -2092,7 +2092,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsListBoxBodyFrame
 :
 :
@@ -2228,7 +2228,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsListBoxBodyFrame
 :
 :
@@ -3168,7 +3168,7 @@ this
 ;
 }
 }
-NS_IMETHODIMP
+nsresult
 nsListBoxBodyFrame
 :
 :
