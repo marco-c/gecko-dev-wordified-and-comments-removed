@@ -112,6 +112,10 @@ TestEnumSet
 .
 cpp
 \
+TestFloatingPoint
+.
+cpp
+\
 TestSHA1
 .
 cpp
