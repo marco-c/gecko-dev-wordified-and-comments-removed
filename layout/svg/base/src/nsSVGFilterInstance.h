@@ -97,6 +97,17 @@ aLength
 )
 const
 ;
+void
+ConvertLocation
+(
+float
+aValues
+[
+3
+]
+)
+const
+;
 nsSVGFilterInstance
 (
 nsIFrame
