@@ -10387,6 +10387,12 @@ aEvent
 target
 .
 title
+.
+substring
+(
+0
+255
+)
 }
 }
 )
