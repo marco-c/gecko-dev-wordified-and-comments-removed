@@ -1137,10 +1137,11 @@ get
 )
 )
 ;
-const
 NSString
 *
 pboardType
+=
+nil
 ;
 if
 (
@@ -2383,10 +2384,11 @@ i
 ]
 )
 ;
-const
 NSString
 *
 pboardType
+=
+nil
 ;
 if
 (
@@ -2712,10 +2714,11 @@ i
 )
 )
 ;
-const
 NSString
 *
 pboardType
+=
+nil
 ;
 if
 (
@@ -3596,7 +3599,6 @@ const
 nsCString
 &
 aMIMEType
-const
 NSString
 *
 *
