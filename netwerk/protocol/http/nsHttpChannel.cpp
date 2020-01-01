@@ -14095,7 +14095,7 @@ this
 ;
 if
 (
-userCancel
+mTransactionPump
 )
 {
 nsresult
