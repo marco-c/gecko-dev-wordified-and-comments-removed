@@ -24370,6 +24370,8 @@ VARIANT_CONTENT
 VARIANT_INHERIT
 |
 VARIANT_NORMAL
+|
+VARIANT_NONE
 nsCSSProps
 :
 :
@@ -24478,6 +24480,16 @@ GetUnit
 |
 |
 eCSSUnit_Normal
+=
+=
+value
+.
+GetUnit
+(
+)
+|
+|
+eCSSUnit_None
 =
 =
 value
