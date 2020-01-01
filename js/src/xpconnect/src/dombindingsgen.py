@@ -5829,9 +5829,20 @@ clazz
 for
 member
 in
+sorted
+(
 clazz
 .
 members
+key
+=
+lambda
+member
+:
+member
+.
+name
+)
 :
                 
 if
