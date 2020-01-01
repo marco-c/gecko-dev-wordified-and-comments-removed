@@ -939,7 +939,7 @@ GetRowSpan
 tableFrame
 -
 >
-SetBCDamageArea
+AddBCDamageArea
 (
 damageArea
 )

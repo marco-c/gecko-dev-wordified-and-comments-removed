@@ -873,7 +873,7 @@ GetRowCount
 tableFrame
 -
 >
-SetBCDamageArea
+AddBCDamageArea
 (
 damageArea
 )
