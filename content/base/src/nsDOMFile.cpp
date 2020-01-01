@@ -2905,6 +2905,7 @@ data
 ;
 class
 nsDOMMemoryFileDataOwnerMemoryReporter
+MOZ_FINAL
 :
 public
 nsIMemoryMultiReporter
