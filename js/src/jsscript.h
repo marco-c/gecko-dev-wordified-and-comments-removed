@@ -537,7 +537,6 @@ countLocalNames
 ;
 }
 inline
-const
 js
 :
 :
