@@ -132,6 +132,13 @@ PRLogModuleInfo
 *
 gChromiumPRLog
 ;
+static
+PRLogModuleInfo
+*
+GetLog
+(
+)
+;
 PRLogModuleLevel
 mSeverity
 ;
