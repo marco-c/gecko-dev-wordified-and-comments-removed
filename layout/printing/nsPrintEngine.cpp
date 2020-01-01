@@ -15006,6 +15006,16 @@ NS_OK
 #
 ifdef
 NS_PRINT_PREVIEW
+if
+(
+!
+mPrt
+)
+{
+return
+rv
+;
+}
 rv
 =
 DocumentReadyForPrinting
