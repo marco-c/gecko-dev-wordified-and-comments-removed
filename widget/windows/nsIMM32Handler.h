@@ -736,6 +736,9 @@ WPARAM
 wParam
 LPARAM
 lParam
+MSGResult
+&
+aResult
 )
 ;
 bool
@@ -748,9 +751,12 @@ WPARAM
 wParam
 LPARAM
 lParam
+MSGResult
+&
+aResult
 )
 ;
-bool
+void
 OnInputLangChange
 (
 nsWindow
@@ -760,6 +766,9 @@ WPARAM
 wParam
 LPARAM
 lParam
+MSGResult
+&
+aResult
 )
 ;
 static
