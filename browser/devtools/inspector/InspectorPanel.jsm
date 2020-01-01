@@ -1592,9 +1592,6 @@ newWindow
 document
 .
 documentElement
-"
-navigateaway
-"
 )
 ;
 }
