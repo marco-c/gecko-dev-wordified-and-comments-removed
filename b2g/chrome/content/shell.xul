@@ -452,6 +452,13 @@ height
 "
 800
 "
+windowtype
+=
+"
+navigator
+:
+browser
+"
 #
 ifdef
 ANDROID
