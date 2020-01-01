@@ -1517,7 +1517,7 @@ num_frames
 info_ptr
 -
 >
-num_iterations
+num_plays
 )
 ;
 #
@@ -7570,8 +7570,6 @@ png_byte
 dispose_op
 png_byte
 blend_op
-png_byte
-first_frame_hidden
 )
 {
 png_debug
@@ -7637,7 +7635,14 @@ num_frames_written
 0
 &
 &
-first_frame_hidden
+(
+png_ptr
+-
+>
+apng_flags
+&
+PNG_FIRST_FRAME_HIDDEN
+)
 )
 )
 png_write_fcTL
