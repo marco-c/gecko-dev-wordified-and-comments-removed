@@ -522,10 +522,6 @@ Preferences
 .
 h
 "
-NSOpenGLContext
-*
-nsGLContext
-;
 namespace
 mozilla
 {
@@ -2079,10 +2075,6 @@ return
 nsnull
 ;
 }
-nsGLContext
-=
-context
-;
 NSView
 *
 childView

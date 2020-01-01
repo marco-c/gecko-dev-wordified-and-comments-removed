@@ -7360,6 +7360,10 @@ if
 mTransactionIncomplete
 )
 {
+mTarget
+=
+nsnull
+;
 }
 }
 #

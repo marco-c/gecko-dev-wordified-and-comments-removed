@@ -242,10 +242,6 @@ define
 NS_NATIVE_PLUGIN_PORT_CG
 101
 #
-define
-NS_NATIVE_OPENGL_VIEW_PTR
-102
-#
 endif
 #
 ifdef
