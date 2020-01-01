@@ -850,7 +850,15 @@ InitElem
 )
 UNSAFE_OP
 (
+InitElemGetterSetter
+)
+UNSAFE_OP
+(
 InitProp
+)
+UNSAFE_OP
+(
+InitPropGetterSetter
 )
 SAFE_OP
 (

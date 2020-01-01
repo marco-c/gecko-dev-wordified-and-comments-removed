@@ -1663,7 +1663,7 @@ HandleObject
 obj
 HandleId
 id
-HandleValue
+HandleObject
 val
 )
 ;
@@ -1680,7 +1680,7 @@ HandleObject
 obj
 HandlePropertyName
 name
-HandleValue
+HandleObject
 val
 )
 ;
@@ -1697,7 +1697,7 @@ HandleObject
 obj
 HandleValue
 idval
-HandleValue
+HandleObject
 val
 )
 ;
