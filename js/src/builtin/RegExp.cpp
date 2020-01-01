@@ -2692,6 +2692,7 @@ input
 js_ValueToString
 (
 cx
+(
 args
 .
 length
@@ -2699,6 +2700,7 @@ length
 )
 >
 0
+)
 ?
 args
 [
@@ -2840,10 +2842,12 @@ true
 RegExpExecType
 execType
 =
+(
 native
 =
 =
 regexp_test
+)
 ?
 RegExpTest
 :
