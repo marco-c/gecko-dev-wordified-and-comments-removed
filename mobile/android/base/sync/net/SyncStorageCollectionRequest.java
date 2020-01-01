@@ -193,7 +193,7 @@ e
 }
 Override
 protected
-SyncResourceDelegate
+BaseResourceDelegate
 makeResourceDelegate
 (
 SyncStorageRequest

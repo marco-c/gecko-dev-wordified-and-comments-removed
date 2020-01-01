@@ -73,8 +73,8 @@ public
 interface
 ResourceDelegate
 {
-String
-getCredentials
+AuthHeaderProvider
+getAuthHeaderProvider
 (
 )
 ;
