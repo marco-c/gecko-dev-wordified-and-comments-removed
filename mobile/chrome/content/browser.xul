@@ -4468,12 +4468,6 @@ edit
 (
 )
 ;
-BrowserUI
-.
-hideControls
-(
-)
-;
 "
 /
 >
