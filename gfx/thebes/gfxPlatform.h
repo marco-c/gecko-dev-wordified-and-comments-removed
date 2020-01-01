@@ -1214,6 +1214,13 @@ return
 mWorkAroundDriverBugs
 ;
 }
+virtual
+int
+GetScreenDepth
+(
+)
+const
+;
 protected
 :
 gfxPlatform
