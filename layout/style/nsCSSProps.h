@@ -39,6 +39,15 @@ nsCSSKeywords
 .
 h
 "
+#
+define
+CSS_PROPERTY_DIRECTIONAL_SOURCE
+(
+1
+<
+<
+0
+)
 class
 nsCSSProps
 {
