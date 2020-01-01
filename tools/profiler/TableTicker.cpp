@@ -2529,15 +2529,6 @@ CreateObject
 (
 )
 ;
-JSObject
-*
-libs
-=
-GetMetaJSObject
-(
-b
-)
-;
 b
 .
 DefineProperty
