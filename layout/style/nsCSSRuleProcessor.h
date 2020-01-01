@@ -280,6 +280,13 @@ nsPresContext
 aPresContext
 )
 ;
+virtual
+PRInt64
+SizeOf
+(
+)
+const
+;
 PRBool
 AppendFontFaceRules
 (
