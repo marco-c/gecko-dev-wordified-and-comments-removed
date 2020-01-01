@@ -324,3 +324,13 @@ for
 bug
 498824
 .
+bug500311
+.
+patch
+:
+Fix
+crash
+during
+decoder
+initialization
+.

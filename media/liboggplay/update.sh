@@ -939,3 +939,10 @@ p3
 bug499519
 .
 patch
+patch
+-
+p3
+<
+bug500311
+.
+patch
