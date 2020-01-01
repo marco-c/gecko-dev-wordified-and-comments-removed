@@ -950,7 +950,6 @@ new
 ContentParent
 (
 MAGIC_PREALLOCATED_APP_MANIFEST_URL
-false
 )
 ;
 sPreallocatedAppProcess
@@ -1165,8 +1164,6 @@ ContentParent
 :
 GetNewOrUsed
 (
-bool
-aForBrowserElement
 )
 {
 if
@@ -1290,7 +1287,6 @@ ContentParent
 EmptyString
 (
 )
-aForBrowserElement
 )
 ;
 p
@@ -1326,16 +1322,6 @@ bool
 aIsBrowserElement
 )
 {
-MOZ_ASSERT
-(
-!
-aApp
-|
-|
-!
-aIsBrowserElement
-)
-;
 if
 (
 !
@@ -1350,7 +1336,6 @@ cp
 =
 GetNewOrUsed
 (
-aIsBrowserElement
 )
 )
 {
@@ -1590,7 +1575,6 @@ new
 ContentParent
 (
 manifestURL
-aIsBrowserElement
 )
 ;
 p
@@ -3204,8 +3188,6 @@ const
 nsAString
 &
 aAppManifestURL
-bool
-aIsForBrowser
 )
 :
 mGeolocationWatchID
@@ -3318,15 +3300,11 @@ GetChildProcessHandle
 unused
 <
 <
-SendSetProcessAttributes
+SendSetID
 (
 gContentChildID
 +
 +
-IsForApp
-(
-)
-aIsForBrowser
 )
 ;
 if
