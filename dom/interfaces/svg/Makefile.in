@@ -164,10 +164,6 @@ nsIDOMSVGNumber
 .
 idl
 \
-nsIDOMSVGPatternElement
-.
-idl
-\
 nsIDOMSVGPolygonElement
 .
 idl

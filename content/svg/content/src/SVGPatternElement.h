@@ -7,13 +7,6 @@ mozilla_dom_SVGPatternElement_h
 #
 include
 "
-nsIDOMSVGPatternElement
-.
-h
-"
-#
-include
-"
 nsIDOMSVGUnitTypes
 .
 h
@@ -111,7 +104,7 @@ MOZ_FINAL
 public
 SVGPatternElementBase
 public
-nsIDOMSVGPatternElement
+nsIDOMSVGElement
 public
 nsIDOMSVGURIReference
 public
@@ -180,7 +173,6 @@ SVGAnimatedPreserveAspectRatio
 SVGAnimatedPreserveAspectRatio
 ;
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_NSIDOMSVGPATTERNELEMENT
 NS_DECL_NSIDOMSVGURIREFERENCE
 NS_FORWARD_NSIDOMNODE_TO_NSINODE
 NS_FORWARD_NSIDOMELEMENT_TO_GENERIC
@@ -216,13 +208,6 @@ nsINode
 aResult
 )
 const
-;
-virtual
-nsXPCClassInfo
-*
-GetClassInfo
-(
-)
 ;
 virtual
 nsIDOMNode
