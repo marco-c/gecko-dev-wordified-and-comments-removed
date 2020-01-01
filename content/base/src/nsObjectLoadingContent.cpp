@@ -7002,9 +7002,9 @@ mActivated
 &
 &
 mType
-!
 =
-eType_Null
+=
+eType_Plugin
 )
 {
 LOG
