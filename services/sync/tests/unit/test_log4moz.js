@@ -85,7 +85,7 @@ log
 =
 Log4Moz
 .
-Service
+repository
 .
 rootLogger
 ;
