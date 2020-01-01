@@ -1157,9 +1157,6 @@ nativeEnumCache
 NATIVE_ENUM_CACHE_SIZE
 ]
 ;
-JSBool
-anyArrayProtoHasElement
-;
 #
 ifdef
 JS_DUMP_ENUM_CACHE_STATS
