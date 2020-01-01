@@ -480,6 +480,10 @@ test_bug370098
 .
 html
 \
+test_bug375457
+.
+html
+\
 test_bug377539
 .
 html
