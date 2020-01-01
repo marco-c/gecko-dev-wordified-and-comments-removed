@@ -521,6 +521,10 @@ browser_bug577990
 .
 js
 \
+browser_bug581076
+.
+js
+\
 browser_details
 .
 js
