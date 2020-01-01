@@ -4396,11 +4396,8 @@ font
 )
 ;
 return
-NS_LITERAL_STRING
+EmptyString
 (
-"
-INVALID_FONT
-"
 )
 ;
 }
