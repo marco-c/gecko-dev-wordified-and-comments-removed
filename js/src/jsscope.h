@@ -355,6 +355,13 @@ js
 PropertyTree
 ;
 friend
+class
+js
+:
+:
+Bindings
+;
+friend
 bool
 HasUnreachableGCThings
 (

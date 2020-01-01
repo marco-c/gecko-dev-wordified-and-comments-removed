@@ -8968,6 +8968,13 @@ names
 fun
 -
 >
+script
+(
+)
+-
+>
+bindings
+.
 getLocalNameArray
 (
 cx
@@ -8983,6 +8990,13 @@ count
 fun
 -
 >
+script
+(
+)
+-
+>
+bindings
+.
 countLocalNames
 (
 )

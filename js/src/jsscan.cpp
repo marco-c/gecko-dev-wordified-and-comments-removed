@@ -200,6 +200,13 @@ jsvector
 h
 "
 #
+include
+"
+jsscriptinlines
+.
+h
+"
+#
 if
 JS_HAS_XML_SUPPORT
 #
