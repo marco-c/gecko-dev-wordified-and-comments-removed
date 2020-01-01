@@ -6155,8 +6155,9 @@ Length
 PRUint32
 written
 ;
-result
-=
+(
+void
+)
 decoder
 -
 >
@@ -6170,12 +6171,6 @@ Length
 )
 &
 written
-)
-;
-NS_ENSURE_SUCCESS
-(
-result
-result
 )
 ;
 result
