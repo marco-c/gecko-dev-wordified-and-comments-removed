@@ -767,6 +767,10 @@ nsIRandomGenerator
 .
 idl
 \
+nsIURIWithPrincipal
+.
+idl
+\
 (
 NULL
 )

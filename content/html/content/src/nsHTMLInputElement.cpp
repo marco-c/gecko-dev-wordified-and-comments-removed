@@ -3888,6 +3888,14 @@ Clear
 (
 )
 ;
+nsIDocument
+*
+doc
+=
+GetOwnerDoc
+(
+)
+;
 nsCOMArray
 <
 nsIFile
@@ -3935,6 +3943,7 @@ files
 [
 i
 ]
+doc
 )
 ;
 if
