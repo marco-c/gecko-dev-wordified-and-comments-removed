@@ -445,6 +445,13 @@ tier_app_dirs
 =
 services
 endif
+ifdef
+MOZ_WEBAPP_RUNTIME
+tier_app_dirs
++
+=
+webapprt
+endif
 tier_app_dirs
 +
 =
