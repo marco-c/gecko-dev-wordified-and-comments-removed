@@ -158,6 +158,12 @@ JS
 Value
 *
 aRetValue
+void
+*
+*
+aOffThreadToken
+=
+nullptr
 )
 =
 0

@@ -4386,6 +4386,10 @@ JS
 Value
 *
 aRetValue
+void
+*
+*
+aOffThreadToken
 )
 {
 NS_ENSURE_TRUE
@@ -4435,6 +4439,7 @@ aScopeObject
 aCompileOptions
 evalOptions
 aRetValue
+aOffThreadToken
 )
 ;
 }

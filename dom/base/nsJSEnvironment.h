@@ -169,6 +169,12 @@ JS
 Value
 *
 aRetValue
+void
+*
+*
+aOffThreadToken
+=
+nullptr
 )
 MOZ_OVERRIDE
 ;

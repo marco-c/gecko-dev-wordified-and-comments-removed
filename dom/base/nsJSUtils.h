@@ -247,6 +247,12 @@ JS
 Value
 *
 aRetValue
+void
+*
+*
+aOffThreadToken
+=
+nullptr
 )
 ;
 }

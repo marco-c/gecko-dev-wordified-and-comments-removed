@@ -1005,7 +1005,7 @@ DeflateStringToBuffer
 (
 JSContext
 *
-cx
+maybecx
 const
 jschar
 *
