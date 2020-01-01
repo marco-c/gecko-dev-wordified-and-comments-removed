@@ -599,6 +599,11 @@ nsIDOMWindow
 .
 top
 '
+'
+nsIDOMWindow
+.
+self
+'
 #
 Several
 window
