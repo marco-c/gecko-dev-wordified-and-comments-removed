@@ -874,6 +874,11 @@ mIsDocumentObserver
 :
 1
 ;
+PRUint8
+mFragmentMode
+:
+1
+;
 PRUint32
 mDeflectedCount
 ;

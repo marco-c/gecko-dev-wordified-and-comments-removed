@@ -284,9 +284,6 @@ PRBool
 mCallContinueInterruptedParsingIfEnabled
 ;
 PRBool
-mFragmentMode
-;
-PRBool
 mPreventScriptExecution
 ;
 public
@@ -558,10 +555,6 @@ aPreventScriptExecution
 mFragmentMode
 =
 PR_TRUE
-;
-mCanInterruptParser
-=
-PR_FALSE
 ;
 mPreventScriptExecution
 =
