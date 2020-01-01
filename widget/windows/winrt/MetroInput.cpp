@@ -29,7 +29,11 @@ h
 #
 include
 "
-nsDOMTouchEvent
+mozilla
+/
+dom
+/
+Touch
 .
 h
 "
@@ -89,6 +93,13 @@ widget
 :
 :
 winrt
+;
+using
+namespace
+mozilla
+:
+:
+dom
 ;
 namespace
 {
@@ -192,7 +203,7 @@ Core
 ICoreAcceleratorKeys
 ICoreAcceleratorKeys
 ;
-nsDOMTouch
+Touch
 *
 CreateDOMTouch
 (
@@ -336,7 +347,7 @@ Height
 ;
 return
 new
-nsDOMTouch
+Touch
 (
 pointerId
 touchPoint

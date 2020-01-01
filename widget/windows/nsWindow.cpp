@@ -426,7 +426,11 @@ h
 #
 include
 "
-nsDOMTouchEvent
+mozilla
+/
+dom
+/
+Touch
 .
 h
 "
@@ -648,9 +652,13 @@ h
 using
 namespace
 mozilla
+;
+using
+namespace
+mozilla
 :
 :
-widget
+dom
 ;
 using
 namespace
@@ -662,6 +670,9 @@ layers
 using
 namespace
 mozilla
+:
+:
+widget
 ;
 bool
 nsWindow
@@ -24920,7 +24931,7 @@ nsIDOMTouch
 touch
 =
 new
-nsDOMTouch
+Touch
 (
 pInputs
 [
