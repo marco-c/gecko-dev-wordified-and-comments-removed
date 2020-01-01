@@ -292,10 +292,6 @@ nsIProxiedProtocolHandler
 .
 idl
 \
-nsIProxyAutoConfig
-.
-idl
-\
 nsIProxyInfo
 .
 idl
