@@ -2233,12 +2233,8 @@ nsIContent
 *
 element
 =
-nsGenericElement
-:
-:
-doQuerySelector
+QuerySelector
 (
-this
 selector
 &
 rv
