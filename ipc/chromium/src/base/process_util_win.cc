@@ -1356,6 +1356,9 @@ return
 false
 ;
 }
+#
+ifndef
+CHROMIUM_MOZILLA_BUILD
 const
 int
 kLeastValue
@@ -1497,6 +1500,8 @@ exitcode
 0xFF
 )
 ;
+#
+endif
 return
 true
 ;
