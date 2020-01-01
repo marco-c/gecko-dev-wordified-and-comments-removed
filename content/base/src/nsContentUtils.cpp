@@ -2659,7 +2659,9 @@ WINDOW_ONLY_EVENT
 #
 undef
 EVENT
+{
 nsnull
+}
 }
 ;
 sAtomEventTable
@@ -2947,7 +2949,9 @@ TOUCH_EVENT
 #
 undef
 EVENT
+{
 nsnull
+}
 }
 ;
 for
