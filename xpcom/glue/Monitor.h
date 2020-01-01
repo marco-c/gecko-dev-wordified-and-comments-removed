@@ -38,6 +38,16 @@ char
 *
 name
 )
+#
+ifdef
+DEBUG
+:
+mEntryCount
+(
+0
+)
+#
+endif
 {
 mMonitor
 =
