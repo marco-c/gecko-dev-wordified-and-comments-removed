@@ -85,7 +85,7 @@ is
 (
 storage
 instanceof
-StorageObsolete
+Storage
 true
 "
 StorageList
@@ -105,7 +105,7 @@ is
 (
 storage2
 instanceof
-StorageObsolete
+Storage
 true
 "
 StorageList
