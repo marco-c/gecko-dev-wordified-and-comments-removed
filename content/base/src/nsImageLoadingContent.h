@@ -388,6 +388,9 @@ private
 ImageObserver
 mObserverList
 ;
+PRInt32
+mForcedImageState
+;
 PRInt16
 mImageBlockingStatus
 ;
@@ -398,6 +401,11 @@ mLoadingEnabled
 ;
 PRPackedBool
 mStartingLoad
+:
+1
+;
+PRPackedBool
+mIsImageStateForced
 :
 1
 ;
