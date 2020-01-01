@@ -71,9 +71,14 @@ JSVAL_TAGBITS
 #
 define
 JSVAL_TAGMASK
+(
+(
+jsval
+)
 JS_BITMASK
 (
 JSVAL_TAGBITS
+)
 )
 #
 define
