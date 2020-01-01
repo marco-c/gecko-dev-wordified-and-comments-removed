@@ -304,7 +304,7 @@ threadCx
 }
 }
 ;
-PRUintn
+unsigned
 ForkJoinSlice
 :
 :

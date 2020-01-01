@@ -385,13 +385,13 @@ return
 ;
 }
 static
-PRUint32
+uint32_t
 sip_get_sock_dir_tmpl
 (
 char
 *
 out
-PRUint32
+uint32_t
 outlen
 const
 char

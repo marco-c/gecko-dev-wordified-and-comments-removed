@@ -156,7 +156,7 @@ AutoSetForkJoinSlice
 ifdef
 JS_THREADSAFE
 static
-PRUintn
+unsigned
 ThreadPrivateIndex
 ;
 #

@@ -125,13 +125,13 @@ unused
 namespace
 {
 static
-PRInt32
+int32_t
 sCertOverrideSvcExists
 =
 0
 ;
 static
-PRInt32
+int32_t
 sCertDBExists
 =
 0

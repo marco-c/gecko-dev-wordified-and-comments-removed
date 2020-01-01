@@ -5725,7 +5725,7 @@ PRUnichar
 *
 *
 aParams
-PRUint32
+uint32_t
 aParamCount
 )
 {

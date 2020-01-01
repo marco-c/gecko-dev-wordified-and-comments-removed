@@ -455,7 +455,7 @@ IsFocusable
 return
 true
 ;
-PRUint32
+uint32_t
 attrCount
 =
 aContent
@@ -467,7 +467,7 @@ GetAttrCount
 ;
 for
 (
-PRUint32
+uint32_t
 attrIdx
 =
 0
