@@ -3163,7 +3163,7 @@ newHttpChannel
 >
 SetOriginalURI
 (
-mRedirectOriginalURI
+mOriginalURI
 )
 ;
 }

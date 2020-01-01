@@ -512,12 +512,6 @@ mRedirectChannelChild
 ;
 nsCOMPtr
 <
-nsIURI
->
-mRedirectOriginalURI
-;
-nsCOMPtr
-<
 nsISupports
 >
 mSecurityInfo
