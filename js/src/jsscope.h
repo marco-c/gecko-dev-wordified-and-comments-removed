@@ -568,30 +568,6 @@ shortid
 ;
 JSScopeProperty
 *
-prepareForAddProperty
-(
-JSContext
-*
-cx
-jsid
-id
-JSPropertyOp
-getter
-JSPropertyOp
-setter
-uint32
-slot
-uintN
-attrs
-uintN
-flags
-intN
-shortid
-)
-const
-;
-JSScopeProperty
-*
 addDataProperty
 (
 JSContext
@@ -860,7 +836,6 @@ bool
 inDictionaryMode
 (
 )
-const
 {
 return
 flags
@@ -895,7 +870,6 @@ bool
 sealed
 (
 )
-const
 {
 return
 flags
@@ -942,7 +916,6 @@ bool
 branded
 (
 )
-const
 {
 JS_ASSERT
 (
@@ -1006,7 +979,6 @@ bool
 generic
 (
 )
-const
 {
 return
 flags
@@ -1029,7 +1001,6 @@ bool
 hadIndexedProperties
 (
 )
-const
 {
 return
 flags
@@ -1052,7 +1023,6 @@ bool
 hasOwnShape
 (
 )
-const
 {
 return
 flags
@@ -1066,7 +1036,6 @@ hasRegenFlag
 uint8
 regenFlag
 )
-const
 {
 return
 (
@@ -1083,7 +1052,6 @@ bool
 hasMethodBarrier
 (
 )
-const
 {
 return
 flags
@@ -1106,7 +1074,6 @@ bool
 brandedOrHasMethodBarrier
 (
 )
-const
 {
 return
 flags
