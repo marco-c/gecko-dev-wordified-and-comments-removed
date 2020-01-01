@@ -133,6 +133,9 @@ gl
 GLContext
 GLContext
 ;
+bool
+mIsInteropTexture
+;
 nsRefPtr
 <
 gfxASurface
