@@ -445,6 +445,8 @@ mk
 MODULE
 =
 reftest
+ifdef
+DISABLED_FOR_NOW
 LIBRARY_NAME
 =
 reftest
@@ -554,6 +556,7 @@ CPPSRCS
 nsReftestHelper
 .
 cpp
+endif
 EXTRA_COMPONENTS
 =
 \
