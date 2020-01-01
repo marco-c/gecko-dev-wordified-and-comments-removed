@@ -2162,6 +2162,12 @@ found
 }
 else
 {
+child
+.
+parentNode
+=
+null
+;
 return
 childNodes
 .
