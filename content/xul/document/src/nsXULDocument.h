@@ -1075,11 +1075,6 @@ PRInt32
 aIndex
 )
 ;
-bool
-IsInsideXULTemplate
-(
-)
-;
 }
 ;
 friend
