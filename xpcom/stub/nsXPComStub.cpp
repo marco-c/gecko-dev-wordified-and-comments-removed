@@ -518,7 +518,7 @@ void
 )
 NS_Alloc
 (
-PRSize
+size_t
 size
 )
 {
@@ -542,7 +542,7 @@ NS_Realloc
 void
 *
 ptr
-PRSize
+size_t
 size
 )
 {

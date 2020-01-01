@@ -433,7 +433,7 @@ TableAlloc
 (
 void
 *
-PRSize
+size_t
 size
 )
 {

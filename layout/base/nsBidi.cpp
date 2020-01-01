@@ -321,12 +321,12 @@ void
 *
 *
 aMemory
-PRSize
+size_t
 *
 aSize
 bool
 aMayAllocate
-PRSize
+size_t
 aSizeNeeded
 )
 {

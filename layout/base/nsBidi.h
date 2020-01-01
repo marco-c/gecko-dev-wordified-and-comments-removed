@@ -1870,7 +1870,7 @@ nsBidiPresUtils
 PRInt32
 mLength
 ;
-PRSize
+size_t
 mDirPropsSize
 mLevelsSize
 mRunsSize
@@ -1939,12 +1939,12 @@ void
 *
 *
 aMemory
-PRSize
+size_t
 *
 aSize
 bool
 aMayAllocate
-PRSize
+size_t
 aSizeNeeded
 )
 ;

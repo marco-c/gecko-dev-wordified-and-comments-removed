@@ -258,7 +258,7 @@ DataSourceAllocTable
 void
 *
 pool
-PRSize
+size_t
 size
 )
 {

@@ -829,7 +829,7 @@ AllocTable
 void
 *
 self
-PRSize
+size_t
 size
 )
 {
