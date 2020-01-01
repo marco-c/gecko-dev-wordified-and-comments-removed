@@ -149,7 +149,7 @@ Connect
 const
 nsAString
 &
-aDeviceObjectPath
+aDeviceAddress
 BluetoothReplyRunnable
 *
 aRunnable
@@ -330,6 +330,17 @@ aChannel
 )
 MOZ_OVERRIDE
 ;
+virtual
+void
+OnUpdateSdpRecords
+(
+const
+nsAString
+&
+aDeviceAddress
+)
+MOZ_OVERRIDE
+;
 private
 :
 BluetoothOppManager
@@ -472,6 +483,9 @@ mReceivedDataBufferOffset
 ;
 int
 mUpdateProgressCounter
+;
+bool
+mNeedsUpdatingSdpRecords
 ;
 bool
 mAbortFlag
