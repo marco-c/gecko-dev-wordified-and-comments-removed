@@ -459,7 +459,7 @@ LIBRARY_NAME
 )
 .
 cpp
-MOZ_UTILS_LDFLAGS
+MOZ_GLUE_LDFLAGS
 =
 include
 (

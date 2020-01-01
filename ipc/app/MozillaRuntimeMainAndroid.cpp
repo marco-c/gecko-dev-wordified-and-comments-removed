@@ -42,7 +42,7 @@ mozloader_handle
 dlopen
 (
 "
-libmozutils
+libmozglue
 .
 so
 "

@@ -649,7 +649,7 @@ DIST
 /
 bin
 /
-mozutils
+mozglue
 (
 DLL_SUFFIX
 )
@@ -2403,7 +2403,7 @@ ABI_DIR
 &
 \
 mv
-libmozutils
+libmozglue
 .
 so
 (
@@ -2672,7 +2672,7 @@ lib
 ABI_DIR
 )
 /
-libmozutils
+libmozglue
 .
 so
 .
@@ -8057,7 +8057,7 @@ PKG_PATH
 )
 /
 (
-CHECKSUMS_FILE_BASENAME
+PKG_BASENAME
 )
 .
 checksums

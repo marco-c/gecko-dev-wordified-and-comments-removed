@@ -242,7 +242,7 @@ DLL_SUFFIX
 BINPATH
 /
 DLL_PREFIX
-mozutils
+mozglue
 DLL_SUFFIX
 #
 ifdef
@@ -399,11 +399,6 @@ BINPATH
 classes
 .
 dex
-BINPATH
-/
-DLL_PREFIX
-mozutils
-DLL_SUFFIX
 BINPATH
 /
 res
