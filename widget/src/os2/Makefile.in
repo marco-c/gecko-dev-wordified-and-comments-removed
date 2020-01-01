@@ -575,6 +575,9 @@ MOZ_COMPONENT_LIBS
 -
 lthebes
 \
+-
+llayers
+\
 (
 QCMS_LIBS
 )
