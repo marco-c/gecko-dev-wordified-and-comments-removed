@@ -500,6 +500,10 @@ browser_getshortcutoruri
 .
 js
 \
+browser_bug427559
+.
+js
+\
 (
 NULL
 )
