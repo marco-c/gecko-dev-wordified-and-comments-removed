@@ -1811,7 +1811,6 @@ GetWidget
 (
 )
 r
-nsnull
 )
 ;
 dirtyRegion
@@ -1864,9 +1863,6 @@ const
 nsRegion
 &
 aDamagedRegion
-nsView
-*
-aIgnoreWidgetView
 )
 {
 NS_ASSERTION
@@ -2069,17 +2065,6 @@ if
 !
 visible
 )
-return
-;
-}
-if
-(
-aWidgetView
-=
-=
-aIgnoreWidgetView
-)
-{
 return
 ;
 }
@@ -2676,7 +2661,6 @@ nsRegion
 (
 damagedRect
 )
-nsnull
 )
 ;
 return
