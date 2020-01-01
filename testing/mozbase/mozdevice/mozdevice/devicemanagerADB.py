@@ -1420,6 +1420,9 @@ remoteDir
 retryLimit
 =
 None
+timeout
+=
+None
 )
 :
         
@@ -1720,6 +1723,9 @@ remoteDir
 retryLimit
 =
 retryLimit
+timeout
+=
+timeout
 )
             
 shutil

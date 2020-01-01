@@ -4071,7 +4071,12 @@ options
 device_ip
 options
 .
-devicePort
+device_port
+deviceSerial
+=
+options
+.
+device_serial
 packageName
 =
 None
@@ -4079,7 +4084,7 @@ deviceRoot
 =
 options
 .
-remoteTestRoot
+remote_test_root
 )
         
 else
@@ -4091,6 +4096,11 @@ devicemanagerADB
 .
 DeviceManagerADB
 (
+deviceSerial
+=
+options
+.
+device_serial
 packageName
 =
 None
@@ -4251,6 +4261,9 @@ TEST_DIR
 options
 .
 remote_test_root
+timeout
+=
+600
 )
     
 prefix
