@@ -148,6 +148,9 @@ obj
 return
 NULL
 ;
+if
+(
+!
 obj
 -
 >
@@ -158,6 +161,9 @@ bindings
 &
 scopeChain
 )
+)
+return
+NULL
 ;
 obj
 -
@@ -195,9 +201,7 @@ r
 obj
 -
 >
-lastProperty
-(
-)
+lastProp
 ;
 !
 r
@@ -228,10 +232,9 @@ if
 (
 s
 .
-slot
-!
-=
-SHAPE_INVALID_SLOT
+hasSlot
+(
+)
 )
 {
 JS_ASSERT
@@ -239,6 +242,8 @@ JS_ASSERT
 s
 .
 slot
+(
+)
 +
 1
 =
@@ -270,7 +275,7 @@ asCall
 ;
 callobj
 .
-initCallee
+setCallee
 (
 callee
 )
