@@ -328,6 +328,10 @@ nsIServerSocket
 .
 idl
 \
+nsIUDPServerSocket
+.
+idl
+\
 nsIResumableChannel
 .
 idl
