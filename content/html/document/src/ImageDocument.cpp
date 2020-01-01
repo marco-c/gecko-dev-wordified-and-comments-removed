@@ -1620,6 +1620,15 @@ ScrollImageTo
 false
 )
 ;
+if
+(
+!
+mImageContent
+)
+{
+return
+;
+}
 SetModeClass
 (
 eShrinkToFit
@@ -1708,8 +1717,10 @@ Flush_Layout
 )
 ;
 }
+nsCOMPtr
+<
 nsIPresShell
-*
+>
 shell
 =
 GetShell
