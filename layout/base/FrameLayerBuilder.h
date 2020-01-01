@@ -1137,10 +1137,6 @@ nsIFrame
 (
 key
 )
-mIsSharingContainerLayer
-(
-false
-)
 {
 }
 DisplayItemDataEntry
@@ -1158,12 +1154,6 @@ nsIFrame
 toCopy
 .
 mKey
-)
-mIsSharingContainerLayer
-(
-toCopy
-.
-mIsSharingContainerLayer
 )
 {
 mData
@@ -1187,9 +1177,6 @@ DisplayItemData
 1
 >
 mData
-;
-bool
-mIsSharingContainerLayer
 ;
 enum
 {
