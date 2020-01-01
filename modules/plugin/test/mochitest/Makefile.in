@@ -470,6 +470,10 @@ plugin_window
 .
 html
 \
+test_painting
+.
+html
+\
 test_pluginstream_err
 .
 html
