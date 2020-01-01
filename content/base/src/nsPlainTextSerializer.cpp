@@ -6101,6 +6101,7 @@ aSoftlinebreak
 |
 |
 !
+(
 mCurrentLine
 .
 EqualsLiteral
@@ -6109,6 +6110,19 @@ EqualsLiteral
 -
 -
 "
+)
+|
+|
+mCurrentLine
+.
+EqualsLiteral
+(
+"
+-
+-
+-
+"
+)
 )
 )
 )
