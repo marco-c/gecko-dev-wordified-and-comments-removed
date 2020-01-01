@@ -600,7 +600,7 @@ IsDefunct
 return
 CO_E_OBJNOTCONNECTED
 ;
-nsDocAccessible
+DocAccessible
 *
 doc
 =
@@ -6619,7 +6619,7 @@ if
 aAccessible
 )
 {
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -7266,7 +7266,7 @@ roles
 DOCUMENT
 )
 {
-nsDocAccessible
+DocAccessible
 *
 document
 =

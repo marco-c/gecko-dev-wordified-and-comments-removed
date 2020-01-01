@@ -3051,7 +3051,7 @@ nativeWindow
 =
 nil
 ;
-nsDocAccessible
+DocAccessible
 *
 docAcc
 =

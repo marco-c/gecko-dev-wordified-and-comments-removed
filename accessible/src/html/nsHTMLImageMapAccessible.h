@@ -38,7 +38,7 @@ nsHTMLImageMapAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -148,7 +148,7 @@ nsHTMLAreaAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

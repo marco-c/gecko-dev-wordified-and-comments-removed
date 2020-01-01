@@ -27,7 +27,7 @@ nsHTMLWin32ObjectOwnerAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 void

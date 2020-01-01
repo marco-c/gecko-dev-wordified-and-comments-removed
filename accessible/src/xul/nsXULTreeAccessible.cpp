@@ -29,7 +29,7 @@ h
 #
 include
 "
-nsDocAccessible
+DocAccessible
 .
 h
 "
@@ -139,7 +139,7 @@ nsXULTreeAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -2180,7 +2180,7 @@ aCount
 )
 return
 ;
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -2708,7 +2708,7 @@ nsXULTreeItemAccessibleBase
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 nsAccessible
@@ -4338,7 +4338,7 @@ nsXULTreeItemAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 nsAccessible
@@ -4640,7 +4640,7 @@ nsXULTreeColumnsAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

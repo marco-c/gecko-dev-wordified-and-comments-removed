@@ -30,7 +30,7 @@ OuterDocAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

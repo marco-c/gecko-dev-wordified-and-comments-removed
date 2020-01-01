@@ -31,7 +31,7 @@ h
 #
 include
 "
-nsDocAccessible
+DocAccessible
 .
 h
 "
@@ -155,7 +155,7 @@ nsHTMLSelectListAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -400,7 +400,7 @@ if
 activeOptionNode
 )
 {
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -610,7 +610,7 @@ nsHTMLSelectOptionAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -1361,7 +1361,7 @@ nsHTMLSelectOptGroupAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -1486,7 +1486,7 @@ nsHTMLComboboxAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -2178,7 +2178,7 @@ if
 activeOptionNode
 )
 {
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -2216,7 +2216,7 @@ aParent
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

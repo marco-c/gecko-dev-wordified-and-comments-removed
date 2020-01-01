@@ -91,7 +91,7 @@ MPL
 #
 include
 "
-nsDocAccessibleWrap
+DocAccessibleWrap
 .
 h
 "
@@ -102,10 +102,10 @@ mozAccessible
 .
 h
 "
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
-nsDocAccessibleWrap
+DocAccessibleWrap
 (
 nsIDocument
 *
@@ -118,7 +118,7 @@ nsIPresShell
 aPresShell
 )
 :
-nsDocAccessible
+DocAccessible
 (
 aDocument
 aRootContent
@@ -126,11 +126,11 @@ aPresShell
 )
 {
 }
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
 ~
-nsDocAccessibleWrap
+DocAccessibleWrap
 (
 )
 {

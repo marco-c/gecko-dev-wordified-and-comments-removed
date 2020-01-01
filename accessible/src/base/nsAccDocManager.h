@@ -57,7 +57,7 @@ class
 nsAccessible
 ;
 class
-nsDocAccessible
+DocAccessible
 ;
 class
 nsAccDocManager
@@ -82,7 +82,7 @@ nsAccDocManager
 NS_DECL_ISUPPORTS
 NS_DECL_NSIWEBPROGRESSLISTENER
 NS_DECL_NSIDOMEVENTLISTENER
-nsDocAccessible
+DocAccessible
 *
 GetDocAccessible
 (
@@ -91,7 +91,7 @@ nsIDocument
 aDocument
 )
 ;
-nsDocAccessible
+DocAccessible
 *
 GetDocAccessible
 (
@@ -128,7 +128,7 @@ aNode
 const
 ;
 inline
-nsDocAccessible
+DocAccessible
 *
 GetDocAccessibleFromCache
 (
@@ -234,7 +234,7 @@ bool
 aAddPageShowListener
 )
 ;
-nsDocAccessible
+DocAccessible
 *
 CreateDocOrRootAccessible
 (
@@ -251,9 +251,9 @@ nsPtrHashKey
 const
 nsIDocument
 >
-nsDocAccessible
+DocAccessible
 >
-nsDocAccessibleHashtable
+DocAccessibleHashtable
 ;
 static
 PLDHashOperator
@@ -263,7 +263,7 @@ const
 nsIDocument
 *
 aKey
-nsDocAccessible
+DocAccessible
 *
 aDocAccessible
 void
@@ -297,7 +297,7 @@ const
 nsIDocument
 *
 aKey
-nsDocAccessible
+DocAccessible
 *
 aDocAccessible
 void
@@ -316,7 +316,7 @@ const
 nsIDocument
 *
 aKey
-nsDocAccessible
+DocAccessible
 *
 aDocAccessible
 void
@@ -326,7 +326,7 @@ aUserArg
 ;
 #
 endif
-nsDocAccessibleHashtable
+DocAccessibleHashtable
 mDocAccessibleCache
 ;
 }

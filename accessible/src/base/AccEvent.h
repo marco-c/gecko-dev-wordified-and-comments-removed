@@ -22,7 +22,7 @@ class
 nsAccEvent
 ;
 class
-nsDocAccessible
+DocAccessible
 ;
 enum
 EIsFromUserInput
@@ -132,7 +132,7 @@ GetAccessible
 (
 )
 ;
-nsDocAccessible
+DocAccessible
 *
 GetDocAccessible
 (

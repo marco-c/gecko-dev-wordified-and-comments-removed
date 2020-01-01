@@ -879,7 +879,7 @@ nsAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -2976,7 +2976,7 @@ state
 =
 0
 ;
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -3513,7 +3513,7 @@ this
 return
 fallbackAnswer
 ;
-nsDocAccessible
+DocAccessible
 *
 accDocument
 =
@@ -3643,7 +3643,7 @@ GetContent
 return
 fallbackAnswer
 ;
-nsDocAccessible
+DocAccessible
 *
 contentDocAcc
 =
@@ -13097,7 +13097,7 @@ if
 activeDescendantElm
 )
 {
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -13288,7 +13288,7 @@ CacheChildren
 (
 )
 {
-nsDocAccessible
+DocAccessible
 *
 doc
 =

@@ -105,7 +105,7 @@ class
 nsHTMLTableAccessible
 ;
 class
-nsDocAccessible
+DocAccessible
 ;
 struct
 nsRoleMapEntry
@@ -243,7 +243,7 @@ aAttr
 )
 ;
 static
-nsDocAccessible
+DocAccessible
 *
 GetDocAccessibleFor
 (
@@ -277,7 +277,7 @@ presShell
 ;
 }
 static
-nsDocAccessible
+DocAccessible
 *
 GetDocAccessibleFor
 (

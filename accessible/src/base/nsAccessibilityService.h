@@ -624,7 +624,7 @@ GetOrCreateAccessible
 nsINode
 *
 aNode
-nsDocAccessible
+DocAccessible
 *
 aDoc
 bool
@@ -690,7 +690,7 @@ CreateAccessibleByType
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -707,7 +707,7 @@ aFrame
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -724,7 +724,7 @@ aFrame
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -741,7 +741,7 @@ CreateAccessibleForXULTree
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

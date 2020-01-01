@@ -25,7 +25,7 @@ class
 nsAccessible
 ;
 class
-nsDocAccessible
+DocAccessible
 ;
 class
 nsIDocument
@@ -137,7 +137,7 @@ aMsg
 nsIDocument
 *
 aDocumentNode
-nsDocAccessible
+DocAccessible
 *
 aDocument
 =
@@ -154,7 +154,7 @@ aMsg
 nsIDocument
 *
 aDocumentNode
-nsDocAccessible
+DocAccessible
 *
 aDocument
 =

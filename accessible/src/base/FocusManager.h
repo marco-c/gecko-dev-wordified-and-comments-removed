@@ -29,7 +29,7 @@ class
 nsAccessible
 ;
 class
-nsDocAccessible
+DocAccessible
 ;
 namespace
 mozilla
@@ -167,7 +167,7 @@ ForceFocusEvent
 void
 DispatchFocusEvent
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 nsAccessible

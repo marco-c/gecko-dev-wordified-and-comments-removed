@@ -173,6 +173,17 @@ srcdir
 .
 .
 /
+generic
+\
+-
+I
+(
+srcdir
+)
+/
+.
+.
+/
 html
 \
 (

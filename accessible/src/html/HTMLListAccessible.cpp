@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsDocAccessible
+DocAccessible
 .
 h
 "
@@ -122,7 +122,7 @@ HTMLLIAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -426,7 +426,7 @@ already
 return
 ;
 }
-nsDocAccessible
+DocAccessible
 *
 document
 =

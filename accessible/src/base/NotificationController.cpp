@@ -38,7 +38,7 @@ h
 #
 include
 "
-nsDocAccessible
+DocAccessible
 .
 h
 "
@@ -107,7 +107,7 @@ NotificationController
 :
 NotificationController
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 nsIPresShell
@@ -238,7 +238,7 @@ get
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NSTARRAY_MEMBER
 (
 mHangingChildDocuments
-nsDocAccessible
+DocAccessible
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NSTARRAY_MEMBER
 (
@@ -446,7 +446,7 @@ NotificationController
 :
 ScheduleChildDocBinding
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 )
@@ -614,7 +614,7 @@ mDocument
 >
 HasLoadState
 (
-nsDocAccessible
+DocAccessible
 :
 :
 eTreeConstructed
@@ -671,7 +671,7 @@ mDocument
 >
 HasLoadState
 (
-nsDocAccessible
+DocAccessible
 :
 :
 eTreeConstructed
@@ -865,7 +865,7 @@ idx
 +
 )
 {
-nsDocAccessible
+DocAccessible
 *
 childDoc
 =
@@ -981,7 +981,7 @@ mDocument
 >
 HasLoadState
 (
-nsDocAccessible
+DocAccessible
 :
 :
 eReady
@@ -994,7 +994,7 @@ mDocument
 >
 HasLoadState
 (
-nsDocAccessible
+DocAccessible
 :
 :
 eCompletelyLoaded
@@ -1032,7 +1032,7 @@ childDocIdx
 +
 )
 {
-nsDocAccessible
+DocAccessible
 *
 childDoc
 =
@@ -1052,7 +1052,7 @@ childDoc
 >
 HasLoadState
 (
-nsDocAccessible
+DocAccessible
 :
 :
 eCompletelyLoaded
@@ -1379,7 +1379,7 @@ mDocument
 >
 HasLoadState
 (
-nsDocAccessible
+DocAccessible
 :
 :
 eCompletelyLoaded
@@ -2974,7 +2974,7 @@ AccMutationEvent
 aEvent
 )
 {
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -3167,13 +3167,13 @@ void
 aUserArg
 )
 {
-nsDocAccessible
+DocAccessible
 *
 document
 =
 static_cast
 <
-nsDocAccessible
+DocAccessible
 *
 >
 (
@@ -3806,7 +3806,7 @@ ContentInsertion
 :
 ContentInsertion
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 nsAccessible

@@ -24,7 +24,7 @@ nsXULAlertAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

@@ -94,7 +94,7 @@ AtkSocketAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 const

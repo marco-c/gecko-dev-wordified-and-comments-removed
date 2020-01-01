@@ -29,7 +29,7 @@ h
 #
 include
 "
-nsDocAccessible
+DocAccessible
 .
 h
 "
@@ -218,7 +218,7 @@ return
 mNode
 ;
 }
-nsDocAccessible
+DocAccessible
 *
 AccEvent
 :
@@ -369,7 +369,7 @@ if
 mNode
 )
 {
-nsDocAccessible
+DocAccessible
 *
 document
 =

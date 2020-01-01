@@ -102,6 +102,10 @@ ARIAGridAccessible
 .
 cpp
 \
+DocAccessible
+.
+cpp
+\
 FormControlAccessible
 .
 cpp

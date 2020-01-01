@@ -22,7 +22,7 @@ h
 #
 include
 "
-nsDocAccessible
+DocAccessible
 .
 h
 "
@@ -83,7 +83,7 @@ TextLeafAccessibleWrap
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -434,7 +434,7 @@ return
 rv
 ;
 }
-nsDocAccessible
+DocAccessible
 *
 docAccessible
 =

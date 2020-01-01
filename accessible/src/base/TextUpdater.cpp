@@ -17,7 +17,7 @@ h
 #
 include
 "
-nsDocAccessible
+DocAccessible
 .
 h
 "
@@ -41,7 +41,7 @@ TextUpdater
 :
 Run
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 TextLeafAccessible

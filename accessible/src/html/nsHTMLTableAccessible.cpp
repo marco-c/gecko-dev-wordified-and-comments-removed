@@ -38,7 +38,7 @@ h
 #
 include
 "
-nsDocAccessible
+DocAccessible
 .
 h
 "
@@ -225,7 +225,7 @@ nsHTMLTableCellAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -1460,7 +1460,7 @@ nsHTMLTableHeaderCellAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -1707,7 +1707,7 @@ nsHTMLTableAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -5659,7 +5659,7 @@ isLayout
 }
 #
 endif
-nsDocAccessible
+DocAccessible
 *
 docAccessible
 =

@@ -368,10 +368,10 @@ NS_ARRAY_LENGTH
 kRelationAttrs
 )
 ;
-nsDocAccessible
+DocAccessible
 :
 :
-nsDocAccessible
+DocAccessible
 (
 nsIDocument
 *
@@ -492,11 +492,11 @@ mDocument
 )
 ;
 }
-nsDocAccessible
+DocAccessible
 :
 :
 ~
-nsDocAccessible
+DocAccessible
 (
 )
 {
@@ -518,11 +518,11 @@ called
 }
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
-nsDocAccessible
+DocAccessible
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
-nsDocAccessible
+DocAccessible
 nsAccessible
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NSCOMPTR
@@ -598,7 +598,7 @@ cb
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
-nsDocAccessible
+DocAccessible
 nsAccessible
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
@@ -646,7 +646,7 @@ mAccessibleCache
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
 (
-nsDocAccessible
+DocAccessible
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -755,16 +755,16 @@ status
 }
 NS_IMPL_ADDREF_INHERITED
 (
-nsDocAccessible
+DocAccessible
 nsHyperTextAccessible
 )
 NS_IMPL_RELEASE_INHERITED
 (
-nsDocAccessible
+DocAccessible
 nsHyperTextAccessible
 )
 ENameValueFlag
-nsDocAccessible
+DocAccessible
 :
 :
 Name
@@ -847,7 +847,7 @@ eNameOK
 ;
 }
 role
-nsDocAccessible
+DocAccessible
 :
 :
 NativeRole
@@ -1000,7 +1000,7 @@ PANE
 ;
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 SetRoleMapEntry
@@ -1091,7 +1091,7 @@ roleMapEntry
 }
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 Description
@@ -1136,7 +1136,7 @@ aDescription
 ;
 }
 PRUint64
-nsDocAccessible
+DocAccessible
 :
 :
 NativeState
@@ -1296,7 +1296,7 @@ state
 ;
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 ApplyARIAState
@@ -1329,7 +1329,7 @@ aState
 ;
 }
 NS_IMETHODIMP
-nsDocAccessible
+DocAccessible
 :
 :
 GetAttributes
@@ -1368,7 +1368,7 @@ NS_OK
 }
 nsAccessible
 *
-nsDocAccessible
+DocAccessible
 :
 :
 FocusedChild
@@ -1387,7 +1387,7 @@ FocusedAccessible
 ;
 }
 NS_IMETHODIMP
-nsDocAccessible
+DocAccessible
 :
 :
 TakeFocus
@@ -1451,7 +1451,7 @@ newFocus
 ;
 }
 NS_IMETHODIMP
-nsDocAccessible
+DocAccessible
 :
 :
 GetURL
@@ -1544,7 +1544,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsDocAccessible
+DocAccessible
 :
 :
 GetTitle
@@ -1586,7 +1586,7 @@ aTitle
 ;
 }
 NS_IMETHODIMP
-nsDocAccessible
+DocAccessible
 :
 :
 GetMimeType
@@ -1628,7 +1628,7 @@ aMimeType
 ;
 }
 NS_IMETHODIMP
-nsDocAccessible
+DocAccessible
 :
 :
 GetDocType
@@ -1730,7 +1730,7 @@ NS_ERROR_FAILURE
 ;
 }
 NS_IMETHODIMP
-nsDocAccessible
+DocAccessible
 :
 :
 GetNameSpaceURIForID
@@ -1778,7 +1778,7 @@ NS_ERROR_FAILURE
 ;
 }
 NS_IMETHODIMP
-nsDocAccessible
+DocAccessible
 :
 :
 GetWindowHandle
@@ -1806,7 +1806,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsDocAccessible
+DocAccessible
 :
 :
 GetWindow
@@ -1862,7 +1862,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsDocAccessible
+DocAccessible
 :
 :
 GetDOMDocument
@@ -1898,7 +1898,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsDocAccessible
+DocAccessible
 :
 :
 GetParentDocument
@@ -1941,7 +1941,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsDocAccessible
+DocAccessible
 :
 :
 GetChildDocumentCount
@@ -1980,7 +1980,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsDocAccessible
+DocAccessible
 :
 :
 GetChildDocumentAt
@@ -2033,7 +2033,7 @@ NS_ERROR_INVALID_ARG
 ;
 }
 NS_IMETHODIMP
-nsDocAccessible
+DocAccessible
 :
 :
 GetVirtualCursor
@@ -2108,7 +2108,7 @@ already_AddRefed
 <
 nsIEditor
 >
-nsDocAccessible
+DocAccessible
 :
 :
 GetEditor
@@ -2235,7 +2235,7 @@ nsnull
 }
 nsAccessible
 *
-nsDocAccessible
+DocAccessible
 :
 :
 GetAccessible
@@ -2279,7 +2279,7 @@ accessible
 =
 const_cast
 <
-nsDocAccessible
+DocAccessible
 *
 >
 (
@@ -2320,7 +2320,7 @@ accessible
 ;
 }
 bool
-nsDocAccessible
+DocAccessible
 :
 :
 Init
@@ -2404,7 +2404,7 @@ true
 ;
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 Shutdown
@@ -2487,7 +2487,7 @@ if
 mParent
 )
 {
-nsDocAccessible
+DocAccessible
 *
 parentDocument
 =
@@ -2621,7 +2621,7 @@ kungFuDeathGripDoc
 }
 nsIFrame
 *
-nsDocAccessible
+DocAccessible
 :
 :
 GetFrame
@@ -2653,7 +2653,7 @@ root
 ;
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 GetBoundsRect
@@ -2807,7 +2807,7 @@ GetParentDocument
 }
 }
 nsresult
-nsDocAccessible
+DocAccessible
 :
 :
 AddEventListeners
@@ -2990,7 +2990,7 @@ NS_OK
 ;
 }
 nsresult
-nsDocAccessible
+DocAccessible
 :
 :
 RemoveEventListeners
@@ -3192,7 +3192,7 @@ NS_OK
 ;
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 ScrollTimerCallback
@@ -3205,13 +3205,13 @@ void
 aClosure
 )
 {
-nsDocAccessible
+DocAccessible
 *
 docAcc
 =
 reinterpret_cast
 <
-nsDocAccessible
+DocAccessible
 *
 >
 (
@@ -3292,7 +3292,7 @@ docAcc
 }
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 AddScrollListener
@@ -3363,7 +3363,7 @@ endif
 }
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 RemoveScrollListener
@@ -3404,7 +3404,7 @@ this
 }
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 ScrollPositionDidChange
@@ -3483,7 +3483,7 @@ mScrollPositionChangedTicks
 ;
 }
 NS_IMETHODIMP
-nsDocAccessible
+DocAccessible
 :
 :
 Observe
@@ -3544,7 +3544,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsDocAccessible
+DocAccessible
 :
 :
 OnPivotChanged
@@ -3590,18 +3590,18 @@ NS_OK
 }
 NS_IMPL_NSIDOCUMENTOBSERVER_CORE_STUB
 (
-nsDocAccessible
+DocAccessible
 )
 NS_IMPL_NSIDOCUMENTOBSERVER_LOAD_STUB
 (
-nsDocAccessible
+DocAccessible
 )
 NS_IMPL_NSIDOCUMENTOBSERVER_STYLE_STUB
 (
-nsDocAccessible
+DocAccessible
 )
 void
-nsDocAccessible
+DocAccessible
 :
 :
 AttributeWillChange
@@ -3715,7 +3715,7 @@ nsnull
 }
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 AttributeChanged
@@ -3831,7 +3831,7 @@ aAttribute
 }
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 AttributeChangedImpl
@@ -4207,7 +4207,7 @@ return
 }
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 ARIAAttributeChanged
@@ -4306,13 +4306,13 @@ mNotificationController
 >
 HandleNotification
 <
-nsDocAccessible
+DocAccessible
 nsIContent
 >
 (
 this
 &
-nsDocAccessible
+DocAccessible
 :
 :
 ARIAActiveDescendantChanged
@@ -4653,7 +4653,7 @@ return
 }
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 ARIAActiveDescendantChanged
@@ -4766,7 +4766,7 @@ activeDescendant
 }
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 ContentAppended
@@ -4785,7 +4785,7 @@ PRInt32
 {
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 ContentStateChanged
@@ -4938,7 +4938,7 @@ event
 }
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 DocumentStatesChanged
@@ -4952,7 +4952,7 @@ aStateMask
 {
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 CharacterDataWillChange
@@ -4970,7 +4970,7 @@ aInfo
 {
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 CharacterDataChanged
@@ -4988,7 +4988,7 @@ aInfo
 {
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 ContentInserted
@@ -5007,7 +5007,7 @@ PRInt32
 {
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 ContentRemoved
@@ -5029,7 +5029,7 @@ aPreviousSibling
 {
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 ParentChainChanged
@@ -5044,7 +5044,7 @@ aContent
 ifdef
 DEBUG
 nsresult
-nsDocAccessible
+DocAccessible
 :
 :
 HandleAccEvent
@@ -5089,7 +5089,7 @@ aEvent
 endif
 void
 *
-nsDocAccessible
+DocAccessible
 :
 :
 GetNativeWindow
@@ -5160,7 +5160,7 @@ nsnull
 }
 nsAccessible
 *
-nsDocAccessible
+DocAccessible
 :
 :
 GetAccessibleByUniqueIDInSubtree
@@ -5211,7 +5211,7 @@ childDocIdx
 +
 )
 {
-nsDocAccessible
+DocAccessible
 *
 childDocument
 =
@@ -5246,7 +5246,7 @@ nsnull
 }
 nsAccessible
 *
-nsDocAccessible
+DocAccessible
 :
 :
 GetAccessibleOrContainer
@@ -5315,7 +5315,7 @@ accessible
 ;
 }
 bool
-nsDocAccessible
+DocAccessible
 :
 :
 BindToDocument
@@ -5430,7 +5430,7 @@ true
 ;
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 UnbindFromDocument
@@ -5576,7 +5576,7 @@ uniqueID
 ;
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 ContentInserted
@@ -5629,7 +5629,7 @@ aEndChildNode
 }
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 ContentRemoved
@@ -5664,7 +5664,7 @@ false
 ;
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 RecreateAccessible
@@ -5704,7 +5704,7 @@ GetNextSibling
 ;
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 ProcessInvalidationList
@@ -5803,7 +5803,7 @@ Clear
 ;
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 CacheChildren
@@ -5852,7 +5852,7 @@ child
 ;
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 NotifyOfLoading
@@ -5930,7 +5930,7 @@ stateEvent
 ;
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 DoInitialUpdate
@@ -6017,7 +6017,7 @@ reorderEvent
 }
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 ProcessLoad
@@ -6096,7 +6096,7 @@ stateEvent
 ;
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 AddDependentIDsFor
@@ -6440,7 +6440,7 @@ break
 }
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 RemoveDependentIDsFor
@@ -6647,7 +6647,7 @@ break
 }
 }
 bool
-nsDocAccessible
+DocAccessible
 :
 :
 UpdateAccessibleOnAttrChange
@@ -6773,7 +6773,7 @@ false
 ;
 }
 nsresult
-nsDocAccessible
+DocAccessible
 :
 :
 FireDelayedAccessibleEvent
@@ -6821,7 +6821,7 @@ event
 ;
 }
 nsresult
-nsDocAccessible
+DocAccessible
 :
 :
 FireDelayedAccessibleEvent
@@ -6879,7 +6879,7 @@ NS_OK
 ;
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 ProcessPendingEvent
@@ -7033,7 +7033,7 @@ GetAccessible
 }
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 ProcessContentInserted
@@ -7166,7 +7166,7 @@ true
 }
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 UpdateTree
@@ -7376,7 +7376,7 @@ reorderEvent
 ;
 }
 PRUint32
-nsDocAccessible
+DocAccessible
 :
 :
 UpdateTreeInternal
@@ -7643,7 +7643,7 @@ updateFlags
 ;
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 CacheChildrenInSubtree
@@ -7733,7 +7733,7 @@ child
 }
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 UncacheChildrenInSubtree
@@ -7832,7 +7832,7 @@ GetNode
 ;
 }
 void
-nsDocAccessible
+DocAccessible
 :
 :
 ShutdownChildrenInSubtree
@@ -7931,7 +7931,7 @@ aAccessible
 ;
 }
 bool
-nsDocAccessible
+DocAccessible
 :
 :
 IsLoadEventTarget

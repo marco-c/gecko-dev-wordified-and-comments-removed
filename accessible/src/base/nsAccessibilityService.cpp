@@ -602,7 +602,7 @@ if
 documentNode
 )
 {
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -2161,7 +2161,7 @@ aEndChild
 ;
 #
 endif
-nsDocAccessible
+DocAccessible
 *
 docAccessible
 =
@@ -2359,7 +2359,7 @@ get
 ;
 #
 endif
-nsDocAccessible
+DocAccessible
 *
 docAccessible
 =
@@ -2396,7 +2396,7 @@ nsIContent
 aContent
 )
 {
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -2435,7 +2435,7 @@ nsITreeView
 aView
 )
 {
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -2508,7 +2508,7 @@ bool
 aHasBullet
 )
 {
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -2592,7 +2592,7 @@ PresShell
 (
 )
 ;
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -2727,7 +2727,7 @@ doc
 ;
 #
 endif
-nsDocAccessible
+DocAccessible
 *
 docAccessible
 =
@@ -2775,7 +2775,7 @@ if
 DOMDoc
 )
 {
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -2844,7 +2844,7 @@ nsIContent
 aContent
 )
 {
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -4527,7 +4527,7 @@ Crash
 "
 )
 ;
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -4629,7 +4629,7 @@ GetOrCreateAccessible
 nsINode
 *
 aNode
-nsDocAccessible
+DocAccessible
 *
 aDoc
 bool
@@ -4984,7 +4984,7 @@ creation
 ;
 #
 endif
-nsDocAccessible
+DocAccessible
 *
 docAcc
 =
@@ -6495,7 +6495,7 @@ CreateAccessibleByType
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -7663,7 +7663,7 @@ aFrame
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -8501,7 +8501,7 @@ aFrame
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -8668,7 +8668,7 @@ CreateAccessibleForXULTree
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

@@ -57,7 +57,7 @@ class
 nsAccessNode
 ;
 class
-nsDocAccessible
+DocAccessible
 ;
 class
 nsIAccessibleDocument
@@ -101,7 +101,7 @@ nsAccessNode
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -136,7 +136,7 @@ GetApplicationAccessible
 (
 )
 ;
-nsDocAccessible
+DocAccessible
 *
 Document
 (
@@ -347,7 +347,7 @@ nsIContent
 >
 mContent
 ;
-nsDocAccessible
+DocAccessible
 *
 mDoc
 ;

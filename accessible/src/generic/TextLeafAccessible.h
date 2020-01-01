@@ -30,7 +30,7 @@ TextLeafAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

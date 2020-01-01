@@ -53,7 +53,7 @@ nsHTMLTableCellAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -140,7 +140,7 @@ nsHTMLTableHeaderCellAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -184,7 +184,7 @@ nsHTMLTableAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -421,7 +421,7 @@ nsHTMLCaptionAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

@@ -36,7 +36,7 @@ nsHTMLImageAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

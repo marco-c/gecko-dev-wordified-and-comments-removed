@@ -149,7 +149,7 @@ nsAccessNodeWrap
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )
@@ -469,7 +469,7 @@ nsPtrHashKey
 <
 void
 >
-nsDocAccessible
+DocAccessible
 >
 sHWNDCache
 ;

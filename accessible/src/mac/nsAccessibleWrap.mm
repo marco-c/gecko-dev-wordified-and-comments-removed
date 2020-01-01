@@ -96,7 +96,7 @@ MPL
 #
 include
 "
-nsDocAccessible
+DocAccessible
 .
 h
 "
@@ -166,7 +166,7 @@ nsAccessibleWrap
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

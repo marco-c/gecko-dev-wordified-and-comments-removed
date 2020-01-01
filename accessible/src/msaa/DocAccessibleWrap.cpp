@@ -19,7 +19,7 @@ h
 #
 include
 "
-nsDocAccessibleWrap
+DocAccessibleWrap
 .
 h
 "
@@ -139,10 +139,10 @@ mozilla
 :
 a11y
 ;
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
-nsDocAccessibleWrap
+DocAccessibleWrap
 (
 nsIDocument
 *
@@ -155,7 +155,7 @@ nsIPresShell
 aPresShell
 )
 :
-nsDocAccessible
+DocAccessible
 (
 aDocument
 aRootContent
@@ -167,11 +167,11 @@ NULL
 )
 {
 }
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
 ~
-nsDocAccessibleWrap
+DocAccessibleWrap
 (
 )
 {
@@ -180,7 +180,7 @@ STDMETHODIMP_
 (
 ULONG
 )
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
 AddRef
@@ -200,7 +200,7 @@ STDMETHODIMP_
 (
 ULONG
 )
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
 Release
@@ -217,7 +217,7 @@ Release
 ;
 }
 STDMETHODIMP
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
 QueryInterface
@@ -293,7 +293,7 @@ S_OK
 ;
 }
 STDMETHODIMP
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
 get_URL
@@ -392,7 +392,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
 get_title
@@ -480,7 +480,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
 get_mimeType
@@ -579,7 +579,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
 get_docType
@@ -678,7 +678,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
 get_nameSpaceURIForID
@@ -789,7 +789,7 @@ E_FAIL
 ;
 }
 STDMETHODIMP
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
 put_alternateViewMediaTypes
@@ -829,7 +829,7 @@ E_NOTIMPL
 ;
 }
 STDMETHODIMP
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
 get_accValue
@@ -939,7 +939,7 @@ pszValue
 ;
 }
 void
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
 Shutdown
@@ -993,7 +993,7 @@ mHWND
 nsnull
 ;
 }
-nsDocAccessible
+DocAccessible
 :
 :
 Shutdown
@@ -1003,7 +1003,7 @@ Shutdown
 }
 void
 *
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
 GetNativeWindow
@@ -1016,7 +1016,7 @@ mHWND
 ?
 mHWND
 :
-nsDocAccessible
+DocAccessible
 :
 :
 GetNativeWindow
@@ -1025,14 +1025,14 @@ GetNativeWindow
 ;
 }
 void
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
 DoInitialUpdate
 (
 )
 {
-nsDocAccessible
+DocAccessible
 :
 :
 DoInitialUpdate
@@ -1290,7 +1290,7 @@ this
 }
 else
 {
-nsDocAccessible
+DocAccessible
 *
 parentDocument
 =

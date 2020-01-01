@@ -125,7 +125,7 @@ aAcc
 }
 Relation
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 nsIContent
@@ -277,7 +277,7 @@ aAcc
 void
 AppendTarget
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 nsIContent

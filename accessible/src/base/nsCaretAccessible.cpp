@@ -773,7 +773,7 @@ aDOMDocument
 )
 )
 ;
-nsDocAccessible
+DocAccessible
 *
 document
 =

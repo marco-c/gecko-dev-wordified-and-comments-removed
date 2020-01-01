@@ -31,7 +31,7 @@ XULSelectControlAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

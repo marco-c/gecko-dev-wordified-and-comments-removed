@@ -29,7 +29,7 @@ class
 nsAccessible
 ;
 class
-nsDocAccessible
+DocAccessible
 ;
 class
 nsIContent
@@ -238,7 +238,7 @@ public
 :
 NotificationController
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 nsIPresShell
@@ -290,7 +290,7 @@ aEvent
 void
 ScheduleChildDocBinding
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 )
@@ -645,7 +645,7 @@ mObservingState
 ;
 nsRefPtr
 <
-nsDocAccessible
+DocAccessible
 >
 mDocument
 ;
@@ -657,7 +657,7 @@ nsTArray
 <
 nsRefPtr
 <
-nsDocAccessible
+DocAccessible
 >
 >
 mHangingChildDocuments
@@ -669,7 +669,7 @@ public
 :
 ContentInsertion
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 nsAccessible
@@ -735,7 +735,7 @@ ContentInsertion
 &
 )
 ;
-nsDocAccessible
+DocAccessible
 *
 mDocument
 ;

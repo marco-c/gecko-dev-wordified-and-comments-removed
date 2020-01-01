@@ -146,7 +146,7 @@ nsHyperTextAccessible
 nsIContent
 *
 aContent
-nsDocAccessible
+DocAccessible
 *
 aDoc
 )

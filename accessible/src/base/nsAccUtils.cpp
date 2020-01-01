@@ -38,7 +38,7 @@ h
 #
 include
 "
-nsDocAccessible
+DocAccessible
 .
 h
 "
@@ -1305,7 +1305,7 @@ focusNode
 focusOffset
 )
 ;
-nsDocAccessible
+DocAccessible
 *
 doc
 =
@@ -1684,7 +1684,7 @@ nsAccessNode
 aAccessNode
 )
 {
-nsDocAccessible
+DocAccessible
 *
 document
 =

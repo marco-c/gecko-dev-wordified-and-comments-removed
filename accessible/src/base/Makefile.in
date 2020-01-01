@@ -138,10 +138,6 @@ nsARIAMap
 .
 cpp
 \
-nsDocAccessible
-.
-cpp
-\
 nsCoreUtils
 .
 cpp

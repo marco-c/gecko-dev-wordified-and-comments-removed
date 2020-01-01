@@ -143,7 +143,7 @@ mozilla
 :
 a11y
 ;
-nsDocAccessible
+DocAccessible
 *
 nsAccDocManager
 :
@@ -175,7 +175,7 @@ EnsureChildren
 (
 )
 ;
-nsDocAccessible
+DocAccessible
 *
 docAcc
 =
@@ -653,7 +653,7 @@ aStateFlags
 ;
 #
 endif
-nsDocAccessible
+DocAccessible
 *
 docAcc
 =
@@ -1044,7 +1044,7 @@ IsInitialDocument
 return
 NS_OK
 ;
-nsDocAccessible
+DocAccessible
 *
 docAccessible
 =
@@ -1151,7 +1151,7 @@ PRUint32
 aLoadEventType
 )
 {
-nsDocAccessible
+DocAccessible
 *
 docAcc
 =
@@ -1340,7 +1340,7 @@ listener
 endif
 }
 }
-nsDocAccessible
+DocAccessible
 *
 nsAccDocManager
 :
@@ -1449,7 +1449,7 @@ IsRootDocument
 aDocument
 )
 ;
-nsDocAccessible
+DocAccessible
 *
 parentDocAcc
 =
@@ -1501,7 +1501,7 @@ nsnull
 }
 nsRefPtr
 <
-nsDocAccessible
+DocAccessible
 >
 docAcc
 =
@@ -1516,7 +1516,7 @@ presShell
 )
 :
 new
-nsDocAccessibleWrap
+DocAccessibleWrap
 (
 aDocument
 rootElm
@@ -1707,7 +1707,7 @@ const
 nsIDocument
 *
 aKey
-nsDocAccessible
+DocAccessible
 *
 aDocAccessible
 void
@@ -1736,7 +1736,7 @@ cache
 *
 reinterpret_cast
 <
-nsDocAccessible
+DocAccessible
 *
 *
 >
@@ -1758,7 +1758,7 @@ ClearDocCache
 (
 )
 {
-nsDocAccessible
+DocAccessible
 *
 docAcc
 =
@@ -1806,7 +1806,7 @@ const
 nsIDocument
 *
 aKey
-nsDocAccessible
+DocAccessible
 *
 aDocAccessible
 void
@@ -1894,7 +1894,7 @@ const
 nsIDocument
 *
 aKey
-nsDocAccessible
+DocAccessible
 *
 aDocAccessible
 void

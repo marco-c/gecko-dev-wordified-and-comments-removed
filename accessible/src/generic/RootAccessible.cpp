@@ -330,7 +330,7 @@ a11y
 NS_IMPL_ISUPPORTS_INHERITED1
 (
 RootAccessible
-nsDocAccessible
+DocAccessible
 nsIAccessibleDocument
 )
 RootAccessible
@@ -349,7 +349,7 @@ nsIPresShell
 aPresShell
 )
 :
-nsDocAccessibleWrap
+DocAccessibleWrap
 (
 aDocument
 aRootContent
@@ -506,7 +506,7 @@ roles
 DIALOG
 ;
 return
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
 NativeRole
@@ -619,7 +619,7 @@ NativeState
 PRUint64
 state
 =
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
 NativeState
@@ -905,7 +905,7 @@ this
 ;
 }
 return
-nsDocAccessible
+DocAccessible
 :
 :
 AddEventListeners
@@ -992,7 +992,7 @@ rv
 ;
 }
 }
-nsDocAccessible
+DocAccessible
 :
 :
 RemoveEventListeners
@@ -1039,7 +1039,7 @@ RootAccessible
 :
 DocumentActivated
 (
-nsDocAccessible
+DocAccessible
 *
 aDocument
 )
@@ -1105,7 +1105,7 @@ origTargetNode
 return
 NS_OK
 ;
-nsDocAccessible
+DocAccessible
 *
 document
 =
@@ -1364,7 +1364,7 @@ origTargetNode
 return
 ;
 }
-nsDocAccessible
+DocAccessible
 *
 targetDocument
 =
@@ -2236,7 +2236,7 @@ PresShell
 )
 return
 ;
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
 Shutdown
@@ -2269,7 +2269,7 @@ nsIAccessibleRelation
 RELATION_EMBEDS
 )
 return
-nsDocAccessibleWrap
+DocAccessibleWrap
 :
 :
 RelationByType
@@ -2348,7 +2348,7 @@ if
 contentDocumentNode
 )
 {
-nsDocAccessible
+DocAccessible
 *
 contentDocument
 =
@@ -2562,7 +2562,7 @@ nsINode
 aPopupNode
 )
 {
-nsDocAccessible
+DocAccessible
 *
 document
 =
