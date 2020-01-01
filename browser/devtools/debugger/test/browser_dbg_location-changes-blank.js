@@ -204,7 +204,7 @@ DebuggerView
 .
 StackFrames
 .
-_container
+widget
 .
 _list
 childNodes
@@ -519,7 +519,7 @@ DebuggerView
 .
 Sources
 .
-_container
+widget
 ;
 let
 noScripts

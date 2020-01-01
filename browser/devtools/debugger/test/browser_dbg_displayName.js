@@ -114,7 +114,7 @@ DebuggerView
 .
 StackFrames
 .
-_container
+widget
 .
 _list
 ;
@@ -269,7 +269,7 @@ DebuggerView
 .
 StackFrames
 .
-_container
+widget
 .
 _list
 ;

@@ -717,7 +717,7 @@ DebuggerView
 .
 StackFrames
 .
-_container
+widget
 .
 _list
 .
@@ -752,7 +752,7 @@ DebuggerView
 .
 Sources
 .
-_container
+widget
 .
 _list
 .
@@ -2149,7 +2149,7 @@ if
 (
 gSources
 .
-_container
+widget
 .
 _list
 .

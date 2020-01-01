@@ -119,7 +119,7 @@ DebuggerView
 .
 StackFrames
 .
-_container
+widget
 .
 _list
 localScope
@@ -760,7 +760,7 @@ DebuggerView
 .
 StackFrames
 .
-_container
+widget
 .
 _list
 ;

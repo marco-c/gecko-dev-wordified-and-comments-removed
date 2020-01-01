@@ -1454,7 +1454,7 @@ is
 (
 gSources
 .
-_container
+widget
 .
 getAttribute
 (
@@ -1587,7 +1587,7 @@ isnot
 (
 gSources
 .
-_container
+widget
 .
 getAttribute
 (
@@ -1757,7 +1757,7 @@ is
 (
 gSources
 .
-_container
+widget
 .
 getAttribute
 (
