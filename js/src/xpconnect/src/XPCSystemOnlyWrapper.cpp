@@ -2087,7 +2087,7 @@ NewResolve
 (
 cx
 obj
-JS_TRUE
+JS_FALSE
 wrappedObj
 id
 flags

@@ -456,6 +456,10 @@ bug504877_helper
 .
 html
 \
+chrome_wrappers_helper
+.
+html
+\
 test_bug92773
 .
 html

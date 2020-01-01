@@ -264,10 +264,6 @@ Bug
 a
 >
 <
-/
-body
->
-<
 iframe
 id
 =
@@ -286,7 +282,7 @@ iframe_loaded
 (
 )
 "
-href
+src
 =
 "
 chrome
@@ -316,6 +312,10 @@ xul
 iframe
 "
 /
+>
+<
+/
+body
 >
 <
 !
@@ -444,6 +444,7 @@ chromeDialog
 modal
 "
 )
+;
 SimpleTest
 .
 finish
