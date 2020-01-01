@@ -755,7 +755,6 @@ stmt
 >
 blockObj
 ;
-const
 Shape
 *
 shape

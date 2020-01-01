@@ -1500,7 +1500,6 @@ _MSC_VER
 MOZ_NEVER_INLINE
 #
 endif
-const
 Shape
 *
 js
@@ -1549,7 +1548,6 @@ spp
 #
 ifdef
 DEBUG
-const
 Shape
 *
 js
@@ -2846,7 +2844,6 @@ return
 false
 ;
 }
-const
 Shape
 *
 shape

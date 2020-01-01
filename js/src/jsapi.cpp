@@ -21328,7 +21328,6 @@ cx
 int32_t
 i
 ;
-const
 Shape
 *
 shape

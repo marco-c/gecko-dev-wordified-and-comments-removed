@@ -1085,7 +1085,6 @@ target
 LookupStatus
 patchInline
 (
-const
 Shape
 *
 shape
@@ -1449,11 +1448,9 @@ cs
 LookupStatus
 generateStub
 (
-const
 Shape
 *
 initialShape
-const
 Shape
 *
 shape
@@ -2762,13 +2759,11 @@ holder
 obj
 )
 {
-const
 Shape
 *
 shape
 =
 (
-const
 Shape
 *
 )
@@ -3038,7 +3033,6 @@ getProto
 )
 ;
 }
-const
 Shape
 *
 initialShape
@@ -3073,7 +3067,6 @@ clasp
 >
 getProperty
 ;
-const
 Shape
 *
 shape
@@ -3250,13 +3243,11 @@ true
 )
 ;
 }
-const
 Shape
 *
 shape
 =
 (
-const
 Shape
 *
 )
@@ -3695,7 +3686,6 @@ JSProperty
 *
 prop
 ;
-const
 Shape
 *
 shape
@@ -3909,7 +3899,6 @@ holder
 shape
 =
 (
-const
 Shape
 *
 )
@@ -4055,7 +4044,6 @@ holder
 shape
 =
 (
-const
 Shape
 *
 )
@@ -5867,7 +5855,6 @@ patchInline
 JSObject
 *
 holder
-const
 Shape
 *
 shape
@@ -6071,7 +6058,6 @@ generateGetterStub
 Assembler
 &
 masm
-const
 Shape
 *
 shape
@@ -6774,7 +6760,6 @@ generateNativeGetterStub
 Assembler
 &
 masm
-const
 Shape
 *
 shape
@@ -7311,7 +7296,6 @@ generateStub
 JSObject
 *
 holder
-const
 Shape
 *
 shape
@@ -9381,7 +9365,6 @@ global
 CallObjPropKind
 kind
 ;
-const
 Shape
 *
 shape
@@ -10203,7 +10186,6 @@ return
 true
 ;
 }
-const
 Shape
 *
 shape
@@ -13591,7 +13573,6 @@ thisSlot
 )
 ;
 }
-const
 Shape
 *
 shape

@@ -432,7 +432,6 @@ patchInlineShapeGuard
 Repatcher
 &
 repatcher
-const
 Shape
 *
 shape

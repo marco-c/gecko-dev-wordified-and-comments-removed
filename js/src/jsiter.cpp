@@ -948,7 +948,6 @@ popFront
 )
 )
 {
-const
 Shape
 &
 shape
@@ -2787,7 +2786,6 @@ this
 shapes_array
 =
 (
-const
 Shape
 *
 *
@@ -3357,7 +3355,6 @@ vp
 {
 Vector
 <
-const
 Shape
 *
 8
@@ -3693,7 +3690,6 @@ goto
 miss
 ;
 }
-const
 Shape
 *
 shape

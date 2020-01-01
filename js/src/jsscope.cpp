@@ -247,7 +247,6 @@ popFront
 )
 )
 {
-const
 Shape
 &
 shape
@@ -2819,7 +2818,6 @@ cx
 JSObject
 *
 obj
-const
 Shape
 *
 shape
@@ -4270,7 +4268,6 @@ entryCount
 #
 ifdef
 DEBUG
-const
 Shape
 *
 aprop
@@ -6882,7 +6879,6 @@ isEmptyShape
 #
 ifdef
 DEBUG
-const
 Shape
 *
 nshape

@@ -602,7 +602,6 @@ JSObject
 *
 >
 pobj
-const
 Shape
 *
 shape
@@ -1387,7 +1386,6 @@ name
 )
 )
 {
-const
 Shape
 *
 shape

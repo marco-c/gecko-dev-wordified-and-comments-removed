@@ -5679,12 +5679,10 @@ JS_ALWAYS_INLINE
 void
 MakeRangeGCSafe
 (
-const
 Shape
 *
 *
 beg
-const
 Shape
 *
 *
@@ -5705,7 +5703,6 @@ JS_ALWAYS_INLINE
 void
 MakeRangeGCSafe
 (
-const
 Shape
 *
 *
@@ -5882,7 +5879,6 @@ AutoShapeVector
 public
 AutoVectorRooter
 <
-const
 Shape
 *
 >
@@ -5900,7 +5896,6 @@ JS_GUARD_OBJECT_NOTIFIER_PARAM
 :
 AutoVectorRooter
 <
-const
 Shape
 *
 >

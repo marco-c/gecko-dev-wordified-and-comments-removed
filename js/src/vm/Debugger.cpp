@@ -4069,7 +4069,6 @@ obj
 cx
 )
 ;
-const
 Shape
 *
 shape

@@ -1062,7 +1062,6 @@ setLastProperty
 JSContext
 *
 cx
-const
 js
 :
 :
@@ -1075,7 +1074,6 @@ inline
 void
 setLastPropertyInfallible
 (
-const
 js
 :
 :
@@ -1588,7 +1586,6 @@ nativeSetSlotWithType
 JSContext
 *
 cx
-const
 js
 :
 :
@@ -5272,7 +5269,6 @@ DNP_SKIP_TYPE
 8
 ;
 extern
-const
 Shape
 *
 DefineNativeProperty
@@ -5305,7 +5301,6 @@ defineHow
 )
 ;
 inline
-const
 Shape
 *
 DefineNativeProperty
@@ -5600,7 +5595,6 @@ JSObject
 *
 >
 pobj
-const
 js
 :
 :
@@ -5642,7 +5636,6 @@ JSObject
 *
 >
 receiver
-const
 js
 :
 :

@@ -2376,7 +2376,6 @@ asPropertyName
 ;
 DebugOnly
 <
-const
 Shape
 *
 >

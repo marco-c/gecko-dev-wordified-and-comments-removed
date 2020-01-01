@@ -1966,7 +1966,6 @@ JSObject
 :
 setLastPropertyInfallible
 (
-const
 js
 :
 :
@@ -2041,17 +2040,7 @@ numFixedSlots
 ;
 shape_
 =
-const_cast
-<
-js
-:
-:
-Shape
-*
->
-(
 shape
-)
 ;
 }
 inline
@@ -2107,7 +2096,6 @@ inDictionaryMode
 )
 )
 ;
-const
 js
 :
 :
@@ -6150,7 +6138,6 @@ nativeSetSlotWithType
 JSContext
 *
 cx
-const
 js
 :
 :
@@ -9194,7 +9181,6 @@ gc
 :
 AllocKind
 kind
-const
 Shape
 *
 shape

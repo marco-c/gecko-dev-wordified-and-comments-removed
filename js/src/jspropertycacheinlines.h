@@ -71,7 +71,6 @@ cx
 )
 )
 ;
-const
 Shape
 *
 kshape
@@ -293,7 +292,6 @@ cx
 )
 )
 ;
-const
 Shape
 *
 kshape

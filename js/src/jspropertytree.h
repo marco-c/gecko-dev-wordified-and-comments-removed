@@ -329,7 +329,6 @@ DEBUG
 void
 checkConsistency
 (
-const
 js
 :
 :

@@ -132,7 +132,6 @@ endif
 }
 }
 inline
-const
 js
 :
 :
@@ -166,7 +165,6 @@ asId
 ;
 }
 inline
-const
 js
 :
 :
@@ -203,7 +201,6 @@ name
 ifdef
 DEBUG
 inline
-const
 js
 :
 :
@@ -237,7 +234,6 @@ asId
 ;
 }
 inline
-const
 js
 :
 :
