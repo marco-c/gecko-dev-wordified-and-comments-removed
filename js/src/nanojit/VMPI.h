@@ -68,6 +68,13 @@ stddef
 h
 >
 #
+include
+<
+stdarg
+.
+h
+>
+#
 if
 defined
 (
@@ -191,6 +198,10 @@ strcpy
 define
 VMPI_sprintf
 sprintf
+#
+define
+VMPI_vfprintf
+vfprintf
 #
 define
 VMPI_memset

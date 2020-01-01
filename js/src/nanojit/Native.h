@@ -277,7 +277,7 @@ FP
 )
 #
 ifdef
-MOZ_NO_VARADIC_MACROS
+NJ_NO_VARIADIC_MACROS
 static
 void
 asm_output
