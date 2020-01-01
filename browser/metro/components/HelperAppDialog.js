@@ -435,7 +435,9 @@ obs
 .
 notifyObservers
 (
-null
+aLauncher
+.
+targetFile
 "
 dl
 -
@@ -476,7 +478,9 @@ obs
 .
 notifyObservers
 (
-null
+aLauncher
+.
+targetFile
 "
 dl
 -
@@ -627,7 +631,7 @@ download
 URI_GENERIC_ICON_DOWNLOAD
 notificationBox
 .
-PRIORITY_WARNING_MEDIUM
+PRIORITY_WARNING_HIGH
 buttons
 )
 ;
