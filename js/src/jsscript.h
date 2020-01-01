@@ -1095,6 +1095,11 @@ inlineParents
 :
 1
 ;
+bool
+failedBoundsCheck
+:
+1
+;
 #
 endif
 jsbytecode

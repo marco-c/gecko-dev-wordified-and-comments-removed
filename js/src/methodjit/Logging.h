@@ -85,6 +85,11 @@ SlowCalls
 \
 _
 (
+Analysis
+)
+\
+_
+(
 Regalloc
 )
 \

@@ -1591,6 +1591,10 @@ FastOps
 .
 cpp
 \
+LoopState
+.
+cpp
+\
 StubCompiler
 .
 cpp
