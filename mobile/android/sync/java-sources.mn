@@ -641,6 +641,15 @@ repositories
 /
 android
 /
+CachedSQLiteOpenHelper
+.
+java
+sync
+/
+repositories
+/
+android
+/
 PasswordColumns
 .
 java
