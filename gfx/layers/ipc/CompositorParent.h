@@ -559,6 +559,11 @@ int
 height
 )
 ;
+void
+ForceComposition
+(
+)
+;
 bool
 TransformShadowTree
 (
@@ -758,6 +763,13 @@ mResumeCompositionMonitor
 ;
 uint64_t
 mCompositorID
+;
+bool
+mOverrideComposeReadiness
+;
+CancelableTask
+*
+mForceCompositionTask
 ;
 DISALLOW_EVIL_CONSTRUCTORS
 (

@@ -817,6 +817,14 @@ src
 -
 I
 (
+topsrcdir
+)
+/
+hal
+\
+-
+I
+(
 ANDROID_SOURCE
 )
 /

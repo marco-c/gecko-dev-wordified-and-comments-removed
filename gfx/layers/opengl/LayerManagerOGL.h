@@ -1056,6 +1056,15 @@ aRect
 )
 ;
 void
+UpdateRenderBounds
+(
+const
+nsIntRect
+&
+aRect
+)
+;
+void
 SetSurfaceSize
 (
 int
@@ -1294,6 +1303,9 @@ nsAutoPtr
 FPSState
 >
 mFPS
+;
+nsIntRect
+mRenderBounds
 ;
 #
 ifdef

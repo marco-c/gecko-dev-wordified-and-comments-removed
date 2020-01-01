@@ -156,6 +156,13 @@ namespace
 mozilla
 :
 :
+dom
+;
+using
+namespace
+mozilla
+:
+:
 gfx
 ;
 namespace
@@ -3492,6 +3499,13 @@ GetNaturalBounds
 (
 )
 ROTATION_0
+mWidget
+-
+>
+GetNaturalBounds
+(
+)
+eScreenOrientation_LandscapePrimary
 )
 ;
 nsIntRect
