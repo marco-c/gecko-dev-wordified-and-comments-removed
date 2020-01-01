@@ -510,14 +510,6 @@ file_access_controls
 .
 html
 \
-test_async_abort_events
-.
-html
-\
-test_async_load_source_append
-.
-html
-\
 test_bug448534
 .
 html
@@ -579,10 +571,6 @@ test_onloadedmetadata
 html
 \
 test_load_candidates
-.
-html
-\
-test_load_coalescing
 .
 html
 \
@@ -927,6 +915,10 @@ _TEST_FILES
 =
 \
 test_decoder_disable
+.
+html
+\
+test_load
 .
 html
 \
