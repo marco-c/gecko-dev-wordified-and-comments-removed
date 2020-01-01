@@ -203,6 +203,7 @@ extends
 GLSurfaceView
 implements
 AbstractLayerView
+GeckoEventListener
 {
 private
 Context
@@ -764,7 +765,8 @@ setInputConnectionHandler
 (
 )
 {
-mInputConnectionHandler
+GeckoInputConnection
+geckoInputConnection
 =
 GeckoInputConnection
 .
@@ -773,13 +775,12 @@ create
 this
 )
 ;
-setInputConnectionHandler
-(
 mInputConnectionHandler
-)
+=
+geckoInputConnection
 ;
 return
-mInputConnectionHandler
+geckoInputConnection
 ;
 }
 Override

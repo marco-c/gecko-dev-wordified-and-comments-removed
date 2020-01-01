@@ -125,4 +125,16 @@ getMaxTextureSize
 (
 )
 ;
+public
+void
+clearEventQueue
+(
+)
+;
+public
+void
+processEventQueue
+(
+)
+;
 }

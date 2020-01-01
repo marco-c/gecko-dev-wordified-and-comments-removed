@@ -576,12 +576,6 @@ UTF8
 \
 -
 g
-:
-source
-lines
-\
--
-Werror
 \
 (
 NULL
