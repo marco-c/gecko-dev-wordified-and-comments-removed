@@ -619,6 +619,10 @@ browser_bug557956
 .
 js
 \
+browser_bug616841
+.
+js
+\
 browser_updatessl
 .
 js
