@@ -517,7 +517,9 @@ FINAL_TARGET
 ;
 fi
 ;
-make
+(
+MAKE
+)
 realchrome
 MOZ_CHROME_FILE_FORMAT
 =

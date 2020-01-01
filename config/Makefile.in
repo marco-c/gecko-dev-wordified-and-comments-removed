@@ -1118,7 +1118,9 @@ jar
 mn
 :
 :
-make
+(
+MAKE
+)
 -
 C
 tests
@@ -1129,7 +1131,9 @@ simple
 check
 -
 jar
-make
+(
+MAKE
+)
 -
 C
 tests
@@ -1140,7 +1144,9 @@ simple
 check
 -
 flat
-make
+(
+MAKE
+)
 -
 C
 tests
@@ -1167,7 +1173,9 @@ OS_ARCH
 )
 )
 )
-make
+(
+MAKE
+)
 -
 C
 tests
