@@ -2832,3 +2832,17 @@ p3
 solaris
 .
 patch
+#
+Patch
+to
+fix
+link
+with
+xcode4
+patch
+-
+p1
+<
+xcode4
+.
+patch
