@@ -4202,13 +4202,13 @@ dnl
 Target
 the
 Windows
-Vista
+7
 SDK
 by
 default
 WINSDK_TARGETVER
 =
-600
+601
 MOZ_ARG_WITH_STRING
 (
 windows
