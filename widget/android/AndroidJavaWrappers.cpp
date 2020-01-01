@@ -2766,6 +2766,16 @@ mType
 )
 {
 case
+TILE_SIZE
+:
+ReadP0Field
+(
+jenv
+)
+;
+break
+;
+case
 SIZE_CHANGED
 :
 ReadP0Field
