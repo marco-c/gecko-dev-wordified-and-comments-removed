@@ -3062,7 +3062,6 @@ xul
 dialog
 centerscreen
 modal
-resizable
 titlebar
 "
 this
