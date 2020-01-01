@@ -360,7 +360,7 @@ mLockedForPrivateBrowsing
 =
 true
 ;
-SAMPLER_LOCK
+mozilla_sampler_lock
 (
 )
 ;
@@ -391,7 +391,7 @@ mLockedForPrivateBrowsing
 =
 false
 ;
-SAMPLER_UNLOCK
+mozilla_sampler_unlock
 (
 )
 ;
