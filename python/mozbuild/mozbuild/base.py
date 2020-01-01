@@ -1880,6 +1880,15 @@ sys
 stdout
 .
 encoding
+or
+'
+utf
+-
+8
+'
+'
+replace
+'
 )
             
 if
