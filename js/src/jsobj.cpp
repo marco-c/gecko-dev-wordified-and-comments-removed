@@ -15826,7 +15826,7 @@ setMap
 cx
 -
 >
-compartment
+runtime
 -
 >
 emptyWithShape
@@ -15934,7 +15934,7 @@ setMap
 cx
 -
 >
-compartment
+runtime
 -
 >
 emptyBlockShape
@@ -22845,6 +22845,7 @@ protoHazardShape
 js_GenerateShape
 (
 cx
+false
 )
 ;
 Class
@@ -31463,10 +31464,9 @@ getCompartment
 compartment
 -
 >
-mark
-(
-trc
-)
+marked
+=
+true
 ;
 }
 uint32

@@ -65,7 +65,7 @@ lastBinding
 cx
 -
 >
-compartment
+runtime
 -
 >
 emptyCallShape
@@ -107,7 +107,7 @@ lastBinding
 cx
 -
 >
-compartment
+runtime
 -
 >
 emptyCallShape
@@ -175,7 +175,7 @@ lastBinding
 cx
 -
 >
-compartment
+runtime
 -
 >
 emptyCallShape
