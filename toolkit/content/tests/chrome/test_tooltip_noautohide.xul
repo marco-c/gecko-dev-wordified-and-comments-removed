@@ -412,6 +412,12 @@ hidePopup
 }
 SimpleTest
 .
+waitForExplicitFinish
+(
+)
+;
+SimpleTest
+.
 waitForFocus
 (
 runTests
