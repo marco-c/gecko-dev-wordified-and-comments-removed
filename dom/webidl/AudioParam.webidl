@@ -320,8 +320,6 @@ equal
 to
 startTime
 .
-/
-/
 void
 cancelScheduledValues
 (
