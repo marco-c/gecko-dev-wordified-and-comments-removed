@@ -796,6 +796,12 @@ nsIWidget
 aNewParent
 )
 ;
+QWidget
+*
+GetViewWidget
+(
+)
+;
 protected
 :
 nsCOMPtr
@@ -1255,12 +1261,6 @@ parent
 nsWidgetInitData
 *
 aInitData
-)
-;
-QWidget
-*
-GetViewWidget
-(
 )
 ;
 PRBool
