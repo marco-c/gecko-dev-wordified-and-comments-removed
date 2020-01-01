@@ -615,6 +615,9 @@ RemoveNextEvent
 (
 )
 ;
+delete
+nextEvent
+;
 #
 if
 defined
