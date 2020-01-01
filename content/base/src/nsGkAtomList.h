@@ -12719,6 +12719,13 @@ CanvasFrame
 )
 GK_ATOM
 (
+rangeFrame
+"
+RangeFrame
+"
+)
+GK_ATOM
+(
 rootFrame
 "
 RootFrame
