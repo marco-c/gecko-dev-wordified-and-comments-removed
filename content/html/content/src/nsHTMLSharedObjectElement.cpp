@@ -1669,10 +1669,6 @@ FindAttributeDependence
 (
 aAttribute
 map
-ArrayLength
-(
-map
-)
 )
 ;
 }
