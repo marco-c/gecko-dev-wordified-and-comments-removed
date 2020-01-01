@@ -17249,11 +17249,12 @@ JSObject
 objp
 )
 {
-cx
--
->
-addTypePropertyId
+types
+:
+:
+AddTypePropertyId
 (
+cx
 obj
 -
 >

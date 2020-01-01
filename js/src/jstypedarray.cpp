@@ -7715,11 +7715,9 @@ return
 NULL
 ;
 \
-cx
--
->
-addTypePropertyId
+AddTypePropertyId
 (
+cx
 proto
 -
 >
@@ -7744,11 +7742,9 @@ ArrayElementTypeMayBeDouble
 )
 )
 \
-cx
--
->
-addTypePropertyId
+AddTypePropertyId
 (
+cx
 proto
 -
 >

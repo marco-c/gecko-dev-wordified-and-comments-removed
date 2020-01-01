@@ -6740,11 +6740,9 @@ construct
 ;
 }
 }
-cx
--
->
-markTypeObjectUnknownProperties
+MarkTypeObjectUnknownProperties
 (
+cx
 obj
 -
 >
