@@ -789,10 +789,10 @@ str
 struct
 JSTokenPtr
 {
-uint16
+uint32
 index
 ;
-uint16
+uint32
 lineno
 ;
 bool
@@ -1193,10 +1193,10 @@ ungetbuf
 uintN
 flags
 ;
-ptrdiff_t
+uint32
 linelen
 ;
-ptrdiff_t
+uint32
 linepos
 ;
 JSTokenBuf
