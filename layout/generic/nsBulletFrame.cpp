@@ -950,7 +950,7 @@ bottom
 nsLayoutUtils
 :
 :
-DrawImage
+DrawSingleImage
 (
 &
 aRenderingContext
