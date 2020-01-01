@@ -2003,6 +2003,10 @@ const
 nsString
 &
 aAction
+const
+PRUint32
+&
+aReason
 )
 {
 nsCOMPtr
@@ -2055,6 +2059,12 @@ Assign
 (
 aAction
 )
+;
+context
+.
+mReason
+=
+aReason
 ;
 widget
 -

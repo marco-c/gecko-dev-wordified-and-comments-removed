@@ -1193,6 +1193,8 @@ nsString
 type
 nsString
 actionHint
+PRUint32
+reason
 )
 ;
 sync

@@ -187,6 +187,14 @@ aContent
 )
 ;
 static
+PRUint32
+GetFocusMoveReason
+(
+PRUint32
+aFlags
+)
+;
+static
 PRBool
 sMouseFocusesFormControl
 ;

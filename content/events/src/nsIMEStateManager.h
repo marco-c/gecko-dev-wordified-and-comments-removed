@@ -65,6 +65,8 @@ aPresContext
 nsIContent
 *
 aContent
+PRUint32
+aReason
 )
 ;
 static
@@ -138,6 +140,8 @@ aContent
 nsIWidget
 *
 aWidget
+PRUint32
+aReason
 )
 ;
 static

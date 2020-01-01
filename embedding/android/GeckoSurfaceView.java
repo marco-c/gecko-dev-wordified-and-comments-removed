@@ -2999,6 +2999,14 @@ IME_STATE_PASSWORD
 =
 2
 ;
+public
+static
+final
+int
+IME_STATE_PLUGIN
+=
+3
+;
 GeckoInputConnection
 inputConnection
 ;
