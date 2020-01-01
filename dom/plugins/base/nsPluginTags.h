@@ -250,6 +250,16 @@ Flags
 )
 ;
 bool
+HasSameNameAndMimes
+(
+const
+nsPluginTag
+*
+aPluginTag
+)
+const
+;
+bool
 IsEnabled
 (
 )
