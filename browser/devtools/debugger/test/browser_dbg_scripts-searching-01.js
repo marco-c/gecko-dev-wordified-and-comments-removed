@@ -53,6 +53,11 @@ framesAdded
 =
 false
 ;
+requestLongerTimeout
+(
+2
+)
+;
 debug_tab_pane
 (
 STACK_URL
