@@ -217,6 +217,14 @@ data
 nbytes
 )
 ;
+SkipRoot
+skip
+(
+cx
+&
+in
+)
+;
 JSStructuredCloneReader
 r
 (

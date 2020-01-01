@@ -17786,12 +17786,9 @@ entry
 ;
 if
 (
-!
 obj
 )
-return
-NULL
-;
+{
 obj
 -
 >
@@ -17827,6 +17824,7 @@ NULL
 return
 obj
 ;
+}
 }
 Rooted
 <

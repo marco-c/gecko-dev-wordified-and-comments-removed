@@ -825,8 +825,7 @@ LexicalLookup
 ContextT
 *
 ct
-JSAtom
-*
+HandleAtom
 atom
 int
 *

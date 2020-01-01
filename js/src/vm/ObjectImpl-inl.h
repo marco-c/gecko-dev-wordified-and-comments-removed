@@ -197,9 +197,6 @@ name
 )
 ;
 }
-#
-ifdef
-DEBUG
 inline
 js
 :
@@ -214,9 +211,6 @@ ObjectImpl
 :
 nativeLookupNoAllocation
 (
-JSContext
-*
-cx
 PropertyId
 pid
 )
@@ -224,7 +218,6 @@ pid
 return
 nativeLookupNoAllocation
 (
-cx
 pid
 .
 asId
@@ -247,9 +240,6 @@ ObjectImpl
 :
 nativeLookupNoAllocation
 (
-JSContext
-*
-cx
 PropertyName
 *
 name
@@ -258,7 +248,6 @@ name
 return
 nativeLookupNoAllocation
 (
-cx
 PropertyId
 (
 name
@@ -266,8 +255,6 @@ name
 )
 ;
 }
-#
-endif
 inline
 bool
 js

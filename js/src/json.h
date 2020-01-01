@@ -58,8 +58,7 @@ cx
 js
 :
 :
-Value
-*
+MutableHandleValue
 vp
 JSObject
 *

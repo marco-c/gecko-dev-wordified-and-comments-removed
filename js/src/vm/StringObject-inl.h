@@ -159,7 +159,6 @@ self
 >
 nativeLookupNoAllocation
 (
-cx
 NameToId
 (
 cx

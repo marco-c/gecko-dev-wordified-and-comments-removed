@@ -59,6 +59,12 @@ PropertyName
 name
 )
 {
+AssertRootingUnnecessary
+assert
+(
+cx
+)
+;
 JS_ASSERT
 (
 this

@@ -1485,7 +1485,6 @@ obj
 >
 nativeLookupNoAllocation
 (
-cx
 shape
 -
 >
@@ -1508,7 +1507,6 @@ obj2
 >
 nativeLookupNoAllocation
 (
-cx
 shape
 -
 >
@@ -2138,8 +2136,7 @@ JSContext
 cx
 HandleObject
 varobj
-PropertyName
-*
+HandlePropertyName
 dn
 unsigned
 attrs

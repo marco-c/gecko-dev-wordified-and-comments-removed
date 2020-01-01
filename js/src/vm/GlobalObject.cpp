@@ -461,12 +461,13 @@ script
 |
 |
 !
-script
--
->
+JSScript
+:
+:
 fullyInitTrivial
 (
 cx
+script
 )
 )
 return

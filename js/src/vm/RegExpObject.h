@@ -1257,16 +1257,6 @@ inline
 void
 setLastIndex
 (
-const
-Value
-&
-v
-)
-;
-inline
-void
-setLastIndex
-(
 double
 d
 )

@@ -1066,6 +1066,15 @@ ATOM
 (
 name
 )
+js
+:
+:
+HandlePropertyName
+:
+:
+fromMarkedLocation
+(
+&
 cx
 -
 >
@@ -1078,6 +1087,7 @@ name
 #
 #
 Atom
+)
 #
 define
 COMMON_ATOM_INDEX
