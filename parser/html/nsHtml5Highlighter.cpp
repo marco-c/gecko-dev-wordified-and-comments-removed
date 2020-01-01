@@ -1098,7 +1098,7 @@ aState
 case
 NS_HTML5TOKENIZER_BEFORE_ATTRIBUTE_NAME
 :
-EndInline
+EndSpanOrA
 (
 )
 ;
@@ -1107,7 +1107,7 @@ break
 case
 NS_HTML5TOKENIZER_SELF_CLOSING_START_TAG
 :
-EndInline
+EndSpanOrA
 (
 )
 ;
@@ -1192,7 +1192,7 @@ NS_HTML5TOKENIZER_AFTER_ATTRIBUTE_NAME
 case
 NS_HTML5TOKENIZER_BEFORE_ATTRIBUTE_VALUE
 :
-EndInline
+EndSpanOrA
 (
 )
 ;
@@ -1201,7 +1201,7 @@ break
 case
 NS_HTML5TOKENIZER_SELF_CLOSING_START_TAG
 :
-EndInline
+EndSpanOrA
 (
 )
 ;
@@ -1286,7 +1286,7 @@ aState
 case
 NS_HTML5TOKENIZER_AFTER_ATTRIBUTE_VALUE_QUOTED
 :
-EndInline
+EndSpanOrA
 (
 )
 ;
@@ -1369,7 +1369,7 @@ break
 case
 NS_HTML5TOKENIZER_SELF_CLOSING_START_TAG
 :
-EndInline
+EndSpanOrA
 (
 )
 ;
@@ -1405,7 +1405,7 @@ aState
 case
 NS_HTML5TOKENIZER_BEFORE_ATTRIBUTE_NAME
 :
-EndInline
+EndSpanOrA
 (
 )
 ;
@@ -1551,7 +1551,7 @@ break
 case
 NS_HTML5TOKENIZER_CONSUME_CHARACTER_REFERENCE
 :
-EndInline
+EndSpanOrA
 (
 )
 ;
@@ -1570,7 +1570,7 @@ break
 ;
 default
 :
-EndInline
+EndSpanOrA
 (
 )
 ;
@@ -1593,7 +1593,7 @@ NS_HTML5TOKENIZER_CHARACTER_REFERENCE_TAIL
 break
 ;
 }
-EndInline
+EndSpanOrA
 (
 )
 ;
@@ -1613,7 +1613,7 @@ FlushCurrent
 )
 ;
 }
-EndInline
+EndSpanOrA
 (
 )
 ;
@@ -1655,7 +1655,7 @@ sEntity
 break
 ;
 }
-EndInline
+EndSpanOrA
 (
 )
 ;
@@ -1713,7 +1713,7 @@ StartSpan
 break
 ;
 }
-EndInline
+EndSpanOrA
 (
 )
 ;
@@ -1739,7 +1739,7 @@ AddClass
 sEndTag
 )
 ;
-EndInline
+EndSpanOrA
 (
 )
 ;
@@ -1753,7 +1753,7 @@ AddClass
 sEndTag
 )
 ;
-EndInline
+EndSpanOrA
 (
 )
 ;
@@ -2211,7 +2211,7 @@ void
 nsHtml5Highlighter
 :
 :
-EndInline
+EndSpanOrA
 (
 )
 {
@@ -2350,7 +2350,7 @@ mInlinesOpen
 1
 )
 {
-EndInline
+EndSpanOrA
 (
 )
 ;
@@ -2359,7 +2359,7 @@ FlushCurrent
 (
 )
 ;
-EndInline
+EndSpanOrA
 (
 )
 ;

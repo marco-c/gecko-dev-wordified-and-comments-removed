@@ -204,7 +204,7 @@ aClass
 )
 ;
 void
-EndInline
+EndSpanOrA
 (
 )
 ;

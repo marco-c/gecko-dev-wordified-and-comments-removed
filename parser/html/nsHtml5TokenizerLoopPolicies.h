@@ -10,7 +10,7 @@ nsHtml5SilentPolicy
 static
 const
 bool
-viewingSource
+reportErrors
 =
 false
 ;
@@ -51,7 +51,7 @@ nsHtml5ViewSourcePolicy
 static
 const
 bool
-viewingSource
+reportErrors
 =
 true
 ;
