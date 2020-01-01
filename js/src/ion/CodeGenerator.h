@@ -969,6 +969,14 @@ lir
 )
 ;
 bool
+visitGuardObject
+(
+LGuardObject
+*
+lir
+)
+;
+bool
 visitCheckOverRecursed
 (
 LCheckOverRecursed
