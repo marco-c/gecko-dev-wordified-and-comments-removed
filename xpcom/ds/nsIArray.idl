@@ -885,7 +885,7 @@ array
 .
 *
 throws
-NS_ERROR_NOT_FOUND
+NS_ERROR_FAILURE
 if
 the
 element
@@ -948,6 +948,13 @@ to
 detect
 errors
 )
+or
+NS_ERROR_OUT_OF_MEMORY
+if
+out
+of
+memory
+.
 *
 /
 nsISimpleEnumerator
