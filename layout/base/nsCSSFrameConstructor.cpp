@@ -26004,6 +26004,7 @@ listBoxBodyFrame
 OnContentRemoved
 (
 aPresContext
+aContainer
 aChildFrame
 aIndexInContainer
 )
