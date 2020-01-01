@@ -1665,7 +1665,7 @@ aRegionToPaint
 aInvalidRegion
 ;
 bool
-forceProgressive
+drawingLowPrecision
 =
 aTiledBuffer
 .
@@ -1727,6 +1727,8 @@ IsEmpty
 viewport
 scaleX
 scaleY
+!
+drawingLowPrecision
 )
 )
 {
@@ -2061,7 +2063,7 @@ aInvalidRegion
 if
 (
 !
-forceProgressive
+drawingLowPrecision
 &
 &
 paintVisible

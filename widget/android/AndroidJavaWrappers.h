@@ -1071,6 +1071,8 @@ Rect
 aDisplayPort
 float
 aDisplayResolution
+bool
+aDrawingCritical
 gfx
 :
 :

@@ -1132,6 +1132,8 @@ aScaleX
 float
 &
 aScaleY
+bool
+aDrawingCritical
 )
 ;
 private
