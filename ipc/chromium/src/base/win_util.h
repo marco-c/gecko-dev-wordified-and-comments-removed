@@ -108,15 +108,6 @@ user_sid
 )
 ;
 bool
-GetLogonSessionOnlyDACL
-(
-SECURITY_DESCRIPTOR
-*
-*
-security_descriptor
-)
-;
-bool
 IsShiftPressed
 (
 )
