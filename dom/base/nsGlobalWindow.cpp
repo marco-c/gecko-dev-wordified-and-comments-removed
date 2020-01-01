@@ -865,7 +865,7 @@ h
 #
 include
 "
-nsFileDataProtocolHandler
+nsBlobProtocolHandler
 .
 h
 "
@@ -2930,7 +2930,7 @@ nsIPrincipal
 *
 principal
 =
-nsFileDataProtocolHandler
+nsBlobProtocolHandler
 :
 :
 GetFileDataEntryPrincipal
@@ -2986,7 +2986,7 @@ asciiurl
 )
 ;
 }
-nsFileDataProtocolHandler
+nsBlobProtocolHandler
 :
 :
 RemoveFileDataEntry

@@ -880,6 +880,10 @@ file_bug645998
 .
 css
 \
+test_bug716226
+.
+html
+\
 test_cascade
 .
 html
