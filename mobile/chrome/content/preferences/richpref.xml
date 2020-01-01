@@ -1029,6 +1029,13 @@ anonid
 "
 input
 "
+xbl
+:
+inherits
+=
+"
+disabled
+"
 oncommand
 =
 "
@@ -1300,6 +1307,13 @@ anonid
 =
 "
 input
+"
+xbl
+:
+inherits
+=
+"
+disabled
 "
 oncommand
 =
@@ -1897,6 +1911,7 @@ xbl
 inherits
 =
 "
+disabled
 type
 =
 inputtype

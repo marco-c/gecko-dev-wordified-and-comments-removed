@@ -547,6 +547,13 @@ anonid
 "
 group
 "
+xbl
+:
+inherits
+=
+"
+disabled
+"
 >
 <
 xul
