@@ -557,6 +557,8 @@ libEGL
 libs
 :
 :
+ifdef
+MOZ_D3DX9_CAB
 expand
 "
 (
@@ -576,6 +578,9 @@ DIST
 /
 bin
 "
+endif
+ifdef
+MOZ_D3DCOMPILER_CAB
 expand
 "
 (
@@ -595,6 +600,7 @@ DIST
 /
 bin
 "
+endif
 endif
 include
 (
