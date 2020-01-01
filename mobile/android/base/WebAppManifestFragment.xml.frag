@@ -86,9 +86,7 @@ style
 /
 Gecko
 .
-Translucent
-.
-NoActionBar
+App
 "
 >
 <
