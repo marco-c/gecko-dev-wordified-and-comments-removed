@@ -52,7 +52,7 @@ debuggerSocketConnect
 LongStringClient
 "
 "
-GripClient
+ObjectClient
 "
 ]
 ;
@@ -5349,7 +5349,7 @@ let
 client
 =
 new
-GripClient
+ObjectClient
 (
 this
 .
@@ -5473,7 +5473,7 @@ _threadGrips
 )
 ;
 }
-_clearGripClients
+_clearObjectClients
 :
 function
 TC_clearGrips
@@ -5518,7 +5518,7 @@ TC_clearPauseGrips
 {
 this
 .
-_clearGripClients
+_clearObjectClients
 (
 "
 _pauseGrips
@@ -5535,7 +5535,7 @@ TC_clearPauseGrips
 {
 this
 .
-_clearGripClients
+_clearObjectClients
 (
 "
 _threadGrips
@@ -6038,7 +6038,7 @@ prototype
 )
 ;
 function
-GripClient
+ObjectClient
 (
 aClient
 aGrip
@@ -6067,7 +6067,7 @@ _client
 request
 ;
 }
-GripClient
+ObjectClient
 .
 prototype
 =

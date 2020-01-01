@@ -344,7 +344,7 @@ defineLazyModuleGetter
 (
 this
 "
-GripClient
+ObjectClient
 "
 "
 resource
@@ -1884,10 +1884,10 @@ reject
 else
 {
 let
-gripClient
+objectClient
 =
 new
-GripClient
+ObjectClient
 (
 this
 .
@@ -1895,7 +1895,7 @@ debuggerClient
 aResult
 )
 ;
-gripClient
+objectClient
 .
 getDisplayString
 (
@@ -2261,10 +2261,10 @@ aReason
 )
 ;
 let
-gripClient
+objectClient
 =
 new
-GripClient
+ObjectClient
 (
 this
 .
@@ -2310,7 +2310,7 @@ defer
 (
 )
 ;
-gripClient
+objectClient
 .
 getProperty
 (
@@ -2374,7 +2374,7 @@ defer
 (
 )
 ;
-gripClient
+objectClient
 .
 getPrototypeAndProperties
 (
@@ -2678,7 +2678,7 @@ stack
 }
 else
 {
-gripClient
+objectClient
 .
 getDisplayString
 (
@@ -7025,7 +7025,7 @@ this
 .
 variablesView
 {
-getGripClient
+getObjectClient
 :
 aGrip
 =
@@ -7033,7 +7033,7 @@ aGrip
 {
 return
 new
-GripClient
+ObjectClient
 (
 this
 .
