@@ -766,6 +766,14 @@ test_bug430392
 .
 html
 \
+bug441930_iframe
+.
+html
+\
+test_bug441930
+.
+html
+\
 (
 NULL
 )
