@@ -15130,6 +15130,11 @@ JSAtom
 *
 atom
 ;
+CHECK_REQUEST
+(
+cx
+)
+;
 atom
 =
 js_Atomize
@@ -16128,6 +16133,11 @@ foundp
 JSAtom
 *
 atom
+;
+CHECK_REQUEST
+(
+cx
+)
 ;
 atom
 =
