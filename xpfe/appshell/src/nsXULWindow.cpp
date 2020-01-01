@@ -3101,6 +3101,11 @@ parentWidget
 NS_ERROR_FAILURE
 )
 ;
+if
+(
+parentWidget
+)
+{
 *
 aParentNativeWindow
 =
@@ -3112,6 +3117,7 @@ GetNativeData
 NS_NATIVE_WIDGET
 )
 ;
+}
 return
 NS_OK
 ;
