@@ -454,6 +454,11 @@ ConvertElementsToDoubles
 \
 _
 (
+MaybeToDoubleElement
+)
+\
+_
+(
 LoadSlot
 )
 \
