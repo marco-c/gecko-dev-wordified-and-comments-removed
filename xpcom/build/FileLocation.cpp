@@ -615,10 +615,6 @@ PR_RDONLY
 data
 .
 mFd
-.
-rwget
-(
-)
 )
 ;
 }
