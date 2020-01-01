@@ -420,7 +420,7 @@ i
 branchPtr
 (
 Equal
-obj
+scratch
 ImmGCPtr
 (
 object
