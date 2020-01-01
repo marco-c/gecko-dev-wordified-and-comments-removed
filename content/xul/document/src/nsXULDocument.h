@@ -974,12 +974,6 @@ mTemplateBuilderTable
 PRUint32
 mPendingSheets
 ;
-nsCOMPtr
-<
-nsIDOMNode
->
-mTooltipNode
-;
 DocumentTheme
 mDocLWTheme
 ;
