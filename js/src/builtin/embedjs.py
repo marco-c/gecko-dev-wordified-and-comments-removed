@@ -270,7 +270,7 @@ argv
 combined_file
 =
 '
-combined
+selfhosted
 .
 js
 '
@@ -314,13 +314,6 @@ DEBUG
 :
 debug
 }
-)
-    
-os
-.
-remove
-(
-combined_file
 )
 if
 __name__
