@@ -1516,6 +1516,10 @@ test_checked
 .
 html
 \
+test_bug677658
+.
+html
+\
 (
 NULL
 )
