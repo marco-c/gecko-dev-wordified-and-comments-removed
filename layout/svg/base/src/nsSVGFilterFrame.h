@@ -74,7 +74,7 @@ nsISVGChildFrame
 *
 aTarget
 const
-nsRect
+nsIntRect
 *
 aDirtyRect
 )
@@ -108,11 +108,11 @@ nsISVGChildFrame
 *
 aTarget
 const
-nsRect
+nsIntRect
 *
 aDirtyOutputRect
 const
-nsRect
+nsIntRect
 *
 aDirtyInputRect
 nsSVGFilterInstance
