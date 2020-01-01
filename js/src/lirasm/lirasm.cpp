@@ -651,7 +651,7 @@ ARGTYPE_P
 ;
 const
 ArgType
-VOID
+VD
 =
 nanojit
 :
@@ -1791,7 +1791,7 @@ PTR
 |
 retMask
 (
-VOID
+VD
 )
 )
 }
