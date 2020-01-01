@@ -7907,6 +7907,9 @@ SpeculativelyParse
 (
 )
 {
+#
+if
+0
 if
 (
 mParserContext
@@ -7984,6 +7987,8 @@ mSpeculativeScriptThread
 nsnull
 ;
 }
+#
+endif
 }
 void
 nsParser
