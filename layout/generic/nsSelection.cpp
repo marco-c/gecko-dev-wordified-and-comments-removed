@@ -10418,8 +10418,10 @@ i
 +
 )
 {
+nsCOMPtr
+<
 nsIRange
-*
+>
 range
 =
 mDomSelections
@@ -10775,8 +10777,10 @@ index
 return
 NS_ERROR_NULL_POINTER
 ;
+nsCOMPtr
+<
 nsIRange
-*
+>
 range
 =
 GetFirstCellRange
