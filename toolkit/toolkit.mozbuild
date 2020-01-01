@@ -1247,6 +1247,17 @@ testing
 marionette
 '
 )
+add_tier_dir
+(
+'
+platform
+'
+'
+tools
+/
+quitter
+'
+)
 if
 CONFIG
 [
