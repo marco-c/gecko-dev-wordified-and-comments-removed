@@ -134,6 +134,10 @@ browser_bug731866
 .
 js
 \
+browser_connection
+.
+js
+\
 privacypane_tests
 .
 js
