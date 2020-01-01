@@ -593,6 +593,12 @@ aOffset
 nullptr
 )
 ;
+nsIWidget
+*
+GetRootWidget
+(
+)
+;
 nsRootPresContext
 *
 GetRootPresContext

@@ -436,7 +436,7 @@ mWidget
 mPresContext
 -
 >
-GetNearestWidget
+GetRootWidget
 (
 )
 ;
