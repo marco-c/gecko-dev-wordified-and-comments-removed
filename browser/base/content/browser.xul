@@ -4446,11 +4446,6 @@ locale
 dir
 ;
 "
-newlines
-=
-"
-replacewithspaces
-"
 /
 >
 <
