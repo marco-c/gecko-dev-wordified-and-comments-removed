@@ -161,3 +161,6 @@ MODULE
 '
 necko
 '
+FAIL_ON_WARNINGS
+=
+True

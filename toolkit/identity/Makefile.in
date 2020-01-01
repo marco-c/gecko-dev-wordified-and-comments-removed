@@ -75,10 +75,6 @@ config
 autoconf
 .
 mk
-FAIL_ON_WARNINGS
-:
-=
-1
 LIBXUL_LIBRARY
 =
 1

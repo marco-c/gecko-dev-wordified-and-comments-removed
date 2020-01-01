@@ -172,3 +172,6 @@ LIBRARY_NAME
 '
 mozgnome
 '
+FAIL_ON_WARNINGS
+=
+True

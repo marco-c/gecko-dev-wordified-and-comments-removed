@@ -181,3 +181,6 @@ LIBRARY_NAME
 '
 inspector_s
 '
+FAIL_ON_WARNINGS
+=
+True

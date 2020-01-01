@@ -1262,3 +1262,6 @@ nsSVGViewBox
 cpp
 '
 ]
+FAIL_ON_WARNINGS
+=
+True

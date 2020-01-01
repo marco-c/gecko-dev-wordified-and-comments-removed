@@ -181,3 +181,6 @@ sctp_unittest
 cpp
 '
 ]
+FAIL_ON_WARNINGS
+=
+True

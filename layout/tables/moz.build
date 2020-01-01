@@ -186,3 +186,6 @@ LIBRARY_NAME
 '
 gktable_s
 '
+FAIL_ON_WARNINGS
+=
+True

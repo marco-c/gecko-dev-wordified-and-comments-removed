@@ -113,3 +113,6 @@ LIBRARY_NAME
 '
 imglib2
 '
+FAIL_ON_WARNINGS
+=
+True

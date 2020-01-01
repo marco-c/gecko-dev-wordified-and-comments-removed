@@ -151,3 +151,6 @@ LIBRARY_NAME
 '
 gkconxuldoc_s
 '
+FAIL_ON_WARNINGS
+=
+True

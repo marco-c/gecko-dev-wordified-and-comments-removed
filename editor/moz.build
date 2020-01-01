@@ -131,3 +131,6 @@ AsyncSpellCheckTestHelper
 jsm
 '
 ]
+FAIL_ON_WARNINGS
+=
+True

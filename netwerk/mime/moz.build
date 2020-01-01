@@ -143,3 +143,6 @@ LIBRARY_NAME
 '
 nkmime_s
 '
+FAIL_ON_WARNINGS
+=
+True

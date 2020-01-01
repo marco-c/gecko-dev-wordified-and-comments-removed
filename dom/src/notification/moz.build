@@ -132,3 +132,6 @@ Notification
 cpp
 '
 ]
+FAIL_ON_WARNINGS
+=
+True

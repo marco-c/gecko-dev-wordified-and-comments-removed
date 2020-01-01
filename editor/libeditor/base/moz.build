@@ -226,3 +226,6 @@ LIBRARY_NAME
 '
 editorbase_s
 '
+FAIL_ON_WARNINGS
+=
+True

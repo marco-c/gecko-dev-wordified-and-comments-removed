@@ -157,3 +157,6 @@ LIBRARY_NAME
 '
 gkconxmlcon_s
 '
+FAIL_ON_WARNINGS
+=
+True

@@ -469,3 +469,6 @@ SmsTypes
 ipdlh
 '
 ]
+FAIL_ON_WARNINGS
+=
+True

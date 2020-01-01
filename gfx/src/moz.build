@@ -318,3 +318,6 @@ LIBRARY_NAME
 '
 gkgfx
 '
+FAIL_ON_WARNINGS
+=
+True

@@ -131,3 +131,6 @@ LIBRARY_NAME
 '
 jsurl_s
 '
+FAIL_ON_WARNINGS
+=
+True

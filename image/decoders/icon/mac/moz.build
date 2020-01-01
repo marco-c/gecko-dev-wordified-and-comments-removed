@@ -113,3 +113,6 @@ nsIconChannelCocoa
 mm
 '
 ]
+FAIL_ON_WARNINGS
+=
+True

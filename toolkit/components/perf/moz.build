@@ -123,3 +123,6 @@ PerfMeasurement
 jsm
 '
 ]
+FAIL_ON_WARNINGS
+=
+True

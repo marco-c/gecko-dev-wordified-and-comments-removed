@@ -133,3 +133,6 @@ LIBRARY_NAME
 '
 txmgr
 '
+FAIL_ON_WARNINGS
+=
+True

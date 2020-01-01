@@ -113,3 +113,6 @@ LIBRARY_NAME
 '
 nkgio
 '
+FAIL_ON_WARNINGS
+=
+True

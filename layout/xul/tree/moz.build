@@ -203,3 +203,6 @@ LIBRARY_NAME
 '
 gkxultree_s
 '
+FAIL_ON_WARNINGS
+=
+True

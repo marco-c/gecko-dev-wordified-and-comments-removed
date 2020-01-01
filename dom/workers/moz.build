@@ -335,3 +335,6 @@ LIBRARY_NAME
 '
 domworkers_s
 '
+FAIL_ON_WARNINGS
+=
+True

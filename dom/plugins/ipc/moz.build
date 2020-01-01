@@ -547,3 +547,6 @@ PStreamNotify
 ipdl
 '
 ]
+FAIL_ON_WARNINGS
+=
+True

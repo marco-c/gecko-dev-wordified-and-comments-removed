@@ -161,3 +161,6 @@ LIBRARY_NAME
 '
 tkautocomplete
 '
+FAIL_ON_WARNINGS
+=
+True

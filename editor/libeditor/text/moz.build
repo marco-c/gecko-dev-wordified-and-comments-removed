@@ -146,3 +146,6 @@ LIBRARY_NAME
 '
 texteditor_s
 '
+FAIL_ON_WARNINGS
+=
+True

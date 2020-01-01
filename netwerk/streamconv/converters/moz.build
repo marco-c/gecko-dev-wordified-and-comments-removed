@@ -205,3 +205,6 @@ LIBRARY_NAME
 '
 nkcnvts_s
 '
+FAIL_ON_WARNINGS
+=
+True

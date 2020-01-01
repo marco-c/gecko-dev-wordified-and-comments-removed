@@ -153,3 +153,6 @@ LIBRARY_NAME
 '
 gkconogg_s
 '
+FAIL_ON_WARNINGS
+=
+True

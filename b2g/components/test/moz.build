@@ -110,3 +110,6 @@ xpcshell
 ini
 '
 ]
+FAIL_ON_WARNINGS
+=
+True

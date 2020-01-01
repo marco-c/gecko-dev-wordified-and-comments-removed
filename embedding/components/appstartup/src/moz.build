@@ -123,3 +123,6 @@ LIBRARY_NAME
 '
 appstartupnotifier_s
 '
+FAIL_ON_WARNINGS
+=
+True

@@ -68,10 +68,6 @@ relativesrcdir
 VPATH
 =
 srcdir
-FAIL_ON_WARNINGS
-:
-=
-1
 include
 (
 DEPTH

@@ -201,3 +201,6 @@ PIndexedDBTransaction
 ipdl
 '
 ]
+FAIL_ON_WARNINGS
+=
+True

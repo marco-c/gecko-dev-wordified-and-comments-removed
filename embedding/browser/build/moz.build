@@ -113,3 +113,6 @@ LIBRARY_NAME
 '
 webbrwsr
 '
+FAIL_ON_WARNINGS
+=
+True

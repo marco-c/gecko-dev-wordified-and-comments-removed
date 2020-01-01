@@ -144,3 +144,6 @@ services
 -
 crypto
 '
+FAIL_ON_WARNINGS
+=
+True

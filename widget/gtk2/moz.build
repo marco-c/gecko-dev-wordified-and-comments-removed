@@ -297,3 +297,6 @@ nsDragService
 cpp
 '
 ]
+FAIL_ON_WARNINGS
+=
+True

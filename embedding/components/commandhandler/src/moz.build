@@ -133,3 +133,6 @@ LIBRARY_NAME
 '
 commandhandler_s
 '
+FAIL_ON_WARNINGS
+=
+True

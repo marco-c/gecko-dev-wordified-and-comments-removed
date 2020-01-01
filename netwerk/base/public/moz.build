@@ -711,3 +711,6 @@ nsURIHashKey
 h
 '
 ]
+FAIL_ON_WARNINGS
+=
+True
