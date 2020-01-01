@@ -12788,7 +12788,10 @@ obj
 MDefinition
 *
 id
-int
+ScalarTypeRepresentation
+:
+:
+Type
 *
 arrayType
 )
@@ -12857,6 +12860,12 @@ false
 *
 arrayType
 =
+(
+ScalarTypeRepresentation
+:
+:
+Type
+)
 types
 -
 >
@@ -12869,7 +12878,7 @@ return
 arrayType
 !
 =
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_MAX

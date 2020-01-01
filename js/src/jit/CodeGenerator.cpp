@@ -39853,7 +39853,7 @@ if
 arrayType
 =
 =
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_FLOAT32
@@ -39862,7 +39862,7 @@ TYPE_FLOAT32
 arrayType
 =
 =
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_FLOAT64

@@ -19417,7 +19417,10 @@ MLoadTypedArrayElement
 public
 MBinaryInstruction
 {
-int
+ScalarTypeRepresentation
+:
+:
+Type
 arrayType_
 ;
 MLoadTypedArrayElement
@@ -19428,7 +19431,10 @@ elements
 MDefinition
 *
 index
-int
+ScalarTypeRepresentation
+:
+:
+Type
 arrayType
 )
 :
@@ -19487,7 +19493,7 @@ arrayType
 &
 arrayType
 <
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_MAX
@@ -19511,7 +19517,10 @@ elements
 MDefinition
 *
 index
-int
+ScalarTypeRepresentation
+:
+:
+Type
 arrayType
 )
 {
@@ -19525,7 +19534,10 @@ arrayType
 )
 ;
 }
-int
+ScalarTypeRepresentation
+:
+:
+Type
 arrayType
 (
 )
@@ -19545,7 +19557,7 @@ return
 arrayType_
 =
 =
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_UINT32
@@ -19687,7 +19699,7 @@ arrayType
 &
 arrayType
 <
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_MAX
@@ -19758,7 +19770,7 @@ return
 arrayType_
 =
 =
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_UINT32
@@ -19876,7 +19888,7 @@ if
 type
 =
 =
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_FLOAT32
@@ -19885,7 +19897,7 @@ TYPE_FLOAT32
 type
 =
 =
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_FLOAT64
@@ -20129,7 +20141,7 @@ arrayType
 &
 arrayType
 <
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_MAX
@@ -20192,7 +20204,7 @@ return
 arrayType_
 =
 =
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_INT8
@@ -20201,7 +20213,7 @@ TYPE_INT8
 arrayType_
 =
 =
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_UINT8
@@ -20210,7 +20222,7 @@ TYPE_UINT8
 arrayType_
 =
 =
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_UINT8_CLAMPED
@@ -20228,7 +20240,7 @@ return
 arrayType_
 =
 =
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_FLOAT32
@@ -20237,7 +20249,7 @@ TYPE_FLOAT32
 arrayType_
 =
 =
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_FLOAT64
@@ -20465,7 +20477,7 @@ arrayType
 &
 arrayType
 <
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_MAX
@@ -20532,7 +20544,7 @@ return
 arrayType_
 =
 =
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_INT8
@@ -20541,7 +20553,7 @@ TYPE_INT8
 arrayType_
 =
 =
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_UINT8
@@ -20550,7 +20562,7 @@ TYPE_UINT8
 arrayType_
 =
 =
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_UINT8_CLAMPED
@@ -20568,7 +20580,7 @@ return
 arrayType_
 =
 =
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_FLOAT32
@@ -20577,7 +20589,7 @@ TYPE_FLOAT32
 arrayType_
 =
 =
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_FLOAT64
@@ -32187,7 +32199,10 @@ obj
 MDefinition
 *
 id
-int
+ScalarTypeRepresentation
+:
+:
+Type
 *
 arrayType
 )

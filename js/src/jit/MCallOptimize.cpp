@@ -5950,7 +5950,10 @@ getArg
 elemi
 )
 ;
-int
+ScalarTypeRepresentation
+:
+:
+Type
 arrayType
 ;
 if
@@ -6106,7 +6109,10 @@ InliningStatus_Error
 continue
 ;
 }
-int
+ScalarTypeRepresentation
+:
+:
+Type
 arrayType
 ;
 if
@@ -6259,7 +6265,10 @@ CallInfo
 callInfo
 uint32_t
 base
-int
+ScalarTypeRepresentation
+:
+:
+Type
 arrayType
 )
 {

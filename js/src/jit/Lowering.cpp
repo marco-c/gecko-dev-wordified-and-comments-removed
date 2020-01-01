@@ -13221,7 +13221,7 @@ arrayType
 )
 =
 =
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 TYPE_UINT32

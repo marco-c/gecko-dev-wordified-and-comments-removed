@@ -6091,7 +6091,7 @@ TypedArrayObject
 :
 classes
 [
-TypedArrayObject
+ScalarTypeRepresentation
 :
 :
 type
