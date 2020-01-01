@@ -8254,6 +8254,12 @@ initializeChrome
 (
 )
 ;
+if
+(
+!
+mIsRestoringActivity
+)
+{
 String
 restoreMessage
 =
@@ -8265,10 +8271,6 @@ mRestoreMode
 !
 =
 RESTORE_NONE
-&
-&
-!
-mIsRestoringActivity
 )
 {
 try
@@ -8325,6 +8327,7 @@ restoreMessage
 )
 )
 ;
+}
 if
 (
 isExternalURL
