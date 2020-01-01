@@ -8,6 +8,13 @@ _ATYPES_HXX_
 ifndef
 HUNSPELL_WARNING
 #
+include
+<
+stdio
+.
+h
+>
+#
 ifdef
 HUNSPELL_WARNING_ON
 #
@@ -293,11 +300,8 @@ mapentry
 {
 char
 *
-set
-;
-w_char
 *
-set_utf16
+set
 ;
 int
 len

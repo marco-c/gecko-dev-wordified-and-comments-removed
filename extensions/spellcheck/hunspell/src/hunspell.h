@@ -5,6 +5,13 @@ _MYSPELLMGR_H_
 define
 _MYSPELLMGR_H_
 #
+include
+"
+hunvisapi
+.
+h
+"
+#
 ifdef
 __cplusplus
 extern
@@ -19,24 +26,7 @@ struct
 Hunhandle
 Hunhandle
 ;
-#
-ifdef
-_MSC_VER
-#
-define
-DLL
-__declspec
-(
-dllexport
-)
-#
-else
-#
-define
-DLL
-#
-endif
-DLL
+LIBHUNSPELL_DLL_EXPORTED
 Hunhandle
 *
 Hunspell_create
@@ -51,7 +41,7 @@ char
 dpath
 )
 ;
-DLL
+LIBHUNSPELL_DLL_EXPORTED
 Hunhandle
 *
 Hunspell_create_key
@@ -70,7 +60,7 @@ char
 key
 )
 ;
-DLL
+LIBHUNSPELL_DLL_EXPORTED
 void
 Hunspell_destroy
 (
@@ -79,7 +69,7 @@ Hunhandle
 pHunspell
 )
 ;
-DLL
+LIBHUNSPELL_DLL_EXPORTED
 int
 Hunspell_spell
 (
@@ -91,7 +81,7 @@ char
 *
 )
 ;
-DLL
+LIBHUNSPELL_DLL_EXPORTED
 char
 *
 Hunspell_get_dic_encoding
@@ -101,7 +91,7 @@ Hunhandle
 pHunspell
 )
 ;
-DLL
+LIBHUNSPELL_DLL_EXPORTED
 int
 Hunspell_suggest
 (
@@ -119,7 +109,7 @@ char
 word
 )
 ;
-DLL
+LIBHUNSPELL_DLL_EXPORTED
 int
 Hunspell_analyze
 (
@@ -137,7 +127,7 @@ char
 word
 )
 ;
-DLL
+LIBHUNSPELL_DLL_EXPORTED
 int
 Hunspell_stem
 (
@@ -155,7 +145,7 @@ char
 word
 )
 ;
-DLL
+LIBHUNSPELL_DLL_EXPORTED
 int
 Hunspell_stem2
 (
@@ -175,7 +165,7 @@ int
 n
 )
 ;
-DLL
+LIBHUNSPELL_DLL_EXPORTED
 int
 Hunspell_generate
 (
@@ -197,7 +187,7 @@ char
 word2
 )
 ;
-DLL
+LIBHUNSPELL_DLL_EXPORTED
 int
 Hunspell_generate2
 (
@@ -221,7 +211,7 @@ int
 n
 )
 ;
-DLL
+LIBHUNSPELL_DLL_EXPORTED
 int
 Hunspell_add
 (
@@ -234,7 +224,7 @@ char
 word
 )
 ;
-DLL
+LIBHUNSPELL_DLL_EXPORTED
 int
 Hunspell_add_with_affix
 (
@@ -251,7 +241,7 @@ char
 example
 )
 ;
-DLL
+LIBHUNSPELL_DLL_EXPORTED
 int
 Hunspell_remove
 (
@@ -264,7 +254,7 @@ char
 word
 )
 ;
-DLL
+LIBHUNSPELL_DLL_EXPORTED
 void
 Hunspell_free_list
 (

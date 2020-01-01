@@ -92,7 +92,6 @@ HENTRY_WORD
 (
 h
 )
-&
 (
 h
 -
@@ -137,6 +136,9 @@ var
 ;
 char
 word
+[
+1
+]
 ;
 }
 ;

@@ -524,6 +524,10 @@ cpp
 (
 NULL
 )
+DEFINES
+=
+-
+DHUNSPELL_STATIC
 endif
 EXTRA_DSO_LDOPTS
 =

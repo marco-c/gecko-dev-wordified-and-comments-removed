@@ -20,6 +20,13 @@ MAXPHONETLEN
 *
 4
 )
+#
+include
+"
+hunvisapi
+.
+h
+"
 struct
 phonetable
 {
@@ -46,6 +53,7 @@ HASHSIZE
 ;
 }
 ;
+LIBHUNSPELL_DLL_EXPORTED
 void
 init_phonet_hash
 (
@@ -54,6 +62,7 @@ phonetable
 parms
 )
 ;
+LIBHUNSPELL_DLL_EXPORTED
 int
 phonet
 (

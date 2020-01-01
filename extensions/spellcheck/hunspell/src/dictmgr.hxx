@@ -5,6 +5,13 @@ _DICTMGR_HXX_
 define
 _DICTMGR_HXX_
 #
+include
+"
+hunvisapi
+.
+h
+"
+#
 define
 MAXDICTIONARIES
 100
@@ -30,6 +37,7 @@ region
 }
 ;
 class
+LIBHUNSPELL_DLL_EXPORTED
 DictMgr
 {
 int
