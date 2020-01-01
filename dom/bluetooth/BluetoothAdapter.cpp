@@ -171,6 +171,10 @@ DOMCI_DATA
 BluetoothAdapter
 BluetoothAdapter
 )
+NS_IMPL_CYCLE_COLLECTION_CLASS
+(
+BluetoothAdapter
+)
 NS_IMPL_CYCLE_COLLECTION_TRACE_BEGIN_INHERITED
 (
 BluetoothAdapter
