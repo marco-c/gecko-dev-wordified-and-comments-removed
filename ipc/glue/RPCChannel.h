@@ -484,6 +484,14 @@ OnMaybeDequeueOne
 (
 )
 ;
+size_t
+RemoteViewOfStackDepth
+(
+size_t
+stackDepth
+)
+const
+;
 void
 Incall
 (
