@@ -377,6 +377,9 @@ struct
 DeviceStorageStatParams
 {
 nsString
+type
+;
+nsString
 fullpath
 ;
 }
@@ -384,6 +387,9 @@ fullpath
 struct
 DeviceStorageAddParams
 {
+nsString
+type
+;
 PBlob
 blob
 ;
@@ -399,6 +405,9 @@ struct
 DeviceStorageGetParams
 {
 nsString
+type
+;
+nsString
 name
 ;
 nsString
@@ -410,6 +419,9 @@ struct
 DeviceStorageDeleteParams
 {
 nsString
+type
+;
+nsString
 fullpath
 ;
 }
@@ -417,6 +429,9 @@ fullpath
 struct
 DeviceStorageEnumerationParams
 {
+nsString
+type
+;
 nsString
 fullpath
 ;
@@ -988,6 +1003,8 @@ LastPrivateDocShellDestroyed
 ;
 FilePathUpdate
 (
+nsString
+type
 nsString
 filepath
 nsCString

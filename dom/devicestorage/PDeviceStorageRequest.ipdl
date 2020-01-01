@@ -135,6 +135,9 @@ struct
 DeviceStorageFileValue
 {
 nsString
+type
+;
+nsString
 name
 ;
 nsString
