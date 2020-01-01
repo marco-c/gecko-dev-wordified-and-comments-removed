@@ -481,6 +481,11 @@ SanitizeDownloadedFonts
 (
 )
 ;
+PRBool
+PreserveOTLTablesWhenSanitizing
+(
+)
+;
 PRInt8
 UseHarfBuzzLevel
 (
@@ -758,6 +763,9 @@ mAllowDownloadableFonts
 ;
 PRBool
 mDownloadableFontsSanitize
+;
+PRBool
+mSanitizePreserveOTLTables
 ;
 PRInt8
 mUseHarfBuzzLevel
