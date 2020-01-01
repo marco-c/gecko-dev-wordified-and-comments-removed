@@ -702,8 +702,6 @@ direction
 )
 ;
 /
-*
-/
 /
 Accepts
 null
@@ -730,7 +728,5 @@ jsval
 key
 )
 ;
-*
-/
 }
 ;
