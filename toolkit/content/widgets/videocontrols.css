@@ -188,6 +188,17 @@ important
 ;
 }
 .
+controlsSpacer
+[
+hideCursor
+]
+{
+cursor
+:
+none
+;
+}
+.
 controlBar
 :
 not
