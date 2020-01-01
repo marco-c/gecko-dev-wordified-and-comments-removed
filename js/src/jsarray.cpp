@@ -1172,10 +1172,10 @@ JS_ELEMENTS_HOLE
 *
 hole
 =
-JS_FALSE
+false
 ;
 return
-JS_TRUE
+true
 ;
 }
 }
@@ -1211,7 +1211,7 @@ vp
 *
 hole
 =
-JS_FALSE
+false
 ;
 return
 true
@@ -9735,7 +9735,7 @@ length
 )
 )
 return
-JS_FALSE
+false
 ;
 double
 newlen
@@ -10050,7 +10050,7 @@ UpdateTypes
 )
 )
 return
-JS_FALSE
+false
 ;
 newlen
 +
@@ -10073,7 +10073,7 @@ newlen
 )
 )
 return
-JS_FALSE
+false
 ;
 args
 .
@@ -10087,7 +10087,7 @@ newlen
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -11600,7 +11600,7 @@ if
 nobj
 )
 return
-JS_FALSE
+false
 ;
 TryReuseArrayType
 (
@@ -11638,7 +11638,7 @@ argc
 0
 )
 return
-JS_TRUE
+true
 ;
 argc
 -
@@ -11664,7 +11664,7 @@ if
 nobj
 )
 return
-JS_FALSE
+false
 ;
 args
 .
@@ -11948,7 +11948,7 @@ length
 )
 )
 return
-JS_FALSE
+false
 ;
 begin
 =
@@ -12166,7 +12166,7 @@ if
 nobj
 )
 return
-JS_FALSE
+false
 ;
 TryReuseArrayType
 (
@@ -12187,7 +12187,7 @@ nobj
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 nobj
@@ -12206,7 +12206,7 @@ if
 nobj
 )
 return
-JS_FALSE
+false
 ;
 TryReuseArrayType
 (
@@ -12258,7 +12258,7 @@ value
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -12279,7 +12279,7 @@ value
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 args
@@ -12295,7 +12295,7 @@ nobj
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -13205,7 +13205,7 @@ if
 type
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -14651,7 +14651,7 @@ if
 bytes
 )
 return
-JS_FALSE
+false
 ;
 if
 (
