@@ -929,16 +929,9 @@ aValue
 )
 {
 return
-nscoord
-(
-NS_floorf
+NS_lroundup30
 (
 aValue
-+
-0
-.
-5f
-)
 )
 ;
 }
