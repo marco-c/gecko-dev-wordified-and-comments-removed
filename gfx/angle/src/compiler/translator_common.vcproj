@@ -2512,7 +2512,7 @@ RelativePath
 "
 .
 \
-debug
+compilerdebug
 .
 h
 "
