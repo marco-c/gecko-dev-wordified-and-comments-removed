@@ -1,0 +1,10 @@
+#
+Forbid
+compound
+word
+with
+triple
+letters
+CHECKCOMPOUNDTRIPLE
+COMPOUNDFLAG
+A
