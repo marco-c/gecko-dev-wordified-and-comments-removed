@@ -4725,11 +4725,6 @@ postion
 %
 d
 "
-*
-(
-gint
-*
-)
 caretOffset
 )
 )
@@ -4740,11 +4735,6 @@ atkObj
 "
 text_caret_moved
 "
-*
-(
-gint
-*
-)
 caretOffset
 )
 ;
