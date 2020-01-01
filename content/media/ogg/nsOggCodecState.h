@@ -490,9 +490,12 @@ ClearUnstamped
 (
 )
 ;
-PRBool
+nsresult
 PacketOutUntilGranulepos
 (
+PRBool
+&
+aFoundGranulepos
 )
 ;
 nsTArray
