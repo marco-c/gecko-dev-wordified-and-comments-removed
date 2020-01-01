@@ -47,3 +47,11 @@ freorder
 -
 blocks
 "
+ac_add_options
+-
+-
+disable
+-
+install
+-
+strip
