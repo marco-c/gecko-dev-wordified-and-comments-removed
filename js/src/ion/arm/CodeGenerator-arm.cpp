@@ -2055,6 +2055,7 @@ Imm32
 ;
 if
 (
+!
 bailoutIf
 (
 bailoutCond
