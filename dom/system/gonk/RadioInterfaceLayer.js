@@ -1956,7 +1956,7 @@ sender
 null
 message
 .
-body
+fullBody
 |
 |
 null
@@ -1988,7 +1988,7 @@ receiver
 null
 message
 .
-body
+fullBody
 |
 |
 null
