@@ -129,6 +129,12 @@ Future
 (
 )
 ;
+static
+bool
+PrefEnabled
+(
+)
+;
 nsPIDOMWindow
 *
 GetParentObject

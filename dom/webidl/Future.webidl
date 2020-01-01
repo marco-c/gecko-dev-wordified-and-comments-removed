@@ -156,6 +156,7 @@ value
 )
 ;
 [
+PrefControlled
 Constructor
 (
 FutureInit
