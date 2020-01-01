@@ -9642,7 +9642,7 @@ value
 =
 "
 &
-appbarFindInPage
+appbarFindInPage2
 .
 label
 ;
@@ -9688,7 +9688,7 @@ value
 =
 "
 &
-appbarViewOnDesktop
+appbarViewOnDesktop2
 .
 label
 ;
