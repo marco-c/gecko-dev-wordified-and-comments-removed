@@ -138,10 +138,6 @@ NJ_ALIGN_STACK
 8
 #
 define
-NJ_STACK_OFFSET
-0
-#
-define
 NJ_CONSTANT_POOLS
 const
 int

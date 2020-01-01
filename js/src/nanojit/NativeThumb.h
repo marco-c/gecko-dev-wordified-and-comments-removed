@@ -37,12 +37,6 @@ NJ_ALIGN_STACK
 =
 8
 ;
-const
-int
-NJ_STACK_OFFSET
-=
-8
-;
 #
 define
 NJ_CONSTANT_POOLS
