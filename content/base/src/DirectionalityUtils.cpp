@@ -1428,9 +1428,6 @@ ResetAutoDirection
 (
 nsINode
 *
-aTextNode
-nsINode
-*
 aStartAfterNode
 )
 {
@@ -1602,7 +1599,6 @@ aTextNode
 >
 ResetAutoDirection
 (
-aTextNode
 aStartAfterNode
 )
 ;
