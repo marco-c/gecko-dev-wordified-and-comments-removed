@@ -422,7 +422,13 @@ delay
 ;
 const
 uint32_t
-kSlowStatementThreshold
+kSlowSQLThresholdForMainThread
+=
+50
+;
+const
+uint32_t
+kSlowSQLThresholdForHelperThreads
 =
 100
 ;
