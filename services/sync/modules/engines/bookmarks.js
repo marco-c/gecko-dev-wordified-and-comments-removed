@@ -1049,10 +1049,10 @@ return
 null
 ;
 }
-itemExists
+_itemExists
 :
 function
-BStore_itemExists
+BStore__itemExists
 (
 id
 )
