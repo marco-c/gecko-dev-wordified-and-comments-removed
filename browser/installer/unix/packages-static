@@ -602,6 +602,13 @@ bin
 /
 components
 /
+dom_threads
+.
+xpt
+bin
+/
+components
+/
 dom_traversal
 .
 xpt
