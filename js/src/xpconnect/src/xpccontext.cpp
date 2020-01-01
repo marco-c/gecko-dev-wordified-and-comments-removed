@@ -42,10 +42,6 @@ mException
 (
 nsnull
 )
-mWatchdogLimit
-(
-0
-)
 mCallingLangType
 (
 LANG_UNKNOWN
