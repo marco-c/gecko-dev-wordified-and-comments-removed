@@ -101,7 +101,7 @@ class
 nsLinkableAccessible
 :
 public
-nsHyperTextAccessibleWrap
+nsAccessibleWrap
 {
 public
 :
