@@ -1987,6 +1987,12 @@ aMarginResult
 nsnull
 )
 {
+AutoMaybeNullInflationContainer
+an
+(
+aChildFrame
+)
+;
 nsCSSOffsetState
 offsets
 (
