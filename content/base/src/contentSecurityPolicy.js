@@ -165,12 +165,6 @@ _request
 "
 "
 ;
-this
-.
-_docRequest
-=
-null
-;
 CSPdebug
 (
 "
@@ -725,12 +719,6 @@ URI
 .
 asciiSpec
 ;
-this
-.
-_docRequest
-=
-aChannel
-;
 if
 (
 internalChannel
@@ -909,10 +897,6 @@ scheme
 selfURI
 .
 hostPort
-this
-.
-_docRequest
-this
 )
 ;
 var
