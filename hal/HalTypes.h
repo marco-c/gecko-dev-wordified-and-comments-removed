@@ -147,6 +147,13 @@ SYS_TIME_CHANGE_TZ
 SYS_TIME_CHANGE_GUARD
 }
 ;
+typedef
+Observer
+<
+SystemTimeChange
+>
+SystemTimeChangeObserver
+;
 }
 }
 namespace

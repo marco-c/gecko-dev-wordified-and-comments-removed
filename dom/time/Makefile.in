@@ -118,6 +118,10 @@ TimeChangeObserver
 .
 cpp
 \
+DateCacheCleaner
+.
+cpp
+\
 (
 NULL
 )
@@ -125,6 +129,10 @@ EXPORTS
 =
 \
 TimeChangeObserver
+.
+h
+\
+DateCacheCleaner
 .
 h
 \
