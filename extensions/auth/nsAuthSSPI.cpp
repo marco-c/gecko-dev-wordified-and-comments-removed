@@ -90,7 +90,7 @@ SECBUFFER_STREAM
 endif
 static
 const
-char
+PRUnichar
 *
 const
 pTypeName
@@ -98,12 +98,15 @@ pTypeName
 ]
 =
 {
+L
 "
 Kerberos
 "
+L
 "
 Negotiate
 "
+L
 "
 NTLM
 "
@@ -1197,6 +1200,12 @@ ob
 cbBuffer
 )
 ;
+NS_ConvertUTF8toUTF16
+wSN
+(
+mServiceName
+)
+;
 SEC_WCHAR
 *
 sn
@@ -1219,7 +1228,7 @@ sn
 SEC_WCHAR
 *
 )
-mServiceName
+wSN
 .
 get
 (
