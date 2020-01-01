@@ -295,7 +295,7 @@ MOZ_X11
 &
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 )
 #
 include
@@ -1065,12 +1065,15 @@ MOZ_X11
 &
 defined
 (
-MOZ_WIDGET_GTK2
+MOZ_WIDGET_GTK
 )
 XSync
 (
-GDK_DISPLAY
+GDK_DISPLAY_XDISPLAY
 (
+gdk_display_get_default
+(
+)
 )
 False
 )
