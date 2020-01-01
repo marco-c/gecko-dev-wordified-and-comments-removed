@@ -1168,11 +1168,12 @@ return
 geckoWidth
 ;
 }
-Override
 public
 Element
 findElement
 (
+Activity
+activity
 String
 name
 )
