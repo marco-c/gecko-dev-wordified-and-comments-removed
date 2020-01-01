@@ -1372,6 +1372,16 @@ items
 <
 !
 ENTITY
+appMenuButton
+.
+label
+"
+Menu
+"
+>
+<
+!
+ENTITY
 homeButton
 .
 label
