@@ -34,6 +34,10 @@ InternalError
 allocation
 size
 overflow
+|
+out
+of
+memory
 )
 /
 ;
