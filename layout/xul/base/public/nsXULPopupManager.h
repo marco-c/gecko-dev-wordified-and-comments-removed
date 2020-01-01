@@ -855,7 +855,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIROLLUPLISTENER
 NS_DECL_NSITIMERCALLBACK
 virtual
-void
+PRUint32
 GetSubmenuWidgetChain
 (
 nsTArray
@@ -864,7 +864,7 @@ nsIWidget
 *
 >
 *
-_retval
+aWidgetChain
 )
 ;
 virtual
@@ -1070,6 +1070,11 @@ PRBool
 aDeselectMenu
 PRBool
 aAsynchronous
+nsIContent
+*
+aLastPopup
+=
+nsnull
 )
 ;
 void

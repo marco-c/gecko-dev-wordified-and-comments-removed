@@ -5085,6 +5085,8 @@ nsComboboxControlFrame
 :
 Rollup
 (
+PRUint32
+aCount
 nsIContent
 *
 *
