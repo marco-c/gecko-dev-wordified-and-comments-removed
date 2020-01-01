@@ -4168,14 +4168,12 @@ jit
 totalBytes
 )
 ;
-script
+jit
 -
 >
-setNativeMap
-(
-isConstructing
 nmap
-)
+=
+nmap
 ;
 *
 jitp
