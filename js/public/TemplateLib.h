@@ -320,6 +320,7 @@ checkPrecondition
 =
 0
 /
+size_t
 (
 N
 <
