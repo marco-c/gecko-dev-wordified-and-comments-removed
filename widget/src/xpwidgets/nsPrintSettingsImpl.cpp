@@ -167,7 +167,7 @@ PR_FALSE
 PRInt32
 marginWidth
 =
-NS_INCHES_TO_TWIPS
+NS_INCHES_TO_INT_TWIPS
 (
 DEFAULT_MARGIN_WIDTH
 )
@@ -1302,7 +1302,7 @@ mMargin
 .
 top
 =
-NS_INCHES_TO_TWIPS
+NS_INCHES_TO_INT_TWIPS
 (
 float
 (
@@ -1358,7 +1358,7 @@ mMargin
 .
 left
 =
-NS_INCHES_TO_TWIPS
+NS_INCHES_TO_INT_TWIPS
 (
 float
 (
@@ -1414,7 +1414,7 @@ mMargin
 .
 bottom
 =
-NS_INCHES_TO_TWIPS
+NS_INCHES_TO_INT_TWIPS
 (
 float
 (
@@ -1470,7 +1470,7 @@ mMargin
 .
 right
 =
-NS_INCHES_TO_TWIPS
+NS_INCHES_TO_INT_TWIPS
 (
 float
 (
@@ -1526,7 +1526,7 @@ mEdge
 .
 top
 =
-NS_INCHES_TO_TWIPS
+NS_INCHES_TO_INT_TWIPS
 (
 float
 (
@@ -1582,7 +1582,7 @@ mEdge
 .
 left
 =
-NS_INCHES_TO_TWIPS
+NS_INCHES_TO_INT_TWIPS
 (
 float
 (
@@ -1638,7 +1638,7 @@ mEdge
 .
 bottom
 =
-NS_INCHES_TO_TWIPS
+NS_INCHES_TO_INT_TWIPS
 (
 float
 (
@@ -1694,7 +1694,7 @@ mEdge
 .
 right
 =
-NS_INCHES_TO_TWIPS
+NS_INCHES_TO_INT_TWIPS
 (
 float
 (
@@ -1760,7 +1760,7 @@ mUnwriteableMargin
 .
 top
 =
-NS_INCHES_TO_TWIPS
+NS_INCHES_TO_INT_TWIPS
 (
 aUnwriteableMarginTop
 )
@@ -1824,7 +1824,7 @@ mUnwriteableMargin
 .
 left
 =
-NS_INCHES_TO_TWIPS
+NS_INCHES_TO_INT_TWIPS
 (
 aUnwriteableMarginLeft
 )
@@ -1888,7 +1888,7 @@ mUnwriteableMargin
 .
 bottom
 =
-NS_INCHES_TO_TWIPS
+NS_INCHES_TO_INT_TWIPS
 (
 aUnwriteableMarginBottom
 )
@@ -1952,7 +1952,7 @@ mUnwriteableMargin
 .
 right
 =
-NS_INCHES_TO_TWIPS
+NS_INCHES_TO_INT_TWIPS
 (
 aUnwriteableMarginRight
 )
