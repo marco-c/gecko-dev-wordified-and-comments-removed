@@ -372,6 +372,12 @@ op
 =
 =
 LIR_loop
+|
+|
+op
+=
+=
+LIR_xbarrier
 ;
 }
 inline
