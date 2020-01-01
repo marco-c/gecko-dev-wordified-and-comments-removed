@@ -19093,6 +19093,8 @@ _InitStates
 .
 FINISHED_SUCCESS
 ;
+return
+;
 }
 catch
 (
