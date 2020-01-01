@@ -1500,8 +1500,8 @@ currentTime
 )
 {
 #
-ifndef
-_MSC_VER
+if
+0
 timeval
 current
 ;

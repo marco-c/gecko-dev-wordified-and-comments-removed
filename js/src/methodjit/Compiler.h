@@ -430,6 +430,16 @@ funPtrReg
 FrameSize
 frameSize
 ;
+bool
+typeMonitored
+;
+types
+:
+:
+jstype
+*
+argTypes
+;
 }
 ;
 private
@@ -2325,7 +2335,7 @@ CallPatchInfo
 uncachedCallPatch
 )
 ;
-void
+bool
 inlineCallHelper
 (
 uint32
