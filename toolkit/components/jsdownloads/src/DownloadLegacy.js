@@ -494,7 +494,7 @@ aIsPrivate
 )
 {
 let
-launchWhenSuccedded
+launchWhenSucceeded
 =
 false
 contentType
@@ -513,7 +513,7 @@ Ci
 nsIMIMEInfo
 )
 {
-launchWhenSuccedded
+launchWhenSucceeded
 =
 aMIMEInfo
 .
@@ -550,7 +550,7 @@ nsILocalHandlerApp
 {
 launcherPath
 =
-localHandler
+appHandler
 .
 executable
 .
@@ -606,9 +606,9 @@ saver
 "
 legacy
 "
-launchWhenSuccedded
+launchWhenSucceeded
 :
-launchWhenSuccedded
+launchWhenSucceeded
 contentType
 :
 contentType
