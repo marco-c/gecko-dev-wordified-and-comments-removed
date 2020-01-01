@@ -159,6 +159,10 @@ std
 :
 set
 ;
+using
+namespace
+CrashReporter
+;
 typedef
 struct
 {
@@ -2738,7 +2742,7 @@ wParam
 1
 )
 ;
-CrashReporterSendCompleted
+SendCompleted
 (
 success
 WideToUTF8
