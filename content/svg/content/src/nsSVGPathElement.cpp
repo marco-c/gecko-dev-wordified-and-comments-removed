@@ -230,7 +230,7 @@ GetPointAtLength
 (
 float
 distance
-nsIDOMSVGPoint
+nsISupports
 *
 *
 _retval

@@ -101,9 +101,6 @@ idl
 interface
 nsIDOMSVGAnimatedNumber
 ;
-interface
-nsIDOMSVGPoint
-;
 [
 scriptable
 uuid
@@ -202,7 +199,10 @@ getTotalLength
 (
 )
 ;
-nsIDOMSVGPoint
+/
+/
+SVGPoint
+nsISupports
 getPointAtLength
 (
 in

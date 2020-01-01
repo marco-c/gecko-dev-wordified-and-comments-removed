@@ -264,10 +264,6 @@ nsIDOMSVGPatternElement
 .
 idl
 \
-nsIDOMSVGPoint
-.
-idl
-\
 nsIDOMSVGPolygonElement
 .
 idl

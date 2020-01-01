@@ -62,9 +62,6 @@ class
 nsIContent
 ;
 class
-nsIDOMSVGPoint
-;
-class
 nsIFrame
 ;
 class
@@ -76,6 +73,13 @@ nsStyleContext
 class
 nsSVGGlyphFrame
 ;
+namespace
+mozilla
+{
+class
+DOMSVGPoint
+;
+}
 typedef
 nsSVGTextContainerFrame
 nsSVGTSpanFrameBase
@@ -222,7 +226,10 @@ virtual
 int32_t
 GetCharNumAtPosition
 (
-nsIDOMSVGPoint
+mozilla
+:
+:
+DOMSVGPoint
 *
 point
 )

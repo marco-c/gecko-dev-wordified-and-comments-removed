@@ -135,9 +135,6 @@ InterfaceSVGZoomEvent
 interface
 nsIDOMSVGRect
 ;
-interface
-nsIDOMSVGPoint
-;
 [
 scriptable
 builtinclass
@@ -169,9 +166,12 @@ attribute
 float
 previousScale
 ;
+/
+/
+SVGPoint
 readonly
 attribute
-nsIDOMSVGPoint
+nsISupports
 previousTranslate
 ;
 readonly
@@ -179,9 +179,12 @@ attribute
 float
 newScale
 ;
+/
+/
+SVGPoint
 readonly
 attribute
-nsIDOMSVGPoint
+nsISupports
 newTranslate
 ;
 }

@@ -481,7 +481,10 @@ nsSVGTSpanFrame
 :
 GetCharNumAtPosition
 (
-nsIDOMSVGPoint
+mozilla
+:
+:
+DOMSVGPoint
 *
 point
 )

@@ -105,9 +105,6 @@ interface
 nsIDOMSVGAnimatedEnumeration
 ;
 interface
-nsIDOMSVGPoint
-;
-interface
 nsIDOMSVGRect
 ;
 [
@@ -261,7 +258,10 @@ raises
 DOMException
 )
 ;
-nsIDOMSVGPoint
+/
+/
+SVGPoint
+nsISupports
 getStartPositionOfChar
 (
 in
@@ -277,7 +277,10 @@ raises
 DOMException
 )
 ;
-nsIDOMSVGPoint
+/
+/
+SVGPoint
+nsISupports
 getEndPositionOfChar
 (
 in
@@ -325,11 +328,12 @@ raises
 DOMException
 )
 ;
+SVGPoint
 long
 getCharNumAtPosition
 (
 in
-nsIDOMSVGPoint
+nsISupports
 point
 )
 ;

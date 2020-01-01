@@ -108,9 +108,6 @@ interface
 nsIDOMSVGViewSpec
 ;
 interface
-nsIDOMSVGPoint
-;
-interface
 nsIDOMSVGNumber
 ;
 interface
@@ -301,9 +298,12 @@ raises
 DOMException
 on
 setting
+/
+/
+SVGPoint
 readonly
 attribute
-nsIDOMSVGPoint
+nsISupports
 currentTranslate
 ;
 unsigned
@@ -437,7 +437,10 @@ createSVGAngle
 (
 )
 ;
-nsIDOMSVGPoint
+/
+/
+SVGPoint
+nsISupports
 createSVGPoint
 (
 )

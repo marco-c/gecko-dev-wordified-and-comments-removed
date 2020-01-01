@@ -222,7 +222,7 @@ ToDOMVal
 nsSVGSVGElement
 *
 aElement
-nsIDOMSVGPoint
+nsISupports
 *
 *
 aResult
@@ -300,7 +300,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 DOMVal
 )
-NS_DECL_NSIDOMSVGPOINT
 virtual
 float
 X

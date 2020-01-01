@@ -435,7 +435,7 @@ nsSVGTextFrame
 :
 GetCharNumAtPosition
 (
-nsIDOMSVGPoint
+DOMSVGPoint
 *
 point
 )
@@ -463,7 +463,7 @@ GetStartPositionOfChar
 (
 uint32_t
 charnum
-nsIDOMSVGPoint
+nsISupports
 *
 *
 _retval
@@ -493,7 +493,7 @@ GetEndPositionOfChar
 (
 uint32_t
 charnum
-nsIDOMSVGPoint
+nsISupports
 *
 *
 _retval
