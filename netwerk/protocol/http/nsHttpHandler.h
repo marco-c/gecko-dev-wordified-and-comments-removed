@@ -778,6 +778,15 @@ outVal
 mMaxPipelineObjectSize
 ;
 }
+PRIntervalTime
+GetPipelineTimeout
+(
+)
+{
+return
+mPipelineReadTimeout
+;
+}
 private
 :
 void
@@ -944,6 +953,9 @@ mPipelineAggressive
 ;
 PRInt64
 mMaxPipelineObjectSize
+;
+PRIntervalTime
+mPipelineReadTimeout
 ;
 PRUint8
 mRedirectionLimit

@@ -40,6 +40,9 @@ class
 nsHttpRequestHead
 ;
 class
+nsHttpPipeline
+;
+class
 nsAHttpTransaction
 :
 public
@@ -247,6 +250,17 @@ PipelinePosition
 =
 0
 ;
+virtual
+nsHttpPipeline
+*
+QueryPipeline
+(
+)
+{
+return
+nsnull
+;
+}
 enum
 Classifier
 {

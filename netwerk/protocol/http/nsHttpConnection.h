@@ -512,6 +512,11 @@ mClassification
 newclass
 ;
 }
+void
+ReadTimeoutTick
+(
+)
+;
 private
 :
 nsresult
