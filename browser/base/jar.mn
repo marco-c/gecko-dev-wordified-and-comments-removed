@@ -2014,7 +2014,6 @@ html
 #
 ifdef
 MOZ_SAFE_BROWSING
-*
 content
 /
 browser
