@@ -4298,6 +4298,9 @@ int16_t
 newValue
 =
 clamped
+<
+int32_t
+>
 (
 aPriority
 INT16_MIN
