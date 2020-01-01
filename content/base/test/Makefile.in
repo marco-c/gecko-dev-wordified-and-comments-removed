@@ -1924,6 +1924,10 @@ test_html_colors_standards
 .
 html
 \
+test_bug571390
+.
+xul
+\
 (
 NULL
 )
