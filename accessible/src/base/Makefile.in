@@ -540,11 +540,11 @@ nsTextEquivUtils
 .
 cpp
 \
-nsTextAttrs
+StyleInfo
 .
 cpp
 \
-StyleInfo
+TextAttrs
 .
 cpp
 \
