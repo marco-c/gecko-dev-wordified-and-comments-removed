@@ -1621,7 +1621,7 @@ if
 content
 -
 >
-IsNativeAnonymous
+IsRootOfNativeAnonymousSubtree
 (
 )
 )
@@ -21524,7 +21524,7 @@ content
 content
 -
 >
-IsNativeAnonymous
+IsRootOfNativeAnonymousSubtree
 (
 )
 )

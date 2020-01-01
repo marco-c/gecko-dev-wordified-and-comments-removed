@@ -8568,15 +8568,7 @@ eELEMENT
 ptContent
 -
 >
-GetBindingParent
-(
-)
-|
-|
-ptContent
--
->
-IsNativeAnonymous
+IsInAnonymousSubtree
 (
 )
 )

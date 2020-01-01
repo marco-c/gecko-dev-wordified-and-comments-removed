@@ -3649,10 +3649,12 @@ GetBindingParent
 ;
 if
 (
-binding
-=
-=
 aForNode
+-
+>
+IsRootOfNativeAnonymousSubtree
+(
+)
 )
 return
 nsnull

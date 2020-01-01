@@ -717,7 +717,7 @@ BindToTree
 (
 doc
 parentContent
-newContent
+parentContent
 PR_TRUE
 )
 ;

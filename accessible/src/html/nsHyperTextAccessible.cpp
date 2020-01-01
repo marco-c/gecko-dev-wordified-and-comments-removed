@@ -2826,7 +2826,7 @@ parent
 parent
 -
 >
-IsNativeAnonymous
+IsRootOfNativeAnonymousSubtree
 (
 )
 &
