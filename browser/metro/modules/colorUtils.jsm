@@ -74,6 +74,7 @@ getForegroundAndBackgroundIconColors
 (
 aIconURI
 aSuccessCallback
+aErrorCallback
 )
 {
 if
@@ -106,6 +107,19 @@ success
 color
 )
 {
+if
+(
+!
+success
+)
+{
+aErrorCallback
+(
+)
+;
+}
+else
+{
 let
 foregroundColor
 =
@@ -132,6 +146,7 @@ foregroundColor
 backgroundColor
 )
 ;
+}
 }
 this
 )
