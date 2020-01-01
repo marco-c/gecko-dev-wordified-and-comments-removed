@@ -24495,6 +24495,10 @@ printerFont
 (
 false
 )
+useGrayscaleAntialiasing
+(
+false
+)
 style
 (
 NS_FONT_STYLE_NORMAL
@@ -24563,6 +24567,10 @@ aSystemFont
 printerFont
 (
 aPrinterFont
+)
+useGrayscaleAntialiasing
+(
+false
 )
 style
 (
@@ -24745,6 +24753,12 @@ printerFont
 aStyle
 .
 printerFont
+)
+useGrayscaleAntialiasing
+(
+aStyle
+.
+useGrayscaleAntialiasing
 )
 style
 (
