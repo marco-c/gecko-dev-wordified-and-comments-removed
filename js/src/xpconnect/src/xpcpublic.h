@@ -42,7 +42,7 @@ nsIPrincipal
 *
 principal
 bool
-preferXrays
+wantXrays
 JSObject
 *
 *
