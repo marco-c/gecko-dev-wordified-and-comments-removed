@@ -438,10 +438,6 @@ test_npobject_getters
 .
 html
 \
-test_npruntime_npninvoke
-.
-html
-\
 loremipsum
 .
 txt
