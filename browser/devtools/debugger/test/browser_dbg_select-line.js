@@ -246,6 +246,12 @@ initially
 "
 )
 ;
+executeSoon
+(
+function
+(
+)
+{
 is
 (
 gDebugger
@@ -442,6 +448,9 @@ element
 {
 }
 gDebugger
+)
+;
+}
 )
 ;
 }
