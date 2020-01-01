@@ -1968,7 +1968,7 @@ requires
 that
 Firefox
 version
-14
+15
 or
 above
 is
@@ -1977,7 +1977,7 @@ installed
 "
 "
 Firefox
-14
+15
 +
 has
 not
