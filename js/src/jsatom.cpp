@@ -124,6 +124,13 @@ jsversion
 .
 h
 "
+#
+include
+"
+jsstrinlines
+.
+h
+"
 JS_STATIC_ASSERT
 (
 sizeof
@@ -2988,7 +2995,10 @@ JSString
 *
 str
 =
-js_GetUnitStringForChar
+JSString
+:
+:
+getUnitString
 (
 cx
 c
@@ -3678,7 +3688,10 @@ JSString
 *
 str
 =
-js_GetUnitStringForChar
+JSString
+:
+:
+getUnitString
 (
 cx
 c
