@@ -575,16 +575,6 @@ display
 block
 ;
 }
-browser
-[
-pending
-]
-{
-display
-:
-none
-;
-}
 #
 alltabs
 -
