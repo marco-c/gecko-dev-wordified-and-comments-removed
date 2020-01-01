@@ -2475,8 +2475,6 @@ String
 args
 String
 url
-boolean
-restoreSession
 )
 {
 GeckoAppShell
@@ -2619,18 +2617,6 @@ remote
 "
 +
 url
-;
-if
-(
-restoreSession
-)
-combinedArgs
-+
-=
-"
--
-restoresession
-"
 ;
 GeckoApp
 .
