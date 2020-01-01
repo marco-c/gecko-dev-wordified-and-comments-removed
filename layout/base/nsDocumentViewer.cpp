@@ -8564,6 +8564,15 @@ GetDisplayDocument
 if
 (
 !
+mDocument
+-
+>
+IsBeingUsedAsImage
+(
+)
+&
+&
+!
 isExternalResource
 &
 &
