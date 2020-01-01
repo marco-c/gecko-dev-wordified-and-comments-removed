@@ -192,6 +192,15 @@ include
 "
 methodjit
 /
+MethodJIT
+.
+h
+"
+#
+include
+"
+methodjit
+/
 StubCalls
 .
 h

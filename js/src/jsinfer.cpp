@@ -10013,6 +10013,9 @@ JSScript
 script
 )
 {
+#
+ifdef
+JS_METHODJIT
 if
 (
 !
@@ -10143,6 +10146,8 @@ cx
 return
 ;
 }
+#
+endif
 }
 void
 TypeCompartment
@@ -10331,15 +10336,6 @@ monitoredTypes
 =
 true
 ;
-if
-(
-script
--
->
-hasJITCode
-(
-)
-)
 cx
 -
 >
@@ -25588,6 +25584,8 @@ script
 id
 (
 )
+unsigned
+(
 pc
 -
 script
@@ -25596,6 +25594,7 @@ script
 -
 >
 code
+)
 i
 TypeString
 (
@@ -25775,6 +25774,8 @@ script
 id
 (
 )
+unsigned
+(
 pc
 -
 script
@@ -25783,6 +25784,7 @@ script
 -
 >
 code
+)
 i
 object
 -

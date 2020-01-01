@@ -2541,6 +2541,10 @@ endif
 #
 if
 defined
+JS_METHODJIT
+&
+&
+defined
 JS_POLYIC
 for
 (

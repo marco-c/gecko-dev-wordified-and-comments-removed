@@ -914,6 +914,12 @@ struct
 JITScript
 ;
 }
+}
+#
+endif
+namespace
+js
+{
 namespace
 analyze
 {
@@ -922,8 +928,6 @@ ScriptAnalysis
 ;
 }
 }
-#
-endif
 class
 JSPCCounters
 {
