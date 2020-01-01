@@ -623,7 +623,12 @@ StoreSlotT
 \
 _
 (
-GuardShapeOrType
+GuardShape
+)
+\
+_
+(
+GuardObjectType
 )
 \
 _
