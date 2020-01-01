@@ -251,11 +251,9 @@ store
 .
 _getNode
 (
-store
+PlacesUtils
 .
-_bms
-.
-tagsFolder
+tagsFolderId
 )
 ;
 tags

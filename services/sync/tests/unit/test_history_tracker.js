@@ -178,9 +178,9 @@ addVisit
 (
 )
 {
-Svc
+PlacesUtils
 .
-History
+history
 .
 addVisit
 (
@@ -602,9 +602,9 @@ run_next_test
 }
 )
 ;
-Svc
+PlacesUtils
 .
-History
+history
 .
 removePage
 (
@@ -794,9 +794,9 @@ up
 "
 )
 ;
-Svc
+PlacesUtils
 .
-History
+history
 .
 removeAllPages
 (
