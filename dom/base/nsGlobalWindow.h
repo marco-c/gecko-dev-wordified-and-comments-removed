@@ -3969,6 +3969,12 @@ mArguments
 ;
 nsCOMPtr
 <
+nsIArray
+>
+mArgumentsLast
+;
+nsCOMPtr
+<
 nsIPrincipal
 >
 mArgumentsOrigin
