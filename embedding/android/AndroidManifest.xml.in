@@ -178,6 +178,13 @@ drawable
 /
 icon
 "
+android
+:
+debuggable
+=
+"
+true
+"
 >
 <
 activity
