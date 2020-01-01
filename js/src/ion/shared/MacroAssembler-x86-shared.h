@@ -48,8 +48,11 @@ IonFrames
 h
 "
 #
-ifdef
+if
+defined
+(
 JS_CPU_X86
+)
 #
 include
 "
@@ -65,7 +68,10 @@ h
 "
 #
 elif
+defined
+(
 JS_CPU_X64
+)
 #
 include
 "
