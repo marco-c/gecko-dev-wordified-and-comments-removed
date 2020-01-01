@@ -619,7 +619,7 @@ Agent
 "
 GlobalConstants
 .
-USER_AGENT
+SYNC_USER_AGENT
 )
 )
 ;
