@@ -98,13 +98,7 @@ DIRS
 =
 [
 '
-src
-'
-'
-public
-'
-'
-tests
+test_ocsp_stapling
 '
 ]
 MODULE

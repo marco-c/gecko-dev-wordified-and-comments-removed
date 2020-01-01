@@ -3688,6 +3688,9 @@ certutil
 pk12util
 *
 \
+OCSPStaplingServer
+*
+\
 winEmbed
 .
 exe

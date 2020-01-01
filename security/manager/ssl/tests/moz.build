@@ -93,6 +93,14 @@ MPL
 0
 /
 .
+DIRS
++
+=
+[
+'
+unit
+'
+]
 TEST_DIRS
 +
 =
