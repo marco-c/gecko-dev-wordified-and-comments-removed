@@ -64,12 +64,6 @@ editBookmarkPanel
 ;
 element
 .
-hidden
-=
-false
-;
-element
-.
 addEventListener
 (
 "
