@@ -5981,6 +5981,7 @@ PhoneNumberUtils
 normalize
 (
 filterValue
+true
 )
 ;
 }
@@ -6077,7 +6078,9 @@ normalize
 options
 .
 filterValue
+true
 )
+;
 request
 =
 index
@@ -6112,9 +6115,9 @@ key
 =
 =
 =
-'
+"
 tel
-'
+"
 )
 {
 tmp
@@ -6124,6 +6127,7 @@ PhoneNumberUtils
 normalize
 (
 tmp
+true
 )
 ;
 }
