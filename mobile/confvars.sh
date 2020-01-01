@@ -409,7 +409,7 @@ MOZ_APP_VERSION
 =
 1
 .
-0a2
+0a3pre
 MOZ_XUL_APP
 =
 1
