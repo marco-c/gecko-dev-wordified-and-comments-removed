@@ -427,8 +427,6 @@ js
 -
 input
 \
-certs
-\
 (
 NULL
 )
@@ -460,13 +458,6 @@ DEPTH
 _profile
 /
 pgo
-_CERTS_DIR
-=
-(
-_PROFILE_DIR
-)
-/
-certs
 _CERTS_SRC_DIR
 =
 (
@@ -671,12 +662,12 @@ BIN_SUFFIX
 "
 \
 -
-DCERTS_DIR
+DPROFILE_DIR
 =
 \
 "
 (
-_CERTS_DIR
+_PROFILE_DIR
 )
 \
 "
