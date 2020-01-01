@@ -492,6 +492,10 @@ nsBaseWidgetAccessible
 .
 cpp
 \
+nsEventShell
+.
+cpp
+\
 nsFormControlAccessible
 .
 cpp

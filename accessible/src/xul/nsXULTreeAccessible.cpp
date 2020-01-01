@@ -4846,10 +4846,10 @@ name
 mCachedName
 )
 {
-nsAccUtils
+nsEventShell
 :
 :
-FireAccEvent
+FireEvent
 (
 nsIAccessibleEvent
 :

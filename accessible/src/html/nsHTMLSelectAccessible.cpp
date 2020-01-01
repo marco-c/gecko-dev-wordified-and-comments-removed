@@ -3345,10 +3345,10 @@ optionAccessible
 )
 return
 ;
-nsAccUtils
+nsEventShell
 :
 :
-FireAccEvent
+FireEvent
 (
 nsIAccessibleEvent
 :
@@ -3399,10 +3399,10 @@ nsIAccessibleEvent
 EVENT_SELECTION_REMOVE
 ;
 }
-nsAccUtils
+nsEventShell
 :
 :
-FireAccEvent
+FireEvent
 (
 eventType
 optionAccessible
