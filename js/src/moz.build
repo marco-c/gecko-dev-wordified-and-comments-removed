@@ -174,3 +174,15 @@ tests
 gdb
 '
 ]
+CONFIGURE_SUBST_FILES
++
+=
+[
+'
+devtools
+/
+rootAnalysis
+/
+Makefile
+'
+]
