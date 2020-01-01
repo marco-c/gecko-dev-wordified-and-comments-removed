@@ -127,12 +127,10 @@ String
 mBaseUrl
 ;
 private
-final
 String
 mTestType
 ;
 private
-final
 String
 mLogFile
 ;
