@@ -2055,7 +2055,7 @@ sXPC_XOW_JSClass
 .
 base
 nsnull
-parent
+nsnull
 )
 ;
 if
@@ -2070,6 +2070,15 @@ JS_FALSE
 }
 if
 (
+!
+JS_SetParent
+(
+cx
+outerObj
+parent
+)
+|
+|
 !
 JS_SetPrototype
 (
