@@ -290,11 +290,7 @@ BLOCK
 *
 DEPTH
 =
-.
-.
-/
-.
-.
+DEPTH
 topsrcdir
 =
 top_srcdir
