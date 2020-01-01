@@ -52,8 +52,6 @@ InitSVG
 (
 )
 ;
-public
-:
 nsSVGMaskFrame
 (
 nsStyleContext
@@ -67,6 +65,8 @@ aContext
 )
 {
 }
+public
+:
 cairo_pattern_t
 *
 ComputeMaskAlpha
@@ -125,16 +125,6 @@ aResult
 endif
 private
 :
-PRUint16
-GetMaskUnits
-(
-)
-;
-PRUint16
-GetMaskContentUnits
-(
-)
-;
 nsISVGChildFrame
 *
 mMaskParent
@@ -156,9 +146,9 @@ GetCanvasTM
 ;
 }
 ;
-nsSVGMaskFrame
+nsIContent
 *
-NS_GetSVGMaskFrame
+NS_GetSVGMaskElement
 (
 nsIURI
 *
