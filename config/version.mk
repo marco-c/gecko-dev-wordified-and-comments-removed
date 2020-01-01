@@ -480,11 +480,6 @@ TOPSRCDIR
 topsrcdir
 )
 -
-BITS
-(
-MOZ_BITS
-)
--
 OBJDIR
 .
 -
