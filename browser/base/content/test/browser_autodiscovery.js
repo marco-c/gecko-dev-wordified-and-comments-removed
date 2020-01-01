@@ -1097,6 +1097,12 @@ close
 (
 )
 ;
+DOMLinkHandler
+.
+handleEvent
+=
+gBrowserHandler
+;
 finish
 (
 )
