@@ -570,6 +570,10 @@ bug495648
 .
 rdf
 \
+test_bug514127
+.
+html
+\
 (
 NULL
 )
