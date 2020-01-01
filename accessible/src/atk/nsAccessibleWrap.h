@@ -102,6 +102,11 @@ nsAccessibleWrap
 (
 )
 ;
+void
+ShutdownAtkObject
+(
+)
+;
 NS_IMETHOD
 Shutdown
 (

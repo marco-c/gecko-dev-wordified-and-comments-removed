@@ -35,6 +35,14 @@ nsDocAccessibleWrap
 (
 )
 ;
+void
+SetEditor
+(
+nsIEditor
+*
+aEditor
+)
+;
 PRBool
 mActivated
 ;
