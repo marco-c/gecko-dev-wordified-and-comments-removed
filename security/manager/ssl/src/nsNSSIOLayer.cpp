@@ -217,7 +217,7 @@ nsNSSSocketInfo
 :
 mFd
 (
-nullptr
+nsnull
 )
 mCertVerificationState
 (
@@ -442,7 +442,7 @@ aCallbacks
 {
 mCallbacks
 =
-nullptr
+nsnull
 ;
 return
 NS_OK
@@ -474,7 +474,7 @@ NS_ASSERTION
 result
 !
 =
-nullptr
+nsnull
 "
 result
 parameter
@@ -488,7 +488,7 @@ null
 *
 result
 =
-nullptr
+nsnull
 ;
 NS_ASSERTION
 (
@@ -797,7 +797,7 @@ CERTCertificate
 *
 nssCert
 =
-nullptr
+nsnull
 ;
 CERTCertificateCleaner
 nsscertCleaner
@@ -1327,7 +1327,7 @@ null
 *
 _result
 =
-nullptr
+nsnull
 ;
 nsRefPtr
 <
@@ -1644,7 +1644,7 @@ mTLSIntolerantSites
 ;
 mTLSIntolerantSites
 =
-nullptr
+nsnull
 ;
 }
 if
@@ -1657,7 +1657,7 @@ mTLSTolerantSites
 ;
 mTLSTolerantSites
 =
-nullptr
+nsnull
 ;
 }
 if
@@ -1670,7 +1670,7 @@ mRenegoUnrestrictedSites
 ;
 mRenegoUnrestrictedSites
 =
-nullptr
+nsnull
 ;
 }
 if
@@ -1683,7 +1683,7 @@ mutex
 ;
 mutex
 =
-nullptr
+nsnull
 ;
 }
 }
@@ -1985,7 +1985,7 @@ PR_BAD_DESCRIPTOR_ERROR
 )
 ;
 return
-nullptr
+nsnull
 ;
 }
 nsNSSSocketInfo
@@ -2026,7 +2026,7 @@ PR_SOCKET_SHUTDOWN_ERROR
 )
 ;
 return
-nullptr
+nsnull
 ;
 }
 if
@@ -2086,7 +2086,7 @@ socketInfo
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 return
@@ -2549,7 +2549,7 @@ mFd
 ;
 mFd
 =
-nullptr
+nsnull
 ;
 if
 (
@@ -3675,7 +3675,7 @@ nsSSLIOLayerHelpers
 :
 mutex
 =
-nullptr
+nsnull
 ;
 nsTHashtable
 <
@@ -3687,7 +3687,7 @@ nsSSLIOLayerHelpers
 :
 mTLSIntolerantSites
 =
-nullptr
+nsnull
 ;
 nsTHashtable
 <
@@ -3699,7 +3699,7 @@ nsSSLIOLayerHelpers
 :
 mTLSTolerantSites
 =
-nullptr
+nsnull
 ;
 nsTHashtable
 <
@@ -3711,7 +3711,7 @@ nsSSLIOLayerHelpers
 :
 mRenegoUnrestrictedSites
 =
-nullptr
+nsnull
 ;
 bool
 nsSSLIOLayerHelpers
@@ -4946,7 +4946,7 @@ mRenegoUnrestrictedSites
 ;
 mRenegoUnrestrictedSites
 =
-nullptr
+nsnull
 ;
 }
 mRenegoUnrestrictedSites
@@ -7333,12 +7333,12 @@ socket
 *
 pRetCert
 =
-nullptr
+nsnull
 ;
 *
 pRetKey
 =
-nullptr
+nsnull
 ;
 return
 SECSuccess
@@ -8053,7 +8053,7 @@ rememberedDBKey
 get
 (
 )
-nullptr
+nsnull
 getter_AddRefs
 (
 found_cert
@@ -9294,7 +9294,7 @@ sslSock
 =
 SSL_ImportFD
 (
-nullptr
+nsnull
 fd
 )
 ;
@@ -9317,7 +9317,7 @@ socket
 )
 ;
 return
-nullptr
+nsnull
 ;
 }
 SSL_SetPKCS11PinArg
@@ -9431,7 +9431,7 @@ sslSock
 ;
 }
 return
-nullptr
+nsnull
 ;
 }
 static
@@ -9791,10 +9791,13 @@ PRFileDesc
 *
 layer
 =
-nullptr
+nsnull
 ;
 nsresult
 rv
+;
+PRStatus
+stat
 ;
 nsNSSSocketInfo
 *
@@ -9941,7 +9944,7 @@ PRFilePrivate
 )
 infoObject
 ;
-rv
+stat
 =
 PR_PushIOLayer
 (
@@ -9955,10 +9958,10 @@ layer
 ;
 if
 (
-NS_FAILED
-(
-rv
-)
+stat
+=
+=
+PR_FAILURE
 )
 {
 goto
