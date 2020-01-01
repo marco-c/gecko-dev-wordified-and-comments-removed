@@ -2215,9 +2215,6 @@ SlotVector
 closedVars
 ;
 uint16
-traceIndex
-;
-uint16
 typesetCount
 ;
 BytecodeEmitter
@@ -3109,7 +3106,7 @@ SRC_FOR
 SRC_WHILE
 =
 4
-SRC_TRACE
+SRC_LOOPHEAD
 =
 4
 SRC_CONTINUE

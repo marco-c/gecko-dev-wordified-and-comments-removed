@@ -2268,7 +2268,7 @@ size_t
 StackSpace
 :
 :
-committedSize
+sizeOfCommitted
 (
 )
 {
