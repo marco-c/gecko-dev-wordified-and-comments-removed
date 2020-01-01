@@ -32375,6 +32375,16 @@ pref
 "
 memory
 .
+low_commit_space_threshold_mb
+"
+128
+)
+;
+pref
+(
+"
+memory
+.
 low_physical_memory_threshold_mb
 "
 0
@@ -32385,7 +32395,7 @@ pref
 "
 memory
 .
-low_physical_memory_notification_interval_ms
+low_memory_notification_interval_ms
 "
 10000
 )
