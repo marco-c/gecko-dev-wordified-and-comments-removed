@@ -696,6 +696,10 @@ nsDOMMemoryReporter
 .
 cpp
 \
+Navigator
+.
+cpp
+\
 (
 NULL
 )
