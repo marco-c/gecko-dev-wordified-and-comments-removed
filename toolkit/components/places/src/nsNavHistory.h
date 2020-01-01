@@ -1912,7 +1912,7 @@ InitFunctions
 )
 ;
 nsresult
-InitStatements
+InitTriggers
 (
 )
 ;

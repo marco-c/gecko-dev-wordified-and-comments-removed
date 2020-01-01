@@ -129,6 +129,7 @@ NS_LITERAL_CSTRING
 \
 "
 CREATE
+TEMP
 TRIGGER
 moz_historyvisits_afterinsert_v2_trigger
 "
@@ -212,6 +213,7 @@ NS_LITERAL_CSTRING
 \
 "
 CREATE
+TEMP
 TRIGGER
 moz_historyvisits_afterdelete_v2_trigger
 "
