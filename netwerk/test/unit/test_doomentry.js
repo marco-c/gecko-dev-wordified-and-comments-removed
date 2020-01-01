@@ -23,7 +23,6 @@ function
 GetOutputStreamForEntry
 (
 key
-asFile
 append
 callback
 )
@@ -33,12 +32,6 @@ this
 _key
 =
 key
-;
-this
-.
-_asFile
-=
-asFile
 ;
 this
 .
@@ -68,9 +61,6 @@ _key
 :
 "
 "
-_asFile
-:
-false
 _append
 :
 false
@@ -187,16 +177,6 @@ createSession
 "
 HTTP
 "
-this
-.
-_asFile
-?
-Ci
-.
-nsICache
-.
-STORE_ON_DISK_AS_FILE
-:
 Ci
 .
 nsICache
@@ -446,7 +426,6 @@ GetOutputStreamForEntry
 "
 testentry
 "
-true
 false
 write_entry_cont
 )
@@ -541,7 +520,6 @@ GetOutputStreamForEntry
 "
 testentry
 "
-true
 false
 write_entry2
 )

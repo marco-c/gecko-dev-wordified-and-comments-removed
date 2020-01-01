@@ -103,12 +103,6 @@ nsIOutputStream
 >
 mSink
 ;
-nsCOMPtr
-<
-nsISupports
->
-mCacheToken
-;
 bool
 mLocationIsTemp
 ;
