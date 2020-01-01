@@ -1564,11 +1564,6 @@ jsop_getelem_slow
 )
 ;
 void
-jsop_callelem_slow
-(
-)
-;
-void
 jsop_unbrand
 (
 )
@@ -2125,8 +2120,6 @@ jsop_setelem
 bool
 jsop_getelem
 (
-bool
-isCall
 )
 ;
 bool
