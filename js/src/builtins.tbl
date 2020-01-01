@@ -970,3 +970,16 @@ JSString
 1
 1
 )
+BUILTIN2
+(
+BooleanToNumber
+LO
+LO
+F
+jsdouble
+JSContext
+*
+jsint
+1
+1
+)
