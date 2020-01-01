@@ -254,6 +254,13 @@ NSEvent
 *
 mLastMouseDownEvent
 ;
+BOOL
+mBlockedLastMouseDown
+;
+NSEvent
+*
+mClickThroughMouseDownEvent
+;
 NSMutableArray
 *
 mPendingDirtyRects
@@ -530,6 +537,13 @@ aWindow
 NSEvent
 *
 aEvent
+ChildView
+*
+aView
+BOOL
+isClickThrough
+=
+NO
 )
 ;
 static
