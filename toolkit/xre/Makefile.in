@@ -1354,16 +1354,6 @@ toolkit
 /
 crashreporter
 \
--
-I
-(
-topsrcdir
-)
-/
-chrome
-/
-src
-\
 (
 NULL
 )

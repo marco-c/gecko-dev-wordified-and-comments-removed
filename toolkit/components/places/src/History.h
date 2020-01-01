@@ -97,10 +97,6 @@ NotifyVisited
 nsIURI
 *
 aURI
-bool
-mIsVisited
-=
-true
 )
 ;
 static

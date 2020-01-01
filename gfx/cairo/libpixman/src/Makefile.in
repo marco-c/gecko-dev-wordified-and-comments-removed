@@ -735,16 +735,6 @@ pixman
 fast
 -
 path
--
-scale
-.
-c
-\
-pixman
--
-fast
--
-path
 .
 c
 \
