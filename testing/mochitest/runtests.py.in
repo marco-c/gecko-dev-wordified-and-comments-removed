@@ -2802,7 +2802,10 @@ and
 -
 abort
 "
+(
+status
 start
+)
 =
 automation
 .
