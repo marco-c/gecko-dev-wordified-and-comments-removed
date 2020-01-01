@@ -263,14 +263,6 @@ lir
 )
 ;
 bool
-visitInlineFunctionGuard
-(
-LInlineFunctionGuard
-*
-lir
-)
-;
-bool
 visitPolyInlineDispatch
 (
 LPolyInlineDispatch
