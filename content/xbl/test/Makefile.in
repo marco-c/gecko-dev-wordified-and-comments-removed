@@ -194,10 +194,6 @@ NULL
 MOCHITEST_CHROME_FILES
 =
 \
-test_bug296375
-.
-xul
-\
 test_bug378518
 .
 xul

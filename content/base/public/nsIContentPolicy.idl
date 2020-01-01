@@ -725,11 +725,6 @@ binding
 CSS
 *
 property
-or
-Document
-.
-addBinding
-method
 .
 *
 /
