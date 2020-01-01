@@ -1216,12 +1216,10 @@ JSSLOT_PRIVATE
 +
 2
 ;
-JS_STATIC_ASSERT
+inline
+void
+staticAssertArrayLengthIsInPrivateSlot
 (
-JSSLOT_ARRAY_LENGTH
-=
-=
-JSSLOT_PRIVATE
 )
 ;
 public
