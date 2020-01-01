@@ -674,16 +674,6 @@ if
 audioDecoded
 >
 AMPLE_AUDIO_MS
-|
-|
-(
-skipToNextKeyframe
-&
-&
-audioDecoded
->
-audioPumpThresholdMs
-)
 )
 {
 audioWait
