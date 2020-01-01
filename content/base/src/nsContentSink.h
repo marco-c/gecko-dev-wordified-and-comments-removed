@@ -843,6 +843,9 @@ PRInt32
 mInNotification
 ;
 PRUint32
+mUpdatesInNotification
+;
+PRUint32
 mPendingSheetCount
 ;
 MOZ_TIMER_DECLARE
