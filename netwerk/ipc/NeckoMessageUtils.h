@@ -388,7 +388,7 @@ uri
 if
 (
 !
-serialiable
+serializable
 |
 |
 !
