@@ -13723,6 +13723,12 @@ bold
 "
 900
 "
+"
+bolder
+"
+"
+lighter
+"
 ]
 invalid_values
 :
