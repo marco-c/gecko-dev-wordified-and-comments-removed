@@ -9174,6 +9174,7 @@ this
 .
 LMANNO_FEEDURI
 ;
+return
 this
 .
 _asyncGetBookmarksStmt
@@ -9293,6 +9294,7 @@ aScope
 this
 .
 _itemIds
+aURI
 ]
 )
 ;

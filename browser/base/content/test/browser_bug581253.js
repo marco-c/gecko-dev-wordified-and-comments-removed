@@ -209,7 +209,7 @@ if
 (
 PlacesStarButton
 .
-_ignoreClicks
+_pendingStmt
 |
 |
 starButton
