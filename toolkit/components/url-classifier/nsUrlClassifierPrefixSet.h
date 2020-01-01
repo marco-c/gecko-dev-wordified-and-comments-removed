@@ -144,8 +144,6 @@ aFound
 NS_IMETHOD
 SizeOfIncludingThis
 (
-bool
-aCountMe
 PRUint32
 *
 aSize
