@@ -716,6 +716,15 @@ priority
 {
 if
 (
+sDb
+=
+=
+null
+)
+return
+;
+if
+(
 priority
 =
 =
