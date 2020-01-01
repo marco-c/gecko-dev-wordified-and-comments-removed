@@ -237,9 +237,9 @@ final
 float
 PAN_THRESHOLD
 =
-4
+0
 .
-0f
+1f
 ;
 private
 static
@@ -651,6 +651,12 @@ event
 )
 <
 PAN_THRESHOLD
+*
+GeckoAppShell
+.
+getDpi
+(
+)
 )
 return
 false
