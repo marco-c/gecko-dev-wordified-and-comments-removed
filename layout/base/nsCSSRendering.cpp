@@ -4441,8 +4441,11 @@ hasBorderRadius
 {
 skipGfxRect
 .
-Inset
+Deflate
 (
+gfxMargin
+(
+0
 PR_MAX
 (
 borderRadii
@@ -4474,7 +4477,7 @@ C_BR
 .
 height
 )
-0
+)
 )
 ;
 }
@@ -5680,8 +5683,11 @@ hasBorderRadius
 {
 skipGfxRect
 .
-Inset
+Deflate
 (
+gfxMargin
+(
+0
 PR_MAX
 (
 clipRectRadii
@@ -5713,7 +5719,7 @@ C_BR
 .
 height
 )
-0
+)
 )
 ;
 }

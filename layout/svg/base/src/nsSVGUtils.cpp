@@ -7931,12 +7931,10 @@ aPathExtents
 ;
 strokeExtents
 .
-Outset
+Inflate
 (
-dy
 dx
 dy
-dx
 )
 ;
 return

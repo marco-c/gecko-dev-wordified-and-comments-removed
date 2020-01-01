@@ -1215,7 +1215,7 @@ userSpaceClipExtents
 ;
 imageSpaceClipExtents
 .
-Outset
+Inflate
 (
 1
 .

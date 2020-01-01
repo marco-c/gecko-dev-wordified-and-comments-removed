@@ -1968,7 +1968,7 @@ matrixIsIntegerTranslation
 {
 affectedRect
 .
-Outset
+Inflate
 (
 filterRadius
 )
@@ -2077,7 +2077,7 @@ matrixIsIntegerTranslation
 {
 clipExtents
 .
-Outset
+Inflate
 (
 filterRadius
 )
