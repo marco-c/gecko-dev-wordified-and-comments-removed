@@ -268,11 +268,6 @@ SharedTextureImage
 h
 '
 '
-ShmemYCbCrImage
-.
-h
-'
-'
 TexturePoolOGL
 .
 h
@@ -577,11 +572,6 @@ SharedRGBImage
 h
 '
 '
-ShmemYCbCrImage
-.
-h
-'
-'
 TaskThrottler
 .
 h
@@ -613,6 +603,11 @@ h
 '
 '
 TiledContentClient
+.
+h
+'
+'
+YCbCrImageDataSerializer
 .
 h
 '

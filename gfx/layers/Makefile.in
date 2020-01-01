@@ -544,10 +544,6 @@ SharedPlanarYCbCrImage
 .
 cpp
 \
-ShmemYCbCrImage
-.
-cpp
-\
 SharedRGBImage
 .
 cpp
@@ -589,6 +585,10 @@ TiledContentClient
 cpp
 \
 TiledContentHost
+.
+cpp
+\
+YCbCrImageDataSerializer
 .
 cpp
 \

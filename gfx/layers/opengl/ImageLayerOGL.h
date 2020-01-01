@@ -65,7 +65,7 @@ class
 PlanarYCbCrImage
 ;
 class
-ShmemYCbCrImage
+BlobYCbCrSurface
 ;
 class
 GLTexture

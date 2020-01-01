@@ -15,17 +15,6 @@ h
 #
 include
 "
-mozilla
-/
-layers
-/
-ShmemYCbCrImage
-.
-h
-"
-#
-include
-"
 ipc
 /
 AutoOpenSurface

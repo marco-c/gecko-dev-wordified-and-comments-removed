@@ -45,7 +45,11 @@ h
 #
 include
 "
-ShmemYCbCrImage
+mozilla
+/
+layers
+/
+YCbCrImageDataSerializer
 .
 h
 "
@@ -2016,8 +2020,8 @@ SurfaceDescriptor
 TYCbCrImage
 )
 ;
-ShmemYCbCrImage
-shmemImage
+YCbCrImageDataDeserializer
+yuvDeserializer
 (
 aImage
 .
@@ -2028,13 +2032,11 @@ get_YCbCrImage
 data
 (
 )
-aImage
 .
-get_YCbCrImage
-(
-)
-.
-offset
+get
+<
+uint8_t
+>
 (
 )
 )
@@ -2042,7 +2044,7 @@ offset
 gfxIntSize
 gfxCbCrSize
 =
-shmemImage
+yuvDeserializer
 .
 GetCbCrSize
 (
@@ -2051,7 +2053,7 @@ GetCbCrSize
 gfxIntSize
 size
 =
-shmemImage
+yuvDeserializer
 .
 GetYSize
 (
@@ -2064,7 +2066,7 @@ initData
 .
 pSysMem
 =
-shmemImage
+yuvDeserializer
 .
 GetYData
 (
@@ -2074,7 +2076,7 @@ initData
 .
 SysMemPitch
 =
-shmemImage
+yuvDeserializer
 .
 GetYStride
 (
@@ -2118,7 +2120,7 @@ initData
 .
 pSysMem
 =
-shmemImage
+yuvDeserializer
 .
 GetCbData
 (
@@ -2128,7 +2130,7 @@ initData
 .
 SysMemPitch
 =
-shmemImage
+yuvDeserializer
 .
 GetCbCrStride
 (
@@ -2138,7 +2140,7 @@ desc
 .
 Width
 =
-shmemImage
+yuvDeserializer
 .
 GetCbCrSize
 (
@@ -2150,7 +2152,7 @@ desc
 .
 Height
 =
-shmemImage
+yuvDeserializer
 .
 GetCbCrSize
 (
@@ -2180,7 +2182,7 @@ initData
 .
 pSysMem
 =
-shmemImage
+yuvDeserializer
 .
 GetCrData
 (
