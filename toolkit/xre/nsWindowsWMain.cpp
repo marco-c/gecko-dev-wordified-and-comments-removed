@@ -288,6 +288,13 @@ XRE_DONT_PROTECT_DLL_LOAD
 mozilla
 :
 :
+SanitizeEnvironmentVariables
+(
+)
+;
+mozilla
+:
+:
 NS_SetDllDirectory
 (
 L

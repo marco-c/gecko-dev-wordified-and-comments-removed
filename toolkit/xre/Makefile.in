@@ -574,6 +574,12 @@ CPPSRCS
 nsNativeAppSupportWin
 .
 cpp
+CPPSRCS
++
+=
+nsWindowsDllBlocklist
+.
+cpp
 DEFINES
 +
 =
