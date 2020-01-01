@@ -6949,9 +6949,9 @@ success
 PR_FALSE
 )
 ;
-}
 #
 endif
+}
 mGlobal
 =
 global
