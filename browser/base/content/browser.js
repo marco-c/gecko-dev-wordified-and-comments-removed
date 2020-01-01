@@ -11375,7 +11375,7 @@ params
 .
 location
 =
-content
+errorDoc
 .
 location
 .
@@ -11441,7 +11441,7 @@ params
 .
 exceptionAdded
 )
-content
+errorDoc
 .
 location
 .
