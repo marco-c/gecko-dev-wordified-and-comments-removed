@@ -252,6 +252,10 @@ mBlockedOnParent
 (
 false
 )
+mSawRPCOutMsg
+(
+false
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -2367,6 +2371,10 @@ OnExitedCxxStack
 (
 )
 ;
+if
+(
+mSawRPCOutMsg
+)
 {
 MutexAutoLock
 lock
@@ -2377,6 +2385,10 @@ mMutex
 EnqueuePendingMessages
 (
 )
+;
+mSawRPCOutMsg
+=
+false
 ;
 }
 }
