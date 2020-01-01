@@ -124,10 +124,6 @@ PBlob
 ;
 include
 protocol
-PBluetooth
-;
-include
-protocol
 PBrowser
 ;
 include
@@ -566,9 +562,6 @@ PAudio
 ;
 manages
 PBlob
-;
-manages
-PBluetooth
 ;
 manages
 PBrowser
@@ -1103,10 +1096,6 @@ PStorage
 (
 StorageConstructData
 data
-)
-;
-PBluetooth
-(
 )
 ;
 /
