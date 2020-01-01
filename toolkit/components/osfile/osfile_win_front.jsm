@@ -1861,7 +1861,7 @@ _name
 ;
 }
 get
-winCreationTime
+winCreationDate
 (
 )
 {
@@ -1878,7 +1878,7 @@ _ftCreationTime
 delete
 this
 .
-winCreationTime
+winCreationDate
 ;
 Object
 .
@@ -1886,7 +1886,7 @@ defineProperty
 (
 this
 "
-winCreationTime
+winCreationDate
 "
 {
 value
@@ -1900,7 +1900,7 @@ date
 ;
 }
 get
-winLastWriteTime
+winLastWriteDate
 (
 )
 {
@@ -1917,7 +1917,7 @@ _ftLastWriteTime
 delete
 this
 .
-winLastWriteTime
+winLastWriteDate
 ;
 Object
 .
@@ -1925,7 +1925,7 @@ defineProperty
 (
 this
 "
-winLastWriteTime
+winLastWriteDate
 "
 {
 value
@@ -1939,7 +1939,7 @@ date
 ;
 }
 get
-winLastAccessTime
+winLastAccessDate
 (
 )
 {
@@ -1956,7 +1956,7 @@ _ftLastAccessTime
 delete
 this
 .
-winLastAccessTime
+winLastAccessDate
 ;
 Object
 .
@@ -1964,7 +1964,7 @@ defineProperty
 (
 this
 "
-winLastAccessTime
+winLastAccessDate
 "
 {
 value

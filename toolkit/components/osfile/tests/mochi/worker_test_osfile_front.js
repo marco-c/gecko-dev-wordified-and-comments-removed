@@ -2160,7 +2160,7 @@ creation
 =
 entry
 .
-winCreationTime
+winCreationDate
 ;
 ok
 (
@@ -2214,7 +2214,7 @@ lastWrite
 =
 entry
 .
-winLastWriteTime
+winLastWriteDate
 ;
 ok
 (
@@ -2268,7 +2268,7 @@ lastAccess
 =
 entry
 .
-winLastAccessTime
+winLastAccessDate
 ;
 ok
 (
