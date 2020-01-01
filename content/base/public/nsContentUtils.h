@@ -3347,6 +3347,8 @@ aPrincipal
 nsIChannel
 *
 aChannel
+bool
+aAllowIfInheritsPrincipal
 )
 ;
 static

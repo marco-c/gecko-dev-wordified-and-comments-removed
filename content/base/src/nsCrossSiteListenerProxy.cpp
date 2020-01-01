@@ -3340,6 +3340,7 @@ CheckMayLoad
 (
 uri
 false
+false
 )
 )
 &
@@ -3359,6 +3360,7 @@ mRequestingPrincipal
 CheckMayLoad
 (
 originalURI
+false
 false
 )
 )

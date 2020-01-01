@@ -453,6 +453,8 @@ nsIURI
 uri
 bool
 aReport
+bool
+aAllowIfInheritsPrincipal
 )
 {
 return

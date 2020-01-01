@@ -4413,6 +4413,7 @@ CheckMayLoad
 (
 manifestURI
 true
+false
 )
 ;
 if

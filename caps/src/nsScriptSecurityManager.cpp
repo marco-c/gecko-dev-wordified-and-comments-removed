@@ -5503,6 +5503,7 @@ CheckMayLoad
 (
 targetBaseURI
 true
+false
 )
 ;
 }
