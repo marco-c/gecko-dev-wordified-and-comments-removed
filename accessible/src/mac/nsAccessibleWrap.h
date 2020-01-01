@@ -112,9 +112,9 @@ InvalidateChildren
 ;
 virtual
 nsresult
-FireAccessibleEvent
+HandleAccEvent
 (
-nsIAccessibleEvent
+nsAccEvent
 *
 aEvent
 )
@@ -188,7 +188,7 @@ virtual
 nsresult
 FirePlatformEvent
 (
-nsIAccessibleEvent
+nsAccEvent
 *
 aEvent
 )

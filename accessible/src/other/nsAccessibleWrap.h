@@ -47,7 +47,7 @@ virtual
 nsresult
 FirePlatformEvent
 (
-nsIAccessibleEvent
+nsAccEvent
 *
 aEvent
 )
