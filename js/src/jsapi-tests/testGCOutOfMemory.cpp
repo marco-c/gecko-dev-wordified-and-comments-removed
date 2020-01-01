@@ -176,6 +176,9 @@ JS_GC
 rt
 )
 ;
+return
+true
+;
 EVAL
 (
 "
