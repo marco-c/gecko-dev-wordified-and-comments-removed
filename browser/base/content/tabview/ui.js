@@ -736,6 +736,13 @@ removeHiddenGroups
 (
 )
 ;
+Storage
+.
+saveActiveGroupName
+(
+gWindow
+)
+;
 TabItems
 .
 saveAll
