@@ -449,7 +449,7 @@ any
 obj
 obj
 valueOf
-ifprimtop
+ifcantcalltop
 1
 #
 any
@@ -468,7 +468,7 @@ call
 any
 obj
 rval
-ifprimtop
+ifcantcalltop
 3
 #
 any
@@ -560,7 +560,7 @@ any
 obj
 obj
 valueOf
-ifprimtop
+ifcantcalltop
 1
 #
 any
@@ -579,7 +579,7 @@ call
 any
 obj
 lval
-ifprimtop
+ifcantcalltop
 3
 #
 any
@@ -700,7 +700,7 @@ any
 obj
 obj
 valueOf
-ifprimtop
+ifcantcalltop
 1
 #
 any
@@ -719,7 +719,7 @@ call
 any
 obj
 rval
-ifprimtop
+ifcantcalltop
 3
 #
 any
@@ -811,7 +811,7 @@ any
 obj
 obj
 valueOf
-ifprimtop
+ifcantcalltop
 1
 #
 any
@@ -830,7 +830,7 @@ call
 any
 obj
 lval
-ifprimtop
+ifcantcalltop
 3
 #
 any
@@ -926,7 +926,7 @@ obj2
 obj1
 obj1
 valueOf
-ifprimtop
+ifcantcalltop
 1
 #
 obj2
@@ -945,7 +945,7 @@ call
 obj2
 obj1
 lval
-ifprimtop
+ifcantcalltop
 3
 #
 obj2
@@ -1025,7 +1025,7 @@ lval
 obj
 obj
 valueOf
-ifprimtop
+ifcantcalltop
 4
 #
 lval
@@ -1044,7 +1044,7 @@ call
 lval
 obj
 rval
-ifprimtop
+ifcantcalltop
 6
 #
 lval
@@ -1139,7 +1139,7 @@ any
 obj
 obj
 valueOf
-ifprimtop
+ifcantcalltop
 1
 #
 any
@@ -1158,7 +1158,7 @@ call
 any
 obj
 rval
-ifprimtop
+ifcantcalltop
 3
 #
 any
@@ -1250,7 +1250,7 @@ any
 obj
 obj
 valueOf
-ifprimtop
+ifcantcalltop
 1
 #
 any
@@ -1269,7 +1269,7 @@ call
 any
 obj
 lval
-ifprimtop
+ifcantcalltop
 3
 #
 any
@@ -1365,7 +1365,7 @@ obj2
 obj1
 obj1
 valueOf
-ifprimtop
+ifcantcalltop
 1
 #
 obj2
@@ -1384,7 +1384,7 @@ call
 obj2
 obj1
 lval
-ifprimtop
+ifcantcalltop
 3
 #
 obj2
@@ -1464,7 +1464,7 @@ lval
 obj
 obj
 valueOf
-ifprimtop
+ifcantcalltop
 4
 #
 lval
@@ -1483,7 +1483,7 @@ call
 lval
 obj
 rval
-ifprimtop
+ifcantcalltop
 6
 #
 lval
@@ -1576,7 +1576,7 @@ valueOf
 obj
 obj
 valueOf
-ifprimtop
+ifcantcalltop
 2
 #
 obj
@@ -1592,7 +1592,7 @@ call
 #
 obj
 lval
-ifprimtop
+ifcantcalltop
 1
 #
 obj
@@ -1931,7 +1931,7 @@ this
 obj
 obj
 toString
-ifprimtop
+ifcantcalltop
 1
 #
 String
@@ -1953,7 +1953,7 @@ String
 this
 obj
 rval
-ifprimtop
+ifcantcalltop
 3
 #
 String
@@ -2064,7 +2064,7 @@ this
 obj
 obj
 toString
-ifprimtop
+ifcantcalltop
 1
 #
 String
@@ -2086,7 +2086,7 @@ String
 this
 obj
 rval
-ifprimtop
+ifcantcalltop
 3
 #
 String
