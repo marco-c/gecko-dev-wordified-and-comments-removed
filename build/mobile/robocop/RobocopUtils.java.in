@@ -98,7 +98,7 @@ final
 int
 MAX_WAIT_MS
 =
-3000
+20000
 ;
 private
 RobocopUtils
