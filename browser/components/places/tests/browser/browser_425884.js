@@ -272,9 +272,9 @@ transaction
 "
 )
 ;
-PlacesUIUtils
+PlacesUtils
 .
-ptm
+transactionManager
 .
 doTransaction
 (
@@ -311,9 +311,9 @@ validate
 folderBNode
 )
 ;
-PlacesUIUtils
+PlacesUtils
 .
-ptm
+transactionManager
 .
 undoTransaction
 (
@@ -335,9 +335,9 @@ folder
 "
 )
 ;
-PlacesUIUtils
+PlacesUtils
 .
-ptm
+transactionManager
 .
 redoTransaction
 (
@@ -386,9 +386,9 @@ containerOpen
 =
 false
 ;
-PlacesUIUtils
+PlacesUtils
 .
-ptm
+transactionManager
 .
 undoTransaction
 (

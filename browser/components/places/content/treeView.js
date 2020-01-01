@@ -7884,11 +7884,8 @@ aText
 let
 txn
 =
-PlacesUIUtils
-.
-ptm
-.
-editItemTitle
+new
+PlacesEditItemTitleTransaction
 (
 node
 .
@@ -7896,9 +7893,9 @@ itemId
 aText
 )
 ;
-PlacesUIUtils
+PlacesUtils
 .
-ptm
+transactionManager
 .
 doTransaction
 (
