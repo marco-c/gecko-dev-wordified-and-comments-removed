@@ -6025,13 +6025,13 @@ WEBGLRENDERBUFFER_PRIVATE_IID
 class
 WebGLFramebufferAttachment
 {
-nsRefPtr
+WebGLObjectRefPtr
 <
 WebGLTexture
 >
 mTexturePtr
 ;
-nsRefPtr
+WebGLObjectRefPtr
 <
 WebGLRenderbuffer
 >
