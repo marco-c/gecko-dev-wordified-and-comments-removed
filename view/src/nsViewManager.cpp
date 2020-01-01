@@ -4083,6 +4083,9 @@ if
 widget
 )
 {
+#
+ifdef
+DEBUG_FOCUS_SUPPRESSION
 printf
 (
 "
@@ -4103,6 +4106,8 @@ n
 "
 )
 ;
+#
+endif
 nsGUIEvent
 event
 (
@@ -4154,6 +4159,9 @@ if
 widget
 )
 {
+#
+ifdef
+DEBUG_FOCUS_SUPPRESSION
 printf
 (
 "
@@ -4174,6 +4182,8 @@ n
 "
 )
 ;
+#
+endif
 nsGUIEvent
 event
 (
@@ -4907,6 +4917,9 @@ message
 NS_GOTFOCUS
 )
 {
+#
+ifdef
+DEBUG_FOCUS_SUPPRESSION
 printf
 (
 "
@@ -4944,6 +4957,8 @@ suppressed
 )
 )
 ;
+#
+endif
 SetCurrentlyFocusedView
 (
 nsView
@@ -4989,6 +5004,9 @@ IsFocusSuppressed
 )
 )
 {
+#
+ifdef
+DEBUG_FOCUS_SUPPRESSION
 printf
 (
 "
@@ -5026,6 +5044,8 @@ NS_LOSTFOCUS
 )
 )
 ;
+#
+endif
 break
 ;
 }
