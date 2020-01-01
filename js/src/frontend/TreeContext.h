@@ -459,7 +459,7 @@ true
 ;
 }
 unsigned
-argumentsLocal
+argumentsLocalSlot
 (
 )
 const

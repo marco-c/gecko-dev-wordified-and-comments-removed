@@ -630,7 +630,7 @@ prev
 )
 )
 {
-InlinedSite
+JSInlinedSite
 *
 inlined
 ;
@@ -3465,7 +3465,7 @@ fp
 )
 -
 >
-forEachUnaliasedActual
+forEachCanonicalActualArg
 (
 CopyTo
 (

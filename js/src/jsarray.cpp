@@ -1654,7 +1654,7 @@ asArguments
 (
 )
 .
-maybeGetElement
+getElement
 (
 uint32_t
 (
@@ -1893,7 +1893,7 @@ if
 (
 argsobj
 .
-maybeGetElements
+getElements
 (
 0
 length

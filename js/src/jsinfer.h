@@ -71,9 +71,6 @@ TypeInferenceSizes
 namespace
 js
 {
-class
-CallObject
-;
 namespace
 types
 {
@@ -2504,7 +2501,7 @@ JSScript
 *
 next
 ;
-CallObject
+JSObject
 *
 activeCall
 ;

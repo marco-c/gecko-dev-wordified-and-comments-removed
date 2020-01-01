@@ -3058,12 +3058,15 @@ MSG_DEF
 (
 JSMSG_NESTING_GENERATOR
 175
-0
+1
 JSEXN_TYPEERR
 "
 already
 executing
 generator
+{
+0
+}
 "
 )
 MSG_DEF

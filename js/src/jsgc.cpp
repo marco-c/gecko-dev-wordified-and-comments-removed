@@ -15600,7 +15600,6 @@ debugScopes
 >
 sweep
 (
-rt
 )
 ;
 SweepAtomState

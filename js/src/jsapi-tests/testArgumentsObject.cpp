@@ -741,7 +741,7 @@ CHECK
 (
 argsobj
 .
-maybeGetElements
+getElements
 (
 i
 j
