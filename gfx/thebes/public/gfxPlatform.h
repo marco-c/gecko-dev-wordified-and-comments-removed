@@ -446,6 +446,12 @@ GetCMSOutputProfile
 )
 ;
 static
+cmsHPROFILE
+GetCMSsRGBProfile
+(
+)
+;
+static
 cmsHTRANSFORM
 GetCMSRGBTransform
 (
