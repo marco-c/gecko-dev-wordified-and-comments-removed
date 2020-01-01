@@ -417,6 +417,8 @@ obj_setSlot
 js_count_str
 0
 JSPROP_PERMANENT
+|
+JSPROP_SHARED
 obj_getCount
 obj_getCount
 }
