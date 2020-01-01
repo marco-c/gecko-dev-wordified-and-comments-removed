@@ -1322,3 +1322,11 @@ DOMCI_CLASS
 (
 IDBDatabaseError
 )
+DOMCI_CLASS
+(
+IDBErrorEvent
+)
+DOMCI_CLASS
+(
+IDBSuccessEvent
+)

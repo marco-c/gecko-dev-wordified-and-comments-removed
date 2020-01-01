@@ -465,7 +465,7 @@ nsISupports
 idl
 "
 interface
-nsIIDBRequest
+nsIIDBDatabaseRequest
 ;
 /
 *
@@ -535,7 +535,7 @@ nsISupports
 [
 optional_argc
 ]
-nsIIDBRequest
+nsIIDBDatabaseRequest
 open
 (
 in
