@@ -29,8 +29,7 @@ clasp
 )
 ;
 inline
-JSObject
-*
+bool
 NonGenericMethodGuard
 (
 JSContext
@@ -43,9 +42,10 @@ native
 Class
 *
 clasp
-bool
+JSObject
 *
-ok
+*
+thisObj
 )
 ;
 extern
