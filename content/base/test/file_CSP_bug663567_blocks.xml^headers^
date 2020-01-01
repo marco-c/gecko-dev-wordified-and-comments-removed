@@ -7,6 +7,8 @@ Policy
 default
 -
 src
-'
-self
-'
+*
+.
+example
+.
+com
