@@ -482,6 +482,10 @@ test_imestate
 .
 html
 \
+test_plugin_scroll_consistency
+.
+html
+\
 (
 NULL
 )
