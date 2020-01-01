@@ -26724,7 +26724,7 @@ holderName
 %
 s
 .
-Value
+ref
 (
 )
 "
@@ -26736,7 +26736,7 @@ holderType
 CGTemplatedType
 (
 "
-Optional
+Maybe
 "
 holderType
 )
@@ -27006,7 +27006,7 @@ CGGeneric
 %
 s
 .
-Construct
+construct
 (
 %
 s
