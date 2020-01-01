@@ -2832,9 +2832,6 @@ generateQI
 Ci
 .
 nsIAutoCompleteSearch
-Ci
-.
-nsITimerCallback
 ]
 )
 classDescription
