@@ -4022,13 +4022,6 @@ updater
 Makefile
 toolkit
 /
-mozapps
-/
-xpinstall
-/
-Makefile
-toolkit
-/
 profile
 /
 Makefile
