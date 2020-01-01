@@ -8523,6 +8523,12 @@ type
 replaced_from
 replaced_to
 )
+        
+self
+.
+_sanityCheck
+(
+)
     
 def
 dump
