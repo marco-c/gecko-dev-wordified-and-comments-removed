@@ -1837,6 +1837,13 @@ BINPATH
 /
 components
 /
+nsFormHistory
+.
+js
+BINPATH
+/
+components
+/
 contentSecurityPolicy
 .
 js
