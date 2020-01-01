@@ -27,7 +27,7 @@ MAX_COLORS
 256
 #
 define
-MAX_HOLD_SIZE
+MIN_HOLD_SIZE
 256
 enum
 {
@@ -86,6 +86,7 @@ gif_global_header
 gif_global_colormap
 gif_image_start
 gif_image_header
+gif_image_header_continue
 gif_image_colormap
 gif_image_body
 gif_lzw_start
@@ -220,10 +221,8 @@ MAX_BITS
 ]
 ;
 uint8_t
+*
 hold
-[
-MAX_HOLD_SIZE
-]
 ;
 uint32_t
 global_colormap
