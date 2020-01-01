@@ -486,12 +486,6 @@ test_bug484459
 .
 xul
 \
-file_wrappers
--
-2
-.
-html
-\
 test_cows
 .
 xul
