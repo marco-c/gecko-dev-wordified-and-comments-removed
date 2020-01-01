@@ -317,6 +317,7 @@ function
 (
 aInputPathName
 aInputFileName
+aExpectedError
 )
 {
 var
@@ -438,6 +439,19 @@ err
 e
 ;
 }
+if
+(
+aExpectedError
+)
+this
+.
+checkExpectedError
+(
+aExpectedError
+err
+)
+;
+else
 do_check_true
 (
 err
