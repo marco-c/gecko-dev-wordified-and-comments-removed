@@ -112,13 +112,6 @@ h
 #
 include
 "
-nsDOMClassInfoID
-.
-h
-"
-#
-include
-"
 nsIURL
 .
 h
@@ -283,6 +276,13 @@ h
 include
 "
 nsIObserverService
+.
+h
+"
+#
+include
+"
+nsIWebSocketChannel
 .
 h
 "
