@@ -6,5 +6,5 @@ include
 "
 jsinterp
 .
-cpp
+c
 "
