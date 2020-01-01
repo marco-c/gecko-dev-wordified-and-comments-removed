@@ -57,6 +57,14 @@ tcp
 }
 ;
 struct
+HalfOpenSockets
+{
+bool
+speculative
+;
+}
+;
+struct
 DNSCacheEntries
 {
 nsCString
@@ -121,6 +129,12 @@ nsTArray
 HttpConnInfo
 >
 idle
+;
+nsTArray
+<
+HalfOpenSockets
+>
+halfOpens
 ;
 uint32_t
 counter
