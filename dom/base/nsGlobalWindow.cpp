@@ -2695,6 +2695,11 @@ Wrapper
 0
 )
 {
+setSafeToUnwrap
+(
+false
+)
+;
 }
 virtual
 bool
