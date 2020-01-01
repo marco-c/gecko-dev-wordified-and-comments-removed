@@ -904,6 +904,12 @@ DIST
 bin
 /
 res
+ifneq
+(
+(
+SIMPLE_PROGRAMS
+)
+)
 (
 INSTALL
 )
@@ -923,6 +929,7 @@ relativesrcdir
 )
 /
 unit
+endif
 #
 Copy
 TestHarness

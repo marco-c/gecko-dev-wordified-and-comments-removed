@@ -827,6 +827,8 @@ head_update
 js
 ifndef
 ANDROID
+ifndef
+MOZ_PROFILE_GENERATE
 libs
 :
 :
@@ -850,6 +852,7 @@ relativesrcdir
 )
 /
 unit
+endif
 endif
 #
 ANDROID

@@ -415,16 +415,6 @@ mk
 MODULE
 =
 xpcom
-include
-(
-topsrcdir
-)
-/
-config
-/
-config
-.
-mk
 CPP_UNIT_TESTS
 =
 \

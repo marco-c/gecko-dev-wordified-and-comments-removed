@@ -562,6 +562,12 @@ the
 xpcshell
 unit
 tests
+ifneq
+(
+(
+SIMPLE_PROGRAMS
+)
+)
 libs
 :
 :
@@ -584,3 +590,4 @@ relativesrcdir
 )
 /
 unit
+endif
