@@ -21,14 +21,14 @@ endif
 #
 include
 "
-jsbytecode
+jsapi
 .
 h
 "
 #
 include
 "
-jsclass
+jsbytecode
 .
 h
 "
