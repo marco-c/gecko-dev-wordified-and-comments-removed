@@ -639,10 +639,6 @@ ZLIB_LIBS
 )
 \
 (
-LCMS_LIBS
-)
-\
-(
 NULL
 )
 ifdef

@@ -56,6 +56,8 @@ unicharutil
 LCMS_REQUIRES
 )
 \
+qcms
+\
 (
 NULL
 )
@@ -162,7 +164,7 @@ ZLIB_LIBS
 )
 \
 (
-LCMS_LIBS
+QCMS_LIBS
 )
 \
 (

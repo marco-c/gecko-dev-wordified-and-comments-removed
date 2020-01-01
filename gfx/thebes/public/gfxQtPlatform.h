@@ -251,7 +251,8 @@ sFontconfigUtils
 private
 :
 virtual
-cmsHPROFILE
+qcms_profile
+*
 GetPlatformCMSOutputProfile
 (
 )

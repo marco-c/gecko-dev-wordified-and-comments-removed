@@ -470,6 +470,8 @@ thebes
 \
 cairo
 \
+qcms
+\
 (
 NULL
 )
@@ -692,7 +694,7 @@ MOZ_GTK2_LIBS
 lthebes
 \
 (
-LCMS_LIBS
+QCMS_LIBS
 )
 \
 (

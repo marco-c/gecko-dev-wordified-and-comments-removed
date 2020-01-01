@@ -470,6 +470,8 @@ imglib2
 ZLIB_REQUIRES
 )
 \
+qcms
+\
 (
 NULL
 )
@@ -561,6 +563,8 @@ REQUIRES
 =
 \
 cairo
+\
+qcms
 \
 (
 NULL

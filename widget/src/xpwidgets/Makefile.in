@@ -452,7 +452,7 @@ view
 \
 windowwatcher
 \
-lcms
+qcms
 \
 thebes
 \
