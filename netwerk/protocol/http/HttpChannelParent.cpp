@@ -423,10 +423,6 @@ const
 nsCString
 &
 appCacheClientID
-const
-bool
-&
-allowSpdy
 )
 {
 nsCOMPtr
@@ -797,14 +793,6 @@ httpChan
 SetForceAllowThirdPartyCookie
 (
 forceAllowThirdPartyCookie
-)
-;
-httpChan
--
->
-SetAllowSpdy
-(
-allowSpdy
 )
 ;
 nsCOMPtr

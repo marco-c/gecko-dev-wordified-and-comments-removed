@@ -649,14 +649,6 @@ HttpChannelParentListener
 .
 cpp
 \
-SpdySession
-.
-cpp
-\
-SpdyStream
-.
-cpp
-\
 (
 NULL
 )

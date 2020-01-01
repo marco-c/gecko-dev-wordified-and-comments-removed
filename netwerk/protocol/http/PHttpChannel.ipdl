@@ -688,8 +688,6 @@ bool
 chooseApplicationCache
 nsCString
 appCacheClientID
-bool
-allowSpdy
 )
 ;
 /

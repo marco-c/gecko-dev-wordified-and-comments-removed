@@ -230,6 +230,16 @@ return
 mConsumerTarget
 ;
 }
+nsAHttpConnection
+*
+Connection
+(
+)
+{
+return
+mConnection
+;
+}
 nsHttpResponseHead
 *
 TakeResponseHead
