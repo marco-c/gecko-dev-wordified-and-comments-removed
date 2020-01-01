@@ -4803,13 +4803,7 @@ uriLoader
 openURI
 (
 channel
-Components
-.
-interfaces
-.
-nsIURILoader
-.
-IS_CONTENT_PREFERRED
+true
 uriListener
 )
 ;

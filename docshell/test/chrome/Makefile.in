@@ -149,10 +149,6 @@ xml
 .
 xsl
 \
-allowContentRetargeting
-.
-sjs
-\
 (
 NULL
 )
@@ -446,10 +442,6 @@ test_bug846906
 xul
 \
 bug846906
-.
-html
-\
-test_allowContentRetargeting
 .
 html
 \
