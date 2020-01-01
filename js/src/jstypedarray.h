@@ -674,17 +674,6 @@ jsid
 idp
 )
 ;
-static
-JSType
-obj_typeOf
-(
-JSContext
-*
-cx
-HandleObject
-obj
-)
-;
 bool
 allocateSlots
 (
