@@ -1200,6 +1200,16 @@ nsIDOMNodeList
 length
 '
 '
+nsIDOMNodeSelector
+.
+querySelector
+'
+'
+nsIDOMNodeSelector
+.
+querySelectorAll
+'
+'
 nsIDOMText
 .
 splitText
