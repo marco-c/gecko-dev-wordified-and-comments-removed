@@ -650,7 +650,7 @@ nsMutationReceiverBase
 nsINode
 *
 aTarget
-nsIDOMMozMutationObserver
+nsIDOMMutationObserver
 *
 aObserver
 )
@@ -922,7 +922,7 @@ nsINode
 *
 mTarget
 ;
-nsIDOMMozMutationObserver
+nsIDOMMutationObserver
 *
 mObserver
 ;
@@ -1012,7 +1012,7 @@ nsMutationReceiver
 nsINode
 *
 aTarget
-nsIDOMMozMutationObserver
+nsIDOMMutationObserver
 *
 aObserver
 )
@@ -1260,7 +1260,7 @@ class
 nsDOMMutationObserver
 :
 public
-nsIDOMMozMutationObserver
+nsIDOMMutationObserver
 public
 nsIJSNativeInitializer
 {
@@ -1298,9 +1298,9 @@ NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 (
 nsDOMMutationObserver
-nsIDOMMozMutationObserver
+nsIDOMMutationObserver
 )
-NS_DECL_NSIDOMMOZMUTATIONOBSERVER
+NS_DECL_NSIDOMMUTATIONOBSERVER
 NS_IMETHOD
 Initialize
 (
@@ -1355,7 +1355,7 @@ LeaveMutationHandling
 )
 ;
 static
-nsIDOMMozMutationObserver
+nsIDOMMutationObserver
 *
 CurrentObserver
 (
@@ -1570,13 +1570,13 @@ sCount
 static
 nsCOMArray
 <
-nsIDOMMozMutationObserver
+nsIDOMMutationObserver
 >
 *
 sScheduledMutationObservers
 ;
 static
-nsIDOMMozMutationObserver
+nsIDOMMutationObserver
 *
 sCurrentObserver
 ;
@@ -1589,7 +1589,7 @@ nsAutoTArray
 <
 nsCOMArray
 <
-nsIDOMMozMutationObserver
+nsIDOMMutationObserver
 >
 4
 >

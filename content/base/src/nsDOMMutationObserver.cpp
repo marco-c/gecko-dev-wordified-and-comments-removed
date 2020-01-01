@@ -84,7 +84,7 @@ h
 "
 nsCOMArray
 <
-nsIDOMMozMutationObserver
+nsIDOMMutationObserver
 >
 *
 nsDOMMutationObserver
@@ -94,7 +94,7 @@ sScheduledMutationObservers
 =
 nsnull
 ;
-nsIDOMMozMutationObserver
+nsIDOMMutationObserver
 *
 nsDOMMutationObserver
 :
@@ -123,7 +123,7 @@ nsAutoTArray
 <
 nsCOMArray
 <
-nsIDOMMozMutationObserver
+nsIDOMMutationObserver
 >
 4
 >
@@ -630,7 +630,7 @@ mTarget
 =
 nsnull
 ;
-nsIDOMMozMutationObserver
+nsIDOMMutationObserver
 *
 observer
 =
@@ -1962,7 +1962,7 @@ nsDOMMutationObserver
 )
 DOMCI_DATA
 (
-MozMutationObserver
+MutationObserver
 nsDOMMutationObserver
 )
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
@@ -1972,11 +1972,11 @@ nsDOMMutationObserver
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
 nsISupports
-nsIDOMMozMutationObserver
+nsIDOMMutationObserver
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIDOMMozMutationObserver
+nsIDOMMutationObserver
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -1984,7 +1984,7 @@ nsIJSNativeInitializer
 )
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 (
-MozMutationObserver
+MutationObserver
 )
 NS_INTERFACE_MAP_END
 NS_IMPL_CYCLE_COLLECTING_ADDREF
@@ -2503,7 +2503,7 @@ sScheduledMutationObservers
 new
 nsCOMArray
 <
-nsIDOMMozMutationObserver
+nsIDOMMutationObserver
 >
 ;
 }
@@ -3575,7 +3575,7 @@ return
 }
 nsCOMArray
 <
-nsIDOMMozMutationObserver
+nsIDOMMutationObserver
 >
 *
 suppressedObservers
@@ -3589,7 +3589,7 @@ sScheduledMutationObservers
 {
 nsCOMArray
 <
-nsIDOMMozMutationObserver
+nsIDOMMutationObserver
 >
 *
 observers
@@ -3670,7 +3670,7 @@ suppressedObservers
 new
 nsCOMArray
 <
-nsIDOMMozMutationObserver
+nsIDOMMutationObserver
 >
 ;
 }
@@ -3967,7 +3967,7 @@ sMutationLevel
 {
 nsCOMArray
 <
-nsIDOMMozMutationObserver
+nsIDOMMutationObserver
 >
 &
 obs
@@ -4100,7 +4100,7 @@ nsAutoTArray
 <
 nsCOMArray
 <
-nsIDOMMozMutationObserver
+nsIDOMMutationObserver
 >
 4
 >
