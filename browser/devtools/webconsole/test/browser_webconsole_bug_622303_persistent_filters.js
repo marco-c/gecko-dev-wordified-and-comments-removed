@@ -37,6 +37,9 @@ exception
 "
 jswarn
 "
+"
+jslog
+"
 ]
 "
 logging
