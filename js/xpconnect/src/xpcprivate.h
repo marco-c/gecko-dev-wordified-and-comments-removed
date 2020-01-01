@@ -14243,7 +14243,9 @@ XPCWrappedNativeScope
 aScope
 JSObject
 *
-aGlobal
+aTarget
+=
+NULL
 )
 ;
 void
