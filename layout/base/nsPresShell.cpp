@@ -18303,7 +18303,7 @@ PR_FALSE
 )
 ;
 }
-NS_IMETHODIMP
+nsresult
 PresShell
 :
 :
