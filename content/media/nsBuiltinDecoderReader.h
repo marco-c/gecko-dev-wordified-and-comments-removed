@@ -93,7 +93,7 @@ mFramerate
 .
 0
 )
-mAspectRatio
+mPixelAspectRatio
 (
 1
 .
@@ -130,7 +130,7 @@ float
 mFramerate
 ;
 float
-mAspectRatio
+mPixelAspectRatio
 ;
 PRUint32
 mCallbackPeriod

@@ -643,7 +643,7 @@ mFrameRate
 (
 0
 )
-mAspectRatio
+mPixelAspectRatio
 (
 0
 )
@@ -850,7 +850,7 @@ mInfo
 .
 aspect_denominator
 ;
-mAspectRatio
+mPixelAspectRatio
 =
 (
 n

@@ -157,7 +157,7 @@ mVideoUpdateLock
 (
 nsnull
 )
-mAspectRatio
+mPixelAspectRatio
 (
 1
 .
@@ -352,7 +352,7 @@ mRGBHeight
 ;
 if
 (
-mAspectRatio
+mPixelAspectRatio
 >
 1
 .
@@ -365,7 +365,7 @@ width
 =
 ConditionDimension
 (
-mAspectRatio
+mPixelAspectRatio
 *
 scaledSize
 .
@@ -388,7 +388,7 @@ scaledSize
 .
 height
 /
-mAspectRatio
+mPixelAspectRatio
 scaledSize
 .
 height
@@ -748,7 +748,7 @@ gfxIntSize
 &
 aSize
 float
-aAspectRatio
+aPixelAspectRatio
 Image
 *
 aImage
@@ -778,10 +778,10 @@ aSize
 height
 |
 |
-mAspectRatio
+mPixelAspectRatio
 !
 =
-aAspectRatio
+aPixelAspectRatio
 )
 {
 mRGBWidth
@@ -796,9 +796,9 @@ aSize
 .
 height
 ;
-mAspectRatio
+mPixelAspectRatio
 =
-aAspectRatio
+aPixelAspectRatio
 ;
 mSizeChanged
 =

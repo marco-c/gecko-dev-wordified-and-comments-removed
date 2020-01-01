@@ -433,7 +433,7 @@ gfxIntSize
 &
 aSize
 float
-aAspectRatio
+aPixelAspectRatio
 Image
 *
 aImage
@@ -489,7 +489,7 @@ float
 mFramerate
 ;
 float
-mAspectRatio
+mPixelAspectRatio
 ;
 PRPackedBool
 mSizeChanged
