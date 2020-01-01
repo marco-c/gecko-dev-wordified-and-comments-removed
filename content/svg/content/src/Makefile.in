@@ -341,10 +341,6 @@ SVGEllipseElement
 .
 cpp
 \
-SVGFEBlendElement
-.
-cpp
-\
 SVGFilterElement
 .
 cpp
@@ -707,10 +703,6 @@ SVGDescElement
 h
 \
 SVGEllipseElement
-.
-h
-\
-SVGFEBlendElement
 .
 h
 \

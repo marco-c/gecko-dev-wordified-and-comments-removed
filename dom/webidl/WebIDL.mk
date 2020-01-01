@@ -675,14 +675,6 @@ SVGFilterElement
 .
 webidl
 \
-SVGFilterPrimitiveStandardAttributes
-.
-webidl
-\
-SVGFEBlendElement
-.
-webidl
-\
 SVGFEFuncAElement
 .
 webidl
