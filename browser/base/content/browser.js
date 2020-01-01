@@ -17552,12 +17552,6 @@ init
 (
 )
 ;
-gHomeButton
-.
-updatePersonalToolbarStyle
-(
-)
-;
 if
 (
 gURLBar
@@ -17691,6 +17685,12 @@ BrowserToolboxCustomizeChange
 gHomeButton
 .
 updatePersonalToolbarStyle
+(
+)
+;
+allTabs
+.
+readPref
 (
 )
 ;
