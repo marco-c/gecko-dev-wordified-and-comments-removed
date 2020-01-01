@@ -298,6 +298,16 @@ helper
 .
 svg
 \
+test_selectSubString
+.
+xhtml
+\
+selectSubString
+-
+helper
+.
+svg
+\
 animated
 -
 svg

@@ -262,8 +262,9 @@ SVGPoint
 point
 )
 ;
-/
-/
+[
+Throws
+]
 void
 selectSubString
 (
