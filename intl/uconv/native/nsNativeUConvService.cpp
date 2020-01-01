@@ -718,7 +718,7 @@ else
 if
 (
 aBehavior
-!
+=
 =
 nsIUnicodeEncoder
 :
