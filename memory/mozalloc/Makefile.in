@@ -522,6 +522,10 @@ mozilla
 EXPORTS_mozilla
 =
 \
+fallible
+.
+h
+\
 mozalloc
 .
 h
