@@ -1652,9 +1652,14 @@ Mozilla
 {
 RegCleanUninstall
 }
+!
+ifdef
+MOZ_METRO
 {
 ResetWin8PromptKeys
 }
+!
+endif
 {
 UpdateProtocolHandlers
 }
