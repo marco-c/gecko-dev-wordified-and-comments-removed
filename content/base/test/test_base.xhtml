@@ -571,7 +571,16 @@ shesellsseashellsbytheseashore
 ;
 node
 =
+SpecialPowers
+.
+unwrap
+(
+SpecialPowers
+.
+wrap
+(
 document
+)
 .
 getAnonymousNodes
 (
@@ -582,6 +591,7 @@ getElementById
 "
 bound
 "
+)
 )
 )
 [

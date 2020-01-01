@@ -369,7 +369,16 @@ runTest
 var
 anon
 =
+SpecialPowers
+.
+unwrap
+(
+SpecialPowers
+.
+wrap
+(
 document
+)
 .
 getAnonymousNodes
 (
@@ -380,6 +389,7 @@ getElementById
 '
 grandparent
 '
+)
 )
 )
 ;

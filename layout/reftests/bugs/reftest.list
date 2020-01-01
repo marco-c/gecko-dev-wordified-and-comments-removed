@@ -21440,6 +21440,13 @@ html
 ref
 .
 html
+pref
+(
+dom
+.
+use_xbl_scopes_for_remote_xul
+true
+)
 =
 =
 495385
