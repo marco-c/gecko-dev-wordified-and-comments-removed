@@ -165,13 +165,6 @@ desc
 obj
 |
 |
-(
-flags
-&
-JSRESOLVE_ASSIGNING
-)
-|
-|
 !
 wrapperProto
 )
