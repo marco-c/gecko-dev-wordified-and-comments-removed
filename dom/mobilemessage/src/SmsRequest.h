@@ -269,16 +269,6 @@ aReply
 )
 ;
 void
-RootResult
-(
-)
-;
-void
-UnrootResult
-(
-)
-;
-void
 SetSuccess
 (
 nsIDOMMozSmsMessage
@@ -361,9 +351,6 @@ JS
 :
 Value
 mResult
-;
-bool
-mResultRooted
 ;
 bool
 mDone
