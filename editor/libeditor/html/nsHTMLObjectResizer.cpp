@@ -2629,6 +2629,9 @@ aClientY
 nsIDOMElement
 *
 aTarget
+nsIDOMEvent
+*
+aEvent
 )
 {
 PRBool
@@ -2706,6 +2709,13 @@ mozResizer
 )
 )
 {
+aEvent
+-
+>
+PreventDefault
+(
+)
+;
 mOriginalX
 =
 aClientX
