@@ -11707,6 +11707,12 @@ type
 =
 =
 CAIRO_PATTERN_TYPE_SOLID
+&
+&
+op
+=
+=
+CAIRO_OPERATOR_OVER
 )
 {
 cairo_solid_pattern_t
