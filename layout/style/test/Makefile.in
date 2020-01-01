@@ -567,6 +567,10 @@ test_bug379440
 .
 html
 \
+test_bug379741
+.
+html
+\
 test_inherit_storage
 .
 html
