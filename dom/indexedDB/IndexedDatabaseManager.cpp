@@ -3760,7 +3760,7 @@ rv
 rv
 )
 ;
-nsString
+nsCString
 pattern
 ;
 rv
@@ -3768,7 +3768,7 @@ rv
 patternFile
 -
 >
-GetPath
+GetNativePath
 (
 pattern
 )
@@ -3811,10 +3811,7 @@ ss
 >
 SetQuotaForFilenamePattern
 (
-NS_ConvertUTF16toUTF8
-(
 pattern
-)
 GetIndexedDBQuotaMB
 (
 )
