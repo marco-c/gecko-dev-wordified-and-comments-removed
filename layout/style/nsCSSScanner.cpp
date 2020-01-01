@@ -244,7 +244,6 @@ const
 PRUint8
 gLexTable
 [
-256
 ]
 =
 {
@@ -505,6 +504,17 @@ SI
 SI
 SI
 }
+;
+PR_STATIC_ASSERT
+(
+NS_ARRAY_LENGTH
+(
+gLexTable
+)
+=
+=
+256
+)
 ;
 #
 undef
