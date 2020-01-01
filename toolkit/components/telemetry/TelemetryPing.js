@@ -1004,7 +1004,7 @@ _histograms
 [
 mr
 .
-name
+path
 ]
 ;
 if
@@ -1028,12 +1028,16 @@ _histograms
 [
 mr
 .
-name
+path
 ]
 =
 h
 ;
 }
+if
+(
+val
+)
 h
 .
 add
