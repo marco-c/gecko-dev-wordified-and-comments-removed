@@ -2251,6 +2251,9 @@ Mozilla
 {
 RegCleanUninstall
 }
+{
+UpdateProtocolHandlers
+}
 ClearErrors
 WriteRegStr
 HKLM
@@ -2322,6 +2325,9 @@ Mozilla
 "
 {
 RegCleanUninstall
+}
+{
+UpdateProtocolHandlers
 }
 ReadRegStr
 0
@@ -2545,9 +2551,6 @@ AddStartMenuSC
 0
 {
 FixClassKeys
-}
-{
-UpdateProtocolHandlers
 }
 ;
 On

@@ -461,6 +461,9 @@ Mozilla
 {
 RegCleanUninstall
 }
+{
+UpdateProtocolHandlers
+}
 ClearErrors
 WriteRegStr
 HKLM
@@ -550,6 +553,9 @@ FixShellIconHandler
 {
 SetUninstallKeys
 }
+{
+UpdateProtocolHandlers
+}
 ReadRegStr
 0
 HKLM
@@ -619,9 +625,6 @@ SetAppKeys
 }
 {
 FixClassKeys
-}
-{
-UpdateProtocolHandlers
 }
 ;
 Remove
@@ -896,9 +899,6 @@ StartMenuInternet
 "
 R9
 "
-!
-ifdef
-___WINVER__NSH___
 {
 If
 }
@@ -961,8 +961,6 @@ EndUnless
 {
 EndIf
 }
-!
-endif
 {
 RemoveDeprecatedKeys
 }
@@ -1196,7 +1194,9 @@ Pop
 {
 If
 }
+"
 0
+"
 =
 =
 "
@@ -1225,7 +1225,9 @@ paths
 {
 If
 }
+"
 0
+"
 =
 =
 "
@@ -1287,7 +1289,9 @@ Pop
 {
 If
 }
+"
 0
+"
 =
 =
 "
@@ -1316,7 +1320,9 @@ paths
 {
 If
 }
+"
 0
+"
 =
 =
 "
@@ -1789,7 +1795,7 @@ ReadRegStr
 HKCR
 "
 .
-hht
+xht
 "
 "
 "
@@ -3090,7 +3096,9 @@ Pop
 {
 If
 }
+"
 1
+"
 =
 =
 "
@@ -3197,7 +3205,9 @@ shortcut
 {
 If
 }
+"
 TmpVal
+"
 =
 =
 "
@@ -3273,7 +3283,9 @@ Pop
 {
 If
 }
+"
 1
+"
 =
 =
 "
@@ -3303,7 +3315,9 @@ GetLongPath
 {
 If
 }
+"
 1
+"
 =
 =
 "
@@ -4799,7 +4813,9 @@ Progid
 {
 If
 }
+"
 2
+"
 =
 =
 "
