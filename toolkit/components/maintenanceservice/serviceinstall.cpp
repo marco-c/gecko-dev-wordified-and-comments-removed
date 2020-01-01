@@ -1199,6 +1199,13 @@ get
 )
 )
 ;
+PathUnquoteSpacesW
+(
+serviceConfig
+.
+lpBinaryPathName
+)
+;
 DWORD
 existingA
 existingB
@@ -1906,7 +1913,7 @@ return
 TRUE
 ;
 }
-PathQuoteSpaces
+PathQuoteSpacesW
 (
 newServiceBinaryPath
 )
