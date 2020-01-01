@@ -1077,11 +1077,7 @@ bug
 )
 ;
 return
-new
-String
-[
-0
-]
+null
 ;
 }
 File
@@ -1203,11 +1199,7 @@ bug
 )
 ;
 return
-new
-String
-[
-0
-]
+null
 ;
 }
 }
