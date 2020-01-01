@@ -1297,12 +1297,6 @@ aCopy
 mURLSpec
 )
 {
-nsRefPtr
-<
-nsCSSStyleSheet
->
-sheet
-;
 if
 (
 aCopy
@@ -1310,6 +1304,10 @@ aCopy
 mChildSheet
 )
 {
+nsRefPtr
+<
+nsCSSStyleSheet
+>
 sheet
 =
 aCopy
@@ -1325,12 +1323,12 @@ nsnull
 nsnull
 )
 ;
-}
 SetSheet
 (
 sheet
 )
 ;
+}
 }
 ImportRule
 :
