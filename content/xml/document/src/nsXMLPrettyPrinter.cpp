@@ -824,6 +824,7 @@ aContent
 {
 if
 (
+(
 !
 aContent
 |
@@ -834,6 +835,7 @@ aContent
 >
 GetBindingParent
 (
+)
 )
 &
 &
