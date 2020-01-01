@@ -5352,11 +5352,6 @@ aWithMouse
 false
 )
 ;
-void
-ClearDisplayItemCache
-(
-)
-;
 bool
 IsBoxFrame
 (
