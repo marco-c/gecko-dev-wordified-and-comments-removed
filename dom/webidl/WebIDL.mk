@@ -431,6 +431,10 @@ Screen
 .
 webidl
 \
+SVGAElement
+.
+webidl
+\
 SVGAltGlyphElement
 .
 webidl
