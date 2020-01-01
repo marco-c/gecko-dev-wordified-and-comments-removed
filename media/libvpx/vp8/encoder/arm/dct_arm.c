@@ -20,7 +20,7 @@ h
 if
 HAVE_ARMV6
 void
-vp8_fast_fdct8x4_armv6
+vp8_short_fdct8x4_armv6
 (
 short
 *
@@ -32,14 +32,14 @@ int
 pitch
 )
 {
-vp8_fast_fdct4x4_armv6
+vp8_short_fdct4x4_armv6
 (
 input
 output
 pitch
 )
 ;
-vp8_fast_fdct4x4_armv6
+vp8_short_fdct4x4_armv6
 (
 input
 +

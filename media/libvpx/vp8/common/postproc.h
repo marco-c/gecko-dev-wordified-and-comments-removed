@@ -460,6 +460,9 @@ noise
 3072
 ]
 ;
+int
+last_base_qindex
+;
 DECLARE_ALIGNED
 (
 16

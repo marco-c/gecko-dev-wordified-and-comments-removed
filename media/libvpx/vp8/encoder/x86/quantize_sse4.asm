@@ -537,6 +537,7 @@ zbin_boost_ptr
 +
 +
 jl
+.
 rq_zigzag_loop_
 %
 1
@@ -578,6 +579,7 @@ sets
 Z
 bit
 je
+.
 rq_zigzag_loop_
 %
 1
@@ -626,6 +628,7 @@ b
 -
 >
 zrun_zbin_boost
+.
 rq_zigzag_loop_
 %
 1
@@ -865,6 +868,13 @@ rdi
 16
 ]
 xmm1
+mov
+rcx
+[
+rsi
++
+vp8_blockd_eob
+]
 ;
 select
 the
@@ -926,12 +936,15 @@ and
 eax
 edi
 mov
+BYTE
+PTR
 [
-rsi
-+
-vp8_blockd_eob
+rcx
 ]
-eax
+al
+;
+store
+eob
 ;
 begin
 epilog

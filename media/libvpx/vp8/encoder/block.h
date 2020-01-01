@@ -120,9 +120,6 @@ src
 int
 src_stride
 ;
-int
-force_empty
-;
 }
 BLOCK
 ;
@@ -250,6 +247,10 @@ signed
 int
 act_zbin_adj
 ;
+signed
+int
+last_act_zbin_adj
+;
 int
 mvcosts
 [
@@ -335,9 +336,6 @@ mv_row_min
 ;
 int
 mv_row_max
-;
-int
-vector_range
 ;
 int
 skip

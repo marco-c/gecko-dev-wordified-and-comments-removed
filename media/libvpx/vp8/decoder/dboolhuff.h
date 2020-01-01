@@ -21,9 +21,7 @@ h
 #
 include
 "
-vpx_ports
-/
-config
+vpx_config
 .
 h
 "

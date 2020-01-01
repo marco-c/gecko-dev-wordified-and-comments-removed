@@ -36,9 +36,14 @@ VP8_COMP
 unsigned
 char
 *
-int
-int
+cx_data
+const
+unsigned
+char
 *
+cx_data_end
+int
+num_parts
 vp8_token
 *
 vp8_extra_bit_struct

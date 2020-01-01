@@ -7,9 +7,7 @@ __VPX_MEM_INTRNL_H__
 #
 include
 "
-vpx_ports
-/
-config
+vpx_config
 .
 h
 "

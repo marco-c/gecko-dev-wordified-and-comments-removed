@@ -14,6 +14,10 @@ h
 #
 include
 "
+vp8
+/
+common
+/
 variance
 .
 h

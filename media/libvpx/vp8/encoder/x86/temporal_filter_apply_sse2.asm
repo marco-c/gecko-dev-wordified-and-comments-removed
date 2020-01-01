@@ -412,6 +412,7 @@ block_size
 ]
 8
 jne
+.
 temporal_filter_apply_load_16
 lea
 rcx
@@ -424,6 +425,7 @@ rdx
 *
 1
 ]
+.
 temporal_filter_apply_load_8
 :
 movq
@@ -485,7 +487,9 @@ src
 15
 ]
 jmp
+.
 temporal_filter_apply_load_finished
+.
 temporal_filter_apply_load_16
 :
 movdqa
@@ -532,6 +536,7 @@ src
 -
 15
 ]
+.
 temporal_filter_apply_load_finished
 :
 movdqa
@@ -1025,6 +1030,7 @@ cmp
 rdx
 rcx
 je
+.
 temporal_filter_apply_epilog
 pxor
 xmm7
@@ -1043,9 +1049,12 @@ block_size
 ]
 16
 je
+.
 temporal_filter_apply_load_16
 jmp
+.
 temporal_filter_apply_load_8
+.
 temporal_filter_apply_epilog
 :
 ;

@@ -308,6 +308,10 @@ unsigned
 char
 *
 source
+unsigned
+char
+*
+source_end
 )
 {
 br
@@ -345,6 +349,13 @@ br
 buffer
 =
 source
+;
+br
+-
+>
+buffer_end
+=
+source_end
 ;
 br
 -

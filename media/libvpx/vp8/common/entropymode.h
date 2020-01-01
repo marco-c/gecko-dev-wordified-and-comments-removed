@@ -19,6 +19,17 @@ treecoder
 h
 "
 typedef
+enum
+{
+SUBMVREF_NORMAL
+SUBMVREF_LEFT_ZED
+SUBMVREF_ABOVE_ZED
+SUBMVREF_LEFT_ABOVE_SAME
+SUBMVREF_LEFT_ABOVE_ZED
+}
+sumvfref_t
+;
+typedef
 const
 int
 vp8_mbsplit

@@ -69,6 +69,12 @@ VP8D_DEBUG_CLR_FRM_REF_BLKS
 <
 <
 9
+VP8D_MFQE
+=
+1
+<
+<
+10
 }
 ;
 typedef

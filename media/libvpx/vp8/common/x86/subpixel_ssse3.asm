@@ -541,6 +541,7 @@ rdx
 ;
 xmm3
 free
+.
 filter_block1d8_h6_rowloop_ssse3
 :
 movq
@@ -673,6 +674,7 @@ rdi
 ]
 xmm0
 jnz
+.
 filter_block1d8_h6_rowloop_ssse3
 ;
 begin
@@ -772,6 +774,7 @@ output_pitch
 sub
 rdi
 rdx
+.
 filter_block1d8_h4_rowloop_ssse3
 :
 movq
@@ -885,6 +888,7 @@ rdi
 ]
 xmm0
 jnz
+.
 filter_block1d8_h4_rowloop_ssse3
 ;
 begin
@@ -1066,6 +1070,7 @@ arg
 )
 ;
 output_pitch
+.
 filter_block1d16_h6_rowloop_ssse3
 :
 movq
@@ -1278,6 +1283,7 @@ rdx
 dec
 rcx
 jnz
+.
 filter_block1d16_h6_rowloop_ssse3
 ;
 begin
@@ -1398,6 +1404,7 @@ PTR
 rax
 ]
 je
+.
 vp8_filter_block1d4_h4_ssse3
 movdqa
 xmm4
@@ -1479,6 +1486,7 @@ output_pitch
 ;
 xmm3
 free
+.
 filter_block1d4_h6_rowloop_ssse3
 :
 movdqu
@@ -1573,6 +1581,7 @@ rdx
 dec
 rcx
 jnz
+.
 filter_block1d4_h6_rowloop_ssse3
 ;
 begin
@@ -1586,6 +1595,7 @@ UNSHADOW_ARGS
 pop
 rbp
 ret
+.
 vp8_filter_block1d4_h4_ssse3
 :
 movdqa
@@ -1676,6 +1686,7 @@ arg
 )
 ;
 output_pitch
+.
 filter_block1d4_h4_rowloop_ssse3
 :
 movdqu
@@ -1756,6 +1767,7 @@ rdx
 dec
 rcx
 jnz
+.
 filter_block1d4_h4_rowloop_ssse3
 ;
 begin
@@ -1868,6 +1880,7 @@ PTR
 rax
 ]
 je
+.
 vp8_filter_block1d16_v4_ssse3
 movdqa
 xmm5
@@ -1959,6 +1972,7 @@ output_height
 add
 rax
 rdx
+.
 vp8_filter_block1d16_v6_ssse3_loop
 :
 movq
@@ -2266,6 +2280,7 @@ endif
 dec
 rcx
 jnz
+.
 vp8_filter_block1d16_v6_ssse3_loop
 ;
 begin
@@ -2280,6 +2295,7 @@ UNSHADOW_ARGS
 pop
 rbp
 ret
+.
 vp8_filter_block1d16_v4_ssse3
 :
 movdqa
@@ -2363,6 +2379,7 @@ output_height
 add
 rax
 rdx
+.
 vp8_filter_block1d16_v4_ssse3_loop
 :
 movq
@@ -2591,6 +2608,7 @@ endif
 dec
 rcx
 jnz
+.
 vp8_filter_block1d16_v4_ssse3_loop
 ;
 begin
@@ -2750,6 +2768,7 @@ PTR
 rax
 ]
 je
+.
 vp8_filter_block1d8_v4_ssse3
 movdqa
 xmm5
@@ -2796,6 +2815,7 @@ rsi
 add
 rax
 rdx
+.
 vp8_filter_block1d8_v6_ssse3_loop
 :
 movq
@@ -2964,6 +2984,7 @@ endif
 dec
 rcx
 jnz
+.
 vp8_filter_block1d8_v6_ssse3_loop
 ;
 begin
@@ -2978,6 +2999,7 @@ UNSHADOW_ARGS
 pop
 rbp
 ret
+.
 vp8_filter_block1d8_v4_ssse3
 :
 movdqa
@@ -3024,6 +3046,7 @@ rsi
 add
 rax
 rdx
+.
 vp8_filter_block1d8_v4_ssse3_loop
 :
 movq
@@ -3150,6 +3173,7 @@ endif
 dec
 rcx
 jnz
+.
 vp8_filter_block1d8_v4_ssse3_loop
 ;
 begin
@@ -3307,6 +3331,7 @@ PTR
 rax
 ]
 je
+.
 vp8_filter_block1d4_v4_ssse3
 movq
 mm5
@@ -3353,6 +3378,7 @@ rsi
 add
 rax
 rdx
+.
 vp8_filter_block1d4_v6_ssse3_loop
 :
 movd
@@ -3521,6 +3547,7 @@ endif
 dec
 rcx
 jnz
+.
 vp8_filter_block1d4_v6_ssse3_loop
 ;
 begin
@@ -3534,6 +3561,7 @@ UNSHADOW_ARGS
 pop
 rbp
 ret
+.
 vp8_filter_block1d4_v4_ssse3
 :
 movq
@@ -3582,6 +3610,7 @@ rsi
 add
 rax
 rdx
+.
 vp8_filter_block1d4_v4_ssse3_loop
 :
 movd
@@ -3708,6 +3737,7 @@ endif
 dec
 rcx
 jnz
+.
 vp8_filter_block1d4_v4_ssse3_loop
 ;
 begin
@@ -3808,6 +3838,7 @@ xoffset
 =
 0
 je
+.
 b16x16_sp_only
 shl
 rax
@@ -3874,6 +3905,7 @@ yoffset
 =
 0
 je
+.
 b16x16_fp_only
 shl
 rax
@@ -4378,7 +4410,9 @@ jne
 .
 next_row
 jmp
+.
 done
+.
 b16x16_sp_only
 :
 movsxd
@@ -4502,7 +4536,7 @@ rax
 next
 line
 .
-next_row
+next_row_sp
 :
 movq
 xmm3
@@ -4675,9 +4709,11 @@ rdi
 rcx
 jne
 .
-next_row
+next_row_sp
 jmp
+.
 done
+.
 b16x16_fp_only
 :
 lea
@@ -4709,7 +4745,7 @@ arg
 ;
 src_pixels_per_line
 .
-next_row
+next_row_fp
 :
 movq
 xmm2
@@ -4940,7 +4976,8 @@ rdi
 rcx
 jne
 .
-next_row
+next_row_fp
+.
 done
 :
 ;
@@ -5250,6 +5287,7 @@ xoffset
 =
 0
 je
+.
 b8x8_sp_only
 shl
 rax
@@ -5304,6 +5342,7 @@ yoffset
 =
 0
 je
+.
 b8x8_fp_only
 shl
 rax
@@ -5602,7 +5641,9 @@ jne
 .
 next_row
 jmp
+.
 done8x8
+.
 b8x8_sp_only
 :
 movsxd
@@ -5974,7 +6015,9 @@ rsp
 144
 ]
 jmp
+.
 done8x8
+.
 b8x8_fp_only
 :
 lea
@@ -5987,7 +6030,7 @@ rdx
 8
 ]
 .
-next_row
+next_row_fp
 :
 movdqa
 xmm1
@@ -6183,7 +6226,7 @@ rdi
 rcx
 jne
 .
-next_row
+next_row_fp
 lea
 rsp
 [
@@ -6191,6 +6234,7 @@ rsp
 +
 16
 ]
+.
 done8x8
 :
 ;

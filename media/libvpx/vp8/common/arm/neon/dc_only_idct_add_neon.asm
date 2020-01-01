@@ -92,7 +92,7 @@ ALIGN
 2
 ;
 void
-vp8_dc_only_idct_add_neon
+vp8_dc_only_idct_add_c
 (
 short
 input_dc
@@ -101,14 +101,15 @@ char
 *
 pred_ptr
 ;
+int
+pred_stride
 unsigned
 char
 *
 dst_ptr
+;
 int
-pitch
-int
-stride
+dst_stride
 )
 ;
 r0
@@ -118,13 +119,13 @@ r1
 pred_ptr
 ;
 r2
-dst_ptr
+pred_stride
 ;
 r3
-pitch
+dst_ptr
 ;
 sp
-stride
+dst_stride
 |
 vp8_dc_only_idct_add_neon
 |
@@ -161,7 +162,7 @@ d2
 [
 r1
 ]
-r3
+r2
 vld1
 .
 32
@@ -174,7 +175,7 @@ d2
 [
 r1
 ]
-r3
+r2
 vld1
 .
 32
@@ -187,7 +188,7 @@ d4
 [
 r1
 ]
-r3
+r2
 vld1
 .
 32
@@ -232,7 +233,7 @@ d2
 ]
 }
 [
-r2
+r3
 ]
 r12
 vst1
@@ -245,7 +246,7 @@ d2
 ]
 }
 [
-r2
+r3
 ]
 r12
 vst1
@@ -258,7 +259,7 @@ d4
 ]
 }
 [
-r2
+r3
 ]
 r12
 vst1
@@ -271,7 +272,7 @@ d4
 ]
 }
 [
-r2
+r3
 ]
 bx
 lr

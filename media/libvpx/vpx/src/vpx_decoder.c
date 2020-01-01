@@ -176,7 +176,7 @@ if
 (
 flags
 &
-VPX_CODEC_USE_INPUT_PARTITION
+VPX_CODEC_USE_INPUT_FRAGMENTS
 )
 &
 &
@@ -187,7 +187,7 @@ iface
 >
 caps
 &
-VPX_CODEC_CAP_INPUT_PARTITION
+VPX_CODEC_CAP_INPUT_FRAGMENTS
 )
 )
 res
@@ -289,6 +289,7 @@ iface
 init
 (
 ctx
+NULL
 )
 ;
 if

@@ -92,6 +92,11 @@ x86_abi_support
 .
 asm
 "
+extern
+sym
+(
+vp8_bilinear_filters_x86_8
+)
 %
 define
 BLOCK_HEIGHT_WIDTH
@@ -473,6 +478,7 @@ clear
 xmm0
 for
 unpack
+.
 filter_block1d8_h6_rowloop
 :
 movq
@@ -895,6 +901,7 @@ endif
 dec
 rcx
 jnz
+.
 filter_block1d8_h6_rowloop
 ;
 next
@@ -1281,6 +1288,7 @@ clear
 xmm0
 for
 unpack
+.
 filter_block1d16_h6_sse2_rowloop
 :
 movq
@@ -2079,6 +2087,7 @@ endif
 dec
 rcx
 jnz
+.
 filter_block1d16_h6_sse2_rowloop
 ;
 next
@@ -2445,6 +2454,7 @@ arg
 dst_ptich
 %
 endif
+.
 vp8_filter_block1d8_v6_sse2_loop
 :
 movdqa
@@ -2620,6 +2630,7 @@ rcx
 decrement
 count
 jnz
+.
 vp8_filter_block1d8_v6_sse2_loop
 ;
 next
@@ -2972,6 +2983,7 @@ arg
 dst_ptich
 %
 endif
+.
 vp8_filter_block1d16_v6_sse2_loop
 :
 ;
@@ -3337,6 +3349,7 @@ rcx
 decrement
 count
 jnz
+.
 vp8_filter_block1d16_v6_sse2_loop
 ;
 next
@@ -3499,6 +3512,7 @@ clear
 xmm0
 for
 unpack
+.
 filter_block1d8_h6_only_rowloop
 :
 movq
@@ -3923,6 +3937,7 @@ endif
 dec
 rcx
 jnz
+.
 filter_block1d8_h6_only_rowloop
 ;
 next
@@ -4085,6 +4100,7 @@ clear
 xmm0
 for
 unpack
+.
 filter_block1d16_h6_only_sse2_rowloop
 :
 movq
@@ -4897,6 +4913,7 @@ endif
 dec
 rcx
 jnz
+.
 filter_block1d16_h6_only_sse2_rowloop
 ;
 next
@@ -5063,6 +5080,7 @@ arg
 dst_ptich
 %
 endif
+.
 vp8_filter_block1d8_v6_only_sse2_loop
 :
 movq
@@ -5256,6 +5274,7 @@ rcx
 decrement
 count
 jnz
+.
 vp8_filter_block1d8_v6_only_sse2_loop
 ;
 next
@@ -5397,6 +5416,7 @@ for
 Source
 %
 endif
+.
 unpack_block1d16_h6_sse2_rowloop
 :
 movq
@@ -5506,6 +5526,7 @@ endif
 dec
 rcx
 jnz
+.
 unpack_block1d16_h6_sse2_rowloop
 ;
 next
@@ -5554,7 +5575,7 @@ dst_pitch
 extern
 sym
 (
-vp8_bilinear_filters_mmx
+vp8_bilinear_filters_x86_8
 )
 global
 sym
@@ -5590,7 +5611,7 @@ short
 *
 HFilter
 =
-bilinear_filters_mmx
+vp8_bilinear_filters_x86_8
 [
 xoffset
 ]
@@ -5600,7 +5621,7 @@ short
 *
 VFilter
 =
-bilinear_filters_mmx
+vp8_bilinear_filters_x86_8
 [
 yoffset
 ]
@@ -5611,7 +5632,7 @@ GLOBAL
 (
 sym
 (
-vp8_bilinear_filters_mmx
+vp8_bilinear_filters_x86_8
 )
 )
 ]
@@ -5637,6 +5658,7 @@ xoffset
 =
 0
 je
+.
 b16x16_sp_only
 shl
 rax
@@ -5706,6 +5728,7 @@ yoffset
 =
 0
 je
+.
 b16x16_fp_only
 shl
 rax
@@ -5896,6 +5919,7 @@ rdx
 ;
 next
 line
+.
 next_row
 :
 movdqu
@@ -6138,9 +6162,12 @@ cmp
 rdi
 rcx
 jne
+.
 next_row
 jmp
+.
 done
+.
 b16x16_sp_only
 :
 movsxd
@@ -6265,6 +6292,7 @@ rax
 ;
 next
 line
+.
 next_row_spo
 :
 movdqu
@@ -6410,9 +6438,12 @@ cmp
 rdi
 rcx
 jne
+.
 next_row_spo
 jmp
+.
 done
+.
 b16x16_fp_only
 :
 lea
@@ -6446,6 +6477,7 @@ src_pixels_per_line
 pxor
 xmm0
 xmm0
+.
 next_row_fpo
 :
 movdqu
@@ -6592,7 +6624,9 @@ cmp
 rdi
 rcx
 jne
+.
 next_row_fpo
+.
 done
 :
 ;
@@ -6636,11 +6670,6 @@ dst_ptr
 int
 dst_pitch
 ;
-)
-extern
-sym
-(
-vp8_bilinear_filters_mmx
 )
 global
 sym
@@ -6686,7 +6715,7 @@ short
 *
 HFilter
 =
-bilinear_filters_mmx
+vp8_bilinear_filters_x86_8
 [
 xoffset
 ]
@@ -6696,7 +6725,7 @@ short
 *
 VFilter
 =
-bilinear_filters_mmx
+vp8_bilinear_filters_x86_8
 [
 yoffset
 ]
@@ -6707,7 +6736,7 @@ GLOBAL
 (
 sym
 (
-vp8_bilinear_filters_mmx
+vp8_bilinear_filters_x86_8
 )
 )
 ]
@@ -7089,6 +7118,7 @@ rsp
 ;
 next
 line
+.
 next_row8x8
 :
 movdqa
@@ -7248,6 +7278,7 @@ cmp
 rdi
 rcx
 jne
+.
 next_row8x8
 ;
 add

@@ -237,6 +237,7 @@ arg
 )
 ;
 count
+.
 next8_h
 :
 mov
@@ -1454,6 +1455,7 @@ rax
 dec
 rcx
 jnz
+.
 next8_h
 add
 rsp
@@ -1650,6 +1652,7 @@ arg
 )
 ;
 count
+.
 next8_v
 :
 mov
@@ -3820,6 +3823,7 @@ rax
 dec
 rcx
 jnz
+.
 next8_v
 add
 rsp
@@ -3983,6 +3987,7 @@ arg
 )
 ;
 count
+.
 next8_mbh
 :
 mov
@@ -5715,6 +5720,7 @@ rsi
 dec
 rcx
 jnz
+.
 next8_mbh
 add
 rsp
@@ -5911,6 +5917,7 @@ arg
 )
 ;
 count
+.
 next8_mbv
 :
 lea
@@ -8937,6 +8944,7 @@ rax
 dec
 rcx
 jnz
+.
 next8_mbv
 add
 rsp
@@ -9028,6 +9036,7 @@ rcx
 2
 ;
 count
+.
 nexts8_h
 :
 mov
@@ -9644,6 +9653,7 @@ rax
 dec
 rcx
 jnz
+.
 nexts8_h
 ;
 begin
@@ -9797,6 +9807,7 @@ rcx
 2
 ;
 count
+.
 nexts8_v
 :
 lea
@@ -11046,6 +11057,7 @@ next
 dec
 rcx
 jnz
+.
 nexts8_v
 add
 rsp

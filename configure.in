@@ -2810,6 +2810,15 @@ ANDROID_SOURCE
 "
 android_source
 "
+ANDROID_NDK
+=
+"
+{
+ANDROID_SOURCE
+}
+/
+ndk
+"
 dnl
 set
 up

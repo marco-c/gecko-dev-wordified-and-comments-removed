@@ -485,6 +485,7 @@ mm7
 mov
 rcx
 16
+.
 mberror_loop_mmx
 :
 movq
@@ -588,6 +589,7 @@ sub
 rcx
 1
 jnz
+.
 mberror_loop_mmx
 movq
 mm0
@@ -693,6 +695,7 @@ xmm6
 mov
 rcx
 16
+.
 mberror_loop
 :
 movdqa
@@ -750,6 +753,7 @@ paddd
 xmm4
 xmm0
 jnz
+.
 mberror_loop
 movdqa
 xmm0
@@ -845,6 +849,7 @@ rcx
 pxor
 mm7
 mm7
+.
 mbuverror_loop_mmx
 :
 movq
@@ -898,6 +903,7 @@ rdi
 dec
 rcx
 jnz
+.
 mbuverror_loop_mmx
 movq
 mm0
@@ -980,6 +986,7 @@ rcx
 pxor
 xmm3
 xmm3
+.
 mbuverror_loop
 :
 movdqa
@@ -1010,6 +1017,7 @@ rdi
 dec
 rcx
 jnz
+.
 mbuverror_loop
 pxor
 xmm0

@@ -89,6 +89,12 @@ VP8_DEBUG_TXT_RATE_INFO
 <
 <
 6
+VP8_MFQE
+=
+1
+<
+<
+10
 }
 ;
 typedef

@@ -1,9 +1,7 @@
 #
 include
 "
-vpx_ports
-/
-config
+vpx_config
 .
 h
 "
@@ -2827,6 +2825,8 @@ char
 *
 predictor
 int
+stride
+int
 mb_row
 int
 mb_col
@@ -3239,7 +3239,7 @@ expected_dc
 predictor
 +
 =
-16
+stride
 ;
 }
 }
@@ -3325,7 +3325,7 @@ pred
 predictor
 +
 =
-16
+stride
 ;
 }
 }
@@ -3499,7 +3499,7 @@ c
 predictor
 +
 =
-16
+stride
 ;
 }
 }
@@ -3673,7 +3673,7 @@ r
 predictor
 +
 =
-16
+stride
 ;
 }
 }
@@ -3694,7 +3694,7 @@ predictor
 [
 0
 *
-16
+stride
 +
 0
 ]
@@ -3727,7 +3727,7 @@ predictor
 [
 0
 *
-16
+stride
 +
 1
 ]
@@ -3736,7 +3736,7 @@ predictor
 [
 1
 *
-16
+stride
 +
 0
 ]
@@ -3769,7 +3769,7 @@ predictor
 [
 0
 *
-16
+stride
 +
 2
 ]
@@ -3778,7 +3778,7 @@ predictor
 [
 1
 *
-16
+stride
 +
 1
 ]
@@ -3787,7 +3787,7 @@ predictor
 [
 2
 *
-16
+stride
 +
 0
 ]
@@ -3820,7 +3820,7 @@ predictor
 [
 0
 *
-16
+stride
 +
 3
 ]
@@ -3829,7 +3829,7 @@ predictor
 [
 1
 *
-16
+stride
 +
 2
 ]
@@ -3838,7 +3838,7 @@ predictor
 [
 2
 *
-16
+stride
 +
 1
 ]
@@ -3847,7 +3847,7 @@ predictor
 [
 3
 *
-16
+stride
 +
 0
 ]
@@ -3880,7 +3880,7 @@ predictor
 [
 1
 *
-16
+stride
 +
 3
 ]
@@ -3889,7 +3889,7 @@ predictor
 [
 2
 *
-16
+stride
 +
 2
 ]
@@ -3898,7 +3898,7 @@ predictor
 [
 3
 *
-16
+stride
 +
 1
 ]
@@ -3931,7 +3931,7 @@ predictor
 [
 2
 *
-16
+stride
 +
 3
 ]
@@ -3940,7 +3940,7 @@ predictor
 [
 3
 *
-16
+stride
 +
 2
 ]
@@ -3973,7 +3973,7 @@ predictor
 [
 3
 *
-16
+stride
 +
 3
 ]
@@ -4107,7 +4107,7 @@ predictor
 [
 3
 *
-16
+stride
 +
 0
 ]
@@ -4140,7 +4140,7 @@ predictor
 [
 3
 *
-16
+stride
 +
 1
 ]
@@ -4149,7 +4149,7 @@ predictor
 [
 2
 *
-16
+stride
 +
 0
 ]
@@ -4182,7 +4182,7 @@ predictor
 [
 3
 *
-16
+stride
 +
 2
 ]
@@ -4191,7 +4191,7 @@ predictor
 [
 2
 *
-16
+stride
 +
 1
 ]
@@ -4200,7 +4200,7 @@ predictor
 [
 1
 *
-16
+stride
 +
 0
 ]
@@ -4233,7 +4233,7 @@ predictor
 [
 3
 *
-16
+stride
 +
 3
 ]
@@ -4242,7 +4242,7 @@ predictor
 [
 2
 *
-16
+stride
 +
 2
 ]
@@ -4251,7 +4251,7 @@ predictor
 [
 1
 *
-16
+stride
 +
 1
 ]
@@ -4260,7 +4260,7 @@ predictor
 [
 0
 *
-16
+stride
 +
 0
 ]
@@ -4293,7 +4293,7 @@ predictor
 [
 2
 *
-16
+stride
 +
 3
 ]
@@ -4302,7 +4302,7 @@ predictor
 [
 1
 *
-16
+stride
 +
 2
 ]
@@ -4311,7 +4311,7 @@ predictor
 [
 0
 *
-16
+stride
 +
 1
 ]
@@ -4344,7 +4344,7 @@ predictor
 [
 1
 *
-16
+stride
 +
 3
 ]
@@ -4353,7 +4353,7 @@ predictor
 [
 0
 *
-16
+stride
 +
 2
 ]
@@ -4386,7 +4386,7 @@ predictor
 [
 0
 *
-16
+stride
 +
 3
 ]
@@ -4520,7 +4520,7 @@ predictor
 [
 3
 *
-16
+stride
 +
 0
 ]
@@ -4553,7 +4553,7 @@ predictor
 [
 2
 *
-16
+stride
 +
 0
 ]
@@ -4586,7 +4586,7 @@ predictor
 [
 3
 *
-16
+stride
 +
 1
 ]
@@ -4595,7 +4595,7 @@ predictor
 [
 1
 *
-16
+stride
 +
 0
 ]
@@ -4628,7 +4628,7 @@ predictor
 [
 2
 *
-16
+stride
 +
 1
 ]
@@ -4637,7 +4637,7 @@ predictor
 [
 0
 *
-16
+stride
 +
 0
 ]
@@ -4663,7 +4663,7 @@ predictor
 [
 3
 *
-16
+stride
 +
 2
 ]
@@ -4672,7 +4672,7 @@ predictor
 [
 1
 *
-16
+stride
 +
 1
 ]
@@ -4705,7 +4705,7 @@ predictor
 [
 2
 *
-16
+stride
 +
 2
 ]
@@ -4714,7 +4714,7 @@ predictor
 [
 0
 *
-16
+stride
 +
 1
 ]
@@ -4740,7 +4740,7 @@ predictor
 [
 3
 *
-16
+stride
 +
 3
 ]
@@ -4749,7 +4749,7 @@ predictor
 [
 1
 *
-16
+stride
 +
 2
 ]
@@ -4782,7 +4782,7 @@ predictor
 [
 2
 *
-16
+stride
 +
 3
 ]
@@ -4791,7 +4791,7 @@ predictor
 [
 0
 *
-16
+stride
 +
 2
 ]
@@ -4817,7 +4817,7 @@ predictor
 [
 1
 *
-16
+stride
 +
 3
 ]
@@ -4850,7 +4850,7 @@ predictor
 [
 0
 *
-16
+stride
 +
 3
 ]
@@ -4890,7 +4890,7 @@ predictor
 [
 0
 *
-16
+stride
 +
 0
 ]
@@ -4916,7 +4916,7 @@ predictor
 [
 1
 *
-16
+stride
 +
 0
 ]
@@ -4949,7 +4949,7 @@ predictor
 [
 2
 *
-16
+stride
 +
 0
 ]
@@ -4958,7 +4958,7 @@ predictor
 [
 0
 *
-16
+stride
 +
 1
 ]
@@ -4984,7 +4984,7 @@ predictor
 [
 1
 *
-16
+stride
 +
 1
 ]
@@ -4993,7 +4993,7 @@ predictor
 [
 3
 *
-16
+stride
 +
 0
 ]
@@ -5026,7 +5026,7 @@ predictor
 [
 2
 *
-16
+stride
 +
 1
 ]
@@ -5035,7 +5035,7 @@ predictor
 [
 0
 *
-16
+stride
 +
 2
 ]
@@ -5061,7 +5061,7 @@ predictor
 [
 3
 *
-16
+stride
 +
 1
 ]
@@ -5070,7 +5070,7 @@ predictor
 [
 1
 *
-16
+stride
 +
 2
 ]
@@ -5103,7 +5103,7 @@ predictor
 [
 0
 *
-16
+stride
 +
 3
 ]
@@ -5112,7 +5112,7 @@ predictor
 [
 2
 *
-16
+stride
 +
 2
 ]
@@ -5138,7 +5138,7 @@ predictor
 [
 1
 *
-16
+stride
 +
 3
 ]
@@ -5147,7 +5147,7 @@ predictor
 [
 3
 *
-16
+stride
 +
 2
 ]
@@ -5180,7 +5180,7 @@ predictor
 [
 2
 *
-16
+stride
 +
 3
 ]
@@ -5213,7 +5213,7 @@ predictor
 [
 3
 *
-16
+stride
 +
 3
 ]
@@ -5347,7 +5347,7 @@ predictor
 [
 3
 *
-16
+stride
 +
 0
 ]
@@ -5373,7 +5373,7 @@ predictor
 [
 3
 *
-16
+stride
 +
 1
 ]
@@ -5406,7 +5406,7 @@ predictor
 [
 2
 *
-16
+stride
 +
 0
 ]
@@ -5415,7 +5415,7 @@ predictor
 [
 3
 *
-16
+stride
 +
 2
 ]
@@ -5441,7 +5441,7 @@ predictor
 [
 2
 *
-16
+stride
 +
 1
 ]
@@ -5450,7 +5450,7 @@ predictor
 [
 3
 *
-16
+stride
 +
 3
 ]
@@ -5483,7 +5483,7 @@ predictor
 [
 2
 *
-16
+stride
 +
 2
 ]
@@ -5492,7 +5492,7 @@ predictor
 [
 1
 *
-16
+stride
 +
 0
 ]
@@ -5518,7 +5518,7 @@ predictor
 [
 2
 *
-16
+stride
 +
 3
 ]
@@ -5527,7 +5527,7 @@ predictor
 [
 1
 *
-16
+stride
 +
 1
 ]
@@ -5560,7 +5560,7 @@ predictor
 [
 1
 *
-16
+stride
 +
 2
 ]
@@ -5569,7 +5569,7 @@ predictor
 [
 0
 *
-16
+stride
 +
 0
 ]
@@ -5595,7 +5595,7 @@ predictor
 [
 1
 *
-16
+stride
 +
 3
 ]
@@ -5604,7 +5604,7 @@ predictor
 [
 0
 *
-16
+stride
 +
 1
 ]
@@ -5637,7 +5637,7 @@ predictor
 [
 0
 *
-16
+stride
 +
 2
 ]
@@ -5670,7 +5670,7 @@ predictor
 [
 0
 *
-16
+stride
 +
 3
 ]
@@ -5717,7 +5717,7 @@ predictor
 [
 0
 *
-16
+stride
 +
 0
 ]
@@ -5743,7 +5743,7 @@ predictor
 [
 0
 *
-16
+stride
 +
 1
 ]
@@ -5776,7 +5776,7 @@ predictor
 [
 0
 *
-16
+stride
 +
 2
 ]
@@ -5785,7 +5785,7 @@ predictor
 [
 1
 *
-16
+stride
 +
 0
 ]
@@ -5811,7 +5811,7 @@ predictor
 [
 0
 *
-16
+stride
 +
 3
 ]
@@ -5820,7 +5820,7 @@ predictor
 [
 1
 *
-16
+stride
 +
 1
 ]
@@ -5853,7 +5853,7 @@ predictor
 [
 1
 *
-16
+stride
 +
 2
 ]
@@ -5862,7 +5862,7 @@ predictor
 [
 2
 *
-16
+stride
 +
 0
 ]
@@ -5888,7 +5888,7 @@ predictor
 [
 1
 *
-16
+stride
 +
 3
 ]
@@ -5897,7 +5897,7 @@ predictor
 [
 2
 *
-16
+stride
 +
 1
 ]
@@ -5930,7 +5930,7 @@ predictor
 [
 2
 *
-16
+stride
 +
 2
 ]
@@ -5939,7 +5939,7 @@ predictor
 [
 2
 *
-16
+stride
 +
 3
 ]
@@ -5948,7 +5948,7 @@ predictor
 [
 3
 *
-16
+stride
 +
 0
 ]
@@ -5957,7 +5957,7 @@ predictor
 [
 3
 *
-16
+stride
 +
 1
 ]
@@ -5966,7 +5966,7 @@ predictor
 [
 3
 *
-16
+stride
 +
 2
 ]
@@ -5975,7 +5975,7 @@ predictor
 [
 3
 *
-16
+stride
 +
 3
 ]

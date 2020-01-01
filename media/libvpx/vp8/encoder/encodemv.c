@@ -959,7 +959,6 @@ define
 MV_PROB_UPDATE_CORRECTION
 -
 1
-__inline
 static
 void
 calc_prob
@@ -1728,7 +1727,6 @@ vp8_writer
 const
 w
 =
-&
 cpi
 -
 >

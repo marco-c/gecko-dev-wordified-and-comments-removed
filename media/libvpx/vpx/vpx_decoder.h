@@ -98,7 +98,7 @@ loss
 /
 #
 define
-VPX_CODEC_CAP_INPUT_PARTITION
+VPX_CODEC_CAP_INPUT_FRAGMENTS
 0x100000
 /
 *
@@ -109,7 +109,7 @@ receive
 encoded
 frames
 one
-partition
+fragment
 at
 a
 time
@@ -145,7 +145,7 @@ frames
 /
 #
 define
-VPX_CODEC_USE_INPUT_PARTITION
+VPX_CODEC_USE_INPUT_FRAGMENTS
 0x40000
 /
 *
@@ -161,7 +161,7 @@ to
 the
 decoder
 one
-partition
+fragment
 at
 a
 time

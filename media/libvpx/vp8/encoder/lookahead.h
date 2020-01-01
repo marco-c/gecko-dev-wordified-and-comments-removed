@@ -85,6 +85,10 @@ ts_end
 unsigned
 int
 flags
+unsigned
+char
+*
+active_map
 )
 ;
 struct
@@ -109,6 +113,7 @@ struct
 lookahead_ctx
 *
 ctx
+unsigned
 int
 index
 )

@@ -116,7 +116,6 @@ x
 )
 )
 static
-__inline
 unsigned
 int
 vp8_cost_branch
@@ -164,7 +163,6 @@ p
 ;
 }
 static
-__inline
 void
 vp8_treed_write
 (
@@ -237,7 +235,6 @@ n
 ;
 }
 static
-__inline
 void
 vp8_write_token
 (
@@ -275,7 +272,6 @@ Len
 ;
 }
 static
-__inline
 int
 vp8_treed_cost
 (
@@ -354,7 +350,6 @@ c
 ;
 }
 static
-__inline
 int
 vp8_cost_token
 (
