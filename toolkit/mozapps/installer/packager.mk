@@ -884,12 +884,8 @@ ZIP
 -
 r9D
 (
-SDK_BASENAME
+SDK_SUFFIX
 )
-.
-sdk
-.
-zip
 (
 MOZ_APP_NAME
 )
