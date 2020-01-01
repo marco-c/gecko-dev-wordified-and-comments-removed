@@ -1238,6 +1238,12 @@ modified
 false
 )
 ;
+this
+.
+_addedObserver
+=
+true
+;
 ]
 ]
 >
@@ -1257,6 +1263,13 @@ destructor
 [
 CDATA
 [
+if
+(
+this
+.
+_addedObserver
+)
+{
 var
 os
 =
@@ -1302,6 +1315,7 @@ modified
 "
 )
 ;
+}
 /
 /
 Make
