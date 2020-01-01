@@ -4379,7 +4379,7 @@ WebGLenum
 pname
 )
 ;
-void
+nsIVariant
 getUniform
 (
 in
