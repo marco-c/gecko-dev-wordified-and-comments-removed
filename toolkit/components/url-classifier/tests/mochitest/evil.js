@@ -1,9 +1,0 @@
-scriptItem
-=
-"
-loaded
-malware
-javascript
-!
-"
-;
