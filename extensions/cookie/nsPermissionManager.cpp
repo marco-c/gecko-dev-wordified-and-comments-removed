@@ -1013,9 +1013,6 @@ CloseDatabaseListener
 :
 Complete
 (
-nsresult
-nsISupports
-*
 )
 {
 nsRefPtr

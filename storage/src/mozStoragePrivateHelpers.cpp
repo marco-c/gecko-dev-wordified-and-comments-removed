@@ -693,8 +693,6 @@ mCallback
 >
 Complete
 (
-NS_OK
-nullptr
 )
 ;
 return
