@@ -28354,13 +28354,16 @@ JSPROP_READONLY
 )
 )
 ;
-JS_ASSERT
+if
 (
+!
 SPROP_HAS_STUB_SETTER
 (
 sprop
 )
 )
+goto
+do_initprop_miss
 ;
 JS_ASSERT
 (
