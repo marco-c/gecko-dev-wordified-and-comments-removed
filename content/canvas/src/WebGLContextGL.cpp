@@ -22188,6 +22188,7 @@ retShaderPrecisionFormat
 new
 WebGLShaderPrecisionFormat
 (
+this
 range
 [
 0
