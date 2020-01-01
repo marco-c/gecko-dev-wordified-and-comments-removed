@@ -152,7 +152,6 @@ unpin
 function
 Site_unpin
 (
-aCallback
 )
 {
 if
@@ -184,7 +183,6 @@ gUpdater
 .
 updateGrid
 (
-aCallback
 )
 ;
 }
@@ -212,7 +210,6 @@ block
 function
 Site_block
 (
-aCallback
 )
 {
 if
@@ -251,7 +248,6 @@ gUpdater
 .
 updateGrid
 (
-aCallback
 )
 ;
 }

@@ -48,10 +48,7 @@ checkGrid
 yield
 blockCell
 (
-cells
-[
 4
-]
 )
 ;
 checkGrid
@@ -72,10 +69,7 @@ checkGrid
 yield
 blockCell
 (
-cells
-[
 4
-]
 )
 ;
 checkGrid
@@ -95,10 +89,7 @@ checkGrid
 yield
 blockCell
 (
-cells
-[
 4
-]
 )
 ;
 checkGrid
@@ -164,10 +155,7 @@ checkGrid
 yield
 blockCell
 (
-cells
-[
 1
-]
 )
 ;
 checkGrid
@@ -235,10 +223,7 @@ checkGrid
 yield
 blockCell
 (
-cells
-[
 8
-]
 )
 ;
 checkGrid
@@ -307,10 +292,7 @@ checkGrid
 yield
 blockCell
 (
-cells
-[
 0
-]
 )
 ;
 checkGrid

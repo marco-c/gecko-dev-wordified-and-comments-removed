@@ -34,9 +34,9 @@ addNewTabPageTab
 let
 resetButton
 =
-cw
-.
-document
+getContentDocument
+(
+)
 .
 getElementById
 (
@@ -86,10 +86,7 @@ modified
 yield
 blockCell
 (
-cells
-[
 4
-]
 )
 ;
 checkGrid
@@ -124,7 +121,9 @@ modified
 )
 ;
 yield
-cw
+getContentWindow
+(
+)
 .
 gToolbar
 .

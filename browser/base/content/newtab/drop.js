@@ -85,7 +85,6 @@ Drop_drop
 (
 aCell
 aEvent
-aCallback
 )
 {
 if
@@ -121,7 +120,6 @@ gUpdater
 .
 updateGrid
 (
-aCallback
 )
 ;
 }

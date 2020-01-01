@@ -48,10 +48,7 @@ checkGrid
 yield
 unpinCell
 (
-cells
-[
 1
-]
 )
 ;
 checkGrid
@@ -114,10 +111,7 @@ checkGrid
 yield
 unpinCell
 (
-cells
-[
 1
-]
 )
 ;
 checkGrid
@@ -179,10 +173,7 @@ checkGrid
 yield
 unpinCell
 (
-cells
-[
 1
-]
 )
 ;
 checkGrid
@@ -202,10 +193,7 @@ checkGrid
 yield
 unpinCell
 (
-cells
-[
 8
-]
 )
 ;
 checkGrid
@@ -268,10 +256,7 @@ checkGrid
 yield
 unpinCell
 (
-cells
-[
 0
-]
 )
 ;
 checkGrid

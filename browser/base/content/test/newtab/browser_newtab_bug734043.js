@@ -52,9 +52,9 @@ false
 let
 block
 =
-cw
-.
-document
+getContentDocument
+(
+)
 .
 querySelector
 (
@@ -78,6 +78,13 @@ receivedError
 true
 ;
 }
+let
+cw
+=
+getContentWindow
+(
+)
+;
 cw
 .
 addEventListener
