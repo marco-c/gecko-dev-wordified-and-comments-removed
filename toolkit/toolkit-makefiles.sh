@@ -410,9 +410,6 @@ MAKEFILES_db
 "
 db
 /
-Makefile
-db
-/
 sqlite3
 /
 src

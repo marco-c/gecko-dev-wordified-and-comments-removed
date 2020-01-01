@@ -646,8 +646,6 @@ modules
 /
 libjar
 \
-db
-\
 storage
 \
 (
