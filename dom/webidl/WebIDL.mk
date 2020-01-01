@@ -311,6 +311,10 @@ HTMLParagraphElement
 .
 webidl
 \
+HTMLPreElement
+.
+webidl
+\
 HTMLPropertiesCollection
 .
 webidl
