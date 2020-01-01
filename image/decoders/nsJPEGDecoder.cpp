@@ -2191,7 +2191,7 @@ NotifyDone
 {
 PostFrameStop
 (
-RasterImage
+FrameBlender
 :
 :
 kFrameOpaque

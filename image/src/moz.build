@@ -143,6 +143,11 @@ DiscardTracker
 cpp
 '
 '
+FrameBlender
+.
+cpp
+'
+'
 FrozenImage
 .
 cpp
