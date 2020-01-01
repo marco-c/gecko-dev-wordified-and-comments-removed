@@ -651,6 +651,9 @@ Fragment
 >
 dependentTrees
 ;
+unsigned
+branchCount
+;
 TreeInfo
 (
 nanojit
