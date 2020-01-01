@@ -4525,6 +4525,10 @@ imm32
 ;
 double
 d
+=
+0
+.
+0
 ;
 switch
 (
@@ -14913,6 +14917,14 @@ args
 ]
 )
 {
+NanoAssert
+(
+nArgs
+>
+=
+0
+)
+;
 for
 (
 int
@@ -16558,6 +16570,9 @@ gr
 {
 int
 nArgs
+=
+-
+1
 ;
 LTy
 formals
@@ -16793,7 +16808,8 @@ to
 int
 nArgs
 =
-0
+-
+1
 ;
 LTy
 formals
