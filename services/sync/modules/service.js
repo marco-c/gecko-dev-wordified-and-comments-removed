@@ -4713,6 +4713,7 @@ _identity
 .
 persistCredentials
 (
+true
 )
 ;
 }
