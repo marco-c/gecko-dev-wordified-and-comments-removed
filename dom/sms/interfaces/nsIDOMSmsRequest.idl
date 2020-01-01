@@ -407,7 +407,6 @@ nsIDOMEventListener
 ;
 [
 scriptable
-function
 uuid
 (
 1b24469d

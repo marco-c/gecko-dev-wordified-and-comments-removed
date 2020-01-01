@@ -413,7 +413,6 @@ nsIDOMMozSmsFilter
 ;
 [
 scriptable
-function
 uuid
 (
 c9916dce
