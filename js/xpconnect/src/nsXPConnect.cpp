@@ -7852,6 +7852,13 @@ JSObject
 *
 )
 {
+MOZ_ASSERT
+(
+NS_IsMainThread
+(
+)
+)
+;
 JSCompartment
 *
 compartment
