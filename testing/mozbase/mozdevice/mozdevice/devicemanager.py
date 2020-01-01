@@ -432,6 +432,9 @@ pushFile
 self
 localname
 destname
+retryLimit
+=
+1
 )
 :
         
@@ -608,6 +611,9 @@ pushDir
 self
 localDir
 remoteDir
+retryLimit
+=
+1
 )
 :
         
