@@ -981,6 +981,14 @@ SVGNumberList
 .
 h
 \
+SVGPathData
+.
+h
+\
+SVGPathSegUtils
+.
+h
+\
 SVGPoint
 .
 h
