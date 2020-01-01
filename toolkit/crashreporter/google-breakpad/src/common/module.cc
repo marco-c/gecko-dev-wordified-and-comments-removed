@@ -1383,9 +1383,12 @@ kExprSimple
 stream
 <
 <
+FromUniqueString
+(
 expr
 .
 ident_
+)
 <
 <
 "
@@ -1412,9 +1415,12 @@ kExprSimpleMem
 stream
 <
 <
+FromUniqueString
+(
 expr
 .
 ident_
+)
 <
 <
 "
