@@ -1222,7 +1222,7 @@ null
 return
 defaultPrefs
 .
-getComplexPref
+getComplexValue
 (
 PREF_GENERAL_USERAGENT_LOCALE
 Ci

@@ -1791,7 +1791,7 @@ locale
 =
 Prefs
 .
-getComplexPref
+getComplexValue
 (
 PREF_SELECTED_LOCALE
 Ci
@@ -5599,7 +5599,7 @@ return
 aDefaultValue
 ;
 }
-getComplexPref
+getComplexValue
 :
 function
 (
@@ -5615,7 +5615,7 @@ Services
 .
 prefs
 .
-getComplexPref
+getComplexValue
 (
 aName
 aType
