@@ -1300,7 +1300,7 @@ false
 applyBookmarks
 :
 function
-DIST_applyBookarks
+DIST_applyBookmarks
 (
 )
 {
