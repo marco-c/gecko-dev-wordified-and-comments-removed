@@ -744,6 +744,14 @@ test_bug565392
 .
 html
 \
+test_picker_no_crash
+.
+html
+\
+window_picker_no_crash_child
+.
+html
+\
 (
 NULL
 )
