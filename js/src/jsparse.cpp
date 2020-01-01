@@ -1862,11 +1862,12 @@ tc
 }
 else
 {
-UnlinkFunctionBoxes
-(
 pn
-tc
-)
+-
+>
+pn_funbox
+=
+NULL
 ;
 head
 =
