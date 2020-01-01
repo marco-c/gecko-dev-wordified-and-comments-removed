@@ -514,6 +514,10 @@ position
 :
 fixed
 ;
+display
+:
+block
+;
 }
 .
 tabbrowser
