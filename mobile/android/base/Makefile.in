@@ -505,6 +505,10 @@ WebAppAllocator
 .
 java
 \
+ZoomConstraints
+.
+java
+\
 gfx
 /
 BitmapUtils
