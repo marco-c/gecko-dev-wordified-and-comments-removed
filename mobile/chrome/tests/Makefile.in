@@ -564,10 +564,6 @@ browser_navigation
 .
 js
 \
-browser_preferences_basic
-.
-js
-\
 browser_preferences_text
 .
 js
