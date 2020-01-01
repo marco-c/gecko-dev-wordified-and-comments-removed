@@ -59,6 +59,9 @@ ic
 struct
 PICInfo
 ;
+struct
+GetElementIC
+;
 #
 ifdef
 GetProp
@@ -206,6 +209,16 @@ class
 :
 :
 GetPropCompiler
+;
+friend
+class
+mjit
+:
+:
+ic
+:
+:
+GetElementIC
 ;
 #
 endif
