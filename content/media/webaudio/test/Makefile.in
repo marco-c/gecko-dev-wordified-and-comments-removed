@@ -209,6 +209,10 @@ test_audioBufferSourceNodeEnded
 .
 html
 \
+test_audioBufferSourceNodeOffset
+.
+html
+\
 test_audioBufferSourceNodeLazyLoopParam
 .
 html

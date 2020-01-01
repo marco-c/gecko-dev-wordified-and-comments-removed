@@ -2666,8 +2666,6 @@ endOffset
 *
 rate
 )
--
-offsetTicks
 )
 ;
 }
