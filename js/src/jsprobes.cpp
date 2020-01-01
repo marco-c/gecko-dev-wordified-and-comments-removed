@@ -447,10 +447,7 @@ bytes
 encode
 (
 cx
-ATOM_TO_STRING
-(
 atom
-)
 )
 ?
 bytes

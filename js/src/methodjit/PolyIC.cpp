@@ -12110,10 +12110,10 @@ sp
 .
 setString
 (
-JSID_TO_STRING
-(
-id
-)
+pic
+-
+>
+atom
 )
 ;
 if
@@ -13863,8 +13863,9 @@ toString
 )
 -
 >
-nonRopeChars
+getChars
 (
+cx
 )
 v
 .

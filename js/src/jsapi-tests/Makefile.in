@@ -509,6 +509,10 @@ testPropCache
 .
 cpp
 \
+testResolveRecursion
+.
+cpp
+\
 testSameValue
 .
 cpp

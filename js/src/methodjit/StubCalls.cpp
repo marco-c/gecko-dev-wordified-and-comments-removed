@@ -2423,10 +2423,10 @@ length
 {
 str
 =
-JSString
+JSAtom
 :
 :
-getUnitString
+getUnitStringForElement
 (
 cx
 str
@@ -13076,10 +13076,7 @@ sp
 .
 setString
 (
-ATOM_TO_STRING
-(
 origAtom
-)
 )
 ;
 if
@@ -14185,10 +14182,7 @@ type
 ]
 ;
 return
-ATOM_TO_STRING
-(
 atom
-)
 ;
 }
 void
@@ -15437,6 +15431,7 @@ JSLinearString
 *
 rhs
 =
+&
 rval
 .
 toString
@@ -15444,7 +15439,7 @@ toString
 )
 -
 >
-assertIsLinear
+asLinear
 (
 )
 ;

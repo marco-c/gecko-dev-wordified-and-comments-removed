@@ -3266,7 +3266,7 @@ js_EqualStringsOnTrace
 )
 JS_DECLARE_CALLINFO
 (
-js_Flatten
+js_FlattenOnTrace
 )
 JS_DECLARE_CALLINFO
 (

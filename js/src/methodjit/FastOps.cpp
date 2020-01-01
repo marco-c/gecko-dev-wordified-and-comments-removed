@@ -4733,10 +4733,7 @@ move
 (
 ImmPtr
 (
-ATOM_TO_STRING
-(
 atom
-)
 )
 reg
 )

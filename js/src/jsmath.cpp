@@ -3294,13 +3294,10 @@ vp
 >
 setString
 (
-ATOM_TO_STRING
-(
 CLASS_ATOM
 (
 cx
 Math
-)
 )
 )
 ;

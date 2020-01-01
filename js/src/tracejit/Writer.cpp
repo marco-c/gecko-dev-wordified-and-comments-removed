@@ -1209,10 +1209,10 @@ immP
 )
 =
 =
-JSString
+JSAtom
 :
 :
-unitStringTable
+unitStaticTable
 )
 |
 |
@@ -1247,10 +1247,10 @@ immP
 )
 =
 =
-JSString
+JSAtom
 :
 :
-unitStringTable
+unitStaticTable
 )
 )
 )
