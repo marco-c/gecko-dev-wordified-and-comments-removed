@@ -331,13 +331,6 @@ nsIModule
 aSelf
 )
 {
-nsMozIconURI
-:
-:
-InitAtoms
-(
-)
-;
 return
 NS_OK
 ;
