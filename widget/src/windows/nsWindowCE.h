@@ -192,6 +192,9 @@ static
 void
 NotifySoftKbObservers
 (
+LPRECT
+=
+NULL
 )
 ;
 static
