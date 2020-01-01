@@ -46,6 +46,13 @@ h
 #
 include
 "
+NamespaceImports
+.
+h
+"
+#
+include
+"
 gc
 /
 Barrier

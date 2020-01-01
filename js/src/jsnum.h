@@ -23,6 +23,13 @@ h
 #
 include
 "
+NamespaceImports
+.
+h
+"
+#
+include
+"
 vm
 /
 NumericConversions

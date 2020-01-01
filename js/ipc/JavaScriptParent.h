@@ -175,7 +175,7 @@ JS
 :
 HandleObject
 proxy
-js
+JS
 :
 :
 AutoIdVector
@@ -215,7 +215,7 @@ JS
 :
 HandleObject
 proxy
-js
+JS
 :
 :
 AutoIdVector
@@ -334,7 +334,7 @@ JS
 :
 HandleObject
 proxy
-js
+JS
 :
 :
 AutoIdVector
@@ -547,7 +547,7 @@ HandleObject
 proxy
 uint32_t
 flags
-js
+JS
 :
 :
 AutoIdVector

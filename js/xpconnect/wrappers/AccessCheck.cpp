@@ -101,6 +101,10 @@ mozilla
 ;
 using
 namespace
+JS
+;
+using
+namespace
 js
 ;
 namespace

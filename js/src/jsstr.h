@@ -39,6 +39,13 @@ h
 #
 include
 "
+NamespaceImports
+.
+h
+"
+#
+include
+"
 js
 /
 RootingAPI

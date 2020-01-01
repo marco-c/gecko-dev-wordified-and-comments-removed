@@ -11,6 +11,13 @@ jsapi
 .
 h
 "
+#
+include
+"
+NamespaceImports
+.
+h
+"
 namespace
 js
 {

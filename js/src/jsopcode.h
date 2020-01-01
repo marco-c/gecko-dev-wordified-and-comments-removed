@@ -21,6 +21,13 @@ h
 #
 include
 "
+NamespaceImports
+.
+h
+"
+#
+include
+"
 frontend
 /
 SourceNotes

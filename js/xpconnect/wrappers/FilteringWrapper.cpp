@@ -56,6 +56,10 @@ h
 "
 using
 namespace
+JS
+;
+using
+namespace
 js
 ;
 namespace
