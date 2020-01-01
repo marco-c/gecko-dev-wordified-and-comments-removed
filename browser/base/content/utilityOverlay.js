@@ -2564,14 +2564,14 @@ buildHelpMenu
 if
 (
 typeof
-safebrowsing
+gSafeBrowsing
 !
 =
 "
 undefined
 "
 )
-safebrowsing
+gSafeBrowsing
 .
 setReportPhishingMenu
 (

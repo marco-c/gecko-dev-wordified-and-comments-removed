@@ -251,7 +251,7 @@ oncommand
 "
 openUILink
 (
-safebrowsing
+gSafeBrowsing
 .
 getReportURL
 (
@@ -319,7 +319,7 @@ oncommand
 "
 openUILinkIn
 (
-safebrowsing
+gSafeBrowsing
 .
 getReportURL
 (
