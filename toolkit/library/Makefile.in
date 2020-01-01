@@ -1263,15 +1263,6 @@ EXTRA_DSO_LDOPTS
 REALTIME_LIBS
 )
 endif
-ifdef
-MOZ_ENABLE_SKIA
-EXTRA_DSO_LDOPTS
-+
-=
-(
-MOZ_SKIA_LIBS
-)
-endif
 ifeq
 (
 android
