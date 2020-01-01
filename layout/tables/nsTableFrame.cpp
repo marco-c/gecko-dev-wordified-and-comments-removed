@@ -28651,6 +28651,11 @@ OrderRowGroups
 mRowGroups
 )
 ;
+mRepeatedHeaderRowIndex
+=
+-
+99
+;
 mTableIsLTR
 =
 mTable
