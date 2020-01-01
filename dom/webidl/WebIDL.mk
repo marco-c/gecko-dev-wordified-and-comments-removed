@@ -343,6 +343,10 @@ HTMLSpanElement
 .
 webidl
 \
+HTMLStyleElement
+.
+webidl
+\
 HTMLTableCaptionElement
 .
 webidl
@@ -376,6 +380,10 @@ HTMLUListElement
 webidl
 \
 ImageData
+.
+webidl
+\
+LinkStyle
 .
 webidl
 \
