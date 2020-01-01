@@ -395,6 +395,14 @@ DidHistoryRestore
 =
 0
 ;
+virtual
+void
+ClearDidHistoryRestore
+(
+)
+=
+0
+;
 }
 ;
 #

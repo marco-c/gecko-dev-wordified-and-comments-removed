@@ -12548,6 +12548,13 @@ aScroll
 =
 false
 ;
+rootScroll
+-
+>
+ClearDidHistoryRestore
+(
+)
+;
 }
 if
 (
