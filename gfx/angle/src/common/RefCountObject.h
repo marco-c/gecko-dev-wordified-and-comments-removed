@@ -1,9 +1,9 @@
 #
 ifndef
-LIBGLESV2_REFCOUNTOBJECT_H_
+COMMON_REFCOUNTOBJECT_H_
 #
 define
-LIBGLESV2_REFCOUNTOBJECT_H_
+COMMON_REFCOUNTOBJECT_H_
 #
 include
 <
@@ -30,9 +30,6 @@ debug
 .
 h
 "
-namespace
-gl
-{
 class
 RefCountObject
 {
@@ -259,6 +256,5 @@ get
 }
 }
 ;
-}
 #
 endif

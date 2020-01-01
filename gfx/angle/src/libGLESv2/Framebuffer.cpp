@@ -166,7 +166,7 @@ handle
 else
 if
 (
-IsTextureTarget
+IsInternalTextureTarget
 (
 type
 )
@@ -333,7 +333,7 @@ id
 texture
 &
 &
-IsTextureTarget
+IsInternalTextureTarget
 (
 mColorbufferType
 )
@@ -363,7 +363,7 @@ id
 texture
 &
 &
-IsTextureTarget
+IsInternalTextureTarget
 (
 mDepthbufferType
 )
@@ -393,7 +393,7 @@ id
 texture
 &
 &
-IsTextureTarget
+IsInternalTextureTarget
 (
 mStencilbufferType
 )
@@ -1004,7 +1004,7 @@ GL_FRAMEBUFFER_INCOMPLETE_ATTACHMENT
 else
 if
 (
-IsTextureTarget
+IsInternalTextureTarget
 (
 mColorbufferType
 )

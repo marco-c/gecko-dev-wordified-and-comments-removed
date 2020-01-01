@@ -273,6 +273,11 @@ DebugInformationFormat
 "
 4
 "
+WarnAsError
+=
+"
+true
+"
 /
 >
 <
@@ -746,6 +751,11 @@ DebugInformationFormat
 =
 "
 3
+"
+WarnAsError
+=
+"
+true
 "
 /
 >
@@ -1240,6 +1250,11 @@ DebugInformationFormat
 "
 3
 "
+WarnAsError
+=
+"
+true
+"
 /
 >
 <
@@ -1726,6 +1741,11 @@ DebugInformationFormat
 =
 "
 3
+"
+WarnAsError
+=
+"
+true
 "
 /
 >

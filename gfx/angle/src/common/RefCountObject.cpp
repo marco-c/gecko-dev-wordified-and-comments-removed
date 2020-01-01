@@ -5,9 +5,6 @@ RefCountObject
 .
 h
 "
-namespace
-gl
-{
 RefCountObject
 :
 :
@@ -131,5 +128,4 @@ mObject
 =
 newObject
 ;
-}
 }

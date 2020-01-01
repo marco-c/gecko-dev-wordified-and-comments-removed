@@ -1918,6 +1918,17 @@ GL_SAMPLER_CUBE
 ;
 break
 ;
+case
+SH_SAMPLER_EXTERNAL_OES
+:
+typeName
+=
+"
+GL_SAMPLER_EXTERNAL_OES
+"
+;
+break
+;
 default
 :
 assert

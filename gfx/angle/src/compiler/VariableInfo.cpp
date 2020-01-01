@@ -307,6 +307,12 @@ return
 SH_SAMPLER_CUBE
 ;
 case
+EbtSamplerExternalOES
+:
+return
+SH_SAMPLER_EXTERNAL_OES
+;
+case
 EbtSampler2DRect
 :
 return

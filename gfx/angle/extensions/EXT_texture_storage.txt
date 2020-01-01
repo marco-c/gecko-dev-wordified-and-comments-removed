@@ -80,11 +80,11 @@ Revision
 :
 24
 Number
-XXX
--
-not
-assigned
-yet
+OpenGL
+ES
+Extension
+#
+108
 Dependencies
 OpenGL
 ES

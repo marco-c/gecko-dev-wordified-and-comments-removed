@@ -436,14 +436,6 @@ ShaderLang
 .
 h
 \
-include
-/
-GLSLANG
-/
-ResourceLimits
-.
-h
-\
 (
 NULL
 )
@@ -526,10 +518,6 @@ intermOut
 cpp
 \
 IntermTraverse
-.
-cpp
-\
-MozAngleLink
 .
 cpp
 \
