@@ -193,15 +193,13 @@ nsDisplayListSet
 aLists
 )
 {
+return
 BuildDisplayListForInline
 (
 aBuilder
 aDirtyRect
 aLists
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
