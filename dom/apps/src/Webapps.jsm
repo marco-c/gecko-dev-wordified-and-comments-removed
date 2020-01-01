@@ -7455,6 +7455,12 @@ readChunk
 }
 else
 {
+file
+.
+close
+(
+)
+;
 let
 hash
 =
