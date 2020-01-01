@@ -3283,10 +3283,9 @@ IsRootContentDocument
 {
 if
 (
-!
 mIsBrowserElement
-&
-&
+|
+|
 mAppId
 =
 =
