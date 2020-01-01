@@ -1573,7 +1573,7 @@ DefinitionList
 static
 const
 bool
-result
+value
 =
 true
 ;

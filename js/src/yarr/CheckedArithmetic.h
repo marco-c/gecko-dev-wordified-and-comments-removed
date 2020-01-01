@@ -513,7 +513,7 @@ Source
 >
 :
 :
-result
+value
 >
 struct
 BoundsCheckElider
