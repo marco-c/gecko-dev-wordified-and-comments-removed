@@ -681,9 +681,15 @@ NULL
 endif
 ifeq
 (
+(
+filter
+-
+out
 gtk2
+gtk3
 (
 MOZ_WIDGET_TOOLKIT
+)
 )
 )
 MOCHITEST_FILES

@@ -4779,9 +4779,11 @@ result
 }
 #
 if
-defined
 (
 MOZ_WIDGET_GTK
+=
+=
+2
 )
 case
 NPNVxDisplay

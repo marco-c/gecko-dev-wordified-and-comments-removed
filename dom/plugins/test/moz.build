@@ -114,6 +114,9 @@ in
 gtk2
 '
 '
+gtk3
+'
+'
 cocoa
 '
 '
