@@ -20152,6 +20152,14 @@ if
 mIsDestroying
 )
 {
+mViewManager
+-
+>
+FlushDelayedResize
+(
+PR_FALSE
+)
+;
 mPresContext
 -
 >
@@ -20285,6 +20293,7 @@ mViewManager
 >
 FlushDelayedResize
 (
+PR_TRUE
 )
 ;
 if
