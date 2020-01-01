@@ -569,7 +569,7 @@ notifyData
 ;
 PluginModuleParent
 *
-GetModule
+Module
 (
 )
 {

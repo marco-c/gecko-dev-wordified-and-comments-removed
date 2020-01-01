@@ -434,11 +434,11 @@ mozilla
 EXPORTS_mozilla
 =
 \
-SharedLibrary
+PluginLibrary
 .
 h
 \
-SharedPRLibrary
+PluginPRLibrary
 .
 h
 \
