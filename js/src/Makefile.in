@@ -878,6 +878,10 @@ MethodGuard
 .
 cpp
 \
+ObjectImpl
+.
+cpp
+\
 Stack
 .
 cpp
