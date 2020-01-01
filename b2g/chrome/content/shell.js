@@ -2466,7 +2466,7 @@ bufferedSysMsgs
 timer
 :
 null
-visibleAudioActive
+visibleNormalAudioActive
 :
 false
 handleEvent
@@ -2558,7 +2558,7 @@ STATE_MINIMIZED
 !
 this
 .
-visibleAudioActive
+visibleNormalAudioActive
 )
 {
 this
@@ -6636,15 +6636,14 @@ aData
 ;
 shell
 .
-visibleAudioActive
+visibleNormalAudioActive
 =
 (
 aData
-!
 =
 =
 '
-none
+normal
 '
 )
 ;
