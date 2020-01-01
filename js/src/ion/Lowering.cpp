@@ -3169,7 +3169,7 @@ lir
 new
 LSqrtD
 (
-useRegister
+useRegisterAtStart
 (
 num
 )
@@ -5150,7 +5150,7 @@ define
 new
 LSlots
 (
-useRegister
+useRegisterAtStart
 (
 ins
 -
@@ -5181,7 +5181,7 @@ define
 new
 LElements
 (
-useRegister
+useRegisterAtStart
 (
 ins
 -
@@ -5302,7 +5302,7 @@ define
 new
 LFunctionEnvironment
 (
-useRegister
+useRegisterAtStart
 (
 ins
 -
@@ -5634,7 +5634,7 @@ define
 new
 LArrayLength
 (
-useRegister
+useRegisterAtStart
 (
 ins
 -
@@ -5776,7 +5776,7 @@ define
 new
 LInitializedLength
 (
-useRegister
+useRegisterAtStart
 (
 ins
 -
@@ -5983,7 +5983,7 @@ define
 new
 LNotI
 (
-useRegister
+useRegisterAtStart
 (
 op
 )
@@ -9190,7 +9190,7 @@ define
 new
 LStringLength
 (
-useRegister
+useRegisterAtStart
 (
 ins
 -
