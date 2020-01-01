@@ -352,6 +352,14 @@ exclusiveThreadsPresent
 )
 )
 ;
+JS_ASSERT_IF
+(
+needs
+canCollect
+(
+)
+)
+;
 needsBarrier_
 =
 needs

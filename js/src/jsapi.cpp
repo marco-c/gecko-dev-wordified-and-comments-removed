@@ -24783,7 +24783,7 @@ runtime
 )
 -
 >
-atomsZoneNeedsBarrier
+activeGCInAtomsZone
 (
 )
 )

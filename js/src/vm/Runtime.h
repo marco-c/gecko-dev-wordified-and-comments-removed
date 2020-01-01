@@ -4595,9 +4595,8 @@ Zone
 zone
 )
 ;
-inline
 bool
-atomsZoneNeedsBarrier
+activeGCInAtomsZone
 (
 )
 ;
