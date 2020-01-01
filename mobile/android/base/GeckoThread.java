@@ -108,12 +108,17 @@ mIntent
 String
 mUri
 ;
+boolean
+mRestoreSession
+;
 GeckoThread
 (
 Intent
 intent
 String
 uri
+boolean
+restoreSession
 )
 {
 mIntent
@@ -123,6 +128,10 @@ intent
 mUri
 =
 uri
+;
+mRestoreSession
+=
+restoreSession
 ;
 }
 public
@@ -411,6 +420,7 @@ args
 "
 )
 mUri
+mRestoreSession
 )
 ;
 }
