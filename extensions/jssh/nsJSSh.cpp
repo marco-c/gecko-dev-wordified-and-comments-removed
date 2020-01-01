@@ -581,6 +581,10 @@ bytesWritten
 else
 printf
 (
+"
+%
+s
+"
 JS_GetStringBytes
 (
 str
