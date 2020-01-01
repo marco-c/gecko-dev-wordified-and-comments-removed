@@ -1007,15 +1007,9 @@ getHistograms
 function
 getHistograms
 (
+hls
 )
 {
-let
-hls
-=
-Telemetry
-.
-histogramSnapshots
-;
 let
 info
 =
