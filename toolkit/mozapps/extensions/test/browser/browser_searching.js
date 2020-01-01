@@ -2389,7 +2389,7 @@ name
 "
 )
 .
-value
+textContent
 ;
 is
 (

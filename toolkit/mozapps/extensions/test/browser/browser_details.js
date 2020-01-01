@@ -930,7 +930,7 @@ name
 "
 )
 .
-value
+textContent
 "
 Test
 add
@@ -2414,7 +2414,7 @@ name
 "
 )
 .
-value
+textContent
 "
 Test
 add
@@ -3078,7 +3078,7 @@ name
 "
 )
 .
-value
+textContent
 "
 Test
 add
@@ -4277,7 +4277,7 @@ name
 "
 )
 .
-value
+textContent
 "
 Test
 add
@@ -5353,7 +5353,7 @@ name
 "
 )
 .
-value
+textContent
 "
 Test
 add
@@ -5678,7 +5678,7 @@ name
 "
 )
 .
-value
+textContent
 "
 Test
 add
@@ -6496,7 +6496,7 @@ name
 "
 )
 .
-value
+textContent
 "
 Test
 add
@@ -7394,7 +7394,7 @@ name
 "
 )
 .
-value
+textContent
 "
 Test
 add

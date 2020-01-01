@@ -10148,7 +10148,7 @@ name
 "
 )
 .
-value
+textContent
 =
 aAddon
 .
