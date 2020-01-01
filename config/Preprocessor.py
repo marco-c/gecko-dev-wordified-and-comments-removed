@@ -1286,7 +1286,7 @@ FILTER
 help
 =
 '
-Enabble
+Enable
 the
 specified
 filter
