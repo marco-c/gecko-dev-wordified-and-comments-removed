@@ -10614,7 +10614,7 @@ icon
 png
 :
 (
-MOZ_APP_ICON
+ICON_PATH
 )
 (
 NSINSTALL
@@ -10641,7 +10641,7 @@ icon
 png
 :
 (
-MOZ_APP_ICON
+ICON_PATH_HDPI
 )
 (
 NSINSTALL
@@ -10668,7 +10668,7 @@ icon
 png
 :
 (
-MOZ_APP_ICON
+ICON_PATH_XHDPI
 )
 (
 NSINSTALL
@@ -10695,7 +10695,7 @@ icon
 png
 :
 (
-MOZ_APP_ICON
+ICON_PATH_XXHDPI
 )
 (
 NSINSTALL
