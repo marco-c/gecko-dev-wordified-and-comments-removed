@@ -2041,6 +2041,8 @@ fnObj
 JSObject
 *
 thisObj
+jsval
+errVal
 PRFuncPtr
 *
 fnptr
