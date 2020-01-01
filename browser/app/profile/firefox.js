@@ -7105,3 +7105,15 @@ autostart
 false
 )
 ;
+pref
+(
+"
+browser
+.
+privatebrowsing
+.
+dont_prompt_on_enter
+"
+false
+)
+;

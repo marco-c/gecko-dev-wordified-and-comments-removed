@@ -1511,6 +1511,13 @@ bin
 /
 components
 /
+aboutPrivateBrowsing
+.
+js
+bin
+/
+components
+/
 aboutSessionRestore
 .
 js
