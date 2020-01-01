@@ -12935,6 +12935,7 @@ shutdown
 }
 #
 endif
+BEGIN_WORKERS_NAMESPACE
 template
 class
 WorkerPrivateParent
@@ -12942,7 +12943,6 @@ WorkerPrivateParent
 WorkerPrivate
 >
 ;
-BEGIN_WORKERS_NAMESPACE
 WorkerPrivate
 *
 GetWorkerPrivateFromContext
