@@ -159,10 +159,10 @@ struct
 StatStorageResponse
 {
 int64_t
-totalBytes
+freeBytes
 ;
 int64_t
-freeBytes
+totalBytes
 ;
 nsString
 mountState
