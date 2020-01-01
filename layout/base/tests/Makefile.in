@@ -845,6 +845,10 @@ test_emulateMedium
 .
 html
 \
+enableTestPlugin
+.
+js
+\
 (
 NULL
 )
