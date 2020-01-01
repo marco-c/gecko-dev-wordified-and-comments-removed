@@ -750,6 +750,9 @@ mPaused
 PRBool
 mWasResumed
 ;
+PRUint64
+mResumedAt
+;
 double
 mSpeed
 ;
