@@ -3049,6 +3049,16 @@ NSWindow
 aNativeWindow
 ;
 }
+[
+[
+WindowDataMap
+sharedWindowDataMap
+]
+ensureDataForWindow
+:
+mWindow
+]
+;
 return
 NS_OK
 ;
