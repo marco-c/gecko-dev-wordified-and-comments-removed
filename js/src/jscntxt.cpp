@@ -869,6 +869,12 @@ triggerOperationCallback
 (
 )
 {
+AutoLockForOperationCallback
+lock
+(
+this
+)
+;
 mainThread
 .
 setIonStackLimit
