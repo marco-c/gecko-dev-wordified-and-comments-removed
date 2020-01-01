@@ -419,10 +419,6 @@ SyncComponents
 .
 manifest
 \
-FormNotifier
-.
-js
-\
 Weave
 .
 js
