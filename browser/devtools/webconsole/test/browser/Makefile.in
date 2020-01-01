@@ -888,10 +888,6 @@ browser_webconsole_bug_658368_time_methods
 .
 js
 \
-browser_webconsole_window_zombie
-.
-js
-\
 head
 .
 js
