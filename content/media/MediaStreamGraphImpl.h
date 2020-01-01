@@ -645,6 +645,15 @@ MediaStream
 >
 mStreams
 ;
+nsTArray
+<
+nsRefPtr
+<
+MediaStream
+>
+>
+mOldStreams
+;
 GraphTime
 mCurrentTime
 ;
