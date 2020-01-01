@@ -5540,6 +5540,7 @@ js_DestroyScript
 (
 cx
 script
+6
 )
 ;
 return
@@ -10382,7 +10383,7 @@ rarray
 ;
 for
 (
-int
+uint32
 i
 =
 0

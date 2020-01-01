@@ -2260,6 +2260,17 @@ dataReg
 )
 ;
 #
+elif
+defined
+JS_CPU_ARM
+fastStoreDouble
+(
+srcDest
+dataReg
+typeReg
+)
+;
+#
 else
 JS_NOT_REACHED
 (

@@ -222,7 +222,7 @@ o
 '
 parent
 ;
-proto
+type_proto
 '
 o
 )

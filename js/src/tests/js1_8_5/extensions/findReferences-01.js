@@ -54,7 +54,7 @@ referencesVia
 (
 o
 '
-proto
+type_proto
 '
 C
 .
