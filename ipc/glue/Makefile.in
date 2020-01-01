@@ -448,6 +448,10 @@ EXPORTS_mozilla
 ipc
 =
 \
+AsyncChannel
+.
+h
+\
 GeckoChildProcessHost
 .
 h
@@ -468,6 +472,10 @@ RPCChannel
 .
 h
 \
+SyncChannel
+.
+h
+\
 ScopedXREEmbed
 .
 h
@@ -481,6 +489,10 @@ ENABLE_CXX_EXCEPTIONS
 CPPSRCS
 +
 =
+\
+AsyncChannel
+.
+cpp
 \
 GeckoChildProcessHost
 .
@@ -503,6 +515,10 @@ ScopedXREEmbed
 cpp
 \
 StringUtil
+.
+cpp
+\
+SyncChannel
 .
 cpp
 \
