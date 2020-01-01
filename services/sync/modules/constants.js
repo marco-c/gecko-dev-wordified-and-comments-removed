@@ -40,7 +40,7 @@ weave_id
 "
 STORAGE_VERSION
 :
-2
+3
 UPDATED_DEV_URL
 :
 "

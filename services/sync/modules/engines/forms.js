@@ -875,6 +875,7 @@ function
 createRecord
 (
 guid
+uri
 )
 {
 let
@@ -883,6 +884,7 @@ record
 new
 FormRec
 (
+uri
 )
 ;
 let
