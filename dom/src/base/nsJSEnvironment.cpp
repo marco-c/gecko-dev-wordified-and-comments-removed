@@ -8467,6 +8467,12 @@ holder
 "
 )
 ;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
+)
+;
 return
 aResult
 .
