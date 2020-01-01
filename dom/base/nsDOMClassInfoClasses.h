@@ -1203,10 +1203,6 @@ MozURLProperty
 )
 DOMCI_CLASS
 (
-MozBlobBuilder
-)
-DOMCI_CLASS
-(
 DOMStringMap
 )
 DOMCI_CLASS
@@ -1373,10 +1369,6 @@ MozTouchEvent
 DOMCI_CLASS
 (
 MathMLElement
-)
-DOMCI_CLASS
-(
-WebGLRenderingContext
 )
 DOMCI_CLASS
 (
