@@ -2694,6 +2694,11 @@ directories
 return
 bestmatch
 .
+"
+\
+\
+"
+.
 join
 "
 \
