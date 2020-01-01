@@ -533,7 +533,7 @@ RESERVED_SLOTS
 nargs
 +
 nvars
-true
+SENTINEL_ALLOWED
 )
 )
 ;
