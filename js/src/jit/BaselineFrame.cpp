@@ -174,6 +174,10 @@ args
 )
 ;
 }
+if
+(
+scopeChain_
+)
 gc
 :
 :

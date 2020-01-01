@@ -522,6 +522,10 @@ const
 VMFunction
 &
 fun
+bool
+preInitialize
+=
+false
 )
 ;
 public
