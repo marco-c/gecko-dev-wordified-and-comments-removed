@@ -166,6 +166,8 @@ PRPackedBool
 aSystemFont
 PRPackedBool
 aFamilyNameQuirks
+PRPackedBool
+aPrinterFont
 )
 ;
 gfxFontStyle
@@ -183,6 +185,11 @@ style
 ;
 PRPackedBool
 systemFont
+:
+1
+;
+PRPackedBool
+printerFont
 :
 1
 ;
@@ -364,6 +371,16 @@ systemFont
 other
 .
 systemFont
+)
+&
+&
+(
+printerFont
+=
+=
+other
+.
+printerFont
 )
 &
 &

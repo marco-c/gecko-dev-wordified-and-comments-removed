@@ -272,6 +272,7 @@ western
 0
 PR_FALSE
 PR_FALSE
+PR_FALSE
 )
 ;
 fontGroup
