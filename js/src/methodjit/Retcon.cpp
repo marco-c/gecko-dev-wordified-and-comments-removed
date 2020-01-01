@@ -394,8 +394,6 @@ compartment
 -
 >
 jaegerCompartment
-(
-)
 -
 >
 activeFrame
@@ -941,6 +939,8 @@ compartment
 -
 >
 debugMode
+(
+)
 )
 ;
 JS_ASSERT
