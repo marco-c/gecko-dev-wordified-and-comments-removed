@@ -174,6 +174,9 @@ M_COM
 M_TEM
 =
 0x01
+M_ERROR
+=
+0x100
 }
 JPEG_MARKER
 ;

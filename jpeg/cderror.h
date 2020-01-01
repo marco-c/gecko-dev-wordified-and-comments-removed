@@ -131,6 +131,15 @@ supported
 )
 JMESSAGE
 (
+JERR_BMP_EMPTY
+"
+Empty
+BMP
+image
+"
+)
+JMESSAGE
+(
 JERR_BMP_NOT
 "
 Not

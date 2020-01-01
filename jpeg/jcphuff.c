@@ -836,7 +836,6 @@ dest
 free_in_buffer
 ;
 }
-INLINE
 LOCAL
 (
 void
@@ -1038,7 +1037,6 @@ put_bits
 0
 ;
 }
-INLINE
 LOCAL
 (
 void

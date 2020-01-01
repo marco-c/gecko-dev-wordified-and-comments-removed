@@ -15,6 +15,13 @@ jpeglib
 .
 h
 "
+#
+include
+"
+jpegcomp
+.
+h
+"
 LOCAL
 (
 boolean
@@ -835,7 +842,7 @@ max_v_samp_factor
 cinfo
 -
 >
-min_DCT_scaled_size
+_min_DCT_scaled_size
 ;
 if
 (
