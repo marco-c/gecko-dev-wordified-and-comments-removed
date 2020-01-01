@@ -1227,15 +1227,6 @@ callee
 ;
 MInstruction
 *
-createDeclEnvObject
-(
-MDefinition
-*
-scopeObj
-)
-;
-MInstruction
-*
 createCallObject
 (
 MDefinition

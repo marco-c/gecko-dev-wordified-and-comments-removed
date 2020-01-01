@@ -1487,7 +1487,7 @@ bool
 StackFrame
 :
 :
-initFunctionScopeObjects
+initCallObject
 (
 JSContext
 *
@@ -1694,7 +1694,7 @@ isHeavyweight
 &
 &
 !
-initFunctionScopeObjects
+initCallObject
 (
 cx
 )
