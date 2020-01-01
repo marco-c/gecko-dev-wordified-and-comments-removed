@@ -1175,6 +1175,10 @@ platform_util_mac
 .
 mm
 \
+chrome_application_mac
+.
+mm
+\
 (
 NULL
 )
