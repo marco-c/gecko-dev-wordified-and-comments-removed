@@ -11294,6 +11294,7 @@ nextNLKind
 nlkind
 )
 )
+{
 m_listNL
 [
 nlkind
@@ -11312,6 +11313,14 @@ nlkind
 ]
 ]
 ;
+m_usedNL
+[
+nlkind
+]
+=
+1
+;
+}
 for
 (
 CseAcc
@@ -11352,6 +11361,13 @@ m_capL
 a
 ]
 ]
+;
+m_usedL
+[
+a
+]
+=
+1
 ;
 }
 clearAll
