@@ -6736,6 +6736,10 @@ length
 0
 )
 ;
+restartManager
+(
+)
+;
 b1
 .
 uninstall
