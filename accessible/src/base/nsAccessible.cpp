@@ -2758,7 +2758,6 @@ docAccessible
 GetAccessibleInParentChain
 (
 mDOMNode
-PR_TRUE
 aParent
 )
 ;
