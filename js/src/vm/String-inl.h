@@ -1761,6 +1761,9 @@ cx
 {
 JS_ASSERT
 (
+JSString
+:
+:
 isShort
 (
 )
@@ -1781,6 +1784,9 @@ rt
 {
 JS_ASSERT
 (
+JSString
+:
+:
 isAtom
 (
 )
@@ -1801,10 +1807,9 @@ gc
 :
 FINALIZE_STRING
 )
-asFlat
-(
-)
-.
+JSFlatString
+:
+:
 finalize
 (
 rt

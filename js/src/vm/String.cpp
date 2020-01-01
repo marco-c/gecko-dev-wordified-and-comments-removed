@@ -1268,6 +1268,9 @@ cx
 {
 JS_ASSERT
 (
+JSString
+:
+:
 isDependent
 (
 )
