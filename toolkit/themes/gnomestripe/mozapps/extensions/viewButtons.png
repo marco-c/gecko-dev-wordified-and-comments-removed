@@ -1,12 +1,12 @@
 PNG
 IHDR
 tU
-sRGB
-bKGD
-pHYs
 tIME
 4r
 P
+bKGD
+pHYs
+(
 IDATx
 y
 U
@@ -2320,8 +2320,6 @@ m
 g
 9u
 7
-Ls
-IDAT
 =
 fs
 hc
@@ -2958,5 +2956,7 @@ Q
 4
 ISA
 KR
+.
+{
 IEND
 B
