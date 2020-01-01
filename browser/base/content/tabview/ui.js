@@ -3820,12 +3820,6 @@ bounds
 }
 )
 ;
-Groups
-.
-repositionNewTabGroup
-(
-)
-;
 if
 (
 newPageBounds
