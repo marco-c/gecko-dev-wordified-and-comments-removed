@@ -9232,10 +9232,7 @@ type
 d
 ]
 "
-PromiseFlatCString
-(
 clientID
-)
 .
 get
 (
