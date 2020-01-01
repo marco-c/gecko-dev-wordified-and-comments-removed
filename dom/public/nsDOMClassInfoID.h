@@ -126,10 +126,10 @@ eDOMClassInfo_XULCommandDispatcher_id
 #
 endif
 eDOMClassInfo_XULControllers_id
+eDOMClassInfo_BoxObject_id
 #
 ifdef
 MOZ_XUL
-eDOMClassInfo_BoxObject_id
 eDOMClassInfo_TreeSelection_id
 eDOMClassInfo_TreeContentView_id
 #
