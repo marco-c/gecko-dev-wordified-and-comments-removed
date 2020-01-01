@@ -480,6 +480,14 @@ test_editablebody
 .
 html
 \
+test_inputs
+.
+html
+\
+test_inputs
+.
+xul
+\
 test_link
 .
 html
