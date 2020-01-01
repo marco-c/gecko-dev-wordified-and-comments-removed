@@ -109,7 +109,6 @@ uintN
 mOldFlags
 ;
 JS_DECL_USE_GUARD_OBJECT_NOTIFIER
-;
 static
 uintN
 GetFlags
@@ -328,7 +327,6 @@ public
 ACOBase
 {
 JS_DECL_USE_GUARD_OBJECT_NOTIFIER
-;
 public
 :
 AutoCheckOperation
