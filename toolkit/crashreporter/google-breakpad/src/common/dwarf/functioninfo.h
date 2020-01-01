@@ -1,9 +1,9 @@
 #
 ifndef
-COMMON_MAC_DWARF_FUNCTIONINFO_H__
+COMMON_DWARF_FUNCTIONINFO_H__
 #
 define
-COMMON_MAC_DWARF_FUNCTIONINFO_H__
+COMMON_DWARF_FUNCTIONINFO_H__
 #
 include
 <
@@ -28,8 +28,6 @@ vector
 include
 "
 common
-/
-mac
 /
 dwarf
 /

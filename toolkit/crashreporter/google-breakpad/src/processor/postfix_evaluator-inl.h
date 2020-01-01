@@ -7,6 +7,11 @@ PROCESSOR_POSTFIX_EVALUATOR_INL_H__
 #
 include
 <
+cstdio
+>
+#
+include
+<
 sstream
 >
 #

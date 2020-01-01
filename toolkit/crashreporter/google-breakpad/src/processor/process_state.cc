@@ -73,6 +73,12 @@ crash_address_
 =
 0
 ;
+assertion_
+.
+clear
+(
+)
+;
 requesting_thread_
 =
 -

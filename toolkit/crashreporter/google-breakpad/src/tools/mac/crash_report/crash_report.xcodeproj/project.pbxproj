@@ -4005,8 +4005,6 @@ path
 /
 common
 /
-mac
-/
 dwarf
 /
 bytereader
@@ -4064,8 +4062,6 @@ path
 /
 common
 /
-mac
-/
 dwarf
 /
 dwarf2reader
@@ -4122,8 +4118,6 @@ path
 .
 /
 common
-/
-mac
 /
 dwarf
 /

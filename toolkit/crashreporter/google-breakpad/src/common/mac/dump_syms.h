@@ -23,8 +23,6 @@ include
 "
 common
 /
-mac
-/
 dwarf
 /
 dwarf2reader
@@ -32,7 +30,7 @@ dwarf2reader
 h
 "
 typedef
-hash_map
+map
 <
 string
 dwarf2reader
