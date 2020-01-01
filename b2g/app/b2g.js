@@ -3889,7 +3889,7 @@ gonk
 .
 backgroundOomAdjust
 "
-2
+6
 )
 ;
 pref
