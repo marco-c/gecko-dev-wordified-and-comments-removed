@@ -524,6 +524,10 @@ nsTextEquivUtils
 .
 cpp
 \
+RoleAsserts
+.
+cpp
+\
 StyleInfo
 .
 cpp
