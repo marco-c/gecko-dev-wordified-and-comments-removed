@@ -943,8 +943,10 @@ i
 {
 nsTArray
 <
+nsCOMPtr
+<
 nsIDocument
-*
+>
 >
 targets
 ;

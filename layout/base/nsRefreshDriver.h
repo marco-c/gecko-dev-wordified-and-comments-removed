@@ -526,8 +526,10 @@ mLayoutFlushObservers
 ;
 nsTArray
 <
+nsCOMPtr
+<
 nsIDocument
-*
+>
 >
 mBeforePaintTargets
 ;
