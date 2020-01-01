@@ -435,7 +435,7 @@ crashReporter
 .
 minidumpPath
 =
-do_get_cwd
+do_get_tempdir
 (
 )
 ;
