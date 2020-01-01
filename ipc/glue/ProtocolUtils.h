@@ -380,17 +380,11 @@ char
 aMsg
 )
 {
-if
-(
-LoggingEnabled
-(
-)
-)
-{
 printf_stderr
 (
 "
-Protocol
+IPDL
+protocol
 error
 :
 %
@@ -401,7 +395,6 @@ n
 aMsg
 )
 ;
-}
 }
 typedef
 IPCMessageStart
