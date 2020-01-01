@@ -9,7 +9,7 @@ MOUSE_SCROLL_IS_HORIZONTAL
 const
 MOUSE_SCROLL_FULLZOOM
 =
-3
+5
 ;
 var
 FullZoom
