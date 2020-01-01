@@ -14741,7 +14741,7 @@ rval
 if
 (
 !
-js_ValueToBoolean
+ToBoolean
 (
 callval
 )
@@ -14797,7 +14797,7 @@ rval
 {
 if
 (
-js_ValueToBoolean
+ToBoolean
 (
 callval
 )
@@ -15942,7 +15942,7 @@ false
 ;
 if
 (
-js_ValueToBoolean
+ToBoolean
 (
 ag
 .

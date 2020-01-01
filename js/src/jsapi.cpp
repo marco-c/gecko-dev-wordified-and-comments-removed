@@ -1658,7 +1658,7 @@ JSBool
 *
 )
 =
-js_ValueToBoolean
+ToBoolean
 (
 *
 sp
@@ -2540,9 +2540,9 @@ JSTYPE_BOOLEAN
 *
 vp
 =
-BOOLEAN_TO_JSVAL
+BooleanValue
 (
-js_ValueToBoolean
+ToBoolean
 (
 v
 )
@@ -3208,7 +3208,7 @@ v
 *
 bp
 =
-js_ValueToBoolean
+ToBoolean
 (
 v
 )

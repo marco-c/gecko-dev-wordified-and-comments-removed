@@ -3725,7 +3725,7 @@ push
 BooleanValue
 (
 !
-js_ValueToBoolean
+ToBoolean
 (
 v
 )
@@ -5306,7 +5306,7 @@ isConstant
 JSBool
 b
 =
-js_ValueToBoolean
+ToBoolean
 (
 fe
 -
@@ -5445,7 +5445,7 @@ isConstant
 JSBool
 b
 =
-js_ValueToBoolean
+ToBoolean
 (
 fe
 -
