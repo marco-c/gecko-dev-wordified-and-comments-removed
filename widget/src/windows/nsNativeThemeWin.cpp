@@ -6478,6 +6478,9 @@ nsRect
 aResult
 )
 {
+#
+if
+0
 if
 (
 mIsVistaOrLater
@@ -6549,6 +6552,8 @@ PR_TRUE
 ;
 }
 }
+#
+endif
 return
 PR_FALSE
 ;
