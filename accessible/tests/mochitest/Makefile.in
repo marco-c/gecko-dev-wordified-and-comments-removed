@@ -424,6 +424,7 @@ DIRS
 actions
 attributes
 events
+relations
 selectable
 states
 tree
@@ -703,18 +704,6 @@ html
 test_nsOuterDocAccessible
 .
 html
-\
-test_relations
-.
-html
-\
-test_relations
-.
-xul
-\
-test_relations_tree
-.
-xul
 \
 test_role_nsHyperTextAcc
 .
