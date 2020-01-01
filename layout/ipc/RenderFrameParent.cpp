@@ -710,10 +710,7 @@ ToNearestPixels
 auPerDevPixel
 )
 ;
-gfx
-:
-:
-Point
+gfxPoint
 metricsScrollOffset
 =
 aMetrics
@@ -3857,10 +3854,7 @@ mPanZoomController
 >
 UpdateCompositionBounds
 (
-gfx
-:
-:
-IntRect
+nsIntRect
 (
 0
 0
