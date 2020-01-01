@@ -13,6 +13,7 @@ code
 "
 import
 os
+posixpath
 errno
 re
 sys
@@ -115,9 +116,7 @@ sdirs
         
 t
 =
-os
-.
-path
+posixpath
 .
 join
 (
