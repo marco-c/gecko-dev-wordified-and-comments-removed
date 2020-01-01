@@ -45,6 +45,8 @@ nsClipboard
 :
 public
 nsBaseClipboard
+public
+nsIObserver
 {
 public
 :
@@ -58,6 +60,8 @@ nsClipboard
 (
 )
 ;
+NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_NSIOBSERVER
 NS_IMETHOD
 HasDataMatchingFlavors
 (
