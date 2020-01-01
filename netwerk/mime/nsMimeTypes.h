@@ -506,6 +506,16 @@ xml
 "
 #
 define
+APPLICATION_XSLT_XML
+"
+application
+/
+xslt
++
+xml
+"
+#
+define
 APPLICATION_MATHML_XML
 "
 application

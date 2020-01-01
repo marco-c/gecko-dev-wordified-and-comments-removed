@@ -3170,6 +3170,14 @@ type
 .
 EqualsIgnoreCase
 (
+APPLICATION_XSLT_XML
+)
+|
+|
+type
+.
+EqualsIgnoreCase
+(
 TEXT_XML
 )
 |
