@@ -4191,7 +4191,7 @@ n
 ;
 AbortSession
 (
-NS_ERROR_ILLEGAL_VALUE
+NS_ERROR_CANNOT_CONVERT_DATA
 )
 ;
 return
@@ -5312,6 +5312,16 @@ return
 CLOSE_ABNORMAL
 ;
 }
+if
+(
+resultCode
+=
+=
+NS_ERROR_CANNOT_CONVERT_DATA
+)
+return
+CLOSE_INVALID_PAYLOAD
+;
 return
 CLOSE_PROTOCOL_ERROR
 ;
