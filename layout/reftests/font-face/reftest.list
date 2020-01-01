@@ -2422,12 +2422,6 @@ bug533251
 ref
 .
 html
-random
--
-if
-(
-gtk2Widget
-)
 HTTP
 (
 .
