@@ -90,6 +90,13 @@ nsCocoaWindow
 geckoWidget
 ;
 end
+interface
+ToolbarWindow
+:
+NSWindow
+{
+}
+end
 class
 nsCocoaWindow
 :
