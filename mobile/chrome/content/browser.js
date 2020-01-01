@@ -6284,7 +6284,9 @@ prefValue
 let
 dpi
 =
-Utils
+this
+.
+windowUtils
 .
 displayDPI
 ;
@@ -10243,7 +10245,9 @@ aY
 let
 dpi
 =
-Utils
+Browser
+.
+windowUtils
 .
 displayDPI
 ;
