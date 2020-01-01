@@ -3699,12 +3699,10 @@ VtuneApi
 lib
 endif
 #
-BeOS
-and
 HP
 -
 UX
-do
+does
 not
 require
 the
@@ -3719,13 +3717,11 @@ ifeq
 (
 (
 filter
-BeOS
 HP
 -
 UX
 WINNT
 WINCE
-OpenVMS
 OS2
 (
 OS_ARCH

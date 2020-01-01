@@ -1640,9 +1640,14 @@ flags
 =
 0
 ;
+#
+ifdef
+DEBUG
 nsresult
 rv
 =
+#
+endif
 currentFilter
 -
 >
