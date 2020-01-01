@@ -1538,9 +1538,6 @@ PRPackedBool
 mAllowKeywordFixup
 ;
 PRPackedBool
-mStrictFilePolicy
-;
-PRPackedBool
 mFiredUnloadEvent
 ;
 PRPackedBool

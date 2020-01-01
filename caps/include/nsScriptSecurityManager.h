@@ -1206,6 +1206,16 @@ PRBool
 aIsCheckConnect
 )
 ;
+static
+PRBool
+GetStrictFileOriginPolicy
+(
+)
+{
+return
+sStrictFileOriginPolicy
+;
+}
 private
 :
 nsScriptSecurityManager

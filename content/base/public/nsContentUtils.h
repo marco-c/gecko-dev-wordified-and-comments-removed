@@ -2088,6 +2088,15 @@ aDocument
 )
 ;
 static
+PRBool
+URIIsLocalFile
+(
+nsIURI
+*
+aURI
+)
+;
+static
 void
 GetOfflineAppManifest
 (
