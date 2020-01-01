@@ -2061,6 +2061,11 @@ test_385829
 .
 js
 "
+"
+test_405938_restore_queries
+.
+js
+"
 ]
 )
 {
