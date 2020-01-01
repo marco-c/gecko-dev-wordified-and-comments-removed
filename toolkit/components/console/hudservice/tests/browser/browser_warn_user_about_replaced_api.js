@@ -124,6 +124,13 @@ getHeadsUpDisplay
 hudId
 )
 ;
+HUDService
+.
+logWarningAboutReplacedAPI
+(
+hudId
+)
+;
 testWarning
 (
 )
