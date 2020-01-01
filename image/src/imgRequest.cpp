@@ -1380,7 +1380,7 @@ p
 =
 do_QueryInterface
 (
-mRequest
+mChannel
 )
 ;
 if
