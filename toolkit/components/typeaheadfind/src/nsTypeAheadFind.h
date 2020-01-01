@@ -290,13 +290,7 @@ nsCString
 mNotFoundSoundURL
 ;
 PRBool
-mLinksOnlyPref
-;
-PRBool
 mStartLinksOnlyPref
-;
-PRPackedBool
-mLinksOnly
 ;
 PRBool
 mCaretBrowsingOn
