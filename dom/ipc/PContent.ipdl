@@ -594,6 +594,15 @@ PRUint32
 flags
 )
 ;
+async
+SetURITitle
+(
+URI
+uri
+nsString
+title
+)
+;
 /
 /
 PrefService
