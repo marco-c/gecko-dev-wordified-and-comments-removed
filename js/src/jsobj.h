@@ -5136,6 +5136,15 @@ JSSLOT_PRIVATE
 +
 1
 ;
+static
+const
+uint32
+JSSLOT_BLOCK_FIRST_FREE_SLOT
+=
+JSSLOT_BLOCK_DEPTH
++
+1
+;
 inline
 bool
 JSObject

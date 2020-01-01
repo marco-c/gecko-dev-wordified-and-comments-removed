@@ -194,7 +194,7 @@ eval
 :
 sizeof
 (
-uint32
+JSPackedBool
 )
 *
 nslots
@@ -309,10 +309,10 @@ eval
 nslots
 )
 {
-escaping
+closedVars
 =
 (
-uint32
+JSPackedBool
 *
 )
 cursor
@@ -322,7 +322,7 @@ cursor
 =
 sizeof
 (
-uint32
+JSPackedBool
 )
 *
 nslots
@@ -6422,10 +6422,10 @@ closed
 eval
 |
 |
-escaping
-[
+isClosedVar
+(
 n
-]
+)
 ;
 if
 (
