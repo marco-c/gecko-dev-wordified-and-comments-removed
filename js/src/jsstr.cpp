@@ -4043,8 +4043,6 @@ JSResolveOp
 )
 str_resolve
 ConvertStub
-NULL
-JSCLASS_NO_OPTIONAL_MEMBERS
 }
 ;
 #

@@ -2192,7 +2192,6 @@ JS_CLASS_TRACE
 (
 script_trace
 )
-NULL
 }
 ;
 static
