@@ -7,14 +7,9 @@ nsWindowUtils_h_
 #
 include
 <
-Quickdraw
-.
-h
->
-#
-include
-<
-MacWindows
+Carbon
+/
+Carbon
 .
 h
 >
