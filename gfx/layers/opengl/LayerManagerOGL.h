@@ -719,7 +719,7 @@ InitModeClear
 InitModeCopy
 }
 ;
-void
+bool
 CreateFBOWithTexture
 (
 const
