@@ -1279,7 +1279,7 @@ fBindAttribLocation
 mProgram
 VertexAttrib
 "
-aVertex
+aVertexCoord
 "
 )
 ;
