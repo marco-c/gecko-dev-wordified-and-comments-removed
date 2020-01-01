@@ -181,6 +181,11 @@ AddonRepository
 jsm
 '
 '
+AddonRepository_SQLiteMigrator
+.
+jsm
+'
+'
 AddonUpdateChecker
 .
 jsm
