@@ -1,9 +1,9 @@
 #
 ifndef
-Likely_h_
+mozilla_Likely_h_
 #
 define
-Likely_h_
+mozilla_Likely_h_
 #
 if
 defined

@@ -259,7 +259,7 @@ T
 >
 ;
 struct
-dontRef
+DontRef
 {
 }
 ;
@@ -509,7 +509,7 @@ T
 >
 (
 tmp
-dontRef
+DontRef
 (
 )
 )
@@ -625,7 +625,6 @@ if
 (
 t
 )
-{
 t
 -
 >
@@ -633,7 +632,6 @@ AddRef
 (
 )
 ;
-}
 return
 t
 ;
@@ -652,7 +650,6 @@ if
 (
 t
 )
-{
 t
 -
 >
@@ -660,7 +657,6 @@ Release
 (
 )
 ;
-}
 }
 }
 ;
@@ -687,8 +683,8 @@ T
 >
 :
 :
-dontRef
-dontRef
+DontRef
+DontRef
 ;
 public
 :
@@ -804,7 +800,7 @@ T
 *
 t
 const
-dontRef
+DontRef
 &
 )
 :
@@ -822,9 +818,9 @@ ptr
 TemporaryRef
 (
 )
+MOZ_DELETE
 ;
-TemporaryRef
-&
+void
 operator
 =
 (
@@ -832,6 +828,7 @@ const
 TemporaryRef
 &
 )
+MOZ_DELETE
 ;
 }
 ;

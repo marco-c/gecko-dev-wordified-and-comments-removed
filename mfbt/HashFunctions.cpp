@@ -121,7 +121,6 @@ i
 +
 +
 )
-{
 hash
 =
 AddToHash
@@ -133,7 +132,6 @@ i
 ]
 )
 ;
-}
 return
 hash
 ;
