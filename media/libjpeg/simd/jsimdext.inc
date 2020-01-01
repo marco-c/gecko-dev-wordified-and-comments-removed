@@ -2902,7 +2902,7 @@ rdi
 sub
 rsp
 SIZEOF_XMMWORD
-movlpd
+movaps
 XMMWORD
 [
 rsp
@@ -2911,7 +2911,7 @@ xmm6
 sub
 rsp
 SIZEOF_XMMWORD
-movlpd
+movaps
 XMMWORD
 [
 rsp
@@ -2923,7 +2923,7 @@ endmacro
 imacro
 uncollect_args
 0
-movlpd
+movaps
 xmm7
 XMMWORD
 [
@@ -2932,7 +2932,7 @@ rsp
 add
 rsp
 SIZEOF_XMMWORD
-movlpd
+movaps
 xmm6
 XMMWORD
 [

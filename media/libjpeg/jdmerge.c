@@ -231,6 +231,10 @@ RGB_BLUE
 EXT_RGBX_BLUE
 #
 define
+RGB_ALPHA
+3
+#
+define
 RGB_PIXELSIZE
 EXT_RGBX_PIXELSIZE
 #
@@ -257,6 +261,9 @@ RGB_GREEN
 #
 undef
 RGB_BLUE
+#
+undef
+RGB_ALPHA
 #
 undef
 RGB_PIXELSIZE
@@ -329,6 +336,10 @@ RGB_BLUE
 EXT_BGRX_BLUE
 #
 define
+RGB_ALPHA
+3
+#
+define
 RGB_PIXELSIZE
 EXT_BGRX_PIXELSIZE
 #
@@ -357,6 +368,9 @@ undef
 RGB_BLUE
 #
 undef
+RGB_ALPHA
+#
+undef
 RGB_PIXELSIZE
 #
 undef
@@ -376,6 +390,10 @@ EXT_XBGR_GREEN
 define
 RGB_BLUE
 EXT_XBGR_BLUE
+#
+define
+RGB_ALPHA
+0
 #
 define
 RGB_PIXELSIZE
@@ -406,6 +424,9 @@ undef
 RGB_BLUE
 #
 undef
+RGB_ALPHA
+#
+undef
 RGB_PIXELSIZE
 #
 undef
@@ -425,6 +446,10 @@ EXT_XRGB_GREEN
 define
 RGB_BLUE
 EXT_XRGB_BLUE
+#
+define
+RGB_ALPHA
+0
 #
 define
 RGB_PIXELSIZE
@@ -453,6 +478,9 @@ RGB_GREEN
 #
 undef
 RGB_BLUE
+#
+undef
+RGB_ALPHA
 #
 undef
 RGB_PIXELSIZE
