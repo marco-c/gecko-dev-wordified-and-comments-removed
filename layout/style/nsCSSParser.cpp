@@ -5214,7 +5214,7 @@ prefixErr
 =
 mFoundUnresolvablePrefix
 ;
-OUTPUT_ERROR
+CLEAR_ERROR
 (
 )
 ;
