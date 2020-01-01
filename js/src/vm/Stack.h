@@ -5772,6 +5772,12 @@ JS_ASSERT
 isScript
 (
 )
+&
+&
+!
+isIon
+(
+)
 )
 ;
 return

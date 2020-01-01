@@ -696,11 +696,7 @@ StackFrame
 *
 fp
 =
-iter
-.
-fp
-(
-)
+NULL
 ;
 if
 (
@@ -711,6 +707,7 @@ isScript
 )
 &
 &
+!
 iter
 .
 isIon
@@ -719,7 +716,11 @@ isIon
 )
 fp
 =
-NULL
+iter
+.
+fp
+(
+)
 ;
 if
 (
