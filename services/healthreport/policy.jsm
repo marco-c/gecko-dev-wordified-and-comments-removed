@@ -9,6 +9,9 @@ EXPORTED_SYMBOLS
 =
 [
 "
+DataSubmissionRequest
+"
+"
 HealthReportPolicy
 "
 ]
@@ -449,6 +452,8 @@ repository
 getLogger
 (
 "
+Services
+.
 HealthReport
 .
 Policy
@@ -1578,6 +1583,7 @@ now
 (
 )
 ;
+return
 this
 .
 checkStateAndTrigger
@@ -1871,6 +1877,7 @@ nextSubmissionDate
 return
 ;
 }
+return
 this
 .
 _dispatchSubmissionRequest
@@ -1880,8 +1887,6 @@ onRequestRemoteDelete
 "
 true
 )
-;
-return
 ;
 }
 if
@@ -1992,6 +1997,7 @@ nextSubmissionDate
 return
 ;
 }
+return
 this
 .
 _dispatchSubmissionRequest
@@ -2632,6 +2638,9 @@ bind
 this
 )
 ;
+let
+chained
+=
 deferred
 .
 promise
@@ -2722,6 +2731,9 @@ _handleSubmissionFailure
 return
 ;
 }
+return
+chained
+;
 }
 _handleSubmissionResult
 :
