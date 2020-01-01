@@ -10788,14 +10788,10 @@ flags
 JSCLASS_XPCONNECT_GLOBAL
 )
 )
-GetScope
-(
-)
--
->
-TraceDOMPrototypes
+TraceXPCGlobal
 (
 trc
+mFlatJSObject
 )
 ;
 }
