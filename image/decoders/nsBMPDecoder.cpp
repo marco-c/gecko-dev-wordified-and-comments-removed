@@ -8,13 +8,6 @@ h
 #
 include
 "
-ImageLogging
-.
-h
-"
-#
-include
-"
 EndianMacros
 .
 h
@@ -44,6 +37,13 @@ h
 include
 "
 imgIContainerObserver
+.
+h
+"
+#
+include
+"
+ImageLogging
 .
 h
 "

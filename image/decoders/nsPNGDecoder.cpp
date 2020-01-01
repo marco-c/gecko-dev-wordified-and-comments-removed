@@ -1,14 +1,14 @@
 #
 include
 "
-ImageLogging
+nsPNGDecoder
 .
 h
 "
 #
 include
 "
-nsPNGDecoder
+ImageLogging
 .
 h
 "
