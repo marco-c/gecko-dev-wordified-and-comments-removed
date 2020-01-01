@@ -110,6 +110,11 @@ eAction_Jump
 0
 }
 ;
+PRBool
+IsLinked
+(
+)
+;
 }
 ;
 #
