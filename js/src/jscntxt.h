@@ -2541,7 +2541,7 @@ regExpStatics
 JSSharpObjectMap
 sharpObjectMap
 ;
-JSBusyArrayTable
+JSHashTable
 *
 busyArrayTable
 ;
