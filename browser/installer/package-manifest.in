@@ -1845,13 +1845,6 @@ BINPATH
 /
 components
 /
-PlacesProtocolHandler
-.
-js
-BINPATH
-/
-components
-/
 nsDefaultCLH
 .
 js
