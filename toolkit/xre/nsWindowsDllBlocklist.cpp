@@ -360,6 +360,14 @@ MAKE_VERSION
 }
 {
 "
+babyfox
+.
+dll
+"
+ALL_VERSIONS
+}
+{
+"
 mozdllblockingtest
 .
 dll
