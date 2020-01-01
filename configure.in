@@ -17032,11 +17032,6 @@ list
 "
 AR_EXTRACT
 =
-"
-AR
--
-extract
-"
 AR_DELETE
 =
 "
@@ -17165,6 +17160,10 @@ HOST_AR
 =
 '
 lib
+'
+HOST_AR_FLAGS
+=
+'
 -
 OUT
 :
@@ -17981,6 +17980,10 @@ AR
 =
 '
 lib
+'
+AR_FLAGS
+=
+'
 -
 NOLOGO
 -
@@ -17989,7 +17992,7 @@ OUT
 "
 "
 '
-AR_FLAGS
+AR_EXTRACT
 =
 RANLIB
 =
