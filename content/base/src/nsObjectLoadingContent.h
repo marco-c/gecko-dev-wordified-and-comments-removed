@@ -78,6 +78,7 @@ PluginSupportState
 ePluginUnsupported
 ePluginDisabled
 ePluginBlocklisted
+ePluginOutdated
 ePluginOtherState
 }
 ;

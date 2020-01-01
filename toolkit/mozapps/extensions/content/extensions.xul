@@ -3346,6 +3346,17 @@ checkUpdatesAllTheme
 tooltip
 ;
 "
+tooltiptextplugins
+=
+"
+&
+cmd
+.
+checkUpdatesAllPlugin
+.
+tooltip
+;
+"
 command
 =
 "
