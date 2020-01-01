@@ -366,6 +366,12 @@ scopeChain
 (
 )
 ;
+MDefinition
+*
+argumentsObject
+(
+)
+;
 bool
 increaseSlots
 (
@@ -480,6 +486,14 @@ slot
 ;
 void
 setScopeChain
+(
+MDefinition
+*
+ins
+)
+;
+void
+setArgumentsObject
 (
 MDefinition
 *

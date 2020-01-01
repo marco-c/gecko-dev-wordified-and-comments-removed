@@ -6011,6 +6011,11 @@ fun
 >
 nargs
 argc
+it
+.
+script
+(
+)
 )
 ;
 return

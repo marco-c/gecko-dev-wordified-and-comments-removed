@@ -2038,6 +2038,10 @@ if
 (
 !
 ionCompileable_
+&
+&
+!
+ionOSRCompileable_
 )
 return
 true
