@@ -7084,6 +7084,16 @@ advance_pc
 ;
 #
 define
+END_CASE_LEN7
+len
+=
+7
+;
+goto
+advance_pc
+;
+#
+define
 END_VARLEN_CASE
 goto
 advance_pc
