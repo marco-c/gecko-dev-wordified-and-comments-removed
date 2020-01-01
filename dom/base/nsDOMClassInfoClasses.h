@@ -8,6 +8,10 @@ Location
 )
 DOMCI_CLASS
 (
+CaretPosition
+)
+DOMCI_CLASS
+(
 Navigator
 )
 DOMCI_CLASS

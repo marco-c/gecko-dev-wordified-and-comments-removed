@@ -2424,6 +2424,10 @@ file_bug675121
 .
 sjs
 \
+test_bug654352
+.
+html
+\
 (
 NULL
 )

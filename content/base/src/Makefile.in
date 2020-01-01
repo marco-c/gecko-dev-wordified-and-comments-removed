@@ -602,6 +602,10 @@ nsDOMBlobBuilder
 .
 cpp
 \
+nsDOMCaretPosition
+.
+cpp
+\
 nsDOMDocumentType
 .
 cpp
