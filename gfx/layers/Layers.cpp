@@ -27,13 +27,6 @@ h
 #
 include
 "
-GeckoProfilerFunc
-.
-h
-"
-#
-include
-"
 ImageContainer
 .
 h

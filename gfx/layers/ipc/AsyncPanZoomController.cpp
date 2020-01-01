@@ -57,13 +57,6 @@ h
 #
 include
 "
-GeckoProfilerFunc
-.
-h
-"
-#
-include
-"
 GestureEventListener
 .
 h

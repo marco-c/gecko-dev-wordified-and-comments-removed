@@ -14,13 +14,6 @@ h
 #
 include
 "
-GeckoProfilerFunc
-.
-h
-"
-#
-include
-"
 Layers
 .
 h

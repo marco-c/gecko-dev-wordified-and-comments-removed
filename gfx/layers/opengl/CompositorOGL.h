@@ -42,13 +42,6 @@ h
 #
 include
 "
-GeckoProfilerFunc
-.
-h
-"
-#
-include
-"
 LayerManagerOGLProgram
 .
 h

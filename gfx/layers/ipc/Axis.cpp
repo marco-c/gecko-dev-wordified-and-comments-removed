@@ -34,13 +34,6 @@ h
 #
 include
 "
-GeckoProfilerFunc
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes

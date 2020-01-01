@@ -80,13 +80,6 @@ h
 #
 include
 "
-GeckoProfilerFunc
-.
-h
-"
-#
-include
-"
 GeckoProfiler
 .
 h

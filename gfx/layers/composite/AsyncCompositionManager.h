@@ -7,13 +7,6 @@ GFX_ASYNCCOMPOSITIONMANAGER_H
 #
 include
 "
-GeckoProfilerFunc
-.
-h
-"
-#
-include
-"
 Units
 .
 h

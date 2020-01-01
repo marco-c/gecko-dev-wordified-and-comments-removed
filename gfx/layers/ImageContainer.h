@@ -23,13 +23,6 @@ h
 #
 include
 "
-GeckoProfilerFunc
-.
-h
-"
-#
-include
-"
 ImageTypes
 .
 h
