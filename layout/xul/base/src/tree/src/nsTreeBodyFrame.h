@@ -376,6 +376,10 @@ nsIPresShell
 aPresShell
 )
 ;
+friend
+class
+nsTreeColumn
+;
 struct
 ScrollParts
 {
@@ -394,6 +398,10 @@ mHScrollbar
 nsIContent
 *
 mHScrollbarContent
+;
+nsIFrame
+*
+mColumnsFrame
 ;
 nsIScrollableView
 *
@@ -1345,6 +1353,9 @@ mHorzPosition
 ;
 nscoord
 mHorzWidth
+;
+nscoord
+mAdjustWidth
 ;
 nsRect
 mInnerBox
