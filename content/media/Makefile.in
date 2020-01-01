@@ -103,6 +103,10 @@ FileBlockCache
 .
 h
 \
+MediaDecoderOwner
+.
+h
+\
 MediaResource
 .
 h

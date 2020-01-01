@@ -105,6 +105,12 @@ nsHTMLMediaElement
 :
 :
 )
+using
+nsHTMLMediaElement
+:
+:
+GetPaused
+;
 NS_FORWARD_NSIDOMHTMLMEDIAELEMENT
 (
 nsHTMLMediaElement
