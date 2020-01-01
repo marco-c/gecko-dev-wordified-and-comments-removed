@@ -3399,7 +3399,9 @@ return
 ;
 if
 (
+"
 installState
+"
 in
 msg
 )
@@ -3424,6 +3426,12 @@ installed
 "
 )
 {
+this
+.
+_downloadError
+=
+null
+;
 this
 .
 _fireEvent
@@ -3480,6 +3488,12 @@ _downloadError
 msg
 .
 error
+;
+this
+.
+downloading
+=
+false
 ;
 this
 .
