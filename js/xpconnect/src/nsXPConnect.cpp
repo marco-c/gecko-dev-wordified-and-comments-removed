@@ -4514,10 +4514,6 @@ UnexpectedFailure
 NS_ERROR_FAILURE
 )
 ;
-xpc_InitJSxIDClassObjects
-(
-)
-;
 XPCWrappedNativeScope
 *
 scope

@@ -13628,12 +13628,6 @@ sEverMadeOneFromFactory
 ;
 extern
 void
-xpc_InitJSxIDClassObjects
-(
-)
-;
-extern
-void
 xpc_DestroyJSxIDClassObjects
 (
 )
