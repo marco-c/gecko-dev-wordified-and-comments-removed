@@ -4586,7 +4586,7 @@ fileuri
 .
 origin_policy
 "
-0
+2
 )
 ;
 pref
