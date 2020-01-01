@@ -430,7 +430,6 @@ MOZ_EXTENSIONS_DEFAULT
 =
 "
 gnomevfs
-reporter
 "
 #
 MOZ_APP_DISPLAYNAME

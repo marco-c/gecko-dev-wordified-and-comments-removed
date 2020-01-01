@@ -411,6 +411,13 @@ defaults
 /
 pref
 /
+reporter
+.
+js
+defaults
+/
+pref
+/
 security
 -
 prefs
@@ -4157,13 +4164,6 @@ pref
 firefox
 -
 l10n
-.
-js
-defaults
-/
-pref
-/
-reporter
 .
 js
 defaults

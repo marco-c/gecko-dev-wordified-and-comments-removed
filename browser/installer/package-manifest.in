@@ -2439,13 +2439,6 @@ chrome
 toolkit
 .
 manifest
-BINPATH
-/
-PREF_DIR
-/
-reporter
-.
-js
 #
 ifdef
 XP_UNIX
