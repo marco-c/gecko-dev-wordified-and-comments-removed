@@ -449,6 +449,10 @@ testIntString
 .
 cpp
 \
+testSameValue
+.
+cpp
+\
 (
 NULL
 )
