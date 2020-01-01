@@ -2973,16 +2973,6 @@ parentid
 &
 item
 .
-sortindex
-=
-=
-local
-.
-sortindex
-&
-&
-item
-.
 deleted
 =
 =
