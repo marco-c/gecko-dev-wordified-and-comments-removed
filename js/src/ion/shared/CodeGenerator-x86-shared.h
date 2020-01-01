@@ -278,6 +278,15 @@ LMoveGroup
 group
 )
 ;
+virtual
+bool
+visitInteger
+(
+LInteger
+*
+ins
+)
+;
 }
 ;
 }
