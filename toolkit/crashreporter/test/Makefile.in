@@ -815,10 +815,12 @@ src
 /
 common
 /
+linux
+/
 (
 LIB_PREFIX
 )
-breakpad_common_s
+breakpad_linux_common_s
 .
 (
 LIB_SUFFIX
@@ -840,12 +842,10 @@ src
 /
 common
 /
-linux
-/
 (
 LIB_PREFIX
 )
-breakpad_linux_common_s
+breakpad_common_s
 .
 (
 LIB_SUFFIX
