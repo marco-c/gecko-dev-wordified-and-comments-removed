@@ -44,8 +44,11 @@ getData
 window
 )
 .
-_notifyNewDownload
+_notifyDownloadEvent
 (
+"
+start
+"
 )
 ;
 yield
@@ -92,8 +95,11 @@ getData
 window
 )
 .
-_notifyNewDownload
+_notifyDownloadEvent
 (
+"
+start
+"
 )
 ;
 yield
