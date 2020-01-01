@@ -1288,6 +1288,10 @@ WebGLRenderbuffer
 )
 DOMCI_CLASS
 (
+WebGLUniformLocation
+)
+DOMCI_CLASS
+(
 PaintRequest
 )
 DOMCI_CLASS

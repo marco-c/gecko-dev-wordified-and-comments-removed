@@ -915,13 +915,11 @@ mSafeJSContext
 ;
 glob
 =
-JS_NewObject
+JS_NewGlobalObject
 (
 mSafeJSContext
 &
 global_class
-NULL
-NULL
 )
 ;
 #

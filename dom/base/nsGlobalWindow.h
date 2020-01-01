@@ -2338,6 +2338,11 @@ char
 aTopic
 )
 ;
+void
+ClearStatus
+(
+)
+;
 PRPackedBool
 mIsFrozen
 :

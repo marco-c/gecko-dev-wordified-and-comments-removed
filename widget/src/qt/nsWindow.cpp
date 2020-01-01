@@ -750,6 +750,10 @@ mSizeState
 =
 nsSizeMode_Normal
 ;
+mLastSizeMode
+=
+nsSizeMode_Normal
+;
 mPluginType
 =
 PluginType_NONE

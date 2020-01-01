@@ -108,8 +108,8 @@ LayerManagerOGL
 h
 "
 #
-ifndef
-WINCE
+ifdef
+MOZ_ENABLE_D3D9_LAYER
 #
 include
 "
@@ -2949,8 +2949,8 @@ eventStatus
 break
 ;
 #
-ifndef
-WINCE
+ifdef
+MOZ_ENABLE_D3D9_LAYER
 case
 LayerManager
 :
