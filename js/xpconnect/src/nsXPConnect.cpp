@@ -2204,7 +2204,7 @@ kdelegate
 )
 )
 {
-js
+JS
 :
 :
 UnmarkGrayGCThingRecursively
@@ -2265,7 +2265,7 @@ vkind
 JSTRACE_SHAPE
 )
 {
-js
+JS
 :
 :
 UnmarkGrayGCThingRecursively

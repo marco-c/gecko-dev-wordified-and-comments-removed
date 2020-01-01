@@ -511,7 +511,7 @@ static
 void
 GarbageCollectNow
 (
-js
+JS
 :
 :
 gcreason
@@ -566,7 +566,7 @@ static
 void
 PokeGC
 (
-js
+JS
 :
 :
 gcreason
@@ -626,7 +626,7 @@ virtual
 void
 GC
 (
-js
+JS
 :
 :
 gcreason

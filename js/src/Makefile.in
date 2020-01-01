@@ -1180,6 +1180,10 @@ HeapAPI
 .
 h
 \
+GCAPI
+.
+h
+\
 LegacyIntTypes
 .
 h

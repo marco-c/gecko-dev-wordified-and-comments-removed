@@ -53,6 +53,15 @@ jspubtd
 .
 h
 "
+#
+include
+"
+js
+/
+GCAPI
+.
+h
+"
 class
 nsIScriptGlobalObject
 ;
@@ -361,7 +370,7 @@ virtual
 void
 GC
 (
-js
+JS
 :
 :
 gcreason

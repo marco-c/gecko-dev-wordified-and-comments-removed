@@ -60,6 +60,15 @@ h
 #
 include
 "
+js
+/
+GCAPI
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h

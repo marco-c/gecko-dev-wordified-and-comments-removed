@@ -496,7 +496,7 @@ JS_FRIEND_API
 (
 void
 )
-js
+JS
 :
 :
 PrepareCompartmentForGC
@@ -518,7 +518,7 @@ JS_FRIEND_API
 (
 void
 )
-js
+JS
 :
 :
 PrepareForFullGC
@@ -561,7 +561,7 @@ JS_FRIEND_API
 (
 void
 )
-js
+JS
 :
 :
 PrepareForIncrementalGC
@@ -623,7 +623,7 @@ JS_FRIEND_API
 (
 bool
 )
-js
+JS
 :
 :
 IsGCScheduled
@@ -676,7 +676,7 @@ JS_FRIEND_API
 (
 void
 )
-js
+JS
 :
 :
 SkipCompartmentForGC
@@ -698,7 +698,7 @@ JS_FRIEND_API
 (
 void
 )
-js
+JS
 :
 :
 GCForReason
@@ -725,7 +725,7 @@ JS_FRIEND_API
 (
 void
 )
-js
+JS
 :
 :
 ShrinkingGC
@@ -752,7 +752,7 @@ JS_FRIEND_API
 (
 void
 )
-js
+JS
 :
 :
 IncrementalGC
@@ -782,7 +782,7 @@ JS_FRIEND_API
 (
 void
 )
-js
+JS
 :
 :
 FinishIncrementalGC
@@ -802,23 +802,6 @@ GCFinalSlice
 rt
 GC_NORMAL
 reason
-)
-;
-}
-JS_FRIEND_API
-(
-void
-)
-JS_ShrinkGCBuffers
-(
-JSRuntime
-*
-rt
-)
-{
-ShrinkGCBuffers
-(
-rt
 )
 ;
 }
@@ -3832,7 +3815,7 @@ JS_FRIEND_API
 (
 GCSliceCallback
 )
-js
+JS
 :
 :
 SetGCSliceCallback
@@ -3867,7 +3850,7 @@ JS_FRIEND_API
 (
 bool
 )
-js
+JS
 :
 :
 WasIncrementalGC
@@ -3974,7 +3957,7 @@ JS_FRIEND_API
 (
 void
 )
-js
+JS
 :
 :
 NotifyDidPaint
@@ -4123,7 +4106,7 @@ JS_FRIEND_API
 (
 bool
 )
-js
+JS
 :
 :
 IsIncrementalGCEnabled
@@ -4153,7 +4136,7 @@ JS_FRIEND_API
 (
 bool
 )
-js
+JS
 :
 :
 IsIncrementalGCInProgress
@@ -4189,7 +4172,7 @@ JS_FRIEND_API
 (
 void
 )
-js
+JS
 :
 :
 DisableIncrementalGC
@@ -4211,7 +4194,7 @@ JS_FRIEND_API
 (
 bool
 )
-js
+JS
 :
 :
 IsIncrementalBarrierNeeded
@@ -4249,7 +4232,7 @@ JS_FRIEND_API
 (
 bool
 )
-js
+JS
 :
 :
 IsIncrementalBarrierNeeded
@@ -4273,7 +4256,7 @@ JS_FRIEND_API
 (
 void
 )
-js
+JS
 :
 :
 IncrementalReferenceBarrier
@@ -4500,7 +4483,7 @@ JS_FRIEND_API
 (
 void
 )
-js
+JS
 :
 :
 IncrementalValueBarrier
@@ -4524,7 +4507,7 @@ JS_FRIEND_API
 (
 void
 )
-js
+JS
 :
 :
 PokeGC

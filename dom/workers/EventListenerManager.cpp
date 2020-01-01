@@ -31,6 +31,15 @@ h
 #
 include
 "
+js
+/
+GCAPI
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Util
@@ -298,7 +307,7 @@ aListenerData
 {
 if
 (
-js
+JS
 :
 :
 IsIncrementalBarrierNeeded
@@ -307,7 +316,7 @@ aCx
 )
 )
 {
-js
+JS
 :
 :
 IncrementalReferenceBarrier

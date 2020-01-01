@@ -11694,7 +11694,7 @@ Collect
 (
 aForceGC
 ?
-js
+JS
 :
 :
 gcreason
@@ -11702,7 +11702,7 @@ gcreason
 :
 SHUTDOWN_CC
 :
-js
+JS
 :
 :
 gcreason

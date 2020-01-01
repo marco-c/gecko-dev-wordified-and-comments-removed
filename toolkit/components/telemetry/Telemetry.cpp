@@ -142,6 +142,15 @@ h
 #
 include
 "
+js
+/
+GCAPI
+.
+h
+"
+#
+include
+"
 nsStringGlue
 .
 h
