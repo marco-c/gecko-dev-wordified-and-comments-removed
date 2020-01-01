@@ -1542,7 +1542,10 @@ scope
 scope
 -
 >
-asDeclEnv
+as
+<
+DeclEnvObject
+>
 (
 )
 .

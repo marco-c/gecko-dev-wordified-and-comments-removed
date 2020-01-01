@@ -494,6 +494,10 @@ gc
 FINALIZE_OBJECT2
 ;
 static
+Class
+class_
+;
+static
 DeclEnvObject
 *
 createTemplateObject
@@ -1739,7 +1743,13 @@ CallObject
 )
 |
 |
-isDeclEnv
+is
+<
+js
+:
+:
+DeclEnvObject
+>
 (
 )
 |

@@ -91,7 +91,10 @@ enclosingScope
 (
 )
 .
-asDeclEnv
+as
+<
+DeclEnvObject
+>
 (
 )
 .

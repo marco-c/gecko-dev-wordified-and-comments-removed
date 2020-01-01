@@ -1278,7 +1278,10 @@ isWith
 object
 -
 >
-isDeclEnv
+is
+<
+DeclEnvObject
+>
 (
 )
 )

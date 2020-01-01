@@ -15,6 +15,9 @@ namespace
 js
 {
 class
+DeclEnvObject
+;
+class
 ForkJoinSlice
 ;
 namespace
