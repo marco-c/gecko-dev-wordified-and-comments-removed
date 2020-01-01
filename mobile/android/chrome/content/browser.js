@@ -11609,6 +11609,10 @@ plugin
 return
 ;
 }
+plugin
+.
+clientTop
+;
 let
 overlay
 =
