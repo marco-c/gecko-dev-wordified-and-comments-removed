@@ -14810,6 +14810,13 @@ rejoin1
 rejoin2
 ;
 {
+RESERVE_OOL_SPACE
+(
+stubcc
+.
+masm
+)
+;
 stubcc
 .
 linkExitDirect
@@ -15324,6 +15331,11 @@ jump
 )
 ;
 }
+RESERVE_IC_SPACE
+(
+masm
+)
+;
 callIC
 .
 hotPathLabel
