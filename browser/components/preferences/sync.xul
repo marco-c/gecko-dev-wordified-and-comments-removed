@@ -1527,7 +1527,7 @@ value
 =
 "
 &
-deactivateDevice
+unlinkDevice
 .
 label
 ;
@@ -1770,7 +1770,7 @@ value
 =
 "
 &
-deactivateDevice
+unlinkDevice
 .
 label
 ;

@@ -564,7 +564,7 @@ _stringBundle
 GetStringFromName
 (
 "
-stopUsingAccount
+syncUnlink
 .
 title
 "
@@ -576,7 +576,7 @@ _stringBundle
 GetStringFromName
 (
 "
-differentAccount
+syncUnlink
 .
 label
 "
@@ -589,7 +589,7 @@ _stringBundle
 GetStringFromName
 (
 "
-differentAccountConfirm
+syncUnlinkConfirm
 .
 label
 "

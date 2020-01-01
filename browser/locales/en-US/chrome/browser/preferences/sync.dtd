@@ -372,11 +372,11 @@ c
 <
 !
 ENTITY
-deactivateDevice
+unlinkDevice
 .
 label
 "
-Deactivate
+Unlink
 This
 Device
 "
