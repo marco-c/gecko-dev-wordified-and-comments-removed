@@ -1755,6 +1755,10 @@ JSFunction
 fun
 =
 NULL
+bool
+isDOM
+=
+false
 )
 ;
 #

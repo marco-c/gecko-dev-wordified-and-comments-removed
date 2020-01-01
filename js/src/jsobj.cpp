@@ -12523,6 +12523,18 @@ obj
 ;
 }
 }
+bool
+isDOM
+=
+(
+clasp
+-
+>
+flags
+&
+JSCLASS_IS_DOMJSCLASS
+)
+;
 types
 :
 :
@@ -12538,6 +12550,8 @@ proto
 getNewType
 (
 cx
+NULL
+isDOM
 )
 :
 cx
