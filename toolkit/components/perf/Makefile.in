@@ -437,10 +437,10 @@ autoconf
 mk
 MODULE
 =
-perf
+jsperf
 MODULE_NAME
 =
-perf
+jsperf
 GRE_MODULE
 =
 1
