@@ -198,12 +198,6 @@ defined
 (
 JSGC_TESTPILOT
 )
-const
-bool
-JS_WANT_GC_SUITE_PRINT
-=
-false
-;
 extern
 jsrefcount
 newChunkCount

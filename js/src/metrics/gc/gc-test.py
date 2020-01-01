@@ -256,6 +256,17 @@ copy
 (
 )
     
+env
+[
+'
+MOZ_GCTIMER
+'
+]
+=
+'
+stderr
+'
+    
 cmd
 =
 get_test_cmd
