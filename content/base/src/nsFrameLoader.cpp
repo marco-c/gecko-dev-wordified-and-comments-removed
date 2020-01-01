@@ -8217,6 +8217,16 @@ rv
 }
 if
 (
+!
+mIsTopLevelContent
+)
+{
+return
+NS_OK
+;
+}
+if
+(
 mMessageManager
 )
 {
