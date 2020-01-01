@@ -441,6 +441,11 @@ pc
 )
 ;
 bool
+processIterators
+(
+)
+;
+bool
 inspectOpcode
 (
 JSOp
@@ -1590,6 +1595,15 @@ ControlFlowInfo
 IonAllocPolicy
 >
 switches_
+;
+Vector
+<
+MInstruction
+*
+2
+IonAllocPolicy
+>
+iterators_
 ;
 TypeOracle
 *
