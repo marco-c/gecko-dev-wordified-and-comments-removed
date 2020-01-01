@@ -1014,7 +1014,6 @@ _shmemAlloc
 (
 size
 type
-unsafe
 )
 :
     
@@ -1039,7 +1038,6 @@ _shmemBackstagePass
 )
 size
 type
-unsafe
 ]
 )
 def
@@ -1693,7 +1691,7 @@ would
 turn
 into
 |
-Array
+nsTArray
 <
 ActorParent
 *
@@ -1887,7 +1885,7 @@ return
 Type
 (
 '
-InfallibleTArray
+nsTArray
 '
 T
 =
@@ -2040,13 +2038,12 @@ return
 ExprBinary
 (
         
-ExprSelect
+ExprVar
 (
-arr
 '
-.
-'
-'
+nsTArray_base
+:
+:
 NoIndex
 '
 )
@@ -9671,7 +9668,7 @@ type
 '
 <
 <
-16
+10
 '
         
 msgenum
@@ -11851,9 +11848,6 @@ Class
 sd
 .
 name
-struct
-=
-1
 final
 =
 1
@@ -21399,15 +21393,6 @@ type
 '
 )
         
-unsafevar
-=
-ExprVar
-(
-'
-unsafe
-'
-)
-        
 listenertype
 =
 Type
@@ -21623,16 +21608,6 @@ _shmemTypeType
 (
 )
 typevar
-.
-name
-)
-                     
-Decl
-(
-Type
-.
-BOOL
-unsafevar
 .
 name
 )
@@ -22094,7 +22069,6 @@ _shmemAlloc
 (
 sizevar
 typevar
-unsafevar
 )
 ]
 )
@@ -23164,7 +23138,6 @@ name
 [
 sizevar
 typevar
-unsafevar
 idvar
 ]
 )
@@ -23714,23 +23687,17 @@ rawmem
 '
 )
         
-def
-allocShmemMethod
-(
-name
-unsafe
-)
-:
-            
-method
+allocShmem
 =
 MethodDefn
 (
 MethodDecl
 (
-                
-name
-                
+            
+'
+AllocShmem
+'
+            
 params
 =
 [
@@ -23743,7 +23710,7 @@ sizevar
 .
 name
 )
-                         
+                     
 Decl
 (
 _shmemTypeType
@@ -23753,7 +23720,7 @@ typevar
 .
 name
 )
-                         
+                     
 Decl
 (
 _shmemType
@@ -23767,7 +23734,7 @@ memvar
 name
 )
 ]
-                
+            
 ret
 =
 Type
@@ -23775,7 +23742,7 @@ Type
 BOOL
 )
 )
-            
+        
 ifallocfails
 =
 StmtIf
@@ -23785,7 +23752,7 @@ ExprNot
 rawvar
 )
 )
-            
+        
 ifallocfails
 .
 addifstmt
@@ -23794,32 +23761,13 @@ StmtReturn
 .
 FALSE
 )
-            
-if
-unsafe
-:
-                
-unsafe
-=
-ExprLiteral
-.
-TRUE
-            
-else
-:
-                
-unsafe
-=
-ExprLiteral
-.
-FALSE
-            
-method
+        
+allocShmem
 .
 addstmts
 (
 [
-                
+            
 StmtDecl
 (
 Decl
@@ -23832,7 +23780,7 @@ idvar
 name
 )
 )
-                
+            
 StmtDecl
 (
 Decl
@@ -23847,7 +23795,7 @@ rawvar
 .
 name
 )
-                         
+                     
 initargs
 =
 [
@@ -23866,8 +23814,6 @@ sizevar
                                                 
 typevar
                                                 
-unsafe
-                                                
 ExprAddrOf
 (
 idvar
@@ -23876,18 +23822,18 @@ idvar
 )
 ]
 )
-                
+            
 ifallocfails
-                
+            
 Whitespace
 .
 NL
-                
+            
 StmtExpr
 (
 ExprAssn
 (
-                    
+                
 ExprDeref
 (
 memvar
@@ -23902,35 +23848,12 @@ idvar
 )
 )
 )
-                
+            
 StmtReturn
 .
 TRUE
-            
+        
 ]
-)
-            
-return
-method
-        
-allocShmem
-=
-allocShmemMethod
-(
-'
-AllocShmem
-'
-False
-)
-        
-allocUnsafeShmem
-=
-allocShmemMethod
-(
-'
-AllocUnsafeShmem
-'
-True
 )
         
 adoptShmem
@@ -24272,12 +24195,6 @@ indent
 )
                  
 allocShmem
-                 
-Whitespace
-.
-NL
-                 
-allocUnsafeShmem
                  
 Whitespace
 .
