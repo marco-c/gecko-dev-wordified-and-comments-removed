@@ -1097,7 +1097,8 @@ EnsureSizeUpToDate
 0
 ;
 virtual
-void
+nsIDOMWindow
+*
 EnterModalState
 (
 )
@@ -1108,6 +1109,8 @@ virtual
 void
 LeaveModalState
 (
+nsIDOMWindow
+*
 )
 =
 0

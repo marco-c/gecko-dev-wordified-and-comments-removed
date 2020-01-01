@@ -1365,7 +1365,8 @@ EnsureSizeUpToDate
 virtual
 NS_HIDDEN_
 (
-void
+nsIDOMWindow
+*
 )
 EnterModalState
 (
@@ -1378,6 +1379,9 @@ void
 )
 LeaveModalState
 (
+nsIDOMWindow
+*
+aWindow
 )
 ;
 virtual
