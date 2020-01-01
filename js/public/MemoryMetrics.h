@@ -167,6 +167,10 @@ scriptFilenames
 (
 0
 )
+scriptSources
+(
+0
+)
 compartmentObjects
 (
 0
@@ -208,6 +212,9 @@ mathCache
 ;
 size_t
 scriptFilenames
+;
+size_t
+scriptSources
 ;
 size_t
 compartmentObjects

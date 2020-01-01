@@ -3831,6 +3831,13 @@ uint32_t
 stop
 )
 ;
+size_t
+sizeOfIncludingThis
+(
+JSMallocSizeOfFun
+mallocSizeOf
+)
+;
 static
 void
 sweep
