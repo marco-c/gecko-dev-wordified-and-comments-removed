@@ -142,6 +142,13 @@ selected
 true
 "
 ]
+:
+not
+(
+[
+pinned
+]
+)
 >
 .
 tab
@@ -165,6 +172,13 @@ alltabs
 tabbrowser
 -
 tab
+:
+not
+(
+[
+pinned
+]
+)
 >
 .
 tab

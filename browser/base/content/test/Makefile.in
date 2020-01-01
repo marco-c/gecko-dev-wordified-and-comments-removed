@@ -896,6 +896,10 @@ browser_page_style_menu
 .
 js
 \
+browser_pinnedTabs
+.
+js
+\
 browser_plainTextLinks
 .
 js
