@@ -5246,14 +5246,12 @@ if
 drawBackgroundImage
 |
 |
-NS_GET_A
-(
+!
 aColor
 .
-mBackgroundColor
+IsTransparent
+(
 )
->
-0
 )
 drawBackgroundColor
 =
