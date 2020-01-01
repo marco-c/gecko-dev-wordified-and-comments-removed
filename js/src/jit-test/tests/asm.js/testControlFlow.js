@@ -6021,7 +6021,6 @@ if
 (
 i
 )
-return
 b
 (
 i
