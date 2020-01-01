@@ -460,6 +460,14 @@ textarea
 .
 jsm
 \
+source
+-
+editor
+-
+ui
+.
+jsm
+\
 (
 NULL
 )

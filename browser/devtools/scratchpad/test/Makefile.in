@@ -518,6 +518,10 @@ browser_scratchpad_bug690552_display_outputs_errors
 .
 js
 \
+browser_scratchpad_bug650345_find_ui
+.
+js
+\
 libs
 :
 :
