@@ -676,6 +676,10 @@ mAlreadyGeneratedWarnings
 =
 0
 ;
+mAlreadyWarnedAboutFakeVertexAttrib0
+=
+false
+;
 }
 WebGLContext
 :
