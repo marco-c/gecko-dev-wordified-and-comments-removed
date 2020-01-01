@@ -280,6 +280,13 @@ h
 #
 include
 "
+jsscriptinlines
+.
+h
+"
+#
+include
+"
 jsautooplen
 .
 h

@@ -151,6 +151,13 @@ h
 #
 endif
 #
+include
+"
+jsscriptinlines
+.
+h
+"
+#
 if
 JS_HAS_SCRIPT_OBJECT
 static
