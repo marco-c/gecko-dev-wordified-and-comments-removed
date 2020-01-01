@@ -1636,8 +1636,11 @@ WTF_OS_HAIKU
 #
 endif
 #
-ifdef
+if
+defined
+(
 __linux__
+)
 &
 &
 !
