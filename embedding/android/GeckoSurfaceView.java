@@ -2759,9 +2759,6 @@ Editable
 Factory
 mEditableFactory
 ;
-boolean
-mIMEFocus
-;
 int
 mIMEState
 ;
