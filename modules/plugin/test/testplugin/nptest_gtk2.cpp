@@ -551,9 +551,6 @@ height
 ;
 if
 (
-0
-&
-&
 instanceData
 -
 >
