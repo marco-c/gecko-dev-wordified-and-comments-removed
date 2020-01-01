@@ -695,7 +695,7 @@ aShouldHide
 ;
 static
 guint32
-GetCurrentEventTime
+GetLastUserInputTime
 (
 )
 ;
