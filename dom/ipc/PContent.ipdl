@@ -603,13 +603,6 @@ nsString
 title
 )
 ;
-async
-LoadURIExteneral
-(
-URI
-uri
-)
-;
 /
 /
 PrefService

@@ -628,16 +628,6 @@ chrome
 /
 src
 \
--
-I
-(
-topsrcdir
-)
-/
-uriloader
-/
-exthandler
-\
 (
 NULL
 )
