@@ -2308,6 +2308,9 @@ mAudioChannelType
 bool
 mPlayingThroughTheAudioChannel
 ;
+bool
+mWasInDocument
+;
 nsCOMPtr
 <
 nsIAudioChannelAgent
