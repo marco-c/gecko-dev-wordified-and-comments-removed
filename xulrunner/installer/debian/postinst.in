@@ -1,9 +1,14 @@
 #
+literal
+#
 !
 /
 bin
 /
 sh
+#
+filter
+substitution
 #
 postinst
 script
@@ -206,6 +211,9 @@ exit
 ;
 ;
 esac
+#
+ifdef
+MOZ_WIDGET_GTK
 gtk
 -
 update
@@ -221,5 +229,7 @@ share
 icons
 /
 hicolor
+#
+endif
 exit
 0
