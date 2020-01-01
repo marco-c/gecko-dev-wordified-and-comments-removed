@@ -2437,6 +2437,10 @@ test_bug675166
 .
 html
 \
+test_bug682554
+.
+html
+\
 test_bug682592
 .
 html
@@ -2458,10 +2462,6 @@ html
 test_bug685798
 .
 html
-\
-test_bug686449
-.
-xhtml
 \
 (
 NULL
