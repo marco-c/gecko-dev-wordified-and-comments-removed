@@ -602,10 +602,6 @@ static
 bool
 sDisableDocumentAllSupport
 ;
-static
-bool
-sDisableGlobalScopePollutionSupport
-;
 public
 :
 static
