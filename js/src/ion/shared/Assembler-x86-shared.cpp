@@ -701,6 +701,15 @@ len
 )
 {
 }
+void
+AutoFlushCache
+:
+:
+flushAnyway
+(
+)
+{
+}
 AutoFlushCache
 :
 :
