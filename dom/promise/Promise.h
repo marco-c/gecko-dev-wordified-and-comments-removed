@@ -135,6 +135,17 @@ PrefEnabled
 (
 )
 ;
+static
+bool
+EnabledForScope
+(
+JSContext
+*
+aCx
+JSObject
+*
+)
+;
 nsPIDOMWindow
 *
 GetParentObject
