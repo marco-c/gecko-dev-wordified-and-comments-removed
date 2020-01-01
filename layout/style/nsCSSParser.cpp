@@ -1751,9 +1751,6 @@ ParsePseudoClassWithIdentArg
 nsCSSSelector
 &
 aSelector
-nsIAtom
-*
-aPseudo
 nsCSSPseudoClasses
 :
 :
@@ -1767,9 +1764,6 @@ ParsePseudoClassWithNthPairArg
 nsCSSSelector
 &
 aSelector
-nsIAtom
-*
-aPseudo
 nsCSSPseudoClasses
 :
 :
@@ -1783,9 +1777,6 @@ ParsePseudoClassWithSelectorListArg
 nsCSSSelector
 &
 aSelector
-nsIAtom
-*
-aPseudo
 nsCSSPseudoClasses
 :
 :
@@ -13231,10 +13222,10 @@ parsingPseudoElement
 nsCSSPseudoClasses
 :
 :
-notPseudo
+ePseudoClass_notPseudo
 =
 =
-pseudo
+pseudoClassType
 )
 {
 if
@@ -13321,7 +13312,6 @@ parsingStatus
 ParsePseudoClassWithIdentArg
 (
 aSelector
-pseudo
 pseudoClassType
 )
 ;
@@ -13343,7 +13333,6 @@ parsingStatus
 ParsePseudoClassWithNthPairArg
 (
 aSelector
-pseudo
 pseudoClassType
 )
 ;
@@ -13373,7 +13362,6 @@ parsingStatus
 ParsePseudoClassWithSelectorListArg
 (
 aSelector
-pseudo
 pseudoClassType
 )
 ;
@@ -13991,9 +13979,6 @@ ParsePseudoClassWithIdentArg
 nsCSSSelector
 &
 aSelector
-nsIAtom
-*
-aPseudo
 nsCSSPseudoClasses
 :
 :
@@ -14044,13 +14029,13 @@ eSelectorParsingStatus_Error
 }
 if
 (
-aPseudo
+aType
 =
 =
 nsCSSPseudoClasses
 :
 :
-mozLocaleDir
+ePseudoClass_mozLocaleDir
 )
 {
 if
@@ -14137,9 +14122,6 @@ ParsePseudoClassWithNthPairArg
 nsCSSSelector
 &
 aSelector
-nsIAtom
-*
-aPseudo
 nsCSSPseudoClasses
 :
 :
@@ -14768,9 +14750,6 @@ ParsePseudoClassWithSelectorListArg
 nsCSSSelector
 &
 aSelector
-nsIAtom
-*
-aPseudo
 nsCSSPseudoClasses
 :
 :
