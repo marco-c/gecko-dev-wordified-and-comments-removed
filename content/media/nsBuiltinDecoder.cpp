@@ -3528,14 +3528,6 @@ if
 mDecoderStateMachine
 )
 {
-if
-(
-!
-IsSeeking
-(
-)
-)
-{
 mCurrentTime
 =
 mDecoderStateMachine
@@ -3545,7 +3537,6 @@ GetCurrentTime
 (
 )
 ;
-}
 mDecoderStateMachine
 -
 >
