@@ -226,9 +226,6 @@ PFNWP
 ;
 #
 endif
-#
-define
-SUPPORT_NON_XPFE
 class
 nsDragService
 ;
