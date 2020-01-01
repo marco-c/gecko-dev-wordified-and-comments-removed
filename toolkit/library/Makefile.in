@@ -1133,6 +1133,10 @@ NSS_LIBS
 )
 \
 (
+MOZ_CAIRO_LIBS
+)
+\
+(
 MOZ_HARFBUZZ_LIBS
 )
 \
@@ -1915,7 +1919,6 @@ setupapi
 secur32
 sensorsapi
 portabledeviceguids
-windowscodecs
 )
 ifdef
 MOZ_CRASHREPORTER
