@@ -1392,11 +1392,7 @@ toString
 if
 (
 !
-JS_MakeStringImmutable
-(
-ccx
 str
-)
 )
 return
 false
