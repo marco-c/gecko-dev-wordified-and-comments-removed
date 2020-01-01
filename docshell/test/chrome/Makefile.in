@@ -766,6 +766,10 @@ bug311007_window
 .
 xul
 \
+test_principalInherit
+.
+xul
+\
 (
 NULL
 )
