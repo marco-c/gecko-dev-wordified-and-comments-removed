@@ -985,6 +985,13 @@ domwindowopened
 "
 )
 {
+ww
+.
+unregisterNotification
+(
+this
+)
+;
 let
 win
 =
