@@ -325,7 +325,7 @@ nsITheme
 NS_ITHEME_IID
 )
 extern
-NS_METHOD
+nsresult
 NS_NewNativeTheme
 (
 nsISupports
