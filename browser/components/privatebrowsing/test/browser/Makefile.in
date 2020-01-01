@@ -489,10 +489,6 @@ browser_privatebrowsing_geoprompt_page
 .
 html
 \
-browser_privatebrowsing_import
-.
-js
-\
 browser_privatebrowsing_newwindow_stopcmd
 .
 js
