@@ -312,7 +312,7 @@ len
 {
 MOZ_MTLOG
 (
-PR_LOG_NOTICE
+ML_NOTICE
 LAYER_INFO
 <
 <
@@ -348,7 +348,7 @@ packet_
 {
 MOZ_MTLOG
 (
-PR_LOG_NOTICE
+ML_NOTICE
 "
 Dropping
 packet

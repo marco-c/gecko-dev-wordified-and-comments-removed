@@ -455,7 +455,7 @@ ret
 ;
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 Starting
 "
@@ -557,7 +557,7 @@ Stop
 {
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 Stopping
 "

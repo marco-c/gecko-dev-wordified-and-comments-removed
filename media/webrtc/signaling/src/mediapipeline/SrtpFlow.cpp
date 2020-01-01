@@ -139,7 +139,7 @@ key
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Null
 SRTP
@@ -162,7 +162,7 @@ SRTP_TOTAL_KEY_LENGTH
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Invalid
 SRTP
@@ -199,7 +199,7 @@ SRTP_AES128_CM_HMAC_SHA1_80
 :
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 Setting
 SRTP
@@ -232,7 +232,7 @@ SRTP_AES128_CM_HMAC_SHA1_32
 :
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 Setting
 SRTP
@@ -264,7 +264,7 @@ default
 :
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Request
 to
@@ -371,7 +371,7 @@ err_status_ok
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Error
 creating
@@ -421,7 +421,7 @@ in
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 NULL
 input
@@ -442,7 +442,7 @@ in_len
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Input
 length
@@ -464,7 +464,7 @@ max_len
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Max
 output
@@ -505,7 +505,7 @@ in_len
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Output
 too
@@ -529,7 +529,7 @@ max_len
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Output
 too
@@ -612,7 +612,7 @@ err_status_ok
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Error
 protecting
@@ -640,7 +640,7 @@ len
 ;
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 Successfully
 protected
@@ -726,7 +726,7 @@ err_status_ok
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Error
 unprotecting
@@ -754,7 +754,7 @@ len
 ;
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 Successfully
 unprotected
@@ -840,7 +840,7 @@ err_status_ok
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Error
 protecting
@@ -868,7 +868,7 @@ len
 ;
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 Successfully
 protected
@@ -954,7 +954,7 @@ err_status_ok
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Error
 unprotecting
@@ -982,7 +982,7 @@ len
 ;
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 Successfully
 unprotected
@@ -1049,7 +1049,7 @@ err_status_ok
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Could
 not
@@ -1088,7 +1088,7 @@ err_status_ok
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Could
 not

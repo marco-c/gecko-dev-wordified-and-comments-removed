@@ -217,7 +217,7 @@ r
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -375,7 +375,7 @@ r
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -423,7 +423,7 @@ r
 ;
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 NrIceCtx
 (
@@ -503,7 +503,7 @@ R_ALREADY
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Trickle
 candidates
@@ -532,7 +532,7 @@ else
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -602,7 +602,7 @@ r
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -709,7 +709,7 @@ r
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -862,7 +862,7 @@ r
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -988,7 +988,7 @@ r
 {
 MOZ_MTLOG
 (
-PR_LOG_ERROR
+ML_ERROR
 "
 Couldn
 '
@@ -1038,7 +1038,7 @@ Ready
 {
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 Marking
 stream
@@ -1075,7 +1075,7 @@ Close
 {
 MOZ_MTLOG
 (
-PR_LOG_DEBUG
+ML_DEBUG
 "
 Marking
 stream
