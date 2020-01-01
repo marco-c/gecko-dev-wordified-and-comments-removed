@@ -2360,6 +2360,12 @@ bool
 aReturn
 )
 ;
+bool
+UnoptimizableCCNode
+(
+)
+const
+;
 private
 :
 nsIContent
