@@ -526,10 +526,12 @@ abi
 TARGET_XPCOM_ABI
 }
 ;
+nsAutoArrayPtr
+<
 GREProperty
-*
+>
 allProperties
-=
+(
 new
 GREProperty
 [
@@ -537,6 +539,7 @@ propertiesLength
 +
 1
 ]
+)
 ;
 if
 (
