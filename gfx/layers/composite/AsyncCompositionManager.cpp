@@ -199,9 +199,6 @@ WalkTheTree
 Layer
 *
 aLayer
-Layer
-*
-aParent
 bool
 &
 aReady
@@ -414,7 +411,6 @@ OP
 >
 (
 child
-aLayer
 aReady
 aTargetConfig
 )
@@ -440,7 +436,6 @@ mLayerManager
 GetRoot
 (
 )
-nullptr
 mReadyForCompose
 mTargetConfig
 )
@@ -465,7 +460,6 @@ mLayerManager
 GetRoot
 (
 )
-nullptr
 mReadyForCompose
 mTargetConfig
 )
