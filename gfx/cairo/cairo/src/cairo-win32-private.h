@@ -41,7 +41,7 @@ endif
 #
 define
 WIN32_FONT_LOGICAL_SCALE
-32
+1
 typedef
 struct
 _cairo_win32_surface
