@@ -2,7 +2,7 @@ if
 (
 typeof
 evalcx
-!
+=
 =
 '
 function
