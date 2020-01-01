@@ -216,6 +216,7 @@ MSG_NOT_OBJECT
 0
 "
 Value
+is
 not
 an
 object
@@ -341,7 +342,7 @@ MSG_DEF
 MSG_NOT_SEQUENCE
 0
 "
-object
+Value
 can
 not
 be
@@ -349,6 +350,7 @@ converted
 to
 a
 sequence
+.
 "
 )
 MSG_DEF
@@ -356,7 +358,7 @@ MSG_DEF
 MSG_NOT_DICTIONARY
 0
 "
-value
+Value
 can
 not
 be
@@ -364,6 +366,7 @@ converted
 to
 a
 dictionary
+.
 "
 )
 MSG_DEF
@@ -371,7 +374,7 @@ MSG_DEF
 MSG_INVALID_ARG
 2
 "
-argument
+Argument
 {
 0
 }
@@ -388,6 +391,7 @@ the
 -
 argument
 overloads
+.
 "
 )
 MSG_DEF
@@ -395,12 +399,13 @@ MSG_DEF
 MSG_GLOBAL_NOT_NATIVE
 0
 "
-global
+Global
 is
 not
 a
 native
 object
+.
 "
 )
 MSG_DEF
