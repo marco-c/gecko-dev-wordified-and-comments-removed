@@ -853,6 +853,12 @@ url
 }
 else
 {
+mFavicon
+.
+clearImage
+(
+)
+;
 mLoadFaviconTask
 =
 new
