@@ -15351,17 +15351,6 @@ mCaps
 =
 NS_HTTP_REFRESH_DNS
 ;
-if
-(
-mLoadFlags
-&
-LOAD_BYPASS_CACHE
-)
-mCaps
-|
-=
-NS_HTTP_CLEAR_KEEPALIVES
-;
 mIsPending
 =
 PR_TRUE
