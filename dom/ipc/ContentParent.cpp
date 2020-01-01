@@ -6222,7 +6222,7 @@ RecvFirstIdle
 PreallocatedProcessManager
 :
 :
-AllocateOnIdle
+AllocateAfterDelay
 (
 )
 ;
