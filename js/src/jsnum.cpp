@@ -7354,7 +7354,10 @@ allowGC
 >
 JSString
 *
-js_NumberToString
+js
+:
+:
+NumberToString
 (
 ThreadSafeContext
 *
@@ -7378,7 +7381,10 @@ d
 template
 JSString
 *
-js_NumberToString
+js
+:
+:
+NumberToString
 <
 CanGC
 >
@@ -7393,7 +7399,10 @@ d
 template
 JSString
 *
-js_NumberToString
+js
+:
+:
+NumberToString
 <
 NoGC
 >

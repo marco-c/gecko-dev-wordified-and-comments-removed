@@ -114,6 +114,9 @@ js_parseInt_str
 class
 JSAtom
 ;
+namespace
+js
+{
 template
 <
 js
@@ -125,7 +128,7 @@ allowGC
 extern
 JSString
 *
-js_NumberToString
+NumberToString
 (
 js
 :
@@ -137,9 +140,6 @@ double
 d
 )
 ;
-namespace
-js
-{
 template
 <
 js
