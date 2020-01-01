@@ -1495,10 +1495,8 @@ bool
 bNoBlockCrossing
 )
 ;
-already_AddRefed
-<
 nsIDOMNode
->
+*
 GetRightmostChild
 (
 nsIDOMNode
@@ -1523,10 +1521,8 @@ bNoBlockCrossing
 false
 )
 ;
-already_AddRefed
-<
 nsIDOMNode
->
+*
 GetLeftmostChild
 (
 nsIDOMNode
