@@ -420,9 +420,6 @@ config
 autoconf
 .
 mk
-MODULE
-=
-hudservice
 EXTRA_JS_MODULES
 =
 HUDService
