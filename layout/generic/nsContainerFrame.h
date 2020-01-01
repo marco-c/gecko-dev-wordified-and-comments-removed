@@ -76,6 +76,11 @@ nsSplittableFrame
 public
 :
 NS_DECL_FRAMEARENA_HELPERS
+NS_DECL_QUERYFRAME_TARGET
+(
+nsContainerFrame
+)
+NS_DECL_QUERYFRAME
 NS_IMETHOD
 Init
 (
@@ -451,6 +456,14 @@ PRBool
 aForceNormal
 =
 PR_FALSE
+)
+;
+nsFrameList
+StealFramesAfter
+(
+nsIFrame
+*
+aChild
 )
 ;
 void
