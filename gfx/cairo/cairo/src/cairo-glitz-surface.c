@@ -3282,6 +3282,8 @@ i
 0
 ]
 =
+_cairo_fixed_16_16_from_double
+(
 gradient
 -
 >
@@ -3290,7 +3292,8 @@ stops
 i
 ]
 .
-x
+offset
+)
 ;
 params
 [

@@ -982,6 +982,11 @@ base
 ;
 UNWIND_FONT_FACE_INIT
 :
+_cairo_toy_font_face_fini
+(
+font_face
+)
+;
 UNWIND_FONT_FACE_MALLOC
 :
 free

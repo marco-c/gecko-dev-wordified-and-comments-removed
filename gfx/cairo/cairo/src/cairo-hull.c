@@ -823,6 +823,8 @@ status
 cairo_hull_t
 *
 hull
+=
+NULL
 ;
 int
 num_hull

@@ -1119,7 +1119,7 @@ surface
 c
 cairo
 -
-atsui
+quartz
 -
 font
 .
@@ -1130,11 +1130,6 @@ EXPORTS
 cairo
 -
 quartz
-.
-h
-cairo
--
-atsui
 .
 h
 cairo
@@ -1239,6 +1234,14 @@ cairo
 xlib
 -
 screen
+.
+c
+\
+cairo
+-
+xlib
+-
+visual
 .
 c
 \
