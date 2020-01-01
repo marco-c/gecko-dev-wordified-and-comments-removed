@@ -1766,6 +1766,16 @@ serialize
 )
 )
 ;
+CryptoMetas
+.
+set
+(
+meta
+.
+uri
+meta
+)
+;
 }
 if
 (
