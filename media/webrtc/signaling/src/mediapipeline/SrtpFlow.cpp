@@ -52,7 +52,6 @@ MOZ_MTLOG_MODULE
 mediapipeline
 "
 )
-;
 namespace
 mozilla
 {
