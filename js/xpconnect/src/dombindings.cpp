@@ -1863,7 +1863,7 @@ if
 scope
 )
 return
-false
+NULL
 ;
 return
 getPrototype
