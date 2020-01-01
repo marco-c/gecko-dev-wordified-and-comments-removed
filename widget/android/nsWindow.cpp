@@ -10892,6 +10892,12 @@ IMEState
 :
 OPEN_STATE_NOT_SUPPORTED
 ;
+mInputContext
+.
+mNativeIMEContext
+=
+nullptr
+;
 return
 mInputContext
 ;
