@@ -1421,6 +1421,9 @@ Mozilla
 Firefox
 "
 {
+RemoveDeprecatedFiles
+}
+{
 InstallStartCleanupCommon
 }
 SectionEnd
