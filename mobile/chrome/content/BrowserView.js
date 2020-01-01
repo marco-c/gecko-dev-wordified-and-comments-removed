@@ -422,6 +422,7 @@ this
 _removeTile
 this
 cacheSize
+container
 )
 ;
 this
@@ -3119,6 +3120,10 @@ setAttribute
 style
 "
 "
+display
+:
+none
+;
 position
 :
 absolute
