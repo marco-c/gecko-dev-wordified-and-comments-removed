@@ -234,17 +234,6 @@ include
 "
 mozilla
 /
-dom
-/
-Element
-.
-h
-"
-;
-include
-"
-mozilla
-/
 HalTypes
 .
 h
