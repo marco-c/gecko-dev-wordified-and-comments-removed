@@ -3285,6 +3285,9 @@ rv
 return
 rv
 ;
+#
+ifdef
+DEBUG
 PRInt64
 currentMtime
 ;
@@ -3318,9 +3321,6 @@ currentMtime
 )
 )
 {
-#
-ifdef
-DEBUG
 nsCAutoString
 path
 ;
@@ -3352,12 +3352,12 @@ get
 )
 )
 ;
-#
-endif
 return
 NS_ERROR_FAILURE
 ;
 }
+#
+endif
 rv
 =
 readDeps
