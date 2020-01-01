@@ -1088,6 +1088,8 @@ buffer
 SetLength
 (
 size
++
+1
 )
 )
 {
