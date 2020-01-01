@@ -11,6 +11,13 @@ limits
 .
 h
 >
+#
+include
+"
+jscntxt
+.
+h
+"
 namespace
 js
 {
