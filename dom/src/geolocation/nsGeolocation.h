@@ -584,8 +584,6 @@ StartDevice
 nsIPrincipal
 *
 aPrincipal
-bool
-aRequestPrivate
 )
 ;
 void

@@ -1,3 +1,6 @@
+#
+filter
+substitution
 const
 Cc
 =
@@ -675,6 +678,14 @@ UpdateChannel
 get
 (
 )
+GOOGLE_API_KEY
+:
+function
+(
+)
+"
+MOZ_GOOGLE_API_KEY
+"
 DISTRIBUTION
 :
 function

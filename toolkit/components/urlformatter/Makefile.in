@@ -83,10 +83,6 @@ nsURLFormatter
 .
 manifest
 \
-nsURLFormatter
-.
-js
-\
 (
 NULL
 )

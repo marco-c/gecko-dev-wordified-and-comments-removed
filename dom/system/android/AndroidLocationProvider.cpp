@@ -109,8 +109,6 @@ Watch
 nsIGeolocationUpdate
 *
 aCallback
-bool
-aRequestPrivate
 )
 {
 NS_IF_RELEASE
