@@ -272,7 +272,6 @@ RemoveEventListeners
 (
 )
 ;
-virtual
 nsresult
 HandleEventWithTarget
 (
