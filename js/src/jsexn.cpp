@@ -2403,9 +2403,12 @@ JSObject
 *
 obj
 =
+UncheckedUnwrap
+(
 JSVAL_TO_OBJECT
 (
 exn
+)
 )
 ;
 if
