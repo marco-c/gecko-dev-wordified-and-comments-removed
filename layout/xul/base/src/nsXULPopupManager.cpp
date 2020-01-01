@@ -6708,6 +6708,11 @@ NS_DIRECTION_IS_BLOCK
 theDirection
 )
 {
+if
+(
+currentMenu
+)
+{
 nsCOMPtr
 <
 nsIContent
@@ -6728,6 +6733,7 @@ PR_TRUE
 PR_FALSE
 )
 ;
+}
 return
 PR_TRUE
 ;
