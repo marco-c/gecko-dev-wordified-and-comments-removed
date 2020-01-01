@@ -211,6 +211,8 @@ content
 /
 browser
 /
+devtools
+/
 NetworkPanel
 .
 xhtml
@@ -258,6 +260,8 @@ content
 /
 browser
 /
+devtools
+/
 scratchpad
 .
 xul
@@ -272,6 +276,8 @@ content
 /
 browser
 /
+devtools
+/
 scratchpad
 .
 js
@@ -285,6 +291,8 @@ js
 content
 /
 browser
+/
+devtools
 /
 splitview
 .
@@ -320,6 +328,8 @@ content
 /
 browser
 /
+devtools
+/
 styleeditor
 .
 xul
@@ -333,6 +343,8 @@ xul
 content
 /
 browser
+/
+devtools
 /
 styleeditor
 .
@@ -516,6 +528,8 @@ content
 /
 browser
 /
+devtools
+/
 orion
 .
 js
@@ -533,6 +547,8 @@ content
 /
 browser
 /
+devtools
+/
 source
 -
 editor
@@ -555,6 +571,8 @@ content
 /
 browser
 /
+devtools
+/
 debugger
 .
 xul
@@ -569,6 +587,8 @@ content
 /
 browser
 /
+devtools
+/
 debugger
 .
 css
@@ -582,6 +602,8 @@ css
 content
 /
 browser
+/
+devtools
 /
 debugger
 -
@@ -601,6 +623,8 @@ content
 /
 browser
 /
+devtools
+/
 debugger
 -
 view
@@ -618,6 +642,8 @@ js
 content
 /
 browser
+/
+devtools
 /
 debugger
 -
@@ -637,6 +663,8 @@ content
 /
 browser
 /
+devtools
+/
 debugger
 -
 panes
@@ -654,6 +682,8 @@ js
 content
 /
 browser
+/
+devtools
 /
 profiler
 .

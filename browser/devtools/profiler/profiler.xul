@@ -188,6 +188,8 @@ browser
 /
 content
 /
+devtools
+/
 splitview
 .
 css

@@ -151,6 +151,8 @@ browser
 /
 content
 /
+devtools
+/
 debugger
 .
 css
@@ -326,6 +328,8 @@ chrome
 browser
 /
 content
+/
+devtools
 /
 source
 -
