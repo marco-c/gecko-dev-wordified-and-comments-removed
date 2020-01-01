@@ -2219,6 +2219,14 @@ originalTarget
 )
 |
 |
+(
+ev
+.
+target
+.
+contentDocument
+&
+&
 Browser
 .
 getTabForDocument
@@ -2228,6 +2236,7 @@ ev
 target
 .
 contentDocument
+)
 )
 ;
 if
