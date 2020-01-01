@@ -5,11 +5,6 @@ cstring
 >
 #
 include
-<
-algorithm
->
-#
-include
 "
 graphite2
 /
@@ -182,9 +177,6 @@ memcpy
 m_ops
 &
 ops
-std
-:
-:
 min
 (
 sizeof

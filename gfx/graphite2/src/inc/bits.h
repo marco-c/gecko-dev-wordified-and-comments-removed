@@ -1,6 +1,9 @@
 #
 pragma
 once
+namespace
+graphite2
+{
 template
 <
 typename
@@ -313,7 +316,7 @@ T
 >
 inline
 T
-haszero
+has_zero
 (
 const
 T
@@ -360,7 +363,7 @@ T
 >
 inline
 T
-zerobytes
+zero_bytes
 (
 const
 T
@@ -391,7 +394,7 @@ return
 T
 (
 (
-haszero
+has_zero
 (
 x
 ^
@@ -405,4 +408,5 @@ t
 n
 )
 ;
+}
 }

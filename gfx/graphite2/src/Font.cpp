@@ -1,10 +1,5 @@
 #
 include
-<
-algorithm
->
-#
-include
 "
 inc
 /
@@ -121,9 +116,6 @@ memcpy
 &
 m_ops
 ops
-std
-:
-:
 min
 (
 sizeof

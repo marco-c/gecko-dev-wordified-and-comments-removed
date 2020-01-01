@@ -151,7 +151,7 @@ DIV
 {
 do2
 (
-min
+min_
 )
 }
 0
@@ -163,7 +163,7 @@ MIN
 {
 do2
 (
-max
+max_
 )
 }
 0
