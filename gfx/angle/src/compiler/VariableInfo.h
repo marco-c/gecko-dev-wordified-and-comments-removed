@@ -1,4 +1,10 @@
 #
+ifndef
+COMPILER_VARIABLE_INFO_H_
+#
+define
+COMPILER_VARIABLE_INFO_H_
+#
 include
 "
 GLSLANG
@@ -21,6 +27,9 @@ TVariableInfo
 {
 TPersistString
 name
+;
+TPersistString
+mappedName
 ;
 ShDataType
 type
@@ -140,3 +149,5 @@ mUniforms
 ;
 }
 ;
+#
+endif

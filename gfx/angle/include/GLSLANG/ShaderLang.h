@@ -17,7 +17,7 @@ endif
 #
 define
 SH_VERSION
-103
+104
 typedef
 enum
 {
@@ -123,6 +123,9 @@ SH_ACTIVE_ATTRIBUTES
 SH_ACTIVE_ATTRIBUTE_MAX_LENGTH
 =
 0x8B8A
+SH_MAPPED_NAME_MAX_LENGTH
+=
+0x8B8B
 }
 ShShaderInfo
 ;
@@ -149,7 +152,10 @@ SH_LINE_DIRECTIVES
 0x0010
 SH_SOURCE_PATH
 =
-0x0200
+0x0020
+SH_MAP_LONG_VARIABLE_NAMES
+=
+0x0040
 }
 ShCompileOptions
 ;
@@ -304,6 +310,9 @@ type
 char
 *
 name
+char
+*
+mappedName
 )
 ;
 void
@@ -326,6 +335,9 @@ type
 char
 *
 name
+char
+*
+mappedName
 )
 ;
 #

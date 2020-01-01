@@ -14,6 +14,15 @@ include
 "
 compiler
 /
+ForLoopUnroll
+.
+h
+"
+#
+include
+"
+compiler
+/
 intermediate
 .
 h
@@ -219,6 +228,9 @@ DeclaredStructs
 ;
 DeclaredStructs
 mDeclaredStructs
+;
+ForLoopUnroll
+mLoopUnroll
 ;
 }
 ;

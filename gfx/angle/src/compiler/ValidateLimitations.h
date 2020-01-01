@@ -31,6 +31,10 @@ id
 }
 index
 ;
+TIntermLoop
+*
+loop
+;
 }
 ;
 typedef

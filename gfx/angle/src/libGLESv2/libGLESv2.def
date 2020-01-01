@@ -325,3 +325,6 @@ NONAME
 glGetProcAddress
 148
 NONAME
+glBindTexImage
+158
+NONAME

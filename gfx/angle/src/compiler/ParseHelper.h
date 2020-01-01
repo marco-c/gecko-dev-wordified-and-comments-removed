@@ -592,6 +592,10 @@ identifier
 TPublicType
 &
 type
+TVariable
+*
+&
+variable
 )
 ;
 bool

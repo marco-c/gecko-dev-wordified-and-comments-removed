@@ -178,6 +178,12 @@ return
 uniforms
 ;
 }
+int
+getMappedNameMaxLength
+(
+)
+const
+;
 protected
 :
 ShShaderType
@@ -224,6 +230,14 @@ root
 ;
 void
 collectAttribsUniforms
+(
+TIntermNode
+*
+root
+)
+;
+void
+mapLongVariableNames
 (
 TIntermNode
 *

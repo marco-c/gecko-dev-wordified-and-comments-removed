@@ -4298,6 +4298,7 @@ EOpDivAssign
 :
 if
 (
+(
 left
 -
 >
@@ -4312,8 +4313,10 @@ right
 isVector
 (
 )
+)
 |
 |
+(
 left
 -
 >
@@ -4327,6 +4330,7 @@ right
 >
 isMatrix
 (
+)
 )
 )
 return
@@ -4379,6 +4383,7 @@ EOpGreaterThanEqual
 :
 if
 (
+(
 left
 -
 >
@@ -4393,8 +4398,10 @@ right
 isVector
 (
 )
+)
 |
 |
+(
 left
 -
 >
@@ -4408,6 +4415,7 @@ right
 >
 isMatrix
 (
+)
 )
 )
 return

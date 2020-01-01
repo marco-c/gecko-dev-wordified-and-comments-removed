@@ -690,6 +690,14 @@ ValidateLimitations
 .
 cpp
 \
+ForLoopUnroll
+.
+cpp
+\
+MapLongVariableNames
+.
+cpp
+\
 (
 NULL
 )
