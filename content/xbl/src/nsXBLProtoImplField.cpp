@@ -471,6 +471,7 @@ get
 )
 mLineNumber
 JSVERSION_LATEST
+true
 &
 result
 &
