@@ -36232,6 +36232,7 @@ needsBarrier
 ;
 if
 (
+!
 PropertyWriteNeedsTypeBarrier
 (
 cx
