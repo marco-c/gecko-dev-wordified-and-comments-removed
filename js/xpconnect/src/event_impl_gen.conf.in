@@ -154,6 +154,12 @@ MozApplicationEvent
 '
 SmartCardEvent
 '
+'
+StyleSheetAddedEvent
+'
+'
+StyleSheetRemovedEvent
+'
 #
 ifdef
 MOZ_B2G_BT
