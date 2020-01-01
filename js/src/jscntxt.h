@@ -319,9 +319,6 @@ MAX_GLOBAL_SLOTS
 1
 ;
 class
-TreeInfo
-;
-class
 VMAllocator
 ;
 class
@@ -467,7 +464,7 @@ VMSideExit
 *
 outermostTreeExitGuard
 ;
-TreeInfo
+TreeFragment
 *
 outermostTree
 ;
@@ -513,7 +510,7 @@ cx
 JSTraceMonitor
 *
 tm
-TreeInfo
+TreeFragment
 *
 ti
 uintN
