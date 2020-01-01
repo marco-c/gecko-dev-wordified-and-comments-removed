@@ -655,6 +655,10 @@ virtual
 bool
 IsSuspendedByCache
 (
+nsMediaStream
+*
+*
+aActiveStream
 )
 =
 0
@@ -1037,6 +1041,10 @@ virtual
 bool
 IsSuspendedByCache
 (
+nsMediaStream
+*
+*
+aActiveStream
 )
 ;
 virtual
