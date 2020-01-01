@@ -856,11 +856,6 @@ gtk_window_new
 GTK_WINDOW_POPUP
 )
 ;
-gtk_widget_realize
-(
-gProtoWindow
-)
-;
 GtkWidget
 *
 protoLayout
@@ -893,7 +888,7 @@ protoLayout
 gStockImageWidget
 )
 ;
-gtk_widget_realize
+gtk_widget_ensure_style
 (
 gStockImageWidget
 )
