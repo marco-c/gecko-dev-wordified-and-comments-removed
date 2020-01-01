@@ -1343,12 +1343,14 @@ endif
 MOZ_SOURCE_STAMP
 =
 (
+firstword
+(
 shell
 hg
 -
 R
 (
-topsrcdir
+srcdir
 )
 parent
 -
@@ -1370,4 +1372,5 @@ n
 dev
 /
 null
+)
 )
