@@ -27313,11 +27313,17 @@ PC
 .
 exceptionEntry
 )
+{
 restoreFrameRegs
 (
 masm
 )
 ;
+interruptCheckHelper
+(
+)
+;
+}
 uint32
 oldFrameDepth
 =
