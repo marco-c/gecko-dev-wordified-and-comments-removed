@@ -99,6 +99,10 @@ request
 )
 )
 ;
+gc
+(
+)
+;
 gClient
 .
 connect
