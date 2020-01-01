@@ -471,6 +471,10 @@ test_add_twice_failure
 .
 html
 \
+test_advance
+.
+html
+\
 test_autoIncrement_indexes
 .
 html
