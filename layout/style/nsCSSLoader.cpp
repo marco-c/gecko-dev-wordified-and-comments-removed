@@ -7180,6 +7180,7 @@ aStatus
 nsTObserverArray
 <
 nsICSSLoaderObserver
+*
 >
 :
 :
@@ -7197,7 +7198,13 @@ obs
 ;
 while
 (
+iter
+.
+HasMore
 (
+)
+)
+{
 obs
 =
 iter
@@ -7205,9 +7212,7 @@ iter
 GetNext
 (
 )
-)
-)
-{
+;
 LOG
 (
 (
@@ -10907,7 +10912,7 @@ if
 (
 mObservers
 .
-AppendObserverUnlessExists
+AppendElementUnlessExists
 (
 aObserver
 )
@@ -10944,7 +10949,7 @@ if
 (
 mObservers
 .
-RemoveObserver
+RemoveElement
 (
 aObserver
 )

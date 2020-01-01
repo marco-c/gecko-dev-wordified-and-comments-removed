@@ -848,6 +848,7 @@ mFlags
 nsTObserverArray
 <
 nsIMutationObserver
+*
 >
 mMutationObservers
 ;
