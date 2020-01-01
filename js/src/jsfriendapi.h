@@ -457,7 +457,10 @@ JSHandleId
 id
 JSBool
 strict
-JSMutableHandleValue
+JS
+:
+:
+MutableHandleValue
 vp
 )
 ;
