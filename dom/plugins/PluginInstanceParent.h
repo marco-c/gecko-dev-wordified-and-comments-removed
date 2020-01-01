@@ -861,12 +861,6 @@ window
 )
 ;
 nsresult
-NotifyPainted
-(
-void
-)
-;
-nsresult
 GetSurface
 (
 gfxASurface
@@ -1066,9 +1060,6 @@ nsRefPtr
 gfxASurface
 >
 mFrontSurface
-;
-PRPackedBool
-mSentPaintNotification
 ;
 }
 ;
