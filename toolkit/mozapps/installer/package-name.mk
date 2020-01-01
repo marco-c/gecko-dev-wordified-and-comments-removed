@@ -1277,9 +1277,7 @@ PKG_BASENAME
 .
 tests
 .
-tar
-.
-bz2
+zip
 ifneq
 (
 (
