@@ -178,6 +178,12 @@ aThisObj
 {
 this
 .
+init
+(
+)
+;
+this
+.
 _handlers
 .
 push
