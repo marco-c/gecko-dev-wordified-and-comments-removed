@@ -200,6 +200,15 @@ js
 NULL
 )
 endif
+ifdef
+MOZ_SERVICES_HEALTHREPORT
+_BROWSER_FILES
++
+=
+browser_healthreport
+.
+js
+endif
 libs
 :
 :
