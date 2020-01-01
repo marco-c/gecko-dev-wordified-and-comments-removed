@@ -187,6 +187,12 @@ return
 temp
 ;
 }
+gfxPoint3D
+GetNormalVector
+(
+)
+const
+;
 PRBool
 IsSingular
 (

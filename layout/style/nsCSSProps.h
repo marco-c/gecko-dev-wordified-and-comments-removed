@@ -954,6 +954,13 @@ kAzimuthKTable
 static
 const
 PRInt32
+kBackfaceVisibilityKTable
+[
+]
+;
+static
+const
+PRInt32
 kBackgroundAttachmentKTable
 [
 ]

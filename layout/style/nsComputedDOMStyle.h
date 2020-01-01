@@ -1410,6 +1410,12 @@ DoGetMozPerspective
 ;
 nsIDOMCSSValue
 *
+DoGetMozBackfaceVisibility
+(
+)
+;
+nsIDOMCSSValue
+*
 DoGetOrient
 (
 )

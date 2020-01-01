@@ -5916,6 +5916,9 @@ mTransformOrigin
 nsStyleCoord
 mChildPerspective
 ;
+PRUint8
+mBackfaceVisibility
+;
 nsAutoTArray
 <
 nsTransition
