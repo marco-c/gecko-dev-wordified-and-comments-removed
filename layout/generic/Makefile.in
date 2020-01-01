@@ -151,6 +151,10 @@ nsIScrollableFrame
 .
 h
 \
+ScrollbarActivity
+.
+h
+\
 nsIStatefulFrame
 .
 h
@@ -330,6 +334,10 @@ nsPageFrame
 cpp
 \
 nsPlaceholderFrame
+.
+cpp
+\
+ScrollbarActivity
 .
 cpp
 \

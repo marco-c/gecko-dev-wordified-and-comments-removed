@@ -3697,3 +3697,13 @@ gc_incremental_slice_ms
 30
 )
 ;
+pref
+(
+"
+ui
+.
+showHideScrollbars
+"
+1
+)
+;

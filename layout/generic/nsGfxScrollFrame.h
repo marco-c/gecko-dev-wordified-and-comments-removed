@@ -126,6 +126,13 @@ nsPresState
 struct
 ScrollReflowState
 ;
+namespace
+mozilla
+{
+class
+ScrollbarActivity
+;
+}
 #
 define
 NS_SCROLLFRAME_INVALIDATE_CONTENTS_ON_SCROLL
@@ -429,7 +436,6 @@ mInner
 ;
 }
 ;
-static
 void
 FinishReflowForScrollbar
 (
@@ -459,7 +465,6 @@ nscoord
 aMaxPos
 )
 ;
-static
 void
 SetCoordAttribute
 (
@@ -1099,6 +1104,15 @@ nsRefPtr
 AsyncScroll
 >
 mAsyncScroll
+;
+nsAutoPtr
+<
+mozilla
+:
+:
+ScrollbarActivity
+>
+mScrollbarActivity
 ;
 nsTArray
 <
