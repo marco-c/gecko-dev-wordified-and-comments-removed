@@ -195,8 +195,6 @@ const
 nsCSSValue
 &
 aCSSValue
-nscoord
-aLeftSpace
 const
 nsBoundingMetrics
 &
