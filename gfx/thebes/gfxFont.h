@@ -5020,7 +5020,11 @@ mValue
 (
 mValue
 &
+(
 FLAG_CAN_BREAK_BEFORE
+|
+FLAG_NOT_CLUSTER_START
+)
 )
 |
 (
