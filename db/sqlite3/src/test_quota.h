@@ -168,6 +168,7 @@ quota_FILE
 size_t
 sqlite3_quota_fwrite
 (
+const
 void
 *
 size_t
@@ -216,7 +217,14 @@ quota_FILE
 )
 ;
 int
-sqlite3_quota_ftrunate
+sqlite3_quota_ferror
+(
+quota_FILE
+*
+)
+;
+int
+sqlite3_quota_ftruncate
 (
 quota_FILE
 *
@@ -243,6 +251,13 @@ quota_FILE
 ;
 sqlite3_int64
 sqlite3_quota_file_truesize
+(
+quota_FILE
+*
+)
+;
+long
+sqlite3_quota_file_available
 (
 quota_FILE
 *

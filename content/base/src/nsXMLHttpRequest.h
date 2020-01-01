@@ -2482,7 +2482,7 @@ mResponseBlob
 ;
 nsRefPtr
 <
-nsDOMFileBase
+nsDOMFile
 >
 mDOMFile
 ;

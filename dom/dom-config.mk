@@ -66,6 +66,10 @@ battery
 \
 dom
 /
+file
+\
+dom
+/
 power
 \
 dom

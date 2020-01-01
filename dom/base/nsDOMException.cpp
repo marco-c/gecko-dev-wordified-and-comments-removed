@@ -489,6 +489,9 @@ VersionError
 NotReadableError
 =
 0
+LockedFileInactiveError
+=
+0
 }
 ;
 #

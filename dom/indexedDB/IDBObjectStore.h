@@ -210,9 +210,9 @@ PRUint32
 aDataIndex
 PRUint32
 aFileIdsIndex
-FileManager
+IDBDatabase
 *
-aFileManager
+aDatabase
 StructuredCloneReadInfo
 &
 aInfo

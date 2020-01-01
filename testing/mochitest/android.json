@@ -36,6 +36,16 @@ mochitest
 "
 dom
 /
+file
+/
+test
+"
+:
+"
+"
+"
+dom
+/
 src
 /
 json

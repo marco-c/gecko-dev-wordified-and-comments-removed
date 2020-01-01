@@ -90,10 +90,6 @@ testSteps
 (
 )
 {
-denyUnlimitedQuota
-(
-)
-;
 const
 READ_WRITE
 =
@@ -241,13 +237,6 @@ key
 )
 ;
 let
-usage
-=
-getUsageSync
-(
-)
-;
-let
 size
 =
 (
@@ -260,7 +249,9 @@ DEFAULT_QUOTA_MB
 *
 1024
 -
-usage
+getUsageSync
+(
+)
 ;
 fileData
 .
@@ -455,6 +446,7 @@ onload
 "
 runTest
 (
+true
 )
 ;
 "

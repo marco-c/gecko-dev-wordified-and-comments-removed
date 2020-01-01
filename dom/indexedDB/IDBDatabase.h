@@ -27,6 +27,13 @@ h
 #
 include
 "
+nsIFileStorage
+.
+h
+"
+#
+include
+"
 nsIIDBDatabase
 .
 h
@@ -105,6 +112,8 @@ public
 IDBWrapperCache
 public
 nsIIDBDatabase
+public
+nsIFileStorage
 {
 friend
 class
@@ -118,6 +127,7 @@ public
 :
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIIDBDATABASE
+NS_DECL_NSIFILESTORAGE
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 IDBDatabase
