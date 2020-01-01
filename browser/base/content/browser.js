@@ -6633,6 +6633,12 @@ init
 (
 )
 ;
+gPrivateBrowsingUI
+.
+init
+(
+)
+;
 setTimeout
 (
 delayedStartup
@@ -8246,12 +8252,6 @@ false
 ;
 #
 endif
-gPrivateBrowsingUI
-.
-init
-(
-)
-;
 gBrowser
 .
 mPanelContainer
