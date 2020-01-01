@@ -3155,6 +3155,11 @@ AllocKind
 allocKind
 size_t
 thingSize
+gc
+:
+:
+InitialHeap
+initialHeap
 )
 ;
 bool

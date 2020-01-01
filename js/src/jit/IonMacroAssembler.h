@@ -4009,6 +4009,16 @@ allocKind
 Label
 *
 fail
+gc
+:
+:
+InitialHeap
+initialHeap
+=
+gc
+:
+:
+DefaultHeap
 )
 ;
 void
