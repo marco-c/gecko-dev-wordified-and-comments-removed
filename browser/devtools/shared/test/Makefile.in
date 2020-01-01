@@ -117,6 +117,10 @@ browser_eventemitter_basic
 .
 js
 \
+browser_toolbar_buttons_nopersist
+.
+js
+\
 head
 .
 js
