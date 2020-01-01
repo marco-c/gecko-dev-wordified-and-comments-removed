@@ -3,6 +3,11 @@ runTests
 (
 )
 {
+requestLongerTimeout
+(
+2
+)
+;
 yield
 setLinks
 (
