@@ -198,6 +198,7 @@ null
 function
 getOpenedDatabase
 (
+unshared
 )
 {
 if
@@ -211,8 +212,17 @@ gDBConn
 getService
 (
 )
-.
+[
+unshared
+?
+"
+openUnsharedDatabase
+"
+:
+"
 openDatabase
+"
+]
 (
 getTestDB
 (
