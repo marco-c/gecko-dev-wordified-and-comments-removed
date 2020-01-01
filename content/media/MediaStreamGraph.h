@@ -315,6 +315,10 @@ mNotifiedFinished
 (
 false
 )
+mNotifiedBlocked
+(
+false
+)
 mWrapper
 (
 aWrapper
@@ -982,6 +986,9 @@ mFinished
 ;
 bool
 mNotifiedFinished
+;
+bool
+mNotifiedBlocked
 ;
 bool
 mHasBeenOrdered
