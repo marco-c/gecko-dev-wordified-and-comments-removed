@@ -201,6 +201,15 @@ Destroy
 virtual
 NS_HIDDEN_
 (
+void
+)
+MakeZombie
+(
+)
+;
+virtual
+NS_HIDDEN_
+(
 nsresult
 )
 SetPreferenceStyleRules
