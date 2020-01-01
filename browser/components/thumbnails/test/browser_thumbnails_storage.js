@@ -97,6 +97,7 @@ runTests
 (
 )
 {
+yield
 clearHistory
 (
 )
@@ -420,7 +421,6 @@ exists
 )
 clearHistory
 (
-aFile
 aUseRange
 )
 ;
