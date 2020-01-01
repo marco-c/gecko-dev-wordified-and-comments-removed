@@ -5703,6 +5703,9 @@ plain
 if
 (
 mParser
+|
+|
+mParserAborted
 )
 {
 return
