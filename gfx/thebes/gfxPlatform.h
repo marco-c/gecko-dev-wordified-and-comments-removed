@@ -63,17 +63,6 @@ h
 #
 include
 "
-mozilla
-/
-gfx
-/
-2D
-.
-h
-"
-#
-include
-"
 gfx2DGlue
 .
 h

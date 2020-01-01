@@ -40,13 +40,6 @@ gfxImageSurface
 .
 h
 "
-#
-include
-"
-gfxContext
-.
-h
-"
 namespace
 mozilla
 {

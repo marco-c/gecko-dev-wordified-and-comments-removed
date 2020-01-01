@@ -6,13 +6,6 @@ define
 GFX_LAYERSTYPES_H
 #
 include
-<
-stdint
-.
-h
->
-#
-include
 "
 nsPoint
 .

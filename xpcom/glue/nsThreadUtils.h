@@ -21,13 +21,6 @@ h
 #
 include
 "
-nscore
-.
-h
-"
-#
-include
-"
 nsIThreadManager
 .
 h
