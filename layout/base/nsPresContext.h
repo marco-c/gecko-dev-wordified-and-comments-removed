@@ -1628,6 +1628,16 @@ mAutoQualityMinFontSizePixelsPref
 )
 ;
 }
+float
+ScreenWidthInchesForFontInflation
+(
+bool
+*
+aChanged
+=
+nsnull
+)
+;
 static
 PRInt32
 AppUnitsPerCSSPixel
@@ -3619,6 +3629,9 @@ mTextZoom
 ;
 float
 mFullZoom
+;
+float
+mLastFontInflationScreenWidth
 ;
 PRInt32
 mCurAppUnitsPerDevPixel
