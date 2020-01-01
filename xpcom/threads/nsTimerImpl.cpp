@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsVoidArray
-.
-h
-"
-#
-include
-"
 nsThreadManager
 .
 h

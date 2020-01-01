@@ -533,13 +533,6 @@ h
 #
 include
 "
-nsVoidArray
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -569,13 +562,6 @@ h
 include
 "
 nsHashKeys
-.
-h
-"
-#
-include
-"
-nsTArray
 .
 h
 "

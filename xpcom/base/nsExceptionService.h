@@ -7,13 +7,6 @@ nsExceptionService_h__
 #
 include
 "
-nsVoidArray
-.
-h
-"
-#
-include
-"
 nsIException
 .
 h

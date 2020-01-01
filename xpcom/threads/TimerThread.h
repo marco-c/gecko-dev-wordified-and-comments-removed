@@ -35,7 +35,7 @@ h
 #
 include
 "
-nsVoidArray
+nsTArray
 .
 h
 "
@@ -230,7 +230,11 @@ mWaiting
 PRPackedBool
 mSleeping
 ;
-nsVoidArray
+nsTArray
+<
+nsTimerImpl
+*
+>
 mTimers
 ;
 #
