@@ -113,7 +113,10 @@ false
 )
 debugMode
 (
-false
+rt
+-
+>
+debugMode
 )
 anynameObject
 (
