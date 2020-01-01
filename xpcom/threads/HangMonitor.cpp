@@ -1330,7 +1330,7 @@ mozilla
 Telemetry
 :
 :
-EVENTLOOP_UI_LAG
+EVENTLOOP_UI_LAG_EXP_MS
 cumulativeUILagMS
 )
 ;
