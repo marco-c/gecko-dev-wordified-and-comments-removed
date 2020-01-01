@@ -692,6 +692,12 @@ fEnable
 LOCAL_GL_BLEND
 )
 ;
+enum
+{
+SHADER_MANDATORY
+SHADER_OPTIONAL
+}
+;
 #
 define
 SHADER_PROGRAM
@@ -700,6 +706,7 @@ penum
 ptype
 vsstr
 fsstr
+optional
 )
 do
 {
@@ -752,6 +759,21 @@ delete
 p
 ;
 \
+if
+(
+optional
+=
+=
+SHADER_OPTIONAL
+)
+\
+p
+=
+nsnull
+;
+\
+else
+\
 return
 false
 ;
@@ -787,6 +809,7 @@ RGBALayerProgramType
 ColorTextureLayerProgram
 sLayerVS
 sRGBATextureLayerFS
+SHADER_MANDATORY
 )
 ;
 SHADER_PROGRAM
@@ -795,6 +818,7 @@ BGRALayerProgramType
 ColorTextureLayerProgram
 sLayerVS
 sBGRATextureLayerFS
+SHADER_MANDATORY
 )
 ;
 SHADER_PROGRAM
@@ -803,6 +827,7 @@ RGBXLayerProgramType
 ColorTextureLayerProgram
 sLayerVS
 sRGBXTextureLayerFS
+SHADER_MANDATORY
 )
 ;
 SHADER_PROGRAM
@@ -811,6 +836,7 @@ BGRXLayerProgramType
 ColorTextureLayerProgram
 sLayerVS
 sBGRXTextureLayerFS
+SHADER_MANDATORY
 )
 ;
 SHADER_PROGRAM
@@ -819,6 +845,7 @@ RGBARectLayerProgramType
 ColorTextureLayerProgram
 sLayerVS
 sRGBARectTextureLayerFS
+SHADER_MANDATORY
 )
 ;
 SHADER_PROGRAM
@@ -827,6 +854,7 @@ ColorLayerProgramType
 SolidColorLayerProgram
 sLayerVS
 sSolidColorLayerFS
+SHADER_MANDATORY
 )
 ;
 SHADER_PROGRAM
@@ -835,6 +863,7 @@ YCbCrLayerProgramType
 YCbCrTextureLayerProgram
 sLayerVS
 sYCbCrTextureLayerFS
+SHADER_MANDATORY
 )
 ;
 SHADER_PROGRAM
@@ -843,6 +872,7 @@ ComponentAlphaPass1ProgramType
 ComponentAlphaTextureLayerProgram
 sLayerVS
 sComponentPass1FS
+SHADER_MANDATORY
 )
 ;
 SHADER_PROGRAM
@@ -851,6 +881,7 @@ ComponentAlphaPass2ProgramType
 ComponentAlphaTextureLayerProgram
 sLayerVS
 sComponentPass2FS
+SHADER_MANDATORY
 )
 ;
 SHADER_PROGRAM
@@ -859,6 +890,7 @@ Copy2DProgramType
 CopyProgram
 sCopyVS
 sCopy2DFS
+SHADER_MANDATORY
 )
 ;
 SHADER_PROGRAM
@@ -867,6 +899,7 @@ Copy2DRectProgramType
 CopyProgram
 sCopyVS
 sCopy2DRectFS
+SHADER_MANDATORY
 )
 ;
 #
@@ -878,6 +911,7 @@ Copy2DExternalProgramType
 CopyProgram
 sCopyVS
 sCopy2DExternalFS
+SHADER_OPTIONAL
 )
 ;
 #
