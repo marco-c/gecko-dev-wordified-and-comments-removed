@@ -4012,9 +4012,10 @@ useRegister
 (
 input
 )
-useRegisterOrConstant
+useFixed
 (
 power
+CallTempReg1
 )
 tempFixed
 (

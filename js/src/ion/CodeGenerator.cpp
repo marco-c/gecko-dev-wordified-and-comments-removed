@@ -8605,6 +8605,17 @@ isRegister
 )
 )
 {
+JS_ASSERT
+(
+ToRegister
+(
+power
+)
+!
+=
+temp
+)
+;
 masm
 .
 passABIArg
