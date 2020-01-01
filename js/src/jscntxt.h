@@ -560,10 +560,6 @@ JSRuntime
 rt
 )
 ;
-InterpreterFrames
-*
-interpreterFrames
-;
 }
 ;
 }
