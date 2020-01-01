@@ -983,6 +983,8 @@ File
 open
 (
 path
+FILE_STAT_MODE
+FILE_STAT_OPTIONS
 )
 ;
 file
