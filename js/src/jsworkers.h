@@ -326,6 +326,9 @@ asmJSFailedFunction
 void
 finishParseTaskForScript
 (
+JSRuntime
+*
+rt
 JSScript
 *
 script
