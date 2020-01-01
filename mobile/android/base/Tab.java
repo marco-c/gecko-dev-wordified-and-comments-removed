@@ -581,13 +581,8 @@ onDestroy
 )
 {
 mDoorHangers
-=
-new
-HashMap
-<
-String
-DoorHanger
->
+.
+clear
 (
 )
 ;

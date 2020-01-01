@@ -902,6 +902,12 @@ removeTab
 tabId
 )
 ;
+tab
+.
+onDestroy
+(
+)
+;
 GeckoApp
 .
 mAppContext
@@ -927,12 +933,6 @@ tab
 TabEvents
 .
 CLOSED
-)
-;
-tab
-.
-onDestroy
-(
 )
 ;
 }
