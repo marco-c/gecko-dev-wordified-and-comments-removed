@@ -3328,6 +3328,14 @@ startedDateTime
 ;
 this
 .
+_isXHR
+=
+aNetworkEvent
+.
+isXHR
+;
+this
+.
 _request
 =
 {
@@ -3472,6 +3480,11 @@ this
 _request
 .
 method
+isXHR
+:
+this
+.
+_isXHR
 }
 ;
 }
