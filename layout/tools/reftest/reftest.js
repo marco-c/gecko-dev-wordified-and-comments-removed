@@ -4777,6 +4777,13 @@ gClearingForAssertionCheck
 =
 false
 ;
+if
+(
+gDebug
+.
+isDebugBuild
+)
+{
 var
 newAssertionCount
 =
@@ -5012,6 +5019,7 @@ n
 "
 )
 ;
+}
 }
 gURLs
 .
