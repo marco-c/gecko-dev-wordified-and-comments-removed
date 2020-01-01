@@ -24062,9 +24062,7 @@ bce
 script
 -
 >
-scriptSource
-(
-)
+source
 funbox
 -
 >
