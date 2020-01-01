@@ -1151,6 +1151,11 @@ mCount
 mode
 )
 ;
+if
+(
+shader
+)
+{
 SkMatrix
 mat
 ;
@@ -1180,6 +1185,7 @@ shader
 )
 )
 ;
+}
 }
 else
 {
@@ -1379,6 +1385,11 @@ mCount
 mode
 )
 ;
+if
+(
+shader
+)
+{
 SkMatrix
 mat
 ;
@@ -1408,6 +1419,7 @@ shader
 )
 )
 ;
+}
 }
 else
 {
