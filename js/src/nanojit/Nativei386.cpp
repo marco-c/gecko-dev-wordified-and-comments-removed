@@ -5760,6 +5760,10 @@ intptr_t
 )
 _nIns
 ;
+#
+if
+defined
+NANOJIT_AMD64
 NanoAssert
 (
 tt
@@ -5774,6 +5778,8 @@ tt
 INT_MIN
 )
 ;
+#
+endif
 IMM32
 (
 tt
