@@ -48,7 +48,7 @@ h
 #
 include
 "
-nsIIDBTransactionRequest
+nsIIDBTransaction
 .
 h
 "
@@ -128,7 +128,7 @@ class
 IDBRequest
 ;
 class
-IDBTransactionRequest
+IDBTransaction
 ;
 class
 IDBEvent
@@ -305,7 +305,7 @@ aRequest
 nsIVariant
 *
 aResult
-nsIIDBTransactionRequest
+nsIIDBTransaction
 *
 aTransaction
 )
@@ -323,7 +323,7 @@ aRequest
 nsIVariant
 *
 aResult
-nsIIDBTransactionRequest
+nsIIDBTransaction
 *
 aTransaction
 )
@@ -343,7 +343,7 @@ mResult
 ;
 nsCOMPtr
 <
-nsIIDBTransactionRequest
+nsIIDBTransaction
 >
 mTransaction
 ;
@@ -413,7 +413,7 @@ Init
 IDBRequest
 *
 aRequest
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 )

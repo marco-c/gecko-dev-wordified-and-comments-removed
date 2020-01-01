@@ -45,7 +45,7 @@ class
 IDBObjectStoreRequest
 ;
 class
-IDBTransactionRequest
+IDBTransaction
 ;
 struct
 KeyValuePair
@@ -102,7 +102,7 @@ Create
 IDBRequest
 *
 aRequest
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 IDBObjectStoreRequest
@@ -128,7 +128,7 @@ Create
 IDBRequest
 *
 aRequest
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 IDBIndexRequest
@@ -154,7 +154,7 @@ Create
 IDBRequest
 *
 aRequest
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 IDBIndexRequest
@@ -201,7 +201,7 @@ CreateCommon
 IDBRequest
 *
 aRequest
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 PRUint16
@@ -216,7 +216,7 @@ mRequest
 ;
 nsRefPtr
 <
-IDBTransactionRequest
+IDBTransaction
 >
 mTransaction
 ;

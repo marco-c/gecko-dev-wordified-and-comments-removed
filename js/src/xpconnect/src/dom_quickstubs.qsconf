@@ -2728,11 +2728,6 @@ nsIIDBTransactionEvent
 *
 '
 '
-nsIIDBTransactionRequest
-.
-*
-'
-'
 nsIIDBFactory
 .
 *

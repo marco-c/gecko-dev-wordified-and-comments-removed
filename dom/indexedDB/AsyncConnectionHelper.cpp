@@ -52,7 +52,7 @@ h
 #
 include
 "
-IDBTransactionRequest
+IDBTransaction
 .
 h
 "
@@ -103,7 +103,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIEVENTTARGET
 TransactionPoolEventTarget
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 )
@@ -116,7 +116,7 @@ aTransaction
 }
 private
 :
-IDBTransactionRequest
+IDBTransaction
 *
 mTransaction
 ;
@@ -191,7 +191,7 @@ AsyncConnectionHelper
 :
 AsyncConnectionHelper
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 IDBRequest
@@ -319,7 +319,7 @@ forget
 database
 )
 ;
-IDBTransactionRequest
+IDBTransaction
 *
 transaction
 ;

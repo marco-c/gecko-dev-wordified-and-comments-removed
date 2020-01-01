@@ -73,7 +73,7 @@ h
 #
 include
 "
-IDBTransactionRequest
+IDBTransaction
 .
 h
 "
@@ -97,7 +97,7 @@ public
 :
 GetHelper
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 IDBRequest
@@ -183,7 +183,7 @@ public
 :
 GetObjectHelper
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 IDBRequest
@@ -245,7 +245,7 @@ public
 :
 GetAllHelper
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 IDBRequest
@@ -321,7 +321,7 @@ public
 :
 GetAllObjectsHelper
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 IDBRequest
@@ -397,7 +397,7 @@ public
 :
 OpenCursorHelper
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 IDBRequest
@@ -545,7 +545,7 @@ public
 :
 OpenObjectCursorHelper
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 IDBRequest

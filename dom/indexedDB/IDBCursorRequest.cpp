@@ -122,7 +122,7 @@ h
 #
 include
 "
-IDBTransactionRequest
+IDBTransaction
 .
 h
 "
@@ -153,7 +153,7 @@ public
 :
 UpdateHelper
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 IDBRequest
@@ -261,7 +261,7 @@ public
 :
 RemoveHelper
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 IDBRequest
@@ -391,7 +391,7 @@ Create
 IDBRequest
 *
 aRequest
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 IDBObjectStoreRequest
@@ -534,7 +534,7 @@ Create
 IDBRequest
 *
 aRequest
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 IDBIndexRequest
@@ -689,7 +689,7 @@ Create
 IDBRequest
 *
 aRequest
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 IDBIndexRequest
@@ -844,7 +844,7 @@ CreateCommon
 IDBRequest
 *
 aRequest
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 PRUint16

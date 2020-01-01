@@ -7,7 +7,7 @@ mozilla_dom_indexeddb_savepoint_h__
 #
 include
 "
-IDBTransactionRequest
+IDBTransaction
 .
 h
 "
@@ -20,7 +20,7 @@ public
 :
 Savepoint
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 )
@@ -120,7 +120,7 @@ rv
 }
 private
 :
-IDBTransactionRequest
+IDBTransaction
 *
 mTransaction
 ;

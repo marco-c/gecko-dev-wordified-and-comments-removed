@@ -108,7 +108,7 @@ false
 }
 nsRefPtr
 <
-IDBTransactionRequest
+IDBTransaction
 >
 transaction
 ;
@@ -142,7 +142,7 @@ NS_DECL_NSIRUNNABLE
 inline
 FinishTransactionRunnable
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 nsCOMPtr
@@ -155,7 +155,7 @@ aFinishRunnable
 ;
 private
 :
-IDBTransactionRequest
+IDBTransaction
 *
 mTransaction
 ;
@@ -589,7 +589,7 @@ TransactionThreadPool
 :
 FinishTransaction
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 )
@@ -618,7 +618,7 @@ pointer
 ;
 nsRefPtr
 <
-IDBTransactionRequest
+IDBTransaction
 >
 transaction
 (
@@ -708,7 +708,7 @@ aTransaction
 mMode
 =
 =
-IDBTransactionRequest
+IDBTransaction
 :
 :
 FULL_LOCK
@@ -975,7 +975,7 @@ TransactionThreadPool
 :
 TransactionCanRun
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 TransactionQueue
@@ -1104,7 +1104,7 @@ if
 mode
 =
 =
-IDBTransactionRequest
+IDBTransaction
 :
 :
 FULL_LOCK
@@ -1432,7 +1432,7 @@ TransactionThreadPool
 :
 Dispatch
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 nsIRunnable
@@ -1596,7 +1596,7 @@ aTransaction
 mMode
 =
 =
-IDBTransactionRequest
+IDBTransaction
 :
 :
 FULL_LOCK
@@ -1670,7 +1670,7 @@ aTransaction
 mMode
 =
 =
-IDBTransactionRequest
+IDBTransaction
 :
 :
 FULL_LOCK
@@ -1980,7 +1980,7 @@ TransactionQueue
 :
 TransactionQueue
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 nsIRunnable
@@ -2400,7 +2400,7 @@ FinishTransactionRunnable
 :
 FinishTransactionRunnable
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 nsCOMPtr

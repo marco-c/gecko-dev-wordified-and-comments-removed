@@ -67,7 +67,7 @@ mozIStorageConnection
 ;
 BEGIN_INDEXEDDB_NAMESPACE
 class
-IDBTransactionRequest
+IDBTransaction
 ;
 class
 AsyncConnectionHelper
@@ -125,7 +125,7 @@ aRequest
 ;
 AsyncConnectionHelper
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 IDBRequest
@@ -213,7 +213,7 @@ mDatabase
 ;
 nsRefPtr
 <
-IDBTransactionRequest
+IDBTransaction
 >
 mTransaction
 ;

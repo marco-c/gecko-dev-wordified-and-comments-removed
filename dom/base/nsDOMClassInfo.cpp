@@ -2773,7 +2773,7 @@ dom
 /
 indexedDB
 /
-IDBTransactionRequest
+IDBTransaction
 .
 h
 "
@@ -5462,7 +5462,7 @@ DOM_DEFAULT_SCRIPTABLE_FLAGS
 )
 NS_DEFINE_CLASSINFO_DATA
 (
-IDBTransactionRequest
+IDBTransaction
 nsDOMGenericSH
 DOM_DEFAULT_SCRIPTABLE_FLAGS
 )
@@ -14061,12 +14061,8 @@ nsIIDBObjectStore
 DOM_CLASSINFO_MAP_END
 DOM_CLASSINFO_MAP_BEGIN
 (
-IDBTransactionRequest
-nsIIDBTransactionRequest
-)
-DOM_CLASSINFO_MAP_ENTRY
-(
-nsIIDBTransactionRequest
+IDBTransaction
+nsIIDBTransaction
 )
 DOM_CLASSINFO_MAP_ENTRY
 (

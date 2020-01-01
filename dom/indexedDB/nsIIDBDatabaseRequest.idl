@@ -465,7 +465,7 @@ interface
 nsIIDBRequest
 ;
 interface
-nsIIDBTransactionRequest
+nsIIDBTransaction
 ;
 /
 *
@@ -566,7 +566,7 @@ version
 [
 optional_argc
 ]
-nsIIDBTransactionRequest
+nsIIDBTransaction
 transaction
 (
 in

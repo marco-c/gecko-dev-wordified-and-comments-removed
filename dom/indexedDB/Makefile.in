@@ -486,7 +486,7 @@ IDBRequest
 .
 cpp
 \
-IDBTransactionRequest
+IDBTransaction
 .
 cpp
 \
@@ -540,7 +540,7 @@ IDBRequest
 .
 h
 \
-IDBTransactionRequest
+IDBTransaction
 .
 h
 \
@@ -693,10 +693,6 @@ nsIIDBTransaction
 idl
 \
 nsIIDBTransactionEvent
-.
-idl
-\
-nsIIDBTransactionRequest
 .
 idl
 \

@@ -39,7 +39,7 @@ dom
 /
 indexedDB
 /
-IDBTransactionRequest
+IDBTransaction
 .
 h
 "
@@ -735,7 +735,7 @@ Create
 IDBDatabaseRequest
 *
 aDatabase
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 const
@@ -812,7 +812,7 @@ static
 nsresult
 UpdateIndexes
 (
-IDBTransactionRequest
+IDBTransaction
 *
 aTransaction
 PRInt64
@@ -898,7 +898,7 @@ return
 mKeyPath
 ;
 }
-IDBTransactionRequest
+IDBTransaction
 *
 Transaction
 (
@@ -955,7 +955,7 @@ mDatabase
 ;
 nsRefPtr
 <
-IDBTransactionRequest
+IDBTransaction
 >
 mTransaction
 ;
