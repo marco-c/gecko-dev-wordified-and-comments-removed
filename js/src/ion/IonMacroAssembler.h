@@ -1975,9 +1975,13 @@ Label
 fail
 )
 ;
+private
+:
 CodeOffsetLabel
-exitCodePatch
+exitCodePatch_
 ;
+public
+:
 void
 linkExitFrameAndCode
 (
@@ -1987,7 +1991,7 @@ linkExitFrame
 (
 )
 ;
-exitCodePatch
+exitCodePatch_
 =
 PushWithPatch
 (
@@ -2009,7 +2013,7 @@ code
 {
 if
 (
-exitCodePatch
+exitCodePatch_
 .
 offset
 (
@@ -2024,7 +2028,7 @@ patchDataWithValueCheck
 CodeLocationLabel
 (
 code
-exitCodePatch
+exitCodePatch_
 )
 ImmWord
 (
