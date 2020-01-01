@@ -3280,6 +3280,7 @@ fun
 getAllocKind
 (
 )
+TenuredObject
 )
 ;
 }
@@ -3541,6 +3542,8 @@ clone
 NewDenseEmptyArray
 (
 cx
+NULL
+TenuredObject
 )
 ;
 }
