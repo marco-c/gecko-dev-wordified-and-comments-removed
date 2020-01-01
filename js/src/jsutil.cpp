@@ -233,6 +233,8 @@ uint32
 pow
 (
 10
+.
+0
 (
 double
 )
