@@ -2219,6 +2219,11 @@ center
 xul
 :
 hbox
+align
+=
+"
+center
+"
 >
 <
 xul
