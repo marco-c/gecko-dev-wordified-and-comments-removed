@@ -1144,6 +1144,13 @@ TRUE
 display
 -
 >
+buggy_repeat
+=
+TRUE
+;
+display
+-
+>
 next
 =
 _cairo_xlib_display_list
