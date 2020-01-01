@@ -119,13 +119,9 @@ cookie
 DOM
 tree
 accessors
-/
-/
-(
-Not
-proxy
-yet
-)
+[
+Throws
+]
 getter
 object
 (
