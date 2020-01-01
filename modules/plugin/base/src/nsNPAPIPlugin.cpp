@@ -1650,6 +1650,9 @@ aRefNum
 }
 #
 endif
+#
+ifdef
+MOZ_IPC
 void
 nsNPAPIPlugin
 :
@@ -1690,6 +1693,8 @@ mEntryPoint
 ;
 }
 }
+#
+endif
 namespace
 {
 #
