@@ -14,6 +14,12 @@ import
 re
 import
 shlex
+from
+mozbuild
+.
+util
+import
+FileAvoidWrite
 generator_wants_sorted_dependencies
 =
 True
@@ -578,6 +584,10 @@ PYTHON
 commandline
 )
 s
+	
+(
+TOUCH
+)
 endif
 "
 "
@@ -892,12 +902,9 @@ filename
 )
   
 with
-open
+FileAvoidWrite
 (
 filename
-"
-w
-"
 )
 as
 f
@@ -1026,12 +1033,9 @@ commandline
 :
   
 with
-open
+FileAvoidWrite
 (
 path
-"
-w
-"
 )
 as
 f
