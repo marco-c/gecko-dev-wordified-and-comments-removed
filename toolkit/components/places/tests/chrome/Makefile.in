@@ -517,6 +517,10 @@ test_381357
 .
 xul
 \
+test_reloadLivemarks
+.
+xul
+\
 (
 NULL
 )

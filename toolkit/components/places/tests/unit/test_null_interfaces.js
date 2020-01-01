@@ -147,6 +147,9 @@ service
 mozIAsyncLivemarks
 "
 [
+"
+reloadLivemarks
+"
 ]
 ]
 [

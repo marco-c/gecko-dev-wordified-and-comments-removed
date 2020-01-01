@@ -4222,6 +4222,14 @@ reload
 (
 )
 ;
+PlacesUtils
+.
+livemarks
+.
+reloadLivemarks
+(
+)
+;
 if
 (
 shouldInvalidate
