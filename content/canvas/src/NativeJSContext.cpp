@@ -58,6 +58,9 @@ if
 sJSScriptRuntime
 )
 {
+nsresult
+rv
+=
 CallGetService
 (
 "
