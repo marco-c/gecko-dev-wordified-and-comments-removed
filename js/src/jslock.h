@@ -333,7 +333,7 @@ JS_ATOMIC_INCREMENT
 (
 p
 )
-PR_ATOMIC_INCREMENT
+PR_AtomicIncrement
 (
 (
 PRInt32
@@ -349,7 +349,7 @@ JS_ATOMIC_DECREMENT
 (
 p
 )
-PR_ATOMIC_DECREMENT
+PR_AtomicDecrement
 (
 (
 PRInt32
@@ -366,7 +366,7 @@ JS_ATOMIC_ADD
 p
 v
 )
-PR_ATOMIC_ADD
+PR_AtomicAdd
 (
 (
 PRInt32
@@ -389,7 +389,7 @@ JS_ATOMIC_SET
 p
 v
 )
-PR_ATOMIC_SET
+PR_AtomicSet
 (
 (
 PRInt32

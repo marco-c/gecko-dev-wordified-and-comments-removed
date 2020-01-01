@@ -228,7 +228,7 @@ NativeEventCallback
 PRInt32
 hasPending
 =
-PR_ATOMIC_SET
+PR_AtomicSet
 (
 &
 mNativeEventPending
@@ -650,7 +650,7 @@ NS_OK
 PRInt32
 lastVal
 =
-PR_ATOMIC_SET
+PR_AtomicSet
 (
 &
 mNativeEventPending

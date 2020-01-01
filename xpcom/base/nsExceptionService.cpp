@@ -269,7 +269,7 @@ svc
 #
 ifdef
 NS_DEBUG
-PR_ATOMIC_INCREMENT
+PR_AtomicIncrement
 (
 &
 totalInstances
@@ -289,7 +289,7 @@ nsExceptionManager
 #
 ifdef
 NS_DEBUG
-PR_ATOMIC_DECREMENT
+PR_AtomicDecrement
 (
 &
 totalInstances
@@ -449,7 +449,7 @@ ifdef
 NS_DEBUG
 if
 (
-PR_ATOMIC_INCREMENT
+PR_AtomicIncrement
 (
 &
 totalInstances
@@ -588,7 +588,7 @@ Shutdown
 #
 ifdef
 NS_DEBUG
-PR_ATOMIC_DECREMENT
+PR_AtomicDecrement
 (
 &
 totalInstances

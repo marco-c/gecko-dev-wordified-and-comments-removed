@@ -999,7 +999,7 @@ this
 )
 )
 ;
-PR_ATOMIC_SET
+PR_AtomicSet
 (
 &
 mCompleted

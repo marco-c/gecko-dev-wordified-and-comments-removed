@@ -334,7 +334,7 @@ NS_ERROR_FAILURE
 PRInt32
 lastVal
 =
-PR_ATOMIC_SET
+PR_AtomicSet
 (
 &
 sIsFlushing

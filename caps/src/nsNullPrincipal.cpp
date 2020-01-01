@@ -121,8 +121,12 @@ refcnt
 nsrefcnt
 count
 =
-PR_ATOMIC_INCREMENT
+PR_AtomicIncrement
 (
+(
+PRInt32
+*
+)
 &
 mJSPrincipals
 .
@@ -175,8 +179,12 @@ release
 nsrefcnt
 count
 =
-PR_ATOMIC_DECREMENT
+PR_AtomicDecrement
 (
+(
+PRInt32
+*
+)
 &
 mJSPrincipals
 .

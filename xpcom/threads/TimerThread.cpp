@@ -272,7 +272,7 @@ NS_OK
 }
 if
 (
-PR_ATOMIC_SET
+PR_AtomicSet
 (
 &
 mInitInProgress

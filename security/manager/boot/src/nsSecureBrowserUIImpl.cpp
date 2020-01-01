@@ -468,7 +468,7 @@ mI
 i
 )
 {
-PR_ATOMIC_INCREMENT
+PR_AtomicIncrement
 (
 &
 mI
@@ -480,7 +480,7 @@ nsAutoAtomic
 (
 )
 {
-PR_ATOMIC_DECREMENT
+PR_AtomicDecrement
 (
 &
 mI

@@ -1381,8 +1381,13 @@ Release
 nsrefcnt
 count
 =
-NS_AtomicDecrementRefcnt
+PR_AtomicDecrement
 (
+(
+PRInt32
+*
+)
+&
 mRefCnt
 )
 ;
