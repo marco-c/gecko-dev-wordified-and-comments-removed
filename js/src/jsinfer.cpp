@@ -18547,10 +18547,7 @@ runtime
 >
 atomState
 .
-typeAtoms
-[
-JSTYPE_VOID
-]
+undefinedAtom
 )
 )
 seen

@@ -663,8 +663,6 @@ runtime
 >
 atomsTable
 =
-atomState
-.
 atoms
 .
 sizeOfExcludingThis
@@ -1899,7 +1897,7 @@ ok
 )
 ok
 =
-InitCommonAtoms
+InitCommonNames
 (
 cx
 )
@@ -2157,7 +2155,7 @@ c
 NULL
 )
 ;
-FinishCommonAtoms
+FinishCommonNames
 (
 rt
 )
