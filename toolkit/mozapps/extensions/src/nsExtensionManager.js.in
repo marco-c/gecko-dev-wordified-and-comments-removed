@@ -9621,6 +9621,14 @@ getItemLocation
 id
 )
 ;
+if
+(
+!
+itemLocation
+)
+return
+null
+;
 var
 parts
 =
@@ -30515,6 +30523,9 @@ FILE_INSTALL_MANIFEST
 if
 (
 metadataFile
+&
+&
+metadataFile
 .
 exists
 (
@@ -30793,6 +30804,9 @@ FILE_INSTALL_MANIFEST
 ;
 if
 (
+installRDF
+&
+&
 installRDF
 .
 exists
@@ -31158,6 +31172,9 @@ it
 .
 if
 (
+manifest
+&
+&
 manifest
 .
 exists
@@ -55423,6 +55440,9 @@ fileName
 )
 if
 (
+file
+&
+&
 file
 .
 exists
