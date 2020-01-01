@@ -344,10 +344,6 @@ nsIDOMSVGViewElement
 .
 idl
 \
-nsIDOMSVGViewSpec
-.
-idl
-\
 nsIDOMSVGZoomAndPan
 .
 idl

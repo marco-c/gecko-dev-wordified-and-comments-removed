@@ -156,6 +156,12 @@ nsIDOMSVGZoomEvent
 :
 nsIDOMUIEvent
 {
+/
+/
+Not
+implemented
+/
+/
 readonly
 attribute
 nsIDOMSVGRect

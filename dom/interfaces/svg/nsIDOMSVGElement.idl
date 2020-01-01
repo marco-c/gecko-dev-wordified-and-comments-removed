@@ -160,6 +160,12 @@ attribute
 nsIDOMCSSStyleDeclaration
 style
 ;
+/
+/
+Not
+implemented
+/
+/
 nsIDOMCSSValue
 getPresentationAttribute
 (
