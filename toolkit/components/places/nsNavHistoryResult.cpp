@@ -4807,17 +4807,6 @@ B_VAL
 if
 (
 annoType
-!
-=
-nsIAnnotationService
-:
-:
-TYPE_BINARY
-)
-{
-if
-(
-annoType
 =
 =
 nsIAnnotationService
@@ -5002,7 +4991,6 @@ b_val
 :
 0
 ;
-}
 }
 }
 if
