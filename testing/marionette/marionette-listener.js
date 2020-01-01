@@ -3850,7 +3850,7 @@ el
 .
 scrollIntoView
 (
-true
+false
 )
 ;
 if
