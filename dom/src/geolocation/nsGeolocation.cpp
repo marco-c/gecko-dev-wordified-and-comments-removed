@@ -2961,6 +2961,11 @@ nsIDOMGeoPositionOptions
 options
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+callback
+)
+;
 if
 (
 sGeoEnabled
@@ -3083,6 +3088,11 @@ _retval
 NS_OUTPARAM
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+aCallback
+)
+;
 if
 (
 sGeoEnabled
