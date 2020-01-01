@@ -55442,6 +55442,15 @@ fi
 MOZ_DEBUG
 =
 )
+if
+test
+MOZ_PLATFORM_MAEMO
+;
+then
+MOZ_DEBUG
+=
+1
+fi
 MOZ_DEBUG_ENABLE_DEFS
 =
 "
