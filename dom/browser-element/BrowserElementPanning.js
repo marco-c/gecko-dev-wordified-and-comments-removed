@@ -267,6 +267,14 @@ mouse
 '
 ;
 }
+if
+(
+!
+this
+.
+_asyncPanZoomForViewportFrame
+)
+{
 let
 els
 =
@@ -324,6 +332,7 @@ this
 )
 )
 ;
+}
 addMessageListener
 (
 "
