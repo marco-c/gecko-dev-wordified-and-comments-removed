@@ -1156,10 +1156,8 @@ Accessible
 >
 mNodeToAccessibleMap
 ;
-nsCOMPtr
-<
 nsIDocument
->
+*
 mDocumentNode
 ;
 nsCOMPtr
