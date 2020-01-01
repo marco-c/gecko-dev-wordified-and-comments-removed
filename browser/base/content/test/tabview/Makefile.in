@@ -464,14 +464,13 @@ browser_tabview_dragdrop
 .
 js
 \
-(
-NULL
-)
-#
 browser_tabview_group
 .
 js
 \
+(
+NULL
+)
 libs
 :
 :
