@@ -8925,6 +8925,7 @@ WrapNative
 cx
 scope
 native
+nativeWrapperCache
 PR_FALSE
 &
 debugVal
@@ -8975,6 +8976,7 @@ WrapNative
 cx
 scope
 native
+nativeWrapperCache
 PR_FALSE
 &
 v
@@ -18281,6 +18283,7 @@ WrapNative
 cx
 obj
 result
+cache
 PR_TRUE
 &
 v
@@ -29517,7 +29520,6 @@ WrapNative
 cx
 globalObj
 scope
-nsnull
 PR_FALSE
 &
 v
@@ -32430,6 +32432,7 @@ WrapNative
 cx
 obj
 array_item
+cache
 PR_TRUE
 vp
 )
@@ -32906,6 +32909,7 @@ WrapNative
 cx
 obj
 item
+cache
 PR_TRUE
 vp
 )
@@ -34701,11 +34705,6 @@ WrapNative
 cx
 obj
 retval
-&
-NS_GET_IID
-(
-nsIDOMDocument
-)
 PR_FALSE
 rval
 getter_AddRefs
@@ -35021,6 +35020,7 @@ nsINodeList
 (
 list
 )
+list
 PR_FALSE
 &
 collection
@@ -35414,6 +35414,7 @@ WrapNative
 cx
 obj
 result
+cache
 PR_TRUE
 vp
 )
@@ -36425,6 +36426,7 @@ nsINodeList
 (
 tags
 )
+tags
 PR_TRUE
 &
 v
@@ -37088,6 +37090,7 @@ WrapNative
 cx
 obj
 result
+cache
 PR_TRUE
 vp
 )
@@ -37512,6 +37515,7 @@ WrapNative
 cx
 obj
 result
+cache
 PR_TRUE
 vp
 )
@@ -37565,6 +37569,25 @@ if
 control
 )
 {
+Element
+*
+element
+=
+static_cast
+<
+nsGenericHTMLFormElement
+*
+>
+(
+form
+-
+>
+GetElementAt
+(
+n
+)
+)
+;
 nsresult
 rv
 =
@@ -37572,7 +37595,8 @@ WrapNative
 (
 cx
 obj
-control
+element
+element
 PR_TRUE
 vp
 )

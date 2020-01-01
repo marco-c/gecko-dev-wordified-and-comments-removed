@@ -5020,11 +5020,7 @@ WrapNative
 jscontext
 scope
 mRoot
-&
-NS_GET_IID
-(
-nsIDOMElement
-)
+mRoot
 &
 v
 getter_AddRefs

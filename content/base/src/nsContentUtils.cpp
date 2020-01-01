@@ -23527,6 +23527,9 @@ scope
 nsISupports
 *
 native
+nsWrapperCache
+*
+cache
 const
 nsIID
 *
@@ -23681,6 +23684,7 @@ WrapNativeToJSVal
 cx
 scope
 native
+cache
 aIID
 aAllowWrapping
 vp
