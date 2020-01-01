@@ -785,8 +785,7 @@ n
 "
 reinterpret_cast
 <
-unsigned
-long
+uintptr_t
 >
 (
 code
