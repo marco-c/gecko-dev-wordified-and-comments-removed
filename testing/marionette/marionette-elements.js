@@ -958,7 +958,8 @@ EM_find
 (
 win
 values
-notify
+on_success
+on_error
 all
 )
 {
@@ -1162,7 +1163,7 @@ i
 )
 ;
 }
-notify
+on_success
 (
 ids
 )
@@ -1180,7 +1181,7 @@ addToKnownElements
 found
 )
 ;
-notify
+on_success
 (
 id
 )
@@ -1217,9 +1218,7 @@ this
 searchTimeout
 )
 {
-throw
-new
-ElementException
+on_error
 (
 "
 Unable
@@ -1260,7 +1259,8 @@ bind
 this
 win
 values
-notify
+on_success
+on_error
 all
 )
 100
