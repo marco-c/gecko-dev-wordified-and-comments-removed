@@ -1468,8 +1468,11 @@ mirror
 {
 mirror
 .
-_sendOnClose
+_sendToSubscribers
 (
+"
+close
+"
 )
 ;
 var
