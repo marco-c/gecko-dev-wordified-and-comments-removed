@@ -155,6 +155,10 @@ time
 import
 sys
 import
+subprocess
+import
+utils
+import
 ffprocess
 import
 ffprofile
@@ -194,6 +198,23 @@ Windows
     
 from
 tp_win32
+import
+*
+elif
+platform
+.
+system
+(
+)
+=
+=
+"
+Darwin
+"
+:
+    
+from
+tp_mac
 import
 *
 TP_REGEX
@@ -545,11 +566,16 @@ in
 profile_configs
 :
     
-print
+utils
+.
+debug
+(
 "
-in
-tp
+running
+pageload
+tests
 "
+)
     
 print
 pconfig
@@ -566,6 +592,16 @@ rstring
 =
 "
 "
+    
+utils
+.
+setEnvironmentVars
+(
+pconfig
+[
+6
+]
+)
     
 profile_dir
 =
@@ -658,6 +694,10 @@ TP_URL
 +
 '
 ?
+quit
+=
+1
+&
 cycles
 =
 '
@@ -681,14 +721,39 @@ profile_dir
 url
 )
     
-handle
+process
+=
+subprocess
+.
+Popen
+(
+command_line
+stdout
+=
+subprocess
+.
+PIPE
+universal_newlines
+=
+True
+shell
+=
+True
+bufsize
+=
+0
+env
 =
 os
 .
-popen
-(
-command_line
+environ
 )
+    
+handle
+=
+process
+.
+stdout
     
 time
 .
@@ -925,6 +990,12 @@ shutil
 rmtree
 (
 profile_dir
+)
+    
+utils
+.
+restoreEnvironmentVars
+(
 )
     
 counter_data

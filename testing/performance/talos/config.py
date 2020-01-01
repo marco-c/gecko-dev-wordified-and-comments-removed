@@ -492,6 +492,8 @@ Possible
 values
 on
 Linux
+and
+Mac
 :
      
 '
@@ -554,3 +556,17 @@ bulk
 .
 cgi
 '
+"
+"
+"
+Enable
+/
+disable
+debugging
+output
+"
+"
+"
+DEBUG
+=
+0
