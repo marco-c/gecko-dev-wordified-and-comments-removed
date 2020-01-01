@@ -1,6 +1,10 @@
 IPDLSRCS
 =
 \
+PCompositor
+.
+ipdl
+\
 PLayer
 .
 ipdl
