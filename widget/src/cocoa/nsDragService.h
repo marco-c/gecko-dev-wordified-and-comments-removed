@@ -62,6 +62,13 @@ aActionType
 )
 ;
 NS_IMETHOD
+EndDragSession
+(
+PRBool
+aDoneDrag
+)
+;
+NS_IMETHOD
 GetData
 (
 nsITransferable
@@ -107,6 +114,12 @@ nsIScriptableRegion
 *
 aRegion
 )
+;
+nsCOMPtr
+<
+nsISupportsArray
+>
+mDataItems
 ;
 }
 ;
