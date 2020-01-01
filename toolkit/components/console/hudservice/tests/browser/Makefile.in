@@ -752,6 +752,14 @@ browser_webconsole_bug_599725_response_headers
 .
 js
 \
+browser_webconsole_bug_613642_maintain_scroll
+.
+js
+\
+browser_webconsole_bug_613642_prune_scroll
+.
+js
+\
 head
 .
 js
