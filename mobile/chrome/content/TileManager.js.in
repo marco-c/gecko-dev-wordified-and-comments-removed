@@ -1533,6 +1533,8 @@ centerRounded
 (
 )
 ;
+/
+/
 dump
 (
 '
@@ -1584,6 +1586,8 @@ _renderAppendHoldRect
 cr
 )
 ;
+/
+/
 dump
 (
 "
@@ -1610,6 +1614,8 @@ n
 )
 ;
 }
+/
+/
 dump
 (
 "
@@ -1731,6 +1737,8 @@ tile
 ;
 END_FOREACH_IN_RECT
 }
+/
+/
 dump
 (
 "
@@ -1782,6 +1790,8 @@ tile
 ;
 END_FOREACH_IN_RECT
 }
+/
+/
 dump
 (
 "
@@ -2038,6 +2048,8 @@ ctry
 >
 kTileExponentHeight
 ;
+/
+/
 dump
 (
 '
