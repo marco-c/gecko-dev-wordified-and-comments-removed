@@ -357,6 +357,17 @@ ProcessId
 aOtherProcess
 )
 ;
+static
+void
+StartUpWithExistingThread
+(
+MessageLoop
+*
+aMsgLoop
+PlatformThreadId
+aThreadID
+)
+;
 protected
 :
 virtual
