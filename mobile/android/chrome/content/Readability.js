@@ -232,6 +232,8 @@ i
 negative
 :
 /
+hidden
+|
 combx
 |
 comment
