@@ -14152,6 +14152,12 @@ WARNINGS_AS_ERRORS
 '
 -
 Werror
+-
+Wno
+-
+error
+=
+uninitialized
 '
 DSO_CFLAGS
 =

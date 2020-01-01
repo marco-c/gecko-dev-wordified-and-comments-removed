@@ -14618,7 +14618,7 @@ Wno
 -
 error
 =
-initialized
+uninitialized
 '
 DSO_CFLAGS
 =
