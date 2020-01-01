@@ -140,6 +140,11 @@ JSOP_POP
 \
 _
 (
+JSOP_DUP
+)
+\
+_
+(
 JSOP_GOTO
 )
 \
