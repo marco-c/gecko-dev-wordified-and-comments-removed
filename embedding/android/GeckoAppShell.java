@@ -218,6 +218,14 @@ map
 ;
 public
 static
+native
+void
+onResume
+(
+)
+;
+public
+static
 void
 loadGeckoLibs
 (
