@@ -494,6 +494,11 @@ mIsInitialized
 PR_FALSE
 )
 {
+MOZ_COUNT_CTOR
+(
+nsScriptNameSpaceManager
+)
+;
 }
 nsScriptNameSpaceManager
 :
@@ -515,6 +520,11 @@ mGlobalNames
 )
 ;
 }
+MOZ_COUNT_DTOR
+(
+nsScriptNameSpaceManager
+)
+;
 }
 nsGlobalNameStruct
 *
