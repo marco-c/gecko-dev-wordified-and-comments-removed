@@ -5046,7 +5046,6 @@ XPCConvert
 :
 NativeInterface2JSObject
 (
-lccx
 aVal
 aHolder
 helper
@@ -5417,7 +5416,6 @@ XPCConvert
 :
 JSObject2NativeInterface
 (
-ccx
 result
 aJSObj
 &
@@ -5624,7 +5622,6 @@ XPCConvert
 :
 JSObject2NativeInterface
 (
-ccx
 result
 aJSObj
 &
@@ -8170,7 +8167,6 @@ XPCVariant
 :
 VariantDataToJS
 (
-lccx
 value
 &
 rv

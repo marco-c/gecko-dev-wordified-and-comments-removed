@@ -282,7 +282,6 @@ XPCConvert
 :
 NativeData2JS
 (
-ccx
 resultVal
 .
 address

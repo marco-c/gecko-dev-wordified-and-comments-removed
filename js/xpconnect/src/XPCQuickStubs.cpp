@@ -4103,7 +4103,6 @@ XPCConvert
 :
 NativeInterface2JSObject
 (
-lccx
 rval
 nullptr
 aHelper
@@ -4228,7 +4227,6 @@ XPCVariant
 :
 VariantDataToJS
 (
-lccx
 p
 &
 rv
