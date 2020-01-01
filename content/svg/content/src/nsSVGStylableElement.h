@@ -7,7 +7,7 @@ __NS_SVGSTYLABLEELEMENT_H__
 #
 include
 "
-nsSVGElement
+nsAutoPtr
 .
 h
 "
@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsAutoPtr
+nsSVGElement
 .
 h
 "

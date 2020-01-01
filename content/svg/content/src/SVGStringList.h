@@ -7,6 +7,13 @@ MOZILLA_SVGSTRINGLIST_H__
 #
 include
 "
+nsDebug
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h
@@ -14,7 +21,7 @@ h
 #
 include
 "
-nsSVGElement
+nsString
 .
 h
 "

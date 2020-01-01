@@ -7,14 +7,14 @@ __NS_SVGTEXTCONTENTELEMENTBASE_H__
 #
 include
 "
-nsIDOMSVGTextContentElement
+DOMSVGTests
 .
 h
 "
 #
 include
 "
-nsSVGTextContainerFrame
+nsIDOMSVGTextContentElement
 .
 h
 "
@@ -28,7 +28,7 @@ h
 #
 include
 "
-DOMSVGTests
+nsSVGTextContainerFrame
 .
 h
 "

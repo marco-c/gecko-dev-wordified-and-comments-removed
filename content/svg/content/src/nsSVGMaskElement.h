@@ -7,7 +7,7 @@ __NS_SVGMASKELEMENT_H__
 #
 include
 "
-nsSVGStylableElement
+DOMSVGTests
 .
 h
 "
@@ -21,14 +21,14 @@ h
 #
 include
 "
-DOMSVGTests
+nsIDOMSVGUnitTypes
 .
 h
 "
 #
 include
 "
-nsIDOMSVGUnitTypes
+nsSVGEnum
 .
 h
 "
@@ -42,7 +42,7 @@ h
 #
 include
 "
-nsSVGEnum
+nsSVGStylableElement
 .
 h
 "

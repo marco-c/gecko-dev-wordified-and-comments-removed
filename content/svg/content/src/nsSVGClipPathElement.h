@@ -7,7 +7,7 @@ __NS_SVGCLIPPATHELEMENT_H__
 #
 include
 "
-nsSVGGraphicElement
+DOMSVGTests
 .
 h
 "
@@ -28,14 +28,14 @@ h
 #
 include
 "
-DOMSVGTests
+nsSVGEnum
 .
 h
 "
 #
 include
 "
-nsSVGEnum
+nsSVGGraphicElement
 .
 h
 "

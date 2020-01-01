@@ -7,14 +7,14 @@ NS_SVGPOLYELEMENT_H_
 #
 include
 "
-nsSVGPathGeometryElement
+nsIDOMSVGAnimatedPoints
 .
 h
 "
 #
 include
 "
-nsIDOMSVGAnimatedPoints
+nsSVGPathGeometryElement
 .
 h
 "
