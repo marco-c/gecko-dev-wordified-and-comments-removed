@@ -2934,7 +2934,7 @@ nsTransitionManager
 :
 WalkTransitionRule
 (
-RuleProcessorData
+ElementDependentRuleProcessorData
 *
 aData
 nsCSSPseudoElements

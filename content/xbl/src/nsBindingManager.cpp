@@ -5064,7 +5064,7 @@ nsIStyleRuleProcessor
 :
 EnumFunc
 aFunc
-RuleProcessorData
+ElementDependentRuleProcessorData
 *
 aData
 bool
@@ -5335,7 +5335,7 @@ nsIStyleRuleProcessor
 EnumFunc
 mFunc
 ;
-RuleProcessorData
+ElementDependentRuleProcessorData
 *
 mData
 ;
@@ -5412,7 +5412,7 @@ nsIStyleRuleProcessor
 :
 EnumFunc
 aFunc
-RuleProcessorData
+ElementDependentRuleProcessorData
 *
 aData
 )

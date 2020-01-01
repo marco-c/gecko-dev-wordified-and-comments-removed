@@ -3472,7 +3472,7 @@ nsIStyleRuleProcessor
 :
 EnumFunc
 aCollectorFunc
-void
+RuleProcessorData
 *
 aData
 nsIContent
@@ -3694,7 +3694,7 @@ WalkRules
 aCollectorFunc
 static_cast
 <
-RuleProcessorData
+ElementDependentRuleProcessorData
 *
 >
 (
@@ -4097,7 +4097,7 @@ nsIStyleRuleProcessor
 :
 EnumFunc
 aFunc
-RuleProcessorData
+ElementDependentRuleProcessorData
 *
 aData
 bool

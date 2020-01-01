@@ -40,6 +40,9 @@ struct
 nsTransition
 ;
 struct
+ElementDependentRuleProcessorData
+;
+struct
 ElementPropertyTransition
 {
 ElementPropertyTransition
@@ -498,7 +501,7 @@ aCreateIfNeeded
 void
 WalkTransitionRule
 (
-RuleProcessorData
+ElementDependentRuleProcessorData
 *
 aData
 nsCSSPseudoElements

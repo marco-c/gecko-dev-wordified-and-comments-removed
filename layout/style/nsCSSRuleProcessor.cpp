@@ -1823,7 +1823,7 @@ EnumerateAllRules
 Element
 *
 aElement
-RuleProcessorData
+ElementDependentRuleProcessorData
 *
 aData
 NodeMatchContext
@@ -2957,7 +2957,7 @@ value
 nsCSSSelector
 *
 selector
-RuleProcessorData
+ElementDependentRuleProcessorData
 *
 data
 NodeMatchContext
@@ -2977,7 +2977,7 @@ EnumerateAllRules
 Element
 *
 aElement
-RuleProcessorData
+ElementDependentRuleProcessorData
 *
 aData
 NodeMatchContext
@@ -10169,7 +10169,7 @@ value
 nsCSSSelector
 *
 aSelector
-RuleProcessorData
+ElementDependentRuleProcessorData
 *
 data
 NodeMatchContext
