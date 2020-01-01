@@ -167,17 +167,6 @@ getGestureListener
 )
 )
 ;
-mGestureDetector
-.
-setOnDoubleTapListener
-(
-controller
-.
-getDoubleTapListener
-(
-)
-)
-;
 mScaleGestureDetector
 =
 new
