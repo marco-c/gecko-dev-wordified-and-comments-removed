@@ -536,6 +536,10 @@ GeckoViewsFactory
 .
 java
 \
+GeckoView
+.
+java
+\
 health
 /
 BrowserHealthRecorder
