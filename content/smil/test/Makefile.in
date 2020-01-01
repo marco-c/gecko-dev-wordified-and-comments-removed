@@ -468,6 +468,10 @@ smilTestUtils
 .
 js
 \
+smilXHR_helper
+.
+svg
+\
 test_smilCSSFontStretchRelative
 .
 xhtml
@@ -525,6 +529,10 @@ test_smilTiming
 xhtml
 \
 test_smilTimingZeroIntervals
+.
+xhtml
+\
+test_smilXHR
 .
 xhtml
 \
