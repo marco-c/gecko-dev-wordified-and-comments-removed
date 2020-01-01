@@ -764,11 +764,6 @@ mMetrics
 .
 underlineOffset
 =
--
-mMetrics
-.
-maxDescent
--
 atsMetrics
 .
 underlinePosition
@@ -783,7 +778,7 @@ PR_MAX
 (
 1
 .
-0
+0f
 atsMetrics
 .
 underlineThickness
