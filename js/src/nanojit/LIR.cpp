@@ -205,10 +205,6 @@ LirBuffer
 Fragmento
 *
 frago
-const
-CallInfo
-*
-functions
 )
 :
 _frago
@@ -224,10 +220,6 @@ NULL
 )
 #
 endif
-_functions
-(
-functions
-)
 abi
 (
 ABI_FASTCALL
@@ -2219,10 +2211,6 @@ LIns
 :
 isCse
 (
-const
-CallInfo
-*
-functions
 )
 const
 {
@@ -8081,13 +8069,6 @@ i
 >
 isCse
 (
-frag
--
->
-lirbuf
--
->
-_functions
 )
 )
 {
@@ -11016,10 +10997,6 @@ in
 LInsHashSet
 *
 exprs
-const
-CallInfo
-*
-functions
 )
 :
 LirFilter
@@ -11029,10 +11006,6 @@ in
 exprs
 (
 exprs
-)
-functions
-(
-functions
 )
 {
 }
@@ -11066,7 +11039,6 @@ i
 >
 isCse
 (
-functions
 )
 )
 exprs
