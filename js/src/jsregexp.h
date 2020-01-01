@@ -215,8 +215,10 @@ JSString
 source
 ;
 jsbytecode
-*
-bytecode
+program
+[
+1
+]
 ;
 }
 ;
