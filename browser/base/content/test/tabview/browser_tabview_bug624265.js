@@ -211,6 +211,10 @@ callback
 =
 finish
 ;
+assertOneSingleGroupItem
+(
+)
+;
 callback
 (
 )
@@ -573,8 +577,6 @@ afterAllTabsLoaded
 function
 (
 )
-SimpleTest
-.
 executeSoon
 (
 continueTest
@@ -1005,7 +1007,13 @@ complete
 ;
 afterAllTabsLoaded
 (
+function
+(
+)
+executeSoon
+(
 callback
+)
 )
 ;
 }
