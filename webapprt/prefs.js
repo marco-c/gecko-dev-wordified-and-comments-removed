@@ -32,3 +32,13 @@ folderList
 1
 )
 ;
+pref
+(
+"
+extensions
+.
+enabledScopes
+"
+1
+)
+;
