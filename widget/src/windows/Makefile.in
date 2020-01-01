@@ -598,6 +598,10 @@ nsIdleServiceWin
 .
 cpp
 \
+nsTextStore
+.
+cpp
+\
 (
 NULL
 )
