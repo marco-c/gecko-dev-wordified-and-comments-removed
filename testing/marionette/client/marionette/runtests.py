@@ -4997,7 +4997,7 @@ for
 search
 timeout
 and
-10ms
+10000ms
 for
 script
 timeout
