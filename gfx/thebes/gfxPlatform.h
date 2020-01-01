@@ -977,11 +977,6 @@ DownloadableFontsEnabled
 (
 )
 ;
-bool
-SanitizeDownloadedFonts
-(
-)
-;
 virtual
 bool
 FontHintingEnabled
@@ -1568,9 +1563,6 @@ mContentBackend
 }
 int8_t
 mAllowDownloadableFonts
-;
-int8_t
-mDownloadableFontsSanitize
 ;
 #
 ifdef
