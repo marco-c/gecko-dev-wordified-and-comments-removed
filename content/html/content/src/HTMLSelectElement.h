@@ -1008,6 +1008,14 @@ bool
 aIsDisabled
 )
 ;
+bool
+IsOptionDisabled
+(
+HTMLOptionElement
+*
+aOption
+)
+;
 NS_IMETHOD
 SetOptionsSelectedByIndex
 (
