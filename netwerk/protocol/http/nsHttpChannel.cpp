@@ -4487,6 +4487,11 @@ rv
 return
 rv
 ;
+if
+(
+mOfflineCacheEntry
+)
+{
 rv
 =
 InstallOfflineCacheListener
@@ -4503,6 +4508,7 @@ rv
 return
 rv
 ;
+}
 }
 else
 if
