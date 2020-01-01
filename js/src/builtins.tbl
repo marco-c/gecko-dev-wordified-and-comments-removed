@@ -546,6 +546,16 @@ jsdouble
 1
 1
 )
+BUILTIN1
+(
+Math_floor
+F
+F
+jsdouble
+jsdouble
+1
+1
+)
 BUILTIN4
 (
 Array_dense_setelem

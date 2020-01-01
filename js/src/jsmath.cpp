@@ -1320,9 +1320,8 @@ vp
 )
 ;
 }
-static
 JSBool
-math_floor
+js_math_floor
 (
 JSContext
 *
@@ -2978,7 +2977,7 @@ JS_FN
 "
 floor
 "
-math_floor
+js_math_floor
 1
 0
 )
