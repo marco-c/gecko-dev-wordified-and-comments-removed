@@ -613,8 +613,6 @@ aPresContext
 nsIFrame
 *
 aDestructRoot
-=
-nsnull
 )
 ;
 PRBool
