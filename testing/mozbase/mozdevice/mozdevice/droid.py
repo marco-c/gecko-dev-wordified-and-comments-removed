@@ -805,17 +805,17 @@ not
 package
 :
             
-print
+raise
+DMError
+(
 "
-Warning
-:
-getTopActivity
 unable
 to
 find
 focused
 app
 "
+)
         
 return
 package
