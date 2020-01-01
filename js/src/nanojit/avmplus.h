@@ -445,10 +445,13 @@ struct
 SideExit
 {
 intptr_t
+ip_adj
+;
+intptr_t
 sp_adj
 ;
 intptr_t
-ip_adj
+rp_adj
 ;
 Fragment
 *
@@ -777,6 +780,10 @@ ip
 void
 *
 sp
+;
+void
+*
+rp
 ;
 JSContext
 *

@@ -179,6 +179,9 @@ maxNativeFrameSlots
 size_t
 nativeStackBase
 ;
+unsigned
+maxCallDepth
+;
 uint8
 typeMap
 [
