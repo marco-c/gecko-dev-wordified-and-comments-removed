@@ -2943,7 +2943,7 @@ GC_HEAP_GROWTH_FACTOR
 rt
 -
 >
-defaultCompartment
+atomsCompartment
 -
 >
 setGCLastBytes
@@ -4345,7 +4345,7 @@ clear
 rt
 -
 >
-defaultCompartment
+atomsCompartment
 =
 NULL
 ;
@@ -5228,7 +5228,7 @@ gcLastBytes
 )
 ;
 }
-defaultCompartment
+atomsCompartment
 -
 >
 setGCLastBytes
@@ -5580,9 +5580,9 @@ ifdef
 JS_THREADSAFE
 Conditionally
 <
-AutoUnlockDefaultCompartment
+AutoUnlockAtomsCompartment
 >
-unlockDefaultCompartmenIf
+unlockAtomsCompartmenIf
 (
 cx
 -
@@ -5593,13 +5593,13 @@ compartment
 rt
 -
 >
-defaultCompartment
+atomsCompartment
 &
 &
 rt
 -
 >
-defaultCompartmentIsLocked
+atomsCompartmentIsLocked
 cx
 )
 ;
@@ -9724,7 +9724,7 @@ comp
 rt
 -
 >
-defaultCompartment
+atomsCompartment
 )
 {
 TriggerGC
@@ -11849,7 +11849,7 @@ read
 rt
 -
 >
-defaultCompartment
+atomsCompartment
 -
 >
 marked

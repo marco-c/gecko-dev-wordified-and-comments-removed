@@ -1965,7 +1965,7 @@ comp
 rt
 -
 >
-defaultCompartment
+atomsCompartment
 =
 =
 comp
@@ -1980,7 +1980,7 @@ n
 *
 *
 *
-DefaultCompartment
+AtomsCompartment
 Allocation
 Statistics
 :
