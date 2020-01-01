@@ -766,12 +766,12 @@ GetTransparencyMode
 ;
 virtual
 void
-UpdateTransparentRegion
+UpdateOpaqueRegion
 (
 const
 nsIntRegion
 &
-aTransparentRegion
+aOpaqueRegion
 )
 ;
 #
