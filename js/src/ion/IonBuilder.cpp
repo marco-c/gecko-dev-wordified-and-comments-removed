@@ -37778,6 +37778,7 @@ New
 elements
 id
 initLength
+obj
 needsHoleCheck
 )
 ;
