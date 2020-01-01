@@ -1804,7 +1804,7 @@ label
 =
 "
 &
-privateBrowsingAutoStart
+privateBrowsingPermanent
 .
 label
 ;
@@ -1813,7 +1813,7 @@ accesskey
 =
 "
 &
-privateBrowsingAutoStart
+privateBrowsingPermanent
 .
 accesskey
 ;
