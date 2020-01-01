@@ -527,6 +527,10 @@ TestThreadPoolListener
 .
 cpp
 \
+TestTimers
+.
+cpp
+\
 (
 NULL
 )
@@ -725,6 +729,8 @@ TestServMgr
 TestTextFormatter
 \
 TestThreadPoolListener
+\
+TestTimers
 \
 (
 NULL

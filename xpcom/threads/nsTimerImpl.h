@@ -14,7 +14,7 @@ h
 #
 include
 "
-nsIThread
+nsIEventTarget
 .
 h
 "
@@ -291,9 +291,9 @@ o
 }
 nsCOMPtr
 <
-nsIThread
+nsIEventTarget
 >
-mCallingThread
+mEventTarget
 ;
 void
 *
