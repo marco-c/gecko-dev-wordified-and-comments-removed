@@ -319,12 +319,8 @@ rect
 =
 aRect
 -
-aBuilder
--
->
 ToReferenceFrame
 (
-mFrame
 )
 ;
 PRBool

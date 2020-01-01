@@ -5207,12 +5207,8 @@ DisplayDebugInfoFor
 this
 rectCenter
 -
-aBuilder
--
->
 ToReferenceFrame
 (
-mFrame
 )
 )
 ;
@@ -5274,12 +5270,8 @@ PaintXULDebugOverlay
 (
 *
 aCtx
-aBuilder
--
->
 ToReferenceFrame
 (
-mFrame
 )
 )
 ;
@@ -5415,7 +5407,7 @@ aBuilder
 )
 nsDisplayXULDebug
 (
-Builder
+aBuilder
 this
 )
 )

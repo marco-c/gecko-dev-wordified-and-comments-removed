@@ -4961,12 +4961,8 @@ PaintImage
 (
 *
 aCtx
-aBuilder
--
->
 ToReferenceFrame
 (
-mFrame
 )
 mVisibleRect
 mImage
