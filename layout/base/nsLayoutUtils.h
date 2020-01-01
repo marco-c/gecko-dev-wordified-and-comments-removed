@@ -1139,6 +1139,16 @@ nsRect
 aVStrip
 )
 ;
+static
+nsIDeviceContext
+*
+GetDeviceContextForScreenInfo
+(
+nsIDocShell
+*
+aDocShell
+)
+;
 #
 ifdef
 DEBUG
