@@ -141,7 +141,7 @@ sButtonBorderColorID
 nsILookAndFeel
 :
 :
-eColor_threedface
+eColor_buttonface
 ;
 nsILookAndFeel
 :
@@ -155,7 +155,7 @@ sButtonDisabledBorderColorID
 nsILookAndFeel
 :
 :
-eColor_threedshadow
+eColor_buttonshadow
 ;
 nsILookAndFeel
 :
@@ -169,7 +169,7 @@ sButtonBGColorID
 nsILookAndFeel
 :
 :
-eColor_threedface
+eColor_buttonface
 ;
 nsILookAndFeel
 :
@@ -183,7 +183,7 @@ sButtonDisabledBGColorID
 nsILookAndFeel
 :
 :
-eColor_threedface
+eColor_buttonface
 ;
 nsMargin
 nsNativeTheme
