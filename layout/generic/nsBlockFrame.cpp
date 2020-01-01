@@ -342,13 +342,6 @@ endif
 #
 include
 "
-nsIDOMHTMLBodyElement
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLHtmlElement
 .
 h

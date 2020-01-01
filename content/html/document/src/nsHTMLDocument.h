@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsIDOMHTMLBodyElement
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLCollection
 .
 h

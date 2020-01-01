@@ -69,13 +69,6 @@ nsIContent
 h
 "
 #
-include
-"
-nsIDOMHTMLTableColElement
-.
-h
-"
-#
 define
 COL_TYPE_BITS
 (

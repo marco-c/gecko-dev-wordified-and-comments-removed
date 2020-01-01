@@ -127,13 +127,6 @@ h
 #
 include
 "
-nsIDOMHTMLTableCellElement
-.
-h
-"
-#
-include
-"
 nsIServiceManager
 .
 h
