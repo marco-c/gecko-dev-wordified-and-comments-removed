@@ -3317,6 +3317,12 @@ open
 "
 )
 ;
+input
+.
+mConsumeRollupEvent
+=
+false
+;
 popup
 .
 removeEventListener
