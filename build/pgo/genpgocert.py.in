@@ -404,11 +404,6 @@ sys
 expand
 DIST_BIN
 =
-"
-.
-/
-"
-+
 __XPC_BIN_PATH__
 #
 expand

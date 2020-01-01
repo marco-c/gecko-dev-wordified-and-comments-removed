@@ -747,11 +747,8 @@ DXPC_BIN_PATH
 =
 \
 "
-.
-.
-/
 (
-DIST
+LIBXUL_DIST
 )
 /
 bin
