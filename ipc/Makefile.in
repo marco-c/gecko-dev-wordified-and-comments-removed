@@ -418,9 +418,6 @@ mk
 DIRS
 +
 =
-ipdl
-chromium
-glue
 test
 -
 harness
