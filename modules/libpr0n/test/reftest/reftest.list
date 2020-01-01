@@ -52,7 +52,6 @@ pngsuite
 .
 html
 #
-#
 include
 pngsuite
 -
@@ -63,7 +62,6 @@ n
 reftest
 .
 list
-#
 include
 pngsuite
 -
@@ -74,7 +72,6 @@ i
 reftest
 .
 list
-#
 include
 pngsuite
 -
@@ -128,7 +125,6 @@ gamma
 reftest
 .
 list
-#
 include
 pngsuite
 -
