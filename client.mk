@@ -2250,6 +2250,14 @@ configure
 TOPSRCDIR
 )
 /
+allmakefiles
+.
+sh
+\
+(
+TOPSRCDIR
+)
+/
 .
 mozconfig
 .
