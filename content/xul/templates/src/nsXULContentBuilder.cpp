@@ -5043,6 +5043,8 @@ nsINodeInfo
 >
 nodeInfo
 ;
+nodeInfo
+=
 doc
 -
 >
@@ -5056,10 +5058,6 @@ GetNodeInfo
 aTag
 nsnull
 aNameSpaceID
-getter_AddRefs
-(
-nodeInfo
-)
 )
 ;
 rv

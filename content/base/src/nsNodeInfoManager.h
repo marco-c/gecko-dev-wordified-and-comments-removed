@@ -107,7 +107,10 @@ DropDocumentReference
 (
 )
 ;
-nsresult
+already_AddRefed
+<
+nsINodeInfo
+>
 GetNodeInfo
 (
 nsIAtom
@@ -118,10 +121,6 @@ nsIAtom
 aPrefix
 PRInt32
 aNamespaceID
-nsINodeInfo
-*
-*
-aNodeInfo
 )
 ;
 nsresult

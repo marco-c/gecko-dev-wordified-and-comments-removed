@@ -4230,6 +4230,8 @@ nsINodeInfo
 >
 ni
 ;
+ni
+=
 mNodeInfoManager
 -
 >
@@ -4238,10 +4240,6 @@ GetNodeInfo
 localName
 prefix
 nameSpaceID
-getter_AddRefs
-(
-ni
-)
 )
 ;
 attrs

@@ -737,6 +737,8 @@ nsINodeInfo
 >
 hrInfo
 ;
+hrInfo
+=
 nimgr
 -
 >
@@ -748,10 +750,6 @@ nsGkAtoms
 hr
 nsnull
 kNameSpaceID_None
-getter_AddRefs
-(
-hrInfo
-)
 )
 ;
 NS_NewHTMLElement
@@ -821,6 +819,8 @@ nsINodeInfo
 >
 inputInfo
 ;
+inputInfo
+=
 nimgr
 -
 >
@@ -832,10 +832,6 @@ nsGkAtoms
 input
 nsnull
 kNameSpaceID_None
-getter_AddRefs
-(
-inputInfo
-)
 )
 ;
 NS_NewHTMLElement

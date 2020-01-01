@@ -1377,6 +1377,8 @@ nsINodeInfo
 >
 htmlNodeInfo
 ;
+htmlNodeInfo
+=
 nim
 -
 >
@@ -1388,10 +1390,6 @@ nsGkAtoms
 html
 0
 kNameSpaceID_None
-getter_AddRefs
-(
-htmlNodeInfo
-)
 )
 ;
 nsCOMPtr
@@ -1405,6 +1403,8 @@ NS_NewHTMLHtmlElement
 htmlNodeInfo
 )
 ;
+htmlNodeInfo
+=
 nim
 -
 >
@@ -1416,10 +1416,6 @@ nsGkAtoms
 head
 0
 kNameSpaceID_None
-getter_AddRefs
-(
-htmlNodeInfo
-)
 )
 ;
 nsCOMPtr
@@ -1433,6 +1429,8 @@ NS_NewHTMLHeadElement
 htmlNodeInfo
 )
 ;
+htmlNodeInfo
+=
 nim
 -
 >
@@ -1444,10 +1442,6 @@ nsGkAtoms
 body
 0
 kNameSpaceID_None
-getter_AddRefs
-(
-htmlNodeInfo
-)
 )
 ;
 nsCOMPtr
