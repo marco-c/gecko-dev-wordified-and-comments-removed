@@ -1039,12 +1039,6 @@ mActiveCachesByGroup
 nsCStringHashSet
 mActiveCaches
 ;
-nsCOMPtr
-<
-nsIThread
->
-mInitThread
-;
 }
 ;
 #
