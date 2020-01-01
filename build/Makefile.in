@@ -506,12 +506,6 @@ DEPTH
 )
 /
 _leaktest
-GARBAGE_DIRS
-+
-=
-(
-_LEAKTEST_DIR
-)
 _LEAKTEST_FILES
 =
 \
