@@ -430,9 +430,12 @@ drawImage
 (
 srcCanvas
 0
-0
+-
+tabHeight
 tabWidth
 tabHeight
+*
+3
 )
 }
 else
