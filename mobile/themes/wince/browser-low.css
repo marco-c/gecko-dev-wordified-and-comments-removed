@@ -1607,10 +1607,16 @@ png
 )
 ;
 }
+placeitem
+[
+type
+=
+folder
+]
 .
 bookmark
 -
-folder
+item
 -
 image
 {

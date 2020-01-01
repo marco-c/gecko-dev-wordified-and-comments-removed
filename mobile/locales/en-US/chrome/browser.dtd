@@ -222,11 +222,11 @@ Folders
 <
 !
 ENTITY
-editBookmarkEdit
+editBookmarkRemove
 .
 label
 "
-Edit
+Remove
 "
 >
 <
