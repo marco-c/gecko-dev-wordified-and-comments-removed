@@ -6117,11 +6117,6 @@ Object
 )
 ;
 }
-void
-dump
-(
-)
-;
 }
 ;
 static
