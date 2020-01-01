@@ -8765,11 +8765,17 @@ ForceUpdate
 )
 ;
 }
+if
+(
+mRootView
+)
+{
 UpdateWidgetsForView
 (
 mRootView
 )
 ;
+}
 return
 NS_OK
 ;
