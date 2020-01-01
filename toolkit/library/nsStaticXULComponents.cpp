@@ -338,11 +338,6 @@ MODULE
 (
 nsSystemPrefModule
 )
-\
-MODULE
-(
-nsAutoConfigModule
-)
 #
 else
 #
@@ -857,6 +852,11 @@ BOOT
 MODULE
 (
 NSS
+)
+\
+MODULE
+(
+nsAutoConfigModule
 )
 \
 SYSTEMPREF_MODULES
