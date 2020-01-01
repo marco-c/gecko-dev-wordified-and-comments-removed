@@ -2313,10 +2313,16 @@ n
 indent
 "
 "
+(
+void
+*
+)
+(
 ide
 -
 >
 interface_descriptor
+)
 )
 ;
 fprintf

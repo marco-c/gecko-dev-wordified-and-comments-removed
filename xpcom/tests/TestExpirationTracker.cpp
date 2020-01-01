@@ -316,7 +316,14 @@ n
 PR_IntervalNow
 (
 )
+static_cast
+<
+void
+*
+>
+(
 aObj
+)
 aObj
 -
 >
