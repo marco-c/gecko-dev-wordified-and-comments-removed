@@ -9291,7 +9291,7 @@ cxx
 ExprVar
 (
 '
-NS_OK
+true
 '
 )
 )
@@ -12369,7 +12369,7 @@ cxx
 ExprVar
 (
 '
-NS_OK
+true
 '
 )
             
@@ -12380,7 +12380,7 @@ cxx
 ExprVar
 (
 '
-NS_ERROR_FAILURE
+false
 '
 )
             
@@ -12391,7 +12391,7 @@ cxx
 ExprVar
 (
 '
-NS_ERROR_ILLEGAL_VALUE
+false
 '
 )
             
@@ -19008,7 +19008,7 @@ cxx
 ExprVar
 (
 '
-NS_ERROR_NOT_IMPLEMENTED
+false
 '
 )
 )
