@@ -2587,6 +2587,12 @@ return
 true
 ;
 case
+JSOP_LABEL
+:
+return
+true
+;
+case
 JSOP_UNDEFINED
 :
 return
