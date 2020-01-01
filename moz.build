@@ -127,9 +127,6 @@ clang
 -
 plugin
 '
-static
-=
-True
 )
 add_tier_dir
 (

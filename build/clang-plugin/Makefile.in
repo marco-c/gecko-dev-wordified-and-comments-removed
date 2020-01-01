@@ -265,3 +265,9 @@ CXX
 TESTFLAGS
 )
 <
+compile
+libs
+export
+tools
+:
+all
