@@ -6665,6 +6665,9 @@ Disconnect
 )
 ;
 }
+#
+ifdef
+MOZ_SMIL
 if
 (
 mAnimationController
@@ -6678,6 +6681,8 @@ Disconnect
 )
 ;
 }
+#
+endif
 mParentDocument
 =
 nsnull
