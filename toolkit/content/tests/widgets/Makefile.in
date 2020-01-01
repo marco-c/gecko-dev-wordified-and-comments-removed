@@ -663,6 +663,10 @@ test_tabindex
 .
 xul
 \
+test_scrollbar
+.
+xul
+\
 test_sorttemplate
 .
 xul
