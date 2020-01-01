@@ -121,6 +121,10 @@ test_input_range_mouse_and_touch_events
 .
 html
 \
+test_input_range_rounding
+.
+html
+\
 test_input_url
 .
 html
