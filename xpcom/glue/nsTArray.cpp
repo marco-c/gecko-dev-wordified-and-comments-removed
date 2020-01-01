@@ -122,6 +122,9 @@ PR_TRUE
 ;
 if
 (
+(
+PRUint64
+)
 capacity
 *
 elemSize
