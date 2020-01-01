@@ -1738,9 +1738,6 @@ components
 unicharutil
 .
 xpt
-#
-ifdef
-MOZ_UPDATER
 BINPATH
 /
 components
@@ -1748,8 +1745,6 @@ components
 update
 .
 xpt
-#
-endif
 BINPATH
 /
 components
