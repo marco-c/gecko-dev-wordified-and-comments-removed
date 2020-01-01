@@ -484,6 +484,10 @@ browser_ruleview_editor
 .
 js
 \
+browser_ruleview_editor_changedvalues
+.
+js
+\
 browser_ruleview_inherit
 .
 js
