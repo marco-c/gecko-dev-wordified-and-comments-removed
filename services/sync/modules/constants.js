@@ -209,6 +209,17 @@ reason
 .
 network
 "
+LOGIN_FAILED_SERVER_ERROR
+:
+"
+error
+.
+login
+.
+reason
+.
+server
+"
 LOGIN_FAILED_INVALID_PASSPHRASE
 :
 "
