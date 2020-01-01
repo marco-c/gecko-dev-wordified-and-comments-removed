@@ -1030,7 +1030,13 @@ java
 \
 widget
 /
-AboutHomeContent
+AboutHome
+.
+java
+\
+widget
+/
+AboutHomeView
 .
 java
 \

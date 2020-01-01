@@ -834,6 +834,7 @@ isPrivate
 new
 PrivateTab
 (
+mActivity
 id
 url
 external
@@ -844,6 +845,7 @@ title
 new
 Tab
 (
+mActivity
 id
 url
 external

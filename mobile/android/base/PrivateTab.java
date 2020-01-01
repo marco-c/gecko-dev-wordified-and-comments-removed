@@ -5,6 +5,13 @@ mozilla
 .
 gecko
 ;
+import
+android
+.
+content
+.
+Context
+;
 public
 class
 PrivateTab
@@ -14,6 +21,8 @@ Tab
 public
 PrivateTab
 (
+Context
+context
 int
 id
 String
@@ -28,6 +37,7 @@ title
 {
 super
 (
+context
 id
 url
 external

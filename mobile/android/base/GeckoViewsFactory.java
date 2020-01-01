@@ -25,7 +25,7 @@ gecko
 .
 widget
 .
-AboutHomeContent
+AboutHomeView
 ;
 import
 org
@@ -323,9 +323,9 @@ mFactoryMap
 put
 (
 "
-AboutHomeContent
+AboutHomeView
 "
-AboutHomeContent
+AboutHomeView
 .
 class
 .
