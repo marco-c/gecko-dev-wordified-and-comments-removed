@@ -4696,6 +4696,10 @@ NS_FAILED
 (
 rv
 )
+&
+&
+!
+mIsMultiPartChannel
 )
 {
 this
