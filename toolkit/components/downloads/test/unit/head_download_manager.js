@@ -583,6 +583,10 @@ LICENSE
 "
 )
 ;
+gDownloadCount
++
++
+;
 var
 dl
 =
@@ -640,10 +644,6 @@ dl
 .
 id
 )
-;
-gDownloadCount
-+
-+
 ;
 persist
 .

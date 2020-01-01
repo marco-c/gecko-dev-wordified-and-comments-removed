@@ -796,6 +796,14 @@ state
 =
 dl
 .
+DOWNLOAD_QUEUED
+|
+|
+state
+=
+=
+dl
+.
 DOWNLOAD_DOWNLOADING
 |
 |
