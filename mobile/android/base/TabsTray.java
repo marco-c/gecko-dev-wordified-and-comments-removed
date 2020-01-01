@@ -178,7 +178,7 @@ public
 class
 TabsTray
 extends
-Activity
+GeckoActivity
 implements
 Tabs
 .

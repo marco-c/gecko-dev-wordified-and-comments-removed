@@ -849,6 +849,10 @@ GeckoActionBar
 .
 java
 \
+GeckoApplication
+.
+java
+\
 GeckoApp
 .
 java
@@ -1243,6 +1247,10 @@ FENNEC_PP_JAVA_FILES
 =
 \
 App
+.
+java
+\
+GeckoActivity
 .
 java
 \
