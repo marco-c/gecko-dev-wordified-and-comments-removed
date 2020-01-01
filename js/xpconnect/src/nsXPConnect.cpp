@@ -176,6 +176,13 @@ nsWrapperCacheInlines
 .
 h
 "
+#
+include
+"
+nsDOMMutationObserver
+.
+h
+"
 using
 namespace
 mozilla
@@ -10211,6 +10218,13 @@ nsJSContext
 :
 :
 MaybePokeCC
+(
+)
+;
+nsDOMMutationObserver
+:
+:
+HandleMutations
 (
 )
 ;

@@ -5092,6 +5092,9 @@ return
 NS_OK
 ;
 }
+nsAutoMicroTask
+mt
+;
 nsCOMPtr
 <
 nsIPrincipal
@@ -5748,6 +5751,9 @@ return
 NS_OK
 ;
 }
+nsAutoMicroTask
+mt
+;
 if
 (
 !
@@ -6408,6 +6414,9 @@ return
 NS_OK
 ;
 }
+nsAutoMicroTask
+mt
+;
 if
 (
 !
@@ -7578,6 +7587,9 @@ JS
 CallEventHandler
 "
 )
+;
+nsAutoMicroTask
+mt
 ;
 JSAutoRequest
 ar
