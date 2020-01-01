@@ -245,7 +245,7 @@ public
 :
 #
 ifdef
-DEBUG
+JS_METHODJIT_SPEW
 bool
 isOOLPath
 ;
