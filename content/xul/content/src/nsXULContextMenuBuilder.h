@@ -83,6 +83,9 @@ CreateElement
 nsIAtom
 *
 aTag
+nsIDOMHTMLElement
+*
+aHTMLElement
 nsIContent
 *
 *
@@ -105,13 +108,7 @@ nsCOMPtr
 <
 nsIAtom
 >
-mGeneratedAttr
-;
-nsCOMPtr
-<
-nsIAtom
->
-mIdentAttr
+mGeneratedItemIdAttr
 ;
 nsCOMPtr
 <
@@ -120,7 +117,7 @@ nsIContent
 mCurrentNode
 ;
 PRInt32
-mCurrentIdent
+mCurrentGeneratedItemId
 ;
 nsCOMArray
 <
