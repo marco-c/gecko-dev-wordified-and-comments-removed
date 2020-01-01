@@ -161,6 +161,8 @@ src
 =
 "
 /
+tests
+/
 SimpleTest
 /
 SimpleTest
@@ -184,6 +186,8 @@ javascript
 src
 =
 "
+/
+tests
 /
 SimpleTest
 /
