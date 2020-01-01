@@ -1284,6 +1284,14 @@ PR_Abort
 )
 ;
 }
+NS_ENSURE_TRUE
+(
+NS_IsMainThread
+(
+)
+nullptr
+)
+;
 gService
 =
 new
