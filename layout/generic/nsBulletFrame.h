@@ -188,6 +188,14 @@ aRect
 )
 ;
 NS_IMETHOD
+OnStartDecode
+(
+imgIRequest
+*
+aRequest
+)
+;
+NS_IMETHOD
 OnStopDecode
 (
 imgIRequest
@@ -325,6 +333,11 @@ mOrdinal
 ;
 bool
 mTextIsRTL
+;
+private
+:
+bool
+mRequestRegistered
 ;
 }
 ;
