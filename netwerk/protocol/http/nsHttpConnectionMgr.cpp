@@ -13236,7 +13236,7 @@ mEnt
 mConnInfo
 -
 >
-UsingHttpProxy
+UsingProxy
 (
 )
 &
