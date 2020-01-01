@@ -2757,6 +2757,11 @@ id
 "
 contentAreaContextMenu
 "
+pagemenu
+=
+"
+start
+"
 onpopupshowing
 =
 "
@@ -2779,6 +2784,9 @@ nsContextMenu
 (
 this
 gBrowser
+event
+.
+shiftKey
 )
 ;
 if
