@@ -1724,8 +1724,12 @@ inherits
 name
 =
 pref
-type
 inverted
+"
+type
+=
+"
+bool
 "
 instantApply
 =
