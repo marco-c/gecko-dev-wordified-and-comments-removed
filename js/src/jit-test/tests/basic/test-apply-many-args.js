@@ -32,7 +32,7 @@ arguments
 a
 =
 [
-100
+10
 ]
 ;
 for
