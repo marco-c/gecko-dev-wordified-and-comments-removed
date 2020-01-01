@@ -7953,6 +7953,10 @@ setProgress
 1
 )
 ;
+this
+.
+_updateProgressTimeout
+=
 setTimeout
 (
 this
@@ -8173,6 +8177,13 @@ this
 ;
 }
 this
+)
+;
+clearTimeout
+(
+this
+.
+_updateProgressTimeout
 )
 ;
 ]
