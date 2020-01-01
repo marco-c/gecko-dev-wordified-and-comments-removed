@@ -1124,6 +1124,10 @@ browser_overflowScroll
 .
 js
 \
+browser_locationBarExternalLoad
+.
+js
+\
 browser_pageInfo
 .
 js
