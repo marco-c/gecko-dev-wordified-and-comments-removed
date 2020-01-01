@@ -757,10 +757,6 @@ JSStrictPropertyOp
 setter
 )
 mJSAttributes
-|
-JSPROP_PERMANENT
-|
-JSPROP_READONLY
 )
 )
 return
