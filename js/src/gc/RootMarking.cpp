@@ -4330,6 +4330,15 @@ rt
 -
 >
 profilingScripts
+&
+&
+!
+rt
+-
+>
+isHeapMinorCollecting
+(
+)
 )
 {
 for
