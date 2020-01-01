@@ -4792,3 +4792,17 @@ _staticdirs
 )
 )
 endif
+OPTIMIZE_JARS_CMD
+=
+(
+PYTHON
+)
+(
+topsrcdir
+)
+/
+config
+/
+optimizejars
+.
+py
