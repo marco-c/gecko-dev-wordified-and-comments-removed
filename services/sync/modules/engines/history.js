@@ -2444,7 +2444,7 @@ else
 {
 record
 .
-cleartext
+payload
 =
 null
 ;
