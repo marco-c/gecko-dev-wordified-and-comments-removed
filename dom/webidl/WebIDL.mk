@@ -631,6 +631,10 @@ SVGSwitchElement
 .
 webidl
 \
+SVGSymbolElement
+.
+webidl
+\
 SVGTests
 .
 webidl
