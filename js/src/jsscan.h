@@ -1870,13 +1870,8 @@ getXMLEntity
 ;
 jschar
 *
-findWlineLimit
+findEOL
 (
-jschar
-*
-tokptr
-int
-max
 )
 ;
 JSBool
