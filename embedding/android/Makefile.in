@@ -473,10 +473,6 @@ AwesomeBar
 .
 java
 \
-DatabaseHelper
-.
-java
-\
 GeckoBookmarks
 .
 java
