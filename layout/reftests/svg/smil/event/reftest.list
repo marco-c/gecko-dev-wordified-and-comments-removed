@@ -219,6 +219,7 @@ box
 ref
 .
 svg
+#
 =
 =
 event
@@ -237,6 +238,14 @@ box
 ref
 .
 svg
+failing
+on
+mc
+tracking
+in
+bug
+Bug
+579828
 =
 =
 event
