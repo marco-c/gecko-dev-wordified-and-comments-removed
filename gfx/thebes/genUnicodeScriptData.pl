@@ -2921,7 +2921,7 @@ struct
 \
 n
 unsigned
-int
+char
 mEAW
 :
 3
@@ -2929,7 +2929,7 @@ mEAW
 \
 n
 unsigned
-int
+char
 mCategory
 :
 5
