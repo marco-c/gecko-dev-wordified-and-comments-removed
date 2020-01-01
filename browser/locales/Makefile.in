@@ -3440,6 +3440,10 @@ cd
 (
 _ABS_DIST
 )
+/
+(
+PKG_INST_PATH
+)
 &
 &
 (
@@ -3490,6 +3494,8 @@ PKG_INST_PATH
 (
 PKG_INST_BASENAME
 )
+.
+exe
 "
 endif
 ident
