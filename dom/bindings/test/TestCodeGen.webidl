@@ -3543,6 +3543,8 @@ add
 them
 to
 TestExampleGen
+and
+TestJSImplGen
 as
 well
 }
