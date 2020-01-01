@@ -395,6 +395,15 @@ GECKO_BROADCAST_HEALTHREPORT_UPLOAD_PREF_METHOD
 broadcastHealthReportUploadPref
 "
 ;
+public
+static
+String
+GECKO_BROADCAST_HEALTHREPORT_PRUNE_METHOD
+=
+"
+broadcastHealthReportPrune
+"
+;
 /
 /
 Common
