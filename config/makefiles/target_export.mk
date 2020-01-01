@@ -154,10 +154,12 @@ _dirs
 (
 call
 TIER_DIR_SUBMAKE
+*
 export
 (
 dir
 )
+export
 )
 )
 #
