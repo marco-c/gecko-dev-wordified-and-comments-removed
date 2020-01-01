@@ -1995,6 +1995,12 @@ mFailedChannel
 uint32_t
 mFailedLoadType
 ;
+nsCOMPtr
+<
+nsIChannel
+>
+mMixedContentChannel
+;
 nsIDocShellTreeOwner
 *
 mTreeOwner
