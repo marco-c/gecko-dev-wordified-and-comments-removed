@@ -145,6 +145,15 @@ nsNetUtil
 h
 "
 #
+include
+"
+mozilla
+/
+StaticPtr
+.
+h
+"
+#
 ifdef
 MOZ_PEERCONNECTION
 #
@@ -304,7 +313,7 @@ mozilla
 class
 DataChannelShutdown
 ;
-nsRefPtr
+StaticRefPtr
 <
 DataChannelShutdown
 >
