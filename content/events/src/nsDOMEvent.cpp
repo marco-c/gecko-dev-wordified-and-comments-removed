@@ -2577,7 +2577,7 @@ nullptr
 textEvent
 -
 >
-AssignGUIEventData
+AssignTextEventData
 (
 *
 oldTextEvent
