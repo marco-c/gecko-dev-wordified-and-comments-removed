@@ -48,15 +48,6 @@ S_V
 html
 conformance
 /
-more
-/
-functions
-/
-uniformfArrayLen1
-.
-html
-conformance
-/
 glsl
 /
 misc
