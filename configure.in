@@ -17516,12 +17516,12 @@ MOZ_OPTIMIZE_FLAGS
 "
 -
 O2
--
-s
 "
 MOZ_OPTIMIZE_LDFLAGS
 =
 "
+-
+s
 -
 Zlinker
 /
