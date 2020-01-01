@@ -476,7 +476,10 @@ popFront
 (
 )
 )
-markValue
+gc
+:
+:
+Mark
 (
 trc
 &
@@ -487,6 +490,10 @@ front
 )
 .
 value
+"
+WeakMap
+entry
+"
 )
 ;
 }
