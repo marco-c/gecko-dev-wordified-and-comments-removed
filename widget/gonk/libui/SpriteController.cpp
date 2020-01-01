@@ -420,8 +420,6 @@ MSG_DISPOSE_SURFACES
 ;
 }
 }
-#
-endif
 void
 SpriteController
 :
@@ -461,6 +459,8 @@ break
 ;
 }
 }
+#
+endif
 void
 SpriteController
 :

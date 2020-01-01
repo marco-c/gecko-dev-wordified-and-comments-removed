@@ -1839,6 +1839,9 @@ updatePointerLocked
 )
 ;
 }
+#
+ifdef
+HAVE_ANDROID_OS
 void
 PointerController
 :
@@ -1878,6 +1881,8 @@ break
 ;
 }
 }
+#
+endif
 void
 PointerController
 :

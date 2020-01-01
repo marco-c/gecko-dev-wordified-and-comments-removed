@@ -284,6 +284,9 @@ outResources
 ;
 }
 ;
+#
+ifdef
+HAVE_ANDROID_OS
 class
 PointerController
 :
@@ -292,6 +295,16 @@ PointerControllerInterface
 public
 MessageHandler
 {
+#
+else
+class
+PointerController
+:
+public
+PointerControllerInterface
+{
+#
+endif
 protected
 :
 virtual
@@ -744,6 +757,9 @@ float
 y
 )
 ;
+#
+ifdef
+HAVE_ANDROID_OS
 void
 handleMessage
 (
@@ -753,6 +769,8 @@ Message
 message
 )
 ;
+#
+endif
 void
 doAnimate
 (
