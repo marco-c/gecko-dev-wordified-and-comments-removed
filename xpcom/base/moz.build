@@ -356,6 +356,11 @@ ClearOnShutdown
 h
 '
 '
+CycleCollectedJSRuntime
+.
+h
+'
+'
 MapsMemoryReporter
 .
 h
@@ -397,6 +402,11 @@ cpp
 '
 '
 ClearOnShutdown
+.
+cpp
+'
+'
+CycleCollectedJSRuntime
 .
 cpp
 '
