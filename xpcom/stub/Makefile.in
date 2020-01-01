@@ -675,6 +675,8 @@ DLL_SUFFIX
 (
 NULL
 )
+ifndef
+MOZ_NATIVE_SQLITE
 ifeq
 (
 (
@@ -699,6 +701,7 @@ mozsqlite3
 (
 DLL_SUFFIX
 )
+endif
 endif
 ifeq
 (
