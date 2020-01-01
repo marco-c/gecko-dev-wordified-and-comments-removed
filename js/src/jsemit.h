@@ -732,6 +732,10 @@ TCF_FUN_EXTENSIBLE_SCOPE
 0x20000000
 #
 define
+TCF_NEED_SCRIPT_OBJECT
+0x40000000
+#
+define
 TCF_RETURN_FLAGS
 (
 TCF_RETURN_EXPR
@@ -2239,10 +2243,7 @@ js
 OwnedAtomIndexMapPtr
 upvarIndices
 ;
-js
-:
-:
-UpvarCookies
+JSUpvarArray
 upvarMap
 ;
 typedef
@@ -3348,9 +3349,6 @@ SRC_CONT2LABEL
 =
 17
 SRC_SWITCH
-=
-18
-SRC_SWITCHBREAK
 =
 18
 SRC_FUNCDEF
