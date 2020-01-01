@@ -127,7 +127,7 @@ nsIContentPermissionPrompt
 >
 prompt
 =
-do_GetService
+do_CreateInstance
 (
 NS_CONTENT_PERMISSION_PROMPT_CONTRACTID
 )
