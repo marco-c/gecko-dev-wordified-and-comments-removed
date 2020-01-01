@@ -3799,7 +3799,7 @@ tarray
 }
 static
 JSBool
-fun_subarray
+fun_slice
 (
 JSContext
 *
@@ -3882,7 +3882,7 @@ fastClass
 >
 name
 "
-subarray
+slice
 "
 obj
 -
@@ -4090,7 +4090,7 @@ ntarray
 tarray
 -
 >
-subarray
+slice
 (
 cx
 begin
@@ -5167,7 +5167,7 @@ vp
 ;
 ThisTypeArray
 *
-subarray
+slice
 (
 JSContext
 *
@@ -7360,12 +7360,12 @@ jsfuncs
 JS_FN
 (
 "
-subarray
+slice
 "
 _typedArray
 :
 :
-fun_subarray
+fun_slice
 2
 0
 )
