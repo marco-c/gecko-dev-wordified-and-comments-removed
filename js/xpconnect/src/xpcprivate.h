@@ -9043,6 +9043,14 @@ mScriptableInfo
 si
 ;
 }
+bool
+CallPostCreatePrototype
+(
+XPCCallContext
+&
+ccx
+)
+;
 void
 JSProtoObjectFinalized
 (
