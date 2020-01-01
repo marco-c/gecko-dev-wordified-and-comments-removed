@@ -123,6 +123,10 @@ extendCold
 '
     
 '
+scopeChainCheck
+'
+    
+'
 extendOuter
 '
     
