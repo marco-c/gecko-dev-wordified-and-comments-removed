@@ -1486,6 +1486,7 @@ PeerConnectionImpl
 {
 Close
 (
+false
 )
 ;
 peerconnections
@@ -4253,6 +4254,8 @@ PeerConnectionImpl
 :
 Close
 (
+bool
+aIsSynchronous
 )
 {
 if
@@ -4290,6 +4293,7 @@ CloseAll
 endif
 ShutdownMedia
 (
+aIsSynchronous
 )
 ;
 return
@@ -4302,6 +4306,8 @@ PeerConnectionImpl
 :
 ShutdownMedia
 (
+bool
+aIsSynchronous
 )
 {
 if
@@ -4360,6 +4366,10 @@ PeerConnectionMedia
 :
 SelfDestruct
 )
+aIsSynchronous
+?
+NS_DISPATCH_SYNC
+:
 NS_DISPATCH_NORMAL
 )
 ;

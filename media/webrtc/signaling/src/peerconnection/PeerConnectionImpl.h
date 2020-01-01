@@ -620,6 +620,8 @@ kIceGathering
 void
 ShutdownMedia
 (
+bool
+isSynchronous
 )
 ;
 nsresult
