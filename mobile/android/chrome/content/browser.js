@@ -42853,8 +42853,7 @@ e
 if
 (
 telemetryDisplayed
-=
-=
+>
 =
 self
 .

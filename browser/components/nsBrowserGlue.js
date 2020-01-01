@@ -5597,8 +5597,7 @@ e
 if
 (
 telemetryDisplayed
-=
-=
+>
 =
 TELEMETRY_DISPLAY_REV
 )

@@ -136,8 +136,6 @@ enabled
 "
 false
 )
-#
-expand
 pref
 (
 "
@@ -147,10 +145,8 @@ telemetry
 .
 prompted
 "
-__MOZ_TELEMETRY_DISPLAY_REV__
+999
 )
-#
-expand
 pref
 (
 "
@@ -160,7 +156,7 @@ telemetry
 .
 notifiedOptOut
 "
-__MOZ_TELEMETRY_DISPLAY_REV__
+999
 )
 ]
 init
