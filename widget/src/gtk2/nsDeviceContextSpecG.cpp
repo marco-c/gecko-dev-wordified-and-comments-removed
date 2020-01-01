@@ -2797,6 +2797,10 @@ NS_ERROR_GFX_PRINTER_COULD_NOT_OPEN_FILE
 NS_ADDREF
 (
 mSpoolFile
+.
+get
+(
+)
 )
 ;
 gtk_print_job_send
