@@ -68,6 +68,9 @@ obj
 ;
 private
 :
+JSCList
+link
+;
 JSObject
 *
 object
@@ -431,6 +434,11 @@ JSCompartment
 compartment
 )
 ;
+~
+Debug
+(
+)
+;
 bool
 init
 (
@@ -486,15 +494,6 @@ sweepAll
 JSRuntime
 *
 rt
-)
-;
-static
-void
-sweepCompartment
-(
-JSCompartment
-*
-compartment
 )
 ;
 inline
