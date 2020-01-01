@@ -44,12 +44,10 @@ context
 {
 }
 void
-setMetrics
+setPositionAndResolution
 (
 Rect
 newPosition
-Rect
-newDisplayPort
 float
 newResolution
 )
@@ -57,10 +55,6 @@ newResolution
 mPosition
 =
 newPosition
-;
-mDisplayPort
-=
-newDisplayPort
 ;
 mResolution
 =

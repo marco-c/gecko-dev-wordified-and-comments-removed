@@ -10800,12 +10800,8 @@ void
 AndroidBridge
 :
 :
-SyncViewportInfo
+GetViewTransform
 (
-const
-nsIntRect
-&
-aDisplayPort
 nsIntPoint
 &
 aScrollOffset
@@ -10833,9 +10829,8 @@ return
 client
 -
 >
-SyncViewportInfo
+GetViewTransform
 (
-aDisplayPort
 aScrollOffset
 aScaleX
 aScaleY

@@ -645,12 +645,8 @@ aPageHeight
 )
 ;
 void
-SyncViewportInfo
+GetViewTransform
 (
-const
-nsIntRect
-&
-aDisplayPort
 nsIntPoint
 &
 aScrollOffset
@@ -704,7 +700,7 @@ jSetPageSize
 ;
 static
 jmethodID
-jSyncViewportInfoMethod
+jGetViewTransformMethod
 ;
 static
 jmethodID
