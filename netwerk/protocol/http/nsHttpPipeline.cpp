@@ -2727,10 +2727,7 @@ transport
 OnTransportStatus
 (
 transport
-nsISocketTransport
-:
-:
-STATUS_RECEIVING_FROM
+NS_NET_STATUS_RECEIVING_FROM
 mReceivingFromProgress
 )
 ;

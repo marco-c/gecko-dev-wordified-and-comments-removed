@@ -12748,10 +12748,7 @@ if
 status
 =
 =
-nsISocketTransport
-:
-:
-STATUS_CONNECTED_TO
+NS_NET_STATUS_CONNECTED_TO
 &
 &
 gHttpHandler
@@ -13009,10 +13006,7 @@ status
 )
 {
 case
-nsISocketTransport
-:
-:
-STATUS_CONNECTING_TO
+NS_NET_STATUS_CONNECTING_TO
 :
 if
 (
@@ -13033,10 +13027,7 @@ SetupBackupTimer
 break
 ;
 case
-nsISocketTransport
-:
-:
-STATUS_CONNECTED_TO
+NS_NET_STATUS_CONNECTED_TO
 :
 CancelBackupTimer
 (
