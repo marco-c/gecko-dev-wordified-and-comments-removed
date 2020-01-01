@@ -41,6 +41,10 @@ pixman_have_vmx
 void
 )
 {
+int
+error
+have_vmx
+;
 size_t
 length
 =
@@ -49,10 +53,8 @@ sizeof
 have_vmx
 )
 ;
-int
 error
-have_mmx
-;
+=
 sysctlbyname
 (
 "
@@ -122,6 +124,10 @@ void
 )
 {
 int
+error
+have_vmx
+;
+int
 mib
 [
 2
@@ -139,10 +145,6 @@ sizeof
 (
 have_vmx
 )
-;
-int
-error
-have_vmx
 ;
 error
 =

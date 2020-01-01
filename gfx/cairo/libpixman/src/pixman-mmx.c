@@ -156,6 +156,12 @@ defined
 (
 _MSC_VER
 )
+|
+|
+defined
+(
+_WIN64
+)
 )
 #
 include
@@ -5738,8 +5744,7 @@ w
 &
 &
 (
-unsigned
-long
+uintptr_t
 )
 dst
 &
@@ -5992,8 +5997,7 @@ w
 &
 &
 (
-unsigned
-long
+uintptr_t
 )
 dst
 &
@@ -6351,8 +6355,7 @@ twidth
 &
 &
 (
-unsigned
-long
+uintptr_t
 )
 q
 &
@@ -6735,8 +6738,7 @@ w
 &
 &
 (
-unsigned
-long
+uintptr_t
 )
 dst
 &
@@ -7071,8 +7073,7 @@ w
 &
 &
 (
-unsigned
-long
+uintptr_t
 )
 dst
 &
@@ -8149,8 +8150,7 @@ w
 &
 &
 (
-unsigned
-long
+uintptr_t
 )
 dst
 &
@@ -8640,8 +8640,7 @@ w
 &
 &
 (
-unsigned
-long
+uintptr_t
 )
 dst
 &
@@ -8932,7 +8931,7 @@ width
 int
 height
 uint32_t
-xor
+filler
 )
 {
 uint64_t
@@ -9042,10 +9041,10 @@ stride
 =
 1
 ;
-xor
+filler
 =
 (
-xor
+filler
 &
 0xff
 )
@@ -9109,10 +9108,10 @@ stride
 =
 2
 ;
-xor
+filler
 =
 (
-xor
+filler
 &
 0xffff
 )
@@ -9176,13 +9175,13 @@ fill
 (
 uint64_t
 )
-xor
+filler
 <
 <
 32
 )
 |
-xor
+filler
 ;
 vfill
 =
@@ -9366,8 +9365,7 @@ w
 &
 (
 (
-unsigned
-long
+uintptr_t
 )
 d
 &
@@ -9383,7 +9381,7 @@ uint8_t
 d
 =
 (
-xor
+filler
 &
 0xff
 )
@@ -9407,8 +9405,7 @@ w
 &
 (
 (
-unsigned
-long
+uintptr_t
 )
 d
 &
@@ -9423,7 +9420,7 @@ uint16_t
 )
 d
 =
-xor
+filler
 ;
 w
 -
@@ -9446,8 +9443,7 @@ w
 &
 (
 (
-unsigned
-long
+uintptr_t
 )
 d
 &
@@ -9462,7 +9458,7 @@ uint32_t
 )
 d
 =
-xor
+filler
 ;
 w
 -
@@ -9784,7 +9780,7 @@ uint32_t
 )
 d
 =
-xor
+filler
 ;
 w
 -
@@ -9812,7 +9808,7 @@ uint16_t
 )
 d
 =
-xor
+filler
 ;
 w
 -
@@ -9841,7 +9837,7 @@ uint8_t
 d
 =
 (
-xor
+filler
 &
 0xff
 )
@@ -9958,8 +9954,7 @@ w
 &
 &
 (
-unsigned
-long
+uintptr_t
 )
 dst
 &
@@ -9976,7 +9971,7 @@ src
 *
 dst
 =
-CONVERT_8888_TO_0565
+convert_8888_to_0565
 (
 s
 )
@@ -10081,7 +10076,7 @@ src
 *
 dst
 =
-CONVERT_8888_TO_0565
+convert_8888_to_0565
 (
 s
 )
@@ -10295,8 +10290,7 @@ w
 &
 &
 (
-unsigned
-long
+uintptr_t
 )
 dst
 &
@@ -10737,8 +10731,7 @@ w
 &
 &
 (
-unsigned
-long
+uintptr_t
 )
 dst
 &
@@ -11281,8 +11274,7 @@ w
 &
 &
 (
-unsigned
-long
+uintptr_t
 )
 dst
 &
@@ -11855,8 +11847,7 @@ w
 &
 &
 (
-unsigned
-long
+uintptr_t
 )
 dst
 &
@@ -12260,8 +12251,7 @@ twidth
 &
 (
 (
-unsigned
-long
+uintptr_t
 )
 q
 &
@@ -12756,8 +12746,7 @@ w
 &
 &
 (
-unsigned
-long
+uintptr_t
 )
 dst
 &
@@ -13040,8 +13029,7 @@ w
 &
 &
 (
-unsigned
-long
+uintptr_t
 )
 dst
 &
@@ -13345,8 +13333,7 @@ w
 &
 &
 (
-unsigned
-long
+uintptr_t
 )
 dst
 &
@@ -13646,8 +13633,7 @@ w
 &
 &
 (
-unsigned
-long
+uintptr_t
 )
 dst
 &
@@ -13915,8 +13901,7 @@ w
 &
 &
 (
-unsigned
-long
+uintptr_t
 )
 dst
 &
@@ -13942,7 +13927,7 @@ dst
 ;
 s
 =
-CONVERT_0565_TO_8888
+convert_0565_to_8888
 (
 s
 )
@@ -13954,7 +13939,7 @@ d
 {
 d
 =
-CONVERT_0565_TO_8888
+convert_0565_to_8888
 (
 d
 )
@@ -13969,7 +13954,7 @@ d
 *
 dst
 =
-CONVERT_8888_TO_0565
+convert_8888_to_0565
 (
 s
 )
@@ -14113,7 +14098,7 @@ dst
 ;
 s
 =
-CONVERT_0565_TO_8888
+convert_0565_to_8888
 (
 s
 )
@@ -14125,7 +14110,7 @@ d
 {
 d
 =
-CONVERT_0565_TO_8888
+convert_0565_to_8888
 (
 d
 )
@@ -14140,7 +14125,7 @@ d
 *
 dst
 =
-CONVERT_8888_TO_0565
+convert_8888_to_0565
 (
 s
 )
@@ -14254,8 +14239,7 @@ w
 &
 &
 (
-unsigned
-long
+uintptr_t
 )
 dst
 &
@@ -14707,8 +14691,7 @@ w
 &
 (
 (
-unsigned
-long
+uintptr_t
 )
 d
 &
@@ -14756,8 +14739,7 @@ w
 &
 (
 (
-unsigned
-long
+uintptr_t
 )
 d
 &
@@ -14805,8 +14787,7 @@ w
 &
 (
 (
-unsigned
-long
+uintptr_t
 )
 d
 &
@@ -15889,8 +15870,7 @@ w
 &
 &
 (
-unsigned
-long
+uintptr_t
 )
 dst
 &
@@ -17104,8 +17084,7 @@ w
 &
 (
 (
-unsigned
-long
+uintptr_t
 )
 dst
 )
@@ -17397,8 +17376,7 @@ w
 &
 (
 (
-unsigned
-long
+uintptr_t
 )
 dst
 )
@@ -17419,7 +17397,7 @@ dst
 +
 +
 =
-CONVERT_0565_TO_8888
+convert_0565_to_8888
 (
 s
 )
@@ -17523,7 +17501,7 @@ dst
 +
 +
 =
-CONVERT_0565_TO_8888
+convert_0565_to_8888
 (
 s
 )
@@ -17603,8 +17581,7 @@ w
 (
 (
 (
-unsigned
-long
+uintptr_t
 )
 dst
 )

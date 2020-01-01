@@ -362,7 +362,7 @@ color
 else
 {
 return
-CONVERT_8888_TO_0565
+convert_8888_to_0565
 (
 color
 )

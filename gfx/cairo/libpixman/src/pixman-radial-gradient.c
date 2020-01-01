@@ -202,6 +202,7 @@ t
 *
 dr
 >
+=
 mindr
 )
 return
@@ -327,6 +328,7 @@ t0
 *
 dr
 >
+=
 mindr
 )
 return
@@ -343,6 +345,7 @@ t1
 *
 dr
 >
+=
 mindr
 )
 return
@@ -1237,21 +1240,6 @@ iter
 -
 >
 buffer
-;
-}
-static
-uint16_t
-convert_8888_to_0565
-(
-uint32_t
-color
-)
-{
-return
-CONVERT_8888_TO_0565
-(
-color
-)
 ;
 }
 static
