@@ -138,6 +138,11 @@ nsBidiKeyboard
 cpp
 '
 '
+nsColorPicker
+.
+cpp
+'
+'
 nsFilePicker
 .
 cpp
