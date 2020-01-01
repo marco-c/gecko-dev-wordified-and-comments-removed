@@ -1,0 +1,9 @@
+scriptItem
+=
+"
+loaded
+malware
+javascript
+!
+"
+;
