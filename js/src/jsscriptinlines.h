@@ -110,6 +110,10 @@ nupvars
 (
 0
 )
+hasHoles
+(
+false
+)
 {
 }
 inline
