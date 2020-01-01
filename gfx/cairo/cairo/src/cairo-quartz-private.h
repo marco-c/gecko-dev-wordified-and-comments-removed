@@ -34,10 +34,6 @@ void
 *
 imageData
 ;
-cairo_surface_t
-*
-imageSurfaceEquiv
-;
 CGContextRef
 cgContext
 ;
