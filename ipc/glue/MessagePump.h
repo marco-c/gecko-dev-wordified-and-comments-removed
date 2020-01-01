@@ -147,6 +147,12 @@ ScheduleWork
 ;
 virtual
 void
+ScheduleWorkForNestedLoop
+(
+)
+;
+virtual
+void
 ScheduleDelayedWork
 (
 const

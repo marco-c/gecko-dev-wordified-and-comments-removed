@@ -1298,6 +1298,9 @@ nestable_tasks_allowed_
 )
 return
 ;
+#
+ifndef
+CHROMIUM_MOZILLA_BUILD
 pump_
 -
 >
@@ -1305,6 +1308,17 @@ ScheduleWork
 (
 )
 ;
+#
+else
+pump_
+-
+>
+ScheduleWorkForNestedLoop
+(
+)
+;
+#
+endif
 }
 }
 void
