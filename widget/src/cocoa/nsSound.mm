@@ -471,6 +471,13 @@ nsIURL
 h
 "
 #
+include
+"
+nsString
+.
+h
+"
+#
 import
 <
 Cocoa
