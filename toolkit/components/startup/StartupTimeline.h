@@ -145,6 +145,11 @@ RecordShutdownEndTimeStamp
 (
 )
 ;
+void
+RecordShutdownStartTimeStamp
+(
+)
+;
 class
 StartupTimeline
 {
