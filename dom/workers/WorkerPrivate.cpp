@@ -5093,6 +5093,13 @@ kungFuDeathGrip
 =
 this
 ;
+aRunnable
+-
+>
+Run
+(
+)
+;
 mWorkerRunnable
 -
 >
@@ -5102,12 +5109,7 @@ nsnull
 )
 ;
 return
-aRunnable
--
->
-Run
-(
-)
+NS_OK
 ;
 }
 NS_IMETHOD
