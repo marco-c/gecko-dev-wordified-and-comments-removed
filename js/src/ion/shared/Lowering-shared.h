@@ -159,6 +159,15 @@ mir
 ;
 inline
 LUse
+useCopy
+(
+MDefinition
+*
+mir
+)
+;
+inline
+LUse
 useRegister
 (
 MDefinition
