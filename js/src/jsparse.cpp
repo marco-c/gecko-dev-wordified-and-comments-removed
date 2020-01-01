@@ -4931,7 +4931,6 @@ Vector
 JSScript
 *
 16
-ContextAllocPolicy
 >
 worklist
 (

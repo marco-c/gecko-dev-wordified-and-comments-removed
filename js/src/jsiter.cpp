@@ -509,7 +509,6 @@ HashSet
 <
 jsid
 IdHashPolicy
-ContextAllocPolicy
 >
 IdSet
 ;

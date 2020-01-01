@@ -2282,10 +2282,6 @@ GlobalSlotArray
 :
 Entry
 16
-js
-:
-:
-ContextAllocPolicy
 >
 GlobalUseVector
 ;
@@ -2303,10 +2299,6 @@ Vector
 <
 uint32
 8
-js
-:
-:
-ContextAllocPolicy
 >
 SlotVector
 ;

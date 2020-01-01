@@ -130,7 +130,7 @@ Compiler
 compiler
 )
 :
-ContextAllocPolicy
+TempAllocPolicy
 (
 cx
 )

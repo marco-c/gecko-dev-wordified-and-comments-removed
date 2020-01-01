@@ -93,7 +93,7 @@ const
 }
 ;
 class
-ContextAllocPolicy
+TempAllocPolicy
 {
 JSContext
 *
@@ -116,7 +116,7 @@ nbytes
 ;
 public
 :
-ContextAllocPolicy
+TempAllocPolicy
 (
 JSContext
 *
