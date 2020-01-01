@@ -345,3 +345,11 @@ yield
 undefined
 .
 js
+script
+close
+-
+returns
+-
+undefined
+.
+js
