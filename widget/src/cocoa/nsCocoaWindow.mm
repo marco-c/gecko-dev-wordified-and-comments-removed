@@ -2998,8 +2998,15 @@ setBackgroundColor
 :
 [
 NSColor
-whiteColor
+clearColor
 ]
+]
+;
+[
+mWindow
+setOpaque
+:
+NO
 ]
 ;
 [
