@@ -260,6 +260,12 @@ GetNodeInfoManager
 (
 )
 ;
+JSObject
+*
+GetCompilationGlobal
+(
+)
+;
 virtual
 nsIScriptGlobalObject
 *

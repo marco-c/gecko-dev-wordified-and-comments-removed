@@ -177,6 +177,9 @@ class
 nsIDocShell
 ;
 class
+nsXULPrototypeDocument
+;
+class
 nsIObjectInputStream
 ;
 class
@@ -840,9 +843,9 @@ aLineNo
 nsIDocument
 *
 aDocument
-nsIScriptGlobalObject
+nsXULPrototypeDocument
 *
-aGlobal
+aProtoDoc
 nsIOffThreadScriptReceiver
 *
 aOffThreadReceiver
