@@ -1374,7 +1374,7 @@ this
 score
 +
 =
-10
+SCORE_INCREMENT_MEDIUM
 ;
 }
 _enabled

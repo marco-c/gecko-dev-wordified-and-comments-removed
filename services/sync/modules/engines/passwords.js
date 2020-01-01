@@ -1879,7 +1879,7 @@ this
 score
 +
 =
-15
+SCORE_INCREMENT_XLARGE
 ;
 this
 .
@@ -1928,7 +1928,7 @@ this
 score
 +
 =
-500
+SCORE_INCREMENT_XLARGE
 ;
 break
 ;

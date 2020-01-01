@@ -2270,7 +2270,7 @@ this
 score
 +
 =
-1
+SCORE_INCREMENT_SMALL
 ;
 }
 onVisit
@@ -2421,7 +2421,7 @@ this
 score
 +
 =
-500
+SCORE_INCREMENT_XLARGE
 ;
 }
 }
