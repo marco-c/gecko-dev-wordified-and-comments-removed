@@ -416,7 +416,7 @@ mk
 DIRS
 +
 =
-chrome
+browser
 \
 (
 NULL
