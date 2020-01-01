@@ -587,12 +587,9 @@ plugin
 <
 !
 ENTITY
-clickToPlayPlugin
+clickToActivatePlugin
 "
-Click
-here
-to
-activate
+Activate
 plugin
 .
 "
