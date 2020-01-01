@@ -380,6 +380,7 @@ false
 alpha
 =
 false
+;
 }
 WebGLContext
 :
