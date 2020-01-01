@@ -241,7 +241,7 @@ mnEdit
 .
 label
 "
-Edition
+dition
 "
 >
 <
@@ -251,7 +251,7 @@ mnEdit
 .
 accesskey
 "
-E
+n
 "
 >
 <
@@ -441,7 +441,7 @@ mnView
 .
 label
 "
-Afficher
+Affichage
 "
 >
 <

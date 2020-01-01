@@ -426,7 +426,7 @@ l
 '
 espace
 de
-nom
+noms
 :
 "
 >
@@ -480,10 +480,14 @@ default
 .
 label
 "
-Document
+Espace
+de
+noms
 par
 d
 faut
+du
+document
 "
 >
 <
