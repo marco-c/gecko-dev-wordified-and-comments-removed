@@ -47,7 +47,7 @@ dialing
 )
 NS_DECL_EVENT_HANDLER
 (
-ringing
+alerting
 )
 NS_DECL_EVENT_HANDLER
 (
