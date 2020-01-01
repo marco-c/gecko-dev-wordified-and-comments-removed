@@ -1577,8 +1577,7 @@ newURI
 textInput
 .
 value
-'
-'
+null
 null
 )
 ;
@@ -1607,8 +1606,6 @@ push
 retvals
 .
 fileURL
-.
-nsIFileURL
 .
 file
 )
