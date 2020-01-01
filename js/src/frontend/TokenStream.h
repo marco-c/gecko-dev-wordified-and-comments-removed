@@ -1134,6 +1134,7 @@ strictMode
 }
 ;
 class
+MOZ_STACK_CLASS
 TokenStream
 {
 enum

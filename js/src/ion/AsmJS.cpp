@@ -3767,6 +3767,7 @@ MBasicBlock
 CaseVector
 ;
 class
+MOZ_STACK_CLASS
 ModuleCompiler
 {
 public
