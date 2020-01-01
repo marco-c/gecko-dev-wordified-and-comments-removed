@@ -969,6 +969,12 @@ defined
 (
 MOZ_MEMORY
 )
+|
+|
+defined
+(
+XP_LINUX
+)
 return
 malloc_usable_size
 (
