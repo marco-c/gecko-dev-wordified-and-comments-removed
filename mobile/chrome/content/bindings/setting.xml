@@ -1528,6 +1528,8 @@ inherits
 =
 "
 disabled
+onlabel
+offlabel
 "
 oncommand
 =
@@ -2948,14 +2950,6 @@ this
 .
 value
 ;
-Components
-.
-reportError
-(
-this
-.
-value
-)
 this
 .
 _prefs

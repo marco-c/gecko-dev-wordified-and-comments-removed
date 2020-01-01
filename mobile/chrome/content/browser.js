@@ -8145,6 +8145,7 @@ isZero
 (
 )
 )
+{
 this
 .
 _panScrollbox
@@ -8155,6 +8156,11 @@ contentScrollbox
 doffset
 )
 ;
+render
+=
+true
+;
+}
 if
 (
 elem
