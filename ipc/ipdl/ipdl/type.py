@@ -5149,7 +5149,7 @@ t
 msg
         
 if
-mname
+t
 in
 self
 .
@@ -5170,7 +5170,9 @@ appears
 multiple
 times
 "
-mname
+t
+.
+msg
 )
         
 self
@@ -5179,7 +5181,7 @@ seentriggers
 .
 add
 (
-mname
+t
 )
         
 mdecl
@@ -5194,6 +5196,11 @@ mname
 )
         
 if
+mdecl
+is
+not
+None
+and
 mdecl
 .
 type

@@ -33,6 +33,10 @@ PTestManyChildAllocsSub
 .
 ipdl
 \
+PTestRPCRaces
+.
+ipdl
+\
 PTestSanity
 .
 ipdl

@@ -494,6 +494,8 @@ TestSanity
 \
 TestLatency
 \
+TestRPCRaces
+\
 TestManyChildAllocs
 \
 TestDesc
