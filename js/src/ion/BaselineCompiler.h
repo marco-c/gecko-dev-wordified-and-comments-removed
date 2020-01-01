@@ -713,6 +713,11 @@ JSOP_TYPEOFEXPR
 \
 _
 (
+JSOP_SETCALL
+)
+\
+_
+(
 JSOP_THROW
 )
 \
