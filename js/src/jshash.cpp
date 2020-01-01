@@ -134,7 +134,7 @@ size
 )
 {
 return
-malloc
+js_malloc
 (
 size
 )
@@ -179,7 +179,7 @@ return
 JSHashEntry
 *
 )
-malloc
+js_malloc
 (
 sizeof
 (
