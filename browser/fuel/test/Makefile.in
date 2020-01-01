@@ -454,6 +454,10 @@ browser_ApplicationStorage
 .
 js
 \
+browser_ApplicationQuitting
+.
+js
+\
 browser_Browser
 .
 js
