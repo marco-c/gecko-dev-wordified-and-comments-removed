@@ -2957,11 +2957,11 @@ charset
 *
 *
 *
-DEPRECATED
-.
+deprecated
 *
 /
 [
+deprecated
 scriptable
 uuid
 (
