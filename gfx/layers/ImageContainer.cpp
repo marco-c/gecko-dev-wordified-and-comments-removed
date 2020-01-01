@@ -1849,6 +1849,7 @@ CopyPlane
 uint8_t
 *
 aDst
+const
 uint8_t
 *
 aSrc
@@ -1912,6 +1913,7 @@ height
 y
 )
 {
+const
 uint8_t
 *
 src
@@ -1956,7 +1958,6 @@ src
 aSkip
 ;
 }
-}
 aSrc
 +
 =
@@ -1967,6 +1968,7 @@ aDst
 =
 aStride
 ;
+}
 }
 }
 void
