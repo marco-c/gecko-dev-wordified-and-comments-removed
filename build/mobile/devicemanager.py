@@ -2417,7 +2417,7 @@ supported
 on
 all
                    
-platforms
+implementations
 )
     
 systime
