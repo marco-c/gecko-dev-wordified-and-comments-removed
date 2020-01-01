@@ -529,6 +529,7 @@ OS_CPPFLAGS
 )
 LOCAL_INCLUDES
 =
+\
 -
 I
 (
@@ -542,6 +543,7 @@ srcdir
 .
 /
 include
+\
 -
 I
 (
@@ -550,6 +552,7 @@ srcdir
 /
 .
 .
+\
 -
 I
 "
@@ -559,6 +562,17 @@ DXSDK_DIR
 /
 include
 "
+\
+-
+I
+"
+(
+MOZ_DIRECTX_SDK_PATH
+)
+/
+include
+"
+\
 VPATH
 +
 =
