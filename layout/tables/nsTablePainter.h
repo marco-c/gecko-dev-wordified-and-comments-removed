@@ -68,6 +68,10 @@ const
 nsRect
 &
 aDirtyRect
+const
+nsPoint
+&
+aPt
 )
 ;
 ~
@@ -320,6 +324,9 @@ mPresContext
 nsIRenderingContext
 &
 mRenderingContext
+;
+nsPoint
+mRenderPt
 ;
 nsRect
 mDirtyRect
