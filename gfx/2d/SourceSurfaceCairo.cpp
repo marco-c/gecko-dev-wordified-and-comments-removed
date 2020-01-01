@@ -344,11 +344,6 @@ cairo_destroy
 ctx
 )
 ;
-cairo_pattern_destroy
-(
-pat
-)
-;
 cairo_surface_destroy
 (
 mSurface

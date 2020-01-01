@@ -155,6 +155,11 @@ DWriteEnabled
 ;
 readonly
 attribute
+boolean
+AzureEnabled
+;
+readonly
+attribute
 DOMString
 DWriteVersion
 ;

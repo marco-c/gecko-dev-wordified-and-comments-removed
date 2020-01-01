@@ -112,14 +112,6 @@ Path
 path
 )
 ;
-void
-ObserveTarget
-(
-DrawTargetCairo
-*
-aDrawTarget
-)
-;
 cairo_t
 *
 GetContext

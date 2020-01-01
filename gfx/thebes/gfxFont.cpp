@@ -8225,7 +8225,6 @@ GetPlatform
 >
 GetScaledFontForFont
 (
-dt
 this
 )
 ;
