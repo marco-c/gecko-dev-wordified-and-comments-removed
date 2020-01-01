@@ -10638,6 +10638,15 @@ rv
 =
 =
 EAI_BADFLAGS
+&
+&
+(
+hints
+.
+ai_flags
+&
+AI_ADDRCONFIG
+)
 )
 {
 hints
