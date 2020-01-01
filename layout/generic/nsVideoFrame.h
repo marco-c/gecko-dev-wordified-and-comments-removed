@@ -149,6 +149,10 @@ aContext
 )
 ;
 NS_DECL_QUERYFRAME
+NS_DECL_QUERYFRAME_TARGET
+(
+nsVideoFrame
+)
 NS_DECL_FRAMEARENA_HELPERS
 virtual
 void

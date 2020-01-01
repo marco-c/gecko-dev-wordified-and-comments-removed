@@ -276,6 +276,10 @@ nsVideoFrame
 )
 NS_QUERYFRAME_ENTRY
 (
+nsVideoFrame
+)
+NS_QUERYFRAME_ENTRY
+(
 nsIAnonymousContentCreator
 )
 NS_QUERYFRAME_TAIL_INHERITING
