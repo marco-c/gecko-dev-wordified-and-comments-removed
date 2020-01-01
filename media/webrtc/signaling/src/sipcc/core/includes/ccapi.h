@@ -3278,6 +3278,12 @@ boolean
 softkey
 cc_onhook_reason_e
 active_list
+const
+char
+*
+filename
+int
+fileline
 )
 ;
 void
@@ -3803,6 +3809,8 @@ b
 c
 d
 CC_REASON_NULL
+__FILE__
+__LINE__
 )
 #
 define
@@ -3824,6 +3832,8 @@ b
 c
 d
 e
+__FILE__
+__LINE__
 )
 #
 define

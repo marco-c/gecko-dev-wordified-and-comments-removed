@@ -481,7 +481,7 @@ if
 TNPDebug
 )
 \
-CSFLogDebug
+CSFLogNotice
 (
 "
 tnp
