@@ -1259,14 +1259,6 @@ UseOpaqueSurface
 (
 this
 )
-&
-&
-aOpacity
-=
-=
-1
-.
-0
 )
 {
 flags
