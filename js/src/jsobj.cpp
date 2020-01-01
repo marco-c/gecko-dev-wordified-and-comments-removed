@@ -21590,6 +21590,10 @@ return
 false
 ;
 }
+namespace
+js
+{
+}
 #
 define
 JSBOXEDWORD_INT_MAX_STRING
@@ -24146,7 +24150,7 @@ scopeIndex
 ;
 parent
 ?
-js_IsCacheableNonGlobalScope
+IsCacheableNonGlobalScope
 (
 obj
 )
@@ -24594,7 +24598,7 @@ getParent
 )
 |
 |
-js_IsCacheableNonGlobalScope
+IsCacheableNonGlobalScope
 (
 obj
 )
