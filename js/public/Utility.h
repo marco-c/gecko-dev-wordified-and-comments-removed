@@ -1415,8 +1415,10 @@ n
 )
 #
 else
-extern
+JS_PUBLIC_API
+(
 size_t
+)
 js_FloorLog2wImpl
 (
 size_t
@@ -1458,8 +1460,10 @@ n
 )
 #
 else
-extern
+JS_PUBLIC_API
+(
 size_t
+)
 js_FloorLog2wImpl
 (
 size_t
