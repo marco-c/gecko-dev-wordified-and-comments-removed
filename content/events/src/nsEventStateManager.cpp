@@ -8503,6 +8503,12 @@ NS_FORM_INPUT_TEL
 type
 =
 =
+NS_FORM_INPUT_URL
+|
+|
+type
+=
+=
 NS_FORM_INPUT_PASSWORD
 |
 |

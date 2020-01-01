@@ -11993,6 +11993,12 @@ aType
 NS_FORM_INPUT_TEL
 |
 |
+aType
+=
+=
+NS_FORM_INPUT_URL
+|
+|
 (
 !
 aExcludePassword

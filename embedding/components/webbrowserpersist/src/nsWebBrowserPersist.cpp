@@ -13315,6 +13315,9 @@ NS_FORM_INPUT_TEXT
 case
 NS_FORM_INPUT_TEL
 :
+case
+NS_FORM_INPUT_URL
+:
 nodeAsInput
 -
 >
