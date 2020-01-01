@@ -6151,6 +6151,15 @@ nsIDOMMutationEvent
 :
 REMOVAL
 ;
+mozAutoSubtreeModified
+subtree
+(
+GetOwnerDoc
+(
+)
+this
+)
+;
 nsEventDispatcher
 :
 :

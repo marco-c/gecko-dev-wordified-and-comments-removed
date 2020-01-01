@@ -1705,6 +1705,15 @@ val
 )
 ;
 }
+mozAutoSubtreeModified
+subtree
+(
+GetOwnerDoc
+(
+)
+this
+)
+;
 nsEventDispatcher
 :
 :

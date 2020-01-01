@@ -3232,6 +3232,15 @@ UPDATE_CONTENT_MODEL
 PR_TRUE
 )
 ;
+mozAutoSubtreeModified
+subtree
+(
+GetOwnerDoc
+(
+)
+nsnull
+)
+;
 nsContentUtils
 :
 :
