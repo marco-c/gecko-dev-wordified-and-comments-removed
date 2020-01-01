@@ -1182,6 +1182,10 @@ JSAtom
 *
 enumerateOwnAtom
 ;
+JSAtom
+*
+iterateAtom
+;
 struct
 {
 JSAtom

@@ -460,6 +460,9 @@ hasOwn
 "
 enumerateOwn
 "
+"
+iterate
+"
 }
 ;
 JS_STATIC_ASSERT
