@@ -635,6 +635,10 @@ RegExp
 .
 cpp
 \
+RootMarking
+.
+cpp
+\
 Marking
 .
 cpp
@@ -652,6 +656,14 @@ StoreBuffer
 cpp
 \
 FindSCCs
+.
+cpp
+\
+Iteration
+.
+cpp
+\
+Verifier
 .
 cpp
 \
