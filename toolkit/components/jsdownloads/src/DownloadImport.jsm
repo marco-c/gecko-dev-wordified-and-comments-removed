@@ -471,7 +471,6 @@ try
 {
 autoResume
 =
-(
 row
 .
 getResultByName
@@ -479,10 +478,6 @@ getResultByName
 "
 autoResume
 "
-)
-=
-=
-1
 )
 ;
 }
@@ -633,13 +628,7 @@ entityID
 }
 startTime
 :
-new
-Date
-(
 startTime
-/
-1000
-)
 totalBytes
 :
 maxBytes
