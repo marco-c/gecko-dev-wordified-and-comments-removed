@@ -1315,6 +1315,25 @@ port
 ]
 )
         
+if
+self
+.
+_is_emulator
+:
+            
+self
+.
+marionette
+.
+emulator
+.
+wait_for_port
+(
+)
+        
+else
+:
+            
 time
 .
 sleep
@@ -1619,9 +1638,6 @@ stdout_proc
 .
 waitForFinish
 (
-timeout
-=
-10
 )
             
 self
