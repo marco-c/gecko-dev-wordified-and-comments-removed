@@ -649,12 +649,6 @@ aScreenSize
 {
 if
 (
-0
-<
-=
-sFd
-|
-|
 sScreenSize
 )
 {
