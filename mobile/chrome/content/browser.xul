@@ -5457,7 +5457,7 @@ enablePlugins
 title
 ;
 "
-onsynctopreference
+oninputchanged
 =
 "
 Browser
