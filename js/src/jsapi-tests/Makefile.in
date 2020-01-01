@@ -197,6 +197,10 @@ testFunctionProperties
 .
 cpp
 \
+testGCFinalizeCallback
+.
+cpp
+\
 testGCOutOfMemory
 .
 cpp
