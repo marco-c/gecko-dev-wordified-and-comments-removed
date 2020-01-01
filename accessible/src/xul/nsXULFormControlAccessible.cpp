@@ -741,11 +741,6 @@ nsAccTreeWalker
 walker
 (
 mDoc
--
->
-GetWeakShell
-(
-)
 mContent
 true
 )
@@ -2791,11 +2786,6 @@ nsAccTreeWalker
 walker
 (
 mDoc
--
->
-GetWeakShell
-(
-)
 inputContent
 false
 )
