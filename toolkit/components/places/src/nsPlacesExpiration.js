@@ -593,7 +593,7 @@ visit_date
 +
 "
 :
-limit_uris
+limit_visits
 AS
 expected_results
 "
@@ -2822,6 +2822,10 @@ this
 _debugLimit
 =
 aData
+|
+|
+-
+1
 ;
 this
 .

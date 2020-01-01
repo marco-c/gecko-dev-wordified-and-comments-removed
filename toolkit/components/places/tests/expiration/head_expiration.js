@@ -164,16 +164,6 @@ force_expiration_step
 aLimit
 )
 {
-if
-(
-!
-aLimit
-)
-aLimit
-=
--
-1
-;
 const
 TOPIC_DEBUG_START_EXPIRATION
 =
