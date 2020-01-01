@@ -10486,6 +10486,8 @@ Register
 rr
 ra
 rb
+=
+UnspecifiedReg
 ;
 regalloc_binary
 (
