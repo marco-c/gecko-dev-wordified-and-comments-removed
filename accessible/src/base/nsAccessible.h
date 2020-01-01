@@ -67,6 +67,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+nsRefPtrHashtable
+.
+h
+"
 class
 nsAccessible
 ;
