@@ -7129,6 +7129,8 @@ pref
 cp
 )
 {
+rv
+=
 mPrefBranch
 -
 >
@@ -7141,6 +7143,17 @@ pref
 &
 enabled
 )
+;
+if
+(
+NS_FAILED
+(
+rv
+)
+)
+enabled
+=
+PR_FALSE
 ;
 SSL_CipherPrefSetDefault
 (
