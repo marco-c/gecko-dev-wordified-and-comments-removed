@@ -174,17 +174,11 @@ typedef
 mozilla
 :
 :
-css
-:
-:
 RestyleTracker
 RestyleTracker
 ;
 typedef
 mozilla
-:
-:
-css
 :
 :
 OverflowChangedTracker
@@ -565,9 +559,6 @@ private
 friend
 class
 mozilla
-:
-:
-css
 :
 :
 RestyleTracker

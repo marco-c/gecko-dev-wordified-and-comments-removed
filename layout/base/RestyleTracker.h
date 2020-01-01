@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_css_RestyleTracker_h
+mozilla_RestyleTracker_h
 #
 define
-mozilla_css_RestyleTracker_h
+mozilla_RestyleTracker_h
 #
 include
 "
@@ -50,9 +50,6 @@ nsCSSFrameConstructor
 ;
 namespace
 mozilla
-{
-namespace
-css
 {
 class
 OverflowChangedTracker
@@ -1191,7 +1188,6 @@ eRestyle_LaterSiblings
 return
 hadRestyleLaterSiblings
 ;
-}
 }
 }
 #

@@ -29,9 +29,6 @@ h
 namespace
 mozilla
 {
-namespace
-css
-{
 inline
 nsIDocument
 *
@@ -1313,6 +1310,5 @@ mRestyleBits
 return
 true
 ;
-}
 }
 }

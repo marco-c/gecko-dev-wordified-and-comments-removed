@@ -35,13 +35,9 @@ h
 namespace
 mozilla
 {
-namespace
-css
-{
 class
 RestyleTracker
 ;
-}
 }
 struct
 TreeMatchContext
@@ -54,9 +50,6 @@ nsFrameManagerBase
 {
 typedef
 mozilla
-:
-:
-css
 :
 :
 RestyleTracker
