@@ -3327,7 +3327,7 @@ return
 rv
 ;
 }
-nsresult
+void
 nsXMLContentSink
 :
 :
@@ -3348,11 +3348,6 @@ base
 element
 "
 )
-;
-nsresult
-rv
-=
-NS_OK
 ;
 if
 (
@@ -3409,6 +3404,7 @@ nsIURI
 >
 baseURI
 ;
+nsresult
 rv
 =
 NS_NewURI
@@ -3459,9 +3455,6 @@ GetBaseURI
 }
 }
 }
-return
-rv
-;
 }
 NS_IMETHODIMP
 nsXMLContentSink

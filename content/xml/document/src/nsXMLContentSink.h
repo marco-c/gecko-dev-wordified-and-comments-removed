@@ -426,7 +426,7 @@ HaveNotifiedForCurrentContent
 )
 const
 ;
-nsresult
+void
 ProcessBASETag
 (
 nsIContent
