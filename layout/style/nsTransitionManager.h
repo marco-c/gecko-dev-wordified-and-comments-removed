@@ -283,6 +283,11 @@ Type
 aPseudoType
 )
 ;
+void
+RemoveAllTransitions
+(
+)
+;
 PRCList
 mElementTransitions
 ;
