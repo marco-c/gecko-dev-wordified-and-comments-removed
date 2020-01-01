@@ -2181,12 +2181,6 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
-|
-|
-defined
-(
-OS_BSD
-)
 path
 +
 =
