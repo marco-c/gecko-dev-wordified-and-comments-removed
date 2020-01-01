@@ -483,6 +483,15 @@ translate
 :
 \
 ;
+mkdir
+-
+p
+.
+.
+/
+javasrc
+;
+\
 java
 -
 jar
