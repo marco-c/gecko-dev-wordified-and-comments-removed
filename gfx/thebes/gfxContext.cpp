@@ -8115,7 +8115,10 @@ Snapshot
 ;
 PushGroup
 (
-content
+gfxASurface
+:
+:
+CONTENT_COLOR
 )
 ;
 Rect
