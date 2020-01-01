@@ -2997,11 +2997,6 @@ result
 nsIRequestObserver
 *
 observer
-nsIEventTarget
-*
-target
-=
-nullptr
 )
 {
 nsresult
@@ -3036,7 +3031,6 @@ proxy
 Init
 (
 observer
-target
 )
 ;
 if
