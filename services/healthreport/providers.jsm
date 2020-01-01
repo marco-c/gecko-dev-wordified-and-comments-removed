@@ -3002,6 +3002,7 @@ if
 (
 index
 <
+=
 lastRecordedSession
 )
 {
