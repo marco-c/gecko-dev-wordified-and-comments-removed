@@ -5650,6 +5650,12 @@ mSlide
 &
 &
 mPosition
+>
+=
+POPUPPOSITION_BEFORESTART
+&
+&
+mPosition
 <
 =
 POPUPPOSITION_AFTEREND
@@ -5664,6 +5670,12 @@ mPosition
 >
 =
 POPUPPOSITION_STARTBEFORE
+&
+&
+mPosition
+<
+=
+POPUPPOSITION_ENDAFTER
 ;
 if
 (
