@@ -206,7 +206,10 @@ GetSuccessResult
 JSContext
 *
 aCx
-jsval
+JS
+:
+:
+Value
 *
 aVal
 )

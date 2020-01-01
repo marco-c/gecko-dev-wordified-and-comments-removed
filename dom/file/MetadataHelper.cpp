@@ -83,7 +83,10 @@ GetSuccessResult
 JSContext
 *
 aCx
-jsval
+JS
+:
+:
+Value
 *
 aVal
 )
@@ -116,7 +119,10 @@ SizeRequested
 )
 )
 {
-jsval
+JS
+:
+:
+Value
 val
 =
 JS_NumberValue

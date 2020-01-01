@@ -282,7 +282,10 @@ return
 NS_OK
 ;
 }
-jsval
+JS
+:
+:
+Value
 result
 ;
 nsIScriptContext
