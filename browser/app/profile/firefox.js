@@ -2506,7 +2506,7 @@ cookie
 .
 cookieBehavior
 "
-2
+0
 )
 ;
 pref
