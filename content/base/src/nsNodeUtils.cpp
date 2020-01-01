@@ -2439,11 +2439,6 @@ nsINode
 >
 clone
 ;
-PRBool
-isDeepDocumentClone
-=
-PR_FALSE
-;
 if
 (
 aClone
@@ -2521,10 +2516,6 @@ eDOCUMENT
 )
 )
 {
-isDeepDocumentClone
-=
-PR_TRUE
-;
 nodeInfoManager
 =
 clone
