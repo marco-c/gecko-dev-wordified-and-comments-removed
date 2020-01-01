@@ -523,6 +523,10 @@ nsIAsyncStreamCopier
 .
 idl
 \
+nsIAsyncVerifyRedirectCallback
+.
+idl
+\
 nsIBufferedStreams
 .
 idl
@@ -822,6 +826,10 @@ nsReadLine
 h
 \
 nsASocketHandler
+.
+h
+\
+nsAsyncRedirectVerifyHelper
 .
 h
 \

@@ -575,7 +575,7 @@ NS_HTTP_ON_EXAMINE_MERGED_RESPONSE_TOPIC
 ;
 }
 nsresult
-OnChannelRedirect
+AsyncOnChannelRedirect
 (
 nsIChannel
 *

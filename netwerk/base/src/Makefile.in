@@ -454,6 +454,10 @@ nsAsyncStreamCopier
 .
 cpp
 \
+nsAsyncRedirectVerifyHelper
+.
+cpp
+\
 nsAuthInformationHolder
 .
 cpp
