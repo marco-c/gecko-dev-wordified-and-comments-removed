@@ -195,6 +195,17 @@ override
 "
 ;
 const
+PREF_APP_UPDATE_CERT_INVALID_ATTR_NAME
+=
+PREF_APP_UPDATE_CERTS_BRANCH
++
+"
+1
+.
+invalidName
+"
+;
+const
 PREF_APP_PARTNER_BRANCH
 =
 "
