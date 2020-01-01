@@ -1722,7 +1722,7 @@ ShutdownLayerActivityTimer
 (
 )
 ;
-void
+bool
 DisplayBackgroundUnconditional
 (
 nsDisplayListBuilder
@@ -1734,11 +1734,6 @@ nsDisplayListSet
 aLists
 bool
 aForceBackground
-bool
-*
-aAppendedThemedBackground
-=
-nullptr
 )
 ;
 void

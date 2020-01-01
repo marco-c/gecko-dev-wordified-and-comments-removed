@@ -5489,7 +5489,7 @@ nsDisplayBackgroundImage
 )
 ;
 static
-nsresult
+bool
 AppendBackgroundItemsToTop
 (
 nsDisplayListBuilder
@@ -5501,11 +5501,6 @@ aFrame
 nsDisplayList
 *
 aList
-bool
-*
-aAppendedThemedBackground
-=
-nullptr
 )
 ;
 virtual
