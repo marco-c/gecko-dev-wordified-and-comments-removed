@@ -107,6 +107,15 @@ aTopic
 =
 TOPIC_CUSTOMIZATION_COMPLETE
 )
+{
+os
+.
+removeObserver
+(
+this
+TOPIC_CUSTOMIZATION_COMPLETE
+)
+;
 do_timeout
 (
 0
@@ -120,6 +129,7 @@ continue_test
 ;
 }
 }
+}
 os
 .
 addObserver
@@ -128,6 +138,7 @@ observer
 TOPIC_CUSTOMIZATION_COMPLETE
 false
 )
+;
 function
 run_test
 (
