@@ -179,9 +179,9 @@ android
 drawable
 =
 "
-drawable
+color
 /
-address_bar_bg_private
+background_private
 "
 /
 >
@@ -201,9 +201,9 @@ android
 drawable
 =
 "
-drawable
+color
 /
-address_bar_bg_normal
+background_normal
 "
 /
 >

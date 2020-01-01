@@ -144,9 +144,9 @@ android
 drawable
 =
 "
-drawable
+color
 /
-tabs_tray_bg_repeat
+background_tabs_light
 "
 /
 >
@@ -198,9 +198,9 @@ android
 drawable
 =
 "
-drawable
+color
 /
-tabs_tray_dark_bg_repeat
+background_tabs_dark
 "
 /
 >

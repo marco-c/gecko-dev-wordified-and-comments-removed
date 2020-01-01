@@ -523,9 +523,9 @@ android
 windowBackground
 "
 >
-drawable
+color
 /
-abouthome_bg_repeat
+background_normal
 <
 /
 item

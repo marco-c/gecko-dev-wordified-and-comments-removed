@@ -113,9 +113,9 @@ android
 background
 =
 "
-drawable
+color
 /
-abouthome_bg_repeat
+background_normal
 "
 android
 :

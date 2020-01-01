@@ -144,9 +144,9 @@ android
 drawable
 =
 "
-drawable
+color
 /
-tabs_tray_bg_repeat
+background_tabs_light
 "
 /
 >
