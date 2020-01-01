@@ -352,9 +352,12 @@ exit
 guard
 -
 >
-exit
+record
 (
 )
+-
+>
+exit
 ;
 Fragment
 *
@@ -397,9 +400,11 @@ else
 {
 lr
 =
-placeGuardRecord
-(
 guard
+-
+>
+record
+(
 )
 ;
 JMP_far
