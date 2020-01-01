@@ -1126,7 +1126,7 @@ aInvalidateChangedSize
 }
 }
 PRBool
-nsView
+nsIView
 :
 :
 IsEffectivelyVisible
@@ -1135,7 +1135,7 @@ IsEffectivelyVisible
 {
 for
 (
-nsView
+nsIView
 *
 v
 =
@@ -1172,7 +1172,7 @@ PR_TRUE
 ;
 }
 nsIntRect
-nsView
+nsIView
 :
 :
 CalcWidgetBounds
