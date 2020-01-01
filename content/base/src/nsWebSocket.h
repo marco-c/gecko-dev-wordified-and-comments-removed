@@ -256,6 +256,12 @@ ReleaseGlobals
 (
 )
 ;
+static
+PRBool
+PrefEnabled
+(
+)
+;
 protected
 :
 nsresult
