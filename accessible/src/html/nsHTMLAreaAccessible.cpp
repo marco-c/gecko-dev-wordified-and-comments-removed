@@ -462,4 +462,14 @@ CacheChildren
 (
 )
 {
+mAccChildCount
+=
+IsDefunct
+(
+)
+?
+eChildCountUninitialized
+:
+0
+;
 }

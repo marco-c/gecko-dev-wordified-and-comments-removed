@@ -487,9 +487,6 @@ PRUint32
 aRole
 )
 ;
-protected
-:
-virtual
 void
 CacheChildren
 (
@@ -524,9 +521,6 @@ PRUint32
 aRole
 )
 ;
-protected
-:
-virtual
 void
 CacheChildren
 (

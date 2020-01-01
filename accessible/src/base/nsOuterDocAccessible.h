@@ -19,6 +19,9 @@ nsIAccessible
 h
 "
 class
+nsIWeakReference
+;
+class
 nsOuterDocAccessible
 :
 public
@@ -120,7 +123,6 @@ aChild
 ;
 protected
 :
-virtual
 void
 CacheChildren
 (

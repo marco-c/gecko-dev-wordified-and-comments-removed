@@ -196,6 +196,11 @@ PRUint32
 aExtraState
 )
 ;
+void
+CacheChildren
+(
+)
+;
 static
 nsresult
 ContentToRenderedOffset
@@ -286,12 +291,6 @@ aEndOffset
 ;
 protected
 :
-virtual
-void
-CacheChildren
-(
-)
-;
 nsresult
 GetTextHelper
 (

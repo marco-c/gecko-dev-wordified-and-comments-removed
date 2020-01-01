@@ -4700,7 +4700,7 @@ PRUint32
 nsCoreUtils
 :
 :
-GetSensibleColumnCount
+GetSensiblecolumnCount
 (
 nsITreeBoxObject
 *

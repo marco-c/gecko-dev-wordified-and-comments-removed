@@ -692,7 +692,7 @@ aTree
 ;
 static
 PRUint32
-GetSensibleColumnCount
+GetSensiblecolumnCount
 (
 nsITreeBoxObject
 *
