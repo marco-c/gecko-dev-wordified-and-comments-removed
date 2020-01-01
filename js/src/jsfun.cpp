@@ -3334,10 +3334,16 @@ v
 =
 INT_TO_JSVAL
 (
+reinterpret_cast
+<
+jsint
+>
+(
 fp
 -
 >
 callee
+)
 )
 ;
 }
