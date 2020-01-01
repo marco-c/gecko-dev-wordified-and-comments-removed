@@ -214,8 +214,6 @@ SyncTextFrame
 parent
 =
 "
-android
-:
 style
 /
 TextAppearance
@@ -312,8 +310,6 @@ SyncTextItem
 parent
 =
 "
-android
-:
 style
 /
 TextAppearance
@@ -567,8 +563,6 @@ SyncEditItem
 parent
 =
 "
-android
-:
 style
 /
 Widget
@@ -842,8 +836,6 @@ android
 textAppearance
 "
 >
-android
-:
 style
 /
 TextAppearance
@@ -1286,8 +1278,6 @@ SyncButton
 parent
 =
 "
-android
-:
 style
 /
 Widget
@@ -1364,8 +1354,6 @@ SyncPinText
 parent
 =
 "
-android
-:
 style
 /
 Widget
