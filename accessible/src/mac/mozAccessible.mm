@@ -1044,13 +1044,13 @@ mIsExpired
 =
 NO
 ;
+mRole
+=
 geckoAccessible
 -
 >
-GetRole
+Role
 (
-&
-mRole
 )
 ;
 /
