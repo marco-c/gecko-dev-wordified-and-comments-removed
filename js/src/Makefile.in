@@ -1855,6 +1855,8 @@ RUN_TEST_PROGRAM
 (
 PYTHON
 )
+-
+u
 (
 srcdir
 )
