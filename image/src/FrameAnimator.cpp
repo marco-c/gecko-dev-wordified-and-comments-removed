@@ -779,8 +779,17 @@ void
 FrameAnimator
 :
 :
-InitAnimationFrameTime
+InitAnimationFrameTimeIfNecessary
 (
+)
+{
+if
+(
+mCurrentAnimationFrameTime
+.
+IsNull
+(
+)
 )
 {
 mCurrentAnimationFrameTime
@@ -792,6 +801,7 @@ Now
 (
 )
 ;
+}
 }
 void
 FrameAnimator

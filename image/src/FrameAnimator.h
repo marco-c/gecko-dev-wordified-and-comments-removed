@@ -191,7 +191,7 @@ aRect
 )
 ;
 void
-InitAnimationFrameTime
+InitAnimationFrameTimeIfNecessary
 (
 )
 ;
