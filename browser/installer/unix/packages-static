@@ -2556,6 +2556,13 @@ bin
 crashreporter
 .
 ini
+bin
+/
+Throbber
+-
+small
+.
+gif
 ;
 [
 Extensions
