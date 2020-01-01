@@ -537,9 +537,6 @@ autoSize
 bool
 allowZoom
 ;
-bool
-autoScale
-;
 }
 ;
 struct
