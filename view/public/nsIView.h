@@ -219,7 +219,7 @@ const
 NS_ASSERTION
 (
 !
-ExternalIsRoot
+IsRoot
 (
 )
 |
@@ -594,13 +594,6 @@ const
 endif
 bool
 IsRoot
-(
-)
-const
-;
-virtual
-bool
-ExternalIsRoot
 (
 )
 const
