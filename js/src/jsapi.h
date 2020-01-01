@@ -9113,9 +9113,6 @@ double
 out
 )
 {
-AutoAssertCanGC
-cangc
-;
 AssertArgumentsAreSane
 (
 cx
@@ -9513,9 +9510,6 @@ uint16_t
 out
 )
 {
-AutoAssertCanGC
-cangc
-;
 AssertArgumentsAreSane
 (
 cx
@@ -9599,9 +9593,6 @@ int32_t
 out
 )
 {
-AutoAssertCanGC
-cangc
-;
 AssertArgumentsAreSane
 (
 cx
@@ -9682,9 +9673,6 @@ uint32_t
 out
 )
 {
-AutoAssertCanGC
-cangc
-;
 AssertArgumentsAreSane
 (
 cx
@@ -9768,9 +9756,6 @@ int64_t
 out
 )
 {
-AutoAssertCanGC
-cangc
-;
 AssertArgumentsAreSane
 (
 cx
@@ -9854,9 +9839,6 @@ uint64_t
 out
 )
 {
-AutoAssertCanGC
-cangc
-;
 AssertArgumentsAreSane
 (
 cx

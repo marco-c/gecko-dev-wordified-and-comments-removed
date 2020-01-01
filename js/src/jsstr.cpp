@@ -19093,9 +19093,6 @@ FlationCoding
 fc
 )
 {
-AutoAssertCanGC
-cangc
-;
 size_t
 nchars
 ;
