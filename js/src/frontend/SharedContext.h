@@ -1,9 +1,9 @@
 #
 ifndef
-SharedContext_h__
+frontend_SharedContext_h
 #
 define
-SharedContext_h__
+frontend_SharedContext_h
 #
 include
 "

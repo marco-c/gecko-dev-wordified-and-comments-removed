@@ -1,9 +1,9 @@
 #
 ifndef
-AssemblerBufferWithConstantPool_h
+assembler_assembler_AssemblerBufferWithConstantPool_h
 #
 define
-AssemblerBufferWithConstantPool_h
+assembler_assembler_AssemblerBufferWithConstantPool_h
 #
 include
 "

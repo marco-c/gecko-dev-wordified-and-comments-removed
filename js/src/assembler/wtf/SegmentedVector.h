@@ -1,9 +1,9 @@
 #
 ifndef
-SegmentedVector_h
+assembler_wtf_SegmentedVector_h
 #
 define
-SegmentedVector_h
+assembler_wtf_SegmentedVector_h
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-MacroAssemblerX86Common_h
+assembler_assembler_MacroAssemblerX86Common_h
 #
 define
-MacroAssemblerX86Common_h
+assembler_assembler_MacroAssemblerX86Common_h
 #
 include
 "

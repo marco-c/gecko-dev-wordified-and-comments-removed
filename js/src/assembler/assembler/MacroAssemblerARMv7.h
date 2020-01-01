@@ -1,9 +1,9 @@
 #
 ifndef
-MacroAssemblerARMv7_h
+assembler_assembler_MacroAssemblerARMv7_h
 #
 define
-MacroAssemblerARMv7_h
+assembler_assembler_MacroAssemblerARMv7_h
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-LinkBuffer_h
+assembler_assembler_LinkBuffer_h
 #
 define
-LinkBuffer_h
+assembler_assembler_LinkBuffer_h
 #
 include
 "

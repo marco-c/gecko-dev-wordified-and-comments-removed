@@ -1,9 +1,9 @@
 #
 ifndef
-ParseNode_inl_h__
+frontend_ParseNode_inl_h
 #
 define
-ParseNode_inl_h__
+frontend_ParseNode_inl_h
 #
 include
 "

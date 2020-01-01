@@ -1,9 +1,9 @@
 #
 ifndef
-MIPSAssembler_h
+assembler_assembler_MIPSAssembler_h
 #
 define
-MIPSAssembler_h
+assembler_assembler_MIPSAssembler_h
 #
 if
 ENABLE

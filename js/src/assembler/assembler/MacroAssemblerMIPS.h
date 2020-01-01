@@ -1,9 +1,9 @@
 #
 ifndef
-MacroAssemblerMIPS_h
+assembler_assembler_MacroAssemblerMIPS_h
 #
 define
-MacroAssemblerMIPS_h
+assembler_assembler_MacroAssemblerMIPS_h
 #
 if
 ENABLE

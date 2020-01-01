@@ -1,4 +1,10 @@
 #
+ifndef
+builtin_Eval_h
+#
+define
+builtin_Eval_h
+#
 include
 "
 vm
@@ -7,12 +13,6 @@ Stack
 .
 h
 "
-#
-ifndef
-Eval_h__
-#
-define
-Eval_h__
 namespace
 js
 {

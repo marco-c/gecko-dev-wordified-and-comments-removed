@@ -1,9 +1,9 @@
 #
 ifndef
-SyntaxParseHandler_h__
+frontend_SyntaxParseHandler_h
 #
 define
-SyntaxParseHandler_h__
+frontend_SyntaxParseHandler_h
 namespace
 js
 {

@@ -1,9 +1,9 @@
 #
 ifndef
-BytecodeEmitter_h__
+frontend_BytecodeEmitter_h
 #
 define
-BytecodeEmitter_h__
+frontend_BytecodeEmitter_h
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-SourceNotes_h__
+frontend_SourceNotes_h
 #
 define
-SourceNotes_h__
+frontend_SourceNotes_h
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-TokenStream_h__
+frontend_TokenStream_h
 #
 define
-TokenStream_h__
+frontend_TokenStream_h
 #
 include
 "

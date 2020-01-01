@@ -1,9 +1,9 @@
 #
 ifndef
-Intl_h___
+builtin_Intl_h
 #
 define
-Intl_h___
+builtin_Intl_h
 #
 include
 "

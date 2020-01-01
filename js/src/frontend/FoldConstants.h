@@ -1,9 +1,9 @@
 #
 ifndef
-FoldConstants_h__
+frontend_FoldConstants_h
 #
 define
-FoldConstants_h__
+frontend_FoldConstants_h
 #
 include
 "

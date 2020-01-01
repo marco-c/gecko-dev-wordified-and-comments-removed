@@ -1,9 +1,9 @@
 #
 ifndef
-Parser_inl_h__
+frontend_Parser_inl
 #
 define
-Parser_inl_h__
+frontend_Parser_inl
 #
 include
 "

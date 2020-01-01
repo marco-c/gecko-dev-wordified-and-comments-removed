@@ -1,9 +1,9 @@
 #
 ifndef
-CodeLocation_h
+assembler_assembler_CodeLocation_h
 #
 define
-CodeLocation_h
+assembler_assembler_CodeLocation_h
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-LIBRARY_H
+ctypes_Library_h
 #
 define
-LIBRARY_H
+ctypes_Library_h
 #
 include
 "
@@ -38,7 +38,7 @@ Name
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *
@@ -71,9 +71,6 @@ PRLibrary
 *
 GetLibrary
 (
-JSContext
-*
-cx
 JSObject
 *
 obj
@@ -85,7 +82,7 @@ Open
 JSContext
 *
 cx
-uintN
+unsigned
 argc
 jsval
 *

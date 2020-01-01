@@ -1,9 +1,9 @@
 #
 ifndef
-AssemblerBuffer_h
+assembler_assembler_AssemblerBuffer_h
 #
 define
-AssemblerBuffer_h
+assembler_assembler_AssemblerBuffer_h
 #
 include
 "

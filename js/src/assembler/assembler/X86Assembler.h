@@ -1,9 +1,9 @@
 #
 ifndef
-X86Assembler_h
+assembler_assembler_X86Assembler_h
 #
 define
-X86Assembler_h
+assembler_assembler_X86Assembler_h
 #
 include
 <

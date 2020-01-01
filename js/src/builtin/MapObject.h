@@ -1,9 +1,9 @@
 #
 ifndef
-MapObject_h__
+builtin_MapObject_h
 #
 define
-MapObject_h__
+builtin_MapObject_h
 #
 include
 "

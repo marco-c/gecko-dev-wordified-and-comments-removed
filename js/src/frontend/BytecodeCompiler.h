@@ -1,9 +1,9 @@
 #
 ifndef
-BytecodeCompiler_h__
+frontend_BytecodeCompiler_h
 #
 define
-BytecodeCompiler_h__
+frontend_BytecodeCompiler_h
 #
 include
 "

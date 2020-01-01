@@ -1,9 +1,9 @@
 #
 ifndef
-ParallelArray_h__
+builtin_ParallelArray_h
 #
 define
-ParallelArray_h__
+builtin_ParallelArray_h
 #
 include
 "

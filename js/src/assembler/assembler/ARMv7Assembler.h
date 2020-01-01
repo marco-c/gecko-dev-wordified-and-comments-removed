@@ -1,9 +1,9 @@
 #
 ifndef
-ARMAssembler_h
+assembler_assembler_ARMv7Assembler_h
 #
 define
-ARMAssembler_h
+assembler_assembler_ARMv7Assembler_h
 #
 include
 "

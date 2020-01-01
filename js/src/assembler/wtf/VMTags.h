@@ -1,9 +1,9 @@
 #
 ifndef
-VMTags_h
+assembler_wtf_VMTags_h
 #
 define
-VMTags_h
+assembler_wtf_VMTags_h
 #
 if
 WTF_PLATFORM_DARWIN
