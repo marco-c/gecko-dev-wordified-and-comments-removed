@@ -873,6 +873,17 @@ srcdir
 .
 .
 /
+forms
+\
+-
+I
+(
+srcdir
+)
+/
+.
+.
+/
 tables
 \
 -
