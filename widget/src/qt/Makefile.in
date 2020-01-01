@@ -539,6 +539,14 @@ nsToolkit
 .
 cpp
 \
+nsScreenQt
+.
+cpp
+\
+nsScreenManagerQt
+.
+cpp
+\
 mozqwidget
 .
 cpp
