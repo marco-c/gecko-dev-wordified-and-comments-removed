@@ -219,6 +219,10 @@ stabs_to_module
 .
 cc
 \
+unique_string
+.
+cc
+\
 (
 NULL
 )

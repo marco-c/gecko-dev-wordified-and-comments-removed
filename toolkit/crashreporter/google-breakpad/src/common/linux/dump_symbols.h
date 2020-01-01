@@ -24,6 +24,15 @@ include
 "
 common
 /
+symbol_data
+.
+h
+"
+#
+include
+"
+common
+/
 using_std_string
 .
 h
@@ -51,8 +60,8 @@ string
 >
 &
 debug_dirs
-bool
-cfi
+SymbolData
+symbol_data
 std
 :
 :
@@ -78,8 +87,8 @@ string
 >
 &
 debug_dirs
-bool
-cfi
+SymbolData
+symbol_data
 Module
 *
 *

@@ -532,6 +532,15 @@ options
 {
 DumpSymbols
 dump_symbols
+(
+options
+.
+cfi
+?
+ALL_SYMBOL_DATA
+:
+NO_CFI
+)
 ;
 if
 (
@@ -785,9 +794,6 @@ std
 :
 :
 cout
-options
-.
-cfi
 )
 ;
 }

@@ -89,8 +89,8 @@ string
 >
 &
 debug_dir
-bool
-cfi
+SymbolData
+symbol_data
 Module
 *
 *
@@ -309,7 +309,7 @@ string
 >
 (
 )
-true
+ALL_SYMBOL_DATA
 &
 module
 )
@@ -458,7 +458,7 @@ string
 >
 (
 )
-true
+ALL_SYMBOL_DATA
 &
 module
 )
@@ -473,7 +473,7 @@ module
 Write
 (
 s
-true
+ALL_SYMBOL_DATA
 )
 ;
 EXPECT_EQ
@@ -648,7 +648,7 @@ string
 >
 (
 )
-true
+ALL_SYMBOL_DATA
 &
 module
 )
@@ -663,7 +663,7 @@ module
 Write
 (
 s
-true
+ALL_SYMBOL_DATA
 )
 ;
 EXPECT_EQ
