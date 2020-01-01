@@ -170,9 +170,9 @@ triedToWrap
 ;
 NS_DECL_NSIDOMHTMLOPTIONSCOLLECTION
 virtual
-nsIContent
+nsGenericElement
 *
-GetNodeAt
+GetElementAt
 (
 uint32_t
 aIndex

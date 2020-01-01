@@ -654,6 +654,15 @@ return
 mRootNode
 ;
 }
+virtual
+nsIContent
+*
+GetNodeAt
+(
+uint32_t
+aIndex
+)
+;
 NS_HIDDEN_
 (
 uint32_t

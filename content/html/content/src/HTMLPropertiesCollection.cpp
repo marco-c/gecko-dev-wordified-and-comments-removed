@@ -658,12 +658,12 @@ propertyList
 )
 ;
 }
-nsIContent
+nsGenericElement
 *
 HTMLPropertiesCollection
 :
 :
-GetNodeAt
+GetElementAt
 (
 uint32_t
 aIndex
