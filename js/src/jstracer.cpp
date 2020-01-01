@@ -12256,6 +12256,8 @@ slot
 LIns
 *
 dslots_ins
+=
+NULL
 ;
 LIns
 *
