@@ -2650,7 +2650,7 @@ SendCommand
 BRSF
 :
 "
-23
+33
 )
 ;
 }
@@ -3993,6 +3993,10 @@ disconnected
 return
 ;
 }
+CloseScoSocket
+(
+)
+;
 CloseSocket
 (
 )
