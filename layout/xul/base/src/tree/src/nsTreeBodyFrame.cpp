@@ -465,10 +465,6 @@ nsTreeBodyFrame
 )
 NS_QUERYFRAME_ENTRY
 (
-nsICSSPseudoComparator
-)
-NS_QUERYFRAME_ENTRY
-(
 nsIScrollbarMediator
 )
 NS_QUERYFRAME_ENTRY
