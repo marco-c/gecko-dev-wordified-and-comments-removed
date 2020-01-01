@@ -327,6 +327,7 @@ eUnit_CSSRect
 eUnit_Dasharray
 eUnit_Shadow
 eUnit_Transform
+eUnit_BackgroundPosition
 eUnit_CSSValuePairList
 eUnit_UnparsedString
 }
@@ -1225,6 +1226,12 @@ aUnit
 =
 =
 eUnit_Transform
+|
+|
+aUnit
+=
+=
+eUnit_BackgroundPosition
 ;
 }
 static

@@ -1650,7 +1650,7 @@ CFSTR
 "
 XUL
 .
-Framework
+framework
 "
 )
 true

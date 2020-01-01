@@ -512,10 +512,6 @@ nsCOMPtr
 <
 nsIDOMEventTarget
 >
-mTmpRealOriginalTarget
-;
-nsIDOMEventTarget
-*
 mExplicitOriginalTarget
 ;
 nsString

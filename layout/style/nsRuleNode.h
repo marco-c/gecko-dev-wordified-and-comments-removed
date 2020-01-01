@@ -1983,8 +1983,6 @@ aPresContext
 nsStyleContext
 *
 aContext
-nscoord
-aMinFontSize
 PRUint8
 aGenericFontID
 const
@@ -2017,8 +2015,6 @@ nsStyleContext
 aContext
 PRUint8
 aGenericFontID
-nscoord
-aMinFontSize
 nsStyleFont
 *
 aFont

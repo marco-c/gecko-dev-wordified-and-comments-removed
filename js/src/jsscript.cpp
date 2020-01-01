@@ -1454,6 +1454,7 @@ lastBinding
 MarkShape
 (
 trc
+&
 lastBinding
 "
 shape

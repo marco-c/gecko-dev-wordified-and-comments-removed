@@ -597,7 +597,7 @@ GetScrollRange
 const
 ;
 nsPoint
-ClampAndRestrictToDevPixels
+RestrictToDevPixels
 (
 const
 nsPoint
@@ -606,6 +606,8 @@ aPt
 nsIntPoint
 *
 aPtDevPx
+bool
+aShouldClamp
 )
 const
 ;
@@ -929,6 +931,12 @@ aOldScrollArea
 ;
 bool
 IsIgnoringViewportClipping
+(
+)
+const
+;
+bool
+ShouldClampScrollPosition
 (
 )
 const

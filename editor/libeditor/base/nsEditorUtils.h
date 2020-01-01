@@ -685,9 +685,6 @@ aNode
 }
 ;
 class
-nsIDragSession
-;
-class
 nsITransferable
 ;
 class

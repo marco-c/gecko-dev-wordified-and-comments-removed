@@ -3496,7 +3496,7 @@ GetAllResponseHeadersRunnable
 public
 WorkerThreadProxySyncRunnable
 {
-nsCString
+nsString
 &
 mResponseHeaders
 ;
@@ -3510,7 +3510,7 @@ aWorkerPrivate
 Proxy
 *
 aProxy
-nsCString
+nsString
 &
 aResponseHeaders
 )
@@ -3542,10 +3542,7 @@ mXHR
 >
 GetAllResponseHeaders
 (
-getter_Copies
-(
 mResponseHeaders
-)
 )
 ;
 return
@@ -6408,7 +6405,7 @@ return
 nsnull
 ;
 }
-nsCString
+nsString
 responseHeaders
 ;
 nsRefPtr
@@ -6442,7 +6439,7 @@ nsnull
 ;
 }
 return
-JS_NewStringCopyN
+JS_NewUCStringCopyN
 (
 aCx
 responseHeaders

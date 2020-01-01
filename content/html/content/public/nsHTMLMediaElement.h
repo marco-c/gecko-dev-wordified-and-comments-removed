@@ -911,6 +911,11 @@ SelectResource
 )
 ;
 void
+SelectResourceWrapper
+(
+)
+;
+void
 QueueSelectResourceTask
 (
 )
@@ -1185,6 +1190,9 @@ mDelayingLoadEvent
 ;
 bool
 mIsRunningSelectResource
+;
+bool
+mHaveQueuedSelectResource
 ;
 bool
 mSuspendedAfterFirstFrame

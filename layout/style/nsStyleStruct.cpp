@@ -537,6 +537,7 @@ aPresContext
 GetDefaultFont
 (
 kPresContext_DefaultVariableFont_ID
+nsnull
 )
 )
 )

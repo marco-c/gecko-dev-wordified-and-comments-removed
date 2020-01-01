@@ -457,6 +457,15 @@ PresContext
 GetDefaultFont
 (
 kGenericFont_serif
+aContext
+-
+>
+GetStyleFont
+(
+)
+-
+>
+mLanguage
 )
 )
 ;

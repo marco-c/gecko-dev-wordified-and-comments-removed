@@ -738,10 +738,6 @@ jsgcmark
 .
 cpp
 \
-jsgcstats
-.
-cpp
-\
 jscrashreport
 .
 cpp
@@ -875,6 +871,10 @@ Debugger
 cpp
 \
 GlobalObject
+.
+cpp
+\
+MethodGuard
 .
 cpp
 \
@@ -1047,10 +1047,6 @@ jsgc
 h
 \
 jscell
-.
-h
-\
-jsgcstats
 .
 h
 \

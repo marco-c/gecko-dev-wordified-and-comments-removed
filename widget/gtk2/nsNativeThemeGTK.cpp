@@ -5453,13 +5453,6 @@ ThemeChanged
 (
 )
 {
-nsDeviceContext
-:
-:
-ClearCachedSystemFonts
-(
-)
-;
 memset
 (
 mDisabledWidgetTypes

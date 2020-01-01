@@ -5160,6 +5160,10 @@ presContext
 GetDefaultFont
 (
 kPresContext_DefaultVariableFont_ID
+font
+-
+>
+mLanguage
 )
 ;
 PRInt32

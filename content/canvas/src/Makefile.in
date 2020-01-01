@@ -488,6 +488,10 @@ WebGLContextUtils
 .
 cpp
 \
+WebGLContextReporter
+.
+cpp
+\
 WebGLContextValidate
 .
 cpp

@@ -1209,10 +1209,14 @@ fp
 "
 GC
 %
-u
+lu
 \
 n
 "
+(
+unsigned
+long
+)
 cx
 -
 >

@@ -1784,11 +1784,7 @@ gc
 AllocKind
 allocKind
 ;
-HeapPtr
-<
-const
-Shape
->
+HeapPtrShape
 shape
 ;
 struct

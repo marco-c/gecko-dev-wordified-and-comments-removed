@@ -177,6 +177,17 @@ jstypedarrayinlines
 .
 h
 "
+#
+include
+"
+vm
+/
+MethodGuard
+-
+inl
+.
+h
+"
 using
 namespace
 mozilla
@@ -10878,6 +10889,8 @@ ArrayBuffer
 "
 JSCLASS_HAS_PRIVATE
 |
+JSCLASS_IMPLEMENTS_BARRIERS
+|
 Class
 :
 :
@@ -11317,6 +11330,8 @@ FIELD_MAX
 |
 \
 JSCLASS_HAS_PRIVATE
+|
+JSCLASS_IMPLEMENTS_BARRIERS
 |
 \
 JSCLASS_FOR_OF_ITERATION

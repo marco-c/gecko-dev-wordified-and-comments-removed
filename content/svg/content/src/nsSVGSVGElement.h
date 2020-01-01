@@ -570,12 +570,16 @@ aVisitor
 ;
 virtual
 gfxMatrix
-PrependLocalTransformTo
+PrependLocalTransformsTo
 (
 const
 gfxMatrix
 &
 aMatrix
+TransformTypes
+aWhich
+=
+eAllTransforms
 )
 const
 ;

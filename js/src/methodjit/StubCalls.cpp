@@ -5328,7 +5328,7 @@ pc
 gc
 :
 :
-VerifyBarriers
+MaybeVerifyBarriers
 (
 f
 .

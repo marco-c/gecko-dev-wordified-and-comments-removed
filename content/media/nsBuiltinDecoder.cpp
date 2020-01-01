@@ -1344,9 +1344,12 @@ range
 {
 if
 (
+PRUint32
+(
 range
 +
 1
+)
 <
 length
 )

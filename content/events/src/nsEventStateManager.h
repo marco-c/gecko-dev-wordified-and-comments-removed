@@ -988,12 +988,10 @@ aSelectionTarget
 nsDOMDataTransfer
 *
 aDataTransfer
-bool
+nsISelection
 *
-aIsSelection
-bool
 *
-aIsInEditor
+aSelection
 nsIContent
 *
 *
@@ -1015,8 +1013,9 @@ aDataTransfer
 nsIContent
 *
 aDragTarget
-bool
-aIsSelection
+nsISelection
+*
+aSelection
 )
 ;
 bool

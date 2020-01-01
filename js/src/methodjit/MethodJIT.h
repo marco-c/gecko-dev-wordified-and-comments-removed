@@ -1153,7 +1153,7 @@ recompilations
 unsigned
 frameExpansions
 ;
-unsigned
+uint64_t
 gcNumber
 ;
 RecompilationMonitor
@@ -2604,6 +2604,15 @@ void
 *
 sourceJump2
 ;
+#
+ifdef
+JS_CPU_X64
+void
+*
+sourceTrampoline
+;
+#
+endif
 typedef
 Vector
 <
