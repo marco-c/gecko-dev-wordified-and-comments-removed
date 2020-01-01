@@ -3127,6 +3127,16 @@ GuardRecord
 lr
 )
 {
+if
+(
+!
+lr
+-
+>
+jmp
+)
+return
+;
 Fragment
 *
 frag
