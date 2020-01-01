@@ -737,8 +737,6 @@ MOZ_WIDGET_TOOLKIT
 )
 windows
 )
-ifndef
-WINCE
 OS_LIBS
 +
 =
@@ -747,5 +745,4 @@ call
 EXPAND_LIBNAME
 usp10
 )
-endif
 endif

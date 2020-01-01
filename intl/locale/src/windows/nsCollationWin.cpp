@@ -369,9 +369,6 @@ dwMapFlags
 =
 0
 ;
-#
-ifndef
-WINCE
 if
 (
 strength
@@ -384,8 +381,6 @@ dwMapFlags
 =
 NORM_IGNORECASE
 ;
-#
-endif
 retval
 =
 :
