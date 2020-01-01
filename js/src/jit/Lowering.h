@@ -569,6 +569,14 @@ ins
 )
 ;
 bool
+visitComputeThis
+(
+MComputeThis
+*
+ins
+)
+;
+bool
 visitCall
 (
 MCall

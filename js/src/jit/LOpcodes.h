@@ -263,6 +263,11 @@ ReturnFromCtor
 \
 _
 (
+ComputeThis
+)
+\
+_
+(
 BitNotI
 )
 \

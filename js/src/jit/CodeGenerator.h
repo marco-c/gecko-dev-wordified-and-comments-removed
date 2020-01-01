@@ -927,6 +927,14 @@ lir
 )
 ;
 bool
+visitComputeThis
+(
+LComputeThis
+*
+lir
+)
+;
+bool
 visitArrayLength
 (
 LArrayLength

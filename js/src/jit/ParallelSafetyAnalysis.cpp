@@ -635,6 +635,10 @@ UNSAFE_OP
 (
 SetArgumentsObjectArg
 )
+UNSAFE_OP
+(
+ComputeThis
+)
 SAFE_OP
 (
 PrepareCall
