@@ -45,14 +45,6 @@ aName
 )
 ;
 NS_IMETHOD
-GetDescription
-(
-nsAString
-&
-aDescription
-)
-;
-NS_IMETHOD
 GetRole
 (
 PRUint32
