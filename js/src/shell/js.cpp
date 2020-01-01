@@ -8452,6 +8452,9 @@ return
 JS_FALSE
 ;
 }
+JSBool
+rv
+=
 JS_SetDebugMode
 (
 cx
@@ -8468,7 +8471,11 @@ JS_SET_RVAL
 (
 cx
 vp
-JSVAL_VOID
+rv
+?
+JSVAL_TRUE
+:
+JSVAL_FALSE
 )
 ;
 return
