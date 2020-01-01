@@ -914,9 +914,16 @@ commandString
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
-PRBool
+#
+ifdef
+DEBUG
+char
+*
+*
 appended
 =
+#
+endif
 commandList
 -
 >
@@ -924,9 +931,6 @@ AppendElement
 (
 commandString
 )
-!
-=
-nsnull
 ;
 NS_ASSERTION
 (
