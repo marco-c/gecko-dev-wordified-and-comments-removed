@@ -21666,6 +21666,8 @@ If
 Ctrl
 or
 Command
+or
+Alt
 is
 pressed
 we
@@ -21683,7 +21685,6 @@ accelKeys
 .
 if
 (
-(
 outGeckoEvent
 -
 >
@@ -21694,10 +21695,8 @@ outGeckoEvent
 -
 >
 isMeta
-)
-&
-&
-!
+|
+|
 outGeckoEvent
 -
 >
