@@ -1764,8 +1764,6 @@ aTag
 nsILinkHandler
 *
 aLinkHandler
-PRBool
-aForStyling
 nsLinkState
 *
 aState
@@ -1908,9 +1906,6 @@ linkState
 eLinkState_NotLink
 &
 &
-aForStyling
-&
-&
 aContent
 -
 >
@@ -1979,8 +1974,6 @@ aContent
 nsILinkHandler
 *
 aLinkHandler
-PRBool
-aForStyling
 nsLinkState
 *
 aState
@@ -2048,9 +2041,6 @@ aLinkHandler
 ;
 if
 (
-aForStyling
-&
-&
 aContent
 -
 >

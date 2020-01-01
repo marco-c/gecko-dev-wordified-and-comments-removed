@@ -3960,10 +3960,6 @@ IsHTMLLink
 aContent
 mContentTag
 linkHandler
-aRuleWalker
-!
-=
-nsnull
 &
 mLinkState
 )
@@ -4009,10 +4005,6 @@ IsLink
 (
 aContent
 linkHandler
-aRuleWalker
-!
-=
-nsnull
 &
 mLinkState
 )

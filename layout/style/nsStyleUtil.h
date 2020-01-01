@@ -130,8 +130,6 @@ aTag
 nsILinkHandler
 *
 aLinkHandler
-PRBool
-aForStyling
 nsLinkState
 *
 aState
@@ -147,8 +145,6 @@ aContent
 nsILinkHandler
 *
 aLinkHandler
-PRBool
-aForStyling
 nsLinkState
 *
 aState
