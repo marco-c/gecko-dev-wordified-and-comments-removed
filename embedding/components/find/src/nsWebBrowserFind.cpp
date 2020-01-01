@@ -2254,6 +2254,12 @@ GetRangeCount
 count
 )
 ;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
+)
+;
 if
 (
 count
@@ -2284,6 +2290,12 @@ getter_AddRefs
 (
 bodyNode
 )
+)
+;
+NS_ENSURE_SUCCESS
+(
+rv
+rv
 )
 ;
 nsCOMPtr
