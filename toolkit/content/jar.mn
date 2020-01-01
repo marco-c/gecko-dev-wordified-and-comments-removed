@@ -10,9 +10,6 @@ content
 /
 global
 /
-xpcnativewrappers
-=
-yes
 contentaccessible
 =
 yes
@@ -29,9 +26,6 @@ global
 platform
 /
 platform
-xpcnativewrappers
-=
-yes
 %
 content
 global
@@ -44,9 +38,6 @@ global
 -
 region
 /
-xpcnativewrappers
-=
-yes
 #
 provide
 the

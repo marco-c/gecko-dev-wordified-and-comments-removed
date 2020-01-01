@@ -10,9 +10,6 @@ content
 /
 reporter
 /
-xpcnativewrappers
-=
-yes
 %
 overlay
 chrome

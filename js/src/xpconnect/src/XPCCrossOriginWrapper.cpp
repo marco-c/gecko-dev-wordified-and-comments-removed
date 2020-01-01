@@ -906,15 +906,6 @@ privilegeEnabled
 JS_FALSE
 ;
 }
-if
-(
-isSystem
-)
-{
-return
-NS_OK
-;
-}
 nsCOMPtr
 <
 nsIPrincipal

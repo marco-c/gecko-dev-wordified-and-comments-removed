@@ -14,9 +14,6 @@ xbl
 -
 marquee
 /
-xpcnativewrappers
-=
-yes
 content
 /
 xbl

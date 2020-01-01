@@ -10,9 +10,6 @@ content
 /
 mozapps
 /
-xpcnativewrappers
-=
-yes
 content
 /
 mozapps
