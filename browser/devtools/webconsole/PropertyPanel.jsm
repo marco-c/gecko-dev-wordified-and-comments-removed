@@ -56,8 +56,11 @@ resource
 :
 /
 /
+gre
 /
 modules
+/
+devtools
 /
 WebConsoleUtils
 .

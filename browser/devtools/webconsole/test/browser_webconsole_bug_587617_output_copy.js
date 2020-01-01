@@ -436,9 +436,7 @@ return
 [
 "
 +
-WebConsoleUtils
-.
-l10n
+WCU_l10n
 .
 timestampString
 (

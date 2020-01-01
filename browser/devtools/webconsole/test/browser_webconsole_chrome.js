@@ -8,7 +8,7 @@ addTab
 "
 about
 :
-addons
+credits
 "
 )
 ;
