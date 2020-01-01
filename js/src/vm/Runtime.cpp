@@ -1000,10 +1000,6 @@ emptyString
 (
 NULL
 )
-sourceHook
-(
-NULL
-)
 debugMode
 (
 false
@@ -1687,6 +1683,10 @@ isHeapBusy
 (
 )
 )
+;
+sourceHook
+=
+NULL
 ;
 for
 (
