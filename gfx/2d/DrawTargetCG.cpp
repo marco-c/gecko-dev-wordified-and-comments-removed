@@ -2999,6 +2999,9 @@ const
 DrawOptions
 &
 aDrawOptions
+const
+GlyphRenderingOptions
+*
 )
 {
 MarkChanged

@@ -2478,6 +2478,9 @@ const
 DrawOptions
 &
 aOptions
+const
+GlyphRenderingOptions
+*
 )
 {
 AutoPrepareForDrawing

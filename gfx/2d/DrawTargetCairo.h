@@ -425,6 +425,12 @@ const
 DrawOptions
 &
 aOptions
+const
+GlyphRenderingOptions
+*
+aRenderingOptions
+=
+NULL
 )
 ;
 virtual
