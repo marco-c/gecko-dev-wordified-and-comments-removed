@@ -416,7 +416,7 @@ virtual
 bool
 elementReadIsTypedArray
 (
-HandleScript
+RawScript
 script
 jsbytecode
 *
@@ -584,7 +584,7 @@ virtual
 bool
 elementWriteHasExtraIndexedProperty
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -599,7 +599,7 @@ virtual
 bool
 elementWriteIsPacked
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -802,13 +802,12 @@ virtual
 bool
 canEnterInlinedFunction
 (
-HandleScript
+RawScript
 caller
 jsbytecode
 *
 pc
-JSFunction
-*
+RawFunction
 callee
 )
 {
@@ -1383,7 +1382,7 @@ pc
 bool
 elementReadIsTypedArray
 (
-HandleScript
+RawScript
 script
 jsbytecode
 *
@@ -1484,7 +1483,7 @@ pc
 bool
 elementWriteHasExtraIndexedProperty
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1494,7 +1493,7 @@ pc
 bool
 elementWriteIsPacked
 (
-UnrootedScript
+RawScript
 script
 jsbytecode
 *
@@ -1581,13 +1580,12 @@ pc
 bool
 canEnterInlinedFunction
 (
-HandleScript
+RawScript
 caller
 jsbytecode
 *
 pc
-JSFunction
-*
+RawFunction
 callee
 )
 ;
