@@ -193,14 +193,6 @@ GARBAGE
 (
 XPCOM_GLUE_SRC_LCPPSRCS
 )
-(
-wildcard
-*
-.
-(
-OBJ_SUFFIX
-)
-)
 FORCE_STATIC_LIB
 =
 1

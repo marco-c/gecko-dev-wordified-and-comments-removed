@@ -356,14 +356,6 @@ GARBAGE
 (
 XPCOM_GLUE_SRC_LCPPSRCS
 )
-(
-wildcard
-*
-.
-(
-OBJ_SUFFIX
-)
-)
 SRCS_IN_OBJDIR
 =
 1

@@ -664,14 +664,6 @@ XPCOM_GLUE_SRC_LCPPSRCS
 (
 XPCOM_GLUENS_SRC_LCPPSRCS
 )
-(
-wildcard
-*
-.
-(
-OBJ_SUFFIX
-)
-)
 include
 (
 topsrcdir
