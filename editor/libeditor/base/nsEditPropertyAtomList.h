@@ -63,13 +63,6 @@ big
 )
 EDITOR_ATOM
 (
-blink
-"
-blink
-"
-)
-EDITOR_ATOM
-(
 blockquote
 "
 blockquote

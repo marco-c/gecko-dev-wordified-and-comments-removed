@@ -7329,12 +7329,6 @@ sBigAtom
 atom
 &
 &
-sBlinkAtom
-!
-=
-atom
-&
-&
 sBAtom
 !
 =
