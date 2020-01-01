@@ -687,3 +687,17 @@ JSString
 1
 1
 )
+BUILTIN2
+(
+StringToNumber
+LO
+LO
+F
+jsdouble
+JSContext
+*
+JSString
+*
+1
+1
+)
