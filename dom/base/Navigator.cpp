@@ -4571,7 +4571,7 @@ permMgr
 NS_OK
 )
 ;
-PRUint32
+uint32_t
 permission
 =
 nsIPermissionManager
