@@ -1120,11 +1120,13 @@ numHidden
 processWasLocked
 !
 =
+(
 processCount
 .
 numLocks
 >
 0
+)
 )
 )
 {
