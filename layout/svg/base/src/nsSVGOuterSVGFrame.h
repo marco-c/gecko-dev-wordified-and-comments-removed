@@ -377,6 +377,11 @@ aEmbeddingFrame
 nsnull
 )
 ;
+PRBool
+IsRootOfImage
+(
+)
+;
 nsTHashtable
 <
 nsVoidPtrHashKey
