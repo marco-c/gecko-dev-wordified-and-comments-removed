@@ -65,6 +65,15 @@ h
 #
 include
 "
+methodjit
+/
+ICRepatcher
+.
+h
+"
+#
+include
+"
 BaseAssembler
 .
 h

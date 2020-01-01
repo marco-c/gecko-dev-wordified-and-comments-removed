@@ -201,7 +201,8 @@ stubShapeJump
 ;
 }
 #
-ifdef
+if
+defined
 JS_NUNBOX32
 void
 setTypeLoad
@@ -211,7 +212,8 @@ offset
 )
 {
 #
-ifdef
+if
+defined
 JS_HAS_IC_LABELS
 inlineTypeLoad
 =
@@ -236,7 +238,8 @@ offset
 )
 {
 #
-ifdef
+if
+defined
 JS_HAS_IC_LABELS
 inlineDataLoad
 =
@@ -299,6 +302,7 @@ inlineDataLoad
 }
 #
 elif
+defined
 JS_PUNBOX64
 void
 setValueLoad
@@ -308,7 +312,8 @@ offset
 )
 {
 #
-ifdef
+if
+defined
 JS_HAS_IC_LABELS
 inlineValueLoad
 =
