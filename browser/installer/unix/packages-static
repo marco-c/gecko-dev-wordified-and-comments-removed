@@ -324,6 +324,11 @@ bin
 README
 .
 txt
+bin
+/
+libjemalloc
+.
+so
 ;
 [
 Components

@@ -55,6 +55,12 @@ define
 swprintf
 _snwprintf
 #
+else
+#
+define
+swprintf
+swprintf_s
+#
 endif
 namespace
 google_breakpad

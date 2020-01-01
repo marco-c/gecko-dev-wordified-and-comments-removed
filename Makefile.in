@@ -478,6 +478,15 @@ probes
 (
 NULL
 )
+ifdef
+MOZ_MEMORY
+tier_base_dirs
++
+=
+memory
+/
+jemalloc
+endif
 include
 (
 topsrcdir

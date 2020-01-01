@@ -271,6 +271,11 @@ bin
 msvcr80
 .
 dll
+bin
+\
+mozcrt19
+.
+dll
 [
 browser
 ]
