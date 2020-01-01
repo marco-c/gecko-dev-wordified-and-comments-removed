@@ -4544,6 +4544,11 @@ mJSRuntime
 ;
 #
 endif
+if
+(
+mWatchdogWakeup
+)
+{
 AutoLockJSGC
 lock
 (
@@ -4563,6 +4568,7 @@ PR_UNJOINABLE_THREAD
 0
 )
 ;
+}
 }
 XPCJSRuntime
 *
