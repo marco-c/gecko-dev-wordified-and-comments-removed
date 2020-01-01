@@ -1853,6 +1853,10 @@ break
 case
 eMetric_ScrollArrowStyle
 :
+moz_gtk_init
+(
+)
+;
 aMetric
 =
 ConvertGTKStepperStyleToMozillaScrollArrowStyle
