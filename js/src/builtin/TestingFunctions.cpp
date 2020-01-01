@@ -3442,11 +3442,13 @@ node
 size_t
 counter
 ;
-Value
+RootedValue
 startValue
-=
+(
+cx
 UndefinedValue
 (
+)
 )
 ;
 if
