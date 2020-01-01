@@ -265,6 +265,9 @@ nsIFrame
 aFromFrame
 PRInt32
 aFromOffset
+nsIAccessible
+*
+aFromAccessible
 nsSelectionAmount
 aAmount
 nsDirection
