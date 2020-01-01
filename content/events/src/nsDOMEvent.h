@@ -85,9 +85,6 @@ class
 nsIContent
 ;
 class
-nsIScrollableView
-;
-class
 nsDOMEvent
 :
 public
