@@ -110,7 +110,9 @@ jsval
 const
 {
 return
-v
+value
+(
+)
 ;
 }
 jsvalRoot
@@ -139,6 +141,16 @@ addr
 {
 return
 &
+v
+;
+}
+jsval
+value
+(
+)
+const
+{
+return
 v
 ;
 }

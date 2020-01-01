@@ -453,6 +453,10 @@ testPropCache
 .
 cpp
 \
+testTrap
+.
+cpp
+\
 testSameValue
 .
 cpp
