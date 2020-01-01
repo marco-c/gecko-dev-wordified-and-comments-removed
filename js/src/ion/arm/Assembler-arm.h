@@ -3349,6 +3349,7 @@ imm
 {
 JS_ASSERT
 (
+uint32
 (
 lower
 |

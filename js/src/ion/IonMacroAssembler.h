@@ -310,11 +310,16 @@ void
 fun
 )
 ;
+template
+<
+typename
+T
+>
 void
 guardTypeSet
 (
 const
-Address
+T
 &
 address
 types

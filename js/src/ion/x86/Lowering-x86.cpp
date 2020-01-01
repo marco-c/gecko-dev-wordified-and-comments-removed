@@ -555,7 +555,7 @@ if
 unbox
 -
 >
-checkType
+fallible
 (
 )
 &
@@ -564,6 +564,12 @@ checkType
 assignSnapshot
 (
 lir
+unbox
+-
+>
+bailoutKind
+(
+)
 )
 )
 return
@@ -691,7 +697,7 @@ if
 unbox
 -
 >
-checkType
+fallible
 (
 )
 &
@@ -700,6 +706,12 @@ checkType
 assignSnapshot
 (
 lir
+unbox
+-
+>
+bailoutKind
+(
+)
 )
 )
 return
@@ -803,6 +815,8 @@ assignSnapshot
 LInstruction
 *
 ins
+BailoutKind
+kind
 )
 {
 LSnapshot
@@ -816,6 +830,7 @@ New
 (
 gen
 lastResumePoint_
+kind
 )
 ;
 if

@@ -138,6 +138,10 @@ assignSnapshot
 LInstruction
 *
 ins
+BailoutKind
+kind
+=
+Bailout_Normal
 )
 ;
 void

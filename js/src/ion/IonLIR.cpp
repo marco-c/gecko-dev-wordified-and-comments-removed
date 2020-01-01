@@ -301,6 +301,8 @@ LSnapshot
 MResumePoint
 *
 mir
+BailoutKind
+kind
 )
 :
 numSlots_
@@ -329,6 +331,10 @@ INVALID_SNAPSHOT_OFFSET
 bailoutId_
 (
 INVALID_BAILOUT_ID
+)
+bailoutKind_
+(
+kind
 )
 {
 }
@@ -375,6 +381,8 @@ gen
 MResumePoint
 *
 mir
+BailoutKind
+kind
 )
 {
 LSnapshot
@@ -385,6 +393,7 @@ new
 LSnapshot
 (
 mir
+kind
 )
 ;
 if
