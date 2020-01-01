@@ -11710,6 +11710,14 @@ aTab
 owner
 &
 &
+!
+aTab
+.
+owner
+.
+hidden
+&
+&
 this
 .
 _removingTabs
