@@ -48,6 +48,11 @@ ElementPropertyTransition
 ElementPropertyTransition
 (
 )
+:
+mIsRunningOnCompositor
+(
+false
+)
 {
 }
 nsCSSProperty
@@ -89,6 +94,9 @@ mStartForReversingTest
 ;
 double
 mReversePortion
+;
+bool
+mIsRunningOnCompositor
 ;
 double
 ValuePortionFor
