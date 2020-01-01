@@ -336,9 +336,6 @@ _sb_maps
 [
 sbi
 ]
-[
-0
-]
 0xFF
 sizeof
 (

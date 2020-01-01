@@ -830,3 +830,10 @@ theora
 codec
 .
 h
+patch
+-
+p3
+<
+bug559343
+.
+patch

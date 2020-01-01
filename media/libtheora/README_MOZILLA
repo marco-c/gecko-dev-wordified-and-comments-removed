@@ -49,3 +49,11 @@ used
 was
 r16712
 .
+bug559343
+.
+patch
+:
+Silence
+Coverity
+warning
+.
