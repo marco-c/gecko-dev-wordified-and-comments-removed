@@ -473,10 +473,6 @@ nsVersionComparator
 .
 cpp
 \
-nsStringAPI
-.
-cpp
-\
 nsTHashtable
 .
 cpp
