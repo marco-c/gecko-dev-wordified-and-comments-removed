@@ -181,14 +181,6 @@ nsFlexContainerFrameSuper
 (
 aContext
 )
-mCachedContentBoxCrossSize
-(
-nscoord_MIN
-)
-mCachedAscent
-(
-nscoord_MIN
-)
 mChildrenHaveBeenReordered
 (
 false
@@ -353,12 +345,6 @@ FlexItem
 &
 aItem
 )
-;
-nscoord
-mCachedContentBoxCrossSize
-;
-nscoord
-mCachedAscent
 ;
 bool
 mChildrenHaveBeenReordered
