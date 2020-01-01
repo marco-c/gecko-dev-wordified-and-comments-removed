@@ -1099,13 +1099,9 @@ tabcandy
 /
 content
 /
-candies
-/
-revision
--
-a
-/
 img
+/
+core
 /
 default
 .
