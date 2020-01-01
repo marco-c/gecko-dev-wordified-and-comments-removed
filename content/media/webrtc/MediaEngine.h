@@ -34,6 +34,15 @@ MediaEngineVideoSource
 class
 MediaEngineAudioSource
 ;
+enum
+MediaEngineState
+{
+kAllocated
+kStarted
+kStopped
+kReleased
+}
+;
 class
 MediaEngine
 {
