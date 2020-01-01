@@ -1293,6 +1293,17 @@ defined
 (
 CRAWL_STACK_ON_SIGSEGV
 )
+if
+(
+!
+getenv
+(
+"
+XRE_NO_WINDOWS_CRASH_DIALOG
+"
+)
+)
+{
 signal
 (
 SIGSEGV
@@ -1311,6 +1322,7 @@ SIGABRT
 ah_crap_handler
 )
 ;
+}
 #
 endif
 struct

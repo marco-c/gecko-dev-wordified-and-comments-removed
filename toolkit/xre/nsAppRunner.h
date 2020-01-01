@@ -391,6 +391,10 @@ endif
 void
 SetupErrorHandling
 (
+const
+char
+*
+progname
 )
 ;
 #
