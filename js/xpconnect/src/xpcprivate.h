@@ -3429,8 +3429,10 @@ mWatchdogHibernating
 PRTime
 mLastActiveTime
 ;
+nsRefPtr
+<
 XPCIncrementalReleaseRunnable
-*
+>
 mReleaseRunnable
 ;
 js
