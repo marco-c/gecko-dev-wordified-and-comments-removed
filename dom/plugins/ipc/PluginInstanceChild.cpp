@@ -546,7 +546,7 @@ MOZ_PLATFORM_MAEMO
 )
 mMaemoImageRendering
 (
-PR_FALSE
+PR_TRUE
 )
 #
 endif
