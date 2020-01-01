@@ -788,6 +788,14 @@ MBasicBlock
 target
 )
 {
+if
+(
+!
+target
+)
+return
+NULL
+;
 return
 new
 (
