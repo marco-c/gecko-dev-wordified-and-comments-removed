@@ -365,6 +365,7 @@ aTiledBuffer
 }
 ;
 static
+inline
 int
 floor_div
 (
