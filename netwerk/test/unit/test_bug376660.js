@@ -69,7 +69,6 @@ onDetermineCharset
 loader
 context
 data
-length
 )
 {
 return
@@ -123,7 +122,8 @@ NS_OK
 do_check_eq
 (
 data
-null
+"
+"
 )
 ;
 do_check_neq
@@ -222,7 +222,6 @@ f
 init
 (
 listener
-4096
 )
 ;
 var
@@ -326,7 +325,6 @@ f
 init
 (
 listener
-4096
 )
 ;
 var
