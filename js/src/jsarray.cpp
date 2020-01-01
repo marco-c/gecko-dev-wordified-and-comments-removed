@@ -5028,6 +5028,14 @@ clasp
 &
 js_SlowArrayClass
 ;
+AutoValueArray
+autoArray
+(
+cx
+slots
+arrayInitialized
+)
+;
 initializedLength
 =
 0
