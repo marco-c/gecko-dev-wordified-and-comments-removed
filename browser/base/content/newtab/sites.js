@@ -214,6 +214,7 @@ Site_block
 {
 if
 (
+!
 gBlockedLinks
 .
 isBlocked
@@ -223,17 +224,6 @@ this
 _link
 )
 )
-{
-if
-(
-aCallback
-)
-aCallback
-(
-)
-;
-}
-else
 {
 gBlockedLinks
 .
