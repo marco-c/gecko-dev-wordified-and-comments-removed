@@ -1203,6 +1203,13 @@ nbuckets
 ]
 )
 {
+NanoAssert
+(
+nbuckets
+>
+0
+)
+;
 clear
 (
 )

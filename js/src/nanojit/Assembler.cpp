@@ -260,7 +260,7 @@ str
 1
 ]
 ;
-strcpy
+VMPI_strcpy
 (
 cpy
 str
@@ -6794,7 +6794,7 @@ outline
 0
 ]
 ;
-memset
+VMPI_memset
 (
 s
 '
@@ -6815,7 +6815,7 @@ s
 s
 +
 =
-strlen
+VMPI_strlen
 (
 s
 )
@@ -6831,7 +6831,7 @@ SP
 s
 +
 =
-strlen
+VMPI_strlen
 (
 s
 )
@@ -6916,7 +6916,7 @@ ins
 s
 +
 =
-strlen
+VMPI_strlen
 (
 s
 )
@@ -6958,7 +6958,7 @@ lcbits
 LC_Assembly
 )
 {
-memset
+VMPI_memset
 (
 s
 '
@@ -6979,7 +6979,7 @@ s
 s
 +
 =
-strlen
+VMPI_strlen
 (
 s
 )
@@ -6995,7 +6995,7 @@ ebp
 s
 +
 =
-strlen
+VMPI_strlen
 (
 s
 )
@@ -7068,7 +7068,7 @@ ins
 s
 +
 =
-strlen
+VMPI_strlen
 (
 s
 )
@@ -8695,7 +8695,7 @@ format
 args
 )
 ;
-strncat
+VMPI_strncat
 (
 outline
 outlineEOL
@@ -8762,7 +8762,7 @@ s
 1
 ]
 ;
-strcpy
+VMPI_strcpy
 (
 str
 s
@@ -8821,7 +8821,7 @@ LC_Assembly
 )
 return
 ;
-strncat
+VMPI_strncat
 (
 outline
 outlineEOL
@@ -8873,7 +8873,7 @@ col
 int
 len
 =
-strlen
+VMPI_strlen
 (
 s
 )
@@ -8897,7 +8897,7 @@ len
 :
 1
 ;
-memset
+VMPI_memset
 (
 &
 s

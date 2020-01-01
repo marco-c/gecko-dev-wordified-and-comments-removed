@@ -375,7 +375,7 @@ if
 outputAddr
 )
 \
-sprintf
+VMPI_sprintf
 (
 outline
 "
@@ -392,7 +392,7 @@ _nIns
 \
 else
 \
-memset
+VMPI_memset
 (
 outline
 (

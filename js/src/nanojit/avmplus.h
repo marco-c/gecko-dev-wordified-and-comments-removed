@@ -628,6 +628,10 @@ VMPI_strcat
 strcat
 #
 define
+VMPI_strncat
+strncat
+#
+define
 VMPI_strcpy
 strcpy
 #
