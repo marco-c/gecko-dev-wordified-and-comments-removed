@@ -638,6 +638,8 @@ html
 NULL
 )
 ifndef
+ANDROID
+ifndef
 MOZ_PLATFORM_MAEMO
 _TEST_FILES
 +
@@ -649,6 +651,7 @@ html
 bug657267
 .
 jar
+endif
 endif
 #
 test_bug484107
