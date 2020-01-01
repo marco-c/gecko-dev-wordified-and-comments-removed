@@ -214,6 +214,8 @@ AllocPRemoteOpenFileChild
 const
 URIParams
 &
+PBrowserChild
+*
 )
 ;
 virtual

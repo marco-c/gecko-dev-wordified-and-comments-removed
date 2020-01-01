@@ -441,6 +441,10 @@ nsString
 (
 aBinaryType
 )
+GetTabChildFrom
+(
+aWindow
+)
 )
 ;
 return

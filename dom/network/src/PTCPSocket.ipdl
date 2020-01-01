@@ -119,6 +119,10 @@ protocol
 PNecko
 ;
 include
+protocol
+PBrowser
+;
+include
 "
 mozilla
 /
@@ -258,6 +262,9 @@ bool
 useSSL
 nsString
 binaryType
+nullable
+PBrowser
+browser
 )
 ;
 Data
