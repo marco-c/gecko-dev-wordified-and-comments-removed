@@ -7832,7 +7832,13 @@ arguments
 }
 else
 {
-return
+throw
+"
+Incorrect
+number
+of
+parameters
+"
 ;
 }
 options
