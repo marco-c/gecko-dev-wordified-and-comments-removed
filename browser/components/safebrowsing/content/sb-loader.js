@@ -524,7 +524,7 @@ goog
 -
 malware
 -
-shavar
+sha128
 "
 )
 ;
@@ -576,7 +576,7 @@ goog
 -
 phish
 -
-shavar
+sha128
 "
 )
 ;

@@ -1629,8 +1629,6 @@ request
 url
 )
 {
-return
-;
 G_Debug
 (
 this

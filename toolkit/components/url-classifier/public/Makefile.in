@@ -54,10 +54,6 @@ nsIUrlClassifierUtils
 .
 idl
 \
-nsIUrlClassifierHashCompleter
-.
-idl
-\
 nsIUrlListManager
 .
 idl
