@@ -2087,9 +2087,6 @@ invalid_values
 ]
 }
 "
--
-moz
--
 border
 -
 image
@@ -2099,7 +2096,7 @@ image
 domProp
 :
 "
-MozBorderImage
+borderImage
 "
 inherited
 :
@@ -2111,9 +2108,6 @@ subproperties
 :
 [
 "
--
-moz
--
 border
 -
 image
@@ -2121,9 +2115,6 @@ image
 source
 "
 "
--
-moz
--
 border
 -
 image
@@ -2131,9 +2122,6 @@ image
 slice
 "
 "
--
-moz
--
 border
 -
 image
@@ -2141,9 +2129,6 @@ image
 width
 "
 "
--
-moz
--
 border
 -
 image
@@ -2151,9 +2136,6 @@ image
 outset
 "
 "
--
-moz
--
 border
 -
 image
@@ -2607,9 +2589,6 @@ png
 ]
 }
 "
--
-moz
--
 border
 -
 image
@@ -2621,7 +2600,7 @@ source
 domProp
 :
 "
-MozBorderImageSource
+borderImageSource
 "
 inherited
 :
@@ -2674,9 +2653,6 @@ png
 ]
 }
 "
--
-moz
--
 border
 -
 image
@@ -2688,7 +2664,7 @@ slice
 domProp
 :
 "
-MozBorderImageSlice
+borderImageSlice
 "
 inherited
 :
@@ -2798,9 +2774,6 @@ fill
 ]
 }
 "
--
-moz
--
 border
 -
 image
@@ -2812,7 +2785,7 @@ width
 domProp
 :
 "
-MozBorderImageWidth
+borderImageWidth
 "
 inherited
 :
@@ -2918,9 +2891,6 @@ auto
 ]
 }
 "
--
-moz
--
 border
 -
 image
@@ -2932,7 +2902,7 @@ outset
 domProp
 :
 "
-MozBorderImageOutset
+borderImageOutset
 "
 inherited
 :
@@ -3014,9 +2984,6 @@ invalid_values
 ]
 }
 "
--
-moz
--
 border
 -
 image
@@ -3028,7 +2995,7 @@ repeat
 domProp
 :
 "
-MozBorderImageRepeat
+borderImageRepeat
 "
 inherited
 :
@@ -19840,9 +19807,6 @@ left
 colors
 "
 "
--
-moz
--
 border
 -
 image
@@ -19850,9 +19814,6 @@ image
 source
 "
 "
--
-moz
--
 border
 -
 image
@@ -19860,9 +19821,6 @@ image
 slice
 "
 "
--
-moz
--
 border
 -
 image
@@ -19870,9 +19828,6 @@ image
 width
 "
 "
--
-moz
--
 border
 -
 image
@@ -19880,9 +19835,6 @@ image
 outset
 "
 "
--
-moz
--
 border
 -
 image

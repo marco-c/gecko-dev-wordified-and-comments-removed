@@ -3894,9 +3894,6 @@ computedStyle
 getPropertyCSSValue
 (
 "
--
-moz
--
 border
 -
 image
