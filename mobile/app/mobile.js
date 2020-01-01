@@ -3102,13 +3102,13 @@ www
 .
 mozilla
 .
-org
-/
-projects
+com
 /
 %
-APP
+LOCALE
 %
+/
+mobile
 /
 %
 VERSION
