@@ -229,11 +229,6 @@ gkgfx
 dll
 components
 \
-gkgfxwin
-.
-dll
-components
-\
 gkgfxthebes
 .
 dll
