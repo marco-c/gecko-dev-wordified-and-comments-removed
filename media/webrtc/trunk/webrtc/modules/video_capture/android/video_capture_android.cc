@@ -2021,6 +2021,11 @@ true
 ;
 }
 }
+if
+(
+env
+)
+{
 jmethodID
 cid
 =
@@ -2158,6 +2163,7 @@ id
 __FUNCTION__
 )
 ;
+}
 }
 if
 (
