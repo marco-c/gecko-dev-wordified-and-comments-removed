@@ -1284,6 +1284,16 @@ chunk
 IsNull
 (
 )
+|
+|
+chunk
+-
+>
+mChannelData
+.
+IsEmpty
+(
+)
 )
 {
 continue
