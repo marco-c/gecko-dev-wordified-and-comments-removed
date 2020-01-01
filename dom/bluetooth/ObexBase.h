@@ -247,6 +247,7 @@ ObexHeaderId
 aId
 int
 aDataLength
+const
 uint8_t
 *
 aData
