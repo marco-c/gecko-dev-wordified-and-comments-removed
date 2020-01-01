@@ -678,6 +678,16 @@ mirror
 null
 )
 {
+Groups
+.
+getActiveGroup
+(
+)
+.
+reorderBasedOnTabOrder
+(
+)
+;
 UI
 .
 tabBar
