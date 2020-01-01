@@ -424,6 +424,7 @@ startup
 .
 table
 "
+Show
 Table
 "
 >
@@ -436,6 +437,7 @@ startup
 .
 graph
 "
+Show
 Graph
 "
 >
