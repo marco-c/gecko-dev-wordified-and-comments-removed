@@ -454,7 +454,7 @@ extern
 nsresult
 TX_CompileStylesheet
 (
-nsIDOMNode
+nsINode
 *
 aNode
 txMozillaXSLTProcessor
