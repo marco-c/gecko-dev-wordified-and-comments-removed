@@ -2645,13 +2645,6 @@ win
 !
 =
 window
-&
-&
-win
-.
-toolbar
-.
-visible
 )
 lastBrowser
 =
