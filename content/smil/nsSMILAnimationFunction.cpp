@@ -1200,8 +1200,11 @@ result
 )
 {
 aResult
-=
+.
+Swap
+(
 result
+)
 ;
 }
 }
