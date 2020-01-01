@@ -13341,16 +13341,6 @@ Address
 addr
 )
 {
-JS_ASSERT
-(
-addr
-.
-base
-!
-=
-StackPointer
-)
-;
 Operand
 srcOp
 =
