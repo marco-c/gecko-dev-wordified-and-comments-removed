@@ -27,9 +27,6 @@ cmsBuildRGB2XYZtransferMatrix
 cmsPrecacheProfile
 =
 cmsPrecacheProfile
-cmsProfileIsBogus
-=
-cmsProfileIsBogus
 cmsCloseProfile
 =
 cmsCloseProfile

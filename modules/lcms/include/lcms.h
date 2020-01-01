@@ -5031,15 +5031,6 @@ hProfile
 )
 ;
 LCMSAPI
-LCMSBOOL
-LCMSEXPORT
-cmsProfileIsBogus
-(
-cmsHPROFILE
-hProfile
-)
-;
-LCMSAPI
 cmsHPROFILE
 LCMSEXPORT
 cmsCreateRGBProfile
