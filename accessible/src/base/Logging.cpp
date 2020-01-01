@@ -172,6 +172,15 @@ logging
 :
 eDocLifeCycle
 }
+{
+"
+platforms
+"
+logging
+:
+:
+ePlatforms
+}
 }
 ;
 const
