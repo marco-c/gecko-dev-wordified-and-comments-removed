@@ -9831,8 +9831,10 @@ void
 Assembler
 :
 :
-evictScratchRegs
+evictScratchRegsExcept
 (
+RegisterMask
+ignore
 )
 {
 Register
@@ -9885,6 +9887,9 @@ r
 )
 &
 GpRegs
+&
+~
+ignore
 )
 {
 LIns
@@ -10233,7 +10238,11 @@ last
 evictSomeActiveRegs
 (
 ~
+(
 SavedRegs
+|
+ignore
+)
 )
 ;
 }

@@ -7763,8 +7763,9 @@ rr
 )
 )
 ;
-evictScratchRegs
+evictScratchRegsExcept
 (
+0
 )
 ;
 const

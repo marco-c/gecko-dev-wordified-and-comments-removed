@@ -3629,8 +3629,9 @@ retReg
 )
 )
 ;
-evictScratchRegs
+evictScratchRegsExcept
 (
+0
 )
 ;
 const
