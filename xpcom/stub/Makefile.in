@@ -525,6 +525,8 @@ CPPSRCS
 nsXPComStub
 .
 cpp
+ifndef
+MOZ_ENABLE_LIBXUL
 ifeq
 (
 (
@@ -538,6 +540,7 @@ CPPSRCS
 nsOS2VACLegacy
 .
 cpp
+endif
 endif
 #
 If
