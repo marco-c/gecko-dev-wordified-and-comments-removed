@@ -10006,3 +10006,15 @@ enabled
 true
 )
 ;
+pref
+(
+"
+toolkit
+.
+startup
+.
+max_resumed_crashes
+"
+2
+)
+;
