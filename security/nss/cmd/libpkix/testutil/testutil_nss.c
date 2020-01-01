@@ -382,6 +382,7 @@ SECU_ReadDERFromFile
 certDER
 certFile
 PR_FALSE
+PR_FALSE
 )
 ;
 if
@@ -622,6 +623,7 @@ SECU_ReadDERFromFile
 &
 crlDER
 inFile
+PR_FALSE
 PR_FALSE
 )
 ;

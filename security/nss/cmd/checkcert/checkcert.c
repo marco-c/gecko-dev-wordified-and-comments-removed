@@ -1449,6 +1449,7 @@ SECU_ReadDERFromFile
 derCert
 inFile
 ascii
+PR_FALSE
 )
 !
 =
@@ -1538,6 +1539,7 @@ SECU_ReadDERFromFile
 derIssuerCert
 issuerCertFile
 issuerAscii
+PR_FALSE
 )
 !
 =

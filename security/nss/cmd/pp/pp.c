@@ -642,6 +642,7 @@ SECU_ReadDERFromFile
 der
 inFile
 ascii
+PR_FALSE
 )
 ;
 if

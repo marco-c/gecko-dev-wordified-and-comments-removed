@@ -372,6 +372,7 @@ SECU_ReadDERFromFile
 derdata
 in
 PR_FALSE
+PR_FALSE
 )
 )
 {

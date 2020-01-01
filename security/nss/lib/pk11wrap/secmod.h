@@ -3,7 +3,7 @@ ifndef
 _SECMOD_H_
 #
 define
-_SEDMOD_H_
+_SECMOD_H_
 #
 include
 "
