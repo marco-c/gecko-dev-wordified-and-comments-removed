@@ -1622,7 +1622,7 @@ GetFullScreenElement
 ;
 virtual
 void
-RequestFullScreen
+AsyncRequestFullScreen
 (
 Element
 *
