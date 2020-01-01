@@ -52,6 +52,13 @@ h
 "
 #
 include
+"
+gfxFontconfigUtils
+.
+h
+"
+#
+include
 <
 freetype
 /
