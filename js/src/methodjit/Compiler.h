@@ -1334,8 +1334,15 @@ popped
 )
 ;
 bool
-arrayPrototypeHasIndexedSetter
+arrayPrototypeHasIndexedProperty
 (
+)
+;
+bool
+mayPushUndefined
+(
+uint32
+pushed
 )
 ;
 void

@@ -764,7 +764,7 @@ script
 )
 ;
 bool
-hasGetterSetter
+knownNonEmpty
 (
 JSContext
 *
