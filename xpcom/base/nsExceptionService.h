@@ -134,9 +134,6 @@ nsExceptionManager
 *
 firstThread
 ;
-nsSupportsHashtable
-mProviders
-;
 static
 mozilla
 :
