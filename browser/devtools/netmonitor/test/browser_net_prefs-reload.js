@@ -33,7 +33,7 @@ test
 ;
 requestLongerTimeout
 (
-2
+3
 )
 ;
 let
