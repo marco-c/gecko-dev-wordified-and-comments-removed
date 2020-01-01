@@ -266,10 +266,6 @@ NS_EVENT_FLAG_SYSTEM_EVENT
 0x0200
 #
 define
-NS_EVENT_FLAG_SYNTHETIC_TEST_EVENT
-0x1000
-#
-define
 NS_EVENT_FLAG_ONLY_CHROME_DISPATCH
 0x2000
 #
@@ -1887,6 +1883,11 @@ mIsBeingDispatched
 ;
 bool
 mDispatchedAtLeastOnce
+:
+1
+;
+bool
+mIsSynthesizedForTests
 :
 1
 ;
