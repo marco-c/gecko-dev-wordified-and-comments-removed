@@ -91,6 +91,10 @@ mozIApplication
 .
 idl
 \
+mozIApplicationClearPrivateDataParams
+.
+idl
+\
 nsIDOMApplicationRegistry
 .
 idl
