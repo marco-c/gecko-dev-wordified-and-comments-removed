@@ -201,6 +201,17 @@ gfxContext
 aContext
 )
 ;
+virtual
+FontType
+GetType
+(
+)
+const
+{
+return
+FONT_TYPE_OS2
+;
+}
 private
 :
 cairo_font_face_t

@@ -178,6 +178,17 @@ aSizes
 )
 const
 ;
+virtual
+FontType
+GetType
+(
+)
+const
+{
+return
+FONT_TYPE_MAC
+;
+}
 protected
 :
 virtual
