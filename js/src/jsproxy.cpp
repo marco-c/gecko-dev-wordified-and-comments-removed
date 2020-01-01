@@ -5582,9 +5582,6 @@ js_Enumerate
 proxy_TypeOf_obj
 proxy_TraceObject
 NULL
-NULL
-NULL
-js_HasInstance
 proxy_Finalize
 }
 ;
@@ -5802,9 +5799,6 @@ js_Enumerate
 proxy_TypeOf_fun
 proxy_TraceObject
 NULL
-proxy_Call
-proxy_Construct
-proxy_HasInstance
 NULL
 }
 ;
@@ -5840,6 +5834,8 @@ JSCLASS_HAS_RESERVED_SLOTS
 (
 4
 )
+|
+CLASS_CALL_IS_FAST
 PropertyStub
 PropertyStub
 PropertyStub
@@ -5850,10 +5846,13 @@ ConvertStub
 NULL
 fun_proxy_getObjectOps
 NULL
+CastCallOpAsNative
+(
+proxy_Call
+)
+proxy_Construct
 NULL
-NULL
-NULL
-NULL
+proxy_HasInstance
 NULL
 NULL
 }

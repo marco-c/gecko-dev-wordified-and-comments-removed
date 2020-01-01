@@ -24996,9 +24996,6 @@ xml_enumerate
 xml_typeOf
 js_TraceObject
 NULL
-NULL
-NULL
-xml_hasInstance
 xml_clear
 }
 ;
@@ -25049,7 +25046,7 @@ NULL
 NULL
 NULL
 NULL
-NULL
+xml_hasInstance
 JS_CLASS_TRACE
 (
 xml_trace
