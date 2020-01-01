@@ -8162,7 +8162,7 @@ NS_IMETHODIMP
 nsAccessible
 :
 :
-GetNumActions
+GetActionCount
 (
 PRUint8
 *

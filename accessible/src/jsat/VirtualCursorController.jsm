@@ -696,7 +696,7 @@ if
 (
 acc
 .
-numActions
+actionCount
 >
 0
 )

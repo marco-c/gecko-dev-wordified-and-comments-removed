@@ -341,7 +341,7 @@ role
 1
 /
 /
-numActions
+actionCount
 "
 activate
 "
@@ -474,7 +474,7 @@ role
 1
 /
 /
-numActions
+actionCount
 "
 activate
 "
@@ -613,7 +613,7 @@ role
 1
 /
 /
-numActions
+actionCount
 "
 activate
 "
@@ -745,7 +745,7 @@ role
 1
 /
 /
-numActions
+actionCount
 "
 activate
 "
@@ -870,7 +870,7 @@ role
 1
 /
 /
-numActions
+actionCount
 "
 activate
 "
@@ -1001,7 +1001,7 @@ role
 1
 /
 /
-numActions
+actionCount
 "
 activate
 "
@@ -1140,7 +1140,7 @@ role
 1
 /
 /
-numActions
+actionCount
 "
 activate
 "
@@ -1283,7 +1283,7 @@ role
 1
 /
 /
-numActions
+actionCount
 "
 activate
 "
@@ -1424,7 +1424,7 @@ role
 1
 /
 /
-numActions
+actionCount
 "
 activate
 "
@@ -1567,7 +1567,7 @@ role
 1
 /
 /
-numActions
+actionCount
 "
 activate
 "
@@ -1703,7 +1703,7 @@ role
 1
 /
 /
-numActions
+actionCount
 "
 activate
 "
