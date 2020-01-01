@@ -13965,11 +13965,10 @@ gdk_get_program_class
 ;
 if
 (
-!
 aInitData
 -
 >
-mNoAutoHide
+mSupportTranslucency
 )
 {
 GdkScreen
@@ -14031,7 +14030,13 @@ visual
 endif
 }
 }
-else
+if
+(
+aInitData
+-
+>
+mNoAutoHide
+)
 {
 if
 (

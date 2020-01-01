@@ -161,6 +161,10 @@ mIsAnimationSuppressed
 (
 false
 )
+mSupportTranslucency
+(
+false
+)
 {
 }
 nsWindowType
@@ -197,6 +201,9 @@ mIsDragPopup
 ;
 bool
 mIsAnimationSuppressed
+;
+bool
+mSupportTranslucency
 ;
 }
 ;
