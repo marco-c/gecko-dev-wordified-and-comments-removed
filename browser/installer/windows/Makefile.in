@@ -179,6 +179,12 @@ nsi
 \
 nsis
 /
+stub
+.
+nsi
+\
+nsis
+/
 shared
 .
 nsh
