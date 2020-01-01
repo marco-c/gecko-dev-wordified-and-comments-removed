@@ -141,7 +141,7 @@ PHttpChannelChild
 NeckoChild
 :
 :
-PHttpChannelConstructor
+AllocPHttpChannel
 (
 )
 {
@@ -156,7 +156,7 @@ bool
 NeckoChild
 :
 :
-PHttpChannelDestructor
+DeallocPHttpChannel
 (
 PHttpChannelChild
 *

@@ -48,7 +48,7 @@ PHttpChannelParent
 NeckoParent
 :
 :
-PHttpChannelConstructor
+AllocPHttpChannel
 (
 )
 {
@@ -63,7 +63,7 @@ bool
 NeckoParent
 :
 :
-PHttpChannelDestructor
+DeallocPHttpChannel
 (
 PHttpChannelParent
 *

@@ -281,7 +281,7 @@ rv
 virtual
 PPluginInstanceChild
 *
-PPluginInstanceConstructor
+AllocPPluginInstance
 (
 const
 nsCString
@@ -312,7 +312,7 @@ rv
 ;
 virtual
 bool
-PPluginInstanceDestructor
+DeallocPPluginInstance
 (
 PPluginInstanceChild
 *

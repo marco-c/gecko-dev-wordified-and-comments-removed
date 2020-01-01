@@ -77,7 +77,7 @@ aCommand
 ;
 PTestShellCommandChild
 *
-PTestShellCommandConstructor
+AllocPTestShellCommand
 (
 const
 nsString
@@ -98,7 +98,7 @@ aCommand
 )
 ;
 bool
-PTestShellCommandDestructor
+DeallocPTestShellCommand
 (
 PTestShellCommandChild
 *

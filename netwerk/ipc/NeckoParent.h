@@ -55,13 +55,13 @@ protected
 virtual
 PHttpChannelParent
 *
-PHttpChannelConstructor
+AllocPHttpChannel
 (
 )
 ;
 virtual
 bool
-PHttpChannelDestructor
+DeallocPHttpChannel
 (
 PHttpChannelParent
 *

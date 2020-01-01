@@ -118,13 +118,13 @@ PluginInstanceParent
 virtual
 PPluginScriptableObjectParent
 *
-PPluginScriptableObjectConstructor
+AllocPPluginScriptableObject
 (
 )
 ;
 virtual
 bool
-PPluginScriptableObjectDestructor
+DeallocPPluginScriptableObject
 (
 PPluginScriptableObjectParent
 *
@@ -134,7 +134,7 @@ aObject
 virtual
 PBrowserStreamParent
 *
-PBrowserStreamConstructor
+AllocPBrowserStream
 (
 const
 nsCString
@@ -191,7 +191,7 @@ artificial
 ;
 virtual
 bool
-PBrowserStreamDestructor
+DeallocPBrowserStream
 (
 PBrowserStreamParent
 *
@@ -209,7 +209,7 @@ artificial
 virtual
 PPluginStreamParent
 *
-PPluginStreamConstructor
+AllocPPluginStream
 (
 const
 nsCString
@@ -226,7 +226,7 @@ result
 ;
 virtual
 bool
-PPluginStreamDestructor
+DeallocPPluginStream
 (
 PPluginStreamParent
 *
@@ -348,7 +348,7 @@ result
 virtual
 PStreamNotifyParent
 *
-PStreamNotifyConstructor
+AllocPStreamNotify
 (
 const
 nsCString
@@ -377,7 +377,7 @@ result
 ;
 virtual
 bool
-PStreamNotifyDestructor
+DeallocPStreamNotify
 (
 PStreamNotifyParent
 *
