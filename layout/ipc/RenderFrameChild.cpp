@@ -135,6 +135,9 @@ LayerManager
 LayersBackend
 *
 aBackendType
+int
+*
+aMaxTextureSize
 )
 {
 return

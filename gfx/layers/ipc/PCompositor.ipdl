@@ -295,6 +295,11 @@ PLayers
 LayersBackend
 backend
 )
+returns
+(
+int
+maxTextureSize
+)
 ;
 }
 ;

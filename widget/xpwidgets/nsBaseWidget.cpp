@@ -3127,6 +3127,9 @@ childMessageLoop
 childSide
 )
 ;
+PRInt32
+maxTextureSize
+;
 PLayersChild
 *
 shadowManager
@@ -3140,6 +3143,8 @@ LayerManager
 :
 :
 LAYERS_OPENGL
+&
+maxTextureSize
 )
 ;
 if
@@ -3191,6 +3196,14 @@ LayerManager
 :
 :
 LAYERS_OPENGL
+)
+;
+lf
+-
+>
+SetMaxTextureSize
+(
+maxTextureSize
 )
 ;
 mLayerManager

@@ -1049,6 +1049,15 @@ true
 ;
 }
 virtual
+PRInt32
+GetMaxTextureSize
+(
+)
+const
+=
+0
+;
+virtual
 void
 GetBackendName
 (

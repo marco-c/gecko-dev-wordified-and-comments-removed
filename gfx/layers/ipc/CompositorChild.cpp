@@ -174,7 +174,10 @@ AllocPLayers
 const
 LayersBackend
 &
-backend
+aBackend
+int
+*
+aMaxTextureSize
 )
 {
 return

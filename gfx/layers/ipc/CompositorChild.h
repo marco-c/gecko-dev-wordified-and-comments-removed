@@ -68,6 +68,9 @@ const
 LayersBackend
 &
 aBackend
+int
+*
+aMaxTextureSize
 )
 ;
 virtual

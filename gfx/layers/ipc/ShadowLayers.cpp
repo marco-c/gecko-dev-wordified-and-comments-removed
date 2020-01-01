@@ -498,6 +498,10 @@ mShadowManager
 (
 NULL
 )
+mMaxTextureSize
+(
+0
+)
 mParentBackend
 (
 LayerManager

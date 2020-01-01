@@ -228,6 +228,8 @@ returns
 (
 LayersBackend
 backend
+int
+maxTextureSize
 )
 ;
 async
