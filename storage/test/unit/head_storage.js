@@ -19,6 +19,10 @@ Components
 .
 results
 ;
+do_get_profile
+(
+)
+;
 var
 dirSvc
 =
@@ -57,7 +61,7 @@ dirSvc
 get
 (
 "
-CurProcD
+ProfD
 "
 Ci
 .

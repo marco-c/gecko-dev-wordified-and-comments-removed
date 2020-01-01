@@ -71,7 +71,7 @@ dirSvc
 get
 (
 "
-CurProcD
+ProfD
 "
 Ci
 .
