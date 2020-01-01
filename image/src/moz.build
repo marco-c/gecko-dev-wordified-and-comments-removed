@@ -143,6 +143,11 @@ DiscardTracker
 cpp
 '
 '
+FrameAnimator
+.
+cpp
+'
+'
 FrameBlender
 .
 cpp

@@ -2252,6 +2252,7 @@ imgFrame
 GetIsDirty
 (
 )
+const
 {
 MutexAutoLock
 lock
@@ -3221,6 +3222,12 @@ ImageComplete
 )
 const
 {
+MutexAutoLock
+lock
+(
+mDirtyMutex
+)
+;
 return
 mDecoded
 .
