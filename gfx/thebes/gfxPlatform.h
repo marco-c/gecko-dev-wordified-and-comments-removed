@@ -992,6 +992,16 @@ return
 true
 ;
 }
+virtual
+bool
+RequiresLinearZoom
+(
+)
+{
+return
+false
+;
+}
 bool
 UsesSubpixelAATextRendering
 (

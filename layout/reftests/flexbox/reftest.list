@@ -235,6 +235,14 @@ test
 vs
 .
 ref
+fuzzy
+-
+if
+(
+B2G
+10
+3
+)
 random
 -
 if
