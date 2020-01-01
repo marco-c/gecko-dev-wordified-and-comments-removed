@@ -436,9 +436,9 @@ NULL
 )
 ifeq
 (
-Android
+android
 (
-OS_TARGET
+MOZ_WIDGET_TOOLKIT
 )
 )
 CPPSRCS

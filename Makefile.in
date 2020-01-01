@@ -485,10 +485,10 @@ ifndef
 LIBXUL_SDK
 ifeq
 (
+android
 (
-OS_TARGET
+MOZ_WIDGET_TOOLKIT
 )
-Android
 )
 tier_base_dirs
 +

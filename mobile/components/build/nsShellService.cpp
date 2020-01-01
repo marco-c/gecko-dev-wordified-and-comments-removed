@@ -38,7 +38,7 @@ QWidget
 endif
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 #
 include
 "
@@ -245,7 +245,7 @@ NS_ERROR_FAILURE
 ;
 #
 if
-ANDROID
+MOZ_WIDGET_ANDROID
 mozilla
 :
 :

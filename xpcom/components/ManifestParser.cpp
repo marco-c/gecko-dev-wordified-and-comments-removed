@@ -82,7 +82,7 @@ h
 endif
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 #
 include
 "
@@ -2114,7 +2114,7 @@ gtk_minor_version
 elif
 defined
 (
-ANDROID
+MOZ_WIDGET_ANDROID
 )
 if
 (

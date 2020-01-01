@@ -147,7 +147,7 @@ h
 "
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 #
 include
 "
@@ -205,7 +205,7 @@ parent
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 #
 include
 <
@@ -276,7 +276,7 @@ endif
 endif
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 mSurface
 (
 nsnull
@@ -443,7 +443,7 @@ useLayersPref
 }
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 mTargetSurfaceLock
 =
 new
@@ -527,7 +527,7 @@ nsnull
 }
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 if
 (
 mSurface
@@ -1442,7 +1442,7 @@ pvalues
 {
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 NS_ASSERTION
 (
 PL_strcmp
@@ -3270,7 +3270,7 @@ endif
 if
 defined
 (
-ANDROID
+MOZ_WIDGET_ANDROID
 )
 void
 nsNPAPIPluginInstance
@@ -3746,7 +3746,7 @@ XP_MACOSX
 |
 defined
 (
-ANDROID
+MOZ_WIDGET_ANDROID
 )
 *
 aModel
@@ -4097,7 +4097,7 @@ isWindowless
 {
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 *
 isWindowless
 =

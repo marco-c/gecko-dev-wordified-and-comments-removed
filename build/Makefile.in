@@ -448,9 +448,9 @@ ifdef
 ENABLE_TESTS
 ifeq
 (
-Android
+android
 (
-OS_TARGET
+MOZ_WIDGET_TOOLKIT
 )
 )
 DIRS

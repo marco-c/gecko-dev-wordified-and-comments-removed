@@ -552,6 +552,7 @@ os2
 cocoa
 windows
 android
+gonk
 (
 MOZ_WIDGET_TOOLKIT
 )

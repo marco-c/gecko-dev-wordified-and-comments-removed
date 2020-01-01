@@ -521,9 +521,9 @@ BZ2
 else
 ifeq
 (
-Android
+android
 (
-OS_TARGET
+MOZ_WIDGET_TOOLKIT
 )
 )
 MOZ_PKG_FORMAT

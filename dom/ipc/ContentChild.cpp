@@ -361,7 +361,7 @@ h
 if
 defined
 (
-ANDROID
+MOZ_WIDGET_ANDROID
 )
 #
 include
@@ -1026,7 +1026,7 @@ XRE_GetProcessType
 if
 defined
 (
-ANDROID
+MOZ_WIDGET_ANDROID
 )
 PCrashReporterChild
 *

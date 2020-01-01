@@ -197,7 +197,7 @@ taskbar
 endif
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 #
 include
 "
@@ -224,7 +224,7 @@ GeckoChildProcessHost
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 static
 const
 int
@@ -1806,7 +1806,7 @@ ifdef
 OS_LINUX
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 path
 +
 =
@@ -2004,7 +2004,7 @@ exePath
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 chmod
 (
 exePath
@@ -2593,7 +2593,7 @@ childProcessType
 ;
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 childArgv
 .
 push_back

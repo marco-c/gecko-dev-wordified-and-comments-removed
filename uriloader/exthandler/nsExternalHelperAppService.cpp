@@ -557,7 +557,7 @@ h
 "
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 #
 include
 "
@@ -1749,7 +1749,7 @@ File
 }
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 {
 "
 application

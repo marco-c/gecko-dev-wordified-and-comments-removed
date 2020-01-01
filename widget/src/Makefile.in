@@ -423,6 +423,7 @@ os2
 cocoa
 qt
 android
+gonk
 (
 MOZ_WIDGET_TOOLKIT
 )

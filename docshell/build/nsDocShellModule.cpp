@@ -107,7 +107,7 @@ endif
 if
 defined
 (
-ANDROID
+MOZ_WIDGET_ANDROID
 )
 |
 |
@@ -128,7 +128,7 @@ endif
 if
 defined
 (
-ANDROID
+MOZ_WIDGET_ANDROID
 )
 #
 include
@@ -329,7 +329,7 @@ endif
 if
 defined
 (
-ANDROID
+MOZ_WIDGET_ANDROID
 )
 |
 |
@@ -347,7 +347,7 @@ endif
 if
 defined
 (
-ANDROID
+MOZ_WIDGET_ANDROID
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
@@ -445,7 +445,7 @@ endif
 if
 defined
 (
-ANDROID
+MOZ_WIDGET_ANDROID
 )
 |
 |
@@ -464,7 +464,7 @@ endif
 if
 defined
 (
-ANDROID
+MOZ_WIDGET_ANDROID
 )
 NS_DEFINE_NAMED_CID
 (
@@ -619,7 +619,7 @@ endif
 if
 defined
 (
-ANDROID
+MOZ_WIDGET_ANDROID
 )
 |
 |
@@ -640,7 +640,7 @@ endif
 if
 defined
 (
-ANDROID
+MOZ_WIDGET_ANDROID
 )
 {
 &
@@ -925,7 +925,7 @@ endif
 if
 defined
 (
-ANDROID
+MOZ_WIDGET_ANDROID
 )
 |
 |
@@ -944,7 +944,7 @@ endif
 if
 defined
 (
-ANDROID
+MOZ_WIDGET_ANDROID
 )
 {
 NS_EXTERNALURLHANDLERSERVICE_CONTRACTID

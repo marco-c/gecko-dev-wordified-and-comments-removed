@@ -40,7 +40,7 @@ h
 "
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 #
 include
 <
@@ -2032,7 +2032,7 @@ pFuncs
 else
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 typedef
 NPError
 (
