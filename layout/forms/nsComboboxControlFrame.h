@@ -711,9 +711,6 @@ aShowPopup
 PRBool
 ShowList
 (
-nsPresContext
-*
-aPresContext
 PRBool
 aShowList
 )
