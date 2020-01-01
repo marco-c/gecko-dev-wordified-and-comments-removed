@@ -1703,6 +1703,9 @@ arch
 version
 "
 "
+kernel_version
+"
+"
 device
 "
 "
