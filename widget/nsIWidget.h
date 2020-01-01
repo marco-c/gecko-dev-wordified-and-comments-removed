@@ -481,9 +481,6 @@ nsString
 mHTMLInputType
 ;
 nsString
-mHTMLInputInputmode
-;
-nsString
 mActionHint
 ;
 }
