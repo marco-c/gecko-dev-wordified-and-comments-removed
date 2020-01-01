@@ -390,9 +390,14 @@ mJSMethodObject
 ;
 }
 ;
+#
+ifdef
+DEBUG
 PRBool
 mIsCompiled
 ;
+#
+endif
 }
 ;
 class
