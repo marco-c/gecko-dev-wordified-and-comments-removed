@@ -1061,8 +1061,16 @@ bottom
 #
 viewButton
 >
-hbox
+.
+button
+-
+box
 >
+.
+button
+-
+menu
+-
 dropmarker
 {
 height

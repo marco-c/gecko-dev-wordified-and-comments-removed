@@ -125,6 +125,13 @@ mediatext
 }
 #
 placesMenu
+>
+menu
+>
+.
+menubar
+-
+text
 :
 -
 moz
@@ -139,10 +146,6 @@ default
 -
 theme
 )
->
-menu
->
-label
 {
 -
 moz
