@@ -316,15 +316,6 @@ NS_HTTP_TIMING_ENABLED
 )
 #
 define
-NS_HTTP_CLEAR_KEEPALIVES
-(
-1
-<
-<
-6
-)
-#
-define
 NS_HTTP_DISALLOW_SPDY
 (
 1
