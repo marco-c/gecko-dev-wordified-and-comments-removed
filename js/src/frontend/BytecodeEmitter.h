@@ -640,6 +640,14 @@ needsImplicitThis
 (
 )
 ;
+void
+tellDebuggerAboutCompiledScript
+(
+JSContext
+*
+cx
+)
+;
 TokenStream
 *
 tokenStream
