@@ -483,6 +483,11 @@ row
 >
 <
 hbox
+id
+=
+"
+iconContainer
+"
 align
 =
 "
