@@ -121,7 +121,7 @@ if
 (
 tokenizer
 .
-firstTokenBeganWithWhitespace
+whitespaceBeforeFirstToken
 (
 )
 )
@@ -272,14 +272,14 @@ hasMoreTokens
 |
 tokenizer
 .
-lastTokenEndedWithWhitespace
+whitespaceAfterCurrentToken
 (
 )
 |
 |
 tokenizer
 .
-lastTokenEndedWithSeparator
+separatorAfterCurrentToken
 (
 )
 )

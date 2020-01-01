@@ -244,7 +244,7 @@ if
 (
 tokenizer
 .
-lastTokenEndedWithSeparator
+separatorAfterCurrentToken
 (
 )
 )
@@ -256,7 +256,10 @@ NS_ERROR_DOM_SYNTAX_ERR
 }
 else
 {
-nsWhitespaceTokenizer
+nsWhitespaceTokenizerTemplate
+<
+IsSVGWhitespace
+>
 tokenizer
 (
 aValue

@@ -25242,7 +25242,7 @@ return
 !
 tokenizer
 .
-lastTokenEndedWithSeparator
+separatorAfterCurrentToken
 (
 )
 ;
