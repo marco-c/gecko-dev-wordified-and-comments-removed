@@ -31826,6 +31826,8 @@ splitRv2
 ;
 splitRv1
 =
+mCurrentURI
+?
 nsContentUtils
 :
 :
@@ -31835,6 +31837,8 @@ mCurrentURI
 curBeforeHash
 curHash
 )
+:
+NS_OK
 ;
 splitRv2
 =
@@ -40720,8 +40724,6 @@ buttonPressed
 ;
 PRBool
 checkState
-=
-PR_FALSE
 ;
 rv
 =
