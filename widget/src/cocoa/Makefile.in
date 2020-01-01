@@ -568,10 +568,6 @@ nsIdleServiceX
 .
 mm
 \
-nsAccelerometerX
-.
-mm
-\
 nsCocoaTextInputHandler
 .
 mm

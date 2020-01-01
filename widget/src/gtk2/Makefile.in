@@ -516,10 +516,6 @@ nsAccessibilityHelper
 .
 cpp
 \
-nsAccelerometerUnix
-.
-cpp
-\
 nsGtkIMModule
 .
 cpp

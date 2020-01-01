@@ -451,6 +451,10 @@ nsIGIOService
 .
 idl
 \
+nsIAccelerometer
+.
+idl
+\
 (
 NULL
 )
