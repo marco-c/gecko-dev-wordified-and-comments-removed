@@ -1238,6 +1238,10 @@ resultLen
 nsAutoString
 expandedResult
 ;
+-
+-
+resultLen
+;
 expandedResult
 .
 SetLength
@@ -1287,6 +1291,8 @@ get
 (
 )
 resultLen
++
+1
 )
 ;
 if
@@ -1309,12 +1315,6 @@ Truncate
 ;
 }
 else
-if
-(
-resultLen
->
-0
-)
 {
 rv
 =
