@@ -92,9 +92,6 @@ MPL
 *
 /
 interface
-nsISupports
-;
-interface
 XPathExpression
 ;
 interface
