@@ -4325,6 +4325,16 @@ aScript
 {
 if
 (
+!
+aScript
+.
+url
+)
+return
+false
+;
+if
+(
 aScript
 .
 url
