@@ -4339,9 +4339,6 @@ JSAtomListElement
 *
 ale
 ;
-uint32
-count
-;
 JS_ASSERT
 (
 al
@@ -4403,13 +4400,6 @@ vector
 return
 ;
 }
-count
-=
-al
--
->
-count
-;
 vector
 =
 map
