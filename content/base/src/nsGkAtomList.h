@@ -592,6 +592,13 @@ bgcolor
 )
 GK_ATOM
 (
+bgsound
+"
+bgsound
+"
+)
+GK_ATOM
+(
 big
 "
 big
@@ -3125,6 +3132,13 @@ GK_ATOM
 keydown
 "
 keydown
+"
+)
+GK_ATOM
+(
+keygen
+"
+keygen
 "
 )
 GK_ATOM
