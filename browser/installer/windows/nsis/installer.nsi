@@ -782,9 +782,6 @@ insertmacro
 CreateRegKey
 !
 insertmacro
-FindSMProgramsDir
-!
-insertmacro
 GetPathFromString
 !
 insertmacro

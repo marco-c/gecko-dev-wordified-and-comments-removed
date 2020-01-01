@@ -6466,7 +6466,7 @@ FileExists
 "
 ClearErrors
 ReadINIStr
-1
+5
 "
 0
 "
@@ -6533,7 +6533,7 @@ GetLongPath
 "
 2
 \
-1
+5
 "
 1
 {

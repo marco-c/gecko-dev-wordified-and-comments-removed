@@ -684,9 +684,6 @@ insertmacro
 ElevateUAC
 !
 insertmacro
-FindSMProgramsDir
-!
-insertmacro
 GetLongPath
 !
 insertmacro
