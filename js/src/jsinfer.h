@@ -2806,6 +2806,7 @@ script
 jsbytecode
 *
 pc
+const
 js
 :
 :
@@ -2946,6 +2947,7 @@ JSScript
 script
 unsigned
 arg
+const
 js
 :
 :
