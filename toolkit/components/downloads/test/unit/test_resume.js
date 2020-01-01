@@ -759,7 +759,6 @@ null
 dl
 .
 targetFile
-null
 )
 ;
 do_test_pending
