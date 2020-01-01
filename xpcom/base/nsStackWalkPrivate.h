@@ -1,6 +1,0 @@
-void
-StackWalkInitCriticalAddress
-(
-void
-)
-;
