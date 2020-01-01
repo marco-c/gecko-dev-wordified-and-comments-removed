@@ -4042,6 +4042,9 @@ fp
 if
 (
 result
+&
+&
+ok
 )
 *
 result
