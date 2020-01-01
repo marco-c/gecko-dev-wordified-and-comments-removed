@@ -3,7 +3,6 @@ __future__
 import
 print_function
 unicode_literals
-with_statement
 import
 distutils
 .
