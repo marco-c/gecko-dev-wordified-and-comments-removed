@@ -386,7 +386,7 @@ CERT_TYPE_NOT_YET_INITIALIZED
 <
 30
 )
-NS_IMPL_THREADSAFE_ISUPPORTS5
+NS_IMPL_THREADSAFE_ISUPPORTS7
 (
 nsNSSCertificate
 nsIX509Cert
@@ -394,6 +394,8 @@ nsIX509Cert2
 nsIX509Cert3
 nsIIdentityInfo
 nsISMimeCert
+nsISerializable
+nsIClassInfo
 )
 nsNSSCertificate
 *
