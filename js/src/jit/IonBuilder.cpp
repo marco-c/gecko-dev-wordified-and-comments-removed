@@ -22308,7 +22308,9 @@ type
 )
 -
 >
-newScript
+hasNewScript
+(
+)
 )
 types
 :

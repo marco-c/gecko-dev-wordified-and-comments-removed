@@ -8324,7 +8324,9 @@ if
 type
 -
 >
-newScript
+hasNewScript
+(
+)
 )
 {
 gc
@@ -8337,6 +8339,8 @@ type
 -
 >
 newScript
+(
+)
 -
 >
 allocKind
@@ -8383,6 +8387,8 @@ type
 -
 >
 newScript
+(
+)
 -
 >
 shape
@@ -13649,7 +13655,9 @@ type
 )
 -
 >
-newScript
+hasNewScript
+(
+)
 )
 {
 gc
@@ -13667,6 +13675,8 @@ type
 -
 >
 newScript
+(
+)
 -
 >
 allocKind
@@ -13754,6 +13764,8 @@ typeObj
 -
 >
 newScript
+(
+)
 -
 >
 shape
@@ -13789,6 +13801,8 @@ typeObj
 -
 >
 newScript
+(
+)
 -
 >
 allocKind
@@ -13799,6 +13813,8 @@ typeObj
 -
 >
 newScript
+(
+)
 -
 >
 shape
