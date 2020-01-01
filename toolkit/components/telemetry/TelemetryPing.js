@@ -5200,7 +5200,7 @@ _doLoadSaveNotifications
 true
 ;
 }
-addOns
+setAddOns
 :
 function
 setAddOns
