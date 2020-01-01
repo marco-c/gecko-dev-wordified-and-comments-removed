@@ -1535,6 +1535,8 @@ panel
 this
 .
 len
+=
+0
 ;
 this
 .
@@ -1747,6 +1749,11 @@ args
 )
 )
 ;
+var
+self
+=
+this
+;
 for
 (
 var
@@ -1877,11 +1884,6 @@ cbox
 checked
 =
 checked
-;
-var
-self
-=
-this
 ;
 cbox
 .
@@ -2238,6 +2240,7 @@ break
 ;
 }
 }
+;
 dom
 .
 addEventListener
@@ -3066,6 +3069,11 @@ this
 .
 tools
 ;
+var
+self
+=
+this
+;
 for
 (
 var
@@ -3123,11 +3131,6 @@ textContent
 tool
 .
 name
-;
-var
-self
-=
-this
 ;
 panelButton
 .
