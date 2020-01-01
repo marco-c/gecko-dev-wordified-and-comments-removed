@@ -703,8 +703,8 @@ const
 long
 NSS_SEC_ERROR_BASE
 =
-(
 -
+(
 0x2000
 )
 ;
@@ -722,8 +722,8 @@ const
 long
 NSS_SSL_ERROR_BASE
 =
-(
 -
+(
 0x3000
 )
 ;
