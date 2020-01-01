@@ -1326,6 +1326,10 @@ test_tmpl_errors
 .
 xul
 \
+test_tmpl_regenerate
+.
+xul
+\
 (
 NULL
 )

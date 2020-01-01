@@ -343,6 +343,10 @@ Uninit
 PR_FALSE
 )
 ;
+mRoot
+=
+nsnull
+;
 }
 void
 UninitTrue
@@ -353,6 +357,10 @@ Uninit
 (
 PR_TRUE
 )
+;
+mRoot
+=
+nsnull
 ;
 }
 nsresult
