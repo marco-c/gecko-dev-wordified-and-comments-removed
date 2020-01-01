@@ -7965,12 +7965,12 @@ dt
 >
 SetTransform
 (
-oldMat
-*
 ToMatrix
 (
 aCTM
 )
+*
+oldMat
 )
 ;
 gfxSize
