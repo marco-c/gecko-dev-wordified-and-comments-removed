@@ -2185,11 +2185,6 @@ PRBool
 mLivemarkFeedURIs
 ;
 nsresult
-AutoCompleteTypedSearch
-(
-)
-;
-nsresult
 AutoCompleteFullHistorySearch
 (
 PRBool
