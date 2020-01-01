@@ -5073,6 +5073,16 @@ isConstant
 )
 |
 |
+(
+!
+rhs
+-
+>
+isConstant
+(
+)
+&
+&
 rhs
 -
 >
@@ -5082,6 +5092,7 @@ useCount
 =
 =
 1
+)
 )
 {
 *
