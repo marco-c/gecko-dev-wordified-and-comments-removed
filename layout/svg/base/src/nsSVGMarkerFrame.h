@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsSVGUtils
+.
+h
+"
+#
+include
+"
 gfxMatrix
 .
 h
@@ -26,6 +33,9 @@ nsRenderingContext
 ;
 class
 nsSVGPathGeometryFrame
+;
+class
+nsSVGSVGElement
 ;
 class
 nsIURI

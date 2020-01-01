@@ -15,6 +15,13 @@ h
 #
 include
 "
+nsSVGUtils
+.
+h
+"
+#
+include
+"
 gfxRect
 .
 h

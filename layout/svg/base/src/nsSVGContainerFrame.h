@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsSVGSVGElement
-.
-h
-"
-#
-include
-"
 gfxRect
 .
 h
