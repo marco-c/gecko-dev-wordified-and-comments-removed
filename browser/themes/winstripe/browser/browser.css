@@ -15824,6 +15824,12 @@ top
 :
 6px
 ;
+margin
+-
+bottom
+:
+0
+;
 -
 moz
 -
@@ -15831,7 +15837,7 @@ margin
 -
 end
 :
-1px
+0
 ;
 }
 #
@@ -15908,7 +15914,7 @@ width
 ;
 padding
 :
-10px
+9px
 ;
 }
 #
