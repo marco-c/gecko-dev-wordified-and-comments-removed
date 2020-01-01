@@ -432,6 +432,13 @@ h
 #
 include
 "
+nsObjCExceptions
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -487,6 +494,8 @@ GetAppCreatorCode
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 ProcessSerialNumber
 psn
 =
@@ -532,6 +541,11 @@ procInfo
 .
 processSignature
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+0x0
+)
+;
 }
 ICInstance
 nsInternetConfig
@@ -541,6 +555,8 @@ GetInstance
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 if
 (
 !
@@ -613,6 +629,11 @@ sSeed
 return
 sInstance
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+NULL
+)
+;
 }
 PRBool
 nsInternetConfig
@@ -622,6 +643,8 @@ HasSeedChanged
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_RETURN
+;
 ICInstance
 instance
 =
@@ -671,6 +694,11 @@ PR_TRUE
 return
 PR_FALSE
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_RETURN
+(
+PR_FALSE
+)
+;
 }
 nsInternetConfig
 :
@@ -692,6 +720,8 @@ nsInternetConfig
 (
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK
+;
 sRefCount
 -
 -
@@ -719,4 +749,6 @@ sInstance
 NULL
 ;
 }
+NS_OBJC_END_TRY_ABORT_BLOCK
+;
 }

@@ -456,6 +456,13 @@ h
 #
 include
 "
+nsObjCExceptions
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h
@@ -559,9 +566,11 @@ nsEmbedCID
 h
 "
 #
-include
+import
 <
-LaunchServices
+Carbon
+/
+Carbon
 .
 h
 >
@@ -923,6 +932,8 @@ nsAString
 _retval
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 nsresult
 rv
 =
@@ -1141,6 +1152,8 @@ schemeCFString
 return
 rv
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 nsresult
 nsOSHelperAppService
@@ -1158,6 +1171,8 @@ nsIFile
 aFile
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
+;
 nsresult
 rv
 ;
@@ -1450,6 +1465,8 @@ aFile
 return
 NS_OK
 ;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSRESULT
+;
 }
 /
 /
@@ -1610,6 +1627,8 @@ PRBool
 aFound
 )
 {
+NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSNULL
+;
 nsIMIMEInfo
 *
 mimeInfo
@@ -2420,6 +2439,8 @@ CFExt
 }
 return
 mimeInfo
+;
+NS_OBJC_END_TRY_ABORT_BLOCK_NSNULL
 ;
 }
 NS_IMETHODIMP
