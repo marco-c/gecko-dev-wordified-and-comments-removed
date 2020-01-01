@@ -8265,7 +8265,7 @@ parentIndex
 .
 mInsertionPoint
 ;
-PRBool
+PRUint32
 oldUpdates
 =
 mUpdatesInNotification
@@ -9018,7 +9018,7 @@ parentIndex
 .
 mInsertionPoint
 ;
-PRBool
+PRUint32
 oldUpdates
 =
 mUpdatesInNotification
