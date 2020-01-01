@@ -2889,6 +2889,10 @@ if
 sGeoInitPending
 )
 {
+sGeoInitPending
+=
+false
+;
 for
 (
 uint32_t
@@ -2923,10 +2927,6 @@ ServiceReady
 )
 ;
 }
-sGeoInitPending
-=
-false
-;
 }
 }
 NS_IMETHODIMP
