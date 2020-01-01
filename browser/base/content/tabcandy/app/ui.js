@@ -211,6 +211,7 @@ function
 mod
 (
 div
+tab
 )
 {
 div
@@ -410,6 +411,7 @@ appendTo
 (
 div
 )
+;
 }
 window
 .
@@ -1332,11 +1334,6 @@ UI
 =
 UI
 ;
-window
-.
-aza
-=
-ArrangeClass
 }
 )
 (
