@@ -666,10 +666,8 @@ onunload
 "
 SidebarUtils
 .
-setMouseoverURL
+clearURLFromStatusBar
 (
-'
-'
 )
 ;
 "
@@ -958,10 +956,8 @@ onmouseout
 "
 SidebarUtils
 .
-setMouseoverURL
+clearURLFromStatusBar
 (
-'
-'
 )
 ;
 "
