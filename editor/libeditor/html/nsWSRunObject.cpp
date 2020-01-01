@@ -7921,6 +7921,11 @@ bool
 after
 )
 {
+*
+outRun
+=
+nsnull
+;
 NS_ENSURE_TRUE
 (
 aNode
