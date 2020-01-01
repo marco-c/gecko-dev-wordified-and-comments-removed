@@ -438,6 +438,9 @@ CurrentSurface
 (
 )
 ;
+#
+ifdef
+CAIRO_HAS_QT_SURFACE
 if
 (
 surface
@@ -516,6 +519,8 @@ aClipRect
 ;
 }
 else
+#
+endif
 if
 (
 surface
