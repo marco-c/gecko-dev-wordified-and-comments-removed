@@ -759,8 +759,7 @@ PrintUtils
 .
 printPreview
 (
-onEnterPrintPreview
-onExitPrintPreview
+PrintPreviewListener
 )
 ;
 "
