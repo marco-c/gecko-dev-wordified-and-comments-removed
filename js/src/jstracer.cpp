@@ -9448,6 +9448,14 @@ v
 JSVAL_OBJECT
 )
 ;
+JS_ASSERT
+(
+v
+!
+=
+JSVAL_ERROR_COOKIE
+)
+;
 debug_only_v
 (
 printf
@@ -17866,8 +17874,6 @@ TreeInfo
 vmprivate
 ;
 }
-static
-JS_REQUIRES_STACK
 bool
 js_DeleteRecorder
 (
