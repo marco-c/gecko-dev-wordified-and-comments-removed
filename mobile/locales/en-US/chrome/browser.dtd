@@ -41,16 +41,6 @@ Stop
 <
 !
 ENTITY
-search
-.
-label
-"
-Search
-"
->
-<
-!
-ENTITY
 go
 .
 label
