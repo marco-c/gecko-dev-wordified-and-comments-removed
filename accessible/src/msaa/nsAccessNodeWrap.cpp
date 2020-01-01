@@ -2565,13 +2565,6 @@ MaybeStartWindowEmulation
 (
 )
 ;
-nsAccessNode
-:
-:
-InitXPAccessibility
-(
-)
-;
 }
 void
 nsAccessNodeWrap

@@ -606,7 +606,7 @@ nsnull
 }
 nsIDocument
 *
-OwnerDoc
+GetOwnerDoc
 (
 )
 const

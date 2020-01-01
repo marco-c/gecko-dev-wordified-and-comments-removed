@@ -727,6 +727,9 @@ global
 ;
 if
 (
+global
+&
+&
 JS_IsInRequest
 (
 JS_GetRuntime

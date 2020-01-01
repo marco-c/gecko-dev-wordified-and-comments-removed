@@ -687,10 +687,7 @@ attribs
 NSOpenGLPFAAccelerated
 NSOpenGLPFAAllowOfflineRenderers
 NSOpenGLPFADoubleBuffer
-(
-NSOpenGLPixelFormatAttribute
-)
-nil
+0
 }
 ;
 if
@@ -704,10 +701,7 @@ attribs
 2
 ]
 =
-(
-NSOpenGLPixelFormatAttribute
-)
-nil
+0
 ;
 }
 mPixelFormat
