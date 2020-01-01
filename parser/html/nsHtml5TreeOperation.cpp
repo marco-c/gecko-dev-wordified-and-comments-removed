@@ -1267,12 +1267,8 @@ foster
 foster
 -
 >
-IsNodeOfType
+IsElement
 (
-nsINode
-:
-:
-eELEMENT
 )
 )
 {
@@ -2417,12 +2413,8 @@ foster
 foster
 -
 >
-IsNodeOfType
+IsElement
 (
-nsINode
-:
-:
-eELEMENT
 )
 )
 {

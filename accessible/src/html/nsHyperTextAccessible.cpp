@@ -4684,12 +4684,8 @@ content
 content
 -
 >
-IsNodeOfType
+IsElement
 (
-nsINode
-:
-:
-eELEMENT
 )
 )
 node

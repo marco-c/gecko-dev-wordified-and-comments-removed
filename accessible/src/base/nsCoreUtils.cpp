@@ -1058,12 +1058,8 @@ if
 node
 -
 >
-IsNodeOfType
+IsElement
 (
-nsINode
-:
-:
-eELEMENT
 )
 )
 CallQueryInterface
@@ -1260,12 +1256,8 @@ content
 content
 -
 >
-IsNodeOfType
+IsElement
 (
-nsINode
-:
-:
-eELEMENT
 )
 )
 {

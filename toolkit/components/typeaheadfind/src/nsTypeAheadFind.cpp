@@ -3276,12 +3276,8 @@ if
 startContent
 -
 >
-IsNodeOfType
+IsElement
 (
-nsINode
-:
-:
-eELEMENT
 )
 )
 {
