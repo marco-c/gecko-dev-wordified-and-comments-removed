@@ -58,12 +58,12 @@ xhtml
 const
 THUMBNAIL_WIDTH
 =
-201
+400
 ;
 const
 THUMBNAIL_HEIGHT
 =
-127
+225
 ;
 const
 THUMBNAIL_BG_COLOR
