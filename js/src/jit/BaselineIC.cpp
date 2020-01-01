@@ -21164,6 +21164,16 @@ rhs
 isInt32
 (
 )
+&
+&
+rhs
+.
+toInt32
+(
+)
+>
+=
+0
 )
 {
 IonSpew
