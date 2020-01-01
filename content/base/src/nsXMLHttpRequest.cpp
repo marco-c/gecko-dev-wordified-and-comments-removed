@@ -4040,7 +4040,7 @@ readyState
 *
 aStatus
 =
-NS_ERROR_NOT_AVAILABLE
+0
 ;
 return
 NS_OK
