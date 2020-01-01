@@ -743,12 +743,12 @@ else
 width
 =
 "
-800
+500
 "
 height
 =
 "
-500
+800
 "
 #
 endif
