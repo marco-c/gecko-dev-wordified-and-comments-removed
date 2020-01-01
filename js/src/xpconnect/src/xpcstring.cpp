@@ -355,9 +355,13 @@ chars
 ;
 }
 return
+str
+?
 STRING_TO_JSVAL
 (
 str
 )
+:
+JSVAL_NULL
 ;
 }
