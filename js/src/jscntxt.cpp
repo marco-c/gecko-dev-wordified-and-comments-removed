@@ -476,6 +476,9 @@ js_NewDtoaState
 )
 ;
 }
+#
+ifdef
+JS_THREADSAFE
 void
 ThreadData
 :
@@ -570,6 +573,8 @@ sizeOfCommitted
 )
 ;
 }
+#
+endif
 void
 ThreadData
 :
