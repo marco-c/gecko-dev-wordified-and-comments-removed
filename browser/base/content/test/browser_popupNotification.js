@@ -472,6 +472,11 @@ goNext
 )
 ;
 }
+.
+bind
+(
+this
+)
 )
 ;
 }

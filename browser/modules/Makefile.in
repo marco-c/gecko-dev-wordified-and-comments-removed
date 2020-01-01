@@ -92,10 +92,6 @@ test
 EXTRA_JS_MODULES
 =
 \
-BrowserNewTabPreloader
-.
-jsm
-\
 openLocationLastURL
 .
 jsm
@@ -109,6 +105,10 @@ NewTabUtils
 jsm
 \
 offlineAppCache
+.
+jsm
+\
+SignInToWebsite
 .
 jsm
 \

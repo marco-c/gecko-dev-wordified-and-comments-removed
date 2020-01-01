@@ -1715,7 +1715,7 @@ opened
 ;
 SimpleTest
 .
-executesoon
+executeSoon
 (
 function
 (

@@ -99,6 +99,10 @@ browser_TelemetryTimestamps
 .
 js
 \
+browser_SignInToWebsite
+.
+js
+\
 (
 NULL
 )
