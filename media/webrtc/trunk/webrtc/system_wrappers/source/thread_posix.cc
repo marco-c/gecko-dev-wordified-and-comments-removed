@@ -871,6 +871,9 @@ attr_
 )
 ;
 #
+if
+0
+#
 ifdef
 WEBRTC_THREAD_RR
 const
@@ -886,6 +889,16 @@ int
 policy
 =
 SCHED_FIFO
+;
+#
+endif
+#
+else
+const
+int
+policy
+=
+SCHED_OTHER
 ;
 #
 endif
