@@ -904,6 +904,17 @@ onException
 e
 )
 ;
+if
+(
+!
+ret
+)
+throw
+"
+Unrecoverable
+error
+"
+;
 }
 self
 .
