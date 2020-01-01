@@ -1037,6 +1037,9 @@ guid
 .
 "
 )
+failed
+.
+guid
 )
 ;
 }
@@ -1107,6 +1110,8 @@ delegate
 onRecordStoreSucceeded
 (
 succeeded
+.
+guid
 )
 ;
 }

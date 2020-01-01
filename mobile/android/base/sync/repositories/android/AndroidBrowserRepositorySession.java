@@ -1764,6 +1764,9 @@ InactiveSessionException
 (
 null
 )
+record
+.
+guid
 )
 ;
 return
@@ -2263,6 +2266,8 @@ delegate
 onRecordStoreSucceeded
 (
 replaced
+.
+guid
 )
 ;
 return
@@ -2299,6 +2304,9 @@ delegate
 onRecordStoreFailed
 (
 e
+record
+.
+guid
 )
 ;
 return
@@ -2332,6 +2340,9 @@ delegate
 onRecordStoreFailed
 (
 e
+record
+.
+guid
 )
 ;
 return
@@ -2365,6 +2376,9 @@ delegate
 onRecordStoreFailed
 (
 e
+record
+.
+guid
 )
 ;
 return
@@ -2398,6 +2412,9 @@ delegate
 onRecordStoreFailed
 (
 e
+record
+.
+guid
 )
 ;
 return
@@ -2440,6 +2457,8 @@ delegate
 onRecordStoreSucceeded
 (
 record
+.
+guid
 )
 ;
 }
@@ -2531,6 +2550,8 @@ delegate
 onRecordStoreSucceeded
 (
 toStore
+.
+guid
 )
 ;
 Logger

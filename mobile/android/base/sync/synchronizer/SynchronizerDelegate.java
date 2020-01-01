@@ -33,12 +33,4 @@ String
 reason
 )
 ;
-public
-void
-onSynchronizeAborted
-(
-Synchronizer
-synchronize
-)
-;
 }

@@ -788,6 +788,9 @@ InactiveSessionException
 (
 null
 )
+record
+.
+guid
 )
 ;
 return
@@ -822,6 +825,9 @@ GUID
 .
 "
 )
+record
+.
+guid
 )
 ;
 return
@@ -889,6 +895,8 @@ delegate
 onRecordStoreSucceeded
 (
 record
+.
+guid
 )
 ;
 }
@@ -903,6 +911,9 @@ delegate
 onRecordStoreFailed
 (
 e
+record
+.
+guid
 )
 ;
 }
@@ -1053,7 +1064,9 @@ delegate
 .
 onRecordStoreSucceeded
 (
-tabsRecord
+record
+.
+guid
 )
 ;
 }
@@ -1082,6 +1095,9 @@ delegate
 onRecordStoreFailed
 (
 e
+record
+.
+guid
 )
 ;
 }
