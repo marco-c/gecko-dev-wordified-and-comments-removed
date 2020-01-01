@@ -4320,9 +4320,6 @@ getGlobal
 chain
 ;
 }
-#
-if
-0
 if
 (
 script
@@ -4425,8 +4422,6 @@ getOps
 defineProperty
 )
 ;
-#
-endif
 #
 if
 JS_HAS_SHARP_VARS

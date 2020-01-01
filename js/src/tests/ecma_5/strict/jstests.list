@@ -368,7 +368,6 @@ prologue
 01
 .
 js
-#
 script
 eval
 -
