@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsIDOMEventReceiver
+nsIDOMEventTarget
 .
 h
 "
@@ -812,7 +812,7 @@ nsMenuListener
 *
 mKeyboardNavigator
 ;
-nsIDOMEventReceiver
+nsIDOMEventTarget
 *
 mTarget
 ;

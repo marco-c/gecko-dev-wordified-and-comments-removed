@@ -7281,7 +7281,7 @@ NS_OK
 ;
 nsCOMPtr
 <
-nsIDOMEventReceiver
+nsIDOMEventTarget
 >
 target
 =

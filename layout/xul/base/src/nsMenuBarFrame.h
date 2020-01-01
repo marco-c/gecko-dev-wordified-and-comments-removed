@@ -495,7 +495,7 @@ nsIMenuFrame
 *
 mRecentRollupMenu
 ;
-nsIDOMEventReceiver
+nsIDOMEventTarget
 *
 mTarget
 ;

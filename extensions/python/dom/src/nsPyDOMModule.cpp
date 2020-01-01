@@ -64,7 +64,7 @@ h
 #
 include
 "
-nsIDOMEventReceiver
+nsPIDOMEventTarget
 .
 h
 "
@@ -1204,9 +1204,9 @@ NULL
 ;
 nsCOMPtr
 <
-nsIDOMEventReceiver
+nsPIDOMEventTarget
 >
-receiver
+piTarget
 (
 do_QueryInterface
 (
@@ -1217,7 +1217,7 @@ target
 if
 (
 !
-receiver
+piTarget
 )
 return
 PyXPCOM_BuildPyException
@@ -1231,7 +1231,7 @@ nsIEventListenerManager
 >
 manager
 ;
-receiver
+piTarget
 -
 >
 GetListenerManager
@@ -1569,9 +1569,9 @@ GetCurrentInnerWindow
 }
 nsCOMPtr
 <
-nsIDOMEventReceiver
+nsPIDOMEventTarget
 >
-receiver
+piTarget
 (
 do_QueryInterface
 (
@@ -1582,7 +1582,7 @@ target
 if
 (
 !
-receiver
+piTarget
 )
 return
 PyXPCOM_BuildPyException
@@ -1596,7 +1596,7 @@ nsIEventListenerManager
 >
 manager
 ;
-receiver
+piTarget
 -
 >
 GetListenerManager
@@ -1932,9 +1932,9 @@ GetCurrentInnerWindow
 }
 nsCOMPtr
 <
-nsIDOMEventReceiver
+nsPIDOMEventTarget
 >
-receiver
+piTarget
 (
 do_QueryInterface
 (
@@ -1945,7 +1945,7 @@ target
 if
 (
 !
-receiver
+piTarget
 )
 return
 PyXPCOM_BuildPyException
@@ -1959,7 +1959,7 @@ nsIEventListenerManager
 >
 manager
 ;
-receiver
+piTarget
 -
 >
 GetListenerManager

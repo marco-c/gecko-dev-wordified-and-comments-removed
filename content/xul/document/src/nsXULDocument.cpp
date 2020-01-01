@@ -6385,9 +6385,9 @@ xblService
 {
 nsCOMPtr
 <
-nsIDOMEventReceiver
+nsPIDOMEventTarget
 >
-rec
+piTarget
 (
 do_QueryInterface
 (
@@ -6400,7 +6400,7 @@ xblService
 >
 AttachGlobalKeyHandler
 (
-rec
+piTarget
 )
 ;
 }

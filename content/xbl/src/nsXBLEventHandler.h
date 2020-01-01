@@ -35,7 +35,7 @@ class
 nsIDOM3EventTarget
 ;
 class
-nsIDOMEventReceiver
+nsPIDOMEventTarget
 ;
 class
 nsXBLPrototypeHandler
