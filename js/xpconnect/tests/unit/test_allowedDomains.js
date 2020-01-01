@@ -463,6 +463,17 @@ prop1
 sbSubset
 )
 ;
+sbMaster
+.
+Components
+=
+cu
+.
+getComponentsForScope
+(
+sbMaster
+)
+;
 Components
 .
 utils
