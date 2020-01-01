@@ -982,10 +982,13 @@ dumps
 return
 False
   
+try
+:
+    
 removeSymbolsPath
 =
 False
-  
+    
 if
 symbolsPath
 and
@@ -994,7 +997,7 @@ isURL
 symbolsPath
 )
 :
-    
+      
 print
 "
 Downloading
@@ -1004,11 +1007,11 @@ from
 "
 +
 symbolsPath
-    
+      
 removeSymbolsPath
 =
 True
-    
+      
 data
 =
 urllib2
@@ -1017,7 +1020,7 @@ urlopen
 (
 symbolsPath
 )
-    
+      
 symbolsFile
 =
 tempfile
@@ -1025,7 +1028,7 @@ tempfile
 TemporaryFile
 (
 )
-    
+      
 symbolsFile
 .
 write
@@ -1036,7 +1039,7 @@ read
 (
 )
 )
-    
+      
 symbolsPath
 =
 tempfile
@@ -1044,23 +1047,20 @@ tempfile
 mkdtemp
 (
 )
-    
+      
 zfile
 =
 ZipFileReader
 (
 symbolsFile
 )
-    
+      
 zfile
 .
 extractall
 (
 symbolsPath
 )
-  
-try
-:
     
 for
 d

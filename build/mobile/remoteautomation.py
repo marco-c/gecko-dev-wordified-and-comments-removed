@@ -471,6 +471,9 @@ symbolsPath
 )
 :
         
+try
+:
+            
 remoteCrashDir
 =
 self
@@ -482,7 +485,7 @@ _remoteProfile
 minidumps
 /
 '
-        
+            
 if
 not
 self
@@ -494,7 +497,7 @@ dirExists
 remoteCrashDir
 )
 :
-            
+                
 print
 "
 Automation
@@ -514,10 +517,10 @@ device
 "
 %
 remoteCrashDir
-            
+                
 return
 True
-        
+            
 dumpDir
 =
 tempfile
@@ -525,7 +528,7 @@ tempfile
 mkdtemp
 (
 )
-        
+            
 self
 .
 _devicemanager
@@ -535,7 +538,7 @@ getDirectory
 remoteCrashDir
 dumpDir
 )
-        
+            
 crashed
 =
 automationutils
@@ -544,25 +547,28 @@ checkForCrashes
 (
 dumpDir
 symbolsPath
-                                        
+                                            
 self
 .
 lastTestSeen
 )
         
-try
+finally
 :
             
+try
+:
+                
 shutil
 .
 rmtree
 (
 dumpDir
 )
-        
+            
 except
 :
-            
+                
 print
 "
 WARNING
