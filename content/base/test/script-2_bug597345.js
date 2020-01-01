@@ -1,0 +1,12 @@
+document
+.
+write
+(
+"
+R
+ksm
+rg
+s
+"
+)
+;
