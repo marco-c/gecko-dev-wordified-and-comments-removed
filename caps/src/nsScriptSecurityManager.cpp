@@ -2495,7 +2495,6 @@ rv
 =
 LookupPolicy
 (
-cx
 subjectPrincipal
 classInfoData
 property
@@ -3775,9 +3774,6 @@ nsScriptSecurityManager
 :
 LookupPolicy
 (
-JSContext
-*
-cx
 nsIPrincipal
 *
 aPrincipal
@@ -3797,6 +3793,9 @@ SecurityLevel
 result
 )
 {
+AutoJSContext
+cx
+;
 nsresult
 rv
 ;
@@ -5582,9 +5581,6 @@ rv
 =
 LookupPolicy
 (
-GetCurrentJSContext
-(
-)
 aPrincipal
 nameData
 sEnabledID
@@ -6806,7 +6802,6 @@ rv
 =
 LookupPolicy
 (
-cx
 aPrincipal
 nameData
 sEnabledID

@@ -1268,9 +1268,6 @@ aAction
 nsresult
 LookupPolicy
 (
-JSContext
-*
-cx
 nsIPrincipal
 *
 principal
