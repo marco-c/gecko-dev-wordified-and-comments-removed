@@ -132,6 +132,13 @@ h
 #
 include
 "
+ClientLayerManager
+.
+h
+"
+#
+include
+"
 BasicLayers
 .
 h
@@ -4051,7 +4058,7 @@ manager
 mLayerManager
 =
 new
-BasicShadowLayerManager
+BasicLayerManager
 (
 this
 )

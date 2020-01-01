@@ -33,7 +33,7 @@ namespace
 layers
 {
 class
-BasicCanvasLayer
+ClientCanvasLayer
 ;
 class
 CanvasClient
@@ -96,7 +96,7 @@ gfx
 :
 IntSize
 aSize
-BasicCanvasLayer
+ClientCanvasLayer
 *
 aLayer
 )
@@ -181,7 +181,7 @@ gfx
 :
 IntSize
 aSize
-BasicCanvasLayer
+ClientCanvasLayer
 *
 aLayer
 )
@@ -225,7 +225,7 @@ gfx
 :
 IntSize
 aSize
-BasicCanvasLayer
+ClientCanvasLayer
 *
 aLayer
 )
