@@ -1134,6 +1134,7 @@ dialog
 true
 "
 )
+;
 }
 }
 popDialog
@@ -1185,6 +1186,7 @@ removeAttribute
 dialog
 "
 )
+;
 }
 switchPane
 :
