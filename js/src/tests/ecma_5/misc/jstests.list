@@ -115,3 +115,9 @@ undefined
 this
 .
 js
+script
+regress
+-
+bug632003
+.
+js

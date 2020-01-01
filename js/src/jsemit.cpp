@@ -31993,12 +31993,6 @@ inDictionaryMode
 )
 )
 ;
-JSProperty
-*
-prop
-=
-NULL
-;
 if
 (
 !
@@ -32021,9 +32015,7 @@ NULL
 JSPROP_ENUMERATE
 0
 0
-&
-prop
-0
+NULL
 )
 )
 {
