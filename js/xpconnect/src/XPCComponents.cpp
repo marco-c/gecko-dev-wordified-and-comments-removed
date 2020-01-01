@@ -242,6 +242,9 @@ namespace
 xpc
 ;
 nsresult
+xpc
+:
+:
 ThrowAndFail
 (
 nsresult
@@ -399,7 +402,10 @@ false
 }
 char
 *
-xpc_CloneAllAccess
+xpc
+:
+:
+CloneAllAccess
 (
 )
 {
@@ -434,7 +440,10 @@ allAccess
 }
 char
 *
-xpc_CheckAccessList
+xpc
+:
+:
+CheckAccessList
 (
 const
 PRUnichar
@@ -494,7 +503,7 @@ get
 )
 )
 return
-xpc_CloneAllAccess
+CloneAllAccess
 (
 )
 ;
@@ -1470,7 +1479,7 @@ _retval
 *
 _retval
 =
-xpc_CloneAllAccess
+CloneAllAccess
 (
 )
 ;
@@ -2563,7 +2572,7 @@ _retval
 *
 _retval
 =
-xpc_CloneAllAccess
+CloneAllAccess
 (
 )
 ;
@@ -11394,7 +11403,10 @@ cx
 nsresult
 rv
 =
-xpc_EvalInSandbox
+xpc
+:
+:
+EvalInSandbox
 (
 cx
 sandbox
@@ -13309,7 +13321,7 @@ _retval
 *
 _retval
 =
-xpc_CloneAllAccess
+CloneAllAccess
 (
 )
 ;
@@ -13359,7 +13371,7 @@ nullptr
 *
 _retval
 =
-xpc_CheckAccessList
+CheckAccessList
 (
 methodName
 allowed
@@ -15645,7 +15657,7 @@ _retval
 *
 _retval
 =
-xpc_CloneAllAccess
+CloneAllAccess
 (
 )
 ;
@@ -15695,7 +15707,7 @@ nullptr
 *
 _retval
 =
-xpc_CheckAccessList
+CheckAccessList
 (
 methodName
 allowed
@@ -15750,7 +15762,7 @@ nullptr
 *
 _retval
 =
-xpc_CheckAccessList
+CheckAccessList
 (
 propertyName
 allowed

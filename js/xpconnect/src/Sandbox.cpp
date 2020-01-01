@@ -276,6 +276,9 @@ already_AddRefed
 <
 nsIXPCComponents_utils_Sandbox
 >
+xpc
+:
+:
 NewSandboxConstructor
 (
 )
@@ -1388,10 +1391,10 @@ return
 false
 ;
 }
-namespace
-xpc
-{
 bool
+xpc
+:
+:
 IsReflector
 (
 JSObject
@@ -1414,7 +1417,6 @@ IsDOMObject
 obj
 )
 ;
-}
 }
 enum
 ForwarderCloneTags
@@ -2571,6 +2573,9 @@ JS_FS_END
 }
 ;
 bool
+xpc
+:
+:
 IsSandbox
 (
 JSObject
@@ -3816,7 +3821,10 @@ vp
 ;
 }
 nsresult
-xpc_CreateSandboxObject
+xpc
+:
+:
+CreateSandboxObject
 (
 JSContext
 *
@@ -6108,7 +6116,7 @@ _retval
 ;
 rv
 =
-xpc_CreateSandboxObject
+CreateSandboxObject
 (
 cx
 args
@@ -6331,7 +6339,10 @@ mJSContext
 ;
 }
 nsresult
-xpc_EvalInSandbox
+xpc
+:
+:
+EvalInSandbox
 (
 JSContext
 *
@@ -7138,6 +7149,9 @@ vp
 ;
 }
 bool
+xpc
+:
+:
 NewFunctionForwarder
 (
 JSContext

@@ -4229,7 +4229,7 @@ cx
 nsresult
 rv
 =
-xpc_CreateSandboxObject
+CreateSandboxObject
 (
 cx
 rval
@@ -4367,7 +4367,7 @@ cx
 nsresult
 rv
 =
-xpc_EvalInSandbox
+EvalInSandbox
 (
 cx
 sandbox
