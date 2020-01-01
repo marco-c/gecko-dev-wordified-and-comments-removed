@@ -591,6 +591,12 @@ switching
 .
 js
 \
+browser_dbg_scripts
+-
+sorting
+.
+js
+\
 browser_dbg_pause
 -
 resume
