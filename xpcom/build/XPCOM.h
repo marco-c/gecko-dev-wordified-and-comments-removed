@@ -203,15 +203,6 @@ h
 #
 include
 "
-mozilla
-/
-TimeStamp
-.
-h
-"
-#
-include
-"
 nsIArray
 .
 h

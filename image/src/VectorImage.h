@@ -39,15 +39,6 @@ include
 "
 mozilla
 /
-TimeStamp
-.
-h
-"
-#
-include
-"
-mozilla
-/
 WeakPtr
 .
 h
