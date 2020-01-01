@@ -5636,7 +5636,7 @@ size
 multiplier
 script_size_multiplier
 ScriptSizeMultiplier
-CSS_PROPERTY_PARSE_VALUE
+CSS_PROPERTY_PARSE_INACCESSIBLE
 0
 nsnull
 CSS_PROP_NO_OFFSET
@@ -5654,7 +5654,7 @@ min
 size
 script_min_size
 ScriptMinSize
-CSS_PROPERTY_PARSE_VALUE
+CSS_PROPERTY_PARSE_INACCESSIBLE
 0
 nsnull
 CSS_PROP_NO_OFFSET
