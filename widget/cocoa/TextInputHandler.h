@@ -1878,6 +1878,11 @@ bool
 aASCIICapableOnly
 )
 ;
+bool
+IsFocused
+(
+)
+;
 static
 CFArrayRef
 CreateAllIMEModeList
@@ -1936,11 +1941,6 @@ aNativeView
 virtual
 ~
 IMEInputHandler
-(
-)
-;
-bool
-IsFocused
 (
 )
 ;
