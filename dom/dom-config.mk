@@ -100,12 +100,6 @@ phonenumberutils
 \
 dom
 /
-sms
-/
-src
-\
-dom
-/
 contacts
 \
 dom

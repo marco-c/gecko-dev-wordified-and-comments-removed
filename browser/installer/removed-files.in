@@ -454,6 +454,11 @@ xpt
 endif
 components
 /
+dom_sms
+.
+xpt
+components
+/
 uconvd
 .
 dll

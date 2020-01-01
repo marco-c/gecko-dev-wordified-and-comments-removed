@@ -151,8 +151,6 @@ mozilla
 /
 dom
 /
-sms
-/
 SmsMessage
 .
 h
@@ -164,7 +162,7 @@ mozilla
 /
 dom
 /
-sms
+mobilemessage
 /
 Constants
 .
@@ -177,7 +175,7 @@ mozilla
 /
 dom
 /
-sms
+mobilemessage
 /
 Types
 .
@@ -190,7 +188,7 @@ mozilla
 /
 dom
 /
-sms
+mobilemessage
 /
 PSms
 .
@@ -203,7 +201,7 @@ mozilla
 /
 dom
 /
-sms
+mobilemessage
 /
 SmsParent
 .
@@ -240,9 +238,16 @@ mozilla
 :
 :
 dom
+;
+using
+namespace
+mozilla
 :
 :
-sms
+dom
+:
+:
+mobilemessage
 ;
 extern
 "

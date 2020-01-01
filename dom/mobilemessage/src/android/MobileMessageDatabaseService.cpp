@@ -19,16 +19,6 @@ AndroidBridge
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-dom
-:
-:
-sms
-;
 namespace
 mozilla
 {

@@ -45,3 +45,8 @@ healthreport
 prefs
 .
 js
+components
+/
+dom_sms
+.
+xpt

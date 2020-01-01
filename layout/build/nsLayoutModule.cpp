@@ -1237,7 +1237,7 @@ mozilla
 /
 dom
 /
-sms
+mobilemessage
 /
 SmsServicesFactory
 .
@@ -1365,7 +1365,7 @@ mozilla
 dom
 :
 :
-sms
+mobilemessage
 ;
 using
 mozilla

@@ -133,7 +133,7 @@ mozilla
 /
 dom
 /
-sms
+mobilemessage
 /
 PSms
 .
@@ -9645,7 +9645,7 @@ aText
 dom
 :
 :
-sms
+mobilemessage
 :
 :
 SmsSegmentInfoData
@@ -10105,7 +10105,7 @@ const
 dom
 :
 :
-sms
+mobilemessage
 :
 :
 SmsFilterData

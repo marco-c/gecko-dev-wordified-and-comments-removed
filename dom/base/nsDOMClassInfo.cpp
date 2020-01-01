@@ -10,6 +10,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 SmsFilter
 .
 h
@@ -4651,9 +4655,6 @@ MOZ_GENERATED_EVENT_LIST
 NS_DEFINE_CONSTRUCTOR_FUNC_DATA
 (
 MozSmsFilter
-sms
-:
-:
 SmsFilter
 :
 :

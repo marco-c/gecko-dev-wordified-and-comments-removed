@@ -168,6 +168,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 SmsManager
 .
 h
@@ -388,16 +392,6 @@ dom
 :
 :
 power
-;
-using
-namespace
-mozilla
-:
-:
-dom
-:
-:
-sms
 ;
 DOMCI_DATA
 (

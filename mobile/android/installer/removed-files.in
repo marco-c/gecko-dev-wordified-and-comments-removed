@@ -46,3 +46,8 @@ mozutils
 DLL_SUFFIX
 jssubloader
 /
+components
+/
+dom_sms
+.
+xpt

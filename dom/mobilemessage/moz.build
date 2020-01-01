@@ -72,3 +72,11 @@ interfaces
 src
 '
 ]
+TEST_DIRS
++
+=
+[
+'
+tests
+'
+]

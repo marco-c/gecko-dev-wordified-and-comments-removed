@@ -513,7 +513,7 @@ mozilla
 /
 dom
 /
-sms
+mobilemessage
 /
 SmsChild
 .
@@ -686,7 +686,7 @@ mozilla
 dom
 :
 :
-sms
+mobilemessage
 ;
 using
 namespace

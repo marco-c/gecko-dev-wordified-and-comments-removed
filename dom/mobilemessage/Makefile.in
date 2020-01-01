@@ -78,6 +78,12 @@ config
 autoconf
 .
 mk
+ifdef
+ENABLE_TESTS
+XPCSHELL_TESTS
+=
+tests
+endif
 include
 (
 topsrcdir

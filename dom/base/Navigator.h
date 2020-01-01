@@ -224,13 +224,9 @@ class
 BatteryManager
 ;
 }
-namespace
-sms
-{
 class
 SmsManager
 ;
-}
 namespace
 network
 {
@@ -526,9 +522,6 @@ mPowerManager
 ;
 nsRefPtr
 <
-sms
-:
-:
 SmsManager
 >
 mSmsManager
