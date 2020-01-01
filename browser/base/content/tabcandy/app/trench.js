@@ -2531,12 +2531,9 @@ return
 rect
 ;
 }
-else
-{
 return
 false
 ;
-}
 }
 show
 :

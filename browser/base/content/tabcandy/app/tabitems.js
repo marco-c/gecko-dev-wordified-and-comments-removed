@@ -1611,7 +1611,6 @@ undefined
 return
 slide
 ;
-else
 return
 slide
 (

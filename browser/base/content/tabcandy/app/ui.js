@@ -884,7 +884,6 @@ matches
 1
 ]
 ;
-else
 return
 null
 ;

@@ -4194,7 +4194,6 @@ gutter
 topGutter
 )
 ;
-else
 return
 new
 Rect
