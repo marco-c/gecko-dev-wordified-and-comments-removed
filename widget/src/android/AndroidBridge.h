@@ -665,6 +665,11 @@ GetShowPasswordSetting
 (
 )
 ;
+void
+FireAndWaitForTracerEvent
+(
+)
+;
 struct
 AutoLocalJNIFrame
 {
@@ -1240,6 +1245,9 @@ jGetSystemColors
 ;
 jmethodID
 jGetIconForExtension
+;
+jmethodID
+jFireAndWaitForTracerEvent
 ;
 jmethodID
 jCreateShortcut
