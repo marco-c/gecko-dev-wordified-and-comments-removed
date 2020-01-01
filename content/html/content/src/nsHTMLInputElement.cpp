@@ -6452,13 +6452,7 @@ aVisitor
 mItemFlags
 |
 =
-static_cast
-<
-PRUint8
->
-(
 mType
-)
 ;
 if
 (
@@ -6723,7 +6717,7 @@ mItemFlags
 NS_NO_CONTENT_DISPATCH
 )
 ;
-PRInt8
+PRUint8
 oldType
 =
 NS_CONTROL_TYPE
