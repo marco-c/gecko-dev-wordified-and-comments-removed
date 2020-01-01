@@ -9186,6 +9186,11 @@ aContext
 shading
 )
 ;
+CGShadingRelease
+(
+shading
+)
+;
 /
 /
 Draw
