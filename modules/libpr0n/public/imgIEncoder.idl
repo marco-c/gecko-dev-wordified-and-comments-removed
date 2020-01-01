@@ -512,7 +512,7 @@ PNG
 -
 /
 /
-usetransparency
+transparency
 =
 [
 yes
@@ -578,7 +578,7 @@ startImageEncode
 /
 /
 /
-usetransparency
+transparency
 =
 [
 yes
@@ -748,7 +748,7 @@ addImageFrame
 /
 /
 /
-usetransparency
+transparency
 =
 [
 yes
