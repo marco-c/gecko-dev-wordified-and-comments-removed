@@ -5149,14 +5149,14 @@ JSMSG_DEBUG_OBJECT_WRONG_OWNER
 0
 JSEXN_TYPEERR
 "
-Debug
+Debugger
 .
 Object
 belongs
 to
 a
 different
-Debug
+Debugger
 "
 )
 MSG_DEF
@@ -5166,7 +5166,7 @@ JSMSG_DEBUG_OBJECT_PROTO
 0
 JSEXN_TYPEERR
 "
-Debug
+Debugger
 .
 Object
 .
@@ -5175,7 +5175,7 @@ is
 not
 a
 valid
-Debug
+Debugger
 .
 Object
 "
