@@ -2740,6 +2740,13 @@ nsIDOMHTMLTableSectionElem
 #
 stowaways
 '
+nsIDOMHTMLCanvasContextOptions
+'
+:
+'
+nsIDOMHTMLCanvasElement
+'
+'
 nsIDOMTextMetrics
 '
 :

@@ -392,6 +392,11 @@ GetWidthHeight
 nsresult
 UpdateContext
 (
+nsIPropertyBag
+*
+aNewContextOptions
+=
+nsnull
 )
 ;
 nsresult
