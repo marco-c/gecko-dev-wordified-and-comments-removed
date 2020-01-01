@@ -1557,7 +1557,7 @@ target
 Relocation
 :
 :
-CODE
+EXTERNAL
 )
 ;
 }
@@ -1585,7 +1585,7 @@ target
 Relocation
 :
 :
-EXTERNAL
+CODE
 )
 ;
 }
