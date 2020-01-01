@@ -498,6 +498,14 @@ nsHtml5StateSnapshot
 .
 cpp
 \
+nsHtml5TreeOpExecutor
+.
+cpp
+\
+nsHtml5StreamParser
+.
+cpp
+\
 (
 NULL
 )

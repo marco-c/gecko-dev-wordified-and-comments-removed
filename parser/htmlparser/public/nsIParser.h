@@ -389,6 +389,17 @@ aDTD
 0
 ;
 NS_IMETHOD
+GetStreamListener
+(
+nsIStreamListener
+*
+*
+aListener
+)
+=
+0
+;
+NS_IMETHOD
 ContinueParsing
 (
 )

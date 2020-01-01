@@ -504,6 +504,15 @@ nsIDTD
 aDTD
 )
 ;
+NS_IMETHOD
+GetStreamListener
+(
+nsIStreamListener
+*
+*
+aListener
+)
+;
 PRBool
 DetectMetaTag
 (
