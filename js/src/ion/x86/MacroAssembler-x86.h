@@ -2866,12 +2866,7 @@ address
 {
 movl
 (
-Imm32
-(
 imm
-.
-value
-)
 Operand
 (
 address
