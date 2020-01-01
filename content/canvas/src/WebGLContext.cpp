@@ -1333,7 +1333,7 @@ gl
 >
 fClearDepthf
 (
-0
+1
 .
 0f
 )
@@ -1345,7 +1345,7 @@ gl
 >
 fClearDepth
 (
-0
+1
 .
 0f
 )
