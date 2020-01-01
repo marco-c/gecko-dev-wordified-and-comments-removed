@@ -16527,6 +16527,12 @@ op
 JSOP_CALL
 |
 |
+op
+=
+=
+JSOP_EVAL
+|
+|
 (
 js_CodeSpec
 [
