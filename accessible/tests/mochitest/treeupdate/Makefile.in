@@ -491,6 +491,10 @@ test_list
 .
 html
 \
+test_listbox
+.
+xul
+\
 test_menu
 .
 xul
