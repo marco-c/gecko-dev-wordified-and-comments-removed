@@ -202,7 +202,11 @@ PR_Lock
 lock
 )
 ;
-do
+while
+(
+!
+shutdown
+)
 {
 PR_WaitCondVar
 (
@@ -255,12 +259,6 @@ lock
 ;
 }
 }
-while
-(
-!
-shutdown
-)
-;
 PR_Unlock
 (
 lock
