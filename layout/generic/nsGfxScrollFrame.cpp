@@ -860,16 +860,6 @@ mInner
 mScrolledFrame
 )
 {
-if
-(
-!
-(
-aFlags
-&
-INVALIDATE_NOTIFY_ONLY
-)
-)
-{
 nsRect
 damage
 =
@@ -954,7 +944,6 @@ INVALIDATE_CROSS_DOC
 }
 return
 ;
-}
 }
 else
 if
