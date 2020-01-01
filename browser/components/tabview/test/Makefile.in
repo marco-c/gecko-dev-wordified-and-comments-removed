@@ -915,6 +915,10 @@ browser_tabview_bug686654
 .
 js
 \
+browser_tabview_bug696602
+.
+js
+\
 browser_tabview_bug697390
 .
 js
