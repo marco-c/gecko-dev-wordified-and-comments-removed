@@ -2391,6 +2391,10 @@ BidiEnabled
 (
 )
 )
+mSkipIncompleteTextRuns
+(
+PR_FALSE
+)
 mNextRunContextInfo
 (
 nsTextFrameUtils
@@ -2404,10 +2408,6 @@ nsTextFrameUtils
 :
 :
 INCOMING_NONE
-)
-mSkipIncompleteTextRuns
-(
-PR_FALSE
 )
 {
 ResetRunInfo
