@@ -391,6 +391,11 @@ nsIFile
 zipFile
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+zipFile
+)
+;
 if
 (
 mLock
