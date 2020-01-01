@@ -78,6 +78,10 @@ mEventIsInternal
 true
 ;
 }
+SetIsDOMBinding
+(
+)
+;
 }
 nsDOMCommandEvent
 :

@@ -147,6 +147,10 @@ ClientRectList
 .
 webidl
 \
+CommandEvent
+.
+webidl
+\
 Comment
 .
 webidl
