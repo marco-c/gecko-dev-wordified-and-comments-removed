@@ -10275,6 +10275,13 @@ x
 frame
 -
 >
+ApplyDirtToSurfaces
+(
+)
+;
+frame
+-
+>
 Draw
 (
 aContext

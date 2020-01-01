@@ -1629,7 +1629,7 @@ mCurrentFrame
 mCurrentFrame
 -
 >
-MarkImageDataDirty
+ApplyDirtToSurfaces
 (
 )
 ;
