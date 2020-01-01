@@ -1919,10 +1919,6 @@ MozCellBroadcastEvent
 .
 webidl
 \
-MozEmergencyCbModeEvent
-.
-webidl
-\
 MozVoicemailEvent
 .
 webidl

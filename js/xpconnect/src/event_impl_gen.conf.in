@@ -187,9 +187,6 @@ DataErrorEvent
 IccCardLockErrorEvent
 '
 '
-MozEmergencyCbModeEvent
-'
-'
 MozWifiStatusChangeEvent
 '
 '
