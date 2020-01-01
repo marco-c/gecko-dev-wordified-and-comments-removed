@@ -201,3 +201,17 @@ to
 match
 OGGPLAY_AUDIO_OFFSET
 .
+sydney_aix
+.
+patch
+:
+Bug
+499266
+-
+add
+support
+for
+AIX
+5
+.
+x
