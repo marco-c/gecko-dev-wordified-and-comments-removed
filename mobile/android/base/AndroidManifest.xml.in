@@ -295,6 +295,9 @@ VIBRATE
 "
 /
 >
+#
+ifdef
+MOZ_ANDROID_WALLPAPER
 <
 uses
 -
@@ -312,6 +315,8 @@ SET_WALLPAPER
 "
 /
 >
+#
+endif
 <
 uses
 -
