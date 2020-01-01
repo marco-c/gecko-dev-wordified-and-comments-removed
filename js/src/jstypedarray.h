@@ -35,14 +35,12 @@ JSProperty
 namespace
 js
 {
-class
+struct
 ArrayBufferObject
 :
 public
 JSObject
 {
-public
-:
 static
 Class
 protoClass

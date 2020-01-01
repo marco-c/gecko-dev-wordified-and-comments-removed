@@ -9,15 +9,6 @@ include
 "
 vm
 /
-NumericConversions
-.
-h
-"
-#
-include
-"
-vm
-/
 Unicode
 .
 h
@@ -85,7 +76,7 @@ d
 )
 {
 return
-ToUint32
+js_DoubleToECMAUint32
 (
 d
 )
