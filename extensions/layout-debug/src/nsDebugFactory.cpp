@@ -81,7 +81,7 @@ NS_GENERIC_FACTORY_CONSTRUCTOR
 nsLayoutDebugCLH
 )
 static
-NS_IMETHODIMP
+NS_METHOD
 RegisterCommandLineHandlers
 (
 nsIComponentManager
@@ -181,7 +181,7 @@ NS_OK
 ;
 }
 static
-NS_IMETHODIMP
+NS_METHOD
 UnregisterCommandLineHandlers
 (
 nsIComponentManager
