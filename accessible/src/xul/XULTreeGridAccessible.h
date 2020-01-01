@@ -520,6 +520,12 @@ xpcAccessibleTableCell
 :
 )
 virtual
+void
+Init
+(
+)
+;
+virtual
 TableCellAccessible
 *
 AsTableCell

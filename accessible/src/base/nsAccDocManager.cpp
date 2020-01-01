@@ -1549,6 +1549,13 @@ docAcc
 docAcc
 -
 >
+Init
+(
+)
+;
+docAcc
+-
+>
 SetRoleMapEntry
 (
 aria
