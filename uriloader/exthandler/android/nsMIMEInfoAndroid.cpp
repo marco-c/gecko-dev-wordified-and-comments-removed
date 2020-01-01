@@ -320,7 +320,7 @@ Bridge
 )
 -
 >
-GetMimeTypeFromExtension
+GetMimeTypeFromExtensions
 (
 aFileExt
 mimeType

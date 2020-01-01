@@ -398,7 +398,7 @@ EmptyString
 )
 ;
 void
-GetMimeTypeFromExtension
+GetMimeTypeFromExtensions
 (
 const
 nsACString
@@ -506,6 +506,9 @@ ShowFilePicker
 nsAString
 &
 aFilePath
+nsAString
+&
+aFilters
 )
 ;
 struct
@@ -727,7 +730,7 @@ jmethodID
 jOpenUriExternal
 ;
 jmethodID
-jGetMimeTypeFromExtension
+jGetMimeTypeFromExtensions
 ;
 jmethodID
 jMoveTaskToBack
