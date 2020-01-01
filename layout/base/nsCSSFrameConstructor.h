@@ -1005,7 +1005,8 @@ FrameConstructionItemList
 aItems
 )
 ;
-nsresult
+nsIFrame
+*
 ConstructDocElementFrame
 (
 Element
@@ -1014,13 +1015,9 @@ aDocElement
 nsILayoutHistoryState
 *
 aFrameState
-nsIFrame
-*
-*
-aNewFrame
 )
 ;
-nsresult
+void
 SetUpDocElementContainingBlock
 (
 nsIContent
