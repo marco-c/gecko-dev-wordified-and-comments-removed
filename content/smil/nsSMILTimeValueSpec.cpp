@@ -504,10 +504,9 @@ aObjectChanged
 {
 if
 (
-!
 aInstanceTimeToUpdate
 .
-MayUpdate
+IsFixedTime
 (
 )
 )
