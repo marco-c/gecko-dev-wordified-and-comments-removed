@@ -9215,6 +9215,13 @@ catch
 ex
 )
 {
+Cu
+.
+reportError
+(
+ex
+)
+;
 }
 }
 /
