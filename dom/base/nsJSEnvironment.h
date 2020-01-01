@@ -702,8 +702,6 @@ aRet
 void
 ReportPendingException
 (
-PRBool
-aSetAsideFrameChain
 )
 ;
 private
