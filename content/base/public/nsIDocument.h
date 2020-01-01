@@ -319,6 +319,9 @@ namespace
 dom
 {
 class
+CDATASection
+;
+class
 Comment
 ;
 class
@@ -4404,7 +4407,13 @@ const
 ;
 already_AddRefed
 <
-nsIDOMCDATASection
+mozilla
+:
+:
+dom
+:
+:
+CDATASection
 >
 CreateCDATASection
 (

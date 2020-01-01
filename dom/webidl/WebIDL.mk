@@ -123,6 +123,10 @@ CaretPosition
 .
 webidl
 \
+CDATASection
+.
+webidl
+\
 CharacterData
 .
 webidl

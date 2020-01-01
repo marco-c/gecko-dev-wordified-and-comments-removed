@@ -322,9 +322,6 @@ interface
 Attr
 ;
 interface
-CDATASection
-;
-interface
 Comment
 ;
 interface
