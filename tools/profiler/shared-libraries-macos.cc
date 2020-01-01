@@ -333,10 +333,7 @@ seg
 -
 >
 vmsize
-seg
--
->
-vmsize
+0
 name
 )
 )
