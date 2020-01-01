@@ -578,6 +578,12 @@ NS_UNIX_XDG_VIDEOS_DIR
 XDGVids
 "
 #
+define
+NS_UNIX_DEFAULT_DOWNLOAD_DIR
+"
+DfltDwnld
+"
+#
 elif
 defined
 (
