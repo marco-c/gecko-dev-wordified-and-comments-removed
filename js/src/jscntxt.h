@@ -2405,6 +2405,9 @@ hadOutOfMemory
 JSCList
 debuggerList
 ;
+JSCList
+onNewGlobalObjectWatchers
+;
 js
 :
 :
