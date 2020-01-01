@@ -10093,6 +10093,7 @@ class
 U
 >
 static
+MOZ_CONSTEXPR
 nsCycleCollectionParticipant
 *
 GetHelper
@@ -10127,6 +10128,7 @@ class
 U
 >
 static
+MOZ_CONSTEXPR
 nsCycleCollectionParticipant
 *
 GetHelper
@@ -10141,6 +10143,7 @@ nullptr
 public
 :
 static
+MOZ_CONSTEXPR
 nsCycleCollectionParticipant
 *
 Get

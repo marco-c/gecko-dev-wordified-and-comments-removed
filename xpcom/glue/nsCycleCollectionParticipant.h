@@ -2107,6 +2107,7 @@ _class
 )
 \
 static
+MOZ_CONSTEXPR
 nsXPCOMCycleCollectionParticipant
 *
 GetParticipant
@@ -2979,6 +2980,7 @@ _class
 )
 \
 static
+MOZ_CONSTEXPR
 nsCycleCollectionParticipant
 *
 GetParticipant
@@ -3059,6 +3061,7 @@ closure
 ;
 \
 static
+MOZ_CONSTEXPR
 nsScriptObjectTracer
 *
 GetParticipant
