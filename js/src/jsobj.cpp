@@ -21111,6 +21111,12 @@ defineHow
 &
 JSDNP_CACHE_RESULT
 )
+{
+JS_ASSERT_NOT_ON_TRACE
+(
+cx
+)
+;
 TRACE_2
 (
 SetPropHit
@@ -21118,6 +21124,7 @@ JS_NO_PROP_CACHE_FILL
 sprop
 )
 ;
+}
 return
 JS_TRUE
 ;
@@ -21171,6 +21178,11 @@ defineHow
 JSDNP_CACHE_RESULT
 )
 {
+JS_ASSERT_NOT_ON_TRACE
+(
+cx
+)
+;
 JSPropCacheEntry
 *
 entry
@@ -21530,6 +21542,11 @@ defineHow
 JSDNP_CACHE_RESULT
 )
 {
+JS_ASSERT_NOT_ON_TRACE
+(
+cx
+)
+;
 JSPropCacheEntry
 *
 entry
