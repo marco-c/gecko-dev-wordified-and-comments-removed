@@ -15774,7 +15774,7 @@ i
 eDOMClassInfoIDCount
 )
 {
-NS_ERROR
+MOZ_NOT_REACHED
 (
 "
 The
@@ -15849,7 +15849,7 @@ mDebugID
 i
 )
 {
-NS_ERROR
+MOZ_NOT_REACHED
 (
 "
 Class
@@ -15918,7 +15918,7 @@ i
 mInterfaces
 )
 {
-NS_ERROR
+MOZ_NOT_REACHED
 (
 "
 Class
