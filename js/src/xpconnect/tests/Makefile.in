@@ -448,7 +448,6 @@ DIRS
 =
 idl
 mochitest
-chrome
 ifndef
 MOZ_ENABLE_LIBXUL
 DIRS

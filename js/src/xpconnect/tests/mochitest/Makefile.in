@@ -440,10 +440,6 @@ rules
 mk
 _TEST_FILES
 =
-bug500931_helper
-.
-html
-\
 inner
 .
 html
