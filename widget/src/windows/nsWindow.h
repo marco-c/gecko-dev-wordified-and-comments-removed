@@ -2155,6 +2155,17 @@ LPARAM
 aMsg
 )
 ;
+static
+BOOL
+CALLBACK
+InvalidateForeignChildWindows
+(
+HWND
+aWnd
+LPARAM
+aMsg
+)
+;
 public
 :
 static
