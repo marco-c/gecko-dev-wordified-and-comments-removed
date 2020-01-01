@@ -2454,6 +2454,11 @@ NS_IS_IME_SPECIAL_COLOR
 aColor
 )
 ;
+default
+:
+return
+PR_FALSE
+;
 }
 return
 PR_FALSE
@@ -2963,6 +2968,10 @@ aMetric
 ;
 return
 NS_OK
+;
+default
+:
+break
 ;
 }
 for
