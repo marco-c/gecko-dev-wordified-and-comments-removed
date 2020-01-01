@@ -7,6 +7,11 @@ client
 .
 js
 "
+"
+storage
+.
+js
+"
 ]
 ;
 function
