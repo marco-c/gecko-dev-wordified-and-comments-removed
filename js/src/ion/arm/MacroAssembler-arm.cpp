@@ -1027,9 +1027,7 @@ dest
 {
 writeDataRelocation
 (
-nextOffset
-(
-)
+ptr
 )
 ;
 ma_movPatchable
