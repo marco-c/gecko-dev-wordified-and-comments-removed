@@ -440,10 +440,6 @@ nsObserverBase
 .
 cpp
 \
-nsDebugDetector
-.
-cpp
-\
 nsCyrillicDetector
 .
 cpp
