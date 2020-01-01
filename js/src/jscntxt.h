@@ -2806,7 +2806,6 @@ gcLocksHash
 unsigned
 gcKeepAtoms
 ;
-volatile
 size_t
 gcBytes
 ;
@@ -3030,7 +3029,6 @@ gcObjectsMarkedInDeadZones
 bool
 gcPoke
 ;
-volatile
 js
 :
 :

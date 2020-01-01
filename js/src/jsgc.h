@@ -2850,11 +2850,6 @@ thread
 ;
 }
 bool
-onBackgroundThread
-(
-)
-;
-bool
 sweeping
 (
 )
