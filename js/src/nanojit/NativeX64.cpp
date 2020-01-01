@@ -13792,9 +13792,8 @@ if
 ins
 -
 >
-isop
+isconstq
 (
-LIR_quad
 )
 )
 {

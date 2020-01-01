@@ -1991,7 +1991,7 @@ if
 value
 -
 >
-isconstq
+isconstf
 (
 )
 )
