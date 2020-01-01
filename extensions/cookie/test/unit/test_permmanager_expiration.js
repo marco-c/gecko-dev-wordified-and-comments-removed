@@ -72,7 +72,9 @@ com
 let
 now
 =
-Number
+Math
+.
+floor
 (
 Date
 .
