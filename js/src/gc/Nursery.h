@@ -287,6 +287,17 @@ newCount
 )
 ;
 void
+freeSlots
+(
+JSContext
+*
+cx
+HeapSlot
+*
+slots
+)
+;
+void
 notifyInitialSlots
 (
 gc
