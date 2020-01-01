@@ -478,7 +478,13 @@ MOZ_STORAGE
 CPPSRCS
 +
 =
-nsDOMStorageDB
+nsDOMStorageDBWrapper
+.
+cpp
+nsDOMStoragePersistentDB
+.
+cpp
+nsDOMStorageMemoryDB
 .
 cpp
 endif
