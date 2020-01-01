@@ -4195,6 +4195,7 @@ label
 accesskey
 =
 "
+&
 webDeveloperMenu
 .
 accesskey
