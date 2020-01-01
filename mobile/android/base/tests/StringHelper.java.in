@@ -870,6 +870,17 @@ public
 static
 final
 String
+TOP_SITES_LABEL
+=
+"
+TOP
+SITES
+"
+;
+public
+static
+final
+String
 BOOKMARKS_LABEL
 =
 "

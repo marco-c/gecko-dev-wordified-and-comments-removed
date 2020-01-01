@@ -252,10 +252,10 @@ reading_list
 static
 final
 String
-LIST_TAG_MOST_VISITED
+LIST_TAG_TOP_SITES
 =
 "
-most_visited
+top_sites
 "
 ;
 static

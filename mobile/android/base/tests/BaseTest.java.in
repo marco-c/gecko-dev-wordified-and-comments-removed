@@ -371,7 +371,7 @@ final
 int
 MAX_WAIT_HOME_PAGER_HIDDEN_MS
 =
-15000
+10000
 ;
 public
 static
@@ -4377,6 +4377,11 @@ int
 height
 ;
 public
+final
+float
+density
+;
+public
 Device
 (
 )
@@ -4491,6 +4496,12 @@ width
 dm
 .
 widthPixels
+;
+density
+=
+dm
+.
+density
 ;
 /
 /

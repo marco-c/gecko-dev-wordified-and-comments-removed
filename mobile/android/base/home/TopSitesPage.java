@@ -816,7 +816,7 @@ setTag
 (
 HomePager
 .
-LIST_TAG_MOST_VISITED
+LIST_TAG_TOP_SITES
 )
 ;
 mList
