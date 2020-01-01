@@ -360,10 +360,6 @@ Now
 (
 )
 ;
-mLastAccuracy
-=
-SENSOR_ACCURACY_UNKNOWN
-;
 nsCOMPtr
 <
 nsIPrefBranch
