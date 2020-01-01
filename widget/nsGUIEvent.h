@@ -4577,12 +4577,6 @@ kHasPixels
 <
 <
 3
-kIsMomentum
-=
-1
-<
-<
-6
 }
 ;
 nsMouseScrollEvent
@@ -4611,10 +4605,6 @@ delta
 (
 0
 )
-scrollOverflow
-(
-0
-)
 {
 }
 PRInt32
@@ -4622,9 +4612,6 @@ scrollFlags
 ;
 PRInt32
 delta
-;
-PRInt32
-scrollOverflow
 ;
 }
 ;
