@@ -24,6 +24,9 @@ source_package
 target_package
 =
 3
+locale
+=
+4
 #
 cleanup
 rm
@@ -44,6 +47,7 @@ source
 "
 source_package
 "
+locale
 if
 [
 "
@@ -76,6 +80,7 @@ target
 "
 target_package
 "
+locale
 if
 [
 "
