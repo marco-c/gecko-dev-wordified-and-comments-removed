@@ -73,7 +73,7 @@ PTestBadActorSubParent
 TestBadActorParent
 :
 :
-AllocPTestBadActorSub
+AllocPTestBadActorSubParent
 (
 )
 {
@@ -114,7 +114,7 @@ PTestBadActorSubChild
 TestBadActorChild
 :
 :
-AllocPTestBadActorSub
+AllocPTestBadActorSubChild
 (
 )
 {

@@ -120,7 +120,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPTestManyChildAllocsSub
+DeallocPTestManyChildAllocsSubParent
 (
 PTestManyChildAllocsSubParent
 *
@@ -131,7 +131,7 @@ MOZ_OVERRIDE
 virtual
 PTestManyChildAllocsSubParent
 *
-AllocPTestManyChildAllocsSub
+AllocPTestManyChildAllocsSubParent
 (
 )
 MOZ_OVERRIDE
@@ -204,7 +204,7 @@ MOZ_OVERRIDE
 ;
 virtual
 bool
-DeallocPTestManyChildAllocsSub
+DeallocPTestManyChildAllocsSubChild
 (
 PTestManyChildAllocsSubChild
 *
@@ -215,7 +215,7 @@ MOZ_OVERRIDE
 virtual
 PTestManyChildAllocsSubChild
 *
-AllocPTestManyChildAllocsSub
+AllocPTestManyChildAllocsSubChild
 (
 )
 MOZ_OVERRIDE

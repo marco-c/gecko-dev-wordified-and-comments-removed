@@ -157,7 +157,7 @@ PTestDescSubParent
 TestDescParent
 :
 :
-AllocPTestDescSub
+AllocPTestDescSubParent
 (
 PTestDescSubsubParent
 *
@@ -190,7 +190,7 @@ bool
 TestDescParent
 :
 :
-DeallocPTestDescSub
+DeallocPTestDescSubParent
 (
 PTestDescSubParent
 *
@@ -209,7 +209,7 @@ PTestDescSubsubParent
 TestDescSubParent
 :
 :
-AllocPTestDescSubsub
+AllocPTestDescSubsubParent
 (
 )
 {
@@ -224,7 +224,7 @@ bool
 TestDescSubParent
 :
 :
-DeallocPTestDescSubsub
+DeallocPTestDescSubsubParent
 (
 PTestDescSubsubParent
 *
@@ -295,7 +295,7 @@ PTestDescSubChild
 TestDescChild
 :
 :
-AllocPTestDescSub
+AllocPTestDescSubChild
 (
 PTestDescSubsubChild
 *
@@ -328,7 +328,7 @@ bool
 TestDescChild
 :
 :
-DeallocPTestDescSub
+DeallocPTestDescSubChild
 (
 PTestDescSubChild
 *
@@ -347,7 +347,7 @@ PTestDescSubsubChild
 TestDescSubChild
 :
 :
-AllocPTestDescSubsub
+AllocPTestDescSubsubChild
 (
 )
 {
@@ -362,7 +362,7 @@ bool
 TestDescSubChild
 :
 :
-DeallocPTestDescSubsub
+DeallocPTestDescSubsubChild
 (
 PTestDescSubsubChild
 *

@@ -176,7 +176,7 @@ protected
 virtual
 PTestMultiMgrsBottomParent
 *
-AllocPTestMultiMgrsBottom
+AllocPTestMultiMgrsBottomParent
 (
 )
 MOZ_OVERRIDE
@@ -190,7 +190,7 @@ TestMultiMgrsBottomParent
 }
 virtual
 bool
-DeallocPTestMultiMgrsBottom
+DeallocPTestMultiMgrsBottomParent
 (
 PTestMultiMgrsBottomParent
 *
@@ -251,7 +251,7 @@ protected
 virtual
 PTestMultiMgrsBottomParent
 *
-AllocPTestMultiMgrsBottom
+AllocPTestMultiMgrsBottomParent
 (
 )
 MOZ_OVERRIDE
@@ -265,7 +265,7 @@ TestMultiMgrsBottomParent
 }
 virtual
 bool
-DeallocPTestMultiMgrsBottom
+DeallocPTestMultiMgrsBottomParent
 (
 PTestMultiMgrsBottomParent
 *
@@ -339,7 +339,7 @@ MOZ_OVERRIDE
 virtual
 PTestMultiMgrsLeftParent
 *
-AllocPTestMultiMgrsLeft
+AllocPTestMultiMgrsLeftParent
 (
 )
 MOZ_OVERRIDE
@@ -353,7 +353,7 @@ TestMultiMgrsLeftParent
 }
 virtual
 bool
-DeallocPTestMultiMgrsLeft
+DeallocPTestMultiMgrsLeftParent
 (
 PTestMultiMgrsLeftParent
 *
@@ -371,7 +371,7 @@ true
 virtual
 PTestMultiMgrsRightParent
 *
-AllocPTestMultiMgrsRight
+AllocPTestMultiMgrsRightParent
 (
 )
 MOZ_OVERRIDE
@@ -385,7 +385,7 @@ TestMultiMgrsRightParent
 }
 virtual
 bool
-DeallocPTestMultiMgrsRight
+DeallocPTestMultiMgrsRightParent
 (
 PTestMultiMgrsRightParent
 *
@@ -515,7 +515,7 @@ MOZ_OVERRIDE
 virtual
 PTestMultiMgrsBottomChild
 *
-AllocPTestMultiMgrsBottom
+AllocPTestMultiMgrsBottomChild
 (
 )
 MOZ_OVERRIDE
@@ -529,7 +529,7 @@ TestMultiMgrsBottomChild
 }
 virtual
 bool
-DeallocPTestMultiMgrsBottom
+DeallocPTestMultiMgrsBottomChild
 (
 PTestMultiMgrsBottomChild
 *
@@ -600,7 +600,7 @@ MOZ_OVERRIDE
 virtual
 PTestMultiMgrsBottomChild
 *
-AllocPTestMultiMgrsBottom
+AllocPTestMultiMgrsBottomChild
 (
 )
 MOZ_OVERRIDE
@@ -614,7 +614,7 @@ TestMultiMgrsBottomChild
 }
 virtual
 bool
-DeallocPTestMultiMgrsBottom
+DeallocPTestMultiMgrsBottomChild
 (
 PTestMultiMgrsBottomChild
 *
@@ -676,7 +676,7 @@ MOZ_OVERRIDE
 virtual
 PTestMultiMgrsLeftChild
 *
-AllocPTestMultiMgrsLeft
+AllocPTestMultiMgrsLeftChild
 (
 )
 MOZ_OVERRIDE
@@ -690,7 +690,7 @@ TestMultiMgrsLeftChild
 }
 virtual
 bool
-DeallocPTestMultiMgrsLeft
+DeallocPTestMultiMgrsLeftChild
 (
 PTestMultiMgrsLeftChild
 *
@@ -708,7 +708,7 @@ true
 virtual
 PTestMultiMgrsRightChild
 *
-AllocPTestMultiMgrsRight
+AllocPTestMultiMgrsRightChild
 (
 )
 MOZ_OVERRIDE
@@ -722,7 +722,7 @@ TestMultiMgrsRightChild
 }
 virtual
 bool
-DeallocPTestMultiMgrsRight
+DeallocPTestMultiMgrsRightChild
 (
 PTestMultiMgrsRightChild
 *

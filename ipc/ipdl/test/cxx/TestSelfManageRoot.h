@@ -104,7 +104,7 @@ protected
 virtual
 PTestSelfManageParent
 *
-AllocPTestSelfManage
+AllocPTestSelfManageParent
 (
 )
 MOZ_OVERRIDE
@@ -118,7 +118,7 @@ TestSelfManageParent
 }
 virtual
 bool
-DeallocPTestSelfManage
+DeallocPTestSelfManageParent
 (
 PTestSelfManageParent
 *
@@ -206,7 +206,7 @@ protected
 virtual
 PTestSelfManageParent
 *
-AllocPTestSelfManage
+AllocPTestSelfManageParent
 (
 )
 MOZ_OVERRIDE
@@ -220,7 +220,7 @@ TestSelfManageParent
 }
 virtual
 bool
-DeallocPTestSelfManage
+DeallocPTestSelfManageParent
 (
 PTestSelfManageParent
 *
@@ -306,7 +306,7 @@ protected
 virtual
 PTestSelfManageChild
 *
-AllocPTestSelfManage
+AllocPTestSelfManageChild
 (
 )
 MOZ_OVERRIDE
@@ -320,7 +320,7 @@ TestSelfManageChild
 }
 virtual
 bool
-DeallocPTestSelfManage
+DeallocPTestSelfManageChild
 (
 PTestSelfManageChild
 *
@@ -387,7 +387,7 @@ protected
 virtual
 PTestSelfManageChild
 *
-AllocPTestSelfManage
+AllocPTestSelfManageChild
 (
 )
 MOZ_OVERRIDE
@@ -401,7 +401,7 @@ TestSelfManageChild
 }
 virtual
 bool
-DeallocPTestSelfManage
+DeallocPTestSelfManageChild
 (
 PTestSelfManageChild
 *

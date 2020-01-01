@@ -238,7 +238,7 @@ bool
 TestDataStructuresParent
 :
 :
-DeallocPTestDataStructuresSub
+DeallocPTestDataStructuresSubParent
 (
 PTestDataStructuresSubParent
 *

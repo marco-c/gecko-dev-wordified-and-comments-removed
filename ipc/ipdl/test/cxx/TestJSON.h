@@ -152,7 +152,7 @@ MOZ_OVERRIDE
 virtual
 PTestHandleParent
 *
-AllocPTestHandle
+AllocPTestHandleParent
 (
 )
 MOZ_OVERRIDE
@@ -168,7 +168,7 @@ TestHandleParent
 }
 virtual
 bool
-DeallocPTestHandle
+DeallocPTestHandleParent
 (
 PTestHandleParent
 *
@@ -280,7 +280,7 @@ MOZ_OVERRIDE
 virtual
 PTestHandleChild
 *
-AllocPTestHandle
+AllocPTestHandleChild
 (
 )
 MOZ_OVERRIDE
@@ -296,7 +296,7 @@ TestHandleChild
 }
 virtual
 bool
-DeallocPTestHandle
+DeallocPTestHandleChild
 (
 PTestHandleChild
 *

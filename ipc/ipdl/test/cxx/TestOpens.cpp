@@ -272,7 +272,7 @@ PTestOpensOpenedParent
 TestOpensParent
 :
 :
-AllocPTestOpensOpened
+AllocPTestOpensOpenedParent
 (
 Transport
 *
@@ -659,7 +659,7 @@ PTestOpensOpenedChild
 TestOpensChild
 :
 :
-AllocPTestOpensOpened
+AllocPTestOpensOpenedChild
 (
 Transport
 *

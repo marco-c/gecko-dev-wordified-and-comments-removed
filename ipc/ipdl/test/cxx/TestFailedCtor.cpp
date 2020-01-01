@@ -58,7 +58,7 @@ PTestFailedCtorSubParent
 TestFailedCtorParent
 :
 :
-AllocPTestFailedCtorSub
+AllocPTestFailedCtorSubParent
 (
 )
 {
@@ -73,7 +73,7 @@ bool
 TestFailedCtorParent
 :
 :
-DeallocPTestFailedCtorSub
+DeallocPTestFailedCtorSubParent
 (
 PTestFailedCtorSubParent
 *
@@ -92,7 +92,7 @@ PTestFailedCtorSubsubParent
 TestFailedCtorSubParent
 :
 :
-AllocPTestFailedCtorSubsub
+AllocPTestFailedCtorSubsubParent
 (
 )
 {
@@ -164,7 +164,7 @@ bool
 TestFailedCtorSubParent
 :
 :
-DeallocPTestFailedCtorSubsub
+DeallocPTestFailedCtorSubsubParent
 (
 PTestFailedCtorSubsubParent
 *
@@ -337,7 +337,7 @@ PTestFailedCtorSubChild
 TestFailedCtorChild
 :
 :
-AllocPTestFailedCtorSub
+AllocPTestFailedCtorSubChild
 (
 )
 {
@@ -423,7 +423,7 @@ bool
 TestFailedCtorChild
 :
 :
-DeallocPTestFailedCtorSub
+DeallocPTestFailedCtorSubChild
 (
 PTestFailedCtorSubChild
 *
@@ -467,7 +467,7 @@ PTestFailedCtorSubsubChild
 TestFailedCtorSubChild
 :
 :
-AllocPTestFailedCtorSubsub
+AllocPTestFailedCtorSubsubChild
 (
 )
 {
@@ -482,7 +482,7 @@ bool
 TestFailedCtorSubChild
 :
 :
-DeallocPTestFailedCtorSubsub
+DeallocPTestFailedCtorSubsubChild
 (
 PTestFailedCtorSubsubChild
 *

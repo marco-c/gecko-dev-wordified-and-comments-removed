@@ -174,7 +174,7 @@ protected
 virtual
 PTestDataStructuresSubParent
 *
-AllocPTestDataStructuresSub
+AllocPTestDataStructuresSubParent
 (
 const
 int
@@ -206,7 +206,7 @@ actor
 }
 virtual
 bool
-DeallocPTestDataStructuresSub
+DeallocPTestDataStructuresSubParent
 (
 PTestDataStructuresSubParent
 *
@@ -696,7 +696,7 @@ protected
 virtual
 PTestDataStructuresSubChild
 *
-AllocPTestDataStructuresSub
+AllocPTestDataStructuresSubChild
 (
 const
 int
@@ -728,7 +728,7 @@ actor
 }
 virtual
 bool
-DeallocPTestDataStructuresSub
+DeallocPTestDataStructuresSubChild
 (
 PTestDataStructuresSubChild
 *

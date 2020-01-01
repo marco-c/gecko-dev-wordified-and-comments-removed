@@ -138,7 +138,7 @@ protected
 virtual
 PTestBridgeMainSubParent
 *
-AllocPTestBridgeMainSub
+AllocPTestBridgeMainSubParent
 (
 Transport
 *
@@ -347,7 +347,7 @@ MOZ_OVERRIDE
 virtual
 PTestBridgeMainSubChild
 *
-AllocPTestBridgeMainSub
+AllocPTestBridgeMainSubChild
 (
 Transport
 *
