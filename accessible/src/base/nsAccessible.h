@@ -1202,17 +1202,6 @@ nsIContent
 >
 PRUint32
 )
-PRBool
-CheckVisibilityInParentChain
-(
-nsIDocument
-*
-aDocument
-nsIView
-*
-aView
-)
-;
 nsIDOMNode
 *
 GetAtomicRegion

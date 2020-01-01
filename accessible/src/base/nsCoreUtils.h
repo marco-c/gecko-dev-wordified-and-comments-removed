@@ -659,6 +659,15 @@ scope
 )
 ;
 }
+static
+bool
+CheckVisibilityInParentChain
+(
+nsIFrame
+*
+aFrame
+)
+;
 }
 ;
 class
