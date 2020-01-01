@@ -304,10 +304,6 @@ buf
 PRBool
 &
 appended
-PRUint32
-extraLen
-=
-0
 )
 ;
 const
