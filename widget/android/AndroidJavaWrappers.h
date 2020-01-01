@@ -758,6 +758,11 @@ jobj
 )
 ;
 void
+Dispose
+(
+)
+;
+void
 BeginDrawing
 (
 )

@@ -714,6 +714,9 @@ SetShadowTransform
 worldTransform
 )
 ;
+#
+ifdef
+MOZ_WIDGET_ANDROID
 gfx3DMatrix
 transform
 =
@@ -751,6 +754,8 @@ transform
 transformUserData
 )
 ;
+#
+endif
 mLayerManager
 -
 >
