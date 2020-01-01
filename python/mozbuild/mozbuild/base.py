@@ -3188,6 +3188,16 @@ build
 "
 "
         
+if
+hasattr
+(
+cls
+'
+substs
+'
+)
+:
+            
 return
 cls
 .
@@ -3204,6 +3214,9 @@ MOZ_WIDGET_TOOLKIT
 '
 gonk
 '
+        
+return
+False
 class
 PathArgument
 (
