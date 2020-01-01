@@ -43952,7 +43952,7 @@ aLabel
 )
 {
 let
-memMgr
+memDumper
 =
 Cc
 [
@@ -43963,9 +43963,9 @@ org
 /
 memory
 -
-reporter
+info
 -
-manager
+dumper
 ;
 1
 "
@@ -43975,10 +43975,10 @@ getService
 (
 Ci
 .
-nsIMemoryReporterManager
+nsIMemoryInfoDumper
 )
 ;
-memMgr
+memDumper
 .
 dumpMemoryReportsToFile
 (
