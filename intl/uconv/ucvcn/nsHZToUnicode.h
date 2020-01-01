@@ -61,6 +61,9 @@ mHZState
 PRUint32
 mRunLength
 ;
+char
+mOddByte
+;
 }
 ;
 #
