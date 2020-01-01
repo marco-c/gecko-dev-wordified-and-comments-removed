@@ -434,7 +434,7 @@ GetPrimaryScrollableLayer
 )
 ;
 void
-TransformFixedLayers
+TranslateFixedLayers
 (
 Layer
 *
@@ -443,10 +443,6 @@ const
 gfxPoint
 &
 aTranslation
-const
-gfxPoint
-&
-aScaleDiff
 )
 ;
 nsRefPtr
