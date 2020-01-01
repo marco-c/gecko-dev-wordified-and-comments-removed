@@ -1809,6 +1809,7 @@ IsAlive
 )
 {
 return
+PR_FALSE
 ;
 }
 mPostedReflowCallback
