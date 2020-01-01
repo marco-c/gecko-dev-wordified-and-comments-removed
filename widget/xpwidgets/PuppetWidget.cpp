@@ -801,10 +801,10 @@ mBounds
 )
 &
 &
-mWidgetListener
+mAttachedWidgetListener
 )
 {
-mWidgetListener
+mAttachedWidgetListener
 -
 >
 WindowResized
@@ -1071,7 +1071,7 @@ nsEventStatus_eIgnore
 ;
 NS_ABORT_IF_FALSE
 (
-mViewWrapperPtr
+mAttachedWidgetListener
 "
 No
 listener
@@ -1190,7 +1190,7 @@ break
 }
 aStatus
 =
-mViewWrapperPtr
+mAttachedWidgetListener
 -
 >
 HandleEvent
@@ -2050,7 +2050,7 @@ up
 if
 (
 !
-mWidgetListener
+mAttachedWidgetListener
 )
 return
 NS_OK
@@ -2111,7 +2111,7 @@ GetBackendType
 )
 )
 {
-mWidgetListener
+mAttachedWidgetListener
 -
 >
 PaintWindow
@@ -2166,7 +2166,7 @@ ctx
 BUFFER_NONE
 )
 ;
-mWidgetListener
+mAttachedWidgetListener
 -
 >
 PaintWindow
@@ -2186,7 +2186,7 @@ NotifyPainted
 ;
 }
 }
-mWidgetListener
+mAttachedWidgetListener
 -
 >
 DidPaintWindow
