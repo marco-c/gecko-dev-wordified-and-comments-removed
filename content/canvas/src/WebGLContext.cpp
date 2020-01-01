@@ -259,6 +259,10 @@ mPixelStorePremultiplyAlpha
 =
 PR_FALSE
 ;
+mPixelStoreColorspaceConversion
+=
+BROWSER_DEFAULT_WEBGL
+;
 mShaderValidation
 =
 PR_TRUE

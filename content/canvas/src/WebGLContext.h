@@ -2164,6 +2164,7 @@ mMapRenderbuffers
 PRUint32
 mPixelStorePackAlignment
 mPixelStoreUnpackAlignment
+mPixelStoreColorspaceConversion
 ;
 PRBool
 mPixelStoreFlipY
