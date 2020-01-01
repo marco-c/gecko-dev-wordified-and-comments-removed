@@ -1561,9 +1561,11 @@ GetNativeSurface
 NativeSurfaceType
 aType
 )
-=
-0
+{
+return
+NULL
 ;
+}
 protected
 :
 Matrix

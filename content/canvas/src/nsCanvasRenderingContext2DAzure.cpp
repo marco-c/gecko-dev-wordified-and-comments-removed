@@ -3519,7 +3519,16 @@ NS_ERROR_NOT_AVAILABLE
 elif
 !
 defined
+(
 XP_MACOSX
+)
+&
+&
+!
+defined
+(
+ANDROID
+)
 return
 NS_ERROR_NOT_AVAILABLE
 ;
