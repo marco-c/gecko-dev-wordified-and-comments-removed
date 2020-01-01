@@ -44,7 +44,7 @@ NOT_OBJECT_ERR
 const
 SECURITY_ERR
 =
-0x80530012
+0x805303e8
 ;
 function
 isWhitespace

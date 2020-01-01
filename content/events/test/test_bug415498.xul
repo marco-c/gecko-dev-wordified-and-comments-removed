@@ -577,7 +577,7 @@ ok
 verifyErrorReceived
 (
 "
-HierarchyRequestError
+NS_ERROR_DOM_HIERARCHY_REQUEST_ERR
 "
 )
 "
@@ -649,7 +649,7 @@ ok
 verifyErrorReceived
 (
 "
-HierarchyRequestError
+NS_ERROR_DOM_HIERARCHY_REQUEST_ERR
 "
 )
 "

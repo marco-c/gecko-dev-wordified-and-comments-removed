@@ -330,7 +330,7 @@ e
 .
 name
 "
-SecurityError
+NS_ERROR_DOM_SECURITY_ERR
 "
 "
 Unxpected
@@ -386,7 +386,7 @@ e
 .
 name
 "
-SecurityError
+NS_ERROR_DOM_SECURITY_ERR
 "
 "
 Unxpected
