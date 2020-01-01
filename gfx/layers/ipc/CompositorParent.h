@@ -334,6 +334,12 @@ RequestViewTransform
 (
 )
 ;
+Layer
+*
+GetPrimaryScrollableLayer
+(
+)
+;
 #
 endif
 nsRefPtr
