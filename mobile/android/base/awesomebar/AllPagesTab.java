@@ -3111,6 +3111,12 @@ e
 )
 ;
 }
+mCursorAdapter
+.
+notifyDataSetChanged
+(
+)
+;
 filterSuggestions
 (
 mSearchTerm
