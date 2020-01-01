@@ -5312,7 +5312,9 @@ text
 0
 0
 0
-0
+text
+.
+length
 0
 )
 ;
