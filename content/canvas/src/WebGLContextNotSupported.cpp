@@ -39,7 +39,7 @@ nsIDOMWebGLRenderingContext
 )
 DOMCI_DATA
 (
-CanvasRenderingContextWebGL
+WebGLRenderingContext
 void
 )
 DOMCI_DATA
@@ -75,5 +75,10 @@ void
 DOMCI_DATA
 (
 WebGLUniformLocation
+void
+)
+DOMCI_DATA
+(
+WebGLActiveInfo
 void
 )
