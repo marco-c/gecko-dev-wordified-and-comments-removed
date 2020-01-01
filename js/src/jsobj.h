@@ -7093,8 +7093,10 @@ JSContext
 cx
 jsid
 id
-JSBool
+bool
 cacheResult
+bool
+global
 JSObject
 *
 *
@@ -7121,6 +7123,8 @@ JSContext
 cx
 jsid
 id
+bool
+global
 JSObject
 *
 *
