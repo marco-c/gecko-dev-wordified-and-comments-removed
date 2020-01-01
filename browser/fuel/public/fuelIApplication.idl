@@ -1061,6 +1061,7 @@ not
 .
 *
 /
+readonly
 attribute
 boolean
 modified
