@@ -439,6 +439,11 @@ idl
 (
 NULL
 )
+EXTRA_COMPONENTS
+=
+nsXULAppInstall
+.
+manifest
 EXTRA_PP_COMPONENTS
 =
 nsXULAppInstall
