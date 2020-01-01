@@ -263,7 +263,7 @@ errorhandler
 .
 networkFailureReportTimeout
 "
-604800
+1209600
 )
 ;
 pref
