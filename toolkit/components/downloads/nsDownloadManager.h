@@ -984,6 +984,9 @@ AUTO_RESUME
 AutoResume
 mAutoResume
 ;
+nsAutoCString
+mHash
+;
 friend
 class
 nsDownloadManager
