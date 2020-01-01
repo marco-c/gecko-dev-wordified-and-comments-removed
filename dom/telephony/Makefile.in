@@ -117,10 +117,6 @@ TelephonyCall
 .
 cpp
 \
-CallEvent
-.
-cpp
-\
 Voicemail
 .
 cpp
