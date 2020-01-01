@@ -510,11 +510,7 @@ SupportsAzureContent
 (
 )
 const
-{
-return
-true
 ;
-}
 virtual
 TextureInfo
 GetTextureInfo
