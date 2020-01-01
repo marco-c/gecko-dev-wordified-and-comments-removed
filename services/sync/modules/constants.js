@@ -284,7 +284,7 @@ login
 .
 reason
 .
-no_passphrase
+no_synckey
 "
 LOGIN_FAILED_NETWORK_ERROR
 :
@@ -317,7 +317,7 @@ login
 .
 reason
 .
-passphrase
+synckey
 "
 LOGIN_FAILED_LOGIN_REJECTED
 :
