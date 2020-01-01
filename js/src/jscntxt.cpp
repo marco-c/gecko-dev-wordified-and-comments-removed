@@ -1968,6 +1968,17 @@ report
 )
 ;
 }
+JS_ASSERT
+(
+!
+cx
+-
+>
+isExceptionPending
+(
+)
+)
+;
 }
 JS_FRIEND_API
 (
