@@ -8,6 +8,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 HTMLUnknownElement
 .
 h
@@ -192,7 +196,7 @@ return
 obj
 ;
 }
-NS_INTERFACE_TABLE_HEAD
+NS_INTERFACE_MAP_BEGIN
 (
 HTMLUnknownElement
 )
@@ -200,12 +204,6 @@ NS_HTML_CONTENT_INTERFACES
 (
 nsGenericHTMLElement
 )
-NS_INTERFACE_TABLE_INHERITED1
-(
-HTMLUnknownElement
-nsIDOMHTMLUnknownElement
-)
-NS_INTERFACE_TABLE_TO_MAP_SEGUE
 NS_ELEMENT_INTERFACE_MAP_END
 NS_IMPL_ELEMENT_CLONE
 (
