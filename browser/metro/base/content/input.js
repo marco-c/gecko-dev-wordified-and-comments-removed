@@ -443,12 +443,6 @@ _targetScrollInterface
 =
 null
 ;
-this
-.
-_cleanClickBuffer
-(
-)
-;
 }
 _onContextMenu
 :
