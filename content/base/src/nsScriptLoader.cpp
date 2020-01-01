@@ -4684,6 +4684,14 @@ GetContentCharset
 charset
 )
 )
+&
+&
+!
+charset
+.
+IsEmpty
+(
+)
 )
 {
 charsetConv
