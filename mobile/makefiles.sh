@@ -406,6 +406,11 @@ mobile
 Makefile
 mobile
 /
+app
+/
+Makefile
+mobile
+/
 chrome
 /
 Makefile
@@ -421,11 +426,6 @@ mobile
 chrome
 /
 content
-/
-Makefile
-mobile
-/
-app
 /
 Makefile
 mobile
