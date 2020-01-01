@@ -7808,8 +7808,14 @@ bridge
 >
 OpenUriExternal
 (
+NS_ConvertUTF8toUTF16
+(
 fileUri
+)
+NS_ConvertUTF8toUTF16
+(
 type
+)
 )
 ?
 NS_OK

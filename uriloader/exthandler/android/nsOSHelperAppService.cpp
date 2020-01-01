@@ -171,7 +171,10 @@ Bridge
 >
 GetHandlersForURL
 (
+NS_ConvertUTF8toUTF16
+(
 aScheme
+)
 )
 ;
 return

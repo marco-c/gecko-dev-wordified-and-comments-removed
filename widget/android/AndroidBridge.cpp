@@ -3432,11 +3432,9 @@ AndroidBridge
 NotifyIMEChange
 (
 const
-PRUnichar
-*
+nsAString
+&
 aText
-uint32_t
-aTextLen
 int
 aStart
 int
@@ -3501,7 +3499,6 @@ NewJavaString
 &
 jniFrame
 aText
-aTextLen
 )
 ;
 args
@@ -4105,8 +4102,8 @@ AndroidBridge
 GetHandlersForMimeType
 (
 const
-char
-*
+nsAString
+&
 aMimeType
 nsIMutableArray
 *
@@ -4246,7 +4243,7 @@ len
 aHandlersArray
 aDefaultApp
 aAction
-nsDependentCString
+NS_ConvertUTF16toUTF8
 (
 aMimeType
 )
@@ -4263,8 +4260,8 @@ AndroidBridge
 GetHandlersForURL
 (
 const
-char
-*
+nsAString
+&
 aURL
 nsIMutableArray
 *
@@ -4417,11 +4414,11 @@ AndroidBridge
 OpenUriExternal
 (
 const
-nsACString
+nsAString
 &
 aUriSpec
 const
-nsACString
+nsAString
 &
 aMimeType
 const
@@ -7848,7 +7845,7 @@ nsAString
 &
 aFile
 const
-nsACString
+nsAString
 &
 aMimeType
 )
