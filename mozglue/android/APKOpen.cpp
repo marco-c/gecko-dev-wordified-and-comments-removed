@@ -3315,7 +3315,7 @@ s
 getenv
 (
 "
-CACHE_PATH
+MOZ_LINKER_CACHE
 "
 )
 path

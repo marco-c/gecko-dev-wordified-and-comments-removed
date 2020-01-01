@@ -2342,7 +2342,7 @@ GeckoAppShell
 putenv
 (
 "
-CACHE_PATH
+MOZ_LINKER_CACHE
 =
 "
 +

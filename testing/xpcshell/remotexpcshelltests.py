@@ -1718,7 +1718,7 @@ shellArgs
 "
 ;
 export
-CACHE_PATH
+MOZ_LINKER_CACHE
 =
 "
 +
