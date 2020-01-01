@@ -242,6 +242,11 @@ PRUint32
 aIndex
 )
 ;
+void
+UnbindDefaultContent
+(
+)
+;
 protected
 :
 nsAutoRefCnt
