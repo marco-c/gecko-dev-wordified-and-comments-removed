@@ -456,10 +456,6 @@ imgTools
 .
 cpp
 \
-imgContainerRequest
-.
-cpp
-\
 imgDiscardTracker
 .
 cpp
