@@ -187,6 +187,13 @@ mozilla
 :
 gfx
 ;
+using
+namespace
+mozilla
+:
+:
+unicode
+;
 gfxFontconfigUtils
 *
 gfxPlatformGtk
@@ -3016,9 +3023,6 @@ GlobalFontMatch
 data
 (
 aCh
-gfxUnicodeProperties
-:
-:
 GetScriptCode
 (
 aCh
