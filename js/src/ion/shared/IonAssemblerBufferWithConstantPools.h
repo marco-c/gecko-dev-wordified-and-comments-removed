@@ -3297,6 +3297,13 @@ nextOffset
 this
 -
 >
+markNextAsBranch
+(
+)
+;
+this
+-
+>
 putBlob
 (
 guardSize
