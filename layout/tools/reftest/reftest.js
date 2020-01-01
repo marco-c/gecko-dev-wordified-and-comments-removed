@@ -5685,6 +5685,7 @@ function
 WaitForTestEnd
 (
 contentRootElement
+inPrintMode
 )
 {
 var
@@ -6170,6 +6171,11 @@ shouldWaitForReftestWaitRemoval
 contentRootElement
 )
 ;
+if
+(
+contentRootElement
+)
+{
 var
 notification
 =
@@ -6200,6 +6206,7 @@ dispatchEvent
 notification
 )
 ;
+}
 if
 (
 hasReftestWait
@@ -6310,6 +6317,10 @@ STATE_WAITING_TO_FINISH
 ;
 if
 (
+!
+inPrintMode
+&
+&
 doPrintMode
 (
 contentRootElement
@@ -6331,10 +6342,6 @@ mode
 setupPrintMode
 (
 )
-;
-didPrintMode
-=
-true
 ;
 }
 MakeProgress
@@ -6656,6 +6663,9 @@ AfterOnLoadScripts
 (
 )
 {
+var
+painted
+=
 InitCurrentCanvasWithSnapshot
 (
 )
@@ -6677,6 +6687,10 @@ doPrintMode
 contentRootElement
 )
 )
+|
+|
+!
+painted
 )
 {
 LogInfo
@@ -6692,6 +6706,7 @@ WaitForTestEnd
 WaitForTestEnd
 (
 contentRootElement
+inPrintMode
 )
 ;
 }
@@ -6749,6 +6764,7 @@ setTimeout
 WaitForTestEnd
 0
 contentRootElement
+inPrintMode
 )
 ;
 }
@@ -7165,6 +7181,7 @@ TYPE_SCRIPT
 )
 {
 return
+false
 ;
 }
 if
@@ -7204,6 +7221,9 @@ gCurrentCanvas
 .
 height
 )
+;
+return
+true
 ;
 }
 function
