@@ -1109,6 +1109,11 @@ nsIWebBrowserChrome
 :
 :
 CHROME_MODAL
+|
+nsIWebBrowserChrome
+:
+:
+CHROME_OPENAS_CHROME
 ;
 if
 (
