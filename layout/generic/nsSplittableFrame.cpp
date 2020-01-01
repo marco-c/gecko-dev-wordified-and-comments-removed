@@ -1136,6 +1136,12 @@ if
 aConsumedHeight
 !
 =
+0
+&
+&
+aConsumedHeight
+!
+=
 NS_INTRINSICSIZE
 )
 {
