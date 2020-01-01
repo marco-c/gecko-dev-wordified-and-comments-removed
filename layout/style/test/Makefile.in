@@ -741,6 +741,10 @@ test_selectors_on_anonymous_content
 .
 html
 \
+test_shorthand_property_getters
+.
+html
+\
 test_style_struct_copy_constructors
 .
 html
