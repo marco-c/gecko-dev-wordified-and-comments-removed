@@ -2685,12 +2685,6 @@ evalHashLink
 ;
 }
 }
-toSourceCache
-.
-destroyIfConstructed
-(
-)
-;
 }
 void
 JSCompartment
