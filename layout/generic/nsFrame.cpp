@@ -19465,7 +19465,13 @@ aStatus
 %
 d
 "
+static_cast
+<
+uint32_t
+>
+(
 aStatus
+)
 )
 )
 ;
@@ -19483,7 +19489,10 @@ INVALIDATE_REFLOW
 ;
 if
 (
-NS_FRAME_REFLOW_FINISHED
+nsDidReflowStatus
+:
+:
+FINISHED
 =
 =
 aStatus

@@ -3860,7 +3860,10 @@ if
 aStatus
 =
 =
-NS_FRAME_REFLOW_FINISHED
+nsDidReflowStatus
+:
+:
+FINISHED
 &
 &
 (
@@ -3925,7 +3928,10 @@ if
 aStatus
 !
 =
-NS_FRAME_REFLOW_FINISHED
+nsDidReflowStatus
+:
+:
+FINISHED
 )
 return
 rv
@@ -6878,7 +6884,10 @@ endif
 nsDidReflowStatus
 status
 =
-NS_FRAME_REFLOW_FINISHED
+nsDidReflowStatus
+:
+:
+FINISHED
 ;
 frame
 -

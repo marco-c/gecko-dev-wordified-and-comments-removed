@@ -26973,7 +26973,10 @@ aState
 mPresContext
 &
 floatRS
-NS_FRAME_REFLOW_FINISHED
+nsDidReflowStatus
+:
+:
+FINISHED
 )
 ;
 #
@@ -31444,7 +31447,10 @@ mPresContext
 aState
 .
 mReflowState
-NS_FRAME_REFLOW_FINISHED
+nsDidReflowStatus
+:
+:
+FINISHED
 )
 ;
 }

@@ -1969,7 +1969,10 @@ DidReflow
 aPresContext
 &
 childRSForMeasuringHeight
-NS_FRAME_REFLOW_FINISHED
+nsDidReflowStatus
+:
+:
+FINISHED
 )
 ;
 NS_ENSURE_SUCCESS

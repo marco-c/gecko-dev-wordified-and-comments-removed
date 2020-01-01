@@ -4358,7 +4358,10 @@ DidReflow
 (
 aPresContext
 aReflowState
-NS_FRAME_REFLOW_FINISHED
+nsDidReflowStatus
+:
+:
+FINISHED
 )
 ;
 }
