@@ -760,6 +760,9 @@ else
 BOOKMARKSPATH
 =
 (
+call
+core_abspath
+(
 MOBILE_LOCALE_SRCDIR
 )
 /
@@ -768,6 +771,7 @@ profile
 bookmarks
 .
 inc
+)
 endif
 %
 /
