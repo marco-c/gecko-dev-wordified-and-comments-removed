@@ -1266,6 +1266,7 @@ index
 locked
 )
 return
+false
 ;
 var
 livemark
@@ -1322,6 +1323,7 @@ locked
 false
 ;
 return
+false
 ;
 }
 var
@@ -1360,6 +1362,7 @@ locked
 false
 ;
 return
+false
 ;
 }
 }
@@ -1544,18 +1547,8 @@ locked
 =
 false
 ;
-LOG
-(
-"
-exception
-:
-"
-+
-ex
-)
-;
-throw
-ex
+return
+false
 ;
 }
 livemark
@@ -1563,6 +1556,9 @@ livemark
 loadGroup
 =
 loadgroup
+;
+return
+true
 ;
 }
 createLivemark
