@@ -145,7 +145,7 @@ aButton
 }
 )
 ;
-BrowserUI
+AwesomeScreen
 .
 activePanel
 =

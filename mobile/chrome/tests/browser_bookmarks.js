@@ -887,7 +887,7 @@ bookmark
 "
 )
 ;
-BrowserUI
+AwesomeScreen
 .
 activePanel
 =
@@ -1160,7 +1160,7 @@ changed
 "
 )
 ;
-BrowserUI
+AwesomeScreen
 .
 activePanel
 =
@@ -1347,7 +1347,7 @@ bookmark
 "
 )
 ;
-BrowserUI
+AwesomeScreen
 .
 activePanel
 =
@@ -1584,7 +1584,7 @@ gCurrentTest
 bmId
 )
 ;
-BrowserUI
+AwesomeScreen
 .
 activePanel
 =

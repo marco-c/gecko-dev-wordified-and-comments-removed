@@ -1152,11 +1152,6 @@ item
 -
 container
 "
-align
-=
-"
-top
-"
 xbl
 :
 inherits

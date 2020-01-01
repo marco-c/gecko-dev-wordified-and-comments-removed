@@ -65,7 +65,7 @@ run
 }
 else
 {
-BrowserUI
+AwesomeScreen
 .
 activePanel
 =

@@ -64,7 +64,7 @@ run
 }
 else
 {
-BrowserUI
+AwesomeScreen
 .
 activePanel
 =
@@ -1097,7 +1097,7 @@ hideSidebars
 (
 )
 ;
-BrowserUI
+AwesomeScreen
 .
 activePanel
 =

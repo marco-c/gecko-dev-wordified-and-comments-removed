@@ -468,7 +468,7 @@ bookmark
 "
 )
 ;
-BrowserUI
+AwesomeScreen
 .
 activePanel
 =
@@ -812,7 +812,7 @@ tags
 "
 )
 ;
-BrowserUI
+AwesomeScreen
 .
 activePanel
 =
@@ -1074,7 +1074,7 @@ deleted
 "
 )
 ;
-BrowserUI
+AwesomeScreen
 .
 activePanel
 =

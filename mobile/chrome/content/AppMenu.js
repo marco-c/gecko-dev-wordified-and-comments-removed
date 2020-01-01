@@ -98,7 +98,7 @@ length
 ;
 if
 (
-BrowserUI
+AwesomeScreen
 .
 activePanel
 |
