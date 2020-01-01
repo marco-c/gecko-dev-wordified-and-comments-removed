@@ -288,6 +288,13 @@ uint32_t
 aCh
 )
 ;
+uint32_t
+GetFullWidth
+(
+uint32_t
+aCh
+)
+;
 bool
 IsClusterExtender
 (
