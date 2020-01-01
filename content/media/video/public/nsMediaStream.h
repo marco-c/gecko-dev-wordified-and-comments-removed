@@ -396,6 +396,8 @@ virtual
 void
 Suspend
 (
+PRBool
+aCloseImmediately
 )
 =
 0
@@ -681,6 +683,8 @@ CacheClientSeek
 (
 PRInt64
 aOffset
+PRBool
+aResume
 )
 ;
 nsresult
@@ -713,6 +717,8 @@ virtual
 void
 Suspend
 (
+PRBool
+aCloseImmediately
 )
 ;
 virtual
@@ -955,8 +961,6 @@ nsIStreamListener
 *
 *
 aStreamListener
-PRInt64
-aOffset
 )
 ;
 void
@@ -993,7 +997,7 @@ aWriteCount
 )
 ;
 PRInt64
-mLastSeekOffset
+mOffset
 ;
 nsRefPtr
 <
@@ -1003,6 +1007,12 @@ mListener
 ;
 PRUint32
 mSuspendCount
+;
+PRPackedBool
+mReopenOnError
+;
+PRPackedBool
+mIgnoreClose
 ;
 nsMediaCacheStream
 mCacheStream

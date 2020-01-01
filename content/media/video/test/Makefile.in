@@ -546,6 +546,10 @@ test_can_play_type_ogg
 .
 html
 \
+test_closing_connections
+.
+html
+\
 test_contentDuration1
 .
 html

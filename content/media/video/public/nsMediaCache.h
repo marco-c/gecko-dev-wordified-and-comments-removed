@@ -254,6 +254,11 @@ PRUint32
 aBytesPerSecond
 )
 ;
+PRBool
+IsSeekable
+(
+)
+;
 nsresult
 Seek
 (
