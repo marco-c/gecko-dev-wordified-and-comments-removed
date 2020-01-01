@@ -746,6 +746,8 @@ sizeof
 "
 !
 /
+assets
+/
 libxul
 .
 so
@@ -760,6 +762,8 @@ file
 %
 s
 !
+/
+assets
 /
 libxul
 .
@@ -1135,6 +1139,8 @@ sizeof
 "
 !
 /
+assets
+/
 libmozsqlite3
 .
 so
@@ -1149,6 +1155,8 @@ file
 %
 s
 !
+/
+assets
 /
 libmozsqlite3
 .
@@ -1300,6 +1308,8 @@ sizeof
 "
 !
 /
+assets
+/
 libnss3
 .
 so
@@ -1314,6 +1324,8 @@ file
 %
 s
 !
+/
+assets
 /
 libnss3
 .
@@ -1355,6 +1367,8 @@ sizeof
 "
 !
 /
+assets
+/
 libnspr4
 .
 so
@@ -1369,6 +1383,8 @@ file
 %
 s
 !
+/
+assets
 /
 libnspr4
 .
@@ -1407,6 +1423,8 @@ sizeof
 "
 !
 /
+assets
+/
 libplc4
 .
 so
@@ -1421,6 +1439,8 @@ file
 %
 s
 !
+/
+assets
 /
 libplc4
 .
