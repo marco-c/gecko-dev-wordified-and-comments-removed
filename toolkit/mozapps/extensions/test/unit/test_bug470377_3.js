@@ -18,6 +18,10 @@ XPCShell
 "
 "
 2
+.
+2
+.
+3
 "
 "
 2
@@ -593,6 +597,10 @@ setBoolPref
 extensions
 .
 checkCompatibility
+.
+2
+.
+2
 "
 false
 )
