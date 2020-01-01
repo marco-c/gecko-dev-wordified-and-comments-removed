@@ -1092,6 +1092,14 @@ if
 (
 !
 ss
+)
+return
+0
+;
+if
+(
+!
+ss
 -
 >
 sec
@@ -1107,10 +1115,6 @@ netAddr
 ;
 if
 (
-!
-ss
-|
-|
 !
 ss
 -

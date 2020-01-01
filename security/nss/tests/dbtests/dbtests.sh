@@ -1348,7 +1348,7 @@ X
 d
 .
 /
-non_existant_dir
+non_existent_dir
 ret
 =
 ?
@@ -1397,7 +1397,7 @@ r
 d
 .
 /
-non_existant_dir
+non_existent_dir
 ret
 =
 ?
@@ -1460,7 +1460,7 @@ f
 d
 .
 /
-non_existant_dir
+non_existent_dir
 ret
 =
 ?

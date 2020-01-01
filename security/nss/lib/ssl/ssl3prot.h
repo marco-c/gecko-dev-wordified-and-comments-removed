@@ -187,7 +187,7 @@ unexpected_message
 bad_record_mac
 =
 20
-decryption_failed
+decryption_failed_RESERVED
 =
 21
 record_overflow

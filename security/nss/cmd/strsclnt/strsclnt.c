@@ -969,7 +969,7 @@ checkSig
 isServer
 )
 ;
-PR_AtomicIncrement
+PR_ATOMIC_INCREMENT
 (
 &
 certsTested
@@ -3068,7 +3068,7 @@ void
 arg
 )
 {
-PR_AtomicSet
+PR_ATOMIC_SET
 (
 &
 lastFullHandshakePeerID
@@ -3569,7 +3569,7 @@ endif
 PRInt32
 savid
 =
-PR_AtomicIncrement
+PR_ATOMIC_INCREMENT
 (
 &
 globalconid
@@ -3635,7 +3635,7 @@ USE_SOCK_PEER_ID
 {
 thisPeerID
 =
-PR_AtomicIncrement
+PR_ATOMIC_INCREMENT
 (
 &
 sockPeerID
@@ -3720,7 +3720,7 @@ goto
 done
 ;
 }
-PR_AtomicIncrement
+PR_ATOMIC_INCREMENT
 (
 &
 numConnected
@@ -3756,7 +3756,7 @@ tid
 )
 ;
 }
-PR_AtomicDecrement
+PR_ATOMIC_DECREMENT
 (
 &
 numConnected

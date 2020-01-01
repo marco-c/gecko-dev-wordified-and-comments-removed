@@ -6359,12 +6359,12 @@ entityStart
 ;
 entityEnd
 =
-PL_strstr
+PL_strchr
 (
 entityStart
-"
+'
 }
-"
+'
 )
 ;
 if
@@ -7719,6 +7719,8 @@ PR_Malloc
 PR_GetErrorTextLength
 (
 )
++
+1
 )
 ;
 PR_fprintf

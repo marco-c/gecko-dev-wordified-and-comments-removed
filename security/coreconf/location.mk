@@ -756,6 +756,12 @@ DIST
 /
 lib
 endif
+ifndef
+SQLITE_LIB_NAME
+SQLITE_LIB_NAME
+=
+sqlite3
+endif
 MK_LOCATION
 =
 included

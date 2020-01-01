@@ -3647,7 +3647,7 @@ secondsElapsed
 totalPeriodBytes
 +
 =
-PR_AtomicSet
+PR_ATOMIC_SET
 (
 &
 loggerBytes
@@ -3657,7 +3657,7 @@ loggerBytes
 totalPeriodBytesTCP
 +
 =
-PR_AtomicSet
+PR_ATOMIC_SET
 (
 &
 loggerBytesTCP
@@ -6657,14 +6657,14 @@ testBulkSize
 )
 )
 {
-PR_AtomicAdd
+PR_ATOMIC_ADD
 (
 &
 loggerBytes
 rv
 )
 ;
-PR_AtomicIncrement
+PR_ATOMIC_INCREMENT
 (
 &
 bulkSentChunks
@@ -6705,7 +6705,7 @@ PR_Write
 )
 ;
 }
-PR_AtomicDecrement
+PR_ATOMIC_DECREMENT
 (
 &
 loggerOps
@@ -7100,7 +7100,7 @@ if
 logStats
 )
 {
-PR_AtomicIncrement
+PR_ATOMIC_INCREMENT
 (
 &
 loggerOps
@@ -7612,7 +7612,7 @@ rv
 >
 0
 )
-PR_AtomicAdd
+PR_ATOMIC_ADD
 (
 &
 loggerBytesTCP
@@ -7668,7 +7668,7 @@ rv
 >
 0
 )
-PR_AtomicAdd
+PR_ATOMIC_ADD
 (
 &
 loggerBytesTCP
@@ -7730,7 +7730,7 @@ rv
 >
 0
 )
-PR_AtomicAdd
+PR_ATOMIC_ADD
 (
 &
 loggerBytesTCP

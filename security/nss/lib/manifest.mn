@@ -463,7 +463,6 @@ softoken
 base
 dev
 pki
-pki1
 \
 libpkix
 \

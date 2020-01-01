@@ -5339,10 +5339,10 @@ printableTime
 )
 )
 {
-fprintf
+fputs
 (
-out
 timeString
+out
 )
 ;
 }
@@ -15537,10 +15537,10 @@ level
 1
 )
 ;
-fprintf
+fputs
 (
-out
 om
+out
 )
 ;
 SECU_PrintInteger

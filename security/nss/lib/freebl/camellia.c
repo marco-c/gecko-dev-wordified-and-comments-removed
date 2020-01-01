@@ -130,6 +130,12 @@ defined
 (
 _MSC_VER
 )
+&
+&
+defined
+(
+NSS_X86_OR_X64
+)
 #
 define
 SWAP

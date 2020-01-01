@@ -980,6 +980,12 @@ NULL
 ;
 content
 .
+type
+=
+siBuffer
+;
+content
+.
 data
 =
 (

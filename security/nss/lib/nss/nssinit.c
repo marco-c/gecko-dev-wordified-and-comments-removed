@@ -2494,8 +2494,8 @@ initContextPtr
 NULL
 )
 {
-return
-SECFailure
+goto
+loser
 ;
 }
 if
@@ -2521,8 +2521,8 @@ PORT_SetError
 SEC_ERROR_INVALID_ARGS
 )
 ;
-return
-SECFailure
+goto
+loser
 ;
 }
 configStrings
@@ -2580,8 +2580,8 @@ PORT_SetError
 SEC_ERROR_NO_MEMORY
 )
 ;
-return
-SECFailure
+goto
+loser
 ;
 }
 configName

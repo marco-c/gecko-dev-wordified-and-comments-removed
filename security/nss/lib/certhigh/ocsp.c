@@ -16998,6 +16998,8 @@ rv
 ;
 SECStatus
 rv_cache
+=
+SECSuccess
 ;
 CERTOCSPSingleResponse
 *

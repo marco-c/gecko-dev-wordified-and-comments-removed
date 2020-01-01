@@ -747,6 +747,8 @@ old
 PKIX_CRLSelector
 *
 new
+=
+NULL
 ;
 PKIX_ENTER
 (

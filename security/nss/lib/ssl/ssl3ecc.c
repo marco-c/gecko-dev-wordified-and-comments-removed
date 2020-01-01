@@ -1050,12 +1050,6 @@ hashBuf
 !
 =
 buf
-&
-&
-hashBuf
-!
-=
-NULL
 )
 PORT_Free
 (

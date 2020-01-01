@@ -781,9 +781,7 @@ NSSCMSRecipientIdentifier
 )
 }
 {
-SEC_ASN1_EXPLICIT
-|
-SEC_ASN1_CONSTRUCTED
+SEC_ASN1_POINTER
 |
 SEC_ASN1_CONTEXT_SPECIFIC
 |
@@ -799,7 +797,7 @@ subjectKeyID
 )
 SEC_ASN1_SUB
 (
-SEC_PointerToOctetStringTemplate
+SEC_OctetStringTemplate
 )
 NSSCMSRecipientID_SubjectKeyID
 }

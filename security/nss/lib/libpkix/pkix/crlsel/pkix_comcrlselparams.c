@@ -963,6 +963,8 @@ old
 PKIX_ComCRLSelParams
 *
 new
+=
+NULL
 ;
 PKIX_ENTER
 (

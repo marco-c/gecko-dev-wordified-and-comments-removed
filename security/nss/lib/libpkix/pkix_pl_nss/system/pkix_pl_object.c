@@ -1583,7 +1583,7 @@ object
 =
 NULL
 ;
-PR_AtomicIncrement
+PR_ATOMIC_INCREMENT
 (
 &
 ctEntry
@@ -2196,7 +2196,7 @@ PKIX_RECEIVEDCORRUPTEDOBJECTARGUMENT
 ;
 refCount
 =
-PR_AtomicIncrement
+PR_ATOMIC_INCREMENT
 (
 &
 objectHeader
@@ -2331,7 +2331,7 @@ PKIX_RECEIVEDCORRUPTEDOBJECTARGUMENT
 ;
 refCount
 =
-PR_AtomicDecrement
+PR_ATOMIC_DECREMENT
 (
 &
 objectHeader
@@ -2541,7 +2541,7 @@ NULL
 ;
 }
 }
-PR_AtomicDecrement
+PR_ATOMIC_DECREMENT
 (
 &
 ctEntry

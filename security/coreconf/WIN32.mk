@@ -1043,6 +1043,10 @@ OS_CFLAGS
 =
 -
 MDd
+-
+DUSE_DEBUG_RTL
+-
+D_CRTDBG_MAP_ALLOC
 else
 OS_CFLAGS
 +
@@ -1268,9 +1272,15 @@ endif
 ifeq
 (
 (
+filter
+-
+out
+x386
+x86_64
+(
 CPU_ARCH
 )
-x386
+)
 )
 ifdef
 USE_64

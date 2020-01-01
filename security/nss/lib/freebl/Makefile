@@ -1053,7 +1053,6 @@ OPTIONAL
 #
 #
 #
--
 include
 config
 .
@@ -1092,8 +1091,13 @@ DEFINES
 -
 DNSS_USE_ABI32_FPU
 endif
-ifdef
+ifeq
+(
+(
 FREEBL_NO_DEPEND
+)
+1
+)
 DEFINES
 +
 =

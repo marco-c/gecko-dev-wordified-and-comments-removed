@@ -2912,7 +2912,7 @@ PKIX_TRUE
 ;
 fnInvLocalCount
 =
-PR_AtomicIncrement
+PR_ATOMIC_INCREMENT
 (
 &
 parallelFnInvocationCount
@@ -3308,7 +3308,7 @@ runningLeakTest
 =
 PKIX_FALSE
 ;
-PR_AtomicDecrement
+PR_ATOMIC_DECREMENT
 (
 &
 parallelFnInvocationCount
@@ -4178,6 +4178,7 @@ revTest
 >
 number_of_defined_methods
 <
+=
 certRevMethod
 )
 {
@@ -5000,6 +5001,8 @@ r
 =
 SECFailure
 ;
+break
+;
 }
 if
 (
@@ -5767,7 +5770,7 @@ PKIX_TRUE
 ;
 fnInvLocalCount
 =
-PR_AtomicIncrement
+PR_ATOMIC_INCREMENT
 (
 &
 parallelFnInvocationCount
@@ -6665,7 +6668,7 @@ runningLeakTest
 =
 PKIX_FALSE
 ;
-PR_AtomicDecrement
+PR_ATOMIC_DECREMENT
 (
 &
 parallelFnInvocationCount

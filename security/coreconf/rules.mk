@@ -7615,7 +7615,7 @@ MKDEPENDENCIES
 on
 NT
 the
-preceeding
+preceding
 touch
 command
 creates

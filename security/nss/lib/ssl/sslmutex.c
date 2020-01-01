@@ -924,7 +924,7 @@ SECFailure
 }
 newValue
 =
-PR_AtomicDecrement
+PR_ATOMIC_DECREMENT
 (
 &
 pMutex
@@ -1088,7 +1088,7 @@ SECFailure
 }
 newValue
 =
-PR_AtomicIncrement
+PR_ATOMIC_INCREMENT
 (
 &
 pMutex

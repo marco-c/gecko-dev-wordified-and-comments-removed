@@ -1061,6 +1061,8 @@ PR_Malloc
 PR_GetErrorTextLength
 (
 )
++
+1
 )
 ;
 copied

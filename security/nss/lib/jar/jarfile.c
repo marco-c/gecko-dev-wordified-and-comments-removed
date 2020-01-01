@@ -2980,12 +2980,6 @@ compression
 =
 (
 compression
->
-=
-0
-&
-&
-compression
 <
 =
 255
