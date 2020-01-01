@@ -409,6 +409,8 @@ length
 ok
 &
 =
+!
+!
 js_FinishJSONParse
 (
 cx
