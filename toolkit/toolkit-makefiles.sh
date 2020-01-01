@@ -5595,6 +5595,11 @@ testing
 peptest
 /
 Makefile
+testing
+/
+mozbase
+/
+Makefile
 toolkit
 /
 components

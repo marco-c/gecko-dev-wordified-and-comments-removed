@@ -1093,4 +1093,10 @@ tier_platform_dirs
 testing
 /
 peptest
+tier_platform_dirs
++
+=
+testing
+/
+mozbase
 endif
