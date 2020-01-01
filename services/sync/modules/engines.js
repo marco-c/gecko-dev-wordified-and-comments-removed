@@ -1571,6 +1571,14 @@ load
 ;
 try
 {
+this
+.
+_remote
+.
+status
+.
+data
+;
 yield
 this
 .
