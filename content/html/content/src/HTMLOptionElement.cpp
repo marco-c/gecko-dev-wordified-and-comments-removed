@@ -394,7 +394,6 @@ GetIndex
 index
 )
 ;
-return
 selectInt
 -
 >
@@ -406,7 +405,6 @@ aValue
 false
 true
 true
-nullptr
 )
 ;
 }
@@ -417,9 +415,6 @@ SetSelectedInternal
 aValue
 true
 )
-;
-return
-NS_OK
 ;
 }
 return
@@ -745,8 +740,6 @@ GetIndex
 index
 )
 ;
-rv
-=
 selectInt
 -
 >
@@ -758,7 +751,6 @@ newSelected
 false
 true
 aNotify
-nullptr
 )
 ;
 mIsInSetDefaultSelected
@@ -770,7 +762,7 @@ mSelectedChanged
 false
 ;
 return
-rv
+NS_OK
 ;
 }
 NS_IMETHODIMP
