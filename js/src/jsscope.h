@@ -112,6 +112,10 @@ warnings
 /
 #
 endif
+#
+define
+SHAPE_INVALID_SLOT
+0xffffffff
 namespace
 js
 {
@@ -143,6 +147,9 @@ entryCount
 uint32
 removedCount
 ;
+uint32
+freeslot
+;
 js
 :
 :
@@ -170,6 +177,10 @@ nentries
 removedCount
 (
 0
+)
+freeslot
+(
+SHAPE_INVALID_SLOT
 )
 {
 }
@@ -243,10 +254,6 @@ adding
 struct
 JSObject
 ;
-#
-define
-SHAPE_INVALID_SLOT
-0xffffffff
 inline
 const
 js
