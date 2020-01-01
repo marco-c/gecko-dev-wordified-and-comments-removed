@@ -96,6 +96,9 @@ bool
 rangeAnalysis
 ;
 bool
+checkRangeAnalysis
+;
+bool
 uce
 ;
 bool
@@ -221,6 +224,10 @@ true
 rangeAnalysis
 (
 true
+)
+checkRangeAnalysis
+(
+false
 )
 uce
 (
