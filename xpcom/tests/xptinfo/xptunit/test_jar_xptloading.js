@@ -1,8 +1,3 @@
-function
-run_test
-(
-)
-{
 const
 xptiITestInterface_IID
 =
@@ -32,9 +27,6 @@ xptiITestInterface
 do_check_true
 (
 id
-!
-=
-undefined
 "
 xptiITestInterface
 not
@@ -47,7 +39,7 @@ id2
 =
 Components
 .
-interfacesByID
+interfacesById
 [
 xptiITestInterface_IID
 ]
@@ -55,10 +47,7 @@ xptiITestInterface_IID
 do_check_true
 (
 id
-.
-toString
-(
-)
+=
 =
 =
 id2
@@ -72,4 +61,3 @@ match
 "
 )
 ;
-}
