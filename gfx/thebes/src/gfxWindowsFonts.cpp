@@ -9218,13 +9218,14 @@ nsAutoPtr
 UniscribeItem
 >
 item
-=
+(
 us
 .
 GetItem
 (
 i
 this
+)
 )
 ;
 PRUint32
