@@ -903,7 +903,7 @@ R
 .
 color
 .
-background_tabs_light
+background_tabs
 )
 ;
 LightweightThemeDrawable
@@ -968,7 +968,7 @@ R
 .
 color
 .
-background_tabs_light
+background_tabs
 )
 )
 ;
@@ -1322,7 +1322,7 @@ R
 .
 color
 .
-background_tabs_dark
+background_tabs
 )
 ;
 LightweightThemeDrawable
@@ -1386,7 +1386,7 @@ R
 .
 color
 .
-background_tabs_dark
+background_tabs
 )
 )
 ;
