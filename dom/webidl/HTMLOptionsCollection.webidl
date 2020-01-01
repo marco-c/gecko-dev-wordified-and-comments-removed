@@ -146,6 +146,9 @@ apply
 *
 /
 interface
+HTMLElement
+;
+interface
 HTMLOptionElement
 ;
 interface
