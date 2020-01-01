@@ -3713,8 +3713,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-rv
-=
+return
 aHandlerInfo
 -
 >
@@ -3771,8 +3770,7 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-rv
-=
+return
 aHandlerInfo
 -
 >
@@ -3782,16 +3780,10 @@ handlerApp
 )
 ;
 }
-else
-{
-return
-NS_ERROR_FAILURE
-;
-}
 }
 }
 return
-rv
+NS_OK
 ;
 }
 #
