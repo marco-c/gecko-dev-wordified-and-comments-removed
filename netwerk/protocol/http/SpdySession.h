@@ -494,6 +494,11 @@ PROCESSING_CONTROL_SYN_REPLY
 PROCESSING_CONTROL_RST_STREAM
 }
 ;
+void
+DeterminePingThreshold
+(
+)
+;
 nsresult
 HandleSynReplyForValidStream
 (
@@ -550,6 +555,12 @@ void
 GeneratePing
 (
 PRUint32
+)
+;
+void
+ClearPing
+(
+bool
 )
 ;
 void
@@ -780,6 +791,9 @@ char
 mOutputQueueBuffer
 ;
 PRIntervalTime
+mPingThreshold
+;
+PRIntervalTime
 mLastReadEpoch
 ;
 PRIntervalTime
@@ -790,6 +804,9 @@ mPingSentEpoch
 ;
 PRUint32
 mNextPingID
+;
+bool
+mPingThresholdExperiment
 ;
 }
 ;
