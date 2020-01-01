@@ -290,6 +290,17 @@ mach_commands
 py
 '
 '
+python
+/
+mozbuild
+/
+mozbuild
+/
+config
+.
+py
+'
+'
 testing
 /
 mochitest

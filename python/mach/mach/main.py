@@ -22,12 +22,6 @@ uuid
 import
 sys
 from
-mozbuild
-.
-base
-import
-BuildConfig
-from
 .
 base
 import
@@ -59,12 +53,6 @@ from
 registrar
 import
 Registrar
-SETTINGS_PROVIDERS
-=
-[
-    
-BuildConfig
-]
 CONSUMED_ARGUMENTS
 =
 [
@@ -2263,7 +2251,9 @@ False
 for
 provider
 in
-SETTINGS_PROVIDERS
+Registrar
+.
+settings_providers
 :
             
 provider

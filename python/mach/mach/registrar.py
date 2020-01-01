@@ -39,6 +39,14 @@ command_handlers
 =
 {
 }
+        
+self
+.
+settings_providers
+=
+set
+(
+)
     
 def
 register_command_handler
@@ -68,6 +76,23 @@ name
 ]
 =
 handler
+    
+def
+register_settings_provider
+(
+self
+cls
+)
+:
+        
+self
+.
+settings_providers
+.
+add
+(
+cls
+)
     
 def
 populate_argument_parser
