@@ -4626,6 +4626,11 @@ progressDlg
 xpt
 components
 /
+safebrowsing
+.
+xpt
+components
+/
 search
 .
 xpt

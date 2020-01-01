@@ -1659,13 +1659,6 @@ bin
 /
 components
 /
-safebrowsing
-.
-xpt
-bin
-/
-components
-/
 nsUrlClassifierListManager
 .
 js
