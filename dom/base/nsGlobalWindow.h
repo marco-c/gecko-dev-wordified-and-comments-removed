@@ -1387,7 +1387,7 @@ nsGlobalWindow
 *
 )
 (
-nsIScriptGlobalObject
+nsIDOMEventTarget
 *
 )
 supports
@@ -1409,7 +1409,7 @@ nsISupports
 *
 )
 (
-nsIScriptGlobalObject
+nsIDOMEventTarget
 *
 )
 win
@@ -1798,7 +1798,7 @@ WindowStateHolder
 NS_DECL_CYCLE_COLLECTION_SKIPPABLE_SCRIPT_HOLDER_CLASS_AMBIGUOUS
 (
 nsGlobalWindow
-nsIScriptGlobalObject
+nsIDOMEventTarget
 )
 virtual
 NS_HIDDEN_
