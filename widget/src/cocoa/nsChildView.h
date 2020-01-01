@@ -1181,11 +1181,6 @@ TearDownView
 (
 )
 ;
-GrafPtr
-GetChildViewQuickDrawPort
-(
-)
-;
 protected
 :
 NSView
@@ -1246,9 +1241,6 @@ mPluginIsCG
 ;
 nsPluginPort
 mPluginPort
-;
-RgnHandle
-mVisRgn
 ;
 }
 ;
