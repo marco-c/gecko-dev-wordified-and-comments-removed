@@ -8637,6 +8637,15 @@ if
 right
 &
 &
+right
+-
+>
+pn_arity
+=
+=
+PN_LIST
+&
+&
 (
 right
 -
