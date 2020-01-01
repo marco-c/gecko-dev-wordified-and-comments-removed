@@ -15711,6 +15711,14 @@ GetPrimaryFrame
 if
 (
 frame
+&
+&
+nsLayoutUtils
+:
+:
+AreAsyncAnimationsEnabled
+(
+)
 )
 {
 if
