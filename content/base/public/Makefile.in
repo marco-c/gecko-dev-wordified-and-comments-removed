@@ -551,6 +551,10 @@ nsXMLNameSpaceMap
 .
 h
 \
+Element
+.
+h
+\
 (
 NULL
 )
