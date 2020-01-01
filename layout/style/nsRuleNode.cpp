@@ -13249,8 +13249,6 @@ weight
 aCanStoreInRuleTree
 SETDSC_INTEGER
 |
-SETDSC_NORMAL
-|
 SETDSC_SYSTEM_FONT
 aParentFont
 -
@@ -13264,7 +13262,7 @@ defaultVariableFont
 weight
 0
 0
-NS_STYLE_FONT_WEIGHT_NORMAL
+0
 systemFont
 .
 weight
@@ -13356,8 +13354,6 @@ mFont
 .
 stretch
 aCanStoreInRuleTree
-SETDSC_NORMAL
-|
 SETDSC_SYSTEM_FONT
 aParentFont
 -
@@ -13371,7 +13367,7 @@ defaultVariableFont
 stretch
 0
 0
-NS_FONT_STRETCH_NORMAL
+0
 systemFont
 .
 stretch
