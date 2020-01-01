@@ -6139,7 +6139,13 @@ aOffset
 >
 mOffsetToIndex
 [
-mLastUsed
+mOffsetToIndex
+.
+Length
+(
+)
+-
+1
 ]
 .
 mOffset
