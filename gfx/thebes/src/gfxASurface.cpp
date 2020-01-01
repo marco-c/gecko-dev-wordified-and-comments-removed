@@ -33,7 +33,7 @@ h
 endif
 #
 ifdef
-CAIRO_HAS_XLIB_SURFACE
+MOZ_X11
 #
 include
 "
@@ -64,7 +64,7 @@ h
 endif
 #
 ifdef
-CAIRO_HAS_DIRECTFB_SURFACE
+MOZ_DFB
 #
 include
 "
@@ -417,7 +417,7 @@ csurf
 endif
 #
 ifdef
-CAIRO_HAS_XLIB_SURFACE
+MOZ_X11
 else
 if
 (
@@ -481,7 +481,7 @@ csurf
 endif
 #
 ifdef
-CAIRO_HAS_DIRECTFB_SURFACE
+MOZ_DFB
 else
 if
 (
