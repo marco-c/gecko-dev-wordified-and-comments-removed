@@ -848,6 +848,10 @@ normalize
 .
 html
 \
+test_bug524925
+.
+html
+\
 (
 NULL
 )
