@@ -627,13 +627,6 @@ defined
 (
 _WIN32
 )
-&
-&
-!
-defined
-(
-_WIN64
-)
 void
 NS_STDCALL
 test_void_t_stdcall
@@ -1544,13 +1537,6 @@ if
 defined
 (
 _WIN32
-)
-&
-&
-!
-defined
-(
-_WIN64
 )
 PRInt32
 test_closure_stdcall

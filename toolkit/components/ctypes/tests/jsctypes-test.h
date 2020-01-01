@@ -245,13 +245,6 @@ defined
 (
 _WIN32
 )
-&
-&
-!
-defined
-(
-_WIN64
-)
 EXPORT_STDCALL
 (
 void
@@ -769,13 +762,6 @@ if
 defined
 (
 _WIN32
-)
-&
-&
-!
-defined
-(
-_WIN64
 )
 typedef
 PRInt32
