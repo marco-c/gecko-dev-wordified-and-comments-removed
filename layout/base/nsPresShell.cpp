@@ -30237,6 +30237,7 @@ continue
 }
 if
 (
+!
 touch
 -
 >
@@ -30966,7 +30967,10 @@ Length
 i
 )
 {
-nsIDOMTouch
+dom
+:
+:
+Touch
 *
 touch
 =
@@ -31003,9 +31007,7 @@ targetPtr
 touch
 -
 >
-GetTarget
-(
-)
+mTarget
 ;
 nsCOMPtr
 <

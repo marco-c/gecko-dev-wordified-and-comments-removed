@@ -7463,7 +7463,7 @@ Length
 i
 )
 {
-nsIDOMTouch
+Touch
 *
 touch
 =
@@ -7786,7 +7786,7 @@ Length
 i
 )
 {
-nsIDOMTouch
+Touch
 *
 touch
 =
@@ -7820,9 +7820,7 @@ targetPtr
 touch
 -
 >
-GetTarget
-(
-)
+mTarget
 ;
 if
 (
