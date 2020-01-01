@@ -605,10 +605,6 @@ nsHTMLPreElement
 .
 cpp
 \
-nsHTMLProgressElement
-.
-cpp
-\
 nsHTMLScriptElement
 .
 cpp

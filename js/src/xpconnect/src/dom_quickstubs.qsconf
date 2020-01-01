@@ -1734,11 +1734,6 @@ nsIDOMHTMLOptionsCollection
 length
 '
 '
-nsIDOMHTMLProgressElement
-.
-*
-'
-'
 nsIDOMHTMLSelectElement
 .
 name
