@@ -4296,11 +4296,8 @@ lesslabel
 ;
 infoBoxExpanderLabel
 .
-setAttribute
-(
-"
-accesskey
-"
+accessKey
+=
 infoBoxExpanderLabel
 .
 getAttribute
@@ -4308,7 +4305,6 @@ getAttribute
 "
 lessaccesskey
 "
-)
 )
 ;
 infoBoxExpander
@@ -4351,11 +4347,8 @@ morelabel
 ;
 infoBoxExpanderLabel
 .
-setAttribute
-(
-"
-accesskey
-"
+accessKey
+=
 infoBoxExpanderLabel
 .
 getAttribute
@@ -4363,7 +4356,6 @@ getAttribute
 "
 moreaccesskey
 "
-)
 )
 ;
 infoBoxExpander
