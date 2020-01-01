@@ -896,12 +896,9 @@ style
 .
 backgroundImage
 =
-!
 aImage
-?
-"
-"
-:
+&
+&
 "
 url
 (
