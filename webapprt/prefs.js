@@ -75,6 +75,16 @@ false
 pref
 (
 "
+extensions
+.
+showMismatchUI
+"
+false
+)
+;
+pref
+(
+"
 webapprt
 .
 firstrun
