@@ -1325,6 +1325,9 @@ Length
 i
 )
 {
+nsAutoMicroTask
+mt
+;
 frameRequestCallbacks
 [
 i

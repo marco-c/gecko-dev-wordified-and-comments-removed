@@ -513,6 +513,13 @@ h
 #
 include
 "
+nsDOMMutationObserver
+.
+h
+"
+#
+include
+"
 nsHyphenationManager
 .
 h
@@ -1600,6 +1607,13 @@ nsEditorSpellCheck
 :
 :
 ShutDown
+(
+)
+;
+nsDOMMutationObserver
+:
+:
+Shutdown
 (
 )
 ;

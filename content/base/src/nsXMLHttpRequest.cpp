@@ -12805,6 +12805,13 @@ ChangeState
 XML_HTTP_REQUEST_SENT
 )
 ;
+{
+nsAutoSyncOperation
+sync
+(
+suspendedDoc
+)
+;
 nsIThread
 *
 thread
@@ -12835,6 +12842,7 @@ NS_ERROR_UNEXPECTED
 ;
 break
 ;
+}
 }
 }
 if

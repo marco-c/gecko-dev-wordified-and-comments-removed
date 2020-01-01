@@ -740,6 +740,9 @@ nsnull
 )
 return
 ;
+nsAutoMicroTask
+mt
+;
 aCallback
 -
 >
@@ -1551,6 +1554,9 @@ nsnull
 )
 )
 return
+;
+nsAutoMicroTask
+mt
 ;
 mCallback
 -

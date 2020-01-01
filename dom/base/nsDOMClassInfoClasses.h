@@ -1528,6 +1528,14 @@ CustomEvent
 )
 DOMCI_CLASS
 (
+MozMutationObserver
+)
+DOMCI_CLASS
+(
+MutationRecord
+)
+DOMCI_CLASS
+(
 MozSettingsEvent
 )
 #

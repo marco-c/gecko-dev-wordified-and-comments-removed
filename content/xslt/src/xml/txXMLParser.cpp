@@ -139,6 +139,12 @@ theDocument
 =
 nsnull
 ;
+nsAutoSyncOperation
+sync
+(
+loaderDocument
+)
+;
 rv
 =
 nsSyncLoadService

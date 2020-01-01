@@ -405,6 +405,9 @@ return
 NS_OK
 ;
 }
+nsAutoMicroTask
+mt
+;
 nsresult
 rv
 ;

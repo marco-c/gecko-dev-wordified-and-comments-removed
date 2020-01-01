@@ -840,6 +840,10 @@ FileIOObject
 .
 cpp
 \
+nsDOMMutationObserver
+.
+cpp
+\
 (
 NULL
 )

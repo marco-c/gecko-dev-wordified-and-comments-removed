@@ -3591,6 +3591,9 @@ result
 )
 )
 {
+nsAutoMicroTask
+mt
+;
 result
 =
 aListener
