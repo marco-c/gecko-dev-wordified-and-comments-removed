@@ -509,6 +509,13 @@ EnsureNPNComplete
 (
 )
 ;
+void
+SetupNPN
+(
+PRUint8
+caps
+)
+;
 nsresult
 AddTransaction
 (
@@ -629,6 +636,9 @@ mIdleMonitoring
 ;
 bool
 mNPNComplete
+;
+bool
+mSetupNPNCalled
 ;
 bool
 mUsingSpdy
