@@ -5999,10 +5999,14 @@ _retval
 uint32_t
 len
 =
+base64
+?
 strlen
 (
 base64
 )
+:
+0
 ;
 char
 *
