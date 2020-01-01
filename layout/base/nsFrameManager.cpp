@@ -5585,6 +5585,15 @@ IsVisible
 !
 =
 isVisible
+&
+&
+!
+aFrame
+-
+>
+GetPrevContinuation
+(
+)
 )
 {
 nsCOMPtr

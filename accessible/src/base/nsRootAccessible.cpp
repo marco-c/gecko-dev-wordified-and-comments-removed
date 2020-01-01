@@ -1654,7 +1654,7 @@ nsIAccessibleEvent
 EVENT_INTERNAL_LOAD
 aDocNode
 nsnull
-PR_FALSE
+eRemoveDupes
 )
 ;
 }
@@ -2048,7 +2048,7 @@ nsIAccessibleEvent
 EVENT_FOCUS
 finalFocusNode
 nsnull
-PR_FALSE
+eRemoveDupes
 aIsAsynch
 )
 ;
