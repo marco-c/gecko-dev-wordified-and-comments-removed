@@ -122,6 +122,11 @@ MediaPluginReader
 .
 h
 '
+'
+MediaResourceServer
+.
+h
+'
 ]
 CPP_SOURCES
 +
@@ -139,6 +144,11 @@ cpp
 '
 '
 MediaPluginReader
+.
+cpp
+'
+'
+MediaResourceServer
 .
 cpp
 '

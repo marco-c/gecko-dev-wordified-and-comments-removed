@@ -29,6 +29,13 @@ MPAPI
 .
 h
 "
+#
+include
+"
+MediaResourceServer
+.
+h
+"
 namespace
 mozilla
 {
@@ -38,6 +45,12 @@ MediaPluginReader
 class
 MediaPluginHost
 {
+nsCOMPtr
+<
+MediaResourceServer
+>
+mResourceServer
+;
 nsTArray
 <
 MPAPI
