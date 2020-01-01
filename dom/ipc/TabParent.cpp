@@ -452,6 +452,17 @@ ActorDestroyReason
 why
 )
 {
+if
+(
+mIMETabParent
+=
+=
+this
+)
+mIMETabParent
+=
+nsnull
+;
 nsRefPtr
 <
 nsFrameLoader
