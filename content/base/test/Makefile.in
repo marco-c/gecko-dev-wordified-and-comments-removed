@@ -2849,6 +2849,14 @@ test_bug890580
 .
 html
 \
+test_declare_stylesheet_obsolete
+.
+html
+\
+variable_style_sheet
+.
+sjs
+\
 (
 NULL
 )
