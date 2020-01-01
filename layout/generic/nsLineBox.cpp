@@ -98,6 +98,10 @@ mBounds
 0
 0
 )
+mAscent
+(
+0
+)
 mData
 (
 nsnull
