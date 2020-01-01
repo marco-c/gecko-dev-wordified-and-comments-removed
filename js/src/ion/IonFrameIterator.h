@@ -333,13 +333,6 @@ nativeVp
 )
 const
 ;
-Value
-*
-argv
-(
-)
-const
-;
 uint8
 *
 returnAddressToFp
