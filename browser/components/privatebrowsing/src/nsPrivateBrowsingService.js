@@ -684,6 +684,13 @@ restored
 true
 )
 ;
+this
+.
+_windowsToClose
+=
+[
+]
+;
 }
 PrivateBrowsingService
 .
@@ -758,10 +765,6 @@ _autoStarted
 :
 false
 _viewSrcURLs
-:
-[
-]
-_windowsToClose
 :
 [
 ]
