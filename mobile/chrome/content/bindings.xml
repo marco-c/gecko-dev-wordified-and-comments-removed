@@ -4689,6 +4689,13 @@ if
 this
 .
 _activeItem
+&
+&
+this
+.
+_activeItem
+.
+isEditing
 )
 this
 .
