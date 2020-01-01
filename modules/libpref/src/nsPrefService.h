@@ -55,6 +55,8 @@ nsPrefService
 public
 nsIPrefService
 public
+nsIPrefServiceInternal
+public
 nsIObserver
 public
 nsIPrefBranchInternal
@@ -65,6 +67,7 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIPREFSERVICE
+NS_DECL_NSIPREFSERVICEINTERNAL
 NS_FORWARD_NSIPREFBRANCH
 (
 mRootBranch
