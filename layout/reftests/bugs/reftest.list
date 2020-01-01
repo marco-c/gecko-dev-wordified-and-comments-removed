@@ -915,7 +915,7 @@ html
 ref
 .
 html
-random
+fails
 -
 if
 (
@@ -940,6 +940,9 @@ html
 ref
 .
 html
+#
+bug
+382039
 =
 =
 84400
@@ -1402,7 +1405,7 @@ html
 ref
 .
 html
-random
+fails
 -
 if
 (
@@ -1427,6 +1430,9 @@ html
 ref
 .
 html
+#
+bug
+382040
 =
 =
 300691
