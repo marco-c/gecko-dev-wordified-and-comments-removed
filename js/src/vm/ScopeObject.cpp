@@ -513,9 +513,6 @@ numFixedSlots
 )
 )
 ;
-#
-ifdef
-JS_THREADSAFE
 JS_ASSERT
 (
 CanBeFinalizedInBackground
@@ -536,8 +533,6 @@ GetBackgroundAllocKind
 kind
 )
 ;
-#
-endif
 RootedTypeObject
 type
 (

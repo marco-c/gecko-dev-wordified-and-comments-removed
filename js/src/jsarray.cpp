@@ -17830,9 +17830,6 @@ GuessArrayGCKind
 length
 )
 ;
-#
-ifdef
-JS_THREADSAFE
 JS_ASSERT
 (
 CanBeFinalizedInBackground
@@ -17850,8 +17847,6 @@ GetBackgroundAllocKind
 kind
 )
 ;
-#
-endif
 GlobalObject
 *
 parent_
