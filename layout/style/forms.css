@@ -2922,6 +2922,11 @@ inherit
 ;
 }
 :
+not
+(
+output
+)
+:
 invalid
 {
 box
@@ -2934,6 +2939,15 @@ shadow
 .
 5px
 1px
+red
+;
+}
+output
+:
+invalid
+{
+color
+:
 red
 ;
 }
