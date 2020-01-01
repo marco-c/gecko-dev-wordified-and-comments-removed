@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsITimer
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -204,7 +211,7 @@ private
 :
 nsHtml5Parser
 *
-documentModeHandler
+parser
 ;
 PRBool
 scriptingEnabled
@@ -1185,14 +1192,6 @@ setScriptingEnabled
 (
 PRBool
 scriptingEnabled
-)
-;
-void
-setDocumentModeHandler
-(
-nsHtml5Parser
-*
-documentModeHandler
 )
 ;
 PRBool

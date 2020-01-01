@@ -1309,10 +1309,6 @@ private
 int
 line
 ;
-private
-PushedLocation
-pushedLocation
-;
 protected
 LocatorImpl
 ampersandLocation

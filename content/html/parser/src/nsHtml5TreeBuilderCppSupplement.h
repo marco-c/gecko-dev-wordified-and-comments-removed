@@ -160,7 +160,7 @@ nsHtml5Parser
 aParser
 )
 :
-documentModeHandler
+parser
 (
 aParser
 )
@@ -202,10 +202,6 @@ timer
 1
 "
 )
-)
-mParser
-(
-aParser
 )
 mHasProcessedBase
 (
@@ -306,7 +302,7 @@ nsINodeInfo
 >
 nodeInfo
 =
-mParser
+parser
 -
 >
 GetNodeInfoManager
@@ -865,7 +861,7 @@ getter_AddRefs
 (
 text
 )
-mParser
+parser
 -
 >
 GetNodeInfoManager
@@ -976,7 +972,7 @@ getter_AddRefs
 (
 text
 )
-mParser
+parser
 -
 >
 GetNodeInfoManager
@@ -1046,7 +1042,7 @@ getter_AddRefs
 (
 comment
 )
-mParser
+parser
 -
 >
 GetNodeInfoManager
@@ -1113,7 +1109,7 @@ getter_AddRefs
 (
 comment
 )
-mParser
+parser
 -
 >
 GetNodeInfoManager
@@ -1264,14 +1260,14 @@ mHasProcessedBase
 =
 PR_FALSE
 ;
-mParser
+parser
 -
 >
 WillBuildModelImpl
 (
 )
 ;
-mParser
+parser
 -
 >
 GetDocument
@@ -1429,7 +1425,7 @@ getter_AddRefs
 (
 docType
 )
-mParser
+parser
 -
 >
 GetNodeInfoManager
@@ -1645,7 +1641,7 @@ nsIDocShell
 *
 docShell
 =
-mParser
+parser
 -
 >
 GetDocShell
@@ -1682,7 +1678,7 @@ rv
 NS_XML_AUTOLINK_UNDEFINED
 )
 {
-mParser
+parser
 -
 >
 Terminate
@@ -1801,7 +1797,7 @@ requestSuspension
 (
 )
 ;
-mParser
+parser
 -
 >
 SetScriptElement
@@ -1957,7 +1953,7 @@ nsIPresShell
 >
 shell
 =
-mParser
+parser
 -
 >
 GetDocument
@@ -2335,7 +2331,7 @@ PR_FALSE
 ;
 MOZ_AUTO_DOC_UPDATE
 (
-mParser
+parser
 -
 >
 GetDocument
