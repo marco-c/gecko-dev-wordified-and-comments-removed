@@ -205,9 +205,6 @@ FromParser
 aFromParser
 )
 ;
-#
-ifdef
-MOZ_MATHML
 nsresult
 NS_NewMathMLElement
 (
@@ -222,8 +219,6 @@ nsINodeInfo
 aNodeInfo
 )
 ;
-#
-endif
 #
 ifdef
 MOZ_XUL

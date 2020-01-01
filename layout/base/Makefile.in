@@ -1003,15 +1003,6 @@ base
 /
 src
 \
-(
-NULL
-)
-ifdef
-MOZ_MATHML
-LOCAL_INCLUDES
-+
-=
-\
 -
 I
 (
@@ -1022,7 +1013,10 @@ srcdir
 .
 /
 mathml
-endif
+\
+(
+NULL
+)
 CXXFLAGS
 +
 =

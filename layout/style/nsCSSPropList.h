@@ -5620,9 +5620,6 @@ CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
 #
-ifdef
-MOZ_MATHML
-#
 ifndef
 CSS_PROP_LIST_EXCLUDE_INTERNAL
 CSS_PROP_FONT
@@ -5677,8 +5674,6 @@ nsnull
 CSS_PROP_NO_OFFSET
 eStyleAnimType_None
 )
-#
-endif
 #
 endif
 CSS_PROP_SVGRESET

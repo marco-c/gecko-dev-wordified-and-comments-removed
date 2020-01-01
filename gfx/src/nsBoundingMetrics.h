@@ -11,9 +11,6 @@ nsCoord
 .
 h
 "
-#
-ifdef
-MOZ_MATHML
 struct
 nsBoundingMetrics
 {
@@ -181,7 +178,5 @@ width
 }
 }
 ;
-#
-endif
 #
 endif

@@ -220,9 +220,6 @@ IMAGE_SVG_XML
 )
 |
 |
-#
-ifdef
-MOZ_MATHML
 mMimeType
 .
 EqualsLiteral
@@ -231,8 +228,6 @@ APPLICATION_MATHML_XML
 )
 |
 |
-#
-endif
 mMimeType
 .
 EqualsLiteral

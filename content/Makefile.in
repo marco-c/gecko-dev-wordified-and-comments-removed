@@ -415,6 +415,7 @@ base
 canvas
 events
 html
+mathml
 smil
 svg
 xml
@@ -434,13 +435,6 @@ PARALLEL_DIRS
 +
 =
 xtf
-endif
-ifdef
-MOZ_MATHML
-PARALLEL_DIRS
-+
-=
-mathml
 endif
 ifdef
 ENABLE_TESTS

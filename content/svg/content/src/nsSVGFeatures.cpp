@@ -361,9 +361,6 @@ org
 xhtml
 "
 )
-#
-ifdef
-MOZ_MATHML
 SVG_SUPPORTED_EXTENSION
 (
 "
@@ -384,8 +381,6 @@ Math
 MathML
 "
 )
-#
-endif
 #
 undef
 SVG_SUPPORTED_EXTENSION

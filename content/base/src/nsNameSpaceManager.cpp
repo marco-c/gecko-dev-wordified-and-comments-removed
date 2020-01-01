@@ -965,9 +965,6 @@ aNodeInfo
 }
 #
 endif
-#
-ifdef
-MOZ_MATHML
 if
 (
 aElementType
@@ -984,8 +981,6 @@ aNodeInfo
 )
 ;
 }
-#
-endif
 if
 (
 aElementType
@@ -1111,17 +1106,12 @@ kNameSpaceID_XUL
 |
 #
 endif
-#
-ifdef
-MOZ_MATHML
 aNameSpaceID
 =
 =
 kNameSpaceID_MathML
 |
 |
-#
-endif
 aNameSpaceID
 =
 =

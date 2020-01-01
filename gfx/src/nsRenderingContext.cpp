@@ -2197,9 +2197,6 @@ return
 width
 ;
 }
-#
-ifdef
-MOZ_MATHML
 nsBoundingMetrics
 nsRenderingContext
 :
@@ -2303,8 +2300,6 @@ return
 totalMetrics
 ;
 }
-#
-endif
 void
 nsRenderingContext
 :

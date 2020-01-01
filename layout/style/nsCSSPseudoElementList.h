@@ -110,9 +110,6 @@ number
 "
 0
 )
-#
-ifdef
-MOZ_MATHML
 CSS_PSEUDO_ELEMENT
 (
 mozMathStretchy
@@ -141,8 +138,6 @@ anonymous
 "
 0
 )
-#
-endif
 CSS_PSEUDO_ELEMENT
 (
 mozProgressBar

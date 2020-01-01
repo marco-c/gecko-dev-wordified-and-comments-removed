@@ -24678,9 +24678,6 @@ return
 PR_FALSE
 ;
 }
-#
-ifdef
-MOZ_MATHML
 if
 (
 aPropID
@@ -24695,8 +24692,6 @@ mUnsafeRulesEnabled
 return
 PR_FALSE
 ;
-#
-endif
 const
 PRInt32
 *

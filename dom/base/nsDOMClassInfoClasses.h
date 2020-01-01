@@ -1279,15 +1279,10 @@ DOMCI_CLASS
 (
 MozTouchEvent
 )
-#
-ifdef
-MOZ_MATHML
 DOMCI_CLASS
 (
 MathMLElement
 )
-#
-endif
 DOMCI_CLASS
 (
 Worker

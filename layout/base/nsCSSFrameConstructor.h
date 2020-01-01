@@ -1395,14 +1395,9 @@ define
 FCDATA_FORCE_NULL_ABSPOS_CONTAINER
 0x10
 #
-ifdef
-MOZ_MATHML
-#
 define
 FCDATA_WRAP_KIDS_IN_BLOCKS
 0x20
-#
-endif
 #
 define
 FCDATA_SUPPRESS_FRAME
@@ -3048,9 +3043,6 @@ ContentInfo
 aAnonContent
 )
 ;
-#
-ifdef
-MOZ_MATHML
 nsresult
 FlushAccumulatedBlock
 (
@@ -3090,8 +3082,6 @@ nsStyleContext
 aStyleContext
 )
 ;
-#
-endif
 static
 const
 FrameConstructionData

@@ -9524,9 +9524,6 @@ XML
 )
 #
 endif
-#
-ifdef
-MOZ_MATHML
 GK_ATOM
 (
 _moz_math_columnalign_
@@ -11517,8 +11514,6 @@ math
 math
 "
 )
-#
-endif
 #
 ifndef
 DISABLE_XFORMS_HOOKS

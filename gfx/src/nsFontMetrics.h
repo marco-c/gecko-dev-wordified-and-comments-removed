@@ -272,9 +272,6 @@ nsRenderingContext
 aTextRunConstructionContext
 )
 ;
-#
-ifdef
-MOZ_MATHML
 nsBoundingMetrics
 GetBoundingMetrics
 (
@@ -289,8 +286,6 @@ nsRenderingContext
 aContext
 )
 ;
-#
-endif
 void
 SetTextRunRTL
 (

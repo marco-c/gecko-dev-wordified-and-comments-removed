@@ -338,9 +338,6 @@ mSize
 PRUint8
 mGenericID
 ;
-#
-ifdef
-MOZ_MATHML
 PRInt8
 mScriptLevel
 ;
@@ -353,8 +350,6 @@ mScriptMinSize
 float
 mScriptSizeMultiplier
 ;
-#
-endif
 }
 ;
 struct

@@ -513,9 +513,6 @@ PRUint32
 aLength
 )
 ;
-#
-ifdef
-MOZ_MATHML
 nsBoundingMetrics
 GetBoundingMetrics
 (
@@ -527,8 +524,6 @@ PRUint32
 aLength
 )
 ;
-#
-endif
 void
 DrawString
 (
