@@ -98,6 +98,10 @@ NULL
 EXTRA_PP_COMPONENTS
 =
 \
+ActivitiesGlue
+.
+js
+\
 AlertsService
 .
 js
@@ -107,6 +111,10 @@ B2GComponents
 manifest
 \
 CameraContent
+.
+js
+\
+ContentHandler
 .
 js
 \
@@ -123,10 +131,6 @@ MozKeyboard
 js
 \
 ProcessGlobal
-.
-js
-\
-ActivitiesGlue
 .
 js
 \
