@@ -4410,11 +4410,6 @@ false
 }
 if
 (
-flat
-)
-{
-if
-(
 allowNativeWrapper
 &
 &
@@ -4440,7 +4435,6 @@ d
 dest
 )
 ;
-}
 }
 }
 else
