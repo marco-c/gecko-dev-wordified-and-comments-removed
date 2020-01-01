@@ -8626,12 +8626,16 @@ utf16
 ;
 AppendASCIItoUTF16
 (
+nsDependentCSubstring
+(
 (
 const
 char
 *
 )
 aText
+aLength
+)
 utf16
 )
 ;
