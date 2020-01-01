@@ -117,6 +117,17 @@ rgb
 )
 ;
 void
+oggplay_yuv2argb
+(
+OggPlayYUVChannels
+*
+yuv
+OggPlayRGBChannels
+*
+rgb
+)
+;
+void
 oggplay_yuv2bgr
 (
 OggPlayYUVChannels

@@ -1614,3 +1614,10 @@ p3
 wince
 .
 patch
+patch
+-
+p4
+<
+endian
+.
+patch

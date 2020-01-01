@@ -749,6 +749,13 @@ cd
 .
 patch
 -
+p4
+<
+yuv2argb
+.
+patch
+patch
+-
 p3
 <
 bug464007
