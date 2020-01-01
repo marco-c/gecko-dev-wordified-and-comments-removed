@@ -688,6 +688,10 @@ browser_webconsole_bug_592442_closing_brackets
 .
 js
 \
+browser_webconsole_bug_593003_iframe_wrong_hud
+.
+js
+\
 head
 .
 js
@@ -695,15 +699,6 @@ js
 (
 NULL
 )
-#
-compartment
--
-disabled
-#
-browser_webconsole_bug_593003_iframe_wrong_hud
-.
-js
-\
 _BROWSER_TEST_PAGES
 =
 \

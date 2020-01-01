@@ -141,16 +141,6 @@ node
 "
 )
 ;
-log
-(
-nodes
-[
-0
-]
-.
-textContent
-)
-;
 is
 (
 nodes
