@@ -779,6 +779,10 @@ browser_bug537474
 .
 js
 \
+browser_bug550565
+.
+js
+\
 browser_bug555224
 .
 js
@@ -924,6 +928,14 @@ html
 browser_tabMatchesInAwesomebar
 .
 js
+\
+file_bug550565_popup
+.
+html
+\
+file_bug550565_favicon
+.
+ico
 \
 (
 NULL

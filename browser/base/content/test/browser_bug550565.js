@@ -21,11 +21,13 @@ content
 /
 browser
 /
-docshell
+browser
+/
+base
+/
+content
 /
 test
-/
-browser
 /
 "
 ;
