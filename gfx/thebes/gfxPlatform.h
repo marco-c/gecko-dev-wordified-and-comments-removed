@@ -1334,6 +1334,12 @@ GetPrefLayersPreferD3D9
 )
 ;
 static
+int
+GetPrefLayoutFrameRate
+(
+)
+;
+static
 eCMSMode
 GetCMSMode
 (
