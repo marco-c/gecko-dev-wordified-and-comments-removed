@@ -3059,10 +3059,15 @@ JS_BYTES_PER_WORD
 define
 GC_MAXBYTES_LIMIT
 (
+(
+size_t
+)
+(
 2
 <
 <
 30
+)
 )
 #
 else
