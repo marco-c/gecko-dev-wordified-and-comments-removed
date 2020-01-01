@@ -574,10 +574,6 @@ test_metadata
 .
 html
 \
-test_mozLoadFrom
-.
-html
-\
 test_no_load_event
 .
 html

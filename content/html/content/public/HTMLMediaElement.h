@@ -1428,17 +1428,6 @@ ErrorResult
 aRv
 )
 ;
-void
-MozLoadFrom
-(
-HTMLMediaElement
-&
-aOther
-ErrorResult
-&
-aRv
-)
-;
 double
 MozFragmentEnd
 (
