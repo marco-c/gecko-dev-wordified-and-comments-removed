@@ -2292,7 +2292,13 @@ uri
 )
 ;
 }
-handleURLBarRevert
+if
+(
+gURLBar
+)
+gURLBar
+.
+handleRevert
 (
 )
 ;

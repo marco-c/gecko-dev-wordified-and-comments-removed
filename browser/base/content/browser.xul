@@ -3680,8 +3680,9 @@ value
 ontextentered
 =
 "
-return
-handleURLBarCommand
+this
+.
+handleCommand
 (
 param
 )
@@ -3691,7 +3692,9 @@ ontextreverted
 =
 "
 return
-handleURLBarRevert
+this
+.
+handleRevert
 (
 )
 ;
@@ -4175,7 +4178,9 @@ tooltip
 onclick
 =
 "
-handleURLBarCommand
+gURLBar
+.
+handleCommand
 (
 event
 )
