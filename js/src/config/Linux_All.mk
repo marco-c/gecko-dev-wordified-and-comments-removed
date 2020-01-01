@@ -540,6 +540,16 @@ endif
 #
 !
 x86_64
+#
+JIT
+disabled
+until
+x64
+port
+is
+cleaned
+up
+#
 ifeq
 (
 (
@@ -547,6 +557,7 @@ CPU_ARCH
 )
 x86_64
 )
+#
 OS_CFLAGS
 +
 =
@@ -558,9 +569,11 @@ DAVMPLUS_64BIT
 DAVMPLUS_UNIX
 -
 DAVMPLUS_LINUX
+#
 NANOJIT_ARCH
 =
 i386
+#
 endif
 ifeq
 (
