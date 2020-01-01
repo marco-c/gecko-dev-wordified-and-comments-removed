@@ -1525,6 +1525,10 @@ BaselineJIT
 .
 cpp
 \
+BaselineBailouts
+.
+cpp
+\
 BacktrackingAllocator
 .
 cpp

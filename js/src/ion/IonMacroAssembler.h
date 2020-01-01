@@ -2909,6 +2909,8 @@ generateBailoutTail
 (
 Register
 scratch
+Register
+bailoutInfo
 )
 ;
 template

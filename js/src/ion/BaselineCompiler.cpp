@@ -1013,6 +1013,17 @@ addressOfFlags
 )
 )
 ;
+if
+(
+frame
+.
+nlocals
+(
+)
+>
+0
+)
+{
 masm
 .
 moveValue
@@ -1049,6 +1060,7 @@ pushValue
 R0
 )
 ;
+}
 prologueOffset_
 =
 masm
@@ -1994,7 +2006,7 @@ code
 bool
 canResumeAfterPrevious
 =
-false
+true
 ;
 while
 (
