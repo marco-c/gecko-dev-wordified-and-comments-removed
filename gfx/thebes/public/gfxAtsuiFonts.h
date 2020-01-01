@@ -5,9 +5,6 @@ GFX_ATSUIFONTS_H
 define
 GFX_ATSUIFONTS_H
 #
-ifndef
-__LP64__
-#
 include
 "
 cairo
@@ -117,8 +114,8 @@ PRUnichar
 c
 )
 ;
-ATSFontRef
-GetATSFontRef
+ATSUFontID
+GetATSUFontID
 (
 )
 ;
@@ -428,8 +425,8 @@ aFontIndex
 PRBool
 HasFont
 (
-ATSFontRef
-aFontRef
+ATSUFontID
+fid
 )
 ;
 inline
@@ -614,7 +611,5 @@ mPageLang
 ;
 }
 ;
-#
-endif
 #
 endif

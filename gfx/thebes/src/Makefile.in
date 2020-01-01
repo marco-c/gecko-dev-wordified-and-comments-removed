@@ -594,15 +594,6 @@ CPPSRCS
 gfxQuartzNativeDrawing
 .
 cpp
-ifdef
-MOZ_CORETEXT
-CPPSRCS
-+
-=
-gfxCoreTextFonts
-.
-cpp
-endif
 CMMSRCS
 =
 gfxQuartzFontCache
