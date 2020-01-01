@@ -1398,6 +1398,12 @@ DoGetMozTransformOrigin
 ;
 nsIDOMCSSValue
 *
+DoGetOrient
+(
+)
+;
+nsIDOMCSSValue
+*
 DoGetCursor
 (
 )

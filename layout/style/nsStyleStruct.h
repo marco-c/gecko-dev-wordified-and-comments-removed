@@ -5937,6 +5937,9 @@ mResize
 PRUint8
 mClipFlags
 ;
+PRUint8
+mOrient
+;
 const
 nsCSSValueList
 *
