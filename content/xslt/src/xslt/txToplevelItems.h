@@ -237,9 +237,10 @@ txStripSpaceTest
 aStripSpaceTest
 )
 ;
-nsTPtrArray
+nsTArray
 <
 txStripSpaceTest
+*
 >
 mStripSpaceTests
 ;

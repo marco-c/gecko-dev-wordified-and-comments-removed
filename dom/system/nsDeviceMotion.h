@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsTPtrArray
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -110,9 +103,10 @@ nsIDeviceMotionListener
 >
 mListeners
 ;
-nsTPtrArray
+nsTArray
 <
 nsIDOMWindow
+*
 >
 mWindowListeners
 ;

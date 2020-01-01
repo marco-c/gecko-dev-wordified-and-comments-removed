@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsTPtrArray
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h
@@ -372,9 +365,10 @@ addStripSpace
 txStripSpaceItem
 *
 aStripSpaceItem
-nsTPtrArray
+nsTArray
 <
 txStripSpaceTest
+*
 >
 &
 aFrameStripSpaceTests

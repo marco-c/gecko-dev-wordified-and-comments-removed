@@ -633,10 +633,6 @@ nsTObserverArray
 .
 h
 \
-nsTPtrArray
-.
-h
-\
 nsTWeakRef
 .
 h

@@ -633,13 +633,6 @@ h
 #
 include
 "
-nsTPtrArray
-.
-h
-"
-#
-include
-"
 nsGUIEvent
 .
 h
@@ -6786,9 +6779,10 @@ return
 aNode1
 ;
 }
-nsAutoTPtrArray
+nsAutoTArray
 <
 nsINode
+*
 30
 >
 parents1

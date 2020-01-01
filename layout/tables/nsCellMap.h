@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsTPtrArray
+nsTArray
 .
 h
 "
@@ -1024,9 +1024,10 @@ aIsZeroColSpan
 const
 ;
 typedef
-nsTPtrArray
+nsTArray
 <
 CellData
+*
 >
 CellDataArray
 ;

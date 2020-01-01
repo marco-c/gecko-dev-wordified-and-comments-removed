@@ -1035,9 +1035,10 @@ nsTableFrame
 RowGroupArray
 orderedRowGroups
 ;
-nsAutoTPtrArray
+nsAutoTArray
 <
 nsCellMap
+*
 8
 >
 maps

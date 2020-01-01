@@ -1323,9 +1323,10 @@ next
 )
 )
 {
-nsTPtrArray
+nsTArray
 <
 txStripSpaceTest
+*
 >
 frameStripSpaceTests
 ;
@@ -2255,9 +2256,10 @@ addStripSpace
 txStripSpaceItem
 *
 aStripSpaceItem
-nsTPtrArray
+nsTArray
 <
 txStripSpaceTest
+*
 >
 &
 aFrameStripSpaceTests

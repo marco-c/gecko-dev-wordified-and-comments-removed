@@ -25,13 +25,6 @@ nsIConstraintValidation
 .
 h
 "
-#
-include
-"
-nsTPtrArray
-.
-h
-"
 class
 nsHTMLFieldSetElement
 :
@@ -262,9 +255,10 @@ nsContentList
 >
 mElements
 ;
-nsTPtrArray
+nsTArray
 <
 nsGenericHTMLFormElement
+*
 >
 mDependentElements
 ;
