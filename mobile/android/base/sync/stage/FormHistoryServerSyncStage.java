@@ -290,15 +290,4 @@ FormHistoryRecordFactory
 )
 ;
 }
-Override
-public
-boolean
-isEnabled
-(
-)
-{
-return
-false
-;
-}
 }
