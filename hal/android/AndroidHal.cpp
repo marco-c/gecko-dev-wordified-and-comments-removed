@@ -709,7 +709,9 @@ case
 eScreenOrientation_PortraitSecondary
 :
 case
-eScreenOrientation_Portrait
+eScreenOrientation_PortraitPrimary
+|
+eScreenOrientation_PortraitSecondary
 :
 case
 eScreenOrientation_LandscapePrimary
@@ -718,7 +720,9 @@ case
 eScreenOrientation_LandscapeSecondary
 :
 case
-eScreenOrientation_Landscape
+eScreenOrientation_LandscapePrimary
+|
+eScreenOrientation_LandscapeSecondary
 :
 bridge
 -
