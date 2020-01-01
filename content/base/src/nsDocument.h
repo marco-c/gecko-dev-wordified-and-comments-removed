@@ -3524,13 +3524,11 @@ aWasCallerChrome
 )
 ;
 bool
-SetFullScreenState
+SetFullScreenElement
 (
 Element
 *
 aElement
-bool
-aIsFullScreen
 )
 ;
 void
