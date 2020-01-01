@@ -2987,7 +2987,7 @@ script
 script_args
 =
 None
-timeout
+async
 =
 True
 new_sandbox
@@ -3041,9 +3041,9 @@ args
 =
 args
                                       
-timeout
+async
 =
-timeout
+async
                                       
 newSandbox
 =
