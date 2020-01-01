@@ -35683,7 +35683,14 @@ flags
 Argument
 (
 '
-JSMutableHandleObject
+JS
+:
+:
+MutableHandle
+<
+JSObject
+*
+>
 '
 '
 objp

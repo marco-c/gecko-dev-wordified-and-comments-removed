@@ -300,7 +300,10 @@ JSHandleId
 id
 unsigned
 flags
-JSMutableHandleObject
+JS
+:
+:
+MutableHandleObject
 objp
 )
 ;
@@ -451,7 +454,10 @@ const
 PObjectWrapperParent
 *
 from
-JSMutableHandleObject
+JS
+:
+:
+MutableHandleObject
 to
 )
 ;
