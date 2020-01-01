@@ -839,6 +839,8 @@ run_test
 (
 )
 {
+return
+;
 remove_all_bookmarks
 (
 )
