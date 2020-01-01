@@ -576,6 +576,11 @@ param
 aObserver
 the
 observer
+(
+may
+be
+null
+)
 *
 param
 aCX
@@ -764,6 +769,11 @@ param
 aObserver
 the
 observer
+(
+may
+be
+null
+)
 *
 param
 cx
