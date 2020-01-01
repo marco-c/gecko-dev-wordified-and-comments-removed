@@ -975,6 +975,12 @@ getApplication
 )
 )
 ;
+dc
+.
+FixDataLocalPermissions
+(
+)
+;
 File
 dir
 =
