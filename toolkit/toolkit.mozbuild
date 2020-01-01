@@ -915,6 +915,17 @@ media
 libpng
 '
 )
+add_tier_dir
+(
+'
+platform
+'
+'
+media
+/
+kiss_fft
+'
+)
 if
 CONFIG
 [
