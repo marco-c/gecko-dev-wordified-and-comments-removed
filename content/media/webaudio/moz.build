@@ -231,6 +231,11 @@ GainNode
 h
 '
 '
+OfflineAudioCompletionEvent
+.
+h
+'
+'
 PannerNode
 .
 h

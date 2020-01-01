@@ -169,6 +169,10 @@ MediaBufferDecoder
 .
 cpp
 \
+OfflineAudioCompletionEvent
+.
+cpp
+\
 PannerNode
 .
 cpp

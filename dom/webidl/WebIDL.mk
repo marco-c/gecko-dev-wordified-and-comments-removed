@@ -751,6 +751,14 @@ NotifyPaintEvent
 .
 webidl
 \
+OfflineAudioCompletionEvent
+.
+webidl
+\
+OfflineAudioContext
+.
+webidl
+\
 PaintRequest
 .
 webidl
