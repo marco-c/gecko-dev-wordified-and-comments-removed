@@ -3176,6 +3176,11 @@ CharacterExtendForDelete
 (
 )
 ;
+*
+aAction
+=
+eNone
+;
 break
 ;
 case
