@@ -4504,6 +4504,15 @@ observes
 "
 devtoolsMenuBroadcaster_BrowserConsole
 "
+accesskey
+=
+"
+&
+browserConsoleCmd
+.
+accesskey
+;
+"
 /
 >
 <
