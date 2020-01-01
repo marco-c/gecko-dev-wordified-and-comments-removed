@@ -776,6 +776,8 @@ aLevelsUp
 nsIWidget
 *
 topLevelWidget
+=
+nsnull
 *
 widget
 =
