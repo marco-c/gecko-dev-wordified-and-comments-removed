@@ -1321,7 +1321,9 @@ Telemetry
 :
 :
 SPDY_NPN_CONNECT
-mUsingSpdyVersion
+UsingSpdy
+(
+)
 )
 ;
 npnComplete
