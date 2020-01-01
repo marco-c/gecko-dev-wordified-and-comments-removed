@@ -3282,6 +3282,11 @@ orient
 "
 horizontal
 "
+observes
+=
+"
+bcast_preciseInput
+"
 flex
 =
 "
@@ -3941,6 +3946,11 @@ flex
 =
 "
 1
+"
+observes
+=
+"
+bcast_preciseInput
 "
 /
 >
