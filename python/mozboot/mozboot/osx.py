@@ -13,8 +13,23 @@ import
 sys
 import
 tempfile
-import
+try
+:
+    
+from
 urllib2
+import
+urlopen
+except
+ImportError
+:
+    
+from
+urllib
+.
+request
+import
+urlopen
 from
 distutils
 .
@@ -1846,8 +1861,6 @@ brew
         
 bootstrap
 =
-urllib2
-.
 urlopen
 (
 url
@@ -1977,8 +1990,6 @@ port
         
 pkg
 =
-urllib2
-.
 urlopen
 (
 url
