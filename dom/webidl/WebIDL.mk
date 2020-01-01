@@ -1164,6 +1164,10 @@ TestExampleGen
 .
 webidl
 \
+TestJSImplGen
+.
+webidl
+\
 TestTypedef
 .
 webidl
