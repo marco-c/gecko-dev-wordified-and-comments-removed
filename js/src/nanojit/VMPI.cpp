@@ -291,7 +291,7 @@ range
 attrib
 )
 ;
-AvmAssert
+NanoAssert
 (
 retval
 =
@@ -333,7 +333,7 @@ range
 flags
 )
 ;
-AvmAssert
+NanoAssert
 (
 retval
 =
@@ -499,7 +499,7 @@ sizePaged
 flags
 )
 ;
-AvmAssert
+NanoAssert
 (
 retval
 =

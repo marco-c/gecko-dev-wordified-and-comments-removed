@@ -7354,7 +7354,7 @@ releaseRegisters
 (
 )
 ;
-AvmAssert
+NanoAssert
 (
 _allocator
 .
@@ -7485,7 +7485,7 @@ edges
 "
 )
 ;
-AvmAssert
+NanoAssert
 (
 _allocator
 .
