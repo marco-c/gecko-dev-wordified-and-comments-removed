@@ -808,6 +808,9 @@ aState
 aExtraState
 )
 ;
+#
+ifdef
+MOZ_XUL
 nsCOMPtr
 <
 nsIXULDocument
@@ -825,6 +828,8 @@ if
 !
 xulDoc
 )
+#
+endif
 {
 *
 aState
