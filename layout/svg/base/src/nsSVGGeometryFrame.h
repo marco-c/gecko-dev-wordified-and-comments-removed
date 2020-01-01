@@ -89,6 +89,11 @@ nsIFrame
 :
 :
 eSVG
+|
+nsIFrame
+:
+:
+eSVGGeometry
 )
 )
 ;
