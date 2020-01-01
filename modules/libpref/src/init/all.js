@@ -28086,6 +28086,16 @@ true
 pref
 (
 "
+accelerometer
+.
+enabled
+"
+true
+)
+;
+pref
+(
+"
 html5
 .
 enable

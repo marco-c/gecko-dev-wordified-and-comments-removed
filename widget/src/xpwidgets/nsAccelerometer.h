@@ -123,6 +123,9 @@ protected
 PRUint32
 mUpdateInterval
 ;
+PRBool
+mEnabled
+;
 virtual
 void
 Startup
