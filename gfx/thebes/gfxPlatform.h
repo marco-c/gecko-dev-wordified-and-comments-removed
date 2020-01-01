@@ -687,11 +687,6 @@ aFormat
 )
 ;
 bool
-SupportsAzureCanvas
-(
-)
-;
-bool
 SupportsAzureContent
 (
 )

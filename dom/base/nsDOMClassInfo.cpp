@@ -15982,14 +15982,6 @@ Register
 nameSpaceManager
 )
 ;
-if
-(
-!
-AzureCanvasEnabled
-(
-)
-)
-{
 nameSpaceManager
 -
 >
@@ -16005,7 +15997,6 @@ nullptr
 nullptr
 )
 ;
-}
 sIsInitialized
 =
 true
