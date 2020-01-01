@@ -39,9 +39,6 @@ class
 nsIScrollPositionListener
 ;
 class
-nsIScrollableView
-;
-class
 nsIScrollableFrame
 :
 public
@@ -259,15 +256,6 @@ aChild
 ;
 NS_IMETHOD
 PostScrolledAreaEventForCurrentArea
-(
-)
-=
-0
-;
-virtual
-nsIScrollableView
-*
-GetScrollableView
 (
 )
 =
