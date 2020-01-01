@@ -429,16 +429,6 @@ nsXULStub
 .
 cpp
 #
-Statically
-link
-the
-CRT
-when
-possible
-USE_STATIC_LIBS
-=
-1
-#
 The
 value
 of
