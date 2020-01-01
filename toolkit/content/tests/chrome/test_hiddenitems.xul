@@ -644,6 +644,12 @@ getElementById
 id
 )
 ;
+listbox
+.
+focus
+(
+)
+;
 is
 (
 listbox
@@ -727,7 +733,6 @@ sendKey
 "
 DOWN
 "
-id
 )
 ;
 is
@@ -762,7 +767,6 @@ sendKey
 "
 DOWN
 "
-id
 )
 ;
 is
@@ -796,7 +800,6 @@ sendKey
 "
 DOWN
 "
-id
 )
 ;
 is
@@ -830,7 +833,6 @@ sendKey
 "
 UP
 "
-id
 )
 ;
 is
@@ -864,7 +866,6 @@ sendKey
 "
 UP
 "
-id
 )
 ;
 is
@@ -989,7 +990,6 @@ sendKey
 "
 END
 "
-id
 )
 ;
 is
@@ -1133,7 +1133,6 @@ sendKey
 "
 PAGE_DOWN
 "
-id
 )
 ;
 is
@@ -1169,7 +1168,6 @@ sendKey
 "
 PAGE_UP
 "
-id
 )
 ;
 is
