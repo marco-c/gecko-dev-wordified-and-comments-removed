@@ -701,11 +701,6 @@ StrictModeState
 strictModeState
 ;
 bool
-inLoop
-:
-1
-;
-bool
 inWith
 :
 1
