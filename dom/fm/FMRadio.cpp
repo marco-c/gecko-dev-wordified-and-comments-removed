@@ -531,11 +531,6 @@ StartPlaying
 canPlay
 )
 ;
-CanPlayChanged
-(
-canPlay
-)
-;
 settings
 -
 >
@@ -615,6 +610,11 @@ audioManager
 SetFmRadioAudioEnabled
 (
 true
+)
+;
+CanPlayChanged
+(
+canPlay
 )
 ;
 return
