@@ -79,6 +79,10 @@ nupvars
 (
 0
 )
+hasExtensibleParents
+(
+false
+)
 {
 }
 inline

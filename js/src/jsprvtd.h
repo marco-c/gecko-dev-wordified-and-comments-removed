@@ -369,6 +369,9 @@ Shape
 struct
 EmptyShape
 ;
+class
+Bindings
+;
 }
 }
 #
