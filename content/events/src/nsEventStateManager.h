@@ -512,6 +512,14 @@ nsWeakFrame
 aTargetFrame
 )
 ;
+void
+UpdateDragDataTransfer
+(
+nsDragEvent
+*
+dragEvent
+)
+;
 nsresult
 SetClickCount
 (
