@@ -21,6 +21,9 @@ AppInfoProvider
 CrashesProvider
 "
 "
+HealthReportProvider
+"
+"
 Metrics
 "
 "
