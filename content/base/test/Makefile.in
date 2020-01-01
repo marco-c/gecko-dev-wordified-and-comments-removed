@@ -1600,6 +1600,10 @@ test_bug466409
 .
 html
 \
+test_classList
+.
+html
+\
 (
 NULL
 )

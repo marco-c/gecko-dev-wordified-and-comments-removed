@@ -519,6 +519,9 @@ interface
 nsIDOMDOMStringList
 ;
 interface
+nsIDOMDOMTokenList
+;
+interface
 nsIDOMNameList
 ;
 interface

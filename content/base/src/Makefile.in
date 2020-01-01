@@ -660,6 +660,10 @@ nsDOMSerializer
 .
 cpp
 \
+nsDOMTokenList
+.
+cpp
+\
 nsDocument
 .
 cpp

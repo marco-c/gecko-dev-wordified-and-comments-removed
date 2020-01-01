@@ -23,6 +23,7 @@ eDOMClassInfo_XMLDocument_id
 eDOMClassInfo_DocumentType_id
 eDOMClassInfo_DOMImplementation_id
 eDOMClassInfo_DOMException_id
+eDOMClassInfo_DOMTokenList_id
 eDOMClassInfo_DocumentFragment_id
 eDOMClassInfo_Element_id
 eDOMClassInfo_Attr_id
