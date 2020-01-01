@@ -30,11 +30,11 @@ h
 >
 #
 include
-<
+"
 zlib
 .
 h
->
+"
 #
 ifdef
 WOFF_MOZILLA_CLIENT
