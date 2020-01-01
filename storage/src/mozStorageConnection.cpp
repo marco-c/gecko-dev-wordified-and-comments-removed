@@ -4381,6 +4381,9 @@ nsACString
 aDatabaseName
 )
 {
+#
+ifndef
+ANDROID
 (
 void
 )
@@ -4410,6 +4413,8 @@ SQLITE_FCNTL_CHUNK_SIZE
 aChunkSize
 )
 ;
+#
+endif
 return
 NS_OK
 ;
