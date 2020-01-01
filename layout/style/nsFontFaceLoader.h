@@ -242,11 +242,9 @@ const
 gfxFontFaceSrc
 *
 aFontFaceSrc
-nsCOMPtr
-<
 nsIPrincipal
->
-&
+*
+*
 aPrincipal
 )
 ;

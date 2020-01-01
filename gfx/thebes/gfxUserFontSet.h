@@ -771,7 +771,6 @@ aProxy
 const
 PRUint8
 *
-&
 aFontData
 PRUint32
 &

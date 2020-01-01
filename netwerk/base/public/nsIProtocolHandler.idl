@@ -2200,7 +2200,7 @@ stream
 const
 unsigned
 long
-URI_SYNC_LOAD_DOESNT_SPIN_EVENT_LOOP
+URI_SYNC_LOAD_IS_OK
 =
 (
 1

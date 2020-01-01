@@ -1707,6 +1707,10 @@ aFontData
 aLength
 )
 ;
+aFontData
+=
+nsnull
+;
 if
 (
 fe
@@ -2143,7 +2147,7 @@ mURI
 nsIProtocolHandler
 :
 :
-URI_SYNC_LOAD_DOESNT_SPIN_EVENT_LOOP
+URI_SYNC_LOAD_IS_OK
 &
 loadDoesntSpin
 )
@@ -2181,13 +2185,6 @@ buffer
 bufferLength
 )
 ;
-const
-PRUint8
-*
-buf2
-=
-buffer
-;
 if
 (
 NS_SUCCEEDED
@@ -2199,7 +2196,7 @@ rv
 LoadFont
 (
 aProxyEntry
-buf2
+buffer
 bufferLength
 )
 )
@@ -2502,7 +2499,6 @@ aProxy
 const
 PRUint8
 *
-&
 aFontData
 PRUint32
 &
