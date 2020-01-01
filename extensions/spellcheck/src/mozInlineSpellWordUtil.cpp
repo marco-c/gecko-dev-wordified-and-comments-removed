@@ -674,8 +674,9 @@ next
 node
 -
 >
-GetNextSibling
+GetSibling
 (
+1
 )
 ;
 if
@@ -735,8 +736,9 @@ next
 node
 -
 >
-GetNextSibling
+GetSibling
 (
+1
 )
 ;
 }
