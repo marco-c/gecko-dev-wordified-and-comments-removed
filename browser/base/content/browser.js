@@ -20828,6 +20828,16 @@ mozCancelFullScreen
 return
 ;
 }
+if
+(
+gFindBarInitialized
+)
+gFindBar
+.
+close
+(
+)
+;
 this
 .
 showWarning
