@@ -964,6 +964,15 @@ kind
 =
 =
 BFS_DONE
+|
+|
+backgroundFinalizeState
+[
+kind
+]
+=
+=
+BFS_JUST_FINISHED
 ;
 }
 void
@@ -1457,6 +1466,8 @@ fop
 ArenaHeader
 *
 listHead
+bool
+onBackgroundThread
 )
 ;
 private

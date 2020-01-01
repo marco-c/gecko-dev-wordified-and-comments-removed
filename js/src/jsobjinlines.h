@@ -1787,11 +1787,11 @@ this
 if
 (
 !
-fop
--
->
-onBackgroundThread
+IsBackgroundFinalized
 (
+getAllocKind
+(
+)
 )
 )
 {
@@ -8713,7 +8713,7 @@ return
 gc
 :
 :
-IsBackgroundAllocKind
+IsBackgroundFinalized
 (
 kind
 )
