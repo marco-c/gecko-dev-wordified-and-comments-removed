@@ -9971,6 +9971,8 @@ drag
 .
 autoscroll
 .
+inner_frame
+.
 edge_width
 "
 32
@@ -9987,7 +9989,9 @@ drag
 .
 autoscroll
 .
-edge_scroll_amount
+inner_frame
+.
+amount
 "
 8
 )
