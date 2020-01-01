@@ -15,7 +15,7 @@ h
 namespace
 mozilla
 {
-PRTime
+TimeStamp
 StartupTimeline
 :
 :
@@ -90,7 +90,12 @@ StartupTimeline
 Event
 )
 aEvent
-aWhen
+mozilla
+:
+:
+TimeStamp
+(
+)
 )
 ;
 }
