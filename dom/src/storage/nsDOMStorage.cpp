@@ -7771,7 +7771,7 @@ mStorage
 >
 mSecurityChecker
 =
-mStorage
+this
 ;
 mPrincipal
 =
@@ -8180,7 +8180,7 @@ rv
 aPrincipal
 -
 >
-Subsumes
+SubsumesIgnoringDomain
 (
 mPrincipal
 &
