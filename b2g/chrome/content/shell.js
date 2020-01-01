@@ -299,6 +299,9 @@ jsm
 '
 )
 ;
+#
+ifdef
+MOZ_B2G_RIL
 Cu
 .
 import
@@ -318,6 +321,8 @@ jsm
 '
 )
 ;
+#
+endif
 XPCOMUtils
 .
 defineLazyServiceGetter

@@ -3346,6 +3346,9 @@ enabled
 true
 )
 ;
+#
+ifdef
+MOZ_B2G_RIL
 pref
 (
 "
@@ -3358,6 +3361,8 @@ enabled
 true
 )
 ;
+#
+endif
 pref
 (
 "
