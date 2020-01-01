@@ -6712,11 +6712,12 @@ f
 ;
 f
 =
-f
--
->
-GetParent
+nsLayoutUtils
+:
+:
+GetCrossDocParentFrame
 (
+f
 )
 )
 {
