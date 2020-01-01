@@ -518,6 +518,12 @@ c
 '
 clang
 version
+\
+|
+Apple
+.
+*
+clang
 '
 "
 !
@@ -558,6 +564,12 @@ c
 '
 clang
 version
+\
+|
+Apple
+.
+*
+clang
 '
 "
 !
