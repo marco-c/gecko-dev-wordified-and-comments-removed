@@ -133,11 +133,6 @@ nsIDOMNavigatorSms
 idl
 '
 '
-nsIDOMSmsCursor
-.
-idl
-'
-'
 nsIDOMSmsFilter
 .
 idl
@@ -159,6 +154,11 @@ idl
 '
 '
 nsIMobileMessageCallback
+.
+idl
+'
+'
+nsIMobileMessageCursorCallback
 .
 idl
 '
