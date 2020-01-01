@@ -985,6 +985,7 @@ mLayerClient
 .
 forceRedraw
 (
+null
 )
 ;
 }

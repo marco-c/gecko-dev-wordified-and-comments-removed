@@ -81,6 +81,8 @@ public
 void
 forceRedraw
 (
+DisplayPortMetrics
+displayPort
 )
 ;
 public

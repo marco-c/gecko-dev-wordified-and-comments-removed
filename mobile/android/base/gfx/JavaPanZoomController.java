@@ -1615,6 +1615,7 @@ mTarget
 .
 forceRedraw
 (
+null
 )
 ;
 }
@@ -1781,6 +1782,7 @@ mTarget
 .
 forceRedraw
 (
+null
 )
 ;
 case
@@ -4208,6 +4210,7 @@ mTarget
 .
 forceRedraw
 (
+null
 )
 ;
 }
@@ -5439,6 +5442,7 @@ mTarget
 .
 forceRedraw
 (
+null
 )
 ;
 PointF
