@@ -312,6 +312,7 @@ this
 .
 _modules
 )
+{
 mod
 .
 handleEvent
@@ -319,6 +320,15 @@ handleEvent
 aEvent
 )
 ;
+if
+(
+this
+.
+_grabbed
+)
+break
+;
+}
 }
 }
 }
