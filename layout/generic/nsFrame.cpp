@@ -38107,8 +38107,10 @@ return
 metrics
 ;
 }
-static
 void
+nsIFrame
+:
+:
 AddInPopupStateBitToDescendants
 (
 nsIFrame
@@ -38211,8 +38213,10 @@ get
 }
 }
 }
-static
 void
+nsIFrame
+:
+:
 RemoveInPopupStateBitFromDescendants
 (
 nsIFrame
