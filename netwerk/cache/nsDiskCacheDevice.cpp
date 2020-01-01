@@ -3480,6 +3480,7 @@ NS_ASSERTION
 (
 sizeK
 <
+=
 USHRT_MAX
 "
 data
@@ -3494,6 +3495,7 @@ NS_ASSERTION
 (
 newSizeK
 <
+=
 USHRT_MAX
 "
 data
