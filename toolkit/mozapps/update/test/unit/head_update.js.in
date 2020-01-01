@@ -641,6 +641,7 @@ update
 .
 log
 "
+;
 const
 FILE_LAST_LOG
 =
@@ -711,12 +712,14 @@ localhost
 4444
 /
 "
+;
 const
 DIR_DATA
 =
 "
 data
 "
+;
 var
 gDirSvc
 =
