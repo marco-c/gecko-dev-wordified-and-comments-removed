@@ -191,6 +191,11 @@ nsIScrollableFrame
 h
 '
 '
+nsIScrollbarOwner
+.
+h
+'
+'
 nsIStatefulFrame
 .
 h
