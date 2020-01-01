@@ -528,6 +528,11 @@ CallSetProperty
 \
 _
 (
+CallDeleteProperty
+)
+\
+_
+(
 SetPropertyCacheV
 )
 \
