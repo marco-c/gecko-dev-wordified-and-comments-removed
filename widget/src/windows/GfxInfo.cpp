@@ -1644,7 +1644,7 @@ deviceFamilyIntelGMAX3000
 static
 const
 PRUint32
-deviceFamilyIntelGMAX3000BlockDirect2D
+deviceFamilyIntelBlockDirect2D
 [
 ]
 =
@@ -1655,6 +1655,7 @@ deviceFamilyIntelGMAX3000BlockDirect2D
 0x2A03
 0x2A12
 0x2A13
+0
 }
 ;
 static
@@ -1701,7 +1702,7 @@ driverInfo
 {
 allWindowsVersions
 vendorIntel
-deviceFamilyIntelGMAX3000BlockDirect2D
+deviceFamilyIntelBlockDirect2D
 nsIGfxInfo
 :
 :
@@ -1908,7 +1909,7 @@ V
 8
 15
 10
-2182
+2202
 )
 )
 IMPLEMENT_INTEL_DRIVER_BLOCKLIST
@@ -1992,7 +1993,7 @@ V
 8
 15
 10
-2182
+2202
 )
 )
 {
