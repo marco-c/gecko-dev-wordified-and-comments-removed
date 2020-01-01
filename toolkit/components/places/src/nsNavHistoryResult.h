@@ -2945,6 +2945,11 @@ CanExpand
 (
 )
 ;
+PRBool
+IsContainersQuery
+(
+)
+;
 virtual
 nsresult
 OpenContainer
