@@ -861,13 +861,6 @@ rv
 return
 rv
 ;
-nsHttp
-:
-:
-CreateMethodAtoms
-(
-)
-;
 mIOService
 =
 do_GetService
