@@ -845,7 +845,7 @@ const
 FILE_WIN_TEST_EXE
 =
 "
-aus_test_app
+_aus_test_app
 .
 exe
 "
@@ -4159,6 +4159,8 @@ appBinCopy
 .
 append
 (
+TEST_ID
++
 FILE_WIN_TEST_EXE
 )
 ;
@@ -11516,6 +11518,8 @@ appBinCopy
 .
 append
 (
+TEST_ID
++
 FILE_WIN_TEST_EXE
 )
 ;
@@ -11541,6 +11545,8 @@ appBin
 copyTo
 (
 processDir
+TEST_ID
++
 FILE_WIN_TEST_EXE
 )
 ;
@@ -11556,6 +11562,8 @@ appBin
 .
 append
 (
+TEST_ID
++
 FILE_WIN_TEST_EXE
 )
 ;

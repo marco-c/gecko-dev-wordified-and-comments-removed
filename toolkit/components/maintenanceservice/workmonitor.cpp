@@ -144,6 +144,10 @@ updatehelper
 .
 h
 "
+extern
+HANDLE
+ghSvcStopEvent
+;
 static
 const
 int
@@ -1626,8 +1630,9 @@ n
 )
 )
 ;
-StopService
+SetEvent
 (
+ghSvcStopEvent
 )
 ;
 return
@@ -1828,8 +1833,9 @@ Failure
 )
 )
 ;
-StopService
+SetEvent
 (
+ghSvcStopEvent
 )
 ;
 return
