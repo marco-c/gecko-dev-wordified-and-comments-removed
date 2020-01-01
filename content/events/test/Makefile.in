@@ -781,6 +781,14 @@ test_bug602962
 .
 xul
 \
+test_bug617528
+.
+xul
+\
+window_bug617528
+.
+xul
+\
 (
 NULL
 )
