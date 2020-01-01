@@ -188,9 +188,9 @@ null
 new
 Array
 (
-500
-*
-1024
+getMaxArgs
+(
+)
 )
 )
 ;
