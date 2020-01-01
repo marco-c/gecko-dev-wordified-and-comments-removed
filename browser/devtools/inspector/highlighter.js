@@ -456,12 +456,6 @@ null
 ;
 this
 .
-unlockAndFocus
-(
-)
-;
-this
-.
 selection
 .
 on

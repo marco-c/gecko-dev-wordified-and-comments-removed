@@ -159,6 +159,14 @@ performTestComparison
 ;
 inspector
 .
+highlighter
+.
+unlock
+(
+)
+;
+inspector
+.
 selection
 .
 setNode
