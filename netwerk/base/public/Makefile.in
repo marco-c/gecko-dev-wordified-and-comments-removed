@@ -469,10 +469,6 @@ nsIUploadChannel
 .
 idl
 \
-nsIUnicharStreamListener
-.
-idl
-\
 nsITraceableChannel
 .
 idl
