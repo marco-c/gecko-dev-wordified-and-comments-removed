@@ -25362,6 +25362,14 @@ function
 aLocation
 )
 {
+aLocation
+=
+aLocation
+.
+toLowerCase
+(
+)
+;
 return
 this
 .
