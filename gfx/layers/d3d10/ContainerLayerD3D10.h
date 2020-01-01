@@ -7,13 +7,6 @@ GFX_CONTAINERLAYERD3D10_H
 #
 include
 "
-Layers
-.
-h
-"
-#
-include
-"
 LayerManagerD3D10
 .
 h

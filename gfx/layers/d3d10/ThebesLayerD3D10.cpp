@@ -34,6 +34,18 @@ endif
 #
 include
 "
+.
+.
+/
+d3d9
+/
+Nv3DVUtils
+.
+h
+"
+#
+include
+"
 gfxTeeSurface
 .
 h
@@ -1233,7 +1245,7 @@ mTexture
 ;
 for
 (
-int
+PRUint32
 i
 =
 0
