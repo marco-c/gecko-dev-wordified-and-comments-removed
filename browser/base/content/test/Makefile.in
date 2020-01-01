@@ -507,6 +507,12 @@ browser_bug321000
 .
 js
 \
+browser_sanitize
+-
+timespans
+.
+js
+\
 browser_bug405137
 .
 js

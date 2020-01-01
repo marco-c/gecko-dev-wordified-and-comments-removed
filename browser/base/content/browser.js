@@ -8037,7 +8037,7 @@ gNavigatorBundle
 getString
 (
 "
-sanitizeWithPromptLabel
+sanitizeWithPromptLabel2
 "
 )
 :
