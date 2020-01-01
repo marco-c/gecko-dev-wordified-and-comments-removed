@@ -2343,9 +2343,8 @@ vp
 )
 ;
 }
-static
 JSBool
-math_sqrt
+js_math_sqrt
 (
 JSContext
 *
@@ -2681,7 +2680,7 @@ JS_FN
 "
 sqrt
 "
-math_sqrt
+js_math_sqrt
 1
 1
 0

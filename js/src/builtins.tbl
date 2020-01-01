@@ -536,3 +536,13 @@ jsdouble
 1
 1
 )
+BUILTIN1
+(
+Math_sqrt
+F
+F
+jsdouble
+jsdouble
+1
+1
+)
