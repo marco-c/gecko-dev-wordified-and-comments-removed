@@ -3975,6 +3975,17 @@ which
 ;
 }
 bool
+integerOperation
+(
+JSContext
+*
+cx
+jsbytecode
+*
+pc
+)
+;
+bool
 trackUseChain
 (
 const
