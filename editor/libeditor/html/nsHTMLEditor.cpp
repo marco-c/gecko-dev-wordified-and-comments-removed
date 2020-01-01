@@ -338,6 +338,17 @@ nsIParserService
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+Element
+.
+h
+"
 static
 char
 hrefText
