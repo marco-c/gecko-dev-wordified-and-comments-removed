@@ -1167,7 +1167,6 @@ e
 )
 {
 }
-}
 while
 (
 thread
@@ -1183,6 +1182,7 @@ processNextEvent
 false
 )
 ;
+}
 }
 function
 run_test
