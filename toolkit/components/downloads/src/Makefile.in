@@ -478,6 +478,8 @@ docshell
 \
 toolkitcomps
 \
+places
+\
 (
 NULL
 )
