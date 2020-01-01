@@ -766,7 +766,7 @@ nsContentUtils
 :
 eFORMS_PROPERTIES
 "
-IsIndexPrompt
+IsIndexPromptWithSpace
 "
 prompt
 )
