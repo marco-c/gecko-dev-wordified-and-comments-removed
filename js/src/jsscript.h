@@ -2256,6 +2256,8 @@ cx
 JSScript
 *
 script
+uint32
+caller
 )
 ;
 extern

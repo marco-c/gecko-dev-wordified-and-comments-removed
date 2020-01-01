@@ -4335,6 +4335,7 @@ js_DestroyScript
 (
 cx
 script
+1
 )
 ;
 *
@@ -7570,6 +7571,7 @@ js_DestroyScript
 (
 cx
 script
+2
 )
 ;
 return
@@ -7883,6 +7885,8 @@ script
 JSObject
 *
 owner
+uint32
+caller
 )
 {
 CheckScript
@@ -8093,7 +8097,7 @@ sourceMap
 memset
 (
 script
-JS_FREE_PATTERN
+0xdb
 script
 -
 >
@@ -8101,6 +8105,15 @@ totalSize
 (
 )
 )
+;
+*
+(
+uint32
+*
+)
+script
+=
+caller
 ;
 cx
 -
@@ -8120,6 +8133,8 @@ cx
 JSScript
 *
 script
+uint32
+caller
 )
 {
 JS_ASSERT
@@ -8145,6 +8160,7 @@ DestroyScript
 cx
 script
 JS_NEW_SCRIPT
+caller
 )
 ;
 }
@@ -8184,6 +8200,7 @@ DestroyScript
 cx
 script
 owner
+100
 )
 ;
 }
@@ -8214,6 +8231,7 @@ DestroyScript
 cx
 script
 JS_CACHED_SCRIPT
+101
 )
 ;
 }

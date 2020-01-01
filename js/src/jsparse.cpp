@@ -4653,6 +4653,7 @@ js_DestroyScript
 (
 cx
 script
+7
 )
 ;
 script

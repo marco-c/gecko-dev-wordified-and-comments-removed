@@ -125,7 +125,7 @@ int
 NULL
 )
 =
-0
+123
 ;
 exit
 (
@@ -147,7 +147,7 @@ int
 NULL
 )
 =
-0
+123
 ;
 raise
 (
