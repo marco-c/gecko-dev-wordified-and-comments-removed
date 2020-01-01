@@ -5214,6 +5214,21 @@ file
 )
 )
         
+if
+not
+os
+.
+path
+.
+exists
+(
+dsymbundle
+)
+:
+            
+return
+False
+        
 res
 =
 Dumper
