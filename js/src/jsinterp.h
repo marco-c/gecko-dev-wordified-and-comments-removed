@@ -106,9 +106,16 @@ void
 *
 annotation
 ;
+union
+{
 JSObject
 *
 scopeChain
+;
+jsval
+scopeChainVal
+;
+}
 ;
 JSObject
 *
