@@ -3332,6 +3332,14 @@ sessionId
 }
 else
 {
+aPlace
+.
+referrerSpec
+.
+Truncate
+(
+)
+;
 aReferrer
 .
 visitId
