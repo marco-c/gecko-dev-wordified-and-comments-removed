@@ -3528,6 +3528,9 @@ this
 .
 scrollByIndex
 (
+isVertical
+&
+&
 this
 .
 _isRTLScrollbox
