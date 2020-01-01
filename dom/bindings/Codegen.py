@@ -14546,7 +14546,7 @@ MOZ_ASSERT
 (
 reinterpret_cast
 <
-nsWrapperCache
+void
 *
 >
 (
