@@ -94,14 +94,6 @@ aShell
 ;
 NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
-GetNumActions
-(
-PRUint8
-*
-_retval
-)
-;
-NS_IMETHOD
 GetActionName
 (
 PRUint8
@@ -140,6 +132,12 @@ Shutdown
 virtual
 PRUint64
 NativeState
+(
+)
+;
+virtual
+PRUint8
+ActionCount
 (
 )
 ;

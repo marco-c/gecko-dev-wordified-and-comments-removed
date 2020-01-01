@@ -292,14 +292,6 @@ TakeFocus
 )
 ;
 NS_IMETHOD
-GetNumActions
-(
-PRUint8
-*
-aNumActions
-)
-;
-NS_IMETHOD
 GetActionName
 (
 PRUint8
@@ -405,6 +397,12 @@ aWhichChild
 virtual
 void
 InvalidateChildren
+(
+)
+;
+virtual
+PRUint8
+ActionCount
 (
 )
 ;

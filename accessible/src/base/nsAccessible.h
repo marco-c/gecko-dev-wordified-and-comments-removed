@@ -863,6 +863,12 @@ AsTextLeaf
 )
 ;
 virtual
+PRUint8
+ActionCount
+(
+)
+;
+virtual
 KeyBinding
 AccessKey
 (

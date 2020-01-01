@@ -40,14 +40,6 @@ aShell
 ;
 NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
-GetNumActions
-(
-PRUint8
-*
-aNumActions
-)
-;
-NS_IMETHOD
 GetActionName
 (
 PRUint8
@@ -93,6 +85,12 @@ GetAttributesInternal
 nsIPersistentProperties
 *
 aAttributes
+)
+;
+virtual
+PRUint8
+ActionCount
+(
 )
 ;
 private

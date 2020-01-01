@@ -46,14 +46,6 @@ aValue
 )
 ;
 NS_IMETHOD
-GetNumActions
-(
-PRUint8
-*
-aCount
-)
-;
-NS_IMETHOD
 GetActionName
 (
 PRUint8
@@ -86,6 +78,12 @@ NativeState
 virtual
 PRBool
 GetAllowsAnonChildAccessibles
+(
+)
+;
+virtual
+PRUint8
+ActionCount
 (
 )
 ;

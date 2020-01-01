@@ -39,14 +39,6 @@ aShell
 )
 ;
 NS_IMETHOD
-GetNumActions
-(
-PRUint8
-*
-aCount
-)
-;
-NS_IMETHOD
 GetActionName
 (
 PRUint8
@@ -72,6 +64,12 @@ NativeRole
 virtual
 PRUint64
 NativeState
+(
+)
+;
+virtual
+PRUint8
+ActionCount
 (
 )
 ;
