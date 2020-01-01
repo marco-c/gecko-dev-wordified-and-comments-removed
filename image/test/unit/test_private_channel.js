@@ -58,7 +58,8 @@ server
 .
 start
 (
-8088
+-
+1
 )
 ;
 load
@@ -354,7 +355,15 @@ http
 /
 localhost
 :
-8088
+'
++
+server
+.
+identity
+.
+primaryPort
++
+'
 /
 image
 .
