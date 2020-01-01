@@ -343,9 +343,11 @@ h
 Carbon
 .
 h
+cassert
 c_asm
 .
 h
+cctype
 cderr
 .
 h
@@ -482,6 +484,7 @@ h
 cstdio
 cstdlib
 cstring
+ctime
 ctype
 .
 h
