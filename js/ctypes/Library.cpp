@@ -235,7 +235,15 @@ InitWithPath
 (
 nsDependentString
 (
+reinterpret_cast
+<
+const
+PRUnichar
+*
+>
+(
 path
+)
 )
 )
 ;
