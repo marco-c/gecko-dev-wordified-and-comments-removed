@@ -423,14 +423,13 @@ nsIDownloadManager
 .
 idl
 \
-nsIXPInstallManagerUI
-.
-idl
-\
 nsIDownloadProgressListener
 .
 idl
 \
+(
+NULL
+)
 include
 (
 topsrcdir
