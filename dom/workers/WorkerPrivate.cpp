@@ -160,14 +160,9 @@ h
 #
 include
 "
-jsdbgapi
-.
-h
-"
-#
-include
-"
-jsfriendapi
+js
+/
+OldDebugAPI
 .
 h
 "
