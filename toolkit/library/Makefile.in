@@ -1315,6 +1315,10 @@ COMPONENT_LIBS
 +
 =
 widget_android
+STATIC_LIBS
++
+=
+skia_npapi
 endif
 ifeq
 (

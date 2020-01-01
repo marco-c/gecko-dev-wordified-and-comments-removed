@@ -1016,7 +1016,7 @@ value
 #
 ifdef
 ANDROID
-void
+bool
 AddPluginView
 (
 const
@@ -1029,6 +1029,12 @@ void
 RemovePluginView
 (
 )
+;
+bool
+mPluginViewAdded
+;
+gfxRect
+mLastPluginRect
 ;
 #
 endif

@@ -498,6 +498,13 @@ other
 licenses
 /
 android
+other
+-
+licenses
+/
+skia
+-
+npapi
 endif
 tier_base_dirs
 +
