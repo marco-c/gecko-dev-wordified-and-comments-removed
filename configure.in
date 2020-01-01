@@ -60227,6 +60227,13 @@ z
 "
 WIN32_REDIST_DIR
 "
+-
+a
+-
+z
+"
+MOZ_DEBUG
+"
 ;
 then
 AC_MSG_WARN

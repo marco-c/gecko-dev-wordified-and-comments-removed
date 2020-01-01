@@ -484,6 +484,8 @@ ifndef
 MOZ_MEMORY
 ifdef
 WIN32_REDIST_DIR
+ifndef
+MOZ_DEBUG
 ifeq
 (
 1400
@@ -611,6 +613,10 @@ f
 FINAL_TARGET
 )
 endif
+endif
+#
+!
+MOZ_DEBUG
 endif
 #
 WIN32_REDIST_DIR
