@@ -596,15 +596,8 @@ mIndex
 )
 return
 ;
-nsBoxLayoutState
-state
+InvalidateOverflowRect
 (
-aPresContext
-)
-;
-Redraw
-(
-state
 )
 ;
 nsIBox
