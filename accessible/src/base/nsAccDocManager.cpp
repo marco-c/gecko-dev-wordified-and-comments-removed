@@ -172,10 +172,7 @@ aDocument
 return
 nullptr
 ;
-nsAccessNode
-:
-:
-GetApplicationAccessible
+ApplicationAcc
 (
 )
 -
@@ -1570,10 +1567,7 @@ Accessible
 *
 appAcc
 =
-nsAccessNode
-:
-:
-GetApplicationAccessible
+ApplicationAcc
 (
 )
 ;
