@@ -864,7 +864,11 @@ rtti
 INTERP_OPTIMIZER
 =
 -
-Os
+O3
+-
+fstrict
+-
+aliasing
 -
 fno
 -
