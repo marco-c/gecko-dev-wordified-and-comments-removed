@@ -2833,7 +2833,6 @@ base
 ref
 .
 html
-fails
 =
 =
 rounded
@@ -2860,10 +2859,6 @@ height
 ref
 .
 html
-#
-bug
-353860
-fails
 =
 =
 rounded
@@ -2890,9 +2885,6 @@ height
 ref
 .
 html
-#
-bug
-353860
 !
 =
 rounded
@@ -2943,7 +2935,6 @@ base
 ref
 .
 html
-fails
 =
 =
 rounded
@@ -2970,10 +2961,6 @@ top
 ref
 .
 html
-#
-bug
-353860
-fails
 =
 =
 rounded
@@ -3000,9 +2987,6 @@ top
 ref
 .
 html
-#
-bug
-353860
 !
 =
 rounded
@@ -3053,7 +3037,6 @@ base
 ref
 .
 html
-fails
 =
 =
 rounded
@@ -3080,10 +3063,6 @@ width
 ref
 .
 html
-#
-bug
-353860
-fails
 =
 =
 rounded
@@ -3110,9 +3089,6 @@ width
 ref
 .
 html
-#
-bug
-353860
 !
 =
 rounded
@@ -3163,7 +3139,6 @@ base
 ref
 .
 html
-fails
 =
 =
 rounded
@@ -3190,10 +3165,6 @@ left
 ref
 .
 html
-#
-bug
-353860
-fails
 =
 =
 rounded
@@ -3220,9 +3191,6 @@ left
 ref
 .
 html
-#
-bug
-353860
 =
 =
 rounded
