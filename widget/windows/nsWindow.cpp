@@ -33141,6 +33141,13 @@ ePopupTypePanel
 *
 outResult
 =
+popupsToRollup
+!
+=
+UINT32_MAX
+?
+MA_NOACTIVATEANDEAT
+:
 MA_NOACTIVATE
 ;
 }
