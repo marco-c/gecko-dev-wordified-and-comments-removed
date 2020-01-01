@@ -651,7 +651,7 @@ gLastDragView
 extern
 NSEvent
 *
-gLastDragEvent
+gLastDragMouseDownEvent
 ;
 extern
 PRBool
@@ -1185,7 +1185,7 @@ window
 convertBaseToScreen
 :
 [
-gLastDragEvent
+gLastDragMouseDownEvent
 locationInWindow
 ]
 ]
@@ -2197,7 +2197,7 @@ retain
 mNativeDragEvent
 =
 [
-gLastDragEvent
+gLastDragMouseDownEvent
 retain
 ]
 ;
@@ -2215,11 +2215,7 @@ at
 localPoint
 offset
 :
-NSMakeSize
-(
-0
-0
-)
+NSZeroSize
 event
 :
 mNativeDragEvent
