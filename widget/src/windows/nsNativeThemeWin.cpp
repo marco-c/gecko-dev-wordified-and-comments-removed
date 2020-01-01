@@ -6670,6 +6670,9 @@ aWidgetType
 )
 {
 case
+NS_THEME_GROUPBOX
+:
+case
 NS_THEME_TEXTFIELD
 :
 case
