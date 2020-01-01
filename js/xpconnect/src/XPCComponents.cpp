@@ -2322,6 +2322,17 @@ cx
 idArg
 )
 ;
+if
+(
+!
+JSID_IS_STRING
+(
+id
+)
+)
+return
+NS_OK
+;
 RootedString
 str
 (
