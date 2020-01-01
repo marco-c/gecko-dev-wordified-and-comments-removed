@@ -149,6 +149,10 @@ browser_social_errorPage
 .
 js
 \
+browser_social_window
+.
+js
+\
 social_activate
 .
 html
