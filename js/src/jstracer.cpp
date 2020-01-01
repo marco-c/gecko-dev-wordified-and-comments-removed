@@ -13133,7 +13133,7 @@ cx_ins
 offsetof
 (
 JSContext
-operationCallbackFlag
+interruptFlags
 )
 ACC_LOAD_ANY
 )
