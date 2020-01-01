@@ -10176,6 +10176,8 @@ output
 directory
 .
 ifdef
+ENABLE_TESTS
+ifdef
 TESTING_JS_MODULES
 testmodulesdir
 =
@@ -10214,6 +10216,7 @@ INSTALL_TARGETS
 +
 =
 TESTING_JS_MODULES
+endif
 endif
 endif
 #
