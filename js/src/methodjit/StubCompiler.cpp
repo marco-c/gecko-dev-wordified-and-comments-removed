@@ -647,8 +647,6 @@ void
 ptr
 RejoinState
 rejoin
-Uses
-uses
 )
 {
 return
@@ -656,7 +654,6 @@ emitStubCall
 (
 ptr
 rejoin
-uses
 frame
 .
 totalDepth
@@ -682,8 +679,6 @@ void
 ptr
 RejoinState
 rejoin
-Uses
-uses
 int32
 slots
 )
@@ -749,7 +744,6 @@ cc
 outerPC
 (
 )
-NULL
 &
 inlinePatch
 slots
@@ -905,7 +899,6 @@ callSites
 length
 (
 )
-uses
 )
 ;
 }

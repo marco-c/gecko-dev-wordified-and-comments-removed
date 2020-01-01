@@ -205,7 +205,7 @@ jsbytecode
 pc
 CallSite
 *
-inlined
+inline_
 RejoinState
 rejoin
 )

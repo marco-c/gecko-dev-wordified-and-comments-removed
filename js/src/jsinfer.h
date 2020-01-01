@@ -1379,11 +1379,6 @@ jsbytecode
 pc
 Type
 type
-TypeSet
-*
-types
-=
-NULL
 )
 ;
 void
