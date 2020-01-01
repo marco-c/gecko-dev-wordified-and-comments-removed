@@ -478,6 +478,10 @@ test_browserFrame8
 .
 html
 \
+test_browserFrame9
+.
+html
+\
 (
 NULL
 )
