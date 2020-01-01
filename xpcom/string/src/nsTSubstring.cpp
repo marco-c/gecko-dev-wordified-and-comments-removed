@@ -1972,6 +1972,9 @@ str
 .
 mData
 mLength
+str
+.
+mLength
 )
 =
 =
@@ -2107,6 +2110,7 @@ comp
 mData
 data
 mLength
+length
 )
 =
 =
