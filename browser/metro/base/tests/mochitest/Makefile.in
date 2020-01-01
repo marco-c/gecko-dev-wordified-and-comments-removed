@@ -85,6 +85,12 @@ head
 .
 js
 \
+helpers
+/
+ViewStateHelper
+.
+js
+\
 browser_bookmarks
 .
 js
