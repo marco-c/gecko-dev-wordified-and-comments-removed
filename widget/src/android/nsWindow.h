@@ -773,6 +773,10 @@ nsWindow
 *
 mParent
 ;
+nsWindow
+*
+mFocus
+;
 bool
 mGestureFinished
 ;
