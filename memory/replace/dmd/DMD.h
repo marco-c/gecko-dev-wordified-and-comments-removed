@@ -169,6 +169,16 @@ Sizes
 (
 )
 {
+Clear
+(
+)
+;
+}
+void
+Clear
+(
+)
+{
 memset
 (
 this
