@@ -34394,6 +34394,9 @@ equalUri
 ;
 if
 (
+shAvailable
+&
+&
 mCurrentURI
 &
 &
