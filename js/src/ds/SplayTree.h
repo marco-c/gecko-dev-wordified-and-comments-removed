@@ -713,16 +713,6 @@ node
 node
 -
 >
-item
-.
-~
-T
-(
-)
-;
-node
--
->
 left
 =
 freeList
