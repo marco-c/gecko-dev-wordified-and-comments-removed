@@ -1169,6 +1169,10 @@ browser_social_sidebar
 .
 js
 \
+browser_social_flyout
+.
+js
+\
 browser_social_mozSocial_API
 .
 js
@@ -1190,6 +1194,10 @@ social_sidebar
 html
 \
 social_chat
+.
+html
+\
+social_flyout
 .
 html
 \
