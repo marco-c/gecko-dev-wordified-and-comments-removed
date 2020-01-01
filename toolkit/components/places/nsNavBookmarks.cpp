@@ -205,7 +205,7 @@ nsNavBookmarks
 :
 kGetChildrenIndex_Position
 =
-13
+14
 ;
 const
 PRInt32
@@ -214,7 +214,7 @@ nsNavBookmarks
 :
 kGetChildrenIndex_Type
 =
-14
+15
 ;
 const
 PRInt32
@@ -223,7 +223,7 @@ nsNavBookmarks
 :
 kGetChildrenIndex_PlaceID
 =
-15
+16
 ;
 const
 PRInt32
@@ -232,7 +232,7 @@ nsNavBookmarks
 :
 kGetChildrenIndex_ServiceContractId
 =
-16
+17
 ;
 const
 PRInt32
@@ -1274,6 +1274,9 @@ b
 .
 parent
 null
+h
+.
+frecency
 b
 .
 position

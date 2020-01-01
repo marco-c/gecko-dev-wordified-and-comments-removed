@@ -832,7 +832,7 @@ sortingMode
 =
 NHQO
 .
-SORT_BY_TITLE_ASCENDING
+SORT_BY_FRECENCY_DESCENDING
 ;
 resultType
 =
