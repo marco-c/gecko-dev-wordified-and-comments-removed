@@ -542,6 +542,10 @@ test_bug482461
 .
 html
 \
+test_bug493187
+.
+html
+\
 test_can_play_type_ogg
 .
 html
