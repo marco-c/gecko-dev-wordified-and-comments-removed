@@ -173,6 +173,10 @@ browser_privatebrowsing_nonbrowser
 .
 js
 \
+browser_privatebrowsing_noSessionRestoreMenuOption
+.
+js
+\
 browser_privatebrowsing_opendir
 .
 js
