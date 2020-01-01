@@ -6567,8 +6567,12 @@ JMP_long_placeholder
 (
 )
 ;
-verbose_only
+#
+if
+defined
 (
+NJ_VERBOSE
+)
 if
 (
 _verbose
@@ -6577,6 +6581,7 @@ _verbose
 _outputCache
 )
 {
+delete
 _outputCache
 -
 >
@@ -6593,8 +6598,8 @@ SOT
 )
 ;
 }
-)
-;
+#
+endif
 loopJumps
 .
 add
