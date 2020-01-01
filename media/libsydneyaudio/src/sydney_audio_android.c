@@ -1498,8 +1498,8 @@ return
 SA_ERROR_OOM
 ;
 }
-unsigned
-char
+const
+jbyte
 *
 p
 =
@@ -1793,7 +1793,7 @@ lld
 aw
 =
 %
-u
+lld
 sz
 =
 %
