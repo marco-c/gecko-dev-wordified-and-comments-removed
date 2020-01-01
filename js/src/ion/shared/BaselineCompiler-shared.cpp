@@ -74,6 +74,7 @@ cx
 &
 CanIonCompileScript
 (
+cx
 script
 )
 )
