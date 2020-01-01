@@ -974,6 +974,10 @@ issueSerial
 (
 )
 ;
+IDirect3DDevice9
+*
+mDevice
+;
 FragmentShader
 *
 mFragmentShader
