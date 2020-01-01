@@ -105,6 +105,10 @@ nsGenericHTMLElement
 .
 h
 \
+nsHTMLIFrameElement
+.
+h
+\
 nsClientRect
 .
 h
