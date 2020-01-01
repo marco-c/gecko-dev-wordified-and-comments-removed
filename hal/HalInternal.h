@@ -50,6 +50,16 @@ DisableNetworkNotifications
 (
 )
 ;
+void
+EnableScreenOrientationNotifications
+(
+)
+;
+void
+DisableScreenOrientationNotifications
+(
+)
+;
 }
 }
 #
