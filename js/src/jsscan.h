@@ -934,7 +934,7 @@ const
 size_t
 LINE_LIMIT
 =
-256
+1024
 ;
 class
 TokenStream
