@@ -273,6 +273,7 @@ HttpBaseChannel
 (
 )
 ;
+virtual
 nsresult
 Init
 (

@@ -173,14 +173,6 @@ HttpChannelChild
 (
 )
 ;
-nsresult
-Init
-(
-nsIURI
-*
-uri
-)
-;
 NS_IMETHOD
 Cancel
 (

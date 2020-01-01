@@ -7,6 +7,13 @@ nsHttpChannelAuthProvider_h__
 #
 include
 "
+nsHttp
+.
+h
+"
+#
+include
+"
 nsIHttpChannelAuthProvider
 .
 h

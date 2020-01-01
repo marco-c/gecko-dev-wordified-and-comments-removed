@@ -568,6 +568,10 @@ nsDOMPopStateEvent
 .
 cpp
 \
+nsDOMCloseEvent
+.
+cpp
+\
 (
 NULL
 )

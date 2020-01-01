@@ -160,6 +160,10 @@ HTMLCollection
 )
 DOMCI_CLASS
 (
+HTMLElement
+)
+DOMCI_CLASS
+(
 HTMLAnchorElement
 )
 DOMCI_CLASS
@@ -1201,6 +1205,12 @@ DOMCI_CLASS
 (
 CSSFontFaceStyleDecl
 )
+#
+if
+defined
+(
+MOZ_MEDIA
+)
 DOMCI_CLASS
 (
 HTMLVideoElement
@@ -1217,6 +1227,8 @@ DOMCI_CLASS
 (
 HTMLAudioElement
 )
+#
+endif
 DOMCI_CLASS
 (
 ProgressEvent
@@ -1321,4 +1333,12 @@ ContentFrameMessageManager
 DOMCI_CLASS
 (
 FormData
+)
+DOMCI_CLASS
+(
+WebSocket
+)
+DOMCI_CLASS
+(
+CloseEvent
 )

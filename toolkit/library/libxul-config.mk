@@ -1276,6 +1276,10 @@ MOZ_CAIRO_LIBS
 )
 \
 (
+MOZ_HARFBUZZ_LIBS
+)
+\
+(
 NULL
 )
 ifdef

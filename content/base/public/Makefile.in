@@ -551,6 +551,10 @@ nsXMLNameSpaceMap
 .
 h
 \
+nsDOMEventTargetWrapperCache
+.
+h
+\
 (
 NULL
 )
@@ -702,6 +706,10 @@ nsIContentSecurityPolicy
 idl
 \
 nsIFrameMessageManager
+.
+idl
+\
+nsIWebSocket
 .
 idl
 \

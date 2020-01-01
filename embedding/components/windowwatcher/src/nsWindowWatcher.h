@@ -61,13 +61,6 @@ h
 #
 include
 "
-nsIAuthPromptAdapterFactory
-.
-h
-"
-#
-include
-"
 nsPIWindowWatcher
 .
 h
@@ -127,8 +120,6 @@ public
 nsPIWindowWatcher
 public
 nsIPromptFactory
-public
-nsIAuthPromptAdapterFactory
 {
 friend
 class
@@ -155,7 +146,6 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIWINDOWWATCHER
 NS_DECL_NSPIWINDOWWATCHER
 NS_DECL_NSIPROMPTFACTORY
-NS_DECL_NSIAUTHPROMPTADAPTERFACTORY
 protected
 :
 friend
