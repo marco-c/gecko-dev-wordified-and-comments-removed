@@ -1893,7 +1893,7 @@ kPrincipalList
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 nsIFrame
 *
 parent

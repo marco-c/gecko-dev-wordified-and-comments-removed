@@ -107,7 +107,7 @@ _bit
 )
 #
 ifdef
-NS_DEBUG
+DEBUG
 #
 define
 NS_FRAME_LOG
@@ -153,7 +153,7 @@ _args
 endif
 #
 ifdef
-NS_DEBUG
+DEBUG
 #
 define
 NS_FRAME_TRACE_IN
@@ -1361,7 +1361,7 @@ const
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 void
 Trace
 (
@@ -2148,7 +2148,7 @@ GetLineIterator
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 public
 :
 NS_IMETHOD

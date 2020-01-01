@@ -7013,7 +7013,7 @@ rv
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 nsCOMPtr
 <
 nsISupports
@@ -9314,7 +9314,7 @@ NS_ERROR_NO_INTERFACE
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 nsCOMPtr
 <
 nsISupportsPrimitive

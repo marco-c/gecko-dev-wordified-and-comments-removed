@@ -665,7 +665,7 @@ h
 "
 #
 ifdef
-NS_DEBUG
+DEBUG
 static
 bool
 gShowFrameBorders
@@ -7507,7 +7507,7 @@ aClipRadii
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 static
 void
 PaintDebugBorder
@@ -8916,7 +8916,7 @@ GetContent
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 DisplayDebugBorders
 (
 aBuilder
@@ -9876,7 +9876,7 @@ Content
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 DisplayDebugBorders
 (
 aBuilder
@@ -10179,7 +10179,7 @@ PositionedDescendants
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 DisplayDebugBorders
 (
 aBuilder
@@ -23598,7 +23598,7 @@ GetParent
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 PRInt32
 nsFrame
 :
@@ -25031,7 +25031,7 @@ ConstFrameSelection
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 NS_IMETHODIMP
 nsFrame
 :
@@ -37207,7 +37207,7 @@ aName
 endif
 #
 ifdef
-NS_DEBUG
+DEBUG
 static
 void
 GetTagName

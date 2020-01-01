@@ -3609,7 +3609,7 @@ break
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 ~
 nsMouseEvent
 (

@@ -2082,7 +2082,7 @@ RemovePushedFloats
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 void
 VerifyLines
 (

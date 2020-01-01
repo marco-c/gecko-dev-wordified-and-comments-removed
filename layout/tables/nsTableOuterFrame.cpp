@@ -562,7 +562,7 @@ nsnull
 endif
 #
 ifdef
-NS_DEBUG
+DEBUG
 NS_IMETHODIMP
 nsTableCaptionFrame
 :

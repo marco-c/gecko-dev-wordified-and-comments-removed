@@ -154,7 +154,7 @@ h
 "
 #
 ifdef
-NS_DEBUG
+DEBUG
 #
 include
 "
@@ -809,7 +809,7 @@ rv
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 JSContext
 *
 cx

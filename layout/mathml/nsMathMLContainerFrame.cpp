@@ -2015,7 +2015,7 @@ aDesiredSize
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 {
 nsIFrame
 *
@@ -2408,7 +2408,7 @@ rv
 if
 defined
 (
-NS_DEBUG
+DEBUG
 )
 &
 &

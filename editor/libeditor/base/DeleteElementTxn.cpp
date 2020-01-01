@@ -28,7 +28,7 @@ h
 "
 #
 ifdef
-NS_DEBUG
+DEBUG
 #
 include
 "
@@ -40,7 +40,7 @@ h
 endif
 #
 ifdef
-NS_DEBUG
+DEBUG
 static
 bool
 gNoisy
@@ -233,7 +233,7 @@ void
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 gNoisy
@@ -297,7 +297,7 @@ NS_OK
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 nsCOMPtr
 <
 nsIDOMElement
@@ -487,7 +487,7 @@ void
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 gNoisy
@@ -571,7 +571,7 @@ NS_ERROR_NULL_POINTER
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 nsCOMPtr
 <
 nsIDOMElement
@@ -740,7 +740,7 @@ void
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 gNoisy

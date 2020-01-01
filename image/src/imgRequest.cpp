@@ -3906,7 +3906,7 @@ out
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 #
 endif
 nsCOMPtr

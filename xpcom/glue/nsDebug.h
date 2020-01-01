@@ -39,9 +39,6 @@ h
 ifdef
 DEBUG
 #
-define
-NS_DEBUG
-#
 include
 "
 prprf

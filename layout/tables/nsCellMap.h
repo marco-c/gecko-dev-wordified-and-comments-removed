@@ -602,7 +602,7 @@ false
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 void
 Dump
 (
@@ -1043,7 +1043,7 @@ CellDataArray
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 void
 Dump
 (

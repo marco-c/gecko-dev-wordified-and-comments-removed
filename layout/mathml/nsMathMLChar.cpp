@@ -716,7 +716,7 @@ mGlyphProperties
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 nsCAutoString
 uriStr
 ;
@@ -7946,7 +7946,7 @@ mIsSelected
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 class
 nsDisplayMathMLCharDebug
 :
@@ -8308,7 +8308,7 @@ rv
 if
 defined
 (
-NS_DEBUG
+DEBUG
 )
 &
 &

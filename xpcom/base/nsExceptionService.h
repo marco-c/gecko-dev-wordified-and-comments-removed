@@ -160,7 +160,7 @@ data
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 static
 PRInt32
 totalInstances

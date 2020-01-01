@@ -220,7 +220,7 @@ mService
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 static
 PRInt32
 totalInstances
@@ -238,7 +238,7 @@ nsExceptionManager
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 PRInt32
 nsExceptionManager
 :
@@ -275,7 +275,7 @@ svc
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 PR_ATOMIC_INCREMENT
 (
 &
@@ -295,7 +295,7 @@ nsExceptionManager
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 PR_ATOMIC_DECREMENT
 (
 &
@@ -420,7 +420,7 @@ nsnull
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 PRInt32
 nsExceptionService
 :
@@ -453,7 +453,7 @@ true
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 PR_ATOMIC_INCREMENT
@@ -589,7 +589,7 @@ Shutdown
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 PR_ATOMIC_DECREMENT
 (
 &

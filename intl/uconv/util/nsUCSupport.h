@@ -105,7 +105,7 @@ length
 )
 #
 ifdef
-NS_DEBUG
+DEBUG
 #
 define
 NS_IBASICDECODER_IID
@@ -191,7 +191,7 @@ public
 nsIUnicodeDecoder
 #
 ifdef
-NS_DEBUG
+DEBUG
 public
 nsIBasicDecoder
 #
@@ -558,7 +558,7 @@ public
 nsIUnicodeEncoder
 #
 ifdef
-NS_DEBUG
+DEBUG
 public
 nsIBasicEncoder
 #

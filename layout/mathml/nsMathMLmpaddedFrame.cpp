@@ -560,7 +560,7 @@ IsEmpty
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 printf
 (
 "
@@ -877,7 +877,7 @@ true
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 printf
 (
 "

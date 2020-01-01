@@ -658,7 +658,7 @@ What
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 !
@@ -4012,7 +4012,7 @@ else
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 nsCAutoString
 docURISpec
 clientID
@@ -4177,7 +4177,7 @@ nsIApplicationCacheContainer
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 nsCAutoString
 docURISpec
 clientID

@@ -186,7 +186,7 @@ Loader
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 extern
 PRLogModuleInfo
 *

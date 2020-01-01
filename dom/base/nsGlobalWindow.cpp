@@ -1471,7 +1471,7 @@ if
 (
 defined
 (
-NS_DEBUG
+DEBUG
 )
 |
 |
@@ -3390,7 +3390,7 @@ if
 (
 defined
 (
-NS_DEBUG
+DEBUG
 )
 |
 |
@@ -18089,7 +18089,7 @@ if
 (
 defined
 (
-NS_DEBUG
+DEBUG
 )
 |
 |
@@ -35274,7 +35274,7 @@ NS_ERROR_NOT_INITIALIZED
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 PRUint32
 argc
 =

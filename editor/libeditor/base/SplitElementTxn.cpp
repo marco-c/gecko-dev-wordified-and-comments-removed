@@ -35,7 +35,7 @@ h
 "
 #
 ifdef
-NS_DEBUG
+DEBUG
 static
 bool
 gNoisy
@@ -178,7 +178,7 @@ void
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 gNoisy
@@ -315,7 +315,7 @@ mExistingRightNode
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 gNoisy
@@ -472,7 +472,7 @@ void
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 gNoisy
@@ -595,7 +595,7 @@ false
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 gNoisy
@@ -759,7 +759,7 @@ NS_ERROR_NOT_INITIALIZED
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 gNoisy
@@ -877,7 +877,7 @@ mOffset
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 gNoisy
@@ -1046,7 +1046,7 @@ resultNode
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 gNoisy
@@ -1156,7 +1156,7 @@ resultNode
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 gNoisy

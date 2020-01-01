@@ -365,7 +365,7 @@ else
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 nsCAutoString
 warnStr
 (

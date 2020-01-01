@@ -1057,7 +1057,7 @@ aElement
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 PR_LOG_TEST
@@ -1207,7 +1207,7 @@ mNext
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 PR_LOG_TEST
@@ -1366,7 +1366,7 @@ aElement
 {
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 PR_LOG_TEST
@@ -1722,7 +1722,7 @@ continue
 ;
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 PR_LOG_TEST

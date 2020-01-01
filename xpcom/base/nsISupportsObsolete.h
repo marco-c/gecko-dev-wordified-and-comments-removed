@@ -506,7 +506,7 @@ this
 if
 defined
 (
-NS_DEBUG
+DEBUG
 )
 #
 define

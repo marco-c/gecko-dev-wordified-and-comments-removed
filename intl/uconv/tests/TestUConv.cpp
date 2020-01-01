@@ -1368,7 +1368,7 @@ decCount
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 dec
@@ -1474,7 +1474,7 @@ encCount
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 if
 (
 enc

@@ -5194,7 +5194,7 @@ aPt
 }
 #
 ifdef
-NS_DEBUG
+DEBUG
 static
 void
 PaintDebugImageMap
