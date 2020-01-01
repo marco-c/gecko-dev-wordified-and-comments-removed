@@ -5756,16 +5756,6 @@ nsIDOMWebGLRenderingContext_TexSubImage2D
 :
 CUSTOM_QS
 '
-nsIDOMWebGLRenderingContext_CompressedTexImage2D
-'
-:
-CUSTOM_QS
-'
-nsIDOMWebGLRenderingContext_CompressedTexSubImage2D
-'
-:
-CUSTOM_QS
-'
 nsIDOMWebGLRenderingContext_Uniform1iv
 '
 :
