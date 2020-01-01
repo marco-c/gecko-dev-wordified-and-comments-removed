@@ -15117,7 +15117,7 @@ NULL
 desc
 -
 >
-storedValue
+value
 =
 JSVAL_VOID
 ;
@@ -15204,7 +15204,7 @@ setter
 desc
 -
 >
-storedValue
+value
 =
 SPROP_HAS_VALID_SLOT
 (
@@ -15246,7 +15246,7 @@ NULL
 desc
 -
 >
-storedValue
+value
 =
 JSVAL_VOID
 ;
