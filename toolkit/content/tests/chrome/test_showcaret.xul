@@ -691,7 +691,7 @@ otherWindowFocused
 {
 otherWindow
 .
-addEventListener
+removeEventListener
 (
 "
 focus
