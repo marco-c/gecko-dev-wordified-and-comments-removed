@@ -357,10 +357,7 @@ lz
 ;
 #
 if
-WTF_ARM_ARCH_AT_LEAST
-(
-5
-)
+WTF_ARM_ARCH_AT_LEAST_5
 asm
 (
 "
