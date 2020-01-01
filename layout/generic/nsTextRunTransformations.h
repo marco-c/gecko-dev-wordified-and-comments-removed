@@ -339,6 +339,9 @@ bool
 >
 mCapitalize
 ;
+nsString
+mString
+;
 bool
 mOwnsFactory
 ;
@@ -394,6 +397,11 @@ aGlyphStorage
 mFactory
 (
 aFactory
+)
+mString
+(
+aString
+aLength
 )
 mOwnsFactory
 (
