@@ -58,6 +58,6 @@ assertEq
 inArrayTest
 (
 )
-104
+10
 )
 ;
