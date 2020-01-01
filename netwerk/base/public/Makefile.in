@@ -276,10 +276,6 @@ nsIPrivateBrowsingChannel
 .
 idl
 \
-nsIPrivateBrowsingServiceObsolete
-.
-idl
-\
 nsIProgressEventSink
 .
 idl

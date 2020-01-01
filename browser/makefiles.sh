@@ -259,15 +259,6 @@ browser
 /
 components
 /
-privatebrowsing
-/
-src
-/
-Makefile
-browser
-/
-components
-/
 search
 /
 Makefile

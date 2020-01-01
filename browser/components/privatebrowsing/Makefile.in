@@ -78,9 +78,6 @@ mk
 MODULE
 =
 privatebrowsing
-DIRS
-=
-src
 TEST_DIRS
 +
 =
