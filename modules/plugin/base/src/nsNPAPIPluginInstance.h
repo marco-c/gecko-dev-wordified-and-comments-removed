@@ -169,6 +169,13 @@ aWindowless
 )
 ;
 NPError
+SetWindowlessLocal
+(
+PRBool
+aWindowlessLocal
+)
+;
+NPError
 SetTransparent
 (
 PRBool
@@ -429,6 +436,9 @@ mEventModel
 endif
 PRPackedBool
 mWindowless
+;
+PRPackedBool
+mWindowlessLocal
 ;
 PRPackedBool
 mTransparent
