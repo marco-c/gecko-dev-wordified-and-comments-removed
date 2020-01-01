@@ -210,6 +210,9 @@ PropertyName
 )
 ?
 AtomizeChars
+<
+CanGC
+>
 (
 cx
 start
@@ -221,6 +224,9 @@ length
 )
 :
 js_NewStringCopyN
+<
+CanGC
+>
 (
 cx
 start

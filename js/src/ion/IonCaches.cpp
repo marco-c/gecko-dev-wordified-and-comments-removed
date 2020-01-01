@@ -8762,6 +8762,7 @@ JSOp
 *
 pc
 )
+&
 lval
 idval
 res
@@ -8997,6 +8998,7 @@ JSOp
 *
 pc
 )
+&
 lval
 idval
 res

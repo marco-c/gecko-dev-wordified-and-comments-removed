@@ -347,7 +347,7 @@ nbase
 =
 js_NewGCBaseShape
 <
-DONT_ALLOW_GC
+NoGC
 >
 (
 cx
@@ -5849,7 +5849,7 @@ nbase_
 =
 js_NewGCBaseShape
 <
-ALLOW_GC
+CanGC
 >
 (
 cx

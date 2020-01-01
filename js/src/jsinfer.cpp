@@ -10643,7 +10643,7 @@ gc
 NewGCThing
 <
 TypeObject
-ALLOW_GC
+CanGC
 >
 (
 cx

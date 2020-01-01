@@ -182,6 +182,9 @@ N
 {
 return
 js_NewStringCopyN
+<
+CanGC
+>
 (
 cx
 chars
@@ -381,6 +384,9 @@ emptystr
 str
 =
 js_NewStringCopyN
+<
+CanGC
+>
 (
 cx
 emptystr

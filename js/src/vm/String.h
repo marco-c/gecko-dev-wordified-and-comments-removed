@@ -1328,7 +1328,7 @@ static
 inline
 JSRope
 *
-newStringMaybeAllowGC
+new_
 (
 JSContext
 *
@@ -1807,6 +1807,14 @@ length
 ;
 public
 :
+template
+<
+js
+:
+:
+AllowGC
+allowGC
+>
 static
 inline
 JSStableString

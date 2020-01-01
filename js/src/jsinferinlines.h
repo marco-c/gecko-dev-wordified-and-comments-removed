@@ -2416,9 +2416,10 @@ AddTypePropertyId
 JSContext
 *
 cx
-HandleObject
+JSObject
+*
 obj
-RawId
+jsid
 id
 Type
 type
@@ -2476,9 +2477,10 @@ AddTypePropertyId
 JSContext
 *
 cx
-HandleObject
+JSObject
+*
 obj
-RawId
+jsid
 id
 const
 Value

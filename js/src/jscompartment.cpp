@@ -1750,6 +1750,9 @@ wrapped
 (
 cx
 js_NewStringCopyN
+<
+CanGC
+>
 (
 cx
 str

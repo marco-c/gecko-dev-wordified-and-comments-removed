@@ -18450,6 +18450,9 @@ srcAtom
 (
 cx
 ToAtom
+<
+CanGC
+>
 (
 cx
 args

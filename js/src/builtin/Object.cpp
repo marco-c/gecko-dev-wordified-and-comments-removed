@@ -612,6 +612,9 @@ JSString
 str
 =
 js_NewStringCopyZ
+<
+CanGC
+>
 (
 cx
 "
@@ -4193,6 +4196,9 @@ JSString
 str
 =
 Int32ToString
+<
+CanGC
+>
 (
 cx
 JSID_TO_INT
@@ -4417,6 +4423,9 @@ JSString
 str
 =
 Int32ToString
+<
+CanGC
+>
 (
 cx
 JSID_TO_INT

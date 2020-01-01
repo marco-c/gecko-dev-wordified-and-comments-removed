@@ -252,6 +252,9 @@ length
 )
 return
 NewShortString
+<
+CanGC
+>
 (
 cx
 TwoByteChars
@@ -306,6 +309,9 @@ JSFlatString
 str
 =
 js_NewString
+<
+CanGC
+>
 (
 cx
 buf
@@ -379,6 +385,9 @@ UnrootedAtom
 atom
 =
 AtomizeChars
+<
+CanGC
+>
 (
 cx
 cb

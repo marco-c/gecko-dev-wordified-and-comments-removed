@@ -978,6 +978,11 @@ js
 DoNotInternAtom
 )
 ;
+template
+<
+AllowGC
+allowGC
+>
 extern
 UnrootedAtom
 AtomizeChars
@@ -1003,6 +1008,11 @@ js
 DoNotInternAtom
 )
 ;
+template
+<
+AllowGC
+allowGC
+>
 extern
 UnrootedAtom
 AtomizeString
@@ -1025,6 +1035,11 @@ js
 DoNotInternAtom
 )
 ;
+template
+<
+AllowGC
+allowGC
+>
 inline
 JSAtom
 *

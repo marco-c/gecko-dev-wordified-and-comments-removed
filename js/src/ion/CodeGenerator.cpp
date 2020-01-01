@@ -2172,6 +2172,9 @@ IntToStringFn
 >
 (
 Int32ToString
+<
+CanGC
+>
 )
 ;
 bool
@@ -13499,8 +13502,8 @@ CompareFn
 (
 JSContext
 *
-HandleValue
-HandleValue
+MutableHandleValue
+MutableHandleValue
 JSBool
 *
 )
@@ -22525,7 +22528,7 @@ GetOrCallElementFn
 (
 JSContext
 *
-HandleValue
+MutableHandleValue
 HandleValue
 MutableHandleValue
 )
@@ -27431,7 +27434,7 @@ GetElementMonitoredFn
 (
 JSContext
 *
-HandleValue
+MutableHandleValue
 HandleValue
 MutableHandleValue
 )

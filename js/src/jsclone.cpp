@@ -4406,6 +4406,9 @@ JSString
 str
 =
 js_NewString
+<
+CanGC
+>
 (
 context
 (
@@ -5844,6 +5847,9 @@ JSAtom
 atom
 =
 AtomizeString
+<
+CanGC
+>
 (
 context
 (

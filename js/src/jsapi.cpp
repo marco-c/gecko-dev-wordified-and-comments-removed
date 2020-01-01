@@ -17135,6 +17135,9 @@ JSAtom
 atom
 =
 AtomizeChars
+<
+CanGC
+>
 (
 cx
 name
@@ -17597,6 +17600,9 @@ JSAtom
 atom
 =
 AtomizeChars
+<
+CanGC
+>
 (
 cx
 name
@@ -17932,6 +17938,9 @@ JSAtom
 atom
 =
 AtomizeChars
+<
+CanGC
+>
 (
 cx
 name
@@ -18856,6 +18865,9 @@ JSAtom
 atom
 =
 AtomizeChars
+<
+CanGC
+>
 (
 cx
 name
@@ -20067,6 +20079,9 @@ JSAtom
 atom
 =
 AtomizeChars
+<
+CanGC
+>
 (
 cx
 name
@@ -20210,6 +20225,9 @@ JSAtom
 atom
 =
 AtomizeChars
+<
+CanGC
+>
 (
 cx
 name
@@ -20532,6 +20550,9 @@ JSAtom
 atom
 =
 AtomizeChars
+<
+CanGC
+>
 (
 cx
 name
@@ -21169,6 +21190,9 @@ JSAtom
 atom
 =
 AtomizeChars
+<
+CanGC
+>
 (
 cx
 name
@@ -21627,6 +21651,9 @@ JSAtom
 atom
 =
 AtomizeChars
+<
+CanGC
+>
 (
 cx
 name
@@ -22025,6 +22052,9 @@ JSAtom
 atom
 =
 AtomizeChars
+<
+CanGC
+>
 (
 cx
 name
@@ -25306,6 +25336,9 @@ JSAtom
 atom
 =
 AtomizeChars
+<
+CanGC
+>
 (
 cx
 name
@@ -27505,6 +27538,9 @@ cx
 )
 :
 js_NewStringCopyZ
+<
+CanGC
+>
 (
 cx
 "
@@ -29545,6 +29581,9 @@ cx
 ;
 return
 js_NewStringCopyN
+<
+CanGC
+>
 (
 cx
 s
@@ -29636,6 +29675,9 @@ NULL
 str
 =
 js_NewString
+<
+CanGC
+>
 (
 cx
 js
@@ -29794,6 +29836,9 @@ JSAtom
 atom
 =
 AtomizeString
+<
+CanGC
+>
 (
 cx
 str
@@ -29925,6 +29970,9 @@ cx
 ;
 return
 js_NewString
+<
+CanGC
+>
 (
 cx
 chars
@@ -29962,6 +30010,9 @@ cx
 ;
 return
 js_NewStringCopyN
+<
+CanGC
+>
 (
 cx
 s
@@ -30011,6 +30062,9 @@ emptyString
 ;
 return
 js_NewStringCopyZ
+<
+CanGC
+>
 (
 cx
 s
@@ -30050,6 +30104,9 @@ JSAtom
 atom
 =
 AtomizeChars
+<
+CanGC
+>
 (
 cx
 s
@@ -30870,6 +30927,9 @@ cx
 ;
 return
 js_NewString
+<
+CanGC
+>
 (
 cx
 chars

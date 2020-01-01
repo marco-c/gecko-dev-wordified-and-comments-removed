@@ -7257,7 +7257,7 @@ ArenaLists
 :
 refillFreeList
 <
-DONT_ALLOW_GC
+NoGC
 >
 (
 JSContext
@@ -7275,7 +7275,7 @@ ArenaLists
 :
 refillFreeList
 <
-ALLOW_GC
+CanGC
 >
 (
 JSContext
@@ -22320,7 +22320,7 @@ return
 NewGCThing
 <
 JSXML
-ALLOW_GC
+CanGC
 >
 (
 cx

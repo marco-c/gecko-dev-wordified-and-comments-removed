@@ -673,7 +673,7 @@ obj
 =
 js_NewGCObject
 <
-DONT_ALLOW_GC
+NoGC
 >
 (
 cx

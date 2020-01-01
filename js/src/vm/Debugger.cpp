@@ -14299,6 +14299,9 @@ JSString
 str
 =
 js_NewStringCopyZ
+<
+CanGC
+>
 (
 cx
 script
@@ -22672,6 +22675,9 @@ JSString
 str
 =
 Int32ToString
+<
+CanGC
+>
 (
 cx
 JSID_TO_INT

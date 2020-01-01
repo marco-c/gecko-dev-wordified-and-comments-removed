@@ -112,6 +112,14 @@ js_parseInt_str
 class
 JSString
 ;
+template
+<
+js
+:
+:
+AllowGC
+allowGC
+>
 extern
 JSString
 *
@@ -127,6 +135,11 @@ d
 namespace
 js
 {
+template
+<
+AllowGC
+allowGC
+>
 extern
 JSFlatString
 *
