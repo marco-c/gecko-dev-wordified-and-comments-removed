@@ -1208,10 +1208,15 @@ ResolvingId
 JSContext
 *
 cx
-JSObject
-*
+JS
+:
+:
+HandleObject
 wrapper
-jsid
+JS
+:
+:
+HandleId
 id
 )
 ;
@@ -1277,7 +1282,7 @@ XPCWrappedNativeXrayTraits
 JS
 :
 :
-RootedId
+HandleId
 mId
 ;
 JS
