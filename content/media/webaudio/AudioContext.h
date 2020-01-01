@@ -418,6 +418,9 @@ MediaStreamAudioDestinationNode
 >
 CreateMediaStreamDestination
 (
+ErrorResult
+&
+aRv
 )
 ;
 already_AddRefed

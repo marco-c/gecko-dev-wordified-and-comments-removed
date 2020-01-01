@@ -238,6 +238,7 @@ createBufferSource
 ;
 [
 Creator
+Throws
 ]
 MediaStreamAudioDestinationNode
 createMediaStreamDestination
