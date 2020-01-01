@@ -205,7 +205,6 @@ function
 {
 closeDebuggerAndFinish
 (
-gTab
 )
 ;
 }

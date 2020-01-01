@@ -658,7 +658,6 @@ resume
 ;
 closeDebuggerAndFinish
 (
-gTab
 )
 ;
 }

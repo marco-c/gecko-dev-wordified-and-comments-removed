@@ -306,7 +306,6 @@ aTab
 function
 closeDebuggerAndFinish
 (
-aTab
 aRemoteFlag
 )
 {
@@ -359,7 +358,6 @@ DebuggerUI
 .
 getDebugger
 (
-aTab
 )
 .
 close

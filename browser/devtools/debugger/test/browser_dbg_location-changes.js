@@ -287,7 +287,6 @@ again
 ;
 closeDebuggerAndFinish
 (
-gTab
 )
 ;
 }

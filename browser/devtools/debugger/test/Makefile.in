@@ -115,6 +115,14 @@ browser_dbg_createChrome
 .
 js
 \
+browser_dbg_debugger
+-
+tab
+-
+switch
+.
+js
+\
 browser_dbg_debuggerstatement
 .
 js

@@ -396,7 +396,6 @@ running
 ;
 closeDebuggerAndFinish
 (
-gTab
 )
 ;
 }

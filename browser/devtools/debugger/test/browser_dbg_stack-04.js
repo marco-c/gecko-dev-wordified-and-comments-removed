@@ -286,7 +286,6 @@ explanation
 ;
 closeDebuggerAndFinish
 (
-gTab
 )
 ;
 }

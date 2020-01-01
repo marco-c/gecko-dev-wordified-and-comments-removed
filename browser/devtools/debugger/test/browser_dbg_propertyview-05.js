@@ -674,7 +674,6 @@ function
 {
 closeDebuggerAndFinish
 (
-gTab
 )
 ;
 }

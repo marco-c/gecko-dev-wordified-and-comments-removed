@@ -120,7 +120,6 @@ statement
 ;
 closeDebuggerAndFinish
 (
-gTab
 )
 ;
 }

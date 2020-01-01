@@ -897,7 +897,6 @@ still
 ;
 closeDebuggerAndFinish
 (
-gTab
 )
 ;
 }
