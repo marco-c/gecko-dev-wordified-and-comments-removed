@@ -300,6 +300,10 @@ nsSVGAFrame_id
 nsSVGClipPathFrame_id
 nsSVGContainerFrame_id
 nsSVGDisplayContainerFrame_id
+SVGFEContainerFrame_id
+SVGFEImageFrame_id
+SVGFELeafFrame_id
+SVGFEUnstyledLeafFrame_id
 nsSVGFilterFrame_id
 nsSVGForeignObjectFrame_id
 nsSVGGenericContainerFrame_id
@@ -309,7 +313,6 @@ nsSVGGlyphFrame_id
 nsSVGGradientFrame_id
 nsSVGImageFrame_id
 nsSVGInnerSVGFrame_id
-nsSVGLeafFrame_id
 nsSVGLinearGradientFrame_id
 nsSVGMarkerFrame_id
 nsSVGMaskFrame_id
