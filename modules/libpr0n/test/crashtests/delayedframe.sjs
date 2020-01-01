@@ -145,6 +145,9 @@ return
 fileStream
 ;
 }
+var
+gTimer
+;
 function
 handleRequest
 (
@@ -221,8 +224,7 @@ close
 (
 )
 ;
-var
-timer
+gTimer
 =
 Components
 .
@@ -248,7 +250,7 @@ interfaces
 nsITimer
 )
 ;
-timer
+gTimer
 .
 initWithCallback
 (
