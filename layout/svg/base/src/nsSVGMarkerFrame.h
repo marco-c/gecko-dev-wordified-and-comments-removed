@@ -201,13 +201,6 @@ GetCanvasTM
 ;
 class
 AutoMarkerReferencer
-;
-friend
-class
-AutoMarkerReferencer
-;
-class
-AutoMarkerReferencer
 {
 public
 :
