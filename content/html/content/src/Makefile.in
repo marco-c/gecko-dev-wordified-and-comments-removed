@@ -690,6 +690,10 @@ nsHTMLTitleElement
 .
 cpp
 \
+nsTextRectangle
+.
+cpp
+\
 (
 NULL
 )
