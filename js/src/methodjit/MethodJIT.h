@@ -1609,6 +1609,16 @@ code
 m_size
 ;
 }
+jsbytecode
+*
+nativeToPC
+(
+void
+*
+returnAddress
+)
+const
+;
 }
 ;
 JSBool
