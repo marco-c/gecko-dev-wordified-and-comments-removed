@@ -363,7 +363,7 @@ if
 wrapper
 -
 >
-isProxy
+isWrapper
 (
 )
 )
