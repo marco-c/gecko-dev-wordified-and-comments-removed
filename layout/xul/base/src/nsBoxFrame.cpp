@@ -9045,6 +9045,15 @@ Length
 (
 )
 ;
+PRInt32
+localLength
+=
+outFrames
+.
+Length
+(
+)
+;
 for
 (
 PRUint32
@@ -9054,7 +9063,7 @@ i
 ;
 i
 <
-originalLength
+localLength
 ;
 i
 +
