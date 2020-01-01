@@ -1554,6 +1554,12 @@ svg
 pass
 .
 svg
+fails
+-
+if
+(
+Android
+)
 =
 =
 filter
@@ -1568,6 +1574,9 @@ svg
 pass
 .
 svg
+#
+Bug
+695385
 =
 =
 filter
