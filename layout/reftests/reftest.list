@@ -467,6 +467,12 @@ reftest
 #
 harness
 .
+include
+cssom
+/
+reftest
+.
+list
 #
 columns
 /
