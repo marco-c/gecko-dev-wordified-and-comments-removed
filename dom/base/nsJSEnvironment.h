@@ -707,6 +707,12 @@ CCIfUserInactive
 ;
 static
 void
+MaybeCCIfUserInactive
+(
+)
+;
+static
+void
 FireGCTimer
 (
 PRBool
