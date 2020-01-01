@@ -417,6 +417,10 @@ config
 autoconf
 .
 mk
+CC_WRAPPER
+=
+CXX_WRAPPER
+=
 include
 (
 topsrcdir
