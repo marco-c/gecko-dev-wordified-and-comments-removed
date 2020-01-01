@@ -137,9 +137,6 @@ struct
 gfxSize
 ;
 struct
-gfxIntSize
-;
-struct
 nsStyleFont
 ;
 class
