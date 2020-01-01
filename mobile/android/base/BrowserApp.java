@@ -2062,7 +2062,9 @@ tab
 long
 id
 =
-mFavicons
+getFavicons
+(
+)
 .
 loadFavicon
 (
@@ -2248,7 +2250,9 @@ NOT_LOADING
 )
 return
 ;
-mFavicons
+getFavicons
+(
+)
 .
 cancelFaviconLoad
 (
