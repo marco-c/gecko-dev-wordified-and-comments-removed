@@ -455,10 +455,6 @@ nsISHistoryInternal
 .
 idl
 \
-nsIBFCacheEntry
-.
-idl
-\
 (
 NULL
 )
