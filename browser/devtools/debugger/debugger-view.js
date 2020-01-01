@@ -9339,6 +9339,7 @@ getBreakpoint
 url
 line
 )
+;
 if
 (
 !
