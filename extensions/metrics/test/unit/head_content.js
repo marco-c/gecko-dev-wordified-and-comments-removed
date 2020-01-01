@@ -13,6 +13,8 @@ mozilla
 .
 org
 /
+extensions
+/
 metrics
 /
 service

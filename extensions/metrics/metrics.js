@@ -1,6 +1,10 @@
 pref
 (
 "
+extensions
+.
+mozilla
+.
 metrics
 .
 upload
@@ -13,6 +17,10 @@ false
 pref
 (
 "
+extensions
+.
+mozilla
+.
 metrics
 .
 upload
@@ -26,6 +34,10 @@ uri
 pref
 (
 "
+extensions
+.
+mozilla
+.
 metrics
 .
 event
