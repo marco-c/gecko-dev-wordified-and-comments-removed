@@ -6388,7 +6388,6 @@ goto
 out2
 ;
 }
-JS_REQUIRES_STACK
 JSBool
 js_InternalInvoke
 (
@@ -6422,6 +6421,11 @@ mark
 ;
 JSBool
 ok
+;
+js_LeaveTrace
+(
+cx
+)
 ;
 invokevp
 =

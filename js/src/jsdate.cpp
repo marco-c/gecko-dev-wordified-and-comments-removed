@@ -9181,7 +9181,7 @@ date_valueOf
 3
 (
 static
-JSVAL_FAIL
+JSVAL_RETRY
 date_valueOf_tn
 CONTEXT
 THIS
