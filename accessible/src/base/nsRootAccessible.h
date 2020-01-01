@@ -185,13 +185,6 @@ aRelation
 )
 ;
 NS_IMETHOD
-FireDocLoadEvents
-(
-PRUint32
-aEventType
-)
-;
-NS_IMETHOD
 HandleEvent
 (
 nsIDOMEvent
@@ -232,9 +225,12 @@ PRUint32
 aExtraState
 )
 ;
+virtual
 void
-ShutdownAll
+FireDocLoadEvents
 (
+PRUint32
+aEventType
 )
 ;
 NS_DECLARE_STATIC_IID_ACCESSOR
