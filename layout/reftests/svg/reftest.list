@@ -850,11 +850,11 @@ svg
 pass
 .
 svg
-skip
--
-if
+asserts
 (
-gtk2Widget
+0
+-
+1
 )
 =
 =
@@ -870,7 +870,7 @@ pass
 svg
 #
 intermittent
-failures
+assertions
 (
 bug
 886080
