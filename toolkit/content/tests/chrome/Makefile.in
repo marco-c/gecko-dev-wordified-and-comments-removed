@@ -818,6 +818,10 @@ test_textbox_search
 .
 xul
 \
+test_textbox_dictionary
+.
+xul
+\
 test_toolbar
 .
 xul
