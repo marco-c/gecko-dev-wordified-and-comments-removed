@@ -703,6 +703,10 @@ TreeMatchContext
 &
 mTreeMatchContext
 ;
+nsIFrame
+*
+mResolvedChild
+;
 const
 DesiredA11yNotifications
 mDesiredA11yNotifications
