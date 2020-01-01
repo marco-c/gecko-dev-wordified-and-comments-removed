@@ -261,6 +261,9 @@ cx
 XPCWrappedNativeScope
 *
 scope
+bool
+*
+triedToWrap
 )
 ;
 NS_DECL_NSIDOMNODELIST

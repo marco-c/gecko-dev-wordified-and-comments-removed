@@ -5135,6 +5135,16 @@ min_background_timeout_value
 1000
 )
 ;
+pref
+(
+"
+dom
+.
+new_bindings
+"
+false
+)
+;
 #
 ifndef
 XP_WIN

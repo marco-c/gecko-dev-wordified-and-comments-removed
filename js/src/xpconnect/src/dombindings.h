@@ -153,6 +153,9 @@ scope
 nsINodeList
 *
 aNodeList
+bool
+*
+triedToWrap
 )
 ;
 static
@@ -172,6 +175,9 @@ aHTMLCollection
 nsWrapperCache
 *
 aWrapperCache
+bool
+*
+triedToWrap
 )
 ;
 }
@@ -254,6 +260,9 @@ cx
 XPCWrappedNativeScope
 *
 scope
+bool
+*
+enabled
 )
 ;
 static
@@ -771,6 +780,9 @@ T
 nsWrapperCache
 *
 aWrapperCache
+bool
+*
+enabled
 )
 ;
 static

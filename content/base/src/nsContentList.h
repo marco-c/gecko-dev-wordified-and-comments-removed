@@ -284,6 +284,9 @@ cx
 XPCWrappedNativeScope
 *
 scope
+bool
+*
+triedToWrap
 )
 =
 0
@@ -350,6 +353,9 @@ cx
 XPCWrappedNativeScope
 *
 scope
+bool
+*
+triedToWrap
 )
 ;
 private
@@ -580,6 +586,9 @@ cx
 XPCWrappedNativeScope
 *
 scope
+bool
+*
+triedToWrap
 )
 ;
 NS_DECL_NSIDOMHTMLCOLLECTION

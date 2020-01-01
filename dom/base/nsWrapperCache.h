@@ -191,8 +191,16 @@ cx
 XPCWrappedNativeScope
 *
 scope
+bool
+*
+triedToWrap
 )
 {
+*
+triedToWrap
+=
+false
+;
 return
 nsnull
 ;

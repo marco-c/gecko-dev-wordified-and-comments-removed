@@ -225,6 +225,9 @@ cx
 XPCWrappedNativeScope
 *
 scope
+bool
+*
+triedToWrap
 )
 {
 return
@@ -243,6 +246,7 @@ cx
 scope
 this
 this
+triedToWrap
 )
 ;
 }
