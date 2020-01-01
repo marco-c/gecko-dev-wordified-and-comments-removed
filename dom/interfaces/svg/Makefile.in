@@ -184,10 +184,6 @@ nsIDOMSVGUnitTypes
 .
 idl
 \
-nsIDOMSVGUseElement
-.
-idl
-\
 nsIDOMSVGViewElement
 .
 idl
