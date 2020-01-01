@@ -2204,9 +2204,6 @@ f
 outParam
 =
 =
-VMFunction
-:
-:
 Type_Value
 )
 {
@@ -2373,9 +2370,6 @@ failType
 )
 =
 =
-VMFunction
-:
-:
 Type_Bool
 |
 |
@@ -2386,9 +2380,6 @@ failType
 )
 =
 =
-VMFunction
-:
-:
 Type_Object
 )
 ;
@@ -2425,9 +2416,6 @@ f
 outParam
 =
 =
-VMFunction
-:
-:
 Type_Value
 )
 {
