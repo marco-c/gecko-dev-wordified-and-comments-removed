@@ -96,6 +96,13 @@ Context
 tmp
 -
 >
+DisconnectFromGraph
+(
+)
+;
+tmp
+-
+>
 Context
 (
 )
