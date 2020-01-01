@@ -255,6 +255,14 @@ addTab
 (
 )
 ;
+tab
+.
+linkedBrowser
+.
+stop
+(
+)
+;
 ok
 (
 test
