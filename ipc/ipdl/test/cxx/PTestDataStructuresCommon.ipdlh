@@ -70,6 +70,14 @@ ad
 ;
 }
 ;
+struct
+ActorWrapper
+{
+PTestDataStructuresSub
+actor
+;
+}
+;
 union
 Actors
 {
