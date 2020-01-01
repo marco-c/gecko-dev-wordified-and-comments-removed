@@ -7463,7 +7463,7 @@ _built
 )
 return
 ;
-PlacesUtils
+PlacesUIUtils
 .
 cleanPlacesPopup
 (
