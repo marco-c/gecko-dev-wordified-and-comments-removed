@@ -18,6 +18,13 @@ jspubtd
 .
 h
 "
+#
+include
+"
+jsversion
+.
+h
+"
 JS_BEGIN_EXTERN_C
 #
 define

@@ -12,13 +12,6 @@ math
 h
 >
 #
-include
-"
-jsversion
-.
-h
-"
-#
 if
 __GNUC__
 >

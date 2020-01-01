@@ -27,7 +27,10 @@ h
 "
 inline
 bool
-js_MatchPropertyCacheShape
+JSPropCacheEntry
+:
+:
+matchShape
 (
 JSContext
 *

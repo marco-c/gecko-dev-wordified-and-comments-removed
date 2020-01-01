@@ -15207,7 +15207,10 @@ gcDoubleArenaList
 .
 head
 ;
-js_SweepScopeProperties
+js
+:
+:
+SweepScopeProperties
 (
 cx
 )
