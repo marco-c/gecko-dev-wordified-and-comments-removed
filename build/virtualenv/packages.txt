@@ -99,6 +99,15 @@ python
 blessings
 :
 develop
+setup
+.
+py
+:
+python
+/
+mozbuild
+:
+develop
 mozilla
 .
 pth
