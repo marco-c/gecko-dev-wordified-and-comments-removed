@@ -410,7 +410,7 @@ aInspector
 .
 highlighter
 .
-unlock
+unlockAndFocus
 (
 )
 ;

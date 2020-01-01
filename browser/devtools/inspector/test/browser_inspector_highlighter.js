@@ -534,7 +534,7 @@ i
 .
 highlighter
 .
-unlock
+unlockAndFocus
 (
 )
 ;
