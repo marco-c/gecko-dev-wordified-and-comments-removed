@@ -803,6 +803,11 @@ T
 :
 Release
 ;
+~
+nsDerivedSafe
+(
+)
+;
 protected
 :
 nsDerivedSafe
