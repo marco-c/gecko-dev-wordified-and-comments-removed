@@ -381,10 +381,6 @@ StringList
 *
 _outputCache
 ;
-LabelMap
-*
-_labelMap
-;
 LogControl
 *
 _logc
@@ -414,7 +410,7 @@ Assembler
 {
 }
 void
-assemble
+endAssembly
 (
 Fragment
 *
@@ -422,7 +418,7 @@ frag
 )
 ;
 void
-endAssembly
+assemble
 (
 Fragment
 *
@@ -435,9 +431,6 @@ beginAssembly
 Fragment
 *
 frag
-RegAllocMap
-*
-map
 )
 ;
 void
@@ -542,12 +535,6 @@ gen
 LirFilter
 *
 toCompile
-LabelStateMap
-&
-labels
-NInsMap
-&
-patches
 )
 ;
 NIns
@@ -822,8 +809,13 @@ Fragment
 _thisfrag
 ;
 RegAllocMap
-*
 _branchStateMap
+;
+NInsMap
+_patches
+;
+LabelStateMap
+_labels
 ;
 NIns
 *
