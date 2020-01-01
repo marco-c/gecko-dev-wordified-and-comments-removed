@@ -618,16 +618,6 @@ in
 #
 MOZ_BUILD_PROJECTS
 #
-mozilla
-/
-other
--
-licenses
-/
-7zstub
-/
-seamonkey
-\
 #
 #
 #
