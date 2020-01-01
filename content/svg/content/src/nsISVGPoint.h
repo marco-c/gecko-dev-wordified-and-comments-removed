@@ -59,9 +59,13 @@ MOZILLA_NSISVGPOINT_IID
 namespace
 mozilla
 {
+namespace
+dom
+{
 class
-DOMSVGMatrix
+SVGMatrix
 ;
+}
 class
 nsISVGPoint
 :
@@ -135,7 +139,10 @@ nsISVGPoint
 >
 MatrixTransform
 (
-DOMSVGMatrix
+dom
+:
+:
+SVGMatrix
 &
 matrix
 )

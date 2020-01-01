@@ -106,9 +106,13 @@ MOZ_SVG_LIST_INDEX_BIT_COUNT
 namespace
 mozilla
 {
+namespace
+dom
+{
 class
-DOMSVGMatrix
+SVGMatrix
 ;
+}
 class
 DOMSVGPoint
 MOZ_FINAL
@@ -419,7 +423,10 @@ nsISVGPoint
 >
 MatrixTransform
 (
-DOMSVGMatrix
+dom
+:
+:
+SVGMatrix
 &
 matrix
 )

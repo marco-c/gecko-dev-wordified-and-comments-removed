@@ -73,9 +73,13 @@ nsSVGElement
 namespace
 mozilla
 {
+namespace
+dom
+{
 class
-DOMSVGMatrix
+SVGMatrix
 ;
+}
 class
 DOMSVGTransform
 ;
@@ -436,7 +440,10 @@ DOMSVGTransform
 >
 CreateSVGTransformFromMatrix
 (
-DOMSVGMatrix
+dom
+:
+:
+SVGMatrix
 &
 matrix
 )

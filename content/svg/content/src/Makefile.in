@@ -117,10 +117,6 @@ DOMSVGLengthList
 .
 cpp
 \
-DOMSVGMatrix
-.
-cpp
-\
 DOMSVGNumber
 .
 cpp
@@ -414,6 +410,10 @@ SVGLineElement
 cpp
 \
 SVGLocatableElement
+.
+cpp
+\
+SVGMatrix
 .
 cpp
 \
@@ -715,6 +715,10 @@ SVGLineElement
 h
 \
 SVGLocatableElement
+.
+h
+\
+SVGMatrix
 .
 h
 \

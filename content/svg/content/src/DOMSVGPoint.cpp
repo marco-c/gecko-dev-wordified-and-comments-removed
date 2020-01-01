@@ -50,7 +50,11 @@ h
 #
 include
 "
-DOMSVGMatrix
+mozilla
+/
+dom
+/
+SVGMatrix
 .
 h
 "
@@ -473,7 +477,10 @@ DOMSVGPoint
 :
 MatrixTransform
 (
-DOMSVGMatrix
+dom
+:
+:
+SVGMatrix
 &
 matrix
 )

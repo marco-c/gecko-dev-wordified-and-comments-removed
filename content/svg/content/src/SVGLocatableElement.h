@@ -41,12 +41,12 @@ MOZILLA_SVGLOCATABLEELEMENT_IID
 namespace
 mozilla
 {
-class
-DOMSVGMatrix
-;
 namespace
 dom
 {
+class
+SVGMatrix
+;
 class
 SVGLocatableElement
 :
@@ -110,7 +110,7 @@ rv
 ;
 already_AddRefed
 <
-DOMSVGMatrix
+SVGMatrix
 >
 GetCTM
 (
@@ -118,7 +118,7 @@ GetCTM
 ;
 already_AddRefed
 <
-DOMSVGMatrix
+SVGMatrix
 >
 GetScreenCTM
 (
@@ -126,7 +126,7 @@ GetScreenCTM
 ;
 already_AddRefed
 <
-DOMSVGMatrix
+SVGMatrix
 >
 GetTransformToElement
 (

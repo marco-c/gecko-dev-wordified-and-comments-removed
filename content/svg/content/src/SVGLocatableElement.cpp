@@ -1,14 +1,11 @@
 #
 include
 "
+mozilla
+/
+dom
+/
 SVGLocatableElement
-.
-h
-"
-#
-include
-"
-DOMSVGMatrix
 .
 h
 "
@@ -44,6 +41,17 @@ h
 include
 "
 SVGContentUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
+SVGMatrix
 .
 h
 "
@@ -363,7 +371,7 @@ NS_OK
 }
 already_AddRefed
 <
-DOMSVGMatrix
+SVGMatrix
 >
 SVGLocatableElement
 :
@@ -386,7 +394,7 @@ false
 ;
 nsCOMPtr
 <
-DOMSVGMatrix
+SVGMatrix
 >
 mat
 =
@@ -399,7 +407,7 @@ IsSingular
 nullptr
 :
 new
-DOMSVGMatrix
+SVGMatrix
 (
 m
 )
@@ -441,7 +449,7 @@ NS_OK
 }
 already_AddRefed
 <
-DOMSVGMatrix
+SVGMatrix
 >
 SVGLocatableElement
 :
@@ -464,7 +472,7 @@ true
 ;
 nsCOMPtr
 <
-DOMSVGMatrix
+SVGMatrix
 >
 mat
 =
@@ -477,7 +485,7 @@ IsSingular
 nullptr
 :
 new
-DOMSVGMatrix
+SVGMatrix
 (
 m
 )
@@ -551,7 +559,7 @@ ErrorCode
 }
 already_AddRefed
 <
-DOMSVGMatrix
+SVGMatrix
 >
 SVGLocatableElement
 :
@@ -597,7 +605,7 @@ nullptr
 }
 nsCOMPtr
 <
-DOMSVGMatrix
+SVGMatrix
 >
 ourScreenCTM
 =
@@ -607,7 +615,7 @@ GetScreenCTM
 ;
 nsCOMPtr
 <
-DOMSVGMatrix
+SVGMatrix
 >
 targetScreenCTM
 ;
@@ -645,7 +653,7 @@ nullptr
 }
 nsCOMPtr
 <
-DOMSVGMatrix
+SVGMatrix
 >
 tmp
 =
@@ -670,7 +678,7 @@ nullptr
 ;
 nsCOMPtr
 <
-DOMSVGMatrix
+SVGMatrix
 >
 mat
 =
