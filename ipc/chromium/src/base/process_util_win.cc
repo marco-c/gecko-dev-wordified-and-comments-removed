@@ -89,6 +89,11 @@ win_util
 .
 h
 "
+#
+include
+<
+algorithm
+>
 namespace
 {
 const

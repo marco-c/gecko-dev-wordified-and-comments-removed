@@ -51,6 +51,11 @@ include
 <
 string
 >
+#
+include
+<
+algorithm
+>
 MOZ_STATIC_ASSERT
 (
 MOZ_ALIGNOF
