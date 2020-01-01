@@ -1189,7 +1189,7 @@ MediaSegment
 aSegment
 )
 ;
-void
+bool
 AppendToTrack
 (
 TrackID
@@ -1401,16 +1401,6 @@ i
 ;
 }
 }
-NS_ERROR
-(
-"
-Bad
-track
-ID
-!
-"
-)
-;
 return
 nullptr
 ;
