@@ -105,6 +105,8 @@ from
 argparse
 import
 ArgumentParser
+import
+buildconfig
 NON_CHROME
 =
 set
@@ -1241,6 +1243,28 @@ parser
 parse_args
 (
 )
+    
+buildconfig
+.
+substs
+[
+'
+USE_ELF_HACK
+'
+]
+=
+False
+    
+buildconfig
+.
+substs
+[
+'
+PKG_SKIP_STRIP
+'
+]
+=
+True
     
 repack
 (
