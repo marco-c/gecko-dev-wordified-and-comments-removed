@@ -589,6 +589,15 @@ BluetoothReplyRunnable
 aRunnable
 )
 ;
+void
+DisconnectAllAcls
+(
+const
+nsAString
+&
+aAdapterPath
+)
+;
 }
 ;
 END_BLUETOOTH_NAMESPACE
