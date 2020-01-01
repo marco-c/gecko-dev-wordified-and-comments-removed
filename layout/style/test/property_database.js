@@ -4519,6 +4519,9 @@ other_values
 "
 100
 "
+"
+0
+"
 ]
 invalid_values
 :
@@ -4535,9 +4538,6 @@ invalid_values
 "
 -
 1000
-"
-"
-0
 "
 ]
 }
