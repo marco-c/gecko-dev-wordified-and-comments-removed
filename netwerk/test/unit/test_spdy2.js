@@ -117,7 +117,7 @@ Spdy
 =
 =
 "
-3
+2
 "
 )
 {
@@ -1927,7 +1927,6 @@ do_get_profile
 (
 )
 ;
-var
 prefs
 =
 Cc
@@ -2137,7 +2136,12 @@ enabled
 .
 v3
 "
-true
+false
+)
+;
+do_register_cleanup
+(
+resetPrefs
 )
 ;
 run_next_test
