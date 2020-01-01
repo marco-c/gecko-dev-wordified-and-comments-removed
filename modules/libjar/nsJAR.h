@@ -342,12 +342,6 @@ mMtime
 PRInt32
 mTotalItemsInManifest
 ;
-PRFileDesc
-*
-OpenFile
-(
-)
-;
 nsresult
 ParseManifest
 (

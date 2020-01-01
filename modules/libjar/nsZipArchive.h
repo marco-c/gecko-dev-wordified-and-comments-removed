@@ -70,6 +70,13 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+nsILocalFile
+.
+h
+"
 class
 nsZipFind
 ;
@@ -223,9 +230,9 @@ nsZipArchive
 nsresult
 OpenArchive
 (
-PRFileDesc
+nsIFile
 *
-fd
+aZipFile
 )
 ;
 nsresult
@@ -418,10 +425,6 @@ void
 ;
 protected
 :
-PRFileDesc
-*
-mFd
-;
 PRUint8
 *
 mFileData
