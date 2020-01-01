@@ -141,11 +141,6 @@ event
 )
 ;
 void
-RemoveNextEvent
-(
-)
-;
-void
 OnResume
 (
 )
@@ -238,6 +233,13 @@ mQueueCond
 int
 mNumDraws
 ;
+mozilla
+:
+:
+AndroidGeckoEvent
+*
+mLastDrawEvent
+;
 nsTArray
 <
 mozilla
@@ -260,7 +262,7 @@ mozilla
 :
 AndroidGeckoEvent
 *
-GetNextEvent
+PopNextEvent
 (
 )
 ;
