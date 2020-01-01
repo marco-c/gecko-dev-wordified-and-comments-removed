@@ -286,6 +286,7 @@ PRInt32
 GetDefaultContextFlags
 (
 )
+const
 {
 return
 0

@@ -807,6 +807,14 @@ FLAG_SIMPLIFY_OPERATORS
 <
 0
 )
+FLAG_DISABLE_SNAPPING
+=
+(
+1
+<
+<
+1
+)
 }
 ;
 void
@@ -840,6 +848,7 @@ PRInt32
 GetFlags
 (
 )
+const
 {
 return
 mFlags

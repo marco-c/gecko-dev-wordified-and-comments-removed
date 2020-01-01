@@ -1301,6 +1301,7 @@ gfxSize
 width
 height
 )
+PR_TRUE
 )
 ;
 }
@@ -1326,6 +1327,7 @@ gfxASurface
 :
 :
 ImageFormatARGB32
+PR_TRUE
 )
 ;
 }

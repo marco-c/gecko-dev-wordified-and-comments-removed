@@ -965,6 +965,7 @@ gfxWindowsSurface
 GetDefaultContextFlags
 (
 )
+const
 {
 if
 (
@@ -975,6 +976,11 @@ gfxContext
 :
 :
 FLAG_SIMPLIFY_OPERATORS
+|
+gfxContext
+:
+:
+FLAG_DISABLE_SNAPPING
 ;
 return
 0
