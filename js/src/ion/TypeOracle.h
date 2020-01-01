@@ -411,7 +411,7 @@ MIRType_None
 }
 virtual
 bool
-arrayProtoHasIndexedProperty
+arrayPrototypeHasIndexedProperty
 (
 )
 {
@@ -871,7 +871,7 @@ pc
 )
 ;
 bool
-arrayProtoHasIndexedProperty
+arrayPrototypeHasIndexedProperty
 (
 )
 ;
