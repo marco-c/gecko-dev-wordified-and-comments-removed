@@ -61,9 +61,10 @@ OpenBrowserWindow
 )
 ;
 yield
-waitForLoad
+whenDelayedStartupFinished
 (
 win
+next
 )
 ;
 let
