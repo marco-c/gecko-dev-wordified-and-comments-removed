@@ -16827,17 +16827,6 @@ index
 )
 ;
 inline
-jsval
-GetRTStringByIndex
-(
-JSContext
-*
-cx
-uintN
-index
-)
-;
-inline
 JSObject
 *
 xpc_NewSystemInheritingJSObject
