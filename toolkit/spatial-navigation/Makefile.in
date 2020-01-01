@@ -416,9 +416,7 @@ autoconf
 mk
 EXTRA_JS_MODULES
 =
-spatial
--
-navigation
+SpatialNavigation
 .
 js
 ifdef
