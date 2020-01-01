@@ -104,10 +104,13 @@ msg
 )
 #
 endif
-#
-define
+static
+const
+PRUint32
 BUFFERING_WAIT
+=
 30
+;
 #
 define
 BUFFERING_MIN_RATE

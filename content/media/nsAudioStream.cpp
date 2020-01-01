@@ -202,10 +202,13 @@ nsnull
 ;
 #
 endif
-#
-define
+static
+const
+PRUint32
 FAKE_BUFFER_SIZE
+=
 176400
+;
 class
 nsAudioStreamLocal
 :
