@@ -2559,14 +2559,6 @@ ShutdownGlobalObjects
 (
 )
 ;
-NS_IF_RELEASE
-(
-nsIOService
-:
-:
-gBufferCache
-)
-;
 net_ShutdownURLHelper
 (
 )

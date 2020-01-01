@@ -1115,10 +1115,6 @@ nsIOService
 :
 :
 gDefaultSegmentCount
-nsIOService
-:
-:
-gBufferCache
 )
 ;
 if

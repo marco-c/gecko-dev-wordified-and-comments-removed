@@ -2669,10 +2669,6 @@ nsIOService
 gDefaultSegmentSize
 true
 true
-nsIOService
-:
-:
-gBufferCache
 )
 ;
 if

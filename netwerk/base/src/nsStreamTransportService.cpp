@@ -281,15 +281,6 @@ segsize
 segcount
 )
 ;
-nsIMemory
-*
-segalloc
-=
-net_GetSegmentAlloc
-(
-segsize
-)
-;
 nsCOMPtr
 <
 nsIAsyncOutputStream
@@ -312,7 +303,6 @@ nonblocking
 true
 segsize
 segcount
-segalloc
 )
 ;
 if
@@ -909,15 +899,6 @@ segsize
 segcount
 )
 ;
-nsIMemory
-*
-segalloc
-=
-net_GetSegmentAlloc
-(
-segsize
-)
-;
 nsCOMPtr
 <
 nsIAsyncInputStream
@@ -940,7 +921,6 @@ true
 nonblocking
 segsize
 segcount
-segalloc
 )
 ;
 if

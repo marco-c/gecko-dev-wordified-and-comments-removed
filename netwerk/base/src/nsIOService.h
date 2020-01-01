@@ -525,11 +525,6 @@ mAutoDialEnabled
 public
 :
 static
-nsIMemory
-*
-gBufferCache
-;
-static
 PRUint32
 gDefaultSegmentSize
 ;
