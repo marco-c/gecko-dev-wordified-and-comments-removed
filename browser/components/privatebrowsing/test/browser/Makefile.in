@@ -659,11 +659,7 @@ _BROWSER_TEST_FILES
 +
 =
 \
-browser_privatebrowsing_beforeunload_enter
-.
-js
-\
-browser_privatebrowsing_beforeunload_exit
+browser_privatebrowsing_beforeunload
 .
 js
 \
