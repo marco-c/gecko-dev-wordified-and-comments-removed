@@ -936,9 +936,8 @@ why
 #
 ifdef
 OS_LINUX
-fprintf
+printf
 (
-stderr
 "
 TEST
 -

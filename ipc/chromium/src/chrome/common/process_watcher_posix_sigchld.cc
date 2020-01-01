@@ -441,9 +441,8 @@ if
 process_
 )
 {
-fprintf
+printf
 (
-stderr
 "
 TEST
 -
@@ -505,9 +504,8 @@ WaitForChildExit
 (
 )
 ;
-fprintf
+printf
 (
-stderr
 "
 TEST
 -
@@ -611,9 +609,8 @@ process
 )
 )
 {
-fprintf
+printf
 (
-stderr
 "
 TEST
 -
