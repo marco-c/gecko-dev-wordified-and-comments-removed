@@ -155,11 +155,12 @@ obj
 )
 ;
 extern
-JSBool
+bool
 js_InitContextBusyArrayTable
 (
 JSContext
 *
+cx
 )
 ;
 extern
