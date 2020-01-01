@@ -112,6 +112,10 @@ mk
 _TEST_FILES
 =
 \
+bug_765063
+.
+xul
+\
 include
 .
 html
