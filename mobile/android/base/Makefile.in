@@ -491,12 +491,6 @@ java
 \
 db
 /
-BrowserProvider
-.
-java
-\
-db
-/
 LocalBrowserDB
 .
 java
@@ -766,6 +760,12 @@ NotificationHandler
 java
 \
 Restarter
+.
+java
+\
+db
+/
+BrowserProvider
 .
 java
 \
@@ -3748,6 +3748,10 @@ txt
 %
 .
 in
+mkdir
+-
+p
+db
 (
 PYTHON
 )
