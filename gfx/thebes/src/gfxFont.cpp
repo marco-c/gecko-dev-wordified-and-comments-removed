@@ -8598,7 +8598,16 @@ g
 .
 SetCanBreakBefore
 (
-PR_FALSE
+mCharacterGlyphs
+[
+i
++
+aDest
+]
+.
+CanBreakBefore
+(
+)
 )
 ;
 mCharacterGlyphs
