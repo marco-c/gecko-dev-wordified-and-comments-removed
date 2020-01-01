@@ -100,9 +100,6 @@ nsMargin
 mReflowMargin
 ;
 nsMargin
-mExtraMargin
-;
-nsMargin
 mEdgePaperMargin
 ;
 nsCOMPtr
