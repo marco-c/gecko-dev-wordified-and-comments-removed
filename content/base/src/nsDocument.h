@@ -3907,6 +3907,11 @@ DoUnblockOnload
 )
 ;
 nsresult
+CheckFrameOptions
+(
+)
+;
+nsresult
 InitCSP
 (
 )
