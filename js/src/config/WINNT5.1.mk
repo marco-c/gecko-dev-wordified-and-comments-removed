@@ -786,6 +786,11 @@ lib
 oldnames
 .
 lib
+\
+winmm
+.
+lib
+\
 -
 nologo
 \
