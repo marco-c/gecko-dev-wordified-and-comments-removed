@@ -1211,7 +1211,7 @@ AddEventListener
 NS_LITERAL_STRING
 (
 "
-dragstart
+draggesture
 "
 )
 mDragListenerP
@@ -1526,7 +1526,7 @@ RemoveEventListener
 NS_LITERAL_STRING
 (
 "
-dragstart
+draggesture
 "
 )
 mDragListenerP
