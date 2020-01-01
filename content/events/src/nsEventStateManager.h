@@ -440,7 +440,7 @@ sActiveESM
 }
 static
 void
-SetGlobalActiveContent
+SetActiveManager
 (
 nsEventStateManager
 *
@@ -1082,6 +1082,9 @@ static
 void
 ClearGlobalActiveContent
 (
+nsEventStateManager
+*
+aClearer
 )
 ;
 PRBool
