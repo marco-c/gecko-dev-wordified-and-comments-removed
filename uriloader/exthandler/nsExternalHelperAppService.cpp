@@ -9059,6 +9059,11 @@ return
 NS_ERROR_NOT_AVAILABLE
 ;
 }
+ToLowerCase
+(
+typeToUse
+)
+;
 PRBool
 found
 ;
