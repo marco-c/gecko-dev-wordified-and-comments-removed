@@ -98,6 +98,12 @@ WorkerAPI
 .
 jsm
 \
+(
+NULL
+)
+EXTRA_PP_JS_MODULES
+=
+\
 MozSocialAPI
 .
 jsm
