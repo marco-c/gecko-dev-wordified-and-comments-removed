@@ -4918,11 +4918,17 @@ aTextureUnit
 *
 aSize
 =
+CalculatePOTSize
+(
 mTexImage
 -
 >
 GetSize
 (
+)
+gl
+(
+)
 )
 ;
 return
