@@ -13605,7 +13605,7 @@ if
 type
 =
 =
-GETTER
+Getter
 &
 &
 fun
@@ -13641,7 +13641,7 @@ if
 type
 =
 =
-SETTER
+Setter
 &
 &
 fun
@@ -14386,7 +14386,7 @@ return
 functionDef
 (
 name
-GENERAL
+Normal
 Statement
 )
 ;
@@ -14439,7 +14439,7 @@ return
 functionDef
 (
 name
-GENERAL
+Normal
 Expression
 )
 ;
@@ -37074,11 +37074,11 @@ NULL
 op
 =
 =
-JSOP_SETTER
+JSOP_GETTER
 ?
-SETTER
+Getter
 :
-GETTER
+Setter
 Expression
 )
 ;
