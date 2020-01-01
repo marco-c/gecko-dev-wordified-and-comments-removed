@@ -1084,6 +1084,11 @@ webNav
 document
 .
 title
+|
+|
+url
+.
+spec
 ;
 description
 =
