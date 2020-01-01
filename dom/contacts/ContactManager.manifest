@@ -290,6 +290,13 @@ JavaScript
 navigator
 -
 property
+-
+maybe
+dom
+.
+mozContacts
+.
+enabled
 mozContacts
 mozilla
 .
