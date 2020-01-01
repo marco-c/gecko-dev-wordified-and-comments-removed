@@ -3427,7 +3427,7 @@ false
 ;
 TypeObject
 *
-newAllocationSiteTypeObject
+addAllocationSiteTypeObject
 (
 JSContext
 *
