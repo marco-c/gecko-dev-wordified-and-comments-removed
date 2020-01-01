@@ -465,6 +465,10 @@ browser_HUDServiceTestsAll
 .
 js
 \
+browser_warn_user_about_replaced_api
+.
+js
+\
 browser_webconsole_bug_585237_line_limit
 .
 js
@@ -618,6 +622,16 @@ wrong
 hud
 -
 iframe
+.
+html
+\
+test
+-
+console
+-
+replaced
+-
+api
 .
 html
 \
