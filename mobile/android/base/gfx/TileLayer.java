@@ -319,6 +319,12 @@ mImage
 =
 =
 null
+|
+|
+mTextureIDs
+=
+=
+null
 )
 return
 ;
