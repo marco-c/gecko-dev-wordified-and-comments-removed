@@ -2902,14 +2902,6 @@ iter
 cx
 )
 ;
-SkipRoot
-skip
-(
-cx
-&
-iter
-)
-;
 RootedScript
 script
 (
