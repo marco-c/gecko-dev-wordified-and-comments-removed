@@ -3201,8 +3201,6 @@ type
 template
 <
 typename
-S
-typename
 T
 >
 void
@@ -3210,9 +3208,7 @@ storeToTypedFloatArray
 (
 int
 arrayType
-const
-S
-&
+FloatRegister
 value
 const
 T
@@ -3220,6 +3216,16 @@ T
 dest
 )
 {
+#
+ifdef
+JS_MORE_DETERMINISTIC
+canonicalizeDouble
+(
+value
+)
+;
+#
+endif
 switch
 (
 arrayType
