@@ -447,7 +447,7 @@ SetBorderWidth
 side
 aBorder
 .
-side
+Side
 (
 side
 )

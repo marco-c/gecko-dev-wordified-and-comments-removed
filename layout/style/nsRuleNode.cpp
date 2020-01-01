@@ -26667,7 +26667,7 @@ GetComputedBorder
 (
 )
 .
-side
+Side
 (
 side
 )
@@ -28146,7 +28146,7 @@ parentBorder
 >
 mBorderImageWidth
 .
-side
+Side
 (
 side
 )

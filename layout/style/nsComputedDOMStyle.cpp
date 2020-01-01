@@ -11221,7 +11221,7 @@ GetStyleBorder
 >
 mBorderImageWidth
 .
-side
+Side
 (
 side
 )
@@ -13645,7 +13645,7 @@ GetUsedPadding
 (
 )
 .
-side
+Side
 (
 aSide
 )
@@ -13971,7 +13971,7 @@ GetUsedBorder
 (
 )
 .
-side
+Side
 (
 aSide
 )
@@ -14139,7 +14139,7 @@ GetUsedMargin
 (
 )
 .
-side
+Side
 (
 aSide
 )

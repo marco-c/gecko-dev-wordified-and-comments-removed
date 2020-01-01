@@ -2886,7 +2886,7 @@ mTwipsPerPixel
 ;
 mBorder
 .
-side
+Side
 (
 aSide
 )
@@ -2902,7 +2902,7 @@ aSide
 )
 mComputedBorder
 .
-side
+Side
 (
 aSide
 )
@@ -2927,7 +2927,7 @@ aBorderWidth
 {
 mBorderImageWidth
 .
-side
+Side
 (
 aSide
 )
@@ -2978,7 +2978,7 @@ GetActualBorder
 (
 )
 .
-side
+Side
 (
 aSide
 )
@@ -3071,7 +3071,7 @@ BORDER_STYLE_MASK
 ;
 mComputedBorder
 .
-side
+Side
 (
 aSide
 )
@@ -3084,7 +3084,7 @@ aSide
 ?
 mBorder
 .
-side
+Side
 (
 aSide
 )

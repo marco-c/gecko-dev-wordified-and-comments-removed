@@ -32,7 +32,7 @@ css
 :
 :
 Side
-Side
+SideT
 ;
 T
 top
@@ -148,9 +148,9 @@ bottom
 }
 T
 &
-side
-(
 Side
+(
+SideT
 aSide
 )
 {
@@ -179,9 +179,9 @@ aSide
 ;
 }
 T
-side
-(
 Side
+(
+SideT
 aSide
 )
 const

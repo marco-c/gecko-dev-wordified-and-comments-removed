@@ -1252,7 +1252,7 @@ side
 {
 mCachedMargin
 .
-side
+Side
 (
 side
 )
@@ -1512,7 +1512,7 @@ side
 {
 mCachedPadding
 .
-side
+Side
 (
 side
 )
@@ -1663,7 +1663,7 @@ side
 {
 mBorder
 .
-side
+Side
 (
 side
 )
