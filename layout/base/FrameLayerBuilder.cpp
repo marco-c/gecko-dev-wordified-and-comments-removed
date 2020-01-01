@@ -15987,11 +15987,6 @@ if
 presContext
 -
 >
-RefreshDriver
-(
-)
--
->
 GetPaintFlashing
 (
 )

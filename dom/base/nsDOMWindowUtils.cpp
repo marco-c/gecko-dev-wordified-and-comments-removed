@@ -15565,11 +15565,6 @@ presContext
 presContext
 -
 >
-RefreshDriver
-(
-)
--
->
 SetPaintFlashing
 (
 aPaintFlashing
@@ -15655,11 +15650,6 @@ presContext
 aRetVal
 =
 presContext
--
->
-RefreshDriver
-(
-)
 -
 >
 GetPaintFlashing
