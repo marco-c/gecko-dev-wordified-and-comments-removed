@@ -53,6 +53,13 @@ Mutex
 h
 "
 namespace
+mozilla
+{
+namespace
+ipc
+{
+struct
+HasResultCodes
 {
 enum
 Result
@@ -66,12 +73,7 @@ MsgValueError
 }
 ;
 }
-namespace
-mozilla
-{
-namespace
-ipc
-{
+;
 class
 AsyncChannel
 :
@@ -83,6 +85,8 @@ Channel
 :
 :
 Listener
+protected
+HasResultCodes
 {
 protected
 :
@@ -127,6 +131,9 @@ Message
 ;
 class
 AsyncListener
+:
+protected
+HasResultCodes
 {
 public
 :
@@ -151,6 +158,8 @@ aMessage
 ;
 }
 ;
+public
+:
 AsyncChannel
 (
 AsyncListener
