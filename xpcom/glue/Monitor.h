@@ -54,6 +54,11 @@ mEntryCount
 #
 endif
 {
+MOZ_COUNT_CTOR
+(
+Monitor
+)
+;
 mMonitor
 =
 PR_NewMonitor
@@ -106,6 +111,11 @@ mMonitor
 mMonitor
 =
 0
+;
+MOZ_COUNT_DTOR
+(
+Monitor
+)
 ;
 }
 #

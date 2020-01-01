@@ -24,13 +24,6 @@ h
 #
 include
 "
-nsAutoLock
-.
-h
-"
-#
-include
-"
 nsIURL
 .
 h
