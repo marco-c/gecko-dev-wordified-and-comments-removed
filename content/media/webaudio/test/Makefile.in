@@ -291,6 +291,10 @@ test_scriptProcessorNodeChannelCount
 .
 html
 \
+test_scriptProcessorNodeZeroInputOutput
+.
+html
+\
 test_singleSourceDest
 .
 html
