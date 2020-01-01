@@ -62,7 +62,7 @@ include
 "
 frontend
 /
-TreeContext
+ParseContext
 -
 inl
 .
@@ -495,8 +495,8 @@ NULL
 NULL
 )
 ;
-TreeContext
-tc
+ParseContext
+pc
 (
 &
 parser
@@ -509,7 +509,7 @@ staticLevel
 if
 (
 !
-tc
+pc
 .
 init
 (
@@ -943,7 +943,7 @@ callerFrame
 return
 NULL
 ;
-tc
+pc
 .
 functionList
 =
@@ -1084,7 +1084,7 @@ for
 AtomDefnRange
 r
 =
-tc
+pc
 .
 lexdeps
 -
@@ -1313,8 +1313,8 @@ staticLevel
 =
 0
 ;
-TreeContext
-funtc
+ParseContext
+funpc
 (
 &
 parser
@@ -1327,7 +1327,7 @@ staticLevel
 if
 (
 !
-funtc
+funpc
 .
 init
 (

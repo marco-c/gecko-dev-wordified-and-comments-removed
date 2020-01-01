@@ -12,7 +12,7 @@ include
 "
 frontend
 /
-TreeContext
+ParseContext
 .
 h
 "
@@ -28,7 +28,7 @@ include
 "
 frontend
 /
-TreeContext
+ParseContext
 -
 inl
 .
@@ -68,7 +68,7 @@ js
 frontend
 ;
 void
-TreeContext
+ParseContext
 :
 :
 trace
@@ -95,9 +95,9 @@ frontend
 :
 GenerateBlockId
 (
-TreeContext
+ParseContext
 *
-tc
+pc
 uint32_t
 &
 blockid
@@ -105,7 +105,7 @@ blockid
 {
 if
 (
-tc
+pc
 -
 >
 blockidGen
@@ -119,7 +119,7 @@ JS_BIT
 {
 JS_ReportErrorNumber
 (
-tc
+pc
 -
 >
 sc
@@ -140,7 +140,7 @@ false
 }
 blockid
 =
-tc
+pc
 -
 >
 blockidGen
