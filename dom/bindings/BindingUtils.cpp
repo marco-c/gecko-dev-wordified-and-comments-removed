@@ -3440,6 +3440,8 @@ JSObject
 obj
 size_t
 protoAndIfaceArrayIndex
+unsigned
+attrs
 JSPropertyDescriptor
 *
 desc
@@ -3513,9 +3515,7 @@ desc
 >
 attrs
 =
-JSPROP_PERMANENT
-|
-JSPROP_READONLY
+attrs
 ;
 desc
 -
@@ -3621,6 +3621,9 @@ nativePropertyHooks
 -
 >
 mPrototypeID
+JSPROP_PERMANENT
+|
+JSPROP_READONLY
 desc
 )
 ;
@@ -3667,6 +3670,7 @@ nativePropertyHooks
 -
 >
 mConstructorID
+0
 desc
 )
 ;
