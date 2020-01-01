@@ -14,7 +14,7 @@ h
 #
 include
 "
-imgIDecoderObserver
+imgINotificationObserver
 .
 h
 "
@@ -183,7 +183,7 @@ aLoadGroup
 nsIURI
 *
 aURI
-imgIDecoderObserver
+imgINotificationObserver
 *
 aObserver
 )
@@ -535,7 +535,7 @@ nsIURI
 >
 mURI
 ;
-imgIDecoderObserver
+imgINotificationObserver
 *
 mListener
 ;

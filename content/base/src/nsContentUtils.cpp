@@ -301,7 +301,7 @@ h
 #
 include
 "
-imgIDecoderObserver
+imgINotificationObserver
 .
 h
 "
@@ -12348,7 +12348,7 @@ aLoadingPrincipal
 nsIURI
 *
 aReferrer
-imgIDecoderObserver
+imgINotificationObserver
 *
 aObserver
 int32_t
