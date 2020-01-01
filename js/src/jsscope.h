@@ -4855,15 +4855,6 @@ NULL
 }
 #
 endif
-void
-MarkNonNativePropertyFound
-(
-HandleObject
-obj
-MutableHandleShape
-propp
-)
-;
 }
 #
 ifdef
