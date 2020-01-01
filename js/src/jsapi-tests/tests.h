@@ -1030,6 +1030,9 @@ n
 "
 filename
 lineno
+(
+int
+)
 msg
 .
 length
