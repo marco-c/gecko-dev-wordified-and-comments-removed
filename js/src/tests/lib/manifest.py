@@ -802,6 +802,10 @@ debugMode
 =
 False
     
+allowXml
+=
+False
+    
 pos
 =
 0
@@ -1331,6 +1335,37 @@ pos
 =
 1
         
+elif
+parts
+[
+pos
+]
+=
+=
+'
+pref
+(
+javascript
+.
+options
+.
+xml
+.
+content
+true
+)
+'
+:
+            
+allowXml
+=
+True
+            
+pos
++
+=
+1
+        
 else
 :
             
@@ -1366,6 +1401,7 @@ expect
 random
 slow
 debugMode
+allowXml
 )
 def
 _map_prefixes_left
@@ -2170,6 +2206,15 @@ properties
 [
 4
 ]
+    
+testcase
+.
+allowXml
+=
+properties
+[
+5
+]
 def
 load
 (
@@ -2379,6 +2424,10 @@ slow
 False
                             
 debugMode
+=
+False
+                            
+allowXml
 =
 False
 )

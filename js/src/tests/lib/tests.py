@@ -512,7 +512,34 @@ path
 cmd
 =
 js_cmd_prefix
+        
+if
+self
+.
+allowXml
+:
+            
+cmd
 +
+=
+[
+'
+-
+e
+'
+'
+options
+(
+"
+allow_xml
+"
+)
+'
+]
+        
+cmd
++
+=
 Test
 .
 prefix_command
@@ -642,6 +669,7 @@ expect
 random
 slow
 debugMode
+allowXml
 )
 :
         
@@ -682,6 +710,12 @@ self
 debugMode
 =
 debugMode
+        
+self
+.
+allowXml
+=
+allowXml
         
 self
 .
