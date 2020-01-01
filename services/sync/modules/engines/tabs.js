@@ -1081,6 +1081,10 @@ browser
 contentWindow
 .
 location
+.
+toString
+(
+)
 ;
 let
 urlHistory
