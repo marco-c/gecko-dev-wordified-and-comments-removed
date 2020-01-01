@@ -133,6 +133,10 @@ test_getNotInstalled
 .
 xul
 \
+test_launch_paths
+.
+xul
+\
 (
 NULL
 )
