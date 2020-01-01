@@ -49,6 +49,9 @@ algorithm
 class
 nsIScrollableFrame
 ;
+class
+gfxTextRun
+;
 namespace
 mozilla
 {
@@ -562,9 +565,6 @@ mWidth
 ;
 nscoord
 mIntrinsicWidth
-;
-nsString
-mMarkerString
 ;
 const
 nsStyleTextOverflowSide
