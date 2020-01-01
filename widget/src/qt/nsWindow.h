@@ -743,6 +743,9 @@ mEnabled
 PRBool
 mPlaced
 ;
+nsSizeMode
+mLastSizeMode
+;
 void
 Initialize
 (
