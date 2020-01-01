@@ -2333,14 +2333,6 @@ CONFIGURES
 TOPSRCDIR
 )
 /
-allmakefiles
-.
-sh
-\
-(
-TOPSRCDIR
-)
-/
 CLOBBER
 \
 (

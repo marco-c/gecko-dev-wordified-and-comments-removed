@@ -218,14 +218,9 @@ directory
 exit
 1
 fi
-.
-allmakefiles
-.
-sh
 rm
 -
 fr
-MAKEFILES
 \
 config
 -
