@@ -2209,7 +2209,7 @@ onLoadPermission
 ;
 onLoadRegistry
 .
-map
+forEach
 (
 function
 (
@@ -2343,7 +2343,7 @@ firstChild
 ;
 onResetRegistry
 .
-map
+forEach
 (
 function
 (
@@ -2426,7 +2426,7 @@ changed
 }
 onUnloadRegistry
 .
-map
+forEach
 (
 function
 (
@@ -3267,7 +3267,7 @@ gFrameList
 ;
 onProcessFrame
 .
-map
+forEach
 (
 function
 (
@@ -3314,7 +3314,7 @@ iterator
 else
 onFinished
 .
-map
+forEach
 (
 function
 (
@@ -4001,7 +4001,7 @@ false
 ;
 onProcessElement
 .
-map
+forEach
 (
 function
 (
