@@ -581,6 +581,12 @@ AsyncPanZoomController
 >
 mRootApzc
 ;
+nsRefPtr
+<
+AsyncPanZoomController
+>
+mApzcForInputBlock
+;
 }
 ;
 }
