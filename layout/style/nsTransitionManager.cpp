@@ -1523,6 +1523,7 @@ GetRule
 }
 while
 (
+(
 ruleNode
 =
 ruleNode
@@ -1530,6 +1531,7 @@ ruleNode
 >
 GetParent
 (
+)
 )
 )
 ;
@@ -1771,17 +1773,6 @@ if
 newStyle
 )
 {
-nsIContent
-*
-child
-=
-aContent
--
->
-GetFirstChild
-(
-)
-;
 for
 (
 nsIContent
@@ -1965,6 +1956,7 @@ element
 }
 while
 (
+(
 element
 =
 element
@@ -1972,6 +1964,7 @@ element
 >
 GetElementParent
 (
+)
 )
 )
 ;
