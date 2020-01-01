@@ -1649,6 +1649,10 @@ SDK_PATH
 (
 MOZ_APP_NAME
 )
+-
+(
+MOZ_PKG_VERSION
+)
 .
 (
 AB_CD
