@@ -20,13 +20,6 @@ nsGenericHTMLElement
 .
 h
 "
-#
-include
-"
-nsIDOMHTMLTableRowElement
-.
-h
-"
 class
 nsIDOMHTMLTableElement
 ;
@@ -49,7 +42,7 @@ MOZ_FINAL
 public
 nsGenericHTMLElement
 public
-nsIDOMHTMLTableRowElement
+nsIDOMHTMLElement
 {
 public
 :
@@ -77,7 +70,6 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_FORWARD_NSIDOMNODE_TO_NSINODE
 NS_FORWARD_NSIDOMELEMENT_TO_GENERIC
 NS_FORWARD_NSIDOMHTMLELEMENT_TO_GENERIC
-NS_DECL_NSIDOMHTMLTABLEROWELEMENT
 int32_t
 RowIndex
 (
