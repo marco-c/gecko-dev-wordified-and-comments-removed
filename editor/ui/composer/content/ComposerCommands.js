@@ -8042,6 +8042,10 @@ aMimeType
 editor
 )
 throw
+Components
+.
+results
+.
 NS_ERROR_NOT_INITIALIZED
 ;
 var
@@ -8057,6 +8061,10 @@ if
 editorDoc
 )
 throw
+Components
+.
+results
+.
 NS_ERROR_NOT_INITIALIZED
 ;
 var
@@ -8100,6 +8108,10 @@ textmail
 "
 )
 throw
+Components
+.
+results
+.
 NS_ERROR_NOT_IMPLEMENTED
 ;
 var
@@ -8126,6 +8138,10 @@ html
 saveAsTextFile
 )
 throw
+Components
+.
+results
+.
 NS_ERROR_NOT_IMPLEMENTED
 ;
 if
