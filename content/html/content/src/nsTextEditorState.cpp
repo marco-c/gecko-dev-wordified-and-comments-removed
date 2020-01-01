@@ -1953,11 +1953,8 @@ child
 parentDIV
 -
 >
-GetChildAt
+GetLastChild
 (
-offset
--
-1
 )
 ;
 if
@@ -6627,9 +6624,8 @@ textContent
 mRootNode
 -
 >
-GetChildAt
+GetFirstChild
 (
-0
 )
 ;
 nsCOMPtr
@@ -7579,9 +7575,8 @@ NS_ASSERTION
 mPlaceholderDiv
 -
 >
-GetChildAt
+GetFirstChild
 (
-0
 )
 "
 placeholder
@@ -7595,9 +7590,8 @@ child
 mPlaceholderDiv
 -
 >
-GetChildAt
+GetFirstChild
 (
-0
 )
 -
 >

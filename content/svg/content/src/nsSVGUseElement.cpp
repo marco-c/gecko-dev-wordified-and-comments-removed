@@ -1444,9 +1444,8 @@ child
 newcontent
 -
 >
-GetChildAt
+GetFirstChild
 (
-0
 )
 ;
 newcontent
