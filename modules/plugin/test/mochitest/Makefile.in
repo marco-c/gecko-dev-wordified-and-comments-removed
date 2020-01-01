@@ -526,6 +526,10 @@ test_instantiation
 .
 html
 \
+test_cookies
+.
+html
+\
 (
 NULL
 )
