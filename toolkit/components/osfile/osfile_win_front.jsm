@@ -395,10 +395,10 @@ File
 .
 prototype
 .
-read
+_read
 =
 function
-read
+_read
 (
 buffer
 nbytes
@@ -435,10 +435,10 @@ File
 .
 prototype
 .
-write
+_write
 =
 function
-write
+_write
 (
 buffer
 nbytes
