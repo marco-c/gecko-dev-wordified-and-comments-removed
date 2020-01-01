@@ -2878,7 +2878,7 @@ slot
 lastProp
 -
 >
-slot
+maybeSlot
 (
 )
 +
