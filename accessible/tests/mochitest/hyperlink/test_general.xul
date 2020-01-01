@@ -256,6 +256,17 @@ javascript
 [
 CDATA
 [
+if
+(
+MAC
+)
+SimpleTest
+.
+expectAssertions
+(
+1
+)
+;
 function
 testThis
 (
