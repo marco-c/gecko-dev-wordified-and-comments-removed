@@ -11,6 +11,10 @@ jsprvtd
 .
 h
 "
+typedef
+uint8_t
+jssrcnote
+;
 namespace
 js
 {

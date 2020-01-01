@@ -282,6 +282,11 @@ jsapi
 h
 '
 '
+jsbytecode
+.
+h
+'
+'
 jsclass
 .
 h
