@@ -1,3 +1,15 @@
+.
+"
+topsrcdir
+/
+browser
+/
+config
+/
+mozconfigs
+/
+common
+"
 #
 for
 pgo

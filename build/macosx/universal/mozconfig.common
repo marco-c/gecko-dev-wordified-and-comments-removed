@@ -133,6 +133,8 @@ build
 /
 macosx
 /
+mozconfig
+.
 common
 #
 MOZ_BUILD_APP

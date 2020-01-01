@@ -5,6 +5,8 @@ build
 /
 macosx
 /
+mozconfig
+.
 common
 #
 Mac
@@ -12,7 +14,7 @@ builds
 don
 '
 t
-nomally
+normally
 have
 to
 be

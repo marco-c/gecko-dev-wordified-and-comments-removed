@@ -1,3 +1,17 @@
+.
+"
+topsrcdir
+/
+mobile
+/
+android
+/
+config
+/
+mozconfigs
+/
+common
+"
 #
 Global
 options

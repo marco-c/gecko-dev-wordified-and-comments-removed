@@ -5,6 +5,8 @@ build
 /
 macosx
 /
+mozconfig
+.
 common
 ac_add_options
 -
