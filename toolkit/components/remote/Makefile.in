@@ -443,6 +443,12 @@ XPIDLSRCS
 nsIRemoteService
 .
 idl
+CPPSRCS
++
+=
+nsXRemoteService
+.
+cpp
 ifneq
 (
 (
