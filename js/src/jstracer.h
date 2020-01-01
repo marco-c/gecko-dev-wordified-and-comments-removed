@@ -2144,9 +2144,6 @@ globalSlots
 }
 ;
 struct
-PICTable
-;
-struct
 TreeFragment
 :
 public
@@ -2232,10 +2229,6 @@ gcthings
 alloc
 )
 shapes
-(
-alloc
-)
-picTables
 (
 alloc
 )
@@ -2334,13 +2327,6 @@ Shape
 *
 >
 shapes
-;
-Queue
-<
-PICTable
-*
->
-picTables
 ;
 unsigned
 maxNativeStackSlots
