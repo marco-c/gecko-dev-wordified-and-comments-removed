@@ -1137,11 +1137,6 @@ GetInFlowContentLength
 (
 )
 ;
-void
-ClearTextRun
-(
-)
-;
 gfxSkipCharsIterator
 EnsureTextRun
 (
@@ -1194,6 +1189,14 @@ mTextRun
 aTextRun
 ;
 }
+void
+ClearTextRun
+(
+nsTextFrame
+*
+aStartContinuation
+)
+;
 struct
 TrimmedOffsets
 {
