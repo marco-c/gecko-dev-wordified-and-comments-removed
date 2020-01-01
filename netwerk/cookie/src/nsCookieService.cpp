@@ -3212,7 +3212,7 @@ mDBState
 =
 =
 &
-mPrivateDBState
+mDefaultDBState
 "
 already
 in
@@ -3259,10 +3259,12 @@ empty
 ;
 NS_ASSERTION
 (
-!
 mPrivateDBState
 .
 dbConn
+=
+=
+NULL
 "
 private
 DB
