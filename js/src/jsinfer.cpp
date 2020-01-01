@@ -279,7 +279,7 @@ cx
 )
 {
 return
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -304,7 +304,7 @@ cx
 )
 {
 return
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -329,7 +329,7 @@ cx
 )
 {
 return
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -354,7 +354,7 @@ cx
 )
 {
 return
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -379,7 +379,7 @@ cx
 )
 {
 return
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -404,7 +404,7 @@ cx
 )
 {
 return
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -429,7 +429,7 @@ cx
 )
 {
 return
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -454,7 +454,7 @@ cx
 )
 {
 return
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -9444,14 +9444,14 @@ unsigned
 offset
 )
 {
-JSAtom
+PropertyName
 *
-atom
+name
 =
 script
 -
 >
-getAtom
+getName
 (
 GET_UINT32_INDEX
 (
@@ -9465,9 +9465,9 @@ return
 MakeTypeId
 (
 cx
-ATOM_TO_JSID
+NameToId
 (
-atom
+name
 )
 )
 ;
@@ -14778,7 +14778,7 @@ return
 }
 id
 =
-ATOM_TO_JSID
+AtomToId
 (
 atom
 )
@@ -17676,7 +17676,7 @@ if
 id
 =
 =
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -17711,7 +17711,7 @@ if
 id
 =
 =
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -17743,7 +17743,7 @@ if
 id
 =
 =
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -22068,12 +22068,12 @@ which
 jsid
 id
 =
-ATOM_TO_JSID
+NameToId
 (
 script
 -
 >
-getAtom
+getName
 (
 GET_UINT32_INDEX
 (

@@ -5043,6 +5043,9 @@ PRUint8
 mWhiteSpace
 ;
 PRUint8
+mWordBreak
+;
+PRUint8
 mWordWrap
 ;
 PRUint8

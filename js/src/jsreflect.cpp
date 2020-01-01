@@ -672,7 +672,7 @@ RootedVarId
 id
 (
 cx
-ATOM_TO_JSID
+AtomToId
 (
 atom
 )
@@ -16047,7 +16047,7 @@ RootedVarId
 locId
 (
 cx
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -16096,7 +16096,7 @@ RootedVarId
 sourceId
 (
 cx
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -16216,7 +16216,7 @@ RootedVarId
 lineId
 (
 cx
-ATOM_TO_JSID
+NameToId
 (
 cx
 -
@@ -16266,7 +16266,7 @@ RootedVarId
 builderId
 (
 cx
-ATOM_TO_JSID
+NameToId
 (
 cx
 -

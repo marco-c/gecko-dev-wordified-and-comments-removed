@@ -595,9 +595,7 @@ TEST_DIRS
 \
 tests
 \
-imported
--
-tests
+imptests
 \
 (
 NULL

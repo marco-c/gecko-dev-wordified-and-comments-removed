@@ -1060,15 +1060,10 @@ Cleanup
 (
 )
 {
-while
+MOZ_ASSERT
 (
+!
 mAutoRoots
-)
-mAutoRoots
--
->
-Unlink
-(
 )
 ;
 NS_IF_RELEASE
@@ -1335,7 +1330,7 @@ mAutoRoots
 mAutoRoots
 -
 >
-TraceJS
+TraceJSAll
 (
 trc
 )
@@ -1356,7 +1351,7 @@ mAutoRoots
 mAutoRoots
 -
 >
-MarkAfterJSFinalize
+MarkAfterJSFinalizeAll
 (
 )
 ;

@@ -400,12 +400,9 @@ nativeLookup
 f
 .
 cx
-js_CheckForStringIndex
-(
-ATOM_TO_JSID
+NameToId
 (
 name
-)
 )
 )
 ;
@@ -1059,7 +1056,7 @@ nativeLookup
 f
 .
 cx
-ATOM_TO_JSID
+NameToId
 (
 name
 )

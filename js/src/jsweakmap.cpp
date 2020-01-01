@@ -1840,7 +1840,7 @@ createConstructor
 (
 cx
 WeakMap_construct
-CLASS_ATOM
+CLASS_NAME
 (
 cx
 WeakMap

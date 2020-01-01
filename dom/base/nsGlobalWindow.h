@@ -801,15 +801,6 @@ GetScriptContext
 )
 ;
 virtual
-nsresult
-SetScriptContext
-(
-nsIScriptContext
-*
-aContext
-)
-;
-virtual
 void
 OnFinalize
 (

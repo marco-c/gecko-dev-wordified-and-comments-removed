@@ -301,7 +301,7 @@ value
 jsid
 id
 =
-ATOM_TO_JSID
+AtomToId
 (
 name
 )
@@ -1309,7 +1309,7 @@ value
 jsid
 id
 =
-ATOM_TO_JSID
+AtomToId
 (
 atom
 )

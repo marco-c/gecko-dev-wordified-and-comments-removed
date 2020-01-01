@@ -3982,7 +3982,7 @@ nsIFrame
 *
 firstFrame
 =
-GetBoundsFrame
+GetFrame
 (
 )
 ;
@@ -4455,21 +4455,6 @@ y
 ;
 return
 NS_OK
-;
-}
-nsIFrame
-*
-nsAccessible
-:
-:
-GetBoundsFrame
-(
-)
-{
-return
-GetFrame
-(
-)
 ;
 }
 NS_IMETHODIMP
@@ -9366,6 +9351,7 @@ GetDefaultSubmitElement
 return
 Relation
 (
+mDoc
 formContent
 )
 ;
@@ -9615,6 +9601,7 @@ buttonEl
 return
 Relation
 (
+mDoc
 relatedContent
 )
 ;
@@ -9635,6 +9622,7 @@ RELATION_MEMBER_OF
 return
 Relation
 (
+mDoc
 GetAtomicRegion
 (
 )

@@ -13027,7 +13027,7 @@ run
 {
 throw
 new
-RuntimeException
+AssertionError
 (
 )
 ;
@@ -13046,7 +13046,7 @@ loop
 }
 catch
 (
-Exception
+Throwable
 ex
 )
 {

@@ -299,6 +299,17 @@ nsDOMDataTransfer
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+Element
+.
+h
+"
 class
 NS_STACK_CLASS
 DragDataProducer

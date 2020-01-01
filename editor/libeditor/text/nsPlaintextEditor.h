@@ -294,7 +294,7 @@ aFlags
 NS_IMETHOD
 StartOperation
 (
-PRInt32
+OperationID
 opID
 nsIEditor
 :

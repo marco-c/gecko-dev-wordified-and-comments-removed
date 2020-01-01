@@ -1047,6 +1047,11 @@ checked
 )
 ;
 }
+void
+FireChangeEventIfNeeded
+(
+)
+;
 protected
 :
 using
@@ -1515,6 +1520,9 @@ mFileList
 ;
 nsString
 mStaticDocFileList
+;
+nsString
+mFocusedValue
 ;
 PRUint8
 mType

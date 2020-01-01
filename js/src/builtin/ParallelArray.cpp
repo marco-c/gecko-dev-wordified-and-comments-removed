@@ -2771,7 +2771,7 @@ cx
 argc
 vp
 ParallelArray_toString
-ATOM_TO_JSID
+AtomToId
 (
 cx
 -
@@ -2807,7 +2807,7 @@ cx
 argc
 vp
 ParallelArray_toLocaleString
-ATOM_TO_JSID
+AtomToId
 (
 cx
 -
@@ -2843,7 +2843,7 @@ cx
 argc
 vp
 ParallelArray_toSource
-ATOM_TO_JSID
+AtomToId
 (
 cx
 -
@@ -3128,7 +3128,7 @@ ParallelArray_lookupGeneric
 (
 cx
 obj
-ATOM_TO_JSID
+AtomToId
 (
 name
 )
@@ -3413,7 +3413,7 @@ ParallelArray_getGeneric
 cx
 obj
 receiver
-ATOM_TO_JSID
+AtomToId
 (
 name
 )
@@ -3612,7 +3612,7 @@ ParallelArray_defineGeneric
 (
 cx
 obj
-ATOM_TO_JSID
+AtomToId
 (
 name
 )
@@ -3755,7 +3755,7 @@ ParallelArray_setGeneric
 (
 cx
 obj
-ATOM_TO_JSID
+AtomToId
 (
 name
 )
@@ -3909,7 +3909,7 @@ ParallelArray_getGenericAttributes
 (
 cx
 obj
-ATOM_TO_JSID
+AtomToId
 (
 name
 )
@@ -4029,7 +4029,7 @@ ParallelArray_setGenericAttributes
 (
 cx
 obj
-ATOM_TO_JSID
+AtomToId
 (
 name
 )
@@ -4152,7 +4152,7 @@ ParallelArray_deleteGeneric
 (
 cx
 obj
-ATOM_TO_JSID
+AtomToId
 (
 name
 )
@@ -4328,7 +4328,7 @@ isTrue
 *
 idp
 =
-ATOM_TO_JSID
+AtomToId
 (
 cx
 -
@@ -4685,7 +4685,7 @@ const
 jsid
 lengthId
 =
-ATOM_TO_JSID
+AtomToId
 (
 cx
 -
@@ -4726,7 +4726,7 @@ createConstructor
 (
 cx
 ParallelArray_construct
-CLASS_ATOM
+CLASS_NAME
 (
 cx
 ParallelArray

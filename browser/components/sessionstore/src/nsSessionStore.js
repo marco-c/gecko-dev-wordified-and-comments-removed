@@ -13595,14 +13595,6 @@ scratchpads
 )
 ;
 }
-aWindow
-.
-TabView
-.
-init
-(
-)
-;
 tabstrip
 .
 smoothScroll

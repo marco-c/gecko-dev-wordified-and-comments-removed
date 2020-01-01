@@ -12469,7 +12469,7 @@ NULL
 jsid
 protoid
 =
-ATOM_TO_JSID
+AtomToId
 (
 cx
 -
@@ -14519,7 +14519,7 @@ LookupPropertyWithFlags
 (
 cx
 baseObj
-ATOM_TO_JSID
+AtomToId
 (
 atom
 )
@@ -16912,7 +16912,7 @@ positiveInfinityValue
 jsid
 id
 =
-ATOM_TO_JSID
+AtomToId
 (
 atom
 )
@@ -17359,7 +17359,7 @@ atom
 jsid
 id
 =
-ATOM_TO_JSID
+AtomToId
 (
 atom
 )
@@ -20142,7 +20142,7 @@ NULL
 jsid
 id
 =
-ATOM_TO_JSID
+AtomToId
 (
 atom
 )
@@ -20404,7 +20404,7 @@ script
 global
 (
 )
-ATOM_TO_JSID
+AtomToId
 (
 atom
 )
@@ -20879,7 +20879,7 @@ strictModeCode
 jsid
 id
 =
-ATOM_TO_JSID
+AtomToId
 (
 atom
 )

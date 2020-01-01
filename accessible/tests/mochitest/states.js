@@ -41,6 +41,13 @@ nsIAccessibleStates
 STATE_EXTSELECTABLE
 ;
 const
+STATE_FLOATING
+=
+nsIAccessibleStates
+.
+STATE_FLOATING
+;
+const
 STATE_FOCUSABLE
 =
 nsIAccessibleStates

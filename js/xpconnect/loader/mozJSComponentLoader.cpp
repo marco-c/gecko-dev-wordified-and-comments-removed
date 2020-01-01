@@ -2832,15 +2832,6 @@ cx
 )
 )
 ;
-js
-:
-:
-AutoPreserveCompartment
-pc
-(
-cx
-)
-;
 nsCOMPtr
 <
 nsIXPCScriptable

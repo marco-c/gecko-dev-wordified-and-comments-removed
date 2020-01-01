@@ -1124,10 +1124,6 @@ StorageEvent
 )
 DOMCI_CLASS
 (
-StorageEventObsolete
-)
-DOMCI_CLASS
-(
 DOMParser
 )
 DOMCI_CLASS

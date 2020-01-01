@@ -885,7 +885,7 @@ true
 methodjit_always
 :
 true
-ion
+strict_mode
 :
 true
 }

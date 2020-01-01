@@ -827,7 +827,6 @@ discardable_source_bytes
 )
 )
 ;
-}
 DiscardTracker
 :
 :
@@ -837,6 +836,7 @@ Remove
 mDiscardTrackerNode
 )
 ;
+}
 if
 (
 mDecoder
