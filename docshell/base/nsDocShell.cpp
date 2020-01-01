@@ -40501,7 +40501,7 @@ nsINetUtil
 >
 util
 =
-do_GetIOService
+do_GetNetUtil
 (
 )
 ;
