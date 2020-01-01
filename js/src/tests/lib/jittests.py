@@ -2101,6 +2101,11 @@ test
 expect_error
 in
 err
+and
+rc
+=
+=
+3
     
 for
 line

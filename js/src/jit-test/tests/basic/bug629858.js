@@ -5,6 +5,13 @@ strict
 "
 )
 ;
+options
+(
+"
+warn
+"
+)
+;
 eval
 (
 "
