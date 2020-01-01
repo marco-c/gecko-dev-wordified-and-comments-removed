@@ -527,6 +527,11 @@ vbox
 <
 xul
 :
+stack
+>
+<
+xul
+:
 button
 class
 =
@@ -634,6 +639,12 @@ downloadsCmd_show
 ;
 "
 /
+>
+<
+/
+xul
+:
+stack
 >
 <
 /
