@@ -737,10 +737,6 @@ nsSVGViewBox
 .
 cpp
 \
-SVGViewBoxSMILType
-.
-cpp
-\
 (
 NULL
 )
@@ -774,6 +770,10 @@ nsSVGTransformSMILAttr
 cpp
 \
 SVGOrientSMILType
+.
+cpp
+\
+SVGViewBoxSMILType
 .
 cpp
 \
