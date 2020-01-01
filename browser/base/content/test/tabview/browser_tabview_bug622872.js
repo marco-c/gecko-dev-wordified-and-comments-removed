@@ -253,7 +253,7 @@ contentWindow
 .
 UI
 .
-setActiveTab
+setActive
 (
 newTabItem
 )

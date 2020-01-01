@@ -117,9 +117,9 @@ cw
 ;
 cw
 .
-GroupItems
+UI
 .
-setActiveGroupItem
+setActive
 (
 groupItem
 )

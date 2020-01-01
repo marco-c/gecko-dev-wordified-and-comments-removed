@@ -161,9 +161,9 @@ expander
 ;
 contentWindow
 .
-GroupItems
+UI
 .
-setActiveGroupItem
+setActive
 (
 group
 )
@@ -1501,7 +1501,7 @@ contentWindow
 .
 UI
 .
-setActiveTab
+setActive
 (
 originalTabItem
 )

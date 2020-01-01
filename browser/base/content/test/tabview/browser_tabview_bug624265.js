@@ -682,9 +682,9 @@ true
 ;
 cw
 .
-GroupItems
+UI
 .
-setActiveGroupItem
+setActive
 (
 groupItem
 )

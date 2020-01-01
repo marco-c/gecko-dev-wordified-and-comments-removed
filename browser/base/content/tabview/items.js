@@ -323,9 +323,9 @@ this
 isAGroupItem
 )
 {
-GroupItems
+UI
 .
-setActiveGroupItem
+setActive
 (
 this
 )
@@ -587,9 +587,9 @@ this
 .
 isAGroupItem
 )
-GroupItems
+UI
 .
-setActiveGroupItem
+setActive
 (
 this
 )

@@ -107,9 +107,9 @@ box
 ;
 contentWindow
 .
-GroupItems
+UI
 .
-setActiveGroupItem
+setActive
 (
 groupItemTwo
 )

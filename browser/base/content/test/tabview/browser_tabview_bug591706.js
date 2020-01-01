@@ -255,9 +255,9 @@ empty
 ;
 contentWindow
 .
-GroupItems
+UI
 .
-setActiveGroupItem
+setActive
 (
 group
 )

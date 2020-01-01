@@ -160,9 +160,9 @@ group
 ;
 contentWindow
 .
-GroupItems
+UI
 .
-setActiveGroupItem
+setActive
 (
 originalGroupItem
 )
@@ -250,9 +250,9 @@ by
 ;
 contentWindow
 .
-GroupItems
+UI
 .
-setActiveGroupItem
+setActive
 (
 emptyGroupItem
 )

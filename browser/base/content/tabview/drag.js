@@ -212,7 +212,7 @@ length
 )
 UI
 .
-setActiveTab
+setActive
 (
 this
 .
@@ -238,7 +238,7 @@ isATabItem
 {
 UI
 .
-setActiveTab
+setActive
 (
 this
 .

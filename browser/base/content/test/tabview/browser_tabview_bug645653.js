@@ -146,9 +146,9 @@ close
 ;
 contentWindow
 .
-GroupItems
+UI
 .
-setActiveGroupItem
+setActive
 (
 originalGroupItem
 )

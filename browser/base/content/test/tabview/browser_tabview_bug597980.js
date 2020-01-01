@@ -180,9 +180,9 @@ true
 ;
 contentWindow
 .
-GroupItems
+UI
 .
-setActiveGroupItem
+setActive
 (
 originalGroup
 )

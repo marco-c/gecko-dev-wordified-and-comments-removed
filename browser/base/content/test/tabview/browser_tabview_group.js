@@ -140,9 +140,9 @@ group
 ;
 contentWindow
 .
-GroupItems
+UI
 .
-setActiveGroupItem
+setActive
 (
 originalGroupItem
 )
@@ -680,7 +680,7 @@ contentWindow
 .
 UI
 .
-setActiveTab
+setActive
 (
 tabItems
 [

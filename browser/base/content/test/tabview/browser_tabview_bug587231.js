@@ -508,7 +508,7 @@ contentWindow
 .
 UI
 .
-setActiveTab
+setActive
 (
 currentTabs
 [
