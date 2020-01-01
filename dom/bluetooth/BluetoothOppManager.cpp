@@ -1717,6 +1717,10 @@ mBlob
 =
 nullptr
 ;
+mPacketLeftLength
+=
+0
+;
 if
 (
 mInputStream
