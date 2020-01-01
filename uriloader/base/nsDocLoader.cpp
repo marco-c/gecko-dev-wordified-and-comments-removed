@@ -413,6 +413,10 @@ mIsRestoringDocument
 (
 PR_FALSE
 )
+mDontFlushLayout
+(
+PR_FALSE
+)
 mIsFlushingLayout
 (
 PR_FALSE
@@ -1007,6 +1011,10 @@ Cancel
 (
 NS_BINDING_ABORTED
 )
+;
+mIsFlushingLayout
+=
+PR_FALSE
 ;
 mChildrenInOnload
 .
@@ -2305,6 +2313,10 @@ up
 if
 (
 aFlushLayout
+&
+&
+!
+mDontFlushLayout
 )
 {
 nsCOMPtr
@@ -2337,6 +2349,8 @@ if
 doc
 )
 {
+mDontFlushLayout
+=
 mIsFlushingLayout
 =
 PR_TRUE
@@ -2349,6 +2363,8 @@ FlushPendingNotifications
 Flush_Layout
 )
 ;
+mDontFlushLayout
+=
 mIsFlushingLayout
 =
 PR_FALSE
