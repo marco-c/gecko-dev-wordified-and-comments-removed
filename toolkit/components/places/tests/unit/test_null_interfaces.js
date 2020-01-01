@@ -88,6 +88,9 @@ removePagesByTimeframe
 "
 removePagesFromHost
 "
+"
+removeVisitsByTimeframe
+"
 ]
 ]
 ]
