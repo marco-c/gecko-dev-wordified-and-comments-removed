@@ -282,9 +282,6 @@ AddCrashReportAnnotations
 )
 ;
 nsString
-mRendererIDsString
-;
-nsString
 mAdapterRAMString
 ;
 nsString
@@ -304,12 +301,6 @@ mAdapterVendorID
 ;
 nsString
 mAdapterDeviceID
-;
-uint32_t
-mRendererIDs
-[
-16
-]
 ;
 uint32_t
 mOSXVersion
