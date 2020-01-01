@@ -532,7 +532,7 @@ private
 static
 final
 String
-kRootQuery
+ROOT_QUERY
 =
 "
 SELECT
@@ -546,7 +546,7 @@ private
 static
 final
 String
-kRootName
+ROOT_NAME
 =
 "
 root_name
@@ -556,7 +556,7 @@ private
 static
 final
 String
-kRootFolderId
+ROOT_FOLDER_ID
 =
 "
 folder_id
@@ -566,7 +566,7 @@ private
 static
 final
 String
-kBookmarkQuerySelect
+BOOKMARK_QUERY_SELECT
 =
 "
 SELECT
@@ -645,7 +645,7 @@ private
 static
 final
 String
-kBookmarkQueryTrailer
+BOOKMARK_QUERY_TRAILER
 =
 "
 FROM
@@ -731,9 +731,9 @@ private
 static
 final
 String
-kBookmarkQueryGuid
+BOOKMARK_QUERY_GUID
 =
-kBookmarkQuerySelect
+BOOKMARK_QUERY_SELECT
 +
 "
 favicon
@@ -767,15 +767,15 @@ AS
 f_guid
 "
 +
-kBookmarkQueryTrailer
+BOOKMARK_QUERY_TRAILER
 ;
 private
 static
 final
 String
-kBookmarkQueryNoGuid
+BOOKMARK_QUERY_NO_GUID
 =
-kBookmarkQuerySelect
+BOOKMARK_QUERY_SELECT
 +
 "
 favicon
@@ -801,13 +801,13 @@ AS
 f_url
 "
 +
-kBookmarkQueryTrailer
+BOOKMARK_QUERY_TRAILER
 ;
 private
 static
 final
 String
-kBookmarkUrl
+BOOKMARK_URL
 =
 "
 p_url
@@ -817,7 +817,7 @@ private
 static
 final
 String
-kBookmarkTitle
+BOOKMARK_TITLE
 =
 "
 b_title
@@ -827,7 +827,7 @@ private
 static
 final
 String
-kBookmarkGuid
+BOOKMARK_GUID
 =
 "
 b_guid
@@ -837,7 +837,7 @@ private
 static
 final
 String
-kBookmarkId
+BOOKMARK_ID
 =
 "
 b_id
@@ -847,7 +847,7 @@ private
 static
 final
 String
-kBookmarkType
+BOOKMARK_TYPE
 =
 "
 b_type
@@ -857,7 +857,7 @@ private
 static
 final
 String
-kBookmarkParent
+BOOKMARK_PARENT
 =
 "
 b_parent
@@ -867,7 +867,7 @@ private
 static
 final
 String
-kBookmarkAdded
+BOOKMARK_ADDED
 =
 "
 b_added
@@ -877,7 +877,7 @@ private
 static
 final
 String
-kBookmarkModified
+BOOKMARK_MODIFIED
 =
 "
 b_modified
@@ -887,7 +887,7 @@ private
 static
 final
 String
-kBookmarkPosition
+BOOKMARK_POSITION
 =
 "
 b_position
@@ -897,7 +897,7 @@ private
 static
 final
 String
-kFaviconData
+FAVICON_DATA
 =
 "
 f_data
@@ -907,7 +907,7 @@ private
 static
 final
 String
-kFaviconMime
+FAVICON_MIME
 =
 "
 f_mime_type
@@ -917,7 +917,7 @@ private
 static
 final
 String
-kFaviconUrl
+FAVICON_URL
 =
 "
 f_url
@@ -927,7 +927,7 @@ private
 static
 final
 String
-kFaviconGuid
+FAVICON_GUID
 =
 "
 f_guid
@@ -937,7 +937,7 @@ private
 static
 final
 int
-kPlacesTypeBookmark
+PLACES_TYPE_BOOKMARK
 =
 1
 ;
@@ -945,7 +945,7 @@ private
 static
 final
 int
-kPlacesTypeFolder
+PLACES_TYPE_FOLDER
 =
 2
 ;
@@ -953,7 +953,7 @@ private
 static
 final
 String
-kHistoryCountQuery
+HISTORY_COUNT_QUERY
 =
 "
 SELECT
@@ -969,7 +969,7 @@ private
 static
 final
 String
-kHistoryQuerySelect
+HISTORY_QUERY_SELECT
 =
 "
 SELECT
@@ -1076,7 +1076,7 @@ private
 static
 final
 String
-kHistoryQueryTrailer
+HISTORY_QUERY_TRAILER
 =
 "
 FROM
@@ -1161,9 +1161,9 @@ private
 static
 final
 String
-kHistoryQueryGuid
+HISTORY_QUERY_GUID
 =
-kHistoryQuerySelect
+HISTORY_QUERY_SELECT
 +
 "
 favicon
@@ -1197,15 +1197,15 @@ AS
 f_guid
 "
 +
-kHistoryQueryTrailer
+HISTORY_QUERY_TRAILER
 ;
 private
 static
 final
 String
-kHistoryQueryNoGuid
+HISTORY_QUERY_NO_GUID
 =
-kHistoryQuerySelect
+HISTORY_QUERY_SELECT
 +
 "
 favicon
@@ -1231,13 +1231,13 @@ AS
 f_url
 "
 +
-kHistoryQueryTrailer
+HISTORY_QUERY_TRAILER
 ;
 private
 static
 final
 String
-kHistoryUrl
+HISTORY_URL
 =
 "
 p_url
@@ -1247,7 +1247,7 @@ private
 static
 final
 String
-kHistoryTitle
+HISTORY_TITLE
 =
 "
 p_title
@@ -1257,7 +1257,7 @@ private
 static
 final
 String
-kHistoryGuid
+HISTORY_GUID
 =
 "
 p_guid
@@ -1267,7 +1267,7 @@ private
 static
 final
 String
-kHistoryDate
+HISTORY_DATE
 =
 "
 h_date
@@ -1277,7 +1277,7 @@ private
 static
 final
 String
-kHistoryVisits
+HISTORY_VISITS
 =
 "
 h_visits
@@ -1289,7 +1289,7 @@ final
 String
 [
 ]
-kSyncSettingsList
+SYNC_SETTINGS_LIST
 =
 new
 String
@@ -1341,7 +1341,7 @@ private
 static
 final
 String
-kSyncHostName
+SYNC_HOST_NAME
 =
 "
 chrome
@@ -1357,7 +1357,7 @@ final
 String
 [
 ]
-kSyncRealmList
+SYNC_REALM_LIST
 =
 new
 String
@@ -1802,7 +1802,7 @@ Arrays
 .
 asList
 (
-kSyncSettingsList
+SYNC_SETTINGS_LIST
 )
 ;
 mSyncSettingsMap
@@ -1946,7 +1946,7 @@ for
 String
 location
 :
-kSyncRealmList
+SYNC_REALM_LIST
 )
 {
 Log
@@ -2115,7 +2115,7 @@ String
 [
 ]
 {
-kSyncHostName
+SYNC_HOST_NAME
 realm
 }
 null
@@ -3355,7 +3355,7 @@ db
 .
 rawQuery
 (
-kRootQuery
+ROOT_QUERY
 null
 )
 ;
@@ -3367,7 +3367,7 @@ cursor
 .
 getColumnIndex
 (
-kRootName
+ROOT_NAME
 )
 ;
 final
@@ -3378,7 +3378,7 @@ cursor
 .
 getColumnIndex
 (
-kRootFolderId
+ROOT_FOLDER_ID
 )
 ;
 cursor
@@ -4384,7 +4384,7 @@ db
 .
 rawQuery
 (
-kHistoryCountQuery
+HISTORY_COUNT_QUERY
 null
 )
 ;
@@ -4467,7 +4467,7 @@ db
 .
 rawQuery
 (
-kHistoryQueryGuid
+HISTORY_QUERY_GUID
 queryParams
 )
 ;
@@ -4480,7 +4480,7 @@ db
 .
 rawQuery
 (
-kHistoryQueryNoGuid
+HISTORY_QUERY_NO_GUID
 queryParams
 )
 ;
@@ -4501,7 +4501,7 @@ cursor
 .
 getColumnIndex
 (
-kHistoryUrl
+HISTORY_URL
 )
 ;
 final
@@ -4512,7 +4512,7 @@ cursor
 .
 getColumnIndex
 (
-kHistoryTitle
+HISTORY_TITLE
 )
 ;
 final
@@ -4523,7 +4523,7 @@ cursor
 .
 getColumnIndex
 (
-kHistoryDate
+HISTORY_DATE
 )
 ;
 final
@@ -4534,7 +4534,7 @@ cursor
 .
 getColumnIndex
 (
-kHistoryVisits
+HISTORY_VISITS
 )
 ;
 final
@@ -4545,7 +4545,7 @@ cursor
 .
 getColumnIndex
 (
-kFaviconMime
+FAVICON_MIME
 )
 ;
 final
@@ -4556,7 +4556,7 @@ cursor
 .
 getColumnIndex
 (
-kFaviconData
+FAVICON_DATA
 )
 ;
 final
@@ -4567,7 +4567,7 @@ cursor
 .
 getColumnIndex
 (
-kFaviconUrl
+FAVICON_URL
 )
 ;
 final
@@ -4578,7 +4578,7 @@ cursor
 .
 getColumnIndex
 (
-kFaviconGuid
+FAVICON_GUID
 )
 ;
 cursor
@@ -5393,7 +5393,7 @@ db
 .
 rawQuery
 (
-kBookmarkQueryGuid
+BOOKMARK_QUERY_GUID
 null
 )
 ;
@@ -5406,7 +5406,7 @@ db
 .
 rawQuery
 (
-kBookmarkQueryNoGuid
+BOOKMARK_QUERY_NO_GUID
 null
 )
 ;
@@ -5419,7 +5419,7 @@ cursor
 .
 getColumnIndex
 (
-kBookmarkUrl
+BOOKMARK_URL
 )
 ;
 final
@@ -5430,7 +5430,7 @@ cursor
 .
 getColumnIndex
 (
-kBookmarkTitle
+BOOKMARK_TITLE
 )
 ;
 final
@@ -5441,7 +5441,7 @@ cursor
 .
 getColumnIndex
 (
-kBookmarkGuid
+BOOKMARK_GUID
 )
 ;
 final
@@ -5452,7 +5452,7 @@ cursor
 .
 getColumnIndex
 (
-kBookmarkId
+BOOKMARK_ID
 )
 ;
 final
@@ -5463,7 +5463,7 @@ cursor
 .
 getColumnIndex
 (
-kBookmarkType
+BOOKMARK_TYPE
 )
 ;
 final
@@ -5474,7 +5474,7 @@ cursor
 .
 getColumnIndex
 (
-kBookmarkParent
+BOOKMARK_PARENT
 )
 ;
 final
@@ -5485,7 +5485,7 @@ cursor
 .
 getColumnIndex
 (
-kBookmarkAdded
+BOOKMARK_ADDED
 )
 ;
 final
@@ -5496,7 +5496,7 @@ cursor
 .
 getColumnIndex
 (
-kBookmarkModified
+BOOKMARK_MODIFIED
 )
 ;
 final
@@ -5507,7 +5507,7 @@ cursor
 .
 getColumnIndex
 (
-kBookmarkPosition
+BOOKMARK_POSITION
 )
 ;
 final
@@ -5518,7 +5518,7 @@ cursor
 .
 getColumnIndex
 (
-kFaviconMime
+FAVICON_MIME
 )
 ;
 final
@@ -5529,7 +5529,7 @@ cursor
 .
 getColumnIndex
 (
-kFaviconData
+FAVICON_DATA
 )
 ;
 final
@@ -5540,7 +5540,7 @@ cursor
 .
 getColumnIndex
 (
-kFaviconUrl
+FAVICON_URL
 )
 ;
 final
@@ -5551,7 +5551,7 @@ cursor
 .
 getColumnIndex
 (
-kFaviconGuid
+FAVICON_GUID
 )
 ;
 int
@@ -5730,7 +5730,7 @@ parent
 type
 =
 =
-kPlacesTypeFolder
+PLACES_TYPE_FOLDER
 )
 {
 cursor
@@ -5883,7 +5883,7 @@ isFolder
 type
 =
 =
-kPlacesTypeFolder
+PLACES_TYPE_FOLDER
 )
 ;
 addBookmark
