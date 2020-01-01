@@ -21742,12 +21742,6 @@ return
 result
 ;
 }
-StCaretHider
-caretHider
-(
-caret
-)
-;
 nsRect
 rect
 ;
