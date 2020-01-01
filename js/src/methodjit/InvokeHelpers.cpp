@@ -2207,6 +2207,17 @@ void
 *
 ret
 ;
+vp
+[
+1
+]
+.
+setObject
+(
+*
+obj2
+)
+;
 if
 (
 !
