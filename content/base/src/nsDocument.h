@@ -500,6 +500,9 @@ class
 nsWindowSizes
 ;
 class
+nsHtml5TreeOpExecutor
+;
+class
 nsIdentifierMapEntry
 :
 public
@@ -3614,7 +3617,6 @@ nsIChannel
 aChannel
 )
 ;
-static
 bool
 TryChannelCharset
 (
@@ -3627,6 +3629,9 @@ aCharsetSource
 nsACString
 &
 aCharset
+nsHtml5TreeOpExecutor
+*
+aExecutor
 )
 ;
 void

@@ -815,6 +815,9 @@ mChardet
 bool
 mFeedChardet
 ;
+bool
+mInitialEncodingWasFromParentFrame
+;
 nsCOMPtr
 <
 nsITimer

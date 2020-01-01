@@ -166,6 +166,12 @@ data
 text
 /
 html
+;
+charset
+=
+utf
+-
+8
 Web
 Console
 -
