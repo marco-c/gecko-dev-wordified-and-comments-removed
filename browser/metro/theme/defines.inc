@@ -87,7 +87,7 @@ tabs_height
 %
 define
 progress_height
-3px
+5px
 %
 define
 progress_start_color

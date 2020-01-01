@@ -195,6 +195,16 @@ control
 ]
 [
 "
+progressContainer
+"
+"
+progress
+-
+container
+"
+]
+[
+"
 contentNavigator
 "
 "
