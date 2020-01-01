@@ -1526,8 +1526,8 @@ stack
 struct
 _MDFileMap
 {
-PRInt8
-unused
+PROffset64
+maxExtent
 ;
 }
 ;

@@ -221,6 +221,10 @@ on
 Unix
 *
 /
+#
+define
+PR_LD_ALT_SEARCH_PATH
+0x10
 NSPR_API
 (
 PRLibrary

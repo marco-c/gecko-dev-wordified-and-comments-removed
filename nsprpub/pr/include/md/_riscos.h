@@ -27,7 +27,7 @@ define
 PR_DLL_SUFFIX
 "
 .
-a
+so
 "
 #
 define
@@ -79,10 +79,10 @@ h
 undef
 HAVE_STACK_GROWING_UP
 #
-undef
+define
 HAVE_DLL
 #
-undef
+define
 USE_DLFCN
 #
 define
