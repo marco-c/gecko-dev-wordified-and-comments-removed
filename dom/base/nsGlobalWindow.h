@@ -119,6 +119,13 @@ h
 #
 include
 "
+nsIScriptObjectPrincipal
+.
+h
+"
+#
+include
+"
 nsITimer
 .
 h
@@ -829,6 +836,8 @@ public
 nsPIDOMWindow
 public
 nsIScriptGlobalObject
+public
+nsIScriptObjectPrincipal
 public
 nsIDOMJSWindow
 public

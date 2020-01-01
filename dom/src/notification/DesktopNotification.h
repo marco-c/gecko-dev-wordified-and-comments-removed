@@ -63,6 +63,13 @@ h
 #
 include
 "
+nsIScriptObjectPrincipal
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
