@@ -486,6 +486,10 @@ StackAggrInit
 .
 cpp
 \
+StackCondBad
+.
+cpp
+\
 (
 NULL
 )
@@ -493,6 +497,10 @@ STACK_PASS_TESTCASES
 =
 \
 StackPlacementNewOK
+.
+cpp
+\
+StackCond
 .
 cpp
 \

@@ -13,6 +13,8 @@ nsresult
 nsresult
 foo
 (
+nsresult
+x
 __attribute__
 (
 (
@@ -29,9 +31,6 @@ int
 a
 )
 {
-int
-x
-;
 if
 (
 x

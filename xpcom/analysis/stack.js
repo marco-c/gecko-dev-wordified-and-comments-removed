@@ -912,6 +912,9 @@ assign
 case
 VAR_DECL
 :
+case
+COND_EXPR
+:
 break
 ;
 case
