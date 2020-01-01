@@ -521,6 +521,10 @@ testIntString
 .
 cpp
 \
+testIntTypesABI
+.
+cpp
+\
 testIntern
 .
 cpp
