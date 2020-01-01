@@ -1500,6 +1500,16 @@ mozilla
 /
 suite
 \
+mozilla
+/
+other
+-
+licenses
+/
+7zstub
+/
+seamonkey
+\
 (
 NULL
 )
