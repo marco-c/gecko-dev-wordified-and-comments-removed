@@ -713,6 +713,20 @@ False
         
 self
 .
+register
+=
+desc
+.
+get
+(
+'
+register
+'
+True
+)
+        
+self
+.
 concrete
 =
 desc

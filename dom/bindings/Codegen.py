@@ -2564,15 +2564,6 @@ filename
 )
         
 return
-'
-mozilla
-/
-dom
-/
-'
-+
-\
-               
 basename
 .
 replace
@@ -25157,6 +25148,10 @@ False
 workers
 =
 False
+                                                        
+register
+=
+True
 )
 ]
         
@@ -26278,6 +26273,10 @@ True
 workers
 =
 False
+                                                            
+register
+=
+True
 )
 ]
         
