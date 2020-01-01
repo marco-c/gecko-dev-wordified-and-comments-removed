@@ -107,7 +107,13 @@ uint32
 mirOpcode_
 ;
 uint32
+mirId_
+;
+uint32
 lirOpcode_
+;
+uint32
+lirId_
 ;
 #
 endif
@@ -1070,7 +1076,11 @@ pcOpcode
 uint32
 mirOpcode
 uint32
+mirId
+uint32
 lirOpcode
+uint32
+lirId
 )
 ;
 #
