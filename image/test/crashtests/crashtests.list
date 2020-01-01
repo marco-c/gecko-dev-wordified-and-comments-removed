@@ -264,6 +264,17 @@ load
 1
 .
 html
+load
+truncated
+-
+second
+-
+frame
+.
+png
+#
+bug
+863975
 #
 Bug
 863958
