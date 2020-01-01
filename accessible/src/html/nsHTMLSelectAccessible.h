@@ -456,6 +456,12 @@ PRUint32
 aExtraState
 )
 ;
+virtual
+void
+InvalidateChildren
+(
+)
+;
 protected
 :
 virtual

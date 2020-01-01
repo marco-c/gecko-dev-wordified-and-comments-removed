@@ -467,6 +467,10 @@ test_recreation
 .
 html
 \
+test_select
+.
+html
+\
 test_textleaf
 .
 html
