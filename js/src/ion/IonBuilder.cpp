@@ -16028,8 +16028,10 @@ MStringLength
 *
 ins
 =
-new
 MStringLength
+:
+:
+New
 (
 obj
 )
@@ -16365,8 +16367,10 @@ MStringLength
 *
 len
 =
-new
 MStringLength
+:
+:
+New
 (
 value
 )
