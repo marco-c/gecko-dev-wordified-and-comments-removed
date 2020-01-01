@@ -258,6 +258,10 @@ test_editor_currentURI
 .
 xul
 \
+test_popupreflows
+.
+xul
+\
 (
 NULL
 )
