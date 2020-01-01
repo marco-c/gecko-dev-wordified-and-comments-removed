@@ -91,7 +91,21 @@ fill_parent
 "
 android
 :
+layout_marginRight
+=
+"
+50dp
+"
+android
+:
 layout_alignParentLeft
+=
+"
+true
+"
+android
+:
+layout_alignParentBottom
 =
 "
 true
@@ -148,7 +162,7 @@ android
 paddingRight
 =
 "
-78dip
+8dip
 "
 /
 >
@@ -196,7 +210,7 @@ android
 layout_marginLeft
 =
 "
-10dip
+15dip
 "
 android
 :
@@ -251,7 +265,7 @@ android
 layout_width
 =
 "
-70dip
+65dip
 "
 android
 :
@@ -306,7 +320,7 @@ android
 paddingLeft
 =
 "
-25dip
+26dip
 "
 android
 :
@@ -343,7 +357,7 @@ android
 layout_width
 =
 "
-60dip
+54dip
 "
 android
 :
