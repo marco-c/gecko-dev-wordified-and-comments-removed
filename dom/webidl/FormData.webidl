@@ -112,9 +112,6 @@ whatwg
 org
 *
 /
-interface
-HTMLFormElement
-;
 [
 Constructor
 (

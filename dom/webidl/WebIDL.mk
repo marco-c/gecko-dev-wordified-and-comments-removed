@@ -475,6 +475,10 @@ HTMLFontElement
 .
 webidl
 \
+HTMLFormElement
+.
+webidl
+\
 HTMLFrameElement
 .
 webidl

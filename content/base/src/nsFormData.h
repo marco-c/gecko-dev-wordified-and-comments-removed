@@ -182,8 +182,16 @@ mozilla
 dom
 :
 :
+NonNull
+<
+mozilla
+:
+:
+dom
+:
+:
 HTMLFormElement
-*
+>
 >
 &
 aFormElement
