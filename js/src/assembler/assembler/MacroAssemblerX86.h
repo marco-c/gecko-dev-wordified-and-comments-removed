@@ -135,7 +135,7 @@ convertInt32ToDouble
 void
 add32
 (
-TrustedImm32
+Imm32
 imm
 RegisterID
 src
@@ -276,7 +276,7 @@ m_ptr
 void
 or32
 (
-TrustedImm32
+Imm32
 imm
 AbsoluteAddress
 address
@@ -298,7 +298,7 @@ m_ptr
 void
 sub32
 (
-TrustedImm32
+Imm32
 imm
 AbsoluteAddress
 address
@@ -556,7 +556,7 @@ dest
 void
 store32
 (
-TrustedImm32
+Imm32
 imm
 void
 *
@@ -636,7 +636,7 @@ Condition
 cond
 AbsoluteAddress
 left
-TrustedImm32
+Imm32
 right
 )
 {
@@ -724,7 +724,7 @@ oldJump
 DataLabelPtr
 moveWithPatch
 (
-TrustedImmPtr
+ImmPtr
 initialValue
 RegisterID
 dest
@@ -863,7 +863,7 @@ cond
 DataLabelPtr
 storePtrWithPatch
 (
-TrustedImmPtr
+ImmPtr
 initialValue
 ImplicitAddress
 address
