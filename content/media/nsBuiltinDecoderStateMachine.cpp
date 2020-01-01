@@ -328,9 +328,6 @@ uint32_t
 aRate
 bool
 aHasAudio
-nsHTMLMediaElement
-:
-:
 MetadataTags
 *
 aTags
@@ -390,9 +387,6 @@ const
 bool
 mHasAudio
 ;
-nsHTMLMediaElement
-:
-:
 MetadataTags
 *
 mTags
@@ -8839,9 +8833,6 @@ res
 nsVideoInfo
 info
 ;
-nsHTMLMediaElement
-:
-:
 MetadataTags
 *
 tags

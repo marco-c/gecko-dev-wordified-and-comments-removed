@@ -847,9 +847,6 @@ aRate
 bool
 aHasAudio
 const
-nsHTMLMediaElement
-:
-:
 MetadataTags
 *
 aTags

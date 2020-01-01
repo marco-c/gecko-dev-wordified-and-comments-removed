@@ -768,9 +768,6 @@ nsOggCodecState
 :
 AddVorbisComment
 (
-nsHTMLMediaElement
-:
-:
 MetadataTags
 *
 aTags
@@ -3312,9 +3309,6 @@ packet
 false
 ;
 }
-nsHTMLMediaElement
-:
-:
 MetadataTags
 *
 nsVorbisState
@@ -3324,9 +3318,6 @@ GetTags
 (
 )
 {
-nsHTMLMediaElement
-:
-:
 MetadataTags
 *
 tags
@@ -3362,9 +3353,6 @@ lengths
 tags
 =
 new
-nsHTMLMediaElement
-:
-:
 MetadataTags
 ;
 tags
@@ -5342,9 +5330,6 @@ return
 true
 ;
 }
-nsHTMLMediaElement
-:
-:
 MetadataTags
 *
 nsOpusState
@@ -5354,9 +5339,6 @@ GetTags
 (
 )
 {
-nsHTMLMediaElement
-:
-:
 MetadataTags
 *
 tags
@@ -5364,9 +5346,6 @@ tags
 tags
 =
 new
-nsHTMLMediaElement
-:
-:
 MetadataTags
 ;
 tags

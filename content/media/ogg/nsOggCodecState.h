@@ -418,9 +418,6 @@ true
 ;
 }
 virtual
-nsHTMLMediaElement
-:
-:
 MetadataTags
 *
 GetTags
@@ -595,9 +592,6 @@ static
 bool
 AddVorbisComment
 (
-nsHTMLMediaElement
-:
-:
 MetadataTags
 *
 aTags
@@ -682,9 +676,6 @@ ogg_page
 aPage
 )
 ;
-nsHTMLMediaElement
-:
-:
 MetadataTags
 *
 GetTags
@@ -1049,9 +1040,6 @@ mSkip
 int64_t
 mPrevPacketGranulepos
 ;
-nsHTMLMediaElement
-:
-:
 MetadataTags
 *
 GetTags
