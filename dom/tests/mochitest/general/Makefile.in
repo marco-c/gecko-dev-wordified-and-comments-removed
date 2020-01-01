@@ -435,11 +435,6 @@ rules
 mk
 _TEST_FILES
 =
-\
-test_innerScreen
-.
-xul
-\
 test_offsets
 .
 html
