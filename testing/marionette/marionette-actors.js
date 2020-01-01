@@ -2628,12 +2628,6 @@ timeout
 }
 )
 ;
-this
-.
-sendOk
-(
-)
-;
 }
 }
 executeJSScript
