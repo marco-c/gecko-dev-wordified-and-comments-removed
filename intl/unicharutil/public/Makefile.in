@@ -422,10 +422,6 @@ nsICaseConversion
 .
 h
 \
-nsITextTransform
-.
-h
-\
 nsIUGenCategory
 .
 h
