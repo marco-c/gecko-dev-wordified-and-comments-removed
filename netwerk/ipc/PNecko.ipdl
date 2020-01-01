@@ -472,6 +472,10 @@ include
 protocol
 PWyciwygChannel
 ;
+include
+protocol
+PFTPChannel
+;
 namespace
 mozilla
 {
@@ -563,6 +567,9 @@ PCookieService
 manages
 PWyciwygChannel
 ;
+manages
+PFTPChannel
+;
 parent
 :
 __delete__
@@ -574,6 +581,10 @@ PCookieService
 )
 ;
 PWyciwygChannel
+(
+)
+;
+PFTPChannel
 (
 )
 ;
