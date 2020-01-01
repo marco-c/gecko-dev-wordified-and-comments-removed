@@ -5861,6 +5861,11 @@ msg
 json
 .
 isOutgoing
+msg
+.
+json
+.
+isEmergency
 ]
 )
 ;
@@ -6621,6 +6626,9 @@ isActive
 call
 .
 isOutgoing
+call
+.
+isEmergency
 )
 ;
 }
