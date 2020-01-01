@@ -1297,6 +1297,10 @@ test_CrossSiteXHR
 .
 html
 \
+test_CrossSiteXHR_origin
+.
+html
+\
 file_CrossSiteXHR_inner
 .
 html
