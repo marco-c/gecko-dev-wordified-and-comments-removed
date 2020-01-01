@@ -407,6 +407,8 @@ const
 nsACString
 *
 aVendorName
+PRBool
+aLocal
 )
 ;
 static
