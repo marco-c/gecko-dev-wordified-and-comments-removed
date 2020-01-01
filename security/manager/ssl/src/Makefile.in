@@ -513,6 +513,10 @@ SSLServerCertVerification
 .
 cpp
 \
+TransportSecurityInfo
+.
+cpp
+\
 nsSSLStatus
 .
 cpp
