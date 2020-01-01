@@ -542,6 +542,12 @@ build
 EXTRA_PP_COMPONENTS
 =
 \
+(
+NULL
+)
+EXTRA_COMPONENTS
+=
+\
 nsLivemarkService
 .
 js
@@ -549,12 +555,6 @@ js
 nsTaggingService
 .
 js
-\
-(
-NULL
-)
-EXTRA_COMPONENTS
-=
 \
 nsPlacesDBFlush
 .
