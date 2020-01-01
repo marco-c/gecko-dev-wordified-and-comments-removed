@@ -16711,6 +16711,13 @@ cx
 localRootStack
 )
 ;
+JS_CHECK_RECURSION
+(
+cx
+return
+JS_FALSE
+)
+;
 copy
 =
 js_NewXML
@@ -17315,6 +17322,13 @@ JSXML
 attr
 *
 kid
+;
+JS_CHECK_RECURSION
+(
+cx
+return
+JS_FALSE
+)
 ;
 if
 (
