@@ -804,6 +804,9 @@ case
 eCSSProperty_font_size
 :
 case
+eCSSProperty_font_size_adjust
+:
+case
 eCSSProperty_letter_spacing
 :
 case
