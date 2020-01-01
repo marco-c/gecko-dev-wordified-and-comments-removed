@@ -410,7 +410,7 @@ ifndef
 NSS_DISABLE_DBM
 ifdef
 MOZ_MORK
-PARALLEL_DIRS
+DIRS
 =
 mdb
 mork
@@ -418,7 +418,7 @@ endif
 endif
 ifdef
 MOZ_MORKREADER
-PARALLEL_DIRS
+DIRS
 +
 =
 morkreader

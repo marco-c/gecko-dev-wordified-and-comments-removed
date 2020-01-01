@@ -405,7 +405,7 @@ config
 autoconf
 .
 mk
-PARALLEL_DIRS
+DIRS
 =
 (
 MOZ_EXTENSIONS

@@ -427,7 +427,7 @@ config
 autoconf
 .
 mk
-PARALLEL_DIRS
+DIRS
 =
 \
 base
