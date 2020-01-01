@@ -622,10 +622,6 @@ test_nsIAccessibleImage
 .
 html
 \
-test_nsIAccessNode_utils
-.
-html
-\
 test_nsOuterDocAccessible
 .
 html
