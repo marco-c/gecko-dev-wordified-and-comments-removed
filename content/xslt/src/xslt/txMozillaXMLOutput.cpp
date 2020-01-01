@@ -597,10 +597,7 @@ kNameSpaceID_None
 nsAutoString
 lnameStr
 ;
-nsContentUtils
-:
-:
-ASCIIToLower
+ToLowerCase
 (
 aLocalName
 lnameStr
@@ -2111,10 +2108,7 @@ kNameSpaceID_XHTML
 nsAutoString
 lnameStr
 ;
-nsContentUtils
-:
-:
-ASCIIToLower
+ToLowerCase
 (
 aLocalName
 lnameStr
@@ -3567,10 +3561,7 @@ IsEmpty
 )
 )
 {
-nsContentUtils
-:
-:
-ASCIIToLower
+ToLowerCase
 (
 httpEquiv
 )

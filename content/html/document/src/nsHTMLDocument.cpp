@@ -5674,10 +5674,7 @@ aOptionalArgCount
 nsAutoString
 type
 ;
-nsContentUtils
-:
-:
-ASCIIToLower
+ToLowerCase
 (
 aContentTypeOrUrl
 type

@@ -25,6 +25,10 @@ nsUnicharUtils
 .
 h
 "
+#
+define
+TX_ToLowerCase
+ToLowerCase
 typedef
 nsCaseInsensitiveStringComparator
 txCaseInsensitiveStringComparator
@@ -75,10 +79,7 @@ ToString
 str
 )
 ;
-nsContentUtils
-:
-:
-ASCIIToLower
+TX_ToLowerCase
 (
 str
 )
