@@ -484,7 +484,7 @@ False
                  
 emulator
 =
-False
+None
 connectToRunningEmulator
 =
 False
@@ -646,6 +646,10 @@ logcat_dir
 self
 .
 logcat_dir
+                                     
+arch
+=
+emulator
 )
             
 self

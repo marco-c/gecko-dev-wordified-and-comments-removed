@@ -425,7 +425,13 @@ Marionette
 (
 emulator
 =
-True
+self
+.
+marionette
+.
+emulator
+.
+arch
                                
 homedir
 =

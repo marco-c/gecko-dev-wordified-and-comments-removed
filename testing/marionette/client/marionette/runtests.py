@@ -870,7 +870,7 @@ address
 None
 emulator
 =
-False
+None
 homedir
 =
 None
@@ -1413,7 +1413,9 @@ Marionette
 (
 emulator
 =
-True
+self
+.
+emulator
                                          
 homedir
 =
@@ -2675,7 +2677,7 @@ emulator
 action
 =
 "
-store_true
+store
 "
 dest
 =
@@ -2685,12 +2687,22 @@ emulator
                       
 default
 =
-False
+None
+choices
+=
+[
+"
+x86
+"
+"
+arm
+"
+]
                       
 help
 =
 "
-launch
+Launch
 a
 B2G
 emulator
@@ -2699,6 +2711,19 @@ which
 to
 run
 tests
+.
+"
+                      
+"
+You
+need
+to
+specify
+which
+architecture
+to
+emulate
+.
 "
 )
     
