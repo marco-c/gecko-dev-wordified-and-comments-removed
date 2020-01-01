@@ -204,13 +204,6 @@ h
 #
 include
 "
-nsIThreadPool
-.
-h
-"
-#
-include
-"
 nsXPCOMCIDInternal
 .
 h
