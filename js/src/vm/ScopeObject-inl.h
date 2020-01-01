@@ -11,13 +11,6 @@ ScopeObject
 .
 h
 "
-#
-include
-"
-jsscriptinlines
-.
-h
-"
 namespace
 js
 {
@@ -327,7 +320,7 @@ Value
 CallObject
 :
 :
-formal
+arg
 (
 unsigned
 i
@@ -368,7 +361,7 @@ void
 CallObject
 :
 :
-setFormal
+setArg
 (
 unsigned
 i

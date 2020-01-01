@@ -261,17 +261,6 @@ nvars
 ;
 }
 inline
-BindingKind
-slotToFrameIndex
-(
-unsigned
-slot
-unsigned
-*
-index
-)
-;
-inline
 uint16_t
 formalIndexToSlot
 (
