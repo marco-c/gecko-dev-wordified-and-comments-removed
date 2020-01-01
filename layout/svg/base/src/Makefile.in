@@ -546,6 +546,10 @@ nsSVGStopFrame
 .
 cpp
 \
+nsSVGSwitchFrame
+.
+cpp
+\
 nsSVGTextContainerFrame
 .
 cpp
