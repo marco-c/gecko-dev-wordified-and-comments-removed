@@ -389,6 +389,14 @@ Clear
 ;
 }
 mMainThread
+-
+>
+SetObserver
+(
+nsnull
+)
+;
+mMainThread
 =
 nsnull
 ;
