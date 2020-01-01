@@ -14595,7 +14595,7 @@ false
 )
 ;
 }
-private
+protected
 void
 connectGeckoLayerClient
 (
