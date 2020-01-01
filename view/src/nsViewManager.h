@@ -670,6 +670,9 @@ UpdateWidgetArea
 nsView
 *
 aWidgetView
+nsIWidget
+*
+aWidget
 const
 nsRegion
 &

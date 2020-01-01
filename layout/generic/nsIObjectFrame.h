@@ -83,6 +83,15 @@ StopPlugin
 =
 0
 ;
+virtual
+nsIWidget
+*
+GetWidget
+(
+)
+=
+0
+;
 }
 ;
 #
