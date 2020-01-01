@@ -15758,9 +15758,9 @@ m
 =
 application
 54054
-SCTP
-/
 DTLS
+/
+SCTP
 5000
 \
 r
