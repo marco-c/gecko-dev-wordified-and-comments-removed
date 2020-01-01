@@ -3734,8 +3734,8 @@ trc
 void
 *
 thing
-uintN
-type
+uint32
+kind
 )
 ;
 #
