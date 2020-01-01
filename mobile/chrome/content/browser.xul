@@ -2210,6 +2210,9 @@ control
 "
 /
 >
+#
+ifndef
+ANDROID
 <
 key
 id
@@ -2253,6 +2256,8 @@ shift
 "
 /
 >
+#
+endif
 #
 ifndef
 MOZ_PLATFORM_MAEMO
