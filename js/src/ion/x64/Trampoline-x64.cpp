@@ -3461,7 +3461,7 @@ rdx
 ;
 masm
 .
-movq
+mov
 (
 ImmWord
 (
