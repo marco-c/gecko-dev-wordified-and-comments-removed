@@ -3688,6 +3688,12 @@ AutoGCRooter
 *
 autoGCRooters
 ;
+size_t
+gcSystemPageSize
+;
+size_t
+gcSystemAllocGranularity
+;
 js
 :
 :

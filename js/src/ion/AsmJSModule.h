@@ -2740,10 +2740,7 @@ JS_ASSERT
 (
 functionBytes
 %
-gc
-:
-:
-PageSize
+AsmJSPageSize
 =
 =
 0
@@ -2769,10 +2766,7 @@ JS_ASSERT
 (
 functionBytes_
 %
-gc
-:
-:
-PageSize
+AsmJSPageSize
 =
 =
 0
@@ -3123,10 +3117,7 @@ uintptr_t
 code
 )
 %
-gc
-:
-:
-PageSize
+AsmJSPageSize
 =
 =
 0
@@ -3168,10 +3159,7 @@ uintptr_t
 code_
 )
 %
-gc
-:
-:
-PageSize
+AsmJSPageSize
 =
 =
 0
