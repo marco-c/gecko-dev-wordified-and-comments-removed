@@ -913,10 +913,10 @@ pPlugin
 CPlugin
 *
 )
-GetWindowLong
+GetWindowLongPtr
 (
 hWnd
-DWL_USER
+DWLP_USER
 )
 ;
 assert
@@ -3536,10 +3536,10 @@ pPlugin
 CPlugin
 *
 )
-GetWindowLong
+GetWindowLongPtr
 (
 hWnd
-DWL_USER
+DWLP_USER
 )
 ;
 assert
