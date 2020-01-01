@@ -278,11 +278,6 @@ synthesizeKey
 VK_ESCAPE
 "
 {
-type
-:
-"
-keypress
-"
 }
 contentWindow
 )
