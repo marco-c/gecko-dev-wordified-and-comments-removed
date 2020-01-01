@@ -258,6 +258,7 @@ formhistFile
 .
 remove
 (
+false
 )
 ;
 }
