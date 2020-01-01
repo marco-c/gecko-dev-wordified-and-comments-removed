@@ -945,7 +945,7 @@ viewportHandler
 function
 (
 bounds
-oldBounds
+boundsSizeChanged
 )
 {
 let
@@ -1122,7 +1122,8 @@ right
 ;
 if
 (
-oldBounds
+!
+boundsSizeChanged
 )
 this
 .
@@ -1182,8 +1183,7 @@ y
 ;
 if
 (
-!
-oldBounds
+boundsSizeChanged
 )
 {
 this

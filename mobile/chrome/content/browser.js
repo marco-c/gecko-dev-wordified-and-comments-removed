@@ -367,6 +367,12 @@ window
 )
 return
 ;
+BrowserUI
+.
+sizeControls
+(
+)
+;
 let
 w
 =
@@ -439,8 +445,8 @@ false
 function
 viewportHandler
 (
-b
-ob
+bounds
+boundsSizeChanged
 )
 {
 self
@@ -449,8 +455,8 @@ _canvasBrowser
 .
 viewportHandler
 (
-b
-ob
+bounds
+boundsSizeChanged
 )
 ;
 }
