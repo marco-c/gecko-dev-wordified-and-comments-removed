@@ -656,6 +656,11 @@ THISP_SHIFT
 =
 8
 ;
+void
+staticAssert
+(
+)
+{
 JS_STATIC_ASSERT
 (
 JSFUN_THISP_PRIMITIVE
@@ -677,6 +682,7 @@ THISP_ARRAY_SIZE
 1
 )
 ;
+}
 static
 const
 Value

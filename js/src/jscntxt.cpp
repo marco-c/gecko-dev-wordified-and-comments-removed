@@ -6968,6 +6968,9 @@ scopeMark
 (
 uint32
 )
+(
+size_t
+)
 lrc
 -
 >
@@ -7684,6 +7687,9 @@ mark
 =
 (
 uint32
+)
+(
+size_t
 )
 lrc
 -
