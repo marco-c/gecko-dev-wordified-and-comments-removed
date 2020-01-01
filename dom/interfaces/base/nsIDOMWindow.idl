@@ -491,9 +491,6 @@ interface
 nsIDOMStorage
 ;
 interface
-nsIDOMStorageList
-;
-interface
 nsIPrompt
 ;
 interface
