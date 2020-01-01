@@ -196,7 +196,8 @@ JS_ASSERT
 (
 kind
 <
-FINALIZE_OBJECT_LIMIT
+=
+FINALIZE_OBJECT_LAST
 )
 ;
 return
@@ -1402,13 +1403,14 @@ FINALIZE_OBJECT0
 &
 kind
 <
+=
 js
 :
 :
 gc
 :
 :
-FINALIZE_OBJECT_LIMIT
+FINALIZE_OBJECT_LAST
 )
 ;
 JSObject

@@ -216,13 +216,14 @@ FINALIZE_OBJECT0
 &
 kind
 <
+=
 js
 :
 :
 gc
 :
 :
-FINALIZE_OBJECT_LIMIT
+FINALIZE_OBJECT_LAST
 )
 ;
 int

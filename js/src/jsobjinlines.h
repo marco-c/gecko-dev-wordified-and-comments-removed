@@ -7524,10 +7524,11 @@ JS_ASSERT
 (
 kind
 <
+=
 gc
 :
 :
-FINALIZE_OBJECT_LIMIT
+FINALIZE_OBJECT_LAST
 )
 ;
 if
@@ -7608,10 +7609,11 @@ JS_ASSERT
 (
 kind
 <
+=
 gc
 :
 :
-FINALIZE_OBJECT_LIMIT
+FINALIZE_OBJECT_LAST
 )
 ;
 types
