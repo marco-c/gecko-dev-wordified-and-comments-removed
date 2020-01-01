@@ -133,6 +133,12 @@ return
 TILEDLAYERBUFFER_TILE_SIZE
 ;
 }
+#
+ifdef
+MOZ_WIDGET_ANDROID
+MOZ_NEVER_INLINE
+#
+endif
 uint32_t
 GetScaledTileLength
 (
