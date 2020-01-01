@@ -271,12 +271,6 @@ set
 "
 )
 ;
-port
-.
-close
-(
-)
-;
 next
 (
 )
@@ -324,6 +318,12 @@ data
 :
 expect
 }
+)
+;
+port
+.
+close
+(
 )
 ;
 }
