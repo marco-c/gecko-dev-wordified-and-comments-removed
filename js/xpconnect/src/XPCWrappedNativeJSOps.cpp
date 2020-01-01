@@ -6215,7 +6215,6 @@ XPCNativeMember
 :
 GetCallInfo
 (
-ccx
 funobj
 &
 iface
@@ -6459,7 +6458,6 @@ XPCNativeMember
 :
 GetCallInfo
 (
-ccx
 funobj
 &
 iface
