@@ -8536,6 +8536,8 @@ const
 nsACString
 &
 aGUID
+PRUint16
+aReason
 )
 {
 return
@@ -8555,6 +8557,8 @@ const
 nsACString
 &
 aGUID
+PRUint16
+aReason
 )
 {
 return
@@ -8614,6 +8618,8 @@ const
 nsACString
 &
 aGUID
+PRUint16
+aReason
 )
 {
 return

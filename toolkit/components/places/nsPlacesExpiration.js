@@ -2986,6 +2986,11 @@ uri
 visitDate
 wholeEntry
 guid
+Ci
+.
+nsINavHistoryObserver
+.
+REASON_EXPIRED
 )
 ;
 }

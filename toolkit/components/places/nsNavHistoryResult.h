@@ -259,6 +259,9 @@ const
 nsACString
 &
 aGUID
+\
+PRUint16
+aReason
 )
 ;
 \
@@ -272,6 +275,9 @@ const
 nsACString
 &
 aGUID
+\
+PRUint16
+aReason
 )
 ;
 \
@@ -310,6 +316,8 @@ const
 nsACString
 &
 aGUID
+PRUint16
+aReason
 )
 ;
 #
