@@ -98,6 +98,10 @@ EXPORTS_mozilla
 dom
 =
 \
+CanvasUtils
+.
+h
+\
 CanvasRenderingContext2D
 .
 h

@@ -704,7 +704,7 @@ DefaultController
 :
 DrawPreview
 (
-nsIDOMCanvasRenderingContext2D
+nsISupports
 *
 ctx
 bool
@@ -727,7 +727,7 @@ DefaultController
 :
 DrawThumbnail
 (
-nsIDOMCanvasRenderingContext2D
+nsISupports
 *
 ctx
 uint32_t

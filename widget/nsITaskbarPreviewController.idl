@@ -118,9 +118,6 @@ interface
 nsIDocShell
 ;
 interface
-nsIDOMCanvasRenderingContext2D
-;
-interface
 nsITaskbarPreview
 ;
 interface
@@ -396,7 +393,7 @@ boolean
 drawPreview
 (
 in
-nsIDOMCanvasRenderingContext2D
+nsISupports
 ctx
 )
 ;
@@ -498,7 +495,7 @@ boolean
 drawThumbnail
 (
 in
-nsIDOMCanvasRenderingContext2D
+nsISupports
 ctx
 in
 unsigned
