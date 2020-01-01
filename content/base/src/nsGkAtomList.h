@@ -78,6 +78,13 @@ _moz_generated_content_image
 )
 GK_ATOM
 (
+_moz_original_size
+"
+_moz_original_size
+"
+)
+GK_ATOM
+(
 _moz_target
 "
 _moz_target
