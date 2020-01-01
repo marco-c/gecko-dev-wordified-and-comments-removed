@@ -2242,6 +2242,9 @@ ptrdiff_t
 offset
 ;
 bool
+reportedOOM
+;
+bool
 realloc_
 (
 size_t
@@ -2400,6 +2403,17 @@ const
 char
 *
 string
+)
+const
+;
+void
+reportOutOfMemory
+(
+)
+;
+bool
+hadOutOfMemory
+(
 )
 const
 ;
