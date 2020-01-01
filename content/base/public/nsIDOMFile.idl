@@ -531,6 +531,9 @@ optional_argc
 nsIDOMBlob
 mozSlice
 (
+[
+optional
+]
 in
 long
 long

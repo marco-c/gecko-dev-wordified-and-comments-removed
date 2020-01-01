@@ -577,7 +577,7 @@ skipStart
 +
 upperBound
 aContentType
-2
+3
 getter_AddRefs
 (
 firstBlob
@@ -707,7 +707,7 @@ MozSlice
 0
 length
 aContentType
-2
+3
 getter_AddRefs
 (
 lastBlob

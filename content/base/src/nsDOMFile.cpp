@@ -881,8 +881,9 @@ rv
 ;
 if
 (
-!
 optional_argc
+<
+2
 )
 {
 aEnd
