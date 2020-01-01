@@ -504,6 +504,16 @@ GARBAGE
 moc_mozqwidget
 .
 cpp
+CSRCS
+=
+\
+keysym2ucs
+.
+c
+\
+(
+NULL
+)
 CPPSRCS
 =
 \
@@ -548,6 +558,10 @@ nsScreenQt
 cpp
 \
 nsScreenManagerQt
+.
+cpp
+\
+nsQtKeyUtils
 .
 cpp
 \
