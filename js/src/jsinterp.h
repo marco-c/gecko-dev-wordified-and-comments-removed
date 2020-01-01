@@ -883,9 +883,7 @@ Throw
 JSContext
 *
 cx
-const
-Value
-&
+HandleValue
 v
 )
 ;
