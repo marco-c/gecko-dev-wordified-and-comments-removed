@@ -11123,8 +11123,13 @@ DIST
 /
 include
 endif
+endif
+#
+NO_DIST_INSTALL
 define
 EXPORT_NAMESPACE_RULE
+ifndef
+NO_DIST_INSTALL
 export
 :
 :
@@ -11150,6 +11155,9 @@ include
 (
 namespace
 )
+endif
+#
+NO_DIST_INSTALL
 endef
 (
 foreach
@@ -11164,9 +11172,6 @@ EXPORT_NAMESPACE_RULE
 )
 )
 )
-endif
-#
-NO_DIST_INSTALL
 #
 #
 #
