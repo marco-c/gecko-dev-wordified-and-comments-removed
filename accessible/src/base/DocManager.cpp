@@ -1486,7 +1486,7 @@ IsInitialDocument
 aDocument
 -
 >
-IsVisible
+IsVisibleConsideringAncestors
 (
 )
 |

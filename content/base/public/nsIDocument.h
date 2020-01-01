@@ -3287,6 +3287,12 @@ mVisible
 ;
 }
 bool
+IsVisibleConsideringAncestors
+(
+)
+const
+;
+bool
 IsActive
 (
 )
