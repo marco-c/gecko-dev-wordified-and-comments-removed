@@ -2766,16 +2766,6 @@ History
 <
 !
 ENTITY
-clearRecentHistory
-.
-accesskey
-"
-H
-"
->
-<
-!
-ENTITY
 privateBrowsingCmd
 .
 commandkey
