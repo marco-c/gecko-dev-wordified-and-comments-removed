@@ -452,8 +452,7 @@ Value
 vp
 )
 ;
-extern
-JSBool
+bool
 ValueToIterator
 (
 JSContext
@@ -466,7 +465,6 @@ Value
 vp
 )
 ;
-extern
 bool
 CloseIterator
 (
@@ -478,7 +476,6 @@ JSObject
 iterObj
 )
 ;
-extern
 bool
 UnwindIteratorForException
 (
@@ -490,7 +487,6 @@ JSObject
 obj
 )
 ;
-extern
 void
 UnwindIteratorForUncatchableException
 (
