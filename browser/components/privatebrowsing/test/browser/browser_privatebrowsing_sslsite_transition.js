@@ -243,3 +243,8 @@ location
 =
 kTestURL
 ;
+waitForExplicitFinish
+(
+)
+;
+}
