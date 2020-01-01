@@ -723,10 +723,8 @@ height
 }
 #
 commonDialog
->
-hbox
->
-vbox
+#
+infoContainer
 {
 max
 -
