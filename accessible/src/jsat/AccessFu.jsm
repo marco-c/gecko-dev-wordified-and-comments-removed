@@ -745,6 +745,17 @@ detach
 ;
 this
 .
+touchAdapter
+.
+detach
+(
+this
+.
+chromeWin
+)
+;
+this
+.
 chromeWin
 .
 removeEventListener
