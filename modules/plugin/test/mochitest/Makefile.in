@@ -695,10 +695,6 @@ test_copyText
 .
 html
 \
-test_crash_nested_loop
-.
-html
-\
 (
 NULL
 )
