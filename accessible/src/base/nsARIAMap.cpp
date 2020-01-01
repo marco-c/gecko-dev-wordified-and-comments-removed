@@ -131,7 +131,7 @@ eNoValue
 eSortAction
 eNoLiveAttr
 kNoReqStates
-eARIASelected
+eARIASelectable
 eARIAReadonly
 }
 {
@@ -221,7 +221,7 @@ eNoValue
 eNoAction
 eNoLiveAttr
 kNoReqStates
-eARIASelected
+eARIASelectable
 eARIAReadonly
 }
 {
@@ -347,7 +347,7 @@ nsIAccessibleStates
 :
 :
 STATE_READONLY
-eARIASelected
+eARIASelectable
 eARIACheckedMixed
 }
 {
@@ -478,7 +478,7 @@ eNoValue
 eSelectAction
 eNoLiveAttr
 kNoReqStates
-eARIASelected
+eARIASelectable
 eARIACheckedMixed
 }
 {
@@ -568,7 +568,7 @@ eNoValue
 eNoAction
 eNoLiveAttr
 kNoReqStates
-eARIASelected
+eARIASelectable
 }
 {
 "
@@ -583,7 +583,7 @@ eNoValue
 eSortAction
 eNoLiveAttr
 kNoReqStates
-eARIASelected
+eARIASelectable
 eARIAReadonly
 }
 {
@@ -804,7 +804,7 @@ eNoValue
 eActivateAction
 eNoLiveAttr
 kNoReqStates
-eARIASelected
+eARIASelectable
 eARIACheckedMixed
 }
 }
@@ -1189,6 +1189,9 @@ nsIAccessibleStates
 :
 STATE_SELECTED
 0
+0
+0
+PR_TRUE
 )
 }
 ;

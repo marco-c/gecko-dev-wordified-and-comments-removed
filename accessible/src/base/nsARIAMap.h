@@ -123,7 +123,7 @@ eARIAPressed
 eARIAReadonly
 eARIAReadonlyOrEditable
 eARIARequired
-eARIASelected
+eARIASelectable
 }
 ;
 class
