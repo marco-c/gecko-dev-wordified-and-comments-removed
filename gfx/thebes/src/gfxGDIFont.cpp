@@ -1871,6 +1871,16 @@ aLogFont
 italic
 weight
 aSize
+(
+mAntialiasOption
+=
+=
+kAntialiasSubpixel
+)
+?
+PR_TRUE
+:
+PR_FALSE
 )
 ;
 }
