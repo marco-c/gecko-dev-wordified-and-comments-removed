@@ -19625,12 +19625,11 @@ defineOnXray
 {
 global
 =
-xpc
+js
 :
 :
-Unwrap
+UnwrapObjectChecked
 (
-cx
 obj
 false
 )
