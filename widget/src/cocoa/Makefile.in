@@ -487,6 +487,8 @@ js
 \
 xpconnect
 \
+imglib2
+\
 (
 NULL
 )
@@ -535,6 +537,10 @@ nsMenuBarX
 mm
 \
 nsMenuItemX
+.
+mm
+\
+nsMenuItemIconX
 .
 mm
 \

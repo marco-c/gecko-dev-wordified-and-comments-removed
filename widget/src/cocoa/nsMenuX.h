@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsIMenu
 .
 h
@@ -72,6 +79,9 @@ nsIMenuListener
 ;
 class
 nsMenuX
+;
+class
+nsMenuItemIconX
 ;
 interface
 MenuDelegate
@@ -536,6 +546,12 @@ nsCOMPtr
 nsIMenuListener
 >
 mListener
+;
+nsRefPtr
+<
+nsMenuItemIconX
+>
+mIcon
 ;
 PRInt16
 mMacMenuID
