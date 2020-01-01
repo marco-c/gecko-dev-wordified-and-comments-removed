@@ -1301,6 +1301,9 @@ isInspectorOpen
 )
 {
 return
+!
+!
+(
 this
 .
 toolbar
@@ -1317,6 +1320,7 @@ hidden
 this
 .
 highlighter
+)
 ;
 }
 get
@@ -2376,12 +2380,11 @@ this
 .
 inspectMenuitem
 .
-setAttribute
+removeAttribute
 (
 "
 checked
 "
-false
 )
 ;
 this
