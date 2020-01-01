@@ -427,6 +427,7 @@ MinidumpGenerator
 >
 dump_generator_
 ;
+volatile
 IPCServerState
 server_state_
 ;
