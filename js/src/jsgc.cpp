@@ -14267,7 +14267,7 @@ ifdef
 JS_THREADSAFE
 static
 void
-LetOtherGCToFinish
+LetOtherGCFinish
 (
 JSContext
 *
@@ -14398,6 +14398,7 @@ JS_NOTIFY_REQUEST_DONE
 rt
 )
 ;
+}
 cx
 -
 >
@@ -14455,7 +14456,6 @@ requestCount
 =
 requestDebit
 ;
-}
 }
 #
 endif
@@ -14778,7 +14778,7 @@ gcRunning
 return
 ;
 }
-LetOtherGCToFinish
+LetOtherGCFinish
 (
 cx
 )
@@ -15145,7 +15145,7 @@ rt
 gcThread
 )
 ;
-LetOtherGCToFinish
+LetOtherGCFinish
 (
 cx
 )
