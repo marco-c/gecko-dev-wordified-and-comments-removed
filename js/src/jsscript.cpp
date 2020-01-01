@@ -4211,7 +4211,6 @@ cx
 js_ScriptClass
 NULL
 NULL
-0
 )
 ;
 if

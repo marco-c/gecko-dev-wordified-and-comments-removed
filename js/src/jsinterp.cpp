@@ -4402,7 +4402,6 @@ cx
 js_NoSuchMethodClass
 NULL
 NULL
-0
 )
 ;
 if
@@ -8349,7 +8348,6 @@ cx
 clasp
 proto
 parent
-0
 )
 ;
 if
@@ -24628,7 +24626,6 @@ OBJ_GET_PARENT
 cx
 obj
 )
-0
 )
 ;
 if
@@ -31008,7 +31005,6 @@ cx
 js_ObjectClass
 NULL
 NULL
-0
 )
 ;
 if

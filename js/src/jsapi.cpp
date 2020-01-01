@@ -12033,11 +12033,7 @@ GCX_EXTERNAL_STRING
 ;
 str
 =
-(
-JSString
-*
-)
-js_NewGCThing
+js_NewGCString
 (
 cx
 (
@@ -12046,10 +12042,6 @@ uintN
 type
 +
 GCX_EXTERNAL_STRING
-sizeof
-(
-JSString
-)
 )
 ;
 if
@@ -13109,7 +13101,6 @@ cx
 clasp
 proto
 parent
-0
 )
 ;
 }
@@ -13156,7 +13147,6 @@ cx
 clasp
 proto
 parent
-0
 )
 ;
 }
@@ -13950,7 +13940,6 @@ cx
 clasp
 proto
 obj
-0
 )
 ;
 if
@@ -18931,7 +18920,6 @@ cx
 prop_iter_class
 NULL
 obj
-0
 )
 ;
 if
@@ -22096,7 +22084,6 @@ cx
 js_ScriptClass
 NULL
 NULL
-0
 )
 ;
 JS_ASSERT
@@ -22127,7 +22114,6 @@ cx
 js_ScriptClass
 NULL
 NULL
-0
 )
 ;
 if

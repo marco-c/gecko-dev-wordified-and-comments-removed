@@ -2564,8 +2564,10 @@ proto
 JSObject
 *
 parent
-uintN
+size_t
 objectSize
+=
+0
 )
 ;
 extern
@@ -2585,8 +2587,10 @@ proto
 JSObject
 *
 parent
-uintN
+size_t
 objectSize
+=
+0
 )
 ;
 extern

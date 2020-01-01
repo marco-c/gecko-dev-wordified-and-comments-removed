@@ -8574,7 +8574,6 @@ cx
 clasp
 proto
 parent
-0
 )
 ;
 if

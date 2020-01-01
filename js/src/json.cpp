@@ -3162,7 +3162,6 @@ cx
 js_ObjectClass
 NULL
 NULL
-0
 )
 ;
 if
@@ -3770,7 +3769,6 @@ cx
 js_ObjectClass
 NULL
 NULL
-0
 )
 ;
 if
@@ -4794,7 +4792,6 @@ cx
 js_ObjectClass
 NULL
 NULL
-0
 )
 ;
 if

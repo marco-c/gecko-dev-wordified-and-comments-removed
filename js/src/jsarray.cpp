@@ -15664,7 +15664,6 @@ cx
 js_ArrayClass
 NULL
 NULL
-0
 )
 ;
 if
@@ -15840,18 +15839,10 @@ JSObject
 *
 obj
 =
-(
-JSObject
-*
-)
-js_NewGCThing
+js_NewGCObject
 (
 cx
 GCX_OBJECT
-sizeof
-(
-JSObject
-)
 )
 ;
 if
@@ -16189,7 +16180,6 @@ cx
 js_ArrayClass
 NULL
 NULL
-0
 )
 ;
 if
@@ -16267,7 +16257,6 @@ cx
 js_SlowArrayClass
 NULL
 NULL
-0
 )
 ;
 if

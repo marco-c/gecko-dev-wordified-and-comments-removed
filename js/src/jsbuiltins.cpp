@@ -1852,7 +1852,6 @@ cx
 js_ArgumentsClass
 NULL
 NULL
-0
 )
 ;
 }
@@ -1936,18 +1935,10 @@ JSObject
 *
 closure
 =
-(
-JSObject
-*
-)
-js_NewGCThing
+js_NewGCObject
 (
 cx
 GCX_OBJECT
-sizeof
-(
-JSObject
-)
 )
 ;
 if
