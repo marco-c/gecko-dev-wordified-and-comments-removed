@@ -1707,6 +1707,11 @@ GetCurrentDocChannel
 (
 )
 ;
+void
+StopOutstandingOtherDocumentLoad
+(
+)
+;
 protected
 :
 virtual
