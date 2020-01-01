@@ -251,6 +251,10 @@ FrameLayerBuilder
 .
 cpp
 \
+MaskLayerImageCache
+.
+cpp
+\
 FramePropertyTable
 .
 cpp
