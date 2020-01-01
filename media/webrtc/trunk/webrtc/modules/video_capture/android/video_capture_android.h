@@ -173,6 +173,8 @@ jbyteArray
 javaCameraFrame
 jint
 length
+jint
+rotation
 jlong
 context
 )

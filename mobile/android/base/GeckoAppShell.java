@@ -10799,6 +10799,12 @@ onResume
 (
 )
 ;
+public
+void
+onConfigurationChanged
+(
+)
+;
 }
 public
 interface
