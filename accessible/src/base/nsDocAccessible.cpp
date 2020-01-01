@@ -2293,6 +2293,11 @@ NS_RELEASE_THIS
 ;
 }
 }
+if
+(
+!
+gIsShuttingDownApp
+)
 gGlobalDocAccessibleCache
 .
 Remove
