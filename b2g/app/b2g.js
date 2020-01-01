@@ -2226,6 +2226,16 @@ auto
 pref
 (
 "
+media
+.
+cache_size
+"
+4096
+)
+;
+pref
+(
+"
 widget
 .
 ime
