@@ -8756,6 +8756,15 @@ body
 [
 CDATA
 [
+if
+(
+!
+aURIs
+.
+length
+)
+return
+;
 /
 /
 The
