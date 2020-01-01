@@ -454,7 +454,6 @@ function
 (
 )
 {
-{
 return
 ;
 this
