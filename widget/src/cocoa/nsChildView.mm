@@ -25212,13 +25212,6 @@ BOOL
 )
 resignFirstResponder
 {
-nsTSMManager
-:
-:
-CommitIME
-(
-)
-;
 return
 [
 super
@@ -25375,13 +25368,6 @@ nsAutoRetainView
 kungFuDeathGrip
 (
 self
-)
-;
-nsTSMManager
-:
-:
-CommitIME
-(
 )
 ;
 [
