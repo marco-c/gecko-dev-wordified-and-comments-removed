@@ -11139,6 +11139,9 @@ docShell
 if
 (
 ds
+&
+&
+ds
 .
 contentViewer
 &
