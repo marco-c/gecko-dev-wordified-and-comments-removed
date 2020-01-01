@@ -942,9 +942,7 @@ PointerType
 CreateInternal
 (
 cx
-NULL
 typeObj
-NULL
 )
 ;
 if
