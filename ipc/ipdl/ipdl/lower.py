@@ -20650,6 +20650,20 @@ pfx
 )
 :
         
+actorname
+=
+_actorName
+(
+self
+.
+protocol
+.
+name
+self
+.
+side
+)
+        
 return
 _ifLogging
 (
@@ -20683,11 +20697,7 @@ String
 [
 '
 +
-self
-.
-protocol
-.
-name
+actorname
 +
 '
 ]
