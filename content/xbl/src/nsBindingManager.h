@@ -353,6 +353,10 @@ aBinding
 void
 ProcessAttachedQueue
 (
+PRUint32
+aSkipSize
+=
+0
 )
 ;
 void
@@ -644,8 +648,8 @@ mAttachedStack
 PRPackedBool
 mProcessingAttachedStack
 ;
-PRPackedBool
-mProcessOnEndUpdate
+PRUint32
+mAttachedStackSizeOnOutermost
 ;
 friend
 class
