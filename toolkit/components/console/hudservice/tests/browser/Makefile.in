@@ -716,6 +716,10 @@ browser_webconsole_bug_587615_lastTimestamp
 .
 js
 \
+browser_webconsole_bug_597460_filter_scroll
+.
+js
+\
 head
 .
 js
