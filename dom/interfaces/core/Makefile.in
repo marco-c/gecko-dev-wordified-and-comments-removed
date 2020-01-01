@@ -144,6 +144,10 @@ nsIDOMText
 .
 idl
 \
+nsIDocumentRegister
+.
+idl
+\
 (
 NULL
 )

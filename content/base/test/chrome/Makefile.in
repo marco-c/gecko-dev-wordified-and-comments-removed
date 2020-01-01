@@ -253,6 +253,10 @@ host_bug814638
 .
 xul
 \
+test_document_register
+.
+xul
+\
 frame_bug814638
 .
 xul

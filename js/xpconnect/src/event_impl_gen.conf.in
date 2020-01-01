@@ -198,6 +198,9 @@ USSDReceivedEvent
 #
 endif
 '
+ElementReplaceEvent
+'
+'
 MozSmsEvent
 '
 '

@@ -907,6 +907,10 @@ ValidityState
 .
 webidl
 \
+WebComponents
+.
+webidl
+\
 WebSocket
 .
 webidl
