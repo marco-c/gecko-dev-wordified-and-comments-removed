@@ -427,7 +427,7 @@ MOZ_APP_VERSION
 =
 1
 .
-0b1
+0b2pre
 ;
 ;
 esac
