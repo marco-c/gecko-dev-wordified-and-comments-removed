@@ -448,10 +448,6 @@ xhtml
 .
 html
 \
-489127
-.
-html
-\
 historyframes
 .
 html
@@ -517,10 +513,6 @@ test_windowProperties
 html
 \
 test_clipboard_events
-.
-html
-\
-test_nodesFromRect
 .
 html
 \

@@ -544,6 +544,14 @@ test_moving_xhr
 .
 xul
 \
+test_nodesFromRect
+.
+html
+\
+489127
+.
+html
+\
 (
 NULL
 )
