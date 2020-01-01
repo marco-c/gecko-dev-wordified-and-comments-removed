@@ -330,6 +330,10 @@ BackButton
 .
 java
 \
+BaseGeckoInterface
+.
+java
+\
 BrowserApp
 .
 java
