@@ -55,11 +55,7 @@ MPL
 .
 DEPTH
 =
-.
-.
-/
-.
-.
+DEPTH
 topsrcdir
 =
 top_srcdir
@@ -68,9 +64,7 @@ srcdir
 srcdir
 relativesrcdir
 =
-chrome
-/
-test
+relativesrcdir
 VPATH
 =
 srcdir

@@ -56,11 +56,7 @@ MPL
 .
 DEPTH
 =
-.
-.
-/
-.
-.
+DEPTH
 topsrcdir
 =
 top_srcdir
@@ -72,9 +68,7 @@ VPATH
 srcdir
 relativesrcdir
 =
-build
-/
-pgo
+relativesrcdir
 include
 (
 DEPTH
@@ -116,11 +110,7 @@ _profile
 pgo
 TARGET_DEPTH
 =
-.
-.
-/
-.
-.
+DEPTH
 include
 (
 topsrcdir

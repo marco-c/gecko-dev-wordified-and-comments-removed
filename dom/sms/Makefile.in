@@ -55,11 +55,7 @@ MPL
 .
 DEPTH
 =
-.
-.
-/
-.
-.
+DEPTH
 topsrcdir
 =
 top_srcdir
@@ -71,9 +67,7 @@ VPATH
 srcdir
 relativesrcdir
 =
-dom
-/
-sms
+relativesrcdir
 include
 (
 DEPTH
