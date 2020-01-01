@@ -7382,7 +7382,6 @@ plain
 #
 bug
 404419
-#
 =
 =
 404553
@@ -7400,10 +7399,14 @@ html
 #
 assertion
 test
-disabled
-because
-of
-failures
+also
+tests
+that
+marquee
+binding
+is
+applied
+correctly
 =
 =
 404666
