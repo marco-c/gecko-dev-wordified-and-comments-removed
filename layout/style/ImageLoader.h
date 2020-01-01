@@ -43,6 +43,13 @@ h
 #
 include
 "
+imgIOnloadBlocker
+.
+h
+"
+#
+include
+"
 nsStubImageDecoderObserver
 .
 h
@@ -73,6 +80,8 @@ ImageLoader
 :
 public
 nsStubImageDecoderObserver
+public
+imgIOnloadBlocker
 {
 public
 :
@@ -121,6 +130,7 @@ Init
 ;
 }
 NS_DECL_ISUPPORTS
+NS_DECL_IMGIONLOADBLOCKER
 NS_IMETHOD
 OnStartContainer
 (

@@ -600,11 +600,6 @@ mSuppressed
 :
 1
 ;
-bool
-mBlockingOnload
-:
-1
-;
 protected
 :
 bool
