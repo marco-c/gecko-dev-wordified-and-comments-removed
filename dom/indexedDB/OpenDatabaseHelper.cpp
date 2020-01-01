@@ -6678,7 +6678,7 @@ MOZ_OVERRIDE
 ;
 virtual
 ChildProcessSendResult
-MaybeSendResponseToChildProcess
+SendResponseToChildProcess
 (
 nsresult
 aResultCode
@@ -6899,7 +6899,7 @@ return
 }
 virtual
 ChildProcessSendResult
-MaybeSendResponseToChildProcess
+SendResponseToChildProcess
 (
 nsresult
 aResultCode
