@@ -1383,6 +1383,8 @@ send
 recv
 "
 ;
+break
+;
 case
 ChannelClosing
 :
@@ -1403,6 +1405,8 @@ will
 be
 lost
 "
+;
+break
 ;
 case
 ChannelError
