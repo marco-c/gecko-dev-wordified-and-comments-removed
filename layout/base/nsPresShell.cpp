@@ -43368,6 +43368,14 @@ value
 "
 )
 ;
+if
+(
+mMaxLineBoxWidth
+!
+=
+aMaxLineBoxWidth
+)
+{
 mMaxLineBoxWidth
 =
 aMaxLineBoxWidth
@@ -43381,4 +43389,5 @@ eResize
 NS_FRAME_IS_DIRTY
 )
 ;
+}
 }
