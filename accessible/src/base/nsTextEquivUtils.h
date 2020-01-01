@@ -236,13 +236,6 @@ Role
 aRole
 )
 ;
-static
-nsRefPtr
-<
-Accessible
->
-gInitiatorAcc
-;
 }
 ;
 #
