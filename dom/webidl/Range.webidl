@@ -196,6 +196,9 @@ apply
 .
 *
 /
+[
+Constructor
+]
 interface
 Range
 {
