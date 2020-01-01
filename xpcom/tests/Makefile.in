@@ -451,6 +451,10 @@ nsIFileEnumerator
 .
 cpp
 \
+ShowSSEConfig
+.
+cpp
+\
 TestCallTemplates
 .
 cpp

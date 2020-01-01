@@ -585,6 +585,10 @@ DeadlockDetector
 .
 cpp
 \
+SSE
+.
+cpp
+\
 nsAutoLock
 .
 cpp
