@@ -423,6 +423,14 @@ test_crosscompartment_weakmap
 .
 html
 \
+test_asmjs
+.
+html
+\
+file_asmjs
+.
+js
+\
 (
 NULL
 )
