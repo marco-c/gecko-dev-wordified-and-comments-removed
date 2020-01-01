@@ -3306,7 +3306,7 @@ obj
 js
 :
 :
-RawShape
+HandleShape
 shape
 unsigned
 attrs
@@ -3334,8 +3334,7 @@ obj
 js
 :
 :
-Shape
-*
+HandleShape
 shape
 unsigned
 attrs

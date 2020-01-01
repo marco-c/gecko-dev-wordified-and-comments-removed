@@ -273,6 +273,14 @@ js
 :
 frontend
 ;
+typedef
+Rooted
+<
+GlobalObject
+*
+>
+RootedGlobalObject
+;
 unsigned
 Bindings
 :
@@ -13548,10 +13556,10 @@ setFunction
 clone
 )
 ;
-GlobalObject
-*
+RootedGlobalObject
 global
-=
+(
+cx
 script
 -
 >
@@ -13566,6 +13574,7 @@ global
 )
 :
 NULL
+)
 ;
 script
 =
