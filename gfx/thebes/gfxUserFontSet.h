@@ -661,15 +661,6 @@ aName
 )
 const
 ;
-void
-RemoveFamily
-(
-const
-nsAString
-&
-aFamilyName
-)
-;
 nsRefPtrHashtable
 <
 nsStringHashKey
