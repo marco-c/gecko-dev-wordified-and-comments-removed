@@ -1810,6 +1810,12 @@ p
 )
 ;
 virtual
+void
+CommenceShutdown
+(
+)
+;
+virtual
 PRBool
 Collect
 (
