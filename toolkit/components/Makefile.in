@@ -489,8 +489,6 @@ urlformatter
 \
 viewconfig
 \
-webapps
-\
 (
 NULL
 )
