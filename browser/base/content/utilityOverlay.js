@@ -961,7 +961,7 @@ params
 initiatingDoc
 ;
 var
-isPrivate
+aIsPrivate
 =
 params
 .
@@ -1295,7 +1295,7 @@ ifdef
 MOZ_PER_WINDOW_PRIVATE_BROWSING
 if
 (
-isPrivate
+aIsPrivate
 )
 {
 features
