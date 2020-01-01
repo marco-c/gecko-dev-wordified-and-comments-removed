@@ -8525,7 +8525,7 @@ fop
 finalizeNow
 (
 fop
-FINALIZE_SCRIPT
+FINALIZE_IONCODE
 )
 ;
 }
