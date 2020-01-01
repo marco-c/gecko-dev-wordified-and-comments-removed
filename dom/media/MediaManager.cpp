@@ -1802,6 +1802,8 @@ i
 ]
 )
 ;
+break
+;
 }
 }
 if
@@ -1958,6 +1960,8 @@ audioSources
 i
 ]
 )
+;
+break
 ;
 }
 }
