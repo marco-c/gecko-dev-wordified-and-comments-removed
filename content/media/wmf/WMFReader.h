@@ -303,9 +303,6 @@ bool
 mHasVideo
 ;
 bool
-mCanSeek
-;
-bool
 mUseHwAccel
 ;
 const
