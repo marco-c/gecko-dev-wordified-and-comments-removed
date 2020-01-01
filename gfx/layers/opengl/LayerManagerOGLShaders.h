@@ -303,7 +303,7 @@ a
 =
 1
 .
-0f
+0
 ;
 \
 gl_FragColor
