@@ -1305,12 +1305,8 @@ viewBounds
 ;
 newBounds
 .
-ScaleRoundPreservingCenters
+ScaleRoundPreservingCentersInverse
 (
-1
-.
-0f
-/
 p2a
 )
 ;

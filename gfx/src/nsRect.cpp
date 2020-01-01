@@ -927,7 +927,7 @@ nsRect
 nsRect
 :
 :
-ScaleRoundPreservingCenters
+ScaleRoundPreservingCentersInverse
 (
 float
 aScale
@@ -944,7 +944,7 @@ XMost
 (
 )
 )
-*
+/
 aScale
 )
 ;
@@ -959,7 +959,7 @@ YMost
 (
 )
 )
-*
+/
 aScale
 )
 ;
@@ -971,7 +971,7 @@ float
 (
 x
 )
-*
+/
 aScale
 )
 ;
@@ -983,7 +983,7 @@ float
 (
 y
 )
-*
+/
 aScale
 )
 ;

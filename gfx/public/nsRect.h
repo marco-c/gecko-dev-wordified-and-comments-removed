@@ -915,7 +915,7 @@ aScale
 ;
 nsRect
 &
-ScaleRoundPreservingCenters
+ScaleRoundPreservingCentersInverse
 (
 float
 aScale
