@@ -540,7 +540,7 @@ T
 >
 :
 :
-max
+max_value
 (
 )
 )
@@ -557,7 +557,7 @@ T
 >
 :
 :
-min
+min_value
 (
 )
 )
@@ -2467,7 +2467,7 @@ T
 >
 :
 :
-max
+max_value
 (
 )
 )
@@ -2490,7 +2490,7 @@ U
 >
 :
 :
-max
+max_value
 (
 )
 )
@@ -2547,7 +2547,7 @@ U
 >
 :
 :
-min
+min_value
 (
 )
 )

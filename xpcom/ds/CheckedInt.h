@@ -250,7 +250,7 @@ T
 ;
 static
 T
-min
+min_value
 (
 )
 {
@@ -276,13 +276,13 @@ T
 }
 static
 T
-max
+max_value
 (
 )
 {
 return
 ~
-min
+min_value
 (
 )
 ;
@@ -400,7 +400,7 @@ T
 >
 :
 :
-max
+max_value
 (
 )
 )
@@ -415,7 +415,7 @@ T
 >
 :
 :
-min
+min_value
 (
 )
 )
@@ -457,7 +457,7 @@ T
 >
 :
 :
-max
+max_value
 (
 )
 ;
@@ -516,7 +516,7 @@ T
 >
 :
 :
-max
+max_value
 (
 )
 )
@@ -586,7 +586,7 @@ T
 >
 :
 :
-max
+max_value
 (
 )
 )
@@ -913,7 +913,7 @@ T
 >
 :
 :
-max
+max_value
 (
 )
 ;
@@ -927,7 +927,7 @@ T
 >
 :
 :
-min
+min_value
 (
 )
 ;
@@ -1040,7 +1040,7 @@ T
 >
 :
 :
-max
+max_value
 (
 )
 ;
@@ -1141,7 +1141,7 @@ T
 >
 :
 :
-min
+min_value
 (
 )
 |
