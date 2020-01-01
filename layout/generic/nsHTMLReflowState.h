@@ -549,10 +549,6 @@ mPercentHeightObserver
 ;
 nsIFrame
 *
-mPercentHeightReflowInitiator
-;
-nsIFrame
-*
 *
 mDiscoveredClearance
 ;
