@@ -2560,3 +2560,17 @@ and
 Install
 "
 >
+<
+!
+ENTITY
+settings
+.
+path
+.
+button
+.
+label
+"
+Browse
+"
+>
