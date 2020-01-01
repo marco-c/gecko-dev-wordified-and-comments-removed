@@ -758,7 +758,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 ValueArray
@@ -1701,7 +1701,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 v
@@ -1949,7 +1949,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 v
@@ -1983,7 +1983,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 v
@@ -2018,7 +2018,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 v
@@ -2053,7 +2053,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 v
@@ -2086,7 +2086,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 v
@@ -2121,7 +2121,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 v
@@ -2186,7 +2186,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 v
@@ -2233,7 +2233,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 v
@@ -2280,7 +2280,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 v
@@ -2327,7 +2327,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 v
@@ -2374,7 +2374,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 v
@@ -2417,7 +2417,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 v
@@ -2569,7 +2569,7 @@ jsval
 v2
 )
 {
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 v1
@@ -2600,7 +2600,7 @@ jsval
 v2
 )
 {
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 v1
@@ -4995,7 +4995,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -5611,7 +5611,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -6866,7 +6866,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -7383,7 +7383,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -7853,7 +7853,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -8178,7 +8178,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -8288,7 +8288,7 @@ JSObject
 obj
 )
 {
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -8391,7 +8391,7 @@ jsval
 vp
 )
 {
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 ValueArray
@@ -12446,7 +12446,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 v
@@ -12579,7 +12579,7 @@ ID_TO_VALUE
 id
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 *
@@ -12751,7 +12751,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -12855,7 +12855,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -12957,7 +12957,7 @@ JSBool
 bp
 )
 {
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -12989,7 +12989,7 @@ JSObject
 obj
 )
 {
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -13021,7 +13021,7 @@ void
 data
 )
 {
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -13107,7 +13107,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -13158,7 +13158,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -13191,7 +13191,7 @@ JSObject
 obj
 )
 {
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -13244,7 +13244,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -13285,7 +13285,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 proto
@@ -13383,7 +13383,7 @@ jsid
 idp
 )
 {
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -13504,7 +13504,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 proto
@@ -13587,7 +13587,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 proto
@@ -13648,7 +13648,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -13989,7 +13989,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 proto
@@ -14049,7 +14049,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 proto
@@ -14112,7 +14112,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -14576,7 +14576,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -14954,7 +14954,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -15237,7 +15237,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -15794,7 +15794,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -15849,7 +15849,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -16148,7 +16148,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -16402,7 +16402,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -17635,7 +17635,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -17828,7 +17828,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -17944,7 +17944,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -18135,7 +18135,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -18411,7 +18411,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -18509,7 +18509,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -18846,7 +18846,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -19008,7 +19008,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 iterobj
@@ -19237,7 +19237,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -19276,7 +19276,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -19315,7 +19315,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 ValueArray
@@ -19354,7 +19354,7 @@ JSObject
 obj
 )
 {
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -19397,7 +19397,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -19433,7 +19433,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -19470,7 +19470,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -19514,7 +19514,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -19770,7 +19770,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 parent
@@ -19847,7 +19847,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 parent
@@ -20830,7 +20830,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -21087,7 +21087,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -21156,7 +21156,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -21343,7 +21343,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -21592,7 +21592,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -21742,7 +21742,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -21895,7 +21895,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -21995,7 +21995,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 script
@@ -22126,7 +22126,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 script
@@ -22198,7 +22198,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -22735,7 +22735,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 script
@@ -22821,7 +22821,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 fun
@@ -22873,7 +22873,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 fun
@@ -22931,7 +22931,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -23277,7 +23277,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -23348,7 +23348,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -23459,7 +23459,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 obj
@@ -23518,7 +23518,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 ctor
@@ -24630,7 +24630,7 @@ JSString
 str
 )
 {
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 str
@@ -24660,7 +24660,7 @@ JSString
 str
 )
 {
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 str
@@ -25051,7 +25051,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 replacer
@@ -25115,7 +25115,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 *
@@ -25214,7 +25214,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 reviver
@@ -25778,7 +25778,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 input
@@ -25978,7 +25978,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 v
@@ -26279,7 +26279,7 @@ exception
 )
 )
 {
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 state
@@ -26328,7 +26328,7 @@ CHECK_REQUEST
 cx
 )
 ;
-assertSameCompartment
+ASSERT_SAME_COMPARTMENT
 (
 cx
 v
