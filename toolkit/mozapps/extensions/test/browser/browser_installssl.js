@@ -278,6 +278,12 @@ run_next_install_test
 (
 )
 ;
+install
+.
+cancel
+(
+)
+;
 return
 false
 ;
