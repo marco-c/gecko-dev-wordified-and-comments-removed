@@ -145,6 +145,16 @@ PRBool
 result
 )
 ;
+bool
+EqualsInternal
+(
+nsSimpleURI
+*
+otherUri
+RefHandlingEnum
+refHandlingMode
+)
+;
 virtual
 nsSimpleURI
 *
