@@ -647,6 +647,10 @@ not
 exist
 !
 "
+1
+>
+&
+2
 exit
 1
 fi
@@ -689,6 +693,10 @@ MOZCONFIG
 instead
 .
 "
+1
+>
+&
+2
 exit
 1
 fi
@@ -753,6 +761,10 @@ the
 other
 .
 "
+1
+>
+&
+2
 exit
 1
 fi
@@ -922,7 +934,10 @@ via
 MOZCONFIG
 .
 "
-;
+1
+>
+&
+2
 exit
 1
 fi
