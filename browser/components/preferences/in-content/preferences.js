@@ -146,6 +146,12 @@ init
 (
 )
 ;
+gContentPane
+.
+init
+(
+)
+;
 var
 initFinished
 =

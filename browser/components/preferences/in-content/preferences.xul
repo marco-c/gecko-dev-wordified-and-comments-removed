@@ -938,6 +938,11 @@ include
 applications
 .
 xul
+#
+include
+content
+.
+xul
 <
 /
 prefpane
