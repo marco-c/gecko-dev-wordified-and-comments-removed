@@ -12,9 +12,13 @@ keys
 CFBundleName
 =
 "
-%
-APP_NAME
-%
+Crash
+Reporter
+"
+;
+CFBundleDisplayName
+=
+"
 Crash
 Reporter
 "
