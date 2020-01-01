@@ -356,9 +356,6 @@ mallocSizeOf
 )
 {
 }
-js
-:
-:
 RuntimeSizes
 runtime
 ;
