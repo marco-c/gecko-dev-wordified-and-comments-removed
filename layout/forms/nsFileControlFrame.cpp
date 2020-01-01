@@ -218,7 +218,7 @@ h
 #
 include
 "
-nsIDOMNSUIEvent
+nsIDOMNSEvent
 .
 h
 "
@@ -1769,9 +1769,9 @@ aMouseEvent
 ;
 nsCOMPtr
 <
-nsIDOMNSUIEvent
+nsIDOMNSEvent
 >
-uiEvent
+domNSEvent
 =
 do_QueryInterface
 (
@@ -1783,7 +1783,7 @@ NS_ENSURE_TRUE
 mouseEvent
 &
 &
-uiEvent
+domNSEvent
 PR_FALSE
 )
 ;
@@ -1792,7 +1792,7 @@ defaultPrevented
 =
 PR_FALSE
 ;
-uiEvent
+domNSEvent
 -
 >
 GetPreventDefault
@@ -2318,9 +2318,9 @@ NS_OK
 }
 nsCOMPtr
 <
-nsIDOMNSUIEvent
+nsIDOMNSEvent
 >
-uiEvent
+domNSEvent
 =
 do_QueryInterface
 (
@@ -2329,7 +2329,7 @@ aEvent
 ;
 NS_ENSURE_STATE
 (
-uiEvent
+domNSEvent
 )
 ;
 PRBool
@@ -2337,7 +2337,7 @@ defaultPrevented
 =
 PR_FALSE
 ;
-uiEvent
+domNSEvent
 -
 >
 GetPreventDefault

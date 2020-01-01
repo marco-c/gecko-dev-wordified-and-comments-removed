@@ -6020,7 +6020,7 @@ if
 rows
 =
 =
-NSUIEvent
+UIEvent
 .
 SCROLL_PAGE_UP
 )
@@ -6039,7 +6039,7 @@ if
 rows
 =
 =
-NSUIEvent
+UIEvent
 .
 SCROLL_PAGE_DOWN
 )

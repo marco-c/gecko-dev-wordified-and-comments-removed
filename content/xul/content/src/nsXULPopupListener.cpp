@@ -113,13 +113,6 @@ h
 #
 include
 "
-nsIDOMNSUIEvent
-.
-h
-"
-#
-include
-"
 nsIDOMEventTarget
 .
 h
@@ -419,11 +412,9 @@ NS_OK
 }
 nsCOMPtr
 <
-nsIDOMNSUIEvent
+nsIDOMNSEvent
 >
-nsUIEvent
-;
-nsUIEvent
+domNSEvent
 =
 do_QueryInterface
 (
@@ -433,7 +424,7 @@ mouseEvent
 if
 (
 !
-nsUIEvent
+domNSEvent
 )
 {
 return
@@ -556,7 +547,7 @@ NS_ERROR_FAILURE
 PRBool
 preventDefault
 ;
-nsUIEvent
+domNSEvent
 -
 >
 GetPreventDefault

@@ -47,8 +47,11 @@ nsDOMKeyboardEvent
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIDOMKEYEVENT
 NS_FORWARD_TO_NSDOMUIEVENT
-NS_IMETHOD
-GetWhich
+protected
+:
+virtual
+nsresult
+Which
 (
 PRUint32
 *

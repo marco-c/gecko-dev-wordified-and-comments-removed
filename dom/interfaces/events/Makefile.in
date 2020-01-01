@@ -474,10 +474,6 @@ nsIDOMMutationEvent
 .
 idl
 \
-nsIDOMNSUIEvent
-.
-idl
-\
 nsIDOMDragEvent
 .
 idl

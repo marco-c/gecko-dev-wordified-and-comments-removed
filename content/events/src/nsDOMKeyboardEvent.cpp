@@ -408,11 +408,11 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsDOMKeyboardEvent
 :
 :
-GetWhich
+Which
 (
 PRUint32
 *

@@ -98,7 +98,7 @@ h
 #
 include
 "
-nsIDOMNSUIEvent
+nsIDOMNSMouseEvent
 .
 h
 "

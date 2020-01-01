@@ -1094,11 +1094,11 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsDOMMouseEvent
 :
 :
-GetWhich
+Which
 (
 PRUint32
 *
