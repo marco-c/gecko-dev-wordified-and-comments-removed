@@ -6599,6 +6599,7 @@ GonkCameraHardware
 ReleaseHandle
 (
 mHwHandle
+true
 )
 ;
 if
