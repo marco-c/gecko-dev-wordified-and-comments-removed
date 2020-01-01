@@ -158,7 +158,7 @@ gecko
 .
 util
 .
-GeckoBackgroundThread
+ThreadUtils
 ;
 import
 android
@@ -1987,9 +1987,9 @@ TabsProvider
 "
 )
 ;
-GeckoBackgroundThread
+ThreadUtils
 .
-post
+postToBackgroundThread
 (
 new
 Runnable

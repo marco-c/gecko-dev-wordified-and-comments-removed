@@ -30,7 +30,6 @@ concurrent
 .
 SynchronousQueue
 ;
-public
 final
 class
 GeckoBackgroundThread
@@ -124,7 +123,6 @@ loop
 )
 ;
 }
-public
 static
 synchronized
 Handler
@@ -186,7 +184,6 @@ return
 sHandler
 ;
 }
-public
 static
 void
 post

@@ -1971,9 +1971,9 @@ mContentObserver
 new
 ContentObserver
 (
-GeckoAppShell
+ThreadUtils
 .
-getHandler
+getBackgroundHandler
 (
 )
 )

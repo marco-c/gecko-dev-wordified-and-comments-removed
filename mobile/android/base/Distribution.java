@@ -14,7 +14,7 @@ gecko
 .
 util
 .
-GeckoBackgroundThread
+ThreadUtils
 ;
 import
 android
@@ -191,13 +191,9 @@ String
 packagePath
 )
 {
-GeckoBackgroundThread
+ThreadUtils
 .
-getHandler
-(
-)
-.
-post
+postToBackgroundThread
 (
 new
 Runnable

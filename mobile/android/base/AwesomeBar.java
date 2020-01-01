@@ -3183,9 +3183,9 @@ Void
 Void
 >
 (
-GeckoAppShell
+ThreadUtils
 .
-getHandler
+getBackgroundHandler
 (
 )
 )
@@ -3469,9 +3469,9 @@ Void
 Void
 >
 (
-GeckoAppShell
+ThreadUtils
 .
-getHandler
+getBackgroundHandler
 (
 )
 )
@@ -3621,9 +3621,9 @@ Void
 Void
 >
 (
-GeckoAppShell
+ThreadUtils
 .
-getHandler
+getBackgroundHandler
 (
 )
 )

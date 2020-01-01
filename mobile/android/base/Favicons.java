@@ -588,9 +588,9 @@ task
 new
 LoadFaviconTask
 (
-GeckoAppShell
+ThreadUtils
 .
-getHandler
+getBackgroundHandler
 (
 )
 pageUrl
