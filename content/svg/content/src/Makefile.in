@@ -323,10 +323,6 @@ nsSVGString
 .
 cpp
 \
-nsSVGStylableElement
-.
-cpp
-\
 nsSVGRect
 .
 cpp

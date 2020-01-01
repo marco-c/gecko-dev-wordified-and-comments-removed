@@ -1636,9 +1636,14 @@ svg
 None
 .
 '
-nsIDOMSVGStylable
+nsIDOMSVGElement
 .
-*
+className
+'
+'
+nsIDOMSVGElement
+.
+style
 '
 #
 dom
@@ -2107,7 +2112,7 @@ nsGenericHTMLElement
 h
 '
 '
-nsSVGStylableElement
+nsSVGElement
 .
 h
 '
@@ -2676,7 +2681,7 @@ rv
 '
 }
 '
-nsIDOMSVGStylable_GetStyle
+nsIDOMSVGElement_GetStyle
 '
 :
 {
@@ -2685,7 +2690,7 @@ thisType
 '
 :
 '
-nsSVGStylableElement
+nsSVGElement
 '
 '
 code
@@ -2701,6 +2706,9 @@ result
 self
 -
 >
+nsSVGElementBase
+:
+:
 GetStyle
 (
 &
