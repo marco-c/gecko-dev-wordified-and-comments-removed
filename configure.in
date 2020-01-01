@@ -20677,6 +20677,12 @@ norunpath
 D__FUNCTION__
 =
 __func__
+-
+template
+=
+no
+%
+extdef
 "
 _MOZ_EXCEPTIONS_FLAGS_ON
 =
