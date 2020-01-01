@@ -71,6 +71,13 @@ h
 #
 include
 "
+jsatominlines
+.
+h
+"
+#
+include
+"
 jsobjinlines
 .
 h
@@ -2380,7 +2387,7 @@ false
 if
 (
 !
-js_IndexToId
+IndexToId
 (
 cx
 n

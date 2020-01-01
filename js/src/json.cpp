@@ -3985,7 +3985,7 @@ index
 if
 (
 !
-js_IndexToId
+IndexToId
 (
 cx
 i
@@ -5083,7 +5083,7 @@ index
 if
 (
 !
-js_IndexToId
+IndexToId
 (
 cx
 len
