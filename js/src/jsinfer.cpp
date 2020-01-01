@@ -11768,6 +11768,10 @@ endif
 }
 #
 endif
+pendingNukeTypes
+=
+false
+;
 }
 void
 TypeCompartment
