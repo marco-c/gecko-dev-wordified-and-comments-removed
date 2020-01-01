@@ -436,6 +436,10 @@ nsContentList
 .
 h
 \
+nsContentSink
+.
+h
+\
 nsGkAtomList
 .
 h
@@ -445,6 +449,10 @@ nsGkAtoms
 h
 \
 nsNodeInfoManager
+.
+h
+\
+nsNodeUtils
 .
 h
 \
