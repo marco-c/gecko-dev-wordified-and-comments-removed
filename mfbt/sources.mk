@@ -1,0 +1,11 @@
+CPPSRCS
++
+=
+\
+Assertions
+.
+cpp
+\
+(
+NULL
+)

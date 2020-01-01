@@ -77895,6 +77895,7 @@ enable
 -
 jemalloc
 "
+fi
 if
 test
 -
@@ -77918,7 +77919,6 @@ MOZ_GLUE_PROGRAM_LDFLAGS
 then
 export
 MOZ_GLUE_PROGRAM_LDFLAGS
-fi
 fi
 export
 MOZ_APP_NAME
