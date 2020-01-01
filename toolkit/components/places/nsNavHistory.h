@@ -555,6 +555,11 @@ const
 int32_t
 kGetInfoIndex_Frecency
 ;
+static
+const
+int32_t
+kGetInfoIndex_Hidden
+;
 int64_t
 GetTagsFolder
 (
@@ -1126,6 +1131,8 @@ const
 nsACString
 &
 aGUID
+bool
+aHidden
 )
 ;
 void

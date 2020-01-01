@@ -253,7 +253,7 @@ nsNavBookmarks
 :
 kGetChildrenIndex_Position
 =
-14
+15
 ;
 const
 int32_t
@@ -262,7 +262,7 @@ nsNavBookmarks
 :
 kGetChildrenIndex_Type
 =
-15
+16
 ;
 const
 int32_t
@@ -271,7 +271,7 @@ nsNavBookmarks
 :
 kGetChildrenIndex_PlaceID
 =
-16
+17
 ;
 const
 int32_t
@@ -280,7 +280,7 @@ nsNavBookmarks
 :
 kGetChildrenIndex_Guid
 =
-17
+18
 ;
 using
 namespace
@@ -4991,6 +4991,9 @@ null
 h
 .
 frecency
+h
+.
+hidden
 b
 .
 position
@@ -5000,6 +5003,8 @@ type
 b
 .
 fk
+"
+"
 b
 .
 guid
@@ -8385,6 +8390,9 @@ null
 h
 .
 frecency
+h
+.
+hidden
 b
 .
 position
@@ -9098,6 +9106,9 @@ null
 h
 .
 frecency
+h
+.
+hidden
 b
 .
 position
@@ -13127,9 +13138,8 @@ const
 nsACString
 &
 aGUID
-uint32_t
-*
-aAdded
+bool
+aHidden
 )
 {
 ItemVisitData
