@@ -120,7 +120,7 @@ END_TEST
 testAtomizedIsNotInterned
 )
 struct
-StringWrapper
+StringWrapperStruct
 {
 JSString
 *
