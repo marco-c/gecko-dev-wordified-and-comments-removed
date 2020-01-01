@@ -795,12 +795,6 @@ SetBorderCollapse
 borderCollapse
 )
 ;
-mState
-&
-=
-~
-NS_FRAME_MAY_BE_TRANSFORMED
-;
 if
 (
 !
