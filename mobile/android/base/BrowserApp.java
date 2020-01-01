@@ -3163,6 +3163,12 @@ FOCUS_BLOCK_DESCENDANTS
 )
 ;
 }
+mBrowserToolbar
+.
+refreshBackground
+(
+)
+;
 if
 (
 hasTabsSideBar

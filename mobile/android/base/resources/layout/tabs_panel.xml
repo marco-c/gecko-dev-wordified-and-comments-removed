@@ -142,6 +142,15 @@ dimen
 /
 browser_toolbar_height
 "
+android
+:
+background
+=
+"
+drawable
+/
+tabs_tray_bg_repeat
+"
 /
 >
 <
