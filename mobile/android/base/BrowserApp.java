@@ -6035,7 +6035,7 @@ url
 =
 mBrowserToolbar
 .
-stopEditing
+commitEdit
 (
 )
 ;
@@ -6112,13 +6112,9 @@ return
 false
 ;
 }
-final
-String
-url
-=
 mBrowserToolbar
 .
-stopEditing
+cancelEdit
 (
 )
 ;
@@ -9328,7 +9324,7 @@ flags
 ;
 mBrowserToolbar
 .
-stopEditing
+cancelEdit
 (
 )
 ;
