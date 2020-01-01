@@ -18996,11 +18996,11 @@ SUPPRESS_FCDATA
 static
 const
 FrameConstructionData
-sGenericContainerData
+sContainerData
 =
 SIMPLE_SVG_FCDATA
 (
-NS_NewSVGGenericContainerFrame
+NS_NewSVGContainerFrame
 )
 ;
 PRBool
@@ -19152,7 +19152,7 @@ aContent
 {
 return
 &
-sSuppressData
+sContainerData
 ;
 }
 if
@@ -19395,6 +19395,11 @@ SIMPLE_SVG_CREATE
 defs
 NS_NewSVGContainerFrame
 )
+SIMPLE_SVG_CREATE
+(
+generic
+NS_NewSVGGenericContainerFrame
+)
 {
 &
 nsGkAtoms
@@ -19629,7 +19634,7 @@ data
 data
 =
 &
-sSuppressData
+sContainerData
 ;
 }
 return
