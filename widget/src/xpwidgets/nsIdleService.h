@@ -46,6 +46,13 @@ nsIIdleService
 .
 h
 "
+#
+include
+"
+nsCategoryCache
+.
+h
+"
 class
 IdleListener
 {
@@ -149,6 +156,12 @@ void
 *
 aClosure
 )
+;
+nsCategoryCache
+<
+nsIObserver
+>
+mCategoryObservers
 ;
 }
 ;
