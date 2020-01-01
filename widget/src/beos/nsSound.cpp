@@ -641,7 +641,7 @@ return
 aEventId
 =
 =
-EVENT_NEW_MAIL_RECIEVED
+EVENT_NEW_MAIL_RECEIVED
 ?
 Beep
 (

@@ -525,7 +525,7 @@ eSoundEventId
 nsISound
 :
 :
-EVENT_AELRT_DIALOG_OPEN
+EVENT_ALERT_DIALOG_OPEN
 )
 ;
 rv
@@ -739,7 +739,7 @@ eSoundEventId
 nsISound
 :
 :
-EVENT_AELRT_DIALOG_OPEN
+EVENT_ALERT_DIALOG_OPEN
 )
 ;
 rv
@@ -3537,7 +3537,7 @@ eSoundEventId
 nsISound
 :
 :
-EVENT_AELRT_DIALOG_OPEN
+EVENT_ALERT_DIALOG_OPEN
 )
 ;
 nsCOMPtr
