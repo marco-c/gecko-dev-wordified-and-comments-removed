@@ -1581,6 +1581,7 @@ mHasRobustness
 ;
 public
 :
+static
 const
 char
 *
@@ -1589,7 +1590,6 @@ GLErrorToString
 GLenum
 aError
 )
-const
 {
 switch
 (
