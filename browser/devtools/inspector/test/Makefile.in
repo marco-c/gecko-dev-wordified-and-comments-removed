@@ -131,6 +131,10 @@ browser_inspector_menu
 .
 js
 \
+browser_inspector_menu
+.
+html
+\
 browser_inspector_pseudoClass_menu
 .
 js
