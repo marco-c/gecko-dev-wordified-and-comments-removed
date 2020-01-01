@@ -411,6 +411,10 @@ test_enums
 .
 html
 \
+test_integers
+.
+html
+\
 test_interfaceToString
 .
 html
