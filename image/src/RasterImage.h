@@ -1170,6 +1170,12 @@ nsIntRect
 aDirtyRect
 )
 ;
+uint32_t
+GetSingleLoopTime
+(
+)
+const
+;
 void
 DeleteImgFrame
 (
