@@ -134,6 +134,11 @@ RebuildNameSpaces
 (
 )
 ;
+nsresult
+CreateNamespaceMap
+(
+)
+;
 nsAutoVoidArray
 mSheets
 ;
@@ -744,6 +749,14 @@ SubjectSubsumesInnerPrincipal
 (
 )
 const
+;
+nsresult
+RegisterNamespaceRule
+(
+nsICSSRule
+*
+aRule
+)
 ;
 protected
 :
