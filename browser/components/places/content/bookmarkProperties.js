@@ -2213,9 +2213,6 @@ if
 value
 )
 {
-var
-uri
-=
 PlacesUIUtils
 .
 createFixedURI
