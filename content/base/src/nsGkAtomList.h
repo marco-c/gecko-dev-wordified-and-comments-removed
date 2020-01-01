@@ -4927,9 +4927,9 @@ script
 )
 GK_ATOM
 (
-scriptEnabledBeforePrintOrPreview
+scriptEnabledBeforePrintPreview
 "
-scriptEnabledBeforePrintOrPreview
+scriptEnabledBeforePrintPreview
 "
 )
 GK_ATOM
