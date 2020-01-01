@@ -453,6 +453,10 @@ LoginManagerPrompter
 .
 idl
 \
+WebappsSupport
+.
+idl
+\
 (
 NULL
 )
@@ -542,6 +546,10 @@ LoginManagerPrompter
 js
 \
 BlocklistPrompt
+.
+js
+\
+WebappsSupport
 .
 js
 \

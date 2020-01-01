@@ -3585,6 +3585,13 @@ BINPATH
 /
 components
 /
+WebappsSupport
+.
+js
+BINPATH
+/
+components
+/
 XPIDialogService
 .
 js
