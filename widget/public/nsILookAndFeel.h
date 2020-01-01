@@ -146,8 +146,6 @@ eColor__moz_win_communicationstext
 eColor__moz_nativehyperlinktext
 eColor__moz_comboboxtext
 eColor__moz_combobox
-eColor__moz_entrytext
-eColor__moz_entry
 eColor_LAST_COLOR
 }
 nsColorID
