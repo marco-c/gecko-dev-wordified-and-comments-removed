@@ -1198,9 +1198,16 @@ GL_PROVIDER
 =
 EGL
 else
+ifdef
+MOZ_EGL_XRENDER_COMPOSITE
+GL_PROVIDER
+=
+EGL
+else
 GL_PROVIDER
 =
 GLX
+endif
 endif
 endif
 ifeq

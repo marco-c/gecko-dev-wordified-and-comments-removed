@@ -1484,6 +1484,9 @@ buggy_repeat
 =
 TRUE
 ;
+#
+ifndef
+MOZ_EGL_XRENDER_COMPOSITE
 if
 (
 VendorRelease
@@ -1500,6 +1503,8 @@ buggy_pad_reflect
 =
 TRUE
 ;
+#
+endif
 }
 }
 else
