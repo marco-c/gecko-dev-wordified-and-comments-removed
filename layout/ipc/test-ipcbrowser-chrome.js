@@ -118,7 +118,7 @@ Components
 .
 interfaces
 .
-nsIFrameLoader
+nsIFrameLoaer
 .
 RENDER_MODE_ASYNC_SCROLL
 ;

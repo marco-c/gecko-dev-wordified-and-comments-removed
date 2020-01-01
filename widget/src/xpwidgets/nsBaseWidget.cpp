@@ -2894,13 +2894,7 @@ nsBaseWidget
 :
 GetLayerManager
 (
-PLayersChild
-*
-aShadowManager
-LayersBackend
-aBackendHint
 LayerManagerPersistence
-aPersistence
 bool
 *
 aAllowRetaining
@@ -2930,6 +2924,12 @@ LayerManagerOGL
 layerManager
 =
 new
+mozilla
+:
+:
+layers
+:
+:
 LayerManagerOGL
 (
 this

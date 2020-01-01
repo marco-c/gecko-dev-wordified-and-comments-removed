@@ -11994,6 +11994,12 @@ mDisableAcceleration
 safeMode
 ;
 }
+mozilla
+:
+:
+layers
+:
+:
 LayerManager
 *
 nsWindow
@@ -12001,11 +12007,6 @@ nsWindow
 :
 GetLayerManager
 (
-PLayersChild
-*
-aShadowManager
-LayersBackend
-aBackendHint
 LayerManagerPersistence
 aPersistence
 bool
