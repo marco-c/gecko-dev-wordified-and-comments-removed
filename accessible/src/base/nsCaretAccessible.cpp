@@ -1478,6 +1478,16 @@ aOutWidget
 WidgetToScreenOffset
 (
 )
+-
+(
+*
+aOutWidget
+)
+-
+>
+GetClientOffset
+(
+)
 )
 ;
 PRInt32
