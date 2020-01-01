@@ -1114,6 +1114,7 @@ nativeDragSource
 new
 nsNativeDragSource
 (
+mDataTransfer
 )
 ;
 if
