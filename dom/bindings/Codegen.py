@@ -64878,10 +64878,11 @@ isJSImplemented
 :
                 
 baseConstructors
-=
+.
+insert
 (
                     
-[
+0
 "
 %
 s
@@ -64892,10 +64893,6 @@ aParent
 "
 %
 parentClass
-]
-+
-                    
-baseConstructors
 )
                 
 break
@@ -64905,6 +64902,34 @@ parentInterface
 parentInterface
 .
 parent
+        
+if
+not
+parentInterface
+and
+descriptor
+.
+interface
+.
+parent
+:
+            
+baseConstructors
+.
+insert
+(
+0
+                                    
+"
+%
+s
+(
+aParent
+)
+"
+%
+parentClass
+)
         
 constructor
 =
