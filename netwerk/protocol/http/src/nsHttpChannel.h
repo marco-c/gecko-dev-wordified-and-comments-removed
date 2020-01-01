@@ -565,8 +565,6 @@ nsIChannel
 *
 PRBool
 preserveMethod
-PRBool
-forProxy
 )
 ;
 nsresult
