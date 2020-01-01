@@ -308,6 +308,11 @@ permissions
 indexedDB
 '
 '
+indexedDB
+-
+unlimited
+'
+'
 webapps
 -
 manage
