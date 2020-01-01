@@ -785,10 +785,6 @@ return
 mInfo
 ;
 }
-mHasValidCache
-=
-true
-;
 GetCurrentInformationInternal
 (
 &
