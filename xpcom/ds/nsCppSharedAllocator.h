@@ -13,13 +13,6 @@ h
 "
 #
 include
-"
-nscore
-.
-h
-"
-#
-include
 NEW_H
 #
 ifdef

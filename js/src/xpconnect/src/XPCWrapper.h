@@ -428,10 +428,12 @@ scriptNotify
 =
 do_QueryInterface
 (
-NS_STATIC_CAST
-(
+static_cast
+<
 nsISupports
 *
+>
+(
 JS_GetContextPrivate
 (
 cx
