@@ -98,7 +98,7 @@ title
 "
 Mozilla
 Bug
-288254
+436084
 "
 xmlns
 :
@@ -515,14 +515,6 @@ textinput
 DOWN
 "
 "
-textinput
-"
-]
-[
-"
-DOWN
-"
-"
 textarea
 "
 ]
@@ -571,14 +563,6 @@ textinput
 UP
 "
 "
-textinput
-"
-]
-[
-"
-UP
-"
-"
 start
 "
 ]
@@ -592,7 +576,7 @@ textinput
 ]
 [
 "
-LEFT
+HOME
 "
 "
 textinput
@@ -816,7 +800,7 @@ textarea
 ]
 [
 "
-LEFT
+HOME
 "
 "
 textarea
