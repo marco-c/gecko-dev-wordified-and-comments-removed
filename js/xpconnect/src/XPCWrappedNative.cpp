@@ -2156,7 +2156,7 @@ WantPreCreate
 js
 :
 :
-AutoDeadCompartmentGC
+AutoMaybeTouchDeadCompartments
 agc
 (
 parent
@@ -7598,10 +7598,10 @@ false
 js
 :
 :
-AutoDeadCompartmentGC
+AutoMaybeTouchDeadCompartments
 agc
 (
-parentobj
+parentObj
 )
 ;
 if
@@ -17347,7 +17347,7 @@ false
 js
 :
 :
-AutoDeadCompartmentGC
+AutoMaybeTouchDeadCompartments
 agc
 (
 parent
