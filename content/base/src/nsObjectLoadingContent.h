@@ -246,12 +246,12 @@ NotifyOwnerDocumentActivityChanged
 )
 ;
 bool
-SrcStreamLoadInitiated
+SrcStreamLoading
 (
 )
 {
 return
-mSrcStreamLoadInitiated
+mSrcStreamLoading
 ;
 }
 ;
@@ -621,7 +621,7 @@ mShouldPlay
 1
 ;
 bool
-mSrcStreamLoadInitiated
+mSrcStreamLoading
 ;
 PluginSupportState
 mFallbackReason

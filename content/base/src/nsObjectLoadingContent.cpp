@@ -2377,7 +2377,7 @@ click_to_play
 false
 )
 )
-mSrcStreamLoadInitiated
+mSrcStreamLoading
 (
 false
 )
@@ -2943,10 +2943,6 @@ nsObjectLoadingContent
 OnStartRequest
 "
 )
-;
-mSrcStreamLoadInitiated
-=
-true
 ;
 if
 (
@@ -3779,7 +3775,7 @@ NS_ERROR_NOT_AVAILABLE
 pluginHost
 -
 >
-InstantiatePluginForChannel
+CreateListenerForChannel
 (
 chan
 this
@@ -3858,6 +3854,10 @@ mType
 =
 newType
 ;
+mSrcStreamLoading
+=
+true
+;
 rv
 =
 mFinalListener
@@ -3868,6 +3868,10 @@ OnStartRequest
 aRequest
 aContext
 )
+;
+mSrcStreamLoading
+=
+false
 ;
 if
 (
@@ -8919,10 +8923,6 @@ IsCallerChrome
 )
 return
 NS_OK
-;
-mSrcStreamLoadInitiated
-=
-false
 ;
 mShouldPlay
 =
