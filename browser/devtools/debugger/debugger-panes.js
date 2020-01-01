@@ -5070,6 +5070,11 @@ resultsContainer
 if
 (
 aExpandFlag
+&
+&
+aMatchCount
+<
+GLOBAL_SEARCH_EXPAND_MAX_RESULTS
 )
 {
 this
