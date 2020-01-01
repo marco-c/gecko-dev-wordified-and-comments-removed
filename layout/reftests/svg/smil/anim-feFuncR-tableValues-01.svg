@@ -848,7 +848,9 @@ be
 2
 0
 "
-immediately
+from
+1s
+onwards
 .
 -
 -
@@ -873,7 +875,7 @@ begin
 dur
 =
 "
-3s
+2s
 "
 to
 =

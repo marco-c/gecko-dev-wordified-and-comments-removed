@@ -503,7 +503,8 @@ be
 320
 330
 "
-immediately
+at
+3s
 .
 -
 -
@@ -528,7 +529,7 @@ begin
 dur
 =
 "
-30s
+6s
 "
 to
 =

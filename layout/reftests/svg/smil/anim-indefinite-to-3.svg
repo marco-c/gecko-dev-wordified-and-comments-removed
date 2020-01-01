@@ -41,11 +41,9 @@ property
 is
 not
 interpolatable
-still
 applies
 the
-to
--
+underlying
 value
 for
 the
@@ -85,7 +83,7 @@ blue
 visibility
 =
 "
-hidden
+visible
 "
 >
 <
@@ -98,7 +96,7 @@ visibility
 to
 =
 "
-visible
+hidden
 "
 dur
 =

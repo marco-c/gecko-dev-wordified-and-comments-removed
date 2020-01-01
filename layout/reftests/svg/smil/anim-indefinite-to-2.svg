@@ -32,11 +32,9 @@ animation
 with
 discrete
 calcMode
-still
 applies
 the
-to
--
+underlying
 value
 for
 the
@@ -66,7 +64,7 @@ width
 height
 =
 "
-100
+200
 "
 fill
 =
@@ -84,7 +82,7 @@ height
 to
 =
 "
-200
+100
 "
 dur
 =
