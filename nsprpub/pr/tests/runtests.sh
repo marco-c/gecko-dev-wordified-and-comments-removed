@@ -857,6 +857,7 @@ libfilename
 lltest
 lock
 lockfile
+logfile
 logger
 many_cv
 multiwait

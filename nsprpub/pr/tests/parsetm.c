@@ -375,6 +375,13 @@ _MSC_VER
 >
 =
 1400
+&
+&
+!
+defined
+(
+WINCE
+)
 _putenv_s
 (
 "

@@ -648,6 +648,10 @@ lockfile
 .
 c
 \
+logfile
+.
+c
+\
 logger
 .
 c

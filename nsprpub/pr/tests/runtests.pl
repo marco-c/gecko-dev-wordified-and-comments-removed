@@ -2009,6 +2009,9 @@ lock
 lockfile
 "
 "
+logfile
+"
+"
 logger
 "
 "
