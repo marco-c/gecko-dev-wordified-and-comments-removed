@@ -1442,7 +1442,7 @@ NativeState
 ;
 if
 (
-IsItemSelected
+IsSelected
 (
 )
 )
@@ -1483,7 +1483,7 @@ NS_ERROR_INVALID_ARG
 ;
 if
 (
-IsItemSelected
+IsSelected
 (
 )
 )
@@ -1565,7 +1565,7 @@ NativeState
 ;
 if
 (
-IsItemSelected
+IsSelected
 (
 )
 )
@@ -1828,7 +1828,7 @@ SELECTABLE
 ;
 if
 (
-IsItemSelected
+IsSelected
 (
 )
 )
