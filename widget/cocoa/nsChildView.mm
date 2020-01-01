@@ -13939,7 +13939,7 @@ Accessible
 >
 acc
 =
-GetAccessible
+GetRootAccessible
 (
 )
 ;

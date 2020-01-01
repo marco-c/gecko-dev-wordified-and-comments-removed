@@ -6382,6 +6382,11 @@ roles
 :
 :
 DOCUMENT
+|
+|
+IsMenuPopup
+(
+)
 )
 {
 DocAccessible

@@ -5401,7 +5401,7 @@ Accessible
 nsBaseWidget
 :
 :
-GetAccessible
+GetRootAccessible
 (
 )
 {
