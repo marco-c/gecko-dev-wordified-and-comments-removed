@@ -45,6 +45,10 @@ this
 }
 protected
 :
+Label
+*
+returnLabel_
+;
 inline
 Operand
 ToOperand
@@ -207,6 +211,11 @@ graph
 ;
 bool
 generatePrologue
+(
+)
+;
+bool
+generateEpilogue
 (
 )
 ;
