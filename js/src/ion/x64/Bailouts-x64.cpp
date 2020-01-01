@@ -109,6 +109,9 @@ machineState
 {
 return
 MachineState
+:
+:
+FromBailout
 (
 regs_
 fpregs_

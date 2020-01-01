@@ -463,6 +463,9 @@ machine
 {
 return
 MachineState
+:
+:
+FromBailout
 (
 regs_
 fpregs_
