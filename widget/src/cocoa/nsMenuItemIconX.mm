@@ -782,7 +782,7 @@ mIconRequest
 mIconRequest
 -
 >
-CancelAndForgetObserver
+Cancel
 (
 NS_BINDING_ABORTED
 )
