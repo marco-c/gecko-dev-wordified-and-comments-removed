@@ -14,12 +14,6 @@ basn0g01
 black
 &
 white
-random
--
-if
-(
-bug685516
-)
 =
 =
 basn0g01
@@ -200,12 +194,6 @@ bit
 color
 )
 paletted
-random
--
-if
-(
-bug685516
-)
 =
 =
 basn3p02
