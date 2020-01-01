@@ -460,6 +460,8 @@ HIRect
 inBoxRect
 PRInt32
 inState
+PRBool
+aIsEditable
 nsIFrame
 *
 aFrame
@@ -590,6 +592,10 @@ mSearchFieldCell
 NSPopUpButtonCell
 *
 mDropdownCell
+;
+NSComboBoxCell
+*
+mComboBoxCell
 ;
 }
 ;
