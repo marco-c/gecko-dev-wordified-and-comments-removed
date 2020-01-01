@@ -463,8 +463,6 @@ LIB_SUFFIX
 /
 dns
 /
-src
-/
 (
 LIB_PREFIX
 )
@@ -478,8 +476,6 @@ LIB_SUFFIX
 .
 /
 socket
-/
-base
 /
 (
 LIB_PREFIX
@@ -527,8 +523,6 @@ LIB_SUFFIX
 /
 mime
 /
-src
-/
 (
 LIB_PREFIX
 )
@@ -542,8 +536,6 @@ LIB_SUFFIX
 .
 /
 cache
-/
-src
 /
 (
 LIB_PREFIX
@@ -560,8 +552,6 @@ LIB_SUFFIX
 protocol
 /
 about
-/
-src
 /
 (
 LIB_PREFIX
@@ -593,8 +583,6 @@ protocol
 (
 d
 )
-/
-src
 /
 (
 LIB_PREFIX
@@ -742,8 +730,6 @@ srcdir
 .
 /
 dns
-/
-src
 \
 -
 I
@@ -755,8 +741,6 @@ srcdir
 .
 /
 socket
-/
-base
 \
 -
 I
@@ -794,8 +778,6 @@ srcdir
 .
 /
 mime
-/
-src
 \
 -
 I
@@ -807,8 +789,6 @@ srcdir
 .
 /
 cache
-/
-src
 \
 -
 I
@@ -822,8 +802,6 @@ srcdir
 protocol
 /
 about
-/
-src
 \
 (
 foreach
@@ -852,8 +830,6 @@ protocol
 (
 d
 )
-/
-src
 )
 \
 (
@@ -957,8 +933,6 @@ SHARED_LIBRARY_LIBS
 /
 cookie
 /
-src
-/
 (
 LIB_PREFIX
 )
@@ -984,8 +958,6 @@ srcdir
 .
 /
 cookie
-/
-src
 endif
 ifdef
 NECKO_WIFI
@@ -997,8 +969,6 @@ SHARED_LIBRARY_LIBS
 .
 /
 wifi
-/
-src
 /
 (
 LIB_PREFIX
@@ -1025,8 +995,6 @@ srcdir
 .
 /
 wifi
-/
-src
 ifeq
 (
 (
