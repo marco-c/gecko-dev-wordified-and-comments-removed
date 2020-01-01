@@ -56,6 +56,10 @@ uA8D6
 uA907
 \
 uAA58
+\
+uA9D9
+\
+uABF0
 "
 ;
 const
@@ -143,7 +147,7 @@ const
 expectedDigits
 =
 "
-12345678
+1234567890
 "
 ;
 const
