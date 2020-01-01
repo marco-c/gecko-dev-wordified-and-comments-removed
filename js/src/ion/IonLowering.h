@@ -409,6 +409,17 @@ return
 true
 ;
 }
+void
+rewriteDefsInSnapshots
+(
+MInstruction
+*
+ins
+MInstruction
+*
+old
+)
+;
 bool
 assignSnapshot
 (
