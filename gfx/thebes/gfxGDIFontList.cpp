@@ -1189,7 +1189,10 @@ dc
 GetDC
 (
 )
-NS_SWAP32
+NativeEndian
+:
+:
+swapToBigEndian
 (
 aTableTag
 )
@@ -1225,7 +1228,10 @@ dc
 GetDC
 (
 )
-NS_SWAP32
+NativeEndian
+:
+:
+swapToBigEndian
 (
 aTableTag
 )
