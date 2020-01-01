@@ -1407,7 +1407,7 @@ clasp
 js_RegExpClass
 )
 {
-JSAutoTempValueRooter
+AutoValueRooter
 tvr
 (
 cx
