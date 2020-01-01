@@ -85,16 +85,6 @@ false
 pref
 (
 "
-webapprt
-.
-firstrun
-"
-false
-)
-;
-pref
-(
-"
 breakpad
 .
 reportURL

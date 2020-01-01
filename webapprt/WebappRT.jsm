@@ -148,9 +148,6 @@ this
 _config
 ;
 let
-config
-;
-let
 webappFile
 =
 FileUtils
@@ -234,6 +231,7 @@ Ci
 nsIJSON
 )
 ;
+let
 config
 =
 json

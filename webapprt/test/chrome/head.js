@@ -33,6 +33,8 @@ webapprt
 content
 /
 mochitest
+-
+shared
 .
 js
 "
