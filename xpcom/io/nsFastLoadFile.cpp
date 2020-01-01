@@ -2445,9 +2445,9 @@ mBytesLeft
 }
 rv
 =
-mInputStream
--
->
+nsBinaryInputStream
+:
+:
 Read
 (
 aBuffer
