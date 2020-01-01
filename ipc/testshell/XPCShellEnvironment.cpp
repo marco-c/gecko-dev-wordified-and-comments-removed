@@ -4925,9 +4925,7 @@ NS_GET_IID
 nsISupports
 )
 principal
-EmptyCString
-(
-)
+nsnull
 nsIXPConnect
 :
 :

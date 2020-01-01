@@ -65,11 +65,6 @@ aGlobalObject
 )
 ;
 }
-extern
-nsIScriptSecurityManager
-*
-gScriptSecurityManager
-;
 namespace
 XPCWrapper
 {
@@ -81,6 +76,7 @@ GetSecurityManager
 )
 {
 return
+nsXPConnect
 :
 :
 gScriptSecurityManager
