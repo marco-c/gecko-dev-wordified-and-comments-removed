@@ -49,7 +49,7 @@ public
 static
 StickyScrollContainer
 *
-StickyScrollContainerForFrame
+GetStickyScrollContainerForFrame
 (
 nsIFrame
 *
