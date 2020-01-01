@@ -59,7 +59,10 @@ Value
 v
 ;
 friend
+JS_PUBLIC_API
+(
 bool
+)
 detail
 :
 :
