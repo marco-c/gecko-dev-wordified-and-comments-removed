@@ -565,6 +565,10 @@ TestAutoPtr
 .
 cpp
 \
+TestBloomFilter
+.
+cpp
+\
 TestCOMArray
 .
 cpp
