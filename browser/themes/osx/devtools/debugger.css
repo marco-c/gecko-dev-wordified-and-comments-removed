@@ -319,10 +319,11 @@ boxed
 -
 message
 {
-padding
+min
+-
+height
 :
-100px
-50px
+1px
 ;
 background
 -
@@ -334,6 +335,11 @@ rgb
 69
 76
 )
+;
+padding
+:
+25vh
+0
 ;
 color
 :
@@ -367,7 +373,7 @@ font
 -
 size
 :
-150
+120
 %
 ;
 }
