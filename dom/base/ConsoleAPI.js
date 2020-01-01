@@ -230,6 +230,14 @@ arguments
 )
 ;
 }
+__noSuchMethod__
+:
+function
+CA_nsm
+(
+)
+{
+}
 }
 ;
 }
