@@ -1457,7 +1457,6 @@ A
 struct
 Instead_Use_nsTArray_of
 ;
-;
 static
 Dont_Instantiate_nsTArray_of
 <
