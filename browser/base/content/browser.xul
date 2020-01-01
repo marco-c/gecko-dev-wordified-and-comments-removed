@@ -1187,6 +1187,11 @@ flex
 >
 <
 button
+id
+=
+"
+editBookmarkPanelDeleteButton
+"
 label
 =
 "
@@ -1212,6 +1217,11 @@ deleteButtonOnCommand
 >
 <
 button
+id
+=
+"
+editBookmarkPanelDoneButton
+"
 label
 =
 "
