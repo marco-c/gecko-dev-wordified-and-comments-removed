@@ -178,11 +178,13 @@ PRInt32
 aSign
 PRInt32
 aPseudoUnit
+const
 nsCSSValue
 &
 aCSSValue
 nscoord
 aLeftSpace
+const
 nsBoundingMetrics
 &
 aBoundingMetrics
