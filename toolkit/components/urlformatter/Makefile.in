@@ -419,6 +419,13 @@ DIRS
 =
 public
 src
+ifdef
+ENABLE_TESTS
+DIRS
++
+=
+tests
+endif
 include
 (
 topsrcdir

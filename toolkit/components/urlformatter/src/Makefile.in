@@ -418,7 +418,7 @@ config
 autoconf
 .
 mk
-EXTRA_COMPONENTS
+EXTRA_PP_COMPONENTS
 =
 \
 nsURLFormatter
