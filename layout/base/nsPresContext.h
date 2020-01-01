@@ -3145,6 +3145,11 @@ nsIFrame
 aFrame
 )
 ;
+void
+DestroyImageLoaders
+(
+)
+;
 PRBool
 GetContainsUpdatePluginGeometryFrame
 (
