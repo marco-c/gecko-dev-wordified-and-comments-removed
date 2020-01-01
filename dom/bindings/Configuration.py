@@ -1989,9 +1989,6 @@ attribute
 in
 [
 '
-infallible
-'
-'
 implicitJSContext
 '
 '
