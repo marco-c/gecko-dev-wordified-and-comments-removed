@@ -2515,8 +2515,11 @@ MSGDEF
 }
 JSShellErrNum
 ;
-static
+}
 void
+XPCShellEnvironment
+:
+:
 ProcessFile
 (
 JSContext
@@ -2546,10 +2549,7 @@ XPCShellEnvironment
 *
 env
 =
-Environment
-(
-cx
-)
+this
 ;
 nsCxPusher
 pusher
@@ -3027,7 +3027,6 @@ n
 "
 )
 ;
-}
 }
 NS_IMETHODIMP_
 (
@@ -3962,10 +3961,7 @@ XPCShellEnvironment
 *
 env
 =
-Environment
-(
-mCx
-)
+this
 ;
 nsCxPusher
 pusher
