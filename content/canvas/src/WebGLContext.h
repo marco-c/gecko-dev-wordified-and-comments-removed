@@ -2910,9 +2910,6 @@ prog
 nsACString
 &
 retval
-ErrorResult
-&
-rv
 )
 ;
 void
@@ -2924,9 +2921,6 @@ prog
 nsAString
 &
 retval
-ErrorResult
-&
-rv
 )
 ;
 JS
@@ -3020,9 +3014,6 @@ shader
 nsACString
 &
 retval
-ErrorResult
-&
-rv
 )
 ;
 void
@@ -3034,9 +3025,6 @@ shader
 nsAString
 &
 retval
-ErrorResult
-&
-rv
 )
 ;
 void
@@ -3245,9 +3233,6 @@ LinkProgram
 WebGLProgram
 *
 program
-ErrorResult
-&
-rv
 )
 ;
 void
