@@ -148,9 +148,7 @@ oldVersion
 ;
 readonly
 attribute
-unsigned
-long
-long
+jsval
 newVersion
 ;
 }
