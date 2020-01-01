@@ -2334,8 +2334,10 @@ setup
 description
 >
 <
-description
->
+label
+value
+=
+"
 &
 addDevice
 .
@@ -2345,9 +2347,13 @@ enterCode
 .
 label
 ;
-<
+"
+control
+=
+"
+easySetupPIN1
+"
 /
-description
 >
 <
 spacer
@@ -2387,7 +2393,7 @@ value
 =
 "
 "
-disabled
+readonly
 =
 "
 true
@@ -2410,7 +2416,7 @@ value
 =
 "
 "
-disabled
+readonly
 =
 "
 true
@@ -2433,7 +2439,7 @@ value
 =
 "
 "
-disabled
+readonly
 =
 "
 true
