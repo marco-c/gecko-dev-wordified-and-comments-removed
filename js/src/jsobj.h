@@ -6500,6 +6500,8 @@ cx
 JSObject
 *
 callee
+bool
+newType
 )
 ;
 extern
