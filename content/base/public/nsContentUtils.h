@@ -814,7 +814,7 @@ static
 nsresult
 CheckSameOrigin
 (
-nsIDOMNode
+nsINode
 *
 aTrustedNode
 nsIDOMNode

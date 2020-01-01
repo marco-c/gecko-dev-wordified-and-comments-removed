@@ -4895,7 +4895,7 @@ nsContentUtils
 :
 CheckSameOrigin
 (
-nsIDOMNode
+nsINode
 *
 aTrustedNode
 nsIDOMNode
@@ -4943,17 +4943,6 @@ nsCOMPtr
 <
 nsINode
 >
-trustedNode
-=
-do_QueryInterface
-(
-aTrustedNode
-)
-;
-nsCOMPtr
-<
-nsINode
->
 unTrustedNode
 =
 do_QueryInterface
@@ -4963,7 +4952,7 @@ aUnTrustedNode
 ;
 NS_ENSURE_TRUE
 (
-trustedNode
+aTrustedNode
 &
 &
 unTrustedNode
@@ -4974,7 +4963,7 @@ nsIPrincipal
 *
 trustedPrincipal
 =
-trustedNode
+aTrustedNode
 -
 >
 NodePrincipal

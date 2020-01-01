@@ -290,17 +290,6 @@ aCurrentNode
 NS_ERROR_DOM_NOT_SUPPORTED_ERR
 )
 ;
-nsCOMPtr
-<
-nsIDOMNode
->
-domRoot
-=
-do_QueryInterface
-(
-mRoot
-)
-;
 nsresult
 rv
 =
@@ -309,7 +298,7 @@ nsContentUtils
 :
 CheckSameOrigin
 (
-domRoot
+mRoot
 aCurrentNode
 )
 ;
