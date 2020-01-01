@@ -9200,12 +9200,6 @@ LIR_add
 op
 =
 =
-LIR_iaddp
-|
-|
-op
-=
-=
 LIR_addxov
 )
 &
@@ -9274,9 +9268,6 @@ switch
 op
 )
 {
-case
-LIR_iaddp
-:
 case
 LIR_add
 :
@@ -9488,9 +9479,6 @@ switch
 op
 )
 {
-case
-LIR_iaddp
-:
 case
 LIR_add
 :

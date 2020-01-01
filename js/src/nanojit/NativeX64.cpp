@@ -9733,9 +9733,6 @@ break
 case
 LIR_qiadd
 :
-case
-LIR_qaddp
-:
 ADDQR8
 (
 rr
@@ -9861,9 +9858,6 @@ break
 ;
 case
 LIR_qiadd
-:
-case
-LIR_qaddp
 :
 ADDQRI
 (
@@ -10523,9 +10517,6 @@ break
 ;
 case
 LIR_qiadd
-:
-case
-LIR_qaddp
 :
 ADDQRR
 (

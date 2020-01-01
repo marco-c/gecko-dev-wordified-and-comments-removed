@@ -5128,9 +5128,6 @@ op
 case
 LIR_add
 :
-case
-LIR_iaddp
-:
 if
 (
 ovreg
@@ -5352,9 +5349,6 @@ op
 {
 case
 LIR_add
-:
-case
-LIR_iaddp
 :
 if
 (

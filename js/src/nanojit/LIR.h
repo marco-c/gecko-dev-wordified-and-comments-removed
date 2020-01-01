@@ -168,13 +168,6 @@ PTR_SIZE
 LIR_xor
 LIR_qxor
 )
-LIR_addp
-=
-PTR_SIZE
-(
-LIR_iaddp
-LIR_qaddp
-)
 LIR_peq
 =
 PTR_SIZE
