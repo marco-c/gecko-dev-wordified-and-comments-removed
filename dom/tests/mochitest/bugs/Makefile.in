@@ -570,6 +570,14 @@ iframe_bug430276
 .
 html
 \
+test_bug440572
+.
+html
+\
+iframe_bug440572
+.
+html
+\
 (
 NULL
 )
