@@ -24,9 +24,6 @@ nsStyleContext
 struct
 PLDHashTable
 ;
-class
-nsILanguageAtomService
-;
 struct
 nsRuleData
 ;
@@ -1292,11 +1289,6 @@ nsnull
 )
 ;
 }
-static
-nsILanguageAtomService
-*
-gLangService
-;
 inline
 void
 AddRef
