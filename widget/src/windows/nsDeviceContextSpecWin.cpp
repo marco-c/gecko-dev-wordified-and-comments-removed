@@ -1965,7 +1965,11 @@ aPrintSettings
 nsresult
 rv
 =
-NS_ERROR_FAILURE
+aIsPrintPreview
+?
+NS_ERROR_GFX_PRINTER_PRINTPREVIEW
+:
+NS_ERROR_GFX_PRINTER_NO_PRINTER_AVAILABLE
 ;
 if
 (
@@ -2340,7 +2344,7 @@ printerName
 printerName
 )
 return
-NS_ERROR_FAILURE
+rv
 ;
 if
 (
