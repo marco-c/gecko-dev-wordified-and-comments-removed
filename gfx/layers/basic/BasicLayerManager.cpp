@@ -4385,7 +4385,7 @@ NewPath
 aTarget
 -
 >
-Rectangle
+SnappedRectangle
 (
 gfxRect
 (
@@ -4406,7 +4406,6 @@ clipRect
 >
 height
 )
-true
 )
 ;
 aTarget
@@ -4857,10 +4856,9 @@ NewPath
 aTarget
 -
 >
-Rectangle
+SnappedRectangle
 (
 destRect
-true
 )
 ;
 aTarget

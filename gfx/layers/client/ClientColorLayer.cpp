@@ -160,6 +160,9 @@ ColorLayerAttributes
 GetColor
 (
 )
+GetBounds
+(
+)
 )
 ;
 }
