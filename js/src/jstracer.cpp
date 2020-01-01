@@ -32402,6 +32402,14 @@ fp
 argc
 )
 ;
+if
+(
+!
+from
+)
+return
+false
+;
 }
 JS_ASSERT
 (
