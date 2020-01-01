@@ -496,6 +496,17 @@ z
 }
 ;
 struct
+Skew
+{
+float
+x
+;
+float
+y
+;
+}
+;
+struct
 SkewX
 {
 float
@@ -549,6 +560,8 @@ Rotation
 Rotation3D
 ;
 Scale
+;
+Skew
 ;
 SkewX
 ;
