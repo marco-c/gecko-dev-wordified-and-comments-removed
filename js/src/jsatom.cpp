@@ -1408,6 +1408,13 @@ JS_FALSE
 ;
 \
 JS_END_MACRO
+FROB
+(
+emptyAtom
+"
+"
+)
+;
 for
 (
 i
@@ -2433,7 +2440,7 @@ NULL
 static
 JSAtom
 *
-js_AtomizeHashedKey
+AtomizeHashedKey
 (
 JSContext
 *
@@ -3121,7 +3128,6 @@ str
 -
 >
 length
-0
 )
 ;
 if
@@ -3824,7 +3830,7 @@ JSVAL_VOID
 )
 ;
 return
-js_AtomizeHashedKey
+AtomizeHashedKey
 (
 cx
 v
