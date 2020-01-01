@@ -415,7 +415,10 @@ aIndex
 ;
 NS_ENSURE_ARG_MAX
 (
+PRUint32
+(
 aIndex
+)
 mArgs
 .
 Length
@@ -604,7 +607,10 @@ aStart
 ;
 NS_ENSURE_ARG_MAX
 (
+PRUint32
+(
 aEnd
+)
 +
 1
 mArgs
