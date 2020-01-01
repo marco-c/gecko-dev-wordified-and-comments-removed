@@ -1329,7 +1329,7 @@ fRect
 .
 width
 =
-GetScrollPortSize
+GetScrollPortRect
 (
 )
 .
@@ -1483,7 +1483,7 @@ emptyFallbackArea
 (
 0
 0
-GetScrollPortSize
+GetScrollPortRect
 (
 )
 .

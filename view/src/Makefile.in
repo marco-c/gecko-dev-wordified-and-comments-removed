@@ -437,10 +437,6 @@ nsView
 .
 cpp
 \
-nsScrollPortView
-.
-cpp
-\
 nsViewManager
 .
 cpp
