@@ -658,6 +658,16 @@ profile
 /
 src
 \
+-
+I
+(
+topsrcdir
+)
+/
+xpcom
+/
+base
+\
 (
 NULL
 )
