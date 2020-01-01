@@ -1519,7 +1519,7 @@ hwcLayer
 .
 blending
 =
-HWC_BLENDING_NONE
+HWC_BLENDING_PREMULT
 ;
 hwcLayer
 .
