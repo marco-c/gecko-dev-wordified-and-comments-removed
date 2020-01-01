@@ -733,7 +733,7 @@ _itemId
 aFor
 ;
 var
-container
+containerId
 =
 PlacesUtils
 .
@@ -803,11 +803,9 @@ _readOnly
 =
 PlacesUtils
 .
-livemarks
-.
-isLivemark
+itemIsLivemark
 (
-container
+containerId
 )
 ;
 this
@@ -880,9 +878,7 @@ _isLivemark
 =
 PlacesUtils
 .
-livemarks
-.
-isLivemark
+itemIsLivemark
 (
 this
 .
@@ -959,7 +955,7 @@ this
 .
 _initFolderMenuList
 (
-container
+containerId
 )
 ;
 this

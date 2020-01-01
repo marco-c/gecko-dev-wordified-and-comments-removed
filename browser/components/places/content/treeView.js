@@ -4534,12 +4534,9 @@ if
 (
 PlacesUtils
 .
-annotations
-.
-itemHasAnnotation
+nodeIsLivemarkContainer
 (
-itemId
-LMANNO_FEEDURI
+node
 )
 )
 properties
