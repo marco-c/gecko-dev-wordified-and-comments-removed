@@ -487,6 +487,10 @@ uachelper
 .
 cpp
 \
+pathhash
+.
+cpp
+\
 (
 NULL
 )
@@ -497,6 +501,10 @@ updatehelper
 h
 \
 uachelper
+.
+h
+\
+pathhash
 .
 h
 \
