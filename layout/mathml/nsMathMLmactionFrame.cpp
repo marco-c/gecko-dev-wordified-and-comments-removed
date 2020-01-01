@@ -638,12 +638,12 @@ value
 PRInt32
 selection
 ;
-mContent
--
->
-GetAttr
+GetAttribute
 (
-kNameSpaceID_None
+mContent
+mPresentationData
+.
+mstyle
 nsGkAtoms
 :
 :
