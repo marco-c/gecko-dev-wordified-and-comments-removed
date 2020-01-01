@@ -26,6 +26,7 @@ resource
 :
 /
 /
+gre
 /
 modules
 /
