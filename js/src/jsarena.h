@@ -129,6 +129,10 @@ arenasize
 jsuword
 mask
 ;
+size_t
+*
+quotap
+;
 #
 ifdef
 JS_ARENAMETER
@@ -150,6 +154,7 @@ pool
 name
 size
 align
+quotap
 )
 \
 JS_InitArenaPool
@@ -158,6 +163,7 @@ pool
 name
 size
 align
+quotap
 )
 #
 else
@@ -169,6 +175,7 @@ pool
 name
 size
 align
+quotap
 )
 \
 JS_InitArenaPool
@@ -176,6 +183,7 @@ JS_InitArenaPool
 pool
 size
 align
+quotap
 )
 #
 endif
@@ -215,6 +223,7 @@ JS_INIT_ARENA_POOL
 pool
 name
 size
+quotap
 )
 \
 JS_INIT_NAMED_ARENA_POOL
@@ -225,6 +234,8 @@ size
 JS_ARENA_CONST_ALIGN_MASK
 +
 1
+\
+quotap
 )
 #
 else
@@ -268,6 +279,7 @@ pool
 name
 size
 align
+quotap
 )
 \
 JS_INIT_NAMED_ARENA_POOL
@@ -276,6 +288,7 @@ pool
 name
 size
 align
+quotap
 )
 #
 endif
@@ -1103,6 +1116,9 @@ size_t
 size
 size_t
 align
+size_t
+*
+quotap
 )
 ;
 extern
