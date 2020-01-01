@@ -2851,6 +2851,11 @@ viewsource
 Makefile
 toolkit
 /
+devtools
+/
+Makefile
+toolkit
+/
 locales
 /
 Makefile
@@ -2921,6 +2926,17 @@ Makefile
 toolkit
 /
 xre
+/
+Makefile
+"
+MAKEFILES_debugger
+=
+"
+toolkit
+/
+devtools
+/
+debugger
 /
 Makefile
 "
@@ -3078,6 +3094,7 @@ MAKEFILES_gfx
 MAKEFILES_intl
 MAKEFILES_xpconnect
 MAKEFILES_jsipc
+MAKEFILES_debugger
 MAKEFILES_jsreflect
 MAKEFILES_jsductwork
 MAKEFILES_content

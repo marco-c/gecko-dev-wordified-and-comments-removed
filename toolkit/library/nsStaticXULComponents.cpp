@@ -742,6 +742,11 @@ nsTelemetryModule
 \
 MODULE
 (
+jsinspector
+)
+\
+MODULE
+(
 jsdebugger
 )
 \

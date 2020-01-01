@@ -1,0 +1,16 @@
+function
+firstCall
+(
+)
+{
+eval
+(
+"
+secondCall
+(
+)
+;
+"
+)
+;
+}

@@ -1050,6 +1050,13 @@ BINPATH
 /
 components
 /
+jsinspector
+.
+xpt
+BINPATH
+/
+components
+/
 layout_base
 .
 xpt
