@@ -603,6 +603,13 @@ nsString
 title
 )
 ;
+async
+LoadURIExternal
+(
+URI
+uri
+)
+;
 /
 /
 PrefService
