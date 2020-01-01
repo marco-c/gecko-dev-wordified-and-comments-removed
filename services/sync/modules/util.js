@@ -2961,6 +2961,11 @@ thisObj
 ;
 if
 (
+name
+in
+thisObj
+&
+&
 thisObj
 [
 name
