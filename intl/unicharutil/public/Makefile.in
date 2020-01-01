@@ -430,6 +430,10 @@ nsUnicharUtilCIID
 .
 h
 \
+nsUnicodeNormalizer
+.
+h
+\
 (
 NULL
 )
