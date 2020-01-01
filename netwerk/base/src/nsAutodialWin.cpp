@@ -78,7 +78,7 @@ define
 NO_RETRY_PERIOD_SEC
 5
 PRIntervalTime
-nsRASAutodial
+nsAutodial
 :
 :
 mDontRetryUntil
@@ -86,7 +86,7 @@ mDontRetryUntil
 0
 ;
 tRASPHONEBOOKDLG
-nsRASAutodial
+nsAutodial
 :
 :
 mpRasPhonebookDlg
@@ -94,7 +94,7 @@ mpRasPhonebookDlg
 nsnull
 ;
 tRASENUMCONNECTIONS
-nsRASAutodial
+nsAutodial
 :
 :
 mpRasEnumConnections
@@ -102,7 +102,7 @@ mpRasEnumConnections
 nsnull
 ;
 tRASENUMENTRIES
-nsRASAutodial
+nsAutodial
 :
 :
 mpRasEnumEntries
@@ -110,7 +110,7 @@ mpRasEnumEntries
 nsnull
 ;
 tRASDIALDLG
-nsRASAutodial
+nsAutodial
 :
 :
 mpRasDialDlg
@@ -118,7 +118,7 @@ mpRasDialDlg
 nsnull
 ;
 tRASSETAUTODIALADDRESS
-nsRASAutodial
+nsAutodial
 :
 :
 mpRasSetAutodialAddress
@@ -126,7 +126,7 @@ mpRasSetAutodialAddress
 nsnull
 ;
 tRASGETAUTODIALADDRESS
-nsRASAutodial
+nsAutodial
 :
 :
 mpRasGetAutodialAddress
@@ -134,7 +134,7 @@ mpRasGetAutodialAddress
 nsnull
 ;
 tRASGETAUTODIALENABLE
-nsRASAutodial
+nsAutodial
 :
 :
 mpRasGetAutodialEnable
@@ -142,7 +142,7 @@ mpRasGetAutodialEnable
 nsnull
 ;
 tRASGETAUTODIALPARAM
-nsRASAutodial
+nsAutodial
 :
 :
 mpRasGetAutodialParam
@@ -150,7 +150,7 @@ mpRasGetAutodialParam
 nsnull
 ;
 HINSTANCE
-nsRASAutodial
+nsAutodial
 :
 :
 mhRASdlg
@@ -158,17 +158,17 @@ mhRASdlg
 nsnull
 ;
 HINSTANCE
-nsRASAutodial
+nsAutodial
 :
 :
 mhRASapi32
 =
 nsnull
 ;
-nsRASAutodial
+nsAutodial
 :
 :
-nsRASAutodial
+nsAutodial
 (
 )
 :
@@ -206,17 +206,17 @@ Init
 )
 ;
 }
-nsRASAutodial
+nsAutodial
 :
 :
 ~
-nsRASAutodial
+nsAutodial
 (
 )
 {
 }
 nsresult
-nsRASAutodial
+nsAutodial
 :
 :
 Init
@@ -297,7 +297,7 @@ result
 ;
 }
 PRBool
-nsRASAutodial
+nsAutodial
 :
 :
 ShouldDialOnNetworkError
@@ -372,7 +372,7 @@ AUTODIAL_USE_SERVICE
 ;
 }
 int
-nsRASAutodial
+nsAutodial
 :
 :
 QueryAutodialBehavior
@@ -694,7 +694,7 @@ AUTODIAL_ALWAYS
 }
 }
 nsresult
-nsRASAutodial
+nsAutodial
 :
 :
 DialDefault
@@ -1109,7 +1109,7 @@ NS_OK
 ;
 }
 PRBool
-nsRASAutodial
+nsAutodial
 :
 :
 IsRASConnected
@@ -1212,7 +1212,7 @@ PR_FALSE
 ;
 }
 nsresult
-nsRASAutodial
+nsAutodial
 :
 :
 GetFirstEntryName
@@ -1315,7 +1315,7 @@ NS_ERROR_FAILURE
 ;
 }
 int
-nsRASAutodial
+nsAutodial
 :
 :
 NumRASEntries
@@ -1401,7 +1401,7 @@ return
 ;
 }
 nsresult
-nsRASAutodial
+nsAutodial
 :
 :
 GetDefaultEntryName
@@ -1669,7 +1669,7 @@ NS_OK
 ;
 }
 PRBool
-nsRASAutodial
+nsAutodial
 :
 :
 IsAutodialServiceRunning
@@ -1821,7 +1821,7 @@ SERVICE_RUNNING
 ;
 }
 PRBool
-nsRASAutodial
+nsAutodial
 :
 :
 AddAddressToAutodialDirectory
@@ -2037,7 +2037,7 @@ PR_TRUE
 ;
 }
 int
-nsRASAutodial
+nsAutodial
 :
 :
 GetCurrentLocation
@@ -2208,7 +2208,7 @@ location
 ;
 }
 PRBool
-nsRASAutodial
+nsAutodial
 :
 :
 IsAutodialServiceEnabled
@@ -2279,7 +2279,7 @@ enabled
 ;
 }
 PRBool
-nsRASAutodial
+nsAutodial
 :
 :
 LoadRASapi32DLL
@@ -2463,7 +2463,7 @@ PR_TRUE
 ;
 }
 PRBool
-nsRASAutodial
+nsAutodial
 :
 :
 LoadRASdlgDLL

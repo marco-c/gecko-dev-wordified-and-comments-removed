@@ -202,7 +202,7 @@ LPDWORD
 )
 ;
 class
-nsRASAutodial
+nsAutodial
 {
 private
 :
@@ -371,13 +371,13 @@ LoadRASdlgDLL
 ;
 public
 :
-nsRASAutodial
+nsAutodial
 (
 )
 ;
 virtual
 ~
-nsRASAutodial
+nsAutodial
 (
 )
 ;

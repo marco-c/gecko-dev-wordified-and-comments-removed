@@ -57,7 +57,7 @@ IsLinkUp
 return
 PR_FALSE
 ;
-nsRASAutodial
+nsAutodial
 autodial
 ;
 if
@@ -92,7 +92,7 @@ IsAutodialEnabled
 (
 )
 {
-nsRASAutodial
+nsAutodial
 autodial
 ;
 return
