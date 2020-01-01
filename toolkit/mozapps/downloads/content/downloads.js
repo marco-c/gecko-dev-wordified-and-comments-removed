@@ -630,12 +630,12 @@ gBuilder
 const
 gListBuildDelay
 =
-100
+300
 ;
 const
 gListBuildChunk
 =
-10
+3
 ;
 var
 gUserInteracted
@@ -5539,6 +5539,8 @@ min
 gDownloadsView
 .
 itemCount
+*
+10
 gListBuildDelay
 )
 ;
