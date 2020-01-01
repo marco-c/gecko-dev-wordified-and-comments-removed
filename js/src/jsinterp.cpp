@@ -3498,7 +3498,6 @@ JSContext
 cx
 JSObject
 *
-const
 chain
 JSScript
 *

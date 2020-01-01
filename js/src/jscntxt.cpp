@@ -697,6 +697,9 @@ base
 else
 munmap
 (
+(
+caddr_t
+)
 base
 CAPACITY_BYTES
 )
