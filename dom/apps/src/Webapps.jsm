@@ -10878,8 +10878,9 @@ MANIFEST_PARSE_ERROR
 return
 ;
 }
-if
-(
+let
+id
+=
 this
 .
 _appIdForManifestURL
@@ -10888,6 +10889,10 @@ app
 .
 manifestURL
 )
+;
+if
+(
+id
 !
 =
 =
@@ -10898,7 +10903,12 @@ this
 .
 _isLaunchable
 (
-app
+this
+.
+webapps
+[
+id
+]
 )
 )
 {
@@ -11610,6 +11620,9 @@ installSuccessCallback
 installSuccessCallback
 (
 aManifest
+zipFile
+.
+path
 )
 ;
 }
