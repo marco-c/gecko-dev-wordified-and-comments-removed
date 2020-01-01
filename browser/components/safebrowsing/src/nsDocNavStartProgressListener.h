@@ -113,6 +113,11 @@ DetachListeners
 (
 )
 ;
+void
+ClearPendingEvents
+(
+)
+;
 nsresult
 GetRequestUri
 (
