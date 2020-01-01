@@ -596,9 +596,6 @@ PRUint32
 mContextFlags
 ;
 PRUint32
-mBlurSuppressionLevel
-;
-PRUint32
 mPersistentAttributesDirty
 ;
 PRUint32
