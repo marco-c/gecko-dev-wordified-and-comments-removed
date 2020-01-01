@@ -398,6 +398,8 @@ f
 >
 f
 .
+source
+.
 isBlackBoxed
 )
 )
@@ -538,6 +540,8 @@ do_check_true
 (
 f
 .
+source
+.
 isBlackBoxed
 "
 Should
@@ -554,6 +558,8 @@ do_check_true
 (
 !
 f
+.
+source
 .
 isBlackBoxed
 "
@@ -687,6 +693,8 @@ f
 =
 >
 f
+.
+source
 .
 isBlackBoxed
 )
