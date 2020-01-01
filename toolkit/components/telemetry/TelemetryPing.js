@@ -3935,7 +3935,7 @@ gatherMemory
 ;
 Telemetry
 .
-asyncReadShutdownTime
+asyncFetchTelemetryData
 (
 function
 (

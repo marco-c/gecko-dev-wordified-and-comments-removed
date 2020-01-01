@@ -3733,7 +3733,7 @@ section
 }
 Telemetry
 .
-asyncReadShutdownTime
+asyncFetchTelemetryData
 (
 displayPingData
 )

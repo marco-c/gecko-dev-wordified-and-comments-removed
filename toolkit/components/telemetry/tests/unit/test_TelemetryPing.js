@@ -2776,7 +2776,7 @@ write_fake_shutdown_file
 ;
 Telemetry
 .
-asyncReadShutdownTime
+asyncFetchTelemetryData
 (
 function
 (
