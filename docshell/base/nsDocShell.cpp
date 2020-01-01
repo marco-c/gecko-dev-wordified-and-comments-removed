@@ -37330,11 +37330,8 @@ curIndex
 internalSH
 -
 >
-EvictContentViewers
+EvictOutOfRangeContentViewers
 (
-curIndex
--
-1
 curIndex
 )
 ;
