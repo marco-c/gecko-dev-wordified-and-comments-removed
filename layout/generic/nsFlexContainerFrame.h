@@ -148,6 +148,14 @@ GetType
 const
 MOZ_OVERRIDE
 ;
+virtual
+int
+GetSkipSides
+(
+)
+const
+MOZ_OVERRIDE
+;
 #
 ifdef
 DEBUG
