@@ -1069,6 +1069,14 @@ aEvent
 )
 ;
 PRBool
+IsPopupOpen
+(
+nsIContent
+*
+aPopup
+)
+;
+PRBool
 IsPopupOpenForMenuParent
 (
 nsIMenuParent
