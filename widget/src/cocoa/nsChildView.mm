@@ -11931,7 +11931,6 @@ new
 gfxQuartzSurface
 (
 cgContext
-PR_TRUE
 gfxSize
 (
 bounds

@@ -14,7 +14,7 @@ h
 CAIRO_BEGIN_DECLS
 cairo_surface_t
 *
-_test_paginated_surface_create_for_data
+_cairo_test_paginated_surface_create_for_data
 (
 unsigned
 char

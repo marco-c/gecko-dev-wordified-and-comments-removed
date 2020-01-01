@@ -1959,7 +1959,7 @@ GetType
 gfxASurface
 :
 :
-SurfaceTypeQuartz2
+SurfaceTypeQuartz
 )
 {
 fprintf
@@ -1970,7 +1970,7 @@ Expected
 surface
 of
 type
-Quartz2
+Quartz
 got
 %
 d

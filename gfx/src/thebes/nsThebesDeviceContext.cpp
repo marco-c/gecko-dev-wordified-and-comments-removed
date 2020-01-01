@@ -522,7 +522,7 @@ GetType
 gfxASurface
 :
 :
-SurfaceTypeQuartz2
+SurfaceTypeQuartz
 )
 )
 {
@@ -2638,7 +2638,7 @@ case
 gfxASurface
 :
 :
-SurfaceTypeQuartz2
+SurfaceTypeQuartz
 :
 inPoints
 =
