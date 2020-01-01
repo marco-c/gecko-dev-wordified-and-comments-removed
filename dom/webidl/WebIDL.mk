@@ -635,6 +635,10 @@ SVGEllipseElement
 .
 webidl
 \
+SVGFilterElement
+.
+webidl
+\
 SVGFEFuncAElement
 .
 webidl

@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsIDOMSVGUnitTypes
-.
-h
-"
-#
-include
-"
 nsISVGChildFrame
 .
 h
@@ -109,7 +102,10 @@ if
 mPrimitiveUnits
 =
 =
-nsIDOMSVGUnitTypes
+mozilla
+:
+:
+dom
 :
 :
 SVG_UNIT_TYPE_OBJECTBOUNDINGBOX

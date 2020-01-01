@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsIDOMSVGUnitTypes
-.
-h
-"
-#
-include
-"
 nsSVGElement
 .
 h
@@ -142,8 +135,6 @@ public
 SVGGradientElementBase
 public
 nsIDOMSVGURIReference
-public
-nsIDOMSVGUnitTypes
 {
 friend
 class

@@ -208,9 +208,6 @@ nsGkAtoms
 :
 patternUnits
 sSVGUnitTypesMap
-nsIDOMSVGUnitTypes
-:
-:
 SVG_UNIT_TYPE_OBJECTBOUNDINGBOX
 }
 {
@@ -220,9 +217,6 @@ nsGkAtoms
 :
 patternContentUnits
 sSVGUnitTypesMap
-nsIDOMSVGUnitTypes
-:
-:
 SVG_UNIT_TYPE_USERSPACEONUSE
 }
 }
@@ -251,7 +245,7 @@ true
 }
 }
 ;
-NS_IMPL_ISUPPORTS_INHERITED5
+NS_IMPL_ISUPPORTS_INHERITED4
 (
 SVGPatternElement
 SVGPatternElementBase
@@ -259,7 +253,6 @@ nsIDOMNode
 nsIDOMElement
 nsIDOMSVGElement
 nsIDOMSVGURIReference
-nsIDOMSVGUnitTypes
 )
 SVGPatternElement
 :

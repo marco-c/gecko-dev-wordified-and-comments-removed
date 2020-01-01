@@ -173,9 +173,6 @@ nsGkAtoms
 :
 gradientUnits
 sSVGUnitTypesMap
-nsIDOMSVGUnitTypes
-:
-:
 SVG_UNIT_TYPE_OBJECTBOUNDINGBOX
 }
 {
@@ -230,10 +227,6 @@ SVGGradientElement
 NS_INTERFACE_MAP_ENTRY
 (
 nsIDOMSVGURIReference
-)
-NS_INTERFACE_MAP_ENTRY
-(
-nsIDOMSVGUnitTypes
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
