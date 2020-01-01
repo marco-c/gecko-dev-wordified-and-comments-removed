@@ -10349,8 +10349,10 @@ appConsoleLog
 .
 append
 (
+TEST_ID
++
 "
-app_console_log
+_app_console_log
 "
 )
 ;
