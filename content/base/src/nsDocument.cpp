@@ -17692,6 +17692,8 @@ NamespaceID
 (
 )
 ;
+rv
+=
 NS_NewElement
 (
 getter_AddRefs
