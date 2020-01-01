@@ -463,6 +463,14 @@ test_bug467123
 .
 xul
 \
+test_title
+.
+xul
+\
+title_window
+.
+xul
+\
 (
 NULL
 )
