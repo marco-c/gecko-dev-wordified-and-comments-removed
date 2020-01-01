@@ -125,10 +125,6 @@ nsICacheVisitor
 .
 idl
 \
-nsIDiskCacheStreamInternal
-.
-idl
-\
 (
 NULL
 )

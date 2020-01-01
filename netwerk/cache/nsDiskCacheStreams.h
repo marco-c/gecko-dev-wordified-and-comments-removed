@@ -101,14 +101,6 @@ outputStream
 )
 ;
 nsresult
-CloseOutputStreamInternal
-(
-nsDiskCacheOutputStream
-*
-outputStream
-)
-;
-nsresult
 Write
 (
 const

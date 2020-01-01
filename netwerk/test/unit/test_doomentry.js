@@ -624,13 +624,13 @@ data
 length
 )
 ;
-gEntry
+gOstream
 .
 close
 (
 )
 ;
-gOstream
+gEntry
 .
 close
 (
