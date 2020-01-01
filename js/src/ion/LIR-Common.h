@@ -844,7 +844,7 @@ class
 LDefVar
 :
 public
-LInstructionHelper
+LCallInstructionHelper
 <
 0
 1
