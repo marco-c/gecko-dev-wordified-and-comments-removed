@@ -20234,6 +20234,9 @@ sRunnersCountAtFirstBlocker
 PRUint32
 lastBlocker
 =
+(
+PRUint32
+)
 sBlockedScriptRunners
 -
 >
@@ -20302,6 +20305,9 @@ NS_ASSERTION
 lastBlocker
 =
 =
+(
+PRUint32
+)
 sBlockedScriptRunners
 -
 >
