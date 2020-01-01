@@ -177,6 +177,10 @@ test_indexes_bad_values
 .
 js
 \
+test_indexes_funny_things
+.
+js
+\
 test_key_requirements
 .
 js
