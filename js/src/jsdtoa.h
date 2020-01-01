@@ -30,10 +30,6 @@ state
 ;
 #
 define
-JS_DTOA_ERANGE
-1
-#
-define
 JS_DTOA_ENOMEM
 2
 double

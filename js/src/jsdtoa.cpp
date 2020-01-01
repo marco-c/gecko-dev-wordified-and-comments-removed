@@ -98,6 +98,9 @@ define
 NO_GLOBAL_STATE
 #
 define
+NO_ERRNO
+#
+define
 MALLOC
 dtoa_malloc
 #
