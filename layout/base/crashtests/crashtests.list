@@ -2732,7 +2732,8 @@ skip
 -
 if
 (
-winWidget
+!
+gtk2Widget
 )
 load
 813372
