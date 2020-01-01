@@ -3473,7 +3473,6 @@ metro_animation_easing
 }
 appbar
 toolbar
->
 toolbarbutton
 {
 border
@@ -3498,7 +3497,6 @@ transparent
 }
 appbar
 toolbar
->
 toolbarbutton
 [
 disabled
@@ -3527,7 +3525,6 @@ toolbar
 [
 labelled
 ]
->
 toolbarbutton
 {
 -
@@ -3545,7 +3542,6 @@ toolbar
 [
 labelled
 ]
->
 toolbarbutton
 >
 .

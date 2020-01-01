@@ -598,6 +598,8 @@ getElementById
 findbar
 -
 close
+-
+button
 "
 )
 1
