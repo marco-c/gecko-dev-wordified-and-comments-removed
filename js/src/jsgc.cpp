@@ -3843,6 +3843,9 @@ return
 false
 ;
 }
+#
+ifdef
+JS_THREADSAFE
 if
 (
 !
@@ -3858,6 +3861,8 @@ init
 return
 false
 ;
+#
+endif
 rt
 -
 >
@@ -5610,6 +5615,9 @@ stdout
 ;
 #
 endif
+#
+ifdef
+JS_THREADSAFE
 rt
 -
 >
@@ -5619,6 +5627,8 @@ cancel
 (
 )
 ;
+#
+endif
 FinishGCArenaLists
 (
 rt
