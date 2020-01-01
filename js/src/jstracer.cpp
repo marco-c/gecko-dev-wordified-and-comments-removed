@@ -54666,7 +54666,7 @@ cx
 JSObject
 *
 obj
-int32_t
+int32
 index
 jsval
 *
