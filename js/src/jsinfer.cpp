@@ -9983,16 +9983,6 @@ JSContext
 cx
 )
 {
-JS_ASSERT
-(
-compartment
-(
-)
--
->
-activeInference
-)
-;
 if
 (
 !
