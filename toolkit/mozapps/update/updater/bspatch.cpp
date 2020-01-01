@@ -269,7 +269,7 @@ MBDIFF10
 0
 )
 return
-UNEXPECTED_ERROR
+UNEXPECTED_BSPATCH_ERROR
 ;
 if
 (
@@ -302,7 +302,7 @@ st_size
 )
 )
 return
-UNEXPECTED_ERROR
+UNEXPECTED_BSPATCH_ERROR
 ;
 return
 OK
@@ -643,7 +643,7 @@ diffend
 {
 rv
 =
-UNEXPECTED_ERROR
+UNEXPECTED_BSPATCH_ERROR
 ;
 goto
 end
@@ -741,7 +741,7 @@ extraend
 {
 rv
 =
-UNEXPECTED_ERROR
+UNEXPECTED_BSPATCH_ERROR
 ;
 goto
 end
@@ -800,7 +800,7 @@ fbufend
 {
 rv
 =
-UNEXPECTED_ERROR
+UNEXPECTED_BSPATCH_ERROR
 ;
 goto
 end
