@@ -3166,7 +3166,7 @@ num_toString
 2
 (
 extern
-STRING
+STRING_RETRY
 js_NumberToString
 CONTEXT
 THIS_DOUBLE
@@ -3178,7 +3178,7 @@ THIS_DOUBLE
 3
 (
 static
-STRING
+STRING_RETRY
 js_NumberToStringWithBase
 CONTEXT
 THIS_DOUBLE
