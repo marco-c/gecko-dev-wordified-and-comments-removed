@@ -179,13 +179,6 @@ nsCycleCollectionParticipant
 .
 h
 "
-#
-include
-"
-nsIObserver
-.
-h
-"
 class
 nsIDOMCharacterData
 ;
@@ -275,8 +268,6 @@ nsIEditorIMESupport
 public
 nsSupportsWeakReference
 public
-nsIObserver
-public
 nsIPhonetic
 {
 public
@@ -351,7 +342,6 @@ NotifyEditorObservers
 ;
 NS_DECL_NSIEDITOR
 NS_DECL_NSIEDITORIMESUPPORT
-NS_DECL_NSIOBSERVER
 NS_DECL_NSIPHONETIC
 public
 :

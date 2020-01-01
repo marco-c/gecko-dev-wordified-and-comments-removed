@@ -2477,6 +2477,11 @@ this
 onEditableArea
 )
 ;
+if
+(
+canSpell
+)
+{
 document
 .
 getElementById
@@ -2495,14 +2500,12 @@ setAttribute
 "
 checked
 "
-canSpell
-&
-&
 InlineSpellCheckerUI
 .
 enabled
 )
 ;
+}
 this
 .
 showItem

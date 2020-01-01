@@ -489,12 +489,6 @@ CanEnableInlineSpellChecking
 (
 )
 ;
-static
-void
-UpdateCanEnableInlineSpellChecking
-(
-)
-;
 nsresult
 Blur
 (
