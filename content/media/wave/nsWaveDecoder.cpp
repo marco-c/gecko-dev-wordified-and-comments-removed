@@ -1127,6 +1127,13 @@ STATE_PLAYING
 ;
 }
 else
+if
+(
+mState
+!
+=
+STATE_BUFFERING
+)
 {
 mNextState
 =
