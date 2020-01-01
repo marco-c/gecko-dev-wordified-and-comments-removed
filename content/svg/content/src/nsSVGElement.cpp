@@ -6340,6 +6340,7 @@ nsSVGElement
 GetCtx
 (
 )
+const
 {
 nsIContent
 *
@@ -6438,6 +6439,7 @@ gfxMatrix
 &
 aMatrix
 )
+const
 {
 return
 aMatrix

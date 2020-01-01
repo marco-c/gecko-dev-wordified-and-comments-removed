@@ -98,6 +98,7 @@ gfxMatrix
 &
 aMatrix
 )
+const
 ;
 NS_IMETHOD_
 (

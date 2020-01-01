@@ -445,6 +445,7 @@ nsSVGSVGElement
 GetCtx
 (
 )
+const
 ;
 virtual
 gfxMatrix
@@ -455,6 +456,7 @@ gfxMatrix
 &
 aMatrix
 )
+const
 ;
 virtual
 void

@@ -3250,11 +3250,13 @@ inline
 float
 ComputeSynthesizedViewBoxDimension
 (
+const
 nsSVGLength2
 &
 aLength
 float
 aViewportLength
+const
 nsSVGSVGElement
 *
 aSelf
@@ -3288,7 +3290,14 @@ aLength
 .
 GetAnimValue
 (
+const_cast
+<
+nsSVGSVGElement
+*
+>
+(
 aSelf
+)
 )
 ;
 }
@@ -3299,6 +3308,7 @@ nsSVGSVGElement
 GetViewBoxTransform
 (
 )
+const
 {
 const
 SVGPreserveAspectRatio
@@ -4158,6 +4168,7 @@ gfxMatrix
 &
 aMatrix
 )
+const
 {
 if
 (
@@ -4170,6 +4181,16 @@ float
 x
 y
 ;
+const_cast
+<
+nsSVGSVGElement
+*
+>
+(
+this
+)
+-
+>
 GetAnimatedLengthValues
 (
 &
@@ -4474,6 +4495,7 @@ nsSVGSVGElement
 ShouldSynthesizeViewBox
 (
 )
+const
 {
 NS_ABORT_IF_FALSE
 (
@@ -4814,6 +4836,7 @@ nsSVGSVGElement
 GetImageOverridePreserveAspectRatio
 (
 )
+const
 {
 void
 *

@@ -2035,6 +2035,7 @@ gfxMatrix
 &
 aMatrix
 )
+const
 {
 gfxMatrix
 matrix
@@ -2051,6 +2052,16 @@ float
 x
 y
 ;
+const_cast
+<
+nsSVGUseElement
+*
+>
+(
+this
+)
+-
+>
 GetAnimatedLengthValues
 (
 &
