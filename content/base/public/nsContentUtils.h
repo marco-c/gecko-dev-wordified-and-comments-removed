@@ -569,6 +569,16 @@ aCapability
 )
 ;
 static
+nsINode
+*
+GetCrossDocParentNode
+(
+nsINode
+*
+aChild
+)
+;
+static
 PRBool
 ContentIsDescendantOf
 (
