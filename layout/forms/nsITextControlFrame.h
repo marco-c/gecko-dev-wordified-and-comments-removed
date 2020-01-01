@@ -65,13 +65,6 @@ aTextLength
 0
 ;
 NS_IMETHOD
-CheckFireOnChange
-(
-)
-=
-0
-;
-NS_IMETHOD
 SetSelectionStart
 (
 PRInt32

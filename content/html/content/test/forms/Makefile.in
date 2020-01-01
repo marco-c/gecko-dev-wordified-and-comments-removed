@@ -460,6 +460,10 @@ test_save_restore_radio_groups
 .
 html
 \
+test_change_event
+.
+html
+\
 test_mozistextfield
 .
 html
