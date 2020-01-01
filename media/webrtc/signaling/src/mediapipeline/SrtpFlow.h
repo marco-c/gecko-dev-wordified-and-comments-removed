@@ -184,10 +184,6 @@ SrtpFlow
 (
 )
 :
-policy_
-(
-NULL
-)
 session_
 (
 NULL
@@ -220,10 +216,6 @@ Init
 static
 bool
 initialized
-;
-srtp_policy_t
-*
-policy_
 ;
 srtp_t
 session_
