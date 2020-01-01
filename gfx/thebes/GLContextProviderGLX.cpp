@@ -1168,7 +1168,7 @@ GL_EXT_framebuffer_object
 ;
 }
 PRBool
-MakeCurrent
+MakeCurrentImpl
 (
 PRBool
 aForce

@@ -151,6 +151,10 @@ GLContext
 .
 h
 \
+GLContextSymbols
+.
+h
+\
 GLContextProvider
 .
 h

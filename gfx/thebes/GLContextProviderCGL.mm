@@ -825,7 +825,7 @@ nsnull
 }
 }
 PRBool
-MakeCurrent
+MakeCurrentImpl
 (
 PRBool
 aForce

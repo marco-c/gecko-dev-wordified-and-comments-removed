@@ -22,6 +22,13 @@ h
 #
 include
 "
+prenv
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h
@@ -53,6 +60,20 @@ mozilla
 namespace
 gl
 {
+#
+ifdef
+DEBUG
+GLContext
+*
+GLContext
+:
+:
+sCurrentGLContext
+=
+nsnull
+;
+#
+endif
 const
 ContextFormat
 ContextFormat
@@ -487,6 +508,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fActiveTexture
 {
 "
@@ -504,6 +527,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fAttachShader
 {
 "
@@ -521,6 +546,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fBindAttribLocation
 {
 "
@@ -538,6 +565,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fBindBuffer
 {
 "
@@ -555,6 +584,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fBindTexture
 {
 "
@@ -572,6 +603,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fBlendColor
 {
 "
@@ -586,6 +619,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fBlendEquation
 {
 "
@@ -600,6 +635,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fBlendEquationSeparate
 {
 "
@@ -617,6 +654,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fBlendFunc
 {
 "
@@ -631,6 +670,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fBlendFuncSeparate
 {
 "
@@ -648,6 +689,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fBufferData
 {
 "
@@ -662,6 +705,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fBufferSubData
 {
 "
@@ -676,6 +721,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fClear
 {
 "
@@ -690,6 +737,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fClearColor
 {
 "
@@ -704,6 +753,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fClearStencil
 {
 "
@@ -718,6 +769,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fColorMask
 {
 "
@@ -732,6 +785,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fCullFace
 {
 "
@@ -746,6 +801,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fDetachShader
 {
 "
@@ -763,6 +820,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fDepthFunc
 {
 "
@@ -777,6 +836,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fDepthMask
 {
 "
@@ -791,6 +852,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fDisable
 {
 "
@@ -805,6 +868,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fDisableVertexAttribArray
 {
 "
@@ -822,6 +887,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fDrawArrays
 {
 "
@@ -836,6 +903,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fDrawElements
 {
 "
@@ -850,6 +919,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fEnable
 {
 "
@@ -864,6 +935,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fEnableVertexAttribArray
 {
 "
@@ -881,6 +954,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fFinish
 {
 "
@@ -895,6 +970,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fFlush
 {
 "
@@ -909,6 +986,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fFrontFace
 {
 "
@@ -923,6 +1002,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fGetActiveAttrib
 {
 "
@@ -940,6 +1021,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fGetActiveUniform
 {
 "
@@ -957,6 +1040,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fGetAttachedShaders
 {
 "
@@ -974,6 +1059,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fGetAttribLocation
 {
 "
@@ -991,6 +1078,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fGetIntegerv
 {
 "
@@ -1005,6 +1094,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fGetFloatv
 {
 "
@@ -1019,6 +1110,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fGetBooleanv
 {
 "
@@ -1033,6 +1126,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fGetBufferParameteriv
 {
 "
@@ -1050,6 +1145,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fGetError
 {
 "
@@ -1064,6 +1161,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fGetProgramiv
 {
 "
@@ -1081,6 +1180,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fGetProgramInfoLog
 {
 "
@@ -1098,6 +1199,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fTexParameteri
 {
 "
@@ -1112,6 +1215,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fTexParameterf
 {
 "
@@ -1126,6 +1231,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fGetString
 {
 "
@@ -1140,6 +1247,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fGetTexParameterfv
 {
 "
@@ -1154,6 +1263,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fGetTexParameteriv
 {
 "
@@ -1168,6 +1279,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fGetUniformfv
 {
 "
@@ -1185,6 +1298,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fGetUniformiv
 {
 "
@@ -1202,6 +1317,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fGetUniformLocation
 {
 "
@@ -1219,6 +1336,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fGetVertexAttribfv
 {
 "
@@ -1236,6 +1355,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fGetVertexAttribiv
 {
 "
@@ -1253,6 +1374,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fHint
 {
 "
@@ -1267,6 +1390,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fIsBuffer
 {
 "
@@ -1284,6 +1409,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fIsEnabled
 {
 "
@@ -1298,6 +1425,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fIsProgram
 {
 "
@@ -1315,6 +1444,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fIsShader
 {
 "
@@ -1332,6 +1463,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fIsTexture
 {
 "
@@ -1349,6 +1482,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fLineWidth
 {
 "
@@ -1363,6 +1498,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fLinkProgram
 {
 "
@@ -1380,6 +1517,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fPixelStorei
 {
 "
@@ -1394,6 +1533,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fPolygonOffset
 {
 "
@@ -1408,6 +1549,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fReadPixels
 {
 "
@@ -1422,6 +1565,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fSampleCoverage
 {
 "
@@ -1436,7 +1581,9 @@ PRFuncPtr
 *
 )
 &
-priv_fScissor
+mSymbols
+.
+fScissor
 {
 "
 Scissor
@@ -1450,6 +1597,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fStencilFunc
 {
 "
@@ -1464,6 +1613,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fStencilFuncSeparate
 {
 "
@@ -1481,6 +1632,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fStencilMask
 {
 "
@@ -1495,6 +1648,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fStencilMaskSeparate
 {
 "
@@ -1512,6 +1667,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fStencilOp
 {
 "
@@ -1526,6 +1683,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fStencilOpSeparate
 {
 "
@@ -1543,6 +1702,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fTexImage2D
 {
 "
@@ -1557,6 +1718,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fTexSubImage2D
 {
 "
@@ -1571,6 +1734,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fUniform1f
 {
 "
@@ -1585,6 +1750,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fUniform1fv
 {
 "
@@ -1599,6 +1766,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fUniform1i
 {
 "
@@ -1613,6 +1782,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fUniform1iv
 {
 "
@@ -1627,6 +1798,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fUniform2f
 {
 "
@@ -1641,6 +1814,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fUniform2fv
 {
 "
@@ -1655,6 +1830,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fUniform2i
 {
 "
@@ -1669,6 +1846,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fUniform2iv
 {
 "
@@ -1683,6 +1862,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fUniform3f
 {
 "
@@ -1697,6 +1878,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fUniform3fv
 {
 "
@@ -1711,6 +1894,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fUniform3i
 {
 "
@@ -1725,6 +1910,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fUniform3iv
 {
 "
@@ -1739,6 +1926,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fUniform4f
 {
 "
@@ -1753,6 +1942,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fUniform4fv
 {
 "
@@ -1767,6 +1958,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fUniform4i
 {
 "
@@ -1781,6 +1974,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fUniform4iv
 {
 "
@@ -1795,6 +1990,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fUniformMatrix2fv
 {
 "
@@ -1809,6 +2006,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fUniformMatrix3fv
 {
 "
@@ -1823,6 +2022,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fUniformMatrix4fv
 {
 "
@@ -1837,6 +2038,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fUseProgram
 {
 "
@@ -1851,6 +2054,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fValidateProgram
 {
 "
@@ -1865,6 +2070,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fVertexAttribPointer
 {
 "
@@ -1879,6 +2086,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fVertexAttrib1f
 {
 "
@@ -1893,6 +2102,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fVertexAttrib2f
 {
 "
@@ -1907,6 +2118,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fVertexAttrib3f
 {
 "
@@ -1921,6 +2134,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fVertexAttrib4f
 {
 "
@@ -1935,6 +2150,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fVertexAttrib1fv
 {
 "
@@ -1949,6 +2166,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fVertexAttrib2fv
 {
 "
@@ -1963,6 +2182,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fVertexAttrib3fv
 {
 "
@@ -1977,6 +2198,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fVertexAttrib4fv
 {
 "
@@ -1991,7 +2214,9 @@ PRFuncPtr
 *
 )
 &
-priv_fViewport
+mSymbols
+.
+fViewport
 {
 "
 Viewport
@@ -2005,6 +2230,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fCompileShader
 {
 "
@@ -2019,6 +2246,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fCopyTexImage2D
 {
 "
@@ -2033,6 +2262,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fCopyTexSubImage2D
 {
 "
@@ -2047,6 +2278,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fGetShaderiv
 {
 "
@@ -2061,6 +2294,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fGetShaderInfoLog
 {
 "
@@ -2075,6 +2310,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fGetShaderSource
 {
 "
@@ -2089,6 +2326,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fShaderSource
 {
 "
@@ -2103,6 +2342,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fVertexAttribPointer
 {
 "
@@ -2117,6 +2358,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fBindFramebuffer
 {
 "
@@ -2134,6 +2377,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fBindRenderbuffer
 {
 "
@@ -2151,6 +2396,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fCheckFramebufferStatus
 {
 "
@@ -2168,6 +2415,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fFramebufferRenderbuffer
 {
 "
@@ -2185,6 +2434,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fFramebufferTexture2D
 {
 "
@@ -2202,6 +2453,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fGenerateMipmap
 {
 "
@@ -2219,6 +2472,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fGetFramebufferAttachmentParameteriv
 {
 "
@@ -2236,6 +2491,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fGetRenderbufferParameteriv
 {
 "
@@ -2253,6 +2510,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fIsFramebuffer
 {
 "
@@ -2270,6 +2529,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fIsRenderbuffer
 {
 "
@@ -2287,6 +2548,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fRenderbufferStorage
 {
 "
@@ -2304,7 +2567,9 @@ PRFuncPtr
 *
 )
 &
-priv_fGenBuffers
+mSymbols
+.
+fGenBuffers
 {
 "
 GenBuffers
@@ -2321,7 +2586,9 @@ PRFuncPtr
 *
 )
 &
-priv_fGenTextures
+mSymbols
+.
+fGenTextures
 {
 "
 GenTextures
@@ -2335,7 +2602,9 @@ PRFuncPtr
 *
 )
 &
-priv_fCreateProgram
+mSymbols
+.
+fCreateProgram
 {
 "
 CreateProgram
@@ -2352,7 +2621,9 @@ PRFuncPtr
 *
 )
 &
-priv_fCreateShader
+mSymbols
+.
+fCreateShader
 {
 "
 CreateShader
@@ -2369,7 +2640,9 @@ PRFuncPtr
 *
 )
 &
-priv_fGenFramebuffers
+mSymbols
+.
+fGenFramebuffers
 {
 "
 GenFramebuffers
@@ -2386,7 +2659,9 @@ PRFuncPtr
 *
 )
 &
-priv_fGenRenderbuffers
+mSymbols
+.
+fGenRenderbuffers
 {
 "
 GenRenderbuffers
@@ -2403,7 +2678,9 @@ PRFuncPtr
 *
 )
 &
-priv_fDeleteBuffers
+mSymbols
+.
+fDeleteBuffers
 {
 "
 DeleteBuffers
@@ -2420,7 +2697,9 @@ PRFuncPtr
 *
 )
 &
-priv_fDeleteTextures
+mSymbols
+.
+fDeleteTextures
 {
 "
 DeleteTextures
@@ -2437,7 +2716,9 @@ PRFuncPtr
 *
 )
 &
-priv_fDeleteProgram
+mSymbols
+.
+fDeleteProgram
 {
 "
 DeleteProgram
@@ -2454,7 +2735,9 @@ PRFuncPtr
 *
 )
 &
-priv_fDeleteShader
+mSymbols
+.
+fDeleteShader
 {
 "
 DeleteShader
@@ -2471,7 +2754,9 @@ PRFuncPtr
 *
 )
 &
-priv_fDeleteFramebuffers
+mSymbols
+.
+fDeleteFramebuffers
 {
 "
 DeleteFramebuffers
@@ -2488,7 +2773,9 @@ PRFuncPtr
 *
 )
 &
-priv_fDeleteRenderbuffers
+mSymbols
+.
+fDeleteRenderbuffers
 {
 "
 DeleteRenderbuffers
@@ -2507,14 +2794,18 @@ PRFuncPtr
 *
 )
 &
-priv_fClearDepthf
+mSymbols
+.
+fClearDepthf
 :
 (
 PRFuncPtr
 *
 )
 &
-priv_fClearDepth
+mSymbols
+.
+fClearDepth
 {
 mIsGLES2
 ?
@@ -2536,14 +2827,18 @@ PRFuncPtr
 *
 )
 &
-priv_fDepthRangef
+mSymbols
+.
+fDepthRangef
 :
 (
 PRFuncPtr
 *
 )
 &
-priv_fDepthRange
+mSymbols
+.
+fDepthRange
 {
 mIsGLES2
 ?
@@ -2571,6 +2866,8 @@ PRFuncPtr
 *
 )
 &
+mSymbols
+.
 fReadBuffer
 {
 mIsGLES2
@@ -2817,6 +3114,53 @@ value
 #
 endif
 }
+#
+ifdef
+DEBUG
+if
+(
+PR_GetEnv
+(
+"
+MOZ_GL_DEBUG
+"
+)
+)
+mDebugMode
+|
+=
+DebugEnabled
+;
+if
+(
+PR_GetEnv
+(
+"
+MOZ_GL_DEBUG_VERBOSE
+"
+)
+)
+mDebugMode
+|
+=
+DebugTrace
+;
+if
+(
+PR_GetEnv
+(
+"
+MOZ_GL_DEBUG_ABORT_ON_ERROR
+"
+)
+)
+mDebugMode
+|
+=
+DebugAbortOnError
+;
+#
+endif
 return
 mInitialized
 ;
@@ -4788,26 +5132,10 @@ mBlitFramebuffer
 =
 0
 ;
-memset
+mSymbols
+.
+Zero
 (
-&
-mFunctionListStartSentinel
-0
-(
-unsigned
-char
-*
-)
-&
-mFunctionListEndSentinel
--
-(
-unsigned
-char
-*
-)
-&
-mFunctionListStartSentinel
 )
 ;
 }

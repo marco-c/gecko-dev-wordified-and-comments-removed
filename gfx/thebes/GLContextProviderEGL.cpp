@@ -2716,7 +2716,7 @@ PR_TRUE
 ;
 }
 PRBool
-MakeCurrent
+MakeCurrentImpl
 (
 PRBool
 aForce
