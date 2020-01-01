@@ -1,7 +1,4 @@
 #
-define
-_GNU_SOURCE
-#
 if
 defined
 (
@@ -1654,7 +1651,7 @@ sctp_get_mbuf_for_msg
 (
 iovlen
 want_header
-M_DONTWAIT
+M_NOWAIT
 want_ext
 MT_DATA
 )
@@ -2434,9 +2431,6 @@ NULL
 ;
 #
 endif
-return
-NULL
-;
 }
 #
 endif
@@ -2654,7 +2648,7 @@ sctp_get_mbuf_for_msg
 (
 iovlen
 want_header
-M_DONTWAIT
+M_NOWAIT
 want_ext
 MT_DATA
 )
@@ -3569,9 +3563,6 @@ NULL
 ;
 #
 endif
-return
-NULL
-;
 }
 #
 endif
@@ -3797,7 +3788,7 @@ sctp_get_mbuf_for_msg
 (
 iovlen
 want_header
-M_DONTWAIT
+M_NOWAIT
 want_ext
 MT_DATA
 )
@@ -4817,9 +4808,6 @@ NULL
 ;
 #
 endif
-return
-NULL
-;
 }
 #
 endif
@@ -5025,7 +5013,7 @@ sctp_get_mbuf_for_msg
 (
 iovlen
 want_header
-M_DONTWAIT
+M_NOWAIT
 want_ext
 MT_DATA
 )
@@ -5966,9 +5954,6 @@ NULL
 ;
 #
 endif
-return
-NULL
-;
 }
 #
 endif
