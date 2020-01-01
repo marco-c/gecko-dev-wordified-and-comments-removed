@@ -1582,6 +1582,17 @@ sa_stream_t
 s
 )
 ;
+int
+sa_stream_get_min_write
+(
+sa_stream_t
+*
+s
+size_t
+*
+samples
+)
+;
 const
 char
 *

@@ -1291,6 +1291,14 @@ sound
 .
 ogg
 \
+spacestorm
+-
+1000Hz
+-
+100ms
+.
+ogg
+\
 video
 -
 overhang
