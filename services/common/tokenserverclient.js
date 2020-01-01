@@ -49,13 +49,13 @@ resource
 :
 /
 /
-services
--
-common
+gre
 /
-log4moz
+modules
+/
+Preferences
 .
-js
+jsm
 "
 )
 ;
@@ -72,7 +72,7 @@ services
 -
 common
 /
-preferences
+log4moz
 .
 js
 "

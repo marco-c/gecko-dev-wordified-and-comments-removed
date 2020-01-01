@@ -30,7 +30,7 @@ gre
 /
 modules
 /
-Services
+Preferences
 .
 jsm
 "
@@ -45,13 +45,13 @@ resource
 :
 /
 /
-services
--
-common
+gre
 /
-preferences
+modules
+/
+Services
 .
-js
+jsm
 "
 )
 ;

@@ -127,13 +127,9 @@ gre
 /
 modules
 /
-services
--
-common
-/
-preferences
+Preferences
 .
-js
+jsm
 "
 )
 ;

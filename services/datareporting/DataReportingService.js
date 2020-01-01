@@ -31,7 +31,7 @@ gre
 /
 modules
 /
-XPCOMUtils
+Preferences
 .
 jsm
 "
@@ -46,13 +46,13 @@ resource
 :
 /
 /
-services
--
-common
+gre
 /
-preferences
+modules
+/
+XPCOMUtils
 .
-js
+jsm
 "
 )
 ;
