@@ -1175,6 +1175,14 @@ nsConnectionEntry
 ent
 )
 ;
+void
+ReportProxyTelemetry
+(
+nsConnectionEntry
+*
+ent
+)
+;
 nsresult
 CreateTransport
 (
