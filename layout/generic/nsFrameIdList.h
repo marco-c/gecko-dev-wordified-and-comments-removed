@@ -212,10 +212,6 @@ nsIScrollbarMediator
 )
 FRAME_ID
 (
-nsIScrollbarOwner
-)
-FRAME_ID
-(
 nsISelectControlFrame
 )
 FRAME_ID
