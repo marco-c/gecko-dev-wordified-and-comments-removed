@@ -260,6 +260,8 @@ repository
 getLogger
 (
 "
+Sync
+.
 Tracker
 .
 "
@@ -853,6 +855,8 @@ repository
 getLogger
 (
 "
+Sync
+.
 Store
 .
 "
@@ -1314,9 +1318,9 @@ repository
 getLogger
 (
 "
-Service
+Sync
 .
-Engines
+EngineManager
 "
 )
 ;
@@ -1800,6 +1804,8 @@ repository
 getLogger
 (
 "
+Sync
+.
 Engine
 .
 "

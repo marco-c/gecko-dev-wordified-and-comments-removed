@@ -516,9 +516,9 @@ prototype
 _logName
 :
 "
-Net
+Sync
 .
-Resource
+AsyncResource
 "
 serverTime
 :
@@ -2011,6 +2011,13 @@ __proto__
 AsyncResource
 .
 prototype
+_logName
+:
+"
+Sync
+.
+Resource
+"
 _request
 :
 function
@@ -2989,7 +2996,7 @@ repository
 getLogger
 (
 "
-Service
+Sync
 .
 CertListener
 "

@@ -472,6 +472,8 @@ prototype
 _logName
 :
 "
+Sync
+.
 Record
 .
 PlacesItem
@@ -539,6 +541,8 @@ prototype
 _logName
 :
 "
+Sync
+.
 Record
 .
 Bookmark
@@ -608,6 +612,8 @@ prototype
 _logName
 :
 "
+Sync
+.
 Record
 .
 BookmarkQuery
@@ -669,6 +675,8 @@ prototype
 _logName
 :
 "
+Sync
+.
 Record
 .
 Folder
@@ -729,6 +737,8 @@ prototype
 _logName
 :
 "
+Sync
+.
 Record
 .
 Livemark
@@ -786,6 +796,8 @@ prototype
 _logName
 :
 "
+Sync
+.
 Record
 .
 Separator

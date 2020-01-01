@@ -186,6 +186,8 @@ prototype
 _logName
 :
 "
+Sync
+.
 Record
 .
 Pref

@@ -165,7 +165,7 @@ repository
 getLogger
 (
 "
-Service
+Sync
 .
 JPAKEClient
 "

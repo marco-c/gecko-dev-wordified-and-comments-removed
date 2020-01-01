@@ -475,6 +475,8 @@ repository
 getLogger
 (
 "
+Sync
+.
 Identity
 "
 )

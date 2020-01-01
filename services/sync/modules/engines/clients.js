@@ -187,6 +187,8 @@ prototype
 _logName
 :
 "
+Sync
+.
 Record
 .
 Clients

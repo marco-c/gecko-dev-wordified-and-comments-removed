@@ -57,6 +57,8 @@ repository
 getLogger
 (
 "
+Sync
+.
 Engine
 .
 Passwords
@@ -78,6 +80,8 @@ repository
 getLogger
 (
 "
+Sync
+.
 Store
 .
 Passwords

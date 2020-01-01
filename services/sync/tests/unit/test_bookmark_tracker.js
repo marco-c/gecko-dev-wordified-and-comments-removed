@@ -1174,6 +1174,8 @@ repository
 getLogger
 (
 "
+Sync
+.
 Engine
 .
 Bookmarks
@@ -1195,6 +1197,8 @@ repository
 getLogger
 (
 "
+Sync
+.
 Store
 .
 Bookmarks
@@ -1216,6 +1220,8 @@ repository
 getLogger
 (
 "
+Sync
+.
 Tracker
 .
 Bookmarks
