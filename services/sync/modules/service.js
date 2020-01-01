@@ -3866,6 +3866,12 @@ passphrase
 =
 newphrase
 ;
+this
+.
+persistLogin
+(
+)
+;
 return
 true
 ;
