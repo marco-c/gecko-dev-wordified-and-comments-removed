@@ -17,6 +17,9 @@ blapit
 .
 h
 "
+namespace
+nss
+{
 extern
 SHA256Context
 *
@@ -479,5 +482,6 @@ SHA384Context
 src
 )
 ;
+}
 #
 endif

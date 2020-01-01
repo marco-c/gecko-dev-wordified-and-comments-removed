@@ -64,6 +64,9 @@ time
 .
 h
 >
+namespace
+nspr
+{
 #
 if
 defined
@@ -7374,4 +7377,5 @@ result
 return
 PR_SUCCESS
 ;
+}
 }

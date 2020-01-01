@@ -47,6 +47,10 @@ logging
 .
 h
 "
+using
+namespace
+nspr
+;
 namespace
 base
 {

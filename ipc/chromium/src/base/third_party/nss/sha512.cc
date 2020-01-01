@@ -142,6 +142,9 @@ s
 define
 PORT_Memcpy
 memcpy
+namespace
+nss
+{
 #
 define
 W
@@ -8350,6 +8353,7 @@ dest
 }
 #
 endif
+}
 #
 ifdef
 SELFTEST
@@ -8360,6 +8364,10 @@ stdio
 .
 h
 >
+using
+namespace
+nss
+;
 static
 const
 char
