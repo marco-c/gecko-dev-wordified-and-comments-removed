@@ -561,6 +561,10 @@ browser_bug618502
 .
 js
 \
+browser_bug625465
+.
+js
+\
 browser_details
 .
 js
