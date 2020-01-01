@@ -599,13 +599,13 @@ L
 ENTITY
 cmd
 .
-removeFromList
+removeFromHistory
 .
 label
 "
 Remove
 From
-List
+History
 "
 >
 <
@@ -613,7 +613,7 @@ List
 ENTITY
 cmd
 .
-removeFromList
+removeFromHistory
 .
 accesskey
 "
