@@ -3620,8 +3620,9 @@ aOwner
 )
 MOZ_OVERRIDE
 {
-MOZ_ASSERT_IF
+MOZ_ASSERT
 (
+!
 aOwner
 "
 We
