@@ -680,6 +680,14 @@ PRUint8
 aAttrEnum
 )
 ;
+virtual
+void
+DidAnimateBoolean
+(
+PRUint8
+aAttrEnum
+)
+;
 enum
 {
 X

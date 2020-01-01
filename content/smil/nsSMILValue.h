@@ -154,6 +154,9 @@ const
 ;
 union
 {
+PRBool
+mBool
+;
 PRUint64
 mUint
 ;
