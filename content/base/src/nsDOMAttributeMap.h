@@ -455,6 +455,14 @@ NS_DECL_CYCLE_COLLECTION_CLASS
 (
 nsDOMAttributeMap
 )
+size_t
+SizeOfIncludingThis
+(
+nsMallocSizeOfFun
+aMallocSizeOf
+)
+const
+;
 private
 :
 Element
