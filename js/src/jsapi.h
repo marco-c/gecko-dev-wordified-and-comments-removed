@@ -3812,7 +3812,7 @@ JS_EnterLocalRootScope
 cx
 )
 (
-true
+JS_TRUE
 )
 #
 define
