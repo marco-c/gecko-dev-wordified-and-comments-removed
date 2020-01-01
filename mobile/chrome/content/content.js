@@ -2329,6 +2329,17 @@ content
 ;
 let
 defaultAction
+;
+if
+(
+!
+Util
+.
+isParentProcess
+(
+)
+)
+defaultAction
 =
 utils
 .
