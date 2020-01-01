@@ -99,6 +99,10 @@ Makefile
 .
 in
 \
+OutputGenerator
+.
+jsm
+\
 Presentation
 .
 jsm
@@ -112,10 +116,6 @@ TraversalRules
 jsm
 \
 Utils
-.
-jsm
-\
-UtteranceGenerator
 .
 jsm
 \

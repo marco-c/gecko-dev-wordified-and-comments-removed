@@ -86,7 +86,7 @@ jsatcommon
 .
 js
 \
-utterance
+output
 .
 js
 \
@@ -99,6 +99,10 @@ test_explicit_names
 html
 \
 test_utterance_order
+.
+html
+\
+test_braille
 .
 html
 \
