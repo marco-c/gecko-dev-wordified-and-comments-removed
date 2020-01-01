@@ -1398,6 +1398,17 @@ JSBool
 output
 )
 ;
+bool
+CloseIteratorFromIon
+(
+JSContext
+*
+cx
+JSObject
+*
+obj
+)
+;
 }
 }
 #
