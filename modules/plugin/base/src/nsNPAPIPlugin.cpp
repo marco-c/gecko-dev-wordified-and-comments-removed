@@ -3472,6 +3472,8 @@ const
 char
 *
 name
+=
+nsnull
 ;
 nsRefPtr
 <
