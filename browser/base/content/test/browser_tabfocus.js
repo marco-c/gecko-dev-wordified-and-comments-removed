@@ -430,9 +430,7 @@ button1
 =
 browser1
 .
-contentWindow
-.
-document
+contentDocument
 .
 getElementById
 (
@@ -471,9 +469,7 @@ button2
 =
 browser2
 .
-contentWindow
-.
-document
+contentDocument
 .
 getElementById
 (

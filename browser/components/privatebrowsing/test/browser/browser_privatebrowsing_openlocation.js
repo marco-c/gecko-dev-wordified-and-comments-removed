@@ -129,12 +129,7 @@ browser
 =
 gBrowser
 .
-getBrowserForTab
-(
-gBrowser
-.
-selectedTab
-)
+selectedBrowser
 ;
 browser
 .
