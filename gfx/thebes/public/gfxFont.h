@@ -820,7 +820,7 @@ aGlyphID
 nsnull
 ;
 }
-gfxRect
+PRBool
 GetTightGlyphExtentsAppUnits
 (
 gfxFont
@@ -831,6 +831,9 @@ gfxContext
 aContext
 PRUint32
 aGlyphID
+gfxRect
+*
+aExtents
 )
 ;
 void
