@@ -245,6 +245,15 @@ aOrigin
 ;
 static
 nsresult
+SetDefaultPragmas
+(
+mozIStorageConnection
+*
+aConnection
+)
+;
+static
+nsresult
 LoadDatabaseInformation
 (
 mozIStorageConnection
