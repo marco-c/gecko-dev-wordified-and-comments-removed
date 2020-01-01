@@ -132,9 +132,6 @@ size
 float
 sizeAdjust
 ;
-PRUint16
-stretch
-;
 nsFont
 (
 const
