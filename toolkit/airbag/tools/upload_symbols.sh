@@ -3,7 +3,7 @@
 /
 bin
 /
-sh
+bash
 #
 #
 *
@@ -507,6 +507,7 @@ v
 {
 SYMBOL_SERVER_SSH_KEY
 :
++
 -
 i
 SYMBOL_SERVER_SSH_KEY
@@ -541,6 +542,7 @@ ssh
 {
 SYMBOL_SERVER_SSH_KEY
 :
++
 -
 i
 SYMBOL_SERVER_SSH_KEY
