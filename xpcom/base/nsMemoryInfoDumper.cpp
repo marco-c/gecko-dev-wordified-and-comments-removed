@@ -100,6 +100,13 @@ h
 #
 include
 "
+nsIMemoryReporter
+.
+h
+"
+#
+include
+"
 nsDirectoryServiceDefs
 .
 h

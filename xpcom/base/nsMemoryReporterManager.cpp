@@ -2580,6 +2580,7 @@ int64_t
 Amount
 (
 )
+MOZ_OVERRIDE
 {
 jemalloc_stats_t
 stats
