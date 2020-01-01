@@ -486,10 +486,6 @@ nsIGlobalHistory2
 .
 idl
 \
-nsIGlobalHistory3
-.
-idl
-\
 nsIMarkupDocumentViewer
 .
 idl

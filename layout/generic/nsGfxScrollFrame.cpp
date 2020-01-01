@@ -197,13 +197,6 @@ h
 #
 include
 "
-nsIGlobalHistory3
-.
-h
-"
-#
-include
-"
 nsDocShellCID
 .
 h
