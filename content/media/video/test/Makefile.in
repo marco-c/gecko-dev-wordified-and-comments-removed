@@ -566,6 +566,10 @@ test_onloadedmetadata
 .
 html
 \
+test_load_coalescing
+.
+html
+\
 test_play
 .
 html
@@ -575,6 +579,14 @@ test_progress1
 html
 \
 test_progress3
+.
+html
+\
+test_source
+.
+html
+\
+test_source_write
 .
 html
 \
