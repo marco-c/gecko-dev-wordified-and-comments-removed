@@ -55,7 +55,7 @@ __GNUC__
 *
 1000
 +
-__GNU_MINOR__
+__GNUC_MINOR__
 )
 >
 =
