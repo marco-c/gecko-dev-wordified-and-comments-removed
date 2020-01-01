@@ -11,6 +11,9 @@ SVGGraphicsElement
 .
 h
 "
+class
+gfxFlattenedPath
+;
 struct
 gfxMatrix
 ;

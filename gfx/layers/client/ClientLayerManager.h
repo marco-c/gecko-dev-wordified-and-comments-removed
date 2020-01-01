@@ -29,6 +29,9 @@ namespace
 layers
 {
 class
+CompositorChild
+;
+class
 ClientLayerManager
 :
 public
