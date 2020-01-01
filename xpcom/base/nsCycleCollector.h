@@ -219,6 +219,14 @@ NotifyEnterMainThread
 0
 ;
 virtual
+void
+FixWeakMappingGrayBits
+(
+)
+=
+0
+;
+virtual
 bool
 NeedCollect
 (

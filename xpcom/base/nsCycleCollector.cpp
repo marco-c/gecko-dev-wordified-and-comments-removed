@@ -3858,7 +3858,7 @@ aWhiteNodes
 )
 ;
 void
-GCIfNeeded
+FixGrayBits
 (
 bool
 aForceGC
@@ -11157,7 +11157,7 @@ void
 nsCycleCollector
 :
 :
-GCIfNeeded
+FixGrayBits
 (
 bool
 aForceGC
@@ -11172,7 +11172,7 @@ NS_IsMainThread
 nsCycleCollector
 :
 :
-GCIfNeeded
+FixGrayBits
 (
 )
 must
@@ -11207,6 +11207,13 @@ if
 aForceGC
 )
 {
+mJSRuntime
+-
+>
+FixWeakMappingGrayBits
+(
+)
+;
 bool
 needGC
 =
@@ -11680,7 +11687,7 @@ aTryCollections
 totalCollections
 )
 {
-GCIfNeeded
+FixGrayBits
 (
 true
 )
@@ -13688,7 +13695,7 @@ wantAllTraces
 mCollector
 -
 >
-GCIfNeeded
+FixGrayBits
 (
 wantAllTraces
 )

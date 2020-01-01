@@ -1799,6 +1799,12 @@ GetParticipant
 )
 ;
 virtual
+void
+FixWeakMappingGrayBits
+(
+)
+;
+virtual
 bool
 NeedCollect
 (
