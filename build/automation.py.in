@@ -2116,6 +2116,16 @@ popup_maximum
 user_pref
 (
 "
+dom
+.
+successive_dialog_time_limit
+"
+0
+)
+;
+user_pref
+(
+"
 signed
 .
 applets
