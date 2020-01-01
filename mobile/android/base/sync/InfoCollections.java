@@ -107,13 +107,6 @@ net
 .
 SyncStorageResponse
 ;
-import
-android
-.
-util
-.
-Log
-;
 public
 class
 InfoCollections
@@ -410,9 +403,9 @@ IOException
 ParseException
 NonObjectJSONException
 {
-Log
+Logger
 .
-i
+info
 (
 LOG_TAG
 "
@@ -571,9 +564,9 @@ value
 continue
 ;
 }
-Log
+Logger
 .
-w
+warn
 (
 LOG_TAG
 "

@@ -35,13 +35,6 @@ domain
 .
 Record
 ;
-import
-android
-.
-util
-.
-Log
-;
 class
 ConcurrentRecordConsumer
 extends
@@ -454,9 +447,9 @@ Exception
 e
 )
 {
-Log
+Logger
 .
-e
+error
 (
 LOG_TAG
 "

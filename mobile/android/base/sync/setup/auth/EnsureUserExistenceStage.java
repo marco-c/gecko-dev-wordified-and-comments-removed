@@ -111,13 +111,6 @@ setup
 Constants
 ;
 import
-android
-.
-util
-.
-Log
-;
-import
 ch
 .
 boye
@@ -208,9 +201,9 @@ handleSuccess
 (
 )
 {
-Log
+Logger
 .
-d
+debug
 (
 LOG_TAG
 "

@@ -832,7 +832,7 @@ if
 (
 Logger
 .
-logVerbose
+shouldLogVerbose
 (
 LOG_TAG
 )

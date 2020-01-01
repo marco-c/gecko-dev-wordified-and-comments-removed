@@ -1454,7 +1454,7 @@ if
 (
 Logger
 .
-logVerbose
+shouldLogVerbose
 (
 LOG_TAG
 )
@@ -3216,7 +3216,7 @@ if
 (
 Logger
 .
-logVerbose
+shouldLogVerbose
 (
 LOG_TAG
 )
@@ -3869,7 +3869,7 @@ if
 (
 Logger
 .
-logVerbose
+shouldLogVerbose
 (
 LOG_TAG
 )

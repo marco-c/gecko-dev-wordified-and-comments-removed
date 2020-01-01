@@ -60,13 +60,6 @@ sync
 .
 NonObjectJSONException
 ;
-import
-android
-.
-util
-.
-Log
-;
 public
 class
 RepositorySessionBundle
@@ -171,9 +164,9 @@ long
 timestamp
 )
 {
-Log
+Logger
 .
-d
+debug
 (
 LOG_TAG
 "

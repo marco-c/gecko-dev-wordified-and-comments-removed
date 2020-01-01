@@ -210,13 +210,6 @@ database
 .
 Cursor
 ;
-import
-android
-.
-util
-.
-Log
-;
 public
 class
 AndroidBrowserHistoryRepositorySession
@@ -568,9 +561,9 @@ record
 throws
 NullCursorException
 {
-Log
+Logger
 .
-d
+debug
 (
 LOG_TAG
 "

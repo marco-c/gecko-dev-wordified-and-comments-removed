@@ -1407,7 +1407,7 @@ return
 }
 Logger
 .
-refreshLogLevels
+resetLogging
 (
 )
 ;

@@ -73,13 +73,6 @@ activities
 .
 AccountActivity
 ;
-import
-android
-.
-util
-.
-Log
-;
 public
 class
 AccountAuthenticator
@@ -280,9 +273,9 @@ username
 username
 )
 ;
-Log
+Logger
 .
-d
+debug
 (
 LOG_TAG
 "

@@ -100,13 +100,6 @@ android
 .
 RepoUtils
 ;
-import
-android
-.
-util
-.
-Log
-;
 public
 class
 BookmarkRecord
@@ -910,9 +903,9 @@ NonArrayJSONException
 e
 )
 {
-Log
+Logger
 .
-e
+error
 (
 LOG_TAG
 "

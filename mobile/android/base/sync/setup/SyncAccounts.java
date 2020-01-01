@@ -172,16 +172,6 @@ LOG_TAG
 SyncAccounts
 "
 ;
-private
-static
-final
-String
-GLOBAL_LOG_TAG
-=
-"
-FxSync
-"
-;
 public
 static
 boolean
@@ -558,6 +548,8 @@ Log
 .
 e
 (
+Logger
+.
 GLOBAL_LOG_TAG
 "
 Unable
@@ -832,6 +824,8 @@ Log
 .
 wtf
 (
+Logger
+.
 GLOBAL_LOG_TAG
 "
 Unable
@@ -879,6 +873,8 @@ Log
 .
 e
 (
+Logger
+.
 GLOBAL_LOG_TAG
 "
 Unable
