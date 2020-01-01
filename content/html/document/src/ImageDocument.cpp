@@ -1308,7 +1308,7 @@ false
 )
 ;
 }
-nsHTMLDocument
+MediaDocument
 :
 :
 SetScriptGlobalObject

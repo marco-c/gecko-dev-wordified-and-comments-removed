@@ -592,6 +592,14 @@ test_documentAll
 .
 html
 \
+test_document
+-
+element
+-
+inserted
+.
+html
+\
 test_bug445004
 .
 html
