@@ -88,15 +88,6 @@ MODULE
 :
 =
 editor
-PARALLEL_DIRS
-:
-=
-public
-idl
-txtsvc
-libeditor
-txmgr
-composer
 include
 (
 topsrcdir

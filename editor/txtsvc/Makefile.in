@@ -84,11 +84,6 @@ MODULE
 :
 =
 txtsvc
-PARALLEL_DIRS
-:
-=
-public
-src
 include
 (
 topsrcdir
