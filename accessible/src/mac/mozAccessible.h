@@ -143,6 +143,13 @@ subrole
 ;
 -
 (
+NSString
+*
+)
+roleDescription
+;
+-
+(
 NSWindow
 *
 )
