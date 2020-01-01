@@ -1193,7 +1193,7 @@ return
 JS_FALSE
 ;
 }
-jsval
+jsid
 name
 =
 member
@@ -1710,7 +1710,7 @@ JS_FALSE
 if
 (
 !
-JSVAL_MAY_BE_PRIVATE
+JSVAL_IS_UNDERLYING_TYPE_OF_PRIVATE
 (
 val
 )
@@ -1750,7 +1750,7 @@ JS_FALSE
 if
 (
 !
-JSVAL_MAY_BE_PRIVATE
+JSVAL_IS_UNDERLYING_TYPE_OF_PRIVATE
 (
 val
 )
@@ -1902,7 +1902,10 @@ JS_CALLER
 cx
 obj
 funobj
+INT_TO_JSID
+(
 0
+)
 argc
 argv
 vp

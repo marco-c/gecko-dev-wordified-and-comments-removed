@@ -651,7 +651,7 @@ pInfo
 >
 SetName
 (
-STRING_TO_JSVAL
+INTERNED_STRING_TO_JSID
 (
 str
 )
@@ -1018,7 +1018,7 @@ PRUnichar
 lhs
 size_t
 lhsLength
-jsval
+jsid
 rhs
 )
 {
@@ -1042,7 +1042,10 @@ rhsString
 xpc_JSString2PRUnichar
 (
 ccx
+JSID_TO_STRING
+(
 rhs
+)
 &
 rhsLength
 )
@@ -1082,7 +1085,7 @@ FindMemberCI
 XPCCallContext
 &
 ccx
-jsval
+jsid
 name
 )
 const
@@ -1097,7 +1100,10 @@ sName
 xpc_JSString2PRUnichar
 (
 ccx
+JSID_TO_STRING
+(
 name
+)
 &
 nameLength
 )
@@ -1287,7 +1293,7 @@ flags
 nsnull
 JS_GetStringBytes
 (
-JSVAL_TO_STRING
+JSID_TO_STRING
 (
 mName
 )
