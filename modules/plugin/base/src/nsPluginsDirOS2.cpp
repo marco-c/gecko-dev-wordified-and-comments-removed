@@ -796,7 +796,7 @@ info
 )
 {
 nsresult
-rv
+rc
 =
 NS_ERROR_FAILURE
 ;
@@ -1079,7 +1079,7 @@ get
 )
 )
 ;
-rv
+rc
 =
 NS_OK
 ;
@@ -1099,7 +1099,7 @@ hPlug
 )
 ;
 return
-rv
+rc
 ;
 }
 nsresult
