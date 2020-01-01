@@ -4606,11 +4606,6 @@ AccessCheck
 callerIsChrome
 (
 )
-|
-|
-ContentScriptHasUniversalXPConnect
-(
-)
 )
 )
 {
