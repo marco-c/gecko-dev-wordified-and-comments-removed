@@ -577,7 +577,7 @@ History
 .
 cpp
 \
-nsPlacesImportExportService
+nsPlacesExportService
 .
 cpp
 \
@@ -693,6 +693,10 @@ EXTRA_JS_MODULES
 =
 \
 PlacesDBUtils
+.
+jsm
+\
+BookmarkHTMLUtils
 .
 jsm
 \

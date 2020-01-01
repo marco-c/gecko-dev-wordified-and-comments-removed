@@ -52,7 +52,7 @@ h
 #
 include
 "
-nsPlacesImportExportService
+nsPlacesExportService
 .
 h
 "
@@ -123,8 +123,8 @@ GetSingleton
 )
 NS_GENERIC_FACTORY_SINGLETON_CONSTRUCTOR
 (
-nsPlacesImportExportService
-nsPlacesImportExportService
+nsPlacesExportService
+nsPlacesExportService
 :
 :
 GetSingleton
@@ -277,7 +277,7 @@ endif
 kNS_PLACESIMPORTEXPORTSERVICE_CID
 false
 NULL
-nsPlacesImportExportServiceConstructor
+nsPlacesExportServiceConstructor
 }
 {
 NULL
