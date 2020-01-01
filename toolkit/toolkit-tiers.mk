@@ -592,6 +592,8 @@ tier_platform_dirs
 +
 =
 \
+hal
+\
 js
 /
 src

@@ -597,6 +597,10 @@ layers
 /
 ipc
 \
+hal
+/
+sandbox
+\
 ipc
 /
 testshell

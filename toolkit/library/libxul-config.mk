@@ -620,6 +620,8 @@ gfx2d
 \
 gfxipc_s
 \
+hal_s
+\
 (
 NULL
 )

@@ -4567,6 +4567,13 @@ startupcache
 /
 Makefile
 "
+MAKEFILES_hal
+=
+"
+hal
+/
+Makefile
+"
 add_makefiles
 "
 MAKEFILES_db
@@ -4609,6 +4616,7 @@ MAKEFILES_accessible
 MAKEFILES_libmar
 MAKEFILES_extensions
 MAKEFILES_startupcache
+MAKEFILES_hal
 "
 #
 #
