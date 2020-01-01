@@ -153,11 +153,7 @@ do_test_pending
 do_timeout
 (
 0
-"
 run_test_pt1
-(
-)
-"
 )
 ;
 }

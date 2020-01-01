@@ -598,11 +598,7 @@ do_test_pending
 do_timeout
 (
 50
-"
 delayed_test
-(
-)
-"
 )
 ;
 }

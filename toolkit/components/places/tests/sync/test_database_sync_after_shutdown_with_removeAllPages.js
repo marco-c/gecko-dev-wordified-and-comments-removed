@@ -317,12 +317,7 @@ cleared
 do_timeout
 (
 POLLING_TIMEOUT_MS
-"
 check_results
-(
-)
-;
-"
 )
 ;
 }
@@ -397,12 +392,7 @@ connectionReady
 do_timeout
 (
 POLLING_TIMEOUT_MS
-"
 check_results
-(
-)
-;
-"
 )
 ;
 return

@@ -513,12 +513,7 @@ do_test_pending
 do_timeout
 (
 3500
-"
 end_test
-(
-)
-;
-"
 )
 ;
 }

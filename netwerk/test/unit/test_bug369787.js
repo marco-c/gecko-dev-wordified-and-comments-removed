@@ -116,11 +116,7 @@ change_content_type
 do_timeout
 (
 0
-"
 after_channel_closed
-(
-)
-"
 )
 ;
 }

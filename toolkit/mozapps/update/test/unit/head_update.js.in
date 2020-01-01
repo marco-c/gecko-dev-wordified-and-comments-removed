@@ -4641,11 +4641,7 @@ body
 do_timeout
 (
 0
-"
 gXHRCallback
-(
-)
-"
 )
 ;
 /
@@ -5047,11 +5043,7 @@ complete
 do_timeout
 (
 0
-"
 gCheckFunc
-(
-)
-"
 )
 ;
 }
@@ -5140,11 +5132,7 @@ complete
 do_timeout
 (
 0
-"
 gCheckFunc
-(
-)
-"
 )
 ;
 }

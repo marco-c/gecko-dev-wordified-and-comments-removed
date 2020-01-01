@@ -573,11 +573,7 @@ args
 do_timeout
 (
 0
-"
 gTestCheck
-(
-)
-"
 )
 ;
 }

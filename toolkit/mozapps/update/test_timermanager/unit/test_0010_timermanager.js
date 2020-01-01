@@ -824,11 +824,7 @@ run_test1thru6
 {
 gNextFunc
 =
-"
 check_test1thru6
-(
-)
-"
 ;
 gCompReg
 .
@@ -1859,11 +1855,9 @@ count
 do_timeout
 (
 0
-"
 run_test7
 (
 )
-"
 )
 ;
 }
@@ -1874,11 +1868,7 @@ run_test7
 {
 gNextFunc
 =
-"
 check_test7
-(
-)
-"
 ;
 gPref
 .
@@ -2500,11 +2490,7 @@ true
 do_timeout
 (
 0
-"
 check_test7
-(
-)
-"
 )
 ;
 }

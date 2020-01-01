@@ -295,12 +295,7 @@ testURI
 do_timeout
 (
 3500
-"
 confirm_results
-(
-)
-;
-"
 )
 ;
 }

@@ -52,11 +52,7 @@ callHandleEvent
 do_timeout
 (
 0
-"
 run_test_pt1
-(
-)
-"
 )
 ;
 }

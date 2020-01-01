@@ -176,12 +176,7 @@ test_nr
 do_timeout
 (
 0
-"
 do_test
-(
-)
-;
-"
 )
 ;
 }
@@ -349,12 +344,7 @@ false
 do_timeout
 (
 0
-"
 do_test
-(
-)
-;
-"
 )
 ;
 do_test_pending

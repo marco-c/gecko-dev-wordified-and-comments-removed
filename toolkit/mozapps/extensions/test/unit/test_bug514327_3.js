@@ -277,11 +277,7 @@ test_bug514327_outdated
 do_timeout
 (
 0
-"
 gNextTestPart
-(
-)
-"
 )
 ;
 }

@@ -234,11 +234,7 @@ setDefaultPrefs
 do_timeout
 (
 0
-"
 run_test_pt1
-(
-)
-"
 )
 ;
 }
@@ -489,11 +485,7 @@ autoStarted
 do_timeout
 (
 0
-"
 run_test_pt2
-(
-)
-"
 )
 ;
 }

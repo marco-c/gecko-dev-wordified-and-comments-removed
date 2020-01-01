@@ -158,7 +158,7 @@ timer
 {
 this
 .
-_expr
+_func
 =
 expr
 ;
@@ -175,10 +175,6 @@ _TimerCallback
 prototype
 =
 {
-_expr
-:
-"
-"
 QueryInterface
 :
 function
@@ -242,11 +238,13 @@ timer
 1
 )
 ;
-eval
-(
 this
 .
-_expr
+_func
+.
+call
+(
+null
 )
 ;
 }

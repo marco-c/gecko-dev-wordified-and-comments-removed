@@ -646,12 +646,7 @@ removeAll
 do_timeout
 (
 100
-"
 cleanup
-(
-)
-;
-"
 )
 ;
 }

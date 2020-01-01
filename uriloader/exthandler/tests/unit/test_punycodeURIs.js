@@ -149,11 +149,7 @@ else
 do_timeout
 (
 1000
-"
 checkFile
-(
-)
-"
 )
 ;
 }
@@ -675,11 +671,7 @@ do_test_pending
 do_timeout
 (
 1000
-"
 checkFile
-(
-)
-"
 )
 ;
 }

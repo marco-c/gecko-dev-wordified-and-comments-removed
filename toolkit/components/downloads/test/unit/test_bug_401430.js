@@ -85,12 +85,7 @@ false
 do_timeout
 (
 POLL_REGISTRY_TIMEOUT
-"
 pollRecentDocs
-(
-)
-;
-"
 )
 ;
 }
@@ -160,12 +155,7 @@ else
 do_timeout
 (
 POLL_REGISTRY_TIMEOUT
-"
 pollRecentDocs
-(
-)
-;
-"
 )
 ;
 }

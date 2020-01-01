@@ -1716,11 +1716,7 @@ version
 do_timeout
 (
 0
-"
 gCallback
-(
-)
-"
 )
 ;
 }

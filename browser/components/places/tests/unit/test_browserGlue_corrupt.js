@@ -180,12 +180,7 @@ do_test_pending
 do_timeout
 (
 1000
-"
 continue_test
-(
-)
-;
-"
 )
 ;
 }
@@ -243,12 +238,7 @@ toolbarFolder
 do_timeout
 (
 1000
-"
 continue_test
-(
-)
-;
-"
 )
 ;
 return
