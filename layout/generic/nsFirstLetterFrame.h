@@ -23,6 +23,11 @@ nsFirstLetterFrameSuper
 {
 public
 :
+NS_DECL_QUERYFRAME_TARGET
+(
+nsFirstLetterFrame
+)
+NS_DECL_QUERYFRAME
 NS_DECL_FRAMEARENA_HELPERS
 nsFirstLetterFrame
 (
