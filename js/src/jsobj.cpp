@@ -9260,6 +9260,12 @@ CALLEE_PROTOTYPE
 0
 )
 #
+else
+#
+define
+js_Object_trcinfo
+NULL
+#
 endif
 static
 JS_REQUIRES_STACK

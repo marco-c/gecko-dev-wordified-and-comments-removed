@@ -10253,6 +10253,12 @@ CALLEE_PROTOTYPE
 )
 )
 #
+else
+#
+define
+js_Date_trcinfo
+NULL
+#
 endif
 JSObject
 *
