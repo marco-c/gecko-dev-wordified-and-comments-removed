@@ -4689,12 +4689,6 @@ complete
 }
 )
 ;
-this
-.
-set_timeout
-(
-)
-;
 }
 Tests
 .
