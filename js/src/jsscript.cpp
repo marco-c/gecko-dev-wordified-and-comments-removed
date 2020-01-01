@@ -9628,10 +9628,9 @@ ifdef
 JS_METHODJIT
 if
 (
-jitNormal
-|
-|
-jitCtor
+hasJITCode
+(
+)
 )
 {
 mjit
