@@ -593,6 +593,10 @@ hideAboutHome
 (
 )
 ;
+selectedTab
+=
+tab
+;
 GeckoApp
 .
 mAppContext
@@ -784,8 +788,6 @@ getId
 )
 ;
 return
-selectedTab
-=
 tab
 ;
 }
