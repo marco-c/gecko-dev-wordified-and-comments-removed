@@ -4890,6 +4890,10 @@ aCreateIfNecessary
 PR_FALSE
 )
 ;
+friend
+class
+nsListBoxLayout
+;
 void
 SetOverflowRect
 (
