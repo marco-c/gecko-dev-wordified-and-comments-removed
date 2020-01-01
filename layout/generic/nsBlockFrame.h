@@ -1477,14 +1477,6 @@ aFloat
 )
 ;
 void
-RemoveFloatFromFloatCache
-(
-nsIFrame
-*
-aFloat
-)
-;
-void
 CollectFloats
 (
 nsIFrame
