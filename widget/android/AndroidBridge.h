@@ -1564,6 +1564,14 @@ ScheduleComposite
 )
 ;
 void
+SetViewTransformGetter
+(
+AndroidViewTransformGetter
+&
+aViewTransformGetter
+)
+;
+void
 GetViewTransform
 (
 nsIntPoint
@@ -1624,6 +1632,10 @@ base
 Thread
 *
 mCompositorThread
+;
+AndroidViewTransformGetter
+*
+mViewTransformGetter
 ;
 jclass
 mGeckoAppShellClass

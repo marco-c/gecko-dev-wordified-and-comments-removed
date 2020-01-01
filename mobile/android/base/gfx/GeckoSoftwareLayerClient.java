@@ -1069,6 +1069,14 @@ slice
 }
 }
 Override
+protected
+void
+tileLayerUpdated
+(
+)
+{
+}
+Override
 public
 Bitmap
 getBitmap
