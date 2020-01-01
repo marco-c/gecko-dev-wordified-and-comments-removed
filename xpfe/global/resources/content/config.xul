@@ -1059,7 +1059,7 @@ warningTitle
 "
 >
 &
-scaryWarningTitle
+configWarningTitle
 .
 label
 ;
@@ -1076,7 +1076,7 @@ warningText
 "
 >
 &
-scaryWarningText
+configWarningText
 .
 label
 ;
@@ -1095,7 +1095,7 @@ label
 =
 "
 &
-scaryWarningCheckbox
+configWarningCheckbox
 .
 label
 ;
@@ -1134,7 +1134,7 @@ label
 =
 "
 &
-scaryWarningButton
+configWarningButton
 .
 label
 ;
