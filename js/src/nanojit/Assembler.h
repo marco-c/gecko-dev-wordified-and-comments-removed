@@ -579,7 +579,12 @@ registerResetAll
 )
 ;
 void
-evictRegs
+evictAllActiveRegs
+(
+)
+;
+void
+evictSomeActiveRegs
 (
 RegisterMask
 regs
