@@ -906,6 +906,10 @@ browser_relatedTabs
 .
 js
 \
+browser_removeTabsToTheEnd
+.
+js
+\
 browser_sanitize
 -
 passwordDisabledHosts
