@@ -800,6 +800,8 @@ nsAString
 aValue
 PRBool
 aUserInput
+PRBool
+aSetValueChanged
 )
 ;
 void
