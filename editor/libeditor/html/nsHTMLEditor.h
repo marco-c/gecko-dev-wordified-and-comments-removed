@@ -2071,14 +2071,6 @@ nsIDOMNode
 aNodeInserted
 )
 ;
-bool
-IsSafeToInsertData
-(
-nsIDOMDocument
-*
-aSourceDoc
-)
-;
 nsresult
 InsertObject
 (
