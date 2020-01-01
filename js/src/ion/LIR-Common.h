@@ -198,6 +198,11 @@ op_
 ;
 public
 :
+LIR_HEADER
+(
+BitOp
+)
+;
 LBitOp
 (
 JSOp

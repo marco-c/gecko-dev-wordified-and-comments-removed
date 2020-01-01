@@ -76,6 +76,11 @@ _
 (
 Snapshot
 )
+\
+_
+(
+Start
+)
 #
 define
 FORWARD_DECLARE

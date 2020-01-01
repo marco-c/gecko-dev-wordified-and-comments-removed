@@ -800,6 +800,15 @@ undef
 )
 ;
 }
+current
+-
+>
+makeStart
+(
+new
+MStart
+)
+;
 if
 (
 !
