@@ -571,6 +571,10 @@ SVGLocatableElement
 .
 webidl
 \
+SVGMarkerElement
+.
+webidl
+\
 SVGMaskElement
 .
 webidl
