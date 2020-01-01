@@ -381,7 +381,7 @@ aListener
 nsIDOMEvent
 *
 aDOMEvent
-nsISupports
+nsPIDOMEventTarget
 *
 aCurrentTarget
 PRUint32
