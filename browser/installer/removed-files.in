@@ -8913,6 +8913,11 @@ dom_geolocation
 xpt
 components
 /
+dom_devicestorage
+.
+xpt
+components
+/
 dom_html
 .
 xpt
