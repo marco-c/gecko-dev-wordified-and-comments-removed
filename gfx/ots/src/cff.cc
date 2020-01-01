@@ -4249,7 +4249,6 @@ if
 (
 private_offset
 >
-=
 table_length
 )
 {
