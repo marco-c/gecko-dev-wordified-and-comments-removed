@@ -291,6 +291,8 @@ public
 nsIDOMStorageManager
 public
 nsIObserver
+public
+nsSupportsWeakReference
 {
 public
 :
