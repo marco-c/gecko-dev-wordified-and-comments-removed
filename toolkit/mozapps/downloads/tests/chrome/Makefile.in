@@ -504,6 +504,10 @@ test_search_clearlist
 .
 xul
 \
+test_search_keys
+.
+xul
+\
 test_select_all
 .
 xul
