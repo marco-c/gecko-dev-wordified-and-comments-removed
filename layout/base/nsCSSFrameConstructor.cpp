@@ -12679,7 +12679,7 @@ return
 sTextData
 ;
 }
-nsresult
+void
 nsCSSFrameConstructor
 :
 :
@@ -12735,17 +12735,6 @@ mCreationFunc
 mPresShell
 aStyleContext
 )
-;
-if
-(
-MOZ_UNLIKELY
-(
-!
-newFrame
-)
-)
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
 InitAndRestoreFrame
 (
@@ -12867,9 +12856,6 @@ SetPrimaryFrame
 (
 newFrame
 )
-;
-return
-NS_OK
 ;
 }
 const
@@ -22616,7 +22602,6 @@ aState
 return
 NS_OK
 ;
-return
 ConstructTextFrame
 (
 item
@@ -22630,6 +22615,9 @@ adjParentFrame
 styleContext
 aFrameItems
 )
+;
+return
+NS_OK
 ;
 }
 styleContext

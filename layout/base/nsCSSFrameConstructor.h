@@ -2981,7 +2981,7 @@ nsIFrame
 aParentFrame
 )
 ;
-nsresult
+void
 ConstructTextFrame
 (
 const
