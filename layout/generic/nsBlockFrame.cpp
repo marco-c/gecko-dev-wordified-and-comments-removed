@@ -12002,6 +12002,17 @@ IsSelfEmpty
 (
 )
 {
+if
+(
+GetStateBits
+(
+)
+&
+NS_BLOCK_MARGIN_ROOT
+)
+return
+PR_FALSE
+;
 const
 nsStylePosition
 *
