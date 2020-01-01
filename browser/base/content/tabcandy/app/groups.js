@@ -982,6 +982,8 @@ function
 (
 )
 {
+return
+;
 var
 buffer
 =
