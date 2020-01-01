@@ -1,0 +1,11 @@
+#
+filter
+substitution
+VERSION
+{
+global
+:
+*
+;
+}
+;
