@@ -213,6 +213,10 @@ aLangGroup
 nsString
 &
 array
+PRBool
+aAppendUnicode
+=
+PR_TRUE
 )
 ;
 protected

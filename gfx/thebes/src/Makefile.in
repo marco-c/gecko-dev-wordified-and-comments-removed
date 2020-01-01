@@ -480,6 +480,12 @@ CPPSRCS
 gfxPDFSurface
 .
 cpp
+CPPSRCS
++
+=
+nsUnicodeRange
+.
+cpp
 CMMSRCS
 =
 gfxQuartzFontCache

@@ -1114,6 +1114,8 @@ aLangGroup
 nsString
 &
 aFonts
+PRBool
+aAppendUnicode
 )
 {
 aFonts
@@ -1129,6 +1131,10 @@ aLangGroup
 nsnull
 )
 ;
+if
+(
+aAppendUnicode
+)
 AppendGenericFontFromPref
 (
 aFonts
