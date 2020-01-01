@@ -16056,6 +16056,15 @@ aContent
 IsNativeAnonymous
 (
 )
+|
+|
+!
+aContent
+-
+>
+GetCurrentDoc
+(
+)
 "
 Native
 anonymous
