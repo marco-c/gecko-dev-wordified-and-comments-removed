@@ -379,12 +379,16 @@ imageLoaded
 zoomTest
 (
 gTab1
-1
+gLevel
 "
 Zoom
 should
 be
-1
+"
++
+gLevel
++
+"
 when
 image
 was
@@ -408,7 +412,6 @@ gTab1
 "
 Zoom
 should
-still
 be
 1
 when
