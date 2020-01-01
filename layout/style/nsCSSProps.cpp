@@ -1631,6 +1631,8 @@ eCSSKeyword_ns_resize
 NS_STYLE_CURSOR_NS_RESIZE
 eCSSKeyword_ew_resize
 NS_STYLE_CURSOR_EW_RESIZE
+eCSSKeyword_none
+NS_STYLE_CURSOR_NONE
 eCSSKeyword__moz_copy
 NS_STYLE_CURSOR_COPY
 eCSSKeyword__moz_alias

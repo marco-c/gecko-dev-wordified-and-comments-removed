@@ -6657,6 +6657,9 @@ help
 "
 progress
 "
+"
+none
+"
 ]
 invalid_values
 :

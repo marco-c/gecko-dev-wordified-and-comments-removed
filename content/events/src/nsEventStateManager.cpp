@@ -12289,6 +12289,15 @@ eCursor_ew_resize
 ;
 break
 ;
+case
+NS_STYLE_CURSOR_NONE
+:
+c
+=
+eCursor_none
+;
+break
+;
 }
 nsresult
 rv

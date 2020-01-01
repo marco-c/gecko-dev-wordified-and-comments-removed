@@ -5656,6 +5656,11 @@ SafeElementAt
 ;
 break
 ;
+case
+eCursor_none
+:
+break
+;
 default
 :
 NS_ASSERTION

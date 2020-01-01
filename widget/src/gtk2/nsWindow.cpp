@@ -18615,6 +18615,15 @@ GDK_SB_H_DOUBLE_ARROW
 ;
 break
 ;
+case
+eCursor_none
+:
+newType
+=
+MOZ_CURSOR_NONE
+;
+break
+;
 default
 :
 NS_ASSERTION

@@ -542,6 +542,16 @@ vertical_text
 .
 cur
 "
+IDC_NONE
+CURSOR
+DISCARDABLE
+"
+res
+/
+none
+.
+cur
+"
 OPTPROPSHEET
 DIALOG
 DISCARDABLE

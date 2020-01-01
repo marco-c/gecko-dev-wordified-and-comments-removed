@@ -503,6 +503,13 @@ res
 help
 .
 ptr
+POINTER
+IDC_NONE
+res
+\
+help
+.
+ptr
 ICON
 IDC_DNDURL
 res
