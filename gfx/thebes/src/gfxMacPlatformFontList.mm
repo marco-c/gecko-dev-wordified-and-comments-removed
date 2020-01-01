@@ -3047,19 +3047,6 @@ nsAutoString
 familyName
 key
 ;
-if
-(
-!
-GetStandardFamilyName
-(
-singleFaceFonts
-[
-i
-]
-familyName
-)
-)
-{
 familyName
 =
 singleFaceFonts
@@ -3067,7 +3054,6 @@ singleFaceFonts
 i
 ]
 ;
-}
 GenerateFontListKey
 (
 familyName
