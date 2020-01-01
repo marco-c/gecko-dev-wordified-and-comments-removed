@@ -429,7 +429,7 @@ height
 )
 ;
 gint
-moz_gtk_get_downarrow_size
+moz_gtk_get_arrow_size
 (
 gint
 *
