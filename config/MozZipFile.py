@@ -695,6 +695,13 @@ header_offset
 )
 )
     
+self
+.
+_remove
+=
+[
+]
+    
 lengths
 =
 [
