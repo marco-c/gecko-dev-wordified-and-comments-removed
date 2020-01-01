@@ -1883,6 +1883,16 @@ aDoc
 ;
 static
 bool
+IsPlainTextType
+(
+const
+nsACString
+&
+aContentType
+)
+;
+static
+bool
 GetWrapperSafeScriptFilename
 (
 nsIDocument
