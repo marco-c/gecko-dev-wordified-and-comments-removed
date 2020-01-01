@@ -540,6 +540,14 @@ jsdebugger
 "
 )
 ;
+this
+.
+_toolbox
+.
+raise
+(
+)
+;
 }
 unhighlightWhenResumed
 :

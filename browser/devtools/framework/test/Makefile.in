@@ -149,6 +149,10 @@ browser_toolbox_highlight
 .
 js
 \
+browser_toolbox_raise
+.
+js
+\
 (
 NULL
 )

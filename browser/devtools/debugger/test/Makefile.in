@@ -662,6 +662,10 @@ browser_dbg_bug868163_highight_on_pause
 .
 js
 \
+browser_dbg_bug883220_raise_on_pause
+.
+js
+\
 browser_dbg_displayName
 .
 js
