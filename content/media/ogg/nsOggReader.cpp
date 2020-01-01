@@ -482,6 +482,9 @@ nsOggReader
 :
 ReadMetadata
 (
+nsVideoInfo
+*
+aInfo
 )
 {
 NS_ASSERTION
@@ -1407,6 +1410,11 @@ mTheoraState
 mSerial
 ;
 }
+*
+aInfo
+=
+mInfo
+;
 LOG
 (
 PR_LOG_DEBUG
@@ -2545,6 +2553,12 @@ i
 stride
 ;
 }
+mMonitor
+.
+AssertCurrentThreadIn
+(
+)
+;
 VideoData
 *
 v

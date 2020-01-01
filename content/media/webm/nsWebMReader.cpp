@@ -823,6 +823,9 @@ nsWebMReader
 :
 ReadMetadata
 (
+nsVideoInfo
+*
+aInfo
 )
 {
 NS_ASSERTION
@@ -1755,6 +1758,11 @@ mAudioChannels
 ;
 }
 }
+*
+aInfo
+=
+mInfo
+;
 return
 NS_OK
 ;

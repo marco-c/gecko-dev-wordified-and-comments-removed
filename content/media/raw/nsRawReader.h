@@ -202,6 +202,9 @@ virtual
 nsresult
 ReadMetadata
 (
+nsVideoInfo
+*
+aInfo
 )
 ;
 virtual
