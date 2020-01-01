@@ -239,6 +239,7 @@ protected
 :
 class
 TitleChangedListener
+MOZ_FINAL
 :
 public
 nsIDOMEventListener
