@@ -1508,10 +1508,9 @@ signal_handler_installed_
 =
 true
 ;
-SetActive
-(
+active_
+=
 true
-)
 ;
 if
 (
@@ -1561,10 +1560,9 @@ Stop
 (
 )
 {
-SetActive
-(
+active_
+=
 false
-)
 ;
 if
 (
