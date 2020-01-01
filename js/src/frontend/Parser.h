@@ -1726,6 +1726,9 @@ argumentList
 (
 Node
 listNode
+bool
+*
+isSpread
 )
 ;
 Node
