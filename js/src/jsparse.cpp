@@ -31904,7 +31904,7 @@ maybeNoteGenerator
 )
 )
 return
-NULL
+JS_FALSE
 ;
 if
 (
