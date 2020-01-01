@@ -350,6 +350,10 @@ SVGFECompositeElement
 .
 cpp
 \
+SVGFEConvolveMatrixElement
+.
+cpp
+\
 SVGFEDiffuseLightingElement
 .
 cpp
@@ -792,6 +796,10 @@ SVGFEComponentTransferElement
 h
 \
 SVGFECompositeElement
+.
+h
+\
+SVGFEConvolveMatrixElement
 .
 h
 \
