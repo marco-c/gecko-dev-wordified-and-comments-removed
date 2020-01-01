@@ -441,6 +441,14 @@ nsMediaCache
 .
 h
 \
+nsBuiltinDecoder
+.
+h
+\
+VideoUtils
+.
+h
+\
 (
 NULL
 )
@@ -456,6 +464,10 @@ nsMediaCache
 cpp
 \
 nsMediaStream
+.
+cpp
+\
+nsBuiltinDecoder
 .
 cpp
 \

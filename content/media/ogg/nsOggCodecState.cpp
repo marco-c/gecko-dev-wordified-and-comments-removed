@@ -36,7 +36,7 @@ h
 #
 include
 "
-nsOggHacks
+VideoUtils
 .
 h
 "

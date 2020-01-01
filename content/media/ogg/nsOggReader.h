@@ -52,13 +52,6 @@ h
 #
 include
 "
-prmon
-.
-h
-"
-#
-include
-"
 nsAutoLock
 .
 h
