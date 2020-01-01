@@ -15109,7 +15109,10 @@ NULL
 ;
 JS_ASSERT
 (
+unsigned
+(
 slots
+)
 =
 =
 e
