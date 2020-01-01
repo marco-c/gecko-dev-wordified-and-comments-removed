@@ -853,6 +853,11 @@ aFlags
 if
 (
 aForChild
+)
+{
+if
+(
+aForChild
 =
 =
 mInner
@@ -989,6 +994,7 @@ mHasVerticalScrollbar
 {
 return
 ;
+}
 }
 }
 nsHTMLContainerFrame
