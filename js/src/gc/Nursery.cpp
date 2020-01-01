@@ -2776,6 +2776,13 @@ waitBackgroundSweepEnd
 (
 )
 ;
+AutoStopVerifyingBarriers
+av
+(
+rt
+false
+)
+;
 MinorCollectionTracer
 trc
 (
