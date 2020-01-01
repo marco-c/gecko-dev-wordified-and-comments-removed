@@ -301,7 +301,6 @@ scrollable
 CurPosAttributeChanged
 (
 mContent
-aModType
 )
 ;
 return

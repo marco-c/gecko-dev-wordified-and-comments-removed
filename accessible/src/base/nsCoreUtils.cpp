@@ -1951,6 +1951,10 @@ scrollableFrame
 ScrollTo
 (
 scrollPoint
+nsIScrollableFrame
+:
+:
+INSTANT
 )
 ;
 }

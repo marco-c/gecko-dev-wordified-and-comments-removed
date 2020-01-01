@@ -1662,6 +1662,10 @@ nsPoint
 0
 0
 )
+nsIScrollableFrame
+:
+:
+INSTANT
 )
 ;
 }
