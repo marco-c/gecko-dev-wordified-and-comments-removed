@@ -897,6 +897,14 @@ mDocShell
 )
 )
 ;
+if
+(
+!
+thisWindow
+)
+return
+true
+;
 nsCOMPtr
 <
 nsIDOMWindow
