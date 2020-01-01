@@ -3,7 +3,7 @@ EXPORTED_SYMBOLS
 =
 [
 '
-XMPPClient
+XmppClient
 '
 '
 HTTPPollingTransport
