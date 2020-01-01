@@ -19114,6 +19114,14 @@ mFrameSelection
 return
 NS_ERROR_NOT_INITIALIZED
 ;
+nsCOMPtr
+<
+nsINode
+>
+kungfuDeathGrip
+=
+aParentNode
+;
 mFrameSelection
 -
 >
