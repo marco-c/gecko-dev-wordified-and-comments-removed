@@ -461,6 +461,7 @@ Simple
 MochiTests
 MOCHI_TESTS
 =
+\
 mochitest
 /
 test_bug_405924
@@ -484,6 +485,7 @@ NULL
 )
 MOCHI_CONTENT
 =
+\
 mochitest
 /
 prompt_common
@@ -506,19 +508,6 @@ mochitest
 /
 bug_461710
 \
-#
-These
-tests
-are
-disabled
-for
-the
-time
-being
-see
-bug
-416066
-#
 browser
 \
 (
