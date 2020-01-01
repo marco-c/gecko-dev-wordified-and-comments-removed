@@ -715,10 +715,12 @@ GetRollupWidget
 (
 )
 ;
-NS_ENSURE_TRUE_VOID
+if
 (
+!
 rollupWidget
 )
+return
 ;
 rollupListener
 -

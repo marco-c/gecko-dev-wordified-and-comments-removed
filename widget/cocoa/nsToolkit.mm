@@ -916,11 +916,13 @@ GetRollupWidget
 (
 )
 ;
-NS_ENSURE_TRUE
+if
 (
+!
 rollupWidget
-event
 )
+return
+event
 ;
 /
 /
