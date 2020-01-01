@@ -563,7 +563,7 @@ DASHReader
 :
 ReadMetadata
 (
-nsVideoInfo
+VideoInfo
 *
 aInfo
 MetadataTags
@@ -626,7 +626,7 @@ rv
 rv
 )
 ;
-nsVideoInfo
+VideoInfo
 audioInfo
 videoInfo
 ;

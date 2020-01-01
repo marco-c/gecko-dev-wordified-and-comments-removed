@@ -437,7 +437,7 @@ mHeight
 ;
 }
 bool
-nsVideoInfo
+VideoInfo
 :
 :
 ValidateVideoRegion
@@ -804,7 +804,7 @@ VideoData
 :
 Create
 (
-nsVideoInfo
+VideoInfo
 &
 aInfo
 ImageContainer
@@ -1460,7 +1460,7 @@ VideoData
 :
 Create
 (
-nsVideoInfo
+VideoInfo
 &
 aInfo
 ImageContainer

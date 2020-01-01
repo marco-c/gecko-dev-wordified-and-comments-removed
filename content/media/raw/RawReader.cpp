@@ -122,7 +122,7 @@ RawReader
 :
 ReadMetadata
 (
-nsVideoInfo
+VideoInfo
 *
 aInfo
 MetadataTags
@@ -353,7 +353,7 @@ frameHeight
 if
 (
 !
-nsVideoInfo
+VideoInfo
 :
 :
 ValidateVideoRegion

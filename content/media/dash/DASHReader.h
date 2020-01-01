@@ -108,7 +108,7 @@ aVideoReader
 nsresult
 ReadMetadata
 (
-nsVideoInfo
+VideoInfo
 *
 aInfo
 MetadataTags

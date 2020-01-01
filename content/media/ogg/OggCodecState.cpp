@@ -1620,7 +1620,7 @@ pic_height
 if
 (
 !
-nsVideoInfo
+VideoInfo
 :
 :
 ValidateVideoRegion

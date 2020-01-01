@@ -80,11 +80,11 @@ class
 AbstractMediaDecoder
 ;
 class
-nsVideoInfo
+VideoInfo
 {
 public
 :
-nsVideoInfo
+VideoInfo
 (
 )
 :
@@ -332,7 +332,7 @@ VideoData
 *
 Create
 (
-nsVideoInfo
+VideoInfo
 &
 aInfo
 ImageContainer
@@ -361,7 +361,7 @@ VideoData
 *
 Create
 (
-nsVideoInfo
+VideoInfo
 &
 aInfo
 ImageContainer
@@ -1169,7 +1169,7 @@ virtual
 nsresult
 ReadMetadata
 (
-nsVideoInfo
+VideoInfo
 *
 aInfo
 MetadataTags
@@ -1508,7 +1508,7 @@ AbstractMediaDecoder
 *
 mDecoder
 ;
-nsVideoInfo
+VideoInfo
 mInfo
 ;
 }

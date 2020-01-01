@@ -1142,7 +1142,7 @@ mRequestedNewDecodeThread
 AudioAvailableEventManager
 mEventManager
 ;
-nsVideoInfo
+VideoInfo
 mInfo
 ;
 }

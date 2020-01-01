@@ -1092,7 +1092,7 @@ GStreamerReader
 :
 ReadMetadata
 (
-nsVideoInfo
+VideoInfo
 *
 aInfo
 MetadataTags
