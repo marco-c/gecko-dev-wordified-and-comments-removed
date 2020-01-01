@@ -241,6 +241,9 @@ mochitest
 /
 metro
 /
+(
+relativesrcdir
+)
 libs
 :
 :
@@ -269,6 +272,10 @@ testing
 mochitest
 /
 metro
+/
+(
+relativesrcdir
+)
 /
 res
 libs
