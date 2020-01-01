@@ -634,6 +634,10 @@ version
 .
 lib
 \
+ole32
+.
+lib
+\
 (
 NULL
 )
