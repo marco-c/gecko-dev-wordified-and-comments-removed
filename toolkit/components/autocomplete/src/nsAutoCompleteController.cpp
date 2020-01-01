@@ -2005,6 +2005,11 @@ PR_TRUE
 -
 mRowCount
 ;
+*
+_retval
+=
+PR_TRUE
+;
 popup
 -
 >
@@ -2098,11 +2103,6 @@ CompleteValue
 (
 value
 )
-;
-*
-_retval
-=
-PR_TRUE
 ;
 }
 }
