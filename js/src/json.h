@@ -114,7 +114,7 @@ jsval
 *
 rootVal
 ;
-JSString
+JSStringBuffer
 *
 objectKey
 ;
