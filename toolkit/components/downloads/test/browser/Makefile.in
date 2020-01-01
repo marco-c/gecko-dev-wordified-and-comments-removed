@@ -86,6 +86,10 @@ browser_nsIDownloadManagerUI
 .
 js
 \
+head
+.
+js
+\
 (
 NULL
 )
@@ -99,7 +103,7 @@ browser_privatebrowsing
 .
 js
 \
-head
+browser_privatebrowsing_cancel
 .
 js
 \
