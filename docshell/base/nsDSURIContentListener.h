@@ -84,6 +84,14 @@ mDocShell
 nsnull
 ;
 }
+bool
+CheckFrameOptions
+(
+nsIRequest
+*
+request
+)
+;
 protected
 :
 nsDocShell
