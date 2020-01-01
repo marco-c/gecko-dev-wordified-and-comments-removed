@@ -245,15 +245,6 @@ size_t
 *
 1024
 #
-ifdef
-MOZ_ASAN
-#
-define
-WORKER_CONTEXT_NATIVE_STACK_LIMIT
-WORKER_STACK_SIZE
-#
-else
-#
 define
 WORKER_CONTEXT_NATIVE_STACK_LIMIT
 128
@@ -264,8 +255,6 @@ size_t
 )
 *
 1024
-#
-endif
 #
 define
 MAX_WORKERS_PER_DOMAIN
