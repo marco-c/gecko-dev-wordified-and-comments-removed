@@ -552,9 +552,14 @@ ContentMap
 (
 )
 ;
+#
+ifdef
+DEBUG
 nsresult
 rv
 =
+#
+endif
 sContentMap
 -
 >
