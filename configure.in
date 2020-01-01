@@ -69204,6 +69204,17 @@ if
 test
 "
 {
+OS_TARGET
+}
+"
+=
+"
+WINNT
+"
+-
+o
+"
+{
 OS_ARCH
 }
 "
