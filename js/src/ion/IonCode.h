@@ -1736,7 +1736,7 @@ void
 copyConstants
 (
 const
-HeapValue
+Value
 *
 vp
 )
