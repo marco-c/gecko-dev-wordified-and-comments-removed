@@ -23646,7 +23646,6 @@ js_SetPropertyHelper
 (
 cx
 obj
-obj
 id
 defineHow
 &
@@ -31354,7 +31353,6 @@ protoAtom
 js_SetPropertyHelper
 (
 cx
-obj
 obj
 id
 defineHow

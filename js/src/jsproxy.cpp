@@ -473,7 +473,7 @@ return
 ExternalGetOrSet
 (
 cx
-receiver
+proxy
 id
 CastAsObjectJsval
 (
@@ -538,7 +538,7 @@ cx
 desc
 .
 getter
-receiver
+proxy
 id
 vp
 )
@@ -643,7 +643,7 @@ return
 ExternalGetOrSet
 (
 cx
-receiver
+proxy
 id
 CastAsObjectJsval
 (
@@ -682,7 +682,7 @@ cx
 desc
 .
 setter
-receiver
+proxy
 id
 vp
 )
@@ -779,7 +779,7 @@ return
 ExternalGetOrSet
 (
 cx
-receiver
+proxy
 id
 CastAsObjectJsval
 (
@@ -818,7 +818,7 @@ cx
 desc
 .
 setter
-receiver
+proxy
 id
 vp
 )
@@ -5276,9 +5276,6 @@ cx
 JSObject
 *
 obj
-JSObject
-*
-receiver
 jsid
 id
 Value
@@ -5294,7 +5291,7 @@ get
 (
 cx
 obj
-receiver
+obj
 id
 vp
 )
@@ -5310,9 +5307,6 @@ cx
 JSObject
 *
 obj
-JSObject
-*
-receiver
 jsid
 id
 Value
@@ -5330,7 +5324,7 @@ set
 (
 cx
 obj
-receiver
+obj
 id
 vp
 )
@@ -5988,6 +5982,20 @@ obj
 )
 {
 return
+obj
+-
+>
+unwrap
+(
+)
+-
+>
+isRegExp
+(
+)
+?
+JSTYPE_OBJECT
+:
 JSTYPE_FUNCTION
 ;
 }
