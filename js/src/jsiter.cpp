@@ -7516,7 +7516,7 @@ NULL
 js_IteratorClass
 Iterator
 2
-JS_TypeHandlerNew
+JS_TypeHandlerDynamic
 NULL
 iterator_methods
 NULL

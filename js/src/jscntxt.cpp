@@ -10449,6 +10449,9 @@ updateJITEnabled
 )
 {
 #
+ifndef
+JS_TYPE_INFERENCE
+#
 ifdef
 JS_TRACER
 traceJitEnabled
@@ -10497,6 +10500,8 @@ debuggerInhibitsJIT
 )
 )
 ;
+#
+endif
 #
 endif
 #

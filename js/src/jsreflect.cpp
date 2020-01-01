@@ -14253,7 +14253,7 @@ static_methods
 ]
 =
 {
-JS_FN
+JS_FN_TYPE
 (
 "
 parse
@@ -14261,6 +14261,7 @@ parse
 reflect_parse
 1
 0
+JS_TypeHandlerDynamic
 )
 JS_FS_END
 }
@@ -14346,7 +14347,7 @@ type
 if
 (
 !
-JS_DefineProperty
+JS_DefinePropertyWithType
 (
 cx
 obj
@@ -14368,11 +14369,14 @@ NULL
 if
 (
 !
-JS_DefineFunctions
+JS_DefineFunctionsWithPrefix
 (
 cx
 Reflect
 static_methods
+"
+Reflect
+"
 )
 )
 return
