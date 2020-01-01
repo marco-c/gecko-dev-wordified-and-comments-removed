@@ -126,7 +126,7 @@ Assign
 aUrl
 )
 ;
-mCharsetOrCrossOrigin
+mCrossOrigin
 .
 Assign
 (
@@ -150,6 +150,10 @@ const
 nsAString
 &
 aType
+const
+nsAString
+&
+aCrossOrigin
 )
 {
 NS_PRECONDITION
@@ -180,7 +184,7 @@ Assign
 aUrl
 )
 ;
-mCharsetOrCrossOrigin
+mCharset
 .
 Assign
 (
@@ -192,6 +196,13 @@ mTypeOrCharsetSource
 Assign
 (
 aType
+)
+;
+mCrossOrigin
+.
+Assign
+(
+aCrossOrigin
 )
 ;
 }
@@ -237,7 +248,7 @@ Assign
 aUrl
 )
 ;
-mCharsetOrCrossOrigin
+mCharset
 .
 Assign
 (
@@ -319,7 +330,7 @@ eSpeculativeLoadSetDocumentCharset
 CopyUTF8toUTF16
 (
 aCharset
-mCharsetOrCrossOrigin
+mCharset
 )
 ;
 mTypeOrCharsetSource
@@ -350,10 +361,13 @@ nsString
 mUrl
 ;
 nsString
-mCharsetOrCrossOrigin
+mCharset
 ;
 nsString
 mTypeOrCharsetSource
+;
+nsString
+mCrossOrigin
 ;
 }
 ;

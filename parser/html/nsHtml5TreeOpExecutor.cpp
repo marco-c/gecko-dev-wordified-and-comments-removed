@@ -3470,6 +3470,10 @@ const
 nsAString
 &
 aType
+const
+nsAString
+&
+aCrossOrigin
 )
 {
 nsCOMPtr
@@ -3505,6 +3509,7 @@ PreloadURI
 uri
 aCharset
 aType
+aCrossOrigin
 )
 ;
 }

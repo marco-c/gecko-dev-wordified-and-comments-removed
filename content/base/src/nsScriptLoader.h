@@ -347,6 +347,10 @@ const
 nsAString
 &
 aType
+const
+nsAString
+&
+aCrossOrigin
 )
 ;
 private
