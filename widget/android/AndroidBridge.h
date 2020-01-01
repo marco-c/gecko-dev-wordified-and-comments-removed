@@ -1546,7 +1546,7 @@ nsISmsRequest
 >
 DequeueSmsRequest
 (
-int32_t
+uint32_t
 aRequestId
 )
 ;
@@ -1873,12 +1873,15 @@ mHasNativeWindowFallback
 int
 mAPIVersion
 ;
-int32_t
+bool
 QueueSmsRequest
 (
 nsISmsRequest
 *
 aRequest
+uint32_t
+*
+aRequestIdOut
 )
 ;
 jmethodID
