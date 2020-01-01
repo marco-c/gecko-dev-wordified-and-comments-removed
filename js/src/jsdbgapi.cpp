@@ -6080,15 +6080,6 @@ NULL
 }
 if
 (
-JSVAL_IS_NULL
-(
-fp
--
->
-thisv
-)
-&
-&
 fp
 -
 >
