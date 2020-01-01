@@ -612,15 +612,6 @@ test_elm_listbox
 .
 xul
 \
-(
-warning
-test_elm_media
-.
-html
-temporarily
-disabled
-)
-\
 test_elm_nsApplicationAcc
 .
 html
