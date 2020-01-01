@@ -323,6 +323,9 @@ branding
 .
 !
 ifdef
+Official
+!
+ifdef
 BETA_UPDATE_CHANNEL
 !
 undef
@@ -396,6 +399,8 @@ lang
 AB_CD
 }
 "
+!
+endif
 !
 endif
 !
