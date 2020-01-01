@@ -2716,6 +2716,10 @@ ShadowLayersUpdated
 ShadowLayersParent
 *
 aLayerTree
+const
+TargetConfig
+&
+aTargetConfig
 bool
 isFirstPaint
 )

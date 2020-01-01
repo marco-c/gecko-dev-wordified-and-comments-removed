@@ -197,6 +197,7 @@ endif
 EXPORTS_NAMESPACES
 =
 IPC
+mozilla
 EXPORTS_IPC
 =
 \
@@ -207,14 +208,14 @@ h
 (
 NULL
 )
-EXPORTS_NAMESPACES
-+
-=
-mozilla
 EXPORTS_mozilla
 =
 \
 LookAndFeel
+.
+h
+\
+WidgetUtils
 .
 h
 \

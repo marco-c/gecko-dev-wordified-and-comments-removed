@@ -229,6 +229,10 @@ ShadowLayersUpdated
 ShadowLayersParent
 *
 aLayerTree
+const
+TargetConfig
+&
+aTargetConfig
 bool
 isFirstPaint
 )
@@ -591,6 +595,9 @@ mLayerManager
 nsIWidget
 *
 mWidget
+;
+TargetConfig
+mTargetConfig
 ;
 CancelableTask
 *

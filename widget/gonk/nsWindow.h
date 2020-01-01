@@ -371,6 +371,13 @@ GetGLFrameBufferFormat
 )
 MOZ_OVERRIDE
 ;
+virtual
+nsIntRect
+GetNaturalBounds
+(
+)
+MOZ_OVERRIDE
+;
 protected
 :
 nsWindow

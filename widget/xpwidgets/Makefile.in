@@ -193,6 +193,10 @@ nsFilePickerProxy
 .
 cpp
 \
+WidgetUtils
+.
+cpp
+\
 (
 NULL
 )

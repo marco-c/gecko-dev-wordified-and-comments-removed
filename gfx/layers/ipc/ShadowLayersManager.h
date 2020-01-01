@@ -11,6 +11,9 @@ namespace
 layers
 {
 class
+TargetConfig
+;
+class
 ShadowLayersParent
 ;
 class
@@ -25,6 +28,10 @@ ShadowLayersUpdated
 ShadowLayersParent
 *
 aLayerTree
+const
+TargetConfig
+&
+aTargetConfig
 bool
 isFirstPaint
 )
