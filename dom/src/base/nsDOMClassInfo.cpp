@@ -27822,8 +27822,10 @@ return
 NS_OK
 ;
 }
+nsRefPtr
+<
 nsXBLBinding
-*
+>
 binding
 =
 doc
