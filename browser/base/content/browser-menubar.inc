@@ -1668,6 +1668,9 @@ viewToolbarsMenu
 accesskey
 ;
 "
+>
+<
+menupopup
 onpopupshowing
 =
 "
@@ -1677,9 +1680,6 @@ event
 )
 ;
 "
->
-<
-menupopup
 >
 <
 menuseparator
