@@ -7909,11 +7909,6 @@ mark
 JSBool
 ok
 ;
-JS_ASSERT_NOT_ON_TRACE
-(
-cx
-)
-;
 JSRegExpStatics
 save
 =
