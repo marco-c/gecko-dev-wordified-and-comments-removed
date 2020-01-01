@@ -1009,5 +1009,13 @@ OGGZ
 oggz
 )
 ;
+OggzDListIterResponse
+oggz_read_free_pbuffers
+(
+void
+*
+elem
+)
+;
 #
 endif
