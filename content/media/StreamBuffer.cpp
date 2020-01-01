@@ -167,7 +167,7 @@ aTime
 )
 {
 const
-int
+MediaTime
 roundTo
 =
 MillisecondsToMediaTime
