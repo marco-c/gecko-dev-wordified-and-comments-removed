@@ -1450,7 +1450,7 @@ PRInt32
 aInteger
 )
 {
-AppendPrintf
+AppendPrintf31
 (
 "
 %
@@ -1499,7 +1499,7 @@ o
 x
 "
 ;
-AppendPrintf
+AppendPrintf31
 (
 fmt
 aInteger
@@ -1513,7 +1513,7 @@ PRUint32
 aInteger
 )
 {
-AppendPrintf
+AppendPrintf31
 (
 "
 %
@@ -1562,7 +1562,7 @@ o
 x
 "
 ;
-AppendPrintf
+AppendPrintf31
 (
 fmt
 aInteger
@@ -1576,7 +1576,7 @@ PRInt64
 aInteger
 )
 {
-AppendPrintf
+AppendPrintf31
 (
 "
 %
@@ -1625,7 +1625,7 @@ llo
 llx
 "
 ;
-AppendPrintf
+AppendPrintf31
 (
 fmt
 aInteger
@@ -1639,7 +1639,7 @@ PRUint64
 aInteger
 )
 {
-AppendPrintf
+AppendPrintf31
 (
 "
 %
@@ -1688,7 +1688,7 @@ llo
 llx
 "
 ;
-AppendPrintf
+AppendPrintf31
 (
 fmt
 aInteger
@@ -1733,6 +1733,18 @@ double
 aFloat
 int
 digits
+)
+;
+void
+AppendPrintf31
+(
+const
+char
+*
+format
+.
+.
+.
 )
 ;
 public
