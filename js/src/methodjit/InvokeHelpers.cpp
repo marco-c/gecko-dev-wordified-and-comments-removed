@@ -2203,6 +2203,16 @@ for
 ;
 )
 {
+if
+(
+cx
+-
+>
+isExceptionPending
+(
+)
+)
+{
 JSThrowHook
 handler
 =
@@ -2372,6 +2382,7 @@ default
 :
 break
 ;
+}
 }
 }
 pc
