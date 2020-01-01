@@ -440,6 +440,10 @@ nsAccEvent
 .
 cpp
 \
+nsAccIterator
+.
+cpp
+\
 nsARIAGridAccessible
 .
 cpp
