@@ -673,12 +673,6 @@ if
 (
 gtk2Widget
 )
-fails
--
-if
-(
-d2d
-)
 HTTP
 (
 .
@@ -704,9 +698,6 @@ fonts
 on
 test
 boxes
-;
-bug
-593160
 =
 =
 wordwrap

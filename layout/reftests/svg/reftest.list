@@ -2902,7 +2902,6 @@ unzoomed
 ref
 .
 xhtml
-fails
 =
 =
 svg
@@ -2929,9 +2928,6 @@ in
 ref
 .
 xhtml
-#
-Bug
-541270
 fails
 =
 =
