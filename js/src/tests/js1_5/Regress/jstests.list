@@ -1891,16 +1891,6 @@ if
 (
 xulRuntime
 .
-OS
-=
-=
-"
-Linux
-"
-&
-&
-xulRuntime
-.
 XPCOMABI
 .
 match
@@ -1921,7 +1911,6 @@ On
 64
 -
 bit
-Linux
 takes
 forever
 rather
