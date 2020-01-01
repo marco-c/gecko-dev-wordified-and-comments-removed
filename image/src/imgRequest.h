@@ -222,7 +222,7 @@ int32_t
 aCORSMode
 )
 ;
-nsresult
+void
 AddProxy
 (
 imgRequestProxy
