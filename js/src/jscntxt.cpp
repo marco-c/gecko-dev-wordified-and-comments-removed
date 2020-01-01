@@ -2348,10 +2348,6 @@ void
 userRef
 )
 {
-AssertCanGC
-(
-)
-;
 JS_ASSERT
 (
 reportp

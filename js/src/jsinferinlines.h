@@ -2410,10 +2410,6 @@ Type
 type
 )
 {
-AssertCanGC
-(
-)
-;
 if
 (
 cx
@@ -2473,10 +2469,6 @@ Value
 value
 )
 {
-AssertCanGC
-(
-)
-;
 if
 (
 cx
@@ -2536,10 +2528,6 @@ Type
 type
 )
 {
-AssertCanGC
-(
-)
-;
 if
 (
 cx
@@ -2589,10 +2577,6 @@ Value
 value
 )
 {
-AssertCanGC
-(
-)
-;
 if
 (
 cx
@@ -7511,10 +7495,6 @@ compartment
 -
 >
 activeAnalysis
-)
-;
-AssertCanGC
-(
 )
 ;
 JS_ASSERT

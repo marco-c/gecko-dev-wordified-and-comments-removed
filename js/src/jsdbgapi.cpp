@@ -5465,10 +5465,6 @@ JSContext
 cx
 )
 {
-AssertCanGC
-(
-)
-;
 ScriptFrameIter
 iter
 (
@@ -5972,10 +5968,6 @@ JSBool
 showThisProps
 )
 {
-AssertCanGC
-(
-)
-;
 RootedScript
 script
 (

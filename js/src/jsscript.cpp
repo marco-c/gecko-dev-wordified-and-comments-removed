@@ -11127,10 +11127,6 @@ HandleFunction
 fun
 )
 {
-AssertCanGC
-(
-)
-;
 JS_ASSERT
 (
 !
@@ -12620,10 +12616,6 @@ HandleScript
 src
 )
 {
-AssertCanGC
-(
-)
-;
 uint32_t
 nconsts
 =
@@ -15815,10 +15807,6 @@ HandleScript
 script
 )
 {
-AssertCanGC
-(
-)
-;
 JS_ASSERT
 (
 script

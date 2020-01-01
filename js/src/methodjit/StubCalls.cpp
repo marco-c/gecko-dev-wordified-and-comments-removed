@@ -431,10 +431,6 @@ PropertyName
 name
 )
 {
-AssertCanGC
-(
-)
-;
 JSContext
 *
 cx
@@ -4647,10 +4643,6 @@ jsbytecode
 pc
 )
 {
-AssertCanGC
-(
-)
-;
 JSDebuggerHandler
 handler
 =
@@ -4918,10 +4910,6 @@ VMFrame
 f
 )
 {
-AssertCanGC
-(
-)
-;
 RootedScript
 script
 (
