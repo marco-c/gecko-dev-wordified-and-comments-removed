@@ -277,7 +277,6 @@ RemoveProxy
 (
 this
 NS_OK
-false
 )
 ;
 }
@@ -547,7 +546,6 @@ RemoveProxy
 (
 this
 NS_IMAGELIB_CHANGING_OWNER
-false
 )
 ;
 for
@@ -828,6 +826,7 @@ if
 (
 mOwner
 )
+{
 mOwner
 -
 >
@@ -835,9 +834,9 @@ RemoveProxy
 (
 this
 status
-false
 )
 ;
+}
 NullOutListener
 (
 )
@@ -892,6 +891,7 @@ if
 (
 mOwner
 )
+{
 mOwner
 -
 >
@@ -899,9 +899,9 @@ RemoveProxy
 (
 this
 aStatus
-false
 )
 ;
+}
 mIsInLoadGroup
 =
 oldIsInLoadGroup

@@ -238,8 +238,6 @@ imgRequestProxy
 proxy
 nsresult
 aStatus
-bool
-aNotify
 )
 ;
 void

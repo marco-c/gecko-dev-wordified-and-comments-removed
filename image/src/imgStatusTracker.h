@@ -175,8 +175,6 @@ imgRequestProxy
 proxy
 nsresult
 aStatus
-bool
-aOnlySendStopRequest
 )
 ;
 bool
