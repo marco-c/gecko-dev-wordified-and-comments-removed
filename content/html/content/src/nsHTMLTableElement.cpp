@@ -319,6 +319,10 @@ const
 nsAString
 &
 aName
+nsWrapperCache
+*
+*
+aCache
 nsresult
 *
 aResult
@@ -1138,6 +1142,10 @@ const
 nsAString
 &
 aName
+nsWrapperCache
+*
+*
+aCache
 nsresult
 *
 aResult
@@ -1166,6 +1174,7 @@ rows
 GetNamedItem
 (
 aName
+aCache
 aResult
 )
 ;
@@ -1190,6 +1199,10 @@ const
 nsAString
 &
 aName
+nsWrapperCache
+*
+*
+aCache
 nsresult
 *
 aResult
@@ -1210,6 +1223,7 @@ GetNamedItemInRowGroup
 (
 rows
 aName
+aCache
 aResult
 )
 ;
@@ -1230,6 +1244,11 @@ item
 ;
 }
 )
+;
+*
+aCache
+=
+nsnull
 ;
 *
 aResult
@@ -1259,6 +1278,10 @@ aReturn
 nsresult
 rv
 ;
+nsWrapperCache
+*
+cache
+;
 nsISupports
 *
 item
@@ -1266,6 +1289,8 @@ item
 GetNamedItem
 (
 aName
+&
+cache
 &
 rv
 )
