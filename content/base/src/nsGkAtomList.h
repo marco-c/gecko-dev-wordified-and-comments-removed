@@ -2485,6 +2485,13 @@ handheld
 )
 GK_ATOM
 (
+handheldFriendly
+"
+HandheldFriendly
+"
+)
+GK_ATOM
+(
 handler
 "
 handler
