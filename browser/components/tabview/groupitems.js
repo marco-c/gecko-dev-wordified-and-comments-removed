@@ -8777,11 +8777,9 @@ loadOneTab
 url
 |
 |
-"
-about
-:
-blank
-"
+gWindow
+.
+BROWSER_NEW_TAB_URL
 {
 inBackground
 :
