@@ -682,9 +682,6 @@ JS_INT64_TYPE
 undef
 JS_INTPTR_TYPE
 #
-undef
-JS_BYTES_PER_WORD
-#
 endif
 /
 *

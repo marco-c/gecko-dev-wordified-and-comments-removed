@@ -453,6 +453,9 @@ low
 G1970GMTMICROLOW
 )
 ;
+#
+ifndef
+JS_HAVE_LONG_LONG
 JSLL_SHL
 (
 g1970GMTMicroSeconds
@@ -467,6 +470,17 @@ g1970GMTMicroSeconds
 16
 )
 ;
+#
+else
+JSLL_SHL
+(
+g1970GMTMicroSeconds
+g1970GMTMicroSeconds
+32
+)
+;
+#
+endif
 JSLL_ADD
 (
 g1970GMTMicroSeconds
