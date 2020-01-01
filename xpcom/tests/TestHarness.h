@@ -78,7 +78,12 @@ ap
 printf
 (
 "
+TEST
+-
+UNEXPECTED
+-
 FAIL
+|
 "
 )
 ;
