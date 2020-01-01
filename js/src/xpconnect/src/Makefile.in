@@ -615,6 +615,10 @@ XPCNativeWrapper
 .
 cpp
 \
+xpcJSWeakReference
+.
+cpp
+\
 XPCSafeJSObjectWrapper
 .
 cpp
