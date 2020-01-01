@@ -344,6 +344,10 @@ DESC_FLAG_OFFSET
 )
 #
 define
+BLOCK_FLAGS_LACING
+6
+#
+define
 LACING_NONE
 0
 #
@@ -358,6 +362,26 @@ LACING_FIXED
 define
 LACING_EBML
 3
+#
+define
+TRACK_TYPE_VIDEO
+1
+#
+define
+TRACK_TYPE_AUDIO
+2
+#
+define
+TRACK_ID_VP8
+"
+V_VP8
+"
+#
+define
+TRACK_ID_VORBIS
+"
+A_VORBIS
+"
 enum
 vint_mask
 {
@@ -924,6 +948,9 @@ STRUCT
 FIELD
 )
 DESC_FLAG_MULTI
+ne_
+#
+#
 FIELD
 #
 #
@@ -957,6 +984,9 @@ STRUCT
 FIELD
 )
 DESC_FLAG_OFFSET
+ne_
+#
+#
 FIELD
 #
 #
@@ -993,6 +1023,9 @@ STRUCT
 FIELD
 )
 DESC_FLAG_NONE
+ne_
+#
+#
 FIELD
 #
 #
@@ -1036,7 +1069,7 @@ NULL
 static
 struct
 ebml_element_desc
-ebml_elements
+ne_ebml_elements
 [
 ]
 =
@@ -1103,7 +1136,7 @@ E_LAST
 static
 struct
 ebml_element_desc
-seek_elements
+ne_seek_elements
 [
 ]
 =
@@ -1130,7 +1163,7 @@ E_LAST
 static
 struct
 ebml_element_desc
-seek_head_elements
+ne_seek_head_elements
 [
 ]
 =
@@ -1149,7 +1182,7 @@ E_LAST
 static
 struct
 ebml_element_desc
-info_elements
+ne_info_elements
 [
 ]
 =
@@ -1176,7 +1209,7 @@ E_LAST
 static
 struct
 ebml_element_desc
-block_group_elements
+ne_block_group_elements
 [
 ]
 =
@@ -1208,7 +1241,7 @@ E_LAST
 static
 struct
 ebml_element_desc
-cluster_elements
+ne_cluster_elements
 [
 ]
 =
@@ -1240,7 +1273,7 @@ E_LAST
 static
 struct
 ebml_element_desc
-video_elements
+ne_video_elements
 [
 ]
 =
@@ -1315,7 +1348,7 @@ E_LAST
 static
 struct
 ebml_element_desc
-audio_elements
+ne_audio_elements
 [
 ]
 =
@@ -1350,7 +1383,7 @@ E_LAST
 static
 struct
 ebml_element_desc
-track_entry_elements
+ne_track_entry_elements
 [
 ]
 =
@@ -1457,7 +1490,7 @@ E_LAST
 static
 struct
 ebml_element_desc
-tracks_elements
+ne_tracks_elements
 [
 ]
 =
@@ -1476,7 +1509,7 @@ E_LAST
 static
 struct
 ebml_element_desc
-cue_track_positions_elements
+ne_cue_track_positions_elements
 [
 ]
 =
@@ -1511,7 +1544,7 @@ E_LAST
 static
 struct
 ebml_element_desc
-cue_point_elements
+ne_cue_point_elements
 [
 ]
 =
@@ -1538,7 +1571,7 @@ E_LAST
 static
 struct
 ebml_element_desc
-cues_elements
+ne_cues_elements
 [
 ]
 =
@@ -1557,7 +1590,7 @@ E_LAST
 static
 struct
 ebml_element_desc
-segment_elements
+ne_segment_elements
 [
 ]
 =
@@ -1608,7 +1641,7 @@ E_LAST
 static
 struct
 ebml_element_desc
-top_level_elements
+ne_top_level_elements
 [
 ]
 =
@@ -1652,7 +1685,7 @@ static
 struct
 pool_ctx
 *
-pool_init
+ne_pool_init
 (
 void
 )
@@ -1688,7 +1721,7 @@ pool
 }
 static
 void
-pool_destroy
+ne_pool_destroy
 (
 struct
 pool_ctx
@@ -1705,7 +1738,7 @@ pool
 static
 void
 *
-pool_alloc
+ne_pool_alloc
 (
 size_t
 size
@@ -1755,7 +1788,7 @@ p
 static
 void
 *
-alloc
+ne_alloc
 (
 size_t
 size
@@ -1788,7 +1821,7 @@ p
 }
 static
 int
-io_read
+ne_io_read
 (
 nestegg_io
 *
@@ -1817,7 +1850,7 @@ userdata
 }
 static
 int
-io_seek
+ne_io_seek
 (
 nestegg_io
 *
@@ -1845,7 +1878,7 @@ userdata
 }
 static
 int
-io_read_skip
+ne_io_read_skip
 (
 nestegg_io
 *
@@ -1894,7 +1927,7 @@ buf
 ;
 r
 =
-io_read
+ne_io_read
 (
 io
 buf
@@ -1908,10 +1941,8 @@ r
 =
 1
 )
-{
 break
 ;
-}
 length
 -
 =
@@ -1924,7 +1955,7 @@ r
 }
 static
 int64_t
-io_tell
+ne_io_tell
 (
 nestegg_io
 *
@@ -1946,7 +1977,7 @@ userdata
 }
 static
 int
-bare_read_vint
+ne_bare_read_vint
 (
 nestegg_io
 *
@@ -1988,7 +2019,7 @@ mask
 ;
 r
 =
-io_read
+ne_io_read
 (
 io
 &
@@ -2059,7 +2090,6 @@ maskflag
 =
 MASK_FIRST_BIT
 )
-{
 *
 value
 =
@@ -2068,7 +2098,6 @@ b
 ~
 mask
 ;
-}
 while
 (
 -
@@ -2078,7 +2107,7 @@ count
 {
 r
 =
-io_read
+ne_io_read
 (
 io
 &
@@ -2116,7 +2145,7 @@ return
 }
 static
 int
-read_id
+ne_read_id
 (
 nestegg_io
 *
@@ -2130,7 +2159,7 @@ length
 )
 {
 return
-bare_read_vint
+ne_bare_read_vint
 (
 io
 value
@@ -2141,7 +2170,7 @@ MASK_NONE
 }
 static
 int
-read_vint
+ne_read_vint
 (
 nestegg_io
 *
@@ -2155,7 +2184,7 @@ length
 )
 {
 return
-bare_read_vint
+ne_bare_read_vint
 (
 io
 value
@@ -2166,7 +2195,7 @@ MASK_FIRST_BIT
 }
 static
 int
-read_svint
+ne_read_svint
 (
 nestegg_io
 *
@@ -2206,7 +2235,7 @@ svint_subtr
 ;
 r
 =
-bare_read_vint
+ne_bare_read_vint
 (
 io
 &
@@ -2253,7 +2282,7 @@ r
 }
 static
 int
-read_uint
+ne_read_uint
 (
 nestegg_io
 *
@@ -2290,7 +2319,7 @@ return
 ;
 r
 =
-io_read
+ne_io_read
 (
 io
 &
@@ -2322,7 +2351,7 @@ length
 {
 r
 =
-io_read
+ne_io_read
 (
 io
 &
@@ -2360,7 +2389,7 @@ return
 }
 static
 int
-read_int
+ne_read_int
 (
 nestegg_io
 *
@@ -2381,7 +2410,7 @@ base
 ;
 r
 =
-read_uint
+ne_read_uint
 (
 io
 &
@@ -2476,7 +2505,7 @@ return
 }
 static
 int
-read_float
+ne_read_float
 (
 nestegg_io
 *
@@ -2524,7 +2553,7 @@ return
 ;
 r
 =
-read_uint
+ne_read_uint
 (
 io
 &
@@ -2572,7 +2601,7 @@ return
 }
 static
 int
-read_string
+ne_read_string
 (
 nestegg
 *
@@ -2610,7 +2639,7 @@ return
 ;
 str
 =
-pool_alloc
+ne_pool_alloc
 (
 length
 +
@@ -2623,7 +2652,7 @@ alloc_pool
 ;
 r
 =
-io_read
+ne_io_read
 (
 ctx
 -
@@ -2669,7 +2698,7 @@ return
 }
 static
 int
-read_binary
+ne_read_binary
 (
 nestegg
 *
@@ -2703,7 +2732,7 @@ val
 >
 data
 =
-pool_alloc
+ne_pool_alloc
 (
 length
 ctx
@@ -2720,7 +2749,7 @@ length
 length
 ;
 return
-io_read
+ne_io_read
 (
 ctx
 -
@@ -2736,7 +2765,7 @@ length
 }
 static
 int
-get_uint
+ne_get_uint
 (
 struct
 ebml_type
@@ -2782,7 +2811,7 @@ return
 }
 static
 int
-get_float
+ne_get_float
 (
 struct
 ebml_type
@@ -2828,7 +2857,7 @@ return
 }
 static
 int
-get_string
+ne_get_string
 (
 struct
 ebml_type
@@ -2875,7 +2904,7 @@ return
 }
 static
 int
-get_binary
+ne_get_binary
 (
 struct
 ebml_type
@@ -2922,7 +2951,7 @@ return
 }
 static
 int
-is_ancestor_element
+ne_is_ancestor_element
 (
 uint64_t
 id
@@ -2988,7 +3017,7 @@ static
 struct
 ebml_element_desc
 *
-find_element
+ne_find_element
 (
 uint64_t
 id
@@ -3037,7 +3066,7 @@ NULL
 }
 static
 void
-ctx_push
+ne_ctx_push
 (
 nestegg
 *
@@ -3058,7 +3087,7 @@ item
 ;
 item
 =
-alloc
+ne_alloc
 (
 sizeof
 (
@@ -3101,7 +3130,7 @@ item
 }
 static
 void
-ctx_pop
+ne_ctx_pop
 (
 nestegg
 *
@@ -3138,7 +3167,7 @@ item
 }
 static
 int
-ctx_save
+ne_ctx_save
 (
 nestegg
 *
@@ -3154,7 +3183,7 @@ s
 >
 stream_offset
 =
-io_tell
+ne_io_tell
 (
 ctx
 -
@@ -3211,7 +3240,7 @@ return
 }
 static
 int
-ctx_restore
+ne_ctx_restore
 (
 nestegg
 *
@@ -3227,7 +3256,7 @@ r
 ;
 r
 =
-io_seek
+ne_io_seek
 (
 ctx
 -
@@ -3287,7 +3316,7 @@ return
 }
 static
 int
-peek_element
+ne_peek_element
 (
 nestegg
 *
@@ -3347,7 +3376,7 @@ return
 }
 r
 =
-read_id
+ne_read_id
 (
 ctx
 -
@@ -3373,7 +3402,7 @@ r
 ;
 r
 =
-read_vint
+ne_read_vint
 (
 ctx
 -
@@ -3427,7 +3456,7 @@ return
 }
 static
 int
-read_element
+ne_read_element
 (
 nestegg
 *
@@ -3445,7 +3474,7 @@ r
 ;
 r
 =
-peek_element
+ne_peek_element
 (
 ctx
 id
@@ -3482,7 +3511,7 @@ return
 }
 static
 void
-read_master
+ne_read_master
 (
 nestegg
 *
@@ -3576,7 +3605,7 @@ offset
 ;
 node
 =
-pool_alloc
+ne_pool_alloc
 (
 sizeof
 (
@@ -3604,7 +3633,7 @@ node
 >
 data
 =
-pool_alloc
+ne_pool_alloc
 (
 desc
 -
@@ -3677,7 +3706,7 @@ node
 data
 )
 ;
-ctx_push
+ne_ctx_push
 (
 ctx
 desc
@@ -3693,7 +3722,7 @@ data
 }
 static
 void
-read_single_master
+ne_read_single_master
 (
 nestegg
 *
@@ -3791,7 +3820,7 @@ desc
 offset
 )
 ;
-ctx_push
+ne_ctx_push
 (
 ctx
 desc
@@ -3815,7 +3844,7 @@ offset
 }
 static
 int
-read_simple
+ne_read_simple
 (
 nestegg
 *
@@ -3966,7 +3995,7 @@ TYPE_UINT
 :
 r
 =
-read_uint
+ne_read_uint
 (
 ctx
 -
@@ -3989,7 +4018,7 @@ TYPE_FLOAT
 :
 r
 =
-read_float
+ne_read_float
 (
 ctx
 -
@@ -4012,7 +4041,7 @@ TYPE_INT
 :
 r
 =
-read_int
+ne_read_int
 (
 ctx
 -
@@ -4035,7 +4064,7 @@ TYPE_STRING
 :
 r
 =
-read_string
+ne_read_string
 (
 ctx
 &
@@ -4055,7 +4084,7 @@ TYPE_BINARY
 :
 r
 =
-read_binary
+ne_read_binary
 (
 ctx
 &
@@ -4104,7 +4133,7 @@ r
 }
 static
 int
-parse
+ne_parse
 (
 nestegg
 *
@@ -4131,6 +4160,18 @@ ebml_element_desc
 *
 element
 ;
+if
+(
+!
+ctx
+-
+>
+ancestor
+)
+return
+-
+1
+;
 for
 (
 ;
@@ -4139,7 +4180,7 @@ for
 {
 r
 =
-peek_element
+ne_peek_element
 (
 ctx
 &
@@ -4159,7 +4200,7 @@ break
 ;
 element
 =
-find_element
+ne_find_element
 (
 id
 ctx
@@ -4223,7 +4264,7 @@ break
 }
 r
 =
-read_element
+ne_read_element
 (
 ctx
 &
@@ -4275,7 +4316,7 @@ data_offset
 *
 data_offset
 =
-io_tell
+ne_io_tell
 (
 ctx
 -
@@ -4320,23 +4361,19 @@ flags
 &
 DESC_FLAG_MULTI
 )
-{
-read_master
+ne_read_master
 (
 ctx
 element
 )
 ;
-}
 else
-{
-read_single_master
+ne_read_single_master
 (
 ctx
 element
 )
 ;
-}
 continue
 ;
 }
@@ -4344,7 +4381,7 @@ else
 {
 r
 =
-read_simple
+ne_read_simple
 (
 ctx
 element
@@ -4364,7 +4401,7 @@ break
 else
 if
 (
-is_ancestor_element
+ne_is_ancestor_element
 (
 id
 ctx
@@ -4438,7 +4475,7 @@ r
 break
 ;
 }
-ctx_pop
+ne_ctx_pop
 (
 ctx
 )
@@ -4448,7 +4485,7 @@ else
 {
 r
 =
-read_element
+ne_read_element
 (
 ctx
 &
@@ -4497,7 +4534,7 @@ id
 ;
 r
 =
-io_read_skip
+ne_io_read_skip
 (
 ctx
 -
@@ -4524,7 +4561,6 @@ r
 =
 1
 )
-{
 while
 (
 ctx
@@ -4532,19 +4568,18 @@ ctx
 >
 ancestor
 )
-ctx_pop
+ne_ctx_pop
 (
 ctx
 )
 ;
-}
 return
 r
 ;
 }
 static
 uint64_t
-xiph_lace_value
+ne_xiph_lace_value
 (
 unsigned
 char
@@ -4610,7 +4645,7 @@ value
 }
 static
 int
-read_xiph_lace_value
+ne_read_xiph_lace_value
 (
 nestegg_io
 *
@@ -4631,7 +4666,7 @@ lace
 ;
 r
 =
-read_uint
+ne_read_uint
 (
 io
 &
@@ -4670,7 +4705,7 @@ lace
 {
 r
 =
-read_uint
+ne_read_uint
 (
 io
 &
@@ -4707,7 +4742,7 @@ return
 }
 static
 int
-read_xiph_lacing
+ne_read_xiph_lacing
 (
 nestegg_io
 *
@@ -4746,7 +4781,7 @@ n
 {
 r
 =
-read_xiph_lace_value
+ne_read_xiph_lace_value
 (
 io
 &
@@ -4812,7 +4847,7 @@ return
 }
 static
 int
-read_ebml_lacing
+ne_read_ebml_lacing
 (
 nestegg_io
 *
@@ -4847,7 +4882,7 @@ i
 ;
 r
 =
-read_vint
+ne_read_vint
 (
 io
 &
@@ -4905,7 +4940,7 @@ n
 {
 r
 =
-read_svint
+ne_read_svint
 (
 io
 &
@@ -4989,7 +5024,7 @@ return
 }
 static
 uint64_t
-get_timecode_scale
+ne_get_timecode_scale
 (
 nestegg
 *
@@ -5001,7 +5036,7 @@ scale
 ;
 if
 (
-get_uint
+ne_get_uint
 (
 ctx
 -
@@ -5030,7 +5065,7 @@ static
 struct
 track_entry
 *
-find_track_entry
+ne_find_track_entry
 (
 nestegg
 *
@@ -5087,14 +5122,12 @@ track
 =
 tracks
 )
-{
 return
 node
 -
 >
 data
 ;
-}
 tracks
 +
 =
@@ -5114,7 +5147,7 @@ NULL
 }
 static
 int
-read_block
+ne_read_block
 (
 nestegg
 *
@@ -5200,7 +5233,7 @@ return
 ;
 r
 =
-read_vint
+ne_read_vint
 (
 ctx
 -
@@ -5248,7 +5281,7 @@ length
 ;
 r
 =
-read_int
+ne_read_int
 (
 ctx
 -
@@ -5276,7 +5309,7 @@ consumed
 ;
 r
 =
-read_uint
+ne_read_uint
 (
 ctx
 -
@@ -5311,7 +5344,7 @@ lacing
 (
 flags
 &
-0x6
+BLOCK_FLAGS_LACING
 )
 >
 >
@@ -5342,7 +5375,7 @@ LACING_EBML
 :
 r
 =
-read_uint
+ne_read_uint
 (
 ctx
 -
@@ -5419,7 +5452,7 @@ return
 ;
 r
 =
-read_xiph_lacing
+ne_read_xiph_lacing
 (
 ctx
 -
@@ -5475,7 +5508,6 @@ frames
 +
 i
 )
-{
 frame_sizes
 [
 i
@@ -5489,7 +5521,6 @@ consumed
 /
 frames
 ;
-}
 break
 ;
 case
@@ -5508,7 +5539,7 @@ return
 ;
 r
 =
-read_ebml_lacing
+ne_read_ebml_lacing
 (
 ctx
 -
@@ -5552,7 +5583,6 @@ frames
 +
 i
 )
-{
 total
 +
 =
@@ -5561,7 +5591,6 @@ frame_sizes
 i
 ]
 ;
-}
 if
 (
 total
@@ -5574,7 +5603,7 @@ return
 ;
 entry
 =
-find_track_entry
+ne_find_track_entry
 (
 ctx
 track
@@ -5599,7 +5628,7 @@ track_scale
 ;
 tc_scale
 =
-get_timecode_scale
+ne_get_timecode_scale
 (
 ctx
 )
@@ -5638,7 +5667,7 @@ data
 ;
 if
 (
-get_uint
+ne_get_uint
 (
 cluster
 -
@@ -5673,7 +5702,7 @@ return
 ;
 pkt
 =
-alloc
+ne_alloc
 (
 sizeof
 (
@@ -5792,7 +5821,7 @@ return
 }
 f
 =
-alloc
+ne_alloc
 (
 sizeof
 (
@@ -5806,7 +5835,7 @@ f
 >
 data
 =
-alloc
+ne_alloc
 (
 frame_sizes
 [
@@ -5826,7 +5855,7 @@ i
 ;
 r
 =
-io_read
+ne_io_read
 (
 ctx
 -
@@ -5878,7 +5907,6 @@ if
 !
 last
 )
-{
 pkt
 -
 >
@@ -5886,9 +5914,7 @@ frame
 =
 f
 ;
-}
 else
-{
 last
 -
 >
@@ -5896,7 +5922,6 @@ next
 =
 f
 ;
-}
 last
 =
 f
@@ -5913,7 +5938,7 @@ return
 }
 static
 uint64_t
-buf_read_id
+ne_buf_read_id
 (
 unsigned
 char
@@ -5959,7 +5984,7 @@ static
 struct
 seek
 *
-find_seek_for_id
+ne_find_seek_for_id
 (
 struct
 ebml_list_node
@@ -6043,7 +6068,7 @@ data
 ;
 if
 (
-get_binary
+ne_get_binary
 (
 s
 -
@@ -6057,7 +6082,7 @@ binary_id
 0
 &
 &
-buf_read_id
+ne_buf_read_id
 (
 binary_id
 .
@@ -6070,11 +6095,9 @@ length
 =
 id
 )
-{
 return
 s
 ;
-}
 seek
 =
 seek
@@ -6099,7 +6122,7 @@ static
 struct
 cue_point
 *
-find_cue_point_for_tstamp
+ne_find_cue_point_for_tstamp
 (
 struct
 ebml_list_node
@@ -6157,7 +6180,7 @@ c
 ;
 if
 (
-get_uint
+ne_get_uint
 (
 c
 -
@@ -6200,7 +6223,7 @@ prev
 }
 static
 int
-is_suspend_element
+ne_is_suspend_element
 (
 uint64_t
 id
@@ -6228,7 +6251,7 @@ return
 }
 static
 void
-null_log_callback
+ne_null_log_callback
 (
 nestegg
 *
@@ -6319,7 +6342,7 @@ return
 ;
 ctx
 =
-alloc
+ne_alloc
 (
 sizeof
 (
@@ -6333,7 +6356,7 @@ ctx
 >
 io
 =
-alloc
+ne_alloc
 (
 sizeof
 (
@@ -6365,7 +6388,7 @@ ctx
 >
 alloc_pool
 =
-pool_init
+ne_pool_init
 (
 )
 ;
@@ -6382,11 +6405,11 @@ ctx
 >
 log
 =
-null_log_callback
+ne_null_log_callback
 ;
 r
 =
-peek_element
+ne_peek_element
 (
 ctx
 &
@@ -6445,16 +6468,16 @@ p
 ctx
 )
 ;
-ctx_push
+ne_ctx_push
 (
 ctx
-top_level_elements
+ne_top_level_elements
 ctx
 )
 ;
 r
 =
-parse
+ne_parse
 (
 ctx
 NULL
@@ -6480,7 +6503,7 @@ return
 }
 if
 (
-get_uint
+ne_get_uint
 (
 ctx
 -
@@ -6495,12 +6518,10 @@ version
 =
 0
 )
-{
 version
 =
 1
 ;
-}
 if
 (
 version
@@ -6521,7 +6542,7 @@ return
 }
 if
 (
-get_string
+ne_get_string
 (
 ctx
 -
@@ -6536,14 +6557,12 @@ doctype
 =
 0
 )
-{
 doctype
 =
 "
 matroska
 "
 ;
-}
 if
 (
 strcmp
@@ -6570,7 +6589,7 @@ return
 }
 if
 (
-get_uint
+ne_get_uint
 (
 ctx
 -
@@ -6585,12 +6604,10 @@ docversion
 =
 0
 )
-{
 docversion
 =
 1
 ;
-}
 if
 (
 docversion
@@ -6703,12 +6720,12 @@ ctx
 >
 ancestor
 )
-ctx_pop
+ne_ctx_pop
 (
 ctx
 )
 ;
-pool_destroy
+ne_pool_destroy
 (
 ctx
 -
@@ -6749,7 +6766,7 @@ unscaled_duration
 ;
 if
 (
-get_float
+ne_get_float
 (
 ctx
 -
@@ -6772,7 +6789,7 @@ return
 ;
 tc_scale
 =
-get_timecode_scale
+ne_get_timecode_scale
 (
 ctx
 )
@@ -6807,7 +6824,7 @@ scale
 *
 scale
 =
-get_timecode_scale
+ne_get_timecode_scale
 (
 ctx
 )
@@ -6905,7 +6922,7 @@ node
 {
 found
 =
-find_seek_for_id
+ne_find_seek_for_id
 (
 ctx
 -
@@ -6929,7 +6946,7 @@ return
 ;
 if
 (
-get_uint
+ne_get_uint
 (
 found
 -
@@ -6948,7 +6965,7 @@ return
 ;
 r
 =
-ctx_save
+ne_ctx_save
 (
 ctx
 &
@@ -6968,7 +6985,7 @@ return
 ;
 r
 =
-io_seek
+ne_io_seek
 (
 ctx
 -
@@ -7010,7 +7027,7 @@ last_size
 ;
 r
 =
-read_element
+ne_read_element
 (
 ctx
 &
@@ -7047,17 +7064,17 @@ ancestor
 =
 NULL
 ;
-ctx_push
+ne_ctx_push
 (
 ctx
-top_level_elements
+ne_top_level_elements
 ctx
 )
 ;
-ctx_push
+ne_ctx_push
 (
 ctx
-segment_elements
+ne_segment_elements
 &
 ctx
 -
@@ -7065,10 +7082,10 @@ ctx
 segment
 )
 ;
-ctx_push
+ne_ctx_push
 (
 ctx
-cues_elements
+ne_cues_elements
 &
 ctx
 -
@@ -7096,10 +7113,10 @@ elements
 ;
 r
 =
-parse
+ne_parse
 (
 ctx
-cues_elements
+ne_cues_elements
 )
 ;
 while
@@ -7109,14 +7126,14 @@ ctx
 >
 ancestor
 )
-ctx_pop
+ne_ctx_pop
 (
 ctx
 )
 ;
 if
 (
-ctx_restore
+ne_ctx_restore
 (
 ctx
 &
@@ -7143,14 +7160,14 @@ return
 }
 tc_scale
 =
-get_timecode_scale
+ne_get_timecode_scale
 (
 ctx
 )
 ;
 cue_point
 =
-find_cue_point_for_tstamp
+ne_find_cue_point_for_tstamp
 (
 ctx
 -
@@ -7213,7 +7230,7 @@ data
 ;
 if
 (
-get_uint
+ne_get_uint
 (
 pos
 -
@@ -7237,7 +7254,7 @@ track
 {
 if
 (
-get_uint
+ne_get_uint
 (
 pos
 -
@@ -7267,7 +7284,7 @@ next
 }
 r
 =
-io_seek
+ne_io_seek
 (
 ctx
 -
@@ -7314,22 +7331,22 @@ ctx
 >
 ancestor
 )
-ctx_pop
+ne_ctx_pop
 (
 ctx
 )
 ;
-ctx_push
+ne_ctx_push
 (
 ctx
-top_level_elements
+ne_top_level_elements
 ctx
 )
 ;
-ctx_push
+ne_ctx_push
 (
 ctx
-segment_elements
+ne_segment_elements
 &
 ctx
 -
@@ -7355,7 +7372,7 @@ elements
 ;
 r
 =
-parse
+ne_parse
 (
 ctx
 NULL
@@ -7375,7 +7392,7 @@ return
 if
 (
 !
-is_suspend_element
+ne_is_suspend_element
 (
 ctx
 -
@@ -7412,7 +7429,7 @@ type
 ;
 entry
 =
-find_track_entry
+ne_find_track_entry
 (
 ctx
 track
@@ -7429,7 +7446,7 @@ return
 ;
 if
 (
-get_uint
+ne_get_uint
 (
 entry
 -
@@ -7450,7 +7467,7 @@ if
 (
 type
 &
-0x1
+TRACK_TYPE_VIDEO
 )
 return
 NESTEGG_TRACK_VIDEO
@@ -7459,7 +7476,7 @@ if
 (
 type
 &
-0x2
+TRACK_TYPE_AUDIO
 )
 return
 NESTEGG_TRACK_AUDIO
@@ -7491,7 +7508,7 @@ entry
 ;
 entry
 =
-find_track_entry
+ne_find_track_entry
 (
 ctx
 track
@@ -7508,7 +7525,7 @@ return
 ;
 if
 (
-get_string
+ne_get_string
 (
 entry
 -
@@ -7530,9 +7547,7 @@ if
 strcmp
 (
 codec_id
-"
-V_VP8
-"
+TRACK_ID_VP8
 )
 =
 =
@@ -7546,9 +7561,7 @@ if
 strcmp
 (
 codec_id
-"
-A_VORBIS
-"
+TRACK_ID_VORBIS
 )
 =
 =
@@ -7598,7 +7611,7 @@ count
 ;
 entry
 =
-find_track_entry
+ne_find_track_entry
 (
 ctx
 track
@@ -7630,7 +7643,7 @@ return
 ;
 if
 (
-get_binary
+ne_get_binary
 (
 entry
 -
@@ -7748,7 +7761,7 @@ length
 ;
 entry
 =
-find_track_entry
+ne_find_track_entry
 (
 ctx
 track
@@ -7780,7 +7793,7 @@ return
 ;
 if
 (
-get_binary
+ne_get_binary
 (
 entry
 -
@@ -7842,7 +7855,7 @@ sizes
 i
 ]
 =
-xiph_lace_value
+ne_xiph_lace_value
 (
 &
 p
@@ -7970,7 +7983,7 @@ params
 ;
 entry
 =
-find_track_entry
+ne_find_track_entry
 (
 ctx
 track
@@ -8002,7 +8015,7 @@ return
 ;
 if
 (
-get_uint
+ne_get_uint
 (
 entry
 -
@@ -8030,7 +8043,7 @@ value
 ;
 if
 (
-get_uint
+ne_get_uint
 (
 entry
 -
@@ -8060,7 +8073,7 @@ value
 =
 0
 ;
-get_uint
+ne_get_uint
 (
 entry
 -
@@ -8083,7 +8096,7 @@ value
 =
 0
 ;
-get_uint
+ne_get_uint
 (
 entry
 -
@@ -8106,7 +8119,7 @@ value
 =
 0
 ;
-get_uint
+ne_get_uint
 (
 entry
 -
@@ -8129,7 +8142,7 @@ value
 =
 0
 ;
-get_uint
+ne_get_uint
 (
 entry
 -
@@ -8155,7 +8168,7 @@ params
 >
 width
 ;
-get_uint
+ne_get_uint
 (
 entry
 -
@@ -8181,7 +8194,7 @@ params
 >
 height
 ;
-get_uint
+ne_get_uint
 (
 entry
 -
@@ -8239,7 +8252,7 @@ params
 ;
 entry
 =
-find_track_entry
+ne_find_track_entry
 (
 ctx
 track
@@ -8276,7 +8289,7 @@ rate
 =
 8000
 ;
-get_float
+ne_get_float
 (
 entry
 -
@@ -8295,7 +8308,7 @@ value
 =
 1
 ;
-get_uint
+ne_get_uint
 (
 entry
 -
@@ -8318,7 +8331,7 @@ value
 =
 16
 ;
-get_uint
+ne_get_uint
 (
 entry
 -
@@ -8373,7 +8386,7 @@ for
 {
 r
 =
-peek_element
+ne_peek_element
 (
 ctx
 &
@@ -8389,14 +8402,12 @@ r
 =
 1
 )
-{
 return
 r
 ;
-}
 if
 (
-is_suspend_element
+ne_is_suspend_element
 (
 id
 )
@@ -8404,7 +8415,7 @@ id
 {
 r
 =
-read_element
+ne_read_element
 (
 ctx
 &
@@ -8420,14 +8431,12 @@ r
 =
 1
 )
-{
 return
 r
 ;
-}
 r
 =
-read_block
+ne_read_block
 (
 ctx
 id
@@ -8441,7 +8450,7 @@ r
 }
 r
 =
-parse
+ne_parse
 (
 ctx
 NULL
