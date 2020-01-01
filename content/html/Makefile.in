@@ -409,10 +409,11 @@ config
 autoconf
 .
 mk
-PARALLEL_DIRS
+DIRS
 =
 content
 document
+parser
 include
 (
 topsrcdir
