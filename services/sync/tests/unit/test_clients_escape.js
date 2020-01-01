@@ -78,17 +78,6 @@ run_test
 )
 {
 let
-passphrase
-=
-{
-password
-:
-"
-passphrase
-"
-}
-;
-let
 baseUri
 =
 "
