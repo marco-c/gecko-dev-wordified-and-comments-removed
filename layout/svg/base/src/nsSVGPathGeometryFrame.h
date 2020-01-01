@@ -304,10 +304,8 @@ gfxContext
 aContext
 const
 gfxMatrix
-*
-aOverrideTransform
-=
-nsnull
+&
+aTransform
 )
 ;
 private
