@@ -2440,6 +2440,9 @@ engines
 =
 [
 "
+Tab
+"
+"
 Bookmarks
 "
 "
@@ -2450,9 +2453,6 @@ History
 "
 "
 Password
-"
-"
-Tab
 "
 ]
 ;
