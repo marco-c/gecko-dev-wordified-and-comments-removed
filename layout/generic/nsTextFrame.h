@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsSplittableFrame
+.
+h
+"
+#
+include
+"
 nsLineBox
 .
 h
