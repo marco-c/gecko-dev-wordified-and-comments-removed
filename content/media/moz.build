@@ -494,6 +494,11 @@ TextTrackList
 h
 '
 '
+VideoPlaybackQuality
+.
+h
+'
+'
 VideoStreamTrack
 .
 h
@@ -615,6 +620,11 @@ cpp
 '
 '
 VideoFrameContainer
+.
+cpp
+'
+'
+VideoPlaybackQuality
 .
 cpp
 '
