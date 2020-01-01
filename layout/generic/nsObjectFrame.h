@@ -558,7 +558,7 @@ nsRect
 mWindowlessRect
 ;
 PRBool
-mInstantiating
+mPreventInstantiation
 ;
 }
 ;
