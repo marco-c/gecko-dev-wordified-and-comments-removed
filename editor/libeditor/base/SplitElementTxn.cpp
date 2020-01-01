@@ -262,6 +262,7 @@ mExistingRightNode
 CloneNode
 (
 false
+1
 getter_AddRefs
 (
 mNewLeftNode

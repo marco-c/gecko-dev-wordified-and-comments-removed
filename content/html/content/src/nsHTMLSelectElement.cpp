@@ -2856,6 +2856,7 @@ node
 CloneNode
 (
 true
+1
 getter_AddRefs
 (
 newNode
