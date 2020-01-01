@@ -43,6 +43,16 @@ x
 {
 }
 }
+if
+(
+typeof
+schedulegc
+!
+=
+"
+undefined
+"
+)
 schedulegc
 (
 100
