@@ -4496,7 +4496,7 @@ bundle
 GetStringFromName
 (
 "
-AndXMoreFiles
+AndNMoreFiles
 "
 )
 ;
@@ -4553,8 +4553,8 @@ xmoreStr
 replace
 (
 "
-%
-S
+#
+1
 "
 xmoreNum
 )
