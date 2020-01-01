@@ -468,6 +468,9 @@ desktop
 -
 notification
 '
+'
+geolocation
+'
 ]
 ;
 urls
