@@ -2137,6 +2137,17 @@ I
 <
 !
 ENTITY
+inspectCloseButton
+.
+tooltiptext
+"
+Close
+Inspector
+"
+>
+<
+!
+ENTITY
 getMoreDevtoolsCmd
 .
 label
