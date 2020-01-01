@@ -1010,7 +1010,7 @@ index
 _BitScanForward64
 (
 &
-idx
+index
 static_cast
 <
 unsigned
