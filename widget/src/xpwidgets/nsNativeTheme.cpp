@@ -2274,15 +2274,9 @@ than
 PRUint32
 timeout
 =
-PRUint32
-(
-NS_floor
-(
 1000
 /
 aMinimumFrameRate
-)
-)
 ;
 timeout
 =
