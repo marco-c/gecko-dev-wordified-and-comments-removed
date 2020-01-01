@@ -3683,11 +3683,10 @@ objectStores
 .
 AppendElement
 (
-ObjectStoreInfo
-(
-aName
+mObjectStores
+[
 id
-)
+]
 )
 )
 {
