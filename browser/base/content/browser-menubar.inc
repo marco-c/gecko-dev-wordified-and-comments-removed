@@ -4201,7 +4201,7 @@ label
 =
 "
 &
-manBookmarksCmd
+showBookmarksCmd
 .
 label
 ;
