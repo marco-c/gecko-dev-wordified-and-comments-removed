@@ -7308,6 +7308,15 @@ leftPaneFolderId
 "
 )
 ;
+if
+(
+leftPaneRoot
+!
+=
+-
+1
+)
+{
 delete
 this
 .
@@ -7393,6 +7402,7 @@ leftPaneFolderId
 =
 leftPaneRoot
 ;
+}
 }
 catch
 (
