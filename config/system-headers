@@ -2091,11 +2091,6 @@ pangoxft
 h
 pango
 /
-pangox
-.
-h
-pango
-/
 pango
 -
 utils

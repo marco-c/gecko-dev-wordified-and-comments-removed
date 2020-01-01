@@ -170,15 +170,6 @@ gdkx
 h
 >
 #
-include
-<
-pango
-/
-pangox
-.
-h
->
-#
 endif
 #
 include
