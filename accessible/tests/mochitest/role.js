@@ -41,6 +41,13 @@ nsIAccessibleRole
 ROLE_COMBOBOX_OPTION
 ;
 const
+ROLE_COLUMNHEADER
+=
+nsIAccessibleRole
+.
+ROLE_COLUMNHEADER
+;
+const
 ROLE_DOCUMENT
 =
 nsIAccessibleRole
@@ -179,6 +186,13 @@ ROLE_PUSHBUTTON
 nsIAccessibleRole
 .
 ROLE_PUSHBUTTON
+;
+const
+ROLE_ROW
+=
+nsIAccessibleRole
+.
+ROLE_ROW
 ;
 const
 ROLE_SECTION

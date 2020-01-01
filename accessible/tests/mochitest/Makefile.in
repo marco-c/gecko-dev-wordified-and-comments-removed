@@ -482,6 +482,10 @@ events
 .
 js
 \
+grid
+.
+js
+\
 layout
 .
 js
@@ -560,6 +564,10 @@ test_aria_role_article
 html
 \
 test_aria_role_equation
+.
+html
+\
+test_aria_role_grid
 .
 html
 \
