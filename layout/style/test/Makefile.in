@@ -975,6 +975,10 @@ test_parse_url
 .
 html
 \
+test_pixel_lengths
+.
+html
+\
 test_pointer
 -
 events
