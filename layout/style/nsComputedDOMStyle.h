@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsDOMCSSDeclaration
-.
-h
-"
-#
-include
-"
 nsDOMCSSRGBColor
 .
 h
@@ -2214,9 +2207,6 @@ PRUint32
 *
 aLength
 )
-;
-CSS2PropertiesTearoff
-mInner
 ;
 nsWeakPtr
 mDocumentWeak
