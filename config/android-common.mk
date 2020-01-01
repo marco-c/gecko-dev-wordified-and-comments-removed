@@ -553,6 +553,12 @@ JAVA_VERSION
 )
 \
 -
+source
+(
+JAVA_VERSION
+)
+\
+-
 classpath
 (
 JAVA_CLASSPATH
