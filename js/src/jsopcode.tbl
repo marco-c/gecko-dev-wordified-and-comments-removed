@@ -3266,8 +3266,8 @@ case
 "
 NULL
 3
+2
 1
-0
 0
 JOF_JUMP
 )
@@ -3980,8 +3980,8 @@ casex
 "
 NULL
 5
+2
 1
-0
 0
 JOF_JUMPX
 )
