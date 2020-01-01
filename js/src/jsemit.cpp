@@ -8700,10 +8700,12 @@ js_BlockClass
 )
 ;
 return
-js_GrowSlots
+blockObj
+-
+>
+growSlots
 (
 cx
-blockObj
 JSSLOT_FREE
 (
 &
