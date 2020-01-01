@@ -895,6 +895,15 @@ curChar
 while
 (
 _retval
+.
+Length
+(
+)
+>
+0
+&
+&
+_retval
 [
 _retval
 .
