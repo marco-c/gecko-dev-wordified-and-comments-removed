@@ -5876,6 +5876,14 @@ setScale
 scale
 )
 ;
+if
+(
+"
+_contentView
+"
+in
+view
+)
 view
 .
 _contentView

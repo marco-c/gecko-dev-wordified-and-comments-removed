@@ -270,6 +270,14 @@ setScale
 zoomLevel
 )
 ;
+if
+(
+"
+_contentView
+"
+in
+contentView
+)
 contentView
 .
 _contentView
