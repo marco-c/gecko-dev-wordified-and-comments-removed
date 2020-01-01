@@ -11306,7 +11306,7 @@ _MSC_VER
 uint32_t
 align
 =
-4
+8
 ;
 #
 else
