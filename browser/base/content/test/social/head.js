@@ -615,6 +615,12 @@ function
 provider
 )
 {
+provider
+.
+active
+=
+true
+;
 providersAdded
 +
 +
@@ -664,6 +670,12 @@ Social
 provider
 =
 firstProvider
+;
+Social
+.
+enabled
+=
+true
 ;
 function
 finishSocialTest
