@@ -9716,12 +9716,6 @@ recorded
 =
 false
 ;
-MOZ_ASSERT
-(
-!
-recorded
-)
-;
 recorded
 =
 true
