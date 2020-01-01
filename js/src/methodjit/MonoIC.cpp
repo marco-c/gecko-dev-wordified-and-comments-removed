@@ -147,9 +147,7 @@ f
 fp
 -
 >
-scopeChainObj
-(
-)
+scopeChain
 -
 >
 getGlobal
@@ -631,9 +629,7 @@ f
 fp
 -
 >
-scopeChainObj
-(
-)
+scopeChain
 -
 >
 getGlobal

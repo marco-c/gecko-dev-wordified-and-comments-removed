@@ -6532,15 +6532,10 @@ fp
 -
 >
 fun
-&
 fp
 -
 >
 scopeChain
-.
-asObject
-(
-)
 )
 ;
 gen

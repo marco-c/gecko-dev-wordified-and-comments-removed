@@ -599,7 +599,7 @@ getValue
 (
 )
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -613,7 +613,7 @@ getValue
 (
 )
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -636,7 +636,7 @@ frame
 .
 push
 (
-Int32Tag
+Int32Value
 (
 L
 |
@@ -653,7 +653,7 @@ frame
 .
 push
 (
-Int32Tag
+Int32Value
 (
 L
 ^
@@ -670,7 +670,7 @@ frame
 .
 push
 (
-Int32Tag
+Int32Value
 (
 L
 &
@@ -687,7 +687,7 @@ frame
 .
 push
 (
-Int32Tag
+Int32Value
 (
 L
 <
@@ -705,7 +705,7 @@ frame
 .
 push
 (
-Int32Tag
+Int32Value
 (
 L
 >
@@ -821,7 +821,7 @@ getValue
 (
 )
 .
-asInt32
+toInt32
 (
 )
 )
@@ -849,7 +849,7 @@ getValue
 (
 )
 .
-asInt32
+toInt32
 (
 )
 )
@@ -870,7 +870,7 @@ getValue
 (
 )
 .
-asInt32
+toInt32
 (
 )
 )
@@ -1043,7 +1043,7 @@ getValue
 (
 )
 .
-asInt32
+toInt32
 (
 )
 &
@@ -1224,7 +1224,7 @@ getValue
 (
 )
 .
-asInt32
+toInt32
 (
 )
 )
@@ -2697,7 +2697,7 @@ getValue
 (
 )
 .
-asInt32
+toInt32
 (
 )
 ;
@@ -3060,7 +3060,7 @@ getValue
 (
 )
 .
-asInt32
+toInt32
 (
 )
 )
@@ -3358,7 +3358,7 @@ frame
 .
 push
 (
-BooleanTag
+BooleanValue
 (
 !
 js_ValueToBoolean
@@ -3538,7 +3538,7 @@ frame
 .
 push
 (
-BooleanTag
+BooleanValue
 (
 false
 )
@@ -4077,7 +4077,7 @@ frame
 .
 push
 (
-StringTag
+StringValue
 (
 ATOM_TO_STRING
 (
@@ -4992,7 +4992,7 @@ getValue
 (
 )
 .
-asInt32
+toInt32
 (
 )
 <
@@ -5202,7 +5202,7 @@ getValue
 (
 )
 .
-asInt32
+toInt32
 (
 )
 )
@@ -5226,7 +5226,7 @@ getValue
 (
 )
 .
-asInt32
+toInt32
 (
 )
 *
@@ -5701,7 +5701,7 @@ getValue
 (
 )
 .
-asInt32
+toInt32
 (
 )
 <
@@ -5911,7 +5911,7 @@ getValue
 (
 )
 .
-asInt32
+toInt32
 (
 )
 )
@@ -5935,7 +5935,7 @@ getValue
 (
 )
 .
-asInt32
+toInt32
 (
 )
 *
@@ -6374,7 +6374,7 @@ frame
 .
 push
 (
-BooleanTag
+BooleanValue
 (
 (
 test
@@ -6568,7 +6568,7 @@ frame
 .
 push
 (
-BooleanTag
+BooleanValue
 (
 op
 =
@@ -6625,19 +6625,19 @@ frame
 .
 push
 (
-BooleanTag
+BooleanValue
 (
 (
 L
 .
-asBoolean
+toBoolean
 (
 )
 =
 =
 R
 .
-asBoolean
+toBoolean
 (
 )
 )
@@ -6706,7 +6706,7 @@ getValue
 (
 )
 .
-asBoolean
+toBoolean
 (
 )
 :
@@ -6717,7 +6717,7 @@ getValue
 (
 )
 .
-asBoolean
+toBoolean
 (
 )
 ;

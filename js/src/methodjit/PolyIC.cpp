@@ -56,6 +56,13 @@ h
 #
 include
 "
+jsobjinlines
+.
+h
+"
+#
+include
+"
 jsscopeinlines
 .
 h
@@ -4644,7 +4651,7 @@ tempObj
 obj
 ;
 Address
-fslot
+proto
 (
 pic
 .
@@ -4652,14 +4659,7 @@ objReg
 offsetof
 (
 JSObject
-fslots
-)
-+
-JSSLOT_PROTO
-*
-sizeof
-(
-Value
+proto
 )
 )
 ;
@@ -4701,7 +4701,7 @@ masm
 .
 loadData32
 (
-fslot
+proto
 pic
 .
 objReg
@@ -7649,7 +7649,7 @@ sp
 1
 ]
 .
-asString
+toString
 (
 )
 ;
@@ -7710,7 +7710,7 @@ sp
 1
 ]
 .
-asObject
+toObject
 (
 )
 ;
@@ -8631,7 +8631,7 @@ js_GetProtoIfDenseArray
 &
 objv
 .
-asObject
+toObject
 (
 )
 )
@@ -8790,7 +8790,7 @@ cx
 &
 objv
 .
-asObject
+toObject
 (
 )
 obj2
@@ -8880,7 +8880,7 @@ cx
 &
 objv
 .
-asObject
+toObject
 (
 )
 id
@@ -8943,7 +8943,7 @@ JS_ASSERT
 (
 objv
 .
-asObject
+toObject
 (
 )
 .
@@ -8968,7 +8968,7 @@ cx
 &
 objv
 .
-asObject
+toObject
 (
 )
 id
@@ -9078,7 +9078,7 @@ script
 &
 objv
 .
-asObject
+toObject
 (
 )
 pic
@@ -9319,9 +9319,7 @@ f
 fp
 -
 >
-scopeChainObj
-(
-)
+scopeChain
 pic
 atom
 SlowName
@@ -9555,9 +9553,7 @@ f
 fp
 -
 >
-scopeChainObj
-(
-)
+scopeChain
 pic
 atom
 SlowBindName

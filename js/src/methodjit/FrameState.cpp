@@ -3185,7 +3185,7 @@ getValue
 (
 )
 .
-asInt32
+toInt32
 (
 )
 )
