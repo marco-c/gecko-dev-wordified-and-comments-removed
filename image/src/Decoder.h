@@ -112,7 +112,7 @@ FlushInvalidations
 (
 )
 ;
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+NS_INLINE_DECL_REFCOUNTING
 (
 Decoder
 )
@@ -166,16 +166,6 @@ aSynchronous
 mSynchronous
 =
 aSynchronous
-;
-}
-bool
-IsSynchronous
-(
-)
-const
-{
-return
-mSynchronous
 ;
 }
 void
