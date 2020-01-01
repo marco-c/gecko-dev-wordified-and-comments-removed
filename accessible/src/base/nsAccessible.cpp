@@ -3030,7 +3030,7 @@ IsElement
 )
 {
 nsEventStates
-intrinsicState
+elementState
 =
 mContent
 -
@@ -3040,13 +3040,13 @@ AsElement
 )
 -
 >
-IntrinsicState
+State
 (
 )
 ;
 if
 (
-intrinsicState
+elementState
 .
 HasState
 (
@@ -3063,7 +3063,7 @@ INVALID
 ;
 if
 (
-intrinsicState
+elementState
 .
 HasState
 (
@@ -3088,7 +3088,7 @@ IsHTML
 )
 ?
 (
-intrinsicState
+elementState
 .
 HasState
 (
