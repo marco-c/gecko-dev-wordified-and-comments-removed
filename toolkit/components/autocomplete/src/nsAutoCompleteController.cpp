@@ -4459,6 +4459,11 @@ PostSearchCleanup
 (
 )
 {
+NS_ENSURE_STATE
+(
+mInput
+)
+;
 if
 (
 mRowCount
