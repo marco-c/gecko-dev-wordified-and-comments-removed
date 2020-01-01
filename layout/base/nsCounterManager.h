@@ -7,6 +7,15 @@ nsCounterManager_h_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsGenConList
 .
 h
@@ -200,6 +209,7 @@ nsIFrame
 *
 aTextFrame
 )
+MOZ_OVERRIDE
 ;
 void
 Calc

@@ -64,6 +64,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 friend
 nsIFrame
@@ -192,6 +193,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetInitialChildList
@@ -214,6 +216,7 @@ ChildListID
 aListID
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -271,6 +274,7 @@ nsIFrame
 GetContentInsertionFrame
 (
 )
+MOZ_OVERRIDE
 {
 return
 GetFirstPrincipalChild
@@ -917,6 +921,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsContainerFrame

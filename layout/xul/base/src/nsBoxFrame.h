@@ -184,6 +184,7 @@ nsBoxLayout
 *
 aLayout
 )
+MOZ_OVERRIDE
 {
 mLayoutManager
 =
@@ -196,6 +197,7 @@ nsBoxLayout
 GetLayoutManager
 (
 )
+MOZ_OVERRIDE
 {
 return
 mLayoutManager
@@ -211,6 +213,7 @@ nsIFrame
 *
 aChild
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -220,6 +223,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -229,6 +233,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -238,6 +243,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -247,6 +253,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -256,6 +263,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -269,6 +277,7 @@ aBoxLayoutState
 bool
 aDebug
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetDebug
@@ -312,6 +321,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -441,6 +451,7 @@ nsIFrame
 GetContentInsertionFrame
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetInitialChildList
@@ -480,6 +491,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsContainerFrame
@@ -546,6 +558,7 @@ bool
 HonorPrintBackgroundSettings
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 ~

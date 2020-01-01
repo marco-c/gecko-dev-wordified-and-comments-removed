@@ -86,6 +86,7 @@ GetSheetURI
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIURI

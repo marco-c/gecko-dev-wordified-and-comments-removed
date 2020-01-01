@@ -284,6 +284,7 @@ nsIntRect
 *
 aDirtyRect
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD_
 (

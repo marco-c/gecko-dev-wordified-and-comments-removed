@@ -236,6 +236,7 @@ aIndent
 0
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -390,6 +391,7 @@ aIndent
 0
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -826,6 +828,7 @@ aIndent
 0
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -836,6 +839,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -1267,6 +1271,7 @@ aIndent
 0
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -1430,6 +1435,7 @@ nsINode
 GetParentObject
 (
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -1531,6 +1537,7 @@ aIndent
 0
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -1541,6 +1548,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -1719,6 +1727,7 @@ aIndent
 0
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -1925,6 +1934,7 @@ nsINode
 GetParentObject
 (
 )
+MOZ_OVERRIDE
 ;
 protected
 :
@@ -2012,6 +2022,7 @@ aIndent
 0
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -2022,6 +2033,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 already_AddRefed
@@ -2091,6 +2103,7 @@ nsMallocSizeOfFun
 aMallocSizeOf
 )
 const
+MOZ_OVERRIDE
 ;
 private
 :
@@ -2178,6 +2191,7 @@ aIndent
 0
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif

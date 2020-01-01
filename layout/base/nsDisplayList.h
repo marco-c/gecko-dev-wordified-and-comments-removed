@@ -4390,6 +4390,7 @@ bool
 SupportsOptimizingToImage
 (
 )
+MOZ_OVERRIDE
 {
 return
 true
@@ -5168,6 +5169,7 @@ nsRegion
 *
 aInvalidRegion
 )
+MOZ_OVERRIDE
 ;
 }
 ;
@@ -5379,6 +5381,7 @@ nsRegion
 *
 aInvalidRegion
 )
+MOZ_OVERRIDE
 {
 const
 nsDisplayItemBoundsGeometry
@@ -5748,6 +5751,7 @@ FILE
 *
 aOutput
 )
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -6030,6 +6034,7 @@ nsRegion
 *
 aInvalidRegion
 )
+MOZ_OVERRIDE
 {
 const
 nsDisplayItemBoundsGeometry
@@ -6473,6 +6478,7 @@ nsRegion
 *
 aInvalidRegion
 )
+MOZ_OVERRIDE
 {
 const
 nsDisplayBoxShadowInnerGeometry
@@ -6981,6 +6987,7 @@ nsRect
 &
 aRect
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -7590,6 +7597,7 @@ nsDisplayListBuilder
 *
 aBuilder
 )
+MOZ_OVERRIDE
 ;
 }
 ;

@@ -7,6 +7,15 @@ nsTableFrame_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 celldata
 .
 h
@@ -245,6 +254,7 @@ nsIFrame
 *
 aFrame
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsRect
@@ -257,6 +267,7 @@ bool
 *
 aSnap
 )
+MOZ_OVERRIDE
 ;
 void
 UpdateForFrameBackground
@@ -537,6 +548,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -546,6 +558,7 @@ nsStyleContext
 *
 aOldStyleContext
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AppendFrames
@@ -556,6 +569,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 InsertFrames
@@ -569,6 +583,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RemoveFrame
@@ -579,6 +594,7 @@ nsIFrame
 *
 aOldFrame
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsMargin
@@ -586,6 +602,7 @@ GetUsedBorder
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsMargin
@@ -593,6 +610,7 @@ GetUsedPadding
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsMargin
@@ -600,6 +618,7 @@ GetUsedMargin
 (
 )
 const
+MOZ_OVERRIDE
 ;
 nsMargin
 GetChildAreaOffset
@@ -729,6 +748,7 @@ nsFrameList
 &
 aChildList
 )
+MOZ_OVERRIDE
 ;
 virtual
 const
@@ -740,6 +760,7 @@ ChildListID
 aListID
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -753,6 +774,7 @@ ChildList
 aLists
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -869,6 +891,7 @@ void
 MarkIntrinsicWidthsDirty
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -878,6 +901,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -887,6 +911,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 IntrinsicWidthOffsetData
@@ -896,6 +921,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -939,6 +965,7 @@ aPadding
 bool
 aShrinkWrap
 )
+MOZ_OVERRIDE
 ;
 nscoord
 TableShrinkWidthToFit
@@ -967,6 +994,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 nsresult
 ReflowTable
@@ -1002,6 +1030,7 @@ GetParentStyleContextFrame
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIAtom
@@ -1010,6 +1039,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1019,6 +1049,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 if
 (
@@ -1052,6 +1083,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -1384,6 +1416,7 @@ bool
 UpdateOverflow
 (
 )
+MOZ_OVERRIDE
 ;
 protected
 :

@@ -73,6 +73,7 @@ aFlags
 0
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetFrameName
@@ -82,6 +83,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -93,6 +95,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -102,6 +105,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsLeafFrame
@@ -150,6 +154,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -159,6 +164,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -168,18 +174,21 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 IntrinsicSize
 GetIntrinsicSize
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
 GetIntrinsicRatio
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -201,6 +210,7 @@ aPadding
 bool
 aShrinkWrap
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -272,12 +282,14 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 SupportsVisibilityHidden
 (
 )
+MOZ_OVERRIDE
 {
 return
 false

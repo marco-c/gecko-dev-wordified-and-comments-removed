@@ -155,6 +155,7 @@ bool
 IsContextMenu
 (
 )
+MOZ_OVERRIDE
 {
 return
 false
@@ -176,6 +177,7 @@ bool
 IsMenu
 (
 )
+MOZ_OVERRIDE
 {
 return
 false

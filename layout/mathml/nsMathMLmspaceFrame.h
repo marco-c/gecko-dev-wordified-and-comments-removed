@@ -53,6 +53,7 @@ NS_IMETHOD
 TransmitAutomaticData
 (
 )
+MOZ_OVERRIDE
 {
 mPresentationData
 .
@@ -71,6 +72,7 @@ IsLeaf
 (
 )
 const
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Reflow

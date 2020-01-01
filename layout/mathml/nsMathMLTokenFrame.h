@@ -53,6 +53,7 @@ NS_IMETHOD
 TransmitAutomaticData
 (
 )
+MOZ_OVERRIDE
 {
 if
 (
@@ -89,12 +90,14 @@ nsIFrame
 *
 aParent
 )
+MOZ_OVERRIDE
 ;
 virtual
 eMathMLFrameType
 GetMathMLFrameType
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 SetInitialChildList
@@ -171,6 +174,7 @@ void
 MarkIntrinsicWidthsDirty
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult

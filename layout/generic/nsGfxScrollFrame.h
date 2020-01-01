@@ -1481,6 +1481,7 @@ aRadii
 ]
 )
 const
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -1499,6 +1500,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -1508,6 +1510,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetPadding
@@ -1516,12 +1519,14 @@ nsMargin
 &
 aPadding
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 IsCollapsed
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 Reflow
@@ -1540,6 +1545,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -1608,6 +1614,7 @@ nsIScrollableFrame
 GetScrollTargetFrame
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -1619,6 +1626,7 @@ nsIFrame
 GetContentInsertionFrame
 (
 )
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -1638,6 +1646,7 @@ bool
 DoesClipChildren
 (
 )
+MOZ_OVERRIDE
 {
 return
 true
@@ -1649,6 +1658,7 @@ GetSplittableType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsPoint
@@ -1658,6 +1668,7 @@ nsIFrame
 *
 aChild
 )
+MOZ_OVERRIDE
 {
 nsPoint
 pt
@@ -1742,6 +1753,7 @@ GetScrolledFrame
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -2176,6 +2188,7 @@ void
 ResetScrollPositionForLayerPixelAlignment
 (
 )
+MOZ_OVERRIDE
 {
 mInner
 .
@@ -2271,6 +2284,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -2283,6 +2297,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -2430,6 +2445,7 @@ nsFrameList
 &
 aChildList
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -2541,6 +2557,7 @@ nsIScrollableFrame
 GetScrollTargetFrame
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -2572,6 +2589,7 @@ bool
 DoesClipChildren
 (
 )
+MOZ_OVERRIDE
 {
 return
 true
@@ -2583,6 +2601,7 @@ GetSplittableType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsPoint
@@ -2592,6 +2611,7 @@ nsIFrame
 *
 aChild
 )
+MOZ_OVERRIDE
 {
 nsPoint
 pt
@@ -2660,6 +2680,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -2669,6 +2690,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsSize
@@ -2678,6 +2700,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -2687,6 +2710,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 DoLayout
@@ -2695,6 +2719,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetPadding
@@ -2703,6 +2728,7 @@ nsMargin
 &
 aPadding
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -2715,6 +2741,7 @@ aRadii
 ]
 )
 const
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -2869,6 +2896,7 @@ GetScrolledFrame
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 mInner
@@ -3303,6 +3331,7 @@ void
 ResetScrollPositionForLayerPixelAlignment
 (
 )
+MOZ_OVERRIDE
 {
 mInner
 .

@@ -235,6 +235,7 @@ GetAbsoluteListID
 (
 )
 const
+MOZ_OVERRIDE
 {
 return
 kFixedList

@@ -106,6 +106,7 @@ bool
 IsSpaceLike
 (
 )
+MOZ_OVERRIDE
 {
 return
 NS_MATHML_IS_SPACE_LIKE

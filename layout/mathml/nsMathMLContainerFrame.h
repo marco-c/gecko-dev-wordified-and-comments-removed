@@ -150,6 +150,7 @@ nsHTMLReflowMetrics
 &
 aDesiredStretchSize
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 UpdatePresentationDataFromChildAt
@@ -163,6 +164,7 @@ aFlagsValues
 uint32_t
 aFlagsToUpdate
 )
+MOZ_OVERRIDE
 {
 PropagatePresentationDataFromChildAt
 (
@@ -194,6 +196,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 !
@@ -238,6 +241,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 InsertFrames
@@ -272,6 +276,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -281,6 +286,7 @@ nsRenderingContext
 *
 aRenderingContext
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord
@@ -308,6 +314,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 WillReflow
@@ -316,6 +323,7 @@ nsPresContext
 *
 aPresContext
 )
+MOZ_OVERRIDE
 {
 mPresentationData
 .
@@ -348,6 +356,7 @@ aReflowState
 nsDidReflowStatus
 aStatus
 )
+MOZ_OVERRIDE
 {
 mPresentationData
 .
@@ -392,6 +401,7 @@ bool
 UpdateOverflow
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AttributeChanged
@@ -404,6 +414,7 @@ aAttribute
 int32_t
 aModType
 )
+MOZ_OVERRIDE
 ;
 nscoord
 MirrorIfRTL
@@ -755,6 +766,7 @@ nsFrameList
 &
 aChildList
 )
+MOZ_OVERRIDE
 {
 NS_ASSERTION
 (
@@ -802,6 +814,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 {
 NS_ASSERTION
 (
@@ -1323,6 +1336,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsInlineFrame

@@ -168,6 +168,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -261,6 +262,7 @@ PRUnichar
 *
 aDocURL
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 PrePrintNextPage
@@ -336,6 +338,7 @@ bool
 HonorPrintBackgroundSettings
 (
 )
+MOZ_OVERRIDE
 {
 return
 false
@@ -360,6 +363,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -372,6 +376,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif

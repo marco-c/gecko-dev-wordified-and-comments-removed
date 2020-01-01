@@ -121,6 +121,7 @@ nsAString
 &
 aValue
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -131,6 +132,7 @@ aOn
 bool
 aRepaint
 )
+MOZ_OVERRIDE
 ;
 virtual
 nscoord

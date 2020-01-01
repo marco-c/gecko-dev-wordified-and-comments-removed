@@ -123,6 +123,7 @@ nsRuleData
 *
 aRuleData
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -164,6 +165,7 @@ nsRuleData
 *
 aRuleData
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef

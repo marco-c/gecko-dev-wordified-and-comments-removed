@@ -206,6 +206,7 @@ nsStyleContext
 *
 aOldStyleContext
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 AppendFrames
@@ -249,6 +250,7 @@ GetUsedMargin
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsMargin
@@ -256,6 +258,7 @@ GetUsedBorder
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsMargin
@@ -263,6 +266,7 @@ GetUsedPadding
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -299,6 +303,7 @@ nsReflowStatus
 &
 aStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIAtom
@@ -307,6 +312,7 @@ GetType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 nsTableRowFrame
 *
@@ -325,6 +331,7 @@ nsAString
 aResult
 )
 const
+MOZ_OVERRIDE
 ;
 #
 endif
@@ -608,6 +615,7 @@ nsILineIterator
 GetLineIterator
 (
 )
+MOZ_OVERRIDE
 {
 return
 this
@@ -621,6 +629,7 @@ uint32_t
 aFlags
 )
 const
+MOZ_OVERRIDE
 {
 return
 nsContainerFrame

@@ -56,11 +56,13 @@ nsIFrame
 *
 aParent
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 TransmitAutomaticData
 (
 )
+MOZ_OVERRIDE
 {
 return
 TransmitAutomaticDataForMrowLikeElement

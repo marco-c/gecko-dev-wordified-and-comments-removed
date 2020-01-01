@@ -621,6 +621,7 @@ nsBoxLayoutState
 &
 aBoxLayoutState
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -638,6 +639,7 @@ aRemoveOverflowArea
 =
 false
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -675,6 +677,7 @@ int32_t
 &
 aNewIndex
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 ScrollbarButtonPressed
@@ -758,6 +761,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetCursor
@@ -773,6 +777,7 @@ Cursor
 &
 aCursor
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 HandleEvent
@@ -787,6 +792,7 @@ nsEventStatus
 *
 aEventStatus
 )
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -814,6 +820,7 @@ nsStyleContext
 *
 aOldStyleContext
 )
+MOZ_OVERRIDE
 ;
 friend
 nsIFrame

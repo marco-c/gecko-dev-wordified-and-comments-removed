@@ -185,6 +185,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 InsertFrames
@@ -198,6 +199,7 @@ nsFrameList
 &
 aFrameList
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 RemoveFrame
@@ -262,6 +264,7 @@ IsLeaf
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 bool
@@ -617,6 +620,7 @@ bool
 DrainSelfOverflowList
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsresult

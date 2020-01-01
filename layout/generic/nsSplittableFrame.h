@@ -51,6 +51,7 @@ GetSplittableType
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 void
@@ -60,6 +61,7 @@ nsIFrame
 *
 aDestructRoot
 )
+MOZ_OVERRIDE
 ;
 virtual
 nsIFrame
@@ -102,6 +104,7 @@ GetFirstContinuation
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIFrame
@@ -110,6 +113,7 @@ GetLastContinuation
 (
 )
 const
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -207,6 +211,7 @@ GetFirstInFlow
 (
 )
 const
+MOZ_OVERRIDE
 ;
 virtual
 nsIFrame
@@ -215,6 +220,7 @@ GetLastInFlow
 (
 )
 const
+MOZ_OVERRIDE
 ;
 static
 void

@@ -6046,18 +6046,21 @@ void
 DisposeLineIterator
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 int32_t
 GetNumLines
 (
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
 GetDirection
 (
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetLine
@@ -6078,6 +6081,7 @@ uint32_t
 *
 aLineFlags
 )
+MOZ_OVERRIDE
 ;
 virtual
 int32_t
@@ -6091,6 +6095,7 @@ aStartLine
 =
 0
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 FindFrameAt
@@ -6110,6 +6115,7 @@ bool
 *
 aXIsAfterLastFrame
 )
+MOZ_OVERRIDE
 ;
 NS_IMETHOD
 GetNextSiblingOnLine
@@ -6121,6 +6127,7 @@ aFrame
 int32_t
 aLineNumber
 )
+MOZ_OVERRIDE
 ;
 #
 ifdef
@@ -6142,6 +6149,7 @@ nsIFrame
 *
 aLastVisual
 )
+MOZ_OVERRIDE
 ;
 #
 endif
