@@ -4821,6 +4821,7 @@ pool
 "
 )
 ;
+const
 NSAutoreleasePool
 *
 pool
