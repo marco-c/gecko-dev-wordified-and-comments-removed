@@ -170,11 +170,6 @@ nsIWidget
 *
 GetTopLevelWidget
 (
-PRInt32
-*
-aLevelsUp
-=
-NULL
 )
 ;
 virtual
