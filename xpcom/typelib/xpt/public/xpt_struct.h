@@ -663,9 +663,13 @@ XPT_ID_IS_SCRIPTABLE
 flags
 )
 (
+!
+!
+(
 flags
 &
 XPT_ID_SCRIPTABLE
+)
 )
 #
 define
@@ -674,9 +678,13 @@ XPT_ID_IS_FUNCTION
 flags
 )
 (
+!
+!
+(
 flags
 &
 XPT_ID_FUNCTION
+)
 )
 extern
 XPT_PUBLIC_API

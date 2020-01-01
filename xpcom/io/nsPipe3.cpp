@@ -3722,7 +3722,7 @@ reason
 )
 )
 ;
-nsresult
+PRBool
 result
 =
 PR_FALSE
