@@ -681,6 +681,16 @@ const
 PRInt32
 kGetInfoIndex_ItemLastModified
 ;
+static
+const
+PRInt32
+kGetInfoIndex_ItemTags
+;
+static
+const
+PRInt32
+kGetInfoIndex_ItemParentId
+;
 mozIStorageStatement
 *
 DBGetIdPageInfo
@@ -1188,7 +1198,7 @@ nsCOMPtr
 <
 mozIStorageStatement
 >
-mFoldersWithAnnotationQuery
+mDBGetItemsWithAnno
 ;
 nsCOMPtr
 <
