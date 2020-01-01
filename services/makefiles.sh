@@ -78,6 +78,11 @@ component
 Makefile
 services
 /
+notifications
+/
+Makefile
+services
+/
 sync
 /
 Makefile
@@ -109,6 +114,13 @@ Makefile
 services
 /
 crypto
+/
+tests
+/
+Makefile
+services
+/
+notifications
 /
 tests
 /
