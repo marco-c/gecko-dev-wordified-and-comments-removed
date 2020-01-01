@@ -14582,6 +14582,14 @@ saveop
 =
 =
 JSOP_ARRAYPUSH
+jp
+-
+>
+script
+-
+>
+nfixed
++
 pos
 =
 =
