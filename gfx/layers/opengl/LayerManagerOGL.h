@@ -597,6 +597,9 @@ mRootLayer
 GLuint
 mVBO
 ;
+GLenum
+mFBOTextureTarget
+;
 nsIntRegion
 mClippingRegion
 ;
