@@ -3164,6 +3164,8 @@ nsAttrAndChildArray
 aChildArray
 )
 ;
+public
+:
 #
 define
 EVENT
@@ -3234,6 +3236,8 @@ TOUCH_EVENT
 #
 undef
 EVENT
+protected
+:
 static
 void
 Trace

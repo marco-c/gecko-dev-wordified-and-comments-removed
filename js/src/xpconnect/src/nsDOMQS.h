@@ -413,8 +413,14 @@ if
 failureFatal
 &
 &
+(
 !
 ok
+|
+|
+!
+content
+)
 )
 {
 ok
