@@ -2607,6 +2607,14 @@ current
 =
 successor
 ;
+if
+(
+!
+current
+)
+return
+ControlStatus_Ended
+;
 pc
 =
 current
