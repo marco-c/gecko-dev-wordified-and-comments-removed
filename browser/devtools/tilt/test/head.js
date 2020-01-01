@@ -488,6 +488,15 @@ window
 )
 ;
 const
+STARTUP
+=
+Tilt
+.
+NOTIFICATIONS
+.
+STARTUP
+;
+const
 INITIALIZING
 =
 Tilt
