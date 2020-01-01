@@ -116,6 +116,12 @@ BluetoothHfpManager
 int
 mCurrentVgs
 ;
+int
+mCurrentCallIndex
+;
+int
+mCurrentCallState
+;
 }
 ;
 END_BLUETOOTH_NAMESPACE
