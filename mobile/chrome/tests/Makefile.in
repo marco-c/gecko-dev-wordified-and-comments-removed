@@ -423,6 +423,8 @@ relativesrcdir
 mobile
 /
 chrome
+/
+tests
 TESTXPI
 =
 (
