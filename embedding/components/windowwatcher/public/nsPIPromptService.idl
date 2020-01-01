@@ -515,9 +515,6 @@ eButton3Text
 eDialogTitle
 =
 12
-eOpeningSound
-=
-13
 }
 ;
 enum
