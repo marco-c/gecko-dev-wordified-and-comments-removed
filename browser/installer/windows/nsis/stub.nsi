@@ -6556,7 +6556,7 @@ SelectFolderDialog
 NOUNLOAD
 "
 (
-SELECT_FOLDER
+SELECT_FOLDER_TEXT
 )
 "
 0
