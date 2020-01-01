@@ -18751,10 +18751,12 @@ if
 (
 sprop
 )
-TRACE_SCOPE_PROPERTY
+sprop
+-
+>
+trace
 (
 trc
-sprop
 )
 ;
 }
@@ -18802,7 +18804,7 @@ vector
 i
 ]
 ;
-TRACE_ID
+js_TraceId
 (
 trc
 id
