@@ -1567,6 +1567,17 @@ _onPopupHiding
 (
 )
 "
+onpopuphidden
+=
+"
+DebuggerView
+.
+Options
+.
+_onPopupHidden
+(
+)
+"
 >
 <
 menuitem
