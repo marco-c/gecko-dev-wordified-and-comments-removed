@@ -536,6 +536,14 @@ id
 true
 )
 ;
+if
+(
+!
+SHAPE_FETCH
+(
+spp
+)
+)
 SHAPE_STORE_PRESERVING_COLLISION
 (
 spp
