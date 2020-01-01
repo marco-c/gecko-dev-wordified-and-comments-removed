@@ -1522,6 +1522,14 @@ TypeSet
 other
 )
 ;
+bool
+knownNonStringPrimitive
+(
+JSContext
+*
+cx
+)
+;
 int
 getTypedArrayType
 (
