@@ -1942,7 +1942,6 @@ rtf
 >
 flushToHandler
 (
-&
 aEs
 .
 mResultHandler
