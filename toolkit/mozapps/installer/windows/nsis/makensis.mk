@@ -462,6 +462,10 @@ defined
 TOOLKIT_NSIS_FILES
 =
 \
+AppAssocReg
+.
+dll
+\
 common
 .
 nsh
@@ -477,10 +481,6 @@ dll
 overrides
 .
 nsh
-\
-SetVistaDefaultApp
-.
-dll
 \
 ShellLink
 .

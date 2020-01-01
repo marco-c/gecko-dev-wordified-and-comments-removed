@@ -896,10 +896,10 @@ Unless
 {
 Errors
 }
-SetVistaDefaultApp
+AppAssocReg
 :
 :
-SetAsDefault
+SetAppAsDefaultAll
 "
 {
 AppRegName
