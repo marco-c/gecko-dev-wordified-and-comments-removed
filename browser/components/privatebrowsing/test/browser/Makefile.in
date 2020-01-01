@@ -557,6 +557,10 @@ browser_privatebrowsing_urlbarfocus
 .
 js
 \
+browser_privatebrowsing_urlbarundo
+.
+js
+\
 browser_privatebrowsing_viewsource
 .
 js
