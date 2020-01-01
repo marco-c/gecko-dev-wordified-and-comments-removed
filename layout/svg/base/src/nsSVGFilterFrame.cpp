@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsISVGValueUtils
-.
-h
-"
-#
-include
-"
 nsSVGMatrix
 .
 h

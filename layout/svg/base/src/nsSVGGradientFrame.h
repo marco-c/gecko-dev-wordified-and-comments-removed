@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsISVGValueObserver
-.
-h
-"
-#
-include
-"
 nsWeakReference
 .
 h

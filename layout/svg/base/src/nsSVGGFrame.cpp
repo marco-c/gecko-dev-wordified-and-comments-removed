@@ -43,13 +43,6 @@ h
 #
 include
 "
-nsISVGValueUtils
-.
-h
-"
-#
-include
-"
 nsSVGGraphicElement
 .
 h
