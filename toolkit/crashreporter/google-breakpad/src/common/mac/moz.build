@@ -143,6 +143,10 @@ string_utilities
 cc
 '
 ]
+HOST_CPPSRCS
++
+=
+CPP_SOURCES
 HOST_LIBRARY_NAME
 =
 '

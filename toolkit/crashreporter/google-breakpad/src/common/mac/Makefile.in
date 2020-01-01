@@ -126,11 +126,6 @@ m
 (
 NULL
 )
-HOST_CPPSRCS
-=
-(
-CPPSRCS
-)
 HOST_CMMSRCS
 =
 \

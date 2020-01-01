@@ -143,3 +143,16 @@ host_stdc
 +
 compat
 '
+HOST_CPPSRCS
++
+=
+[
+'
+stdc
++
++
+compat
+.
+cpp
+'
+]

@@ -64,17 +64,6 @@ NO_EXPAND_LIBS
 NO_PROFILE_GUIDED_OPTIMIZE
 =
 1
-ifdef
-MOZ_LIBSTDCXX_HOST_VERSION
-HOST_CPPSRCS
-=
-stdc
-+
-+
-compat
-.
-cpp
-endif
 include
 (
 topsrcdir

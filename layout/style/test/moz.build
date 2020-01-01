@@ -106,3 +106,13 @@ MODULE
 '
 layout
 '
+HOST_CPPSRCS
++
+=
+[
+'
+ListCSSProperties
+.
+cpp
+'
+]
