@@ -222,7 +222,6 @@ eDOMEvents_mozaudioavailable
 #
 endif
 eDOMEvents_afterpaint
-eDOMEvents_beforepaint
 eDOMEvents_beforeresize
 eDOMEvents_mozfullscreenchange
 eDOMEvents_mozfullscreenerror

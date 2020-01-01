@@ -1099,13 +1099,6 @@ NS_EVENT
 )
 NON_IDL_EVENT
 (
-MozBeforePaint
-NS_BEFOREPAINT
-EventNameType_None
-NS_EVENT_NULL
-)
-NON_IDL_EVENT
-(
 MozScrolledAreaChanged
 NS_SCROLLEDAREACHANGED
 EventNameType_None
