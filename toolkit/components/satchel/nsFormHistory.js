@@ -1826,7 +1826,6 @@ this
 .
 dbCleanup
 (
-true
 )
 ;
 FormHistory
@@ -4169,7 +4168,6 @@ dbCleanup
 :
 function
 (
-backup
 )
 {
 this
@@ -4187,16 +4185,8 @@ close
 remove
 &
 backup
-=
 "
-+
-backup
 )
-if
-(
-backup
-)
-{
 let
 storage
 =
@@ -4246,7 +4236,6 @@ dbFile
 backupFile
 )
 ;
-}
 this
 .
 _dbFinalize
