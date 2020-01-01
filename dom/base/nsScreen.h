@@ -164,9 +164,8 @@ nsRect
 aRect
 )
 ;
-nsIDocShell
-*
-mDocShell
+bool
+mIsChrome
 ;
 mozilla
 :
