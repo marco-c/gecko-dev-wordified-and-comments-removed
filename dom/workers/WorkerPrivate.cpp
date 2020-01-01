@@ -355,7 +355,7 @@ workers
 exceptions
 :
 :
-ThrowDOMExceptionForNSResult
+ThrowDOMExceptionForCode
 ;
 USING_WORKERS_NAMESPACE
 using
@@ -1771,10 +1771,10 @@ aCx
 uint32_t
 )
 {
-ThrowDOMExceptionForNSResult
+ThrowDOMExceptionForCode
 (
 aCx
-NS_ERROR_DOM_DATA_CLONE_ERR
+DATA_CLONE_ERR
 )
 ;
 }
