@@ -46,6 +46,13 @@ jsvalue
 .
 h
 "
+#
+include
+"
+jshashtable
+.
+h
+"
 namespace
 js
 {

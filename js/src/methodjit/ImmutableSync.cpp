@@ -317,7 +317,7 @@ continue
 ;
 lastResort
 =
-0
+i
 ;
 if
 (
