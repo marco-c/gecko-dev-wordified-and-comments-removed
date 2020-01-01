@@ -274,6 +274,11 @@ JSOP_GETELEM
 \
 _
 (
+JSOP_SETELEM
+)
+\
+_
+(
 JSOP_GETLOCAL
 )
 \
