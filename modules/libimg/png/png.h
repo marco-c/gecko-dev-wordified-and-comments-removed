@@ -12,7 +12,7 @@ PNG_LIBPNG_VER_STRING
 .
 2
 .
-23
+24
 "
 #
 define
@@ -25,10 +25,10 @@ version
 .
 2
 .
-23
+24
 -
-November
-6
+December
+14
 2007
 \
 n
@@ -52,7 +52,7 @@ PNG_LIBPNG_VER_MINOR
 #
 define
 PNG_LIBPNG_VER_RELEASE
-23
+24
 #
 define
 PNG_LIBPNG_VER_BUILD
@@ -130,14 +130,14 @@ PNG_LIBPNG_BUILD_STABLE
 #
 define
 PNG_LIBPNG_VER
-10223
+10224
 /
 *
 1
 .
 2
 .
-23
+24
 *
 /
 #
@@ -2472,6 +2472,9 @@ prev_row
 png_bytep
 row_buf
 ;
+#
+ifndef
+PNG_NO_WRITE_FILTERING
 png_bytep
 sub_row
 ;
@@ -2484,6 +2487,8 @@ avg_row
 png_bytep
 paeth_row
 ;
+#
+endif
 png_row_info
 row_info
 ;
@@ -3239,7 +3244,7 @@ endif
 ;
 typedef
 png_structp
-version_1_2_23
+version_1_2_24
 ;
 typedef
 png_struct

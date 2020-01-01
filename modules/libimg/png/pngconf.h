@@ -645,7 +645,7 @@ endif
 #
 ifdef
 _SETJMP_H
-__png
+__pngconf
 .
 h__
 already
@@ -678,8 +678,13 @@ __linux__
 ifdef
 PNG_SAVE_BSD_SOURCE
 #
+ifndef
+_BSD_SOURCE
+#
 define
 _BSD_SOURCE
+#
+endif
 #
 undef
 PNG_SAVE_BSD_SOURCE

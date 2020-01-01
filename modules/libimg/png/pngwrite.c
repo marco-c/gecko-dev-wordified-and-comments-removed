@@ -5417,6 +5417,9 @@ png_ptr
 row_buf
 )
 ;
+#
+ifndef
+PNG_NO_WRITE_FILTERING
 png_free
 (
 png_ptr
@@ -5462,6 +5465,8 @@ png_ptr
 paeth_row
 )
 ;
+#
+endif
 #
 if
 defined
