@@ -761,6 +761,10 @@ nsSVGAnimateTransformElement
 .
 cpp
 \
+nsSVGAnimateMotionElement
+.
+cpp
+\
 nsSVGAnimationElement
 .
 cpp
