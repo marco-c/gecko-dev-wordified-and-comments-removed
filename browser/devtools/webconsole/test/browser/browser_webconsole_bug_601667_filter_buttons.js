@@ -673,10 +673,6 @@ menuItem
 .
 nextSibling
 ;
-i
-+
-+
-;
 }
 clickButton
 (

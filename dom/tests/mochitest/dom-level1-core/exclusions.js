@@ -297,9 +297,6 @@ hc_attrinsertbefore6
 hc_attrnormalize
 "
 "
-hc_attrremovechild2
-"
-"
 hc_attrreplacechild1
 "
 "
