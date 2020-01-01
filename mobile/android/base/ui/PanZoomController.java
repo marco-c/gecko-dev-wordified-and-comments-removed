@@ -365,7 +365,6 @@ mSubscroller
 new
 SubdocumentScrollHelper
 (
-this
 eventDispatcher
 )
 ;
