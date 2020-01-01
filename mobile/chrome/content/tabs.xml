@@ -214,7 +214,7 @@ height
 <
 xul
 :
-vbox
+image
 left
 =
 "
@@ -225,11 +225,6 @@ top
 "
 24
 "
->
-<
-xul
-:
-image
 anonid
 =
 "
@@ -243,12 +238,6 @@ documenttab
 close
 "
 /
->
-<
-/
-xul
-:
-vbox
 >
 <
 /
