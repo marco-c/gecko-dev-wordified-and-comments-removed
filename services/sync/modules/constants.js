@@ -194,6 +194,9 @@ MASTER_PASSWORD_LOCKED_RETRY_INTERVAL
 MOBILE_BATCH_SIZE
 :
 50
+DEFAULT_STORE_BATCH_SIZE
+:
+1
 SINGLE_USER_THRESHOLD
 :
 1000
@@ -513,6 +516,17 @@ engine
 reason
 .
 unknown_fail
+"
+ENGINE_APPLY_FAIL
+:
+"
+error
+.
+engine
+.
+reason
+.
+apply_fail
 "
 ENGINE_METARECORD_DOWNLOAD_FAIL
 :
