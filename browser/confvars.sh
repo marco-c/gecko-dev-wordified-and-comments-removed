@@ -426,9 +426,6 @@ MOZ_NO_XPCOM_OBSOLETE
 MOZ_EXTENSIONS_DEFAULT
 =
 "
-xml
--
-rpc
 inspector
 gnomevfs
 reporter
