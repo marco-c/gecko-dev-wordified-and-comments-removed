@@ -12471,12 +12471,7 @@ MaxDifference
 )
 {
 return
-nsChangeHint
-(
 NS_STYLE_HINT_REFLOW
-|
-NS_STYLE_HINT_UPDATE_OVERFLOW
-)
 ;
 }
 #

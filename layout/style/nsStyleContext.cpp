@@ -2050,11 +2050,6 @@ DO_STRUCT_DIFFERENCE
 Border
 )
 ;
-DO_STRUCT_DIFFERENCE
-(
-TextReset
-)
-;
 maxHint
 =
 nsChangeHint
@@ -2086,6 +2081,11 @@ Margin
 DO_STRUCT_DIFFERENCE
 (
 Padding
+)
+;
+DO_STRUCT_DIFFERENCE
+(
+TextReset
 )
 ;
 maxHint
