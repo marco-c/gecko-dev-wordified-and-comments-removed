@@ -2580,7 +2580,6 @@ regress
 501124
 .
 js
-fails
 script
 regress
 -
