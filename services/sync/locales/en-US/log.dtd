@@ -30,6 +30,17 @@ As
 <
 !
 ENTITY
+clearButton
+.
+label
+"
+Clear
+Logs
+"
+>
+<
+!
+ENTITY
 briefLogTab
 .
 label
