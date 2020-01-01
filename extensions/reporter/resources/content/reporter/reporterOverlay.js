@@ -128,11 +128,6 @@ case
 ftp
 "
 :
-case
-"
-gopher
-"
-:
 isEnabled
 =
 true

@@ -2334,13 +2334,6 @@ netwerk
 /
 protocol
 /
-gopher
-/
-Makefile
-netwerk
-/
-protocol
-/
 http
 /
 Makefile

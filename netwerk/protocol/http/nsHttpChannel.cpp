@@ -19183,9 +19183,6 @@ https
 "
 ftp
 "
-"
-gopher
-"
 nsnull
 }
 ;

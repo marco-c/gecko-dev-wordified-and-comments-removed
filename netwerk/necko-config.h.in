@@ -413,9 +413,6 @@ undef
 NECKO_PROTOCOL_ftp
 #
 undef
-NECKO_PROTOCOL_gopher
-#
-undef
 NECKO_PROTOCOL_http
 #
 undef

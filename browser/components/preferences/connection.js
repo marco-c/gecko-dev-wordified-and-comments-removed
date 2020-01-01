@@ -537,9 +537,6 @@ ftp
 "
 socks
 "
-"
-gopher
-"
 ]
 ;
 for
@@ -1148,9 +1145,6 @@ ftp
 "
 "
 socks
-"
-"
-gopher
 "
 ]
 ;
