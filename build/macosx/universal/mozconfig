@@ -485,7 +485,7 @@ SDKs
 /
 MacOSX10
 .
-4u
+5
 .
 sdk
 #
@@ -555,7 +555,7 @@ GCC_VERSION
 =
 4
 .
-0
+2
 #
 It
 '
@@ -655,7 +655,7 @@ gcc
 -
 4
 .
-0
+2
 HOST_CXX
 =
 g
@@ -664,7 +664,7 @@ g
 -
 4
 .
-0
+2
 #
 These
 must
