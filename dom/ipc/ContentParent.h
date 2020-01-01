@@ -1532,16 +1532,6 @@ aVolumeName
 )
 ;
 virtual
-bool
-RecvRecordingDeviceEvents
-(
-const
-nsString
-&
-aRecordingStatus
-)
-;
-virtual
 void
 ProcessingError
 (
