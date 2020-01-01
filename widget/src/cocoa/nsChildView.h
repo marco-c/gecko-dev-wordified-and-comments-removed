@@ -259,6 +259,12 @@ void
 )
 viewsWindowDidResignKey
 ;
+-
+(
+void
+)
+delayedTearDown
+;
 end
 class
 nsTSMManager
