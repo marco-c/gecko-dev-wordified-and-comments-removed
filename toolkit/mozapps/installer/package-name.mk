@@ -539,7 +539,7 @@ UNIVERSAL_BINARY
 MOZ_PKG_PLATFORM
 :
 =
-mac64
+mac
 else
 ifeq
 (
