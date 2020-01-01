@@ -30819,9 +30819,6 @@ s
 global
 "
 )
-#
-ifdef
-JS_ION
 |
 |
 !
@@ -31009,8 +31006,6 @@ compile
 methods
 "
 )
-#
-endif
 )
 {
 return
