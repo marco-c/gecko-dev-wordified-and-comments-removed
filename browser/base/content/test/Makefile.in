@@ -770,6 +770,10 @@ browser_tabs_owner
 .
 js
 \
+browser_bug491431
+.
+js
+\
 (
 NULL
 )
