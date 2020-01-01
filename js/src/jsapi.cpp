@@ -18101,10 +18101,6 @@ JSObject
 *
 obj
 ;
-JSScope
-*
-scope
-;
 JSScopeProperty
 *
 sprop
@@ -18155,15 +18151,6 @@ obj
 isNative
 (
 )
-)
-;
-scope
-=
-obj
--
->
-scope
-(
 )
 ;
 sprop
