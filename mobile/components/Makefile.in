@@ -541,6 +541,10 @@ BlocklistPrompt
 .
 js
 \
+UpdatePrompt
+.
+js
+\
 (
 NULL
 )
