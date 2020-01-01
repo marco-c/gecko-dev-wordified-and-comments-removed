@@ -42345,16 +42345,6 @@ JSScript
 script
 )
 {
-if
-(
-!
-TRACING_ENABLED
-(
-cx
-)
-)
-return
-;
 debug_only_printf
 (
 LC_TMTracer
