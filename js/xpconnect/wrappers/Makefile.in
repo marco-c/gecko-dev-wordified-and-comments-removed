@@ -150,16 +150,6 @@ dom
 /
 base
 \
-DEFINES
-+
-=
-\
--
-DNO_NSPR_10_SUPPORT
-\
-(
-NULL
-)
 include
 (
 topsrcdir

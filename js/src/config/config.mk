@@ -5013,3 +5013,8 @@ compat
 MOZ_GTK2_CFLAGS
 )
 endif
+DEFINES
++
+=
+-
+DNO_NSPR_10_SUPPORT
