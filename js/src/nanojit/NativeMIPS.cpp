@@ -9389,6 +9389,13 @@ genEpilogue
 void
 )
 {
+underrunProtect
+(
+2
+*
+4
+)
+;
 ADDIU
 (
 SP
