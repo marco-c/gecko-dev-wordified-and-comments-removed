@@ -9157,17 +9157,6 @@ isEmpty
 line
 -
 >
-mBounds
-.
-width
-=
-=
-0
-&
-&
-line
--
->
 CachedIsEmpty
 (
 )
