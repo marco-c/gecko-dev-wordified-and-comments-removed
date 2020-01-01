@@ -1875,8 +1875,11 @@ info
 .
 fDescription
 =
+PL_strdup
+(
 "
 "
+)
 ;
 }
 return
