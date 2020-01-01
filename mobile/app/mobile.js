@@ -287,7 +287,7 @@ disk
 .
 enable
 "
-false
+true
 )
 ;
 pref
@@ -301,7 +301,7 @@ disk
 .
 capacity
 "
-0
+10240
 )
 ;
 pref

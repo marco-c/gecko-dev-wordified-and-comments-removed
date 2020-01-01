@@ -521,6 +521,10 @@ TabsTray
 .
 java
 \
+GeckoBatteryManager
+.
+java
+\
 (
 NULL
 )
