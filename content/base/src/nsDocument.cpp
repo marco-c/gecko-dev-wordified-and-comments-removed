@@ -8874,6 +8874,10 @@ mDOMStyleSheets
 =
 nsnull
 ;
+mOriginalURI
+=
+nsnull
+;
 SetDocumentURI
 (
 aURI
@@ -10598,6 +10602,15 @@ oldBase
 newBase
 ;
 }
+if
+(
+!
+mOriginalURI
+)
+mOriginalURI
+=
+mDocumentURI
+;
 if
 (
 !
