@@ -269,7 +269,9 @@ in
 do
 runtest
 infile
+"
 options
+"
 done
 }
 if

@@ -12541,8 +12541,6 @@ argument
 to
 -
 -
-arm
--
 arch
 .
 \
@@ -12564,8 +12562,6 @@ Unrecognized
 argument
 to
 -
--
-arm
 -
 arch
 .
