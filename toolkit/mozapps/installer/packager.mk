@@ -416,7 +416,7 @@ BLOCK
 *
 include
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 toolkit
@@ -1050,13 +1050,13 @@ PKG_DMG_FLAGS
 MOZ_PKG_MAC_EXTRA
 )
 endif
-_ABS_TOPSRCDIR
+_ABS_MOZSRCDIR
 =
 (
 shell
 cd
 (
-topsrcdir
+MOZILLA_DIR
 )
 &
 &
@@ -1083,7 +1083,7 @@ endif
 MAKE_PACKAGE
 =
 (
-_ABS_TOPSRCDIR
+_ABS_MOZSRCDIR
 )
 /
 build
@@ -1768,7 +1768,7 @@ DLL
 SIGN_CMD
 =
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 toolkit
@@ -2286,7 +2286,7 @@ in
 PYTHON
 )
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 config
@@ -2377,7 +2377,7 @@ OS2
 STRIP
 =
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 toolkit
@@ -2506,7 +2506,7 @@ PERL
 -
 I
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 xpinstall
@@ -2772,7 +2772,7 @@ endif
 PERL
 )
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 xpinstall
@@ -2952,7 +2952,7 @@ PKGCP_OS
 PERL
 )
 (
-topsrcdir
+MOZILLA_DIR
 )
 /
 xpinstall
