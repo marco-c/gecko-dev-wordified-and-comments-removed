@@ -1442,11 +1442,7 @@ gfxImageFormat
 GetOffscreenFormat
 (
 )
-{
-return
-mOffscreenFormat
 ;
-}
 nsAutoArrayPtr
 <
 uint8_t
