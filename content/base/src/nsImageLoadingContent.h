@@ -67,6 +67,15 @@ nsGenericHTMLElement
 .
 h
 "
+#
+include
+"
+mozilla
+/
+CORSMode
+.
+h
+"
 class
 nsIURI
 ;
@@ -212,7 +221,7 @@ aBlocking
 )
 ;
 virtual
-nsGenericHTMLElement
+mozilla
 :
 :
 CORSMode

@@ -555,6 +555,7 @@ EXPORTS_NAMESPACES
 mozilla
 /
 dom
+mozilla
 EXPORTS_mozilla
 /
 dom
@@ -565,6 +566,16 @@ Element
 h
 \
 FromParser
+.
+h
+\
+(
+NULL
+)
+EXPORTS_mozilla
+=
+\
+CORSMode
 .
 h
 \
@@ -605,6 +616,10 @@ nsIDOMFileList
 idl
 \
 nsIDOMFileException
+.
+idl
+\
+nsIDOMFileError
 .
 idl
 \

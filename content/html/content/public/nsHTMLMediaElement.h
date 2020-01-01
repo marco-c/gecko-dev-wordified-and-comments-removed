@@ -92,6 +92,15 @@ VideoFrameContainer
 .
 h
 "
+#
+include
+"
+mozilla
+/
+CORSMode
+.
+h
+"
 typedef
 PRUint16
 nsMediaNetworkState
@@ -142,6 +151,9 @@ CANPLAY_MAYBE
 CANPLAY_YES
 }
 ;
+mozilla
+:
+:
 CORSMode
 GetCORSMode
 (
@@ -1215,6 +1227,9 @@ mLoadIsSuspended
 bool
 mMediaSecurityVerified
 ;
+mozilla
+:
+:
 CORSMode
 mCORSMode
 ;
