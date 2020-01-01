@@ -25,6 +25,9 @@ nsIHashable
 .
 h
 "
+class
+nsDirEnumerator
+;
 #
 if
 defined
@@ -98,6 +101,10 @@ nsILocalFileMac
 public
 nsIHashable
 {
+friend
+class
+nsDirEnumerator
+;
 public
 :
 NS_DEFINE_STATIC_CID_ACCESSOR
