@@ -1588,6 +1588,8 @@ fm
 activeWindow
 |
 |
+w
+.
 isBlankPageURL
 (
 url
@@ -1615,6 +1617,8 @@ if
 loadInBackground
 &
 &
+w
+.
 isBlankPageURL
 (
 url
