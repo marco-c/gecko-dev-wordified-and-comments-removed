@@ -586,6 +586,16 @@ mImplementation
 aImpl
 ;
 }
+nsXBLProtoImpl
+*
+GetImplementation
+(
+)
+{
+return
+mImplementation
+;
+}
 nsresult
 InstallImplementation
 (
