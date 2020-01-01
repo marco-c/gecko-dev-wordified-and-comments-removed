@@ -156,7 +156,7 @@ PrefControlled
 interface
 AudioBufferSourceNode
 :
-AudioSourceNode
+AudioNode
 {
 /
 /

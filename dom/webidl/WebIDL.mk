@@ -119,10 +119,6 @@ AudioParam
 .
 webidl
 \
-AudioSourceNode
-.
-webidl
-\
 BatteryManager
 .
 webidl

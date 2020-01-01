@@ -7,7 +7,7 @@ AudioBufferSourceNode_h_
 #
 include
 "
-AudioSourceNode
+AudioNode
 .
 h
 "
@@ -39,7 +39,7 @@ class
 AudioBufferSourceNode
 :
 public
-AudioSourceNode
+AudioNode
 public
 MainThreadMediaStreamListener
 {
@@ -80,7 +80,7 @@ this
 )
 ;
 }
-AudioSourceNode
+AudioNode
 :
 :
 DestroyMediaStream
@@ -100,6 +100,19 @@ return
 true
 ;
 }
+virtual
+uint32_t
+NumberOfInputs
+(
+)
+const
+MOZ_FINAL
+MOZ_OVERRIDE
+{
+return
+0
+;
+}
 void
 JSBindingFinalized
 (
@@ -117,7 +130,7 @@ false
 )
 ;
 }
-AudioSourceNode
+AudioNode
 :
 :
 JSBindingFinalized
@@ -129,7 +142,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 AudioBufferSourceNode
-AudioSourceNode
+AudioNode
 )
 virtual
 JSObject

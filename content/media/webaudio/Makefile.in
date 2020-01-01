@@ -133,10 +133,6 @@ AudioParam
 .
 cpp
 \
-AudioSourceNode
-.
-cpp
-\
 BiquadFilterNode
 .
 cpp
@@ -217,10 +213,6 @@ AudioNode
 h
 \
 AudioParam
-.
-h
-\
-AudioSourceNode
 .
 h
 \
