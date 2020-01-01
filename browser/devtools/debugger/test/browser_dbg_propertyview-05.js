@@ -143,7 +143,12 @@ value
 "
 )
 .
-textContent
+getAttribute
+(
+"
+value
+"
+)
 "
 1
 .
@@ -266,7 +271,12 @@ value
 "
 )
 .
-textContent
+getAttribute
+(
+"
+value
+"
+)
 "
 [
 object

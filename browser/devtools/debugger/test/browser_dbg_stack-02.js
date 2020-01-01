@@ -210,7 +210,12 @@ name
 "
 )
 .
-textContent
+getAttribute
+(
+"
+value
+"
+)
 "
 (
 eval

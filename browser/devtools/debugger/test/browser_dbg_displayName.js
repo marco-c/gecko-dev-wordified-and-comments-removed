@@ -186,7 +186,12 @@ name
 "
 )
 .
-textContent
+getAttribute
+(
+"
+value
+"
+)
 "
 anonFunc
 "
