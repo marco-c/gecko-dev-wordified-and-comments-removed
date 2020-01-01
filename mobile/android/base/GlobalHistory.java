@@ -682,9 +682,10 @@ uri
 )
 return
 ;
-ContentResolver
-resolver
-=
+BrowserDB
+.
+updateHistoryTitle
+(
 GeckoApp
 .
 mAppContext
@@ -692,12 +693,6 @@ mAppContext
 getContentResolver
 (
 )
-;
-BrowserDB
-.
-updateHistoryTitle
-(
-resolver
 uri
 title
 )
