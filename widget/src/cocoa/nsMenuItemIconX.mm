@@ -2476,7 +2476,11 @@ bug
 }
 /
 /
+/
+/
 imgIContainerObserver
+/
+/
 NS_IMETHODIMP
 nsMenuItemIconX
 :
@@ -2500,7 +2504,11 @@ NS_OK
 }
 /
 /
+/
+/
 imgIDecoderObserver
+/
+/
 NS_IMETHODIMP
 nsMenuItemIconX
 :

@@ -1529,11 +1529,6 @@ doc
 }
 /
 /
-AquifyMenuBar
-/
-/
-/
-/
 Do
 what
 '
@@ -5324,14 +5319,6 @@ NS_OK
 /
 /
 nsIMutationObserver
-/
-/
-this
-is
-needed
-for
-menubar
-changes
 /
 /
 void
