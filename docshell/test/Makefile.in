@@ -448,6 +448,16 @@ test_bug387979
 .
 html
 \
+test_bug404548
+.
+html
+\
+bug404548
+-
+subframe
+.
+html
+\
 (
 NULL
 )
