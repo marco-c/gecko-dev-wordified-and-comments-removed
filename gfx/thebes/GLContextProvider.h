@@ -137,6 +137,12 @@ defined
 (
 MOZ_PLATFORM_MAEMO
 )
+|
+|
+defined
+(
+XP_WIN
+)
 #
 define
 GL_CONTEXT_PROVIDER_NAME
@@ -152,9 +158,14 @@ h
 undef
 GL_CONTEXT_PROVIDER_NAME
 #
+ifndef
+GL_CONTEXT_PROVIDER_DEFAULT
+#
 define
 GL_CONTEXT_PROVIDER_DEFAULT
 GLContextProviderEGL
+#
+endif
 #
 endif
 #
