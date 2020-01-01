@@ -337,6 +337,7 @@ nsGkAtoms
 :
 :
 XML
+nsnull
 }
 ;
 nsSMILTargetAttrType
