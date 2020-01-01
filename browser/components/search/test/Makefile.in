@@ -455,7 +455,15 @@ browser_addEngine
 .
 js
 \
+browser_contextmenu
+.
+js
+\
 testEngine
+.
+xml
+\
+testEngine_mozsearch
 .
 xml
 \

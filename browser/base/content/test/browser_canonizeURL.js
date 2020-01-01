@@ -286,6 +286,15 @@ getSubmission
 ex
 ample
 "
+"
+application
+/
+x
+-
+moz
+-
+keywordsearch
+"
 )
 .
 uri
