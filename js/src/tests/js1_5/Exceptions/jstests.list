@@ -69,6 +69,12 @@ regress
 273931
 .
 js
+fails
+-
+if
+(
+Android
+)
 script
 regress
 -

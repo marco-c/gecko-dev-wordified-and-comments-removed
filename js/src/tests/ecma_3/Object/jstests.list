@@ -17,6 +17,12 @@ ecma_3
 /
 Object
 /
+fails
+-
+if
+(
+Android
+)
 script
 8
 .
