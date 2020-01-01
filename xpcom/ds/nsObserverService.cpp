@@ -486,6 +486,15 @@ observerList
 return
 NS_ERROR_FAILURE
 ;
+nsCOMPtr
+<
+nsIObserver
+>
+kungFuDeathGrip
+(
+anObserver
+)
+;
 return
 observerList
 -
