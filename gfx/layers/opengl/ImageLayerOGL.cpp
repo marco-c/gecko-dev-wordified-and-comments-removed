@@ -1122,7 +1122,7 @@ gl
 >
 fActiveTexture
 (
-LOCAL_GL_TEXTURE0
+LOCAL_GL_TEXTURE2
 )
 ;
 gl
@@ -1138,7 +1138,7 @@ data
 >
 mTextures
 [
-0
+2
 ]
 .
 GetTextureID
@@ -1204,7 +1204,7 @@ gl
 >
 fActiveTexture
 (
-LOCAL_GL_TEXTURE2
+LOCAL_GL_TEXTURE0
 )
 ;
 gl
@@ -1220,7 +1220,7 @@ data
 >
 mTextures
 [
-2
+0
 ]
 .
 GetTextureID
