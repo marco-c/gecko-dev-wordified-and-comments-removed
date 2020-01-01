@@ -483,6 +483,10 @@ FloatUtils
 .
 java
 \
+GeckoActionBar
+.
+java
+\
 GeckoApp
 .
 java
