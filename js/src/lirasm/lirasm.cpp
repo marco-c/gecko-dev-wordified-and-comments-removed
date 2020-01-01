@@ -1053,7 +1053,7 @@ LirTokenStream
 &
 in
 bool
-implied
+implicitBegin
 const
 LirToken
 *
@@ -4079,7 +4079,7 @@ LirTokenStream
 &
 in
 bool
-implied
+implicitBegin
 const
 LirToken
 *
@@ -4124,7 +4124,7 @@ token
 if
 (
 !
-implied
+implicitBegin
 )
 bad
 (
@@ -4226,7 +4226,7 @@ end
 {
 if
 (
-implied
+implicitBegin
 )
 bad
 (
