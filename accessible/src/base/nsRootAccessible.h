@@ -185,15 +185,9 @@ NativeRole
 )
 ;
 virtual
-nsresult
-GetStateInternal
+PRUint64
+NativeState
 (
-PRUint32
-*
-aState
-PRUint32
-*
-aExtraState
 )
 ;
 NS_DECLARE_STATIC_IID_ACCESSOR

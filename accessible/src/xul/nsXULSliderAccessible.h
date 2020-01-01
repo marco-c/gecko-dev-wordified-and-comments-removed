@@ -78,15 +78,9 @@ NativeRole
 )
 ;
 virtual
-nsresult
-GetStateInternal
+PRUint64
+NativeState
 (
-PRUint32
-*
-aState
-PRUint32
-*
-aExtraState
 )
 ;
 virtual

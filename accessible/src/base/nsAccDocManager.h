@@ -1605,10 +1605,10 @@ GetState
 )
 =
 =
-nsIAccessibleStates
+states
 :
 :
-STATE_BUSY
+BUSY
 )
 {
 \
