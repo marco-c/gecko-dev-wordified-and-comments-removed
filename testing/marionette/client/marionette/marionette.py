@@ -3263,6 +3263,34 @@ timeout
 return
 response
     
+def
+send_mouse_event
+(
+self
+send
+)
+:
+        
+response
+=
+self
+.
+_send_message
+(
+'
+sendMouseEvent
+'
+'
+ok
+'
+value
+=
+send
+)
+        
+return
+response
+    
 property
     
 def
