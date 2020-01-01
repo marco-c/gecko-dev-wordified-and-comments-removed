@@ -765,9 +765,11 @@ width
 (
 context
 .
-screenSize
+viewport
 .
 width
+(
+)
 *
 0
 .
@@ -783,9 +785,11 @@ height
 (
 context
 .
-screenSize
+viewport
 .
 height
+(
+)
 *
 0
 .

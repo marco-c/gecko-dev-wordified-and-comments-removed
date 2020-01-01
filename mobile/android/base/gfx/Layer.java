@@ -553,11 +553,6 @@ pageRect
 ;
 public
 final
-IntSize
-screenSize
-;
-public
-final
 float
 zoomFactor
 ;
@@ -583,8 +578,6 @@ RectF
 aViewport
 RectF
 aPageRect
-IntSize
-aScreenSize
 float
 aZoomFactor
 int
@@ -602,10 +595,6 @@ aViewport
 pageRect
 =
 aPageRect
-;
-screenSize
-=
-aScreenSize
 ;
 zoomFactor
 =
