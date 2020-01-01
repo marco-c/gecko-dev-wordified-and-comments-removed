@@ -88,6 +88,10 @@ TestCheckedInt
 .
 cpp
 \
+TestEndian
+.
+cpp
+\
 TestEnumSet
 .
 cpp
