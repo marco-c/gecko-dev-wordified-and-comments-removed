@@ -599,10 +599,6 @@ test_GCrace
 .
 html
 \
-test_propertyAndMethod
-.
-html
-\
 (
 NULL
 )
