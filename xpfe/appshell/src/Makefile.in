@@ -85,6 +85,10 @@ appshell
 LIBRARY_NAME
 =
 nsappshell
+MSVC_ENABLE_PGO
+:
+=
+1
 EXPORT_LIBRARY
 =
 1

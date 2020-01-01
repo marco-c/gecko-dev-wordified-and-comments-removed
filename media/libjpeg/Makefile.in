@@ -79,6 +79,10 @@ mk
 LIBRARY_NAME
 =
 mozjpeg
+MSVC_ENABLE_PGO
+:
+=
+1
 ifeq
 (
 (

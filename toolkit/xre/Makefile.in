@@ -127,6 +127,10 @@ txt
 LIBRARY_NAME
 =
 xulapp_s
+MSVC_ENABLE_PGO
+:
+=
+1
 LIBXUL_LIBRARY
 =
 1

@@ -79,6 +79,10 @@ mk
 LIBRARY_NAME
 =
 widget_windows
+MSVC_ENABLE_PGO
+:
+=
+1
 EXPORT_LIBRARY
 =
 1

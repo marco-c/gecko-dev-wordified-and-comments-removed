@@ -115,6 +115,10 @@ endif
 STATIC_LIBRARY_NAME
 =
 js_static
+MSVC_ENABLE_PGO
+:
+=
+1
 LIBS
 =
 (

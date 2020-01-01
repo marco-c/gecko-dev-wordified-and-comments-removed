@@ -84,6 +84,10 @@ mk
 LIBRARY_NAME
 =
 uriloaderbase_s
+MSVC_ENABLE_PGO
+:
+=
+1
 LIBXUL_LIBRARY
 =
 1

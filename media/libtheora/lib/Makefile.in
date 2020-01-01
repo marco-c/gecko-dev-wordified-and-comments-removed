@@ -75,6 +75,10 @@ mk
 LIBRARY_NAME
 =
 theora
+MSVC_ENABLE_PGO
+:
+=
+1
 FORCE_STATIC_LIB
 =
 1

@@ -78,6 +78,10 @@ mk
 LIBRARY_NAME
 =
 pipboot
+MSVC_ENABLE_PGO
+:
+=
+1
 IS_COMPONENT
 =
 1

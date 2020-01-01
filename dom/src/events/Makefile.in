@@ -83,6 +83,10 @@ mk
 LIBRARY_NAME
 =
 jsdomevents_s
+MSVC_ENABLE_PGO
+:
+=
+1
 LIBXUL_LIBRARY
 =
 1

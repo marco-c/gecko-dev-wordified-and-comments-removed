@@ -78,6 +78,10 @@ mk
 LIBRARY_NAME
 =
 nestegg
+MSVC_ENABLE_PGO
+:
+=
+1
 FORCE_STATIC_LIB
 =
 1

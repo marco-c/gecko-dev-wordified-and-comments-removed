@@ -84,6 +84,10 @@ MOZ_XUL
 LIBRARY_NAME
 =
 gkconxulcon_s
+MSVC_ENABLE_PGO
+:
+=
+1
 LIBXUL_LIBRARY
 =
 1

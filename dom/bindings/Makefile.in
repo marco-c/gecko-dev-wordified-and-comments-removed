@@ -68,6 +68,10 @@ srcdir
 LIBRARY_NAME
 =
 dombindings_s
+MSVC_ENABLE_PGO
+:
+=
+1
 LIBXUL_LIBRARY
 =
 1

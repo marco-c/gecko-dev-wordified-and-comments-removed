@@ -78,6 +78,10 @@ mk
 LIBRARY_NAME
 =
 mozexpat_s
+MSVC_ENABLE_PGO
+:
+=
+1
 CSRCS
 =
 \

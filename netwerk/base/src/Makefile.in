@@ -94,6 +94,10 @@ mk
 LIBRARY_NAME
 =
 neckobase_s
+MSVC_ENABLE_PGO
+:
+=
+1
 LIBXUL_LIBRARY
 =
 1

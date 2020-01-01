@@ -122,6 +122,10 @@ mk
 LIBRARY_NAME
 =
 xpcom_core
+MSVC_ENABLE_PGO
+:
+=
+1
 LIBXUL_LIBRARY
 =
 1
