@@ -2302,14 +2302,6 @@ checked
 )
 ;
 }
-DebuggerView
-.
-Scripts
-.
-clearSearch
-(
-)
-;
 }
 empty
 :
