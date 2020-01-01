@@ -518,7 +518,7 @@ return
 a11y
 :
 :
-eHTMLCaption
+eHTMLCaptionType
 ;
 }
 return
@@ -642,7 +642,7 @@ return
 a11y
 :
 :
-eHTMLTable
+eHTMLTableType
 ;
 }
 #

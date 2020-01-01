@@ -739,14 +739,14 @@ return
 a11y
 :
 :
-eHTMLImageMap
+eHTMLImageMapType
 ;
 }
 return
 a11y
 :
 :
-eImage
+eImageType
 ;
 }
 #

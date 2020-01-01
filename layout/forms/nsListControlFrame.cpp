@@ -1070,7 +1070,7 @@ return
 a11y
 :
 :
-eHTMLSelectList
+eHTMLSelectListType
 ;
 }
 #

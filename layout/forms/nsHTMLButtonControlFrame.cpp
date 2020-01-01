@@ -348,7 +348,7 @@ return
 a11y
 :
 :
-eHTMLButton
+eHTMLButtonType
 ;
 }
 #

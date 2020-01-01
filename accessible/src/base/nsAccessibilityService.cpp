@@ -4145,7 +4145,7 @@ AccessibleType
 )
 !
 =
-eHTMLTableCell
+eHTMLTableCellType
 |
 |
 aContext
@@ -4200,7 +4200,7 @@ AccessibleType
 )
 !
 =
-eHTMLTable
+eHTMLTableType
 )
 {
 newAcc
@@ -4262,7 +4262,7 @@ AccessibleType
 )
 =
 =
-eHTMLTableRow
+eHTMLTableRowType
 )
 {
 nsRoleMapEntry
@@ -4314,7 +4314,7 @@ AccessibleType
 )
 =
 =
-eHTMLTableCell
+eHTMLTableCellType
 &
 &
 aContext
@@ -4394,7 +4394,7 @@ AccessibleType
 )
 =
 =
-eHTMLLi
+eHTMLLiType
 )
 {
 nsRoleMapEntry
@@ -6530,7 +6530,7 @@ return
 nullptr
 ;
 case
-eHTMLBR
+eHTMLBRType
 :
 newAcc
 =
@@ -6544,7 +6544,7 @@ document
 break
 ;
 case
-eHTMLButton
+eHTMLButtonType
 :
 newAcc
 =
@@ -6558,7 +6558,7 @@ document
 break
 ;
 case
-eHTMLCanvas
+eHTMLCanvasType
 :
 newAcc
 =
@@ -6572,7 +6572,7 @@ document
 break
 ;
 case
-eHTMLCaption
+eHTMLCaptionType
 :
 if
 (
@@ -6617,7 +6617,7 @@ document
 break
 ;
 case
-eHTMLCheckbox
+eHTMLCheckboxType
 :
 newAcc
 =
@@ -6631,7 +6631,7 @@ document
 break
 ;
 case
-eHTMLCombobox
+eHTMLComboboxType
 :
 newAcc
 =
@@ -6645,7 +6645,7 @@ document
 break
 ;
 case
-eHTMLFileInput
+eHTMLFileInputType
 :
 newAcc
 =
@@ -6659,7 +6659,7 @@ document
 break
 ;
 case
-eHTMLGroupbox
+eHTMLGroupboxType
 :
 newAcc
 =
@@ -6673,7 +6673,7 @@ document
 break
 ;
 case
-eHTMLHR
+eHTMLHRType
 :
 newAcc
 =
@@ -6687,7 +6687,7 @@ document
 break
 ;
 case
-eHTMLImageMap
+eHTMLImageMapType
 :
 newAcc
 =
@@ -6701,7 +6701,7 @@ document
 break
 ;
 case
-eHTMLLabel
+eHTMLLabelType
 :
 newAcc
 =
@@ -6715,7 +6715,7 @@ document
 break
 ;
 case
-eHTMLLi
+eHTMLLiType
 :
 if
 (
@@ -6760,7 +6760,7 @@ document
 break
 ;
 case
-eHTMLSelectList
+eHTMLSelectListType
 :
 newAcc
 =
@@ -6774,7 +6774,7 @@ document
 break
 ;
 case
-eHTMLMedia
+eHTMLMediaType
 :
 newAcc
 =
@@ -6792,7 +6792,7 @@ GROUPING
 break
 ;
 case
-eHTMLRadioButton
+eHTMLRadioButtonType
 :
 newAcc
 =
@@ -6806,7 +6806,7 @@ document
 break
 ;
 case
-eHTMLTable
+eHTMLTableType
 :
 newAcc
 =
@@ -6820,7 +6820,7 @@ document
 break
 ;
 case
-eHTMLTableCell
+eHTMLTableCellType
 :
 if
 (
@@ -6847,7 +6847,7 @@ document
 break
 ;
 case
-eHTMLTableRow
+eHTMLTableRowType
 :
 {
 if
@@ -6963,7 +6963,7 @@ break
 ;
 }
 case
-eHTMLTextField
+eHTMLTextFieldType
 :
 newAcc
 =
@@ -6977,7 +6977,7 @@ document
 break
 ;
 case
-eHyperText
+eHyperTextType
 :
 if
 (
@@ -7020,7 +7020,7 @@ document
 break
 ;
 case
-eImage
+eImageType
 :
 newAcc
 =
@@ -7034,7 +7034,7 @@ document
 break
 ;
 case
-eOuterDoc
+eOuterDocType
 :
 newAcc
 =
@@ -7073,7 +7073,7 @@ break
 ;
 }
 case
-eTextLeaf
+eTextLeafType
 :
 newAcc
 =

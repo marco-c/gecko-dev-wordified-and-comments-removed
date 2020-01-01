@@ -4506,7 +4506,7 @@ return
 a11y
 :
 :
-eHTMLTableCell
+eHTMLTableCellType
 ;
 }
 #

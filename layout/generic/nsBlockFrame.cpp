@@ -29095,7 +29095,7 @@ return
 a11y
 :
 :
-eHTMLHR
+eHTMLHRType
 ;
 }
 if
@@ -29189,14 +29189,14 @@ return
 a11y
 :
 :
-eHyperText
+eHyperTextType
 ;
 }
 return
 a11y
 :
 :
-eHTMLLi
+eHTMLLiType
 ;
 }
 #

@@ -458,7 +458,7 @@ return
 a11y
 :
 :
-eOuterDoc
+eOuterDocType
 ;
 }
 #

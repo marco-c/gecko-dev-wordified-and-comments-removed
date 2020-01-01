@@ -3755,7 +3755,7 @@ return
 a11y
 :
 :
-eHyperText
+eHyperTextType
 ;
 }
 #
