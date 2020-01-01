@@ -10940,6 +10940,9 @@ OptionsProperties
 "
 strict
 "
+(
+int8
+)
 JSOPTION_STRICT
 JSPROP_ENUMERATE
 |
@@ -10949,6 +10952,9 @@ JSPROP_PERMANENT
 "
 werror
 "
+(
+int8
+)
 JSOPTION_WERROR
 JSPROP_ENUMERATE
 |
@@ -10958,6 +10964,9 @@ JSPROP_PERMANENT
 "
 relimit
 "
+(
+int8
+)
 JSOPTION_RELIMIT
 JSPROP_ENUMERATE
 |
