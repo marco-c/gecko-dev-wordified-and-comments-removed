@@ -1965,6 +1965,17 @@ UPDATE_WHEN_USER_REQUESTED
 }
 )
 ;
+if
+(
+pendingChecks
+=
+=
+0
+)
+updateStatus
+(
+)
+;
 }
 )
 ;
