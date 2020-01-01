@@ -389,6 +389,11 @@ TestTextFormatter
 .
 cpp
 '
+'
+TestThreadUtils
+.
+cpp
+'
 ]
 if
 CONFIG
