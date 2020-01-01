@@ -1572,6 +1572,9 @@ PRPackedBool
 mAllowKeywordFixup
 ;
 PRPackedBool
+mIsOffScreenBrowser
+;
+PRPackedBool
 mFiredUnloadEvent
 ;
 PRPackedBool
