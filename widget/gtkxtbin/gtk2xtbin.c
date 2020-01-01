@@ -1822,6 +1822,10 @@ num_widgets
 int
 cnumber
 ;
+GSource
+*
+gs
+;
 if
 (
 !
@@ -1836,8 +1840,6 @@ xt_client_get_display
 )
 ;
 }
-GSource
-*
 gs
 =
 g_source_new
