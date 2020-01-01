@@ -813,7 +813,7 @@ remoteDir
 )
       
 return
-True
+remoteDir
     
 except
 :
@@ -836,7 +836,7 @@ failed
 "
       
 return
-False
+None
   
 def
 dirExists
