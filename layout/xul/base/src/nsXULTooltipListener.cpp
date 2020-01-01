@@ -1372,6 +1372,12 @@ if
 (
 !
 mCurrentTooltip
+|
+|
+mSourceNode
+=
+=
+mCurrentTooltip
 )
 return
 NS_ERROR_FAILURE
