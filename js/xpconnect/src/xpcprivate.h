@@ -13909,6 +13909,12 @@ obj
 bool
 XMLHttpRequest
 ;
+bool
+TextDecoder
+;
+bool
+TextEncoder
+;
 }
 ;
 SandboxOptions
