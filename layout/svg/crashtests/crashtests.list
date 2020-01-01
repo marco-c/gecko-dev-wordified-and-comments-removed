@@ -286,12 +286,6 @@ load
 1
 .
 xhtml
-#
-asserts
-(
-bug
-385554
-)
 load
 386566
 -
