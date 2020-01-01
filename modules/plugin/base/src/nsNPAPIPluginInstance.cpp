@@ -4992,11 +4992,6 @@ NPPrint
 )
 platformPrint
 ;
-if
-(
-mCallbacks
-)
-{
 PRUint16
 sdkmajorversion
 =
@@ -5098,9 +5093,9 @@ source
 ;
 }
 else
-NS_ASSERTION
+{
+NS_ERROR
 (
-PR_FALSE
 "
 Incompatible
 OS

@@ -32,13 +32,6 @@ gfxPlatformMac
 h
 "
 #
-include
-"
-gfxQuartzFontCache
-.
-h
-"
-#
 elif
 defined
 (
@@ -92,6 +85,13 @@ h
 "
 #
 endif
+#
+include
+"
+gfxPlatformFontList
+.
+h
+"
 #
 include
 "
@@ -686,7 +686,7 @@ XP_MACOSX
 )
 rv
 =
-gfxQuartzFontCache
+gfxPlatformFontList
 :
 :
 Init
@@ -707,7 +707,7 @@ NS_ERROR
 Could
 not
 initialize
-gfxQuartzFontCache
+gfxPlatformFontList
 "
 )
 ;
@@ -907,7 +907,7 @@ defined
 (
 XP_MACOSX
 )
-gfxQuartzFontCache
+gfxPlatformFontList
 :
 :
 Shutdown
