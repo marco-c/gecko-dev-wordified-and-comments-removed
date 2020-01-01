@@ -662,6 +662,17 @@ historyframes
 .
 html
 \
+test_bug660404
+.
+html
+\
+file_bug660404
+\
+file_bug660404
+^
+headers
+^
+\
 (
 NULL
 )
