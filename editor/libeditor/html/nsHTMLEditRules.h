@@ -1937,7 +1937,7 @@ ReapplyCachedStyles
 (
 )
 ;
-nsresult
+void
 ClearCachedStyles
 (
 )
