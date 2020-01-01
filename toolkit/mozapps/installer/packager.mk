@@ -649,7 +649,7 @@ DIST
 /
 bin
 /
-mozglue
+mozutils
 (
 DLL_SUFFIX
 )
@@ -2403,7 +2403,7 @@ ABI_DIR
 &
 \
 mv
-libmozglue
+libmozutils
 .
 so
 (
@@ -2672,7 +2672,7 @@ lib
 ABI_DIR
 )
 /
-libmozglue
+libmozutils
 .
 so
 .

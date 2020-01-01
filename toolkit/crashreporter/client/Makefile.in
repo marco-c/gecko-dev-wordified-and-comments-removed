@@ -501,11 +501,11 @@ link
 the
 updater
 against
-libmozglue
+libmozutils
 .
-MOZ_GLUE_LDFLAGS
+MOZ_UTILS_LDFLAGS
 =
-MOZ_GLUE_PROGRAM_LDFLAGS
+MOZ_UTILS_PROGRAM_LDFLAGS
 =
 endif
 LOCAL_INCLUDES

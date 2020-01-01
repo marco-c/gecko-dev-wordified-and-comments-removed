@@ -229,7 +229,7 @@ DLL_SUFFIX
 BINPATH
 /
 DLL_PREFIX
-mozglue
+mozutils
 DLL_SUFFIX
 #
 ifdef

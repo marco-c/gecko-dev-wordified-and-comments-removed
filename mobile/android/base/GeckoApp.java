@@ -8660,7 +8660,7 @@ System
 loadLibrary
 (
 "
-mozglue
+mozutils
 "
 )
 ;

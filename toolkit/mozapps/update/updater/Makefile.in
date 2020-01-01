@@ -464,14 +464,14 @@ link
 the
 updater
 against
-libmozglue
+libmozutils
 .
 See
 bug
 687139
-MOZ_GLUE_LDFLAGS
+MOZ_UTILS_LDFLAGS
 =
-MOZ_GLUE_PROGRAM_LDFLAGS
+MOZ_UTILS_PROGRAM_LDFLAGS
 =
 LOCAL_INCLUDES
 +

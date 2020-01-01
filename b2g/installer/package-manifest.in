@@ -391,7 +391,7 @@ dex
 BINPATH
 /
 DLL_PREFIX
-mozglue
+mozutils
 DLL_SUFFIX
 BINPATH
 /
