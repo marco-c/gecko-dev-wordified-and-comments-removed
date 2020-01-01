@@ -15813,6 +15813,13 @@ cleartype_params
 force_gdi_classic_for_families
 "
 "
+Arial
+Courier
+New
+Tahoma
+Trebuchet
+MS
+Verdana
 "
 )
 ;
@@ -15827,7 +15834,7 @@ cleartype_params
 .
 force_gdi_classic_max_size
 "
-0
+15
 )
 ;
 pref
