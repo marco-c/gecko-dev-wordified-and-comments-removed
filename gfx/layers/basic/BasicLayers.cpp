@@ -2332,11 +2332,6 @@ PR_TRUE
 float
 paintXRes
 =
-gfxUtils
-:
-:
-ClampToScaleFactor
-(
 BasicManager
 (
 )
@@ -2346,6 +2341,11 @@ XResolution
 (
 )
 *
+gfxUtils
+:
+:
+ClampToScaleFactor
+(
 scale
 .
 width
@@ -2354,11 +2354,6 @@ width
 float
 paintYRes
 =
-gfxUtils
-:
-:
-ClampToScaleFactor
-(
 BasicManager
 (
 )
@@ -2368,6 +2363,11 @@ YResolution
 (
 )
 *
+gfxUtils
+:
+:
+ClampToScaleFactor
+(
 scale
 .
 height
