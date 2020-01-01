@@ -54179,12 +54179,10 @@ return
 lir
 -
 >
-insLoad
+ins1
 (
-LIR_ldd
-vaddr_ins
-offset
-accSet
+LIR_qasd
+v_ins
 )
 ;
 }
