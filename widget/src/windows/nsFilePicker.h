@@ -294,9 +294,6 @@ AutoRestoreWorkingPath
 ;
 inline
 bool
-AutoRestoreWorkingPath
-:
-:
 HasWorkingPath
 (
 )
