@@ -22327,6 +22327,8 @@ IgnoringViewportScrolling
 (
 )
 ;
+mRenderFlags
+=
 ChangeFlag
 (
 mRenderFlags
