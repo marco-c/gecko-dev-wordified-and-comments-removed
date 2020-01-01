@@ -2157,7 +2157,7 @@ JSObject
 obj
 ParseContext
 *
-pc
+outerpc
 StrictMode
 :
 :
@@ -2172,7 +2172,7 @@ obj
 )
 siblings
 (
-pc
+outerpc
 -
 >
 functionList
@@ -2183,7 +2183,7 @@ NULL
 )
 parent
 (
-pc
+outerpc
 -
 >
 sc
@@ -2193,7 +2193,7 @@ inFunction
 (
 )
 ?
-pc
+outerpc
 -
 >
 sc
@@ -2228,7 +2228,7 @@ inWith
 (
 !
 !
-pc
+outerpc
 -
 >
 innermostWith
@@ -2239,7 +2239,7 @@ false
 )
 cxFlags
 (
-pc
+outerpc
 -
 >
 sc
@@ -2255,7 +2255,7 @@ true
 if
 (
 !
-pc
+outerpc
 -
 >
 sc
@@ -2270,7 +2270,7 @@ JSObject
 *
 scope
 =
-pc
+outerpc
 -
 >
 sc
@@ -2322,7 +2322,7 @@ JSObject
 obj
 ParseContext
 *
-pc
+outerpc
 StrictMode
 :
 :
@@ -2370,7 +2370,7 @@ FunctionBox
 (
 traceListHead
 obj
-pc
+outerpc
 sms
 )
 ;
@@ -2391,7 +2391,7 @@ NULL
 }
 traceListHead
 =
-pc
+outerpc
 -
 >
 functionList
