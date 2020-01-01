@@ -320,7 +320,6 @@ expect
 TypeError
 :
 property
-'
 Array
 .
 prototype
@@ -331,13 +330,14 @@ call
 (
 value
 )
-'
 is
 non
 -
 configurable
 and
-cannot
+can
+'
+t
 be
 deleted
 "

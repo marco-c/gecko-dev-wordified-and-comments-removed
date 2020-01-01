@@ -2946,6 +2946,9 @@ jsrefcount
 changes
 ;
 jsrefcount
+changePuts
+;
+jsrefcount
 changeFails
 ;
 jsrefcount
