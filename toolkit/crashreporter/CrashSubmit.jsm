@@ -1508,8 +1508,11 @@ this
 ;
 xhr
 .
-onreadystatechange
-=
+addEventListener
+(
+"
+readystatechange
+"
 function
 (
 aEvt
@@ -1571,6 +1574,8 @@ ret
 }
 }
 }
+false
+)
 ;
 xhr
 .
