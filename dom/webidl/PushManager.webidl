@@ -111,6 +111,15 @@ PushManager
 ;
 1
 "
+Pref
+=
+"
+services
+.
+push
+.
+enabled
+"
 ]
 interface
 PushManager
