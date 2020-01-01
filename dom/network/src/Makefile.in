@@ -235,6 +235,10 @@ MobileConnection
 .
 cpp
 \
+CFStateChangeEvent
+.
+cpp
+\
 (
 NULL
 )

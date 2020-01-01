@@ -804,6 +804,10 @@ USSDReceivedEvent
 .
 webidl
 \
+CFStateChangeEvent
+.
+webidl
+\
 (
 NULL
 )
