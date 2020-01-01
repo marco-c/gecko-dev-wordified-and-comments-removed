@@ -1785,13 +1785,6 @@ nsIntPoint
 aDestTopLeft
 )
 {
-gfxIntSize
-size
-=
-GetSize
-(
-)
-;
 nsIntRect
 dest
 (
