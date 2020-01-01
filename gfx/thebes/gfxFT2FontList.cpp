@@ -534,7 +534,6 @@ cairo_font_options_create
 ;
 if
 (
-!
 gfxPlatform
 :
 :
@@ -543,7 +542,7 @@ GetPlatform
 )
 -
 >
-FontHintingEnabled
+RequiresLinearZoom
 (
 )
 )
