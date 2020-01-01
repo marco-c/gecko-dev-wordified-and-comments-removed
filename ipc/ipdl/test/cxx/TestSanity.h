@@ -82,6 +82,10 @@ const
 float
 &
 zeroPtTwoFive
+const
+uint8_t
+&
+dummy
 )
 ;
 NS_OVERRIDE
@@ -156,6 +160,10 @@ const
 float
 &
 zeroPtFive
+const
+int8_t
+&
+dummy
 )
 ;
 NS_OVERRIDE

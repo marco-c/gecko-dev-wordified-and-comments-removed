@@ -15,6 +15,8 @@ int
 zero
 float
 zeroPtFive
+int8_t
+dummy
 )
 ;
 __delete__
@@ -29,6 +31,8 @@ int
 one
 float
 zeroPtTwoFive
+uint8_t
+dummy
 )
 ;
 state
