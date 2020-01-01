@@ -483,6 +483,10 @@ test_bug24958
 .
 html
 \
+test_bug41464
+.
+html
+\
 bug100533_load
 .
 html

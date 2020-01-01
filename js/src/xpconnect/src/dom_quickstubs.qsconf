@@ -2258,6 +2258,11 @@ nsIDOMNSHTMLTextAreaElement
 .
 textLength
 '
+'
+nsIDOMNSHTMLTextAreaElement
+.
+wrap
+'
 #
 dom
 /
