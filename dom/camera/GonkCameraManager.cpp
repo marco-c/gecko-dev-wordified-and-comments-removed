@@ -337,9 +337,6 @@ list
 "
 )
 ;
-delete
-a
-;
 return
 NS_ERROR_NOT_AVAILABLE
 ;
@@ -376,9 +373,6 @@ of
 cameras
 "
 )
-;
-delete
-a
 ;
 return
 NS_ERROR_NOT_AVAILABLE
