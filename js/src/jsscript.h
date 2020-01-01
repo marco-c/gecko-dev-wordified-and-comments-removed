@@ -1504,6 +1504,8 @@ Create
 JSContext
 *
 cx
+bool
+noScriptRval
 )
 ;
 bool

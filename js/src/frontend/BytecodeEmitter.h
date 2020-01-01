@@ -421,12 +421,6 @@ typesetCount
 ;
 const
 bool
-noScriptRval
-:
-1
-;
-const
-bool
 needScriptGlobal
 :
 1
@@ -457,8 +451,6 @@ JSScript
 script
 unsigned
 lineno
-bool
-noScriptRval
 bool
 needScriptGlobal
 )

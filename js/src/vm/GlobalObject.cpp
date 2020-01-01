@@ -438,6 +438,7 @@ JSScript
 Create
 (
 cx
+true
 )
 ;
 if
