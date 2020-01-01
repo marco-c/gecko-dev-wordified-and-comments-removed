@@ -3006,7 +3006,7 @@ fun
 )
 {
 return
-IsBuiltinEvalFunction
+IsAnyBuiltinEval
 (
 fun
 )

@@ -3041,9 +3041,6 @@ DirectEval
 JSContext
 *
 cx
-JSFunction
-*
-evalfun
 uint32
 argc
 Value
