@@ -182,14 +182,6 @@ RootAccessible
 )
 const
 ;
-already_AddRefed
-<
-nsINode
->
-GetCurrentFocus
-(
-)
-;
 virtual
 bool
 Init
