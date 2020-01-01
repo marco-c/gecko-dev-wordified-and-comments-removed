@@ -5781,10 +5781,6 @@ context
 *
 outContext
 =
-(
-JSContext
-*
-)
 context
 -
 >
