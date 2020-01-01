@@ -5900,6 +5900,11 @@ return
 false
 ;
 }
+UpdatePaintClipRect
+(
+pRect
+)
+;
 :
 :
 FillRect
@@ -5917,11 +5922,6 @@ GetStockObject
 (
 WHITE_BRUSH
 )
-)
-;
-UpdatePaintClipRect
-(
-pRect
 )
 ;
 evcopy
@@ -6083,6 +6083,11 @@ break
 case
 RENDER_BACK_TWO
 :
+UpdatePaintClipRect
+(
+pRect
+)
+;
 :
 :
 BitBlt
