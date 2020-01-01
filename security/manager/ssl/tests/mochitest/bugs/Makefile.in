@@ -98,14 +98,6 @@ test_bug484111
 .
 html
 \
-test_ev_validation
-.
-html
-\
-test_ev_validation_child
-.
-html
-\
 (
 NULL
 )
