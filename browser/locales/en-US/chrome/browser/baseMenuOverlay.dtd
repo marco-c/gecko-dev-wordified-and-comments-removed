@@ -339,16 +339,6 @@ Updates
 <
 !
 ENTITY
-updateCmd
-.
-accesskey
-"
-o
-"
->
-<
-!
-ENTITY
 preferencesCmdMac
 .
 label
