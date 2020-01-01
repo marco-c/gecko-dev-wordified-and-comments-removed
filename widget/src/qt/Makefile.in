@@ -575,6 +575,10 @@ nsClipboard
 .
 cpp
 \
+nsBidiKeyboard
+.
+cpp
+\
 mozqwidget
 .
 cpp
