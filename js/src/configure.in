@@ -6093,6 +6093,10 @@ AC_DEFINE
 (
 JS_HAVE___INTN
 )
+AC_DEFINE
+(
+HAVE_LOCALECONV
+)
 case
 "
 target
