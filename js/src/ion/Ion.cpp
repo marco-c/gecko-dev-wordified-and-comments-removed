@@ -1284,6 +1284,10 @@ runtime
 >
 ionJSContext
 )
+prevpc_
+(
+NULL
+)
 {
 if
 (
