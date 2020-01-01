@@ -13991,13 +13991,6 @@ debugHooks
 -
 >
 objectHook
-&
-&
-!
-JS_ON_TRACE
-(
-cx
-)
 )
 {
 JS_KEEP_ATOMS
