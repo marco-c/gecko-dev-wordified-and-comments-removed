@@ -440,6 +440,15 @@ index
 )
 ;
 void
+jsop_binary
+(
+JSOp
+op
+VoidStub
+stub
+)
+;
+void
 emitReturn
 (
 )
