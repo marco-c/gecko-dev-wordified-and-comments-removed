@@ -7,7 +7,7 @@ base
 import
 BaseBootstrapper
 class
-UbuntuBootstrapper
+MintBootstrapper
 (
 BaseBootstrapper
 )
