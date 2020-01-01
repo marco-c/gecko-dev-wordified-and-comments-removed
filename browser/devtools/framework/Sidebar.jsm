@@ -263,6 +263,17 @@ appendItem
 (
 )
 ;
+tab
+.
+setAttribute
+(
+"
+label
+"
+"
+"
+)
+;
 let
 onIFrameLoaded
 =
