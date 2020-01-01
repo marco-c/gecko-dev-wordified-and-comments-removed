@@ -856,6 +856,16 @@ size_t
 aSize
 )
 ;
+void
+StartBackgroundImageLoads
+(
+)
+{
+GetStyleBackground
+(
+)
+;
+}
 #
 ifdef
 DEBUG
