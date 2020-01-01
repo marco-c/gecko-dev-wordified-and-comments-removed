@@ -40,6 +40,9 @@ __init__
 self
 value
 cache
+content_printer
+=
+None
 )
 :
         
@@ -48,6 +51,18 @@ self
 value
 =
 value
+        
+self
+.
+cache
+=
+cache
+        
+self
+.
+content_printer
+=
+content_printer
     
 def
 to_string
@@ -81,6 +96,30 @@ dereference
 (
 )
         
+if
+self
+.
+content_printer
+:
+            
+return
+self
+.
+content_printer
+(
+ptr
+self
+.
+cache
+)
+.
+to_string
+(
+)
+        
+else
+:
+            
 return
 str
 (
