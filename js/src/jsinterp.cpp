@@ -13758,11 +13758,13 @@ tr
 JSMonitorRecordingStatus
 status
 =
-tr
--
->
+TraceRecorder
+:
+:
 monitorRecording
 (
+cx
+tr
 op
 )
 ;
