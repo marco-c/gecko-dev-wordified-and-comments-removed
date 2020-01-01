@@ -1122,14 +1122,6 @@ process_handle
 )
 ;
 }
-void
-SetCurrentProcessPrivileges
-(
-ChildPrivileges
-privs
-)
-{
-}
 NamedProcessIterator
 :
 :
