@@ -307,6 +307,16 @@ serialno
 "
 )
 ;
+memset
+(
+address
+0
+sizeof
+(
+address
+)
+)
+;
 address
 [
 0
