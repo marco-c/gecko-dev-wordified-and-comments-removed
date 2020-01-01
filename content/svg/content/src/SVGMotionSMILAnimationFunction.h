@@ -186,15 +186,6 @@ nsIAtom
 aAttribute
 )
 ;
-nsresult
-SetPathVerticesFromPathString
-(
-const
-nsAString
-&
-aPathSpec
-)
-;
 void
 RebuildPathAndVertices
 (
