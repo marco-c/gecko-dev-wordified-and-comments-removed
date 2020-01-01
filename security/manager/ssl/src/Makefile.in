@@ -400,6 +400,10 @@ ScopedNSSTypes
 .
 h
 \
+nsRandomGenerator
+.
+h
+\
 (
 NULL
 )
