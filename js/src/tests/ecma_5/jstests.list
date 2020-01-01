@@ -17,6 +17,12 @@ jstests
 .
 list
 include
+JSON
+/
+jstests
+.
+list
+include
 Object
 /
 jstests
