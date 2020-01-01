@@ -486,6 +486,13 @@ BasicLayers
 .
 h
 "
+#
+include
+"
+ClientLayerManager
+.
+h
+"
 extern
 "
 C
@@ -603,6 +610,13 @@ mozilla
 :
 :
 widget
+;
+using
+namespace
+mozilla
+:
+:
+layers
 ;
 using
 mozilla
