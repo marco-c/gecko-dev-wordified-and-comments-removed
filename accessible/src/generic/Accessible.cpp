@@ -613,7 +613,8 @@ nsXPCOMCycleCollectionParticipant
 *
 aInstancePtr
 =
-NS_CYCLE_COLLECTION_PARTICIPANT
+&
+NS_CYCLE_COLLECTION_NAME
 (
 Accessible
 )

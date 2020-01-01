@@ -44,14 +44,8 @@ nsXPCWrappedJS
 )
 :
 :
-TraverseImpl
+Traverse
 (
-NS_CYCLE_COLLECTION_CLASSNAME
-(
-nsXPCWrappedJS
-)
-*
-that
 void
 *
 p
@@ -457,7 +451,8 @@ nsXPCOMCycleCollectionParticipant
 *
 aInstancePtr
 =
-NS_CYCLE_COLLECTION_PARTICIPANT
+&
+NS_CYCLE_COLLECTION_NAME
 (
 nsXPCWrappedJS
 )
