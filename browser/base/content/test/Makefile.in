@@ -1323,6 +1323,14 @@ feed_tab
 .
 html
 \
+browser_pluginCrashCommentAndURL
+.
+js
+\
+pluginCrashCommentAndURL
+.
+html
+\
 (
 NULL
 )

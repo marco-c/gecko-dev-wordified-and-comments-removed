@@ -1175,7 +1175,7 @@ type
 )
 ;
 let
-pleaseLink
+submitButton
 =
 document
 .
@@ -1188,7 +1188,7 @@ target
 class
 "
 "
-pleaseSubmitLink
+submitButton
 "
 )
 ;
@@ -1208,7 +1208,7 @@ type
 click
 '
 }
-pleaseLink
+submitButton
 window
 )
 ;
