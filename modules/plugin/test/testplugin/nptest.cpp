@@ -151,9 +151,13 @@ a
 ]
 )
 )
-static
+int
+gCrashCount
+=
+0
+;
 void
-Crash
+IntentionalCrash
 (
 )
 {
@@ -302,6 +306,10 @@ NULL
 funcptr
 (
 )
+;
++
++
+gCrashCount
 ;
 }
 static
@@ -4127,7 +4135,7 @@ newcrash
 0
 )
 {
-Crash
+IntentionalCrash
 (
 )
 ;
@@ -4555,7 +4563,7 @@ instanceData
 >
 crashOnDestroy
 )
-Crash
+IntentionalCrash
 (
 )
 ;
@@ -11707,7 +11715,7 @@ NPVariant
 result
 )
 {
-Crash
+IntentionalCrash
 (
 )
 ;
