@@ -3923,8 +3923,7 @@ JSContext
 cx
 )
 ;
-extern
-JSBool
+void
 js_ReportGetterOnlyAssignment
 (
 JSContext
