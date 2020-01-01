@@ -1090,6 +1090,13 @@ nsIPresShell
 :
 :
 gCaptureInfo
+=
+{
+PR_FALSE
+PR_FALSE
+PR_FALSE
+nsnull
+}
 ;
 nsIContent
 *
