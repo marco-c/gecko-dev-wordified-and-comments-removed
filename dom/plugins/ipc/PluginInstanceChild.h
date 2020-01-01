@@ -117,6 +117,16 @@ timer
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+plugins
+:
+:
+PluginUtilsOSX
+;
 #
 endif
 #
@@ -1991,9 +2001,6 @@ mBackSurface
 #
 ifdef
 XP_MACOSX
-PluginUtilsOSX
-:
-:
 nsDoubleBufferCARenderer
 mDoubleBufferCARenderer
 ;

@@ -64,6 +64,10 @@ while
 )
 #
 endif
+using
+namespace
+android
+;
 namespace
 android
 {

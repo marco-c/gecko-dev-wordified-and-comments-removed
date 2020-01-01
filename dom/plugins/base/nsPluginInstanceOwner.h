@@ -854,12 +854,6 @@ aBuilder
 ;
 already_AddRefed
 <
-mozilla
-:
-:
-layers
-:
-:
 ImageContainer
 >
 GetImageContainer
@@ -925,12 +919,6 @@ aVideos
 ;
 already_AddRefed
 <
-mozilla
-:
-:
-layers
-:
-:
 ImageContainer
 >
 GetImageContainerForVideo

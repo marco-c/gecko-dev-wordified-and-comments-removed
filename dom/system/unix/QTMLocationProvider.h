@@ -30,6 +30,10 @@ nsCOMPtr
 .
 h
 "
+using
+namespace
+QtMobility
+;
 class
 QTMLocationProvider
 :
