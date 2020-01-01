@@ -896,7 +896,7 @@ property
 name
 =
 "
-contextNoun
+contextSetName
 "
 readonly
 =
@@ -912,7 +912,9 @@ this
 getAttribute
 (
 '
-noun
+set
+-
+name
 '
 )
 ;
