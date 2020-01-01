@@ -11689,7 +11689,10 @@ aReturn
 )
 {
 return
-GetElementsByClassNameHelper
+nsContentUtils
+:
+:
+GetElementsByClassName
 (
 this
 aClasses
