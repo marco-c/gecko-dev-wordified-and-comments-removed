@@ -165,6 +165,10 @@ mLastUsedSelection
 =
 nsnull
 ;
+mRootAccessible
+=
+nsnull
+;
 }
 nsresult
 nsCaretAccessible
@@ -623,6 +627,12 @@ PRInt16
 aReason
 )
 {
+NS_ENSURE_TRUE
+(
+mRootAccessible
+NS_ERROR_FAILURE
+)
+;
 mLastUsedSelection
 =
 do_GetWeakReference

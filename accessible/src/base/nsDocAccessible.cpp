@@ -2278,6 +2278,13 @@ Destroy
 (
 )
 {
+nsresult
+rv
+=
+Shutdown
+(
+)
+;
 if
 (
 mWeakShell
@@ -2299,9 +2306,7 @@ mWeakShell
 ;
 }
 return
-Shutdown
-(
-)
+rv
 ;
 }
 NS_IMETHODIMP

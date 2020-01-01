@@ -1377,6 +1377,13 @@ PR_TRUE
 )
 ;
 }
+nsDocAccessible
+:
+:
+RemoveEventListeners
+(
+)
+;
 if
 (
 mCaretAccessible
@@ -1395,12 +1402,7 @@ nsnull
 ;
 }
 return
-nsDocAccessible
-:
-:
-RemoveEventListeners
-(
-)
+NS_OK
 ;
 }
 nsCaretAccessible
