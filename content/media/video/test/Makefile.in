@@ -452,6 +452,10 @@ test_bug461281
 .
 html
 \
+test_bug463162
+.
+xhtml
+\
 test_constants
 .
 html
@@ -473,6 +477,10 @@ test_ended1
 html
 \
 test_ended2
+.
+html
+\
+test_media_selection
 .
 html
 \
