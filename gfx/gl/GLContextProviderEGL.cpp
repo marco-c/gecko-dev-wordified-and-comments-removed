@@ -2430,6 +2430,7 @@ TextureImage
 :
 NoFlags
 )
+MOZ_OVERRIDE
 ;
 void
 HoldSurface
