@@ -109,7 +109,7 @@ define
 INT16_MIN
 (
 -
-INT16_MIN
+INT16_MAX
 -
 1
 )
