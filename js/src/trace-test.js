@@ -10676,7 +10676,7 @@ recorderAborted
 2
 traceTriggered
 :
-9
+11
 }
 ;
 test
@@ -16103,7 +16103,7 @@ n
 ;
 n
 <
-2
+4
 ;
 n
 +
@@ -16137,7 +16137,7 @@ testThinLoopDemote
 .
 expected
 =
-100
+10000
 ;
 testThinLoopDemote
 .
@@ -16155,7 +16155,7 @@ traceCompleted
 2
 traceTriggered
 :
-1
+3
 unstableLoopVariable
 :
 1
@@ -16514,7 +16514,7 @@ unstableLoopVariable
 3
 noCompatInnerTrees
 :
-0
+1
 }
 ;
 test
@@ -27917,7 +27917,7 @@ jitstats
 {
 sideExitIntoInterpreter
 :
-2
+3
 }
 ;
 test

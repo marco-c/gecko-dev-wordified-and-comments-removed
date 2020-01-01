@@ -6218,3 +6218,17 @@ NULL
 0
 JOF_BYTE
 )
+OPDEF
+(
+JSOP_LOOP
+232
+"
+loop
+"
+NULL
+1
+0
+0
+0
+JOF_BYTE
+)
