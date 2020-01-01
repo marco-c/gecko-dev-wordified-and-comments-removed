@@ -2692,6 +2692,10 @@ if
 ferror
 (
 infile
+.
+get
+(
+)
 )
 )
 {
