@@ -2765,6 +2765,12 @@ notificationHandler
 (
 )
 {
+Browser
+.
+forceChromeReflow
+(
+)
+;
 bv
 .
 onAfterVisibleMove
