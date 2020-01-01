@@ -327,10 +327,8 @@ GetAllowsAnonChildAccessibles
 ;
 protected
 :
-already_AddRefed
-<
 nsAccessible
->
+*
 GetListAccessible
 (
 )

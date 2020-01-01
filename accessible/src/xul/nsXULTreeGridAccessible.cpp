@@ -3833,10 +3833,8 @@ columnElm
 )
 )
 ;
-nsRefPtr
-<
 nsAccessible
->
+*
 headerCell
 =
 GetAccService
@@ -3866,10 +3864,6 @@ nsIAccessible
 >
 (
 headerCell
-.
-get
-(
-)
 )
 PR_FALSE
 )

@@ -598,10 +598,8 @@ CacheChildren
 (
 )
 ;
-already_AddRefed
-<
 nsAccessible
->
+*
 GetFocusedOptionAccessible
 (
 )

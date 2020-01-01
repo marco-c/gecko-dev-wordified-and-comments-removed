@@ -12872,10 +12872,8 @@ return
 child
 ;
 }
-already_AddRefed
-<
 nsAccessible
->
+*
 nsAccessible
 :
 :
@@ -12885,6 +12883,7 @@ nsIDOMNode
 *
 aStartNode
 )
+const
 {
 nsCOMPtr
 <
@@ -12906,10 +12905,8 @@ while
 currentNode
 )
 {
-nsRefPtr
-<
 nsAccessible
->
+*
 accessible
 =
 GetAccService
@@ -12929,10 +12926,6 @@ accessible
 )
 return
 accessible
-.
-forget
-(
-)
 ;
 if
 (

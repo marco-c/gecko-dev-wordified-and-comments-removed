@@ -182,13 +182,12 @@ aExtraState
 ;
 protected
 :
-already_AddRefed
-<
 nsAccessible
->
+*
 GetActionAccessible
 (
 )
+const
 ;
 virtual
 void

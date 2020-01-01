@@ -516,10 +516,8 @@ if
 docNode
 )
 {
-nsRefPtr
-<
 nsAccessible
->
+*
 accessible
 =
 GetAccService
@@ -1924,12 +1922,7 @@ if
 !
 accessNode
 )
-{
-nsRefPtr
-<
-nsAccessible
->
-accessible
+accessNode
 =
 GetAccService
 (
@@ -1942,11 +1935,6 @@ aNode
 mWeakShell
 )
 ;
-accessNode
-=
-accessible
-;
-}
 if
 (
 accessNode
