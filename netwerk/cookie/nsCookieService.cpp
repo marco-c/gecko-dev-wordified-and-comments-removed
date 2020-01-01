@@ -2220,7 +2220,7 @@ BEHAVIOR_ACCEPT
 )
 mThirdPartySession
 (
-PR_TRUE
+PR_FALSE
 )
 mMaxNumberOfCookies
 (
