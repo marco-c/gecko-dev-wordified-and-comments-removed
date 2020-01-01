@@ -440,6 +440,16 @@ DescribeCustomObjects
 "
 :
 true
+"
+mozilla
+:
+:
+CycleCollectedJSRuntime
+.
+NoteCustomGCThingXPCOMChildren
+"
+:
+true
 }
 ;
 function
