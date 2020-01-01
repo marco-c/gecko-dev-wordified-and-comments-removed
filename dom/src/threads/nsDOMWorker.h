@@ -299,15 +299,6 @@ JSErrorReport
 aReport
 )
 ;
-#
-ifdef
-DEBUG
-friend
-class
-nsDOMFireEventRunnable
-;
-#
-endif
 public
 :
 NS_DECL_ISUPPORTS_INHERITED
