@@ -725,6 +725,15 @@ nsIRequest
 .
 LOAD_BYPASS_CACHE
 ;
+loadFlags
+|
+=
+Ci
+.
+nsIRequest
+.
+INHIBIT_CACHING
+;
 this
 .
 _lastChannel
