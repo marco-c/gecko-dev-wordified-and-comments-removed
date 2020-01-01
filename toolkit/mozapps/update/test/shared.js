@@ -1501,8 +1501,7 @@ length
 =
 0
 )
-do_throw
-(
+throw
 "
 Nothing
 read
@@ -1511,7 +1510,6 @@ input
 stream
 !
 "
-)
 ;
 }
 data
