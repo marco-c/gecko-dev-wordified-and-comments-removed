@@ -27324,6 +27324,8 @@ mWidth
 SETCOORD_LPAEH
 |
 SETCOORD_INITIAL_AUTO
+|
+SETCOORD_STORE_CALC
 aContext
 mPresContext
 canStoreInRuleTree
