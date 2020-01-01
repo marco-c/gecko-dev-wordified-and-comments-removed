@@ -1520,6 +1520,10 @@ mozilla
 EXPORTS_mozilla
 =
 \
+Attributes
+.
+h
+\
 GuardObjects
 .
 h
