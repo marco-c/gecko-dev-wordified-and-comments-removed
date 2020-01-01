@@ -59,6 +59,12 @@ display
 :
 block
 ;
+unicode
+-
+bidi
+:
+inherit
+;
 height
 :
 100
