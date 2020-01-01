@@ -140,13 +140,6 @@ h
 #
 include
 "
-nsDOMPopStateEvent
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Preferences

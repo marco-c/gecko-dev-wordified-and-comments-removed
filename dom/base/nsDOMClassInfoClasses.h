@@ -1095,10 +1095,6 @@ SmartCardEvent
 )
 DOMCI_CLASS
 (
-PageTransitionEvent
-)
-DOMCI_CLASS
-(
 WindowUtils
 )
 DOMCI_CLASS
@@ -1443,14 +1439,6 @@ ScrollAreaEvent
 )
 DOMCI_CLASS
 (
-PopStateEvent
-)
-DOMCI_CLASS
-(
-HashChangeEvent
-)
-DOMCI_CLASS
-(
 EventListenerInfo
 )
 DOMCI_CLASS
@@ -1480,10 +1468,6 @@ DesktopNotificationCenter
 DOMCI_CLASS
 (
 WebSocket
-)
-DOMCI_CLASS
-(
-CloseEvent
 )
 DOMCI_CLASS
 (
