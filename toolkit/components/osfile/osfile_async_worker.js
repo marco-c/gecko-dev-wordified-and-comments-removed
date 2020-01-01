@@ -38,7 +38,7 @@ strict
 const
 DEBUG
 =
-true
+false
 ;
 try
 {

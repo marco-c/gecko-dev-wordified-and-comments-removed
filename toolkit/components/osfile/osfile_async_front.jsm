@@ -66,7 +66,7 @@ isTypedArray
 const
 DEBUG
 =
-true
+false
 ;
 let
 OSError
