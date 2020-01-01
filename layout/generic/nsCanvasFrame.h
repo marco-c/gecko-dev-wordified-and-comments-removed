@@ -378,13 +378,6 @@ const
 ;
 protected
 :
-virtual
-int
-GetSkipSides
-(
-)
-const
-;
 bool
 mDoPaintFocus
 ;

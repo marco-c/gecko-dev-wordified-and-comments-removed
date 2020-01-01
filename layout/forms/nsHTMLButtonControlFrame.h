@@ -461,12 +461,6 @@ nsReflowStatus
 aStatus
 )
 ;
-int
-GetSkipSides
-(
-)
-const
-;
 nsButtonFrameRenderer
 mRenderer
 ;

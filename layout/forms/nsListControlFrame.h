@@ -387,14 +387,6 @@ MOZ_OVERRIDE
 #
 endif
 virtual
-int
-GetSkipSides
-(
-)
-const
-MOZ_OVERRIDE
-;
-virtual
 void
 SetComboboxFrame
 (

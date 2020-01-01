@@ -446,13 +446,6 @@ GetIntrinsicHeight
 )
 MOZ_OVERRIDE
 ;
-virtual
-int
-GetSkipSides
-(
-)
-const
-;
 void
 ShowViewer
 (
