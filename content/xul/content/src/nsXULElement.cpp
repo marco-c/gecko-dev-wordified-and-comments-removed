@@ -6488,7 +6488,6 @@ nsCString
 prefix
 (
 "
-<
 XUL
 "
 )
