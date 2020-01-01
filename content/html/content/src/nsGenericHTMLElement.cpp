@@ -4557,6 +4557,11 @@ eTrue
 :
 0
 ;
+SetFlags
+(
+NODE_MAY_HAVE_CONTENT_EDITABLE_ATTR
+)
+;
 }
 nsresult
 rv

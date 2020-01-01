@@ -1683,6 +1683,17 @@ _empty
 nsnull
 }
 ;
+if
+(
+!
+HasFlag
+(
+NODE_MAY_HAVE_CONTENT_EDITABLE_ATTR
+)
+)
+return
+eInherit
+;
 PRInt32
 value
 =
