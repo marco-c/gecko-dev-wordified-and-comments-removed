@@ -15,14 +15,10 @@ font
 -
 family
 :
-Roboto
 "
-Droid
+Open
 Sans
 "
-helvetica
-arial
-clean
 sans
 -
 serif
@@ -31,7 +27,7 @@ font
 -
 size
 :
-14px
+12px
 ;
 color
 :
@@ -101,6 +97,12 @@ font
 size
 :
 24px
+;
+font
+-
+weight
+:
+lighter
 ;
 text
 -
@@ -256,7 +258,7 @@ font
 -
 size
 :
-12px
+10px
 ;
 color
 :
