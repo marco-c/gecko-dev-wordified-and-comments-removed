@@ -104,6 +104,13 @@ h
 #
 include
 "
+nsCRT
+.
+h
+"
+#
+include
+"
 nsConsoleMessage
 .
 h
