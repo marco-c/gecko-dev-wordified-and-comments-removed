@@ -2394,6 +2394,13 @@ _emulator_launched
 =
 True
         
+time
+.
+sleep
+(
+10
+)
+        
 self
 .
 geo
