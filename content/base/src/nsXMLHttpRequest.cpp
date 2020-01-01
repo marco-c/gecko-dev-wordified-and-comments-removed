@@ -6696,16 +6696,6 @@ IsEmpty
 )
 )
 ;
-NS_ENSURE_ARG
-(
-!
-url
-.
-IsEmpty
-(
-)
-)
-;
 NS_ENSURE_TRUE
 (
 mPrincipal
