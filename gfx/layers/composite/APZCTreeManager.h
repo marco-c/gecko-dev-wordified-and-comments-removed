@@ -516,6 +516,14 @@ const
 gfxPoint
 &
 aHitTestPoint
+)
+;
+void
+GetInputTransforms
+(
+AsyncPanZoomController
+*
+aApzc
 gfx3DMatrix
 &
 aTransformToApzcOut
