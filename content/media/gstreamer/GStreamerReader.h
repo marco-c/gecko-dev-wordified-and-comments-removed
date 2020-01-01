@@ -51,6 +51,17 @@ diagnostic
 ignored
 "
 -
+Wunknown
+-
+pragmas
+"
+#
+pragma
+GCC
+diagnostic
+ignored
+"
+-
 Wpragmas
 "
 #
