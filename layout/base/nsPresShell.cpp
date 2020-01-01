@@ -26055,6 +26055,13 @@ UpdatePaintCountForPaintedPresShells
 (
 )
 ;
+presContext
+-
+>
+NotifyDidPaintForSubtree
+(
+)
+;
 return
 NS_OK
 ;
