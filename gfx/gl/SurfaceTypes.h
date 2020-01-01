@@ -182,6 +182,7 @@ EGLSurfaceANGLE
 DXGLInterop
 DXGLInterop2
 Gralloc
+IOSurface
 Max
 MOZ_END_ENUM_CLASS
 (

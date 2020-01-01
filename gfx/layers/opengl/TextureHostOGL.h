@@ -1670,7 +1670,7 @@ const
 MOZ_OVERRIDE
 {
 return
-LOCAL_GL_TEXTURE_2D
+mTextureTarget
 ;
 }
 void
@@ -1699,7 +1699,7 @@ mGL
 >
 fBindTexture
 (
-LOCAL_GL_TEXTURE_2D
+mTextureTarget
 mTextureHandle
 )
 ;
@@ -1788,6 +1788,10 @@ mTextureHandle
 (
 0
 )
+mTextureTarget
+(
+LOCAL_GL_TEXTURE_2D
+)
 mUploadTexture
 (
 0
@@ -1819,6 +1823,9 @@ mGL
 ;
 GLuint
 mTextureHandle
+;
+GLenum
+mTextureTarget
 ;
 GLuint
 mUploadTexture
