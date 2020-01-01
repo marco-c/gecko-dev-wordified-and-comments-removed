@@ -273,7 +273,7 @@ LaunchApp
 argv
 fds_to_remap
 env_vars_to_set
-SAME_PRIVILEGES_AS_PARENT
+PRIVILEGES_INHERIT
 wait
 process_handle
 )
