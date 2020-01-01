@@ -1543,7 +1543,6 @@ adding
 false
 )
 ;
-inline
 const
 js
 :
