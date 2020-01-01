@@ -1323,13 +1323,13 @@ if
 mVisible
 )
 {
-StartBlinking
-(
-)
-;
 SetIgnoreUserModify
 (
 PR_TRUE
+)
+;
+StartBlinking
+(
 )
 ;
 }
