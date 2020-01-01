@@ -81,7 +81,6 @@ regress
 332472
 .
 js
-fails
 script
 regress
 -
