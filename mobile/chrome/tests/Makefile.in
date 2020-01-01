@@ -538,6 +538,14 @@ browser_tabs
 .
 js
 \
+browser_tapping
+.
+js
+\
+browser_tap_content
+.
+html
+\
 browser_viewport_00
 .
 html
