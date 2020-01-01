@@ -523,9 +523,11 @@ TestShutdown
 \
 TestStackHooks
 \
-TestSyncWakeup
+TestSyncError
 \
 TestSyncHang
+\
+TestSyncWakeup
 \
 (
 NULL

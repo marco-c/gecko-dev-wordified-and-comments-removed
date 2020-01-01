@@ -165,11 +165,15 @@ PTestStackHooks
 .
 ipdl
 \
-PTestSyncWakeup
+PTestSyncError
 .
 ipdl
 \
 PTestSyncHang
+.
+ipdl
+\
+PTestSyncWakeup
 .
 ipdl
 \
