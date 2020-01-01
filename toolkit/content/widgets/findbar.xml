@@ -1506,7 +1506,7 @@ handler
 event
 =
 "
-dragdrop
+drop
 "
 phase
 =
