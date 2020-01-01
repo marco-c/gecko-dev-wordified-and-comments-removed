@@ -326,7 +326,7 @@ nightly
 -
 candidates
 /
-rc2
+rc1
 /
 &
 &
