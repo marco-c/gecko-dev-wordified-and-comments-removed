@@ -31,14 +31,6 @@ public
 MIRGenerator
 {
 enum
-InlinePolymorphism
-{
-Inline_Monomorphic
-Inline_Polymorphic
-Inline_PolymorphicFinal
-}
-;
-enum
 ControlStatus
 {
 ControlStatus_Error
@@ -422,8 +414,6 @@ thisDefn
 MDefinitionVector
 &
 args
-InlinePolymorphism
-polymorphism
 )
 ;
 private
@@ -1773,12 +1763,6 @@ constructing
 MConstant
 *
 constFun
-MResumePoint
-*
-inlineResumePoint
-MDefinitionVector
-&
-argv
 MBasicBlock
 *
 bottom
@@ -1791,8 +1775,6 @@ IonAllocPolicy
 >
 &
 retvalDefns
-InlinePolymorphism
-polymorphism
 )
 ;
 bool
