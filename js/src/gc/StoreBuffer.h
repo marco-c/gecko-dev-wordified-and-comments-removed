@@ -467,6 +467,9 @@ T
 *
 highwater
 ;
+EdgeSet
+duplicates
+;
 MonoTypeBuffer
 (
 StoreBuffer
@@ -491,6 +494,12 @@ top
 NULL
 )
 {
+duplicates
+.
+init
+(
+)
+;
 }
 MonoTypeBuffer
 &
@@ -582,6 +591,11 @@ compactNotInSet
 NurseryType
 *
 nursery
+)
+;
+void
+compactRemoveDuplicates
+(
 )
 ;
 virtual
