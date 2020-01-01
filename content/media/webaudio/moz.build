@@ -201,6 +201,11 @@ BiquadFilterNode
 h
 '
 '
+ChannelSplitterNode
+.
+h
+'
+'
 DelayNode
 .
 h
