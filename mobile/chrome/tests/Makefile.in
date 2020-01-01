@@ -558,6 +558,10 @@ browser_contacts
 .
 js
 \
+browser_dragger
+.
+js
+\
 browser_find
 .
 js
