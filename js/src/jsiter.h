@@ -508,6 +508,10 @@ JSObject
 public
 :
 static
+Class
+class_
+;
+static
 JSObject
 *
 create
