@@ -414,7 +414,7 @@ is
 (
 globalNodes
 [
-0
+3
 ]
 .
 querySelector
@@ -432,7 +432,7 @@ value
 "
 )
 "
-InstallTrigger
+document
 "
 "
 Should
@@ -443,7 +443,7 @@ property
 name
 for
 |
-InstallTrigger
+document
 |
 .
 "
@@ -453,7 +453,7 @@ is
 (
 globalNodes
 [
-0
+3
 ]
 .
 querySelector
@@ -471,6 +471,10 @@ value
 "
 )
 "
+[
+object
+HTMLDocument
+]
 "
 "
 Should
@@ -481,7 +485,7 @@ property
 value
 for
 |
-InstallTrigger
+document
 |
 .
 "
@@ -559,7 +563,7 @@ value
 "
 [
 object
-Proxy
+Window
 ]
 "
 "

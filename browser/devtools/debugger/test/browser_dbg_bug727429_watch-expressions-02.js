@@ -922,7 +922,7 @@ object
 class
 :
 "
-Proxy
+Window
 "
 }
 undefined
@@ -1007,7 +1007,7 @@ object
 class
 :
 "
-Proxy
+Window
 "
 }
 undefined
@@ -1081,7 +1081,7 @@ object
 class
 :
 "
-Proxy
+Window
 "
 }
 undefined
@@ -1161,7 +1161,7 @@ object
 class
 :
 "
-Proxy
+Window
 "
 }
 undefined
@@ -1247,7 +1247,7 @@ object
 class
 :
 "
-Proxy
+Window
 "
 }
 undefined
@@ -1332,7 +1332,7 @@ object
 class
 :
 "
-Proxy
+Window
 "
 }
 undefined
@@ -1410,7 +1410,7 @@ object
 class
 :
 "
-Proxy
+Window
 "
 }
 undefined

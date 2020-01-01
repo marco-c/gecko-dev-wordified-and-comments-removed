@@ -52585,7 +52585,7 @@ getIndexedOrExpando
 getNamed
 )
 class
-CGDOMJSProxyHandler_obj_toString
+CGDOMJSProxyHandler_className
 (
 ClassMethod
 )
@@ -52636,13 +52636,21 @@ __init__
 (
 self
 "
-obj_toString
+className
 "
 "
-JSString
+const
+char
 *
 "
 args
+                             
+virtual
+=
+True
+override
+=
+True
 )
         
 self
@@ -52659,29 +52667,14 @@ self
 :
         
 return
-"
+'
 return
-mozilla
-:
-:
-dom
-:
-:
-DOMProxyHandler
-:
-:
-obj_toString
-(
-cx
-\
 "
 %
 s
-\
 "
-)
 ;
-"
+'
 %
 self
 .
@@ -53523,7 +53516,7 @@ CGDOMJSProxyHandler_get
 descriptor
 )
                         
-CGDOMJSProxyHandler_obj_toString
+CGDOMJSProxyHandler_className
 (
 descriptor
 )
