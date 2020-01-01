@@ -32241,7 +32241,7 @@ script
 )
 -
 >
-strictModeCode
+strict
 )
 ;
 }
@@ -32386,7 +32386,7 @@ script
 )
 -
 >
-strictModeCode
+strict
 )
 ;
 if
@@ -32931,7 +32931,7 @@ script
 )
 -
 >
-strictModeCode
+strict
 )
 {
 current

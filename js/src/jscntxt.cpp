@@ -2265,7 +2265,7 @@ script
 script
 -
 >
-strictModeCode
+strict
 )
 *
 flags

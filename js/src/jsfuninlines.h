@@ -54,7 +54,7 @@ bool
 JSFunction
 :
 :
-inStrictMode
+strict
 (
 )
 const
@@ -65,7 +65,7 @@ nonLazyScript
 )
 -
 >
-strictModeCode
+strict
 ;
 }
 inline

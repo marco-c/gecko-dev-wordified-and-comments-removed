@@ -26228,7 +26228,7 @@ jp
 script
 -
 >
-strictModeCode
+strict
 ;
 str
 =
@@ -29971,7 +29971,7 @@ if
 script
 -
 >
-strictModeCode
+strict
 &
 &
 !

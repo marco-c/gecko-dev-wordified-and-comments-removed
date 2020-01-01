@@ -684,11 +684,11 @@ script
 )
 -
 >
-strictModeCode
+strict
 )
 globalsc
 .
-strictMode
+strict
 =
 true
 ;
@@ -775,7 +775,7 @@ pc
 fun
 -
 >
-inStrictMode
+strict
 (
 )
 )

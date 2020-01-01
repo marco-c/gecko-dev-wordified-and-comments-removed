@@ -642,7 +642,7 @@ strict
 callee
 -
 >
-inStrictMode
+strict
 (
 )
 ;

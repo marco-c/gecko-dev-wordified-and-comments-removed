@@ -9280,7 +9280,7 @@ script
 )
 -
 >
-strictModeCode
+strict
 )
 ;
 f

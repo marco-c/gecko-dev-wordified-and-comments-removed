@@ -481,7 +481,7 @@ hasGuessedAtom
 }
 inline
 bool
-inStrictMode
+strict
 (
 )
 const

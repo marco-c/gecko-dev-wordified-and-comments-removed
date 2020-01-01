@@ -54,7 +54,7 @@ isFun
 anyCxFlags
 (
 )
-strictMode
+strict
 (
 strict
 )
@@ -78,7 +78,7 @@ hasStrictOption
 )
 |
 |
-strictMode
+strict
 ;
 }
 inline

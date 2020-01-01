@@ -296,7 +296,7 @@ fun
 )
 -
 >
-inStrictMode
+strict
 (
 )
 |
@@ -1669,7 +1669,7 @@ currentScript
 )
 -
 >
-strictModeCode
+strict
 ;
 if
 (
@@ -1726,7 +1726,7 @@ currentScript
 )
 -
 >
-strictModeCode
+strict
 ;
 RootedValue
 rref
@@ -2271,7 +2271,7 @@ strict
 script
 -
 >
-strictModeCode
+strict
 ;
 RootedPropertyName
 name

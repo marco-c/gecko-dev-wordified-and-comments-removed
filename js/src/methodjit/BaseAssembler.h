@@ -7707,7 +7707,7 @@ FunctionTemplateConditional
 script
 -
 >
-strictModeCode
+strict
 \
 f
 <

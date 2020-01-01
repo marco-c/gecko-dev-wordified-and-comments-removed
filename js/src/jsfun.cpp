@@ -998,7 +998,7 @@ isInterpreted
 callerFun
 -
 >
-inStrictMode
+strict
 (
 )
 )
@@ -1827,7 +1827,7 @@ isInterpreted
 fun
 -
 >
-inStrictMode
+strict
 (
 )
 :
@@ -3573,7 +3573,7 @@ addUseStrict
 script
 -
 >
-strictModeCode
+strict
 &
 &
 !

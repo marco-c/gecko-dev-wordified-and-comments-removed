@@ -1052,7 +1052,7 @@ script
 )
 -
 >
-strictModeCode
+strict
 )
 )
 {

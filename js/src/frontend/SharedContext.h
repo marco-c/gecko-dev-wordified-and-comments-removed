@@ -197,7 +197,7 @@ AnyContextFlags
 anyCxFlags
 ;
 bool
-strictMode
+strict
 ;
 inline
 SharedContext

@@ -1006,7 +1006,7 @@ script
 )
 -
 >
-strictModeCode
+strict
 ;
 }
 bool
@@ -1027,7 +1027,7 @@ script
 )
 -
 >
-strictModeCode
+strict
 ;
 }
 bool
