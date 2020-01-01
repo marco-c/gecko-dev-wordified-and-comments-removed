@@ -700,6 +700,10 @@ utils_bug260264
 .
 js
 \
+test_bug456151
+.
+html
+\
 (
 NULL
 )
