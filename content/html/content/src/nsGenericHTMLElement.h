@@ -53,14 +53,6 @@ nsGkAtoms
 .
 h
 "
-#
-ifdef
-GetClassName
-#
-undef
-GetClassName
-#
-endif
 class
 nsIDOMAttr
 ;
