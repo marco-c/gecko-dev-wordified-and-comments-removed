@@ -451,6 +451,10 @@ browser_styleeditor_enabled
 .
 js
 \
+browser_styleeditor_filesave
+.
+js
+\
 browser_styleeditor_import
 .
 js
