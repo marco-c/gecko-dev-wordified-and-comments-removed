@@ -1100,6 +1100,8 @@ linkSpeed
 this
 .
 _onConnectionInfoUpdate
+.
+handleEvent
 (
 evt
 )
