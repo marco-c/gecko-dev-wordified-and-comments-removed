@@ -13,11 +13,11 @@ overflow
 .
 big
 =
-imml
+immi
 1073741824
 two
 =
-imml
+immi
 2
 ;
 Because
@@ -82,7 +82,7 @@ trickery
 .
 res
 =
-mulxovl
+mulxovi
 big
 two
 ;
@@ -107,7 +107,7 @@ m
 =
 allocp
 4
-stl
+sti
 res
 m
 0

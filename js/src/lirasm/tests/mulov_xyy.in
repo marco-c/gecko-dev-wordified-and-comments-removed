@@ -13,11 +13,11 @@ overflow
 .
 big
 =
-imml
+immi
 46341
 res
 =
-mulxovl
+mulxovi
 big
 big
 ;
@@ -63,11 +63,11 @@ m
 =
 allocp
 8
-stl
+sti
 big
 m
 0
-stl
+sti
 res
 m
 4
