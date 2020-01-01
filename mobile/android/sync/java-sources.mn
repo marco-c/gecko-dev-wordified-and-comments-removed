@@ -10,6 +10,16 @@ CollectionKeys
 java
 sync
 /
+CommandProcessor
+.
+java
+sync
+/
+CommandRunner
+.
+java
+sync
+/
 CredentialsSource
 .
 java
