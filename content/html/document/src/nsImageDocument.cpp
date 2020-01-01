@@ -2379,6 +2379,7 @@ PRBool
 changeState
 )
 {
+{
 nsIPresShell
 *
 shell
@@ -2563,6 +2564,7 @@ visibleArea
 height
 )
 ;
+}
 PRBool
 imageWasOverflowing
 =
