@@ -1201,8 +1201,6 @@ topsrcdir
 '
 xpcshell
 -
-j
--
 s
 headfiles
 -
@@ -1250,8 +1248,6 @@ topsrcdir
 "
 xpcshell
 -
-j
--
 s
 headfiles
 -
@@ -1287,8 +1283,6 @@ TOPSRCDIR
 topsrcdir
 "
 xpcshell
--
-j
 -
 s
 headfiles

@@ -1036,8 +1036,6 @@ topsrcdir
 "
 xpcshell
 -
-j
--
 s
 headfiles
 -
