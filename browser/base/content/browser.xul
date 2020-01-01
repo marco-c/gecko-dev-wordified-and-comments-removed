@@ -3336,10 +3336,13 @@ stripsurroundingwhitespace
 oninput
 =
 "
-URLBarOnInput
-(
-event
-)
+gBrowser
+.
+userTypedValue
+=
+this
+.
+value
 ;
 "
 ontextentered
