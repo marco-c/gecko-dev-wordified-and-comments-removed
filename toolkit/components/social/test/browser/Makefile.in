@@ -137,6 +137,10 @@ worker_social
 .
 js
 \
+browser_SocialProvider
+.
+js
+\
 (
 NULL
 )

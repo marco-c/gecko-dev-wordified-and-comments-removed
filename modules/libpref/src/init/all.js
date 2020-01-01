@@ -33972,3 +33972,13 @@ ghost_window_timeout_seconds
 60
 )
 ;
+pref
+(
+"
+social
+.
+enabled
+"
+false
+)
+;
