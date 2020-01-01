@@ -733,12 +733,6 @@ aModifiers
 )
 ;
 static
-NSUInteger
-GetCurrentModifiers
-(
-)
-;
-static
 UInt32
 ConvertToCarbonModifier
 (

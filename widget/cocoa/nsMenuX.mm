@@ -640,15 +640,6 @@ it
 here
 explicitly
 .
-if
-(
-nsCocoaFeatures
-:
-:
-OnSnowLeopardOrLater
-(
-)
-)
 dlopen
 (
 "

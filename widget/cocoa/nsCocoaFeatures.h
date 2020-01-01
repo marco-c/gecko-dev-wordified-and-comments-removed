@@ -33,12 +33,6 @@ OSXVersion
 ;
 static
 bool
-OnSnowLeopardOrLater
-(
-)
-;
-static
-bool
 OnLionOrLater
 (
 )
