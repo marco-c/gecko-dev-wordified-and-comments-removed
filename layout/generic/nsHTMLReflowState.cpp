@@ -4625,6 +4625,8 @@ nsIFrame
 *
 placeholderFrame
 ;
+placeholderFrame
+=
 aPresContext
 -
 >
@@ -4636,8 +4638,6 @@ PresShell
 GetPlaceholderFrameFor
 (
 outOfFlow
-&
-placeholderFrame
 )
 ;
 NS_ASSERTION

@@ -1923,16 +1923,12 @@ nsIFrame
 *
 placeholder
 =
-0
-;
 presShell
 -
 >
 GetPlaceholderFrameFor
 (
 aFrame
-&
-placeholder
 )
 ;
 if

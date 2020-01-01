@@ -2738,7 +2738,6 @@ parent
 return
 NS_OK
 ;
-return
 frame
 -
 >
@@ -2761,6 +2760,9 @@ nsIPresShell
 eStyleChange
 NS_FRAME_IS_DIRTY
 )
+;
+return
+NS_OK
 ;
 }
 nsresult
@@ -2992,7 +2994,6 @@ PRInt32
 aModType
 )
 {
-return
 PresContext
 (
 )
@@ -3012,6 +3013,9 @@ nsIPresShell
 eStyleChange
 NS_FRAME_IS_DIRTY
 )
+;
+return
+NS_OK
 ;
 }
 void

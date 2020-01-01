@@ -1560,8 +1560,6 @@ nsIPageSequenceFrame
 *
 seqFrame
 =
-nsnull
-;
 aPO
 -
 >
@@ -1570,8 +1568,6 @@ mPresShell
 >
 GetPageSequenceFrame
 (
-&
-seqFrame
 )
 ;
 if
@@ -7967,8 +7963,6 @@ nsIPageSequenceFrame
 *
 seqFrame
 =
-nsnull
-;
 mPrt
 -
 >
@@ -7980,8 +7974,6 @@ mPresShell
 >
 GetPageSequenceFrame
 (
-&
-seqFrame
 )
 ;
 if
@@ -9429,7 +9421,7 @@ documentIsTopLevel
 nsIPageSequenceFrame
 *
 pageSequence
-;
+=
 aPO
 -
 >
@@ -9438,8 +9430,6 @@ mPresShell
 >
 GetPageSequenceFrame
 (
-&
-pageSequence
 )
 ;
 pageSequence
@@ -10016,7 +10006,7 @@ IsRootPaginatedDocument
 nsIPageSequenceFrame
 *
 pageSequence
-;
+=
 po
 -
 >
@@ -10025,8 +10015,6 @@ mPresShell
 >
 GetPageSequenceFrame
 (
-&
-pageSequence
 )
 ;
 nsIFrame
@@ -11025,14 +11013,12 @@ printRangeType
 nsIPageSequenceFrame
 *
 pageSequence
-;
+=
 poPresShell
 -
 >
 GetPageSequenceFrame
 (
-&
-pageSequence
 )
 ;
 NS_ASSERTION

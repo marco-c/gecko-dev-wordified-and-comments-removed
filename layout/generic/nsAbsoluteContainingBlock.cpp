@@ -183,7 +183,6 @@ nsnull
 aFrameList
 )
 ;
-return
 aDelegatingFrame
 -
 >
@@ -206,6 +205,9 @@ nsIPresShell
 eResize
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
+;
+return
+NS_OK
 ;
 }
 nsresult
@@ -291,7 +293,6 @@ aPrevFrame
 aFrameList
 )
 ;
-return
 aDelegatingFrame
 -
 >
@@ -314,6 +315,9 @@ nsIPresShell
 eResize
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
+;
+return
+NS_OK
 ;
 }
 void

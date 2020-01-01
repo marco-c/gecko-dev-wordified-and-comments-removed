@@ -10543,15 +10543,11 @@ nsIPageSequenceFrame
 *
 pf
 =
-nsnull
-;
 shell
 -
 >
 GetPageSequenceFrame
 (
-&
-pf
 )
 ;
 if
