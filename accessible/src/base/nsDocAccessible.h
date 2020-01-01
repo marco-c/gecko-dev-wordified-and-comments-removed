@@ -325,7 +325,7 @@ aRoleMapEntry
 )
 ;
 virtual
-nsIAccessible
+nsAccessible
 *
 GetParent
 (

@@ -611,13 +611,6 @@ areaAccessible
 )
 return
 ;
-mChildren
-.
-AppendObject
-(
-areaAccessible
-)
-;
 areaAcc
 =
 nsAccUtils
@@ -629,6 +622,13 @@ nsAccessible
 >
 (
 areaAccessible
+)
+;
+mChildren
+.
+AppendElement
+(
+areaAcc
 )
 ;
 areaAcc

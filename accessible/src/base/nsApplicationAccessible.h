@@ -109,7 +109,7 @@ aExtraState
 )
 ;
 virtual
-nsIAccessible
+nsAccessible
 *
 GetParent
 (

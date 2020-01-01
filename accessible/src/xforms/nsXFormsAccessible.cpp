@@ -492,13 +492,6 @@ accessible
 )
 continue
 ;
-mChildren
-.
-AppendObject
-(
-accessible
-)
-;
 acc
 =
 nsAccUtils
@@ -510,6 +503,13 @@ nsAccessible
 >
 (
 accessible
+)
+;
+mChildren
+.
+AppendElement
+(
+acc
 )
 ;
 acc

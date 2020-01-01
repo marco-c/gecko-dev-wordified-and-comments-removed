@@ -2779,11 +2779,9 @@ nsIAccessibleRelation
 RELATION_LABEL_FOR
 )
 {
-nsCOMPtr
-<
-nsIAccessible
->
-groupboxAccessible
+nsAccessible
+*
+groupbox
 =
 GetParent
 (
@@ -2796,7 +2794,7 @@ nsAccUtils
 :
 Role
 (
-groupboxAccessible
+groupbox
 )
 =
 =
@@ -2817,7 +2815,7 @@ nsRelUtils
 :
 GetRelatedAccessible
 (
-groupboxAccessible
+groupbox
 nsIAccessibleRelation
 :
 :
@@ -2840,7 +2838,7 @@ AddTarget
 (
 aRelationType
 aRelation
-groupboxAccessible
+groupbox
 )
 ;
 }

@@ -869,7 +869,7 @@ mBulletAccessible
 {
 mChildren
 .
-AppendObject
+AppendElement
 (
 mBulletAccessible
 )
@@ -1125,7 +1125,7 @@ return
 NS_OK
 ;
 }
-nsIAccessible
+nsAccessible
 *
 nsHTMLListBulletAccessible
 :

@@ -285,7 +285,7 @@ aLength
 )
 ;
 virtual
-nsIAccessible
+nsAccessible
 *
 GetParent
 (

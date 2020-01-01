@@ -2630,7 +2630,7 @@ count
 =
 mChildren
 .
-Count
+Length
 (
 )
 ;

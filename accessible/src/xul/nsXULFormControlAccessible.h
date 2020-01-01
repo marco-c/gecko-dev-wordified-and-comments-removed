@@ -516,7 +516,7 @@ static
 PRBool
 IsSeparator
 (
-nsIAccessible
+nsAccessible
 *
 aAccessible
 )

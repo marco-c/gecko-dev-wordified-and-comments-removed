@@ -4549,7 +4549,7 @@ return
 NS_OK
 ;
 }
-nsIAccessible
+nsAccessible
 *
 nsRootAccessible
 :

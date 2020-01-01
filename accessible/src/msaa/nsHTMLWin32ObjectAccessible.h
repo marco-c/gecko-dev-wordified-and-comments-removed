@@ -88,9 +88,9 @@ void
 *
 mHwnd
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIAccessible
+nsAccessible
 >
 mNativeAccessible
 ;
