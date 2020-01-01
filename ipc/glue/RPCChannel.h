@@ -42,7 +42,7 @@ public
 SyncChannel
 :
 :
-Listener
+SyncListener
 {
 public
 :
