@@ -6994,6 +6994,10 @@ setResultType
 MIRType_String
 )
 ;
+setMovable
+(
+)
+;
 }
 public
 :
@@ -8304,6 +8308,10 @@ setResultType
 type
 )
 ;
+setMovable
+(
+)
+;
 specialization_
 =
 type
@@ -8502,6 +8510,10 @@ num
 setResultType
 (
 MIRType_Double
+)
+;
+setMovable
+(
 )
 ;
 }
