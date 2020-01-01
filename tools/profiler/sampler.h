@@ -44,12 +44,6 @@ ANDROID
 |
 defined
 (
-XP_LINUX
-)
-|
-|
-defined
-(
 XP_MACOSX
 )
 |
