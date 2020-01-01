@@ -550,6 +550,12 @@ BrowserHealthRecorder
 .
 java
 \
+health
+/
+BrowserHealthReporter
+.
+java
+\
 InputMethods
 .
 java
