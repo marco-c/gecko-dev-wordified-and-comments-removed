@@ -2100,9 +2100,6 @@ if
 startMark
 >
 0
-&
-&
-JS_WANT_GC_TIMER_PRINT
 )
 {
 if
