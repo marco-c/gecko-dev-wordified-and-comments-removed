@@ -172,11 +172,8 @@ JS_GetPrototype
 (
 cx
 buffer
+&
 proto
-.
-address
-(
-)
 )
 ;
 CHECK
@@ -418,11 +415,8 @@ JS_GetPrototype
 (
 cx
 array
+&
 proto
-.
-address
-(
-)
 )
 ;
 CHECK

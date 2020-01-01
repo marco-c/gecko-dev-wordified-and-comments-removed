@@ -9424,11 +9424,8 @@ JS_GetPrototype
 (
 cx
 instance
+&
 proto
-.
-address
-(
-)
 )
 )
 {
@@ -9465,11 +9462,8 @@ JS_GetPrototype
 (
 cx
 proto
+&
 proto
-.
-address
-(
-)
 )
 )
 {

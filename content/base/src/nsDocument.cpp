@@ -23005,11 +23005,8 @@ JS_GetPrototype
 (
 aCx
 protoObject
+&
 protoProto
-.
-address
-(
-)
 )
 )
 {
@@ -23047,11 +23044,8 @@ JS_GetPrototype
 (
 aCx
 protoProto
+&
 protoProto
-.
-address
-(
-)
 )
 )
 {
