@@ -575,6 +575,10 @@ test_property_syntax_errors
 .
 html
 \
+test_value_storage
+.
+html
+\
 css_properties
 .
 js
