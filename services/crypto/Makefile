@@ -555,6 +555,17 @@ arch
 =
 ppc
 else
+ifeq
+(
+(
+machine
+)
+arm
+)
+arch
+=
+arm
+else
 #
 FIXME
 :
@@ -576,6 +587,7 @@ unsupported
 machine
 )
 )
+endif
 endif
 endif
 endif
@@ -676,9 +688,6 @@ cpp
 WeaveCryptoModule
 .
 cpp
-target
-=
-WeaveCrypto
 #
 will
 have
@@ -691,6 +700,9 @@ dylib
 .
 dll
 appended
+target
+=
+WeaveCrypto
 sdkdir
 ?
 =
