@@ -6,6 +6,9 @@ RegexJIT
 h
 "
 #
+if
+ENABLE_ASSEMBLER
+#
 include
 "
 assembler
@@ -45,9 +48,6 @@ pcre
 .
 h
 "
-#
-if
-ENABLE_YARR_JIT
 using
 namespace
 WTF

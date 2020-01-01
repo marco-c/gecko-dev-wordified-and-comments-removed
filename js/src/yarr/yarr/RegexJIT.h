@@ -5,6 +5,9 @@ RegexJIT_h
 define
 RegexJIT_h
 #
+if
+ENABLE_ASSEMBLER
+#
 include
 "
 assembler
@@ -391,5 +394,7 @@ output
 }
 }
 }
+#
+endif
 #
 endif
