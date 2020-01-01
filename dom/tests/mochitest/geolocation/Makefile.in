@@ -486,6 +486,10 @@ test_optional_api_params
 .
 html
 \
+network_geolocation
+.
+sjs
+\
 (
 NULL
 )
