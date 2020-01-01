@@ -613,7 +613,7 @@ style
 width
 :
 &
-window
+dialog
 .
 width
 ;
@@ -853,7 +853,7 @@ bundleBrowser
 getString
 (
 "
-sanitizeButton2
+sanitizeButtonOK
 "
 )
 ;
@@ -1865,7 +1865,7 @@ value
 =
 "
 &
-clearDuration
+clearTimeDuration
 .
 label
 ;
@@ -1879,7 +1879,7 @@ accesskey
 =
 "
 &
-clearDuration
+clearTimeDuration
 .
 accesskey
 ;
@@ -1917,7 +1917,7 @@ label
 =
 "
 &
-clearDuration
+clearTimeDuration
 .
 lastHour
 ;
@@ -1935,7 +1935,7 @@ label
 =
 "
 &
-clearDuration
+clearTimeDuration
 .
 last2Hours
 ;
@@ -1953,7 +1953,7 @@ label
 =
 "
 &
-clearDuration
+clearTimeDuration
 .
 last4Hours
 ;
@@ -1971,7 +1971,7 @@ label
 =
 "
 &
-clearDuration
+clearTimeDuration
 .
 today
 ;
@@ -1993,7 +1993,7 @@ label
 =
 "
 &
-clearDuration
+clearTimeDuration
 .
 everything
 ;
@@ -2019,7 +2019,7 @@ value
 =
 "
 &
-clearDuration
+clearTimeDuration
 .
 suffix
 ;
@@ -2065,7 +2065,7 @@ label
 =
 "
 &
-itemVisitedPages
+itemBrowsingHistory
 .
 label
 ;
@@ -2074,7 +2074,7 @@ accesskey
 =
 "
 &
-itemVisitedPages
+itemBrowsingHistory
 .
 accesskey
 ;
@@ -2124,7 +2124,7 @@ label
 =
 "
 &
-itemDownloadList
+itemDownloadHistory
 .
 label
 ;
@@ -2133,7 +2133,7 @@ accesskey
 =
 "
 &
-itemDownloadList
+itemDownloadHistory
 .
 accesskey
 ;
@@ -2166,7 +2166,7 @@ label
 =
 "
 &
-itemFormSearchEntries
+itemFormSearchHistory
 .
 label
 ;
@@ -2175,7 +2175,7 @@ accesskey
 =
 "
 &
-itemFormSearchEntries
+itemFormSearchHistory
 .
 accesskey
 ;
@@ -2310,7 +2310,7 @@ label
 =
 "
 &
-itemWebCache
+itemCache
 .
 label
 ;
@@ -2319,7 +2319,7 @@ accesskey
 =
 "
 &
-itemWebCache
+itemCache
 .
 accesskey
 ;
@@ -2441,7 +2441,7 @@ label
 =
 "
 &
-itemSiteSettings
+itemSitePreferences
 .
 label
 ;
@@ -2450,7 +2450,7 @@ accesskey
 =
 "
 &
-itemSiteSettings
+itemSitePreferences
 .
 accesskey
 ;
