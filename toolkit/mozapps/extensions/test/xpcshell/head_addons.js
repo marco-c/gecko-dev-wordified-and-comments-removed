@@ -2436,6 +2436,9 @@ updateKey
 optionsURL
 "
 "
+optionsType
+"
+"
 aboutURL
 "
 "

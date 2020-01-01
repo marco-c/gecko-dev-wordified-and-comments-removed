@@ -629,6 +629,10 @@ browser_types
 .
 js
 \
+browser_inlinesettings
+.
+js
+\
 (
 NULL
 )
@@ -728,6 +732,10 @@ xml
 discovery
 .
 html
+\
+options
+.
+xul
 \
 redirect
 .
