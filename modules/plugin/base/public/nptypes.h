@@ -98,12 +98,6 @@ defined
 (
 bsdi
 )
-|
-|
-defined
-(
-OPENBSD
-)
 typedef
 u_int32_t
 uint32_t
