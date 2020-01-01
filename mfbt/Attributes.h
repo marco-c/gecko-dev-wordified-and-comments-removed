@@ -249,6 +249,14 @@ __GNUC_MINOR__
 define
 MOZ_HAVE_CXX11_DELETE
 #
+endif
+#
+if
+__GNUC_MINOR__
+>
+=
+5
+#
 define
 MOZ_HAVE_CXX11_ENUM_TYPE
 #
