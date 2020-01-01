@@ -149,6 +149,16 @@ pref
 "
 browser
 .
+ignoreNativeFrameTextSelection
+"
+true
+)
+;
+pref
+(
+"
+browser
+.
 cache
 .
 disk
