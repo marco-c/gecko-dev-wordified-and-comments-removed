@@ -74,9 +74,7 @@ id
 )
 )
 {
-jsint
-i
-;
+int32_t
 i
 =
 JSID_TO_INT

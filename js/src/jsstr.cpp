@@ -2038,7 +2038,7 @@ unbox
 (
 )
 ;
-jsint
+int32_t
 slot
 =
 JSID_TO_INT
@@ -4331,13 +4331,13 @@ sBMHPatLenMax
 ;
 static
 const
-jsint
+int
 sBMHBadPattern
 =
 -
 2
 ;
-jsint
+int
 js_BoyerMooreHorspool
 (
 const
@@ -4537,7 +4537,7 @@ j
 return
 static_cast
 <
-jsint
+int
 >
 (
 i
@@ -4699,7 +4699,7 @@ class
 InnerMatch
 >
 static
-jsint
+int
 UnrolledMatch
 (
 const
@@ -5242,7 +5242,7 @@ return
 }
 static
 JS_ALWAYS_INLINE
-jsint
+int
 StringMatch
 (
 const
@@ -5378,7 +5378,7 @@ patlen
 sBMHPatLenMax
 )
 {
-jsint
+int
 index
 =
 js_BoyerMooreHorspool
@@ -5460,7 +5460,7 @@ jschar
 pat
 jsuint
 patlen
-jsint
+int
 *
 match
 )
@@ -5644,7 +5644,7 @@ false
 ;
 }
 }
-jsint
+int
 pos
 =
 0
@@ -5705,7 +5705,7 @@ length
 (
 )
 ;
-jsint
+int
 matchResult
 =
 StringMatch
@@ -6111,7 +6111,7 @@ isInt32
 )
 )
 {
-jsint
+int
 i
 =
 args
@@ -6231,7 +6231,7 @@ else
 start
 =
 (
-jsint
+int
 )
 d
 ;
@@ -6255,7 +6255,7 @@ start
 0
 ;
 }
-jsint
+int
 match
 =
 StringMatch
@@ -6407,7 +6407,7 @@ chars
 (
 )
 ;
-jsint
+int
 i
 =
 textlen
@@ -6460,7 +6460,7 @@ isInt32
 )
 )
 {
-jsint
+int
 j
 =
 args
@@ -6554,7 +6554,7 @@ i
 i
 =
 (
-jsint
+int
 )
 d
 ;
@@ -8932,7 +8932,7 @@ jschar
 *
 dollarEnd
 ;
-jsint
+int
 leftIndex
 ;
 JSSubString
@@ -13091,7 +13091,7 @@ chars
 (
 )
 ;
-jsint
+int
 match
 =
 StringMatch

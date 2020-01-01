@@ -81,7 +81,7 @@ h
 struct
 JSIdArray
 {
-jsint
+int
 length
 ;
 js

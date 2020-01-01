@@ -448,7 +448,7 @@ empty
 ;
 }
 inline
-jsint
+int
 length
 (
 )
@@ -916,7 +916,7 @@ true
 ;
 }
 inline
-jsint
+int
 StringBuffer
 :
 :
@@ -927,7 +927,7 @@ const
 {
 JS_STATIC_ASSERT
 (
-jsint
+int
 (
 JSString
 :
@@ -958,7 +958,7 @@ MAX_LENGTH
 )
 ;
 return
-jsint
+int
 (
 cb
 .

@@ -12614,7 +12614,7 @@ lineno
 defaultOffset
 )
 ;
-jsint
+int
 ncases
 ;
 if
@@ -12625,7 +12625,7 @@ op
 JSOP_TABLESWITCH
 )
 {
-jsint
+int32_t
 low
 =
 GET_JUMP_OFFSET
@@ -12659,9 +12659,6 @@ else
 {
 ncases
 =
-(
-jsint
-)
 GET_UINT16
 (
 pc
@@ -12682,7 +12679,7 @@ ncases
 }
 for
 (
-jsint
+int
 i
 =
 0

@@ -3990,7 +3990,7 @@ tc
 JSAtom
 *
 atom
-jsint
+int
 *
 slotp
 StmtInfo
@@ -5193,7 +5193,7 @@ isClosed
 ;
 }
 static
-jsint
+int
 AdjustBlockSlot
 (
 JSContext
@@ -5202,7 +5202,7 @@ cx
 BytecodeEmitter
 *
 bce
-jsint
+int
 slot
 )
 {
@@ -11228,7 +11228,7 @@ JSOP_ONE
 if
 (
 (
-jsint
+int
 )
 (
 int8_t
@@ -12208,7 +12208,7 @@ jsuint
 i
 +
 (
-jsint
+int
 )
 JS_BIT
 (
@@ -13110,7 +13110,7 @@ i
 i
 <
 (
-jsint
+int
 )
 tableLength
 ;
@@ -13594,7 +13594,7 @@ i
 i
 <
 (
-jsint
+int
 )
 tableLength
 ;
@@ -16150,7 +16150,7 @@ i
 limit
 )
 ;
-jsint
+int
 slot
 =
 AdjustBlockSlot
@@ -31633,7 +31633,7 @@ case
 PNK_ARRAYPUSH
 :
 {
-jsint
+int
 slot
 ;
 if

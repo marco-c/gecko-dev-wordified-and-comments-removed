@@ -1932,7 +1932,7 @@ powi
 (
 double
 x
-jsint
+int
 y
 )
 {

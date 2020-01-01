@@ -2293,7 +2293,7 @@ JSAtom
 *
 getInt
 (
-jsint
+int32_t
 i
 )
 ;

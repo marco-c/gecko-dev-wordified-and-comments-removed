@@ -5224,7 +5224,7 @@ val
 )
 )
 {
-jsint
+int32_t
 i
 =
 JSVAL_TO_INT
@@ -5332,7 +5332,7 @@ val
 )
 )
 {
-jsint
+int32_t
 i
 =
 JSVAL_TO_INT
@@ -6299,7 +6299,7 @@ val
 )
 )
 {
-jsint
+int32_t
 i
 =
 JSVAL_TO_INT
@@ -6533,7 +6533,7 @@ val
 )
 )
 {
-jsint
+int32_t
 i
 =
 JSID_TO_INT
@@ -6933,7 +6933,7 @@ val
 )
 )
 {
-jsint
+int32_t
 i
 =
 JSVAL_TO_INT
@@ -7549,7 +7549,7 @@ result
 =
 INT_TO_JSVAL
 (
-jsint
+int32_t
 (
 value
 )

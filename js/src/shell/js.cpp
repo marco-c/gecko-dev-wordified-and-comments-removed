@@ -9213,7 +9213,7 @@ op
 ptrdiff_t
 jmplen
 ;
-jsint
+int32_t
 low
 high
 n

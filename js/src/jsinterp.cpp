@@ -4085,7 +4085,7 @@ EnterWith
 JSContext
 *
 cx
-jsint
+int
 stackIndex
 )
 {
@@ -7699,7 +7699,7 @@ RESET_USE_METHODJIT
 JSOp
 op
 ;
-jsint
+int32_t
 len
 ;
 len
@@ -14768,7 +14768,7 @@ pc2
 =
 JUMP_OFFSET_LEN
 ;
-jsint
+int32_t
 low
 =
 GET_JUMP_OFFSET
@@ -14781,7 +14781,7 @@ pc2
 =
 JUMP_OFFSET_LEN
 ;
-jsint
+int32_t
 high
 =
 GET_JUMP_OFFSET
@@ -14822,11 +14822,11 @@ JUMP_OFFSET_LEN
 *
 i
 ;
-jsint
+int32_t
 off
 =
 (
-jsint
+int32_t
 )
 GET_JUMP_OFFSET
 (
@@ -14851,7 +14851,7 @@ BEGIN_CASE
 JSOP_LOOKUPSWITCH
 )
 {
-jsint
+int32_t
 off
 ;
 off
@@ -14894,6 +14894,9 @@ sp
 -
 -
 ;
+int
+npairs
+;
 if
 (
 !
@@ -14911,14 +14914,8 @@ pc2
 =
 off
 ;
-jsint
-npairs
-;
 npairs
 =
-(
-jsint
-)
 GET_UINT16
 (
 pc2
@@ -16948,7 +16945,7 @@ id
 Value
 rval
 ;
-jsint
+int
 i
 ;
 JSObject
@@ -18153,7 +18150,7 @@ PUSH_BOOLEAN
 false
 )
 ;
-jsint
+int32_t
 i
 =
 (

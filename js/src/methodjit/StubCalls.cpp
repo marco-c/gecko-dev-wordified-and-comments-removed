@@ -1301,7 +1301,7 @@ getDenseArrayInitializedLength
 (
 )
 ;
-jsint
+int32_t
 i
 =
 JSID_TO_INT
@@ -9523,7 +9523,7 @@ finally
 ;
 }
 {
-jsint
+int32_t
 low
 =
 GET_JUMP_OFFSET
@@ -9536,7 +9536,7 @@ pc
 =
 JUMP_OFFSET_LEN
 ;
-jsint
+int32_t
 high
 =
 GET_JUMP_OFFSET
@@ -11613,7 +11613,7 @@ success
 endif
 StringToNumberType
 <
-jsint
+int32_t
 >
 (
 cx

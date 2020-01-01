@@ -4282,7 +4282,7 @@ getDenseArrayInitializedLength
 (
 )
 ;
-jsint
+int32_t
 i
 =
 JSID_TO_INT
