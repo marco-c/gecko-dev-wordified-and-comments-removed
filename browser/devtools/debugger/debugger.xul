@@ -753,6 +753,11 @@ devtools
 -
 menulist
 "
+sizetopopup
+=
+"
+always
+"
 label
 =
 "
