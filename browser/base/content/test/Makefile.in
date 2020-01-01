@@ -1122,6 +1122,10 @@ browser_tabs_owner
 .
 js
 \
+browser_visibleFindSelection
+.
+js
+\
 browser_visibleTabs
 .
 js
