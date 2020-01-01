@@ -2348,6 +2348,12 @@ mSetOpenerWindowCalled
 PRUint32
 mSerial
 ;
+nsCOMPtr
+<
+nsIURI
+>
+mLastOpenedURI
+;
 #
 endif
 nsCOMPtr
