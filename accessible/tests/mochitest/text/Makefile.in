@@ -122,6 +122,10 @@ test_whitespaces
 .
 html
 \
+test_wordboundary
+.
+html
+\
 test_words
 .
 html
