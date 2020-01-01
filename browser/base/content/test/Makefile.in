@@ -1169,6 +1169,10 @@ browser_sanitizeDialog
 .
 js
 \
+browser_save_video
+.
+js
+\
 bug564387
 .
 html

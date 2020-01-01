@@ -99,6 +99,12 @@ pageshow
 pageShown
 )
 ;
+executeSoon
+(
+function
+(
+)
+{
 document
 .
 addEventListener
@@ -141,6 +147,9 @@ button
 gBrowser
 .
 contentWindow
+)
+;
+}
 )
 ;
 }
