@@ -195,6 +195,7 @@ JSSTRING_BIT
 4
 )
 ;
+inline
 bool
 hasFlag
 (
@@ -230,6 +231,7 @@ MAX_LENGTH
 -
 1
 ;
+inline
 bool
 isDependent
 (
@@ -243,6 +245,7 @@ DEPENDENT
 )
 ;
 }
+inline
 bool
 isFlat
 (
@@ -256,6 +259,7 @@ isDependent
 )
 ;
 }
+inline
 bool
 isDeflated
 (
@@ -269,6 +273,7 @@ DEFLATED
 )
 ;
 }
+inline
 void
 setDeflated
 (
@@ -282,6 +287,7 @@ DEFLATED
 )
 ;
 }
+inline
 bool
 isMutable
 (
@@ -301,6 +307,7 @@ MUTABLE
 )
 ;
 }
+inline
 bool
 isAtomized
 (
@@ -320,7 +327,7 @@ ATOMIZED
 )
 ;
 }
-JS_ALWAYS_INLINE
+inline
 jschar
 *
 chars
@@ -341,7 +348,7 @@ flatChars
 )
 ;
 }
-JS_ALWAYS_INLINE
+inline
 size_t
 length
 (
@@ -352,7 +359,7 @@ return
 mLength
 ;
 }
-JS_ALWAYS_INLINE
+inline
 bool
 empty
 (
@@ -368,7 +375,7 @@ length
 0
 ;
 }
-JS_ALWAYS_INLINE
+inline
 void
 getCharsAndLength
 (
@@ -401,7 +408,7 @@ length
 )
 ;
 }
-JS_ALWAYS_INLINE
+inline
 void
 getCharsAndEnd
 (
@@ -435,6 +442,7 @@ chars
 )
 ;
 }
+inline
 void
 initFlat
 (
@@ -470,6 +478,7 @@ mChars
 chars
 ;
 }
+inline
 jschar
 *
 flatChars
@@ -488,7 +497,7 @@ return
 mChars
 ;
 }
-JS_ALWAYS_INLINE
+inline
 size_t
 flatLength
 (
@@ -537,6 +546,7 @@ mChars
 chars
 ;
 }
+inline
 void
 flatSetAtomized
 (
@@ -563,6 +573,7 @@ ATOMIZED
 )
 ;
 }
+inline
 void
 flatSetMutable
 (
@@ -587,6 +598,7 @@ mFlags
 MUTABLE
 ;
 }
+inline
 void
 flatClearMutable
 (
@@ -613,6 +625,7 @@ mFlags
 MUTABLE
 ;
 }
+inline
 void
 initDependent
 (
@@ -650,6 +663,7 @@ mBase
 bstr
 ;
 }
+inline
 void
 reinitDependent
 (
@@ -693,6 +707,7 @@ mBase
 bstr
 ;
 }
+inline
 JSString
 *
 dependentBase
@@ -711,7 +726,7 @@ return
 mBase
 ;
 }
-JS_ALWAYS_INLINE
+inline
 jschar
 *
 dependentChars
@@ -747,7 +762,7 @@ dependentStart
 )
 ;
 }
-JS_ALWAYS_INLINE
+inline
 size_t
 dependentStart
 (
@@ -758,7 +773,7 @@ return
 mOffset
 ;
 }
-JS_ALWAYS_INLINE
+inline
 size_t
 dependentLength
 (
