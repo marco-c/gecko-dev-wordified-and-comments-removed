@@ -16,6 +16,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Monitor
 .
 h
@@ -66,6 +75,7 @@ GestureEventListener
 ;
 class
 AsyncPanZoomController
+MOZ_FINAL
 {
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
