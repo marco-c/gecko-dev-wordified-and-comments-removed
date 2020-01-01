@@ -941,6 +941,9 @@ repatcher
 LookupStatus
 update
 (
+VMFrame
+&
+f
 JSContext
 *
 cx
@@ -961,6 +964,9 @@ vp
 LookupStatus
 attachGetProp
 (
+VMFrame
+&
+f
 JSContext
 *
 cx
