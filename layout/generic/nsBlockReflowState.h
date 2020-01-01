@@ -435,6 +435,9 @@ nsReflowStatus
 mReflowStatus
 ;
 nscoord
+mOutsideBulletX
+;
+nscoord
 mBottomEdge
 ;
 nsSize
