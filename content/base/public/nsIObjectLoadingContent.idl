@@ -445,6 +445,9 @@ interface
 nsIPluginInstance
 ;
 interface
+nsIPluginTag
+;
+interface
 nsIDOMElement
 ;
 interface
@@ -1015,8 +1018,11 @@ void
 pluginCrashed
 (
 in
+nsIPluginTag
+pluginTag
+in
 AString
-pluginName
+minidumpID
 in
 boolean
 submittedCrashReport
