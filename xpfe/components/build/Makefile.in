@@ -465,6 +465,16 @@ CPPSRCS
 nsModule
 .
 cpp
+include
+(
+topsrcdir
+)
+/
+config
+/
+config
+.
+mk
 ifdef
 MOZ_PERF_METRICS
 SHARED_LIBRARY_LIBS

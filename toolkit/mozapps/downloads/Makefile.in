@@ -403,12 +403,12 @@ VPATH
 srcdir
 include
 (
-DEPTH
+topsrcdir
 )
 /
 config
 /
-autoconf
+config
 .
 mk
 ifndef
