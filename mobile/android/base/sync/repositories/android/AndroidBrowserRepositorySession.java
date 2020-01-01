@@ -1843,6 +1843,7 @@ Deleting
 storeRecordDeletion
 (
 record
+existingRecord
 )
 ;
 return
@@ -1892,6 +1893,7 @@ local
 storeRecordDeletion
 (
 record
+existingRecord
 )
 ;
 return
@@ -2326,6 +2328,9 @@ storeRecordDeletion
 final
 Record
 record
+final
+Record
+existingRecord
 )
 {
 dbHelper
