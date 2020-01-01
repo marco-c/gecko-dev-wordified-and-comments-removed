@@ -4366,10 +4366,7 @@ JSBool
 JSID_IS_VOID
 (
 const
-js
-:
-:
-RawId
+jsid
 id
 )
 {
@@ -4419,10 +4416,7 @@ JSBool
 JSID_IS_EMPTY
 (
 const
-js
-:
-:
-RawId
+jsid
 id
 )
 {

@@ -4141,7 +4141,7 @@ UnownedBaseShape
 *
 base
 ;
-RawId
+jsid
 propid
 ;
 uint32_t

@@ -34262,7 +34262,7 @@ unknownProperties
 return
 NULL
 ;
-RawId
+jsid
 id
 =
 AtomToId
@@ -35053,7 +35053,7 @@ obj
 foundProto
 )
 {
-RawId
+jsid
 typeId
 =
 types

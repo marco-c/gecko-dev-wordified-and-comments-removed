@@ -894,10 +894,6 @@ JSObject
 *
 RawObject
 ;
-typedef
-jsid
-RawId
-;
 template
 <
 typename
