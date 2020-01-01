@@ -1099,7 +1099,7 @@ ddraw
 surface
 .
 c
-EXPORTS
+EXPORTS_cairo
 +
 =
 cairo
@@ -1129,7 +1129,7 @@ DEFINES
 -
 DCAIRO_OMIT_WIN32_PRINTING
 endif
-EXPORTS
+EXPORTS_cairo
 +
 =
 cairo
@@ -1146,7 +1146,7 @@ PSPDF_BASE_CSRCS
 (
 PDF_CSRCS
 )
-EXPORTS
+EXPORTS_cairo
 +
 =
 (
@@ -1183,7 +1183,7 @@ os2
 surface
 .
 c
-EXPORTS
+EXPORTS_cairo
 +
 =
 cairo
@@ -1207,7 +1207,7 @@ PSPDF_BASE_CSRCS
 (
 PDF_CSRCS
 )
-EXPORTS
+EXPORTS_cairo
 +
 =
 (
@@ -1251,7 +1251,7 @@ quartz
 font
 .
 c
-EXPORTS
+EXPORTS_cairo
 +
 =
 cairo
@@ -1284,7 +1284,7 @@ beos
 surface
 .
 cpp
-EXPORTS
+EXPORTS_cairo
 +
 =
 cairo
@@ -1312,7 +1312,7 @@ PDF_CSRCS
 (
 PS_CSRCS
 )
-EXPORTS
+EXPORTS_cairo
 +
 =
 (
@@ -1339,7 +1339,7 @@ qpainter
 surface
 .
 cpp
-EXPORTS
+EXPORTS_cairo
 +
 =
 cairo
@@ -1366,7 +1366,7 @@ svg
 surface
 .
 c
-EXPORTS
+EXPORTS_cairo
 +
 =
 cairo
@@ -1411,7 +1411,7 @@ xlib
 display
 .
 c
-EXPORTS
+EXPORTS_cairo
 +
 =
 cairo
@@ -1446,7 +1446,7 @@ type1
 subset
 .
 c
-EXPORTS
+EXPORTS_cairo
 +
 =
 cairo
