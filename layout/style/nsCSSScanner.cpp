@@ -1320,6 +1320,10 @@ return
 #
 ifdef
 DEBUG
+if
+(
+gReportErrors
+)
 fprintf
 (
 stderr
