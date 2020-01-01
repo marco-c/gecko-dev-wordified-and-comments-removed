@@ -409,12 +409,6 @@ common
 ref
 .
 html
-fails
--
-if
-(
-B2G
-)
 =
 =
 input
@@ -435,12 +429,6 @@ common
 ref
 .
 html
-fails
--
-if
-(
-B2G
-)
 =
 =
 input

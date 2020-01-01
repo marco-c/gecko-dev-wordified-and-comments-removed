@@ -1020,6 +1020,16 @@ FlushRendering
 {
 }
 virtual
+bool
+NeedsWidgetInvalidation
+(
+)
+{
+return
+true
+;
+}
+virtual
 const
 char
 *
