@@ -34463,7 +34463,7 @@ mozApps
 .
 maxLocalId
 "
-0
+1000
 )
 ;
 pref
