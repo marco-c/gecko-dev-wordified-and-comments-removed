@@ -293,6 +293,13 @@ nscore
 .
 h
 "
+#
+include
+"
+nsContentUtils
+.
+h
+"
 class
 nsIDOMEventListener
 ;
