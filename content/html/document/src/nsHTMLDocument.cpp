@@ -8840,6 +8840,13 @@ if
 root
 )
 {
+MOZ_AUTO_DOC_UPDATE
+(
+this
+UPDATE_CONTENT_MODEL
+PR_TRUE
+)
+;
 nsNodeUtils
 :
 :
