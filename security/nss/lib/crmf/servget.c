@@ -1920,8 +1920,14 @@ newReqMsg
 NULL
 )
 {
-goto
-loser
+PORT_FreeArena
+(
+poolp
+PR_TRUE
+)
+;
+return
+NULL
 ;
 }
 newReqMsg

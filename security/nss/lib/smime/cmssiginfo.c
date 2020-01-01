@@ -599,6 +599,8 @@ PLArenaPool
 poolp
 *
 tmppoolp
+=
+NULL
 ;
 SECAlgorithmID
 *
@@ -1114,6 +1116,16 @@ privkey
 SECKEY_DestroyPrivateKey
 (
 privkey
+)
+;
+if
+(
+tmppoolp
+)
+PORT_FreeArena
+(
+tmppoolp
+PR_FALSE
 )
 ;
 return
