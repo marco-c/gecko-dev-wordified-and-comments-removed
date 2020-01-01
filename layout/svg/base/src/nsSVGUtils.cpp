@@ -3906,6 +3906,15 @@ GetParent
 )
 ;
 }
+if
+(
+!
+aFrame
+)
+{
+return
+;
+}
 NS_ASSERTION
 (
 aFrame
