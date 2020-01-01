@@ -159,6 +159,9 @@ e
 accelKey
 :
 true
+shiftKey
+:
+true
 }
 contentWindow
 )
