@@ -1673,9 +1673,6 @@ AndroidBridge
 *
 sBridge
 ;
-static
-StaticAutoPtr
-<
 nsTArray
 <
 nsCOMPtr
@@ -1683,8 +1680,7 @@ nsCOMPtr
 nsIMobileMessageCallback
 >
 >
->
-sSmsRequests
+mSmsRequests
 ;
 JavaVM
 *
