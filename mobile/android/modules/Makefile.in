@@ -98,6 +98,10 @@ JNI
 .
 jsm
 \
+Sanitizer
+.
+jsm
+\
 (
 NULL
 )
