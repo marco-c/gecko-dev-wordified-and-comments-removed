@@ -1080,6 +1080,10 @@ timeout
 =
 0
 ;
+mImageContainer
+=
+nsnull
+;
 NS_ABORT_IF_FALSE
 (
 mDecoder
@@ -5255,6 +5259,10 @@ mAnim
 currentAnimationFrameIndex
 =
 0
+;
+mImageContainer
+=
+nsnull
 ;
 nsCOMPtr
 <
