@@ -609,9 +609,6 @@ Date
 telemetryCaptureTime
 )
 ;
-return
-aCanvas
-;
 }
 captureAndStore
 :
