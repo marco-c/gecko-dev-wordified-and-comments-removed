@@ -224,9 +224,12 @@ aValue
 JSVAL_VOID
 ;
 const
-nsString
+InfallibleTArray
+<
+BluetoothNamedValue
+>
 &
-path
+v
 =
 mReply
 -
@@ -239,7 +242,7 @@ value
 (
 )
 .
-get_nsString
+get_ArrayOfBluetoothNamedValue
 (
 )
 ;
@@ -256,7 +259,7 @@ mManagerPtr
 GetOwner
 (
 )
-path
+v
 )
 ;
 nsresult
