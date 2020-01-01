@@ -2598,10 +2598,7 @@ class
 ObjectImpl
 ;
 friend
-struct
-js
-:
-:
+class
 ArrayBufferObject
 ;
 uint32_t
