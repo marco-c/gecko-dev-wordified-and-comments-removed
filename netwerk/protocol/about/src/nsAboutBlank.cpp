@@ -226,6 +226,11 @@ nsIAboutModule
 :
 :
 URI_SAFE_FOR_UNTRUSTED_CONTENT
+|
+nsIAboutModule
+:
+:
+HIDE_FROM_ABOUTABOUT
 ;
 return
 NS_OK
