@@ -4283,6 +4283,9 @@ NS_ERROR_NOT_AVAILABLE
 #
 endif
 }
+#
+ifdef
+MOZ_RDF
 nsresult
 nsExternalHelperAppService
 :
@@ -4308,9 +4311,6 @@ nsIHandlerInfo
 aHandlerInfo
 )
 {
-#
-ifdef
-MOZ_RDF
 nsCOMPtr
 <
 nsIRDFLiteral
@@ -4443,14 +4443,9 @@ NS_ERROR_NOT_AVAILABLE
 return
 rv
 ;
-#
-else
-return
-NS_ERROR_NOT_AVAILABLE
-;
+}
 #
 endif
-}
 nsresult
 nsExternalHelperAppService
 :

@@ -301,6 +301,9 @@ nsIHandlerInfo
 aMIMEInfo
 )
 ;
+#
+ifdef
+MOZ_RDF
 NS_HIDDEN_
 (
 nsresult
@@ -326,6 +329,8 @@ nsIHandlerInfo
 aHandlerInfo
 )
 ;
+#
+endif
 NS_HIDDEN_
 (
 nsresult
