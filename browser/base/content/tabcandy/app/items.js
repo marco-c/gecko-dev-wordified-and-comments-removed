@@ -1601,12 +1601,14 @@ if
 !
 blocked
 )
+{
 data
 .
 bounds
 =
 newBounds
 ;
+}
 }
 }
 )
