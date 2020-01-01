@@ -246,7 +246,7 @@ aURI
 PRUint32
 aType
 PRBool
-doSilentDonwload
+doSilentDownload
 const
 PRUnichar
 *
@@ -678,7 +678,7 @@ done
 if
 (
 !
-doSilentDonwload
+doSilentDownload
 )
 {
 if
