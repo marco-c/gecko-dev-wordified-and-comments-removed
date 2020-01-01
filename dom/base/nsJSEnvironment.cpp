@@ -12370,6 +12370,9 @@ MOZ_ASSERT
 <
 =
 sUnmergedNeeded
+&
+&
+sUnmergedNeeded
 <
 =
 kMinConsecutiveUnmerged
@@ -12380,6 +12383,9 @@ MOZ_ASSERT
 0
 <
 =
+sMergedInARow
+&
+&
 sMergedInARow
 <
 =
