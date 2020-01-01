@@ -104,6 +104,14 @@ nsIMozIconURI
 aURI
 )
 ;
+nsresult
+InitWithGIO
+(
+nsIMozIconURI
+*
+aIconURI
+)
+;
 }
 ;
 #
