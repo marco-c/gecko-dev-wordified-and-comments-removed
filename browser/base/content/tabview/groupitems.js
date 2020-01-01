@@ -5016,6 +5016,12 @@ length
 let
 dontArrange
 =
+tabItem
+.
+closedManually
+&
+&
+(
 this
 .
 expanded
@@ -5027,6 +5033,7 @@ this
 shouldStack
 (
 count
+)
 )
 ;
 let
