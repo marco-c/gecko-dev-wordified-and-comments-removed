@@ -494,6 +494,9 @@ mSuspended
 PRPackedBool
 mCompileAttempted
 ;
+PRPackedBool
+mTerminated
+;
 }
 ;
 class

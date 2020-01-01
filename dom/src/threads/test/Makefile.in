@@ -519,6 +519,14 @@ simpleThread_worker
 .
 js
 \
+test_terminate
+.
+html
+\
+terminate_worker
+.
+js
+\
 test_threadErrors
 .
 html
