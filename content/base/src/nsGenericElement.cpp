@@ -9058,7 +9058,7 @@ aNodeName
 mNodeInfo
 -
 >
-GetQualifiedName
+GetQualifiedNameCorrectedCase
 (
 aNodeName
 )
@@ -10087,7 +10087,7 @@ aTagName
 mNodeInfo
 -
 >
-GetQualifiedName
+GetQualifiedNameCorrectedCase
 (
 aTagName
 )
