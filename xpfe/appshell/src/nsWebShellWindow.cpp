@@ -1966,6 +1966,14 @@ pnsMenuBar
 )
 return
 ;
+pnsMenuBar
+-
+>
+Create
+(
+aParentWindow
+)
+;
 nsMenuEvent
 fake
 (
