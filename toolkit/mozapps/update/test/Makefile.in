@@ -197,7 +197,7 @@ in
 moz
 .
 build
-DISABLED_SIMPLE_PROGRAMS
+SIMPLE_PROGRAMS
 =
 (
 cppsrcs

@@ -75,7 +75,7 @@ config
 autoconf
 .
 mk
-DISABLED_SIMPLE_PROGRAMS
+SIMPLE_PROGRAMS
 =
 (
 CPPSRCS
