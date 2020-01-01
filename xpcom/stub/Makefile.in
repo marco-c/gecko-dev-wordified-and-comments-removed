@@ -673,14 +673,6 @@ DLL_SUFFIX
 )
 \
 (
-LIB_PREFIX
-)
-sqlite3
-(
-DLL_SUFFIX
-)
-\
-(
 NULL
 )
 ifeq
