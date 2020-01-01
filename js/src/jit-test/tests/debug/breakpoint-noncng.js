@@ -35,7 +35,7 @@ g
 ;
 g
 .
-evaluateNonCompileAndGo
+evaluate
 (
 "
 function
@@ -76,6 +76,11 @@ n
 \
 n
 "
+{
+compileAndGo
+:
+false
+}
 )
 ;
 var
