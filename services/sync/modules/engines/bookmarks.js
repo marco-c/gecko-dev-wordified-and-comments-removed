@@ -2051,7 +2051,7 @@ _annoSvc
 setItemAnnotation
 (
 folderNode
-SERVER_PATH_ANNO
+OUTGOING_SHARE_ANNO
 "
 "
 0
