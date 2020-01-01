@@ -3487,6 +3487,12 @@ uint32_t
 aCount
 )
 {
+NS_ENSURE_TRUE
+(
+mSpellCheck
+NS_ERROR_NOT_INITIALIZED
+)
+;
 for
 (
 uint32_t
@@ -4865,6 +4871,12 @@ aDoneChecking
 aDoneChecking
 =
 true
+;
+NS_ENSURE_TRUE
+(
+mSpellCheck
+NS_ERROR_NOT_INITIALIZED
+)
 ;
 nsCOMPtr
 <
