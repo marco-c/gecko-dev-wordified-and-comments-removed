@@ -718,6 +718,16 @@ join
 SCRIPT_DIR
 DIST_BIN
 )
+browserEnv
+[
+"
+GNOME_DISABLE_CRASH_DIALOG
+"
+]
+=
+"
+1
+"
 automation
 .
 runApp
