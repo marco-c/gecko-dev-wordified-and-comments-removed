@@ -5218,6 +5218,15 @@ MutableHandleObject
 objp
 )
 ;
+extern
+JSProtoKey
+js_IdentifyClassPrototype
+(
+JSObject
+*
+obj
+)
+;
 bool
 js_FindClassObject
 (
