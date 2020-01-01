@@ -5709,12 +5709,6 @@ ion
 IonContext
 ictx_
 ;
-ion
-:
-:
-IonActivation
-activation_
-;
 bool
 useIon_
 ;
@@ -5751,11 +5745,6 @@ cx
 -
 >
 compartment
-NULL
-)
-activation_
-(
-cx
 NULL
 )
 useIon_
@@ -5864,9 +5853,6 @@ JSContext
 cx
 )
 {
-#
-if
-0
 #
 ifdef
 JS_ION
@@ -6005,8 +5991,6 @@ incUseCount
 ;
 }
 }
-#
-endif
 #
 endif
 return
