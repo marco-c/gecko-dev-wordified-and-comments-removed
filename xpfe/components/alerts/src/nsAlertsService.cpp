@@ -152,6 +152,10 @@ aAlertCookie
 nsIObserver
 *
 aAlertListener
+const
+nsAString
+&
+aAlertName
 )
 {
 nsCOMPtr
