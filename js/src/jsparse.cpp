@@ -5276,6 +5276,15 @@ flags
 |
 =
 TCF_IN_FUNCTION
+|
+(
+tc
+-
+>
+flags
+&
+TCF_COMPILE_N_GO
+)
 ;
 funtc
 .
@@ -6097,6 +6106,8 @@ flags
 TCF_FUN_FLAGS
 |
 TCF_HAS_DEFXMLNS
+|
+TCF_COMPILE_N_GO
 )
 ;
 pn
