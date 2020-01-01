@@ -4003,11 +4003,14 @@ out
 %
 .
 jsasm
-js
 imacro_asm
 .
 js
-.
+(
+DIST
+)
+/
+bin
 /
 js
 imacro_asm
