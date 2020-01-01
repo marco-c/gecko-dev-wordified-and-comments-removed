@@ -121,6 +121,30 @@ element
 )
 :
         
+send_all
+=
+self
+.
+execute_script
+(
+"
+return
+typeof
+window
+.
+wrappedJSObject
+.
+MouseEventShim
+=
+=
+=
+'
+undefined
+'
+;
+"
+)
+        
 self
 .
 execute_script
@@ -135,6 +159,14 @@ arguments
 [
 0
 ]
+null
+null
+null
+null
+arguments
+[
+1
+]
 )
 ;
 "
@@ -144,6 +176,7 @@ self
 library_name
 [
 element
+send_all
 ]
 )
     
