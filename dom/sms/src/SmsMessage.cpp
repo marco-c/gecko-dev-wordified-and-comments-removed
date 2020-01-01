@@ -22,7 +22,7 @@ h
 #
 include
 "
-jsdate
+jsfriendapi
 .
 h
 "
