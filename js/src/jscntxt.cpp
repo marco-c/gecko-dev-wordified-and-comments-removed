@@ -10053,13 +10053,16 @@ for
 const
 char
 *
+*
 hw
 =
+&
 blacklist
 [
 0
 ]
 ;
+*
 hw
 ;
 +
@@ -10078,6 +10081,7 @@ line
 .
 find
 (
+*
 hw
 )
 )
