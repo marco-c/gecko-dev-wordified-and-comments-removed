@@ -929,7 +929,7 @@ if
 (
 NS_FAILED
 (
-nsSVGUtils
+nsLayoutUtils
 :
 :
 GfxRectToIntRect
@@ -13385,7 +13385,7 @@ tile
 nsresult
 res
 =
-nsSVGUtils
+nsLayoutUtils
 :
 :
 GfxRectToIntRect

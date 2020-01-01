@@ -193,7 +193,7 @@ if
 (
 NS_SUCCEEDED
 (
-nsSVGUtils
+nsLayoutUtils
 :
 :
 GfxRectToIntRect
@@ -862,7 +862,7 @@ deviceRect
 nsresult
 rv
 =
-nsSVGUtils
+nsLayoutUtils
 :
 :
 GfxRectToIntRect

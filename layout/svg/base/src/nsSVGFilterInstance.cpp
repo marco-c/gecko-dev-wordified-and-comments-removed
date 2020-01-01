@@ -40,6 +40,13 @@ nsSVGFilterElement
 .
 h
 "
+#
+include
+"
+nsLayoutUtils
+.
+h
+"
 static
 double
 Square
@@ -799,7 +806,7 @@ if
 (
 NS_FAILED
 (
-nsSVGUtils
+nsLayoutUtils
 :
 :
 GfxRectToIntRect
@@ -1982,7 +1989,7 @@ dirty
 nsresult
 rv
 =
-nsSVGUtils
+nsLayoutUtils
 :
 :
 GfxRectToIntRect
