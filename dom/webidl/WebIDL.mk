@@ -159,6 +159,10 @@ HTMLPropertiesCollection
 .
 webidl
 \
+MediaStreamList
+.
+webidl
+\
 NodeList
 .
 webidl
