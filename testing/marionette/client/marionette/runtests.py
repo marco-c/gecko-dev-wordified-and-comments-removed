@@ -4935,17 +4935,10 @@ def
 verify_usage
 (
 self
-)
-:
-        
 options
 tests
-=
-self
-.
-parse_args
-(
 )
+:
         
 if
 not
@@ -5129,6 +5122,12 @@ like
 .
 '
 )
+        
+return
+(
+options
+tests
+)
 def
 startTestRunner
 (
@@ -5193,12 +5192,6 @@ test_file_or_dir
 '
 )
     
-parser
-.
-verify_usage
-(
-)
-    
 options
 tests
 =
@@ -5206,6 +5199,14 @@ parser
 .
 parse_args
 (
+)
+    
+parser
+.
+verify_usage
+(
+options
+tests
 )
     
 runner
