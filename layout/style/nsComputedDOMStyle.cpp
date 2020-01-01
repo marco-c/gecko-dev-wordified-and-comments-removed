@@ -2084,7 +2084,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBinding
+DoGetBinding
 (
 nsIDOMCSSValue
 *
@@ -2165,7 +2165,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetClear
+DoGetClear
 (
 nsIDOMCSSValue
 *
@@ -2226,7 +2226,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetCssFloat
+DoGetCssFloat
 (
 nsIDOMCSSValue
 *
@@ -2287,7 +2287,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBottom
+DoGetBottom
 (
 nsIDOMCSSValue
 *
@@ -2307,7 +2307,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetStackSizing
+DoGetStackSizing
 (
 nsIDOMCSSValue
 *
@@ -2549,7 +2549,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetColor
+DoGetColor
 (
 nsIDOMCSSValue
 *
@@ -2623,7 +2623,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetOpacity
+DoGetOpacity
 (
 nsIDOMCSSValue
 *
@@ -2674,7 +2674,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetColumnCount
+DoGetColumnCount
 (
 nsIDOMCSSValue
 *
@@ -2755,7 +2755,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetColumnWidth
+DoGetColumnWidth
 (
 nsIDOMCSSValue
 *
@@ -2804,7 +2804,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetColumnGap
+DoGetColumnGap
 (
 nsIDOMCSSValue
 *
@@ -2896,7 +2896,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetColumnRuleWidth
+DoGetColumnRuleWidth
 (
 nsIDOMCSSValue
 *
@@ -2951,7 +2951,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetColumnRuleStyle
+DoGetColumnRuleStyle
 (
 nsIDOMCSSValue
 *
@@ -3014,7 +3014,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetColumnRuleColor
+DoGetColumnRuleColor
 (
 nsIDOMCSSValue
 *
@@ -3100,7 +3100,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetContent
+DoGetContent
 (
 nsIDOMCSSValue
 *
@@ -3754,7 +3754,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetCounterIncrement
+DoGetCounterIncrement
 (
 nsIDOMCSSValue
 *
@@ -3989,7 +3989,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetMozTransformOrigin
+DoGetMozTransformOrigin
 (
 nsIDOMCSSValue
 *
@@ -4134,7 +4134,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetMozTransform
+DoGetMozTransform
 (
 nsIDOMCSSValue
 *
@@ -4400,7 +4400,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetCounterReset
+DoGetCounterReset
 (
 nsIDOMCSSValue
 *
@@ -4635,7 +4635,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetQuotes
+DoGetQuotes
 (
 nsIDOMCSSValue
 *
@@ -4880,7 +4880,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetFontFamily
+DoGetFontFamily
 (
 nsIDOMCSSValue
 *
@@ -5101,7 +5101,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetFontSize
+DoGetFontSize
 (
 nsIDOMCSSValue
 *
@@ -5152,7 +5152,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetFontSizeAdjust
+DoGetFontSizeAdjust
 (
 nsIDOMCSSValue
 *
@@ -5234,7 +5234,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetFontStretch
+DoGetFontStretch
 (
 nsIDOMCSSValue
 *
@@ -5388,7 +5388,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetFontStyle
+DoGetFontStyle
 (
 nsIDOMCSSValue
 *
@@ -5451,7 +5451,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetFontWeight
+DoGetFontWeight
 (
 nsIDOMCSSValue
 *
@@ -5562,7 +5562,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetFontVariant
+DoGetFontVariant
 (
 nsIDOMCSSValue
 *
@@ -5625,7 +5625,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetMozFontFeatureSettings
+DoGetMozFontFeatureSettings
 (
 nsIDOMCSSValue
 *
@@ -5719,7 +5719,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetMozFontLanguageOverride
+DoGetMozFontLanguageOverride
 (
 nsIDOMCSSValue
 *
@@ -5963,7 +5963,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBackgroundAttachment
+DoGetBackgroundAttachment
 (
 nsIDOMCSSValue
 *
@@ -5999,7 +5999,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBackgroundClip
+DoGetBackgroundClip
 (
 nsIDOMCSSValue
 *
@@ -6035,7 +6035,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBackgroundColor
+DoGetBackgroundColor
 (
 nsIDOMCSSValue
 *
@@ -7099,7 +7099,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBackgroundImage
+DoGetBackgroundImage
 (
 nsIDOMCSSValue
 *
@@ -7243,7 +7243,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBackgroundInlinePolicy
+DoGetBackgroundInlinePolicy
 (
 nsIDOMCSSValue
 *
@@ -7304,7 +7304,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBackgroundOrigin
+DoGetBackgroundOrigin
 (
 nsIDOMCSSValue
 *
@@ -7340,7 +7340,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBackgroundPosition
+DoGetBackgroundPosition
 (
 nsIDOMCSSValue
 *
@@ -7602,7 +7602,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBackgroundRepeat
+DoGetBackgroundRepeat
 (
 nsIDOMCSSValue
 *
@@ -7638,7 +7638,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetMozBackgroundSize
+DoGetMozBackgroundSize
 (
 nsIDOMCSSValue
 *
@@ -8124,7 +8124,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetPadding
+DoGetPadding
 (
 nsIDOMCSSValue
 *
@@ -8145,7 +8145,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetPaddingTop
+DoGetPaddingTop
 (
 nsIDOMCSSValue
 *
@@ -8165,7 +8165,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetPaddingBottom
+DoGetPaddingBottom
 (
 nsIDOMCSSValue
 *
@@ -8185,7 +8185,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetPaddingLeft
+DoGetPaddingLeft
 (
 nsIDOMCSSValue
 *
@@ -8205,7 +8205,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetPaddingRight
+DoGetPaddingRight
 (
 nsIDOMCSSValue
 *
@@ -8225,7 +8225,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBorderCollapse
+DoGetBorderCollapse
 (
 nsIDOMCSSValue
 *
@@ -8286,7 +8286,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBorderSpacing
+DoGetBorderSpacing
 (
 nsIDOMCSSValue
 *
@@ -8442,7 +8442,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetCaptionSide
+DoGetCaptionSide
 (
 nsIDOMCSSValue
 *
@@ -8503,7 +8503,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetEmptyCells
+DoGetEmptyCells
 (
 nsIDOMCSSValue
 *
@@ -8564,7 +8564,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetTableLayout
+DoGetTableLayout
 (
 nsIDOMCSSValue
 *
@@ -8625,7 +8625,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBorderStyle
+DoGetBorderStyle
 (
 nsIDOMCSSValue
 *
@@ -8646,7 +8646,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBorderTopStyle
+DoGetBorderTopStyle
 (
 nsIDOMCSSValue
 *
@@ -8666,7 +8666,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBorderBottomStyle
+DoGetBorderBottomStyle
 (
 nsIDOMCSSValue
 *
@@ -8686,7 +8686,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBorderLeftStyle
+DoGetBorderLeftStyle
 (
 nsIDOMCSSValue
 *
@@ -8706,7 +8706,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBorderRightStyle
+DoGetBorderRightStyle
 (
 nsIDOMCSSValue
 *
@@ -8726,7 +8726,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBorderBottomColors
+DoGetBorderBottomColors
 (
 nsIDOMCSSValue
 *
@@ -8746,7 +8746,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBorderLeftColors
+DoGetBorderLeftColors
 (
 nsIDOMCSSValue
 *
@@ -8766,7 +8766,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBorderRightColors
+DoGetBorderRightColors
 (
 nsIDOMCSSValue
 *
@@ -8786,7 +8786,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBorderTopColors
+DoGetBorderTopColors
 (
 nsIDOMCSSValue
 *
@@ -8806,7 +8806,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBorderRadiusBottomLeft
+DoGetBorderRadiusBottomLeft
 (
 nsIDOMCSSValue
 *
@@ -8832,7 +8832,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBorderRadiusBottomRight
+DoGetBorderRadiusBottomRight
 (
 nsIDOMCSSValue
 *
@@ -8858,7 +8858,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBorderRadiusTopLeft
+DoGetBorderRadiusTopLeft
 (
 nsIDOMCSSValue
 *
@@ -8884,7 +8884,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBorderRadiusTopRight
+DoGetBorderRadiusTopRight
 (
 nsIDOMCSSValue
 *
@@ -8910,7 +8910,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBorderWidth
+DoGetBorderWidth
 (
 nsIDOMCSSValue
 *
@@ -8931,7 +8931,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBorderTopWidth
+DoGetBorderTopWidth
 (
 nsIDOMCSSValue
 *
@@ -8951,7 +8951,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBorderBottomWidth
+DoGetBorderBottomWidth
 (
 nsIDOMCSSValue
 *
@@ -8971,7 +8971,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBorderLeftWidth
+DoGetBorderLeftWidth
 (
 nsIDOMCSSValue
 *
@@ -8991,7 +8991,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBorderRightWidth
+DoGetBorderRightWidth
 (
 nsIDOMCSSValue
 *
@@ -9011,7 +9011,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBorderTopColor
+DoGetBorderTopColor
 (
 nsIDOMCSSValue
 *
@@ -9031,7 +9031,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBorderBottomColor
+DoGetBorderBottomColor
 (
 nsIDOMCSSValue
 *
@@ -9051,7 +9051,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBorderLeftColor
+DoGetBorderLeftColor
 (
 nsIDOMCSSValue
 *
@@ -9071,7 +9071,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBorderRightColor
+DoGetBorderRightColor
 (
 nsIDOMCSSValue
 *
@@ -9091,7 +9091,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetMarginWidth
+DoGetMarginWidth
 (
 nsIDOMCSSValue
 *
@@ -9112,7 +9112,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetMarginTopWidth
+DoGetMarginTopWidth
 (
 nsIDOMCSSValue
 *
@@ -9132,7 +9132,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetMarginBottomWidth
+DoGetMarginBottomWidth
 (
 nsIDOMCSSValue
 *
@@ -9152,7 +9152,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetMarginLeftWidth
+DoGetMarginLeftWidth
 (
 nsIDOMCSSValue
 *
@@ -9172,7 +9172,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetMarginRightWidth
+DoGetMarginRightWidth
 (
 nsIDOMCSSValue
 *
@@ -9192,7 +9192,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetMarkerOffset
+DoGetMarkerOffset
 (
 nsIDOMCSSValue
 *
@@ -9241,7 +9241,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetOutline
+DoGetOutline
 (
 nsIDOMCSSValue
 *
@@ -9262,7 +9262,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetOutlineWidth
+DoGetOutlineWidth
 (
 nsIDOMCSSValue
 *
@@ -9391,7 +9391,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetOutlineStyle
+DoGetOutlineStyle
 (
 nsIDOMCSSValue
 *
@@ -9454,7 +9454,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetOutlineOffset
+DoGetOutlineOffset
 (
 nsIDOMCSSValue
 *
@@ -9505,7 +9505,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetOutlineRadiusBottomLeft
+DoGetOutlineRadiusBottomLeft
 (
 nsIDOMCSSValue
 *
@@ -9531,7 +9531,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetOutlineRadiusBottomRight
+DoGetOutlineRadiusBottomRight
 (
 nsIDOMCSSValue
 *
@@ -9557,7 +9557,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetOutlineRadiusTopLeft
+DoGetOutlineRadiusTopLeft
 (
 nsIDOMCSSValue
 *
@@ -9583,7 +9583,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetOutlineRadiusTopRight
+DoGetOutlineRadiusTopRight
 (
 nsIDOMCSSValue
 *
@@ -9609,7 +9609,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetOutlineColor
+DoGetOutlineColor
 (
 nsIDOMCSSValue
 *
@@ -10380,7 +10380,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBoxShadow
+DoGetBoxShadow
 (
 nsIDOMCSSValue
 *
@@ -10412,7 +10412,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetZIndex
+DoGetZIndex
 (
 nsIDOMCSSValue
 *
@@ -10461,7 +10461,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetListStyleImage
+DoGetListStyleImage
 (
 nsIDOMCSSValue
 *
@@ -10572,7 +10572,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetListStylePosition
+DoGetListStylePosition
 (
 nsIDOMCSSValue
 *
@@ -10633,7 +10633,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetListStyleType
+DoGetListStyleType
 (
 nsIDOMCSSValue
 *
@@ -10694,7 +10694,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetImageRegion
+DoGetImageRegion
 (
 nsIDOMCSSValue
 *
@@ -10979,7 +10979,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetLineHeight
+DoGetLineHeight
 (
 nsIDOMCSSValue
 *
@@ -11056,7 +11056,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetVerticalAlign
+DoGetVerticalAlign
 (
 nsIDOMCSSValue
 *
@@ -11114,7 +11114,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetTextAlign
+DoGetTextAlign
 (
 nsIDOMCSSValue
 *
@@ -11175,7 +11175,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetTextDecoration
+DoGetTextDecoration
 (
 nsIDOMCSSValue
 *
@@ -11276,7 +11276,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetTextIndent
+DoGetTextIndent
 (
 nsIDOMCSSValue
 *
@@ -11330,7 +11330,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetTextShadow
+DoGetTextShadow
 (
 nsIDOMCSSValue
 *
@@ -11362,7 +11362,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetTextTransform
+DoGetTextTransform
 (
 nsIDOMCSSValue
 *
@@ -11423,7 +11423,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetMozTabSize
+DoGetMozTabSize
 (
 nsIDOMCSSValue
 *
@@ -11474,7 +11474,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetLetterSpacing
+DoGetLetterSpacing
 (
 nsIDOMCSSValue
 *
@@ -11523,7 +11523,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetWordSpacing
+DoGetWordSpacing
 (
 nsIDOMCSSValue
 *
@@ -11574,7 +11574,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetWhiteSpace
+DoGetWhiteSpace
 (
 nsIDOMCSSValue
 *
@@ -11635,7 +11635,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetWindowShadow
+DoGetWindowShadow
 (
 nsIDOMCSSValue
 *
@@ -11696,7 +11696,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetWordWrap
+DoGetWordWrap
 (
 nsIDOMCSSValue
 *
@@ -11757,7 +11757,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetPointerEvents
+DoGetPointerEvents
 (
 nsIDOMCSSValue
 *
@@ -11818,7 +11818,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetVisibility
+DoGetVisibility
 (
 nsIDOMCSSValue
 *
@@ -11879,7 +11879,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetDirection
+DoGetDirection
 (
 nsIDOMCSSValue
 *
@@ -11940,7 +11940,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetUnicodeBidi
+DoGetUnicodeBidi
 (
 nsIDOMCSSValue
 *
@@ -12001,7 +12001,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetCursor
+DoGetCursor
 (
 nsIDOMCSSValue
 *
@@ -12342,7 +12342,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetAppearance
+DoGetAppearance
 (
 nsIDOMCSSValue
 *
@@ -12403,7 +12403,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBoxAlign
+DoGetBoxAlign
 (
 nsIDOMCSSValue
 *
@@ -12464,7 +12464,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBoxDirection
+DoGetBoxDirection
 (
 nsIDOMCSSValue
 *
@@ -12525,7 +12525,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBoxFlex
+DoGetBoxFlex
 (
 nsIDOMCSSValue
 *
@@ -12576,7 +12576,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBoxOrdinalGroup
+DoGetBoxOrdinalGroup
 (
 nsIDOMCSSValue
 *
@@ -12627,7 +12627,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBoxOrient
+DoGetBoxOrient
 (
 nsIDOMCSSValue
 *
@@ -12688,7 +12688,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBoxPack
+DoGetBoxPack
 (
 nsIDOMCSSValue
 *
@@ -12749,7 +12749,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBoxSizing
+DoGetBoxSizing
 (
 nsIDOMCSSValue
 *
@@ -12810,7 +12810,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetBorderImage
+DoGetBorderImage
 (
 nsIDOMCSSValue
 *
@@ -13256,7 +13256,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetFloatEdge
+DoGetFloatEdge
 (
 nsIDOMCSSValue
 *
@@ -13317,7 +13317,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetForceBrokenImageIcon
+DoGetForceBrokenImageIcon
 (
 nsIDOMCSSValue
 *
@@ -13368,7 +13368,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetIMEMode
+DoGetIMEMode
 (
 nsIDOMCSSValue
 *
@@ -13429,7 +13429,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetUserFocus
+DoGetUserFocus
 (
 nsIDOMCSSValue
 *
@@ -13490,7 +13490,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetUserInput
+DoGetUserInput
 (
 nsIDOMCSSValue
 *
@@ -13551,7 +13551,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetUserModify
+DoGetUserModify
 (
 nsIDOMCSSValue
 *
@@ -13612,7 +13612,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetUserSelect
+DoGetUserSelect
 (
 nsIDOMCSSValue
 *
@@ -13673,7 +13673,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetDisplay
+DoGetDisplay
 (
 nsIDOMCSSValue
 *
@@ -13734,7 +13734,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetPosition
+DoGetPosition
 (
 nsIDOMCSSValue
 *
@@ -13795,7 +13795,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetClip
+DoGetClip
 (
 nsIDOMCSSValue
 *
@@ -14155,7 +14155,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetOverflow
+DoGetOverflow
 (
 nsIDOMCSSValue
 *
@@ -14246,7 +14246,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetOverflowX
+DoGetOverflowX
 (
 nsIDOMCSSValue
 *
@@ -14307,7 +14307,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetOverflowY
+DoGetOverflowY
 (
 nsIDOMCSSValue
 *
@@ -14368,7 +14368,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetResize
+DoGetResize
 (
 nsIDOMCSSValue
 *
@@ -14429,7 +14429,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetPageBreakAfter
+DoGetPageBreakAfter
 (
 nsIDOMCSSValue
 *
@@ -14504,7 +14504,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetPageBreakBefore
+DoGetPageBreakBefore
 (
 nsIDOMCSSValue
 *
@@ -14579,7 +14579,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetHeight
+DoGetHeight
 (
 nsIDOMCSSValue
 *
@@ -14756,7 +14756,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetWidth
+DoGetWidth
 (
 nsIDOMCSSValue
 *
@@ -14936,7 +14936,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetMaxHeight
+DoGetMaxHeight
 (
 nsIDOMCSSValue
 *
@@ -14990,7 +14990,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetMaxWidth
+DoGetMaxWidth
 (
 nsIDOMCSSValue
 *
@@ -15048,7 +15048,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetMinHeight
+DoGetMinHeight
 (
 nsIDOMCSSValue
 *
@@ -15102,7 +15102,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetMinWidth
+DoGetMinWidth
 (
 nsIDOMCSSValue
 *
@@ -15160,7 +15160,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetLeft
+DoGetLeft
 (
 nsIDOMCSSValue
 *
@@ -15180,7 +15180,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetRight
+DoGetRight
 (
 nsIDOMCSSValue
 *
@@ -15200,7 +15200,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetTop
+DoGetTop
 (
 nsIDOMCSSValue
 *
@@ -18079,7 +18079,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetFill
+DoGetFill
 (
 nsIDOMCSSValue
 *
@@ -18099,7 +18099,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetStroke
+DoGetStroke
 (
 nsIDOMCSSValue
 *
@@ -18119,7 +18119,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetMarkerEnd
+DoGetMarkerEnd
 (
 nsIDOMCSSValue
 *
@@ -18193,7 +18193,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetMarkerMid
+DoGetMarkerMid
 (
 nsIDOMCSSValue
 *
@@ -18267,7 +18267,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetMarkerStart
+DoGetMarkerStart
 (
 nsIDOMCSSValue
 *
@@ -18341,7 +18341,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetStrokeDasharray
+DoGetStrokeDasharray
 (
 nsIDOMCSSValue
 *
@@ -18505,7 +18505,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetStrokeDashoffset
+DoGetStrokeDashoffset
 (
 nsIDOMCSSValue
 *
@@ -18554,7 +18554,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetStrokeWidth
+DoGetStrokeWidth
 (
 nsIDOMCSSValue
 *
@@ -18603,7 +18603,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetFillOpacity
+DoGetFillOpacity
 (
 nsIDOMCSSValue
 *
@@ -18654,7 +18654,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetFloodOpacity
+DoGetFloodOpacity
 (
 nsIDOMCSSValue
 *
@@ -18705,7 +18705,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetStopOpacity
+DoGetStopOpacity
 (
 nsIDOMCSSValue
 *
@@ -18756,7 +18756,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetStrokeMiterlimit
+DoGetStrokeMiterlimit
 (
 nsIDOMCSSValue
 *
@@ -18807,7 +18807,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetStrokeOpacity
+DoGetStrokeOpacity
 (
 nsIDOMCSSValue
 *
@@ -18858,7 +18858,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetClipRule
+DoGetClipRule
 (
 nsIDOMCSSValue
 *
@@ -18919,7 +18919,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetFillRule
+DoGetFillRule
 (
 nsIDOMCSSValue
 *
@@ -18980,7 +18980,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetStrokeLinecap
+DoGetStrokeLinecap
 (
 nsIDOMCSSValue
 *
@@ -19041,7 +19041,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetStrokeLinejoin
+DoGetStrokeLinejoin
 (
 nsIDOMCSSValue
 *
@@ -19102,7 +19102,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetTextAnchor
+DoGetTextAnchor
 (
 nsIDOMCSSValue
 *
@@ -19163,7 +19163,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetColorInterpolation
+DoGetColorInterpolation
 (
 nsIDOMCSSValue
 *
@@ -19224,7 +19224,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetColorInterpolationFilters
+DoGetColorInterpolationFilters
 (
 nsIDOMCSSValue
 *
@@ -19285,7 +19285,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetDominantBaseline
+DoGetDominantBaseline
 (
 nsIDOMCSSValue
 *
@@ -19346,7 +19346,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetImageRendering
+DoGetImageRendering
 (
 nsIDOMCSSValue
 *
@@ -19407,7 +19407,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetShapeRendering
+DoGetShapeRendering
 (
 nsIDOMCSSValue
 *
@@ -19468,7 +19468,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetTextRendering
+DoGetTextRendering
 (
 nsIDOMCSSValue
 *
@@ -19529,7 +19529,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetFloodColor
+DoGetFloodColor
 (
 nsIDOMCSSValue
 *
@@ -19596,7 +19596,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetLightingColor
+DoGetLightingColor
 (
 nsIDOMCSSValue
 *
@@ -19663,7 +19663,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetStopColor
+DoGetStopColor
 (
 nsIDOMCSSValue
 *
@@ -19730,7 +19730,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetClipPath
+DoGetClipPath
 (
 nsIDOMCSSValue
 *
@@ -19804,7 +19804,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetFilter
+DoGetFilter
 (
 nsIDOMCSSValue
 *
@@ -19878,7 +19878,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetMask
+DoGetMask
 (
 nsIDOMCSSValue
 *
@@ -19952,7 +19952,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetTransitionDelay
+DoGetTransitionDelay
 (
 nsIDOMCSSValue
 *
@@ -20106,7 +20106,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetTransitionDuration
+DoGetTransitionDuration
 (
 nsIDOMCSSValue
 *
@@ -20260,7 +20260,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetTransitionProperty
+DoGetTransitionProperty
 (
 nsIDOMCSSValue
 *
@@ -20487,7 +20487,7 @@ nsresult
 nsComputedDOMStyle
 :
 :
-GetTransitionTimingFunction
+DoGetTransitionTimingFunction
 (
 nsIDOMCSSValue
 *
@@ -20683,7 +20683,7 @@ _prop
 nsComputedDOMStyle
 :
 :
-Get
+DoGet
 #
 #
 _method
@@ -20706,7 +20706,7 @@ _prop
 nsComputedDOMStyle
 :
 :
-Get
+DoGet
 #
 #
 _method

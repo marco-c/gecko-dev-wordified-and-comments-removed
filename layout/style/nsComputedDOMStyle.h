@@ -482,6 +482,17 @@ nsIDOMCSSValue
 aValue
 )
 ;
+nsresult
+GetSVGPaintFor
+(
+PRBool
+aFill
+nsIDOMCSSValue
+*
+*
+aValue
+)
+;
 PRBool
 GetLineHeightCoord
 (
@@ -565,7 +576,7 @@ aString
 )
 ;
 nsresult
-GetAppearance
+DoGetAppearance
 (
 nsIDOMCSSValue
 *
@@ -574,7 +585,7 @@ aValue
 )
 ;
 nsresult
-GetBoxAlign
+DoGetBoxAlign
 (
 nsIDOMCSSValue
 *
@@ -583,7 +594,7 @@ aValue
 )
 ;
 nsresult
-GetBoxDirection
+DoGetBoxDirection
 (
 nsIDOMCSSValue
 *
@@ -592,7 +603,7 @@ aValue
 )
 ;
 nsresult
-GetBoxFlex
+DoGetBoxFlex
 (
 nsIDOMCSSValue
 *
@@ -601,7 +612,7 @@ aValue
 )
 ;
 nsresult
-GetBoxOrdinalGroup
+DoGetBoxOrdinalGroup
 (
 nsIDOMCSSValue
 *
@@ -610,7 +621,7 @@ aValue
 )
 ;
 nsresult
-GetBoxOrient
+DoGetBoxOrient
 (
 nsIDOMCSSValue
 *
@@ -619,7 +630,7 @@ aValue
 )
 ;
 nsresult
-GetBoxPack
+DoGetBoxPack
 (
 nsIDOMCSSValue
 *
@@ -628,7 +639,7 @@ aValue
 )
 ;
 nsresult
-GetBoxSizing
+DoGetBoxSizing
 (
 nsIDOMCSSValue
 *
@@ -637,7 +648,7 @@ aValue
 )
 ;
 nsresult
-GetWidth
+DoGetWidth
 (
 nsIDOMCSSValue
 *
@@ -646,7 +657,7 @@ aValue
 )
 ;
 nsresult
-GetHeight
+DoGetHeight
 (
 nsIDOMCSSValue
 *
@@ -655,7 +666,7 @@ aValue
 )
 ;
 nsresult
-GetMaxHeight
+DoGetMaxHeight
 (
 nsIDOMCSSValue
 *
@@ -664,7 +675,7 @@ aValue
 )
 ;
 nsresult
-GetMaxWidth
+DoGetMaxWidth
 (
 nsIDOMCSSValue
 *
@@ -673,7 +684,7 @@ aValue
 )
 ;
 nsresult
-GetMinHeight
+DoGetMinHeight
 (
 nsIDOMCSSValue
 *
@@ -682,7 +693,7 @@ aValue
 )
 ;
 nsresult
-GetMinWidth
+DoGetMinWidth
 (
 nsIDOMCSSValue
 *
@@ -691,7 +702,7 @@ aValue
 )
 ;
 nsresult
-GetLeft
+DoGetLeft
 (
 nsIDOMCSSValue
 *
@@ -700,7 +711,7 @@ aValue
 )
 ;
 nsresult
-GetTop
+DoGetTop
 (
 nsIDOMCSSValue
 *
@@ -709,7 +720,7 @@ aValue
 )
 ;
 nsresult
-GetRight
+DoGetRight
 (
 nsIDOMCSSValue
 *
@@ -718,7 +729,7 @@ aValue
 )
 ;
 nsresult
-GetBottom
+DoGetBottom
 (
 nsIDOMCSSValue
 *
@@ -727,7 +738,7 @@ aValue
 )
 ;
 nsresult
-GetStackSizing
+DoGetStackSizing
 (
 nsIDOMCSSValue
 *
@@ -736,7 +747,7 @@ aValue
 )
 ;
 nsresult
-GetColor
+DoGetColor
 (
 nsIDOMCSSValue
 *
@@ -745,7 +756,7 @@ aValue
 )
 ;
 nsresult
-GetFontFamily
+DoGetFontFamily
 (
 nsIDOMCSSValue
 *
@@ -754,7 +765,7 @@ aValue
 )
 ;
 nsresult
-GetMozFontFeatureSettings
+DoGetMozFontFeatureSettings
 (
 nsIDOMCSSValue
 *
@@ -763,7 +774,7 @@ aValue
 )
 ;
 nsresult
-GetMozFontLanguageOverride
+DoGetMozFontLanguageOverride
 (
 nsIDOMCSSValue
 *
@@ -772,7 +783,7 @@ aValue
 )
 ;
 nsresult
-GetFontSize
+DoGetFontSize
 (
 nsIDOMCSSValue
 *
@@ -781,7 +792,7 @@ aValue
 )
 ;
 nsresult
-GetFontSizeAdjust
+DoGetFontSizeAdjust
 (
 nsIDOMCSSValue
 *
@@ -790,7 +801,7 @@ aValue
 )
 ;
 nsresult
-GetFontStretch
+DoGetFontStretch
 (
 nsIDOMCSSValue
 *
@@ -799,7 +810,7 @@ aValue
 )
 ;
 nsresult
-GetFontStyle
+DoGetFontStyle
 (
 nsIDOMCSSValue
 *
@@ -808,7 +819,7 @@ aValue
 )
 ;
 nsresult
-GetFontWeight
+DoGetFontWeight
 (
 nsIDOMCSSValue
 *
@@ -817,7 +828,7 @@ aValue
 )
 ;
 nsresult
-GetFontVariant
+DoGetFontVariant
 (
 nsIDOMCSSValue
 *
@@ -826,7 +837,7 @@ aValue
 )
 ;
 nsresult
-GetBackgroundAttachment
+DoGetBackgroundAttachment
 (
 nsIDOMCSSValue
 *
@@ -835,7 +846,7 @@ aValue
 )
 ;
 nsresult
-GetBackgroundColor
+DoGetBackgroundColor
 (
 nsIDOMCSSValue
 *
@@ -844,7 +855,7 @@ aValue
 )
 ;
 nsresult
-GetBackgroundImage
+DoGetBackgroundImage
 (
 nsIDOMCSSValue
 *
@@ -853,7 +864,7 @@ aValue
 )
 ;
 nsresult
-GetBackgroundPosition
+DoGetBackgroundPosition
 (
 nsIDOMCSSValue
 *
@@ -862,7 +873,7 @@ aValue
 )
 ;
 nsresult
-GetBackgroundRepeat
+DoGetBackgroundRepeat
 (
 nsIDOMCSSValue
 *
@@ -871,7 +882,7 @@ aValue
 )
 ;
 nsresult
-GetBackgroundClip
+DoGetBackgroundClip
 (
 nsIDOMCSSValue
 *
@@ -880,7 +891,7 @@ aValue
 )
 ;
 nsresult
-GetBackgroundInlinePolicy
+DoGetBackgroundInlinePolicy
 (
 nsIDOMCSSValue
 *
@@ -889,7 +900,7 @@ aValue
 )
 ;
 nsresult
-GetBackgroundOrigin
+DoGetBackgroundOrigin
 (
 nsIDOMCSSValue
 *
@@ -898,7 +909,7 @@ aValue
 )
 ;
 nsresult
-GetMozBackgroundSize
+DoGetMozBackgroundSize
 (
 nsIDOMCSSValue
 *
@@ -907,7 +918,7 @@ aValue
 )
 ;
 nsresult
-GetPadding
+DoGetPadding
 (
 nsIDOMCSSValue
 *
@@ -916,7 +927,7 @@ aValue
 )
 ;
 nsresult
-GetPaddingTop
+DoGetPaddingTop
 (
 nsIDOMCSSValue
 *
@@ -925,7 +936,7 @@ aValue
 )
 ;
 nsresult
-GetPaddingBottom
+DoGetPaddingBottom
 (
 nsIDOMCSSValue
 *
@@ -934,7 +945,7 @@ aValue
 )
 ;
 nsresult
-GetPaddingLeft
+DoGetPaddingLeft
 (
 nsIDOMCSSValue
 *
@@ -943,7 +954,7 @@ aValue
 )
 ;
 nsresult
-GetPaddingRight
+DoGetPaddingRight
 (
 nsIDOMCSSValue
 *
@@ -952,7 +963,7 @@ aValue
 )
 ;
 nsresult
-GetBorderCollapse
+DoGetBorderCollapse
 (
 nsIDOMCSSValue
 *
@@ -961,7 +972,7 @@ aValue
 )
 ;
 nsresult
-GetBorderSpacing
+DoGetBorderSpacing
 (
 nsIDOMCSSValue
 *
@@ -970,7 +981,7 @@ aValue
 )
 ;
 nsresult
-GetCaptionSide
+DoGetCaptionSide
 (
 nsIDOMCSSValue
 *
@@ -979,7 +990,7 @@ aValue
 )
 ;
 nsresult
-GetEmptyCells
+DoGetEmptyCells
 (
 nsIDOMCSSValue
 *
@@ -988,7 +999,7 @@ aValue
 )
 ;
 nsresult
-GetTableLayout
+DoGetTableLayout
 (
 nsIDOMCSSValue
 *
@@ -997,7 +1008,7 @@ aValue
 )
 ;
 nsresult
-GetVerticalAlign
+DoGetVerticalAlign
 (
 nsIDOMCSSValue
 *
@@ -1006,7 +1017,7 @@ aValue
 )
 ;
 nsresult
-GetBorderStyle
+DoGetBorderStyle
 (
 nsIDOMCSSValue
 *
@@ -1015,7 +1026,7 @@ aValue
 )
 ;
 nsresult
-GetBorderWidth
+DoGetBorderWidth
 (
 nsIDOMCSSValue
 *
@@ -1024,7 +1035,7 @@ aValue
 )
 ;
 nsresult
-GetBorderTopStyle
+DoGetBorderTopStyle
 (
 nsIDOMCSSValue
 *
@@ -1033,7 +1044,7 @@ aValue
 )
 ;
 nsresult
-GetBorderBottomStyle
+DoGetBorderBottomStyle
 (
 nsIDOMCSSValue
 *
@@ -1042,7 +1053,7 @@ aValue
 )
 ;
 nsresult
-GetBorderLeftStyle
+DoGetBorderLeftStyle
 (
 nsIDOMCSSValue
 *
@@ -1051,7 +1062,7 @@ aValue
 )
 ;
 nsresult
-GetBorderRightStyle
+DoGetBorderRightStyle
 (
 nsIDOMCSSValue
 *
@@ -1060,7 +1071,7 @@ aValue
 )
 ;
 nsresult
-GetBorderTopWidth
+DoGetBorderTopWidth
 (
 nsIDOMCSSValue
 *
@@ -1069,7 +1080,7 @@ aValue
 )
 ;
 nsresult
-GetBorderBottomWidth
+DoGetBorderBottomWidth
 (
 nsIDOMCSSValue
 *
@@ -1078,7 +1089,7 @@ aValue
 )
 ;
 nsresult
-GetBorderLeftWidth
+DoGetBorderLeftWidth
 (
 nsIDOMCSSValue
 *
@@ -1087,7 +1098,7 @@ aValue
 )
 ;
 nsresult
-GetBorderRightWidth
+DoGetBorderRightWidth
 (
 nsIDOMCSSValue
 *
@@ -1096,7 +1107,7 @@ aValue
 )
 ;
 nsresult
-GetBorderTopColor
+DoGetBorderTopColor
 (
 nsIDOMCSSValue
 *
@@ -1105,7 +1116,7 @@ aValue
 )
 ;
 nsresult
-GetBorderBottomColor
+DoGetBorderBottomColor
 (
 nsIDOMCSSValue
 *
@@ -1114,7 +1125,7 @@ aValue
 )
 ;
 nsresult
-GetBorderLeftColor
+DoGetBorderLeftColor
 (
 nsIDOMCSSValue
 *
@@ -1123,7 +1134,7 @@ aValue
 )
 ;
 nsresult
-GetBorderRightColor
+DoGetBorderRightColor
 (
 nsIDOMCSSValue
 *
@@ -1132,7 +1143,7 @@ aValue
 )
 ;
 nsresult
-GetBorderBottomColors
+DoGetBorderBottomColors
 (
 nsIDOMCSSValue
 *
@@ -1141,7 +1152,7 @@ aValue
 )
 ;
 nsresult
-GetBorderLeftColors
+DoGetBorderLeftColors
 (
 nsIDOMCSSValue
 *
@@ -1150,7 +1161,7 @@ aValue
 )
 ;
 nsresult
-GetBorderRightColors
+DoGetBorderRightColors
 (
 nsIDOMCSSValue
 *
@@ -1159,7 +1170,7 @@ aValue
 )
 ;
 nsresult
-GetBorderTopColors
+DoGetBorderTopColors
 (
 nsIDOMCSSValue
 *
@@ -1168,7 +1179,7 @@ aValue
 )
 ;
 nsresult
-GetBorderRadiusBottomLeft
+DoGetBorderRadiusBottomLeft
 (
 nsIDOMCSSValue
 *
@@ -1177,7 +1188,7 @@ aValue
 )
 ;
 nsresult
-GetBorderRadiusBottomRight
+DoGetBorderRadiusBottomRight
 (
 nsIDOMCSSValue
 *
@@ -1186,7 +1197,7 @@ aValue
 )
 ;
 nsresult
-GetBorderRadiusTopLeft
+DoGetBorderRadiusTopLeft
 (
 nsIDOMCSSValue
 *
@@ -1195,7 +1206,7 @@ aValue
 )
 ;
 nsresult
-GetBorderRadiusTopRight
+DoGetBorderRadiusTopRight
 (
 nsIDOMCSSValue
 *
@@ -1204,7 +1215,7 @@ aValue
 )
 ;
 nsresult
-GetFloatEdge
+DoGetFloatEdge
 (
 nsIDOMCSSValue
 *
@@ -1213,7 +1224,7 @@ aValue
 )
 ;
 nsresult
-GetBorderImage
+DoGetBorderImage
 (
 nsIDOMCSSValue
 *
@@ -1222,7 +1233,7 @@ aValue
 )
 ;
 nsresult
-GetBoxShadow
+DoGetBoxShadow
 (
 nsIDOMCSSValue
 *
@@ -1231,7 +1242,7 @@ aValue
 )
 ;
 nsresult
-GetWindowShadow
+DoGetWindowShadow
 (
 nsIDOMCSSValue
 *
@@ -1240,7 +1251,7 @@ aValue
 )
 ;
 nsresult
-GetMarginWidth
+DoGetMarginWidth
 (
 nsIDOMCSSValue
 *
@@ -1249,7 +1260,7 @@ aValue
 )
 ;
 nsresult
-GetMarginTopWidth
+DoGetMarginTopWidth
 (
 nsIDOMCSSValue
 *
@@ -1258,7 +1269,7 @@ aValue
 )
 ;
 nsresult
-GetMarginBottomWidth
+DoGetMarginBottomWidth
 (
 nsIDOMCSSValue
 *
@@ -1267,7 +1278,7 @@ aValue
 )
 ;
 nsresult
-GetMarginLeftWidth
+DoGetMarginLeftWidth
 (
 nsIDOMCSSValue
 *
@@ -1276,7 +1287,7 @@ aValue
 )
 ;
 nsresult
-GetMarginRightWidth
+DoGetMarginRightWidth
 (
 nsIDOMCSSValue
 *
@@ -1285,7 +1296,7 @@ aValue
 )
 ;
 nsresult
-GetOutline
+DoGetOutline
 (
 nsIDOMCSSValue
 *
@@ -1294,7 +1305,7 @@ aValue
 )
 ;
 nsresult
-GetOutlineWidth
+DoGetOutlineWidth
 (
 nsIDOMCSSValue
 *
@@ -1303,7 +1314,7 @@ aValue
 )
 ;
 nsresult
-GetOutlineStyle
+DoGetOutlineStyle
 (
 nsIDOMCSSValue
 *
@@ -1312,7 +1323,7 @@ aValue
 )
 ;
 nsresult
-GetOutlineColor
+DoGetOutlineColor
 (
 nsIDOMCSSValue
 *
@@ -1321,7 +1332,7 @@ aValue
 )
 ;
 nsresult
-GetOutlineOffset
+DoGetOutlineOffset
 (
 nsIDOMCSSValue
 *
@@ -1330,7 +1341,7 @@ aValue
 )
 ;
 nsresult
-GetOutlineRadiusBottomLeft
+DoGetOutlineRadiusBottomLeft
 (
 nsIDOMCSSValue
 *
@@ -1339,7 +1350,7 @@ aValue
 )
 ;
 nsresult
-GetOutlineRadiusBottomRight
+DoGetOutlineRadiusBottomRight
 (
 nsIDOMCSSValue
 *
@@ -1348,7 +1359,7 @@ aValue
 )
 ;
 nsresult
-GetOutlineRadiusTopLeft
+DoGetOutlineRadiusTopLeft
 (
 nsIDOMCSSValue
 *
@@ -1357,7 +1368,7 @@ aValue
 )
 ;
 nsresult
-GetOutlineRadiusTopRight
+DoGetOutlineRadiusTopRight
 (
 nsIDOMCSSValue
 *
@@ -1366,7 +1377,7 @@ aValue
 )
 ;
 nsresult
-GetContent
+DoGetContent
 (
 nsIDOMCSSValue
 *
@@ -1375,7 +1386,7 @@ aValue
 )
 ;
 nsresult
-GetCounterIncrement
+DoGetCounterIncrement
 (
 nsIDOMCSSValue
 *
@@ -1384,7 +1395,7 @@ aValue
 )
 ;
 nsresult
-GetCounterReset
+DoGetCounterReset
 (
 nsIDOMCSSValue
 *
@@ -1393,7 +1404,7 @@ aValue
 )
 ;
 nsresult
-GetMarkerOffset
+DoGetMarkerOffset
 (
 nsIDOMCSSValue
 *
@@ -1402,7 +1413,7 @@ aValue
 )
 ;
 nsresult
-GetQuotes
+DoGetQuotes
 (
 nsIDOMCSSValue
 *
@@ -1411,7 +1422,7 @@ aValue
 )
 ;
 nsresult
-GetZIndex
+DoGetZIndex
 (
 nsIDOMCSSValue
 *
@@ -1420,7 +1431,7 @@ aValue
 )
 ;
 nsresult
-GetListStyleImage
+DoGetListStyleImage
 (
 nsIDOMCSSValue
 *
@@ -1429,7 +1440,7 @@ aValue
 )
 ;
 nsresult
-GetListStylePosition
+DoGetListStylePosition
 (
 nsIDOMCSSValue
 *
@@ -1438,7 +1449,7 @@ aValue
 )
 ;
 nsresult
-GetListStyleType
+DoGetListStyleType
 (
 nsIDOMCSSValue
 *
@@ -1447,7 +1458,7 @@ aValue
 )
 ;
 nsresult
-GetImageRegion
+DoGetImageRegion
 (
 nsIDOMCSSValue
 *
@@ -1456,7 +1467,7 @@ aValue
 )
 ;
 nsresult
-GetLineHeight
+DoGetLineHeight
 (
 nsIDOMCSSValue
 *
@@ -1465,7 +1476,7 @@ aValue
 )
 ;
 nsresult
-GetTextAlign
+DoGetTextAlign
 (
 nsIDOMCSSValue
 *
@@ -1474,7 +1485,7 @@ aValue
 )
 ;
 nsresult
-GetTextDecoration
+DoGetTextDecoration
 (
 nsIDOMCSSValue
 *
@@ -1483,7 +1494,7 @@ aValue
 )
 ;
 nsresult
-GetTextIndent
+DoGetTextIndent
 (
 nsIDOMCSSValue
 *
@@ -1492,7 +1503,7 @@ aValue
 )
 ;
 nsresult
-GetTextTransform
+DoGetTextTransform
 (
 nsIDOMCSSValue
 *
@@ -1501,7 +1512,7 @@ aValue
 )
 ;
 nsresult
-GetTextShadow
+DoGetTextShadow
 (
 nsIDOMCSSValue
 *
@@ -1510,7 +1521,7 @@ aValue
 )
 ;
 nsresult
-GetLetterSpacing
+DoGetLetterSpacing
 (
 nsIDOMCSSValue
 *
@@ -1519,7 +1530,7 @@ aValue
 )
 ;
 nsresult
-GetWordSpacing
+DoGetWordSpacing
 (
 nsIDOMCSSValue
 *
@@ -1528,7 +1539,7 @@ aValue
 )
 ;
 nsresult
-GetWhiteSpace
+DoGetWhiteSpace
 (
 nsIDOMCSSValue
 *
@@ -1537,7 +1548,7 @@ aValue
 )
 ;
 nsresult
-GetWordWrap
+DoGetWordWrap
 (
 nsIDOMCSSValue
 *
@@ -1546,7 +1557,7 @@ aValue
 )
 ;
 nsresult
-GetMozTabSize
+DoGetMozTabSize
 (
 nsIDOMCSSValue
 *
@@ -1555,7 +1566,7 @@ aValue
 )
 ;
 nsresult
-GetOpacity
+DoGetOpacity
 (
 nsIDOMCSSValue
 *
@@ -1564,7 +1575,7 @@ aValue
 )
 ;
 nsresult
-GetPointerEvents
+DoGetPointerEvents
 (
 nsIDOMCSSValue
 *
@@ -1573,7 +1584,7 @@ aValue
 )
 ;
 nsresult
-GetVisibility
+DoGetVisibility
 (
 nsIDOMCSSValue
 *
@@ -1582,7 +1593,7 @@ aValue
 )
 ;
 nsresult
-GetDirection
+DoGetDirection
 (
 nsIDOMCSSValue
 *
@@ -1591,7 +1602,7 @@ aValue
 )
 ;
 nsresult
-GetUnicodeBidi
+DoGetUnicodeBidi
 (
 nsIDOMCSSValue
 *
@@ -1600,7 +1611,7 @@ aValue
 )
 ;
 nsresult
-GetBinding
+DoGetBinding
 (
 nsIDOMCSSValue
 *
@@ -1609,7 +1620,7 @@ aValue
 )
 ;
 nsresult
-GetClear
+DoGetClear
 (
 nsIDOMCSSValue
 *
@@ -1618,7 +1629,7 @@ aValue
 )
 ;
 nsresult
-GetCssFloat
+DoGetCssFloat
 (
 nsIDOMCSSValue
 *
@@ -1627,7 +1638,7 @@ aValue
 )
 ;
 nsresult
-GetDisplay
+DoGetDisplay
 (
 nsIDOMCSSValue
 *
@@ -1636,7 +1647,7 @@ aValue
 )
 ;
 nsresult
-GetPosition
+DoGetPosition
 (
 nsIDOMCSSValue
 *
@@ -1645,7 +1656,7 @@ aValue
 )
 ;
 nsresult
-GetClip
+DoGetClip
 (
 nsIDOMCSSValue
 *
@@ -1654,7 +1665,7 @@ aValue
 )
 ;
 nsresult
-GetOverflow
+DoGetOverflow
 (
 nsIDOMCSSValue
 *
@@ -1663,7 +1674,7 @@ aValue
 )
 ;
 nsresult
-GetOverflowX
+DoGetOverflowX
 (
 nsIDOMCSSValue
 *
@@ -1672,7 +1683,7 @@ aValue
 )
 ;
 nsresult
-GetOverflowY
+DoGetOverflowY
 (
 nsIDOMCSSValue
 *
@@ -1681,7 +1692,7 @@ aValue
 )
 ;
 nsresult
-GetResize
+DoGetResize
 (
 nsIDOMCSSValue
 *
@@ -1690,7 +1701,7 @@ aValue
 )
 ;
 nsresult
-GetPageBreakAfter
+DoGetPageBreakAfter
 (
 nsIDOMCSSValue
 *
@@ -1699,7 +1710,7 @@ aValue
 )
 ;
 nsresult
-GetPageBreakBefore
+DoGetPageBreakBefore
 (
 nsIDOMCSSValue
 *
@@ -1708,7 +1719,7 @@ aValue
 )
 ;
 nsresult
-GetMozTransform
+DoGetMozTransform
 (
 nsIDOMCSSValue
 *
@@ -1717,7 +1728,7 @@ aValue
 )
 ;
 nsresult
-GetMozTransformOrigin
+DoGetMozTransformOrigin
 (
 nsIDOMCSSValue
 *
@@ -1726,7 +1737,7 @@ aValue
 )
 ;
 nsresult
-GetCursor
+DoGetCursor
 (
 nsIDOMCSSValue
 *
@@ -1735,7 +1746,7 @@ aValue
 )
 ;
 nsresult
-GetForceBrokenImageIcon
+DoGetForceBrokenImageIcon
 (
 nsIDOMCSSValue
 *
@@ -1744,7 +1755,7 @@ aValue
 )
 ;
 nsresult
-GetIMEMode
+DoGetIMEMode
 (
 nsIDOMCSSValue
 *
@@ -1753,7 +1764,7 @@ aValue
 )
 ;
 nsresult
-GetUserFocus
+DoGetUserFocus
 (
 nsIDOMCSSValue
 *
@@ -1762,7 +1773,7 @@ aValue
 )
 ;
 nsresult
-GetUserInput
+DoGetUserInput
 (
 nsIDOMCSSValue
 *
@@ -1771,7 +1782,7 @@ aValue
 )
 ;
 nsresult
-GetUserModify
+DoGetUserModify
 (
 nsIDOMCSSValue
 *
@@ -1780,7 +1791,7 @@ aValue
 )
 ;
 nsresult
-GetUserSelect
+DoGetUserSelect
 (
 nsIDOMCSSValue
 *
@@ -1789,7 +1800,7 @@ aValue
 )
 ;
 nsresult
-GetColumnCount
+DoGetColumnCount
 (
 nsIDOMCSSValue
 *
@@ -1798,7 +1809,7 @@ aValue
 )
 ;
 nsresult
-GetColumnWidth
+DoGetColumnWidth
 (
 nsIDOMCSSValue
 *
@@ -1807,7 +1818,7 @@ aValue
 )
 ;
 nsresult
-GetColumnGap
+DoGetColumnGap
 (
 nsIDOMCSSValue
 *
@@ -1816,7 +1827,7 @@ aValue
 )
 ;
 nsresult
-GetColumnRuleWidth
+DoGetColumnRuleWidth
 (
 nsIDOMCSSValue
 *
@@ -1825,7 +1836,7 @@ aValue
 )
 ;
 nsresult
-GetColumnRuleStyle
+DoGetColumnRuleStyle
 (
 nsIDOMCSSValue
 *
@@ -1834,7 +1845,7 @@ aValue
 )
 ;
 nsresult
-GetColumnRuleColor
+DoGetColumnRuleColor
 (
 nsIDOMCSSValue
 *
@@ -1843,7 +1854,7 @@ aValue
 )
 ;
 nsresult
-GetTransitionProperty
+DoGetTransitionProperty
 (
 nsIDOMCSSValue
 *
@@ -1852,7 +1863,7 @@ aValue
 )
 ;
 nsresult
-GetTransitionDuration
+DoGetTransitionDuration
 (
 nsIDOMCSSValue
 *
@@ -1861,7 +1872,7 @@ aValue
 )
 ;
 nsresult
-GetTransitionDelay
+DoGetTransitionDelay
 (
 nsIDOMCSSValue
 *
@@ -1870,7 +1881,7 @@ aValue
 )
 ;
 nsresult
-GetTransitionTimingFunction
+DoGetTransitionTimingFunction
 (
 nsIDOMCSSValue
 *
@@ -1879,10 +1890,8 @@ aValue
 )
 ;
 nsresult
-GetSVGPaintFor
+DoGetFill
 (
-PRBool
-aFill
 nsIDOMCSSValue
 *
 *
@@ -1890,7 +1899,7 @@ aValue
 )
 ;
 nsresult
-GetFill
+DoGetStroke
 (
 nsIDOMCSSValue
 *
@@ -1899,7 +1908,7 @@ aValue
 )
 ;
 nsresult
-GetStroke
+DoGetMarkerEnd
 (
 nsIDOMCSSValue
 *
@@ -1908,7 +1917,7 @@ aValue
 )
 ;
 nsresult
-GetMarkerEnd
+DoGetMarkerMid
 (
 nsIDOMCSSValue
 *
@@ -1917,7 +1926,7 @@ aValue
 )
 ;
 nsresult
-GetMarkerMid
+DoGetMarkerStart
 (
 nsIDOMCSSValue
 *
@@ -1926,7 +1935,7 @@ aValue
 )
 ;
 nsresult
-GetMarkerStart
+DoGetStrokeDasharray
 (
 nsIDOMCSSValue
 *
@@ -1935,7 +1944,7 @@ aValue
 )
 ;
 nsresult
-GetStrokeDasharray
+DoGetStrokeDashoffset
 (
 nsIDOMCSSValue
 *
@@ -1944,7 +1953,7 @@ aValue
 )
 ;
 nsresult
-GetStrokeDashoffset
+DoGetStrokeWidth
 (
 nsIDOMCSSValue
 *
@@ -1953,7 +1962,7 @@ aValue
 )
 ;
 nsresult
-GetStrokeWidth
+DoGetFillOpacity
 (
 nsIDOMCSSValue
 *
@@ -1962,7 +1971,7 @@ aValue
 )
 ;
 nsresult
-GetFillOpacity
+DoGetFloodOpacity
 (
 nsIDOMCSSValue
 *
@@ -1971,7 +1980,7 @@ aValue
 )
 ;
 nsresult
-GetFloodOpacity
+DoGetStopOpacity
 (
 nsIDOMCSSValue
 *
@@ -1980,7 +1989,7 @@ aValue
 )
 ;
 nsresult
-GetStopOpacity
+DoGetStrokeMiterlimit
 (
 nsIDOMCSSValue
 *
@@ -1989,7 +1998,7 @@ aValue
 )
 ;
 nsresult
-GetStrokeMiterlimit
+DoGetStrokeOpacity
 (
 nsIDOMCSSValue
 *
@@ -1998,7 +2007,7 @@ aValue
 )
 ;
 nsresult
-GetStrokeOpacity
+DoGetClipRule
 (
 nsIDOMCSSValue
 *
@@ -2007,7 +2016,7 @@ aValue
 )
 ;
 nsresult
-GetClipRule
+DoGetFillRule
 (
 nsIDOMCSSValue
 *
@@ -2016,7 +2025,7 @@ aValue
 )
 ;
 nsresult
-GetFillRule
+DoGetStrokeLinecap
 (
 nsIDOMCSSValue
 *
@@ -2025,7 +2034,7 @@ aValue
 )
 ;
 nsresult
-GetStrokeLinecap
+DoGetStrokeLinejoin
 (
 nsIDOMCSSValue
 *
@@ -2034,7 +2043,7 @@ aValue
 )
 ;
 nsresult
-GetStrokeLinejoin
+DoGetTextAnchor
 (
 nsIDOMCSSValue
 *
@@ -2043,7 +2052,7 @@ aValue
 )
 ;
 nsresult
-GetTextAnchor
+DoGetColorInterpolation
 (
 nsIDOMCSSValue
 *
@@ -2052,7 +2061,7 @@ aValue
 )
 ;
 nsresult
-GetColorInterpolation
+DoGetColorInterpolationFilters
 (
 nsIDOMCSSValue
 *
@@ -2061,7 +2070,7 @@ aValue
 )
 ;
 nsresult
-GetColorInterpolationFilters
+DoGetDominantBaseline
 (
 nsIDOMCSSValue
 *
@@ -2070,7 +2079,7 @@ aValue
 )
 ;
 nsresult
-GetDominantBaseline
+DoGetImageRendering
 (
 nsIDOMCSSValue
 *
@@ -2079,7 +2088,7 @@ aValue
 )
 ;
 nsresult
-GetImageRendering
+DoGetShapeRendering
 (
 nsIDOMCSSValue
 *
@@ -2088,7 +2097,7 @@ aValue
 )
 ;
 nsresult
-GetShapeRendering
+DoGetTextRendering
 (
 nsIDOMCSSValue
 *
@@ -2097,7 +2106,7 @@ aValue
 )
 ;
 nsresult
-GetTextRendering
+DoGetFloodColor
 (
 nsIDOMCSSValue
 *
@@ -2106,7 +2115,7 @@ aValue
 )
 ;
 nsresult
-GetFloodColor
+DoGetLightingColor
 (
 nsIDOMCSSValue
 *
@@ -2115,7 +2124,7 @@ aValue
 )
 ;
 nsresult
-GetLightingColor
+DoGetStopColor
 (
 nsIDOMCSSValue
 *
@@ -2124,7 +2133,7 @@ aValue
 )
 ;
 nsresult
-GetStopColor
+DoGetClipPath
 (
 nsIDOMCSSValue
 *
@@ -2133,7 +2142,7 @@ aValue
 )
 ;
 nsresult
-GetClipPath
+DoGetFilter
 (
 nsIDOMCSSValue
 *
@@ -2142,16 +2151,7 @@ aValue
 )
 ;
 nsresult
-GetFilter
-(
-nsIDOMCSSValue
-*
-*
-aValue
-)
-;
-nsresult
-GetMask
+DoGetMask
 (
 nsIDOMCSSValue
 *
