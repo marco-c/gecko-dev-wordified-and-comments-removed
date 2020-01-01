@@ -289,10 +289,12 @@ yield
 ;
 if
 (
-!
 rec
 .
-cleartext
+payload
+=
+=
+null
 )
 this
 .
