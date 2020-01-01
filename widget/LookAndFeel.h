@@ -175,6 +175,7 @@ eIntID_ChosenMenuItemsShouldBlink
 eIntID_WindowsDefaultTheme
 eIntID_DWMCompositor
 eIntID_WindowsClassic
+eIntID_WindowsGlass
 eIntID_TouchEnabled
 eIntID_MacGraphiteTheme
 eIntID_MacLionTheme
