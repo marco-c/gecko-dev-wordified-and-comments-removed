@@ -6013,16 +6013,6 @@ GroupItem_shouldStack
 count
 )
 {
-if
-(
-count
-<
-=
-1
-)
-return
-false
-;
 let
 bb
 =
