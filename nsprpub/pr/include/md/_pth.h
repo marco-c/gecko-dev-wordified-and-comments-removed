@@ -491,16 +491,6 @@ defined
 SYMBIAN
 )
 #
-ifdef
-__GNU__
-#
-error
-Using
-Hurd
-pthreads
-#
-endif
-#
 define
 _PT_PTHREAD_INVALIDATE_THR_HANDLE
 (
