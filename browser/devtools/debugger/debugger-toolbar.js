@@ -3127,7 +3127,7 @@ target
 aView
 )
 {
-var
+let
 placeholder
 =
 "
