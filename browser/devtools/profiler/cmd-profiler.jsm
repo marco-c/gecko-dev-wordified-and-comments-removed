@@ -439,7 +439,7 @@ gcli
 lookup
 (
 "
-profilerStarting
+profilerStarting2
 "
 )
 ;
@@ -595,7 +595,7 @@ gcli
 lookup
 (
 "
-profilerNotStarted
+profilerNotStarted2
 "
 )
 ;
@@ -621,7 +621,7 @@ gcli
 lookup
 (
 "
-profilerStopping
+profilerStopping2
 "
 )
 ;
