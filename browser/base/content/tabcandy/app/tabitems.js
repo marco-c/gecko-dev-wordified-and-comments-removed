@@ -1686,6 +1686,7 @@ length
 &
 Groups
 )
+{
 Groups
 .
 newTab
@@ -1700,6 +1701,7 @@ tabItem
 )
 )
 ;
+}
 }
 window
 .
