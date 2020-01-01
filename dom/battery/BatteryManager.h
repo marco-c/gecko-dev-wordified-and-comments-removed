@@ -76,14 +76,14 @@ BatteryManager
 public
 nsDOMEventTargetHelper
 public
-nsIDOMMozBatteryManager
+nsIDOMBatteryManager
 public
 BatteryObserver
 {
 public
 :
 NS_DECL_ISUPPORTS
-NS_DECL_NSIDOMMOZBATTERYMANAGER
+NS_DECL_NSIDOMBATTERYMANAGER
 NS_FORWARD_NSIDOMEVENTTARGET
 (
 nsDOMEventTargetHelper
