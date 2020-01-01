@@ -50,9 +50,7 @@ arr
 0
 ]
 .
-getClass
-(
-)
+class
 "
 Object
 "
@@ -65,9 +63,7 @@ arr
 1
 ]
 .
-getClass
-(
-)
+class
 "
 Array
 "
@@ -80,9 +76,7 @@ arr
 2
 ]
 .
-getClass
-(
-)
+class
 "
 Function
 "
@@ -95,9 +89,7 @@ arr
 3
 ]
 .
-getClass
-(
-)
+class
 "
 Date
 "
@@ -110,9 +102,7 @@ arr
 4
 ]
 .
-getClass
-(
-)
+class
 "
 Proxy
 "

@@ -81,9 +81,7 @@ assertEq
 (
 exc
 .
-getPrototype
-(
-)
+prototype
 SEp
 )
 ;
