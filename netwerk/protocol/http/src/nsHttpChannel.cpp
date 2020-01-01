@@ -15546,6 +15546,9 @@ doYesNoPrompt
 PRInt32
 choice
 ;
+PRBool
+checkState
+;
 rv
 =
 prompt
@@ -15568,7 +15571,8 @@ nsnull
 nsnull
 nsnull
 nsnull
-nsnull
+&
+checkState
 &
 choice
 )

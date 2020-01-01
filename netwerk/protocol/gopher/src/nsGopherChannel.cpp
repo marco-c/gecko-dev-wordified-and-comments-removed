@@ -1228,6 +1228,9 @@ res
 =
 PR_FALSE
 ;
+PRBool
+checkState
+;
 prompter
 -
 >
@@ -1248,7 +1251,8 @@ getter_Copies
 value
 )
 NULL
-NULL
+&
+checkState
 &
 res
 )
