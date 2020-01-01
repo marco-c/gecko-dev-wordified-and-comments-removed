@@ -1105,10 +1105,6 @@ Init
 nsDisplayListBuilder
 *
 aBuilder
-const
-nsDisplayListSet
-&
-aLists
 nsIFrame
 *
 aBlockFrame
@@ -1341,10 +1337,6 @@ WillProcessLines
 nsDisplayListBuilder
 *
 aBuilder
-const
-nsDisplayListSet
-&
-aLists
 nsIFrame
 *
 aBlockFrame
@@ -1380,7 +1372,6 @@ textOverflow
 Init
 (
 aBuilder
-aLists
 aBlockFrame
 )
 ;

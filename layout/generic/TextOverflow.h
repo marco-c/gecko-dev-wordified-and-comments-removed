@@ -54,10 +54,6 @@ WillProcessLines
 nsDisplayListBuilder
 *
 aBuilder
-const
-nsDisplayListSet
-&
-aLists
 nsIFrame
 *
 aBlockFrame
@@ -120,10 +116,6 @@ Init
 nsDisplayListBuilder
 *
 aBuilder
-const
-nsDisplayListSet
-&
-aLists
 nsIFrame
 *
 aBlockFrame
