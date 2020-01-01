@@ -40,7 +40,11 @@ region
 /
 %
 content
-jquery
+unstable
+-
+mozilla
+-
+private
 %
 content
 /
