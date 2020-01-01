@@ -59686,6 +59686,27 @@ skipGen
 False
 )
         
+hasWorkerStuff
+=
+len
+(
+config
+.
+getDescriptors
+(
+webIDLFile
+=
+webIDLFile
+                                                   
+workers
+=
+True
+)
+)
+!
+=
+0
+        
 mainDictionaries
 =
 config
@@ -60421,12 +60442,6 @@ h
 '
                           
 '
-WorkerPrivate
-.
-h
-'
-                          
-'
 nsContentUtils
 .
 h
@@ -60447,6 +60462,21 @@ h
 '
                           
 ]
++
+(
+[
+'
+WorkerPrivate
+.
+h
+'
+]
+if
+hasWorkerStuff
+else
+[
+]
+)
                          
 curr
                          
