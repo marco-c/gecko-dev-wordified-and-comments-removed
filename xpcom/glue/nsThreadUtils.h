@@ -191,9 +191,6 @@ threads
 ID
 gTLSThreadID
 ;
-#
-ifdef
-MOZ_ENABLE_LIBXUL
 inline
 bool
 NS_IsMainThread
@@ -213,16 +210,6 @@ threads
 Main
 ;
 }
-#
-else
-NS_COM
-bool
-NS_IsMainThread
-(
-)
-;
-#
-endif
 #
 else
 extern

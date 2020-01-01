@@ -2473,9 +2473,6 @@ if
 frame
 )
 {
-#
-ifdef
-MOZ_ENABLE_LIBXUL
 frame
 -
 >
@@ -2483,17 +2480,6 @@ InvalidateOverflowRect
 (
 )
 ;
-#
-else
-frame
--
->
-InvalidateOverflowRectExternal
-(
-)
-;
-#
-endif
 }
 }
 mAnimatedContentList

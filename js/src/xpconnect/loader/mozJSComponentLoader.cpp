@@ -262,9 +262,6 @@ nsIResProtocolHandler
 h
 "
 #
-ifdef
-MOZ_ENABLE_LIBXUL
-#
 include
 "
 mozilla
@@ -286,8 +283,6 @@ StartupCacheUtils
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -1420,9 +1415,6 @@ ap
 )
 ;
 }
-#
-ifdef
-MOZ_ENABLE_LIBXUL
 static
 nsresult
 ReadScriptFromStream
@@ -1722,8 +1714,6 @@ return
 rv
 ;
 }
-#
-endif
 mozJSComponentLoader
 :
 :
@@ -3899,9 +3889,6 @@ return
 NS_OK
 ;
 }
-#
-ifdef
-MOZ_ENABLE_LIBXUL
 nsresult
 mozJSComponentLoader
 :
@@ -4208,8 +4195,6 @@ return
 rv
 ;
 }
-#
-endif
 nsresult
 mozJSComponentLoader
 :
@@ -4634,9 +4619,6 @@ scriptObj
 =
 nsnull
 ;
-#
-ifdef
-MOZ_ENABLE_LIBXUL
 PRBool
 writeToCache
 =
@@ -4707,8 +4689,6 @@ PR_TRUE
 ;
 }
 }
-#
-endif
 if
 (
 !
@@ -5321,9 +5301,6 @@ get
 ;
 #
 endif
-#
-ifdef
-MOZ_ENABLE_LIBXUL
 if
 (
 writeToCache
@@ -5382,8 +5359,6 @@ n
 ;
 }
 }
-#
-endif
 *
 aGlobal
 =

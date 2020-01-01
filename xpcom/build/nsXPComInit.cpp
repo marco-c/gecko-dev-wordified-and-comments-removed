@@ -559,9 +559,6 @@ nsChromeProtocolHandler
 h
 "
 #
-ifdef
-MOZ_ENABLE_LIBXUL
-#
 include
 "
 mozilla
@@ -572,8 +569,6 @@ StartupCache
 .
 h
 "
-#
-endif
 #
 include
 "
@@ -2273,9 +2268,6 @@ RegisterCategoryProviders
 (
 )
 ;
-#
-ifdef
-MOZ_ENABLE_LIBXUL
 mozilla
 :
 :
@@ -2289,8 +2281,6 @@ GetSingleton
 (
 )
 ;
-#
-endif
 NS_TIME_FUNCTION_MARK
 (
 "
@@ -2479,9 +2469,6 @@ NS_ProcessPendingEvents
 thread
 )
 ;
-#
-ifdef
-MOZ_ENABLE_LIBXUL
 mozilla
 :
 :
@@ -2495,8 +2482,6 @@ DeleteSingleton
 (
 )
 ;
-#
-endif
 if
 (
 observerService

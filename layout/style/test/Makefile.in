@@ -571,15 +571,14 @@ with
 libxul
 enabled
 .
-ifndef
-BUILD_STATIC_LIBS
-ifndef
-MOZ_ENABLE_LIBXUL
+#
+#
 CPP_UNIT_TESTS
 =
 TestCSSPropertyLookup
 .
 cpp
+#
 LIBS
 +
 =
@@ -602,8 +601,6 @@ OBJ_SUFFIX
 (
 XPCOM_LIBS
 )
-endif
-endif
 include
 (
 topsrcdir

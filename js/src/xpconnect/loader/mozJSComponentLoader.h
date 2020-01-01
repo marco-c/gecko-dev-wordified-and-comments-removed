@@ -127,9 +127,6 @@ nsIPrincipal
 h
 "
 #
-ifdef
-MOZ_ENABLE_LIBXUL
-#
 include
 "
 mozilla
@@ -147,8 +144,6 @@ mozilla
 :
 scache
 ;
-#
-endif
 #
 include
 "
@@ -420,9 +415,6 @@ jsval
 exception
 )
 ;
-#
-ifdef
-MOZ_ENABLE_LIBXUL
 nsresult
 ReadScript
 (
@@ -461,8 +453,6 @@ JSContext
 cx
 )
 ;
-#
-endif
 nsCOMPtr
 <
 nsIComponentManager

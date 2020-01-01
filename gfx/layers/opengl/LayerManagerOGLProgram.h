@@ -44,12 +44,6 @@ defined
 (
 DEBUG
 )
-&
-&
-defined
-(
-MOZ_ENABLE_LIBXUL
-)
 #
 define
 CHECK_CURRENT_PROGRAM

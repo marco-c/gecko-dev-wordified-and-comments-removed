@@ -1249,12 +1249,6 @@ defined
 (
 MOZ_CRASHREPORTER
 )
-&
-&
-defined
-(
-MOZ_ENABLE_LIBXUL
-)
 nsCString
 note
 (

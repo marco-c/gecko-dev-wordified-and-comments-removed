@@ -430,6 +430,9 @@ nptest
 MODULE_NAME
 =
 TestPlugin
+FORCE_SHARED_LIB
+=
+1
 #
 Don
 '

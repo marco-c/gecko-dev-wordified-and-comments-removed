@@ -11,12 +11,6 @@ defined
 (
 MOZ_CRASHREPORTER
 )
-&
-&
-defined
-(
-MOZ_ENABLE_LIBXUL
-)
 #
 define
 MOZ_GFXFEATUREREPORTER

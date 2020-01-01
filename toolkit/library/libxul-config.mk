@@ -444,10 +444,6 @@ CPPSRCS
 +
 =
 \
-dlldeps
-.
-cpp
-\
 nsGFXDeps
 .
 cpp
@@ -537,10 +533,6 @@ CPPSRCS
 +
 =
 \
-dlldeps
-.
-cpp
-\
 nsGFXDeps
 .
 cpp
@@ -559,8 +551,6 @@ zlib
 .
 cpp
 endif
-ifdef
-MOZ_ENABLE_LIBXUL
 RESFILE
 =
 xulrunos2
@@ -580,7 +570,6 @@ widget
 src
 /
 os2
-endif
 LOCAL_INCLUDES
 +
 =

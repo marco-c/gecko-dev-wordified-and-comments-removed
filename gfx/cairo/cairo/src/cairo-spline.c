@@ -1086,9 +1086,6 @@ depth
 +
 +
 ;
-#
-ifdef
-MOZ_ENABLE_LIBXUL
 if
 (
 depth
@@ -1151,8 +1148,6 @@ y
 )
 ;
 }
-#
-endif
 if
 (
 _cairo_spline_error_squared
@@ -1245,9 +1240,6 @@ s1
 cairo_status_t
 status
 ;
-#
-ifdef
-MOZ_ENABLE_LIBXUL
 StoreSpline
 (
 spline
@@ -1316,8 +1308,6 @@ d
 y
 )
 ;
-#
-endif
 s1
 =
 spline

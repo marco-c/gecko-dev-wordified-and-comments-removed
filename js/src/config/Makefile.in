@@ -641,13 +641,6 @@ DEFINES
 ACDEFINES
 )
 \
--
-DBUILD_STATIC_LIBS
-=
-(
-BUILD_STATIC_LIBS
-)
-\
 (
 srcdir
 )

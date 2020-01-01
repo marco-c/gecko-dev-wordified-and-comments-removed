@@ -62,12 +62,6 @@ defined
 (
 MOZ_CRASHREPORTER
 )
-&
-&
-defined
-(
-MOZ_ENABLE_LIBXUL
-)
 #
 include
 "
@@ -524,12 +518,6 @@ if
 defined
 (
 MOZ_CRASHREPORTER
-)
-&
-&
-defined
-(
-MOZ_ENABLE_LIBXUL
 )
 nsCAutoString
 deviceIDString

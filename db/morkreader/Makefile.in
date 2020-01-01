@@ -413,12 +413,9 @@ config
 autoconf
 .
 mk
-ifdef
-MOZ_ENABLE_LIBXUL
 DIRS
 =
 external
-endif
 MODULE
 =
 morkreader
