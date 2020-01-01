@@ -73,7 +73,7 @@ ionCompileable_
 jit
 :
 :
-IsEnabled
+IsIonEnabled
 (
 cx
 )
@@ -91,7 +91,7 @@ ionOSRCompileable_
 jit
 :
 :
-IsEnabled
+IsIonEnabled
 (
 cx
 )

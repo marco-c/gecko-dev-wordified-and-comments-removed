@@ -804,7 +804,7 @@ builder
 static
 inline
 bool
-IsEnabled
+IsIonEnabled
 (
 JSContext
 *

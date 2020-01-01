@@ -5478,7 +5478,7 @@ if
 jit
 :
 :
-IsEnabled
+IsIonEnabled
 (
 cx
 )
