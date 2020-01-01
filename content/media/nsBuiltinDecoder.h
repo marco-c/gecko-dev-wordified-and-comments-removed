@@ -887,6 +887,11 @@ StartStateMachineThread
 (
 )
 ;
+nsresult
+CreateStateMachineThread
+(
+)
+;
 PRInt64
 mDecoderPosition
 ;
