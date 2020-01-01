@@ -1569,6 +1569,9 @@ mFrecency
 bool
 mHidden
 ;
+int32_t
+mTransitionType
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
@@ -3102,6 +3105,12 @@ aURI
 ;
 uint32_t
 mBatchChanges
+;
+nsTArray
+<
+uint32_t
+>
+mTransitions
 ;
 }
 ;
