@@ -4461,6 +4461,11 @@ components
 nsInterfaceInfoToIDL
 .
 js
+components
+/
+nsScriptableIO
+.
+js
 chrome
 /
 chromelist
