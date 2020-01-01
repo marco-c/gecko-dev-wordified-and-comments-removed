@@ -353,14 +353,15 @@ nsIDataType
 :
 VTYPE_UINT64
 :
-LL_L2D
-(
 outData
 -
 >
 u
 .
 mDoubleValue
+=
+double
+(
 inData
 .
 u

@@ -4789,10 +4789,9 @@ time64
 ;
 double
 fpTime
-;
-LL_L2D
+=
+double
 (
-fpTime
 time64
 )
 ;
