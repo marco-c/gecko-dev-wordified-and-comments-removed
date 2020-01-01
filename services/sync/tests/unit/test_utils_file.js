@@ -53,14 +53,6 @@ run_test
 (
 )
 {
-_test_getTmp
-(
-)
-;
-_test_open
-(
-)
-;
 }
 function
 _test_getTmp
