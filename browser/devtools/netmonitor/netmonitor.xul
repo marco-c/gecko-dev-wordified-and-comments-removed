@@ -1614,6 +1614,11 @@ footer
 -
 button
 "
+checked
+=
+"
+true
+"
 onclick
 =
 "
@@ -1623,7 +1628,9 @@ RequestsMenu
 .
 filterOn
 (
-null
+'
+all
+'
 )
 "
 label

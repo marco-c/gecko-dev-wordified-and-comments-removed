@@ -156,6 +156,9 @@ pressed
 ;
 testButtons
 (
+"
+all
+"
 )
 ;
 testContents
@@ -680,6 +683,9 @@ button
 ;
 testButtons
 (
+"
+all
+"
 )
 ;
 return
