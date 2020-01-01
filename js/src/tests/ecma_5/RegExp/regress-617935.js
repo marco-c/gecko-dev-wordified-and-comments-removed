@@ -58,7 +58,7 @@ i
 ;
 i
 <
-12
+9
 ;
 +
 +
@@ -126,10 +126,8 @@ occurred
 print
 (
 "
-All
-tests
-passed
-!
+Tests
+complete
 "
 )
 ;
