@@ -524,13 +524,6 @@ CPPSRCS
 nsSystemFontsQt
 .
 cpp
-ifdef
-MOZ_ENABLE_GLITZ
-REQUIRES
-+
-=
-glitzglx
-endif
 endif
 ifeq
 (
