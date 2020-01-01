@@ -253,6 +253,9 @@ mCMSMode
 bool
 mDisablePremultipliedAlpha
 ;
+uint32_t
+mNumFrames
+;
 static
 void
 PNGAPI
