@@ -11173,12 +11173,12 @@ endif
 fputs
 (
 cstr
-stderr
+stdout
 )
 ;
 fflush
 (
-stderr
+stdout
 )
 ;
 NS_Free
