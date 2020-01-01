@@ -20091,14 +20091,6 @@ nsPoint
 startPoint
 endPoint
 ;
-nsPresContext
-*
-presContext
-=
-GetPresContext
-(
-)
-;
 frame
 -
 >
