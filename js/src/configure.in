@@ -24074,7 +24074,7 @@ ft
 )
 ;
 ]
-ac_cv_have_getsystemtimetasfiletime
+ac_cv_have_getsystemtimeasfiletime
 =
 "
 yes
