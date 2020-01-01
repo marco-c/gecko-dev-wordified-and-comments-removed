@@ -26,12 +26,11 @@ imgIContainer
 .
 h
 "
-NS_IMPL_ISUPPORTS3
+NS_IMPL_ISUPPORTS2
 (
 nsTreeImageListener
 imgIDecoderObserver
 imgIContainerObserver
-nsITreeImageListener
 )
 nsTreeImageListener
 :
@@ -173,7 +172,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsTreeImageListener
 :
 :
@@ -294,9 +293,6 @@ aIndex
 ;
 }
 }
-return
-NS_OK
-;
 }
 void
 nsTreeImageListener
