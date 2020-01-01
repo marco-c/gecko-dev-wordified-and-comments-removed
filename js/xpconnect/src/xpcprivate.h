@@ -6442,9 +6442,6 @@ static
 JSBool
 GetCallInfo
 (
-XPCCallContext
-&
-ccx
 JSObject
 *
 funobj
