@@ -17898,6 +17898,14 @@ if
 c
 -
 >
+isGCMarking
+(
+)
+&
+&
+c
+-
+>
 activeAnalysis
 &
 &
