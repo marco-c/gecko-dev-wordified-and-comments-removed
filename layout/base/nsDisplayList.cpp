@@ -8231,11 +8231,7 @@ AppendToTop
 aList
 )
 ;
-mBounds
-=
-mList
-.
-GetBounds
+UpdateBounds
 (
 aBuilder
 )
@@ -8270,11 +8266,7 @@ AppendToTop
 aItem
 )
 ;
-mBounds
-=
-mList
-.
-GetBounds
+UpdateBounds
 (
 aBuilder
 )
