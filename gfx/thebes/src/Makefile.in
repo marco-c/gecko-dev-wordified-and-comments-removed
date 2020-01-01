@@ -186,6 +186,10 @@ MOZ_CAIRO_LIBS
 )
 \
 (
+LIBS_DIR
+)
+\
+(
 EXTRA_DSO_LIBS
 )
 \
