@@ -7696,7 +7696,7 @@ if
 [
 !
 "
-SYSTEM_BZ2
+MOZ_NATIVE_BZ2
 "
 ]
 ;
@@ -8330,7 +8330,7 @@ if
 [
 !
 "
-SYSTEM_JPEG
+MOZ_NATIVE_JPEG
 "
 ]
 ;
@@ -8355,7 +8355,7 @@ if
 [
 !
 "
-SYSTEM_ZLIB
+MOZ_NATIVE_ZLIB
 "
 ]
 ;
@@ -8399,7 +8399,7 @@ if
 [
 !
 "
-SYSTEM_PNG
+MOZ_NATIVE_PNG
 "
 ]
 ;

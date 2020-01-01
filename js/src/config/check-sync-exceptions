@@ -10,6 +10,9 @@ in
 autoconf
 .
 mk
+baseconfig
+.
+mk
 check
 -
 sync
