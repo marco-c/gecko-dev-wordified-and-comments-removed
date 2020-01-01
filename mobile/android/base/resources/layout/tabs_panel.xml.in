@@ -315,6 +315,13 @@ fill_parent
 "
 android
 :
+choiceMode
+=
+"
+singleChoice
+"
+android
+:
 visibility
 =
 "
