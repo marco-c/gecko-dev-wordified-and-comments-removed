@@ -892,7 +892,7 @@ this
 .
 prefs_
 .
-getBoolPrefOrDefault
+getPref
 (
 prefName
 this
@@ -949,7 +949,7 @@ this
 .
 prefs_
 .
-getBoolPrefOrDefault
+getPref
 (
 prefName
 this
