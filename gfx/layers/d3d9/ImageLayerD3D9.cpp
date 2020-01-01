@@ -564,6 +564,12 @@ ImageLayerD3D9
 :
 RenderLayer
 (
+float
+aOpacity
+const
+gfx3DMatrix
+&
+aTransform
 )
 {
 if
@@ -674,6 +680,13 @@ height
 1
 )
 ;
+gfx3DMatrix
+transform
+=
+mTransform
+*
+aTransform
+;
 device
 (
 )
@@ -683,7 +696,7 @@ SetVertexShaderConstantF
 (
 CBmLayerTransform
 &
-mTransform
+transform
 .
 _11
 4
@@ -703,6 +716,8 @@ opacity
 GetOpacity
 (
 )
+*
+aOpacity
 ;
 device
 (
@@ -1017,6 +1032,13 @@ height
 1
 )
 ;
+gfx3DMatrix
+transform
+=
+mTransform
+*
+aTransform
+;
 device
 (
 )
@@ -1026,7 +1048,7 @@ SetVertexShaderConstantF
 (
 CBmLayerTransform
 &
-mTransform
+transform
 .
 _11
 4
@@ -1046,6 +1068,8 @@ opacity
 GetOpacity
 (
 )
+*
+aOpacity
 ;
 device
 (

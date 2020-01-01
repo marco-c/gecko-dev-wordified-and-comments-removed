@@ -568,6 +568,12 @@ ThebesLayerD3D9
 :
 RenderLayer
 (
+float
+aOpacity
+const
+gfx3DMatrix
+&
+aTransform
 )
 {
 if
@@ -736,6 +742,13 @@ mValidRegion
 mVisibleRegion
 ;
 }
+gfx3DMatrix
+transform
+=
+mTransform
+*
+aTransform
+;
 device
 (
 )
@@ -745,7 +758,7 @@ SetVertexShaderConstantF
 (
 CBmLayerTransform
 &
-mTransform
+transform
 .
 _11
 4
@@ -765,6 +778,8 @@ opacity
 GetOpacity
 (
 )
+*
+aOpacity
 ;
 device
 (
