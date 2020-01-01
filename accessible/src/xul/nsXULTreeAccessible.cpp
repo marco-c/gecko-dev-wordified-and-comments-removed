@@ -5568,9 +5568,6 @@ aRelated
 =
 nsnull
 ;
-#
-ifdef
-MOZ_ACCESSIBILITY_ATK
 if
 (
 aRelationType
@@ -5677,10 +5674,6 @@ return
 NS_OK
 ;
 }
-else
-{
-#
-endif
 return
 nsAccessible
 :
@@ -5691,12 +5684,6 @@ aRelationType
 aRelated
 )
 ;
-#
-ifdef
-MOZ_ACCESSIBILITY_ATK
-}
-#
-endif
 }
 NS_IMETHODIMP
 nsXULTreeitemAccessible
