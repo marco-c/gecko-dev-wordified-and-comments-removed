@@ -274,6 +274,17 @@ inl
 .
 h
 "
+#
+include
+"
+vm
+/
+RegExpStatics
+-
+inl
+.
+h
+"
 using
 namespace
 js
