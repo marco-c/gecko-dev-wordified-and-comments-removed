@@ -816,6 +816,10 @@ test_bug895305
 .
 html
 \
+test_bug895091
+.
+html
+\
 (
 NULL
 )
@@ -1463,6 +1467,10 @@ id3tags
 mp3
 \
 basic
+.
+vtt
+\
+long
 .
 vtt
 \
