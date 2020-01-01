@@ -6849,9 +6849,6 @@ a
 <
 handler
 >
-for
-the
-mousedown
 var
 self
 =
@@ -6862,7 +6859,7 @@ child
 addEventListener
 (
 "
-mouseup
+click
 "
 function
 (
@@ -7904,9 +7901,6 @@ a
 <
 handler
 >
-for
-the
-mouseup
 var
 self
 =
@@ -7917,7 +7911,7 @@ child
 addEventListener
 (
 "
-mouseup
+click
 "
 function
 (
