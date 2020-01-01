@@ -226,3 +226,11 @@ mozPay
 MOZ_PAY
 =
 1
+#
+Enable
+UI
+for
+healthreporter
+MOZ_SERVICES_HEALTHREPORT
+=
+1
