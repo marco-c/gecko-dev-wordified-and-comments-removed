@@ -3136,9 +3136,6 @@ caret_style
 0
 )
 ;
-#
-ifdef
-XP_MACOSX
 if
 (
 caretStyle
@@ -3152,8 +3149,6 @@ caretStyle
 2
 ;
 }
-#
-endif
 if
 (
 !
