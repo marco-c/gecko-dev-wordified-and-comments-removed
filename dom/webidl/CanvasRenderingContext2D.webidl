@@ -435,8 +435,12 @@ or
 HTMLVideoElement
 )
 image
+[
+TreatNullAs
+=
+EmptyString
+]
 DOMString
-?
 repetition
 )
 ;
