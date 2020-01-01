@@ -12820,12 +12820,6 @@ NS_SUCCEEDED
 (
 rv
 )
-&
-&
-modTime
-!
-=
-0
 )
 mAutoRegEntries
 .
@@ -13072,14 +13066,6 @@ NS_SUCCEEDED
 (
 rv
 )
-&
-&
-d
-.
-modTime
-!
-=
-0
 )
 {
 nsCOMPtr
