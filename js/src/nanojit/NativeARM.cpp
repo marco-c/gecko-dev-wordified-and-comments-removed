@@ -2535,7 +2535,7 @@ atypes
 >
 >
 =
-ARGSIZE_MASK_SHIFT
+ARGSIZE_SHIFT
 ;
 if
 (
