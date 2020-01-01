@@ -4034,6 +4034,13 @@ if
 mEditor
 )
 {
+aEvent
+-
+>
+StopPropagation
+(
+)
+;
 PRUint32
 flags
 ;
@@ -4309,6 +4316,13 @@ if
 mEditor
 )
 {
+aEvent
+-
+>
+StopPropagation
+(
+)
+;
 nsCOMPtr
 <
 nsIEditorIMESupport
