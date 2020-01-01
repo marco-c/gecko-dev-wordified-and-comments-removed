@@ -45,6 +45,9 @@ ion
 struct
 SafepointNunboxEntry
 ;
+class
+LAllocation
+;
 static
 const
 uint32
@@ -187,6 +190,9 @@ gcSpills_
 GeneralRegisterSet
 allSpills_
 ;
+uint32
+nunboxSlotsRemaining_
+;
 private
 :
 void
@@ -288,6 +294,17 @@ getValueSlot
 uint32
 *
 slot
+)
+;
+bool
+getNunboxSlot
+(
+LAllocation
+*
+type
+LAllocation
+*
+payload
 )
 ;
 }

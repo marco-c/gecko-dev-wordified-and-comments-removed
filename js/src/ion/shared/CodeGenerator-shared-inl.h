@@ -673,7 +673,7 @@ PushRegsInMask
 safepoint
 -
 >
-spillRegs
+liveRegs
 (
 )
 )
@@ -719,7 +719,7 @@ PopRegsInMask
 safepoint
 -
 >
-spillRegs
+liveRegs
 (
 )
 )
