@@ -907,6 +907,11 @@ CloseAllStreams
 (
 )
 ;
+void
+FireClearNetworkCacheStoredAnywhereNotification
+(
+)
+;
 static
 PLDHashOperator
 GetActiveEntries
