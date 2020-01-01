@@ -3445,8 +3445,10 @@ nsIDocument
 >
 mDocument
 ;
+nsRefPtr
+<
 nsDeviceContext
-*
+>
 mDeviceContext
 ;
 nsRefPtr

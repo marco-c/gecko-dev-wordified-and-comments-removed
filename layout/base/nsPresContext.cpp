@@ -1379,11 +1379,6 @@ devPixelsPerPx
 this
 )
 ;
-NS_IF_RELEASE
-(
-mDeviceContext
-)
-;
 }
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
@@ -1604,11 +1599,8 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
 mDocument
 )
 ;
-NS_RELEASE
+NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
 (
-tmp
--
->
 mDeviceContext
 )
 ;
@@ -3980,11 +3972,6 @@ aDeviceContext
 mDeviceContext
 =
 aDeviceContext
-;
-NS_ADDREF
-(
-mDeviceContext
-)
 ;
 if
 (
