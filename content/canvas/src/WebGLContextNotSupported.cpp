@@ -87,3 +87,8 @@ DOMCI_DATA
 WebGLExtension
 void
 )
+DOMCI_DATA
+(
+WebGLExtensionLoseContext
+void
+)

@@ -1349,6 +1349,10 @@ WebGLExtensionStandardDerivatives
 )
 DOMCI_CLASS
 (
+WebGLExtensionLoseContext
+)
+DOMCI_CLASS
+(
 PaintRequest
 )
 DOMCI_CLASS
