@@ -5733,6 +5733,13 @@ buttons
 >
 <
 button
+class
+=
+"
+button
+-
+dark
+"
 label
 =
 "
