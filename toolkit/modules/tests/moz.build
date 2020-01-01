@@ -93,3 +93,15 @@ MPL
 0
 /
 .
+XPCSHELL_TESTS_MANIFESTS
++
+=
+[
+'
+xpcshell
+/
+xpcshell
+.
+ini
+'
+]

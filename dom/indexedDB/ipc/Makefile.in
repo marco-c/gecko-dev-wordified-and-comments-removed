@@ -155,7 +155,7 @@ sometime
 soon
 .
 #
-XPCSHELL_TESTS
+DISABLED_XPCSHELL_TESTS
 =
 unit
 #
@@ -213,6 +213,9 @@ config
 rules
 .
 mk
+xpcshell_tests
+=
+unit
 #
 Copy
 all
@@ -264,7 +267,7 @@ relativesrcdir
 )
 /
 (
-XPCSHELL_TESTS
+xpcshell_tests
 )
 )
 libs

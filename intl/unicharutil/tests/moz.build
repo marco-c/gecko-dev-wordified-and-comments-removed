@@ -98,3 +98,15 @@ MODULE
 '
 test_intl_unicharutil
 '
+XPCSHELL_TESTS_MANIFESTS
++
+=
+[
+'
+unit
+/
+xpcshell
+.
+ini
+'
+]

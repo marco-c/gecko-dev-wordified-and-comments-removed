@@ -101,3 +101,15 @@ TEST_DIRS
 browser
 '
 ]
+XPCSHELL_TESTS_MANIFESTS
++
+=
+[
+'
+xpcshell
+/
+xpcshell
+.
+ini
+'
+]

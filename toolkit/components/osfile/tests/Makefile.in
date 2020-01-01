@@ -68,7 +68,7 @@ srcdir
 relativesrcdir
 =
 relativesrcdir
-XPCSHELL_TESTS
+DISABLED_XPCSHELL_TESTS
 =
 xpcshell
 include

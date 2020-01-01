@@ -128,7 +128,7 @@ jsm
 (
 NULL
 )
-XPCSHELL_TESTS
+DISABLED_XPCSHELL_TESTS
 =
 tests
 include

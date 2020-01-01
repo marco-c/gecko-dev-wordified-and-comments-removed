@@ -85,7 +85,7 @@ config
 autoconf
 .
 mk
-XPCSHELL_TESTS
+DISABLED_XPCSHELL_TESTS
 =
 unit
 include

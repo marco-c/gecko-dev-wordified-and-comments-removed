@@ -106,3 +106,15 @@ MODULE
 '
 test_osfile
 '
+XPCSHELL_TESTS_MANIFESTS
++
+=
+[
+'
+xpcshell
+/
+xpcshell
+.
+ini
+'
+]

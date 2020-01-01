@@ -125,13 +125,13 @@ html
 NULL
 )
 endif
-XPCSHELL_TESTS
+DISABLED_XPCSHELL_TESTS
 =
 unit
 unit_ipc
 ifdef
 MOZ_B2G_RIL
-XPCSHELL_TESTS
+DISABLED_XPCSHELL_TESTS
 +
 =
 unit_stats

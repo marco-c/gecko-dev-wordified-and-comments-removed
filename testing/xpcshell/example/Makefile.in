@@ -188,7 +188,7 @@ one
 directory
 here
 .
-XPCSHELL_TESTS
+DISABLED_XPCSHELL_TESTS
 =
 \
 unit

@@ -108,3 +108,15 @@ MODULE
 '
 jsdebugger
 '
+XPCSHELL_TESTS_MANIFESTS
++
+=
+[
+'
+tests
+/
+xpcshell
+.
+ini
+'
+]

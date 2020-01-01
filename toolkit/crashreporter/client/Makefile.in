@@ -505,7 +505,7 @@ works
 with
 OpenSSL
 .
-XPCSHELL_TESTS
+DISABLED_XPCSHELL_TESTS
 =
 maemo
 -

@@ -152,7 +152,7 @@ cpp
 endif
 endif
 endif
-XPCSHELL_TESTS
+DISABLED_XPCSHELL_TESTS
 =
 tests
 /

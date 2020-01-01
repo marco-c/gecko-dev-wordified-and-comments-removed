@@ -80,7 +80,7 @@ autoconf
 mk
 ifdef
 ENABLE_TESTS
-XPCSHELL_TESTS
+DISABLED_XPCSHELL_TESTS
 =
 tests
 /

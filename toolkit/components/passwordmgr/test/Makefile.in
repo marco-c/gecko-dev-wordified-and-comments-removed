@@ -86,7 +86,7 @@ for
 xpcshell
 tests
 .
-XPCSHELL_TESTS
+DISABLED_XPCSHELL_TESTS
 =
 unit
 #

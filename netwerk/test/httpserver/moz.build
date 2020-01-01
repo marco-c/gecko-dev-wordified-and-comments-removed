@@ -108,3 +108,15 @@ MODULE
 '
 test_necko
 '
+XPCSHELL_TESTS_MANIFESTS
++
+=
+[
+'
+test
+/
+xpcshell
+.
+ini
+'
+]

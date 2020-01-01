@@ -134,3 +134,15 @@ MODULE
 '
 test_plugin
 '
+XPCSHELL_TESTS_MANIFESTS
++
+=
+[
+'
+unit
+/
+xpcshell
+.
+ini
+'
+]

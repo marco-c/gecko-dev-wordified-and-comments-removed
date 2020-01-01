@@ -98,3 +98,15 @@ MODULE
 '
 test_services_crypto
 '
+XPCSHELL_TESTS_MANIFESTS
++
+=
+[
+'
+unit
+/
+xpcshell
+.
+ini
+'
+]

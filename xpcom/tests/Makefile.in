@@ -495,7 +495,7 @@ LIBS
 -
 lpcap
 endif
-XPCSHELL_TESTS
+DISABLED_XPCSHELL_TESTS
 =
 unit
 #
