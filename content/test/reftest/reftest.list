@@ -58,6 +58,15 @@ bug559996
 ref
 .
 html
+random
+-
+if
+(
+cocoaWidget
+&
+&
+layersGPUAccelerated
+)
 =
 =
 bug591981
