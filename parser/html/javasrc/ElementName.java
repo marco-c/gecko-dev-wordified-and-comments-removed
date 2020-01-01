@@ -7149,6 +7149,8 @@ TreeBuilder
 TEMPLATE
 |
 SPECIAL
+|
+SCOPING
 )
 ;
 public
