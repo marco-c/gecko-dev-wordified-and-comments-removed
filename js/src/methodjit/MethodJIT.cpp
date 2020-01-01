@@ -4785,6 +4785,12 @@ status
 if
 (
 partial
+|
+|
+status
+=
+=
+Jaeger_Returned
 )
 {
 return

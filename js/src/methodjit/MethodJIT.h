@@ -859,7 +859,7 @@ REJOIN_GETTER
 REJOIN_POS
 REJOIN_BINARY
 REJOIN_BRANCH
-REJOIN_FINISH_FRAME
+REJOIN_RUN_TRACER
 }
 ;
 struct
@@ -1295,6 +1295,9 @@ ExecutablePool
 SystemAllocPolicy
 >
 orphanedNativePools
+;
+bool
+finishingTracer
 ;
 }
 ;
