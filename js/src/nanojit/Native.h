@@ -35,7 +35,7 @@ else
 #
 include
 "
-NativeArm
+NativeARM
 .
 h
 "
