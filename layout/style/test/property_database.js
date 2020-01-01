@@ -40,9 +40,6 @@ style
 "
 font
 :
--
-moz
--
 initial
 "
 )
