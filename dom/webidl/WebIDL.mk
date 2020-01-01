@@ -595,6 +595,10 @@ SVGTextContentElement
 .
 webidl
 \
+SVGTextElement
+.
+webidl
+\
 SVGTextPathElement
 .
 webidl

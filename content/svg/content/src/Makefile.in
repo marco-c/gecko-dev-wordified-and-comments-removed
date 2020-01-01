@@ -293,10 +293,6 @@ nsSVGTSpanElement
 .
 cpp
 \
-nsSVGTextElement
-.
-cpp
-\
 nsSVGUnknownElement
 .
 cpp
@@ -537,6 +533,10 @@ SVGTextContentElement
 .
 cpp
 \
+SVGTextElement
+.
+cpp
+\
 SVGTextPathElement
 .
 cpp
@@ -747,6 +747,10 @@ SVGSwitchElement
 h
 \
 SVGTextContentElement
+.
+h
+\
+SVGTextElement
 .
 h
 \
