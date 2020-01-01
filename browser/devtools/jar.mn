@@ -322,7 +322,7 @@ gcli
 .
 css
 (
-webconsole
+commandline
 /
 gcli
 .
@@ -338,7 +338,7 @@ gcliblank
 .
 xhtml
 (
-webconsole
+commandline
 /
 gcliblank
 .

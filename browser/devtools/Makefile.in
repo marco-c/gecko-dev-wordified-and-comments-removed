@@ -443,6 +443,8 @@ highlighter
 \
 webconsole
 \
+commandline
+\
 sourceeditor
 \
 styleeditor

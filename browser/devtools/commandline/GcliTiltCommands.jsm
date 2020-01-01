@@ -21,6 +21,8 @@ resource
 /
 modules
 /
+devtools
+/
 gcli
 .
 jsm
