@@ -5814,7 +5814,7 @@ getBoolPref
 "
 plugins
 .
-hide_infobar_for_missing_plugin
+hide_infobar_for_blocked_plugin
 "
 )
 )
