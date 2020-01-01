@@ -190,7 +190,7 @@ h
 #
 include
 "
-nsIImageFrame
+nsImageFrame
 .
 h
 "
@@ -6195,7 +6195,7 @@ nsAccessible
 aImageAccessible
 )
 {
-nsIImageFrame
+nsImageFrame
 *
 imageFrame
 =

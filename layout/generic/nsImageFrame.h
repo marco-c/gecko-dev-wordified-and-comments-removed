@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsIImageFrame
-.
-h
-"
-#
-include
-"
 nsIIOService
 .
 h
@@ -92,6 +85,9 @@ nsImageFrame
 ;
 class
 nsTransform2D
+;
+class
+nsIImageMap
 ;
 namespace
 mozilla
@@ -227,8 +223,6 @@ nsImageFrame
 :
 public
 ImageFrameSuper
-public
-nsIImageFrame
 {
 public
 :
@@ -270,6 +264,10 @@ nsStyleContext
 aContext
 )
 ;
+NS_DECL_QUERYFRAME_TARGET
+(
+nsImageFrame
+)
 NS_DECL_QUERYFRAME
 virtual
 void
@@ -495,7 +493,7 @@ GetSkipSides
 )
 const
 ;
-NS_IMETHOD
+nsresult
 GetImageMap
 (
 nsPresContext
@@ -507,7 +505,7 @@ nsIImageMap
 aImageMap
 )
 ;
-NS_IMETHOD
+nsresult
 GetIntrinsicImageSize
 (
 nsSize

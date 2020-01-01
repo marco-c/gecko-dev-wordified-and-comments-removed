@@ -463,10 +463,6 @@ nsIFrameUtil
 .
 h
 \
-nsIImageFrame
-.
-h
-\
 nsILineIterator
 .
 h

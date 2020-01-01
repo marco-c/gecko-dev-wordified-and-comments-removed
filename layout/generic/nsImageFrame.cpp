@@ -696,7 +696,7 @@ nsImageFrame
 )
 NS_QUERYFRAME_ENTRY
 (
-nsIImageFrame
+nsImageFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
@@ -6569,7 +6569,7 @@ return
 true
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsImageFrame
 :
 :
@@ -8110,7 +8110,7 @@ return
 skip
 ;
 }
-NS_IMETHODIMP
+nsresult
 nsImageFrame
 :
 :
