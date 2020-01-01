@@ -514,6 +514,15 @@ texCoord0
 )
 ;
 gl
+=
+WebGLDebugUtils
+.
+makeDebugContext
+(
+gl
+)
+;
+gl
 .
 disable
 (
@@ -1006,7 +1015,7 @@ texture
 unit
 should
 generate
-error
+INVALID_VALUE
 "
 )
 ;
