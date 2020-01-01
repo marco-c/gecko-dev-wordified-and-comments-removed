@@ -72,6 +72,11 @@ nsDOMEvent
 NS_DECL_NSIDOMUIEVENT
 NS_DECL_NSIDOMNSUIEVENT
 NS_IMETHOD
+DuplicatePrivateData
+(
+)
+;
+NS_IMETHOD
 GetCompositionReply
 (
 nsTextEventReply
@@ -134,6 +139,12 @@ mDetail
 ;
 nsPoint
 mClientPoint
+;
+nsPoint
+mLayerPoint
+;
+nsPoint
+mPagePoint
 ;
 }
 ;
