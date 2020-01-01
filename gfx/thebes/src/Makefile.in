@@ -122,6 +122,10 @@ gfxUtils
 .
 cpp
 \
+gfxUnicodeProperties
+.
+cpp
+\
 GLContext
 .
 cpp
