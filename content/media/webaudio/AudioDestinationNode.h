@@ -25,8 +25,6 @@ AudioDestinationNode
 :
 public
 AudioNode
-public
-nsWrapperCache
 {
 public
 :
@@ -41,11 +39,6 @@ aGraph
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
-NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
-(
-AudioDestinationNode
-AudioNode
-)
 virtual
 JSObject
 *
@@ -72,12 +65,6 @@ MOZ_OVERRIDE
 return
 0
 ;
-}
-void
-JSBindingFinalized
-(
-)
-{
 }
 }
 ;

@@ -237,6 +237,12 @@ GetCurrentPosition
 (
 )
 ;
+bool
+AllInputsFinished
+(
+)
+const
+;
 AudioNodeEngine
 *
 Engine
