@@ -601,7 +601,7 @@ sAllocator
 =
 nullptr
 ;
-uint32_t
+int32_t
 nsTimerEvent
 :
 :
