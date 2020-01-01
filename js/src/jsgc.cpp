@@ -13315,6 +13315,15 @@ purge
 (
 )
 ;
+rt
+-
+>
+evalCache
+.
+purge
+(
+)
+;
 for
 (
 ContextIter
