@@ -464,16 +464,6 @@ RM
 )
 -
 rf
-(
-DIST
-)
-/
-bin
-(
-RM
-)
--
-rf
 _tests
 TIERS
 +
