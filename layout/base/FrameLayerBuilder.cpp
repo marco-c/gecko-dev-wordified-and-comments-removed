@@ -4168,13 +4168,6 @@ ConfigureLayer
 imageLayer
 )
 ;
-if
-(
-mParameters
-.
-mInActiveTransformedSubtree
-)
-{
 gfx3DMatrix
 transform
 =
@@ -4209,7 +4202,6 @@ SetTransform
 transform
 )
 ;
-}
 if
 (
 data
