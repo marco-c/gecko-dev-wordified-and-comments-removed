@@ -4176,8 +4176,10 @@ isTrusted
 )
 return
 ;
-updatePopupPosition
+setTimeout
 (
+updatePopupPosition
+0
 )
 ;
 }
