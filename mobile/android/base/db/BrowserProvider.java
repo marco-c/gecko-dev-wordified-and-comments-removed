@@ -1558,6 +1558,16 @@ String
 projection
 )
 {
+if
+(
+projection
+=
+=
+null
+)
+return
+true
+;
 for
 (
 int
