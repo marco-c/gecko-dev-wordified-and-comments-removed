@@ -205,6 +205,16 @@ gmail
 com
 >
 -
+Marek
+St
+pie
+<
+mstepien
+aviary
+.
+pl
+>
+-
 -
 Alternatively
 the
@@ -407,7 +417,7 @@ role
 .
 label
 "
-Role
+Rola
 "
 >
 <
@@ -417,7 +427,7 @@ name
 .
 label
 "
-Name
+Nazwa
 "
 >
 <
@@ -427,7 +437,9 @@ nodeName
 .
 label
 "
-Node
-Name
+Nazwa
+w
+z
+a
 "
 >
