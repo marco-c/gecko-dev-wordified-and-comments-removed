@@ -720,6 +720,8 @@ composer
 \
 jetpack_s
 \
+telemetry
+\
 (
 NULL
 )

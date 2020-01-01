@@ -515,10 +515,6 @@ FunctionTimer
 .
 cpp
 \
-Telemetry
-.
-cpp
-\
 (
 NULL
 )
@@ -749,10 +745,6 @@ nsIMutable
 idl
 \
 nsIMemoryReporter
-.
-idl
-\
-nsITelemetry
 .
 idl
 \
