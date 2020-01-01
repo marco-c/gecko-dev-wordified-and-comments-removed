@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsThreadUtils
+.
+h
+"
+#
+include
+"
 FileManager
 .
 h

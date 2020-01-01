@@ -146,13 +146,6 @@ imgIEncoder
 h
 "
 #
-include
-"
-nsIThread
-.
-h
-"
-#
 ifdef
 NS_ENABLE_TSF
 #

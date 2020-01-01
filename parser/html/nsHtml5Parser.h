@@ -49,6 +49,13 @@ h
 #
 include
 "
+nsThreadUtils
+.
+h
+"
+#
+include
+"
 nsIContentSink
 .
 h

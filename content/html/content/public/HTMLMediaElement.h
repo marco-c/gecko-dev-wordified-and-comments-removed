@@ -42,6 +42,13 @@ h
 #
 include
 "
+nsThreadUtils
+.
+h
+"
+#
+include
+"
 nsIDOMRange
 .
 h
@@ -215,9 +222,6 @@ nsITimer
 ;
 class
 nsRange
-;
-class
-nsIRunnable
 ;
 namespace
 mozilla

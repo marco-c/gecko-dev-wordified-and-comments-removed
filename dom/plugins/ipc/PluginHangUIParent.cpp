@@ -84,13 +84,6 @@ h
 #
 include
 "
-nsThreadUtils
-.
-h
-"
-#
-include
-"
 WidgetUtils
 .
 h
