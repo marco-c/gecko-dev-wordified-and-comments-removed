@@ -17,9 +17,3 @@ ecma_3_1
 /
 extensions
 /
-script
-regress
--
-478047
-.
-js
