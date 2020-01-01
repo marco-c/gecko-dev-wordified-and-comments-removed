@@ -1849,14 +1849,6 @@ mContext
 JSVERSION_LATEST
 )
 ;
-JS_SetNativeStackQuota
-(
-mContext
-512
-*
-1024
-)
-;
 nsCOMPtr
 <
 nsIScriptSecurityManager

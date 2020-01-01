@@ -1119,6 +1119,12 @@ GetJSRuntimeHeapSize
 )
 )
 ;
+JS_SetNativeStackQuota
+(
+runtime
+WORKER_CONTEXT_NATIVE_STACK_LIMIT
+)
+;
 JSContext
 *
 workerCx
@@ -1172,12 +1178,6 @@ JS_SetOperationCallback
 (
 workerCx
 OperationCallback
-)
-;
-JS_SetNativeStackQuota
-(
-workerCx
-WORKER_CONTEXT_NATIVE_STACK_LIMIT
 )
 ;
 NS_ASSERTION
