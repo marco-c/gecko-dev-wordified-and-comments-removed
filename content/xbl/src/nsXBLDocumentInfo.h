@@ -194,6 +194,12 @@ return
 mIsChrome
 ;
 }
+JSObject
+*
+GetCompilationGlobal
+(
+)
+;
 virtual
 nsIScriptGlobalObject
 *
@@ -229,6 +235,11 @@ nsIScriptGlobalObjectOwner
 )
 private
 :
+void
+EnsureGlobalObject
+(
+)
+;
 nsCOMPtr
 <
 nsIDocument

@@ -287,9 +287,6 @@ aStream
 nsXBLPrototypeBinding
 *
 aBinding
-nsIScriptGlobalObject
-*
-aGlobal
 )
 ;
 nsresult
