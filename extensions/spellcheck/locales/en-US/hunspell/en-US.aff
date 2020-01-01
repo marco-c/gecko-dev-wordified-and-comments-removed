@@ -528,17 +528,8 @@ L
 0
 ment
 .
-SFX
-i
-N
-1
-SFX
-i
-us
-i
-us
 REP
-90
+88
 REP
 a
 ei
@@ -557,9 +548,6 @@ ie
 REP
 ie
 ai
-REP
-alot
-a_lot
 REP
 are
 air
@@ -806,6 +794,3 @@ sion
 REP
 shun
 cion
-REP
-sitted
-sat

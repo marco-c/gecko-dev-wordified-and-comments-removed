@@ -1,8 +1,8 @@
-2007
+2008
 -
-11
+12
 -
-24
+05
 Release
 README
 file
@@ -30,7 +30,7 @@ in
 SCOWL
 SVN
 revision
-47
+74
 .
 The
 NOSUGGEST
