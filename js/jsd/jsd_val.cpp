@@ -2633,11 +2633,8 @@ if
 JS_GetPendingException
 (
 cx
+&
 propValue
-.
-address
-(
-)
 )
 )
 {

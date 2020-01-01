@@ -1111,11 +1111,8 @@ if
 JS_GetPendingException
 (
 cx
+&
 jsexception
-.
-address
-(
-)
 )
 )
 {
@@ -3875,11 +3872,8 @@ is_js_exception
 JS_GetPendingException
 (
 cx
+&
 js_exception
-.
-address
-(
-)
 )
 ;
 if

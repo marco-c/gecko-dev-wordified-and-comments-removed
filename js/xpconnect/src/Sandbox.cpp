@@ -7167,11 +7167,8 @@ if
 JS_GetPendingException
 (
 sandcx
+&
 exn
-.
-address
-(
-)
 )
 )
 {

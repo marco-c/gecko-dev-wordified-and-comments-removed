@@ -1254,11 +1254,8 @@ cx
 JS_GetPendingException
 (
 cx
+&
 v
-.
-address
-(
-)
 )
 ;
 JS_ClearPendingException

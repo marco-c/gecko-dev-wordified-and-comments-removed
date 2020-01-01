@@ -12207,11 +12207,8 @@ if
 JS_GetPendingException
 (
 cx
+&
 ex
-.
-address
-(
-)
 )
 )
 return

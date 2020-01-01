@@ -456,8 +456,11 @@ void_t
 )
 )
 ;
-jsval
+RootedValue
 exn
+(
+cx
+)
 ;
 if
 (
