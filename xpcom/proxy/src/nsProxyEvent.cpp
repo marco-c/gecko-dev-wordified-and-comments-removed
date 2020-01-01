@@ -1781,6 +1781,13 @@ aIID
 )
 )
 {
+peo
+-
+>
+LockedAddRef
+(
+)
+;
 {
 MutexAutoUnlock
 unlock
@@ -1810,13 +1817,6 @@ peo
 -
 >
 mXPTCStub
-)
-;
-peo
--
->
-LockedAddRef
-(
 )
 ;
 return
