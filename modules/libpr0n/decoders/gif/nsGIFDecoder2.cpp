@@ -1178,11 +1178,11 @@ mImageData
 (
 mGIFStruct
 .
-rows_remaining
+height
 -
 mGIFStruct
 .
-height
+rows_remaining
 )
 *
 mGIFStruct
