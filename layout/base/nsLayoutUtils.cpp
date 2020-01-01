@@ -4407,8 +4407,9 @@ viewportFrame
 aBuilder
 -
 >
-ReferenceFrame
+FindReferenceFrameFor
 (
+viewportFrame
 )
 )
 ;
@@ -4422,7 +4423,7 @@ nsLayoutUtils
 GetActiveScrolledRootFor
 (
 f
-aBuilder
+aItem
 -
 >
 ReferenceFrame
@@ -7481,7 +7482,7 @@ mainPage
 aBuilder
 -
 >
-ReferenceFrame
+RootReferenceFrame
 (
 )
 ;

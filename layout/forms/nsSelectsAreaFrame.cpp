@@ -591,12 +591,14 @@ GetVisualOverflowRectRelativeToSelf
 (
 )
 +
-aBuilder
+listFrame
 -
 >
-ToReferenceFrame
+GetOffsetToCrossDoc
 (
-listFrame
+ReferenceFrame
+(
+)
 )
 ;
 }
