@@ -14520,12 +14520,8 @@ if
 mContent
 -
 >
-IsNodeOfType
+IsHTML
 (
-nsINode
-:
-:
-eHTML
 )
 &
 &

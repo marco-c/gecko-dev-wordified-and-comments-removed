@@ -2097,12 +2097,8 @@ if
 child
 -
 >
-IsNodeOfType
+IsHTML
 (
-nsINode
-:
-:
-eHTML
 )
 &
 &

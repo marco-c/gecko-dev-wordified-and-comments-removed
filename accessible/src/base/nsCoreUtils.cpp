@@ -3497,12 +3497,8 @@ if
 aForNode
 -
 >
-IsNodeOfType
+IsXUL
 (
-nsINode
-:
-:
-eXUL
 )
 )
 return

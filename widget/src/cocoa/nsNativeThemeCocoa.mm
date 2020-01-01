@@ -11426,12 +11426,8 @@ GetContent
 )
 -
 >
-IsNodeOfType
+IsXUL
 (
-nsINode
-:
-:
-eXUL
 )
 &
 &

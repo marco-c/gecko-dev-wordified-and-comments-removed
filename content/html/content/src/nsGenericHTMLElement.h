@@ -141,9 +141,8 @@ if
 aContent
 -
 >
-IsNodeOfType
+IsHTML
 (
-eHTML
 )
 )
 return

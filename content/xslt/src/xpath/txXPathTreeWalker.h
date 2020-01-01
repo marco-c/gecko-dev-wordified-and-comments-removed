@@ -633,12 +633,8 @@ return
 content
 -
 >
-IsNodeOfType
+IsHTML
 (
-nsINode
-:
-:
-eHTML
 )
 &
 &

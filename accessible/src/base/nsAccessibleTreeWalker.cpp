@@ -206,12 +206,8 @@ parentContent
 parentContent
 -
 >
-IsNodeOfType
+IsHTML
 (
-nsINode
-:
-:
-eHTML
 )
 )
 {

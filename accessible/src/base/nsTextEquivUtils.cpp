@@ -824,12 +824,8 @@ if
 aContent
 -
 >
-IsNodeOfType
+IsHTML
 (
-nsINode
-:
-:
-eHTML
 )
 &
 &
@@ -1601,12 +1597,8 @@ if
 aContent
 -
 >
-IsNodeOfType
+IsXUL
 (
-nsINode
-:
-:
-eXUL
 )
 )
 {

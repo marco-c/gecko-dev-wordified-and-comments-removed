@@ -9214,8 +9214,6 @@ aFlags
 eCONTENT
 |
 eELEMENT
-|
-eXUL
 )
 )
 ;
