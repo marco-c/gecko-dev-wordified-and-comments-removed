@@ -185,7 +185,7 @@ freelist_count
 ;
 freelistStmt
 .
-step
+executeStep
 (
 )
 ;
@@ -219,7 +219,7 @@ page_count
 ;
 pageCountStmt
 .
-step
+executeStep
 (
 )
 ;
