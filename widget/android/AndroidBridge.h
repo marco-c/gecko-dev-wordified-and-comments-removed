@@ -624,6 +624,17 @@ jobject
 buffer
 )
 ;
+void
+SendThumbnail
+(
+jobject
+buffer
+int32_t
+tabId
+bool
+success
+)
+;
 nsresult
 GetDisplayPort
 (
