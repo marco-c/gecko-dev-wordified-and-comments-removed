@@ -3686,7 +3686,7 @@ weightKeywordBuf
 ;
 }
 nsPrintfCString
-msg
+message
 (
 "
 downloadable
@@ -3781,7 +3781,7 @@ aStatus
 )
 )
 {
-msg
+message
 .
 Append
 (
@@ -3798,7 +3798,7 @@ aStatus
 case
 NS_ERROR_DOM_BAD_URI
 :
-msg
+message
 .
 Append
 (
@@ -3820,7 +3820,7 @@ break
 case
 NS_ERROR_CONTENT_BLOCKED
 :
-msg
+message
 .
 Append
 (
@@ -3834,7 +3834,7 @@ break
 ;
 default
 :
-msg
+message
 .
 Append
 (
@@ -3844,7 +3844,7 @@ status
 "
 )
 ;
-msg
+message
 .
 AppendInt
 (
@@ -3861,7 +3861,7 @@ break
 ;
 }
 }
-msg
+message
 .
 Append
 (
@@ -3872,7 +3872,7 @@ nsource
 "
 )
 ;
-msg
+message
 .
 Append
 (
@@ -3910,7 +3910,7 @@ p
 s
 "
 this
-msg
+message
 .
 get
 (
@@ -4047,7 +4047,7 @@ InitWithWindowID
 (
 NS_ConvertUTF8toUTF16
 (
-msg
+message
 )
 href
 text

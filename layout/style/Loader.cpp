@@ -4477,8 +4477,6 @@ aSheetState
 =
 eSheetPending
 ;
-SheetLoadData
-*
 loadData
 =
 nullptr

@@ -163,7 +163,7 @@ cur
 \
 type_
 *
-next
+dlm_next
 =
 cur
 -
@@ -185,7 +185,7 @@ cur
 \
 cur
 =
-next
+dlm_next
 ;
 \
 }
@@ -250,7 +250,7 @@ member_
 \
 type_
 *
-clone
+clm_clone
 =
 src
 -
@@ -262,7 +262,7 @@ args_
 if
 (
 !
-clone
+clm_clone
 )
 {
 \
@@ -283,12 +283,12 @@ dest
 >
 member_
 =
-clone
+clm_clone
 ;
 \
 dest
 =
-clone
+clm_clone
 ;
 \
 }
