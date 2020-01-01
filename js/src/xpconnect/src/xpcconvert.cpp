@@ -5267,7 +5267,6 @@ ccx
 src
 xpcscope
 iface
-cache
 isGlobal
 getter_AddRefs
 (
