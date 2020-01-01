@@ -754,6 +754,10 @@ nsROCSSPrimitiveValue
 .
 cpp
 \
+nsRuleData
+.
+cpp
+\
 nsRuleNode
 .
 cpp
