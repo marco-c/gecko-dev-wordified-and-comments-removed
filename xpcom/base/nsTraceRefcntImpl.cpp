@@ -3470,6 +3470,9 @@ fname
 .
 AppendInt
 (
+(
+PRUint32
+)
 getpid
 (
 )
