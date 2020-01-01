@@ -646,6 +646,9 @@ kGetInfoIndex_SessionId
 nsresult
 GetQueryResults
 (
+nsNavHistoryQueryResultNode
+*
+aResultNode
 const
 nsCOMArray
 <
@@ -862,6 +865,9 @@ aOffset
 nsresult
 RecursiveGroup
 (
+nsNavHistoryQueryResultNode
+*
+aResultNode
 const
 nsCOMArray
 <
@@ -1591,6 +1597,9 @@ aTitle
 nsresult
 GroupByDay
 (
+nsNavHistoryQueryResultNode
+*
+aResultNode
 const
 nsCOMArray
 <
@@ -1609,6 +1618,9 @@ aDest
 nsresult
 GroupByHost
 (
+nsNavHistoryQueryResultNode
+*
+aResultNode
 const
 nsCOMArray
 <

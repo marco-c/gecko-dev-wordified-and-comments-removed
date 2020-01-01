@@ -8354,6 +8354,7 @@ history
 >
 GetQueryResults
 (
+this
 mQueries
 mOptions
 &
@@ -9199,6 +9200,7 @@ history
 >
 RecursiveGroup
 (
+this
 itemSource
 groupings
 groupCount
