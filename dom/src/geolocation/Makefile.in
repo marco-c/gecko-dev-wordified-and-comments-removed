@@ -496,7 +496,7 @@ WinMobileLocationProvider
 cpp
 endif
 ifdef
-MOZ_PLATFORM_MAEMO
+MOZ_MAEMO_LIBLOCATION
 CPPSRCS
 +
 =
