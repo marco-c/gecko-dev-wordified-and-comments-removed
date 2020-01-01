@@ -7142,6 +7142,17 @@ funobj
 getParent
 (
 )
+-
+>
+unwrap
+(
+)
+;
+OBJ_TO_INNER_OBJECT
+(
+cx
+funObjParent
+)
 ;
 NS_ASSERTION
 (
