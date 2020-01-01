@@ -944,10 +944,6 @@ constructorAtom
 ;
 JSAtom
 *
-countAtom
-;
-JSAtom
-*
 eachAtom
 ;
 JSAtom

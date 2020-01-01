@@ -363,7 +363,6 @@ js_callee_str
 js_caller_str
 js_class_prototype_str
 js_constructor_str
-js_count_str
 js_each_str
 js_eval_str
 js_fileName_str
@@ -555,16 +554,6 @@ js_constructor_str
 =
 "
 constructor
-"
-;
-const
-char
-js_count_str
-[
-]
-=
-"
-__count__
 "
 ;
 const
