@@ -379,6 +379,12 @@ TextureHost
 >
 mNewFrontHost
 ;
+RefPtr
+<
+TextureHost
+>
+mNewFrontHostOnWhite
+;
 bool
 mPaintWillResample
 ;
@@ -500,6 +506,12 @@ RefPtr
 TextureHost
 >
 mBackHost
+;
+RefPtr
+<
+TextureHost
+>
+mBackHostOnWhite
 ;
 }
 ;
