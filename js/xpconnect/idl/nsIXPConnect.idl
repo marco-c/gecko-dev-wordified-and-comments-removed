@@ -2522,15 +2522,15 @@ NS_XPCONNECT_CID
 [
 uuid
 (
-b551afea
+3e825850
 -
-f38c
+3a5f
 -
-46d4
+11e2
 -
-bc93
+81c1
 -
-f1e05aebfec2
+0800200c9a66
 )
 ]
 interface
@@ -4125,6 +4125,7 @@ aHolder
 /
 [
 noscript
+notxpcom
 ]
 void
 addJSHolder
@@ -4166,6 +4167,7 @@ objects
 /
 [
 noscript
+notxpcom
 ]
 void
 removeJSHolder
@@ -4211,6 +4213,7 @@ for
 /
 [
 noscript
+notxpcom
 ]
 bool
 testJSHolder

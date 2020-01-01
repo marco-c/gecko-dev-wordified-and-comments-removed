@@ -2842,7 +2842,7 @@ XPCJSObjectHolder
 holder
 )
 ;
-nsresult
+void
 AddJSHolder
 (
 void
@@ -2853,7 +2853,7 @@ nsScriptObjectTracer
 aTracer
 )
 ;
-nsresult
+void
 RemoveJSHolder
 (
 void
@@ -2861,15 +2861,12 @@ void
 aHolder
 )
 ;
-nsresult
+bool
 TestJSHolder
 (
 void
 *
 aHolder
-bool
-*
-aRetval
 )
 ;
 #

@@ -2421,7 +2421,7 @@ aContent
 )
 ;
 static
-nsresult
+void
 HoldJSObjects
 (
 void
@@ -2433,7 +2433,7 @@ aTracer
 )
 ;
 static
-nsresult
+void
 DropJSObjects
 (
 void
