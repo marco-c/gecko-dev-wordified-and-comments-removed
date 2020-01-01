@@ -649,7 +649,7 @@ MOZ_PKG_MANIFEST
 MOZ_PKG_MANIFEST_P
 )
 (
-PERL
+PYTHON
 )
 (
 topsrcdir
@@ -657,9 +657,9 @@ topsrcdir
 /
 config
 /
-preprocessor
+Preprocessor
 .
-pl
+py
 (
 DEFINES
 )
