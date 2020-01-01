@@ -402,6 +402,10 @@ nsINavHistoryQueryOptions
 :
 QUERY_TYPE_HISTORY
 )
+mAsyncEnabled
+(
+PR_FALSE
+)
 {
 }
 NS_DECLARE_STATIC_IID_ACCESSOR
@@ -510,6 +514,16 @@ return
 mQueryType
 ;
 }
+PRBool
+AsyncEnabled
+(
+)
+const
+{
+return
+mAsyncEnabled
+;
+}
 nsresult
 Clone
 (
@@ -565,6 +579,9 @@ mMaxResults
 ;
 PRUint16
 mQueryType
+;
+PRBool
+mAsyncEnabled
 ;
 }
 ;
