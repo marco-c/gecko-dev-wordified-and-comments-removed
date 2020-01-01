@@ -1118,6 +1118,9 @@ WebGLRenderbuffer
 >
 mMapRenderbuffers
 ;
+public
+:
+static
 void
 LogMessage
 (
@@ -1130,6 +1133,7 @@ fmt
 .
 )
 ;
+static
 nsresult
 ErrorMessage
 (
