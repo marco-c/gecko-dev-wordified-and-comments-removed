@@ -383,10 +383,13 @@ break
 ok
 (
 isFound
+prettyName
+(
 relatedIds
 [
 idx
 ]
+)
 +
 "
 is
