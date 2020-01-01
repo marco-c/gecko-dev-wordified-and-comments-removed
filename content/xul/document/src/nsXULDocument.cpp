@@ -16454,9 +16454,6 @@ PR_LOG_WARNING
 mResolved
 )
 {
-nsresult
-rv
-;
 nsIAtom
 *
 tag
