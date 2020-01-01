@@ -1230,6 +1230,9 @@ infoFlags
 =
 SHGFI_USEFILEATTRIBUTES
 ;
+#
+ifndef
+WINCE
 if
 (
 desiredImageSize
@@ -1242,6 +1245,8 @@ infoFlags
 SHGFI_SHELLICONSIZE
 ;
 else
+#
+endif
 infoFlags
 |
 =
