@@ -1582,13 +1582,15 @@ div
 [
 addonID
 =
-'
 "
 +
 aKey
+.
+quote
+(
+)
 +
 "
-'
 ]
 "
 )
