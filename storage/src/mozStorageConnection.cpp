@@ -4492,6 +4492,12 @@ rv
 ;
 }
 }
+SQLiteMutexAutoLock
+lockedScope
+(
+sharedDBMutex
+)
+;
 (
 void
 )
