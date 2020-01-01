@@ -215,9 +215,9 @@ PlayBinSourceSetupCb
 GstElement
 *
 aPlayBin
-GstElement
+GParamSpec
 *
-aSource
+pspec
 gpointer
 aUserData
 )
