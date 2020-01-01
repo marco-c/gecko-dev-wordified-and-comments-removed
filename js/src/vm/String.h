@@ -1025,7 +1025,7 @@ JSString
 enum
 UsingBarrier
 {
-WithBarrier
+WithIncrementalBarrier
 NoBarrier
 }
 ;
