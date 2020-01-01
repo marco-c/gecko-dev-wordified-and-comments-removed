@@ -4113,10 +4113,6 @@ preserveWrapperCallback
 (
 NULL
 )
-scriptSources
-(
-NULL
-)
 #
 ifdef
 DEBUG
