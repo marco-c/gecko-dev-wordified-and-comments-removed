@@ -292,7 +292,7 @@ nsIURI
 mDefaultIcon
 ;
 bool
-mExpirationRunning
+mFaviconsExpirationRunning
 ;
 PRInt32
 mOptimizedIconDimension
