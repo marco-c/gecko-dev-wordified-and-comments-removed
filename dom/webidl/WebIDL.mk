@@ -179,6 +179,10 @@ EventListener
 .
 webidl
 \
+EventSource
+.
+webidl
+\
 EventTarget
 .
 webidl
@@ -252,6 +256,10 @@ NodeFilter
 webidl
 \
 NodeList
+.
+webidl
+\
+PaintRequest
 .
 webidl
 \
