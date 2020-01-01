@@ -1744,6 +1744,10 @@ SetDOMStringToNull
 mResult
 )
 ;
+mReadTransferred
+=
+0
+;
 nsresult
 rv
 ;
