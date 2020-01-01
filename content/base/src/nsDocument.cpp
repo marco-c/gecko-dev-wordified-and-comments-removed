@@ -18349,7 +18349,10 @@ if
 needsLowercase
 )
 {
-ToLowerCase
+nsContentUtils
+:
+:
+ASCIIToLower
 (
 aTagName
 lcTagName
