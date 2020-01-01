@@ -446,7 +446,7 @@ const
 down
 ;
 ptrdiff_t
-tag
+tag_
 ;
 enum
 {
@@ -666,7 +666,7 @@ v
 {
 JS_ASSERT
 (
-tag
+tag_
 =
 =
 JSVAL
@@ -687,7 +687,7 @@ const
 {
 JS_ASSERT
 (
-tag
+tag_
 =
 =
 JSVAL
@@ -705,7 +705,7 @@ addr
 {
 JS_ASSERT
 (
-tag
+tag_
 =
 =
 JSVAL
@@ -726,7 +726,7 @@ const
 {
 JS_ASSERT
 (
-tag
+tag_
 =
 =
 JSVAL
@@ -744,7 +744,7 @@ jsval_addr
 {
 JS_ASSERT
 (
-tag
+tag_
 =
 =
 JSVAL
@@ -801,7 +801,7 @@ AutoGCRooter
 cx
 OBJECT
 )
-obj
+obj_
 (
 obj
 )
@@ -817,10 +817,7 @@ JSObject
 obj
 )
 {
-this
--
->
-obj
+obj_
 =
 obj
 ;
@@ -833,7 +830,7 @@ object
 const
 {
 return
-obj
+obj_
 ;
 }
 JSObject
@@ -845,7 +842,7 @@ addr
 {
 return
 &
-obj
+obj_
 ;
 }
 friend
@@ -864,7 +861,7 @@ private
 :
 JSObject
 *
-obj
+obj_
 ;
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
@@ -895,7 +892,7 @@ AutoGCRooter
 cx
 STRING
 )
-str
+str_
 (
 str
 )
@@ -911,10 +908,7 @@ JSString
 str
 )
 {
-this
--
->
-str
+str_
 =
 str
 ;
@@ -927,7 +921,7 @@ string
 const
 {
 return
-str
+str_
 ;
 }
 JSString
@@ -939,7 +933,7 @@ addr
 {
 return
 &
-str
+str_
 ;
 }
 JSString
@@ -953,7 +947,7 @@ const
 {
 return
 &
-str
+str_
 ;
 }
 friend
@@ -972,7 +966,7 @@ private
 :
 JSString
 *
-str
+str_
 ;
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
@@ -1018,7 +1012,7 @@ MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 JS_ASSERT
 (
-tag
+tag_
 >
 =
 0
@@ -1032,7 +1026,7 @@ size_t
 newLength
 )
 {
-tag
+tag_
 =
 ptrdiff_t
 (
@@ -1041,7 +1035,7 @@ newLength
 ;
 JS_ASSERT
 (
-tag
+tag_
 >
 =
 0
@@ -1085,7 +1079,7 @@ i
 <
 size_t
 (
-tag
+tag_
 )
 )
 ;
@@ -1117,7 +1111,7 @@ i
 <
 size_t
 (
-tag
+tag_
 )
 )
 ;
@@ -3096,7 +3090,7 @@ void
 setCallee
 (
 Value
-calleev
+aCalleev
 )
 const
 {
@@ -3110,14 +3104,14 @@ argv_
 2
 ]
 =
-calleev
+aCalleev
 ;
 }
 void
 setThis
 (
 Value
-thisv
+aThisv
 )
 const
 {
@@ -3127,7 +3121,7 @@ argv_
 1
 ]
 =
-thisv
+aThisv
 ;
 }
 }
@@ -5211,7 +5205,7 @@ JSContext
 *
 cx
 jsid
-id
+aId
 =
 INT_TO_JSID
 (
@@ -5227,7 +5221,7 @@ ID
 )
 id_
 (
-id
+aId
 )
 {
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
@@ -17557,7 +17551,7 @@ JSAutoSetRuntimeThread
 {
 JSRuntime
 *
-runtime
+runtime_
 ;
 public
 :
@@ -17568,14 +17562,14 @@ JSRuntime
 runtime
 )
 :
-runtime
+runtime_
 (
 runtime
 )
 {
 JS_SetRuntimeThread
 (
-runtime
+runtime_
 )
 ;
 }
@@ -17586,7 +17580,7 @@ JSAutoSetRuntimeThread
 {
 JS_ClearRuntimeThread
 (
-runtime
+runtime_
 )
 ;
 }

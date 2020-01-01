@@ -2568,7 +2568,7 @@ nonNull
 }
 Entry
 *
-entry
+entry_
 ;
 protected
 :
@@ -2579,7 +2579,7 @@ Entry
 entry
 )
 :
-entry
+entry_
 (
 &
 entry
@@ -2595,7 +2595,7 @@ Ptr
 #
 ifdef
 DEBUG
-entry
+entry_
 =
 (
 Entry
@@ -2613,7 +2613,7 @@ found
 const
 {
 return
-entry
+entry_
 -
 >
 isLive
@@ -2668,12 +2668,12 @@ found
 )
 ;
 return
-entry
+entry_
 =
 =
 rhs
 .
-entry
+entry_
 ;
 }
 bool
@@ -2708,7 +2708,7 @@ operator
 const
 {
 return
-entry
+entry_
 -
 >
 get
@@ -2727,7 +2727,7 @@ const
 {
 return
 &
-entry
+entry_
 -
 >
 get
@@ -3777,7 +3777,7 @@ false
 ;
 }
 uint32_t
-capacity
+newCapacity
 =
 (
 length
@@ -3790,11 +3790,11 @@ sInvMaxAlpha
 ;
 if
 (
-capacity
+newCapacity
 <
 sMinCapacity
 )
-capacity
+newCapacity
 =
 sMinCapacity
 ;
@@ -3810,7 +3810,7 @@ while
 (
 roundUp
 <
-capacity
+newCapacity
 )
 {
 roundUp
@@ -3824,13 +3824,13 @@ roundUp
 roundUpLog2
 ;
 }
-capacity
+newCapacity
 =
 roundUp
 ;
 JS_ASSERT
 (
-capacity
+newCapacity
 <
 =
 sMaxCapacity
@@ -3842,7 +3842,7 @@ createTable
 (
 *
 this
-capacity
+newCapacity
 )
 ;
 if
@@ -5672,7 +5672,7 @@ if
 (
 p
 .
-entry
+entry_
 -
 >
 isRemoved
@@ -5729,7 +5729,7 @@ Rehashed
 )
 p
 .
-entry
+entry_
 =
 &
 findFreeEntry
@@ -5742,7 +5742,7 @@ keyHash
 }
 p
 .
-entry
+entry_
 -
 >
 setLive
@@ -5930,7 +5930,7 @@ this
 ;
 p
 .
-entry
+entry_
 =
 &
 lookup
@@ -5991,7 +5991,7 @@ remove
 *
 p
 .
-entry
+entry_
 )
 ;
 checkUnderloaded

@@ -1164,7 +1164,7 @@ currCompartmentStats
 (
 NULL
 )
-mallocSizeOf
+mallocSizeOf_
 (
 mallocSizeOf
 )
@@ -1216,7 +1216,7 @@ CompartmentStats
 currCompartmentStats
 ;
 JSMallocSizeOfFun
-mallocSizeOf
+mallocSizeOf_
 ;
 virtual
 void
@@ -1270,7 +1270,7 @@ iface
 )
 ;
 GetISupportsFun
-getISupports
+getISupports_
 ;
 ObjectPrivateVisitor
 (
@@ -1278,7 +1278,7 @@ GetISupportsFun
 getISupports
 )
 :
-getISupports
+getISupports_
 (
 getISupports
 )

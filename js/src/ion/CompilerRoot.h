@@ -99,10 +99,10 @@ rootList
 JS_ASSERT
 (
 !
-ptr
+ptr_
 )
 ;
-ptr
+ptr_
 =
 root
 ;
@@ -129,7 +129,7 @@ static_cast
 T
 >
 (
-ptr
+ptr_
 )
 ;
 }
@@ -148,7 +148,7 @@ static_cast
 T
 >
 (
-ptr
+ptr_
 )
 ;
 }
@@ -166,7 +166,7 @@ static_cast
 T
 >
 (
-ptr
+ptr_
 )
 ;
 }

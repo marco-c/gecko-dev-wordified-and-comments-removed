@@ -197,7 +197,7 @@ T
 *
 t
 bool
-flag
+aFlag
 )
 {
 JS_ASSERT
@@ -224,7 +224,7 @@ t
 |
 uintptr_t
 (
-flag
+aFlag
 )
 ;
 }
@@ -339,7 +339,7 @@ T
 *
 t
 bool
-flag
+aFlag
 )
 {
 JS_ASSERT
@@ -364,7 +364,7 @@ uintptr_t
 t
 )
 |
-flag
+aFlag
 ;
 }
 }
@@ -696,20 +696,20 @@ value
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
-addr
+addr_
 (
 addr
 )
 old
 (
 *
-addr
+addr_
 )
 {
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 *
-addr
+addr_
 =
 value
 ;
@@ -720,7 +720,7 @@ AutoScopedAssign
 )
 {
 *
-addr
+addr_
 =
 old
 ;
@@ -730,7 +730,7 @@ private
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 T
 *
-addr
+addr_
 ;
 T
 old

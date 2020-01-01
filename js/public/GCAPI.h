@@ -362,7 +362,7 @@ GCDescription
 )
 {
 bool
-isCompartment
+isCompartment_
 ;
 GCDescription
 (
@@ -370,7 +370,7 @@ bool
 isCompartment
 )
 :
-isCompartment
+isCompartment_
 (
 isCompartment
 )

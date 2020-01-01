@@ -48,7 +48,7 @@ class
 SpecialId
 {
 uintptr_t
-bits
+bits_
 ;
 friend
 JS_ALWAYS_INLINE
@@ -92,7 +92,7 @@ uintptr_t
 bits
 )
 :
-bits
+bits_
 (
 bits
 )
@@ -104,7 +104,7 @@ SpecialId
 (
 )
 :
-bits
+bits_
 (
 TYPE_VOID
 )
@@ -117,7 +117,7 @@ JSObject
 obj
 )
 :
-bits
+bits_
 (
 uintptr_t
 (
@@ -162,7 +162,7 @@ const
 {
 return
 (
-bits
+bits_
 &
 TYPE_MASK
 )
@@ -171,7 +171,7 @@ TYPE_MASK
 TYPE_OBJECT
 &
 &
-bits
+bits_
 !
 =
 TYPE_OBJECT
@@ -198,7 +198,7 @@ JSObject
 *
 >
 (
-bits
+bits_
 &
 ~
 TYPE_MASK
@@ -237,7 +237,7 @@ isEmpty
 const
 {
 return
-bits
+bits_
 =
 =
 TYPE_OBJECT
@@ -275,7 +275,7 @@ isVoid
 const
 {
 return
-bits
+bits_
 =
 =
 TYPE_VOID
@@ -304,7 +304,7 @@ id
 =
 sid
 .
-bits
+bits_
 ;
 JS_ASSERT_IF
 (

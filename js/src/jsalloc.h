@@ -99,7 +99,7 @@ TempAllocPolicy
 JSContext
 *
 const
-cx
+cx_
 ;
 JS_FRIEND_API
 (
@@ -124,7 +124,7 @@ JSContext
 cx
 )
 :
-cx
+cx_
 (
 cx
 )
@@ -138,7 +138,7 @@ context
 const
 {
 return
-cx
+cx_
 ;
 }
 void

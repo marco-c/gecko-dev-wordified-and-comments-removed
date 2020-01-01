@@ -382,7 +382,7 @@ sizeOfIncludingThis
 rtStats
 -
 >
-mallocSizeOf
+mallocSizeOf_
 &
 cStats
 .
@@ -713,7 +713,7 @@ sizeOfExcludingThis
 rtStats
 -
 >
-mallocSizeOf
+mallocSizeOf_
 &
 objectsExtra
 )
@@ -749,7 +749,7 @@ if
 opv
 -
 >
-getISupports
+getISupports_
 (
 obj
 &
@@ -809,7 +809,7 @@ sizeOfExcludingThis
 rtStats
 -
 >
-mallocSizeOf
+mallocSizeOf_
 )
 ;
 if
@@ -973,7 +973,7 @@ sizeOfExcludingThis
 rtStats
 -
 >
-mallocSizeOf
+mallocSizeOf_
 &
 propTableSize
 &
@@ -1139,7 +1139,7 @@ sizeOfData
 rtStats
 -
 >
-mallocSizeOf
+mallocSizeOf_
 )
 ;
 #
@@ -1159,7 +1159,7 @@ sizeOfJitScripts
 rtStats
 -
 >
-mallocSizeOf
+mallocSizeOf_
 )
 ;
 #
@@ -1180,7 +1180,7 @@ script
 rtStats
 -
 >
-mallocSizeOf
+mallocSizeOf_
 )
 ;
 #
@@ -1247,7 +1247,7 @@ sizeOfIncludingThis
 rtStats
 -
 >
-mallocSizeOf
+mallocSizeOf_
 )
 ;
 }
@@ -1326,7 +1326,7 @@ sizeOfExcludingThis
 rtStats
 -
 >
-mallocSizeOf
+mallocSizeOf_
 )
 ;
 break
@@ -1476,7 +1476,7 @@ sizeOfIncludingThis
 rtStats
 -
 >
-mallocSizeOf
+mallocSizeOf_
 &
 rtStats
 -
