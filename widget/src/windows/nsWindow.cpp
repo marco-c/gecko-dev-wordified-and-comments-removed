@@ -17110,6 +17110,12 @@ getWheelInfo
 =
 PR_TRUE
 ;
+#
+if
+MOZ_WINSDK_TARGETVER
+>
+=
+MOZ_NTDDI_LONGHORN
 LRESULT
 dwmHitResult
 ;
@@ -17152,6 +17158,8 @@ return
 PR_TRUE
 ;
 }
+#
+endif
 switch
 (
 msg

@@ -755,6 +755,8 @@ static
 DwmDefWindowProcProc
 dwmDwmDefWindowProcPtr
 ;
+#
+endif
 static
 PRBool
 CheckForCompositor
@@ -766,6 +768,12 @@ compositionIsEnabled
 =
 FALSE
 ;
+#
+if
+MOZ_WINSDK_TARGETVER
+>
+=
+MOZ_NTDDI_LONGHORN
 if
 (
 dwmIsCompositionEnabledPtr
@@ -776,6 +784,8 @@ dwmIsCompositionEnabledPtr
 compositionIsEnabled
 )
 ;
+#
+endif
 return
 sHaveCompositor
 =
@@ -787,8 +797,6 @@ compositionIsEnabled
 )
 ;
 }
-#
-endif
 }
 ;
 #
