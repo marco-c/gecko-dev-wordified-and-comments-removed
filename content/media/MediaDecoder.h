@@ -209,6 +209,14 @@ NS_GetCurrentThread
 aThread
 ;
 }
+#
+ifdef
+GetCurrentTime
+#
+undef
+GetCurrentTime
+#
+endif
 class
 MediaDecoder
 :
