@@ -1542,6 +1542,10 @@ test_rowscollection
 .
 html
 \
+test_mozaudiochannel
+.
+html
+\
 (
 NULL
 )
