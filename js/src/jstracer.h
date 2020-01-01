@@ -706,9 +706,6 @@ entryTypeMap
 unsigned
 callDepth
 ;
-unsigned
-loopEdgeCount
-;
 JSAtom
 *
 *
@@ -839,9 +836,12 @@ Fragment
 *
 whichTreeToTrash
 ;
+Queue
+<
 jsbytecode
 *
-lastLoopEdge
+>
+loopEdgeList
 ;
 bool
 isGlobal
