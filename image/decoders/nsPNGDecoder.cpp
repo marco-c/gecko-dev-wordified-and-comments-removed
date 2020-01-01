@@ -432,6 +432,10 @@ height
 =
 height
 ;
+PostFrameStart
+(
+)
+;
 #
 ifdef
 PNG_APNG_SUPPORTED
@@ -450,10 +454,6 @@ SetAnimFrameInfo
 ;
 #
 endif
-PostFrameStart
-(
-)
-;
 PR_LOG
 (
 GetPNGDecoderAccountingLog
@@ -604,9 +604,7 @@ delay_den
 uint32_t
 numFrames
 =
-mImage
-.
-GetNumFrames
+GetFrameCount
 (
 )
 ;
@@ -722,9 +720,7 @@ ifdef
 PNG_APNG_SUPPORTED
 numFrames
 =
-mImage
-.
-GetNumFrames
+GetFrameCount
 (
 )
 ;
@@ -3346,9 +3342,7 @@ numFrames
 decoder
 -
 >
-mImage
-.
-GetNumFrames
+GetFrameCount
 (
 )
 ;
