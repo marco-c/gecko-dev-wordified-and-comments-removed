@@ -10370,6 +10370,14 @@ case
 NPPVpluginWindowBool
 :
 {
+#
+ifdef
+XP_MACOSX
+return
+NPERR_NO_ERROR
+;
+#
+else
 NPBool
 bWindowless
 =
@@ -10389,6 +10397,8 @@ SetWindowless
 bWindowless
 )
 ;
+#
+endif
 }
 case
 NPPVpluginTransparentBool
