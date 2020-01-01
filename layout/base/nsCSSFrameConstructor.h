@@ -382,6 +382,12 @@ aContainer
 nsIFrame
 *
 aParentFrame
+nsIContent
+*
+aStartChild
+nsIContent
+*
+aEndChild
 PRInt32
 aStartIndexInContainer
 PRInt32
