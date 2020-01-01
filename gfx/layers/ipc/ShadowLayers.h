@@ -973,11 +973,11 @@ Transaction
 *
 mTxn
 ;
-bool
-mIsFirstPaint
+DiagnosticTypes
+mDiagnosticTypes
 ;
 bool
-mDrawColoredBorders
+mIsFirstPaint
 ;
 bool
 mWindowOverlayChanged
