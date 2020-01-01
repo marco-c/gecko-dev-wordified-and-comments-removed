@@ -168,14 +168,6 @@ h
 "
 #
 ifdef
-NANOJIT_ARM
-#
-undef
-JS_TRACER
-#
-endif
-#
-ifdef
 JS_TRACER
 #
 include
