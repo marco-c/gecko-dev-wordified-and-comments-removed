@@ -378,7 +378,7 @@ if
 (
 description
 .
-IsVoid
+IsEmpty
 (
 )
 )
