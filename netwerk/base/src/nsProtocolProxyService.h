@@ -495,8 +495,6 @@ host_len
 ;
 }
 ;
-protected
-:
 enum
 ProxyConfig
 {
@@ -509,6 +507,8 @@ eProxyConfig_System
 eProxyConfig_Last
 }
 ;
+protected
+:
 struct
 HostInfo
 {

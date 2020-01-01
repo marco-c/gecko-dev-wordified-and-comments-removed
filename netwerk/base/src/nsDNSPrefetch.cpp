@@ -176,6 +176,11 @@ AsyncResolve
 (
 mHostname
 flags
+|
+nsIDNSService
+:
+:
+RESOLVE_SPECULATE
 this
 nsnull
 getter_AddRefs

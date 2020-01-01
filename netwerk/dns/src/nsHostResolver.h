@@ -402,6 +402,12 @@ RES_PRIORITY_LOW
 <
 <
 3
+RES_SPECULATE
+=
+1
+<
+<
+4
 }
 ;
 private
