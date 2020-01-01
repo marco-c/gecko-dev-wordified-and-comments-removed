@@ -121,17 +121,6 @@ cpp
 (
 NULL
 )
-CPPSRCS
-+
-=
-\
-gfxSharedImageSurface
-.
-cpp
-\
-(
-NULL
-)
 EXTRA_DSO_LDOPTS
 +
 =
