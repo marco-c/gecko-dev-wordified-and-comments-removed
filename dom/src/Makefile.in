@@ -416,6 +416,7 @@ jsurl
 events
 storage
 offline
+json
 include
 (
 topsrcdir

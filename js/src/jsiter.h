@@ -69,7 +69,10 @@ value
 *
 /
 extern
+JS_FRIEND_API
+(
 JSBool
+)
 js_ValueToIterator
 (
 JSContext
@@ -83,7 +86,10 @@ vp
 )
 ;
 extern
+JS_FRIEND_API
+(
 JSBool
+)
 js_CloseIterator
 (
 JSContext
@@ -94,7 +100,10 @@ v
 )
 ;
 extern
+JS_FRIEND_API
+(
 JSBool
+)
 js_CallIteratorNext
 (
 JSContext
