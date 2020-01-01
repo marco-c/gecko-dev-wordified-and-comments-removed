@@ -910,8 +910,6 @@ aMouseEvent
 nscoord
 CalcFallbackRowHeight
 (
-PRInt32
-aNumOptions
 )
 ;
 nscoord
