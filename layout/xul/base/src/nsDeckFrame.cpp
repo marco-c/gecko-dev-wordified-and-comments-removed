@@ -315,7 +315,7 @@ Next
 )
 )
 {
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame

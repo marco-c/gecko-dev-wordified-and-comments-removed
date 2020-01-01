@@ -3811,7 +3811,7 @@ if
 overflows
 )
 {
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 ReparentFrameViewList

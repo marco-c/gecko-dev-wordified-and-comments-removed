@@ -5138,7 +5138,7 @@ HasView
 sameGrandParent
 )
 {
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 ReparentFrameViewList
@@ -7734,7 +7734,7 @@ nsnull
 newFrame
 )
 ;
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame
@@ -8057,7 +8057,7 @@ nsnull
 newFrame
 )
 ;
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame
@@ -8499,7 +8499,7 @@ nsnull
 newFrame
 )
 ;
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame
@@ -9768,7 +9768,7 @@ processChildren
 =
 PR_TRUE
 ;
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame
@@ -11504,7 +11504,7 @@ return
 rv
 ;
 }
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame
@@ -12044,7 +12044,7 @@ nsnull
 comboboxFrame
 )
 ;
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame
@@ -12517,7 +12517,7 @@ rv
 ;
 }
 }
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame
@@ -12696,7 +12696,7 @@ nsnull
 newFrame
 )
 ;
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame
@@ -14969,7 +14969,7 @@ failed
 "
 )
 ;
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame
@@ -17046,7 +17046,7 @@ nsnull
 gfxScrollFrame
 )
 ;
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame
@@ -19670,7 +19670,7 @@ nsnull
 newFrame
 )
 ;
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame
@@ -33603,7 +33603,7 @@ aParentFrame
 aFrame
 )
 ;
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame
@@ -33786,7 +33786,7 @@ aParentFrame
 aFrame
 )
 ;
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame
@@ -34196,7 +34196,7 @@ aParentFrame
 aFrame
 )
 ;
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame
@@ -42894,7 +42894,7 @@ nsnull
 columnSetFrame
 )
 ;
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame
@@ -43171,7 +43171,7 @@ newFrame
 nsFrameConstructorSaveState
 absoluteSaveState
 ;
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame
@@ -43497,7 +43497,7 @@ blockFrame
 PR_FALSE
 )
 ;
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame

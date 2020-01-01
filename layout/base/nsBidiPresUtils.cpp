@@ -1210,7 +1210,7 @@ frame
 ;
 rv
 =
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 ReparentFrameViewList

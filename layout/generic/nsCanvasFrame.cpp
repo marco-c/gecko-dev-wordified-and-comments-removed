@@ -1910,7 +1910,7 @@ child
 "
 )
 ;
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 ReparentFrameViewList

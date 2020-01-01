@@ -1295,7 +1295,7 @@ if
 prevOverflowFrames
 )
 {
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 ReparentFrameViewList
@@ -1680,7 +1680,7 @@ if
 prevOverflowFrames
 )
 {
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 ReparentFrameViewList
@@ -3393,7 +3393,7 @@ SetDirtyNextLine
 )
 ;
 }
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 ReparentFrameView

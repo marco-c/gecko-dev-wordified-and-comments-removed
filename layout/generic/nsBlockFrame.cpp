@@ -3240,7 +3240,7 @@ SetParent
 aNewParent
 )
 ;
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 ReparentFrameView

@@ -665,7 +665,7 @@ HasView
 {
 rv
 =
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 CreateViewForFrame

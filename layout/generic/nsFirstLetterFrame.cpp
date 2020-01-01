@@ -1475,7 +1475,7 @@ list
 "
 )
 ;
-nsHTMLContainerFrame
+nsContainerFrame
 :
 :
 ReparentFrameViewList
