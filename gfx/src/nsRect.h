@@ -1022,6 +1022,16 @@ float
 aYScale
 )
 ;
+nsRect
+&
+ExtendForScaling
+(
+float
+aXMult
+float
+aYMult
+)
+;
 inline
 nsRect
 ConvertAppUnitsRoundOut

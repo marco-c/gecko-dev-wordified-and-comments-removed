@@ -189,6 +189,14 @@ nsIntRect
 aOut
 )
 ;
+static
+gfxFloat
+ClampToScaleFactor
+(
+gfxFloat
+aVal
+)
+;
 }
 ;
 #
