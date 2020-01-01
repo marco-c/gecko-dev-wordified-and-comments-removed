@@ -285,7 +285,7 @@ nsCString
 define
 SEC_WEBSOCKET_VERSION
 "
-7
+8
 "
 class
 CallOnMessageAvailable
