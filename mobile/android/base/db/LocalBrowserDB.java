@@ -347,6 +347,7 @@ NOT
 LIKE
 ?
 )
+AND
 "
 :
 "
