@@ -1840,7 +1840,7 @@ opentype_svg
 .
 enabled
 "
-false
+true
 )
 ;
 #
