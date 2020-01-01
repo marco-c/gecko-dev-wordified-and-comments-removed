@@ -210,7 +210,7 @@ NULL
 ppv
 )
 return
-nsAccessibleWrap
+nsHyperTextAccessibleWrap
 :
 :
 QueryInterface
