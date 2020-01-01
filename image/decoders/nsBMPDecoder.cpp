@@ -1704,6 +1704,13 @@ red
 *
 aBuffer
 ;
+if
+(
+bytesPerColor
+=
+=
+3
+)
 colorNum
 +
 +
@@ -1713,6 +1720,10 @@ break
 case
 3
 :
+colorNum
++
++
+;
 break
 ;
 }
