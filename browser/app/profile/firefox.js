@@ -2587,7 +2587,7 @@ download
 .
 useJSTransfer
 "
-false
+true
 )
 ;
 pref
