@@ -207,7 +207,7 @@ global
 filepicker
 .
 css
-+
+*
 skin
 /
 classic
@@ -217,7 +217,7 @@ global
 findBar
 .
 css
-+
+*
 skin
 /
 classic
@@ -1128,7 +1128,7 @@ dash
 .
 gif
 )
-+
+*
 skin
 /
 classic
