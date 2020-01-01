@@ -6983,8 +6983,15 @@ finishSuccessfully
 (
 )
 ;
+enum
+AbortResult
+{
+NORMAL_ABORT
+JIT_RESET
+}
+;
 JS_REQUIRES_STACK
-AbortableRecordingStatus
+AbortResult
 finishAbort
 (
 const
@@ -7066,7 +7073,7 @@ blacklist
 )
 ;
 friend
-void
+AbortResult
 AbortRecording
 (
 JSContext
@@ -7776,7 +7783,10 @@ blacklist
 ;
 extern
 JS_REQUIRES_STACK
-void
+TraceRecorder
+:
+:
+AbortResult
 AbortRecording
 (
 JSContext
