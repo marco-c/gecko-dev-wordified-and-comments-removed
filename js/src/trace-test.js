@@ -95,6 +95,9 @@ var
 cond
 =
 true
+intCond
+=
+5
 count
 =
 0
@@ -108,7 +111,7 @@ i
 ;
 i
 <
-5000
+100
 ;
 i
 +
@@ -118,6 +121,14 @@ i
 if
 (
 cond
+)
+count
++
++
+;
+if
+(
+intCond
 )
 count
 +
@@ -137,7 +148,7 @@ if
 ifInsideLoop
 (
 )
-5000
+200
 )
 ;
 function
