@@ -557,9 +557,16 @@ LOADING
 const
 unsigned
 short
-DONE
+COMMITTING
 =
 2
+;
+const
+unsigned
+short
+DONE
+=
+3
 ;
 readonly
 attribute
