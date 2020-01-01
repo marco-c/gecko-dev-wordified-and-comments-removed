@@ -689,6 +689,10 @@ test_mediarecorder_record_audiocontext
 .
 html
 \
+test_mediarecorder_record_stopms
+.
+html
+\
 test_mozHasAudio
 .
 html
