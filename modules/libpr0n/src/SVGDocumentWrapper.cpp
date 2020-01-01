@@ -926,6 +926,10 @@ SetIsBeingUsedAsImage
 (
 )
 ;
+StopAnimation
+(
+)
+;
 rv
 =
 mViewer
