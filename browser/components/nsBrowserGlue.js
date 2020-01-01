@@ -2931,6 +2931,13 @@ if
 (
 Services
 .
+startup
+.
+interrupted
+|
+|
+Services
+.
 prefs
 .
 getBoolPref
