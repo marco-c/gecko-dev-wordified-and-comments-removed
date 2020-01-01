@@ -961,16 +961,6 @@ SDK_LIBRARY
 SHARED_LIBRARY
 )
 endif
-include
-(
-topsrcdir
-)
-/
-config
-/
-config
-.
-mk
 ifeq
 (
 (

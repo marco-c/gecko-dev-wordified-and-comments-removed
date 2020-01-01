@@ -89,16 +89,6 @@ FAIL_ON_WARNINGS
 :
 =
 1
-include
-(
-topsrcdir
-)
-/
-config
-/
-config
-.
-mk
 LOCAL_INCLUDES
 +
 =

@@ -107,16 +107,6 @@ js
 (
 NULL
 )
-include
-(
-topsrcdir
-)
-/
-config
-/
-config
-.
-mk
 MANIFEST_FILE
 =
 xpctest

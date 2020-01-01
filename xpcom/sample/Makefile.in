@@ -173,16 +173,6 @@ NS_IMPL_NSGETMODULE
 MODULE_NAME
 =
 nsSampleModule
-include
-(
-topsrcdir
-)
-/
-config
-/
-config
-.
-mk
 #
 EXTRA_DSO_LDOPTS
 specifies

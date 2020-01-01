@@ -88,16 +88,6 @@ xpconnect_test
 FORCE_SHARED_LIB
 =
 1
-include
-(
-topsrcdir
-)
-/
-config
-/
-config
-.
-mk
 MANIFEST_FILE
 =
 xpctest

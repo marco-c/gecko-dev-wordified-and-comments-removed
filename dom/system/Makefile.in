@@ -164,16 +164,6 @@ loader
 (
 NULL
 )
-include
-(
-topsrcdir
-)
-/
-config
-/
-config
-.
-mk
 EXPORT_LIBRARY
 =
 1

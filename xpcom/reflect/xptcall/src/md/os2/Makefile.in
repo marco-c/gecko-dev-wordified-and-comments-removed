@@ -133,16 +133,6 @@ DEFINES
 =
 -
 DMOZ_NEED_LEADING_UNDERSCORE
-include
-(
-topsrcdir
-)
-/
-config
-/
-config
-.
-mk
 #
 we
 don

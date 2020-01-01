@@ -113,16 +113,6 @@ srcdir
 xptinfo
 /
 src
-include
-(
-topsrcdir
-)
-/
-config
-/
-config
-.
-mk
 ifneq
 (
 (

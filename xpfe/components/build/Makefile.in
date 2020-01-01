@@ -85,16 +85,6 @@ EXPORT_LIBRARY
 LIBXUL_LIBRARY
 =
 1
-include
-(
-topsrcdir
-)
-/
-config
-/
-config
-.
-mk
 #
 General
 includes

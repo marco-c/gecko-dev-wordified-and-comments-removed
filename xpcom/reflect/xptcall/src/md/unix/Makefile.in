@@ -158,16 +158,6 @@ NO_PROFILE_GUIDED_OPTIMIZE
 1
 endif
 endif
-include
-(
-topsrcdir
-)
-/
-config
-/
-config
-.
-mk
 #
 #
 #

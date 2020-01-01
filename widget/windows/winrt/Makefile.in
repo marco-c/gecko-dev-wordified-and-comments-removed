@@ -210,16 +210,6 @@ base
 (
 NULL
 )
-include
-(
-topsrcdir
-)
-/
-config
-/
-config
-.
-mk
 MIDL_GENERATED_FILES
 =
 \
