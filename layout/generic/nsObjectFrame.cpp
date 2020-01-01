@@ -2683,6 +2683,9 @@ view
 nsViewVisibility_kHide
 )
 ;
+PRBool
+usewidgets
+;
 nsCOMPtr
 <
 nsIDeviceContext
@@ -2699,6 +2702,14 @@ getter_AddRefs
 (
 dx
 )
+)
+;
+dx
+-
+>
+SupportsNativeWidgets
+(
+usewidgets
 )
 ;
 nsIView
@@ -2782,6 +2793,9 @@ aViewOnly
 &
 !
 mWidget
+&
+&
+usewidgets
 )
 {
 mInnerView
