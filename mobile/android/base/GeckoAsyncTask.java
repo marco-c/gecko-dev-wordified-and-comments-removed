@@ -57,12 +57,6 @@ Handler
 (
 )
 ;
-mHandler
-.
-getLooper
-(
-)
-;
 }
 private
 final
