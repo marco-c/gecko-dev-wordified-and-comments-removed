@@ -46,9 +46,9 @@ VCMRttFilter
 :
 VCMRttFilter
 (
-WebRtc_Word32
+int32_t
 vcmId
-WebRtc_Word32
+int32_t
 receiverId
 )
 :
@@ -238,7 +238,7 @@ VCMRttFilter
 :
 Update
 (
-WebRtc_UWord32
+uint32_t
 rttMs
 )
 {
@@ -449,7 +449,7 @@ VCMRttFilter
 :
 JumpDetection
 (
-WebRtc_UWord32
+uint32_t
 rttMs
 )
 {
@@ -622,7 +622,7 @@ VCMRttFilter
 :
 DriftDetection
 (
-WebRtc_UWord32
+uint32_t
 rttMs
 )
 {
@@ -725,10 +725,10 @@ VCMRttFilter
 :
 ShortRttFilter
 (
-WebRtc_UWord32
+uint32_t
 *
 buf
-WebRtc_UWord32
+uint32_t
 length
 )
 {
@@ -753,7 +753,7 @@ _avgRtt
 ;
 for
 (
-WebRtc_UWord32
+uint32_t
 i
 =
 0
@@ -807,7 +807,7 @@ length
 )
 ;
 }
-WebRtc_UWord32
+uint32_t
 VCMRttFilter
 :
 :
@@ -819,7 +819,7 @@ const
 return
 static_cast
 <
-WebRtc_UWord32
+uint32_t
 >
 (
 _maxRtt

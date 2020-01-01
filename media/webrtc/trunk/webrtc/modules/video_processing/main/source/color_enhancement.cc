@@ -30,7 +30,7 @@ webrtc
 namespace
 VideoProcessing
 {
-WebRtc_Word32
+int32_t
 ColorEnhancement
 (
 I420VideoFrame
@@ -43,15 +43,15 @@ assert
 frame
 )
 ;
-WebRtc_UWord8
+uint8_t
 *
 ptrU
 ;
-WebRtc_UWord8
+uint8_t
 *
 ptrV
 ;
-WebRtc_UWord8
+uint8_t
 tempChroma
 ;
 if

@@ -14,10 +14,10 @@ h
 void
 WebRtcIlbcfix_EnhUpsample
 (
-WebRtc_Word32
+int32_t
 *
 useq1
-WebRtc_Word16
+int16_t
 *
 seq1
 )

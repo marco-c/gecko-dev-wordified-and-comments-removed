@@ -14,10 +14,10 @@ h
 void
 WebRtcIlbcfix_GetLspPoly
 (
-WebRtc_Word16
+int16_t
 *
 lsp
-WebRtc_Word32
+int32_t
 *
 f
 )

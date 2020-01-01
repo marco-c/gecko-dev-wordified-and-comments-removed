@@ -84,7 +84,7 @@ h
 #
 endif
 static
-WebRtc_Word32
+int32_t
 g_vie_active_instance_counter
 =
 0
@@ -664,9 +664,6 @@ false
 }
 #
 endif
-#
-ifdef
-WEBRTC_VIDEO_ENGINE_NETWORK_API
 ViENetworkImpl
 *
 vie_network
@@ -710,8 +707,6 @@ return
 false
 ;
 }
-#
-endif
 #
 ifdef
 WEBRTC_VIDEO_ENGINE_RENDER_API
@@ -933,7 +928,7 @@ int
 filter
 )
 {
-WebRtc_UWord32
+uint32_t
 old_filter
 =
 0
@@ -979,7 +974,7 @@ filter
 )
 ;
 }
-WebRtc_Word32
+int32_t
 error
 =
 Trace
@@ -1150,9 +1145,6 @@ return
 1
 ;
 }
-#
-ifdef
-WEBRTC_INCLUDE_INTERNAL_VIDEO_RENDER
 if
 (
 SetRenderAndroidVM
@@ -1184,8 +1176,6 @@ return
 1
 ;
 }
-#
-endif
 return
 0
 ;

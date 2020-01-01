@@ -125,7 +125,7 @@ Close
 )
 ;
 }
-WebRtc_Word16
+int16_t
 SpatialAudio
 :
 :
@@ -198,7 +198,7 @@ RegisterReceiverACM
 _acmReceiver
 )
 ;
-WebRtc_UWord16
+uint16_t
 sampFreqHz
 =
 32000
@@ -375,7 +375,7 @@ codecInst
 int
 status
 ;
-WebRtc_UWord8
+uint8_t
 num_encoders
 =
 _acmReceiver
@@ -387,7 +387,7 @@ NumberOfCodecs
 ;
 for
 (
-WebRtc_UWord8
+uint8_t
 n
 =
 0
@@ -409,6 +409,7 @@ _acmReceiver
 Codec
 (
 n
+&
 codecInst
 )
 ;
@@ -553,9 +554,10 @@ _acmLeft
 Codec
 (
 (
-WebRtc_UWord8
+uint8_t
 )
 1
+&
 codecInst
 )
 ;
@@ -574,7 +576,7 @@ EncodeDecode
 (
 )
 ;
-WebRtc_Word16
+int16_t
 pannCntr
 =
 0
@@ -674,9 +676,10 @@ _acmLeft
 Codec
 (
 (
-WebRtc_UWord8
+uint8_t
 )
 0
+&
 codecInst
 )
 ;
@@ -730,9 +733,10 @@ _acmLeft
 Codec
 (
 (
-WebRtc_UWord8
+uint8_t
 )
 3
+&
 codecInst
 )
 ;
@@ -803,9 +807,10 @@ _acmLeft
 Codec
 (
 (
-WebRtc_UWord8
+uint8_t
 )
 4
+&
 codecInst
 )
 ;
@@ -830,9 +835,10 @@ _acmLeft
 Codec
 (
 (
-WebRtc_UWord8
+uint8_t
 )
 0
+&
 codecInst
 )
 ;
@@ -948,7 +954,7 @@ rightPanning
 AudioFrame
 audioFrame
 ;
-WebRtc_Word32
+int32_t
 outFileSampFreq
 =
 _outFile
@@ -1016,7 +1022,7 @@ n
 ]
 =
 (
-WebRtc_Word16
+int16_t
 )
 floor
 (
@@ -1072,7 +1078,7 @@ n
 ]
 =
 (
-WebRtc_Word16
+int16_t
 )
 floor
 (
@@ -1130,6 +1136,7 @@ _acmReceiver
 PlayoutData10Ms
 (
 outFileSampFreq
+&
 audioFrame
 )
 )
@@ -1160,7 +1167,7 @@ EncodeDecode
 AudioFrame
 audioFrame
 ;
-WebRtc_Word32
+int32_t
 outFileSampFreq
 =
 _outFile
@@ -1223,6 +1230,7 @@ _acmReceiver
 PlayoutData10Ms
 (
 outFileSampFreq
+&
 audioFrame
 )
 )

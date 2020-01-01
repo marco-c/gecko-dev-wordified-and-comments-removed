@@ -66,8 +66,14 @@ enum
 BandwidthUsage
 {
 kBwNormal
-kBwOverusing
+=
+0
 kBwUnderusing
+=
+1
+kBwOverusing
+=
+2
 }
 ;
 enum
@@ -95,7 +101,7 @@ RateControlInput
 (
 BandwidthUsage
 bwState
-WebRtc_UWord32
+uint32_t
 incomingBitRate
 double
 noiseVar
@@ -118,7 +124,7 @@ noiseVar
 BandwidthUsage
 _bwState
 ;
-WebRtc_UWord32
+uint32_t
 _incomingBitRate
 ;
 double

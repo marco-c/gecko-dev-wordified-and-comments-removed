@@ -76,11 +76,11 @@ return
 1
 ;
 }
-WebRtc_UWord16
+uint16_t
 length
 plen
 ;
-WebRtc_UWord32
+uint32_t
 offset
 ;
 if
@@ -170,7 +170,7 @@ return
 1
 ;
 }
-WebRtc_UWord32
+uint32_t
 receiveTime
 =
 ntohl
@@ -181,7 +181,7 @@ offset
 length
 =
 (
-WebRtc_UWord16
+uint16_t
 )
 (
 length
@@ -215,7 +215,7 @@ _datagram
 _datagram
 =
 new
-WebRtc_UWord8
+uint8_t
 [
 length
 +
@@ -561,11 +561,11 @@ return
 1
 ;
 }
-WebRtc_UWord16
+uint16_t
 length
 plen
 ;
-WebRtc_UWord32
+uint32_t
 offset
 ;
 length

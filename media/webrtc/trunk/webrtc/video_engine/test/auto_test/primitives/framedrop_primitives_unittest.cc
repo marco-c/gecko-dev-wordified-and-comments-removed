@@ -222,7 +222,7 @@ push_back
 fourth_frame
 )
 ;
-WebRtc_UWord8
+uint8_t
 first_frame_data
 [
 kFrameLength
@@ -235,7 +235,7 @@ first_frame_data
 kFrameLength
 )
 ;
-WebRtc_UWord8
+uint8_t
 third_frame_data
 [
 kFrameLength
@@ -368,7 +368,7 @@ Init
 (
 )
 ;
-WebRtc_UWord8
+uint8_t
 read_buffer
 [
 kFrameLength

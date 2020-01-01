@@ -183,17 +183,6 @@ loadPercent
 ;
 virtual
 int
-GetSystemCPULoad
-(
-int
-&
-loadPercent
-)
-=
-0
-;
-virtual
-int
 ResetAudioDevice
 (
 )

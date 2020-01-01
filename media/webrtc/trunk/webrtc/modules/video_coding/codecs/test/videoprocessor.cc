@@ -30,6 +30,11 @@ limits
 >
 #
 include
+<
+vector
+>
+#
+include
 "
 system_wrappers
 /
@@ -214,7 +219,7 @@ maxFramerate
 *
 8
 ;
-int
+size_t
 frame_length_in_bytes
 =
 frame_reader_
@@ -227,7 +232,7 @@ FrameLength
 source_buffer_
 =
 new
-WebRtc_UWord8
+uint8_t
 [
 frame_length_in_bytes
 ]
@@ -235,7 +240,7 @@ frame_length_in_bytes
 last_successful_frame_buffer_
 =
 new
-WebRtc_UWord8
+uint8_t
 [
 frame_length_in_bytes
 ]
@@ -274,7 +279,7 @@ VideoProcessorDecodeCompleteCallback
 this
 )
 ;
-WebRtc_Word32
+int32_t
 register_result
 =
 encoder_
@@ -365,7 +370,7 @@ return
 false
 ;
 }
-WebRtc_UWord32
+uint32_t
 nbr_of_cores
 =
 1
@@ -388,7 +393,7 @@ DetectNumberOfCores
 )
 ;
 }
-WebRtc_Word32
+int32_t
 init_result
 =
 encoder_
@@ -1000,7 +1005,7 @@ encoded_frame_size_
 =
 0
 ;
-WebRtc_Word32
+int32_t
 encode_result
 =
 encoder_
@@ -1327,7 +1332,7 @@ Now
 (
 )
 ;
-WebRtc_Word32
+int32_t
 decode_result
 =
 decoder_
@@ -1881,7 +1886,7 @@ TickTime
 stop
 )
 {
-WebRtc_UWord64
+uint64_t
 encode_time
 =
 (
@@ -2044,7 +2049,7 @@ Unknown
 ;
 }
 }
-WebRtc_Word32
+int32_t
 VideoProcessorImpl
 :
 :
@@ -2085,7 +2090,7 @@ return
 0
 ;
 }
-WebRtc_Word32
+int32_t
 VideoProcessorImpl
 :
 :

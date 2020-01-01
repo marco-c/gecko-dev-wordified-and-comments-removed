@@ -264,9 +264,9 @@ VideoSource
 :
 GetSize
 (
-WebRtc_UWord16
+uint16_t
 width
-WebRtc_UWord16
+uint16_t
 height
 )
 {

@@ -1,6 +1,10 @@
 #
 include
 "
+webrtc
+/
+test
+/
 testsupport
 /
 frame_writer
@@ -28,7 +32,7 @@ std
 :
 string
 output_filename
-int
+size_t
 frame_length_in_bytes
 )
 :
@@ -87,7 +91,7 @@ be
 0
 was
 %
-d
+zu
 \
 n
 "
@@ -186,7 +190,7 @@ FrameWriterImpl
 :
 WriteFrame
 (
-WebRtc_UWord8
+uint8_t
 *
 frame_buffer
 )
@@ -227,7 +231,7 @@ return
 false
 ;
 }
-int
+size_t
 bytes_written
 =
 fwrite
@@ -254,7 +258,7 @@ Failed
 to
 write
 %
-d
+zu
 bytes
 to
 file

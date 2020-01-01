@@ -27,7 +27,7 @@ use_fake_clock_
 =
 false
 ;
-WebRtc_Word64
+int64_t
 TickTime
 :
 :
@@ -41,7 +41,7 @@ TickTime
 :
 UseFakeClock
 (
-WebRtc_Word64
+int64_t
 start_millisecond
 )
 {
@@ -63,7 +63,7 @@ TickTime
 :
 AdvanceFakeClock
 (
-WebRtc_Word64
+int64_t
 milliseconds
 )
 {

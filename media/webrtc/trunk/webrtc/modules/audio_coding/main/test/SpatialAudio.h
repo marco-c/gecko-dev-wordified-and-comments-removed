@@ -72,7 +72,7 @@ Perform
 ;
 private
 :
-WebRtc_Word16
+int16_t
 Setup
 (
 )

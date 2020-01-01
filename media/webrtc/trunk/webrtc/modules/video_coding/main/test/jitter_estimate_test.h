@@ -281,7 +281,7 @@ FrameSample
 unsigned
 int
 ts
-WebRtc_Word64
+int64_t
 wallClk
 unsigned
 int
@@ -318,7 +318,7 @@ unsigned
 int
 timestamp90Khz
 ;
-WebRtc_Word64
+int64_t
 wallClockMs
 ;
 unsigned
@@ -450,7 +450,7 @@ unsigned
 int
 _prevTimestamp
 ;
-WebRtc_Word64
+int64_t
 _prevWallClock
 ;
 unsigned

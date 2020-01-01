@@ -46,7 +46,7 @@ h
 "
 extern
 const
-WebRtc_Word16
+int16_t
 kCosTab1
 [
 FRAMESAMPLES
@@ -56,7 +56,7 @@ FRAMESAMPLES
 ;
 extern
 const
-WebRtc_Word16
+int16_t
 kSinTab1
 [
 FRAMESAMPLES
@@ -66,7 +66,7 @@ FRAMESAMPLES
 ;
 extern
 const
-WebRtc_Word16
+int16_t
 kCosTab2
 [
 FRAMESAMPLES
@@ -76,7 +76,7 @@ FRAMESAMPLES
 ;
 extern
 const
-WebRtc_Word16
+int16_t
 kSinTab2
 [
 FRAMESAMPLES

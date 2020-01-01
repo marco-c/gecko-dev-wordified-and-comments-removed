@@ -566,16 +566,6 @@ fec_packet
 )
 ;
 static
-uint16_t
-LatestSequenceNumber
-(
-uint16_t
-first
-uint16_t
-second
-)
-;
-static
 void
 DiscardFECPacket
 (

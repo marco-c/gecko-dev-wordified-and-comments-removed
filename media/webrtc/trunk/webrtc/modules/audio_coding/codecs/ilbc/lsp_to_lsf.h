@@ -14,13 +14,13 @@ h
 void
 WebRtcIlbcfix_Lsp2Lsf
 (
-WebRtc_Word16
+int16_t
 *
 lsp
-WebRtc_Word16
+int16_t
 *
 lsf
-WebRtc_Word16
+int16_t
 m
 )
 ;

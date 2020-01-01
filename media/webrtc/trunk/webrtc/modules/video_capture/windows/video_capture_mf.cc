@@ -23,7 +23,7 @@ VideoCaptureMF
 VideoCaptureMF
 (
 const
-WebRtc_Word32
+int32_t
 id
 )
 :
@@ -42,14 +42,14 @@ VideoCaptureMF
 )
 {
 }
-WebRtc_Word32
+int32_t
 VideoCaptureMF
 :
 :
 Init
 (
 const
-WebRtc_Word32
+int32_t
 id
 const
 char
@@ -61,7 +61,7 @@ return
 0
 ;
 }
-WebRtc_Word32
+int32_t
 VideoCaptureMF
 :
 :
@@ -78,7 +78,7 @@ return
 1
 ;
 }
-WebRtc_Word32
+int32_t
 VideoCaptureMF
 :
 :
@@ -103,7 +103,7 @@ return
 false
 ;
 }
-WebRtc_Word32
+int32_t
 VideoCaptureMF
 :
 :

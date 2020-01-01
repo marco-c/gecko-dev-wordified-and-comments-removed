@@ -119,10 +119,7 @@ type
 '
 :
 '
-<
-(
-library
-)
+static_library
 '
 '
 sources

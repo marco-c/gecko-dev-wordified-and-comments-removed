@@ -8,7 +8,7 @@ namespace
 webrtc
 {
 const
-WebRtc_UWord16
+uint16_t
 VCMNackFecTable
 [
 100

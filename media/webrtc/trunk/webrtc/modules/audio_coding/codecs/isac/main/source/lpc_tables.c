@@ -13,7 +13,7 @@ settings
 h
 "
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQKltModelCdf
 [
 4
@@ -27,7 +27,7 @@ WebRtcIsac_kQKltModelCdf
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 *
 WebRtcIsac_kQKltModelCdfPtr
 [
@@ -39,7 +39,7 @@ WebRtcIsac_kQKltModelCdf
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQKltModelInitIndex
 [
 1
@@ -190,7 +190,7 @@ WebRtcIsac_kQKltQuantMinShape
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQKltMaxIndGain
 [
 12
@@ -212,7 +212,7 @@ WebRtcIsac_kQKltMaxIndGain
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQKltMaxIndShape
 [
 108
@@ -330,7 +330,7 @@ WebRtcIsac_kQKltMaxIndShape
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQKltOffsetGain
 [
 12
@@ -352,7 +352,7 @@ WebRtcIsac_kQKltOffsetGain
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQKltOffsetShape
 [
 108
@@ -470,7 +470,7 @@ WebRtcIsac_kQKltOffsetShape
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQKltInitIndexGain
 [
 12
@@ -492,7 +492,7 @@ WebRtcIsac_kQKltInitIndexGain
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQKltInitIndexShape
 [
 108
@@ -4029,7 +4029,7 @@ WebRtcIsac_kQKltLevelsShape
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQKltCdfGain
 [
 404
@@ -4443,7 +4443,7 @@ WebRtcIsac_kQKltCdfGain
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kQKltCdfShape
 [
 686
@@ -5139,7 +5139,7 @@ WebRtcIsac_kQKltCdfShape
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 *
 WebRtcIsac_kQKltCdfPtrGain
 [
@@ -5210,7 +5210,7 @@ WebRtcIsac_kQKltCdfGain
 }
 ;
 const
-WebRtc_UWord16
+uint16_t
 *
 WebRtcIsac_kQKltCdfPtrShape
 [

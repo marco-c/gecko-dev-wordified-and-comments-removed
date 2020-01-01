@@ -25,11 +25,11 @@ WebRtcNetEQ_McuSetFs
 MCUInst_t
 *
 inst
-WebRtc_UWord16
+uint16_t
 fs
 )
 {
-WebRtc_Word16
+int16_t
 ok
 =
 0

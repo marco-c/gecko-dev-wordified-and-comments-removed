@@ -150,7 +150,7 @@ level
 kTraceAll
 )
 ;
-WebRtc_Word32
+int32_t
 SetTraceFileImpl
 (
 const
@@ -162,7 +162,7 @@ bool
 add_file_counter
 )
 ;
-WebRtc_Word32
+int32_t
 TraceFileImpl
 (
 char
@@ -175,7 +175,7 @@ kMaxFileNameSize
 ]
 )
 ;
-WebRtc_Word32
+int32_t
 SetTraceCallbackImpl
 (
 TraceCallback
@@ -193,7 +193,7 @@ const
 TraceModule
 module
 const
-WebRtc_Word32
+int32_t
 id
 const
 char
@@ -235,7 +235,7 @@ level
 kTraceAll
 )
 ;
-WebRtc_Word32
+int32_t
 AddThreadId
 (
 char
@@ -245,7 +245,7 @@ trace_message
 const
 ;
 virtual
-WebRtc_Word32
+int32_t
 AddTime
 (
 char
@@ -260,7 +260,7 @@ const
 0
 ;
 virtual
-WebRtc_Word32
+int32_t
 AddBuildInfo
 (
 char
@@ -272,7 +272,7 @@ const
 0
 ;
 virtual
-WebRtc_Word32
+int32_t
 AddDateTimeInfo
 (
 char
@@ -303,7 +303,7 @@ friend
 class
 Trace
 ;
-WebRtc_Word32
+int32_t
 AddLevel
 (
 char
@@ -315,7 +315,7 @@ level
 )
 const
 ;
-WebRtc_Word32
+int32_t
 AddModuleAndId
 (
 char
@@ -325,12 +325,12 @@ const
 TraceModule
 module
 const
-WebRtc_Word32
+int32_t
 id
 )
 const
 ;
-WebRtc_Word32
+int32_t
 AddMessage
 (
 char
@@ -343,7 +343,7 @@ msg
 WEBRTC_TRACE_MAX_MESSAGE_SIZE
 ]
 const
-WebRtc_UWord16
+uint16_t
 written_so_far
 )
 const
@@ -358,7 +358,7 @@ trace_message
 WEBRTC_TRACE_MAX_MESSAGE_SIZE
 ]
 const
-WebRtc_UWord16
+uint16_t
 length
 const
 TraceLevel
@@ -386,7 +386,7 @@ FileWrapper
 kMaxFileNameSize
 ]
 const
-WebRtc_UWord32
+uint32_t
 new_count
 )
 const
@@ -412,7 +412,7 @@ FileWrapper
 kMaxFileNameSize
 ]
 const
-WebRtc_UWord32
+uint32_t
 new_count
 )
 const
@@ -430,10 +430,10 @@ TraceCallback
 *
 callback_
 ;
-WebRtc_UWord32
+uint32_t
 row_count_text_
 ;
-WebRtc_UWord32
+uint32_t
 file_count_text_
 ;
 FileWrapper
@@ -452,7 +452,7 @@ CriticalSectionWrapper
 *
 critsect_array_
 ;
-WebRtc_UWord16
+uint16_t
 next_free_idx_
 [
 WEBRTC_TRACE_NUM_ARRAY
@@ -467,7 +467,7 @@ WEBRTC_TRACE_NUM_ARRAY
 WEBRTC_TRACE_MAX_QUEUE
 ]
 ;
-WebRtc_UWord16
+uint16_t
 length_
 [
 WEBRTC_TRACE_NUM_ARRAY
@@ -486,7 +486,7 @@ WEBRTC_TRACE_NUM_ARRAY
 WEBRTC_TRACE_MAX_QUEUE
 ]
 ;
-WebRtc_UWord8
+uint8_t
 active_queue_
 ;
 }

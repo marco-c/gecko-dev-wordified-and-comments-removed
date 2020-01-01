@@ -43,7 +43,7 @@ object
 )
 ;
 virtual
-WebRtc_Word32
+int32_t
 Start
 (
 const
@@ -55,7 +55,7 @@ fileNameUTF8
 0
 ;
 virtual
-WebRtc_Word32
+int32_t
 Stop
 (
 )
@@ -72,14 +72,14 @@ const
 0
 ;
 virtual
-WebRtc_Word32
+int32_t
 DumpPacket
 (
 const
-WebRtc_UWord8
+uint8_t
 *
 packet
-WebRtc_UWord16
+uint16_t
 packetLength
 )
 =

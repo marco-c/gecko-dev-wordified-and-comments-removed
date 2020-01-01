@@ -20,7 +20,7 @@ CpuInfo
 public
 :
 static
-WebRtc_UWord32
+uint32_t
 DetectNumberOfCores
 (
 )
@@ -33,7 +33,7 @@ CpuInfo
 {
 }
 static
-WebRtc_UWord32
+uint32_t
 number_of_cores_
 ;
 }

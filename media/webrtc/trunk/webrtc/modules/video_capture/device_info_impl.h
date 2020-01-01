@@ -52,7 +52,7 @@ public
 DeviceInfoImpl
 (
 const
-WebRtc_Word32
+int32_t
 id
 )
 ;
@@ -64,7 +64,7 @@ void
 )
 ;
 virtual
-WebRtc_Word32
+int32_t
 NumberOfCapabilities
 (
 const
@@ -74,7 +74,7 @@ deviceUniqueIdUTF8
 )
 ;
 virtual
-WebRtc_Word32
+int32_t
 GetCapability
 (
 const
@@ -82,7 +82,7 @@ char
 *
 deviceUniqueIdUTF8
 const
-WebRtc_UWord32
+uint32_t
 deviceCapabilityNumber
 VideoCaptureCapability
 &
@@ -90,7 +90,7 @@ capability
 )
 ;
 virtual
-WebRtc_Word32
+int32_t
 GetBestMatchedCapability
 (
 const
@@ -107,7 +107,7 @@ resulting
 )
 ;
 virtual
-WebRtc_Word32
+int32_t
 GetOrientation
 (
 const
@@ -122,7 +122,7 @@ orientation
 protected
 :
 virtual
-WebRtc_Word32
+int32_t
 Init
 (
 )
@@ -130,7 +130,7 @@ Init
 0
 ;
 virtual
-WebRtc_Word32
+int32_t
 CreateCapabilityMap
 (
 const
@@ -141,7 +141,7 @@ deviceUniqueIdUTF8
 =
 0
 ;
-WebRtc_Word32
+int32_t
 GetExpectedCaptureDelay
 (
 const
@@ -150,23 +150,23 @@ delayValues
 [
 ]
 const
-WebRtc_UWord32
+uint32_t
 sizeOfDelayValues
 const
 char
 *
 productId
 const
-WebRtc_UWord32
+uint32_t
 width
 const
-WebRtc_UWord32
+uint32_t
 height
 )
 ;
 protected
 :
-WebRtc_Word32
+int32_t
 _id
 ;
 MapWrapper
@@ -180,7 +180,7 @@ char
 *
 _lastUsedDeviceName
 ;
-WebRtc_UWord32
+uint32_t
 _lastUsedDeviceNameLength
 ;
 }

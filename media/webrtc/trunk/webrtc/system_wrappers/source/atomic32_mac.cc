@@ -43,7 +43,7 @@ Atomic32
 :
 Atomic32
 (
-WebRtc_Word32
+int32_t
 initial_value
 )
 :
@@ -69,7 +69,7 @@ Atomic32
 )
 {
 }
-WebRtc_Word32
+int32_t
 Atomic32
 :
 :
@@ -87,7 +87,7 @@ value_
 )
 ;
 }
-WebRtc_Word32
+int32_t
 Atomic32
 :
 :
@@ -105,7 +105,7 @@ value_
 )
 ;
 }
-WebRtc_Word32
+int32_t
 Atomic32
 :
 :
@@ -113,7 +113,7 @@ operator
 +
 =
 (
-WebRtc_Word32
+int32_t
 value
 )
 {
@@ -126,7 +126,7 @@ value_
 )
 ;
 }
-WebRtc_Word32
+int32_t
 Atomic32
 :
 :
@@ -134,7 +134,7 @@ operator
 -
 =
 (
-WebRtc_Word32
+int32_t
 value
 )
 {
@@ -154,9 +154,9 @@ Atomic32
 :
 CompareExchange
 (
-WebRtc_Word32
+int32_t
 new_value
-WebRtc_Word32
+int32_t
 compare_value
 )
 {
@@ -170,7 +170,7 @@ value_
 )
 ;
 }
-WebRtc_Word32
+int32_t
 Atomic32
 :
 :

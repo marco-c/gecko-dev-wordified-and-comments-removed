@@ -33,7 +33,7 @@ SUBFRAMES
 ;
 extern
 const
-WebRtc_Word16
+int16_t
 WebRtcIsac_kNumQCellLpcGain
 [
 SUBFRAMES
@@ -41,7 +41,7 @@ SUBFRAMES
 ;
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kLpcGainEntropySearch
 [
 SUBFRAMES
@@ -49,7 +49,7 @@ SUBFRAMES
 ;
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kLpcGainCdfVec0
 [
 18
@@ -57,7 +57,7 @@ WebRtcIsac_kLpcGainCdfVec0
 ;
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kLpcGainCdfVec1
 [
 21
@@ -65,7 +65,7 @@ WebRtcIsac_kLpcGainCdfVec1
 ;
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kLpcGainCdfVec2
 [
 26
@@ -73,7 +73,7 @@ WebRtcIsac_kLpcGainCdfVec2
 ;
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kLpcGainCdfVec3
 [
 46
@@ -81,7 +81,7 @@ WebRtcIsac_kLpcGainCdfVec3
 ;
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kLpcGainCdfVec4
 [
 78
@@ -89,7 +89,7 @@ WebRtcIsac_kLpcGainCdfVec4
 ;
 extern
 const
-WebRtc_UWord16
+uint16_t
 WebRtcIsac_kLpcGainCdfVec5
 [
 171
@@ -97,7 +97,7 @@ WebRtcIsac_kLpcGainCdfVec5
 ;
 extern
 const
-WebRtc_UWord16
+uint16_t
 *
 WebRtcIsac_kLpcGainCdfMat
 [

@@ -11,12 +11,12 @@ defines
 .
 h
 "
-WebRtc_Word16
+int16_t
 WebRtcIlbcfix_Chebyshev
 (
-WebRtc_Word16
+int16_t
 x
-WebRtc_Word16
+int16_t
 *
 f
 )

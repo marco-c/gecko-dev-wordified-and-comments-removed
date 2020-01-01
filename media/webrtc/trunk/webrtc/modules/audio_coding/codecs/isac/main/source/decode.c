@@ -70,10 +70,10 @@ signal_out
 ISACLBDecStruct
 *
 ISACdecLB_obj
-WebRtc_Word16
+int16_t
 *
 current_framesamples
-WebRtc_Word16
+int16_t
 isRCUPayload
 )
 {
@@ -84,7 +84,7 @@ int
 len
 err
 ;
-WebRtc_Word16
+int16_t
 bandwidthInd
 ;
 float
@@ -168,13 +168,13 @@ PitchGains
 double
 AvgPitchGain
 ;
-WebRtc_Word16
+int16_t
 PitchGains_Q12
 [
 4
 ]
 ;
-WebRtc_Word16
+int16_t
 AvgPitchGain_Q12
 ;
 float
@@ -654,7 +654,7 @@ signal_out
 ISACUBDecStruct
 *
 ISACdecUB_obj
-WebRtc_Word16
+int16_t
 isRCUPayload
 )
 {
@@ -710,7 +710,7 @@ FRAMESAMPLES_HALF
 ]
 ;
 const
-WebRtc_Word16
+int16_t
 kAveragePitchGain
 =
 0
@@ -918,7 +918,7 @@ signal_out
 ISACUBDecStruct
 *
 ISACdecUB_obj
-WebRtc_Word16
+int16_t
 isRCUPayload
 )
 {
@@ -975,7 +975,7 @@ FRAMESAMPLES_HALF
 ]
 ;
 const
-WebRtc_Word16
+int16_t
 kAveragePitchGain
 =
 0

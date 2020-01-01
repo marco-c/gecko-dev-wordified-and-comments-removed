@@ -39,7 +39,7 @@ module
 )
 ;
 virtual
-WebRtc_Word32
+int32_t
 Start
 (
 )
@@ -47,7 +47,7 @@ Start
 0
 ;
 virtual
-WebRtc_Word32
+int32_t
 Stop
 (
 )
@@ -55,7 +55,7 @@ Stop
 0
 ;
 virtual
-WebRtc_Word32
+int32_t
 RegisterModule
 (
 const
@@ -67,7 +67,7 @@ module
 0
 ;
 virtual
-WebRtc_Word32
+int32_t
 DeRegisterModule
 (
 const

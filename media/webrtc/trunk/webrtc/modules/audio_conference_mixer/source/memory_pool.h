@@ -53,19 +53,19 @@ MemoryPool
 public
 :
 static
-WebRtc_Word32
+int32_t
 CreateMemoryPool
 (
 MemoryPool
 *
 &
 memoryPool
-WebRtc_UWord32
+uint32_t
 initialPoolSize
 )
 ;
 static
-WebRtc_Word32
+int32_t
 DeleteMemoryPool
 (
 MemoryPool
@@ -74,7 +74,7 @@ MemoryPool
 memoryPool
 )
 ;
-WebRtc_Word32
+int32_t
 PopMemory
 (
 MemoryType
@@ -83,7 +83,7 @@ MemoryType
 memory
 )
 ;
-WebRtc_Word32
+int32_t
 PushMemory
 (
 MemoryType
@@ -96,7 +96,7 @@ private
 :
 MemoryPool
 (
-WebRtc_Word32
+int32_t
 initialPoolSize
 )
 ;
@@ -127,7 +127,7 @@ MemoryType
 :
 MemoryPool
 (
-WebRtc_Word32
+int32_t
 initialPoolSize
 )
 {
@@ -168,7 +168,7 @@ template
 class
 MemoryType
 >
-WebRtc_Word32
+int32_t
 MemoryPool
 <
 MemoryType
@@ -181,7 +181,7 @@ MemoryPool
 *
 &
 memoryPool
-WebRtc_UWord32
+uint32_t
 initialPoolSize
 )
 {
@@ -264,7 +264,7 @@ template
 class
 MemoryType
 >
-WebRtc_Word32
+int32_t
 MemoryPool
 <
 MemoryType
@@ -346,7 +346,7 @@ template
 class
 MemoryType
 >
-WebRtc_Word32
+int32_t
 MemoryPool
 <
 MemoryType
@@ -376,7 +376,7 @@ template
 class
 MemoryType
 >
-WebRtc_Word32
+int32_t
 MemoryPool
 <
 MemoryType

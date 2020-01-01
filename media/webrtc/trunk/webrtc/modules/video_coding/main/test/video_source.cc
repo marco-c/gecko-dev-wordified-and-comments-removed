@@ -157,9 +157,9 @@ std
 :
 string
 fileName
-WebRtc_UWord16
+uint16_t
 width
-WebRtc_UWord16
+uint16_t
 height
 float
 frameRate
@@ -224,7 +224,7 @@ frameRate
 )
 ;
 }
-WebRtc_Word32
+int32_t
 VideoSource
 :
 :

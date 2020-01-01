@@ -64,7 +64,7 @@ _timedTraceFile
 NULL
 ;
 }
-WebRtc_Word16
+int16_t
 TimedTrace
 :
 :
@@ -170,7 +170,7 @@ int
 minutes
 =
 (
-WebRtc_UWord32
+uint32_t
 )
 floor
 (

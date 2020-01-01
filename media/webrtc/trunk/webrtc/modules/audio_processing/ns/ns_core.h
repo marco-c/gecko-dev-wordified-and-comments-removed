@@ -82,7 +82,7 @@ typedef
 struct
 NSinst_t_
 {
-WebRtc_UWord32
+uint32_t
 fs
 ;
 int
@@ -192,7 +192,7 @@ wfft
 W_LENGTH
 ]
 ;
-WebRtc_Word32
+int32_t
 blockInd
 ;
 int
@@ -313,7 +313,7 @@ WebRtcNs_InitCore
 NSinst_t
 *
 inst
-WebRtc_UWord32
+uint32_t
 fs
 )
 ;

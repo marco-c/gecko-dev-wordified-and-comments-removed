@@ -166,10 +166,6 @@ condition_variable
 .
 cc
 \
-cpu_no_op
-.
-cc
-\
 cpu_features
 .
 cc
@@ -211,10 +207,6 @@ trace_impl
 cc
 \
 condition_variable_posix
-.
-cc
-\
-cpu_linux
 .
 cc
 \

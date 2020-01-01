@@ -27,13 +27,13 @@ NETEQTEST_Decoder
 enum
 WebRtcNetEQDecoder
 type
-WebRtc_UWord16
+uint16_t
 fs
 const
 char
 *
 name
-WebRtc_UWord8
+uint8_t
 pt
 )
 :
@@ -140,7 +140,7 @@ decoder_iSAC
 :
 decoder_iSAC
 (
-WebRtc_UWord8
+uint8_t
 pt
 )
 :
@@ -154,7 +154,7 @@ iSAC
 pt
 )
 {
-WebRtc_Word16
+int16_t
 err
 =
 WebRtcIsac_Create
@@ -270,7 +270,7 @@ decoder_iSACSWB
 :
 decoder_iSACSWB
 (
-WebRtc_UWord8
+uint8_t
 pt
 )
 :
@@ -285,7 +285,7 @@ swb
 pt
 )
 {
-WebRtc_Word16
+int16_t
 err
 =
 WebRtcIsac_Create
@@ -401,7 +401,7 @@ decoder_iSACFB
 :
 decoder_iSACFB
 (
-WebRtc_UWord8
+uint8_t
 pt
 )
 :
@@ -416,7 +416,7 @@ fb
 pt
 )
 {
-WebRtc_Word16
+int16_t
 err
 =
 WebRtcIsac_Create
@@ -539,7 +539,7 @@ decoder_PCMU
 :
 decoder_PCMU
 (
-WebRtc_UWord8
+uint8_t
 pt
 )
 :
@@ -595,7 +595,7 @@ decoder_PCMA
 :
 decoder_PCMA
 (
-WebRtc_UWord8
+uint8_t
 pt
 )
 :
@@ -847,7 +847,7 @@ decoder_ILBC
 :
 decoder_ILBC
 (
-WebRtc_UWord8
+uint8_t
 pt
 )
 :
@@ -861,7 +861,7 @@ iLBC
 pt
 )
 {
-WebRtc_Word16
+int16_t
 err
 =
 WebRtcIlbcfix_DecoderCreate
@@ -954,7 +954,7 @@ decoder_G729
 :
 decoder_G729
 (
-WebRtc_UWord8
+uint8_t
 pt
 )
 :
@@ -970,7 +970,7 @@ G
 pt
 )
 {
-WebRtc_Word16
+int16_t
 err
 =
 WebRtcG729_CreateDec
@@ -1063,7 +1063,7 @@ decoder_G729_1
 :
 decoder_G729_1
 (
-WebRtc_UWord8
+uint8_t
 pt
 )
 :
@@ -1081,7 +1081,7 @@ G
 pt
 )
 {
-WebRtc_Word16
+int16_t
 err
 =
 WebRtcG7291_Create
@@ -1174,7 +1174,7 @@ decoder_G722
 :
 decoder_G722
 (
-WebRtc_UWord8
+uint8_t
 pt
 )
 :
@@ -1190,7 +1190,7 @@ G
 pt
 )
 {
-WebRtc_Word16
+int16_t
 err
 =
 WebRtcG722_CreateDecoder
@@ -1325,7 +1325,7 @@ decoder_G722_1_16
 :
 decoder_G722_1_16
 (
-WebRtc_UWord8
+uint8_t
 pt
 )
 :
@@ -1428,7 +1428,7 @@ decoder_G722_1_24
 :
 decoder_G722_1_24
 (
-WebRtc_UWord8
+uint8_t
 pt
 )
 :
@@ -1531,7 +1531,7 @@ decoder_G722_1_32
 :
 decoder_G722_1_32
 (
-WebRtc_UWord8
+uint8_t
 pt
 )
 :
@@ -1634,7 +1634,7 @@ decoder_G722_1C_24
 :
 decoder_G722_1C_24
 (
-WebRtc_UWord8
+uint8_t
 pt
 )
 :
@@ -1735,7 +1735,7 @@ decoder_G722_1C_32
 :
 decoder_G722_1C_32
 (
-WebRtc_UWord8
+uint8_t
 pt
 )
 :
@@ -1836,7 +1836,7 @@ decoder_G722_1C_48
 :
 decoder_G722_1C_48
 (
-WebRtc_UWord8
+uint8_t
 pt
 )
 :
@@ -1951,7 +1951,7 @@ decoder_AMR
 :
 decoder_AMR
 (
-WebRtc_UWord8
+uint8_t
 pt
 )
 :
@@ -2068,7 +2068,7 @@ decoder_AMRWB
 :
 decoder_AMRWB
 (
-WebRtc_UWord8
+uint8_t
 pt
 )
 :
@@ -2186,7 +2186,7 @@ decoder_GSMFR
 :
 decoder_GSMFR
 (
-WebRtc_UWord8
+uint8_t
 pt
 )
 :
@@ -2299,9 +2299,9 @@ decoder_SPEEX
 :
 decoder_SPEEX
 (
-WebRtc_UWord8
+uint8_t
 pt
-WebRtc_UWord16
+uint16_t
 fs
 )
 :
@@ -2438,9 +2438,9 @@ decoder_CELT
 :
 decoder_CELT
 (
-WebRtc_UWord8
+uint8_t
 pt
-WebRtc_UWord16
+uint16_t
 fs
 )
 :
@@ -2529,9 +2529,9 @@ decoder_CELTslave
 :
 decoder_CELTslave
 (
-WebRtc_UWord8
+uint8_t
 pt
-WebRtc_UWord16
+uint16_t
 fs
 )
 :
@@ -2730,9 +2730,9 @@ decoder_CNG
 :
 decoder_CNG
 (
-WebRtc_UWord8
+uint8_t
 pt
-WebRtc_UWord16
+uint16_t
 fs
 )
 :

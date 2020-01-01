@@ -5,10 +5,10 @@ signal_processing_library
 .
 h
 "
-WebRtc_Word32
+int32_t
 WebRtcSpl_Energy
 (
-WebRtc_Word16
+int16_t
 *
 vector
 int
@@ -18,7 +18,7 @@ int
 scale_factor
 )
 {
-WebRtc_Word32
+int32_t
 en
 =
 0
@@ -41,7 +41,7 @@ looptimes
 =
 vector_length
 ;
-WebRtc_Word16
+int16_t
 *
 vectorptr
 =
