@@ -4546,7 +4546,6 @@ Init
 (
 aURI
 loadGroup
-newChannel
 entry
 cacheId
 aCX
@@ -5121,6 +5120,14 @@ nsnull
 }
 else
 {
+nsIThread
+*
+thread
+=
+NS_GetCurrentThread
+(
+)
+;
 NewRequestAndEntry
 (
 uri
@@ -5158,11 +5165,8 @@ Init
 (
 originalURI
 channel
-channel
 entry
-NS_GetCurrentThread
-(
-)
+thread
 aCX
 )
 ;
@@ -6426,7 +6430,6 @@ request
 Init
 (
 originalURI
-channel
 channel
 entry
 NS_GetCurrentThread
