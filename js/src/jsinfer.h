@@ -1170,6 +1170,7 @@ newScript
 unsigned
 newScriptFinalizeKind
 ;
+const
 Shape
 *
 newScriptShape
