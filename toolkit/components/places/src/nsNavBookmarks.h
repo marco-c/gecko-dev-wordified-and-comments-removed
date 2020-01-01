@@ -378,6 +378,9 @@ PRInt64
 mTagRoot
 ;
 PRInt64
+mUnfiledRoot
+;
+PRInt64
 mToolbarFolder
 ;
 PRInt32

@@ -444,6 +444,15 @@ toolbarFolder
 0
 )
 ;
+do_check_true
+(
+bmsvc
+.
+unfiledRoot
+>
+0
+)
+;
 do_check_eq
 (
 bmsvc

@@ -664,7 +664,7 @@ aParent
 :
 PlacesUtils
 .
-placesRootId
+unfiledRootId
 ;
 var
 descAnno
