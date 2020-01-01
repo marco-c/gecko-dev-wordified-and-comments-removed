@@ -183,6 +183,11 @@ nsIProgrammingLanguage
 idl
 '
 '
+nsISecurityConsoleMessage
+.
+idl
+'
+'
 nsISupports
 .
 idl
@@ -545,6 +550,11 @@ cpp
 '
 '
 nsMessageLoop
+.
+cpp
+'
+'
+nsSecurityConsoleMessage
 .
 cpp
 '
