@@ -4551,11 +4551,9 @@ else
 {
 if
 (
-(
 flags
 &
 JSITER_ENUMERATE
-)
 )
 {
 if
