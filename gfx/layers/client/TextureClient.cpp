@@ -818,6 +818,12 @@ TextureRequiresLocking
 (
 mFlags
 )
+&
+&
+!
+ImplementsLocking
+(
+)
 )
 {
 MarkImmutable

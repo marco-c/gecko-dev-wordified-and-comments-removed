@@ -361,6 +361,17 @@ Unlock
 )
 {
 }
+virtual
+bool
+ImplementsLocking
+(
+)
+const
+{
+return
+false
+;
+}
 void
 SetID
 (
