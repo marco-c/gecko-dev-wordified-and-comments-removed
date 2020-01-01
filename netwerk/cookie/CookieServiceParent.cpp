@@ -150,7 +150,7 @@ false
 mCookieService
 -
 >
-GetCookieInternal
+GetCookieStringInternal
 (
 hostURI
 originatingURI
