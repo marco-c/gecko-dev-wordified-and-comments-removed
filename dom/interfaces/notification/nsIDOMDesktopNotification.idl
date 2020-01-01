@@ -406,7 +406,6 @@ nsIDOMDesktopNotification
 ;
 [
 scriptable
-function
 uuid
 (
 CCEA6185
@@ -446,7 +445,6 @@ iconURL
 ;
 [
 scriptable
-function
 uuid
 (
 9131FD07
