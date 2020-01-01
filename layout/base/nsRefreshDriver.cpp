@@ -2428,7 +2428,6 @@ if
 (
 rate
 <
-=
 0
 )
 {
@@ -2461,6 +2460,19 @@ outIsDefault
 false
 ;
 }
+}
+if
+(
+rate
+=
+=
+0
+)
+{
+rate
+=
+10000
+;
 }
 return
 1000
