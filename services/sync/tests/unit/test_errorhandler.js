@@ -318,6 +318,13 @@ register
 CatapultEngine
 )
 ;
+let
+errorHandler
+=
+Service
+.
+errorHandler
+;
 function
 run_test
 (
@@ -1468,7 +1475,7 @@ resetSync
 (
 )
 ;
-ErrorHandler
+errorHandler
 .
 dontIgnoreErrors
 =
@@ -1482,7 +1489,7 @@ CREDENTIALS_CHANGED
 ;
 do_check_true
 (
-ErrorHandler
+errorHandler
 .
 shouldReportError
 (
@@ -1495,7 +1502,7 @@ resetSync
 (
 )
 ;
-ErrorHandler
+errorHandler
 .
 dontIgnoreErrors
 =
@@ -1509,7 +1516,7 @@ LOGIN_FAILED_NETWORK_ERROR
 ;
 do_check_true
 (
-ErrorHandler
+errorHandler
 .
 shouldReportError
 (
@@ -1538,7 +1545,7 @@ MASTER_PASSWORD_LOCKED
 ;
 do_check_false
 (
-ErrorHandler
+errorHandler
 .
 shouldReportError
 (
@@ -1568,7 +1575,7 @@ setLastSync
 NON_PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 dontIgnoreErrors
 =
@@ -1582,7 +1589,7 @@ LOGIN_FAILED_NO_PASSWORD
 ;
 do_check_true
 (
-ErrorHandler
+errorHandler
 .
 shouldReportError
 (
@@ -1600,7 +1607,7 @@ setLastSync
 NON_PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 dontIgnoreErrors
 =
@@ -1614,7 +1621,7 @@ CREDENTIALS_CHANGED
 ;
 do_check_true
 (
-ErrorHandler
+errorHandler
 .
 shouldReportError
 (
@@ -1632,7 +1639,7 @@ setLastSync
 PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 dontIgnoreErrors
 =
@@ -1646,7 +1653,7 @@ LOGIN_FAILED_NO_PASSWORD
 ;
 do_check_true
 (
-ErrorHandler
+errorHandler
 .
 shouldReportError
 (
@@ -1664,7 +1671,7 @@ setLastSync
 PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 dontIgnoreErrors
 =
@@ -1678,7 +1685,7 @@ CREDENTIALS_CHANGED
 ;
 do_check_true
 (
-ErrorHandler
+errorHandler
 .
 shouldReportError
 (
@@ -1696,7 +1703,7 @@ setLastSync
 NON_PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 dontIgnoreErrors
 =
@@ -1710,7 +1717,7 @@ LOGIN_FAILED_NETWORK_ERROR
 ;
 do_check_true
 (
-ErrorHandler
+errorHandler
 .
 shouldReportError
 (
@@ -1728,7 +1735,7 @@ setLastSync
 NON_PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 dontIgnoreErrors
 =
@@ -1742,7 +1749,7 @@ LOGIN_FAILED_NETWORK_ERROR
 ;
 do_check_true
 (
-ErrorHandler
+errorHandler
 .
 shouldReportError
 (
@@ -1760,7 +1767,7 @@ setLastSync
 PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 dontIgnoreErrors
 =
@@ -1774,7 +1781,7 @@ LOGIN_FAILED_NETWORK_ERROR
 ;
 do_check_true
 (
-ErrorHandler
+errorHandler
 .
 shouldReportError
 (
@@ -1792,7 +1799,7 @@ setLastSync
 PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 dontIgnoreErrors
 =
@@ -1806,7 +1813,7 @@ LOGIN_FAILED_NETWORK_ERROR
 ;
 do_check_true
 (
-ErrorHandler
+errorHandler
 .
 shouldReportError
 (
@@ -1824,7 +1831,7 @@ setLastSync
 PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 dontIgnoreErrors
 =
@@ -1838,7 +1845,7 @@ LOGIN_FAILED_NO_PASSWORD
 ;
 do_check_true
 (
-ErrorHandler
+errorHandler
 .
 shouldReportError
 (
@@ -1856,7 +1863,7 @@ setLastSync
 PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 dontIgnoreErrors
 =
@@ -1870,7 +1877,7 @@ CREDENTIALS_CHANGED
 ;
 do_check_true
 (
-ErrorHandler
+errorHandler
 .
 shouldReportError
 (
@@ -1888,7 +1895,7 @@ setLastSync
 PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 dontIgnoreErrors
 =
@@ -1902,7 +1909,7 @@ LOGIN_FAILED_NETWORK_ERROR
 ;
 do_check_true
 (
-ErrorHandler
+errorHandler
 .
 shouldReportError
 (
@@ -1920,7 +1927,7 @@ setLastSync
 PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 dontIgnoreErrors
 =
@@ -1934,7 +1941,7 @@ LOGIN_FAILED_NETWORK_ERROR
 ;
 do_check_true
 (
-ErrorHandler
+errorHandler
 .
 shouldReportError
 (
@@ -1952,7 +1959,7 @@ setLastSync
 NON_PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 dontIgnoreErrors
 =
@@ -1966,7 +1973,7 @@ LOGIN_FAILED_NO_PASSWORD
 ;
 do_check_true
 (
-ErrorHandler
+errorHandler
 .
 shouldReportError
 (
@@ -1984,7 +1991,7 @@ setLastSync
 NON_PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 dontIgnoreErrors
 =
@@ -1998,7 +2005,7 @@ CREDENTIALS_CHANGED
 ;
 do_check_true
 (
-ErrorHandler
+errorHandler
 .
 shouldReportError
 (
@@ -2016,7 +2023,7 @@ setLastSync
 NON_PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 dontIgnoreErrors
 =
@@ -2030,7 +2037,7 @@ LOGIN_FAILED_NETWORK_ERROR
 ;
 do_check_false
 (
-ErrorHandler
+errorHandler
 .
 shouldReportError
 (
@@ -2048,7 +2055,7 @@ setLastSync
 NON_PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 dontIgnoreErrors
 =
@@ -2062,7 +2069,7 @@ LOGIN_FAILED_NETWORK_ERROR
 ;
 do_check_false
 (
-ErrorHandler
+errorHandler
 .
 shouldReportError
 (
@@ -2080,7 +2087,7 @@ setLastSync
 NON_PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 dontIgnoreErrors
 =
@@ -2094,7 +2101,7 @@ SERVER_MAINTENANCE
 ;
 do_check_false
 (
-ErrorHandler
+errorHandler
 .
 shouldReportError
 (
@@ -2112,7 +2119,7 @@ setLastSync
 NON_PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 dontIgnoreErrors
 =
@@ -2126,7 +2133,7 @@ SERVER_MAINTENANCE
 ;
 do_check_false
 (
-ErrorHandler
+errorHandler
 .
 shouldReportError
 (
@@ -2144,7 +2151,7 @@ setLastSync
 PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 dontIgnoreErrors
 =
@@ -2158,7 +2165,7 @@ SERVER_MAINTENANCE
 ;
 do_check_true
 (
-ErrorHandler
+errorHandler
 .
 shouldReportError
 (
@@ -2176,7 +2183,7 @@ setLastSync
 PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 dontIgnoreErrors
 =
@@ -2190,7 +2197,7 @@ SERVER_MAINTENANCE
 ;
 do_check_true
 (
-ErrorHandler
+errorHandler
 .
 shouldReportError
 (
@@ -2208,7 +2215,7 @@ setLastSync
 NON_PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 dontIgnoreErrors
 =
@@ -2222,7 +2229,7 @@ SERVER_MAINTENANCE
 ;
 do_check_true
 (
-ErrorHandler
+errorHandler
 .
 shouldReportError
 (
@@ -2240,7 +2247,7 @@ setLastSync
 NON_PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 dontIgnoreErrors
 =
@@ -2254,7 +2261,7 @@ SERVER_MAINTENANCE
 ;
 do_check_true
 (
-ErrorHandler
+errorHandler
 .
 shouldReportError
 (
@@ -2272,7 +2279,7 @@ setLastSync
 PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 dontIgnoreErrors
 =
@@ -2286,7 +2293,7 @@ SERVER_MAINTENANCE
 ;
 do_check_true
 (
-ErrorHandler
+errorHandler
 .
 shouldReportError
 (
@@ -2304,7 +2311,7 @@ setLastSync
 PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 dontIgnoreErrors
 =
@@ -2318,7 +2325,7 @@ SERVER_MAINTENANCE
 ;
 do_check_true
 (
-ErrorHandler
+errorHandler
 .
 shouldReportError
 (
@@ -2404,7 +2411,7 @@ sync
 ;
 do_check_false
 (
-ErrorHandler
+errorHandler
 .
 shouldReportError
 (
@@ -2522,7 +2529,7 @@ setLastSync
 NON_PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 syncAndReportErrors
 (
@@ -2639,7 +2646,7 @@ setLastSync
 NON_PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 syncAndReportErrors
 (
@@ -2737,7 +2744,7 @@ setLastSync
 PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 syncAndReportErrors
 (
@@ -2854,7 +2861,7 @@ setLastSync
 PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 syncAndReportErrors
 (
@@ -2959,7 +2966,7 @@ setLastSync
 NON_PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 syncAndReportErrors
 (
@@ -3053,7 +3060,7 @@ setLastSync
 NON_PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 syncAndReportErrors
 (
@@ -3156,7 +3163,7 @@ setLastSync
 PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 syncAndReportErrors
 (
@@ -3250,7 +3257,7 @@ setLastSync
 PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 syncAndReportErrors
 (
@@ -6690,7 +6697,7 @@ setLastSync
 NON_PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 syncAndReportErrors
 (
@@ -6895,7 +6902,7 @@ setLastSync
 NON_PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 syncAndReportErrors
 (
@@ -7100,7 +7107,7 @@ setLastSync
 NON_PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 syncAndReportErrors
 (
@@ -7311,7 +7318,7 @@ setLastSync
 NON_PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 syncAndReportErrors
 (
@@ -7512,7 +7519,7 @@ setLastSync
 NON_PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 syncAndReportErrors
 (
@@ -7713,7 +7720,7 @@ setLastSync
 NON_PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 syncAndReportErrors
 (
@@ -7973,7 +7980,7 @@ setLastSync
 NON_PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 syncAndReportErrors
 (
@@ -8125,7 +8132,7 @@ setLastSync
 PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 syncAndReportErrors
 (
@@ -8330,7 +8337,7 @@ setLastSync
 PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 syncAndReportErrors
 (
@@ -8535,7 +8542,7 @@ setLastSync
 PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 syncAndReportErrors
 (
@@ -8746,7 +8753,7 @@ setLastSync
 PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 syncAndReportErrors
 (
@@ -8947,7 +8954,7 @@ setLastSync
 PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 syncAndReportErrors
 (
@@ -9148,7 +9155,7 @@ setLastSync
 PROLONGED_ERROR_DURATION
 )
 ;
-ErrorHandler
+errorHandler
 .
 syncAndReportErrors
 (
@@ -9575,7 +9582,7 @@ MASTER_PASSWORD_LOCKED
 ;
 do_check_false
 (
-ErrorHandler
+errorHandler
 .
 shouldReportError
 (
@@ -9794,7 +9801,7 @@ MASTER_PASSWORD_LOCKED
 ;
 do_check_false
 (
-ErrorHandler
+errorHandler
 .
 shouldReportError
 (

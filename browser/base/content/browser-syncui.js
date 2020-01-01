@@ -1370,7 +1370,9 @@ function
 )
 Weave
 .
-ErrorHandler
+Service
+.
+errorHandler
 .
 syncAndReportErrors
 (
