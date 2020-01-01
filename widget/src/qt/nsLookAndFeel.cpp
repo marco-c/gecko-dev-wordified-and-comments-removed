@@ -1578,6 +1578,15 @@ aResult
 break
 ;
 case
+eIntID_TooltipDelay
+:
+aResult
+=
+500
+;
+break
+;
+case
 eIntID_MenusCanOverlapOSBar
 :
 aResult
