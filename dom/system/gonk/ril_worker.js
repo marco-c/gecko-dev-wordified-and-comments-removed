@@ -36329,7 +36329,7 @@ available
 ;
 this
 .
-getPNN
+readPNN
 (
 )
 ;
@@ -38585,10 +38585,10 @@ this
 )
 ;
 }
-getPNN
+readPNN
 :
 function
-getPNN
+readPNN
 (
 )
 {
