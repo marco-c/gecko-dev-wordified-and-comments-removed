@@ -720,11 +720,6 @@ waitForExplicitFinish
 (
 )
 ;
-requestLongerTimeout
-(
-100
-)
-;
 run_next_test
 (
 )
