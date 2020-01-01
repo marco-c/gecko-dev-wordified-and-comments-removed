@@ -172,6 +172,15 @@ true
 "
 android
 :
+background
+=
+"
+drawable
+/
+address_bar_url_default
+"
+android
+:
 singleLine
 =
 "
