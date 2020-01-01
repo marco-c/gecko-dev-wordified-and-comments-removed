@@ -629,7 +629,7 @@ nsSize
 aSize
 )
 ;
-void
+nsresult
 CallSetWindow
 (
 )

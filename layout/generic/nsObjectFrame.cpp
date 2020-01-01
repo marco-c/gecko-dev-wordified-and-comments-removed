@@ -1080,6 +1080,8 @@ nsPluginInstanceOwner
 public
 nsIPluginInstanceOwner
 public
+nsIPluginInstanceOwner_MOZILLA_2_0_BRANCH
+public
 nsIPluginTagInfo
 public
 nsIDOMMouseListener
@@ -1106,6 +1108,7 @@ nsPluginInstanceOwner
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIPLUGININSTANCEOWNER
+NS_DECL_NSIPLUGININSTANCEOWNER_MOZILLA_2_0_BRANCH
 NS_IMETHOD
 GetURL
 (
@@ -1570,7 +1573,7 @@ aSetWindow
 )
 ;
 void
-SetWindow
+CallSetWindow
 (
 )
 ;
@@ -4358,7 +4361,7 @@ NotifyPluginReflowObservers
 )
 ;
 }
-void
+nsresult
 nsObjectFrame
 :
 :
@@ -4374,6 +4377,8 @@ nsnull
 ;
 nsresult
 rv
+=
+NS_ERROR_FAILURE
 ;
 nsCOMPtr
 <
@@ -4427,6 +4432,7 @@ win
 win
 )
 return
+rv
 ;
 nsPluginNativeWindow
 *
@@ -4458,6 +4464,7 @@ IsHidden
 )
 )
 return
+NS_ERROR_FAILURE
 ;
 window
 -
@@ -4496,6 +4503,7 @@ if
 rootPC
 )
 return
+NS_ERROR_FAILURE
 ;
 PRInt32
 appUnitsPerDevPixel
@@ -4601,6 +4609,8 @@ UseLayers
 )
 )
 {
+rv
+=
 pi
 -
 >
@@ -4612,6 +4622,8 @@ window
 }
 else
 {
+rv
+=
 window
 -
 >
@@ -4631,6 +4643,9 @@ window
 >
 window
 )
+;
+return
+rv
 ;
 }
 PRBool
@@ -12670,6 +12685,10 @@ nsIPluginInstanceOwner
 )
 NS_INTERFACE_MAP_ENTRY
 (
+nsIPluginInstanceOwner_MOZILLA_2_0_BRANCH
+)
+NS_INTERFACE_MAP_ENTRY
+(
 nsIPluginTagInfo
 )
 NS_INTERFACE_MAP_ENTRY
@@ -14363,6 +14382,29 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 #
 endif
+}
+NS_IMETHODIMP
+nsPluginInstanceOwner
+:
+:
+SetWindow
+(
+)
+{
+NS_ENSURE_TRUE
+(
+mObjectFrame
+NS_ERROR_NULL_POINTER
+)
+;
+return
+mObjectFrame
+-
+>
+CallSetWindow
+(
+)
+;
 }
 NPError
 nsPluginInstanceOwner
@@ -30147,7 +30189,7 @@ clipRect
 bottom
 )
 {
-SetWindow
+CallSetWindow
 (
 )
 ;
@@ -30157,7 +30199,7 @@ void
 nsPluginInstanceOwner
 :
 :
-SetWindow
+CallSetWindow
 (
 )
 {
