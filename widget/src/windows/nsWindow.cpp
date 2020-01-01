@@ -18910,7 +18910,8 @@ if
 lParam
 =
 =
-0xFFFFFFFF
+-
+1
 )
 {
 contextMenukey
