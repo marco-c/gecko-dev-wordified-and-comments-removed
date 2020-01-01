@@ -242,6 +242,11 @@ sUnwindInterval
 =
 0
 ;
+int
+sUnwindStackScan
+=
+0
+;
 using
 std
 :
