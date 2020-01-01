@@ -4520,14 +4520,6 @@ mStrIDs
 =
 0
 ;
-XPCPerThreadData
-:
-:
-GetData
-(
-nsnull
-)
-;
 mJSRuntime
 =
 JS_NewRuntime
