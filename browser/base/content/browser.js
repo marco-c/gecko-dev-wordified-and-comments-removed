@@ -18658,6 +18658,14 @@ extraFeatures
 private
 "
 ;
+if
+(
+!
+PrivateBrowsingUtils
+.
+permanentPrivateBrowsing
+)
+{
 defaultArgs
 =
 "
@@ -18666,6 +18674,7 @@ about
 privatebrowsing
 "
 ;
+}
 }
 else
 {
