@@ -421,10 +421,6 @@ VPATH
 srcdir
 relativesrcdir
 =
-testing
-/
-mochitest
-/
 tests
 /
 MochiKit
@@ -559,7 +555,9 @@ f
 DEPTH
 )
 /
-_tests
+(
+mochitestdir
+)
 /
 (
 relativesrcdir

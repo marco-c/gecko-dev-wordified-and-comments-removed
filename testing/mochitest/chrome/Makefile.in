@@ -403,10 +403,6 @@ VPATH
 srcdir
 relativesrcdir
 =
-testing
-/
-mochitest
-/
 chrome
 include
 (
@@ -484,7 +480,9 @@ f
 DEPTH
 )
 /
-_tests
+(
+mochitestdir
+)
 /
 (
 relativesrcdir

@@ -403,10 +403,6 @@ VPATH
 srcdir
 relativesrcdir
 =
-testing
-/
-mochitest
-/
 static
 include
 (
@@ -476,7 +472,9 @@ f
 DEPTH
 )
 /
-_tests
+(
+mochitestdir
+)
 /
 (
 relativesrcdir

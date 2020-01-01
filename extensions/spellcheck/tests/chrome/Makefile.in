@@ -461,11 +461,9 @@ INSTALL
 DEPTH
 )
 /
-_tests
-/
-testing
-/
-mochitest
+(
+mochitestdir
+)
 /
 chrome
 /

@@ -401,10 +401,6 @@ VPATH
 srcdir
 relativesrcdir
 =
-testing
-/
-mochitest
-/
 specialpowers
 include
 (
@@ -461,11 +457,9 @@ TEST_EXTENSIONS_DIR
 DEPTH
 )
 /
-_tests
-/
-testing
-/
-mochitest
+{
+mochitestdir
+}
 /
 extensions
 include

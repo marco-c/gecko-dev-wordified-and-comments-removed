@@ -559,11 +559,9 @@ f
 DEPTH
 )
 /
-_tests
-/
-testing
-/
-mochitest
+(
+mochitestdir
+)
 /
 a11y
 /

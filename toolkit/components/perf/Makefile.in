@@ -495,11 +495,9 @@ chrometestdir
 DEPTH
 )
 /
-_tests
-/
-testing
-/
-mochitest
+(
+mochitestdir
+)
 /
 chrome
 /

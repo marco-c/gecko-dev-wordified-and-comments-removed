@@ -515,11 +515,9 @@ f
 DEPTH
 )
 /
-_tests
-/
-testing
-/
-mochitest
+(
+mochitestdir
+)
 /
 browser
 /
