@@ -276,6 +276,9 @@ mPluginTSMDoc
 ;
 #
 endif
+BOOL
+mPluginComplexTextInputRequested
+;
 NSOpenGLContext
 *
 mContext
@@ -403,6 +406,12 @@ aKeyEvent
 ;
 #
 endif
+-
+(
+void
+)
+pluginRequestsComplexTextInputForCurrentEvent
+;
 -
 (
 void
@@ -1023,6 +1032,11 @@ GetPluginEventModel
 int
 *
 outEventModel
+)
+;
+NS_IMETHOD
+StartComplexTextInputForCurrentEvent
+(
 )
 ;
 virtual
