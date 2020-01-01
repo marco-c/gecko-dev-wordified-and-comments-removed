@@ -10294,6 +10294,7 @@ NSRightMouseDragged
 case
 NSOtherMouseDragged
 :
+{
 /
 /
 Drop
@@ -10406,6 +10407,7 @@ return
 }
 break
 ;
+}
 default
 :
 break
@@ -13549,6 +13551,7 @@ NSRightMouseDragged
 case
 NSOtherMouseDragged
 :
+{
 /
 /
 Drop
@@ -13661,6 +13664,7 @@ return
 }
 break
 ;
+}
 default
 :
 break
