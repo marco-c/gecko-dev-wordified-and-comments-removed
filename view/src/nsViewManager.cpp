@@ -2635,9 +2635,10 @@ GetViewObserver
 ;
 if
 (
+!
 vo
-&
-&
+|
+|
 vo
 -
 >
