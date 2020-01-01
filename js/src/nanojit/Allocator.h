@@ -16,7 +16,6 @@ Allocator
 (
 )
 ;
-virtual
 ~
 Allocator
 (
