@@ -1518,6 +1518,9 @@ ClipEdges
 aClipEdges
 nscoord
 aLeftSideOffset
+gfxRect
+&
+aBoundingBox
 )
 ;
 struct
