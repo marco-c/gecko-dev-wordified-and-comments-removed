@@ -29,13 +29,6 @@ h
 #
 include
 "
-cpr_darwin_locks
-.
-h
-"
-#
-include
-"
 cpr_darwin_timers
 .
 h
