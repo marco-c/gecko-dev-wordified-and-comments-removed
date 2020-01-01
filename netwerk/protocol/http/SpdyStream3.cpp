@@ -5224,7 +5224,7 @@ this
 )
 ;
 return
-NS_ERROR_FAILURE
+NS_ERROR_ILLEGAL_VALUE
 ;
 }
 triedDictionary
@@ -5248,8 +5248,12 @@ zlib_rv
 =
 =
 Z_DATA_ERROR
-|
-|
+)
+return
+NS_ERROR_ILLEGAL_VALUE
+;
+if
+(
 zlib_rv
 =
 =
