@@ -356,7 +356,7 @@ build_libjpeg
 %
 '
 :
-1
+0
 '
 build_libyuv
 %
