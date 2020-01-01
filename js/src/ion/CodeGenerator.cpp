@@ -1290,14 +1290,14 @@ JSObject
 static
 const
 VMFunction
-js_CloneRegExpObjectInfo
+CloneRegExpObjectInfo
 =
 FunctionInfo
 <
 pf
 >
 (
-js_CloneRegExpObject
+CloneRegExpObject
 )
 ;
 pushArg
@@ -1329,7 +1329,7 @@ source
 return
 callVM
 (
-js_CloneRegExpObjectInfo
+CloneRegExpObjectInfo
 lir
 )
 ;

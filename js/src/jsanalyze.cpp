@@ -4085,7 +4085,7 @@ Lifetime
 >
 (
 start
-offset
+0
 var
 .
 lifetime
@@ -4107,6 +4107,15 @@ cx
 return
 ;
 }
+var
+.
+lifetime
+-
+>
+end
+=
+offset
+;
 }
 else
 {

@@ -6553,7 +6553,7 @@ JSObject
 *
 obj
 =
-js_CloneRegExpObject
+CloneRegExpObject
 (
 f
 .
