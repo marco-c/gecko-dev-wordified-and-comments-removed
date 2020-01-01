@@ -2398,7 +2398,7 @@ pm
 =
 Services
 .
-pm
+perms
 ;
 var
 shouldBlock
@@ -2498,7 +2498,7 @@ pm
 =
 Services
 .
-pm
+perms
 ;
 if
 (
@@ -29000,7 +29000,7 @@ buttons
 }
 Services
 .
-pm
+perms
 .
 add
 (
@@ -29190,7 +29190,7 @@ if
 (
 Services
 .
-pm
+perms
 .
 testExactPermission
 (
@@ -29322,7 +29322,7 @@ if
 (
 Services
 .
-pm
+perms
 .
 testExactPermission
 (
@@ -29337,7 +29337,7 @@ app
 =
 Services
 .
-pm
+perms
 .
 UNKNOWN_ACTION
 )
@@ -29672,7 +29672,7 @@ aDocument
 {
 Services
 .
-pm
+perms
 .
 add
 (
@@ -29686,7 +29686,7 @@ app
 "
 Services
 .
-pm
+perms
 .
 ALLOW_ACTION
 )
@@ -29708,7 +29708,7 @@ aDocument
 {
 Services
 .
-pm
+perms
 .
 add
 (
@@ -29722,7 +29722,7 @@ app
 "
 Services
 .
-pm
+perms
 .
 DENY_ACTION
 )
@@ -38904,7 +38904,7 @@ pm
 =
 Services
 .
-pm
+perms
 ;
 var
 prefs

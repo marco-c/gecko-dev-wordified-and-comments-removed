@@ -84,7 +84,7 @@ ok
 (
 Services
 .
-pm
+perms
 instanceof
 Ci
 .
@@ -92,7 +92,7 @@ nsIPermissionManager
 "
 Services
 .
-pm
+perms
 is
 an
 nsIPermissionManager
