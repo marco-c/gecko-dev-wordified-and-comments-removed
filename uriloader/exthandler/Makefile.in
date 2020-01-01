@@ -850,7 +850,6 @@ MOZ_WIDGET_TOOLKIT
 )
 )
 )
-)
 CXXFLAGS
 +
 =
