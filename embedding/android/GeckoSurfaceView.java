@@ -393,15 +393,6 @@ width
 height
 )
 ;
-if
-(
-!
-GeckoAppShell
-.
-sGeckoRunning
-)
-return
-;
 GeckoEvent
 e
 =

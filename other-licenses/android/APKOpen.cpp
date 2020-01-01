@@ -1008,12 +1008,6 @@ SHELL_WRAPPER1
 setSurfaceView
 jobject
 )
-SHELL_WRAPPER2
-(
-setInitialSize
-int
-int
-)
 SHELL_WRAPPER0
 (
 onResume
@@ -3072,11 +3066,6 @@ notifyGeckoOfEvent
 GETFUNC
 (
 setSurfaceView
-)
-;
-GETFUNC
-(
-setInitialSize
 )
 ;
 GETFUNC
