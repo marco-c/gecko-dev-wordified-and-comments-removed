@@ -3100,7 +3100,7 @@ RegisterID
 FrameState
 :
 :
-copyConstantIntoReg
+copyInt32ConstantIntoReg
 (
 FrameEntry
 *
@@ -3108,7 +3108,7 @@ fe
 )
 {
 return
-copyConstantIntoReg
+copyInt32ConstantIntoReg
 (
 masm
 fe
@@ -3125,7 +3125,7 @@ RegisterID
 FrameState
 :
 :
-copyConstantIntoReg
+copyInt32ConstantIntoReg
 (
 Assembler
 &

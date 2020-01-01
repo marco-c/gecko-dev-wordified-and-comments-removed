@@ -761,7 +761,7 @@ rhsReg
 =
 frame
 .
-copyConstantIntoReg
+copyInt32ConstantIntoReg
 (
 rhs
 )

@@ -580,7 +580,7 @@ fe
 )
 ;
 RegisterID
-copyConstantIntoReg
+copyInt32ConstantIntoReg
 (
 FrameEntry
 *
@@ -588,7 +588,7 @@ fe
 )
 ;
 RegisterID
-copyConstantIntoReg
+copyInt32ConstantIntoReg
 (
 Assembler
 &
