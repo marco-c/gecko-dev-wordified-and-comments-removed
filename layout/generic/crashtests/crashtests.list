@@ -1787,12 +1787,6 @@ load
 1
 .
 html
-skip
--
-if
-(
-Android
-)
 load
 481921
 .
@@ -2251,5 +2245,11 @@ load
 html
 load
 605340
+.
+html
+load
+621841
+-
+1
 .
 html
