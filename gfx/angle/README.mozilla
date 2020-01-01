@@ -22,7 +22,7 @@ angleproject
 Current
 revision
 :
-r653
+r686
 =
 =
 Applied
@@ -167,6 +167,16 @@ for
 Win64
 bug
 fix
+angle
+-
+r719
+.
+patch
+-
+this
+is
+ANGLE
+r719
 In
 addition
 to
