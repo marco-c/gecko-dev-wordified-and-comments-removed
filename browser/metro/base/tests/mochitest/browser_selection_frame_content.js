@@ -719,7 +719,7 @@ ContextMenuUI
 .
 _menuPopup
 .
-_visible
+visible
 "
 is
 visible

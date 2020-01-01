@@ -116,7 +116,7 @@ idx
 <
 AutofillMenuUI
 .
-_commands
+commands
 .
 childNodes
 .
@@ -132,7 +132,7 @@ item
 =
 AutofillMenuUI
 .
-_commands
+commands
 .
 childNodes
 [
