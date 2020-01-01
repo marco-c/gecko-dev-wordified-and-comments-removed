@@ -326,6 +326,16 @@ macos
 cc
 '
 ]
+CMMSRCS
++
+=
+[
+'
+shim_mac_dump_syms
+.
+mm
+'
+]
 elif
 CONFIG
 [
