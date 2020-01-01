@@ -20263,7 +20263,6 @@ headNoteIndex
 )
 {
 bool
-let
 forInVar
 first
 ;
@@ -20295,6 +20294,10 @@ headNoteIndex
 -
 1
 ;
+DebugOnly
+<
+bool
+>
 let
 =
 (
@@ -27436,10 +27439,6 @@ ptrdiff_t
 catchStart
 guardJump
 ;
-JSObject
-*
-blockObj
-;
 stmt
 =
 cg
@@ -27481,16 +27480,6 @@ stmt
 -
 >
 update
-;
-blockObj
-=
-stmt
--
->
-blockBox
--
->
-object
 ;
 stmt
 =
