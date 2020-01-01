@@ -266,6 +266,8 @@ nsISupports
 aTarget
 PRUint32
 aFocusMethod
+PRBool
+aWindowRaised
 )
 ;
 void

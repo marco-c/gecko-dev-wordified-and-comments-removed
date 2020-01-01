@@ -4325,6 +4325,7 @@ presShell
 aDocument
 target
 0
+PR_FALSE
 )
 ;
 -
@@ -6310,6 +6311,7 @@ GetCurrentDoc
 )
 content
 1
+PR_FALSE
 )
 ;
 }
@@ -6417,6 +6419,7 @@ presShell
 doc
 doc
 1
+PR_FALSE
 )
 ;
 if
@@ -6433,6 +6436,7 @@ presShell
 doc
 window
 1
+PR_FALSE
 )
 ;
 result
@@ -6838,6 +6842,7 @@ doc
 aFlags
 &
 FOCUSMETHOD_MASK
+aWindowRaised
 )
 ;
 if
@@ -6862,6 +6867,7 @@ aWindow
 aFlags
 &
 FOCUSMETHOD_MASK
+aWindowRaised
 )
 ;
 }
@@ -7061,6 +7067,7 @@ aContent
 aFlags
 &
 FOCUSMETHOD_MASK
+aWindowRaised
 )
 ;
 nsIMEStateManager
@@ -7174,6 +7181,8 @@ nsISupports
 aTarget
 PRUint32
 aFocusMethod
+PRBool
+aWindowRaised
 )
 {
 NS_ASSERTION
@@ -7224,6 +7233,19 @@ EventHandlingSuppressed
 )
 )
 {
+NS_ASSERTION
+(
+!
+aWindowRaised
+"
+aWindowRaised
+should
+not
+be
+set
+"
+)
+;
 for
 (
 PRUint32
@@ -7343,7 +7365,7 @@ status
 =
 nsEventStatus_eIgnore
 ;
-nsEvent
+nsFocusEvent
 event
 (
 PR_TRUE
@@ -7356,6 +7378,12 @@ flags
 |
 =
 NS_EVENT_FLAG_CANT_BUBBLE
+;
+event
+.
+fromRaise
+=
+aWindowRaised
 ;
 nsEventDispatcher
 :

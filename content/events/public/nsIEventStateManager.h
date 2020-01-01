@@ -70,7 +70,7 @@ event
 )
 (
 !
-NS_IS_FOCUS_EVENT
+NS_IS_ACTIVATION_EVENT
 (
 event
 )
