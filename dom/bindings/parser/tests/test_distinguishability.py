@@ -74,7 +74,6 @@ types
 void
 passDict
 (
-optional
 Dict
 arg
 )

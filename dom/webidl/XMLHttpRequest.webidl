@@ -305,7 +305,10 @@ Constructor
 (
 optional
 MozXMLHttpRequestParameters
+?
 params
+=
+null
 )
 ]
 interface
