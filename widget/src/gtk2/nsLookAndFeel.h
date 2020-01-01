@@ -90,6 +90,12 @@ GetPasswordCharacterImpl
 (
 )
 ;
+virtual
+PRBool
+GetEchoPasswordImpl
+(
+)
+;
 protected
 :
 GtkStyle
