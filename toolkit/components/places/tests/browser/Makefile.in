@@ -126,6 +126,10 @@ browser_redirect
 .
 js
 \
+browser_visited_notfound
+.
+js
+\
 browser_visituri
 .
 js
