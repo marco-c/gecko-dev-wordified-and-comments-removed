@@ -646,16 +646,16 @@ CreateImageData
 JSContext
 *
 cx
-uint32
+uint32_t
 w
-uint32
+uint32_t
 h
 nsIDOMCanvasRenderingContext2D
 *
 self
-int32
+int32_t
 x
-int32
+int32_t
 y
 jsval
 *
@@ -1253,7 +1253,7 @@ cx
 NS_ERROR_DOM_INDEX_SIZE_ERR
 )
 ;
-int32
+int32_t
 wi
 =
 JS_DoubleToInt32
@@ -1261,7 +1261,7 @@ JS_DoubleToInt32
 width
 )
 ;
-int32
+int32_t
 hi
 =
 JS_DoubleToInt32
@@ -1269,7 +1269,7 @@ JS_DoubleToInt32
 height
 )
 ;
-uint32
+uint32_t
 w
 =
 NS_ABS
@@ -1277,7 +1277,7 @@ NS_ABS
 wi
 )
 ;
-uint32
+uint32_t
 h
 =
 NS_ABS
@@ -1513,7 +1513,7 @@ cx
 NS_ERROR_DOM_INDEX_SIZE_ERR
 )
 ;
-int32
+int32_t
 x
 =
 JS_DoubleToInt32
@@ -1521,7 +1521,7 @@ JS_DoubleToInt32
 xd
 )
 ;
-int32
+int32_t
 y
 =
 JS_DoubleToInt32
@@ -1529,7 +1529,7 @@ JS_DoubleToInt32
 yd
 )
 ;
-int32
+int32_t
 wi
 =
 JS_DoubleToInt32
@@ -1537,7 +1537,7 @@ JS_DoubleToInt32
 width
 )
 ;
-int32
+int32_t
 hi
 =
 JS_DoubleToInt32
@@ -1545,7 +1545,7 @@ JS_DoubleToInt32
 height
 )
 ;
-uint32
+uint32_t
 w
 h
 ;
@@ -1805,7 +1805,7 @@ NS_ERROR_DOM_NOT_SUPPORTED_ERR
 )
 ;
 }
-int32
+int32_t
 x
 =
 JS_DoubleToInt32
@@ -1813,7 +1813,7 @@ JS_DoubleToInt32
 xd
 )
 ;
-int32
+int32_t
 y
 =
 JS_DoubleToInt32
@@ -1855,7 +1855,7 @@ hasDirtyRect
 =
 false
 ;
-int32
+int32_t
 dirtyX
 =
 0
