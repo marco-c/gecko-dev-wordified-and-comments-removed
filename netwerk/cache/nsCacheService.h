@@ -304,15 +304,6 @@ nsnull
 )
 ;
 static
-nsresult
-DispatchToCacheIOThread
-(
-nsIRunnable
-*
-event
-)
-;
-static
 void
 OnProfileShutdown
 (
