@@ -515,6 +515,13 @@ DIRS
 feeds
 endif
 ifdef
+MOZ_HELP_VIEWER
+DIRS
++
+=
+help
+endif
+ifdef
 MOZ_PLACES
 DIRS
 +
@@ -614,13 +621,6 @@ MOZ_SUITE
 endif
 #
 MOZ_THUNDERBIRD
-ifdef
-MOZ_XUL
-DIRS
-+
-=
-help
-endif
 ifndef
 MOZ_SUITE
 #

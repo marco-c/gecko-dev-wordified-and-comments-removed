@@ -1296,6 +1296,9 @@ region
 .
 properties
 )
+#
+ifdef
+MOZ_HELP_VIEWER
 locale
 /
 browser
@@ -1646,6 +1649,8 @@ glossary
 .
 xhtml
 )
+#
+endif
 #
 the
 following
