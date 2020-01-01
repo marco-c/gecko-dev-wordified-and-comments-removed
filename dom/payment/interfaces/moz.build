@@ -98,12 +98,12 @@ XPIDL_SOURCES
 =
 [
 '
-nsINavigatorPayment
+nsIDOMPaymentRequestInfo
 .
 idl
 '
 '
-nsIDOMPaymentRequestInfo
+nsINavigatorPayment
 .
 idl
 '

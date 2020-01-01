@@ -136,7 +136,12 @@ EXPORTS
 =
 [
 '
-updatehelper
+pathhash
+.
+h
+'
+'
+uachelper
 .
 h
 '
@@ -146,12 +151,7 @@ updatehelper
 cpp
 '
 '
-uachelper
-.
-h
-'
-'
-pathhash
+updatehelper
 .
 h
 '
