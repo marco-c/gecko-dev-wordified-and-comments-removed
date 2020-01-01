@@ -10767,8 +10767,6 @@ line
 "
 )
 ;
-aState
-.
 FreeLineBox
 (
 pulledLine
@@ -11748,8 +11746,6 @@ erase
 aLine
 )
 ;
-aState
-.
 FreeLineBox
 (
 line
@@ -13024,8 +13020,6 @@ erase
 aFromLine
 )
 ;
-aState
-.
 FreeLineBox
 (
 fromLine
@@ -15380,8 +15374,6 @@ nsLineBox
 *
 line
 =
-aState
-.
 NewLineBox
 (
 nextFrame
@@ -16860,8 +16852,6 @@ line
 "
 )
 ;
-aState
-.
 FreeLineBox
 (
 toremove
@@ -18916,8 +18906,6 @@ nsLineBox
 *
 newLine
 =
-aState
-.
 NewLineBox
 (
 aFrame
@@ -22565,19 +22553,6 @@ GetInsideBullet
 )
 ;
 }
-nsIPresShell
-*
-presShell
-=
-PresContext
-(
-)
--
->
-PresShell
-(
-)
-;
 FrameLines
 *
 overflowLines
@@ -22780,9 +22755,8 @@ nsLineBox
 *
 line
 =
-NS_NewLineBox
+NewLineBox
 (
-presShell
 aPrevSibling
 -
 >
@@ -23086,9 +23060,8 @@ nsLineBox
 *
 line
 =
-NS_NewLineBox
+NewLineBox
 (
-presShell
 newFrame
 1
 isBlock
