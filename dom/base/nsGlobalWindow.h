@@ -1809,6 +1809,16 @@ PRUint64
 aInnerWindowID
 )
 {
+if
+(
+!
+sWindowsById
+)
+{
+return
+nsnull
+;
+}
 nsGlobalWindow
 *
 innerWindow
