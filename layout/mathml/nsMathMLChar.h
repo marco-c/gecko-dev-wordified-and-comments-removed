@@ -489,9 +489,6 @@ private
 nsRect
 mRect
 ;
-PRInt32
-mOperator
-;
 nsStretchDirection
 mDirection
 ;
