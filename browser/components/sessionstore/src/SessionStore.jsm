@@ -17613,6 +17613,9 @@ selectedWindow
 }
 }
 }
+#
+ifndef
+XP_MACOSX
 if
 (
 oState
@@ -17646,6 +17649,8 @@ FX_SESSION_RESTORE_COLLECT_DATA_LONGEST_OP_MS
 return
 ;
 }
+#
+endif
 for
 (
 let
