@@ -150,7 +150,7 @@ interfaces
 nsILoginManager
 )
 ;
-loginManger
+loginManager
 .
 removeAllLogins
 (
