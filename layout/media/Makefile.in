@@ -792,6 +792,9 @@ def
 .
 in
 (
+GLOBAL_DEPS
+)
+(
 PYTHON
 )
 (
