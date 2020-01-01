@@ -4941,14 +4941,8 @@ hasInstance
 JSMarkOp
 mark
 ;
-void
-(
-*
-reserved0
-)
-(
-void
-)
+JSReserveSlotsOp
+reserveSlots
 ;
 }
 ;
