@@ -549,6 +549,10 @@ test_acid3_test46
 .
 html
 \
+test_at_rule_parse_serialize
+.
+html
+\
 test_bug73586
 .
 html
