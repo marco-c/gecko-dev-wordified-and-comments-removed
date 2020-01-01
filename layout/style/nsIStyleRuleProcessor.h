@@ -159,6 +159,8 @@ PRBool
 aIsOfType
 PRBool
 aIsFromEnd
+PRBool
+aCheckEdgeOnly
 )
 ;
 nsPresContext
