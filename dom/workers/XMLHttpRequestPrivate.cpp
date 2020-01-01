@@ -3659,9 +3659,9 @@ mBody
 .
 read
 (
-cx
 &
 body
+cx
 )
 )
 {
@@ -3702,6 +3702,7 @@ mBody
 .
 clear
 (
+cx
 )
 ;
 if
