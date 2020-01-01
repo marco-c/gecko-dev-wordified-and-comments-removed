@@ -642,6 +642,12 @@ return
 SHAPING_MONGOLIAN
 ;
 case
+HB_SCRIPT_THAI
+:
+return
+SHAPING_THAI
+;
+case
 HB_SCRIPT_BENGALI
 :
 case
@@ -673,9 +679,6 @@ HB_SCRIPT_TELUGU
 :
 case
 HB_SCRIPT_KHMER
-:
-case
-HB_SCRIPT_THAI
 :
 case
 HB_SCRIPT_LAO
