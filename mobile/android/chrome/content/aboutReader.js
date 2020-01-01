@@ -2779,6 +2779,12 @@ function
 aEvent
 )
 {
+aEvent
+.
+stopPropagation
+(
+)
+;
 callback
 (
 )
