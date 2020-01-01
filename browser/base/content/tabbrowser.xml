@@ -11627,13 +11627,8 @@ _windowIsClosing
 if
 (
 aNewTab
-&
-&
-gURLBar
 )
-gURLBar
-.
-focus
+focusAndSelectUrlBar
 (
 )
 ;
