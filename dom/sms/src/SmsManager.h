@@ -97,6 +97,10 @@ NS_DECL_EVENT_HANDLER
 (
 received
 )
+NS_DECL_EVENT_HANDLER
+(
+sent
+)
 }
 ;
 }

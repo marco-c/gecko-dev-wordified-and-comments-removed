@@ -19,6 +19,12 @@ char
 *
 kSmsReceivedObserverTopic
 ;
+extern
+const
+char
+*
+kSmsSentObserverTopic
+;
 #
 define
 DELIVERY_RECEIVED

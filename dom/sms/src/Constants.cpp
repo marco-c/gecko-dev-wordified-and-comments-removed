@@ -18,6 +18,17 @@ sms
 received
 "
 ;
+const
+char
+*
+kSmsSentObserverTopic
+=
+"
+sms
+-
+sent
+"
+;
 }
 }
 }

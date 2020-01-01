@@ -45,6 +45,17 @@ SmsMessageData
 aMessage
 )
 ;
+NS_OVERRIDE
+virtual
+bool
+RecvNotifySentMessage
+(
+const
+SmsMessageData
+&
+aMessage
+)
+;
 }
 ;
 }

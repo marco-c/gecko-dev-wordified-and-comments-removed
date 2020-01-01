@@ -523,6 +523,12 @@ SmsMessageData
 aMessageData
 )
 ;
+NotifySentMessage
+(
+SmsMessageData
+aMessageData
+)
+;
 parent
 :
 sync
