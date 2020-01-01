@@ -134,7 +134,7 @@ test_bug653364
 .
 html
 \
-test_donottrack
+test_bug629535
 .
 html
 \
