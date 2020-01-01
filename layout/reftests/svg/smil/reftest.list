@@ -348,6 +348,15 @@ reftest
 .
 list
 #
+seek
+tests
+include
+seek
+/
+reftest
+.
+list
+#
 General
 tests
 =
