@@ -775,17 +775,12 @@ mTouchMoveDefaultPrevented
 bool
 mIsFirstTouchMove
 ;
-nsEventStatus
-mTouchEventStatus
-;
 nsTouchEvent
 mTouchEvent
 ;
 void
 DispatchPendingTouchEvent
 (
-bool
-aDispatchToAPZC
 )
 ;
 void
@@ -794,8 +789,6 @@ DispatchPendingTouchEvent
 nsEventStatus
 &
 status
-bool
-aDispatchToAPZC
 )
 ;
 nsBaseHashtable
