@@ -557,6 +557,7 @@ else
 #
 not
 INTEL_CXX
+#
 FAIL_ON_WARNINGS
 =
 1
