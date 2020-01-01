@@ -543,7 +543,7 @@ markPageAsTyped
 {
 PlacesUtils
 .
-bhistory
+history
 .
 markPageAsTyped
 (
