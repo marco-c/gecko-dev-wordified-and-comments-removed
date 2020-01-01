@@ -505,6 +505,12 @@ nsIFrame
 aFrame
 uint32_t
 aLayer
+bool
+aIsThemed
+const
+nsStyleBackground
+*
+aBackgroundStyle
 )
 :
 nsDisplayBackground
@@ -512,6 +518,8 @@ nsDisplayBackground
 aBuilder
 aFrame
 aLayer
+aIsThemed
+aBackgroundStyle
 true
 )
 {
