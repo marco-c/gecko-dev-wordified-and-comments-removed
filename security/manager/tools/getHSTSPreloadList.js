@@ -1257,6 +1257,12 @@ true
 ;
 req
 .
+timeout
+=
+60000
+;
+req
+.
 channel
 .
 notificationCallbacks
