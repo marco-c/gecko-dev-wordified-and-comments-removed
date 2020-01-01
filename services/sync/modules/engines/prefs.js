@@ -998,6 +998,17 @@ PrefStore_update
 record
 )
 {
+if
+(
+record
+.
+id
+!
+=
+PREFS_GUID
+)
+return
+;
 this
 .
 _log
