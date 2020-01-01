@@ -571,9 +571,6 @@ mForceComplete
 PRPackedBool
 mSuppressOnInput
 ;
-PRPackedBool
-mIgnoreClick
-;
 }
 ;
 #
