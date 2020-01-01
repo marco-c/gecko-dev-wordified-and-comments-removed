@@ -10,9 +10,8 @@ Type
 "
 )
 )
-exit
+quit
 (
-0
 )
 ;
 var
