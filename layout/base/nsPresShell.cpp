@@ -3830,6 +3830,8 @@ nsRect
 aBounds
 nscolor
 aBackstopColor
+PRBool
+aForceDraw
 )
 ;
 protected
@@ -24187,10 +24189,16 @@ nsRect
 aBounds
 nscolor
 aBackstopColor
+PRBool
+aForceDraw
 )
 {
 if
 (
+!
+aForceDraw
+&
+&
 !
 nsCSSRendering
 :
