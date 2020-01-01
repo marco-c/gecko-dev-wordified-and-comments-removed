@@ -186,13 +186,8 @@ void
 closure
 )
 ;
-void
-OnStateStopCleanup
-(
-)
-;
 nsresult
-OnStateStopForFailure
+CallOnStateStop
 (
 )
 ;
