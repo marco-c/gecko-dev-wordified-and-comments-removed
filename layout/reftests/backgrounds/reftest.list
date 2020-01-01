@@ -1829,12 +1829,6 @@ boundaries
 )
 .
 fails
--
-if
-(
-!
-gtk2Widget
-)
 =
 =
 background
