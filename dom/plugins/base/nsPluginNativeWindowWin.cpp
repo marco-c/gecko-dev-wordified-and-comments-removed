@@ -1652,6 +1652,11 @@ dll
 #
 ifdef
 _WIN64
+if
+(
+!
+sUser32SetWindowLongAHookStub
+)
 sUser32Intercept
 .
 AddHook
@@ -1675,6 +1680,11 @@ void
 sUser32SetWindowLongAHookStub
 )
 ;
+if
+(
+!
+sUser32SetWindowLongWHookStub
+)
 sUser32Intercept
 .
 AddHook
@@ -1700,6 +1710,11 @@ sUser32SetWindowLongWHookStub
 ;
 #
 else
+if
+(
+!
+sUser32SetWindowLongAHookStub
+)
 sUser32Intercept
 .
 AddHook
@@ -1723,6 +1738,11 @@ void
 sUser32SetWindowLongAHookStub
 )
 ;
+if
+(
+!
+sUser32SetWindowLongWHookStub
+)
 sUser32Intercept
 .
 AddHook
