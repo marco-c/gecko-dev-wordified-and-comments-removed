@@ -495,6 +495,12 @@ MOUSE_MOVE
 mMoveHandler
 )
 ;
+editor
+.
+focus
+(
+)
+;
 waitForFocus
 (
 function
@@ -506,8 +512,8 @@ EventUtils
 synthesizeMouse
 (
 target
-15
-17
+1
+1
 {
 type
 :
@@ -520,12 +526,6 @@ targetWin
 ;
 }
 targetWin
-)
-;
-editor
-.
-focus
-(
 )
 ;
 }

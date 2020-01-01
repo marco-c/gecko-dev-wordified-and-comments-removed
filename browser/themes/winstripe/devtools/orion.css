@@ -35,7 +35,7 @@ padding
 -
 left
 :
-4px
+0
 ;
 }
 .
@@ -48,6 +48,18 @@ background
 :
 #
 f0f0ff
+;
+}
+.
+viewContent
+>
+div
+{
+padding
+-
+left
+:
+4px
 ;
 }
 .
