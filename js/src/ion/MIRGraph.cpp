@@ -238,6 +238,10 @@ firstStackSlot
 (
 )
 )
+loopSuccessor_
+(
+NULL
+)
 {
 }
 bool
@@ -2004,6 +2008,10 @@ phi
 ;
 }
 }
+loopSuccessor_
+=
+successor
+;
 return
 predecessors_
 .
