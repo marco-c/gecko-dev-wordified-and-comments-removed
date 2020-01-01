@@ -4773,6 +4773,11 @@ stop
 accesskey
 ;
 "
+key
+=
+"
+key_privatebrowsing
+"
 command
 =
 "

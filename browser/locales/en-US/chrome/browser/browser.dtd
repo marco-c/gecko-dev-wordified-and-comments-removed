@@ -1733,6 +1733,16 @@ B
 <
 !
 ENTITY
+privateBrowsingCmd
+.
+commandkey
+"
+P
+"
+>
+<
+!
+ENTITY
 viewMenu
 .
 label
