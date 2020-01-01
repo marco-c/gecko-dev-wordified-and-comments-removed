@@ -247,6 +247,12 @@ browser_net_accessibility
 .
 js
 \
+browser_net_footer
+-
+summary
+.
+js
+\
 head
 .
 js

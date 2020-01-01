@@ -3755,6 +3755,15 @@ _itemsByElement
 .
 size
 get
+visibleItemsCount
+(
+)
+this
+.
+visibleItems
+.
+length
+get
 orderedItems
 (
 )
