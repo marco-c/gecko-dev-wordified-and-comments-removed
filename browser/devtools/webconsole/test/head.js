@@ -30,13 +30,6 @@ tempScope
 .
 HUDService
 ;
-let
-ConsoleUtils
-=
-tempScope
-.
-ConsoleUtils
-;
 Cu
 .
 import

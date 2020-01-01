@@ -785,7 +785,9 @@ clearButton
 =
 hud
 .
-HUDBox
+ui
+.
+rootElement
 .
 querySelector
 (
@@ -810,7 +812,9 @@ clearButton
 2
 {
 }
-window
+hud
+.
+iframeWindow
 )
 ;
 is

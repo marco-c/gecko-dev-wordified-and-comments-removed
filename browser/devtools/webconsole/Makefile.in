@@ -86,6 +86,10 @@ mk
 EXTRA_JS_MODULES
 =
 \
+HUDService
+.
+jsm
+\
 PropertyPanel
 .
 jsm
@@ -103,16 +107,6 @@ AutocompletePopup
 jsm
 \
 WebConsoleUtils
-.
-jsm
-\
-(
-NULL
-)
-EXTRA_PP_JS_MODULES
-=
-\
-HUDService
 .
 jsm
 \

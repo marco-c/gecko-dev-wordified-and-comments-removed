@@ -354,6 +354,11 @@ warningNode
 2
 {
 }
+warningNode
+.
+ownerDocument
+.
+defaultView
 )
 ;
 ok

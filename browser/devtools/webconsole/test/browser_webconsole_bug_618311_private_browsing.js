@@ -736,6 +736,9 @@ mousedown
 "
 }
 jstermMessage
+HUD
+.
+iframeWindow
 )
 ;
 EventUtils
@@ -750,6 +753,9 @@ mouseup
 "
 }
 jstermMessage
+HUD
+.
+iframeWindow
 )
 ;
 EventUtils
@@ -764,6 +770,9 @@ click
 "
 }
 jstermMessage
+HUD
+.
+iframeWindow
 )
 ;
 EventUtils
@@ -778,6 +787,9 @@ mousedown
 "
 }
 networkLink
+HUD
+.
+iframeWindow
 )
 ;
 EventUtils
@@ -792,6 +804,9 @@ mouseup
 "
 }
 networkLink
+HUD
+.
+iframeWindow
 )
 ;
 EventUtils
@@ -806,6 +821,9 @@ click
 "
 }
 networkLink
+HUD
+.
+iframeWindow
 )
 ;
 }
