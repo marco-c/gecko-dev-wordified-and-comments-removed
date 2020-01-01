@@ -26619,6 +26619,13 @@ addFreeze
 cx
 )
 ;
+frame
+.
+forgetMismatchedObject
+(
+top
+)
+;
 if
 (
 !
