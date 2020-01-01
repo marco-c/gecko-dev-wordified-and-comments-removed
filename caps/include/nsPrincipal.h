@@ -302,6 +302,14 @@ nsISupports
 aCert
 )
 ;
+PRBool
+CertificateEquals
+(
+nsIPrincipal
+*
+aOther
+)
+;
 nsAutoPtr
 <
 Certificate
