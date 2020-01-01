@@ -506,6 +506,10 @@ mManager
 (
 aManager
 )
+mAnimationGeneration
+(
+0
+)
 #
 ifdef
 DEBUG
