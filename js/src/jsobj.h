@@ -4442,7 +4442,10 @@ JSObject
 parent
 )
 ;
+JS_FRIEND_API
+(
 bool
+)
 copyPropertiesFrom
 (
 JSContext
@@ -4453,7 +4456,10 @@ JSObject
 obj
 )
 ;
+JS_FRIEND_API
+(
 bool
+)
 swap
 (
 JSContext
