@@ -11652,7 +11652,7 @@ rt
 gcRegenShapes
 )
 ;
-TIMESTAMP
+GCTIMESTAMP
 (
 startMark
 )
@@ -11933,7 +11933,7 @@ c
 }
 #
 endif
-TIMESTAMP
+GCTIMESTAMP
 (
 startSweep
 )
@@ -11978,7 +11978,7 @@ finalizeObjectArenaLists
 cx
 )
 ;
-TIMESTAMP
+GCTIMESTAMP
 (
 sweepObjectEnd
 )
@@ -11991,7 +11991,7 @@ finalizeStringArenaLists
 cx
 )
 ;
-TIMESTAMP
+GCTIMESTAMP
 (
 sweepStringEnd
 )
@@ -12004,7 +12004,7 @@ finalizeShapeArenaLists
 cx
 )
 ;
-TIMESTAMP
+GCTIMESTAMP
 (
 sweepShapeEnd
 )
@@ -12060,7 +12060,7 @@ finalizeObjectArenaLists
 cx
 )
 ;
-TIMESTAMP
+GCTIMESTAMP
 (
 sweepObjectEnd
 )
@@ -12108,7 +12108,7 @@ finalizeStringArenaLists
 cx
 )
 ;
-TIMESTAMP
+GCTIMESTAMP
 (
 sweepStringEnd
 )
@@ -12156,7 +12156,7 @@ finalizeShapeArenaLists
 cx
 )
 ;
-TIMESTAMP
+GCTIMESTAMP
 (
 sweepShapeEnd
 )
@@ -12295,7 +12295,7 @@ rt
 ;
 #
 endif
-TIMESTAMP
+GCTIMESTAMP
 (
 sweepDestroyEnd
 )
@@ -13411,6 +13411,8 @@ endif
 endif
 GCTIMER_BEGIN
 (
+rt
+comp
 )
 ;
 do
