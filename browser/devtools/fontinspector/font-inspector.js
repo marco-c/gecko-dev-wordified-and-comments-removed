@@ -322,6 +322,17 @@ inspector
 .
 selection
 .
+isLocal
+(
+)
+&
+&
+this
+.
+inspector
+.
+selection
+.
 isConnected
 (
 )

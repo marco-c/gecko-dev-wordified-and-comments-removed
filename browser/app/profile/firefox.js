@@ -4623,7 +4623,7 @@ plugins
 .
 click_to_play
 "
-true
+false
 )
 ;
 pref
@@ -9498,6 +9498,18 @@ devtools
 inspector
 .
 markupPreview
+"
+false
+)
+;
+pref
+(
+"
+devtools
+.
+inspector
+.
+remote
 "
 false
 )
