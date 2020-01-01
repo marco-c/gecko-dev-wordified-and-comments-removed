@@ -193,9 +193,6 @@ mGeckoWindow
 PRBool
 mToplevelActiveState
 ;
-BOOL
-mHasEverBeenZoomed
-;
 }
 +
 (
@@ -887,6 +884,8 @@ aActive
 void
 DispatchSizeModeEvent
 (
+nsSizeMode
+aSizeMode
 )
 ;
 virtual
