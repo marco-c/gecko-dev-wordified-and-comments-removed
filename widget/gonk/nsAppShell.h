@@ -212,6 +212,12 @@ NotifyScreenInitialized
 (
 )
 ;
+static
+void
+NotifyScreenRotation
+(
+)
+;
 protected
 :
 virtual

@@ -2754,6 +2754,13 @@ height
 i
 )
 ;
+nsAppShell
+:
+:
+NotifyScreenRotation
+(
+)
+;
 return
 NS_OK
 ;
