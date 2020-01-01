@@ -616,10 +616,6 @@ TabsAccessor
 .
 java
 \
-TailTouchDelegate
-.
-java
-\
 Telemetry
 .
 java
