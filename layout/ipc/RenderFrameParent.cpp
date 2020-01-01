@@ -1878,7 +1878,7 @@ CSSPixelsToAppUnits
 (
 metrics
 .
-mCSSContentRect
+mCSSContentSize
 .
 width
 )
@@ -1891,7 +1891,7 @@ CSSPixelsToAppUnits
 (
 metrics
 .
-mCSSContentRect
+mCSSContentSize
 .
 height
 )
