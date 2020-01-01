@@ -448,7 +448,7 @@ rv
 annotationService
 -
 >
-GetAnnotationBinary
+GetPageAnnotationBinary
 (
 annoURI
 annoName

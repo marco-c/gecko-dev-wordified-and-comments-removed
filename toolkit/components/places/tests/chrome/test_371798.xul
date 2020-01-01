@@ -586,8 +586,8 @@ onItemChanged
 function
 (
 bookmarkId
-bookmark
 property
+isAnnotationProperty
 value
 )
 {
@@ -823,7 +823,7 @@ if
 (
 node
 .
-bookmarkId
+itemId
 =
 =
 bm1

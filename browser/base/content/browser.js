@@ -1832,8 +1832,8 @@ function
 G_BO_onItemChanged
 (
 aID
-aBookmark
 aProperty
+aIsAnnotationProperty
 aValue
 )
 {

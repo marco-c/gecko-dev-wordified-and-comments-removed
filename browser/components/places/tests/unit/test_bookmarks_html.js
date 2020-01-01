@@ -444,7 +444,7 @@ getKeywordForBookmark
 (
 testBookmark1
 .
-bookmarkId
+itemId
 )
 )
 ;

@@ -1516,7 +1516,8 @@ in
 nsIURI
 pageURI
 in
-nsISupports
+long
+long
 bookmarkID
 )
 ;
@@ -1575,7 +1576,8 @@ nsIMicrosummary
 getMicrosummary
 (
 in
-nsISupports
+long
+long
 bookmarkID
 )
 ;
@@ -1626,7 +1628,8 @@ void
 setMicrosummary
 (
 in
-nsISupports
+long
+long
 bookmarkID
 in
 nsIMicrosummary
@@ -1667,7 +1670,8 @@ void
 removeMicrosummary
 (
 in
-nsISupports
+long
+long
 bookmarkID
 )
 ;
@@ -1724,7 +1728,8 @@ boolean
 hasMicrosummary
 (
 in
-nsISupports
+long
+long
 bookmarkID
 )
 ;
@@ -1789,7 +1794,8 @@ boolean
 isMicrosummary
 (
 in
-nsISupports
+long
+long
 bookmarkID
 in
 nsIMicrosummary
@@ -1938,7 +1944,8 @@ nsIMicrosummary
 refreshMicrosummary
 (
 in
-nsISupports
+long
+long
 bookmarkID
 )
 ;
@@ -2017,7 +2024,8 @@ integer
 .
 readonly
 attribute
-nsISupports
+long
+long
 bookmarkID
 ;
 /

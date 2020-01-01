@@ -752,7 +752,7 @@ PRInt32
 nsNavHistory
 :
 :
-kGetInfoIndex_BookmarkItemId
+kGetInfoIndex_ItemId
 =
 8
 ;
@@ -15547,7 +15547,7 @@ aRow
 >
 GetIsNull
 (
-kGetInfoIndex_BookmarkItemId
+kGetInfoIndex_ItemId
 &
 isNull
 )
@@ -15564,14 +15564,14 @@ aResult
 )
 -
 >
-mBookmarkId
+mItemId
 =
 aRow
 -
 >
 AsInt64
 (
-kGetInfoIndex_BookmarkItemId
+kGetInfoIndex_ItemId
 )
 ;
 }
