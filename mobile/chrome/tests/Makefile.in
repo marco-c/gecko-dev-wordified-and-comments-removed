@@ -600,6 +600,10 @@ browser_preferences_text
 .
 js
 \
+browser_preferences_fulltoggle
+.
+js
+\
 browser_rect
 .
 js
