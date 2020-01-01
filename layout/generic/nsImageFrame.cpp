@@ -397,6 +397,15 @@ Preferences
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Util
+.
+h
+"
 using
 namespace
 mozilla
@@ -3216,7 +3225,10 @@ nsRenderingContext
 aRenderingContext
 )
 {
+DebugOnly
+<
 nscoord
+>
 result
 ;
 DISPLAY_MIN_WIDTH
@@ -3272,7 +3284,10 @@ nsRenderingContext
 aRenderingContext
 )
 {
+DebugOnly
+<
 nscoord
+>
 result
 ;
 DISPLAY_PREF_WIDTH

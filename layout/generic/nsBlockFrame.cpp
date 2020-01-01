@@ -291,6 +291,15 @@ nsRenderingContext
 h
 "
 #
+include
+"
+mozilla
+/
+Util
+.
+h
+"
+#
 ifdef
 IBMBIDI
 #
@@ -18025,7 +18034,10 @@ GetParent
 )
 )
 ;
+DebugOnly
+<
 nsresult
+>
 rv
 =
 oldParent

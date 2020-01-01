@@ -400,6 +400,15 @@ Element
 h
 "
 #
+include
+"
+mozilla
+/
+Util
+.
+h
+"
+#
 ifdef
 NS_DEBUG
 #
@@ -1396,7 +1405,10 @@ GetUserData
 )
 )
 ;
+DebugOnly
+<
 PRBool
+>
 found
 =
 ClearAllTextRunReferences

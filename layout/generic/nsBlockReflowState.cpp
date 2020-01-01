@@ -78,6 +78,15 @@ nsINameSpaceManager
 h
 "
 #
+include
+"
+mozilla
+/
+Util
+.
+h
+"
+#
 ifdef
 DEBUG
 #
@@ -3844,7 +3853,10 @@ SetPushedRightFloatPastBreak
 )
 ;
 }
+DebugOnly
+<
 nsresult
+>
 rv
 =
 mBlock
