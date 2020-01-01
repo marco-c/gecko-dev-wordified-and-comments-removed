@@ -469,6 +469,10 @@ gfxFontConstants
 .
 h
 \
+gfxFontFeatures
+.
+h
+\
 gfxFontUtils
 .
 h
