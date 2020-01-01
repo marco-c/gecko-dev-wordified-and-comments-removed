@@ -192,6 +192,12 @@ JSObject
 *
 functionNamespaceObject
 ;
+js
+:
+:
+DeflatedStringCache
+deflatedStringCache
+;
 JSCompartment
 (
 JSRuntime
@@ -460,7 +466,7 @@ compartment
 target
 -
 >
-getCompartment
+compartment
 (
 )
 ;

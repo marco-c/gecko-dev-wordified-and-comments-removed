@@ -3883,13 +3883,6 @@ js
 Value
 positiveInfinityValue
 ;
-js
-:
-:
-DeflatedStringCache
-*
-deflatedStringCache
-;
 JSString
 *
 emptyString
