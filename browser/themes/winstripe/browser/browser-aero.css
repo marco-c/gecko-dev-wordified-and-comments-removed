@@ -2712,17 +2712,6 @@ default
 theme
 )
 #
-main
--
-window
-:
-not
-(
-[
-tabsintitlebar
-]
-)
-#
 TabsToolbar
 [
 tabsontop
