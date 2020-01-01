@@ -2505,13 +2505,6 @@ ChangeDelayLoadStatus
 PR_TRUE
 )
 ;
-mNetworkState
-=
-nsIDOMHTMLMediaElement
-:
-:
-NETWORK_LOADING
-;
 if
 (
 mIsLoadingFromSrcAttribute
