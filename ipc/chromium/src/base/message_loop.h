@@ -422,6 +422,16 @@ return
 type_
 ;
 }
+PRInt32
+id
+(
+)
+const
+{
+return
+id_
+;
+}
 void
 set_thread_name
 (
@@ -850,6 +860,9 @@ DoIdleWork
 ;
 Type
 type_
+;
+PRInt32
+id_
 ;
 TaskQueue
 work_queue_
