@@ -26,6 +26,13 @@ nsPluginError
 .
 h
 "
+#
+include
+"
+nsIUnicodeDecoder
+.
+h
+"
 static
 struct
 ResultMap
