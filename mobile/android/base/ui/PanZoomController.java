@@ -153,7 +153,7 @@ FRICTION
 =
 0
 .
-97f
+85f
 ;
 private
 static
@@ -191,7 +191,7 @@ final
 int
 SNAP_TIME
 =
-150
+240
 ;
 private
 static
@@ -221,7 +221,7 @@ Math
 .
 PI
 /
-15
+6
 .
 0
 ;
