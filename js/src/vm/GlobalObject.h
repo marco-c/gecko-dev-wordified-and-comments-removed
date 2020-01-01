@@ -2129,6 +2129,17 @@ EVAL
 )
 ;
 }
+bool
+getFunctionNamespace
+(
+JSContext
+*
+cx
+Value
+*
+vp
+)
+;
 static
 bool
 initIteratorClasses

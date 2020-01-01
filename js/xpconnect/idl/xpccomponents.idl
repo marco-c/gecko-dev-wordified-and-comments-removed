@@ -2417,6 +2417,13 @@ implicit_jscontext
 ]
 attribute
 boolean
+xml
+;
+[
+implicit_jscontext
+]
+attribute
+boolean
 methodjit
 ;
 [

@@ -100,6 +100,11 @@ cx
 )
 )
 ;
+jsid
+xml_id
+=
+JS_DEFAULT_XML_NAMESPACE_ID
+;
 breakpoint
 (
 )
@@ -133,5 +138,10 @@ void_id
 void
 )
 object_id
+;
+(
+void
+)
+xml_id
 ;
 }

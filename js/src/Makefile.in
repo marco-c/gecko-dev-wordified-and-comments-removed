@@ -604,6 +604,10 @@ jswrapper
 .
 cpp
 \
+jsxml
+.
+cpp
+\
 prmjtime
 .
 cpp

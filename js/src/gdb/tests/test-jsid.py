@@ -70,3 +70,12 @@ delegate
 )
 '
 )
+assert_pretty
+(
+'
+xml_id
+'
+'
+JS_DEFAULT_XML_NAMESPACE_ID
+'
+)

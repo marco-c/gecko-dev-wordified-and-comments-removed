@@ -713,6 +713,9 @@ from
 return
 true
 ;
+case
+JSTYPE_XML
+:
 default
 :
 return

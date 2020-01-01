@@ -303,6 +303,12 @@ return
 1
 ;
 case
+JSOP_FILTER
+:
+return
+2
+;
+case
 JSOP_PICK
 :
 return
@@ -503,6 +509,9 @@ JSOP_THROW
 :
 case
 JSOP_TABLESWITCH
+:
+case
+JSOP_FILTER
 :
 return
 true
