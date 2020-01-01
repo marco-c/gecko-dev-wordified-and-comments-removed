@@ -44,8 +44,6 @@ solid
 1e4262
 ;
 margin
--
-top
 :
 0
 ;
@@ -126,7 +124,7 @@ padding
 margin
 :
 0
-0
+8px
 20px
 ;
 }
@@ -173,6 +171,19 @@ radius
 bottomleft
 :
 4px
+;
+}
+#
+head
+#
+content
+#
+footer
+{
+margin
+:
+0
+8px
 ;
 }
 #
