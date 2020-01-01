@@ -310,6 +310,13 @@ DEFINES
 ACDEFINES
 )
 \
+-
+DMOZ_NATIVE_ICU
+=
+(
+MOZ_NATIVE_ICU
+)
+\
 (
 srcdir
 )
