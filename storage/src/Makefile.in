@@ -535,10 +535,6 @@ mozStorageAsyncStatementParams
 .
 cpp
 \
-SharedCacheUnlockNotify
-.
-cpp
-\
 StorageBaseStatementInternal
 .
 cpp
