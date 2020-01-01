@@ -645,7 +645,7 @@ rv
 =
 NS_GetSpecialDirectory
 (
-NS_OS_TEMP_DIR
+NS_OS_CURRENT_PROCESS_DIR
 getter_AddRefs
 (
 profD
