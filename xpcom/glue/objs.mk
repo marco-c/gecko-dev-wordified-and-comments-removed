@@ -589,6 +589,10 @@ SSE
 .
 cpp
 \
+unused
+.
+cpp
+\
 nsAutoLock
 .
 cpp
