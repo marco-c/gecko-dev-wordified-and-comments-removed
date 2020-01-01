@@ -507,6 +507,10 @@ pngwutil
 .
 c
 \
+pngvcrd
+.
+c
+\
 (
 NULL
 )
