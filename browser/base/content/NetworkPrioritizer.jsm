@@ -204,6 +204,7 @@ BrowserHelper
 onOpen
 :
 function
+NP_BH_onOpen
 (
 aBrowser
 )
@@ -230,6 +231,7 @@ aBrowser
 onSelect
 :
 function
+NP_BH_onSelect
 (
 aBrowser
 )
@@ -280,6 +282,7 @@ aBrowser
 getLoadgroup
 :
 function
+NP_BH_getLoadgroup
 (
 aBrowser
 )
@@ -309,6 +312,7 @@ nsISupportsPriority
 increasePriority
 :
 function
+NP_BH_increasePriority
 (
 aBrowser
 )
@@ -329,6 +333,7 @@ PRIORITY_DELTA
 decreasePriority
 :
 function
+NP_BH_decreasePriority
 (
 aBrowser
 )
@@ -358,6 +363,7 @@ WindowHelper
 addWindow
 :
 function
+NP_WH_addWindow
 (
 aWindow
 )
@@ -461,6 +467,7 @@ selectedBrowser
 removeWindow
 :
 function
+NP_WH_removeWindow
 (
 aWindow
 )
@@ -539,6 +546,7 @@ false
 onActivate
 :
 function
+NP_WH_onActivate
 (
 aWindow
 aHasFocus
@@ -571,6 +579,7 @@ aWindow
 handleFocusedWindow
 :
 function
+NP_WH_handleFocusedWindow
 (
 aWindow
 )
@@ -594,6 +603,7 @@ aWindow
 increasePriority
 :
 function
+NP_WH_increasePriority
 (
 aWindow
 )
@@ -625,6 +635,7 @@ aBrowser
 decreasePriority
 :
 function
+NP_WH_decreasePriority
 (
 aWindow
 )
@@ -656,6 +667,7 @@ aBrowser
 getEntry
 :
 function
+NP_WH_getEntry
 (
 aWindow
 )
@@ -675,6 +687,7 @@ aWindow
 getEntryIndex
 :
 function
+NP_WH_getEntryAtIndex
 (
 aWindow
 )
