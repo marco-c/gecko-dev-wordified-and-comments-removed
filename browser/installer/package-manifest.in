@@ -2781,13 +2781,6 @@ components
 SafariProfileMigrator
 .
 js
-BINPATH
-/
-components
-/
-libalerts
-.
-dylib
 #
 endif
 #
@@ -2828,12 +2821,6 @@ DLL_SUFFIX
 endif
 #
 if
-defined
-(
-XP_MACOSX
-)
-|
-|
 defined
 (
 MOZ_ENABLE_DBUS

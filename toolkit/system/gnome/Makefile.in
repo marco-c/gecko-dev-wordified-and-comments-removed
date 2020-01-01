@@ -97,14 +97,6 @@ nsGnomeModule
 .
 cpp
 \
-nsSystemAlertsService
-.
-cpp
-\
-nsAlertsIconListener
-.
-cpp
-\
 (
 NULL
 )
