@@ -1,7 +1,8 @@
 #
 filter
 substitution
-let
+this
+.
 EXPORTED_SYMBOLS
 =
 [
