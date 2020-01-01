@@ -388,12 +388,6 @@ JSContext
 *
 mCx
 ;
-nsCOMPtr
-<
-nsIScriptContext
->
-mCtx
-;
 nsAutoMicroTask
 mMt
 ;

@@ -14621,14 +14621,6 @@ ReportPendingException
 cx
 )
 ;
-aContext
--
->
-ScriptEvaluated
-(
-true
-)
-;
 return
 NS_OK
 ;

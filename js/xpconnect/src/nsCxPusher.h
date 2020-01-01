@@ -103,9 +103,6 @@ nsIScriptContext
 >
 mScx
 ;
-bool
-mScriptIsRunning
-;
 #
 ifdef
 DEBUG
