@@ -57,9 +57,6 @@ class
 nsPresContext
 ;
 class
-nsIDOMSVGMatrix
-;
-class
 nsSVGMarkerFrame
 ;
 class

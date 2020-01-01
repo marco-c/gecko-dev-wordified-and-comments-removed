@@ -33,13 +33,6 @@ nsSVGOuterSVGFrame
 .
 h
 "
-#
-include
-"
-nsSVGMatrix
-.
-h
-"
 nsIFrame
 *
 NS_NewSVGTSpanFrame

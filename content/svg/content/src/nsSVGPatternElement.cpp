@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsSVGMatrix
-.
-h
-"
-#
-include
-"
 nsSVGPatternElement
 .
 h
