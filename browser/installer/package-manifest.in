@@ -1894,6 +1894,13 @@ components
 contentSecurityPolicy
 .
 js
+BINPATH
+/
+components
+/
+contentAreaDropListener
+.
+js
 #
 ifdef
 XP_MACOSX
