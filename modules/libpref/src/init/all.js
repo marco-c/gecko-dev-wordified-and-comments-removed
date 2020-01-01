@@ -8764,6 +8764,16 @@ pref
 "
 network
 .
+dnsCacheExpirationGracePeriod
+"
+2592000
+)
+;
+pref
+(
+"
+network
+.
 standard
 -
 url
