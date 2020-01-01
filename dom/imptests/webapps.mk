@@ -22,6 +22,16 @@ Opera
 \
 webapps
 /
+XMLHttpRequest
+/
+tests
+/
+submissions
+/
+Ms2ger
+\
+webapps
+/
 WebStorage
 /
 tests
