@@ -444,7 +444,7 @@ GeneratePing
 (
 )
 ;
-bool
+void
 BeginOpen
 (
 )
