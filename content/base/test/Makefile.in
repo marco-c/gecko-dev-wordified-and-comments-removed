@@ -2765,6 +2765,10 @@ file_bug650386_report
 .
 sjs
 \
+test_bug719533
+.
+html
+\
 (
 NULL
 )
