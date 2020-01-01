@@ -10362,7 +10362,7 @@ PRUnichar
 )
 ;
 }
-nsReStyleHint
+nsRestyleHint
 nsCSSRuleProcessor
 :
 :
@@ -10408,10 +10408,10 @@ aData
 mPresContext
 )
 ;
-nsReStyleHint
+nsRestyleHint
 hint
 =
-nsReStyleHint
+nsRestyleHint
 (
 0
 )
@@ -10469,7 +10469,7 @@ selector
 *
 iter
 ;
-nsReStyleHint
+nsRestyleHint
 possibleChange
 =
 IsSiblingOperator
@@ -10480,9 +10480,9 @@ selector
 mOperator
 )
 ?
-eReStyle_LaterSiblings
+eRestyle_LaterSiblings
 :
-eReStyle_Self
+eRestyle_Self
 ;
 if
 (
@@ -10521,7 +10521,7 @@ PR_FALSE
 {
 hint
 =
-nsReStyleHint
+nsRestyleHint
 (
 hint
 |
@@ -10594,7 +10594,7 @@ aData
 )
 change
 (
-nsReStyleHint
+nsRestyleHint
 (
 0
 )
@@ -10605,7 +10605,7 @@ AttributeRuleProcessorData
 *
 data
 ;
-nsReStyleHint
+nsRestyleHint
 change
 ;
 }
@@ -10631,7 +10631,7 @@ aData
 >
 data
 ;
-nsReStyleHint
+nsRestyleHint
 possibleChange
 =
 IsSiblingOperator
@@ -10642,9 +10642,9 @@ aSelector
 mOperator
 )
 ?
-eReStyle_LaterSiblings
+eRestyle_LaterSiblings
 :
-eReStyle_Self
+eRestyle_Self
 ;
 if
 (
@@ -10688,7 +10688,7 @@ aData
 >
 change
 =
-nsReStyleHint
+nsRestyleHint
 (
 aData
 -
@@ -10700,7 +10700,7 @@ possibleChange
 ;
 }
 }
-nsReStyleHint
+nsRestyleHint
 nsCSSRuleProcessor
 :
 :
@@ -10811,13 +10811,13 @@ data
 .
 change
 =
-nsReStyleHint
+nsRestyleHint
 (
 data
 .
 change
 |
-eReStyle_Self
+eRestyle_Self
 )
 ;
 }

@@ -480,7 +480,7 @@ ProcessOneRestyle
 nsIContent
 *
 aContent
-nsReStyleHint
+nsRestyleHint
 aRestyleHint
 nsChangeHint
 aChangeHint
@@ -552,7 +552,7 @@ PostRestyleEvent
 nsIContent
 *
 aContent
-nsReStyleHint
+nsRestyleHint
 aRestyleHint
 nsChangeHint
 aMinChangeHint
@@ -595,7 +595,7 @@ PostAnimationRestyleEvent
 nsIContent
 *
 aContent
-nsReStyleHint
+nsRestyleHint
 aRestyleHint
 nsChangeHint
 aMinChangeHint
@@ -629,7 +629,7 @@ PostRestyleEventCommon
 nsIContent
 *
 aContent
-nsReStyleHint
+nsRestyleHint
 aRestyleHint
 nsChangeHint
 aMinChangeHint
@@ -4110,7 +4110,7 @@ public
 struct
 RestyleData
 {
-nsReStyleHint
+nsRestyleHint
 mRestyleHint
 ;
 nsChangeHint

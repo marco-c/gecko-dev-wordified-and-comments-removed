@@ -2179,7 +2179,7 @@ FrameConstructor
 PostRestyleEvent
 (
 mContent
-eReStyle_Self
+eRestyle_Self
 nsChangeHint_ReflowFrame
 )
 ;
@@ -2984,7 +2984,7 @@ FrameConstructor
 PostRestyleEvent
 (
 mContent
-eReStyle_Self
+eRestyle_Self
 nsChangeHint_ReflowFrame
 )
 ;
@@ -3210,7 +3210,7 @@ FrameConstructor
 PostRestyleEvent
 (
 mContent
-eReStyle_Self
+eRestyle_Self
 nsChangeHint_ReflowFrame
 )
 ;

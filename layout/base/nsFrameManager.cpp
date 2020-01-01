@@ -6161,7 +6161,7 @@ frame2
 )
 ;
 }
-nsReStyleHint
+nsRestyleHint
 nsFrameManager
 :
 :
@@ -6179,7 +6179,7 @@ PRBool
 aAttrHasChanged
 )
 {
-nsReStyleHint
+nsRestyleHint
 hint
 =
 mStyleSet
@@ -6212,11 +6212,11 @@ style
 {
 hint
 =
-nsReStyleHint
+nsRestyleHint
 (
 hint
 |
-eReStyle_Self
+eRestyle_Self
 )
 ;
 }

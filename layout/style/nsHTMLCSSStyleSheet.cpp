@@ -404,7 +404,7 @@ return
 NS_OK
 ;
 }
-nsReStyleHint
+nsRestyleHint
 nsHTMLCSSStyleSheet
 :
 :
@@ -416,7 +416,7 @@ aData
 )
 {
 return
-nsReStyleHint
+nsRestyleHint
 (
 0
 )
@@ -437,7 +437,7 @@ return
 PR_FALSE
 ;
 }
-nsReStyleHint
+nsRestyleHint
 nsHTMLCSSStyleSheet
 :
 :
@@ -449,7 +449,7 @@ aData
 )
 {
 return
-nsReStyleHint
+nsRestyleHint
 (
 0
 )

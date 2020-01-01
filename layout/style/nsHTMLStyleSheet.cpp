@@ -1086,7 +1086,7 @@ return
 NS_OK
 ;
 }
-nsReStyleHint
+nsRestyleHint
 nsHTMLStyleSheet
 :
 :
@@ -1173,11 +1173,11 @@ NS_EVENT_STATE_VISITED
 )
 {
 return
-eReStyle_Self
+eRestyle_Self
 ;
 }
 return
-nsReStyleHint
+nsRestyleHint
 (
 0
 )
@@ -1198,7 +1198,7 @@ return
 PR_FALSE
 ;
 }
-nsReStyleHint
+nsRestyleHint
 nsHTMLStyleSheet
 :
 :
@@ -1219,7 +1219,7 @@ mAttrHasChanged
 )
 {
 return
-nsReStyleHint
+nsRestyleHint
 (
 0
 )
@@ -1283,7 +1283,7 @@ a
 )
 {
 return
-eReStyle_Self
+eRestyle_Self
 ;
 }
 if
@@ -1304,11 +1304,11 @@ mAttribute
 )
 {
 return
-eReStyle_Self
+eRestyle_Self
 ;
 }
 return
-nsReStyleHint
+nsRestyleHint
 (
 0
 )

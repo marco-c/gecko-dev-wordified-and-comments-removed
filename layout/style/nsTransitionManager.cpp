@@ -3443,7 +3443,7 @@ NS_OK
 }
 #
 endif
-nsReStyleHint
+nsRestyleHint
 nsTransitionManager
 :
 :
@@ -3455,7 +3455,7 @@ aData
 )
 {
 return
-nsReStyleHint
+nsRestyleHint
 (
 0
 )
@@ -3476,7 +3476,7 @@ return
 PR_FALSE
 ;
 }
-nsReStyleHint
+nsRestyleHint
 nsTransitionManager
 :
 :
@@ -3488,7 +3488,7 @@ aData
 )
 {
 return
-nsReStyleHint
+nsRestyleHint
 (
 0
 )

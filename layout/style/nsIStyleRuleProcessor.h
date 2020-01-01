@@ -156,7 +156,7 @@ aData
 0
 ;
 virtual
-nsReStyleHint
+nsRestyleHint
 HasStateDependentStyle
 (
 StateRuleProcessorData
@@ -167,7 +167,7 @@ aData
 0
 ;
 virtual
-nsReStyleHint
+nsRestyleHint
 HasAttributeDependentStyle
 (
 AttributeRuleProcessorData

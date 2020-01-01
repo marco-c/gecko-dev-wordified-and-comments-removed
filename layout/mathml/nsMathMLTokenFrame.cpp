@@ -1032,7 +1032,7 @@ FrameConstructor
 PostRestyleEvent
 (
 mContent
-eReStyle_Self
+eRestyle_Self
 NS_STYLE_HINT_NONE
 )
 ;

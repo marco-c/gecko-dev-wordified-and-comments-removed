@@ -30760,7 +30760,7 @@ nsChangeHint_RepaintFrame
 }
 }
 }
-nsReStyleHint
+nsRestyleHint
 rshint
 =
 styleSet
@@ -30820,7 +30820,7 @@ PRInt32
 aModType
 )
 {
-nsReStyleHint
+nsRestyleHint
 rshint
 =
 mPresShell
@@ -31208,7 +31208,7 @@ FrameManager
 (
 )
 ;
-nsReStyleHint
+nsRestyleHint
 rshint
 =
 frameManager
@@ -35055,7 +35055,7 @@ aAsyncInsert
 PostRestyleEvent
 (
 aContent
-nsReStyleHint
+nsRestyleHint
 (
 0
 )
@@ -42833,7 +42833,7 @@ NODE_HAS_SLOW_SELECTOR
 PostRestyleEvent
 (
 aContainer
-eReStyle_Self
+eRestyle_Self
 NS_STYLE_HINT_NONE
 )
 ;
@@ -42903,7 +42903,7 @@ wasEmpty
 PostRestyleEvent
 (
 aContainer
-eReStyle_Self
+eRestyle_Self
 NS_STYLE_HINT_NONE
 )
 ;
@@ -42966,7 +42966,7 @@ eELEMENT
 PostRestyleEvent
 (
 content
-eReStyle_Self
+eRestyle_Self
 NS_STYLE_HINT_NONE
 )
 ;
@@ -43052,7 +43052,7 @@ NODE_HAS_SLOW_SELECTOR_NOAPPEND
 PostRestyleEvent
 (
 aContainer
-eReStyle_Self
+eRestyle_Self
 NS_STYLE_HINT_NONE
 )
 ;
@@ -43141,7 +43141,7 @@ wasEmpty
 PostRestyleEvent
 (
 aContainer
-eReStyle_Self
+eRestyle_Self
 NS_STYLE_HINT_NONE
 )
 ;
@@ -43230,7 +43230,7 @@ passedChild
 PostRestyleEvent
 (
 content
-eReStyle_Self
+eRestyle_Self
 NS_STYLE_HINT_NONE
 )
 ;
@@ -43316,7 +43316,7 @@ passedChild
 PostRestyleEvent
 (
 content
-eReStyle_Self
+eRestyle_Self
 NS_STYLE_HINT_NONE
 )
 ;
@@ -43405,7 +43405,7 @@ NODE_HAS_SLOW_SELECTOR_NOAPPEND
 PostRestyleEvent
 (
 aContainer
-eReStyle_Self
+eRestyle_Self
 NS_STYLE_HINT_NONE
 )
 ;
@@ -43485,7 +43485,7 @@ isEmpty
 PostRestyleEvent
 (
 aContainer
-eReStyle_Self
+eRestyle_Self
 NS_STYLE_HINT_NONE
 )
 ;
@@ -43557,7 +43557,7 @@ aIndexInContainer
 PostRestyleEvent
 (
 content
-eReStyle_Self
+eRestyle_Self
 NS_STYLE_HINT_NONE
 )
 ;
@@ -43626,7 +43626,7 @@ aIndexInContainer
 PostRestyleEvent
 (
 content
-eReStyle_Self
+eRestyle_Self
 NS_STYLE_HINT_NONE
 )
 ;
@@ -43738,7 +43738,7 @@ ProcessOneRestyle
 nsIContent
 *
 aContent
-nsReStyleHint
+nsRestyleHint
 aRestyleHint
 nsChangeHint
 aChangeHint
@@ -43795,7 +43795,7 @@ if
 (
 aRestyleHint
 &
-eReStyle_Self
+eRestyle_Self
 )
 {
 RestyleElement
@@ -43846,7 +43846,7 @@ if
 (
 aRestyleHint
 &
-eReStyle_LaterSiblings
+eRestyle_LaterSiblings
 )
 {
 RestyleLaterSiblings
@@ -44424,7 +44424,7 @@ PostRestyleEventCommon
 nsIContent
 *
 aContent
-nsReStyleHint
+nsRestyleHint
 aRestyleHint
 nsChangeHint
 aMinChangeHint
@@ -44497,7 +44497,7 @@ existingData
 .
 mRestyleHint
 =
-nsReStyleHint
+nsRestyleHint
 (
 0
 )
@@ -44535,7 +44535,7 @@ existingData
 .
 mRestyleHint
 =
-nsReStyleHint
+nsRestyleHint
 (
 existingData
 .

@@ -370,7 +370,7 @@ PRInt32
 aStateMask
 )
 ;
-nsReStyleHint
+nsRestyleHint
 HasStateDependentStyle
 (
 nsPresContext
@@ -383,7 +383,7 @@ PRInt32
 aStateMask
 )
 ;
-nsReStyleHint
+nsRestyleHint
 HasAttributeDependentStyle
 (
 nsPresContext

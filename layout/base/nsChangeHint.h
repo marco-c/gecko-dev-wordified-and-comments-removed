@@ -284,12 +284,12 @@ NS_STYLE_HINT_REFLOW
 nsChangeHint_ReconstructFrame
 )
 enum
-nsReStyleHint
+nsRestyleHint
 {
-eReStyle_Self
+eRestyle_Self
 =
 0x1
-eReStyle_LaterSiblings
+eRestyle_LaterSiblings
 =
 0x2
 }
