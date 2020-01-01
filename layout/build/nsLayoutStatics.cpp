@@ -434,6 +434,13 @@ nsTraceRefcnt
 .
 h
 "
+#
+include
+"
+nsCycleCollector
+.
+h
+"
 static
 nsrefcnt
 sLayoutStaticRefcnt
@@ -902,6 +909,9 @@ return
 rv
 ;
 }
+#
+ifndef
+DEBUG_CC
 rv
 =
 nsCCUncollectableMarker
@@ -933,6 +943,8 @@ return
 rv
 ;
 }
+#
+endif
 #
 ifdef
 MOZ_XUL
