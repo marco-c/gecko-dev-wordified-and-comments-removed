@@ -23,7 +23,9 @@ now
 .
 AC_DEFUN
 (
+[
 MOZ_DOING_LTO
+]
 [
 cat
 >

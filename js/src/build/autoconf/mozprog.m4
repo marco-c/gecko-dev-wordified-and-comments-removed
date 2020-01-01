@@ -398,7 +398,9 @@ BLOCK
 *
 AC_DEFUN
 (
+[
 MOZ_PROG_CHECKMSYS
+]
 [
 AC_REQUIRE
 (
@@ -438,7 +440,9 @@ fi
 )
 AC_DEFUN
 (
+[
 MOZ_PATH_PROG
+]
 [
 AC_PATH_PROG
 (
@@ -527,7 +531,9 @@ fi
 )
 AC_DEFUN
 (
+[
 MOZ_PATH_PROGS
+]
 [
 AC_PATH_PROGS
 (
