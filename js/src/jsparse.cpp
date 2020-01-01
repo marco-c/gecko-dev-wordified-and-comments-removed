@@ -15212,6 +15212,7 @@ ts
 >
 peekTokenSameLine
 (
+TSF_OPERAND
 )
 ;
 if
