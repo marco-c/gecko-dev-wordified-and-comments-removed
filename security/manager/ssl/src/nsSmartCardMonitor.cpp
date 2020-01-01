@@ -522,7 +522,7 @@ entry
 char
 *
 )
-malloc
+PR_Malloc
 (
 len
 +
@@ -577,6 +577,8 @@ return
 ;
 }
 }
+else
+{
 PL_HashTableRemove
 (
 mHash
@@ -587,6 +589,7 @@ void
 slotid
 )
 ;
+}
 }
 }
 const
