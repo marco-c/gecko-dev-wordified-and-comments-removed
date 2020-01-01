@@ -61,6 +61,9 @@ nsIDeviceContextSpec
 class
 nsIAtom
 ;
+class
+gfxUserFontSet
+;
 struct
 nsFont
 ;
@@ -758,6 +761,11 @@ nsIFontMetrics
 *
 &
 aMetrics
+gfxUserFontSet
+*
+aUserFontSet
+=
+nsnull
 )
 =
 0
@@ -773,6 +781,11 @@ nsIFontMetrics
 *
 &
 aMetrics
+gfxUserFontSet
+*
+aUserFontSet
+=
+nsnull
 )
 =
 0

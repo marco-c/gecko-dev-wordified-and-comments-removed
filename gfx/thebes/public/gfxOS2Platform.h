@@ -156,6 +156,9 @@ const
 gfxFontStyle
 *
 aStyle
+gfxUserFontSet
+*
+aUserFontSet
 )
 ;
 already_AddRefed

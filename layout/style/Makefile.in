@@ -775,6 +775,10 @@ nsDOMCSSValueList
 .
 cpp
 \
+nsFontFaceLoader
+.
+cpp
+\
 nsHTMLCSSStyleSheet
 .
 cpp

@@ -130,6 +130,10 @@ gfxTextRunWordCache
 .
 cpp
 \
+gfxUserFontSet
+.
+cpp
+\
 (
 NULL
 )

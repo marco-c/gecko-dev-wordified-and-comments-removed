@@ -32,6 +32,13 @@ gfxFont
 .
 h
 "
+#
+include
+"
+gfxUserFontSet
+.
+h
+"
 struct
 THEBES_API
 gfxFontTestItem

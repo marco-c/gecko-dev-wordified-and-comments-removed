@@ -34,6 +34,9 @@ nsIDeviceContext
 class
 nsIAtom
 ;
+class
+gfxUserFontSet
+;
 #
 define
 NS_IFONT_METRICS_IID
@@ -84,6 +87,11 @@ aLangGroup
 nsIDeviceContext
 *
 aContext
+gfxUserFontSet
+*
+aUserFontSet
+=
+nsnull
 )
 =
 0

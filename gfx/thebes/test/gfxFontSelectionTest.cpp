@@ -1249,6 +1249,7 @@ test
 -
 >
 fontStyle
+nsnull
 )
 ;
 nsAutoPtr

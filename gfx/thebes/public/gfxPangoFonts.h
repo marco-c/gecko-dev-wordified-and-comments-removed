@@ -103,6 +103,9 @@ const
 gfxFontStyle
 *
 aStyle
+gfxUserFontSet
+*
+aUserFontSet
 )
 ;
 virtual
