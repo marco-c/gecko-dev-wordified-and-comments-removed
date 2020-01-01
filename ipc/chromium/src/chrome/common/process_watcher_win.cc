@@ -271,13 +271,8 @@ base
 :
 ProcessHandle
 process
-#
-ifdef
-CHROMIUM_MOZILLA_BUILD
 bool
 force
-#
-endif
 )
 {
 DCHECK
@@ -290,9 +285,6 @@ GetCurrentProcess
 )
 )
 ;
-#
-ifdef
-CHROMIUM_MOZILLA_BUILD
 if
 (
 !
@@ -313,8 +305,6 @@ process
 return
 ;
 }
-#
-endif
 if
 (
 WaitForSingleObject

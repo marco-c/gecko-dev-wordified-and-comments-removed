@@ -296,12 +296,6 @@ empty
 )
 ;
 }
-#
-if
-defined
-(
-CHROMIUM_MOZILLA_BUILD
-)
 void
 Clear
 (
@@ -361,8 +355,6 @@ return
 false
 ;
 }
-#
-endif
 T
 *
 Lookup

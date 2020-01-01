@@ -928,12 +928,6 @@ fd
 ;
 }
 }
-#
-if
-defined
-(
-CHROMIUM_MOZILLA_BUILD
-)
 MessagePumpLibevent
 :
 :
@@ -1242,8 +1236,6 @@ sig
 )
 ;
 }
-#
-endif
 void
 MessagePumpLibevent
 :

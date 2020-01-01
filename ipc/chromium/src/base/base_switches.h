@@ -8,12 +8,6 @@ BASE_BASE_SWITCHES_H_
 if
 defined
 (
-CHROMIUM_MOZILLA_BUILD
-)
-&
-&
-defined
-(
 COMPILER_MSVC
 )
 #

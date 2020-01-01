@@ -179,12 +179,6 @@ Watcher
 delegate
 )
 ;
-#
-if
-defined
-(
-CHROMIUM_MOZILLA_BUILD
-)
 class
 SignalEvent
 {
@@ -272,8 +266,6 @@ SignalWatcher
 delegate
 )
 ;
-#
-endif
 virtual
 void
 Run
@@ -338,12 +330,6 @@ void
 context
 )
 ;
-#
-if
-defined
-(
-CHROMIUM_MOZILLA_BUILD
-)
 static
 void
 OnLibeventSignalNotification
@@ -357,8 +343,6 @@ void
 context
 )
 ;
-#
-endif
 static
 void
 OnWakeup

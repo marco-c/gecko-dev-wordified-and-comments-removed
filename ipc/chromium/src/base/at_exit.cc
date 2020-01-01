@@ -276,9 +276,6 @@ param_
 ;
 }
 }
-#
-ifdef
-CHROMIUM_MOZILLA_BUILD
 bool
 AtExitManager
 :
@@ -293,6 +290,4 @@ return
 g_top_manager
 ;
 }
-#
-endif
 }

@@ -105,12 +105,6 @@ ScheduleWork
 =
 0
 ;
-#
-if
-defined
-(
-CHROMIUM_MOZILLA_BUILD
-)
 virtual
 void
 ScheduleWorkForNestedLoop
@@ -123,8 +117,6 @@ ScheduleWork
 ;
 }
 ;
-#
-endif
 virtual
 void
 ScheduleDelayedWork

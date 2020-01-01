@@ -1,18 +1,4 @@
 #
-ifndef
-CHROMIUM_MOZILLA_BUILD
-#
-include
-"
-IPC
-/
-IPCMessageUtils
-.
-h
-"
-#
-else
-#
 include
 "
 chrome
@@ -23,8 +9,6 @@ ipc_message_utils
 .
 h
 "
-#
-endif
 #
 ifndef
 MESSAGES_INTERNAL_FILE

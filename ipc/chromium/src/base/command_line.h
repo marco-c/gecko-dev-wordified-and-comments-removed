@@ -159,9 +159,6 @@ return
 current_process_commandline_
 ;
 }
-#
-ifdef
-CHROMIUM_MOZILLA_BUILD
 static
 bool
 IsInitialized
@@ -174,8 +171,6 @@ return
 current_process_commandline_
 ;
 }
-#
-endif
 bool
 HasSwitch
 (
