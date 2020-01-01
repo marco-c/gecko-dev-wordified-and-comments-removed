@@ -253,6 +253,13 @@ defined
 (
 XP_WIN
 )
+&
+&
+!
+defined
+(
+_WIN64
+)
 #
 define
 NS_FASTCALL
