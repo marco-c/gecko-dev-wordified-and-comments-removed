@@ -3921,6 +3921,8 @@ enabled
 nameMatch
 )
 {
+try
+{
 gPrefService
 .
 clearUserPref
@@ -3932,6 +3934,13 @@ disabledFlash
 "
 )
 ;
+}
+catch
+(
+ex
+)
+{
+}
 var
 phs
 =
