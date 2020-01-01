@@ -61,17 +61,12 @@ jspubtd
 h
 "
 #
-ifdef
-JS_THREADSAFE
-#
 include
 "
 jslock
 .
 h
 "
-#
-endif
 JS_BEGIN_EXTERN_C
 #
 define

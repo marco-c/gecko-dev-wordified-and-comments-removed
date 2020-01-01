@@ -155,6 +155,13 @@ h
 #
 include
 "
+jsscope
+.
+h
+"
+#
+include
+"
 jsstr
 .
 h

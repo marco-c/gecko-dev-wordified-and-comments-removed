@@ -469,15 +469,6 @@ PR_NotifyAllCondVar
 (
 cv
 )
-JS_END_EXTERN_C
-#
-include
-"
-jsscope
-.
-h
-"
-JS_BEGIN_EXTERN_C
 #
 ifdef
 JS_DEBUG_TITLE_LOCKS
