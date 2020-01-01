@@ -6051,6 +6051,8 @@ lastReset
 =
 i
 ;
+break
+;
 }
 }
 Rect
@@ -10570,6 +10572,8 @@ lastReset
 =
 i
 ;
+break
+;
 }
 }
 for
@@ -11111,6 +11115,8 @@ clipWasReset
 lastReset
 =
 i
+;
+break
 ;
 }
 }
