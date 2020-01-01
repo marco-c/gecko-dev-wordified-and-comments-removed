@@ -1615,6 +1615,14 @@ test_range_bounds
 .
 html
 \
+test_bug475156
+.
+html
+\
+bug475156
+.
+sjs
+\
 (
 NULL
 )

@@ -1369,6 +1369,11 @@ mForceAllowThirdPartyCookie
 :
 1
 ;
+PRUint32
+mCustomConditionalRequest
+:
+1
+;
 class
 nsContentEncodings
 :
