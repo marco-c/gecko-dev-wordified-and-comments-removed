@@ -478,9 +478,6 @@ mLastSampleTime
 PRInt32
 mLastEventTime
 ;
-PRInt32
-mLastRepaint
-;
 nsIntPoint
 mLastZoomFocus
 ;
