@@ -5507,13 +5507,15 @@ URIDictionary
 )
 )
 ;
-nsCAutoString
+nsAutoString
 title
+;
+nsCAutoString
 url
 ;
 if
 (
-GetDictionaryCStringValue
+GetDictionaryStringValue
 (
 URIDictionary
 CFSTR
@@ -5523,7 +5525,6 @@ title
 "
 )
 title
-kCFStringEncodingUTF8
 )
 &
 &
@@ -5547,9 +5548,6 @@ nsIURI
 >
 uri
 ;
-PRInt64
-id
-;
 rv
 |
 =
@@ -5561,6 +5559,9 @@ uri
 )
 url
 )
+;
+PRInt64
+id
 ;
 rv
 |
@@ -5576,7 +5577,10 @@ nsINavBookmarksService
 :
 :
 DEFAULT_INDEX
+NS_ConvertUTF16toUTF8
+(
 title
+)
 &
 id
 )
