@@ -1069,9 +1069,6 @@ eAlertAccessible
 PRUint32
 UpdateTreeInternal
 (
-nsAccessible
-*
-aContainer
 nsIContent
 *
 aStartNode
