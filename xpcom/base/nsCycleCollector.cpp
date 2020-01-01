@@ -132,14 +132,6 @@ h
 >
 #
 endif
-#
-ifdef
-DEBUG
-#
-define
-COLLECT_TIME_DEBUG
-#
-endif
 struct
 nsCycleCollectorParams
 {
