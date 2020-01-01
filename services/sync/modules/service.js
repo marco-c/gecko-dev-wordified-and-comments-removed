@@ -3483,7 +3483,6 @@ this
 .
 sync
 (
-false
 )
 0
 this
@@ -5962,7 +5961,6 @@ this
 .
 sync
 (
-true
 )
 ;
 return
