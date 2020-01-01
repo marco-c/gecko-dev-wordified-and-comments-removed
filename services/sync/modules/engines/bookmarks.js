@@ -6588,6 +6588,17 @@ property
 )
 return
 ;
+if
+(
+property
+=
+=
+"
+favicon
+"
+)
+return
+;
 this
 .
 _log
