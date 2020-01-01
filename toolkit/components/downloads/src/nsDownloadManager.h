@@ -308,6 +308,10 @@ const
 nsACString
 &
 aTarget
+const
+nsAString
+&
+aTempPath
 PRInt64
 aStartTime
 PRInt64
