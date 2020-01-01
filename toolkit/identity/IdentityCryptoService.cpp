@@ -833,6 +833,8 @@ psm
 ;
 1
 "
+&
+rv
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2422,9 +2424,9 @@ hashAlg
 =
 SEC_OID_SHA1
 ?
-20
+20u
 :
-32
+32u
 }
 ;
 mRv
