@@ -1881,7 +1881,7 @@ details
 /
 /
 /
-it
+It
 probably
 means
 show
@@ -1895,6 +1895,7 @@ vs
 -
 pixel
 thickness
+.
 PRUint32
 attr
 ;
