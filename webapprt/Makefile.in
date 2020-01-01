@@ -190,7 +190,8 @@ mac
 endif
 #
 windows
-EXTRA_PP_COMPONENTS
+EXTRA_COMPONENTS
+:
 =
 \
 components
