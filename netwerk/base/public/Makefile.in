@@ -487,6 +487,10 @@ nsIApplicationCache
 .
 idl
 \
+nsIApplicationCacheChannel
+.
+idl
+\
 nsIApplicationCacheContainer
 .
 idl

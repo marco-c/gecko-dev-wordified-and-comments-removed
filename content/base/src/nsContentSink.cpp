@@ -218,6 +218,13 @@ h
 #
 include
 "
+nsIApplicationCacheChannel
+.
+h
+"
+#
+include
+"
 nsIApplicationCacheService
 .
 h
@@ -4187,7 +4194,7 @@ applicationCache
 ;
 nsCOMPtr
 <
-nsIApplicationCacheContainer
+nsIApplicationCacheChannel
 >
 applicationCacheChannel
 =
