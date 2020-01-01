@@ -39,6 +39,12 @@ OnLionOrLater
 ;
 static
 bool
+OnMountainLionOrLater
+(
+)
+;
+static
+bool
 SupportCoreAnimationPlugins
 (
 )

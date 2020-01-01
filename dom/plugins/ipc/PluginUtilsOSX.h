@@ -95,6 +95,8 @@ aFunc
 void
 *
 aPluginInstance
+bool
+aAvoidCGCrashes
 )
 ;
 void
