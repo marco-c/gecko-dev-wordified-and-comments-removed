@@ -515,6 +515,10 @@ nsCommonWidget
 .
 cpp
 \
+nsWindow
+.
+cpp
+\
 nsToolkit
 .
 cpp
