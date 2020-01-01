@@ -23,6 +23,7 @@ regress
 500528
 .
 js
+skip
 script
 regress
 -
