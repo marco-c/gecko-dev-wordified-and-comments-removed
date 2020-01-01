@@ -341,15 +341,6 @@ bytecode
 if
 variadic
 *
-prec
-Operator
-precedence
-zero
-if
-not
-an
-operator
-*
 format
 Bytecode
 plus
@@ -357,346 +348,6 @@ immediate
 operand
 encoding
 format
-*
-*
-Precedence
-Operators
-Opcodes
-*
-1
-yield
-w
-JSOP_YIELD
-*
-2
-JSOP_POP
-with
-SRC_PCDELTA
-JSOP_RETURN
-*
-3
-=
-+
-=
-etc
-.
-JSOP_SETNAME
-etc
-.
-(
-all
-JOF_SET
-)
-;
-*
-let
-(
-.
-.
-.
-)
-.
-.
-.
-and
-JSOP_LEAVEBLOCKEXPR
-*
-4
-?
-:
-JSOP_IFEQ
-*
-5
-|
-|
-JSOP_OR
-*
-6
-&
-&
-JSOP_AND
-*
-7
-|
-JSOP_BITOR
-*
-8
-^
-JSOP_BITXOR
-*
-9
-&
-JSOP_BITAND
-*
-10
-=
-=
-!
-=
-etc
-.
-JSOP_EQ
-JSOP_NE
-etc
-.
-*
-11
-<
-in
-etc
-.
-JSOP_LT
-JSOP_IN
-etc
-.
-*
-12
-<
-<
->
->
->
->
->
-JSOP_LSH
-JSOP_RSH
-JSOP_URSH
-*
-13
-+
--
-etc
-.
-JSOP_ADD
-JSOP_SUB
-etc
-.
-*
-14
-*
-/
-%
-JSOP_MUL
-JSOP_DIV
-JSOP_MOD
-*
-15
-!
-~
-delete
-etc
-.
-JSOP_NOT
-JSOP_BITNOT
-JSOP_DEL
-*
-etc
-.
-*
-16
-3
-.
-14
-0
-etc
-.
-JSOP_DOUBLE
-JSOP_ZERO
-etc
-.
-*
-17
-new
-JSOP_NEW
-*
-18
-x
-.
-y
-f
-(
-)
-etc
-.
-JSOP_GETPROP
-JSOP_CALL
-etc
-.
-*
-19
-x
-null
-JSOP_NAME
-JSOP_NULL
-etc
-.
-;
-*
-function
-(
-.
-.
-.
-)
-.
-.
-.
-and
-JSOP_LAMBDA
-*
-*
-The
-push
--
-numeric
--
-constant
-operators
-JSOP_ZERO
-JSOP_DOUBLE
-etc
-.
-have
-*
-lower
-precedence
-than
-the
-member
-operators
-emitted
-for
-the
-.
-operator
-to
-*
-cause
-the
-decompiler
-to
-parenthesize
-the
-.
-left
-operand
-e
-.
-g
-.
-(
-0
-)
-.
-foo
-.
-*
-Otherwise
-the
-.
-could
-be
-taken
-as
-a
-decimal
-point
-.
-*
-*
-Let
-expressions
-are
-"
-primary
-"
-when
-viewed
-from
-the
-left
-but
-they
-eat
-up
-ops
-*
-to
-the
-right
-as
-if
-assignment
-expressions
-and
-therefore
-have
-precedence
-3
-.
-*
-This
-makes
-the
-decompiler
-retain
-the
-parentheses
-in
-(
-let
-(
-a
-=
-0
-)
-x
-)
-?
-a
-:
-0
-*
-but
-omit
-the
-superfluous
-ones
-in
-(
-let
-(
-a
-=
-0
-)
-x
-)
-a
-.
-*
-*
-Yield
-expressions
-must
-be
-parenthesized
-even
-in
-comma
--
-expressions
-and
-*
-argument
-lists
-so
-they
-have
-the
-lowest
-precedence
-.
 *
 *
 This
@@ -722,7 +373,6 @@ image
 len
 use
 def
-prec
 format
 *
 /
@@ -748,7 +398,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 /
@@ -771,7 +420,6 @@ js_undefined_str
 1
 0
 1
-0
 JOF_BYTE
 )
 OPDEF
@@ -785,7 +433,6 @@ NULL
 1
 1
 0
-2
 JOF_BYTE
 )
 OPDEF
@@ -799,7 +446,6 @@ NULL
 1
 1
 1
-0
 JOF_BYTE
 )
 OPDEF
@@ -812,7 +458,6 @@ leavewith
 NULL
 1
 1
-0
 0
 JOF_BYTE
 )
@@ -827,7 +472,6 @@ NULL
 1
 1
 0
-2
 JOF_BYTE
 )
 OPDEF
@@ -839,7 +483,6 @@ goto
 "
 NULL
 5
-0
 0
 0
 JOF_JUMP
@@ -855,7 +498,6 @@ NULL
 5
 1
 0
-4
 JOF_JUMP
 |
 JOF_DETECTING
@@ -870,7 +512,6 @@ ifne
 NULL
 5
 1
-0
 0
 JOF_JUMP
 )
@@ -900,7 +541,6 @@ NULL
 1
 0
 1
-0
 JOF_BYTE
 )
 OPDEF
@@ -914,7 +554,6 @@ NULL
 1
 2
 2
-0
 JOF_BYTE
 )
 OPDEF
@@ -928,7 +567,6 @@ NULL
 3
 -
 1
-0
 0
 JOF_UINT16
 )
@@ -953,7 +591,6 @@ NULL
 1
 1
 2
-0
 JOF_BYTE
 )
 OPDEF
@@ -967,7 +604,6 @@ NULL
 1
 2
 4
-0
 JOF_BYTE
 )
 OPDEF
@@ -981,7 +617,6 @@ NULL
 5
 1
 1
-3
 JOF_ATOM
 |
 JOF_NAME
@@ -1001,7 +636,6 @@ bitor
 1
 2
 1
-7
 JOF_BYTE
 |
 JOF_LEFTASSOC
@@ -1021,7 +655,6 @@ bitxor
 1
 2
 1
-8
 JOF_BYTE
 |
 JOF_LEFTASSOC
@@ -1041,7 +674,6 @@ bitand
 1
 2
 1
-9
 JOF_BYTE
 |
 JOF_LEFTASSOC
@@ -1062,7 +694,6 @@ eq
 1
 2
 1
-10
 JOF_BYTE
 |
 JOF_LEFTASSOC
@@ -1085,7 +716,6 @@ ne
 1
 2
 1
-10
 JOF_BYTE
 |
 JOF_LEFTASSOC
@@ -1107,7 +737,6 @@ lt
 1
 2
 1
-11
 JOF_BYTE
 |
 JOF_LEFTASSOC
@@ -1128,7 +757,6 @@ le
 1
 2
 1
-11
 JOF_BYTE
 |
 JOF_LEFTASSOC
@@ -1148,7 +776,6 @@ gt
 1
 2
 1
-11
 JOF_BYTE
 |
 JOF_LEFTASSOC
@@ -1169,7 +796,6 @@ ge
 1
 2
 1
-11
 JOF_BYTE
 |
 JOF_LEFTASSOC
@@ -1190,7 +816,6 @@ lsh
 1
 2
 1
-12
 JOF_BYTE
 |
 JOF_LEFTASSOC
@@ -1211,7 +836,6 @@ rsh
 1
 2
 1
-12
 JOF_BYTE
 |
 JOF_LEFTASSOC
@@ -1233,7 +857,6 @@ ursh
 1
 2
 1
-12
 JOF_BYTE
 |
 JOF_LEFTASSOC
@@ -1253,7 +876,6 @@ add
 1
 2
 1
-13
 JOF_BYTE
 |
 JOF_LEFTASSOC
@@ -1273,7 +895,6 @@ sub
 1
 2
 1
-13
 JOF_BYTE
 |
 JOF_LEFTASSOC
@@ -1293,7 +914,6 @@ mul
 1
 2
 1
-14
 JOF_BYTE
 |
 JOF_LEFTASSOC
@@ -1313,7 +933,6 @@ div
 1
 2
 1
-14
 JOF_BYTE
 |
 JOF_LEFTASSOC
@@ -1333,7 +952,6 @@ mod
 1
 2
 1
-14
 JOF_BYTE
 |
 JOF_LEFTASSOC
@@ -1353,7 +971,6 @@ not
 1
 1
 1
-15
 JOF_BYTE
 |
 JOF_ARITH
@@ -1373,7 +990,6 @@ bitnot
 1
 1
 1
-15
 JOF_BYTE
 |
 JOF_ARITH
@@ -1391,7 +1007,6 @@ neg
 1
 1
 1
-15
 JOF_BYTE
 |
 JOF_ARITH
@@ -1409,7 +1024,6 @@ pos
 1
 1
 1
-15
 JOF_BYTE
 |
 JOF_ARITH
@@ -1425,7 +1039,6 @@ NULL
 5
 0
 1
-15
 JOF_ATOM
 |
 JOF_NAME
@@ -1441,7 +1054,6 @@ NULL
 5
 1
 1
-15
 JOF_ATOM
 |
 JOF_PROP
@@ -1457,7 +1069,6 @@ NULL
 1
 2
 1
-15
 JOF_BYTE
 |
 JOF_ELEM
@@ -1471,7 +1082,6 @@ NULL
 1
 1
 1
-15
 JOF_BYTE
 |
 JOF_DETECTING
@@ -1485,7 +1095,6 @@ NULL
 1
 1
 1
-15
 JOF_BYTE
 )
 OPDEF
@@ -1497,7 +1106,6 @@ unused41
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -1513,7 +1121,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 OPDEF
@@ -1525,7 +1132,6 @@ unused43
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -1541,7 +1147,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 OPDEF
@@ -1553,7 +1158,6 @@ unused45
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -1569,7 +1173,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 OPDEF
@@ -1581,7 +1184,6 @@ unused47
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -1597,7 +1199,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 OPDEF
@@ -1609,7 +1210,6 @@ unused49
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -1625,7 +1225,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 OPDEF
@@ -1637,7 +1236,6 @@ unused51
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -1653,7 +1251,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 OPDEF
@@ -1667,7 +1264,6 @@ NULL
 5
 1
 1
-18
 JOF_ATOM
 |
 JOF_PROP
@@ -1687,7 +1283,6 @@ NULL
 5
 2
 1
-3
 JOF_ATOM
 |
 JOF_PROP
@@ -1709,7 +1304,6 @@ NULL
 1
 2
 1
-18
 JOF_BYTE
 |
 JOF_ELEM
@@ -1729,7 +1323,6 @@ NULL
 1
 3
 1
-3
 JOF_BYTE
 |
 JOF_ELEM
@@ -1749,7 +1342,6 @@ NULL
 5
 0
 1
-19
 JOF_ATOM
 |
 JOF_NAME
@@ -1768,7 +1360,6 @@ NULL
 -
 1
 1
-18
 JOF_UINT16
 |
 JOF_INVOKE
@@ -1786,7 +1377,6 @@ NULL
 5
 0
 1
-19
 JOF_ATOM
 |
 JOF_NAME
@@ -1804,7 +1394,6 @@ NULL
 5
 0
 1
-16
 JOF_DOUBLE
 )
 OPDEF
@@ -1818,7 +1407,6 @@ NULL
 5
 0
 1
-19
 JOF_ATOM
 )
 OPDEF
@@ -1834,7 +1422,6 @@ zero
 1
 0
 1
-16
 JOF_BYTE
 )
 OPDEF
@@ -1850,7 +1437,6 @@ one
 1
 0
 1
-16
 JOF_BYTE
 )
 OPDEF
@@ -1862,7 +1448,6 @@ js_null_str
 1
 0
 1
-19
 JOF_BYTE
 )
 OPDEF
@@ -1874,7 +1459,6 @@ js_this_str
 1
 0
 1
-19
 JOF_BYTE
 )
 OPDEF
@@ -1886,7 +1470,6 @@ js_false_str
 1
 0
 1
-19
 JOF_BYTE
 )
 OPDEF
@@ -1898,7 +1481,6 @@ js_true_str
 1
 0
 1
-19
 JOF_BYTE
 )
 OPDEF
@@ -1912,7 +1494,6 @@ NULL
 5
 1
 1
-5
 JOF_JUMP
 |
 JOF_DETECTING
@@ -1930,7 +1511,6 @@ NULL
 5
 1
 1
-6
 JOF_JUMP
 |
 JOF_DETECTING
@@ -1960,7 +1540,6 @@ NULL
 1
 1
 0
-0
 JOF_TABLESWITCH
 |
 JOF_DETECTING
@@ -1974,7 +1553,6 @@ unused71
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -2005,7 +1583,6 @@ stricteq
 1
 2
 1
-10
 JOF_BYTE
 |
 JOF_DETECTING
@@ -2029,7 +1606,6 @@ strictne
 1
 2
 1
-10
 JOF_BYTE
 |
 JOF_DETECTING
@@ -2095,7 +1671,6 @@ NULL
 1
 0
 0
-18
 JOF_BYTE
 )
 /
@@ -2215,7 +1790,6 @@ NULL
 2
 1
 1
-0
 JOF_UINT8
 )
 OPDEF
@@ -2229,7 +1803,6 @@ NULL
 1
 1
 2
-0
 JOF_BYTE
 )
 OPDEF
@@ -2247,7 +1820,6 @@ next
 1
 0
 1
-0
 JOF_BYTE
 )
 OPDEF
@@ -2260,7 +1832,6 @@ enditer
 NULL
 1
 1
-0
 0
 JOF_BYTE
 )
@@ -2276,7 +1847,6 @@ NULL
 -
 1
 1
-18
 JOF_UINT16
 |
 JOF_INVOKE
@@ -2303,7 +1873,6 @@ NULL
 5
 0
 1
-19
 JOF_OBJECT
 )
 /
@@ -2327,7 +1896,6 @@ NULL
 1
 1
 0
-2
 JOF_BYTE
 )
 /
@@ -2355,7 +1923,6 @@ NULL
 -
 1
 1
-17
 JOF_UINT16
 |
 JOF_INVOKE
@@ -2373,7 +1940,6 @@ NULL
 1
 3
 2
-3
 JOF_BYTE
 |
 JOF_ELEM
@@ -2407,7 +1973,6 @@ NULL
 3
 0
 1
-19
 JOF_QARG
 |
 JOF_NAME
@@ -2423,7 +1988,6 @@ NULL
 3
 1
 1
-3
 JOF_QARG
 |
 JOF_NAME
@@ -2441,7 +2005,6 @@ NULL
 3
 0
 1
-19
 JOF_LOCAL
 |
 JOF_NAME
@@ -2457,7 +2020,6 @@ NULL
 3
 1
 1
-3
 JOF_LOCAL
 |
 JOF_NAME
@@ -2489,7 +2051,6 @@ NULL
 3
 0
 1
-16
 JOF_UINT16
 )
 /
@@ -2593,7 +2154,6 @@ NULL
 5
 0
 1
-19
 JOF_UINT8
 |
 JOF_TYPESET
@@ -2609,7 +2169,6 @@ NULL
 4
 0
 1
-19
 JOF_UINT24
 |
 JOF_TYPESET
@@ -2625,7 +2184,6 @@ NULL
 5
 0
 1
-19
 JOF_OBJECT
 |
 JOF_TYPESET
@@ -2641,7 +2199,6 @@ NULL
 1
 0
 0
-19
 JOF_BYTE
 )
 OPDEF
@@ -2655,7 +2212,6 @@ NULL
 5
 2
 1
-3
 JOF_ATOM
 |
 JOF_PROP
@@ -2694,7 +2250,6 @@ NULL
 1
 3
 1
-3
 JOF_BYTE
 |
 JOF_ELEM
@@ -2725,7 +2280,6 @@ NULL
 1
 3
 2
-3
 JOF_BYTE
 |
 JOF_ELEM
@@ -2752,7 +2306,6 @@ NULL
 4
 2
 1
-3
 JOF_UINT24
 |
 JOF_ELEM
@@ -2807,7 +2360,6 @@ NULL
 5
 2
 1
-3
 JOF_ATOM
 |
 JOF_PROP
@@ -2827,7 +2379,6 @@ NULL
 5
 2
 1
-3
 JOF_ATOM
 |
 JOF_PROP
@@ -2847,7 +2398,6 @@ NULL
 1
 3
 1
-3
 JOF_BYTE
 |
 JOF_ELEM
@@ -2867,7 +2417,6 @@ NULL
 1
 3
 1
-3
 JOF_BYTE
 |
 JOF_ELEM
@@ -2887,7 +2436,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 OPDEF
@@ -2899,7 +2447,6 @@ unused102
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -2915,7 +2462,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 OPDEF
@@ -2927,7 +2473,6 @@ unused104
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -2967,7 +2512,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 /
@@ -3000,7 +2544,6 @@ NULL
 5
 0
 0
-0
 JOF_JUMP
 )
 /
@@ -3029,7 +2572,6 @@ unused107
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -3063,7 +2605,6 @@ NULL
 -
 1
 1
-18
 JOF_UINT16
 |
 JOF_INVOKE
@@ -3098,7 +2639,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 /
@@ -3122,7 +2662,6 @@ NULL
 5
 0
 1
-0
 JOF_ATOM
 |
 JOF_NAME
@@ -3140,7 +2679,6 @@ NULL
 5
 2
 1
-3
 JOF_ATOM
 |
 JOF_NAME
@@ -3166,7 +2704,6 @@ NULL
 1
 1
 0
-0
 JOF_BYTE
 )
 /
@@ -3191,7 +2728,6 @@ js_in_str
 1
 2
 1
-11
 JOF_BYTE
 |
 JOF_LEFTASSOC
@@ -3205,7 +2741,6 @@ js_instanceof_str
 1
 2
 1
-11
 JOF_BYTE
 |
 JOF_LEFTASSOC
@@ -3227,7 +2762,6 @@ debugger
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -3253,7 +2787,6 @@ NULL
 5
 0
 0
-0
 JOF_JUMP
 )
 OPDEF
@@ -3266,7 +2799,6 @@ retsub
 NULL
 1
 2
-0
 0
 JOF_BYTE
 )
@@ -3290,7 +2822,6 @@ NULL
 1
 0
 1
-0
 JOF_BYTE
 )
 /
@@ -3316,7 +2847,6 @@ lineno
 "
 NULL
 3
-0
 0
 0
 JOF_UINT16
@@ -3376,7 +2906,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 OPDEF
@@ -3390,7 +2919,6 @@ NULL
 5
 2
 1
-0
 JOF_JUMP
 )
 OPDEF
@@ -3403,7 +2931,6 @@ default
 NULL
 5
 1
-0
 0
 JOF_JUMP
 )
@@ -3431,7 +2958,6 @@ NULL
 -
 1
 1
-18
 JOF_UINT16
 |
 JOF_INVOKE
@@ -3472,13 +2998,47 @@ NULL
 1
 3
 0
-3
 JOF_BYTE
 |
 JOF_SET
 |
 JOF_TMPSLOT
 )
+/
+*
+*
+Getter
+and
+setter
+prefix
+bytecodes
+.
+These
+modify
+the
+next
+bytecode
+either
+*
+an
+assignment
+or
+a
+property
+initializer
+code
+which
+then
+defines
+a
+property
+*
+getter
+or
+setter
+.
+*
+/
 OPDEF
 (
 JSOP_UNUSED125
@@ -3488,7 +3048,6 @@ unused125
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -3502,7 +3061,6 @@ unused126
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -3533,7 +3091,6 @@ NULL
 5
 0
 0
-0
 JOF_OBJECT
 )
 OPDEF
@@ -3547,7 +3104,6 @@ NULL
 5
 0
 0
-0
 JOF_ATOM
 )
 OPDEF
@@ -3559,7 +3115,6 @@ defvar
 "
 NULL
 5
-0
 0
 0
 JOF_ATOM
@@ -3590,7 +3145,6 @@ NULL
 5
 0
 1
-19
 JOF_OBJECT
 )
 /
@@ -3619,7 +3173,6 @@ NULL
 1
 0
 1
-19
 JOF_BYTE
 )
 OPDEF
@@ -3631,7 +3184,6 @@ unused132
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -3656,7 +3208,6 @@ pick
 "
 NULL
 2
-0
 0
 0
 JOF_UINT8
@@ -3704,7 +3255,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 OPDEF
@@ -3718,7 +3268,6 @@ NULL
 1
 0
 2
-0
 JOF_BYTE
 )
 /
@@ -3883,7 +3432,6 @@ NULL
 9
 0
 1
-19
 JOF_SCOPECOORD
 |
 JOF_NAME
@@ -3901,7 +3449,6 @@ NULL
 9
 0
 1
-19
 JOF_SCOPECOORD
 |
 JOF_NAME
@@ -3919,7 +3466,6 @@ NULL
 9
 1
 1
-3
 JOF_SCOPECOORD
 |
 JOF_NAME
@@ -3939,7 +3485,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 OPDEF
@@ -3951,7 +3496,6 @@ unused140
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -3967,7 +3511,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 OPDEF
@@ -3979,7 +3522,6 @@ unused142
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -4054,7 +3596,6 @@ NULL
 5
 0
 1
-19
 JOF_ATOM
 |
 JOF_NAME
@@ -4072,7 +3613,6 @@ NULL
 5
 0
 1
-19
 JOF_ATOM
 |
 JOF_NAME
@@ -4090,7 +3630,6 @@ NULL
 5
 2
 1
-3
 JOF_ATOM
 |
 JOF_NAME
@@ -4110,7 +3649,6 @@ NULL
 5
 0
 1
-0
 JOF_ATOM
 |
 JOF_NAME
@@ -4134,7 +3672,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 OPDEF
@@ -4146,7 +3683,6 @@ unused148
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -4178,7 +3714,6 @@ NULL
 5
 0
 0
-0
 JOF_JUMP
 )
 OPDEF
@@ -4190,7 +3725,6 @@ unused150
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -4219,7 +3753,6 @@ throwing
 NULL
 1
 1
-0
 0
 JOF_BYTE
 )
@@ -4250,7 +3783,6 @@ NULL
 1
 1
 0
-2
 JOF_BYTE
 )
 OPDEF
@@ -4262,7 +3794,6 @@ retrval
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -4296,7 +3827,6 @@ NULL
 5
 0
 1
-19
 JOF_ATOM
 |
 JOF_NAME
@@ -4316,7 +3846,6 @@ NULL
 5
 2
 1
-3
 JOF_ATOM
 |
 JOF_NAME
@@ -4338,7 +3867,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 OPDEF
@@ -4350,7 +3878,6 @@ unused157
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -4366,7 +3893,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 OPDEF
@@ -4378,7 +3904,6 @@ unused159
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -4410,7 +3935,6 @@ NULL
 5
 0
 1
-19
 JOF_REGEXP
 )
 OPDEF
@@ -4422,7 +3946,6 @@ unused161
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -4438,7 +3961,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 OPDEF
@@ -4450,7 +3972,6 @@ unused163
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -4466,7 +3987,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 OPDEF
@@ -4478,7 +3998,6 @@ unused165
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -4494,7 +4013,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 OPDEF
@@ -4506,7 +4024,6 @@ unused167
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -4522,7 +4039,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 OPDEF
@@ -4534,7 +4050,6 @@ unused169
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -4550,7 +4065,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 OPDEF
@@ -4562,7 +4076,6 @@ unused171
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -4578,7 +4091,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 OPDEF
@@ -4590,7 +4102,6 @@ unused173
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -4606,7 +4117,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 OPDEF
@@ -4618,7 +4128,6 @@ unused175
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -4634,7 +4143,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 OPDEF
@@ -4646,7 +4154,6 @@ unused177
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -4662,7 +4169,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 OPDEF
@@ -4674,7 +4180,6 @@ unused179
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -4690,7 +4195,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 OPDEF
@@ -4702,7 +4206,6 @@ unused181
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -4718,7 +4221,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 OPDEF
@@ -4730,7 +4232,6 @@ unused183
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -4746,7 +4247,6 @@ NULL
 5
 1
 1
-18
 JOF_ATOM
 |
 JOF_PROP
@@ -4788,7 +4288,6 @@ NULL
 1
 -
 1
-0
 JOF_OBJECT
 )
 /
@@ -4825,7 +4324,6 @@ NULL
 1
 -
 1
-0
 JOF_OBJECT
 )
 /
@@ -4854,7 +4352,6 @@ NULL
 4
 0
 1
-16
 JOF_UINT24
 )
 OPDEF
@@ -4866,7 +4363,6 @@ unused188
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -4882,7 +4378,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 OPDEF
@@ -4894,7 +4389,6 @@ unused190
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -4910,7 +4404,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 OPDEF
@@ -4922,7 +4415,6 @@ unused192
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -4938,7 +4430,6 @@ NULL
 1
 2
 1
-18
 JOF_BYTE
 |
 JOF_ELEM
@@ -4991,7 +4482,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 /
@@ -5026,7 +4516,6 @@ NULL
 5
 1
 1
-18
 JOF_ATOM
 |
 JOF_PROP
@@ -5042,7 +4531,6 @@ unused196
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -5076,7 +4564,6 @@ NULL
 1
 1
 1
-15
 JOF_BYTE
 |
 JOF_DETECTING
@@ -5104,7 +4591,6 @@ NULL
 0
 -
 1
-0
 JOF_OBJECT
 )
 OPDEF
@@ -5119,7 +4605,6 @@ NULL
 -
 1
 0
-0
 JOF_UINT16
 )
 OPDEF
@@ -5133,7 +4618,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 OPDEF
@@ -5145,7 +4629,6 @@ unused201
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -5172,7 +4655,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 OPDEF
@@ -5183,7 +4665,6 @@ JSOP_YIELD
 yield
 "
 NULL
-1
 1
 1
 1
@@ -5200,7 +4681,6 @@ NULL
 3
 1
 0
-3
 JOF_LOCAL
 )
 /
@@ -5233,7 +4713,6 @@ NULL
 1
 0
 1
-19
 JOF_BYTE
 )
 /
@@ -5270,7 +4749,6 @@ NULL
 1
 3
 0
-3
 JOF_BYTE
 |
 JOF_SET
@@ -5315,7 +4793,6 @@ NULL
 -
 1
 1
-3
 JOF_UINT16
 )
 OPDEF
@@ -5327,7 +4804,6 @@ unused208
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -5343,7 +4819,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 OPDEF
@@ -5355,7 +4830,6 @@ unused210
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -5371,7 +4845,6 @@ NULL
 5
 0
 1
-19
 JOF_ATOM
 |
 JOF_NAME
@@ -5391,7 +4864,6 @@ NULL
 3
 0
 1
-19
 JOF_LOCAL
 |
 JOF_NAME
@@ -5407,7 +4879,6 @@ NULL
 3
 0
 1
-19
 JOF_QARG
 |
 JOF_NAME
@@ -5423,7 +4894,6 @@ NULL
 5
 0
 1
-0
 JOF_ATOM
 |
 JOF_NAME
@@ -5462,7 +4932,6 @@ NULL
 2
 0
 1
-16
 JOF_INT8
 )
 OPDEF
@@ -5476,7 +4945,6 @@ NULL
 5
 0
 1
-16
 JOF_INT32
 )
 /
@@ -5509,7 +4977,6 @@ NULL
 5
 1
 1
-18
 JOF_ATOM
 |
 JOF_PROP
@@ -5575,7 +5042,6 @@ NULL
 1
 0
 1
-0
 JOF_BYTE
 )
 OPDEF
@@ -5587,7 +5053,6 @@ unused219
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -5603,7 +5068,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 OPDEF
@@ -5615,7 +5079,6 @@ unused221
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -5631,7 +5094,6 @@ NULL
 1
 0
 0
-0
 JOF_BYTE
 )
 OPDEF
@@ -5643,7 +5105,6 @@ unused223
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE
@@ -5659,7 +5120,6 @@ NULL
 1
 0
 1
-0
 JOF_BYTE
 |
 JOF_TYPESET
@@ -5695,7 +5155,6 @@ NULL
 1
 1
 1
-0
 JOF_BYTE
 )
 /
@@ -5728,7 +5187,6 @@ implicitthis
 5
 0
 1
-0
 JOF_ATOM
 )
 /
@@ -5790,7 +5248,6 @@ NULL
 2
 0
 0
-0
 JOF_UINT8
 )
 /
@@ -5819,7 +5276,6 @@ notearg
 "
 NULL
 1
-0
 0
 0
 JOF_BYTE

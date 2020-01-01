@@ -47,7 +47,6 @@ token
 length
 nuses
 ndefs
-prec
 format
 )
 \
@@ -1511,9 +1510,6 @@ nuses
 ;
 int8_t
 ndefs
-;
-uint8_t
-prec
 ;
 uint32_t
 format
