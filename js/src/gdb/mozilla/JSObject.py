@@ -8,6 +8,8 @@ import
 mozilla
 .
 prettyprinters
+as
+prettyprinters
 from
 mozilla
 .
@@ -20,8 +22,6 @@ mozilla
 Root
 import
 deref
-mozilla
-.
 prettyprinters
 .
 clear_module_printers
@@ -65,8 +65,11 @@ self
 .
 flag_DELEGATE
 =
+prettyprinters
+.
+enum_value
+(
 baseshape_flags
-[
 '
 js
 :
@@ -76,9 +79,7 @@ BaseShape
 :
 DELEGATE
 '
-]
-.
-bitpos
+)
         
 self
 .
@@ -105,8 +106,6 @@ JSObject
 class
 JSObjectPtr
 (
-mozilla
-.
 prettyprinters
 .
 Pointer
