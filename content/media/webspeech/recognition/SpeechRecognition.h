@@ -143,7 +143,11 @@ h
 #
 include
 "
-nsIDOMSpeechRecognitionError
+mozilla
+/
+dom
+/
+SpeechRecognitionError
 .
 h
 "
@@ -546,7 +550,7 @@ DispatchError
 (
 EventType
 aErrorType
-int
+SpeechRecognitionErrorCode
 aErrorCode
 const
 nsAString
@@ -1124,9 +1128,9 @@ SpeechRecognitionResultList
 >
 mRecognitionResultList
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIDOMSpeechRecognitionError
+SpeechRecognitionError
 >
 mError
 ;

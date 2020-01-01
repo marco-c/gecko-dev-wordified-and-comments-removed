@@ -142,6 +142,11 @@ dom
 =
 [
 '
+SpeechRecognitionError
+.
+h
+'
+'
 Touch
 .
 h
@@ -343,6 +348,11 @@ cpp
 '
 '
 nsPrivateTextRange
+.
+cpp
+'
+'
+SpeechRecognitionError
 .
 cpp
 '

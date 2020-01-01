@@ -249,9 +249,6 @@ MOZ_WEBSPEECH
 '
 SpeechRecognitionEvent
 '
-'
-SpeechRecognitionError
-'
 #
 endif
 ]

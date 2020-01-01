@@ -75,11 +75,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIDOMSpeechRecognitionError
-.
-idl
-'
-'
 nsIDOMSpeechRecognitionEvent
 .
 idl
