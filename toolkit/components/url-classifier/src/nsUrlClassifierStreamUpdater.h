@@ -67,13 +67,6 @@ nsISSLErrorListener
 .
 h
 "
-#
-include
-"
-nsITimer
-.
-h
-"
 class
 nsIURI
 ;
@@ -94,8 +87,6 @@ public
 nsISSLErrorListener
 public
 nsIInterfaceRequestor
-public
-nsITimerCallback
 {
 public
 :
@@ -112,7 +103,6 @@ NS_DECL_NSISTREAMLISTENER
 NS_DECL_NSIBADCERTLISTENER2
 NS_DECL_NSISSLERRORLISTENER
 NS_DECL_NSIOBSERVER
-NS_DECL_NSITIMERCALLBACK
 private
 :
 ~
@@ -182,11 +172,6 @@ nsACString
 aServerMAC
 )
 ;
-nsresult
-FetchNext
-(
-)
-;
 PRBool
 mIsUpdating
 ;
@@ -222,12 +207,6 @@ nsCOMPtr
 nsIUrlClassifierDBService
 >
 mDBService
-;
-nsCOMPtr
-<
-nsITimer
->
-mTimer
 ;
 struct
 PendingUpdate
