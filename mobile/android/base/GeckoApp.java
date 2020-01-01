@@ -9395,7 +9395,8 @@ mLayerView
 null
 )
 {
-mLayerView
+LayerView
+layerView
 =
 (
 LayerView
@@ -9409,7 +9410,7 @@ id
 layer_view
 )
 ;
-mLayerView
+layerView
 .
 createLayerClient
 (
@@ -9419,6 +9420,10 @@ getEventDispatcher
 (
 )
 )
+;
+mLayerView
+=
+layerView
 ;
 }
 mPluginContainer
