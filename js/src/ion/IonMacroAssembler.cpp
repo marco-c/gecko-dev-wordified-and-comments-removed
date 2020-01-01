@@ -3040,7 +3040,10 @@ shouldConvertDoubleElements
 (
 )
 ?
-1
+ObjectElements
+:
+:
+CONVERT_DOUBLE_ELEMENTS
 :
 0
 )
@@ -3052,7 +3055,7 @@ elementsOffset
 ObjectElements
 :
 :
-offsetOfConvertDoubleElements
+offsetOfFlags
 (
 )
 )
