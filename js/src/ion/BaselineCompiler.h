@@ -589,6 +589,11 @@ JSOP_TOID
 \
 _
 (
+JSOP_TABLESWITCH
+)
+\
+_
+(
 JSOP_POPV
 )
 \
