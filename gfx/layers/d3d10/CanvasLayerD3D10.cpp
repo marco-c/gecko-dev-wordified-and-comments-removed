@@ -678,7 +678,7 @@ MakeCurrent
 mGLContext
 -
 >
-fFinish
+GuaranteeResolve
 (
 )
 ;
