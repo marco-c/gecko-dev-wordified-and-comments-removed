@@ -249,6 +249,10 @@ test_channelSplitterNodeWithVolume
 .
 html
 \
+test_convolverNode
+.
+html
+\
 test_currentTime
 .
 html
