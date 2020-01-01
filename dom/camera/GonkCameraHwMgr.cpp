@@ -1043,6 +1043,14 @@ clear
 ;
 if
 (
+mClosing
+)
+{
+return
+;
+}
+if
+(
 mTarget
 )
 {
