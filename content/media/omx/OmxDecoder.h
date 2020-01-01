@@ -1,7 +1,9 @@
 #
 include
 <
-OMX
+stagefright
+/
+DataSource
 .
 h
 >
@@ -11,15 +13,6 @@ include
 stagefright
 /
 MediaSource
-.
-h
->
-#
-include
-<
-stagefright
-/
-DataSource
 .
 h
 >
