@@ -8944,6 +8944,13 @@ broadcastAnnouncementsPref
 context
 )
 ;
+GeckoPreferences
+.
+broadcastHealthReportUploadPref
+(
+context
+)
+;
 if
 (
 !

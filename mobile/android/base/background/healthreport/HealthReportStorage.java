@@ -629,6 +629,13 @@ int
 field
 )
 ;
+boolean
+hasEventSince
+(
+long
+time
+)
+;
 public
 Cursor
 getRawEventsSince
