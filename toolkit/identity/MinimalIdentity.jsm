@@ -435,10 +435,7 @@ loggedInUser
 :
 aRpCaller
 .
-loggedInEmail
-|
-|
-null
+loggedInUser
 }
 ;
 log

@@ -129,6 +129,10 @@ NULL
 EXTRA_JS_MODULES
 =
 \
+IdentityUtils
+.
+jsm
+\
 Identity
 .
 jsm

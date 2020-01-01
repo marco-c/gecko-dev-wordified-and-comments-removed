@@ -684,7 +684,7 @@ let
 rpLoginOptions
 =
 {
-loggedInEmail
+loggedInUser
 :
 aIdentity
 origin

@@ -484,7 +484,7 @@ RPWatchContext
 (
 aID
 aOrigin
-aLoggedInEmail
+aLoggedInUser
 aTargetMM
 )
 {
@@ -502,9 +502,9 @@ aOrigin
 ;
 this
 .
-_loggedInEmail
+_loggedInUser
 =
-aLoggedInEmail
+aLoggedInUser
 ;
 this
 .
@@ -533,12 +533,12 @@ this
 .
 _origin
 get
-loggedInEmail
+loggedInUser
 (
 )
 this
 .
-_loggedInEmail
+_loggedInUser
 doLogin
 :
 function
@@ -1269,7 +1269,7 @@ message
 origin
 message
 .
-loggedInEmail
+loggedInUser
 targetMM
 )
 ;
