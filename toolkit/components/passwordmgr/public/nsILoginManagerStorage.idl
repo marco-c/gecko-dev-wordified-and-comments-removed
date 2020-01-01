@@ -977,7 +977,7 @@ logins
 =
 pwmgr
 .
-getDisabledAllLogins
+getAllDisabledHosts
 (
 {
 }
