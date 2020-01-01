@@ -367,7 +367,7 @@ reset_clip
 ;
 #
 if
-CAIRO_HAS_XLIB_XRENDER_SURFACE
+1
 #
 include
 "
