@@ -82,6 +82,9 @@ IDBObjectStoreRequest
 >
 mObjectStore
 ;
+PRInt64
+mId
+;
 nsString
 mName
 ;

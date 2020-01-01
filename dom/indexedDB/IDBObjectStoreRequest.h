@@ -749,6 +749,15 @@ Key
 aKey
 )
 ;
+static
+nsresult
+GetJSONFromArg0
+(
+nsAString
+&
+aJSON
+)
+;
 bool
 TransactionIsOpen
 (
