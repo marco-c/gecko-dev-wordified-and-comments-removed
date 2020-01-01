@@ -5374,3 +5374,17 @@ label
 Sync
 "
 >
+<
+!
+ENTITY
+addonBarCloseButton
+.
+tooltip
+"
+Close
+Add
+-
+on
+Bar
+"
+>

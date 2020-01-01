@@ -1254,6 +1254,10 @@ browser_contentAreaClick
 .
 js
 \
+browser_addon_bar_close_button
+.
+js
+\
 (
 NULL
 )
