@@ -2326,15 +2326,6 @@ nscoord
 aMaxAscent
 )
 {
-const
-nsStyleTextReset
-*
-textStyle
-=
-GetStyleTextReset
-(
-)
-;
 nsMargin
 borderPadding
 =
