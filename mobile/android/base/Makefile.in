@@ -313,6 +313,10 @@ FlowLayout
 .
 java
 \
+FontSizePreference
+.
+java
+\
 FormAssistPopup
 .
 java
