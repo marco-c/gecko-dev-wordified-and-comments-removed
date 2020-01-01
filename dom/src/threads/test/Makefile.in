@@ -471,6 +471,14 @@ errorPropagation_worker2
 .
 js
 \
+test_functionHandlers
+.
+html
+\
+functionHandlers_worker
+.
+js
+\
 test_importScripts
 .
 html
