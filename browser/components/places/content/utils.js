@@ -7788,6 +7788,18 @@ true
 "
 )
 ;
+else
+if
+(
+aNode
+.
+itemId
+!
+=
+-
+1
+)
+{
 if
 (
 this
@@ -7828,7 +7840,6 @@ this
 .
 tagsFolderId
 )
-{
 element
 .
 setAttribute
