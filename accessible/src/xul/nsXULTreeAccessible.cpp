@@ -2122,9 +2122,9 @@ QueryAccessible
 accessNode
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIAccessibleEvent
+nsAccEvent
 >
 event
 =
@@ -2139,7 +2139,10 @@ accessible
 PR_FALSE
 )
 ;
-FireAccessibleEvent
+nsEventShell
+:
+:
+FireEvent
 (
 event
 )

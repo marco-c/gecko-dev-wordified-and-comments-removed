@@ -7,7 +7,7 @@ _nsEventShell_H_
 #
 include
 "
-nsIAccessible
+nsAccEvent
 .
 h
 "
@@ -16,6 +16,15 @@ nsEventShell
 {
 public
 :
+static
+void
+FireEvent
+(
+nsAccEvent
+*
+aEvent
+)
+;
 static
 void
 FireEvent

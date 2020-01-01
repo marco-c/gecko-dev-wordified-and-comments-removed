@@ -4693,9 +4693,9 @@ true
 "
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsIAccessibleEvent
+nsAccEvent
 >
 accEvent
 =
@@ -4711,11 +4711,10 @@ PR_FALSE
 isEnabled
 )
 ;
-if
-(
-accEvent
-)
-FireAccessibleEvent
+nsEventShell
+:
+:
+FireEvent
 (
 accEvent
 )
