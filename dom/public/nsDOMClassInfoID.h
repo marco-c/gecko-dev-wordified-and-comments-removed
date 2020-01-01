@@ -280,6 +280,7 @@ MOZ_ENABLE_CANVAS
 eDOMClassInfo_CanvasRenderingContext2D_id
 eDOMClassInfo_CanvasGradient_id
 eDOMClassInfo_CanvasPattern_id
+eDOMClassInfo_TextMetrics_id
 #
 endif
 eDOMClassInfo_SmartCardEvent_id
