@@ -135,11 +135,11 @@ nsXULTextAccessible
 .
 cpp
 \
-nsXULTreeAccessible
+XULTreeAccessible
 .
 cpp
 \
-nsXULTreeGridAccessible
+XULTreeGridAccessible
 .
 cpp
 \

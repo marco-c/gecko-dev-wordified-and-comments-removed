@@ -1,7 +1,7 @@
 #
 include
 "
-nsXULTreeGridAccessibleWrap
+XULTreeGridAccessibleWrap
 .
 h
 "
@@ -82,10 +82,10 @@ mozilla
 :
 a11y
 ;
-nsXULTreeGridAccessible
+XULTreeGridAccessible
 :
 :
-nsXULTreeGridAccessible
+XULTreeGridAccessible
 (
 nsIContent
 *
@@ -95,7 +95,7 @@ DocAccessible
 aDoc
 )
 :
-nsXULTreeAccessible
+XULTreeAccessible
 (
 aContent
 aDoc
@@ -108,12 +108,12 @@ this
 }
 NS_IMPL_ISUPPORTS_INHERITED1
 (
-nsXULTreeGridAccessible
-nsXULTreeAccessible
+XULTreeGridAccessible
+XULTreeAccessible
 nsIAccessibleTable
 )
 PRUint32
-nsXULTreeGridAccessible
+XULTreeGridAccessible
 :
 :
 ColCount
@@ -131,7 +131,7 @@ mTree
 ;
 }
 PRUint32
-nsXULTreeGridAccessible
+XULTreeGridAccessible
 :
 :
 RowCount
@@ -172,7 +172,7 @@ rowCount
 ;
 }
 NS_IMETHODIMP
-nsXULTreeGridAccessible
+XULTreeGridAccessible
 :
 :
 GetSelectedCellCount
@@ -243,7 +243,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULTreeGridAccessible
+XULTreeGridAccessible
 :
 :
 GetSelectedColumnCount
@@ -349,7 +349,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULTreeGridAccessible
+XULTreeGridAccessible
 :
 :
 GetSelectedRowCount
@@ -408,7 +408,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULTreeGridAccessible
+XULTreeGridAccessible
 :
 :
 GetSelectedCells
@@ -628,7 +628,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULTreeGridAccessible
+XULTreeGridAccessible
 :
 :
 GetSelectedCellIndices
@@ -872,7 +872,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULTreeGridAccessible
+XULTreeGridAccessible
 :
 :
 GetSelectedColumnIndices
@@ -1050,7 +1050,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULTreeGridAccessible
+XULTreeGridAccessible
 :
 :
 GetSelectedRowIndices
@@ -1257,7 +1257,7 @@ NS_OK
 }
 Accessible
 *
-nsXULTreeGridAccessible
+XULTreeGridAccessible
 :
 :
 CellAt
@@ -1310,7 +1310,7 @@ nsnull
 ;
 nsRefPtr
 <
-nsXULTreeItemAccessibleBase
+XULTreeItemAccessibleBase
 >
 rowAcc
 =
@@ -1338,7 +1338,7 @@ column
 ;
 }
 NS_IMETHODIMP
-nsXULTreeGridAccessible
+XULTreeGridAccessible
 :
 :
 GetColumnIndexAt
@@ -1393,7 +1393,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULTreeGridAccessible
+XULTreeGridAccessible
 :
 :
 GetRowIndexAt
@@ -1446,7 +1446,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULTreeGridAccessible
+XULTreeGridAccessible
 :
 :
 GetRowAndColumnIndicesAt
@@ -1531,7 +1531,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULTreeGridAccessible
+XULTreeGridAccessible
 :
 :
 GetColumnDescription
@@ -1617,7 +1617,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULTreeGridAccessible
+XULTreeGridAccessible
 :
 :
 GetRowDescription
@@ -1640,7 +1640,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULTreeGridAccessible
+XULTreeGridAccessible
 :
 :
 IsColumnSelected
@@ -1723,7 +1723,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULTreeGridAccessible
+XULTreeGridAccessible
 :
 :
 IsRowSelected
@@ -1800,7 +1800,7 @@ aIsSelected
 ;
 }
 NS_IMETHODIMP
-nsXULTreeGridAccessible
+XULTreeGridAccessible
 :
 :
 IsCellSelected
@@ -1823,7 +1823,7 @@ aIsSelected
 ;
 }
 NS_IMETHODIMP
-nsXULTreeGridAccessible
+XULTreeGridAccessible
 :
 :
 SelectRow
@@ -1873,7 +1873,7 @@ aRowIndex
 ;
 }
 NS_IMETHODIMP
-nsXULTreeGridAccessible
+XULTreeGridAccessible
 :
 :
 SelectColumn
@@ -1887,7 +1887,7 @@ NS_OK
 ;
 }
 void
-nsXULTreeGridAccessible
+XULTreeGridAccessible
 :
 :
 UnselectRow
@@ -1935,7 +1935,7 @@ aRowIdx
 ;
 }
 void
-nsXULTreeGridAccessible
+XULTreeGridAccessible
 :
 :
 Shutdown
@@ -1946,7 +1946,7 @@ mTable
 =
 nsnull
 ;
-nsXULTreeAccessible
+XULTreeAccessible
 :
 :
 Shutdown
@@ -1955,7 +1955,7 @@ Shutdown
 ;
 }
 role
-nsXULTreeGridAccessible
+XULTreeGridAccessible
 :
 :
 NativeRole
@@ -2039,7 +2039,7 @@ already_AddRefed
 <
 Accessible
 >
-nsXULTreeGridAccessible
+XULTreeGridAccessible
 :
 :
 CreateTreeItemAccessible
@@ -2055,7 +2055,7 @@ Accessible
 accessible
 =
 new
-nsXULTreeGridRowAccessible
+XULTreeGridRowAccessible
 (
 mContent
 mDoc
@@ -2073,10 +2073,10 @@ forget
 )
 ;
 }
-nsXULTreeGridRowAccessible
+XULTreeGridRowAccessible
 :
 :
-nsXULTreeGridRowAccessible
+XULTreeGridRowAccessible
 (
 nsIContent
 *
@@ -2097,7 +2097,7 @@ PRInt32
 aRow
 )
 :
-nsXULTreeItemAccessibleBase
+XULTreeItemAccessibleBase
 (
 aContent
 aDoc
@@ -2117,12 +2117,12 @@ kDefaultTreeCacheSize
 }
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
-nsXULTreeGridRowAccessible
+XULTreeGridRowAccessible
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
-nsXULTreeGridRowAccessible
-nsXULTreeItemAccessibleBase
+XULTreeGridRowAccessible
+XULTreeItemAccessibleBase
 )
 CycleCollectorTraverseCache
 (
@@ -2137,8 +2137,8 @@ cb
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
-nsXULTreeGridRowAccessible
-nsXULTreeItemAccessibleBase
+XULTreeGridRowAccessible
+XULTreeItemAccessibleBase
 )
 ClearCache
 (
@@ -2151,28 +2151,28 @@ mAccessibleCache
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION_INHERITED
 (
-nsXULTreeGridRowAccessible
+XULTreeGridRowAccessible
 )
 NS_INTERFACE_MAP_STATIC_AMBIGUOUS
 (
-nsXULTreeGridRowAccessible
+XULTreeGridRowAccessible
 )
 NS_INTERFACE_MAP_END_INHERITING
 (
-nsXULTreeItemAccessibleBase
+XULTreeItemAccessibleBase
 )
 NS_IMPL_ADDREF_INHERITED
 (
-nsXULTreeGridRowAccessible
-nsXULTreeItemAccessibleBase
+XULTreeGridRowAccessible
+XULTreeItemAccessibleBase
 )
 NS_IMPL_RELEASE_INHERITED
 (
-nsXULTreeGridRowAccessible
-nsXULTreeItemAccessibleBase
+XULTreeGridRowAccessible
+XULTreeItemAccessibleBase
 )
 void
-nsXULTreeGridRowAccessible
+XULTreeGridRowAccessible
 :
 :
 Shutdown
@@ -2184,7 +2184,7 @@ ClearCache
 mAccessibleCache
 )
 ;
-nsXULTreeItemAccessibleBase
+XULTreeItemAccessibleBase
 :
 :
 Shutdown
@@ -2193,7 +2193,7 @@ Shutdown
 ;
 }
 role
-nsXULTreeGridRowAccessible
+XULTreeGridRowAccessible
 :
 :
 NativeRole
@@ -2208,7 +2208,7 @@ ROW
 ;
 }
 ENameValueFlag
-nsXULTreeGridRowAccessible
+XULTreeGridRowAccessible
 :
 :
 Name
@@ -2293,7 +2293,7 @@ eNameOK
 }
 Accessible
 *
-nsXULTreeGridRowAccessible
+XULTreeGridRowAccessible
 :
 :
 ChildAtPoint
@@ -2455,7 +2455,7 @@ column
 }
 Accessible
 *
-nsXULTreeGridRowAccessible
+XULTreeGridRowAccessible
 :
 :
 GetChildAt
@@ -2504,7 +2504,7 @@ column
 ;
 }
 PRUint32
-nsXULTreeGridRowAccessible
+XULTreeGridRowAccessible
 :
 :
 ChildCount
@@ -2524,7 +2524,7 @@ mTree
 }
 Accessible
 *
-nsXULTreeGridRowAccessible
+XULTreeGridRowAccessible
 :
 :
 GetCellAccessible
@@ -2583,7 +2583,7 @@ Accessible
 cell
 =
 new
-nsXULTreeGridCellAccessibleWrap
+XULTreeGridCellAccessibleWrap
 (
 mContent
 mDoc
@@ -2636,7 +2636,7 @@ nsnull
 ;
 }
 void
-nsXULTreeGridRowAccessible
+XULTreeGridRowAccessible
 :
 :
 RowInvalidated
@@ -2737,7 +2737,7 @@ cellAccessible
 {
 nsRefPtr
 <
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 >
 cellAcc
 =
@@ -2758,7 +2758,7 @@ CellInvalidated
 }
 }
 void
-nsXULTreeGridRowAccessible
+XULTreeGridRowAccessible
 :
 :
 CacheChildren
@@ -2766,10 +2766,10 @@ CacheChildren
 )
 {
 }
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 :
 :
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 (
 nsIContent
 *
@@ -2777,7 +2777,7 @@ aContent
 DocAccessible
 *
 aDoc
-nsXULTreeGridRowAccessible
+XULTreeGridRowAccessible
 *
 aRowAcc
 nsITreeBoxObject
@@ -2822,11 +2822,11 @@ aRowAcc
 }
 NS_IMPL_CYCLE_COLLECTION_CLASS
 (
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_BEGIN_INHERITED
 (
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 LeafAccessible
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_NSCOMPTR
@@ -2840,7 +2840,7 @@ mColumn
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE_END
 NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN_INHERITED
 (
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 LeafAccessible
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR
@@ -2854,13 +2854,13 @@ mColumn
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
 NS_INTERFACE_TABLE_HEAD_CYCLE_COLLECTION_INHERITED
 (
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 )
 NS_INTERFACE_TABLE_INHERITED2
 (
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 nsIAccessibleTableCell
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 )
 NS_INTERFACE_TABLE_TAIL_INHERITING
 (
@@ -2868,17 +2868,17 @@ LeafAccessible
 )
 NS_IMPL_ADDREF_INHERITED
 (
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 LeafAccessible
 )
 NS_IMPL_RELEASE_INHERITED
 (
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 LeafAccessible
 )
 Accessible
 *
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 :
 :
 FocusedChild
@@ -2890,7 +2890,7 @@ nsnull
 ;
 }
 ENameValueFlag
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 :
 :
 Name
@@ -2947,7 +2947,7 @@ eNameOK
 ;
 }
 NS_IMETHODIMP
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 :
 :
 GetBounds
@@ -3176,7 +3176,7 @@ NS_OK
 ;
 }
 PRUint8
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 :
 :
 ActionCount
@@ -3239,7 +3239,7 @@ return
 ;
 }
 NS_IMETHODIMP
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 :
 :
 GetActionName
@@ -3392,7 +3392,7 @@ NS_ERROR_INVALID_ARG
 ;
 }
 NS_IMETHODIMP
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 :
 :
 DoAction
@@ -3488,7 +3488,7 @@ NS_ERROR_INVALID_ARG
 ;
 }
 NS_IMETHODIMP
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 :
 :
 GetTable
@@ -3544,7 +3544,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 :
 :
 GetColumnIndex
@@ -3586,7 +3586,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 :
 :
 GetRowIndex
@@ -3626,7 +3626,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 :
 :
 GetColumnExtent
@@ -3651,7 +3651,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 :
 :
 GetRowExtent
@@ -3676,7 +3676,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 :
 :
 GetColumnHeaderCells
@@ -3808,7 +3808,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 :
 :
 GetRowHeaderCells
@@ -3875,7 +3875,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 :
 :
 IsSelected
@@ -3946,7 +3946,7 @@ aIsSelected
 ;
 }
 bool
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 :
 :
 Init
@@ -4018,7 +4018,7 @@ true
 ;
 }
 bool
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 :
 :
 IsPrimaryForNode
@@ -4031,7 +4031,7 @@ false
 ;
 }
 nsresult
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 :
 :
 GetAttributesInternal
@@ -4190,7 +4190,7 @@ NS_OK
 ;
 }
 role
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 :
 :
 NativeRole
@@ -4205,7 +4205,7 @@ GRID_CELL
 ;
 }
 PRUint64
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 :
 :
 NativeState
@@ -4350,7 +4350,7 @@ states
 ;
 }
 PRUint64
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 :
 :
 NativeInteractiveState
@@ -4366,7 +4366,7 @@ SELECTABLE
 ;
 }
 PRInt32
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 :
 :
 IndexInParent
@@ -4381,7 +4381,7 @@ GetColumnIndex
 ;
 }
 Relation
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 :
 :
 RelationByType
@@ -4397,7 +4397,7 @@ Relation
 ;
 }
 PRInt32
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 :
 :
 GetColumnIndex
@@ -4450,7 +4450,7 @@ index
 ;
 }
 void
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 :
 :
 CellInvalidated
@@ -4591,7 +4591,7 @@ textEquiv
 }
 Accessible
 *
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 :
 :
 GetSiblingAtOffset
@@ -4718,7 +4718,7 @@ nsnull
 ;
 nsRefPtr
 <
-nsXULTreeItemAccessibleBase
+XULTreeItemAccessibleBase
 >
 rowAcc
 =
@@ -4740,7 +4740,7 @@ columnAtOffset
 ;
 }
 void
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 :
 :
 DispatchClickEvent
@@ -4772,7 +4772,7 @@ mColumn
 ;
 }
 bool
-nsXULTreeGridCellAccessible
+XULTreeGridCellAccessible
 :
 :
 IsEditable

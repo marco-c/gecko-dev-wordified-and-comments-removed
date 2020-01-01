@@ -141,6 +141,9 @@ TableAccessible
 class
 TextLeafAccessible
 ;
+class
+XULTreeAccessible
+;
 enum
 ENameValueFlag
 {
@@ -182,9 +185,6 @@ setSize
 ;
 }
 }
-class
-nsXULTreeAccessible
-;
 struct
 nsRect
 ;
@@ -1191,7 +1191,13 @@ mFlags
 eXULTreeAccessible
 ;
 }
-nsXULTreeAccessible
+mozilla
+:
+:
+a11y
+:
+:
+XULTreeAccessible
 *
 AsXULTree
 (
