@@ -105,6 +105,16 @@ mFD
 ;
 }
 ;
+bool
+fallocate
+(
+PRFileDesc
+*
+aFD
+PRInt64
+aLength
+)
+;
 }
 #
 endif
