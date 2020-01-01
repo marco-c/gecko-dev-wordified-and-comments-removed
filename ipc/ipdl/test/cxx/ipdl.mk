@@ -61,6 +61,10 @@ PTestMultiMgrsBottom
 .
 ipdl
 \
+PTestNestedLoops
+.
+ipdl
+\
 PTestRacyRPCReplies
 .
 ipdl
