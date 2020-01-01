@@ -102,7 +102,7 @@ testGetPropertyDefault_bug594060
 )
 {
 {
-JS
+js
 :
 :
 RootedObject
@@ -196,7 +196,7 @@ v2
 ;
 }
 {
-JS
+js
 :
 :
 RootedObject

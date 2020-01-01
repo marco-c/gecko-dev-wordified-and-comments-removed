@@ -89,9 +89,6 @@ T
 root
 )
 {
-JS
-:
-:
 CompilerRootNode
 *
 &

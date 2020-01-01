@@ -767,7 +767,7 @@ called
 =
 true
 ;
-JS
+js
 :
 :
 RootedObject
@@ -978,7 +978,7 @@ global
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -1027,7 +1027,7 @@ debuggee
 )
 ;
 }
-JS
+js
 :
 :
 RootedObject
@@ -1223,7 +1223,7 @@ global
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -1263,7 +1263,7 @@ g
 )
 ;
 }
-JS
+js
 :
 :
 RootedObject

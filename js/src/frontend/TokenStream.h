@@ -3124,7 +3124,7 @@ tokens
 ntokens
 ]
 ;
-JS
+js
 :
 :
 SkipRoot
@@ -3152,13 +3152,13 @@ jschar
 *
 prevLinebase
 ;
-JS
+js
 :
 :
 SkipRoot
 linebaseRoot
 ;
-JS
+js
 :
 :
 SkipRoot
@@ -3167,7 +3167,7 @@ prevLinebaseRoot
 TokenBuf
 userbuf
 ;
-JS
+js
 :
 :
 SkipRoot

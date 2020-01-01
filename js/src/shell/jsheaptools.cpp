@@ -1761,9 +1761,6 @@ releasePathName
 pathName
 )
 ;
-JS
-:
-:
 RootedValue
 valRoot
 (

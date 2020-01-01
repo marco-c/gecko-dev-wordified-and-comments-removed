@@ -519,7 +519,7 @@ JS_END_EXTERN_C
 ifdef
 __cplusplus
 namespace
-JS
+js
 {
 template
 <
@@ -678,11 +678,17 @@ template
 struct
 RootKind
 <
+JS
+:
+:
 Value
 >
 :
 SpecificRootKind
 <
+JS
+:
+:
 Value
 THING_ROOT_VALUE
 >

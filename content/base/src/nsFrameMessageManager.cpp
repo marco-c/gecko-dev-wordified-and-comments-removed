@@ -4235,7 +4235,7 @@ mPrincipal
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject

@@ -425,12 +425,12 @@ js
 :
 gc
 ;
+namespace
+js
+{
 void
 *
 const
-JS
-:
-:
 InternalHandleBase
 :
 :
@@ -438,9 +438,6 @@ zeroPointer
 =
 NULL
 ;
-namespace
-js
-{
 namespace
 gc
 {

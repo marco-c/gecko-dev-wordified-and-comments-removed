@@ -51,9 +51,6 @@ void
 *
 mark_
 ;
-JS
-:
-:
 CompilerRootNode
 *
 rootList_
@@ -173,9 +170,6 @@ return
 lifoAlloc_
 ;
 }
-JS
-:
-:
 CompilerRootNode
 *
 &

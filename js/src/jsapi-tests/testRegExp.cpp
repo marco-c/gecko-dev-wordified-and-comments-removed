@@ -10,7 +10,7 @@ BEGIN_TEST
 testObjectIsRegExp
 )
 {
-JS
+js
 :
 :
 RootedValue
@@ -32,7 +32,7 @@ address
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -98,7 +98,7 @@ BEGIN_TEST
 testGetRegExpFlags
 )
 {
-JS
+js
 :
 :
 RootedValue
@@ -107,7 +107,7 @@ val
 cx
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -228,7 +228,7 @@ BEGIN_TEST
 testGetRegExpSource
 )
 {
-JS
+js
 :
 :
 RootedValue
@@ -237,7 +237,7 @@ val
 cx
 )
 ;
-JS
+js
 :
 :
 RootedObject

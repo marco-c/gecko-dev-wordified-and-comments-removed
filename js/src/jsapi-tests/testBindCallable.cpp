@@ -69,7 +69,7 @@ isObject
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject
@@ -82,7 +82,7 @@ func
 )
 )
 ;
-JS
+js
 :
 :
 RootedObject

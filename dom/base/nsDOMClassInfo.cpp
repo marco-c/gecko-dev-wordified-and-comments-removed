@@ -27587,7 +27587,7 @@ JSMutableHandleValue
 vp
 )
 {
-JS
+js
 :
 :
 RootedObject
@@ -27661,7 +27661,7 @@ bool
 _retval
 )
 {
-JS
+js
 :
 :
 RootedObject
@@ -27671,7 +27671,7 @@ cx
 obj_
 )
 ;
-JS
+js
 :
 :
 RootedId
@@ -28461,7 +28461,7 @@ i
 +
 )
 {
-JS
+js
 :
 :
 RootedObject
@@ -35438,7 +35438,7 @@ return
 JS_TRUE
 ;
 }
-JS
+js
 :
 :
 RootedValue

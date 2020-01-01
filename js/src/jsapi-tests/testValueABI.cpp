@@ -46,7 +46,7 @@ BEGIN_TEST
 testValueABI_retparam
 )
 {
-JS
+js
 :
 :
 RootedObject
