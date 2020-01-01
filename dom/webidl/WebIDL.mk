@@ -851,6 +851,10 @@ SVGFEMergeNodeElement
 .
 webidl
 \
+SVGFEMorphologyElement
+.
+webidl
+\
 SVGFEOffsetElement
 .
 webidl
