@@ -545,6 +545,10 @@ animated2
 .
 gif
 \
+test_staticClone
+.
+html
+\
 (
 NULL
 )
