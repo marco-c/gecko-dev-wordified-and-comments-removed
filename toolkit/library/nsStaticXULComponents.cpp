@@ -706,6 +706,11 @@ MODULE
 nsOSXProxyModule
 )
 #
+else
+#
+define
+OSXPROXY_MODULE
+#
 endif
 #
 define
