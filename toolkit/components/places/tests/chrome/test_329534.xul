@@ -754,7 +754,7 @@ now
 ;
 lmsvc
 .
-start
+reloadAllLivemarks
 (
 )
 ;

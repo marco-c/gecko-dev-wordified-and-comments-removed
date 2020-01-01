@@ -802,7 +802,7 @@ PlacesUtils
 .
 livemarks
 .
-createLivemark
+createLivemarkFolderOnly
 (
 PlacesUtils
 .
@@ -821,6 +821,17 @@ PlacesUtils
 bookmarks
 .
 DEFAULT_INDEX
+)
+;
+PlacesUtils
+.
+livemarks
+.
+reloadLivemarkFolder
+(
+livemark
+.
+id
 )
 ;
 yield
