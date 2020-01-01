@@ -39,12 +39,6 @@ Init
 (
 )
 {
-mXREEmbed
-.
-Start
-(
-)
-;
 mContentProcess
 .
 Init
@@ -64,6 +58,12 @@ IOThreadChild
 channel
 (
 )
+)
+;
+mXREEmbed
+.
+Start
+(
 )
 ;
 return
