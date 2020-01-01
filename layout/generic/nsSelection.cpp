@@ -3580,7 +3580,10 @@ result
 frame
 )
 return
+NS_FAILED
+(
 result
+)
 ?
 result
 :
@@ -22679,7 +22682,10 @@ result
 context
 )
 return
+NS_FAILED
+(
 result
+)
 ?
 result
 :

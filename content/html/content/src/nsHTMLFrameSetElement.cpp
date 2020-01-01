@@ -1263,7 +1263,10 @@ err
 ;
 if
 (
+NS_FAILED
+(
 err
+)
 )
 {
 specs

@@ -22969,7 +22969,10 @@ errorCode
 ;
 if
 (
+NS_FAILED
+(
 errorCode
+)
 )
 {
 scaleMinFloat
@@ -23024,7 +23027,10 @@ scaleMaxErrorCode
 ;
 if
 (
+NS_FAILED
+(
 scaleMaxErrorCode
+)
 )
 {
 scaleMaxFloat
@@ -23258,7 +23264,10 @@ errorCode
 ;
 if
 (
+NS_FAILED
+(
 errorCode
+)
 )
 {
 if
@@ -23354,7 +23363,10 @@ errorCode
 ;
 if
 (
+NS_FAILED
+(
 errorCode
+)
 )
 {
 height
@@ -23430,8 +23442,10 @@ IsEmpty
 )
 &
 &
-!
+NS_SUCCEEDED
+(
 scaleErrorCode
+)
 )
 {
 width
@@ -23476,8 +23490,10 @@ IsEmpty
 )
 &
 &
-!
+NS_SUCCEEDED
+(
 scaleMaxErrorCode
+)
 )
 {
 width

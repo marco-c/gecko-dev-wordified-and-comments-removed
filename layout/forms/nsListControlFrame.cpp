@@ -5832,10 +5832,10 @@ error
 ;
 if
 (
+NS_SUCCEEDED
+(
 error
-=
-=
-0
+)
 )
 selected
 =
