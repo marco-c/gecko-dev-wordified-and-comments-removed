@@ -2681,6 +2681,7 @@ IDBTransaction
 :
 VERSION_CHANGE
 kDefaultDatabaseTimeoutSeconds
+true
 )
 ;
 NS_ENSURE_TRUE

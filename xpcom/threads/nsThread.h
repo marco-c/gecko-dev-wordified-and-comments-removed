@@ -57,7 +57,7 @@ class
 nsThread
 :
 public
-nsIThreadInternal
+nsIThreadInternal2
 public
 nsISupportsPriority
 {
@@ -67,6 +67,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIEVENTTARGET
 NS_DECL_NSITHREAD
 NS_DECL_NSITHREADINTERNAL
+NS_DECL_NSITHREADINTERNAL2
 NS_DECL_NSISUPPORTSPRIORITY
 nsThread
 (
