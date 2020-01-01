@@ -1165,15 +1165,6 @@ FlushAsyncIO
 (
 )
 {
-AsyncMessage
-*
-message
-=
-0
-;
-int
-rc
-;
 if
 (
 !
@@ -1227,6 +1218,7 @@ PR_Lock
 flushLock
 )
 ;
+int
 rc
 =
 AsyncBarrier
