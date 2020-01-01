@@ -18709,12 +18709,9 @@ SetClickAndHoldHandlers
 ;
 #
 endif
-if
-(
-!
-gCustomizeSheet
-)
 window
+.
+content
 .
 focus
 (
