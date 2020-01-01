@@ -447,14 +447,6 @@ nsBrowserGlue
 .
 js
 \
-aboutRights
-.
-js
-\
-aboutRobots
-.
-js
-\
 (
 NULL
 )
@@ -465,6 +457,8 @@ distribution
 js
 DIRS
 =
+\
+about
 \
 certerror
 \

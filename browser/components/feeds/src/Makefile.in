@@ -481,16 +481,10 @@ REQUIRES
 xpcom
 string
 necko
-caps
-js
-xpconnect
 mimetype
 CPPSRCS
 =
 nsFeedSniffer
-.
-cpp
-nsAboutFeeds
 .
 cpp
 LOCAL_INCLUDES
