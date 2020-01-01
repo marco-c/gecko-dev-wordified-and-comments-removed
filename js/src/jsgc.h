@@ -4773,9 +4773,6 @@ SystemAllocPolicy
 >
 WrapperMap
 ;
-class
-AutoIdVector
-;
 }
 #
 ifdef
