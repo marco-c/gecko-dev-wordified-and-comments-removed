@@ -10227,7 +10227,7 @@ cx
 )
 )
 return
-false
+NULL
 ;
 scriptobj
 -

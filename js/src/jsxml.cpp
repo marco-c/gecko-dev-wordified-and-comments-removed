@@ -8900,7 +8900,7 @@ chars
 )
 ;
 return
-false
+NULL
 ;
 }
 ParseNode
