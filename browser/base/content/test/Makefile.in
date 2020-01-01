@@ -751,6 +751,10 @@ browser_bug832435
 .
 js
 \
+browser_bug839103
+.
+js
+\
 browser_canonizeURL
 .
 js
@@ -967,6 +971,14 @@ html
 bug792517
 .
 sjs
+\
+test_bug839103
+.
+html
+\
+bug839103
+.
+css
 \
 browser_scope
 .
