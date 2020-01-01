@@ -1730,6 +1730,11 @@ height
 nsresult
 rv
 =
+NS_ERROR_FAILURE
+;
+#
+ifndef
+MOZ_ENABLE_POSTSCRIPT
 nsPrintJobFactoryGTK
 :
 :
@@ -1739,6 +1744,8 @@ this
 mPrintJob
 )
 ;
+#
+endif
 if
 (
 NS_FAILED
