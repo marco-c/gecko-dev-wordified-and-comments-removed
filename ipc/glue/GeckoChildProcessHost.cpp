@@ -106,12 +106,6 @@ BrowserProcessSubThread
 h
 "
 using
-base
-:
-:
-environment_map
-;
-using
 mozilla
 :
 :
@@ -583,6 +577,9 @@ OS_POSIX
 FilePath
 exePath
 ;
+base
+:
+:
 environment_map
 newEnvVars
 ;
