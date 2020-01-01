@@ -911,6 +911,13 @@ components
 dom_icc
 .
 xpt
+BINPATH
+/
+components
+/
+dom_wappush
+.
+xpt
 #
 endif
 BINPATH
@@ -3190,6 +3197,9 @@ PeerConnection
 manifest
 #
 endif
+#
+ifdef
+ENABLE_MARIONETTE
 BINPATH
 /
 chrome
@@ -3217,6 +3227,8 @@ components
 marionettecomponent
 .
 js
+#
+endif
 #
 ifdef
 MOZ_WEBSPEECH

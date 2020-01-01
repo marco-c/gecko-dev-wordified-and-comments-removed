@@ -868,6 +868,13 @@ components
 dom_cellbroadcast
 .
 xpt
+BINPATH
+/
+components
+/
+dom_wappush
+.
+xpt
 #
 endif
 #

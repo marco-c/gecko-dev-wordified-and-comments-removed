@@ -305,6 +305,9 @@ camera
 '
 audiochannel
 '
+'
+wappush
+'
 ]
 if
 CONFIG
