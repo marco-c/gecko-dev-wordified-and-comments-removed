@@ -1981,14 +1981,6 @@ it
 ;
 public
 :
-bool
-preventExtensions
-(
-JSContext
-*
-cx
-)
-;
 static
 inline
 bool
