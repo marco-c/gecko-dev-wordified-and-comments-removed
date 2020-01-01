@@ -505,6 +505,15 @@ nsIFrame
 aFrame
 )
 ;
+static
+void
+UpdateFilterRegion
+(
+nsIFrame
+*
+aFrame
+)
+;
 enum
 ctxDirection
 {
