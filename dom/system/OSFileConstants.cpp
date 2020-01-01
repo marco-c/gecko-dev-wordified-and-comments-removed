@@ -209,6 +209,13 @@ nsIOSFileConstantsService
 h
 "
 #
+include
+"
+nsZipArchive
+.
+h
+"
+#
 if
 defined
 (

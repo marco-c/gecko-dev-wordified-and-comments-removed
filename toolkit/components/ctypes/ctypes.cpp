@@ -59,6 +59,13 @@ mozJSComponentLoader
 h
 "
 #
+include
+"
+nsZipArchive
+.
+h
+"
+#
 define
 JSCTYPES_CONTRACTID
 \

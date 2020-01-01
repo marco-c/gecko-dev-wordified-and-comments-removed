@@ -123,6 +123,9 @@ TypeDecls
 .
 h
 "
+class
+nsAXPCNativeCallContext
+;
 %
 }
 [

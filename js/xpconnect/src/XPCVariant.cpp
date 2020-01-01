@@ -8,13 +8,6 @@ h
 #
 include
 "
-XPCWrapper
-.
-h
-"
-#
-include
-"
 nsCxPusher
 .
 h
@@ -30,6 +23,13 @@ h
 include
 "
 jsprf
+.
+h
+"
+#
+include
+"
+jswrapper
 .
 h
 "

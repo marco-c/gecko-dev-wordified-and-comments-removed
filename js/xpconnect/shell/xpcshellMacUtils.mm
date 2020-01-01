@@ -113,13 +113,6 @@ MPL
 /
 #
 include
-"
-xpcshellMacUtils
-.
-h
-"
-#
-include
 <
 Foundation
 /

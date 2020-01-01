@@ -28,13 +28,6 @@ h
 #
 include
 "
-XPCWrapper
-.
-h
-"
-#
-include
-"
 JavaScriptParent
 .
 h
