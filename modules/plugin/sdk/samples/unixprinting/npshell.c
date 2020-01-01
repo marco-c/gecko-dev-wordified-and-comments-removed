@@ -259,7 +259,7 @@ This
 >
 exists
 =
-FALSE
+false
 ;
 while
 (
@@ -923,7 +923,7 @@ fullPrint
 .
 pluginPrinted
 =
-FALSE
+false
 ;
 }
 else

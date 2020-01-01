@@ -184,7 +184,7 @@ fp
 struct
 TTVtoFPGlue
 {
-uint32
+uint32_t
 glue
 [
 6
@@ -562,7 +562,7 @@ const
 char
 *
 window
-uint32
+uint32_t
 len
 const
 char
@@ -636,7 +636,7 @@ const
 char
 *
 window
-uint32
+uint32_t
 len
 const
 char
@@ -745,7 +745,7 @@ return
 err
 ;
 }
-int32
+int32_t
 NPN_Write
 (
 NPP
@@ -753,7 +753,7 @@ instance
 NPStream
 *
 stream
-int32
+int32_t
 len
 void
 *
@@ -905,7 +905,7 @@ void
 *
 NPN_MemAlloc
 (
-uint32
+uint32_t
 size
 )
 {
@@ -936,10 +936,10 @@ ptr
 )
 ;
 }
-uint32
+uint32_t
 NPN_MemFlush
 (
-uint32
+uint32_t
 size
 )
 {
@@ -1130,9 +1130,9 @@ NPMIMEType
 pluginType
 NPP
 instance
-uint16
+uint16_t
 mode
-int16
+int16_t
 argc
 char
 *
@@ -1182,7 +1182,7 @@ NPStream
 stream
 NPBool
 seekable
-uint16
+uint16_t
 *
 stype
 )
@@ -1199,7 +1199,7 @@ NPError
 reason
 )
 ;
-int32
+int32_t
 Private_WriteReady
 (
 NPP
@@ -1209,7 +1209,7 @@ NPStream
 stream
 )
 ;
-int32
+int32_t
 Private_Write
 (
 NPP
@@ -1217,9 +1217,9 @@ instance
 NPStream
 *
 stream
-int32
+int32_t
 offset
-int32
+int32_t
 len
 void
 *
@@ -1250,7 +1250,7 @@ NPPrint
 platformPrint
 )
 ;
-int16
+int16_t
 Private_HandleEvent
 (
 NPP
@@ -1328,9 +1328,9 @@ NPMIMEType
 pluginType
 NPP
 instance
-uint16
+uint16_t
 mode
-int16
+int16_t
 argc
 char
 *
@@ -1442,7 +1442,7 @@ NPStream
 stream
 NPBool
 seekable
-uint16
+uint16_t
 *
 stype
 )
@@ -1469,7 +1469,7 @@ stype
 )
 ;
 }
-int32
+int32_t
 Private_WriteReady
 (
 NPP
@@ -1498,7 +1498,7 @@ stream
 )
 ;
 }
-int32
+int32_t
 Private_Write
 (
 NPP
@@ -1506,9 +1506,9 @@ instance
 NPStream
 *
 stream
-int32
+int32_t
 offset
-int32
+int32_t
 len
 void
 *
@@ -1602,7 +1602,7 @@ reason
 )
 ;
 }
-int16
+int16_t
 Private_HandleEvent
 (
 NPP
