@@ -32572,6 +32572,7 @@ target
 GetView
 (
 )
+rcx
 )
 ;
 target

@@ -119,6 +119,10 @@ PRInt32
 *
 aSize
 PRInt32
+aMinSize
+PRInt32
+aMaxSize
+PRInt32
 aMovement
 PRInt8
 aResizerDirection
