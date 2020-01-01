@@ -372,6 +372,17 @@ code
 ]
 ;
 }
+inline
+bool
+OOM
+(
+)
+{
+return
+!
+ops
+;
+}
 bool
 analyze
 (
