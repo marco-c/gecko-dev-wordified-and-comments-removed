@@ -21880,7 +21880,7 @@ str
 static
 inline
 JSBool
-pushAtom
+AppendAtom
 (
 JSAtom
 *
@@ -22054,7 +22054,7 @@ v
 )
 )
 return
-pushAtom
+AppendAtom
 (
 cx
 -
@@ -22077,7 +22077,7 @@ v
 )
 ;
 return
-pushAtom
+AppendAtom
 (
 cx
 -
