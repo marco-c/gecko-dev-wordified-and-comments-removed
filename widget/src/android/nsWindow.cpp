@@ -460,6 +460,17 @@ RemoveElement
 this
 )
 ;
+if
+(
+gFocusedWindow
+=
+=
+this
+)
+gFocusedWindow
+=
+nsnull
+;
 ALOG
 (
 "
