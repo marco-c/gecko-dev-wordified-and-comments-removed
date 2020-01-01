@@ -26,17 +26,6 @@ Destroy
 (
 )
 {
-printf
-(
-"
-Destroy
-shadow
-layers
-\
-n
-"
-)
-;
 NS_ABORT_IF_FALSE
 (
 0
