@@ -2184,6 +2184,8 @@ aScriptLevelAdjustedParentSize
 PRBool
 aUsedStartStruct
 PRBool
+aAtRoot
+PRBool
 &
 aInherited
 )

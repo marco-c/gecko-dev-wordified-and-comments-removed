@@ -371,6 +371,9 @@ eCSSUnit_XHeight
 eCSSUnit_Char
 =
 802
+eCSSUnit_RootEM
+=
+803
 eCSSUnit_Pixel
 =
 900
