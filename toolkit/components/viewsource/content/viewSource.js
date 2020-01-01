@@ -847,7 +847,7 @@ arguments
 length
 >
 =
-3
+5
 )
 {
 arg
@@ -856,7 +856,7 @@ window
 .
 arguments
 [
-2
+4
 ]
 ;
 try
@@ -912,7 +912,7 @@ arguments
 length
 >
 =
-5
+4
 )
 {
 arg
@@ -921,7 +921,7 @@ window
 .
 arguments
 [
-4
+3
 ]
 ;
 gGoToLine
@@ -941,7 +941,7 @@ arguments
 length
 >
 =
-4
+3
 )
 {
 arg
@@ -950,7 +950,7 @@ window
 .
 arguments
 [
-3
+2
 ]
 ;
 try
