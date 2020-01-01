@@ -227,3 +227,9 @@ Stack
 {
 }
 ;
+BadInherit
+moreInvalid
+;
+RandomClass
+evenMoreInvalid
+;
