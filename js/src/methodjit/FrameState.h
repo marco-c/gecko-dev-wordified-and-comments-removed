@@ -559,6 +559,10 @@ storeLocal
 (
 uint32
 n
+bool
+popGuaranteed
+=
+false
 )
 ;
 void
@@ -827,6 +831,13 @@ void
 shimmy
 (
 uint32
+n
+)
+;
+void
+shift
+(
+int32
 n
 )
 ;
