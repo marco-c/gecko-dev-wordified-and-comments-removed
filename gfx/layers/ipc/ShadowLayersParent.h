@@ -153,6 +153,10 @@ const
 EditArray
 &
 cset
+const
+bool
+&
+isFirstPaint
 EditReplyArray
 *
 reply
