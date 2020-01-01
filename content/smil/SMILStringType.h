@@ -159,12 +159,7 @@ MOZ_OVERRIDE
 ;
 private
 :
-SMILStringType
-(
-)
-{
-}
-~
+MOZ_CONSTEXPR
 SMILStringType
 (
 )

@@ -212,12 +212,7 @@ aRotateAngle
 ;
 private
 :
-SVGMotionSMILType
-(
-)
-{
-}
-~
+MOZ_CONSTEXPR
 SVGMotionSMILType
 (
 )

@@ -159,12 +159,7 @@ MOZ_OVERRIDE
 ;
 private
 :
-SMILBoolType
-(
-)
-{
-}
-~
+MOZ_CONSTEXPR
 SMILBoolType
 (
 )

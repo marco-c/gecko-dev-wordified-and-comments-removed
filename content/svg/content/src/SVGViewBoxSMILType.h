@@ -150,12 +150,7 @@ MOZ_OVERRIDE
 ;
 private
 :
-SVGViewBoxSMILType
-(
-)
-{
-}
-~
+MOZ_CONSTEXPR
 SVGViewBoxSMILType
 (
 )

@@ -150,12 +150,7 @@ MOZ_OVERRIDE
 ;
 private
 :
-SVGNumberPairSMILType
-(
-)
-{
-}
-~
+MOZ_CONSTEXPR
 SVGNumberPairSMILType
 (
 )

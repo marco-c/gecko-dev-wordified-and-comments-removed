@@ -152,12 +152,7 @@ MOZ_OVERRIDE
 ;
 private
 :
-SVGPointListSMILType
-(
-)
-{
-}
-~
+MOZ_CONSTEXPR
 SVGPointListSMILType
 (
 )

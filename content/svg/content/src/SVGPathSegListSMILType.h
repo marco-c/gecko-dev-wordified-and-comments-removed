@@ -164,12 +164,7 @@ MOZ_OVERRIDE
 ;
 private
 :
-SVGPathSegListSMILType
-(
-)
-{
-}
-~
+MOZ_CONSTEXPR
 SVGPathSegListSMILType
 (
 )

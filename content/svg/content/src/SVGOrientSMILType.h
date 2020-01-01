@@ -150,12 +150,7 @@ MOZ_OVERRIDE
 ;
 private
 :
-SVGOrientSMILType
-(
-)
-{
-}
-~
+MOZ_CONSTEXPR
 SVGOrientSMILType
 (
 )

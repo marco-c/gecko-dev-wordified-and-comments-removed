@@ -162,12 +162,7 @@ MOZ_OVERRIDE
 ;
 private
 :
-SVGIntegerPairSMILType
-(
-)
-{
-}
-~
+MOZ_CONSTEXPR
 SVGIntegerPairSMILType
 (
 )

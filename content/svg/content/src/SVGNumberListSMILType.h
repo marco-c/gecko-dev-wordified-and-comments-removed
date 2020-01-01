@@ -152,12 +152,7 @@ MOZ_OVERRIDE
 ;
 private
 :
-SVGNumberListSMILType
-(
-)
-{
-}
-~
+MOZ_CONSTEXPR
 SVGNumberListSMILType
 (
 )

@@ -212,12 +212,7 @@ aString
 ;
 private
 :
-nsSMILCSSValueType
-(
-)
-{
-}
-~
+MOZ_CONSTEXPR
 nsSMILCSSValueType
 (
 )

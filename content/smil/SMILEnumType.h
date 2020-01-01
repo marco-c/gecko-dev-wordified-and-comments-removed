@@ -159,12 +159,7 @@ MOZ_OVERRIDE
 ;
 private
 :
-SMILEnumType
-(
-)
-{
-}
-~
+MOZ_CONSTEXPR
 SMILEnumType
 (
 )

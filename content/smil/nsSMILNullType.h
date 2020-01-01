@@ -160,12 +160,7 @@ MOZ_OVERRIDE
 ;
 private
 :
-nsSMILNullType
-(
-)
-{
-}
-~
+MOZ_CONSTEXPR
 nsSMILNullType
 (
 )

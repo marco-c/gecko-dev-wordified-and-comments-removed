@@ -156,12 +156,7 @@ MOZ_OVERRIDE
 ;
 private
 :
-nsSMILFloatType
-(
-)
-{
-}
-~
+MOZ_CONSTEXPR
 nsSMILFloatType
 (
 )
