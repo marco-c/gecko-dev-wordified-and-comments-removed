@@ -263,7 +263,7 @@ getNext
 )
 *
 return
-true
+PR_TRUE
 if
 there
 are
@@ -274,7 +274,7 @@ the
 enumerator
 .
 *
-false
+PR_FALSE
 if
 there
 are
@@ -336,7 +336,7 @@ hasMoreElements
 )
 which
 returns
-true
+PR_TRUE
 .
 *
 This

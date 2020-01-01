@@ -197,7 +197,7 @@ return
 <
 CODE
 >
-true
+PR_TRUE
 <
 /
 CODE
@@ -210,7 +210,7 @@ match
 <
 CODE
 >
-false
+PR_FALSE
 <
 /
 CODE

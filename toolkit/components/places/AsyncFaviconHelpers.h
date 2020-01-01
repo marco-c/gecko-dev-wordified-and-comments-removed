@@ -189,7 +189,7 @@ guid
 .
 SetIsVoid
 (
-true
+PR_TRUE
 )
 ;
 }

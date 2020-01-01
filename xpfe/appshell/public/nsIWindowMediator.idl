@@ -1053,7 +1053,7 @@ null
 .
 *
 return
-true
+PR_TRUE
 if
 the
 position

@@ -463,7 +463,7 @@ ascii_time_string
 c_str
 (
 )
-false
+PR_FALSE
 &
 result_time
 )

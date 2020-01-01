@@ -4668,7 +4668,7 @@ modifierFlags
 ]
 )
 ;
-uint32_t
+PRUint32
 ch
 =
 TranslateToChar

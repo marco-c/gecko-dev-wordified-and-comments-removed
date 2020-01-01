@@ -418,7 +418,7 @@ value
 returned
 is
 *
-true
+PR_TRUE
 .
 If
 the
@@ -430,7 +430,7 @@ in
 the
 *
 environment
-false
+PR_FALSE
 will
 be
 returned

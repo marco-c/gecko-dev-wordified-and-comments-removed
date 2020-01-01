@@ -2566,7 +2566,7 @@ pwd
 {
 MOZ_ASSERT
 (
-false
+PR_FALSE
 )
 ;
 cpr_free
@@ -4813,7 +4813,7 @@ stream
 {
 PR_ASSERT
 (
-false
+PR_FALSE
 )
 ;
 return
@@ -5004,7 +5004,7 @@ ret
 {
 PR_ASSERT
 (
-false
+PR_FALSE
 )
 ;
 return
@@ -5178,7 +5178,7 @@ ret
 {
 PR_ASSERT
 (
-false
+PR_FALSE
 )
 ;
 return
@@ -8855,7 +8855,7 @@ Implemented
 ;
 PR_ASSERT
 (
-false
+PR_FALSE
 )
 ;
 return
@@ -8879,7 +8879,7 @@ error
 ;
 PR_ASSERT
 (
-false
+PR_FALSE
 )
 ;
 return
@@ -9023,7 +9023,7 @@ error
 ;
 PR_ASSERT
 (
-false
+PR_FALSE
 )
 ;
 return

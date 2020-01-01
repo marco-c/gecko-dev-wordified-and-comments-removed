@@ -933,7 +933,7 @@ NS_SUCCEEDED
 NS_NewNativeLocalFile
 (
 fileTarget
-true
+PR_TRUE
 getter_AddRefs
 (
 resolvedFile

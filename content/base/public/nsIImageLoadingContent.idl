@@ -1035,7 +1035,7 @@ When
 aForce
 |
 is
-true
+PR_TRUE
 we
 force
 *
@@ -1059,7 +1059,7 @@ aForce
 |
 *
 as
-false
+PR_FALSE
 to
 revert
 ImageState

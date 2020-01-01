@@ -325,7 +325,7 @@ call
 *
 LockFactory
 (
-true
+PR_TRUE
 )
 to
 lock
@@ -334,7 +334,7 @@ factory
 and
 LockFactory
 (
-false
+PR_FALSE
 )
 *
 to
@@ -349,9 +349,9 @@ lock
 -
 Must
 be
-true
+PR_TRUE
 or
-false
+PR_FALSE
 *
 return
 NS_OK

@@ -453,7 +453,7 @@ details
 *
 param
 aScreen
-true
+PR_TRUE
 to
 center
 the
@@ -510,7 +510,7 @@ main
 screen
 .
 *
-false
+PR_FALSE
 to
 center
 it
@@ -522,7 +522,7 @@ itself
 *
 param
 aAlert
-true
+PR_TRUE
 to
 move
 the

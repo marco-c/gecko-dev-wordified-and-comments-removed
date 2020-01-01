@@ -1258,7 +1258,7 @@ flag
 *
 must
 be
-true
+PR_TRUE
 to
 delete
 directories

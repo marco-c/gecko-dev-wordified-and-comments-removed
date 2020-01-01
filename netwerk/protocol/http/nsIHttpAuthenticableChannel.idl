@@ -180,7 +180,7 @@ used
 it
 must
 return
-false
+PR_FALSE
 .
 *
 /

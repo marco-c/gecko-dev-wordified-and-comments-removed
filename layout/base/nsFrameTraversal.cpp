@@ -180,7 +180,7 @@ mLast
 aFrame
 ;
 }
-int8_t
+PRInt8
 getOffEdge
 (
 )
@@ -192,7 +192,7 @@ mOffEdge
 void
 setOffEdge
 (
-int8_t
+PRInt8
 aOffEdge
 )
 {
@@ -351,7 +351,7 @@ nsIFrame
 *
 mLast
 ;
-int8_t
+PRInt8
 mOffEdge
 ;
 }
@@ -599,7 +599,7 @@ aPresContext
 nsIFrame
 *
 aStart
-int32_t
+PRInt32
 aType
 bool
 aVisual

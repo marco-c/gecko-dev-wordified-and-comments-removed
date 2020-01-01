@@ -429,7 +429,7 @@ unloaded
 .
 *
 Returning
-true
+PR_TRUE
 isn
 '
 t
@@ -478,11 +478,11 @@ exist
 before
 returning
 *
-true
+PR_TRUE
 .
 *
 Returning
-false
+PR_FALSE
 guaratees
 that
 the

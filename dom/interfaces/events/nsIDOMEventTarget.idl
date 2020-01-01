@@ -1466,7 +1466,7 @@ mParentTarget
 if
 mCanHandle
 is
-true
+PR_TRUE
 .
 *
 First
@@ -1564,7 +1564,7 @@ nsEventChainPreVisitor
 mWantsWillHandleEvent
 is
 set
-true
+PR_TRUE
 *
 called
 just
@@ -1852,7 +1852,7 @@ node
 param
 aMayCreate
 If
-false
+PR_FALSE
 returns
 a
 listener

@@ -1074,7 +1074,7 @@ equivalent
 *
 *
 returns
-true
+PR_TRUE
 if
 the
 two

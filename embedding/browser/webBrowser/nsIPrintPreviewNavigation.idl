@@ -141,7 +141,7 @@ Page
 *
 Return
 -
-true
+PR_TRUE
 if
 success
 *
@@ -163,7 +163,7 @@ Page
 *
 Return
 -
-true
+PR_TRUE
 if
 success
 *
@@ -194,7 +194,7 @@ preview
 *
 Return
 -
-true
+PR_TRUE
 if
 success
 *

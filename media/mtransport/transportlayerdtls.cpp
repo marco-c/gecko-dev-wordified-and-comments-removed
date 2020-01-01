@@ -1102,7 +1102,7 @@ value
 .
 non_blocking
 =
-true
+PR_TRUE
 ;
 return
 PR_SUCCESS
@@ -1798,7 +1798,7 @@ SSL_OptionSet
 (
 ssl_fd
 SSL_REQUEST_CERTIFICATE
-true
+PR_TRUE
 )
 ;
 if
@@ -1831,7 +1831,7 @@ SSL_OptionSet
 (
 ssl_fd
 SSL_REQUIRE_CERTIFICATE
-true
+PR_TRUE
 )
 ;
 if
@@ -1906,7 +1906,7 @@ SSL_OptionSet
 (
 ssl_fd
 SSL_ENABLE_SESSION_TICKETS
-false
+PR_FALSE
 )
 ;
 if
@@ -1940,7 +1940,7 @@ SSL_OptionSet
 (
 ssl_fd
 SSL_NO_CACHE
-true
+PR_TRUE
 )
 ;
 if
@@ -1974,7 +1974,7 @@ SSL_OptionSet
 (
 ssl_fd
 SSL_ENABLE_DEFLATE
-false
+PR_FALSE
 )
 ;
 if
@@ -2040,7 +2040,7 @@ SSL_OptionSet
 (
 ssl_fd
 SSL_ENABLE_FALSE_START
-false
+PR_FALSE
 )
 ;
 if
@@ -2074,7 +2074,7 @@ SSL_OptionSet
 (
 ssl_fd
 SSL_NO_LOCKS
-true
+PR_TRUE
 )
 ;
 if
@@ -2206,9 +2206,9 @@ role_
 =
 SERVER
 ?
-true
+PR_TRUE
 :
-false
+PR_FALSE
 )
 ;
 if
