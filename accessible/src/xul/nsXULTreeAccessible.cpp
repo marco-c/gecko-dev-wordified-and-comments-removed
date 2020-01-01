@@ -2491,6 +2491,11 @@ PRInt32
 aRow
 )
 :
+nsAccessibleWrap
+(
+aContent
+aShell
+)
 mTree
 (
 aTree
@@ -2502,11 +2507,6 @@ aTreeView
 mRow
 (
 aRow
-)
-nsAccessibleWrap
-(
-aContent
-aShell
 )
 {
 mParent

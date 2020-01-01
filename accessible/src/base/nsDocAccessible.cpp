@@ -308,13 +308,13 @@ mDocument
 (
 aDocument
 )
-mIsLoaded
-(
-PR_FALSE
-)
 mScrollPositionChangedTicks
 (
 0
+)
+mIsLoaded
+(
+PR_FALSE
 )
 {
 mAccessibleCache
