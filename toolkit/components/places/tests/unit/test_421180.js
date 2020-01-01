@@ -219,12 +219,6 @@ executeStep
 )
 )
 ;
-stmt
-.
-finalize
-(
-)
-;
 var
 bookmarkId1
 =
@@ -325,12 +319,6 @@ stmt
 executeStep
 (
 )
-)
-;
-stmt
-.
-finalize
-(
 )
 ;
 }

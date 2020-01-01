@@ -280,9 +280,6 @@ frecencies
 "
 )
 ;
-var
-stmt
-=
 places
 .
 DBConnection
@@ -303,8 +300,6 @@ frecency
 0
 "
 )
-;
-stmt
 .
 executeAsync
 (
@@ -381,12 +376,6 @@ handleError
 :
 do_throw
 }
-)
-;
-stmt
-.
-finalize
-(
 )
 ;
 break
