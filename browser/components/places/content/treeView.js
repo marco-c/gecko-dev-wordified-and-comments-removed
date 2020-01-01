@@ -1235,10 +1235,10 @@ this
 _buildVisibleSection
 (
 curChild
-aToOpen
 row
 +
 1
+aToOpen
 )
 ;
 }
