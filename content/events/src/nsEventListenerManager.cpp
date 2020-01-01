@@ -512,7 +512,7 @@ nsEventListenerManager
 :
 nsEventListenerManager
 (
-nsISupports
+EventTarget
 *
 aTarget
 )
