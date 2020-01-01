@@ -2606,9 +2606,9 @@ IsDefunct
 )
 return
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsAccEvent
+nsIAccessibleEvent
 >
 eventDestroy
 =
@@ -2651,9 +2651,9 @@ mTreeView
 )
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
-nsAccEvent
+nsIAccessibleEvent
 >
 eventCreate
 =

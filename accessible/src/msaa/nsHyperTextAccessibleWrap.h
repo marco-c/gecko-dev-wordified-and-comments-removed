@@ -65,9 +65,9 @@ DECL_IUNKNOWN_INHERITED
 NS_DECL_ISUPPORTS_INHERITED
 virtual
 nsresult
-HandleAccEvent
+FireAccessibleEvent
 (
-nsAccEvent
+nsIAccessibleEvent
 *
 aEvent
 )

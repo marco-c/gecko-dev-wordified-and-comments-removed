@@ -5843,9 +5843,9 @@ nsresult
 nsAccessible
 :
 :
-HandleAccEvent
+FireAccessibleEvent
 (
-nsAccEvent
+nsIAccessibleEvent
 *
 aEvent
 )

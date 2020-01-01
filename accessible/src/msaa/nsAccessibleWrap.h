@@ -928,9 +928,9 @@ puArgErr
 ;
 virtual
 nsresult
-HandleAccEvent
+FireAccessibleEvent
 (
-nsAccEvent
+nsIAccessibleEvent
 *
 aEvent
 )
@@ -1044,7 +1044,7 @@ virtual
 nsresult
 FirePlatformEvent
 (
-nsAccEvent
+nsIAccessibleEvent
 *
 aEvent
 )
