@@ -103,7 +103,20 @@ run_test
 (
 )
 {
-populateDB
+run_next_test
+(
+)
+;
+}
+add_task
+(
+function
+test_onlyBookmarked
+(
+)
+{
+yield
+task_populateDB
 (
 testData
 )
@@ -286,7 +299,8 @@ false
 }
 ]
 ;
-populateDB
+yield
+task_populateDB
 (
 liveUpdateTestData
 )
@@ -346,3 +360,5 @@ containerOpen
 false
 ;
 }
+)
+;
