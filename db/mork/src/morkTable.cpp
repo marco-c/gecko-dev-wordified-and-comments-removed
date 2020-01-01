@@ -682,10 +682,9 @@ nsIMdbPort
 acqPort
 )
 {
-morkEnv
-*
-ev
-=
+(
+void
+)
 morkEnv
 :
 :
