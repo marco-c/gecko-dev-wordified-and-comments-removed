@@ -85,15 +85,15 @@ void
 nsChannelReader
 :
 :
-SetDuration
+SetLastFrameTime
 (
 PRInt64
-aDuration
+aTime
 )
 {
-mDuration
+mLastFrameTime
 =
-aDuration
+aTime
 ;
 }
 size_t
@@ -241,7 +241,7 @@ duration
 )
 {
 return
-mDuration
+mLastFrameTime
 ;
 }
 static
@@ -830,7 +830,7 @@ nsChannelReader
 (
 )
 :
-mDuration
+mLastFrameTime
 (
 -
 1

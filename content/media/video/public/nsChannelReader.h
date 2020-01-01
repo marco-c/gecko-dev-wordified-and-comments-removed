@@ -89,10 +89,10 @@ mStream
 ;
 }
 void
-SetDuration
+SetLastFrameTime
 (
 PRInt64
-aDuration
+aTime
 )
 ;
 nsIPrincipal
@@ -151,7 +151,7 @@ nsMediaStream
 mStream
 ;
 PRInt64
-mDuration
+mLastFrameTime
 ;
 }
 ;
