@@ -14,6 +14,9 @@ js
 )
 ;
 var
+server
+;
+var
 promptService
 =
 {
@@ -286,6 +289,12 @@ function
 (
 )
 {
+server
+.
+stop
+(
+)
+;
 do_test_finished
 (
 )
