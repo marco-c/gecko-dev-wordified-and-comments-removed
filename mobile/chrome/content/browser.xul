@@ -4868,6 +4868,9 @@ show
 "
 /
 >
+#
+ifdef
+NS_PRINTING
 <
 pageaction
 id
@@ -4900,6 +4903,8 @@ savePageAsPDF
 "
 /
 >
+#
+endif
 <
 pageaction
 id
