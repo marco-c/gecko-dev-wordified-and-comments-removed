@@ -362,6 +362,7 @@ eHTMLPresHintSheet
 eDocSheet
 eStyleAttrSheet
 eOverrideSheet
+eTransitionSheet
 eSheetTypeCount
 }
 ;
@@ -789,7 +790,7 @@ mInReconstruct
 unsigned
 mDirty
 :
-7
+8
 ;
 }
 ;

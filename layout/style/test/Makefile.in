@@ -819,6 +819,10 @@ test_transitions_computed_value_combinations
 .
 html
 \
+test_transitions
+.
+html
+\
 test_units_angle
 .
 html

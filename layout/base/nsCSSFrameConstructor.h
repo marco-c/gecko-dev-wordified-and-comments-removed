@@ -112,6 +112,9 @@ ChildIterator
 class
 nsICSSAnonBoxPseudo
 ;
+class
+nsPageContentFrame
+;
 struct
 nsFindFrameHint
 {

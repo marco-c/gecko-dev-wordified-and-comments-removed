@@ -532,6 +532,10 @@ nsPresState
 .
 h
 \
+nsRefreshDriver
+.
+h
+\
 nsStyleChangeList
 .
 h
@@ -627,6 +631,10 @@ nsPresState
 cpp
 \
 nsQuoteList
+.
+cpp
+\
+nsRefreshDriver
 .
 cpp
 \
