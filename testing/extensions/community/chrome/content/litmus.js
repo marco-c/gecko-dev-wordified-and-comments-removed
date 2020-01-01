@@ -1519,7 +1519,7 @@ expected_results_formatted
 ;
 qaTools
 .
-linkTargetsToBlank
+assignLinkHandlers
 (
 (
 '
@@ -1534,7 +1534,7 @@ steps
 ;
 qaTools
 .
-linkTargetsToBlank
+assignLinkHandlers
 (
 (
 '
