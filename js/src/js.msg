@@ -4894,9 +4894,9 @@ mode
 code
 functions
 may
-only
 be
 declared
+only
 at
 top
 level
