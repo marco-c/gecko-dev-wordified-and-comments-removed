@@ -2118,8 +2118,6 @@ modules
 /
 plugin
 /
-samples
-/
 default
 /
 unix
