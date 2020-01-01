@@ -7898,7 +7898,7 @@ SHOULD_SENDRECV_AV
 TEST_F
 (
 SignalingTest
-OfferAnswerReNegotiateOfferAnswerDontReceiveVideoNoVideoStream
+DISABLED_OfferAnswerReNegotiateOfferAnswerDontReceiveVideoNoVideoStream
 )
 {
 sipcc
@@ -10950,7 +10950,7 @@ npos
 TEST_F
 (
 SignalingTest
-OfferAllDynamicTypes
+DISABLED_OfferAllDynamicTypes
 )
 {
 sipcc
