@@ -484,10 +484,6 @@ smilXHR_helper
 .
 svg
 \
-smilExtDoc_helper
-.
-svg
-\
 test_smilAccessKey
 .
 xhtml
@@ -561,10 +557,6 @@ test_smilReset
 xhtml
 \
 test_smilRestart
-.
-xhtml
-\
-test_smilExtDoc
 .
 xhtml
 \
