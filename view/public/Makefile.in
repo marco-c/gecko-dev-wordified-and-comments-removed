@@ -427,10 +427,6 @@ nsViewsCID
 .
 h
 \
-nsIViewObserver
-.
-h
-\
 nsIScrollPositionListener
 .
 h
