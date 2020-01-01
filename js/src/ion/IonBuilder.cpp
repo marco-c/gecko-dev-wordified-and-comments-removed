@@ -11213,7 +11213,7 @@ block
 )
 -
 >
-remove
+discard
 (
 oldarg
 )

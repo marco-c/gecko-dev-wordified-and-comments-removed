@@ -136,7 +136,7 @@ wrapped
 block
 -
 >
-remove
+discard
 (
 passArg
 )

@@ -548,8 +548,11 @@ ins
 )
 ;
 void
-remove
+moveBefore
 (
+MInstruction
+*
+at
 MInstruction
 *
 ins
