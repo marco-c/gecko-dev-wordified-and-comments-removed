@@ -681,16 +681,6 @@ aTopLevel
 )
 ;
 }
-MozQWidget
-*
-GetTopLevelWidget
-(
-)
-{
-return
-mTopLevelWidget
-;
-}
 protected
 :
 virtual
