@@ -3014,7 +3014,10 @@ script
 (
 )
 ;
-uint32_t
+StackFrame
+:
+:
+Flags
 flags
 =
 ToFrameFlags
@@ -3058,12 +3061,6 @@ args
 .
 length
 (
-)
-(
-StackFrame
-:
-:
-Flags
 )
 flags
 )
