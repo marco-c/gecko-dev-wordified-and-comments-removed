@@ -1377,6 +1377,7 @@ nsFastLoadFileUpdater
 :
 public
 nsFastLoadFileWriter
+private
 nsIFastLoadFileIO
 {
 public

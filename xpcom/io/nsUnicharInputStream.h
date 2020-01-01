@@ -49,6 +49,7 @@ nsSimpleUnicharStreamFactory
 :
 public
 nsIFactory
+private
 nsISimpleUnicharStreamFactory
 {
 public

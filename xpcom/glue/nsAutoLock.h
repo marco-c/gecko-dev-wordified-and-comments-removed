@@ -361,6 +361,7 @@ Hide
 class
 nsAutoUnlock
 :
+private
 nsAutoUnlockBase
 {
 private

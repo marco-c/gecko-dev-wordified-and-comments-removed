@@ -178,6 +178,7 @@ BaseStringEnumerator
 :
 public
 nsISimpleEnumerator
+private
 nsIUTF8StringEnumerator
 {
 public
