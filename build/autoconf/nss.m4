@@ -742,6 +742,16 @@ AC_MSG_RESULT
 (
 no
 )
+ifelse
+(
+[
+3
+]
+:
+[
+3
+]
+)
 fi
 AC_SUBST
 (
