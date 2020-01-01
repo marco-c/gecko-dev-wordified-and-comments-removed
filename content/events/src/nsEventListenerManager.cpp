@@ -6616,6 +6616,7 @@ nsListenerStruct
 ls
 )
 mTarget
+PR_TRUE
 )
 ;
 }
