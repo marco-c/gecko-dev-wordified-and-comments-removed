@@ -131,7 +131,7 @@ char
 kServiceKeys
 =
 "
-ServiceDescription
+MozillaMaintenanceDescription
 \
 0
 "
@@ -154,9 +154,6 @@ path
 kServiceKeys
 kNumStrings
 serviceStrings
-"
-MaintenanceServiceStrings
-"
 )
 ;
 if
