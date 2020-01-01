@@ -158,13 +158,6 @@ jsscript
 h
 "
 #
-include
-"
-jsautooplen
-.
-h
-"
-#
 define
 BYTECODE_CHUNK
 256
