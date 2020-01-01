@@ -10173,8 +10173,6 @@ selectionArgs
 )
 ;
 }
-else
-{
 debug
 (
 "
@@ -10227,7 +10225,6 @@ selection
 selectionArgs
 )
 ;
-}
 }
 int
 deleteBookmarks
@@ -10283,8 +10280,6 @@ selectionArgs
 )
 ;
 }
-else
-{
 debug
 (
 "
@@ -10336,7 +10331,6 @@ selection
 selectionArgs
 )
 ;
-}
 }
 int
 deleteImages
@@ -10392,8 +10386,6 @@ null
 )
 ;
 }
-else
-{
 debug
 (
 "
@@ -10445,7 +10437,6 @@ selection
 null
 )
 ;
-}
 }
 int
 deleteUnusedImages
