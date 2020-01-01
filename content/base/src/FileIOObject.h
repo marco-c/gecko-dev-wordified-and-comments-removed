@@ -91,11 +91,6 @@ FileIOObject
 (
 )
 ;
-~
-FileIOObject
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_METHOD
 Abort

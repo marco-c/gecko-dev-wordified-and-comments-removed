@@ -301,12 +301,6 @@ mScriptContext
 aScriptContext
 ;
 }
-virtual
-~
-nsXMLHttpRequestUpload
-(
-)
-;
 NS_DECL_ISUPPORTS_INHERITED
 NS_FORWARD_NSIXMLHTTPREQUESTEVENTTARGET
 (
