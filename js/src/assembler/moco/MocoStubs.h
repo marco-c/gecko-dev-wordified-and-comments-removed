@@ -98,5 +98,3 @@ m_jitcode
 }
 ;
 }
-#
-endif
