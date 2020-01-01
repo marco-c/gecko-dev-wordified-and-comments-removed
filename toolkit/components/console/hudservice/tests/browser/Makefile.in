@@ -856,6 +856,10 @@ browser_webconsole_bug_651501_document_body_autocomplete
 .
 js
 \
+browser_webconsole_bug_663443_panel_title
+.
+js
+\
 head
 .
 js
