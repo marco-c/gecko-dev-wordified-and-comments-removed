@@ -10543,6 +10543,14 @@ aAllowed
 =
 PR_FALSE
 ;
+if
+(
+!
+aURI
+)
+return
+NS_OK
+;
 nsCOMPtr
 <
 nsIURI
