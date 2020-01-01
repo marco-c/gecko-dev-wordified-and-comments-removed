@@ -220,6 +220,17 @@ RowCount
 )
 ;
 virtual
+nsAccessible
+*
+CellAt
+(
+PRUint32
+aRowIndex
+PRUint32
+aColumnIndex
+)
+;
+virtual
 PRInt32
 CellIndexAt
 (
