@@ -524,6 +524,11 @@ JSAtom
 MutableHandleAtom
 ;
 typedef
+JSAtom
+*
+RawAtom
+;
+typedef
 JS
 :
 :
