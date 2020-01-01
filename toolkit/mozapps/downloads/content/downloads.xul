@@ -1498,9 +1498,9 @@ label
 &
 cmd
 .
-show
+showMac
 .
-labelMac
+label
 ;
 "
 accesskey
@@ -1509,9 +1509,9 @@ accesskey
 &
 cmd
 .
-show
+showMac
 .
-accesskeyMac
+accesskey
 ;
 "
 #
