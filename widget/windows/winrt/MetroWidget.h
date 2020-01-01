@@ -1125,12 +1125,6 @@ mWnd
 WNDPROC
 mMetroWndProc
 ;
-nsIWidget
-:
-:
-InputContext
-mInputContext
-;
 bool
 mTempBasicLayerInUse
 ;
