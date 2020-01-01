@@ -4847,6 +4847,17 @@ shadowItem
 mYOffset
 )
 ;
+nsRect
+nativeRect
+;
+nativeRect
+.
+IntersectRect
+(
+frameRect
+aDirtyRect
+)
+;
 aPresContext
 -
 >
@@ -4864,7 +4875,7 @@ styleDisplay
 >
 mAppearance
 aFrameArea
-frameRect
+nativeRect
 )
 ;
 }
