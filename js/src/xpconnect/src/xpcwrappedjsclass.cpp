@@ -6386,7 +6386,7 @@ success
 js
 :
 :
-Invoke
+InvokeFriendAPI
 (
 cx
 args

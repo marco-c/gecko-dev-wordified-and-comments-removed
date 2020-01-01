@@ -750,7 +750,6 @@ val
 ;
 }
 jsdouble
-*
 jsd_GetValueDouble
 (
 JSDContext
@@ -776,9 +775,8 @@ return
 0
 ;
 return
-JSVAL_PTR_TO_DOUBLE_PTR
+JSVAL_TO_DOUBLE
 (
-&
 jsdval
 -
 >
@@ -1422,7 +1420,7 @@ name
 jsd_NewValue
 (
 jsdc
-JSID_TO_JSVAL
+ID_TO_JSVAL
 (
 pd
 -
@@ -1479,7 +1477,7 @@ alias
 jsd_NewValue
 (
 jsdc
-JSID_TO_JSVAL
+ID_TO_JSVAL
 (
 pd
 -
@@ -2465,7 +2463,6 @@ if
 JS_ValueToId
 (
 cx
-&
 nameval
 &
 pd
@@ -2490,7 +2487,7 @@ pd
 .
 alias
 =
-JSID_NULL
+JSVAL_NULL
 ;
 pd
 .

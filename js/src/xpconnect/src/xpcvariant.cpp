@@ -158,14 +158,6 @@ Cleanup
 mData
 )
 ;
-if
-(
-!
-JSVAL_IS_NULL
-(
-mJSVal
-)
-)
 RemoveFromRootSet
 (
 nsXPConnect

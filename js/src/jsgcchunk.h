@@ -7,14 +7,14 @@ jsgchunk_h__
 #
 include
 "
-jsprvtd
+jsapi
 .
 h
 "
 #
 include
 "
-jspubtd
+jsprvtd
 .
 h
 "

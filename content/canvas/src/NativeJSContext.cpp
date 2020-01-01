@@ -25,7 +25,8 @@ NativeJSContext
 :
 AddGCRoot
 (
-void
+JSObject
+*
 *
 aPtr
 const
