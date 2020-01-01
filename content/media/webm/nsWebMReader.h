@@ -32,13 +32,6 @@ h
 #
 include
 "
-nsAutoRef
-.
-h
-"
-#
-include
-"
 nestegg
 /
 nestegg
@@ -411,10 +404,8 @@ AUDIO
 1
 }
 ;
-nsReturnRef
-<
 nestegg_packet
->
+*
 NextPacket
 (
 TrackType
