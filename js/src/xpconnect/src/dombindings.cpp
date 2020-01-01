@@ -58,10 +58,7 @@ namespace
 dom
 {
 int
-NodeListBase
-:
-:
-NodeListFamily
+HandlerFamily
 ;
 JSObject
 *
