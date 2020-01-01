@@ -341,9 +341,8 @@ GeckoApp
 .
 mDoorHangerPopup
 .
-updatePopupForTab
+updatePopup
 (
-mTab
 )
 ;
 }
