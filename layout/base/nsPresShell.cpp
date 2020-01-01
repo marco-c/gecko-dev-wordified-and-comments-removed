@@ -32224,13 +32224,6 @@ InvalidateOutsideCaret
 (
 )
 ;
-mCaret
--
->
-UpdateCaretPosition
-(
-)
-;
 }
 mPresContext
 -
