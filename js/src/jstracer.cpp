@@ -51826,6 +51826,10 @@ ATOM_TO_JSID
 atom
 )
 ;
+forgetGuardedShapes
+(
+)
+;
 JSProperty
 *
 prop
