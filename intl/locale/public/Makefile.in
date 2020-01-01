@@ -434,7 +434,7 @@ nsILanguageAtomService
 .
 h
 \
-nsIPosixLocale
+nsPosixLocale
 .
 h
 \
