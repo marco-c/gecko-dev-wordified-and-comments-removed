@@ -25480,6 +25480,8 @@ memmove
 rint
 stat64
 lstat64
+truncate64
+statvfs64
 )
 AC_CHECK_FUNCS
 (
