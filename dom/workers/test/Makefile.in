@@ -462,11 +462,11 @@ url_worker
 .
 js
 \
-test_bug911085
+test_rvals
 .
 html
 \
-bug911085_worker
+rvals_worker
 .
 js
 \
