@@ -4583,7 +4583,7 @@ aTabIndex
 {
 if
 (
-nsGenericHTMLElement
+nsGenericHTMLFormElement
 :
 :
 IsHTMLFocusable
