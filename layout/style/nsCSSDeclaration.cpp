@@ -1846,6 +1846,12 @@ aResult
 }
 else
 {
+intValue
+&
+=
+~
+NS_STYLE_TEXT_DECORATION_OVERRIDE_ALL
+;
 nsStyleUtil
 :
 :
