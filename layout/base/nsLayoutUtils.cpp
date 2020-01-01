@@ -23446,8 +23446,6 @@ const
 nsIFrame
 *
 aFrame
-WidthDetermination
-aWidthDetermination
 )
 {
 nsPresContext
@@ -23598,8 +23596,6 @@ const
 nsIFrame
 *
 aFrame
-WidthDetermination
-aWidthDetermination
 )
 {
 if
@@ -23629,7 +23625,6 @@ aFrame
 InflationMinFontSizeFor
 (
 aFrame
-aWidthDetermination
 )
 )
 ;

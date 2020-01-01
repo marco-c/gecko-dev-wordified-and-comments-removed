@@ -2698,13 +2698,6 @@ GetStateBits
 NS_FRAME_FONT_INFLATION_CONTAINER
 ;
 }
-enum
-WidthDetermination
-{
-eNotInReflow
-eInReflow
-}
-;
 static
 float
 FontSizeInflationFor
@@ -2713,8 +2706,6 @@ const
 nsIFrame
 *
 aFrame
-WidthDetermination
-aWidthDetermination
 )
 ;
 static
@@ -2725,8 +2716,6 @@ const
 nsIFrame
 *
 aFrame
-WidthDetermination
-aWidthDetermination
 )
 ;
 static

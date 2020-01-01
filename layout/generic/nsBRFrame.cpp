@@ -462,10 +462,6 @@ nsLayoutUtils
 FontSizeInflationFor
 (
 this
-nsLayoutUtils
-:
-:
-eInReflow
 )
 )
 ;
