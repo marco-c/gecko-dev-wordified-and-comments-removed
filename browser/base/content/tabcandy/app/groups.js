@@ -6157,6 +6157,7 @@ newTab
 :
 function
 (
+url
 )
 {
 Groups
@@ -6173,6 +6174,9 @@ Tabs
 .
 open
 (
+url
+|
+|
 "
 about
 :
