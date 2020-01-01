@@ -171,20 +171,6 @@ dmax
 n_buckets
 )
     
-if
-n_buckets
-=
-=
-2
-:
-        
-return
-[
-0
-1
-2
-]
-    
 ret_array
 =
 [
@@ -1344,9 +1330,9 @@ definition
         
 return
 (
-0
 1
 2
+3
 )
     
 staticmethod
