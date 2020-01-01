@@ -439,13 +439,13 @@ because
 of
 nsXULAtoms
 .
-DIRS
+PARALLEL_DIRS
 =
 document
 content
 ifdef
 MOZ_XUL
-DIRS
+PARALLEL_DIRS
 +
 =
 templates

@@ -415,7 +415,7 @@ mk
 MODULE
 =
 xuldoc
-DIRS
+PARALLEL_DIRS
 =
 public
 src

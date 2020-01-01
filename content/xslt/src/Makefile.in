@@ -418,7 +418,7 @@ config
 autoconf
 .
 mk
-DIRS
+PARALLEL_DIRS
 =
 base
 xml
@@ -426,7 +426,7 @@ xpath
 xslt
 ifdef
 MOZ_XSLT_STANDALONE
-DIRS
+PARALLEL_DIRS
 +
 =
 main

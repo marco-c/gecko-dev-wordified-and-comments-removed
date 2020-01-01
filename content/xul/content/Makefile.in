@@ -415,7 +415,7 @@ mk
 MODULE
 =
 xul
-DIRS
+PARALLEL_DIRS
 =
 src
 test

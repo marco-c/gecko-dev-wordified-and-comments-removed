@@ -409,7 +409,7 @@ config
 autoconf
 .
 mk
-DIRS
+PARALLEL_DIRS
 =
 content
 document

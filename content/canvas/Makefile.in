@@ -414,7 +414,7 @@ config
 autoconf
 .
 mk
-DIRS
+PARALLEL_DIRS
 =
 public
 src
