@@ -401,6 +401,11 @@ srcdir
 srcdir
 =
 srcdir
+relativesrcdir
+=
+js
+/
+jsd
 include
 (
 DEPTH
@@ -437,6 +442,9 @@ JavaScript_Debugger
 EXPORT_LIBRARY
 =
 1
+XPCSHELL_TESTS
+=
+test
 #
 REQUIRES
 =
