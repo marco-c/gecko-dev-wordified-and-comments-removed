@@ -60,6 +60,9 @@ imageSurfaceEquiv
 cairo_surface_clipper_t
 clipper
 ;
+CGImageRef
+bitmapContextImage
+;
 cairo_rectangle_int_t
 extents
 ;
