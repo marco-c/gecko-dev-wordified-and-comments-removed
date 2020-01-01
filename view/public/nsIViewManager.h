@@ -162,8 +162,6 @@ UpdateView
 nsIView
 *
 aView
-PRUint32
-aUpdateFlags
 )
 =
 0
@@ -178,8 +176,6 @@ const
 nsRect
 &
 aRect
-PRUint32
-aUpdateFlags
 )
 =
 0
@@ -187,8 +183,6 @@ aUpdateFlags
 NS_IMETHOD
 UpdateAllViews
 (
-PRUint32
-aUpdateFlags
 )
 =
 0
@@ -435,8 +429,6 @@ BeginUpdateViewBatch
 void
 EndUpdateViewBatch
 (
-PRUint32
-aUpdateFlags
 )
 {
 if
@@ -451,7 +443,6 @@ mRootVM
 >
 EndUpdateViewBatch
 (
-aUpdateFlags
 )
 ;
 mRootVM
@@ -508,8 +499,6 @@ void
 NS_IMETHOD
 EndUpdateViewBatch
 (
-PRUint32
-aUpdateFlags
 )
 =
 0
@@ -564,17 +553,5 @@ NS_DEFINE_STATIC_IID_ACCESSOR
 nsIViewManager
 NS_IVIEWMANAGER_IID
 )
-#
-define
-NS_VMREFRESH_NO_SYNC
-0
-#
-define
-NS_VMREFRESH_DEFERRED
-0x0001
-#
-define
-NS_VMREFRESH_IMMEDIATE
-0x0002
 #
 endif

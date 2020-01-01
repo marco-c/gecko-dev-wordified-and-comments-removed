@@ -2623,7 +2623,6 @@ vm
 UpdateView
 (
 root
-NS_VMREFRESH_IMMEDIATE
 )
 ;
 }

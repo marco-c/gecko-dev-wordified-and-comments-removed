@@ -16742,7 +16742,6 @@ mBatch
 .
 EndUpdateViewBatch
 (
-NS_VMREFRESH_NO_SYNC
 )
 ;
 nsCOMPtr

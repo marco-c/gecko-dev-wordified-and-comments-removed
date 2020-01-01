@@ -19006,7 +19006,6 @@ viewManager
 >
 UpdateAllViews
 (
-0
 )
 NS_ERROR_FAILURE
 )
@@ -28547,7 +28546,6 @@ newVM
 UpdateView
 (
 newRootView
-NS_VMREFRESH_NO_SYNC
 )
 ;
 }
