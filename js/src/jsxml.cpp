@@ -8986,11 +8986,6 @@ dstlen
 =
 0
 ;
-LeaveTrace
-(
-cx
-)
-;
 xml
 =
 NULL
@@ -39800,11 +39795,6 @@ list
 JSXMLFilter
 *
 filter
-;
-LeaveTrace
-(
-cx
-)
 ;
 sp
 =

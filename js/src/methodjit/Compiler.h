@@ -2519,7 +2519,7 @@ uses
 )
 ;
 bool
-jumpAndTrace
+jumpAndRun
 (
 Jump
 j

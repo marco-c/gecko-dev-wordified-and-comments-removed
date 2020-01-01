@@ -1011,6 +1011,8 @@ cur
 JSString
 *
 str
+=
+NULL
 ;
 jsid
 name

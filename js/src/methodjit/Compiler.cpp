@@ -144,13 +144,6 @@ h
 #
 include
 "
-jshotloop
-.
-h
-"
-#
-include
-"
 builtin
 /
 RegExp
@@ -10700,7 +10693,7 @@ jump
 if
 (
 !
-jumpAndTrace
+jumpAndRun
 (
 j
 target
@@ -24862,7 +24855,7 @@ jump
 if
 (
 !
-jumpAndTrace
+jumpAndRun
 (
 j
 target
@@ -25026,7 +25019,7 @@ ReturnReg
 )
 ;
 return
-jumpAndTrace
+jumpAndRun
 (
 j
 target
@@ -34989,7 +34982,7 @@ tempreg
 )
 ;
 return
-jumpAndTrace
+jumpAndRun
 (
 jFast
 target
@@ -40293,7 +40286,7 @@ mjit
 Compiler
 :
 :
-jumpAndTrace
+jumpAndRun
 (
 Jump
 j
@@ -41865,7 +41858,7 @@ pop
 )
 ;
 return
-jumpAndTrace
+jumpAndRun
 (
 defaultCase
 originalPC
