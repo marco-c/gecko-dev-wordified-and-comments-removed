@@ -4727,9 +4727,9 @@ rhs
 .
 asBits
 ;
+}
 #
 endif
-}
 }
 ;
 }
@@ -6037,6 +6037,13 @@ JSCLASS_DOCUMENT_OBSERVER
 <
 7
 )
+/
+*
+DOM
+document
+observer
+*
+/
 #
 define
 JSCLASS_RESERVED_SLOTS_SHIFT
