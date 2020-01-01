@@ -5929,6 +5929,11 @@ CanEnterUsingFastInvoke
 (
 cx
 script_
+args_
+.
+length
+(
+)
 )
 ;
 if
