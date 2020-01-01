@@ -536,6 +536,12 @@ DEPTH
 )
 /
 _leaktest
+GARBAGE_DIRS
++
+=
+(
+_LEAKTEST_DIR
+)
 _LEAKTEST_FILES
 =
 \
@@ -598,6 +604,12 @@ py
 chmod
 +
 x
+GARBAGE
++
+=
+leaktest
+.
+py
 libs
 :
 :
