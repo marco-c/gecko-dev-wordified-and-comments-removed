@@ -1112,6 +1112,12 @@ return
 Compile_Abort
 ;
 }
+frame
+.
+assertValidRegisterState
+(
+)
+;
 }
 done
 :

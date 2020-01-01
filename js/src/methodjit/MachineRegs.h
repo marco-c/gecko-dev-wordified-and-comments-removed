@@ -624,7 +624,6 @@ AvailRegs
 )
 {
 }
-inline
 void
 reset
 (
@@ -635,7 +634,6 @@ freeMask
 AvailRegs
 ;
 }
-inline
 bool
 anyRegsFree
 (
@@ -647,7 +645,6 @@ return
 freeMask
 ;
 }
-inline
 bool
 anyRegsFree
 (
@@ -665,7 +662,6 @@ mask
 )
 ;
 }
-inline
 RegisterID
 allocReg
 (
@@ -702,7 +698,6 @@ return
 reg
 ;
 }
-inline
 bool
 isRegFree
 (
@@ -725,7 +720,6 @@ reg
 )
 ;
 }
-inline
 void
 freeReg
 (
@@ -753,7 +747,6 @@ reg
 )
 ;
 }
-inline
 RegisterID
 allocFromMask
 (
@@ -831,7 +824,6 @@ false
 ;
 }
 }
-inline
 void
 allocSpecific
 (
@@ -857,6 +849,26 @@ freeMask
 <
 reg
 )
+;
+}
+bool
+operator
+=
+=
+(
+const
+Registers
+&
+other
+)
+{
+return
+freeMask
+=
+=
+other
+.
+freeMask
 ;
 }
 uint32
