@@ -1101,6 +1101,10 @@ plugin_bug797677
 .
 html
 \
+plugin_bug818009
+.
+html
+\
 plugin_hidden_to_visible
 .
 html
@@ -1202,6 +1206,10 @@ browser_bug734076
 js
 \
 browser_bug812562
+.
+js
+\
+browser_bug818009
 .
 js
 \
