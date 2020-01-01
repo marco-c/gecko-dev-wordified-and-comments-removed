@@ -272,6 +272,17 @@ BOOL
 )
 transparent
 ;
+-
+(
+void
+)
+sendFocusEvent
+:
+(
+PRUint32
+)
+eventType
+;
 end
 class
 nsTSMManager
@@ -1226,6 +1237,9 @@ mPluginDrawing
 ;
 PRPackedBool
 mPluginIsCG
+;
+PRPackedBool
+mInSetFocus
 ;
 nsPluginPort
 mPluginPort
