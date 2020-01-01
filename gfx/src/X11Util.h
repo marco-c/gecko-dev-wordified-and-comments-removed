@@ -143,6 +143,14 @@ int
 aDepth
 )
 ;
+void
+FinishX
+(
+Display
+*
+aDisplay
+)
+;
 template
 <
 typename
