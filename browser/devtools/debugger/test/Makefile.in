@@ -382,6 +382,12 @@ inner
 .
 js
 \
+browser_dbg_breadcrumbs
+-
+access
+.
+js
+\
 browser_dbg_stack
 -
 01

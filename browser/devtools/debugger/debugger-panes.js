@@ -492,6 +492,12 @@ false
 ;
 this
 .
+autoFocusOnSelection
+=
+false
+;
+this
+.
 empty
 (
 )
