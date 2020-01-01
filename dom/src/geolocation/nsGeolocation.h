@@ -161,6 +161,11 @@ nsIDOMGeoPositionOptions
 options
 )
 ;
+nsresult
+Init
+(
+)
+;
 void
 Shutdown
 (
@@ -398,6 +403,11 @@ IsDeviceReady
 (
 )
 ;
+PRBool
+HasGeolocationProvider
+(
+)
+;
 nsresult
 StartDevice
 (
@@ -434,6 +444,9 @@ nsCOMPtr
 nsIGeolocationProvider
 >
 mProvider
+;
+PRBool
+mProviderStarted
 ;
 nsTArray
 <
