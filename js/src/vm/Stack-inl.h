@@ -213,7 +213,7 @@ obj
 obj
 -
 >
-getParent
+scopeChain
 (
 )
 ;
