@@ -68,6 +68,10 @@ DOMTokenList
 )
 DOMCI_CLASS
 (
+DOMSettableTokenList
+)
+DOMCI_CLASS
+(
 DocumentFragment
 )
 DOMCI_CLASS
@@ -301,6 +305,10 @@ HTMLOptGroupElement
 DOMCI_CLASS
 (
 HTMLOptionElement
+)
+DOMCI_CLASS
+(
+HTMLOutputElement
 )
 DOMCI_CLASS
 (
@@ -591,6 +599,14 @@ SVGAnimateElement
 DOMCI_CLASS
 (
 SVGAnimateTransformElement
+)
+DOMCI_CLASS
+(
+SVGAnimateMotionElement
+)
+DOMCI_CLASS
+(
+SVGMpathElement
 )
 DOMCI_CLASS
 (

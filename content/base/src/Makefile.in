@@ -603,6 +603,10 @@ nsDOMTokenList
 .
 cpp
 \
+nsDOMSettableTokenList
+.
+cpp
+\
 nsDocument
 .
 cpp
