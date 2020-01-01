@@ -84,6 +84,10 @@ public
 :
 static
 Class
+class_
+;
+static
+Class
 protoClass
 ;
 static

@@ -1118,7 +1118,10 @@ toObject
 (
 )
 .
-asArrayBuffer
+as
+<
+ArrayBufferObject
+>
 (
 )
 ;

@@ -1813,7 +1813,10 @@ if
 src
 -
 >
-isArrayBuffer
+is
+<
+ArrayBufferObject
+>
 (
 )
 )

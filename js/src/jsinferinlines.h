@@ -1927,7 +1927,10 @@ JSProto_ArrayBuffer
 :
 return
 &
-ArrayBufferClass
+ArrayBufferObject
+:
+:
+class_
 ;
 case
 JSProto_DataView

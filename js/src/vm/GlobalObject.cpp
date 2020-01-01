@@ -619,7 +619,10 @@ isProxy
 obj
 -
 >
-isArrayBuffer
+is
+<
+ArrayBufferObject
+>
 (
 )
 )

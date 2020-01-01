@@ -5613,7 +5613,10 @@ clasp
 js
 :
 :
-ArrayBufferClass
+ArrayBufferObject
+:
+:
+class_
 )
 obj
 -
@@ -9723,7 +9726,10 @@ return
 obj
 -
 >
-isArrayBuffer
+is
+<
+ArrayBufferObject
+>
 (
 )
 ;
