@@ -51,6 +51,9 @@ JSONSpewer
 private
 :
 bool
+inFunction_
+;
+bool
 first_
 ;
 FILE
@@ -151,6 +154,10 @@ JSONSpewer
 (
 )
 :
+inFunction_
+(
+false
+)
 first_
 (
 true

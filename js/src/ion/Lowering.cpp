@@ -1890,9 +1890,12 @@ IonSpewFile
 "
 slot
 %
-d
+u
 :
 "
+(
+unsigned
+)
 i
 )
 ;
