@@ -73,6 +73,10 @@ OverrideMapping
 >
 &
 aOverrides
+const
+nsACString
+&
+aLocale
 )
 ;
 NS_OVERRIDE
@@ -285,6 +289,9 @@ nsCStringHashKey
 PackageEntry
 >
 mPackagesHash
+;
+nsCString
+mLocale
 ;
 virtual
 void

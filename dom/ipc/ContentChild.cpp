@@ -1569,6 +1569,10 @@ OverrideMapping
 >
 &
 overrides
+const
+nsCString
+&
+locale
 )
 {
 nsCOMPtr
@@ -1609,6 +1613,7 @@ RegisterRemoteChrome
 packages
 resources
 overrides
+locale
 )
 ;
 return

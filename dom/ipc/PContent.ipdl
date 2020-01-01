@@ -674,6 +674,8 @@ OverrideMapping
 [
 ]
 overrides
+nsCString
+locale
 )
 ;
 async

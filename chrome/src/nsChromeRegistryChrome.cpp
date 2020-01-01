@@ -2274,6 +2274,7 @@ SendRegisterChrome
 packages
 resources
 overrides
+mSelectedLocale
 )
 ;
 NS_ENSURE_TRUE
