@@ -445,8 +445,6 @@ visible
 ;
 offScreenSubBrowser
 .
-wrappedJSObject
-.
 contentWindow
 .
 focus
@@ -456,8 +454,6 @@ focus
 todo
 (
 offScreenSubBrowser
-.
-wrappedJSObject
 .
 contentDocument
 .
@@ -478,8 +474,6 @@ visible
 ;
 offScreenBurriedBrowser
 .
-wrappedJSObject
-.
 contentWindow
 .
 focus
@@ -490,8 +484,6 @@ ok
 (
 !
 offScreenBurriedBrowser
-.
-wrappedJSObject
 .
 contentDocument
 .

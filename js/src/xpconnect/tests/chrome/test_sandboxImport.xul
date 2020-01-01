@@ -295,7 +295,7 @@ getClassName
 obj
 )
 "
-XPCSafeJSObjectWrapper
+Proxy
 "
 "
 right

@@ -338,7 +338,7 @@ toString
 indexOf
 (
 "
-XPCNativeWrapper
+XrayWrapper
 "
 )
 >
@@ -348,7 +348,7 @@ XPCNativeWrapper
 doc
 is
 an
-XPCNativeWrapper
+XrayWrapper
 "
 )
 ;
@@ -379,7 +379,7 @@ toString
 indexOf
 (
 "
-XPCNativeWrapper
+XrayWrapper
 "
 )
 >

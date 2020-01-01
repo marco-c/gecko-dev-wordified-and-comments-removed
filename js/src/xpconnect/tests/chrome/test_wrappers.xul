@@ -342,7 +342,7 @@ interfaces
 nsIDOMWindowUtils
 )
 ;
-todo_is
+is
 (
 utils
 .
@@ -351,7 +351,7 @@ getClassName
 window
 )
 "
-XPCSafeJSObjectWrapper
+Proxy
 "
 "
 our
@@ -361,7 +361,7 @@ wrapped
 correctly
 "
 )
-todo_is
+is
 (
 utils
 .
@@ -370,7 +370,7 @@ getClassName
 location
 )
 "
-XPCSafeJSObjectWrapper
+Proxy
 "
 "
 our
@@ -389,13 +389,13 @@ getClassName
 win
 )
 "
-XPCNativeWrapper
+Proxy
 "
 "
 win
 is
 an
-XPCNW
+Proxy
 "
 )
 ;
@@ -410,7 +410,7 @@ win
 location
 )
 "
-XPCNativeWrapper
+Proxy
 "
 "
 deep
@@ -476,13 +476,13 @@ getClassName
 unsafeWin
 )
 "
-XPCSafeJSObjectWrapper
+Proxy
 "
 "
 can
 get
 a
-SJOW
+Proxy
 "
 )
 ;
@@ -497,7 +497,7 @@ unsafeWin
 location
 )
 "
-XPCSafeJSObjectWrapper
+Proxy
 "
 "
 deep
@@ -561,7 +561,7 @@ val
 =
 =
 "
-XPCSafeJSObjectWrapper
+Proxy
 "
 "
 wrapped
@@ -616,7 +616,7 @@ getClassName
 this
 )
 "
-XPCNativeWrapper
+Proxy
 "
 "
 this

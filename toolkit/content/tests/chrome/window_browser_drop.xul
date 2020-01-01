@@ -629,6 +629,8 @@ frames
 1
 ]
 .
+wrappedJSObject
+.
 stopMode
 =
 true
@@ -737,6 +739,8 @@ frames
 [
 1
 ]
+.
+wrappedJSObject
 .
 cancelMode
 =
