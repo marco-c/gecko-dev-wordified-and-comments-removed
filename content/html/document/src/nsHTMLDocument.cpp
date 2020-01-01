@@ -15623,6 +15623,15 @@ EditingStateChanged
 {
 if
 (
+mRemovedFromDocShell
+)
+{
+return
+NS_OK
+;
+}
+if
+(
 mEditingState
 =
 =

@@ -1453,9 +1453,6 @@ aURI
 void
 ReattachEditorToWindow
 (
-nsIDOMWindow
-*
-aWindow
 nsISHEntry
 *
 aSHEntry
@@ -1772,11 +1769,6 @@ static
 nsIURIFixup
 *
 sURIFixup
-;
-PRBool
-HasDetachedEditor
-(
-)
 ;
 public
 :

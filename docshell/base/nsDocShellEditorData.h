@@ -130,9 +130,9 @@ DetachFromWindow
 nsresult
 ReattachToWindow
 (
-nsIDOMWindow
+nsIDocShell
 *
-aWindow
+aDocShell
 )
 ;
 protected
