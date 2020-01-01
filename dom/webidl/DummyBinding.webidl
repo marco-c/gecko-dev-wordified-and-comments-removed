@@ -204,14 +204,6 @@ arg
 )
 ;
 void
-DeviceStorageEnumerationParameters
-(
-optional
-DeviceStorageEnumerationParameters
-arg
-)
-;
-void
 CameraPictureOptions
 (
 optional

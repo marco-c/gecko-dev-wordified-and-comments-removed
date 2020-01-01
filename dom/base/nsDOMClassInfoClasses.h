@@ -284,10 +284,6 @@ ModalContentWindow
 )
 DOMCI_CLASS
 (
-DeviceStorage
-)
-DOMCI_CLASS
-(
 GeoPositionCoords
 )
 DOMCI_CLASS
