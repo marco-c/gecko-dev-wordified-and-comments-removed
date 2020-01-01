@@ -6273,6 +6273,9 @@ num_glyphs
 cairo_scaled_font_t
 *
 scaled_font
+int
+*
+remaining_glyphs
 )
 {
 cairo_qpainter_surface_t
@@ -6549,7 +6552,7 @@ return
 (
 cairo_int_status_t
 )
-_cairo_surface_show_glyphs
+_cairo_surface_show_text_glyphs
 (
 qs
 -
@@ -6557,8 +6560,13 @@ qs
 xlib_equiv
 op
 source
+NULL
+0
 glyphs
 num_glyphs
+NULL
+0
+FALSE
 scaled_font
 )
 ;
