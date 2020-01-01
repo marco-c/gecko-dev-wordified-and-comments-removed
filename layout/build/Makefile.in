@@ -2175,6 +2175,9 @@ AudioUnit
 -
 framework
 Carbon
+-
+framework
+IOKit
 endif
 endif
 include
