@@ -18,6 +18,16 @@ tests
 /
 submissions
 /
+Ms2ger
+\
+webapps
+/
+DOMCore
+/
+tests
+/
+submissions
+/
 Opera
 \
 webapps
