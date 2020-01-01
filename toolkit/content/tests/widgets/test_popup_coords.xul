@@ -711,7 +711,7 @@ event
 clientX
 Math
 .
-round
+floor
 (
 rect
 .
@@ -733,7 +733,7 @@ event
 clientY
 Math
 .
-round
+floor
 (
 rect
 .

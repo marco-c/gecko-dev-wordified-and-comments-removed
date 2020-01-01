@@ -249,6 +249,9 @@ class
 nsIWidget
 ;
 class
+nsIDragSession
+;
+class
 nsPIDOMWindow
 ;
 #
@@ -2232,6 +2235,15 @@ HidePopupsInDocument
 nsIDocument
 *
 aDocument
+)
+;
+static
+already_AddRefed
+<
+nsIDragSession
+>
+GetDragSession
+(
 )
 ;
 static
