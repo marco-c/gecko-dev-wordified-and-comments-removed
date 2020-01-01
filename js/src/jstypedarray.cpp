@@ -4003,7 +4003,9 @@ tarray
 obj
 -
 >
-changeClassToFastArray
+clasp
+=
+fastClass
 (
 )
 ;

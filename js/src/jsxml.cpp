@@ -17914,7 +17914,7 @@ if
 index
 <
 =
-JSVAL_INT_MAX
+JSBOXEDWORD_INT_MAX
 )
 {
 *

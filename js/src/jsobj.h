@@ -635,8 +635,6 @@ JSObjectMap
 *
 map
 ;
-private
-:
 js
 :
 :
@@ -647,8 +645,6 @@ clasp
 jsuword
 flags
 ;
-public
-:
 js
 :
 :
@@ -2739,18 +2735,6 @@ cx
 inline
 void
 initArrayClass
-(
-)
-;
-inline
-void
-changeClassToSlowArray
-(
-)
-;
-inline
-void
-changeClassToFastArray
 (
 )
 ;
