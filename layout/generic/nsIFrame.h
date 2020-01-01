@@ -2027,6 +2027,11 @@ DestroyPoint
 )
 NS_DECLARE_FRAME_PROPERTY
 (
+ComputedStickyOffsetProperty
+DestroyMargin
+)
+NS_DECLARE_FRAME_PROPERTY
+(
 OutlineInnerRectProperty
 DestroyRect
 )

@@ -964,6 +964,11 @@ UpdateOverflow
 )
 ;
 void
+UpdateSticky
+(
+)
+;
+void
 AdjustScrollbarRectForResizer
 (
 nsIFrame

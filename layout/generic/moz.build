@@ -267,6 +267,11 @@ ScrollbarActivity
 cpp
 '
 '
+StickyScrollContainer
+.
+cpp
+'
+'
 TextOverflow
 .
 cpp
