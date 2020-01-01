@@ -1671,12 +1671,8 @@ res
 drawable
 cp
 (
-topsrcdir
+srcdir
 )
-/
-mobile
-/
-app
 /
 maemo
 /
