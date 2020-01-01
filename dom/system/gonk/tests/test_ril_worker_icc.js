@@ -9655,7 +9655,7 @@ number
 add_test
 (
 function
-test_get_free_record_id
+test_find_free_record_id
 (
 )
 {
@@ -9863,7 +9863,7 @@ fileId
 ;
 record
 .
-getFreeRecordId
+findFreeRecordId
 (
 fileId
 function
