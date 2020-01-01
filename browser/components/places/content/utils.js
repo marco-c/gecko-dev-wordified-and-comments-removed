@@ -4802,7 +4802,7 @@ aPostData
 )
 annos
 .
-setPageAnnotationString
+setPageAnnotation
 (
 aURI
 POST_DATA_ANNO
@@ -4859,7 +4859,7 @@ POST_DATA_ANNO
 return
 annos
 .
-getPageAnnotationString
+getPageAnnotation
 (
 aURI
 POST_DATA_ANNO
