@@ -74,12 +74,6 @@ defined
 (
 JS_JIT_SPEW
 )
-|
-|
-defined
-(
-NJ_NO_VARIADIC_MACROS
-)
 enum
 LC_TMBits
 {
