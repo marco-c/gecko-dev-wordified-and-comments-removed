@@ -13374,9 +13374,6 @@ gcExtraRootsData
 ;
 #
 ifdef
-JS_TRACER
-#
-ifdef
 JS_THREADSAFE
 while
 (
@@ -13400,18 +13397,6 @@ if
 (
 !
 acx
--
->
-thread
-|
-|
-acx
--
->
-thread
-=
-=
-cx
 -
 >
 thread
@@ -13486,8 +13471,6 @@ loopTable
 "
 )
 ;
-#
-endif
 #
 endif
 }

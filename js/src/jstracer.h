@@ -45,13 +45,13 @@ rt
 uint32
 js_AllocateLoopTableSlot
 (
-JSRuntime
+JSContext
 *
-rt
+cx
 )
 ;
-void
-js_GrowLoopTableIfNeeded
+JSBool
+js_GrowLoopTable
 (
 JSContext
 *
