@@ -32,14 +32,14 @@ for
 each
 (
 var
-import
+name
 in
 imports
 )
 {
 window
 [
-import
+name
 ]
 =
 window
@@ -48,7 +48,7 @@ opener
 .
 wrappedJSObject
 [
-import
+name
 ]
 ;
 }
