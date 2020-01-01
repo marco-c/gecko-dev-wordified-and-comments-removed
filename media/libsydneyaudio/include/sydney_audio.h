@@ -242,6 +242,12 @@ defined
 (
 WIN32
 )
+|
+|
+defined
+(
+OS2
+)
 #
 define
 SA_VOLUME_MUTED
