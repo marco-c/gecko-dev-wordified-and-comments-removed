@@ -3331,6 +3331,7 @@ vp
 )
 ;
 extern
+JS_REQUIRES_STACK
 JSBool
 js_GetPropertyHelper
 (
@@ -3350,6 +3351,7 @@ vp
 )
 ;
 extern
+JS_REQUIRES_STACK
 JSBool
 js_GetProperty
 (
@@ -3367,6 +3369,7 @@ vp
 )
 ;
 extern
+JS_REQUIRES_STACK
 JSBool
 js_GetMethod
 (
@@ -3398,6 +3401,7 @@ cx
 )
 ;
 extern
+JS_REQUIRES_STACK
 JSBool
 js_SetPropertyHelper
 (
