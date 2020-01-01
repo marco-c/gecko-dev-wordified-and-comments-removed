@@ -651,6 +651,13 @@ EGLSurface
 sur
 )
 {
+mFBSurface
+-
+>
+compositionComplete
+(
+)
+;
 if
 (
 !
