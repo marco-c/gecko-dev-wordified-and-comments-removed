@@ -53857,13 +53857,10 @@ s
 *
 "
             
-else
-:
-                
-if
+elif
 optional
 :
-                    
+                
 declType
 =
 "
@@ -53873,10 +53870,10 @@ NonNull
 s
 >
 "
-                
+            
 else
 :
-                    
+                
 declType
 =
 "
@@ -54598,7 +54595,9 @@ JSObject
 wrapArgs
 virtual
 =
-True
+descriptor
+.
+wrapperCache
                                        
 breakAfterReturnDecl
 =
@@ -54720,6 +54719,23 @@ ClassBase
 (
 "
 nsISupports
+/
+*
+Change
+nativeOwnership
+in
+the
+binding
+configuration
+if
+you
+don
+'
+t
+want
+this
+*
+/
 "
 )
                                 
@@ -54727,6 +54743,23 @@ ClassBase
 (
 "
 nsWrapperCache
+/
+*
+Change
+wrapperCache
+in
+the
+binding
+configuration
+if
+you
+don
+'
+t
+want
+this
+*
+/
 "
 )
 ]
