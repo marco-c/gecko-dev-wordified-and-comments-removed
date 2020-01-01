@@ -1747,6 +1747,19 @@ TOPSRCDIR
 client
 .
 mk
+maybe_clobber_profiledbuild
+(
+MAKE
+)
+-
+f
+(
+TOPSRCDIR
+)
+/
+client
+.
+mk
 realbuild
 MOZ_PROFILE_USE
 =
@@ -2118,6 +2131,7 @@ distclean
 alldep
 preflight
 postflight
+maybe_clobber_profiledbuild
 upload
 sdk
 :
@@ -3012,6 +3026,7 @@ clean
 realclean
 distclean
 alldep
+maybe_clobber_profiledbuild
 upload
 sdk
 :
@@ -3508,6 +3523,7 @@ depend
 realbuild
 build
 profiledbuild
+maybe_clobber_profiledbuild
 export
 libs
 alldep
