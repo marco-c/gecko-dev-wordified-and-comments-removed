@@ -767,6 +767,9 @@ SetDescriptor
 desc
 )
 ;
+#
+ifdef
+MOZ_WIDGET_GONK
 }
 else
 if
@@ -859,6 +862,8 @@ SetDescriptor
 desc
 )
 ;
+#
+endif
 }
 else
 {
