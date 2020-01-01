@@ -1378,6 +1378,10 @@ BaselineCompiler
 .
 cpp
 \
+BaselineFrameInfo
+.
+cpp
+\
 BaselineJIT
 .
 cpp
