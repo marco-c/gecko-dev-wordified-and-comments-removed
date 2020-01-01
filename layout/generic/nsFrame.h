@@ -1651,6 +1651,12 @@ DisplayReflowShutdown
 ;
 #
 endif
+static
+void
+ShutdownLayerActivityTimer
+(
+)
+;
 nsresult
 DisplayBackgroundUnconditional
 (

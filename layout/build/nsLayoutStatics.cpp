@@ -1395,6 +1395,13 @@ Shutdown
 (
 )
 ;
+nsFrame
+:
+:
+ShutdownLayerActivityTimer
+(
+)
+;
 #
 ifdef
 MOZ_SVG

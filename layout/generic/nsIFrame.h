@@ -3629,6 +3629,16 @@ EndDeferringInvalidatesForDisplayRoot
 )
 ;
 void
+MarkLayersActive
+(
+)
+;
+PRBool
+AreLayersMarkedActive
+(
+)
+;
+void
 InvalidateWithFlags
 (
 const
