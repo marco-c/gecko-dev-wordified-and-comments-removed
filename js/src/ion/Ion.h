@@ -135,7 +135,7 @@ usesBeforeCompile
 )
 usesBeforeInlining
 (
-10000
+10240
 )
 {
 }
