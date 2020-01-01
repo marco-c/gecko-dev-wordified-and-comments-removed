@@ -369,7 +369,7 @@ leading_zeroes
 ;
 NanoAssert
 (
-config
+_config
 .
 arm_arch
 >
@@ -1561,9 +1561,9 @@ ifdef
 NJ_VERBOSE
 if
 (
-config
+_config
 .
-show_stats
+arm_show_stats
 )
 {
 int
@@ -1636,7 +1636,7 @@ genEpilogue
 {
 NanoAssert
 (
-config
+_config
 .
 arm_arch
 >
@@ -1802,7 +1802,7 @@ stkd
 ;
 NanoAssert
 (
-config
+_config
 .
 arm_vfp
 |
@@ -1823,7 +1823,7 @@ deprecated_UnknownReg
 ;
 if
 (
-config
+_config
 .
 arm_vfp
 )
@@ -1948,7 +1948,7 @@ R3
 endif
 if
 (
-config
+_config
 .
 arm_vfp
 )
@@ -2031,7 +2031,7 @@ stkd
 ;
 if
 (
-config
+_config
 .
 arm_vfp
 )
@@ -2338,7 +2338,7 @@ rr
 if
 (
 !
-config
+_config
 .
 arm_vfp
 |
@@ -2367,7 +2367,7 @@ else
 {
 NanoAssert
 (
-config
+_config
 .
 arm_vfp
 )
@@ -2525,7 +2525,7 @@ ins
 {
 if
 (
-config
+_config
 .
 arm_vfp
 &
@@ -2600,7 +2600,7 @@ isIndirect
 ;
 NanoAssert
 (
-config
+_config
 .
 arm_vfp
 |
@@ -2616,7 +2616,7 @@ LIR_icall
 ;
 if
 (
-config
+_config
 .
 arm_vfp
 &
@@ -3059,7 +3059,7 @@ LR
 ;
 if
 (
-config
+_config
 .
 arm_vfp
 )
@@ -4387,7 +4387,7 @@ i
 ;
 if
 (
-config
+_config
 .
 arm_vfp
 &
@@ -4535,7 +4535,7 @@ d
 {
 if
 (
-config
+_config
 .
 arm_vfp
 &
@@ -4750,7 +4750,7 @@ LIR_ldfc
 :
 if
 (
-config
+_config
 .
 arm_vfp
 &
@@ -4867,7 +4867,7 @@ LIR_ldc32f
 :
 if
 (
-config
+_config
 .
 arm_vfp
 )
@@ -5055,7 +5055,7 @@ LIR_stfi
 :
 if
 (
-config
+_config
 .
 arm_vfp
 )
@@ -5279,7 +5279,7 @@ LIR_st32f
 :
 if
 (
-config
+_config
 .
 arm_vfp
 )
@@ -5605,7 +5605,7 @@ false
 ;
 if
 (
-config
+_config
 .
 arm_vfp
 &
@@ -5710,7 +5710,7 @@ s
 {
 if
 (
-config
+_config
 .
 arm_vfp
 &
@@ -6480,7 +6480,7 @@ else
 {
 NanoAssert
 (
-config
+_config
 .
 arm_arch
 >
@@ -6585,7 +6585,7 @@ chk
 {
 NanoAssert
 (
-config
+_config
 .
 arm_arch
 >
@@ -6694,7 +6694,7 @@ chk
 {
 if
 (
-config
+_config
 .
 arm_vfp
 &
@@ -7031,7 +7031,7 @@ return
 }
 if
 (
-config
+_config
 .
 arm_arch
 >
@@ -8274,7 +8274,7 @@ isCond
 ;
 NanoAssert
 (
-config
+_config
 .
 arm_vfp
 |
@@ -8583,7 +8583,7 @@ NV
 ;
 NanoAssert
 (
-config
+_config
 .
 arm_vfp
 |
@@ -8606,7 +8606,7 @@ _nIns
 ;
 if
 (
-config
+_config
 .
 arm_vfp
 &
@@ -9655,7 +9655,7 @@ LIR_mul
 if
 (
 (
-config
+_config
 .
 arm_arch
 >
@@ -10910,7 +10910,7 @@ LIR_fret
 ;
 if
 (
-config
+_config
 .
 arm_vfp
 )

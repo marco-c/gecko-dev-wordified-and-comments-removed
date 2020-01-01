@@ -1170,6 +1170,13 @@ lcbits
 #
 include
 "
+njconfig
+.
+h
+"
+#
+include
+"
 Allocator
 .
 h

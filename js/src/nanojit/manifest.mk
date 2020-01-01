@@ -551,6 +551,14 @@ cpp
 curdir
 )
 /
+njconfig
+.
+cpp
+\
+(
+curdir
+)
+/
 RegAlloc
 .
 cpp

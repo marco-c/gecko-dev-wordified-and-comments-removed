@@ -8410,13 +8410,6 @@ record
 >
 exit
 ;
-bool
-trees
-=
-config
-.
-tree_opt
-;
 Fragment
 *
 frag
@@ -8442,10 +8435,6 @@ fragEntry
 if
 (
 destKnown
-&
-&
-!
-trees
 )
 {
 MOVE

@@ -7225,9 +7225,6 @@ LirBuffer
 _buf
 ;
 const
-avmplus
-:
-:
 Config
 &
 _config
@@ -7240,9 +7237,6 @@ LirBuffer
 *
 buf
 const
-avmplus
-:
-:
 Config
 &
 config

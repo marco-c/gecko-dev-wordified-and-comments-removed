@@ -5169,10 +5169,9 @@ if
 NJ_SOFTFLOAT_SUPPORTED
 if
 (
-!
 _config
 .
-arm_vfp
+soft_float
 &
 &
 op
