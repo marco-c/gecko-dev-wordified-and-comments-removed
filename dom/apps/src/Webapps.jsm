@@ -1725,6 +1725,10 @@ aApp
 origin
 receipts
 :
+aApp
+.
+receipts
+?
 JSON
 .
 parse
@@ -1738,6 +1742,8 @@ aApp
 receipts
 )
 )
+:
+null
 installTime
 :
 aApp
