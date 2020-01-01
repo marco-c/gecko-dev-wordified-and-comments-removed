@@ -911,16 +911,6 @@ GetStackLimit
 )
 ;
 }
-JS_SetScriptStackQuota
-(
-cx
-100
-*
-1024
-*
-1024
-)
-;
 }
 }
 return
