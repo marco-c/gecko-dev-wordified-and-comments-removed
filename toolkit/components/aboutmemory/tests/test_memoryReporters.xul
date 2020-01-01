@@ -412,7 +412,7 @@ isSandboxLocationShown
 false
 ;
 let
-areInnerWindowsPresent
+areWindowObjectsPresent
 =
 false
 ;
@@ -671,11 +671,7 @@ window
 objects
 \
 /
-.
-*
-inner
--
-window
+top
 \
 (
 /
@@ -685,7 +681,7 @@ window
 0
 )
 {
-areInnerWindowsPresent
+areWindowObjectsPresent
 =
 true
 ;
@@ -1246,11 +1242,10 @@ present
 ;
 ok
 (
-areInnerWindowsPresent
+areWindowObjectsPresent
 "
-inner
--
-windows
+window
+objects
 are
 present
 "
