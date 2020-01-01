@@ -2133,6 +2133,7 @@ matchType
 class
 THEBES_API
 gfxFontCache
+MOZ_FINAL
 :
 public
 nsExpirationTracker

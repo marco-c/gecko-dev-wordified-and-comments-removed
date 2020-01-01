@@ -15,7 +15,7 @@ h
 #
 include
 "
-ScaledFontSkia
+ScaledFontBase
 .
 h
 "
@@ -2809,13 +2809,13 @@ MarkChanged
 (
 )
 ;
-ScaledFontSkia
+ScaledFontBase
 *
 skiaFont
 =
 static_cast
 <
-ScaledFontSkia
+ScaledFontBase
 *
 >
 (
@@ -2843,7 +2843,9 @@ setTypeface
 skiaFont
 -
 >
-mTypeface
+GetSkTypeface
+(
+)
 )
 ;
 paint
