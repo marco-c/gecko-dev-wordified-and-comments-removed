@@ -2812,6 +2812,9 @@ JSProperty
 propp
 )
 ;
+#
+ifdef
+__cplusplus
 extern
 JSBool
 js_DefineNativeProperty
@@ -2848,6 +2851,8 @@ entryp
 NULL
 )
 ;
+#
+endif
 extern
 JS_FRIEND_API
 (
