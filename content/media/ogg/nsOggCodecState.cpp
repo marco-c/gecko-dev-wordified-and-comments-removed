@@ -553,6 +553,8 @@ PopFront
 )
 ;
 delete
+[
+]
 p
 -
 >

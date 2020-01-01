@@ -111,6 +111,8 @@ aPage
 )
 ;
 delete
+[
+]
 p
 -
 >
