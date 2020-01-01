@@ -9651,6 +9651,13 @@ for
 uint32
 i
 =
+script
+-
+>
+savedCallerFun
+?
+1
+:
 0
 ;
 i
