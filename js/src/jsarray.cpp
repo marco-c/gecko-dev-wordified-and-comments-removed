@@ -3519,8 +3519,6 @@ return
 JS_FALSE
 ;
 }
-else
-{
 OBJ_DROP_PROPERTY
 (
 cx
@@ -3528,7 +3526,6 @@ obj2
 prop
 )
 ;
-}
 }
 return
 JS_TRUE
@@ -5855,7 +5852,6 @@ JS_INITIAL_NSLOTS
 JSPROP_ENUMERATE
 0
 0
-NULL
 )
 ;
 if
