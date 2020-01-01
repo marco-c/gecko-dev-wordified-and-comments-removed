@@ -936,6 +936,17 @@ bug499519
 .
 ogv
 \
+bug500311
+.
+ogv
+\
+bug500311
+.
+ogv
+^
+headers
+^
+\
 seek
 .
 ogv
