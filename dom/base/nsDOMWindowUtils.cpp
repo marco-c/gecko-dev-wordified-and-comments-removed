@@ -10412,6 +10412,10 @@ widget
 >
 GetLayerManager
 (
+nsIWidget
+:
+:
+LAYER_MANAGER_PERSISTENT
 )
 ;
 if
