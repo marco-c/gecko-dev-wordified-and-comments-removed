@@ -314,6 +314,8 @@ now
 )
 *
 1000
+-
+1
 ;
 bmsvc
 .
@@ -443,7 +445,7 @@ Google
 "
 )
 ;
-do_check_neq
+do_check_true
 (
 bmsvc
 .
@@ -451,6 +453,7 @@ getItemLastModified
 (
 bookmarkId
 )
+>
 newDate
 )
 ;
