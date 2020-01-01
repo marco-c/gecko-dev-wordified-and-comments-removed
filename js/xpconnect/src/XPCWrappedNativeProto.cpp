@@ -86,6 +86,11 @@ MOZ_COUNT_CTOR
 XPCWrappedNativeProto
 )
 ;
+MOZ_ASSERT
+(
+mScope
+)
+;
 #
 ifdef
 DEBUG
