@@ -539,6 +539,13 @@ EndIMEComposition
 )
 ;
 void
+SwitchTextDirectionTo
+(
+PRUint32
+aDirection
+)
+;
+void
 BeginKeypressHandling
 (
 )
@@ -649,6 +656,11 @@ protected
 :
 nsCString
 mContentMIMEType
+;
+nsresult
+DetermineCurrentDirection
+(
+)
 ;
 NS_IMETHOD
 CreateTxnForSetAttribute
