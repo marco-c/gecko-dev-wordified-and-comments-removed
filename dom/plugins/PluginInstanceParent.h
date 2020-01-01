@@ -953,6 +953,14 @@ Image
 aImage
 )
 ;
+nsresult
+GetImageSize
+(
+nsIntSize
+*
+aSize
+)
+;
 #
 ifdef
 XP_MACOSX
