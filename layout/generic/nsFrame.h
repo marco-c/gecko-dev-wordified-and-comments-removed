@@ -401,6 +401,9 @@ struct
 nsBoxLayoutMetrics
 ;
 class
+nsDisplayBackground
+;
+class
 nsFrame
 :
 public
@@ -1706,8 +1709,10 @@ nsDisplayListSet
 aLists
 bool
 aForceBackground
-=
-false
+nsDisplayBackground
+*
+*
+aBackground
 )
 ;
 nsresult
