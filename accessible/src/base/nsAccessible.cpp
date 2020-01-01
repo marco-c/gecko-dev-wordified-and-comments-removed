@@ -12954,7 +12954,7 @@ aCachedChild
 {
 #
 ifdef
-DEBUG_A11Y
+DEBUG
 PRUint32
 childCount
 =
@@ -12981,7 +12981,7 @@ are
 stored
 but
 not
-initailzied
+initialized
 !
 "
 )
@@ -12989,6 +12989,10 @@ initailzied
 return
 ;
 }
+nsAccessible
+*
+child
+;
 for
 (
 PRInt32
@@ -13005,8 +13009,6 @@ childIdx
 +
 )
 {
-nsAccessible
-*
 child
 =
 GetChildAt

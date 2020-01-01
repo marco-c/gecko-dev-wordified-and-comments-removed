@@ -2233,7 +2233,7 @@ aAccessNode
 ;
 #
 ifdef
-DEBUG_A11Y
+DEBUG
 nsRefPtr
 <
 nsAccessible
@@ -8000,7 +8000,7 @@ if
 aChangeType
 =
 =
-nsIAccessibleEvent
+nsIAccessibilityService
 :
 :
 NODE_APPEND
@@ -8067,7 +8067,7 @@ hasAccessible
 else
 if
 (
-aChangeEventType
+aChangeType
 =
 =
 nsIAccessibilityService
