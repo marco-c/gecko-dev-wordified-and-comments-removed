@@ -1284,7 +1284,7 @@ radius
 ;
 padding
 :
-0
+1px
 8px
 ;
 margin
@@ -1633,6 +1633,16 @@ min
 height
 :
 16px
+;
+max
+-
+height
+:
+16px
+;
+padding
+:
+0
 ;
 }
 .
