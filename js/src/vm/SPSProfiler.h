@@ -361,7 +361,6 @@ SPSProfiler
 profiler
 ;
 JS_DECL_USE_GUARD_OBJECT_NOTIFIER
-;
 public
 :
 SPSEntryMarker
