@@ -49381,6 +49381,13 @@ case
 OS_TARGET
 "
 in
+Darwin
+)
+MOZ_GAMEPAD_BACKEND
+=
+cocoa
+;
+;
 *
 )
 ;
