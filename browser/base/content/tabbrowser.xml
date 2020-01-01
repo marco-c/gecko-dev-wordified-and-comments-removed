@@ -7243,8 +7243,8 @@ nsIWebNavigation
 .
 LOAD_FLAGS_NONE
 aReferrerURI
+aCharset
 aPostData
-null
 )
 ;
 }
