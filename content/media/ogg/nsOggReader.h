@@ -282,9 +282,6 @@ mOggState
 PRInt64
 mPageOffset
 ;
-PRUint32
-mCallbackPeriod
-;
 PRInt64
 mTheoraGranulepos
 ;

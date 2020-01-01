@@ -486,9 +486,6 @@ PRLock
 mVideoUpdateLock
 ;
 float
-mFramerate
-;
-float
 mPixelAspectRatio
 ;
 PRPackedBool

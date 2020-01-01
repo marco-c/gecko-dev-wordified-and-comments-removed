@@ -264,6 +264,8 @@ PRInt64
 aOffset
 PRInt64
 aTime
+PRInt64
+aEndTime
 const
 YCbCrBuffer
 &
@@ -578,6 +580,7 @@ VideoData
 (
 aOffset
 aTime
+aEndTime
 aKeyframe
 aTimecode
 )

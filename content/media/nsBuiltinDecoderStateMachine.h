@@ -540,7 +540,7 @@ PRInt64
 mAudioEndTime
 ;
 PRInt64
-mVideoFrameTime
+mVideoFrameEndTime
 ;
 float
 mVolume
