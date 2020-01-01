@@ -17359,6 +17359,11 @@ i
 }
 else
 {
+SAVE_SP_AND_PC
+(
+fp
+)
+;
 if
 (
 JSVAL_IS_DOUBLE
@@ -17378,11 +17383,6 @@ rval
 }
 else
 {
-SAVE_SP_AND_PC
-(
-fp
-)
-;
 ok
 =
 js_ValueToNumber
