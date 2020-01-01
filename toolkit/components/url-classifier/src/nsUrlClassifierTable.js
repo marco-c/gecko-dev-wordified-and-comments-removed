@@ -408,7 +408,7 @@ include
 /
 content
 /
-js
+moz
 /
 lang
 .
