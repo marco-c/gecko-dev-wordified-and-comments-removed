@@ -510,10 +510,6 @@ nsIThreadInternal
 )
 NS_INTERFACE_MAP_ENTRY
 (
-nsIThreadInternal2
-)
-NS_INTERFACE_MAP_ENTRY
-(
 nsIEventTarget
 )
 NS_INTERFACE_MAP_ENTRY
