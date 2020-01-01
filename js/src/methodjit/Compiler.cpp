@@ -15331,11 +15331,6 @@ jump
 )
 ;
 }
-RESERVE_IC_SPACE
-(
-masm
-)
-;
 callIC
 .
 hotPathLabel
