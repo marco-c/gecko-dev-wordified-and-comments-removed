@@ -954,6 +954,12 @@ atom
 }
 template
 class
+js
+:
+:
+frontend
+:
+:
 AtomDecls
 <
 FullParseHandler
@@ -961,6 +967,12 @@ FullParseHandler
 ;
 template
 class
+js
+:
+:
+frontend
+:
+:
 AtomDecls
 <
 SyntaxParseHandler
