@@ -7079,7 +7079,7 @@ GetScrollPortRect
 mOuter
 -
 >
-GetOffsetTo
+GetOffsetToCrossDoc
 (
 displayRoot
 )

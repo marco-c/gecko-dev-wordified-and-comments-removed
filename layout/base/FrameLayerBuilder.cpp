@@ -3462,7 +3462,7 @@ offsetToActiveScrolledRoot
 f
 -
 >
-GetOffsetTo
+GetOffsetToCrossDoc
 (
 activeScrolledRoot
 )
