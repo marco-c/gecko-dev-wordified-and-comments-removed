@@ -1581,13 +1581,15 @@ topic
 bool
 cleanupJS
 =
-!
 nsJSContext
 :
 :
-CleanupSinceLastGC
+CleanupsSinceLastGC
 (
 )
+=
+=
+0
 &
 &
 !
