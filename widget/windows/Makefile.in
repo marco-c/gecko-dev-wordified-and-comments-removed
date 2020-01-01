@@ -363,6 +363,9 @@ h
 WindowHook
 .
 h
+WinUtils
+.
+h
 EXPORTS_NAMESPACES
 =
 mozilla
