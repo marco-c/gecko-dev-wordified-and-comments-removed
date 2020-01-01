@@ -688,10 +688,6 @@ nsIHelperAppLauncherDialog
 .
 idl
 \
-nsIHandlerService
-.
-idl
-\
 (
 NULL
 )
@@ -778,11 +774,6 @@ nsMIMEInfoWin
 .
 cpp
 endif
-EXTRA_COMPONENTS
-=
-nsHandlerService
-.
-js
 #
 we
 don
