@@ -406,13 +406,13 @@ eventSeq
 =
 [
 new
-invokerChecker
+asyncInvokerChecker
 (
 EVENT_DOCUMENT_LOAD_COMPLETE
 currentTabDocument
 )
 new
-invokerChecker
+asyncInvokerChecker
 (
 EVENT_SCROLLING_START
 getAnchorJumpInTabDocument
