@@ -8,7 +8,7 @@ h
 #
 include
 "
-ShadowLayersChild
+LayerTransactionChild
 .
 h
 "
@@ -37,7 +37,7 @@ namespace
 layers
 {
 void
-ShadowLayersChild
+LayerTransactionChild
 :
 :
 Destroy
@@ -68,7 +68,7 @@ now
 "
 )
 ;
-PLayersChild
+PLayerTransactionChild
 :
 :
 Send__delete__
@@ -79,7 +79,7 @@ this
 }
 PGrallocBufferChild
 *
-ShadowLayersChild
+LayerTransactionChild
 :
 :
 AllocPGrallocBuffer
@@ -125,7 +125,7 @@ nullptr
 endif
 }
 bool
-ShadowLayersChild
+LayerTransactionChild
 :
 :
 DeallocPGrallocBuffer
@@ -167,7 +167,7 @@ endif
 }
 PLayerChild
 *
-ShadowLayersChild
+LayerTransactionChild
 :
 :
 AllocPLayer
@@ -187,7 +187,7 @@ nullptr
 ;
 }
 bool
-ShadowLayersChild
+LayerTransactionChild
 :
 :
 DeallocPLayer
@@ -206,7 +206,7 @@ true
 }
 PCompositableChild
 *
-ShadowLayersChild
+LayerTransactionChild
 :
 :
 AllocPCompositable
@@ -225,7 +225,7 @@ CompositableChild
 ;
 }
 bool
-ShadowLayersChild
+LayerTransactionChild
 :
 :
 DeallocPCompositable
@@ -243,7 +243,7 @@ true
 ;
 }
 void
-ShadowLayersChild
+LayerTransactionChild
 :
 :
 ActorDestroy
@@ -269,7 +269,7 @@ IPC
 channel
 failure
 at
-ShadowLayersChild
+LayerTransactionChild
 "
 )
 ;

@@ -12119,7 +12119,7 @@ nsWindow
 :
 GetLayerManager
 (
-PLayersChild
+PLayerTransactionChild
 *
 aShadowManager
 LayersBackend
