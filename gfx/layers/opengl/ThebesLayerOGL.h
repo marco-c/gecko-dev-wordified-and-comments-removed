@@ -432,6 +432,12 @@ ShadowBufferOGL
 >
 mBuffer
 ;
+SurfaceDescriptor
+mBufferDescriptor
+;
+nsIntRegion
+mValidRegionForNextBackBuffer
+;
 }
 ;
 }
