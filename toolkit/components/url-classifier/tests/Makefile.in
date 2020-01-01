@@ -465,6 +465,8 @@ tests
 XPCSHELL_TESTS
 =
 unit
+ifndef
+MOZ_ENABLE_LIBXUL
 #
 simple
 c
@@ -545,6 +547,7 @@ NSPR_LIBS
 (
 NULL
 )
+endif
 include
 (
 topsrcdir
