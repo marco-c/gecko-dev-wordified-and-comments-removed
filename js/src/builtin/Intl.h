@@ -16,7 +16,7 @@ h
 struct
 JSContext
 ;
-struct
+class
 JSObject
 ;
 extern

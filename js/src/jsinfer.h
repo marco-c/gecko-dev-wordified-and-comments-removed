@@ -1811,7 +1811,7 @@ pc
 StackTypeSet
 *
 target
-jsid
+RawId
 id
 )
 ;
@@ -1829,7 +1829,7 @@ pc
 StackTypeSet
 *
 target
-jsid
+RawId
 id
 )
 ;
@@ -2040,7 +2040,7 @@ propertyNeedsBarrier
 JSContext
 *
 cx
-jsid
+RawId
 id
 )
 ;
@@ -2138,7 +2138,7 @@ pc
 StackTypeSet
 *
 target
-jsid
+RawId
 id
 )
 ;
@@ -2461,7 +2461,7 @@ static
 uint32_t
 keyBits
 (
-jsid
+RawId
 id
 )
 {
@@ -2789,7 +2789,7 @@ getProperty
 JSContext
 *
 cx
-jsid
+RawId
 id
 bool
 own
@@ -2800,11 +2800,11 @@ HeapTypeSet
 *
 maybeGetProperty
 (
+RawId
+id
 JSContext
 *
 cx
-jsid
-id
 )
 ;
 inline
@@ -2839,7 +2839,7 @@ addProperty
 JSContext
 *
 cx
-jsid
+RawId
 id
 Property
 *
@@ -4225,7 +4225,7 @@ addPendingRecompile
 JSContext
 *
 cx
-HandleScript
+UnrootedScript
 script
 jsbytecode
 *

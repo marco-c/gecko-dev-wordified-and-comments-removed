@@ -112,7 +112,7 @@ warnings
 /
 #
 endif
-struct
+class
 JSObject
 ;
 namespace

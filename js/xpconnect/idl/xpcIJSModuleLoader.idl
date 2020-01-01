@@ -114,7 +114,7 @@ nsAXPCNativeCallContext
 C
 +
 +
-struct
+class
 JSObject
 ;
 %
