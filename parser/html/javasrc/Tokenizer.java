@@ -3535,6 +3535,16 @@ xmlnsPolicy
 }
 else
 {
+if
+(
+AttributeName
+.
+BORDER
+!
+=
+attributeName
+)
+{
 err
 (
 "
@@ -3568,6 +3578,7 @@ attributeName
 xmlnsPolicy
 )
 ;
+}
 }
 }
 else
@@ -20065,14 +20076,6 @@ interner
 )
 ;
 }
-if
-(
-attributes
-!
-=
-null
-)
-{
 Portability
 .
 delete
@@ -20080,7 +20083,6 @@ delete
 attributes
 )
 ;
-}
 if
 (
 other
