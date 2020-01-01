@@ -24409,7 +24409,9 @@ len
 )
 ;
 }
-script
+JSScript
+*
+newScript
 =
 fun
 -
@@ -24434,7 +24436,7 @@ args
 *
 callee
 fun
-script
+newScript
 construct
 OOMCheck
 (
@@ -24443,6 +24445,10 @@ OOMCheck
 )
 goto
 error
+;
+script
+=
+newScript
 ;
 pcCounts
 =
