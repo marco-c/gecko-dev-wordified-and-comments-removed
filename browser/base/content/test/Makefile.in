@@ -1050,6 +1050,10 @@ browser_bug719271
 .
 js
 \
+browser_bug743421
+.
+js
+\
 browser_canonizeURL
 .
 js
@@ -1344,6 +1348,10 @@ plugin_both
 html
 \
 plugin_both2
+.
+html
+\
+plugin_bug743421
 .
 html
 \
