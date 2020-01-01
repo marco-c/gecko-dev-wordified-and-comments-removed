@@ -3184,16 +3184,6 @@ true
 pref
 (
 "
-b2g
-.
-ignoreXFrameOptions
-"
-true
-)
-;
-pref
-(
-"
 device
 .
 camera
