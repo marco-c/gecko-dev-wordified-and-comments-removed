@@ -232,6 +232,11 @@ sqlite3_stmt
 aStatement
 )
 ;
+bool
+isAsyncClosing
+(
+)
+;
 private
 :
 ~
