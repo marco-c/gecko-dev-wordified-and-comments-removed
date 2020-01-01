@@ -842,7 +842,7 @@ isNative
 &
 &
 !
-IsImplicitProperty
+IsImplicitDenseElement
 (
 shape
 )
@@ -2485,7 +2485,7 @@ isNative
 &
 &
 !
-IsImplicitProperty
+IsImplicitDenseElement
 (
 shape
 )
@@ -2744,7 +2744,7 @@ isNative
 &
 &
 !
-IsImplicitProperty
+IsImplicitDenseElement
 (
 shape
 )

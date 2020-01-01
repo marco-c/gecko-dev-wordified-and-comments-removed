@@ -3259,7 +3259,7 @@ JSPROP_ENUMERATE
 if
 (
 !
-IsImplicitProperty
+IsImplicitDenseElement
 (
 shape
 )
@@ -3467,7 +3467,7 @@ else
 {
 if
 (
-IsImplicitProperty
+IsImplicitDenseElement
 (
 shape
 )
@@ -4192,7 +4192,7 @@ changed
 ;
 getter
 =
-IsImplicitProperty
+IsImplicitDenseElement
 (
 shape
 )
@@ -4208,7 +4208,7 @@ getter
 ;
 setter
 =
-IsImplicitProperty
+IsImplicitDenseElement
 (
 shape
 )
@@ -15731,7 +15731,7 @@ obj
 {
 if
 (
-IsImplicitProperty
+IsImplicitDenseElement
 (
 shape
 )
@@ -16435,7 +16435,7 @@ id
 )
 )
 {
-MarkImplicitPropertyFound
+MarkDenseElementFound
 (
 propp
 )
@@ -16554,7 +16554,7 @@ set
 current
 )
 ;
-MarkImplicitPropertyFound
+MarkDenseElementFound
 (
 propp
 )
@@ -18019,7 +18019,7 @@ vp
 }
 if
 (
-IsImplicitProperty
+IsImplicitDenseElement
 (
 shape
 )
@@ -19249,7 +19249,7 @@ setProperty
 ;
 if
 (
-IsImplicitProperty
+IsImplicitDenseElement
 (
 shape
 )
@@ -19526,7 +19526,7 @@ NULL
 }
 if
 (
-IsImplicitProperty
+IsImplicitDenseElement
 (
 shape
 )
@@ -20217,7 +20217,7 @@ isNative
 )
 &
 &
-IsImplicitProperty
+IsImplicitDenseElement
 (
 shape
 )
@@ -20354,7 +20354,7 @@ isNative
 )
 &
 &
-IsImplicitProperty
+IsImplicitDenseElement
 (
 shape
 )
@@ -20522,7 +20522,7 @@ runtime
 ;
 if
 (
-IsImplicitProperty
+IsImplicitDenseElement
 (
 shape
 )
@@ -21848,7 +21848,7 @@ writing
 {
 if
 (
-IsImplicitProperty
+IsImplicitDenseElement
 (
 shape
 )

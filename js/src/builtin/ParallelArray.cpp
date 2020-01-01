@@ -8515,7 +8515,7 @@ outermostDimension
 )
 )
 {
-MarkImplicitPropertyFound
+MarkNonNativePropertyFound
 (
 propp
 )

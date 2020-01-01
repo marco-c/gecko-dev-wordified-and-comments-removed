@@ -4948,7 +4948,7 @@ id
 )
 )
 {
-MarkImplicitPropertyFound
+MarkNonNativePropertyFound
 (
 propp
 )
@@ -5096,7 +5096,7 @@ tarray
 )
 )
 {
-MarkImplicitPropertyFound
+MarkNonNativePropertyFound
 (
 propp
 )
