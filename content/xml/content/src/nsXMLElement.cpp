@@ -110,6 +110,9 @@ PRBool
 aNotify
 )
 {
+nsAutoRemovableScriptBlocker
+scriptBlocker
+;
 PRBool
 isId
 =

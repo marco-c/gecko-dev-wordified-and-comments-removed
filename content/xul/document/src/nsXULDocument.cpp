@@ -6528,6 +6528,9 @@ if
 id
 )
 {
+nsAutoScriptBlocker
+scriptBlocker
+;
 AddToIdTable
 (
 aElement
@@ -7154,6 +7157,9 @@ if
 id
 )
 {
+nsAutoScriptBlocker
+scriptBlocker
+;
 RemoveFromIdTable
 (
 aElement

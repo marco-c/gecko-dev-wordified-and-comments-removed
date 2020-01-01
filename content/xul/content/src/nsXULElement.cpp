@@ -5504,6 +5504,9 @@ rv
 )
 ;
 }
+nsAutoRemovableScriptBlocker
+scriptBlocker
+;
 PRBool
 isId
 =
