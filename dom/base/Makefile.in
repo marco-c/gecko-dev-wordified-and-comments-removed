@@ -440,11 +440,11 @@ ConsoleAPI
 .
 manifest
 \
-BrowserElementAPI
+BrowserElementParent
 .
 js
 \
-BrowserElementAPI
+BrowserElementParent
 .
 manifest
 \

@@ -474,10 +474,6 @@ test_browserFrame7
 .
 html
 \
-test_browserFrame8
-.
-html
-\
 (
 NULL
 )
