@@ -51,7 +51,12 @@ types
 h
 >
 #
-else
+elif
+!
+defined
+(
+ANDROID
+)
 typedef
 PRInt8
 int8_t

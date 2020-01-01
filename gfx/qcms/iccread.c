@@ -28,11 +28,11 @@ h
 "
 typedef
 uint32_t
-__be32
+be32
 ;
 typedef
 uint16_t
-__be16
+be16
 ;
 #
 if
@@ -41,7 +41,7 @@ not
 used
 yet
 static
-__be32
+be32
 cpu_to_be32
 (
 int32_t
@@ -108,7 +108,7 @@ static
 uint32_t
 be32_to_cpu
 (
-__be32
+be32
 v
 )
 {
@@ -169,10 +169,10 @@ v
 endif
 }
 static
-uint32_t
+uint16_t
 be16_to_cpu
 (
-__be16
+be16
 v
 )
 {
@@ -300,7 +300,7 @@ return
 }
 else
 {
-__be32
+be32
 k
 ;
 memcpy
@@ -315,7 +315,7 @@ buf
 offset
 sizeof
 (
-__be32
+k
 )
 )
 ;
@@ -366,7 +366,7 @@ return
 }
 else
 {
-__be16
+be16
 k
 ;
 memcpy
@@ -381,7 +381,7 @@ buf
 offset
 sizeof
 (
-__be16
+k
 )
 )
 ;
@@ -3939,7 +3939,7 @@ profile
 size_t
 read_length
 ;
-__be32
+be32
 length_be
 ;
 void
@@ -3992,7 +3992,7 @@ NO_MEM_PROFILE
 *
 (
 (
-__be32
+be32
 *
 )
 data
