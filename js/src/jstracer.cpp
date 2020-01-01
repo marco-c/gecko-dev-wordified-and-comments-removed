@@ -22367,9 +22367,9 @@ compile
 (
 assm
 fragment
-tempAlloc
 verbose_only
 (
+tempAlloc
 tm
 -
 >
