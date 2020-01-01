@@ -1390,6 +1390,9 @@ __init__
 self
 directive
 rest
+=
+'
+'
 )
 :
         

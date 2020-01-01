@@ -201,6 +201,12 @@ h
 '
     
 '
+nsIFile
+.
+h
+'
+    
+'
 mozilla
 /
 ipc
