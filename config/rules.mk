@@ -3591,13 +3591,13 @@ TIERS
 endif
 #
 SUPPRESS_DEFAULT_RULES
-ifneq
+ifeq
 (
 (
 filter
 s
 (
-MAKE_FLAGS
+MAKEFLAGS
 )
 )
 )
