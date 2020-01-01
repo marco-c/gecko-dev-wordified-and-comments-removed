@@ -169,7 +169,7 @@ type
 kTestMimeType
 )
 ;
-catMan
+categoryManager
 .
 deleteCategoryEntry
 (
