@@ -1270,13 +1270,10 @@ uint32
 words
 ;
 uint32
-unique
-;
-uint32
 oddaddress
 ;
 uint32
-outside
+special
 ;
 uint32
 notarena
