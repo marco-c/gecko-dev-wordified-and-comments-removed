@@ -4483,7 +4483,7 @@ rt
 >
 gcNursery
 .
-enable
+init
 (
 )
 )
