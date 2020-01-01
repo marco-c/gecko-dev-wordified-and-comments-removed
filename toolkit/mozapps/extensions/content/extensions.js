@@ -4326,6 +4326,10 @@ score
 ;
 if
 (
+!
+aStr
+|
+|
 aQuery
 .
 length
