@@ -3629,7 +3629,7 @@ showInPanel
 )
 {
 let
-tool_console
+button
 =
 document
 .
@@ -3642,7 +3642,7 @@ console
 "
 )
 ;
-tool_console
+button
 .
 hidden
 =
