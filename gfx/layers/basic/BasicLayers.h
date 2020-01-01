@@ -391,6 +391,11 @@ Basic
 }
 #
 endif
+void
+ClearCachedResources
+(
+)
+;
 protected
 :
 #
@@ -425,6 +430,14 @@ void
 aCallbackData
 float
 aOpacity
+)
+;
+void
+ClearLayer
+(
+Layer
+*
+aLayer
 )
 ;
 already_AddRefed
