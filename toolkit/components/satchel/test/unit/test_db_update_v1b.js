@@ -345,6 +345,12 @@ getInt64
 2
 )
 ;
+stmt
+.
+finalize
+(
+)
+;
 do_check_eq
 (
 1
@@ -441,6 +447,12 @@ stmt
 getInt64
 (
 2
+)
+;
+stmt
+.
+finalize
+(
 )
 ;
 do_check_eq
