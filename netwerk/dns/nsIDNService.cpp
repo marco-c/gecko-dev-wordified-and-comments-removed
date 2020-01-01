@@ -2453,7 +2453,7 @@ Length
 kMaxDNSNodeLen
 )
 {
-NS_ERROR
+NS_WARNING
 (
 "
 IDN
@@ -2537,7 +2537,7 @@ Length
 kMaxDNSNodeLen
 )
 {
-NS_ERROR
+NS_WARNING
 (
 "
 IDN
