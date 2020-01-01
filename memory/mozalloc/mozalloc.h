@@ -270,6 +270,15 @@ str
 NS_ATTR_MALLOC
 NS_WARN_UNUSED_RESULT
 ;
+MOZALLOC_EXPORT
+size_t
+moz_malloc_usable_size
+(
+void
+*
+ptr
+)
+;
 #
 if
 defined

@@ -432,6 +432,11 @@ nscoord
 aWidth
 )
 ;
+PRUint32
+EstimateMemoryUsed
+(
+)
+;
 private
 :
 nsresult

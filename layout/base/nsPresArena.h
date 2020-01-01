@@ -103,6 +103,11 @@ void
 aPtr
 )
 ;
+PRUint32
+Size
+(
+)
+;
 private
 :
 struct

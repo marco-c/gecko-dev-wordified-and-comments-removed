@@ -1861,6 +1861,10 @@ aDestSize
 ;
 protected
 :
+friend
+class
+nsBidiPresUtils
+;
 PRInt32
 mLength
 ;
