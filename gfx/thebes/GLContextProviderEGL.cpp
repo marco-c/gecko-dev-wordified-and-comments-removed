@@ -7123,10 +7123,6 @@ mBackingSurface
 =
 xsurface
 ;
-mIsRGBFormat
-=
-PR_TRUE
-;
 #
 endif
 return
