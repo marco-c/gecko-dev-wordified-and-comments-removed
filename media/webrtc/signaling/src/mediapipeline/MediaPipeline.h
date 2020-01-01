@@ -1267,7 +1267,7 @@ MediaSessionConduit
 >
 conduit_
 ;
-StreamTime
+uint64_t
 played_
 ;
 }
