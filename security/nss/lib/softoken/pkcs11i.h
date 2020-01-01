@@ -658,6 +658,9 @@ PRBool
 multi
 ;
 PRBool
+rsa
+;
+PRBool
 doPad
 ;
 unsigned

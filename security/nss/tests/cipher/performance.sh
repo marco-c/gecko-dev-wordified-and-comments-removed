@@ -1478,6 +1478,12 @@ key
 mode
 .
 key
+rm
+-
+f
+mode
+.
+out
 echo
 "
 bltest

@@ -47,12 +47,9 @@ SOFTOKEN_VERSION
 .
 0
 .
-0
+1
 "
 SOFTOKEN_ECC_STRING
-"
-Beta
-"
 #
 define
 SOFTOKEN_VMAJOR
@@ -68,10 +65,10 @@ SOFTOKEN_VPATCH
 #
 define
 SOFTOKEN_VBUILD
-0
+1
 #
 define
 SOFTOKEN_BETA
-PR_TRUE
+PR_FALSE
 #
 endif
