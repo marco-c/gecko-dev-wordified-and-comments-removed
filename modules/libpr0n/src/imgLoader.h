@@ -109,9 +109,6 @@ class
 nsILoadGroup
 ;
 class
-nsIPrefBranch
-;
-class
 imgCacheEntry
 {
 public
@@ -1063,9 +1060,6 @@ _retval
 void
 ReadAcceptHeaderPref
 (
-nsIPrefBranch
-*
-aBranch
 )
 ;
 typedef
