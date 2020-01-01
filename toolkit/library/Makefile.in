@@ -1347,6 +1347,7 @@ wsock32
 msimg32
 shlwapi
 psapi
+Ws2_32
 )
 ifneq
 (
