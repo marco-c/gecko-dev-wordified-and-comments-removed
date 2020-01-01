@@ -4716,16 +4716,6 @@ content
 {
 do_check_eq
 (
-error
-"
-Error
-:
-NS_ERROR_XPC_JS_THREW_STRING
-"
-)
-;
-do_check_eq
-(
 content
 null
 )
