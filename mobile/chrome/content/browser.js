@@ -12595,14 +12595,14 @@ dialog
 null
 ;
 let
-selectContainer
+menulistContainer
 =
 document
 .
 getElementById
 (
 "
-select
+menulist
 -
 container
 "
@@ -12611,7 +12611,7 @@ container
 let
 parentNode
 =
-selectContainer
+menulistContainer
 .
 parentNode
 ;
@@ -12701,7 +12701,7 @@ parentNode
 insertBefore
 (
 back
-selectContainer
+menulistContainer
 )
 ;
 dialog
