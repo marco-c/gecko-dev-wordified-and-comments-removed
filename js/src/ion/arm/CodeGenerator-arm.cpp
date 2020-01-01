@@ -3489,6 +3489,17 @@ shift
 )
 ;
 }
+else
+{
+masm
+.
+ma_mov
+(
+lhs
+output
+)
+;
+}
 return
 true
 ;
