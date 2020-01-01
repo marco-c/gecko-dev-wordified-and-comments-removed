@@ -90,9 +90,9 @@ nsProfiler
 StartProfiler
 (
 PRUint32
-aEntries
-PRUint32
 aInterval
+PRUint32
+aEntries
 const
 char
 *
@@ -104,8 +104,8 @@ aFeatureCount
 {
 SAMPLER_START
 (
-aEntries
 aInterval
+aEntries
 aFeatures
 aFeatureCount
 )
