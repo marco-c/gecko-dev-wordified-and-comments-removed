@@ -98,6 +98,10 @@ nsIDOMSettingsManager
 .
 idl
 \
+nsISettingsService
+.
+idl
+\
 (
 NULL
 )

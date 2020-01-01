@@ -89,12 +89,6 @@ config
 autoconf
 .
 mk
-DIRS
-=
-\
-(
-NULL
-)
 include
 (
 topsrcdir
