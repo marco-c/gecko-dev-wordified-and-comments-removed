@@ -1099,6 +1099,11 @@ nsAString
 aValue
 )
 ;
+nsresult
+SetDefaultValueAsValue
+(
+)
+;
 nsCOMPtr
 <
 nsIControllers
