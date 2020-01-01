@@ -563,6 +563,10 @@ test_transformed_scrolling_repaints
 .
 html
 \
+test_transformed_scrolling_repaints_2
+.
+html
+\
 (
 NULL
 )
