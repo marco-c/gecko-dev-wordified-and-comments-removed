@@ -421,6 +421,11 @@ Shutdown
 (
 )
 {
+if
+(
+sTagAtomTable
+)
+{
 PL_HashTableDestroy
 (
 sTagAtomTable
@@ -430,6 +435,7 @@ sTagAtomTable
 =
 nullptr
 ;
+}
 }
 nsresult
 NS_NewSVGElement
