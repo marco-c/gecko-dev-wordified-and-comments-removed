@@ -3599,6 +3599,13 @@ instanceof
 HTMLAudioElement
 )
 ;
+this
+.
+setPlayButtonState
+(
+true
+)
+;
 break
 ;
 case
