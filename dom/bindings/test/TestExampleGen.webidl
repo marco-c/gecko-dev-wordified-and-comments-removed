@@ -3070,6 +3070,16 @@ attribute
 boolean
 throwingSetterAttr
 ;
+legacycaller
+short
+(
+unsigned
+long
+arg1
+TestInterface
+arg2
+)
+;
 /
 /
 If

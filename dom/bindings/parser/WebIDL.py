@@ -4117,6 +4117,20 @@ memberType
 stringifiers
 "
             
+elif
+member
+.
+isLegacycaller
+(
+)
+:
+                
+memberType
+=
+"
+legacycallers
+"
+            
 else
 :
                 
@@ -4128,6 +4142,13 @@ memberType
 =
 "
 stringifiers
+"
+and
+memberType
+!
+=
+"
+legacycallers
 "
 :
                 
