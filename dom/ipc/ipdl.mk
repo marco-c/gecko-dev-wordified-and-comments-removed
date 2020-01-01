@@ -391,10 +391,6 @@ PIFrameEmbedding
 .
 ipdl
 \
-PDocumentRenderer
-.
-ipdl
-\
 (
 NULL
 )

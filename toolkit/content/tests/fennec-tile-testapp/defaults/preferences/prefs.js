@@ -64,17 +64,3 @@ enabled
 true
 )
 ;
-pref
-(
-"
-dom
-.
-ipc
-.
-tabs
-.
-enabled
-"
-true
-)
-;
