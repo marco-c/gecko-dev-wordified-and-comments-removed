@@ -625,6 +625,9 @@ refcount
 -
 -
 ;
+#
+if
+0
 if
 (
 !
@@ -635,6 +638,8 @@ delete
 this
 ;
 }
+#
+endif
 }
 void
 nsHtml5StackNode
