@@ -7,6 +7,15 @@ nsCSSParser_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsAString
 .
 h
@@ -129,6 +138,7 @@ nsCSSParser
 const
 &
 )
+MOZ_DELETE
 ;
 nsCSSParser
 &
@@ -139,6 +149,7 @@ nsCSSParser
 const
 &
 )
+MOZ_DELETE
 ;
 public
 :

@@ -7,6 +7,15 @@ nsHTMLCSSStyleSheet_h_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIStyleSheet
 .
 h
@@ -277,6 +286,7 @@ nsHTMLCSSStyleSheet
 &
 aCopy
 )
+MOZ_DELETE
 ;
 nsHTMLCSSStyleSheet
 &
@@ -288,6 +298,7 @@ nsHTMLCSSStyleSheet
 &
 aCopy
 )
+MOZ_DELETE
 ;
 protected
 :

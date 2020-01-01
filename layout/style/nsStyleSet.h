@@ -7,6 +7,15 @@ nsStyleSet_h_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIStyleRuleProcessor
 .
 h
@@ -814,6 +823,7 @@ nsStyleSet
 &
 aCopy
 )
+MOZ_DELETE
 ;
 nsStyleSet
 &
@@ -825,6 +835,7 @@ nsStyleSet
 &
 aCopy
 )
+MOZ_DELETE
 ;
 bool
 BuildDefaultStyleData

@@ -7,6 +7,15 @@ Debugger_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h
@@ -1114,6 +1123,7 @@ const
 Debugger
 &
 )
+MOZ_DELETE
 ;
 Debugger
 &
@@ -1124,6 +1134,7 @@ const
 Debugger
 &
 )
+MOZ_DELETE
 ;
 }
 ;

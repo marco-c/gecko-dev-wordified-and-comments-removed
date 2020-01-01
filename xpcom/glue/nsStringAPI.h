@@ -26,6 +26,15 @@ nsStringAPI_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsXPCOMStrings
 .
 h
@@ -3980,6 +3989,7 @@ self_type
 &
 aString
 )
+MOZ_DELETE
 ;
 }
 ;
@@ -4062,6 +4072,7 @@ self_type
 &
 aString
 )
+MOZ_DELETE
 ;
 }
 ;
@@ -4228,6 +4239,7 @@ self_type
 &
 aString
 )
+MOZ_DELETE
 ;
 }
 ;
@@ -4299,6 +4311,7 @@ self_type
 &
 aString
 )
+MOZ_DELETE
 ;
 }
 ;
@@ -4370,6 +4383,7 @@ self_type
 &
 aString
 )
+MOZ_DELETE
 ;
 }
 ;
@@ -4441,6 +4455,7 @@ self_type
 &
 aString
 )
+MOZ_DELETE
 ;
 }
 ;
@@ -5125,6 +5140,7 @@ self_type
 &
 aString
 )
+MOZ_DELETE
 ;
 }
 ;
@@ -5253,6 +5269,7 @@ self_type
 &
 aString
 )
+MOZ_DELETE
 ;
 }
 ;

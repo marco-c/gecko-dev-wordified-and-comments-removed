@@ -3,6 +3,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Util
 .
 h
@@ -37105,6 +37114,7 @@ const
 DR_FrameTypeInfo
 &
 )
+MOZ_DELETE
 ;
 }
 ;

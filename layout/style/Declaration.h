@@ -5,6 +5,15 @@ mozilla_css_Declaration_h
 define
 mozilla_css_Declaration_h
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 ifndef
 _IMPL_NS_LAYOUT
 #
@@ -658,6 +667,7 @@ Declaration
 &
 aCopy
 )
+MOZ_DELETE
 ;
 bool
 operator
@@ -670,6 +680,7 @@ Declaration
 aCopy
 )
 const
+MOZ_DELETE
 ;
 static
 void

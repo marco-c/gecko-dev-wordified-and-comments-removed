@@ -7,6 +7,15 @@ nsCSSValue_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -1801,6 +1810,7 @@ URL
 &
 aOther
 )
+MOZ_DELETE
 ;
 URL
 &
@@ -1812,6 +1822,7 @@ URL
 &
 aOther
 )
+MOZ_DELETE
 ;
 }
 ;
@@ -2493,6 +2504,7 @@ Array
 &
 aOther
 )
+MOZ_DELETE
 ;
 Array
 &
@@ -2504,6 +2516,7 @@ Array
 &
 aOther
 )
+MOZ_DELETE
 ;
 }
 ;
@@ -4294,6 +4307,7 @@ nsCSSValueGradient
 &
 aOther
 )
+MOZ_DELETE
 ;
 nsCSSValueGradient
 &
@@ -4305,6 +4319,7 @@ nsCSSValueGradient
 &
 aOther
 )
+MOZ_DELETE
 ;
 }
 ;

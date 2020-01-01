@@ -7,6 +7,15 @@ LifoAlloc_h__
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 jsutil
 .
 h
@@ -616,6 +625,7 @@ const
 LifoAlloc
 &
 )
+MOZ_DELETE
 ;
 LifoAlloc
 (
@@ -623,6 +633,7 @@ const
 LifoAlloc
 &
 )
+MOZ_DELETE
 ;
 BumpChunk
 *

@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+Attributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 css
 /
 Rule
@@ -130,6 +139,7 @@ nsAtomList
 &
 aCopy
 )
+MOZ_DELETE
 ;
 nsAtomList
 &
@@ -141,6 +151,7 @@ nsAtomList
 &
 aCopy
 )
+MOZ_DELETE
 ;
 }
 ;
@@ -265,6 +276,7 @@ nsPseudoClassList
 &
 aCopy
 )
+MOZ_DELETE
 ;
 nsPseudoClassList
 &
@@ -276,6 +288,7 @@ nsPseudoClassList
 &
 aCopy
 )
+MOZ_DELETE
 ;
 }
 ;
@@ -499,6 +512,7 @@ nsAttrSelector
 &
 aCopy
 )
+MOZ_DELETE
 ;
 nsAttrSelector
 &
@@ -510,6 +524,7 @@ nsAttrSelector
 &
 aCopy
 )
+MOZ_DELETE
 ;
 }
 ;
@@ -899,6 +914,7 @@ nsCSSSelector
 &
 aCopy
 )
+MOZ_DELETE
 ;
 nsCSSSelector
 &
@@ -910,6 +926,7 @@ nsCSSSelector
 &
 aCopy
 )
+MOZ_DELETE
 ;
 }
 ;
@@ -989,6 +1006,7 @@ nsCSSSelectorList
 &
 aCopy
 )
+MOZ_DELETE
 ;
 nsCSSSelectorList
 &
@@ -1000,6 +1018,7 @@ nsCSSSelectorList
 &
 aCopy
 )
+MOZ_DELETE
 ;
 }
 ;
@@ -1309,19 +1328,6 @@ const
 endif
 private
 :
-StyleRule
-&
-operator
-=
-(
-const
-StyleRule
-&
-aCopy
-)
-;
-private
-:
 ~
 StyleRule
 (
@@ -1354,6 +1360,20 @@ PRUint32
 mWasMatched
 :
 1
+;
+private
+:
+StyleRule
+&
+operator
+=
+(
+const
+StyleRule
+&
+aCopy
+)
+MOZ_DELETE
 ;
 }
 ;

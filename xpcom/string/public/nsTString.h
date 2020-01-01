@@ -1945,6 +1945,7 @@ char_type
 *
 data
 )
+MOZ_DELETE
 ;
 self_type
 &
@@ -1955,6 +1956,7 @@ char_type
 *
 data
 )
+MOZ_DELETE
 ;
 }
 ;

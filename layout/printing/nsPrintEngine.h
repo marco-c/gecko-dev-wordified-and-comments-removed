@@ -7,6 +7,15 @@ nsPrintEngine_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -991,6 +1000,7 @@ nsPrintEngine
 &
 aOther
 )
+MOZ_DELETE
 ;
 }
 ;

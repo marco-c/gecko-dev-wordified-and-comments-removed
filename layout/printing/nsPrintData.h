@@ -7,6 +7,15 @@ nsPrintData_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsIDOMWindow
 .
 h
@@ -218,6 +227,7 @@ private
 nsPrintData
 (
 )
+MOZ_DELETE
 ;
 nsPrintData
 &
@@ -229,6 +239,7 @@ nsPrintData
 &
 aOther
 )
+MOZ_DELETE
 ;
 }
 ;

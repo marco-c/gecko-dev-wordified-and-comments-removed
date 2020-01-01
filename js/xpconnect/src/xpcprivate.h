@@ -6,6 +6,15 @@ define
 xpcprivate_h___
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 string
 .
@@ -15336,6 +15345,7 @@ const
 AutoScriptEvaluate
 &
 )
+MOZ_DELETE
 ;
 AutoScriptEvaluate
 &
@@ -15346,6 +15356,7 @@ const
 AutoScriptEvaluate
 &
 )
+MOZ_DELETE
 ;
 }
 ;

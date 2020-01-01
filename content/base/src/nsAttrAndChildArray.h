@@ -7,6 +7,15 @@ nsAttrAndChildArray_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
@@ -456,6 +465,7 @@ nsAttrAndChildArray
 &
 aOther
 )
+MOZ_DELETE
 ;
 nsAttrAndChildArray
 &
@@ -467,6 +477,7 @@ nsAttrAndChildArray
 &
 aOther
 )
+MOZ_DELETE
 ;
 void
 Clear

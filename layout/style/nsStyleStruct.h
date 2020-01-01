@@ -7,6 +7,15 @@ nsStyleStruct_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsColor
 .
 h
@@ -459,6 +468,7 @@ nsStyleGradient
 &
 aOther
 )
+MOZ_DELETE
 ;
 nsStyleGradient
 &
@@ -470,6 +480,7 @@ nsStyleGradient
 &
 aOther
 )
+MOZ_DELETE
 ;
 }
 ;
@@ -3449,6 +3460,7 @@ nsStyleBorder
 &
 aOther
 )
+MOZ_DELETE
 ;
 }
 ;
@@ -3918,6 +3930,7 @@ nsStyleList
 &
 aOther
 )
+MOZ_DELETE
 ;
 public
 :

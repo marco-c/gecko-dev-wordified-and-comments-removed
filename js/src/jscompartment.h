@@ -7,6 +7,15 @@ jscompartment_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 jsclist
 .
 h
@@ -1630,6 +1639,7 @@ const
 AutoCompartment
 &
 )
+MOZ_DELETE
 ;
 AutoCompartment
 &
@@ -1640,6 +1650,7 @@ const
 AutoCompartment
 &
 )
+MOZ_DELETE
 ;
 }
 ;

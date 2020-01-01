@@ -6,6 +6,15 @@ define
 mozilla_DeadlockDetector_h
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 stdlib
 .
@@ -1436,6 +1445,8 @@ PRLock
 *
 mLock
 ;
+private
+:
 DeadlockDetector
 (
 const
@@ -1443,6 +1454,7 @@ DeadlockDetector
 &
 aDD
 )
+MOZ_DELETE
 ;
 DeadlockDetector
 &
@@ -1454,6 +1466,7 @@ DeadlockDetector
 &
 aDD
 )
+MOZ_DELETE
 ;
 }
 ;

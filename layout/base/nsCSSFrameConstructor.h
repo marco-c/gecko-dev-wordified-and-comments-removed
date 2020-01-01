@@ -7,6 +7,15 @@ nsCSSFrameConstructor_h___
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -256,6 +265,7 @@ nsCSSFrameConstructor
 &
 aCopy
 )
+MOZ_DELETE
 ;
 nsCSSFrameConstructor
 &
@@ -267,6 +277,7 @@ nsCSSFrameConstructor
 &
 aCopy
 )
+MOZ_DELETE
 ;
 public
 :

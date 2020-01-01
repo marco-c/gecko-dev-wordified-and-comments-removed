@@ -7,6 +7,15 @@ nsAutoRef_h_
 #
 include
 "
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
+"
 nscore
 .
 h
@@ -1024,6 +1033,7 @@ ThisClass
 &
 aSmartRef
 )
+MOZ_DELETE
 ;
 public
 :

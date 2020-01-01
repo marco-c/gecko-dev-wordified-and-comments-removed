@@ -5,6 +5,15 @@ nsString_h___
 define
 nsString_h___
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 ifndef
 nsSubstring_h___
 #
