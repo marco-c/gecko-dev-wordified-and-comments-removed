@@ -46,10 +46,6 @@ nsIFile
 )
 .
 path
-+
-"
-/
-"
 ;
 var
 INDIR
@@ -83,15 +79,13 @@ txt
 parent
 .
 path
-+
-"
-/
-"
 ;
 function
 initStorage
 (
+aInputPathName
 aInputFileName
+aOutputPathName
 aOutputFileName
 aExpectedError
 )
@@ -130,6 +124,13 @@ nsILocalFile
 inputFile
 .
 initWithPath
+(
+aInputPathName
+)
+;
+inputFile
+.
+append
 (
 aInputFileName
 )
@@ -172,6 +173,13 @@ nsILocalFile
 outputFile
 .
 initWithPath
+(
+aOutputPathName
+)
+;
+outputFile
+.
+append
 (
 aOutputFileName
 )
@@ -1050,8 +1058,9 @@ file
 initStorage
 (
 OUTDIR
-+
 filename
+null
+null
 null
 )
 ;
@@ -1142,7 +1151,6 @@ empty
 initStorage
 (
 INDIR
-+
 "
 signons
 -
@@ -1151,7 +1159,6 @@ empty
 txt
 "
 OUTDIR
-+
 "
 output
 -
@@ -1279,7 +1286,6 @@ txt
 initStorage
 (
 INDIR
-+
 "
 signons
 -
@@ -1288,7 +1294,6 @@ empty
 txt
 "
 OUTDIR
-+
 "
 output
 -
@@ -1329,7 +1334,6 @@ verification
 initStorage
 (
 OUTDIR
-+
 "
 output
 -
@@ -1337,6 +1341,7 @@ output
 .
 txt
 "
+null
 null
 )
 ;
@@ -1384,7 +1389,6 @@ txt
 initStorage
 (
 INDIR
-+
 "
 signons
 -
@@ -1393,7 +1397,6 @@ empty
 txt
 "
 OUTDIR
-+
 "
 output
 -
@@ -1446,7 +1449,6 @@ verification
 initStorage
 (
 OUTDIR
-+
 "
 output
 -
@@ -1454,6 +1456,7 @@ output
 .
 txt
 "
+null
 null
 )
 ;
@@ -1511,7 +1514,6 @@ txt
 initStorage
 (
 INDIR
-+
 "
 signons
 -
@@ -1520,7 +1522,6 @@ empty
 txt
 "
 OUTDIR
-+
 "
 output
 -
@@ -1582,7 +1583,6 @@ verification
 initStorage
 (
 OUTDIR
-+
 "
 output
 -
@@ -1590,6 +1590,7 @@ output
 .
 txt
 "
+null
 null
 )
 ;
@@ -1648,7 +1649,6 @@ txt
 initStorage
 (
 INDIR
-+
 "
 signons
 -
@@ -1657,7 +1657,6 @@ empty
 txt
 "
 OUTDIR
-+
 "
 output
 -
@@ -1709,7 +1708,6 @@ verification
 initStorage
 (
 OUTDIR
-+
 "
 output
 -
@@ -1717,6 +1715,7 @@ output
 .
 txt
 "
+null
 null
 )
 ;
@@ -1765,7 +1764,6 @@ txt
 initStorage
 (
 INDIR
-+
 "
 signons
 -
@@ -1774,7 +1772,6 @@ empty
 txt
 "
 OUTDIR
-+
 "
 output
 -
@@ -1826,7 +1823,6 @@ verification
 initStorage
 (
 OUTDIR
-+
 "
 output
 -
@@ -1834,6 +1830,7 @@ output
 .
 txt
 "
+null
 null
 )
 ;
@@ -1886,7 +1883,6 @@ txt
 initStorage
 (
 INDIR
-+
 "
 signons
 -
@@ -1895,7 +1891,6 @@ empty
 txt
 "
 OUTDIR
-+
 "
 output
 -
@@ -1955,7 +1950,6 @@ verification
 initStorage
 (
 OUTDIR
-+
 "
 output
 -
@@ -1963,6 +1957,7 @@ output
 .
 txt
 "
+null
 null
 )
 ;
