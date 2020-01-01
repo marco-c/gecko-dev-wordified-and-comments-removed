@@ -88,7 +88,7 @@ endif
 va_list
 a
 =
-NULL
+nullptr
 ;
 wchar_t
 szDebugString
@@ -148,7 +148,7 @@ szDebugString
 )
 &
 len
-NULL
+nullptr
 )
 ;
 WriteConsoleW
@@ -162,7 +162,7 @@ n
 1
 &
 len
-NULL
+nullptr
 )
 ;
 if
@@ -248,7 +248,7 @@ fp
 setvbuf
 (
 stdout
-NULL
+nullptr
 _IONBF
 0
 )
@@ -476,7 +476,7 @@ createD3DDevice
 (
 adapter1
 D3D10_DRIVER_TYPE_HARDWARE
-NULL
+nullptr
 D3D10_CREATE_DEVICE_BGRA_SUPPORT
 |
 D3D10_CREATE_DEVICE_PREVENT_INTERNAL_THREADING_OPTIMIZATIONS
@@ -496,7 +496,7 @@ createD3DDevice
 (
 adapter1
 D3D10_DRIVER_TYPE_HARDWARE
-NULL
+nullptr
 D3D10_CREATE_DEVICE_BGRA_SUPPORT
 |
 D3D10_CREATE_DEVICE_PREVENT_INTERNAL_THREADING_OPTIMIZATIONS
@@ -516,7 +516,7 @@ createD3DDevice
 (
 adapter1
 D3D10_DRIVER_TYPE_HARDWARE
-NULL
+nullptr
 D3D10_CREATE_DEVICE_BGRA_SUPPORT
 |
 D3D10_CREATE_DEVICE_PREVENT_INTERNAL_THREADING_OPTIMIZATIONS

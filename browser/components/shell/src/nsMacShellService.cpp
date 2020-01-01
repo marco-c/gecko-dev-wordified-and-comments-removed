@@ -1108,7 +1108,7 @@ get
 )
 &
 pictureRef
-NULL
+nullptr
 )
 ;
 if
@@ -1414,7 +1414,7 @@ mailto
 :
 "
 )
-NULL
+nullptr
 )
 ;
 err
@@ -1425,7 +1425,7 @@ LSGetApplicationForURL
 (
 tempURL
 kLSRolesAll
-NULL
+nullptr
 &
 appURL
 )
@@ -1462,7 +1462,7 @@ news
 :
 "
 )
-NULL
+nullptr
 )
 ;
 err
@@ -1473,7 +1473,7 @@ LSGetApplicationForURL
 (
 tempURL
 kLSRolesAll
-NULL
+nullptr
 &
 appURL
 )
@@ -1506,9 +1506,9 @@ APPL
 '
 kcmr
 '
-NULL
+nullptr
 kLSRolesAll
-NULL
+nullptr
 &
 appURL
 )
@@ -1658,7 +1658,7 @@ err
 LSOpenCFURLRef
 (
 appURL
-NULL
+nullptr
 )
 ;
 rv
@@ -1795,7 +1795,7 @@ uri
 :
 CFURLCreateWithBytes
 (
-NULL
+nullptr
 uriString
 aURI
 .
@@ -1803,7 +1803,7 @@ Length
 (
 )
 kCFStringEncodingUTF8
-NULL
+nullptr
 )
 ;
 if
@@ -1821,7 +1821,7 @@ uris
 :
 CFArrayCreate
 (
-NULL
+nullptr
 (
 const
 void
@@ -1831,7 +1831,7 @@ void
 &
 uri
 1
-NULL
+nullptr
 )
 ;
 if
@@ -1870,7 +1870,7 @@ launchSpec
 .
 passThruParams
 =
-NULL
+nullptr
 ;
 launchSpec
 .
@@ -1882,7 +1882,7 @@ launchSpec
 .
 asyncRefCon
 =
-NULL
+nullptr
 ;
 OSErr
 err
@@ -1893,7 +1893,7 @@ LSOpenFromURLSpec
 (
 &
 launchSpec
-NULL
+nullptr
 )
 ;
 :
@@ -1979,7 +1979,7 @@ kCFStringEncodingASCII
 CFURLRef
 defaultHandlerURL
 =
-NULL
+nullptr
 ;
 OSStatus
 status
@@ -1990,8 +1990,8 @@ LSFindApplicationForInfo
 (
 kLSUnknownCreator
 defaultHandlerID
-NULL
-NULL
+nullptr
+nullptr
 &
 defaultHandlerURL
 )
