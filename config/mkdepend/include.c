@@ -87,7 +87,7 @@ sb
 &
 &
 !
-IS_DIR
+S_ISDIR
 (
 sb
 .
