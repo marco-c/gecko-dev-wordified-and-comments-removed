@@ -1119,13 +1119,6 @@ js
 src
 /
 Makefile
-js
-/
-src
-/
-fdlibm
-/
-Makefile
 "
 MAKEFILES_liveconnect
 =
