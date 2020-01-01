@@ -104,7 +104,7 @@ x_off_fixed
 =
 pixman_int_to_fixed
 (
-x_off
+y_off
 )
 ;
 y_off_fixed
@@ -293,6 +293,14 @@ traps
 +
 ;
 }
+fbFinishAccess
+(
+pPicture
+-
+>
+pDrawable
+)
+;
 }
 static
 void

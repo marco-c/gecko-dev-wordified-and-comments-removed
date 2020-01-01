@@ -9,10 +9,6 @@ define
 CAIRO_FORMAT_RGB16_565
 4
 #
-define
-CAIRO_FONT_TYPE_ATSUI
-CAIRO_FONT_TYPE_QUARTZ
-#
 ifndef
 _CAIROINT_H_
 #
@@ -159,10 +155,6 @@ cairo_pdf_surface_set_dpi_REPLACED_BY_cairo_surface_set_fallback_resolution
 define
 cairo_svg_surface_set_dpi
 cairo_svg_surface_set_dpi_REPLACED_BY_cairo_surface_set_fallback_resolution
-#
-define
-cairo_atsui_font_face_create_for_atsu_font_id
-cairo_atsui_font_face_create_for_atsu_font_id_REPLACED_BY_cairo_quartz_font_face_create_for_atsu_font_id
 #
 define
 cairo_current_path

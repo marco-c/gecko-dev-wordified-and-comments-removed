@@ -8371,7 +8371,7 @@ font
 LOGFONTW
 logfont
 ;
-GetObjectW
+GetObject
 (
 font
 sizeof

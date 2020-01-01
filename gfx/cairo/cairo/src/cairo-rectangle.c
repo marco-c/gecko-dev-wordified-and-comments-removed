@@ -360,17 +360,9 @@ line
 {
 cairo_fixed_t
 t1
-=
-0
 t2
-=
-0
 t3
-=
-0
 t4
-=
-0
 ;
 cairo_int64_t
 t1y
