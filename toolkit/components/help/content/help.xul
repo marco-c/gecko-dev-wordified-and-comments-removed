@@ -1933,14 +1933,6 @@ properties
 /
 >
 <
-vbox
-flex
-=
-"
-1
-"
->
-<
 toolbox
 id
 =
@@ -3409,10 +3401,6 @@ vbox
 <
 /
 hbox
->
-<
-/
-vbox
 >
 <
 /
