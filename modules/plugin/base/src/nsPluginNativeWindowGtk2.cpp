@@ -924,6 +924,16 @@ gtk_widget_realize
 mSocketWidget
 )
 ;
+gdk_window_set_back_pixmap
+(
+mSocketWidget
+-
+>
+window
+NULL
+FALSE
+)
+;
 SetAllocation
 (
 )
