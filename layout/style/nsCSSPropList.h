@@ -2984,7 +2984,7 @@ Clip
 0
 Display
 mClip
-eCSSType_Rect
+eCSSType_Value
 nsnull
 offsetof
 (
@@ -3570,7 +3570,7 @@ MozImageRegion
 0
 List
 mImageRegion
-eCSSType_Rect
+eCSSType_Value
 nsnull
 offsetof
 (

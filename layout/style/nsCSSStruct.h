@@ -624,7 +624,7 @@ mFloat
 nsCSSValue
 mClear
 ;
-nsCSSRect
+nsCSSValue
 mClip
 ;
 nsCSSValue
@@ -1005,7 +1005,7 @@ mImage
 nsCSSValue
 mPosition
 ;
-nsCSSRect
+nsCSSValue
 mImageRegion
 ;
 private
