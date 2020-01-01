@@ -5373,6 +5373,13 @@ XPC_WN_JSOp_TypeOf_Function
 nsnull
 /
 *
+trace
+*
+/
+\
+nsnull
+/
+*
 fix
 *
 /
@@ -5446,6 +5453,13 @@ XPC_WN_JSOp_Enumerate
 )
 \
 XPC_WN_JSOp_TypeOf_Object
+\
+nsnull
+/
+*
+trace
+*
+/
 \
 nsnull
 /

@@ -25514,6 +25514,7 @@ xml_setAttributes
 xml_deleteProperty
 xml_enumerate
 xml_typeOf
+NULL
 xml_fix
 NULL
 xml_clear
