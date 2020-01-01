@@ -490,10 +490,6 @@ __package__
 .
 js
 \
-packed
-.
-js
-\
 Signal
 .
 js

@@ -439,17 +439,3 @@ docshell_helpers
 .
 js
 )
-content
-/
-MochiKit
-/
-packed
-.
-js
-(
-MochiKit
-/
-packed
-.
-js
-)
