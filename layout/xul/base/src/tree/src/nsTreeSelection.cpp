@@ -2632,6 +2632,7 @@ NS_LITERAL_STRING
 DOMMenuItemActive
 "
 )
+PR_TRUE
 PR_FALSE
 )
 ;
@@ -3451,6 +3452,7 @@ NS_LITERAL_STRING
 select
 "
 )
+PR_TRUE
 PR_FALSE
 )
 ;

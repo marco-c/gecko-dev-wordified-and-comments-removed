@@ -5895,6 +5895,7 @@ NS_LITERAL_STRING
 ValueChange
 "
 )
+PR_TRUE
 PR_FALSE
 )
 )
