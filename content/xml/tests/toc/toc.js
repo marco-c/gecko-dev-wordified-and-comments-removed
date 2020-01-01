@@ -14,7 +14,7 @@ localName
 !
 =
 "
-IMG
+img
 "
 )
 return

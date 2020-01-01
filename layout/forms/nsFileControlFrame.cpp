@@ -584,7 +584,7 @@ nsGkAtoms
 :
 input
 nsnull
-kNameSpaceID_None
+kNameSpaceID_XHTML
 )
 ;
 NS_NewHTMLElement

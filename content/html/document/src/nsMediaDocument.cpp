@@ -694,7 +694,7 @@ nsGkAtoms
 :
 html
 nsnull
-kNameSpaceID_None
+kNameSpaceID_XHTML
 )
 ;
 NS_ENSURE_TRUE
@@ -768,7 +768,7 @@ nsGkAtoms
 :
 head
 nsnull
-kNameSpaceID_None
+kNameSpaceID_XHTML
 )
 ;
 NS_ENSURE_TRUE
@@ -819,7 +819,7 @@ nsGkAtoms
 :
 body
 nsnull
-kNameSpaceID_None
+kNameSpaceID_XHTML
 )
 ;
 NS_ENSURE_TRUE

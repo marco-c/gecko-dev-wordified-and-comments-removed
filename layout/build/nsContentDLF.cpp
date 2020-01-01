@@ -1394,7 +1394,7 @@ nsGkAtoms
 :
 html
 0
-kNameSpaceID_None
+kNameSpaceID_XHTML
 )
 ;
 nsCOMPtr
@@ -1420,7 +1420,7 @@ nsGkAtoms
 :
 head
 0
-kNameSpaceID_None
+kNameSpaceID_XHTML
 )
 ;
 nsCOMPtr
@@ -1446,7 +1446,7 @@ nsGkAtoms
 :
 body
 0
-kNameSpaceID_None
+kNameSpaceID_XHTML
 )
 ;
 nsCOMPtr

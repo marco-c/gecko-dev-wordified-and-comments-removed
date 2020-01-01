@@ -2529,7 +2529,7 @@ nsGkAtoms
 :
 img
 nsnull
-kNameSpaceID_None
+kNameSpaceID_XHTML
 )
 ;
 NS_ENSURE_TRUE

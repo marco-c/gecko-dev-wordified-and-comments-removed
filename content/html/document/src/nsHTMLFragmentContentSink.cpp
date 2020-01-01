@@ -1571,7 +1571,7 @@ GetNodeInfo
 (
 name
 nsnull
-kNameSpaceID_None
+kNameSpaceID_XHTML
 )
 ;
 NS_ENSURE_TRUE
@@ -1652,7 +1652,7 @@ GetNodeInfo
 (
 name
 nsnull
-kNameSpaceID_None
+kNameSpaceID_XHTML
 )
 ;
 NS_ENSURE_TRUE
@@ -2023,7 +2023,7 @@ GetNodeInfo
 (
 name
 nsnull
-kNameSpaceID_None
+kNameSpaceID_XHTML
 )
 ;
 NS_ENSURE_TRUE
@@ -2085,7 +2085,7 @@ GetNodeInfo
 (
 name
 nsnull
-kNameSpaceID_None
+kNameSpaceID_XHTML
 )
 ;
 NS_ENSURE_TRUE
@@ -3899,7 +3899,7 @@ GetText
 (
 )
 nsnull
-kNameSpaceID_None
+kNameSpaceID_XHTML
 getter_AddRefs
 (
 nodeInfo
@@ -4629,7 +4629,7 @@ GetNodeInfo
 (
 name
 nsnull
-kNameSpaceID_None
+kNameSpaceID_XHTML
 )
 ;
 NS_ENSURE_TRUE

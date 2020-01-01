@@ -3421,6 +3421,15 @@ namespaceID
 =
 =
 kNameSpaceID_XHTML
+&
+&
+!
+mOwnerContent
+-
+>
+IsInHTMLDocument
+(
+)
 )
 {
 mOwnerContent
