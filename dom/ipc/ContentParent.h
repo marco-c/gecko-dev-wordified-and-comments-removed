@@ -1173,6 +1173,15 @@ nsString
 root
 )
 ;
+virtual
+void
+ProcessingError
+(
+Result
+what
+)
+MOZ_OVERRIDE
+;
 GeckoChildProcessHost
 *
 mSubprocess
