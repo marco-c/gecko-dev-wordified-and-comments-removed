@@ -1143,6 +1143,12 @@ aValue
 )
 const
 ;
+bool
+IsValueEmpty
+(
+)
+const
+;
 void
 ClearFiles
 (
