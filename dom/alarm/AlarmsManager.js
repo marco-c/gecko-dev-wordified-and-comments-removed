@@ -429,12 +429,11 @@ remove
 "
 )
 ;
-return
 this
 .
 _cpmm
 .
-sendSyncMessage
+sendAsyncMessage
 (
 "
 AlarmsManager
@@ -821,9 +820,11 @@ enabled
 "
 )
 )
+{
 return
 null
 ;
+}
 let
 principal
 =
@@ -859,9 +860,11 @@ nsIPermissionManager
 .
 ALLOW_ACTION
 )
+{
 return
 null
 ;
+}
 this
 .
 _cpmm
