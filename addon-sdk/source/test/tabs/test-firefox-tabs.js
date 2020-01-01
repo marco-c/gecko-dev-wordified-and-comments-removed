@@ -1086,6 +1086,13 @@ waitUntilDone
 )
 ;
 let
+tabCount
+=
+tabs
+.
+length
+;
+let
 count
 =
 0
@@ -1263,7 +1270,7 @@ assertEqual
 tab
 .
 index
-1
+tabCount
 "
 index
 of
@@ -1410,7 +1417,7 @@ assertEqual
 tab
 .
 index
-1
+tabCount
 "
 index
 of
