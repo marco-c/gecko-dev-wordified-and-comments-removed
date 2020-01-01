@@ -203,6 +203,7 @@ XPCCrossOriginWrapper
 CanAccessWrapper
 (
 cx
+nsnull
 wrappedObj
 nsnull
 )
