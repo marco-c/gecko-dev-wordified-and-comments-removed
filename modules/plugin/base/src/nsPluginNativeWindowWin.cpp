@@ -94,9 +94,12 @@ NS_PLUGINMANAGER_CID
 #
 define
 NS_PLUGIN_WINDOW_PROPERTY_ASSOCIATION
+TEXT
+(
 "
 MozillaPluginWindowPropertyAssociation
 "
+)
 typedef
 nsTWeakRef
 <
