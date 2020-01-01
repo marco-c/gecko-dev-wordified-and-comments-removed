@@ -7981,6 +7981,13 @@ bidi
 )
 GK_ATOM
 (
+userInput
+"
+userInput
+"
+)
+GK_ATOM
+(
 userSpaceOnUse
 "
 userSpaceOnUse
