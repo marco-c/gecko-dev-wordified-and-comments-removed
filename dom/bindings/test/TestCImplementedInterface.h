@@ -14,6 +14,9 @@ TestJSImplGenBinding
 .
 h
 "
+class
+nsPIDOMWindow
+;
 namespace
 mozilla
 {
@@ -33,7 +36,7 @@ TestCImplementedInterface
 JSObject
 *
 aJSImpl
-nsISupports
+nsPIDOMWindow
 *
 aParent
 )

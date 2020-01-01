@@ -64926,7 +64926,7 @@ aJSImplObject
 Argument
 (
 "
-nsISupports
+nsPIDOMWindow
 *
 "
 "
