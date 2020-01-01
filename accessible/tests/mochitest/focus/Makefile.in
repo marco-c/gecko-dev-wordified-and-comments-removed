@@ -455,6 +455,10 @@ test_takeFocus
 .
 html
 \
+test_takeFocus
+.
+xul
+\
 (
 NULL
 )
