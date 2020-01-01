@@ -158,14 +158,6 @@ History
 (
 )
 ;
-void
-NotifyVisited
-(
-nsIURI
-*
-aURI
-)
-;
 mozIStorageAsyncStatement
 *
 GetIsVisitedStatement
