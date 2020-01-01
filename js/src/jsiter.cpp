@@ -280,6 +280,15 @@ state
 )
 return
 ;
+if
+(
+JSVAL_IS_VOID
+(
+state
+)
+)
+return
+;
 iterable
 =
 iterobj
