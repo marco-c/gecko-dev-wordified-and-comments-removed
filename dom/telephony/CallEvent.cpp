@@ -31,6 +31,12 @@ mozilla
 :
 dom
 ;
+using
+mozilla
+:
+:
+ErrorResult
+;
 already_AddRefed
 <
 CallEvent
