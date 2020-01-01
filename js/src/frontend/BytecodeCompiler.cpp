@@ -470,12 +470,11 @@ sct
 &
 sct
 ;
-SharedContext
-sc
+GlobalSharedContext
+globalsc
 (
 cx
 scopeChain
-NULL
 StrictModeFromContext
 (
 cx
@@ -488,7 +487,7 @@ pc
 &
 parser
 &
-sc
+globalsc
 staticLevel
 0
 )
@@ -648,7 +647,7 @@ NULL
 &
 parser
 &
-sc
+globalsc
 script
 callerFrame
 !
@@ -689,7 +688,7 @@ script
 >
 strictModeCode
 )
-sc
+globalsc
 .
 strictModeState
 =
@@ -886,7 +885,7 @@ NULL
 }
 JS_ASSERT
 (
-sc
+globalsc
 .
 strictModeState
 !
@@ -1418,15 +1417,6 @@ NULL
 sms
 )
 ;
-SharedContext
-funsc
-(
-cx
-NULL
-funbox
-sms
-)
-;
 fun
 -
 >
@@ -1449,8 +1439,7 @@ funpc
 (
 &
 parser
-&
-funsc
+funbox
 staticLevel
 0
 )
@@ -1717,8 +1706,7 @@ funbce
 NULL
 &
 parser
-&
-funsc
+funbox
 script
 NULL
 false
