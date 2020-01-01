@@ -1107,7 +1107,7 @@ NULL
 ;
 for
 (
-int
+unsigned
 i
 =
 1
@@ -1235,7 +1235,7 @@ errorArgs
 ;
 for
 (
-uint32_t
+unsigned
 i
 =
 0
