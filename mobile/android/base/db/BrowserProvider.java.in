@@ -579,7 +579,7 @@ final
 int
 DATABASE_VERSION
 =
-6
+7
 ;
 /
 /
@@ -623,7 +623,7 @@ final
 long
 DELETED_RECORDS_PURGE_LIMIT
 =
-7
+5
 ;
 /
 /
