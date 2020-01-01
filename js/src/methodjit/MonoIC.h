@@ -705,7 +705,7 @@ typeMonitored
 types
 :
 :
-jstype
+ClonedTypeSet
 *
 argTypes
 ;

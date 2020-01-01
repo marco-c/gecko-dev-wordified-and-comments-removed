@@ -301,7 +301,7 @@ argc
 types
 :
 :
-jstype
+ClonedTypeSet
 *
 argTypes
 UncachedCallResult
@@ -320,7 +320,7 @@ argc
 types
 :
 :
-jstype
+ClonedTypeSet
 *
 argTypes
 UncachedCallResult
