@@ -3622,8 +3622,6 @@ nsIFrame
 aFrame
 )
 ;
-private
-:
 nsIFrame
 *
 GetFloatContainingBlock
@@ -3633,6 +3631,8 @@ nsIFrame
 aFrame
 )
 ;
+private
+:
 nsIContent
 *
 PropagateScrollToViewport
