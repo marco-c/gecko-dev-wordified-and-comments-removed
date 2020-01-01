@@ -391,6 +391,12 @@ click
 (
 )
 ;
+contextMenu
+.
+hidePopup
+(
+)
+;
 }
 function
 checkSearchURL

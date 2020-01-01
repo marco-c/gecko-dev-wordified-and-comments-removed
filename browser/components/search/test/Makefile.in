@@ -132,6 +132,10 @@ test
 .
 html
 \
+browser_private_search
+.
+js
+\
 (
 NULL
 )
