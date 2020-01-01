@@ -227,11 +227,6 @@ CssLogic
 FILTER
 =
 {
-ALL
-:
-"
-user
-"
 USER
 :
 "
@@ -313,7 +308,7 @@ CssLogic
 .
 FILTER
 .
-ALL
+USER
 _passId
 :
 0
@@ -1941,7 +1936,7 @@ CssLogic
 .
 FILTER
 .
-ALL
+USER
 &
 &
 !
@@ -3337,7 +3332,7 @@ CssLogic
 .
 FILTER
 .
-ALL
+USER
 &
 &
 !
@@ -3363,7 +3358,7 @@ CssLogic
 .
 FILTER
 .
-ALL
+USER
 &
 &
 filter

@@ -1557,7 +1557,7 @@ CssLogic
 .
 FILTER
 .
-ALL
+USER
 ;
 }
 createStyleViews
