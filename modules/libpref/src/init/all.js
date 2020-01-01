@@ -8878,7 +8878,7 @@ smil
 .
 enabled
 "
-false
+true
 )
 ;
 pref

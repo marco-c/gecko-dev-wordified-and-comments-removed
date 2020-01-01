@@ -27,16 +27,6 @@ smil
 /
 animation
 tests
-#
-disabled
-because
-SMIL
-is
-not
-built
-by
-default
-#
 include
 smil
 /
