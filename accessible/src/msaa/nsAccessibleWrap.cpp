@@ -797,7 +797,7 @@ nsAccessible
 *
 xpParentAcc
 =
-GetParent
+Parent
 (
 )
 ;
@@ -1482,7 +1482,7 @@ nsAccessible
 *
 xpParent
 =
-GetParent
+Parent
 (
 )
 ;
@@ -4856,7 +4856,7 @@ nsAccessible
 *
 xpParent
 =
-GetParent
+Parent
 (
 )
 ;
@@ -7557,7 +7557,7 @@ child
 child
 -
 >
-GetParent
+Parent
 (
 )
 :
@@ -7589,7 +7589,7 @@ parent
 parent
 -
 >
-GetParent
+Parent
 (
 )
 ;

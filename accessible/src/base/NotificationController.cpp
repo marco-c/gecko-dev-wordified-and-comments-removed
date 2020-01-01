@@ -1396,7 +1396,7 @@ thisEvent
 mAccessible
 -
 >
-GetParent
+Parent
 (
 )
 =
@@ -1407,7 +1407,7 @@ tailEvent
 mAccessible
 -
 >
-GetParent
+Parent
 (
 )
 )

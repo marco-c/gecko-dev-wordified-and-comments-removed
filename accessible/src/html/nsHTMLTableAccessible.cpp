@@ -913,7 +913,7 @@ parent
 parent
 -
 >
-GetParent
+Parent
 (
 )
 )
@@ -6621,6 +6621,7 @@ nsIAccessibleRelation
 :
 RELATION_LABEL_FOR
 )
+{
 return
 nsRelUtils
 :
@@ -6629,11 +6630,12 @@ AddTarget
 (
 aRelationType
 aRelation
-GetParent
+Parent
 (
 )
 )
 ;
+}
 return
 NS_OK
 ;

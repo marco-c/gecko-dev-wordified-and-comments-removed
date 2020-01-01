@@ -4648,7 +4648,7 @@ treeAcc
 =
 do_QueryObject
 (
-GetParent
+Parent
 (
 )
 )

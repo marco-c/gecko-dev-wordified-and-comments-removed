@@ -1445,10 +1445,14 @@ nsAccessible
 *
 parent
 =
-GetParent
+Parent
 (
 )
 ;
+if
+(
+parent
+)
 parent
 -
 >
@@ -1632,7 +1636,7 @@ nsAccessible
 *
 parent
 =
-GetParent
+Parent
 (
 )
 ;
@@ -2477,7 +2481,7 @@ nsAccessible
 *
 groupbox
 =
-GetParent
+Parent
 (
 )
 ;

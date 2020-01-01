@@ -1659,7 +1659,7 @@ nsAccessibleWrap
 *
 >
 (
-GetParent
+Parent
 (
 )
 )
@@ -1897,10 +1897,9 @@ though
 nsAccessible
 *
 parent
+=
+Parent
 (
-GetParent
-(
-)
 )
 ;
 while
@@ -1926,7 +1925,7 @@ parent
 parent
 -
 >
-GetParent
+Parent
 (
 )
 ;

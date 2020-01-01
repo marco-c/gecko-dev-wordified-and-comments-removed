@@ -49,7 +49,7 @@ parent
 aItem
 -
 >
-GetParent
+Parent
 (
 )
 ;

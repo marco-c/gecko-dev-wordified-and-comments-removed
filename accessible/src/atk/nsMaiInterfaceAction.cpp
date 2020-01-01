@@ -410,7 +410,7 @@ parent
 acc
 -
 >
-GetParent
+Parent
 (
 )
 ;
@@ -534,7 +534,7 @@ parent
 parent
 -
 >
-GetParent
+Parent
 (
 )
 )

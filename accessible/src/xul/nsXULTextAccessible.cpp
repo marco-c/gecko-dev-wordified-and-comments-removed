@@ -244,7 +244,7 @@ nsAccessible
 *
 parent
 =
-GetParent
+Parent
 (
 )
 ;

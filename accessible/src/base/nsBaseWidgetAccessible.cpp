@@ -640,7 +640,7 @@ walkUpAcc
 walkUpAcc
 -
 >
-GetParent
+Parent
 (
 )
 )
@@ -657,9 +657,6 @@ IsDoc
 {
 if
 (
-walkUpAcc
-&
-&
 walkUpAcc
 -
 >

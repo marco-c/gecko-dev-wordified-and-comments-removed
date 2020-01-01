@@ -3737,7 +3737,7 @@ nsAccessible
 *
 thisRow
 =
-GetParent
+Parent
 (
 )
 ;
@@ -3770,7 +3770,7 @@ table
 thisRow
 -
 >
-GetParent
+Parent
 (
 )
 ;
@@ -3841,7 +3841,7 @@ nsAccessible
 *
 row
 =
-GetParent
+Parent
 (
 )
 ;
@@ -3987,7 +3987,7 @@ nsAccessible
 *
 row
 =
-GetParent
+Parent
 (
 )
 ;
@@ -4006,7 +4006,7 @@ table
 row
 -
 >
-GetParent
+Parent
 (
 )
 ;
