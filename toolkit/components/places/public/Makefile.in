@@ -486,6 +486,10 @@ nsIMicrosummaryService
 .
 idl
 \
+nsIPlacesImportExportService
+.
+idl
+\
 (
 NULL
 )
