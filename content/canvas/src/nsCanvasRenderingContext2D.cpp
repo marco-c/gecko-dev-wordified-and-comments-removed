@@ -15233,14 +15233,6 @@ else
 CANVAS_OP_TO_THEBES_OP
 (
 "
-darker
-"
-SATURATE
-)
-else
-CANVAS_OP_TO_THEBES_OP
-(
-"
 destination
 -
 atop
