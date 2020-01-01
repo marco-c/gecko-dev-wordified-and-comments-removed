@@ -3448,15 +3448,6 @@ return
 mMaxTextureSize
 ;
 }
-GLint
-GetMaxTextureImageSize
-(
-)
-{
-return
-mMaxTextureImageSize
-;
-}
 void
 SetFlipped
 (
@@ -3931,9 +3922,6 @@ mScissorStack
 ;
 GLint
 mMaxTextureSize
-;
-GLint
-mMaxTextureImageSize
 ;
 GLint
 mMaxRenderbufferSize
