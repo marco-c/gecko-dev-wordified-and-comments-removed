@@ -162,6 +162,7 @@ PRBool
 IsSingular
 (
 )
+const
 {
 return
 (
