@@ -11,11 +11,13 @@ example
 .
 com
 /
-tests
+browser
 /
-content
+browser
 /
 base
+/
+content
 /
 test
 /
