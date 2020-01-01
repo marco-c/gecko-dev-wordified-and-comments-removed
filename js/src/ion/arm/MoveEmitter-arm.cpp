@@ -420,7 +420,7 @@ pushedAtSpill_
 {
 masm
 .
-ma_push
+Push
 (
 spilledReg_
 )

@@ -18,7 +18,7 @@ a
 .
 length
 =
-10000000
+10000
 ;
 for
 (
@@ -50,6 +50,6 @@ assertEq
 testObjectLength
 (
 )
-10000000
+10000
 )
 ;

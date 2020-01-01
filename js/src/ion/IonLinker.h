@@ -286,6 +286,12 @@ masm
 masm
 )
 {
+masm
+.
+finish
+(
+)
+;
 }
 IonCode
 *

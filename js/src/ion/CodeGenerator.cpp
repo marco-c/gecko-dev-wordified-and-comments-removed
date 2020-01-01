@@ -1527,6 +1527,12 @@ LOsrEntry
 lir
 )
 {
+masm
+.
+flushBuffer
+(
+)
+;
 setOsrEntryOffset
 (
 masm
@@ -4776,6 +4782,7 @@ frameInfoTable_
 [
 0
 ]
+masm
 )
 ;
 if

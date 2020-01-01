@@ -6,7 +6,7 @@ innerLoopIntOuterDouble
 var
 n
 =
-10000
+1000
 i
 =
 0
@@ -76,7 +76,7 @@ innerLoopIntOuterDouble
 (
 )
 "
-50005000
+500500
 "
 )
 ;
