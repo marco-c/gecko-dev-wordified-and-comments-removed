@@ -2991,6 +2991,20 @@ OPTIONS
 no_extensions
 :
         
+pattern
+=
+os
+.
+sep
++
+'
+extensions
+'
++
+os
+.
+sep
+        
 test_list
 =
 [
@@ -3000,11 +3014,7 @@ _
 in
 test_list
 if
-'
-/
-extensions
-/
-'
+pattern
 not
 in
 _
