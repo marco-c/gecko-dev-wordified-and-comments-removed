@@ -1577,14 +1577,6 @@ xulrunner
 (
 PKG_SUFFIX
 )
-ifdef
-MOZ_FASTSTART
-CABARGS
-+
-=
--
-faststart
-endif
 cab
 :
 stage
