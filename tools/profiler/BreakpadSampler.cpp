@@ -1105,7 +1105,7 @@ sample
 >
 timestamp
 -
-mStartTime
+sStartTime
 ;
 utb__addEntry
 (

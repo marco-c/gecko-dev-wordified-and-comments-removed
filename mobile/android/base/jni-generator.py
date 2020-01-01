@@ -541,6 +541,9 @@ jint
 '
 jfloat
 '
+'
+jdouble
+'
 )
 :
                     
