@@ -1103,6 +1103,13 @@ SetMultipart
 PRBool
 )
 ;
+MAKE_PROXIED_FUNCTION1
+(
+GetMultipart
+PRBool
+*
+)
+;
 }
 #
 endif

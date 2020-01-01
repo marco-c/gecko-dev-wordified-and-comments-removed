@@ -478,9 +478,6 @@ PRPackedBool
 mOwnedByXHR
 ;
 PRPackedBool
-mMultipart
-;
-PRPackedBool
 mCanceled
 ;
 }
