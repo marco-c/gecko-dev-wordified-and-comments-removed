@@ -112,6 +112,13 @@ RegisterID
 ;
 enum
 Kind
+#
+ifdef
+_MSC_VER
+:
+uint8_t
+#
+endif
 {
 GET
 CALL
