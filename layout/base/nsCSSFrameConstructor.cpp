@@ -40793,6 +40793,10 @@ count
 return
 NS_OK
 ;
+BeginUpdate
+(
+)
+;
 nsPropertyTable
 *
 propTable
@@ -41092,6 +41096,10 @@ node
 #
 endif
 }
+EndUpdate
+(
+)
+;
 index
 =
 count
