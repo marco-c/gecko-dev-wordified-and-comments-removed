@@ -170,7 +170,7 @@ GetSelectedIndex
 void
 HideBox
 (
-nsIBox
+nsIFrame
 *
 aBox
 )

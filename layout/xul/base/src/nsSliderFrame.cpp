@@ -226,7 +226,7 @@ nsIContent
 >
 GetContentOfBox
 (
-nsIBox
+nsIFrame
 *
 aBox
 )
@@ -943,7 +943,7 @@ nsGkAtoms
 maxpos
 )
 {
-nsIBox
+nsIFrame
 *
 scrollbarBox
 =
@@ -1301,7 +1301,7 @@ nsDisplayListSet
 aLists
 )
 {
-nsIBox
+nsIFrame
 *
 thumb
 =
@@ -1397,7 +1397,7 @@ nsBoxLayoutState
 aState
 )
 {
-nsIBox
+nsIFrame
 *
 thumbBox
 =
@@ -1464,7 +1464,7 @@ GetClientRect
 clientRect
 )
 ;
-nsIBox
+nsIFrame
 *
 scrollbarBox
 =
@@ -1872,7 +1872,7 @@ return
 NS_OK
 ;
 }
-nsIBox
+nsIFrame
 *
 scrollbarBox
 =
@@ -2670,7 +2670,7 @@ false
 #
 endif
 }
-nsIBox
+nsIFrame
 *
 nsSliderFrame
 :
@@ -2729,7 +2729,7 @@ nscoord
 change
 )
 {
-nsIBox
+nsIFrame
 *
 scrollbarBox
 =
@@ -2863,7 +2863,7 @@ bool
 aImmediateRedraw
 )
 {
-nsIBox
+nsIFrame
 *
 scrollbarBox
 =
@@ -3450,7 +3450,7 @@ scrollbar
 =
 aScrollbar
 ;
-nsIBox
+nsIFrame
 *
 scrollbarBox
 =
@@ -3971,7 +3971,7 @@ thumbLength
 2
 )
 ;
-nsIBox
+nsIFrame
 *
 scrollbarBox
 =
@@ -4719,7 +4719,7 @@ EnsureOrient
 (
 )
 {
-nsIBox
+nsIFrame
 *
 scrollbarBox
 =

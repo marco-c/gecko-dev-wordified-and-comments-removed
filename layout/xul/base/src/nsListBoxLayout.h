@@ -17,7 +17,7 @@ nsIFrame
 typedef
 class
 nsIFrame
-nsIBox
+nsIFrame
 ;
 class
 nsBoxLayoutState
@@ -37,7 +37,7 @@ nsListBoxLayout
 NS_IMETHOD
 Layout
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -49,7 +49,7 @@ virtual
 nsSize
 GetPrefSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -61,7 +61,7 @@ virtual
 nsSize
 GetMinSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -73,7 +73,7 @@ virtual
 nsSize
 GetMaxSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -86,7 +86,7 @@ protected
 NS_IMETHOD
 LayoutInternal
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState

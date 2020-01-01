@@ -498,7 +498,7 @@ GetScrollToClick
 (
 )
 ;
-nsIBox
+nsIFrame
 *
 GetScrollbar
 (

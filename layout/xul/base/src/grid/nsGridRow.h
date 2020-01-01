@@ -20,11 +20,6 @@ nsBoxLayoutState
 class
 nsIFrame
 ;
-typedef
-class
-nsIFrame
-nsIBox
-;
 class
 nsGridRow
 {
@@ -42,14 +37,14 @@ nsGridRow
 void
 Init
 (
-nsIBox
+nsIFrame
 *
 aBox
 bool
 aIsBogus
 )
 ;
-nsIBox
+nsIFrame
 *
 GetBox
 (
@@ -151,7 +146,7 @@ public
 bool
 mIsBogus
 ;
-nsIBox
+nsIFrame
 *
 mBox
 ;

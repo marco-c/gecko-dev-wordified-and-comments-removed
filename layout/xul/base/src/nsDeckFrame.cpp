@@ -295,7 +295,7 @@ nsDeckFrame
 :
 HideBox
 (
-nsIBox
+nsIFrame
 *
 aBox
 )
@@ -337,7 +337,7 @@ InvalidateOverflowRect
 (
 )
 ;
-nsIBox
+nsIFrame
 *
 currentBox
 =
@@ -499,7 +499,7 @@ nsDisplayListSet
 aLists
 )
 {
-nsIBox
+nsIFrame
 *
 box
 =
@@ -576,7 +576,7 @@ DoLayout
 aState
 )
 ;
-nsIBox
+nsIFrame
 *
 box
 =

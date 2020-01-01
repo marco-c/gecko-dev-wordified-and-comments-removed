@@ -198,7 +198,7 @@ RelayoutChildAtOrdinal
 nsBoxLayoutState
 &
 aState
-nsIBox
+nsIFrame
 *
 aChild
 )
@@ -586,7 +586,7 @@ SetDebugOnChildList
 nsBoxLayoutState
 &
 aState
-nsIBox
+nsIFrame
 *
 aChild
 bool
@@ -596,7 +596,7 @@ aDebug
 nsresult
 DisplayDebugInfoFor
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsPoint
@@ -613,7 +613,7 @@ LayoutChildAt
 nsBoxLayoutState
 &
 aState
-nsIBox
+nsIFrame
 *
 aBox
 const
@@ -864,7 +864,7 @@ aInset
 nsresult
 GetFrameSizeWithMargin
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsSize
@@ -1003,7 +1003,7 @@ bool
 gDebug
 ;
 static
-nsIBox
+nsIFrame
 *
 mDebugChild
 ;

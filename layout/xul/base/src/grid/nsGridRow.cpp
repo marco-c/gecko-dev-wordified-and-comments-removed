@@ -85,7 +85,7 @@ nsGridRow
 :
 Init
 (
-nsIBox
+nsIFrame
 *
 aBox
 bool

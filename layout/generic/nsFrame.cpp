@@ -35536,7 +35536,7 @@ heightSet
 bool
 completelyRedefined
 =
-nsIBox
+nsIFrame
 :
 :
 AddCSSPrefSize
@@ -35675,7 +35675,7 @@ heightSet
 bool
 completelyRedefined
 =
-nsIBox
+nsIFrame
 :
 :
 AddCSSMinSize

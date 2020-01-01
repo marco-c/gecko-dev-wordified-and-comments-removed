@@ -220,11 +220,6 @@ Layer
 }
 }
 typedef
-class
-nsIFrame
-nsIBox
-;
-typedef
 PRUint32
 nsSplittableType
 ;
@@ -5338,7 +5333,7 @@ nsBoxLayoutState
 aBoxLayoutState
 )
 ;
-nsIBox
+nsIFrame
 *
 GetChildBox
 (
@@ -5357,7 +5352,7 @@ GetFirstPrincipalChild
 nullptr
 ;
 }
-nsIBox
+nsIFrame
 *
 GetNextBox
 (
@@ -5382,7 +5377,7 @@ mNextSibling
 nullptr
 ;
 }
-nsIBox
+nsIFrame
 *
 GetParentBox
 (
@@ -5552,7 +5547,7 @@ RelayoutChildAtOrdinal
 nsBoxLayoutState
 &
 aState
-nsIBox
+nsIFrame
 *
 aChild
 )
@@ -5618,7 +5613,7 @@ static
 bool
 AddCSSPrefSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsSize
@@ -5639,7 +5634,7 @@ AddCSSMinSize
 nsBoxLayoutState
 &
 aState
-nsIBox
+nsIFrame
 *
 aBox
 nsSize
@@ -5657,7 +5652,7 @@ static
 bool
 AddCSSMaxSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsSize
@@ -5678,7 +5673,7 @@ AddCSSFlex
 nsBoxLayoutState
 &
 aState
-nsIBox
+nsIFrame
 *
 aBox
 nscoord

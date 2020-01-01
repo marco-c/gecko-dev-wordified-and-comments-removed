@@ -242,7 +242,7 @@ gDebug
 =
 false
 ;
-nsIBox
+nsIFrame
 *
 nsBoxFrame
 :
@@ -3112,7 +3112,7 @@ heightSet
 if
 (
 !
-nsIBox
+nsIFrame
 :
 :
 AddCSSPrefSize
@@ -3360,7 +3360,7 @@ heightSet
 if
 (
 !
-nsIBox
+nsIFrame
 :
 :
 AddCSSMinSize
@@ -3517,7 +3517,7 @@ heightSet
 if
 (
 !
-nsIBox
+nsIFrame
 :
 :
 AddCSSMaxSize
@@ -5117,7 +5117,7 @@ PresContext
 )
 )
 ;
-nsIBox
+nsIFrame
 *
 parent
 =
@@ -7238,7 +7238,7 @@ nsBoxFrame
 :
 DisplayDebugInfoFor
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsPoint
@@ -7338,7 +7338,7 @@ count
 =
 0
 ;
-nsIBox
+nsIFrame
 *
 child
 =
@@ -7617,7 +7617,7 @@ bool
 widthSet
 heightSet
 ;
-nsIBox
+nsIFrame
 :
 :
 AddCSSPrefSize
@@ -7628,7 +7628,7 @@ widthSet
 heightSet
 )
 ;
-nsIBox
+nsIFrame
 :
 :
 AddCSSMinSize
@@ -7640,7 +7640,7 @@ widthSet
 heightSet
 )
 ;
-nsIBox
+nsIFrame
 :
 :
 AddCSSMaxSize
@@ -7651,7 +7651,7 @@ widthSet
 heightSet
 )
 ;
-nsIBox
+nsIFrame
 :
 :
 AddCSSFlex
@@ -7891,14 +7891,14 @@ SetDebugOnChildList
 nsBoxLayoutState
 &
 aState
-nsIBox
+nsIFrame
 *
 aChild
 bool
 aDebug
 )
 {
-nsIBox
+nsIFrame
 *
 child
 =
@@ -7937,7 +7937,7 @@ nsBoxFrame
 :
 GetFrameSizeWithMargin
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsSize
@@ -8755,7 +8755,7 @@ LayoutChildAt
 nsBoxLayoutState
 &
 aState
-nsIBox
+nsIFrame
 *
 aBox
 const
@@ -8842,7 +8842,7 @@ RelayoutChildAtOrdinal
 nsBoxLayoutState
 &
 aState
-nsIBox
+nsIFrame
 *
 aChild
 )

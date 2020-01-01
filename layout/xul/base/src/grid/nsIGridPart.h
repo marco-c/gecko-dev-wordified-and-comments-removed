@@ -81,7 +81,7 @@ nsGrid
 *
 GetGrid
 (
-nsIBox
+nsIFrame
 *
 aBox
 PRInt32
@@ -101,10 +101,10 @@ nsIGridPart
 *
 GetParentGridPart
 (
-nsIBox
+nsIFrame
 *
 aBox
-nsIBox
+nsIFrame
 *
 *
 aParentBox
@@ -116,7 +116,7 @@ virtual
 void
 CountRowsColumns
 (
-nsIBox
+nsIFrame
 *
 aBox
 PRInt32
@@ -133,7 +133,7 @@ virtual
 void
 DirtyRows
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -147,7 +147,7 @@ virtual
 PRInt32
 BuildRows
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsGridRow
@@ -161,7 +161,7 @@ virtual
 nsMargin
 GetTotalMargin
 (
-nsIBox
+nsIFrame
 *
 aBox
 bool

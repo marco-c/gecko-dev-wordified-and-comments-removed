@@ -419,11 +419,11 @@ nsGrid
 :
 FindRowsAndColumns
 (
-nsIBox
+nsIFrame
 *
 *
 aRows
-nsIBox
+nsIFrame
 *
 *
 aColumns
@@ -439,7 +439,7 @@ aColumns
 =
 nullptr
 ;
-nsIBox
+nsIFrame
 *
 child
 =
@@ -463,7 +463,7 @@ while
 child
 )
 {
-nsIBox
+nsIFrame
 *
 oldBox
 =
@@ -614,7 +614,7 @@ nsGrid
 :
 CountRowsColumns
 (
-nsIBox
+nsIFrame
 *
 aRowBox
 PRInt32
@@ -671,7 +671,7 @@ nsGrid
 :
 BuildRows
 (
-nsIBox
+nsIFrame
 *
 aBox
 PRInt32
@@ -1031,7 +1031,7 @@ i
 +
 )
 {
-nsIBox
+nsIFrame
 *
 child
 =
@@ -1168,7 +1168,7 @@ nsGrid
 :
 DirtyRows
 (
-nsIBox
+nsIFrame
 *
 aRowBox
 nsBoxLayoutState
@@ -1626,7 +1626,7 @@ nsGrid
 :
 GetPartFromBox
 (
-nsIBox
+nsIFrame
 *
 aBox
 )
@@ -1669,7 +1669,7 @@ nsGrid
 :
 GetBoxTotalMargin
 (
-nsIBox
+nsIFrame
 *
 aBox
 bool
@@ -1940,7 +1940,7 @@ mBottom
 return
 ;
 }
-nsIBox
+nsIFrame
 *
 box
 =
@@ -2235,7 +2235,7 @@ i
 aIsHorizontal
 )
 ;
-nsIBox
+nsIFrame
 *
 box
 =
@@ -2537,7 +2537,7 @@ row
 >
 mPref
 ;
-nsIBox
+nsIFrame
 *
 box
 =
@@ -2564,7 +2564,7 @@ cssSize
 1
 )
 ;
-nsIBox
+nsIFrame
 :
 :
 AddCSSPrefSize
@@ -2855,7 +2855,7 @@ row
 >
 mMin
 ;
-nsIBox
+nsIFrame
 *
 box
 =
@@ -2882,7 +2882,7 @@ cssSize
 1
 )
 ;
-nsIBox
+nsIFrame
 :
 :
 AddCSSMinSize
@@ -3174,7 +3174,7 @@ row
 >
 mMax
 ;
-nsIBox
+nsIFrame
 *
 box
 =
@@ -3201,7 +3201,7 @@ cssSize
 1
 )
 ;
-nsIBox
+nsIFrame
 :
 :
 AddCSSMaxSize
@@ -3460,7 +3460,7 @@ nsGrid
 :
 IsGrid
 (
-nsIBox
+nsIFrame
 *
 aBox
 )
@@ -3548,7 +3548,7 @@ row
 >
 mFlex
 ;
-nsIBox
+nsIFrame
 *
 box
 =
@@ -3576,7 +3576,7 @@ GetScrollBox
 box
 )
 ;
-nsIBox
+nsIFrame
 *
 parent
 =
@@ -3587,7 +3587,7 @@ GetParentBox
 (
 )
 ;
-nsIBox
+nsIFrame
 *
 parentsParent
 =
@@ -3639,7 +3639,7 @@ GetFlex
 aState
 )
 ;
-nsIBox
+nsIFrame
 :
 :
 AddCSSFlex
@@ -3694,7 +3694,7 @@ GetFlex
 aState
 )
 ;
-nsIBox
+nsIFrame
 :
 :
 AddCSSFlex
@@ -3919,14 +3919,14 @@ aState
 )
 ;
 }
-nsIBox
+nsIFrame
 *
 nsGrid
 :
 :
 GetScrolledBox
 (
-nsIBox
+nsIFrame
 *
 aChild
 )
@@ -3977,14 +3977,14 @@ return
 aChild
 ;
 }
-nsIBox
+nsIFrame
 *
 nsGrid
 :
 :
 GetScrollBox
 (
-nsIBox
+nsIFrame
 *
 aChild
 )
@@ -3997,7 +3997,7 @@ aChild
 return
 nullptr
 ;
-nsIBox
+nsIFrame
 *
 parent
 =

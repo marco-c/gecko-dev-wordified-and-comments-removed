@@ -184,7 +184,7 @@ nsStackLayout
 :
 GetPrefSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -199,7 +199,7 @@ prefSize
 0
 )
 ;
-nsIBox
+nsIFrame
 *
 child
 =
@@ -310,7 +310,7 @@ nsStackLayout
 :
 GetMinSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -325,7 +325,7 @@ minSize
 0
 )
 ;
-nsIBox
+nsIFrame
 *
 child
 =
@@ -436,7 +436,7 @@ nsStackLayout
 :
 GetMaxSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -451,7 +451,7 @@ NS_INTRINSICSIZE
 NS_INTRINSICSIZE
 )
 ;
-nsIBox
+nsIFrame
 *
 child
 =
@@ -584,7 +584,7 @@ nsStackLayout
 :
 GetAscent
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -597,7 +597,7 @@ vAscent
 =
 0
 ;
-nsIBox
+nsIFrame
 *
 child
 =
@@ -675,7 +675,7 @@ GetOffset
 nsBoxLayoutState
 &
 aState
-nsIBox
+nsIFrame
 *
 aChild
 nsMargin
@@ -1194,7 +1194,7 @@ nsStackLayout
 :
 Layout
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -1218,7 +1218,7 @@ grow
 ;
 do
 {
-nsIBox
+nsIFrame
 *
 child
 =

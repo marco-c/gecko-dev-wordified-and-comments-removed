@@ -18,6 +18,16 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+nsCoord
+.
+h
+"
+class
+nsIPresShell
+;
 nsresult
 NS_NewStackLayout
 (
@@ -68,7 +78,7 @@ nsStackLayout
 NS_IMETHOD
 Layout
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -80,7 +90,7 @@ virtual
 nsSize
 GetPrefSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -92,7 +102,7 @@ virtual
 nsSize
 GetMinSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -104,7 +114,7 @@ virtual
 nsSize
 GetMaxSize
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -116,7 +126,7 @@ virtual
 nscoord
 GetAscent
 (
-nsIBox
+nsIFrame
 *
 aBox
 nsBoxLayoutState
@@ -131,7 +141,7 @@ GetOffset
 nsBoxLayoutState
 &
 aState
-nsIBox
+nsIFrame
 *
 aChild
 nsMargin
