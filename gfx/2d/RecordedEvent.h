@@ -23,6 +23,11 @@ sstream
 >
 #
 include
+<
+cstring
+>
+#
+include
 "
 RecordingTypes
 .
