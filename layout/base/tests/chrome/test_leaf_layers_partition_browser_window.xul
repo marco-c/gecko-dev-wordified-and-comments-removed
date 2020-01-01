@@ -421,11 +421,6 @@ mozPaintCount
 =
 =
 initialCount
-|
-|
-win
-.
-isMozAfterPaintPending
 )
 {
 SimpleTest

@@ -375,8 +375,14 @@ NS_OK
 frame
 -
 >
-InvalidateFrame
+Invalidate
 (
+frame
+-
+>
+GetRect
+(
+)
 )
 ;
 return

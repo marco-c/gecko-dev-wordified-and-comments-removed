@@ -106,9 +106,9 @@ asserts
 if
 (
 gtk2Widget
-13
+12
 -
-14
+13
 )
 load
 323386
@@ -1644,9 +1644,9 @@ load
 html
 asserts
 (
-6
+5
 -
-9
+7
 )
 load
 467493
@@ -1658,7 +1658,7 @@ asserts
 (
 4
 -
-8
+6
 )
 load
 467493
@@ -2081,7 +2081,7 @@ asserts
 (
 3
 -
-8
+7
 )
 load
 541714

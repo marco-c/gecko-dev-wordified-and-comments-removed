@@ -155,10 +155,6 @@ nsDisplayList
 .
 h
 \
-nsDisplayListInvalidation
-.
-h
-\
 nsFrameManager
 .
 h
@@ -284,10 +280,6 @@ nsCounterManager
 cpp
 \
 nsDisplayList
-.
-cpp
-\
-nsDisplayListInvalidation
 .
 cpp
 \

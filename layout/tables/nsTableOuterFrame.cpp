@@ -4810,7 +4810,7 @@ nsHTMLReflowState
 nsTableFrame
 :
 :
-InvalidateTableFrame
+InvalidateFrame
 (
 InnerTableFrame
 (
@@ -4832,7 +4832,7 @@ NotEmpty
 nsTableFrame
 :
 :
-InvalidateTableFrame
+InvalidateFrame
 (
 mCaptionFrames
 .

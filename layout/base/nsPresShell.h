@@ -1460,15 +1460,6 @@ aMallocSizeOf
 )
 const
 ;
-virtual
-void
-AddInvalidateHiddenPresShellObserver
-(
-nsRefreshDriver
-*
-aDriver
-)
-;
 struct
 ScrollIntoViewData
 {
