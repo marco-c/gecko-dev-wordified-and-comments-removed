@@ -3354,6 +3354,14 @@ components
 talkback
 .
 hlp
+extensions
+/
+talkback
+mozilla
+.
+org
+/
+InstallDisabled
 #
 else
 #
