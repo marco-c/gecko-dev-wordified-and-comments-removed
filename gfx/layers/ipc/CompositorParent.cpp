@@ -2949,6 +2949,14 @@ uint64_t
 CompositorParent
 :
 :
+ROOT_LAYER_TREE_ID
+=
+1
+;
+uint64_t
+CompositorParent
+:
+:
 AllocateLayerTreeId
 (
 )
@@ -2970,6 +2978,8 @@ NS_IsMainThread
 static
 uint64_t
 ids
+=
+ROOT_LAYER_TREE_ID
 ;
 return
 +

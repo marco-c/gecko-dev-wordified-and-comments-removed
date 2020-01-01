@@ -308,6 +308,10 @@ ShutDown
 ;
 static
 uint64_t
+ROOT_LAYER_TREE_ID
+;
+static
+uint64_t
 AllocateLayerTreeId
 (
 )
