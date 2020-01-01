@@ -279,7 +279,7 @@ if
 ent
 )
 return
-NULL
+nsnull
 ;
 return
 ent
@@ -532,7 +532,7 @@ void
 *
 userArg
 =
-NULL
+nsnull
 )
 {
 if
