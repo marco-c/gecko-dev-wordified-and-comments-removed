@@ -36239,7 +36239,10 @@ stubArg
 void
 *
 )
+uintptr_t
+(
 count
+)
 ;
 }
 else
@@ -42505,13 +42508,12 @@ masm
 .
 move
 (
-ImmPtr
+ImmIntPtr
 (
+intptr_t
 (
-void
-*
-)
 which
+)
 )
 Registers
 :
