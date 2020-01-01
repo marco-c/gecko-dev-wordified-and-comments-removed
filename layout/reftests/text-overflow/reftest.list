@@ -129,6 +129,16 @@ to
 anti
 -
 aliasing
+fails
+-
+if
+(
+Android
+&
+&
+!
+browserIsRemote
+)
 HTTP
 (
 .
@@ -148,6 +158,9 @@ rounding
 ref
 .
 html
+#
+bug
+760264
 HTTP
 (
 .

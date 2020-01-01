@@ -38,6 +38,9 @@ skip
 -
 if
 (
+Android
+|
+|
 browserIsRemote
 )
 load

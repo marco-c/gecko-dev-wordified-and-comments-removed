@@ -208,6 +208,14 @@ scrollframe
 ref
 .
 html
+fuzzy
+-
+if
+(
+Android
+9
+39
+)
 =
 =
 scrollframe
@@ -222,6 +230,9 @@ scrollframe
 ref
 .
 html
+#
+bug
+756530
 =
 =
 select

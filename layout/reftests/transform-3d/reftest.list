@@ -630,6 +630,16 @@ origin
 1a
 .
 html
+random
+-
+if
+(
+Android
+&
+&
+!
+browserIsRemote
+)
 =
 =
 perspective
@@ -648,6 +658,9 @@ origin
 ref
 .
 html
+#
+bug
+732568
 =
 =
 perspective

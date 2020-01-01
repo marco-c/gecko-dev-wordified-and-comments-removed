@@ -348,6 +348,9 @@ fails
 if
 (
 Android
+&
+&
+browserIsRemote
 )
 =
 =
@@ -366,6 +369,7 @@ xhtml
 #
 bug
 650597
+732569
 fails
 =
 =

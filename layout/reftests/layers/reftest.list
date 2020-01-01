@@ -20,6 +20,16 @@ background
 ref
 .
 html
+random
+-
+if
+(
+Android
+&
+&
+!
+browserIsRemote
+)
 =
 =
 component
@@ -42,3 +52,6 @@ exit
 ref
 .
 html
+#
+bug
+760275
