@@ -2253,7 +2253,7 @@ load
 arguments
 .
 callee
-false
+true
 )
 ;
 Elements
@@ -2289,7 +2289,7 @@ init
 )
 ;
 }
-false
+true
 )
 ;
 }
