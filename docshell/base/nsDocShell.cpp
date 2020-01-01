@@ -39494,8 +39494,12 @@ nsDocShell
 :
 AddState
 (
-nsIVariant
-*
+const
+JS
+:
+:
+Value
+&
 aData
 const
 nsAString
@@ -39643,7 +39647,7 @@ rv
 scContainer
 -
 >
-InitFromVariant
+InitFromJSVal
 (
 aData
 cx

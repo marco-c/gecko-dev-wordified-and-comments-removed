@@ -219,9 +219,6 @@ nsIDOMNavigator
 interface
 nsIDOMScreen
 ;
-interface
-nsIDOMHistory
-;
 /
 /
 Events

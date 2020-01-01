@@ -14813,7 +14813,7 @@ nsGlobalWindow
 :
 GetHistory
 (
-nsIDOMHistory
+nsISupports
 *
 *
 aHistory
