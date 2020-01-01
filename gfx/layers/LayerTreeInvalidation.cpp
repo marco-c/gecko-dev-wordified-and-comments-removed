@@ -521,7 +521,11 @@ TransformRect
 mLayer
 -
 >
-GetInvalidRect
+GetInvalidRegion
+(
+)
+.
+GetBounds
 (
 )
 mTransform
