@@ -207,6 +207,10 @@ process
 -
 browser
 -
+or
+-
+app
+-
 frame
 -
 shown
