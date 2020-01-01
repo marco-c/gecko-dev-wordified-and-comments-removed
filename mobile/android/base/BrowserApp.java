@@ -7872,6 +7872,15 @@ cancelEdit
 (
 )
 ;
+mHomePager
+.
+setVisibility
+(
+View
+.
+VISIBLE
+)
+;
 animateHideHomePager
 (
 )
