@@ -4398,7 +4398,6 @@ format
 &
 JOF_SHARPSLOT
 )
-(
 JOF_TYPE
 (
 cs
@@ -4406,18 +4405,9 @@ cs
 >
 format
 )
-=
+!
 =
 JOF_SLOTATOM
-)
-=
-=
-(
-op
-=
-=
-JSOP_GETLOCALPROP
-)
 )
 ;
 slot
