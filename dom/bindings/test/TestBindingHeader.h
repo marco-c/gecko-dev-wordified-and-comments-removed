@@ -2371,6 +2371,14 @@ DictContainingDict
 )
 ;
 void
+PassDictContainingSequence
+(
+const
+DictContainingSequence
+&
+)
+;
+void
 ExerciseTypedefInterfaces1
 (
 TestInterface
