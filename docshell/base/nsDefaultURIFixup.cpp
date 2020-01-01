@@ -1730,9 +1730,6 @@ numDots
 iter
 ;
 }
-nsresult
-rv
-;
 nsCAutoString
 prefix
 (
