@@ -186,13 +186,6 @@ h
 #
 include
 "
-jsstaticcheck
-.
-h
-"
-#
-include
-"
 vm
 /
 GlobalObject

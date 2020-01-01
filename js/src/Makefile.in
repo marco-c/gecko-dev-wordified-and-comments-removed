@@ -1136,10 +1136,6 @@ jsscan
 .
 h
 \
-jsstaticcheck
-.
-h
-\
 jsstdint
 .
 h
