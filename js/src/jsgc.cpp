@@ -237,7 +237,7 @@ endif
 #
 include
 "
-jsdtracef
+jsprobes
 .
 h
 "
@@ -10905,7 +10905,7 @@ cx
 obj
 )
 ;
-DTrace
+Probes
 :
 :
 finalizeObject

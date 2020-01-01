@@ -310,7 +310,7 @@ endif
 #
 include
 "
-jsdtracef
+jsprobes
 .
 h
 "
