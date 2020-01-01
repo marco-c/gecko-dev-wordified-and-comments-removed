@@ -1753,6 +1753,13 @@ setAttribute
 oncommand
 "
 "
+gURLBar
+.
+value
+=
+'
+'
+;
 goDoCommand
 (
 '
