@@ -1076,6 +1076,13 @@ value
 =
 url
 ;
+SetPageProxyState
+(
+"
+invalid
+"
+)
+;
 try
 {
 urlSecurityCheck
