@@ -297,7 +297,7 @@ Mod
 HTML_TAG
 (
 isindex
-Shared
+IsIndex
 )
 HTML_HTMLELEMENT_TAG
 (
