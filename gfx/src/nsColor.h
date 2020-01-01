@@ -316,5 +316,17 @@ float
 l
 )
 ;
+NS_GFX_
+(
+const
+char
+*
+)
+NS_RGBToColorName
+(
+nscolor
+aColor
+)
+;
 #
 endif
