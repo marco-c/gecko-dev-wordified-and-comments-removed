@@ -19,6 +19,13 @@ h
 #
 include
 "
+jstypedarray
+.
+h
+"
+#
+include
+"
 ion
 /
 IonCode
@@ -38,6 +45,13 @@ h
 include
 "
 jscompartmentinlines
+.
+h
+"
+#
+include
+"
+jsinferinlines
 .
 h
 "

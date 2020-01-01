@@ -119,17 +119,6 @@ jsgcinlines
 .
 h
 "
-#
-include
-"
-vm
-/
-ScopeObject
--
-inl
-.
-h
-"
 namespace
 js
 {
