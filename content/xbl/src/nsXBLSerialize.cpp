@@ -81,9 +81,14 @@ aContext
 nsIObjectInputStream
 *
 aStream
+JS
+:
+:
+MutableHandle
+<
 JSObject
 *
-*
+>
 aFunctionObjectp
 )
 {
@@ -114,6 +119,10 @@ ReadFunction
 aStream
 cx
 aFunctionObjectp
+.
+address
+(
+)
 )
 ;
 NS_ENSURE_SUCCESS
@@ -140,7 +149,6 @@ JS
 :
 ObjectValue
 (
-*
 *
 aFunctionObjectp
 )
