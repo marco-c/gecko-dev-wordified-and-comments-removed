@@ -117,6 +117,9 @@ class
 RecoverTask
 ;
 class
+AudioChannelVolInitCallback
+;
+class
 AudioManager
 :
 public
@@ -141,6 +144,10 @@ AudioManager
 friend
 class
 RecoverTask
+;
+friend
+class
+AudioChannelVolInitCallback
 ;
 protected
 :
