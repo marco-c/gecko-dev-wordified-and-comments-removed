@@ -2292,7 +2292,7 @@ NS_OK
 define
 CAIRO_COORD_MAX
 (
-16384
+8388608
 .
 0
 )
