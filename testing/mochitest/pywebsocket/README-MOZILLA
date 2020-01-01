@@ -307,7 +307,7 @@ copy
 )
 rsync
 -
-r
+rv
 -
 -
 delete
