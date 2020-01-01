@@ -496,7 +496,6 @@ mBlockRS
 >
 AddFloat
 (
-*
 this
 aFloat
 aAvailableWidth

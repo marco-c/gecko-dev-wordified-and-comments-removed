@@ -341,6 +341,9 @@ nsFloatCache
 *
 Alloc
 (
+nsIFrame
+*
+aFloat
 )
 ;
 protected

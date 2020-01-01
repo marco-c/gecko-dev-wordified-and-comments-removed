@@ -11223,6 +11223,13 @@ ComputedOffsetProperty
 )
 GK_ATOM
 (
+floatContinuationProperty
+"
+FloatContinuationProperty
+"
+)
+GK_ATOM
+(
 floatRegionProperty
 "
 FloatRegionProperty
@@ -11336,13 +11343,6 @@ GK_ATOM
 overflowOutOfFlowsProperty
 "
 OverflowOutOfFlowsProperty
-"
-)
-GK_ATOM
-(
-overflowPlaceholdersProperty
-"
-OverflowPlaceholdersProperty
 "
 )
 GK_ATOM

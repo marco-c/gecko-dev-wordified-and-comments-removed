@@ -7318,15 +7318,11 @@ NS_FRAME_OUT_OF_FLOW
 &
 &
 !
-(
 aFrame
 -
 >
-GetStateBits
+GetPrevInFlow
 (
-)
-&
-NS_FRAME_IS_OVERFLOW_CONTAINER
 )
 )
 {
