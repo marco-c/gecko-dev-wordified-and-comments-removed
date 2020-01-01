@@ -7453,13 +7453,11 @@ JSObject
 *
 obj
 =
-NewObject
+NewBuiltinClassInstance
 (
 cx
 &
 js_ObjectClass
-NULL
-NULL
 )
 ;
 if

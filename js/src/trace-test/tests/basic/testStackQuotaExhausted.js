@@ -128,7 +128,7 @@ checkStats
 {
 traceCompleted
 :
-1
+0
 }
 )
 ;

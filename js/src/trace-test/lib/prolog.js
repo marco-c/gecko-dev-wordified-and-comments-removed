@@ -64,7 +64,7 @@ options
 match
 (
 /
-jit
+tracejit
 /
 )
 )
@@ -72,7 +72,7 @@ jit
 options
 (
 '
-jit
+tracejit
 '
 )
 ;
@@ -91,7 +91,7 @@ options
 match
 (
 /
-jit
+tracejit
 /
 )
 )
@@ -99,7 +99,7 @@ jit
 options
 (
 '
-jit
+tracejit
 '
 )
 ;

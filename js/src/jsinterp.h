@@ -91,6 +91,12 @@ JSFRAME_YIELDING
 JSFRAME_GENERATOR
 =
 0x80
+JSFRAME_BAILING
+=
+0x100
+JSFRAME_RECORDING
+=
+0x200
 JSFRAME_SPECIAL
 =
 JSFRAME_DEBUGGER
@@ -1024,6 +1030,13 @@ Interpret
 JSContext
 *
 cx
+JSStackFrame
+*
+stopFp
+uintptr_t
+inlineCallCount
+=
+0
 )
 ;
 extern

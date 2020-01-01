@@ -337,6 +337,10 @@ scope
 ;
 mic
 .
+u
+.
+name
+.
 touched
 =
 true
@@ -771,6 +775,10 @@ scope
 ;
 mic
 .
+u
+.
+name
+.
 touched
 =
 true
@@ -873,6 +881,10 @@ if
 (
 mic
 .
+u
+.
+name
+.
 typeConst
 )
 dataOffset
@@ -893,6 +905,10 @@ SET_DATA_TYPE_OFFSET
 if
 (
 mic
+.
+u
+.
+name
 .
 dataWrite
 )

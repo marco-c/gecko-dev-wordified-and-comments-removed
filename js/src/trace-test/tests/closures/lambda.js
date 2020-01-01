@@ -107,7 +107,7 @@ checkStats
 {
 recorderAborted
 :
-9
+8
 }
 )
 ;

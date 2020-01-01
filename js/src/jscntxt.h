@@ -659,7 +659,7 @@ TreeFragment
 *
 outermostTree
 ;
-uintN
+uintptr_t
 *
 inlineCallCountp
 ;
@@ -4692,6 +4692,9 @@ Interpret
 (
 JSContext
 *
+JSStackFrame
+*
+uintptr_t
 )
 ;
 void

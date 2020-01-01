@@ -808,6 +808,10 @@ jit_flags
 -
 m
 '
+'
+-
+j
+'
 ]
     
 return
@@ -1118,6 +1122,31 @@ stdout
 write
 (
 err
+)
+	
+sys
+.
+stdout
+.
+write
+(
+'
+Exit
+code
+:
+'
++
+str
+(
+p
+.
+returncode
+)
++
+"
+\
+n
+"
 )
     
 if
