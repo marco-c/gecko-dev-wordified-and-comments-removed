@@ -202,7 +202,7 @@ VERIFY_COORD
 aCoord
 )
 ;
-NS_ABORT_IF_FALSE
+NS_ASSERTION
 (
 aVal
 >
