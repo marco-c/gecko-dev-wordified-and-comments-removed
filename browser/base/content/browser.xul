@@ -4551,6 +4551,13 @@ iconsize
 small
 "
 #
+else
+iconsize
+=
+"
+large
+"
+#
 endif
 tabsontop
 =
