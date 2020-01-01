@@ -883,7 +883,7 @@ aState
 frame
 -
 >
-GetPresContext
+PresContext
 (
 )
 aState
@@ -1756,7 +1756,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -2581,7 +2581,7 @@ SyncFrameViewAfterReflow
 scrolledFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 scrolledFrame
@@ -2689,7 +2689,7 @@ mVScrollbarBox
 nsBoxLayoutState
 bls
 (
-GetPresContext
+PresContext
 (
 )
 aRenderingContext
@@ -5947,7 +5947,7 @@ presContext
 mOuter
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;
@@ -6402,7 +6402,7 @@ Forget
 mOuter
 -
 >
-GetPresContext
+PresContext
 (
 )
 -
@@ -6629,7 +6629,7 @@ GetContent
 mOuter
 -
 >
-GetPresContext
+PresContext
 (
 )
 &
@@ -6851,7 +6851,7 @@ presContext
 mOuter
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;
@@ -7288,7 +7288,7 @@ mPostedReflowCallback
 mOuter
 -
 >
-GetPresContext
+PresContext
 (
 )
 -
@@ -7719,7 +7719,7 @@ ScrollbarChanged
 mOuter
 -
 >
-GetPresContext
+PresContext
 (
 )
 x
@@ -7804,7 +7804,7 @@ prescontext
 mOuter
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;
@@ -8736,7 +8736,7 @@ aState
 childRect
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -8848,7 +8848,7 @@ presContext
 mOuter
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;
@@ -8999,7 +8999,7 @@ presContext
 mOuter
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;
@@ -9767,7 +9767,7 @@ presContext
 mOuter
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;
@@ -11285,7 +11285,7 @@ shell
 aFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -

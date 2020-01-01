@@ -265,7 +265,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -1001,7 +1001,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -1835,7 +1835,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;

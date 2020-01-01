@@ -406,7 +406,7 @@ if
 (
 CommonAttributeChangedFor
 (
-GetPresContext
+PresContext
 (
 )
 mContent

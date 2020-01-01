@@ -607,7 +607,7 @@ nsIFontMetrics
 >
 fm
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -759,7 +759,7 @@ y
 FinishReflowChild
 (
 childFrame
-GetPresContext
+PresContext
 (
 )
 nsnull
@@ -905,7 +905,7 @@ nsFrameManager
 *
 fm
 =
-GetPresContext
+PresContext
 (
 )
 -

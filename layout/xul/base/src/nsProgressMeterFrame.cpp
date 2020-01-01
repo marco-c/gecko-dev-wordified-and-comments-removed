@@ -363,7 +363,7 @@ AddStateBits
 NS_FRAME_IS_DIRTY
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -

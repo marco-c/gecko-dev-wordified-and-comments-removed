@@ -166,7 +166,7 @@ rv
 return
 CreateFencesAndSeparators
 (
-GetPresContext
+PresContext
 (
 )
 )
@@ -193,7 +193,7 @@ RemoveFencesAndSeparators
 ;
 CreateFencesAndSeparators
 (
-GetPresContext
+PresContext
 (
 )
 )
@@ -226,7 +226,7 @@ RemoveFencesAndSeparators
 ;
 CreateFencesAndSeparators
 (
-GetPresContext
+PresContext
 (
 )
 )

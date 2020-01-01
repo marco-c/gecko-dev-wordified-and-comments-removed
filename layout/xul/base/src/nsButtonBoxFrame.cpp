@@ -594,7 +594,7 @@ nsIPresShell
 >
 shell
 =
-GetPresContext
+PresContext
 (
 )
 -

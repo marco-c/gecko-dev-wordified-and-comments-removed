@@ -3311,7 +3311,7 @@ line
 mFirstChild
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;

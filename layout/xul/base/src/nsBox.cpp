@@ -1000,7 +1000,7 @@ NS_FRAME_OUTSIDE_CHILDREN
 )
 )
 {
-GetPresContext
+PresContext
 (
 )
 -
@@ -1207,7 +1207,7 @@ nsPresContext
 *
 context
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -1367,7 +1367,7 @@ nsPresContext
 *
 context
 =
-GetPresContext
+PresContext
 (
 )
 ;

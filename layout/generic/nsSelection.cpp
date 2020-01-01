@@ -1740,7 +1740,7 @@ mPresContext
 capturingFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 "

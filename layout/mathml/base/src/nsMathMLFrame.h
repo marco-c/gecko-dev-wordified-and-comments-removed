@@ -650,7 +650,7 @@ fm
 aChild
 -
 >
-GetPresContext
+PresContext
 (
 )
 -
@@ -703,7 +703,7 @@ fm
 aChild
 -
 >
-GetPresContext
+PresContext
 (
 )
 -

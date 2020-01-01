@@ -340,7 +340,7 @@ mSubScriptShift
 =
 CalcLength
 (
-GetPresContext
+PresContext
 (
 )
 mStyleContext
@@ -395,7 +395,7 @@ mSupScriptShift
 =
 CalcLength
 (
-GetPresContext
+PresContext
 (
 )
 mStyleContext
@@ -497,7 +497,7 @@ scriptSpace
 =
 PR_MAX
 (
-GetPresContext
+PresContext
 (
 )
 -
@@ -1541,7 +1541,7 @@ ascent
 FinishReflowChild
 (
 baseFrame
-GetPresContext
+PresContext
 (
 )
 nsnull
@@ -1645,7 +1645,7 @@ maxSubScriptShift
 FinishReflowChild
 (
 subScriptFrame
-GetPresContext
+PresContext
 (
 )
 nsnull
@@ -1680,7 +1680,7 @@ maxSupScriptShift
 FinishReflowChild
 (
 supScriptFrame
-GetPresContext
+PresContext
 (
 )
 nsnull

@@ -1459,7 +1459,7 @@ nsMathMLFrame
 :
 MapCommonAttributesIntoCSS
 (
-GetPresContext
+PresContext
 (
 )
 aContent
@@ -1645,7 +1645,7 @@ nsMathMLFrame
 :
 CommonAttributeChangedFor
 (
-GetPresContext
+PresContext
 (
 )
 mContent
@@ -1732,7 +1732,7 @@ nsGkAtoms
 align
 )
 {
-GetPresContext
+PresContext
 (
 )
 -
@@ -1785,7 +1785,7 @@ mPresentationData
 scriptLevel
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -2050,7 +2050,7 @@ cellFrame
 }
 }
 }
-GetPresContext
+PresContext
 (
 )
 -
@@ -2861,7 +2861,7 @@ MapAllAttributesIntoCSS
 this
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -2966,7 +2966,7 @@ nsMathMLFrame
 :
 MapCommonAttributesIntoCSS
 (
-GetPresContext
+PresContext
 (
 )
 aContent
@@ -2998,7 +2998,7 @@ nsMathMLFrame
 :
 CommonAttributeChangedFor
 (
-GetPresContext
+PresContext
 (
 )
 mContent
@@ -3142,7 +3142,7 @@ cellFrame
 ;
 }
 }
-GetPresContext
+PresContext
 (
 )
 -
@@ -3250,7 +3250,7 @@ nsMathMLFrame
 :
 MapCommonAttributesIntoCSS
 (
-GetPresContext
+PresContext
 (
 )
 aContent
@@ -3456,7 +3456,7 @@ nsMathMLFrame
 :
 CommonAttributeChangedFor
 (
-GetPresContext
+PresContext
 (
 )
 mContent

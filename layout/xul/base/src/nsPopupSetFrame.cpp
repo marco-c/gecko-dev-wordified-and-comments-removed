@@ -1594,7 +1594,7 @@ entry
 >
 mPopupFrame
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -1893,7 +1893,7 @@ nsIFrame
 *
 popupFrame
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -2071,7 +2071,7 @@ nsIFrame
 *
 popupFrame
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -2289,7 +2289,7 @@ nsPresContext
 >
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -2533,7 +2533,7 @@ AddStateBits
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -2890,7 +2890,7 @@ nsIPresShell
 >
 shell
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -3263,7 +3263,7 @@ nsIPresShell
 >
 shell
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -3353,7 +3353,7 @@ nsIPresShell
 >
 shell
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -3767,7 +3767,7 @@ cont
 aFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -

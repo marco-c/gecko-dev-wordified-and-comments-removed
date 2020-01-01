@@ -1150,7 +1150,7 @@ nsPresContext
 *
 aPresContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -2124,7 +2124,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -2485,7 +2485,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -3022,7 +3022,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -3154,7 +3154,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -3197,7 +3197,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -4402,7 +4402,7 @@ nsRecessedBorder
 recessedBorder
 (
 borderEdgeWidth
-GetPresContext
+PresContext
 (
 )
 )
@@ -4412,7 +4412,7 @@ nsCSSRendering
 :
 PaintBorder
 (
-GetPresContext
+PresContext
 (
 )
 aRenderingContext
@@ -4797,7 +4797,7 @@ altText
 ;
 DisplayAltText
 (
-GetPresContext
+PresContext
 (
 )
 aRenderingContext
@@ -4937,7 +4937,7 @@ pc
 f
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;
@@ -5213,7 +5213,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -5528,7 +5528,7 @@ GetShowFrameBorders
 &
 GetImageMap
 (
-GetPresContext
+PresContext
 (
 )
 )
@@ -5582,7 +5582,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -6893,7 +6893,7 @@ nsPresContext
 *
 context
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -6955,7 +6955,7 @@ nsStyleContext
 >
 areaStyle
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -7084,7 +7084,7 @@ AddStateBits
 NS_FRAME_IS_DIRTY
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -

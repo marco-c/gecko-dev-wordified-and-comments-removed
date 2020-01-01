@@ -218,7 +218,7 @@ NS_SUCCEEDED
 (
 CreateViewForFrame
 (
-GetPresContext
+PresContext
 (
 )
 this

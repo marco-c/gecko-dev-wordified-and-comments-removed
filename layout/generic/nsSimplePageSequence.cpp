@@ -440,7 +440,7 @@ new
 nsFont
 (
 *
-GetPresContext
+PresContext
 (
 )
 -
@@ -459,7 +459,7 @@ mHeadFootFont
 >
 size
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -1662,7 +1662,7 @@ height
 =
 y
 *
-GetPresContext
+PresContext
 (
 )
 -
@@ -1685,7 +1685,7 @@ width
 deadSpaceGap
 )
 *
-GetPresContext
+PresContext
 (
 )
 -
@@ -2365,7 +2365,7 @@ nsIDeviceContext
 *
 dc
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -2486,7 +2486,7 @@ height
 ;
 width
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -2499,7 +2499,7 @@ width
 ;
 height
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -2618,7 +2618,7 @@ continuePrinting
 {
 if
 (
-GetPresContext
+PresContext
 (
 )
 -
@@ -2727,7 +2727,7 @@ nsIRenderingContext
 >
 renderingContext
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -2929,7 +2929,7 @@ NS_OK
 ;
 if
 (
-GetPresContext
+PresContext
 (
 )
 -
@@ -2993,7 +2993,7 @@ n
 ;
 rv
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -3097,7 +3097,7 @@ aDirtyRect
 float
 scale
 =
-GetPresContext
+PresContext
 (
 )
 -

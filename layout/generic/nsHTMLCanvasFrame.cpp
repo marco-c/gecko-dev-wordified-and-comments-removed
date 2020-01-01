@@ -710,7 +710,7 @@ GetCanvasSize
 nsSize
 sizeAppUnits
 (
-GetPresContext
+PresContext
 (
 )
 -
@@ -721,7 +721,7 @@ canvasSize
 .
 width
 )
-GetPresContext
+PresContext
 (
 )
 -

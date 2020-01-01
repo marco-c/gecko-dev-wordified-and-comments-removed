@@ -334,7 +334,7 @@ mRenderer
 SetFrame
 (
 this
-GetPresContext
+PresContext
 (
 )
 )

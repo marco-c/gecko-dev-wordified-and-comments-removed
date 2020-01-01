@@ -509,7 +509,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -698,7 +698,7 @@ nsCSSRendering
 :
 FindBackground
 (
-GetPresContext
+PresContext
 (
 )
 this
@@ -743,7 +743,7 @@ nsISupports
 >
 cont
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -1572,7 +1572,7 @@ nsPresContext
 *
 context
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -3161,7 +3161,7 @@ nsIDeviceContext
 *
 devContext
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -4013,7 +4013,7 @@ sizedToPopup
 nsBoxLayoutState
 state
 (
-GetPresContext
+PresContext
 (
 )
 )
@@ -4094,7 +4094,7 @@ cb
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -4188,7 +4188,7 @@ nsnull
 ;
 GetInsertionPoint
 (
-GetPresContext
+PresContext
 (
 )
 -
@@ -4421,7 +4421,7 @@ nsnull
 ;
 GetInsertionPoint
 (
-GetPresContext
+PresContext
 (
 )
 -
@@ -5226,7 +5226,7 @@ menuDelay
 =
 300
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -5353,7 +5353,7 @@ popupSetFrame
 =
 GetPopupSetFrame
 (
-GetPresContext
+PresContext
 (
 )
 )
@@ -5568,7 +5568,7 @@ nsnull
 ;
 GetInsertionPoint
 (
-GetPresContext
+PresContext
 (
 )
 -
@@ -6920,7 +6920,7 @@ popupSetFrame
 =
 GetPopupSetFrame
 (
-GetPresContext
+PresContext
 (
 )
 )
@@ -7065,7 +7065,7 @@ popupSetFrame
 =
 GetPopupSetFrame
 (
-GetPresContext
+PresContext
 (
 )
 )
@@ -7453,7 +7453,7 @@ Tag
 PRBool
 skipNavigatingDisabledMenuItem
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -7752,7 +7752,7 @@ nsPresContext
 *
 rootPresContext
 =
-GetPresContext
+PresContext
 (
 )
 -

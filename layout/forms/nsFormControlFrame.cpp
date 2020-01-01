@@ -316,7 +316,7 @@ presContext
 aFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;

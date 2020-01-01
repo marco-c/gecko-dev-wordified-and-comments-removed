@@ -255,7 +255,7 @@ shell
 aBodyFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -

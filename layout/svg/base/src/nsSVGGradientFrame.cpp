@@ -1674,7 +1674,7 @@ GetReferencedFrame
 nextGrad
 targetURI
 mContent
-GetPresContext
+PresContext
 (
 )
 -

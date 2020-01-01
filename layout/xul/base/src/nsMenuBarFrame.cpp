@@ -564,7 +564,7 @@ nsIPresShell
 *
 presShell
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -997,7 +997,7 @@ nsnull
 ;
 GetInsertionPoint
 (
-GetPresContext
+PresContext
 (
 )
 -
@@ -1624,7 +1624,7 @@ nsnull
 ;
 GetInsertionPoint
 (
-GetPresContext
+PresContext
 (
 )
 -
@@ -1857,7 +1857,7 @@ nsnull
 ;
 GetInsertionPoint
 (
-GetPresContext
+PresContext
 (
 )
 -

@@ -2007,7 +2007,7 @@ bidiUtils
 mFirstChild
 -
 >
-GetPresContext
+PresContext
 (
 )
 -
@@ -2423,7 +2423,7 @@ bidiUtils
 mFirstChild
 -
 >
-GetPresContext
+PresContext
 (
 )
 -

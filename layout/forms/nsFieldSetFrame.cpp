@@ -907,7 +907,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -3014,7 +3014,7 @@ AddStateBits
 NS_FRAME_IS_DIRTY
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -3192,7 +3192,7 @@ AddStateBits
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -3231,7 +3231,7 @@ nsFrameManager
 *
 frameManager
 =
-GetPresContext
+PresContext
 (
 )
 -

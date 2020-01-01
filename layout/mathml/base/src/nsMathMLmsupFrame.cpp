@@ -153,7 +153,7 @@ aDesiredSize
 nscoord
 scriptSpace
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -219,7 +219,7 @@ supScriptShift
 =
 CalcLength
 (
-GetPresContext
+PresContext
 (
 )
 mStyleContext
@@ -234,7 +234,7 @@ nsMathMLmsupFrame
 :
 PlaceSuperScript
 (
-GetPresContext
+PresContext
 (
 )
 aRenderingContext

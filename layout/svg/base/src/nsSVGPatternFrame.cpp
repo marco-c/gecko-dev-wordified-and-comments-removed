@@ -1912,7 +1912,7 @@ GetReferencedFrame
 nextPattern
 targetURI
 mContent
-GetPresContext
+PresContext
 (
 )
 -

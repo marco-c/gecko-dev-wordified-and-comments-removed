@@ -2509,7 +2509,7 @@ scriptminsize
 aFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -
@@ -2799,7 +2799,7 @@ fm
 aFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -
@@ -3059,7 +3059,7 @@ aPrevInFlow
 {
 MapCommonAttributesIntoCSS
 (
-GetPresContext
+PresContext
 (
 )
 aContent
@@ -3480,7 +3480,7 @@ return
 frame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -
@@ -3751,7 +3751,7 @@ if
 (
 CommonAttributeChangedFor
 (
-GetPresContext
+PresContext
 (
 )
 mContent
@@ -3762,7 +3762,7 @@ return
 NS_OK
 ;
 return
-GetPresContext
+PresContext
 (
 )
 -
@@ -5199,7 +5199,7 @@ leftCorrection
 FinishReflowChild
 (
 childFrame
-GetPresContext
+PresContext
 (
 )
 nsnull
@@ -5711,7 +5711,7 @@ DidReflow
 frame
 -
 >
-GetPresContext
+PresContext
 (
 )
 nsnull

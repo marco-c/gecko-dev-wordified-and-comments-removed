@@ -482,7 +482,7 @@ NS_OK
 nsBoxLayoutState
 state
 (
-GetPresContext
+PresContext
 (
 )
 )
@@ -2437,7 +2437,7 @@ result
 nsBoxLayoutState
 state
 (
-GetPresContext
+PresContext
 (
 )
 aRenderingContext
@@ -2498,7 +2498,7 @@ result
 nsBoxLayoutState
 state
 (
-GetPresContext
+PresContext
 (
 )
 aRenderingContext
@@ -3871,7 +3871,7 @@ mLayoutManager
 nsBoxLayoutState
 state
 (
-GetPresContext
+PresContext
 (
 )
 )
@@ -3924,7 +3924,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -3967,7 +3967,7 @@ mState
 =
 NS_FRAME_HAS_DIRTY_CHILDREN
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -4055,7 +4055,7 @@ kids
 nsBoxLayoutState
 state
 (
-GetPresContext
+PresContext
 (
 )
 )
@@ -4111,7 +4111,7 @@ mState
 =
 NS_FRAME_HAS_DIRTY_CHILDREN
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -4170,7 +4170,7 @@ kids
 nsBoxLayoutState
 state
 (
-GetPresContext
+PresContext
 (
 )
 )
@@ -4236,7 +4236,7 @@ mState
 =
 NS_FRAME_HAS_DIRTY_CHILDREN
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -4834,7 +4834,7 @@ mState
 =
 NS_FRAME_IS_DIRTY
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -4869,7 +4869,7 @@ ordinal
 nsBoxLayoutState
 state
 (
-GetPresContext
+PresContext
 (
 )
 )
@@ -4889,7 +4889,7 @@ GetStateBits
 NS_FRAME_OUT_OF_FLOW
 )
 {
-GetPresContext
+PresContext
 (
 )
 -
@@ -4950,7 +4950,7 @@ mState
 =
 NS_FRAME_IS_DIRTY
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -8034,7 +8034,7 @@ nsIEventStateManager
 *
 esm
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -8105,7 +8105,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;

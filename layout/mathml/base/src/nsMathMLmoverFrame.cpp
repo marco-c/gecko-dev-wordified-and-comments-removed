@@ -631,7 +631,7 @@ nsMathMLmsupFrame
 :
 PlaceSuperScript
 (
-GetPresContext
+PresContext
 (
 )
 aRenderingContext
@@ -639,7 +639,7 @@ aPlaceOrigin
 aDesiredSize
 this
 0
-GetPresContext
+PresContext
 (
 )
 -
@@ -1231,7 +1231,7 @@ ascent
 FinishReflowChild
 (
 baseFrame
-GetPresContext
+PresContext
 (
 )
 nsnull
@@ -1262,7 +1262,7 @@ ascent
 FinishReflowChild
 (
 overFrame
-GetPresContext
+PresContext
 (
 )
 nsnull

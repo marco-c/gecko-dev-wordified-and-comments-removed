@@ -3846,7 +3846,7 @@ pc
 f
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;

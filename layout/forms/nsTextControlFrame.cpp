@@ -4260,7 +4260,7 @@ if
 !
 SuppressEventHandlers
 (
-GetPresContext
+PresContext
 (
 )
 )
@@ -5198,7 +5198,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -5450,7 +5450,7 @@ scrollable
 nsBoxLayoutState
 bls
 (
-GetPresContext
+PresContext
 (
 )
 aRenderingContext
@@ -5548,7 +5548,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -6552,7 +6552,7 @@ nsIPresShell
 *
 shell
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -7207,7 +7207,7 @@ if
 !
 IsFocusedContent
 (
-GetPresContext
+PresContext
 (
 )
 mContent
@@ -7247,7 +7247,7 @@ nsIPresShell
 *
 presShell
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -9262,7 +9262,7 @@ if
 (
 IsFocusedContent
 (
-GetPresContext
+PresContext
 (
 )
 mContent
@@ -9305,7 +9305,7 @@ eEditorDisabledMask
 &
 IsFocusedContent
 (
-GetPresContext
+PresContext
 (
 )
 mContent
@@ -9390,7 +9390,7 @@ if
 (
 IsFocusedContent
 (
-GetPresContext
+PresContext
 (
 )
 mContent
@@ -9782,7 +9782,7 @@ nsIPresShell
 >
 shell
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -9872,7 +9872,7 @@ nsIPresShell
 >
 shell
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -10840,7 +10840,7 @@ listener
 if
 (
 !
-GetPresContext
+PresContext
 (
 )
 -

@@ -218,7 +218,7 @@ nsIEventStateManager
 *
 esm
 =
-GetPresContext
+PresContext
 (
 )
 -

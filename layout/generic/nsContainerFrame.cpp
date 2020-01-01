@@ -449,7 +449,7 @@ AddStateBits
 NS_FRAME_IS_DIRTY
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -587,7 +587,7 @@ AddStateBits
 NS_FRAME_IS_DIRTY
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -811,7 +811,7 @@ AddStateBits
 NS_FRAME_IS_DIRTY
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -905,7 +905,7 @@ aRealContent
 aRoot
 -
 >
-GetPresContext
+PresContext
 (
 )
 -
@@ -1000,7 +1000,7 @@ overflowFrames
 (
 GetOverflowFrames
 (
-GetPresContext
+PresContext
 (
 )
 PR_TRUE
@@ -1065,7 +1065,7 @@ aListName
 return
 GetOverflowFrames
 (
-GetPresContext
+PresContext
 (
 )
 PR_FALSE

@@ -1657,7 +1657,7 @@ AddStateBits
 NS_FRAME_IS_DIRTY
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -3073,7 +3073,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -3469,7 +3469,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -6365,7 +6365,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -8845,7 +8845,7 @@ nsTableReflowState
 reflowState
 (
 *
-GetPresContext
+PresContext
 (
 )
 aReflowState
@@ -9241,7 +9241,7 @@ nsHTMLContainerFrame
 :
 ReparentFrameView
 (
-GetPresContext
+PresContext
 (
 )
 f
@@ -9273,7 +9273,7 @@ else
 {
 SetOverflowFrames
 (
-GetPresContext
+PresContext
 (
 )
 frames
@@ -10051,7 +10051,7 @@ AddStateBits
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -10639,7 +10639,7 @@ AddStateBits
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -11055,7 +11055,7 @@ AddStateBits
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -11351,7 +11351,7 @@ if
 eCompatibility_NavQuirks
 =
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -11394,7 +11394,7 @@ if
 eCompatibility_NavQuirks
 !
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -11507,7 +11507,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -11748,7 +11748,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -11867,7 +11867,7 @@ aKidDesiredSize
 FinishReflowChild
 (
 aKidFrame
-GetPresContext
+PresContext
 (
 )
 nsnull
@@ -12321,7 +12321,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -13467,7 +13467,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -13662,7 +13662,7 @@ tableSpecifiedHeight
 eCompatibility_NavQuirks
 !
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -33262,7 +33262,7 @@ propTable
 aFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -

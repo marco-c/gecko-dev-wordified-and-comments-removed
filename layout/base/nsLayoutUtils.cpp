@@ -1542,7 +1542,7 @@ presContext
 aFrame1
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;
@@ -1554,7 +1554,7 @@ presContext
 aFrame2
 -
 >
-GetPresContext
+PresContext
 (
 )
 )
@@ -2749,7 +2749,7 @@ TranslateWidgetToView
 rootFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 GUIEvent
@@ -2901,7 +2901,7 @@ TranslateWidgetToView
 aFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 GUIEvent
@@ -3159,7 +3159,7 @@ aFrame
 aFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -
@@ -4912,7 +4912,7 @@ return
 aFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -
@@ -5168,7 +5168,7 @@ presContext
 aFrame1
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;
@@ -5180,7 +5180,7 @@ presContext
 aFrame2
 -
 >
-GetPresContext
+PresContext
 (
 )
 )
@@ -5512,7 +5512,7 @@ rootScrollFrame
 aFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -
@@ -6472,7 +6472,7 @@ presContext
 aFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;
@@ -7961,7 +7961,7 @@ presContext
 aFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;
@@ -8129,7 +8129,7 @@ presContext
 aFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;
@@ -8849,7 +8849,7 @@ return
 aFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -

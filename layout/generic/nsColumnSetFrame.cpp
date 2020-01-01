@@ -1742,7 +1742,7 @@ NS_FRAME_IS_DIRTY
 nsHTMLReflowState
 kidReflowState
 (
-GetPresContext
+PresContext
 (
 )
 aReflowState
@@ -1867,7 +1867,7 @@ mFlags
 ReflowChild
 (
 child
-GetPresContext
+PresContext
 (
 )
 kidDesiredSize
@@ -1989,7 +1989,7 @@ mCarriedOutBottomMargin
 FinishReflowChild
 (
 child
-GetPresContext
+PresContext
 (
 )
 &
@@ -2112,7 +2112,7 @@ rv
 =
 CreateNextInFlow
 (
-GetPresContext
+PresContext
 (
 )
 this
@@ -2184,7 +2184,7 @@ continuationColumns
 {
 SetOverflowFrames
 (
-GetPresContext
+PresContext
 (
 )
 continuationColumns
@@ -2803,7 +2803,7 @@ prev
 >
 GetOverflowFrames
 (
-GetPresContext
+PresContext
 (
 )
 PR_TRUE
@@ -2853,7 +2853,7 @@ nsHTMLContainerFrame
 :
 ReparentFrameView
 (
-GetPresContext
+PresContext
 (
 )
 f
@@ -2907,7 +2907,7 @@ overflows
 =
 GetOverflowFrames
 (
-GetPresContext
+PresContext
 (
 )
 PR_TRUE
@@ -3482,7 +3482,7 @@ carriedOutBottomMargin
 }
 CheckInvalidateSizeChange
 (
-GetPresContext
+PresContext
 (
 )
 aDesiredSize

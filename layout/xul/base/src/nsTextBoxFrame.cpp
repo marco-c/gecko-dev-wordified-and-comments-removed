@@ -349,7 +349,7 @@ AddStateBits
 NS_FRAME_IS_DIRTY
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -378,7 +378,7 @@ aRedraw
 nsBoxLayoutState
 state
 (
-GetPresContext
+PresContext
 (
 )
 )
@@ -1204,7 +1204,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -3919,7 +3919,7 @@ nsIEventStateManager
 *
 esm
 =
-GetPresContext
+PresContext
 (
 )
 -

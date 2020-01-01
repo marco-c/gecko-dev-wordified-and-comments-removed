@@ -1275,7 +1275,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -2779,7 +2779,7 @@ ReparentFrameView
 aFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 aFrame
@@ -3713,7 +3713,7 @@ aLastRS
 frame
 -
 >
-GetPresContext
+PresContext
 (
 )
 aLastRS
@@ -11050,7 +11050,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -11133,7 +11133,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -19752,7 +19752,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -20280,7 +20280,7 @@ AddStateBits
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -20529,7 +20529,7 @@ AddStateBits
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -20715,7 +20715,7 @@ nsIPresShell
 *
 presShell
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -21160,7 +21160,7 @@ nsFrameManager
 *
 fm
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -21758,7 +21758,7 @@ AddStateBits
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -22127,7 +22127,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -25660,7 +25660,7 @@ nsPresContext
 *
 aPresContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -26826,7 +26826,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;

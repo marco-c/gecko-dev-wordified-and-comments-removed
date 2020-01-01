@@ -490,7 +490,7 @@ nsPresContext
 *
 pc
 =
-GetPresContext
+PresContext
 (
 )
 ;

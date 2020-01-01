@@ -998,7 +998,7 @@ nsCSSRendering
 :
 PaintBackgroundWithSC
 (
-GetPresContext
+PresContext
 (
 )
 aRenderingContext
@@ -1019,7 +1019,7 @@ nsCSSRendering
 :
 PaintBorder
 (
-GetPresContext
+PresContext
 (
 )
 aRenderingContext

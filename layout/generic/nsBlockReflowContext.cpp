@@ -331,7 +331,7 @@ prescontext
 frame
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;

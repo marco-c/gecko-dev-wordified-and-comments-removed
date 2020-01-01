@@ -836,7 +836,7 @@ InitResizeFlags
 frame
 -
 >
-GetPresContext
+PresContext
 (
 )
 )
@@ -6819,7 +6819,7 @@ presContext
 frame
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;

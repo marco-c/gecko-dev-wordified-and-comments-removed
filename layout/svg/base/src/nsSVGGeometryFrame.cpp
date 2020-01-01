@@ -186,7 +186,7 @@ GetReferencedFrame
 result
 uri
 mContent
-GetPresContext
+PresContext
 (
 )
 -
@@ -634,7 +634,7 @@ nsSVGUtils
 :
 CoordToFloat
 (
-GetPresContext
+PresContext
 (
 )
 ctx
@@ -709,7 +709,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -857,7 +857,7 @@ nsSVGUtils
 :
 CoordToFloat
 (
-GetPresContext
+PresContext
 (
 )
 NS_STATIC_CAST

@@ -13477,7 +13477,7 @@ bodyFrame
 aForFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -

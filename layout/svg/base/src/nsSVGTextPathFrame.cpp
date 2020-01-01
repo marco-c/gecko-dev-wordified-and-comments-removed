@@ -645,7 +645,7 @@ GetReferencedFrame
 path
 targetURI
 mContent
-GetPresContext
+PresContext
 (
 )
 -

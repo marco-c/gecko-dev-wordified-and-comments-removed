@@ -3402,7 +3402,7 @@ NS_ASSERTION
 aChild
 -
 >
-GetPresContext
+PresContext
 (
 )
 -
@@ -39842,7 +39842,7 @@ SyncFrameViewProperties
 aFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 aFrame
@@ -40338,7 +40338,7 @@ presContext
 aFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;

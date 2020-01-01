@@ -675,7 +675,7 @@ UpdateMenuType
 menu
 -
 >
-GetPresContext
+PresContext
 (
 )
 )
@@ -1087,7 +1087,7 @@ cb
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -1557,7 +1557,7 @@ IsAlive
 ;
 DestroyPopupFrames
 (
-GetPresContext
+PresContext
 (
 )
 )
@@ -3100,7 +3100,7 @@ view
 nsViewVisibility_kShow
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -3250,7 +3250,7 @@ mMenuOpen
 =
 PR_FALSE
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -3308,7 +3308,7 @@ eMenuType_Normal
 )
 UpdateMenuSpecialState
 (
-GetPresContext
+PresContext
 (
 )
 )
@@ -3375,7 +3375,7 @@ name
 )
 UpdateMenuType
 (
-GetPresContext
+PresContext
 (
 )
 )
@@ -3527,7 +3527,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -7483,7 +7483,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -7624,7 +7624,7 @@ nsIPresShell
 >
 shell
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -8023,7 +8023,7 @@ nsIPresShell
 >
 shell
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -8145,7 +8145,7 @@ nsIPresShell
 >
 shell
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -8267,7 +8267,7 @@ nsIPresShell
 >
 shell
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -8378,7 +8378,7 @@ AddStateBits
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -8516,7 +8516,7 @@ AddStateBits
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -8659,7 +8659,7 @@ AddStateBits
 NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -8795,7 +8795,7 @@ state
 frame
 -
 >
-GetPresContext
+PresContext
 (
 )
 )
@@ -9002,7 +9002,7 @@ if
 cb
 )
 {
-GetPresContext
+PresContext
 (
 )
 -
@@ -9344,7 +9344,7 @@ nsIFrame
 *
 kid
 =
-GetPresContext
+PresContext
 (
 )
 -

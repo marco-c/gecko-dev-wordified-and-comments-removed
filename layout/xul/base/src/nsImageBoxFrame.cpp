@@ -608,7 +608,7 @@ AddStateBits
 NS_FRAME_IS_DIRTY
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -2036,7 +2036,7 @@ AddStateBits
 NS_FRAME_IS_DIRTY
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -2076,7 +2076,7 @@ image
 nsBoxLayoutState
 state
 (
-GetPresContext
+PresContext
 (
 )
 )
@@ -2138,7 +2138,7 @@ AddStateBits
 NS_FRAME_IS_DIRTY
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -2188,7 +2188,7 @@ dirtyRect
 nsBoxLayoutState
 state
 (
-GetPresContext
+PresContext
 (
 )
 )

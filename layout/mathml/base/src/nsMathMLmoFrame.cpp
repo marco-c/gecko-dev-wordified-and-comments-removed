@@ -561,7 +561,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -1078,7 +1078,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -3152,7 +3152,7 @@ mMathMLChar
 .
 Stretch
 (
-GetPresContext
+PresContext
 (
 )
 aRenderingContext

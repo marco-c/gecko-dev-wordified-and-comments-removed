@@ -150,7 +150,7 @@ pc
 aReferenceFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;
@@ -282,7 +282,7 @@ frameManager
 aFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -
@@ -455,7 +455,7 @@ frameManager
 aFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -
@@ -617,7 +617,7 @@ shell
 frame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -
@@ -676,7 +676,7 @@ shell
 aReferenceFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -
@@ -2569,7 +2569,7 @@ FindBackground
 mFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 mFrame
@@ -2677,7 +2677,7 @@ FindBackground
 mFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 mFrame
@@ -2770,7 +2770,7 @@ FindBackground
 mFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 mFrame
@@ -2873,7 +2873,7 @@ PaintBackground
 mFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 *
@@ -2978,7 +2978,7 @@ PaintOutline
 mFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 *
@@ -3308,7 +3308,7 @@ PaintBorder
 mFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 *

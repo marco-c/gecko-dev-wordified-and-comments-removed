@@ -5827,7 +5827,7 @@ nsPropertyTable
 *
 propTable
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -8036,7 +8036,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -11504,7 +11504,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -13190,7 +13190,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -13296,7 +13296,7 @@ rv
 nsTextTransformer
 tx
 (
-GetPresContext
+PresContext
 (
 )
 )
@@ -17471,7 +17471,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -17614,7 +17614,7 @@ mStyleContext
 nsTextTransformer
 tx
 (
-GetPresContext
+PresContext
 (
 )
 )
@@ -19389,7 +19389,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -20048,7 +20048,7 @@ mContentLength
 nsTextTransformer
 tx
 (
-GetPresContext
+PresContext
 (
 )
 )
@@ -24275,7 +24275,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -24903,7 +24903,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;

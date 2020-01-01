@@ -486,7 +486,7 @@ AddStateBits
 NS_FRAME_IS_DIRTY
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -1966,7 +1966,7 @@ kid
 )
 return
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -2165,7 +2165,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;

@@ -300,7 +300,7 @@ nsIPresShell
 *
 shell
 =
-GetPresContext
+PresContext
 (
 )
 -

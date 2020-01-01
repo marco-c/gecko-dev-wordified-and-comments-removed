@@ -1090,7 +1090,7 @@ nsScrollbarButtonFrame
 :
 GetChildWithTag
 (
-GetPresContext
+PresContext
 (
 )
 nsGkAtoms
@@ -1439,7 +1439,7 @@ mInner
 >
 AddListener
 (
-GetPresContext
+PresContext
 (
 )
 )
@@ -2525,7 +2525,7 @@ CaptureMouse
 mOuter
 -
 >
-GetPresContext
+PresContext
 (
 )
 PR_FALSE
@@ -2633,7 +2633,7 @@ outerPresContext
 mOuter
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;
@@ -3705,7 +3705,7 @@ GetChildBeforeAfter
 mOuter
 -
 >
-GetPresContext
+PresContext
 (
 )
 splitter

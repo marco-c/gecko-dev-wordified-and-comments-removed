@@ -671,7 +671,7 @@ NS_IFRAME_IID
 )
 nsPresContext
 *
-GetPresContext
+PresContext
 (
 )
 const
@@ -1515,7 +1515,7 @@ nsPresContext
 *
 pc
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -4118,7 +4118,7 @@ mFrame
 mFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -

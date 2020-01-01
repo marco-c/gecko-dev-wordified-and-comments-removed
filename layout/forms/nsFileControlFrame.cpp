@@ -978,7 +978,7 @@ content
 >
 SetFocus
 (
-GetPresContext
+PresContext
 (
 )
 )

@@ -743,7 +743,7 @@ nsBoxFrame
 :
 CreateViewForFrame
 (
-GetPresContext
+PresContext
 (
 )
 this
@@ -1081,7 +1081,7 @@ nsIRenderingContext
 >
 rc
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -1223,7 +1223,7 @@ if
 mReflowCallbackPosted
 )
 {
-GetPresContext
+PresContext
 (
 )
 -
@@ -1686,7 +1686,7 @@ mReflowCallbackPosted
 =
 PR_TRUE
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -3172,7 +3172,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -3485,7 +3485,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -4007,7 +4007,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -4424,7 +4424,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -5308,7 +5308,7 @@ maybeRTL
 )
 return
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -6308,7 +6308,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -6626,7 +6626,7 @@ nsIRenderingContext
 >
 renderingContext
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -7153,7 +7153,7 @@ aRow
 aCol
 imageSize
 twistyRect
-GetPresContext
+PresContext
 (
 )
 *
@@ -7392,7 +7392,7 @@ rc
 ;
 rv
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -7502,7 +7502,7 @@ AddStateBits
 NS_FRAME_IS_DIRTY
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -7550,7 +7550,7 @@ delay
 =
 0
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -11942,7 +11942,7 @@ AddStateBits
 NS_FRAME_IS_DIRTY
 )
 ;
-GetPresContext
+PresContext
 (
 )
 -
@@ -12091,7 +12091,7 @@ PaintColumn
 (
 currCol
 colRect
-GetPresContext
+PresContext
 (
 )
 aRenderingContext
@@ -12185,7 +12185,7 @@ i
 rowRect
 +
 aPt
-GetPresContext
+PresContext
 (
 )
 aRenderingContext
@@ -12309,7 +12309,7 @@ feedbackRect
 PaintDropFeedback
 (
 feedbackRect
-GetPresContext
+PresContext
 (
 )
 aRenderingContext
@@ -17384,7 +17384,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -17693,7 +17693,7 @@ widget
 >
 Scroll
 (
-GetPresContext
+PresContext
 (
 )
 -
@@ -17789,7 +17789,7 @@ nsEventDispatcher
 Dispatch
 (
 mContent
-GetPresContext
+PresContext
 (
 )
 &
@@ -18097,7 +18097,7 @@ mStyleCache
 GetStyleContext
 (
 this
-GetPresContext
+PresContext
 (
 )
 mContent
@@ -18737,7 +18737,7 @@ scrollLinesMax
 =
 0
 ;
-GetPresContext
+PresContext
 (
 )
 -

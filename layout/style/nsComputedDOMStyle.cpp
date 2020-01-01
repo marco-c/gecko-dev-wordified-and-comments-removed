@@ -11440,7 +11440,7 @@ presContext
 mFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 ;

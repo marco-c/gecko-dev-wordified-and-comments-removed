@@ -958,7 +958,7 @@ RootFrameList
 aFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 stdout
@@ -1855,7 +1855,7 @@ mFrame
 mFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -
@@ -1883,7 +1883,7 @@ shell
 mFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -
@@ -2566,7 +2566,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -2958,7 +2958,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -3148,7 +3148,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -3673,7 +3673,7 @@ mouseGrabber
 aFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -
@@ -4231,7 +4231,7 @@ ScaleRoundOut
 mFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -
@@ -4329,7 +4329,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -4990,7 +4990,7 @@ HasMovingFrames
 aFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -
@@ -5826,7 +5826,7 @@ GetShowEventTargetFrameBorder
 aFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -
@@ -6758,7 +6758,7 @@ this
 &
 &
 !
-GetPresContext
+PresContext
 (
 )
 -
@@ -6791,7 +6791,7 @@ ourDisp
 &
 &
 !
-GetPresContext
+PresContext
 (
 )
 -
@@ -9291,7 +9291,7 @@ offset
 ;
 theFrame
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -10535,7 +10535,7 @@ else
 GetDataForTableSelection
 (
 frameselection
-GetPresContext
+PresContext
 (
 )
 -
@@ -10582,7 +10582,7 @@ DisplaySelection
 activeFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 )
@@ -13888,7 +13888,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -14441,7 +14441,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -15808,7 +15808,7 @@ ScaleRoundOut
 .
 0f
 /
-GetPresContext
+PresContext
 (
 )
 -
@@ -16304,7 +16304,7 @@ nsIPresShell
 *
 shell
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -17840,7 +17840,7 @@ nsPresContext
 *
 pc
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -18317,7 +18317,7 @@ GetParent
 ;
 }
 return
-GetPresContext
+PresContext
 (
 )
 -
@@ -22234,7 +22234,7 @@ nsFrame
 :
 GetNextPrevLineFromeBlockFrame
 (
-GetPresContext
+PresContext
 (
 )
 aPos
@@ -22672,7 +22672,7 @@ aPos
 mVisual
 &
 &
-GetPresContext
+PresContext
 (
 )
 -
@@ -23200,7 +23200,7 @@ frameManager
 aFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 -
@@ -23412,7 +23412,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -24273,7 +24273,7 @@ nsPropertyTable
 *
 propTable
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -24444,7 +24444,7 @@ nsPresContext
 *
 presContext
 =
-GetPresContext
+PresContext
 (
 )
 ;
@@ -25723,7 +25723,7 @@ aDtorData
 )
 {
 return
-GetPresContext
+PresContext
 (
 )
 -
@@ -25760,7 +25760,7 @@ aStatus
 const
 {
 return
-GetPresContext
+PresContext
 (
 )
 -
@@ -25815,7 +25815,7 @@ aPropName
 const
 {
 return
-GetPresContext
+PresContext
 (
 )
 -
@@ -25849,7 +25849,7 @@ aStatus
 const
 {
 return
-GetPresContext
+PresContext
 (
 )
 -
@@ -26007,7 +26007,7 @@ nsISupports
 >
 container
 (
-GetPresContext
+PresContext
 (
 )
 -

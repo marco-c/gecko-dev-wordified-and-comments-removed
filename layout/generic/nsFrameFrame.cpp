@@ -882,7 +882,7 @@ nsPresContext
 *
 aPresContext
 =
-GetPresContext
+PresContext
 (
 )
 ;

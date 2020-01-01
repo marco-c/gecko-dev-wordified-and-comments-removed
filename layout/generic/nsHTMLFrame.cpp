@@ -625,7 +625,7 @@ aPrevInFlow
 ;
 mViewManager
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -939,7 +939,7 @@ nsIViewManager
 *
 vm
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -1068,7 +1068,7 @@ aFrameList
 ;
 rv
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -1233,7 +1233,7 @@ NS_FRAME_HAS_DIRTY_CHILDREN
 ;
 rv
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -1466,7 +1466,7 @@ PaintBackground
 mFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 *
@@ -2060,7 +2060,7 @@ y
 nsStyleOutline
 outlineStyle
 (
-GetPresContext
+PresContext
 (
 )
 )

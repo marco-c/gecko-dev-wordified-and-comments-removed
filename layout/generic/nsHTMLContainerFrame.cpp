@@ -577,7 +577,7 @@ if
 eCompatibility_NavQuirks
 =
 =
-GetPresContext
+PresContext
 (
 )
 -
@@ -612,7 +612,7 @@ NS_STYLE_TEXT_DECORATION_NONE
 ;
 GetTextDecorations
 (
-GetPresContext
+PresContext
 (
 )
 aLine
@@ -2291,7 +2291,7 @@ SyncFrameViewProperties
 aFrame
 -
 >
-GetPresContext
+PresContext
 (
 )
 aFrame
