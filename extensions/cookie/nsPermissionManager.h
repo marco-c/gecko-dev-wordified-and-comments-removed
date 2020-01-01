@@ -596,6 +596,11 @@ PRUnichar
 aData
 )
 ;
+void
+CloseDB
+(
+)
+;
 nsresult
 RemoveAllInternal
 (
