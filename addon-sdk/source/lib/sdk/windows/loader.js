@@ -137,7 +137,7 @@ private
 :
 this
 .
-_private
+_isPrivate
 args
 :
 this

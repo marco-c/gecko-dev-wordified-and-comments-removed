@@ -137,6 +137,10 @@ extra_harness_options
 =
 {
 }
+              
+bundle_sdk
+=
+True
 )
 :
     
@@ -639,6 +643,22 @@ resources
 packageName
 ]
 )
+      
+if
+not
+bundle_sdk
+and
+packageName
+=
+=
+'
+addon
+-
+sdk
+'
+:
+          
+continue
       
 dirs_to_create
 .

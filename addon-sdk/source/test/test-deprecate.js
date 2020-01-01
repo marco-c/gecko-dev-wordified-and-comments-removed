@@ -650,13 +650,6 @@ errors
 0
 ]
 ;
-console
-.
-log
-(
-msg
-)
-;
 assert
 .
 ok

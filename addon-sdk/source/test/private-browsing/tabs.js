@@ -167,7 +167,7 @@ h1
 >
 '
 {
-private
+isPrivate
 :
 true
 }

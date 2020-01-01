@@ -1839,6 +1839,7 @@ def
 get_used_files
 (
 self
+bundle_sdk_modules
 )
 :
         
@@ -1878,6 +1879,21 @@ get_module_entries
 )
 :
             
+if
+me
+.
+packageName
+!
+=
+"
+addon
+-
+sdk
+"
+or
+bundle_sdk_modules
+:
+                
 yield
 me
 .
@@ -1899,6 +1915,7 @@ def
 get_harness_options_manifest
 (
 self
+bundle_sdk_modules
 )
 :
         
@@ -1925,6 +1942,21 @@ get_path
 (
 )
             
+if
+me
+.
+packageName
+!
+=
+"
+addon
+-
+sdk
+"
+or
+bundle_sdk_modules
+:
+                
 manifest
 [
 path
