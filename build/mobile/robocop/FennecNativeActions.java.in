@@ -679,6 +679,10 @@ boolean
 mEventReceived
 ;
 private
+boolean
+mEventEverReceived
+;
+private
 String
 mEventData
 ;
@@ -884,6 +888,10 @@ for
 +
 mGeckoEvent
 )
+;
+mEventReceived
+=
+false
 ;
 }
 public
@@ -1199,6 +1207,10 @@ for
 mGeckoEvent
 )
 ;
+mEventReceived
+=
+false
+;
 }
 public
 synchronized
@@ -1223,7 +1235,7 @@ eventReceived
 )
 {
 return
-mEventReceived
+mEventEverReceived
 ;
 }
 void
@@ -1258,6 +1270,10 @@ this
 )
 {
 mEventReceived
+=
+true
+;
+mEventEverReceived
 =
 true
 ;

@@ -869,12 +869,6 @@ ons
 "
 )
 ;
-contentEventExpecter
-.
-blockForEvent
-(
-)
-;
 /
 /
 Verify
