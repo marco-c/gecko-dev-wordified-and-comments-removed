@@ -2203,6 +2203,10 @@ ref
 .
 html
 \
+test_bug749186
+.
+html
+\
 (
 NULL
 )
