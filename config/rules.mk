@@ -10424,14 +10424,6 @@ export
 (
 FINAL_TARGET
 )
-(
-NSINSTALL
-)
--
-D
-(
-FINAL_TARGET
-)
 endif
 ifndef
 NO_DIST_INSTALL
