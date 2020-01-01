@@ -207,7 +207,7 @@ CSSPixelsToAppUnits
 (
 y
 )
-0
+NS_SCROLL_PROPERTY_ALWAYS_BLIT
 )
 ;
 }
@@ -805,7 +805,7 @@ frameWidth
 cp
 .
 y
-0
+NS_SCROLL_PROPERTY_ALWAYS_BLIT
 )
 ;
 else
@@ -821,7 +821,7 @@ x
 rect
 .
 y
-0
+NS_SCROLL_PROPERTY_ALWAYS_BLIT
 )
 ;
 }
@@ -874,7 +874,7 @@ ScrollTo
 height
 *
 line
-0
+NS_SCROLL_PROPERTY_ALWAYS_BLIT
 )
 ;
 return
@@ -1167,7 +1167,7 @@ ScrollTo
 (
 newx
 newy
-0
+NS_SCROLL_PROPERTY_ALWAYS_BLIT
 )
 ;
 }
@@ -1829,7 +1829,7 @@ ScrollTo
 (
 newx
 newy
-0
+NS_SCROLL_PROPERTY_ALWAYS_BLIT
 )
 ;
 }

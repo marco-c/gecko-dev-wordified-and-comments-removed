@@ -3932,6 +3932,7 @@ scrollPosition
 x
 aPosition
 )
+NS_SCROLL_PROPERTY_ALWAYS_BLIT
 )
 ;
 mYPosition
