@@ -190,6 +190,9 @@ results
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
+mainThreadOnly
+:
+true
 PACURI
 :
 "

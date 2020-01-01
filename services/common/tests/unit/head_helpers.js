@@ -706,6 +706,9 @@ Cr
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
+mainThreadOnly
+:
+true
 PACURI
 :
 null
