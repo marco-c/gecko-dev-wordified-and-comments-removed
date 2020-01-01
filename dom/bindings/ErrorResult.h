@@ -98,6 +98,14 @@ private
 nsresult
 mResult
 ;
+ErrorResult
+(
+const
+ErrorResult
+&
+)
+MOZ_DELETE
+;
 }
 ;
 }
