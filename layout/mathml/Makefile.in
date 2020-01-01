@@ -646,6 +646,10 @@ nsMathMLmencloseFrame
 .
 cpp
 \
+nsMathMLsemanticsFrame
+.
+cpp
+\
 (
 NULL
 )
