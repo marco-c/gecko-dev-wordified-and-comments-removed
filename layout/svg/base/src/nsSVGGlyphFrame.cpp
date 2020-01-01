@@ -440,13 +440,7 @@ font
 style
 font
 .
-variant
-font
-.
 weight
-font
-.
-decorations
 size
 langGroup
 font

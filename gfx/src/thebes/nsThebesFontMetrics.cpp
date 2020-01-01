@@ -197,13 +197,7 @@ aFont
 style
 aFont
 .
-variant
-aFont
-.
 weight
-aFont
-.
-decorations
 size
 langGroup
 aFont

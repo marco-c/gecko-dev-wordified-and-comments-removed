@@ -255,9 +255,7 @@ gfxFontStyle
 style_western_normal_16
 (
 FONT_STYLE_NORMAL
-FONT_VARIANT_NORMAL
 400
-FONT_DECORATION_NONE
 16
 .
 0
