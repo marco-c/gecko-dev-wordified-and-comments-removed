@@ -6066,13 +6066,11 @@ nsIAccessibleEvent
 EVENT_REORDER
 )
 {
-nsCOMPtr
-<
 nsAccReorderEvent
->
+*
 reorderEvent
 =
-do_QueryInterface
+downcast_accEvent
 (
 aEvent
 )
