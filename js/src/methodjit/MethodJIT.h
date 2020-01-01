@@ -2501,7 +2501,7 @@ ReleaseScriptCode
 (
 cx
 script
-CONSTRUCT
+true
 )
 ;
 if
@@ -2518,7 +2518,7 @@ ReleaseScriptCode
 (
 cx
 script
-NO_CONSTRUCT
+false
 )
 ;
 }
