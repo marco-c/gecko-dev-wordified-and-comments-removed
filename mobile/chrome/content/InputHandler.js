@@ -6,7 +6,7 @@ kDoubleClickInterval
 const
 kLongTapWait
 =
-700
+500
 ;
 const
 kDoubleClickThreshold
@@ -1968,7 +1968,7 @@ event
 initEvent
 (
 "
-LongTap
+TapLong
 "
 true
 false
