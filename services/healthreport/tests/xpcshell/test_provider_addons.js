@@ -559,7 +559,7 @@ serialized
 )
 .
 length
-2
+3
 )
 ;
 do_check_true
@@ -578,6 +578,14 @@ addon1
 "
 in
 serialized
+)
+;
+do_check_eq
+(
+serialized
+.
+_v
+1
 )
 ;
 let

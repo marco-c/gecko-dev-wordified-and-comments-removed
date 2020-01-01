@@ -895,6 +895,13 @@ let
 result
 =
 {
+"
+_v
+"
+:
+this
+.
+version
 }
 ;
 for
@@ -1035,6 +1042,13 @@ let
 result
 =
 {
+"
+_v
+"
+:
+this
+.
+version
 }
 ;
 for

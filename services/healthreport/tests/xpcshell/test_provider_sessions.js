@@ -1267,6 +1267,14 @@ do_check_eq
 (
 fields
 .
+_v
+2
+)
+;
+do_check_eq
+(
+fields
+.
 activeTicks
 0
 )

@@ -2637,14 +2637,6 @@ providerName
 measurement
 .
 name
-+
-"
-.
-"
-+
-measurement
-.
-version
 ;
 let
 serializer
