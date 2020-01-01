@@ -45,7 +45,7 @@ modules
 /
 osfile
 /
-osfile_win_back
+osfile_win_front
 .
 jsm
 "
@@ -66,7 +66,7 @@ modules
 /
 osfile
 /
-osfile_unix_back
+osfile_unix_front
 .
 jsm
 "
