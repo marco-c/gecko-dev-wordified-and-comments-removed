@@ -871,6 +871,14 @@ contentAreaDropListener
 .
 manifest
 \
+messageWakeupService
+.
+js
+\
+messageWakeupService
+.
+manifest
+\
 (
 NULL
 )
