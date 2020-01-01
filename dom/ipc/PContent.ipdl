@@ -136,6 +136,10 @@ PHal
 ;
 include
 protocol
+PIndexedDB
+;
+include
+protocol
 PMemoryReportRequest
 ;
 include
@@ -372,6 +376,9 @@ PExternalHelperApp
 ;
 manages
 PHal
+;
+manages
+PIndexedDB
 ;
 manages
 PMemoryReportRequest
@@ -629,6 +636,10 @@ processType
 )
 ;
 PHal
+(
+)
+;
+PIndexedDB
 (
 )
 ;
