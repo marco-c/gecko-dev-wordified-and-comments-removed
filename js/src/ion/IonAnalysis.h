@@ -17,7 +17,7 @@ class
 MIRGraph
 ;
 bool
-InferRepresentations
+ApplyTypeInformation
 (
 MIRGenerator
 *

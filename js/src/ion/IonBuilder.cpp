@@ -167,7 +167,7 @@ SSA
 if
 (
 !
-InferRepresentations
+ApplyTypeInformation
 (
 &
 analyzer
@@ -182,8 +182,8 @@ spew
 spew
 (
 "
-Infer
-Representations
+Apply
+Types
 "
 )
 ;
