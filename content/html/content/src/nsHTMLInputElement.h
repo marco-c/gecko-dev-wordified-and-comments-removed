@@ -1590,13 +1590,13 @@ UpdateHasRange
 )
 ;
 double
-GetMinAsDouble
+GetMinimum
 (
 )
 const
 ;
 double
-GetMaxAsDouble
+GetMaximum
 (
 )
 const
