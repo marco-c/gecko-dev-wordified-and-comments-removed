@@ -71,13 +71,8 @@ cpp
 (
 NULL
 )
-ifeq
-(
-(
-MOZ_WIDGET_TOOLKIT
-)
-windows
-)
+ifdef
+_MSC_VER
 CPPSRCS
 +
 =
