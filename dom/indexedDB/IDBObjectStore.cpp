@@ -2971,6 +2971,16 @@ rv
 rv
 )
 ;
+if
+(
+!
+updateInfo
+.
+info
+.
+autoIncrement
+)
+{
 NS_NAMED_LITERAL_CSTRING
 (
 objectDataKey
@@ -3049,6 +3059,7 @@ rv
 rv
 )
 ;
+}
 NS_NAMED_LITERAL_CSTRING
 (
 value
