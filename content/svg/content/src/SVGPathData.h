@@ -28,7 +28,7 @@ h
 class
 gfxContext
 ;
-class
+struct
 gfxMatrix
 ;
 class
