@@ -1940,7 +1940,7 @@ target
 inline
 AutoCompartment
 (
-JSContext
+ExclusiveContext
 *
 cx
 JSCompartment
