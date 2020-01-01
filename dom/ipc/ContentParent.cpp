@@ -3538,6 +3538,16 @@ ManagedPCrashReporterParent
 ]
 )
 ;
+if
+(
+!
+mAppManifestURL
+.
+IsEmpty
+(
+)
+)
+{
 crashReporter
 -
 >
@@ -3555,6 +3565,7 @@ mAppManifestURL
 )
 )
 ;
+}
 crashReporter
 -
 >
