@@ -367,7 +367,7 @@ MAX_WAIT_TIME
 =
 DEFAULT_ANIMATION_LENGTH
 *
-5
+7
 ;
 var
 polls
