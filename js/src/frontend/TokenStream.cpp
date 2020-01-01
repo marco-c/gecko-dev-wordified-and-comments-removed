@@ -1674,12 +1674,6 @@ isDirtyLine
 =
 false
 ;
-flags
-.
-sawEOL
-=
-true
-;
 }
 int32_t
 TokenStream
