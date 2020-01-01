@@ -265,6 +265,11 @@ cairo_rectangle_t
 clip
 )
 ;
+cairo_bool_t
+cairo_d2d_has_support
+(
+)
+;
 #
 endif
 CAIRO_END_DECLS
