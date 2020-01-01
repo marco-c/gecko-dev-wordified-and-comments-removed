@@ -216,9 +216,6 @@ int
 flag
 )
 {
-#
-ifdef
-DEBUG
 if
 (
 extractLibs
@@ -230,8 +227,6 @@ filename
 flag
 )
 ;
-#
-endif
 soinfo
 *
 ret

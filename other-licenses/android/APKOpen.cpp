@@ -1123,18 +1123,6 @@ extractLibs
 ;
 #
 endif
-#
-ifdef
-DEBUG
-#
-define
-DEBUG_EXTRACT_LIBS
-1
-#
-endif
-#
-ifdef
-DEBUG_EXTRACT_LIBS
 static
 uint32_t
 simple_write
@@ -1618,8 +1606,6 @@ buf
 )
 ;
 }
-#
-endif
 static
 void
 extractLib
@@ -2293,9 +2279,6 @@ void
 *
 handle
 ;
-#
-ifdef
-DEBUG_EXTRACT_LIBS
 if
 (
 extractLibs
@@ -2466,8 +2449,6 @@ return
 handle
 ;
 }
-#
-endif
 size_t
 offset
 =
