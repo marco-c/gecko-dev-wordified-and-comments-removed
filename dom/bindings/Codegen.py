@@ -24465,27 +24465,9 @@ isInterface
 )
         
 if
-(
 descriptorProvider
 .
 workers
-or
-            
-type
-.
-unroll
-(
-)
-.
-identifier
-.
-name
-=
-=
-"
-EventHandlerNonNull
-"
-)
 :
             
 return
@@ -25673,27 +25655,9 @@ isCallback
 :
         
 return
-(
 descriptorProvider
 .
 workers
-or
-                
-type
-.
-unroll
-(
-)
-.
-identifier
-.
-name
-=
-=
-"
-EventHandlerNonNull
-"
-)
     
 return
 type
@@ -25953,13 +25917,6 @@ if
 descriptorProvider
 .
 workers
-or
-name
-=
-=
-"
-EventHandlerNonNull
-"
 :
             
 return
