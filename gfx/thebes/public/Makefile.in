@@ -191,12 +191,6 @@ else
 EXPORTS
 +
 =
-gfxWindowsFonts
-.
-h
-EXPORTS
-+
-=
 gfxDWriteFonts
 .
 h

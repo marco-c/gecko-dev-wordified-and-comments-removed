@@ -255,7 +255,7 @@ mCTFont
 ;
 }
 }
-void
+PRBool
 gfxCoreTextShaper
 :
 :
@@ -704,6 +704,11 @@ CFArrayGetCount
 glyphRuns
 )
 ;
+PRBool
+success
+=
+PR_TRUE
+;
 for
 (
 PRUint32
@@ -748,8 +753,14 @@ aRunLength
 =
 NS_OK
 )
+{
+success
+=
+PR_FALSE
+;
 break
 ;
+}
 }
 :
 :
@@ -757,6 +768,9 @@ CFRelease
 (
 line
 )
+;
+return
+success
 ;
 }
 #
