@@ -14002,10 +14002,6 @@ length
 0
 )
 ;
-ok
-=
-false
-;
 if
 (
 state
@@ -14014,6 +14010,10 @@ RESTORE_STATE
 (
 state
 )
+;
+ok
+=
+true
 ;
 METER_OP_INIT
 (
