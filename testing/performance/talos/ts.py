@@ -579,7 +579,7 @@ config
 ]
 profile_dir
 5
-30
+10
 )
     
 all_times
