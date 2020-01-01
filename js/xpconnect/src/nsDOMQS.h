@@ -143,7 +143,7 @@ native
 ;
 \
 return
-JS_TRUE
+true
 ;
 \
 }
@@ -295,7 +295,7 @@ IsElement
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 ppInterface
@@ -320,7 +320,7 @@ pVal
 val
 ;
 return
-JS_TRUE
+true
 ;
 }
 NS_SPECIALIZE_TEMPLATE
@@ -440,7 +440,7 @@ content
 {
 ok
 =
-JS_TRUE
+true
 ;
 *
 ppThis

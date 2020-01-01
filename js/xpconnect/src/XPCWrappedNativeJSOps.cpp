@@ -40,7 +40,7 @@ cx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 #
@@ -198,7 +198,7 @@ ccx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSString
@@ -222,7 +222,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 ccx
 .
@@ -235,7 +235,7 @@ str
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -268,7 +268,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -396,7 +396,7 @@ if
 sz
 )
 return
-JS_FALSE
+false
 ;
 JSString
 *
@@ -419,7 +419,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 *
 vp
@@ -430,7 +430,7 @@ str
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 XPCCallContext
@@ -531,7 +531,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 *
 vp
@@ -542,7 +542,7 @@ str
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -710,7 +710,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 MORPH_SLIM_WRAPPER
 (
@@ -784,7 +784,7 @@ vp
 JSVAL_NULL
 ;
 return
-JS_TRUE
+true
 ;
 }
 nsIXPCSecurityManager
@@ -875,7 +875,7 @@ GetMemberAt
 (
 1
 )
-JS_FALSE
+false
 )
 ;
 if
@@ -923,7 +923,7 @@ GetSecurityInfoAddr
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -1015,7 +1015,7 @@ iface
 )
 found
 =
-JS_TRUE
+true
 ;
 else
 found
@@ -1200,7 +1200,7 @@ ccx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 AutoResolveName
@@ -1217,7 +1217,7 @@ resolved
 *
 resolved
 =
-JS_TRUE
+true
 ;
 return
 JS_DefinePropertyById
@@ -1321,7 +1321,7 @@ FindTearOff
 (
 ccx
 iface2
-JS_TRUE
+true
 &
 rv
 )
@@ -1357,7 +1357,7 @@ resolved
 *
 resolved
 =
-JS_TRUE
+true
 ;
 return
 JS_DefinePropertyById
@@ -1477,7 +1477,7 @@ if
 fun
 )
 return
-JS_FALSE
+false
 ;
 JSObject
 *
@@ -1494,7 +1494,7 @@ if
 funobj
 )
 return
-JS_FALSE
+false
 ;
 propFlags
 |
@@ -1521,7 +1521,7 @@ resolved
 *
 resolved
 =
-JS_TRUE
+true
 ;
 return
 JS_DefinePropertyById
@@ -1547,10 +1547,10 @@ resolved
 *
 resolved
 =
-JS_FALSE
+false
 ;
 return
-JS_TRUE
+true
 ;
 }
 if
@@ -1575,7 +1575,7 @@ FindTearOff
 (
 ccx
 iface
-JS_TRUE
+true
 )
 ;
 if
@@ -1584,7 +1584,7 @@ if
 to
 )
 return
-JS_FALSE
+false
 ;
 JSObject
 *
@@ -1603,7 +1603,7 @@ if
 jso
 )
 return
-JS_FALSE
+false
 ;
 AutoResolveName
 arn
@@ -1619,7 +1619,7 @@ resolved
 *
 resolved
 =
-JS_TRUE
+true
 ;
 return
 JS_DefinePropertyById
@@ -1647,10 +1647,10 @@ resolved
 *
 resolved
 =
-JS_FALSE
+false
 ;
 return
-JS_TRUE
+true
 ;
 }
 if
@@ -1680,7 +1680,7 @@ resolved
 *
 resolved
 =
-JS_TRUE
+true
 ;
 return
 member
@@ -1795,7 +1795,7 @@ funval
 )
 )
 return
-JS_FALSE
+false
 ;
 AUTO_MARK_JSVAL
 (
@@ -1871,7 +1871,7 @@ resolved
 *
 resolved
 =
-JS_TRUE
+true
 ;
 return
 JS_DefinePropertyById
@@ -1980,7 +1980,7 @@ resolved
 *
 resolved
 =
-JS_TRUE
+true
 ;
 return
 JS_DefinePropertyById
@@ -2050,7 +2050,7 @@ GetResolveName
 id
 )
 return
-JS_TRUE
+true
 ;
 return
 Throw
@@ -2177,7 +2177,7 @@ obj
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 MORPH_SLIM_WRAPPER
@@ -2280,7 +2280,7 @@ obj
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 }
@@ -2304,7 +2304,7 @@ cx
 )
 ;
 return
-JS_TRUE
+true
 ;
 case
 JSTYPE_BOOLEAN
@@ -2315,7 +2315,7 @@ vp
 JSVAL_TRUE
 ;
 return
-JS_TRUE
+true
 ;
 case
 JSTYPE_VOID
@@ -2388,7 +2388,7 @@ ccx
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -2399,7 +2399,7 @@ vp
 )
 )
 return
-JS_TRUE
+true
 ;
 }
 return
@@ -2422,7 +2422,7 @@ conversion
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 NS_NOTREACHED
@@ -2434,7 +2434,7 @@ huh
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 static
@@ -2490,7 +2490,7 @@ HasMutatedSet
 )
 )
 return
-JS_TRUE
+true
 ;
 XPCNativeSet
 *
@@ -2661,12 +2661,12 @@ name
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 }
 return
-JS_TRUE
+true
 ;
 }
 #
@@ -3114,7 +3114,7 @@ if
 set
 )
 return
-JS_TRUE
+true
 ;
 if
 (
@@ -3133,7 +3133,7 @@ GetStaticMemberIsLocal
 )
 )
 return
-JS_TRUE
+true
 ;
 return
 DefinePropertyIfFound
@@ -3150,7 +3150,7 @@ wrapper
 GetScope
 (
 )
-JS_TRUE
+true
 wrapper
 wrapper
 nsnull
@@ -3228,7 +3228,7 @@ valp
 *
 bp
 =
-JS_FALSE
+false
 ;
 JSObject
 *
@@ -3276,7 +3276,7 @@ obj2
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 THROW_AND_RETURN_IF_BAD_WRAPPER
@@ -3402,7 +3402,7 @@ other
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -3686,7 +3686,7 @@ GetResolvingWrapper
 wrapper
 )
 return
-JS_TRUE
+true
 ;
 return
 Throw
@@ -3754,7 +3754,7 @@ wrapper
 bool
 retval
 =
-JS_TRUE
+true
 ;
 \
 nsresult
@@ -3854,7 +3854,7 @@ GetScriptableCallback
 bool
 retval
 =
-JS_TRUE
+true
 ;
 \
 nsresult
@@ -4137,7 +4137,7 @@ IsValid
 )
 )
 return
-JS_FALSE
+false
 ;
 JS_ASSERT
 (
@@ -4209,7 +4209,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 XPCCallContext
 ccx
@@ -4238,7 +4238,7 @@ IsValid
 )
 )
 return
-JS_FALSE
+false
 ;
 JS_ASSERT
 (
@@ -4508,7 +4508,7 @@ NS_OK
 bool
 retval
 =
-JS_TRUE
+true
 ;
 JSObject
 *
@@ -4981,7 +4981,7 @@ wrapper
 GetScope
 (
 )
-JS_FALSE
+false
 wrapperForInterfaceNames
 nsnull
 si
@@ -5135,7 +5135,7 @@ cx
 bool
 retval
 =
-JS_TRUE
+true
 ;
 nsresult
 rv
@@ -5207,7 +5207,7 @@ statep
 JSVAL_NULL
 ;
 return
-JS_FALSE
+false
 ;
 }
 rv
@@ -5357,7 +5357,7 @@ statep
 JSVAL_NULL
 ;
 return
-JS_FALSE
+false
 ;
 }
 rv
@@ -5415,7 +5415,7 @@ if
 retval
 )
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -6414,7 +6414,7 @@ WANT_OUTER_OBJECT
 )
 mCanBeSlim
 =
-JS_TRUE
+true
 ;
 mJSClass
 .
@@ -6489,7 +6489,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 #
 ifdef
@@ -6651,7 +6651,7 @@ SetCallInfo
 (
 iface
 member
-JS_FALSE
+false
 )
 ;
 return
@@ -6726,7 +6726,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 #
 ifdef
@@ -6921,7 +6921,7 @@ SetCallInfo
 (
 iface
 member
-JS_TRUE
+true
 )
 ;
 JSBool
@@ -6961,7 +6961,7 @@ SetCallInfo
 (
 iface
 member
-JS_FALSE
+false
 )
 ;
 return
@@ -7063,7 +7063,7 @@ if
 self
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -7092,7 +7092,7 @@ DontEnumStaticProps
 )
 )
 return
-JS_TRUE
+true
 ;
 XPCNativeSet
 *
@@ -7111,7 +7111,7 @@ if
 set
 )
 return
-JS_FALSE
+false
 ;
 XPCCallContext
 ccx
@@ -7130,7 +7130,7 @@ IsValid
 )
 )
 return
-JS_FALSE
+false
 ;
 ccx
 .
@@ -7234,12 +7234,12 @@ GetName
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 }
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -7387,7 +7387,7 @@ if
 self
 )
 return
-JS_FALSE
+false
 ;
 XPCCallContext
 ccx
@@ -7406,7 +7406,7 @@ IsValid
 )
 )
 return
-JS_FALSE
+false
 ;
 ccx
 .
@@ -7469,7 +7469,7 @@ self
 GetScope
 (
 )
-JS_TRUE
+true
 nsnull
 nsnull
 si
@@ -7606,7 +7606,7 @@ if
 self
 )
 return
-JS_FALSE
+false
 ;
 XPCCallContext
 ccx
@@ -7625,7 +7625,7 @@ IsValid
 )
 )
 return
-JS_FALSE
+false
 ;
 ccx
 .
@@ -7646,7 +7646,7 @@ GetResolveName
 id
 )
 return
-JS_TRUE
+true
 ;
 return
 Throw
@@ -7750,7 +7750,7 @@ if
 self
 )
 return
-JS_FALSE
+false
 ;
 XPCCallContext
 ccx
@@ -7769,7 +7769,7 @@ IsValid
 )
 )
 return
-JS_FALSE
+false
 ;
 ccx
 .
@@ -7832,7 +7832,7 @@ self
 GetScope
 (
 )
-JS_TRUE
+true
 nsnull
 nsnull
 si
@@ -8036,11 +8036,11 @@ GetName
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -8143,7 +8143,7 @@ wrapper
 GetScope
 (
 )
-JS_TRUE
+true
 nsnull
 nsnull
 nsnull

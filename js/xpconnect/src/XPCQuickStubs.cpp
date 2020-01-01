@@ -543,7 +543,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 jsval
 v
@@ -561,7 +561,7 @@ v
 )
 )
 return
-JS_FALSE
+false
 ;
 JSObject
 *
@@ -602,7 +602,7 @@ v
 )
 )
 return
-JS_FALSE
+false
 ;
 jsval
 argval
@@ -639,7 +639,7 @@ id
 )
 )
 return
-JS_FALSE
+false
 ;
 JS_SET_RVAL
 (
@@ -763,7 +763,7 @@ if
 fun
 )
 return
-JS_FALSE
+false
 ;
 JSObject
 *
@@ -803,7 +803,7 @@ if
 ptrobj
 )
 return
-JS_FALSE
+false
 ;
 Op
 *
@@ -818,7 +818,7 @@ if
 popp
 )
 return
-JS_FALSE
+false
 ;
 *
 popp
@@ -951,7 +951,7 @@ if
 getterobj
 )
 return
-JS_FALSE
+false
 ;
 roots
 [
@@ -1000,7 +1000,7 @@ if
 setterobj
 )
 return
-JS_FALSE
+false
 ;
 roots
 [
@@ -1099,7 +1099,7 @@ JSVAL_VOID
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSObject
@@ -1118,7 +1118,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 jsval
 idval
@@ -1162,7 +1162,7 @@ desc
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -1180,7 +1180,7 @@ JSVAL_VOID
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 if
@@ -1215,7 +1215,7 @@ getter
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 }
@@ -1248,7 +1248,7 @@ setter
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 }
@@ -1329,7 +1329,7 @@ JSVAL_VOID
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSObject
@@ -1365,7 +1365,7 @@ setterobj
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 JSObject
@@ -1398,7 +1398,7 @@ v
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -1508,7 +1508,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 JSNative
 forward
@@ -1610,7 +1610,7 @@ setter
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -1674,7 +1674,7 @@ nsnull
 )
 )
 return
-JS_FALSE
+false
 ;
 return
 forward
@@ -1872,7 +1872,7 @@ JSPROP_SHARED
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -1933,7 +1933,7 @@ flags
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -2023,10 +2023,10 @@ getterfns
 )
 )
 return
-JS_FALSE
+false
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -2049,7 +2049,7 @@ cx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 static
@@ -2371,7 +2371,7 @@ cx
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -2524,7 +2524,7 @@ sz
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JSBool
@@ -2625,7 +2625,7 @@ ccx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 void
@@ -3042,7 +3042,7 @@ chars
 {
 mValid
 =
-JS_FALSE
+false
 ;
 return
 ;
@@ -3059,7 +3059,7 @@ len
 ;
 mValid
 =
-JS_TRUE
+true
 ;
 }
 xpc_qsACString
@@ -3134,7 +3134,7 @@ size_t
 {
 mValid
 =
-JS_FALSE
+false
 ;
 return
 ;
@@ -3154,7 +3154,7 @@ bytes
 {
 mValid
 =
-JS_FALSE
+false
 ;
 return
 ;
@@ -3175,7 +3175,7 @@ len
 ;
 mValid
 =
-JS_TRUE
+true
 ;
 }
 xpc_qsAUTF8String
@@ -3247,7 +3247,7 @@ chars
 {
 mValid
 =
-JS_FALSE
+false
 ;
 return
 ;
@@ -3264,7 +3264,7 @@ len
 ;
 mValid
 =
-JS_TRUE
+true
 ;
 }
 static
@@ -3895,7 +3895,7 @@ rv
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSObject
@@ -4506,7 +4506,7 @@ pstr
 NULL
 ;
 return
-JS_TRUE
+true
 ;
 }
 else
@@ -4525,7 +4525,7 @@ v
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 pval
@@ -4553,7 +4553,7 @@ if
 chars
 )
 return
-JS_FALSE
+false
 ;
 *
 pstr
@@ -4569,7 +4569,7 @@ chars
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -4601,7 +4601,7 @@ rval
 JSVAL_NULL
 ;
 return
-JS_TRUE
+true
 ;
 }
 nsStringBuffer
@@ -4630,7 +4630,7 @@ jsstr
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 rval
@@ -4650,7 +4650,7 @@ ForgetSharedBuffer
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -4683,7 +4683,7 @@ rval
 nsnull
 ;
 return
-JS_TRUE
+true
 ;
 }
 nsStringBuffer
@@ -4712,7 +4712,7 @@ jsstr
 )
 )
 return
-JS_FALSE
+false
 ;
 *
 rval
@@ -4735,7 +4735,7 @@ ForgetSharedBuffer
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -4829,7 +4829,7 @@ NS_ERROR_UNEXPECTED
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 #
@@ -4887,7 +4887,7 @@ wrapper
 #
 endif
 return
-JS_TRUE
+true
 ;
 }
 JSBool
@@ -4952,7 +4952,7 @@ rval
 JSVAL_NULL
 ;
 return
-JS_TRUE
+true
 ;
 }
 #

@@ -2470,7 +2470,7 @@ IDX_EXPOSEDPROPS
 JSBool
 found
 =
-JS_FALSE
+false
 ;
 JSAutoEnterCompartment
 ac

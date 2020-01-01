@@ -949,7 +949,7 @@ cx
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 else
@@ -973,7 +973,7 @@ cx
 }
 }
 return
-JS_TRUE
+true
 ;
 }
 xpc
@@ -1035,7 +1035,7 @@ if
 self
 )
 return
-JS_TRUE
+true
 ;
 nsAutoPtr
 <
@@ -1070,7 +1070,7 @@ if
 priv
 )
 return
-JS_TRUE
+true
 ;
 if
 (
@@ -1219,7 +1219,7 @@ ptr
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 struct
@@ -3073,7 +3073,7 @@ if
 self
 )
 return
-JS_TRUE
+true
 ;
 switch
 (
@@ -3093,7 +3093,7 @@ NS_IsMainThread
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 JSContext
@@ -3264,7 +3264,7 @@ self
 >
 mDoingFinalization
 =
-JS_TRUE
+true
 ;
 break
 ;
@@ -3290,7 +3290,7 @@ self
 >
 mDoingFinalization
 =
-JS_FALSE
+false
 ;
 DoDeferredRelease
 (
@@ -4169,11 +4169,11 @@ status
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 return
-JS_TRUE
+true
 ;
 }
 class
@@ -10923,7 +10923,7 @@ mNativesToReleaseArray
 )
 mDoingFinalization
 (
-JS_FALSE
+false
 )
 mVariantRoots
 (
@@ -10993,7 +10993,7 @@ dom
 .
 new_bindings
 "
-JS_FALSE
+false
 )
 ;
 mStrIDs
@@ -11439,7 +11439,7 @@ NS_TIME_FUNCTION
 JSBool
 ok
 =
-JS_TRUE
+true
 ;
 if
 (
@@ -11530,7 +11530,7 @@ JSID_VOID
 ;
 ok
 =
-JS_FALSE
+false
 ;
 break
 ;
@@ -11570,7 +11570,7 @@ if
 ok
 )
 return
-JS_FALSE
+false
 ;
 XPCPerThreadData
 *
@@ -11590,7 +11590,7 @@ if
 tls
 )
 return
-JS_FALSE
+false
 ;
 XPCContext
 *
@@ -11609,7 +11609,7 @@ if
 xpc
 )
 return
-JS_FALSE
+false
 ;
 JS_SetNativeStackQuota
 (
@@ -11631,7 +11631,7 @@ JSOPTION_UNROOTED_GLOBAL
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 JSBool

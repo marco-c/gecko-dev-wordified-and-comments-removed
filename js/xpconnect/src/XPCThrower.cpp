@@ -18,7 +18,7 @@ XPCThrower
 :
 sVerbose
 =
-JS_TRUE
+true
 ;
 void
 XPCThrower
@@ -104,7 +104,7 @@ if
 xpc
 )
 return
-JS_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -129,7 +129,7 @@ if
 e
 )
 return
-JS_FALSE
+false
 ;
 xpc
 -
@@ -163,7 +163,7 @@ e_result
 result
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -180,7 +180,7 @@ cx
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 void
@@ -681,7 +681,7 @@ sz
 JSBool
 success
 =
-JS_FALSE
+false
 ;
 if
 (
@@ -967,7 +967,7 @@ e
 JSBool
 success
 =
-JS_FALSE
+false
 ;
 if
 (
@@ -1030,7 +1030,7 @@ thrown
 )
 )
 return
-JS_FALSE
+false
 ;
 JS_SetPendingException
 (
@@ -1040,7 +1040,7 @@ thrown
 ;
 success
 =
-JS_TRUE
+true
 ;
 }
 else
@@ -1073,7 +1073,7 @@ if
 glob
 )
 return
-JS_FALSE
+false
 ;
 nsCOMPtr
 <
@@ -1143,7 +1143,7 @@ obj
 ;
 success
 =
-JS_TRUE
+true
 ;
 }
 }

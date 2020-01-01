@@ -63,11 +63,11 @@ cx
 )
 mContextPopRequired
 (
-JS_FALSE
+false
 )
 mDestroyJSContextInDestructor
 (
-JS_FALSE
+false
 )
 mCallerLanguage
 (
@@ -147,11 +147,11 @@ cx
 )
 mContextPopRequired
 (
-JS_FALSE
+false
 )
 mDestroyJSContextInDestructor
 (
-JS_FALSE
+false
 )
 mCallerLanguage
 (
@@ -365,7 +365,7 @@ return
 }
 mContextPopRequired
 =
-JS_TRUE
+true
 ;
 }
 NS_ASSERTION
@@ -640,7 +640,7 @@ name
 ;
 mStaticMemberIsLocal
 =
-JS_TRUE
+true
 ;
 if
 (
@@ -755,7 +755,7 @@ nsnull
 ;
 mStaticMemberIsLocal
 =
-JS_FALSE
+false
 ;
 }
 }
@@ -895,7 +895,7 @@ nsnull
 ;
 mStaticMemberIsLocal
 =
-JS_FALSE
+false
 ;
 }
 mArgc
@@ -912,7 +912,7 @@ rval
 ;
 mReturnValueWasSet
 =
-JS_FALSE
+false
 ;
 mState
 =
@@ -965,7 +965,7 @@ FindTearOff
 *
 this
 mInterface
-JS_FALSE
+false
 &
 rv
 )
