@@ -141,7 +141,7 @@ aErrorCode
 )
 ;
 virtual
-void
+PRUint16
 GetSuccessResult
 (
 nsIWritableVariant

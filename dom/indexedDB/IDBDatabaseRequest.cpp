@@ -31,13 +31,6 @@ h
 #
 include
 "
-nsServiceManagerUtils
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h
@@ -282,7 +275,7 @@ nsIDOMEventTarget
 aTarget
 )
 ;
-void
+PRUint16
 GetSuccessResult
 (
 nsIWritableVariant
@@ -365,7 +358,7 @@ nsIDOMEventTarget
 aTarget
 )
 ;
-void
+PRUint16
 GetSuccessResult
 (
 nsIWritableVariant
@@ -418,7 +411,7 @@ DoDatabaseWork
 (
 )
 ;
-void
+PRUint16
 GetSuccessResult
 (
 nsIWritableVariant
@@ -3212,7 +3205,7 @@ aTarget
 )
 ;
 }
-void
+PRUint16
 CreateObjectStoreHelper
 :
 :
@@ -3259,6 +3252,9 @@ SetAsISupports
 (
 result
 )
+;
+return
+OK
 ;
 }
 PRUint16
@@ -3489,7 +3485,7 @@ aTarget
 )
 ;
 }
-void
+PRUint16
 OpenObjectStoreHelper
 :
 :
@@ -3536,6 +3532,9 @@ SetAsISupports
 (
 result
 )
+;
+return
+OK
 ;
 }
 PRUint16
@@ -3670,7 +3669,7 @@ return
 OK
 ;
 }
-void
+PRUint16
 RemoveObjectStoreHelper
 :
 :
@@ -3687,5 +3686,8 @@ OnObjectStoreRemoved
 (
 mName
 )
+;
+return
+OK
 ;
 }

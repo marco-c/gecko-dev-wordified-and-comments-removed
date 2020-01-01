@@ -180,7 +180,7 @@ DoDatabaseWork
 (
 )
 ;
-void
+PRUint16
 GetSuccessResult
 (
 nsIWritableVariant
@@ -1947,7 +1947,7 @@ nsIIDBDatabaseException
 UNKNOWN_ERR
 ;
 }
-void
+PRUint16
 PutHelper
 :
 :
@@ -1990,6 +1990,9 @@ mKeyString
 )
 ;
 }
+return
+OK
+;
 }
 PRUint16
 GetHelper
