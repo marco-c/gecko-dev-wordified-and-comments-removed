@@ -14143,6 +14143,11 @@ SetSecurityInfo
 mSecurityInfo
 )
 ;
+SetDocumentCharacterSetSource
+(
+kCharsetFromHintPrevDoc
+)
+;
 mWyciwygChannel
 -
 >
