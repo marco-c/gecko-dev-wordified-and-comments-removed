@@ -30352,15 +30352,6 @@ IsIMEComposing
 )
 )
 {
-if
-(
-!
-[
-theEvent
-isARepeat
-]
-)
-{
 NSResponder
 *
 firstResponder
@@ -30374,7 +30365,7 @@ firstResponder
 ]
 ;
 nsKeyEvent
-geckoEvent
+geckoKeydown
 (
 PR_TRUE
 NS_KEY_DOWN
@@ -30389,7 +30380,7 @@ theEvent
 toGeckoEvent
 :
 &
-geckoEvent
+geckoKeydown
 ]
 ;
 #
@@ -30412,7 +30403,7 @@ theEvent
 carbonEvent
 )
 ;
-geckoEvent
+geckoKeydown
 .
 pluginEvent
 =
@@ -30429,7 +30420,7 @@ mGeckoChild
 >
 DispatchWindowEvent
 (
-geckoEvent
+geckoKeydown
 )
 ;
 if
@@ -30437,9 +30428,11 @@ if
 !
 mGeckoChild
 )
+{
 return
 mKeyDownHandled
 ;
+}
 /
 /
 The
@@ -30494,7 +30487,6 @@ PR_FALSE
 return
 handled
 ;
-}
 }
 /
 /
@@ -30631,7 +30623,7 @@ handled
 ;
 }
 nsKeyEvent
-geckoEvent
+geckoKeypress
 (
 PR_TRUE
 NS_KEY_PRESS
@@ -30646,7 +30638,7 @@ theEvent
 toGeckoEvent
 :
 &
-geckoEvent
+geckoKeypress
 ]
 ;
 /
@@ -30699,12 +30691,12 @@ if
 (
 (
 !
-geckoEvent
+geckoKeypress
 .
 isChar
 |
 |
-geckoEvent
+geckoKeypress
 .
 isControl
 )
@@ -30728,7 +30720,7 @@ if
 (
 mKeyDownHandled
 )
-geckoEvent
+geckoKeypress
 .
 flags
 |
@@ -30742,7 +30734,7 @@ mGeckoChild
 >
 DispatchWindowEvent
 (
-geckoEvent
+geckoKeypress
 )
 ;
 mKeyPressSent
@@ -30884,7 +30876,7 @@ IsIMEComposing
 )
 {
 nsKeyEvent
-geckoEvent
+geckoKeypress
 (
 PR_TRUE
 NS_KEY_PRESS
@@ -30899,7 +30891,7 @@ theEvent
 toGeckoEvent
 :
 &
-geckoEvent
+geckoKeypress
 ]
 ;
 /
@@ -30953,7 +30945,7 @@ interpretKeyEventsCalled
 &
 IsNormalCharInputtingEvent
 (
-geckoEvent
+geckoKeypress
 )
 )
 )
@@ -30962,13 +30954,15 @@ if
 (
 mKeyDownHandled
 )
-geckoEvent
+{
+geckoKeypress
 .
 flags
 |
 =
 NS_EVENT_FLAG_NO_DEFAULT
 ;
+}
 mKeyPressHandled
 =
 mGeckoChild
@@ -30976,7 +30970,7 @@ mGeckoChild
 >
 DispatchWindowEvent
 (
-geckoEvent
+geckoKeypress
 )
 ;
 }
