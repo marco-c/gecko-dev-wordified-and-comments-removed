@@ -1836,6 +1836,7 @@ str
 end
 .
 end
+call
 .
 igroup
 new
@@ -1974,7 +1975,7 @@ strobj
 end
 .
 end
-call
+new
 .
 igroup
 apply
@@ -4189,6 +4190,7 @@ stop
 end
 .
 end
+getelem
 .
 igroup
 callelem
@@ -4281,7 +4283,7 @@ stop
 end
 .
 end
-getelem
+callelem
 .
 igroup
 setelem
