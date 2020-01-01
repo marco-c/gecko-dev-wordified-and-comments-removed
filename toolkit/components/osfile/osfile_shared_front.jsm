@@ -1134,13 +1134,6 @@ buffer
 }
 if
 (
-"
-flush
-"
-in
-options
-&
-&
 !
 options
 .
