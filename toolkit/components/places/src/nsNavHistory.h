@@ -1448,9 +1448,6 @@ aForceInit
 nsresult
 InitDB
 (
-PRInt16
-*
-aMadeChanges
 )
 ;
 nsresult
@@ -1511,17 +1508,6 @@ MigrateV8Up
 mozIStorageConnection
 *
 aDBConn
-)
-;
-nsresult
-EnsureCurrentSchema
-(
-mozIStorageConnection
-*
-aDBConn
-PRBool
-*
-aMadeChanges
 )
 ;
 nsresult
