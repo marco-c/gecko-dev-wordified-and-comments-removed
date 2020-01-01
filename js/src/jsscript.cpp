@@ -596,7 +596,12 @@ base
 (
 &
 CallClass
-NULL
+cx
+-
+>
+global
+(
+)
 BaseShape
 :
 :

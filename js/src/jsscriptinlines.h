@@ -248,7 +248,12 @@ cx
 &
 CallClass
 NULL
-NULL
+cx
+-
+>
+global
+(
+)
 kind
 BaseShape
 :
