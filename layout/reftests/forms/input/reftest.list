@@ -23,6 +23,12 @@ reftest
 .
 list
 include
+file
+/
+reftest
+.
+list
+include
 range
 /
 reftest
