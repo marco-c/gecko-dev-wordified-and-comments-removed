@@ -26,6 +26,13 @@ h
 #
 include
 "
+nsUnicodeProperties
+.
+h
+"
+#
+include
+"
 gfxFontconfigUtils
 .
 h
