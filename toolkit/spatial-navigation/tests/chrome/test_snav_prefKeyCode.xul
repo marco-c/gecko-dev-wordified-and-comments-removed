@@ -114,14 +114,6 @@ only
 .
 xul
 "
-onload
-=
-"
-onLoad
-(
-)
-;
-"
 >
 <
 script
@@ -728,7 +720,7 @@ DOM_VK_U
 ]
 ;
 function
-onLoad
+runtest
 (
 )
 {
@@ -804,6 +796,13 @@ uninit
 )
 ;
 }
+SimpleTest
+.
+waitForFocus
+(
+runtest
+)
+;
 ]
 ]
 >

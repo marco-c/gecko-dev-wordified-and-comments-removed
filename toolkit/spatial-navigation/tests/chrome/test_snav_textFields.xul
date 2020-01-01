@@ -144,14 +144,6 @@ only
 .
 xul
 "
-onload
-=
-"
-onLoad
-(
-)
-;
-"
 >
 <
 script
@@ -1038,7 +1030,7 @@ none
 ]
 ;
 function
-onLoad
+runtest
 (
 )
 {
@@ -1114,6 +1106,13 @@ uninit
 )
 ;
 }
+SimpleTest
+.
+waitForFocus
+(
+runtest
+)
+;
 ]
 ]
 >
