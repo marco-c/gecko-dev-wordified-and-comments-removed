@@ -18528,10 +18528,9 @@ GetStyleDisplay
 )
 -
 >
-mDisplay
-=
-=
-NS_STYLE_DISPLAY_BLOCK
+IsBlockOutside
+(
+)
 )
 {
 static
