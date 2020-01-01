@@ -6547,7 +6547,13 @@ NSPoint
 coord
 =
 {
+static_cast
+<
+CGFloat
+>
+(
 aX
+)
 nsCocoaUtils
 :
 :
