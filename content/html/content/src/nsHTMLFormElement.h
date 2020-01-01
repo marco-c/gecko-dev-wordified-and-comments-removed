@@ -808,9 +808,6 @@ WalkFormElements
 nsFormSubmission
 *
 aFormSubmission
-nsIContent
-*
-aSubmitElement
 )
 ;
 nsresult

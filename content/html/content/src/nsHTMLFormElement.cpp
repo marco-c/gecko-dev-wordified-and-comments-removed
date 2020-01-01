@@ -2558,6 +2558,7 @@ rv
 GetSubmissionFromForm
 (
 this
+originatingElement
 aFormSubmission
 )
 ;
@@ -2572,7 +2573,6 @@ WalkFormElements
 (
 *
 aFormSubmission
-originatingElement
 )
 ;
 NS_ENSURE_SUBMIT_SUCCESS
@@ -3228,9 +3228,6 @@ WalkFormElements
 nsFormSubmission
 *
 aFormSubmission
-nsIContent
-*
-aSubmitElement
 )
 {
 nsTArray
@@ -3291,7 +3288,6 @@ i
 SubmitNamesValues
 (
 aFormSubmission
-aSubmitElement
 )
 ;
 }
@@ -5108,7 +5104,6 @@ rv
 WalkFormElements
 (
 fd
-nsnull
 )
 ;
 NS_ENSURE_SUCCESS

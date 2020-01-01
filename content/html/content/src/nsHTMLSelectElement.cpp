@@ -5682,9 +5682,6 @@ SubmitNamesValues
 nsFormSubmission
 *
 aFormSubmission
-nsIContent
-*
-aSubmitElement
 )
 {
 nsresult

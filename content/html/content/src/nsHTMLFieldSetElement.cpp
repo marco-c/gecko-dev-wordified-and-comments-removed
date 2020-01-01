@@ -125,9 +125,6 @@ SubmitNamesValues
 nsFormSubmission
 *
 aFormSubmission
-nsIContent
-*
-aSubmitElement
 )
 ;
 virtual
@@ -278,9 +275,6 @@ SubmitNamesValues
 nsFormSubmission
 *
 aFormSubmission
-nsIContent
-*
-aSubmitElement
 )
 {
 return

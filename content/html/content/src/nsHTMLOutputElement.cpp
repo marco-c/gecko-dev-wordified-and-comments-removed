@@ -104,9 +104,6 @@ SubmitNamesValues
 nsFormSubmission
 *
 aFormSubmission
-nsIContent
-*
-aSubmitElement
 )
 ;
 nsresult
@@ -318,9 +315,6 @@ SubmitNamesValues
 nsFormSubmission
 *
 aFormSubmission
-nsIContent
-*
-aSubmitElement
 )
 {
 return

@@ -325,9 +325,6 @@ SubmitNamesValues
 nsFormSubmission
 *
 aFormSubmission
-nsIContent
-*
-aSubmitElement
 )
 ;
 NS_IMETHOD
@@ -1965,9 +1962,6 @@ SubmitNamesValues
 nsFormSubmission
 *
 aFormSubmission
-nsIContent
-*
-aSubmitElement
 )
 {
 nsresult
@@ -1977,7 +1971,12 @@ NS_OK
 ;
 if
 (
-aSubmitElement
+aFormSubmission
+-
+>
+GetOriginatingElement
+(
+)
 !
 =
 this
