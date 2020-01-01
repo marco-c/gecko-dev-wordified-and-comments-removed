@@ -501,7 +501,7 @@ PromptService
 .
 java
 \
-SurfaceInfo
+SurfaceLockInfo
 .
 java
 \
