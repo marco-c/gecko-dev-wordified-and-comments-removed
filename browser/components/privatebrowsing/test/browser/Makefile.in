@@ -150,6 +150,10 @@ browser_privatebrowsing_downloadLastDir_toggle
 .
 js
 \
+browser_privatebrowsing_DownloadLastDirWithCPS
+.
+js
+\
 browser_privatebrowsing_fastswitch
 .
 js
