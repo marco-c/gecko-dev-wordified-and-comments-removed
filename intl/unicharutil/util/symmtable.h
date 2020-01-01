@@ -1334,10 +1334,10 @@ symmtable_30
 }
 ;
 static
-PRUnichar
+PRUint32
 Mirrored
 (
-PRUnichar
+PRUint32
 u
 )
 {
@@ -1345,7 +1345,7 @@ switch
 (
 u
 &
-0xFF00
+0xFFFFFF00
 )
 {
 case
