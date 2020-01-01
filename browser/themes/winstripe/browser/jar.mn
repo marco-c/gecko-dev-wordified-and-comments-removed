@@ -1380,7 +1380,7 @@ tab
 -
 arrow
 -
-end
+left
 .
 png
 (
@@ -1390,7 +1390,7 @@ tab
 -
 arrow
 -
-end
+left
 .
 png
 )
@@ -1406,7 +1406,7 @@ tab
 -
 arrow
 -
-start
+right
 .
 png
 (
@@ -1416,7 +1416,7 @@ tab
 -
 arrow
 -
-start
+right
 .
 png
 )
@@ -3239,7 +3239,7 @@ tab
 -
 arrow
 -
-end
+left
 .
 png
 (
@@ -3249,7 +3249,7 @@ tab
 -
 arrow
 -
-end
+left
 -
 aero
 .
@@ -3269,7 +3269,7 @@ tab
 -
 arrow
 -
-start
+right
 .
 png
 (
@@ -3279,7 +3279,7 @@ tab
 -
 arrow
 -
-start
+right
 -
 aero
 .
