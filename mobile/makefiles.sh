@@ -411,6 +411,11 @@ app
 Makefile
 mobile
 /
+locales
+/
+Makefile
+mobile
+/
 chrome
 /
 Makefile
