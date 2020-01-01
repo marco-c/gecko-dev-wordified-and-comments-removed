@@ -337,13 +337,6 @@ h
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsISelectionController
 .
 h

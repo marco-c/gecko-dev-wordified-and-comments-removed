@@ -288,13 +288,6 @@ algorithm
 #
 include
 "
-nsIDOMEventTarget
-.
-h
-"
-#
-include
-"
 nsIDocument
 .
 h

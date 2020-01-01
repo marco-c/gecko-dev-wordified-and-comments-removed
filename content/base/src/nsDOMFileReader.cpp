@@ -450,7 +450,7 @@ PreserveWrapper
 (
 static_cast
 <
-nsIDOMEventTarget
+EventTarget
 *
 >
 (

@@ -5341,7 +5341,7 @@ WrapNative
 aCx
 NS_ISUPPORTS_CAST
 (
-nsIDOMEventTarget
+EventTarget
 *
 mDatabase
 )
@@ -5492,7 +5492,7 @@ WrapNative
 aCx
 NS_ISUPPORTS_CAST
 (
-nsIDOMEventTarget
+EventTarget
 *
 mDatabase
 )
