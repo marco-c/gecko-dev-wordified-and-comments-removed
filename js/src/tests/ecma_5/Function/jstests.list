@@ -43,3 +43,9 @@ function
 caller
 .
 js
+script
+strict
+-
+arguments
+.
+js
