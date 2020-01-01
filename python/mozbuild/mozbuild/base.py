@@ -6,6 +6,8 @@ unicode_literals
 import
 logging
 import
+multiprocessing
+import
 os
 import
 subprocess
@@ -990,6 +992,28 @@ f
 '
 filename
 ]
+)
+        
+if
+allow_parallel
+:
+            
+args
+.
+append
+(
+'
+-
+j
+%
+d
+'
+%
+multiprocessing
+.
+cpu_count
+(
+)
 )
         
 if
