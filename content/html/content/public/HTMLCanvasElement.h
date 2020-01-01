@@ -262,7 +262,7 @@ Optional
 JS
 :
 :
-Rooted
+Handle
 <
 JS
 :
@@ -345,7 +345,7 @@ Optional
 JS
 :
 :
-Rooted
+Handle
 <
 JS
 :
