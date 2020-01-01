@@ -198,6 +198,11 @@ nsIDOMEventTarget
 idl
 '
 '
+nsIDOMFocusEvent
+.
+idl
+'
+'
 nsIDOMGamepadAxisMoveEvent
 .
 idl

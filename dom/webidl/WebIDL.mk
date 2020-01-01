@@ -367,6 +367,10 @@ FileRequest
 .
 webidl
 \
+FocusEvent
+.
+webidl
+\
 FormData
 .
 webidl

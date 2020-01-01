@@ -242,6 +242,11 @@ nsDOMEventTargetHelper
 cpp
 '
 '
+nsDOMFocusEvent
+.
+cpp
+'
+'
 nsDOMKeyboardEvent
 .
 cpp
