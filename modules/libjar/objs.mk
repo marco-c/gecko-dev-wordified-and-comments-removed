@@ -437,10 +437,6 @@ nsIZipReader
 .
 idl
 \
-nsIJAR
-.
-idl
-\
 nsIJARChannel
 .
 idl

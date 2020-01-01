@@ -237,11 +237,10 @@ Close
 )
 ;
 }
-NS_IMPL_THREADSAFE_QUERY_INTERFACE2
+NS_IMPL_THREADSAFE_QUERY_INTERFACE1
 (
 nsJAR
 nsIZipReader
-nsIJAR
 )
 NS_IMPL_THREADSAFE_ADDREF
 (
@@ -4260,7 +4259,7 @@ rv
 ;
 nsCOMPtr
 <
-nsIJAR
+nsIZipReader
 >
 antiLockZipGrip
 ;

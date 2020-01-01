@@ -12519,15 +12519,6 @@ getZipReaderForFile
 entry
 )
 ;
-zipReader
-.
-QueryInterface
-(
-Ci
-.
-nsIJAR
-)
-;
 var
 principal
 =
