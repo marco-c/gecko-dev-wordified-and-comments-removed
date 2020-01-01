@@ -8083,6 +8083,11 @@ tab
 -
 tooltip
 "
+stopwatchid
+=
+"
+FX_TAB_CLICK_MS
+"
 >
 <
 tab
