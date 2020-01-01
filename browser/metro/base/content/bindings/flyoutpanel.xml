@@ -213,6 +213,11 @@ flyoutpanel
 -
 contents
 "
+observes
+=
+"
+bcast_preciseInput
+"
 flex
 =
 "
