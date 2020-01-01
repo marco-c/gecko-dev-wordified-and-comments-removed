@@ -307,6 +307,8 @@ const
 nsIntSize
 &
 aSize
+bool
+needYFlip
 )
 ;
 virtual
@@ -377,6 +379,9 @@ mTexImage
 ;
 SurfaceDescriptor
 mDeadweight
+;
+PRPackedBool
+mNeedsYFlip
 ;
 }
 ;

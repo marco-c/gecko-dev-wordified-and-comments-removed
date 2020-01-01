@@ -1198,6 +1198,10 @@ LayerOGL
 (
 aManager
 )
+mNeedsYFlip
+(
+PR_FALSE
+)
 {
 mImplData
 =
@@ -1256,6 +1260,8 @@ const
 nsIntSize
 &
 aSize
+bool
+needYFlip
 )
 {
 mDeadweight
@@ -1302,6 +1308,10 @@ GetContentType
 )
 LOCAL_GL_CLAMP_TO_EDGE
 )
+;
+mNeedsYFlip
+=
+needYFlip
 ;
 }
 void
@@ -1605,6 +1615,11 @@ mOGLManager
 BindAndDrawQuad
 (
 program
+mNeedsYFlip
+?
+true
+:
+false
 )
 ;
 }

@@ -809,6 +809,8 @@ const
 SurfaceDescriptor
 &
 aTempFrontSurface
+bool
+aNeedYFlip
 )
 {
 mTxn
@@ -825,6 +827,7 @@ aCanvas
 )
 aSize
 aTempFrontSurface
+aNeedYFlip
 )
 )
 ;

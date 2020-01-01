@@ -784,6 +784,9 @@ size
 SurfaceDescriptor
 initialFront
 ;
+bool
+needYFlip
+;
 }
 ;
 struct

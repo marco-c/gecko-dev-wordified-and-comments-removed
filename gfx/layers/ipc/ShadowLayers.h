@@ -196,6 +196,8 @@ const
 SurfaceDescriptor
 &
 aInitialFrontSurface
+bool
+aNeedYFlip
 )
 ;
 void
@@ -1168,6 +1170,8 @@ const
 nsIntSize
 &
 aSize
+bool
+needYFlip
 )
 =
 0
