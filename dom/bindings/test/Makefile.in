@@ -102,6 +102,10 @@ mk
 _TEST_FILES
 =
 \
+test_interfaceToString
+.
+html
+\
 test_lookupGetter
 .
 html
