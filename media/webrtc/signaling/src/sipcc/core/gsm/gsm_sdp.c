@@ -15733,9 +15733,10 @@ if
 lsm_rc
 )
 {
-cause
-=
+return
+(
 CC_CAUSE_NO_MEDIA
+)
 ;
 }
 else
@@ -15768,6 +15769,11 @@ TRUE
 ;
 }
 }
+if
+(
+created_media_stream
+)
+{
 result
 =
 gsmsdp_add_remote_track
@@ -15783,6 +15789,7 @@ MOZ_ASSERT
 result
 )
 ;
+}
 }
 }
 }
