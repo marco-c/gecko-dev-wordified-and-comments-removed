@@ -457,6 +457,11 @@ base
 locales
 /
 Makefile
+mobile
+/
+locales
+/
+Makefile
 MOZ_BRANDING_DIRECTORY
 /
 Makefile

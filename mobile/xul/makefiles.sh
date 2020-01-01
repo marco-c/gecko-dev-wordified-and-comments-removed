@@ -478,6 +478,11 @@ locales
 Makefile
 mobile
 /
+locales
+/
+Makefile
+mobile
+/
 xul
 /
 Makefile
