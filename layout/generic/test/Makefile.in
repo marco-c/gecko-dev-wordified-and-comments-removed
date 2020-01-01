@@ -479,6 +479,14 @@ plugin_clipping_helper
 .
 xhtml
 \
+plugin_clipping_helper2
+.
+xhtml
+\
+plugin_clipping_lib
+.
+js
+\
 test_backspace_delete
 .
 xul
@@ -621,6 +629,10 @@ test_movement_by_words
 html
 \
 test_plugin_clipping
+.
+xhtml
+\
+test_plugin_clipping2
 .
 xhtml
 \
