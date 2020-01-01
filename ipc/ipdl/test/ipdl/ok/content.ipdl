@@ -8,6 +8,10 @@ jetpack
 ;
 include
 protocol
+media
+;
+include
+protocol
 plugin
 ;
 sync
@@ -27,6 +31,10 @@ jetpack
 child
 spawns
 plugin
+;
+child
+opens
+media
 ;
 child
 :
