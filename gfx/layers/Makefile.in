@@ -110,6 +110,12 @@ d3d10
 srcdir
 )
 /
+d3d11
+\
+(
+srcdir
+)
+/
 ipc
 \
 (
@@ -405,6 +411,10 @@ ColorLayerD3D10
 .
 cpp
 \
+CompositorD3D11
+.
+cpp
+\
 ContainerLayerD3D10
 .
 cpp
@@ -422,6 +432,10 @@ ReadbackManagerD3D10
 cpp
 \
 ShadowLayerUtilsD3D10
+.
+cpp
+\
+TextureD3D11
 .
 cpp
 \
