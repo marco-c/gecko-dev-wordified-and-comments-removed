@@ -6534,6 +6534,8 @@ LIR_CALL_SLOTS
 ensureRoom
 (
 argc
+*
+LIR_FAR_SLOTS
 +
 insSz
 )
@@ -6549,6 +6551,8 @@ next
 )
 +
 argc
+*
+LIR_FAR_SLOTS
 +
 insSz
 -
