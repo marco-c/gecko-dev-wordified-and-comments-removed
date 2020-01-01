@@ -15773,6 +15773,17 @@ true
 rt
 -
 >
+gcRegenShapesScopeFlag
+^
+=
+JSScope
+:
+:
+SHAPE_REGEN
+;
+rt
+-
+>
 shapeGen
 =
 0

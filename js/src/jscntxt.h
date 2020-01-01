@@ -864,7 +864,7 @@ JSPackedBool
 gcRegenShapes
 ;
 uint8
-gcPadding
+gcRegenShapesScopeFlag
 ;
 #
 ifdef
