@@ -387,6 +387,11 @@ mChromeMessageManager
 aParent
 ;
 }
+void
+DelayedDisconnect
+(
+)
+;
 protected
 :
 nsresult
