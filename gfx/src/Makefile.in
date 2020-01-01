@@ -550,6 +550,10 @@ nsFont
 .
 cpp
 \
+nsPoint
+.
+cpp
+\
 nsRect
 .
 cpp
