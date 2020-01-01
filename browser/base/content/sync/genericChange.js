@@ -1299,7 +1299,9 @@ persistLogin
 ;
 Weave
 .
-SyncScheduler
+Service
+.
+scheduler
 .
 delayedAutoConnect
 (

@@ -1199,7 +1199,11 @@ engines
 :
 "
 +
-SyncScheduler
+this
+.
+service
+.
+scheduler
 .
 numClients
 +
@@ -1242,7 +1246,11 @@ return
 if
 (
 (
-SyncScheduler
+this
+.
+service
+.
+scheduler
 .
 numClients
 <
