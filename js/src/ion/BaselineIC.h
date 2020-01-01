@@ -10358,7 +10358,7 @@ stubCode
 :
 ICStub
 (
-UnaryArith_Int32
+UnaryArith_Double
 stubCode
 )
 {
@@ -10433,7 +10433,7 @@ cx
 ICStub
 :
 :
-UnaryArith_Int32
+UnaryArith_Double
 op
 )
 {
