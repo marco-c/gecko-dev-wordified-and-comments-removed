@@ -200,6 +200,11 @@ mMinSize
 float
 mMaxSize
 ;
+PRBool
+UseMathMLChar
+(
+)
+;
 virtual
 void
 ProcessTextData
