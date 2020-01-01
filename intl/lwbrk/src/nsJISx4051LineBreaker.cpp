@@ -1,14 +1,14 @@
 #
 include
 "
-nsJISx4501LineBreaker
+nsJISx4051LineBreaker
 .
 h
 "
 #
 include
 "
-jisx4501class
+jisx4051class
 .
 h
 "

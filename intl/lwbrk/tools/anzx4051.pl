@@ -560,7 +560,7 @@ open
 CLASS
 "
 <
-jisx4501class
+jisx4051class
 .
 txt
 "
@@ -571,7 +571,7 @@ die
 "
 cannot
 find
-jisx4501class
+jisx4051class
 .
 txt
 "
@@ -732,7 +732,7 @@ open
 SIMP
 "
 <
-jisx4501simp
+jisx4051simp
 .
 txt
 "
@@ -743,7 +743,7 @@ die
 "
 cannot
 find
-jisx4501simp
+jisx4051simp
 .
 txt
 "
@@ -900,7 +900,7 @@ open
 OUT
 "
 >
-anzx4501
+anzx4051
 .
 html
 "
@@ -912,7 +912,7 @@ die
 cannot
 open
 output
-anzx4501
+anzx4051
 .
 html
 file
@@ -1075,7 +1075,7 @@ HEADER
 /
 src
 /
-jisx4501class
+jisx4051class
 .
 h
 "
@@ -1092,7 +1092,7 @@ output
 /
 src
 /
-jisx4501class
+jisx4051class
 .
 h
 file
@@ -1633,7 +1633,7 @@ lwbrk
 /
 tools
 /
-anzx4501
+anzx4051
 .
 pl
 *

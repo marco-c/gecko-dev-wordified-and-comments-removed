@@ -17,7 +17,7 @@ h
 #
 include
 "
-nsJISx4501LineBreaker
+nsJISx4051LineBreaker
 .
 h
 "

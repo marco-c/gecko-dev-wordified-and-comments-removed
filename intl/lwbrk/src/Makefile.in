@@ -91,7 +91,7 @@ LIBXUL_LIBRARY
 CPPSRCS
 =
 \
-nsJISx4501LineBreaker
+nsJISx4051LineBreaker
 .
 cpp
 \
