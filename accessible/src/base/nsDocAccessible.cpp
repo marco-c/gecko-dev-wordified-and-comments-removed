@@ -6525,7 +6525,7 @@ caretOffset
 {
 #
 ifdef
-DEBUG
+DEBUG_A11Y
 PRUnichar
 chAtOffset
 ;
