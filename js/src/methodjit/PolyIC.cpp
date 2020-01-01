@@ -7962,7 +7962,7 @@ getterOp
 )
 =
 =
-js_GetCallArg
+GetCallArg
 )
 {
 kind
@@ -7981,7 +7981,7 @@ getterOp
 )
 =
 =
-js_GetCallVar
+GetCallVar
 )
 {
 kind

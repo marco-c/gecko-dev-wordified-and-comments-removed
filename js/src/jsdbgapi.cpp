@@ -7350,7 +7350,7 @@ getter
 )
 =
 =
-js_GetCallArg
+GetCallArg
 )
 {
 pd
@@ -7383,7 +7383,7 @@ getter
 )
 =
 =
-js_GetCallVar
+GetCallVar
 )
 {
 pd
