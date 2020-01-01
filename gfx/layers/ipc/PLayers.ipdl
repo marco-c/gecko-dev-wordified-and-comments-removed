@@ -777,6 +777,12 @@ ThebesLayerAttributes
 nsIntRegion
 validRegion
 ;
+float
+xResolution
+;
+float
+yResolution
+;
 }
 ;
 struct
