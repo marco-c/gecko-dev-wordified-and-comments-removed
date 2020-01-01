@@ -85,6 +85,7 @@ root
 mozconfig
 ^
 mozconfig
+*
 ^
 configure
 ^
