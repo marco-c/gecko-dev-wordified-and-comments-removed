@@ -745,10 +745,6 @@ getAction
 ;
 if
 (
-action
-.
-equals
-(
 "
 org
 .
@@ -758,6 +754,10 @@ gecko
 .
 DEBUG
 "
+.
+equals
+(
+action
 )
 &
 &
