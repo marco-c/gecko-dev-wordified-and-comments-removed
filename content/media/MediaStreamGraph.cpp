@@ -4868,7 +4868,7 @@ audioOutputStream
 >
 mStream
 =
-nsAudioStream
+AudioStream
 :
 :
 AllocateStream

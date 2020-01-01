@@ -90,7 +90,7 @@ AudioWriteEvent
 AudioParent
 *
 parent
-nsAudioStream
+AudioStream
 *
 owner
 nsCString
@@ -173,7 +173,7 @@ mParent
 ;
 nsRefPtr
 <
-nsAudioStream
+AudioStream
 >
 mOwner
 ;
@@ -195,7 +195,7 @@ public
 :
 AudioPauseEvent
 (
-nsAudioStream
+AudioStream
 *
 owner
 bool
@@ -243,7 +243,7 @@ private
 :
 nsRefPtr
 <
-nsAudioStream
+AudioStream
 >
 mOwner
 ;
@@ -262,7 +262,7 @@ public
 :
 AudioStreamShutdownEvent
 (
-nsAudioStream
+AudioStream
 *
 owner
 )
@@ -292,7 +292,7 @@ private
 :
 nsRefPtr
 <
-nsAudioStream
+AudioStream
 >
 mOwner
 ;
@@ -367,7 +367,7 @@ AudioMinWriteSizeEvent
 AudioParent
 *
 parent
-nsAudioStream
+AudioStream
 *
 owner
 )
@@ -422,7 +422,7 @@ private
 :
 nsRefPtr
 <
-nsAudioStream
+AudioStream
 >
 mOwner
 ;
@@ -493,7 +493,7 @@ AudioDrainEvent
 AudioParent
 *
 parent
-nsAudioStream
+AudioStream
 *
 owner
 )
@@ -544,7 +544,7 @@ private
 :
 nsRefPtr
 <
-nsAudioStream
+AudioStream
 >
 mOwner
 ;
@@ -1077,7 +1077,7 @@ true
 {
 mStream
 =
-nsAudioStream
+AudioStream
 :
 :
 AllocateStream

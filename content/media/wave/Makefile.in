@@ -92,7 +92,7 @@ EXPORTS
 +
 =
 \
-nsWaveDecoder
+WaveDecoder
 .
 h
 \
@@ -102,11 +102,11 @@ NULL
 CPPSRCS
 =
 \
-nsWaveDecoder
+WaveDecoder
 .
 cpp
 \
-nsWaveReader
+WaveReader
 .
 cpp
 \

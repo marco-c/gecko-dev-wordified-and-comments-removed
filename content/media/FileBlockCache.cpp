@@ -112,7 +112,7 @@ FileBlockCache
 mFileMonitor
 (
 "
-nsMediaCache
+MediaCache
 .
 Writer
 .
@@ -132,7 +132,7 @@ mFDCurrentPos
 mDataMonitor
 (
 "
-nsMediaCache
+MediaCache
 .
 Writer
 .

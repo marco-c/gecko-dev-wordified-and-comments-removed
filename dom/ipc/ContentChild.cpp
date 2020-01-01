@@ -217,7 +217,7 @@ MOZ_SYDNEYAUDIO
 #
 include
 "
-nsAudioStream
+AudioStream
 .
 h
 "

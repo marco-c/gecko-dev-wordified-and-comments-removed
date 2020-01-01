@@ -63,7 +63,7 @@ h
 #
 include
 "
-nsBuiltinDecoder
+MediaDecoder
 .
 h
 "
@@ -135,14 +135,14 @@ typedef
 mozilla
 :
 :
-nsBuiltinDecoder
-nsBuiltinDecoder
+MediaDecoder
+MediaDecoder
 ;
 MediaResource
 *
 mResource
 ;
-nsBuiltinDecoder
+MediaDecoder
 *
 mDecoder
 ;
@@ -153,7 +153,7 @@ MediaStreamSource
 MediaResource
 *
 aResource
-nsBuiltinDecoder
+MediaDecoder
 *
 aDecoder
 )
@@ -310,8 +310,8 @@ typedef
 mozilla
 :
 :
-nsBuiltinDecoder
-nsBuiltinDecoder
+MediaDecoder
+MediaDecoder
 ;
 enum
 {
@@ -320,7 +320,7 @@ kPreferSoftwareCodecs
 1
 }
 ;
-nsBuiltinDecoder
+MediaDecoder
 *
 mDecoder
 ;
@@ -525,7 +525,7 @@ OmxDecoder
 MediaResource
 *
 aResource
-nsBuiltinDecoder
+MediaDecoder
 *
 aDecoder
 )

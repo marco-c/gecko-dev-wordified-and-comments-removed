@@ -24,7 +24,7 @@ h
 #
 include
 "
-nsBuiltinDecoder
+MediaDecoder
 .
 h
 "
@@ -268,7 +268,7 @@ ChannelMediaResource
 :
 ChannelMediaResource
 (
-nsBuiltinDecoder
+MediaDecoder
 *
 aDecoder
 nsIChannel
@@ -3093,7 +3093,7 @@ ChannelMediaResource
 :
 CloneData
 (
-nsBuiltinDecoder
+MediaDecoder
 *
 aDecoder
 )
@@ -4064,7 +4064,7 @@ public
 :
 DataEnded
 (
-nsBuiltinDecoder
+MediaDecoder
 *
 aDecoder
 nsresult
@@ -4102,7 +4102,7 @@ private
 :
 nsRefPtr
 <
-nsBuiltinDecoder
+MediaDecoder
 >
 mDecoder
 ;
@@ -4569,7 +4569,7 @@ ChannelMediaResource
 :
 SetReadMode
 (
-nsMediaCacheStream
+MediaCacheStream
 :
 :
 ReadMode
@@ -4776,7 +4776,7 @@ public
 :
 FileMediaResource
 (
-nsBuiltinDecoder
+MediaDecoder
 *
 aDecoder
 nsIChannel
@@ -4870,7 +4870,7 @@ MediaResource
 *
 CloneData
 (
-nsBuiltinDecoder
+MediaDecoder
 *
 aDecoder
 )
@@ -4892,7 +4892,7 @@ virtual
 void
 SetReadMode
 (
-nsMediaCacheStream
+MediaCacheStream
 :
 :
 ReadMode
@@ -5197,7 +5197,7 @@ public
 :
 LoadedEvent
 (
-nsBuiltinDecoder
+MediaDecoder
 *
 aDecoder
 )
@@ -5245,7 +5245,7 @@ private
 :
 nsRefPtr
 <
-nsBuiltinDecoder
+MediaDecoder
 >
 mDecoder
 ;
@@ -5789,7 +5789,7 @@ FileMediaResource
 :
 CloneData
 (
-nsBuiltinDecoder
+MediaDecoder
 *
 aDecoder
 )
@@ -6240,7 +6240,7 @@ MediaResource
 :
 Create
 (
-nsBuiltinDecoder
+MediaDecoder
 *
 aDecoder
 nsIChannel

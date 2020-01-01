@@ -87,7 +87,7 @@ h
 #
 include
 "
-nsMediaCache
+MediaCache
 .
 h
 "
@@ -120,7 +120,7 @@ namespace
 mozilla
 {
 class
-nsBuiltinDecoder
+MediaDecoder
 ;
 class
 MediaChannelStatistics
@@ -546,7 +546,7 @@ MediaResource
 *
 CloneData
 (
-nsBuiltinDecoder
+MediaDecoder
 *
 aDecoder
 )
@@ -557,7 +557,7 @@ virtual
 void
 SetReadMode
 (
-nsMediaCacheStream
+MediaCacheStream
 :
 :
 ReadMode
@@ -745,7 +745,7 @@ MediaResource
 *
 Create
 (
-nsBuiltinDecoder
+MediaDecoder
 *
 aDecoder
 nsIChannel
@@ -804,7 +804,7 @@ protected
 :
 MediaResource
 (
-nsBuiltinDecoder
+MediaDecoder
 *
 aDecoder
 nsIChannel
@@ -845,7 +845,7 @@ nsLoadFlags
 aFlags
 )
 ;
-nsBuiltinDecoder
+MediaDecoder
 *
 mDecoder
 ;
@@ -876,7 +876,7 @@ public
 :
 ChannelMediaResource
 (
-nsBuiltinDecoder
+MediaDecoder
 *
 aDecoder
 nsIChannel
@@ -1006,7 +1006,7 @@ MediaResource
 *
 CloneData
 (
-nsBuiltinDecoder
+MediaDecoder
 *
 aDecoder
 )
@@ -1034,7 +1034,7 @@ virtual
 void
 SetReadMode
 (
-nsMediaCacheStream
+MediaCacheStream
 :
 :
 ReadMode
@@ -1376,7 +1376,7 @@ mReopenOnError
 bool
 mIgnoreClose
 ;
-nsMediaCacheStream
+MediaCacheStream
 mCacheStream
 ;
 Mutex

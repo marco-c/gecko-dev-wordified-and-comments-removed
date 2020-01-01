@@ -36,7 +36,7 @@ namespace
 mozilla
 {
 class
-nsAudioStream
+AudioStream
 ;
 struct
 AudioChunk
@@ -444,7 +444,7 @@ aVolume
 void
 WriteTo
 (
-nsAudioStream
+AudioStream
 *
 aOutput
 )

@@ -30,7 +30,7 @@ h
 #
 include
 "
-nsMediaCache
+MediaCache
 .
 h
 "
@@ -56,7 +56,7 @@ enum
 {
 BLOCK_SIZE
 =
-nsMediaCacheStream
+MediaCacheStream
 :
 :
 BLOCK_SIZE
@@ -384,9 +384,6 @@ v
 ;
 private
 :
-mozilla
-:
-:
 Monitor
 mFileMonitor
 ;
@@ -439,9 +436,6 @@ mFD
 int64_t
 mFDCurrentPos
 ;
-mozilla
-:
-:
 Monitor
 mDataMonitor
 ;

@@ -88,7 +88,7 @@ EXPORTS
 +
 =
 \
-nsMediaOmxDecoder
+MediaOmxDecoder
 .
 h
 \
@@ -98,11 +98,11 @@ NULL
 CPPSRCS
 =
 \
-nsMediaOmxDecoder
+MediaOmxDecoder
 .
 cpp
 \
-nsMediaOmxReader
+MediaOmxReader
 .
 cpp
 \

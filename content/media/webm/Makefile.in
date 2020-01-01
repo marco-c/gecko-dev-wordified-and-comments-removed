@@ -92,7 +92,7 @@ EXPORTS
 +
 =
 \
-nsWebMDecoder
+WebMDecoder
 .
 h
 \
@@ -102,15 +102,15 @@ NULL
 CPPSRCS
 =
 \
-nsWebMBufferedParser
+WebMBufferedParser
 .
 cpp
 \
-nsWebMDecoder
+WebMDecoder
 .
 cpp
 \
-nsWebMReader
+WebMReader
 .
 cpp
 \
