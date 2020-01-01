@@ -649,7 +649,7 @@ virtual
 void
 SetDuration
 (
-double
+PRInt64
 aDuration
 )
 =

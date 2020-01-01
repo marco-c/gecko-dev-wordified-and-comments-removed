@@ -40,6 +40,13 @@ NS_PER_S
 1e9
 ;
 static
+const
+double
+MS_PER_S
+=
+1e3
+;
+static
 PRUint32
 VIntLength
 (
