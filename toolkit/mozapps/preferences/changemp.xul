@@ -877,6 +877,11 @@ type
 "
 password
 "
+disabled
+=
+"
+true
+"
 oninput
 =
 "
@@ -929,6 +934,11 @@ type
 =
 "
 password
+"
+disabled
+=
+"
+true
 "
 oninput
 =

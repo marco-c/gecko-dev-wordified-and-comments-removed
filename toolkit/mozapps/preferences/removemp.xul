@@ -386,6 +386,11 @@ type
 "
 password
 "
+disabled
+=
+"
+true
+"
 oninput
 =
 "
