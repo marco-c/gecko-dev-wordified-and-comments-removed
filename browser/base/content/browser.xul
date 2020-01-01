@@ -3620,12 +3620,10 @@ navigator
 -
 toolbox
 "
-class
+defaultmode
 =
 "
-toolbox
--
-top
+icons
 "
 mode
 =
@@ -3647,11 +3645,6 @@ small
 "
 #
 endif
-defaultmode
-=
-"
-icons
-"
 persist
 =
 "
