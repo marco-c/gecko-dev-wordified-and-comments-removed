@@ -796,9 +796,6 @@ LIBS
 -
 lpcap
 endif
-ENABLE_CXX_EXCEPTIONS
-=
-1
 XPCSHELL_TESTS
 =
 unit

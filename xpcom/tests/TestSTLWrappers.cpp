@@ -47,7 +47,7 @@ vector
 endif
 #
 ifdef
-XP_WIN
+_MSC_VER
 #
 define
 TRY
