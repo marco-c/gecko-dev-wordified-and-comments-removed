@@ -1661,7 +1661,7 @@ j
 if
 (
 !
-g_strcmp0
+strcmp
 (
 atom_name
 aFlavorList
@@ -1678,7 +1678,7 @@ PR_TRUE
 if
 (
 !
-g_strcmp0
+strcmp
 (
 aFlavorList
 [
@@ -1689,7 +1689,7 @@ kJPEGImageMime
 &
 &
 !
-g_strcmp0
+strcmp
 (
 atom_name
 "
