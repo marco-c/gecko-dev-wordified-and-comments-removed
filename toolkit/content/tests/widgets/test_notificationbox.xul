@@ -2568,7 +2568,7 @@ to
 check
 if
 the
-timer
+animation
 is
 still
 running
@@ -2584,6 +2584,7 @@ notification
 hasn
 '
 t
+fully
 opened
 or
 closed
@@ -2592,7 +2593,7 @@ if
 (
 element
 .
-_timer
+_animating
 )
 setTimeout
 (

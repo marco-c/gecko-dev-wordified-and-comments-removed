@@ -273,7 +273,7 @@ if
 !
 gNotificationBox
 .
-_timer
+_animating
 )
 {
 nextTest
