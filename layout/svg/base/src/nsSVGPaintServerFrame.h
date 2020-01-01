@@ -52,7 +52,7 @@ aContext
 {
 }
 virtual
-nsresult
+PRBool
 SetupPaintServer
 (
 gfxContext

@@ -114,7 +114,7 @@ aSource
 )
 ;
 virtual
-nsresult
+PRBool
 SetupPaintServer
 (
 gfxContext

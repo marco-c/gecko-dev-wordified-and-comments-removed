@@ -179,7 +179,7 @@ HasStroke
 (
 )
 ;
-nsresult
+PRBool
 SetupCairoFill
 (
 gfxContext
@@ -218,7 +218,7 @@ gfxContext
 aContext
 )
 ;
-nsresult
+PRBool
 SetupCairoStroke
 (
 gfxContext

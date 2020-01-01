@@ -1263,7 +1263,7 @@ return
 val
 ;
 }
-nsresult
+PRBool
 nsSVGGradientFrame
 :
 :
@@ -1303,7 +1303,7 @@ nStops
 0
 )
 return
-NS_ERROR_FAILURE
+PR_FALSE
 ;
 nsCOMPtr
 <
@@ -1326,7 +1326,7 @@ if
 svgMatrix
 )
 return
-NS_ERROR_FAILURE
+PR_FALSE
 ;
 cairo_matrix_t
 patternMatrix
@@ -1348,7 +1348,7 @@ patternMatrix
 )
 )
 return
-NS_ERROR_FAILURE
+PR_FALSE
 ;
 cairo_pattern_t
 *
@@ -1364,7 +1364,7 @@ if
 gradient
 )
 return
-NS_ERROR_FAILURE
+PR_FALSE
 ;
 PRUint16
 aSpread
@@ -1546,7 +1546,7 @@ aClosure
 gradient
 ;
 return
-NS_OK
+PR_TRUE
 ;
 }
 void

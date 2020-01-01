@@ -916,9 +916,6 @@ mSource
 =
 aSource
 ;
-nsRect
-dummyRect
-;
 for
 (
 nsIFrame
@@ -3058,7 +3055,7 @@ return
 NS_OK
 ;
 }
-nsresult
+PRBool
 nsSVGPatternFrame
 :
 :
@@ -3154,7 +3151,7 @@ surface
 )
 ;
 return
-rv
+PR_FALSE
 ;
 }
 cairo_matrix_t
@@ -3249,7 +3246,7 @@ aClosure
 surface_pattern
 ;
 return
-NS_OK
+PR_TRUE
 ;
 }
 void

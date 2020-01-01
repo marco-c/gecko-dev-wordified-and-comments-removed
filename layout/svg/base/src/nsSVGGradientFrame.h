@@ -64,7 +64,7 @@ nsISVGValueObserver
 public
 :
 virtual
-nsresult
+PRBool
 SetupPaintServer
 (
 gfxContext
