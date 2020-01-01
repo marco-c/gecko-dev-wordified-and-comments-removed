@@ -264,6 +264,11 @@ value
 ;
 protected
 :
+void
+RefcountHitZero
+(
+)
+;
 bool
 RecvOnStartRequest
 (

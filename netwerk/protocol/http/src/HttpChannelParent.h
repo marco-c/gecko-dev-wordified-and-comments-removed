@@ -153,6 +153,12 @@ PRUint16
 priority
 )
 ;
+nsCOMPtr
+<
+nsIChannel
+>
+mChannel
+;
 }
 ;
 }
