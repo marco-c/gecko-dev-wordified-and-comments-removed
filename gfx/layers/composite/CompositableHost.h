@@ -864,6 +864,7 @@ aTexture
 )
 {
 }
+virtual
 void
 RemoveTextureHost
 (

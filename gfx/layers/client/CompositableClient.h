@@ -314,6 +314,11 @@ uint64_t
 aTextureID
 )
 ;
+void
+FlushTexturesToRemoveCallbacks
+(
+)
+;
 protected
 :
 struct
