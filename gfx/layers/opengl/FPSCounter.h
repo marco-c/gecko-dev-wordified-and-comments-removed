@@ -33,13 +33,6 @@ nsTArray
 .
 h
 "
-#
-include
-"
-VBOArena
-.
-h
-"
 namespace
 mozilla
 {
@@ -309,12 +302,6 @@ mCompositionFps
 ;
 FPSCounter
 mTransactionFps
-;
-gl
-:
-:
-VBOArena
-mVBOs
 ;
 FPSState
 (
