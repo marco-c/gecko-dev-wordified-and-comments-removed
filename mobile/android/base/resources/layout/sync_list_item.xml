@@ -165,6 +165,13 @@ wrap_content
 "
 android
 :
+padding
+=
+"
+10dp
+"
+android
+:
 layout_marginRight
 =
 "

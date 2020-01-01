@@ -757,13 +757,9 @@ SyncTheme
 parent
 =
 "
-android
-:
 style
 /
-Theme
-.
-NoTitleBar
+Gecko
 "
 /
 >
