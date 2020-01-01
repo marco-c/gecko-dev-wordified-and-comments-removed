@@ -5370,7 +5370,7 @@ JS_TRUE
 ;
 }
 static
-JSBool
+void
 SetUTCTime
 (
 RawObject
@@ -5450,9 +5450,6 @@ setDouble
 (
 t
 )
-;
-return
-true
 ;
 }
 static
@@ -8313,7 +8310,6 @@ result
 return
 false
 ;
-return
 SetUTCTime
 (
 thisObj
@@ -8331,6 +8327,9 @@ address
 (
 )
 )
+;
+return
+true
 ;
 }
 static
@@ -8672,7 +8671,6 @@ dstOffsetCache
 )
 )
 ;
-return
 SetUTCTime
 (
 thisObj
@@ -8687,6 +8685,9 @@ address
 (
 )
 )
+;
+return
+true
 ;
 }
 static
@@ -8844,7 +8845,6 @@ time
 )
 )
 ;
-return
 SetUTCTime
 (
 thisObj
@@ -8859,6 +8859,9 @@ address
 (
 )
 )
+;
+return
+true
 ;
 }
 static
@@ -9048,7 +9051,6 @@ dstOffsetCache
 )
 )
 ;
-return
 SetUTCTime
 (
 thisObj
@@ -9063,6 +9065,9 @@ address
 (
 )
 )
+;
+return
+true
 ;
 }
 static
@@ -9236,7 +9241,6 @@ TimeClip
 date
 )
 ;
-return
 SetUTCTime
 (
 thisObj
@@ -9251,6 +9255,9 @@ address
 (
 )
 )
+;
+return
+true
 ;
 }
 static
@@ -9456,7 +9463,6 @@ dstOffsetCache
 )
 )
 ;
-return
 SetUTCTime
 (
 thisObj
@@ -9471,6 +9477,9 @@ address
 (
 )
 )
+;
+return
+true
 ;
 }
 static
@@ -9660,7 +9669,6 @@ TimeClip
 date
 )
 ;
-return
 SetUTCTime
 (
 thisObj
@@ -9675,6 +9683,9 @@ address
 (
 )
 )
+;
+return
+true
 ;
 }
 static
@@ -9896,7 +9907,6 @@ dstOffsetCache
 )
 )
 ;
-return
 SetUTCTime
 (
 thisObj
@@ -9911,6 +9921,9 @@ address
 (
 )
 )
+;
+return
+true
 ;
 }
 static
@@ -10116,7 +10129,6 @@ TimeClip
 newDate
 )
 ;
-return
 SetUTCTime
 (
 thisObj
@@ -10131,6 +10143,9 @@ address
 (
 )
 )
+;
+return
+true
 ;
 }
 static
@@ -10300,7 +10315,6 @@ dstOffsetCache
 )
 )
 ;
-return
 SetUTCTime
 (
 thisObj
@@ -10315,6 +10329,9 @@ address
 (
 )
 )
+;
+return
+true
 ;
 }
 static
@@ -10468,7 +10485,6 @@ TimeClip
 newDate
 )
 ;
-return
 SetUTCTime
 (
 thisObj
@@ -10483,6 +10499,9 @@ address
 (
 )
 )
+;
+return
+true
 ;
 }
 static
@@ -10780,7 +10799,6 @@ dstOffsetCache
 )
 )
 ;
-return
 SetUTCTime
 (
 thisObj
@@ -10795,6 +10813,9 @@ address
 (
 )
 )
+;
+return
+true
 ;
 }
 static
@@ -10964,7 +10985,6 @@ TimeClip
 newDate
 )
 ;
-return
 SetUTCTime
 (
 thisObj
@@ -10979,6 +10999,9 @@ address
 (
 )
 )
+;
+return
+true
 ;
 }
 static
@@ -11249,7 +11272,6 @@ dstOffsetCache
 )
 )
 ;
-return
 SetUTCTime
 (
 thisObj
@@ -11264,6 +11286,9 @@ address
 (
 )
 )
+;
+return
+true
 ;
 }
 static
@@ -11443,7 +11468,6 @@ TimeClip
 newDate
 )
 ;
-return
 SetUTCTime
 (
 thisObj
@@ -11458,6 +11482,9 @@ address
 (
 )
 )
+;
+return
+true
 ;
 }
 static
@@ -11667,7 +11694,6 @@ cx
 dstOffsetCache
 )
 ;
-return
 SetUTCTime
 (
 thisObj
@@ -11685,6 +11711,9 @@ address
 (
 )
 )
+;
+return
+true
 ;
 }
 static
@@ -15613,17 +15642,11 @@ obj
 return
 NULL
 ;
-if
-(
-!
 SetUTCTime
 (
 obj
 msec_time
 )
-)
-return
-NULL
 ;
 return
 obj
