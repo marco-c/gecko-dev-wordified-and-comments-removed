@@ -1300,9 +1300,7 @@ objp
 bool
 codeScript
 (
-JSScript
-*
-*
+JSMutableHandleScript
 scriptp
 )
 ;
