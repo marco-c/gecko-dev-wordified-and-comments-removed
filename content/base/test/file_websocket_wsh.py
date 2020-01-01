@@ -635,12 +635,19 @@ test
 "
 :
     
-msgutil
-.
-close_connection
+raise
+RuntimeError
 (
-request
-True
+"
+test
+-
+15
+should
+be
+disabled
+for
+now
+"
 )
     
 return
