@@ -1165,6 +1165,12 @@ float
 aCurrentScale
 )
 {
+NS_ENSURE_FINITE
+(
+aCurrentScale
+NS_ERROR_ILLEGAL_VALUE
+)
+;
 if
 (
 aCurrentScale
@@ -1602,6 +1608,12 @@ float
 seconds
 )
 {
+NS_ENSURE_FINITE
+(
+seconds
+NS_ERROR_ILLEGAL_VALUE
+)
+;
 NS_NOTYETIMPLEMENTED
 (
 "

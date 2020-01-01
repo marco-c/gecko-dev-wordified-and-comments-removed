@@ -235,6 +235,12 @@ float
 aX
 )
 {
+NS_ENSURE_FINITE
+(
+aX
+NS_ERROR_ILLEGAL_VALUE
+)
+;
 WillModify
 (
 )
@@ -281,6 +287,12 @@ float
 aY
 )
 {
+NS_ENSURE_FINITE
+(
+aY
+NS_ERROR_ILLEGAL_VALUE
+)
+;
 WillModify
 (
 )

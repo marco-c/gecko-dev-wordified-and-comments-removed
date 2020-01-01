@@ -204,6 +204,12 @@ float
 aValue
 )
 {
+NS_ENSURE_FINITE
+(
+aValue
+NS_ERROR_ILLEGAL_VALUE
+)
+;
 mVal
 -
 >
