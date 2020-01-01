@@ -290,12 +290,13 @@ List
 {
 if
 (
-IS_UNDEFINED
-(
 List
 .
 prototype
-)
+=
+=
+=
+undefined
 )
 {
 var
