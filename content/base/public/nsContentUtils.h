@@ -2288,6 +2288,15 @@ aURI
 )
 ;
 static
+PRBool
+OfflineAppAllowed
+(
+nsIPrincipal
+*
+aPrincipal
+)
+;
+static
 void
 AddScriptBlocker
 (
