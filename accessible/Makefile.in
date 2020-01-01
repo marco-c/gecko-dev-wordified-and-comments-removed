@@ -414,6 +414,7 @@ DIRS
 public
 src
 build
+tests
 include
 (
 topsrcdir
