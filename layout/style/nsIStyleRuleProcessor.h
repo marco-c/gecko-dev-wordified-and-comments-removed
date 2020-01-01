@@ -397,8 +397,6 @@ aPresContext
 nsIContent
 *
 aContent
-PRInt32
-aNameSpaceID
 nsIAtom
 *
 aAttribute
@@ -413,10 +411,6 @@ RuleProcessorData
 aPresContext
 aContent
 nsnull
-)
-mNameSpaceID
-(
-aNameSpaceID
 )
 mAttribute
 (
@@ -441,9 +435,6 @@ pointer
 )
 ;
 }
-PRInt32
-mNameSpaceID
-;
 nsIAtom
 *
 mAttribute

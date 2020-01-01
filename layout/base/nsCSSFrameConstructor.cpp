@@ -42072,13 +42072,6 @@ endif
 nsChangeHint
 hint
 =
-(
-aNameSpaceID
-=
-=
-kNameSpaceID_None
-)
-?
 aContent
 -
 >
@@ -42086,11 +42079,6 @@ GetAttributeChangeHint
 (
 aAttribute
 aModType
-)
-:
-nsChangeHint
-(
-0
 )
 ;
 PRBool
@@ -42253,14 +42241,6 @@ if
 primaryFrame
 )
 {
-if
-(
-aNameSpaceID
-=
-=
-kNameSpaceID_None
-)
-{
 const
 nsStyleDisplay
 *
@@ -42354,7 +42334,6 @@ nsChangeHint_RepaintFrame
 ;
 }
 }
-}
 result
 =
 primaryFrame
@@ -42388,7 +42367,6 @@ frameManager
 HasAttributeDependentStyle
 (
 aContent
-aNameSpaceID
 aAttribute
 aModType
 aStateMask

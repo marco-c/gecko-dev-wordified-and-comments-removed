@@ -5848,8 +5848,6 @@ HasAttributeDependentStyle
 nsIContent
 *
 aContent
-PRInt32
-aNameSpaceID
 nsIAtom
 *
 aAttribute
@@ -5871,7 +5869,6 @@ GetPresContext
 (
 )
 aContent
-aNameSpaceID
 aAttribute
 aModType
 aStateMask

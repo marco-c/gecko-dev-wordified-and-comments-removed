@@ -4476,8 +4476,6 @@ aPresContext
 nsIContent
 *
 aContent
-PRInt32
-aNameSpaceID
 nsIAtom
 *
 aAttribute
@@ -4491,7 +4489,6 @@ AttributeRuleProcessorData
 (
 aPresContext
 aContent
-aNameSpaceID
 aAttribute
 aModType
 aStateMask
@@ -4576,8 +4573,6 @@ aPresContext
 nsIContent
 *
 aContent
-PRInt32
-aNameSpaceID
 nsIAtom
 *
 aAttribute
@@ -4658,7 +4653,6 @@ data
 (
 aPresContext
 aContent
-aNameSpaceID
 aAttribute
 aModType
 aStateMask
