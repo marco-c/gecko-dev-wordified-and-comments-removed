@@ -1565,6 +1565,12 @@ writer
 .
 writeFile
 (
+null
+Ci
+.
+nsIINIParserWriter
+.
+WRITE_UTF16
 )
 ;
 let
@@ -1671,6 +1677,12 @@ writer
 .
 writeFile
 (
+null
+Ci
+.
+nsIINIParserWriter
+.
+WRITE_UTF16
 )
 ;
 writer
