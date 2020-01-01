@@ -621,9 +621,6 @@ PR_SUCCESS
 return
 status
 ;
-#
-ifndef
-GC_LEAK_DETECTOR
 ptd
 =
 t
@@ -678,8 +675,6 @@ return
 status
 ;
 }
-#
-endif
 return
 PR_SUCCESS
 ;

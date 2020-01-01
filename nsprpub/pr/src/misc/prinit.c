@@ -677,15 +677,6 @@ NULL
 _pr_sleeplock
 )
 ;
-#
-ifdef
-GC_LEAK_DETECTOR
-_PR_InitGarbageCollector
-(
-)
-;
-#
-endif
 _PR_InitThreads
 (
 PR_USER_THREAD

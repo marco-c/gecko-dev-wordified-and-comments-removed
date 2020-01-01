@@ -1915,6 +1915,11 @@ startupInfo
 ;
 #
 endif
+DWORD
+creationFlags
+=
+0
+;
 PROCESS_INFORMATION
 procInfo
 ;
@@ -2353,6 +2358,11 @@ redirected
 =
 PR_TRUE
 ;
+creationFlags
+|
+=
+CREATE_NO_WINDOW
+;
 }
 if
 (
@@ -2498,7 +2508,7 @@ wideCmdLine
 NULL
 NULL
 TRUE
-0
+creationFlags
 envBlock
 wideCwd
 &
@@ -2528,7 +2538,7 @@ cmdLine
 NULL
 NULL
 TRUE
-0
+creationFlags
 envBlock
 cwd
 &

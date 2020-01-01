@@ -209,6 +209,9 @@ PRUint32
 define
 NO_LONG_LONG
 #
+define
+No_Hex_NaN
+#
 ifndef
 Long
 #

@@ -45,7 +45,7 @@ _pr_numCPU
 PRInt32
 _pr_cpus_exit
 ;
-PRInt32
+PRUint32
 _pr_cpu_affinity_mask
 =
 0
