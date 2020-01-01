@@ -1180,7 +1180,7 @@ bool
 showWarningBox
 )
 ;
-void
+nsresult
 ShutdownNSS
 (
 )
@@ -1304,6 +1304,14 @@ const
 nsAString
 &
 token
+)
+;
+void
+DoProfileApproveChange
+(
+nsISupports
+*
+aSubject
 )
 ;
 void
