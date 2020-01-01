@@ -1103,10 +1103,6 @@ int
 _nExitSlot
 ;
 \
-bool
-blx_lr_bug
-;
-\
 int
 max_out_args
 ;
