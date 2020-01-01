@@ -842,6 +842,13 @@ Settings
 "
 )
 ;
+waitForText
+(
+"
+Settings
+"
+)
+;
 /
 /
 Dismiss
@@ -919,6 +926,13 @@ opening
 the
 menu
 selectMenuItem
+(
+"
+Settings
+"
+)
+;
+waitForText
 (
 "
 Settings
