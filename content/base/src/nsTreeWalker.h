@@ -194,9 +194,10 @@ if
 (
 aIndexPos
 >
+=
 0
-)
-{
+&
+&
 mPossibleIndexes
 .
 EnsureLengthAtLeast
@@ -205,7 +206,8 @@ aIndexPos
 +
 1
 )
-;
+)
+{
 mPossibleIndexes
 .
 ElementAt
