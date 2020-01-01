@@ -4431,7 +4431,7 @@ const
 char
 *
 aPref
-nsCString
+nsACString
 *
 aResult
 )
@@ -4505,7 +4505,7 @@ const
 char
 *
 aPref
-nsString
+nsAString
 *
 aResult
 )
@@ -4581,7 +4581,7 @@ const
 char
 *
 aPref
-nsString
+nsAString
 *
 aResult
 )
@@ -4724,7 +4724,7 @@ char
 *
 aPref
 const
-nsCString
+nsACString
 &
 aValue
 )
@@ -4789,7 +4789,7 @@ char
 *
 aPref
 const
-nsString
+nsAString
 &
 aValue
 )
