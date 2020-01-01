@@ -2352,14 +2352,9 @@ BSD
 like
 license
 "
-jpeg
-"
-"
-modules
+media
 /
-libimg
-/
-mng
+libjpeg
 "
 #
 The

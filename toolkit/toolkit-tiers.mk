@@ -535,7 +535,9 @@ MOZ_NATIVE_JPEG
 tier_platform_dirs
 +
 =
-jpeg
+media
+/
+libjpeg
 endif
 ifdef
 MOZ_UPDATER

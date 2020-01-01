@@ -6191,7 +6191,9 @@ SYSTEM_JPEG
 then
 add_makefiles
 "
-jpeg
+media
+/
+libjpeg
 /
 Makefile
 "

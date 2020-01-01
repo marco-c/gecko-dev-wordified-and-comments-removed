@@ -10700,7 +10700,9 @@ mozjpeg
 DEPTH
 )
 /
-jpeg
+media
+/
+libjpeg
 )
 '
 MOZ_ZLIB_CFLAGS
@@ -18609,7 +18611,9 @@ VERSION_NUMBER
 DEPTH
 )
 /
-jpeg
+media
+/
+libjpeg
 )
 '
 MOZ_PNG_LIBS

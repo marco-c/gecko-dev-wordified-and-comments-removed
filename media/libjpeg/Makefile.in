@@ -395,6 +395,9 @@ DEPTH
 =
 .
 .
+/
+.
+.
 topsrcdir
 =
 top_srcdir
@@ -660,7 +663,9 @@ I
 topsrcdir
 )
 /
-jpeg
+media
+/
+libjpeg
 /
 simd
 /
