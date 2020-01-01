@@ -2418,11 +2418,7 @@ ea
 disp
 -
 >
-mAnimations
-.
-Length
-(
-)
+mAnimationNameCount
 =
 =
 1
@@ -3309,11 +3305,7 @@ animEnd
 disp
 -
 >
-mAnimations
-.
-Length
-(
-)
+mAnimationNameCount
 ;
 animIdx
 !
