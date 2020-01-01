@@ -3180,6 +3180,10 @@ NS_PARSER_FLAG_PARSER_ENABLED
 |
 NS_PARSER_FLAG_CAN_TOKENIZE
 ;
+mProcessingNetworkData
+=
+PR_FALSE
+;
 }
 void
 nsParser
@@ -8447,7 +8451,8 @@ ContinueInterruptedParsing
 {
 if
 (
-IsScriptExecuting
+!
+IsOkToProcessNetworkData
 (
 )
 )
@@ -8530,6 +8535,10 @@ mStreamListenerState
 =
 eOnStop
 ;
+mProcessingNetworkData
+=
+PR_TRUE
+;
 if
 (
 mSink
@@ -8550,6 +8559,10 @@ ResumeParse
 PR_TRUE
 isFinalChunk
 )
+;
+mProcessingNetworkData
+=
+PR_FALSE
 ;
 if
 (
@@ -8704,8 +8717,7 @@ nsnull
 ;
 NS_ASSERTION
 (
-!
-IsScriptExecuting
+IsOkToProcessNetworkData
 (
 )
 "
@@ -13550,8 +13562,7 @@ rv
 }
 if
 (
-!
-IsScriptExecuting
+IsOkToProcessNetworkData
 (
 )
 &
@@ -13570,6 +13581,10 @@ FirstNonWhitespacePosition
 0
 )
 {
+mProcessingNetworkData
+=
+PR_TRUE
+;
 if
 (
 mSink
@@ -13588,6 +13603,10 @@ rv
 ResumeParse
 (
 )
+;
+mProcessingNetworkData
+=
+PR_FALSE
 ;
 }
 }
@@ -13712,8 +13731,7 @@ Finish
 ;
 if
 (
-!
-IsScriptExecuting
+IsOkToProcessNetworkData
 (
 )
 &
@@ -13724,6 +13742,10 @@ rv
 )
 )
 {
+mProcessingNetworkData
+=
+PR_TRUE
+;
 if
 (
 mSink
@@ -13744,6 +13766,10 @@ ResumeParse
 PR_TRUE
 PR_TRUE
 )
+;
+mProcessingNetworkData
+=
+PR_FALSE
 ;
 }
 if
