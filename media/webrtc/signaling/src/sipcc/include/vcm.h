@@ -1211,6 +1211,17 @@ char
 message
 )
 ;
+int
+vcmDisableRtcpComponent
+(
+const
+char
+*
+peerconnection
+int
+level
+)
+;
 #
 ifdef
 __cplusplus
