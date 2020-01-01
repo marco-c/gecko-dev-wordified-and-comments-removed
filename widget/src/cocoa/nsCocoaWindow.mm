@@ -6389,6 +6389,7 @@ nsCocoaWindow
 :
 GetLayerManager
 (
+LayerManagerPersistence
 bool
 *
 aAllowRetaining
