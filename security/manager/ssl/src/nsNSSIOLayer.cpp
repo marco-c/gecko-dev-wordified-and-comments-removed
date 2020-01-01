@@ -2750,6 +2750,9 @@ certErrorTrust_UnknownIssuer
 break
 ;
 case
+SEC_ERROR_INADEQUATE_KEY_USAGE
+:
+case
 SEC_ERROR_CA_CERT_INVALID
 :
 errorID
@@ -11325,6 +11328,9 @@ SEC_ERROR_EXPIRED_ISSUER_CERTIFICATE
 :
 case
 SEC_ERROR_UNTRUSTED_CERT
+:
+case
+SEC_ERROR_INADEQUATE_KEY_USAGE
 :
 collected_errors
 |
