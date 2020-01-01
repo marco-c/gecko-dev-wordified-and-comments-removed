@@ -150,6 +150,9 @@ GetWidth
 nsPresContext
 *
 aPresContext
+const
+nsMediaFeature
+*
 nsCSSValue
 &
 aResult
@@ -195,6 +198,9 @@ GetHeight
 nsPresContext
 *
 aPresContext
+const
+nsMediaFeature
+*
 nsCSSValue
 &
 aResult
@@ -311,6 +317,9 @@ GetDeviceWidth
 nsPresContext
 *
 aPresContext
+const
+nsMediaFeature
+*
 nsCSSValue
 &
 aResult
@@ -356,6 +365,9 @@ GetDeviceHeight
 nsPresContext
 *
 aPresContext
+const
+nsMediaFeature
+*
 nsCSSValue
 &
 aResult
@@ -401,6 +413,9 @@ GetOrientation
 nsPresContext
 *
 aPresContext
+const
+nsMediaFeature
+*
 nsCSSValue
 &
 aResult
@@ -542,6 +557,9 @@ GetAspectRatio
 nsPresContext
 *
 aPresContext
+const
+nsMediaFeature
+*
 nsCSSValue
 &
 aResult
@@ -565,6 +583,9 @@ GetDeviceAspectRatio
 nsPresContext
 *
 aPresContext
+const
+nsMediaFeature
+*
 nsCSSValue
 &
 aResult
@@ -588,6 +609,9 @@ GetColor
 nsPresContext
 *
 aPresContext
+const
+nsMediaFeature
+*
 nsCSSValue
 &
 aResult
@@ -640,6 +664,9 @@ GetColorIndex
 nsPresContext
 *
 aPresContext
+const
+nsMediaFeature
+*
 nsCSSValue
 &
 aResult
@@ -664,6 +691,9 @@ GetMonochrome
 nsPresContext
 *
 aPresContext
+const
+nsMediaFeature
+*
 nsCSSValue
 &
 aResult
@@ -688,6 +718,9 @@ GetResolution
 nsPresContext
 *
 aPresContext
+const
+nsMediaFeature
+*
 nsCSSValue
 &
 aResult
@@ -744,6 +777,9 @@ GetScan
 nsPresContext
 *
 aPresContext
+const
+nsMediaFeature
+*
 nsCSSValue
 &
 aResult
@@ -766,6 +802,9 @@ GetGrid
 nsPresContext
 *
 aPresContext
+const
+nsMediaFeature
+*
 nsCSSValue
 &
 aResult

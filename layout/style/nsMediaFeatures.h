@@ -20,6 +20,9 @@ nsPresContext
 class
 nsCSSValue
 ;
+struct
+nsMediaFeature
+;
 typedef
 nsresult
 (
@@ -30,6 +33,10 @@ nsMediaFeatureValueGetter
 nsPresContext
 *
 aPresContext
+const
+nsMediaFeature
+*
+aFeature
 nsCSSValue
 &
 aResult
