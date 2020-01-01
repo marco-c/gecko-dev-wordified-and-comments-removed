@@ -571,6 +571,7 @@ html
 )
 ;
 yield
+undefined
 ;
 ok
 (
@@ -643,6 +644,7 @@ html
 )
 ;
 yield
+undefined
 ;
 ok
 (
