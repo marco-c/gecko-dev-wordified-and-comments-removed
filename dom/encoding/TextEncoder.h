@@ -82,7 +82,7 @@ TextEncoder
 (
 aGlobal
 .
-Get
+GetAsSupports
 (
 )
 )

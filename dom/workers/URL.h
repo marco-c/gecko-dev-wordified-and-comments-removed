@@ -36,7 +36,7 @@ void
 CreateObjectURL
 (
 const
-WorkerGlobalObject
+GlobalObject
 &
 aGlobal
 JSObject
@@ -59,7 +59,7 @@ void
 CreateObjectURL
 (
 const
-WorkerGlobalObject
+GlobalObject
 &
 aGlobal
 JSObject
@@ -82,7 +82,7 @@ void
 RevokeObjectURL
 (
 const
-WorkerGlobalObject
+GlobalObject
 &
 aGlobal
 const

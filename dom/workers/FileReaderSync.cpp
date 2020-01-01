@@ -172,7 +172,7 @@ mozilla
 dom
 :
 :
-WorkerGlobalObject
+GlobalObject
 ;
 NS_IMPL_ADDREF_INHERITED
 (
@@ -260,7 +260,7 @@ FileReaderSync
 Constructor
 (
 const
-WorkerGlobalObject
+GlobalObject
 &
 aGlobal
 ErrorResult

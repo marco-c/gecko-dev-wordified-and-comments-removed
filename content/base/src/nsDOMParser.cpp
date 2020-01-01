@@ -1618,7 +1618,7 @@ nsDOMParser
 (
 aOwner
 .
-Get
+GetAsSupports
 (
 )
 )
@@ -1632,7 +1632,7 @@ InitInternal
 (
 aOwner
 .
-Get
+GetAsSupports
 (
 )
 aPrincipal
@@ -1779,7 +1779,7 @@ nsDOMParser
 (
 aOwner
 .
-Get
+GetAsSupports
 (
 )
 )
@@ -1793,7 +1793,7 @@ InitInternal
 (
 aOwner
 .
-Get
+GetAsSupports
 (
 )
 prin

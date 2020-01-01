@@ -76,7 +76,7 @@ mozilla
 dom
 :
 :
-WorkerGlobalObject
+GlobalObject
 ;
 class
 URLRunnable
@@ -841,7 +841,7 @@ URL
 CreateObjectURL
 (
 const
-WorkerGlobalObject
+GlobalObject
 &
 aGlobal
 JSObject
@@ -988,7 +988,7 @@ URL
 CreateObjectURL
 (
 const
-WorkerGlobalObject
+GlobalObject
 &
 aGlobal
 JSObject
@@ -1034,7 +1034,7 @@ URL
 RevokeObjectURL
 (
 const
-WorkerGlobalObject
+GlobalObject
 &
 aGlobal
 const

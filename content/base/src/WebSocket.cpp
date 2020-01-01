@@ -2223,7 +2223,7 @@ do_QueryInterface
 (
 aGlobal
 .
-Get
+GetAsSupports
 (
 )
 )
@@ -2285,7 +2285,7 @@ do_QueryInterface
 (
 aGlobal
 .
-Get
+GetAsSupports
 (
 )
 )
@@ -2317,7 +2317,7 @@ do_QueryInterface
 (
 aGlobal
 .
-Get
+GetAsSupports
 (
 )
 )

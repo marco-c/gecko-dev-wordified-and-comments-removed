@@ -222,9 +222,6 @@ const
 GlobalObject
 &
 aGlobal
-JSContext
-*
-aCx
 DOMMediaStream
 &
 aStream
@@ -258,9 +255,6 @@ protected
 void
 Init
 (
-JSContext
-*
-aCx
 nsPIDOMWindow
 *
 aOwnerWindow

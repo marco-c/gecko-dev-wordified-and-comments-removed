@@ -152,13 +152,13 @@ class
 GainNode
 ;
 class
-GlobalObject
-;
-class
 HTMLMediaElement
 ;
 class
 MediaElementAudioSourceNode
+;
+class
+GlobalObject
 ;
 class
 MediaStreamAudioDestinationNode

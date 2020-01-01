@@ -492,7 +492,7 @@ nsFormData
 (
 aGlobal
 .
-Get
+GetAsSupports
 (
 )
 )

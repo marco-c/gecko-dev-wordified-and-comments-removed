@@ -96,7 +96,7 @@ SpeechGrammarList
 (
 aGlobal
 .
-Get
+GetAsSupports
 (
 )
 )

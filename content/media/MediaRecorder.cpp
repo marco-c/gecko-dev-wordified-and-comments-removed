@@ -480,9 +480,6 @@ MediaRecorder
 :
 Init
 (
-JSContext
-*
-aCx
 nsPIDOMWindow
 *
 aOwnerWindow
@@ -1262,9 +1259,6 @@ const
 GlobalObject
 &
 aGlobal
-JSContext
-*
-aCx
 DOMMediaStream
 &
 aStream
@@ -1283,7 +1277,7 @@ do_QueryInterface
 (
 aGlobal
 .
-Get
+GetAsSupports
 (
 )
 )
@@ -1315,7 +1309,7 @@ do_QueryInterface
 (
 aGlobal
 .
-Get
+GetAsSupports
 (
 )
 )
@@ -1354,7 +1348,6 @@ object
 >
 Init
 (
-aCx
 ownerWindow
 )
 ;

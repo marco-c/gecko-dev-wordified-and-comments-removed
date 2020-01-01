@@ -111,7 +111,7 @@ nsDOMSerializer
 (
 aOwner
 .
-Get
+GetAsSupports
 (
 )
 )

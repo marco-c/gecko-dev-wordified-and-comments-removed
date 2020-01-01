@@ -105,7 +105,7 @@ SpeechGrammar
 (
 aGlobal
 .
-Get
+GetAsSupports
 (
 )
 )

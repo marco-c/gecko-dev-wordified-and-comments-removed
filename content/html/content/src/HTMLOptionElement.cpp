@@ -1289,7 +1289,7 @@ do_QueryInterface
 (
 aGlobal
 .
-Get
+GetAsSupports
 (
 )
 )
