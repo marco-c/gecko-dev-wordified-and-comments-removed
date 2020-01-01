@@ -127,6 +127,8 @@ OnStopRequest
 (
 bool
 aIsLastPart
+nsresult
+aStatus
 )
 =
 0
@@ -142,6 +144,14 @@ OnDiscard
 virtual
 void
 OnUnlockedDraw
+(
+)
+=
+0
+;
+virtual
+void
+OnError
 (
 )
 =

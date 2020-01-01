@@ -557,6 +557,11 @@ MaybeUnblockOnload
 (
 )
 ;
+void
+RecordError
+(
+)
+;
 bool
 IsMultipart
 (
