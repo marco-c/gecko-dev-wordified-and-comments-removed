@@ -214,6 +214,8 @@ messages
 aTasks
 .
 messages
+;
+messages
 .
 unshift
 (
@@ -4445,6 +4447,11 @@ aTasks
 {
 if
 (
+aTasks
+)
+{
+if
+(
 Array
 .
 isArray
@@ -4510,6 +4517,7 @@ aTasks
 .
 scope
 ;
+}
 }
 }
 Tasks
