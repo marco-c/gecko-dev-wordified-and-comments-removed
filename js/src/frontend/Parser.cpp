@@ -5272,14 +5272,6 @@ null
 ;
 if
 (
-kind
-!
-=
-Arrow
-)
-{
-if
-(
 !
 checkFunctionArguments
 (
@@ -5290,7 +5282,6 @@ null
 (
 )
 ;
-}
 return
 pn
 ;
@@ -9203,12 +9194,6 @@ null
 bool
 initiallyStrict
 =
-kind
-=
-=
-Arrow
-|
-|
 pc
 -
 >
