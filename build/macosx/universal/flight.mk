@@ -585,13 +585,6 @@ xulrunner
 )
 #
 {
-INSTALLER_DIR
-=
-xulrunner
-/
-installer
-/
-mac
 APPNAME
 =
 XUL
