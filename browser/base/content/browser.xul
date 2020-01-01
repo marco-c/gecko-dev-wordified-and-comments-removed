@@ -6349,6 +6349,11 @@ hidden
 "
 true
 "
+skipintoolbarset
+=
+"
+true
+"
 observes
 =
 "
