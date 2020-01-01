@@ -99,7 +99,7 @@ nsIRunnable
 )
 #
 ifndef
-MOZ_WIDGET_GONK
+MOZ_B2G_CAMERA
 int
 MediaEngineWebRTCVideoSource
 :
@@ -696,7 +696,7 @@ aPrefs
 {
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_B2G_CAMERA
 mCapability
 .
 width
@@ -1061,7 +1061,7 @@ __FUNCTION__
 ;
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_B2G_CAMERA
 ReentrantMonitorAutoEnter
 sync
 (
@@ -1245,7 +1245,7 @@ IsEmpty
 {
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_B2G_CAMERA
 ReentrantMonitorAutoEnter
 sync
 (
@@ -1274,7 +1274,7 @@ NS_ERROR_FAILURE
 }
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_B2G_CAMERA
 NS_DispatchToMainThread
 (
 WrapRunnable
@@ -1453,7 +1453,7 @@ STREAM_TIME_MAX
 ;
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_B2G_CAMERA
 ReentrantMonitorAutoEnter
 sync
 (
@@ -1488,7 +1488,7 @@ CreateImageContainer
 ;
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_B2G_CAMERA
 NS_DispatchToMainThread
 (
 WrapRunnable
@@ -1660,7 +1660,7 @@ NS_OK
 }
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_B2G_CAMERA
 ReentrantMonitorAutoEnter
 sync
 (
@@ -1707,7 +1707,7 @@ nullptr
 }
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_B2G_CAMERA
 NS_DispatchToMainThread
 (
 WrapRunnable
@@ -1769,7 +1769,7 @@ aFile
 {
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_B2G_CAMERA
 ReentrantMonitorAutoEnter
 sync
 (
@@ -1801,7 +1801,7 @@ NS_ERROR_FAILURE
 }
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_B2G_CAMERA
 mLastCapture
 =
 nullptr
@@ -2204,7 +2204,7 @@ mUniqueId
 ;
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_B2G_CAMERA
 nsCString
 deviceName
 ;
@@ -2419,7 +2419,7 @@ return
 }
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_B2G_CAMERA
 ReentrantMonitorAutoEnter
 sync
 (
@@ -2486,7 +2486,7 @@ Deallocate
 }
 #
 ifndef
-MOZ_WIDGET_GONK
+MOZ_B2G_CAMERA
 mViECapture
 -
 >
@@ -2521,7 +2521,7 @@ false
 }
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_B2G_CAMERA
 void
 MediaEngineWebRTCVideoSource
 :

@@ -286,7 +286,7 @@ h
 "
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_B2G_CAMERA
 #
 include
 "
@@ -343,7 +343,7 @@ mozilla
 {
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_B2G_CAMERA
 class
 CameraAllocateRunnable
 ;
@@ -361,7 +361,7 @@ public
 nsRunnable
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_B2G_CAMERA
 public
 nsICameraGetCameraCallback
 public
@@ -388,7 +388,7 @@ public
 :
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_B2G_CAMERA
 MediaEngineWebRTCVideoSource
 (
 nsDOMCameraManager
@@ -696,7 +696,7 @@ aLastEndTime
 NS_DECL_ISUPPORTS
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_B2G_CAMERA
 NS_DECL_NSICAMERAGETCAMERACALLBACK
 NS_DECL_NSICAMERAPREVIEWSTREAMCALLBACK
 NS_DECL_NSICAMERATAKEPICTURECALLBACK
@@ -872,7 +872,7 @@ Shutdown
 ;
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_B2G_CAMERA
 nsDOMCameraManager
 *
 mCameraManager
@@ -1425,7 +1425,7 @@ public
 :
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_B2G_CAMERA
 MediaEngineWebRTC
 (
 nsDOMCameraManager
@@ -1613,7 +1613,7 @@ mAudioSources
 ;
 #
 ifdef
-MOZ_WIDGET_GONK
+MOZ_B2G_CAMERA
 nsDOMCameraManager
 *
 mCameraManager
