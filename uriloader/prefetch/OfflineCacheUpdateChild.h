@@ -178,7 +178,7 @@ nsIApplicationCache
 aApplicationCache
 )
 ;
-nsresult
+void
 GatherObservers
 (
 nsCOMArray
