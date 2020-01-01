@@ -1924,6 +1924,13 @@ group
 "
 this
 )
+.
+addClass
+(
+"
+tabInGroup
+"
+)
 ;
 if
 (
