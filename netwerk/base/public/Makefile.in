@@ -679,10 +679,6 @@ nsIUnicharStreamLoader
 .
 idl
 \
-nsIUploadChannel2
-.
-idl
-\
 nsIStandardURL
 .
 idl

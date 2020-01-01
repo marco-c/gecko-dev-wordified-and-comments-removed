@@ -592,10 +592,6 @@ nsIDOMFile
 .
 idl
 \
-nsIDOMFileInternal
-.
-idl
-\
 nsIDOMFileList
 .
 idl
