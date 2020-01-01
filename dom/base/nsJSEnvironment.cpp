@@ -357,13 +357,6 @@ nsJSPrincipals
 h
 "
 #
-include
-"
-jsdbgapi
-.
-h
-"
-#
 ifdef
 XP_MACOSX
 #
