@@ -3264,7 +3264,7 @@ oldValue
 oldBorder
 -
 >
-GetActualBorder
+GetComputedBorder
 (
 )
 ;
@@ -3275,7 +3275,7 @@ GetStyleBorder
 )
 -
 >
-GetActualBorder
+GetComputedBorder
 (
 )
 ;
@@ -3868,7 +3868,7 @@ GetStyleBorder
 )
 -
 >
-GetActualBorder
+GetComputedBorder
 (
 )
 ;

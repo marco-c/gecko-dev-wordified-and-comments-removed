@@ -3378,7 +3378,7 @@ border
 mStyleBorder
 -
 >
-GetActualBorder
+GetComputedBorder
 (
 )
 ;
@@ -8362,7 +8362,7 @@ GetStyleBorder
 )
 -
 >
-GetActualBorder
+GetComputedBorder
 (
 )
 ;

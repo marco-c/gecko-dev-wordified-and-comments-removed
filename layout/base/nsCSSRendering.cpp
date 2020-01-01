@@ -5892,7 +5892,7 @@ if
 (
 aBorder
 .
-GetActualBorder
+GetComputedBorder
 (
 )
 .
@@ -11484,7 +11484,7 @@ borderWidths
 (
 aStyleBorder
 .
-GetActualBorder
+GetComputedBorder
 (
 )
 )

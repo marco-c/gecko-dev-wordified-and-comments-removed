@@ -1606,7 +1606,7 @@ aReflowState
 mStyleBorder
 -
 >
-GetActualBorder
+GetComputedBorder
 (
 )
 ;

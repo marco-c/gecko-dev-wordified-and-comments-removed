@@ -2438,14 +2438,14 @@ aOther
 mTwipsPerPixel
 |
 |
-GetActualBorder
+GetComputedBorder
 (
 )
 !
 =
 aOther
 .
-GetActualBorder
+GetComputedBorder
 (
 )
 |
