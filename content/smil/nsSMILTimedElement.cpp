@@ -6722,7 +6722,8 @@ Time
 =
 aBase
 )
-;
+{
+}
 return
 result
 ;
