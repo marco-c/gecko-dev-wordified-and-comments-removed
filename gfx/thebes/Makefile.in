@@ -142,10 +142,6 @@ gfxFontFeatures
 .
 h
 \
-gfxFontMissingGlyphs
-.
-h
-\
 gfxFontUtils
 .
 h
