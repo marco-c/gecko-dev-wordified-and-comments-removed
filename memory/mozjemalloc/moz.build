@@ -127,3 +127,8 @@ jemalloc
 c
 '
 ]
+LIBRARY_NAME
+=
+'
+jemalloc
+'

@@ -92,9 +92,6 @@ MOZ_WIDGET_TOOLKIT
 )
 )
 )
-LIBRARY_NAME
-=
-fileview
 EXPORT_LIBRARY
 =
 1

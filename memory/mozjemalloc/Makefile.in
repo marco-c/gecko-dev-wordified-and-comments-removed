@@ -83,9 +83,6 @@ DISABLED_CSRCS
 jemalloc
 .
 c
-LIBRARY_NAME
-=
-jemalloc
 FORCE_STATIC_LIB
 =
 1

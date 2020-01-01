@@ -85,9 +85,6 @@ WINNT
 OS_ARCH
 )
 )
-LIBRARY_NAME
-=
-parentalcontrols_s
 FORCE_STATIC_LIB
 =
 1

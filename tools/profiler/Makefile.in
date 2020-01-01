@@ -150,9 +150,6 @@ endif
 MODULE_NAME
 =
 nsProfilerModule
-LIBRARY_NAME
-=
-profiler
 EXPORT_LIBRARY
 =
 1

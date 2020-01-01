@@ -133,6 +133,11 @@ MODULE
 '
 filepicker
 '
+LIBRARY_NAME
+=
+'
+fileview
+'
 XPIDL_SOURCES
 +
 =

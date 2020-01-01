@@ -89,9 +89,6 @@ this
 library
 ifndef
 LINK_GTEST
-LIBRARY_NAME
-=
-dummyvccorlib
 include
 (
 DEPTH

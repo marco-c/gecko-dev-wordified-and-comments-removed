@@ -130,6 +130,11 @@ OS_ARCH
 WINNT
 '
 :
+LIBRARY_NAME
+=
+'
+parentalcontrols_s
+'
 CPP_SOURCES
 +
 =

@@ -126,3 +126,8 @@ nsXULContextMenuBuilder
 cpp
 '
 ]
+LIBRARY_NAME
+=
+'
+gkconxulcon_s
+'
