@@ -201,7 +201,7 @@ using
 nsWrapperCache
 :
 :
-GetWrapper
+GetWrapperPreserveColor
 ;
 virtual
 JSObject

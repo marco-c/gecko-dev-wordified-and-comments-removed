@@ -273,7 +273,7 @@ aNames
 ;
 JSObject
 *
-GetWrapper
+GetWrapperPreserveColor
 (
 )
 {
@@ -292,7 +292,7 @@ return
 cache
 -
 >
-GetWrapper
+GetWrapperPreserveColor
 (
 )
 ;
