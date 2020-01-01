@@ -4622,7 +4622,7 @@ NS_TEXTRANGE_CONVERTEDTEXT
 define
 NS_TEXTRANGE_SELECTEDCONVERTEDTEXT
 0x05
-static
+inline
 PRBool
 NS_TargetUnfocusedEventToLastFocusedContent
 (
