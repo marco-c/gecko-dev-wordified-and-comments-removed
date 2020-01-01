@@ -14,13 +14,6 @@ h
 #
 include
 "
-jsprvtd
-.
-h
-"
-#
-include
-"
 jsvector
 .
 h
@@ -41,6 +34,9 @@ obj
 namespace
 js
 {
+class
+Debugger
+;
 class
 GlobalObject
 :
