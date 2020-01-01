@@ -366,7 +366,7 @@ drawRect
 NSRect
 )
 aRect
-inContext
+inTitlebarContext
 :
 (
 CGContextRef
@@ -451,12 +451,6 @@ notification
 BOOL
 )
 isPluginView
-;
--
-(
-BOOL
-)
-isUsingOpenGL
 ;
 -
 (

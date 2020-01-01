@@ -1168,6 +1168,9 @@ PuppetWidget
 :
 GetLayerManager
 (
+bool
+*
+aAllowRetaining
 )
 {
 if
@@ -1183,6 +1186,17 @@ BasicShadowLayerManager
 (
 this
 )
+;
+}
+if
+(
+aAllowRetaining
+)
+{
+*
+aAllowRetaining
+=
+true
 ;
 }
 return

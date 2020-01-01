@@ -439,6 +439,11 @@ LayerManager
 *
 GetLayerManager
 (
+bool
+*
+aAllowRetaining
+=
+nsnull
 )
 ;
 virtual
