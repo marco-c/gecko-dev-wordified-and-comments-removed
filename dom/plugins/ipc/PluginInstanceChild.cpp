@@ -11676,10 +11676,6 @@ case
 NPDrawingModelAsyncWindowsDXGISurface
 :
 {
-AsyncBitmapData
-*
-bitmapData
-;
 CrossProcessMutexAutoLock
 autoLock
 (

@@ -267,6 +267,10 @@ MOZ_WIDGET_TOOLKIT
 )
 android
 )
+DIRS
++
+=
+android
 LOCAL_INCLUDES
 +
 =
@@ -321,16 +325,10 @@ non
 Android
 platforms
 .
-ifndef
-_MSC_VER
 FAIL_ON_WARNINGS
 :
 =
 1
-endif
-#
-!
-_MSC_VER
 endif
 ifeq
 (

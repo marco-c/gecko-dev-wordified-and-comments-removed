@@ -108,9 +108,12 @@ mStreamNotify
 (
 notifyData
 )
+ALLOW_THIS_IN_INITIALIZER_LIST
+(
 mDeliveryTracker
 (
 this
+)
 )
 {
 PLUGIN_LOG_DEBUG
