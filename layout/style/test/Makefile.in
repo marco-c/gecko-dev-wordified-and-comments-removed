@@ -669,6 +669,10 @@ test_dont_use_document_colors
 .
 html
 \
+test_font_face_parser
+.
+html
+\
 test_inherit_computation
 .
 html
