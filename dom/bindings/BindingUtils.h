@@ -1298,6 +1298,7 @@ cx
 JSObject
 *
 obj
+const
 ConstantSpec
 *
 cs
@@ -1396,8 +1397,10 @@ cx
 JSObject
 *
 obj
+const
 Prefable
 <
+const
 JSPropertySpec
 >
 *
@@ -5023,6 +5026,7 @@ InitIds
 JSContext
 *
 cx
+const
 Prefable
 <
 Spec

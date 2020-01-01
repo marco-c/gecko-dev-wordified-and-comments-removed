@@ -9093,6 +9093,14 @@ NULL
 )
 ;
         
+specType
+=
+"
+const
+"
++
+specType
+        
 arrays
 =
 (
@@ -9137,6 +9145,28 @@ n
 n
 "
 +
+                   
+"
+/
+/
+Can
+'
+t
+be
+const
+because
+the
+pref
+-
+enabled
+boolean
+needs
+to
+be
+writable
+\
+n
+"
                    
 "
 static
@@ -36130,6 +36160,7 @@ n
 "
                 
 "
+static
 const
 JSJitInfo
 %

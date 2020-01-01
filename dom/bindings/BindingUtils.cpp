@@ -742,6 +742,7 @@ cx
 JSObject
 *
 obj
+const
 ConstantSpec
 *
 cs
@@ -810,6 +811,7 @@ cx
 JSObject
 *
 obj
+const
 JSFunctionSpec
 *
 spec
@@ -835,6 +837,7 @@ cx
 JSObject
 *
 obj
+const
 JSPropertySpec
 *
 spec
@@ -860,6 +863,7 @@ cx
 JSObject
 *
 obj
+const
 ConstantSpec
 *
 spec
@@ -888,6 +892,7 @@ cx
 JSObject
 *
 obj
+const
 Prefable
 <
 T
@@ -968,8 +973,10 @@ cx
 JSObject
 *
 obj
+const
 Prefable
 <
+const
 JSPropertySpec
 >
 *
@@ -3656,8 +3663,10 @@ JSObject
 obj
 jsid
 id
+const
 Prefable
 <
+const
 JSPropertySpec
 >
 *
@@ -3665,6 +3674,7 @@ attributes
 jsid
 *
 attributeIds
+const
 JSPropertySpec
 *
 attributeSpecs
@@ -3735,6 +3745,7 @@ i
 ]
 )
 {
+const
 JSPropertySpec
 &
 attrSpec
@@ -3964,8 +3975,10 @@ NativeProperties
 nativeProperties
 )
 {
+const
 Prefable
 <
+const
 JSFunctionSpec
 >
 *
@@ -3975,6 +3988,7 @@ jsid
 *
 methodIds
 ;
+const
 JSFunctionSpec
 *
 methodsSpecs
@@ -4038,8 +4052,10 @@ if
 methods
 )
 {
+const
 Prefable
 <
+const
 JSFunctionSpec
 >
 *
@@ -4110,6 +4126,7 @@ i
 ]
 )
 {
+const
 JSFunctionSpec
 &
 methodSpec
@@ -4387,8 +4404,10 @@ nativeProperties
 constants
 )
 {
+const
 Prefable
 <
+const
 ConstantSpec
 >
 *
@@ -4987,8 +5006,10 @@ wrapper
 JSObject
 *
 obj
+const
 Prefable
 <
+const
 JSPropertySpec
 >
 *
@@ -4996,6 +5017,7 @@ attributes
 jsid
 *
 attributeIds
+const
 JSPropertySpec
 *
 attributeSpecs
@@ -5134,8 +5156,10 @@ NativeProperties
 nativeProperties
 )
 {
+const
 Prefable
 <
+const
 JSFunctionSpec
 >
 *
@@ -5145,6 +5169,7 @@ jsid
 *
 methodIds
 ;
+const
 JSFunctionSpec
 *
 methodsSpecs
@@ -5208,8 +5233,10 @@ if
 methods
 )
 {
+const
 Prefable
 <
+const
 JSFunctionSpec
 >
 *
@@ -5437,8 +5464,10 @@ nativeProperties
 constants
 )
 {
+const
 Prefable
 <
+const
 ConstantSpec
 >
 *
