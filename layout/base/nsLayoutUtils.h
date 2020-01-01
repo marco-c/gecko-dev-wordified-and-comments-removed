@@ -616,7 +616,7 @@ aShouldIgnoreSuppression
 =
 PR_FALSE
 PRBool
-aIgnoreScrollFrame
+aIgnoreRootScrollFrame
 =
 PR_FALSE
 )

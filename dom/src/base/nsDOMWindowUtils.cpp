@@ -769,7 +769,7 @@ aClickCount
 PRInt32
 aModifiers
 PRBool
-aIgnoreScrollFrame
+aIgnoreRootScrollFrame
 )
 {
 PRBool
@@ -1128,9 +1128,9 @@ appPerDev
 ;
 event
 .
-ignoreScrollFrame
+ignoreRootScrollFrame
 =
-aIgnoreScrollFrame
+aIgnoreRootScrollFrame
 ;
 nsEventStatus
 status

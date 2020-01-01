@@ -23605,7 +23605,7 @@ nsAutoDisableGetUsedXAssertions
 disableAssert
 ;
 PRBool
-ignoreScrollFrame
+ignoreRootScrollFrame
 =
 PR_FALSE
 ;
@@ -23620,7 +23620,7 @@ eventStructType
 NS_MOUSE_EVENT
 )
 {
-ignoreScrollFrame
+ignoreRootScrollFrame
 =
 static_cast
 <
@@ -23632,7 +23632,7 @@ aEvent
 )
 -
 >
-ignoreScrollFrame
+ignoreRootScrollFrame
 ;
 }
 targetFrame
@@ -23645,7 +23645,7 @@ GetFrameForPoint
 frame
 eventPoint
 PR_FALSE
-ignoreScrollFrame
+ignoreRootScrollFrame
 )
 ;
 }

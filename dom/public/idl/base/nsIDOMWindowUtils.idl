@@ -1077,7 +1077,7 @@ in
 nsIDOMNSEvent
 *
 param
-aIgnoreScrollFrame
+aIgnoreRootScrollFrame
 whether
 the
 event
@@ -1116,7 +1116,7 @@ optional
 ]
 in
 boolean
-aIgnoreScrollFrame
+aIgnoreRootScrollFrame
 )
 ;
 /
