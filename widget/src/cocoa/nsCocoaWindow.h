@@ -106,6 +106,9 @@ mInactiveTitlebarColor
 BOOL
 mScheduledShadowInvalidation
 ;
+float
+mDPI
+;
 }
 -
 (
@@ -184,6 +187,12 @@ deferredInvalidateShadow
 void
 )
 invalidateShadow
+;
+-
+(
+float
+)
+getDPI
 ;
 end
 interface
