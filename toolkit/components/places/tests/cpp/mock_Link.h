@@ -146,6 +146,14 @@ Link
 :
 defaultState
 )
+mRegistered
+(
+false
+)
+mContent
+(
+NULL
+)
 {
 }
 Link
