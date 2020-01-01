@@ -11085,3 +11085,15 @@ true
 ;
 #
 endif
+pref
+(
+"
+dom
+.
+debug
+.
+propagate_gesture_events_through_content
+"
+false
+)
+;
