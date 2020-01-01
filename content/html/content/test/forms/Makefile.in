@@ -165,7 +165,15 @@ test_form_attributes_reflection
 .
 html
 \
+test_option_disabled
+.
+html
+\
 test_option_index_attribute
+.
+html
+\
+test_option_text
 .
 html
 \
@@ -194,10 +202,6 @@ html
 test_form_attribute
 -
 4
-.
-html
-\
-test_option_disabled
 .
 html
 \
