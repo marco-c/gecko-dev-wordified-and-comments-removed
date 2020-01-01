@@ -274,6 +274,11 @@ nsVolume
 .
 h
 '
+'
+nsVolumeService
+.
+h
+'
 ]
 if
 CONFIG
