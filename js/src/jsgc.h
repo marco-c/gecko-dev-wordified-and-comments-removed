@@ -2452,7 +2452,7 @@ ArenasPerChunk
 ;
 }
 bool
-noAvailableArenas
+hasAvailableArenas
 (
 )
 const
@@ -2461,7 +2461,7 @@ return
 info
 .
 numArenasFree
-=
+!
 =
 0
 ;
