@@ -234,6 +234,10 @@ Types
 .
 h
 \
+MobileMessageCallback
+.
+h
+\
 (
 NULL
 )
@@ -281,6 +285,10 @@ SmsChild
 cpp
 \
 SmsRequest
+.
+cpp
+\
+MobileMessageCallback
 .
 cpp
 \
