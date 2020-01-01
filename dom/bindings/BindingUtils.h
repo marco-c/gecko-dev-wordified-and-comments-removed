@@ -438,10 +438,6 @@ template
 <
 bool
 mainThread
-bool
-reportJSContentExceptions
-=
-false
 >
 inline
 bool
@@ -461,6 +457,10 @@ const
 char
 *
 memberName
+bool
+reportJSContentExceptions
+=
+false
 )
 {
 if
