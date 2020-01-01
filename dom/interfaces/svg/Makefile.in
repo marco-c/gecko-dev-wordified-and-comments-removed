@@ -132,10 +132,6 @@ nsIDOMSVGElement
 .
 idl
 \
-nsIDOMSVGEllipseElement
-.
-idl
-\
 nsIDOMSVGEvent
 .
 idl
