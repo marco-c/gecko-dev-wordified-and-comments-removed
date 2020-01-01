@@ -294,6 +294,11 @@ root
 0
 ;
 bool
+enforcePackingRestrictions
+(
+)
+;
+bool
 enforceTimingRestrictions
 (
 TIntermNode
@@ -343,6 +348,9 @@ shaderType
 ;
 ShShaderSpec
 shaderSpec
+;
+int
+maxUniformVectors
 ;
 TSymbolTable
 symbolTable

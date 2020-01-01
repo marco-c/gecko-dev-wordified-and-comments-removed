@@ -494,6 +494,10 @@ Token
 .
 cpp
 \
+VariablePacker
+.
+cpp
+\
 (
 NULL
 )
