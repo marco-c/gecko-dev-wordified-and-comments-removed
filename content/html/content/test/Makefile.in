@@ -814,6 +814,10 @@ xml
 .
 xsl
 \
+test_bug481335
+.
+xhtml
+\
 (
 NULL
 )
