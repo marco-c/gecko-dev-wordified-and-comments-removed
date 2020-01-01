@@ -19,6 +19,13 @@ jsj_private
 .
 h
 "
+#
+include
+"
+jsobj
+.
+h
+"
 static
 JSBool
 JavaClass_convert

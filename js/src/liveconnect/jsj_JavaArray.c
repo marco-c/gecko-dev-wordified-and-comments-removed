@@ -20,6 +20,13 @@ jsj_private
 h
 "
 #
+include
+"
+jsobj
+.
+h
+"
+#
 define
 JS7_ISDEC
 (
