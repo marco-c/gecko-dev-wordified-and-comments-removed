@@ -163,11 +163,11 @@ Add
 ;
 SrcBlendAlpha
 =
-Src1_Alpha
+One
 ;
 DestBlendAlpha
 =
-Inv_Src1_Alpha
+Inv_Src_Alpha
 ;
 BlendOpAlpha
 =
@@ -873,7 +873,7 @@ vSrc
 ;
 result
 .
-vAlpha
+vSrc
 .
 a
 =
