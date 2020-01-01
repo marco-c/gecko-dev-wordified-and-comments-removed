@@ -9213,16 +9213,7 @@ style
 length
 =
 =
-4
-&
-&
-"
-MozTextBlink
-"
-in
-node
-.
-style
+3
 &
 &
 "

@@ -808,9 +808,6 @@ case
 eCSSProperty_text_anchor
 :
 case
-eCSSProperty_text_blink
-:
-case
 eCSSProperty_text_decoration
 :
 case
