@@ -593,11 +593,6 @@ SelectMenu
 false
 )
 ;
-SetActive
-(
-true
-)
-;
 nsMenuFrame
 *
 firstFrame
@@ -617,6 +612,11 @@ if
 firstFrame
 )
 {
+SetActive
+(
+true
+)
+;
 #
 ifdef
 MOZ_WIDGET_GTK2

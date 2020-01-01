@@ -968,6 +968,16 @@ ToggleMenuActiveState
 (
 )
 ;
+if
+(
+mMenuBarFrame
+-
+>
+IsActive
+(
+)
+)
+{
 aKeyEvent
 -
 >
@@ -985,6 +995,7 @@ PreventDefault
 return
 NS_OK
 ;
+}
 }
 }
 #
