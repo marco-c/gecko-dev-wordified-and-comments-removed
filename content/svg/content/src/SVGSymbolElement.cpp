@@ -94,7 +94,7 @@ nsIDOMElement
 nsIDOMSVGElement
 nsIDOMSVGFitToViewBox
 nsIDOMSVGSymbolElement
-nsIDOMSVGTests
+DOMSVGTests
 )
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 (
