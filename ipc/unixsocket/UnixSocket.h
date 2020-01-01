@@ -282,11 +282,6 @@ CloseSocket
 (
 )
 ;
-void
-CancelSocketTask
-(
-)
-;
 virtual
 void
 OnConnectSuccess
