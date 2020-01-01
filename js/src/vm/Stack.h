@@ -3421,10 +3421,6 @@ prev
 (
 )
 ;
-inlined_
-=
-NULL
-;
 }
 void
 restorePartialFrame
