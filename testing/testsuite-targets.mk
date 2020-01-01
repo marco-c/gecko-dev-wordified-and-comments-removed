@@ -3515,10 +3515,10 @@ run
 PYTHON
 )
 (
-DEPTH
+topsrcdir
 )
 /
-_profile
+build
 /
 pgo
 /

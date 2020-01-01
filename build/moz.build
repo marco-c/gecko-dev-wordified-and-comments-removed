@@ -156,14 +156,6 @@ DIRS
 stlport
 '
 ]
-DIRS
-+
-=
-[
-'
-pgo
-'
-]
 if
 CONFIG
 [
