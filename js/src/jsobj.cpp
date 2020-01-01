@@ -1100,10 +1100,7 @@ JSObject
 *
 oldproto
 =
-STOBJ_GET_PROTO
-(
 obj
-)
 ;
 while
 (
