@@ -670,6 +670,8 @@ test
 /
 browser
 /
+global
+/
 staller
 .
 sjs

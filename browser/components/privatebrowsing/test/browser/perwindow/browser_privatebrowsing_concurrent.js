@@ -29,6 +29,8 @@ test
 /
 browser
 /
+perwindow
+/
 browser_privatebrowsing_concurrent_page
 .
 html
