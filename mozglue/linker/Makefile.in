@@ -147,6 +147,10 @@ Mappable
 .
 cpp
 \
+SeekableZStream
+.
+cpp
+\
 (
 NULL
 )
