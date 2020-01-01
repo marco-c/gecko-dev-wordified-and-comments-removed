@@ -462,7 +462,7 @@ mode
 ENTITY
 netOffline
 .
-overrideLongDesc
+longDesc2
 "
 <
 ul
