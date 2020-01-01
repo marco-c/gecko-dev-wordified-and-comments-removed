@@ -462,6 +462,10 @@ rules_in_declaration_lists
 .
 html
 \
+test_bug892929
+.
+html
+\
 test_cascade
 .
 html
