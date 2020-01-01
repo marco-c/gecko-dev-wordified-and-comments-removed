@@ -1811,10 +1811,6 @@ ShadowContainerLayerOGL
 (
 )
 {
-Destroy
-(
-)
-;
 }
 void
 ShadowContainerLayerOGL
