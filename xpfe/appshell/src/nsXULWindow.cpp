@@ -5342,7 +5342,7 @@ Length
 nsresult
 errorCode
 ;
-uint32_t
+int32_t
 zLevel
 =
 stateString
