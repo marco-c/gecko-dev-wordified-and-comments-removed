@@ -1436,12 +1436,6 @@ Render
 (
 )
 {
-static
-int
-rcount
-=
-0
-;
 nsIntRect
 rect
 ;
@@ -2618,7 +2612,7 @@ vname
 \
 for
 (
-int
+size_t
 lpindex
 =
 0
@@ -2626,14 +2620,9 @@ lpindex
 \
 lpindex
 <
-sizeof
+NS_ARRAY_LENGTH
 (
 sLayerProgramTypes
-)
-/
-sizeof
-(
-int
 )
 ;
 \
