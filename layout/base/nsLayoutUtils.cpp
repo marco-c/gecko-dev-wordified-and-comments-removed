@@ -4863,6 +4863,7 @@ builder
 )
 nsDisplaySolidColor
 (
+aFrame
 nsRect
 (
 builder

@@ -2690,6 +2690,9 @@ public
 :
 nsDisplaySolidColor
 (
+nsIFrame
+*
+aFrame
 const
 nsRect
 &
@@ -2700,7 +2703,7 @@ aColor
 :
 nsDisplayItem
 (
-nsnull
+aFrame
 )
 mBounds
 (
@@ -2795,18 +2798,6 @@ const
 nsRect
 &
 aDirtyRect
-)
-;
-virtual
-PRBool
-OptimizeVisibility
-(
-nsDisplayListBuilder
-*
-aBuilder
-nsRegion
-*
-aVisibleRegion
 )
 ;
 NS_DISPLAY_DECL_NAME

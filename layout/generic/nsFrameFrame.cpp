@@ -1304,6 +1304,11 @@ aBuilder
 )
 nsDisplaySolidColor
 (
+f
+?
+f
+:
+this
 shellBounds
 presShell
 -
