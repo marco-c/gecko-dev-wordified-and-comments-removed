@@ -965,7 +965,7 @@ accesskey
 &
 certmgr
 .
-view
+view2
 .
 accesskey
 ;
@@ -1014,7 +1014,7 @@ accesskey
 &
 certmgr
 .
-backup
+backup2
 .
 accesskey
 ;
@@ -1063,7 +1063,7 @@ accesskey
 &
 certmgr
 .
-backupall
+backupall2
 .
 accesskey
 ;
@@ -1107,7 +1107,7 @@ accesskey
 &
 certmgr
 .
-restore
+restore2
 .
 accesskey
 ;
@@ -1151,7 +1151,7 @@ accesskey
 &
 certmgr
 .
-delete
+delete2
 .
 accesskey
 ;

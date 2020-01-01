@@ -1320,7 +1320,7 @@ View
 ENTITY
 certmgr
 .
-view
+view2
 .
 accesskey
 "
@@ -1344,7 +1344,7 @@ Edit
 ENTITY
 certmgr
 .
-edit
+edit2
 .
 accesskey
 "
@@ -1442,7 +1442,7 @@ Delete
 ENTITY
 certmgr
 .
-delete
+delete2
 .
 accesskey
 "
@@ -1466,7 +1466,7 @@ Backup
 ENTITY
 certmgr
 .
-backup
+backup2
 .
 accesskey
 "
@@ -1491,7 +1491,7 @@ All
 ENTITY
 certmgr
 .
-backupall
+backupall2
 .
 accesskey
 "
@@ -1515,7 +1515,7 @@ Import
 ENTITY
 certmgr
 .
-restore
+restore2
 .
 accesskey
 "
