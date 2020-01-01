@@ -3430,15 +3430,12 @@ nsAccessible
 *
 input
 =
-GetAccService
-(
-)
+mDoc
 -
 >
 GetAccessible
 (
 inputNode
-nsnull
 )
 ;
 return
