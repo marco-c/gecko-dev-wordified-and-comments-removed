@@ -839,10 +839,8 @@ const
 nsRegion
 &
 aDirtyRegion
-PaintType
-aType
-bool
-aWillSendDidPaint
+uint32_t
+aFlags
 )
 ;
 virtual
