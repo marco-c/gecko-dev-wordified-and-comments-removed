@@ -969,14 +969,12 @@ NS_GIOSERVICE_CONTRACTID
 rv
 )
 ;
-if
-(
-NS_SUCCEEDED
+NS_ENSURE_SUCCESS
 (
 rv
+rv
 )
-)
-{
+;
 nsCOMPtr
 <
 nsIStringBundleService
@@ -1153,7 +1151,6 @@ extensions
 )
 )
 ;
-}
 }
 }
 return
