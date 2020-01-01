@@ -651,7 +651,7 @@ indent
 }
 #
 endif
-nsIFrame
+nsTableColFrame
 *
 NS_NewTableColFrame
 (

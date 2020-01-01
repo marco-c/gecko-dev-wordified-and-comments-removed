@@ -60,6 +60,9 @@ nsIPresShell
 class
 nsIChannel
 ;
+class
+nsTableColFrame
+;
 #
 define
 NS_BLOCK_NO_AUTO_MARGINS
@@ -791,7 +794,7 @@ nsStyleContext
 aContext
 )
 ;
-nsIFrame
+nsTableColFrame
 *
 NS_NewTableColFrame
 (

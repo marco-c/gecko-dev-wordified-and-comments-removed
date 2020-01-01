@@ -83,7 +83,7 @@ aType
 )
 ;
 friend
-nsIFrame
+nsTableColFrame
 *
 NS_NewTableColFrame
 (
@@ -189,7 +189,6 @@ const
 ;
 #
 endif
-virtual
 PRInt32
 GetSpan
 (
