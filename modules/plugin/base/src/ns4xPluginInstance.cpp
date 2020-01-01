@@ -314,10 +314,8 @@ this
 {
 if
 (
+!
 prev
-=
-=
-nsnull
 )
 inst
 -
@@ -486,9 +484,6 @@ callbacks
 -
 >
 destroystream
-!
-=
-NULL
 )
 {
 PRLibrary
@@ -4661,10 +4656,8 @@ NS_OK
 ;
 if
 (
+!
 event
-=
-=
-nsnull
 )
 return
 NS_ERROR_FAILURE

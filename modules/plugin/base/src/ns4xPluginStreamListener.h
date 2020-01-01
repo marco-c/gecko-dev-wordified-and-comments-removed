@@ -1,9 +1,9 @@
 #
 ifndef
-ns4xPluginStreamListener_h__
+ns4xPluginStreamListener_h_
 #
 define
-ns4xPluginStreamListener_h__
+ns4xPluginStreamListener_h_
 #
 include
 "
