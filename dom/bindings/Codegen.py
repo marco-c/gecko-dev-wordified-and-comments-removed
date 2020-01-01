@@ -1,13 +1,19 @@
 import
+operator
+import
 os
 import
-string
+re
 import
-operator
+string
 from
 WebIDL
 import
-*
+BuiltinTypes
+IDLBuiltinType
+IDLNullValue
+IDLSequenceType
+IDLType
 from
 Configuration
 import
@@ -7776,15 +7782,6 @@ specs
 ]
         
 prefableSpecs
-=
-[
-]
-        
-if
-doIdArrays
-:
-            
-prefableIds
 =
 [
 ]
@@ -41120,15 +41117,6 @@ signatures
 [
 0
 ]
-        
-extendedAttributes
-=
-descriptor
-.
-getExtendedAttributes
-(
-operation
-)
         
 (
 returnType
