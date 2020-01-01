@@ -11,6 +11,13 @@ __TOKENS_H
 1
 #
 include
+<
+stdio
+.
+h
+>
+#
+include
 "
 compiler
 /

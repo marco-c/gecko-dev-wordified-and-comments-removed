@@ -20,7 +20,7 @@ context
 )
 ;
 extern
-void
+int
 glslang_scan
 (
 int

@@ -31,11 +31,6 @@ compilerdebug
 .
 h
 "
-#
-include
-<
-cstdlib
->
 class
 TType
 ;
@@ -1221,13 +1216,9 @@ getTypeName
 )
 const
 {
-if
+assert
 (
-!
 typeName
-)
-abort
-(
 )
 ;
 return

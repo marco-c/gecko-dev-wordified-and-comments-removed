@@ -38,15 +38,6 @@ int
 htsize
 )
 ;
-int
-ScanFromString
-(
-const
-char
-*
-s
-)
-;
 char
 *
 GetStringOfAtom

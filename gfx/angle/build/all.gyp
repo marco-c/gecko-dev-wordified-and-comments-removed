@@ -134,14 +134,13 @@ gyp
 :
 *
 '
-#
 '
 .
 .
 /
 tests
 /
-tests
+build_tests
 .
 gyp
 :

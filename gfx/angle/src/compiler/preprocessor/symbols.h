@@ -238,6 +238,7 @@ atom
 void
 CPPErrorToInfoLog
 (
+const
 char
 *
 )

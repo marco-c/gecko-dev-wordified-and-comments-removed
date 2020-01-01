@@ -84,6 +84,7 @@ EbtSampler2DRect
 EbtGuardSamplerEnd
 EbtStruct
 EbtAddress
+EbtInvariant
 }
 ;
 inline

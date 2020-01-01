@@ -4,6 +4,13 @@ __MEMORY_H
 #
 define
 __MEMORY_H
+#
+include
+<
+stddef
+.
+h
+>
 typedef
 struct
 MemoryPool_rec

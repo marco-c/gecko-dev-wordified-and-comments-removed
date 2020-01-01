@@ -159,6 +159,7 @@ void
 void
 CPPErrorToInfoLog
 (
+const
 char
 *
 )
