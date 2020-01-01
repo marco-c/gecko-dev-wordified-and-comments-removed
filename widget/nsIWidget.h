@@ -1611,7 +1611,6 @@ aOpaqueRegion
 )
 {
 }
-;
 virtual
 void
 AddChild
