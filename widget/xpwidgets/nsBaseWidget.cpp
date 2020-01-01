@@ -2444,6 +2444,13 @@ manager
 SetDefaultTarget
 (
 aTarget
+)
+;
+manager
+-
+>
+SetDefaultTargetConfiguration
+(
 aDoubleBuffering
 aRotation
 )
@@ -2514,6 +2521,13 @@ manager
 SetDefaultTarget
 (
 nullptr
+)
+;
+manager
+-
+>
+SetDefaultTargetConfiguration
+(
 mozilla
 :
 :
