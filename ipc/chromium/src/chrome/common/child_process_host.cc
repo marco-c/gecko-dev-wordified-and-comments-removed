@@ -243,9 +243,6 @@ ChildProcessHost
 (
 ProcessType
 type
-ResourceDispatcherHost
-*
-resource_dispatcher_host
 )
 :
 ChildProcessInfo
@@ -258,10 +255,6 @@ listener_
 (
 this
 )
-)
-resource_dispatcher_host_
-(
-resource_dispatcher_host
 )
 opening_channel_
 (

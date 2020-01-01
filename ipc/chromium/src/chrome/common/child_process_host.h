@@ -45,9 +45,6 @@ waitable_event_watcher
 .
 h
 "
-class
-ResourceDispatcherHost
-;
 #
 include
 "
@@ -201,15 +198,11 @@ iterator_
 ;
 protected
 :
+explicit
 ChildProcessHost
 (
 ProcessType
 type
-ResourceDispatcherHost
-*
-resource_dispatcher_host
-=
-0
 )
 ;
 virtual
@@ -445,10 +438,6 @@ host_
 ;
 ListenerHook
 listener_
-;
-ResourceDispatcherHost
-*
-resource_dispatcher_host_
 ;
 bool
 opening_channel_
