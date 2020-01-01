@@ -2268,6 +2268,13 @@ setTitle
 uri
 )
 ;
+mBrowserToolbar
+.
+setFavicon
+(
+null
+)
+;
 }
 }
 )
