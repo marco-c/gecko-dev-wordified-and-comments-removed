@@ -13715,8 +13715,9 @@ NS_ERROR_DOM_SECURITY_ERR
 nsIDocument
 :
 :
-ExitFullScreen
+ExitFullscreen
 (
+nullptr
 false
 )
 ;
