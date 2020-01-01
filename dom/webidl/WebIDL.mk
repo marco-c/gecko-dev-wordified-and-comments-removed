@@ -343,6 +343,10 @@ HTMLTableElement
 .
 webidl
 \
+HTMLTableRowElement
+.
+webidl
+\
 HTMLTableSectionElement
 .
 webidl
