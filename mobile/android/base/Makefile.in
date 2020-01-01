@@ -1051,6 +1051,12 @@ java
 \
 gfx
 /
+FlexibleGLSurfaceView
+.
+java
+\
+gfx
+/
 FloatSize
 .
 java

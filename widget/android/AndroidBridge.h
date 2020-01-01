@@ -70,7 +70,7 @@ h
 #
 include
 "
-AndroidLayerViewWrapper
+AndroidFlexViewWrapper
 .
 h
 "
@@ -2063,7 +2063,7 @@ jclass
 jEGL10Class
 ;
 jclass
-jLayerView
+jFlexSurfaceView
 ;
 jmethodID
 jRegisterCompositorMethod

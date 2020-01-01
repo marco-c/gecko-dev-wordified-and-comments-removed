@@ -148,7 +148,7 @@ class
 GeckoLayerClient
 implements
 GeckoEventResponder
-LayerView
+FlexibleGLSurfaceView
 .
 Listener
 {
