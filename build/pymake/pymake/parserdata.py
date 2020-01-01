@@ -3770,16 +3770,16 @@ for
 c
 sl
 in
-iterstatements
-(
 s
-)
 :
                 
 for
 s2
 in
+iterstatements
+(
 sl
+)
 :
 yield
 s2

@@ -966,17 +966,6 @@ mk
 (
 NULL
 )
-REQUIRES
-+
-=
-\
-rdf
-\
-rdfutil
-\
-(
-NULL
-)
 CPPSRCS
 +
 =

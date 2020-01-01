@@ -463,10 +463,6 @@ CPPSRCS
 nsDownloadScanner
 .
 cpp
-REQUIRES
-+
-=
-xulapp
 endif
 endif
 #

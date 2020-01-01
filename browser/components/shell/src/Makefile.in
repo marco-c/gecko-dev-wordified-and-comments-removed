@@ -475,17 +475,6 @@ CPPSRCS
 nsGNOMEShellService
 .
 cpp
-REQUIRES
-+
-=
-\
-mozgnome
-\
-thebes
-\
-(
-NULL
-)
 endif
 endif
 endif

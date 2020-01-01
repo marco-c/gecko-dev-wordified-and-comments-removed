@@ -640,10 +640,6 @@ src
 (
 NULL
 )
-REQUIRES
-+
-=
-parentalcontrols
 endif
 endif
 ifdef
