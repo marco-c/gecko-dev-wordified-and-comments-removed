@@ -43,8 +43,6 @@ mozilla
 .
 org
 /
-en
-/
 Security
 /
 MixedContent

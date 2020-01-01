@@ -159,10 +159,6 @@ mozilla
 .
 org
 /
-en
--
-US
-/
 docs
 /
 Security
