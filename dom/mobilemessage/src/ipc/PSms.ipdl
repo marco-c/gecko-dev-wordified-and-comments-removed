@@ -200,7 +200,9 @@ struct
 DeleteMessageRequest
 {
 int32_t
-messageId
+[
+]
+messageIds
 ;
 }
 ;
