@@ -456,6 +456,8 @@ CPPSRCS
 crashinjectdll
 .
 cpp
+MOZ_UTILS_LDFLAGS
+=
 include
 (
 topsrcdir

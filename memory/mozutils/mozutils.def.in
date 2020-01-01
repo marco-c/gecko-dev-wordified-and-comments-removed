@@ -379,10 +379,13 @@ BLOCK
 *
 *
 LIBRARY
-jemalloc
+mozutils
 .
 dll
 EXPORTS
+#
+ifdef
+MOZ_MEMORY
 ;
 symbols
 that
@@ -449,3 +452,5 @@ in
 frex
 =
 je_dumb_free_thunk
+#
+endif

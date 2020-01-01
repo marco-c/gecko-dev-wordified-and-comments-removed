@@ -483,15 +483,6 @@ NULL
 )
 ifndef
 LIBXUL_SDK
-ifdef
-MOZ_MEMORY
-tier_base_dirs
-+
-=
-memory
-/
-jemalloc
-endif
 ifeq
 (
 (
@@ -512,8 +503,6 @@ tier_base_dirs
 +
 =
 memory
-/
-mozalloc
 endif
 ifdef
 COMPILE_ENVIRONMENT
