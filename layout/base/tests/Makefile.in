@@ -837,6 +837,10 @@ bug851445_helper
 .
 html
 \
+test_emulateMedium
+.
+html
+\
 (
 NULL
 )
