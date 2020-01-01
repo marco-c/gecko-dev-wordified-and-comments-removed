@@ -685,6 +685,12 @@ xpcomglue_s
 LIB_SUFFIX
 )
 endif
+LIBS
++
+=
+(
+XPCOM_LIBS
+)
 #
 Needed
 to
