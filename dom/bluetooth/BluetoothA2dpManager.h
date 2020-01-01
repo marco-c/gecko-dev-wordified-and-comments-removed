@@ -94,6 +94,13 @@ Cleanup
 (
 )
 ;
+void
+HandleSinkStateChanged
+(
+SinkState
+aState
+)
+;
 bool
 mConnected
 ;
