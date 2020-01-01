@@ -33,7 +33,7 @@ stopPropagation
 ;
 }
 let
-onPopupShowing
+onPopupShown
 =
 function
 (
@@ -201,9 +201,9 @@ document
 removeEventListener
 (
 "
-popupshowing
+popupshown
 "
-onPopupShowing
+onPopupShown
 true
 )
 ;
@@ -352,7 +352,7 @@ addEventListener
 "
 popupshown
 "
-onPopupShowing
+onPopupShown
 true
 )
 ;
