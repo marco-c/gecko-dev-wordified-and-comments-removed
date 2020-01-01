@@ -50,7 +50,7 @@ NPError
 NP_InitializeFunc
 )
 (
-NPNetcapeFuncs
+NPNetscapeFuncs
 *
 NPPluginFuncs
 *
