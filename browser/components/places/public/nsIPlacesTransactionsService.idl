@@ -1375,7 +1375,7 @@ newTitle
 *
 Transaction
 for
-editting
+editing
 a
 bookmark
 '
@@ -1475,7 +1475,7 @@ aLoadInSidebar
 *
 Transaction
 for
-editting
+editing
 a
 the
 description
@@ -1526,7 +1526,7 @@ aDescription
 *
 Transaction
 for
-editting
+editing
 a
 bookmark
 '
@@ -1577,7 +1577,7 @@ newKeyword
 *
 Transaction
 for
-editting
+editing
 the
 post
 data
@@ -1622,7 +1622,7 @@ aPostData
 *
 Transaction
 for
-editting
+editing
 a
 live
 bookmark
@@ -1720,7 +1720,7 @@ uri
 *
 Transaction
 for
-editting
+editing
 a
 bookmark
 '
