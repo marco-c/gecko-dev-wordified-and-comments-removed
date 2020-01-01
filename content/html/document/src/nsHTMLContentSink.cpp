@@ -757,7 +757,7 @@ void
 NS_IMETHOD
 SetParser
 (
-nsIParser
+nsParserBase
 *
 aParser
 )
@@ -6761,7 +6761,7 @@ HTMLContentSink
 :
 SetParser
 (
-nsIParser
+nsParserBase
 *
 aParser
 )

@@ -318,7 +318,7 @@ NS_OK
 NS_IMETHOD
 SetParser
 (
-nsIParser
+nsParserBase
 *
 aParser
 )

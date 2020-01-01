@@ -499,6 +499,10 @@ nsParserConstants
 .
 h
 \
+nsParserBase
+.
+h
+\
 (
 NULL
 )

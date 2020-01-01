@@ -540,6 +540,10 @@ nsHtml5ViewSourceUtils
 .
 h
 \
+nsHtml5StringParser
+.
+h
+\
 (
 NULL
 )
@@ -663,6 +667,10 @@ nsHtml5Highlighter
 cpp
 \
 nsHtml5ViewSourceUtils
+.
+cpp
+\
+nsHtml5StringParser
 .
 cpp
 \

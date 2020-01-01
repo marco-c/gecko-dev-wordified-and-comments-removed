@@ -486,12 +486,6 @@ CancelParsingEvents
 ;
 virtual
 bool
-CanInterrupt
-(
-)
-;
-virtual
-bool
 IsInsertionPointDefined
 (
 )

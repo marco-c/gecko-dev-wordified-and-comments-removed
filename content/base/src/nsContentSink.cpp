@@ -5434,15 +5434,6 @@ mCanInterruptParser
 |
 !
 mParser
-|
-|
-!
-mParser
--
->
-CanInterrupt
-(
-)
 )
 {
 return
@@ -5840,9 +5831,9 @@ mParser
 return
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
-nsIParser
+nsParserBase
 >
 kungFuDeathGrip
 (

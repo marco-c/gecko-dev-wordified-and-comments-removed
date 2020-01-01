@@ -132,7 +132,7 @@ void
 NS_IMETHOD
 SetParser
 (
-nsIParser
+nsParserBase
 *
 aParser
 )
@@ -482,7 +482,7 @@ nsXULPrototypeDocument
 >
 mPrototype
 ;
-nsIParser
+nsParserBase
 *
 mParser
 ;
