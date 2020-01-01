@@ -27,6 +27,16 @@ typedarray
 prototype
 .
 js
+script
+typedarray
+-
+subarray
+-
+of
+-
+subarray
+.
+js
 skip
 -
 if
