@@ -889,6 +889,13 @@ shape
 )
 const
 ;
+inline
+uint32
+shapeUnchecked
+(
+)
+const
+;
 bool
 isDelegate
 (

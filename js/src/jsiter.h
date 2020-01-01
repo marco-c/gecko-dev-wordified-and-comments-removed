@@ -104,6 +104,10 @@ enumerable
 properties
 *
 /
+#
+define
+JSITER_ACTIVE
+0x1000
 struct
 NativeIterator
 {
@@ -133,7 +137,7 @@ shapes_length
 uint32
 shapes_key
 ;
-uintN
+uint32
 flags
 ;
 JSObject
@@ -435,8 +439,6 @@ allocateValueIterator
 JSContext
 *
 cx
-uint32
-slength
 const
 js
 :
@@ -454,10 +456,6 @@ JSObject
 obj
 uintN
 flags
-const
-uint32
-*
-sarray
 uint32
 slength
 uint32
