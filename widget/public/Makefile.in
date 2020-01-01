@@ -489,7 +489,7 @@ cocoa
 EXPORTS
 +
 =
-nsIMenuBar
+nsINativeMenuService
 .
 h
 endif
