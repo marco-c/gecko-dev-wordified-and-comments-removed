@@ -1864,13 +1864,13 @@ self
 srcdir
 :
                 
-file
+abs_file
 =
 os
 .
 path
 .
-normpath
+abspath
 (
 file
 )
@@ -1878,7 +1878,7 @@ file
 if
 IsInDir
 (
-file
+abs_file
 self
 .
 srcdir
@@ -1887,7 +1887,7 @@ srcdir
                     
 file
 =
-file
+abs_file
 [
 len
 (
