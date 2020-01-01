@@ -564,14 +564,6 @@ nsIDOMRange
 aRange
 )
 ;
-nsresult
-Init
-(
-nsIDOMNode
-*
-aNode
-)
-;
 }
 ;
 class
