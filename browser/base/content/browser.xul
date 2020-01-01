@@ -2279,16 +2279,6 @@ type
 "
 arrow
 "
-hidden
-=
-"
-true
-"
-noautofocus
-=
-"
-true
-"
 >
 <
 browser
