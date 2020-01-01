@@ -2662,6 +2662,13 @@ Touch
 touches
 )
 ;
+[
+ChromeOnly
+]
+attribute
+boolean
+styleSheetChangeEventsEnabled
+;
 }
 ;
 Document
