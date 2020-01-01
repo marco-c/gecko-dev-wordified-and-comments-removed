@@ -122,6 +122,14 @@ void
 )
 SQLITE_WRAPPER
 (
+sqlite3_bind_null
+int
+sqlite3_stmt
+*
+int
+)
+SQLITE_WRAPPER
+(
 sqlite3_step
 int
 sqlite3_stmt
