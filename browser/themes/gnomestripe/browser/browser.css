@@ -14479,11 +14479,9 @@ identity
 -
 box
 {
-background
--
-color
+cursor
 :
-ThreeDFace
+help
 ;
 %
 ifdef
@@ -14586,6 +14584,10 @@ padding
 margin
 :
 0
+;
+cursor
+:
+inherit
 ;
 }
 .
