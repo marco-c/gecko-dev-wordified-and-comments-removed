@@ -116,6 +116,8 @@ multinit
 \
 ocspclnt
 \
+ocspresp
+\
 oidcalc
 \
 p7content

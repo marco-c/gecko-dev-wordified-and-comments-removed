@@ -397,8 +397,6 @@ RESNAME
 freebl
 .
 rc
-ifndef
-WINCE
 ifdef
 NS_USE_GCC
 OS_LIBS
@@ -413,7 +411,6 @@ OS_LIBS
 shell32
 .
 lib
-endif
 endif
 ifdef
 NS_USE_GCC

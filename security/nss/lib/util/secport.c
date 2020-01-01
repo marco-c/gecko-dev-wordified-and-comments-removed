@@ -2337,14 +2337,6 @@ char
 envValue
 )
 {
-#
-ifdef
-_WIN32_WCE
-return
-SECFailure
-;
-#
-else
 SECStatus
 result
 =
@@ -2451,8 +2443,6 @@ encoded
 return
 result
 ;
-#
-endif
 }
 int
 NSS_SecureMemcmp

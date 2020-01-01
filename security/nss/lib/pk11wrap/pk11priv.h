@@ -111,6 +111,8 @@ list
 PK11SlotInfo
 *
 slot
+PRBool
+sorted
 )
 ;
 SECStatus
@@ -281,11 +283,15 @@ PK11_DoPassword
 PK11SlotInfo
 *
 slot
+CK_SESSION_HANDLE
+session
 PRBool
 loadCerts
 void
 *
 wincx
+PRBool
+alreadyLocked
 PRBool
 contextSpecific
 )
@@ -600,6 +606,8 @@ CK_OBJECT_HANDLE
 id
 CK_ATTRIBUTE_TYPE
 type
+PRBool
+haslock
 )
 ;
 CK_RV
