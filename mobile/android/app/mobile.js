@@ -6887,6 +6887,8 @@ pref
 accessibility
 .
 accessfu
+.
+activate
 "
 2
 )
