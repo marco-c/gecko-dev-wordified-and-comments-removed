@@ -7051,6 +7051,10 @@ mDatabase
 =
 nsnull
 ;
+mDatabaseId
+=
+nsnull
+;
 HelperBase
 :
 :
