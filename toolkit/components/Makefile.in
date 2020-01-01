@@ -686,6 +686,12 @@ DIRS
 autocomplete
 /
 public
+DIRS
++
+=
+downloads
+/
+public
 endif
 include
 (
