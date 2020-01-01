@@ -165,7 +165,7 @@ GetAreaCollection
 ;
 already_AddRefed
 <
-nsAccessible
+nsIAccessible
 >
 GetAreaAccessible
 (

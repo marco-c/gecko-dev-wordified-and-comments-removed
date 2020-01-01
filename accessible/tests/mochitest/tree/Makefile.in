@@ -447,10 +447,6 @@ mk
 _TEST_FILES
 =
 \
-test_aria_imagemap
-.
-html
-\
 test_button
 .
 xul

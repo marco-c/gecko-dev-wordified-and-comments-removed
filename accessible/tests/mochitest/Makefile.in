@@ -450,10 +450,6 @@ mk
 _TEST_FILES
 =
 \
-formimage
-.
-png
-\
 letters
 .
 gif
