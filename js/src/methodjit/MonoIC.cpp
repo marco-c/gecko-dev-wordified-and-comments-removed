@@ -383,6 +383,9 @@ obj
 >
 nativeLookup
 (
+f
+.
+cx
 id
 )
 ;
@@ -1924,6 +1927,9 @@ obj
 >
 nativeLookup
 (
+f
+.
+cx
 ATOM_TO_JSID
 (
 atom

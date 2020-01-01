@@ -308,6 +308,17 @@ inl
 h
 "
 #
+include
+"
+vm
+/
+CallObject
+-
+inl
+.
+h
+"
+#
 ifdef
 MOZ_VALGRIND
 #
@@ -11178,7 +11189,6 @@ markAllIteratively
 (
 &
 gcmarker
-gckind
 )
 )
 {

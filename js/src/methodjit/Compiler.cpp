@@ -1350,6 +1350,7 @@ analysis
 >
 typeBarriers
 (
+cx
 pc
 )
 !
@@ -33354,6 +33355,7 @@ globalObj
 >
 nativeLookup
 (
+cx
 ATOM_TO_JSID
 (
 atom
@@ -34477,6 +34479,7 @@ globalObj
 >
 nativeLookup
 (
+cx
 ATOM_TO_JSID
 (
 atom
@@ -40462,6 +40465,7 @@ analysis
 >
 typeBarriers
 (
+cx
 pc
 )
 !
