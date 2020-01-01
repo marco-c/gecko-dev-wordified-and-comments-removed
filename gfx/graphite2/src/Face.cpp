@@ -5,6 +5,11 @@ cstring
 >
 #
 include
+<
+algorithm
+>
+#
+include
 "
 graphite2
 /
