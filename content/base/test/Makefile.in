@@ -2157,6 +2157,10 @@ test_treewalker_nextsibling
 .
 xml
 \
+test_bug614058
+.
+html
+\
 (
 NULL
 )
