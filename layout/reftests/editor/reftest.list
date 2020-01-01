@@ -830,12 +830,6 @@ nobogusnode
 ref
 .
 html
-fails
--
-if
-(
-Android
-)
 =
 =
 spellcheck
