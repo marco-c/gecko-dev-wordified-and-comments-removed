@@ -19,6 +19,13 @@ jswrapper
 .
 h
 "
+#
+include
+"
+jsobjinlines
+.
+h
+"
 struct
 OuterWrapper
 :

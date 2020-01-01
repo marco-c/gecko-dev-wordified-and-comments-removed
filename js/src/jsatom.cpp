@@ -1619,9 +1619,6 @@ rt
 trc
 -
 >
-context
--
->
 runtime
 ;
 JSAtomState
@@ -1694,7 +1691,7 @@ number
 +
 )
 ;
-MarkString
+MarkAtom
 (
 trc
 r
@@ -1774,7 +1771,7 @@ number
 +
 )
 ;
-MarkString
+MarkAtom
 (
 trc
 entry

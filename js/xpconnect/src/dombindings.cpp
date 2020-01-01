@@ -3403,11 +3403,10 @@ expando
 )
 )
 ;
-expando
--
->
-setPrivate
+JS_SetPrivate
 (
+cx
+expando
 js
 :
 :

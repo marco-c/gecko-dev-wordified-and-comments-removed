@@ -11,6 +11,14 @@ JS_METHODJIT
 define
 jsjaeger_h__
 #
+ifdef
+JSGC_INCREMENTAL
+#
+define
+JSGC_INCREMENTAL_MJ
+#
+endif
+#
 include
 "
 jscntxt
@@ -2507,8 +2515,7 @@ jsbytecode
 *
 parentpc
 ;
-JSFunction
-*
+HeapPtrFunction
 fun
 ;
 uint32

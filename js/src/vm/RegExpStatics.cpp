@@ -14,6 +14,17 @@ jsobjinlines
 .
 h
 "
+#
+include
+"
+vm
+/
+RegExpStatics
+-
+inl
+.
+h
+"
 using
 namespace
 js
@@ -200,7 +211,7 @@ NULL
 obj
 -
 >
-setPrivate
+initPrivate
 (
 static_cast
 <

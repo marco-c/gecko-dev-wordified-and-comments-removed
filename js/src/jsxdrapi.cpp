@@ -3725,8 +3725,6 @@ compileAndGo
 script
 -
 >
-u
-.
 globalObject
 =
 GetCurrentGlobal

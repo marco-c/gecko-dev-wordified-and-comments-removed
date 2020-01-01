@@ -356,13 +356,12 @@ parent
 NULL
 )
 {
-context
-=
+JS_TRACER_INIT
+(
+this
 cx
-;
-callback
-=
 traverseEdgeWithThis
+)
 ;
 }
 bool

@@ -133,16 +133,6 @@ struct
 JSXML
 JSXML
 ;
-typedef
-struct
-JSXMLArray
-JSXMLArray
-;
-typedef
-struct
-JSXMLArrayCursor
-JSXMLArrayCursor
-;
 #
 ifdef
 __cplusplus
@@ -185,6 +175,9 @@ js
 {
 struct
 ArgumentsData
+;
+struct
+FlatClosureData
 ;
 struct
 Class

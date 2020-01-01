@@ -3095,10 +3095,11 @@ rangeCheck
 =
 guardArrayExtent
 (
-offsetof
-(
 JSObject
-initializedLength
+:
+:
+offsetOfInitializedLength
+(
 )
 objReg
 key
@@ -6076,11 +6077,10 @@ FINALIZE_OBJECT0
 &
 allocKind
 <
-=
 gc
 :
 :
-FINALIZE_OBJECT_LAST
+FINALIZE_OBJECT_LIMIT
 )
 ;
 int
@@ -6239,6 +6239,8 @@ templateObject
 -
 >
 initializedLength
+(
+)
 )
 ;
 addPtr

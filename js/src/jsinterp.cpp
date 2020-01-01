@@ -1663,7 +1663,7 @@ trc
 obj
 -
 >
-getSlot
+getSlotRef
 (
 JSSLOT_FOUND_FUNCTION
 )
@@ -1682,7 +1682,7 @@ trc
 obj
 -
 >
-getSlot
+getSlotRef
 (
 JSSLOT_SAVED_ID
 )

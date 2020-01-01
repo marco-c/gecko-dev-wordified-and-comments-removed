@@ -35,6 +35,13 @@ h
 #
 include
 "
+jsobjinlines
+.
+h
+"
+#
+include
+"
 jsfuninlines
 .
 h
