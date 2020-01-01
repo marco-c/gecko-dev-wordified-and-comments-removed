@@ -665,8 +665,10 @@ null
 *
 /
 extern
+already_AddRefed
+<
 nsIAtom
-*
+>
 NS_NewAtom
 (
 const
@@ -718,8 +720,10 @@ null
 *
 /
 extern
+already_AddRefed
+<
 nsIAtom
-*
+>
 NS_NewAtom
 (
 const
@@ -781,8 +785,10 @@ null
 *
 /
 extern
+already_AddRefed
+<
 nsIAtom
-*
+>
 NS_NewAtom
 (
 const
@@ -834,8 +840,10 @@ null
 *
 /
 extern
+already_AddRefed
+<
 nsIAtom
-*
+>
 NS_NewAtom
 (
 const

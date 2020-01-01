@@ -5050,6 +5050,10 @@ nameStart
 pos
 )
 )
+.
+get
+(
+)
 ;
 return
 nameSpaceURI

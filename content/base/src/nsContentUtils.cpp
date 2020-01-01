@@ -11493,6 +11493,10 @@ colon
 end
 )
 )
+.
+get
+(
+)
 ;
 }
 else
@@ -11508,6 +11512,10 @@ aLocalName
 NS_NewAtom
 (
 aQName
+)
+.
+get
+(
 )
 ;
 }
@@ -11868,6 +11876,10 @@ prefixStart
 pos
 )
 )
+.
+get
+(
+)
 ;
 }
 else
@@ -11914,6 +11926,10 @@ Substring
 nameStart
 nameEnd
 )
+)
+.
+get
+(
 )
 ;
 }

@@ -1332,6 +1332,10 @@ NS_NewAtom
 (
 langGroup
 )
+.
+get
+(
+)
 ;
 }
 return

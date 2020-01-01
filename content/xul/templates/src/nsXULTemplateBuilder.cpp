@@ -8205,6 +8205,10 @@ NS_NewAtom
 (
 tag
 )
+.
+get
+(
+)
 ;
 }
 }

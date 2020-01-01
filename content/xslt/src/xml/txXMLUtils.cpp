@@ -367,6 +367,10 @@ prefixStart
 pos
 )
 )
+.
+get
+(
+)
 ;
 if
 (
@@ -424,6 +428,10 @@ Substring
 nameStart
 nameEnd
 )
+)
+.
+get
+(
 )
 ;
 return
@@ -525,6 +533,10 @@ get
 colon
 )
 )
+.
+get
+(
+)
 ;
 *
 aLocalName
@@ -538,6 +550,10 @@ colon
 1
 end
 )
+)
+.
+get
+(
 )
 ;
 }
@@ -554,6 +570,10 @@ aLocalName
 NS_NewAtom
 (
 aName
+)
+.
+get
+(
 )
 ;
 }
