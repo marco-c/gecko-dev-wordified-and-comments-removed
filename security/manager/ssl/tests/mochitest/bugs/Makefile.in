@@ -68,11 +68,7 @@ VPATH
 srcdir
 relativesrcdir
 =
-security
-/
-ssl
-/
-bugs
+relativesrcdir
 include
 (
 DEPTH

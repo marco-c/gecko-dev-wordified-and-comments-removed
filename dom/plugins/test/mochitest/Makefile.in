@@ -68,11 +68,7 @@ VPATH
 srcdir
 relativesrcdir
 =
-dom
-/
-plugins
-/
-test
+relativesrcdir
 include
 (
 DEPTH
