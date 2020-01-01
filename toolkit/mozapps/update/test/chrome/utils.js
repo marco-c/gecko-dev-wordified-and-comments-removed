@@ -3027,6 +3027,16 @@ appDisabled
 aAddon
 .
 userDisabled
+&
+&
+aAddon
+.
+scope
+!
+=
+AddonManager
+.
+SCOPE_APPLICATION
 )
 {
 disabledAddons
