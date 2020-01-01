@@ -12761,6 +12761,10 @@ MNewArray
 (
 count
 type
+MNewArray
+:
+:
+NewArray_Allocating
 )
 ;
 current
