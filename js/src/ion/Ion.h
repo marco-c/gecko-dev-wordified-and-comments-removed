@@ -128,6 +128,9 @@ double
 usesBeforeInliningFactor
 ;
 uint32_t
+osrPcMismatchesBeforeRecompile
+;
+uint32_t
 maxStackArgs
 ;
 uint32_t
@@ -252,6 +255,10 @@ usesBeforeInliningFactor
 (
 .
 125
+)
+osrPcMismatchesBeforeRecompile
+(
+6000
 )
 maxStackArgs
 (
