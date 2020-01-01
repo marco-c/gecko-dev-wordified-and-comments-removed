@@ -16870,9 +16870,15 @@ location
 )
 )
 ;
-NS_ENSURE_SUCCESS
+NS_ENSURE_TRUE
+(
+NS_SUCCEEDED
 (
 rv
+)
+&
+&
+location
 rv
 )
 ;
