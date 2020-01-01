@@ -1037,13 +1037,6 @@ return
 rv
 ;
 }
-inDOMView
-:
-:
-InitAtoms
-(
-)
-;
 #
 endif
 nsMathMLOperators
