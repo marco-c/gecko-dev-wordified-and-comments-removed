@@ -678,15 +678,6 @@ nsAString
 aVersion
 )
 ;
-static
-void
-GetFontCacheSize
-(
-nsAString
-&
-aSize
-)
-;
 virtual
 void
 FontsPrefsChanged
