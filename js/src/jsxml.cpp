@@ -9324,7 +9324,7 @@ v
 )
 &
 &
-js_ValueToECMAUint32
+JS_ValueToECMAUint32
 (
 cx
 v
@@ -16723,7 +16723,7 @@ JS_CHECK_RECURSION
 (
 cx
 return
-JS_FALSE
+NULL
 )
 ;
 copy
@@ -26768,7 +26768,7 @@ else
 {
 ok
 =
-js_ValueToNumber
+JS_ValueToNumber
 (
 cx
 STRING_TO_JSVAL
@@ -28554,7 +28554,7 @@ n
 )
 ;
 return
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 i
@@ -30994,7 +30994,7 @@ else
 if
 (
 !
-js_NewNumberValue
+js_NewNumberInRootedValue
 (
 cx
 xml

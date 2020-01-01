@@ -19237,7 +19237,7 @@ REGEXP_LAST_INDEX
 if
 (
 !
-js_ValueToNumber
+JS_ValueToNumber
 (
 cx
 *
@@ -19258,7 +19258,7 @@ lastIndex
 ;
 ok
 =
-js_NewNumberValue
+JS_NewNumberValue
 (
 cx
 lastIndex
@@ -22675,7 +22675,7 @@ v
 )
 &
 &
-js_ValueToNumber
+JS_ValueToNumber
 (
 cx
 v
@@ -22700,7 +22700,7 @@ jsval
 v
 ;
 return
-js_NewNumberValue
+JS_NewNumberValue
 (
 cx
 lastIndex

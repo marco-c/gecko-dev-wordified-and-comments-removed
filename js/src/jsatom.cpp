@@ -2530,7 +2530,7 @@ cx
 ;
 key
 =
-js_NewDouble
+js_NewWeaklyRootedDouble
 (
 cx
 d

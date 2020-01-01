@@ -27081,7 +27081,7 @@ d
 if
 (
 !
-js_ValueToNumber
+JS_ValueToNumber
 (
 cx
 ATOM_KEY
@@ -27655,6 +27655,9 @@ uint32
 i
 j
 ;
+JSTempValueRooter
+tvr
+;
 JS_ASSERT
 (
 pn
@@ -28158,6 +28161,14 @@ if
 accum
 )
 {
+JS_PUSH_TEMP_ROOT_STRING
+(
+cx
+accum
+&
+tvr
+)
+;
 str
 =
 (
@@ -28196,6 +28207,13 @@ js_ConcatStrings
 cx
 accum
 str
+)
+;
+JS_POP_TEMP_ROOT
+(
+cx
+&
+tvr
 )
 ;
 if
