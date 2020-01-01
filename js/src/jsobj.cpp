@@ -5536,7 +5536,7 @@ getParent
 obj
 -
 >
-getAllocKind
+numFixedSlots
 (
 )
 obj
@@ -9764,7 +9764,7 @@ getParent
 b
 -
 >
-getAllocKind
+numFixedSlots
 (
 )
 )
@@ -9828,7 +9828,7 @@ getParent
 a
 -
 >
-getAllocKind
+numFixedSlots
 (
 )
 )
