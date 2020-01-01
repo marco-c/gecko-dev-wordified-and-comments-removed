@@ -1499,6 +1499,11 @@ parent
 .
 childCount
 ;
+asContainer
+(
+parent
+)
+;
 for
 (
 var
@@ -1511,10 +1516,7 @@ i
 cc
 &
 &
-asContainer
-(
 parent
-)
 .
 getChild
 (
