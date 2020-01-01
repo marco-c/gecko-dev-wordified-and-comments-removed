@@ -9955,17 +9955,6 @@ target
 ;
 if
 (
-!
-SelectionHelper
-.
-showPopup
-(
-contextMenu
-)
-)
-{
-if
-(
 ContextHelper
 .
 showPopup
@@ -10004,7 +9993,6 @@ dispatchEvent
 event
 )
 ;
-}
 }
 break
 ;
