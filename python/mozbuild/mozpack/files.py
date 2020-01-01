@@ -1896,6 +1896,9 @@ __init__
 (
 self
 base
+entries
+=
+None
 )
 :
         
@@ -1903,6 +1906,10 @@ self
 .
 _entries
 =
+entries
+if
+entries
+else
 [
 ]
         
