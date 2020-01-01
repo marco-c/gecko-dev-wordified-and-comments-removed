@@ -137,13 +137,6 @@ NS_LogTerm
 (
 )
 ;
-ChildThread
-:
-:
-CleanUp
-(
-)
-;
 }
 static
 const

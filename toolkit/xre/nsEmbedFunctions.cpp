@@ -1681,7 +1681,7 @@ if
 env
 -
 >
-DefineSendCommand
+DefineIPCCommands
 (
 &
 testShellParent
