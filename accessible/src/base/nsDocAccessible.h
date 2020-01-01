@@ -466,6 +466,14 @@ PRBool
 aForceIsFromUserInput
 )
 ;
+void
+FireValueChangeForTextFields
+(
+nsIAccessible
+*
+aPossibleTextFieldAccessible
+)
+;
 nsAccessNodeHashtable
 mAccessNodeCache
 ;
