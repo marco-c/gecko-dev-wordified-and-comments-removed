@@ -531,14 +531,6 @@ xul_selectcontrol
 .
 js
 \
-test_hiddenitems
-.
-xul
-\
-test_hiddenpaging
-.
-xul
-\
 (
 NULL
 )
