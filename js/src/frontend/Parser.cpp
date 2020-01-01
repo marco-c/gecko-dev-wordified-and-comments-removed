@@ -2065,10 +2065,6 @@ traceLink
 (
 traceLink
 )
-emitLink
-(
-NULL
-)
 object
 (
 obj

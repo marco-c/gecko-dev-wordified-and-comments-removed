@@ -9028,6 +9028,8 @@ bce
 objectList
 .
 length
+(
+)
 <
 =
 INDEX_LIMIT
@@ -9041,6 +9043,8 @@ bce
 regexpList
 .
 length
+(
+)
 <
 =
 INDEX_LIMIT
@@ -9105,12 +9109,16 @@ bce
 objectList
 .
 length
+(
+)
 bce
 -
 >
 regexpList
 .
 length
+(
+)
 bce
 -
 >
@@ -9398,6 +9406,8 @@ bce
 objectList
 .
 length
+(
+)
 !
 =
 0
@@ -9425,6 +9435,8 @@ bce
 regexpList
 .
 length
+(
+)
 !
 =
 0

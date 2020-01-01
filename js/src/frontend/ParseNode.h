@@ -4883,10 +4883,6 @@ ObjectBox
 *
 traceLink
 ;
-ObjectBox
-*
-emitLink
-;
 JSObject
 *
 object
