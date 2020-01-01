@@ -3192,12 +3192,6 @@ args
 throws
 Throwable
 {
-GeckoApp
-.
-assertOnUiThread
-(
-)
-;
 Object
 ret
 =
