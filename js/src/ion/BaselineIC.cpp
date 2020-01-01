@@ -18405,7 +18405,7 @@ if
 obj
 -
 >
-isExtensible
+nonProxyIsExtensible
 (
 )
 |

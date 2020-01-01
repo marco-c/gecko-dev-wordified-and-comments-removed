@@ -2498,7 +2498,7 @@ extra
 if
 (
 !
-isExtensible
+nonProxyIsExtensible
 (
 )
 |
