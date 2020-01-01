@@ -1877,6 +1877,9 @@ LIR_i2f
 case
 LIR_u2f
 :
+case
+LIR_mod
+:
 return
 true
 ;
@@ -1947,6 +1950,9 @@ LIR_sub
 :
 case
 LIR_mul
+:
+case
+LIR_div
 :
 case
 LIR_and
@@ -3662,6 +3668,17 @@ c2
 ;
 goto
 fold
+;
+case
+LIR_div
+:
+case
+LIR_mod
+:
+NanoAssert
+(
+0
+)
 ;
 default
 :
@@ -10295,6 +10312,9 @@ LIR_cs
 case
 LIR_not
 :
+case
+LIR_mod
+:
 sprintf
 (
 s
@@ -10362,6 +10382,9 @@ LIR_sub
 :
 case
 LIR_mul
+:
+case
+LIR_div
 :
 case
 LIR_fadd

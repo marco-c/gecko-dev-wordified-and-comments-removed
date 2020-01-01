@@ -346,7 +346,7 @@ return
 op
 >
 =
-LIR_ldcs
+LIR_int
 &
 &
 op
