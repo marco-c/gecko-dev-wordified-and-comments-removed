@@ -3632,10 +3632,6 @@ behavior
 !
 =
 eStringify
-|
-|
-!
-pval
 )
 {
 if
