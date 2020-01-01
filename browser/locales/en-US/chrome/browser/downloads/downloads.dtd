@@ -240,7 +240,7 @@ NOTE
 (
 downloadsSummary
 .
-minWidth
+minWidth2
 )
 :
 Minimum
@@ -288,7 +288,7 @@ to
 look
 at
 the
-otherDownloads
+otherDownloads2
 string
 in
 downloads
@@ -316,12 +316,11 @@ limit
 +
 999
 other
-current
 downloads
 that
 '
 s
-28
+21
 characters
 so
 we
@@ -330,7 +329,7 @@ the
 minimum
 width
 to
-28ch
+21ch
 .
 -
 -
@@ -340,9 +339,9 @@ to
 ENTITY
 downloadsSummary
 .
-minWidth
+minWidth2
 "
-28ch
+21ch
 "
 >
 <

@@ -253,7 +253,7 @@ const
 kDownloadsStringsRequiringPluralForm
 =
 {
-otherDownloads
+otherDownloads2
 :
 true
 }
@@ -5324,7 +5324,7 @@ DownloadsCommon
 .
 strings
 .
-otherDownloads
+otherDownloads2
 (
 summary
 .
