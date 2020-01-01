@@ -300,4 +300,17 @@ _
 )
 ;
 }
+public
+static
+String
+getMangledPackageName
+(
+)
+{
+return
+"
+MANGLED_ANDROID_PACKAGE_NAME
+"
+;
+}
 }
