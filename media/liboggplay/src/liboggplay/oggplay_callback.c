@@ -2291,6 +2291,15 @@ sizeof
 OggPlayDecode
 )
 }
+{
+NULL
+NULL
+NULL
+sizeof
+(
+OggPlayDecode
+)
+}
 }
 ;
 OggPlayDecode

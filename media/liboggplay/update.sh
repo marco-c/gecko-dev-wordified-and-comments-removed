@@ -820,3 +820,10 @@ p3
 trac466
 .
 patch
+patch
+-
+p3
+<
+bug492436
+.
+patch
