@@ -21110,6 +21110,12 @@ _initialized
 return
 ;
 }
+this
+.
+_initialized
+=
+true
+;
 Services
 .
 obs
