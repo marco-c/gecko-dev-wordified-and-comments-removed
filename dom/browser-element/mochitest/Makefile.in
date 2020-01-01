@@ -341,6 +341,14 @@ browserElement_BackForward
 .
 js
 \
+browserElement_ContextmenuEvents
+.
+js
+\
+test_browserElement_inproc_ContextmenuEvents
+.
+html
+\
 (
 NULL
 )
@@ -456,6 +464,10 @@ test_browserElement_oop_SecurityChange
 html
 \
 test_browserElement_oop_BackForward
+.
+html
+\
+test_browserElement_oop_ContextmenuEvents
 .
 html
 \
