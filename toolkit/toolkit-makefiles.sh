@@ -4977,13 +4977,6 @@ toolkit
 /
 profile
 /
-skin
-/
-Makefile
-toolkit
-/
-profile
-/
 src
 /
 Makefile
