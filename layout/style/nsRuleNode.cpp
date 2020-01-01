@@ -16727,7 +16727,7 @@ SETCOORD_LPH
 SETCOORD_INITIAL_HALF
 aContext
 mPresContext
-aInherited
+inherited
 )
 ;
 NS_ASSERTION
@@ -16822,7 +16822,7 @@ SETCOORD_LPH
 SETCOORD_INITIAL_HALF
 aContext
 mPresContext
-aInherited
+inherited
 )
 ;
 NS_ASSERTION
