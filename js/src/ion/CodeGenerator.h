@@ -1492,6 +1492,14 @@ lir
 )
 ;
 bool
+visitRest
+(
+LRest
+*
+lir
+)
+;
+bool
 visitCallSetProperty
 (
 LCallSetProperty

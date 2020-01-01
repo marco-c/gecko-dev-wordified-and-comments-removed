@@ -988,6 +988,11 @@ GetArgument
 \
 _
 (
+Rest
+)
+\
+_
+(
 TypeOfV
 )
 \

@@ -1413,6 +1413,14 @@ ins
 )
 ;
 bool
+visitRest
+(
+MRest
+*
+ins
+)
+;
+bool
 visitThrow
 (
 MThrow

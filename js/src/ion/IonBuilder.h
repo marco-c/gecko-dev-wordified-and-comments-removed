@@ -1841,6 +1841,11 @@ value
 )
 ;
 bool
+jsop_rest
+(
+)
+;
+bool
 jsop_not
 (
 )
