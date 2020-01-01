@@ -30899,16 +30899,6 @@ function
 event
 )
 {
-if
-(
-event
-.
-button
-=
-=
-0
-)
-{
 displaySecurityInfo
 (
 )
@@ -30919,7 +30909,6 @@ stopPropagation
 (
 )
 ;
-}
 }
 getIdentityData
 :
