@@ -1160,6 +1160,13 @@ onload
 function
 (
 )
+{
+if
+(
+aTab
+.
+thumbnail
+)
 aTab
 .
 thumbnail
@@ -1177,6 +1184,8 @@ thumbnailImg
 0
 0
 )
+;
+}
 ;
 thumbnailImg
 .

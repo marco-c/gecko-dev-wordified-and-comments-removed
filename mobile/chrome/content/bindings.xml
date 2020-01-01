@@ -4925,6 +4925,12 @@ function
 (
 )
 {
+if
+(
+self
+.
+control
+)
 self
 .
 control
