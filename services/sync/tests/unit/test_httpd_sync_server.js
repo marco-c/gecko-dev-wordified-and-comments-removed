@@ -43,7 +43,7 @@ test_creation
 )
 {
 let
-s
+server
 =
 new
 SyncServer
@@ -59,10 +59,10 @@ do_check_true
 (
 !
 !
-s
+server
 )
 ;
-s
+server
 .
 start
 (
@@ -78,12 +78,12 @@ Started
 on
 "
 +
-s
+server
 .
 port
 )
 ;
-s
+server
 .
 stop
 (
@@ -104,7 +104,7 @@ test_url_parsing
 )
 {
 let
-s
+server
 =
 new
 SyncServer
@@ -114,7 +114,7 @@ SyncServer
 let
 parts
 =
-s
+server
 .
 pathRE
 .
@@ -205,7 +205,7 @@ keys
 do_check_eq
 (
 null
-s
+server
 .
 pathRE
 .
@@ -222,7 +222,7 @@ else
 ;
 parts
 =
-s
+server
 .
 pathRE
 .
@@ -306,7 +306,7 @@ crypto
 ;
 parts
 =
-s
+server
 .
 pathRE
 .
@@ -333,7 +333,7 @@ undefined
 ;
 parts
 =
-s
+server
 .
 pathRE
 .
@@ -411,7 +411,7 @@ undefined
 ;
 parts
 =
-s
+server
 .
 storageRE
 .
@@ -535,14 +535,14 @@ test_basic_http
 )
 {
 let
-s
+server
 =
 new
 SyncServer
 (
 )
 ;
-s
+server
 .
 registerUser
 (
@@ -556,7 +556,7 @@ password
 ;
 do_check_true
 (
-s
+server
 .
 userExists
 (
@@ -566,7 +566,7 @@ john
 )
 )
 ;
-s
+server
 .
 start
 (
@@ -582,14 +582,14 @@ Started
 on
 "
 +
-s
+server
 .
 port
 )
 ;
 do_check_eq
 (
-s
+server
 .
 port
 8080
@@ -657,7 +657,7 @@ function
 (
 )
 {
-s
+server
 .
 stop
 (
@@ -687,7 +687,7 @@ test_info_collections
 )
 {
 let
-s
+server
 =
 new
 SyncServer
@@ -748,7 +748,7 @@ headers
 )
 ;
 }
-s
+server
 .
 registerUser
 (
@@ -760,7 +760,7 @@ password
 "
 )
 ;
-s
+server
 .
 start
 (
@@ -771,7 +771,7 @@ function
 {
 do_check_eq
 (
-s
+server
 .
 port
 8080
@@ -935,7 +935,7 @@ response
 let
 expectedColl
 =
-s
+server
 .
 getCollection
 (
@@ -999,7 +999,7 @@ function
 (
 )
 {
-s
+server
 .
 stop
 (
@@ -1130,7 +1130,7 @@ storage
 "
 ;
 let
-s
+server
 =
 new
 SyncServer
@@ -1140,13 +1140,13 @@ SyncServer
 let
 creation
 =
-s
+server
 .
 timestamp
 (
 )
 ;
-s
+server
 .
 registerUser
 (
@@ -1158,7 +1158,7 @@ password
 "
 )
 ;
-s
+server
 .
 createContents
 (
@@ -1185,7 +1185,7 @@ bar
 let
 coll
 =
-s
+server
 .
 user
 (
@@ -1462,7 +1462,7 @@ storage
 let
 now
 =
-s
+server
 .
 timestamp
 (
@@ -1547,7 +1547,7 @@ now
 ;
 do_check_empty
 (
-s
+server
 .
 users
 [
@@ -1645,7 +1645,7 @@ next
 )
 ;
 }
-s
+server
 .
 start
 (
@@ -1675,7 +1675,7 @@ function
 (
 )
 {
-s
+server
 .
 stop
 (
@@ -1702,14 +1702,14 @@ test_x_weave_records
 )
 {
 let
-s
+server
 =
 new
 SyncServer
 (
 )
 ;
-s
+server
 .
 registerUser
 (
@@ -1721,7 +1721,7 @@ password
 "
 )
 ;
-s
+server
 .
 createContents
 (
@@ -1754,7 +1754,7 @@ baz
 }
 )
 ;
-s
+server
 .
 start
 (
@@ -1859,7 +1859,7 @@ records
 "
 )
 ;
-s
+server
 .
 stop
 (
