@@ -76,6 +76,11 @@ nsnull
 nsnull
 )
 {
+mFlags
+|
+=
+eApplicationAccessible
+;
 }
 NS_IMPL_ISUPPORTS_INHERITED1
 (
