@@ -5788,6 +5788,10 @@ mLineNumber
 (
 0
 )
+mColumnNumber
+(
+0
+)
 mWasMatched
 (
 false
@@ -5862,6 +5866,12 @@ aCopy
 .
 mLineNumber
 )
+mColumnNumber
+(
+aCopy
+.
+mColumnNumber
+)
 mWasMatched
 (
 false
@@ -5910,6 +5920,12 @@ mLineNumber
 aCopy
 .
 mLineNumber
+)
+mColumnNumber
+(
+aCopy
+.
+mColumnNumber
 )
 mWasMatched
 (

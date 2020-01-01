@@ -116,6 +116,14 @@ test_bug806192
 .
 html
 \
+test_bug856317
+.
+html
+\
+bug856317
+.
+css
+\
 test_isinheritableproperty
 .
 html
