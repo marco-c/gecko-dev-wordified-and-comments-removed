@@ -1248,12 +1248,3 @@ DataChannel
 )
 #
 endif
-#
-ifdef
-MOZ_AUDIO_CHANNEL_MANAGER
-DOMCI_CLASS
-(
-AudioChannelManager
-)
-#
-endif
