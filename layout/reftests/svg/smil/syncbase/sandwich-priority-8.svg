@@ -132,6 +132,12 @@ dependencies
 .
 Test
 that
+we
+don
+'
+t
+filter
+out
 a
 change
 to
@@ -155,10 +161,6 @@ affect
 the
 dependency
 chain
-are
-not
-filtered
-out
 .
 Given
 the

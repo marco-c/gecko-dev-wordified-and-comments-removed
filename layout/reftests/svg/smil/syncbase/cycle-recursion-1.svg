@@ -371,11 +371,6 @@ dur
 "
 1s
 "
-additive
-=
-"
-replace
-"
 /
 >
 <
@@ -426,11 +421,6 @@ dur
 =
 "
 1s
-"
-additive
-=
-"
-replace
 "
 /
 >

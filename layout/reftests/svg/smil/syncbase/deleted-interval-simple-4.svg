@@ -125,6 +125,10 @@ interval
 .
 Originally
 the
+third
+animation
+'
+s
 interval
 is
 from
@@ -137,6 +141,7 @@ then
 by
 script
 we
+add
 another
 begin
 time
