@@ -730,6 +730,17 @@ vanilla
 fix
 .
 patch
+patch
+<
+.
+.
+/
+.
+.
+/
+yuv_disable_optimized
+.
+patch
 cd
 .
 .
