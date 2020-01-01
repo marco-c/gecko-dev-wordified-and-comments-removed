@@ -113,6 +113,10 @@ const
 PRUint32
 &
 loadFlags
+const
+RequestHeaderTuples
+&
+requestHeaders
 )
 ;
 }
