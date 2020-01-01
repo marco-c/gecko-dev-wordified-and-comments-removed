@@ -1660,9 +1660,11 @@ msg_name
 ;
 if
 (
-detail
-.
+"
 _payload_
+"
+in
+detail
 )
 {
 detail
