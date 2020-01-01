@@ -3802,6 +3802,11 @@ get
 kCFStringEncodingUTF8
 )
 ;
+if
+(
+cfType
+)
+{
 CFStringRef
 cfTypeDesc
 =
@@ -3907,6 +3912,7 @@ CFRelease
 cfType
 )
 ;
+}
 }
 PR_LOG
 (
