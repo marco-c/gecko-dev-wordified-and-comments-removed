@@ -4001,6 +4001,8 @@ height
 70px
 ;
 }
+#
+popup_autocomplete
 autocompleteresult
 :
 hover
@@ -4024,7 +4026,7 @@ true
 ]
 )
 historylist
-placeitem
+autocompleteresult
 :
 hover
 :
@@ -4056,7 +4058,7 @@ title
 ]
 )
 remotetabslist
-placeitem
+autocompleteresult
 :
 hover
 :

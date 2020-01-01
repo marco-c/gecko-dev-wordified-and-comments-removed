@@ -991,6 +991,11 @@ link
 -
 shareable
 "
+"
+link
+-
+openable
+"
 ]
 label
 :
@@ -4025,6 +4030,11 @@ bookmark
 link
 -
 shareable
+"
+"
+link
+-
+openable
 "
 ]
 label
