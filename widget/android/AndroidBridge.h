@@ -1361,6 +1361,12 @@ GetGlobalContextRef
 void
 )
 ;
+jobject
+GetContext
+(
+void
+)
+;
 void
 UnlockBitmap
 (
