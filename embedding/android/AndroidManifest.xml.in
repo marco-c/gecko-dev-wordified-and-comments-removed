@@ -74,9 +74,7 @@ android
 sharedUserId
 =
 "
-ANDROID_PACKAGE_NAME
-.
-sharedID
+MOZ_ANDROID_SHARED_ID
 "
 >
 <
