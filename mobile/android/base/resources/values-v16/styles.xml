@@ -151,9 +151,11 @@ style
 name
 =
 "
-AboutHome
-.
 TextAppearance
+.
+Widget
+.
+Home
 .
 PageTitle
 "

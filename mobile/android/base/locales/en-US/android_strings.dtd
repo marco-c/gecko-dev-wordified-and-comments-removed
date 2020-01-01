@@ -2573,7 +2573,7 @@ Clear
 <
 !
 ENTITY
-abouthome_last_tabs_title
+home_last_tabs_title
 "
 Your
 tabs
@@ -2585,7 +2585,7 @@ time
 <
 !
 ENTITY
-abouthome_last_tabs_open
+home_last_tabs_open
 "
 Open
 all
@@ -2598,7 +2598,7 @@ time
 <
 !
 ENTITY
-abouthome_visited_empty
+home_visited_empty
 "
 Websites
 you

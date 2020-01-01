@@ -262,7 +262,7 @@ layout_width
 "
 dimen
 /
-abouthome_topsite_pinsize
+top_bookmark_pinsize
 "
 android
 :
@@ -271,7 +271,7 @@ layout_height
 "
 dimen
 /
-abouthome_topsite_pinsize
+top_bookmark_pinsize
 "
 android
 :

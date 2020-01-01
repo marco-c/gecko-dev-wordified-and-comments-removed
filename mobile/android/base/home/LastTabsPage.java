@@ -491,7 +491,7 @@ R
 .
 string
 .
-abouthome_last_tabs_title
+home_last_tabs_title
 )
 ;
 mList
