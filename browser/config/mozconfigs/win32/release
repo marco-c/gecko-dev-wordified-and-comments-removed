@@ -89,3 +89,12 @@ win32
 vs2010
 -
 mozconfig
+#
+Package
+js
+shell
+.
+export
+MOZ_PACKAGE_JSSHELL
+=
+1

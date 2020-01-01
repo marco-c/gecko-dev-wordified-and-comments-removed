@@ -7108,6 +7108,8 @@ endif
 MOZ_POST_STAGING_CMD
 ifndef
 LIBXUL_SDK
+ifdef
+MOZ_PACKAGE_JSSHELL
 #
 Package
 JavaScript
@@ -7130,6 +7132,9 @@ PKG_JSSHELL
 (
 MAKE_JSSHELL
 )
+endif
+#
+MOZ_PACKAGE_JSSHELL
 endif
 #
 LIBXUL_SDK

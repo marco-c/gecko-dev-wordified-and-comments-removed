@@ -62,3 +62,12 @@ macbundlename
 prefix
 =
 Firefox
+#
+Package
+js
+shell
+.
+export
+MOZ_PACKAGE_JSSHELL
+=
+1
