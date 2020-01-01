@@ -155,7 +155,7 @@ unusedCode
 (
 0
 )
-stack
+stackCommitted
 (
 0
 )
@@ -205,7 +205,7 @@ size_t
 unusedCode
 ;
 size_t
-stack
+stackCommitted
 ;
 size_t
 gcMarker
