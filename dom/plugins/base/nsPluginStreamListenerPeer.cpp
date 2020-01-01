@@ -3355,7 +3355,7 @@ NS_ERROR_FAILURE
 int64_t
 absoluteOffset64
 =
-LL_ZERO
+0
 ;
 brr
 -
@@ -3676,7 +3676,7 @@ brr
 int64_t
 absoluteOffset64
 =
-LL_ZERO
+0
 ;
 brr
 -
