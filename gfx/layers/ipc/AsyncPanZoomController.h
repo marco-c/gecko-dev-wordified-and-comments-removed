@@ -474,7 +474,10 @@ ScaleWithFocus
 float
 aScale
 const
-nsIntPoint
+gfx
+:
+:
+Point
 &
 aFocus
 )
@@ -703,7 +706,10 @@ mLastEventTime
 TimeStamp
 mAnimationStartTime
 ;
-nsIntPoint
+gfx
+:
+:
+Point
 mLastZoomFocus
 ;
 PanZoomState

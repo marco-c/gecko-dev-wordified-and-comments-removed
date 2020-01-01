@@ -969,7 +969,7 @@ ScaleWillOverscroll
 (
 float
 aScale
-int32_t
+float
 aFocus
 )
 {
@@ -1071,7 +1071,7 @@ ScaleWillOverscrollAmount
 (
 float
 aScale
-int32_t
+float
 aFocus
 )
 {
