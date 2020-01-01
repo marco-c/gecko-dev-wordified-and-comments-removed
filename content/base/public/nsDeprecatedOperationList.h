@@ -94,3 +94,7 @@ DEPRECATED_OPERATION
 (
 GetPreventDefault
 )
+DEPRECATED_OPERATION
+(
+GetSetUserData
+)
