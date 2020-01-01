@@ -18106,8 +18106,6 @@ document
 .
 tooltipNode
 .
-target
-.
 ownerDocument
 .
 defaultView
