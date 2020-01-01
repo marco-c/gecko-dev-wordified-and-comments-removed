@@ -212,13 +212,13 @@ b
 }
 GLOBAL
 (
-size_t
+long
 )
 jround_up
 (
-size_t
+long
 a
-size_t
+long
 b
 )
 {
