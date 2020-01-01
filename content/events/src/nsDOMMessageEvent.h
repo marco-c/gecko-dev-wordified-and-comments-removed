@@ -85,16 +85,6 @@ nsDOMEvent
 )
 NS_DECL_NSIDOMMESSAGEEVENT
 NS_FORWARD_TO_NSDOMEVENT
-void
-RootData
-(
-)
-;
-void
-UnrootData
-(
-)
-;
 virtual
 JSObject
 *
@@ -246,9 +236,6 @@ JS
 :
 Value
 mData
-;
-bool
-mDataRooted
 ;
 nsString
 mOrigin
