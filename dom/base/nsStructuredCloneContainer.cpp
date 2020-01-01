@@ -257,6 +257,11 @@ mVersion
 =
 0
 ;
+free
+(
+jsBytes
+)
+;
 return
 NS_ERROR_FAILURE
 ;
@@ -273,6 +278,11 @@ memcpy
 mData
 jsBytes
 mSize
+)
+;
+free
+(
+jsBytes
 )
 ;
 return
