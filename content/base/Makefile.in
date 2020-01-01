@@ -414,8 +414,8 @@ DIRS
 public
 src
 ifdef
-MOZ_MOCHITEST
-DIRS
+ENABLE_TESTS
+TOOL_DIRS
 +
 =
 test
