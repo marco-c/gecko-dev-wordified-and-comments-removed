@@ -10315,7 +10315,7 @@ err
 gl
 -
 >
-fGetError
+GetAndClearError
 (
 )
 ;
