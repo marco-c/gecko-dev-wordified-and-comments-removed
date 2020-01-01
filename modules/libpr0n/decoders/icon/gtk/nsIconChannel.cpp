@@ -2094,7 +2094,7 @@ iconSize
 GDK_INTERP_BILINEAR
 )
 ;
-gdk_pixbuf_unref
+g_object_unref
 (
 buf
 )
@@ -2120,7 +2120,7 @@ mRealChannel
 )
 )
 ;
-gdk_pixbuf_unref
+g_object_unref
 (
 scaled
 )
@@ -2386,7 +2386,7 @@ mRealChannel
 )
 )
 ;
-gdk_pixbuf_unref
+g_object_unref
 (
 icon
 )

@@ -26,6 +26,13 @@ h
 #
 include
 <
+stdlib
+.
+h
+>
+#
+include
+<
 sys
 /
 types
@@ -96,7 +103,7 @@ gtk_window_new
 GTK_WINDOW_TOPLEVEL
 )
 ;
-gtk_signal_connect
+g_signal_connect
 (
 GTK_OBJECT
 (
@@ -105,10 +112,10 @@ toplevel_window
 "
 destroy
 "
+G_CALLBACK
 (
-GtkSignalFunc
+exit
 )
-gtk_exit
 NULL
 )
 ;
@@ -161,7 +168,7 @@ gtk_widget_show
 button
 )
 ;
-gtk_signal_connect
+g_signal_connect
 (
 GTK_OBJECT
 (
@@ -170,7 +177,7 @@ button
 "
 clicked
 "
-GTK_SIGNAL_FUNC
+G_CALLBACK
 (
 insert_mozilla
 )

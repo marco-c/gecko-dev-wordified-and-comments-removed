@@ -9478,7 +9478,11 @@ gtkXtBinHolder
 =
 gtk_xtbin_new
 (
-GDK_ROOT_PARENT
+(
+GdkWindow
+*
+)
+GDK_ROOT_WINDOW
 (
 )
 0

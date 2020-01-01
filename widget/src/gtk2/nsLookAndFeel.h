@@ -180,7 +180,7 @@ gtk_invisible_new
 (
 )
 ;
-gtk_object_ref
+g_object_ref
 (
 GTK_OBJECT
 (
@@ -188,7 +188,7 @@ mWidget
 )
 )
 ;
-gtk_object_sink
+g_object_ref_sink
 (
 GTK_OBJECT
 (

@@ -12962,16 +12962,9 @@ PR_FALSE
 )
 ;
 }
-gtk_widget_set_default_visual
-(
-gdk_rgb_get_visual
-(
-)
-)
-;
 gtk_widget_set_default_colormap
 (
-gdk_rgb_get_cmap
+gdk_rgb_get_colormap
 (
 )
 )

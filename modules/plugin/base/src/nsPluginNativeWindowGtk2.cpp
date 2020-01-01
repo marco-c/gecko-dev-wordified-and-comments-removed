@@ -617,7 +617,7 @@ mSocketWidget
 "
 destroy
 "
-GTK_SIGNAL_FUNC
+G_CALLBACK
 (
 gtk_widget_destroyed
 )

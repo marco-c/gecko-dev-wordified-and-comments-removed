@@ -332,7 +332,7 @@ gtk_widget_realize
 mHiddenWidget
 )
 ;
-gtk_signal_connect
+g_signal_connect
 (
 GTK_OBJECT
 (
@@ -341,14 +341,14 @@ mHiddenWidget
 "
 drag_data_get
 "
-GTK_SIGNAL_FUNC
+G_CALLBACK
 (
 invisibleSourceDragDataGet
 )
 this
 )
 ;
-gtk_signal_connect
+g_signal_connect
 (
 GTK_OBJECT
 (
@@ -357,7 +357,7 @@ mHiddenWidget
 "
 drag_end
 "
-GTK_SIGNAL_FUNC
+G_CALLBACK
 (
 invisibleSourceDragEnd
 )
@@ -1097,7 +1097,7 @@ aXOffset
 aYOffset
 )
 ;
-gdk_pixmap_unref
+g_object_unref
 (
 pixmap
 )

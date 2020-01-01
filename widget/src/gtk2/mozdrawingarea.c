@@ -57,14 +57,14 @@ parent_class
 =
 NULL
 ;
-GtkType
+GType
 moz_drawingarea_get_type
 (
 void
 )
 {
 static
-GtkType
+GType
 moz_drawingarea_type
 =
 0

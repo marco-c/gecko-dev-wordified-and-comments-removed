@@ -496,7 +496,7 @@ gtk_plug_new
 xid
 )
 ;
-gtk_signal_connect
+g_signal_connect
 (
 GTK_OBJECT
 (
@@ -505,14 +505,14 @@ window
 "
 destroy
 "
-GTK_SIGNAL_FUNC
+G_CALLBACK
 (
 gtk_main_quit
 )
 NULL
 )
 ;
-gtk_container_border_width
+gtk_container_set_border_width
 (
 GTK_CONTAINER
 (
@@ -617,7 +617,7 @@ gtk_widget_show
 button
 )
 ;
-gtk_signal_connect
+g_signal_connect
 (
 GTK_OBJECT
 (
@@ -626,7 +626,7 @@ button
 "
 clicked
 "
-GTK_SIGNAL_FUNC
+G_CALLBACK
 (
 load_page
 )
@@ -651,7 +651,7 @@ TRUE
 0
 )
 ;
-gtk_widget_set_usize
+gtk_widget_set_size_request
 (
 embed
 200

@@ -289,7 +289,7 @@ message
 "
 )
 ;
-gtk_signal_connect
+g_signal_connect
 (
 GTK_OBJECT
 (
@@ -298,7 +298,7 @@ mozembed
 "
 destroy
 "
-GTK_SIGNAL_FUNC
+G_CALLBACK
 (
 gtk_main_quit
 )
@@ -345,7 +345,7 @@ mozembed
 )
 )
 ;
-gtk_widget_set_usize
+gtk_widget_set_size_request
 (
 window
 400

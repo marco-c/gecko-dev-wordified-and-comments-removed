@@ -38,7 +38,7 @@ MOZ_CONTAINER
 obj
 )
 (
-GTK_CHECK_CAST
+G_TYPE_CHECK_INSTANCE_CAST
 (
 (
 obj
@@ -54,7 +54,7 @@ MOZ_CONTAINER_CLASS
 klass
 )
 (
-GTK_CHECK_CLASS_CAST
+G_TYPE_CHECK_CLASS_CAST
 (
 (
 klass
@@ -70,7 +70,7 @@ IS_MOZ_CONTAINER
 obj
 )
 (
-GTK_CHECK_TYPE
+G_TYPE_CHECK_INSTANCE_TYPE
 (
 (
 obj
@@ -85,7 +85,7 @@ IS_MOZ_CONTAINER_CLASS
 klass
 )
 (
-GTK_CHECK_CLASS_TYPE
+G_TYPE_CHECK_CLASS_TYPE
 (
 (
 klass
@@ -100,7 +100,7 @@ MOZ_CONAINTER_GET_CLASS
 obj
 )
 (
-GTK_CHECK_GET_CLASS
+G_TYPE_INSTANCE_GET_CLASS
 (
 (
 obj
@@ -139,7 +139,7 @@ parent_class
 ;
 }
 ;
-GtkType
+GType
 moz_container_get_type
 (
 void

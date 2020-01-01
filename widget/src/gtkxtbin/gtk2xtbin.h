@@ -123,7 +123,7 @@ GTK_XTBIN
 obj
 )
 (
-GTK_CHECK_CAST
+G_TYPE_CHECK_INSTANCE_CAST
 (
 (
 obj
@@ -140,7 +140,7 @@ GTK_XTBIN_CLASS
 klass
 )
 (
-GTK_CHECK_CLASS_CAST
+G_TYPE_CHECK_CLASS_CAST
 (
 (
 klass
@@ -157,7 +157,7 @@ GTK_IS_XTBIN
 obj
 )
 (
-GTK_CHECK_TYPE
+G_TYPE_CHECK_INSTANCE_TYPE
 (
 (
 obj
@@ -173,7 +173,7 @@ GTK_IS_XTBIN_CLASS
 klass
 )
 (
-GTK_CHECK_CLASS_TYPE
+G_TYPE_CHECK_CLASS_TYPE
 (
 (
 klass
@@ -255,7 +255,7 @@ widget_class
 ;
 GTKXTBIN_API
 (
-GtkType
+GType
 )
 gtk_xtbin_get_type
 (
