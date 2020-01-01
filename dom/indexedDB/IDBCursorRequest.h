@@ -251,6 +251,9 @@ JSRuntime
 *
 mJSRuntime
 ;
+bool
+mContinueCalled
+;
 PRUint32
 mDataIndex
 ;
