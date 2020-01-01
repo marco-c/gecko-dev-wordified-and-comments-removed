@@ -147,6 +147,9 @@ BrandFullNameInternal
 PreReleaseSuffix
 }
 "
+!
+define
+NO_UNINSTALL_SURVEY
 #
 LSP_CATEGORIES
 is
