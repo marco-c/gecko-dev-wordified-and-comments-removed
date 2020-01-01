@@ -168,6 +168,15 @@ PROCESS_SYMBOL_SUPPLIER_INTERRUPTED
 )
 ;
 }
+static
+string
+GetAssertion
+(
+Minidump
+*
+dump
+)
+;
 private
 :
 SymbolSupplier

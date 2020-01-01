@@ -7,14 +7,12 @@ COMMON_MAC_DWARF_DWARF2READER_H__
 #
 include
 <
-ext
-/
-hash_map
+list
 >
 #
 include
 <
-list
+map
 >
 #
 include
@@ -61,10 +59,6 @@ using
 namespace
 std
 ;
-using
-namespace
-__gnu_cxx
-;
 namespace
 dwarf2reader
 {
@@ -81,7 +75,7 @@ class
 LineInfoHandler
 ;
 typedef
-hash_map
+map
 <
 string
 pair

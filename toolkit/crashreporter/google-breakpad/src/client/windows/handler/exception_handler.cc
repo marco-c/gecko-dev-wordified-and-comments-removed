@@ -784,8 +784,6 @@ n
 "
 )
 ;
-for
-(
 vector
 <
 ExceptionHandler
@@ -803,6 +801,8 @@ begin
 (
 )
 ;
+while
+(
 iterator
 !
 =
@@ -812,10 +812,6 @@ handler_stack_
 end
 (
 )
-;
-+
-+
-iterator
 )
 {
 if
@@ -827,6 +823,8 @@ iterator
 this
 )
 {
+iterator
+=
 handler_stack_
 -
 >
@@ -834,6 +832,13 @@ erase
 (
 iterator
 )
+;
+}
+else
+{
++
++
+iterator
 ;
 }
 }
