@@ -5561,6 +5561,11 @@ display
 "
 none
 "
+|
+|
+this
+.
+_isCustomizing
 )
 return
 ;
@@ -5604,6 +5609,12 @@ uninit
 (
 )
 ;
+this
+.
+_isCustomizing
+=
+true
+;
 }
 customizeDone
 :
@@ -5612,6 +5623,12 @@ PTH_customizeDone
 (
 )
 {
+this
+.
+_isCustomizing
+=
+false
+;
 this
 .
 init
