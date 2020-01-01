@@ -486,6 +486,8 @@ viewconfig
 \
 typeaheadfind
 \
+parentalcontrols
+\
 (
 NULL
 )

@@ -468,11 +468,15 @@ embed_base
 \
 alerts
 \
+parentalcontrols
+\
 storage
 \
 exthandler
 \
 docshell
+\
+toolkitcomps
 \
 (
 NULL
