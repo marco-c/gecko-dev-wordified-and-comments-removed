@@ -6360,7 +6360,6 @@ PresShell
 SizeOfLayoutMemoryReporter
 nsnull
 )
-;
 NS_MEMORY_REPORTER_IMPLEMENT
 (
 LayoutBidi
@@ -6385,7 +6384,6 @@ PresShell
 SizeOfBidiMemoryReporter
 nsnull
 )
-;
 PresShell
 :
 :
