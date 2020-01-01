@@ -707,6 +707,10 @@ test_canvas_strokeStyle_getter
 .
 html
 \
+test_bug613794
+.
+html
+\
 (
 NULL
 )

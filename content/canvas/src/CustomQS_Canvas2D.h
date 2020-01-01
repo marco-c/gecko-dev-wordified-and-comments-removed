@@ -1789,8 +1789,12 @@ jsval_addr
 (
 )
 )
-|
-|
+)
+return
+JS_FALSE
+;
+if
+(
 JSVAL_IS_PRIMITIVE
 (
 tv
@@ -1801,7 +1805,11 @@ jsval_value
 )
 )
 return
-JS_FALSE
+xpc_qsThrow
+(
+cx
+NS_ERROR_DOM_TYPE_MISMATCH_ERR
+)
 ;
 darray
 =
