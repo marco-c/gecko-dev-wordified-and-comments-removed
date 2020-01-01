@@ -45,12 +45,6 @@ ifdef
 _IMPL_NS_COM
 #
 define
-NS_WINDOWSREGKEY_CLASSNAME
-"
-nsWindowsRegKey
-"
-#
-define
 NS_WINDOWSREGKEY_CID
 \
 {

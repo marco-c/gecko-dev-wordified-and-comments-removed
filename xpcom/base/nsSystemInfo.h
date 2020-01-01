@@ -79,14 +79,6 @@ info
 "
 #
 define
-NS_SYSTEMINFO_CLASSNAME
-"
-System
-Info
-Service
-"
-#
-define
 NS_SYSTEMINFO_CID
 \
 {

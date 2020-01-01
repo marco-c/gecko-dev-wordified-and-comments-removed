@@ -13,16 +13,6 @@ h
 "
 #
 define
-NS_SSLSOCKETPROVIDER_CLASSNAME
-"
-Mozilla
-SSL
-Socket
-Provider
-Component
-"
-#
-define
 NS_SSLSOCKETPROVIDER_CID
 \
 {

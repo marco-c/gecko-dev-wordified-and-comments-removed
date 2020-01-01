@@ -155,13 +155,6 @@ service
 ;
 1
 "
-#
-define
-NS_ATOMSERVICE_CLASSNAME
-"
-Atom
-Service
-"
 %
 }
 /

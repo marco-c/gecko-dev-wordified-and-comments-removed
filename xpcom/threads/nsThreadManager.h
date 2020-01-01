@@ -164,12 +164,6 @@ mInitialized
 ;
 #
 define
-NS_THREADMANAGER_CLASSNAME
-"
-nsThreadManager
-"
-#
-define
 NS_THREADMANAGER_CID
 \
 {

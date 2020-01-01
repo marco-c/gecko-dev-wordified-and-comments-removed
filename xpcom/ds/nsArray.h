@@ -43,14 +43,6 @@ h
 "
 #
 define
-NS_ARRAY_CLASSNAME
-\
-"
-nsIArray
-implementation
-"
-#
-define
 NS_ARRAY_CID
 \
 {

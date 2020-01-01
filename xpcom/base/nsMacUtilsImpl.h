@@ -66,15 +66,6 @@ mBinaryArchs
 ;
 #
 define
-NS_MACUTILSIMPL_CLASSNAME
-"
-Mac
-OS
-X
-Utilities
-"
-#
-define
 NS_MACUTILSIMPL_CID
 \
 {

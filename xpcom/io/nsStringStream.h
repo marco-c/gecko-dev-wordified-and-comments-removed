@@ -27,12 +27,6 @@ h
 "
 #
 define
-NS_STRINGINPUTSTREAM_CLASSNAME
-"
-nsStringInputStream
-"
-#
-define
 NS_STRINGINPUTSTREAM_CONTRACTID
 "
 mozilla

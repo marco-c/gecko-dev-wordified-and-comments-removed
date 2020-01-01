@@ -144,12 +144,6 @@ mThreadNaming
 ;
 #
 define
-NS_THREADPOOL_CLASSNAME
-"
-nsThreadPool
-"
-#
-define
 NS_THREADPOOL_CID
 \
 {

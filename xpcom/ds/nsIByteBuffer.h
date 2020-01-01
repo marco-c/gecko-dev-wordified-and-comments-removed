@@ -75,13 +75,6 @@ buffer
 ;
 1
 "
-#
-define
-NS_BYTEBUFFER_CLASSNAME
-"
-Byte
-Buffer
-"
 class
 nsIByteBuffer
 :

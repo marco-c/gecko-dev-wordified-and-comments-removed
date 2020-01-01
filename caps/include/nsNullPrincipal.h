@@ -37,12 +37,6 @@ nsIURI
 ;
 #
 define
-NS_NULLPRINCIPAL_CLASSNAME
-"
-nullprincipal
-"
-#
-define
 NS_NULLPRINCIPAL_CID
 \
 {

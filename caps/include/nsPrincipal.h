@@ -730,12 +730,6 @@ mPrincipals
 ;
 #
 define
-NS_PRINCIPAL_CLASSNAME
-"
-principal
-"
-#
-define
 NS_PRINCIPAL_CONTRACTID
 "
 mozilla
@@ -766,12 +760,6 @@ NS_PRINCIPAL_CID
 0x50
 }
 }
-#
-define
-NS_EXPANDEDPRINCIPAL_CLASSNAME
-"
-expandedprincipal
-"
 #
 define
 NS_EXPANDEDPRINCIPAL_CONTRACTID

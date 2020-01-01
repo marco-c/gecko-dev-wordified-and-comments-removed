@@ -503,13 +503,6 @@ moduleCode
 C
 +
 +
-#
-define
-NS_EXCEPTIONSERVICE_CLASSNAME
-"
-Exception
-Service
-"
 /
 /
 {

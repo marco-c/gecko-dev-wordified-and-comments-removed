@@ -27,14 +27,6 @@ h
 endif
 #
 define
-NS_DOMCRYPTO_CLASSNAME
-"
-Crypto
-JavaScript
-Class
-"
-#
-define
 NS_DOMCRYPTO_CID
 \
 {

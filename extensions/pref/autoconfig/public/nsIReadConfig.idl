@@ -139,13 +139,6 @@ readconfig
 ;
 1
 "
-#
-define
-NS_READCONFIG_CLASSNAME
-"
-ReadConfig
-Module
-"
 %
 }
 [

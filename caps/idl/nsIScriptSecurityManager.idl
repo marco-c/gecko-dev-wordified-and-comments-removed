@@ -1759,11 +1759,5 @@ scriptsecuritymanager
 ;
 1
 "
-#
-define
-NS_SCRIPTSECURITYMANAGER_CLASSNAME
-"
-scriptsecuritymanager
-"
 %
 }

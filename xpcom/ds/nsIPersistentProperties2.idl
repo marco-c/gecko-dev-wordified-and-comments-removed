@@ -439,12 +439,5 @@ properties
 ;
 1
 "
-#
-define
-NS_PERSISTENTPROPERTIES_CLASSNAME
-"
-Persistent
-Properties
-"
 %
 }

@@ -356,13 +356,6 @@ C
 +
 #
 define
-NS_CONSOLESERVICE_CLASSNAME
-"
-Console
-Service
-"
-#
-define
 NS_CONSOLESERVICE_CID
 \
 {

@@ -13,12 +13,6 @@ h
 "
 #
 define
-NS_MULTIPLEXINPUTSTREAM_CLASSNAME
-"
-nsMultiplexInputStream
-"
-#
-define
 NS_MULTIPLEXINPUTSTREAM_CONTRACTID
 "
 mozilla

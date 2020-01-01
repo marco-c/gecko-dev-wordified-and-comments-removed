@@ -6,17 +6,6 @@ define
 nsIOUtil_h__
 #
 define
-NS_IOUTIL_CLASSNAME
-"
-XPCOM
-I
-/
-O
-utility
-class
-"
-#
-define
 NS_IOUTIL_CID
 \
 {

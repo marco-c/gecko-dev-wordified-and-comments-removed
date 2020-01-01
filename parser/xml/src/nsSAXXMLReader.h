@@ -113,14 +113,6 @@ xmlreader
 "
 #
 define
-NS_SAXXMLREADER_CLASSNAME
-"
-SAX
-XML
-Reader
-"
-#
-define
 NS_SAXXMLREADER_CID
 \
 {

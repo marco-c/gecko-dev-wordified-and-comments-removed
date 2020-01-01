@@ -43,13 +43,6 @@ locator
 "
 #
 define
-NS_SAXLOCATOR_CLASSNAME
-"
-SAX
-Locator
-"
-#
-define
 NS_SAXLOCATOR_CID
 \
 {

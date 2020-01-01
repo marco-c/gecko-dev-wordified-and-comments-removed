@@ -65,14 +65,6 @@ scriptableinputstream
 ;
 1
 "
-#
-define
-NS_SCRIPTABLEINPUTSTREAM_CLASSNAME
-"
-Scriptable
-Input
-Stream
-"
 class
 nsScriptableInputStream
 MOZ_FINAL

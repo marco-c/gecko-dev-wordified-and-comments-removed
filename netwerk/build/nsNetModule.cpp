@@ -541,13 +541,6 @@ void
 ;
 #
 define
-NS_INCREMENTALDOWNLOAD_CLASSNAME
-\
-"
-nsIncrementalDownload
-"
-#
-define
 NS_INCREMENTALDOWNLOAD_CID
 \
 {

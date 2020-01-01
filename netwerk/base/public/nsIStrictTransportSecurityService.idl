@@ -623,12 +623,6 @@ stsservice
 "
 #
 define
-NS_STSSERVICE_CLASSNAME
-"
-stsservice
-"
-#
-define
 STS_PERMISSION
 "
 sts

@@ -13,12 +13,6 @@ h
 "
 #
 define
-NS_MIMEINPUTSTREAM_CLASSNAME
-"
-nsMIMEInputStream
-"
-#
-define
 NS_MIMEINPUTSTREAM_CONTRACTID
 "
 mozilla

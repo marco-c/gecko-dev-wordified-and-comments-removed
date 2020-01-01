@@ -36,14 +36,6 @@ h
 "
 #
 define
-NS_STREAMCIPHER_CLASSNAME
-"
-Stream
-Cipher
-Component
-"
-#
-define
 NS_STREAMCIPHER_CID
 \
 {

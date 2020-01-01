@@ -88,15 +88,6 @@ service
 ;
 1
 "
-#
-define
-NS_IEXTERNALSHARINGAPPSERVICE_CLASSNAME
-"
-Mozilla
-Sharing
-App
-Service
-"
 %
 }
 [

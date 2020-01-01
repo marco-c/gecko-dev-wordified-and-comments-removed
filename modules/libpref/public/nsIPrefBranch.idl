@@ -2889,13 +2889,6 @@ preferencesbranch
 ;
 1
 "
-#
-define
-NS_PREFBRANCH_CLASSNAME
-"
-Preferences
-Branch
-"
 /
 *
 *

@@ -64,13 +64,6 @@ attributes
 "
 #
 define
-NS_SAXATTRIBUTES_CLASSNAME
-"
-SAX
-Attributes
-"
-#
-define
 NS_SAXATTRIBUTES_CID
 \
 {

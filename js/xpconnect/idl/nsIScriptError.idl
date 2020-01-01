@@ -587,13 +587,6 @@ C
 +
 #
 define
-NS_SCRIPTERROR_CLASSNAME
-"
-Script
-Error
-"
-#
-define
 NS_SCRIPTERROR_CID
 \
 {

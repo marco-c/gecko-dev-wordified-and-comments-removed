@@ -112,17 +112,6 @@ C
 +
 #
 define
-NS_APPLEFILEDECODER_CLASSNAME
-"
-Apple
-Single
-/
-Double
-File
-decoder
-"
-#
-define
 NS_APPLEFILEDECODER_CID
 \
 {

@@ -309,14 +309,6 @@ relativefile
 1
 "
 #
-define
-NS_RELATIVEFILEPREF_CLASSNAME
-"
-Relative
-File
-Pref
-"
-#
 include
 "
 nsComponentManagerUtils

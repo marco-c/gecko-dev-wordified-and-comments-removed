@@ -20,14 +20,6 @@ h
 "
 #
 define
-NS_CMSSECUREMESSAGE_CLASSNAME
-"
-CMS
-Secure
-Message
-"
-#
-define
 NS_CMSSECUREMESSAGE_CID
 \
 {

@@ -139,13 +139,6 @@ autoconfiguration
 ;
 1
 "
-#
-define
-NS_AUTOCONFIG_CLASSNAME
-"
-AutoConfig
-Module
-"
 %
 }
 [

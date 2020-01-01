@@ -36,13 +36,6 @@ h
 "
 #
 define
-NS_OBSERVERSERVICE_CLASSNAME
-"
-Observer
-Service
-"
-#
-define
 NS_OBSERVERSERVICE_CID
 \
 {

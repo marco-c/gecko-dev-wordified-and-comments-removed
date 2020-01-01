@@ -162,15 +162,5 @@ secure_browser_ui
 ;
 1
 "
-#
-define
-NS_SECURE_BROWSER_UI_CLASSNAME
-"
-Mozilla
-Secure
-Browser
-UI
-Handler
-"
 %
 }

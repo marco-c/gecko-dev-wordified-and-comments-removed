@@ -266,16 +266,6 @@ C
 +
 #
 define
-NS_INTERFACEINFOMANAGER_SERVICE_CLASSNAME
-\
-"
-Interface
-Information
-Manager
-Service
-"
-#
-define
 NS_INTERFACEINFOMANAGER_SERVICE_CID
 \
 {

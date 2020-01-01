@@ -36,14 +36,6 @@ service
 "
 #
 define
-NS_MEMORY_CLASSNAME
-"
-Global
-Memory
-Service
-"
-#
-define
 NS_MEMORY_CID
 \
 {

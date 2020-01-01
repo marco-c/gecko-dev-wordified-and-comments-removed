@@ -73,13 +73,6 @@ debug
 "
 #
 define
-NS_DEBUG_CLASSNAME
-"
-nsDebug
-Interface
-"
-#
-define
 NS_DEBUG_CID
 \
 {

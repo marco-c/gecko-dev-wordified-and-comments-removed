@@ -29,12 +29,6 @@ h
 "
 #
 define
-NS_STRUCTUREDCLONECONTAINER_CLASSNAME
-"
-nsStructuredCloneContainer
-"
-#
-define
 NS_STRUCTUREDCLONECONTAINER_CONTRACTID
 \
 "

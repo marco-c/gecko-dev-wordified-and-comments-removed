@@ -176,13 +176,5 @@ user_cert_picker
 ;
 1
 "
-#
-define
-NS_CERT_PICKER_CLASSNAME
-"
-Cert
-Picker
-Object
-"
 %
 }

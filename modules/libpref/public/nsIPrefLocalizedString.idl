@@ -432,12 +432,5 @@ localizedstring
 ;
 1
 "
-#
-define
-NS_PREFLOCALIZEDSTRING_CLASSNAME
-"
-Pref
-LocalizedString
-"
 %
 }

@@ -118,13 +118,6 @@ generator
 "
 #
 define
-NS_UUID_GENERATOR_CLASSNAME
-"
-UUID
-Generator
-"
-#
-define
 NS_UUID_GENERATOR_CID
 \
 {

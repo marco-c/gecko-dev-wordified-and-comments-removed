@@ -587,16 +587,5 @@ helperapplauncherdialog
 ;
 1
 "
-#
-define
-NS_IHELPERAPPLAUNCHERDLG_CLASSNAME
-"
-Mozilla
-Helper
-App
-Launcher
-Confirmation
-Dialog
-"
 %
 }

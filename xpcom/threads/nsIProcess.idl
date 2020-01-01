@@ -738,12 +738,5 @@ util
 ;
 1
 "
-#
-define
-NS_PROCESS_CLASSNAME
-"
-Process
-Specification
-"
 %
 }
