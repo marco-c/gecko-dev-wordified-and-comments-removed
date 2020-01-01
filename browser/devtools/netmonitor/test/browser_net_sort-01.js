@@ -1148,7 +1148,6 @@ RequestsMenu
 .
 sortBy
 (
-null
 )
 ;
 return
