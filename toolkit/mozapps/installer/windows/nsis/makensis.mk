@@ -759,7 +759,6 @@ app
 .
 7z
 >
-"
 (
 DIST
 )
@@ -772,10 +771,8 @@ PKG_INST_BASENAME
 )
 .
 exe
-"
 chmod
 0755
-"
 (
 DIST
 )
@@ -788,7 +785,6 @@ PKG_INST_BASENAME
 )
 .
 exe
-"
 #
 For
 building

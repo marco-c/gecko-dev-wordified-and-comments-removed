@@ -707,20 +707,16 @@ LOCALE_SRCDIR
 -
 DPKG_BASENAME
 =
-"
 (
 PKG_BASENAME
 )
-"
 \
 -
 DPKG_INST_BASENAME
 =
-"
 (
 PKG_INST_BASENAME
 )
-"
 \
 (
 NULL
@@ -1629,7 +1625,6 @@ installer
 :
 WIN32_INSTALLER_OUT
 =
-"
 (
 _ABS_DIST
 )
@@ -1642,7 +1637,6 @@ PKG_INST_BASENAME
 )
 .
 exe
-"
 repackage
 -
 win32
@@ -2044,7 +2038,6 @@ installer
 -
 %
 :
-"
 WIN32_INSTALLER_IN
 =
 (
@@ -2059,7 +2052,6 @@ PKG_INST_BASENAME
 )
 .
 exe
-"
 repackage
 -
 win32
@@ -3214,7 +3206,6 @@ nv
 output
 -
 document
-"
 (
 _ABS_DIST
 )
@@ -3239,7 +3230,6 @@ PKG_INST_BASENAME
 )
 .
 exe
-"
 echo
 "
 Downloaded
