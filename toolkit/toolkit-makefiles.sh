@@ -5438,13 +5438,6 @@ extensions
 pref
 /
 Makefile
-intl
-/
-locale
-/
-tests_multilocale
-/
-Makefile
 js
 /
 src
