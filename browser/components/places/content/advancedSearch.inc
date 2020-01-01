@@ -401,6 +401,11 @@ advancedSearch
 >
 <
 hbox
+align
+=
+"
+center
+"
 >
 <
 label
