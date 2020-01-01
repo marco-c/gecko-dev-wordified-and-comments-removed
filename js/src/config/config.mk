@@ -4075,6 +4075,10 @@ base
 (
 L10NBASEDIR
 )
+/
+(
+AB_CD
+)
 endif
 else
 MAKE_JARS_FLAGS
