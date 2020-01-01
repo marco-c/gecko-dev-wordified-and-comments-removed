@@ -12262,9 +12262,6 @@ member
 localIface
 )
 :
-(
-JSBool
-)
 NS_PTR_TO_INT32
 (
 iface

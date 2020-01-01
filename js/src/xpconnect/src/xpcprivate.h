@@ -7308,9 +7308,8 @@ f_
 const
 {
 return
-(
-JSBool
-)
+!
+!
 (
 mClassInfoFlags
 &
