@@ -2958,8 +2958,8 @@ op
 )
 &
 &
-!
-!
+(
+JOF_MODE
 (
 js_CodeSpec
 [
@@ -2967,7 +2967,9 @@ op
 ]
 .
 format
-&
+)
+=
+=
 JOF_ELEM
 )
 ;
@@ -2998,8 +3000,8 @@ op
 )
 &
 &
-!
-!
+(
+JOF_MODE
 (
 js_CodeSpec
 [
@@ -3007,7 +3009,9 @@ op
 ]
 .
 format
-&
+)
+=
+=
 JOF_PROP
 )
 ;
