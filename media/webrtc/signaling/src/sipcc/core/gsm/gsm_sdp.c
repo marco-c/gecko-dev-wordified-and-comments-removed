@@ -11304,6 +11304,13 @@ found_codec
 =
 TRUE
 ;
+media
+-
+>
+num_payloads
++
++
+;
 if
 (
 media
@@ -11319,13 +11326,6 @@ return
 codec
 ;
 }
-media
--
->
-num_payloads
-+
-+
-;
 if
 (
 offer
