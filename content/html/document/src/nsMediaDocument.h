@@ -124,6 +124,14 @@ StartLayout
 )
 ;
 void
+GetFileName
+(
+nsAString
+&
+aResult
+)
+;
+void
 UpdateTitleAndCharset
 (
 const

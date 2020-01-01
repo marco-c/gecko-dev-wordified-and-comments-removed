@@ -580,7 +580,11 @@ html
 \
 320x240
 .
-ogg
+ogv
+\
+test_videoDocumentTitle
+.
+html
 \
 bug461281
 .
@@ -588,7 +592,7 @@ ogg
 \
 seek
 .
-ogg
+ogv
 \
 (
 NULL
@@ -623,6 +627,10 @@ MOZ_WAVE
 _TEST_FILES
 +
 =
+\
+test_audioDocumentTitle
+.
+html
 \
 big
 .
