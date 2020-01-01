@@ -149,9 +149,6 @@ interface
 HTMLOptionElement
 ;
 interface
-HTMLOptGroupElement
-;
-interface
 HTMLOptionsCollection
 :
 HTMLCollection

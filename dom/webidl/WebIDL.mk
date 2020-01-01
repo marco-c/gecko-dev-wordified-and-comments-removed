@@ -375,6 +375,10 @@ HTMLOListElement
 .
 webidl
 \
+HTMLOptGroupElement
+.
+webidl
+\
 HTMLOptionsCollection
 .
 webidl
