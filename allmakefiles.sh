@@ -295,6 +295,13 @@ if
 "
 MOZ_JEMALLOC
 "
+-
+a
+-
+z
+"
+MOZ_NATIVE_JEMALLOC
+"
 ]
 ;
 then

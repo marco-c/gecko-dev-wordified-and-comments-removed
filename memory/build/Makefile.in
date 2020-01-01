@@ -110,6 +110,8 @@ CSRCS
 mozjemalloc_compat
 .
 c
+ifndef
+MOZ_NATIVE_JEMALLOC
 SHARED_LIBRARY_LIBS
 +
 =
@@ -125,6 +127,7 @@ memory
 /
 jemalloc
 )
+endif
 else
 SHARED_LIBRARY_LIBS
 +
