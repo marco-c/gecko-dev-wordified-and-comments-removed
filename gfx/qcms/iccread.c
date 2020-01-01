@@ -1935,7 +1935,7 @@ len
 {
 static
 const
-size_t
+uint32_t
 COUNT_TO_LENGTH
 [
 5
@@ -1968,7 +1968,7 @@ offset
 uint32_t
 count
 ;
-int
+uint32_t
 i
 ;
 if
