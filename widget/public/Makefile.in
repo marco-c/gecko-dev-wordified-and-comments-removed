@@ -653,6 +653,10 @@ nsIIdleService
 .
 idl
 \
+nsIGfxInfo
+.
+idl
+\
 (
 NULL
 )
@@ -707,10 +711,6 @@ nsIJumpListBuilder
 idl
 \
 nsIJumpListItem
-.
-idl
-\
-nsIGfxInfo
 .
 idl
 \
