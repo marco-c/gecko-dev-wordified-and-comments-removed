@@ -581,8 +581,6 @@ cpp
 (
 NULL
 )
-ifndef
-MINIMO
 ifeq
 (
 (
@@ -600,9 +598,6 @@ dlldeps
 .
 cpp
 endif
-endif
-ifndef
-MINIMO
 ifeq
 (
 (
@@ -619,7 +614,6 @@ CPPSRCS
 dlldeps
 .
 cpp
-endif
 endif
 ifdef
 XPCOM_USE_LEA
@@ -971,12 +965,9 @@ FORCE_USE_PIC
 1
 ifndef
 MOZ_ENABLE_LIBXUL
-ifndef
-MINIMO
 FORCE_SHARED_LIB
 =
 1
-endif
 endif
 #
 UNIX98

@@ -424,8 +424,6 @@ DIRS
 base
 /
 src
-ifndef
-MINIMO
 ifneq
 (
 (
@@ -475,7 +473,6 @@ samples
 default
 /
 unix
-endif
 endif
 ifeq
 (

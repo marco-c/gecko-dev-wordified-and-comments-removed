@@ -435,13 +435,10 @@ DIRS
 +
 =
 src
-ifndef
-MINIMO
 TOOL_DIRS
 +
 =
 shell
-endif
 ifdef
 ENABLE_TESTS
 TOOL_DIRS

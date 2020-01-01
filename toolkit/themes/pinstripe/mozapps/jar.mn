@@ -17,9 +17,6 @@ classic
 /
 mozapps
 /
-#
-ifndef
-MINIMO
 skin
 /
 classic
@@ -731,5 +728,3 @@ handling
 .
 css
 )
-#
-endif

@@ -2,9 +2,6 @@ classic
 .
 jar
 :
-#
-ifndef
-MINIMO
 +
 skin
 /
@@ -354,7 +351,5 @@ tagContainerIcon
 .
 png
 )
-#
-endif
 #
 endif

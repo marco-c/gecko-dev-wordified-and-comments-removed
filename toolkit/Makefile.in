@@ -480,8 +480,6 @@ DIRS
 =
 crashreporter
 endif
-ifndef
-MINIMO
 DIRS
 +
 =
@@ -493,7 +491,6 @@ mozapps
 (
 NULL
 )
-endif
 include
 (
 topsrcdir

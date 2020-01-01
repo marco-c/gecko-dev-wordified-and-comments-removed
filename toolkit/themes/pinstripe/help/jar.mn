@@ -17,9 +17,6 @@ classic
 /
 help
 /
-#
-ifndef
-MINIMO
 skin
 /
 classic
@@ -56,5 +53,3 @@ help
 Weblink
 .
 png
-#
-endif

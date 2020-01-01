@@ -492,20 +492,11 @@ WINAPP
 =
 winembed
 else
-ifdef
-MINIMO
-BASEBROWSER
-=
-minimo
--
-unix
-else
 BASEBROWSER
 =
 basebrowser
 -
 unix
-endif
 CLIENTMANIFEST
 =
 client
@@ -1108,8 +1099,6 @@ DIST
 )
 /
 Embed
-ifndef
-MINIMO
 -
 (
 NSINSTALL
@@ -1138,7 +1127,6 @@ DIST
 Embed
 /
 components
-endif
 ifeq
 (
 (

@@ -432,12 +432,9 @@ SHORT_LIBNAME
 =
 xpcomctc
 endif
-ifndef
-MINIMO
 EXPORT_LIBRARY
 =
 1
-endif
 IS_COMPONENT
 =
 1

@@ -17,9 +17,6 @@ classic
 /
 help
 /
-#
-ifndef
-MINIMO
 skin
 /
 classic
@@ -78,5 +75,3 @@ Weblink
 rtl
 .
 png
-#
-endif
