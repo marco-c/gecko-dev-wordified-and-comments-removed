@@ -1425,7 +1425,7 @@ ObserverList
 SystemTimeChange
 >
 >
-sSystemTimeObserver
+sSystemTimeObservers
 ;
 static
 void
@@ -1436,10 +1436,10 @@ InitializeSystemTimeChangeObserver
 if
 (
 !
-sSystemTimeObserver
+sSystemTimeObservers
 )
 {
-sSystemTimeObserver
+sSystemTimeObservers
 =
 new
 ObserverList
@@ -1450,7 +1450,7 @@ SystemTimeChange
 ClearOnShutdown
 (
 &
-sSystemTimeObserver
+sSystemTimeObservers
 )
 ;
 }
@@ -1471,7 +1471,7 @@ InitializeSystemTimeChangeObserver
 (
 )
 ;
-sSystemTimeObserver
+sSystemTimeObservers
 -
 >
 AddObserver
@@ -1492,7 +1492,7 @@ AssertMainThread
 (
 )
 ;
-sSystemTimeObserver
+sSystemTimeObservers
 -
 >
 RemoveObserver
@@ -1517,7 +1517,7 @@ InitializeSystemTimeChangeObserver
 (
 )
 ;
-sSystemTimeObserver
+sSystemTimeObservers
 -
 >
 Broadcast
