@@ -4362,6 +4362,11 @@ flex
 >
 <
 hbox
+align
+=
+"
+center
+"
 >
 <
 !
@@ -4678,6 +4683,11 @@ label
 >
 <
 hbox
+align
+=
+"
+center
+"
 >
 <
 textbox
@@ -4827,6 +4837,11 @@ label
 >
 <
 hbox
+align
+=
+"
+center
+"
 >
 <
 textbox
