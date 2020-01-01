@@ -2219,6 +2219,11 @@ nsIAccessible
 aAccessible
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+aAccessible
+)
+;
 *
 aAccessible
 =
@@ -2321,8 +2326,12 @@ col
 }
 if
 (
+!
 col
 )
+return
+NS_OK
+;
 col
 -
 >
