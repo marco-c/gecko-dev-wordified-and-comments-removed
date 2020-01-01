@@ -9893,6 +9893,12 @@ aWidgetType
 =
 =
 NS_THEME_MENUPOPUP
+|
+|
+aWidgetType
+=
+=
+NS_THEME_TOOLTIP
 )
 {
 return
