@@ -622,6 +622,9 @@ remove
 (
 )
 .
+[
+optional_argc
+]
 boolean
 continue
 (

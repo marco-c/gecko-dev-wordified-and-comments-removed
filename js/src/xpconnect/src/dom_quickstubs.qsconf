@@ -2807,6 +2807,12 @@ addOrModify
 -
 nsIIDBCursorRequest
 .
+continue
+'
+'
+-
+nsIIDBCursorRequest
+.
 value
 '
 '
