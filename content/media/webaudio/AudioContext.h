@@ -521,6 +521,7 @@ MediaStreamAudioSourceNode
 >
 CreateMediaStreamSource
 (
+const
 DOMMediaStream
 &
 aMediaStream
