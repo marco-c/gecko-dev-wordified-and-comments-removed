@@ -1476,7 +1476,7 @@ browser
 /
 locale
 /
-browser
+region
 .
 properties
 "
@@ -1538,7 +1538,7 @@ browser
 /
 locale
 /
-browser
+region
 .
 properties
 "
@@ -1564,7 +1564,7 @@ browser
 /
 locale
 /
-browser
+region
 .
 properties
 "
@@ -1590,7 +1590,7 @@ browser
 /
 locale
 /
-browser
+region
 .
 properties
 "
