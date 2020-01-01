@@ -98,6 +98,7 @@ js
 namespace
 {
 class
+MOZ_STACK_CLASS
 AutoContextPusher
 {
 nsCxPusher

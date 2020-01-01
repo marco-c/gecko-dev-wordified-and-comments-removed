@@ -26,7 +26,7 @@ nsIDocumentObserver
 h
 "
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 mozAutoDocUpdate
 {
 public
@@ -169,7 +169,7 @@ type
 notify
 )
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 mozAutoDocConditionalContentUpdateBatch
 {
 public

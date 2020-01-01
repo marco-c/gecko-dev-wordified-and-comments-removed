@@ -4633,7 +4633,7 @@ clazz
 )
 )
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsCxPusher
 {
 public
@@ -4740,7 +4740,7 @@ endif
 }
 ;
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsAutoScriptBlocker
 {
 public
@@ -4779,7 +4779,7 @@ MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsAutoScriptBlockerSuppressNodeRemoved
 :
 public
@@ -4825,7 +4825,7 @@ endif
 }
 ;
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 nsAutoMicroTask
 {
 public
@@ -4861,7 +4861,7 @@ namespace
 mozilla
 {
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 AutoJSContext
 {
 public
@@ -4907,7 +4907,7 @@ MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 SafeAutoJSContext
 :
 public
@@ -4923,7 +4923,7 @@ MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
 }
 ;
 class
-NS_STACK_CLASS
+MOZ_STACK_CLASS
 AutoPushJSContext
 {
 nsCxPusher
