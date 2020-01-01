@@ -584,7 +584,7 @@ aDoc
 mFlags
 |
 =
-eSharedNode
+eNotNodeMapEntry
 ;
 }
 nsresult

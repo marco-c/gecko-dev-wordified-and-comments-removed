@@ -857,14 +857,6 @@ if
 (
 !
 aContent
-)
-return
-0
-;
-if
-(
-!
-aContent
 -
 >
 HasAttr
