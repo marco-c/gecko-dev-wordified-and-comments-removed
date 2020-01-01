@@ -997,6 +997,9 @@ gtk
 h
 >
 #
+ifdef
+MOZ_X11
+#
 include
 <
 gdk
@@ -1005,6 +1008,8 @@ gdkx
 .
 h
 >
+#
+endif
 #
 include
 "
@@ -10761,6 +10766,9 @@ gtk_check_version
 NULL
 )
 {
+#
+ifdef
+MOZ_X11
 Display
 *
 dpy
@@ -10780,6 +10788,15 @@ XCloseDisplay
 dpy
 )
 ;
+#
+else
+gdk_display_close
+(
+display
+)
+;
+#
+endif
 }
 else
 {

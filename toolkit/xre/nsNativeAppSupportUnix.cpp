@@ -1261,6 +1261,9 @@ aRetVal
 =
 PR_TRUE
 ;
+#
+ifdef
+MOZ_X11
 PRLibrary
 *
 gnomeuiLib
@@ -1371,6 +1374,8 @@ NS_OK
 ;
 }
 #
+endif
+#
 ifdef
 ACCESSIBILITY
 static
@@ -1404,6 +1409,9 @@ accEnv
 ;
 #
 endif
+#
+ifdef
+MOZ_X11
 gnome_program_init
 (
 "
@@ -1422,6 +1430,8 @@ gArgv
 NULL
 )
 ;
+#
+endif
 #
 ifdef
 ACCESSIBILITY
@@ -1448,6 +1458,9 @@ accEnv
 }
 #
 endif
+#
+ifdef
+MOZ_X11
 gnome_client_request_interaction
 =
 (
@@ -1537,6 +1550,8 @@ die_cb
 NULL
 )
 ;
+#
+endif
 return
 NS_OK
 ;
