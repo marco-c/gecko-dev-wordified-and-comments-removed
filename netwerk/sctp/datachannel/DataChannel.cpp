@@ -42,13 +42,11 @@ SCTP_DEBUG
 #
 define
 SCTP_STDINT_INCLUDE
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 #
 ifdef
 _MSC_VER

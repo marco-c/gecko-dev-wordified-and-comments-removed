@@ -25,13 +25,11 @@ h
 "
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 using
 namespace
 mozilla

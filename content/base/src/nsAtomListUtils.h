@@ -6,13 +6,11 @@ define
 nsAtomListUtils_h__
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 class
 nsIAtom
 ;

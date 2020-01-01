@@ -29,13 +29,11 @@ h
 "
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 #
 define
 XPT_PUBLIC_API

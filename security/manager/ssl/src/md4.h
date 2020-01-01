@@ -16,13 +16,11 @@ C
 endif
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 void
 md4sum
 (

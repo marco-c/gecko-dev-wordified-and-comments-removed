@@ -6,13 +6,11 @@ define
 GFX_CHROMIUMTYPES_H
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 #
 ifndef
 PROTYPES_H

@@ -6,13 +6,11 @@ define
 NS_SMILTYPES_H_
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 typedef
 int64_t
 nsSMILTime

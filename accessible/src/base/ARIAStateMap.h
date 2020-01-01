@@ -6,13 +6,11 @@ define
 _mozilla_a11y_aria_ARIAStateMap_h_
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 namespace
 mozilla
 {

@@ -50299,17 +50299,6 @@ MOZ_CRASHREPORTER_INJECTOR
 fi
 fi
 fi
-AC_DEFINE_UNQUOTED
-(
-BREAKPAD_CUSTOM_STDINT_H
-"
-mozilla
-/
-StandardInteger
-.
-h
-"
-)
 MOZ_ARG_WITH_STRING
 (
 crashreporter

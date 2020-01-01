@@ -21,13 +21,11 @@ h
 "
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 #
 if
 defined

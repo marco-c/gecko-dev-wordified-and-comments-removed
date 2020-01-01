@@ -6,13 +6,11 @@ define
 COMPATIBILITY_MANAGER_H
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 namespace
 mozilla
 {

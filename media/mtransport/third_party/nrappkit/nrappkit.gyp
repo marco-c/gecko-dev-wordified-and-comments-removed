@@ -1297,13 +1297,11 @@ R_PLATFORM_INT_TYPES
 =
 \
 '
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 \
 '
 '

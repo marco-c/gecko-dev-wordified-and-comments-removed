@@ -6,13 +6,11 @@ define
 nsEvent_h__
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 enum
 UIStateChangeType
 {

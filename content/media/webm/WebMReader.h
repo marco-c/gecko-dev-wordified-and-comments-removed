@@ -10,13 +10,11 @@ define
 WebMReader_h_
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 #
 include
 "

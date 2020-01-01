@@ -6,13 +6,11 @@ define
 nsCocoaFeatures_h_
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 class
 nsCocoaFeatures
 {

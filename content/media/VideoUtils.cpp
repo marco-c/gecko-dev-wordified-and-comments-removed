@@ -32,13 +32,11 @@ h
 "
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 CheckedInt64
 FramesToUsecs
 (

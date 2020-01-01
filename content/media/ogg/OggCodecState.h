@@ -136,13 +136,11 @@ h
 "
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 #
 define
 VALIDATE_VORBIS_SAMPLE_CALCULATION

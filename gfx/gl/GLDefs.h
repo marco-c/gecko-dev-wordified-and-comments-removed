@@ -127,13 +127,11 @@ endif
 endif
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 typedef
 struct
 __GLsync

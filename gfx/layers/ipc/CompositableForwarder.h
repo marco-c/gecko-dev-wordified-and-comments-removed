@@ -6,13 +6,11 @@ define
 MOZILLA_LAYERS_COMPOSITABLEFORWARDER
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 #
 include
 "

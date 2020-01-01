@@ -6,13 +6,11 @@ define
 nsTArrayForwardDeclare_h__
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 template
 <
 class

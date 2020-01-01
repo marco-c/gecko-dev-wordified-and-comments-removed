@@ -6,13 +6,11 @@ define
 nsViewportInfo_h___
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 #
 include
 "

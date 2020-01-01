@@ -239,10 +239,6 @@ SplayTree
 .
 h
 \
-StandardInteger
-.
-h
-\
 TemplateLib
 .
 h

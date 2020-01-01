@@ -13,15 +13,6 @@ h
 "
 #
 include
-"
-mozilla
-/
-StandardInteger
-.
-h
-"
-#
-include
 <
 elf
 .

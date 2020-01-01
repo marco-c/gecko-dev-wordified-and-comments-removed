@@ -6,13 +6,11 @@ define
 nsAttrValueInlines_h__
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 struct
 MiscContainer
 {

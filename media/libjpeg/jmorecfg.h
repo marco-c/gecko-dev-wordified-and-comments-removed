@@ -1,12 +1,10 @@
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 #
 define
 BITS_IN_JSAMPLE

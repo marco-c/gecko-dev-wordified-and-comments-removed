@@ -6,13 +6,11 @@ define
 mozilla_system_automounter_h__
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 class
 nsCString
 ;

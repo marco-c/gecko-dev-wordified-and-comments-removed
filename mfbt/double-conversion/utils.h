@@ -237,13 +237,11 @@ Conversion
 endif
 #
 include
-"
-mozilla
-/
-StandardInteger
+<
+stdint
 .
 h
-"
+>
 #
 define
 UINT64_2PART_C
