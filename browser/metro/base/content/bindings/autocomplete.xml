@@ -503,6 +503,11 @@ viewable
 -
 height
 "
+flex
+=
+"
+1
+"
 >
 <
 xul
@@ -580,6 +585,11 @@ section
 viewable
 -
 height
+"
+flex
+=
+"
+1
 "
 >
 <

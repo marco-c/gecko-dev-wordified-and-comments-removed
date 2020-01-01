@@ -4471,6 +4471,11 @@ start
 -
 autocomplete
 "
+observes
+=
+"
+bcast_windowState
+"
 /
 >
 <
