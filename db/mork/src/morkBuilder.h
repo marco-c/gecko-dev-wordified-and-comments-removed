@@ -203,7 +203,6 @@ morkBuilder_kCellsVecSize
 )
 ;
 }
-;
 public
 :
 virtual
