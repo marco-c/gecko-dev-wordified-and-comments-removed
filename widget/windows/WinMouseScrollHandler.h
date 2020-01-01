@@ -49,6 +49,9 @@ nsWindow
 class
 nsGUIEvent
 ;
+struct
+nsModifierKeyState
+;
 namespace
 mozilla
 {
@@ -98,6 +101,12 @@ aRetValue
 bool
 &
 aEatMessage
+)
+;
+static
+nsModifierKeyState
+GetModifierKeyState
+(
 )
 ;
 private
