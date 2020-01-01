@@ -642,9 +642,8 @@ JSObject
 *
 global
 =
-JS_GetGlobalObject
+GetNativeGlobal
 (
-mContext
 )
 ;
 return

@@ -293,7 +293,10 @@ RootedObject
 defaultGlobal
 (
 cx
-JS_GetGlobalObject
+js
+:
+:
+GetDefaultGlobalForContext
 (
 cx
 )

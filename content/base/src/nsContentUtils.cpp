@@ -7928,7 +7928,10 @@ JSObject
 *
 global
 =
-JS_GetGlobalObject
+js
+:
+:
+GetDefaultGlobalForContext
 (
 cx
 )
@@ -7950,7 +7953,10 @@ MOZ_ASSERT
 global
 =
 =
-JS_GetGlobalObject
+js
+:
+:
+GetDefaultGlobalForContext
 (
 cx
 )

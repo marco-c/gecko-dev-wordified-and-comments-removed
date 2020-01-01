@@ -1931,7 +1931,10 @@ JSObject
 *
 global
 =
-JS_GetGlobalObject
+js
+:
+:
+GetDefaultGlobalForContext
 (
 acx
 )
@@ -2494,7 +2497,10 @@ JSObject
 *
 global
 =
-JS_GetGlobalObject
+js
+:
+:
+GetDefaultGlobalForContext
 (
 acx
 )
