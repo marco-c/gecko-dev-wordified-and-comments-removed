@@ -225,15 +225,6 @@ aPrincipal
 )
 ;
 virtual
-nsStyleSet
-:
-:
-sheetType
-GetAttrSheetType
-(
-)
-;
-virtual
 nsresult
 CreateShell
 (

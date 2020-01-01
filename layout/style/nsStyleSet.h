@@ -477,7 +477,6 @@ enum
 sheetType
 {
 eAgentSheet
-ePresHintSheet
 eUserSheet
 eHTMLPresHintSheet
 eDocSheet
