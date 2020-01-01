@@ -951,6 +951,9 @@ Disable
 NULL
 }
 }
+#
+ifndef
+USE_GLES2
 {
 (
 PRFuncPtr
@@ -965,6 +968,8 @@ DisableClientState
 NULL
 }
 }
+#
+endif
 {
 (
 PRFuncPtr
@@ -1024,6 +1029,9 @@ Enable
 NULL
 }
 }
+#
+ifndef
+USE_GLES2
 {
 (
 PRFuncPtr
@@ -1038,6 +1046,8 @@ EnableClientState
 NULL
 }
 }
+#
+endif
 {
 (
 PRFuncPtr
@@ -1303,6 +1313,9 @@ GetProgramInfoLogARB
 NULL
 }
 }
+#
+ifndef
+USE_GLES2
 {
 (
 PRFuncPtr
@@ -1317,6 +1330,8 @@ TexCoordPointer
 NULL
 }
 }
+#
+endif
 {
 (
 PRFuncPtr
@@ -1627,6 +1642,9 @@ PolygonOffset
 NULL
 }
 }
+#
+ifndef
+USE_GLES2
 {
 (
 PRFuncPtr
@@ -1641,6 +1659,8 @@ ReadBuffer
 NULL
 }
 }
+#
+endif
 {
 (
 PRFuncPtr
@@ -1776,6 +1796,9 @@ StencilOpSeparateEXT
 NULL
 }
 }
+#
+ifndef
+USE_GLES2
 {
 (
 PRFuncPtr
@@ -1790,6 +1813,8 @@ TexEnvf
 NULL
 }
 }
+#
+endif
 {
 (
 PRFuncPtr
@@ -2238,6 +2263,9 @@ VertexAttrib4fv
 NULL
 }
 }
+#
+ifndef
+USE_GLES2
 {
 (
 PRFuncPtr
@@ -2252,6 +2280,8 @@ VertexPointer
 NULL
 }
 }
+#
+endif
 {
 (
 PRFuncPtr
