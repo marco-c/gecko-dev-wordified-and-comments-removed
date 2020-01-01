@@ -1451,6 +1451,13 @@ kListStyleKTable
 static
 const
 int32_t
+kObjectPatternKTable
+[
+]
+;
+static
+const
+int32_t
 kOrientKTable
 [
 ]
