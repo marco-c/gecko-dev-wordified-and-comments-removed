@@ -4466,7 +4466,7 @@ aIsAsync
 library
 -
 >
-IsOOP
+UseAsyncPainting
 (
 )
 ;
