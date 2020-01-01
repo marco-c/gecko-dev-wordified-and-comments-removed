@@ -767,16 +767,6 @@ GetType
 )
 const
 ;
-virtual
-PRBool
-NeedsView
-(
-)
-{
-return
-PR_TRUE
-;
-}
 protected
 :
 nsAbsoluteContainingBlock
