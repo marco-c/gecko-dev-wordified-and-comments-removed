@@ -55,9 +55,7 @@ Basic
 usage
 :
 python
-trace
--
-test
+trace_test
 .
 py
 <
@@ -133,9 +131,7 @@ slow
 tests
 :
 python
-trace
--
-test
+trace_test
 .
 py
 <
@@ -153,9 +149,7 @@ more
 options
 :
 python
-trace
--
-test
+trace_test
 .
 py
 -

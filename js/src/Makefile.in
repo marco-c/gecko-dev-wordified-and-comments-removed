@@ -3062,9 +3062,7 @@ trace
 -
 test
 /
-trace
--
-test
+trace_test
 .
 py
 \
@@ -3115,9 +3113,7 @@ trace
 -
 test
 /
-trace
--
-test
+trace_test
 .
 py
 \
