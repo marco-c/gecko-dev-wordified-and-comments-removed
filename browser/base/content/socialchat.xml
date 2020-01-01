@@ -479,11 +479,11 @@ initCustomEvent
 val
 ?
 "
-socialFrameHide
+socialFrameShow
 "
 :
 "
-socialFrameShow
+socialFrameHide
 "
 true
 true
