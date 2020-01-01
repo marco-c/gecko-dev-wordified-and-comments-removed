@@ -324,6 +324,15 @@ include
 ]
 }
 '
+defines
+'
+:
+[
+'
+WEBRTC_EXTERNAL_TRANSPORT
+'
+]
+'
 sources
 '
 :
