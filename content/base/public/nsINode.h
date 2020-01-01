@@ -2386,6 +2386,17 @@ return
 NS_OK
 ;
 }
+static
+bool
+ShouldExposeUserData
+(
+JSContext
+*
+aCx
+JSObject
+*
+)
+;
 void
 LookupPrefix
 (
