@@ -1103,11 +1103,6 @@ SetPopupWindowLevel
 )
 ;
 PRBool
-IsVisible
-(
-)
-;
-PRBool
 IsChildInFailingLeftClickThrough
 (
 NSView
@@ -1266,9 +1261,6 @@ mFullScreen
 ;
 PRPackedBool
 mModal
-;
-PRPackedBool
-mIsShowing
 ;
 PRInt32
 mNumModalDescendents
