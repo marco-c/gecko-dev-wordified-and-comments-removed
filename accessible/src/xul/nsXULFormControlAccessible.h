@@ -702,6 +702,12 @@ GetAllowsAnonChildAccessibles
 ;
 protected
 :
+virtual
+void
+CacheChildren
+(
+)
+;
 already_AddRefed
 <
 nsIDOMNode

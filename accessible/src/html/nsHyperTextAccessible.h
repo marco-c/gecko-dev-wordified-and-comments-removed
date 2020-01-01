@@ -292,12 +292,6 @@ aEndOffset
 ;
 protected
 :
-virtual
-void
-CacheChildren
-(
-)
-;
 nsresult
 GetTextHelper
 (
