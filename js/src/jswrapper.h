@@ -1149,10 +1149,6 @@ UnwrapObject
 JSObject
 *
 obj
-bool
-stopAtOuter
-=
-true
 uintN
 *
 flagsp

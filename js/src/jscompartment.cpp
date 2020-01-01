@@ -826,7 +826,6 @@ vp
 toObject
 (
 )
-true
 &
 flags
 )
