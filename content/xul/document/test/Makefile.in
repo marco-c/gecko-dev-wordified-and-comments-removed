@@ -444,6 +444,10 @@ test_bug199692
 .
 xul
 \
+test_bug391002
+.
+xul
+\
 test_bug403868
 .
 xul
