@@ -765,7 +765,7 @@ const
 char
 *
 prefix
-int
+uintN
 index
 JSStackFrame
 *
