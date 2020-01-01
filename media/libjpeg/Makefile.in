@@ -377,14 +377,6 @@ simd
 jsimd_arm
 .
 c
-DISABLED_SSRCS
-+
-=
-simd
-/
-jsimd_arm_neon
-.
-S
 endif
 ifeq
 (

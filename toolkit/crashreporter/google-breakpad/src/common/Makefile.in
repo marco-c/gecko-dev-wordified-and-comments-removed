@@ -198,12 +198,6 @@ srcdir
 )
 /
 android
-DISABLED_SSRCS
-:
-=
-breakpad_getcontext
-.
-S
 TARGET_LOCAL_INCLUDES
 +
 =
