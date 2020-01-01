@@ -499,7 +499,9 @@ upload
 archive
 =
 basename
+"
 1
+"
 echo
 "
 Transferring
@@ -529,7 +531,9 @@ i
 SYMBOL_SERVER_SSH_KEY
 "
 }
+"
 1
+"
 \
 {
 SYMBOL_SERVER_USER
@@ -601,12 +605,16 @@ SYMBOL_SERVER_PATH
 unzip
 -
 o
+'
 archive
+'
 ;
 rm
 -
 v
+'
 archive
+'
 ;
 "
 echo

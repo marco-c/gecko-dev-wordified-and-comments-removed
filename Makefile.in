@@ -1303,11 +1303,13 @@ r9D
 .
 .
 /
+"
 (
 SYMBOL_ARCHIVE_BASENAME
 )
 .
 zip
+"
 .
 endif
 #
@@ -1329,6 +1331,7 @@ tools
 upload_symbols
 .
 sh
+"
 (
 DIST
 )
@@ -1338,6 +1341,7 @@ SYMBOL_ARCHIVE_BASENAME
 )
 .
 zip
+"
 endif
 ifeq
 (
