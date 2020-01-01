@@ -616,6 +616,9 @@ mIMEPreference
 PRPackedBool
 mIMEComposing
 ;
+PRPackedBool
+mIMESuppressNotifySel
+;
 }
 ;
 }
