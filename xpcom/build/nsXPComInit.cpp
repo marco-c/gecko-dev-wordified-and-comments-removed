@@ -683,7 +683,7 @@ ifdef
 XP_WIN
 extern
 nsresult
-nsMediaCacheRemover_Startup
+ScheduleMediaCacheRemover
 (
 )
 ;
@@ -2432,7 +2432,7 @@ NS_XPCOM_STARTUP_OBSERVER_ID
 #
 ifdef
 XP_WIN
-nsMediaCacheRemover_Startup
+ScheduleMediaCacheRemover
 (
 )
 ;
