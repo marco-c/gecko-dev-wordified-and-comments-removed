@@ -2672,7 +2672,6 @@ if
 importBookmarks
 )
 {
-+
 this
 .
 ensurePlacesDefaultQueriesInitialized
