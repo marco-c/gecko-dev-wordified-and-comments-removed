@@ -761,13 +761,9 @@ mDidForceRefreshOpenGL
 #
 ifdef
 __LP64__
-void
-(
-^
-mCancelSwipeAnimation
-)
-(
-)
+BOOL
+*
+mSwipeAnimationCancelled
 ;
 #
 endif

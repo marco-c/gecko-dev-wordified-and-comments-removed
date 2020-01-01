@@ -268,7 +268,6 @@ false
 false
 0
 null
-0
 aDirection
 0
 0
@@ -422,7 +421,6 @@ false
 false
 0
 null
-0
 0
 aDelta
 0

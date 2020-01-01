@@ -3778,10 +3778,6 @@ types
 supported
 are
 :
-MozSwipeGestureStart
-MozSwipeGestureUpdate
-*
-MozSwipeGestureEnd
 MozSwipeGesture
 MozMagnifyGestureStart
 *

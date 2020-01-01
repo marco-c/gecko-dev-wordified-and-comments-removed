@@ -1572,15 +1572,6 @@ aResult
 ;
 break
 ;
-case
-eIntID_SwipeAnimationEnabled
-:
-aResult
-=
-0
-;
-break
-;
 default
 :
 aResult
