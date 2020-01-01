@@ -14177,6 +14177,11 @@ nsLayoutUtils
 GetClosestFrameOfType
 (
 frame
+-
+>
+GetParent
+(
+)
 nsGkAtoms
 :
 :
