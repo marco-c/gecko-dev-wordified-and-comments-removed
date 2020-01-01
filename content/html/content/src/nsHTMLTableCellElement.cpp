@@ -1138,6 +1138,7 @@ ParseEnumValue
 (
 aValue
 kCellScopeTable
+PR_FALSE
 )
 ;
 }

@@ -364,6 +364,7 @@ ParseEnumValue
 (
 aValue
 kUnorderedListItemTypeTable
+PR_FALSE
 )
 ;
 }
