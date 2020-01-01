@@ -17,7 +17,8 @@ Components
 .
 interfaces
 ;
-var
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -26,6 +27,10 @@ ContentPrefInstance
 '
 ]
 ;
+this
+.
+ContentPrefInstance
+=
 function
 ContentPrefInstance
 (
@@ -67,6 +72,7 @@ _context
 aContext
 ;
 }
+;
 ContentPrefInstance
 .
 prototype
