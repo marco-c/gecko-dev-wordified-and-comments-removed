@@ -3420,7 +3420,7 @@ return
 NS_OK
 ;
 }
-PRBool
+bool
 nsGeolocationService
 :
 :

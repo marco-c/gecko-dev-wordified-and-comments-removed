@@ -281,7 +281,7 @@ aTimerToInsert
 endif
 {
 }
-PRBool
+bool
 LessThan
 (
 nsTimerImpl
@@ -328,7 +328,7 @@ newTimer
 mTimeout
 ;
 }
-PRBool
+bool
 Equals
 (
 nsTimerImpl
@@ -341,7 +341,7 @@ newTimer
 const
 {
 return
-PR_FALSE
+false
 ;
 }
 private
