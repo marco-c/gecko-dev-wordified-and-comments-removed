@@ -163,7 +163,7 @@ n
 )
 RUN_TIMEOUT
 =
-30
+45
 *
 60
 OUTPUT_TIMEOUT
@@ -2865,6 +2865,11 @@ False
 bundle_sdk
 =
 True
+            
+pkgdir
+=
+"
+"
 )
 :
     
@@ -3478,6 +3483,10 @@ used_files
 bundle_sdk
 =
 bundle_sdk
+              
+pkgdir
+=
+pkgdir
 )
     
 addons
