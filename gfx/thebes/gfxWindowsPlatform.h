@@ -196,6 +196,15 @@ CurrentSurface
 NS_ASSERTION
 (
 aSurface
+|
+|
+!
+aContext
+-
+>
+IsCairo
+(
+)
 "
 DCFromContext
 :
