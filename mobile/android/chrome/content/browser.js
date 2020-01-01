@@ -46197,6 +46197,11 @@ i
 ;
 }
 }
+if
+(
+lruTab
+)
+{
 let
 tabAgeMs
 =
@@ -46212,9 +46217,6 @@ lastTouchedAt
 ;
 if
 (
-lruTab
-&
-&
 tabAgeMs
 >
 expireTimeMs
@@ -46242,6 +46244,7 @@ tabAgeMs
 return
 true
 ;
+}
 }
 return
 false
