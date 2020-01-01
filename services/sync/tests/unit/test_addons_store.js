@@ -2709,6 +2709,14 @@ do_check_null
 deleted
 )
 ;
+let
+server
+=
+createAndStartHTTPServer
+(
+HTTP_PORT
+)
+;
 store
 .
 applyIncoming
@@ -2746,8 +2754,11 @@ ignoreRepositoryChecking
 "
 )
 ;
-run_next_test
+server
+.
+stop
 (
+run_next_test
 )
 ;
 }
