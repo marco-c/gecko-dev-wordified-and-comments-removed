@@ -1195,6 +1195,18 @@ PKG_STAGE
 bin
 /
 plugins
+&
+&
+(
+NSINSTALL
+)
+-
+D
+(
+DIST
+)
+/
+plugins
 (
 cd
 (
@@ -1335,7 +1347,7 @@ xf
 (
 cd
 (
-DIST_BIN
+DIST
 )
 /
 plugins
