@@ -4842,6 +4842,9 @@ IsDoubleBuffered
 mBackBufferFBO
 )
 ;
+#
+ifndef
+USE_GLES2
 if
 (
 mGLContext
@@ -4861,9 +4864,6 @@ LOCAL_GL_BACK
 )
 ;
 }
-#
-ifndef
-USE_GLES2
 else
 {
 mGLContext
