@@ -2541,6 +2541,9 @@ mOldSizeMode
 WindowHook
 mWindowHook
 ;
+DWORD
+mAssumeWheelIsZoomUntil
+;
 static
 PRUint32
 sInstanceCount
