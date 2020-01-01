@@ -1,3 +1,5 @@
+import
+testmodule
 def
 writetofile
 (
