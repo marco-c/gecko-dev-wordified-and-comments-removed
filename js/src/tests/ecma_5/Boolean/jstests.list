@@ -27,3 +27,11 @@ script
 2
 .
 js
+script
+no
+-
+boolean
+-
+toJSON
+.
+js

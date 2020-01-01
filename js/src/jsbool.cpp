@@ -393,13 +393,6 @@ bool_valueOf
 0
 0
 )
-JS_FN
-(
-js_toJSON_str
-bool_valueOf
-0
-0
-)
 JS_FS_END
 }
 ;
