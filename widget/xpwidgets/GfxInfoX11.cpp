@@ -1161,6 +1161,10 @@ OperatingSystem
 aOS
 )
 {
+GetData
+(
+)
+;
 NS_ENSURE_ARG_POINTER
 (
 aStatus
@@ -1270,10 +1274,6 @@ nsIGfxInfo
 FEATURE_WEBGL_MSAA
 )
 {
-GetData
-(
-)
-;
 if
 (
 aFeature
