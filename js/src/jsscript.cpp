@@ -14334,7 +14334,7 @@ ifdef
 JS_METHODJIT
 if
 (
-hasMJITInfo
+hasJITInfo
 (
 )
 )
@@ -15685,7 +15685,7 @@ if
 script
 -
 >
-hasMJITInfo
+hasJITInfo
 (
 )
 )

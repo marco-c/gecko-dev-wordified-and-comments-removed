@@ -766,7 +766,7 @@ if
 outerScript
 -
 >
-ensureHasMJITInfo
+ensureHasJITInfo
 (
 cx
 )
@@ -5108,7 +5108,7 @@ if
 script
 -
 >
-hasMJITInfo
+hasJITInfo
 (
 )
 )
@@ -5248,7 +5248,7 @@ if
 script
 -
 >
-ensureHasMJITInfo
+ensureHasJITInfo
 (
 cx
 )

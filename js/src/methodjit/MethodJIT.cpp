@@ -7808,7 +7808,7 @@ mallocSizeOf
 if
 (
 !
-hasMJITInfo
+hasJITInfo
 (
 )
 )
@@ -7820,7 +7820,7 @@ n
 =
 mallocSizeOf
 (
-mJITInfo
+jitInfo
 )
 ;
 for

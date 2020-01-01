@@ -835,7 +835,7 @@ bool
 JSScript
 :
 :
-ensureHasMJITInfo
+ensureHasJITInfo
 (
 JSContext
 *
@@ -844,12 +844,12 @@ cx
 {
 if
 (
-mJITInfo
+jitInfo
 )
 return
 true
 ;
-mJITInfo
+jitInfo
 =
 cx
 -
@@ -862,7 +862,7 @@ JITScriptSet
 )
 ;
 return
-mJITInfo
+jitInfo
 !
 =
 NULL
@@ -873,7 +873,7 @@ void
 JSScript
 :
 :
-destroyMJITInfo
+destroyJITInfo
 (
 js
 :
@@ -888,10 +888,10 @@ fop
 >
 delete_
 (
-mJITInfo
+jitInfo
 )
 ;
-mJITInfo
+jitInfo
 =
 NULL
 ;

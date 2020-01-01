@@ -1080,7 +1080,7 @@ co
 script
 -
 >
-hasMJITInfo
+hasJITInfo
 (
 )
 )
