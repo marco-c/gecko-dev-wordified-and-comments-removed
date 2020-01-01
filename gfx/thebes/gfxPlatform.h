@@ -1800,6 +1800,7 @@ BackendType
 GetContentBackendPref
 (
 uint32_t
+&
 aBackendBitmask
 )
 ;
@@ -1822,6 +1823,7 @@ char
 *
 aBackendPrefName
 uint32_t
+&
 aBackendBitmask
 )
 ;
