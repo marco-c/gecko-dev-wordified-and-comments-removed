@@ -827,6 +827,15 @@ keyCode
 ;
 event
 .
+location
+=
+nsIDOMKeyEvent
+:
+:
+DOM_KEY_LOCATION_MOBILE
+;
+event
+.
 time
 =
 timeMs
