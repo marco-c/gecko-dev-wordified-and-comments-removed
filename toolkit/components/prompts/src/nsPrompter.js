@@ -1952,6 +1952,9 @@ nsIDOMWindowUtils
 ;
 if
 (
+winUtils
+&
+&
 !
 winUtils
 .
