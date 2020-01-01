@@ -1231,9 +1231,10 @@ mSimpleRuleMemberTest
 )
 rv
 =
-AddDefaultSimpleRules
+CompileSimpleQuery
 (
 query
+content
 &
 lastnode
 )
@@ -3442,7 +3443,7 @@ rv
 }
 }
 return
-rv
+NS_OK
 ;
 }
 nsresult
@@ -6091,6 +6092,15 @@ name
 NamespaceID
 (
 )
+;
+if
+(
+attrNameSpaceID
+=
+=
+kNameSpaceID_XMLNS
+)
+continue
 ;
 nsIAtom
 *
