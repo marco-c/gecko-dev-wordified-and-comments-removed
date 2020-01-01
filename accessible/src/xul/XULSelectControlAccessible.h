@@ -1,9 +1,9 @@
 #
 ifndef
-_XULSelectControlAccessible_H_
+mozilla_a11y_XULSelectControlAccessible_h__
 #
 define
-_XULSelectControlAccessible_H_
+mozilla_a11y_XULSelectControlAccessible_h__
 #
 include
 "
@@ -18,6 +18,12 @@ nsIDOMXULSelectCntrlEl
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+a11y
+{
 class
 XULSelectControlAccessible
 :
@@ -141,5 +147,7 @@ mSelectControl
 ;
 }
 ;
+}
+}
 #
 endif
