@@ -145,6 +145,10 @@ AndroidJNI
 .
 cpp
 \
+AndroidJNIWrapper
+.
+cpp
+\
 nsWindow
 .
 cpp
@@ -230,6 +234,9 @@ AndroidBridge
 .
 h
 AndroidJavaWrappers
+.
+h
+AndroidJNIWrapper
 .
 h
 include
