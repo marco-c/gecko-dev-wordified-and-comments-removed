@@ -999,7 +999,7 @@ nsISupports
 p
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 NS_CYCLE_COLLECTION_CLASSNAME
 (
@@ -1435,7 +1435,7 @@ p
 \
 {
 \
-NS_ASSERTION
+MOZ_ASSERT
 (
 CheckForRightISupports
 (

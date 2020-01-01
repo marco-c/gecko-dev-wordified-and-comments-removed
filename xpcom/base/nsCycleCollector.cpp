@@ -921,7 +921,7 @@ EdgePool
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 mSentinelAndBlocks
@@ -1843,7 +1843,7 @@ NodePool
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 mBlocks
@@ -1977,7 +1977,7 @@ mBlockEnd
 nullptr
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 aPool
 .
@@ -2194,7 +2194,7 @@ GetNext
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 IsDone
@@ -3223,7 +3223,7 @@ nsPurpleBufferEntry
 e
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 mCount
 !
@@ -7283,7 +7283,7 @@ e
 >
 mNode
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 result
 -
@@ -7871,7 +7871,7 @@ child
 )
 return
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 participant
 "
@@ -8028,7 +8028,7 @@ void
 node
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 node
 "
@@ -9173,7 +9173,7 @@ Walk
 pi
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 pi
 -
@@ -9583,7 +9583,7 @@ rv
 TimeLog
 timeLog
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 mWhiteNodes
 -
@@ -9746,7 +9746,7 @@ Length
 (
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 numWhiteGCed
 <
@@ -10742,7 +10742,7 @@ mScanInProgress
 return
 nullptr
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 nsCycleCollector_isScanSafe
 (
@@ -11090,7 +11090,7 @@ bool
 aForceGC
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -13354,7 +13354,7 @@ PR_GetCurrentThread
 ;
 #
 endif
-NS_ASSERTION
+MOZ_ASSERT
 (
 NS_IsCycleCollectorThread
 (
@@ -13518,7 +13518,7 @@ mMergeCompartments
 false
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -13544,7 +13544,7 @@ nsICycleCollectorListener
 aListener
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -13620,7 +13620,7 @@ whiteNodes
 )
 return
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 mListener
@@ -13742,7 +13742,7 @@ Shutdown
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -13805,7 +13805,7 @@ nsCycleCollector_startup
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -13817,7 +13817,7 @@ thread
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 sCollector
@@ -13992,7 +13992,7 @@ nsICycleCollectorListener
 aListener
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -14088,7 +14088,7 @@ nsCycleCollector_shutdownThreads
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -14158,7 +14158,7 @@ nsCycleCollector_shutdown
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 NS_IsMainThread
 (
@@ -14170,7 +14170,7 @@ thread
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 sCollectorRunner
@@ -14183,7 +14183,7 @@ before
 "
 )
 ;
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 sCollectorThread
