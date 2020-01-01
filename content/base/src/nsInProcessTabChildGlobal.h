@@ -28,7 +28,7 @@ h
 #
 include
 "
-nsDOMEventTargetHelper
+nsDOMEventTargetWrapperCache
 .
 h
 "
@@ -92,7 +92,7 @@ class
 nsInProcessTabChildGlobal
 :
 public
-nsDOMEventTargetHelper
+nsDOMEventTargetWrapperCache
 public
 nsFrameScriptExecutor
 public
@@ -127,7 +127,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 nsInProcessTabChildGlobal
-nsDOMEventTargetHelper
+nsDOMEventTargetWrapperCache
 )
 NS_FORWARD_SAFE_NSIFRAMEMESSAGEMANAGER
 (
