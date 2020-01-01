@@ -544,11 +544,6 @@ JSString
 *
 emptyString
 ;
-JSString
-*
-*
-unitStrings
-;
 JSCList
 contextList
 ;
@@ -1720,14 +1715,6 @@ if
 JS_HAS_XML_SUPPORT
 uint8
 xmlSettingFlags
-;
-uint8
-padding
-;
-#
-else
-uint16
-padding
 ;
 #
 endif

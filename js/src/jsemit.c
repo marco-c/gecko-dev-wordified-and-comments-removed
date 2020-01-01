@@ -9432,7 +9432,7 @@ fun
 JSFunction
 *
 )
-OBJ_GET_PRIVATE
+JS_GetPrivate
 (
 cx
 pn
@@ -10150,7 +10150,7 @@ js_Emit1
 (
 cx
 cg
-JSOP_GLOBALTHIS
+JSOP_NULL
 )
 <
 0
@@ -18113,7 +18113,7 @@ fun
 JSFunction
 *
 )
-OBJ_GET_PRIVATE
+JS_GetPrivate
 (
 cx
 pn
@@ -26293,7 +26293,7 @@ js_Emit1
 (
 cx
 cg
-JSOP_GLOBALTHIS
+JSOP_NULL
 )
 <
 0
@@ -26330,18 +26330,18 @@ TCF_IN_FOR_INIT
 ;
 for
 (
-pn3
+pn2
 =
 pn2
 -
 >
 pn_next
 ;
-pn3
+pn2
 ;
-pn3
+pn2
 =
-pn3
+pn2
 -
 >
 pn_next
@@ -26354,7 +26354,7 @@ js_EmitTree
 (
 cx
 cg
-pn3
+pn2
 )
 )
 return

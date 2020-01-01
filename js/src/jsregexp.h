@@ -413,9 +413,14 @@ cx
 JSObject
 *
 obj
+uintN
+argc
 jsval
 *
-vp
+argv
+jsval
+*
+rval
 )
 ;
 extern
