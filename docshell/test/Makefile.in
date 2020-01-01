@@ -642,6 +642,14 @@ file_bug640387
 .
 html
 \
+test_bug653741
+.
+html
+\
+file_bug653741
+.
+html
+\
 test_framedhistoryframes
 .
 html

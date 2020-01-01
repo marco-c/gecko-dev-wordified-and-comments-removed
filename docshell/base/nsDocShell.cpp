@@ -31878,7 +31878,8 @@ cy
 ;
 if
 (
-doHashchange
+!
+aSHEntry
 )
 {
 nsDependentCSubstring
