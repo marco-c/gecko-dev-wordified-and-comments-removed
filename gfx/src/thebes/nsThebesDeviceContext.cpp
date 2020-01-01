@@ -898,11 +898,7 @@ AppUnitsPerCSSPixel
 PR_MAX
 (
 1
-(
 dpi
-+
-48
-)
 /
 96
 )
