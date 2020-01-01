@@ -646,6 +646,11 @@ nsGenericHTMLElement
 aNodeInfo
 )
 {
+AddStatesSilently
+(
+NS_EVENT_STATE_BROKEN
+)
+;
 }
 nsHTMLImageElement
 :
@@ -1911,6 +1916,11 @@ src
 {
 ClearBrokenState
 (
+)
+;
+RemoveStatesSilently
+(
+NS_EVENT_STATE_BROKEN
 )
 ;
 if

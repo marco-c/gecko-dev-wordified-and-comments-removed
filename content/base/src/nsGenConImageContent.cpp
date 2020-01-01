@@ -57,6 +57,11 @@ nsXMLElement
 aNodeInfo
 )
 {
+AddStatesSilently
+(
+NS_EVENT_STATE_SUPPRESSED
+)
+;
 }
 nsresult
 Init

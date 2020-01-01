@@ -220,6 +220,11 @@ nsGenericHTMLFormElement
 aNodeInfo
 )
 {
+AddStatesSilently
+(
+NS_EVENT_STATE_INDETERMINATE
+)
+;
 }
 nsHTMLProgressElement
 :

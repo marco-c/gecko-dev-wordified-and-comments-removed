@@ -2190,6 +2190,7 @@ this
 ;
 UpdateEditableState
 (
+PR_FALSE
 )
 ;
 NS_POSTCONDITION

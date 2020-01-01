@@ -25702,6 +25702,11 @@ nsSVGFEImageElementBase
 aNodeInfo
 )
 {
+AddStatesSilently
+(
+NS_EVENT_STATE_BROKEN
+)
+;
 }
 nsSVGFEImageElement
 :
@@ -26075,6 +26080,11 @@ href
 {
 ClearBrokenState
 (
+)
+;
+RemoveStatesSilently
+(
+NS_EVENT_STATE_BROKEN
 )
 ;
 nsContentUtils

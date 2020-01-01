@@ -366,6 +366,8 @@ nsEventStates
 aOldState
 PRBool
 aSync
+PRBool
+aNotify
 )
 ;
 static

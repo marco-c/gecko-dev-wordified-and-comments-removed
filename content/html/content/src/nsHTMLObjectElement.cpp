@@ -483,6 +483,11 @@ SetBarredFromConstraintValidation
 PR_TRUE
 )
 ;
+AddStatesSilently
+(
+NS_EVENT_STATE_LOADING
+)
+;
 }
 nsHTMLObjectElement
 :

@@ -825,6 +825,14 @@ PR_FALSE
 ;
 }
 virtual
+void
+UpdateEditableState
+(
+PRBool
+aNotify
+)
+;
+virtual
 nsresult
 BindToTree
 (
