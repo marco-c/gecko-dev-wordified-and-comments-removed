@@ -764,9 +764,9 @@ const
 JS
 :
 :
-IterateData
+RuntimeStats
 &
-data
+rtStats
 const
 nsACString
 &

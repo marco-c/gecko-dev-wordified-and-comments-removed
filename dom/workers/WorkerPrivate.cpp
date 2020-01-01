@@ -981,8 +981,8 @@ AssertIsOnMainThread
 JS
 :
 :
-IterateData
-data
+RuntimeStats
+rtStats
 (
 xpc
 :
@@ -1005,7 +1005,7 @@ CollectForRuntime
 (
 false
 &
-data
+rtStats
 )
 ;
 if
@@ -1022,7 +1022,7 @@ rv
 }
 ReportJSRuntimeStats
 (
-data
+rtStats
 mPathPrefix
 aCallback
 aClosure
@@ -5865,7 +5865,7 @@ JsMallocSizeOf
 JS
 :
 :
-CollectCompartmentStatsForRuntime
+CollectRuntimeStats
 (
 JS_GetRuntime
 (
@@ -5876,7 +5876,7 @@ static_cast
 JS
 :
 :
-IterateData
+RuntimeStats
 *
 >
 (
