@@ -2030,7 +2030,7 @@ rNewLon
 double
 max_accuracy
 =
-PR_MAX
+NS_MAX
 (
 oldAccuracy
 newAccuracy

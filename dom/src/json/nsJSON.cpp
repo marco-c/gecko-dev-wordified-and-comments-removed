@@ -2578,8 +2578,12 @@ aStream
 Read
 (
 buffer
-PR_MIN
+NS_MIN
 (
+(
+unsigned
+long
+)
 sizeof
 (
 buffer
