@@ -4079,7 +4079,7 @@ ifdef
 ACCESSIBILITY
 if
 (
-mAccDocument
+mDocAccessible
 )
 {
 #
@@ -4121,14 +4121,14 @@ mDocument
 ;
 #
 endif
-mAccDocument
+mDocAccessible
 -
 >
 Shutdown
 (
 )
 ;
-mAccDocument
+mDocAccessible
 =
 nullptr
 ;

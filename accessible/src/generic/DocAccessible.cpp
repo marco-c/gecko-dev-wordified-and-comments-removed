@@ -437,7 +437,7 @@ mPresShell
 mPresShell
 -
 >
-SetAccDocument
+SetDocAccessible
 (
 this
 )
@@ -2500,7 +2500,7 @@ endif
 mPresShell
 -
 >
-SetAccDocument
+SetDocAccessible
 (
 nullptr
 )
