@@ -60,7 +60,7 @@ icon
 "
 drawable
 /
-sync_icon
+sync_ic_launcher
 "
 android
 :
@@ -69,7 +69,7 @@ smallIcon
 "
 drawable
 /
-sync_icon
+sync_ic_launcher
 "
 android
 :

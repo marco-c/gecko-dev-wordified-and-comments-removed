@@ -1,3 +1,6 @@
+#
+filter
+substitution
 <
 ?
 xml
@@ -102,11 +105,7 @@ android
 targetPackage
 =
 "
-org
-.
-mozilla
-.
-gecko
+ANDROID_PACKAGE_NAME
 "
 android
 :
