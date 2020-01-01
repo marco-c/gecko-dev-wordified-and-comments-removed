@@ -1805,9 +1805,6 @@ dom
 :
 :
 Throw
-<
-true
->
 (
 aCx
 NS_ERROR_FAILURE
@@ -1875,9 +1872,6 @@ dom
 :
 :
 Throw
-<
-true
->
 (
 aCx
 NS_ERROR_NOT_AVAILABLE

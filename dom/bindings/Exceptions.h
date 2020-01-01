@@ -45,7 +45,7 @@ dom
 class
 Exception
 ;
-void
+bool
 Throw
 (
 JSContext
@@ -57,6 +57,8 @@ const
 char
 *
 sz
+=
+nullptr
 )
 ;
 bool
@@ -79,6 +81,14 @@ aCx
 nsIException
 *
 aException
+)
+;
+already_AddRefed
+<
+nsIStackFrame
+>
+GetCurrentJSStack
+(
 )
 ;
 namespace
