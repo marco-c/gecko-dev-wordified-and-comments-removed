@@ -532,6 +532,10 @@ UAC
 .
 dll
 \
+ApplicationID
+.
+dll
+\
 (
 NULL
 )
