@@ -24966,11 +24966,11 @@ testLirBufOOM
 load
 (
 "
+math
+-
 trace
 -
-test
--
-math
+tests
 .
 js
 "
