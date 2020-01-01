@@ -565,6 +565,17 @@ shunt
 /
 include
 /
+stdlib
+.
+h
+build
+/
+wince
+/
+shunt
+/
+include
+/
 sys
 /
 Makefile
