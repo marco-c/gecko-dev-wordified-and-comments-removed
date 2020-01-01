@@ -514,6 +514,16 @@ int
 index
 )
 {
+if
+(
+index
+=
+=
+0
+)
+return
+0
+;
 do
 {
 index
