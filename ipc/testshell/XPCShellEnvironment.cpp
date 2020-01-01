@@ -1154,10 +1154,10 @@ line
 256
 ]
 ;
-fprintf
+fputs
 (
-stdout
 prompt
+stdout
 )
 ;
 fflush
