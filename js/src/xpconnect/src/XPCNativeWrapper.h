@@ -47,6 +47,9 @@ cx
 XPCWrappedNative
 *
 wrapper
+JSObject
+*
+scope
 nsIPrincipal
 *
 aObjectPrincipal

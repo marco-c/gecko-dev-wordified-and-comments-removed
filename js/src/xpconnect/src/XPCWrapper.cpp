@@ -176,8 +176,12 @@ JSObject
 *
 wrappedObj
 =
-STOBJ_GET_PARENT
+XPCSafeJSObjectWrapper
+:
+:
+GetUnsafeObject
 (
+cx
 wrapper
 )
 ;
