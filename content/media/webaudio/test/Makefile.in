@@ -107,6 +107,10 @@ test_bug845960
 .
 html
 \
+test_analyserNode
+.
+html
+\
 test_AudioBuffer
 .
 html
