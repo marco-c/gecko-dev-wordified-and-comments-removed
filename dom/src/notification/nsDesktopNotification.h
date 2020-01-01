@@ -291,6 +291,13 @@ PostDesktopNotification
 )
 ;
 void
+SetAllow
+(
+PRBool
+aAllow
+)
+;
+void
 DispatchNotificationEvent
 (
 const
@@ -342,6 +349,12 @@ nsCOMPtr
 nsIURI
 >
 mURI
+;
+PRBool
+mAllow
+;
+PRBool
+mShowHasBeenCalled
 ;
 }
 ;
