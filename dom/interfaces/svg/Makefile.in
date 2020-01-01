@@ -120,10 +120,6 @@ nsIDOMSVGAnimatedString
 .
 idl
 \
-nsIDOMSVGAnimateTransformElement
-.
-idl
-\
 nsIDOMSVGAnimationElement
 .
 idl
