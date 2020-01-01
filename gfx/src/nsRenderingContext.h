@@ -457,13 +457,6 @@ mFontMetrics
 ;
 }
 void
-SetRightToLeftText
-(
-PRBool
-aIsRTL
-)
-;
-void
 SetTextRunRTL
 (
 PRBool

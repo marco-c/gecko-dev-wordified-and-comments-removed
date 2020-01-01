@@ -7540,7 +7540,7 @@ nsIRenderingContextBidiProcessor
 mCtx
 -
 >
-SetRightToLeftText
+SetTextRunRTL
 (
 PR_FALSE
 )
