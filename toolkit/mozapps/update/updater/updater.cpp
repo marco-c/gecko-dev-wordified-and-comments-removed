@@ -1394,12 +1394,12 @@ LogPrintf
 args
 static
 inline
-PRUint32
+size_t
 mmin
 (
-PRUint32
+size_t
 a
-PRUint32
+size_t
 b
 )
 {
