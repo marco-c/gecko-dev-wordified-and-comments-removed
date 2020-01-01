@@ -2152,7 +2152,6 @@ DataFileSize
 (
 )
 ;
-const
 PRUint32
 newSizeK
 =
@@ -2164,6 +2163,16 @@ mStreamEnd
 >
 >
 10
+;
+if
+(
+newSizeK
+>
+kMaxDataSizeK
+)
+newSizeK
+=
+kMaxDataSizeK
 ;
 if
 (

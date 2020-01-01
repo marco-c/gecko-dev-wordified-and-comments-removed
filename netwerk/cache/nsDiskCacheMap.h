@@ -177,6 +177,10 @@ of
 !
 #
 define
+kMaxDataSizeK
+0xFFFF
+#
+define
 kPreallocateLimit
 1
 *
