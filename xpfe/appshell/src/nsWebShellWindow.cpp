@@ -603,8 +603,12 @@ Empty
 nsIntRect
 r
 (
-0
-0
+mOpenerScreenRect
+.
+x
+mOpenerScreenRect
+.
+y
 aInitialWidth
 aInitialHeight
 )
