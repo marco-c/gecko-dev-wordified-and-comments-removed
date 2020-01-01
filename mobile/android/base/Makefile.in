@@ -862,6 +862,12 @@ java
 \
 gfx
 /
+MultiTileLayer
+.
+java
+\
+gfx
+/
 NinePatchTileLayer
 .
 java
