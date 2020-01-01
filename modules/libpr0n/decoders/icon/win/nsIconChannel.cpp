@@ -927,6 +927,9 @@ return
 rv
 ;
 }
+#
+ifndef
+WINCE
 static
 DWORD
 GetSpecialFolderIcon
@@ -1125,6 +1128,8 @@ return
 shellResult
 ;
 }
+#
+endif
 static
 UINT
 GetSizeInfoFlag
@@ -1171,6 +1176,14 @@ HICON
 hIcon
 )
 {
+#
+ifdef
+WINCE
+return
+NS_ERROR_NOT_AVAILABLE
+;
+#
+else
 nsXPIDLCString
 contentType
 ;
@@ -1487,6 +1500,8 @@ NS_ERROR_NOT_AVAILABLE
 return
 rv
 ;
+#
+endif
 }
 #
 ifndef
@@ -1687,7 +1702,12 @@ nonBlocking
 {
 nsresult
 rv
+=
+NS_ERROR_NOT_AVAILABLE
 ;
+#
+ifndef
+WINCE
 HICON
 hIcon
 =
@@ -2298,6 +2318,8 @@ hIcon
 )
 ;
 }
+#
+endif
 return
 rv
 ;
