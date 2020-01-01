@@ -1017,6 +1017,13 @@ getter_AddRefs
 (
 fm
 )
+nsLayoutUtils
+:
+:
+FontSizeInflationFor
+(
+mFrame
+)
 )
 ;
 aCtx
@@ -3467,6 +3474,13 @@ aFrame
 getter_AddRefs
 (
 fm
+)
+nsLayoutUtils
+:
+:
+FontSizeInflationFor
+(
+aFrame
 )
 )
 ;
