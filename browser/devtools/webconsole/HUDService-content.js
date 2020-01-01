@@ -1781,7 +1781,7 @@ sandbox
 function
 JSTH_
 (
-aId
+aSelector
 )
 {
 return
@@ -1791,9 +1791,9 @@ window
 .
 document
 .
-getElementById
+querySelector
 (
-aId
+aSelector
 )
 ;
 }
