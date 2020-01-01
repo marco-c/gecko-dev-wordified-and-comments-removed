@@ -599,6 +599,7 @@ filter
 windows
 mac
 cocoa
+gtk2
 (
 MOZ_WIDGET_TOOLKIT
 )
