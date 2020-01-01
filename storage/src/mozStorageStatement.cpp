@@ -625,16 +625,6 @@ end
 }
 #
 endif
-sqlite3_exec
-(
-db
-"
-"
-0
-0
-0
-)
-;
 return
 NS_OK
 ;
