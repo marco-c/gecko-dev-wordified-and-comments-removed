@@ -577,9 +577,6 @@ mPresArenaAllocCount
 endif
 if
 (
-PRESARENA_MUST_FREE_DURING_DESTROY
-|
-|
 !
 mIsDestroying
 )
@@ -661,9 +658,6 @@ mPresArenaAllocCount
 endif
 if
 (
-PRESARENA_MUST_FREE_DURING_DESTROY
-|
-|
 !
 mIsDestroying
 )
@@ -723,9 +717,6 @@ mPresArenaAllocCount
 endif
 if
 (
-PRESARENA_MUST_FREE_DURING_DESTROY
-|
-|
 !
 mIsDestroying
 )
