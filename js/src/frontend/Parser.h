@@ -1185,10 +1185,6 @@ HandleScript
 script
 Node
 fn
-FunctionBox
-*
-*
-funbox
 bool
 strict
 bool
