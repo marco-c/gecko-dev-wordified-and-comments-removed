@@ -4015,6 +4015,8 @@ ifdef
 GNU_CC
 ifndef
 CROSS_COMPILE
+ifndef
+QEMU_CANT_RUN_JS_SHELL
 #
 If
 we
@@ -4544,6 +4546,7 @@ imacros
 update
 -
 nanojit
+endif
 endif
 endif
 endif
