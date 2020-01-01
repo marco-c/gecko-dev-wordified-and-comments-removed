@@ -1,6 +1,9 @@
 using
 MagicWindowHandle
 ;
+using
+PRUint32
+;
 rpc
 protocol
 IFrameEmbedding
@@ -25,13 +28,13 @@ rpc
 out
 move
 (
-uint32_t
+PRUint32
 x
-uint32_t
+PRUint32
 y
-uint32_t
+PRUint32
 width
-uint32_t
+PRUint32
 height
 )
 ;
