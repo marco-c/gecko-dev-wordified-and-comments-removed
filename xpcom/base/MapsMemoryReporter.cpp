@@ -53,6 +53,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
+include
 <
 stdio
 .
@@ -442,6 +451,7 @@ mSeenSwap
 }
 class
 MapsReporter
+MOZ_FINAL
 :
 public
 nsIMemoryMultiReporter
