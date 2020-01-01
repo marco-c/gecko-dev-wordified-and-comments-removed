@@ -20533,10 +20533,6 @@ shape
 previous
 (
 )
-.
-get
-(
-)
 )
 )
 ;
