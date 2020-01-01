@@ -761,6 +761,8 @@ mHandle
 mozilla_sampler_call_enter
 (
 aInfo
+this
+false
 )
 ;
 }
