@@ -669,6 +669,13 @@ ID
 "
 )
 ;
+progress
+.
+removeProgressListener
+(
+this
+)
+;
 SimpleTest
 .
 finish
@@ -727,6 +734,9 @@ mEditor
 null
 }
 ;
+var
+progress
+;
 function
 runTest
 (
@@ -772,7 +782,6 @@ nsIEditorBoxObject
 .
 docShell
 ;
-var
 progress
 =
 docShell
