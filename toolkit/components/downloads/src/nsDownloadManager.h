@@ -263,6 +263,11 @@ RestoreDatabaseState
 )
 ;
 nsresult
+RestoreActiveDownloads
+(
+)
+;
+nsresult
 GetDownloadFromDB
 (
 PRUint32
@@ -379,7 +384,7 @@ aID
 )
 ;
 nsresult
-CancelAllDownloads
+RemoveAllDownloads
 (
 )
 ;
