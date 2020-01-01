@@ -27277,7 +27277,6 @@ features
 }
 #
 endif
-extern
 void
 js_InitJIT
 (
@@ -27619,7 +27618,6 @@ jitstats
 #
 endif
 }
-extern
 void
 js_FinishJIT
 (
@@ -28123,7 +28121,6 @@ nextRecorderToAbort
 NULL
 ;
 }
-extern
 void
 js_FlushJITOracle
 (
@@ -28149,7 +28146,6 @@ clear
 )
 ;
 }
-extern
 JS_REQUIRES_STACK
 void
 js_FlushScriptFragments
@@ -28381,7 +28377,6 @@ next
 }
 }
 }
-extern
 JS_REQUIRES_STACK
 void
 js_FlushJITCache
