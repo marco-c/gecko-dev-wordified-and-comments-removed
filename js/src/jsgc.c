@@ -8310,6 +8310,16 @@ break
 case
 JSTRACE_FUNCTION
 :
+js_TraceFunction
+(
+trc
+(
+JSFunction
+*
+)
+thing
+)
+;
 break
 ;
 #
