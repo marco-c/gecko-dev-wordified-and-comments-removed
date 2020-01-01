@@ -3054,13 +3054,9 @@ command
 "
 prettyPrintCommand
 "
-value
-=
-"
+>
 {
 }
-"
->
 <
 /
 toolbarbutton
