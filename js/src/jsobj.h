@@ -2582,7 +2582,6 @@ objectSize
 extern
 JSObject
 *
-JS_FASTCALL
 js_NewNativeObject
 (
 JSContext
@@ -2594,9 +2593,8 @@ clasp
 JSObject
 *
 proto
-JSObject
-*
-parent
+uint32
+slot
 )
 ;
 extern
