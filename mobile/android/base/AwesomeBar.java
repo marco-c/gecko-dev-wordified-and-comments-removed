@@ -2626,12 +2626,14 @@ getColumnIndexOrThrow
 (
 Bookmarks
 .
-IS_FOLDER
+TYPE
 )
 )
 =
 =
-1
+Bookmarks
+.
+TYPE_FOLDER
 )
 )
 {
