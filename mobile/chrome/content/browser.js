@@ -6866,6 +6866,7 @@ bv
 .
 beginOffscreenOperation
 (
+rect
 )
 ;
 bv
