@@ -3518,7 +3518,6 @@ _fpuStkDepth
 =
 =
 _sv_fpuStkDepth
-(
 "
 LIR_xtf
 _fpuStkDepth
@@ -3533,7 +3532,6 @@ n
 "
 _fpuStkDepth
 _sv_fpuStkDepth
-)
 )
 ;
 debug_only
@@ -4088,7 +4086,6 @@ i
 =
 =
 0
-(
 "
 frame
 entry
@@ -4105,7 +4102,6 @@ n
 4
 *
 i
-)
 )
 ;
 }
