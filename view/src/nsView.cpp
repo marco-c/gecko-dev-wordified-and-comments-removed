@@ -3403,6 +3403,17 @@ aWidget
 >
 AttachViewToTopLevel
 (
+nsIWidget
+:
+:
+UsePuppetWidgets
+(
+)
+?
+:
+:
+HandleEvent
+:
 :
 :
 AttachedHandleEvent
