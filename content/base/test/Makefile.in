@@ -1358,6 +1358,16 @@ bug444322
 .
 js
 \
+test_bug455629
+.
+html
+\
+bug455629
+-
+helper
+.
+svg
+\
 (
 NULL
 )
