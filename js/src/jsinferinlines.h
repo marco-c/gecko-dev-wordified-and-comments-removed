@@ -66,9 +66,6 @@ ParallelArray
 h
 "
 #
-ifdef
-JS_ION
-#
 include
 "
 ion
@@ -77,8 +74,6 @@ IonFrames
 .
 h
 "
-#
-endif
 #
 include
 "

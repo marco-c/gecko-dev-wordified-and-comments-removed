@@ -680,6 +680,11 @@ Parser
 cpp
 '
 '
+Probes
+.
+cpp
+'
+'
 Profilers
 .
 cpp
@@ -956,11 +961,6 @@ cpp
 '
 '
 jsprf
-.
-cpp
-'
-'
-jsprobes
 .
 cpp
 '

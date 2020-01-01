@@ -4308,7 +4308,7 @@ um
 -
 mof
 ^
-jsprobes
+Probes
 .
 (
 OBJ_SUFFIX
@@ -4487,7 +4487,7 @@ addsuffix
 (
 OBJ_SUFFIX
 )
-jsprobes
+Probes
 jsinterp
 jsobj
 )
