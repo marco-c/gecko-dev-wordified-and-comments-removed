@@ -518,6 +518,9 @@ LONG_STRING_READ_LENGTH
 _allowConnection
 :
 null
+chromeWindowType
+:
+null
 _defaultAllowConnection
 :
 function
@@ -1152,6 +1155,16 @@ DS_addBrowserActors
 (
 )
 {
+this
+.
+chromeWindowType
+=
+"
+navigator
+:
+browser
+"
+;
 this
 .
 addActors

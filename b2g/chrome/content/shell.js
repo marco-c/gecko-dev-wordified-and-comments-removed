@@ -5716,6 +5716,16 @@ this
 ;
 DebuggerServer
 .
+chromeWindowType
+=
+"
+navigator
+:
+browser
+"
+;
+DebuggerServer
+.
 addActors
 (
 "

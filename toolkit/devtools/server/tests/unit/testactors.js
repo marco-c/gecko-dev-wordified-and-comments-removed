@@ -267,7 +267,7 @@ actorPrefix
 TestTabActor
 "
 get
-contentWindow
+window
 (
 )
 {

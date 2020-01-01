@@ -103,7 +103,7 @@ function
 TraceActor
 (
 aConn
-aBrowserTabActor
+aParentActor
 )
 {
 this
@@ -174,9 +174,9 @@ this
 .
 global
 =
-aBrowserTabActor
+aParentActor
 .
-contentWindow
+window
 .
 wrappedJSObject
 ;
