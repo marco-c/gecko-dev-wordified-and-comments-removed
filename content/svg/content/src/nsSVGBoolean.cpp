@@ -148,8 +148,6 @@ aValue
 nsSVGElement
 *
 aSVGElement
-PRBool
-aDoSetAttr
 )
 {
 NS_PRECONDITION
@@ -184,7 +182,7 @@ aSVGElement
 DidChangeBoolean
 (
 mAttrEnum
-aDoSetAttr
+PR_TRUE
 )
 ;
 }
