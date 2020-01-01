@@ -201,7 +201,10 @@ reset
 ;
 }
 RegisterMask
-hints
+Assembler
+:
+:
+nHints
 [
 LIR_sentinel
 +
