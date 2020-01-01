@@ -411,9 +411,6 @@ nsIDOMWindow
 interface
 nsIDOMNode
 ;
-interface
-nsIDictionary
-;
 /
 *
 *
