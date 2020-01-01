@@ -78,14 +78,6 @@ mk
 MODULE
 =
 speex_resampler
-DIRS
-=
-\
-src
-\
-(
-NULL
-)
 include
 (
 topsrcdir

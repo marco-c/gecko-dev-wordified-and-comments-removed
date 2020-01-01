@@ -78,16 +78,6 @@ mk
 MODULE
 =
 theora
-DIRS
-=
-\
-include
-\
-lib
-\
-(
-NULL
-)
 include
 (
 topsrcdir

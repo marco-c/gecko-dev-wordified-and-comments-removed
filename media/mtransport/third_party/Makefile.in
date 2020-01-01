@@ -420,16 +420,6 @@ config
 autoconf
 .
 mk
-PARALLEL_DIRS
-=
-\
-nrappkit
-\
-nICEr
-\
-(
-NULL
-)
 NO_SUBMAKEFILES_RULE
 =
 1

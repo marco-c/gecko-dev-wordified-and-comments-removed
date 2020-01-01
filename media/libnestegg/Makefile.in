@@ -78,16 +78,6 @@ mk
 MODULE
 =
 nestegg
-DIRS
-=
-\
-include
-\
-src
-\
-(
-NULL
-)
 include
 (
 topsrcdir

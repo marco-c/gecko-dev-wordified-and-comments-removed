@@ -78,9 +78,6 @@ mk
 MODULE
 =
 ogg
-DIRS
-=
-ogg
 include
 (
 topsrcdir

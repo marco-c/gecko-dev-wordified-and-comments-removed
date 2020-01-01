@@ -78,9 +78,6 @@ mk
 MODULE
 =
 vorbis
-DIRS
-=
-vorbis
 include
 (
 topsrcdir

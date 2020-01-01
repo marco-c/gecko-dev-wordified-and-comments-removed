@@ -82,13 +82,6 @@ mk
 MODULE
 =
 soundtouch
-DIRS
-=
-src
-\
-(
-NULL
-)
 include
 (
 topsrcdir

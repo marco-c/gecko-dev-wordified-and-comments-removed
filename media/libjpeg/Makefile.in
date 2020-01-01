@@ -76,9 +76,6 @@ config
 autoconf
 .
 mk
-DIRS
-=
-simd
 MODULE
 =
 jpeg
