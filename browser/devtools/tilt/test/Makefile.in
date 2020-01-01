@@ -463,6 +463,12 @@ browser_tilt_03_tab_switch
 js
 \
 browser_tilt_04_initialization
+-
+key
+.
+js
+\
+browser_tilt_04_initialization
 .
 js
 \
