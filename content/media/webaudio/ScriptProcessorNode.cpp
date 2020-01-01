@@ -354,12 +354,6 @@ mSampleRate
 (
 aSampleRate
 )
-mLatency
-(
-0
-.
-0
-)
 mDroppingBuffers
 (
 false
