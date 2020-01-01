@@ -5314,6 +5314,10 @@ rhs
 !
 =
 UNASSIGNED
+&
+&
+!
+rhsLength
 )
 {
 types
