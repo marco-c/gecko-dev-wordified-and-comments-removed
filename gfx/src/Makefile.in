@@ -457,14 +457,6 @@ nsIScriptableRegion
 .
 idl
 \
-gfxIFormats
-.
-idl
-\
-gfxidltypes
-.
-idl
-\
 (
 NULL
 )

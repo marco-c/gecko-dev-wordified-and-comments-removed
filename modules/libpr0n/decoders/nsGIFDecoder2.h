@@ -86,7 +86,7 @@ BeginGIF
 nsresult
 BeginImageFrame
 (
-gfx_depth
+PRUint16
 aDepth
 )
 ;

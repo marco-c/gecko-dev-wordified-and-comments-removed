@@ -42,13 +42,6 @@ h
 #
 include
 "
-gfxIFormats
-.
-h
-"
-#
-include
-"
 gfxContext
 .
 h
