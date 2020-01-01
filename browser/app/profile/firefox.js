@@ -1459,7 +1459,7 @@ true
 ;
 #
 ifdef
-XP_UNIX
+UNIX_BUT_NOT_MAC
 pref
 (
 "
