@@ -1956,6 +1956,9 @@ TimestampCount
 }
 ;
 class
+AsyncFreeSnowWhite
+;
+class
 XPCJSRuntime
 :
 public
@@ -2450,6 +2453,14 @@ MOZ_OVERRIDE
 void
 PrepareForCollection
 (
+)
+MOZ_OVERRIDE
+;
+void
+DispatchDeferredDeletion
+(
+bool
+continuation
 )
 MOZ_OVERRIDE
 ;
@@ -3086,6 +3097,12 @@ mPrevGCSliceCallback
 JSObject
 *
 mJunkScope
+;
+nsRefPtr
+<
+AsyncFreeSnowWhite
+>
+mAsyncSnowWhiteFreer
 ;
 nsCOMPtr
 <
