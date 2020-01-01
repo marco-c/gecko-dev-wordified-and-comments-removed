@@ -179,6 +179,12 @@ GetPluginAPIVersion
 (
 )
 ;
+virtual
+void
+DefineJavaProperties
+(
+)
+;
 nsresult
 GetNPP
 (

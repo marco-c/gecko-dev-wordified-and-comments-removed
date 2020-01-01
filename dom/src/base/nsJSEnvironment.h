@@ -614,14 +614,6 @@ InitializeExternalClasses
 )
 ;
 nsresult
-InitializeLiveConnectClasses
-(
-JSObject
-*
-aGlobalObj
-)
-;
-nsresult
 FindXPCNativeWrapperClass
 (
 nsIXPConnectJSObjectHolder
