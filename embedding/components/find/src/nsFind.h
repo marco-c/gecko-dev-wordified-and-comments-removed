@@ -21,6 +21,13 @@ h
 #
 include
 "
+nsCycleCollectionParticipant
+.
+h
+"
+#
+include
+"
 nsIDOMNode
 .
 h
@@ -96,8 +103,12 @@ nsIFind
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 NS_DECL_NSIFIND
+NS_DECL_CYCLE_COLLECTION_CLASS
+(
+nsFind
+)
 nsFind
 (
 )
