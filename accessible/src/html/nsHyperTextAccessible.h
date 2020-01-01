@@ -76,6 +76,13 @@ kEmbeddedObjectChar
 ;
 const
 PRUnichar
+kImaginaryEmbeddedObjectChar
+=
+'
+'
+;
+const
+PRUnichar
 kForcedNewLineChar
 =
 '
