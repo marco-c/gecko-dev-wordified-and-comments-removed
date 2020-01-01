@@ -191,10 +191,6 @@ MemoryReporting
 .
 h
 \
-MSStdInt
-.
-h
-\
 Move
 .
 h
