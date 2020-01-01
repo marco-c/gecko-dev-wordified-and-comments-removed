@@ -6052,8 +6052,8 @@ PasswordStore_wrap
 var
 items
 =
-[
-]
+{
+}
 ;
 var
 logins
