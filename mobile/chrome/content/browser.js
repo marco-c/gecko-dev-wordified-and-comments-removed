@@ -12976,6 +12976,14 @@ _tab
 Browser
 .
 selectedTab
+&
+&
+!
+BrowserUI
+.
+isToolbarOpen
+(
+)
 )
 {
 if
