@@ -1574,9 +1574,17 @@ test_audio_wakelock
 .
 html
 \
+test_video_wakelock
+.
+html
+\
 wakelock
 .
 ogg
+\
+wakelock
+.
+ogv
 \
 test_bug869040
 .
