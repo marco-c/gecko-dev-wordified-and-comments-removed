@@ -1799,12 +1799,10 @@ break
 ;
 }
 }
-+
-+
+notifyDidPaint
+(
 instanceData
--
->
-paintCount
+)
 ;
 }
 int16_t

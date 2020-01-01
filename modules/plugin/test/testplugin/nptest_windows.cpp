@@ -994,12 +994,10 @@ window
 ps
 )
 ;
-+
-+
+notifyDidPaint
+(
 instanceData
--
->
-paintCount
+)
 ;
 }
 int32_t

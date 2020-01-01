@@ -178,6 +178,9 @@ int32_t
 lastMouseY
 ;
 int32_t
+widthAtLastPaint
+;
+int32_t
 paintCount
 ;
 int32_t
@@ -245,6 +248,14 @@ crashOnDestroy
 ;
 }
 InstanceData
+;
+void
+notifyDidPaint
+(
+InstanceData
+*
+instanceData
+)
 ;
 #
 endif
