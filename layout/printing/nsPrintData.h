@@ -108,7 +108,7 @@ void
 DoOnProgressChange
 (
 PRInt32
-aProgess
+aProgress
 PRInt32
 aMaxProgress
 bool
