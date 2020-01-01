@@ -1616,6 +1616,12 @@ name
 "
 )
 ;
+funcParams
+.
+Truncate
+(
+)
+;
 AppendEscapedCSSIdent
 (
 v
