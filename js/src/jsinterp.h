@@ -1943,6 +1943,7 @@ rval
 )
 ;
 extern
+JS_FORCES_STACK
 JSBool
 js_Execute
 (
