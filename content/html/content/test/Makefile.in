@@ -1019,11 +1019,15 @@ test_bug377624
 .
 html
 \
+test_bug551846
+.
+html
+\
 test_bug562932
 .
 html
 \
-test_bug551846
+test_bug564001
 .
 html
 \
