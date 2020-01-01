@@ -8214,7 +8214,6 @@ html
 ref
 .
 html
-random
 =
 =
 368020
@@ -8229,18 +8228,6 @@ html
 ref
 .
 html
-#
-bug
-403181
-comment
-52
-explains
-why
-this
-test
-is
-disabled
-.
 fails
 =
 =
