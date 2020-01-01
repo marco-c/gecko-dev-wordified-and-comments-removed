@@ -544,12 +544,6 @@ c
 cairo
 -
 font
-.
-c
-\
-cairo
--
-font
 -
 face
 .
