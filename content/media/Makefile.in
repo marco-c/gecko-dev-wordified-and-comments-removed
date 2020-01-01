@@ -572,6 +572,13 @@ PARALLEL_DIRS
 webm
 endif
 ifdef
+MOZ_GSTREAMER
+PARALLEL_DIRS
++
+=
+gstreamer
+endif
+ifdef
 ENABLE_TESTS
 PARALLEL_DIRS
 +

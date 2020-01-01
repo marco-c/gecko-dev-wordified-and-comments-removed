@@ -1547,6 +1547,10 @@ mTimer
 =
 nsnull
 ;
+mReader
+=
+nsnull
+;
 StateMachineTracker
 :
 :

@@ -1181,6 +1181,7 @@ nsBuiltinDecoder
 aDecoder
 )
 ;
+virtual
 ~
 nsBuiltinDecoderReader
 (
