@@ -1903,6 +1903,15 @@ oldID
 newID
 )
 {
+if
+(
+oldID
+in
+this
+.
+items
+)
+{
 this
 .
 items
@@ -1917,6 +1926,7 @@ items
 oldID
 ]
 ;
+}
 delete
 this
 .
