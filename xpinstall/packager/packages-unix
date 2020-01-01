@@ -550,12 +550,6 @@ bin
 libgtkembedmoz
 .
 so
-;
-This
-is
-used
-by
-libgfxps
 bin
 /
 libgfxpsshar

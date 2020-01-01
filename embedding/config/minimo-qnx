@@ -112,11 +112,6 @@ libgfxpsshar
 so
 components
 /
-libgfxps
-.
-so
-components
-/
 gfx
 .
 xpt

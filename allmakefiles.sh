@@ -951,13 +951,6 @@ gfx
 /
 src
 /
-ps
-/
-Makefile
-gfx
-/
-src
-/
 psshared
 /
 Makefile
