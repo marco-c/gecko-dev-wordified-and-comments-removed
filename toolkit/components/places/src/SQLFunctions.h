@@ -207,13 +207,16 @@ aChar
 )
 ;
 static
-nsString
+void
 fixupURISpec
 (
 const
 nsDependentCString
 &
 aURISpec
+nsString
+&
+_fixedSpec
 )
 ;
 }
