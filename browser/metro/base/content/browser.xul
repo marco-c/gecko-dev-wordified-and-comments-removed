@@ -4550,16 +4550,6 @@ param
 )
 ;
 "
-onkeydown
-=
-"
-BrowserUI
-.
-navEditKeyPress
-(
-)
-;
-"
 onblur
 =
 "

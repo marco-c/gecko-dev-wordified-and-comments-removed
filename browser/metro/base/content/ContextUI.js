@@ -565,7 +565,7 @@ function
 {
 ContextUI
 .
-dismissWithDelay
+dismissTabsWithDelay
 (
 kNewTabAnimationDelayMsec
 )
@@ -587,7 +587,7 @@ function
 {
 ContextUI
 .
-dismissWithDelay
+dismissTabsWithDelay
 (
 kNewTabAnimationDelayMsec
 )
@@ -603,10 +603,9 @@ displayTabs
 ;
 }
 }
-dismissWithDelay
+dismissTabsWithDelay
 :
 function
-dismissWithDelay
 (
 aDelay
 )
@@ -636,7 +635,7 @@ function
 {
 ContextUI
 .
-dismiss
+dismissTabs
 (
 )
 ;
@@ -1173,6 +1172,14 @@ case
 TabSelect
 '
 :
+this
+.
+dismissTabs
+(
+)
+;
+break
+;
 case
 '
 ToolPanelShown
