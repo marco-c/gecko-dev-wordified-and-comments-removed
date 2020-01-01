@@ -1434,7 +1434,7 @@ label
 =
 "
 &
-directTypeRadio
+noProxyTypeRadio
 .
 label
 ;
@@ -1443,7 +1443,7 @@ accesskey
 =
 "
 &
-directTypeRadio
+noProxyTypeRadio
 .
 accesskey
 ;
