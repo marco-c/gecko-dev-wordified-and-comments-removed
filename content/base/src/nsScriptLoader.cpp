@@ -1606,7 +1606,6 @@ nsIContentPolicy
 :
 TYPE_SCRIPT
 scriptURI
-nsnull
 mDocument
 -
 >

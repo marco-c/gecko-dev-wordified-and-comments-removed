@@ -4220,7 +4220,6 @@ nsIContentPolicy
 :
 TYPE_STYLESHEET
 aTargetURI
-nsnull
 aSourcePrincipal
 aContext
 NS_LITERAL_CSTRING

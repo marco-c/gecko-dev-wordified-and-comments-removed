@@ -3590,7 +3590,6 @@ nsIContentPolicy
 :
 TYPE_OBJECT
 aURI
-nsnull
 doc
 -
 >

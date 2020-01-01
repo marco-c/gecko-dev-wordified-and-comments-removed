@@ -9225,7 +9225,6 @@ nsIContentPolicy
 :
 TYPE_IMAGE
 aURI
-nsnull
 aLoadingPrincipal
 aContext
 EmptyCString
@@ -15705,7 +15704,6 @@ NS_CheckContentLoadPolicy
 (
 aContentPolicyType
 aURIToLoad
-nsnull
 aLoadingPrincipal
 aContext
 aMimeGuess

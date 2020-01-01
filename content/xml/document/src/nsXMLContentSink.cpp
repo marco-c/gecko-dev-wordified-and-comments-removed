@@ -3314,7 +3314,6 @@ nsIContentPolicy
 :
 TYPE_STYLESHEET
 url
-nsnull
 mDocument
 -
 >

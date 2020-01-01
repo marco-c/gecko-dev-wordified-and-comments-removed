@@ -507,15 +507,6 @@ rv
 ;
 \
 }
-else
-{
-\
-requestOrigin
-=
-originURI
-;
-\
-}
 \
 PR_END_MACRO
 inline
@@ -527,9 +518,6 @@ contentType
 nsIURI
 *
 contentLocation
-nsIURI
-*
-originURI
 nsIPrincipal
 *
 originPrincipal
@@ -587,9 +575,6 @@ contentType
 nsIURI
 *
 contentLocation
-nsIURI
-*
-originURI
 nsIPrincipal
 *
 originPrincipal

@@ -894,7 +894,6 @@ nsIContentPolicy
 :
 TYPE_PING
 uri
-nsnull
 content
 -
 >
