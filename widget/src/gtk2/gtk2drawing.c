@@ -4391,7 +4391,10 @@ style
 ;
 gtk_widget_style_get
 (
+GTK_WIDGET
+(
 scrollbar
+)
 "
 activate
 -
