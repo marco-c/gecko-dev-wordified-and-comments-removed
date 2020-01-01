@@ -1913,6 +1913,12 @@ New
 (
 size_t
 argc
+types
+:
+:
+TypeSet
+*
+types
 bool
 construct
 )
@@ -1924,6 +1930,7 @@ ins
 new
 MCall
 (
+types
 construct
 )
 ;
