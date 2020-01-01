@@ -1717,6 +1717,12 @@ aExcludePassword
 )
 const
 ;
+PRBool
+IsLabelableControl
+(
+)
+const
+;
 virtual
 nsresult
 BindToTree

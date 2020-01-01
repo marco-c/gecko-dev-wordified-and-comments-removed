@@ -279,6 +279,15 @@ const
 =
 0
 ;
+virtual
+PRBool
+IsLabelableControl
+(
+)
+const
+=
+0
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
