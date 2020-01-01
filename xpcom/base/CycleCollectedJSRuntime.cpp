@@ -946,6 +946,8 @@ kdelegate
 )
 )
 {
+if
+(
 JS
 :
 :
@@ -954,7 +956,8 @@ UnmarkGrayGCThingRecursively
 k
 JSTRACE_OBJECT
 )
-;
+)
+{
 tracer
 -
 >
@@ -962,6 +965,7 @@ mAnyMarked
 =
 true
 ;
+}
 }
 }
 if
@@ -1007,6 +1011,8 @@ vkind
 JSTRACE_SHAPE
 )
 {
+if
+(
 JS
 :
 :
@@ -1015,7 +1021,8 @@ UnmarkGrayGCThingRecursively
 v
 vkind
 )
-;
+)
+{
 tracer
 -
 >
@@ -1023,6 +1030,7 @@ mAnyMarked
 =
 true
 ;
+}
 }
 }
 bool
