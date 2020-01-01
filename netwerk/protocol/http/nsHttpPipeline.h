@@ -161,6 +161,12 @@ i
 ]
 ;
 }
+nsHttpPipeline
+*
+QueryPipeline
+(
+)
+;
 nsAHttpConnection
 *
 mConnection

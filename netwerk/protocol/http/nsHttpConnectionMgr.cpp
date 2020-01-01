@@ -8654,18 +8654,6 @@ n
 ;
 if
 (
-!
-gHttpHandler
--
->
-IsSpdyEnabled
-(
-)
-)
-return
-;
-if
-(
 mReadTimeoutTick
 &
 &
@@ -8731,7 +8719,7 @@ mReadTimeoutTick
 Init
 (
 this
-15000
+1000
 nsITimer
 :
 :
