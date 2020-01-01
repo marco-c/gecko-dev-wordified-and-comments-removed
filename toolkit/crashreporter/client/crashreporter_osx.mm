@@ -3666,10 +3666,15 @@ url
 NSURL
 URLWithString
 :
+[
 NSSTR
 (
 gSendURL
 )
+stringByAddingPercentEscapesUsingEncoding
+:
+NSUTF8StringEncoding
+]
 ]
 ;
 if
