@@ -7,13 +7,6 @@ mozilla_css_StyleRule_h__
 #
 include
 "
-nsICSSRule
-.
-h
-"
-#
-include
-"
 nsCSSRule
 .
 h
@@ -1047,8 +1040,6 @@ StyleRule
 :
 public
 nsCSSRule
-public
-nsICSSRule
 {
 public
 :

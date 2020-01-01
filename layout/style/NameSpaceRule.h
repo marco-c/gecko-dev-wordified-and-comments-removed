@@ -7,13 +7,6 @@ mozilla_css_NameSpaceRule_h__
 #
 include
 "
-nsICSSRule
-.
-h
-"
-#
-include
-"
 nsCSSRule
 .
 h
@@ -59,8 +52,6 @@ NameSpaceRule
 :
 public
 nsCSSRule
-public
-nsICSSRule
 public
 nsIDOMCSSRule
 {
