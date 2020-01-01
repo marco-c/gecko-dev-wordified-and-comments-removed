@@ -1398,7 +1398,7 @@ function
 var
 events
 =
-devtools
+this
 .
 require
 (
