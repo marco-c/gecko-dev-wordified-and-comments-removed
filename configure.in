@@ -25115,9 +25115,9 @@ h
 )
 AC_CHECK_HEADERS
 (
-sys
+linux
 /
-sysmacros
+quota
 .
 h
 )
