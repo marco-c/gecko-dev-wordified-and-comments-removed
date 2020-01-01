@@ -1216,6 +1216,12 @@ summary
 ;
 this
 .
+allowFocusOnRightClick
+=
+true
+;
+this
+.
 widget
 .
 maintainSelectionVisible

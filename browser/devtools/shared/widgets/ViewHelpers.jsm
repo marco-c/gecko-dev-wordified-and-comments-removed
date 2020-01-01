@@ -3210,6 +3210,9 @@ true
 autoFocusOnInput
 :
 true
+allowFocusOnRightClick
+:
+false
 pageSize
 :
 0
@@ -4788,6 +4791,12 @@ button
 !
 =
 0
+&
+&
+!
+this
+.
+allowFocusOnRightClick
 )
 {
 return
