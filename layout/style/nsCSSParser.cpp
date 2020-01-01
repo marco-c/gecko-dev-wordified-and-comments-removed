@@ -35528,6 +35528,10 @@ cur
 }
 else
 {
+UngetToken
+(
+)
+;
 return
 false
 ;
