@@ -1182,8 +1182,10 @@ myThread
 &
 context
 )
-&
-&
+)
+{
+if
+(
 data
 -
 >
@@ -1197,6 +1199,7 @@ GetThreadContext
 "
 )
 ;
+}
 return
 ;
 }
