@@ -1316,9 +1316,7 @@ makeURI
 (
 record
 .
-cleartext
-.
-generatorURI
+generatorUri
 )
 ;
 if
@@ -1548,9 +1546,7 @@ makeURI
 (
 record
 .
-cleartext
-.
-siteURI
+siteUri
 )
 Utils
 .
@@ -1558,9 +1554,7 @@ makeURI
 (
 record
 .
-cleartext
-.
-feedURI
+feedUri
 )
 record
 .
@@ -2456,7 +2450,7 @@ break
 ;
 case
 "
-generatorURI
+generatorUri
 "
 :
 {
@@ -2465,10 +2459,6 @@ try
 let
 micsumURI
 =
-Utils
-.
-makeURI
-(
 this
 .
 _bms
@@ -2476,7 +2466,6 @@ _bms
 getBookmarkURI
 (
 itemId
-)
 )
 ;
 let
@@ -2577,7 +2566,7 @@ break
 ;
 case
 "
-siteURI
+siteUri
 "
 :
 this
@@ -2599,7 +2588,7 @@ break
 ;
 case
 "
-feedURI
+feedUri
 "
 :
 this
@@ -3240,13 +3229,15 @@ placeId
 ;
 record
 .
-generatorURI
+generatorUri
 =
 micsum
 .
 generator
 .
 uri
+.
+spec
 ;
 record
 .
@@ -3295,6 +3286,8 @@ getBookmarkURI
 (
 placeId
 )
+.
+spec
 ;
 record
 .
@@ -3363,7 +3356,7 @@ Livemark
 ;
 record
 .
-siteURI
+siteUri
 =
 this
 .
@@ -3373,10 +3366,12 @@ getSiteURI
 (
 placeId
 )
+.
+spec
 ;
 record
 .
-feedURI
+feedUri
 =
 this
 .
@@ -3386,6 +3381,8 @@ getFeedURI
 (
 placeId
 )
+.
+spec
 ;
 }
 else
