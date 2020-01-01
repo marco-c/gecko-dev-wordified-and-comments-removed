@@ -462,6 +462,8 @@ xuldoc
 \
 webshell
 \
+storage
+\
 (
 NULL
 )
@@ -561,6 +563,14 @@ nsXULTemplateQueryProcessorXML
 cpp
 \
 nsXULTemplateResultXML
+.
+cpp
+\
+nsXULTemplateQueryProcessorStorage
+.
+cpp
+\
+nsXULTemplateResultStorage
 .
 cpp
 \
