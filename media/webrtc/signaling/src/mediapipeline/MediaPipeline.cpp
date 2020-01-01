@@ -3627,11 +3627,8 @@ samples_tmp
 tocpy
 ;
 chunk_remaining
-=
-chunk
-.
-mDuration
 -
+=
 tocpy
 ;
 }
