@@ -121,8 +121,11 @@ ID3D10ShaderResourceView
 >
 mSRViewOnWhite
 ;
-nsIntRegion
-mTextureRegion
+nsIntRect
+mTextureRect
+;
+SurfaceMode
+mCurrentSurfaceMode
 ;
 void
 VerifyContentType
