@@ -401,11 +401,6 @@ dur
 "
 2s
 "
-fill
-=
-"
-remove
-"
 /
 >
 <
@@ -431,11 +426,6 @@ values
 green
 ;
 orange
-"
-fill
-=
-"
-remove
 "
 begin
 =

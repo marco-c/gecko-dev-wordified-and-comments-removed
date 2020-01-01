@@ -178,11 +178,6 @@ dur
 "
 4s
 "
-fill
-=
-"
-remove
-"
 /
 >
 <
@@ -208,11 +203,6 @@ values
 red
 ;
 red
-"
-fill
-=
-"
-remove
 "
 begin
 =
