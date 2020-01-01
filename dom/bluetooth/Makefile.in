@@ -299,6 +299,10 @@ BluetoothScoManager
 .
 cpp
 \
+BluetoothUuid
+.
+cpp
+\
 (
 NULL
 )
