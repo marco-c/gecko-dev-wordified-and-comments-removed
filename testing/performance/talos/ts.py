@@ -121,7 +121,7 @@ ffprocess
 import
 ffprofile
 import
-paths
+config
 TS_REGEX
 =
 re
@@ -343,7 +343,7 @@ time
     
 url
 =
-paths
+config
 .
 TS_URL
 +
@@ -422,7 +422,6 @@ startup_times
 def
 RunStartupTests
 (
-source_profile_dir
 profile_configs
 num_runs
 )
@@ -453,19 +452,6 @@ configurations
   
 Args
 :
-    
-source_profile_dir
-:
-Full
-path
-to
-base
-directory
-to
-copy
-profile
-from
-.
     
 profile_configs
 :
@@ -556,7 +542,10 @@ ffprofile
 .
 CreateTempProfileDir
 (
-source_profile_dir
+config
+[
+5
+]
                                                  
 config
 [
