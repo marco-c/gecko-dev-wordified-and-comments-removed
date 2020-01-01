@@ -454,7 +454,7 @@ public
 :
 nsTreeColumns
 (
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 aTree
 )
@@ -553,7 +553,7 @@ protected
 void
 SetTree
 (
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 aTree
 )
@@ -590,7 +590,7 @@ GetPrimaryColumn
 ;
 private
 :
-nsITreeBoxObject
+nsTreeBodyFrame
 *
 mTree
 ;

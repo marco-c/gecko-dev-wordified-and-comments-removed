@@ -602,7 +602,7 @@ mColumns
 new
 nsTreeColumns
 (
-nullptr
+this
 )
 ;
 }
@@ -1531,14 +1531,6 @@ this
 mTreeBoxObject
 =
 realTreeBoxObject
-;
-mColumns
--
->
-SetTree
-(
-mTreeBoxObject
-)
 ;
 }
 }

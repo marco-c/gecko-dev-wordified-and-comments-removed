@@ -779,6 +779,12 @@ return
 mTreeBoxObject
 ;
 }
+nsIContent
+*
+GetBaseElement
+(
+)
+;
 bool
 GetVerticalOverflow
 (
@@ -1410,12 +1416,6 @@ EnsureBoxObject
 ;
 void
 EnsureView
-(
-)
-;
-nsIContent
-*
-GetBaseElement
 (
 )
 ;
