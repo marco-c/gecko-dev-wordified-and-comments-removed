@@ -15657,6 +15657,14 @@ msg
 case
 DM_DRAGOVER
 :
+dragService
+-
+>
+FireDragEventAtSource
+(
+NS_DRAGDROP_DRAG
+)
+;
 rv
 =
 dragSession

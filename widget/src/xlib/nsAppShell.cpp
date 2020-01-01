@@ -5553,6 +5553,14 @@ xmotion
 y
 )
 ;
+dragService
+-
+>
+FireDragEventAtSource
+(
+NS_DRAGDROP_DRAG
+)
+;
 nsMouseEvent
 mevent
 (

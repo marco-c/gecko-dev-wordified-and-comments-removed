@@ -10346,6 +10346,14 @@ TargetStartDragMotion
 (
 )
 ;
+dragService
+-
+>
+FireDragEventAtSource
+(
+NS_DRAGDROP_DRAG
+)
+;
 nsMouseEvent
 event
 (
@@ -10878,6 +10886,7 @@ dragService
 >
 EndDragSession
 (
+PR_TRUE
 )
 ;
 return
@@ -11087,6 +11096,7 @@ dragService
 >
 EndDragSession
 (
+PR_FALSE
 )
 ;
 }

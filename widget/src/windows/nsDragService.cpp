@@ -732,6 +732,7 @@ Release
 }
 EndDragSession
 (
+PR_TRUE
 )
 ;
 static
@@ -1705,6 +1706,8 @@ nsDragService
 :
 EndDragSession
 (
+PRBool
+aDoneDrag
 )
 {
 nsBaseDragService
@@ -1712,6 +1715,7 @@ nsBaseDragService
 :
 EndDragSession
 (
+aDoneDrag
 )
 ;
 NS_IF_RELEASE

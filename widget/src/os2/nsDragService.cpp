@@ -1009,6 +1009,11 @@ void
 0x80000000L
 )
 ;
+FireDragEventAtSource
+(
+NS_DRAGDROP_END
+)
+;
 mDoingDrag
 =
 PR_FALSE
@@ -1529,6 +1534,8 @@ nsDragService
 :
 EndDragSession
 (
+PRBool
+aDragDone
 )
 {
 NS_ASSERTION

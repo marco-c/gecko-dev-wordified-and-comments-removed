@@ -867,6 +867,14 @@ E_FAIL
 )
 ;
 }
+mDragService
+-
+>
+FireDragEventAtSource
+(
+NS_DRAGDROP_DRAG
+)
+;
 ProcessDrag
 (
 nsnull
@@ -970,6 +978,7 @@ mDragService
 >
 EndDragSession
 (
+PR_FALSE
 )
 ;
 }
@@ -1048,6 +1057,7 @@ serv
 >
 EndDragSession
 (
+PR_TRUE
 )
 ;
 return

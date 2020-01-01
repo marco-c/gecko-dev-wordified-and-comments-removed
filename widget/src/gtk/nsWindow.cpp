@@ -12726,6 +12726,7 @@ dragService
 >
 EndDragSession
 (
+PR_TRUE
 )
 ;
 return
@@ -12979,6 +12980,7 @@ dragService
 >
 EndDragSession
 (
+PR_FALSE
 )
 ;
 }

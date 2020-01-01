@@ -814,6 +814,8 @@ nsDragService
 :
 EndDragSession
 (
+PRBool
+aDoneDrag
 )
 {
 PR_LOG
@@ -841,6 +843,7 @@ nsBaseDragService
 :
 EndDragSession
 (
+aDoneDrag
 )
 ;
 }
@@ -4807,6 +4810,7 @@ mSourceDataItems
 ;
 EndDragSession
 (
+PR_TRUE
 )
 ;
 }

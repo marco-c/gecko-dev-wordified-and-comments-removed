@@ -149,6 +149,11 @@ eDOMEvents_dragover
 eDOMEvents_dragexit
 eDOMEvents_dragdrop
 eDOMEvents_draggesture
+eDOMEvents_drag
+eDOMEvents_dragend
+eDOMEvents_dragstart
+eDOMEvents_dragleave
+eDOMEvents_drop
 eDOMEvents_resize
 eDOMEvents_scroll
 eDOMEvents_overflow

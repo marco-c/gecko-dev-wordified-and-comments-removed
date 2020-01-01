@@ -84,6 +84,8 @@ StartDragSession
 NS_IMETHOD
 EndDragSession
 (
+PRBool
+aDragDone
 )
 ;
 NS_IMETHOD

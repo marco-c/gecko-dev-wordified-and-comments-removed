@@ -2641,6 +2641,7 @@ nsBaseDragService
 :
 EndDragSession
 (
+PR_TRUE
 )
 ;
 return
