@@ -2518,6 +2518,12 @@ local
 )
 return
 ;
+_cairo_win32_surface_set_clip_region
+(
+surface
+NULL
+)
+;
 if
 (
 !
