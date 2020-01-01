@@ -4538,7 +4538,7 @@ aAttribute
 ;
 for
 (
-nsAtomStringList
+nsPseudoClassList
 *
 pseudoClass
 =
@@ -9068,7 +9068,7 @@ aSelector
 {
 for
 (
-nsAtomStringList
+nsPseudoClassList
 *
 pseudoClass
 =

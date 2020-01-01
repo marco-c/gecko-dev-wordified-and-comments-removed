@@ -8476,13 +8476,13 @@ list
 >
 mSelectors
 ;
-nsAtomStringList
+nsPseudoClassList
 *
 prevList
 =
 nsnull
 ;
-nsAtomStringList
+nsPseudoClassList
 *
 pseudoClassList
 =

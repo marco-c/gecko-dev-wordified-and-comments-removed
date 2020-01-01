@@ -18669,7 +18669,7 @@ mTag
 aTag
 )
 {
-nsAtomStringList
+nsPseudoClassList
 *
 curr
 =
