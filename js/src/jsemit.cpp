@@ -21218,11 +21218,9 @@ if
 fun
 -
 >
-u
-.
-i
-.
 script
+(
+)
 )
 {
 JS_ASSERT

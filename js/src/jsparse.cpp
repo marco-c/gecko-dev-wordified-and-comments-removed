@@ -5074,11 +5074,9 @@ inner
 fun
 -
 >
-u
-.
-i
-.
 script
+(
+)
 ;
 if
 (

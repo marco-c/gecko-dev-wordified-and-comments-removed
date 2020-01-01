@@ -9204,11 +9204,9 @@ return
 fun
 -
 >
-u
-.
-i
-.
 script
+(
+)
 -
 >
 lineno

@@ -25690,11 +25690,9 @@ jp
 fun
 -
 >
-u
-.
-i
-.
 script
+(
+)
 ;
 return
 DecompileBody
@@ -25910,11 +25908,9 @@ script
 fun
 -
 >
-u
-.
-i
-.
 script
+(
+)
 ;
 #
 if

@@ -341,11 +341,9 @@ fun
 )
 -
 >
-u
-.
-i
-.
 script
+(
+)
 :
 NULL
 )
