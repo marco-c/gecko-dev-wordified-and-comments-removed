@@ -487,6 +487,9 @@ JSScript
 script
 )
 {
+JSAutoByteString
+funNameBytes
+;
 JAVASCRIPT_FUNCTION_ENTRY
 (
 ScriptFilename
@@ -501,6 +504,8 @@ FunctionName
 (
 cx
 fun
+&
+funNameBytes
 )
 )
 ;
@@ -522,6 +527,9 @@ JSScript
 script
 )
 {
+JSAutoByteString
+funNameBytes
+;
 JAVASCRIPT_FUNCTION_RETURN
 (
 ScriptFilename
@@ -536,6 +544,8 @@ FunctionName
 (
 cx
 fun
+&
+funNameBytes
 )
 )
 ;
