@@ -92,6 +92,14 @@ atoms
 NULL
 )
 endif
+ifdef
+ENABLE_TESTS
+DEFINES
++
+=
+-
+DENABLE_TESTS
+endif
 include
 (
 topsrcdir

@@ -78,14 +78,6 @@ prefs
 =
 {
 "
-dom
-.
-allow_XUL_XBL_for_file
-"
-:
-True
-                     
-"
 marionette
 .
 defaultPrefs
