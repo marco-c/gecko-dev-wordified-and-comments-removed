@@ -288,17 +288,6 @@ include
 "
 vm
 /
-RegExpStatics
--
-inl
-.
-h
-"
-#
-include
-"
-vm
-/
 String
 -
 inl
