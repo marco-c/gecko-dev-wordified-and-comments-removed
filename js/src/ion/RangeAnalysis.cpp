@@ -3027,6 +3027,9 @@ c
 if
 (
 (
+int32_t
+)
+(
 (
 uint32_t
 )
@@ -3055,6 +3058,9 @@ lhs
 lower_
 &
 &
+(
+int32_t
+)
 (
 (
 uint32_t
@@ -3089,7 +3095,7 @@ new
 Range
 (
 (
-int64_t
+uint32_t
 )
 lhs
 -
@@ -3099,7 +3105,7 @@ lower_
 <
 shift
 (
-int64_t
+uint32_t
 )
 lhs
 -
