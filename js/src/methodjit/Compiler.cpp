@@ -13924,6 +13924,10 @@ pop
 (
 )
 ;
+fallthrough
+=
+false
+;
 END_CASE
 (
 JSOP_THROW
@@ -14939,6 +14943,10 @@ emitReturn
 (
 NULL
 )
+;
+fallthrough
+=
+false
 ;
 END_CASE
 (
