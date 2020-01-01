@@ -922,6 +922,10 @@ TokenStream
 .
 cpp
 \
+TestingFunctions
+.
+cpp
+\
 LifoAlloc
 .
 cpp
