@@ -4314,6 +4314,17 @@ op
 =
 =
 JSOP_RETURN
+&
+&
+!
+(
+entryFrame
+-
+>
+flags
+&
+JSFRAME_BAILED_AT_RETURN
+)
 )
 entryFrame
 -
