@@ -6868,13 +6868,6 @@ PR_TRUE
 return
 ;
 }
-PRInt32
-formType
-=
-GetType
-(
-)
-;
 if
 (
 !
