@@ -6526,14 +6526,6 @@ dropPoint
 ip
 )
 ;
-this
-.
-_self
-.
-_rebuild
-(
-)
-;
 }
 onDragExit
 :
