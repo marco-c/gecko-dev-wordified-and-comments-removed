@@ -983,6 +983,9 @@ libs
 :
 :
 (
+RUN_TEST_PROGRAM
+)
+(
 PYTHON
 )
 (
