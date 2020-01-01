@@ -1661,6 +1661,8 @@ unsigned
 attrs
 =
 JSPROP_PERMANENT
+|
+JSPROP_SHARED
 ;
 if
 (
