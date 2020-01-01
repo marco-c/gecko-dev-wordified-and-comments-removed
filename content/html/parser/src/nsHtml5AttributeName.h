@@ -1420,7 +1420,7 @@ LARGEOP
 static
 nsHtml5AttributeName
 *
-UNICODE
+UNI_CODE
 ;
 static
 nsHtml5AttributeName
@@ -5305,7 +5305,7 @@ nsHtml5AttributeName
 nsHtml5AttributeName
 :
 :
-UNICODE
+UNI_CODE
 =
 nsnull
 ;
