@@ -92,6 +92,9 @@ beta
 '
 betatest
 '
+'
+DisableCompleteJump
+'
 ]
 ;
 sub
