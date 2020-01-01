@@ -22025,13 +22025,6 @@ placeId
 )
 ;
 }
-UpdateBatchScoper
-batch
-(
-*
-this
-)
-;
 rv
 =
 RemovePagesInternal
@@ -22043,6 +22036,13 @@ NS_ENSURE_SUCCESS
 (
 rv
 rv
+)
+;
+UpdateBatchScoper
+batch
+(
+*
+this
 )
 ;
 return
