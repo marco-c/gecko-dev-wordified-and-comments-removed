@@ -260,6 +260,13 @@ xul
 (
 NULL
 )
+MOCHITEST_BROWSER_FILES
+=
+\
+browser_bug822367
+.
+js
+\
 include
 (
 topsrcdir
