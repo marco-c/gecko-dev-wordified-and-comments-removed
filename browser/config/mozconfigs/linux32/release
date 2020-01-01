@@ -115,3 +115,14 @@ warnings
 as
 -
 errors
+#
+Enable
+parallel
+compiling
+mk_add_options
+MOZ_MAKE_FLAGS
+=
+"
+-
+j4
+"
