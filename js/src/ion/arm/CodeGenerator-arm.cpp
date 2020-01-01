@@ -5454,6 +5454,7 @@ fallible
 )
 )
 {
+const
 LAllocation
 *
 type
@@ -5461,9 +5462,8 @@ type
 unbox
 -
 >
-getOperand
+type
 (
-TYPE_INDEX
 )
 ;
 masm
