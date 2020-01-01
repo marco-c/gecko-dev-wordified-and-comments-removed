@@ -612,6 +612,10 @@ test_innerHtmlUnsecurePicture
 .
 html
 \
+test_javascriptPicture
+.
+html
+\
 test_secureAll
 .
 html
