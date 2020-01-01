@@ -303,6 +303,11 @@ GetTexture
 (
 )
 ;
+void
+DeleteTextureIfPresent
+(
+)
+;
 gl
 :
 :
