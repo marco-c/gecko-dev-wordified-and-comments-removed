@@ -1112,7 +1112,9 @@ getBrowser
 )
 )
 {
-setTimeout
+iQ
+.
+timeout
 (
 function
 (
