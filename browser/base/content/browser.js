@@ -823,7 +823,7 @@ defineLazyGetter
 (
 this
 "
-DebuggerUI
+BrowserDebuggerProcess
 "
 function
 (
@@ -849,7 +849,7 @@ modules
 /
 devtools
 /
-DebuggerUI
+DebuggerProcess
 .
 jsm
 "
@@ -857,13 +857,9 @@ tmp
 )
 ;
 return
-new
 tmp
 .
-DebuggerUI
-(
-window
-)
+BrowserDebuggerProcess
 ;
 }
 )

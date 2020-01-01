@@ -309,7 +309,7 @@ is
 (
 gSearchView
 .
-_container
+widget
 .
 _list
 .
@@ -338,7 +338,7 @@ is
 (
 gSearchView
 .
-_container
+widget
 .
 _parent
 .
@@ -579,7 +579,7 @@ isnot
 (
 gSearchView
 .
-_container
+widget
 .
 _list
 .
@@ -604,7 +604,7 @@ isnot
 (
 gSearchView
 .
-_container
+widget
 .
 _parent
 .
@@ -757,7 +757,7 @@ is
 (
 gSearchView
 .
-_container
+widget
 .
 _list
 .
@@ -789,7 +789,7 @@ is
 (
 gSearchView
 .
-_container
+widget
 .
 _parent
 .
