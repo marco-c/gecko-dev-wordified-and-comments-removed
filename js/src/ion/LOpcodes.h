@@ -140,6 +140,11 @@ _
 (
 ValueToInt32
 )
+\
+_
+(
+TruncateDToInt32
+)
 #
 if
 defined

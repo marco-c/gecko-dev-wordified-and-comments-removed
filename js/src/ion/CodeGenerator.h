@@ -112,6 +112,15 @@ LTestVAndBranch
 lir
 )
 ;
+virtual
+bool
+visitTruncateDToInt32
+(
+LTruncateDToInt32
+*
+lir
+)
+;
 }
 ;
 }
