@@ -254,7 +254,7 @@ void
 update
 (
 in
-ACString
+AString
 color
 )
 ;
@@ -335,7 +335,7 @@ void
 done
 (
 in
-ACString
+AString
 color
 )
 ;
@@ -534,7 +534,7 @@ in
 AString
 title
 in
-ACString
+AString
 initialColor
 )
 ;
