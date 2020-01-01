@@ -796,6 +796,7 @@ historyObserver_onPageChanged
 pageURI
 what
 value
+guid
 )
 {
 if
@@ -810,6 +811,12 @@ nsINavHistoryObserver
 ATTRIBUTE_FAVICON
 )
 return
+;
+do_check_guid_for_uri
+(
+pageURI
+guid
+)
 ;
 if
 (

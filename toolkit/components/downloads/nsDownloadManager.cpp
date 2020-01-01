@@ -8596,11 +8596,15 @@ nsIURI
 *
 aURI
 PRUint32
-aWhat
+aChangedAttribute
 const
 nsAString
 &
-aValue
+aNewValue
+const
+nsACString
+&
+aGUID
 )
 {
 return

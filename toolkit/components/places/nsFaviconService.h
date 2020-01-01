@@ -285,10 +285,14 @@ SendFaviconNotifications
 (
 nsIURI
 *
-aPage
+aPageURI
 nsIURI
 *
 aFaviconURI
+const
+nsACString
+&
+aGUID
 )
 ;
 mozilla

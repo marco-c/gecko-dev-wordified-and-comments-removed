@@ -186,6 +186,13 @@ iconId
 0
 )
 {
+guid
+.
+SetIsVoid
+(
+PR_TRUE
+)
+;
 }
 PRInt64
 id
@@ -204,6 +211,9 @@ canAddToHistory
 ;
 PRInt64
 iconId
+;
+nsCString
+guid
 ;
 }
 ;
