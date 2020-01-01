@@ -247,7 +247,7 @@ here
 <
 !
 ENTITY
-formHelper
+contentNavigator
 .
 previous
 "
@@ -257,7 +257,7 @@ Previous
 <
 !
 ENTITY
-formHelper
+contentNavigator
 .
 next
 "
@@ -267,7 +267,7 @@ Next
 <
 !
 ENTITY
-formHelper
+selectHelper
 .
 done
 "

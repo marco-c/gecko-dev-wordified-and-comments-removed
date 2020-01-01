@@ -10719,6 +10719,12 @@ textContent
 =
 verifier
 ;
+FindHelperUI
+.
+updateFindInPage
+(
+)
+;
 BrowserSearch
 .
 updatePageSearchEngines

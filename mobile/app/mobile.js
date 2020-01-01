@@ -888,6 +888,16 @@ false
 pref
 (
 "
+findhelper
+.
+autozoom
+"
+true
+)
+;
+pref
+(
+"
 browser
 .
 formfill
