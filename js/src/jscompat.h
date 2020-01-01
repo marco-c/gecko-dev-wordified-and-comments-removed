@@ -39,8 +39,4 @@ float
 float32
 ;
 #
-define
-allocPriv
-allocPool
-#
 endif
