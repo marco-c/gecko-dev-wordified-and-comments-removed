@@ -10778,8 +10778,10 @@ if
 topWindow
 )
 {
-NS_ERROR
+NS_ASSERTION
 (
+!
+mDocShell
 "
 DialogsAreBlocked
 (
@@ -31081,6 +31083,11 @@ GetWidgetListener
 (
 )
 ;
+if
+(
+listener
+)
+{
 nsCOMPtr
 <
 nsIXULWindow
@@ -31113,6 +31120,7 @@ do_GetInterface
 req
 )
 ;
+}
 }
 if
 (
@@ -44961,7 +44969,7 @@ elm
 elm
 -
 >
-GetEventHandler
+GetJSEventListener
 (
 nsGkAtoms
 :
@@ -45060,7 +45068,7 @@ return
 elm
 -
 >
-SetEventHandlerToJsval
+SetJSEventListenerToJsval
 (
 nsGkAtoms
 :
