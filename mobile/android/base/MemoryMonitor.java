@@ -308,8 +308,13 @@ MEMORY_PRESSURE_HIGH
 {
 GeckoAppShell
 .
-geckoEventSync
+sendEventToGeckoSync
 (
+GeckoEvent
+.
+createNoOpEvent
+(
+)
 )
 ;
 }

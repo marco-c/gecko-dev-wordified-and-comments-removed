@@ -2335,6 +2335,15 @@ return
 mType
 ;
 }
+bool
+AckNeeded
+(
+)
+{
+return
+mAckNeeded
+;
+}
 int64_t
 Time
 (
@@ -2761,6 +2770,9 @@ mAction
 int
 mType
 ;
+bool
+mAckNeeded
+;
 int64_t
 mTime
 ;
@@ -2956,6 +2968,10 @@ jTypeField
 ;
 static
 jfieldID
+jAckNeededField
+;
+static
+jfieldID
 jTimeField
 ;
 static
@@ -3144,7 +3160,7 @@ SURFACE_CREATED
 SURFACE_DESTROYED
 =
 14
-GECKO_EVENT_SYNC
+NOOP
 =
 15
 FORCED_RESIZE

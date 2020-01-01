@@ -255,7 +255,7 @@ private
 static
 final
 int
-GECKO_EVENT_SYNC
+NOOP
 =
 15
 ;
@@ -605,6 +605,10 @@ int
 mAction
 ;
 public
+boolean
+mAckNeeded
+;
+public
 long
 mTime
 ;
@@ -886,7 +890,7 @@ ACTIVITY_SHUTDOWN
 public
 static
 GeckoEvent
-createSyncEvent
+createNoOpEvent
 (
 )
 {
@@ -894,7 +898,7 @@ return
 new
 GeckoEvent
 (
-GECKO_EVENT_SYNC
+NOOP
 )
 ;
 }
@@ -3481,6 +3485,19 @@ aScreenOrientation
 ;
 return
 event
+;
+}
+public
+void
+setAckNeeded
+(
+boolean
+ackNeeded
+)
+{
+mAckNeeded
+=
+ackNeeded
 ;
 }
 }
