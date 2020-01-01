@@ -185,7 +185,7 @@ return
 0
 ;
 }
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 int
 async_wait
 (
