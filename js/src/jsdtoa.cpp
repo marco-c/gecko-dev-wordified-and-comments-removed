@@ -1,4 +1,7 @@
 #
+define
+__STDC_LIMIT_MACROS
+#
 include
 "
 jstypes
@@ -65,13 +68,6 @@ h
 include
 "
 jscntxt
-.
-h
-"
-#
-include
-"
-jsobjinlines
 .
 h
 "
