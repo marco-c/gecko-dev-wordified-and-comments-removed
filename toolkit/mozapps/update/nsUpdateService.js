@@ -6474,6 +6474,16 @@ addon
 {
 if
 (
+addon
+.
+type
+!
+=
+"
+plugin
+"
+&
+&
 !
 addon
 .
