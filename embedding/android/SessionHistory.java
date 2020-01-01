@@ -17,7 +17,14 @@ android
 .
 content
 .
-*
+ContentValues
+;
+import
+android
+.
+content
+.
+Intent
 ;
 import
 android
