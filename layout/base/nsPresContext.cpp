@@ -6530,6 +6530,11 @@ ruleTypeMask
 const
 {
 return
+UseDocumentColors
+(
+)
+&
+&
 nsRuleNode
 :
 :
