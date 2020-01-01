@@ -2568,14 +2568,6 @@ aDoReg
 ;
 protected
 :
-bool
-IsEventName
-(
-nsIAtom
-*
-aName
-)
-;
 virtual
 nsresult
 BeforeSetAttr
