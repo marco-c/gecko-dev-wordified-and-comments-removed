@@ -132,10 +132,6 @@ nsIDOMSVGFilters
 .
 idl
 \
-nsIDOMSVGImageElement
-.
-idl
-\
 nsIDOMSVGLength
 .
 idl

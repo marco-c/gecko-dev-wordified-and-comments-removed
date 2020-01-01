@@ -692,10 +692,6 @@ SVGFETurbulenceElement
 )
 DOMCI_CLASS
 (
-SVGImageElement
-)
-DOMCI_CLASS
-(
 SVGMarkerElement
 )
 DOMCI_CLASS
