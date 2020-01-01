@@ -18,13 +18,6 @@ nsDTDUtils
 .
 h
 "
-#
-include
-"
-nsVoidArray
-.
-h
-"
 extern
 "
 C
