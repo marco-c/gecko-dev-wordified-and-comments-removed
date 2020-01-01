@@ -3106,3 +3106,13 @@ enabled
 true
 )
 ;
+pref
+(
+"
+b2g
+.
+ignoreXFrameOptions
+"
+true
+)
+;
