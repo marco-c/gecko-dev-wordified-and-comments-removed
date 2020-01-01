@@ -999,7 +999,7 @@ sdpMid
 =
 candidateInitDict
 .
-sdbMid
+sdpMid
 |
 |
 null
