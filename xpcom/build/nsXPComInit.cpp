@@ -477,6 +477,13 @@ nsUUIDGenerator
 h
 "
 #
+include
+"
+nsIOUtil
+.
+h
+"
+#
 ifdef
 GC_LEAK_DETECTOR
 #
@@ -906,6 +913,10 @@ Init
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 nsMemoryReporterManager
+)
+NS_GENERIC_FACTORY_CONSTRUCTOR
+(
+nsIOUtil
 )
 static
 NS_METHOD
@@ -2060,6 +2071,11 @@ COMPONENT
 (
 MEMORY_REPORTER_MANAGER
 nsMemoryReporterManagerConstructor
+)
+COMPONENT
+(
+IOUTIL
+nsIOUtilConstructor
 )
 }
 ;

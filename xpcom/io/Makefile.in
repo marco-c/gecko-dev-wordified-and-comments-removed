@@ -531,6 +531,10 @@ nsNativeCharsetUtils
 .
 cpp
 \
+nsIOUtil
+.
+cpp
+\
 (
 NULL
 )
@@ -815,6 +819,10 @@ nsIConverterInputStream
 idl
 \
 nsIConverterOutputStream
+.
+idl
+\
+nsIIOUtil
 .
 idl
 \

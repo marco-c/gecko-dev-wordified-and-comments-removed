@@ -706,6 +706,16 @@ js
 (
 NULL
 )
+EXTRA_JS_MODULES
+=
+\
+NetUtil
+.
+jsm
+\
+(
+NULL
+)
 #
 we
 don
