@@ -375,7 +375,7 @@ if
 service
 -
 >
-ContentChannelIsActive
+ContentOrNormalChannelIsActive
 (
 )
 )

@@ -101,7 +101,7 @@ aElementHidden
 ;
 virtual
 bool
-ContentChannelIsActive
+ContentOrNormalChannelIsActive
 (
 )
 ;
@@ -283,6 +283,9 @@ AUDIO_CHANNEL_INT_LAST
 ;
 AudioChannelType
 mCurrentHigherChannel
+;
+AudioChannelType
+mCurrentVisibleHigherChannel
 ;
 nsTArray
 <
