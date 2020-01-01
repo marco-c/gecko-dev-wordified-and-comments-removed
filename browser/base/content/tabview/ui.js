@@ -2745,9 +2745,7 @@ a
 <
 gBrowser
 .
-tabs
-.
-length
+_numPinnedTabs
 ;
 a
 +
@@ -2766,11 +2764,6 @@ a
 ;
 if
 (
-theTab
-.
-pinned
-&
-&
 gBrowser
 .
 _removingTabs
