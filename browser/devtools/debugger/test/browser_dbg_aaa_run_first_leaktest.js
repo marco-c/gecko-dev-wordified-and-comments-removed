@@ -56,6 +56,11 @@ testStarted
 =
 false
 ;
+requestLongerTimeout
+(
+2
+)
+;
 debug_tab_pane
 (
 TAB_URL

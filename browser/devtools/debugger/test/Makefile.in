@@ -81,7 +81,7 @@ mk
 MOCHITEST_BROWSER_TESTS
 =
 \
-browser_dbg_leaktest
+browser_dbg_aaa_run_first_leaktest
 .
 js
 \
@@ -464,14 +464,6 @@ browser_dbg_scripts
 searching
 -
 08
-.
-js
-\
-browser_dbg_scripts
--
-searching
--
-files_ui
 .
 js
 \
