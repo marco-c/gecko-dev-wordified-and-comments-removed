@@ -373,6 +373,10 @@ test_pannerNode
 .
 html
 \
+test_pannerNodeAbove
+.
+html
+\
 test_pannerNode_equalPower
 .
 html
