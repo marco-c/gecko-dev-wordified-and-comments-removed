@@ -578,8 +578,6 @@ pushbutton
 '
 :
 INCLUDE_DESC
-|
-INCLUDE_NAME
 '
 checkbutton
 '
