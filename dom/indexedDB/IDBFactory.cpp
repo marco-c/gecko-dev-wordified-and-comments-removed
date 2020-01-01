@@ -3235,7 +3235,7 @@ second
 }
 already_AddRefed
 <
-nsIIDBOpenDBRequest
+IDBOpenDBRequest
 >
 IDBFactory
 :
@@ -3290,7 +3290,7 @@ aRv
 }
 already_AddRefed
 <
-nsIIDBOpenDBRequest
+IDBOpenDBRequest
 >
 IDBFactory
 :
@@ -3343,7 +3343,7 @@ aRv
 }
 already_AddRefed
 <
-nsIIDBOpenDBRequest
+IDBOpenDBRequest
 >
 IDBFactory
 :

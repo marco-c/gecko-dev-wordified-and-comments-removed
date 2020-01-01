@@ -50,8 +50,6 @@ const
 indexedDB
 IDBKeyRange
 DOMException
-IDBOpenDBRequest
-IDBRequest
 }
 =
 require
@@ -152,9 +150,6 @@ assert
 indexedDB
 IDBKeyRange
 DOMException
-IDBOpenDBRequest
-IDBOpenDBRequest
-IDBRequest
 ]
 .
 forEach

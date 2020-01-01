@@ -59,9 +59,6 @@ class
 nsIFileURL
 ;
 class
-nsIIDBOpenDBRequest
-;
-class
 nsPIDOMWindow
 ;
 namespace
@@ -450,7 +447,7 @@ MOZ_OVERRIDE
 ;
 already_AddRefed
 <
-nsIIDBOpenDBRequest
+IDBOpenDBRequest
 >
 Open
 (
@@ -483,7 +480,7 @@ aRv
 }
 already_AddRefed
 <
-nsIIDBOpenDBRequest
+IDBOpenDBRequest
 >
 DeleteDatabase
 (
@@ -547,7 +544,7 @@ aRv
 ;
 already_AddRefed
 <
-nsIIDBOpenDBRequest
+IDBOpenDBRequest
 >
 OpenForPrincipal
 (
@@ -572,7 +569,7 @@ aRv
 ;
 already_AddRefed
 <
-nsIIDBOpenDBRequest
+IDBOpenDBRequest
 >
 DeleteForPrincipal
 (
@@ -601,7 +598,7 @@ IDBFactory
 ;
 already_AddRefed
 <
-nsIIDBOpenDBRequest
+IDBOpenDBRequest
 >
 Open
 (

@@ -1099,17 +1099,6 @@ GetTarget
 (
 )
 ;
-nsCOMPtr
-<
-nsIIDBRequest
->
-strongRequest
-=
-do_QueryInterface
-(
-eventTarget
-)
-;
 IDBRequest
 *
 request
@@ -1120,7 +1109,7 @@ IDBRequest
 *
 >
 (
-strongRequest
+eventTarget
 .
 get
 (

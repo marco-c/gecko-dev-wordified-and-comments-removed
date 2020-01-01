@@ -278,15 +278,7 @@ ChromeMessageSender
 )
 DOMCI_CLASS
 (
-IDBRequest
-)
-DOMCI_CLASS
-(
 IDBKeyRange
-)
-DOMCI_CLASS
-(
-IDBOpenDBRequest
 )
 DOMCI_CLASS
 (

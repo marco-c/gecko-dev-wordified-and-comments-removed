@@ -713,6 +713,14 @@ IDBObjectStore
 .
 webidl
 \
+IDBOpenDBRequest
+.
+webidl
+\
+IDBRequest
+.
+webidl
+\
 IDBTransaction
 .
 webidl

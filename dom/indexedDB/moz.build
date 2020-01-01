@@ -119,16 +119,6 @@ nsIIDBKeyRange
 idl
 '
 '
-nsIIDBOpenDBRequest
-.
-idl
-'
-'
-nsIIDBRequest
-.
-idl
-'
-'
 nsIIndexedDatabaseManager
 .
 idl

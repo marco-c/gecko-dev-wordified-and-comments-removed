@@ -130,9 +130,6 @@ def
 IDBObjectStore
 *
 /
-interface
-IDBRequest
-;
 dictionary
 IDBObjectStoreParameters
 {
