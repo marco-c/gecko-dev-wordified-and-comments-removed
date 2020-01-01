@@ -540,11 +540,6 @@ nsIDOMNSHistory
 go
 #
 -
-nsIDOMJSNavigator
-.
-preference
-#
--
 nsIDOMJSPluginArray
 .
 refresh
