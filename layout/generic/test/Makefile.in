@@ -628,6 +628,10 @@ test_bug469613
 .
 xul
 \
+test_bug469774
+.
+xul
+\
 test_bug470212
 .
 html
