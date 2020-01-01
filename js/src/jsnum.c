@@ -2296,7 +2296,7 @@ JS_FN
 (
 js_toString_str
 num_toString
-0
+1
 1
 JSFUN_THISP_NUMBER
 )
