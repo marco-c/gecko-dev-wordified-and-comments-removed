@@ -3615,6 +3615,11 @@ type
 "
 url
 "
+mozactionhint
+=
+"
+go
+"
 class
 =
 "
