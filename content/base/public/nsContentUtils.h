@@ -1624,15 +1624,6 @@ aDocument
 )
 ;
 static
-void
-NotifyXPCIfExceptionPending
-(
-JSContext
-*
-aCx
-)
-;
-static
 nsresult
 ReleasePtrOnShutdown
 (

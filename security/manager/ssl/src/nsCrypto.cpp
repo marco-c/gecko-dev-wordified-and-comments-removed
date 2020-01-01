@@ -9558,14 +9558,6 @@ auto
 "
 )
 ;
-ncc
--
->
-SetExceptionWasThrown
-(
-PR_TRUE
-)
-;
 aResult
 .
 Append

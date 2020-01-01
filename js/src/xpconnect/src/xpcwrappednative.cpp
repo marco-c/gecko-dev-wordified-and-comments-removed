@@ -9819,10 +9819,9 @@ done
 else
 if
 (
-ccx
-.
-GetExceptionWasThrown
+JS_IsExceptionPending
 (
+ccx
 )
 )
 {
