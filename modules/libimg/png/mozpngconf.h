@@ -12,6 +12,14 @@ PNG_USER_CHUNK_MALLOC_MAX
 define
 PNG_NO_GLOBAL_ARRAYS
 #
+ifdef
+_MSC_VER
+#
+define
+PNG_NO_PEDANTIC_WARNINGS
+#
+endif
+#
 ifndef
 MOZ_PNG_READ
 #
@@ -19,6 +27,9 @@ define
 PNG_NO_READ_SUPPORTED
 #
 endif
+#
+define
+PNG_NO_READ_BGR
 #
 define
 PNG_NO_SET_USER_LIMITS
@@ -36,7 +47,7 @@ define
 PNG_NO_READ_BACKGROUND
 #
 define
-PNG_NO_READ_DITHER
+PNG_NO_READ_QUANTIZE
 #
 define
 PNG_NO_READ_INVERT
@@ -75,6 +86,9 @@ define
 PNG_NO_READ_hIST
 #
 define
+PNG_NO_READ_oFFs
+#
+define
 PNG_NO_READ_pCAL
 #
 define
@@ -109,9 +123,6 @@ PNG_NO_READ_OPT_PLTE
 #
 define
 PNG_NO_READ_STRIP_ALPHA
-#
-define
-PNG_NO_READ_oFFs
 #
 define
 PNG_NO_SEQUENTIAL_READ_SUPPORTED
@@ -232,6 +243,9 @@ define
 PNG_NO_INFO_IMAGE
 #
 define
+PNG_NO_IO_STATE
+#
+define
 PNG_NO_USER_MEM
 #
 define
@@ -254,6 +268,9 @@ PNG_NO_ERROR_NUMBERS
 #
 define
 PNG_NO_EASY_ACCESS
+#
+define
+PNG_NO_TIME_RFC1123
 #
 define
 png_get_io_ptr

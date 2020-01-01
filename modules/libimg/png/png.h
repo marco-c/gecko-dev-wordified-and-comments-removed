@@ -12,7 +12,7 @@ PNG_LIBPNG_VER_STRING
 .
 4
 .
-3
+7
 "
 #
 define
@@ -25,11 +25,11 @@ version
 .
 4
 .
-3
+7
 -
-June
-26
-2010
+April
+10
+2011
 \
 n
 "
@@ -52,7 +52,7 @@ PNG_LIBPNG_VER_MINOR
 #
 define
 PNG_LIBPNG_VER_RELEASE
-3
+7
 #
 define
 PNG_LIBPNG_VER_BUILD
@@ -130,14 +130,14 @@ PNG_LIBPNG_BUILD_BETA
 #
 define
 PNG_LIBPNG_VER
-10403
+10407
 /
 *
 1
 .
 4
 .
-3
+7
 *
 /
 #
@@ -1097,6 +1097,13 @@ FAR
 png_infop
 ;
 typedef
+PNG_CONST
+png_info
+FAR
+*
+png_const_infop
+;
+typedef
 png_info
 FAR
 *
@@ -1669,6 +1676,13 @@ png_struct
 FAR
 *
 png_structp
+;
+typedef
+PNG_CONST
+png_struct
+FAR
+*
+png_const_structp
 ;
 typedef
 void
@@ -3083,7 +3097,7 @@ PNG_BLEND_OP_OVER
 endif
 typedef
 png_structp
-version_1_4_3
+version_1_4_7
 ;
 typedef
 png_struct
@@ -3093,7 +3107,6 @@ FAR
 *
 png_structpp
 ;
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -3106,7 +3119,6 @@ void
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -3122,7 +3134,6 @@ num_bytes
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 int
@@ -3158,7 +3169,6 @@ sig
 n
 )
 )
-extern
 PNG_EXPORT
 (
 png_structp
@@ -3179,7 +3189,6 @@ warn_fn
 )
 PNG_ALLOCATED
 ;
-extern
 PNG_EXPORT
 (
 png_structp
@@ -3200,7 +3209,6 @@ warn_fn
 )
 PNG_ALLOCATED
 ;
-extern
 PNG_EXPORT
 (
 png_size_t
@@ -3209,12 +3217,11 @@ png_get_compression_buffer_size
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -3233,7 +3240,6 @@ size
 #
 ifdef
 PNG_SETJMP_SUPPORTED
-extern
 PNG_EXPORT
 (
 jmp_buf
@@ -3290,7 +3296,6 @@ endif
 #
 ifdef
 PNG_READ_SUPPORTED
-extern
 PNG_EXPORT
 (
 int
@@ -3309,7 +3314,6 @@ endif
 #
 ifdef
 PNG_USER_MEM_SUPPORTED
-extern
 PNG_EXPORT
 (
 png_structp
@@ -3336,7 +3340,6 @@ free_fn
 )
 PNG_ALLOCATED
 ;
-extern
 PNG_EXPORT
 (
 png_structp
@@ -3365,7 +3368,6 @@ PNG_ALLOCATED
 ;
 #
 endif
-extern
 PNG_EXPORT
 (
 void
@@ -3379,7 +3381,6 @@ png_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -3399,7 +3400,6 @@ length
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -3417,7 +3417,6 @@ length
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -3435,7 +3434,6 @@ length
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -3449,7 +3447,6 @@ png_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 png_infop
@@ -3464,7 +3461,6 @@ png_ptr
 )
 PNG_ALLOCATED
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -3480,7 +3476,6 @@ png_info_struct_size
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -3496,7 +3491,6 @@ info_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -3515,7 +3509,6 @@ info_ptr
 #
 ifdef
 PNG_SEQUENTIAL_READ_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -3536,7 +3529,6 @@ endif
 #
 ifdef
 PNG_TIME_RFC1123_SUPPORTED
-extern
 PNG_EXPORT
 (
 png_charp
@@ -3557,7 +3549,6 @@ endif
 #
 ifdef
 PNG_CONVERT_tIME_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -3576,7 +3567,6 @@ ttime
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -3597,7 +3587,6 @@ endif
 #
 ifdef
 PNG_READ_EXPAND_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -3611,7 +3600,6 @@ png_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -3625,7 +3613,6 @@ png_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -3639,7 +3626,6 @@ png_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -3667,7 +3653,6 @@ defined
 (
 PNG_WRITE_BGR_SUPPORTED
 )
-extern
 PNG_EXPORT
 (
 void
@@ -3686,7 +3671,6 @@ endif
 #
 ifdef
 PNG_READ_GRAY_TO_RGB_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -3708,7 +3692,6 @@ PNG_READ_RGB_TO_GRAY_SUPPORTED
 #
 ifdef
 PNG_FLOATING_POINT_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -3730,7 +3713,6 @@ green
 ;
 #
 endif
-extern
 PNG_EXPORT
 (
 void
@@ -3750,7 +3732,6 @@ green
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 png_byte
@@ -3759,14 +3740,13 @@ png_get_rgb_to_gray_status
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
 )
 )
 ;
 #
 endif
-extern
 PNG_EXPORT
 (
 void
@@ -3785,7 +3765,6 @@ palette
 #
 ifdef
 PNG_READ_STRIP_ALPHA_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -3814,7 +3793,6 @@ defined
 (
 PNG_WRITE_SWAP_ALPHA_SUPPORTED
 )
-extern
 PNG_EXPORT
 (
 void
@@ -3843,7 +3821,6 @@ defined
 (
 PNG_WRITE_INVERT_ALPHA_SUPPORTED
 )
-extern
 PNG_EXPORT
 (
 void
@@ -3871,7 +3848,6 @@ defined
 (
 PNG_WRITE_FILLER_SUPPORTED
 )
-extern
 PNG_EXPORT
 (
 void
@@ -3897,7 +3873,6 @@ PNG_FILLER_BEFORE
 define
 PNG_FILLER_AFTER
 1
-extern
 PNG_EXPORT
 (
 void
@@ -3929,7 +3904,6 @@ defined
 (
 PNG_WRITE_SWAP_SUPPORTED
 )
-extern
 PNG_EXPORT
 (
 void
@@ -3957,7 +3931,6 @@ defined
 (
 PNG_WRITE_PACK_SUPPORTED
 )
-extern
 PNG_EXPORT
 (
 void
@@ -3986,7 +3959,6 @@ defined
 (
 PNG_WRITE_PACKSWAP_SUPPORTED
 )
-extern
 PNG_EXPORT
 (
 void
@@ -4014,7 +3986,6 @@ defined
 (
 PNG_WRITE_SHIFT_SUPPORTED
 )
-extern
 PNG_EXPORT
 (
 void
@@ -4045,7 +4016,6 @@ defined
 (
 PNG_WRITE_INTERLACING_SUPPORTED
 )
-extern
 PNG_EXPORT
 (
 int
@@ -4073,7 +4043,6 @@ defined
 (
 PNG_WRITE_INVERT_SUPPORTED
 )
-extern
 PNG_EXPORT
 (
 void
@@ -4095,7 +4064,6 @@ PNG_READ_BACKGROUND_SUPPORTED
 #
 ifdef
 PNG_FLOATING_POINT_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -4140,7 +4108,6 @@ endif
 #
 ifdef
 PNG_READ_16_TO_8_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -4159,7 +4126,6 @@ endif
 #
 ifdef
 PNG_READ_QUANTIZE_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -4195,7 +4161,6 @@ PNG_READ_GAMMA_SUPPORTED
 #
 ifdef
 PNG_FLOATING_POINT_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -4220,7 +4185,6 @@ endif
 #
 ifdef
 PNG_WRITE_FLUSH_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -4236,7 +4200,6 @@ nrows
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -4252,7 +4215,6 @@ png_ptr
 ;
 #
 endif
-extern
 PNG_EXPORT
 (
 void
@@ -4266,7 +4228,6 @@ png_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -4285,7 +4246,6 @@ info_ptr
 #
 ifdef
 PNG_SEQUENTIAL_READ_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -4310,7 +4270,6 @@ endif
 #
 ifdef
 PNG_SEQUENTIAL_READ_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -4333,7 +4292,6 @@ endif
 #
 ifdef
 PNG_SEQUENTIAL_READ_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -4351,7 +4309,6 @@ image
 ;
 #
 endif
-extern
 PNG_EXPORT
 (
 void
@@ -4367,7 +4324,6 @@ row
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -4385,7 +4341,6 @@ num_rows
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -4456,7 +4411,6 @@ png_info
 ;
 #
 endif
-extern
 PNG_EXPORT
 (
 void
@@ -4475,7 +4429,6 @@ info_ptr
 #
 ifdef
 PNG_SEQUENTIAL_READ_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -4493,7 +4446,6 @@ info_ptr
 ;
 #
 endif
-extern
 PNG_EXPORT
 (
 void
@@ -4509,7 +4461,6 @@ info_ptr_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -4527,7 +4478,6 @@ end_info_ptr_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -4543,7 +4493,6 @@ info_ptr_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -4651,7 +4600,6 @@ current
 value
 *
 /
-extern
 PNG_EXPORT
 (
 void
@@ -4738,7 +4686,6 @@ PNG_WRITE_WEIGHTED_FILTER_SUPPORTED
 #
 ifdef
 PNG_FLOATING_POINT_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -4813,7 +4760,6 @@ valid
 value
 *
 /
-extern
 PNG_EXPORT
 (
 void
@@ -4829,7 +4775,6 @@ level
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -4845,7 +4790,6 @@ mem_level
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -4861,7 +4805,6 @@ strategy
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -4877,7 +4820,6 @@ window_bits
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -4896,7 +4838,6 @@ method
 #
 ifdef
 PNG_STDIO_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -4914,7 +4855,6 @@ fp
 ;
 #
 endif
-extern
 PNG_EXPORT
 (
 void
@@ -4934,7 +4874,6 @@ warning_fn
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 png_voidp
@@ -4943,12 +4882,11 @@ png_get_error_ptr
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -4968,7 +4906,6 @@ output_flush_fn
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -4986,7 +4923,6 @@ read_data_fn
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 png_voidp
@@ -5000,7 +4936,6 @@ png_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -5016,7 +4951,6 @@ read_row_fn
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -5035,7 +4969,6 @@ write_row_fn
 #
 ifdef
 PNG_USER_MEM_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -5055,7 +4988,6 @@ free_fn
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 png_voidp
@@ -5064,7 +4996,7 @@ png_get_mem_ptr
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
 )
 )
@@ -5074,7 +5006,6 @@ endif
 #
 ifdef
 PNG_READ_USER_TRANSFORM_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -5095,7 +5026,6 @@ endif
 #
 ifdef
 PNG_WRITE_USER_TRANSFORM_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -5126,7 +5056,6 @@ defined
 (
 PNG_WRITE_USER_TRANSFORM_SUPPORTED
 )
-extern
 PNG_EXPORT
 (
 void
@@ -5146,7 +5075,6 @@ user_transform_channels
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 png_voidp
@@ -5155,7 +5083,7 @@ png_get_user_transform_ptr
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
 )
 )
@@ -5165,7 +5093,6 @@ endif
 #
 ifdef
 PNG_USER_CHUNKS_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -5183,7 +5110,6 @@ read_user_chunk_fn
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 png_voidp
@@ -5192,7 +5118,7 @@ png_get_user_chunk_ptr
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
 )
 )
@@ -5202,7 +5128,6 @@ endif
 #
 ifdef
 PNG_PROGRESSIVE_READ_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -5247,7 +5172,6 @@ frame_end_fn
 ;
 #
 endif
-extern
 PNG_EXPORT
 (
 png_voidp
@@ -5256,12 +5180,11 @@ png_get_progressive_ptr
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -5281,7 +5204,6 @@ buffer_size
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -5301,7 +5223,6 @@ new_row
 ;
 #
 endif
-extern
 PNG_EXPORT
 (
 png_voidp
@@ -5318,7 +5239,6 @@ size
 )
 PNG_ALLOCATED
 ;
-extern
 PNG_EXPORT
 (
 png_voidp
@@ -5335,7 +5255,6 @@ size
 )
 PNG_ALLOCATED
 ;
-extern
 PNG_EXPORT
 (
 png_voidp
@@ -5352,7 +5271,6 @@ size
 )
 PNG_ALLOCATED
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -5368,7 +5286,6 @@ ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -5388,7 +5305,6 @@ num
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -5484,7 +5400,6 @@ PNG_FREE_UNKN
 #
 ifdef
 PNG_USER_MEM_SUPPORTED
-extern
 PNG_EXPORT
 (
 png_voidp
@@ -5501,7 +5416,6 @@ size
 )
 PNG_ALLOCATED
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -5522,7 +5436,6 @@ endif
 #
 ifndef
 PNG_NO_ERROR_TEXT
-extern
 PNG_EXPORT
 (
 void
@@ -5539,7 +5452,6 @@ error_message
 )
 PNG_NORETURN
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -5558,7 +5470,6 @@ PNG_NORETURN
 ;
 #
 else
-extern
 PNG_EXPORT
 (
 void
@@ -5575,7 +5486,6 @@ PNG_NORETURN
 ;
 #
 endif
-extern
 PNG_EXPORT
 (
 void
@@ -5591,7 +5501,6 @@ warning_message
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -5610,7 +5519,6 @@ warning_message
 #
 ifdef
 PNG_BENIGN_ERRORS_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -5626,7 +5534,6 @@ warning_message
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -5642,7 +5549,6 @@ warning_message
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -5660,7 +5566,6 @@ allowed
 ;
 #
 endif
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -5669,16 +5574,15 @@ png_get_valid
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 png_uint_32
 flag
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 png_size_t
@@ -5687,9 +5591,9 @@ png_get_rowbytes
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 )
 )
@@ -5697,7 +5601,6 @@ info_ptr
 #
 ifdef
 PNG_INFO_IMAGE_SUPPORTED
-extern
 PNG_EXPORT
 (
 png_bytepp
@@ -5706,14 +5609,13 @@ png_get_rows
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -5733,7 +5635,6 @@ row_pointers
 ;
 #
 endif
-extern
 PNG_EXPORT
 (
 png_byte
@@ -5742,9 +5643,9 @@ png_get_channels
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 )
 )
@@ -5752,7 +5653,6 @@ info_ptr
 #
 ifdef
 PNG_EASY_ACCESS_SUPPORTED
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -5761,14 +5661,13 @@ png_get_image_width
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -5777,14 +5676,13 @@ png_get_image_height
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 png_byte
@@ -5793,14 +5691,13 @@ png_get_bit_depth
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 png_byte
@@ -5809,14 +5706,13 @@ png_get_color_type
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 png_byte
@@ -5825,14 +5721,13 @@ png_get_filter_type
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 png_byte
@@ -5841,14 +5736,13 @@ png_get_interlace_type
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 png_byte
@@ -5857,14 +5751,13 @@ png_get_compression_type
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -5873,14 +5766,13 @@ png_get_pixels_per_meter
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -5889,14 +5781,13 @@ png_get_x_pixels_per_meter
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -5905,9 +5796,9 @@ png_get_y_pixels_per_meter
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 )
 )
@@ -5915,7 +5806,6 @@ info_ptr
 #
 ifdef
 PNG_FLOATING_POINT_SUPPORTED
-extern
 PNG_EXPORT
 (
 float
@@ -5924,16 +5814,15 @@ png_get_pixel_aspect_ratio
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 )
 )
 ;
 #
 endif
-extern
 PNG_EXPORT
 (
 png_int_32
@@ -5942,14 +5831,13 @@ png_get_x_offset_pixels
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 png_int_32
@@ -5958,14 +5846,13 @@ png_get_y_offset_pixels
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 png_int_32
@@ -5974,14 +5861,13 @@ png_get_x_offset_microns
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 png_int_32
@@ -5990,16 +5876,15 @@ png_get_y_offset_microns
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 )
 )
 ;
 #
 endif
-extern
 PNG_EXPORT
 (
 png_bytep
@@ -6008,7 +5893,7 @@ png_get_signature
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
 png_infop
 info_ptr
@@ -6018,7 +5903,6 @@ info_ptr
 #
 ifdef
 PNG_bKGD_SUPPORTED
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -6027,7 +5911,7 @@ png_get_bKGD
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
 png_infop
 info_ptr
@@ -6042,7 +5926,6 @@ endif
 #
 ifdef
 PNG_bKGD_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -6068,7 +5951,6 @@ PNG_cHRM_SUPPORTED
 #
 ifdef
 PNG_FLOATING_POINT_SUPPORTED
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -6077,9 +5959,9 @@ png_get_cHRM
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 double
 *
@@ -6113,7 +5995,6 @@ endif
 #
 ifdef
 PNG_FIXED_POINT_SUPPORTED
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -6122,9 +6003,9 @@ png_get_cHRM_fixed
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 png_fixed_point
 *
@@ -6163,7 +6044,6 @@ PNG_cHRM_SUPPORTED
 #
 ifdef
 PNG_FLOATING_POINT_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -6200,7 +6080,6 @@ endif
 #
 ifdef
 PNG_FIXED_POINT_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -6242,7 +6121,6 @@ PNG_gAMA_SUPPORTED
 #
 ifdef
 PNG_FLOATING_POINT_SUPPORTED
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -6251,9 +6129,9 @@ png_get_gAMA
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 double
 *
@@ -6263,7 +6141,6 @@ file_gamma
 ;
 #
 endif
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -6272,9 +6149,9 @@ png_get_gAMA_fixed
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 png_fixed_point
 *
@@ -6290,7 +6167,6 @@ PNG_gAMA_SUPPORTED
 #
 ifdef
 PNG_FLOATING_POINT_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -6310,7 +6186,6 @@ file_gamma
 ;
 #
 endif
-extern
 PNG_EXPORT
 (
 void
@@ -6333,7 +6208,6 @@ endif
 #
 ifdef
 PNG_hIST_SUPPORTED
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -6342,9 +6216,9 @@ png_get_hIST
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 png_uint_16p
 *
@@ -6357,7 +6231,6 @@ endif
 #
 ifdef
 PNG_hIST_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -6377,7 +6250,6 @@ hist
 ;
 #
 endif
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -6414,7 +6286,6 @@ filter_method
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -6447,7 +6318,6 @@ filter_method
 #
 ifdef
 PNG_oFFs_SUPPORTED
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -6456,9 +6326,9 @@ png_get_oFFs
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 png_int_32
 *
@@ -6477,7 +6347,6 @@ endif
 #
 ifdef
 PNG_oFFs_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -6504,7 +6373,6 @@ endif
 #
 ifdef
 PNG_pCAL_SUPPORTED
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -6513,9 +6381,9 @@ png_get_pCAL
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 png_charp
 *
@@ -6546,7 +6414,6 @@ endif
 #
 ifdef
 PNG_pCAL_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -6581,7 +6448,6 @@ endif
 #
 ifdef
 PNG_pHYs_SUPPORTED
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -6590,9 +6456,9 @@ png_get_pHYs
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 png_uint_32
 *
@@ -6611,7 +6477,6 @@ endif
 #
 ifdef
 PNG_pHYs_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -6635,7 +6500,6 @@ unit_type
 ;
 #
 endif
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -6644,9 +6508,9 @@ png_get_PLTE
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 png_colorp
 *
@@ -6657,7 +6521,6 @@ num_palette
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -6680,7 +6543,6 @@ num_palette
 #
 ifdef
 PNG_sBIT_SUPPORTED
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -6689,7 +6551,7 @@ png_get_sBIT
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
 png_infop
 info_ptr
@@ -6704,7 +6566,6 @@ endif
 #
 ifdef
 PNG_sBIT_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -6727,7 +6588,6 @@ endif
 #
 ifdef
 PNG_sRGB_SUPPORTED
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -6736,9 +6596,9 @@ png_get_sRGB
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 int
 *
@@ -6751,7 +6611,6 @@ endif
 #
 ifdef
 PNG_sRGB_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -6769,7 +6628,6 @@ intent
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -6792,7 +6650,6 @@ endif
 #
 ifdef
 PNG_iCCP_SUPPORTED
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -6801,9 +6658,9 @@ png_get_iCCP
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 png_charpp
 name
@@ -6823,7 +6680,6 @@ endif
 #
 ifdef
 PNG_iCCP_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -6852,7 +6708,6 @@ endif
 #
 ifdef
 PNG_sPLT_SUPPORTED
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -6861,9 +6716,9 @@ png_get_sPLT
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 png_sPLT_tpp
 entries
@@ -6875,7 +6730,6 @@ endif
 #
 ifdef
 PNG_sPLT_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -6900,7 +6754,6 @@ endif
 #
 ifdef
 PNG_TEXT_SUPPORTED
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -6909,9 +6762,9 @@ png_get_text
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 png_textp
 *
@@ -6927,7 +6780,6 @@ endif
 #
 ifdef
 PNG_TEXT_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -6952,7 +6804,6 @@ endif
 #
 ifdef
 PNG_tIME_SUPPORTED
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -6961,7 +6812,7 @@ png_get_tIME
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
 png_infop
 info_ptr
@@ -6976,7 +6827,6 @@ endif
 #
 ifdef
 PNG_tIME_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -6999,7 +6849,6 @@ endif
 #
 ifdef
 PNG_tRNS_SUPPORTED
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -7008,7 +6857,7 @@ png_get_tRNS
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
 png_infop
 info_ptr
@@ -7029,7 +6878,6 @@ endif
 #
 ifdef
 PNG_tRNS_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -7064,7 +6912,6 @@ PNG_sCAL_SUPPORTED
 #
 ifdef
 PNG_FLOATING_POINT_SUPPORTED
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -7073,9 +6920,9 @@ png_get_sCAL
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 int
 *
@@ -7094,7 +6941,6 @@ else
 #
 ifdef
 PNG_FIXED_POINT_SUPPORTED
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -7103,9 +6949,9 @@ png_get_sCAL_s
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 int
 *
@@ -7129,7 +6975,6 @@ PNG_sCAL_SUPPORTED
 #
 ifdef
 PNG_FLOATING_POINT_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -7156,7 +7001,6 @@ else
 #
 ifdef
 PNG_FIXED_POINT_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -7551,7 +7395,6 @@ endif
 #
 ifdef
 PNG_HANDLE_AS_UNKNOWN_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -7591,7 +7434,6 @@ endif
 #
 ifdef
 PNG_UNKNOWN_CHUNKS_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -7611,7 +7453,6 @@ num_unknowns
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -7631,7 +7472,6 @@ location
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -7640,9 +7480,9 @@ png_get_unknown_chunks
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 png_unknown_chunkpp
 entries
@@ -7651,7 +7491,6 @@ entries
 ;
 #
 endif
-extern
 PNG_EXPORT
 (
 void
@@ -7672,7 +7511,6 @@ mask
 #
 ifdef
 PNG_INFO_IMAGE_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -7692,7 +7530,6 @@ params
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -7714,7 +7551,6 @@ params
 ;
 #
 endif
-extern
 PNG_EXPORT
 (
 png_charp
@@ -7723,12 +7559,11 @@ png_get_copyright
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 png_charp
@@ -7737,12 +7572,11 @@ png_get_header_ver
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 png_charp
@@ -7751,12 +7585,11 @@ png_get_header_version
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 png_charp
@@ -7765,7 +7598,7 @@ png_get_libpng_ver
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
 )
 )
@@ -7773,7 +7606,6 @@ png_ptr
 #
 ifdef
 PNG_MNG_FEATURES_SUPPORTED
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -7810,7 +7642,6 @@ PNG_HANDLE_CHUNK_ALWAYS
 #
 ifdef
 PNG_ERROR_NUMBERS_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -7831,7 +7662,6 @@ endif
 #
 ifdef
 PNG_SET_USER_LIMITS_SUPPORTED
-extern
 PNG_EXPORT
 (
 void
@@ -7849,7 +7679,6 @@ user_height_max
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -7858,12 +7687,11 @@ png_get_user_width_max
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -7872,12 +7700,11 @@ png_get_user_height_max
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -7893,7 +7720,6 @@ user_chunk_cache_max
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -7902,12 +7728,11 @@ png_get_chunk_cache_max
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -7923,7 +7748,6 @@ user_chunk_cache_max
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 png_alloc_size_t
@@ -7932,7 +7756,7 @@ png_get_chunk_malloc_max
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
 )
 )
@@ -7959,9 +7783,9 @@ png_get_pixels_per_inch
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 )
 )
@@ -7974,9 +7798,9 @@ png_get_x_pixels_per_inch
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 )
 )
@@ -7989,9 +7813,9 @@ png_get_y_pixels_per_inch
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 )
 )
@@ -8004,9 +7828,9 @@ png_get_x_offset_inches
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 )
 )
@@ -8019,9 +7843,9 @@ png_get_y_offset_inches
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 )
 )
@@ -8037,9 +7861,9 @@ png_get_pHYs_dpi
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
-png_infop
+png_const_infop
 info_ptr
 png_uint_32
 *
@@ -8060,7 +7884,6 @@ endif
 #
 ifdef
 PNG_IO_STATE_SUPPORTED
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -8069,12 +7892,11 @@ png_get_io_state
 PNGARG
 (
 (
-png_structp
+png_const_structp
 png_ptr
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 png_bytep
@@ -8613,8 +8435,14 @@ buf
 \
 (
 (
+png_uint_16
+)
+\
 (
-png_uint_32
+(
+(
+unsigned
+int
 )
 (
 *
@@ -8630,7 +8458,8 @@ buf
 \
 (
 (
-png_uint_32
+unsigned
+int
 )
 (
 *
@@ -8644,9 +8473,7 @@ buf
 )
 )
 )
-#
-ifdef
-PNG_GET_INT_32_SUPPORTED
+)
 #
 define
 png_get_int_32
@@ -8656,82 +8483,50 @@ buf
 \
 (
 (
-(
 png_int_32
 )
+(
 (
 *
 (
 buf
 )
+&
+0x80
 )
-<
-<
-24
-)
-+
 \
+?
+-
 (
 (
 png_int_32
 )
 (
-*
 (
+png_get_uint_32
 (
 buf
+)
+^
+0xffffffffL
 )
 +
 1
 )
 )
-<
-<
-16
-)
-+
 \
-(
+:
 (
 png_int_32
 )
-(
-*
-(
+png_get_uint_32
 (
 buf
 )
-+
-2
 )
 )
-<
-<
-8
-)
-+
-\
-(
-(
-png_int_32
-)
-(
-*
-(
-(
-buf
-)
-+
-3
-)
-)
-)
-)
-#
-endif
 #
 else
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -8745,7 +8540,6 @@ buf
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 png_uint_16
@@ -8762,7 +8556,6 @@ buf
 #
 ifdef
 PNG_GET_INT_32_SUPPORTED
-extern
 PNG_EXPORT
 (
 png_int_32
@@ -8780,7 +8573,6 @@ buf
 endif
 #
 endif
-extern
 PNG_EXPORT
 (
 png_uint_32
@@ -8796,7 +8588,6 @@ buf
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -8812,7 +8603,6 @@ i
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void
@@ -8828,7 +8618,6 @@ i
 )
 )
 ;
-extern
 PNG_EXPORT
 (
 void

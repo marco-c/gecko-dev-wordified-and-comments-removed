@@ -6,11 +6,11 @@ version
 .
 4
 .
-3
+7
 -
-June
-26
-2010
+April
+10
+2011
 (
 shared
 library
@@ -1905,6 +1905,7 @@ ELF
 makefile
 symbol
 versioning
+(
 gcc
 creates
 libpng14
@@ -1917,7 +1918,7 @@ so
 .
 4
 .
-3
+7
 )
 makefile
 .
@@ -1941,7 +1942,7 @@ so
 .
 4
 .
-3
+7
 )
 makefile
 .
@@ -2191,7 +2192,7 @@ so
 .
 4
 .
-3
+7
 )
 makefile
 .
@@ -2223,7 +2224,7 @@ so
 .
 4
 .
-3
+7
 )
 makefile
 .
@@ -2246,7 +2247,7 @@ so
 .
 4
 .
-3
+7
 )
 makefile
 .

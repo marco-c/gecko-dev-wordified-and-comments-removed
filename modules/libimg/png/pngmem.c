@@ -2368,7 +2368,7 @@ png_voidp
 PNGAPI
 png_get_mem_ptr
 (
-png_structp
+png_const_structp
 png_ptr
 )
 {
