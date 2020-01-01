@@ -23,10 +23,12 @@ DICT
 TYPE
 TYPEDO
 STORED
+COPY_
 COPY
 TABLE
 LENLENS
 CODELENS
+LEN_
 LEN
 LENEXT
 DIST
@@ -84,7 +86,7 @@ unsigned
 whave
 ;
 unsigned
-write
+wnext
 ;
 unsigned
 char
@@ -162,6 +164,15 @@ codes
 [
 ENOUGH
 ]
+;
+int
+sane
+;
+int
+back
+;
+unsigned
+was
 ;
 }
 ;
