@@ -70,7 +70,7 @@ IEnumSTATURL
 >
 mURLEnumerator
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIWritablePropertyBag2
 >
