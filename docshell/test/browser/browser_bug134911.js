@@ -252,7 +252,7 @@ value
 =
 enteredText2
 ;
-SetForcedCharset
+BrowserSetForcedCharacterSet
 (
 "
 Shift_JIS

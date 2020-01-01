@@ -278,7 +278,7 @@ testContent
 wrongText
 )
 ;
-SetForcedCharset
+BrowserSetForcedCharacterSet
 (
 "
 Shift_JIS
