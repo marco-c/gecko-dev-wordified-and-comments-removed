@@ -319,7 +319,7 @@ getIsNull
 ;
 stmt
 .
-reset
+finalize
 (
 )
 ;
