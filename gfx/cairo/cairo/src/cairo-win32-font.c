@@ -743,6 +743,9 @@ _get_system_quality
 void
 )
 {
+#
+ifndef
+WINCE
 BOOL
 font_smoothing
 ;
@@ -830,6 +833,13 @@ return
 DEFAULT_QUALITY
 ;
 }
+#
+else
+return
+DEFAULT_QUALITY
+;
+#
+endif
 }
 static
 cairo_status_t
