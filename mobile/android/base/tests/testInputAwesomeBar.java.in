@@ -83,10 +83,6 @@ extends
 BaseTest
 {
 private
-Activity
-mAwesomeBarActivity
-;
-private
 Element
 mAwesomeBarTextElement
 ;
@@ -661,9 +657,7 @@ openAwesomeScreen
 (
 )
 {
-mAwesomeBarActivity
-=
-clickOnAwesomeBar
+focusUrlBar
 (
 )
 ;
@@ -673,10 +667,10 @@ mDriver
 .
 findElement
 (
-mAwesomeBarActivity
-"
-awesomebar_text
-"
+getActivity
+(
+)
+URL_EDIT_TEXT_ID
 )
 ;
 int
@@ -693,7 +687,9 @@ mAwesomeBarEditText
 (
 EditText
 )
-mAwesomeBarActivity
+getActivity
+(
+)
 .
 findViewById
 (

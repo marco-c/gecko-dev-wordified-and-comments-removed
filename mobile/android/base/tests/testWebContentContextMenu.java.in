@@ -188,8 +188,8 @@ Image
 "
 "
 Set
-Image
-As
+as
+Wallpaper
 "
 "
 Save
@@ -693,7 +693,7 @@ not
 listed
 in
 Awesomescreen
-clickOnAwesomeBar
+focusUrlBar
 (
 )
 ;
@@ -1832,8 +1832,8 @@ equals
 (
 "
 Set
-Image
-As
+as
+Wallpaper
 "
 )
 )

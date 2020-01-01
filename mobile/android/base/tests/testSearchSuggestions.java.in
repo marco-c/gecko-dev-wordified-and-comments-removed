@@ -289,11 +289,7 @@ Data
 "
 )
 ;
-final
-Activity
-awesomeBarActivity
-=
-clickOnAwesomeBar
+focusUrlBar
 (
 )
 ;
@@ -311,7 +307,9 @@ unregisterListener
 ;
 connectSuggestClient
 (
-awesomeBarActivity
+getActivity
+(
+)
 )
 ;
 for
@@ -393,7 +391,9 @@ suggestionGroup
 (
 ViewGroup
 )
-awesomeBarActivity
+getActivity
+(
+)
 .
 findViewById
 (
@@ -945,7 +945,7 @@ connectSuggestClient
 (
 final
 Activity
-awesomeBarActivity
+activity
 )
 {
 final
@@ -1055,7 +1055,7 @@ suggestConstructor
 .
 newInstance
 (
-awesomeBarActivity
+activity
 suggestTemplate
 SUGGESTION_TIMEOUT
 SUGGESTION_MAX
@@ -1143,7 +1143,7 @@ awesomeBarTabs
 (
 View
 )
-awesomeBarActivity
+activity
 .
 findViewById
 (
