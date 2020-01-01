@@ -1776,7 +1776,7 @@ number_of_top_sites
 return
 BrowserDB
 .
-getTopSites
+getTopBookmarks
 (
 getContext
 (
