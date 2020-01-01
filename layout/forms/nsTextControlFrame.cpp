@@ -6707,7 +6707,6 @@ mAnonymousDiv
 >
 SetNativeAnonymous
 (
-PR_TRUE
 )
 ;
 rv
