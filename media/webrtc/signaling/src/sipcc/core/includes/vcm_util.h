@@ -29,12 +29,5 @@ uint16_t
 mode
 )
 ;
-int32_t
-mediaPayloadToVcmRtp
-(
-vcm_media_payload_type_t
-payload_in
-)
-;
 #
 endif
