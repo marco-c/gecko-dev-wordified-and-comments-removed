@@ -183,13 +183,13 @@ margin
 -
 left
 :
-325px
+200px
 ;
 margin
 -
 top
 :
-325px
+270px
 ;
 "
 >
@@ -209,6 +209,11 @@ value
 =
 "
 Popup
+"
+height
+=
+"
+60
 "
 /
 >
