@@ -8249,6 +8249,8 @@ VFPRegister
 vd
 VFPRegister
 vm
+bool
+useFPSCR
 Condition
 c
 )
@@ -8432,6 +8434,10 @@ toUnsigned
 }
 doToZero
 =
+useFPSCR
+?
+toFPSCR
+:
 toZero
 ;
 }
