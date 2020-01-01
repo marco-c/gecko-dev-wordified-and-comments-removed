@@ -2816,6 +2816,8 @@ if
 NJ_SOFTFLOAT_SUPPORTED
 if
 (
+mParent
+.
 mConfig
 .
 soft_float
@@ -7431,6 +7433,8 @@ NANOJIT_ARM
 )
 if
 (
+mParent
+.
 mConfig
 .
 arm_vfp
@@ -7497,13 +7501,9 @@ NANOJIT_ARM
 )
 if
 (
-avmplus
-:
-:
-AvmCore
-:
-:
-config
+mParent
+.
+mConfig
 .
 arm_vfp
 )
