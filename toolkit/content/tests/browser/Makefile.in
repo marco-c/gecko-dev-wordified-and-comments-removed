@@ -462,6 +462,10 @@ browser_Geometry
 .
 js
 \
+browser_InlineSpellChecker
+.
+js
+\
 browser_save_resend_postdata
 .
 js
