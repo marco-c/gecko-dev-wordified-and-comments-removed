@@ -417,7 +417,7 @@ mContext
 global
 )
 ;
-JS_ClearScope
+JS_SetAllNonReservedSlotsToUndefined
 (
 sSelf
 -

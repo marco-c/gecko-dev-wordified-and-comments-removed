@@ -4168,7 +4168,7 @@ if
 global
 )
 {
-JS_ClearScope
+JS_SetAllNonReservedSlotsToUndefined
 (
 mCx
 global

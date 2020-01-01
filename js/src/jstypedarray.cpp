@@ -14949,7 +14949,6 @@ ArrayBufferObject
 :
 obj_typeOf
 NULL
-NULL
 }
 }
 ;
@@ -16004,13 +16003,6 @@ NULL
 /
 *
 thisObject
-*
-/
-\
-NULL
-/
-*
-clear
 *
 /
 \

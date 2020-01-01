@@ -3407,7 +3407,6 @@ deleteSpecial
 enumerate
 NULL
 NULL
-NULL
 }
 }
 ;

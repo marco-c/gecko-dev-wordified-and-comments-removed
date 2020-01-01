@@ -10093,7 +10093,6 @@ proxy_DeleteSpecial
 NULL
 proxy_TypeOf
 NULL
-NULL
 }
 }
 ;
@@ -10169,7 +10168,6 @@ proxy_SetSpecialAttributes
 proxy_DeleteProperty
 proxy_DeleteElement
 proxy_DeleteSpecial
-NULL
 NULL
 NULL
 NULL
@@ -10361,7 +10359,6 @@ proxy_DeleteElement
 proxy_DeleteSpecial
 NULL
 proxy_TypeOf
-NULL
 NULL
 }
 }

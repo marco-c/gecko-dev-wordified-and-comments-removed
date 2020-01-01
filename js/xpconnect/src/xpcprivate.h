@@ -5358,17 +5358,6 @@ obj
 )
 ;
 extern
-void
-XPC_WN_JSOp_Clear
-(
-JSContext
-*
-cx
-JSHandleObject
-obj
-)
-;
-extern
 JSObject
 *
 XPC_WN_JSOp_ThisObject
@@ -5588,8 +5577,6 @@ XPC_WN_JSOp_TypeOf_Function
 \
 XPC_WN_JSOp_ThisObject
 \
-XPC_WN_JSOp_Clear
-\
 }
 #
 define
@@ -5798,8 +5785,6 @@ XPC_WN_JSOp_Enumerate
 XPC_WN_JSOp_TypeOf_Object
 \
 XPC_WN_JSOp_ThisObject
-\
-XPC_WN_JSOp_Clear
 \
 }
 static

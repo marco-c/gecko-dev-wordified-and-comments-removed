@@ -25857,18 +25857,6 @@ getPrivate
 }
 }
 static
-void
-xml_clear
-(
-JSContext
-*
-cx
-HandleObject
-obj
-)
-{
-}
-static
 JSBool
 HasSimpleContent
 (
@@ -26872,7 +26860,6 @@ xml_deleteSpecial
 xml_enumerate
 xml_typeOf
 NULL
-xml_clear
 }
 }
 ;

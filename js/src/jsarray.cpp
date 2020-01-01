@@ -5415,7 +5415,6 @@ array_deleteSpecial
 NULL
 array_typeOf
 NULL
-NULL
 }
 }
 ;
