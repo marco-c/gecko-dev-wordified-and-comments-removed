@@ -143,6 +143,12 @@ nsGenericDOMDataNode
 :
 :
 )
+using
+nsGenericDOMDataNode
+:
+:
+SetData
+;
 NS_FORWARD_NSIDOMTEXT
 (
 nsGenericDOMDataNode

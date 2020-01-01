@@ -77,6 +77,12 @@ nsGenericDOMDataNode
 :
 :
 )
+using
+nsGenericDOMDataNode
+:
+:
+SetData
+;
 NS_DECL_NSIDOMPROCESSINGINSTRUCTION
 virtual
 bool
