@@ -218,17 +218,6 @@ aInstance
 )
 ;
 nsresult
-InitializeFullPage
-(
-nsIURI
-*
-aURL
-nsNPAPIPluginInstance
-*
-aInstance
-)
-;
-nsresult
 OnFileAvailable
 (
 nsIFile
