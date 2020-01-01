@@ -10678,14 +10678,6 @@ return
 NS_OK
 ;
 }
-mDocument
--
->
-FlushPendingNotifications
-(
-Flush_ContentAndNotify
-)
-;
 mTextZoom
 =
 aTextZoom
