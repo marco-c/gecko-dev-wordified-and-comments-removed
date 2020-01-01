@@ -21,6 +21,13 @@ h
 #
 include
 "
+jsworkers
+.
+h
+"
+#
+include
+"
 builtin
 /
 Object

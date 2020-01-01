@@ -2600,6 +2600,9 @@ AutoLockForExclusiveAccess
 class
 AutoPauseWorkersForGC
 ;
+class
+ThreadDataIter
+;
 }
 struct
 JSRuntime
@@ -2885,6 +2888,13 @@ js
 :
 :
 AutoPauseWorkersForGC
+;
+friend
+class
+js
+:
+:
+ThreadDataIter
 ;
 public
 :
@@ -4270,6 +4280,9 @@ WorkerThreadState
 *
 workerThreadState
 ;
+#
+define
+JS_WORKER_THREADS
 #
 endif
 js
