@@ -3401,12 +3401,6 @@ LIBS
 "
 LIBS
 STLPORT_LIBS
--
-static
--
-libstdc
-+
-+
 "
 dnl
 Add
