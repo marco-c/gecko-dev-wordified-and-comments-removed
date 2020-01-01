@@ -193,13 +193,13 @@ Password
 <
 !
 ENTITY
-changePassphrase
+mySyncKey
 .
 label
 "
-Change
-Secret
-Phrase
+My
+Sync
+Key
 "
 >
 <

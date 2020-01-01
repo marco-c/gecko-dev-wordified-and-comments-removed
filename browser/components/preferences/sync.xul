@@ -1218,7 +1218,7 @@ value
 =
 "
 &
-changePassphrase
+mySyncKey
 .
 label
 ;
