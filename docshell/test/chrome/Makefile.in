@@ -750,6 +750,14 @@ html
 .
 html
 \
+test_bug690056
+.
+xul
+\
+bug690056_window
+.
+xul
+\
 (
 NULL
 )
