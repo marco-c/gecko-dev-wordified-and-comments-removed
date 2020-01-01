@@ -914,6 +914,17 @@ Pause
 <
 !
 ENTITY
+contextFullScreen
+.
+label
+"
+Full
+Screen
+"
+>
+<
+!
+ENTITY
 contextEditBookmark
 .
 label

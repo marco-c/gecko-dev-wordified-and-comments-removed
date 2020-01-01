@@ -434,6 +434,10 @@ linuxTypes
 .
 jsm
 \
+video
+.
+jsm
+\
 (
 NULL
 )
