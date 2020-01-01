@@ -2497,6 +2497,14 @@ boolean
 arg
 )
 ;
+static
+void
+staticMethodWithContext
+(
+any
+arg
+)
+;
 /
 /
 Overload

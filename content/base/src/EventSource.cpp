@@ -1285,9 +1285,10 @@ EventSource
 :
 Constructor
 (
-nsISupports
-*
-aOwner
+const
+GlobalObject
+&
+aGlobal
 const
 nsAString
 &
@@ -1319,7 +1320,11 @@ eventSource
 >
 Init
 (
-aOwner
+aGlobal
+.
+Get
+(
+)
 aURL
 aEventSourceInitDict
 .
