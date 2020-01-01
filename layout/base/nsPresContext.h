@@ -3181,6 +3181,11 @@ mExistThrottledUpdates
 aExistThrottledUpdates
 ;
 }
+bool
+IsDeviceSizePageSize
+(
+)
+;
 protected
 :
 friend
