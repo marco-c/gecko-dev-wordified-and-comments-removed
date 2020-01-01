@@ -1510,11 +1510,12 @@ bye
 "
 )
 ;
-System
+GeckoApp
 .
-exit
+mAppContext
+.
+finish
 (
-0
 )
 ;
 }
