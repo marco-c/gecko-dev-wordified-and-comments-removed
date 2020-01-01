@@ -337,6 +337,13 @@ View
 v
 )
 {
+if
+(
+mUri
+!
+=
+null
+)
 Browser
 .
 saveBookmark
