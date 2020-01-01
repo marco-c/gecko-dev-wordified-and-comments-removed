@@ -78,6 +78,14 @@ wince
 link
 .
 c
+cl
+arm
+-
+wince
+-
+res
+.
+c
 rm
 *
 .
