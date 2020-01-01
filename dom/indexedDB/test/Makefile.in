@@ -483,6 +483,10 @@ test_index_getAll
 .
 html
 \
+test_index_getAllObjects
+.
+html
+\
 test_indexes
 .
 html
