@@ -462,11 +462,10 @@ return
 doc
 &
 &
-!
 doc
 -
 >
-IsCaseSensitive
+IsHTML
 (
 )
 ;

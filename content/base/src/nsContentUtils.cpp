@@ -15591,10 +15591,11 @@ NS_ERROR_NOT_AVAILABLE
 PRBool
 bCaseSensitive
 =
+!
 document
 -
 >
-IsCaseSensitive
+IsHTML
 (
 )
 ;

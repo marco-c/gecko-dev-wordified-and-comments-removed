@@ -4001,11 +4001,6 @@ mHasHadScriptHandlingObject
 1
 ;
 PRPackedBool
-mIsRegularHTML
-:
-1
-;
-PRPackedBool
 mMayHaveTitleElement
 :
 1
