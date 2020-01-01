@@ -419,6 +419,7 @@ break
 ;
 }
 }
+}
 if
 (
 png_ptr
@@ -451,7 +452,6 @@ warning_message
 offset
 )
 ;
-}
 else
 png_default_warning
 (

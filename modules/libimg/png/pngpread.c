@@ -7290,6 +7290,8 @@ png_ptr
 zstream
 .
 avail_out
++
+1
 )
 )
 ;

@@ -33,8 +33,6 @@ reading
 %
 d
 bytes
-\
-n
 "
 (
 int

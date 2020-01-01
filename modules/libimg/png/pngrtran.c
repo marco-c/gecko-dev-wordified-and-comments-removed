@@ -32,8 +32,6 @@ png_debug
 "
 in
 png_set_crc_action
-\
-n
 "
 )
 ;
@@ -276,8 +274,6 @@ png_debug
 "
 in
 png_set_background
-\
-n
 "
 )
 ;
@@ -398,8 +394,6 @@ png_debug
 "
 in
 png_set_strip_16
-\
-n
 "
 )
 ;
@@ -443,8 +437,6 @@ png_debug
 "
 in
 png_set_strip_alpha
-\
-n
 "
 )
 ;
@@ -531,8 +523,6 @@ png_debug
 "
 in
 png_set_dither
-\
-n
 "
 )
 ;
@@ -2415,8 +2405,6 @@ png_debug
 "
 in
 png_set_gamma
-\
-n
 "
 )
 ;
@@ -2518,8 +2506,6 @@ png_debug
 "
 in
 png_set_expand
-\
-n
 "
 )
 ;
@@ -2568,8 +2554,6 @@ png_debug
 "
 in
 png_set_palette_to_rgb
-\
-n
 "
 )
 ;
@@ -2625,8 +2609,6 @@ png_debug
 "
 in
 png_set_expand_gray_1_2_4_to_8
-\
-n
 "
 )
 ;
@@ -2685,8 +2667,6 @@ png_debug
 "
 in
 png_set_gray_1_2_4_to_8
-\
-n
 "
 )
 ;
@@ -2728,8 +2708,6 @@ png_debug
 "
 in
 png_set_tRNS_to_alpha
-\
-n
 "
 )
 ;
@@ -2777,8 +2755,6 @@ png_debug
 "
 in
 png_set_gray_to_rgb
-\
-n
 "
 )
 ;
@@ -2910,8 +2886,6 @@ png_debug
 "
 in
 png_set_rgb_to_gray
-\
-n
 "
 )
 ;
@@ -3186,8 +3160,6 @@ png_debug
 "
 in
 png_set_read_user_transform_fn
-\
-n
 "
 )
 ;
@@ -3264,8 +3236,6 @@ png_debug
 "
 in
 png_init_read_transformations
-\
-n
 "
 )
 ;
@@ -6141,8 +6111,6 @@ png_debug
 "
 in
 png_read_transform_info
-\
-n
 "
 )
 ;
@@ -6873,8 +6841,6 @@ png_debug
 "
 in
 png_do_read_transformations
-\
-n
 "
 )
 ;
@@ -8194,8 +8160,6 @@ png_debug
 "
 in
 png_do_unpack
-\
-n
 "
 )
 ;
@@ -8686,8 +8650,6 @@ png_debug
 "
 in
 png_do_unshift
-\
-n
 "
 )
 ;
@@ -9252,8 +9214,6 @@ png_debug
 "
 in
 png_do_chop
-\
-n
 "
 )
 ;
@@ -9462,8 +9422,6 @@ png_debug
 "
 in
 png_do_read_swap_alpha
-\
-n
 "
 )
 ;
@@ -10031,8 +9989,6 @@ png_debug
 "
 in
 png_do_read_invert_alpha
-\
-n
 "
 )
 ;
@@ -10493,8 +10449,6 @@ png_debug
 "
 in
 png_do_read_filler
-\
-n
 "
 )
 ;
@@ -11662,8 +11616,6 @@ png_debug
 "
 in
 png_do_gray_to_rgb
-\
-n
 "
 )
 ;
@@ -12288,8 +12240,6 @@ png_debug
 "
 in
 png_do_rgb_to_gray
-\
-n
 "
 )
 ;
@@ -14252,8 +14202,6 @@ png_debug
 "
 in
 png_do_build_grayscale_palette
-\
-n
 "
 )
 ;
@@ -14425,8 +14373,6 @@ png_debug
 "
 in
 png_correct_palette
-\
-n
 "
 )
 ;
@@ -15810,8 +15756,6 @@ png_debug
 "
 in
 png_do_background
-\
-n
 "
 )
 ;
@@ -20700,8 +20644,6 @@ png_debug
 "
 in
 png_do_gamma
-\
-n
 "
 )
 ;
@@ -21988,8 +21930,6 @@ png_debug
 "
 in
 png_do_expand_palette
-\
-n
 "
 )
 ;
@@ -22764,8 +22704,6 @@ png_debug
 "
 in
 png_do_expand
-\
-n
 "
 )
 ;
@@ -24159,8 +24097,6 @@ png_debug
 "
 in
 png_do_dither
-\
-n
 "
 )
 ;
@@ -24722,8 +24658,6 @@ png_debug
 "
 in
 png_build_gamma_table
-\
-n
 "
 )
 ;
@@ -26109,8 +26043,6 @@ png_debug
 "
 in
 png_do_read_intrapixel
-\
-n
 "
 )
 ;
