@@ -674,6 +674,7 @@ providers
 ;
 for
 (
+let
 p
 of
 SocialServiceInternal
