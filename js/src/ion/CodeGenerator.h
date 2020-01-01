@@ -1519,6 +1519,14 @@ lir
 )
 ;
 bool
+visitRunOncePrologue
+(
+LRunOncePrologue
+*
+lir
+)
+;
+bool
 emitRest
 (
 LInstruction

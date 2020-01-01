@@ -753,6 +753,11 @@ JSOP_ARGUMENTS
 \
 _
 (
+JSOP_RUNONCE
+)
+\
+_
+(
 JSOP_REST
 )
 \
@@ -1077,6 +1082,13 @@ addPCMappingEntry
 (
 bool
 addIndexEntry
+)
+;
+void
+getScopeCoordinateObject
+(
+Register
+reg
 )
 ;
 Address
