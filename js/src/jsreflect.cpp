@@ -7431,6 +7431,8 @@ dst
 )
 ;
 }
+namespace
+{
 class
 ASTSerializer
 {
@@ -8094,6 +8096,7 @@ dst
 ;
 }
 ;
+}
 AssignmentOperator
 ASTSerializer
 :
