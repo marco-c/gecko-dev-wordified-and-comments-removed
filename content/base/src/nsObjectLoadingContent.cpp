@@ -6544,6 +6544,15 @@ mType
 =
 =
 eType_Null
+&
+&
+GetTypeOfContent
+(
+mContentType
+)
+=
+=
+eType_Null
 )
 {
 nsresult
