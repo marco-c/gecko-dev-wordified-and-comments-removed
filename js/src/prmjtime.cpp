@@ -1257,6 +1257,11 @@ s
 }
 #
 else
+int
+CALIBRATION_DELAY_COUNT
+=
+10
+;
 JSInt64
 PRMJ_Now
 (
@@ -1315,7 +1320,7 @@ if
 thiscall
 <
 =
-10
+CALIBRATION_DELAY_COUNT
 )
 {
 LowResTime
