@@ -47,8 +47,13 @@ mType
 android
 :
 :
+sp
+<
+android
+:
+:
 OmxDecoder
-*
+>
 mOmxDecoder
 ;
 bool
