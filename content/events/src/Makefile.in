@@ -552,6 +552,10 @@ nsDOMEventTargetHelper
 .
 cpp
 \
+nsDOMScrollAreaEvent
+.
+cpp
+\
 (
 NULL
 )

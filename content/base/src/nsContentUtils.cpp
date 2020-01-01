@@ -2909,6 +2909,17 @@ EventNameType_None
 nsGkAtoms
 :
 :
+onMozScrolledAreaChanged
+{
+NS_SCROLLEDAREACHANGED
+EventNameType_None
+}
+}
+{
+&
+nsGkAtoms
+:
+:
 onMozSwipeGesture
 {
 NS_SIMPLE_GESTURE_SWIPE

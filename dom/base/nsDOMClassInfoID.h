@@ -364,6 +364,7 @@ eDOMClassInfo_CanvasIntArray_id
 eDOMClassInfo_CanvasUnsignedIntArray_id
 eDOMClassInfo_PaintRequest_id
 eDOMClassInfo_PaintRequestList_id
+eDOMClassInfo_ScrollAreaEvent_id
 eDOMClassInfoIDCount
 }
 ;
