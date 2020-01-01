@@ -1505,6 +1505,9 @@ aveCharWidth
 gfxFloat
 spaceWidth
 ;
+gfxFloat
+zeroOrAveCharWidth
+;
 }
 ;
 virtual
