@@ -631,7 +631,7 @@ NOTE
 (
 debuggerUI
 .
-searchPanelTitle
+searchPanelOperators
 )
 :
 This
@@ -648,7 +648,11 @@ panel
 popup
 as
 a
-description
+header
+for
+the
+operators
+part
 .
 -
 -
@@ -658,9 +662,10 @@ description
 ENTITY
 debuggerUI
 .
-searchPanelTitle
+searchPanelOperators
 "
 Operators
+:
 "
 >
 <
