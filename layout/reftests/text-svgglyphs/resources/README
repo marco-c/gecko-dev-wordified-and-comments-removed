@@ -77,6 +77,11 @@ base
 svg
 glyphs
 -
+invalid
+.
+svg
+glyphs
+-
 objectcolor
 .
 svg
