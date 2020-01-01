@@ -434,6 +434,8 @@ cairo
 \
 pref
 \
+lcms
+\
 unicharutil
 \
 (
@@ -458,6 +460,10 @@ gfxTextRunPerfTest
 cpp
 \
 gfxWordCacheTest
+.
+cpp
+\
+gfxColorManagementTest
 .
 cpp
 \
