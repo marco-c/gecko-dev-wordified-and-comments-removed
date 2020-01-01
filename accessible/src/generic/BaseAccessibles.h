@@ -65,17 +65,6 @@ aWhichChild
 ;
 virtual
 bool
-AppendChild
-(
-Accessible
-*
-aChild
-)
-MOZ_OVERRIDE
-MOZ_FINAL
-;
-virtual
-bool
 InsertChildAt
 (
 uint32_t

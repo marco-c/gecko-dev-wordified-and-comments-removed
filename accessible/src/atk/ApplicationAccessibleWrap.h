@@ -52,12 +52,15 @@ aName
 ;
 virtual
 bool
-AppendChild
+InsertChildAt
 (
+uint32_t
+aIdx
 Accessible
 *
 aChild
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool

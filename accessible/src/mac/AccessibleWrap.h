@@ -125,12 +125,15 @@ InvalidateChildren
 ;
 virtual
 bool
-AppendChild
+InsertChildAt
 (
+uint32_t
+aIdx
 Accessible
 *
-aAccessible
+aChild
 )
+MOZ_OVERRIDE
 ;
 virtual
 bool
