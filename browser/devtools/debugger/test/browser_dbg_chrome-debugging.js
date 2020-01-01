@@ -44,11 +44,6 @@ test
 (
 )
 {
-requestLongerTimeout
-(
-3
-)
-;
 let
 transport
 =
