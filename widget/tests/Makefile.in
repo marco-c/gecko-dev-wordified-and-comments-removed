@@ -162,15 +162,6 @@ CPP_UNIT_TESTS
 TestAppShellSteadyState
 .
 cpp
-MOCHITEST_FILES
-=
-test_bug760802
-.
-html
-\
-(
-NULL
-)
 MOCHITEST_CHROME_FILES
 =
 test_bug343416
@@ -270,6 +261,10 @@ empty_window
 xul
 \
 test_sizemode_events
+.
+xul
+\
+test_bug760802
 .
 xul
 \
