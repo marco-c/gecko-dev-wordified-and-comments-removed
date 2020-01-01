@@ -151,7 +151,7 @@ OP_OVER
 AntialiasMode
 aAntialiasMode
 =
-AA_GRAY
+AA_DEFAULT
 Snapping
 aSnapping
 =
