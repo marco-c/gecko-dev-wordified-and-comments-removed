@@ -451,6 +451,10 @@ nsIGIOService
 .
 idl
 \
+nsIGSettingsService
+.
+idl
+\
 nsIAccelerometer
 .
 idl
