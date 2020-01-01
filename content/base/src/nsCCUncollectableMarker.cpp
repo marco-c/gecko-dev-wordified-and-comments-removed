@@ -1988,4 +1988,12 @@ aTrc
 )
 ;
 }
+nsContentUtils
+:
+:
+TraceSafeJSContext
+(
+aTrc
+)
+;
 }
