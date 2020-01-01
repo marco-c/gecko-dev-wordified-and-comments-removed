@@ -1796,7 +1796,7 @@ txt
 do_check_eq
 (
 numLines
-9
+10
 )
 ;
 testdesc
@@ -2844,7 +2844,7 @@ txt
 do_check_eq
 (
 numLines
-58
+66
 )
 ;
 testdesc
@@ -3386,7 +3386,7 @@ txt
 do_check_eq
 (
 numLines
-9
+10
 )
 ;
 testdesc
