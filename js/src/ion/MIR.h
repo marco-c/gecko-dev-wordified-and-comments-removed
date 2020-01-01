@@ -5422,6 +5422,12 @@ type
 =
 =
 MIRType_Object
+|
+|
+type
+=
+=
+MIRType_Magic
 )
 ;
 setResultType

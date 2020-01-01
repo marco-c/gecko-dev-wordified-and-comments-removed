@@ -541,6 +541,9 @@ MIRType_Boolean
 case
 MIRType_Double
 :
+case
+MIRType_Magic
+:
 {
 LAllocation
 *
