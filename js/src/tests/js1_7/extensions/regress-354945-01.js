@@ -34,12 +34,10 @@ expect
 '
 TypeError
 :
-(
-void
-0
-)
-.
+trap
 __iterator__
+for
+obj
 returned
 a
 primitive

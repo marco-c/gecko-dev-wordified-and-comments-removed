@@ -75,9 +75,10 @@ expect
 '
 TypeError
 :
-obj
-.
+trap
 __iterator__
+for
+obj
 returned
 a
 primitive
