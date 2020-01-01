@@ -1771,9 +1771,7 @@ type
 =
 =
 EVAL_CODE
-u
-.
-readOnly
+false
 )
 ;
 }
