@@ -5046,8 +5046,7 @@ const
 CallArgs
 &
 args
-JSFunction
-&
+HandleFunction
 callee
 HandleScript
 script
@@ -5072,8 +5071,7 @@ const
 CallArgs
 &
 args
-JSFunction
-&
+HandleFunction
 callee
 HandleScript
 script
@@ -6713,7 +6711,7 @@ perThread_
 ;
 JSContext
 *
-maybecx_
+cx_
 ;
 SavedOption
 savedOption_
@@ -6774,6 +6772,9 @@ savedOption
 ;
 Data
 (
+JSContext
+*
+cx
 JSRuntime
 *
 rt
@@ -7446,6 +7447,9 @@ inline
 void
 ionForEachCanonicalActualArg
 (
+JSContext
+*
+cx
 Op
 op
 )

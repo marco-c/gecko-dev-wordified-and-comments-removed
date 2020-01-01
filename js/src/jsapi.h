@@ -8888,7 +8888,11 @@ JS_ALWAYS_INLINE
 JSBool
 JSID_IS_VOID
 (
-jsid
+const
+js
+:
+:
+RawId
 id
 )
 {
@@ -8937,7 +8941,11 @@ JS_ALWAYS_INLINE
 JSBool
 JSID_IS_EMPTY
 (
-jsid
+const
+js
+:
+:
+RawId
 id
 )
 {
@@ -13986,6 +13994,9 @@ JSGC_ANALYSIS_PURGE_TRIGGER
 JSGC_ALLOCATION_THRESHOLD
 =
 20
+JSGC_ENABLE_GENERATIONAL
+=
+21
 }
 JSGCParamKey
 ;

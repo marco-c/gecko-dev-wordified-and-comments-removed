@@ -1674,7 +1674,7 @@ reader
 )
 ;
 void
-flush
+finish
 (
 )
 ;

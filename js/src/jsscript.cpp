@@ -9781,7 +9781,9 @@ bce
 sc
 -
 >
-isFunction
+isFunctionBox
+(
+)
 ?
 script
 -
@@ -9943,7 +9945,9 @@ bce
 sc
 -
 >
-isFunction
+isFunctionBox
+(
+)
 ?
 bce
 -
@@ -9951,7 +9955,7 @@ bce
 sc
 -
 >
-asFunbox
+asFunctionBox
 (
 )
 :
@@ -15454,7 +15458,7 @@ ranInference
 types
 :
 :
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx

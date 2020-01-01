@@ -858,7 +858,9 @@ GetPcScript
 JSContext
 *
 cx
-MutableHandleScript
+JSScript
+*
+*
 scriptRes
 jsbytecode
 *

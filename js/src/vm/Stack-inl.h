@@ -2431,8 +2431,7 @@ const
 CallArgs
 &
 args
-JSFunction
-&
+HandleFunction
 callee
 HandleScript
 script
@@ -2490,7 +2489,8 @@ end
 JS_ASSERT
 (
 callee
-.
+-
+>
 nonLazyScript
 (
 )
@@ -2519,7 +2519,6 @@ getCallFrame
 cx
 report
 args
-&
 callee
 script
 &
@@ -2540,6 +2539,7 @@ fp
 initCallFrame
 (
 cx
+*
 callee
 script
 args
@@ -2580,8 +2580,7 @@ const
 CallArgs
 &
 args
-JSFunction
-&
+HandleFunction
 callee
 HandleScript
 script
@@ -2994,11 +2993,11 @@ beginsIonActivation
 )
 )
 {
-RootedScript
+JSScript
+*
 script
-(
-cx_
-)
+=
+NULL
 ;
 ion
 :
@@ -3268,6 +3267,9 @@ StackIter
 :
 ionForEachCanonicalActualArg
 (
+JSContext
+*
+cx
 Op
 op
 )
@@ -3297,6 +3299,7 @@ ionInlineFrames_
 .
 forEachCanonicalActualArg
 (
+cx
 op
 0
 -

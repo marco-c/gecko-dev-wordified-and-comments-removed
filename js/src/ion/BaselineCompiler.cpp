@@ -273,7 +273,7 @@ return
 Method_CantCompile
 ;
 }
-analyze
+types
 :
 :
 AutoEnterAnalysis
