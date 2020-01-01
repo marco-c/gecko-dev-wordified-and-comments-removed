@@ -65,7 +65,7 @@ n
 "
 {
 "
-ctrlKey
+accelKey
 "
 :
 true
