@@ -842,12 +842,6 @@ y
 )
 ;
 }
-mTileLayer
-.
-beginTransaction
-(
-)
-;
 if
 (
 mBufferSize
@@ -894,6 +888,12 @@ int
 height
 )
 {
+mTileLayer
+.
+beginTransaction
+(
+)
+;
 synchronized
 (
 mLayerController
