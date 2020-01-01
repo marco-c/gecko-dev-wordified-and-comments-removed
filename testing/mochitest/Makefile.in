@@ -415,7 +415,6 @@ autoconf
 mk
 DIRS
 =
-\
 MochiKit
 \
 static
@@ -427,8 +426,6 @@ tests
 chrome
 \
 ssltunnel
-\
-specialpowers
 \
 (
 NULL
