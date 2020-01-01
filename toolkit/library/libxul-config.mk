@@ -619,6 +619,8 @@ chromium_s
 \
 ipcshell_s
 \
+gfxipc_s
+\
 (
 NULL
 )
