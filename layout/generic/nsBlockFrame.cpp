@@ -14021,6 +14021,12 @@ incomingMargin
 continue
 ;
 }
+aState
+.
+mPrevChild
+=
+frame
+;
 if
 (
 blockHtmlRS
@@ -14054,12 +14060,6 @@ return
 NS_OK
 ;
 }
-aState
-.
-mPrevChild
-=
-frame
-;
 #
 if
 defined
