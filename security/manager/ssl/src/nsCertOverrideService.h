@@ -53,6 +53,13 @@ secoidt
 .
 h
 "
+#
+include
+"
+nsWeakReference
+.
+h
+"
 class
 nsCertOverride
 {
@@ -369,6 +376,8 @@ public
 nsICertOverrideService
 public
 nsIObserver
+public
+nsSupportsWeakReference
 {
 public
 :
