@@ -426,6 +426,8 @@ mk
 PARALLEL_DIRS
 =
 \
+components
+\
 content
 \
 locales

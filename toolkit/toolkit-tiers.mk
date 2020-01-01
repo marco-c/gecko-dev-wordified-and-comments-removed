@@ -880,16 +880,7 @@ endif
 tier_platform_dirs
 +
 =
-\
 xpfe
-\
-toolkit
-/
-components
-\
-(
-NULL
-)
 ifdef
 MOZ_ENABLE_XREMOTE
 tier_platform_dirs
