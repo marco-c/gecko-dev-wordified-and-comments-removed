@@ -7118,7 +7118,7 @@ title
 =
 item
 .
-name
+label
 ;
 }
 )
