@@ -188,11 +188,6 @@ nsIDOMHTMLFieldSetElement
 idl
 '
 '
-nsIDOMHTMLFontElement
-.
-idl
-'
-'
 nsIDOMHTMLFormElement
 .
 idl
