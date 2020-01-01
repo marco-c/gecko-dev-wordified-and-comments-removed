@@ -1,6 +1,13 @@
 #
 include
 "
+nsCache
+.
+h
+"
+#
+include
+"
 nsDiskCache
 .
 h
@@ -23,13 +30,6 @@ h
 include
 "
 nsCRT
-.
-h
-"
-#
-include
-"
-nsCache
 .
 h
 "

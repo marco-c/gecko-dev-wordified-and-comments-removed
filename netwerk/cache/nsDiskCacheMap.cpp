@@ -1,6 +1,13 @@
 #
 include
 "
+nsCache
+.
+h
+"
+#
+include
+"
 nsDiskCacheMap
 .
 h
@@ -30,13 +37,6 @@ h
 include
 "
 nsCacheService
-.
-h
-"
-#
-include
-"
-nsCache
 .
 h
 "

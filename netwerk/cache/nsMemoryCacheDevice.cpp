@@ -1,6 +1,13 @@
 #
 include
 "
+nsCache
+.
+h
+"
+#
+include
+"
 nsMemoryCacheDevice
 .
 h
@@ -37,13 +44,6 @@ h
 include
 "
 nsCRT
-.
-h
-"
-#
-include
-"
-nsCache
 .
 h
 "
