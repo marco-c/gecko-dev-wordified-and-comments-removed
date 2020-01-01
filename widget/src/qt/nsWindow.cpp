@@ -14185,10 +14185,12 @@ NS_IMETHODIMP
 nsWindow
 :
 :
-SetIMEEnabled
+SetInputMode
 (
-PRUint32
-aState
+const
+IMEContext
+&
+aContext
 )
 {
 NS_ENSURE_TRUE
@@ -14199,7 +14201,9 @@ NS_ERROR_FAILURE
 ;
 switch
 (
-aState
+aContext
+.
+mStatus
 )
 {
 case

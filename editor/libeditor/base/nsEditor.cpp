@@ -1768,6 +1768,7 @@ nsIMEStateManager
 UpdateIMEState
 (
 newState
+focusedContent
 )
 ;
 }

@@ -1185,10 +1185,12 @@ PRUint32
 value
 )
 ;
-SetIMEEnabled
+SetInputMode
 (
 PRUint32
 value
+nsString
+type
 )
 ;
 sync

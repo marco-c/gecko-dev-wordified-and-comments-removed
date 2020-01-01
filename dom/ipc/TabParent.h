@@ -345,12 +345,16 @@ aValue
 ;
 virtual
 bool
-RecvSetIMEEnabled
+RecvSetInputMode
 (
 const
 PRUint32
 &
 aValue
+const
+nsString
+&
+aType
 )
 ;
 virtual

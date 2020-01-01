@@ -691,10 +691,12 @@ aVertical
 )
 ;
 NS_IMETHODIMP
-SetIMEEnabled
+SetInputMode
 (
-PRUint32
-aState
+const
+IMEContext
+&
+aContext
 )
 ;
 NS_IMETHODIMP
