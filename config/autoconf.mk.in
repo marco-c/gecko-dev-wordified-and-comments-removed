@@ -1896,6 +1896,8 @@ for
 custom
 CRT
 building
+ifdef
+MOZ_MEMORY
 ifneq
 (
 (
@@ -1913,6 +1915,7 @@ export
 PATH
 =
 MOZ_PATH
+endif
 endif
 #
 python
