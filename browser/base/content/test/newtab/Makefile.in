@@ -144,6 +144,10 @@ browser_newtab_unpin
 .
 js
 \
+browser_newtab_bug723102
+.
+js
+\
 head
 .
 js
