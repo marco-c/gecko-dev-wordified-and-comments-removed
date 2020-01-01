@@ -17859,7 +17859,7 @@ gWorkerThreadPool
 ;
 #
 endif
-JS_TriggerRuntimeOperationCallback
+JS_TriggerAllOperationCallbacks
 (
 rt
 )

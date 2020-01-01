@@ -59,6 +59,11 @@ if
 mOwnSafeJSContext
 )
 {
+JS_SetContextThread
+(
+mOwnSafeJSContext
+)
+;
 JS_DestroyContext
 (
 mOwnSafeJSContext
@@ -293,6 +298,15 @@ JSContext
 cx
 )
 {
+MOZ_ASSERT_IF
+(
+cx
+JS_GetContextThread
+(
+cx
+)
+)
+;
 if
 (
 mStack
@@ -1541,7 +1555,7 @@ sMainJSThread
 js
 :
 :
-GetOwnerThread
+GetContextThread
 (
 cx
 )
