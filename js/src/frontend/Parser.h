@@ -605,8 +605,10 @@ context
 TokenStream
 tokenStream
 ;
-void
-*
+LifoAlloc
+:
+:
+Mark
 tempPoolMark
 ;
 ObjectBox
