@@ -14,7 +14,9 @@ h
 #
 include
 "
-nsAutoLock
+mozilla
+/
+Mutex
 .
 h
 "
@@ -60,6 +62,9 @@ sqlite3
 .
 h
 >
+struct
+PRLock
+;
 class
 nsIFile
 ;
@@ -120,6 +125,9 @@ nsIEventTarget
 getAsyncExecutionTarget
 (
 )
+;
+Mutex
+sharedAsyncExecutionMutex
 ;
 private
 :
