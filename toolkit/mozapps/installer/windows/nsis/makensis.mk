@@ -515,10 +515,6 @@ ApplicationID
 .
 dll
 \
-nsProcess
-.
-dll
-\
 ShellLink
 .
 dll
