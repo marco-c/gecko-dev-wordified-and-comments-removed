@@ -4464,7 +4464,7 @@ JSObject
 *
 global
 =
-JS_GetGlobalObject
+JS_GetGlobalForScopeChain
 (
 aCx
 )
@@ -4502,7 +4502,7 @@ JSObject
 *
 global
 =
-JS_GetGlobalObject
+JS_GetGlobalForScopeChain
 (
 aCx
 )
@@ -4543,7 +4543,7 @@ JSObject
 *
 global
 =
-JS_GetGlobalObject
+JS_GetGlobalForScopeChain
 (
 aCx
 )
@@ -4585,7 +4585,7 @@ JSObject
 *
 global
 =
-JS_GetGlobalObject
+JS_GetGlobalForScopeChain
 (
 aCx
 )
