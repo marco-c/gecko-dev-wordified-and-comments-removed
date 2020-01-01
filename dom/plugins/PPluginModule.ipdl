@@ -636,14 +636,14 @@ aIsString
 sync
 NPN_GetStringIdentifiers
 (
-)
-returns
-(
 nsTArray
 <
 nsCString
 >
 aNames
+)
+returns
+(
 nsTArray
 <
 NPRemoteIdentifier
