@@ -633,7 +633,7 @@ nsWhitespaceTokenizer
 .
 h
 \
-nsCommaseparatedTokenizer
+nsCommaSeparatedTokenizer
 .
 h
 \
