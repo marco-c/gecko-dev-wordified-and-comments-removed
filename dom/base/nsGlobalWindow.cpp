@@ -9770,6 +9770,14 @@ ConfirmDialogAllowed
 (
 )
 {
+FORWARD_TO_OUTER
+(
+ConfirmDialogAllowed
+(
+)
+NS_ERROR_NOT_INITIALIZED
+)
+;
 NS_ENSURE_TRUE
 (
 mDocShell
