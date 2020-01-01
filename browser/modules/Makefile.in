@@ -446,6 +446,10 @@ NetworkPrioritizer
 .
 jsm
 \
+offlineAppCache
+.
+jsm
+\
 (
 NULL
 )
