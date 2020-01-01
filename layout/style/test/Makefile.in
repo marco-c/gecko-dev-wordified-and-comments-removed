@@ -421,6 +421,14 @@ mk
 MODULE
 =
 layout
+DIRS
++
+=
+chrome
+\
+(
+NULL
+)
 #
 XXX
 Yuck
