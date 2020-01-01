@@ -5391,6 +5391,14 @@ i
 .
 codec_type
 )
+payloads
+[
+i
+]
+.
+video
+.
+rtcp_fb_types
 )
 ;
 configs
@@ -7448,6 +7456,12 @@ payload
 >
 codec_type
 )
+payload
+-
+>
+video
+.
+rtcp_fb_types
 )
 ;
 mozilla
