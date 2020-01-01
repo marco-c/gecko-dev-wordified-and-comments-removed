@@ -1237,7 +1237,7 @@ break
 ;
 }
 return
-true
+PR_TRUE
 ;
 }
 }
@@ -1251,7 +1251,7 @@ NextLine
 )
 ;
 return
-false
+PR_FALSE
 ;
 }
 class
@@ -1461,7 +1461,7 @@ unloadPluginsASAP
 }
 }
 return
-false
+PR_FALSE
 ;
 }
 class
@@ -1694,7 +1694,7 @@ AddObserver
 (
 this
 NS_XPCOM_SHUTDOWN_OBSERVER_ID
-false
+PR_FALSE
 )
 ;
 obsService
@@ -1704,7 +1704,7 @@ AddObserver
 (
 this
 NS_PRIVATE_BROWSING_SWITCH_TOPIC
-false
+PR_FALSE
 )
 ;
 }
@@ -1972,7 +1972,7 @@ mEntryPoint
 )
 {
 return
-false
+PR_FALSE
 ;
 }
 for
@@ -2036,12 +2036,12 @@ IsRunning
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 }
 return
-false
+PR_FALSE
 ;
 }
 nsresult
@@ -2106,7 +2106,7 @@ true
 ;
 FindPlugins
 (
-false
+PR_FALSE
 &
 pluginschanged
 )
@@ -2241,7 +2241,7 @@ next
 }
 mPluginsLoaded
 =
-false
+PR_FALSE
 ;
 rv
 =
@@ -3703,7 +3703,7 @@ else
 {
 NS_ASSERTION
 (
-false
+PR_FALSE
 "
 Unknown
 proxy
@@ -3784,7 +3784,7 @@ NS_OK
 ;
 mIsDestroyed
 =
-true
+PR_TRUE
 ;
 DestroyRunningInstances
 (
@@ -3860,7 +3860,7 @@ sPluginTempDir
 >
 Remove
 (
-true
+PR_TRUE
 )
 ;
 NS_RELEASE
@@ -3972,7 +3972,7 @@ aPluginTag
 {
 hasInstance
 =
-true
+PR_TRUE
 ;
 break
 ;
@@ -4566,7 +4566,7 @@ pluginTag
 FindPluginForType
 (
 aMimeType
-true
+PR_TRUE
 )
 ;
 if
@@ -4644,7 +4644,7 @@ handler
 )
 bCanHandleInternally
 =
-true
+PR_TRUE
 ;
 }
 if
@@ -5298,7 +5298,7 @@ NS_ERROR_PLUGINS_PLUGINSNOTCHANGED
 =
 ReloadPlugins
 (
-false
+PR_FALSE
 )
 )
 return
@@ -5429,7 +5429,7 @@ pluginTag
 FindPluginForType
 (
 aMimeType
-true
+PR_TRUE
 )
 ;
 if
@@ -5871,7 +5871,7 @@ plugin
 FindPluginForType
 (
 aMimeType
-true
+PR_TRUE
 )
 ;
 if
@@ -5886,7 +5886,7 @@ plugin
 FindPluginForType
 (
 aMimeType
-false
+PR_FALSE
 )
 ;
 if
@@ -7348,7 +7348,7 @@ pluginTag
 FindPluginForType
 (
 aMimeType
-true
+PR_TRUE
 )
 ;
 if
@@ -8498,12 +8498,12 @@ aPluginTag
 )
 {
 return
-true
+PR_TRUE
 ;
 }
 }
 return
-false
+PR_FALSE
 ;
 }
 nsPluginTag
@@ -8596,7 +8596,7 @@ mFileName
 )
 )
 return
-true
+PR_TRUE
 ;
 if
 (
@@ -8615,11 +8615,11 @@ mFullPath
 )
 )
 return
-true
+PR_TRUE
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
 typedef
@@ -8660,7 +8660,7 @@ rv
 *
 aPluginsChanged
 =
-false
+PR_FALSE
 ;
 #
 ifdef
@@ -8955,7 +8955,7 @@ pluginTag
 {
 seenBefore
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -8992,7 +8992,7 @@ nsnull
 *
 aPluginsChanged
 =
-true
+PR_TRUE
 ;
 }
 else
@@ -9020,7 +9020,7 @@ NS_PLUGIN_FLAG_UNWANTED
 *
 aPluginsChanged
 =
-true
+PR_TRUE
 ;
 }
 pluginTag
@@ -9066,7 +9066,7 @@ NS_PLUGIN_FLAG_UNWANTED
 *
 aPluginsChanged
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -9292,7 +9292,7 @@ invalidTag
 *
 aPluginsChanged
 =
-true
+PR_TRUE
 ;
 continue
 ;
@@ -9425,7 +9425,7 @@ seenBefore
 )
 enabled
 =
-false
+PR_FALSE
 ;
 else
 if
@@ -9444,7 +9444,7 @@ seenBefore
 )
 warnOutdated
 =
-true
+PR_TRUE
 ;
 }
 }
@@ -9542,7 +9542,7 @@ pluginTag
 {
 bAddIt
 =
-false
+PR_FALSE
 ;
 }
 if
@@ -9559,7 +9559,7 @@ seenBefore
 *
 aPluginsChanged
 =
-true
+PR_TRUE
 ;
 }
 if
@@ -9718,7 +9718,7 @@ update
 .
 notifyUser
 "
-true
+PR_TRUE
 )
 ;
 }
@@ -9835,7 +9835,7 @@ pluginschanged
 *
 aPluginsChanged
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -9883,7 +9883,7 @@ rv
 =
 FindPlugins
 (
-true
+PR_TRUE
 &
 pluginschanged
 )
@@ -9984,7 +9984,7 @@ aPluginsChanged
 *
 aPluginsChanged
 =
-false
+PR_FALSE
 ;
 nsresult
 rv
@@ -10105,7 +10105,7 @@ pluginschanged
 *
 aPluginsChanged
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -10162,7 +10162,7 @@ endif
 }
 mPluginsLoaded
 =
-true
+PR_TRUE
 ;
 #
 ifdef
@@ -10238,7 +10238,7 @@ pluginschanged
 *
 aPluginsChanged
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -10392,7 +10392,7 @@ pluginschanged
 *
 aPluginsChanged
 =
-true
+PR_TRUE
 ;
 if
 (
@@ -10487,7 +10487,7 @@ cachecount
 *
 aPluginsChanged
 =
-true
+PR_TRUE
 ;
 }
 nsRefPtr
@@ -12911,7 +12911,7 @@ extensions
 mimetypecount
 lastmod
 canunload
-true
+PR_TRUE
 )
 ;
 if
@@ -13674,7 +13674,7 @@ scriptChannel
 >
 SetExecuteAsync
 (
-false
+PR_FALSE
 )
 ;
 }
@@ -14040,7 +14040,7 @@ aHeadersData
 ;
 while
 (
-true
+PR_TRUE
 )
 {
 crlf
@@ -14055,7 +14055,7 @@ r
 \
 n
 "
-true
+PR_TRUE
 )
 ;
 if
@@ -14164,7 +14164,7 @@ SetRequestHeader
 (
 headerName
 headerValue
-true
+PR_TRUE
 )
 ;
 if
@@ -15239,7 +15239,7 @@ checkboxState
 )
 mDontShowBadPluginMessage
 =
-true
+PR_TRUE
 ;
 return
 rv
@@ -16119,7 +16119,7 @@ nsDependentCString
 (
 aPostDataURL
 )
-false
+PR_FALSE
 getter_AddRefs
 (
 localFile
@@ -16491,7 +16491,7 @@ break
 ;
 firstRead
 =
-false
+PR_FALSE
 ;
 continue
 ;
@@ -16633,7 +16633,7 @@ java
 -
 vm
 "
-false
+PR_FALSE
 )
 ;
 if
@@ -17349,7 +17349,7 @@ aFlag
 aFlag
 =
 =
-true
+PR_TRUE
 &
 &
 NS_SUCCEEDED
@@ -17368,7 +17368,7 @@ aFlag
 aFlag
 =
 =
-false
+PR_FALSE
 )
 {
 nsIWidget
@@ -17417,7 +17417,7 @@ eWindowType_dialog
 {
 enable
 =
-false
+PR_FALSE
 ;
 break
 ;
@@ -17442,7 +17442,7 @@ widget
 >
 Enable
 (
-true
+PR_TRUE
 )
 ;
 }
@@ -18444,10 +18444,10 @@ g
 >
 mDelayedDestroy
 =
-true
+PR_TRUE
 ;
 return
-true
+PR_TRUE
 ;
 }
 g
@@ -18466,6 +18466,6 @@ g
 ;
 }
 return
-false
+PR_FALSE
 ;
 }
