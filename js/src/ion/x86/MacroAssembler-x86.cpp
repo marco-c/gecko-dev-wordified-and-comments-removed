@@ -378,7 +378,10 @@ good
 endif
 call
 (
+ImmWord
+(
 fun
+)
 )
 ;
 freeStack
