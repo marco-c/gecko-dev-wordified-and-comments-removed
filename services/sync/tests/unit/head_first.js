@@ -952,7 +952,7 @@ checkLogin
 =
 makeFakeAsyncFunc
 (
-true
+200
 )
 ;
 }
