@@ -683,7 +683,8 @@ DESC
 +
 "
 LIMIT
-5000
+:
+max_results
 "
 )
 ;
@@ -1024,6 +1025,16 @@ now
 )
 *
 1000
+;
+this
+.
+_allUrlStm
+.
+params
+.
+max_results
+=
+5000
 ;
 let
 [
