@@ -98,6 +98,15 @@ MPL
 #
 include
 "
+Accessible
+-
+inl
+.
+h
+"
+#
+include
+"
 AccessibleWrap
 .
 h
