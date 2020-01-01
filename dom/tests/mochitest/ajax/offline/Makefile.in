@@ -461,6 +461,10 @@ test_simpleManifest
 .
 html
 \
+test_identicalManifest
+.
+html
+\
 test_offlineIFrame
 .
 html
