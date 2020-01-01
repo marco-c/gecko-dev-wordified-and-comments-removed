@@ -6971,6 +6971,7 @@ console
 (
 )
 {
+return
 this
 .
 _console
