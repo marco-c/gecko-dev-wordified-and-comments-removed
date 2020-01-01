@@ -785,10 +785,8 @@ targetNode
 )
 return
 ;
-nsCOMPtr
-<
 nsIPresShell
->
+*
 presShell
 =
 nsCoreUtils

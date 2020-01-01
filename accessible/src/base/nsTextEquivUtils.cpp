@@ -429,10 +429,8 @@ aContent
 )
 )
 ;
-nsCOMPtr
-<
 nsIPresShell
->
+*
 shell
 =
 nsCoreUtils

@@ -1249,10 +1249,8 @@ lastNodeWithCaret
 caretRect
 )
 ;
-nsCOMPtr
-<
 nsIPresShell
->
+*
 presShell
 =
 nsCoreUtils
@@ -1506,10 +1504,8 @@ aNode
 return
 nsnull
 ;
-nsCOMPtr
-<
 nsIPresShell
->
+*
 presShell
 =
 nsCoreUtils
