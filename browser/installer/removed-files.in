@@ -6131,7 +6131,3 @@ so
 endif
 #
 endif
-mozilla
--
-runtime
-BIN_SUFFIX

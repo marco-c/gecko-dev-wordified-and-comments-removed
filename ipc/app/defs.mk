@@ -391,9 +391,9 @@ BLOCK
 MOZ_CHILD_PROCESS_NAME
 :
 =
-plugin
+mozilla
 -
-container
+runtime
 (
 BIN_SUFFIX
 )

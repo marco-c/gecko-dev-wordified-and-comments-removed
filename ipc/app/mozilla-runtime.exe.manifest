@@ -68,9 +68,9 @@ processorArchitecture
 name
 =
 "
-plugin
+Mozilla
 -
-container
+Runtime
 "
 type
 =
