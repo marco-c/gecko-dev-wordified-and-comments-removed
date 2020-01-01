@@ -482,9 +482,6 @@ attribute
 nsIEditorSpellCheck
 spellChecker
 ;
-[
-noscript
-]
 void
 init
 (
@@ -493,9 +490,6 @@ nsIEditor
 aEditor
 )
 ;
-[
-noscript
-]
 void
 cleanup
 (
