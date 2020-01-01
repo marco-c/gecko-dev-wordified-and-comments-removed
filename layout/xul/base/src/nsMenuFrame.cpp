@@ -3695,6 +3695,9 @@ nsMenuFrame
 :
 Enter
 (
+nsGUIEvent
+*
+aEvent
 )
 {
 if
@@ -3788,7 +3791,7 @@ mMenuParent
 )
 Execute
 (
-0
+aEvent
 )
 ;
 else

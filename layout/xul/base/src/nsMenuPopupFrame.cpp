@@ -6811,6 +6811,9 @@ nsMenuPopupFrame
 :
 Enter
 (
+nsGUIEvent
+*
+aEvent
 )
 {
 mIncrementalString
@@ -6829,6 +6832,7 @@ mCurrentMenu
 >
 Enter
 (
+aEvent
 )
 ;
 return

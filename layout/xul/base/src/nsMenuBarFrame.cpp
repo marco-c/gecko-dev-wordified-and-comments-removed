@@ -1639,6 +1639,9 @@ nsMenuBarFrame
 :
 Enter
 (
+nsGUIEvent
+*
+aEvent
 )
 {
 if
@@ -1664,6 +1667,7 @@ mCurrentMenu
 >
 Enter
 (
+aEvent
 )
 ;
 return

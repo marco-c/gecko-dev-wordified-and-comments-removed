@@ -308,6 +308,9 @@ nsMenuFrame
 *
 Enter
 (
+nsGUIEvent
+*
+aEvent
 )
 ;
 nsMenuFrame
