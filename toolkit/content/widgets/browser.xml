@@ -4286,6 +4286,12 @@ nsISHistory
 enable
 global
 history
+if
+(
+this
+.
+docShell
+)
 this
 .
 docShell
