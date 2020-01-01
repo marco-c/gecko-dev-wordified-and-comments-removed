@@ -362,6 +362,12 @@ nsDocument
 :
 :
 )
+using
+nsDocument
+:
+:
+GetPlugins
+;
 NS_DECL_NSIDOMHTMLDOCUMENT
 nsISupports
 *

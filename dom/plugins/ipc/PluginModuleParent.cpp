@@ -2610,6 +2610,8 @@ aIdentifier
 PluginIdentifierParent
 *
 ident
+=
+nsnull
 ;
 if
 (
