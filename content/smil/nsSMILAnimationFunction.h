@@ -966,9 +966,6 @@ mAnimationElement
 PRUint16
 mErrorFlags
 ;
-nsSMILValue
-mFrozenValue
-;
 nsSMILWeakTargetIdentifier
 mLastTarget
 ;
