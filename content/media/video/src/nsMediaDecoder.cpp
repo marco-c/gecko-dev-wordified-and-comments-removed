@@ -165,10 +165,6 @@ mDataTime
 (
 0
 )
-mSizeChanged
-(
-PR_FALSE
-)
 mVideoUpdateLock
 (
 nsnull
@@ -178,6 +174,10 @@ mFramerate
 0
 .
 0
+)
+mSizeChanged
+(
+PR_FALSE
 )
 mShuttingDown
 (

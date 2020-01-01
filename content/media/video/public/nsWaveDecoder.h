@@ -319,9 +319,6 @@ float
 mCurrentTime
 ;
 float
-mEndedCurrentTime
-;
-float
 mEndedDuration
 ;
 PRPackedBool
