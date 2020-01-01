@@ -21,12 +21,6 @@ nsGNOMERegistry
 public
 :
 static
-void
-Startup
-(
-)
-;
-static
 PRBool
 HandlerExists
 (
@@ -66,8 +60,8 @@ nsMIMEInfoBase
 GetFromExtension
 (
 const
-char
-*
+nsACString
+&
 aFileExt
 )
 ;
@@ -79,8 +73,8 @@ nsMIMEInfoBase
 GetFromType
 (
 const
-char
-*
+nsACString
+&
 aMIMEType
 )
 ;
