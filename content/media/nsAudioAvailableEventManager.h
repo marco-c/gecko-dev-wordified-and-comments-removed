@@ -32,10 +32,6 @@ nsBuiltinDecoderReader
 .
 h
 "
-using
-namespace
-mozilla
-;
 class
 nsAudioAvailableEventManager
 {
@@ -138,6 +134,9 @@ nsIRunnable
 >
 mPendingEvents
 ;
+mozilla
+:
+:
 ReentrantMonitor
 mReentrantMonitor
 ;

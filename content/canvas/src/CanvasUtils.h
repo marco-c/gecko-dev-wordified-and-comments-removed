@@ -39,10 +39,6 @@ Matrix
 namespace
 CanvasUtils
 {
-using
-namespace
-gfx
-;
 inline
 bool
 CheckSaneSubrectSize
@@ -193,6 +189,9 @@ const
 jsval
 &
 val
+gfx
+:
+:
 Matrix
 *
 matrix
@@ -220,6 +219,9 @@ nsresult
 MatrixToJSVal
 (
 const
+gfx
+:
+:
 Matrix
 &
 matrix
