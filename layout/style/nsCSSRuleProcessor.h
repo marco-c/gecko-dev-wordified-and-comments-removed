@@ -174,10 +174,6 @@ dom
 Element
 *
 aElement
-const
-TreeMatchContext
-&
-aTreeMatchContext
 )
 ;
 static
@@ -193,10 +189,6 @@ dom
 Element
 *
 aElement
-const
-TreeMatchContext
-&
-aTreeMatchContext
 nsRuleWalker
 :
 :
