@@ -319,6 +319,15 @@ window
 )
 }
 }
+else
+{
+this
+.
+__window
+=
+null
+;
+}
 }
 }
 __window
