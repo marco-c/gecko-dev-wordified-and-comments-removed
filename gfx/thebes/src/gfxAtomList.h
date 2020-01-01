@@ -254,6 +254,15 @@ sinh
 )
 GFX_ATOM
 (
+x_tibt
+"
+x
+-
+tibt
+"
+)
+GFX_ATOM
+(
 ko_xxx
 "
 ko

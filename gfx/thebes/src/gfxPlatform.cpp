@@ -612,6 +612,11 @@ sinh
 "
 x
 -
+tibt
+"
+"
+x
+-
 unicode
 "
 "
