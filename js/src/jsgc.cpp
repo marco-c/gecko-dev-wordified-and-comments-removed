@@ -6303,6 +6303,9 @@ thingKind
 #
 endif
 }
+#
+ifdef
+JS_THREADSAFE
 void
 ArenaLists
 :
@@ -6477,6 +6480,8 @@ BFS_DONE
 ;
 }
 }
+#
+endif
 void
 ArenaLists
 :
