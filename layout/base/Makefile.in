@@ -566,6 +566,10 @@ FramePropertyTable
 .
 cpp
 \
+RestyleTracker
+.
+cpp
+\
 nsCSSColorUtils
 .
 cpp
