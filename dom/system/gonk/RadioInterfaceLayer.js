@@ -1665,7 +1665,7 @@ switch
 (
 message
 .
-type
+rilMessageType
 )
 {
 case
@@ -2301,7 +2301,7 @@ type
 +
 message
 .
-type
+rilMessageType
 )
 ;
 }
@@ -5527,7 +5527,7 @@ worker
 postMessage
 (
 {
-type
+rilMessageType
 :
 "
 setRadioPower
@@ -5568,7 +5568,7 @@ worker
 postMessage
 (
 {
-type
+rilMessageType
 :
 "
 enumerateCalls
@@ -5601,7 +5601,7 @@ worker
 postMessage
 (
 {
-type
+rilMessageType
 :
 "
 dial
@@ -5641,7 +5641,7 @@ worker
 postMessage
 (
 {
-type
+rilMessageType
 :
 "
 dial
@@ -5684,7 +5684,7 @@ worker
 postMessage
 (
 {
-type
+rilMessageType
 :
 "
 hangUp
@@ -5722,7 +5722,7 @@ worker
 postMessage
 (
 {
-type
+rilMessageType
 :
 "
 startTone
@@ -5756,7 +5756,7 @@ worker
 postMessage
 (
 {
-type
+rilMessageType
 :
 "
 stopTone
@@ -5780,7 +5780,7 @@ worker
 postMessage
 (
 {
-type
+rilMessageType
 :
 "
 answerCall
@@ -5807,7 +5807,7 @@ worker
 postMessage
 (
 {
-type
+rilMessageType
 :
 "
 rejectCall
@@ -5834,7 +5834,7 @@ worker
 postMessage
 (
 {
-type
+rilMessageType
 :
 "
 holdCall
@@ -5861,7 +5861,7 @@ worker
 postMessage
 (
 {
-type
+rilMessageType
 :
 "
 resumeCall
@@ -5888,7 +5888,7 @@ worker
 postMessage
 (
 {
-type
+rilMessageType
 :
 "
 getAvailableNetworks
@@ -5924,7 +5924,7 @@ message
 ;
 message
 .
-type
+rilMessageType
 =
 "
 sendUSSD
@@ -5959,7 +5959,7 @@ USSD
 ;
 message
 .
-type
+rilMessageType
 =
 "
 cancelUSSD
@@ -5990,7 +5990,7 @@ worker
 postMessage
 (
 {
-type
+rilMessageType
 :
 "
 selectNetworkAuto
@@ -6012,7 +6012,7 @@ message
 {
 message
 .
-type
+rilMessageType
 =
 "
 selectNetwork
@@ -7388,7 +7388,7 @@ message
 ;
 options
 .
-type
+rilMessageType
 =
 "
 sendSMS
@@ -7760,7 +7760,7 @@ worker
 postMessage
 (
 {
-type
+rilMessageType
 :
 "
 setupDataCall
@@ -7803,7 +7803,7 @@ worker
 postMessage
 (
 {
-type
+rilMessageType
 :
 "
 deactivateDataCall
@@ -7832,7 +7832,7 @@ worker
 postMessage
 (
 {
-type
+rilMessageType
 :
 "
 getDataCallList
@@ -7863,7 +7863,7 @@ pin
 :
 message
 .
-type
+rilMessageType
 =
 "
 getICCPinLock
@@ -7938,7 +7938,7 @@ pin
 :
 message
 .
-type
+rilMessageType
 =
 "
 enterICCPIN
@@ -7953,7 +7953,7 @@ pin2
 :
 message
 .
-type
+rilMessageType
 =
 "
 enterICCPIN2
@@ -7968,7 +7968,7 @@ puk
 :
 message
 .
-type
+rilMessageType
 =
 "
 enterICCPUK
@@ -7983,7 +7983,7 @@ puk2
 :
 message
 .
-type
+rilMessageType
 =
 "
 enterICCPUK2
@@ -8069,7 +8069,7 @@ pin
 :
 message
 .
-type
+rilMessageType
 =
 "
 changeICCPIN
@@ -8084,7 +8084,7 @@ pin2
 :
 message
 .
-type
+rilMessageType
 =
 "
 changeICCPIN2
@@ -8175,7 +8175,7 @@ requestId
 }
 message
 .
-type
+rilMessageType
 =
 "
 setICCPinLock
@@ -8303,7 +8303,7 @@ worker
 postMessage
 (
 {
-type
+rilMessageType
 :
 msgType
 requestId

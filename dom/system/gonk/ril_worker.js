@@ -2559,7 +2559,7 @@ false
 _pendingNetworkInfo
 :
 {
-type
+rilMessageType
 :
 "
 networkinfochanged
@@ -3918,7 +3918,7 @@ this
 .
 iccInfo
 .
-type
+rilMessageType
 =
 "
 iccinfochange
@@ -4955,7 +4955,7 @@ this
 sendDOMMessage
 (
 {
-type
+rilMessageType
 :
 "
 icccontacts
@@ -5165,7 +5165,7 @@ this
 sendDOMMessage
 (
 {
-type
+rilMessageType
 :
 "
 icccontacts
@@ -5340,7 +5340,7 @@ number
 ;
 contact
 .
-type
+rilMessageType
 =
 "
 iccmbdn
@@ -6242,7 +6242,7 @@ callIndex
 ;
 options
 .
-type
+rilMessageType
 =
 "
 callError
@@ -7433,7 +7433,7 @@ this
 sendDOMMessage
 (
 {
-type
+rilMessageType
 :
 "
 cardstatechange
@@ -7517,7 +7517,7 @@ this
 sendDOMMessage
 (
 {
-type
+rilMessageType
 :
 "
 cardstatechange
@@ -7654,7 +7654,7 @@ this
 sendDOMMessage
 (
 {
-type
+rilMessageType
 :
 "
 cardstatechange
@@ -8539,7 +8539,7 @@ cellChanged
 {
 cell
 .
-type
+rilMessageType
 =
 "
 celllocationchanged
@@ -8753,7 +8753,7 @@ stateChanged
 {
 rs
 .
-type
+rilMessageType
 =
 "
 voiceregistrationstatechange
@@ -8866,7 +8866,7 @@ stateChanged
 {
 rs
 .
-type
+rilMessageType
 =
 "
 dataregistrationstatechange
@@ -8933,7 +8933,7 @@ this
 operator
 =
 {
-type
+rilMessageType
 :
 "
 operatorchange
@@ -9379,7 +9379,7 @@ let
 message
 =
 {
-type
+rilMessageType
 :
 "
 callStateChange
@@ -9409,7 +9409,7 @@ let
 message
 =
 {
-type
+rilMessageType
 :
 "
 callDisconnected
@@ -9556,7 +9556,7 @@ GECKO_NETWORK_STATE_DISCONNECTED
 ;
 currentDataCall
 .
-type
+rilMessageType
 =
 "
 datacallstatechange
@@ -9617,7 +9617,7 @@ state
 ;
 currentDataCall
 .
-type
+rilMessageType
 =
 "
 datacallstatechange
@@ -9744,7 +9744,7 @@ newDataCall
 }
 newDataCall
 .
-type
+rilMessageType
 =
 "
 datacallstatechange
@@ -10339,7 +10339,7 @@ message
 {
 message
 .
-type
+rilMessageType
 =
 "
 sms
@@ -10582,7 +10582,7 @@ this
 sendDOMMessage
 (
 {
-type
+rilMessageType
 :
 "
 sms
@@ -11107,7 +11107,7 @@ this
 [
 message
 .
-type
+rilMessageType
 ]
 ;
 if
@@ -11212,7 +11212,7 @@ this
 sendDOMMessage
 (
 {
-type
+rilMessageType
 :
 "
 enumerateCalls
@@ -11261,7 +11261,7 @@ this
 sendDOMMessage
 (
 {
-type
+rilMessageType
 :
 "
 datacalllist
@@ -11620,7 +11620,7 @@ this
 sendDOMMessage
 (
 {
-type
+rilMessageType
 :
 "
 iccunlockcardlock
@@ -11684,7 +11684,7 @@ this
 sendDOMMessage
 (
 {
-type
+rilMessageType
 :
 "
 iccunlockcardlock
@@ -11748,7 +11748,7 @@ this
 sendDOMMessage
 (
 {
-type
+rilMessageType
 :
 "
 iccunlockcardlock
@@ -11812,7 +11812,7 @@ this
 sendDOMMessage
 (
 {
-type
+rilMessageType
 :
 "
 iccunlockcardlock
@@ -11876,7 +11876,7 @@ this
 sendDOMMessage
 (
 {
-type
+rilMessageType
 :
 "
 iccsetcardlock
@@ -11940,7 +11940,7 @@ this
 sendDOMMessage
 (
 {
-type
+rilMessageType
 :
 "
 iccsetcardlock
@@ -12670,7 +12670,7 @@ CALL_FAIL_ERROR_UNSPECIFIED
 :
 options
 .
-type
+rilMessageType
 =
 "
 callError
@@ -12965,7 +12965,7 @@ obj
 ;
 obj
 .
-type
+rilMessageType
 =
 "
 signalstrengthchange
@@ -13226,7 +13226,7 @@ this
 sendDOMMessage
 (
 {
-type
+rilMessageType
 :
 "
 sms
@@ -13349,7 +13349,7 @@ this
 sendDOMMessage
 (
 {
-type
+rilMessageType
 :
 "
 sms
@@ -13479,7 +13479,7 @@ rilRequestError
 {
 options
 .
-type
+rilMessageType
 =
 "
 datacallerror
@@ -13520,7 +13520,7 @@ options
 ;
 options
 .
-type
+rilMessageType
 =
 "
 datacallstatechange
@@ -13706,7 +13706,7 @@ options
 }
 options
 .
-type
+rilMessageType
 =
 "
 sendussd
@@ -13770,7 +13770,7 @@ options
 }
 options
 .
-type
+rilMessageType
 =
 "
 cancelussd
@@ -13976,7 +13976,7 @@ GECKO_NETWORK_STATE_DISCONNECTED
 ;
 datacall
 .
-type
+rilMessageType
 =
 "
 datacallstatechange
@@ -14030,7 +14030,7 @@ this
 sendDOMMessage
 (
 {
-type
+rilMessageType
 :
 "
 iccgetcardlock
@@ -14077,7 +14077,7 @@ this
 sendDOMMessage
 (
 {
-type
+rilMessageType
 :
 "
 iccsetcardlock
@@ -14247,7 +14247,7 @@ selectionMode
 ;
 options
 .
-type
+rilMessageType
 =
 "
 networkselectionmodechange
@@ -15525,7 +15525,7 @@ this
 sendDOMMessage
 (
 {
-type
+rilMessageType
 :
 "
 radiostatechange
@@ -15784,7 +15784,7 @@ this
 sendDOMMessage
 (
 {
-type
+rilMessageType
 :
 "
 ussdreceived
@@ -16007,7 +16007,7 @@ this
 sendDOMMessage
 (
 {
-type
+rilMessageType
 :
 "
 nitzTime
