@@ -6636,7 +6636,7 @@ nbsp
 ;
 for
 (
-PRUint32
+PRInt32
 i
 =
 totLen
