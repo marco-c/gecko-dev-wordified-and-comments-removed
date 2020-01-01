@@ -705,6 +705,7 @@ body
 ;
 [
 Throws
+ChromeOnly
 ]
 any
 getInterface
