@@ -1850,10 +1850,6 @@ NS_IF_RELEASE
 mContent
 )
 ;
-if
-(
-mStyleContext
-)
 mStyleContext
 -
 >

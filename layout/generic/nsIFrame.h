@@ -1458,11 +1458,6 @@ mStyleContext
 =
 aContext
 ;
-if
-(
-aContext
-)
-{
 aContext
 -
 >
@@ -1475,11 +1470,6 @@ DidSetStyleContext
 oldStyleContext
 )
 ;
-}
-if
-(
-oldStyleContext
-)
 oldStyleContext
 -
 >
@@ -1505,10 +1495,6 @@ aContext
 mStyleContext
 )
 {
-if
-(
-mStyleContext
-)
 mStyleContext
 -
 >
@@ -1520,11 +1506,6 @@ mStyleContext
 =
 aContext
 ;
-if
-(
-aContext
-)
-{
 aContext
 -
 >
@@ -1532,7 +1513,6 @@ AddRef
 (
 )
 ;
-}
 }
 }
 virtual
