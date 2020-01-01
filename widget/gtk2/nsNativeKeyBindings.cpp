@@ -73,6 +73,13 @@ using
 namespace
 mozilla
 ;
+using
+namespace
+mozilla
+:
+:
+widget
+;
 static
 nsINativeKeyBindings
 :
@@ -1029,7 +1036,10 @@ charCode
 else
 keyCode
 =
-DOMKeyCodeToGdkKeyCode
+KeymapWrapper
+:
+:
+GuessGDKKeyval
 (
 aEvent
 .

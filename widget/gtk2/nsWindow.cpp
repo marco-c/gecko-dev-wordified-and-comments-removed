@@ -1808,7 +1808,10 @@ aEvent
 .
 keyCode
 =
-GdkKeyCodeToDOMKeyCode
+KeymapWrapper
+:
+:
+ComputeDOMKeyCode
 (
 aGdkEvent
 -
