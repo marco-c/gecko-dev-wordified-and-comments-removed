@@ -711,7 +711,7 @@ width
 mFrame
 -
 >
-GetWidth
+GetHeight
 (
 &
 height

@@ -180,6 +180,15 @@ reftest
 .
 list
 #
+APNG
+tests
+include
+apng
+/
+reftest
+.
+list
+#
 Generic
 image
 tests
