@@ -4203,7 +4203,7 @@ void
 thing
 ;
 uint32
-traceKind
+thingKind
 ;
 }
 ;
