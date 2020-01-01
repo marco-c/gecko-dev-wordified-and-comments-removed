@@ -773,6 +773,10 @@ True
 print_directory
 =
 True
+            
+pass_thru
+=
+False
 )
 :
         
@@ -1069,6 +1073,12 @@ ensure_exit_code
 '
 :
 ensure_exit_code
+            
+'
+pass_thru
+'
+:
+pass_thru
             
 '
 ignore_children
