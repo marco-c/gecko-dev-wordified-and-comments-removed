@@ -4251,12 +4251,14 @@ friend
 class
 LIns
 ;
-int32_t
+signed
+int
 disp
 :
 16
 ;
-int32_t
+signed
+int
 miniAccSetVal
 :
 8
