@@ -27460,7 +27460,7 @@ name
 uint16
 atomOffset
 ;
-JSPropertyOp
+PropertyOp
 getter
 ;
 }

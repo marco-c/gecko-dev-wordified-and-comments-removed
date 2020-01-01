@@ -3119,8 +3119,8 @@ StringTag
 (
 str1
 )
-JS_PropertyStub
-JS_PropertyStub
+PropertyStub
+PropertyStub
 STRING_ELEMENT_ATTRS
 )
 )
@@ -3149,7 +3149,9 @@ atomState
 .
 lengthAtom
 )
-JSVAL_VOID
+UndefinedTag
+(
+)
 NULL
 NULL
 JSPROP_PERMANENT
