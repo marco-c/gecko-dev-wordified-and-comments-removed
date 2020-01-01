@@ -92,17 +92,6 @@ print_header
 (
 )
 {
-_mozconfig
-=
-{
-MOZCONFIG
-:
--
-HOME
-/
-.
-mozconfig
-}
 cat
 <
 <
@@ -126,7 +115,7 @@ not
 edit
 .
 Edit
-_mozconfig
+FOUND_MOZCONFIG
 instead
 .
 EOF
@@ -375,7 +364,6 @@ opts
 =
 "
 "
-print_header
 #
 If
 the
@@ -477,6 +465,7 @@ FOUND_MOZCONFIG
 "
 ]
 then
+print_header
 .
 "
 FOUND_MOZCONFIG
