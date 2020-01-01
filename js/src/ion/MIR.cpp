@@ -12438,14 +12438,6 @@ true
 ;
 if
 (
-property
--
->
-empty
-(
-)
-&
-&
 name
 &
 &
@@ -12493,10 +12485,8 @@ shape
 hasDefaultGetter
 (
 )
-)
-{
-JS_ASSERT
-(
+&
+&
 object
 -
 >
@@ -12517,7 +12507,7 @@ isUndefined
 (
 )
 )
-;
+{
 return
 true
 ;
