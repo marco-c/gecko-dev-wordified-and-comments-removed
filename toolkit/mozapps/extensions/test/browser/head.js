@@ -1961,6 +1961,7 @@ MockInstall
 (
 aName
 aType
+aAddonToInstall
 )
 {
 this
@@ -2074,6 +2075,12 @@ null
 ;
 this
 .
+_addonToInstall
+=
+aAddonToInstall
+;
+this
+.
 listeners
 =
 [
@@ -2160,6 +2167,11 @@ this
 .
 addon
 =
+this
+.
+_addonToInstall
+|
+|
 new
 MockAddon
 (

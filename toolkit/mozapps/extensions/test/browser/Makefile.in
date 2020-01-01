@@ -505,6 +505,10 @@ redirect
 .
 sjs
 \
+browser_bug562992
+.
+js
+\
 (
 NULL
 )
