@@ -1200,6 +1200,11 @@ a
 ppc
 i386
 "
+-
+-
+vcs
+-
+info
 MAKE_SYM_STORE_PATH
 :
 =
@@ -1217,6 +1222,11 @@ a
 (
 OS_TEST
 )
+-
+-
+vcs
+-
+info
 MAKE_SYM_STORE_PATH
 :
 =
