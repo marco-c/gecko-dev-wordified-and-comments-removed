@@ -176,10 +176,6 @@ mError
 (
 PR_FALSE
 )
-mEnded
-(
-PR_FALSE
-)
 {
 memset
 (
@@ -860,7 +856,8 @@ aSuccess
 {
 if
 (
-mEnded
+!
+mGIFOpen
 )
 return
 ;
@@ -917,10 +914,6 @@ loop_count
 mGIFOpen
 =
 PR_FALSE
-;
-mEnded
-=
-PR_TRUE
 ;
 }
 nsresult
