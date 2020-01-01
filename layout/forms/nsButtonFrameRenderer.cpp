@@ -319,6 +319,7 @@ NS_DISPLAY_DECL_NAME
 "
 ButtonBoxShadowOuter
 "
+TYPE_BUTTON_BOX_SHADOW_OUTER
 )
 private
 :
@@ -522,6 +523,7 @@ NS_DISPLAY_DECL_NAME
 "
 ButtonBorderBackground
 "
+TYPE_BUTTON_BORDER_BACKGROUND
 )
 private
 :
@@ -600,6 +602,7 @@ NS_DISPLAY_DECL_NAME
 "
 ButtonForeground
 "
+TYPE_BUTTON_FOREGROUND
 )
 private
 :

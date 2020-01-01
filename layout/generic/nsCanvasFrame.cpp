@@ -1099,6 +1099,7 @@ NS_DISPLAY_DECL_NAME
 "
 CanvasBackground
 "
+TYPE_CANVAS_BACKGROUND
 )
 }
 ;
@@ -1226,6 +1227,7 @@ NS_DISPLAY_DECL_NAME
 "
 CanvasFocus
 "
+TYPE_CANVAS_FOCUS
 )
 }
 ;

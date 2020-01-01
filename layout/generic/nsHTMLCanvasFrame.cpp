@@ -168,6 +168,7 @@ NS_DISPLAY_DECL_NAME
 "
 nsDisplayCanvas
 "
+TYPE_CANVAS
 )
 virtual
 PRBool

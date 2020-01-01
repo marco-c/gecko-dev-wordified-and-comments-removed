@@ -5239,6 +5239,7 @@ NS_DISPLAY_DECL_NAME
 "
 ComboboxFocus
 "
+TYPE_COMBOBOX_FOCUS
 )
 }
 ;

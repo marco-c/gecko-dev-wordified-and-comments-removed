@@ -7506,6 +7506,7 @@ NS_DISPLAY_DECL_NAME
 "
 MathMLSelectionRect
 "
+TYPE_MATHML_SELECTION_RECT
 )
 private
 :
@@ -7660,6 +7661,7 @@ NS_DISPLAY_DECL_NAME
 "
 MathMLCharBackground
 "
+TYPE_MATHML_CHAR_BACKGROUND
 )
 private
 :
@@ -7915,6 +7917,7 @@ NS_DISPLAY_DECL_NAME
 "
 MathMLCharForeground
 "
+TYPE_MATHML_CHAR_FOREGROUND
 )
 private
 :
@@ -7998,6 +8001,7 @@ NS_DISPLAY_DECL_NAME
 "
 MathMLCharDebug
 "
+TYPE_MATHML_CHAR_DEBUG
 )
 private
 :

@@ -8013,6 +8013,7 @@ NS_DISPLAY_DECL_NAME
 "
 FramesetBorder
 "
+TYPE_FRAMESET_BORDER
 )
 }
 ;
@@ -9008,6 +9009,7 @@ NS_DISPLAY_DECL_NAME
 "
 FramesetBlank
 "
+TYPE_FRAMESET_BLANK
 )
 }
 ;

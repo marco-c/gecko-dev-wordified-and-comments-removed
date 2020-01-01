@@ -2294,6 +2294,7 @@ NS_DISPLAY_DECL_NAME
 "
 MathMLSlash
 "
+TYPE_MATHML_SLASH
 )
 private
 :

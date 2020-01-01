@@ -3355,6 +3355,10 @@ PaintPageSequence
 "
 PageSequence
 "
+nsDisplayItem
+:
+:
+TYPE_PAGE_SEQUENCE
 )
 )
 ;

@@ -1405,7 +1405,7 @@ GetType
 nsDisplayItem
 :
 :
-TYPE_WRAPLIST
+TYPE_WRAP_LIST
 )
 {
 item

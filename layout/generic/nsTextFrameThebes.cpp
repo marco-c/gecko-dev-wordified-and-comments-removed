@@ -18778,6 +18778,7 @@ NS_DISPLAY_DECL_NAME
 "
 Text
 "
+TYPE_TEXT
 )
 }
 ;

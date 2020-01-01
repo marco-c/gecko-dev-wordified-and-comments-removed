@@ -12843,6 +12843,10 @@ PaintTreeBody
 "
 XULTreeBody
 "
+nsDisplayItem
+:
+:
+TYPE_XUL_TREE_BODY
 )
 )
 ;

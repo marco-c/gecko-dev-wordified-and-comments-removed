@@ -365,6 +365,10 @@ PaintCheckedRadioButton
 "
 CheckedRadioButton
 "
+nsDisplayItem
+:
+:
+TYPE_CHECKED_RADIOBUTTON
 )
 )
 ;

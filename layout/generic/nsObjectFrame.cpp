@@ -5641,6 +5641,10 @@ PaintPrintPlugin
 "
 PrintPlugin
 "
+nsDisplayItem
+:
+:
+TYPE_PRINT_PLUGIN
 )
 )
 ;

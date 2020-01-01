@@ -265,6 +265,7 @@ NS_DISPLAY_DECL_NAME
 "
 OptionEventGrabber
 "
+TYPE_OPTION_EVENT_GRABBER
 )
 virtual
 nsDisplayWrapList
@@ -707,6 +708,7 @@ NS_DISPLAY_DECL_NAME
 "
 ListFocus
 "
+TYPE_LIST_FOCUS
 )
 }
 ;

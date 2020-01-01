@@ -4618,6 +4618,10 @@ PaintColumnRule
 "
 ColumnRule
 "
+nsDisplayItem
+:
+:
+TYPE_COLUMN_RULE
 )
 )
 ;

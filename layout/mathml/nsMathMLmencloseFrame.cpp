@@ -3271,6 +3271,7 @@ NS_DISPLAY_DECL_NAME
 "
 MathMLMencloseNotation
 "
+TYPE_MATHML_MENCLOSE_NOTATION
 )
 private
 :

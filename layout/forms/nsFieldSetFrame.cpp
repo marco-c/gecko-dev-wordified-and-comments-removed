@@ -662,6 +662,7 @@ NS_DISPLAY_DECL_NAME
 "
 FieldSetBorderBackground
 "
+TYPE_FIELDSET_BORDER_BACKGROUND
 )
 }
 ;

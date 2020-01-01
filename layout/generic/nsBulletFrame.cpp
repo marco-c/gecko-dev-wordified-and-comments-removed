@@ -720,6 +720,7 @@ NS_DISPLAY_DECL_NAME
 "
 Bullet
 "
+TYPE_BULLET
 )
 }
 ;

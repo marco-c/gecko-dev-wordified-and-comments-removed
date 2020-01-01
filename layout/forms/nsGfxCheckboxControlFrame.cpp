@@ -588,6 +588,10 @@ PaintCheckMark
 "
 CheckedCheckbox
 "
+nsDisplayItem
+:
+:
+TYPE_CHECKED_CHECKBOX
 )
 )
 ;

@@ -418,6 +418,7 @@ NS_DISPLAY_DECL_NAME
 "
 MathMLError
 "
+TYPE_MATHML_ERROR
 )
 }
 ;

@@ -5238,6 +5238,7 @@ NS_DISPLAY_DECL_NAME
 "
 XULDebug
 "
+TYPE_XUL_DEBUG
 )
 }
 ;
@@ -8986,6 +8987,7 @@ NS_DISPLAY_DECL_NAME
 "
 XULEventRedirector
 "
+TYPE_XUL_EVENT_REDIRECTOR
 )
 private
 :
