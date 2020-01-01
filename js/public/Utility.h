@@ -3500,7 +3500,7 @@ inline
 void
 PoisonPtr
 (
-uintptr_t
+void
 *
 v
 )

@@ -22400,7 +22400,7 @@ JSContext
 cx
 JSObject
 *
-obj
+objArg
 uint32_t
 length
 )
@@ -22418,7 +22418,14 @@ cx
 assertSameCompartment
 (
 cx
+objArg
+)
+;
+RootedObject
 obj
+(
+cx
+objArg
 )
 ;
 return
