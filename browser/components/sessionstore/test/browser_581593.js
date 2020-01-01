@@ -16,6 +16,10 @@ waitForExplicitFinish
 (
 )
 ;
+ignoreAllUncaughtExceptions
+(
+)
+;
 let
 oldState
 =
