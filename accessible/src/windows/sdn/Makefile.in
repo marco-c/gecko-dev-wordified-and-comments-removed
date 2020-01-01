@@ -126,6 +126,10 @@ sdnAccessible
 .
 cpp
 \
+sdnTextAccessible
+.
+cpp
+\
 (
 NULL
 )
