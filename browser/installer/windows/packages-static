@@ -239,6 +239,16 @@ dll
 #
 endif
 #
+ifdef
+WINCE
+bin
+\
+mozce_shunt
+.
+dll
+#
+else
+#
 ifndef
 MOZ_MEMORY
 bin
@@ -272,6 +282,8 @@ bin
 mozcrt19
 .
 dll
+#
+endif
 #
 endif
 [
@@ -854,6 +866,9 @@ components
 microsummaries
 .
 xpt
+#
+ifndef
+WINCE
 bin
 \
 components
@@ -861,6 +876,8 @@ components
 migration
 .
 xpt
+#
+endif
 bin
 \
 components
@@ -2502,6 +2519,9 @@ bin
 updater
 .
 exe
+#
+ifdef
+MOZ_CRASHREPORTER
 ;
 [
 Crash
@@ -2524,3 +2544,5 @@ crashreporter
 override
 .
 ini
+#
+endif

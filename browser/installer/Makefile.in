@@ -496,11 +496,15 @@ BUILD_STATIC_LIBS
 MOZ_ENABLE_LIBXUL
 )
 )
-ifeq
+ifneq
 (
+(
+filter
 WINNT
+WINCE
 (
 OS_ARCH
+)
 )
 )
 MOZ_PKG_MANIFEST_P
