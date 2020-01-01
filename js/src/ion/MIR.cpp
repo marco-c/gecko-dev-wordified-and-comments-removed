@@ -2737,6 +2737,7 @@ operand
 =
 def
 )
+{
 operand
 =
 use_def
@@ -2747,6 +2748,17 @@ getOperand
 1
 )
 ;
+if
+(
+operand
+=
+=
+def
+)
+return
+true
+;
+}
 if
 (
 operand
