@@ -516,6 +516,10 @@ file_bug670318
 .
 html
 \
+browser_bug673467
+.
+js
+\
 (
 NULL
 )
