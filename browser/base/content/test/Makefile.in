@@ -882,6 +882,10 @@ browser_canonizeURL
 .
 js
 \
+browser_mixedcontent_securityflags
+.
+js
+\
 browser_clearplugindata_noage
 .
 html
@@ -1480,6 +1484,14 @@ test_bug839103
 html
 \
 test_wyciwyg_copying
+.
+html
+\
+test
+-
+mixedcontent
+-
+securityerrors
 .
 html
 \
