@@ -657,6 +657,10 @@ nsIGfxInfo
 .
 idl
 \
+nsIIMEPicker
+.
+idl
+\
 (
 NULL
 )
