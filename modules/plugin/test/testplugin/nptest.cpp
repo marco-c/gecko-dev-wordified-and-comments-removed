@@ -3383,7 +3383,7 @@ size
 offsetof
 (
 NPPluginFuncs
-setvalue
+getsiteswithdata
 )
 +
 sizeof
