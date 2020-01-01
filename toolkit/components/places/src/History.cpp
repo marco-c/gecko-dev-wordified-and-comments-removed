@@ -167,12 +167,6 @@ NS_ENSURE_STATE
 stmt
 )
 ;
-mozStorageStatementScoper
-scoper
-(
-stmt
-)
-;
 nsresult
 rv
 =
