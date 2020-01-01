@@ -469,10 +469,6 @@ GeckoBatteryManager
 .
 java
 \
-GeckoSmsManager
-.
-java
-\
 VideoPlayer
 .
 java
@@ -480,6 +476,15 @@ java
 (
 NULL
 )
+ifdef
+MOZ_WEBSMS_BACKEND
+JAVAFILES
++
+=
+GeckoSmsManager
+.
+java
+endif
 PROCESSEDJAVAFILES
 =
 \
@@ -496,6 +501,10 @@ NotificationHandler
 java
 \
 LauncherShortcuts
+.
+java
+\
+SmsManager
 .
 java
 \

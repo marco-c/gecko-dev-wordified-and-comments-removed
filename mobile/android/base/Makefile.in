@@ -773,10 +773,6 @@ GeckoPreferences
 .
 java
 \
-GeckoSmsManager
-.
-java
-\
 GeckoStateListDrawable
 .
 java
@@ -1000,6 +996,15 @@ java
 (
 NULL
 )
+ifdef
+MOZ_WEBSMS_BACKEND
+FENNEC_JAVA_FILES
++
+=
+GeckoSmsManager
+.
+java
+endif
 FENNEC_PP_JAVA_FILES
 =
 \
@@ -1028,6 +1033,10 @@ java
 db
 /
 BrowserProvider
+.
+java
+\
+SmsManager
 .
 java
 \
