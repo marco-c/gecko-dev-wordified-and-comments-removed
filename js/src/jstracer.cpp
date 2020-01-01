@@ -2131,7 +2131,7 @@ if
 f
 -
 >
-callee
+down
 )
 {
 \
@@ -3517,7 +3517,7 @@ if
 fp
 -
 >
-callee
+down
 )
 slots
 +
@@ -6721,10 +6721,7 @@ varobj
 return
 STOBJ_GET_SLOT
 (
-cx
--
->
-fp
+global
 -
 >
 varobj
