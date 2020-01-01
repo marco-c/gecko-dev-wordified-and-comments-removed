@@ -6734,12 +6734,11 @@ PlatformToDOMLineBreaks
 value
 )
 ;
-*
-mValue
-=
-ToNewUTF8String
+CopyUTF16toUTF8
 (
 value
+*
+mValue
 )
 ;
 if
