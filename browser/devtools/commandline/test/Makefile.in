@@ -98,6 +98,10 @@ browser_cmd_calllog
 .
 js
 \
+browser_cmd_calllog_chrome
+.
+js
+\
 browser_cmd_commands
 .
 js
