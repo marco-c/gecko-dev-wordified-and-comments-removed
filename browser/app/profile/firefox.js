@@ -7446,6 +7446,9 @@ index
 "
 )
 ;
+#
+ifndef
+RELEASE_BUILD
 pref
 (
 "
@@ -7472,6 +7475,8 @@ submit
 "
 )
 ;
+#
+endif
 pref
 (
 "
