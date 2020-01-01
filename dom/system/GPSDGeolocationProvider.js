@@ -764,6 +764,8 @@ n
 "
 )
 ;
+try
+{
 var
 bufferOption
 =
@@ -808,6 +810,15 @@ mode
 length
 )
 ;
+}
+catch
+(
+e
+)
+{
+return
+;
+}
 var
 dataListener
 =

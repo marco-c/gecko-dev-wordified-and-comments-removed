@@ -270,12 +270,6 @@ finish
 (
 )
 ;
-newwindow
-.
-close
-(
-)
-;
 }
 function
 done
@@ -298,12 +292,6 @@ chrome
 SimpleTest
 .
 finish
-(
-)
-;
-newwindow
-.
-close
 (
 )
 ;
