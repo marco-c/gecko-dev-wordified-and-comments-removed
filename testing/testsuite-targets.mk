@@ -2774,7 +2774,17 @@ TEST_PACKAGE
 )
 )
 "
+\
 *
+-
+x
+\
+*
+/
+.
+mkdir
+.
+done
 ifeq
 (
 Android
