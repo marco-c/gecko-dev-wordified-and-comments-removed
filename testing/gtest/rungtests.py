@@ -27,7 +27,7 @@ mozlog
 getLogger
 (
 '
-gtests
+gtest
 '
 )
 class
@@ -156,28 +156,14 @@ build_environment
 (
 )
         
-basename
-=
-os
-.
-path
-.
-basename
-(
-prog
-)
-        
 log
 .
 info
 (
 "
 Running
-test
-%
-s
+gtest
 "
-basename
 )
         
 proc
@@ -241,8 +227,7 @@ log
 testFail
 (
 "
-%
-s
+gtest
 |
 timed
 out
@@ -251,8 +236,6 @@ after
 d
 seconds
 "
-                         
-basename
 GTests
 .
 TEST_PROC_TIMEOUT
@@ -272,26 +255,13 @@ getcwd
 (
 )
 symbols_path
-                                      
 test_name
 =
-basename
+"
+gtest
+"
 )
 :
-            
-log
-.
-testFail
-(
-"
-%
-s
-|
-test
-crashed
-"
-basename
-)
             
 return
 False
@@ -317,8 +287,7 @@ log
 testFail
 (
 "
-%
-s
+gtest
 |
 test
 failed
@@ -328,8 +297,6 @@ code
 %
 d
 "
-                         
-basename
 proc
 .
 proc
