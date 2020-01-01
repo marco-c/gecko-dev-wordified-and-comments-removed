@@ -38,7 +38,10 @@ _XOPEN_SOURCE
 600
 |
 |
+defined
+(
 _ISOC99_SOURCE
+)
 #
 define
 ISFINITE
