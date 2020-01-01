@@ -14522,11 +14522,9 @@ return
 NULL
 ;
 Value
-priv
-;
-priv
-.
-setPrivateVoidPtr
+privateValue
+=
+PrivateVoidPtrTag
 (
 js_FloatingFrameIfGenerator
 (
@@ -14548,7 +14546,7 @@ NonFunObjTag
 proto
 )
 NULL
-priv
+privateValue
 )
 ;
 clone
@@ -17738,6 +17736,7 @@ obj
 ;
 if
 (
+!
 obj
 )
 return
