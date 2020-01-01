@@ -2108,10 +2108,7 @@ url
 msg
 .
 uri
-origin
-:
-origin
-manifest
+manifestURL
 :
 msg
 .
@@ -3665,12 +3662,12 @@ json
 startPoint
 )
 "
-origin
+manifestURL
 "
 :
 json
 .
-origin
+manifestURL
 }
 )
 ;
