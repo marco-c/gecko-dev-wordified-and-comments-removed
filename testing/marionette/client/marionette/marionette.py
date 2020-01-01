@@ -213,7 +213,7 @@ marionette
 _send_message
 (
 '
-getAttributeValue
+getElementAttribute
 '
 '
 value

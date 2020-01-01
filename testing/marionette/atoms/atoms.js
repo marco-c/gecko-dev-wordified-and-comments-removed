@@ -43709,7 +43709,7 @@ arguments
 ;
 }
 var
-getAttributeValue
+getElementAttribute
 =
 function
 (

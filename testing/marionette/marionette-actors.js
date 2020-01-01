@@ -3671,10 +3671,10 @@ element
 ;
 }
 }
-getAttributeValue
+getElementAttribute
 :
 function
-MDA_getAttributeValue
+MDA_getElementAttribute
 (
 aRequest
 )
@@ -3720,7 +3720,7 @@ sendResponse
 (
 utils
 .
-getAttributeValue
+getElementAttribute
 (
 el
 aRequest
@@ -3759,7 +3759,7 @@ this
 sendAsync
 (
 "
-getAttributeValue
+getElementAttribute
 "
 {
 element
@@ -5320,14 +5320,14 @@ prototype
 .
 clickElement
 "
-getAttributeValue
+getElementAttribute
 "
 :
 MarionetteDriverActor
 .
 prototype
 .
-getAttributeValue
+getElementAttribute
 "
 getElementText
 "
