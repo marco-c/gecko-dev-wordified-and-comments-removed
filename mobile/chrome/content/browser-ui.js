@@ -4230,6 +4230,12 @@ cmd_forceReload
 "
 :
 {
+browser
+.
+lastSpec
+=
+null
+;
 const
 reloadFlags
 =
