@@ -168,7 +168,7 @@ histsvc
 TRANSITION_REDIRECT_TEMPORARY
 ;
 var
-placeID
+visitId
 =
 histsvc
 .
@@ -182,15 +182,8 @@ isRedirect
 0
 )
 ;
-do_check_true
-(
-placeID
->
-0
-)
-;
 return
-placeID
+visitId
 ;
 }
 var
@@ -883,6 +876,7 @@ calculatedURI
 &
 frecency
 )
+{
 results
 .
 push
@@ -894,6 +888,13 @@ matchTitle
 ]
 )
 ;
+setPageTitle
+(
+calculatedURI
+matchTitle
+)
+;
+}
 }
 return
 true
