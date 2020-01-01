@@ -263,15 +263,6 @@ regress
 1
 .
 js
-fails
--
-if
-(
-!
-xulRuntime
-.
-shell
-)
 script
 regress
 -
