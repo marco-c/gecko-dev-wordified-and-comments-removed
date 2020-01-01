@@ -948,7 +948,7 @@ check
 :
 #
 build
-ppc
+x64
 /
 i386
 binaries
@@ -962,7 +962,7 @@ unify
 -
 test
 -
-ppc
+x64
 unify
 -
 test
@@ -978,7 +978,7 @@ HOST_CC
 )
 -
 arch
-ppc
+x86_64
 (
 srcdir
 )
@@ -994,7 +994,7 @@ unify
 -
 test
 -
-ppc
+x64
 (
 HOST_CC
 )
@@ -1034,7 +1034,7 @@ unify
 -
 test
 -
-ppc
+x64
 .
 /
 unify
