@@ -1454,6 +1454,11 @@ nsIDOMHTMLDocument
 designMode
 '
 '
+nsIDOMHTMLDocument
+.
+head
+'
+'
 nsIDOMHTMLElement
 .
 *
