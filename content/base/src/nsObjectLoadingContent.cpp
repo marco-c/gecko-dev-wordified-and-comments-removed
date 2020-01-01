@@ -2239,6 +2239,8 @@ nsIDOMWindow
 >
 topWindow
 ;
+rv
+=
 window
 -
 >
