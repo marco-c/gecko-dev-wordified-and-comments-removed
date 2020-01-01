@@ -6141,7 +6141,7 @@ strlen
 (
 name
 )
-0
+ATOM_PINNED
 )
 ;
 OFFSET_TO_ATOM
