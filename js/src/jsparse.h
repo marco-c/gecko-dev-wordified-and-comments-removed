@@ -181,8 +181,8 @@ expr
 jsint
 slot
 ;
-JSBool
-constslot
+uintN
+attrs
 ;
 }
 name
@@ -391,12 +391,12 @@ name
 slot
 #
 define
-pn_const
+pn_attrs
 pn_u
 .
 name
 .
-constslot
+attrs
 #
 define
 pn_dval
