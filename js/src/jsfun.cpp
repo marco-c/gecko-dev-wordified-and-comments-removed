@@ -7980,7 +7980,7 @@ prev
 )
 )
 return
-false
+true
 ;
 StackFrame
 *
@@ -7999,10 +7999,9 @@ prev
 ;
 if
 (
-!
 frame
-|
-|
+&
+&
 !
 frame
 -
