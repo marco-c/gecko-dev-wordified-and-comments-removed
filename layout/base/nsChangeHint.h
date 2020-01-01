@@ -247,16 +247,6 @@ nsChangeHint
 )
 #
 define
-NS_STYLE_HINT_VISUAL
-\
-nsChangeHint
-(
-nsChangeHint_RepaintFrame
-|
-nsChangeHint_SyncFrameView
-)
-#
-define
 nsChangeHint_ReflowFrame
 \
 nsChangeHint
@@ -278,7 +268,7 @@ NS_STYLE_HINT_REFLOW
 \
 nsChangeHint
 (
-NS_STYLE_HINT_VISUAL
+nsChangeHint_RepaintFrame
 |
 nsChangeHint_ReflowFrame
 )
