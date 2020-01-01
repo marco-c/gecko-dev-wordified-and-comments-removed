@@ -10367,6 +10367,17 @@ forget
 )
 ;
 }
+virtual
+void
+RunDuringShutdown
+(
+)
+{
+Run
+(
+)
+;
+}
 nsRefPtr
 <
 MediaInputPort
