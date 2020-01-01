@@ -168,6 +168,10 @@ aCB
 void
 nsCycleCollector_forgetSkippable
 (
+bool
+aRemoveChildlessNodes
+=
+false
 )
 ;
 #
