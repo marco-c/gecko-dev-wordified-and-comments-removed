@@ -156,7 +156,7 @@ dataOffset
 (
 )
 +
-dataSize_
+relocTableSize_
 ;
 }
 public
