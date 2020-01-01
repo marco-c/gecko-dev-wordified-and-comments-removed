@@ -215,6 +215,9 @@ before
 "
 )
 ;
+try
+{
+return
 val
 .
 apply
@@ -223,6 +226,9 @@ this
 arguments
 )
 ;
+}
+finally
+{
 notify
 (
 "
@@ -230,6 +236,7 @@ after
 "
 )
 ;
+}
 }
 ;
 }
