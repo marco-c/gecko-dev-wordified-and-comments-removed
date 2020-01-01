@@ -3113,9 +3113,15 @@ surf
 new
 gfxImageSurface
 (
-GetMemoryImageData
 (
+unsigned
+char
+*
+)
 image
+.
+data
+(
 )
 image
 .
