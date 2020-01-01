@@ -2227,6 +2227,13 @@ HasFixedDir
 break
 ;
 }
+aTextNode
+-
+>
+SetAncestorHasDirAuto
+(
+)
+;
 if
 (
 parent
