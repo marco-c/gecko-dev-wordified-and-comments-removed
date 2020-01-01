@@ -327,6 +327,17 @@ uint64_t
 position
 )
 ;
+int
+cubeb_stream_get_latency
+(
+cubeb_stream
+*
+stream
+uint32_t
+*
+latency
+)
+;
 #
 if
 defined
