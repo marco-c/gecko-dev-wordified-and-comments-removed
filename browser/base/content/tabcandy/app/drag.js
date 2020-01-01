@@ -17,6 +17,7 @@ function
 (
 item
 event
+isResizing
 )
 {
 try
@@ -35,6 +36,15 @@ item
 .
 isAnItem
 )
+;
+this
+.
+isResizing
+=
+isResizing
+|
+|
+false
 ;
 this
 .
@@ -120,6 +130,10 @@ this
 item
 .
 isATabItem
+&
+&
+!
+isResizing
 )
 this
 .
