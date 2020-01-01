@@ -44,7 +44,7 @@ geolocate
 "
 }
 "
-alarm
+alarms
 "
 :
 {
@@ -67,13 +67,6 @@ description
 :
 "
 contacts
-"
-"
-access
-"
-:
-"
-readwrite
 "
 }
 "
