@@ -6031,6 +6031,12 @@ rejoin
 !
 =
 REJOIN_RESUME
+&
+&
+rejoin
+!
+=
+REJOIN_THIS_PROTOTYPE
 )
 {
 nextDepth
