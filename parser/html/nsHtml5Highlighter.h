@@ -218,7 +218,7 @@ StartCharacters
 )
 ;
 void
-EndCharacters
+EndCharactersAndStartMarkupRun
 (
 )
 ;
