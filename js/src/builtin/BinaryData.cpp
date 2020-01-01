@@ -113,6 +113,12 @@ jsobjinlines
 h
 "
 using
+mozilla
+:
+:
+DebugOnly
+;
+using
 namespace
 js
 ;
@@ -7467,7 +7473,10 @@ fieldTypeBytes
 cx
 )
 ;
+DebugOnly
+<
 bool
+>
 r
 =
 JSObject

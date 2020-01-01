@@ -2104,6 +2104,9 @@ second
 )
 )
 ;
+#
+ifdef
+DEBUG
 FloatRegister
 output
 =
@@ -2125,6 +2128,8 @@ first
 output
 )
 ;
+#
+endif
 Label
 done
 nan

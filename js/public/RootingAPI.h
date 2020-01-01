@@ -3477,6 +3477,12 @@ count
 }
 public
 :
+~
+SkipRoot
+(
+)
+{
+}
 #
 endif
 template

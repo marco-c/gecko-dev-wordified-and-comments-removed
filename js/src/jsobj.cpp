@@ -444,12 +444,9 @@ JS_ResolveStub
 JS_ConvertStub
 }
 ;
-JS_FRIEND_DATA
-(
 Class
 *
 const
-)
 js
 :
 :
