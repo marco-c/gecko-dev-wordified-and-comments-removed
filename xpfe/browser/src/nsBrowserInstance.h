@@ -65,7 +65,7 @@ class
 nsIDOMWindowInternal
 ;
 class
-nsIPref
+nsIPrefBranch
 ;
 class
 nsBrowserInstance
@@ -181,7 +181,7 @@ protected
 PRBool
 NeedHomepageOverride
 (
-nsIPref
+nsIPrefBranch
 *
 aPrefService
 )
