@@ -848,6 +848,11 @@ srcdir
 .
 .
 /
+.
+.
+/
+layout
+/
 xul
 /
 base
