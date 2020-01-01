@@ -6815,7 +6815,7 @@ fileURL
 >
 GetFile
 (
-getter_Addrefs
+getter_AddRefs
 (
 file
 )
