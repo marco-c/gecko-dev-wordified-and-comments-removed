@@ -96,6 +96,9 @@ struct
 DatabaseInfo
 ;
 class
+IDBFactory
+;
+class
 IDBIndex
 ;
 class
@@ -158,6 +161,9 @@ Create
 IDBWrapperCache
 *
 aOwnerCache
+IDBFactory
+*
+aFactory
 already_AddRefed
 <
 DatabaseInfo
@@ -463,6 +469,12 @@ void
 OnUnlink
 (
 )
+;
+nsRefPtr
+<
+IDBFactory
+>
+mFactory
 ;
 nsRefPtr
 <
