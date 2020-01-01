@@ -8,17 +8,6 @@ gecko
 mozglue
 ;
 import
-org
-.
-mozilla
-.
-gecko
-.
-mozglue
-.
-NativeReference
-;
-import
 java
 .
 io
