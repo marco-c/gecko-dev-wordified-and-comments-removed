@@ -29972,6 +29972,17 @@ global
         
 needsCx
 =
+(
+not
+descriptor
+.
+interface
+.
+isJSImplemented
+(
+)
+and
+                   
 needCx
 (
 returnType
@@ -29979,8 +29990,9 @@ arguments
 self
 .
 extendedAttributes
-                         
+                          
 descriptor
+)
 )
         
 if
@@ -61360,6 +61372,10 @@ breakAfter
 variadicIsSequence
 =
 True
+                                
+passCxAsNeeded
+=
+False
 )
         
 self
@@ -61909,6 +61925,10 @@ getter
 =
 True
 )
+                                
+passCxAsNeeded
+=
+False
 )
         
 self
@@ -62045,6 +62065,10 @@ setter
 =
 True
 )
+                                
+passCxAsNeeded
+=
+False
 )
         
 self
