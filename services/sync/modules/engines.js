@@ -2071,7 +2071,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 Diff
@@ -2235,7 +2235,7 @@ this
 .
 _log
 .
-debug
+trace
 (
 "
 Actual
