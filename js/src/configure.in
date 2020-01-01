@@ -18908,6 +18908,8 @@ AR_FLAGS
 '
 r
 '
+AR_EXTRACT
+=
 CFLAGS
 =
 "
@@ -43577,6 +43579,7 @@ conftest
 {
 ac_exeext
 }
+CFLAGS
 LDFLAGS
 conftest
 .
@@ -43628,6 +43631,7 @@ conftest
 {
 ac_exeext
 }
+CFLAGS
 LDFLAGS
 conftest
 .
@@ -47991,13 +47995,9 @@ ac_configure_args
 =
 "
 ac_configure_args
-CFLAGS
-=
--
-Zomf
 AR
 =
-emxomfar
+ar
 "
 fi
 #

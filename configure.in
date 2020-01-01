@@ -19978,6 +19978,8 @@ AR_FLAGS
 '
 r
 '
+AR_EXTRACT
+=
 CFLAGS
 =
 "
@@ -69496,6 +69498,7 @@ conftest
 {
 ac_exeext
 }
+CFLAGS
 LDFLAGS
 conftest
 .
@@ -69547,6 +69550,7 @@ conftest
 {
 ac_exeext
 }
+CFLAGS
 LDFLAGS
 conftest
 .
