@@ -8880,6 +8880,9 @@ Scope
 XPCNativeInterface
 *
 Interface
+nsWrapperCache
+*
+cache
 JSBool
 isGlobal
 XPCWrappedNative
@@ -9549,8 +9552,10 @@ XPCWrappedNative
 ;
 XPCWrappedNative
 (
+already_AddRefed
+<
 nsISupports
-*
+>
 aIdentity
 XPCWrappedNativeProto
 *
@@ -9559,8 +9564,10 @@ aProto
 ;
 XPCWrappedNative
 (
+already_AddRefed
+<
 nsISupports
-*
+>
 aIdentity
 XPCWrappedNativeScope
 *
