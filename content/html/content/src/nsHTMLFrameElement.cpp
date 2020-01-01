@@ -179,6 +179,17 @@ GetClassInfo
 (
 )
 ;
+virtual
+nsIDOMNode
+*
+AsDOMNode
+(
+)
+{
+return
+this
+;
+}
 }
 ;
 NS_IMPL_NS_NEW_HTML_ELEMENT_CHECK_PARSER

@@ -537,6 +537,13 @@ NS_FRAME_STATE_BIT
 )
 #
 define
+NS_FRAME_FONT_INFLATION_FLOW_ROOT
+NS_FRAME_STATE_BIT
+(
+42
+)
+#
+define
 NS_STATE_IS_HORIZONTAL
 NS_FRAME_STATE_BIT
 (
@@ -1618,12 +1625,6 @@ aStyleContext
 )
 =
 0
-;
-bool
-HasBorder
-(
-)
-const
 ;
 nsIFrame
 *

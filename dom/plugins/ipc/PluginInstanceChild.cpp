@@ -11049,7 +11049,9 @@ if
 (
 aKeyEvent
 .
-isShift
+IsShift
+(
+)
 )
 modifier
 |
@@ -11063,7 +11065,9 @@ if
 (
 aKeyEvent
 .
-isControl
+IsControl
+(
+)
 )
 modifier
 |
@@ -11077,7 +11081,9 @@ if
 (
 aKeyEvent
 .
-isAlt
+IsAlt
+(
+)
 )
 modifier
 |
@@ -11091,7 +11097,9 @@ if
 (
 aKeyEvent
 .
-isMeta
+IsMeta
+(
+)
 )
 modifier
 |

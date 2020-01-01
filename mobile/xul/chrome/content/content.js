@@ -3408,6 +3408,15 @@ Ci
 nsIWebProgressListener
 .
 STATE_STOP
+&
+&
+aStateFlage
+&
+Ci
+.
+nsIWebProgressListener
+.
+STATE_IS_DOCUMENT
 )
 {
 sendAsyncMessage

@@ -911,14 +911,9 @@ const
 PRInt32
 kInitialSize
 =
-(
-NS_SIZE_IN_HEAP
-(
 sizeof
 (
 nsXBLBindingRequest
-)
-)
 )
 *
 kNumElements

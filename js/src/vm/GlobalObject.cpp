@@ -15,6 +15,13 @@ h
 #
 include
 "
+jsdate
+.
+h
+"
+#
+include
+"
 jsexn
 .
 h
@@ -867,12 +874,6 @@ throwTypeError
 return
 NULL
 ;
-AutoIdVector
-ids
-(
-cx
-)
-;
 if
 (
 !
@@ -882,8 +883,6 @@ throwTypeError
 preventExtensions
 (
 cx
-&
-ids
 )
 )
 return

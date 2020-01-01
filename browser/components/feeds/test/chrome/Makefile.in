@@ -480,6 +480,10 @@ test_bug408328
 .
 html
 \
+test_maxSniffing
+.
+html
+\
 (
 NULL
 )

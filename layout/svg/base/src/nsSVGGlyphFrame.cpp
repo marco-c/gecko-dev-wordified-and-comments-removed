@@ -7142,10 +7142,15 @@ systemFont
 printerFont
 font
 .
-featureSettings
+languageOverride
+)
+;
 font
 .
-languageOverride
+AddFontFeaturesToStyle
+(
+&
+fontStyle
 )
 ;
 nsRefPtr

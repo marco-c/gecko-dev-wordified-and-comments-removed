@@ -479,17 +479,6 @@ GetType
 !
 =
 NS_FORM_LABEL
-&
-&
-formControl
--
->
-GetType
-(
-)
-!
-=
-NS_FORM_PROGRESS
 ;
 }
 NS_IMETHODIMP

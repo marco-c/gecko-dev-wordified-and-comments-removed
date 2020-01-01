@@ -180,6 +180,13 @@ h
 #
 include
 "
+ImageData
+.
+h
+"
+#
+include
+"
 Navigator
 .
 h
@@ -4321,6 +4328,7 @@ GetProtoObject
 (
 aCx
 global
+global
 )
 ;
 if
@@ -4517,6 +4525,17 @@ global
 |
 |
 !
+imagedata
+:
+:
+InitClass
+(
+aCx
+global
+)
+|
+|
+!
 navigator
 :
 :
@@ -4541,6 +4560,7 @@ CreateInterfaceObjects
 (
 aCx
 global
+global
 )
 |
 |
@@ -4551,6 +4571,7 @@ XMLHttpRequestUpload_workers
 CreateInterfaceObjects
 (
 aCx
+global
 global
 )
 )

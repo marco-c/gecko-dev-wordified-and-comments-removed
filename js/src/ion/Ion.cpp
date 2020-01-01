@@ -3584,7 +3584,6 @@ IonBuilder
 builder
 (
 cx
-&
 fp
 -
 >

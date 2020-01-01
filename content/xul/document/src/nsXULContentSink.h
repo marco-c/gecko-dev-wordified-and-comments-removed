@@ -429,14 +429,6 @@ nsPrototypeArray
 aChildren
 )
 ;
-nsresult
-GetTopNodeScriptType
-(
-PRUint32
-*
-aScriptType
-)
-;
 void
 Clear
 (

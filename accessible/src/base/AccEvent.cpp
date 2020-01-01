@@ -8,6 +8,13 @@ h
 #
 include
 "
+ApplicationAccessibleWrap
+.
+h
+"
+#
+include
+"
 nsAccessibilityService
 .
 h
@@ -16,13 +23,6 @@ h
 include
 "
 nsAccUtils
-.
-h
-"
-#
-include
-"
-nsApplicationAccessibleWrap
 .
 h
 "
@@ -408,7 +408,7 @@ if
 targetNode
 )
 {
-nsApplicationAccessible
+ApplicationAccessible
 *
 applicationAcc
 =

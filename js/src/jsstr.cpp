@@ -186,6 +186,15 @@ include
 "
 vm
 /
+NumericConversions
+.
+h
+"
+#
+include
+"
+vm
+/
 RegExpObject
 .
 h
@@ -6558,7 +6567,7 @@ d
 {
 d
 =
-js_DoubleToInteger
+ToInteger
 (
 d
 )
@@ -13456,7 +13465,7 @@ false
 ;
 limit
 =
-js_DoubleToECMAUint32
+ToUint32
 (
 d
 )

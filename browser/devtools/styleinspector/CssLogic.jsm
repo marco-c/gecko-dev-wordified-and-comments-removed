@@ -1979,6 +1979,15 @@ _matchedRules
 [
 ]
 ;
+if
+(
+!
+element
+)
+{
+return
+;
+}
 do
 {
 let

@@ -1376,6 +1376,9 @@ GetRequestBody
 nsIVariant
 *
 aVariant
+JSContext
+*
+aCx
 const
 Nullable
 <
@@ -1398,6 +1401,9 @@ aCharset
 nsresult
 Send
 (
+JSContext
+*
+aCx
 nsIVariant
 *
 aVariant
@@ -1413,6 +1419,9 @@ aBody
 nsresult
 Send
 (
+JSContext
+*
+aCx
 const
 Nullable
 <
@@ -1425,6 +1434,7 @@ aBody
 return
 Send
 (
+aCx
 nsnull
 aBody
 )
@@ -1433,6 +1443,9 @@ aBody
 nsresult
 Send
 (
+JSContext
+*
+aCx
 const
 RequestBody
 &
@@ -1442,6 +1455,7 @@ aBody
 return
 Send
 (
+aCx
 Nullable
 <
 RequestBody
@@ -1457,6 +1471,9 @@ public
 void
 Send
 (
+JSContext
+*
+aCx
 nsresult
 &
 aRv
@@ -1466,6 +1483,7 @@ aRv
 =
 Send
 (
+aCx
 Nullable
 <
 RequestBody
@@ -1478,6 +1496,9 @@ RequestBody
 void
 Send
 (
+JSContext
+*
+aCx
 JSObject
 *
 aArrayBuffer
@@ -1503,6 +1524,7 @@ aRv
 =
 Send
 (
+aCx
 RequestBody
 (
 aArrayBuffer
@@ -1513,6 +1535,9 @@ aArrayBuffer
 void
 Send
 (
+JSContext
+*
+aCx
 nsIDOMBlob
 *
 aBlob
@@ -1538,6 +1563,7 @@ aRv
 =
 Send
 (
+aCx
 RequestBody
 (
 aBlob
@@ -1548,6 +1574,9 @@ aBlob
 void
 Send
 (
+JSContext
+*
+aCx
 nsIDocument
 *
 aDoc
@@ -1573,6 +1602,7 @@ aRv
 =
 Send
 (
+aCx
 RequestBody
 (
 aDoc
@@ -1583,6 +1613,9 @@ aDoc
 void
 Send
 (
+JSContext
+*
+aCx
 const
 nsAString
 &
@@ -1602,6 +1635,7 @@ aString
 {
 Send
 (
+aCx
 aRv
 )
 ;
@@ -1612,6 +1646,7 @@ aRv
 =
 Send
 (
+aCx
 RequestBody
 (
 aString
@@ -1623,6 +1658,9 @@ aString
 void
 Send
 (
+JSContext
+*
+aCx
 nsIDOMFormData
 *
 aFormData
@@ -1648,6 +1686,7 @@ aRv
 =
 Send
 (
+aCx
 RequestBody
 (
 aFormData
@@ -1658,6 +1697,9 @@ aFormData
 void
 Send
 (
+JSContext
+*
+aCx
 nsIInputStream
 *
 aStream
@@ -1683,6 +1725,7 @@ aRv
 =
 Send
 (
+aCx
 RequestBody
 (
 aStream
@@ -1693,6 +1736,9 @@ aStream
 void
 SendAsBinary
 (
+JSContext
+*
+aCx
 const
 nsAString
 &

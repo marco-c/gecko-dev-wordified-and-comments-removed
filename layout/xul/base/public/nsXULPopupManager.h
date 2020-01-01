@@ -1578,7 +1578,13 @@ mRangeOffset
 nsIntPoint
 mCachedMousePoint
 ;
-PRInt8
+mozilla
+:
+:
+widget
+:
+:
+Modifiers
 mCachedModifiers
 ;
 nsMenuBarFrame

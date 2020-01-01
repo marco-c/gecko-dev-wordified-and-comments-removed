@@ -5165,7 +5165,7 @@ if
 glContext
 -
 >
-ResizeOffscreenFBO
+ResizeOffscreenFBOs
 (
 aSize
 true

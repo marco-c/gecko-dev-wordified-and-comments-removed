@@ -464,6 +464,12 @@ aParent
 ;
 protected
 :
+bool
+mIsStyleBinding
+;
+bool
+mMarkedForDeath
+;
 nsXBLPrototypeBinding
 *
 mPrototypeBinding
@@ -491,12 +497,6 @@ nsInsertionPointList
 >
 *
 mInsertionPointTable
-;
-bool
-mIsStyleBinding
-;
-bool
-mMarkedForDeath
 ;
 }
 ;

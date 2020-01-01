@@ -1235,11 +1235,9 @@ frameGuard
 }
 else
 {
-JSObject
-*
+HandleObject
 prevScopeChain
 =
-&
 cx
 -
 >

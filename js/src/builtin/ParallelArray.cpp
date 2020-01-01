@@ -4528,7 +4528,6 @@ ParallelArray_enumerate
 NULL
 NULL
 NULL
-NULL
 }
 }
 ;

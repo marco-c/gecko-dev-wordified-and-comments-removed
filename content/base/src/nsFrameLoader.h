@@ -719,6 +719,11 @@ ShouldUseRemoteProcess
 (
 )
 ;
+bool
+OwnerIsBrowserFrame
+(
+)
+;
 nsresult
 MaybeCreateDocShell
 (

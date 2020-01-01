@@ -3607,6 +3607,17 @@ aWindowSizes
 )
 const
 ;
+virtual
+nsIDOMNode
+*
+AsDOMNode
+(
+)
+{
+return
+this
+;
+}
 protected
 :
 friend

@@ -1880,6 +1880,11 @@ SELECTION_WHOLE_SELECTION
 nsISelectionController
 :
 :
+SCROLL_CENTER_VERTICALLY
+|
+nsISelectionController
+:
+:
 SCROLL_SYNCHRONOUS
 )
 ;

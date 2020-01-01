@@ -146,6 +146,15 @@ GetRootBranch
 (
 )
 ;
+if
+(
+XRE_GetProcessType
+(
+)
+!
+=
+GeckoProcessType_Content
+)
 root
 -
 >

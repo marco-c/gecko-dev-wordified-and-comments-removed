@@ -14545,7 +14545,6 @@ if
 js_GetClassPrototype
 (
 cx
-&
 cx
 -
 >

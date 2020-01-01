@@ -517,6 +517,11 @@ firstTime
 true
 )
 ;
+void
+SpeculativeConnect
+(
+)
+;
 nsresult
 SetupTransaction
 (

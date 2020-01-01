@@ -43,6 +43,13 @@ gfx
 .
 h
 "
+#
+include
+"
+imgIContainer
+.
+h
+"
 class
 gfxDrawable
 ;
@@ -143,6 +150,13 @@ gfxPattern
 GraphicsFilter
 &
 aFilter
+PRUint32
+aImageFlags
+=
+imgIContainer
+:
+:
+FLAG_NONE
 )
 ;
 static

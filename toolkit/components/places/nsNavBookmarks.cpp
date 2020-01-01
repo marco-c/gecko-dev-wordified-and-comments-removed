@@ -7449,7 +7449,6 @@ dateAdded
 false
 nsPrintfCString
 (
-16
 "
 %
 lld
@@ -7614,7 +7613,6 @@ lastModified
 false
 nsPrintfCString
 (
-16
 "
 %
 lld
@@ -9648,7 +9646,6 @@ query
 =
 nsPrintfCString
 (
-512
 "
 SELECT
 url

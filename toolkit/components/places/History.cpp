@@ -5343,15 +5343,9 @@ GetService
 (
 )
 ;
-if
-(
-!
+return
 history
-)
-return
-0
-;
-return
+?
 history
 -
 >
@@ -5359,6 +5353,8 @@ SizeOfIncludingThis
 (
 HistoryLinksHashtableMallocSizeOf
 )
+:
+0
 ;
 }
 NS_MEMORY_REPORTER_IMPLEMENT

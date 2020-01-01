@@ -18,8 +18,6 @@ include
 harfbuzz
 /
 hb
--
-blob
 .
 h
 "

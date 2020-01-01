@@ -2892,12 +2892,6 @@ rv
 rv
 )
 ;
-JS_SetGlobalObject
-(
-cx
-nsnull
-)
-;
 nsCOMPtr
 <
 nsIXPConnectJSObjectHolder

@@ -80,6 +80,9 @@ nsIURI
 class
 gfxMixedFontFamily
 ;
+class
+nsFontFaceLoader
+;
 struct
 gfxFontFaceSrc
 {
@@ -623,7 +626,10 @@ aStretch
 PRUint32
 aItalicStyle
 const
-nsString
+nsTArray
+<
+gfxFontFeature
+>
 &
 aFeatureSettings
 const
@@ -967,6 +973,10 @@ mSrcList
 ;
 PRUint32
 mSrcIndex
+;
+nsFontFaceLoader
+*
+mLoader
 ;
 }
 ;

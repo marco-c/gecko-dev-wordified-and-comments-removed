@@ -2295,9 +2295,11 @@ SHELL_WRAPPER0
 (
 schedulePauseComposition
 )
-SHELL_WRAPPER0
+SHELL_WRAPPER2
 (
 scheduleResumeComposition
+jint
+jint
 )
 SHELL_WRAPPER3_WITH_RETURN
 (
@@ -2405,6 +2407,12 @@ SHELL_WRAPPER2
 notifyFilePickerResult
 jstring
 jlong
+)
+SHELL_WRAPPER1_WITH_RETURN
+(
+getSurfaceBits
+jobject
+jobject
 )
 static
 void
@@ -4822,6 +4830,11 @@ notifyReadingMessageListFailed
 GETFUNC
 (
 notifyFilePickerResult
+)
+;
+GETFUNC
+(
+getSurfaceBits
 )
 ;
 #

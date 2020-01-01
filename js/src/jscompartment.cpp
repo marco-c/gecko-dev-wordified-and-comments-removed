@@ -884,10 +884,6 @@ fp
 )
 -
 >
-scopeChain
-(
-)
-.
 global
 (
 )

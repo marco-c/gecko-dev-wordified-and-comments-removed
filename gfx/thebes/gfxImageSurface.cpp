@@ -316,6 +316,8 @@ gfxIntSize
 size
 gfxImageFormat
 format
+bool
+aClear
 )
 :
 mSize
@@ -387,6 +389,10 @@ mData
 )
 return
 ;
+if
+(
+aClear
+)
 memset
 (
 mData

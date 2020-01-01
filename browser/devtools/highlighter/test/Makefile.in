@@ -455,10 +455,6 @@ browser_inspector_scrolling
 .
 js
 \
-browser_inspector_store
-.
-js
-\
 browser_inspector_tab_switch
 .
 js
@@ -474,10 +470,6 @@ html
 browser_inspector_treePanel_result
 .
 html
-\
-browser_inspector_registertools
-.
-js
 \
 browser_inspector_bug_665880
 .
@@ -535,10 +527,6 @@ browser_inspector_ruleviewstore
 .
 js
 \
-browser_inspector_duplicate_ruleview
-.
-js
-\
 browser_inspector_invalidate
 .
 js
@@ -552,6 +540,10 @@ browser_inspector_treePanel_menu
 js
 \
 browser_inspector_pseudoclass_lock
+.
+js
+\
+browser_inspector_pseudoClass_menu
 .
 js
 \

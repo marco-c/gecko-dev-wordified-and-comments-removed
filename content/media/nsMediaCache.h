@@ -102,10 +102,6 @@ mClient
 (
 aClient
 )
-mResourceID
-(
-0
-)
 mInitialized
 (
 false
@@ -122,6 +118,10 @@ mDidNotifyDataEnded
 (
 false
 )
+mResourceID
+(
+0
+)
 mIsSeekable
 (
 false
@@ -131,10 +131,6 @@ mCacheSuspended
 false
 )
 mChannelEnded
-(
-false
-)
-mUsingNullPrincipal
 (
 false
 )
@@ -665,7 +661,7 @@ ReentrantMonitorAutoEnter
 aReentrantMonitor
 )
 ;
-void
+bool
 UpdatePrincipal
 (
 nsIPrincipal
@@ -683,9 +679,6 @@ nsIPrincipal
 >
 mPrincipal
 ;
-PRInt64
-mResourceID
-;
 bool
 mInitialized
 ;
@@ -698,6 +691,9 @@ mClosed
 bool
 mDidNotifyDataEnded
 ;
+PRInt64
+mResourceID
+;
 bool
 mIsSeekable
 ;
@@ -706,9 +702,6 @@ mCacheSuspended
 ;
 bool
 mChannelEnded
-;
-bool
-mUsingNullPrincipal
 ;
 PRInt64
 mChannelOffset

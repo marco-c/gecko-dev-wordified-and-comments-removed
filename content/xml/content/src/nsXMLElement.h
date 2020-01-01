@@ -78,6 +78,17 @@ GetClassInfo
 )
 ;
 virtual
+nsIDOMNode
+*
+AsDOMNode
+(
+)
+{
+return
+this
+;
+}
+virtual
 nsIAtom
 *
 GetIDAttributeName

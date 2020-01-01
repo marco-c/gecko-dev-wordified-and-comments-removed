@@ -8,6 +8,13 @@ h
 #
 include
 "
+ApplicationAccessible
+.
+h
+"
+#
+include
+"
 nsAccessibilityService
 .
 h
@@ -16,13 +23,6 @@ h
 include
 "
 nsAccUtils
-.
-h
-"
-#
-include
-"
-nsApplicationAccessible
 .
 h
 "

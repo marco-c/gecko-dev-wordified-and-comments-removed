@@ -175,7 +175,6 @@ query
 =
 nsPrintfCString
 (
-768
 "
 SELECT
 h

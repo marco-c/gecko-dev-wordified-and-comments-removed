@@ -314,7 +314,7 @@ MarkId
 JSTracer
 *
 trc
-HeapId
+EncapsulatedId
 *
 id
 const
@@ -346,9 +346,6 @@ JSTracer
 trc
 size_t
 len
-js
-:
-:
 HeapId
 *
 vec
