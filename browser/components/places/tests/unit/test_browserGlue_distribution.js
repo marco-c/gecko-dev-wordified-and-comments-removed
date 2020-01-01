@@ -391,6 +391,13 @@ Ci
 nsINavBookmarksService
 )
 ;
+dump_table
+(
+"
+moz_bookmarks
+"
+)
+;
 let
 menuItemId
 =

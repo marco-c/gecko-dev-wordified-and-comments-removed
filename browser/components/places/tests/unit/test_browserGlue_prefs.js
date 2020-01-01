@@ -893,6 +893,12 @@ remove_all_bookmarks
 (
 )
 ;
+if
+(
+testIndex
+>
+0
+)
 os
 .
 addObserver
