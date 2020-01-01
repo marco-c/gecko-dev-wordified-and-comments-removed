@@ -3604,14 +3604,3 @@ hunspell
 hxx
 #
 endif
-#
-if
-MOZ_NATIVE_BZ2
-=
-=
-1
-bzlib
-.
-h
-#
-endif
