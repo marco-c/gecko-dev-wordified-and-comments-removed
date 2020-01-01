@@ -110,6 +110,12 @@ html
 \
 test_inspector
 -
+hide
+.
+html
+\
+test_inspector
+-
 insert
 .
 html
