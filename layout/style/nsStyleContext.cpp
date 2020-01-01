@@ -1857,7 +1857,15 @@ ForceCompare
 !
 NS_IsHintSubset
 (
-maxHint
+nsStyle
+#
+#
+struct_
+:
+:
+MaxDifference
+(
+)
 hint
 )
 &
