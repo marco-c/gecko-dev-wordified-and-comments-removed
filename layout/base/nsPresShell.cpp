@@ -2515,7 +2515,12 @@ GetRootFrame
 (
 )
 ;
-aFrameManager
+aPresContext
+-
+>
+RestyleManager
+(
+)
 -
 >
 DebugVerifyStyleTree

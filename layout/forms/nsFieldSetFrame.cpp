@@ -90,7 +90,7 @@ h
 #
 include
 "
-nsFrameManager
+RestyleManager
 .
 h
 "
@@ -2973,16 +2973,16 @@ nsFrameList
 aFrameList
 )
 {
-nsFrameManager
+RestyleManager
 *
-frameManager
+restyleManager
 =
 PresContext
 (
 )
 -
 >
-FrameManager
+RestyleManager
 (
 )
 ;
@@ -3069,7 +3069,7 @@ SetParent
 inner
 )
 ;
-frameManager
+restyleManager
 -
 >
 ReparentStyleContext
