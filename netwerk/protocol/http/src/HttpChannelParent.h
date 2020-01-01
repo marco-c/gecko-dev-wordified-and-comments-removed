@@ -136,6 +136,14 @@ nsHttpAtom
 &
 requestMethod
 const
+nsCString
+&
+uploadStreamData
+const
+PRInt32
+&
+uploadStreamInfo
+const
 PRUint16
 &
 priority
