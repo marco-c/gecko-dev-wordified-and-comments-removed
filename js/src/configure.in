@@ -26476,6 +26476,11 @@ test
 "
 ENABLE_METHODJIT
 "
+-
+o
+"
+ENABLE_YARR_JIT
+"
 ;
 then
 #
