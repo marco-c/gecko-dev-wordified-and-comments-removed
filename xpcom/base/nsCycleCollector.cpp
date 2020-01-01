@@ -8893,6 +8893,12 @@ ClearGraph
 (
 )
 ;
+mParams
+.
+mDoNothing
+=
+PR_FALSE
+;
 if
 (
 !
