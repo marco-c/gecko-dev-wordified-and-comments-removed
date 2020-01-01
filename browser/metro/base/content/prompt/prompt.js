@@ -600,14 +600,13 @@ formatStringFromName
 "
 crashprompt
 .
-messagebody
+messagebody2
 "
 [
 brandName
 vendorName
-brandName
 ]
-3
+2
 )
 ;
 let
