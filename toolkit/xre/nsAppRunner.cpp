@@ -213,7 +213,7 @@ h
 #
 include
 "
-nsIIOService
+nsIIOService2
 .
 h
 "
@@ -13023,7 +13023,7 @@ startOffline
 {
 nsCOMPtr
 <
-nsIIOService
+nsIIOService2
 >
 io
 (
@@ -13049,6 +13049,14 @@ NS_ENSURE_TRUE
 (
 io
 1
+)
+;
+io
+-
+>
+SetManageOfflineStatus
+(
+PR_FALSE
 )
 ;
 io
