@@ -576,6 +576,10 @@ test_smilKeyTimesPacedMode
 .
 xhtml
 \
+test_smilRepeatTiming
+.
+xhtml
+\
 test_smilSetCurrentTime
 .
 xhtml

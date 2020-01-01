@@ -134,7 +134,7 @@ ACCESSKEY_PREFIX
 NS_LITERAL_STRING
 (
 "
-accesskey
+accessKey
 (
 "
 )
