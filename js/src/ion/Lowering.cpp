@@ -3977,6 +3977,10 @@ input
 (
 )
 )
+tempFixed
+(
+CallTempReg0
+)
 )
 ;
 return
