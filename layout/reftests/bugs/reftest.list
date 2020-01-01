@@ -3924,7 +3924,7 @@ xhtml
 ref
 .
 xhtml
-fails
+random
 -
 if
 (
@@ -3957,12 +3957,10 @@ page
 -
 -
 bug
-409329
+578114
 for
 the
-non
--
-Mac
+d2d
 failures
 asserts
 (
