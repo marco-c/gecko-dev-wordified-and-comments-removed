@@ -20,10 +20,12 @@ ion
 class
 CompactBufferReader
 {
+const
 uint8
 *
 buffer_
 ;
+const
 uint8
 *
 end_
@@ -155,9 +157,11 @@ public
 :
 CompactBufferReader
 (
+const
 uint8
 *
 start
+const
 uint8
 *
 end
