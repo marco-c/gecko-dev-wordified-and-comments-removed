@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLScriptElement
-.
-h
-"
-#
-include
-"
 nsIDOMEventTarget
 .
 h
@@ -899,8 +892,6 @@ nsGenericHTMLElement
 public
 nsIDOMHTMLScriptElement
 public
-nsIDOMNSHTMLScriptElement
-public
 nsScriptElement
 {
 public
@@ -942,7 +933,6 @@ nsGenericHTMLElement
 :
 )
 NS_DECL_NSIDOMHTMLSCRIPTELEMENT
-NS_DECL_NSIDOMNSHTMLSCRIPTELEMENT
 virtual
 void
 GetScriptType
@@ -1136,13 +1126,12 @@ NS_INTERFACE_TABLE_HEAD
 (
 nsHTMLScriptElement
 )
-NS_HTML_CONTENT_INTERFACE_TABLE5
+NS_HTML_CONTENT_INTERFACE_TABLE4
 (
 nsHTMLScriptElement
 nsIDOMHTMLScriptElement
 nsIScriptLoaderObserver
 nsIScriptElement
-nsIDOMNSHTMLScriptElement
 nsIMutationObserver
 )
 NS_HTML_CONTENT_INTERFACE_TABLE_TO_MAP_SEGUE
