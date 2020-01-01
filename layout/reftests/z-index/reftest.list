@@ -1,14 +1,3 @@
-fails
--
-if
-(
-MOZ_WIDGET_TOOLKIT
-=
-=
-"
-windows
-"
-)
 =
 =
 z
@@ -27,6 +16,3 @@ index
 ref
 .
 html
-#
-bug
-388744

@@ -2138,6 +2138,14 @@ get
 )
 )
 ;
+if
+(
+!
+mStyle
+.
+systemFont
+)
+{
 for
 (
 PRUint32
@@ -2235,6 +2243,7 @@ bad
 ;
 break
 ;
+}
 }
 }
 }
