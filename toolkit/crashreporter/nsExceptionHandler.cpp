@@ -6226,7 +6226,7 @@ endif
 bool
 TakeMinidumpForChild
 (
-ProcessHandle
+PRUint32
 childPid
 nsIFile
 *
@@ -6243,14 +6243,6 @@ GetEnabled
 )
 return
 false
-;
-PRUint32
-key
-=
-PRUint32
-(
-childPid
-)
 ;
 MutexAutoLock
 lock
@@ -6273,7 +6265,7 @@ pidToMinidump
 >
 Get
 (
-key
+childPid
 getter_AddRefs
 (
 d
@@ -6289,7 +6281,7 @@ pidToMinidump
 >
 Remove
 (
-key
+childPid
 )
 ;
 *
