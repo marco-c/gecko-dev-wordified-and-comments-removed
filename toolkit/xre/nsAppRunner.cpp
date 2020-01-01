@@ -11752,9 +11752,6 @@ nsIFile
 >
 dumpD
 ;
-nsresult
-rv
-=
 profD
 -
 >
@@ -11787,8 +11784,6 @@ minidumps
 )
 )
 ;
-rv
-=
 dumpD
 -
 >
