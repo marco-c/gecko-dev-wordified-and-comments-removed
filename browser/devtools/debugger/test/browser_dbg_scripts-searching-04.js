@@ -552,6 +552,8 @@ is
 gScripts
 .
 visibleItems
+.
+length
 2
 "
 Not
@@ -872,6 +874,8 @@ is
 gScripts
 .
 visibleItems
+.
+length
 2
 "
 Not
@@ -1133,6 +1137,8 @@ is
 gScripts
 .
 visibleItems
+.
+length
 2
 "
 Not
@@ -1394,6 +1400,8 @@ is
 gScripts
 .
 visibleItems
+.
+length
 2
 "
 Not
@@ -1655,6 +1663,8 @@ is
 gScripts
 .
 visibleItems
+.
+length
 2
 "
 Not
@@ -1914,6 +1924,8 @@ is
 gScripts
 .
 visibleItems
+.
+length
 2
 "
 Not

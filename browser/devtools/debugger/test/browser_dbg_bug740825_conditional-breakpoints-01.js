@@ -700,6 +700,8 @@ DebuggerView
 StackFrames
 .
 visibleItems
+.
+length
 0
 "
 There
@@ -721,6 +723,8 @@ DebuggerView
 Breakpoints
 .
 visibleItems
+.
+length
 13
 "
 There
@@ -2040,6 +2044,8 @@ if
 gBreakpointsPane
 .
 visibleItems
+.
+length
 !
 =
 total

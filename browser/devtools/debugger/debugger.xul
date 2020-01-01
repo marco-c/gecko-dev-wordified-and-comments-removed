@@ -2040,6 +2040,11 @@ devtools
 -
 menulist
 "
+sizetopopup
+=
+"
+none
+"
 hidden
 =
 "
@@ -2060,6 +2065,11 @@ class
 devtools
 -
 menulist
+"
+sizetopopup
+=
+"
+none
 "
 /
 >

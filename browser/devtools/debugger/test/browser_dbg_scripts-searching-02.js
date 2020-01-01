@@ -96,16 +96,6 @@ panelWin
 ;
 gDebugger
 .
-SourceResults
-.
-prototype
-.
-alwaysExpand
-=
-false
-;
-gDebugger
-.
 DebuggerController
 .
 activeThread
@@ -475,6 +465,8 @@ is
 gScripts
 .
 visibleItems
+.
+length
 1
 "
 Not
@@ -723,6 +715,8 @@ is
 gScripts
 .
 visibleItems
+.
+length
 1
 "
 Not
@@ -1081,6 +1075,8 @@ is
 gScripts
 .
 visibleItems
+.
+length
 1
 "
 Not
@@ -1310,6 +1306,8 @@ is
 gScripts
 .
 visibleItems
+.
+length
 2
 "
 Not
@@ -1440,6 +1438,8 @@ is
 gScripts
 .
 visibleItems
+.
+length
 0
 "
 No
@@ -1565,6 +1565,8 @@ is
 gScripts
 .
 visibleItems
+.
+length
 2
 "
 Not
@@ -1728,6 +1730,8 @@ is
 gScripts
 .
 visibleItems
+.
+length
 0
 "
 No

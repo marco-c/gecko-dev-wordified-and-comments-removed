@@ -471,6 +471,14 @@ browser_dbg_scripts
 -
 searching
 -
+files_ui
+.
+js
+\
+browser_dbg_scripts
+-
+searching
+-
 popup
 .
 js
