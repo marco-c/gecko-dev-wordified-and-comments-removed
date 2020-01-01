@@ -4998,13 +4998,12 @@ this
 ;
 if
 (
+EqualValues
+(
+useValueNumbers
 lhs
 (
 )
--
->
-congruentTo
-(
 rhs
 (
 )
