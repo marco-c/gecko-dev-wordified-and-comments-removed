@@ -433,10 +433,6 @@ EXPORTS
 +
 =
 \
-nsChannelReader
-.
-h
-\
 nsOggDecoder
 .
 h
@@ -450,10 +446,6 @@ NULL
 )
 CPPSRCS
 =
-\
-nsChannelReader
-.
-cpp
 \
 nsOggDecoder
 .

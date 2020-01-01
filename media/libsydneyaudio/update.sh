@@ -7,7 +7,7 @@ update
 .
 sh
 <
-oggplay_src_directory
+libsydneyaudio_src_directory
 >
 #
 #
@@ -22,7 +22,7 @@ containing
 the
 original
 #
-liboggplay
+libsydneyaudio
 source
 that
 we
