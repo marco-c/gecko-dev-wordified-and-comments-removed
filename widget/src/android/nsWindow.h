@@ -748,15 +748,6 @@ sAccessibilityEnabled
 ;
 #
 endif
-bool
-DrawToFile
-(
-const
-nsAString
-&
-path
-)
-;
 protected
 :
 void
