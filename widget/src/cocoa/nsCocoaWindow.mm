@@ -1770,9 +1770,6 @@ aHandleEventFunction
 nsDeviceContext
 *
 aContext
-nsIToolkit
-*
-aToolkit
 nsWidgetInitData
 *
 aInitData
@@ -1980,6 +1977,22 @@ mBorderStyle
 =
 eBorderStyle_default
 ;
+/
+/
+Ensure
+that
+the
+toolkit
+is
+created
+.
+nsToolkit
+:
+:
+GetToolkit
+(
+)
+;
 Inherited
 :
 :
@@ -1989,7 +2002,6 @@ aParent
 newBounds
 aHandleEventFunction
 aContext
-aToolkit
 aInitData
 )
 ;
@@ -2083,7 +2095,6 @@ CreatePopupContentView
 newBounds
 aHandleEventFunction
 aContext
-aToolkit
 )
 ;
 }
@@ -3294,9 +3305,6 @@ aHandleEventFunction
 nsDeviceContext
 *
 aContext
-nsIToolkit
-*
-aToolkit
 )
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT
@@ -3356,7 +3364,6 @@ nsnull
 aRect
 aHandleEventFunction
 aContext
-aToolkit
 nsnull
 )
 ;

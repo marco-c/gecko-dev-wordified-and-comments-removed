@@ -455,10 +455,6 @@ nsAppShell
 .
 cpp
 \
-nsToolkit
-.
-cpp
-\
 AndroidJavaWrappers
 .
 cpp

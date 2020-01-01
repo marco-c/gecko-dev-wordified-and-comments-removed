@@ -483,10 +483,6 @@ nsSound
 .
 cpp
 \
-nsToolkit
-.
-cpp
-\
 nsWidgetFactory
 .
 cpp

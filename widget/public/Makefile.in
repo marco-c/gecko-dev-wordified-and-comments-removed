@@ -602,10 +602,6 @@ nsIFilePicker
 .
 idl
 \
-nsIToolkit
-.
-idl
-\
 nsISound
 .
 idl

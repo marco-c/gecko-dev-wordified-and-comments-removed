@@ -99,13 +99,6 @@ h
 #
 include
 "
-nsToolkit
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h
@@ -943,9 +936,6 @@ aHandleEventFunction
 nsDeviceContext
 *
 aContext
-nsIToolkit
-*
-aToolkit
 nsWidgetInitData
 *
 aInitData
@@ -1038,7 +1028,6 @@ aParent
 aRect
 aHandleEventFunction
 aContext
-aToolkit
 aInitData
 )
 ;

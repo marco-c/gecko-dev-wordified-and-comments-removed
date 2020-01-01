@@ -508,10 +508,6 @@ nsLookAndFeel
 .
 cpp
 \
-nsToolkit
-.
-cpp
-\
 nsScreenQt
 .
 cpp
