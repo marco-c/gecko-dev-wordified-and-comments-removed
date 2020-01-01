@@ -416,7 +416,13 @@ je_strndup
 strdup
 =
 je_strdup
+_strdup
+=
+je_strdup
 wcsdup
+=
+je_wcsdup
+_wcsdup
 =
 je_wcsdup
 malloc_usable_size
