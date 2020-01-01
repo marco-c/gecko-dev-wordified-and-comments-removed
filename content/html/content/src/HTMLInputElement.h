@@ -2049,6 +2049,12 @@ aN
 )
 ;
 }
+double
+GetStep
+(
+)
+const
+;
 void
 GetValidationMessage
 (
@@ -2851,12 +2857,6 @@ UpdateHasRange
 ;
 double
 GetStepScaleFactor
-(
-)
-const
-;
-double
-GetStep
 (
 )
 const

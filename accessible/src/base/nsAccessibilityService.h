@@ -274,6 +274,17 @@ nsITreeView
 aView
 )
 ;
+void
+RangeValueChanged
+(
+nsIPresShell
+*
+aPresShell
+nsIContent
+*
+aContent
+)
+;
 virtual
 void
 UpdateListBullet

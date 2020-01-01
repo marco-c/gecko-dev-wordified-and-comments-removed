@@ -94,6 +94,10 @@ test_progress
 .
 xul
 \
+test_range
+.
+html
+\
 (
 NULL
 )
