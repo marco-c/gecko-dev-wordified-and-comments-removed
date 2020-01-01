@@ -648,6 +648,10 @@ PRBool
 aFollowOOFs
 )
 {
+mOffEdge
+=
+0
+;
 mPresContext
 =
 aPresContext
