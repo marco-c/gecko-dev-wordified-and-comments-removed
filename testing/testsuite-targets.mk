@@ -741,11 +741,15 @@ py
 -
 robocop
 -
-path
+apk
 =
 (
 DIST
 )
+/
+robocop
+.
+apk
 \
 -
 -
@@ -770,6 +774,8 @@ txt
 -
 -
 robocop
+-
+ini
 =
 (
 DEPTH
