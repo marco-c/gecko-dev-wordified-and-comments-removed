@@ -12858,7 +12858,7 @@ str_split
 3
 (
 static
-OBJECT_RETRY
+OBJECT_RETRY_NULL
 String_p_split
 CONTEXT
 THIS_STRING
