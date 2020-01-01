@@ -1874,16 +1874,6 @@ addMessageListener
 "
 Content
 :
-SetResolution
-"
-this
-)
-;
-addMessageListener
-(
-"
-Content
-:
 SetCacheViewport
 "
 this
