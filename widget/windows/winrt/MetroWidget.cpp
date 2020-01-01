@@ -5784,9 +5784,7 @@ resolution
 =
 mFrameMetrics
 .
-CalculateResolution
-(
-)
+mZoom
 ;
 CSSRect
 compositedRect
