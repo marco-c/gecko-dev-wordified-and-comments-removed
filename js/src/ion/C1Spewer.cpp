@@ -493,7 +493,7 @@ def
 id
 (
 )
-uint32
+unsigned
 (
 def
 -

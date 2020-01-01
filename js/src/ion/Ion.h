@@ -55,6 +55,9 @@ licm
 bool
 lsra
 ;
+bool
+inlining
+;
 uint32
 invokesBeforeCompile
 ;
@@ -89,6 +92,10 @@ licm
 true
 )
 lsra
+(
+true
+)
+inlining
 (
 true
 )
