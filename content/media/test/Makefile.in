@@ -808,6 +808,10 @@ test_webvtt_disabled
 .
 html
 \
+test_playback_rate_playpause
+.
+html
+\
 (
 NULL
 )
