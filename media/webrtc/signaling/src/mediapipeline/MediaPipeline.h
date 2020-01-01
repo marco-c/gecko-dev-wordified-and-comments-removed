@@ -366,6 +366,16 @@ return
 rtp_packets_received_
 ;
 }
+MediaSessionConduit
+*
+Conduit
+(
+)
+{
+return
+conduit_
+;
+}
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 MediaPipeline

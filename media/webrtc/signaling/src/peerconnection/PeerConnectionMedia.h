@@ -1229,6 +1229,8 @@ StorePipeline
 (
 int
 aTrack
+bool
+aIsVideo
 mozilla
 :
 :
@@ -1337,6 +1339,16 @@ MediaPipeline
 >
 >
 mPipelines
+;
+std
+:
+:
+map
+<
+int
+bool
+>
+mTypes
 ;
 }
 ;
