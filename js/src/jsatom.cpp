@@ -515,6 +515,12 @@ WeakMap
 "
 byteLength
 "
+"
+return
+"
+"
+throw
+"
 }
 ;
 void

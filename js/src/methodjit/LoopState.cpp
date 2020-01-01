@@ -9315,6 +9315,9 @@ successorOffset
 =
 offset
 +
+analyze
+:
+:
 GetBytecodeLength
 (
 pc

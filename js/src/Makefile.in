@@ -998,6 +998,10 @@ sharkctl
 .
 cpp
 \
+Debugger
+.
+cpp
+\
 GlobalObject
 .
 cpp
@@ -3906,7 +3910,7 @@ rt
 >
 {
 new_
-new_array
+array_new
 malloc_
 calloc_
 realloc_
