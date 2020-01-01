@@ -1027,6 +1027,7 @@ size_t
 )
 JS_DHashTableSizeOfExcludingThis
 (
+const
 JSDHashTable
 *
 table
@@ -1043,6 +1044,7 @@ size_t
 )
 JS_DHashTableSizeOfIncludingThis
 (
+const
 JSDHashTable
 *
 table

@@ -960,6 +960,7 @@ NS_COM_GLUE
 size_t
 PL_DHashTableSizeOfExcludingThis
 (
+const
 PLDHashTable
 *
 table
@@ -973,6 +974,7 @@ NS_COM_GLUE
 size_t
 PL_DHashTableSizeOfIncludingThis
 (
+const
 PLDHashTable
 *
 table
