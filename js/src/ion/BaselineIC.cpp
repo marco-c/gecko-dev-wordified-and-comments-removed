@@ -28067,8 +28067,6 @@ GetProp
 s
 %
 s
-%
-s
 )
 stub
 "
