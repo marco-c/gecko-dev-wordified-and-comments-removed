@@ -6042,7 +6042,7 @@ GetStringFromName
 "
 geolocation
 .
-exactLocation
+tellThem
 "
 )
 accessKey
@@ -6054,7 +6054,7 @@ GetStringFromName
 "
 geolocation
 .
-exactLocationKey
+tellThemKey
 "
 )
 callback
@@ -6078,7 +6078,7 @@ GetStringFromName
 "
 geolocation
 .
-nothingLocation
+dontTellThem
 "
 )
 accessKey
@@ -6090,7 +6090,7 @@ GetStringFromName
 "
 geolocation
 .
-nothingLocationKey
+dontTellThemKey
 "
 )
 callback
@@ -6116,7 +6116,7 @@ formatStringFromName
 "
 geolocation
 .
-requestMessage
+siteWantsToKnow
 "
 [
 request
