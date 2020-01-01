@@ -2253,7 +2253,7 @@ nsSVGSVGElement
 :
 CreateSVGTransform
 (
-nsIDOMSVGTransform
+nsISupports
 *
 *
 _retval
@@ -2283,7 +2283,7 @@ CreateSVGTransformFromMatrix
 nsIDOMSVGMatrix
 *
 matrix
-nsIDOMSVGTransform
+nsISupports
 *
 *
 _retval

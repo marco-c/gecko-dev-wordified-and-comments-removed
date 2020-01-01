@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsIDOMSVGTransform
-.
-h
-"
-#
-include
-"
 nsIDOMSVGTransformable
 .
 h

@@ -646,9 +646,6 @@ return
 ;
 transformType
 =
-nsIDOMSVGTransform
-:
-:
 SVG_TRANSFORM_TRANSLATE
 ;
 }
@@ -700,9 +697,6 @@ params
 }
 transformType
 =
-nsIDOMSVGTransform
-:
-:
 SVG_TRANSFORM_SCALE
 ;
 }
@@ -735,9 +729,6 @@ return
 ;
 transformType
 =
-nsIDOMSVGTransform
-:
-:
 SVG_TRANSFORM_ROTATE
 ;
 }
@@ -764,9 +755,6 @@ return
 ;
 transformType
 =
-nsIDOMSVGTransform
-:
-:
 SVG_TRANSFORM_SKEWX
 ;
 }
@@ -793,9 +781,6 @@ return
 ;
 transformType
 =
-nsIDOMSVGTransform
-:
-:
 SVG_TRANSFORM_SKEWY
 ;
 }

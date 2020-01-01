@@ -348,10 +348,6 @@ nsIDOMSVGTitleElement
 .
 idl
 \
-nsIDOMSVGTransform
-.
-idl
-\
 nsIDOMSVGTransformable
 .
 idl
