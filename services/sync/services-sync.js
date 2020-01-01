@@ -525,3 +525,17 @@ org
 "
 )
 ;
+pref
+(
+"
+extensions
+.
+weave
+.
+network
+.
+numRetries
+"
+4
+)
+;
