@@ -114,9 +114,6 @@ nsIDOMKeyEvent
 class
 nsIDocShellTreeItem
 ;
-class
-nsIView
-;
 enum
 CloseMenuMode
 {
@@ -1114,9 +1111,9 @@ nsnull
 void
 HidePopup
 (
-nsIView
+nsIFrame
 *
-aView
+aFrame
 )
 ;
 void
@@ -1228,9 +1225,9 @@ aFrame
 void
 PopupMoved
 (
-nsIView
+nsIFrame
 *
-aView
+aFrame
 nsIntPoint
 aPoint
 )
@@ -1238,9 +1235,9 @@ aPoint
 void
 PopupResized
 (
-nsIView
+nsIFrame
 *
-aView
+aFrame
 nsIntSize
 ASize
 )

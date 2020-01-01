@@ -3156,6 +3156,11 @@ pm
 PopupResized
 (
 aView
+-
+>
+GetFrame
+(
+)
 nsIntSize
 (
 width
@@ -3211,6 +3216,11 @@ pm
 PopupMoved
 (
 aView
+-
+>
+GetFrame
+(
+)
 aEvent
 -
 >
@@ -3345,6 +3355,11 @@ pm
 HidePopup
 (
 aView
+-
+>
+GetFrame
+(
+)
 )
 ;
 *
