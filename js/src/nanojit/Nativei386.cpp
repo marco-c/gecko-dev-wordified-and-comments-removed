@@ -2877,7 +2877,7 @@ dr
 value
 -
 >
-imm64hi
+imm64_1
 (
 )
 )
@@ -2889,7 +2889,7 @@ dr
 value
 -
 >
-imm64lo
+imm64_0
 (
 )
 )
@@ -6102,7 +6102,7 @@ d
 ins
 -
 >
-imm64hi
+imm64_1
 (
 )
 )
@@ -6114,7 +6114,7 @@ d
 ins
 -
 >
-imm64lo
+imm64_0
 (
 )
 )
