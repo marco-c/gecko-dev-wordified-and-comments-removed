@@ -734,10 +734,10 @@ registerExtensionPrefix
 (
 in
 AString
-namespace
+aNamespace
 in
 AString
-prefix
+aPrefix
 )
 ;
 }
