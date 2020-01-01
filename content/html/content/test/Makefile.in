@@ -756,6 +756,10 @@ test_bug401160
 .
 xhtml
 \
+test_bug405242
+.
+html
+\
 test_bug406596
 .
 html
