@@ -430,10 +430,6 @@ nsBrowserModule
 CPPSRCS
 =
 \
-nsBrowserInstance
-.
-cpp
-\
 nsBrowserStatusFilter
 .
 cpp

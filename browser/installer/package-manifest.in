@@ -1061,13 +1061,6 @@ BINPATH
 /
 components
 /
-mozbrwsr
-.
-xpt
-BINPATH
-/
-components
-/
 mozfind
 .
 xpt
