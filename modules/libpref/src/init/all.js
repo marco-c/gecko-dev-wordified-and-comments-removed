@@ -5815,7 +5815,7 @@ ion
 .
 parallel_compilation
 "
-false
+true
 )
 ;
 pref
