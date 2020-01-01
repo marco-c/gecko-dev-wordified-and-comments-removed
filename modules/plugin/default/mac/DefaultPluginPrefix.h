@@ -1,9 +1,0 @@
-#
-include
-"
-mozilla
--
-config
-.
-h
-"
