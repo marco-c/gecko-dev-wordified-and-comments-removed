@@ -228,6 +228,14 @@ lir
 )
 ;
 bool
+visitDefFun
+(
+LDefFun
+*
+lir
+)
+;
+bool
 visitOsrEntry
 (
 LOsrEntry

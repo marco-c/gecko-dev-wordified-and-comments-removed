@@ -99,6 +99,11 @@ DefVar
 \
 _
 (
+DefFun
+)
+\
+_
+(
 CreateThis
 )
 \
