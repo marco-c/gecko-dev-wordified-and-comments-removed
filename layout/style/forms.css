@@ -3302,6 +3302,13 @@ color
 }
 meter
 {
+-
+moz
+-
+appearance
+:
+meterbar
+;
 display
 :
 inline
@@ -3416,6 +3423,13 @@ overflow
 visible
 !
 important
+;
+-
+moz
+-
+appearance
+:
+meterchunk
 ;
 height
 :
