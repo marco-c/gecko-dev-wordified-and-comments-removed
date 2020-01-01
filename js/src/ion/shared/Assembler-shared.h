@@ -693,8 +693,11 @@ Label
 (
 )
 {
-JS_ASSERT
+JS_ASSERT_IF
 (
+OOM_counter
+<
+OOM_maxAllocations
 !
 used
 (
