@@ -718,8 +718,9 @@ aScopeGlobal
 nsIAtom
 *
 aName
-JSObject
-*
+const
+nsEventHandler
+&
 aHandler
 bool
 aPermitUntrustedEvents
