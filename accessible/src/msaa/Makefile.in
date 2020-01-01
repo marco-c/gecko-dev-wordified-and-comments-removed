@@ -138,10 +138,6 @@ nsWinUtils
 .
 cpp
 \
-CAccessibleEditableText
-.
-cpp
-\
 CAccessibleHyperlink
 .
 cpp
@@ -171,6 +167,10 @@ ia2AccessibleAction
 cpp
 \
 ia2AccessibleComponent
+.
+cpp
+\
+ia2AccessibleEditableText
 .
 cpp
 \
