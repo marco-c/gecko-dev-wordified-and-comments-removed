@@ -492,14 +492,6 @@ GeckoViewsFactory
 .
 java
 \
-INIParser
-.
-java
-\
-INISection
-.
-java
-\
 LinkPreference
 .
 java
