@@ -22,7 +22,7 @@ h
 #
 include
 "
-nsICSSStyleSheet
+nsCSSStyleSheet
 .
 h
 "
@@ -166,13 +166,13 @@ nsIStyleSheet
 aStyleSheet
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsICSSStyleSheet
+nsCSSStyleSheet
 >
 cssSheet
 =
-do_QueryInterface
+do_QueryObject
 (
 mStyleSheet
 )
@@ -197,7 +197,7 @@ aStyleSheet
 ;
 cssSheet
 =
-do_QueryInterface
+do_QueryObject
 (
 mStyleSheet
 )

@@ -57,7 +57,7 @@ class
 nsPresContext
 ;
 class
-nsICSSStyleSheet
+nsCSSStyleSheet
 ;
 class
 nsCSSStyleSheet
@@ -436,7 +436,7 @@ aKey
 nsresult
 SetStyleSheet
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )

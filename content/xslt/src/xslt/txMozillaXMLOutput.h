@@ -105,7 +105,7 @@ NS_DECL_NSISCRIPTLOADEROBSERVER
 NS_IMETHOD
 StyleSheetLoaded
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 PRBool

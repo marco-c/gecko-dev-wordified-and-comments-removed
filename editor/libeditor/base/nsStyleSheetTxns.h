@@ -25,13 +25,6 @@ nsIEditor
 .
 h
 "
-#
-include
-"
-nsICSSStyleSheet
-.
-h
-"
 class
 AddStyleSheetTxn
 :
@@ -46,7 +39,7 @@ Init
 nsIEditor
 *
 aEditor
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )
@@ -78,9 +71,9 @@ nsIEditor
 *
 mEditor
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsICSSStyleSheet
+nsCSSStyleSheet
 >
 mSheet
 ;
@@ -100,7 +93,7 @@ Init
 nsIEditor
 *
 aEditor
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )
@@ -132,9 +125,9 @@ nsIEditor
 *
 mEditor
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsICSSStyleSheet
+nsCSSStyleSheet
 >
 mSheet
 ;

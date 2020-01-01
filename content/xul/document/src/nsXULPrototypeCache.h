@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsICSSStyleSheet
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h
@@ -76,6 +69,9 @@ h
 "
 class
 nsIFastLoadService
+;
+class
+nsCSSStyleSheet
 ;
 struct
 CacheScriptEntry
@@ -219,7 +215,7 @@ nsIXBLDocumentInfo
 aDocumentInfo
 )
 ;
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 GetStyleSheet
 (
@@ -240,7 +236,7 @@ aURI
 nsresult
 PutStyleSheet
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aStyleSheet
 )
@@ -320,10 +316,10 @@ nsXULPrototypeDocument
 >
 mPrototypeTable
 ;
-nsInterfaceHashtable
+nsRefPtrHashtable
 <
 nsURIHashKey
-nsICSSStyleSheet
+nsCSSStyleSheet
 >
 mStyleSheetTable
 ;

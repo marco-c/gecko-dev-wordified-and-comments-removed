@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsICSSStyleSheet
-.
-h
-"
-#
-include
-"
 nsIDOMCSSStyleSheet
 .
 h

@@ -4470,10 +4470,10 @@ return
 nsnull
 ;
 }
-nsCOMArray
-<
-nsICSSStyleSheet
->
+nsXBLPrototypeResources
+:
+:
+sheet_array_type
 *
 nsXBLPrototypeBinding
 :

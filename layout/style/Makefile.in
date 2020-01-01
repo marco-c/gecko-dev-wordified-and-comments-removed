@@ -547,10 +547,6 @@ nsICSSStyleRuleDOMWrapper
 .
 h
 \
-nsICSSStyleSheet
-.
-h
-\
 nsIStyleRule
 .
 h

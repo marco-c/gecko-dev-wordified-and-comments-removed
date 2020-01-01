@@ -298,7 +298,7 @@ NS_DECL_NSITIMERCALLBACK
 NS_IMETHOD
 StyleSheetLoaded
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 PRBool

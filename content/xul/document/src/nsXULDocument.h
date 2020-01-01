@@ -500,7 +500,7 @@ aContentType
 NS_IMETHOD
 StyleSheetLoaded
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 PRBool
@@ -868,9 +868,12 @@ mDocumentLoaded
 PRPackedBool
 mStillWalking
 ;
-nsCOMArray
+nsTArray
 <
-nsICSSStyleSheet
+nsRefPtr
+<
+nsCSSStyleSheet
+>
 >
 mOverlaySheets
 ;

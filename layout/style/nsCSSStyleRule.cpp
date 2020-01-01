@@ -36,7 +36,7 @@ h
 #
 include
 "
-nsICSSStyleSheet
+nsCSSStyleSheet
 .
 h
 "
@@ -2263,7 +2263,7 @@ ToString
 nsAString
 &
 aString
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 PRBool
@@ -2503,7 +2503,7 @@ AppendToStringWithoutCombinators
 nsAString
 &
 aString
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )
@@ -2579,7 +2579,7 @@ AppendToStringWithoutCombinatorsOrNegations
 nsAString
 &
 aString
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 PRBool
@@ -4147,7 +4147,7 @@ ToString
 nsAString
 &
 aResult
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )
@@ -4920,13 +4920,13 @@ GetBaseURI
 aBaseURI
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsICSSStyleSheet
+nsCSSStyleSheet
 >
 cssSheet
 (
-do_QueryInterface
+do_QueryObject
 (
 sheet
 )
@@ -5434,9 +5434,9 @@ return
 NS_OK
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
-nsICSSStyleSheet
+nsCSSStyleSheet
 >
 sheet
 ;
@@ -5786,7 +5786,7 @@ const
 NS_IMETHOD
 SetStyleSheet
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )
@@ -5822,7 +5822,7 @@ virtual
 nsresult
 GetParentStyleSheet
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 *
 aSheet
@@ -6453,7 +6453,7 @@ CSSStyleRuleImpl
 :
 SetStyleSheet
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )
@@ -7030,7 +7030,7 @@ CSSStyleRuleImpl
 :
 GetParentStyleSheet
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 *
 aSheet

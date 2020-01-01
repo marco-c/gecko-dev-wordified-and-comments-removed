@@ -29,7 +29,7 @@ h
 #
 include
 "
-nsICSSStyleSheet
+nsCSSStyleSheet
 .
 h
 "
@@ -709,9 +709,9 @@ loader
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsICSSStyleSheet
+nsCSSStyleSheet
 >
 sheet
 ;

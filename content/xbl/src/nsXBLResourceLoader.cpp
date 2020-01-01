@@ -1,7 +1,7 @@
 #
 include
 "
-nsICSSStyleSheet
+nsCSSStyleSheet
 .
 h
 "
@@ -567,9 +567,9 @@ rv
 )
 )
 {
-nsCOMPtr
+nsRefPtr
 <
-nsICSSStyleSheet
+nsCSSStyleSheet
 >
 sheet
 ;
@@ -699,7 +699,7 @@ nsXBLResourceLoader
 :
 StyleSheetLoaded
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 PRBool
@@ -723,7 +723,7 @@ mResources
 >
 mStyleSheetList
 .
-AppendObject
+AppendElement
 (
 aSheet
 )

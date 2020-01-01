@@ -444,7 +444,7 @@ C
 +
 +
 class
-nsICSSStyleSheet
+nsCSSStyleSheet
 ;
 %
 }
@@ -452,9 +452,9 @@ nsICSSStyleSheet
 ptr
 ]
 native
-nsICSSStyleSheet
+nsCSSStyleSheet
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 )
 ;
 [
@@ -954,7 +954,7 @@ aEnable
 *
 Get
 the
-nsICSSStyleSheet
+nsCSSStyleSheet
 associated
 with
 the
@@ -981,7 +981,7 @@ sheet
 [
 noscript
 ]
-nsICSSStyleSheet
+nsCSSStyleSheet
 getStyleSheetForURL
 (
 in
@@ -999,7 +999,7 @@ associated
 with
 the
 given
-nsICSSStyleSheet
+nsCSSStyleSheet
 .
 *
 *
@@ -1025,7 +1025,7 @@ AString
 getURLForStyleSheet
 (
 in
-nsICSSStyleSheet
+nsCSSStyleSheet
 aStyleSheet
 )
 ;

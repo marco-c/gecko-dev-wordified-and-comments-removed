@@ -143,7 +143,7 @@ h
 #
 include
 "
-nsICSSStyleSheet
+nsCSSStyleSheet
 .
 h
 "
@@ -7651,7 +7651,7 @@ containers
 ;
 #
 endif
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 sheet
 =
@@ -7735,9 +7735,9 @@ nsIURI
 >
 uri
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsICSSStyleSheet
+nsCSSStyleSheet
 >
 csssheet
 ;
@@ -8028,13 +8028,13 @@ sheet
 )
 ;
 }
-nsCOMPtr
+nsRefPtr
 <
-nsICSSStyleSheet
+nsCSSStyleSheet
 >
 quirkClone
 ;
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 quirkSheet
 ;

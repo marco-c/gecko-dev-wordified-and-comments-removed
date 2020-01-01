@@ -39,7 +39,7 @@ class
 nsICSSStyleRule
 ;
 class
-nsICSSStyleSheet
+nsCSSStyleSheet
 ;
 class
 nsIPrincipal
@@ -89,7 +89,7 @@ Loader
 aLoader
 =
 nsnull
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 =
@@ -143,7 +143,7 @@ mImpl
 nsresult
 SetStyleSheet
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )

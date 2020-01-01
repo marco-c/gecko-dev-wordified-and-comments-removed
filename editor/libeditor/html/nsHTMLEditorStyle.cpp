@@ -99,13 +99,6 @@ h
 #
 include
 "
-nsICSSStyleSheet
-.
-h
-"
-#
-include
-"
 nsIDocumentObserver
 .
 h

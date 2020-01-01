@@ -15,7 +15,7 @@ class
 nsIStyleSheet
 ;
 class
-nsICSSStyleSheet
+nsCSSStyleSheet
 ;
 struct
 nsRuleData
@@ -85,7 +85,7 @@ const
 NS_IMETHOD
 SetStyleSheet
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )
@@ -108,7 +108,7 @@ aRuleData
 ;
 protected
 :
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 mSheet
 ;

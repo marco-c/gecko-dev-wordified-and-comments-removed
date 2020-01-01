@@ -26,9 +26,6 @@ nsIDocument
 h
 "
 class
-nsICSSStyleSheet
-;
-class
 nsIChannel
 ;
 class

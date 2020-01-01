@@ -374,7 +374,7 @@ h
 #
 include
 "
-nsICSSStyleSheet
+nsCSSStyleSheet
 .
 h
 "
@@ -12432,7 +12432,7 @@ count
 =
 mOverlaySheets
 .
-Count
+Length
 (
 )
 ;
@@ -12851,7 +12851,7 @@ nsXULDocument
 :
 StyleSheetLoaded
 (
-nsICSSStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 PRBool
@@ -15376,9 +15376,9 @@ sheets
 i
 ]
 ;
-nsCOMPtr
+nsRefPtr
 <
-nsICSSStyleSheet
+nsCSSStyleSheet
 >
 incompleteSheet
 ;
@@ -15425,7 +15425,7 @@ if
 !
 mOverlaySheets
 .
-AppendObject
+AppendElement
 (
 incompleteSheet
 )
