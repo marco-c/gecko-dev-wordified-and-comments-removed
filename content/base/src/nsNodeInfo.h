@@ -56,16 +56,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS
 nsNodeInfo
 )
 virtual
-void
-GetLocalName
-(
-nsAString
-&
-aLocalName
-)
-const
-;
-virtual
 nsresult
 GetNamespaceURI
 (

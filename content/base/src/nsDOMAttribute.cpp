@@ -1689,7 +1689,7 @@ aLocalName
 mNodeInfo
 -
 >
-GetLocalName
+GetName
 (
 aLocalName
 )
