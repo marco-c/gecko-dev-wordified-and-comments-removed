@@ -6775,10 +6775,7 @@ return
 PR_FALSE
 ;
 }
-nsContentUtils
-:
-:
-ASCIIToLower
+ToLowerCase
 (
 mToken
 .
@@ -7327,10 +7324,7 @@ return
 PR_FALSE
 ;
 }
-nsContentUtils
-:
-:
-ASCIIToLower
+ToLowerCase
 (
 mToken
 .
@@ -12575,7 +12569,7 @@ if
 (
 attr
 .
-LowerCaseEqualsASCII
+EqualsIgnoreCase
 (
 htmlAttr
 )
@@ -12858,10 +12852,7 @@ mToken
 mIdent
 )
 ;
-nsContentUtils
-:
-:
-ASCIIToLower
+ToLowerCase
 (
 buffer
 )
@@ -14255,7 +14246,7 @@ mToken
 .
 mIdent
 .
-LowerCaseEqualsLiteral
+EqualsIgnoreCase
 (
 "
 odd
@@ -14289,7 +14280,7 @@ mToken
 .
 mIdent
 .
-LowerCaseEqualsLiteral
+EqualsIgnoreCase
 (
 "
 even
@@ -14323,7 +14314,7 @@ mToken
 .
 mIdent
 .
-LowerCaseEqualsLiteral
+EqualsIgnoreCase
 (
 "
 n
@@ -14346,7 +14337,7 @@ mToken
 .
 mIdent
 .
-LowerCaseEqualsLiteral
+EqualsIgnoreCase
 (
 "
 -
@@ -14442,7 +14433,7 @@ mToken
 .
 mIdent
 .
-LowerCaseEqualsLiteral
+EqualsIgnoreCase
 (
 "
 n
