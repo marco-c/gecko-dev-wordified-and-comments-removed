@@ -127,6 +127,10 @@ test_AudioListener
 .
 html
 \
+test_AudioParam
+.
+html
+\
 test_badConnect
 .
 html
