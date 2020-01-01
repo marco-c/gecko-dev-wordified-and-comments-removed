@@ -110,12 +110,14 @@ window
 title
 =
 "
-Test
+Update
+Wizard
+pages
+:
 update
-checking
-wizard
+check
+and
 error
-page
 (
 xml
 malformed
@@ -267,7 +269,7 @@ javascript
 CDATA
 [
 const
-gTests
+TESTS
 =
 [
 {
@@ -300,7 +302,7 @@ runTest
 "
 )
 ;
-var
+let
 url
 =
 URL_UPDATE

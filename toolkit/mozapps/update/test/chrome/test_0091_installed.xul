@@ -110,11 +110,11 @@ window
 title
 =
 "
-Test
-update
-prompt
+Update
+Wizard
+pages
+:
 installed
-page
 "
 xmlns
 =
@@ -262,7 +262,7 @@ javascript
 CDATA
 [
 const
-gTests
+TESTS
 =
 [
 {
@@ -300,7 +300,7 @@ PREF_APP_UPDATE_SHOW_INSTALLED_UI
 true
 )
 ;
-var
+let
 patches
 =
 getLocalPatchString
@@ -316,7 +316,7 @@ null
 STATE_PENDING
 )
 ;
-var
+let
 updates
 =
 getLocalUpdateString

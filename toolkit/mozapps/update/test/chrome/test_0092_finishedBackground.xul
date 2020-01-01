@@ -110,12 +110,12 @@ window
 title
 =
 "
-Test
-update
-prompt
+Update
+Wizard
+pages
+:
 finished
 background
-page
 "
 xmlns
 =
@@ -263,7 +263,7 @@ javascript
 CDATA
 [
 const
-gTests
+TESTS
 =
 [
 {
@@ -291,7 +291,7 @@ runTest
 "
 )
 ;
-var
+let
 patches
 =
 getLocalPatchString
@@ -307,7 +307,7 @@ null
 STATE_PENDING
 )
 ;
-var
+let
 updates
 =
 getLocalUpdateString

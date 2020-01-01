@@ -110,11 +110,11 @@ window
 title
 =
 "
-Test
-update
-prompt
-error
-page
+Update
+Wizard
+pages
+:
+errors
 (
 complete
 only
@@ -269,7 +269,7 @@ javascript
 CDATA
 [
 const
-gTests
+TESTS
 =
 [
 {
@@ -297,7 +297,7 @@ runTest
 "
 )
 ;
-var
+let
 patches
 =
 getLocalPatchString
@@ -313,7 +313,7 @@ null
 STATE_PENDING
 )
 ;
-var
+let
 updates
 =
 getLocalUpdateString
