@@ -114,9 +114,13 @@ simple
 "
 ]
 {
-wantXHRConstructor
+wantDOMConstructors
 :
-true
+[
+"
+XMLHttpRequest
+"
+]
 }
 )
 ;
