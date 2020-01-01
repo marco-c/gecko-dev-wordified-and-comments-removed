@@ -428,6 +428,12 @@ nsIInputStream
 >
 mInputStream
 ;
+nsRefPtr
+<
+BluetoothReplyRunnable
+>
+mRunnable
+;
 }
 ;
 END_BLUETOOTH_NAMESPACE
