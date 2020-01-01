@@ -1013,6 +1013,12 @@ OleSetClipboard
 dataObj
 )
 ;
+:
+:
+OleFlushClipboard
+(
+)
+;
 dataObj
 -
 >
