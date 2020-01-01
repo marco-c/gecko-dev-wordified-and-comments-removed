@@ -584,6 +584,14 @@ false
 ;
 inline
 void
+pushInt32
+(
+RegisterID
+payload
+)
+;
+inline
+void
 pop
 (
 )
