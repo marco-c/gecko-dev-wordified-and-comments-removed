@@ -145,6 +145,10 @@ type
 .
 js
 \
+browser_net_cyrillic
+.
+js
+\
 browser_net_status
 -
 codes
@@ -206,6 +210,14 @@ html
 html_content
 -
 type
+-
+test
+-
+page
+.
+html
+\
+html_cyrillic
 -
 test
 -

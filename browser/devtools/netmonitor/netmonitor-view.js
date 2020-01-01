@@ -6475,7 +6475,17 @@ aEditor
 .
 setText
 (
+NetworkHelper
+.
+convertToUnicode
+(
 aString
+"
+UTF
+-
+8
+"
+)
 )
 ;
 for
