@@ -19610,6 +19610,14 @@ childNodes
 textContent
 )
 {
+this
+.
+mergeFilteredMessageNode
+(
+lastMessage
+aNode
+)
+;
 return
 true
 ;
