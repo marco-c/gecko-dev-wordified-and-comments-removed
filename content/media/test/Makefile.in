@@ -1233,6 +1233,10 @@ test_contentDuration6
 .
 html
 \
+test_contentDuration7
+.
+html
+\
 test_delay_load
 .
 html
@@ -1326,6 +1330,10 @@ contentDuration5
 sjs
 \
 contentDuration6
+.
+sjs
+\
+contentDuration7
 .
 sjs
 \

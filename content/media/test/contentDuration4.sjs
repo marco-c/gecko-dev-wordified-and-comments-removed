@@ -216,8 +216,6 @@ response
 setHeader
 (
 "
-X
--
 Content
 -
 Duration
