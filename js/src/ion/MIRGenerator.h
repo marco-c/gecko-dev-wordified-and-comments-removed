@@ -6,6 +6,13 @@ define
 jsion_mirgen_h__
 #
 include
+<
+stdarg
+.
+h
+>
+#
+include
 "
 jscntxt
 .
