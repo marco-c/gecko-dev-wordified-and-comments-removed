@@ -350,7 +350,7 @@ val
 (
 newTabOne
 .
-tabItem
+_tabViewTabItem
 .
 nameEl
 .

@@ -643,7 +643,7 @@ tabs
 0
 ]
 .
-tabItem
+_tabViewTabItem
 .
 parent
 =
@@ -752,7 +752,7 @@ tabs
 0
 ]
 .
-tabItem
+_tabViewTabItem
 .
 parent
 =
@@ -995,7 +995,7 @@ ok
 (
 tab
 .
-tabItem
+_tabViewTabItem
 .
 parent
 =

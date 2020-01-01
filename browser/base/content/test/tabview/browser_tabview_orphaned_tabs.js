@@ -153,7 +153,7 @@ ok
 (
 tabOne
 .
-tabItem
+_tabViewTabItem
 .
 parent
 "

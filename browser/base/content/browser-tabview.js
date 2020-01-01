@@ -1081,12 +1081,12 @@ if
 (
 activeTab
 .
-tabItem
+_tabViewTabItem
 &
 &
 activeTab
 .
-tabItem
+_tabViewTabItem
 .
 parent
 )
@@ -1096,7 +1096,7 @@ groupName
 =
 activeTab
 .
-tabItem
+_tabViewTabItem
 .
 parent
 .
@@ -1182,7 +1182,7 @@ activeGroup
 =
 tab
 .
-tabItem
+_tabViewTabItem
 .
 parent
 ;

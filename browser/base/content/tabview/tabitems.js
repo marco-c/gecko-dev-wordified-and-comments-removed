@@ -25,7 +25,7 @@ this
 .
 tab
 .
-tabItem
+_tabViewTabItem
 =
 this
 ;
@@ -4255,7 +4255,7 @@ assertThrow
 (
 tab
 .
-tabItem
+_tabViewTabItem
 "
 should
 already
@@ -4444,7 +4444,7 @@ assertThrow
 (
 tab
 .
-tabItem
+_tabViewTabItem
 "
 must
 already
@@ -4458,7 +4458,7 @@ tabItem
 =
 tab
 .
-tabItem
+_tabViewTabItem
 ;
 let
 iconUrl
@@ -4764,7 +4764,7 @@ assertThrow
 !
 tab
 .
-tabItem
+_tabViewTabItem
 "
 shouldn
 '
@@ -4823,7 +4823,7 @@ assertThrow
 (
 tab
 .
-tabItem
+_tabViewTabItem
 "
 should
 already
@@ -4838,12 +4838,12 @@ unregister
 (
 tab
 .
-tabItem
+_tabViewTabItem
 )
 ;
 tab
 .
-tabItem
+_tabViewTabItem
 .
 _sendToSubscribers
 (
@@ -4856,7 +4856,7 @@ iQ
 (
 tab
 .
-tabItem
+_tabViewTabItem
 .
 container
 )
@@ -4867,7 +4867,7 @@ remove
 ;
 tab
 .
-tabItem
+_tabViewTabItem
 .
 removeTrenches
 (
@@ -4880,12 +4880,12 @@ unsquish
 null
 tab
 .
-tabItem
+_tabViewTabItem
 )
 ;
 tab
 .
-tabItem
+_tabViewTabItem
 =
 null
 ;

@@ -7103,7 +7103,7 @@ true
 ;
 newTab
 .
-tabItem
+_tabViewTabItem
 .
 zoomIn
 (
@@ -8947,7 +8947,7 @@ if
 (
 tab
 .
-tabItem
+_tabViewTabItem
 )
 {
 if
@@ -8955,7 +8955,7 @@ if
 !
 tab
 .
-tabItem
+_tabViewTabItem
 .
 parent
 )
@@ -8964,7 +8964,7 @@ orphanTabItem
 =
 tab
 .
-tabItem
+_tabViewTabItem
 ;
 }
 else
@@ -8973,7 +8973,7 @@ if
 !
 tab
 .
-tabItem
+_tabViewTabItem
 .
 parent
 .
@@ -8984,7 +8984,7 @@ targetGroupItem
 =
 tab
 .
-tabItem
+_tabViewTabItem
 .
 parent
 ;
@@ -10025,7 +10025,7 @@ assertThrow
 (
 tab
 .
-tabItem
+_tabViewTabItem
 "
 tab
 must
@@ -10147,13 +10147,13 @@ if
 (
 tab
 .
-tabItem
+_tabViewTabItem
 .
 parent
 )
 tab
 .
-tabItem
+_tabViewTabItem
 .
 parent
 .
@@ -10161,7 +10161,7 @@ remove
 (
 tab
 .
-tabItem
+_tabViewTabItem
 )
 ;
 if
@@ -10184,7 +10184,7 @@ add
 (
 tab
 .
-tabItem
+_tabViewTabItem
 )
 ;
 UI
@@ -10241,7 +10241,7 @@ GroupItem
 [
 tab
 .
-tabItem
+_tabViewTabItem
 ]
 {
 bounds
@@ -10269,7 +10269,7 @@ shouldShowTabView
 {
 tab
 .
-tabItem
+_tabViewTabItem
 .
 setZoomPrep
 (

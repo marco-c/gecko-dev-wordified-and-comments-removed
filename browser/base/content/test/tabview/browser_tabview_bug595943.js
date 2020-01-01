@@ -487,7 +487,7 @@ mousedown
 }
 normalXulTab
 .
-tabItem
+_tabViewTabItem
 .
 container
 contentWindow
@@ -506,7 +506,7 @@ mouseup
 }
 normalXulTab
 .
-tabItem
+_tabViewTabItem
 .
 container
 contentWindow
