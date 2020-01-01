@@ -464,16 +464,6 @@ toolkitcomps
 \
 widget
 \
-content
-\
-view
-\
-gfx
-\
-thebes
-\
-locale
-\
 necko
 \
 (

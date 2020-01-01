@@ -84,13 +84,6 @@ h
 #
 include
 "
-nsIWidget
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -224,12 +217,6 @@ aSearchIndex
 PRInt32
 *
 aItemIndex
-)
-;
-nsIWidget
-*
-GetPopupWidget
-(
 )
 ;
 nsCOMPtr
