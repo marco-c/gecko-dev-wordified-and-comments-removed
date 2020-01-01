@@ -127,6 +127,15 @@ nsIXPConnect
 h
 "
 #
+include
+"
+mozilla
+/
+Util
+.
+h
+"
+#
 define
 VISIT_OBSERVERS_INITIAL_CACHE_SIZE
 128
@@ -1536,7 +1545,10 @@ if
 obsService
 )
 {
+DebugOnly
+<
 nsresult
+>
 rv
 =
 obsService

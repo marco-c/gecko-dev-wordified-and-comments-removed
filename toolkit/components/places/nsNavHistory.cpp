@@ -232,6 +232,15 @@ FunctionTimer
 h
 "
 #
+include
+"
+mozilla
+/
+Util
+.
+h
+"
+#
 ifdef
 MOZ_XUL
 #
@@ -250,6 +259,10 @@ h
 "
 #
 endif
+using
+namespace
+mozilla
+;
 using
 namespace
 mozilla
@@ -1237,9 +1250,6 @@ nsIObserverService
 >
 obs
 =
-mozilla
-:
-:
 services
 :
 :
@@ -17999,7 +18009,10 @@ if
 mBatchDBTransaction
 )
 {
+DebugOnly
+<
 nsresult
+>
 rv
 =
 mBatchDBTransaction
@@ -23350,9 +23363,6 @@ nsIObserverService
 >
 os
 =
-mozilla
-:
-:
 services
 :
 :
@@ -23558,9 +23568,6 @@ nsIObserverService
 >
 os
 =
-mozilla
-:
-:
 services
 :
 :
@@ -31529,9 +31536,6 @@ nsIStringBundleService
 >
 bundleService
 =
-mozilla
-:
-:
 services
 :
 :
@@ -31604,9 +31608,6 @@ nsIStringBundleService
 >
 bundleService
 =
-mozilla
-:
-:
 services
 :
 :
