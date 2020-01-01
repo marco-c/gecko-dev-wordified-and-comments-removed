@@ -32,7 +32,7 @@ enum
 {
 kCurrentVersion
 =
-0x0001000B
+0x0001000C
 }
 ;
 enum
@@ -49,6 +49,10 @@ const
 char
 *
 key
+PLDHashNumber
+initval
+=
+0
 )
 ;
 static
