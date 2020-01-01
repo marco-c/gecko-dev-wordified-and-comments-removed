@@ -16297,10 +16297,9 @@ cEnd
 =
 cstr
 +
-aStr
-.
-Length
+strlen
 (
+cstr
 )
 ;
 while
