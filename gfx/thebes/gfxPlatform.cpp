@@ -1313,7 +1313,10 @@ BACKEND_SKIA
 uint32_t
 contentMask
 =
-0
+1
+<
+<
+BACKEND_CAIRO
 ;
 InitBackendPrefs
 (
