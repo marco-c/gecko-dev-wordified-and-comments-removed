@@ -558,6 +558,13 @@ mode
 :
 inherit
 ;
+-
+moz
+-
+resize
+:
+inherit
+;
 }
 textarea
 >
@@ -631,6 +638,13 @@ hidden
 pointer
 -
 events
+:
+none
+;
+-
+moz
+-
+resize
 :
 none
 ;
