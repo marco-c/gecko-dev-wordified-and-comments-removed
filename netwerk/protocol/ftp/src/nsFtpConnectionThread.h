@@ -736,8 +736,11 @@ static
 PRUint32
 mSessionStartTime
 ;
-PRNetAddr
+char
 mServerAddress
+[
+64
+]
 ;
 nsresult
 mControlStatus
