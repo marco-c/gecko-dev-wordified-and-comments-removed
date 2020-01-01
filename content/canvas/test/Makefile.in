@@ -82,6 +82,10 @@ mk
 MOCHITEST_FILES
 =
 \
+android
+.
+json
+\
 test_canvas
 .
 html
