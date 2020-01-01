@@ -71,6 +71,14 @@ mPlugin
 (
 NULL
 )
+mHasAudio
+(
+false
+)
+mHasVideo
+(
+false
+)
 mVideoSeekTimeUs
 (
 -

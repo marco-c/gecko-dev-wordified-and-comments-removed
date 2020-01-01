@@ -651,7 +651,7 @@ mediaqueue
 )
 mEndOfStream
 (
-0
+false
 )
 {
 }
