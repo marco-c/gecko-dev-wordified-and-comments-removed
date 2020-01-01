@@ -1620,15 +1620,6 @@ pn_funbox
 >
 strict
 )
-opn
--
->
-pn_funbox
--
->
-generatorKind
-(
-)
 )
 )
 ;

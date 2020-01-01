@@ -1288,15 +1288,6 @@ writable
 "
 )
 \
-macro
-(
-yield
-yield
-"
-yield
-"
-)
-\
 /
 *
 Type
