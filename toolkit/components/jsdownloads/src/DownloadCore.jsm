@@ -248,6 +248,9 @@ false
 error
 :
 null
+startTime
+:
+null
 hasProgress
 :
 false
@@ -380,6 +383,15 @@ this
 currentBytes
 =
 0
+;
+this
+.
+startTime
+=
+new
+Date
+(
+)
 ;
 let
 deferAttempt
