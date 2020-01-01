@@ -3608,7 +3608,7 @@ _retval
 nsAutoWindowStateHelper
 windowStateHelper
 (
-modalContentWindow
+aParent
 )
 ;
 if
