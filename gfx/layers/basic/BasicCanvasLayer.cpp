@@ -70,7 +70,7 @@ h
 #
 include
 "
-sampler
+GeckoProfiler
 .
 h
 "
@@ -2032,7 +2032,7 @@ Layer
 aMaskLayer
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 BasicShadowableCanvasLayer

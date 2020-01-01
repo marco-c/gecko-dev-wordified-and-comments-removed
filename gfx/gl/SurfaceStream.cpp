@@ -29,7 +29,7 @@ h
 #
 include
 "
-sampler
+GeckoProfiler
 .
 h
 "
@@ -1417,7 +1417,7 @@ gfxIntSize
 size
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 SurfaceStream_TripleBuffer
@@ -1570,7 +1570,7 @@ WaitForCompositor
 (
 )
 {
-SAMPLE_LABEL
+PROFILER_LABEL
 (
 "
 SurfaceStream_TripleBuffer_Async
