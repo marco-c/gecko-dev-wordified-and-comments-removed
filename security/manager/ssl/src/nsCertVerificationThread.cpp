@@ -383,10 +383,12 @@ mMutex
 while
 (
 !
-mExitRequested
-&
-&
+exitRequested
 (
+threadLock
+)
+&
+&
 0
 =
 =
@@ -399,7 +401,6 @@ GetSize
 (
 )
 )
-)
 {
 mCond
 .
@@ -410,7 +411,10 @@ Wait
 }
 if
 (
-mExitRequested
+exitRequested
+(
+threadLock
+)
 )
 break
 ;
@@ -490,6 +494,11 @@ delete
 job
 ;
 }
+postStoppedEventToMainThread
+(
+threadLock
+)
+;
 }
 }
 nsCertVerificationResult

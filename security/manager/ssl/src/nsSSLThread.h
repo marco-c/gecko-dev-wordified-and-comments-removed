@@ -269,7 +269,7 @@ si
 ;
 static
 PRBool
-exitRequested
+stoppedOrStopping
 (
 )
 ;
