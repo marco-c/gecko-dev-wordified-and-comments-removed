@@ -16449,18 +16449,6 @@ globalObj
 {
 if
 (
-tm
--
->
-globalSlots
--
->
-length
-(
-)
-&
-&
-(
 OBJ_SHAPE
 (
 globalObj
@@ -16471,7 +16459,6 @@ tm
 -
 >
 globalShape
-)
 )
 {
 AUDIT
