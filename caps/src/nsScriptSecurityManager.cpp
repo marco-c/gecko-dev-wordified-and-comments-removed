@@ -4750,6 +4750,11 @@ NS_ENSURE_ARG_POINTER
 aPrincipal
 )
 ;
+NS_ENSURE_ARG_POINTER
+(
+aTargetURI
+)
+;
 if
 (
 aPrincipal
