@@ -202,7 +202,7 @@ let
 server
 =
 new
-nsHttpServer
+HttpServer
 (
 )
 ;

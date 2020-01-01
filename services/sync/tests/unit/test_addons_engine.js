@@ -1097,7 +1097,7 @@ let
 amoServer
 =
 new
-nsHttpServer
+HttpServer
 (
 )
 ;

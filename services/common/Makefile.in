@@ -180,17 +180,6 @@ TEST_DIRS
 +
 =
 tests
-#
-TODO
-enable
-once
-build
-infra
-supports
-testing
-modules
-.
-#
 TESTING_JS_MODULES
 :
 =
@@ -200,7 +189,6 @@ js
 storageserver
 .
 js
-#
 TESTING_JS_MODULE_DIR
 :
 =
