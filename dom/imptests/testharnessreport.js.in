@@ -785,7 +785,12 @@ message
 "
 Finished
 test
+status
 "
++
+status
+.
+status
 "
 result
 "
