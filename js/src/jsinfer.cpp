@@ -16746,6 +16746,12 @@ JSOP_LOOKUPSWITCHX
 case
 JSOP_TRY
 :
+case
+JSOP_LABEL
+:
+case
+JSOP_LABELX
+:
 break
 ;
 case
