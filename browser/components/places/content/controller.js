@@ -7212,7 +7212,6 @@ i
 ]
 )
 )
-;
 xferable
 .
 addDataFlavor
