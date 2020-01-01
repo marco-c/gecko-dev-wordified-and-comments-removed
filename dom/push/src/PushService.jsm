@@ -585,7 +585,7 @@ result
 =
 undefined
 ;
-var
+let
 index
 =
 aStore
@@ -780,7 +780,7 @@ aManifestURL
 return
 ;
 }
-var
+let
 self
 =
 this
@@ -800,7 +800,7 @@ aTxn
 aStore
 )
 {
-var
+let
 index
 =
 aStore
@@ -812,7 +812,7 @@ manifestURL
 "
 )
 ;
-var
+let
 range
 =
 self
@@ -847,7 +847,7 @@ function
 event
 )
 {
-var
+let
 cursor
 =
 event
@@ -1451,7 +1451,7 @@ cancel
 ;
 for
 (
-var
+let
 channelID
 in
 this
@@ -1459,7 +1459,7 @@ this
 _pendingRequests
 )
 {
-var
+let
 duration
 =
 Date
@@ -1531,7 +1531,7 @@ channelID
 ;
 for
 (
-var
+let
 i
 =
 this
@@ -1725,7 +1725,7 @@ length
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -2434,7 +2434,7 @@ reconnectAfterBackoff
 "
 )
 ;
-var
+let
 retryTimeout
 =
 prefs
@@ -2618,7 +2618,7 @@ offline
 return
 ;
 }
-var
+let
 serverURL
 =
 prefs
@@ -2653,7 +2653,7 @@ found
 return
 ;
 }
-var
+let
 uri
 ;
 try
@@ -3518,7 +3518,7 @@ object
 )
 return
 ;
-var
+let
 tmp
 =
 this
@@ -3650,7 +3650,7 @@ object
 )
 return
 ;
-var
+let
 tmp
 =
 this
@@ -3805,7 +3805,7 @@ length
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -3823,7 +3823,7 @@ i
 +
 )
 {
-var
+let
 update
 =
 reply
@@ -3909,7 +3909,7 @@ exist
 continue
 ;
 }
-var
+let
 version
 =
 update
@@ -4078,7 +4078,7 @@ channelID
 )
 ;
 }
-var
+let
 deferred
 =
 Promise
@@ -4402,7 +4402,7 @@ aChannelID
 aLatestVersion
 )
 ;
-var
+let
 compareRecordVersionAndNotify
 =
 function
@@ -4530,7 +4530,7 @@ aLatestVersion
 ;
 }
 }
-var
+let
 recoverNoSuchChannelID
 =
 function
@@ -4593,7 +4593,7 @@ notifyAllAppsRegister
 "
 )
 ;
-var
+let
 deferred
 =
 Promise
@@ -4608,7 +4608,7 @@ wakeupRegisteredApps
 records
 )
 {
-var
+let
 wakeupTable
 =
 {
@@ -4616,7 +4616,7 @@ wakeupTable
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -4632,7 +4632,7 @@ i
 +
 )
 {
-var
+let
 record
 =
 records
@@ -4705,7 +4705,7 @@ nsISystemMessagesInternal
 ;
 for
 (
-var
+let
 manifestURL
 in
 wakeupTable
@@ -4848,7 +4848,7 @@ aPushRecord
 manifestURL
 )
 ;
-var
+let
 pageURI
 =
 Services
@@ -4864,7 +4864,7 @@ null
 null
 )
 ;
-var
+let
 manifestURI
 =
 Services
@@ -4880,7 +4880,7 @@ null
 null
 )
 ;
-var
+let
 message
 =
 {
@@ -4952,7 +4952,7 @@ updatePushRecord
 "
 )
 ;
-var
+let
 deferred
 =
 Promise
@@ -4988,7 +4988,7 @@ function
 (
 )
 {
-var
+let
 deferred
 =
 Promise
@@ -5160,7 +5160,7 @@ Ci
 nsIUUIDGenerator
 )
 ;
-var
+let
 channelID
 =
 uuidGenerator
@@ -5281,7 +5281,7 @@ _onRegisterSuccess
 "
 )
 ;
-var
+let
 deferred
 =
 Promise
@@ -5290,7 +5290,7 @@ defer
 (
 )
 ;
-var
+let
 message
 =
 {
@@ -5452,7 +5452,7 @@ throw
 message
 ;
 }
-var
+let
 record
 =
 {
@@ -5629,7 +5629,7 @@ unregister
 "
 )
 ;
-var
+let
 fail
 =
 function
@@ -5652,7 +5652,7 @@ error
 error
 )
 ;
-var
+let
 message
 =
 {
@@ -5905,7 +5905,7 @@ aMessageManager
 pushRecords
 )
 {
-var
+let
 registrations
 =
 [
@@ -6070,7 +6070,7 @@ _retryFailCount
 =
 0
 ;
-var
+let
 data
 =
 {
@@ -6097,7 +6097,7 @@ this
 .
 _UAID
 ;
-var
+let
 networkState
 =
 this
@@ -6339,7 +6339,7 @@ pingInterval
 )
 )
 ;
-var
+let
 reply
 =
 undefined
@@ -6408,7 +6408,7 @@ messageType
 return
 ;
 }
-var
+let
 handlers
 =
 [
@@ -6426,7 +6426,7 @@ Notification
 "
 ]
 ;
-var
+let
 handlerName
 =
 reply
@@ -6491,7 +6491,7 @@ messageType
 return
 ;
 }
-var
+let
 handler
 =
 "
@@ -6872,7 +6872,7 @@ disabled
 "
 ;
 }
-var
+let
 nm
 =
 Cc
@@ -6918,7 +6918,7 @@ nsINetworkInterface
 NETWORK_TYPE_MOBILE
 )
 {
-var
+let
 mcp
 =
 Cc
