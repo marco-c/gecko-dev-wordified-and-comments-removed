@@ -3822,6 +3822,7 @@ logged
 in
 "
 ;
+yield
 this
 .
 _versionCheck
@@ -3835,7 +3836,6 @@ cb
 )
 ;
 yield
-;
 this
 .
 _getKeypair
@@ -3847,8 +3847,6 @@ self
 .
 cb
 )
-;
-yield
 ;
 let
 engines
@@ -3889,6 +3887,7 @@ enabled
 )
 continue
 ;
+yield
 this
 .
 _notify
@@ -3922,8 +3921,6 @@ self
 .
 cb
 )
-;
-yield
 ;
 }
 }
@@ -4239,6 +4236,7 @@ yield
 ;
 try
 {
+yield
 engine
 .
 sync
@@ -4247,8 +4245,6 @@ self
 .
 cb
 )
-;
-yield
 ;
 engine
 .
