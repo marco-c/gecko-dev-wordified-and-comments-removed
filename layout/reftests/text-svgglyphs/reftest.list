@@ -7,9 +7,9 @@ font_rendering
 opentype_svg
 .
 enabled
-false
+true
 )
-!
+=
 =
 svg
 -
@@ -36,9 +36,9 @@ font_rendering
 opentype_svg
 .
 enabled
-true
+false
 )
-=
+!
 =
 svg
 -

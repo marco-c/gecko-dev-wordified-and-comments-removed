@@ -258,13 +258,13 @@ NS_ASSERTION
 aPaintType
 =
 =
-eStyleSVGPaintType_ObjectFill
+eStyleSVGPaintType_ContextFill
 |
 |
 aPaintType
 =
 =
-eStyleSVGPaintType_ObjectStroke
+eStyleSVGPaintType_ContextStroke
 "
 Invalid
 context
