@@ -1490,6 +1490,10 @@ mChannel
 =
 aChannel
 ;
+mHaveInputEncoding
+=
+PR_TRUE
+;
 nsresult
 rv
 =
