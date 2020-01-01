@@ -20926,6 +20926,16 @@ newTransformMatrix
 ;
 if
 (
+!
+container
+)
+{
+return
+nullptr
+;
+}
+if
+(
 mFrame
 -
 >
