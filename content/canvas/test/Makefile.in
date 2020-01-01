@@ -719,6 +719,10 @@ zerocanvas
 .
 html
 \
+test_toDataURL_alpha
+.
+html
+\
 test_toDataURL_lowercase_ascii
 .
 html
