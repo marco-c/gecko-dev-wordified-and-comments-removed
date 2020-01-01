@@ -16435,6 +16435,13 @@ localName
 "
 tab
 "
+|
+|
+this
+.
+tabContainer
+.
+draggedTab
 )
 {
 event
