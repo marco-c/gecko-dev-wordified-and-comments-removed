@@ -1266,6 +1266,14 @@ GetPrimaryScrollableLayer
 (
 )
 {
+#
+ifndef
+MOZ_WIDGET_ANDROID
+return
+nullptr
+;
+#
+endif
 if
 (
 !
