@@ -1308,7 +1308,7 @@ reader
 )
 ;
 void
-flush
+finish
 (
 )
 {

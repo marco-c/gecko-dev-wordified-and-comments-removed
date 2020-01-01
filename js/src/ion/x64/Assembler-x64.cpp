@@ -322,7 +322,7 @@ void
 Assembler
 :
 :
-flush
+finish
 (
 )
 {
