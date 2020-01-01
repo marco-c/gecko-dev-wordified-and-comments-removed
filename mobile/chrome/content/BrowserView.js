@@ -680,7 +680,7 @@ break
 case
 "
 Nokia
-N8XX
+N8xx
 "
 :
 cacheSize
