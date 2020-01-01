@@ -36339,8 +36339,12 @@ Are3DTransformsEnabled
 {
 depth
 .
-Reset
+SetFloatValue
 (
+0
+.
+0f
+eCSSUnit_Pixel
 )
 ;
 }
