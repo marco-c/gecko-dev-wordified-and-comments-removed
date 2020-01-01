@@ -220,6 +220,14 @@ guint32
 aTime
 )
 ;
+void
+SetDragIcon
+(
+GdkDragContext
+*
+aContext
+)
+;
 private
 :
 GtkWidget
@@ -278,6 +286,12 @@ nsCOMPtr
 nsISupportsArray
 >
 mSourceDataItems
+;
+nsCOMPtr
+<
+nsIScriptableRegion
+>
+mSourceRegion
 ;
 GtkTargetList
 *
