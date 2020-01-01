@@ -544,6 +544,16 @@ return
 mHoverGeneration
 ;
 }
+uint64_t
+GetAnimationGeneration
+(
+)
+const
+{
+return
+mAnimationGeneration
+;
+}
 nsresult
 ProcessRestyledFrames
 (
@@ -4517,6 +4527,9 @@ nsCOMPtr
 nsILayoutHistoryState
 >
 mTempFrameTreeState
+;
+uint64_t
+mAnimationGeneration
 ;
 RestyleTracker
 mPendingRestyles

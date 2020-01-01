@@ -3768,7 +3768,7 @@ wantNextFrame
 SampleAnimations
 (
 root
-mLastCompose
+aCurrentFrame
 )
 ;
 const

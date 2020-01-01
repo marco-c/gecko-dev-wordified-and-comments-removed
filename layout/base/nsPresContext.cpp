@@ -4272,6 +4272,17 @@ this
 ;
 }
 }
+mLastStyleUpdateForAllAnimations
+=
+mLastUpdateThrottledStyle
+=
+mRefreshDriver
+-
+>
+MostRecentRefresh
+(
+)
+;
 mLangService
 =
 do_GetService

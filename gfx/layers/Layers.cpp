@@ -1662,6 +1662,10 @@ mDebugColorIndex
 (
 0
 )
+mAnimationGeneration
+(
+0
+)
 {
 }
 Layer

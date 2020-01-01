@@ -179,6 +179,15 @@ const
 0
 ;
 virtual
+nsPoint
+GetLogicalScrollPosition
+(
+)
+const
+=
+0
+;
+virtual
 nsRect
 GetScrollRange
 (

@@ -1527,7 +1527,11 @@ shell
 >
 FlushPendingNotifications
 (
+ChangesToFlush
+(
 Flush_Style
+false
+)
 )
 ;
 NS_RELEASE
@@ -1658,7 +1662,11 @@ shell
 >
 FlushPendingNotifications
 (
+ChangesToFlush
+(
 Flush_InterruptibleLayout
+false
+)
 )
 ;
 NS_RELEASE

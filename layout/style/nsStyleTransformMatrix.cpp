@@ -793,7 +793,6 @@ temp
 )
 ;
 }
-static
 void
 ProcessInterpolateMatrix
 (
