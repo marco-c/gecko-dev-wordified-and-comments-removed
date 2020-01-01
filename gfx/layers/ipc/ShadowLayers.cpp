@@ -771,9 +771,9 @@ aImage
 nsIntSize
 aSize
 const
-SurfaceDescriptor
+SharedImage
 &
-aTempFrontSurface
+aTempFrontImage
 )
 {
 mTxn
@@ -789,7 +789,7 @@ Shadow
 aImage
 )
 aSize
-aTempFrontSurface
+aTempFrontImage
 )
 )
 ;
@@ -1132,9 +1132,9 @@ ShadowableLayer
 *
 aImage
 const
-SurfaceDescriptor
+SharedImage
 &
-aNewFrontSurface
+aNewFrontImage
 )
 {
 mTxn
@@ -1149,7 +1149,7 @@ Shadow
 (
 aImage
 )
-aNewFrontSurface
+aNewFrontImage
 )
 )
 ;

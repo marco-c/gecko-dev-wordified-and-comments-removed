@@ -179,9 +179,9 @@ aImage
 nsIntSize
 aSize
 const
-SurfaceDescriptor
+SharedImage
 &
-aInitialFrontSurface
+aInitialFrontImage
 )
 ;
 void
@@ -300,9 +300,9 @@ ShadowableLayer
 *
 aImage
 const
-SurfaceDescriptor
+SharedImage
 &
-aNewFrontSurface
+aNewFrontImage
 )
 ;
 void
