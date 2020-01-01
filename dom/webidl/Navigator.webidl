@@ -339,6 +339,7 @@ Navigator
 .
 h
 "
+NeedNewResolve
 ]
 interface
 Navigator
