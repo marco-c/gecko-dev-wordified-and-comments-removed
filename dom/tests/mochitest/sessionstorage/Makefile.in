@@ -464,10 +464,6 @@ test_sessionStorageClone
 .
 html
 \
-test_sessionStorageDeleteSinceAPI
-.
-html
-\
 test_sessionStorageReplace
 .
 html
