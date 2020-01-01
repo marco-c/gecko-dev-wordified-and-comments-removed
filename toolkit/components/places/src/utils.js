@@ -2519,6 +2519,11 @@ titleString
 titleString
 :
 uriString
+type
+:
+this
+.
+TYPE_X_MOZ_URL
 }
 )
 ;
@@ -2597,6 +2602,11 @@ uriString
 title
 :
 uriString
+type
+:
+this
+.
+TYPE_X_MOZ_URL
 }
 )
 ;
