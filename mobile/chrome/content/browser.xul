@@ -5994,6 +5994,11 @@ openBookmark
 )
 ;
 "
+autoedit
+=
+"
+true
+"
 /
 >
 <
