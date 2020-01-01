@@ -7,6 +7,12 @@ mozilla_dom_telephony_CallsList_h__
 #
 include
 "
+mozilla
+/
+dom
+/
+telephony
+/
 TelephonyCommon
 .
 h
@@ -18,7 +24,12 @@ nsWrapperCache
 .
 h
 "
-BEGIN_TELEPHONY_NAMESPACE
+namespace
+mozilla
+{
+namespace
+dom
+{
 class
 CallsList
 MOZ_FINAL
@@ -126,6 +137,7 @@ CallsList
 ;
 }
 ;
-END_TELEPHONY_NAMESPACE
+}
+}
 #
 endif

@@ -118,8 +118,6 @@ EXPORTS
 mozilla
 .
 dom
-.
-telephony
 +
 =
 [
@@ -148,6 +146,17 @@ TelephonyCallGroup
 .
 h
 '
+]
+EXPORTS
+.
+mozilla
+.
+dom
+.
+telephony
++
+=
+[
 '
 TelephonyCommon
 .

@@ -7,6 +7,12 @@ mozilla_dom_telephony_callevent_h
 #
 include
 "
+mozilla
+/
+dom
+/
+telephony
+/
 TelephonyCommon
 .
 h
@@ -27,9 +33,6 @@ dom
 struct
 CallEventInit
 ;
-}
-}
-BEGIN_TELEPHONY_NAMESPACE
 class
 CallEvent
 MOZ_FINAL
@@ -164,6 +167,7 @@ CallEvent
 }
 }
 ;
-END_TELEPHONY_NAMESPACE
+}
+}
 #
 endif

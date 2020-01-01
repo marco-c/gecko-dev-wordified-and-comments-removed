@@ -7,6 +7,12 @@ mozilla_dom_telephony_telephony_h__
 #
 include
 "
+mozilla
+/
+dom
+/
+telephony
+/
 TelephonyCommon
 .
 h
@@ -37,9 +43,6 @@ dom
 class
 TelephonyCallOrTelephonyCallGroupReturnValue
 ;
-}
-}
-BEGIN_TELEPHONY_NAMESPACE
 class
 Telephony
 MOZ_FINAL
@@ -542,6 +545,7 @@ Shutdown
 ;
 }
 ;
-END_TELEPHONY_NAMESPACE
+}
+}
 #
 endif

@@ -23,7 +23,6 @@ TelephonyCall
 .
 h
 "
-USING_TELEPHONY_NAMESPACE
 using
 namespace
 mozilla

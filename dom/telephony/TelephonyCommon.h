@@ -123,7 +123,15 @@ dom
 :
 telephony
 ;
-BEGIN_TELEPHONY_NAMESPACE
+namespace
+mozilla
+{
+namespace
+dom
+{
+namespace
+telephony
+{
 enum
 {
 kOutgoingPlaceholderCallIndex
@@ -131,6 +139,7 @@ kOutgoingPlaceholderCallIndex
 UINT32_MAX
 }
 ;
+}
 class
 CallsList
 ;
@@ -143,6 +152,7 @@ TelephonyCall
 class
 TelephonyCallGroup
 ;
-END_TELEPHONY_NAMESPACE
+}
+}
 #
 endif

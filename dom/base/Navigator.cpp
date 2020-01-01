@@ -342,8 +342,6 @@ mozilla
 /
 dom
 /
-telephony
-/
 Telephony
 .
 h
@@ -4647,9 +4645,6 @@ return
 mCellBroadcast
 ;
 }
-telephony
-:
-:
 Telephony
 *
 Navigator
@@ -4687,9 +4682,6 @@ nullptr
 }
 mTelephony
 =
-telephony
-:
-:
 Telephony
 :
 :
@@ -6868,9 +6860,6 @@ return
 win
 &
 &
-telephony
-:
-:
 Telephony
 :
 :
