@@ -21,6 +21,13 @@ _moz
 )
 GK_ATOM
 (
+mozframetype
+"
+mozframetype
+"
+)
+GK_ATOM
+(
 mozallowfullscreen
 "
 mozallowfullscreen

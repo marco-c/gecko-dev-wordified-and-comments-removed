@@ -434,6 +434,14 @@ test_principalInherit
 .
 xul
 \
+test_mozFrameType
+.
+xul
+\
+mozFrameType_window
+.
+xul
+\
 (
 NULL
 )
