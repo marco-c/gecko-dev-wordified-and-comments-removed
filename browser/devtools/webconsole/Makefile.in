@@ -449,6 +449,10 @@ GcliCommands
 .
 jsm
 \
+GcliTiltCommands
+.
+jsm
+\
 (
 NULL
 )
