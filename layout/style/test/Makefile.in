@@ -537,6 +537,12 @@ css_properties_like_longhand
 js
 >
 >
+GARBAGE
++
+=
+css_properties
+.
+js
 _TEST_FILES
 =
 test_bug74880
