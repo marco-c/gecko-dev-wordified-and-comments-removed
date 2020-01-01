@@ -7160,7 +7160,9 @@ ifdef
 JS_THREADSAFE
 if
 (
-ss
+active
+(
+)
 )
 {
 cx
@@ -7179,7 +7181,9 @@ this
 JS_ASSERT
 (
 !
-ss
+active
+(
+)
 )
 ;
 }
@@ -7211,6 +7215,13 @@ abort
 (
 )
 {
+JS_ASSERT
+(
+active
+(
+)
+)
+;
 #
 ifdef
 JS_THREADSAFE
@@ -10833,9 +10844,6 @@ data
 ;
 }
 }
-namespace
-js
-{
 static
 const
 uint32_t
@@ -10876,7 +10884,6 @@ finish
 (
 )
 ;
-}
 }
 jssrcnote
 *
@@ -11878,10 +11885,10 @@ script
 lineno
 ;
 }
-namespace
-js
-{
 unsigned
+js
+:
+:
 CurrentLine
 (
 JSContext
@@ -11923,6 +11930,9 @@ pc
 ;
 }
 void
+js
+:
+:
 CurrentScriptFileLineOriginSlow
 (
 JSContext
@@ -12030,7 +12040,6 @@ script
 >
 originPrincipals
 ;
-}
 }
 template
 <
