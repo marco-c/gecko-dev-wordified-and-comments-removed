@@ -521,7 +521,7 @@ NonAllocatableMask
 static
 const
 uint32
-JSCallClobberMask
+JSCallMask
 =
 (
 1
@@ -562,6 +562,13 @@ Registers
 :
 r3
 )
+;
+static
+const
+uint32
+JSCCallMask
+=
+JSCallMask
 ;
 static
 const
@@ -788,13 +795,6 @@ AllMask
 &
 ~
 NonAllocatableMask
-;
-static
-const
-uint32
-JSCallClobberMask
-=
-AllocatableMask
 ;
 }
 ;
