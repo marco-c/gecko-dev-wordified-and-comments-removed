@@ -250,7 +250,15 @@ browserElement_Iconchange
 .
 js
 \
+browserElement_Opensearch
+.
+js
+\
 test_browserElement_inproc_Iconchange
+.
+html
+\
+test_browserElement_inproc_Opensearch
 .
 html
 \
@@ -922,6 +930,10 @@ test_browserElement_oop_TopBarrier
 html
 \
 test_browserElement_oop_Iconchange
+.
+html
+\
+test_browserElement_oop_Opensearch
 .
 html
 \
