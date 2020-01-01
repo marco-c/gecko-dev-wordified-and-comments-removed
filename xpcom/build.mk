@@ -433,9 +433,6 @@ tier_xpcom_dirs
 =
 ipc
 /
-ipdl
-ipc
-/
 chromium
 ipc
 /

@@ -615,6 +615,8 @@ domplugins_s
 \
 mozipc_s
 \
+mozipdlgen_s
+\
 chromium_s
 \
 ipcshell_s

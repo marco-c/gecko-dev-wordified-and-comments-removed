@@ -448,6 +448,10 @@ IPDLUnitTestThreadChild
 .
 h
 \
+IPDLUnitTestTypes
+.
+h
+\
 (
 NULL
 )
