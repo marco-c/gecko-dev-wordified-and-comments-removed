@@ -274,6 +274,12 @@ Run
 {
 nsCacheServiceAutoLock
 lock
+(
+LOCK_TELEM
+(
+NSDISKCACHEDEVICEDEACTIVATEENTRYEVENT_RUN
+)
+)
 ;
 #
 ifdef
@@ -376,6 +382,12 @@ Run
 {
 nsCacheServiceAutoLock
 lock
+(
+LOCK_TELEM
+(
+NSEVICTDISKCACHEENTRIESEVENT_RUN
+)
+)
 ;
 mDevice
 -

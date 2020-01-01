@@ -453,6 +453,12 @@ Close
 {
 nsCacheServiceAutoLock
 lock
+(
+LOCK_TELEM
+(
+NSOUTPUTSTREAMWRAPPER_CLOSE
+)
+)
 ;
 mDescriptor
 -
