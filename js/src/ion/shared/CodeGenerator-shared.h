@@ -31,6 +31,15 @@ IonLinker
 .
 h
 "
+#
+include
+"
+ion
+/
+IonFrames
+.
+h
+"
 namespace
 js
 {
@@ -96,6 +105,12 @@ frameDepth_
 int32
 framePushed_
 ;
+int32
+frameStaticSize_
+;
+FrameSizeClass
+frameClass_
+;
 inline
 int32
 ArgToStackOffset
@@ -115,7 +130,7 @@ slot
 return
 framePushed_
 +
-frameDepth_
+frameStaticSize_
 +
 ION_FRAME_PREFIX_SIZE
 +
@@ -156,7 +171,7 @@ offset
 =
 framePushed_
 +
-frameDepth_
+frameStaticSize_
 -
 slot
 *

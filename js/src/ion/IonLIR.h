@@ -2559,9 +2559,6 @@ op
 *
 )
 {
-return
-true
-;
 JS_NOT_REACHED
 (
 "
