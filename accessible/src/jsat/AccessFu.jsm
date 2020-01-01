@@ -217,9 +217,6 @@ JSON
 stringify
 (
 {
-gecko
-:
-{
 type
 :
 '
@@ -227,7 +224,6 @@ Accessibility
 :
 Ready
 '
-}
 }
 )
 )
@@ -2288,11 +2284,7 @@ JSON
 .
 stringify
 (
-{
-gecko
-:
 androidEvent
-}
 )
 )
 ;
@@ -3206,9 +3198,6 @@ JSON
 stringify
 (
 {
-gecko
-:
-{
 type
 :
 '
@@ -3216,7 +3205,6 @@ ToggleChrome
 :
 Focus
 '
-}
 }
 )
 )

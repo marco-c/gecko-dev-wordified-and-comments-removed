@@ -281,9 +281,6 @@ msg
 active
 ?
 {
-gecko
-:
-{
 type
 :
 "
@@ -295,10 +292,6 @@ data
 :
 aData
 }
-}
-:
-{
-gecko
 :
 {
 type
@@ -308,7 +301,6 @@ LightweightTheme
 :
 Disable
 "
-}
 }
 ;
 let

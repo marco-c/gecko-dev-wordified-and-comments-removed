@@ -152,9 +152,6 @@ let
 message
 =
 {
-gecko
-:
-{
 type
 :
 '
@@ -204,7 +201,6 @@ target
 documentElement
 .
 clientHeight
-}
 }
 ;
 let

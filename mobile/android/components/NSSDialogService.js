@@ -252,11 +252,7 @@ JSON
 .
 stringify
 (
-{
-gecko
-:
 msg
-}
 )
 )
 ;
