@@ -79,9 +79,6 @@ mk
 MODULE
 =
 zlib
-DIRS
-=
-src
 include
 (
 topsrcdir

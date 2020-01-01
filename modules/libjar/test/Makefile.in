@@ -85,10 +85,6 @@ test_libjar
 XPCSHELL_TESTS
 =
 unit
-DIRS
-=
-mochitest
-chrome
 include
 (
 topsrcdir
