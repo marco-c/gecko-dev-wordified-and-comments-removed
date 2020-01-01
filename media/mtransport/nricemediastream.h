@@ -224,6 +224,13 @@ candidate
 )
 ;
 nsresult
+DisableComponent
+(
+int
+component
+)
+;
+nsresult
 GetActivePair
 (
 int
