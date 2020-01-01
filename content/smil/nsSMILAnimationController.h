@@ -513,6 +513,9 @@ mChildContainerTable
 PRPackedBool
 mResampleNeeded
 ;
+PRPackedBool
+mDeferredStartSampling
+;
 nsIDocument
 *
 mDocument
