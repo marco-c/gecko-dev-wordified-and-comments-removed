@@ -450,6 +450,10 @@ head
 .
 js
 \
+remote_head
+.
+js
+\
 browser_mainui
 .
 js
@@ -482,7 +486,11 @@ browser_click_content
 .
 js
 \
-browser_FormAssistant
+browser_forms
+.
+js
+\
+remote_forms
 .
 js
 \
@@ -518,7 +526,7 @@ browser_click_content
 .
 html
 \
-browser_FormAssistant
+browser_forms
 .
 html
 \
