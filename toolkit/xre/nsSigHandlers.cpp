@@ -1108,7 +1108,7 @@ fpregs
 cwd
 ;
 *
-cwd
+cw
 |
 =
 FPU_EXCEPTION_MASK
@@ -1129,7 +1129,7 @@ fpregs
 swd
 ;
 *
-swd
+sw
 &
 =
 ~
@@ -1144,8 +1144,7 @@ uc
 -
 >
 uc_mcontext
--
->
+.
 fpregs
 -
 >
