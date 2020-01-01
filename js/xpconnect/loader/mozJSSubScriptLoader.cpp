@@ -896,11 +896,6 @@ Get
 (
 )
 ;
-if
-(
-loader
-)
-{
 rv
 =
 loader
@@ -919,7 +914,6 @@ rv
 rv
 )
 ;
-}
 }
 nsCOMPtr
 <
