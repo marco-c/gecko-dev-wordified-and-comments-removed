@@ -43,6 +43,11 @@ h
 #
 include
 <
+cstdlib
+>
+#
+include
+<
 intrin
 .
 h
