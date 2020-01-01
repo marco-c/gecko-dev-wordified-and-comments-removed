@@ -9250,7 +9250,7 @@ cx
 >
 malloc_
 (
-getLength
+getByteLength
 (
 tarray
 )
