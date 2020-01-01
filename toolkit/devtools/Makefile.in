@@ -92,6 +92,9 @@ libs
 NSINSTALL
 )
 (
+IFLAGS1
+)
+(
 srcdir
 )
 /

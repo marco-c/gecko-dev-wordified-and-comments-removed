@@ -98,7 +98,10 @@ PARALLEL_DIRS
 =
 [
 '
-debugger
+server
+'
+'
+client
 '
 '
 gcli
@@ -108,8 +111,5 @@ sourcemap
 '
 '
 webconsole
-'
-'
-styleeditor
 '
 ]
