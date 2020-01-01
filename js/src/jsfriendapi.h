@@ -5216,9 +5216,6 @@ CTypesActivityCallback
 callback
 ;
 CTypesActivityType
-beginType
-;
-CTypesActivityType
 endType
 ;
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER

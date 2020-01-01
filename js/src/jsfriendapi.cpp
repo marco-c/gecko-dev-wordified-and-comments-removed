@@ -4893,10 +4893,6 @@ runtime
 >
 ctypesActivityCallback
 )
-beginType
-(
-beginType
-)
 endType
 (
 endType
