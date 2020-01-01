@@ -29,15 +29,6 @@ conformance
 /
 gl
 -
-get
--
-calls
-.
-html
-conformance
-/
-gl
--
 uniform
 -
 bool
