@@ -602,7 +602,7 @@ _BROWSER_FILES
 \
 browser
 /
-aboutcrashes_utils
+head
 .
 js
 \
