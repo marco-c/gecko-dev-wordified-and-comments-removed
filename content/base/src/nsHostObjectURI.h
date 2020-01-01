@@ -1,9 +1,9 @@
 #
 ifndef
-nsBlobURI_h
+nsHostObjectURI_h
 #
 define
-nsBlobURI_h
+nsHostObjectURI_h
 #
 include
 "
@@ -47,7 +47,7 @@ nsSimpleURI
 h
 "
 class
-nsBlobURI
+nsHostObjectURI
 :
 public
 nsSimpleURI
@@ -56,7 +56,7 @@ nsIURIWithPrincipal
 {
 public
 :
-nsBlobURI
+nsHostObjectURI
 (
 nsIPrincipal
 *
@@ -74,12 +74,12 @@ aPrincipal
 }
 virtual
 ~
-nsBlobURI
+nsHostObjectURI
 (
 )
 {
 }
-nsBlobURI
+nsHostObjectURI
 (
 )
 :
@@ -128,7 +128,7 @@ RefHandlingEnum
 {
 return
 new
-nsBlobURI
+nsHostObjectURI
 (
 )
 ;
@@ -143,7 +143,7 @@ mPrincipal
 ;
 #
 define
-NS_BLOBURI_CID
+NS_HOSTOBJECTURI_CID
 \
 {
 0xf5475c51

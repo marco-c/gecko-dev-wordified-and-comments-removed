@@ -471,14 +471,14 @@ h
 #
 include
 "
-nsBlobProtocolHandler
+nsHostObjectProtocolHandler
 .
 h
 "
 #
 include
 "
-nsBlobURI
+nsHostObjectURI
 .
 h
 "
@@ -1563,7 +1563,7 @@ nsBlobProtocolHandler
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
-nsBlobURI
+nsHostObjectURI
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
@@ -3645,7 +3645,7 @@ NS_BLOBPROTOCOLHANDLER_CID
 ;
 NS_DEFINE_NAMED_CID
 (
-NS_BLOBURI_CID
+NS_HOSTOBJECTURI_CID
 )
 ;
 NS_DEFINE_NAMED_CID
@@ -5111,10 +5111,10 @@ nsBlobProtocolHandlerConstructor
 }
 {
 &
-kNS_BLOBURI_CID
+kNS_HOSTOBJECTURI_CID
 false
 NULL
-nsBlobURIConstructor
+nsHostObjectURIConstructor
 }
 {
 &

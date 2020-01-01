@@ -519,11 +519,11 @@ Link
 .
 cpp
 \
-nsBlobProtocolHandler
+nsHostObjectProtocolHandler
 .
 cpp
 \
-nsBlobURI
+nsHostObjectURI
 .
 cpp
 \

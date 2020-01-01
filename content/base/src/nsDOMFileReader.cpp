@@ -225,7 +225,7 @@ h
 #
 include
 "
-nsBlobProtocolHandler
+nsHostObjectProtocolHandler
 .
 h
 "

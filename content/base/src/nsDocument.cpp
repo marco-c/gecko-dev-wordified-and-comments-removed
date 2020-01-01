@@ -579,7 +579,7 @@ h
 #
 include
 "
-nsBlobProtocolHandler
+nsHostObjectProtocolHandler
 .
 h
 "
@@ -6105,7 +6105,7 @@ i
 ;
 i
 <
-mFileDataUris
+mHostObjectURIs
 .
 Length
 (
@@ -6116,12 +6116,12 @@ Length
 i
 )
 {
-nsBlobProtocolHandler
+nsHostObjectProtocolHandler
 :
 :
-RemoveFileDataEntry
+RemoveDataEntry
 (
-mFileDataUris
+mHostObjectURIs
 [
 i
 ]
@@ -32435,7 +32435,7 @@ void
 nsDocument
 :
 :
-RegisterFileDataUri
+RegisterHostObjectUri
 (
 const
 nsACString
@@ -32443,7 +32443,7 @@ nsACString
 aUri
 )
 {
-mFileDataUris
+mHostObjectURIs
 .
 AppendElement
 (
@@ -32455,7 +32455,7 @@ void
 nsDocument
 :
 :
-UnregisterFileDataUri
+UnregisterHostObjectUri
 (
 const
 nsACString
@@ -32463,7 +32463,7 @@ nsACString
 aUri
 )
 {
-mFileDataUris
+mHostObjectURIs
 .
 RemoveElement
 (

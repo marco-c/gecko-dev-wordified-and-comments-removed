@@ -3165,7 +3165,7 @@ nsTArray
 <
 nsCString
 >
-mFileDataUris
+mHostObjectURIs
 ;
 nsSMILAnimationController
 *
@@ -3333,7 +3333,7 @@ GetDocumentState
 ;
 virtual
 void
-RegisterFileDataUri
+RegisterHostObjectUri
 (
 const
 nsACString
@@ -3343,7 +3343,7 @@ aUri
 ;
 virtual
 void
-UnregisterFileDataUri
+UnregisterHostObjectUri
 (
 const
 nsACString
