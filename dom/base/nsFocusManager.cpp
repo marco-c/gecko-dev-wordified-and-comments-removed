@@ -6221,6 +6221,10 @@ GetExtantDocument
 )
 )
 ;
+if
+(
+doc
+)
 SendFocusOrBlurEvent
 (
 NS_BLUR_CONTENT
@@ -6338,6 +6342,13 @@ aWindow
 GetDocShell
 (
 )
+;
+if
+(
+!
+docShell
+)
+return
 ;
 nsCOMPtr
 <
@@ -6621,6 +6632,10 @@ GetExtantDocument
 )
 )
 ;
+if
+(
+doc
+)
 SendFocusOrBlurEvent
 (
 NS_FOCUS_CONTENT
@@ -7028,6 +7043,9 @@ aTarget
 if
 (
 aFocusMethod
+&
+&
+aDocument
 &
 &
 aDocument

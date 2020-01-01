@@ -455,6 +455,14 @@ test_domWindowUtils_scrollXY
 .
 html
 \
+test_497898
+.
+html
+\
+497633
+.
+html
+\
 (
 NULL
 )
