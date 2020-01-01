@@ -3,15 +3,10 @@ prefix
 %
 prefix
 %
-exec_prefix
+sdkdir
 =
 %
-exec_prefix
-%
-libdir
-=
-%
-libdir
+sdkdir
 %
 includedir
 =

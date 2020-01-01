@@ -425,6 +425,9 @@ libreg
 LIBRARY_NAME
 =
 mozreg_s
+DIST_INSTALL
+=
+1
 #
 MacOSX
 requires
@@ -517,6 +520,11 @@ EXPORT_LIBRARY
 USE_STATIC_LIBS
 =
 1
+SDK_LIBRARY
+=
+(
+LIBRARY
+)
 ifeq
 (
 cocoa

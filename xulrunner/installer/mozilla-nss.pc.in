@@ -3,15 +3,10 @@ prefix
 %
 prefix
 %
-exec_prefix
+sdkdir
 =
 %
-exec_prefix
-%
-libdir
-=
-%
-libdir
+sdkdir
 %
 includedir
 =
@@ -47,8 +42,10 @@ Libs
 -
 L
 {
-libdir
+sdkdir
 }
+/
+lib
 -
 lnss3
 -
@@ -65,4 +62,4 @@ I
 includedir
 }
 /
-nss
+stable

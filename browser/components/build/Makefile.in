@@ -388,14 +388,7 @@ lib
 LIBXUL_DIST
 )
 /
-.
-.
-/
-modules
-/
-libreg
-/
-src
+lib
 /
 (
 LIB_PREFIX

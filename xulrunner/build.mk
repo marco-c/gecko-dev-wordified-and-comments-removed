@@ -563,3 +563,14 @@ C
 xulrunner
 /
 installer
+install
+:
+(
+MAKE
+)
+-
+C
+xulrunner
+/
+installer
+install
