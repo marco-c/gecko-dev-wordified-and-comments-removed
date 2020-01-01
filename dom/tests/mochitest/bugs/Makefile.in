@@ -448,6 +448,10 @@ iframe_bug49312
 .
 html
 \
+test_bug132255
+.
+html
+\
 test_bug159849
 .
 html
