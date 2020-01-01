@@ -336,7 +336,7 @@ DOMMediaStream
 >
 mStream
 ;
-nsAutoPtr
+nsRefPtr
 <
 ProcessedMediaStream
 >

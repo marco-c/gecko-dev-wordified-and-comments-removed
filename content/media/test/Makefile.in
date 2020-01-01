@@ -709,6 +709,10 @@ test_decoder_disable
 .
 html
 \
+test_mediarecorder_reload_crash
+.
+html
+\
 test_media_selection
 .
 html
