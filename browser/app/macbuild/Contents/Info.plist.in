@@ -616,7 +616,9 @@ org
 .
 mozilla
 .
-firefox
+%
+LOWER_APP_NAME
+%
 <
 /
 string
