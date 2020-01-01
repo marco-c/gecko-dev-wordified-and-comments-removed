@@ -445,13 +445,6 @@ endif
 JSGCCallback
 gcCallback
 ;
-JSGCThingCallback
-gcThingCallback
-;
-void
-*
-gcThingCallbackClosure
-;
 uint32
 gcMallocBytes
 ;
