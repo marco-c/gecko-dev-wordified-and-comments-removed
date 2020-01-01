@@ -366,7 +366,7 @@ WaitForNotify
 (
 )
 ;
-bool
+void
 SpinInternalEventLoop
 (
 )
