@@ -3341,6 +3341,9 @@ return
 JS_TRUE
 ;
 }
+#
+ifdef
+JS_TRACER
 static
 jsval
 JS_FASTCALL
@@ -3399,6 +3402,8 @@ return
 JSVAL_VOID
 ;
 }
+#
+endif
 static
 JSBool
 Print
