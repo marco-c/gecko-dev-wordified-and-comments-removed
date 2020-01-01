@@ -10410,17 +10410,6 @@ Qt
 WA_NoSystemBackground
 )
 ;
-mDrawingarea
--
->
-setAttribute
-(
-Qt
-:
-:
-WA_PaintOnScreen
-)
-;
 return
 mDrawingarea
 ;
