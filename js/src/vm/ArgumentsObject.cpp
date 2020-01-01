@@ -1322,7 +1322,7 @@ false
 baseops
 :
 :
-DefineGeneric
+DefineProperty
 (
 cx
 obj
@@ -1515,7 +1515,7 @@ if
 baseops
 :
 :
-DefineGeneric
+DefineProperty
 (
 cx
 argsobj
@@ -1797,16 +1797,6 @@ proto
 return
 false
 ;
-Rooted
-<
-jsid
->
-root
-(
-cx
-id
-)
-;
 return
 proto
 -
@@ -1814,7 +1804,11 @@ proto
 getGeneric
 (
 cx
-root
+RootedId
+(
+cx
+id
+)
 vp
 )
 ;
@@ -2486,7 +2480,7 @@ if
 baseops
 :
 :
-DefineGeneric
+DefineProperty
 (
 cx
 argsobj
