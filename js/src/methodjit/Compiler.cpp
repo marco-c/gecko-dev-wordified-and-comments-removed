@@ -9048,8 +9048,9 @@ BEGIN_CASE
 (
 JSOP_RSH
 )
-jsop_rsh
+jsop_bitop
 (
+op
 )
 ;
 END_CASE
