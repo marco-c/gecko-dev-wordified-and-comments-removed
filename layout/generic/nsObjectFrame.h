@@ -615,14 +615,6 @@ LayerManager
 aManager
 )
 ;
-already_AddRefed
-<
-ImageContainer
->
-GetImageContainer
-(
-)
-;
 nsRect
 GetPaintedRect
 (
@@ -917,12 +909,6 @@ mNextConfigurationClipRegion
 ;
 bool
 mReflowCallbackPosted
-;
-nsRefPtr
-<
-ImageContainer
->
-mImageContainer
 ;
 nsRefPtr
 <
