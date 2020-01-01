@@ -199,6 +199,7 @@ eMetric_TabFocusModel
 eMetric_WindowsDefaultTheme
 eMetric_DWMCompositor
 eMetric_WindowsClassic
+eMetric_MacGraphiteTheme
 eMetric_AlertNotificationOrigin
 eMetric_ScrollToClick
 eMetric_IMERawInputUnderlineStyle
