@@ -7,9 +7,9 @@ jsapi_h___
 #
 include
 "
-mozilla
+js
 /
-StdInt
+LegacyIntTypes
 .
 h
 "
