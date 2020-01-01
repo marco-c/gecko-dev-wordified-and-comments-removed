@@ -387,7 +387,7 @@ ex
 )
 )
 ;
-SyncResourceDelegate
+BaseResource
 .
 consumeEntity
 (
@@ -412,7 +412,7 @@ handleRequestError
 ex
 )
 ;
-SyncResourceDelegate
+BaseResource
 .
 consumeEntity
 (
@@ -450,7 +450,7 @@ e
 }
 }
 }
-SyncResourceDelegate
+BaseResource
 .
 consumeEntity
 (
