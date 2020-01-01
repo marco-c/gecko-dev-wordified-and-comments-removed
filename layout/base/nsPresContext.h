@@ -172,6 +172,15 @@ h
 #
 include
 "
+mozilla
+/
+AppUnits
+.
+h
+"
+#
+include
+"
 prclist
 .
 h
@@ -1682,7 +1691,7 @@ AppUnitsPerCSSPixel
 )
 {
 return
-nsDeviceContext
+mozilla
 :
 :
 AppUnitsPerCSSPixel
@@ -1738,9 +1747,6 @@ aPixels
 *
 float
 (
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -1763,9 +1769,6 @@ aPixels
 *
 float
 (
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -1787,9 +1790,6 @@ NSAppUnitsToIntPixels
 aAppUnits
 float
 (
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -1811,9 +1811,6 @@ NSAppUnitsToFloatPixels
 aAppUnits
 float
 (
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -1856,9 +1853,6 @@ NSAppUnitsToIntPixels
 aAppUnits
 float
 (
-mDeviceContext
--
->
 AppUnitsPerDevPixel
 (
 )

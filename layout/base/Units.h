@@ -51,6 +51,15 @@ nsRect
 .
 h
 "
+#
+include
+"
+mozilla
+/
+AppUnits
+.
+h
+"
 namespace
 mozilla
 {
@@ -552,9 +561,6 @@ aPoint
 x
 float
 (
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -567,9 +573,6 @@ aPoint
 y
 float
 (
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -598,9 +601,6 @@ aRect
 x
 float
 (
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -613,9 +613,6 @@ aRect
 y
 float
 (
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -628,9 +625,6 @@ aRect
 width
 float
 (
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -643,9 +637,6 @@ aRect
 height
 float
 (
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -674,9 +665,6 @@ aPoint
 x
 float
 (
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -689,9 +677,6 @@ aPoint
 y
 float
 (
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -720,9 +705,6 @@ aSize
 width
 float
 (
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -735,9 +717,6 @@ aSize
 height
 float
 (
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -766,9 +745,6 @@ aRect
 x
 float
 (
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -781,9 +757,6 @@ aRect
 y
 float
 (
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -796,9 +769,6 @@ aRect
 width
 float
 (
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -811,9 +781,6 @@ aRect
 height
 float
 (
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -843,9 +810,6 @@ x
 *
 float
 (
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -859,9 +823,6 @@ y
 *
 float
 (
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -894,9 +855,6 @@ x
 *
 float
 (
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -913,9 +871,6 @@ y
 *
 float
 (
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -945,9 +900,6 @@ x
 *
 float
 (
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -961,9 +913,6 @@ y
 *
 float
 (
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -977,9 +926,6 @@ width
 *
 float
 (
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
@@ -993,9 +939,6 @@ height
 *
 float
 (
-nsDeviceContext
-:
-:
 AppUnitsPerCSSPixel
 (
 )
