@@ -1300,7 +1300,7 @@ JSVAL_NULL
 }
 JSObject
 *
-FASTCALL
+JS_FASTCALL
 js_Arguments
 (
 JSContext
