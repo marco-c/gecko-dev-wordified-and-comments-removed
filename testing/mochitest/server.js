@@ -1112,6 +1112,13 @@ if
 (
 file
 .
+exists
+(
+)
+&
+&
+file
+.
 path
 .
 indexOf
