@@ -459,6 +459,10 @@ test_smilGetSimpleDuration
 .
 xhtml
 \
+test_smilKeySplines
+.
+xhtml
+\
 test_smilSetCurrentTime
 .
 xhtml

@@ -949,6 +949,15 @@ return
 ;
 if
 (
+mErrorFlags
+!
+=
+0
+)
+return
+;
+if
+(
 mIsActive
 )
 {
