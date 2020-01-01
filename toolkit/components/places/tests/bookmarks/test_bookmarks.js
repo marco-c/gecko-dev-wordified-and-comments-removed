@@ -58,6 +58,9 @@ folder
 index
 itemType
 uri
+title
+dateAdded
+guid
 )
 {
 this
@@ -145,6 +148,16 @@ stmt
 .
 row
 .
+guid
+)
+;
+do_check_eq
+(
+stmt
+.
+row
+.
+guid
 guid
 )
 ;
