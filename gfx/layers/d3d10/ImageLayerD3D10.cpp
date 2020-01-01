@@ -475,10 +475,11 @@ nsAutoPtr
 CairoD3D10BackendData
 >
 dat
-=
+(
 new
 CairoD3D10BackendData
 (
+)
 )
 ;
 dat
@@ -1414,9 +1415,10 @@ nsAutoPtr
 PlanarYCbCrD3D10BackendData
 >
 backendData
-=
+(
 new
 PlanarYCbCrD3D10BackendData
+)
 ;
 PlanarYCbCrImage
 :
