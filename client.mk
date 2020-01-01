@@ -450,14 +450,6 @@ mozilla
 #
 3
 .
-python
-client
-.
-py
-checkout
-#
-4
-.
 create
 your
 .
@@ -472,7 +464,7 @@ MOZ_CO_PROJECT
 suite
 browser
 #
-5
+4
 .
 gmake
 -
