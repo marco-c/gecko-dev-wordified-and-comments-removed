@@ -1251,6 +1251,13 @@ GetPreferredCompositorBackend
 ;
 protected
 :
+virtual
+void
+WindowUsesOMTC
+(
+)
+MOZ_OVERRIDE
+;
 enum
 {
 eFakeTrackPointScrollableID
