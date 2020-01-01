@@ -189,6 +189,10 @@ LayerSorter
 .
 h
 \
+TexturePoolOGL
+.
+h
+\
 (
 NULL
 )
@@ -292,6 +296,10 @@ LayerSorter
 cpp
 \
 ImageLayers
+.
+cpp
+\
+TexturePoolOGL
 .
 cpp
 \
