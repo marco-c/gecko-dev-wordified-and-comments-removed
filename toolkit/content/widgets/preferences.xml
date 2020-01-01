@@ -8170,13 +8170,7 @@ pane
 )
 )
 ;
-event
-.
-originalTarget
-.
-parentNode
-.
-parentNode
+this
 .
 showPane
 (
