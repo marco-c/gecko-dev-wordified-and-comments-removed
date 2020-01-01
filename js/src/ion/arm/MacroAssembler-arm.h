@@ -2752,8 +2752,8 @@ label
 {
 ma_cmp
 (
-rhs
 lhs
+rhs
 )
 ;
 ma_b
@@ -2786,10 +2786,7 @@ imm
 ma_b
 (
 label
-InvertCondition
-(
 cond
-)
 )
 ;
 }

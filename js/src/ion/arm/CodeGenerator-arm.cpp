@@ -431,12 +431,6 @@ generatePrologue
 {
 masm
 .
-breakpoint
-(
-)
-;
-masm
-.
 reserveStack
 (
 frameSize
