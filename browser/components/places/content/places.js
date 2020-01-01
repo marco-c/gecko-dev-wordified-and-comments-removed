@@ -1535,7 +1535,9 @@ applyFilter
 (
 filterString
 true
+[
 folderId
+]
 OptionsFilter
 )
 ;
@@ -1592,7 +1594,7 @@ applyFilter
 (
 filterString
 false
-0
+null
 OptionsFilter
 )
 ;
