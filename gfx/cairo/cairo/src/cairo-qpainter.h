@@ -49,6 +49,8 @@ cairo_surface_t
 *
 cairo_qpainter_surface_create_with_qpixmap
 (
+cairo_content_t
+content
 int
 width
 int

@@ -9909,6 +9909,10 @@ gfxIntSize
 5
 5
 )
+gfxASurface
+:
+:
+CONTENT_COLOR_ALPHA
 )
 ;
 #

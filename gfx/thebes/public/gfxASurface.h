@@ -294,6 +294,14 @@ return
 0
 ;
 }
+static
+gfxContentType
+ContentFromFormat
+(
+gfxImageFormat
+format
+)
+;
 protected
 :
 gfxASurface
