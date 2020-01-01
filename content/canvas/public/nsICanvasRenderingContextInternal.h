@@ -240,10 +240,10 @@ dirty
 0
 ;
 NS_IMETHOD
-SetIsShmem
+SetIsIPC
 (
 PRBool
-isShmem
+isIPC
 )
 =
 0

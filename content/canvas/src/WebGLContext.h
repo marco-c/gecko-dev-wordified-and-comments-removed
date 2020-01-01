@@ -945,7 +945,7 @@ NS_OK
 }
 ;
 NS_IMETHOD
-SetIsShmem
+SetIsIPC
 (
 PRBool
 b
