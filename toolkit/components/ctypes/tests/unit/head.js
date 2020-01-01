@@ -199,11 +199,7 @@ test
 args
 )
 {
-Components
-.
-utils
-.
-forceGC
+trigger_gc
 (
 )
 ;
@@ -253,11 +249,7 @@ throw
 x
 ;
 }
-Components
-.
-utils
-.
-forceGC
+trigger_gc
 (
 )
 ;
