@@ -1825,6 +1825,13 @@ mBufferSize
 (
 0
 )
+mOffscreenFormat
+(
+gfxASurface
+:
+:
+ImageFormatUnknown
+)
 mRecycleBin
 (
 aRecycleBin
