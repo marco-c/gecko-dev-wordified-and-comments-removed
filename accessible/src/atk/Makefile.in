@@ -574,6 +574,10 @@ nsHyperTextAccessibleWrap
 .
 h
 \
+nsHTMLImageAccessibleWrap
+.
+h
+\
 nsHTMLTableAccessibleWrap
 .
 h
