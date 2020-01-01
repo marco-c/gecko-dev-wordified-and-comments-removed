@@ -910,6 +910,9 @@ id
 JSPropertyDescriptor
 *
 desc
+bool
+*
+defined
 )
 {
 if
