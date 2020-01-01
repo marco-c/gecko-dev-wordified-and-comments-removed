@@ -9340,10 +9340,6 @@ mIsJavaScriptEnabled
 (
 false
 )
-mIsWritingPrefs
-(
-false
-)
 mPolicyPrefsChanged
 (
 true

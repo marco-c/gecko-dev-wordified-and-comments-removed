@@ -1454,9 +1454,6 @@ bool
 mIsJavaScriptEnabled
 ;
 bool
-mIsWritingPrefs
-;
-bool
 mPolicyPrefsChanged
 ;
 static
