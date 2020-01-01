@@ -532,6 +532,12 @@ getStartTime
 (
 )
 ;
+/
+/
+raises
+(
+DOMException
+)
 float
 getCurrentTime
 (
@@ -546,7 +552,7 @@ getSimpleDuration
 /
 raises
 (
-nsIDOMDOMException
+DOMException
 )
 }
 ;
