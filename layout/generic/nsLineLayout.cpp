@@ -365,10 +365,6 @@ aOuterReflowState
 -
 >
 frame
-nsLayoutUtils
-:
-:
-eInReflow
 )
 ;
 PL_INIT_ARENA_POOL

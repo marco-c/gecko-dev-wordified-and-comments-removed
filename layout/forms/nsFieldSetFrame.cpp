@@ -1499,7 +1499,7 @@ aPadding
 aFlags
 )
 ;
-AutoMaybeNullInflationContainer
+AutoMaybeDisableFontInflation
 an
 (
 this

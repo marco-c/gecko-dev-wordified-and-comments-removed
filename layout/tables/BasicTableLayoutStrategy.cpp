@@ -264,7 +264,7 @@ if
 aIsCell
 )
 {
-AutoMaybeNullInflationContainer
+AutoMaybeDisableFontInflation
 an
 (
 aFrame

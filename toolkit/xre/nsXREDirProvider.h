@@ -106,6 +106,13 @@ nsXREDirProvider
 (
 )
 ;
+static
+nsXREDirProvider
+*
+GetSingleton
+(
+)
+;
 nsresult
 SetProfile
 (

@@ -6958,7 +6958,7 @@ aPadding
 aFlags
 )
 ;
-AutoMaybeNullInflationContainer
+AutoMaybeDisableFontInflation
 an
 (
 this
@@ -7003,7 +7003,7 @@ nscoord
 aWidthInCB
 )
 {
-AutoMaybeNullInflationContainer
+AutoMaybeDisableFontInflation
 an
 (
 this

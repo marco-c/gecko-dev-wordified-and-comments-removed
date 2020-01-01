@@ -631,12 +631,6 @@ aPt
 void
 InvalidateFocus
 (
-const
-nsHTMLReflowState
-*
-aReflowState
-=
-nsnull
 )
 ;
 nscoord
@@ -802,12 +796,6 @@ ResetList
 (
 bool
 aAllowScrolling
-const
-nsHTMLReflowState
-*
-aReflowState
-=
-nsnull
 )
 ;
 nsListControlFrame

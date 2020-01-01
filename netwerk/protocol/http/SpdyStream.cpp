@@ -240,6 +240,13 @@ SpdyStream
 (
 )
 {
+mStreamID
+=
+SpdySession
+:
+:
+kDeadStreamID
+;
 }
 nsresult
 SpdyStream

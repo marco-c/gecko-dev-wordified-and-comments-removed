@@ -416,6 +416,14 @@ nsSubstring
 aAnchor
 )
 ;
+bool
+Decode5987Format
+(
+nsAString
+&
+aEncoded
+)
+;
 static
 void
 InitializeStatics

@@ -116,6 +116,12 @@ XRE_APP_DISTRIBUTION_DIR
 "
 XREAppDist
 "
+#
+define
+XRE_UPDATE_ROOT_DIR
+"
+UpdRootD
+"
 XRE_API
 (
 int
