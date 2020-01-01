@@ -195,7 +195,15 @@ test_channelMergerNode
 .
 html
 \
+test_channelMergerNodeWithVolume
+.
+html
+\
 test_channelSplitterNode
+.
+html
+\
+test_channelSplitterNodeWithVolume
 .
 html
 \
