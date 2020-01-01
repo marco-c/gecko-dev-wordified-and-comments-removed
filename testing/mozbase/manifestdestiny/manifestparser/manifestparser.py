@@ -2492,7 +2492,7 @@ path
 section
 )
             
-relpath
+_relpath
 =
 path
             
@@ -2538,12 +2538,8 @@ here
 path
 )
                 
-relpath
+_relpath
 =
-os
-.
-path
-.
 relpath
 (
 path
@@ -2568,7 +2564,7 @@ relpath
 '
 ]
 =
-relpath
+_relpath
             
 self
 .
