@@ -9646,6 +9646,11 @@ Tasks
 :
 InspectPage
 '
+'
+Browser
+:
+ToggleTabView
+'
 ]
 ;
 var
