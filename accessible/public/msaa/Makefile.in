@@ -715,6 +715,9 @@ bin
 (
 SHARED_LIBRARY
 )
+EMBED_MANIFEST_AT
+=
+2
 include
 (
 topsrcdir

@@ -490,6 +490,9 @@ NULL
 ENABLE_CXX_EXCEPTIONS
 =
 1
+EMBED_MANIFEST_AT
+=
+2
 include
 (
 topsrcdir

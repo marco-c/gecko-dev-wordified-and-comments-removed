@@ -7287,6 +7287,8 @@ OS_ARCH
 )
 ifdef
 MSMANIFEST_TOOL
+ifdef
+EMBED_MANIFEST_AT
 if
 test
 -
@@ -7310,7 +7312,9 @@ OUTPUTRESOURCE
 :
 \
 ;
-2
+(
+EMBED_MANIFEST_AT
+)
 ;
 \
 rm
@@ -7321,6 +7325,10 @@ manifest
 ;
 \
 fi
+endif
+#
+embed
+manifest
 endif
 #
 MSVC
