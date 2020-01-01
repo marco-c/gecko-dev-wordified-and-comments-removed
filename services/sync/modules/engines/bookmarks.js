@@ -2793,7 +2793,6 @@ ex
 }
 }
 else
-{
 this
 .
 _log
@@ -2814,7 +2813,6 @@ supported
 "
 )
 ;
-}
 }
 }
 break
@@ -3750,7 +3748,6 @@ _ms
 =
 SERVICE_NOT_SUPPORTED
 )
-{
 this
 .
 _log
@@ -3771,7 +3768,6 @@ supported
 "
 )
 ;
-}
 else
 {
 let
