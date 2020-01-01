@@ -1046,6 +1046,7 @@ scriptRuntime
 >
 CreateContext
 (
+false
 nullptr
 )
 ;
@@ -1088,14 +1089,6 @@ s
 InitContext
 failed
 "
-)
-;
-newCtx
--
->
-SetGCOnDestruction
-(
-false
 )
 ;
 newCtx

@@ -4842,6 +4842,8 @@ nsJSContext
 JSRuntime
 *
 aRuntime
+bool
+aGCOnDestruction
 nsIScriptGlobalObject
 *
 aGlobalObject
@@ -4853,7 +4855,7 @@ false
 )
 mGCOnDestruction
 (
-true
+aGCOnDestruction
 )
 mExecuteDepth
 (
@@ -11842,21 +11844,6 @@ mExecuteDepth
 0
 ;
 }
-void
-nsJSContext
-:
-:
-SetGCOnDestruction
-(
-bool
-aGCOnDestruction
-)
-{
-mGCOnDestruction
-=
-aGCOnDestruction
-;
-}
 NS_IMETHODIMP
 nsJSContext
 :
@@ -15282,6 +15269,8 @@ nsJSRuntime
 :
 CreateContext
 (
+bool
+aGCOnDestruction
 nsIScriptGlobalObject
 *
 aGlobalObject
@@ -15297,6 +15286,7 @@ new
 nsJSContext
 (
 sRuntime
+aGCOnDestruction
 aGlobalObject
 )
 ;
