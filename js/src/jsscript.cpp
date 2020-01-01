@@ -8399,14 +8399,6 @@ JSFUN_HEAVYWEIGHT
 ;
 if
 (
-cx
--
->
-typeInferenceEnabled
-(
-)
-&
-&
 !
 script
 -
