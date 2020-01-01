@@ -890,6 +890,10 @@ browser_webconsole_window_zombie
 .
 js
 \
+browser_ConsoleAPICachedMessages
+.
+js
+\
 head
 .
 js
