@@ -183,7 +183,6 @@ actual
 function
 TestCase
 (
-n
 d
 e
 a
@@ -212,7 +211,7 @@ this
 .
 name
 =
-n
+d
 ;
 this
 .
