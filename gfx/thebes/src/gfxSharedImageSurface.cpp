@@ -434,7 +434,7 @@ GetDataSize
 )
 IPC_CREAT
 |
-0777
+0600
 )
 ;
 if
