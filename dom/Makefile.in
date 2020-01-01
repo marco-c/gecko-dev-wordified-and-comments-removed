@@ -498,10 +498,6 @@ interfaces
 /
 smil
 \
-interfaces
-/
-apps
-\
 (
 NULL
 )
