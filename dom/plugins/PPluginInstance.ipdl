@@ -1008,6 +1008,13 @@ PluginGotFocus
 (
 )
 ;
+sync
+SetNestedEventState
+(
+bool
+aState
+)
+;
 child
 :
 rpc

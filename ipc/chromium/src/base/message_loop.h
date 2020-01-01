@@ -490,6 +490,11 @@ bool
 allowed
 )
 ;
+void
+ScheduleWork
+(
+)
+;
 bool
 NestableTasksAllowed
 (

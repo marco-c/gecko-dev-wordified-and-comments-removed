@@ -274,6 +274,9 @@ msg
 ;
 do
 {
+SyncChannel
+:
+:
 WaitForNotify
 (
 )
