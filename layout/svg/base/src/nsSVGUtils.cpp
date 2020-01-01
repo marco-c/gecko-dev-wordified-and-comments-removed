@@ -5653,7 +5653,7 @@ return
 nsSVGIntegrationUtils
 :
 :
-GetInitialMatrix
+GetCSSPxToDevPxMatrix
 (
 aFrame
 )
