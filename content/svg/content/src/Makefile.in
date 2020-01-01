@@ -349,6 +349,10 @@ SVGFEComponentTransferElement
 .
 cpp
 \
+SVGFECompositeElement
+.
+cpp
+\
 SVGFEDistantLightElement
 .
 cpp
@@ -751,6 +755,10 @@ SVGFEColorMatrixElement
 h
 \
 SVGFEComponentTransferElement
+.
+h
+\
+SVGFECompositeElement
 .
 h
 \
