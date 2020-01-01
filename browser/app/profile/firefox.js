@@ -1775,7 +1775,7 @@ aboutHomeSnippets
 updateUrl
 "
 "
-http
+https
 :
 /
 /
