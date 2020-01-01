@@ -354,9 +354,8 @@ createForStrictEval
 JSContext
 *
 cx
-StackFrame
-*
-fp
+AbstractFramePtr
+frame
 )
 ;
 inline
