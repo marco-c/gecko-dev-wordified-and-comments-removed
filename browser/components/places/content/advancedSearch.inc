@@ -1114,7 +1114,7 @@ textbox
 type
 =
 "
-timed
+search
 "
 timeout
 =
@@ -1148,7 +1148,7 @@ textbox
 type
 =
 "
-timed
+search
 "
 timeout
 =
