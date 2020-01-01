@@ -1211,6 +1211,17 @@ RegisterForAllProcessMouseEvents
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
+if
+(
+getenv
+(
+"
+MOZ_DEBUG
+"
+)
+)
+return
+;
 /
 /
 Don
