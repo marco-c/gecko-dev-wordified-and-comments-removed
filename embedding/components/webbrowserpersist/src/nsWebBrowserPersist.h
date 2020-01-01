@@ -216,6 +216,8 @@ nsIURI
 aFile
 bool
 aCalcFileExt
+bool
+aIsPrivate
 )
 ;
 nsresult
@@ -1013,6 +1015,9 @@ mReplaceExisting
 ;
 bool
 mSerializingOutput
+;
+bool
+mIsPrivate
 ;
 uint32_t
 mPersistFlags

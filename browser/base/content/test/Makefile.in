@@ -897,6 +897,14 @@ browser_save_link
 .
 js
 \
+browser_save_private_link
+.
+js
+\
+bug792517
+.
+html
+\
 bug792517
 -
 2
