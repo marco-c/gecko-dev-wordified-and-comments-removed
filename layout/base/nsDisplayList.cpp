@@ -4944,7 +4944,7 @@ aClosure
 )
 {
 PRInt32
-diff
+index1
 =
 nsLayoutUtils
 :
@@ -4958,7 +4958,10 @@ GetUnderlyingFrame
 (
 )
 )
--
+;
+PRInt32
+index2
+=
 nsLayoutUtils
 :
 :
@@ -4974,10 +4977,10 @@ GetUnderlyingFrame
 ;
 if
 (
-diff
+index1
 =
 =
-0
+index2
 )
 return
 IsContentLEQ
@@ -4988,9 +4991,9 @@ aClosure
 )
 ;
 return
-diff
+index1
 <
-0
+index2
 ;
 }
 void
