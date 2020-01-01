@@ -6,7 +6,7 @@ place
 :
 folder
 =
-2
+BOOKMARKS_MENU
 &
 excludeItems
 =
