@@ -204,7 +204,7 @@ hideVKB
 mReceiver
 -
 >
-DispatchActivateEvent
+DispatchActivateEventOnTopLevelWindow
 (
 )
 ;
@@ -224,7 +224,7 @@ hideVKB
 mReceiver
 -
 >
-DispatchDeactivateEvent
+DispatchDeactivateEventOnTopLevelWindow
 (
 )
 ;

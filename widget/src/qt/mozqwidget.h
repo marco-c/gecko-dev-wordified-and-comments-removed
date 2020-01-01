@@ -393,15 +393,8 @@ MozQGraphicsViewEvents
 QGraphicsView
 *
 aView
-MozQWidget
-*
-aTopLevel
 )
 :
-mTopLevelWidget
-(
-aTopLevel
-)
 mView
 (
 aView
@@ -414,6 +407,9 @@ handleEvent
 QEvent
 *
 aEvent
+MozQWidget
+*
+aTopLevel
 )
 {
 if
@@ -441,9 +437,9 @@ WindowActivate
 {
 if
 (
-mTopLevelWidget
+aTopLevel
 )
-mTopLevelWidget
+aTopLevel
 -
 >
 activate
@@ -469,9 +465,9 @@ WindowDeactivate
 {
 if
 (
-mTopLevelWidget
+aTopLevel
 )
-mTopLevelWidget
+aTopLevel
 -
 >
 deactivate
@@ -486,6 +482,9 @@ handleResizeEvent
 QResizeEvent
 *
 aEvent
+MozQWidget
+*
+aTopLevel
 )
 {
 if
@@ -497,10 +496,10 @@ return
 ;
 if
 (
-mTopLevelWidget
+aTopLevel
 )
 {
-mTopLevelWidget
+aTopLevel
 -
 >
 setGeometry
@@ -575,6 +574,9 @@ handleCloseEvent
 QCloseEvent
 *
 aEvent
+MozQWidget
+*
+aTopLevel
 )
 {
 if
@@ -587,7 +589,7 @@ false
 ;
 if
 (
-mTopLevelWidget
+aTopLevel
 )
 {
 QApplication
@@ -595,7 +597,7 @@ QApplication
 :
 postEvent
 (
-mTopLevelWidget
+aTopLevel
 new
 QCloseEvent
 (
@@ -621,10 +623,6 @@ false
 }
 private
 :
-MozQWidget
-*
-mTopLevelWidget
-;
 QGraphicsView
 *
 mView
@@ -663,7 +661,6 @@ aParent
 mEventHandler
 (
 this
-aTopLevel
 )
 mTopLevelWidget
 (
@@ -697,6 +694,7 @@ mEventHandler
 handleEvent
 (
 aEvent
+mTopLevelWidget
 )
 ;
 return
@@ -723,6 +721,7 @@ mEventHandler
 handleResizeEvent
 (
 aEvent
+mTopLevelWidget
 )
 ;
 QGraphicsView
@@ -751,6 +750,7 @@ mEventHandler
 handleCloseEvent
 (
 aEvent
+mTopLevelWidget
 )
 )
 QGraphicsView
