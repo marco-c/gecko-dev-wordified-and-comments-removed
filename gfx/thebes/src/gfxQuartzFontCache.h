@@ -393,6 +393,9 @@ const
 gfxFontStyle
 *
 aStyle
+PRBool
+&
+aNeedsBold
 )
 ;
 void
@@ -463,6 +466,9 @@ const
 gfxFontStyle
 *
 aStyle
+PRBool
+&
+aNeedsBold
 )
 ;
 nsString
@@ -686,6 +692,9 @@ const
 gfxFontStyle
 *
 aStyle
+PRBool
+&
+aNeedsBold
 )
 ;
 MacOSFontEntry
@@ -696,6 +705,9 @@ const
 gfxFontStyle
 *
 aStyle
+PRBool
+&
+aNeedsBold
 )
 ;
 static
