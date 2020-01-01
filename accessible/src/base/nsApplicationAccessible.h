@@ -456,13 +456,6 @@ InvalidateChildren
 (
 )
 ;
-virtual
-nsAccessible
-*
-GetParent
-(
-)
-;
 protected
 :
 virtual
