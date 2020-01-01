@@ -112,6 +112,10 @@ nsIDOMCSSValue
 .
 idl
 \
+nsIDOMCSSValueList
+.
+idl
+\
 nsIDOMElementCSSInlineStyle
 .
 idl

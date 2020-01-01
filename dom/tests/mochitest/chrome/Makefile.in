@@ -238,6 +238,10 @@ file_bug800817
 .
 xul
 \
+test_bug830396
+.
+xul
+\
 test_subscript_bindings
 .
 xul
