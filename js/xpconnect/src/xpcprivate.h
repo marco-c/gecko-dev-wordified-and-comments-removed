@@ -1525,12 +1525,6 @@ JSTRACE_OBJECT
 kind
 =
 =
-JSTRACE_XML
-|
-|
-kind
-=
-=
 JSTRACE_SCRIPT
 ;
 }
