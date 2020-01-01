@@ -5516,12 +5516,13 @@ isExtensible
 &
 &
 !
-obj
--
->
+JSObject
+:
+:
 preventExtensions
 (
 cx
+obj
 )
 )
 return
