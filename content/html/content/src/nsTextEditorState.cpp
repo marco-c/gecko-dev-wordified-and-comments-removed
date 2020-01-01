@@ -298,6 +298,9 @@ IsAlive
 )
 )
 {
+nsAutoScriptBlocker
+scriptBlocker
+;
 mFrame
 -
 >
