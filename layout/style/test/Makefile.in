@@ -539,6 +539,10 @@ js
 >
 _TEST_FILES
 =
+test_bug221428
+.
+html
+\
 test_bug302186
 .
 html
