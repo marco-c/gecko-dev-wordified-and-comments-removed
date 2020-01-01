@@ -244,3 +244,17 @@ offsets
 while
 bisecting
 .
+bug523335
+.
+patch
+:
+Abort
+oggz
+seek
+bisection
+when
+the
+underlying
+stream
+closes
+.
