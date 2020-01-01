@@ -484,6 +484,7 @@ test_start
 .
 html
 \
+#
 test_bug448534
 .
 html
