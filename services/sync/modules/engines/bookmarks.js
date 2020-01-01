@@ -1104,6 +1104,8 @@ _processIncoming
 (
 )
 {
+try
+{
 SyncEngine
 .
 prototype
@@ -1115,6 +1117,9 @@ call
 this
 )
 ;
+}
+finally
+{
 this
 .
 _tracker
@@ -1146,6 +1151,7 @@ _store
 .
 _childrenToOrder
 ;
+}
 }
 _syncFinish
 :
