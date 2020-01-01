@@ -481,6 +481,10 @@ testXDR
 .
 cpp
 \
+testSetPropertyWithNativeGetterStubSetter
+.
+cpp
+\
 (
 NULL
 )
