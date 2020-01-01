@@ -3587,6 +3587,16 @@ LowerCaseEqualsASCII
 trace
 "
 )
+|
+|
+method
+.
+LowerCaseEqualsASCII
+(
+"
+track
+"
+)
 )
 {
 return
