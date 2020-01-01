@@ -684,6 +684,14 @@ test_key_event_counts
 .
 xul
 \
+test_bug596600
+.
+xul
+\
+window_bug596600
+.
+xul
+\
 (
 NULL
 )
