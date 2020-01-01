@@ -6818,7 +6818,7 @@ fp
 )
 -
 >
-pc
+pcQuadratic
 (
 cx
 )
@@ -8061,7 +8061,7 @@ JS_FALSE
 ;
 chars
 =
-js_InflateString
+InflateString
 (
 cx
 bytes
@@ -10940,7 +10940,7 @@ params
 .
 tb5Filename
 =
-js_DeflateString
+DeflateString
 (
 cx
 str
@@ -12072,7 +12072,7 @@ fp
 fp
 -
 >
-pc
+pcQuadratic
 (
 cx
 )
@@ -12097,7 +12097,7 @@ fp
 fp
 -
 >
-pc
+pcQuadratic
 (
 cx
 )
@@ -12619,7 +12619,7 @@ argv
 ;
 filename
 =
-js_DeflateString
+DeflateString
 (
 cx
 str

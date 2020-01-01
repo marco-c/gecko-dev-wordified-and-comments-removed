@@ -11084,7 +11084,7 @@ atom
 ;
 static
 bool
-JS_FASTCALL
+JS_ALWAYS_INLINE
 InlineGetProp
 (
 VMFrame
