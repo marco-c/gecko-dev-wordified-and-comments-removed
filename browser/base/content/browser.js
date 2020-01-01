@@ -7945,6 +7945,12 @@ initializeSanitizer
 (
 )
 ;
+gPrivateBrowsingUI
+.
+init
+(
+)
+;
 }
 function
 nonBrowserWindowShutdown
@@ -7952,6 +7958,12 @@ nonBrowserWindowShutdown
 )
 {
 BrowserOffline
+.
+uninit
+(
+)
+;
+gPrivateBrowsingUI
 .
 uninit
 (
