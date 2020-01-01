@@ -1209,7 +1209,7 @@ org
 {
 fs
 .
-setFaviconDataFromDataURL
+replaceFaviconDataFromDataURL
 (
 testURI
 testFaviconData
