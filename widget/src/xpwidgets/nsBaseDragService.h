@@ -194,6 +194,9 @@ PRPackedBool
 mCanDrop
 ;
 PRPackedBool
+mOnlyChromeDrop
+;
+PRPackedBool
 mDoingDrag
 ;
 PRPackedBool
