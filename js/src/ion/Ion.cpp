@@ -4169,12 +4169,6 @@ IonBuilder
 builder
 (
 cx
-fp
--
->
-scopeChain
-(
-)
 temp
 graph
 &
