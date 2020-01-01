@@ -282,6 +282,9 @@ mCr
 }
 ;
 class
+SineWaveGenerator
+;
+class
 MediaEngineDefaultAudioSource
 :
 public
@@ -431,6 +434,12 @@ mTimer
 SourceMediaStream
 *
 mSource
+;
+nsRefPtr
+<
+SineWaveGenerator
+>
+mSineGenerator
 ;
 }
 ;
