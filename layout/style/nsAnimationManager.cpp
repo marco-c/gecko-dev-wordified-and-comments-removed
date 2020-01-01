@@ -748,6 +748,12 @@ whichIteration
 anim
 .
 mIterationCount
+&
+&
+whichIteration
+!
+=
+0
 )
 {
 -
