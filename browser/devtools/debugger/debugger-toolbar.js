@@ -2039,9 +2039,6 @@ frameView
 index
 :
 0
-relaxed
-:
-true
 attachment
 :
 {
@@ -4557,7 +4554,11 @@ node
 .
 ensureSelectionIsVisible
 (
+{
+withGroup
+:
 true
+}
 )
 ;
 this
