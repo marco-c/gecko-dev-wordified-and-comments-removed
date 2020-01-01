@@ -8361,7 +8361,7 @@ xbl
 inherits
 =
 "
-emptyText
+emptytext
 onfocus
 onblur
 spellcheck
