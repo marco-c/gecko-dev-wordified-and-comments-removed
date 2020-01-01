@@ -769,7 +769,7 @@ JSVAL
 js_Any_getelem
 CONTEXT
 OBJECT
-UINT32
+INT32
 0
 0
 )
@@ -780,7 +780,7 @@ BOOL
 js_Any_setelem
 CONTEXT
 OBJECT
-UINT32
+INT32
 JSVAL
 0
 0
