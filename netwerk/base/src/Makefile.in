@@ -749,6 +749,12 @@ srcdir
 system
 /
 qt
+OS_INCLUDES
++
+=
+(
+MOZ_QT_CFLAGS
+)
 endif
 endif
 EXTRA_COMPONENTS
