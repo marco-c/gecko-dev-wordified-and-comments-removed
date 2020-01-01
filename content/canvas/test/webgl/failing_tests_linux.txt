@@ -80,6 +80,15 @@ attribute
 html
 conformance
 /
+textures
+/
+texture
+-
+mips
+.
+html
+conformance
+/
 uniforms
 /
 gl
