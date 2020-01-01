@@ -12915,7 +12915,9 @@ GetTextDecorationRect
 aPresContext
 size
 ascent
-ascent
+metrics
+.
+maxAscent
 NS_STYLE_TEXT_DECORATION_OVERLINE
 NS_STYLE_BORDER_STYLE_SOLID
 )
