@@ -104,6 +104,12 @@ html
 \
 test_inspector
 -
+changevalue
+.
+html
+\
+test_inspector
+-
 mutations
 -
 attr
