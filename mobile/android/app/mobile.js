@@ -6664,6 +6664,9 @@ GET
 ;
 #
 endif
+#
+ifdef
+NIGHTLY_BUILD
 pref
 (
 "
@@ -6708,6 +6711,8 @@ mozContact
 false
 )
 ;
+#
+endif
 pref
 (
 "
