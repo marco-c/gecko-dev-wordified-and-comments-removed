@@ -1407,7 +1407,7 @@ optargc
 =
 False
                                   
-implict_jscontext
+implicit_jscontext
 =
 a
 .
