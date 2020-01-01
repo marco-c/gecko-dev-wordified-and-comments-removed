@@ -7106,6 +7106,7 @@ p
 ;
 NukeCrossCompartmentWrapper
 (
+cx
 newIdentity
 )
 ;
@@ -7391,6 +7392,7 @@ p
 ;
 NukeCrossCompartmentWrapper
 (
+cx
 newWrapper
 )
 ;
