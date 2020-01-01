@@ -1094,6 +1094,8 @@ MOZ_MEMORY
 export
 DLLFLAGS
 endif
+ifndef
+WINCE
 #
 To
 get
@@ -1103,6 +1105,7 @@ from
 NSS
 export
 MOZ_DEBUG_SYMBOLS
+endif
 ifdef
 .
 PYMAKE
