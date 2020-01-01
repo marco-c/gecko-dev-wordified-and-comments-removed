@@ -226,6 +226,11 @@ ULONG
 ulSize
 )
 ;
+BOOL
+IsDBCS
+(
+)
+;
 extern
 nsGfxModuleData
 gModuleData
