@@ -1452,9 +1452,6 @@ CanvasLayer
 >
 GetCanvasLayer
 (
-nsDisplayListBuilder
-*
-aBuilder
 CanvasLayer
 *
 aOldLayer
@@ -1468,10 +1465,6 @@ MarkContextClean
 (
 )
 {
-mInvalidated
-=
-PR_FALSE
-;
 }
 PRUint32
 Generation

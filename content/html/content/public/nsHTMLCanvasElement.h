@@ -365,9 +365,6 @@ CanvasLayer
 >
 GetCanvasLayer
 (
-nsDisplayListBuilder
-*
-aBuilder
 CanvasLayer
 *
 aOldLayer
