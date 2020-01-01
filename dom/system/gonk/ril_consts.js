@@ -2583,6 +2583,14 @@ SC
 ;
 this
 .
+ICC_CB_FACILITY_FDN
+=
+"
+FD
+"
+;
+this
+.
 ICC_SERVICE_CLASS_NONE
 =
 0
