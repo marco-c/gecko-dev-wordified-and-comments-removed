@@ -15,13 +15,6 @@ h
 #
 include
 "
-prmem
-.
-h
-"
-#
-include
-"
 prbit
 .
 h
@@ -299,7 +292,7 @@ Clear
 (
 )
 ;
-PR_Free
+moz_free
 (
 mImpl
 )
@@ -2953,7 +2946,7 @@ mImpl
 mMappedAttrs
 )
 {
-PR_Free
+moz_free
 (
 mImpl
 )
@@ -2982,7 +2975,7 @@ Impl
 *
 >
 (
-PR_Realloc
+moz_realloc
 (
 mImpl
 (
@@ -3556,7 +3549,7 @@ Impl
 *
 >
 (
-PR_Realloc
+moz_realloc
 (
 mImpl
 size
