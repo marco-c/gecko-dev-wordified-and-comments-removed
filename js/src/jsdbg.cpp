@@ -1223,7 +1223,7 @@ st
 dbg
 -
 >
-onDebuggerStatement
+handleDebuggerStatement
 (
 cx
 vp
