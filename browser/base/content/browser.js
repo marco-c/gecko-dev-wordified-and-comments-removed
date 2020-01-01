@@ -5455,6 +5455,8 @@ setTimeout
 pageShowEventHandlers
 0
 event
+.
+persisted
 )
 ;
 }
