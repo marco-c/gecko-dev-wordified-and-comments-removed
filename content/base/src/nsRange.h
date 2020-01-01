@@ -260,6 +260,15 @@ nsINode
 aNode
 )
 ;
+nsresult
+CutContents
+(
+nsIDOMDocumentFragment
+*
+*
+frag
+)
+;
 public
 :
 static
