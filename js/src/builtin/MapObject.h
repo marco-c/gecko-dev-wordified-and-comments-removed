@@ -447,9 +447,7 @@ static
 bool
 is
 (
-const
-Value
-&
+HandleValue
 v
 )
 ;
@@ -811,9 +809,7 @@ static
 bool
 is
 (
-const
-Value
-&
+HandleValue
 v
 )
 ;

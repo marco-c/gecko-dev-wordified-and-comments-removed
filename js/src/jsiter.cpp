@@ -4311,9 +4311,7 @@ JS_ALWAYS_INLINE
 bool
 IsIterator
 (
-const
-Value
-&
+HandleValue
 v
 )
 {
@@ -4808,9 +4806,7 @@ static
 bool
 IsElementIterator
 (
-const
-Value
-&
+HandleValue
 v
 )
 {
@@ -8164,9 +8160,7 @@ JS_ALWAYS_INLINE
 bool
 IsGenerator
 (
-const
-Value
-&
+HandleValue
 v
 )
 {

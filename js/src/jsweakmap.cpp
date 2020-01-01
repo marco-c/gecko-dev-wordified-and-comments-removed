@@ -647,9 +647,7 @@ JS_ALWAYS_INLINE
 bool
 IsWeakMap
 (
-const
-Value
-&
+HandleValue
 v
 )
 {

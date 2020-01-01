@@ -2585,9 +2585,7 @@ JS_ALWAYS_INLINE
 bool
 IsNumber
 (
-const
-Value
-&
+HandleValue
 v
 )
 {
