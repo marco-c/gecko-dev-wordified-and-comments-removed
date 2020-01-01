@@ -104,7 +104,7 @@ String
 LOG_TAG
 =
 "
-JpakeCrypto
+JPakeCrypto
 "
 ;
 public
@@ -378,6 +378,7 @@ LOG_TAG
 "
 round2
 started
+.
 "
 )
 ;
@@ -543,6 +544,7 @@ LOG_TAG
 "
 round2
 finished
+.
 "
 )
 ;
@@ -566,9 +568,10 @@ d
 (
 LOG_TAG
 "
-final
+Final
 round
 started
+.
 "
 )
 ;
@@ -701,12 +704,13 @@ d
 (
 LOG_TAG
 "
-final
+Final
 round
 finished
 ;
 returning
 key
+.
 "
 )
 ;
@@ -964,6 +968,7 @@ x
 >
 1
 fails
+.
 "
 )
 ;
@@ -974,7 +979,6 @@ IncorrectZkpException
 )
 ;
 }
-else
 if
 (
 gx
@@ -1009,6 +1013,7 @@ p
 -
 1
 fails
+.
 "
 )
 ;
@@ -1019,7 +1024,6 @@ IncorrectZkpException
 )
 ;
 }
-else
 if
 (
 gx
@@ -1057,11 +1061,17 @@ p
 =
 1
 fails
+.
 "
 )
 ;
+throw
+new
+IncorrectZkpException
+(
+)
+;
 }
-else
 if
 (
 zkp
@@ -1289,6 +1299,7 @@ LOG_TAG
 zkp
 calculation
 incorrect
+.
 "
 )
 ;
@@ -1299,8 +1310,6 @@ IncorrectZkpException
 )
 ;
 }
-else
-{
 Log
 .
 d
@@ -1318,7 +1327,6 @@ SUCCESS
 "
 )
 ;
-}
 }
 private
 static

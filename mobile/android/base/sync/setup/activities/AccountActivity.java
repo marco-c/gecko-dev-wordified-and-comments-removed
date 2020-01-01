@@ -267,6 +267,15 @@ Bundle
 savedInstanceState
 )
 {
+setTheme
+(
+R
+.
+style
+.
+SyncTheme
+)
+;
 super
 .
 onCreate
@@ -573,9 +582,8 @@ View
 target
 )
 {
-moveTaskToBack
+finish
 (
-true
 )
 ;
 }
