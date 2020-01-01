@@ -271,6 +271,12 @@ close
 -
 button
 "
+tabindex
+=
+"
+-
+1
+"
 /
 >
 <
