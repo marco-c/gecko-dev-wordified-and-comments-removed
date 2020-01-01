@@ -13197,8 +13197,7 @@ _sendHistoryEvent
 "
 Purge
 "
--
-1
+aNumEntries
 null
 )
 ;
