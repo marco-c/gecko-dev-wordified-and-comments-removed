@@ -18,7 +18,7 @@ org
 /
 thunderbird
 /
-nightly
+releases
 /
 2
 .
@@ -27,10 +27,6 @@ nightly
 0
 .
 4
--
-candidates
-/
-rc2
 /
 product
 =
@@ -70,7 +66,7 @@ releases
 .
 0
 .
-3
+4
 /
 linux
 -
@@ -88,7 +84,7 @@ firefox
 .
 0
 .
-3
+4
 .
 tar
 .
@@ -179,3 +175,6 @@ xpi
 test
 =
 ftp
+buildtype
+=
+nightly

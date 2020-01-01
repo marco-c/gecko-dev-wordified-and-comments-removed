@@ -166,3 +166,6 @@ xpi
 test
 =
 all
+buildtype
+=
+nightly

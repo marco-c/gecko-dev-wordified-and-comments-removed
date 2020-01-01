@@ -355,3 +355,13 @@ codebase_principal_support
 true
 )
 ;
+user_pref
+(
+"
+browser
+.
+warnOnQuit
+"
+false
+)
+;

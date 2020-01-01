@@ -389,3 +389,13 @@ html
 "
 )
 ;
+user_pref
+(
+"
+browser
+.
+warnOnQuit
+"
+false
+)
+;

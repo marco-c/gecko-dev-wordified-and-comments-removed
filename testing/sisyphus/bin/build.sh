@@ -517,9 +517,8 @@ case
 OSID
 "
 in
-"
 mac
-"
+*
 )
 if
 [

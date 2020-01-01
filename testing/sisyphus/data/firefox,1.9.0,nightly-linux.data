@@ -38,7 +38,7 @@ firefox
 -
 3
 .
-0a5pre
+0a7pre
 .
 en
 -
@@ -134,3 +134,6 @@ com
 www
 /
 xpi
+buildtype
+=
+nightly

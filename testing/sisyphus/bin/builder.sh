@@ -979,7 +979,7 @@ extra
 buildtype
 OSID
 {
-MACHINE
+TEST_MACHINE
 }
 clean
 .
@@ -987,9 +987,6 @@ log
 "
 echo
 "
-writing
-results
-to
 TEST_LOG
 "
 clean
@@ -1089,7 +1086,7 @@ extra
 buildtype
 OSID
 {
-MACHINE
+TEST_MACHINE
 }
 checkout
 .
@@ -1097,9 +1094,6 @@ log
 "
 echo
 "
-writing
-results
-to
 TEST_LOG
 "
 checkout
@@ -1199,18 +1193,14 @@ extra
 buildtype
 OSID
 {
-MACHINE
+TEST_MACHINE
 }
--
 build
 .
 log
 "
 echo
 "
-writing
-results
-to
 TEST_LOG
 "
 build

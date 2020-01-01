@@ -16,9 +16,9 @@ mozilla
 .
 org
 /
-firefox
-/
 thunderbird
+/
+releases
 /
 2
 .
@@ -27,10 +27,6 @@ thunderbird
 0
 .
 4
--
-candidates
-/
-rc2
 /
 product
 =
@@ -70,7 +66,7 @@ releases
 .
 0
 .
-3
+4
 /
 win32
 /
@@ -88,7 +84,7 @@ Firefox
 .
 0
 .
-3
+4
 .
 exe
 profilename
@@ -177,3 +173,6 @@ xpi
 test
 =
 ftp
+buildtype
+=
+nightly

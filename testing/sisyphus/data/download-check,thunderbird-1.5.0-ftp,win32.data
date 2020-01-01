@@ -177,3 +177,6 @@ xpi
 test
 =
 ftp
+buildtype
+=
+nightly
