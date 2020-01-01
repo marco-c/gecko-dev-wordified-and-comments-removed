@@ -269,6 +269,16 @@ global
 groupbox
 .
 css
+*
+skin
+/
+classic
+/
+global
+/
+headsUpDisplay
+.
+css
 skin
 /
 classic
