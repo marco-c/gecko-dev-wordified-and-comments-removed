@@ -676,7 +676,7 @@ uint32
 gcMaxMallocBytes
 ;
 uint32
-gcStackPoolLifespan
+gcEmptyArenaPoolLifespan
 ;
 uint32
 gcLevel
@@ -2197,6 +2197,9 @@ debugHooks
 JSSecurityCallbacks
 *
 securityCallbacks
+;
+JSArenaPool
+regexpPool
 ;
 }
 ;

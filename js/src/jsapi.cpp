@@ -11715,7 +11715,7 @@ JSGC_STACKPOOL_LIFESPAN
 rt
 -
 >
-gcStackPoolLifespan
+gcEmptyArenaPoolLifespan
 =
 value
 ;
