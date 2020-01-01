@@ -36115,7 +36115,7 @@ NULL
 if
 (
 !
-JS_DefineFunctionWithType
+JS_DefineFunction
 (
 cx
 obj
@@ -36123,7 +36123,6 @@ js_isXMLName_str
 xml_isXMLName
 1
 0
-JS_TypeHandlerBool
 )
 )
 return
@@ -36312,7 +36311,7 @@ NULL
 ;
 fun
 =
-JS_DefineFunctionWithType
+JS_DefineFunction
 (
 cx
 obj
@@ -36320,7 +36319,6 @@ js_XMLList_str
 XMLList
 1
 JSFUN_CONSTRUCTOR
-JS_TypeHandlerDynamic
 )
 ;
 if
