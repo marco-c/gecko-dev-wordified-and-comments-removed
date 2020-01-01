@@ -1297,13 +1297,13 @@ mGIFStruct
 images_decoded
 )
 ;
+}
 mGIFStruct
 .
 images_decoded
 +
 +
 ;
-}
 if
 (
 mObserver
