@@ -578,7 +578,7 @@ gfxContext
 Init
 (
 const
-gfxRect
+nsRect
 &
 aRect
 nscoord
@@ -589,7 +589,7 @@ gfxContext
 *
 aDestinationCtx
 const
-gfxRect
+nsRect
 &
 aDirtyRect
 )
