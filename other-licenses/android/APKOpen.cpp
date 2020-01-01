@@ -1050,6 +1050,10 @@ SHELL_WRAPPER1
 notifyGeckoOfEvent
 jobject
 )
+SHELL_WRAPPER0
+(
+processNextNativeEvent
+)
 SHELL_WRAPPER1
 (
 setSurfaceView
@@ -3936,6 +3940,11 @@ nativeRun
 GETFUNC
 (
 notifyGeckoOfEvent
+)
+;
+GETFUNC
+(
+processNextNativeEvent
 )
 ;
 GETFUNC

@@ -513,6 +513,14 @@ String
 stack
 )
 ;
+public
+static
+native
+void
+processNextNativeEvent
+(
+)
+;
 private
 static
 class
