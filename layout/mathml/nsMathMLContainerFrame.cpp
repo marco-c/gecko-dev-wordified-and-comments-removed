@@ -71,13 +71,6 @@ h
 #
 include
 "
-nsIDOMText
-.
-h
-"
-#
-include
-"
 nsIDOMMutationEvent
 .
 h

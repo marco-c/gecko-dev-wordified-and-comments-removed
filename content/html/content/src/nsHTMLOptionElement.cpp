@@ -64,13 +64,6 @@ h
 #
 include
 "
-nsIDOMText
-.
-h
-"
-#
-include
-"
 nsIDOMNode
 .
 h

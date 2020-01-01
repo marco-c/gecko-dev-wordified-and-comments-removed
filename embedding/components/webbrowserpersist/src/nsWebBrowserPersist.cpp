@@ -419,13 +419,6 @@ h
 #
 include
 "
-nsIDOMText
-.
-h
-"
-#
-include
-"
 nsIDOMSVGImageElement
 .
 h

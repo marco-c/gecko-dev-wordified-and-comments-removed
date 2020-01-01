@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsIDOMText
-.
-h
-"
-#
-include
-"
 nsIDOMElement
 .
 h

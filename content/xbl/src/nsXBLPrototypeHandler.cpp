@@ -141,13 +141,6 @@ h
 #
 include
 "
-nsIDOMText
-.
-h
-"
-#
-include
-"
 nsFocusManager
 .
 h

@@ -57,13 +57,6 @@ h
 #
 include
 "
-nsIDOMText
-.
-h
-"
-#
-include
-"
 nsIContentIterator
 .
 h
