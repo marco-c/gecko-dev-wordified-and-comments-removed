@@ -448,7 +448,6 @@ ValueFromString
 mPropID
 mElement
 computedStyleVal
-PR_FALSE
 baseValue
 )
 ;
@@ -497,7 +496,6 @@ ValueFromString
 mPropID
 mElement
 aStr
-PR_FALSE
 aValue
 )
 ;
