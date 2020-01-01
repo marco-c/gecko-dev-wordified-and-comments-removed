@@ -10689,7 +10689,7 @@ is
 lossy
 .
 Use
-GetCanoincailPath
+GetCanonicalPath
 !
 "
 )
