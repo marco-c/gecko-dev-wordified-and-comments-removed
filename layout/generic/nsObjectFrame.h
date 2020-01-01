@@ -494,6 +494,11 @@ nsSize
 aSize
 )
 ;
+void
+CallSetWindow
+(
+)
+;
 PRBool
 IsFocusable
 (
