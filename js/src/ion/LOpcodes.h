@@ -783,6 +783,11 @@ GetElementCacheV
 \
 _
 (
+GetElementCacheT
+)
+\
+_
+(
 BindNameCache
 )
 \

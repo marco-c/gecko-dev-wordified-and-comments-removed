@@ -1567,6 +1567,14 @@ ins
 )
 ;
 bool
+visitGetElementCacheT
+(
+LGetElementCacheT
+*
+ins
+)
+;
+bool
 visitBindNameCache
 (
 LBindNameCache
