@@ -1325,6 +1325,13 @@ bin
 /
 components
 /
+nsAddonRepository
+.
+js
+bin
+/
+components
+/
 nsBrowserContentHandler
 .
 js
