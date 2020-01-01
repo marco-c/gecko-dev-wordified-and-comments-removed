@@ -204,7 +204,7 @@ RASTERIZE_EDGES
 rasterize_edges_4
 #
 ifndef
-WORDS_BIG_ENDIAN
+WORDS_BIGENDIAN
 #
 define
 SHIFT_4
