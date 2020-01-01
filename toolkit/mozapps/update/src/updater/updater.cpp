@@ -3903,8 +3903,10 @@ LOG
 "
 EXECUTE
 PATCH
-%
-s
+2
+"
+LOG_S
+"
 \
 n
 "
@@ -4012,8 +4014,9 @@ LOG
 "
 FINISH
 PATCH
-%
-s
+"
+LOG_S
+"
 \
 n
 "
