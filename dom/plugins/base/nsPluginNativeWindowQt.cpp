@@ -147,6 +147,12 @@ type
 =
 0
 ;
+#
+if
+defined
+(
+MOZ_X11
+)
 mWsInfo
 .
 display
@@ -171,6 +177,8 @@ depth
 =
 0
 ;
+#
+endif
 }
 nsPluginNativeWindowQt
 :

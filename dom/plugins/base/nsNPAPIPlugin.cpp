@@ -9237,13 +9237,7 @@ NPNVxDisplay
 if
 defined
 (
-MOZ_WIDGET_GTK2
-)
-|
-|
-defined
-(
-MOZ_WIDGET_QT
+MOZ_X11
 )
 if
 (

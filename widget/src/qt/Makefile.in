@@ -802,6 +802,7 @@ srcdir
 shared
 /
 x11
+endif
 INCLUDES
 +
 =
@@ -815,4 +816,3 @@ srcdir
 .
 /
 shared
-endif

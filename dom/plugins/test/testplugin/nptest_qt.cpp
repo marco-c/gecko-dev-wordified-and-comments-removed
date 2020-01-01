@@ -281,6 +281,9 @@ window
 .
 height
 ;
+#
+ifdef
+MOZ_X11
 XEvent
 *
 nsEvent
@@ -387,6 +390,8 @@ instanceData
 return
 ;
 }
+#
+endif
 NPP
 npp
 =
@@ -421,6 +426,9 @@ isEmpty
 )
 return
 ;
+#
+ifdef
+MOZ_X11
 QColor
 color
 ;
@@ -519,6 +527,8 @@ notifyDidPaint
 instanceData
 )
 ;
+#
+endif
 return
 ;
 }

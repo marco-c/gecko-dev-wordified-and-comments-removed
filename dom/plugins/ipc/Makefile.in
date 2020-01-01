@@ -479,7 +479,7 @@ NPEventWindows
 .
 h
 \
-NPEventX11
+NPEventUnix
 .
 h
 \

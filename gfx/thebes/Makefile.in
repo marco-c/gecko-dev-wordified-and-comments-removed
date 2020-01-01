@@ -1030,6 +1030,8 @@ cpp
 gfxQPainterSurface
 .
 cpp
+ifdef
+MOZ_X11
 CPPSRCS
 +
 =
@@ -1039,6 +1041,7 @@ cpp
 gfxQtNativeRenderer
 .
 cpp
+endif
 ifdef
 MOZ_PANGO
 CPPSRCS
