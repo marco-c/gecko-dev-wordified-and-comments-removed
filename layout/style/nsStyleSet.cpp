@@ -2422,6 +2422,15 @@ n
 )
 &
 &
+(
+n
+-
+>
+IsRoot
+(
+)
+|
+|
 n
 -
 >
@@ -2434,6 +2443,7 @@ nsStyleSet
 :
 :
 eAnimationSheet
+)
 "
 wrong
 level
