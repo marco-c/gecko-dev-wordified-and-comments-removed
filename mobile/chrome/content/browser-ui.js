@@ -233,6 +233,16 @@ aProp
 aValue
 )
 {
+let
+value
+=
+Math
+.
+round
+(
+aValue
+)
+;
 if
 (
 aProp
@@ -249,7 +259,7 @@ style
 .
 marginLeft
 =
-aValue
+value
 +
 "
 px
@@ -262,7 +272,7 @@ style
 marginRight
 =
 -
-aValue
+value
 +
 "
 px
@@ -286,7 +296,7 @@ style
 .
 marginTop
 =
-aValue
+value
 +
 "
 px
@@ -299,7 +309,7 @@ style
 marginBottom
 =
 -
-aValue
+value
 +
 "
 px
