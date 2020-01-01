@@ -45,6 +45,9 @@ uintN
 flags
 )
 :
+js
+:
+:
 CrossCompartmentWrapper
 (
 flags
