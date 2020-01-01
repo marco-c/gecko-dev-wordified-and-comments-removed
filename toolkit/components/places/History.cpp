@@ -911,7 +911,7 @@ aCtx
 JSObject
 *
 aArray
-unsigned
+uint32_t
 aIndex
 JSObject
 *
@@ -8526,7 +8526,7 @@ aPlaceInfos
 NS_ERROR_INVALID_ARG
 )
 ;
-unsigned
+uint32_t
 infosLength
 =
 1
@@ -8619,7 +8619,7 @@ visitData
 ;
 for
 (
-unsigned
+uint32_t
 i
 =
 0
@@ -8840,7 +8840,7 @@ NS_ENSURE_ARG
 visits
 )
 ;
-unsigned
+uint32_t
 visitsLength
 =
 0
@@ -8884,7 +8884,7 @@ visitsLength
 ;
 for
 (
-unsigned
+uint32_t
 j
 =
 0

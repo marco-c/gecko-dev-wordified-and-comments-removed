@@ -359,7 +359,7 @@ JSObject
 *
 obj
 ;
-unsigned
+uint32_t
 length
 ;
 if

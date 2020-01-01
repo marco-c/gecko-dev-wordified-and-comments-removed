@@ -764,7 +764,7 @@ toObject
 (
 )
 ;
-unsigned
+uint32_t
 size
 ;
 JS_ALWAYS_TRUE
@@ -791,7 +791,7 @@ size
 ;
 for
 (
-unsigned
+uint32_t
 i
 =
 0

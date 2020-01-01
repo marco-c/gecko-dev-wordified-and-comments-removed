@@ -2924,7 +2924,7 @@ return
 -
 1
 ;
-unsigned
+uint32_t
 i
 ;
 JSLinearString

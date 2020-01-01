@@ -608,7 +608,7 @@ ccx
 JSObject
 *
 array
-unsigned
+uint32_t
 length
 nsXPTType
 *
@@ -743,7 +743,7 @@ ccx
 JSObject
 *
 array
-unsigned
+uint32_t
 length
 nsXPTType
 *

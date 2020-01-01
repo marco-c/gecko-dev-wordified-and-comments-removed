@@ -14732,12 +14732,12 @@ low
 if
 (
 (
-unsigned
+uint32_t
 )
 i
 <
 (
-unsigned
+uint32_t
 )
 (
 high
@@ -17987,7 +17987,7 @@ id
 ;
 JS_ASSERT
 (
-unsigned
+uint32_t
 (
 JSID_TO_INT
 (
@@ -18023,7 +18023,7 @@ js_SetLengthProperty
 cx
 obj
 (
-unsigned
+uint32_t
 )
 (
 JSID_TO_INT

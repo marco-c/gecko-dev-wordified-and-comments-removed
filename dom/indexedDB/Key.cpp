@@ -261,7 +261,7 @@ typeoffset
 "
 )
 ;
-unsigned
+uint32_t
 length
 ;
 if
@@ -282,7 +282,7 @@ NS_ERROR_DOM_INDEXEDDB_UNKNOWN_ERR
 }
 for
 (
-unsigned
+uint32_t
 index
 =
 0
@@ -474,7 +474,7 @@ aTypeOffset
 0
 ;
 }
-unsigned
+uint32_t
 index
 =
 0

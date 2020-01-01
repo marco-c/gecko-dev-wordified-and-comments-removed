@@ -10644,7 +10644,7 @@ cx
 return
 JS_FALSE
 ;
-unsigned
+uint32_t
 oldLen
 =
 obj

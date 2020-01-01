@@ -5389,7 +5389,7 @@ get
 )
 ;
 }
-unsigned
+uint32_t
 symbolCount
 =
 0
@@ -5432,7 +5432,7 @@ logBuffer
 endif
 for
 (
-unsigned
+uint32_t
 i
 =
 0

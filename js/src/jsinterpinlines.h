@@ -796,7 +796,7 @@ isArray
 )
 )
 {
-unsigned
+uint32_t
 length
 =
 obj
@@ -4272,7 +4272,7 @@ id
 )
 )
 {
-unsigned
+uint32_t
 length
 =
 obj
@@ -4293,7 +4293,7 @@ id
 if
 (
 (
-unsigned
+uint32_t
 )
 i
 <
@@ -4329,7 +4329,7 @@ break
 if
 (
 (
-unsigned
+uint32_t
 )
 i
 >

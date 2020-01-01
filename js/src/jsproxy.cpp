@@ -2572,7 +2572,7 @@ toObject
 (
 )
 ;
-unsigned
+uint32_t
 length
 ;
 if
@@ -2591,7 +2591,7 @@ false
 ;
 for
 (
-unsigned
+uint32_t
 n
 =
 0

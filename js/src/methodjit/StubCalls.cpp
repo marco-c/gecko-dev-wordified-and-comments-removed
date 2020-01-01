@@ -1291,7 +1291,7 @@ id
 )
 )
 {
-unsigned
+uint32_t
 length
 =
 obj
@@ -1312,7 +1312,7 @@ id
 if
 (
 (
-unsigned
+uint32_t
 )
 i
 <
@@ -1348,7 +1348,7 @@ break
 if
 (
 (
-unsigned
+uint32_t
 )
 i
 >
@@ -6175,7 +6175,7 @@ id
 ;
 JS_ASSERT
 (
-unsigned
+uint32_t
 (
 JSID_TO_INT
 (
@@ -6200,7 +6200,7 @@ js_SetLengthProperty
 cx
 obj
 (
-unsigned
+uint32_t
 )
 (
 JSID_TO_INT
@@ -9557,12 +9557,12 @@ low
 if
 (
 (
-unsigned
+uint32_t
 )
 tableIdx
 <
 (
-unsigned
+uint32_t
 )
 (
 high

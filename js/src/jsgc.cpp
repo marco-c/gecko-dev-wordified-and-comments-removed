@@ -3163,7 +3163,7 @@ next
 NULL
 ;
 }
-unsigned
+uint32_t
 Chunk
 :
 :

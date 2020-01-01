@@ -548,7 +548,7 @@ array
 )
 )
 ;
-unsigned
+uint32_t
 tmp
 ;
 CHECK

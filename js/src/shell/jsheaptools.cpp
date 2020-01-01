@@ -1841,7 +1841,7 @@ array
 )
 )
 ;
-unsigned
+uint32_t
 length
 ;
 return
