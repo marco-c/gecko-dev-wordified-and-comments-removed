@@ -469,6 +469,10 @@ AwesomeBar
 .
 java
 \
+AwesomeBarTabs
+.
+java
+\
 GeckoBookmarks
 .
 java
@@ -989,6 +993,14 @@ res
 layout
 /
 awesomebar_row
+.
+xml
+\
+res
+/
+layout
+/
+awesomebar_tabs
 .
 xml
 \
