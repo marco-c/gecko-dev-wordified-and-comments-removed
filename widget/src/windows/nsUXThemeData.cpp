@@ -1385,7 +1385,10 @@ sCommandButtons
 .
 cy
 ;
-if
+sTitlebarInfoPopulatedAero
+=
+sTitlebarInfoPopulatedThemed
+=
 (
 nsWindow
 :
@@ -1396,14 +1399,7 @@ GetWindowsVersion
 <
 VISTA_VERSION
 )
-{
-sTitlebarInfoPopulatedAero
-=
-sTitlebarInfoPopulatedThemed
-=
-PR_TRUE
 ;
-}
 }
 void
 nsUXThemeData

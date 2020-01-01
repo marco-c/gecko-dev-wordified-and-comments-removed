@@ -54,9 +54,14 @@ define
 WIN7_VERSION
 0x601
 #
+ifndef
+WM_THEMECHANGED
+#
 define
-WM_XP_THEMECHANGED
+WM_THEMECHANGED
 0x031A
+#
+endif
 #
 ifndef
 WM_GETOBJECT
