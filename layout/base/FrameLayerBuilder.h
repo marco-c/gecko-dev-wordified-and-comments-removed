@@ -1849,8 +1849,10 @@ LayerManager
 *
 mRetainingManager
 ;
+nsRefPtr
+<
 nsRootPresContext
-*
+>
 mRootPresContext
 ;
 nsDisplayListBuilder
