@@ -277,6 +277,16 @@ scriptObjPrincipal
 NULL
 )
 ;
+if
+(
+pWindow
+-
+>
+GetOuterWindow
+(
+)
+)
+{
 nsIPrincipal
 *
 principal
@@ -304,6 +314,7 @@ uri
 )
 )
 ;
+}
 }
 }
 return
