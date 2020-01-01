@@ -780,7 +780,7 @@ aMsg
 timeStamp
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIDOMGeoPositionCoords
 >
@@ -812,7 +812,7 @@ aMsg
 simpleCoords
 )
 ;
-nsRefPtr
+nsCOMPtr
 <
 nsIDOMGeoPositionAddress
 >
@@ -898,6 +898,8 @@ timeStamp
 ;
 GeoPositionCoords
 coords
+=
+nsnull
 ;
 GeoPositionAddress
 address
@@ -933,9 +935,14 @@ address
 )
 )
 )
+{
+delete
+coords
+;
 return
 false
 ;
+}
 *
 aResult
 =
