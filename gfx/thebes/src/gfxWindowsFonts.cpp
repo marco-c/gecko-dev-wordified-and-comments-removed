@@ -354,7 +354,7 @@ mAdjustedSize
 (
 0
 .
-0f
+0
 )
 mScriptCache
 (
@@ -935,7 +935,7 @@ xHeight
 =
 0
 .
-0f
+0
 &
 &
 GetStyle
@@ -947,7 +947,7 @@ sizeAdjust
 >
 0
 .
-0f
+0
 )
 {
 if
