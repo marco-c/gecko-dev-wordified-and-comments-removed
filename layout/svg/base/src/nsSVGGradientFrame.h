@@ -74,7 +74,7 @@ nsSVGGeometryFrame
 *
 aSource
 float
-aOpacity
+aGraphicOpacity
 void
 *
 *
@@ -297,7 +297,7 @@ nscolor
 aColor
 float
 *
-aOpacity
+aStopOpacity
 )
 ;
 nsresult
