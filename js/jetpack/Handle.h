@@ -331,12 +331,6 @@ mObj
 mCx
 )
 {
-JSAutoRequest
-request
-(
-cx
-)
-;
 JSClass
 *
 clasp
