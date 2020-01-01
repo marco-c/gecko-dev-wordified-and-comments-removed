@@ -4766,7 +4766,7 @@ menuitem
 id
 =
 "
-menu_viewPageInfo
+menu_pageInfo
 "
 accesskey
 =
