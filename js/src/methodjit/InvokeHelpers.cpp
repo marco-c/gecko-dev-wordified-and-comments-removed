@@ -3593,6 +3593,8 @@ break
 ok
 &
 =
+bool
+(
 js_UnwindScope
 (
 cx
@@ -3601,6 +3603,7 @@ cx
 -
 >
 throwing
+)
 )
 ;
 InlineReturn
