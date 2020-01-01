@@ -5519,6 +5519,13 @@ components
 /
 FastStartup
 .
+manifest
+BINPATH
+/
+components
+/
+FastStartup
+.
 js
 #
 endif
