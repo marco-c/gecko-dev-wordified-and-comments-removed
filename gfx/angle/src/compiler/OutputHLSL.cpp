@@ -966,7 +966,7 @@ out
 "
 uniform
 float4
-dx_Viewport
+dx_Coord
 ;
 \
 n

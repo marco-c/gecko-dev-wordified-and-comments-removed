@@ -480,7 +480,7 @@ getDxDepthLocation
 const
 ;
 GLint
-getDxViewportLocation
+getDxCoordLocation
 (
 )
 const
@@ -1113,7 +1113,7 @@ GLint
 mDxDepthLocation
 ;
 GLint
-mDxViewportLocation
+mDxCoordLocation
 ;
 GLint
 mDxHalfPixelSizeLocation
