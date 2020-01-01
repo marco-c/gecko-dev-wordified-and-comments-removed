@@ -38,13 +38,6 @@ CodeLocation
 h
 "
 #
-include
-"
-jsstdint
-.
-h
-"
-#
 if
 ENABLE_ASSEMBLER
 namespace

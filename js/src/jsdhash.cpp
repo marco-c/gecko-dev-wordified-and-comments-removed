@@ -22,13 +22,6 @@ h
 #
 include
 "
-jsstdint
-.
-h
-"
-#
-include
-"
 jsdhash
 .
 h

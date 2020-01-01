@@ -48,13 +48,6 @@ h
 #
 include
 "
-jsstdint
-.
-h
-"
-#
-include
-"
 jsprf
 .
 h

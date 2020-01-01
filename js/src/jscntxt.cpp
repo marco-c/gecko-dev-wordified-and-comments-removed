@@ -58,13 +58,6 @@ endif
 #
 include
 "
-jsstdint
-.
-h
-"
-#
-include
-"
 jstypes
 .
 h

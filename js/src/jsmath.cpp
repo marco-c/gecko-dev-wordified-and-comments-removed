@@ -15,13 +15,6 @@ h
 #
 include
 "
-jsstdint
-.
-h
-"
-#
-include
-"
 prmjtime
 .
 h

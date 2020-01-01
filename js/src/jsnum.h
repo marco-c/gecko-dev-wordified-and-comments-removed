@@ -14,13 +14,6 @@ h
 #
 include
 "
-jsstdint
-.
-h
-"
-#
-include
-"
 jsobj
 .
 h

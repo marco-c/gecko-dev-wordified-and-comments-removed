@@ -21,13 +21,6 @@ h
 #
 include
 "
-jsstdint
-.
-h
-"
-#
-include
-"
 js
 /
 HashTable
