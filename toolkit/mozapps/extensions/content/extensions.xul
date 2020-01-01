@@ -2885,6 +2885,15 @@ getThemes
 label
 ;
 "
+valueplugins
+=
+"
+&
+getPlugins
+.
+label
+;
+"
 valueextensions
 =
 "
