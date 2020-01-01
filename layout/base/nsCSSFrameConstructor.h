@@ -450,7 +450,10 @@ nsIContent
 aContainer
 nsIContent
 *
-aChild
+aStartChild
+nsIContent
+*
+aEndChild
 PRInt32
 aIndexInContainer
 PRInt32

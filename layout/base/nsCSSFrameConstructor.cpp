@@ -25844,6 +25844,7 @@ ContentRangeInserted
 (
 aContent
 firstChildInRun
+child
 startOfRun
 i
 nsnull
@@ -27554,6 +27555,12 @@ ContentRangeInserted
 (
 aContainer
 aChild
+aChild
+-
+>
+GetNextSibling
+(
+)
 aIndexInContainer
 aIndexInContainer
 +
@@ -27574,7 +27581,10 @@ nsIContent
 aContainer
 nsIContent
 *
-aChild
+aStartChild
+nsIContent
+*
+aEndChild
 PRInt32
 aIndexInContainer
 PRInt32
@@ -27617,7 +27627,7 @@ frames
 ;
 NS_PRECONDITION
 (
-aChild
+aStartChild
 "
 must
 always
@@ -27646,6 +27656,16 @@ container
 =
 %
 p
+"
+"
+start
+-
+child
+=
+%
+p
+end
+-
 child
 =
 %
@@ -27681,7 +27701,15 @@ void
 *
 >
 (
-aChild
+aStartChild
+)
+static_cast
+<
+void
+*
+>
+(
+aEndChild
 )
 aIndexInContainer
 aEndIndexInContainer
@@ -27710,7 +27738,7 @@ stdout
 }
 else
 {
-aChild
+aStartChild
 -
 >
 List
@@ -27820,7 +27848,7 @@ GetPresContext
 (
 )
 aContainer
-aChild
+aStartChild
 aIndexInContainer
 mDocument
 nsnull
@@ -27892,7 +27920,7 @@ GetRootElement
 ;
 if
 (
-aChild
+aStartChild
 !
 =
 docElement
@@ -27945,7 +27973,7 @@ docElementFrame
 InvalidateCanvasIfNeeded
 (
 mPresShell
-aChild
+aStartChild
 )
 ;
 #
@@ -28018,7 +28046,7 @@ MaybeConstructLazily
 (
 CONTENTINSERT
 aContainer
-aChild
+aStartChild
 aIndexInContainer
 )
 )
@@ -28039,7 +28067,7 @@ insertionPoint
 GetInsertionPoint
 (
 parentFrame
-aChild
+aStartChild
 &
 insertionPoint
 )
@@ -28101,7 +28129,7 @@ GetInsertionPrevSibling
 (
 parentFrame
 aContainer
-aChild
+aStartChild
 aIndexInContainer
 &
 isAppend
@@ -28179,7 +28207,7 @@ frameSetFrame
 &
 IsSpecialFramesetChild
 (
-aChild
+aStartChild
 )
 )
 {
@@ -28269,7 +28297,7 @@ nsGkAtoms
 fieldSetFrame
 &
 &
-aChild
+aStartChild
 -
 >
 Tag
@@ -28324,7 +28352,7 @@ if
 isSingleInsert
 )
 {
-aChild
+aStartChild
 -
 >
 UnsetFlags
@@ -28627,7 +28655,7 @@ GetInsertionPrevSibling
 (
 parentFrame
 aContainer
-aChild
+aStartChild
 aIndexInContainer
 &
 isAppend
@@ -28822,7 +28850,7 @@ isSingleInsert
 AddFrameConstructionItems
 (
 state
-aChild
+aStartChild
 aIndexInContainer
 parentFrame
 items
@@ -28965,7 +28993,7 @@ isSingleInsert
 InvalidateCanvasIfNeeded
 (
 mPresShell
-aChild
+aStartChild
 )
 ;
 }
@@ -29385,7 +29413,7 @@ GetInsertionPrevSibling
 (
 captionParent
 aContainer
-aChild
+aStartChild
 aIndexInContainer
 &
 captionIsAppend
@@ -29430,7 +29458,7 @@ captionIsAppend
 &
 ignored
 aIndexInContainer
-aChild
+aStartChild
 aEndIndexInContainer
 aContainer
 -
