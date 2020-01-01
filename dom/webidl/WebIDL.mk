@@ -651,6 +651,10 @@ ImageData
 .
 webidl
 \
+ImageDocument
+.
+webidl
+\
 InspectorUtils
 .
 webidl
