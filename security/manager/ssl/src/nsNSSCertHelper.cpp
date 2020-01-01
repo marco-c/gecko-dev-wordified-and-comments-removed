@@ -104,15 +104,6 @@ NS_NSSCOMPONENT_CID
 )
 ;
 #
-ifndef
-INET6_ADDRSTRLEN
-#
-define
-INET6_ADDRSTRLEN
-46
-#
-endif
-#
 define
 CONST_OID
 static
