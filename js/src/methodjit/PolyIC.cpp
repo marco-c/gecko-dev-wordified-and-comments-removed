@@ -545,9 +545,6 @@ char
 op
 )
 {
-#
-ifdef
-JS_METHODJIT_SPEW
 JaegerSpew
 (
 JSpew_PICs
@@ -590,8 +587,6 @@ fp
 )
 ;
 }
-#
-endif
 }
 ;
 class
