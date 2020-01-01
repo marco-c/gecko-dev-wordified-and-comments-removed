@@ -4931,7 +4931,7 @@ GetFlags
 (
 )
 &
-nsTextFrameUtils
+gfxTextRunWordCache
 :
 :
 TEXT_INCOMING_ARABICCHAR
@@ -5014,7 +5014,7 @@ GetFlags
 (
 )
 &
-nsTextFrameUtils
+gfxTextRunWordCache
 :
 :
 TEXT_TRAILING_ARABICCHAR
@@ -6767,7 +6767,7 @@ INCOMING_ARABICCHAR
 textFlags
 |
 =
-nsTextFrameUtils
+gfxTextRunWordCache
 :
 :
 TEXT_INCOMING_ARABICCHAR
@@ -7766,7 +7766,7 @@ INCOMING_ARABICCHAR
 textFlags
 |
 =
-nsTextFrameUtils
+gfxTextRunWordCache
 :
 :
 TEXT_TRAILING_ARABICCHAR
