@@ -1043,6 +1043,7 @@ xmlDoc
 ownerDocument
 .
 documentElement
+;
 let
 nsResolver
 =
@@ -1862,6 +1863,7 @@ arguments
 )
 ;
 }
+;
 }
 _prefs
 :
