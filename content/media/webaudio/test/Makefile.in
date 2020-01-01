@@ -187,6 +187,10 @@ test_biquadFilterNode
 .
 html
 \
+test_channelMergerNode
+.
+html
+\
 test_channelSplitterNode
 .
 html
