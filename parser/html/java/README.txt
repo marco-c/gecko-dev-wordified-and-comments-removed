@@ -35,16 +35,6 @@ files
 and
 licenses
 make
-#
-build
-javaparser
-.
-jar
-and
-translator
-.
-jar
-make
 translate
 #
 perform
@@ -107,7 +97,7 @@ directory
 Ben
 Newman
 (
-8
-July
+23
+September
 2009
 )
