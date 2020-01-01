@@ -13884,10 +13884,9 @@ valueAddr
 R0
 )
 ;
-masm
-.
-patchableCallPreBarrier
+EmitPreBarrier
 (
+masm
 element
 MIRType_Value
 )
@@ -18929,10 +18928,9 @@ offsetOfOffset
 scratch
 )
 ;
-masm
-.
-patchableCallPreBarrier
+EmitPreBarrier
 (
+masm
 BaseIndex
 (
 objReg
