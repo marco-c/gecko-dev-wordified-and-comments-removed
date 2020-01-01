@@ -1297,8 +1297,8 @@ GetUpvar
 JSContext
 *
 cx
-uint16
-closureLevel
+uintN
+level
 js
 :
 :

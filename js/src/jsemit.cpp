@@ -8929,16 +8929,7 @@ staticLevel
 UpvarCookie
 :
 :
-MAX_LEVEL
-|
-|
-upvarLevel
->
-=
-UpvarCookie
-:
-:
-MAX_LEVEL
+UPVAR_LEVEL_LIMIT
 )
 return
 true
@@ -10281,7 +10272,8 @@ cg
 )
 ;
 }
-uint16
+const
+uintN
 skip
 =
 cg
@@ -10380,7 +10372,7 @@ level
 UpvarCookie
 :
 :
-MAX_LEVEL
+UPVAR_LEVEL_LIMIT
 )
 return
 JS_TRUE
