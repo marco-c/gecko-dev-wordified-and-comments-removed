@@ -2961,6 +2961,14 @@ mPartIsEndOfLigature
 ;
 }
 ;
+#
+ifdef
+DEBUG
+PRUint32
+mCachedWords
+;
+#
+endif
 private
 :
 DetailedGlyph
