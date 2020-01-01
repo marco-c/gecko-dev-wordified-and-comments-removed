@@ -1502,6 +1502,14 @@ api
 .
 html
 \
+file_fullscreen
+-
+api
+-
+keys
+.
+html
+\
 test_fullscreen
 -
 api

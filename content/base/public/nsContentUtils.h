@@ -3315,6 +3315,12 @@ IsRequestFullScreenAllowed
 )
 ;
 static
+PRBool
+IsFullScreenKeyInputRestricted
+(
+)
+;
+static
 void
 GetShiftText
 (
@@ -3787,6 +3793,10 @@ sIsFullScreenApiEnabled
 static
 PRBool
 sTrustedFullScreenOnly
+;
+static
+PRBool
+sFullScreenKeyInputRestricted
 ;
 static
 nsHtml5Parser
