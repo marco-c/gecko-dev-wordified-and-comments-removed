@@ -4598,11 +4598,6 @@ StyleContext
 (
 )
 ;
-if
-(
-parentContext
-)
-{
 nsRefPtr
 <
 nsStyleContext
@@ -4645,7 +4640,6 @@ mFrames
 this
 )
 ;
-}
 }
 }
 }

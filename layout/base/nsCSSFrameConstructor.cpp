@@ -44389,16 +44389,6 @@ StyleContext
 (
 )
 ;
-if
-(
-!
-parentSC
-)
-{
-return
-NS_OK
-;
-}
 nsIContent
 *
 textContent
