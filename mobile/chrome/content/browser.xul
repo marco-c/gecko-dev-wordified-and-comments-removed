@@ -3064,6 +3064,12 @@ width
 #
 ifdef
 MOZ_PLATFORM_MAEMO
+#
+if
+MOZ_PLATFORM_MAEMO
+!
+=
+6
 <
 toolbarbutton
 id
@@ -3087,6 +3093,8 @@ switchTask
 "
 /
 >
+#
+endif
 #
 endif
 <
@@ -3459,6 +3467,12 @@ hbox
 #
 ifndef
 ANDROID
+#
+if
+MOZ_PLATFORM_MAEMO
+!
+=
+6
 <
 toolbarbutton
 id
@@ -3484,6 +3498,8 @@ cmd_close
 "
 /
 >
+#
+endif
 #
 endif
 <
