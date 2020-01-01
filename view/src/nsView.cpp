@@ -544,6 +544,10 @@ mDirtyRegion
 =
 nsnull
 ;
+mWidgetDisowned
+=
+PR_FALSE
+;
 }
 void
 nsView
@@ -759,6 +763,12 @@ SetClientData
 nsnull
 )
 ;
+if
+(
+!
+mWidgetDisowned
+)
+{
 mWindow
 -
 >
@@ -766,6 +776,7 @@ Destroy
 (
 )
 ;
+}
 NS_RELEASE
 (
 mWindow
