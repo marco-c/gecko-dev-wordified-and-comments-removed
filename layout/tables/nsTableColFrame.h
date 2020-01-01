@@ -52,7 +52,7 @@ class
 nsTableColFrame
 :
 public
-nsFrame
+nsSplittableFrame
 {
 public
 :
@@ -189,6 +189,13 @@ const
 ;
 #
 endif
+virtual
+nsSplittableType
+GetSplittableType
+(
+)
+const
+;
 PRInt32
 GetSpan
 (
