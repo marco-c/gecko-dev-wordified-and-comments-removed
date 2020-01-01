@@ -5317,3 +5317,15 @@ hours
 12
 )
 ;
+pref
+(
+"
+dom
+.
+mozInputMethod
+.
+enabled
+"
+true
+)
+;
