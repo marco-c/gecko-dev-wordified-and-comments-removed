@@ -404,7 +404,9 @@ aStatus
 do_check_eq
 (
 aStatus
-Cr
+Components
+.
+results
 .
 NS_ERROR_CONNECTION_REFUSED
 )
