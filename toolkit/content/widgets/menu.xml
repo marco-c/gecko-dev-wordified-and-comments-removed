@@ -560,6 +560,7 @@ aValue
 <
 body
 >
+return
 this
 .
 insertItemAt
@@ -727,6 +728,7 @@ if
 (
 before
 )
+return
 menupopup
 .
 insertBefore
@@ -735,7 +737,7 @@ menuitem
 before
 )
 ;
-else
+return
 menupopup
 .
 appendChild
