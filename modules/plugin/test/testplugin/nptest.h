@@ -240,6 +240,9 @@ void
 *
 fileBuf
 ;
+bool
+crashOnDestroy
+;
 }
 InstanceData
 ;
