@@ -227,10 +227,6 @@ nsIScriptNameSpaceManager
 .
 h
 \
-nsIScriptEventHandlerOwner
-.
-h
-\
 nsIScriptObjectPrincipal
 .
 h

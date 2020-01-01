@@ -91,13 +91,6 @@ h
 #
 include
 "
-nsIScriptEventHandlerOwner
-.
-h
-"
-#
-include
-"
 nsBindingManager
 .
 h
@@ -2115,10 +2108,6 @@ aNodeInfo
 bool
 aIsScriptable
 )
-;
-friend
-class
-nsScriptEventHandlerOwnerTearoff
 ;
 bool
 IsReadWriteTextElement
