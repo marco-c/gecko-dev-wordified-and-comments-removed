@@ -6555,15 +6555,13 @@ if
 mRETRFailed
 |
 |
-(
-!
 mPath
 .
 IsEmpty
 (
 )
-&
-&
+|
+|
 mPath
 .
 Last
@@ -6574,7 +6572,6 @@ Last
 '
 /
 '
-)
 )
 return
 FTP_S_CWD
