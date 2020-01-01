@@ -307,6 +307,12 @@ no
 )
 ;
 virtual
+bool
+RecvDocumentChannelCleanup
+(
+)
+;
+virtual
 void
 ActorDestroy
 (
