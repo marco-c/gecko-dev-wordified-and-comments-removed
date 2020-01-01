@@ -9476,14 +9476,14 @@ SelectionHandler
 .
 canSelect
 (
-rootElement
+target
 )
 )
 SelectionHandler
 .
 startSelection
 (
-rootElement
+target
 aX
 aY
 )
