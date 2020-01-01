@@ -1847,12 +1847,6 @@ refCount
 )
 )
 ;
-delete
-(
-*
-it
-)
-;
 }
 else
 {
