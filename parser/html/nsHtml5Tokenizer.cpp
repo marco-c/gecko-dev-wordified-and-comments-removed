@@ -88,6 +88,13 @@ h
 #
 include
 "
+nsHtml5NamedCharactersAccel
+.
+h
+"
+#
+include
+"
 nsHtml5Atoms
 .
 h
@@ -9710,7 +9717,7 @@ PRInt32
 *
 row
 =
-nsHtml5NamedCharacters
+nsHtml5NamedCharactersAccel
 :
 :
 HILO_ACCEL

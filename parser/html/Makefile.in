@@ -484,6 +484,10 @@ nsHtml5NamedCharacters
 .
 cpp
 \
+nsHtml5NamedCharactersAccel
+.
+cpp
+\
 nsHtml5Tokenizer
 .
 cpp
