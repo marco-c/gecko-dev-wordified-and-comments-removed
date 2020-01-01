@@ -4113,7 +4113,7 @@ for
 slots
 +
 =
-2
+1
 +
 (
 regs
