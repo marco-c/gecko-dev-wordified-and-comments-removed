@@ -214,7 +214,7 @@ NP_VERSION_MAJOR
 #
 define
 NP_VERSION_MINOR
-19
+20
 #
 define
 NP_INFO_ProductVersion
@@ -733,6 +733,12 @@ NPPVpluginScriptableNPObject
 NPPVformValue
 =
 16
+NPPVpluginUrlRequestsDisplayedBool
+=
+17
+NPPVpluginWantsAllNetworkStreams
+=
+18
 #
 ifdef
 XP_MACOSX
@@ -1404,6 +1410,10 @@ NPVERS_HAS_NPOBJECT_ENUM
 define
 NPVERS_HAS_PLUGIN_THREAD_ASYNC_CALL
 19
+#
+define
+NPVERS_HAS_ALL_NETWORK_STREAMS
+20
 #
 if
 defined
