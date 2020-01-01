@@ -35,6 +35,7 @@ ensureClusterURL
 fetchInfoCollections
 fetchMetaGlobal
 ensureKeysStage
+syncClientsEngine
 syncBookmarks
 syncHistory
 completed
