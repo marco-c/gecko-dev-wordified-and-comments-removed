@@ -22722,7 +22722,7 @@ ChromeOnlyAccess
 ?
 NS_SUCCESS_CHROME_ACCESS_ONLY
 :
-NS_SUCCESS_ALLOW_SLIM_WRAPPERS
+NS_OK
 ;
 }
 NS_IMETHODIMP
@@ -23466,13 +23466,6 @@ element
 {
 return
 rv
-=
-=
-NS_SUCCESS_ALLOW_SLIM_WRAPPERS
-?
-NS_OK
-:
-rv
 ;
 }
 mozilla
@@ -23523,13 +23516,6 @@ NODE_ATTACH_BINDING_ON_POSTCREATE
 )
 ;
 return
-rv
-=
-=
-NS_SUCCESS_ALLOW_SLIM_WRAPPERS
-?
-NS_OK
-:
 rv
 ;
 }
