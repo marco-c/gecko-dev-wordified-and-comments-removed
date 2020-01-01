@@ -672,6 +672,16 @@ type
 )
 ;
 }
+private
+static
+Object
+sLock
+=
+new
+Object
+(
+)
+;
 Override
 public
 void
@@ -735,7 +745,7 @@ checkState
 {
 synchronized
 (
-sLaunchState
+sLock
 )
 {
 return
@@ -756,7 +766,7 @@ setState
 {
 synchronized
 (
-sLaunchState
+sLock
 )
 {
 sLaunchState
@@ -777,7 +787,7 @@ setState
 {
 synchronized
 (
-sLaunchState
+sLock
 )
 {
 if
