@@ -143,7 +143,7 @@ RegExpRunStatus_Success_NotFound
 class
 RegExpObjectBuilder
 {
-JSContext
+ExclusiveContext
 *
 cx
 ;
@@ -171,7 +171,7 @@ public
 :
 RegExpObjectBuilder
 (
-JSContext
+ExclusiveContext
 *
 cx
 RegExpObject
@@ -405,14 +405,13 @@ public
 :
 RegExpShared
 (
-JSRuntime
-*
-rt
 JSAtom
 *
 source
 RegExpFlag
 flags
+uint64_t
+gcNumber
 )
 ;
 ~
@@ -454,7 +453,7 @@ static
 void
 reportYarrError
 (
-JSContext
+ExclusiveContext
 *
 cx
 TokenStream
@@ -468,7 +467,7 @@ static
 bool
 checkSyntax
 (
-JSContext
+ExclusiveContext
 *
 cx
 TokenStream
@@ -483,7 +482,7 @@ inline
 void
 prepareForUse
 (
-JSContext
+ExclusiveContext
 *
 cx
 )
@@ -769,7 +768,7 @@ public
 inline
 RegExpGuard
 (
-JSContext
+ExclusiveContext
 *
 cx
 )
@@ -777,7 +776,7 @@ cx
 inline
 RegExpGuard
 (
-JSContext
+ExclusiveContext
 *
 cx
 RegExpShared
@@ -1041,7 +1040,7 @@ rt
 bool
 get
 (
-JSContext
+ExclusiveContext
 *
 cx
 JSAtom
@@ -1148,7 +1147,7 @@ RegExpObject
 *
 create
 (
-JSContext
+ExclusiveContext
 *
 cx
 RegExpStatics
@@ -1175,7 +1174,7 @@ RegExpObject
 *
 createNoStatics
 (
-JSContext
+ExclusiveContext
 *
 cx
 const
@@ -1199,7 +1198,7 @@ RegExpObject
 *
 createNoStatics
 (
-JSContext
+ExclusiveContext
 *
 cx
 HandleAtom
@@ -1472,7 +1471,7 @@ inline
 bool
 getShared
 (
-JSContext
+ExclusiveContext
 *
 cx
 RegExpGuard
@@ -1484,7 +1483,7 @@ inline
 void
 setShared
 (
-JSContext
+ExclusiveContext
 *
 cx
 RegExpShared
@@ -1502,7 +1501,7 @@ Shape
 *
 assignInitialShape
 (
-JSContext
+ExclusiveContext
 *
 cx
 )
@@ -1510,7 +1509,7 @@ cx
 bool
 init
 (
-JSContext
+ExclusiveContext
 *
 cx
 HandleAtom
@@ -1522,7 +1521,7 @@ flags
 bool
 createShared
 (
-JSContext
+ExclusiveContext
 *
 cx
 RegExpGuard

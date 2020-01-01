@@ -85,7 +85,7 @@ list
 ;
 CGTryNoteList
 (
-JSContext
+ExclusiveContext
 *
 cx
 )
@@ -196,7 +196,7 @@ public
 :
 CGConstList
 (
-JSContext
+ExclusiveContext
 *
 cx
 )
@@ -329,7 +329,7 @@ lastColumn
 ;
 EmitSection
 (
-JSContext
+ExclusiveContext
 *
 cx
 uint32_t
@@ -600,7 +600,7 @@ needsImplicitThis
 void
 tellDebuggerAboutCompiledScript
 (
-JSContext
+ExclusiveContext
 *
 cx
 )
@@ -823,7 +823,7 @@ errorNumber
 ptrdiff_t
 Emit1
 (
-JSContext
+ExclusiveContext
 *
 cx
 BytecodeEmitter
@@ -836,7 +836,7 @@ op
 ptrdiff_t
 Emit2
 (
-JSContext
+ExclusiveContext
 *
 cx
 BytecodeEmitter
@@ -851,7 +851,7 @@ op1
 ptrdiff_t
 Emit3
 (
-JSContext
+ExclusiveContext
 *
 cx
 BytecodeEmitter
@@ -868,7 +868,7 @@ op2
 ptrdiff_t
 EmitN
 (
-JSContext
+ExclusiveContext
 *
 cx
 BytecodeEmitter
@@ -883,7 +883,7 @@ extra
 bool
 EmitTree
 (
-JSContext
+ExclusiveContext
 *
 cx
 BytecodeEmitter
@@ -897,7 +897,7 @@ pn
 bool
 EmitFunctionScript
 (
-JSContext
+ExclusiveContext
 *
 cx
 BytecodeEmitter
@@ -911,7 +911,7 @@ body
 int
 NewSrcNote
 (
-JSContext
+ExclusiveContext
 *
 cx
 BytecodeEmitter
@@ -924,7 +924,7 @@ type
 int
 NewSrcNote2
 (
-JSContext
+ExclusiveContext
 *
 cx
 BytecodeEmitter
@@ -939,7 +939,7 @@ offset
 int
 NewSrcNote3
 (
-JSContext
+ExclusiveContext
 *
 cx
 BytecodeEmitter
@@ -956,7 +956,7 @@ offset2
 bool
 AddToSrcNoteDelta
 (
-JSContext
+ExclusiveContext
 *
 cx
 BytecodeEmitter
@@ -972,7 +972,7 @@ delta
 bool
 FinishTakingSrcNotes
 (
-JSContext
+ExclusiveContext
 *
 cx
 BytecodeEmitter

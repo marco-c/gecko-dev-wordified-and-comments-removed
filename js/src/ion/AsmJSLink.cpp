@@ -2795,7 +2795,7 @@ char
 *
 method_name
 =
-js_AtomToPrintableString
+AtomToPrintableString
 (
 cx
 func

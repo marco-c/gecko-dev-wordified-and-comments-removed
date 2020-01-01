@@ -5516,7 +5516,7 @@ inline
 bool
 isExtensible
 (
-JSContext
+ExclusiveContext
 *
 cx
 Handle
@@ -5730,7 +5730,7 @@ Shape
 *
 replaceWithNewEquivalentShape
 (
-JSContext
+ExclusiveContext
 *
 cx
 Shape
@@ -5753,7 +5753,7 @@ GENERATE_SHAPE
 bool
 setFlag
 (
-JSContext
+ExclusiveContext
 *
 cx
 uint32_t
@@ -5767,7 +5767,7 @@ GENERATE_NONE
 bool
 clearFlag
 (
-JSContext
+ExclusiveContext
 *
 cx
 uint32_t
@@ -5777,7 +5777,7 @@ flag
 bool
 toDictionaryMode
 (
-JSContext
+ExclusiveContext
 *
 cx
 )
@@ -6253,7 +6253,7 @@ shape_
 bool
 generateOwnShape
 (
-JSContext
+ExclusiveContext
 *
 cx
 js
@@ -6400,7 +6400,7 @@ Shape
 *
 nativeLookup
 (
-JSContext
+ExclusiveContext
 *
 cx
 jsid
@@ -6411,7 +6411,7 @@ Shape
 *
 nativeLookup
 (
-JSContext
+ExclusiveContext
 *
 cx
 PropertyId
@@ -6434,7 +6434,7 @@ Shape
 *
 nativeLookup
 (
-JSContext
+ExclusiveContext
 *
 cx
 PropertyName
@@ -6456,7 +6456,7 @@ name
 bool
 nativeContains
 (
-JSContext
+ExclusiveContext
 *
 cx
 jsid
@@ -6477,7 +6477,7 @@ NULL
 bool
 nativeContains
 (
-JSContext
+ExclusiveContext
 *
 cx
 PropertyName
@@ -6500,7 +6500,7 @@ inline
 bool
 nativeContains
 (
-JSContext
+ExclusiveContext
 *
 cx
 Shape

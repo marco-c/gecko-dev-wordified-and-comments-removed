@@ -2854,7 +2854,7 @@ bytes
 if
 (
 !
-js_AtomToPrintableString
+AtomToPrintableString
 (
 cx
 atom

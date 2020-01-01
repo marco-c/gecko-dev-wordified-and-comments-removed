@@ -59,6 +59,13 @@ NumericConversions
 .
 h
 "
+#
+include
+"
+jscntxtinlines
+.
+h
+"
 using
 namespace
 js
@@ -314,7 +321,7 @@ static
 bool
 FoldType
 (
-JSContext
+ExclusiveContext
 *
 cx
 ParseNode
@@ -496,7 +503,7 @@ static
 bool
 FoldBinaryNumeric
 (
-JSContext
+ExclusiveContext
 *
 cx
 JSOp
@@ -996,7 +1003,7 @@ static
 bool
 Fold
 (
-JSContext
+ExclusiveContext
 *
 cx
 ParseNode
@@ -1006,6 +1013,10 @@ pnp
 FullParseHandler
 &
 handler
+const
+CompileOptions
+&
+options
 bool
 inGenexpLambda
 SyntacticContext
@@ -1075,13 +1086,9 @@ useAsmOrInsideUseAsm
 )
 &
 &
-cx
--
->
-hasOption
-(
-JSOPTION_ASMJS
-)
+options
+.
+asmJSOption
 )
 {
 return
@@ -1113,6 +1120,7 @@ pn
 >
 pn_body
 handler
+options
 false
 SyntacticContext
 :
@@ -1159,6 +1167,7 @@ pn
 >
 pn_body
 handler
+options
 pn
 -
 >
@@ -1294,6 +1303,7 @@ Fold
 cx
 listp
 handler
+options
 inGenexpLambda
 kidsc
 )
@@ -1346,6 +1356,7 @@ pn
 >
 pn_kid1
 handler
+options
 inGenexpLambda
 condIf
 (
@@ -1385,6 +1396,7 @@ pn
 >
 pn_kid2
 handler
+options
 inGenexpLambda
 condIf
 (
@@ -1465,6 +1477,7 @@ pn
 >
 pn_kid3
 handler
+options
 inGenexpLambda
 SyntacticContext
 :
@@ -1542,6 +1555,7 @@ pn
 >
 pn_left
 handler
+options
 inGenexpLambda
 kidsc
 )
@@ -1561,6 +1575,7 @@ pn
 >
 pn_right
 handler
+options
 inGenexpLambda
 kidsc
 )
@@ -1591,6 +1606,7 @@ pn
 >
 pn_left
 handler
+options
 inGenexpLambda
 condIf
 (
@@ -1615,6 +1631,7 @@ pn
 >
 pn_right
 handler
+options
 inGenexpLambda
 condIf
 (
@@ -1731,6 +1748,7 @@ pn
 >
 pn_kid
 handler
+options
 inGenexpLambda
 kidsc
 )
@@ -1825,6 +1843,7 @@ Fold
 cx
 lhsp
 handler
+options
 inGenexpLambda
 SyntacticContext
 :
@@ -3926,7 +3945,7 @@ frontend
 :
 FoldConstants
 (
-JSContext
+ExclusiveContext
 *
 cx
 ParseNode
@@ -3954,13 +3973,14 @@ useAsmOrInsideUseAsm
 )
 &
 &
-cx
+parser
 -
 >
-hasOption
+options
 (
-JSOPTION_ASMJS
 )
+.
+asmJSOption
 )
 return
 true
@@ -3974,6 +3994,12 @@ parser
 -
 >
 handler
+parser
+-
+>
+options
+(
+)
 false
 SyntacticContext
 :

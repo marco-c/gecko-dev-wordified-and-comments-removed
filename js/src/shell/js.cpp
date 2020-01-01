@@ -16706,6 +16706,13 @@ FullParseHandler
 parser
 (
 cx
+&
+cx
+-
+>
+tempLifoAlloc
+(
+)
 options
 JS_GetStringCharsZ
 (
@@ -16950,6 +16957,13 @@ SyntaxParseHandler
 parser
 (
 cx
+&
+cx
+-
+>
+tempLifoAlloc
+(
+)
 options
 chars
 length

@@ -1794,7 +1794,7 @@ bytes
 if
 (
 !
-js_AtomToPrintableString
+AtomToPrintableString
 (
 cx
 name
@@ -2081,14 +2081,8 @@ cx
 cx
 -
 >
-compartment
-(
-)
--
->
 getNewType
 (
-cx
 &
 PropertyIteratorObject
 :

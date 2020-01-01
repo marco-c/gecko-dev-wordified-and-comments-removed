@@ -67,9 +67,12 @@ DefinitionNode
 ;
 SyntaxParseHandler
 (
-JSContext
+ExclusiveContext
 *
 cx
+LifoAlloc
+&
+alloc
 TokenStream
 &
 tokenStream

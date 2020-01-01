@@ -1714,9 +1714,6 @@ T
 *
 NewGCThing
 (
-js
-:
-:
 ThreadSafeContext
 *
 tcx
@@ -1885,11 +1882,8 @@ cx
 ;
 }
 #
-if
-defined
-(
+ifdef
 JSGC_GENERATIONAL
-)
 if
 (
 tcx

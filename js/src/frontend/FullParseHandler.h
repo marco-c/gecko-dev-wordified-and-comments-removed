@@ -191,9 +191,12 @@ DefinitionNode
 ;
 FullParseHandler
 (
-JSContext
+ExclusiveContext
 *
 cx
+LifoAlloc
+&
+alloc
 TokenStream
 &
 tokenStream
@@ -213,6 +216,7 @@ lazyOuterFunction
 allocator
 (
 cx
+alloc
 )
 tokenStream
 (

@@ -51,7 +51,7 @@ public
 explicit
 StaticScopeIter
 (
-JSContext
+ExclusiveContext
 *
 cx
 JSObject
@@ -955,7 +955,7 @@ StaticBlockObject
 *
 create
 (
-JSContext
+ExclusiveContext
 *
 cx
 )
@@ -1148,7 +1148,7 @@ Shape
 *
 addVar
 (
-JSContext
+ExclusiveContext
 *
 cx
 Handle

@@ -1899,7 +1899,7 @@ ObjectImpl
 :
 nativeLookup
 (
-JSContext
+ExclusiveContext
 *
 cx
 jsid

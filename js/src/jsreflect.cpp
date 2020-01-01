@@ -112,6 +112,13 @@ jsobjinlines
 .
 h
 "
+#
+include
+"
+jsstrinlines
+.
+h
+"
 using
 namespace
 js
@@ -16599,6 +16606,13 @@ FullParseHandler
 parser
 (
 cx
+&
+cx
+-
+>
+tempLifoAlloc
+(
+)
 options
 chars
 .

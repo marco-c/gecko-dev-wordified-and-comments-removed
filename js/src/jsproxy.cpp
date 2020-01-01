@@ -4583,7 +4583,7 @@ bytes
 ;
 if
 (
-js_AtomToPrintableString
+AtomToPrintableString
 (
 cx
 atom
@@ -8700,7 +8700,7 @@ bytes
 if
 (
 !
-js_AtomToPrintableString
+AtomToPrintableString
 (
 cx
 atom
@@ -10188,7 +10188,7 @@ bytes
 if
 (
 !
-js_AtomToPrintableString
+AtomToPrintableString
 (
 cx
 cx
@@ -11663,7 +11663,7 @@ bytes
 if
 (
 !
-js_AtomToPrintableString
+AtomToPrintableString
 (
 cx
 cx
@@ -17723,6 +17723,10 @@ isCallable
 )
 ?
 target
+.
+get
+(
+)
 :
 (
 JSObject

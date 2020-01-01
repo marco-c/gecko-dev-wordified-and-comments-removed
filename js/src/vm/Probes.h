@@ -136,7 +136,7 @@ script
 bool
 createObject
 (
-JSContext
+ExclusiveContext
 *
 cx
 JSObject
@@ -303,7 +303,7 @@ Probes
 :
 createObject
 (
-JSContext
+ExclusiveContext
 *
 cx
 JSObject

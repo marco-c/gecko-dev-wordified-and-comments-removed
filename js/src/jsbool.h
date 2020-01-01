@@ -31,7 +31,10 @@ JSString
 *
 js_BooleanToString
 (
-JSContext
+js
+:
+:
+ExclusiveContext
 *
 cx
 JSBool

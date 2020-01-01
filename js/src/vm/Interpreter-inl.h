@@ -1009,7 +1009,7 @@ printable
 ;
 if
 (
-js_AtomToPrintableString
+AtomToPrintableString
 (
 cx
 name
@@ -1626,7 +1626,7 @@ bytes
 ;
 if
 (
-js_AtomToPrintableString
+AtomToPrintableString
 (
 cx
 dn

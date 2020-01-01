@@ -2755,14 +2755,10 @@ start
 #
 endif
 }
-}
 inline
-js
-:
-:
 RegExpStatics
 *
-JSContext
+ExclusiveContext
 :
 :
 regExpStatics
@@ -2779,6 +2775,7 @@ getRegExpStatics
 (
 )
 ;
+}
 }
 #
 endif

@@ -121,7 +121,7 @@ ObjectImpl
 :
 nativeContains
 (
-JSContext
+ExclusiveContext
 *
 cx
 Shape
@@ -222,7 +222,7 @@ ObjectImpl
 :
 isExtensible
 (
-JSContext
+ExclusiveContext
 *
 cx
 js
@@ -280,6 +280,11 @@ Proxy
 isExtensible
 (
 cx
+-
+>
+asJSContext
+(
+)
 h
 extensible
 )
