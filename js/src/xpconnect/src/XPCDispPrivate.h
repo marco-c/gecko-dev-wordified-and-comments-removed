@@ -670,8 +670,11 @@ index
 const
 ;
 void
-Mark
+TraceJS
 (
+JSTracer
+*
+trc
 )
 ;
 void
@@ -684,14 +687,6 @@ IsMarked
 (
 )
 const
-;
-inline
-void
-MarkBeforeJSFinalize
-(
-JSContext
-*
-)
 ;
 private
 :
