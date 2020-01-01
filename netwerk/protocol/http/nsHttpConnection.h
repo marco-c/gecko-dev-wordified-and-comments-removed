@@ -587,6 +587,15 @@ mTransactionCaps
 aCaps
 ;
 }
+bool
+IsExperienced
+(
+)
+{
+return
+mExperienced
+;
+}
 private
 :
 nsresult
@@ -784,6 +793,9 @@ mIdleMonitoring
 ;
 bool
 mProxyConnectInProgress
+;
+bool
+mExperienced
 ;
 uint32_t
 mHttp1xTransactionCount
