@@ -1322,7 +1322,7 @@ if
 (
 value
 .
-isGCThing
+isMarkable
 (
 )
 &
