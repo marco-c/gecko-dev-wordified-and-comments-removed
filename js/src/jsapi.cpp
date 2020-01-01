@@ -10430,6 +10430,7 @@ runtime
 >
 updateMallocCounter
 (
+cx
 nbytes
 )
 ;
