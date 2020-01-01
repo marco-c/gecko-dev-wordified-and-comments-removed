@@ -2967,6 +2967,11 @@ image
 -
 box
 "
+mousethrough
+=
+"
+always
+"
 >
 <
 image
