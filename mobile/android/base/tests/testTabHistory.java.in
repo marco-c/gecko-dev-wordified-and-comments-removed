@@ -10,7 +10,7 @@ public
 class
 testTabHistory
 extends
-PixelTest
+BaseTest
 {
 Override
 protected
@@ -137,7 +137,7 @@ html
 Create
 tab
 history
-loadAndPaint
+inputAndLoadUrl
 (
 url
 )
@@ -152,7 +152,7 @@ Page
 "
 )
 ;
-loadAndPaint
+inputAndLoadUrl
 (
 url2
 )
@@ -167,7 +167,7 @@ Page
 "
 )
 ;
-loadAndPaint
+inputAndLoadUrl
 (
 url3
 )
