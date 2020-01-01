@@ -115,8 +115,10 @@ aScriptContext
 nsPIDOMWindow
 *
 aOwner
+already_AddRefed
+<
 DatabaseInfo
-*
+>
 aDatabaseInfo
 const
 nsACString
@@ -150,7 +152,11 @@ Info
 (
 )
 const
+{
+return
+mDatabaseInfo
 ;
+}
 const
 nsString
 &
@@ -292,6 +298,8 @@ IsInvalidated
 void
 CloseInternal
 (
+bool
+aIsDead
 )
 ;
 bool
@@ -325,6 +333,12 @@ OnUnlink
 (
 )
 ;
+nsRefPtr
+<
+DatabaseInfo
+>
+mDatabaseInfo
+;
 nsCOMPtr
 <
 nsIAtom
@@ -348,6 +362,9 @@ mRegistered
 ;
 bool
 mClosed
+;
+bool
+mRunningVersionChange
 ;
 nsRefPtr
 <
