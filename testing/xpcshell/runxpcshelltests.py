@@ -3514,6 +3514,17 @@ failure
 text
 "
 ]
+        
+if
+cdata
+is
+not
+None
+:
+            
+cdata
+=
+cdata
 .
 replace
 (
