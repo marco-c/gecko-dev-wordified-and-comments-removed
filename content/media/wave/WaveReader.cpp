@@ -3091,6 +3091,11 @@ length
 ;
 if
 (
+length
+>
+0
+&
+&
 val
 [
 length
