@@ -55,6 +55,9 @@ sechash
 .
 h
 "
+namespace
+mozilla
+{
 MOZ_TYPE_SPECIFIC_SCOPED_POINTER_TEMPLATE
 (
 ScopedPRFileDesc
@@ -157,5 +160,6 @@ ScopedSECKEYPublicKey
 SECKEYPublicKey
 SECKEY_DestroyPublicKey
 )
+}
 #
 endif
