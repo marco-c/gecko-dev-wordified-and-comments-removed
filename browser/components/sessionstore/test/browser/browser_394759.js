@@ -576,6 +576,7 @@ openWindowRec
 (
 windowsToOpen
 expectedResults
+recCallback
 )
 {
 if
@@ -705,7 +706,7 @@ repoen
 ;
 executeSoon
 (
-callback
+recCallback
 )
 ;
 return
@@ -852,6 +853,7 @@ openWindowRec
 (
 windowsToOpen
 expectedResults
+recCallback
 )
 ;
 }
