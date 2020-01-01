@@ -27,6 +27,13 @@ prdtoa
 h
 "
 #
+include
+"
+nsMathUtils
+.
+h
+"
+#
 ifdef
 MOZ_SMIL
 #
@@ -253,7 +260,7 @@ str
 |
 |
 !
-NS_FloatIsFinite
+NS_finite
 (
 *
 aValue

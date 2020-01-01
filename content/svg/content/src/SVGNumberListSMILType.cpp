@@ -21,6 +21,13 @@ h
 "
 #
 include
+"
+nsMathUtils
+.
+h
+"
+#
+include
 <
 math
 .
@@ -833,7 +840,7 @@ total
 if
 (
 !
-NS_FloatIsFinite
+NS_finite
 (
 distance
 )

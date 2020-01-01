@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 prdtoa
 .
 h
@@ -23,6 +16,13 @@ h
 include
 "
 nsSVGUtils
+.
+h
+"
+#
+include
+"
+nsMathUtils
 .
 h
 "
@@ -407,7 +407,7 @@ pos
 end
 &
 &
-NS_FloatIsFinite
+NS_finite
 (
 *
 aX
@@ -534,7 +534,7 @@ pos
 end
 &
 &
-NS_FloatIsFinite
+NS_finite
 (
 *
 aX

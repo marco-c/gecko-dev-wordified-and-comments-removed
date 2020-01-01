@@ -46,6 +46,13 @@ nsAutoPtr
 .
 h
 "
+#
+include
+"
+nsMathUtils
+.
+h
+"
 class
 nsSVGElement
 ;
@@ -284,7 +291,7 @@ y
 ;
 NS_ASSERTION
 (
-NS_FloatIsFinite
+NS_finite
 (
 mPt
 .
@@ -292,7 +299,7 @@ mX
 )
 &
 &
-NS_FloatIsFinite
+NS_finite
 (
 mPt
 .

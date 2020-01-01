@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -79,6 +72,13 @@ h
 include
 "
 nsCharSeparatedTokenizer
+.
+h
+"
+#
+include
+"
+nsMathUtils
 .
 h
 "
@@ -389,7 +389,7 @@ token1
 |
 |
 !
-NS_FloatIsFinite
+NS_finite
 (
 x
 )
@@ -506,7 +506,7 @@ end
 |
 |
 !
-NS_FloatIsFinite
+NS_finite
 (
 y
 )

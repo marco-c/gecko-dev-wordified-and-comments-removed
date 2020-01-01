@@ -54,6 +54,13 @@ nsDOMError
 .
 h
 "
+#
+include
+"
+nsMathUtils
+.
+h
+"
 namespace
 mozilla
 {
@@ -403,7 +410,7 @@ Axis
 ;
 if
 (
-NS_FloatIsFinite
+NS_finite
 (
 *
 aValue

@@ -27,6 +27,13 @@ nsDOMError
 h
 "
 #
+include
+"
+nsMathUtils
+.
+h
+"
+#
 ifdef
 MOZ_SMIL
 #
@@ -234,7 +241,7 @@ end
 |
 |
 !
-NS_FloatIsFinite
+NS_finite
 (
 aValues
 [
