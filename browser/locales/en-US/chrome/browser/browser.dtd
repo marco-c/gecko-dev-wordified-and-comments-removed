@@ -1173,17 +1173,6 @@ page
 <
 !
 ENTITY
-backForwardMenu
-.
-tooltip
-"
-Recent
-pages
-"
->
-<
-!
-ENTITY
 reloadCmd
 .
 label
