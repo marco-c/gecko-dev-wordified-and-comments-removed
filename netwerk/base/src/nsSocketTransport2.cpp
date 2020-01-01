@@ -6509,6 +6509,12 @@ nsnull
 ;
 nsCOMPtr
 <
+nsIInterfaceRequestor
+>
+ourCallbacks
+;
+nsCOMPtr
+<
 nsITransportEventSink
 >
 ourEventSink
@@ -6544,8 +6550,11 @@ mCondition
 )
 {
 mCallbacks
-=
-nsnull
+.
+swap
+(
+ourCallbacks
+)
 ;
 mEventSink
 .
