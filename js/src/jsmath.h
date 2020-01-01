@@ -769,6 +769,9 @@ Value
 vp
 )
 ;
+#
+if
+0
 extern
 bool
 math_hypot
@@ -783,6 +786,8 @@ Value
 vp
 )
 ;
+#
+endif
 extern
 bool
 math_trunc
@@ -1119,6 +1124,9 @@ double
 x
 )
 ;
+#
+if
+0
 extern
 double
 math_hypot_impl
@@ -1129,6 +1137,8 @@ double
 y
 )
 ;
+#
+endif
 extern
 double
 math_trunc_impl

@@ -5290,6 +5290,9 @@ vp
 }
 #
 if
+0
+#
+if
 !
 HAVE_HYPOT
 double
@@ -5640,6 +5643,8 @@ return
 true
 ;
 }
+#
+endif
 #
 if
 !
@@ -6260,6 +6265,9 @@ math_atanh
 1
 0
 )
+#
+if
+0
 JS_FN
 (
 "
@@ -6269,6 +6277,8 @@ math_hypot
 2
 0
 )
+#
+endif
 JS_FN
 (
 "
