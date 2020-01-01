@@ -21746,7 +21746,6 @@ and
 typeNeedsRooting
 (
 elementType
-descriptorProvider
 )
 :
             
@@ -26862,7 +26861,6 @@ and
 typeNeedsRooting
 (
 type
-descriptorProvider
 )
 :
             
@@ -29228,9 +29226,6 @@ self
 argument
 .
 type
-self
-.
-descriptorProvider
 )
 :
             
@@ -32852,7 +32847,6 @@ def
 leafTypeNeedsCx
 (
 type
-descriptorProvider
 retVal
 )
 :
@@ -32886,13 +32880,11 @@ def
 leafTypeNeedsScopeObject
 (
 type
-descriptorProvider
 retVal
 )
 :
     
 return
-(
 retVal
 and
 type
@@ -32900,36 +32892,29 @@ type
 isSpiderMonkeyInterface
 (
 )
-)
 def
 leafTypeNeedsRooting
 (
 type
-descriptorProvider
 )
 :
     
 return
-(
 leafTypeNeedsCx
 (
 type
-descriptorProvider
 False
 )
 or
-            
 type
 .
 isSpiderMonkeyInterface
 (
 )
-)
 def
 typeNeedsRooting
 (
 type
-descriptorProvider
 )
 :
     
@@ -32944,14 +32929,12 @@ t
 leafTypeNeedsRooting
 (
 t
-descriptorProvider
 )
 )
 def
 typeNeedsCx
 (
 type
-descriptorProvider
 retVal
 =
 False
@@ -32969,7 +32952,6 @@ t
 leafTypeNeedsCx
 (
 t
-descriptorProvider
 retVal
 )
 )
@@ -32977,7 +32959,6 @@ def
 typeNeedsScopeObject
 (
 type
-descriptorProvider
 retVal
 =
 False
@@ -32995,7 +32976,6 @@ t
 leafTypeNeedsScopeObject
 (
 t
-descriptorProvider
 retVal
 )
 )
@@ -33686,7 +33666,6 @@ and
 typeNeedsRooting
 (
 returnType
-descriptorProvider
 )
 :
             
@@ -33806,7 +33785,6 @@ and
 typeNeedsRooting
 (
 returnType
-descriptorProvider
 )
 :
             
@@ -33902,7 +33880,6 @@ and
 typeNeedsRooting
 (
 returnType
-descriptorProvider
 )
 :
             
@@ -34062,8 +34039,6 @@ needCx
 returnType
 arguments
 extendedAttributes
-descriptorProvider
-           
 considerTypes
 )
 :
@@ -34077,7 +34052,6 @@ and
 typeNeedsCx
 (
 returnType
-descriptorProvider
 True
 )
 or
@@ -34089,7 +34063,6 @@ typeNeedsCx
 a
 .
 type
-descriptorProvider
 )
 for
 a
@@ -34112,7 +34085,6 @@ returnType
 arguments
 extendedAttributes
                     
-descriptorProvider
 isWrapperCached
 considerTypes
 )
@@ -34130,7 +34102,6 @@ and
 typeNeedsScopeObject
 (
 returnType
-descriptorProvider
 True
 )
 or
@@ -34142,7 +34113,6 @@ typeNeedsScopeObject
 a
 .
 type
-descriptorProvider
 )
 for
 a
@@ -36266,7 +36236,6 @@ self
 .
 extendedAttributes
                          
-descriptor
 not
 descriptor
 .
@@ -36380,7 +36349,6 @@ self
 .
 extendedAttributes
                              
-descriptor
 descriptor
 .
 wrapperCache
@@ -47772,9 +47740,6 @@ and
 typeNeedsRooting
 (
 t
-self
-.
-descriptorProvider
 )
 :
                 
@@ -64663,9 +64628,6 @@ typeNeedsRooting
 m
 .
 type
-self
-.
-descriptorProvider
 )
 ]
         
@@ -66197,9 +66159,6 @@ assert
 typeNeedsRooting
 (
 type
-self
-.
-descriptorProvider
 )
         
 memberLoc
@@ -71230,9 +71189,6 @@ extendedAttrs
                   
 self
 .
-descriptorProvider
-self
-.
 passJSBitsAsNeeded
 )
 :
@@ -71263,9 +71219,6 @@ self
 .
 extendedAttrs
                                
-self
-.
-descriptorProvider
 self
 .
 descriptorProvider
@@ -82808,10 +82761,6 @@ argList
 self
 .
 extendedAttrs
-                  
-self
-.
-descriptorProvider
 True
 )
 :
@@ -83535,9 +83484,6 @@ interface
 members
 [
 ]
-self
-.
-descriptorProvider
 True
 )
 :
@@ -84102,9 +84048,6 @@ interface
 members
 [
 ]
-self
-.
-descriptorProvider
 True
 )
 :
