@@ -2812,6 +2812,8 @@ js
 Value
 &
 rval
+bool
+force
 )
 {
 #
@@ -2819,6 +2821,10 @@ ifdef
 JS_TYPE_INFERENCE
 if
 (
+!
+force
+&
+&
 !
 analysis
 -

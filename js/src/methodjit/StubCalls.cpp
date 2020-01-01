@@ -3411,6 +3411,11 @@ pc
 obj
 id
 retval
+!
+JSID_IS_INT
+(
+id
+)
 )
 ;
 do
