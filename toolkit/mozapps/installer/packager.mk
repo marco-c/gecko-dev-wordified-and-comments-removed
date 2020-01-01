@@ -2311,6 +2311,11 @@ INNER_MAKE_PACKAGE
 =
 \
 (
+if
+(
+ALREADY_SZIPPED
+)
+(
 foreach
 lib
 (
@@ -2339,6 +2344,7 @@ lib
 )
 &
 &
+)
 )
 \
 make
@@ -2624,7 +2630,8 @@ MOZ_PKG_DIR
 &
 &
 \
-pushd
+(
+cd
 (
 MOZ_PKG_DIR
 )
@@ -2680,10 +2687,7 @@ lib
 (
 ABI_DIR
 )
-&
-&
-\
-popd
+)
 endif
 ifeq
 (

@@ -837,6 +837,13 @@ repackage
 -
 zip
 :
+ALREADY_SZIPPED
+=
+1
+repackage
+-
+zip
+:
 libs
 -
 (
