@@ -35,6 +35,19 @@ in
 fp
 :
         
+line
+=
+line
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
+        
 if
 line
 =
@@ -227,7 +240,7 @@ collections
 OrderedDict
 )
         
-formattedobj
+formattedobjstr
 =
 json
 .
@@ -245,6 +258,24 @@ separators
 sep
 )
 )
++
+'
+\
+n
+'
+        
+formattedobj
+=
+formattedobjstr
+.
+encode
+(
+'
+utf
+-
+8
+'
+)
         
 fp
 =
@@ -252,7 +283,7 @@ open
 (
 jsonpath
 '
-w
+wb
 '
 )
         
@@ -261,11 +292,6 @@ fp
 write
 (
 formattedobj
-+
-'
-\
-n
-'
 )
         
 fp
@@ -332,7 +358,7 @@ items
 )
 :
         
-result
+resultstr
 =
 writeMakefile
 .
@@ -348,6 +374,19 @@ py
 v
 )
         
+result
+=
+resultstr
+.
+encode
+(
+'
+utf
+-
+8
+'
+)
+        
 fp
 =
 open
@@ -361,7 +400,7 @@ Makefile
 in
 '
 '
-w
+wb
 '
 )
         
@@ -390,7 +429,7 @@ open
 (
 logPath
 '
-r
+rb
 '
 )
     
