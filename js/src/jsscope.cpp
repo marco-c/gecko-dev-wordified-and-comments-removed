@@ -5092,13 +5092,6 @@ aprop
 endif
 }
 }
-if
-(
-shape
-!
-=
-lastProp
-)
 setOwnShape
 (
 lastProp
