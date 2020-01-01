@@ -380,10 +380,6 @@ float
 0
 .
 9
-#
-define
-GB2312_TABLE_SIZE
-3760
 static
 const
 int16_t

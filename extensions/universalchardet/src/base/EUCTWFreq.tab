@@ -396,10 +396,6 @@ Char
 to
 FreqOrder
 table
-#
-define
-EUCTW_TABLE_SIZE
-8102
 static
 const
 int16_t

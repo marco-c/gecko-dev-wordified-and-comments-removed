@@ -393,10 +393,6 @@ Char
 to
 FreqOrder
 table
-#
-define
-JIS_TABLE_SIZE
-4368
 static
 const
 int16_t

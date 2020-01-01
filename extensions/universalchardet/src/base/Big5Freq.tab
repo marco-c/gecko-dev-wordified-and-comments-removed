@@ -390,10 +390,6 @@ Char
 to
 FreqOrder
 table
-#
-define
-BIG5_TABLE_SIZE
-5376
 static
 const
 int16_t
