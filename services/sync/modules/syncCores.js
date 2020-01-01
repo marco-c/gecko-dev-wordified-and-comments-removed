@@ -2071,6 +2071,16 @@ action
 |
 a
 .
+action
+=
+=
+"
+remove
+"
+|
+|
+a
+.
 data
 .
 type
