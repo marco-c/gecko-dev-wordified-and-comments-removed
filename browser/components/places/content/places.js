@@ -6314,6 +6314,12 @@ init
 (
 )
 ;
+this
+.
+_setupView
+(
+)
+;
 }
 getContentViewForQueryString
 :
