@@ -4275,7 +4275,6 @@ export
 NO_PKG_FILES
 USE_ELF_HACK
 ELF_HACK_FLAGS
-_BINPATH
 stage
 -
 package
@@ -4433,6 +4432,15 @@ STAGEPATH
 (
 MOZ_PKG_DIR
 )
+(
+if
+(
+MOZ_PKG_MANIFEST
+)
+(
+_BINPATH
+)
+)
 \
 (
 if
@@ -4480,6 +4488,9 @@ py
 DIST
 )
 /
+(
+STAGEPATH
+)
 (
 MOZ_PKG_DIR
 )
