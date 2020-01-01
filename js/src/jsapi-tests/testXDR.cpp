@@ -1841,6 +1841,8 @@ CHECK
 expected
 )
 ;
+CHECK
+(
 script
 -
 >
@@ -1851,7 +1853,13 @@ scriptSource
 >
 setSourceMap
 (
+cx
 expected
+script
+-
+>
+filename
+)
 )
 ;
 script
