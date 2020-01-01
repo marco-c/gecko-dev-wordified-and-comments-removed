@@ -1671,7 +1671,7 @@ event
 if
 defined
 (
-OS_LINUX
+MOZ_X11
 )
 if
 (
@@ -1706,6 +1706,9 @@ xgraphicsexpose
 drawable
 )
 ;
+#
+ifdef
+MOZ_WIDGET_GTK2
 XSync
 (
 GDK_DISPLAY
@@ -1714,6 +1717,8 @@ GDK_DISPLAY
 False
 )
 ;
+#
+endif
 }
 #
 endif
