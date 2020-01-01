@@ -676,16 +676,6 @@ right_buttons
 .
 png
 )
-section
-.
-css
-(
-skin
-/
-section
-.
-css
-)
 richpref
 .
 css
