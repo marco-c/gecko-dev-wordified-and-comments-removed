@@ -4863,9 +4863,6 @@ AddDataFlavor
 kFileMime
 )
 ;
-#
-ifdef
-XP_WIN32
 (
 *
 aTransferable
@@ -4877,8 +4874,6 @@ AddDataFlavor
 kJPEGImageMime
 )
 ;
-#
-endif
 }
 (
 *
