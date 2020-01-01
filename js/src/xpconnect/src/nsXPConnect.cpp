@@ -2877,10 +2877,11 @@ while
 (
 parent
 =
-JS_GetParent
-(
-cx
 global
+-
+>
+getParent
+(
 )
 )
 )
