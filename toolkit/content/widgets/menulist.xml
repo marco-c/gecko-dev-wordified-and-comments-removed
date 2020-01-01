@@ -322,6 +322,7 @@ inherits
 =
 "
 disabled
+open
 "
 /
 >
@@ -4449,6 +4450,14 @@ type
 "
 menu
 "
+xbl
+:
+inherits
+=
+"
+disabled
+open
+"
 /
 >
 <
@@ -4701,6 +4710,14 @@ type
 =
 "
 menu
+"
+xbl
+:
+inherits
+=
+"
+disabled
+open
 "
 /
 >

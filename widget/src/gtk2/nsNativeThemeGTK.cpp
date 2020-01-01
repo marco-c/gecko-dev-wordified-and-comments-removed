@@ -1588,13 +1588,9 @@ GetParent
 PRBool
 menuOpen
 =
-CheckBooleanAttr
+IsOpenButton
 (
 aFrame
-nsWidgetAtoms
-:
-:
-open
 )
 ;
 aState
