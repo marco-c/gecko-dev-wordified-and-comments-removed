@@ -546,6 +546,16 @@ Type
 <
 !
 ENTITY
+generalMode
+"
+Render
+Mode
+:
+"
+>
+<
+!
+ENTITY
 generalSize
 "
 Size
