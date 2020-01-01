@@ -26,10 +26,7 @@ IsWhitespace
 PRUnichar
 )
 =
-nsCRT
-:
-:
-IsAsciiSpace
+NS_IsAsciiWhitespace
 >
 class
 nsCharSeparatedTokenizerTemplate
