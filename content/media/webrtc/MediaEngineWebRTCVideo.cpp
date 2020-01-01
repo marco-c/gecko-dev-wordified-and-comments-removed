@@ -608,6 +608,8 @@ mHeight
 )
 )
 ;
+if
+(
 aSource
 -
 >
@@ -619,11 +621,13 @@ aID
 segment
 )
 )
-;
+)
+{
 aLastEndTime
 =
 target
 ;
+}
 }
 }
 void
