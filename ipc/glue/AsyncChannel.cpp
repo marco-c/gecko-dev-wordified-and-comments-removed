@@ -256,6 +256,10 @@ mChannelErrorTask
 (
 NULL
 )
+mExistingListener
+(
+NULL
+)
 {
 MOZ_COUNT_CTOR
 (
@@ -323,6 +327,8 @@ mTransport
 =
 aTransport
 ;
+mExistingListener
+=
 mTransport
 -
 >
@@ -1424,6 +1430,7 @@ AssertIOThread
 (
 )
 ;
+{
 MutexAutoLock
 lock
 (
@@ -1438,6 +1445,19 @@ mCvar
 .
 Notify
 (
+)
+;
+}
+if
+(
+mExistingListener
+)
+mExistingListener
+-
+>
+OnChannelConnected
+(
+peer_pid
 )
 ;
 }
