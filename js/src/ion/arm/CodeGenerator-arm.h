@@ -682,6 +682,14 @@ store
 )
 ;
 bool
+visitBoundsCheck
+(
+LBoundsCheck
+*
+lir
+)
+;
+bool
 visitGuardShape
 (
 LGuardShape
