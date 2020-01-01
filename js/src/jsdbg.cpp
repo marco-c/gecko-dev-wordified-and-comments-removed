@@ -7543,17 +7543,6 @@ obj
 )
 ;
 \
-JS_ASSERT
-(
-obj
--
->
-isCrossCompartmentWrapper
-(
-)
-)
-;
-\
 obj
 =
 JSWrapper
