@@ -94,7 +94,12 @@ numPendingChildTests
 ok
 (
 true
+SpecialPowers
+.
+wrap
+(
 msg
+)
 .
 json
 )
@@ -123,7 +128,12 @@ numPendingChildTests
 ok
 (
 false
+SpecialPowers
+.
+wrap
+(
 msg
+)
 .
 json
 )

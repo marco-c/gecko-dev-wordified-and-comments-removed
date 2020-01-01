@@ -127,6 +127,15 @@ iframeBodyRecv
 data
 )
 {
+data
+=
+SpecialPowers
+.
+wrap
+(
+data
+)
+;
 var
 previousCount
 =
