@@ -419,6 +419,18 @@ WhitePt
 >
 y
 ;
+if
+(
+yn
+=
+=
+0
+.
+0
+)
+return
+FALSE
+;
 xr
 =
 Primrs
@@ -535,7 +547,6 @@ yb
 ;
 if
 (
-!
 MAT3inverse
 (
 &
@@ -543,6 +554,8 @@ Primaries
 &
 Result
 )
+<
+0
 )
 return
 FALSE
