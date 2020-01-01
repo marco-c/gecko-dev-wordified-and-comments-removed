@@ -8747,7 +8747,7 @@ PR_TRUE
 {
 REPORT_UNEXPECTED_TOKEN
 (
-PEBadDeclBlockStart
+PEBadFontBlockStart
 )
 ;
 return
@@ -8882,7 +8882,7 @@ PR_TRUE
 {
 REPORT_UNEXPECTED_TOKEN
 (
-PEBadDeclOrRuleEnd2
+PEBadFontBlockEnd
 )
 ;
 return
