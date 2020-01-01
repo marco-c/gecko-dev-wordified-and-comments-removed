@@ -24976,6 +24976,9 @@ target
 !
 =
 JSOP_TRACE
+#
+ifdef
+JS_MONOIC
 |
 |
 GET_UINT16
@@ -24985,6 +24988,8 @@ target
 =
 =
 BAD_TRACEIC_INDEX
+#
+endif
 )
 {
 jumpInScript
