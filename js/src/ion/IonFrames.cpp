@@ -2301,6 +2301,8 @@ frame
 numActualArgs
 (
 )
++
+2
 ;
 Value
 *
