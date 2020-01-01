@@ -469,8 +469,6 @@ MOZBASE_PACKAGES
 \
 manifestdestiny
 \
-mozdevice
-\
 mozhttpd
 \
 mozinfo
