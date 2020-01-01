@@ -21,10 +21,13 @@ h
 #
 include
 "
-nsThreadUtils
+nsCOMPtr
 .
 h
 "
+class
+nsIThread
+;
 class
 nsSound
 :

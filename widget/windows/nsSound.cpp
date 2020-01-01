@@ -104,6 +104,13 @@ nsNativeCharsetUtils
 h
 "
 #
+include
+"
+nsThreadUtils
+.
+h
+"
+#
 ifdef
 PR_LOGGING
 PRLogModuleInfo

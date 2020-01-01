@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsThreadUtils
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Mutex
@@ -56,6 +49,13 @@ include
 mozilla
 /
 Attributes
+.
+h
+"
+#
+include
+"
+nsIRunnable
 .
 h
 "
