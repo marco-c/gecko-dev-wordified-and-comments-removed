@@ -360,6 +360,14 @@ MAKE_VERSION
 }
 {
 "
+bexternal
+.
+dll
+"
+ALL_VERSIONS
+}
+{
+"
 mozdllblockingtest
 .
 dll
