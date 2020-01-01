@@ -823,7 +823,6 @@ aAccOrElmOrID
 }
 else
 {
-var
 elm
 =
 document
