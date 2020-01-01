@@ -42,6 +42,8 @@ Ci
 nsIXULRuntime
 )
 ;
+try
+{
 displayTimestamp
 (
 "
@@ -54,6 +56,13 @@ runtime
 launchTimestamp
 )
 ;
+}
+catch
+(
+x
+)
+{
+}
 displayTimestamp
 (
 "
