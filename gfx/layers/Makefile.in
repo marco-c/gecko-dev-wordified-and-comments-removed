@@ -564,6 +564,10 @@ ShmemYCbCrImage
 .
 h
 \
+TaskThrottler
+.
+h
+\
 (
 NULL
 )
@@ -632,6 +636,10 @@ ShadowLayersParent
 cpp
 \
 ShmemYCbCrImage
+.
+cpp
+\
+TaskThrottler
 .
 cpp
 \
