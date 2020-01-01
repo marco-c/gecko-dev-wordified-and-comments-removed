@@ -1395,8 +1395,6 @@ aFlags
 (
 eCONTENT
 |
-eSVG
-|
 eANIMATION
 )
 )

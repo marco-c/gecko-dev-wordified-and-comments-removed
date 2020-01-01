@@ -3517,11 +3517,7 @@ return
 aFlags
 &
 ~
-(
 eCONTENT
-|
-eSVG
-)
 )
 ;
 }
