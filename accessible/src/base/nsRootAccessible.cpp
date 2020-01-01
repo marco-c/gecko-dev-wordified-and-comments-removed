@@ -411,6 +411,12 @@ nsAString
 aName
 )
 {
+aName
+.
+Truncate
+(
+)
+;
 if
 (
 !

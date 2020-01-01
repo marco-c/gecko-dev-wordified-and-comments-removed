@@ -2042,6 +2042,12 @@ nsAString
 aName
 )
 {
+aName
+.
+Truncate
+(
+)
+;
 nsCOMPtr
 <
 nsIDOMElement
@@ -5674,6 +5680,12 @@ nsAString
 aName
 )
 {
+aName
+.
+Truncate
+(
+)
+;
 return
 GetActionName
 (

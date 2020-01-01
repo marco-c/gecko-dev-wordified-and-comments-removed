@@ -207,6 +207,12 @@ nsAString
 aName
 )
 {
+aName
+.
+Truncate
+(
+)
+;
 nsCOMPtr
 <
 nsIStringBundleService

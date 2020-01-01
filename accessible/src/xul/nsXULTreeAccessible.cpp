@@ -3528,6 +3528,12 @@ nsAString
 aName
 )
 {
+aName
+.
+Truncate
+(
+)
+;
 if
 (
 IsDefunct

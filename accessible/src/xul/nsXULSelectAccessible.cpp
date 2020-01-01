@@ -280,6 +280,12 @@ nsAString
 aName
 )
 {
+aName
+.
+Truncate
+(
+)
+;
 return
 GetXULName
 (
@@ -3293,9 +3299,15 @@ GetName
 (
 nsAString
 &
-_retval
+aName
 )
 {
+aName
+.
+Truncate
+(
+)
+;
 if
 (
 !
@@ -3378,7 +3390,7 @@ NS_LITERAL_STRING
 label
 "
 )
-_retval
+aName
 )
 ;
 return
@@ -3390,7 +3402,7 @@ NS_OK
 return
 GetXULName
 (
-_retval
+aName
 )
 ;
 }
