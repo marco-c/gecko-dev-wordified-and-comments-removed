@@ -64,7 +64,7 @@ h
 #
 include
 "
-jscntxt
+jsapi
 .
 h
 "
@@ -1175,7 +1175,7 @@ id
 if
 (
 !
-JSID_IS_ATOM
+JSID_IS_STRING
 (
 id
 )
@@ -4283,7 +4283,7 @@ JSObject
 wrapper
 uintN
 flags
-js
+JS
 :
 :
 AutoIdVector
@@ -4411,7 +4411,7 @@ props
 return
 false
 ;
-js
+JS
 :
 :
 AutoIdVector
@@ -4539,7 +4539,7 @@ cx
 JSObject
 *
 wrapper
-js
+JS
 :
 :
 AutoIdVector
@@ -4751,7 +4751,7 @@ cx
 JSObject
 *
 wrapper
-js
+JS
 :
 :
 AutoIdVector
@@ -5005,7 +5005,7 @@ cx
 JSObject
 *
 wrapper
-js
+JS
 :
 :
 AutoIdVector
@@ -6547,7 +6547,7 @@ JSObject
 wrapper
 uintN
 flags
-js
+JS
 :
 :
 AutoIdVector
@@ -6701,7 +6701,7 @@ cx
 JSObject
 *
 wrapper
-js
+JS
 :
 :
 AutoIdVector
@@ -6893,7 +6893,7 @@ cx
 JSObject
 *
 wrapper
-js
+JS
 :
 :
 AutoIdVector

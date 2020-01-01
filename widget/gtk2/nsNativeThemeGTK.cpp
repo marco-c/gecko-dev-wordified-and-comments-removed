@@ -380,9 +380,8 @@ return
 vm
 -
 >
-UpdateAllViews
+InvalidateAllViews
 (
-NS_VMREFRESH_NO_SYNC
 )
 ;
 }

@@ -7184,7 +7184,7 @@ JS_FALSE
 }
 }
 }
-JS_TRACER_INIT
+JS_TracerInit
 (
 &
 countTracer

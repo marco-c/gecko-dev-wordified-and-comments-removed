@@ -9629,7 +9629,7 @@ label
 =
 "
 &
-inspect3DButton
+inspect3DViewButton
 .
 label
 ;
@@ -9638,7 +9638,7 @@ accesskey
 =
 "
 &
-inspect3DButton
+inspect3DViewButton
 .
 accesskey
 ;

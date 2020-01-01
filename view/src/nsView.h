@@ -515,9 +515,7 @@ ResetWidgetBounds
 bool
 aRecurse
 bool
-aMoveOnly
-bool
-aInvalidateChangedSize
+aForceSync
 )
 ;
 void

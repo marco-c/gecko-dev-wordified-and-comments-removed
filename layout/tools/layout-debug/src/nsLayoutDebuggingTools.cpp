@@ -2620,10 +2620,9 @@ root
 vm
 -
 >
-UpdateView
+InvalidateView
 (
 root
-NS_VMREFRESH_IMMEDIATE
 )
 ;
 }

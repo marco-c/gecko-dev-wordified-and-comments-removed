@@ -941,6 +941,13 @@ functionName
 arguments
 :
 aArguments
+timeStamp
+:
+Date
+.
+now
+(
+)
 }
 ;
 consoleEvent

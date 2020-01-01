@@ -1685,6 +1685,14 @@ gl
 )
 ;
 }
+virtual
+void
+CleanupResources
+(
+)
+=
+0
+;
 protected
 :
 LayerManagerOGL

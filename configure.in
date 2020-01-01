@@ -20395,6 +20395,8 @@ lgdi32
 lwinmm
 -
 lwsock32
+-
+luserenv
 "
 MOZ_FIX_LINK_PATHS
 =

@@ -554,6 +554,15 @@ HandleText
 {
 if
 (
+mIsIMEComposing
+)
+{
+return
+NS_OK
+;
+}
+if
+(
 !
 mInput
 )

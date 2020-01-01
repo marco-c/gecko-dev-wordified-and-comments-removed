@@ -323,11 +323,6 @@ static
 SHOpenFolderAndSelectItemsPtr
 sSHOpenFolderAndSelectItems
 ;
-static
-PRLibrary
-*
-sLibShell
-;
 }
 ;
 #

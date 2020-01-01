@@ -8369,7 +8369,7 @@ runtime
 gcMarkStackArray
 )
 {
-JS_TRACER_INIT
+JS_TracerInit
 (
 this
 cx
@@ -8809,7 +8809,7 @@ gcCurrentCompartment
 JSTracer
 checker
 ;
-JS_TRACER_INIT
+JS_TracerInit
 (
 &
 checker
@@ -17445,7 +17445,7 @@ count
 =
 0
 ;
-JS_TRACER_INIT
+JS_TracerInit
 (
 trc
 cx
@@ -18056,7 +18056,7 @@ gcIncrementalTracer
 =
 NULL
 ;
-JS_TRACER_INIT
+JS_TracerInit
 (
 trc
 cx
@@ -18103,7 +18103,7 @@ trc
 )
 ;
 }
-JS_TRACER_INIT
+JS_TracerInit
 (
 trc
 cx

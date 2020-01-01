@@ -285,7 +285,7 @@ nsIWeakReference
 aShell
 )
 :
-nsXULSelectableAccessible
+XULSelectControlAccessible
 (
 aContent
 aShell
@@ -332,12 +332,12 @@ eAutoCompletePopupAccessible
 NS_IMPL_ADDREF_INHERITED
 (
 nsXULListboxAccessible
-nsXULSelectableAccessible
+XULSelectControlAccessible
 )
 NS_IMPL_RELEASE_INHERITED
 (
 nsXULListboxAccessible
-nsXULSelectableAccessible
+XULSelectControlAccessible
 )
 nsresult
 nsXULListboxAccessible
@@ -356,7 +356,7 @@ aInstancePtr
 nsresult
 rv
 =
-nsXULSelectableAccessible
+XULSelectControlAccessible
 :
 :
 QueryInterface

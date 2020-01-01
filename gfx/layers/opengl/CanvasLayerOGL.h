@@ -171,6 +171,12 @@ nsIntPoint
 aOffset
 )
 ;
+virtual
+void
+CleanupResources
+(
+)
+;
 protected
 :
 void
@@ -352,6 +358,12 @@ const
 nsIntPoint
 &
 aOffset
+)
+;
+virtual
+void
+CleanupResources
+(
 )
 ;
 private

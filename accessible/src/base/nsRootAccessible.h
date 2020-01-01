@@ -19,13 +19,6 @@ nsDocAccessibleWrap
 h
 "
 #
-include
-"
-nsIAccessibleDocument
-.
-h
-"
-#
 ifdef
 MOZ_XUL
 #

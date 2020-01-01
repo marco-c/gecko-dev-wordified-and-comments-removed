@@ -329,8 +329,6 @@ damageArea
 )
 ;
 }
-return
-;
 }
 void
 nsTableColFrame
@@ -477,11 +475,6 @@ GetTableFrame
 this
 )
 ;
-if
-(
-tableFrame
-)
-{
 tableFrame
 -
 >
@@ -490,7 +483,6 @@ SetNeedToCollapse
 true
 )
 ;
-}
 }
 aStatus
 =

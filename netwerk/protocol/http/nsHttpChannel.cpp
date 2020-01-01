@@ -1331,13 +1331,6 @@ return
 NS_ERROR_DOCUMENT_NOT_CACHED
 ;
 }
-mAuthProvider
--
->
-AddAuthorizationHeaders
-(
-)
-;
 if
 (
 mLoadFlags
@@ -15944,6 +15937,13 @@ cookieHeader
 ;
 }
 AddCookiesToRequest
+(
+)
+;
+mAuthProvider
+-
+>
+AddAuthorizationHeaders
 (
 )
 ;

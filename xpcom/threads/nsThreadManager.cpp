@@ -508,6 +508,13 @@ nsnull
 )
 ;
 mMainThread
+-
+>
+ClearObservers
+(
+)
+;
+mMainThread
 =
 nsnull
 ;

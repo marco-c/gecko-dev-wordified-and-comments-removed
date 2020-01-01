@@ -1359,6 +1359,7 @@ void
 asPtr
 ;
 }
+JSVAL_ALIGNMENT
 jsval_layout
 ;
 #
@@ -1436,6 +1437,7 @@ size_t
 asWord
 ;
 }
+JSVAL_ALIGNMENT
 jsval_layout
 ;
 #
@@ -1503,6 +1505,7 @@ void
 asPtr
 ;
 }
+JSVAL_ALIGNMENT
 jsval_layout
 ;
 #
@@ -1566,6 +1569,7 @@ size_t
 asWord
 ;
 }
+JSVAL_ALIGNMENT
 jsval_layout
 ;
 #

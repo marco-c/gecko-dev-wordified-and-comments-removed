@@ -265,7 +265,7 @@ nsRect
 &
 aLineBounds
 bool
-aAllowJustify
+aIsLastLine
 )
 ;
 void
@@ -1430,9 +1430,6 @@ mArena
 ;
 PRUint32
 mFlags
-;
-PRUint8
-mTextAlign
 ;
 nsresult
 NewPerFrameData

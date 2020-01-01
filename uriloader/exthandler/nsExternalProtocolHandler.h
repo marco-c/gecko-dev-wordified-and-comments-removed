@@ -77,12 +77,6 @@ aURI
 nsCString
 m_schemeName
 ;
-nsCOMPtr
-<
-nsIExternalProtocolService
->
-m_extProtService
-;
 }
 ;
 #

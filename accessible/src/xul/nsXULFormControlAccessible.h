@@ -21,14 +21,14 @@ h
 #
 include
 "
-nsXULMenuAccessible
+nsHyperTextAccessibleWrap
 .
 h
 "
 #
 include
 "
-nsHyperTextAccessibleWrap
+XULSelectControlAccessible
 .
 h
 "
@@ -394,7 +394,7 @@ class
 nsXULRadioGroupAccessible
 :
 public
-nsXULSelectableAccessible
+XULSelectControlAccessible
 {
 public
 :

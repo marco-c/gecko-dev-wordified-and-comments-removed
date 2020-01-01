@@ -286,7 +286,7 @@ asserts
 (
 2
 -
-4
+6
 )
 load
 265999
@@ -2199,6 +2199,10 @@ load
 html
 load
 695861
+.
+html
+load
+698335
 .
 html
 load

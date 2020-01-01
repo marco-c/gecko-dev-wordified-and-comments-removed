@@ -404,6 +404,9 @@ srcdir
 VPATH
 =
 srcdir
+FAIL_ON_WARNINGS
+=
+1
 include
 (
 DEPTH
@@ -467,10 +470,6 @@ cpp
 (
 NULL
 )
-#
-Canvas
-3D
-Pieces
 ifdef
 MOZ_WEBGL
 CPPSRCS

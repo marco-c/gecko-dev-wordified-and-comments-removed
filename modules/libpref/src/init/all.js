@@ -1229,6 +1229,16 @@ endif
 pref
 (
 "
+focusmanager
+.
+testmode
+"
+false
+)
+;
+pref
+(
+"
 accessibility
 .
 usetexttospeech
