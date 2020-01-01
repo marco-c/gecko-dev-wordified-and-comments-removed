@@ -18583,7 +18583,7 @@ CompilerRootPropertyName
 name_
 ;
 bool
-markEffectful_
+idempotent_
 ;
 MCallGetProperty
 (
@@ -18602,9 +18602,9 @@ name_
 (
 name
 )
-markEffectful_
+idempotent_
 (
-true
+false
 )
 {
 setResultType
@@ -18677,13 +18677,13 @@ this
 ;
 }
 void
-markUneffectful
+setIdempotent
 (
 )
 {
-markEffectful_
+idempotent_
 =
-false
+true
 ;
 }
 AliasSet
@@ -18694,7 +18694,8 @@ const
 {
 if
 (
-markEffectful_
+!
+idempotent_
 )
 return
 AliasSet
