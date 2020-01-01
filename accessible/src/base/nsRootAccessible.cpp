@@ -4074,6 +4074,17 @@ ancestor
 )
 )
 ;
+if
+(
+ancestor
+=
+=
+this
+)
+{
+break
+;
+}
 accessible
 .
 swap
