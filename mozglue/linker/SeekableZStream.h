@@ -51,6 +51,10 @@ chunkSize
 (
 0
 )
+dictSize
+(
+0
+)
 nChunks
 (
 0
@@ -79,8 +83,11 @@ magic
 le_uint32
 totalSize
 ;
-le_uint32
+le_uint16
 chunkSize
+;
+le_uint16
+dictSize
 ;
 le_uint32
 nChunks
@@ -360,6 +367,13 @@ offsetTable
 ;
 ZStreamFilter
 filter
+;
+Array
+<
+unsigned
+char
+>
+dictionary
 ;
 }
 ;
