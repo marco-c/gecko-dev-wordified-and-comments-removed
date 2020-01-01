@@ -2393,6 +2393,10 @@ js_Array_dense_setelem
 )
 JS_DECLARE_CALLINFO
 (
+js_Array_dense_setelem_int
+)
+JS_DECLARE_CALLINFO
+(
 js_NewEmptyArray
 )
 JS_DECLARE_CALLINFO
