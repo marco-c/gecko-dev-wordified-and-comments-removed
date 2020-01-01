@@ -834,9 +834,13 @@ callback
 }
 )
 ;
-gDebuggee
+gDebugger
 .
-location
+DebuggerController
+.
+client
+.
+activeTab
 .
 reload
 (

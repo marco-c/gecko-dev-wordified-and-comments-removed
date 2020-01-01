@@ -558,9 +558,13 @@ clickAgain
 }
 )
 ;
-content
+gDebugger
 .
-location
+DebuggerController
+.
+client
+.
+activeTab
 .
 reload
 (
