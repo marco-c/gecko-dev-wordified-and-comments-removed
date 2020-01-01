@@ -378,17 +378,6 @@ wordwrap
 ref
 .
 html
-fails
--
-if
-(
-MOZ_WIDGET_TOOLKIT
-=
-=
-"
-windows
-"
-)
 =
 =
 wordwrap
@@ -403,9 +392,6 @@ wordwrap
 ref
 .
 html
-#
-Bug
-453468
 =
 =
 zwnj
