@@ -123,6 +123,14 @@ _itemAddedIndex
 index
 ;
 }
+onBeforeItemRemoved
+:
+function
+(
+id
+)
+{
+}
 onItemRemoved
 :
 function

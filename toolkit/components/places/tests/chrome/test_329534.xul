@@ -698,6 +698,14 @@ finish
 }
 }
 }
+onBeforeItemRemoved
+:
+function
+(
+bookmarkId
+)
+{
+}
 onItemRemoved
 :
 function

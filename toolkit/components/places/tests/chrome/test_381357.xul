@@ -518,6 +518,14 @@ finish
 ;
 }
 }
+onBeforeItemRemoved
+:
+function
+(
+itemId
+)
+{
+}
 onItemRemoved
 :
 function

@@ -991,6 +991,13 @@ kQuerySyncPlacesId
 )
 ;
 }
+onBeforeItemRemoved
+:
+function
+(
+)
+{
+}
 onItemRemoved
 :
 function

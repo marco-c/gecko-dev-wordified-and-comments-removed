@@ -139,6 +139,13 @@ id
 )
 ;
 }
+onBeforeItemRemoved
+:
+function
+(
+)
+{
+}
 onItemRemoved
 :
 function

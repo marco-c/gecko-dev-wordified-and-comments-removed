@@ -480,6 +480,14 @@ index
 )
 {
 }
+onBeforeItemRemoved
+:
+function
+(
+itemId
+)
+{
+}
 onItemRemoved
 :
 function

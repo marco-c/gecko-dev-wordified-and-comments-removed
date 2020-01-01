@@ -564,6 +564,14 @@ index
 )
 {
 }
+onBeforeItemRemoved
+:
+function
+(
+bookmarkId
+)
+{
+}
 onItemRemoved
 :
 function
