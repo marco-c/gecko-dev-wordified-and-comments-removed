@@ -260,6 +260,17 @@ SetAttrs
 ;
 }
 ;
+struct
+ShmemStruct
+{
+int
+i
+;
+Shmem
+mem
+;
+}
+;
 }
 /
 /
