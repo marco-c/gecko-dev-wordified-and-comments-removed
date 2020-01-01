@@ -1600,7 +1600,7 @@ mRect
 .
 height
 )
-PR_FALSE
+PR_TRUE
 )
 ;
 nsIViewManager
