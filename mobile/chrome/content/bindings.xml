@@ -3739,8 +3739,6 @@ uri
 .
 spec
 )
-spec
-=
 this
 .
 spec
@@ -3774,6 +3772,8 @@ this
 name
 |
 |
+this
+.
 spec
 ;
 this
