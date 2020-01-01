@@ -247,12 +247,7 @@ join
 (
 os
 .
-path
-.
-dirname
-(
-target
-)
+curdir
 "
 .
 deps
