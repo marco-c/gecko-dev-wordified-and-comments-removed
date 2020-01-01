@@ -635,6 +635,7 @@ range
 new
 nsRange
 (
+mContent
 )
 ;
 if

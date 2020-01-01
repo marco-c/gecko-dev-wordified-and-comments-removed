@@ -571,6 +571,10 @@ ProcessingInstruction
 .
 webidl
 \
+Range
+.
+webidl
+\
 Rect
 .
 webidl
