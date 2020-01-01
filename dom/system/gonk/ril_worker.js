@@ -3785,7 +3785,7 @@ false
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -4036,7 +4036,7 @@ false
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -4115,7 +4115,7 @@ false
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -4504,7 +4504,7 @@ false
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -4605,7 +4605,7 @@ false
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -4653,7 +4653,7 @@ false
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -5144,7 +5144,7 @@ GECKO_ERROR_REQUEST_NOT_SUPPORTED
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -5182,7 +5182,7 @@ contacts
 ;
 RIL
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -5215,7 +5215,7 @@ errorMsg
 ;
 RIL
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -5255,7 +5255,7 @@ icccontactupdate
 ;
 RIL
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -5292,7 +5292,7 @@ errorMsg
 ;
 RIL
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -6470,7 +6470,7 @@ errorMsg
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -6671,7 +6671,7 @@ options
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 {
 rilMessageType
@@ -7495,7 +7495,7 @@ ERROR_GENERIC_FAILURE
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -8026,7 +8026,7 @@ GECKO_NETWORK_STATE_DISCONNECTING
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 datacall
 )
@@ -8553,7 +8553,7 @@ mmiServiceCode
 }
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -9256,7 +9256,7 @@ IMEI
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -11508,7 +11508,7 @@ newCardState
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 {
 rilMessageType
@@ -11599,7 +11599,7 @@ GECKO_CARDSTATE_UNKNOWN
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 {
 rilMessageType
@@ -11816,7 +11816,7 @@ newCardState
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 {
 rilMessageType
@@ -11908,7 +11908,7 @@ sendMMI
 {
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -12099,7 +12099,7 @@ retryCount
 }
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -12124,7 +12124,7 @@ _processingNetworkInfo
 {
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 message
 )
@@ -12363,7 +12363,7 @@ _sendPendingNetworkInfo
 {
 RIL
 .
-sendDOMMessage
+sendChromeMessage
 (
 RIL
 .
@@ -13651,7 +13651,7 @@ changedCall
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 message
 )
@@ -13681,7 +13681,7 @@ disconnectedCall
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 message
 )
@@ -13736,7 +13736,7 @@ errorCode
 }
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 message
 )
@@ -13861,7 +13861,7 @@ datacallstatechange
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 currentDataCall
 )
@@ -13907,7 +13907,7 @@ datacallstatechange
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 currentDataCall
 )
@@ -13968,7 +13968,7 @@ datacallstatechange
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 currentDataCall
 )
@@ -14106,7 +14106,7 @@ datacallstatechange
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 newDataCall
 )
@@ -15511,7 +15511,7 @@ received
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 message
 )
@@ -15769,7 +15769,7 @@ GECKO_SMS_DELIVERY_STATUS_ERROR
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 {
 rilMessageType
@@ -16337,7 +16337,7 @@ default
 :
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 {
 rilMessageType
@@ -16473,7 +16473,7 @@ options
 }
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 {
 rilMessageType
@@ -17874,10 +17874,10 @@ return
 list
 ;
 }
-handleDOMMessage
+handleChromeMessage
 :
 function
-handleMessage
+handleChromeMessage
 (
 message
 )
@@ -17890,7 +17890,7 @@ debug
 (
 "
 Received
-DOM
+chrome
 message
 "
 +
@@ -18018,7 +18018,7 @@ calls
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -18058,7 +18058,7 @@ datacall
 }
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 {
 rilMessageType
@@ -18255,16 +18255,16 @@ ctlvs
 ;
 RIL
 .
-sendDOMMessage
+sendChromeMessage
 (
 cmdDetails
 )
 ;
 }
-sendDOMMessage
+sendChromeMessage
 :
 function
-sendDOMMessage
+sendChromeMessage
 (
 message
 )
@@ -19205,7 +19205,7 @@ imsi
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -19524,7 +19524,7 @@ failCause
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -19810,7 +19810,7 @@ signalstrengthchange
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 obj
 )
@@ -20271,7 +20271,7 @@ datacallstatechange
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -20436,7 +20436,7 @@ rilRequestError
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -20511,7 +20511,7 @@ rilRequestError
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -20565,7 +20565,7 @@ rilRequestError
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -20607,7 +20607,7 @@ GECKO_ERROR_GENERIC_FAILURE
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -20822,7 +20822,7 @@ break
 }
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -20928,7 +20928,7 @@ break
 }
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -20982,7 +20982,7 @@ rilRequestError
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -21029,7 +21029,7 @@ GECKO_ERROR_GENERIC_FAILURE
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -21173,7 +21173,7 @@ rules
 }
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -21293,7 +21293,7 @@ break
 }
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -21347,7 +21347,7 @@ rilRequestError
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -21400,7 +21400,7 @@ ICC_SERVICE_CLASS_VOICE
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -21455,7 +21455,7 @@ rilRequestError
 }
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -21582,7 +21582,7 @@ IMEI
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -21690,7 +21690,7 @@ datacallstatechange
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 datacall
 )
@@ -21772,7 +21772,7 @@ true
 }
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -21845,7 +21845,7 @@ readUint32List
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -21891,7 +21891,7 @@ rilRequestError
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -21931,7 +21931,7 @@ channel
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -21970,7 +21970,7 @@ rilRequestError
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -21980,7 +21980,7 @@ return
 }
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -22019,7 +22019,7 @@ rilRequestError
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -22101,7 +22101,7 @@ simResponse
 }
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -22147,7 +22147,7 @@ rilRequestError
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -22273,7 +22273,7 @@ rilRequestError
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -22283,7 +22283,7 @@ return
 }
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -22322,7 +22322,7 @@ rilRequestError
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -22332,7 +22332,7 @@ return
 }
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -22371,7 +22371,7 @@ rilRequestError
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -22391,7 +22391,7 @@ _processNetworks
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -22531,7 +22531,7 @@ rilRequestError
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -22568,7 +22568,7 @@ GECKO_ERROR_GENERIC_FAILURE
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -22648,7 +22648,7 @@ break
 }
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -23373,7 +23373,7 @@ return
 }
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 {
 rilMessageType
@@ -23461,7 +23461,7 @@ readUint32
 }
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 {
 rilMessageType
@@ -24093,7 +24093,7 @@ readUint32List
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 options
 )
@@ -24387,7 +24387,7 @@ newState
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 {
 rilMessageType
@@ -24682,7 +24682,7 @@ typeCode
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 {
 rilMessageType
@@ -24909,7 +24909,7 @@ return
 }
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 {
 rilMessageType
@@ -25029,7 +25029,7 @@ UNSOLICITED_STK_SESSION_END
 {
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 {
 rilMessageType
@@ -25173,7 +25173,7 @@ readUint32
 }
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 info
 )
@@ -25361,7 +25361,7 @@ received
 ;
 this
 .
-sendDOMMessage
+sendChromeMessage
 (
 message
 )
@@ -44492,7 +44492,7 @@ iccmbdn
 ;
 RIL
 .
-sendDOMMessage
+sendChromeMessage
 (
 contact
 )
@@ -48625,7 +48625,7 @@ iccinfochange
 ;
 RIL
 .
-sendDOMMessage
+sendChromeMessage
 (
 RIL
 .
@@ -51749,7 +51749,7 @@ event
 {
 RIL
 .
-handleDOMMessage
+handleChromeMessage
 (
 event
 .
