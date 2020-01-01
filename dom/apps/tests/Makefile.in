@@ -126,6 +126,9 @@ xul
 (
 NULL
 )
+XPCSHELL_TESTS
+=
+unit
 include
 (
 topsrcdir
