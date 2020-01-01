@@ -11,8 +11,14 @@ function
 {
 window
 .
-setTimeout
+setInterval
 (
+qaNotifications
+.
+updateNotificationStore
+(
+)
+3600000
 )
 ;
 }
