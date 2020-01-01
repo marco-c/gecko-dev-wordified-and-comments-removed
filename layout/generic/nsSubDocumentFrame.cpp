@@ -2720,6 +2720,13 @@ PR_FALSE
 ;
 }
 }
+else
+{
+mPostedReflowCallback
+=
+PR_FALSE
+;
+}
 return
 PR_FALSE
 ;
