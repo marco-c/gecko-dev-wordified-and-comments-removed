@@ -740,6 +740,10 @@ UTF
 "
 true
 )
+.
+clone
+(
+)
 ;
 do_check_eq
 (
@@ -763,6 +767,10 @@ UTF
 "
 true
 )
+.
+clone
+(
+)
 ;
 do_check_eq
 (
@@ -785,6 +793,10 @@ UTF
 16BE
 "
 true
+)
+.
+clone
+(
 )
 ;
 do_check_eq
@@ -885,6 +897,10 @@ testStringEncode
 )
 ;
 throwingToJSON
+(
+)
+;
+testOutputStreams
 (
 )
 ;
