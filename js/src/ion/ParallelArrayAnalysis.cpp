@@ -892,6 +892,10 @@ GetElementCache
 )
 UNSAFE_OP
 (
+SetElementCache
+)
+UNSAFE_OP
+(
 BindNameCache
 )
 SAFE_OP
@@ -1071,6 +1075,10 @@ ArgumentsLength
 UNSAFE_OP
 (
 GetArgument
+)
+UNSAFE_OP
+(
+RunOncePrologue
 )
 CUSTOM_OP
 (
