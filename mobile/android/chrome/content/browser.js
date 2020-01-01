@@ -18198,7 +18198,7 @@ addEventListener
 touchstart
 "
 this
-false
+true
 )
 ;
 BrowserApp
