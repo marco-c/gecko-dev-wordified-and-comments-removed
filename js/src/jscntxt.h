@@ -356,6 +356,15 @@ jsval
 *
 recoveryDoublePoolPtr
 ;
+CLS
+(
+nanojit
+:
+:
+Fragmento
+)
+reFragmento
+;
 }
 JSTraceMonitor
 ;

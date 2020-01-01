@@ -214,6 +214,9 @@ JSString
 *
 source
 ;
+JSBool
+is_native
+;
 jsbytecode
 program
 [
