@@ -1600,6 +1600,10 @@ gfxPlatform
 (
 )
 {
+mScreenReferenceSurface
+=
+nsnull
+;
 #
 if
 MOZ_TREE_CAIRO
