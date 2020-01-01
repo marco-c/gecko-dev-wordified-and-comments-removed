@@ -533,6 +533,11 @@ cpp
 SmsParent
 .
 cpp
+\
+SmsMessage
+.
+cpp
+\
 (
 NULL
 )
