@@ -212,15 +212,9 @@ AutoCreateAndDestroyReentrantMonitor
 (
 )
 {
-if
-(
-mReentrantMonitor
-)
-{
 delete
 mReentrantMonitor
 ;
-}
 }
 operator
 ReentrantMonitor

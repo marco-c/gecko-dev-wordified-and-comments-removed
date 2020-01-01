@@ -616,10 +616,6 @@ RasterImage
 (
 )
 {
-if
-(
-mAnim
-)
 delete
 mAnim
 ;

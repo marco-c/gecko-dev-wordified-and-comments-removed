@@ -150,10 +150,6 @@ nsStorageStream
 (
 )
 {
-if
-(
-mSegmentedBuffer
-)
 delete
 mSegmentedBuffer
 ;

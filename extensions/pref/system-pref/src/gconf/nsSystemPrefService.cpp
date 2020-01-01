@@ -814,10 +814,6 @@ mInitialized
 =
 PR_FALSE
 ;
-if
-(
-mGConf
-)
 delete
 mGConf
 ;

@@ -198,15 +198,9 @@ CompareCacheHashEntryPtr
 (
 )
 {
-if
-(
-entry
-)
-{
 delete
 entry
 ;
-}
 }
 CompareCacheHashEntry
 :

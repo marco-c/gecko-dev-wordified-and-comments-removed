@@ -297,10 +297,6 @@ Free
 mDateTimeStr
 )
 ;
-if
-(
-mHeadFootFont
-)
 delete
 mHeadFootFont
 ;
@@ -526,10 +522,6 @@ nsSimplePageSequenceFrame
 (
 )
 {
-if
-(
-mPageData
-)
 delete
 mPageData
 ;

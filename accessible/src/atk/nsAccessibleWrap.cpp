@@ -1129,15 +1129,9 @@ aMaiHyperlink
 return
 ;
 }
-if
-(
-maiHyperlink
-)
-{
 delete
 maiHyperlink
 ;
-}
 g_object_set_qdata
 (
 G_OBJECT

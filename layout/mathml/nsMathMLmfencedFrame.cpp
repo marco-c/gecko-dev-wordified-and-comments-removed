@@ -252,17 +252,9 @@ RemoveFencesAndSeparators
 (
 )
 {
-if
-(
-mOpenChar
-)
 delete
 mOpenChar
 ;
-if
-(
-mCloseChar
-)
 delete
 mCloseChar
 ;

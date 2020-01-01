@@ -111,10 +111,6 @@ ElementAt
 i
 )
 ;
-if
-(
-controllerData
-)
 delete
 controllerData
 ;

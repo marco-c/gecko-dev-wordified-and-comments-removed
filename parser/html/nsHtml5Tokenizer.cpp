@@ -16957,15 +16957,9 @@ interner
 )
 ;
 }
-if
-(
-attributes
-)
-{
 delete
 attributes
 ;
-}
 if
 (
 !

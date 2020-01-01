@@ -126,10 +126,6 @@ Close
 (
 )
 {
-if
-(
-mShMem
-)
 delete
 mShMem
 ;
