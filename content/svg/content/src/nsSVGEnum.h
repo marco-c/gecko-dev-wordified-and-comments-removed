@@ -114,6 +114,7 @@ PRUint16
 GetBaseValue
 (
 )
+const
 {
 return
 mBaseVal
@@ -123,6 +124,7 @@ PRUint16
 GetAnimValue
 (
 )
+const
 {
 return
 mAnimVal
