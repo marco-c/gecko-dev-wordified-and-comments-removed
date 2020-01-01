@@ -564,6 +564,11 @@ RunScheduledTask
 )
 ;
 void
+UpdateDragAction
+(
+)
+;
+void
 DispatchMotionEvents
 (
 )
