@@ -238,11 +238,9 @@ PR_FALSE
 )
 mCharset
 (
-0
 )
 mUnicodeRanges
 (
-0
 )
 {
 mUserFontData
