@@ -41,14 +41,6 @@ PRBool
 aIsBogus
 )
 ;
-void
-MarkDirty
-(
-nsBoxLayoutState
-&
-aState
-)
-;
 nsIBox
 *
 GetBox

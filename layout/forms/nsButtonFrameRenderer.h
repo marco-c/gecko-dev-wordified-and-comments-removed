@@ -195,16 +195,6 @@ GetButtonInnerFocusBorderAndPadding
 )
 ;
 nsMargin
-GetButtonOutlineBorderAndPadding
-(
-)
-;
-nsMargin
-GetFullButtonBorderAndPadding
-(
-)
-;
-nsMargin
 GetAddedButtonBorderAndPadding
 (
 )

@@ -232,15 +232,6 @@ aIsOddLevel
 )
 ;
 nsresult
-GetBidiEngine
-(
-nsBidi
-*
-*
-aBidiEngine
-)
-;
-nsresult
 RenderText
 (
 const

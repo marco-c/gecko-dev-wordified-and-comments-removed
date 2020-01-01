@@ -684,15 +684,6 @@ CheckForCollapsedBottomMarginFromClearanceLine
 (
 )
 ;
-nsIFrame
-*
-GetTopBlockChild
-(
-nsPresContext
-*
-aPresContext
-)
-;
 static
 nsresult
 GetCurrentLine

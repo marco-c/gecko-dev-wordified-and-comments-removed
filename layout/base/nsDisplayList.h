@@ -1666,11 +1666,6 @@ RemoveBottom
 )
 ;
 void
-DeleteBottom
-(
-)
-;
-void
 DeleteAll
 (
 )

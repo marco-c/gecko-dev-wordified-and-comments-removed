@@ -92,14 +92,6 @@ aEnd
 )
 ;
 PRBool
-HasPoint
-(
-coord_type
-aPoint
-)
-const
-;
-PRBool
 Intersects
 (
 coord_type

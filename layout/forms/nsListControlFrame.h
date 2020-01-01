@@ -495,16 +495,6 @@ index
 )
 ;
 NS_IMETHOD
-GetOptionSelected
-(
-PRInt32
-aIndex
-PRBool
-*
-aValue
-)
-;
-NS_IMETHOD
 DoneAddingChildren
 (
 PRBool

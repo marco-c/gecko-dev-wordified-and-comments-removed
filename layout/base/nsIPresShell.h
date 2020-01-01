@@ -1507,12 +1507,6 @@ PRBool
 aEnabled
 )
 ;
-static
-PRInt32
-GetVerifyReflowFlags
-(
-)
-;
 virtual
 nsIFrame
 *

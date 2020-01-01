@@ -436,14 +436,6 @@ nsIFrame
 aFrame
 )
 ;
-virtual
-PRInt32
-FindLineAt
-(
-nscoord
-aY
-)
-;
 NS_IMETHOD
 FindFrameAt
 (
