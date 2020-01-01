@@ -61,13 +61,6 @@ nsContentUtils
 h
 "
 #
-include
-"
-nsDOMMemoryReporter
-.
-h
-"
-#
 ifdef
 MOZ_SMIL
 #
@@ -153,7 +146,6 @@ nsIContent
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_DOM_MEMORY_REPORTER_SIZEOF
 nsGenericDOMDataNode
 (
 already_AddRefed
