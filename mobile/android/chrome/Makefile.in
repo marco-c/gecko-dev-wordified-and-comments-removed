@@ -453,10 +453,6 @@ MOZ_APP_VERSION
 (
 NULL
 )
-TEST_DIRS
-+
-=
-tests
 include
 (
 topsrcdir
