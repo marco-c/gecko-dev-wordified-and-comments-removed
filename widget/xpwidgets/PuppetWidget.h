@@ -573,6 +573,13 @@ GetDPI
 )
 ;
 virtual
+bool
+NeedsPaint
+(
+)
+MOZ_OVERRIDE
+;
+virtual
 TabChild
 *
 GetOwningTabChild

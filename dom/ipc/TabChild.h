@@ -1369,6 +1369,16 @@ IsAsyncPanZoomEnabled
 (
 )
 ;
+void
+MakeVisible
+(
+)
+;
+void
+MakeHidden
+(
+)
+;
 protected
 :
 virtual
