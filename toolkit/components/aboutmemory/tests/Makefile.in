@@ -441,7 +441,7 @@ test_aboutmemory
 .
 xul
 \
-test_asyncClose_leak
+test_sqliteMultiReporter
 .
 xul
 \
