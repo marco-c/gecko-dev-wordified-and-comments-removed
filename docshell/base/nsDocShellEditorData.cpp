@@ -107,6 +107,7 @@ mEditor
 >
 PreDestroy
 (
+PR_FALSE
 )
 ;
 mEditor
@@ -161,6 +162,7 @@ mEditor
 >
 PreDestroy
 (
+PR_FALSE
 )
 ;
 mEditor
@@ -369,6 +371,7 @@ mEditor
 >
 PreDestroy
 (
+PR_FALSE
 )
 ;
 mEditor

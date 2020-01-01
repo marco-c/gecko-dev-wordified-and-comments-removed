@@ -24759,10 +24759,8 @@ aView
 ;
 if
 (
-(
 GetCurrentEventFrame
 (
-)
 )
 &
 &
@@ -24880,6 +24878,10 @@ nsnull
 }
 if
 (
+!
+mIsDestroying
+&
+&
 NS_SUCCEEDED
 (
 rv

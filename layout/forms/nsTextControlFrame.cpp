@@ -4295,6 +4295,7 @@ mEditor
 >
 PreDestroy
 (
+PR_TRUE
 )
 ;
 }
