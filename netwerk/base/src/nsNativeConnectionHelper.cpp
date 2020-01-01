@@ -9,7 +9,7 @@ h
 if
 defined
 (
-MOZ_ENABLE_LIBCONIC
+MOZ_PLATFORM_MAEMO
 )
 #
 include
@@ -66,7 +66,7 @@ if
 !
 defined
 (
-MOZ_ENABLE_LIBCONIC
+MOZ_PLATFORM_MAEMO
 )
 &
 &
