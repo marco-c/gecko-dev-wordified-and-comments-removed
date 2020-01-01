@@ -1275,6 +1275,14 @@ len
 =
 0
 ;
+aValue
+.
+CompressWhitespace
+(
+true
+false
+)
+;
 if
 (
 0
