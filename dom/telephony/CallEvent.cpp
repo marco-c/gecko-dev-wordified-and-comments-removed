@@ -26,6 +26,13 @@ TelephonyCall
 .
 h
 "
+#
+include
+"
+TelephonyCallArray
+.
+h
+"
 USING_TELEPHONY_NAMESPACE
 already_AddRefed
 <

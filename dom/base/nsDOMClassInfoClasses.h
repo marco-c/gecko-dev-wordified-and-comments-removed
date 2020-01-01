@@ -1543,6 +1543,10 @@ TelephonyCall
 )
 DOMCI_CLASS
 (
+TelephonyCallArray
+)
+DOMCI_CLASS
+(
 CallEvent
 )
 #

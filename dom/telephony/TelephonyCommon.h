@@ -125,6 +125,12 @@ Telephony
 class
 TelephonyCall
 ;
+class
+TelephonyCallArray
+;
+class
+CallEvent
+;
 END_TELEPHONY_NAMESPACE
 #
 endif
