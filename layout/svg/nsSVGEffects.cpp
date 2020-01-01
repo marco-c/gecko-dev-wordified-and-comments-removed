@@ -840,8 +840,6 @@ changeHint
 nsChangeHint
 (
 nsChangeHint_RepaintFrame
-|
-nsChangeHint_UpdateEffects
 )
 ;
 if
@@ -942,8 +940,6 @@ changeHint
 nsChangeHint
 (
 nsChangeHint_RepaintFrame
-|
-nsChangeHint_UpdateEffects
 )
 ;
 if
