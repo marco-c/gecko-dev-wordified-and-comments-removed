@@ -93,6 +93,15 @@ textColorPrimary
 "
 android
 :
+textColorLink
+=
+"
+color
+/
+doorhanger_link
+"
+android
+:
 padding
 =
 "
