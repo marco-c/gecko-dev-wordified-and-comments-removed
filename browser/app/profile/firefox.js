@@ -2428,16 +2428,6 @@ pref
 "
 browser
 .
-altClickSave
-"
-false
-)
-;
-pref
-(
-"
-browser
-.
 download
 .
 saveLinkAsFilenameTimeout
