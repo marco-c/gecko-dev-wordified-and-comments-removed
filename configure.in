@@ -77206,7 +77206,9 @@ MOZ_OLD_LINKER
 "
 -
 a
+"
 ac_cv_func_dladdr
+"
 =
 no
 ;
@@ -77286,7 +77288,9 @@ MOZ_OLD_LINKER
 "
 -
 a
+"
 ac_cv_func_dladdr
+"
 =
 no
 ;
