@@ -592,9 +592,10 @@ few
 if
 (
 '
-A
+a
 '
 eq
+lc
 kind
 )
 {
