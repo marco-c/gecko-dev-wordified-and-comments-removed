@@ -27803,10 +27803,13 @@ NS_LITERAL_STRING
 )
 )
 ;
-JSObject
-*
+JS
+:
+:
+RootedObject
 re
-=
+(
+cx
 JS_NewUCRegExpObjectNoStatics
 (
 cx
@@ -27828,6 +27831,7 @@ Length
 (
 )
 0
+)
 )
 ;
 if
@@ -27898,11 +27902,8 @@ Length
 &
 idx
 true
+&
 rval
-.
-address
-(
-)
 )
 )
 {
