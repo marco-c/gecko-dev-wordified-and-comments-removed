@@ -682,6 +682,12 @@ false
 ;
 this
 .
+_maybeZoomToPage
+=
+false
+;
+this
+.
 zoomToPage
 (
 )
