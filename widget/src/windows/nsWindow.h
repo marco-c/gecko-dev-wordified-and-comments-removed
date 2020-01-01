@@ -926,6 +926,8 @@ virtual
 PRBool
 AutoErase
 (
+HDC
+dc
 )
 ;
 nsIntPoint
