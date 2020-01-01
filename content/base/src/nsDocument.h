@@ -2071,7 +2071,7 @@ virtual
 void
 AddCatalogStyleSheet
 (
-nsIStyleSheet
+nsCSSStyleSheet
 *
 aSheet
 )
