@@ -519,6 +519,10 @@ nsAccessibilityHelper
 .
 cpp
 \
+nsAccelerometerUnix
+.
+cpp
+\
 (
 NULL
 )
