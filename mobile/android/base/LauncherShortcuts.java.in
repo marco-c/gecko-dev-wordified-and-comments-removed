@@ -202,13 +202,6 @@ view
 import
 android
 .
-net
-.
-Uri
-;
-import
-android
-.
 graphics
 .
 *

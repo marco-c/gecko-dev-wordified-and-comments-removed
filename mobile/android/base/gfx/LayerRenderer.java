@@ -48,13 +48,6 @@ android
 .
 graphics
 .
-Bitmap
-;
-import
-android
-.
-graphics
-.
 Point
 ;
 import
