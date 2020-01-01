@@ -347,12 +347,12 @@ objShape
 savedCopy
 -
 >
-slots
+dslots
 =
 obj
 -
 >
-slots
+dslots
 ;
 CHECK
 (
@@ -361,7 +361,11 @@ memcmp
 (
 savedCopy
 obj
-JSOBJECT_SIZE
+sizeof
+(
+*
+obj
+)
 )
 )
 ;

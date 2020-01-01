@@ -23127,7 +23127,7 @@ JSOP_NEWINIT
 {
 i
 =
-GET_UINT16
+GET_INT8
 (
 pc
 )

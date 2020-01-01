@@ -1112,7 +1112,6 @@ funobj
 getParent
 (
 )
-FINALIZE_OBJECT4
 )
 ;
 if
