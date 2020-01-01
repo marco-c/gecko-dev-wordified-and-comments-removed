@@ -491,6 +491,10 @@ browser_inspector_editor
 .
 js
 \
+browser_inspector_editor_name
+.
+js
+\
 browser_inspector_bug_566084_location_changed
 .
 js
