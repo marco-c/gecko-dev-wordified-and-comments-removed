@@ -664,16 +664,6 @@ event
 ;
 virtual
 bool
-RecvQueryContentEvent
-(
-const
-nsQueryContentEvent
-&
-event
-)
-;
-virtual
-bool
 RecvSelectionEvent
 (
 const

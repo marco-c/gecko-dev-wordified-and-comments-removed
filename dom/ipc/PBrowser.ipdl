@@ -635,12 +635,6 @@ nsString
 retval
 )
 ;
-QueryContentResult
-(
-nsQueryContentEvent
-event
-)
-;
 PContentPermissionRequest
 (
 nsCString
@@ -892,12 +886,6 @@ event
 TextEvent
 (
 nsTextEvent
-event
-)
-;
-QueryContentEvent
-(
-nsQueryContentEvent
 event
 )
 ;
