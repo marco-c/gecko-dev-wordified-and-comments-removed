@@ -156,6 +156,15 @@ CancelDefaultPanZoom
 (
 )
 ;
+void
+ZoomToRect
+(
+const
+gfxRect
+&
+aRect
+)
+;
 bool
 SampleContentTransformForFrame
 (
@@ -452,6 +461,7 @@ FLING
 TOUCHING
 PANNING
 PINCHING
+ANIMATING_ZOOM
 }
 ;
 enum
@@ -496,6 +506,12 @@ mLastContentPaintMetrics
 FrameMetrics
 mLastPaintRequestMetrics
 ;
+FrameMetrics
+mStartZoomToMetrics
+;
+FrameMetrics
+mEndZoomToMetrics
+;
 AxisX
 mX
 ;
@@ -510,6 +526,9 @@ mLastSampleTime
 ;
 PRInt32
 mLastEventTime
+;
+TimeStamp
+mAnimationStartTime
 ;
 nsIntPoint
 mLastZoomFocus
