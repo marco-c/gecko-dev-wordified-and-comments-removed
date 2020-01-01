@@ -12641,7 +12641,7 @@ modifierFlags
 =
 :
 :
-GetCurrentEventKeyModifiers
+GetCurrentKeyModifiers
 (
 )
 ;
@@ -17711,7 +17711,7 @@ modifiers
 =
 :
 :
-GetCurrentEventKeyModifiers
+GetCurrentKeyModifiers
 (
 )
 ;
@@ -18054,7 +18054,7 @@ modifiers
 =
 :
 :
-GetCurrentEventKeyModifiers
+GetCurrentKeyModifiers
 (
 )
 ;
@@ -18429,7 +18429,7 @@ modifiers
 =
 :
 :
-GetCurrentEventKeyModifiers
+GetCurrentKeyModifiers
 (
 )
 ;
@@ -18744,7 +18744,7 @@ modifiers
 =
 :
 :
-GetCurrentEventKeyModifiers
+GetCurrentKeyModifiers
 (
 )
 ;
@@ -19032,7 +19032,7 @@ btnState
 |
 :
 :
-GetCurrentEventKeyModifiers
+GetCurrentKeyModifiers
 (
 )
 ;
@@ -21947,7 +21947,7 @@ modifiers
 =
 :
 :
-GetCurrentEventKeyModifiers
+GetCurrentKeyModifiers
 (
 )
 ;

@@ -14958,7 +14958,7 @@ modifiers
 =
 :
 :
-GetCurrentEventKeyModifiers
+GetCurrentKeyModifiers
 (
 )
 ;
