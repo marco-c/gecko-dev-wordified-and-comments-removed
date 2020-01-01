@@ -10525,7 +10525,7 @@ ins
 >
 isop
 (
-LIR_fcall
+LIR_calld
 )
 ?
 FST0
@@ -10756,7 +10756,7 @@ ins
 >
 isop
 (
-LIR_pcall
+LIR_callp
 )
 |
 |
@@ -10765,7 +10765,7 @@ ins
 >
 isop
 (
-LIR_fcall
+LIR_calld
 )
 )
 ;
@@ -11367,7 +11367,7 @@ if
 op
 =
 =
-LIR_icall
+LIR_calli
 )
 {
 prefer
@@ -11387,7 +11387,7 @@ if
 op
 =
 =
-LIR_fcall
+LIR_calld
 )
 {
 prefer
@@ -11404,7 +11404,7 @@ if
 op
 =
 =
-LIR_param
+LIR_paramp
 )
 {
 uint8_t
@@ -11590,7 +11590,7 @@ ins
 >
 isop
 (
-LIR_alloc
+LIR_allocp
 )
 |
 |
@@ -11638,7 +11638,7 @@ ins
 >
 isop
 (
-LIR_alloc
+LIR_allocp
 )
 )
 {
@@ -11725,7 +11725,7 @@ ins
 >
 isop
 (
-LIR_param
+LIR_paramp
 )
 &
 &
@@ -11973,7 +11973,7 @@ op
 )
 {
 case
-LIR_stb
+LIR_sti2c
 :
 ST8i
 (
@@ -11985,7 +11985,7 @@ c
 break
 ;
 case
-LIR_sts
+LIR_sti2s
 :
 ST16i
 (
@@ -12038,7 +12038,7 @@ SrcRegs
 op
 =
 =
-LIR_stb
+LIR_sti2c
 )
 ?
 (
@@ -12122,7 +12122,7 @@ op
 )
 {
 case
-LIR_stb
+LIR_sti2c
 :
 ST8
 (
@@ -12134,7 +12134,7 @@ ra
 break
 ;
 case
-LIR_sts
+LIR_sti2s
 :
 ST16
 (
@@ -12346,7 +12346,7 @@ opcode
 )
 {
 case
-LIR_ldf
+LIR_ldd
 :
 if
 (
@@ -12388,7 +12388,7 @@ rb
 break
 ;
 case
-LIR_ld32f
+LIR_ldf2d
 :
 if
 (
@@ -12483,7 +12483,7 @@ opcode
 )
 {
 case
-LIR_ldf
+LIR_ldd
 :
 asm_mmq
 (
@@ -12496,7 +12496,7 @@ db
 break
 ;
 case
-LIR_ld32f
+LIR_ldf2d
 :
 FSTPQ
 (
@@ -12560,7 +12560,7 @@ if
 op
 =
 =
-LIR_st32f
+LIR_std2f
 )
 {
 bool
@@ -12699,7 +12699,7 @@ value
 >
 isop
 (
-LIR_ldf
+LIR_ldd
 )
 )
 {
@@ -12987,7 +12987,7 @@ condop
 )
 {
 case
-LIR_eq
+LIR_eqi
 :
 JNE
 (
@@ -12997,7 +12997,7 @@ targ
 break
 ;
 case
-LIR_lt
+LIR_lti
 :
 JNL
 (
@@ -13007,7 +13007,7 @@ targ
 break
 ;
 case
-LIR_le
+LIR_lei
 :
 JNLE
 (
@@ -13017,7 +13017,7 @@ targ
 break
 ;
 case
-LIR_gt
+LIR_gti
 :
 JNG
 (
@@ -13027,7 +13027,7 @@ targ
 break
 ;
 case
-LIR_ge
+LIR_gei
 :
 JNGE
 (
@@ -13037,7 +13037,7 @@ targ
 break
 ;
 case
-LIR_ult
+LIR_ltui
 :
 JNB
 (
@@ -13047,7 +13047,7 @@ targ
 break
 ;
 case
-LIR_ule
+LIR_leui
 :
 JNBE
 (
@@ -13057,7 +13057,7 @@ targ
 break
 ;
 case
-LIR_ugt
+LIR_gtui
 :
 JNA
 (
@@ -13067,7 +13067,7 @@ targ
 break
 ;
 case
-LIR_uge
+LIR_geui
 :
 JNAE
 (
@@ -13095,7 +13095,7 @@ condop
 )
 {
 case
-LIR_eq
+LIR_eqi
 :
 JE
 (
@@ -13105,7 +13105,7 @@ targ
 break
 ;
 case
-LIR_lt
+LIR_lti
 :
 JL
 (
@@ -13115,7 +13115,7 @@ targ
 break
 ;
 case
-LIR_le
+LIR_lei
 :
 JLE
 (
@@ -13125,7 +13125,7 @@ targ
 break
 ;
 case
-LIR_gt
+LIR_gti
 :
 JG
 (
@@ -13135,7 +13135,7 @@ targ
 break
 ;
 case
-LIR_ge
+LIR_gei
 :
 JGE
 (
@@ -13145,7 +13145,7 @@ targ
 break
 ;
 case
-LIR_ult
+LIR_ltui
 :
 JB
 (
@@ -13155,7 +13155,7 @@ targ
 break
 ;
 case
-LIR_ule
+LIR_leui
 :
 JBE
 (
@@ -13165,7 +13165,7 @@ targ
 break
 ;
 case
-LIR_ugt
+LIR_gtui
 :
 JA
 (
@@ -13175,7 +13175,7 @@ targ
 break
 ;
 case
-LIR_uge
+LIR_geui
 :
 JAE
 (
@@ -13393,7 +13393,7 @@ cond
 >
 isop
 (
-LIR_eq
+LIR_eqi
 )
 )
 {
@@ -13413,7 +13413,7 @@ lhs
 >
 isop
 (
-LIR_and
+LIR_andi
 )
 |
 |
@@ -13422,7 +13422,7 @@ lhs
 >
 isop
 (
-LIR_or
+LIR_ori
 )
 )
 &
@@ -13538,7 +13538,7 @@ opcode
 )
 {
 case
-LIR_feq
+LIR_eqd
 :
 SETNP
 (
@@ -13548,10 +13548,10 @@ r
 break
 ;
 case
-LIR_flt
+LIR_ltd
 :
 case
-LIR_fgt
+LIR_gtd
 :
 SETA
 (
@@ -13561,10 +13561,10 @@ r
 break
 ;
 case
-LIR_fle
+LIR_led
 :
 case
-LIR_fge
+LIR_ged
 :
 SETAE
 (
@@ -13644,7 +13644,7 @@ op
 )
 {
 case
-LIR_eq
+LIR_eqi
 :
 SETE
 (
@@ -13654,7 +13654,7 @@ r
 break
 ;
 case
-LIR_lt
+LIR_lti
 :
 SETL
 (
@@ -13664,7 +13664,7 @@ r
 break
 ;
 case
-LIR_le
+LIR_lei
 :
 SETLE
 (
@@ -13674,7 +13674,7 @@ r
 break
 ;
 case
-LIR_gt
+LIR_gti
 :
 SETG
 (
@@ -13684,7 +13684,7 @@ r
 break
 ;
 case
-LIR_ge
+LIR_gei
 :
 SETGE
 (
@@ -13694,7 +13694,7 @@ r
 break
 ;
 case
-LIR_ult
+LIR_ltui
 :
 SETB
 (
@@ -13704,7 +13704,7 @@ r
 break
 ;
 case
-LIR_ule
+LIR_leui
 :
 SETBE
 (
@@ -13714,7 +13714,7 @@ r
 break
 ;
 case
-LIR_ugt
+LIR_gtui
 :
 SETA
 (
@@ -13724,7 +13724,7 @@ r
 break
 ;
 case
-LIR_uge
+LIR_geui
 :
 SETAE
 (
@@ -13779,7 +13779,7 @@ if
 op
 =
 =
-LIR_mod
+LIR_modi
 )
 {
 asm_div_mod
@@ -13815,7 +13815,7 @@ if
 op
 =
 =
-LIR_add
+LIR_addi
 &
 &
 lhs
@@ -13823,7 +13823,7 @@ lhs
 >
 isop
 (
-LIR_alloc
+LIR_allocp
 )
 &
 &
@@ -13893,7 +13893,7 @@ op
 )
 {
 case
-LIR_div
+LIR_divi
 :
 isConstRhs
 =
@@ -13937,10 +13937,10 @@ EDX
 break
 ;
 case
-LIR_mul
+LIR_muli
 :
 case
-LIR_mulxov
+LIR_mulxovi
 :
 isConstRhs
 =
@@ -13975,13 +13975,13 @@ rb
 break
 ;
 case
-LIR_lsh
+LIR_lshi
 :
 case
-LIR_rsh
+LIR_rshi
 :
 case
-LIR_ush
+LIR_rshui
 :
 isConstRhs
 =
@@ -14113,10 +14113,10 @@ op
 )
 {
 case
-LIR_add
+LIR_addi
 :
 case
-LIR_addxov
+LIR_addxovi
 :
 ADD
 (
@@ -14127,10 +14127,10 @@ rb
 break
 ;
 case
-LIR_sub
+LIR_subi
 :
 case
-LIR_subxov
+LIR_subxovi
 :
 SUB
 (
@@ -14141,10 +14141,10 @@ rb
 break
 ;
 case
-LIR_mul
+LIR_muli
 :
 case
-LIR_mulxov
+LIR_mulxovi
 :
 MUL
 (
@@ -14155,7 +14155,7 @@ rb
 break
 ;
 case
-LIR_and
+LIR_andi
 :
 AND
 (
@@ -14166,7 +14166,7 @@ rb
 break
 ;
 case
-LIR_or
+LIR_ori
 :
 OR
 (
@@ -14177,7 +14177,7 @@ rb
 break
 ;
 case
-LIR_xor
+LIR_xori
 :
 XOR
 (
@@ -14188,7 +14188,7 @@ rb
 break
 ;
 case
-LIR_lsh
+LIR_lshi
 :
 SHL
 (
@@ -14199,7 +14199,7 @@ rb
 break
 ;
 case
-LIR_rsh
+LIR_rshi
 :
 SAR
 (
@@ -14210,7 +14210,7 @@ rb
 break
 ;
 case
-LIR_ush
+LIR_rshui
 :
 SHR
 (
@@ -14221,7 +14221,7 @@ rb
 break
 ;
 case
-LIR_div
+LIR_divi
 :
 DIV
 (
@@ -14263,7 +14263,7 @@ op
 )
 {
 case
-LIR_add
+LIR_addi
 :
 LEA
 (
@@ -14279,7 +14279,7 @@ rr
 break
 ;
 case
-LIR_addxov
+LIR_addxovi
 :
 ADDi
 (
@@ -14290,10 +14290,10 @@ c
 break
 ;
 case
-LIR_sub
+LIR_subi
 :
 case
-LIR_subxov
+LIR_subxovi
 :
 SUBi
 (
@@ -14304,7 +14304,7 @@ c
 break
 ;
 case
-LIR_and
+LIR_andi
 :
 ANDi
 (
@@ -14315,7 +14315,7 @@ c
 break
 ;
 case
-LIR_or
+LIR_ori
 :
 ORi
 (
@@ -14326,7 +14326,7 @@ c
 break
 ;
 case
-LIR_xor
+LIR_xori
 :
 XORi
 (
@@ -14337,7 +14337,7 @@ c
 break
 ;
 case
-LIR_lsh
+LIR_lshi
 :
 SHLi
 (
@@ -14348,7 +14348,7 @@ c
 break
 ;
 case
-LIR_rsh
+LIR_rshi
 :
 SARi
 (
@@ -14359,7 +14359,7 @@ c
 break
 ;
 case
-LIR_ush
+LIR_rshui
 :
 SHRi
 (
@@ -14452,7 +14452,7 @@ mod
 >
 isop
 (
-LIR_mod
+LIR_modi
 )
 )
 ;
@@ -14463,7 +14463,7 @@ div
 >
 isop
 (
-LIR_div
+LIR_divi
 )
 )
 ;
@@ -14663,7 +14663,7 @@ ins
 >
 isop
 (
-LIR_not
+LIR_noti
 )
 )
 {
@@ -14682,7 +14682,7 @@ ins
 >
 isop
 (
-LIR_neg
+LIR_negi
 )
 )
 ;
@@ -14818,7 +14818,7 @@ op
 )
 {
 case
-LIR_ldzb
+LIR_lduc2ui
 :
 LD8Zdm
 (
@@ -14829,7 +14829,7 @@ addr
 break
 ;
 case
-LIR_ldsb
+LIR_ldc2i
 :
 LD8Sdm
 (
@@ -14840,7 +14840,7 @@ addr
 break
 ;
 case
-LIR_ldzs
+LIR_ldus2ui
 :
 LD16Zdm
 (
@@ -14851,7 +14851,7 @@ addr
 break
 ;
 case
-LIR_ldss
+LIR_lds2i
 :
 LD16Sdm
 (
@@ -14862,7 +14862,7 @@ addr
 break
 ;
 case
-LIR_ld
+LIR_ldi
 :
 LDdm
 (
@@ -14908,7 +14908,7 @@ opcode
 )
 =
 =
-LIR_piadd
+LIR_addp
 )
 {
 LIns
@@ -14946,7 +14946,7 @@ opcode
 )
 =
 =
-LIR_pilsh
+LIR_lshp
 &
 &
 rhs
@@ -15098,7 +15098,7 @@ op
 )
 {
 case
-LIR_ldzb
+LIR_lduc2ui
 :
 LD8Zsib
 (
@@ -15112,7 +15112,7 @@ scale
 break
 ;
 case
-LIR_ldsb
+LIR_ldc2i
 :
 LD8Ssib
 (
@@ -15126,7 +15126,7 @@ scale
 break
 ;
 case
-LIR_ldzs
+LIR_ldus2ui
 :
 LD16Zsib
 (
@@ -15140,7 +15140,7 @@ scale
 break
 ;
 case
-LIR_ldss
+LIR_lds2i
 :
 LD16Ssib
 (
@@ -15154,7 +15154,7 @@ scale
 break
 ;
 case
-LIR_ld
+LIR_ldi
 :
 LDsib
 (
@@ -15263,7 +15263,7 @@ op
 )
 {
 case
-LIR_ldzb
+LIR_lduc2ui
 :
 LD8Z
 (
@@ -15275,7 +15275,7 @@ ra
 break
 ;
 case
-LIR_ldsb
+LIR_ldc2i
 :
 LD8S
 (
@@ -15287,7 +15287,7 @@ ra
 break
 ;
 case
-LIR_ldzs
+LIR_ldus2ui
 :
 LD16Z
 (
@@ -15299,7 +15299,7 @@ ra
 break
 ;
 case
-LIR_ldss
+LIR_lds2i
 :
 LD16S
 (
@@ -15311,7 +15311,7 @@ ra
 break
 ;
 case
-LIR_ld
+LIR_ldi
 :
 LD
 (
@@ -15354,7 +15354,7 @@ base
 >
 isop
 (
-LIR_alloc
+LIR_allocp
 )
 &
 &
@@ -15444,7 +15444,7 @@ ins
 >
 isop
 (
-LIR_cmov
+LIR_cmovi
 )
 &
 &
@@ -15518,7 +15518,7 @@ opcode
 )
 {
 case
-LIR_eq
+LIR_eqi
 :
 MRNE
 (
@@ -15529,7 +15529,7 @@ rf
 break
 ;
 case
-LIR_lt
+LIR_lti
 :
 MRGE
 (
@@ -15540,7 +15540,7 @@ rf
 break
 ;
 case
-LIR_le
+LIR_lei
 :
 MRG
 (
@@ -15551,7 +15551,7 @@ rf
 break
 ;
 case
-LIR_gt
+LIR_gti
 :
 MRLE
 (
@@ -15562,7 +15562,7 @@ rf
 break
 ;
 case
-LIR_ge
+LIR_gei
 :
 MRL
 (
@@ -15573,7 +15573,7 @@ rf
 break
 ;
 case
-LIR_ult
+LIR_ltui
 :
 MRAE
 (
@@ -15584,7 +15584,7 @@ rf
 break
 ;
 case
-LIR_ule
+LIR_leui
 :
 MRA
 (
@@ -15595,7 +15595,7 @@ rf
 break
 ;
 case
-LIR_ugt
+LIR_gtui
 :
 MRBE
 (
@@ -15606,7 +15606,7 @@ rf
 break
 ;
 case
-LIR_uge
+LIR_geui
 :
 MRB
 (
@@ -16593,7 +16593,7 @@ ins
 >
 isop
 (
-LIR_alloc
+LIR_allocp
 )
 )
 {
@@ -16723,7 +16723,7 @@ ins
 >
 isop
 (
-LIR_alloc
+LIR_allocp
 )
 )
 {
@@ -16853,7 +16853,7 @@ ins
 >
 isop
 (
-LIR_alloc
+LIR_allocp
 )
 )
 ra
@@ -17197,7 +17197,7 @@ op
 )
 {
 case
-LIR_fadd
+LIR_addd
 :
 SSE_ADDSD
 (
@@ -17208,7 +17208,7 @@ rb
 break
 ;
 case
-LIR_fsub
+LIR_subd
 :
 SSE_SUBSD
 (
@@ -17219,7 +17219,7 @@ rb
 break
 ;
 case
-LIR_fmul
+LIR_muld
 :
 SSE_MULSD
 (
@@ -17230,7 +17230,7 @@ rb
 break
 ;
 case
-LIR_fdiv
+LIR_divd
 :
 SSE_DIVSD
 (
@@ -17393,7 +17393,7 @@ op
 )
 {
 case
-LIR_fadd
+LIR_addd
 :
 FADDdm
 (
@@ -17408,7 +17408,7 @@ p
 break
 ;
 case
-LIR_fsub
+LIR_subd
 :
 FSUBRdm
 (
@@ -17423,7 +17423,7 @@ p
 break
 ;
 case
-LIR_fmul
+LIR_muld
 :
 FMULdm
 (
@@ -17438,7 +17438,7 @@ p
 break
 ;
 case
-LIR_fdiv
+LIR_divd
 :
 FDIVRdm
 (
@@ -17477,7 +17477,7 @@ op
 )
 {
 case
-LIR_fadd
+LIR_addd
 :
 FADD
 (
@@ -17488,7 +17488,7 @@ FP
 break
 ;
 case
-LIR_fsub
+LIR_subd
 :
 FSUBR
 (
@@ -17499,7 +17499,7 @@ FP
 break
 ;
 case
-LIR_fmul
+LIR_muld
 :
 FMUL
 (
@@ -17510,7 +17510,7 @@ FP
 break
 ;
 case
-LIR_fdiv
+LIR_divd
 :
 FDIVR
 (
@@ -18092,7 +18092,7 @@ opcode
 )
 {
 case
-LIR_feq
+LIR_eqd
 :
 JP
 (
@@ -18102,10 +18102,10 @@ targ
 break
 ;
 case
-LIR_flt
+LIR_ltd
 :
 case
-LIR_fgt
+LIR_gtd
 :
 JNA
 (
@@ -18115,10 +18115,10 @@ targ
 break
 ;
 case
-LIR_fle
+LIR_led
 :
 case
-LIR_fge
+LIR_ged
 :
 JNAE
 (
@@ -18146,7 +18146,7 @@ opcode
 )
 {
 case
-LIR_feq
+LIR_eqd
 :
 JNP
 (
@@ -18156,10 +18156,10 @@ targ
 break
 ;
 case
-LIR_flt
+LIR_ltd
 :
 case
-LIR_fgt
+LIR_gtd
 :
 JA
 (
@@ -18169,10 +18169,10 @@ targ
 break
 ;
 case
-LIR_fle
+LIR_led
 :
 case
-LIR_fge
+LIR_ged
 :
 JAE
 (
@@ -18305,12 +18305,12 @@ if
 condop
 =
 =
-LIR_flt
+LIR_ltd
 )
 {
 condop
 =
-LIR_fgt
+LIR_gtd
 ;
 LIns
 *
@@ -18333,12 +18333,12 @@ if
 condop
 =
 =
-LIR_fle
+LIR_led
 )
 {
 condop
 =
-LIR_fge
+LIR_ged
 ;
 LIns
 *
@@ -18360,7 +18360,7 @@ if
 condop
 =
 =
-LIR_feq
+LIR_eqd
 )
 {
 if
@@ -18461,12 +18461,12 @@ if
 condop
 =
 =
-LIR_fgt
+LIR_gtd
 )
 {
 condop
 =
-LIR_flt
+LIR_ltd
 ;
 LIns
 *
@@ -18489,12 +18489,12 @@ if
 condop
 =
 =
-LIR_fge
+LIR_ged
 )
 {
 condop
 =
-LIR_fle
+LIR_led
 ;
 LIns
 *
@@ -18522,7 +18522,7 @@ condop
 )
 {
 case
-LIR_feq
+LIR_eqd
 :
 mask
 =
@@ -18531,7 +18531,7 @@ mask
 break
 ;
 case
-LIR_flt
+LIR_ltd
 :
 mask
 =
@@ -18540,7 +18540,7 @@ mask
 break
 ;
 case
-LIR_fle
+LIR_led
 :
 mask
 =
@@ -18864,7 +18864,7 @@ ins
 >
 isop
 (
-LIR_ret
+LIR_reti
 )
 )
 {
@@ -18887,7 +18887,7 @@ ins
 >
 isop
 (
-LIR_fret
+LIR_retd
 )
 )
 ;
