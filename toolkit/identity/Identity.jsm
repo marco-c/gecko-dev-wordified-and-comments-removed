@@ -1114,7 +1114,7 @@ xmlhttprequest
 "
 ]
 .
-getService
+createInstance
 (
 Ci
 .
