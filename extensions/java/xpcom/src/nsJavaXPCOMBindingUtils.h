@@ -672,7 +672,7 @@ mHashTable
 }
 ;
 nsresult
-GetNewOrUsedJavaObject
+NativeInterfaceToJavaObject
 (
 JNIEnv
 *
@@ -692,7 +692,7 @@ aResult
 )
 ;
 nsresult
-GetNewOrUsedXPCOMObject
+JavaObjectToNativeInterface
 (
 JNIEnv
 *
@@ -703,7 +703,7 @@ const
 nsIID
 &
 aIID
-nsISupports
+void
 *
 *
 aResult

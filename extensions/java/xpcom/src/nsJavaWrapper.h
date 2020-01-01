@@ -19,7 +19,7 @@ nsISupports
 h
 "
 nsresult
-CreateJavaProxy
+GetNewOrUsedJavaWrapper
 (
 JNIEnv
 *
