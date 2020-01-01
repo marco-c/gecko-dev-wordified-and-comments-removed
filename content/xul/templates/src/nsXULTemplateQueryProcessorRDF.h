@@ -622,9 +622,6 @@ TestNode
 *
 mSimpleRuleMemberTest
 ;
-nsFixedSizeAllocator
-mPool
-;
 nsCOMPtr
 <
 nsIAtom
@@ -702,16 +699,6 @@ nsIRDFResource
 *
 kRDF_type
 ;
-nsFixedSizeAllocator
-&
-GetPool
-(
-)
-{
-return
-mPool
-;
-}
 }
 ;
 #

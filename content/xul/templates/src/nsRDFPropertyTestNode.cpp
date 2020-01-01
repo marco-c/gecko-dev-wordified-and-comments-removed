@@ -958,12 +958,6 @@ Element
 :
 Create
 (
-mProcessor
--
->
-GetPool
-(
-)
 sourceRes
 mProperty
 targetValue
@@ -1388,12 +1382,6 @@ Element
 :
 Create
 (
-mProcessor
--
->
-GetPool
-(
-)
 sourceRes
 mProperty
 targetValue

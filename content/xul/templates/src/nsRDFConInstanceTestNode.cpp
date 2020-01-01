@@ -1154,12 +1154,6 @@ Element
 :
 Create
 (
-mProcessor
--
->
-GetPool
-(
-)
 valueres
 container
 empty
