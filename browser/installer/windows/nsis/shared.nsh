@@ -559,6 +559,12 @@ UpdateProtocolHandlers
 {
 FixShellIconHandler
 }
+{
+SetAppLSPCategories
+}
+{
+LSP_CATEGORIES
+}
 ;
 Only
 update

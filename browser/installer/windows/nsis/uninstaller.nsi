@@ -718,6 +718,9 @@ insertmacro
 RegCleanUninstall
 !
 insertmacro
+SetAppLSPCategories
+!
+insertmacro
 SetBrandNameVars
 !
 insertmacro
@@ -811,6 +814,11 @@ insertmacro
 un
 .
 RemoveQuotesFromPath
+!
+insertmacro
+un
+.
+SetAppLSPCategories
 !
 insertmacro
 un
@@ -1662,6 +1670,11 @@ RegCleanUninstall
 un
 .
 DeleteShortcuts
+}
+{
+un
+.
+SetAppLSPCategories
 }
 {
 EndIf
