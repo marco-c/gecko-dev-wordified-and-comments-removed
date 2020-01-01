@@ -435,7 +435,7 @@ rules
 mk
 _SIMPLETEST_FILES
 =
-MozillaFileLogger
+MozillaLogger
 .
 js
 \

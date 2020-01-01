@@ -208,7 +208,7 @@ tests
 /
 SimpleTest
 /
-MozillaFileLogger
+MozillaLogger
 .
 js
 (
@@ -216,7 +216,7 @@ tests
 /
 SimpleTest
 /
-MozillaFileLogger
+MozillaLogger
 .
 js
 )

@@ -67,7 +67,7 @@ src
 "
 SimpleTest
 /
-MozillaFileLogger
+MozillaLogger
 .
 js
 "
@@ -251,9 +251,10 @@ params
 logFile
 )
 {
-MozillaFileLogger
-.
-init
+var
+spl
+=
+SpecialPowersLogger
 (
 params
 .
@@ -273,7 +274,7 @@ fileLevel
 +
 "
 "
-MozillaFileLogger
+spl
 .
 getLogCallback
 (

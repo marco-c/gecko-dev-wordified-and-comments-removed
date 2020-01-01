@@ -1149,9 +1149,11 @@ logFile
 {
 try
 {
+var
+mfl
+=
+new
 MozillaFileLogger
-.
-init
 (
 logFile
 )
@@ -1168,7 +1170,7 @@ dump
 msg
 )
 ;
-MozillaFileLogger
+mfl
 .
 log
 (

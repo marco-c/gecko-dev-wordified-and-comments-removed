@@ -214,9 +214,11 @@ params
 logFile
 )
 {
-MozillaFileLogger
-.
-init
+var
+spl
+=
+new
+SpecialPowersLogger
 (
 params
 .
@@ -236,7 +238,7 @@ fileLevel
 +
 "
 "
-MozillaFileLogger
+spl
 .
 getLogCallback
 (

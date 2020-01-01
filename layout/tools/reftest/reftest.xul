@@ -584,7 +584,7 @@ ecmascript
 src
 =
 "
-MozillaFileLogger
+MozillaLogger
 .
 js
 "
