@@ -1849,6 +1849,7 @@ retrieved
 getBundle
 :
 function
+BundleManager_getBundle
 (
 bundleURI
 )
@@ -6961,6 +6962,7 @@ _index
 hasMoreElements
 :
 function
+ArrayEnumerator_hasMoreElements
 (
 )
 {
@@ -6979,6 +6981,7 @@ length
 getNext
 :
 function
+ArrayEnumerator_getNext
 (
 )
 {
@@ -7160,6 +7163,7 @@ here
 close
 :
 function
+FileEnumerator_close
 (
 )
 {
@@ -7490,6 +7494,7 @@ directory
 _readDirectoryFromFile
 :
 function
+DirInstallLocation__readDirectoryFromFile
 (
 file
 )
@@ -7892,6 +7897,7 @@ Location
 getIDForLocation
 :
 function
+DirInstallLocation_getIDForLocation
 (
 file
 )
@@ -8118,6 +8124,7 @@ idl
 getItemLocation
 :
 function
+DirInstallLocation_getItemLocation
 (
 id
 )
@@ -8203,6 +8210,7 @@ idl
 itemIsManagedIndependently
 :
 function
+DirInstallLocation_itemIsManagedIndependently
 (
 id
 )
@@ -8259,6 +8267,7 @@ idl
 getItemFile
 :
 function
+DirInstallLocation_getItemFile
 (
 id
 filePath
@@ -8357,6 +8366,7 @@ represents
 stageFile
 :
 function
+DirInstallLocation_stageFile
 (
 file
 id
@@ -8538,6 +8548,7 @@ null
 getStageFile
 :
 function
+DirInstallLocation_getStageFile
 (
 id
 )
@@ -8747,6 +8758,7 @@ remove
 removeFile
 :
 function
+DirInstallLocation_removeFile
 (
 file
 )
@@ -9419,6 +9431,7 @@ pairs
 _readAddons
 :
 function
+RegInstallLocation__readAddons
 (
 key
 )
@@ -9640,6 +9653,7 @@ _priority
 getItemLocation
 :
 function
+RegInstallLocation_getItemLocation
 (
 id
 )
@@ -9656,6 +9670,7 @@ id
 getIDForLocation
 :
 function
+RegInstallLocation_getIDForLocation
 (
 dir
 )
@@ -9674,6 +9689,7 @@ path
 getItemFile
 :
 function
+RegInstallLocation_getItemFile
 (
 id
 filePath
@@ -9739,6 +9755,7 @@ itemLocation
 itemIsManagedIndependently
 :
 function
+RegInstallLocation_itemIsManagedIndependently
 (
 id
 )
@@ -10015,6 +10032,7 @@ Location
 installFromFile
 :
 function
+Installer_installFromFile
 (
 file
 )
@@ -10169,6 +10187,7 @@ from
 _installExtensionFiles
 :
 function
+Installer__installExtensionFiles
 (
 file
 )
@@ -11375,6 +11394,7 @@ necessary
 upgradeThemeChrome
 :
 function
+Installer_upgradeThemeChrome
 (
 )
 {
@@ -11836,6 +11856,7 @@ necessary
 upgradeExtensionChrome
 :
 function
+Installer_upgradeExtensionChrome
 (
 )
 {
@@ -14192,6 +14213,7 @@ item
 addItem
 :
 function
+PendingOperations_addItem
 (
 opType
 entry
@@ -14294,6 +14316,7 @@ for
 clearItem
 :
 function
+PendingOperations_clearItem
 (
 opType
 id
@@ -14359,6 +14382,7 @@ for
 clearOpsForItem
 :
 function
+PendingOperations_clearOpsForItem
 (
 id
 )
@@ -14427,6 +14451,7 @@ for
 clearItems
 :
 function
+PendingOperations_clearItems
 (
 opType
 )
@@ -14479,6 +14504,7 @@ of
 getOperations
 :
 function
+PendingOperations_getOperations
 (
 opType
 )
@@ -14699,6 +14725,7 @@ get
 get
 :
 function
+InstallLocations_get
 (
 name
 )
@@ -14742,6 +14769,7 @@ register
 put
 :
 function
+InstallLocations_put
 (
 installLocation
 )
@@ -14964,6 +14992,7 @@ exist
 put
 :
 function
+StartupCache_put
 (
 installLocation
 id
@@ -15187,6 +15216,7 @@ entry
 _putRaw
 :
 function
+StartupCache__putRaw
 (
 key
 id
@@ -15372,6 +15402,7 @@ item
 clearEntry
 :
 function
+StartupCache_clearEntry
 (
 installLocation
 id
@@ -15460,6 +15491,7 @@ ID
 findEntries
 :
 function
+StartupCache_findEntries
 (
 id
 )
@@ -15563,6 +15595,7 @@ path
 read
 :
 function
+StartupCache_read
 (
 )
 {
@@ -15997,6 +16030,7 @@ disk
 write
 :
 function
+StartupCache_write
 (
 )
 {
@@ -17008,6 +17042,7 @@ idl
 observe
 :
 function
+EM_observe
 (
 subject
 topic
@@ -17250,6 +17285,7 @@ settting
 _loggingToggled
 :
 function
+EM__loggingToggled
 (
 )
 {
@@ -17278,6 +17314,7 @@ locale
 _updateLocale
 :
 function
+EM__updateLocale
 (
 )
 {
@@ -17387,6 +17424,7 @@ settings
 _updateAppDisabledState
 :
 function
+EM__updateAppDisabledState
 (
 )
 {
@@ -17553,6 +17591,7 @@ selected
 _profileSelected
 :
 function
+EM__profileSelected
 (
 )
 {
@@ -17795,6 +17834,7 @@ updates
 _showUpdatesWindow
 :
 function
+EM__showUpdatesWindow
 (
 )
 {
@@ -17969,6 +18009,7 @@ leaks
 _shutdown
 :
 function
+EM__shutdown
 (
 )
 {
@@ -18232,6 +18273,7 @@ otherwise
 _ensureDatasetIntegrity
 :
 function
+EM__ensureDatasetIntegrity
 (
 )
 {
@@ -18381,6 +18423,7 @@ idl
 start
 :
 function
+EM_start
 (
 commandLine
 )
@@ -18761,6 +18804,7 @@ timers
 _startTimers
 :
 function
+EM__startTimers
 (
 )
 {
@@ -18851,6 +18895,7 @@ fired
 notify
 :
 function
+EM_notify
 (
 timer
 )
@@ -18930,6 +18975,7 @@ idl
 handleCommandLineArgs
 :
 function
+EM_handleCommandLineArgs
 (
 commandLine
 )
@@ -19097,6 +19143,7 @@ extract
 _installGlobalItem
 :
 function
+EM__installGlobalItem
 (
 file
 )
@@ -19409,6 +19456,7 @@ otherwise
 _getItemForDroppedFile
 :
 function
+EM__getItemForDroppedFile
 (
 file
 location
@@ -19870,6 +19918,7 @@ validation
 installItem
 :
 function
+EM_installItem
 (
 id
 location
@@ -20324,6 +20373,7 @@ changed
 _checkForFileChanges
 :
 function
+EM__checkForFileChanges
 (
 )
 {
@@ -22706,6 +22756,7 @@ otherwise
 _upgradeChrome
 :
 function
+EM__upgradeChrome
 (
 )
 {
@@ -23396,6 +23447,7 @@ checkForNewChrome
 _checkForUncoveredItem
 :
 function
+EM__checkForUncoveredItem
 (
 id
 )
@@ -23727,6 +23779,7 @@ otherwise
 _finishOperations
 :
 function
+EM__finishOperations
 (
 )
 {
@@ -25008,6 +25061,7 @@ otherwise
 checkForMismatches
 :
 function
+EM_checkForMismatches
 (
 )
 {
@@ -26282,6 +26336,7 @@ UI
 _showMismatchWindow
 :
 function
+EM__showMismatchWindow
 (
 items
 )
@@ -26509,6 +26564,7 @@ datasource
 _upgradeFromV10
 :
 function
+EM__upgradeFromV10
 (
 )
 {
@@ -27991,6 +28047,7 @@ otherwise
 _updateManifests
 :
 function
+EM__updateManifests
 (
 needsRestart
 )
@@ -28144,6 +28201,7 @@ type
 _getActiveItems
 :
 function
+EM__getActiveItems
 (
 type
 )
@@ -28418,6 +28476,7 @@ List
 _updateExtensionsManifest
 :
 function
+EM__updateExtensionsManifest
 (
 )
 {
@@ -29294,6 +29353,7 @@ blocklisted
 _getInstallData
 :
 function
+EM__getInstallData
 (
 installManifest
 )
@@ -30153,6 +30213,7 @@ installed
 installItemFromFile
 :
 function
+EM_installItemFromFile
 (
 xpiFile
 installLocationKey
@@ -30319,6 +30380,7 @@ check
 installItemFromFileInternal
 :
 function
+EM_installItemFromFileInternal
 (
 aXPIFile
 aInstallLocationKey
@@ -31801,6 +31863,7 @@ xpi
 checkForUpdates
 :
 function
+EM_checkForUpdates
 (
 item
 installManifest
@@ -31886,6 +31949,7 @@ idl
 onUpdateStarted
 :
 function
+EM_onUpdateStarted
 (
 )
 {
@@ -31915,6 +31979,7 @@ idl
 onUpdateEnded
 :
 function
+EM_onUpdateEnded
 (
 )
 {
@@ -31944,6 +32009,7 @@ idl
 onAddonUpdateStarted
 :
 function
+EM_onAddonUpdateStarted
 (
 addon
 )
@@ -32014,6 +32080,7 @@ idl
 onAddonUpdateEnded
 :
 function
+EM_onAddonUpdateEnded
 (
 addon
 status
@@ -34228,6 +34295,7 @@ restart
 installRequiresRestart
 :
 function
+EM_installRequiresRestart
 (
 id
 type
@@ -34436,6 +34504,7 @@ item
 _configureForthcomingItem
 :
 function
+EM__configureForthcomingItem
 (
 installManifest
 id
@@ -34768,6 +34837,7 @@ item
 _upgradeItem
 :
 function
+EM__upgradeItem
 (
 installManifest
 id
@@ -34964,6 +35034,7 @@ ID
 _finalizeInstall
 :
 function
+EM__finalizeInstall
 (
 id
 file
@@ -35342,6 +35413,7 @@ item
 _finalizeUpgrade
 :
 function
+EM__finalizeUpgrade
 (
 id
 installLocation
@@ -35622,6 +35694,7 @@ uninstall
 _finalizeUninstall
 :
 function
+EM__finalizeUninstall
 (
 id
 )
@@ -36075,6 +36148,7 @@ uninstall
 uninstallItem
 :
 function
+EM_uninstallItem
 (
 id
 )
@@ -36397,6 +36471,7 @@ idl
 cancelInstallItem
 :
 function
+EM_cancelInstallItem
 (
 id
 )
@@ -36775,6 +36850,7 @@ item
 cancelUninstallItem
 :
 function
+EM_cancelUninstallItem
 (
 id
 )
@@ -36974,6 +37050,7 @@ performed
 _setOp
 :
 function
+EM__setOp
 (
 id
 op
@@ -37334,6 +37411,7 @@ application
 _appEnableItem
 :
 function
+EM__appEnableItem
 (
 id
 )
@@ -37841,6 +37919,7 @@ application
 _appDisableItem
 :
 function
+EM__appDisableItem
 (
 id
 )
@@ -38306,6 +38385,7 @@ user
 enableItem
 :
 function
+EM_enableItem
 (
 id
 )
@@ -38605,6 +38685,7 @@ user
 disableItem
 :
 function
+EM_disableItem
 (
 id
 )
@@ -38875,6 +38956,7 @@ check
 _isUsableItem
 :
 function
+EM__isUsableItem
 (
 id
 )
@@ -39114,6 +39196,7 @@ checked
 _updateDependentItemsForID
 :
 function
+EM__updateDependentItemsForID
 (
 id
 )
@@ -39228,6 +39311,7 @@ user
 _notifyAction
 :
 function
+EM__notifyAction
 (
 id
 reason
@@ -39263,6 +39347,7 @@ idl
 update
 :
 function
+EM_update
 (
 items
 itemCount
@@ -39437,6 +39522,7 @@ blocklisting
 checkForBlocklistChanges
 :
 function
+EM_checkForBlocklistChanges
 (
 )
 {
@@ -39665,6 +39751,7 @@ stored
 getInstallLocation
 :
 function
+EM_getInstallLocation
 (
 id
 )
@@ -39744,6 +39831,7 @@ item
 getItemForID
 :
 function
+EM_getItemForID
 (
 id
 )
@@ -39846,6 +39934,7 @@ parameter
 getDependentItemListForID
 :
 function
+EM_getDependentItemListForID
 (
 id
 includeDisabled
@@ -39924,6 +40013,7 @@ filter
 getItemList
 :
 function
+EM_getItemList
 (
 type
 countRef
@@ -39952,6 +40042,7 @@ idl
 getIncompatibleItemList
 :
 function
+EM_getIncompatibleItemList
 (
 id
 appVersion
@@ -40047,6 +40138,7 @@ to
 moveToIndexOf
 :
 function
+EM_moveToIndexOf
 (
 movingID
 destinationID
@@ -40142,6 +40234,7 @@ descending
 sortTypeByProperty
 :
 function
+EM_sortTypeByProperty
 (
 type
 propertyName
@@ -40313,6 +40406,7 @@ otherwise
 _confirmCancelDownloadsOnQuit
 :
 function
+EM__confirmCancelDownloadsOnQuit
 (
 subject
 )
@@ -40522,6 +40616,7 @@ otherwise
 _confirmCancelDownloadsOnOffline
 :
 function
+EM__confirmCancelDownloadsOnOffline
 (
 subject
 )
@@ -40705,6 +40800,7 @@ button
 _confirmCancelDownloads
 :
 function
+EM__confirmCancelDownloads
 (
 count
 title
@@ -40939,6 +41035,7 @@ idl
 addDownloads
 :
 function
+EM_addDownloads
 (
 items
 itemCount
@@ -41492,6 +41589,7 @@ value
 onStateChange
 :
 function
+EM_onStateChange
 (
 transaction
 addon
@@ -41971,6 +42069,7 @@ break
 onProgress
 :
 function
+EM_onProgress
 (
 addon
 value
@@ -42066,6 +42165,7 @@ _installListeners
 addInstallListener
 :
 function
+EM_addInstallListener
 (
 listener
 )
@@ -42128,6 +42228,7 @@ length
 removeInstallListenerAt
 :
 function
+EM_removeInstallListenerAt
 (
 index
 )
@@ -42218,6 +42319,7 @@ startup
 _ensureDS
 :
 function
+EM__ensureDS
 (
 )
 {
@@ -42700,6 +42802,7 @@ downloaded
 addDownload
 :
 function
+ItemDownloadTransaction_addDownload
 (
 addon
 )
@@ -42755,6 +42858,7 @@ remove
 removeDownload
 :
 function
+ItemDownloadTransaction_removeDownload
 (
 url
 )
@@ -42786,6 +42890,7 @@ transaction
 removeAllDownloads
 :
 function
+ItemDownloadTransaction_removeAllDownloads
 (
 )
 {
@@ -42874,6 +42979,7 @@ url
 containsURL
 :
 function
+ItemDownloadTransaction_containsURL
 (
 url
 )
@@ -42935,6 +43041,7 @@ idl
 onStateChange
 :
 function
+ItemDownloadTransaction_onStateChange
 (
 index
 state
@@ -42974,6 +43081,7 @@ idl
 onProgress
 :
 function
+ItemDownloadTransaction_onProgress
 (
 index
 value
@@ -43069,6 +43177,7 @@ implementation
 observe
 :
 function
+BackgroundUpdateListener_observe
 (
 aSubject
 aTopic
@@ -43317,6 +43426,7 @@ implementation
 onUpdateStarted
 :
 function
+BackgroundUpdateListener_onUpdateStarted
 (
 )
 {
@@ -43324,6 +43434,7 @@ function
 onUpdateEnded
 :
 function
+BackgroundUpdateListener_onUpdateEnded
 (
 )
 {
@@ -43496,6 +43607,7 @@ e
 onAddonUpdateStarted
 :
 function
+BackgroundUpdateListener_onAddonUpdateStarted
 (
 item
 )
@@ -43504,6 +43616,7 @@ item
 onAddonUpdateEnded
 :
 function
+BackgroundUpdateListener_onAddonUpdateEnded
 (
 item
 status
@@ -43631,6 +43744,7 @@ null
 onUpdateStarted
 :
 function
+AddonUpdateListener_onUpdateStarted
 (
 )
 {
@@ -43660,6 +43774,7 @@ onUpdateStarted
 onUpdateEnded
 :
 function
+AddonUpdateListener_onUpdateEnded
 (
 )
 {
@@ -43689,6 +43804,7 @@ onUpdateEnded
 onAddonUpdateStarted
 :
 function
+AddonUpdateListener_onAddonUpdateStarted
 (
 addon
 )
@@ -43721,6 +43837,7 @@ addon
 onAddonUpdateEnded
 :
 function
+AddonUpdateListener_onAddonUpdateEnded
 (
 addon
 status
@@ -44150,6 +44267,7 @@ installed
 checkForUpdates
 :
 function
+ExtensionItemUpdater_checkForUpdates
 (
 aItems
 aItemCount
@@ -44386,6 +44504,7 @@ ExtensionItemUpdater
 _applyVersionUpdates
 :
 function
+ExtensionItemUpdater__applyVersionUpdates
 (
 aLocalItem
 aRemoteItem
@@ -44936,6 +45055,7 @@ true
 checkForDone
 :
 function
+ExtensionItemUpdater_checkForDone
 (
 item
 status
@@ -45654,6 +45774,7 @@ null
 checkForUpdates
 :
 function
+RDFItemUpdater_checkForUpdates
 (
 aItem
 aUpdateCheckType
@@ -46346,6 +46467,7 @@ null
 onXMLLoad
 :
 function
+RDFItemUpdater_onXMLLoad
 (
 aEvent
 aItem
@@ -46745,6 +46867,7 @@ aItem
 onXMLError
 :
 function
+RDFItemUpdater_onXMLError
 (
 aEvent
 aItem
@@ -46931,6 +47054,7 @@ STATUS_FAILURE
 onDatasourceLoaded
 :
 function
+RDFItemUpdater_onDatasourceLoaded
 (
 aDatasource
 aLocalItem
@@ -48424,6 +48548,7 @@ present
 _getPropertyFromResource
 :
 function
+RDFItemUpdater__getPropertyFromResource
 (
 aDataSource
 aSourceResource
@@ -48605,6 +48730,7 @@ not
 _parseV20UpdateInfo
 :
 function
+RDFItemUpdater__parseV20UpdateInfo
 (
 aDataSource
 aLocalItem
@@ -49180,6 +49306,7 @@ not
 _parseV20Update
 :
 function
+RDFItemUpdater__parseV20Update
 (
 aDataSource
 aUpdateResource
@@ -49963,6 +50090,7 @@ references
 escapeEntities
 :
 function
+RDFSerializer_escapeEntities
 (
 string
 )
@@ -50098,6 +50226,7 @@ elements
 serializeContainerItems
 :
 function
+RDFSerializer_serializeContainerItems
 (
 ds
 container
@@ -50288,6 +50417,7 @@ properties
 serializeResourceProperties
 :
 function
+RDFSerializer_serializeResourceProperties
 (
 ds
 resource
@@ -50734,6 +50864,7 @@ resource
 serializeResource
 :
 function
+RDFSerializer_serializeResource
 (
 ds
 resource
@@ -51217,6 +51348,7 @@ satisfied
 satisfiesDependencies
 :
 function
+EMDS_satisfiesDependencies
 (
 id
 )
@@ -51647,6 +51779,7 @@ otherwise
 isCompatible
 :
 function
+EMDS_isCompatible
 (
 datasource
 source
@@ -52056,6 +52189,7 @@ supplied
 getIncompatibleItemList
 :
 function
+EMDS_getIncompatibleItemList
 (
 appID
 appVersion
@@ -52491,6 +52625,7 @@ supplied
 getBlocklistedItemList
 :
 function
+EMDS_getBlocklistedItemList
 (
 appVersion
 platformVersion
@@ -52775,6 +52910,7 @@ type
 getItemList
 :
 function
+EMDS_getItemList
 (
 desiredType
 countRef
@@ -52980,6 +53116,7 @@ parameter
 getDependentItemListForID
 :
 function
+EMDS_getDependentItemListForID
 (
 id
 includeDisabled
@@ -53221,6 +53358,7 @@ id
 getItemForID
 :
 function
+EMDS_getItemForID
 (
 id
 )
@@ -53441,6 +53579,7 @@ installed
 getInstallLocationKey
 :
 function
+EMDS_getInstallLocationKey
 (
 id
 )
@@ -53532,6 +53671,7 @@ value
 _setProperty
 :
 function
+EMDS__setProperty
 (
 datasource
 source
@@ -53702,6 +53842,7 @@ in
 getUpdatedTargetAppInfo
 :
 function
+EMDS_getUpdatedTargetAppInfo
 (
 id
 )
@@ -54103,6 +54244,7 @@ toolkit
 setUpdatedTargetAppInfo
 :
 function
+EMDS_setUpdatedTargetAppInfo
 (
 id
 targetAppID
@@ -54556,6 +54698,7 @@ datasource
 getTargetApplicationInfo
 :
 function
+EMDS_getTargetApplicationInfo
 (
 id
 datasource
@@ -54952,6 +55095,7 @@ toolkit
 setTargetApplicationInfo
 :
 function
+EMDS_setTargetApplicationInfo
 (
 id
 targetAppID
@@ -55237,6 +55381,7 @@ value
 getItemProperty
 :
 function
+EMDS_getItemProperty
 (
 id
 property
@@ -55369,6 +55514,7 @@ value
 _getItemProperty
 :
 function
+EMDS__getItemProperty
 (
 itemResource
 property
@@ -55474,6 +55620,7 @@ set
 setItemProperty
 :
 function
+EMDS_setItemProperty
 (
 id
 propertyArc
@@ -55547,6 +55694,7 @@ values
 setItemProperties
 :
 function
+EMDS_setItemProperties
 (
 id
 properties
@@ -55621,6 +55769,7 @@ item
 insertItemIntoContainer
 :
 function
+EMDS_insertItemIntoContainer
 (
 id
 )
@@ -55746,6 +55895,7 @@ item
 removeItemFromContainer
 :
 function
+EMDS_removeItemFromContainer
 (
 id
 )
@@ -55824,6 +55974,7 @@ item
 removeCorruptItem
 :
 function
+EMDS_removeCorruptItem
 (
 id
 )
@@ -55889,6 +56040,7 @@ entry
 removeCorruptDLItem
 :
 function
+EMDS_removeCorruptDLItem
 (
 uri
 )
@@ -56011,6 +56163,7 @@ properties
 _addLocalizedMetadata
 :
 function
+EMDS__addLocalizedMetadata
 (
 installManifest
 sourceRes
@@ -56309,6 +56462,7 @@ item
 addItemMetadata
 :
 function
+EMDS_addItemMetadata
 (
 id
 installManifest
@@ -57069,6 +57223,7 @@ item
 removeItemMetadata
 :
 function
+EMDS_removeItemMetadata
 (
 id
 )
@@ -57227,6 +57382,7 @@ clean
 _cleanResource
 :
 function
+EMDS__cleanResource
 (
 resource
 )
@@ -57406,6 +57562,7 @@ update
 updateProperty
 :
 function
+EMDS_updateProperty
 (
 id
 property
@@ -57532,6 +57689,7 @@ update
 _updateProperty
 :
 function
+EMDS__updateProperty
 (
 item
 property
@@ -57679,6 +57837,7 @@ to
 moveToIndexOf
 :
 function
+EMDS_moveToIndexOf
 (
 movingID
 destinationID
@@ -57872,6 +58031,7 @@ descending
 sortTypeByProperty
 :
 function
+EMDS_sortTypeByProperty
 (
 type
 propertyName
@@ -58301,6 +58461,7 @@ otherwise
 isDownloadItem
 :
 function
+EMDS_isDownloadItem
 (
 id
 )
@@ -58376,6 +58537,7 @@ downloaded
 addDownload
 :
 function
+EMDS_addDownload
 (
 addon
 )
@@ -58678,6 +58840,7 @@ item
 addIncompatibleUpdateItem
 :
 function
+EMDS_addIncompatibleUpdateItem
 (
 name
 url
@@ -58964,6 +59127,7 @@ removed
 removeDownload
 :
 function
+EMDS_removeDownload
 (
 url
 )
@@ -59143,6 +59307,7 @@ _progressData
 updateDownloadState
 :
 function
+EMDS_updateDownloadState
 (
 id
 state
@@ -59232,6 +59397,7 @@ state
 updateDownloadProgress
 :
 function
+EMDS_updateDownloadProgress
 (
 id
 progress
@@ -59449,6 +59615,7 @@ locations
 _buildVisibleItemList
 :
 function
+EMDS__buildVisibleItemList
 (
 )
 {
@@ -59630,6 +59797,7 @@ value
 updateVisibleList
 :
 function
+EMDS_updateVisibleList
 (
 id
 locationKey
@@ -59732,6 +59900,7 @@ disk
 loadExtensions
 :
 function
+EMDS_loadExtensions
 (
 )
 {
@@ -59873,6 +60042,7 @@ idl
 onUpdateStarted
 :
 function
+EMDS_onUpdateStarted
 (
 )
 {
@@ -59900,6 +60070,7 @@ idl
 onUpdateEnded
 :
 function
+EMDS_onUpdateEnded
 (
 )
 {
@@ -59927,6 +60098,7 @@ idl
 onAddonUpdateStarted
 :
 function
+EMDS_onAddonUpdateStarted
 (
 addon
 )
@@ -59983,6 +60155,7 @@ idl
 onAddonUpdateEnded
 :
 function
+EMDS_onAddonUpdateEnded
 (
 addon
 status
@@ -60212,6 +60385,7 @@ extensions
 GetSource
 :
 function
+EMDS_GetSource
 (
 property
 target
@@ -60234,6 +60408,7 @@ truthValue
 GetSources
 :
 function
+EMDS_GetSources
 (
 property
 target
@@ -60323,6 +60498,7 @@ failed
 _getThemeImageURL
 :
 function
+EMDS__getThemeImageURL
 (
 item
 fileName
@@ -60477,6 +60653,7 @@ item
 _rdfGet_iconURL
 :
 function
+EMDS__rdfGet_iconURL
 (
 item
 property
@@ -60759,6 +60936,7 @@ item
 _rdfGet_previewImage
 :
 function
+EMDS__rdfGet_previewImage
 (
 item
 property
@@ -60860,6 +61038,7 @@ item
 _rdfGet_aboutURL
 :
 function
+EMDS__rdfGet_aboutURL
 (
 item
 property
@@ -60926,6 +61105,7 @@ null
 _rdfGet_installDate
 :
 function
+EMDS__rdfGet_installDate
 (
 item
 property
@@ -61046,6 +61226,7 @@ compatible
 _rdfGet_compatible
 :
 function
+EMDS__rdfGet_compatible
 (
 item
 property
@@ -61225,6 +61406,7 @@ mechanism
 _rdfGet_providesUpdatesSecurely
 :
 function
+EMDS__rdfGet_providesUpdatesSecurely
 (
 item
 property
@@ -61329,6 +61511,7 @@ blocklisted
 _rdfGet_blocklisted
 :
 function
+EMDS__rdfGet_blocklisted
 (
 item
 property
@@ -61441,6 +61624,7 @@ install
 _rdfGet_state
 :
 function
+EMDS__rdfGet_state
 (
 item
 property
@@ -61521,6 +61705,7 @@ file
 _rdfGet_progress
 :
 function
+EMDS__rdfGet_progress
 (
 item
 property
@@ -61592,6 +61777,7 @@ location
 _rdfGet_appManaged
 :
 function
+EMDS__rdfGet_appManaged
 (
 item
 property
@@ -61671,6 +61857,7 @@ locations
 _rdfGet_hidden
 :
 function
+EMDS__rdfGet_hidden
 (
 item
 property
@@ -61756,6 +61943,7 @@ locations
 _rdfGet_locked
 :
 function
+EMDS__rdfGet_locked
 (
 item
 property
@@ -61861,6 +62049,7 @@ satisfied
 _rdfGet_satisfiesDependencies
 :
 function
+EMDS__rdfGet_satisfiesDependencies
 (
 item
 property
@@ -61941,6 +62130,7 @@ cache
 _rdfGet_opType
 :
 function
+EMDS__rdfGet_opType
 (
 item
 property
@@ -62101,6 +62291,7 @@ properties
 _getLocalizablePropertyValue
 :
 function
+EMDS__getLocalizablePropertyValue
 (
 item
 property
@@ -62257,6 +62448,7 @@ item
 _rdfGet_name
 :
 function
+EMDS__rdfGet_name
 (
 item
 property
@@ -62293,6 +62485,7 @@ item
 _rdfGet_description
 :
 function
+EMDS__rdfGet_description
 (
 item
 property
@@ -62329,6 +62522,7 @@ item
 _rdfGet_creator
 :
 function
+EMDS__rdfGet_creator
 (
 item
 property
@@ -62366,6 +62560,7 @@ item
 _rdfGet_homepageURL
 :
 function
+EMDS__rdfGet_homepageURL
 (
 item
 property
@@ -62384,6 +62579,7 @@ property
 _rdfGet_availableUpdateInfo
 :
 function
+EMDS__rdfGet_availableUpdateInfo
 (
 item
 property
@@ -62489,6 +62685,7 @@ OP_NEEDS_ENABLE
 _rdfGet_isDisabled
 :
 function
+EMDS__rdfGet_isDisabled
 (
 item
 property
@@ -62586,6 +62783,7 @@ false
 _rdfGet_addonID
 :
 function
+EMDS__rdfGet_addonID
 (
 item
 property
@@ -62656,6 +62854,7 @@ updated
 _rdfGet_updateable
 :
 function
+EMDS__rdfGet_updateable
 (
 item
 property
@@ -62806,6 +63005,7 @@ idl
 GetTarget
 :
 function
+EMDS_GetTarget
 (
 source
 property
@@ -62968,6 +63168,7 @@ properties
 _getLocalizablePropertyValues
 :
 function
+EMDS__getLocalizablePropertyValues
 (
 item
 property
@@ -63217,6 +63418,7 @@ extension
 _rdfGets_developer
 :
 function
+EMDS__rdfGets_developer
 (
 item
 property
@@ -63253,6 +63455,7 @@ extension
 _rdfGets_translator
 :
 function
+EMDS__rdfGets_translator
 (
 item
 property
@@ -63289,6 +63492,7 @@ extension
 _rdfGets_contributor
 :
 function
+EMDS__rdfGets_contributor
 (
 item
 property
@@ -63317,6 +63521,7 @@ idl
 GetTargets
 :
 function
+EMDS_GetTargets
 (
 source
 property
@@ -63446,6 +63651,7 @@ truthValue
 Assert
 :
 function
+EMDS_Assert
 (
 source
 property
@@ -63469,6 +63675,7 @@ truthValue
 Unassert
 :
 function
+EMDS_Unassert
 (
 source
 property
@@ -63490,6 +63697,7 @@ target
 Change
 :
 function
+EMDS_Change
 (
 source
 property
@@ -63513,6 +63721,7 @@ newTarget
 Move
 :
 function
+EMDS_Move
 (
 oldSource
 newSource
@@ -63536,6 +63745,7 @@ target
 HasAssertion
 :
 function
+EMDS_HasAssertion
 (
 source
 property
@@ -63614,6 +63824,7 @@ _observers
 AddObserver
 :
 function
+EMDS_AddObserver
 (
 observer
 )
@@ -63675,6 +63886,7 @@ observer
 RemoveObserver
 :
 function
+EMDS_RemoveObserver
 (
 observer
 )
@@ -63735,6 +63947,7 @@ observer
 ArcLabelsIn
 :
 function
+EMDS_ArcLabelsIn
 (
 node
 )
@@ -63753,6 +63966,7 @@ node
 ArcLabelsOut
 :
 function
+EMDS_ArcLabelsOut
 (
 source
 )
@@ -63771,6 +63985,7 @@ source
 GetAllResources
 :
 function
+EMDS_GetAllResources
 (
 )
 {
@@ -63787,6 +64002,7 @@ GetAllResources
 IsCommandEnabled
 :
 function
+EMDS_IsCommandEnabled
 (
 sources
 command
@@ -63809,6 +64025,7 @@ arguments
 DoCommand
 :
 function
+EMDS_DoCommand
 (
 sources
 command
@@ -63830,6 +64047,7 @@ arguments
 GetAllCmds
 :
 function
+EMDS_GetAllCmds
 (
 source
 )
@@ -63848,6 +64066,7 @@ source
 hasArcIn
 :
 function
+EMDS_hasArcIn
 (
 node
 arc
@@ -63868,6 +64087,7 @@ arc
 hasArcOut
 :
 function
+EMDS_hasArcOut
 (
 source
 arc
@@ -63888,6 +64108,7 @@ arc
 beginUpdateBatch
 :
 function
+EMDS_beginUpdateBatch
 (
 )
 {
@@ -63904,6 +64125,7 @@ beginUpdateBatch
 endUpdateBatch
 :
 function
+EMDS_endUpdateBatch
 (
 )
 {
@@ -63941,6 +64163,7 @@ NS_ERROR_NOT_IMPLEMENTED
 Init
 :
 function
+EMDS_Init
 (
 uri
 )
@@ -63949,6 +64172,7 @@ uri
 Refresh
 :
 function
+EMDS_Refresh
 (
 blocking
 )
@@ -63957,6 +64181,7 @@ blocking
 Flush
 :
 function
+EMDS_Flush
 (
 )
 {
@@ -64020,6 +64245,7 @@ Flush
 FlushTo
 :
 function
+EMDS_FlushTo
 (
 uri
 )
@@ -64559,6 +64785,70 @@ UpdateItem
 #
 if
 0
+/
+*
+*
+*
+Logs
+a
+message
+and
+stack
+trace
+to
+the
+console
+.
+*
+param
+string
+*
+The
+string
+to
+write
+to
+the
+console
+.
+*
+/
+function
+STACK
+(
+string
+)
+{
+dump
+(
+"
+*
+*
+*
+"
++
+string
++
+"
+\
+n
+"
+)
+;
+stackTrace
+(
+arguments
+.
+callee
+.
+caller
+.
+arguments
+-
+1
+)
+;
+}
 function
 stackTraceFunctionFormat
 (
@@ -64638,6 +64928,64 @@ className
 "
 +
 functionName
+;
+}
+function
+stackTraceArgumentsFormat
+(
+aArguments
+)
+{
+arglist
+=
+"
+"
+;
+for
+(
+var
+i
+=
+0
+;
+i
+<
+aArguments
+.
+length
+;
+i
++
++
+)
+{
+arglist
++
+=
+aArguments
+[
+i
+]
+;
+if
+(
+i
+<
+aArguments
+.
+length
+-
+1
+)
+arglist
++
+=
+"
+"
+;
+}
+return
+arglist
 ;
 }
 function
@@ -64733,6 +65081,14 @@ name
 +
 "
 (
+"
++
+stackTraceArgumentsFormat
+(
+aArguments
+)
++
+"
 )
 \
 n
@@ -64775,6 +65131,16 @@ name
 +
 "
 (
+"
++
+stackTraceArgumentsFormat
+(
+temp
+.
+arguments
+)
++
+"
 )
 \
 n
