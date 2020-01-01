@@ -467,6 +467,14 @@ test_progressmeter
 .
 xul
 \
+test_datepicker
+.
+xul
+\
+test_timepicker
+.
+xul
+\
 (
 NULL
 )
