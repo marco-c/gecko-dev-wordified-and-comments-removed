@@ -146,7 +146,7 @@ android
 layout_height
 =
 "
-wrap_content
+fill_parent
 "
 android
 :
