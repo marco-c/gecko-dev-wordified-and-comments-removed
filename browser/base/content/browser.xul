@@ -5611,6 +5611,13 @@ extrachrome
 >
 <
 sidebarheader
+id
+=
+"
+sidebar
+-
+header
+"
 align
 =
 "
