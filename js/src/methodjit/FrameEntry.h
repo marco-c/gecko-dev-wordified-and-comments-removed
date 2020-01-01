@@ -116,9 +116,10 @@ isConstant
 return
 Valueify
 (
+JSVAL_FROM_LAYOUT
+(
 v_
-.
-asBits
+)
 )
 ;
 }
@@ -331,7 +332,10 @@ v_
 .
 asBits
 =
+JSVAL_BITS
+(
 v
+)
 ;
 }
 bool
