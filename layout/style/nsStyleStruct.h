@@ -5916,6 +5916,12 @@ mTransformOrigin
 nsStyleCoord
 mChildPerspective
 ;
+nsStyleCoord
+mPerspectiveOrigin
+[
+2
+]
+;
 PRUint8
 mBackfaceVisibility
 ;
