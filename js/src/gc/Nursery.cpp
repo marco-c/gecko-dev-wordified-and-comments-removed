@@ -2645,6 +2645,16 @@ markStoreBuffer
 trc
 )
 ;
+rt
+-
+>
+newObjectCache
+.
+clearNurseryObjects
+(
+rt
+)
+;
 for
 (
 RelocationOverlay
