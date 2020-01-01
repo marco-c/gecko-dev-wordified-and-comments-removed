@@ -567,11 +567,6 @@ char
 aFormatStr
 )
 {
-delete
-[
-]
-mFormat
-;
 const
 char
 *
@@ -666,6 +661,11 @@ while
 *
 pos
 )
+;
+delete
+[
+]
+mFormat
 ;
 mFormat
 =
