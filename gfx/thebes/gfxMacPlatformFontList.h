@@ -121,6 +121,11 @@ PRUint8
 aBuffer
 )
 ;
+PRBool
+IsCFF
+(
+)
+;
 protected
 :
 MacOSFontEntry
@@ -163,6 +168,12 @@ mATSFontRefInitialized
 ;
 PRPackedBool
 mRequiresAAT
+;
+PRPackedBool
+mIsCFF
+;
+PRPackedBool
+mIsCFFInitialized
 ;
 }
 ;

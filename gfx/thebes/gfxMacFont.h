@@ -165,6 +165,8 @@ aUniChar
 PRUint32
 *
 aGlyphID
+gfxFloat
+aConvFactor
 )
 ;
 static
