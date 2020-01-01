@@ -407,14 +407,6 @@ arg
 )
 ;
 bool
-visitCreateThisWithTemplate
-(
-MCreateThisWithTemplate
-*
-ins
-)
-;
-bool
 visitCreateThis
 (
 MCreateThis
