@@ -307,6 +307,8 @@ glSetFenceNV
 156
 glTestFenceNV
 157
+glGetTranslatedShaderSourceANGLE
+159
 ;
 EGL
 dependencies

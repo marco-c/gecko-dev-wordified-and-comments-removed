@@ -50,6 +50,13 @@ GLenum
 type
 )
 ;
+int
+UniformInternalComponentCount
+(
+GLenum
+type
+)
+;
 GLenum
 UniformComponentType
 (
