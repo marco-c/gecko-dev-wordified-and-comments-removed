@@ -1300,7 +1300,7 @@ ChromeWorker
 )
 DOMCI_CLASS
 (
-CanvasRenderingContextWebGL
+WebGLRenderingContext
 )
 DOMCI_CLASS
 (
