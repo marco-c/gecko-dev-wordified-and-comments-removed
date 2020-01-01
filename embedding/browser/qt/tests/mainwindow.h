@@ -109,6 +109,15 @@ int
 int
 )
 ;
+void
+slotNewWindow
+(
+QGeckoEmbed
+*
+*
+int
+)
+;
 private
 :
 QLineEdit

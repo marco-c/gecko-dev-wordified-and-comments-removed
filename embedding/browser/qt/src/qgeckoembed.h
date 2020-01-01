@@ -436,6 +436,7 @@ newWindow
 (
 QGeckoEmbed
 *
+*
 newWindow
 int
 chromeMask
