@@ -495,10 +495,6 @@ nsSVGAngle
 .
 cpp
 \
-nsSVGAnimatedAngle
-.
-cpp
-\
 nsSVGAnimatedLengthList
 .
 cpp
