@@ -167,9 +167,7 @@ res
 =
 aTree
 .
-getResult
-(
-)
+result
 ;
 isnot
 (
@@ -181,9 +179,7 @@ check
 :
 placeContent
 .
-getResult
-(
-)
+result
 should
 not
 return

@@ -589,9 +589,7 @@ queryStringToQuery
 (
 contentTree
 .
-getResult
-(
-)
+result
 .
 root
 .
@@ -664,9 +662,7 @@ queryStringToQuery
 (
 contentTree
 .
-getResult
-(
-)
+result
 .
 root
 .

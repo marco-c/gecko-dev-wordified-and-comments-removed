@@ -9495,12 +9495,8 @@ png
 )
 ;
 }
-.
-toolbar
--
-drop
--
-indicator
+#
+PlacesToolbarDropIndicator
 {
 list
 -

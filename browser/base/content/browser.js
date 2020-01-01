@@ -6985,6 +6985,12 @@ n
 )
 ;
 }
+PlacesToolbarHelper
+.
+updateState
+(
+)
+;
 gBookmarkAllTabsHandler
 .
 init
@@ -17591,6 +17597,12 @@ updateEditUIVisibility
 #
 endif
 }
+PlacesToolbarHelper
+.
+updateState
+(
+)
+;
 UpdateUrlbarSearchSplitterState
 (
 )

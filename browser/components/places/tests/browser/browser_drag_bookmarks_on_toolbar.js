@@ -30,7 +30,7 @@ document
 getElementById
 (
 "
-bookmarksBarContent
+PlacesToolbar
 "
 )
 ;
@@ -639,7 +639,14 @@ aItemId
 var
 children
 =
-gBookmarksToolbar
+document
+.
+getElementById
+(
+"
+PlacesToolbarItems
+"
+)
 .
 childNodes
 ;
@@ -676,7 +683,7 @@ children
 i
 ]
 .
-node
+_placesNode
 .
 itemId
 )
@@ -848,7 +855,7 @@ isnot
 (
 element
 .
-node
+_placesNode
 null
 "
 Toolbar
@@ -869,7 +876,7 @@ getExpectedDataForPlacesNode
 (
 element
 .
-node
+_placesNode
 )
 ;
 ok
@@ -1024,7 +1031,7 @@ isnot
 (
 element
 .
-node
+_placesNode
 null
 "
 Toolbar
@@ -1045,7 +1052,7 @@ getExpectedDataForPlacesNode
 (
 element
 .
-node
+_placesNode
 )
 ;
 ok

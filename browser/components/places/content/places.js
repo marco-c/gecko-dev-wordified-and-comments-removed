@@ -1425,9 +1425,7 @@ this
 .
 _content
 .
-getSelectionNodes
-(
-)
+selectedNodes
 ;
 this
 .
@@ -1527,9 +1525,7 @@ this
 .
 _content
 .
-getResult
-(
-)
+result
 .
 root
 )
@@ -1553,9 +1549,7 @@ this
 .
 _content
 .
-getResult
-(
-)
+result
 .
 root
 )
@@ -3094,9 +3088,7 @@ this
 .
 _content
 .
-getSelectionNodes
-(
-)
+selectedNodes
 )
 ;
 }
@@ -6315,9 +6307,7 @@ placeContent
 "
 )
 .
-getResult
-(
-)
+result
 ;
 if
 (

@@ -646,12 +646,8 @@ color
 Highlight
 ;
 }
-.
-toolbar
--
-drop
--
-indicator
+#
+PlacesToolbarDropIndicator
 {
 list
 -
