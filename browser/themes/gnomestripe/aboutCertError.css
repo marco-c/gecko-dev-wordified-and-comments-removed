@@ -161,6 +161,9 @@ box
 #
 errorPageContainer
 :
+-
+moz
+-
 dir
 (
 rtl
@@ -270,6 +273,9 @@ expander
 >
 button
 :
+-
+moz
+-
 dir
 (
 rtl
@@ -321,6 +327,9 @@ collapsed
 >
 button
 :
+-
+moz
+-
 dir
 (
 rtl
