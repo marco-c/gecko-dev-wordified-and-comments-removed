@@ -503,6 +503,11 @@ reftest
 -
 window
 "
+hidechrome
+=
+"
+true
+"
 onload
 =
 "
