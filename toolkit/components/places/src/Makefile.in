@@ -589,10 +589,6 @@ endif
 EXTRA_JS_MODULES
 =
 \
-utils
-.
-js
-\
 PlacesDBUtils
 .
 jsm
@@ -602,9 +598,14 @@ NULL
 )
 EXTRA_PP_JS_MODULES
 =
+\
 utils
 .
 js
+\
+(
+NULL
+)
 include
 (
 topsrcdir
