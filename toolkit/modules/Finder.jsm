@@ -123,6 +123,13 @@ _document
 =
 docShell
 .
+QueryInterface
+(
+Ci
+.
+nsIInterfaceRequestor
+)
+.
 getInterface
 (
 Ci
