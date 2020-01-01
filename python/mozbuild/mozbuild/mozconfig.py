@@ -1744,12 +1744,25 @@ splitlines
 )
 :
             
+line
+=
+line
+.
+decode
+(
+'
+utf
+-
+8
+'
+'
+ignore
+'
+)
+            
 if
 not
-len
-(
 line
-)
 :
                 
 continue
