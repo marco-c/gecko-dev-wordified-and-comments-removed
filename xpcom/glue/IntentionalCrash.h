@@ -37,6 +37,15 @@ define
 getpid
 _getpid
 #
+else
+#
+include
+<
+unistd
+.
+h
+>
+#
 endif
 #
 ifndef
