@@ -169,7 +169,7 @@ win
 removeEventListener
 (
 "
-DOMContentLoaded
+load
 "
 onLoad
 false
@@ -312,7 +312,7 @@ win
 addEventListener
 (
 "
-DOMContentLoaded
+load
 "
 onLoad
 false

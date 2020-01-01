@@ -918,12 +918,12 @@ callback
 function
 "
 )
-iframe
+window
 .
 addEventListener
 (
 "
-DOMContentLoaded
+tabviewframeinitialized
 "
 callback
 false
