@@ -72,8 +72,12 @@ CHANNELS
 1
 #
 define
-RATE
+VIDEO_RATE
 USECS_PER_S
+#
+define
+AUDIO_RATE
+16000
 namespace
 mozilla
 {
@@ -575,7 +579,7 @@ mSource
 AddTrack
 (
 aID
-RATE
+VIDEO_RATE
 0
 segment
 )
@@ -1098,7 +1102,7 @@ mSource
 AddTrack
 (
 aID
-RATE
+AUDIO_RATE
 0
 segment
 )
@@ -1248,7 +1252,9 @@ segment
 .
 InsertNullDataAtStart
 (
-1
+AUDIO_RATE
+/
+100
 )
 ;
 mSource
