@@ -651,6 +651,44 @@ self
 )
 :
         
+"
+"
+"
+Stop
+accepting
+writes
+compare
+file
+contents
+and
+rewrite
+if
+needed
+.
+        
+Returns
+a
+tuple
+of
+bools
+indicating
+what
+action
+was
+performed
+:
+            
+(
+file
+existed
+file
+updated
+)
+        
+"
+"
+"
+        
 buf
 =
 self
@@ -666,6 +704,10 @@ close
 self
 )
         
+existed
+=
+False
+        
 try
 :
             
@@ -680,6 +722,10 @@ filename
 rU
 '
 )
+            
+existed
+=
+True
         
 except
 IOError
@@ -705,6 +751,8 @@ buf
 :
                     
 return
+True
+False
             
 except
 IOError
@@ -748,6 +796,10 @@ write
 (
 buf
 )
+        
+return
+existed
+True
     
 def
 __enter__

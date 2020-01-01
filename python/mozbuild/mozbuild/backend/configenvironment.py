@@ -1522,22 +1522,29 @@ setMarker
 None
 )
         
-with
+pp
+.
+out
+=
 FileAvoidWrite
 (
 path
 )
-as
-pp
-.
-out
-:
-            
+        
 pp
 .
 do_include
 (
 input
+)
+        
+return
+pp
+.
+out
+.
+close
+(
 )
     
 def
@@ -1988,6 +1995,7 @@ write
 l
 )
             
+return
 output
 .
 close

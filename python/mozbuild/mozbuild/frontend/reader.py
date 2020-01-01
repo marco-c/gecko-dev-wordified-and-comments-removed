@@ -151,6 +151,8 @@ os
 import
 sys
 import
+time
+import
 traceback
 import
 types
@@ -4830,6 +4832,14 @@ add
 path
 )
         
+time_start
+=
+time
+.
+time
+(
+)
+        
 sandbox
 =
 MozbuildSandbox
@@ -4849,6 +4859,18 @@ filesystem_absolute
 =
 filesystem_absolute
 )
+        
+sandbox
+.
+execution_time
+=
+time
+.
+time
+(
+)
+-
+time_start
         
 yield
 sandbox
