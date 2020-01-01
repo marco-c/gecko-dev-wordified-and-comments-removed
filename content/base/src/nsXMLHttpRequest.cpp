@@ -1617,10 +1617,12 @@ Methods
 headerVal
 )
 ;
-nsCCommaSeparatedTokenizer
+nsCCharSeparatedTokenizer
 methods
 (
 headerVal
+'
+'
 )
 ;
 while
@@ -1790,10 +1792,12 @@ Headers
 headerVal
 )
 ;
-nsCCommaSeparatedTokenizer
+nsCCharSeparatedTokenizer
 headers
 (
 headerVal
+'
+'
 )
 ;
 while
