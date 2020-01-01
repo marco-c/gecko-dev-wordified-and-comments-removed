@@ -1373,6 +1373,7 @@ int64
 )
 JS_Now
 (
+void
 )
 ;
 extern
@@ -4264,6 +4265,7 @@ void
 reserved0
 )
 (
+void
 )
 ;
 void
@@ -4272,6 +4274,7 @@ void
 reserved1
 )
 (
+void
 )
 ;
 void
@@ -4280,6 +4283,7 @@ void
 reserved2
 )
 (
+void
 )
 ;
 void
@@ -4288,6 +4292,7 @@ void
 reserved3
 )
 (
+void
 )
 ;
 }
@@ -8189,6 +8194,7 @@ JSBool
 )
 JS_CStringsAreUTF8
 (
+void
 )
 ;
 JS_PUBLIC_API
