@@ -261,6 +261,12 @@ toCopy
 .
 mSettings
 ;
+mHostWithPort
+=
+toCopy
+.
+mHostWithPort
+;
 }
 ~
 nsCertOverrideEntry
