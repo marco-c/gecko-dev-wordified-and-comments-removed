@@ -84,11 +84,6 @@ nsGenericDOMDataNode
 :
 :
 )
-NS_DECL_AND_IMPL_DOM_MEMORY_REPORTER_SIZEOF
-(
-nsXMLCDATASection
-nsGenericDOMDataNode
-)
 virtual
 bool
 IsNodeOfType

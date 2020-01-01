@@ -497,6 +497,9 @@ class
 nsDOMNavigationTiming
 ;
 class
+nsWindowSizes
+;
+class
 nsIdentifierMapEntry
 :
 public
@@ -1641,7 +1644,7 @@ Element
 Element
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-NS_DECL_DOM_MEMORY_REPORTER_SIZEOF
+NS_DECL_SIZEOF_EXCLUDING_THIS
 using
 nsINode
 :
@@ -3558,11 +3561,12 @@ PostVisibilityUpdateEvent
 )
 ;
 virtual
-size_t
-SizeOfStyleSheets
+void
+DocSizeOfExcludingThis
 (
-nsMallocSizeOfFun
-aMallocSizeOf
+nsWindowSizes
+*
+aWindowSizes
 )
 const
 ;
