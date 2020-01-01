@@ -325,6 +325,9 @@ if
 (
 !
 mCanceled
+&
+&
+mCallback
 )
 (
 void
