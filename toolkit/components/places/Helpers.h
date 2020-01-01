@@ -689,16 +689,6 @@ char
 aTopic
 )
 ;
-PlacesEvent
-(
-const
-char
-*
-aTopic
-bool
-aDoubleEnqueue
-)
-;
 protected
 :
 void
@@ -711,9 +701,6 @@ char
 *
 const
 mTopic
-;
-bool
-mDoubleEnqueue
 ;
 }
 ;
