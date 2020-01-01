@@ -548,6 +548,10 @@ test_bug472986
 .
 html
 \
+test_bug477118
+.
+html
+\
 test_cssBefore1
 .
 html

@@ -3072,7 +3072,7 @@ uri
 nsIProtocolHandler
 :
 :
-URI_IS_UI_RESOURCE
+URI_IS_LOCAL_RESOURCE
 &
 hasFlag
 )
