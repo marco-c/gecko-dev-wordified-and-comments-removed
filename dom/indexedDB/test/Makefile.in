@@ -571,6 +571,10 @@ test_index_object_cursors
 .
 html
 \
+test_index_update_delete
+.
+html
+\
 test_indexes
 .
 html
@@ -688,6 +692,10 @@ test_setVersion_events
 html
 \
 test_setVersion_exclusion
+.
+html
+\
+test_unique_index_update
 .
 html
 \
