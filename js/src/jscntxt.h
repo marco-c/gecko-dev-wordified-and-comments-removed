@@ -3673,6 +3673,12 @@ js
 ScriptFilenameTable
 scriptFilenameTable
 ;
+js
+:
+:
+ScriptDataTable
+scriptDataTable
+;
 #
 ifdef
 DEBUG
