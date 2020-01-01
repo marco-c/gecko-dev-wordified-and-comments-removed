@@ -862,6 +862,11 @@ OS_ARCH
 )
 SunOS
 )
+OS_LIBS
++
+=
+-
+lelf
 LIBS
 +
 =
