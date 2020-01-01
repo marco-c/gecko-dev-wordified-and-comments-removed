@@ -120,13 +120,6 @@ ObjectFrame
 )
 ACCESSIBILITY_ATOM
 (
-placeholderFrame
-"
-PlaceholderFrame
-"
-)
-ACCESSIBILITY_ATOM
-(
 scrollFrame
 "
 ScrollFrame
@@ -137,6 +130,13 @@ ACCESSIBILITY_ATOM
 textFrame
 "
 TextFrame
+"
+)
+ACCESSIBILITY_ATOM
+(
+tableCaptionFrame
+"
+TableCaptionFrame
 "
 )
 ACCESSIBILITY_ATOM
