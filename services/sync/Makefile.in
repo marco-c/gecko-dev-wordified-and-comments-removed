@@ -333,6 +333,10 @@ sync_testing_modules
 :
 =
 \
+fakeservices
+.
+js
+\
 rotaryengine
 .
 js

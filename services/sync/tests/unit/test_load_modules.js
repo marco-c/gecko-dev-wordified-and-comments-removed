@@ -164,6 +164,11 @@ testingModules
 =
 [
 "
+fakeservices
+.
+js
+"
+"
 rotaryengine
 .
 js
