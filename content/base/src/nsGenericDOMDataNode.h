@@ -1198,7 +1198,7 @@ CreateSlots
 ;
 nsDataSlots
 *
-GetDataSlots
+DataSlots
 (
 )
 {
@@ -1209,7 +1209,7 @@ nsDataSlots
 *
 >
 (
-GetSlots
+Slots
 (
 )
 )
