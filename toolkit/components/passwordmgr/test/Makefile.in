@@ -422,7 +422,7 @@ passwordmgr
 test
 include
 (
-DEPTH
+topsrcdir
 )
 /
 config
