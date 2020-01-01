@@ -738,7 +738,9 @@ warningText
 style
 =
 "
-whitespace
+white
+-
+space
 :
 -
 moz
@@ -765,7 +767,9 @@ weight
 :
 bold
 ;
-whitespace
+white
+-
+space
 :
 -
 moz
@@ -964,7 +968,9 @@ headerDescription
 style
 =
 "
-whitespace
+white
+-
+space
 :
 -
 moz
@@ -1071,7 +1077,9 @@ statusLongDescription
 style
 =
 "
-whitespace
+white
+-
+space
 :
 -
 moz
@@ -1118,7 +1126,9 @@ status2LongDescription
 style
 =
 "
-whitespace
+white
+-
+space
 :
 -
 moz
@@ -1165,7 +1175,9 @@ status3LongDescription
 style
 =
 "
-whitespace
+white
+-
+space
 :
 -
 moz
