@@ -1321,6 +1321,12 @@ querySpinningly
 stmt
 )
 ;
+stmt
+.
+finalize
+(
+)
+;
 do_check_attribute_count
 (
 store

@@ -299,16 +299,6 @@ connection
 "
 #
 define
-TOPIC_PLACES_CONNECTION_CLOSING
-"
-places
--
-connection
--
-closing
-"
-#
-define
 TOPIC_PLACES_CONNECTION_CLOSED
 "
 places
