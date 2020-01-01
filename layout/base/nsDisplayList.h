@@ -238,6 +238,7 @@ Mode
 PAINTING
 EVENT_DELIVERY
 PLUGIN_GEOMETRY
+IMAGE_VISIBILITY
 OTHER
 }
 ;
@@ -343,6 +344,18 @@ mMode
 =
 =
 PAINTING
+;
+}
+bool
+IsForImageVisibility
+(
+)
+{
+return
+mMode
+=
+=
+IMAGE_VISIBILITY
 ;
 }
 bool

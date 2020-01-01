@@ -1190,6 +1190,9 @@ mScrollActivityTimer
 nsPoint
 mScrollPosForLayerPixelAlignment
 ;
+nsPoint
+mLastUpdateImagesPos
+;
 bool
 mNeverHasVerticalScrollbar
 :
