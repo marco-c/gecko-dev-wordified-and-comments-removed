@@ -1364,6 +1364,15 @@ sync
 /
 setup
 /
+activities
+/
+WebViewActivity
+.
+java
+sync
+/
+setup
+/
 auth
 /
 AccountAuthenticator

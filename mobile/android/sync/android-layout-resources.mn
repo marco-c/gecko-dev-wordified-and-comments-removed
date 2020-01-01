@@ -68,3 +68,10 @@ layout
 sync_setup_success
 .
 xml
+res
+/
+layout
+/
+sync_setup_webview
+.
+xml
