@@ -525,6 +525,10 @@ RenewSurface
 ;
 #
 endif
+Composite
+(
+)
+;
 lock
 .
 NotifyAll
