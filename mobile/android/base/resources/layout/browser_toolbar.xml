@@ -1030,7 +1030,7 @@ android
 imeOptions
 =
 "
-actionSearch
+actionGo
 |
 flagNoExtractUi
 |
