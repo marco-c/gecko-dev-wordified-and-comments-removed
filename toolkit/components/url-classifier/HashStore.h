@@ -260,7 +260,7 @@ aAddChunk
 const
 Prefix
 &
-aPprefix
+aPrefix
 PRUint32
 aSubChunk
 )
