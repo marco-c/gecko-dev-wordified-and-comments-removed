@@ -8321,7 +8321,7 @@ rv
 mimehdrpar
 -
 >
-GetParameter
+GetParameterHTTP
 (
 aHeader
 "
@@ -8448,7 +8448,7 @@ rv
 mimehdrpar
 -
 >
-GetParameter
+GetParameterHTTP
 (
 aDisposition
 "

@@ -38,10 +38,10 @@ private
 enum
 ParamDecoding
 {
-RFC_2231_DECODING
+MIME_FIELD_ENCODING
 =
 1
-RFC_5987_DECODING
+HTTP_FIELD_ENCODING
 }
 ;
 nsresult
