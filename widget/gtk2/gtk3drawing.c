@@ -6227,10 +6227,14 @@ GTK_STYLE_CLASS_EXPANDER
 ;
 state_flags
 =
-GetStateFlagsFromGtkWidgetState
-(
 state
-)
+-
+>
+disabled
+?
+GTK_STATE_INSENSITIVE
+:
+GTK_STATE_NORMAL
 ;
 if
 (
