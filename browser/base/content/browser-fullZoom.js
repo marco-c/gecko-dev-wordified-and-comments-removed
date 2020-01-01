@@ -873,6 +873,12 @@ aIsTabSwitch
 aBrowser
 )
 {
+if
+(
+gMultiProcessBrowser
+)
+return
+;
 let
 browser
 =
