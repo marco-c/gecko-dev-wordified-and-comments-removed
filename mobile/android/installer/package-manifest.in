@@ -1018,13 +1018,6 @@ components
 layout_base
 .
 xpt
-BINPATH
-/
-components
-/
-layout_forms
-.
-xpt
 #
 ifdef
 NS_PRINTING
