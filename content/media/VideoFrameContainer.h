@@ -126,6 +126,11 @@ TimeStamp
 aTargetTime
 )
 ;
+void
+ClearCurrentFrame
+(
+)
+;
 double
 GetFrameDelay
 (
