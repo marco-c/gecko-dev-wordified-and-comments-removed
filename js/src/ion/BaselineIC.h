@@ -2136,6 +2136,14 @@ Kind
 kind
 )
 {
+JS_ASSERT
+(
+IsValidKind
+(
+kind
+)
+)
+;
 switch
 (
 kind
