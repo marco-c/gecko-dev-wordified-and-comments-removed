@@ -9990,7 +9990,7 @@ nextToGC
 =
 NULL
 ;
-js_DestroyScriptFromGC
+js_DestroyCachedScript
 (
 cx
 script
