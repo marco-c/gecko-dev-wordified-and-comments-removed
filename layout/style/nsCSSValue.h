@@ -853,11 +853,10 @@ eCSSUnit_Degree
 mUnit
 &
 &
-eCSSUnit_Radian
->
-=
--
 mUnit
+<
+=
+eCSSUnit_Radian
 "
 not
 an
