@@ -2323,6 +2323,14 @@ res
 /
 layout
 /
+doorhanger_button
+.
+xml
+\
+res
+/
+layout
+/
 find_in_page_content
 .
 xml
