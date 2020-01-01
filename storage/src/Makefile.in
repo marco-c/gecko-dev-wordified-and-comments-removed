@@ -515,6 +515,10 @@ mozStorageStatementJSHelper
 .
 cpp
 \
+mozStoragePrivateHelpers
+.
+cpp
+\
 (
 NULL
 )

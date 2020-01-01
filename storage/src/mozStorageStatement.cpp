@@ -1535,6 +1535,9 @@ mDBStatement
 return
 NS_ERROR_NOT_INITIALIZED
 ;
+#
+ifdef
+DEBUG
 PR_LOG
 (
 gStorageLog
@@ -1556,6 +1559,13 @@ mDBStatement
 )
 )
 ;
+CheckAndLogStatementPerformance
+(
+mDBStatement
+)
+;
+#
+endif
 sqlite3_reset
 (
 mDBStatement
