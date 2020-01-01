@@ -2020,7 +2020,12 @@ get
 &
 mDBConn
 mFlags
-NULL
+mStorageService
+-
+>
+getVFSName
+(
+)
 )
 ;
 if
@@ -2174,7 +2179,12 @@ get
 &
 mDBConn
 mFlags
-NULL
+mStorageService
+-
+>
+getVFSName
+(
+)
 )
 ;
 if
