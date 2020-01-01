@@ -3809,12 +3809,7 @@ regs
 (
 )
 .
-pc
-=
-mjit
-:
-:
-NativeToPC
+updateForNcode
 (
 cx
 -
