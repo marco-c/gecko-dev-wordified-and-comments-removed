@@ -11718,14 +11718,11 @@ array
 "
 )
 ;
-nsresult
-rv
-;
 PRUint32
 number
 ;
+nsresult
 rv
-|
 =
 aStream
 -
