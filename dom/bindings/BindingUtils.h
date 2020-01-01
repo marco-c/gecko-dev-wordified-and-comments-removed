@@ -1694,6 +1694,8 @@ const
 char
 *
 name
+bool
+defineOnGlobal
 )
 ;
 bool

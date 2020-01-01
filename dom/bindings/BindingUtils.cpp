@@ -1920,6 +1920,8 @@ const
 char
 *
 name
+bool
+defineOnGlobal
 )
 {
 JS
@@ -2302,6 +2304,9 @@ NULL
 }
 if
 (
+defineOnGlobal
+&
+&
 !
 DefineConstructor
 (
@@ -2395,6 +2400,10 @@ JSPROP_READONLY
 )
 |
 |
+(
+defineOnGlobal
+&
+&
 !
 DefineConstructor
 (
@@ -2405,6 +2414,7 @@ namedConstructors
 >
 mName
 namedConstructor
+)
 )
 )
 {
@@ -2828,6 +2838,8 @@ const
 char
 *
 name
+bool
+defineOnGlobal
 )
 {
 MOZ_ASSERT
@@ -3171,6 +3183,7 @@ proto
 properties
 chromeOnlyProperties
 name
+defineOnGlobal
 )
 ;
 if
