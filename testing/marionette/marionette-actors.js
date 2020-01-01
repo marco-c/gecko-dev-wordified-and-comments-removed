@@ -7574,6 +7574,7 @@ nsIFrameLoaderOwner
 frameLoader
 .
 messageManager
+;
 for
 (
 let
