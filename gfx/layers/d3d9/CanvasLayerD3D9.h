@@ -190,9 +190,6 @@ DrawTarget
 >
 mDrawTarget
 ;
-PRUint32
-mCanvasFramebuffer
-;
 bool
 mDataIsPremultiplied
 ;

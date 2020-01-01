@@ -4119,6 +4119,14 @@ aDest
 )
 ;
 void
+ReadScreenIntoImageSurface
+(
+gfxImageSurface
+*
+dest
+)
+;
+void
 BlitTextureImage
 (
 TextureImage
