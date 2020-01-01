@@ -2605,6 +2605,11 @@ instruments
 -
 pane
 "
+hidden
+=
+"
+true
+"
 >
 <
 vbox

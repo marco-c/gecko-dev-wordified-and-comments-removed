@@ -366,9 +366,8 @@ P_clearCache
 this
 .
 _cache
-=
-new
-Map
+.
+clear
 (
 )
 ;

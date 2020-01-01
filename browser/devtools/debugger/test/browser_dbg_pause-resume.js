@@ -139,7 +139,6 @@ getFormatStr
 "
 pauseButtonTooltip
 "
-[
 gLH
 .
 prettyKey
@@ -155,7 +154,6 @@ resumeKey
 "
 )
 )
-]
 )
 "
 Button
@@ -258,7 +256,6 @@ getFormatStr
 "
 resumeButtonTooltip
 "
-[
 gLH
 .
 prettyKey
@@ -274,7 +271,6 @@ resumeKey
 "
 )
 )
-]
 )
 "
 Button
@@ -444,7 +440,6 @@ getFormatStr
 "
 pauseButtonTooltip
 "
-[
 gLH
 .
 prettyKey
@@ -460,7 +455,6 @@ resumeKey
 "
 )
 )
-]
 )
 "
 Button
