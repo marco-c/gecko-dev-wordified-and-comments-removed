@@ -516,17 +516,6 @@ thumbnail
 .
 style
 .
-removeProperty
-(
-"
-backgroundImage
-"
-)
-;
-thumbnail
-.
-style
-.
 backgroundImage
 =
 "
