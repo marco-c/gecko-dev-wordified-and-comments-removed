@@ -1831,7 +1831,7 @@ exitType
 uintN
 lookupFlags
 ;
-void
+jsbytecode
 *
 recursive_pc
 ;
