@@ -306,6 +306,14 @@ center
 ;
 }
 .
+fullscreenButton
+{
+display
+:
+none
+;
+}
+.
 scrubberStack
 {
 width
