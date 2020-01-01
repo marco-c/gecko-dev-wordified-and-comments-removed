@@ -506,6 +506,10 @@ test_nsIAccessibleImage
 .
 html
 \
+test_nsOuterDocAccessible
+.
+html
+\
 test_bug428479
 .
 html
