@@ -606,7 +606,7 @@ secondShapeGuard
 JSOp
 op
 :
-8
+9
 ;
 void
 releasePools
