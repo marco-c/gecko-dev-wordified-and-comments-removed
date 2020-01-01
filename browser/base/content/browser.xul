@@ -2053,7 +2053,7 @@ social
 .
 activated
 .
-undobutton
+undo
 .
 label
 ;
@@ -2066,7 +2066,7 @@ social
 .
 activated
 .
-undobutton
+undo
 .
 accesskey
 ;
