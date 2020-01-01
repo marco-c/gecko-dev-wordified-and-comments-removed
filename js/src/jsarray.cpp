@@ -4111,7 +4111,7 @@ unknownProperties
 )
 )
 {
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx

@@ -2442,7 +2442,7 @@ script
 types
 :
 :
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx
@@ -2670,7 +2670,7 @@ code
 types
 :
 :
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx

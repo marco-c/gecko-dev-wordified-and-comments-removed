@@ -2174,7 +2174,7 @@ compartment
 types
 :
 :
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 fop

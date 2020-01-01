@@ -1145,9 +1145,6 @@ typeLifoAlloc
 bool
 activeAnalysis
 ;
-bool
-activeInference
-;
 js
 :
 :

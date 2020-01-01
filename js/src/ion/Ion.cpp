@@ -5131,7 +5131,7 @@ cx
 types
 :
 :
-AutoEnterTypeInference
+AutoEnterAnalysis
 enterTypes
 (
 cx
@@ -5477,11 +5477,10 @@ AbortReason_Alloc
 types
 :
 :
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx
-true
 )
 ;
 TypeInferenceOracle

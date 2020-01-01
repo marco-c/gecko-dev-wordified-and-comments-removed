@@ -9604,7 +9604,7 @@ ranInference
 )
 )
 {
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 f
@@ -9721,7 +9721,7 @@ ranInference
 )
 )
 {
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 f
@@ -9942,7 +9942,7 @@ cx
 types
 :
 :
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 f

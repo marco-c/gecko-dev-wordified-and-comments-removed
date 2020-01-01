@@ -5112,7 +5112,7 @@ typeInferenceEnabled
 )
 )
 {
-AutoEnterTypeInference
+AutoEnterAnalysis
 enter
 (
 cx
