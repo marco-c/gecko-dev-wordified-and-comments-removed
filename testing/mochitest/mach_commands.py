@@ -589,6 +589,15 @@ if
 test_file
 :
             
+path_arg
+=
+self
+.
+_wrap_path_argument
+(
+test_file
+)
+            
 if
 not
 os
@@ -597,7 +606,11 @@ path
 .
 exists
 (
-test_file
+path_arg
+.
+srcdir_path
+(
+)
 )
 :
                 
@@ -606,7 +619,7 @@ Exception
 (
 '
 No
-manifest
+test
 file
 was
 found
@@ -626,7 +639,11 @@ env
 TEST_PATH
 '
 :
-test_file
+path_arg
+.
+relpath
+(
+)
 }
         
 else
