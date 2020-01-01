@@ -555,7 +555,7 @@ label
 &
 checkbox
 .
-on
+yes
 .
 label
 ;
@@ -586,7 +586,7 @@ label
 &
 checkbox
 .
-off
+no
 .
 label
 ;

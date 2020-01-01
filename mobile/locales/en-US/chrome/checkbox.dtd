@@ -3,11 +3,11 @@
 ENTITY
 checkbox
 .
-on
+yes
 .
 label
 "
-On
+Yes
 "
 >
 <
@@ -15,10 +15,10 @@ On
 ENTITY
 checkbox
 .
-off
+no
 .
 label
 "
-Off
+No
 "
 >
