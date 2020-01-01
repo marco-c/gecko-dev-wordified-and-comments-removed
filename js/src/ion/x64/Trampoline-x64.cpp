@@ -2824,6 +2824,8 @@ masm
 ;
 RegisterSet
 regs
+=
+RegisterSet
 (
 GeneralRegisterSet
 (
