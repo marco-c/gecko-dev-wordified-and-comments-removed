@@ -15,9 +15,7 @@ do_test_pending
 var
 bookmarksBackupDir
 =
-PlacesUtils
-.
-backups
+PlacesBackups
 .
 folder
 ;
@@ -166,9 +164,7 @@ exists
 var
 backupFilename
 =
-PlacesUtils
-.
-backups
+PlacesBackups
 .
 getFilenameForDate
 (
@@ -223,9 +219,7 @@ function
 )
 {
 yield
-PlacesUtils
-.
-backups
+PlacesBackups
 .
 create
 (

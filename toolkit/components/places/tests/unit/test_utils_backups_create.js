@@ -147,9 +147,7 @@ sort
 var
 bookmarksBackupDir
 =
-PlacesUtils
-.
-backups
+PlacesBackups
 .
 folder
 ;
@@ -293,9 +291,7 @@ function
 )
 {
 yield
-PlacesUtils
-.
-backups
+PlacesBackups
 .
 create
 (
@@ -476,9 +472,7 @@ exists
 )
 )
 ;
-PlacesUtils
-.
-backups
+PlacesBackups
 .
 folder
 ;
