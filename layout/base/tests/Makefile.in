@@ -719,6 +719,10 @@ test_flush_on_paint
 .
 html
 \
+test_mozPaintCount
+.
+html
+\
 test_scroll_selection_into_view
 .
 html
