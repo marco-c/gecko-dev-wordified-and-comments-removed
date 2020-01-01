@@ -197,6 +197,15 @@ mozilla
 com
 >
 #
+Patrick
+Walton
+<
+pcwalton
+mozilla
+.
+com
+>
+#
 #
 Alternatively
 the
@@ -453,6 +462,10 @@ _BROWSER_TEST_FILES
 =
 \
 browser_HUDServiceTestsAll
+.
+js
+\
+browser_webconsole_bug_586388_select_all
 .
 js
 \
