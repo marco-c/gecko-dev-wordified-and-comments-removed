@@ -11465,6 +11465,7 @@ off
 )
 ;
 }
+moz_NEVER_INLINE
 static
 JSBool
 EmitSwitch
