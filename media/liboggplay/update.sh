@@ -741,17 +741,6 @@ patch
 yuv_disable_optimized
 .
 patch
-patch
-<
-.
-.
-/
-.
-.
-/
-yuv_fix_mmx
-.
-patch
 cd
 .
 .
