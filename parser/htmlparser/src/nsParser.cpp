@@ -9542,7 +9542,7 @@ const
 nsAString
 &
 aSourceBuffer
-nsISupports
+nsIContent
 *
 aTargetNode
 nsIAtom

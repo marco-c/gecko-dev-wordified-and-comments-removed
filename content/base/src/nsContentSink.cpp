@@ -6407,11 +6407,11 @@ nsIParser
 kungFuDeathGrip
 (
 mParser
+.
+forget
+(
 )
-;
-mParser
-=
-nsnull
+)
 ;
 if
 (
