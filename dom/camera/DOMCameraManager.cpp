@@ -29,7 +29,7 @@ h
 #
 define
 DOM_CAMERA_LOG_LEVEL
-3
+DOM_CAMERA_LOG_NOTHING
 #
 include
 "
