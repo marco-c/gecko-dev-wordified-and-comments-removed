@@ -819,7 +819,6 @@ h
 Debug
 .
 h
-deque
 dem
 .
 h
@@ -1035,7 +1034,6 @@ FSp_fopen
 .
 h
 fstream
-fstream
 .
 h
 ft2build
@@ -1248,7 +1246,6 @@ iostream
 iostream
 .
 h
-iterator
 jar
 .
 h
@@ -2280,7 +2277,6 @@ h
 QDOffscreen
 .
 h
-queue
 Quickdraw
 .
 h
@@ -2393,7 +2389,6 @@ h
 servprov
 .
 h
-set
 setjmp
 .
 h
@@ -3124,7 +3119,6 @@ h
 UResourceMgr
 .
 h
-utility
 urlhist
 .
 h
