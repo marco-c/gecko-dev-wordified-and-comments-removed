@@ -539,6 +539,10 @@ bug624329_window
 .
 xul
 \
+test_bug649840
+.
+xul
+\
 test_popup_preventdefault_chrome
 .
 xul
