@@ -665,8 +665,6 @@ ucvutil_s
 \
 gkgfx
 \
-gfxshared_s
-\
 (
 NULL
 )
