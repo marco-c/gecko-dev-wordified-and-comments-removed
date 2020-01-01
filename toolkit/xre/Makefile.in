@@ -731,11 +731,9 @@ CPPSRCS
 nsCommandLineServiceMac
 .
 cpp
-OS_CXXFLAGS
-+
+ENABLE_CXX_EXCEPTIONS
 =
--
-fexceptions
+1
 endif
 ifdef
 MOZ_X11
