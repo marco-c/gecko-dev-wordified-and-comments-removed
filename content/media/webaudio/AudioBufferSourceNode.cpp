@@ -1900,6 +1900,7 @@ mStart
 +
 mOffset
 >
+=
 mDuration
 )
 )
