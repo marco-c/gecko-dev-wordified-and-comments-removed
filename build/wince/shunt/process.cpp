@@ -37,10 +37,7 @@ abort
 void
 )
 {
-#
-ifdef
-API_LOGGING
-mozce_printf
+WINCE_LOG_API_CALL
 (
 "
 abort
@@ -50,8 +47,6 @@ n
 "
 )
 ;
-#
-endif
 #
 if
 defined
@@ -104,13 +99,10 @@ char
 a
 )
 {
-#
-ifdef
-API_LOGGING
-mozce_printf
+WINCE_LOG_API_CALL_1
 (
 "
-putenv
+mozce_PutEnv
 called
 %
 s
@@ -120,8 +112,6 @@ n
 a
 )
 ;
-#
-endif
 int
 len
 =
@@ -207,10 +197,7 @@ getpid
 void
 )
 {
-#
-ifdef
-API_LOGGING
-mozce_printf
+WINCE_LOG_API_CALL
 (
 "
 getpid
@@ -220,8 +207,6 @@ n
 "
 )
 ;
-#
-endif
 int
 retval
 =

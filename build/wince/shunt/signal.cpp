@@ -51,10 +51,7 @@ int
 inSignal
 )
 {
-#
-ifdef
-API_LOGGING
-mozce_printf
+WINCE_LOG_API_CALL
 (
 "
 raise
@@ -64,8 +61,6 @@ n
 "
 )
 ;
-#
-endif
 void
 (
 *
@@ -130,10 +125,7 @@ _sigsig
 inFunc
 )
 {
-#
-ifdef
-API_LOGGING
-mozce_printf
+WINCE_LOG_API_CALL
 (
 "
 signal
@@ -143,8 +135,6 @@ n
 "
 )
 ;
-#
-endif
 void
 (
 *

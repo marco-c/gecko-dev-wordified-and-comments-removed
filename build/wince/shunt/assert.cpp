@@ -24,10 +24,7 @@ int
 inExpression
 )
 {
-#
-ifdef
-API_LOGGING
-mozce_printf
+WINCE_LOG_API_CALL
 (
 "
 mozce_assert
@@ -37,8 +34,6 @@ n
 "
 )
 ;
-#
-endif
 if
 (
 0

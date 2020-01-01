@@ -39,10 +39,7 @@ int
 inMode
 )
 {
-#
-ifdef
-API_LOGGING
-mozce_printf
+WINCE_LOG_API_CALL
 (
 "
 chmod
@@ -52,8 +49,6 @@ n
 "
 )
 ;
-#
-endif
 int
 retval
 =
@@ -188,10 +183,7 @@ int
 inHandle
 )
 {
-#
-ifdef
-API_LOGGING
-mozce_printf
+WINCE_LOG_API_CALL
 (
 "
 -
@@ -203,8 +195,6 @@ n
 "
 )
 ;
-#
-endif
 int
 retval
 =

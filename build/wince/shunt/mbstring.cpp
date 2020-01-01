@@ -29,10 +29,7 @@ char
 inCurrent
 )
 {
-#
-ifdef
-API_LOGGING
-mozce_printf
+WINCE_LOG_API_CALL
 (
 "
 mbsinc
@@ -42,8 +39,6 @@ n
 "
 )
 ;
-#
-endif
 return
 (
 unsigned
@@ -75,10 +70,7 @@ char
 inStrCharSet
 )
 {
-#
-ifdef
-API_LOGGING
-mozce_printf
+WINCE_LOG_API_CALL
 (
 "
 mbspbrk
@@ -88,8 +80,6 @@ n
 "
 )
 ;
-#
-endif
 LPWSTR
 wstring
 =
@@ -166,10 +156,7 @@ int
 inC
 )
 {
-#
-ifdef
-API_LOGGING
-mozce_printf
+WINCE_LOG_API_CALL
 (
 "
 mbsrchr
@@ -179,8 +166,6 @@ n
 "
 )
 ;
-#
-endif
 return
 (
 unsigned
@@ -214,10 +199,7 @@ int
 inC
 )
 {
-#
-ifdef
-API_LOGGING
-mozce_printf
+WINCE_LOG_API_CALL
 (
 "
 mbschr
@@ -227,8 +209,6 @@ n
 "
 )
 ;
-#
-endif
 return
 (
 unsigned
@@ -266,10 +246,7 @@ char
 string2
 )
 {
-#
-ifdef
-API_LOGGING
-mozce_printf
+WINCE_LOG_API_CALL
 (
 "
 mbsicmp
@@ -279,8 +256,6 @@ n
 "
 )
 ;
-#
-endif
 return
 _stricmp
 (
@@ -317,10 +292,7 @@ char
 string2
 )
 {
-#
-ifdef
-API_LOGGING
-mozce_printf
+WINCE_LOG_API_CALL
 (
 "
 mbsdec
@@ -330,8 +302,6 @@ n
 "
 )
 ;
-#
-endif
 if
 (
 string1

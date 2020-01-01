@@ -25,10 +25,7 @@ int
 inErrno
 )
 {
-#
-ifdef
-API_LOGGING
-mozce_printf
+WINCE_LOG_API_CALL
 (
 "
 strerror
@@ -38,8 +35,6 @@ n
 "
 )
 ;
-#
-endif
 return
 "
 Unknown

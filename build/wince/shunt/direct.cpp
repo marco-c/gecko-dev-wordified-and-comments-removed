@@ -26,10 +26,7 @@ char
 inDirname
 )
 {
-#
-ifdef
-API_LOGGING
-mozce_printf
+WINCE_LOG_API_CALL
 (
 "
 mkdir
@@ -39,8 +36,6 @@ n
 "
 )
 ;
-#
-endif
 int
 retval
 =
@@ -119,10 +114,7 @@ char
 inDirname
 )
 {
-#
-ifdef
-API_LOGGING
-mozce_printf
+WINCE_LOG_API_CALL_1
 (
 "
 rmdir
@@ -137,8 +129,6 @@ n
 inDirname
 )
 ;
-#
-endif
 int
 retval
 =

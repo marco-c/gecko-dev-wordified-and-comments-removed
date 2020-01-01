@@ -117,10 +117,7 @@ tm
 *
 )
 {
-#
-ifdef
-API_LOGGING
-mozce_printf
+WINCE_LOG_API_CALL
 (
 "
 mozce_strftime
@@ -130,8 +127,6 @@ n
 "
 )
 ;
-#
-endif
 return
 0
 ;
@@ -152,10 +147,7 @@ tm
 outRetval
 )
 {
-#
-ifdef
-API_LOGGING
-mozce_printf
+WINCE_LOG_API_CALL
 (
 "
 tm
@@ -167,8 +159,6 @@ n
 "
 )
 ;
-#
-endif
 struct
 tm
 *
@@ -409,10 +399,7 @@ time_t
 inTimeT
 )
 {
-#
-ifdef
-API_LOGGING
-mozce_printf
+WINCE_LOG_API_CALL
 (
 "
 tm
@@ -424,8 +411,6 @@ n
 "
 )
 ;
-#
-endif
 return
 mozce_localtime_r
 (
@@ -451,10 +436,7 @@ tm
 outRetval
 )
 {
-#
-ifdef
-API_LOGGING
-mozce_printf
+WINCE_LOG_API_CALL
 (
 "
 tm
@@ -466,8 +448,6 @@ n
 "
 )
 ;
-#
-endif
 struct
 tm
 *
@@ -702,10 +682,7 @@ time_t
 inTimeT
 )
 {
-#
-ifdef
-API_LOGGING
-mozce_printf
+WINCE_LOG_API_CALL
 (
 "
 tm
@@ -717,8 +694,6 @@ n
 "
 )
 ;
-#
-endif
 return
 mozce_gmtime_r
 (
@@ -738,10 +713,7 @@ tm
 inTM
 )
 {
-#
-ifdef
-API_LOGGING
-mozce_printf
+WINCE_LOG_API_CALL
 (
 "
 mozce_mktime
@@ -751,8 +723,6 @@ n
 "
 )
 ;
-#
-endif
 time_t
 retval
 =
