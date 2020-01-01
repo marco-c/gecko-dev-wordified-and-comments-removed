@@ -2882,7 +2882,7 @@ rv
 (
 void
 )
-PR_ATOMIC_INCREMENT
+PR_AtomicIncrement
 (
 &
 cv
@@ -2914,7 +2914,7 @@ if
 (
 0
 >
-PR_ATOMIC_DECREMENT
+PR_AtomicDecrement
 (
 &
 cv

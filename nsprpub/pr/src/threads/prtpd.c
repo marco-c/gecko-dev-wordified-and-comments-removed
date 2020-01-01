@@ -153,7 +153,7 @@ _pr_tpd_destructors
 ;
 index
 =
-PR_ATOMIC_INCREMENT
+PR_AtomicIncrement
 (
 &
 _pr_tpd_highwater
