@@ -2030,6 +2030,8 @@ Env
 *
 >
 env
+HandleValue
+thisv
 StackFrame
 *
 fp
