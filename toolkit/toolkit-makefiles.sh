@@ -3229,6 +3229,17 @@ alerts
 mac
 /
 Makefile
+toolkit
+/
+components
+/
+alerts
+/
+mac
+/
+growl
+/
+Makefile
 widget
 /
 cocoa
