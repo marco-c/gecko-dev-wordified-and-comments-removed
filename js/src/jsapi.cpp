@@ -3682,6 +3682,10 @@ inOOMReport
 (
 0
 )
+jitHardening
+(
+false
+)
 {
 JS_INIT_CLIST
 (
