@@ -4746,7 +4746,7 @@ already_AddRefed
 <
 gfxPattern
 >
-nsSVGGlyphFrame
+mozilla
 :
 :
 SVGTextObjectPaint
@@ -4781,7 +4781,7 @@ already_AddRefed
 <
 gfxPattern
 >
-nsSVGGlyphFrame
+mozilla
 :
 :
 SVGTextObjectPaint
@@ -4816,7 +4816,7 @@ already_AddRefed
 <
 gfxPattern
 >
-nsSVGGlyphFrame
+mozilla
 :
 :
 SVGTextObjectPaint
