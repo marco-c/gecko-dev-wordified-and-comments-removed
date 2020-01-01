@@ -5220,7 +5220,7 @@ cx
 oldShape
 -
 >
-maybePropid
+propidRef
 (
 )
 )
@@ -5372,7 +5372,7 @@ search
 oldShape
 -
 >
-maybePropid
+propidRef
 (
 )
 false

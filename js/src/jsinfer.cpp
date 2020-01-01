@@ -12844,6 +12844,10 @@ lastProperty
 propid
 (
 )
+.
+get
+(
+)
 )
 ^
 obj

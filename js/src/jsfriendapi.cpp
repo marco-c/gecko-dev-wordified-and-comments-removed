@@ -579,7 +579,6 @@ MarkCycleCollectorChildren
 (
 trc
 (
-const
 Shape
 *
 )
