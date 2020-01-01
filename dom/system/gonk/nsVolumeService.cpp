@@ -1824,6 +1824,13 @@ SetIsFake
 true
 )
 ;
+vol
+-
+>
+LogState
+(
+)
+;
 UpdateVolume
 (
 vol
@@ -1931,6 +1938,13 @@ vol
 SetState
 (
 state
+)
+;
+vol
+-
+>
+LogState
+(
 )
 ;
 UpdateVolume

@@ -699,6 +699,9 @@ d
 locked
 %
 d
+fake
+%
+d
 "
 NameStr
 (
@@ -724,6 +727,12 @@ MountGeneration
 int
 )
 IsMountLocked
+(
+)
+(
+int
+)
+IsFake
 (
 )
 )
