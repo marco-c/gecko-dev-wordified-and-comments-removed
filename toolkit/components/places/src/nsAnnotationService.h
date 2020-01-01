@@ -143,11 +143,6 @@ return
 gAnnotationService
 ;
 }
-void
-FinalizeStatements
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIANNOTATIONSERVICE
 private

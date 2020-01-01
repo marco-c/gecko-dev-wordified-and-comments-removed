@@ -207,11 +207,6 @@ nsACString
 aNewMimeType
 )
 ;
-void
-FinalizeStatements
-(
-)
-;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIFAVICONSERVICE
 private

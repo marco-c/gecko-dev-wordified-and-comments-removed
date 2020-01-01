@@ -8899,8 +8899,7 @@ rv
 rv
 )
 ;
-rv
-=
+return
 hasTagsStatement
 -
 >
@@ -8908,15 +8907,6 @@ ExecuteStep
 (
 aHasChildren
 )
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
-)
-;
-return
-NS_OK
 ;
 }
 if
