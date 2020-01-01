@@ -126,6 +126,7 @@ virtual
 nsresult
 NP_GetMIMEDescription
 (
+const
 char
 *
 *

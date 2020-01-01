@@ -3184,11 +3184,6 @@ fLibrary
 >
 NP_GetMIMEDescription
 (
-(
-char
-*
-*
-)
 resultingDesc
 )
 ;
