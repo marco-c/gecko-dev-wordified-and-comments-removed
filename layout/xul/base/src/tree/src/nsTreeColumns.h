@@ -431,6 +431,16 @@ PRInt32
 aIndex
 )
 ;
+nsITreeColumn
+*
+GetNamedColumn
+(
+const
+nsAString
+&
+aId
+)
+;
 static
 nsTreeColumns
 *
