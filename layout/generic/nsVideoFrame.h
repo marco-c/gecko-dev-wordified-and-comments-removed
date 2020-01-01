@@ -308,6 +308,8 @@ AppendAnonymousContentTo
 nsBaseContentList
 &
 aElements
+PRUint32
+aFilters
 )
 ;
 nsIContent

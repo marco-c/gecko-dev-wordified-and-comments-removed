@@ -124,6 +124,8 @@ AppendAnonymousContentTo
 nsBaseContentList
 &
 aElements
+PRUint32
+aFilter
 )
 ;
 virtual

@@ -12909,8 +12909,8 @@ nsGenericElement
 :
 GetChildren
 (
-PRInt32
-aChildType
+PRUint32
+aFilter
 )
 {
 nsRefPtr
@@ -13000,10 +13000,12 @@ document
 {
 if
 (
-aChildType
 !
-=
+(
+aFilter
+&
 eAllButXBL
+)
 )
 {
 childList
@@ -13146,6 +13148,7 @@ AppendAnonymousContentTo
 (
 *
 list
+aFilter
 )
 ;
 }

@@ -385,6 +385,8 @@ AppendAnonymousContentTo
 nsBaseContentList
 &
 aElements
+PRUint32
+aFilter
 )
 {
 mInner
@@ -392,6 +394,7 @@ mInner
 AppendAnonymousContentTo
 (
 aElements
+aFilter
 )
 ;
 }
@@ -4013,6 +4016,8 @@ AppendAnonymousContentTo
 nsBaseContentList
 &
 aElements
+PRUint32
+aFilter
 )
 {
 mInner
@@ -4020,6 +4025,7 @@ mInner
 AppendAnonymousContentTo
 (
 aElements
+aFilter
 )
 ;
 }
@@ -9869,6 +9875,8 @@ AppendAnonymousContentTo
 nsBaseContentList
 &
 aElements
+PRUint32
+aFilter
 )
 {
 aElements

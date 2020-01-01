@@ -240,6 +240,9 @@ eAllChildren
 eAllButXBL
 =
 1
+eSkipPlaceholderContent
+=
+2
 }
 ;
 virtual
@@ -249,8 +252,8 @@ nsINodeList
 >
 GetChildren
 (
-PRInt32
-aChildType
+PRUint32
+aFilter
 )
 =
 0
