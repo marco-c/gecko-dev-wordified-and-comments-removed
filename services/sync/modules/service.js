@@ -5575,7 +5575,7 @@ syncID
 {
 this
 .
-resetService
+resetClient
 (
 )
 ;
