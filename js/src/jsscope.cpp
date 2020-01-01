@@ -5841,12 +5841,10 @@ front
 ;
 if
 (
-!
-base
--
->
-isMarked
+IsBaseShapeAboutToBeFinalized
 (
+&
+base
 )
 )
 e
@@ -6835,8 +6833,7 @@ raw
 ;
 if
 (
-!
-IsShapeMarked
+IsShapeAboutToBeFinalized
 (
 &
 shape
@@ -6853,8 +6850,7 @@ isObject
 )
 &
 &
-!
-IsObjectMarked
+IsObjectAboutToBeFinalized
 (
 &
 proto
@@ -6894,7 +6890,8 @@ JS_ASSERT
 parent
 |
 |
-IsObjectMarked
+!
+IsObjectAboutToBeFinalized
 (
 &
 parent

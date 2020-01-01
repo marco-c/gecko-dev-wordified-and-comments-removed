@@ -7957,8 +7957,7 @@ p
 ;
 if
 (
-!
-IsObjectMarked
+IsObjectAboutToBeFinalized
 (
 &
 dbg
@@ -8097,8 +8096,7 @@ front
 ;
 if
 (
-!
-IsObjectMarked
+IsObjectAboutToBeFinalized
 (
 &
 global

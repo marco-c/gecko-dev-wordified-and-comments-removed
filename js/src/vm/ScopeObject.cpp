@@ -8102,8 +8102,7 @@ popFront
 {
 if
 (
-!
-IsObjectMarked
+IsObjectAboutToBeFinalized
 (
 e
 .
@@ -8176,8 +8175,7 @@ value
 ;
 if
 (
-!
-IsObjectMarked
+IsObjectAboutToBeFinalized
 (
 &
 scope
@@ -8230,8 +8228,7 @@ JSGEN_OPEN
 ;
 if
 (
-!
-IsObjectMarked
+IsObjectAboutToBeFinalized
 (
 &
 gen

@@ -13742,9 +13742,9 @@ thing
 )
 ;
 bool
-isMarked
+isDying
 =
-IsCellMarked
+IsCellAboutToBeFinalized
 (
 &
 t
@@ -13759,8 +13759,7 @@ thing
 )
 ;
 return
-!
-isMarked
+isDying
 ;
 }
 JS_PUBLIC_API

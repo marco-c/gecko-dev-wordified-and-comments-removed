@@ -1451,8 +1451,7 @@ object
 ;
 if
 (
-!
-IsObjectMarked
+IsObjectAboutToBeFinalized
 (
 &
 obj
