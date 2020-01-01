@@ -443,10 +443,6 @@ LogController
 .
 js
 \
-quit
-.
-js
-\
 SimpleTest
 .
 js

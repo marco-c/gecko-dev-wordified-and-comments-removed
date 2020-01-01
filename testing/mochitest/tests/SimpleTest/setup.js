@@ -497,7 +497,9 @@ TestRunner
 .
 onComplete
 =
-goQuitApplication
+SpecialPowers
+.
+quit
 ;
 }
 if
