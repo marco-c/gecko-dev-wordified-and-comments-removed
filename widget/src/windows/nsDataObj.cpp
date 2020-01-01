@@ -2867,6 +2867,16 @@ ResultFromScode
 E_FAIL
 )
 ;
+(
+*
+ppEnum
+)
+-
+>
+Reset
+(
+)
+;
 return
 NOERROR
 ;
