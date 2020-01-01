@@ -400,6 +400,8 @@ nsProfileLock
 :
 RemovePidLockFiles
 (
+PRBool
+aFatalSignal
 )
 {
 while
@@ -432,6 +434,7 @@ lock
 >
 Unlock
 (
+aFatalSignal
 )
 ;
 }
@@ -489,6 +492,7 @@ context
 {
 RemovePidLockFiles
 (
+PR_TRUE
 )
 ;
 struct
@@ -1394,7 +1398,7 @@ setupPidLockCleanup
 {
 atexit
 (
-RemovePidLockFiles
+RemovePidLockFilesExiting
 )
 ;
 if
@@ -2438,6 +2442,8 @@ nsProfileLock
 :
 Unlock
 (
+PRBool
+aFatalSignal
 )
 {
 nsresult
@@ -2524,6 +2530,11 @@ unlink
 mPidLockFileName
 )
 ;
+if
+(
+!
+aFatalSignal
+)
 free
 (
 mPidLockFileName
