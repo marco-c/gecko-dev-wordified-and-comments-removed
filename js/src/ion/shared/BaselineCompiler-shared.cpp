@@ -58,6 +58,9 @@ cx
 script
 masm
 )
+stubSpace_
+(
+)
 icEntries_
 (
 )
