@@ -1,14 +1,21 @@
 #
 include
 "
-nsICanvasRenderingContextGL
+nsIPrefService
 .
 h
 "
 #
 include
 "
-nsIPrefService
+nsServiceManagerUtils
+.
+h
+"
+#
+include
+"
+WebGLContext
 .
 h
 "
@@ -22,17 +29,21 @@ h
 #
 include
 "
-nsCanvasRenderingContextGL
+gfxContext
 .
 h
 "
 #
 include
 "
-gfxContext
+gfxImageSurface
 .
 h
 "
+using
+namespace
+mozilla
+;
 static
 PRUint32
 gActiveBuffers
@@ -368,7 +379,7 @@ nsGLPbufferWGL
 :
 Init
 (
-nsCanvasRenderingContextGLPrivate
+WebGLContext
 *
 priv
 )
@@ -491,8 +502,6 @@ wc
 {
 LogMessage
 (
-NS_LITERAL_CSTRING
-(
 "
 Canvas
 3D
@@ -500,7 +509,6 @@ Canvas
 RegisterClass
 failed
 "
-)
 )
 ;
 return
@@ -540,8 +548,6 @@ mGlewWindow
 {
 LogMessage
 (
-NS_LITERAL_CSTRING
-(
 "
 Canvas
 3D
@@ -549,7 +555,6 @@ Canvas
 CreateWindow
 failed
 "
-)
 )
 ;
 return
@@ -571,8 +576,6 @@ mGlewDC
 {
 LogMessage
 (
-NS_LITERAL_CSTRING
-(
 "
 Canvas
 3D
@@ -580,7 +583,6 @@ Canvas
 GetDC
 failed
 "
-)
 )
 ;
 return
@@ -644,8 +646,6 @@ pfd
 {
 LogMessage
 (
-NS_LITERAL_CSTRING
-(
 "
 Canvas
 3D
@@ -653,7 +653,6 @@ Canvas
 SetPixelFormat
 failed
 "
-)
 )
 ;
 return
@@ -675,8 +674,6 @@ mGlewWglContext
 {
 LogMessage
 (
-NS_LITERAL_CSTRING
-(
 "
 Canvas
 3D
@@ -684,7 +681,6 @@ Canvas
 wglCreateContext
 failed
 "
-)
 )
 ;
 return
@@ -706,8 +702,6 @@ mGlewWglContext
 {
 LogMessage
 (
-NS_LITERAL_CSTRING
-(
 "
 Canvas
 3D
@@ -715,7 +709,6 @@ Canvas
 wglMakeCurrent
 failed
 "
-)
 )
 ;
 return
@@ -747,8 +740,6 @@ opengl32
 {
 LogMessage
 (
-NS_LITERAL_CSTRING
-(
 "
 Canvas
 3D
@@ -774,7 +765,6 @@ system32
 fixme
 )
 "
-)
 )
 ;
 return
@@ -810,8 +800,6 @@ TRY_NATIVE_GL
 {
 LogMessage
 (
-NS_LITERAL_CSTRING
-(
 "
 Canvas
 3D
@@ -820,7 +808,6 @@ GLWrap
 init
 failed
 "
-)
 )
 ;
 return
@@ -948,10 +935,8 @@ prefAntialiasing
 ;
 mThebesSurface
 =
-CanvasGLThebes
-:
-:
-CreateImageSurface
+new
+gfxImageSurface
 (
 gfxIntSize
 (
@@ -1043,8 +1028,6 @@ GetLastError
 ;
 LogMessage
 (
-NS_LITERAL_CSTRING
-(
 "
 Canvas
 3D
@@ -1052,7 +1035,6 @@ Canvas
 wglMakeCurrent
 failed
 "
-)
 )
 ;
 return
@@ -1071,11 +1053,11 @@ attribs
 =
 {
 WGL_SUPPORT_OPENGL_ARB
-GL_TRUE
+LOCAL_GL_TRUE
 WGL_DRAW_TO_PBUFFER_ARB
-GL_TRUE
+LOCAL_GL_TRUE
 WGL_DOUBLE_BUFFER_ARB
-GL_FALSE
+LOCAL_GL_FALSE
 WGL_ACCELERATION_ARB
 WGL_FULL_ACCELERATION_ARB
 WGL_COLOR_BITS_ARB
@@ -1221,8 +1203,6 @@ TRY_FIND_AGAIN
 }
 LogMessage
 (
-NS_LITERAL_CSTRING
-(
 "
 Canvas
 3D
@@ -1241,7 +1221,6 @@ formats
 )
 .
 "
-)
 )
 ;
 ReleaseDC
@@ -1513,8 +1492,6 @@ chosenFormat
 {
 LogMessage
 (
-NS_LITERAL_CSTRING
-(
 "
 Canvas
 3D
@@ -1529,7 +1506,6 @@ pixel
 format
 !
 "
-)
 )
 ;
 return
@@ -1584,8 +1560,6 @@ mPbuffer
 {
 LogMessage
 (
-NS_LITERAL_CSTRING
-(
 "
 Canvas
 3D
@@ -1595,7 +1569,6 @@ to
 create
 pbuffer
 "
-)
 )
 ;
 return
@@ -1851,8 +1824,8 @@ fReadPixels
 0
 mWidth
 mHeight
-GL_BGRA
-GL_UNSIGNED_INT_8_8_8_8_REV
+LOCAL_GL_BGRA
+LOCAL_GL_UNSIGNED_INT_8_8_8_8_REV
 mThebesSurface
 -
 >

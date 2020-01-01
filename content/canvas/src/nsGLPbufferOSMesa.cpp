@@ -1,13 +1,6 @@
 #
 include
 "
-nsICanvasRenderingContextGL
-.
-h
-"
-#
-include
-"
 nsDirectoryServiceUtils
 .
 h
@@ -29,14 +22,14 @@ h
 #
 include
 "
-nsGLPbuffer
+glwrap
 .
 h
 "
 #
 include
 "
-nsCanvasRenderingContextGL
+nsGLPbuffer
 .
 h
 "
@@ -50,10 +43,14 @@ h
 #
 include
 "
-glwrap
+gfxImageSurface
 .
 h
 "
+using
+namespace
+mozilla
+;
 #
 if
 0
@@ -135,7 +132,7 @@ nsGLPbufferOSMESA
 :
 Init
 (
-nsCanvasRenderingContextGLPrivate
+WebGLContext
 *
 priv
 )
@@ -458,8 +455,6 @@ path
 available
 LogMessage
 (
-NS_LITERAL_STRING
-(
 "
 Canvas
 3D
@@ -491,7 +486,6 @@ OSMesa
 shared
 library
 "
-)
 )
 ;
 rv
@@ -540,8 +534,6 @@ exists
 {
 LogMessage
 (
-NS_LITERAL_CSTRING
-(
 "
 Canvas
 3D
@@ -566,7 +558,6 @@ path
 is
 incorrect
 "
-)
 )
 ;
 return
@@ -593,8 +584,6 @@ rv
 {
 LogMessage
 (
-NS_LITERAL_CSTRING
-(
 "
 Canvas
 3D
@@ -606,7 +595,6 @@ find
 OSMesa
 lib
 "
-)
 )
 ;
 return
@@ -630,8 +618,6 @@ get
 )
 {
 LogMessage
-(
-NS_LITERAL_CSTRING
 (
 "
 Canvas
@@ -663,7 +649,6 @@ valid
 shared
 library
 "
-)
 )
 ;
 return
@@ -733,8 +718,6 @@ get
 {
 LogMessage
 (
-NS_LITERAL_CSTRING
-(
 "
 Canvas
 3D
@@ -749,7 +732,6 @@ lib
 1
 ]
 "
-)
 )
 ;
 return
@@ -787,8 +769,6 @@ TRY_SOFTWARE_GL
 {
 LogMessage
 (
-NS_LITERAL_CSTRING
-(
 "
 Canvas
 3D
@@ -797,7 +777,6 @@ GLWrap
 init
 failed
 "
-)
 )
 ;
 return
@@ -844,10 +823,8 @@ Destroy
 ;
 mThebesSurface
 =
-CanvasGLThebes
-:
-:
-CreateImageSurface
+new
+gfxImageSurface
 (
 gfxIntSize
 (
@@ -957,7 +934,7 @@ mThebesSurface
 Data
 (
 )
-GL_UNSIGNED_BYTE
+LOCAL_GL_UNSIGNED_BYTE
 width
 height
 )
@@ -1120,7 +1097,7 @@ mThebesSurface
 Data
 (
 )
-GL_UNSIGNED_BYTE
+LOCAL_GL_UNSIGNED_BYTE
 mWidth
 mHeight
 )
