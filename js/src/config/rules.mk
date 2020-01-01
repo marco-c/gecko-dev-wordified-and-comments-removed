@@ -1049,6 +1049,8 @@ XPCSHELL_TESTS
 _INSTALL_TESTS
 )
 )
+ifndef
+NO_XPCSHELL_MANIFEST_CHECK
 (
 PYTHON
 )
@@ -1092,6 +1094,7 @@ relativesrcdir
 XPCSHELL_TESTS
 )
 )
+endif
 testxpcsrcdir
 =
 (
