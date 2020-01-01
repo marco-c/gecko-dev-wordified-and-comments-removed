@@ -11837,6 +11837,12 @@ gfx
 Margin
 &
 aFixedLayerMargins
+float
+&
+aOffsetX
+float
+&
+aOffsetY
 )
 {
 AndroidGeckoLayerClient
@@ -11864,6 +11870,8 @@ aScrollOffset
 aScaleX
 aScaleY
 aFixedLayerMargins
+aOffsetX
+aOffsetY
 )
 ;
 }

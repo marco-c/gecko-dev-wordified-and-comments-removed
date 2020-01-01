@@ -916,6 +916,12 @@ java
 \
 gfx
 /
+LayerMarginsAnimator
+.
+java
+\
+gfx
+/
 LayerRenderer
 .
 java

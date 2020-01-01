@@ -358,6 +358,12 @@ tileX
 viewport
 .
 left
+-
+context
+.
+offset
+.
+x
 ;
 float
 drawY
@@ -373,6 +379,12 @@ viewport
 .
 top
 )
+-
+context
+.
+offset
+.
+y
 ;
 float
 [
