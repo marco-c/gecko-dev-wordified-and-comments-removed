@@ -2083,6 +2083,8 @@ aDOMClassInfoID
 bool
 aPrivileged
 bool
+aXBLAllowed
+bool
 aDisabled
 const
 PRUnichar
@@ -2245,6 +2247,13 @@ s
 mChromeOnly
 =
 aPrivileged
+;
+s
+-
+>
+mAllowXBL
+=
+aXBLAllowed
 ;
 s
 -
