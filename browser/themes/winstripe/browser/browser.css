@@ -9681,7 +9681,6 @@ right
 colors
 :
 ThreeDShadow
-transparent
 ;
 -
 moz
@@ -10338,8 +10337,12 @@ margin
 top
 :
 3px
-!
-important
+;
+margin
+-
+bottom
+:
+1px
 ;
 }
 .
