@@ -1280,6 +1280,9 @@ define
 ID_PREFIX
 appmenu_developer_
 #
+define
+OMIT_ACCESSKEYS
+#
 include
 browser
 -
@@ -1289,6 +1292,9 @@ inc
 #
 undef
 ID_PREFIX
+#
+undef
+OMIT_ACCESSKEYS
 <
 menuseparator
 /
@@ -1350,6 +1356,9 @@ define
 ID_PREFIX
 appmenu_
 #
+define
+OMIT_ACCESSKEYS
+#
 include
 browser
 -
@@ -1359,6 +1368,9 @@ inc
 #
 undef
 ID_PREFIX
+#
+undef
+OMIT_ACCESSKEYS
 <
 menuitem
 id
@@ -2785,15 +2797,6 @@ id
 =
 "
 appmenu_safeMode
-"
-accesskey
-=
-"
-&
-appMenuSafeMode
-.
-accesskey
-;
 "
 label
 =

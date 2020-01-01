@@ -402,6 +402,9 @@ charsetMenu
 label
 ;
 "
+#
+ifndef
+OMIT_ACCESSKEYS
 accesskey
 =
 "
@@ -411,6 +414,8 @@ charsetMenu
 accesskey
 ;
 "
+#
+endif
 datasources
 =
 "
@@ -613,6 +618,9 @@ charsetMenuAutodet
 label
 ;
 "
+#
+ifndef
+OMIT_ACCESSKEYS
 accesskey
 =
 "
@@ -622,6 +630,8 @@ charsetMenuAutodet
 accesskey
 ;
 "
+#
+endif
 datasources
 =
 "
@@ -766,6 +776,9 @@ charsetMenuMore
 label
 ;
 "
+#
+ifndef
+OMIT_ACCESSKEYS
 accesskey
 =
 "
@@ -775,6 +788,8 @@ charsetMenuMore
 accesskey
 ;
 "
+#
+endif
 datasources
 =
 "
@@ -859,6 +874,9 @@ charsetMenuMore1
 label
 ;
 "
+#
+ifndef
+OMIT_ACCESSKEYS
 accesskey
 =
 "
@@ -868,6 +886,8 @@ charsetMenuMore1
 accesskey
 ;
 "
+#
+endif
 datasources
 =
 "
@@ -960,6 +980,9 @@ charsetMenuMore2
 label
 ;
 "
+#
+ifndef
+OMIT_ACCESSKEYS
 accesskey
 =
 "
@@ -969,6 +992,8 @@ charsetMenuMore2
 accesskey
 ;
 "
+#
+endif
 datasources
 =
 "
@@ -1061,6 +1086,9 @@ charsetMenuMore3
 label
 ;
 "
+#
+ifndef
+OMIT_ACCESSKEYS
 accesskey
 =
 "
@@ -1070,6 +1098,8 @@ charsetMenuMore3
 accesskey
 ;
 "
+#
+endif
 datasources
 =
 "
@@ -1162,6 +1192,9 @@ charsetMenuMore4
 label
 ;
 "
+#
+ifndef
+OMIT_ACCESSKEYS
 accesskey
 =
 "
@@ -1171,6 +1204,8 @@ charsetMenuMore4
 accesskey
 ;
 "
+#
+endif
 datasources
 =
 "
@@ -1263,6 +1298,9 @@ charsetMenuMore5
 label
 ;
 "
+#
+ifndef
+OMIT_ACCESSKEYS
 accesskey
 =
 "
@@ -1272,6 +1310,8 @@ charsetMenuMore5
 accesskey
 ;
 "
+#
+endif
 datasources
 =
 "
@@ -1364,6 +1404,9 @@ charsetMenuUnicode
 label
 ;
 "
+#
+ifndef
+OMIT_ACCESSKEYS
 accesskey
 =
 "
@@ -1373,6 +1416,8 @@ charsetMenuUnicode
 accesskey
 ;
 "
+#
+endif
 datasources
 =
 "
@@ -1473,6 +1518,9 @@ name
 "
 charsetCustomize
 "
+#
+ifndef
+OMIT_ACCESSKEYS
 accesskey
 =
 "
@@ -1482,6 +1530,8 @@ charsetCustomize
 accesskey
 ;
 "
+#
+endif
 label
 =
 "
@@ -1527,6 +1577,7 @@ yes
 browser
 '
 )
+;
 "
 /
 >
