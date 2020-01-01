@@ -1310,6 +1310,17 @@ test_bug461735
 .
 html
 \
+test_bug380418
+.
+html
+\
+test_bug380418
+.
+html
+^
+headers
+^
+\
 (
 NULL
 )
