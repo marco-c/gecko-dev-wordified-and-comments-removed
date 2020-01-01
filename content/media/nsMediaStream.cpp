@@ -155,6 +155,15 @@ nsIAsyncVerifyRedirectCallback
 h
 "
 #
+include
+"
+mozilla
+/
+Util
+.
+h
+"
+#
 define
 HTTP_OK_CODE
 200
@@ -1190,7 +1199,10 @@ PR_FALSE
 nsLoadFlags
 loadFlags
 ;
+DebugOnly
+<
 nsresult
+>
 rv
 =
 mChannel
