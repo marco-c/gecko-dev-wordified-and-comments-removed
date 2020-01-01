@@ -1933,6 +1933,10 @@ CodeGenerator
 .
 cpp
 \
+IonMacroAssembler
+.
+cpp
+\
 (
 NULL
 )
