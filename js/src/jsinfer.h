@@ -4439,9 +4439,6 @@ pendingNukeTypes
 bool
 inferenceEnabled
 ;
-bool
-jaegerCompilationAllowed
-;
 TypeZone
 (
 JS

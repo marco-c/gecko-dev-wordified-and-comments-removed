@@ -5599,13 +5599,6 @@ typeInferenceEnabled
 )
 const
 ;
-inline
-bool
-jaegerCompilationAllowed
-(
-)
-const
-;
 void
 updateJITEnabled
 (

@@ -6148,7 +6148,7 @@ methodjit
 .
 content
 "
-false
+true
 )
 ;
 pref
@@ -6162,7 +6162,7 @@ methodjit
 .
 chrome
 "
-false
+true
 )
 ;
 pref
