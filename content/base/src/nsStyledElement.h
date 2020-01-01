@@ -183,7 +183,7 @@ nsIAtom
 *
 aAttribute
 const
-nsAString
+nsAttrValue
 *
 aValue
 bool

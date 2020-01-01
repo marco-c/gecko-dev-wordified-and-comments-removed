@@ -2048,7 +2048,7 @@ if
 UserToDevicePixelSnapped
 (
 newRect
-PR_TRUE
+true
 )
 )
 {
@@ -8205,7 +8205,7 @@ y
 else
 {
 return
-PR_FALSE
+false
 ;
 }
 }
@@ -8469,7 +8469,7 @@ CAIRO_STATUS_SUCCESS
 else
 {
 return
-PR_FALSE
+false
 ;
 }
 }

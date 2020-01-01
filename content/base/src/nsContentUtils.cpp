@@ -1865,6 +1865,13 @@ return
 NS_OK
 ;
 }
+nsINode
+:
+:
+Init
+(
+)
+;
 nsresult
 rv
 =

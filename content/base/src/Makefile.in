@@ -544,6 +544,10 @@ nsAttrValue
 .
 cpp
 \
+nsAttrValueOrString
+.
+cpp
+\
 nsCCUncollectableMarker
 .
 cpp

@@ -96,6 +96,7 @@ nsIFrame
 GetParentStyleContextFrame
 (
 )
+const
 ;
 #
 ifdef
@@ -397,6 +398,7 @@ nsIFrame
 GetParentStyleContextFrame
 (
 )
+const
 ;
 NS_IMETHOD
 GetCellDataAt
@@ -699,6 +701,7 @@ nsTableFrame
 InnerTableFrame
 (
 )
+const
 {
 return
 static_cast

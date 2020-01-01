@@ -568,6 +568,7 @@ nsTableFrame
 GetParentStyleContextFrame
 (
 )
+const
 {
 NS_PRECONDITION
 (

@@ -2591,15 +2591,12 @@ GetContent
 )
 ;
 return
-GetAccService
-(
-)
+mDoc
 -
 >
 GetAccessible
 (
 menuItemNode
-nsnull
 )
 ;
 }

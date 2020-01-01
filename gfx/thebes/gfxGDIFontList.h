@@ -300,8 +300,6 @@ FillLogFont
 LOGFONTW
 *
 aLogFont
-bool
-aItalic
 PRUint16
 aWeight
 gfxFloat

@@ -2325,7 +2325,7 @@ isDummyFrame
 gc
 :
 :
-MarkRootRange
+MarkValueRootRange
 (
 trc
 slotsBegin
@@ -2382,7 +2382,7 @@ ranLifetimes
 gc
 :
 :
-MarkRootRange
+MarkValueRootRange
 (
 trc
 slotsBegin
@@ -2503,7 +2503,7 @@ offset
 gc
 :
 :
-MarkRoot
+MarkValueRoot
 (
 trc
 *
@@ -2525,7 +2525,7 @@ UndefinedValue
 gc
 :
 :
-MarkRootRange
+MarkValueRootRange
 (
 trc
 fixedEnd
@@ -2682,7 +2682,7 @@ site
 gc
 :
 :
-MarkRootRange
+MarkValueRootRange
 (
 trc
 seg
@@ -5732,7 +5732,7 @@ int
 =
 0
 ;
-JS_Assert
+MOZ_Assert
 (
 "
 About

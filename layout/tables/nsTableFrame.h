@@ -922,6 +922,7 @@ nsIFrame
 GetParentStyleContextFrame
 (
 )
+const
 ;
 virtual
 nsIAtom

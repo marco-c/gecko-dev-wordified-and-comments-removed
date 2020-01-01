@@ -5173,7 +5173,7 @@ sChildProcessManager
 "
 )
 ;
-PRBool
+bool
 isChrome
 =
 IsChromeProcess

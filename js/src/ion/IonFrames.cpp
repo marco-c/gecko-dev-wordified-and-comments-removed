@@ -70,6 +70,13 @@ IonMacroAssembler
 .
 h
 "
+#
+include
+"
+jsgcmark
+.
+h
+"
 using
 namespace
 js
@@ -649,7 +656,7 @@ currentIonScript
 currentIonScript
 -
 >
-containsReturnAddress
+containsCodeAddress
 (
 returnAddr
 )
@@ -706,7 +713,7 @@ JS_ASSERT
 ionScript
 -
 >
-containsReturnAddress
+containsCodeAddress
 (
 returnAddr
 )
@@ -1179,7 +1186,7 @@ token
 case
 CalleeToken_Function
 :
-MarkRoot
+MarkObjectRoot
 (
 trc
 CalleeTokenToFunction
@@ -1198,7 +1205,7 @@ break
 case
 CalleeToken_Script
 :
-MarkRoot
+MarkScriptRoot
 (
 trc
 CalleeTokenToScript
@@ -1351,7 +1358,7 @@ i
 gc
 :
 :
-MarkRoot
+MarkValueRoot
 (
 trc
 argv
@@ -1488,7 +1495,7 @@ slot
 gc
 :
 :
-MarkRootThingOrValue
+MarkThingOrValueRoot
 (
 trc
 *
@@ -1533,7 +1540,7 @@ slot
 gc
 :
 :
-MarkRoot
+MarkValueRoot
 (
 trc
 *

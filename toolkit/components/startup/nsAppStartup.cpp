@@ -3442,6 +3442,11 @@ bool
 _retval
 )
 {
+NS_ENSURE_ARG_POINTER
+(
+_retval
+)
+;
 *
 _retval
 =

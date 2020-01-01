@@ -60,6 +60,13 @@ nsISupportsArray
 .
 h
 "
+#
+include
+"
+nsITimer
+.
+h
+"
 class
 nsPluginHost
 ;
@@ -193,10 +200,6 @@ aLastModifiedTime
 =
 0
 bool
-aCanUnload
-=
-true
-bool
 aArgsAreUTF8
 =
 false
@@ -219,6 +222,8 @@ aHost
 void
 TryUnloadPlugin
 (
+bool
+inShutdown
 )
 ;
 void
@@ -316,9 +321,6 @@ nsNPAPIPlugin
 mEntryPoint
 ;
 bool
-mCanUnloadLibrary
-;
-bool
 mIsJavaPlugin
 ;
 bool
@@ -338,6 +340,12 @@ mVersion
 ;
 PRInt64
 mLastModifiedTime
+;
+nsCOMPtr
+<
+nsITimer
+>
+mUnloadTimer
 ;
 private
 :

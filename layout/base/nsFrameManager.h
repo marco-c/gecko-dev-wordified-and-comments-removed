@@ -116,6 +116,7 @@ nsPlaceholderFrame
 )
 GetPlaceholderFrameFor
 (
+const
 nsIFrame
 *
 aFrame
