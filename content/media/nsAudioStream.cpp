@@ -4094,7 +4094,7 @@ params
 .
 format
 =
-CUBEB_SAMPLE_FLOAT32LE
+CUBEB_SAMPLE_FLOAT32NE
 ;
 mBytesPerFrame
 =
