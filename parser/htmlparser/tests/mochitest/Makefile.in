@@ -463,6 +463,10 @@ test_html5_tree_construction
 .
 html
 \
+test_bug174351
+.
+html
+\
 test_bug339350
 .
 xhtml
@@ -490,6 +494,10 @@ html
 regressions
 .
 txt
+\
+invalidchar
+.
+xml
 \
 (
 NULL

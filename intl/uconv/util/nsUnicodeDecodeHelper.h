@@ -48,6 +48,10 @@ aShiftInTable
 uMappingTable
 *
 aMappingTable
+PRBool
+aErrorSignal
+=
+PR_FALSE
 )
 ;
 static
@@ -80,6 +84,10 @@ uMappingTable
 *
 *
 aMappingTable
+PRBool
+aErrorSignal
+=
+PR_FALSE
 )
 ;
 static
@@ -105,6 +113,8 @@ PRUnichar
 aFastTable
 PRInt32
 aTableSize
+PRBool
+aErrorSignal
 )
 ;
 static
