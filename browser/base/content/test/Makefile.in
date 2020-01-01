@@ -719,6 +719,10 @@ browser_bug767836_perwindowpb
 .
 js
 \
+browser_bug771331
+.
+js
+\
 browser_bug783614
 .
 js
