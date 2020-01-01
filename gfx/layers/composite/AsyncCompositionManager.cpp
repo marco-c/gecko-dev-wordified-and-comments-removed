@@ -2829,6 +2829,11 @@ TimeStamp
 aCurrentFrame
 )
 {
+bool
+wantNextFrame
+=
+false
+;
 Layer
 *
 root
@@ -2840,8 +2845,8 @@ GetRoot
 (
 )
 ;
-bool
 wantNextFrame
+|
 =
 SampleAnimations
 (
