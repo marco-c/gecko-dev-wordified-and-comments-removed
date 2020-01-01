@@ -327,6 +327,11 @@ JSSecurityCallbacks
 JSSecurityCallbacks
 ;
 typedef
+struct
+JSONParser
+JSONParser
+;
+typedef
 JSBool
 (
 *

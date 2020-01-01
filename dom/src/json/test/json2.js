@@ -3,10 +3,10 @@ if
 !
 this
 .
-JSON
+crockfordJSON
 )
 {
-JSON
+crockfordJSON
 =
 function
 (
