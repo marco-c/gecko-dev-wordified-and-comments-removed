@@ -1117,17 +1117,6 @@ aResult
 )
 ;
 nsresult
-GetRowURL
-(
-nsIMdbRow
-*
-aRow
-nsAString
-&
-aResult
-)
-;
-nsresult
 FindRow
 (
 mdb_column
