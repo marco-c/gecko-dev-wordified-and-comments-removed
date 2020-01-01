@@ -558,6 +558,10 @@ MarkRoot
 (
 trc
 enterJIT_
+.
+unsafeGet
+(
+)
 "
 enterJIT
 "
@@ -571,6 +575,10 @@ MarkRoot
 (
 trc
 bailoutHandler_
+.
+unsafeGet
+(
+)
 "
 bailoutHandler
 "
@@ -610,6 +618,10 @@ bailoutTables_
 [
 i
 ]
+.
+unsafeGet
+(
+)
 "
 bailoutTable
 "
