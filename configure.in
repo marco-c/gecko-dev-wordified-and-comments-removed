@@ -32049,7 +32049,7 @@ TLS
 variables
 ac_cv_thread_keyword
 [
-AC_TRY_COMPILE
+AC_TRY_LINK
 (
 [
 __thread
