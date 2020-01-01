@@ -2858,7 +2858,7 @@ LayerManagerForDocument
 mFrameLoader
 -
 >
-OwnerDoc
+GetOwnerDoc
 (
 )
 )
