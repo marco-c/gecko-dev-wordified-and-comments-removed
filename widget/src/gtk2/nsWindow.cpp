@@ -7649,10 +7649,6 @@ GrabPointer
 (
 )
 ;
-GrabKeyboard
-(
-)
-;
 }
 }
 else
