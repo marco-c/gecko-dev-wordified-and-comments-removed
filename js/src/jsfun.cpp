@@ -8004,9 +8004,11 @@ unsigned
 nargs
 unsigned
 attrs
-const
-char
+Handle
+<
+PropertyName
 *
+>
 selfHostedName
 AllocKind
 kind
