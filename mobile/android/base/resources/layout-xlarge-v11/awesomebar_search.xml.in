@@ -330,14 +330,14 @@ android
 layout_marginTop
 =
 "
-6dip
+7dip
 "
 android
 :
 layout_marginBottom
 =
 "
-6dip
+7dip
 "
 android
 :
