@@ -55,11 +55,9 @@ h
 "
 #
 elif
+defined
 (
-MOZ_WIDGET_GTK
->
-=
-2
+MOZ_WIDGET_GTK2
 )
 #
 include
@@ -1110,11 +1108,9 @@ gfxPlatformMac
 ;
 #
 elif
+defined
 (
-MOZ_WIDGET_GTK
->
-=
-2
+MOZ_WIDGET_GTK2
 )
 gPlatform
 =
