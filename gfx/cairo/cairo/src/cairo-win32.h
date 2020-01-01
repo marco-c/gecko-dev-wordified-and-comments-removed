@@ -303,6 +303,11 @@ cairo_rectangle_int_t
 updated_rect
 )
 ;
+int
+cairo_d2d_get_image_surface_cache_usage
+(
+)
+;
 #
 endif
 CAIRO_END_DECLS
