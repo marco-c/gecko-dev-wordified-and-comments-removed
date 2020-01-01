@@ -716,7 +716,7 @@ label
 =
 "
 &
-chooseButton
+chooseFileButton
 .
 label
 ;
@@ -725,7 +725,7 @@ accesskey
 =
 "
 &
-chooseFile
+chooseFileButton
 .
 accessKey
 ;
@@ -1010,7 +1010,7 @@ label
 =
 "
 &
-chooseButton
+chooseFileLinkButton
 .
 label
 ;
@@ -1019,7 +1019,7 @@ accesskey
 =
 "
 &
-chooseFileLink
+chooseFileLinkButton
 .
 accessKey
 ;
