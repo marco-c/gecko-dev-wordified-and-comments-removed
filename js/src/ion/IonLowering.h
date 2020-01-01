@@ -201,6 +201,15 @@ mir
 ;
 inline
 LAllocation
+useKeepaliveOrConstant
+(
+MInstruction
+*
+mir
+)
+;
+inline
+LAllocation
 useRegisterOrConstant
 (
 MInstruction
