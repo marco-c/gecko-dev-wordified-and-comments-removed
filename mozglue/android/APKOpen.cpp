@@ -261,6 +261,7 @@ h
 #
 undef
 mozilla_StartupTimeline_Event
+MAX_STARTUP_EVENT_ID
 }
 ;
 using
@@ -4674,6 +4675,9 @@ name
 #
 _t
 )
+(
+uintptr_t
+)
 __wrap_dlsym
 (
 xul_handle
@@ -4866,6 +4870,9 @@ sStartupTimeline
 (
 uint64_t
 *
+)
+(
+uintptr_t
 )
 __wrap_dlsym
 (
@@ -6195,6 +6202,9 @@ GeckoStart
 (
 GeckoStart_t
 )
+(
+uintptr_t
+)
 __wrap_dlsym
 (
 xul_handle
@@ -6444,6 +6454,9 @@ fXRE_StringToChildProcessType
 (
 XRE_StringToChildProcessType_t
 )
+(
+uintptr_t
+)
 __wrap_dlsym
 (
 xul_handle
@@ -6457,6 +6470,9 @@ fXRE_InitChildProcess
 =
 (
 XRE_InitChildProcess_t
+)
+(
+uintptr_t
 )
 __wrap_dlsym
 (

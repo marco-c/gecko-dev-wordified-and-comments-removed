@@ -198,6 +198,9 @@ name
 #
 _t
 )
+(
+uintptr_t
+)
 __wrap_dlsym
 (
 sqlite_handle
