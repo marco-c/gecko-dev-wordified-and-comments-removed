@@ -505,6 +505,10 @@ DoorHangerPopup
 .
 java
 \
+GlobalHistory
+.
+java
+\
 (
 NULL
 )
