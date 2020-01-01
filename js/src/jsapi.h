@@ -7857,6 +7857,10 @@ uint32
 )
 0x7FFFFFFF
 )
+#
+define
+JS_OPERATION_WEIGHT_BASE
+4096
 extern
 JS_PUBLIC_API
 (
