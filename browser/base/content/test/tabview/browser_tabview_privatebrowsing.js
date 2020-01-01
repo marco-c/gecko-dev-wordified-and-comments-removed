@@ -549,6 +549,17 @@ registerCleanupFunction
 verifyCleanState
 )
 ;
+gBrowser
+.
+selectedTab
+=
+gBrowser
+.
+tabs
+[
+0
+]
+;
 finish
 (
 )

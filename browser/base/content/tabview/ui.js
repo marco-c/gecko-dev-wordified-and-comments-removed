@@ -1369,6 +1369,12 @@ item
 isATabItem
 )
 {
+if
+(
+item
+.
+parent
+)
 GroupItems
 .
 setActiveGroupItem
