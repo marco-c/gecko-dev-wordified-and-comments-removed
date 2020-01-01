@@ -2,9 +2,7 @@ setup
 .
 py
 :
-other
--
-licenses
+python
 /
 simplejson
 -
