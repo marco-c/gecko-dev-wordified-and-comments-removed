@@ -1256,6 +1256,7 @@ url
 rev_host
 hidden
 typed
+guid
 )
 "
 "
@@ -1269,6 +1270,9 @@ rev_host
 hidden
 :
 typed
+GENERATE_GUID
+(
+)
 )
 "
 )

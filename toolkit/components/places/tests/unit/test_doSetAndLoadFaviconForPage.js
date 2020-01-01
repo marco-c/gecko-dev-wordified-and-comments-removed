@@ -90,6 +90,11 @@ outData
 )
 )
 ;
+do_check_guid_for_uri
+(
+pageURI
+)
+;
 }
 var
 favicons

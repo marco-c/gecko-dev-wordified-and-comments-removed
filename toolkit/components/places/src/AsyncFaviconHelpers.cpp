@@ -3285,6 +3285,7 @@ moz_places
 url
 rev_host
 favicon_id
+guid
 )
 "
 "
@@ -3296,6 +3297,9 @@ page_url
 rev_host
 :
 favicon_id
+GENERATE_GUID
+(
+)
 )
 "
 )

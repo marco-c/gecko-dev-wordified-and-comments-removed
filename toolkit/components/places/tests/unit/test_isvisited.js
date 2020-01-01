@@ -53,6 +53,7 @@ function
 add_uri_to_history
 (
 aURI
+aCheckForGuid
 )
 {
 var
@@ -77,6 +78,21 @@ true
 referrer
 )
 ;
+if
+(
+aCheckForGuid
+=
+=
+=
+undefined
+)
+{
+do_check_guid_for_uri
+(
+aURI
+)
+;
+}
 }
 function
 run_test
@@ -397,6 +413,7 @@ cantAddUri
 add_uri_to_history
 (
 cantAddUri
+false
 )
 ;
 do_check_false
