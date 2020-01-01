@@ -270,7 +270,6 @@ XPCVariant
 )
 if
 (
-!
 JSVAL_IS_STRING
 (
 tmp
@@ -279,6 +278,19 @@ tmp
 mJSVal
 )
 )
+tmp
+-
+>
+mData
+.
+u
+.
+wstr
+.
+mWStringValue
+=
+nsnull
+;
 nsVariant
 :
 :
