@@ -219,6 +219,8 @@ const
 nsCString
 &
 pacURI
+PRBool
+forceReload
 )
 ;
 NS_HIDDEN_
