@@ -15881,6 +15881,14 @@ status
 )
 )
 ;
+PRBool
+contentComplete
+=
+NS_SUCCEEDED
+(
+status
+)
+;
 if
 (
 mCanceled
@@ -16207,7 +16215,8 @@ mCacheEntry
 )
 CloseCacheEntry
 (
-PR_TRUE
+!
+contentComplete
 )
 ;
 if
