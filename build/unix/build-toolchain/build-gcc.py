@@ -767,6 +767,14 @@ c
 -
 disable
 -
+lto
+"
+                          
+"
+-
+-
+disable
+-
 multilib
 "
                           
