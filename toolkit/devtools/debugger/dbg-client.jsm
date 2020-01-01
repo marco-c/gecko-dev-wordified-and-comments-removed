@@ -1774,6 +1774,11 @@ aPacket
 }
 if
 (
+this
+.
+activeThread
+&
+&
 aPacket
 .
 type
