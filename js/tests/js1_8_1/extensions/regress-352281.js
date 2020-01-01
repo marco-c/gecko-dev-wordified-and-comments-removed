@@ -98,7 +98,7 @@ function
 {
 while
 (
-0
+false
 )
 {
 function
