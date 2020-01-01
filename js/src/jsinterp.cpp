@@ -763,7 +763,7 @@ kshape
 ;
 #
 endif
-SCOPE_MAKE_UNIQUE_SHAPE
+js_MakeScopeShapeUnique
 (
 cx
 scope
@@ -23193,7 +23193,7 @@ sprop2
 }
 else
 {
-SCOPE_EXTEND_SHAPE
+js_ExtendScopeShape
 (
 cx
 scope
@@ -30966,6 +30966,15 @@ sprop
 }
 else
 {
+js_LeaveTraceIfGlobalObject
+(
+cx
+scope
+-
+>
+object
+)
+;
 scope
 -
 >
