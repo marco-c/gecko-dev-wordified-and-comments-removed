@@ -3961,13 +3961,6 @@ content
 Makefile
 toolkit
 /
-content
-/
-buildconfig
-.
-html
-toolkit
-/
 obsolete
 /
 Makefile
