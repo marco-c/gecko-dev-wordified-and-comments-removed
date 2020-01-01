@@ -672,6 +672,9 @@ const
 void
 OnSubmitClickBegin
 (
+nsIContent
+*
+aOriginatingElement
 )
 ;
 void
@@ -844,6 +847,9 @@ nsIURI
 *
 *
 aActionURL
+nsIContent
+*
+aOriginatingElement
 )
 ;
 public

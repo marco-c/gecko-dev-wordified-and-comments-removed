@@ -641,6 +641,12 @@ disabled
 NS_IMPL_STRING_ATTR
 (
 nsHTMLButtonElement
+FormAction
+formaction
+)
+NS_IMPL_STRING_ATTR
+(
+nsHTMLButtonElement
 FormTarget
 formtarget
 )
@@ -1167,6 +1173,7 @@ mForm
 >
 OnSubmitClickBegin
 (
+this
 )
 ;
 }
