@@ -330,6 +330,13 @@ h
 #
 include
 "
+nsIPrivateDOMEvent
+.
+h
+"
+#
+include
+"
 nsIDOMNotifyAudioAvailableEvent
 .
 h

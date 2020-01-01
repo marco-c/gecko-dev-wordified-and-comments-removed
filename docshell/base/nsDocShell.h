@@ -1711,11 +1711,6 @@ GetCurrentDocChannel
 (
 )
 ;
-bool
-ShouldBlockLoadingForBackButton
-(
-)
-;
 protected
 :
 virtual

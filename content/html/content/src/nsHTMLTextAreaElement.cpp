@@ -185,6 +185,13 @@ h
 #
 include
 "
+nsIPrivateDOMEvent
+.
+h
+"
+#
+include
+"
 nsGUIEvent
 .
 h

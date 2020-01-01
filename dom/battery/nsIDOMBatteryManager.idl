@@ -68,7 +68,6 @@ nsIDOMEventListener
 ;
 [
 scriptable
-builtinclass
 uuid
 (
 41e88f87

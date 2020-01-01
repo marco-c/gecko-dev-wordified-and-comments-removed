@@ -411,10 +411,6 @@ test_dom_mouse_event
 .
 html
 \
-test_bug742376
-.
-html
-\
 (
 NULL
 )

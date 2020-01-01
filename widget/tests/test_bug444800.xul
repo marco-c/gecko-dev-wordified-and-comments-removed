@@ -2044,16 +2044,6 @@ jpg
 "
 )
 ;
-runImageClipboardTests
-(
-aCBSvc
-"
-image
-/
-jpeg
-"
-)
-;
 SimpleTest
 .
 finish

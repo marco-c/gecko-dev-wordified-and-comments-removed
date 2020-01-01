@@ -237,9 +237,7 @@ h
 #
 include
 "
-mozilla
-/
-Selection
+nsTypedSelection
 .
 h
 "
@@ -13303,7 +13301,11 @@ scrollPt
 aScrollFrame
 -
 >
-GetScrollPositionClampingScrollPortSize
+GetScrollPortRect
+(
+)
+.
+Size
 (
 )
 )
@@ -27951,11 +27953,6 @@ nsIContent
 >
 targetContent
 ;
-if
-(
-mCurrentEventFrame
-)
-{
 rv
 =
 mCurrentEventFrame
@@ -27970,7 +27967,6 @@ targetContent
 )
 )
 ;
-}
 if
 (
 NS_SUCCEEDED

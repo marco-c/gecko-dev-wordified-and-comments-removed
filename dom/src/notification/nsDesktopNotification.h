@@ -112,7 +112,7 @@ h
 #
 include
 "
-nsIDOMEvent
+nsIPrivateDOMEvent
 .
 h
 "

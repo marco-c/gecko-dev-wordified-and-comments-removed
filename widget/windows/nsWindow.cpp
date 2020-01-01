@@ -7065,7 +7065,7 @@ right
 =
 GetSystemMetrics
 (
-SM_CXFRAME
+SM_CYFRAME
 )
 ;
 return

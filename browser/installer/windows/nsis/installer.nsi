@@ -6386,12 +6386,6 @@ R9
 "
 true
 "
-{
-AndIf
-}
-{
-AtMostWin2008R2
-}
 WriteINIStr
 "
 PLUGINSDIR

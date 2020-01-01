@@ -325,7 +325,7 @@ obj
 )
 const
 ;
-void
+nsresult
 GetInsertionPointsFor
 (
 nsIContent

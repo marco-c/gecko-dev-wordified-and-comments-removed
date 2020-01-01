@@ -162,15 +162,6 @@ const
 ;
 virtual
 nsSize
-GetScrollPositionClampingScrollPortSize
-(
-)
-const
-=
-0
-;
-virtual
-nsSize
 GetLineScrollAmount
 (
 )

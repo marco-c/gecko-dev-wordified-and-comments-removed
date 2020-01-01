@@ -73,6 +73,13 @@ h
 #
 include
 "
+nsIPrivateDOMEvent
+.
+h
+"
+#
+include
+"
 nsIRDFNode
 .
 h

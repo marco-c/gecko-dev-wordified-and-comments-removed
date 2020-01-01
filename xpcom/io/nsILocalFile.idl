@@ -123,7 +123,6 @@ nsIFile
 /
 [
 scriptable
-builtinclass
 uuid
 (
 ce4ef184

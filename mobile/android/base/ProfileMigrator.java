@@ -4203,7 +4203,7 @@ if
 schemaVersion
 <
 =
-21
+20
 )
 {
 Log

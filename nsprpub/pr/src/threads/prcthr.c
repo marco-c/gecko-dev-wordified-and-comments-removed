@@ -68,14 +68,6 @@ PR_DELETE
 thread
 -
 >
-name
-)
-;
-PR_DELETE
-(
-thread
--
->
 errorString
 )
 ;

@@ -100,9 +100,7 @@ js
 .
 .
 /
-browser
--
-element
+base
 /
 BrowserElementChild
 .

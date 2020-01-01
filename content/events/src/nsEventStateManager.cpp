@@ -180,6 +180,13 @@ h
 #
 include
 "
+nsIPrivateDOMEvent
+.
+h
+"
+#
+include
+"
 nsPIDOMWindow
 .
 h

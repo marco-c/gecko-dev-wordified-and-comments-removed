@@ -13661,14 +13661,6 @@ PRMJ_Now
 ;
 if
 (
-rt
--
->
-gcZeal
-(
-)
-|
-|
 now
 >
 =

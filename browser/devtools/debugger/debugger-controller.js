@@ -3864,11 +3864,10 @@ true
 )
 ;
 for
-each
 (
 let
 bp
-in
+of
 DebuggerController
 .
 Breakpoints

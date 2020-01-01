@@ -222,7 +222,6 @@ scopeChain_
 ;
 public
 :
-const
 unsigned
 staticLevel
 ;
@@ -253,8 +252,6 @@ fun
 FunctionBox
 *
 funbox
-unsigned
-staticLevel
 )
 ;
 #
@@ -1017,6 +1014,16 @@ continues
 namespace
 frontend
 {
+bool
+SetStaticLevel
+(
+SharedContext
+*
+sc
+unsigned
+staticLevel
+)
+;
 bool
 GenerateBlockId
 (

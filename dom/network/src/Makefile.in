@@ -149,10 +149,6 @@ Utils
 .
 cpp
 \
-USSDReceivedEvent
-.
-cpp
-\
 (
 NULL
 )

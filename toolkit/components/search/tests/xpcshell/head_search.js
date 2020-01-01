@@ -309,12 +309,6 @@ text
 {
 dump
 (
-"
-search
-test
-:
-"
-+
 text
 +
 "

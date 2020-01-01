@@ -729,7 +729,6 @@ write
 \
 .
 js
-#
 debugger
 ;
 "

@@ -150,11 +150,6 @@ kJPEGImageMime
 ;
 RegisterClipboardFormat
 (
-kJPGImageMime
-)
-;
-RegisterClipboardFormat
-(
 kGIFImageMime
 )
 ;
@@ -591,14 +586,6 @@ strcmp
 (
 aFlavor
 kJPEGImageMime
-)
-|
-|
-!
-strcmp
-(
-aFlavor
-kJPGImageMime
 )
 )
 {

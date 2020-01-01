@@ -1296,10 +1296,6 @@ MozMobileConnection
 )
 DOMCI_CLASS
 (
-USSDReceivedEvent
-)
-DOMCI_CLASS
-(
 CSSFontFaceRule
 )
 DOMCI_CLASS

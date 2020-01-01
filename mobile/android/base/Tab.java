@@ -1434,7 +1434,6 @@ size
 |
 size
 >
-=
 mFaviconSize
 )
 {

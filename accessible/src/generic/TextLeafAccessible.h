@@ -79,6 +79,15 @@ nsString
 aName
 )
 ;
+virtual
+nsresult
+GetAttributesInternal
+(
+nsIPersistentProperties
+*
+aAttributes
+)
+;
 void
 SetText
 (

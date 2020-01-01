@@ -197,9 +197,7 @@ h
 #
 include
 "
-mozilla
-/
-Selection
+nsTypedSelection
 .
 h
 "
@@ -217,10 +215,6 @@ nsContentUtils
 .
 h
 "
-using
-namespace
-mozilla
-;
 using
 namespace
 mozilla

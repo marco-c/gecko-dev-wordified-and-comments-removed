@@ -1701,6 +1701,17 @@ return
 false
 ;
 }
+Element
+*
+rootElement
+=
+mDocument
+-
+>
+GetRootElement
+(
+)
+;
 PRUint32
 typeID
 =

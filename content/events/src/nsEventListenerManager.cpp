@@ -92,6 +92,13 @@ h
 #
 include
 "
+nsIPrivateDOMEvent
+.
+h
+"
+#
+include
+"
 nsIJSEventListener
 .
 h

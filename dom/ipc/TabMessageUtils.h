@@ -16,7 +16,7 @@ h
 #
 include
 "
-nsIDOMEvent
+nsIPrivateDOMEvent
 .
 h
 "
@@ -50,7 +50,7 @@ RemoteDOMEvent
 {
 nsCOMPtr
 <
-nsIDOMEvent
+nsIPrivateDOMEvent
 >
 mEvent
 ;

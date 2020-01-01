@@ -258,16 +258,6 @@ indexedDB
 .
 warningQuota
 "
-#
-define
-PROFILE_BEFORE_CHANGE_OBSERVER_ID
-"
-profile
--
-before
--
-change
-"
 USING_INDEXEDDB_NAMESPACE
 using
 namespace
@@ -1110,7 +1100,7 @@ obs
 AddObserver
 (
 instance
-PROFILE_BEFORE_CHANGE_OBSERVER_ID
+NS_XPCOM_SHUTDOWN_OBSERVER_ID
 false
 )
 ;
@@ -6005,7 +5995,7 @@ if
 strcmp
 (
 aTopic
-PROFILE_BEFORE_CHANGE_OBSERVER_ID
+NS_XPCOM_SHUTDOWN_OBSERVER_ID
 )
 )
 {

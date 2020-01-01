@@ -559,10 +559,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP_
-(
 void
-)
 nsDOMNotifyPaintEvent
 :
 :
@@ -721,10 +718,7 @@ mFlags
 ;
 }
 }
-NS_IMETHODIMP_
-(
 bool
-)
 nsDOMNotifyPaintEvent
 :
 :

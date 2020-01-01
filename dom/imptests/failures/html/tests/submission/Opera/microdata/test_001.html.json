@@ -56,4 +56,16 @@ attribute
 "
 :
 true
+"
+the
+namedItem
+property
+must
+be
+read
+/
+write
+"
+:
+true
 }

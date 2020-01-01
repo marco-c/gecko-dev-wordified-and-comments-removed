@@ -212,6 +212,15 @@ nsIContentIterator
 .
 h
 "
+nsresult
+NS_NewContentIterator
+(
+nsIContentIterator
+*
+*
+aInstancePtrResult
+)
+;
 using
 namespace
 mozilla

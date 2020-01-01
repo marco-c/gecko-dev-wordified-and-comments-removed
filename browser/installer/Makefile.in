@@ -163,16 +163,6 @@ DPREF_DIR
 PREF_DIR
 )
 ifdef
-LIBXUL_SDK
-DEFINES
-+
-=
--
-DLIBXUL_SDK
-=
-1
-endif
-ifdef
 MOZ_DEBUG
 DEFINES
 +

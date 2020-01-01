@@ -64,6 +64,13 @@ h
 #
 include
 "
+nsIPrivateDOMEvent
+.
+h
+"
+#
+include
+"
 nsIDOMEvent
 .
 h

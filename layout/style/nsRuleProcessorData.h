@@ -499,13 +499,6 @@ mAncestorFilter
 bool
 mUsingPrivateBrowsing
 ;
-enum
-MatchVisited
-{
-eNeverMatchVisited
-eMatchVisitedDefault
-}
-;
 TreeMatchContext
 (
 bool
@@ -518,10 +511,6 @@ aVisitedHandling
 nsIDocument
 *
 aDocument
-MatchVisited
-aMatchVisited
-=
-eMatchVisitedDefault
 )
 :
 mForStyling
@@ -565,14 +554,6 @@ GetCompatibilityMode
 mUsingPrivateBrowsing
 (
 false
-)
-{
-if
-(
-aMatchVisited
-!
-=
-eNeverMatchVisited
 )
 {
 nsCOMPtr
@@ -638,7 +619,6 @@ UsePrivateBrowsing
 (
 )
 ;
-}
 }
 }
 }

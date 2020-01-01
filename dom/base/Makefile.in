@@ -111,6 +111,14 @@ ConsoleAPI
 .
 manifest
 \
+BrowserElementParent
+.
+js
+\
+BrowserElementParent
+.
+manifest
+\
 (
 NULL
 )

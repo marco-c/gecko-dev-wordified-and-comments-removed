@@ -55,6 +55,10 @@ mInner
 (
 nsnull
 )
+mPrivate
+(
+nsnull
+)
 mTokenName
 (
 aTokenName
@@ -90,6 +94,10 @@ nsIDOMNSEvent
 NS_INTERFACE_MAP_ENTRY
 (
 nsIDOMEvent
+)
+NS_INTERFACE_MAP_ENTRY
+(
+nsIPrivateDOMEvent
 )
 NS_DOM_INTERFACE_MAP_ENTRY_CLASSINFO
 (
@@ -135,6 +143,27 @@ mInner
 =
 aInner
 ;
+mPrivate
+=
+do_QueryInterface
+(
+mInner
+&
+rv
+)
+;
+if
+(
+NS_FAILED
+(
+rv
+)
+)
+{
+return
+rv
+;
+}
 mNSEvent
 =
 do_QueryInterface
@@ -157,7 +186,7 @@ rv
 ;
 }
 return
-mInner
+mPrivate
 -
 >
 SetTrusted
@@ -196,7 +225,7 @@ void
 {
 NS_ASSERTION
 (
-mInner
+mPrivate
 "
 SmartCardEvent
 called
@@ -206,7 +235,7 @@ Init
 )
 ;
 return
-mInner
+mPrivate
 -
 >
 DuplicatePrivateData
@@ -227,7 +256,7 @@ aTarget
 {
 NS_ASSERTION
 (
-mInner
+mPrivate
 "
 SmartCardEvent
 called
@@ -237,7 +266,7 @@ Init
 )
 ;
 return
-mInner
+mPrivate
 -
 >
 SetTarget
@@ -259,7 +288,7 @@ IsDispatchStopped
 {
 NS_ASSERTION
 (
-mInner
+mPrivate
 "
 SmartCardEvent
 called
@@ -269,7 +298,7 @@ Init
 )
 ;
 return
-mInner
+mPrivate
 -
 >
 IsDispatchStopped
@@ -291,7 +320,7 @@ GetInternalNSEvent
 {
 NS_ASSERTION
 (
-mInner
+mPrivate
 "
 SmartCardEvent
 called
@@ -301,7 +330,7 @@ Init
 )
 ;
 return
-mInner
+mPrivate
 -
 >
 GetInternalNSEvent
@@ -321,7 +350,7 @@ aResult
 {
 NS_ASSERTION
 (
-mInner
+mPrivate
 "
 SmartCardEvent
 called
@@ -331,7 +360,7 @@ Init
 )
 ;
 return
-mInner
+mPrivate
 -
 >
 SetTrusted
@@ -358,7 +387,7 @@ aSerializeInterfaceType
 {
 NS_ASSERTION
 (
-mInner
+mPrivate
 "
 SmartCardEvent
 called
@@ -367,7 +396,7 @@ Init
 "
 )
 ;
-mInner
+mPrivate
 -
 >
 Serialize
@@ -398,7 +427,7 @@ aIter
 {
 NS_ASSERTION
 (
-mInner
+mPrivate
 "
 SmartCardEvent
 called
@@ -408,7 +437,7 @@ Init
 )
 ;
 return
-mInner
+mPrivate
 -
 >
 Deserialize

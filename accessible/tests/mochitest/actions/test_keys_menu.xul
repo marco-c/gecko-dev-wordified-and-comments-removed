@@ -277,7 +277,7 @@ is
 (
 menu
 .
-accessKey
+keyboardShortcut
 (
 MAC
 ?
@@ -317,7 +317,7 @@ is
 (
 menuitem
 .
-accessKey
+keyboardShortcut
 "
 p
 "
@@ -339,7 +339,7 @@ is
 (
 menuitem
 .
-keyboardShortcut
+defaultKeyBinding
 (
 MAC
 ?

@@ -123,7 +123,7 @@ HTMLSelectAccessible
 .
 cpp
 \
-HTMLTableAccessible
+nsHTMLTableAccessible
 .
 cpp
 \

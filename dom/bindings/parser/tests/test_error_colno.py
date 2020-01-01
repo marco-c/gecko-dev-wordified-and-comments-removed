@@ -41,6 +41,7 @@ except
 WebIDL
 .
 WebIDLError
+as
 e
 :
         

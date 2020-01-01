@@ -152,10 +152,6 @@ test_contextmenu
 .
 html
 \
-test_docload_aria
-.
-html
-\
 test_docload
 .
 html

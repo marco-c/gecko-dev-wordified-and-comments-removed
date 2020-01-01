@@ -116,10 +116,6 @@ nsIMobileConnectionProvider
 .
 idl
 \
-nsIDOMUSSDReceivedEvent
-.
-idl
-\
 (
 NULL
 )

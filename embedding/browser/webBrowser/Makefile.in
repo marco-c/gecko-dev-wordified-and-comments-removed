@@ -192,6 +192,10 @@ nsICommandHandler
 .
 idl
 \
+nsIEmbeddingSiteWindow2
+.
+idl
+\
 nsIContextMenuListener2
 .
 idl

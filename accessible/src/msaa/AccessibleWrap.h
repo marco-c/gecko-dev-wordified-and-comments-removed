@@ -1037,5 +1037,15 @@ NAVRELATION_DESCRIPTION_FOR
 ;
 }
 ;
+typedef
+class
+nsHTMLTextFieldAccessible
+nsHTMLTextFieldAccessibleWrap
+;
+typedef
+class
+nsXULTextFieldAccessible
+nsXULTextFieldAccessibleWrap
+;
 #
 endif

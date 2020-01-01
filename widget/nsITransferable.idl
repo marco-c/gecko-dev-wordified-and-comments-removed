@@ -211,14 +211,6 @@ kJPEGImageMime
 "
 image
 /
-jpeg
-"
-#
-define
-kJPGImageMime
-"
-image
-/
 jpg
 "
 #

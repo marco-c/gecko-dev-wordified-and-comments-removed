@@ -113,6 +113,13 @@ h
 #
 include
 "
+nsIPrivateDOMEvent
+.
+h
+"
+#
+include
+"
 nsIDOMEventTarget
 .
 h

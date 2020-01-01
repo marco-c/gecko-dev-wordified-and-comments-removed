@@ -118,7 +118,7 @@ drawable
 "
 drawable
 /
-highlight
+address_bar_pressed_bg
 "
 /
 >
@@ -129,11 +129,9 @@ android
 drawable
 =
 "
-android
-:
-color
+drawable
 /
-transparent
+address_bar_bg
 "
 /
 >

@@ -395,11 +395,11 @@ ForceCompositionEnd
 ;
 nsRefPtr
 <
-Selection
+nsTypedSelection
 >
 selection
 =
-GetSelection
+GetTypedSelection
 (
 )
 ;
@@ -6413,11 +6413,11 @@ res
 ;
 nsRefPtr
 <
-Selection
+nsTypedSelection
 >
 selection
 =
-GetSelection
+GetTypedSelection
 (
 )
 ;

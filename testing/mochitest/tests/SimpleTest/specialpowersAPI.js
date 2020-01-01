@@ -586,7 +586,6 @@ function
 (
 )
 {
-return
 doApply
 (
 obj
@@ -3892,10 +3891,6 @@ function
 )
 {
 return
-this
-.
-wrap
-(
 Cc
 [
 "
@@ -3916,7 +3911,6 @@ createInstance
 Ci
 .
 nsIXMLHttpRequest
-)
 )
 ;
 }
