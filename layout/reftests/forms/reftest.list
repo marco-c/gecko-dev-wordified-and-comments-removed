@@ -352,6 +352,17 @@ no
 resize
 .
 html
+random
+-
+if
+(
+MOZ_WIDGET_TOOLKIT
+=
+=
+"
+gtk2
+"
+)
 !
 =
 textarea
@@ -366,6 +377,9 @@ no
 resize
 .
 html
+#
+bug
+558201
 =
 =
 radio
