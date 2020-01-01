@@ -2122,11 +2122,6 @@ const
 ;
 protected
 :
-void
-FindAndSetForm
-(
-)
-;
 virtual
 nsresult
 BeforeSetAttr
