@@ -9640,12 +9640,17 @@ sInterruptMode
 =
 ModeEvent
 ;
+#
+ifndef
+XP_WIN
 static
 uint32_t
 sInterruptSeed
 =
 1
 ;
+#
+endif
 static
 uint32_t
 sInterruptMaxCounter
