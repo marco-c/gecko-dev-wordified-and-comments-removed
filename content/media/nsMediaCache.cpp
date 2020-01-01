@@ -1681,6 +1681,15 @@ RemoveEntry
 aBlockIndex1
 )
 ;
+e2
+=
+mEntries
+.
+GetEntry
+(
+aBlockIndex2
+)
+;
 }
 if
 (
