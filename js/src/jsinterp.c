@@ -31442,6 +31442,15 @@ obj
 ;
 JS_ASSERT
 (
+regs
+.
+sp
+<
+vp
+)
+;
+JS_ASSERT
+(
 vp
 <
 =
