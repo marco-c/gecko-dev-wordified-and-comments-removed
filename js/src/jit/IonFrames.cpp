@@ -3560,6 +3560,9 @@ type
 ;
 }
 }
+#
+ifdef
+JS_NUNBOX32
 static
 inline
 uintptr_t
@@ -3704,6 +3707,8 @@ index
 )
 ;
 }
+#
+endif
 static
 void
 MarkActualArguments
@@ -3796,6 +3801,9 @@ argv
 )
 ;
 }
+#
+ifdef
+JS_NUNBOX32
 static
 inline
 void
@@ -3948,6 +3956,8 @@ index
 value
 ;
 }
+#
+endif
 static
 void
 MarkIonJSFrame

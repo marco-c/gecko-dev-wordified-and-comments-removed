@@ -32281,10 +32281,6 @@ globalDataOffset_
 (
 globalDataOffset
 )
-isConstant_
-(
-isConstant
-)
 {
 JS_ASSERT
 (
@@ -32312,9 +32308,6 @@ setMovable
 }
 unsigned
 globalDataOffset_
-;
-bool
-isConstant_
 ;
 public
 :
