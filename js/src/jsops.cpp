@@ -13992,7 +13992,6 @@ error
 ;
 default
 :
-;
 break
 ;
 }
