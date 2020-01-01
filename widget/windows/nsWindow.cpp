@@ -1250,6 +1250,15 @@ mBlurSuppressLevel
 =
 0
 ;
+mLastPaintEndTime
+=
+TimeStamp
+:
+:
+Now
+(
+)
+;
 #
 ifdef
 MOZ_XUL
