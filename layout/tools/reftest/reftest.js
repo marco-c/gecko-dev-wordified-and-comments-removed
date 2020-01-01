@@ -1474,14 +1474,6 @@ XPCOMABI
 }
 sandbox
 .
-MOZ_WIDGET_TOOLKIT
-=
-xr
-.
-widgetToolkit
-;
-sandbox
-.
 cocoaWidget
 =
 xr
