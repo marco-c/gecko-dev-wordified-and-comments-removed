@@ -5798,12 +5798,12 @@ nsIClipboardHelper
 copyStringToClipboard
 (
 val
-document
 Ci
 .
 nsIClipboard
 .
 kSelectionClipboard
+document
 )
 ;
 ]

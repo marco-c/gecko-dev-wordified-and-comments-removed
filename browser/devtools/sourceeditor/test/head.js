@@ -390,12 +390,12 @@ clipboardHelper
 copyStringToClipboard
 (
 preExpectedVal
-document
 Ci
 .
 nsIClipboard
 .
 kSelectionClipboard
+document
 )
 ;
 wait

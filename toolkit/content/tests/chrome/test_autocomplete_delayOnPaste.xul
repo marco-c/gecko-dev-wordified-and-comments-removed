@@ -811,7 +811,6 @@ nsIClipboardHelper
 copyStringToClipboard
 (
 SEARCH_STRING
-document
 Components
 .
 interfaces
@@ -819,6 +818,7 @@ interfaces
 nsIClipboard
 .
 kGlobalClipboard
+document
 )
 ;
 }
