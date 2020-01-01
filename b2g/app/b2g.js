@@ -4919,3 +4919,13 @@ enable_overrides
 true
 )
 ;
+pref
+(
+"
+b2g
+.
+version
+"
+MOZ_B2G_VERSION
+)
+;
