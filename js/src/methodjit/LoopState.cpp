@@ -2729,10 +2729,11 @@ loadPtr
 Address
 (
 reg
-offsetof
-(
 JSObject
-slots
+:
+:
+offsetOfSlots
+(
 )
 )
 reg

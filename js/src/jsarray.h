@@ -287,7 +287,7 @@ ED_FAILED
 ;
 ClearValueRange
 (
-getSlots
+getDenseArrayElements
 (
 )
 +
@@ -385,7 +385,7 @@ initLength
 {
 ClearValueRange
 (
-getSlots
+getDenseArrayElements
 (
 )
 +
@@ -478,7 +478,7 @@ ED_FAILED
 ;
 ClearValueRange
 (
-getSlots
+getDenseArrayElements
 (
 )
 +
