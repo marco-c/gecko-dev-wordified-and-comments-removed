@@ -456,6 +456,15 @@ JavaScript
 code
 .
 var
+EXPORTED_SYMBOLS
+=
+[
+"
+NS_ASSERT
+"
+]
+;
+var
 gTraceOnAssert
 =
 true

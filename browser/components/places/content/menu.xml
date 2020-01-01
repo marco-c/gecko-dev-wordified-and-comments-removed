@@ -1836,7 +1836,7 @@ FlavourSet
 var
 acceptedDropFlavours
 =
-PlacesUtils
+PlacesUIUtils
 .
 GENERIC_VIEW_DROP_TYPES
 ;
@@ -4722,7 +4722,7 @@ CDATA
 var
 element
 =
-PlacesUtils
+PlacesUIUtils
 .
 createMenuItemForNode
 (
@@ -4877,7 +4877,7 @@ return
 var
 label
 =
-PlacesUtils
+PlacesUIUtils
 .
 getString
 (

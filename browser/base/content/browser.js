@@ -13301,7 +13301,7 @@ aXferData
 .
 data
 )
-PlacesUtils
+PlacesUIUtils
 .
 showMinimalAddBookmarkUI
 (
@@ -16073,7 +16073,7 @@ indexOf
 1
 )
 {
-PlacesUtils
+PlacesUIUtils
 .
 markPageAsTyped
 (
@@ -23497,7 +23497,7 @@ sidebar
 "
 )
 {
-PlacesUtils
+PlacesUIUtils
 .
 showMinimalAddBookmarkUI
 (
@@ -28874,7 +28874,7 @@ join
 var
 description
 =
-PlacesUtils
+PlacesUIUtils
 .
 getDescriptionFromDocument
 (
@@ -28883,7 +28883,7 @@ node
 ownerDocument
 )
 ;
-PlacesUtils
+PlacesUIUtils
 .
 showMinimalAddBookmarkUI
 (

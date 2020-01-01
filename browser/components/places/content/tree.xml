@@ -5479,7 +5479,7 @@ FlavourSet
 var
 types
 =
-PlacesUtils
+PlacesUIUtils
 .
 GENERIC_VIEW_DROP_TYPES
 ;

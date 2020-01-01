@@ -1035,7 +1035,7 @@ this
 .
 _view
 =
-PlacesUtils
+PlacesUIUtils
 .
 getViewForNode
 (
@@ -1234,7 +1234,7 @@ oncommand
 var
 view
 =
-PlacesUtils
+PlacesUIUtils
 .
 getViewForNode
 (
@@ -1316,7 +1316,7 @@ oncommand
 var
 view
 =
-PlacesUtils
+PlacesUIUtils
 .
 getViewForNode
 (
