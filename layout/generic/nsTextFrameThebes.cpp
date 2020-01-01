@@ -28975,11 +28975,13 @@ IsFloatingFirstLetterChild
 if
 (
 !
+(
 GetStateBits
 (
 )
 &
 TEXT_FIRST_LETTER
+)
 )
 return
 PR_FALSE
