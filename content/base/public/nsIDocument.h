@@ -3384,6 +3384,7 @@ nsDeprecatedOperationList
 .
 h
 "
+eDeprecatedOperationCount
 }
 ;
 #

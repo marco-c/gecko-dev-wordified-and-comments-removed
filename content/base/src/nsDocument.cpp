@@ -33988,6 +33988,7 @@ nsDeprecatedOperationList
 .
 h
 "
+nsnull
 }
 ;
 #
@@ -34005,10 +34006,7 @@ aOperation
 {
 PR_STATIC_ASSERT
 (
-NS_ARRAY_LENGTH
-(
-kWarnings
-)
+eDeprecatedOperationCount
 <
 =
 32
