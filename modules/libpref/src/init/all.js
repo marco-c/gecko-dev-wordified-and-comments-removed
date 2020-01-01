@@ -32387,16 +32387,6 @@ pref
 "
 webgl
 .
-verbose
-"
-false
-)
-;
-pref
-(
-"
-webgl
-.
 prefer
 -
 native
