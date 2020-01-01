@@ -235,7 +235,7 @@ endif
 #
 define
 DEFAULT_SHUTDOWN_COLLECTIONS
-10
+5
 #
 ifdef
 DEBUG_CC
