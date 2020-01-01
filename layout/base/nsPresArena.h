@@ -19,6 +19,15 @@ nsQueryFrame
 h
 "
 #
+include
+"
+mozilla
+/
+StandardInteger
+.
+h
+"
+#
 ifdef
 DEBUG_TRACEMALLOC_PRESARENA
 #
@@ -112,7 +121,7 @@ aMallocSizeOf
 const
 ;
 static
-PRUword
+uintptr_t
 GetPoisonValue
 (
 )

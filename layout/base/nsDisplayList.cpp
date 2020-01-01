@@ -152,6 +152,15 @@ nsSVGClipPathFrame
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StandardInteger
+.
+h
+"
 using
 namespace
 mozilla
@@ -10317,7 +10326,7 @@ GetScrollLayerCount
 1
 ;
 }
-PRWord
+intptr_t
 nsDisplayScrollLayer
 :
 :
@@ -10343,12 +10352,12 @@ hasCount
 =
 false
 ;
-PRWord
+intptr_t
 result
 =
 reinterpret_cast
 <
-PRWord
+intptr_t
 >
 (
 props
@@ -10386,7 +10395,7 @@ else
 return
 reinterpret_cast
 <
-PRWord
+intptr_t
 >
 (
 props
@@ -10405,7 +10414,7 @@ ScrollLayerCount
 #
 endif
 }
-PRWord
+intptr_t
 nsDisplayScrollLayer
 :
 :
@@ -10413,7 +10422,7 @@ RemoveScrollLayerCount
 (
 )
 {
-PRWord
+intptr_t
 result
 =
 GetScrollLayerCount

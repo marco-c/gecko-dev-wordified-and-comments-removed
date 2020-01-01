@@ -27,6 +27,15 @@ include
 "
 mozilla
 /
+StandardInteger
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Util
 .
 h
@@ -11167,10 +11176,10 @@ GetWrapperPreserveColor
 )
 )
 ;
-PRWord
+intptr_t
 newval
 =
-PRWord
+intptr_t
 (
 obj
 )
@@ -11489,7 +11498,7 @@ mScriptableInfo
 XPCWrappedNativeTearOffChunk
 mFirstChunk
 ;
-PRWord
+intptr_t
 mWrapperWord
 ;
 #

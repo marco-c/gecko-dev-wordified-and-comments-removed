@@ -280,6 +280,15 @@ h
 #
 include
 "
+mozilla
+/
+StandardInteger
+.
+h
+"
+#
+include
+"
 FrameLayerBuilder
 .
 h
@@ -9260,7 +9269,7 @@ protected
 void
 SetCount
 (
-PRWord
+intptr_t
 aCount
 )
 {
@@ -9285,7 +9294,7 @@ aCount
 )
 ;
 }
-PRWord
+intptr_t
 mCount
 ;
 FrameProperties

@@ -18,6 +18,15 @@ nsStyleStruct
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StandardInteger
+.
+h
+"
 class
 nsStyleContext
 ;
@@ -1096,7 +1105,7 @@ ChildrenAreHashed
 {
 return
 (
-PRWord
+intptr_t
 (
 mChildren
 .
@@ -1148,7 +1157,7 @@ PLDHashTable
 *
 )
 (
-PRWord
+intptr_t
 (
 mChildren
 .
@@ -1156,7 +1165,7 @@ asHash
 )
 &
 ~
-PRWord
+intptr_t
 (
 kTypeMask
 )
@@ -1175,7 +1184,7 @@ NS_ASSERTION
 (
 !
 (
-PRWord
+intptr_t
 (
 aList
 )
@@ -1211,7 +1220,7 @@ NS_ASSERTION
 (
 !
 (
-PRWord
+intptr_t
 (
 aHashtable
 )
@@ -1237,7 +1246,7 @@ PLDHashTable
 *
 )
 (
-PRWord
+intptr_t
 (
 aHashtable
 )
