@@ -2444,10 +2444,10 @@ size
 double
 dpi
 =
-gfxPlatformGtk
+gfxPlatform
 :
 :
-GetPlatformDPI
+GetDPI
 (
 )
 ;
@@ -6391,10 +6391,10 @@ context
 )
 {
 return
-gfxPlatformGtk
+gfxPlatform
 :
 :
-GetPlatformDPI
+GetDPI
 (
 )
 ;

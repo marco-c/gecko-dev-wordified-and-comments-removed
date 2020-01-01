@@ -244,16 +244,6 @@ GetFTLibrary
 (
 )
 ;
-static
-PRInt32
-GetPlatformDPI
-(
-)
-{
-return
-96
-;
-}
 protected
 :
 static
