@@ -2235,7 +2235,10 @@ js
 OwnedAtomIndexMapPtr
 upvarIndices
 ;
-JSUpvarArray
+js
+:
+:
+UpvarCookies
 upvarMap
 ;
 typedef
