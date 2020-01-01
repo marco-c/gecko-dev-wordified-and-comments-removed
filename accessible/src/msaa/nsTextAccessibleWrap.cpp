@@ -254,6 +254,11 @@ __RPC_FAR
 aDomText
 )
 {
+*
+aDomText
+=
+nsnull
+;
 if
 (
 !
@@ -1109,6 +1114,11 @@ __RPC_FAR
 aFontFamily
 )
 {
+*
+aFontFamily
+=
+nsnull
+;
 nsIFrame
 *
 frame
