@@ -3416,6 +3416,14 @@ PR_TRUE
 ;
 if
 (
+!
+val
+)
+return
+PR_FALSE
+;
+if
+(
 ignoreCase
 )
 return
