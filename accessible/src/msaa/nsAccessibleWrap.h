@@ -912,6 +912,11 @@ nsIAccessible
 aAccessible
 )
 ;
+void
+UpdateSystemCaret
+(
+)
+;
 virtual
 void
 GetXPAccessibleFor

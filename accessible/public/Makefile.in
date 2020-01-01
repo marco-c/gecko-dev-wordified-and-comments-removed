@@ -465,10 +465,6 @@ nsPIAccessible
 .
 idl
 \
-nsIAccessibleCaret
-.
-idl
-\
 nsIAccessibleDocument
 .
 idl

@@ -1403,7 +1403,7 @@ nsnull
 }
 nsRootAccessible
 *
-foo
+rootAccessible
 ;
 accDoc
 -
@@ -1420,11 +1420,11 @@ void
 *
 )
 &
-foo
+rootAccessible
 )
 ;
 return
-foo
+rootAccessible
 ;
 }
 nsIFrame
