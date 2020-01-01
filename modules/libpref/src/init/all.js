@@ -14530,7 +14530,7 @@ cleartype
 .
 always_use_for_content
 "
-true
+false
 )
 ;
 pref
