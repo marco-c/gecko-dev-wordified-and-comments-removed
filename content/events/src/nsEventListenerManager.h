@@ -523,6 +523,14 @@ aEventName
 )
 ;
 bool
+HasListenersFor
+(
+nsIAtom
+*
+aEventNameWithOn
+)
+;
+bool
 HasListeners
 (
 )
