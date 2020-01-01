@@ -664,7 +664,7 @@ id
 "
 privacy
 .
-item
+clearOnShutdown
 .
 history
 "
@@ -673,7 +673,7 @@ name
 "
 privacy
 .
-item
+clearOnShutdown
 .
 history
 "
@@ -691,7 +691,7 @@ id
 "
 privacy
 .
-item
+clearOnShutdown
 .
 formdata
 "
@@ -700,7 +700,7 @@ name
 "
 privacy
 .
-item
+clearOnShutdown
 .
 formdata
 "
@@ -718,7 +718,7 @@ id
 "
 privacy
 .
-item
+clearOnShutdown
 .
 passwords
 "
@@ -727,7 +727,7 @@ name
 "
 privacy
 .
-item
+clearOnShutdown
 .
 passwords
 "
@@ -745,7 +745,7 @@ id
 "
 privacy
 .
-item
+clearOnShutdown
 .
 downloads
 "
@@ -754,7 +754,7 @@ name
 "
 privacy
 .
-item
+clearOnShutdown
 .
 downloads
 "
@@ -772,7 +772,7 @@ id
 "
 privacy
 .
-item
+clearOnShutdown
 .
 cookies
 "
@@ -781,7 +781,7 @@ name
 "
 privacy
 .
-item
+clearOnShutdown
 .
 cookies
 "
@@ -799,7 +799,7 @@ id
 "
 privacy
 .
-item
+clearOnShutdown
 .
 cache
 "
@@ -808,7 +808,7 @@ name
 "
 privacy
 .
-item
+clearOnShutdown
 .
 cache
 "
@@ -826,7 +826,7 @@ id
 "
 privacy
 .
-item
+clearOnShutdown
 .
 offlineApps
 "
@@ -835,7 +835,7 @@ name
 "
 privacy
 .
-item
+clearOnShutdown
 .
 offlineApps
 "
@@ -853,7 +853,7 @@ id
 "
 privacy
 .
-item
+clearOnShutdown
 .
 sessions
 "
@@ -862,7 +862,7 @@ name
 "
 privacy
 .
-item
+clearOnShutdown
 .
 sessions
 "
@@ -880,7 +880,7 @@ id
 "
 privacy
 .
-item
+clearOnShutdown
 .
 siteSettings
 "
@@ -889,7 +889,7 @@ name
 "
 privacy
 .
-item
+clearOnShutdown
 .
 siteSettings
 "
@@ -1007,7 +1007,7 @@ preference
 "
 privacy
 .
-item
+clearOnShutdown
 .
 history
 "
@@ -1038,7 +1038,7 @@ preference
 "
 privacy
 .
-item
+clearOnShutdown
 .
 cookies
 "
@@ -1076,7 +1076,7 @@ preference
 "
 privacy
 .
-item
+clearOnShutdown
 .
 downloads
 "
@@ -1107,7 +1107,7 @@ preference
 "
 privacy
 .
-item
+clearOnShutdown
 .
 sessions
 "
@@ -1145,7 +1145,7 @@ preference
 "
 privacy
 .
-item
+clearOnShutdown
 .
 formdata
 "
@@ -1176,7 +1176,7 @@ preference
 "
 privacy
 .
-item
+clearOnShutdown
 .
 cache
 "
@@ -1289,7 +1289,7 @@ preference
 "
 privacy
 .
-item
+clearOnShutdown
 .
 passwords
 "
@@ -1320,7 +1320,7 @@ preference
 "
 privacy
 .
-item
+clearOnShutdown
 .
 offlineApps
 "
@@ -1358,7 +1358,7 @@ preference
 "
 privacy
 .
-item
+clearOnShutdown
 .
 siteSettings
 "
