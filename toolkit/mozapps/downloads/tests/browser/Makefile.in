@@ -479,6 +479,10 @@ browser_bug_406857
 .
 js
 \
+browser_multiword_search
+.
+js
+\
 (
 NULL
 )
