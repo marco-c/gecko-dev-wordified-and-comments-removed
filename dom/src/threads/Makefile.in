@@ -449,6 +449,8 @@ caps
 \
 content
 \
+docshell
+\
 gfx
 \
 js
@@ -458,6 +460,8 @@ layout
 locale
 \
 necko
+\
+plugin
 \
 pref
 \
@@ -481,7 +485,15 @@ nsDOMThreadService
 .
 cpp
 \
-nsDOMWorkerBase
+nsDOMWorker
+.
+cpp
+\
+nsDOMWorkerEvents
+.
+cpp
+\
+nsDOMWorkerMessageHandler
 .
 cpp
 \
@@ -494,10 +506,6 @@ nsDOMWorkerScriptLoader
 cpp
 \
 nsDOMWorkerSecurityManager
-.
-cpp
-\
-nsDOMWorkerThread
 .
 cpp
 \
@@ -575,10 +583,3 @@ config
 rules
 .
 mk
-#
-CXXFLAGS
-+
-=
-(
-WARNINGS_AS_ERRORS
-)
