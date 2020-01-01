@@ -1940,7 +1940,10 @@ file
 .
 initWithPath
 (
+decodeURIComponent
+(
 filename
+)
 )
 ;
 updateAboutMemoryFromFile
