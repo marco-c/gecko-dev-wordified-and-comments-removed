@@ -15106,6 +15106,16 @@ if
 (
 !
 stmt
+|
+|
+(
+stmt
+-
+>
+flags
+&
+SIF_BODY_BLOCK
+)
 )
 {
 CURRENT_TOKEN
