@@ -650,6 +650,10 @@ test_enumerate
 .
 html
 \
+test_npruntim_construct
+.
+html
+\
 (
 NULL
 )
