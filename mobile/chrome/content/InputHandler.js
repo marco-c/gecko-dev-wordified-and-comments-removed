@@ -2610,10 +2610,10 @@ return
 scrollbox
 qinterface
 (
-elem
+scrollbox
 ?
 (
-elem
+scrollbox
 .
 customDragger
 |
