@@ -797,11 +797,18 @@ ConfigFileSubstitution
         
 topobjdir
 =
+os
+.
+path
+.
+abspath
+(
 reader
 .
 config
 .
 topobjdir
+)
         
 self
 .
