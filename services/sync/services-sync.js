@@ -542,3 +542,17 @@ recency
 "
 )
 ;
+pref
+(
+"
+extensions
+.
+weave
+.
+openId
+.
+enabled
+"
+false
+)
+;
