@@ -829,6 +829,8 @@ CalcStyleDifference
 nsStyleContext
 *
 aOther
+nsChangeHint
+aParentHintsNotHandledForDescendants
 )
 ;
 nscolor

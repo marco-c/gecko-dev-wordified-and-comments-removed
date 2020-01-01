@@ -19,6 +19,11 @@ nscore
 h
 "
 #
+include
+<
+limits
+>
+#
 ifdef
 MOZILLA_INTERNAL_API
 #
@@ -209,7 +214,7 @@ nullptr
 uint32_t
 aDataLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 uint32_t
 aFlags
 =
@@ -295,7 +300,7 @@ aData
 uint32_t
 aDataLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 ;
 XPCOM_API
@@ -318,7 +323,7 @@ aData
 uint32_t
 aDataLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 ;
 XPCOM_API
@@ -353,14 +358,14 @@ aData
 uint32_t
 aDataLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 return
 NS_StringSetDataRange
 (
 aStr
-PR_UINT32_MAX
+UINT32_MAX
 0
 aData
 aDataLength
@@ -386,7 +391,7 @@ aData
 uint32_t
 aDataLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 return
@@ -513,7 +518,7 @@ nullptr
 uint32_t
 aDataLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 uint32_t
 aFlags
 =
@@ -599,7 +604,7 @@ aData
 uint32_t
 aDataLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 ;
 XPCOM_API
@@ -622,7 +627,7 @@ aData
 uint32_t
 aDataLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 ;
 XPCOM_API
@@ -657,14 +662,14 @@ aData
 uint32_t
 aDataLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 return
 NS_CStringSetDataRange
 (
 aStr
-PR_UINT32_MAX
+UINT32_MAX
 0
 aData
 aDataLength
@@ -690,7 +695,7 @@ aData
 uint32_t
 aDataLength
 =
-PR_UINT32_MAX
+UINT32_MAX
 )
 {
 return

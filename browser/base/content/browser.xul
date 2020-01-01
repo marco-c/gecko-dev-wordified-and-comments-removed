@@ -2681,6 +2681,13 @@ notification
 -
 panel
 "
+class
+=
+"
+social
+-
+panel
+"
 type
 =
 "
@@ -2730,6 +2737,13 @@ id
 social
 -
 flyout
+-
+panel
+"
+class
+=
+"
+social
 -
 panel
 "

@@ -2506,10 +2506,8 @@ JSContext
 *
 cx
 HandleObject
-obj_
-const
-Value
-*
+objArg
+MutableHandleValue
 v
 JSBool
 *
@@ -2520,7 +2518,7 @@ RootedObject
 obj
 (
 cx
-obj_
+objArg
 )
 ;
 while
@@ -2641,7 +2639,6 @@ pval
 toObject
 (
 )
-*
 v
 )
 ;

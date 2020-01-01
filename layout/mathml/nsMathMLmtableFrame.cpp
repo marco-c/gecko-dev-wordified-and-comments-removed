@@ -2189,7 +2189,7 @@ AsElement
 (
 )
 eRestyle_Subtree
-nsChangeHint_ReflowFrame
+nsChangeHint_AllReflowHints
 )
 ;
 return
@@ -3000,7 +3000,7 @@ AsElement
 (
 )
 eRestyle_Subtree
-nsChangeHint_ReflowFrame
+nsChangeHint_AllReflowHints
 )
 ;
 }
@@ -3230,7 +3230,7 @@ AsElement
 (
 )
 eRestyle_Subtree
-nsChangeHint_ReflowFrame
+nsChangeHint_AllReflowHints
 )
 ;
 return

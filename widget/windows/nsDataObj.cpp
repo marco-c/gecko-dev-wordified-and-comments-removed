@@ -2023,6 +2023,9 @@ pSTM
 case
 CF_DIBV5
 :
+case
+CF_DIB
+:
 return
 GetDib
 (
@@ -3051,6 +3054,7 @@ nsACString
 inFlavor
 FORMATETC
 &
+aFormat
 STGMEDIUM
 &
 aSTG
@@ -3148,6 +3152,12 @@ nsImageToClipboard
 converter
 (
 image
+aFormat
+.
+cfFormat
+=
+=
+CF_DIBV5
 )
 ;
 HANDLE

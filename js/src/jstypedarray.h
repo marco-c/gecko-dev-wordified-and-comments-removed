@@ -728,11 +728,9 @@ HandleObject
 obj
 JSIterateOp
 enum_op
-Value
-*
+MutableHandleValue
 statep
-jsid
-*
+MutableHandleId
 idp
 )
 ;

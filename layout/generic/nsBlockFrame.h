@@ -1820,6 +1820,8 @@ int32_t
 aOrdinal
 int32_t
 aDepth
+int32_t
+aIncrement
 )
 ;
 static
@@ -1837,6 +1839,8 @@ int32_t
 aOrdinal
 int32_t
 aDepth
+int32_t
+aIncrement
 )
 ;
 static

@@ -108,7 +108,7 @@ nsDirectoryService
 )
 ;
 static
-nsresult
+void
 RealInit
 (
 )
@@ -167,9 +167,12 @@ closure
 nsSupportsHashtable
 mHashtable
 ;
+nsTArray
+<
 nsCOMPtr
 <
-nsISupportsArray
+nsIDirectoryServiceProvider
+>
 >
 mProviders
 ;

@@ -1231,7 +1231,7 @@ nsIBaseWindow
 )
 ;
 return
-false
+NS_ERROR_FAILURE
 ;
 }
 mWidget
@@ -1263,7 +1263,7 @@ widget
 )
 ;
 return
-false
+NS_ERROR_FAILURE
 ;
 }
 mWidget
