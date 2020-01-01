@@ -1755,7 +1755,6 @@ uri
 "
 about
 :
-blank
 "
 NULL
 )
