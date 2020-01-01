@@ -603,7 +603,7 @@ SetInputContext
 const
 InputContext
 &
-aContext
+aInputContext
 const
 InputContextAction
 &
