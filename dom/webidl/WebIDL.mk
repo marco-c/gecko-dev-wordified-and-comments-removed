@@ -311,6 +311,10 @@ Screen
 .
 webidl
 \
+SVGAnimatedTransformList
+.
+webidl
+\
 SVGLengthList
 .
 webidl
