@@ -970,7 +970,7 @@ self
 .
 resultfile
 '
-a
+w
 '
 )
     
