@@ -575,6 +575,13 @@ r14
 rsp
 )
 ;
+masm
+.
+pop
+(
+r11
+)
+;
 GenerateReturn
 (
 masm
