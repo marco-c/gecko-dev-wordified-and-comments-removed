@@ -5699,9 +5699,6 @@ invalid_values
 ]
 }
 "
--
-moz
--
 resize
 "
 :
@@ -5709,7 +5706,7 @@ resize
 domProp
 :
 "
-MozResize
+resize
 "
 inherited
 :
