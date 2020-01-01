@@ -721,6 +721,10 @@ file_bug326337_inner
 .
 html
 \
+file_bug326337_outer
+.
+html
+\
 file_bug326337
 .
 xml
