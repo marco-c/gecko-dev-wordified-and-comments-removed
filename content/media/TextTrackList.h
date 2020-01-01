@@ -141,6 +141,16 @@ nsAString
 aLanguage
 )
 ;
+TextTrack
+*
+GetTrackById
+(
+const
+nsAString
+&
+aId
+)
+;
 void
 AddTextTrack
 (

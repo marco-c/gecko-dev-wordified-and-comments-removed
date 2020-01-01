@@ -191,6 +191,11 @@ language
 readonly
 attribute
 DOMString
+id
+;
+readonly
+attribute
+DOMString
 inBandMetadataTrackDispatchType
 ;
 attribute

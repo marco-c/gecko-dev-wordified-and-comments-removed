@@ -153,6 +153,14 @@ long
 index
 )
 ;
+TextTrack
+?
+getTrackById
+(
+DOMString
+id
+)
+;
 [
 SetterThrows
 ]
