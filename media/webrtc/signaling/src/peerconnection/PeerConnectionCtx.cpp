@@ -862,6 +862,14 @@ getServiceState
 (
 )
 ;
+PeerConnectionImpl
+:
+:
+SipccState
+currentSipccState
+=
+mSipccState
+;
 CSFLogDebug
 (
 logTag
@@ -877,7 +885,7 @@ d
 "
 __FUNCTION__
 state
-mSipccState
+currentSipccState
 )
 ;
 if
@@ -896,7 +904,7 @@ PeerConnectionImpl
 kStarting
 =
 =
-mSipccState
+currentSipccState
 |
 |
 PeerConnectionImpl
@@ -905,7 +913,7 @@ PeerConnectionImpl
 kIdle
 =
 =
-mSipccState
+currentSipccState
 )
 {
 ChangeSipccState
