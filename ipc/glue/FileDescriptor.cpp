@@ -136,10 +136,10 @@ PlatformHandleType
 aHandle
 )
 {
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
-!
 mHandleCreatedByOtherProcess
+mHandleCreatedByOtherProcessWasUsed
 )
 ;
 if
