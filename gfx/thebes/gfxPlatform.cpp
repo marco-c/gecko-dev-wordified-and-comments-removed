@@ -948,6 +948,12 @@ defined
 (
 XP_WIN
 )
+|
+|
+defined
+(
+ANDROID
+)
 rv
 =
 gfxPlatformFontList

@@ -944,6 +944,10 @@ gfxFT2Utils
 .
 cpp
 \
+gfxFT2FontList
+.
+cpp
+\
 nsUnicodeRange
 .
 cpp
