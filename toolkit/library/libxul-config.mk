@@ -956,7 +956,6 @@ filter
 qt
 beos
 os2
-photon
 cocoa
 windows
 (
@@ -1164,13 +1163,6 @@ COMPONENT_LIBS
 +
 =
 widget_qt
-endif
-ifdef
-MOZ_ENABLE_PHOTON
-COMPONENT_LIBS
-+
-=
-widget_photon
 endif
 ifdef
 ACCESSIBILITY

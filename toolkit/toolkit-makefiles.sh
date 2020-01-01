@@ -2996,13 +2996,6 @@ widget
 /
 src
 /
-photon
-/
-Makefile
-widget
-/
-src
-/
 cocoa
 /
 Makefile
