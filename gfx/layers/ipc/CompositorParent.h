@@ -731,9 +731,6 @@ mScrollOffset
 nsIntRect
 mContentRect
 ;
-nsIntSize
-mWidgetSize
-;
 bool
 mIsFirstPaint
 ;

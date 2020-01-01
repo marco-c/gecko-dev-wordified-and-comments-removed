@@ -278,6 +278,16 @@ notifyAll
 )
 ;
 }
+public
+boolean
+hasValidSurface
+(
+)
+{
+return
+mSurfaceValid
+;
+}
 private
 void
 initEGL
