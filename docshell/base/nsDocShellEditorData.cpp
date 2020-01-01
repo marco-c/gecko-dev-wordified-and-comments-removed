@@ -62,6 +62,17 @@ mIsDetached
 (
 PR_FALSE
 )
+mDetachedMakeEditable
+(
+PR_FALSE
+)
+mDetachedEditingState
+(
+nsIHTMLDocument
+:
+:
+eOff
+)
 {
 NS_ASSERTION
 (
