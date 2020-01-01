@@ -478,6 +478,16 @@ data
 .
 xml
 \
+test_bug589543
+.
+html
+\
+bug589543
+-
+data
+.
+xml
+\
 test_registerHandler
 .
 html
