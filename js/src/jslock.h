@@ -750,10 +750,12 @@ js_CurrentThreadId
 (
 )
 (
+(
 void
 *
 )
 NULL
+)
 #
 define
 JS_NEW_LOCK
