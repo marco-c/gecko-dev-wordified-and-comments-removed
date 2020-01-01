@@ -508,6 +508,7 @@ _faviconLink
 link
 .
 href
+;
 }
 }
 _tabSelect
