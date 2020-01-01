@@ -124,8 +124,6 @@ Ci
 .
 nsIBrowserGlue
 )
-;
-gluesvc
 .
 QueryInterface
 (
@@ -133,6 +131,8 @@ Ci
 .
 nsIObserver
 )
+;
+gluesvc
 .
 observe
 (
@@ -141,8 +141,17 @@ null
 initial
 -
 migration
+-
+will
+-
+import
+-
+default
+-
+bookmarks
 "
-null
+"
+"
 )
 ;
 }
