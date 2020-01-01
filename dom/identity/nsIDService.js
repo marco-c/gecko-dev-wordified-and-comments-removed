@@ -59,6 +59,10 @@ jsm
 "
 )
 ;
+this
+.
+IDService
+=
 function
 IDService
 (
@@ -71,6 +75,9 @@ wrappedJSObject
 this
 ;
 }
+;
+this
+.
 IDService
 .
 prototype

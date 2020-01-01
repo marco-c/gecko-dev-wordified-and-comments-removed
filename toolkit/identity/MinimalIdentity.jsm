@@ -3,7 +3,8 @@ use
 strict
 "
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -1198,7 +1199,8 @@ null
 }
 }
 ;
-let
+this
+.
 IdentityService
 =
 new

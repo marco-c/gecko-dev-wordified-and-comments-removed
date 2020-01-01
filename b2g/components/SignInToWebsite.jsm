@@ -3,7 +3,8 @@ use
 strict
 "
 ;
-const
+this
+.
 EXPORTED_SYMBOLS
 =
 [
@@ -692,7 +693,8 @@ detail
 }
 }
 ;
-let
+this
+.
 SignInToWebsiteController
 =
 {
