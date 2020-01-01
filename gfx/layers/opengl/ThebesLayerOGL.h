@@ -86,6 +86,11 @@ nsIntRegion
 aRegion
 )
 ;
+void
+Destroy
+(
+)
+;
 Layer
 *
 GetLayer

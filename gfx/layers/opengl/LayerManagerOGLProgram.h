@@ -1530,6 +1530,7 @@ n
 "
 )
 ;
+}
 mGL
 -
 >
@@ -1567,7 +1568,6 @@ mProgram
 return
 false
 ;
-}
 }
 GLint
 count

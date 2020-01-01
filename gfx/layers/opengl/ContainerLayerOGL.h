@@ -84,6 +84,11 @@ GetLayer
 (
 )
 ;
+void
+Destroy
+(
+)
+;
 LayerOGL
 *
 GetFirstChildOGL

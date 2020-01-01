@@ -72,7 +72,12 @@ this
 CanvasLayerOGL
 (
 )
+{
+Destroy
+(
+)
 ;
+}
 virtual
 void
 Initialize
@@ -91,6 +96,12 @@ const
 nsIntRect
 &
 aRect
+)
+;
+virtual
+void
+Destroy
+(
 )
 ;
 virtual
