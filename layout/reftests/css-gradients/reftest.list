@@ -3065,6 +3065,14 @@ if
 (
 B2G
 )
+fuzzy
+-
+if
+(
+cocoaWidget
+1
+40000
+)
 =
 =
 height
