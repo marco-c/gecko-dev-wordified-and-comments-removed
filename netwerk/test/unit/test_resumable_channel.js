@@ -188,14 +188,9 @@ lvl
 info
 )
 {
-do_throw
-(
-"
-not
-implemented
-yet
-"
-)
+throw
+0x80004001
+;
 }
 }
 ;
