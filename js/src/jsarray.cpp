@@ -4737,11 +4737,14 @@ isDenseArray
 )
 )
 ;
-JSObjectMap
+js
+:
+:
+Shape
 *
 oldMap
 =
-map
+lastProp
 ;
 JSObject
 *

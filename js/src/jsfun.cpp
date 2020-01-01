@@ -10897,9 +10897,10 @@ slotSpan
 =
 argslen
 ;
-map
-=
+setMap
+(
 empty
+)
 ;
 if
 (

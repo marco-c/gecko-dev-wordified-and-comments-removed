@@ -26,6 +26,13 @@ jsscope
 .
 h
 "
+#
+include
+"
+jsscopeinlines
+.
+h
+"
 BEGIN_TEST
 (
 testRegExpInstanceProperties

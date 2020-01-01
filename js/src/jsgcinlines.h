@@ -784,7 +784,7 @@ kind
 obj
 -
 >
-map
+lastProp
 =
 NULL
 ;
@@ -939,7 +939,7 @@ FUN_CLASS_RESERVED_SLOTS
 fun
 -
 >
-map
+lastProp
 =
 NULL
 ;

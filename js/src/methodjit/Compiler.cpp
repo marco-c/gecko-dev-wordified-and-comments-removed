@@ -17178,9 +17178,6 @@ Imm32
 (
 int32
 (
-JSObjectMap
-:
-:
 INVALID_SHAPE
 )
 )
@@ -17713,9 +17710,6 @@ Imm32
 (
 int32
 (
-JSObjectMap
-:
-:
 INVALID_SHAPE
 )
 )
@@ -18381,9 +18375,6 @@ Imm32
 (
 int32
 (
-JSObjectMap
-:
-:
 INVALID_SHAPE
 )
 )
@@ -19119,9 +19110,6 @@ Imm32
 (
 int32
 (
-JSObjectMap
-:
-:
 INVALID_SHAPE
 )
 )
@@ -23572,9 +23560,6 @@ Imm32
 (
 int32
 (
-JSObjectMap
-:
-:
 INVALID_SHAPE
 )
 )
@@ -23644,9 +23629,6 @@ Imm32
 (
 int32
 (
-JSObjectMap
-:
-:
 INVALID_SHAPE
 )
 )
@@ -24326,9 +24308,6 @@ Imm32
 (
 int32
 (
-JSObjectMap
-:
-:
 INVALID_SHAPE
 )
 )
@@ -24409,9 +24388,6 @@ Imm32
 (
 int32
 (
-JSObjectMap
-:
-:
 INVALID_SHAPE
 )
 )

@@ -866,9 +866,6 @@ shapeGuard
 )
 int32
 (
-JSObjectMap
-:
-:
 INVALID_SHAPE
 )
 )
@@ -4238,9 +4235,6 @@ getFastShapeGuard
 )
 int32
 (
-JSObjectMap
-:
-:
 INVALID_SHAPE
 )
 )
