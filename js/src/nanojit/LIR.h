@@ -7768,6 +7768,8 @@ LIns
 ins
 )
 ;
+public
+:
 static
 const
 char
@@ -7776,8 +7778,6 @@ accNames
 [
 ]
 ;
-public
-:
 LInsPrinter
 (
 Allocator
