@@ -113,7 +113,6 @@ GeoPositionOptions
 )
 ;
 [
-scriptable
 builtinclass
 uuid
 (

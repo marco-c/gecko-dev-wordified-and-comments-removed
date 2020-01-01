@@ -460,7 +460,7 @@ createInstance
 (
 Ci
 .
-nsIDOMGeoGeolocation
+nsISupports
 )
 ;
 geolocation

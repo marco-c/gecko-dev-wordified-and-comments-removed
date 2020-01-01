@@ -385,7 +385,7 @@ getService
 (
 Ci
 .
-nsIDOMGeoGeolocation
+nsISupports
 )
 ;
 geolocation
