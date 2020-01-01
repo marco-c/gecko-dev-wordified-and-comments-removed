@@ -351,7 +351,7 @@ reply
 =
 cbuf
 .
-readString
+readStringReplaceMalformed
 (
 )
 ;
