@@ -358,7 +358,7 @@ _MSC_VER
 )
 #
 ifdef
-_INC_WINDOWS
+_WINNT_
 #
 define
 _interlockedbittestandreset

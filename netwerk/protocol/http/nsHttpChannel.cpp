@@ -17309,6 +17309,16 @@ nsISupports
 ctxt
 )
 {
+SAMPLE_LABEL
+(
+"
+nsHttpChannel
+"
+"
+OnStartRequest
+"
+)
+;
 if
 (
 !
