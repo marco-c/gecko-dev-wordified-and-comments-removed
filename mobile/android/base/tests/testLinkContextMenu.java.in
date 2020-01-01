@@ -275,6 +275,8 @@ tearDown
 throws
 Exception
 {
+mDatabaseHelper
+.
 deleteBookmark
 (
 BLANK_PAGE_URL

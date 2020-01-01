@@ -56,7 +56,7 @@ abstract
 class
 ContentContextMenuTest
 extends
-AboutHomeTest
+BaseTest
 {
 private
 static
@@ -739,6 +739,8 @@ mAsserter
 .
 ok
 (
+mDatabaseHelper
+.
 isBookmark
 (
 link
