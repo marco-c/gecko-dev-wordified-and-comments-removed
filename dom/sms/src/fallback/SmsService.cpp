@@ -146,6 +146,10 @@ aDelivery
 const
 nsAString
 &
+aDeliveryStatus
+const
+nsAString
+&
 aSender
 const
 nsAString
@@ -179,6 +183,7 @@ Create
 (
 aId
 aDelivery
+aDeliveryStatus
 aSender
 aReceiver
 aBody

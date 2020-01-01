@@ -80,6 +80,8 @@ int32_t
 aId
 DeliveryState
 aDelivery
+DeliveryStatus
+aDeliveryStatus
 const
 nsString
 &
@@ -116,6 +118,10 @@ const
 nsAString
 &
 aDelivery
+const
+nsAString
+&
+aDeliveryStatus
 const
 nsAString
 &
