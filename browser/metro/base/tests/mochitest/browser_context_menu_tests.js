@@ -322,6 +322,12 @@ selectAllChildren
 span
 )
 ;
+yield
+waitForMs
+(
+0
+)
+;
 let
 promise
 =
@@ -1534,6 +1540,12 @@ yield
 promise
 ;
 emptyClipboard
+(
+)
+;
+ContextUI
+.
+dismiss
 (
 )
 ;
