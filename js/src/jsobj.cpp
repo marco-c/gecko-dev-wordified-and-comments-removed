@@ -4836,7 +4836,9 @@ argv
 caller
 -
 >
-callobj
+hasCallObj
+(
+)
 )
 ;
 scopeobj
@@ -30947,7 +30949,9 @@ callobj
 fp
 -
 >
-callobj
+maybeCallObj
+(
+)
 )
 ;
 MaybeDumpObject
@@ -30958,7 +30962,9 @@ argsobj
 fp
 -
 >
-argsobj
+maybeArgsObj
+(
+)
 )
 ;
 MaybeDumpValue

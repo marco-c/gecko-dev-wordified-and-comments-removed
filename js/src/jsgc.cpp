@@ -10795,7 +10795,9 @@ if
 fp
 -
 >
-callobj
+hasCallObj
+(
+)
 )
 JS_CALL_OBJECT_TRACER
 (
@@ -10803,7 +10805,9 @@ trc
 fp
 -
 >
-callobj
+getCallObj
+(
+)
 "
 call
 "
@@ -10814,7 +10818,9 @@ if
 fp
 -
 >
-argsobj
+hasArgsObj
+(
+)
 )
 JS_CALL_OBJECT_TRACER
 (
@@ -10822,7 +10828,9 @@ trc
 fp
 -
 >
-argsobj
+getArgsObj
+(
+)
 "
 arguments
 "
