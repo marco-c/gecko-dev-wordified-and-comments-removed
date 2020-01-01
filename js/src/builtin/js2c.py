@@ -1884,6 +1884,16 @@ lines
 filename
 )
     
+if
+not
+env
+[
+'
+DEBUG
+'
+]
+:
+      
 lines
 =
 minifier
