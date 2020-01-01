@@ -93,6 +93,10 @@ browser_privatebrowsing_aboutSessionRestore
 .
 js
 \
+browser_privatebrowsing_cache
+.
+js
+\
 browser_privatebrowsing_certexceptionsui
 .
 js
