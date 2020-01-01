@@ -7123,14 +7123,6 @@ Empty
 (
 )
 ;
-nsIView
-*
-view
-=
-GetView
-(
-)
-;
 #
 ifdef
 XP_WIN
