@@ -3333,9 +3333,7 @@ swipe
 up
 "
 "
-Browser
-:
-HideTabView
+cmd_scrollTop
 "
 )
 ;
@@ -3351,9 +3349,7 @@ swipe
 down
 "
 "
-Browser
-:
-ShowTabView
+cmd_scrollBottom
 "
 )
 ;
@@ -3432,7 +3428,6 @@ pinch
 out
 "
 "
-cmd_fullZoomEnlarge
 "
 )
 ;
@@ -3448,7 +3443,6 @@ pinch
 in
 "
 "
-cmd_fullZoomReduce
 "
 )
 ;
@@ -3466,7 +3460,6 @@ out
 shift
 "
 "
-cmd_fullZoomReset
 "
 )
 ;
@@ -3484,7 +3477,6 @@ in
 shift
 "
 "
-cmd_fullZoomReset
 "
 )
 ;
