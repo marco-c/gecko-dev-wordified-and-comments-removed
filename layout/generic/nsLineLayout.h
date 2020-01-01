@@ -1042,6 +1042,11 @@ mLineBox
 nsnull
 ;
 }
+nscoord
+GetCurrentFrameXDistanceFromBlock
+(
+)
+;
 protected
 :
 nsSpaceManager
@@ -1599,6 +1604,8 @@ PRBool
 aNotSafeToBreak
 PRBool
 aFrameCanContinueTextRun
+PRBool
+aCanRollBackBeforeFrame
 nsHTMLReflowMetrics
 &
 aMetrics

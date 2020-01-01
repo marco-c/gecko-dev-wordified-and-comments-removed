@@ -9919,6 +9919,13 @@ SpaceManagerProperty
 )
 GK_ATOM
 (
+tabWidthProperty
+"
+TabWidthProperty
+"
+)
+GK_ATOM
+(
 tableBCProperty
 "
 TableBCProperty
