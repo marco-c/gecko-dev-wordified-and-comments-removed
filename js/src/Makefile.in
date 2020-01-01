@@ -1175,11 +1175,6 @@ nanojit
 TraceTreeDrawer
 .
 cpp
-nanojit
-/
-Tests
-.
-cpp
 endif
 DEFINES
 +
