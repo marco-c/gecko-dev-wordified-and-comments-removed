@@ -21,6 +21,15 @@ _moz
 )
 GK_ATOM
 (
+moztype
+"
+_moz
+-
+type
+"
+)
+GK_ATOM
+(
 mozdirty
 "
 _moz_dirty
