@@ -535,6 +535,12 @@ GLOBAL_DEPS
 (
 CPP
 )
+(
+DEFINES
+)
+(
+ACDEFINES
+)
 -
 I
 (
