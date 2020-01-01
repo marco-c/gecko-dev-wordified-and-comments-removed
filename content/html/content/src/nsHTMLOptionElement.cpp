@@ -448,6 +448,9 @@ nsnull
 }
 return
 new
+(
+nodeInfo
+)
 nsHTMLOptionElement
 (
 nodeInfo

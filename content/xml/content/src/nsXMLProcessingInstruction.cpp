@@ -135,6 +135,9 @@ nsXMLProcessingInstruction
 instance
 =
 new
+(
+ni
+)
 nsXMLProcessingInstruction
 (
 ni
@@ -494,6 +497,9 @@ data
 ;
 return
 new
+(
+aNodeInfo
+)
 nsXMLProcessingInstruction
 (
 aNodeInfo

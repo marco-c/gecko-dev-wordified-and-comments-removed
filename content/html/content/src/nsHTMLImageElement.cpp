@@ -579,6 +579,9 @@ nsnull
 }
 return
 new
+(
+nodeInfo
+)
 nsHTMLImageElement
 (
 nodeInfo

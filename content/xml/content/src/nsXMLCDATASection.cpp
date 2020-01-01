@@ -176,6 +176,9 @@ nsXMLCDATASection
 instance
 =
 new
+(
+ni
+)
 nsXMLCDATASection
 (
 ni
@@ -409,6 +412,9 @@ nsXMLCDATASection
 it
 =
 new
+(
+aNodeInfo
+)
 nsXMLCDATASection
 (
 aNodeInfo
