@@ -2468,6 +2468,9 @@ label
 /
 tooltip
 >
+#
+ifdef
+USE_TAB_PREVIEWS
 <
 panel
 id
@@ -2817,6 +2820,8 @@ pages
 /
 panel
 >
+#
+endif
 <
 /
 popupset
