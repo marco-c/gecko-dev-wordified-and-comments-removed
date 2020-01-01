@@ -1690,6 +1690,16 @@ nsStubMutationObserver
 {
 public
 :
+typedef
+mozilla
+:
+:
+dom
+:
+:
+Element
+Element
+;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
 using
 nsINode
