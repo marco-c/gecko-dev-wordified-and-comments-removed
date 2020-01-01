@@ -48102,11 +48102,13 @@ c
 "
 VPX_AS_CONVERSION
 =
-"
+'
+(
 PERL
-{
-srcdir
-}
+)
+(
+topsrcdir
+)
 /
 media
 /
@@ -48119,7 +48121,7 @@ make
 ads2gas
 .
 pl
-"
+'
 VPX_ASM_SUFFIX
 =
 "
