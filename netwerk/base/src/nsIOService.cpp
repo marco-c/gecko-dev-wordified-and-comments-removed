@@ -925,10 +925,17 @@ if
 !
 mNetworkLinkService
 )
+{
 mManageOfflineStatus
 =
 PR_FALSE
 ;
+SetOffline
+(
+PR_FALSE
+)
+;
+}
 if
 (
 mManageOfflineStatus
