@@ -183,6 +183,8 @@ product
 =
 firefox
 -
+aurora
+-
 latest
 &
 os
@@ -213,6 +215,8 @@ org
 product
 =
 firefox
+-
+aurora
 -
 latest
 &

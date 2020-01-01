@@ -183,6 +183,8 @@ product
 =
 firefox
 -
+nightly
+-
 latest
 &
 os
@@ -213,6 +215,8 @@ org
 product
 =
 firefox
+-
+nightly
 -
 latest
 &
