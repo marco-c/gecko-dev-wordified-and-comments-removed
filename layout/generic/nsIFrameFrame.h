@@ -8,6 +8,9 @@ class
 nsIDocShell
 ;
 class
+nsIView
+;
+class
 nsIFrameFrame
 {
 public
@@ -44,6 +47,17 @@ EndSwapDocShells
 nsIFrame
 *
 aOther
+)
+=
+0
+;
+virtual
+nsIView
+*
+CreateViewAndWidget
+(
+nsContentType
+aContentType
 )
 =
 0
