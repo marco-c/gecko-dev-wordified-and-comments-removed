@@ -7,6 +7,15 @@ NO_SUBSCRIPT_LOADER
 #
 endif
 #
+if
+defined
+XPCONNECT_STANDALONE
+|
+|
+!
+defined
+XPCONNECT_MODULE
+#
 include
 "
 mozilla
@@ -72,5 +81,7 @@ NS_GENERIC_FACTORY_CONSTRUCTOR
 (
 mozJSSubScriptLoader
 )
+#
+endif
 #
 endif
