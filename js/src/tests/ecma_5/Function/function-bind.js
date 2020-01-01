@@ -87,17 +87,6 @@ this
 ;
 }
 ;
-if
-(
-strictReturnThis
-(
-)
-=
-=
-=
-undefined
-)
-{
 assertEq
 (
 strictReturnThis
@@ -121,7 +110,7 @@ null
 )
 (
 )
-undefined
+null
 )
 ;
 var
@@ -199,7 +188,6 @@ foopy
 "
 )
 ;
-}
 function
 expectThrowTypeError
 (

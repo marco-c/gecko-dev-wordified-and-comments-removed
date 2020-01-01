@@ -1253,9 +1253,8 @@ formalArgs
 ;
 }
 inline
-JSObject
-*
-computeThisObject
+bool
+computeThis
 (
 JSContext
 *

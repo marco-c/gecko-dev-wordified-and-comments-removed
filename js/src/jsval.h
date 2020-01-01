@@ -1606,6 +1606,11 @@ str
 jsval_layout
 l
 ;
+JS_ASSERT
+(
+str
+)
+;
 l
 .
 s
@@ -2350,6 +2355,11 @@ JSString
 str
 )
 {
+JS_ASSERT
+(
+str
+)
+;
 jsval_layout
 l
 ;

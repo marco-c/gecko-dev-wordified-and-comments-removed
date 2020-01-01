@@ -5,6 +5,12 @@ jstests
 .
 list
 include
+Boolean
+/
+jstests
+.
+list
+include
 Date
 /
 jstests
@@ -30,6 +36,12 @@ jstests
 list
 include
 JSON
+/
+jstests
+.
+list
+include
+Number
 /
 jstests
 .
