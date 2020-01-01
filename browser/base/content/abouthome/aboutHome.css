@@ -251,6 +251,17 @@ end
 ;
 }
 #
+searchLogoContainer
+[
+hidden
+]
+{
+display
+:
+none
+;
+}
+#
 searchEngineLogo
 {
 display
