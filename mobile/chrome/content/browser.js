@@ -420,6 +420,8 @@ ws
 .
 updateSize
 (
+w
+h
 )
 ;
 }
