@@ -2386,11 +2386,6 @@ show
 )
 CSS_KEY
 (
-skew
-skew
-)
-CSS_KEY
-(
 skewx
 skewx
 )
