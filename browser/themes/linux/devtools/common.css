@@ -1420,6 +1420,12 @@ no
 -
 repeat
 ;
+font
+-
+size
+:
+inherit
+;
 }
 .
 devtools
