@@ -1777,7 +1777,9 @@ nsBufferRoutines
 {
 }
 ;
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 struct
 nsBufferRoutines
 <
@@ -1967,7 +1969,9 @@ set
 }
 }
 ;
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 struct
 nsBufferRoutines
 <

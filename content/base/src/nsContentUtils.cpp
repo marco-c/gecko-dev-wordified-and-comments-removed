@@ -3643,7 +3643,9 @@ mCharPtr
 ;
 #
 else
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 struct
 NormalizeNewlinesCharTraits
 <
@@ -3695,7 +3697,9 @@ mCharPtr
 ;
 }
 ;
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 struct
 NormalizeNewlinesCharTraits
 <

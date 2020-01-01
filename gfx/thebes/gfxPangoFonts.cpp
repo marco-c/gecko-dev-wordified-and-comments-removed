@@ -468,7 +468,9 @@ aPtr
 }
 }
 ;
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 class
 nsAutoRefTraits
 <
@@ -483,7 +485,9 @@ PangoFont
 {
 }
 ;
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 class
 nsAutoRefTraits
 <

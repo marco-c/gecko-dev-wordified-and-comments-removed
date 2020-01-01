@@ -154,7 +154,9 @@ SEEK_DECODE_MARGIN
 =
 250000
 ;
-NS_SPECIALIZE_TEMPLATE
+template
+<
+>
 class
 nsAutoRefTraits
 <
