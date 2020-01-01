@@ -122,7 +122,13 @@ js
 #
 obsolete
 test
+require
+-
+or
+(
+debugMode
 skip
+)
 script
 regress
 -

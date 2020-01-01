@@ -348,7 +348,13 @@ regress
 410649
 .
 js
+require
+-
+or
+(
+debugMode
 skip
+)
 script
 regress
 -

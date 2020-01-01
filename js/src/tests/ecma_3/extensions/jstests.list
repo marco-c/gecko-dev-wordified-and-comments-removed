@@ -103,7 +103,13 @@ regress
 03
 .
 js
+require
+-
+or
+(
+debugMode
 skip
+)
 script
 regress
 -
