@@ -172,6 +172,15 @@ toolbox
 -
 window
 "
+title
+=
+"
+&
+window
+.
+title
+;
+"
 macanimationtype
 =
 "
