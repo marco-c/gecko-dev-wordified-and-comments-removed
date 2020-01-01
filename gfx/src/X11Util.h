@@ -374,6 +374,16 @@ ev
 nsnull
 )
 ;
+bool
+GetError
+(
+XErrorEvent
+*
+ev
+=
+nsnull
+)
+;
 }
 ;
 }
