@@ -1772,6 +1772,10 @@ bug540854
 .
 sjs
 \
+test_bug548463
+.
+html
+\
 (
 NULL
 )
