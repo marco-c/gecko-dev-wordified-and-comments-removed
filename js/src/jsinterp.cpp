@@ -1156,7 +1156,6 @@ PROPERTY_CACHE_HASH_ATOM
 (
 atom
 obj
-pobj
 )
 ;
 PCMETER
@@ -1533,7 +1532,6 @@ PROPERTY_CACHE_HASH_ATOM
 (
 atom
 obj
-NULL
 )
 ]
 ;

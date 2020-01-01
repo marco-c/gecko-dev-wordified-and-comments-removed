@@ -598,7 +598,6 @@ PROPERTY_CACHE_HASH_ATOM
 (
 atom
 obj
-pobj
 )
 \
 PROPERTY_CACHE_HASH
