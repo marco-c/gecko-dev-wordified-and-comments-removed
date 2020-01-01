@@ -896,6 +896,14 @@ test_onerror_message
 .
 html
 \
+test_bug735237
+.
+html
+\
+test_bug739038
+.
+html
+\
 (
 NULL
 )
