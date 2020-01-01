@@ -911,6 +911,14 @@ ins
 )
 ;
 bool
+visitArrayConcat
+(
+MArrayConcat
+*
+ins
+)
+;
+bool
 visitLoadTypedArrayElement
 (
 MLoadTypedArrayElement

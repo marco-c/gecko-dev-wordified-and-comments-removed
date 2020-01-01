@@ -1718,6 +1718,15 @@ constructing
 )
 ;
 InliningStatus
+inlineArrayConcat
+(
+uint32
+argc
+bool
+constructing
+)
+;
+InliningStatus
 inlineMathAbs
 (
 uint32

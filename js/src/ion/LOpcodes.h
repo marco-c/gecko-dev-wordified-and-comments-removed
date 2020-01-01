@@ -578,6 +578,11 @@ ArrayPushT
 \
 _
 (
+ArrayConcat
+)
+\
+_
+(
 StoreElementHoleV
 )
 \
