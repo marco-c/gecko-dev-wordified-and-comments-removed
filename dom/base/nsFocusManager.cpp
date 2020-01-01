@@ -1498,7 +1498,7 @@ BindingManager
 )
 -
 >
-GetXBLChildNodesFor
+GetAnonymousNodesFor
 (
 aContent
 )

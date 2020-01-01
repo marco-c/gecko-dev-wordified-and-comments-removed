@@ -148,7 +148,7 @@ nsXBLEventHandler
 cpp
 '
 '
-nsXBLInsertionPoint
+nsXBLChildrenElement
 .
 cpp
 '

@@ -121,6 +121,11 @@ XMLStylesheetProcessingInstruction
 .
 h
 '
+'
+nsXMLElement
+.
+h
+'
 ]
 CPP_SOURCES
 +

@@ -1001,7 +1001,7 @@ return
 aContent
 -
 >
-GetParent
+GetFlattenedTreeParent
 (
 )
 ;
@@ -2728,7 +2728,7 @@ currentContent
 currentContent
 -
 >
-GetParent
+GetFlattenedTreeParent
 (
 )
 ;

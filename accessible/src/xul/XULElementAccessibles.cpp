@@ -355,7 +355,7 @@ parent
 mContent
 -
 >
-GetParent
+GetFlattenedTreeParent
 (
 )
 ;

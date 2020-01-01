@@ -483,6 +483,11 @@ nsChannelPolicy
 cpp
 '
 '
+ChildIterator
+.
+cpp
+'
+'
 nsContentAreaDragDrop
 .
 cpp

@@ -458,11 +458,6 @@ nsCaret
 cpp
 '
 '
-nsChildIterator
-.
-cpp
-'
-'
 nsCounterManager
 .
 cpp

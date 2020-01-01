@@ -499,7 +499,7 @@ parentContent
 aContent
 -
 >
-GetParent
+GetFlattenedTreeParent
 (
 )
 ;

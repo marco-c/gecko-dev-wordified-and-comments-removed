@@ -867,7 +867,7 @@ do_QueryInterface
 mContent
 -
 >
-GetParent
+GetFlattenedTreeParent
 (
 )
 )
