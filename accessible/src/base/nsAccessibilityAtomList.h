@@ -687,13 +687,6 @@ href
 )
 ACCESSIBILITY_ATOM
 (
-id
-"
-id
-"
-)
-ACCESSIBILITY_ATOM
-(
 increment
 "
 increment
