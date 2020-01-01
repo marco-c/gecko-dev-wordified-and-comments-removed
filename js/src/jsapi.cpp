@@ -23349,7 +23349,7 @@ RawObject
 obj
 uint32_t
 index
-RawValue
+Value
 value
 )
 {

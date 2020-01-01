@@ -7334,7 +7334,7 @@ AutoValueArray
 public
 AutoGCRooter
 {
-RawValue
+Value
 *
 start_
 ;
@@ -7351,7 +7351,7 @@ AutoValueArray
 JSContext
 *
 cx
-RawValue
+Value
 *
 start
 unsigned
@@ -7382,7 +7382,7 @@ length
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 }
-RawValue
+Value
 *
 start
 (

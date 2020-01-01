@@ -898,13 +898,6 @@ typedef
 jsid
 RawId
 ;
-typedef
-JS
-:
-:
-Value
-RawValue
-;
 template
 <
 typename
