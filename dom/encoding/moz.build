@@ -129,11 +129,6 @@ TextEncoder
 .
 h
 '
-'
-TextEncoderBase
-.
-h
-'
 ]
 CPP_SOURCES
 +
