@@ -10440,6 +10440,14 @@ NS_ENSURE_ARG_POINTER
 aAttributes
 )
 ;
+if
+(
+!
+mDOMNode
+)
+return
+NS_ERROR_FAILURE
+;
 nsCOMPtr
 <
 nsIPersistentProperties
