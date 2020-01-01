@@ -7142,6 +7142,13 @@ mPendingMediaFeatureValuesChanged
 =
 true
 ;
+mDocument
+-
+>
+SetNeedStyleFlush
+(
+)
+;
 }
 }
 }
@@ -7817,6 +7824,13 @@ return
 mUserFontSetDirty
 =
 true
+;
+mDocument
+-
+>
+SetNeedStyleFlush
+(
+)
 ;
 if
 (

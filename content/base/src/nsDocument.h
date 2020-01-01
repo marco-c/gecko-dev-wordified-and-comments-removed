@@ -3996,6 +3996,11 @@ mIsFullScreen
 :
 1
 ;
+bool
+mInFlush
+:
+1
+;
 PRUint8
 mXMLDeclarationBits
 ;
