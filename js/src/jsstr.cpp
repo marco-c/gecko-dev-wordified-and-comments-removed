@@ -9950,9 +9950,8 @@ JS_TRUE
 }
 #
 endif
-static
 JSBool
-str_concat
+js_str_concat
 (
 JSContext
 *
@@ -11511,7 +11510,7 @@ JS_FN
 "
 concat
 "
-str_concat
+js_str_concat
 1
 GENERIC_PRIMITIVE
 )
