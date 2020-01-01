@@ -2023,7 +2023,7 @@ CheckInterfaceSupport
 (
 __uuidof
 (
-ID3D10Device1
+ID3D10Device
 )
 nsnull
 )
@@ -2036,9 +2036,7 @@ hr
 )
 )
 {
-adapter1
-=
-nsnull
+return
 ;
 }
 }
