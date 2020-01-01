@@ -9968,6 +9968,15 @@ PRUint32
 aHow
 )
 {
+if
+(
+IsDefunct
+(
+)
+)
+return
+NS_ERROR_FAILURE
+;
 nsCoreUtils
 :
 :

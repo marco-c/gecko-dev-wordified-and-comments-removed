@@ -10724,13 +10724,10 @@ gfxASurface
 :
 CONTENT_COLOR_ALPHA
 LOCAL_GL_CLAMP_TO_EDGE
-/
-*
-aUseNearestFilter
-=
-*
-/
-true
+TextureImage
+:
+:
+UseNearestFilter
 )
 ;
 /

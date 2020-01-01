@@ -102,6 +102,7 @@ name_
 id_
 method_
 flags_
+pref_
 parsevariant_
 kwtable_
 \
@@ -130,6 +131,7 @@ name_
 id_
 method_
 flags_
+pref_
 )
 #
 name_
@@ -1443,6 +1445,7 @@ CSS_PROP_ALIAS
 aliasname_
 propid_
 aliasmethod_
+pref_
 )
 \
 eCSSAliasCountBefore_
@@ -1471,6 +1474,7 @@ CSS_PROP_ALIAS
 aliasname_
 propid_
 aliasmethod_
+pref_
 )
 \
 eMaxCSSAliasNameSizeBefore_
@@ -1549,6 +1553,7 @@ CSS_PROP_ALIAS
 aliasname_
 propid_
 aliasmethod_
+pref_
 )
 \
 {
@@ -5238,9 +5243,10 @@ name_
 id_
 method_
 flags_
+pref_
 parsevariant_
-kwtable_
 \
+kwtable_
 stylestruct_
 stylestructoffset_
 animtype_
@@ -5422,9 +5428,10 @@ name_
 id_
 method_
 flags_
+pref_
 parsevariant_
-kwtable_
 \
+kwtable_
 stylestruct_
 stylestructoffset_
 animtype_
@@ -5465,6 +5472,7 @@ name_
 id_
 method_
 flags_
+pref_
 parsevariant_
 kwtable_
 \
@@ -5505,6 +5513,7 @@ name_
 id_
 method_
 flags_
+pref_
 parsevariant_
 kwtable_
 \
@@ -5545,6 +5554,7 @@ name_
 id_
 method_
 flags_
+pref_
 parsevariant_
 kwtable_
 \
@@ -5572,6 +5582,7 @@ name_
 id_
 method_
 flags_
+pref_
 )
 flags_
 #
@@ -6421,7 +6432,9 @@ name_
 id_
 method_
 flags_
+pref_
 )
+\
 NSCSSPROPS_INNER_MACRO
 (
 method_
@@ -6452,10 +6465,12 @@ name_
 id_
 method_
 flags_
-parsevariant_
+pref_
 \
+parsevariant_
 kwtable_
 stylestructoffset_
+\
 animtype_
 )
 \
@@ -6981,8 +6996,9 @@ name_
 id_
 method_
 flags_
-parsevariant_
+pref_
 \
+parsevariant_
 kwtable_
 )
 \
@@ -6999,9 +7015,10 @@ name_
 id_
 method_
 flags_
+pref_
 parsevariant_
-kwtable_
 \
+kwtable_
 stylestruct_
 stylestructoffset_
 animtype_

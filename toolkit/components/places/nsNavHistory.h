@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsIGlobalHistory
-.
-h
-"
-#
-include
-"
 nsINavBookmarksService
 .
 h

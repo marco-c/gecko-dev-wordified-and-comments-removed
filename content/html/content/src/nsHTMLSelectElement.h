@@ -944,14 +944,6 @@ aIndex
 NS_OUTPARAM
 )
 ;
-NS_IMETHOD
-GetHasOptGroups
-(
-bool
-*
-aHasGroups
-)
-;
 virtual
 nsresult
 BindToTree

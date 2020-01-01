@@ -3882,6 +3882,16 @@ protocol
 EqualsIgnoreCase
 (
 "
+data
+"
+)
+|
+|
+protocol
+.
+EqualsIgnoreCase
+(
+"
 ftp
 "
 )

@@ -816,12 +816,6 @@ Normal
 bool
 functionArguments
 (
-TreeContext
-&
-funtc
-FunctionBox
-*
-funbox
 ParseNode
 *
 *
@@ -1129,9 +1123,9 @@ JSAtom
 atom
 unsigned
 i
-TreeContext
+Parser
 *
-tc
+parser
 )
 ;
 }
