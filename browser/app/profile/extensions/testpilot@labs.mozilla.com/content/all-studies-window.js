@@ -1618,13 +1618,6 @@ task
 summary
 )
 ;
-if
-(
-task
-.
-showMoreInfoLink
-)
-{
 this
 .
 addXulLink
@@ -1648,7 +1641,6 @@ defaultUrl
 openInTab
 )
 ;
-}
 let
 statusVbox
 =
