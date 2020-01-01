@@ -83142,6 +83142,15 @@ if
 fp
 -
 >
+hasArgsObj
+(
+)
+&
+&
+!
+fp
+-
+>
 fun
 (
 )
