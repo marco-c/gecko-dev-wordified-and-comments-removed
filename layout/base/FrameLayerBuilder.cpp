@@ -2052,7 +2052,7 @@ forget
 ;
 }
 static
-PRUint32
+PRInt32
 AppUnitsPerDevPixel
 (
 nsDisplayItem
@@ -6007,7 +6007,7 @@ PresContext
 (
 )
 ;
-nscoord
+PRInt32
 appUnitsPerDevPixel
 =
 presContext
