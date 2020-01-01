@@ -113,9 +113,9 @@ hudReferences
 let
 windowID
 =
-HUDService
+WebConsoleUtils
 .
-getWindowId
+getOuterWindowId
 (
 content
 )

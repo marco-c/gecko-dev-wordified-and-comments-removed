@@ -370,7 +370,9 @@ return
 [
 "
 +
-ConsoleUtils
+WebConsoleUtils
+.
+l10n
 .
 timestampString
 (

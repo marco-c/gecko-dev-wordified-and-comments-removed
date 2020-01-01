@@ -145,7 +145,7 @@ aAbbreviatedURL
 {
 is
 (
-ConsoleUtils
+WebConsoleUtils
 .
 abbreviateSourceURL
 (

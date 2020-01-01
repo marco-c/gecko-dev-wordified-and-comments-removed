@@ -608,8 +608,9 @@ below
 "
 )
 ;
-finishTest
+executeSoon
 (
+finishTest
 )
 ;
 }

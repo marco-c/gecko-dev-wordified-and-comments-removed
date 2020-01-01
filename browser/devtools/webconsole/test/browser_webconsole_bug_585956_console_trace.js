@@ -73,8 +73,10 @@ true
 ;
 openConsole
 (
+function
+(
 )
-;
+{
 browser
 .
 addEventListener
@@ -92,6 +94,9 @@ location
 .
 reload
 (
+)
+;
+}
 )
 ;
 }
