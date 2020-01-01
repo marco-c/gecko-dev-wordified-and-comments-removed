@@ -10534,7 +10534,16 @@ foldIfEqual
 )
 {
 return
-this
+MConstant
+:
+:
+New
+(
+Int32Value
+(
+0
+)
+)
 ;
 }
 }

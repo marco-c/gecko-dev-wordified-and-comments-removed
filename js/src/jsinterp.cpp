@@ -2916,7 +2916,7 @@ if
 script
 -
 >
-ensureHasTypes
+ensureRanAnalysis
 (
 cx
 )
@@ -18100,14 +18100,7 @@ ok
 goto
 error
 ;
-break
-;
 }
-case
-JSTRY_LOOP
-:
-break
-;
 }
 }
 interpReturnOK
