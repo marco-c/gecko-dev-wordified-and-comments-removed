@@ -4364,7 +4364,7 @@ trustedEnd_
 ;
 }
 void
-markAndClobberFrame
+markFrame
 (
 JSTracer
 *
@@ -4375,9 +4375,6 @@ fp
 Value
 *
 slotsEnd
-jsbytecode
-*
-pc
 )
 ;
 public
@@ -4484,7 +4481,7 @@ limit
 )
 ;
 void
-markAndClobber
+mark
 (
 JSTracer
 *
