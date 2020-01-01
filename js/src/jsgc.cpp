@@ -13281,7 +13281,7 @@ array
 =
 static_cast
 <
-AutoNamespaces
+AutoNamespaceArray
 *
 >
 (
