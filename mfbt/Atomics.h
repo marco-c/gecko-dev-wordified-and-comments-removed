@@ -2243,12 +2243,12 @@ static
 bool
 compareExchange
 (
-T
+Type
 *
 ptr
-T
+Type
 oldVal
-T
+Type
 newVal
 )
 {
