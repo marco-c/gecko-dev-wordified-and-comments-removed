@@ -789,7 +789,6 @@ SetMediaSeekable
 bool
 aMediaSeekable
 )
-MOZ_FINAL
 MOZ_OVERRIDE
 ;
 virtual
