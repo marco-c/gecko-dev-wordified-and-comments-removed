@@ -462,6 +462,15 @@ XPCSHELL_TESTS
 tests
 /
 unit
+ABS_topsrcdir
+=
+(
+call
+core_abspath
+(
+topsrcdir
+)
+)
 libs
 :
 :
@@ -498,7 +507,7 @@ tests
 PYTHON
 )
 (
-topsrcdir
+ABS_topsrcdir
 )
 /
 config
