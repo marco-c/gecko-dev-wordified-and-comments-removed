@@ -2171,6 +2171,11 @@ atom
 jsint
 *
 slotp
+JSStmtInfo
+*
+stmt
+=
+NULL
 )
 ;
 extern
