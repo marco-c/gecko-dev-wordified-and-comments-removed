@@ -11,10 +11,4 @@ NS_APP_EXISTING_PREF_OVERRIDE
 ExistingPrefOverride
 "
 #
-define
-NS_APP_USER_MICROSUMMARY_DIR
-"
-UsrMicsumGens
-"
-#
 endif
