@@ -198,6 +198,14 @@ browser_inspector_bug_817558_delete_node
 .
 js
 \
+browser_inspector_bug_650804_search
+.
+js
+\
+browser_inspector_bug_650804_search
+.
+html
+\
 head
 .
 js
