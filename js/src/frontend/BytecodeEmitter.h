@@ -838,13 +838,6 @@ SIF_BODY_BLOCK
 ;
 }
 bool
-inStatement
-(
-StmtType
-type
-)
-;
-bool
 inStrictMode
 (
 )
@@ -860,13 +853,6 @@ inline
 bool
 needStrictChecks
 (
-)
-;
-bool
-skipSpansGenerator
-(
-unsigned
-skip
 )
 ;
 bool
