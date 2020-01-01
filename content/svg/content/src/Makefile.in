@@ -361,6 +361,10 @@ SVGFEMergeNodeElement
 .
 cpp
 \
+SVGFETileElement
+.
+cpp
+\
 SVGFilterElement
 .
 cpp
@@ -743,6 +747,10 @@ SVGFEMergeElement
 h
 \
 SVGFEMergeNodeElement
+.
+h
+\
+SVGFETileElement
 .
 h
 \
