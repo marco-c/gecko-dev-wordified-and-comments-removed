@@ -648,16 +648,6 @@ rv
 return
 rv
 ;
-plaintextBuffer
-.
-Trim
-(
-"
-"
-true
-false
-)
-;
 mimeType
 .
 AssignLiteral
