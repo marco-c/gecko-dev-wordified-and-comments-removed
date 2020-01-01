@@ -15709,6 +15709,12 @@ MOZ_OPTIMIZE_FLAGS
 "
 -
 O3
+-
+fomit
+-
+frame
+-
+pointer
 "
 _PEDANTIC
 =
