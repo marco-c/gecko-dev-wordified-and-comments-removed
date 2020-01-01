@@ -11,6 +11,13 @@ mozIStorageConnection
 .
 h
 "
+#
+include
+"
+mozIStorageStatement
+.
+h
+"
 class
 mozStorageTransaction
 {
