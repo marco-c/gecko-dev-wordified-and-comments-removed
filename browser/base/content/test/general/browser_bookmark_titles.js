@@ -362,15 +362,10 @@ proxy
 ;
 Services
 .
-cache
+cache2
 .
-evictEntries
+clear
 (
-Services
-.
-cache
-.
-STORE_ANYWHERE
 )
 ;
 let

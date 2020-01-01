@@ -1,10 +1,3 @@
-const
-Cc
-=
-Components
-.
-classes
-;
 function
 makeURL
 (

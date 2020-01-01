@@ -276,9 +276,11 @@ mozilla
 .
 org
 /
-network
+netwerk
 /
 cache
+-
+storage
 -
 service
 ;
@@ -290,7 +292,7 @@ getService
 (
 Ci
 .
-nsICacheService
+nsICacheStorageService
 )
 )
 {
@@ -298,13 +300,8 @@ try
 {
 cs
 .
-evictEntries
+clear
 (
-Ci
-.
-nsICache
-.
-STORE_ANYWHERE
 )
 ;
 }

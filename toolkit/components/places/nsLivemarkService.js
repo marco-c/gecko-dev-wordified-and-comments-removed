@@ -4726,7 +4726,7 @@ QueryInterface
 (
 Ci
 .
-nsICacheEntryInfo
+nsICacheEntry
 )
 ;
 if

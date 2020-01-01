@@ -15,7 +15,7 @@ h
 #
 include
 "
-nsICacheVisitor
+nsICacheEntry
 .
 h
 "
@@ -1533,7 +1533,7 @@ rv
 {
 nsCOMPtr
 <
-nsICacheEntryInfo
+nsICacheEntry
 >
 cacheEntry
 =

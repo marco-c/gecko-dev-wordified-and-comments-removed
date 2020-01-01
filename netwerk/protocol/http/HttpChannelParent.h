@@ -77,7 +77,7 @@ nsHttpChannel
 h
 "
 class
-nsICacheEntryDescriptor
+nsICacheEntry
 ;
 class
 nsIAssociatedContentSecurity
@@ -379,9 +379,9 @@ mChannel
 ;
 nsCOMPtr
 <
-nsICacheEntryDescriptor
+nsICacheEntry
 >
-mCacheDescriptor
+mCacheEntry
 ;
 nsCOMPtr
 <

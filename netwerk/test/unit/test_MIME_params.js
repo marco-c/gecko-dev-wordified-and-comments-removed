@@ -1,10 +1,3 @@
-const
-Cr
-=
-Components
-.
-results
-;
 var
 BS
 =

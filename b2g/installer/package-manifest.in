@@ -1419,6 +1419,13 @@ BINPATH
 /
 components
 /
+necko_cache2
+.
+xpt
+BINPATH
+/
+components
+/
 necko_cookie
 .
 xpt

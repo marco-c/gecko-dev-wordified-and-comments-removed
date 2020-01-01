@@ -160,6 +160,16 @@ nsICacheService
 checkService
 (
 "
+cache2
+"
+Ci
+.
+nsICacheStorageService
+)
+;
+checkService
+(
+"
 clipboard
 "
 Ci

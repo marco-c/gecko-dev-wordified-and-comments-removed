@@ -151,6 +151,11 @@ InlineSpellChecker
 jsm
 '
 '
+LoadContextInfo
+.
+jsm
+'
+'
 NewTabUtils
 .
 jsm

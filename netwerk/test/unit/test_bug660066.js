@@ -20,13 +20,6 @@ jsm
 )
 ;
 const
-Ci
-=
-Components
-.
-interfaces
-;
-const
 SIMPLEURI_SPEC
 =
 "

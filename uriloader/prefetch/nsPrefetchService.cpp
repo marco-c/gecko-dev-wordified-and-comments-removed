@@ -8,14 +8,7 @@ h
 #
 include
 "
-nsICacheSession
-.
-h
-"
-#
-include
-"
-nsICacheService
+nsICacheEntry
 .
 h
 "
@@ -888,7 +881,7 @@ NS_ERROR_ABORT
 ;
 nsCOMPtr
 <
-nsICacheEntryInfo
+nsICacheEntry
 >
 entryInfo
 =
