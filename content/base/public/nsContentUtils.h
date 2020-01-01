@@ -3737,9 +3737,12 @@ sDOMNodeRemovedSuppressCount
 #
 endif
 static
-nsCOMArray
+nsTArray
+<
+nsCOMPtr
 <
 nsIRunnable
+>
 >
 *
 sBlockedScriptRunners
