@@ -1816,7 +1816,7 @@ a
 double
 OP___
 (
-stb
+stl2b
 25
 Sti
 Void
@@ -1825,10 +1825,13 @@ Void
 /
 /
 store
+long
+truncated
+to
 byte
 OP___
 (
-stw
+stl2w
 26
 Sti
 Void
@@ -1837,6 +1840,9 @@ Void
 /
 /
 store
+long
+truncated
+to
 word
 OP___
 (

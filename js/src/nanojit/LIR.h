@@ -341,9 +341,12 @@ LIR_ldd
 LIR_ld32f
 =
 LIR_lds2d
+LIR_stb
+=
+LIR_stl2b
 LIR_sts
 =
-LIR_stw
+LIR_stl2w
 LIR_sti
 =
 LIR_stl
