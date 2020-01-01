@@ -1166,7 +1166,7 @@ off
 break
 ;
 case
-JOF_CONST
+JOF_ATOM
 :
 case
 JOF_OBJECT
@@ -1188,7 +1188,7 @@ if
 type
 =
 =
-JOF_CONST
+JOF_ATOM
 )
 {
 JS_GET_SCRIPT_ATOM
@@ -1651,10 +1651,10 @@ pc
 break
 ;
 case
-JOF_INDEXCONST
+JOF_SLOTATOM
 :
 case
-JOF_INDEXOBJECT
+JOF_SLOTOBJECT
 :
 fprintf
 (
@@ -1683,7 +1683,7 @@ if
 type
 =
 =
-JOF_CONST
+JOF_ATOM
 )
 {
 JS_GET_SCRIPT_ATOM
@@ -9915,7 +9915,7 @@ JOF_TYPEMASK
 )
 =
 =
-JOF_INDEXCONST
+JOF_SLOTATOM
 )
 ;
 jp
