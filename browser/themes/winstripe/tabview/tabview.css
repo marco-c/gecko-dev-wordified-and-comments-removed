@@ -68,15 +68,10 @@ repeat
 scroll
 center
 top
--
-moz
--
 linear
 -
 gradient
 (
-center
-top
 #
 CCD9EA
 #
@@ -86,7 +81,6 @@ repeat
 scroll
 0
 0
-transparent
 ;
 }
 .

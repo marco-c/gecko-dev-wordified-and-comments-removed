@@ -31,9 +31,6 @@ background
 -
 image
 :
--
-moz
--
 linear
 -
 gradient
@@ -49,6 +46,7 @@ rgba
 )
 rgba
 (
+0
 0
 0
 0
@@ -998,9 +996,6 @@ background
 -
 image
 :
--
-moz
--
 linear
 -
 gradient
@@ -1010,6 +1005,7 @@ rgba
 255
 255
 255
+0
 .
 3
 )
@@ -1018,6 +1014,7 @@ rgba
 255
 255
 255
+0
 .
 1
 )
