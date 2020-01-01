@@ -3891,6 +3891,10 @@ emptyString
 (
 NULL
 )
+sourceHook
+(
+NULL
+)
 debugMode
 (
 false

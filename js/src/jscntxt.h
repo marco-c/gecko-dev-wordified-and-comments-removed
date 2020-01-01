@@ -2132,6 +2132,9 @@ contextList
 )
 ;
 }
+JS_SourceHook
+sourceHook
+;
 JSDebugHooks
 debugHooks
 ;
