@@ -3337,6 +3337,7 @@ GetInsertionPoint
 nsIContent
 *
 aParent
+const
 nsIContent
 *
 aChild
@@ -5633,6 +5634,7 @@ GetNestedInsertionPoint
 nsIContent
 *
 aParent
+const
 nsIContent
 *
 aChild

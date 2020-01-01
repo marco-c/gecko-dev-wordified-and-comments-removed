@@ -350,6 +350,7 @@ nsIContent
 *
 GetInsertionPoint
 (
+const
 nsIContent
 *
 aChild
