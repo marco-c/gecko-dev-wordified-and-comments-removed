@@ -256,9 +256,11 @@ Error
 Could
 not
 open
-any
+system
+library
+:
+no
 libc
-.
 "
 )
 ;
