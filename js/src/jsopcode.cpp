@@ -18267,8 +18267,14 @@ i
 JS_strdup
 (
 cx
-POP_STR
+POP_STR_PREC
 (
+cs
+-
+>
+prec
++
+1
 )
 )
 ;
