@@ -97,6 +97,12 @@ Logging
 .
 h
 "
+Logging
+Logging
+:
+:
+Singleton
+;
 const
 char
 *
@@ -2589,6 +2595,13 @@ dictSize
 size_t
 )
 0
+;
+Logging
+:
+:
+Init
+(
+)
 ;
 for
 (

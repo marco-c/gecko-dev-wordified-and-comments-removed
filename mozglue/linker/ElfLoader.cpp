@@ -1402,6 +1402,13 @@ LibHandle
 parent
 )
 {
+Logging
+:
+:
+Init
+(
+)
+;
 RefPtr
 <
 LibHandle
@@ -1581,9 +1588,6 @@ abs_path
 =
 NULL
 ;
-#
-ifdef
-MOZ_DEBUG_LINKER
 const
 char
 *
@@ -1591,8 +1595,6 @@ requested_path
 =
 path
 ;
-#
-endif
 if
 (
 (
@@ -2172,6 +2174,13 @@ LibHandle
 handle
 )
 {
+Logging
+:
+:
+Init
+(
+)
+;
 LibHandleList
 :
 :
@@ -5081,3 +5090,9 @@ return
 0
 ;
 }
+Logging
+Logging
+:
+:
+Singleton
+;
