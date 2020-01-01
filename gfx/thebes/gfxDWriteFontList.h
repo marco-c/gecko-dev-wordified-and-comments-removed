@@ -578,6 +578,11 @@ GetFontSubstitutes
 (
 )
 ;
+void
+GetDirectWriteSubstitutes
+(
+)
+;
 nsTArray
 <
 nsString
