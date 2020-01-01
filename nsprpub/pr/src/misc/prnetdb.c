@@ -11771,7 +11771,7 @@ raw
 .
 family
 =
-AF_INET6
+md_af
 ;
 addrp
 =
