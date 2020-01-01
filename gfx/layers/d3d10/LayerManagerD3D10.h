@@ -1162,6 +1162,15 @@ Layer
 *
 )
 ;
+void
+RepositionChild
+(
+Layer
+*
+Layer
+*
+)
+;
 Layer
 *
 AsLayer
