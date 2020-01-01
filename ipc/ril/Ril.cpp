@@ -870,12 +870,6 @@ alen
 0
 )
 {
-#
-if
-defined
-(
-MOZ_WIDGET_GONK
-)
 LOG
 (
 "
@@ -890,8 +884,6 @@ n
 "
 )
 ;
-#
-endif
 close
 (
 mSocket

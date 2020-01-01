@@ -81,7 +81,7 @@ jsm
 const
 DEBUG
 =
-false
+true
 ;
 const
 DOMWIFIMANAGER_CONTRACTID

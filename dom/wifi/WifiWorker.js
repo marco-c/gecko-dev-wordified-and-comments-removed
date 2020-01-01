@@ -43,7 +43,7 @@ jsm
 const
 DEBUG
 =
-false
+true
 ;
 const
 WIFIWORKER_CONTRACTID

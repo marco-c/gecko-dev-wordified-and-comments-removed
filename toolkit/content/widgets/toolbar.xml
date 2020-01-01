@@ -1514,7 +1514,6 @@ this
 currentSet
 )
 return
-val
 ;
 var
 ids

@@ -80,7 +80,7 @@ b005d5e89249
 const
 DEBUG
 =
-false
+true
 ;
 const
 DB_NAME
