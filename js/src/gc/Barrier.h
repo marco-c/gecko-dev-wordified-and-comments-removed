@@ -558,10 +558,12 @@ HeapPtrBaseShape
 typedef
 HeapPtr
 <
-const
-Shape
+types
+:
+:
+TypeObject
 >
-HeapPtrConstShape
+HeapPtrTypeObject
 ;
 typedef
 HeapPtr
