@@ -993,11 +993,11 @@ nsnull
 }
 if
 (
+mSafeJSContext
+&
+&
 !
 glob
-&
-&
-mSafeJSContext
 )
 {
 JS_DestroyContext
