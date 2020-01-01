@@ -138,7 +138,7 @@ DEFINES
 +
 =
 -
-DEXPORT
+DSPX_RESAMPLE_EXPORT
 =
 ifeq
 (
