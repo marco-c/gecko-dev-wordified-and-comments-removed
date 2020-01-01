@@ -3591,3 +3591,17 @@ components
 CameraContent
 .
 js
+BINPATH
+/
+components
+/
+AlertsService
+.
+js
+BINPATH
+/
+components
+/
+ContentPermissionPrompt
+.
+js

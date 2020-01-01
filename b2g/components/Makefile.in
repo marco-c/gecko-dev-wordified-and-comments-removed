@@ -443,6 +443,14 @@ CameraContent
 .
 js
 \
+AlertsService
+.
+js
+\
+ContentPermissionPrompt
+.
+js
+\
 (
 NULL
 )
