@@ -113,6 +113,8 @@ HandleScript
 script
 HandleFunction
 callee
+unsigned
+numActuals
 CopyArgs
 &
 copy
