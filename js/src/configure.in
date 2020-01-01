@@ -6983,7 +6983,7 @@ version
 #
 from
 there
-AC_CHECK_HEADERS
+MOZ_CHECK_HEADERS
 (
 [
 winsdkver
@@ -7151,7 +7151,7 @@ not
 WinSDKVer
 .
 h
-AC_CHECK_HEADERS
+MOZ_CHECK_HEADERS
 (
 [
 sdkddkver
@@ -10080,7 +10080,7 @@ to
 be
 set
 for
-AC_CHECK_HEADER
+MOZ_CHECK_HEADER
 .
 CPP
 =
@@ -17069,7 +17069,7 @@ COMPILE_ENVIRONMENT
 "
 ;
 then
-AC_CHECK_HEADERS
+MOZ_CHECK_HEADERS
 (
 sys
 /
@@ -19617,7 +19617,7 @@ CXXFLAGS
 mstackrealign
 "
 fi
-AC_CHECK_HEADERS
+MOZ_CHECK_HEADERS
 (
 mmintrin
 .
@@ -22708,7 +22708,7 @@ etc
 .
 below
 .
-AC_CHECK_HEADER
+MOZ_CHECK_HEADER
 (
 stdint
 .
@@ -22914,7 +22914,7 @@ double
 12
 14
 )
-AC_CHECK_HEADERS
+MOZ_CHECK_HEADERS
 (
 endian
 .
@@ -22934,7 +22934,7 @@ AC_DEFINE
 JS_HAVE_ENDIAN_H
 )
 fi
-AC_CHECK_HEADERS
+MOZ_CHECK_HEADERS
 (
 sys
 /
@@ -24975,7 +24975,7 @@ X_CFLAGS
 ;
 ;
 esac
-AC_CHECK_HEADERS
+MOZ_CHECK_HEADERS
 (
 sys
 /
@@ -24989,7 +24989,7 @@ getopt
 .
 h
 )
-AC_CHECK_HEADERS
+MOZ_CHECK_HEADERS
 (
 sys
 /
@@ -25003,7 +25003,7 @@ unistd
 .
 h
 )
-AC_CHECK_HEADERS
+MOZ_CHECK_HEADERS
 (
 gnu
 /
@@ -25016,13 +25016,13 @@ nl_types
 .
 h
 )
-AC_CHECK_HEADERS
+MOZ_CHECK_HEADERS
 (
 malloc
 .
 h
 )
-AC_CHECK_HEADERS
+MOZ_CHECK_HEADERS
 (
 X11
 /
@@ -25030,7 +25030,7 @@ XKBlib
 .
 h
 )
-AC_CHECK_HEADERS
+MOZ_CHECK_HEADERS
 (
 io
 .
@@ -25050,7 +25050,7 @@ can
 be
 hiding
 .
-AC_CHECK_HEADERS
+MOZ_CHECK_HEADERS
 (
 sys
 /
@@ -25076,7 +25076,7 @@ h
 dnl
 Quota
 support
-AC_CHECK_HEADERS
+MOZ_CHECK_HEADERS
 (
 sys
 /
@@ -25084,7 +25084,7 @@ quota
 .
 h
 )
-AC_CHECK_HEADERS
+MOZ_CHECK_HEADERS
 (
 linux
 /
@@ -25130,7 +25130,7 @@ pentium
 -
 mmx
 )
-AC_CHECK_HEADERS
+MOZ_CHECK_HEADERS
 (
 mmintrin
 .
@@ -25177,7 +25177,7 @@ NEW_H
 new
 .
 h
-AC_CHECK_HEADER
+MOZ_CHECK_HEADER
 (
 new
 [
@@ -25235,7 +25235,7 @@ xyes
 "
 ;
 then
-AC_CHECK_HEADER
+MOZ_CHECK_HEADER
 (
 sys
 /
@@ -25301,7 +25301,7 @@ aix5
 ;
 *
 )
-AC_CHECK_HEADERS
+MOZ_CHECK_HEADERS
 (
 sys
 /
@@ -25317,7 +25317,7 @@ Performance
 measurement
 headers
 .
-AC_CHECK_HEADER
+MOZ_CHECK_HEADER
 (
 linux
 /
@@ -25575,7 +25575,7 @@ AC_SEARCH_LIBS
 (
 dlopen
 dl
-AC_CHECK_HEADER
+MOZ_CHECK_HEADER
 (
 dlfcn
 .
@@ -29484,7 +29484,7 @@ headers
 functions
 MALLOC_H
 =
-AC_CHECK_HEADER
+MOZ_CHECK_HEADER
 (
 malloc
 .
@@ -29507,7 +29507,7 @@ MALLOC_H
 "
 ;
 then
-AC_CHECK_HEADER
+MOZ_CHECK_HEADER
 (
 malloc
 /
@@ -29534,7 +29534,7 @@ MALLOC_H
 "
 ;
 then
-AC_CHECK_HEADER
+MOZ_CHECK_HEADER
 (
 sys
 /
@@ -35107,7 +35107,7 @@ MOZ_VALGRIND
 "
 ;
 then
-AC_CHECK_HEADER
+MOZ_CHECK_HEADER
 (
 [
 valgrind
@@ -37838,7 +37838,7 @@ SKIP_LIBRARY_CHECKS
 "
 ;
 then
-AC_CHECK_HEADER
+MOZ_CHECK_HEADER
 (
 unwind
 .
