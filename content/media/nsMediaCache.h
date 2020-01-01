@@ -98,6 +98,10 @@ mCacheSuspended
 (
 false
 )
+mChannelEnded
+(
+false
+)
 mDidNotifyDataEnded
 (
 false
@@ -642,6 +646,9 @@ mIsSeekable
 ;
 bool
 mCacheSuspended
+;
+bool
+mChannelEnded
 ;
 bool
 mDidNotifyDataEnded
