@@ -774,7 +774,7 @@ ul
 ENTITY
 netOffline
 .
-longDesc2
+overrideLongDesc
 "
 <
 p
