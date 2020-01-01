@@ -6859,6 +6859,15 @@ view
 "
 )
 ;
+if
+(
+!
+IsRefreshEnabled
+(
+)
+)
+return
+;
 nsWeakView
 parentWeakView
 =
