@@ -631,7 +631,7 @@ PR_FALSE
 ;
 }
 const
-nsAdoptingString
+nsString
 *
 const
 nsSVGFeatures
@@ -640,7 +640,7 @@ nsSVGFeatures
 kIgnoreSystemLanguage
 =
 (
-nsAdoptingString
+nsString
 *
 )
 0x01
@@ -655,7 +655,7 @@ nsIContent
 *
 aContent
 const
-nsAdoptingString
+nsString
 *
 aAcceptLangs
 )
@@ -788,10 +788,9 @@ PR_TRUE
 ;
 }
 const
-nsAdoptingString
-&
+nsAutoString
 acceptLangs
-=
+(
 aAcceptLangs
 ?
 *
@@ -807,6 +806,7 @@ intl
 .
 accept_languages
 "
+)
 )
 ;
 if

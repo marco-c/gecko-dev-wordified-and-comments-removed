@@ -48,7 +48,7 @@ aAcceptLangs
 ;
 static
 const
-nsAdoptingString
+nsString
 *
 const
 kIgnoreSystemLanguage
@@ -61,7 +61,7 @@ nsIContent
 *
 aContent
 const
-nsAdoptingString
+nsString
 *
 aAcceptLangs
 =
