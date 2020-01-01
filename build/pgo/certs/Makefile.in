@@ -445,6 +445,10 @@ server
 _SERVER_CERTS
 =
 \
+bug413909cert
+.
+server
+\
 (
 NULL
 )
