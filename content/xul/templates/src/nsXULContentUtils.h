@@ -56,10 +56,6 @@ nsXULContentUtils
 protected
 :
 static
-nsrefcnt
-gRefCnt
-;
-static
 nsIRDFService
 *
 gRDF
