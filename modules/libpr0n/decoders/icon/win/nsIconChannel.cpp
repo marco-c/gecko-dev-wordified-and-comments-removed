@@ -1781,6 +1781,7 @@ biCompression
 =
 BI_BITFIELDS
 )
+{
 aHeader
 -
 >
@@ -1788,6 +1789,7 @@ biCompression
 =
 BI_RGB
 ;
+}
 colorTableSize
 =
 0
