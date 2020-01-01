@@ -685,6 +685,9 @@ MacOSFamilyEntry
 >
 mPrefFonts
 ;
+gfxSparseBitSet
+mCodepointsWithNoFonts
+;
 }
 ;
 #
