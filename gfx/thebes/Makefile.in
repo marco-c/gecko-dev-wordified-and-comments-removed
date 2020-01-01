@@ -979,6 +979,8 @@ msimg32
 ole32
 version
 advapi32
+shlwapi
+shell32
 endif
 CPPSRCS
 +
