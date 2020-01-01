@@ -10246,6 +10246,16 @@ addToRecentDocs
 if
 (
 addToRecentDocs
+&
+&
+!
+nsDownloadManager
+:
+:
+gDownloadManagerService
+-
+>
+mInPrivateBrowsing
 )
 :
 :
