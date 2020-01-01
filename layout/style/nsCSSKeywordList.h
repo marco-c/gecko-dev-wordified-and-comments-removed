@@ -1598,13 +1598,6 @@ double
 )
 CSS_KEY
 (
-drop
--
-shadow
-drop_shadow
-)
-CSS_KEY
-(
 e
 -
 resize
