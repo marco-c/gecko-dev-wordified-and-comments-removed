@@ -35,6 +35,13 @@ h
 #
 include
 "
+jstypedarrayinlines
+.
+h
+"
+#
+include
+"
 TypePolicy
 .
 h
