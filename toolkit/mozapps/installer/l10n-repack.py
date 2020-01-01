@@ -108,6 +108,9 @@ set
 [
     
 '
+*
+*
+/
 crashreporter
 *
 .
