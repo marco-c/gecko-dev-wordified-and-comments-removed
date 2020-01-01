@@ -291,6 +291,9 @@ html
 "
 privileged
 :
+false
+hide
+:
 true
 }
 feedback
