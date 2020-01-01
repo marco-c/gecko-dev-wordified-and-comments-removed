@@ -880,7 +880,7 @@ forceOnline
 {
 #
 ifdef
-MOZ_ENABLE_LIBCONIC
+MOZ_PLATFORM_MAEMO
 Services
 .
 io
