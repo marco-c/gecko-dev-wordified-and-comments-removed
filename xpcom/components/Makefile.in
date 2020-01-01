@@ -421,6 +421,9 @@ xpcomcomponents_s
 GRE_MODULE
 =
 1
+LIBXUL_LIBRARY
+=
+1
 MOZILLA_INTERNAL_API
 =
 1
@@ -467,6 +470,10 @@ nsCategoryManager
 cpp
 \
 nsComponentManager
+.
+cpp
+\
+ManifestParser
 .
 cpp
 \
@@ -577,6 +584,16 @@ build
 I
 .
 .
+\
+-
+I
+(
+topsrcdir
+)
+/
+chrome
+/
+src
 \
 (
 NULL

@@ -655,6 +655,7 @@ argv
 ;
 XRE_AddComponentLocation
 (
+NS_COMPONENT_LOCATION
 nsCOMPtr
 <
 nsILocalFile
@@ -672,6 +673,7 @@ core
 ;
 XRE_AddComponentLocation
 (
+NS_COMPONENT_LOCATION
 nsCOMPtr
 <
 nsILocalFile

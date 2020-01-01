@@ -731,11 +731,6 @@ COMPOSER_MODULE
 \
 MODULE
 (
-nsChromeModule
-)
-\
-MODULE
-(
 application
 )
 \
