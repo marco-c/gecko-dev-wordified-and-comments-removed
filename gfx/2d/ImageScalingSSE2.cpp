@@ -21,6 +21,13 @@ xmmintrin
 .
 h
 >
+#
+include
+<
+emmintrin
+.
+h
+>
 MOZ_ALWAYS_INLINE
 __m128i
 _mm_not_si128
