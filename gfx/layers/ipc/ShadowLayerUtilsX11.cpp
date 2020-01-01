@@ -419,6 +419,7 @@ PlatformAllocBuffer
 (
 aSize
 aContent
+DEFAULT_BUFFER_CAPS
 aFrontBuffer
 )
 &
@@ -427,6 +428,7 @@ PlatformAllocBuffer
 (
 aSize
 aContent
+DEFAULT_BUFFER_CAPS
 aBackBuffer
 )
 )
@@ -447,6 +449,8 @@ gfxASurface
 :
 gfxContentType
 aContent
+uint32_t
+aCaps
 SurfaceDescriptor
 *
 aBuffer
@@ -458,6 +462,17 @@ if
 UsingXCompositing
 (
 )
+)
+{
+return
+false
+;
+}
+if
+(
+MAP_AS_IMAGE_SURFACE
+&
+aCaps
 )
 {
 return

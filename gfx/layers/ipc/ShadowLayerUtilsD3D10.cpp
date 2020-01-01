@@ -72,6 +72,7 @@ gfxASurface
 :
 :
 gfxContentType
+uint32_t
 SurfaceDescriptor
 *
 )
