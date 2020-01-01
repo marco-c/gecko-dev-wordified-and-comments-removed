@@ -1870,7 +1870,6 @@ JSContext
 cx
 JSObject
 *
-obj
 const
 jsval
 &
@@ -3694,7 +3693,6 @@ JSContext
 cx
 JSObject
 *
-obj
 const
 jsval
 &
