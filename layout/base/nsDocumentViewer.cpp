@@ -1439,6 +1439,11 @@ mInPermitUnload
 :
 1
 ;
+unsigned
+mInPermitUnloadPrompt
+:
+1
+;
 #
 ifdef
 NS_PRINTING
@@ -3746,6 +3751,9 @@ mInPermitUnload
 |
 |
 mCallerIsClosingWindow
+|
+|
+mInPermitUnloadPrompt
 )
 {
 return
@@ -4197,6 +4205,10 @@ sync
 mDocument
 )
 ;
+mInPermitUnloadPrompt
+=
+true
+;
 rv
 =
 prompt
@@ -4216,6 +4228,10 @@ dummy
 &
 buttonPressed
 )
+;
+mInPermitUnloadPrompt
+=
+false
 ;
 NS_ENSURE_SUCCESS
 (
