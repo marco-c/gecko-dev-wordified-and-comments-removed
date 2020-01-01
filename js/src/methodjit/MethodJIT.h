@@ -1618,6 +1618,7 @@ CompileStatus
 {
 Compile_Okay
 Compile_Abort
+Compile_Overflow
 Compile_Error
 }
 ;
