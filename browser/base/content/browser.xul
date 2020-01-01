@@ -11820,6 +11820,15 @@ addonBarCmd
 label
 ;
 "
+accesskey
+=
+"
+&
+addonBarCmd
+.
+accesskey
+;
+"
 collapsed
 =
 "
