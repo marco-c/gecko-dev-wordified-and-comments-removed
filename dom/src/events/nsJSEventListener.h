@@ -123,6 +123,15 @@ nsJSEventListener
 )
 protected
 :
+virtual
+void
+UpdateScopeObject
+(
+JSObject
+*
+aScopeObject
+)
+;
 bool
 IsBlackForCC
 (
