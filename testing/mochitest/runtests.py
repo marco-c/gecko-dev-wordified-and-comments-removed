@@ -3491,6 +3491,8 @@ js
 e
 "
 "
+"
+"
 const
 _PROFILE_PATH
 =
@@ -3524,6 +3526,7 @@ server
 s
 '
 ;
+                     
 const
 _TEST_PREFIX
 =
@@ -3533,6 +3536,17 @@ testPrefix
 )
 s
 ;
+const
+_DISPLAY_RESULTS
+=
+%
+(
+displayResults
+)
+s
+;
+"
+"
 "
 %
                    
@@ -3572,6 +3586,7 @@ server
 self
 .
 webServer
+                    
 "
 testPrefix
 "
@@ -3579,6 +3594,21 @@ testPrefix
 self
 .
 testPrefix
+"
+displayResults
+"
+:
+str
+(
+not
+self
+.
+_closeWhenDone
+)
+.
+lower
+(
+)
 }
             
 "
