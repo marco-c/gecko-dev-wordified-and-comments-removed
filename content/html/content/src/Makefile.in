@@ -105,10 +105,6 @@ nsGenericHTMLElement
 .
 h
 \
-nsHTMLIFrameElement
-.
-h
-\
 nsClientRect
 .
 h
@@ -183,6 +179,10 @@ HTMLHeadingElement
 h
 \
 HTMLHRElement
+.
+h
+\
+HTMLIFrameElement
 .
 h
 \
@@ -420,7 +420,7 @@ HTMLHeadingElement
 .
 cpp
 \
-nsHTMLIFrameElement
+HTMLIFrameElement
 .
 cpp
 \

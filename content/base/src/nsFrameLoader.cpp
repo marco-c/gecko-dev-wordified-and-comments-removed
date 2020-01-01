@@ -486,7 +486,11 @@ h
 #
 include
 "
-nsHTMLIFrameElement
+mozilla
+/
+dom
+/
+HTMLIFrameElement
 .
 h
 "
@@ -1940,11 +1944,11 @@ loadInfo
 NS_ERROR_FAILURE
 )
 ;
-nsHTMLIFrameElement
+HTMLIFrameElement
 *
 iframe
 =
-nsHTMLIFrameElement
+HTMLIFrameElement
 :
 :
 FromContent
