@@ -372,6 +372,10 @@ bool
 sInSecureInputMode
 ;
 static
+bool
+sIsTestingIME
+;
+static
 nsTextStateManager
 *
 sTextStateObserver
