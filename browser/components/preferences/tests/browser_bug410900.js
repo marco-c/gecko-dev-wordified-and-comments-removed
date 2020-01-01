@@ -206,11 +206,6 @@ loaded
 )
 return
 ;
-runTest
-(
-win
-)
-;
 obs
 .
 removeObserver
@@ -225,6 +220,11 @@ pane
 -
 loaded
 "
+)
+;
+runTest
+(
+win
 )
 ;
 }
