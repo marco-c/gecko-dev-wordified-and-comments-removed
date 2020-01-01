@@ -1153,7 +1153,7 @@ NbArg
 (
 uint64
 (
-TypeToArgProperties
+TypeToRootType
 <
 A
 #
