@@ -1,10 +1,6 @@
 #
-if
-!
-defined
-(
+ifndef
 CUBEB_c2f983e9_c96f_e71c_72c3_bbf62992a382
-)
 #
 define
 CUBEB_c2f983e9_c96f_e71c_72c3_bbf62992a382
@@ -20,11 +16,8 @@ stdint
 h
 >
 #
-if
-defined
-(
+ifdef
 __cplusplus
-)
 extern
 "
 C
@@ -317,11 +310,8 @@ position
 )
 ;
 #
-if
-defined
-(
+ifdef
 __cplusplus
-)
 }
 #
 endif

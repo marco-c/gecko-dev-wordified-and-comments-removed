@@ -52,11 +52,8 @@ internal
 h
 "
 #
-if
-defined
-(
+ifdef
 CUBEB_SNDIO_DEBUG
-)
 #
 define
 DPR
@@ -1222,7 +1219,7 @@ s
 -
 >
 hdl
-sndio_onmove
+cubeb_onmove
 s
 )
 ;
@@ -1505,7 +1502,7 @@ s
 >
 th
 NULL
-sndio_mainloop
+cubeb_mainloop
 s
 )
 ;
