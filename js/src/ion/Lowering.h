@@ -719,6 +719,14 @@ ins
 )
 ;
 bool
+visitConstantElements
+(
+MConstantElements
+*
+ins
+)
+;
+bool
 visitLoadSlot
 (
 MLoadSlot
