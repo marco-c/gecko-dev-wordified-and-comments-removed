@@ -8598,7 +8598,7 @@ cx
 obj
 index
 rval
-false
+strict
 )
 ;
 Rooted
@@ -8624,7 +8624,7 @@ cx
 obj
 propname
 rval
-false
+strict
 )
 ;
 }
