@@ -604,7 +604,7 @@ NS_OK
 NS_IMETHOD
 GetIndentLevel
 (
-PRUint32
+PRInt32
 *
 aIndentLevel
 )

@@ -3217,6 +3217,11 @@ type
 "
 places
 "
+showRoot
+=
+"
+true
+"
 place
 =
 "
@@ -3227,7 +3232,7 @@ amp
 ;
 folder
 =
-1
+2
 &
 amp
 ;
@@ -3238,12 +3243,6 @@ group
 amp
 ;
 excludeItems
-=
-1
-&
-amp
-;
-excludeQueries
 =
 1
 "
