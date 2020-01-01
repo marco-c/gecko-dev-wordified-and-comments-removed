@@ -395,10 +395,9 @@ false
 ;
 if
 (
-mFieldTextLength
-=
-=
-0
+IsEmpty
+(
+)
 )
 {
 return
