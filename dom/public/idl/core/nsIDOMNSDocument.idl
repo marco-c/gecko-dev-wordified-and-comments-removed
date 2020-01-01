@@ -510,6 +510,11 @@ contentType
 readonly
 attribute
 DOMString
+readyState
+;
+readonly
+attribute
+DOMString
 lastModified
 ;
 readonly

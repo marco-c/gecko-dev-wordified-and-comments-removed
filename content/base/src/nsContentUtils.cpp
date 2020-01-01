@@ -15807,6 +15807,17 @@ SetScriptHandlingObject
 aEventObject
 )
 ;
+document
+-
+>
+SetReadyStateInternal
+(
+nsIDocument
+:
+:
+READYSTATE_COMPLETE
+)
+;
 return
 NS_OK
 ;
