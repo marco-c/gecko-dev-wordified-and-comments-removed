@@ -547,10 +547,6 @@ file_bug481558
 .
 xbl
 \
-test_bug526178
-.
-xhtml
-\
 (
 NULL
 )

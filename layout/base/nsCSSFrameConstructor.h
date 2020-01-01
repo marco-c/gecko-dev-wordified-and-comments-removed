@@ -116,9 +116,6 @@ class
 nsPageContentFrame
 ;
 struct
-PendingBinding
-;
-struct
 nsFindFrameHint
 {
 nsIFrame
@@ -1744,9 +1741,6 @@ PRInt32
 aNameSpaceID
 PRInt32
 aContentIndex
-PendingBinding
-*
-aPendingBinding
 already_AddRefed
 <
 nsStyleContext
@@ -1766,7 +1760,6 @@ aContent
 aTag
 aNameSpaceID
 aContentIndex
-aPendingBinding
 aStyleContext
 )
 ;
@@ -2315,9 +2308,6 @@ PRInt32
 aNameSpaceID
 PRInt32
 aContentIndex
-PendingBinding
-*
-aPendingBinding
 already_AddRefed
 <
 nsStyleContext
@@ -2344,10 +2334,6 @@ aNameSpaceID
 mContentIndex
 (
 aContentIndex
-)
-mPendingBinding
-(
-aPendingBinding
 )
 mStyleContext
 (
@@ -2470,10 +2456,6 @@ mNameSpaceID
 ;
 PRInt32
 mContentIndex
-;
-PendingBinding
-*
-mPendingBinding
 ;
 nsRefPtr
 <
@@ -2923,9 +2905,6 @@ aParent
 nsIFrame
 *
 aParentFrame
-PendingBinding
-*
-aPendingBinding
 nsFrameItems
 &
 aChildItems
@@ -3272,9 +3251,6 @@ aFrameItems
 const
 PRBool
 aAllowBlockStyles
-PendingBinding
-*
-aPendingBinding
 )
 ;
 nsIFrame
@@ -3401,9 +3377,6 @@ nsStyleContext
 aStyleContext
 PRBool
 aBuildCombobox
-PendingBinding
-*
-aPendingBinding
 nsFrameItems
 &
 aFrameItems
@@ -3598,9 +3571,6 @@ nsFrameItems
 aFrameItems
 PRBool
 aAbsPosContainer
-PendingBinding
-*
-aPendingBinding
 )
 ;
 nsresult
