@@ -231,8 +231,9 @@ startTime
 =
 minStartTime
         
+for
 thread
-=
+in
 fileData
 [
 '
@@ -244,10 +245,8 @@ profileJSON
 threads
 '
 ]
-[
-0
-]
-        
+:
+            
 thread
 [
 '
@@ -255,10 +254,21 @@ name
 '
 ]
 =
-pname
+thread
+[
+'
+name
+'
+]
 +
 "
 (
+"
++
+pname
++
+"
+:
 "
 +
 pid
@@ -266,14 +276,14 @@ pid
 "
 )
 "
-        
+            
 threads
 .
 append
 (
 thread
 )
-        
+            
 pidStr
 =
 "
@@ -287,7 +297,7 @@ int
 pid
 )
 )
-        
+            
 thread
 [
 '
@@ -311,7 +321,7 @@ meta
 startTime
 '
 ]
-        
+            
 samples
 =
 thread
@@ -320,7 +330,7 @@ thread
 samples
 '
 ]
-        
+            
 for
 sample
 in
@@ -331,7 +341,7 @@ samples
 '
 ]
 :
-            
+                
 for
 frame
 in
@@ -342,7 +352,7 @@ frames
 '
 ]
 :
-                
+                    
 if
 "
 location
@@ -367,7 +377,7 @@ location
 0x
 '
 :
-                    
+                        
 frame
 [
 '
