@@ -11990,7 +11990,7 @@ W
 sign
 -
 compare
-ac_c_has_sign_compare
+ac_cxx_has_sign_compare
 )
 #
 Turn
