@@ -93,6 +93,10 @@ SocialService
 .
 jsm
 \
+SocialProvider
+.
+jsm
+\
 (
 NULL
 )
