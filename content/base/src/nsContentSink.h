@@ -803,6 +803,11 @@ mDroppedTimer
 1
 ;
 PRUint8
+mInTitle
+:
+1
+;
+PRUint8
 mChangeScrollPosWhenScrollingToRef
 :
 1

@@ -526,7 +526,7 @@ currentWindow
 ;
 nsCOMPtr
 <
-nsIDOMNSDocument
+nsIDocument
 >
 doc
 =
@@ -539,12 +539,13 @@ if
 (
 doc
 )
+mCtxDocTitle
+=
 doc
 -
 >
-GetTitle
+GetDocumentTitle
 (
-mCtxDocTitle
 )
 ;
 return

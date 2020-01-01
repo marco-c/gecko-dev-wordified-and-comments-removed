@@ -1060,10 +1060,6 @@ file_bug28293
 .
 sjs
 \
-test_title
-.
-html
-\
 (
 NULL
 )
