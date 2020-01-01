@@ -7980,9 +7980,6 @@ false
 endif
 #
 ifdef
-MOZ_IPC
-#
-ifdef
 XP_MACOSX
 pref
 (
@@ -8036,7 +8033,8 @@ true
 )
 ;
 #
-else
+elifdef
+MOZ_IPC
 pref
 (
 "
@@ -8051,8 +8049,6 @@ enabled
 true
 )
 ;
-#
-endif
 #
 else
 pref
