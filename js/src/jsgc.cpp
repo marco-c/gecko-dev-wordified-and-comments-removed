@@ -305,6 +305,12 @@ windows
 h
 >
 #
+elif
+defined
+(
+__SYMBIAN32__
+)
+#
 else
 #
 if
