@@ -9945,7 +9945,11 @@ size_t
 len
 )
 >
-SIZE_MAX
+size_t
+(
+-
+1
+)
 /
 (
 2
