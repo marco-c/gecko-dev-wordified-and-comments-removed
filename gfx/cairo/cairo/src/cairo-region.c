@@ -13,7 +13,7 @@ cairo_region_t
 region
 )
 {
-pixman_region_init
+pixman_region32_init
 (
 &
 region
@@ -34,7 +34,7 @@ cairo_rectangle_int_t
 rect
 )
 {
-pixman_region_init_rect
+pixman_region32_init_rect
 (
 &
 region
@@ -73,16 +73,16 @@ int
 count
 )
 {
-pixman_box16_t
+pixman_box32_t
 stack_pboxes
 [
 CAIRO_STACK_ARRAY_LENGTH
 (
-pixman_box16_t
+pixman_box32_t
 )
 ]
 ;
-pixman_box16_t
+pixman_box32_t
 *
 pboxes
 =
@@ -113,7 +113,7 @@ _cairo_malloc_ab
 count
 sizeof
 (
-pixman_box16_t
+pixman_box32_t
 )
 )
 ;
@@ -214,7 +214,7 @@ y
 if
 (
 !
-pixman_region_init_rects
+pixman_region32_init_rects
 (
 &
 region
@@ -256,7 +256,7 @@ cairo_region_t
 region
 )
 {
-pixman_region_fini
+pixman_region32_fini
 (
 &
 region
@@ -280,7 +280,7 @@ src
 if
 (
 !
-pixman_region_copy
+pixman_region32_copy
 (
 &
 dst
@@ -313,7 +313,7 @@ region
 )
 {
 return
-pixman_region_n_rects
+pixman_region32_n_rects
 (
 &
 region
@@ -341,7 +341,7 @@ boxes
 int
 nboxes
 ;
-pixman_box16_t
+pixman_box32_t
 *
 pboxes
 ;
@@ -354,7 +354,7 @@ i
 ;
 pboxes
 =
-pixman_region_rectangles
+pixman_region32_rectangles
 (
 &
 region
@@ -533,11 +533,11 @@ cairo_rectangle_int_t
 extents
 )
 {
-pixman_box16_t
+pixman_box32_t
 *
 pextents
 =
-pixman_region_extents
+pixman_region32_extents
 (
 &
 region
@@ -614,7 +614,7 @@ b
 if
 (
 !
-pixman_region_subtract
+pixman_region32_subtract
 (
 &
 dst
@@ -660,7 +660,7 @@ b
 if
 (
 !
-pixman_region_intersect
+pixman_region32_intersect
 (
 &
 dst
@@ -706,7 +706,7 @@ rect
 if
 (
 !
-pixman_region_union_rect
+pixman_region32_union_rect
 (
 &
 dst
@@ -758,7 +758,7 @@ return
 (
 cairo_bool_t
 )
-pixman_region_not_empty
+pixman_region32_not_empty
 (
 &
 region
@@ -780,7 +780,7 @@ int
 y
 )
 {
-pixman_region_translate
+pixman_region32_translate
 (
 &
 region
@@ -803,7 +803,7 @@ cairo_rectangle_int_t
 rect
 )
 {
-pixman_box16_t
+pixman_box32_t
 pbox
 ;
 pbox
@@ -853,7 +853,7 @@ rect
 height
 ;
 return
-pixman_region_contains_rectangle
+pixman_region32_contains_rectangle
 (
 &
 region

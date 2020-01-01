@@ -6,11 +6,11 @@ define
 CAIRO_SVG_H
 #
 include
-<
+"
 cairo
 .
 h
->
+"
 #
 if
 CAIRO_HAS_SVG_SURFACE

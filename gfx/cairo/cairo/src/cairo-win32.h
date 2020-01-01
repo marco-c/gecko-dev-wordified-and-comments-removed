@@ -6,11 +6,11 @@ define
 _CAIRO_WIN32_H_
 #
 include
-<
+"
 cairo
 .
 h
->
+"
 #
 if
 CAIRO_HAS_WIN32_SURFACE

@@ -220,6 +220,16 @@ ref_count
 )
 return
 ;
+if
+(
+font_face
+-
+>
+backend
+-
+>
+destroy
+)
 font_face
 -
 >
@@ -1345,7 +1355,7 @@ unscaled_font
 ;
 }
 void
-_cairo_font_reset_static_data
+_cairo_font_face_reset_static_data
 (
 void
 )

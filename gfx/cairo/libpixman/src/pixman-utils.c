@@ -35,6 +35,7 @@ mmx
 .
 h
 "
+PIXMAN_EXPORT
 pixman_bool_t
 pixman_transform_point_3d
 (
@@ -180,6 +181,7 @@ return
 TRUE
 ;
 }
+PIXMAN_EXPORT
 pixman_bool_t
 pixman_blt
 (
@@ -523,6 +525,7 @@ stride
 ;
 }
 }
+PIXMAN_EXPORT
 pixman_bool_t
 pixman_fill
 (
@@ -682,6 +685,7 @@ return
 TRUE
 ;
 }
+PIXMAN_EXPORT
 pixman_fixed_t
 pixman_sample_ceil_y
 (
@@ -809,6 +813,7 @@ b
 )
 )
 )
+PIXMAN_EXPORT
 pixman_fixed_t
 pixman_sample_floor_y
 (
@@ -891,6 +896,7 @@ f
 )
 ;
 }
+PIXMAN_EXPORT
 void
 pixman_edge_step
 (
@@ -1153,6 +1159,7 @@ stepx_p
 stepx
 ;
 }
+PIXMAN_EXPORT
 void
 pixman_edge_init
 (
@@ -1353,6 +1360,7 @@ y_top
 )
 ;
 }
+PIXMAN_EXPORT
 void
 pixman_line_fixed_edge_init
 (
@@ -1608,6 +1616,7 @@ c
 )
 ;
 }
+PIXMAN_EXPORT
 int
 pixman_version
 (
@@ -1618,6 +1627,7 @@ return
 PIXMAN_VERSION
 ;
 }
+PIXMAN_EXPORT
 const
 char
 *
@@ -1630,6 +1640,7 @@ return
 PIXMAN_VERSION_STRING
 ;
 }
+PIXMAN_EXPORT
 pixman_bool_t
 pixman_format_supported_destination
 (
@@ -1642,6 +1653,12 @@ switch
 format
 )
 {
+case
+PIXMAN_a2b10g10r10
+:
+case
+PIXMAN_x2b10g10r10
+:
 case
 PIXMAN_a8r8g8b8
 :
@@ -1757,6 +1774,7 @@ FALSE
 ;
 }
 }
+PIXMAN_EXPORT
 pixman_bool_t
 pixman_format_supported_source
 (

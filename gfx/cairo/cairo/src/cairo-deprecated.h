@@ -13,9 +13,6 @@ define
 CAIRO_FONT_TYPE_ATSUI
 CAIRO_FONT_TYPE_QUARTZ
 #
-ifndef
-_CAIROINT_H_
-#
 define
 cairo_current_font_extents
 cairo_current_font_extents_REPLACED_BY_cairo_font_extents
@@ -275,7 +272,5 @@ cairo_get_status_string_DEPRECATED_BY_cairo_status_AND_cairo_status_to_string
 define
 cairo_status_string
 cairo_status_string_DEPRECATED_BY_cairo_status_AND_cairo_status_to_string
-#
-endif
 #
 endif

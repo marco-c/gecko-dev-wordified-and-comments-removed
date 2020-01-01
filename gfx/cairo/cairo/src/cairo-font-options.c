@@ -157,11 +157,6 @@ return
 options
 ;
 }
-slim_hidden_def
-(
-cairo_font_options_create
-)
-;
 cairo_font_options_t
 *
 cairo_font_options_copy
@@ -258,11 +253,6 @@ options
 )
 ;
 }
-slim_hidden_def
-(
-cairo_font_options_destroy
-)
-;
 cairo_status_t
 cairo_font_options_status
 (

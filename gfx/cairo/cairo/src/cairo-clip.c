@@ -871,7 +871,7 @@ cairo_rectangle_int_t
 extents
 )
 {
-cairo_pattern_union_t
+cairo_surface_pattern_t
 pattern
 ;
 cairo_status_t
@@ -891,8 +891,6 @@ _cairo_pattern_init_for_surface
 (
 &
 pattern
-.
-surface
 clip
 -
 >
@@ -1584,10 +1582,6 @@ surface_rect
 .
 height
 CAIRO_COLOR_TRANSPARENT
-&
-pattern
-.
-base
 )
 ;
 if
@@ -2110,7 +2104,7 @@ while
 clip_path
 )
 {
-_cairo_path_fixed_device_transform
+_cairo_path_fixed_transform
 (
 &
 clip_path
