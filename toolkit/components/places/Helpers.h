@@ -43,13 +43,6 @@ Telemetry
 .
 h
 "
-#
-include
-"
-jsapi
-.
-h
-"
 namespace
 mozilla
 {
@@ -97,7 +90,7 @@ mozIStorageResultSet
 NS_IMETHOD
 HandleCompletion
 (
-uint16_t
+PRUint16
 )
 ;
 class
@@ -112,7 +105,7 @@ Bind
 mozIStorageStatement
 *
 statement
-int32_t
+PRInt32
 index
 nsIURI
 *
@@ -126,7 +119,7 @@ Bind
 mozIStorageStatement
 *
 statement
-int32_t
+PRInt32
 index
 const
 nsACString
@@ -174,7 +167,7 @@ Bind
 mozIStorageBindingParams
 *
 aParams
-int32_t
+PRInt32
 index
 nsIURI
 *
@@ -188,7 +181,7 @@ Bind
 mozIStorageBindingParams
 *
 aParams
-int32_t
+PRInt32
 index
 const
 nsACString
@@ -406,7 +399,7 @@ GetHiddenState
 (
 bool
 aIsRedirect
-uint32_t
+PRUint32
 aTransitionType
 )
 ;
@@ -415,11 +408,14 @@ PlacesEvent
 :
 public
 nsRunnable
+public
+mozIStorageCompletionCallback
 {
 public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_NSIRUNNABLE
+NS_DECL_MOZISTORAGECOMPLETIONCALLBACK
 PlacesEvent
 (
 const
@@ -468,7 +464,7 @@ aTopic
 NS_IMETHOD
 HandleCompletion
 (
-uint16_t
+PRUint16
 aReason
 )
 ;
@@ -520,7 +516,7 @@ aStart
 NS_IMETHOD
 HandleCompletion
 (
-uint16_t
+PRUint16
 aReason
 )
 ;
