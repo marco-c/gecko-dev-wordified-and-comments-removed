@@ -852,7 +852,7 @@ uri
 aURI
 -
 >
-GetSpec
+GetAsciiSpec
 (
 uri
 )

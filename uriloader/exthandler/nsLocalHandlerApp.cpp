@@ -215,7 +215,7 @@ spec
 aURI
 -
 >
-GetSpec
+GetAsciiSpec
 (
 spec
 )

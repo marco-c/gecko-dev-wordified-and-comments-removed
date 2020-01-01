@@ -546,7 +546,7 @@ uriSpec
 aURI
 -
 >
-GetSpec
+GetAsciiSpec
 (
 uriSpec
 )
