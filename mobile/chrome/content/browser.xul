@@ -2590,7 +2590,7 @@ event
 "
 >
 <
-stack
+deck
 id
 =
 "
@@ -2598,7 +2598,7 @@ urlbar
 -
 image
 -
-stack
+deck
 "
 >
 <
@@ -2609,10 +2609,6 @@ id
 urlbar
 -
 throbber
-"
-src
-=
-"
 "
 /
 >
@@ -2625,15 +2621,11 @@ urlbar
 -
 favicon
 "
-src
-=
-"
-"
 /
 >
 <
 /
-stack
+deck
 >
 <
 /
