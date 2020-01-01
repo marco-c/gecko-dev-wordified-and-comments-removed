@@ -4623,8 +4623,6 @@ Bridge
 SetNativeWindowFormat
 (
 sNativeWindow
-0
-0
 AndroidBridge
 :
 :

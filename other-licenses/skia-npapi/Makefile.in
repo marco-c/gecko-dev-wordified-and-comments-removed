@@ -493,16 +493,6 @@ include
 /
 config
 \
--
-I
-(
-topsrcdir
-)
-/
-gfx
-/
-gl
-\
 (
 NULL
 )
