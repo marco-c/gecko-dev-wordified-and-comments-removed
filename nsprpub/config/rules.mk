@@ -2986,8 +2986,19 @@ PWD
 shell
 pwd
 )
-abspath
+#
+The
+quotes
+allow
+absolute
+paths
+to
+contain
+spaces
+.
+pr_abspath
 =
+"
 (
 if
 (
@@ -3022,6 +3033,7 @@ PWD
 )
 )
 )
+"
 endif
 (
 OBJDIR
@@ -3062,7 +3074,7 @@ CCCFLAGS
 )
 (
 call
-abspath
+pr_abspath
 <
 )
 else
@@ -3103,7 +3115,7 @@ CCCFLAGS
 )
 (
 call
-abspath
+pr_abspath
 <
 )
 else
@@ -3196,7 +3208,7 @@ CFLAGS
 )
 (
 call
-abspath
+pr_abspath
 <
 )
 else
@@ -3237,7 +3249,7 @@ CFLAGS
 )
 (
 call
-abspath
+pr_abspath
 <
 )
 else

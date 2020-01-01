@@ -695,7 +695,7 @@ CFLAGS
 Op
 (
 call
-abspath
+pr_abspath
 <
 )
 else
@@ -715,7 +715,7 @@ fp
 precise
 (
 call
-abspath
+pr_abspath
 <
 )
 endif
