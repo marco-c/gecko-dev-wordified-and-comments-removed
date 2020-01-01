@@ -4367,7 +4367,7 @@ vpname
 #
 define
 vpnum
-0
+0x40000000
 #
 define
 SET_VPNAME
