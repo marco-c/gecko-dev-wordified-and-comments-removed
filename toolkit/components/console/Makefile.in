@@ -411,13 +411,6 @@ config
 autoconf
 .
 mk
-PARALLEL_DIRS
-=
-hudservice
-\
-(
-NULL
-)
 EXTRA_PP_COMPONENTS
 =
 jsconsole
