@@ -2372,16 +2372,6 @@ drawable
 -
 nodpi
 /
-background
-.
-png
-\
-res
-/
-drawable
--
-nodpi
-/
 tabs_tray_bg
 .
 png

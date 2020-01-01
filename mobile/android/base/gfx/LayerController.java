@@ -409,7 +409,7 @@ return
 getDrawable
 (
 "
-background
+tabs_tray_selected_bg
 "
 )
 ;
