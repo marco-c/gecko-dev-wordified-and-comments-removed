@@ -677,10 +677,6 @@ StackShape
 child
 )
 {
-AssertCanGC
-(
-)
-;
 {
 RawShape
 shape

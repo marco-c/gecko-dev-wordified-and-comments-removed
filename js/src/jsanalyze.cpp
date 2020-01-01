@@ -85,10 +85,6 @@ jsbytecode
 pc
 )
 {
-AssertCanGC
-(
-)
-;
 printf
 (
 "

@@ -21375,10 +21375,6 @@ Reason
 reason
 )
 {
-AssertCanGC
-(
-)
-;
 Collect
 (
 rt
@@ -21412,10 +21408,6 @@ int64_t
 millis
 )
 {
-AssertCanGC
-(
-)
-;
 int64_t
 sliceBudget
 ;
@@ -21492,10 +21484,6 @@ Reason
 reason
 )
 {
-AssertCanGC
-(
-)
-;
 Collect
 (
 rt
@@ -21572,10 +21560,6 @@ int64_t
 objCount
 )
 {
-AssertCanGC
-(
-)
-;
 int64_t
 budget
 =

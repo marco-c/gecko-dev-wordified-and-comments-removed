@@ -1794,10 +1794,6 @@ InternBehavior
 ib
 )
 {
-AssertCanGC
-(
-)
-;
 if
 (
 str
@@ -2090,10 +2086,6 @@ InternBehavior
 ib
 )
 {
-AssertCanGC
-(
-)
-;
 CHECK_REQUEST
 (
 cx
@@ -2617,10 +2609,6 @@ MutableHandleAtom
 atomp
 )
 {
-AssertCanGC
-(
-)
-;
 if
 (
 mode
