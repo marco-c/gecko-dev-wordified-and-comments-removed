@@ -4523,6 +4523,8 @@ B
 let
 date
 =
+Number
+(
 end
 .
 toLocaleFormat
@@ -4531,6 +4533,7 @@ toLocaleFormat
 %
 d
 "
+)
 )
 ;
 dateTime
