@@ -128,13 +128,6 @@ h
 #
 include
 "
-nsIProxyObjectManager
-.
-h
-"
-#
-include
-"
 nsISocketProviderService
 .
 h

@@ -56,13 +56,6 @@ h
 #
 include
 "
-nsProxiedService
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
