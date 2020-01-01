@@ -676,10 +676,6 @@ JSObjectMap
 shape
 slotSpan
 )
-numSearches
-(
-0
-)
 table
 (
 NULL
@@ -808,10 +804,6 @@ JSSLOT_FREE
 (
 aclasp
 )
-)
-numSearches
-(
-0
 )
 table
 (
