@@ -150,3 +150,16 @@ to
 finish
 compiling
 .
+bug498815
+.
+patch
+:
+Fix
+for
+this
+bug
+from
+libtheora
+svn
+r16143
+.
