@@ -36563,17 +36563,6 @@ prevParent
 }
 else
 {
-NS_ASSERTION
-(
-PR_FALSE
-"
-no
-last
-inline
-frame
-"
-)
-;
 return
 PR_TRUE
 ;
