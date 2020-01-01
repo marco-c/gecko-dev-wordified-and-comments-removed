@@ -146,7 +146,7 @@ altitudeAccuracy
 heading
 :
 1
-velocity
+speed
 :
 1
 timestamp

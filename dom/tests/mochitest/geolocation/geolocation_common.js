@@ -206,7 +206,7 @@ heading
 ok
 (
 "
-velocity
+speed
 "
 in
 location
@@ -218,7 +218,7 @@ if
 there
 is
 a
-velocity
+speed
 "
 )
 ;
