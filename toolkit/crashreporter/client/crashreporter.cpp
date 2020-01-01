@@ -602,7 +602,6 @@ strings
 unescape
 )
 ;
-}
 f
 -
 >
@@ -610,6 +609,7 @@ close
 (
 )
 ;
+}
 delete
 f
 ;
@@ -790,7 +790,6 @@ strings
 escape
 )
 ;
-}
 f
 -
 >
@@ -798,6 +797,7 @@ close
 (
 )
 ;
+}
 delete
 f
 ;
