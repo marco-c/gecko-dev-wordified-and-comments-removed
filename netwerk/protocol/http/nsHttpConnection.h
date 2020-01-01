@@ -517,6 +517,11 @@ nsHttpResponseHead
 *
 )
 ;
+void
+StartSpdy
+(
+)
+;
 nsresult
 AddTransaction
 (
