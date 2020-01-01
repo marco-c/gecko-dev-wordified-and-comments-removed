@@ -435,9 +435,17 @@ browser_focus_steal_from_chrome
 .
 js
 \
+(
+warning
 browser_autofocus_background
 .
 js
+temporarily
+disabled
+see
+bug
+593378
+)
 \
 (
 NULL
