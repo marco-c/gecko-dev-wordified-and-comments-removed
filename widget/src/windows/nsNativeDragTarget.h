@@ -216,6 +216,9 @@ mCanMove
 PRBool
 mMovePreferred
 ;
+PRBool
+mTookOwnRef
+;
 nsIWidget
 *
 mWindow
