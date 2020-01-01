@@ -178,7 +178,7 @@ h
 #
 include
 "
-nsIDOMNSRange
+nsIDOMRange
 .
 h
 "
@@ -3601,18 +3601,6 @@ range
 )
 )
 ;
-nsCOMPtr
-<
-nsIDOMNSRange
->
-nsrange
-(
-do_QueryInterface
-(
-range
-)
-)
-;
 if
 (
 NS_FAILED
@@ -3622,7 +3610,7 @@ rv
 |
 |
 !
-nsrange
+range
 )
 continue
 ;
@@ -3634,7 +3622,7 @@ true
 (
 void
 )
-nsrange
+range
 -
 >
 IsPointInRange

@@ -186,9 +186,6 @@ class
 nsITransferable
 ;
 class
-nsIDOMNSRange
-;
-class
 nsIDocumentEncoder
 ;
 class

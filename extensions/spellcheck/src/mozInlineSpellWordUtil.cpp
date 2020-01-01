@@ -43,13 +43,6 @@ h
 #
 include
 "
-nsIDOMNSRange
-.
-h
-"
-#
-include
-"
 nsIDOMRange
 .
 h

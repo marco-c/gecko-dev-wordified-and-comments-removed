@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsIDOMNSRange
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -126,8 +119,6 @@ nsRange
 public
 nsIRange
 public
-nsIDOMNSRange
-public
 nsStubMutationObserver
 {
 public
@@ -150,7 +141,6 @@ nsRange
 nsIRange
 )
 NS_DECL_NSIDOMRANGE
-NS_DECL_NSIDOMNSRANGE
 virtual
 nsINode
 *

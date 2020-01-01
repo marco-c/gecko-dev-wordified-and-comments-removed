@@ -35,7 +35,7 @@ h
 #
 include
 "
-nsIDOMNSRange
+nsIDOMRange
 .
 h
 "
@@ -277,7 +277,7 @@ mFilter
 ;
 nsCOMPtr
 <
-nsIDOMNSRange
+nsIDOMRange
 >
 mRange
 ;

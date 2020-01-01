@@ -434,10 +434,6 @@ NULL
 XPIDLSRCS
 =
 \
-nsIDOMNSRange
-.
-idl
-\
 nsIDOMRangeException
 .
 idl

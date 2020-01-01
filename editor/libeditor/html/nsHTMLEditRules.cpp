@@ -127,13 +127,6 @@ h
 #
 include
 "
-nsIDOMNSRange
-.
-h
-"
-#
-include
-"
 nsIRangeUtils
 .
 h
