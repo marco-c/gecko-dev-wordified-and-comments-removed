@@ -30805,11 +30805,6 @@ true
 )
 ;
 let
-foundOtherBrowserWindow
-=
-false
-;
-let
 e
 =
 Services
@@ -30832,10 +30827,6 @@ e
 hasMoreElements
 (
 )
-&
-&
-!
-foundOtherBrowserWindow
 )
 {
 let
@@ -30861,15 +30852,6 @@ toolbar
 .
 visible
 )
-foundOtherBrowserWindow
-=
-true
-;
-}
-if
-(
-foundOtherBrowserWindow
-)
 return
 gBrowser
 .
@@ -30878,6 +30860,7 @@ warnAboutClosingTabs
 true
 )
 ;
+}
 let
 os
 =
