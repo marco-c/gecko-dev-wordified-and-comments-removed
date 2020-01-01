@@ -546,6 +546,10 @@ TestIOThreads
 .
 cpp
 \
+TestUDPSocketProvider
+.
+cpp
+\
 (
 NULL
 )

@@ -457,6 +457,10 @@ nsSOCKSIOLayer
 .
 cpp
 \
+nsUDPSocketProvider
+.
+cpp
+\
 (
 NULL
 )
