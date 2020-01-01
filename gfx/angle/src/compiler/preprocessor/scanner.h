@@ -12,11 +12,11 @@ __SCANNER_H
 #
 define
 MAX_SYMBOL_NAME_LEN
-128
+127
 #
 define
 MAX_STRING_LEN
-512
+511
 #
 include
 "
@@ -39,12 +39,6 @@ line
 ;
 }
 SourceLoc
-;
-int
-yyparse
-(
-void
-)
 ;
 int
 yylex_CPP

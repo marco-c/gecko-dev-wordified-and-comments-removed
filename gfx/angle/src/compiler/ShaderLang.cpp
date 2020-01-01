@@ -624,12 +624,6 @@ compiler
 return
 0
 ;
-GlobalPoolAllocator
-.
-push
-(
-)
-;
 bool
 success
 =
@@ -641,12 +635,6 @@ compile
 shaderStrings
 numStrings
 compileOptions
-)
-;
-GlobalPoolAllocator
-.
-pop
-(
 )
 ;
 return

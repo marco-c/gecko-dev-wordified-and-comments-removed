@@ -516,7 +516,7 @@ int
 mScopeDepth
 ;
 int
-mArgumentIndex
+mUniqueIndex
 ;
 }
 ;
