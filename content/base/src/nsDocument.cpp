@@ -6976,11 +6976,6 @@ DropDocumentReference
 (
 )
 ;
-NS_RELEASE
-(
-mStyleImageLoader
-)
-;
 }
 delete
 mHeaderData
@@ -8613,11 +8608,6 @@ css
 ImageLoader
 (
 this
-)
-;
-NS_ADDREF
-(
-mStyleImageLoader
 )
 ;
 mNodeInfoManager
