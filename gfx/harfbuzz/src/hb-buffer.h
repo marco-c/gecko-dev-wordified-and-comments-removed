@@ -697,13 +697,13 @@ const
 char
 *
 buf
+unsigned
 int
 buf_len
-const
-char
+unsigned
+int
 *
-*
-end_ptr
+buf_consumed
 hb_font_t
 *
 font
