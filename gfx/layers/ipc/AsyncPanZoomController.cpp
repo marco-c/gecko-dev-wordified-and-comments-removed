@@ -6439,6 +6439,12 @@ controller
 return
 ;
 }
+FrameMetrics
+:
+:
+ViewID
+scrollId
+;
 CSSRect
 contentRect
 ;
@@ -6446,6 +6452,12 @@ CSSSize
 scrollableSize
 ;
 {
+scrollId
+=
+mFrameMetrics
+.
+mScrollId
+;
 scrollableSize
 =
 mFrameMetrics
@@ -6477,6 +6489,7 @@ controller
 >
 SendAsyncScrollDOMEvent
 (
+scrollId
 contentRect
 scrollableSize
 )

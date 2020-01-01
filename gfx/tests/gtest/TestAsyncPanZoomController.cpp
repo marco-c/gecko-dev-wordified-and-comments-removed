@@ -174,11 +174,16 @@ CSSIntPoint
 )
 )
 ;
-MOCK_METHOD2
+MOCK_METHOD3
 (
 SendAsyncScrollDOMEvent
 void
 (
+FrameMetrics
+:
+:
+ViewID
+aScrollId
 const
 CSSRect
 &
@@ -1533,6 +1538,7 @@ SendAsyncScrollDOMEvent
 (
 _
 _
+_
 )
 )
 .
@@ -1732,6 +1738,7 @@ SendAsyncScrollDOMEvent
 (
 _
 _
+_
 )
 )
 .
@@ -1914,6 +1921,7 @@ EXPECT_CALL
 mcc
 SendAsyncScrollDOMEvent
 (
+_
 _
 _
 )
@@ -2282,6 +2290,7 @@ EXPECT_CALL
 mcc
 SendAsyncScrollDOMEvent
 (
+_
 _
 _
 )

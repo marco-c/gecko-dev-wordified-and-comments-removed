@@ -2603,6 +2603,17 @@ MOZ_OVERRIDE
 void
 SendAsyncScrollDOMEvent
 (
+mozilla
+:
+:
+layers
+:
+:
+FrameMetrics
+:
+:
+ViewID
+aScrollId
 const
 CSSRect
 &
