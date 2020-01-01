@@ -2889,6 +2889,9 @@ type
 =
 =
 kProxyType_SOCKS
+|
+|
+mSOCKSProxyRemoteDNS
 )
 flags
 |
