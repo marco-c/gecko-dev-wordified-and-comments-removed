@@ -984,7 +984,7 @@ self
 .
 _devicemanager
 .
-checkCmd
+_checkCmd
 (
 [
 '
@@ -1010,7 +1010,7 @@ self
 .
 _devicemanager
 .
-checkCmd
+_checkCmd
 (
 [
 '
@@ -1324,13 +1324,13 @@ self
 .
 _devicemanager
 .
-checkCmd
+_checkCmd
 (
 [
 '
 forward
 '
-                                          
+                                           
 '
 tcp
 :
@@ -1343,7 +1343,7 @@ self
 marionette
 .
 port
-                                          
+                                           
 '
 tcp
 :
