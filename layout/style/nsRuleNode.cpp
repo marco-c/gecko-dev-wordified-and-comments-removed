@@ -29101,6 +29101,12 @@ MapRuleInfoInto
 ruleData
 )
 ;
+marginData
+.
+mBoxShadow
+=
+nsnull
+;
 if
 (
 ruleData
