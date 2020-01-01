@@ -728,7 +728,10 @@ ToNearestPixels
 auPerDevPixel
 )
 ;
-gfxPoint
+gfx
+:
+:
+Point
 metricsScrollOffset
 =
 aMetrics
