@@ -167,13 +167,13 @@ aCallback
 scriptable
 uuid
 (
-3458e760
+f656f0c0
 -
-8513
+f776
 -
 11e1
 -
-b0c4
+a21f
 -
 0800200c9a66
 )
@@ -184,7 +184,7 @@ nsISettingsService
 nsISupports
 {
 nsISettingsServiceLock
-getLock
+createLock
 (
 )
 ;

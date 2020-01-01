@@ -1389,7 +1389,7 @@ lock
 iss
 -
 >
-GetLock
+CreateLock
 (
 getter_AddRefs
 (
@@ -1406,7 +1406,7 @@ lock1
 iss
 -
 >
-GetLock
+CreateLock
 (
 getter_AddRefs
 (
@@ -1555,7 +1555,7 @@ lock2
 iss
 -
 >
-GetLock
+CreateLock
 (
 getter_AddRefs
 (

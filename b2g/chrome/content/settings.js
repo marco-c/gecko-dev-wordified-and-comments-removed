@@ -162,7 +162,7 @@ req
 =
 settings
 .
-getLock
+createLock
 (
 )
 .

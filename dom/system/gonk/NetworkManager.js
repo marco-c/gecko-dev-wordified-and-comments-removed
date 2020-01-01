@@ -801,7 +801,7 @@ settingsLock
 =
 gSettingsService
 .
-getLock
+createLock
 (
 )
 ;
@@ -4317,7 +4317,7 @@ settingsLock
 =
 gSettingsService
 .
-getLock
+createLock
 (
 )
 ;
@@ -4449,7 +4449,7 @@ settingsLock
 =
 gSettingsService
 .
-getLock
+createLock
 (
 )
 ;

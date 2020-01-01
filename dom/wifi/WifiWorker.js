@@ -9380,7 +9380,7 @@ true
 ;
 gSettingsService
 .
-getLock
+createLock
 (
 )
 .
@@ -12376,7 +12376,7 @@ enabled
 {
 gSettingsService
 .
-getLock
+createLock
 (
 )
 .

@@ -876,7 +876,7 @@ null
 ;
 gSettingsService
 .
-getLock
+createLock
 (
 )
 .
@@ -894,7 +894,7 @@ this
 ;
 gSettingsService
 .
-getLock
+createLock
 (
 )
 .
@@ -912,7 +912,7 @@ this
 ;
 gSettingsService
 .
-getLock
+createLock
 (
 )
 .
@@ -930,7 +930,7 @@ this
 ;
 gSettingsService
 .
-getLock
+createLock
 (
 )
 .
@@ -948,7 +948,7 @@ this
 ;
 gSettingsService
 .
-getLock
+createLock
 (
 )
 .
@@ -966,7 +966,7 @@ this
 ;
 gSettingsService
 .
-getLock
+createLock
 (
 )
 .
@@ -984,7 +984,7 @@ this
 ;
 gSettingsService
 .
-getLock
+createLock
 (
 )
 .
@@ -1002,7 +1002,7 @@ this
 ;
 gSettingsService
 .
-getLock
+createLock
 (
 )
 .
