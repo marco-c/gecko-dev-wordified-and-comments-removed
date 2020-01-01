@@ -531,6 +531,10 @@ nsITimer
 sCCTimer
 ;
 static
+bool
+sGCHasRun
+;
+static
 PRUint32
 sPendingLoadCount
 ;
@@ -13805,6 +13809,10 @@ PokeCC
 if
 (
 sCCTimer
+|
+|
+!
+sGCHasRun
 )
 {
 return
@@ -14120,6 +14128,10 @@ runtime
 gcTriggerCompartment
 )
 {
+sGCHasRun
+=
+true
+;
 nsJSContext
 :
 :
@@ -14628,6 +14640,10 @@ sGCTimer
 sCCTimer
 =
 nsnull
+;
+sGCHasRun
+=
+false
 ;
 sPendingLoadCount
 =
