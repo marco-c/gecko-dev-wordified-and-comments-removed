@@ -397,6 +397,8 @@ harness
 )
         
 except
+Exception
+ex
 :
             
 print
@@ -413,9 +415,15 @@ in
 test
 %
 s
+:
+%
+s
 "
 %
+(
 testpath
+ex
+)
             
 traceback
 .
