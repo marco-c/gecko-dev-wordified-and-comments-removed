@@ -3748,6 +3748,17 @@ false
 PropDesc
 desc
 ;
+PropDesc
+:
+:
+AutoRooter
+rootDesc
+(
+cx
+&
+desc
+)
+;
 if
 (
 !

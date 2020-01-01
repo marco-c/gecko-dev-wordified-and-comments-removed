@@ -6057,12 +6057,13 @@ wobj
 if
 (
 !
-wobj
--
->
+JSObject
+:
+:
 swap
 (
 cx
+wobj
 tobj
 )
 )
