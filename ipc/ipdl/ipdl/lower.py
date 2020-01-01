@@ -2370,6 +2370,15 @@ MsgPayloadError
 '
 )
     
+ProcessingError
+=
+ExprVar
+(
+'
+MsgProcessingError
+'
+)
+    
 RouteError
 =
 ExprVar
@@ -29040,7 +29049,7 @@ StmtReturn
 (
 _Result
 .
-ValuError
+ProcessingError
 )
 )
         
