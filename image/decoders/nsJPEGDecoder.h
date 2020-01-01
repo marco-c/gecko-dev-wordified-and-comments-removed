@@ -105,6 +105,9 @@ class
 RasterImage
 ;
 class
+Orientation
+;
+class
 nsJPEGDecoder
 :
 public
@@ -170,6 +173,11 @@ NotifyDone
 ;
 protected
 :
+Orientation
+ReadOrientationFromEXIF
+(
+)
+;
 void
 OutputScanlines
 (
