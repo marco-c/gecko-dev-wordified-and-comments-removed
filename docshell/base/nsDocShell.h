@@ -1719,6 +1719,14 @@ nsPIDOMEventTarget
 *
 mChromeEventHandler
 ;
+#
+ifdef
+DEBUG
+PRBool
+mInEnsureScriptEnv
+;
+#
+endif
 static
 nsIURIFixup
 *
