@@ -126,6 +126,10 @@ GLContext
 .
 cpp
 \
+GLContextProviderOSMesa
+.
+cpp
+\
 (
 NULL
 )
