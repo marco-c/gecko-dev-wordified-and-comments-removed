@@ -1042,10 +1042,6 @@ jsinterp
 .
 h
 \
-jsinterpinlines
-.
-h
-\
 jsiter
 .
 h
@@ -1099,10 +1095,6 @@ jshash
 h
 \
 jslong
-.
-h
-\
-jstracerinlines
 .
 h
 \
@@ -1360,10 +1352,6 @@ jsbool
 .
 cpp
 \
-jsbuiltins
-.
-cpp
-\
 jscntxt
 .
 cpp
@@ -1496,6 +1484,10 @@ ENABLE_JIT
 JS_CPPFILES
 +
 =
+\
+jsbuiltins
+.
+cpp
 \
 jstracer
 .

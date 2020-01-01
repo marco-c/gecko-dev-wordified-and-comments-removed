@@ -917,10 +917,6 @@ jsinterp
 .
 h
 \
-jsinterpinlines
-.
-h
-\
 jsiter
 .
 h
@@ -1002,10 +998,6 @@ jsstr
 h
 \
 jstracer
-.
-h
-\
-jstracerinlines
 .
 h
 \
