@@ -902,6 +902,14 @@ getTabsInOrder
 (
 )
 ;
+if
+(
+tabs
+!
+=
+null
+)
+{
 for
 (
 Tab
@@ -917,6 +925,7 @@ add
 tab
 )
 ;
+}
 }
 notifyDataSetChanged
 (
