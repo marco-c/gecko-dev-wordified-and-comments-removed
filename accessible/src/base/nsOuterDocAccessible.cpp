@@ -545,7 +545,7 @@ return
 PR_FALSE
 ;
 }
-NS_LOG_ACCDOCDESTROY
+NS_LOG_ACCDOCDESTROY_FOR
 (
 "
 remove
@@ -559,6 +559,7 @@ child
 GetDocumentNode
 (
 )
+child
 )
 NS_LOG_ACCDOCDESTROY_ACCADDRESS
 (
