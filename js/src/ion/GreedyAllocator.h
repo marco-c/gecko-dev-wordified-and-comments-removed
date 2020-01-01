@@ -648,6 +648,9 @@ BlockInfo
 AllocationState
 in
 ;
+AllocationState
+out
+;
 Mover
 restores
 ;
