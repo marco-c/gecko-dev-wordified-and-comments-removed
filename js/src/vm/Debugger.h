@@ -216,6 +216,9 @@ objects
 ObjectWeakMap
 environments
 ;
+class
+FrameRange
+;
 bool
 addDebuggeeGlobal
 (
