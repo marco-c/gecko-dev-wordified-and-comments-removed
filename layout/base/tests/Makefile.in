@@ -519,14 +519,6 @@ decoration_line_rendering
 .
 js
 \
-region_lib
-.
-js
-\
-scrolling_helper
-.
-html
-\
 test_bug66619
 .
 html
@@ -728,10 +720,6 @@ test_mozPaintCount
 html
 \
 test_scroll_selection_into_view
-.
-html
-\
-test_scrolling
 .
 html
 \
