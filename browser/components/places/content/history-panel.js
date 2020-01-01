@@ -409,6 +409,14 @@ resultType
 =
 resultType
 ;
+options
+.
+includeHidden
+=
+!
+!
+aInput
+;
 gHistoryTree
 .
 load
