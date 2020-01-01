@@ -6158,7 +6158,7 @@ StrictPropertyStub
 EnumerateStub
 ResolveStub
 ConvertStub
-NULL
+proxy_Finalize
 NULL
 NULL
 NULL
@@ -6180,7 +6180,7 @@ proxy_TypeOf
 proxy_TraceObject
 NULL
 NULL
-proxy_Finalize
+NULL
 }
 }
 ;
@@ -6210,7 +6210,7 @@ StrictPropertyStub
 EnumerateStub
 ResolveStub
 ConvertStub
-NULL
+proxy_Finalize
 NULL
 NULL
 NULL
@@ -6237,7 +6237,7 @@ NULL
 proxy_TraceObject
 NULL
 NULL
-proxy_Finalize
+NULL
 }
 }
 ;
