@@ -28,7 +28,7 @@ std
 wstring
 ;
 using
-google_airbag
+google_breakpad
 :
 :
 PDBSourceLineWriter
@@ -60,8 +60,15 @@ Usage
 %
 ws
 <
-pdb
 file
+.
+[
+pdb
+|
+exe
+|
+dll
+]
 >
 \
 n

@@ -24,7 +24,7 @@ stdlib
 h
 >
 namespace
-google_airbag
+google_breakpad
 {
 template
 <

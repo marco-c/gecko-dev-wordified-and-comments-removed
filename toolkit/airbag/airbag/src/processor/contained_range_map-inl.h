@@ -14,7 +14,7 @@ contained_range_map
 h
 "
 namespace
-google_airbag
+google_breakpad
 {
 template
 <

@@ -278,7 +278,7 @@ AC_PREREQ
 )
 AC_INIT
 (
-airbag
+breakpad
 0
 .
 1
@@ -314,6 +314,9 @@ AM_INIT_AUTOMAKE
 subdir
 -
 objects
+tar
+-
+ustar
 )
 AM_CONFIG_HEADER
 (

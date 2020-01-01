@@ -509,7 +509,7 @@ sender
 (
 LIB_PREFIX
 )
-crash_report_sender
+crash_report_sender_s
 .
 (
 LIB_SUFFIX
@@ -536,7 +536,7 @@ windows
 (
 LIB_PREFIX
 )
-airbag_common_s
+breakpad_windows_common_s
 .
 (
 LIB_SUFFIX

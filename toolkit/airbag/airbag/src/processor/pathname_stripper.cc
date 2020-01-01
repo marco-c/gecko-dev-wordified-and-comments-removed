@@ -8,7 +8,7 @@ pathname_stripper
 h
 "
 namespace
-google_airbag
+google_breakpad
 {
 string
 PathnameStripper

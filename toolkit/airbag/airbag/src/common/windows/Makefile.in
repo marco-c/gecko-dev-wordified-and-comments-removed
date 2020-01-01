@@ -142,7 +142,7 @@ Original
 Code
 is
 Mozilla
-Airbag
+Breakpad
 integration
 #
 #
@@ -425,10 +425,10 @@ autoconf
 mk
 MODULE
 =
-airbag_common
+breakpad_windows_common
 LIBRARY_NAME
 =
-airbag_common_s
+breakpad_windows_common_s
 LOCAL_INCLUDES
 =
 -

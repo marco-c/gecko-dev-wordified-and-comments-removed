@@ -17,7 +17,7 @@ include
 string
 >
 namespace
-google_airbag
+google_breakpad
 {
 using
 std
@@ -33,6 +33,15 @@ public
 static
 wstring
 GUIDToWString
+(
+GUID
+*
+guid
+)
+;
+static
+wstring
+GUIDToSymbolServerWString
 (
 GUID
 *
