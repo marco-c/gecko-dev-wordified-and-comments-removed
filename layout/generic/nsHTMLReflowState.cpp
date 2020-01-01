@@ -4142,7 +4142,7 @@ mRight
 =
 border
 .
-right
+left
 ;
 aHypotheticalBox
 .

@@ -390,7 +390,6 @@ sizing
 ref
 .
 html
-fails
 =
 =
 abspos
@@ -421,10 +420,6 @@ margin
 ref
 .
 html
-#
-bug
-419072
-fails
 =
 =
 abspos
@@ -451,6 +446,3 @@ margin
 ref
 .
 html
-#
-bug
-419072
