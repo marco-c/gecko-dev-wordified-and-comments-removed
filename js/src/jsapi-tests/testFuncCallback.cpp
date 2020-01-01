@@ -86,14 +86,6 @@ depth
 +
 enters
 ;
-if
-(
-!
-JS_ON_TRACE
-(
-cx
-)
-)
 +
 +
 interpreted
@@ -467,7 +459,7 @@ i
 ;
 i
 <
-50
+5000
 ;
 +
 +
@@ -487,7 +479,7 @@ CHECK_EQUAL
 enters
 1
 +
-50
+5000
 )
 ;
 CHECK_EQUAL
@@ -495,7 +487,7 @@ CHECK_EQUAL
 leaves
 1
 +
-50
+5000
 )
 ;
 CHECK_EQUAL
