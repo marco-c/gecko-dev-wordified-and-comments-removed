@@ -2835,6 +2835,10 @@ this
 if
 (
 mListener
+&
+&
+!
+mCanceled
 )
 {
 nsCOMPtr
