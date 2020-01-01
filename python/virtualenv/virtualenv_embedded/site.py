@@ -4668,6 +4668,32 @@ append
 lib64_path
 )
         
+try
+:
+            
+arch
+=
+getattr
+(
+sys
+'
+implementation
+'
+sys
+)
+.
+_multiarch
+        
+except
+AttributeError
+:
+            
+arch
+=
+sys
+.
+platform
+        
 plat_path
 =
 os
@@ -4682,6 +4708,7 @@ real_prefix
 '
 lib
 '
+                                 
 '
 python
 '
@@ -4701,9 +4728,7 @@ plat
 s
 '
 %
-sys
-.
-platform
+arch
 )
         
 if
