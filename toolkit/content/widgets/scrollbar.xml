@@ -231,7 +231,7 @@ base
 >
 <
 content
-allowclickthrough
+clickthrough
 =
 "
 always
