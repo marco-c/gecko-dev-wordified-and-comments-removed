@@ -3782,6 +3782,10 @@ data
 >
 mLayer
 ;
+imageContainer
+=
+nsnull
+;
 }
 gfxMatrix
 transform
