@@ -402,8 +402,7 @@ relationType
 .
 label
 "
-Relation
-Type
+Beziehungstyp
 "
 >
 <
@@ -413,7 +412,7 @@ role
 .
 label
 "
-Role
+Rolle
 "
 >
 <
@@ -423,7 +422,8 @@ nodeName
 .
 label
 "
-Node
+Knoten
+-
 Name
 "
 >
@@ -434,7 +434,7 @@ relations
 .
 label
 "
-Relations
+Beziehungen
 :
 "
 >
@@ -445,8 +445,9 @@ relationTargets
 .
 label
 "
-Relation
-Targets
+Beziehungs
+-
+Ziele
 :
 "
 >
