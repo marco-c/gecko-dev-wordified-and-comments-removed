@@ -1545,6 +1545,10 @@ LIR
 .
 cpp
 \
+LiveRangeAllocator
+.
+cpp
+\
 Lowering
 .
 cpp

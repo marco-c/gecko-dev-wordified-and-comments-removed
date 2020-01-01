@@ -2073,7 +2073,7 @@ vreg
 vreg
 -
 >
-reg
+id
 (
 )
 )
