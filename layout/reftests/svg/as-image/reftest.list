@@ -775,7 +775,6 @@ viewBox
 ref
 .
 html
-random
 =
 =
 img
@@ -794,9 +793,6 @@ dyn
 ref
 .
 html
-#
-Bug
-596478
 fails
 -
 if
