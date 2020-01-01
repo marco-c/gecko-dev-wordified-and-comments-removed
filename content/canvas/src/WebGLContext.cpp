@@ -2858,6 +2858,9 @@ mOptions
 antialias
 &
 &
+gfxInfo
+&
+&
 NS_SUCCEEDED
 (
 gfxInfo
