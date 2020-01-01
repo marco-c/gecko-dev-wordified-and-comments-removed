@@ -554,10 +554,11 @@ NS_VK_END
 nsNavigationDirection
 theDirection
 ;
+theDirection
+=
 NS_DIRECTION_FROM_KEY_CODE
 (
 popupFrame
-theDirection
 keyCode
 )
 ;
