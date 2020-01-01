@@ -453,6 +453,16 @@ PRInt32
 aDelta
 )
 ;
+PRBool
+HasTransferredData
+(
+)
+const
+{
+return
+mGotData
+;
+}
 public
 :
 NS_DECL_IMGILOAD
@@ -539,6 +549,9 @@ mProcessing
 ;
 PRPackedBool
 mHadLastPart
+;
+PRPackedBool
+mGotData
 ;
 PRUint32
 mImageStatus

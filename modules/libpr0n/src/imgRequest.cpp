@@ -216,6 +216,10 @@ mHadLastPart
 (
 PR_FALSE
 )
+mGotData
+(
+PR_FALSE
+)
 mImageStatus
 (
 imgIRequest
@@ -3236,6 +3240,10 @@ request
 !
 "
 )
+;
+mGotData
+=
+PR_TRUE
 ;
 if
 (
