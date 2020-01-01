@@ -67,6 +67,14 @@ class
 LayerManager
 ;
 }
+enum
+LayerState
+{
+LAYER_NONE
+LAYER_INACTIVE
+LAYER_ACTIVE
+}
+;
 class
 FrameLayerBuilder
 {
@@ -279,6 +287,9 @@ AddThebesDisplayItem
 ThebesLayer
 *
 aLayer
+nsDisplayListBuilder
+*
+aBuilder
 nsDisplayItem
 *
 aItem
@@ -289,6 +300,8 @@ aClipRect
 nsIFrame
 *
 aContainerLayerFrame
+LayerState
+aLayerState
 )
 ;
 Layer
@@ -497,6 +510,12 @@ aClipRect
 nsDisplayItem
 *
 mItem
+;
+nsRefPtr
+<
+LayerManager
+>
+mTempLayerManager
 ;
 nsRect
 mClipRect
