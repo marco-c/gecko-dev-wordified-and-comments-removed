@@ -5750,11 +5750,6 @@ underrunProtect
 6
 )
 ;
-NanoAssert
-(
-t
-)
-;
 intptr_t
 tt
 =
@@ -5770,6 +5765,9 @@ _nIns
 ;
 if
 (
+t
+&
+&
 isS8
 (
 tt
