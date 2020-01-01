@@ -150,7 +150,7 @@ if
 format
 !
 =
-SA_PCM_FORMAT_S16_LE
+SA_PCM_FORMAT_S16_NE
 )
 {
 return
@@ -301,7 +301,15 @@ s
 -
 >
 output_unit
+#
+ifdef
+SA_LITTLE_ENDIAN
 SND_PCM_FORMAT_S16_LE
+#
+else
+SND_PCM_FORMAT_S16_BE
+#
+endif
 SND_PCM_ACCESS_RW_INTERLEAVED
 s
 -

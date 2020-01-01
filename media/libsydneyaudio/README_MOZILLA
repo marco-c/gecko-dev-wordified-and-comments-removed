@@ -177,3 +177,14 @@ open
 the
 stream
 .
+bug495558_alsa_endian
+.
+patch
+adds
+support
+for
+big
+endian
+ALSA
+platforms
+.

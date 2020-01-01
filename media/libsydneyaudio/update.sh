@@ -103,3 +103,10 @@ p3
 bug495794_closeAudio
 .
 patch
+patch
+-
+p3
+<
+bug495558_alsa_endian
+.
+patch
