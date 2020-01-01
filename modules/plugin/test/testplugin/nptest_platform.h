@@ -138,5 +138,16 @@ string
 error
 )
 ;
+std
+:
+:
+string
+pluginGetClipboardText
+(
+InstanceData
+*
+instanceData
+)
+;
 #
 endif
