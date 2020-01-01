@@ -1693,6 +1693,8 @@ const
 nsAString
 &
 aFragment
+PRBool
+aWillOwnFragment
 nsIDOMDocumentFragment
 *
 *
