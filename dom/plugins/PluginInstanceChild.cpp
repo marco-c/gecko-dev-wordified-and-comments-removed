@@ -1255,6 +1255,8 @@ GraphicsExpose
 =
 event
 .
+event
+.
 type
 )
 {
