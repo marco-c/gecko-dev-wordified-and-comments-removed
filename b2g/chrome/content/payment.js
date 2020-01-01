@@ -320,6 +320,9 @@ kClosePaymentFlowEvent
 id
 :
 id
+requestId
+:
+requestId
 }
 ;
 content

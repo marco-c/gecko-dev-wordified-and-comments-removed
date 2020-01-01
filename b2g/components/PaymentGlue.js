@@ -244,6 +244,9 @@ kOpenPaymentConfirmationEvent
 id
 :
 id
+requestId
+:
+aRequestId
 paymentRequests
 :
 aRequests
@@ -443,6 +446,9 @@ kOpenPaymentFlowEvent
 id
 :
 id
+requestId
+:
+aRequestId
 uri
 :
 aPaymentFlowInfo
