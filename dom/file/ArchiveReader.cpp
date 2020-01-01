@@ -82,6 +82,11 @@ mStatus
 NOT_STARTED
 )
 {
+MOZ_COUNT_CTOR
+(
+ArchiveReader
+)
+;
 nsLayoutStatics
 :
 :
@@ -98,6 +103,11 @@ ArchiveReader
 (
 )
 {
+MOZ_COUNT_DTOR
+(
+ArchiveReader
+)
+;
 nsLayoutStatics
 :
 :

@@ -49,6 +49,10 @@ nsISupports
 public
 :
 NS_DECL_ISUPPORTS
+ArchiveItem
+(
+)
+;
 virtual
 ~
 ArchiveItem
