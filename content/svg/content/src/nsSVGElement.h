@@ -1233,6 +1233,12 @@ ErrorResult
 rv
 )
 ;
+static
+bool
+PrefEnabled
+(
+)
+;
 protected
 :
 virtual
