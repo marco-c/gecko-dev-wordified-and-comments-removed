@@ -10691,15 +10691,6 @@ isEmpty
 &
 &
 (
-element
-.
-ownerDocument
-.
-defaultView
-.
-frameElement
-|
-|
 (
 x
 <
@@ -10718,6 +10709,7 @@ left
 rect
 .
 width
+)
 )
 |
 |
@@ -10739,7 +10731,6 @@ top
 rect
 .
 height
-)
 )
 )
 )
