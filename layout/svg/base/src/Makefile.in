@@ -478,6 +478,10 @@ nsSVGContainerFrame
 .
 cpp
 \
+nsSVGEffects
+.
+cpp
+\
 nsSVGFilterFrame
 .
 cpp
