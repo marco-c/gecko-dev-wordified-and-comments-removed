@@ -12379,8 +12379,10 @@ AboutHomeUtils
 snippetsVersion
 )
 ;
-function
+let
 updateSearchEngine
+=
+function
 (
 )
 {
@@ -12416,6 +12418,7 @@ searchURL
 )
 ;
 }
+;
 updateSearchEngine
 (
 )
