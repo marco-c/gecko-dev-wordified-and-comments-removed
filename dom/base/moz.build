@@ -116,11 +116,6 @@ nsIDOMDOMRequest
 idl
 '
 '
-nsIDOMDOMWindowResizeEventDetail
-.
-idl
-'
-'
 nsIEntropyCollector
 .
 idl
@@ -406,11 +401,6 @@ cpp
 '
 '
 nsDOMWindowList
-.
-cpp
-'
-'
-nsDOMWindowResizeEventDetail
 .
 cpp
 '

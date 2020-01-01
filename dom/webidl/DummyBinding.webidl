@@ -234,6 +234,14 @@ arg
 )
 ;
 void
+DOMWindowResizeEventDetail
+(
+optional
+DOMWindowResizeEventDetail
+arg
+)
+;
+void
 WifiOptions
 (
 optional
