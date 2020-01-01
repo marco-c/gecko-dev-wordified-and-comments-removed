@@ -80,7 +80,6 @@ aboutCertError
 .
 xhtml
 )
-*
 content
 /
 aboutRights
@@ -155,7 +154,6 @@ netError
 .
 xhtml
 )
-*
 content
 /
 bindings
@@ -204,7 +202,6 @@ toggleswitch
 .
 xml
 )
-*
 content
 /
 bindings
@@ -541,7 +538,6 @@ removeMasterPassword
 .
 xul
 )
-*
 content
 /
 helperui
@@ -862,7 +858,6 @@ ConsoleAPIObserver
 .
 js
 )
-*
 content
 /
 contenthandlers
@@ -941,7 +936,6 @@ browser
 .
 xul
 )
-*
 content
 /
 browser
@@ -988,7 +982,6 @@ scripts
 .
 js
 )
-*
 content
 /
 ContextCommands
@@ -1001,7 +994,6 @@ ContextCommands
 .
 js
 )
-*
 content
 /
 PageActions
@@ -1110,7 +1102,6 @@ sanitize
 .
 js
 )
-*
 content
 /
 input
@@ -1123,7 +1114,6 @@ input
 .
 js
 )
-*
 content
 /
 Util
@@ -1148,7 +1138,6 @@ bookmarks
 .
 js
 )
-*
 content
 /
 preferences
@@ -1173,7 +1162,6 @@ exceptions
 .
 js
 )
-*
 content
 /
 downloads

@@ -265,7 +265,6 @@ bookmarks
 .
 json
 )
-*
 locale
 /
 browser
@@ -339,7 +338,6 @@ region
 .
 properties
 )
-*
 locale
 /
 browser
@@ -381,7 +379,6 @@ locale
 netError
 .
 dtd
-*
 locale
 /
 browser
