@@ -253,7 +253,6 @@ prototype
 insertItemAt
 :
 function
-BCW_insertItemAt
 (
 aIndex
 aContents
@@ -296,7 +295,6 @@ aIndex
 getItemAtIndex
 :
 function
-BCW_getItemAtIndex
 (
 aIndex
 )
@@ -315,7 +313,6 @@ aIndex
 removeChild
 :
 function
-BCW_removeChild
 (
 aChild
 )
@@ -350,7 +347,6 @@ null
 removeAllItems
 :
 function
-BCW_removeAllItems
 (
 )
 {
@@ -521,7 +517,6 @@ ENSURE_SELECTION_VISIBLE_DELAY
 _onUnderflow
 :
 function
-BCW__onUnderflow
 (
 {
 target
@@ -570,7 +565,6 @@ overflows
 _onOverflow
 :
 function
-BCW__onOverflow
 (
 {
 target

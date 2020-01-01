@@ -238,7 +238,6 @@ prototype
 initialize
 :
 function
-DVS_initialize
 (
 )
 {
@@ -529,7 +528,6 @@ empty
 destroy
 :
 function
-DVS_destroy
 (
 )
 {
@@ -726,7 +724,6 @@ aSourceLocation
 addSource
 :
 function
-DVS_addSource
 (
 aSource
 aOptions
@@ -818,7 +815,6 @@ aSource
 addBreakpoint
 :
 function
-DVS_addBreakpoint
 (
 aOptions
 )
@@ -996,7 +992,6 @@ true
 removeBreakpoint
 :
 function
-DVS_removeBreakpoint
 (
 aSourceLocation
 aLineNumber
@@ -1069,7 +1064,6 @@ null
 getBreakpoint
 :
 function
-DVS_getBreakpoint
 (
 aSourceLocation
 aLineNumber
@@ -1100,7 +1094,6 @@ breakpointKey
 enableBreakpoint
 :
 function
-DVS_enableBreakpoint
 (
 aSourceLocation
 aLineNumber
@@ -1253,7 +1246,6 @@ true
 disableBreakpoint
 :
 function
-DVS_disableBreakpoint
 (
 aSourceLocation
 aLineNumber
@@ -1377,7 +1369,6 @@ true
 highlightBreakpoint
 :
 function
-DVS_highlightBreakpoint
 (
 aSourceLocation
 aLineNumber
@@ -1462,7 +1453,6 @@ _hideConditionalPopup
 unhighlightBreakpoint
 :
 function
-DVS_unhighlightBreakpoint
 (
 )
 {
@@ -1536,7 +1526,6 @@ null
 _selectBreakpoint
 :
 function
-DVS__selectBreakpoint
 (
 aItem
 )
@@ -1589,7 +1578,6 @@ target
 _unselectBreakpoint
 :
 function
-DVS__unselectBreakpoint
 (
 )
 {
@@ -1619,7 +1607,6 @@ null
 _openConditionalPopup
 :
 function
-DVS__openConditionalPopup
 (
 )
 {
@@ -1707,7 +1694,6 @@ BREAKPOINT_CONDITIONAL_POPUP_OFFSET_Y
 _hideConditionalPopup
 :
 function
-DVS__hideConditionalPopup
 (
 )
 {
@@ -1731,7 +1717,6 @@ hidePopup
 _createBreakpointView
 :
 function
-DVS_createBreakpointView
 (
 aOptions
 )
@@ -2013,7 +1998,6 @@ lineTextNode
 _createContextMenu
 :
 function
-DVS__createContextMenu
 (
 aOptions
 )
@@ -2464,7 +2448,6 @@ menuseparator
 _destroyContextMenu
 :
 function
-DVS__destroyContextMenu
 (
 aContextMenu
 )
@@ -2537,7 +2520,6 @@ menupopup
 _onBreakpointRemoved
 :
 function
-DVS__onBreakpointRemoved
 (
 aItem
 )
@@ -2595,7 +2577,6 @@ line
 _onEditorLoad
 :
 function
-DVS__onEditorLoad
 (
 {
 detail
@@ -2634,7 +2615,6 @@ false
 _onEditorUnload
 :
 function
-DVS__onEditorUnload
 (
 {
 detail
@@ -2673,7 +2653,6 @@ false
 _onEditorSelection
 :
 function
-DVS__onEditorSelection
 (
 e
 )
@@ -2762,7 +2741,6 @@ unhighlightBreakpoint
 _onEditorContextMenu
 :
 function
-DVS__onEditorContextMenu
 (
 {
 x
@@ -2805,7 +2783,6 @@ line
 _onSourceMouseDown
 :
 function
-DVS__onSourceMouseDown
 (
 e
 )
@@ -2838,7 +2815,6 @@ item
 _onSourceSelect
 :
 function
-DVS__onSourceSelect
 (
 )
 {
@@ -2887,7 +2863,6 @@ selectedSource
 _onSourceClick
 :
 function
-DVS__onSourceClick
 (
 )
 {
@@ -2903,7 +2878,6 @@ this
 _onBreakpointClick
 :
 function
-DVS__onBreakpointClick
 (
 e
 )
@@ -3007,7 +2981,6 @@ button
 _onBreakpointCheckboxClick
 :
 function
-DVS__onBreakpointCheckboxClick
 (
 e
 )
@@ -3092,7 +3065,6 @@ stopPropagation
 _onConditionalPopupShowing
 :
 function
-DVS__onConditionalPopupShowing
 (
 )
 {
@@ -3106,7 +3078,6 @@ true
 _onConditionalPopupShown
 :
 function
-DVS__onConditionalPopupShown
 (
 )
 {
@@ -3130,7 +3101,6 @@ select
 _onConditionalPopupHiding
 :
 function
-DVS__onConditionalPopupHiding
 (
 )
 {
@@ -3144,7 +3114,6 @@ false
 _onConditionalTextboxInput
 :
 function
-DVS__onConditionalTextboxInput
 (
 )
 {
@@ -3164,7 +3133,6 @@ value
 _onConditionalTextboxKeyPress
 :
 function
-DVS__onConditionalTextboxKeyPress
 (
 e
 )
@@ -3202,7 +3170,6 @@ _hideConditionalPopup
 _onCmdAddBreakpoint
 :
 function
-BP__onCmdAddBreakpoint
 (
 )
 {
@@ -3326,7 +3293,6 @@ breakpointLocation
 _onCmdAddConditionalBreakpoint
 :
 function
-BP__onCmdAddConditionalBreakpoint
 (
 )
 {
@@ -3459,7 +3425,6 @@ true
 _onSetConditional
 :
 function
-DVS__onSetConditional
 (
 aDetails
 )
@@ -3505,7 +3470,6 @@ true
 _onEnableSelf
 :
 function
-DVS__onEnableSelf
 (
 aDetails
 )
@@ -3614,7 +3578,6 @@ hidden
 _onDisableSelf
 :
 function
-DVS__onDisableSelf
 (
 aDetails
 )
@@ -3723,7 +3686,6 @@ true
 _onDeleteSelf
 :
 function
-DVS__onDeleteSelf
 (
 aDetails
 )
@@ -3774,7 +3736,6 @@ breakpointClient
 _onEnableOthers
 :
 function
-DVS__onEnableOthers
 (
 aDetails
 )
@@ -3820,7 +3781,6 @@ attachment
 _onDisableOthers
 :
 function
-DVS__onDisableOthers
 (
 aDetails
 )
@@ -3866,7 +3826,6 @@ attachment
 _onDeleteOthers
 :
 function
-DVS__onDeleteOthers
 (
 aDetails
 )
@@ -3912,7 +3871,6 @@ attachment
 _onEnableAll
 :
 function
-DVS__onEnableAll
 (
 aDetails
 )
@@ -3935,7 +3893,6 @@ aDetails
 _onDisableAll
 :
 function
-DVS__onDisableAll
 (
 aDetails
 )
@@ -3958,7 +3915,6 @@ aDetails
 _onDeleteAll
 :
 function
-DVS__onDeleteAll
 (
 aDetails
 )
@@ -3981,7 +3937,6 @@ aDetails
 _getBreakpointKey
 :
 function
-DVS__getBreakpointKey
 (
 aSourceLocation
 aLineNumber
@@ -4048,7 +4003,6 @@ Map
 clearCache
 :
 function
-SU_clearCache
 (
 )
 {
@@ -4072,7 +4026,6 @@ clear
 getSourceLabel
 :
 function
-SU_getSourceLabel
 (
 aUrl
 )
@@ -4138,7 +4091,6 @@ unicodeLabel
 getSourceGroup
 :
 function
-SU_getSourceGroup
 (
 aUrl
 )
@@ -4337,7 +4289,6 @@ unicodeLabel
 trimUrlLength
 :
 function
-SU_trimUrlLength
 (
 aUrl
 aLength
@@ -4459,7 +4410,6 @@ aUrl
 trimUrlQuery
 :
 function
-SU_trimUrlQuery
 (
 aUrl
 )
@@ -4556,7 +4506,6 @@ q
 trimUrl
 :
 function
-SU_trimUrl
 (
 aUrl
 aLabel
@@ -5039,7 +4988,6 @@ prototype
 initialize
 :
 function
-DVWE_initialize
 (
 )
 {
@@ -5140,7 +5088,6 @@ false
 destroy
 :
 function
-DVWE_destroy
 (
 )
 {
@@ -5172,7 +5119,6 @@ false
 addExpression
 :
 function
-DVWE_addExpression
 (
 aExpression
 =
@@ -5267,7 +5213,6 @@ expressionItem
 removeExpressionAt
 :
 function
-DVWE_removeExpressionAt
 (
 aIndex
 )
@@ -5298,7 +5243,6 @@ aIndex
 switchExpression
 :
 function
-DVWE_switchExpression
 (
 aVar
 aExpression
@@ -5397,7 +5341,6 @@ syncWatchExpressions
 deleteExpression
 :
 function
-DVWE_deleteExpression
 (
 aVar
 )
@@ -5459,7 +5402,6 @@ syncWatchExpressions
 getExpression
 :
 function
-DVWE_getExpression
 (
 aIndex
 )
@@ -5480,7 +5422,6 @@ currentExpression
 getExpressions
 :
 function
-DVWE_getExpressions
 (
 )
 {
@@ -5505,7 +5446,6 @@ _cache
 _createItemView
 :
 function
-DVWE__createItemView
 (
 aElementNode
 aAttachment
@@ -5715,7 +5655,6 @@ closeNode
 _onCmdAddExpression
 :
 function
-BP__onCmdAddExpression
 (
 aText
 )
@@ -5760,7 +5699,6 @@ getSelectedText
 _onCmdRemoveAllExpressions
 :
 function
-BP__onCmdRemoveAllExpressions
 (
 )
 {
@@ -5790,7 +5728,6 @@ syncWatchExpressions
 _onClick
 :
 function
-DVWE__onClick
 (
 e
 )
@@ -5837,7 +5774,6 @@ addExpression
 _onClose
 :
 function
-DVWE__onClose
 (
 e
 )
@@ -5892,7 +5828,6 @@ stopPropagation
 _onBlur
 :
 function
-DVWE__onBlur
 (
 {
 target
@@ -6013,7 +5948,6 @@ syncWatchExpressions
 _onKeyPress
 :
 function
-DVWE__onKeyPress
 (
 e
 )
@@ -6066,7 +6000,6 @@ count
 ;
 return
 function
-DVWE__generateId
 (
 )
 {
@@ -6217,7 +6150,6 @@ prototype
 initialize
 :
 function
-DVGS_initialize
 (
 )
 {
@@ -6312,7 +6244,6 @@ false
 destroy
 :
 function
-DVGS_destroy
 (
 )
 {
@@ -6411,7 +6342,6 @@ aFlag
 clearView
 :
 function
-DVGS_clearView
 (
 )
 {
@@ -6445,7 +6375,6 @@ ViewCleared
 focusNextMatch
 :
 function
-DVGS_focusNextMatch
 (
 )
 {
@@ -6508,7 +6437,6 @@ _currentlyFocusedMatch
 focusPrevMatch
 :
 function
-DVGS_focusPrevMatch
 (
 )
 {
@@ -6575,7 +6503,6 @@ true
 scheduleSearch
 :
 function
-DVGS_scheduleSearch
 (
 aQuery
 )
@@ -6654,7 +6581,6 @@ delay
 performSearch
 :
 function
-DVGS_performSearch
 (
 aQuery
 )
@@ -6685,7 +6611,6 @@ aQuery
 _startSearch
 :
 function
-DVGS__startSearch
 (
 aQuery
 )
@@ -6720,7 +6645,6 @@ _performGlobalSearch
 _performGlobalSearch
 :
 function
-DVGS__performGlobalSearch
 (
 )
 {
@@ -7131,7 +7055,6 @@ MatchNotFound
 _createGlobalResultsUI
 :
 function
-DVGS__createGlobalResultsUI
 (
 aGlobalResults
 )
@@ -7205,7 +7128,6 @@ sourceResults
 _createSourceResultsUI
 :
 function
-DVGS__createSourceResultsUI
 (
 aLocation
 aSourceResults
@@ -7250,7 +7172,6 @@ aExpandFlag
 _createItemView
 :
 function
-DVGS__createItemView
 (
 aElementNode
 aAttachment
@@ -7297,7 +7218,6 @@ _onMatchClick
 _onHeaderClick
 :
 function
-DVGS__onHeaderClick
 (
 e
 )
@@ -7327,7 +7247,6 @@ e
 _onLineClick
 :
 function
-DVGLS__onLineClick
 (
 e
 )
@@ -7361,7 +7280,6 @@ firstMatch
 _onMatchClick
 :
 function
-DVGLS__onMatchClick
 (
 e
 )
@@ -7521,7 +7439,6 @@ length
 _onScroll
 :
 function
-DVGS__onScroll
 (
 e
 )
@@ -7548,7 +7465,6 @@ target
 _expandResultsIfNeeded
 :
 function
-DVGS__expandResultsIfNeeded
 (
 aTarget
 )
@@ -7633,7 +7549,6 @@ expand
 _scrollMatchIntoViewIfNeeded
 :
 function
-DVGS__scrollMatchIntoViewIfNeeded
 (
 aMatch
 )
@@ -7667,7 +7582,6 @@ aMatch
 _bounceMatch
 :
 function
-DVGS__bounceMatch
 (
 aMatch
 )
@@ -7813,7 +7727,6 @@ prototype
 add
 :
 function
-GR_add
 (
 aLocation
 aSourceResults
@@ -7873,7 +7786,6 @@ prototype
 add
 :
 function
-SR_add
 (
 aLineNumber
 aLineResults
@@ -7897,7 +7809,6 @@ matchCount
 expand
 :
 function
-SR_expand
 (
 )
 {
@@ -7932,7 +7843,6 @@ open
 collapse
 :
 function
-SR_collapse
 (
 )
 {
@@ -7969,7 +7879,6 @@ open
 toggle
 :
 function
-SR_toggle
 (
 e
 )
@@ -8070,7 +7979,6 @@ _target
 createView
 :
 function
-SR_createView
 (
 aElementNode
 aLocation
@@ -8489,7 +8397,6 @@ prototype
 add
 :
 function
-LC_add
 (
 aString
 aRange
@@ -8528,7 +8435,6 @@ _target
 createView
 :
 function
-LR_createView
 (
 aContainer
 aLineNumber
@@ -8864,7 +8770,6 @@ searchResult
 _entangleMatch
 :
 function
-LR__entangleMatch
 (
 aLineNumber
 aNode
@@ -8892,7 +8797,6 @@ aMatchChunk
 _entangleLine
 :
 function
-LR__entangleLine
 (
 aNode
 aFirstMatch
@@ -8998,7 +8902,6 @@ prototype
 __iterator__
 =
 function
-DVGS_iterator
 (
 )
 {
@@ -9027,7 +8930,6 @@ LineResults
 getItemForElement
 =
 function
-DVGS_getItemForElement
 (
 aElement
 )
@@ -9056,7 +8958,6 @@ LineResults
 getElementAtIndex
 =
 function
-DVGS_getElementAtIndex
 (
 aIndex
 )
@@ -9107,7 +9008,6 @@ LineResults
 indexOfElement
 =
 function
-DVGS_indexOFElement
 (
 aElement
 )
@@ -9171,7 +9071,6 @@ LineResults
 size
 =
 function
-DVGS_size
 (
 )
 {

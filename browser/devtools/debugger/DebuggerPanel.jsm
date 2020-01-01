@@ -130,6 +130,10 @@ jsm
 "
 )
 ;
+this
+.
+DebuggerPanel
+=
 function
 DebuggerPanel
 (

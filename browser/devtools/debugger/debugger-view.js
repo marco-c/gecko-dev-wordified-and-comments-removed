@@ -138,7 +138,6 @@ DebuggerView
 initialize
 :
 function
-DV_initialize
 (
 aCallback
 )
@@ -342,7 +341,6 @@ aCallback
 destroy
 :
 function
-DV_destroy
 (
 aCallback
 )
@@ -462,7 +460,6 @@ aCallback
 _initializeWindow
 :
 function
-DV__initializeWindow
 (
 )
 {
@@ -562,7 +559,6 @@ chromeDebuggerWindowTitle
 _destroyWindow
 :
 function
-DV__destroyWindow
 (
 )
 {
@@ -625,7 +621,6 @@ outerHeight
 _initializePanes
 :
 function
-DV__initializePanes
 (
 )
 {
@@ -757,7 +752,6 @@ panesVisibleOnStartup
 _destroyPanes
 :
 function
-DV__destroyPanes
 (
 )
 {
@@ -823,7 +817,6 @@ null
 _initializeEditor
 :
 function
-DV__initializeEditor
 (
 aCallback
 )
@@ -892,9 +885,10 @@ init
 (
 placeholder
 config
-function
 (
 )
+=
+>
 {
 this
 .
@@ -920,18 +914,12 @@ aCallback
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }
 _onEditorLoad
 :
 function
-DV__onEditorLoad
 (
 )
 {
@@ -981,7 +969,6 @@ focus
 _destroyEditor
 :
 function
-DV__destroyEditor
 (
 )
 {
@@ -1022,7 +1009,6 @@ editor
 setEditorMode
 :
 function
-DV_setEditorMode
 (
 aUrl
 aContentType
@@ -1431,7 +1417,6 @@ _editorSource
 updateEditor
 :
 function
-DV_updateEditor
 (
 aUrl
 aLine
@@ -1708,7 +1693,6 @@ columnOffset
 getEditorLine
 :
 function
-DV_getEditorLine
 (
 aLine
 )
@@ -1768,7 +1752,6 @@ end
 getEditorSelection
 :
 function
-DV_getEditorSelection
 (
 )
 {
@@ -1818,7 +1801,6 @@ collapsed
 toggleInstrumentsPane
 :
 function
-DV__toggleInstrumentsPane
 (
 aFlags
 )
@@ -1908,7 +1890,6 @@ _expandPaneString
 showInstrumentsPane
 :
 function
-DV__showInstrumentsPane
 (
 aCallback
 )
@@ -1937,7 +1918,6 @@ aCallback
 _handleTabNavigation
 :
 function
-DV__handleTabNavigation
 (
 )
 {
@@ -2184,7 +2164,6 @@ null
 insertItemAt
 :
 function
-DVSL_insertItemAt
 (
 aIndex
 aLabel
@@ -2267,7 +2246,6 @@ aIndex
 getItemAtIndex
 :
 function
-DVSL_getItemAtIndex
 (
 aIndex
 )
@@ -2286,7 +2264,6 @@ aIndex
 removeChild
 :
 function
-DVSL__removeChild
 (
 aChild
 )
@@ -2340,7 +2317,6 @@ _appendEmptyNotice
 removeAllItems
 :
 function
-DVSL_removeAllItems
 (
 )
 {
@@ -2571,7 +2547,6 @@ _appendEmptyNotice
 _appendPermaNotice
 :
 function
-DVSL__appendPermaNotice
 (
 )
 {
@@ -2650,7 +2625,6 @@ label
 _appendEmptyNotice
 :
 function
-DVSL__appendEmptyNotice
 (
 )
 {
@@ -2726,7 +2700,6 @@ label
 _removeEmptyNotice
 :
 function
-DVSL__removeEmptyNotice
 (
 )
 {
@@ -3169,7 +3142,6 @@ hiding
 clearView
 :
 function
-RPC_clearView
 (
 )
 {
@@ -3203,7 +3175,6 @@ ViewCleared
 focusNext
 :
 function
-RPC_focusNext
 (
 )
 {
@@ -3247,7 +3218,6 @@ nextIndex
 focusPrev
 :
 function
-RPC_focusPrev
 (
 )
 {
@@ -3292,7 +3262,6 @@ prevIndex
 select
 :
 function
-RPC_select
 (
 aItem
 )
@@ -3579,7 +3548,6 @@ prototype
 show
 :
 function
-RDP_show
 (
 aIsReconnectingFlag
 )

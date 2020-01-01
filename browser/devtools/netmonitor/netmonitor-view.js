@@ -323,7 +323,6 @@ NetMonitorView
 initialize
 :
 function
-NV_initialize
 (
 aCallback
 )
@@ -375,7 +374,6 @@ aCallback
 destroy
 :
 function
-NV_destroy
 (
 aCallback
 )
@@ -427,7 +425,6 @@ aCallback
 _initializePanes
 :
 function
-DV__initializePanes
 (
 )
 {
@@ -538,7 +535,6 @@ false
 _destroyPanes
 :
 function
-DV__destroyPanes
 (
 )
 {
@@ -614,7 +610,6 @@ collapsed
 toggleDetailsPane
 :
 function
-DV__toggleDetailsPane
 (
 aFlags
 aTabIndex
@@ -728,7 +723,6 @@ aTabIndex
 editor
 :
 function
-NV_editor
 (
 aId
 )
@@ -870,7 +864,6 @@ prototype
 initialize
 :
 function
-NVT_initialize
 (
 )
 {
@@ -917,7 +910,6 @@ false
 destroy
 :
 function
-NVT_destroy
 (
 )
 {
@@ -949,7 +941,6 @@ false
 _onTogglePanesPressed
 :
 function
-NVT__onTogglePanesPressed
 (
 )
 {
@@ -1110,7 +1101,6 @@ prototype
 initialize
 :
 function
-NVRM_initialize
 (
 )
 {
@@ -1206,7 +1196,6 @@ false
 destroy
 :
 function
-NVRM_destroy
 (
 )
 {
@@ -1266,7 +1255,6 @@ false
 reset
 :
 function
-NVRM_reset
 (
 )
 {
@@ -1297,7 +1285,6 @@ true
 addRequest
 :
 function
-NVRM_addRequest
 (
 aId
 aStartedDateTime
@@ -1426,7 +1413,6 @@ requestItem
 sortBy
 :
 function
-NVRM_sortBy
 (
 aType
 )
@@ -2258,7 +2244,6 @@ contentSize
 updateRequest
 :
 function
-NVRM_updateRequest
 (
 aId
 aData
@@ -2326,7 +2311,6 @@ _flushRequests
 _flushRequests
 :
 function
-NVRM__flushRequests
 (
 )
 {
@@ -2754,7 +2738,6 @@ sortContents
 _createMenuView
 :
 function
-NVRM__createMenuView
 (
 aMethod
 aUrl
@@ -3002,7 +2985,6 @@ fragment
 _updateMenuView
 :
 function
-NVRM__updateMenuView
 (
 aItem
 aKey
@@ -3324,7 +3306,6 @@ break
 _createWaterfallView
 :
 function
-NVRM__createWaterfallView
 (
 aItem
 aTimings
@@ -3537,7 +3518,6 @@ _flushWaterfallViews
 _flushWaterfallViews
 :
 function
-NVRM__flushWaterfallViews
 (
 aReset
 )
@@ -3814,7 +3794,6 @@ revScaleX
 _showWaterfallDivisionLabels
 :
 function
-NVRM__showWaterfallDivisionLabels
 (
 aScale
 )
@@ -4046,7 +4025,6 @@ fragment
 _drawWaterfallBackground
 :
 function
-NVRM__drawWaterfallBackground
 (
 aScale
 )
@@ -4348,7 +4326,6 @@ toDataURL
 _flushWaterfallBackgrounds
 :
 function
-NVRM__flushWaterfallBackgrounds
 (
 )
 {
@@ -4396,7 +4373,6 @@ _cachedWaterfallBackground
 _hideOverflowingColumns
 :
 function
-NVRM__hideOverflowingColumns
 (
 )
 {
@@ -4590,7 +4566,6 @@ attribute
 _onRequestItemRemoved
 :
 function
-NVRM__onRequestItemRemoved
 (
 aItem
 )
@@ -4625,7 +4600,6 @@ id
 _onMouseDown
 :
 function
-NVRM__onMouseDown
 (
 e
 )
@@ -4658,7 +4632,6 @@ item
 _onSelect
 :
 function
-NVRM__onSelect
 (
 e
 )
@@ -4689,7 +4662,6 @@ true
 _onResize
 :
 function
-NVRM__onResize
 (
 e
 )
@@ -4718,7 +4690,6 @@ true
 _registerFirstRequestStart
 :
 function
-NVRM__registerFirstRequestStart
 (
 aUnixTime
 )
@@ -4745,7 +4716,6 @@ aUnixTime
 _registerLastRequestEnd
 :
 function
-NVRM__registerLastRequestEnd
 (
 aUnixTime
 )
@@ -4919,7 +4889,6 @@ prototype
 initialize
 :
 function
-NVND_initialize
 (
 )
 {
@@ -5261,7 +5230,6 @@ responseCookies
 destroy
 :
 function
-NVND_destroy
 (
 )
 {
@@ -5278,7 +5246,6 @@ SourcesView
 toggle
 :
 function
-NVND_toggle
 (
 aVisibleFlag
 )
@@ -5307,7 +5274,6 @@ true
 populate
 :
 function
-NVND_populate
 (
 aData
 )
@@ -5545,7 +5511,6 @@ eventTimings
 _setSummary
 :
 function
-NVND__setSummary
 (
 aData
 )
@@ -5918,7 +5883,6 @@ true
 _setRequestHeaders
 :
 function
-NVND__setRequestHeaders
 (
 aResponse
 )
@@ -5950,7 +5914,6 @@ aResponse
 _setResponseHeaders
 :
 function
-NVND__setResponseHeaders
 (
 aResponse
 )
@@ -6003,7 +5966,6 @@ aResponse
 _addHeaders
 :
 function
-NVND__addHeaders
 (
 aName
 aResponse
@@ -6129,7 +6091,6 @@ aString
 _setRequestCookies
 :
 function
-NVND__setRequestCookies
 (
 aResponse
 )
@@ -6182,7 +6143,6 @@ aResponse
 _setResponseCookies
 :
 function
-NVND__setResponseCookies
 (
 aResponse
 )
@@ -6214,7 +6174,6 @@ aResponse
 _addCookies
 :
 function
-NVND__addCookies
 (
 aName
 aResponse
@@ -6394,7 +6353,6 @@ true
 _setRequestGetParams
 :
 function
-NVND__setRequestGetParams
 (
 aUrl
 )
@@ -6447,7 +6405,6 @@ query
 _setRequestPostParams
 :
 function
-NVND__setRequestPostParams
 (
 aHeadersResponse
 aPostResponse
@@ -6668,7 +6625,6 @@ ResponsePostParamsAvailable
 _addParams
 :
 function
-NVND__addParams
 (
 aName
 aParams
@@ -6809,7 +6765,6 @@ value
 _setResponseBody
 :
 function
-NVND__setresponseBody
 (
 aUrl
 aResponse
@@ -7400,7 +7355,6 @@ ResponseBodyAvailable
 _setTimingsInformation
 :
 function
-NVND__setTimingsInformation
 (
 aResponse
 )

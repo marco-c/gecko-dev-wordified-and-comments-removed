@@ -4,25 +4,19 @@ strict
 "
 ;
 const
-Cc
-=
-Components
-.
+{
 classes
-;
-const
-Ci
-=
-Components
-.
+:
+Cc
 interfaces
-;
-const
+:
+Ci
+utils
+:
 Cu
+}
 =
 Components
-.
-utils
 ;
 const
 DBG_STRINGS_URI
@@ -364,7 +358,6 @@ DebuggerController
 initialize
 :
 function
-DC_initialize
 (
 )
 {
@@ -467,7 +460,6 @@ true
 startupDebugger
 :
 function
-DC_startupDebugger
 (
 )
 {
@@ -575,7 +567,6 @@ promise
 shutdownDebugger
 :
 function
-DC__shutdownDebugger
 (
 )
 {
@@ -706,7 +697,6 @@ promise
 connect
 :
 function
-DC_connect
 (
 )
 {
@@ -936,7 +926,6 @@ promise
 disconnect
 :
 function
-DC_disconnect
 (
 )
 {
@@ -1017,7 +1006,6 @@ null
 _onTabNavigated
 :
 function
-DC__onTabNavigated
 (
 aType
 aPacket
@@ -1094,7 +1082,6 @@ _handleTabNavigation
 _onTabDetached
 :
 function
-DC__onTabDetached
 (
 )
 {
@@ -1108,7 +1095,6 @@ shutdownDebugger
 _startDebuggingTab
 :
 function
-DC__startDebuggingTab
 (
 aClient
 aThreadActor
@@ -1245,7 +1231,6 @@ sourceMapsEnabled
 _ensureResumptionOrder
 :
 function
-DC__ensureResumptionOrder
 (
 aResponse
 )
@@ -1278,7 +1263,6 @@ lastPausedUrl
 _startChromeDebugging
 :
 function
-DC__startChromeDebugging
 (
 aClient
 aChromeDebugger
@@ -1415,7 +1399,6 @@ sourceMapsEnabled
 reconfigureThread
 :
 function
-DC_reconfigureThread
 (
 aUseSourceMaps
 )
@@ -1517,7 +1500,6 @@ CALL_STACK_PAGE_SIZE
 _quitApp
 :
 function
-DC__quitApp
 (
 )
 {
@@ -1644,7 +1626,6 @@ activeThread
 connect
 :
 function
-TS_connect
 (
 )
 {
@@ -1709,7 +1690,6 @@ _handleTabNavigation
 disconnect
 :
 function
-TS_disconnect
 (
 )
 {
@@ -1768,7 +1748,6 @@ _update
 _handleTabNavigation
 :
 function
-TS__handleTabNavigation
 (
 )
 {
@@ -1805,7 +1784,6 @@ _update
 _update
 :
 function
-TS__update
 (
 aEvent
 )
@@ -2025,7 +2003,6 @@ null
 connect
 :
 function
-SF_connect
 (
 )
 {
@@ -2107,7 +2084,6 @@ _handleTabNavigation
 disconnect
 :
 function
-SF_disconnect
 (
 )
 {
@@ -2194,7 +2170,6 @@ _onFramesCleared
 _handleTabNavigation
 :
 function
-SF__handleTabNavigation
 (
 )
 {
@@ -2214,7 +2189,6 @@ StackFrames
 _onPaused
 :
 function
-SF__onPaused
 (
 aEvent
 aPacket
@@ -2302,7 +2276,6 @@ focus
 _onResumed
 :
 function
-SF__onResumed
 (
 )
 {
@@ -2337,7 +2310,6 @@ syncedWatchExpressions
 _onFrames
 :
 function
-SF__onFrames
 (
 )
 {
@@ -2633,7 +2605,6 @@ true
 _onFramesCleared
 :
 function
-SF__onFramesCleared
 (
 )
 {
@@ -2681,7 +2652,6 @@ FRAME_STEP_CLEAR_DELAY
 _afterFramesCleared
 :
 function
-SF__afterFramesCleared
 (
 )
 {
@@ -2749,7 +2719,6 @@ AfterFramesCleared
 selectFrame
 :
 function
-SF_selectFrame
 (
 aDepth
 )
@@ -3069,7 +3038,6 @@ commitHierarchy
 _addScopeExpander
 :
 function
-SF__addScopeExpander
 (
 aScope
 aEnv
@@ -3106,7 +3074,6 @@ _fetchScopeVariables
 _addVarExpander
 :
 function
-SF__addVarExpander
 (
 aVar
 aGrip
@@ -3183,7 +3150,6 @@ _fetchVarProperties
 _fetchWatchExpressions
 :
 function
-SF__fetchWatchExpressions
 (
 aScope
 aExp
@@ -3216,10 +3182,11 @@ aExp
 .
 getPrototypeAndProperties
 (
-function
 (
 aResponse
 )
+=
+>
 {
 let
 ownProperties
@@ -3350,18 +3317,12 @@ commitHierarchy
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }
 _fetchScopeVariables
 :
 function
-SF__fetchScopeVariables
 (
 aScope
 )
@@ -3419,10 +3380,11 @@ object
 .
 getPrototypeAndProperties
 (
-function
 (
 aResponse
 )
+=
+>
 {
 let
 {
@@ -3469,11 +3431,6 @@ commitHierarchy
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 break
@@ -3541,7 +3498,6 @@ break
 _insertScopeFrameReferences
 :
 function
-SF__insertScopeFrameReferences
 (
 aScope
 aFrame
@@ -3627,7 +3583,6 @@ this
 _insertScopeArguments
 :
 function
-SF__insertScopeArguments
 (
 aArguments
 aScope
@@ -3700,7 +3655,6 @@ argVal
 _insertScopeVariables
 :
 function
-SF__insertScopeVariables
 (
 aVariables
 aScope
@@ -3784,7 +3738,6 @@ varVal
 _fetchVarProperties
 :
 function
-SF__fetchVarProperties
 (
 aVar
 )
@@ -3823,10 +3776,11 @@ grip
 .
 getPrototypeAndProperties
 (
-function
 (
 aResponse
 )
+=
+>
 {
 let
 {
@@ -3958,18 +3912,12 @@ commitHierarchy
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }
 _mergeSafeGetterValues
 :
 function
-SF__mergeSafeGetterValues
 (
 aOwnProperties
 aSafeGetterValues
@@ -4042,7 +3990,6 @@ name
 _addFrame
 :
 function
-SF__addFrame
 (
 aFrame
 )
@@ -4103,7 +4050,6 @@ depth
 addMoreFrames
 :
 function
-SF_addMoreFrames
 (
 )
 {
@@ -4128,7 +4074,6 @@ CALL_STACK_PAGE_SIZE
 syncWatchExpressions
 :
 function
-SF_syncWatchExpressions
 (
 )
 {
@@ -4351,7 +4296,6 @@ _onFrames
 evaluate
 :
 function
-SF_evaluate
 (
 aExpression
 aFrame
@@ -4509,7 +4453,6 @@ null
 connect
 :
 function
-SS_connect
 (
 )
 {
@@ -4563,7 +4506,6 @@ _handleTabNavigation
 disconnect
 :
 function
-SS_disconnect
 (
 )
 {
@@ -4631,7 +4573,6 @@ _onNewSource
 _handleTabNavigation
 :
 function
-SS__handleTabNavigation
 (
 )
 {
@@ -4682,7 +4623,6 @@ _onSourcesAdded
 _onNewGlobal
 :
 function
-SS__onNewGlobal
 (
 aNotification
 aPacket
@@ -4692,7 +4632,6 @@ aPacket
 _onNewSource
 :
 function
-SS__onNewSource
 (
 aNotification
 aPacket
@@ -4843,7 +4782,6 @@ AfterNewSource
 _onSourcesAdded
 :
 function
-SS__onSourcesAdded
 (
 aResponse
 )
@@ -5012,7 +4950,6 @@ AfterSourcesAdded
 getText
 :
 function
-SS_getText
 (
 aSource
 aCallback
@@ -5162,7 +5099,6 @@ aSource
 getCache
 :
 function
-SS_getCache
 (
 )
 {
@@ -5214,7 +5150,6 @@ second
 clearCache
 :
 function
-SS_clearCache
 (
 )
 {
@@ -5230,7 +5165,6 @@ clear
 fetchSources
 :
 function
-SS_fetchSources
 (
 aUrls
 aCallbacks
@@ -5356,7 +5290,6 @@ _onTimeout
 _onFetch
 :
 function
-SS__onFetch
 (
 aSource
 )
@@ -5438,7 +5371,6 @@ _onFinished
 _onTimeout
 :
 function
-SS__onTimeout
 (
 aSource
 )
@@ -5496,7 +5428,6 @@ _onFinished
 _onFinished
 :
 function
-SS__onFinished
 (
 )
 {
@@ -5645,7 +5576,6 @@ false
 initialize
 :
 function
-BP_initialize
 (
 )
 {
@@ -5669,7 +5599,6 @@ _onEditorBreakpointChange
 destroy
 :
 function
-BP_destroy
 (
 )
 {
@@ -5712,7 +5641,6 @@ breakpointClient
 _onEditorBreakpointChange
 :
 function
-BP__onEditorBreakpointChange
 (
 aEvent
 )
@@ -5767,7 +5695,6 @@ false
 _onEditorBreakpointAdd
 :
 function
-BP__onEditorBreakpointAdd
 (
 aEditorBreakpoint
 )
@@ -5802,10 +5729,11 @@ line
 :
 line
 }
-function
 (
 aBreakpointClient
 )
+=
+>
 {
 if
 (
@@ -5842,18 +5770,12 @@ line
 ;
 }
 }
-.
-bind
-(
-this
-)
 )
 ;
 }
 _onEditorBreakpointRemove
 :
 function
-BP__onEditorBreakpointRemove
 (
 aEditorBreakpoint
 )
@@ -5893,7 +5815,6 @@ line
 updateEditorBreakpoints
 :
 function
-BP_updateEditorBreakpoints
 (
 )
 {
@@ -5945,7 +5866,6 @@ true
 updatePaneBreakpoints
 :
 function
-BP_updatePaneBreakpoints
 (
 )
 {
@@ -5997,7 +5917,6 @@ true
 addBreakpoint
 :
 function
-BP_addBreakpoint
 (
 aLocation
 aCallback
@@ -6045,11 +5964,12 @@ activeThread
 setBreakpoint
 (
 aLocation
-function
 (
 aResponse
 aBreakpointClient
 )
+=
+>
 {
 let
 {
@@ -6202,18 +6122,12 @@ error
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }
 removeBreakpoint
 :
 function
-BP_removeBreakpoint
 (
 aBreakpointClient
 aCallback
@@ -6264,9 +6178,10 @@ aBreakpointClient
 .
 remove
 (
-function
 (
 )
+=
+>
 {
 delete
 this
@@ -6295,18 +6210,12 @@ location
 )
 ;
 }
-.
-bind
-(
-this
-)
 )
 ;
 }
 _showBreakpoint
 :
 function
-BP__showBreakpoint
 (
 aBreakpointClient
 aFlags
@@ -6439,7 +6348,6 @@ aFlags
 _hideBreakpoint
 :
 function
-BP__hideBreakpoint
 (
 aBreakpointClient
 aFlags
@@ -6531,7 +6439,6 @@ line
 getBreakpoint
 :
 function
-BP_getBreakpoint
 (
 aUrl
 aLine

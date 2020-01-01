@@ -91,7 +91,6 @@ prototype
 initialize
 :
 function
-DVT_initialize
 (
 )
 {
@@ -474,7 +473,6 @@ _stepOutTooltip
 destroy
 :
 function
-DVT_destroy
 (
 )
 {
@@ -566,7 +564,6 @@ false
 toggleResumeButtonState
 :
 function
-DVT_toggleResumeButtonState
 (
 aState
 )
@@ -651,7 +648,6 @@ _pauseTooltip
 showResumeWarning
 :
 function
-DVT_showResumeWarning
 (
 aPausedUrl
 )
@@ -703,7 +699,6 @@ _resumeButton
 toggleChromeGlobalsContainer
 :
 function
-DVT_toggleChromeGlobalsContainer
 (
 aVisibleFlag
 )
@@ -725,7 +720,6 @@ aVisibleFlag
 _onTogglePanesPressed
 :
 function
-DVT__onTogglePanesPressed
 (
 )
 {
@@ -752,7 +746,6 @@ true
 _onResumePressed
 :
 function
-DVT__onResumePressed
 (
 )
 {
@@ -797,7 +790,6 @@ interrupt
 _onStepOverPressed
 :
 function
-DVT__onStepOverPressed
 (
 )
 {
@@ -823,7 +815,6 @@ stepOver
 _onStepInPressed
 :
 function
-DVT__onStepInPressed
 (
 )
 {
@@ -849,7 +840,6 @@ stepIn
 _onStepOutPressed
 :
 function
-DVT__onStepOutPressed
 (
 )
 {
@@ -1003,7 +993,6 @@ prototype
 initialize
 :
 function
-DVO_initialize
 (
 )
 {
@@ -1196,7 +1185,6 @@ sourceMapsEnabled
 destroy
 :
 function
-DVO_destroy
 (
 )
 {
@@ -1213,7 +1201,6 @@ OptionsView
 _onPopupShowing
 :
 function
-DVO__onPopupShowing
 (
 )
 {
@@ -1235,7 +1222,6 @@ true
 _onPopupHiding
 :
 function
-DVO__onPopupHiding
 (
 )
 {
@@ -1254,7 +1240,6 @@ open
 _togglePauseOnExceptions
 :
 function
-DVO__togglePauseOnExceptions
 (
 )
 {
@@ -1289,7 +1274,6 @@ true
 _toggleShowPanesOnStartup
 :
 function
-DVO__toggleShowPanesOnStartup
 (
 )
 {
@@ -1317,7 +1301,6 @@ true
 _toggleShowVariablesOnlyEnum
 :
 function
-DVO__toggleShowVariablesOnlyEnum
 (
 )
 {
@@ -1351,7 +1334,6 @@ true
 _toggleShowVariablesFilterBox
 :
 function
-DVO__toggleShowVariablesFilterBox
 (
 )
 {
@@ -1385,7 +1367,6 @@ true
 _toggleShowOriginalSource
 :
 function
-DVO__toggleShowOriginalSource
 (
 )
 {
@@ -1497,7 +1478,6 @@ prototype
 initialize
 :
 function
-DVCG_initialize
 (
 )
 {
@@ -1591,7 +1571,6 @@ empty
 destroy
 :
 function
-DVT_destroy
 (
 )
 {
@@ -1638,7 +1617,6 @@ false
 _onSelect
 :
 function
-DVCG__onSelect
 (
 )
 {
@@ -1659,7 +1637,6 @@ return
 _onClick
 :
 function
-DVCG__onClick
 (
 )
 {
@@ -1780,7 +1757,6 @@ prototype
 initialize
 :
 function
-DVSF_initialize
 (
 )
 {
@@ -1933,7 +1909,6 @@ true
 destroy
 :
 function
-DVSF_destroy
 (
 )
 {
@@ -1993,7 +1968,6 @@ true
 addFrame
 :
 function
-DVSF_addFrame
 (
 aFrameTitle
 aSourceLocation
@@ -2089,7 +2063,6 @@ stackframeItem
 highlightFrame
 :
 function
-DVSF_highlightFrame
 (
 aDepth
 )
@@ -2170,7 +2143,6 @@ false
 _createFrameView
 :
 function
-DVSF__createFrameView
 (
 aFrameTitle
 aSourceLocation
@@ -2337,7 +2309,6 @@ container
 _createMenuEntry
 :
 function
-DVSF__createMenuEntry
 (
 aFrameTitle
 aSourceLocation
@@ -2639,7 +2610,6 @@ menuitem
 _destroyMenuEntry
 :
 function
-DVSF__destroyMenuEntry
 (
 aMenuEntry
 )
@@ -2706,7 +2676,6 @@ menuitem
 _onStackframeRemoved
 :
 function
-DVSF__onStackframeRemoved
 (
 aItem
 )
@@ -2753,7 +2722,6 @@ depth
 _onClick
 :
 function
-DVSF__onClick
 (
 e
 )
@@ -2807,7 +2775,6 @@ depth
 _onScroll
 :
 function
-DVSF__onScroll
 (
 )
 {
@@ -2849,7 +2816,6 @@ STACK_FRAMES_SCROLL_DELAY
 _afterScroll
 :
 function
-DVSF__afterScroll
 (
 )
 {
@@ -2922,7 +2888,6 @@ addMoreFrames
 _selectFrame
 :
 function
-DVSF__selectFrame
 (
 aDepth
 )
@@ -2959,7 +2924,6 @@ StackFrameUtils
 getFrameTitle
 :
 function
-SFU_getFrameTitle
 (
 aFrame
 )
@@ -3025,7 +2989,6 @@ type
 getScopeLabel
 :
 function
-SFU_getScopeLabel
 (
 aEnv
 )
@@ -3262,7 +3225,6 @@ prototype
 initialize
 :
 function
-DVF_initialize
 (
 )
 {
@@ -3846,7 +3808,6 @@ Sources
 destroy
 :
 function
-DVF_destroy
 (
 )
 {
@@ -4346,7 +4307,6 @@ searchboxInfo
 clearSearch
 :
 function
-DVF_clearSearch
 (
 )
 {
@@ -4371,7 +4331,6 @@ hidePopup
 _performFileSearch
 :
 function
-DVF__performFileSearch
 (
 aFile
 )
@@ -4571,7 +4530,6 @@ aFile
 _performLineSearch
 :
 function
-DVF__performLineSearch
 (
 aLine
 )
@@ -4631,7 +4589,6 @@ aLine
 _performTokenSearch
 :
 function
-DVF__performTokenSearch
 (
 aToken
 )
@@ -4722,7 +4679,6 @@ aToken
 _onClick
 :
 function
-DVF__onClick
 (
 )
 {
@@ -4741,7 +4697,6 @@ _searchbox
 _onSearch
 :
 function
-DVF__onScriptsSearch
 (
 )
 {
@@ -4884,7 +4839,6 @@ token
 _onKeyPress
 :
 function
-DVF__onScriptsKeyPress
 (
 e
 )
@@ -5588,7 +5542,6 @@ length
 _onBlur
 :
 function
-DVF__onBlur
 (
 )
 {
@@ -5637,7 +5590,6 @@ hidePopup
 _doSearch
 :
 function
-DVF__doSearch
 (
 aOperator
 =
@@ -5674,7 +5626,6 @@ aOperator
 _doFileSearch
 :
 function
-DVF__doFileSearch
 (
 )
 {
@@ -5699,7 +5650,6 @@ _searchbox
 _doGlobalSearch
 :
 function
-DVF__doGlobalSearch
 (
 )
 {
@@ -5722,7 +5672,6 @@ hidePopup
 _doFunctionSearch
 :
 function
-DVF__doFunctionSearch
 (
 )
 {
@@ -5745,7 +5694,6 @@ hidePopup
 _doTokenSearch
 :
 function
-DVF__doTokenSearch
 (
 )
 {
@@ -5768,7 +5716,6 @@ hidePopup
 _doLineSearch
 :
 function
-DVF__doLineSearch
 (
 )
 {
@@ -5791,7 +5738,6 @@ hidePopup
 _doVariableSearch
 :
 function
-DVF__doVariableSearch
 (
 )
 {
@@ -5824,7 +5770,6 @@ hidePopup
 _doVariablesFocus
 :
 function
-DVG__doVariablesFocus
 (
 )
 {
@@ -5983,7 +5928,6 @@ prototype
 initialize
 :
 function
-DVFS_initialize
 (
 )
 {
@@ -6013,7 +5957,6 @@ searchbox
 destroy
 :
 function
-DVFS_destroy
 (
 )
 {
@@ -6036,7 +5979,6 @@ null
 syncFileSearch
 :
 function
-DVFS_syncFileSearch
 (
 )
 {
@@ -6186,7 +6128,6 @@ itemCount
 onClick
 :
 function
-DVFS_onClick
 (
 e
 )
@@ -6228,7 +6169,6 @@ clearSearch
 onSelect
 :
 function
-DVFS_onSelect
 (
 e
 )
@@ -6344,7 +6284,6 @@ prototype
 initialize
 :
 function
-DVFF_initialize
 (
 )
 {
@@ -6374,7 +6313,6 @@ searchbox
 destroy
 :
 function
-DVFF_destroy
 (
 )
 {
@@ -6400,7 +6338,6 @@ true
 scheduleSearch
 :
 function
-DVFF_scheduleSearch
 (
 aQuery
 )
@@ -6479,7 +6416,6 @@ delay
 performSearch
 :
 function
-DVFF_performSearch
 (
 aQuery
 )
@@ -6510,7 +6446,6 @@ aQuery
 _startSearch
 :
 function
-DVFF__startSearch
 (
 aQuery
 )
@@ -6545,7 +6480,6 @@ _performFunctionSearch
 _performFunctionSearch
 :
 function
-DVFF__performFunctionSearch
 (
 )
 {
@@ -6746,7 +6680,6 @@ searchResults
 _syncFunctionSearch
 :
 function
-DVFF__syncFunctionSearch
 (
 aSearchResults
 )
@@ -6994,7 +6927,6 @@ itemCount
 onClick
 :
 function
-DVFF_onClick
 (
 e
 )
@@ -7036,7 +6968,6 @@ clearSearch
 onSelect
 :
 function
-DVFF_onSelect
 (
 e
 )

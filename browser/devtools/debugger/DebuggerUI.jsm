@@ -183,7 +183,6 @@ prototype
 listenToTabs
 :
 function
-DUI_listenToTabs
 (
 )
 {
@@ -269,7 +268,6 @@ false
 refreshCommand
 :
 function
-DUI_refreshCommand
 (
 )
 {
@@ -357,7 +355,6 @@ false
 toggleDebugger
 :
 function
-DUI_toggleDebugger
 (
 )
 {
@@ -408,7 +405,6 @@ selectedTab
 toggleRemoteDebugger
 :
 function
-DUI_toggleRemoteDebugger
 (
 )
 {
@@ -447,7 +443,6 @@ this
 toggleChromeDebugger
 :
 function
-DUI_toggleChromeDebugger
 (
 aOnClose
 aOnRun
@@ -490,7 +485,6 @@ aOnRun
 findDebugger
 :
 function
-DUI_findDebugger
 (
 )
 {
@@ -563,7 +557,6 @@ null
 getDebugger
 :
 function
-DUI_getDebugger
 (
 )
 {
@@ -584,7 +577,6 @@ null
 getRemoteDebugger
 :
 function
-DUI_getRemoteDebugger
 (
 )
 {
@@ -605,7 +597,6 @@ null
 getChromeDebugger
 :
 function
-DUI_getChromeDebugger
 (
 )
 {
@@ -625,6 +616,10 @@ null
 }
 }
 ;
+this
+.
+DebuggerPane
+=
 function
 DebuggerPane
 (
@@ -686,7 +681,6 @@ prototype
 _initServer
 :
 function
-DP__initServer
 (
 )
 {
@@ -715,7 +709,6 @@ addBrowserActors
 _create
 :
 function
-DP__create
 (
 )
 {
@@ -950,7 +943,6 @@ refreshCommand
 close
 :
 function
-DP_close
 (
 aCloseCallback
 )
@@ -1169,6 +1161,10 @@ null
 }
 }
 ;
+this
+.
+RemoteDebuggerWindow
+=
 function
 RemoteDebuggerWindow
 (
@@ -1217,7 +1213,6 @@ prototype
 _create
 :
 function
-DP__create
 (
 )
 {
@@ -1369,7 +1364,6 @@ true
 close
 :
 function
-DP_close
 (
 )
 {
@@ -1479,6 +1473,10 @@ _dbgwin
 }
 }
 ;
+this
+.
+ChromeDebuggerProcess
+=
 function
 ChromeDebuggerProcess
 (
@@ -1540,7 +1538,6 @@ prototype
 _initServer
 :
 function
-RDP__initServer
 (
 )
 {
@@ -1578,7 +1575,6 @@ chromeDebuggingPort
 _initProfile
 :
 function
-RDP__initProfile
 (
 )
 {
@@ -1768,7 +1764,6 @@ flush
 _create
 :
 function
-RDP__create
 (
 )
 {
@@ -1932,7 +1927,6 @@ this
 close
 :
 function
-RDP_close
 (
 )
 {
@@ -2074,7 +2068,6 @@ L10N
 getStr
 :
 function
-L10N_getStr
 (
 aName
 )

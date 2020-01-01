@@ -91,7 +91,6 @@ ViewHelpers
 create
 :
 function
-VH_create
 (
 {
 constructor
@@ -154,7 +153,6 @@ descriptors
 dispatchEvent
 :
 function
-VH_dispatchEvent
 (
 aTarget
 aType
@@ -228,7 +226,6 @@ event
 delegateWidgetAttributeMethods
 :
 function
-VH_delegateWidgetAttributeMethods
 (
 aWidget
 aNode
@@ -277,7 +274,6 @@ aNode
 delegateWidgetEventMethods
 :
 function
-VH_delegateWidgetEventMethods
 (
 aWidget
 aNode
@@ -313,7 +309,6 @@ aNode
 togglePane
 :
 function
-VH_togglePane
 (
 aFlags
 aPane
@@ -643,7 +638,6 @@ ViewHelpers
 L10N
 =
 function
-L10N
 (
 aStringBundleName
 )
@@ -716,7 +710,6 @@ null
 getStr
 :
 function
-L10N_getStr
 (
 aName
 )
@@ -735,7 +728,6 @@ aName
 getFormatStr
 :
 function
-L10N_getFormatStr
 (
 aName
 .
@@ -762,7 +754,6 @@ length
 numberWithDecimals
 :
 function
-L10N__numberWithDecimals
 (
 aNumber
 aDecimals
@@ -860,7 +851,6 @@ ViewHelpers
 Prefs
 =
 function
-Prefs
 (
 aPrefsRoot
 =
@@ -919,7 +909,6 @@ prototype
 _get
 :
 function
-P__get
 (
 aType
 aPrefName
@@ -971,7 +960,6 @@ aPrefName
 _set
 :
 function
-P__set
 (
 aType
 aPrefName
@@ -1008,7 +996,6 @@ aValue
 map
 :
 function
-P_map
 (
 aAccessorName
 aType
@@ -1206,7 +1193,6 @@ _target
 append
 :
 function
-MI_append
 (
 aElement
 aOptions
@@ -1281,7 +1267,6 @@ item
 remove
 :
 function
-MI_remove
 (
 aItem
 )
@@ -1317,7 +1302,6 @@ aItem
 markSelected
 :
 function
-MI_markSelected
 (
 )
 {
@@ -1349,7 +1333,6 @@ selected
 markDeselected
 :
 function
-MI_markDeselected
 (
 )
 {
@@ -1381,7 +1364,6 @@ selected
 setAttributes
 :
 function
-MI_setAttributes
 (
 aAttributes
 aElement
@@ -1415,7 +1397,6 @@ value
 _entangleItem
 :
 function
-MI__entangleItem
 (
 aItem
 aElement
@@ -1459,7 +1440,6 @@ aElement
 _untangleItem
 :
 function
-MI__untangleItem
 (
 aItem
 )
@@ -1518,7 +1498,6 @@ null
 _unlinkItem
 :
 function
-MC__unlinkItem
 (
 aItem
 )
@@ -1538,7 +1517,6 @@ _target
 toString
 :
 function
-MI_toString
 (
 )
 {
@@ -1693,7 +1671,6 @@ _container
 push
 :
 function
-MC_push
 (
 aContents
 aOptions
@@ -1789,7 +1766,6 @@ aOptions
 commit
 :
 function
-MC_commit
 (
 aOptions
 =
@@ -1869,7 +1845,6 @@ length
 refresh
 :
 function
-MC_refresh
 (
 )
 {
@@ -1944,7 +1919,6 @@ true
 remove
 :
 function
-MC_remove
 (
 aItem
 )
@@ -1980,7 +1954,6 @@ aItem
 empty
 :
 function
-MC_empty
 (
 )
 {
@@ -2103,7 +2076,6 @@ length
 setUnavailable
 :
 function
-MC_setUnavailable
 (
 )
 {
@@ -2158,7 +2130,6 @@ unavailableText
 toggleContents
 :
 function
-MC_toggleContents
 (
 aVisibleFlag
 )
@@ -2189,7 +2160,6 @@ aVisibleFlag
 sortContents
 :
 function
-MC_sortContents
 (
 aPredicate
 =
@@ -2256,7 +2226,6 @@ i
 swapItems
 :
 function
-MC_swapItems
 (
 aFirst
 aSecond
@@ -2544,7 +2513,6 @@ _target
 swapItemsAtIndices
 :
 function
-MC_swapItemsAtIndices
 (
 aFirst
 aSecond
@@ -2572,7 +2540,6 @@ aSecond
 containsLabel
 :
 function
-MC_containsLabel
 (
 aLabel
 )
@@ -2612,7 +2579,6 @@ aLabel
 containsValue
 :
 function
-MC_containsValue
 (
 aValue
 )
@@ -2932,7 +2898,6 @@ aValue
 getItemAtIndex
 :
 function
-MC_getItemAtIndex
 (
 aIndex
 )
@@ -2956,7 +2921,6 @@ aIndex
 getItemByLabel
 :
 function
-MC_getItemByLabel
 (
 aLabel
 )
@@ -2975,7 +2939,6 @@ aLabel
 getItemByValue
 :
 function
-MC_getItemByValue
 (
 aValue
 )
@@ -2994,7 +2957,6 @@ aValue
 getItemForElement
 :
 function
-MC_getItemForElement
 (
 aElement
 )
@@ -3039,7 +3001,6 @@ null
 indexOfItem
 :
 function
-MC_indexOfItem
 (
 aItem
 )
@@ -3058,7 +3019,6 @@ _target
 _indexOfElement
 :
 function
-MC__indexOfElement
 (
 aElement
 )
@@ -3294,7 +3254,6 @@ uniquenessQualifier
 isUnique
 :
 function
-MC_isUnique
 (
 aItem
 )
@@ -3404,7 +3363,6 @@ false
 isEligible
 :
 function
-MC_isEligible
 (
 aItem
 )
@@ -3468,7 +3426,6 @@ null
 _findExpectedIndex
 :
 function
-MC__findExpectedIndex
 (
 aItem
 )
@@ -3533,7 +3490,6 @@ itemCount
 _insertItemAt
 :
 function
-MC__insertItemAt
 (
 aIndex
 aItem
@@ -3639,7 +3595,6 @@ aItem
 _entangleItem
 :
 function
-MC__entangleItem
 (
 aItem
 aElement
@@ -3689,7 +3644,6 @@ aElement
 _untangleItem
 :
 function
-MC__untangleItem
 (
 aItem
 )
@@ -3748,7 +3702,6 @@ null
 _unlinkItem
 :
 function
-MI__unlinkItem
 (
 aItem
 )
@@ -3790,7 +3743,6 @@ _target
 _sortPredicate
 :
 function
-MC__sortPredicate
 (
 aFirst
 aSecond
@@ -3850,7 +3802,6 @@ prototype
 __iterator__
 =
 function
-VH_iterator
 (
 )
 {

@@ -246,7 +246,6 @@ false
 insertItemAt
 :
 function
-SMW_insertItemAt
 (
 aIndex
 aContents
@@ -320,7 +319,7 @@ group
 =
 this
 .
-_getGroupForName
+_getMenuGroupForName
 (
 aGroup
 )
@@ -330,7 +329,7 @@ item
 =
 this
 .
-_getItemForGroup
+_getMenuItemForGroup
 (
 group
 aContents
@@ -394,7 +393,6 @@ element
 getItemAtIndex
 :
 function
-SMW_getItemAtIndex
 (
 aIndex
 )
@@ -411,7 +409,6 @@ aIndex
 removeChild
 :
 function
-SMW_removeChild
 (
 aChild
 )
@@ -492,7 +489,6 @@ null
 removeAllItems
 :
 function
-SMW_removeAllItems
 (
 )
 {
@@ -682,7 +678,6 @@ true
 ensureSelectionIsVisible
 :
 function
-SMW_ensureSelectionIsVisible
 (
 aFlags
 )
@@ -701,7 +696,6 @@ aFlags
 ensureElementIsVisible
 :
 function
-SMW_ensureElementIsVisible
 (
 aElement
 aFlags
@@ -814,7 +808,6 @@ aElement
 showEmptyGroups
 :
 function
-SMW_showEmptyGroups
 (
 )
 {
@@ -839,7 +832,6 @@ false
 hideEmptyGroups
 :
 function
-SMW_hideEmptyGroups
 (
 )
 {
@@ -920,7 +912,6 @@ hidden
 getAttribute
 :
 function
-SMW_getAttribute
 (
 aName
 )
@@ -939,7 +930,6 @@ aName
 setAttribute
 :
 function
-SMW_setAttribute
 (
 aName
 aValue
@@ -976,7 +966,6 @@ aValue
 removeAttribute
 :
 function
-SMW_removeAttribute
 (
 aName
 )
@@ -1050,7 +1039,6 @@ _appendNotice
 _appendNotice
 :
 function
-DVSL__appendNotice
 (
 )
 {
@@ -1192,7 +1180,6 @@ label
 _removeNotice
 :
 function
-DVSL__removeNotice
 (
 )
 {
@@ -1231,10 +1218,9 @@ _noticeTextNode
 null
 ;
 }
-_getGroupForName
+_getMenuGroupForName
 :
 function
-SMW__getGroupForName
 (
 aName
 )
@@ -1302,10 +1288,9 @@ return
 group
 ;
 }
-_getItemForGroup
+_getMenuItemForGroup
 :
 function
-SMW__getItemForGroup
 (
 aGroup
 aContents
@@ -1688,7 +1673,6 @@ _orderedMenuElementsArray
 insertSelfAt
 :
 function
-SMG_insertSelfAt
 (
 aIndex
 )
@@ -1767,7 +1751,6 @@ _target
 findExpectedIndexForSelf
 :
 function
-SMG_findExpectedIndexForSelf
 (
 )
 {
@@ -2119,7 +2102,6 @@ _orderedMenuElementsArray
 insertSelfAt
 :
 function
-SMI_insertSelfAt
 (
 aIndex
 )

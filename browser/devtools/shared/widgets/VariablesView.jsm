@@ -446,7 +446,6 @@ aObject
 addScope
 :
 function
-VV_addScope
 (
 aName
 =
@@ -523,7 +522,6 @@ scope
 empty
 :
 function
-VV_empty
 (
 aTimeout
 =
@@ -625,7 +623,6 @@ false
 _emptySoon
 :
 function
-VV__emptySoon
 (
 aTimeout
 )
@@ -1043,7 +1040,6 @@ _searchboxPlaceholder
 _enableSearch
 :
 function
-VV__enableSearch
 (
 )
 {
@@ -1224,7 +1220,6 @@ _parent
 _disableSearch
 :
 function
-VV__disableSearch
 (
 )
 {
@@ -1293,7 +1288,6 @@ null
 _toggleSearchVisibility
 :
 function
-VV__toggleSearchVisibility
 (
 aVisibleFlag
 )
@@ -1322,7 +1316,6 @@ aVisibleFlag
 _onSearchboxInput
 :
 function
-VV__onSearchboxInput
 (
 )
 {
@@ -1341,7 +1334,6 @@ value
 _onSearchboxKeyPress
 :
 function
-VV__onSearchboxKeyPress
 (
 e
 )
@@ -1401,7 +1393,6 @@ true
 scheduleSearch
 :
 function
-VV_scheduleSearch
 (
 aQuery
 )
@@ -1484,7 +1475,6 @@ delay
 performSearch
 :
 function
-VV_performSearch
 (
 aQuery
 )
@@ -1517,7 +1507,6 @@ aQuery
 _startSearch
 :
 function
-VV__startSearch
 (
 aQuery
 )
@@ -1584,7 +1573,6 @@ break
 expandFirstSearchResults
 :
 function
-VV_expandFirstSearchResults
 (
 )
 {
@@ -1622,7 +1610,6 @@ expand
 _findInVisibleItems
 :
 function
-VV__findInVisibleItems
 (
 aPredicate
 )
@@ -1664,7 +1651,6 @@ null
 _findInVisibleItemsReverse
 :
 function
-VV__findInVisibleItemsReverse
 (
 aPredicate
 )
@@ -1729,7 +1715,6 @@ null
 focusFirstVisibleNode
 :
 function
-VV_focusFirstVisibleNode
 (
 )
 {
@@ -1781,7 +1766,6 @@ scrollLeft
 focusLastVisibleNode
 :
 function
-VV_focusLastVisibleNode
 (
 )
 {
@@ -1837,7 +1821,6 @@ scrollLeft
 getScopeForNode
 :
 function
-VV_getScopeForNode
 (
 aNode
 )
@@ -1886,7 +1869,6 @@ null
 getItemForNode
 :
 function
-VV_getItemForNode
 (
 aNode
 )
@@ -1905,7 +1887,6 @@ aNode
 getFocusedItem
 :
 function
-VV_getFocusedItem
 (
 )
 {
@@ -1932,7 +1913,6 @@ focused
 focusNextItem
 :
 function
-VV_focusNextItem
 (
 aMaintainViewFocusedFlag
 )
@@ -1950,7 +1930,6 @@ aMaintainViewFocusedFlag
 focusPrevItem
 :
 function
-VV_focusPrevItem
 (
 aMaintainViewFocusedFlag
 )
@@ -1968,7 +1947,6 @@ aMaintainViewFocusedFlag
 _focusChange
 :
 function
-VV__focusChange
 (
 aDirection
 aMaintainViewFocusedFlag
@@ -2065,7 +2043,6 @@ false
 _focusItem
 :
 function
-VV__focusItem
 (
 aItem
 aCollapseFlag
@@ -2121,7 +2098,6 @@ true
 _onViewKeyPress
 :
 function
-VV__onViewKeyPress
 (
 e
 )
@@ -2584,7 +2560,6 @@ _appendEmptyNotice
 _appendEmptyNotice
 :
 function
-VV__appendEmptyNotice
 (
 )
 {
@@ -2663,7 +2638,6 @@ label
 _removeEmptyNotice
 :
 function
-VV__removeEmptyNotice
 (
 )
 {
@@ -3660,7 +3634,6 @@ prototype
 addVar
 :
 function
-S_addVar
 (
 aName
 =
@@ -3759,7 +3732,6 @@ variable
 get
 :
 function
-S_get
 (
 aName
 )
@@ -3778,7 +3750,6 @@ aName
 find
 :
 function
-S_find
 (
 aNode
 )
@@ -3842,7 +3813,6 @@ null
 isChildOf
 :
 function
-S_isChildOf
 (
 aParent
 )
@@ -3859,7 +3829,6 @@ aParent
 isDescendantOf
 :
 function
-S_isDescendantOf
 (
 aParent
 )
@@ -3916,7 +3885,6 @@ aParent
 show
 :
 function
-S_show
 (
 )
 {
@@ -3953,7 +3921,6 @@ this
 hide
 :
 function
-S_hide
 (
 )
 {
@@ -3990,7 +3957,6 @@ this
 expand
 :
 function
-S_expand
 (
 )
 {
@@ -4140,7 +4106,6 @@ this
 collapse
 :
 function
-S_collapse
 (
 )
 {
@@ -4218,7 +4183,6 @@ this
 toggle
 :
 function
-S_toggle
 (
 e
 )
@@ -4296,7 +4260,6 @@ this
 showHeader
 :
 function
-S_showHeader
 (
 )
 {
@@ -4339,7 +4302,6 @@ true
 hideHeader
 :
 function
-S_hideHeader
 (
 )
 {
@@ -4385,7 +4347,6 @@ false
 showArrow
 :
 function
-S_showArrow
 (
 )
 {
@@ -4420,7 +4381,6 @@ true
 hideArrow
 :
 function
-S_hideArrow
 (
 )
 {
@@ -4660,7 +4620,6 @@ true
 focus
 :
 function
-S_focus
 (
 )
 {
@@ -4677,7 +4636,6 @@ this
 addEventListener
 :
 function
-S_addEventListener
 (
 aName
 aCallback
@@ -4699,7 +4657,6 @@ aCapture
 removeEventListener
 :
 function
-S_removeEventListener
 (
 aName
 aCallback
@@ -4756,7 +4713,6 @@ _target
 _init
 :
 function
-S__init
 (
 aName
 aFlags
@@ -4815,7 +4771,6 @@ _target
 _displayScope
 :
 function
-S__createScope
 (
 aName
 aClassName
@@ -5063,7 +5018,6 @@ nonenum
 _addEventListeners
 :
 function
-S__addEventListeners
 (
 )
 {
@@ -5086,7 +5040,6 @@ false
 _onClick
 :
 function
-S__onClick
 (
 e
 )
@@ -5142,7 +5095,6 @@ focus
 _lazyAppend
 :
 function
-S__lazyAppend
 (
 aImmediateFlag
 aEnumerableFlag
@@ -5277,7 +5229,6 @@ LAZY_APPEND_DELAY
 _batchAppend
 :
 function
-S__batchAppend
 (
 )
 {
@@ -5370,7 +5321,6 @@ frags
 _startThrobber
 :
 function
-S__startThrobber
 (
 )
 {
@@ -5435,7 +5385,6 @@ throbber
 _stopThrobber
 :
 function
-S__stopThrobber
 (
 )
 {
@@ -5462,7 +5411,6 @@ true
 _openEnum
 :
 function
-S__openEnum
 (
 )
 {
@@ -5502,7 +5450,6 @@ _stopThrobber
 _openNonEnum
 :
 function
-S__openNonEnum
 (
 )
 {
@@ -5669,7 +5616,6 @@ open
 _performSearch
 :
 function
-S__performSearch
 (
 aLowerCaseQuery
 )
@@ -5982,7 +5928,6 @@ null
 _findInVisibleItems
 :
 function
-S__findInVisibleItems
 (
 aPredicate
 )
@@ -6094,7 +6039,6 @@ null
 _findInVisibleItemsReverse
 :
 function
-S__findInVisibleItemsReverse
 (
 aPredicate
 )
@@ -6623,7 +6567,6 @@ prototype
 addProperty
 :
 function
-V_addProperty
 (
 aName
 =
@@ -6722,7 +6665,6 @@ property
 addProperties
 :
 function
-V_addProperties
 (
 aProperties
 aOptions
@@ -6805,7 +6747,6 @@ value
 populate
 :
 function
-V_populate
 (
 aObject
 aOptions
@@ -6976,7 +6917,6 @@ prototype
 _populateTarget
 :
 function
-V__populateTarget
 (
 aVar
 aObject
@@ -6997,7 +6937,6 @@ aObject
 _addRawValueProperty
 :
 function
-V__addRawValueProperty
 (
 aName
 aDescriptor
@@ -7069,7 +7008,6 @@ propertyItem
 _addRawNonValueProperty
 :
 function
-V__addRawNonValueProperty
 (
 aName
 aDescriptor
@@ -7158,7 +7096,6 @@ set
 setGrip
 :
 function
-V_setGrip
 (
 aGrip
 )
@@ -7336,7 +7273,6 @@ _valueString
 _init
 :
 function
-V__init
 (
 aName
 aDescriptor
@@ -7431,7 +7367,6 @@ LAZY_APPEND_BATCH
 _onInit
 :
 function
-V__onInit
 (
 aImmediateFlag
 )
@@ -7523,7 +7458,6 @@ this
 _displayVariable
 :
 function
-V__createVariable
 (
 )
 {
@@ -7844,7 +7778,6 @@ expand
 _customizeVariable
 :
 function
-V__customizeVariable
 (
 )
 {
@@ -8061,7 +7994,6 @@ contextMenuId
 _prepareTooltip
 :
 function
-V__prepareTooltip
 (
 )
 {
@@ -8084,7 +8016,6 @@ false
 _displayTooltip
 :
 function
-V__displayTooltip
 (
 )
 {
@@ -8432,7 +8363,6 @@ deleteButtonTooltip
 _setAttributes
 :
 function
-V__setAttributes
 (
 )
 {
@@ -8687,7 +8617,6 @@ proto
 _addEventListeners
 :
 function
-V__addEventListeners
 (
 )
 {
@@ -8740,7 +8669,6 @@ false
 _activateInput
 :
 function
-V__activateInput
 (
 aLabel
 aClassName
@@ -8944,7 +8872,6 @@ _stopThrobber
 _deactivateInput
 :
 function
-V__deactivateInput
 (
 aLabel
 aInput
@@ -9042,7 +8969,6 @@ _stopThrobber
 _activateNameInput
 :
 function
-V__activateNameInput
 (
 e
 )
@@ -9168,7 +9094,6 @@ true
 _deactivateNameInput
 :
 function
-V__deactivateNameInput
 (
 e
 )
@@ -9217,7 +9142,6 @@ false
 _activateValueInput
 :
 function
-V__activateValueInput
 (
 e
 )
@@ -9327,7 +9251,6 @@ _deactivateValueInput
 _deactivateValueInput
 :
 function
-V__deactivateValueInput
 (
 e
 )
@@ -9360,7 +9283,6 @@ _deactivateValueInput
 _disable
 :
 function
-V__disable
 (
 )
 {
@@ -9438,7 +9360,6 @@ true
 _saveNameInput
 :
 function
-V__saveNameInput
 (
 e
 )
@@ -9530,7 +9451,6 @@ currentString
 _saveValueInput
 :
 function
-V__saveValueInput
 (
 e
 )
@@ -9628,7 +9548,6 @@ simpleValueEvalMacro
 _onNameInputKeyPress
 :
 function
-V__onNameInputKeyPress
 (
 e
 )
@@ -9696,7 +9615,6 @@ return
 _onValueInputKeyPress
 :
 function
-V__onValueInputKeyPress
 (
 e
 )
@@ -9764,7 +9682,6 @@ return
 _onEdit
 :
 function
-V__onEdit
 (
 e
 )
@@ -9791,7 +9708,6 @@ _activateValueInput
 _onDelete
 :
 function
-V__onDelete
 (
 e
 )
@@ -9975,7 +9891,6 @@ prototype
 _init
 :
 function
-P__init
 (
 aName
 aDescriptor
@@ -10070,7 +9985,6 @@ LAZY_APPEND_BATCH
 _onInit
 :
 function
-P__onInit
 (
 aImmediateFlag
 )
@@ -10165,7 +10079,6 @@ prototype
 __iterator__
 =
 function
-VV_iterator
 (
 )
 {
@@ -10192,7 +10105,6 @@ prototype
 clearHierarchy
 =
 function
-VV_clearHierarchy
 (
 )
 {
@@ -10221,7 +10133,6 @@ prototype
 createHierarchy
 =
 function
-VV_createHierarchy
 (
 )
 {
@@ -10251,7 +10162,6 @@ prototype
 commitHierarchy
 =
 function
-VV_commitHierarchy
 (
 )
 {
@@ -10502,7 +10412,6 @@ VariablesView
 isPrimitive
 =
 function
-VV_isPrimitive
 (
 aDescriptor
 )
@@ -10606,7 +10515,6 @@ VariablesView
 isUndefined
 =
 function
-VV_isUndefined
 (
 aDescriptor
 )
@@ -10705,7 +10613,6 @@ VariablesView
 isFalsy
 =
 function
-VV_isFalsy
 (
 aDescriptor
 )
@@ -10772,7 +10679,6 @@ VariablesView
 getGrip
 =
 function
-VV_getGrip
 (
 aValue
 )
@@ -10863,7 +10769,6 @@ VariablesView
 getString
 =
 function
-VV_getString
 (
 aGrip
 aConciseFlag
@@ -11026,7 +10931,6 @@ VariablesView
 getClass
 =
 function
-VV_getClass
 (
 aGrip
 )
@@ -11160,7 +11064,6 @@ count
 ;
 return
 function
-VV_generateId
 (
 aName
 =
