@@ -227,7 +227,7 @@ aBackend
 aData
 ;
 }
-PRInt32
+int32_t
 GetSerial
 (
 )
@@ -284,14 +284,14 @@ void
 *
 mImplData
 ;
-PRInt32
+int32_t
 mSerial
 ;
 ImageFormat
 mFormat
 ;
 static
-PRInt32
+int32_t
 sSerialCounter
 ;
 }

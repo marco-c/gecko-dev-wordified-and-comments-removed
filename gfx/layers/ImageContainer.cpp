@@ -184,7 +184,7 @@ mozilla
 namespace
 layers
 {
-PRInt32
+int32_t
 Image
 :
 :
