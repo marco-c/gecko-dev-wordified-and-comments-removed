@@ -824,13 +824,6 @@ return
 0
 ;
 }
-dump_header
-(
-&
-header
-out
-)
-;
 p
 +
 =
