@@ -1414,7 +1414,7 @@ fun
 )
 -
 >
-atom
+displayAtom
 (
 )
 ;
