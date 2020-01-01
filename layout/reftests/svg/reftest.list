@@ -3202,6 +3202,12 @@ svg
 about
 :
 blank
+random
+-
+if
+(
+winWidget
+)
 =
 =
 suspend
@@ -3212,6 +3218,9 @@ svg
 pass
 .
 svg
+#
+bug
+724281
 fails
 =
 =
