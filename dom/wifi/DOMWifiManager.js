@@ -1122,7 +1122,12 @@ DOMRequest
 fireSuccess
 (
 request
-true
+exposeReadOnly
+(
+msg
+.
+data
+)
 )
 ;
 break
