@@ -467,6 +467,10 @@ test_tableinsubtree
 .
 html
 \
+test_textleaf
+.
+html
+\
 (
 NULL
 )

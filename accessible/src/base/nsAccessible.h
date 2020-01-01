@@ -768,6 +768,7 @@ CacheChildren
 (
 )
 ;
+virtual
 void
 BindToParent
 (
