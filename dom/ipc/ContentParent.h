@@ -334,11 +334,14 @@ aService
 ;
 virtual
 bool
-RecvReadPrefs
+RecvReadPrefsArray
 (
-nsCString
+nsTArray
+<
+PrefTuple
+>
 *
-prefs
+retValue
 )
 ;
 void

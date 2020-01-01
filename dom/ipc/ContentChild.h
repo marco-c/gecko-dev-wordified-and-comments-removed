@@ -294,9 +294,9 @@ bool
 RecvPreferenceUpdate
 (
 const
-nsCString
+PrefTuple
 &
-aDomain
+aPref
 )
 ;
 virtual
