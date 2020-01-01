@@ -3458,6 +3458,8 @@ js
 \
 jsloader
 \
+hyphenation
+\
 (
 NULL
 )
