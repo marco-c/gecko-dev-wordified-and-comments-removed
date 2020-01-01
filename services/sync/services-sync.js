@@ -198,7 +198,7 @@ engine
 .
 passwords
 "
-false
+true
 )
 ;
 pref
