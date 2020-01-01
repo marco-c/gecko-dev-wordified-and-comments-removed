@@ -705,7 +705,7 @@ GetSafeJSContext
 ;
 mPusher
 .
-Push
+construct
 (
 mCx
 )
@@ -779,7 +779,7 @@ GetCurrentJSContext
 {
 mPusher
 .
-Push
+construct
 (
 mCx
 )
