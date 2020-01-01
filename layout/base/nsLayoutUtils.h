@@ -620,6 +620,9 @@ nsIFrame
 *
 GetPopupFrameForEventCoordinates
 (
+nsPresContext
+*
+aPresContext
 const
 nsEvent
 *

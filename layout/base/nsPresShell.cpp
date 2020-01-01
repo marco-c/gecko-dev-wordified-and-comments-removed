@@ -26702,6 +26702,7 @@ nsLayoutUtils
 :
 GetPopupFrameForEventCoordinates
 (
+rootPresContext
 aEvent
 )
 ;
