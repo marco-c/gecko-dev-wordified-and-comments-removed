@@ -1299,7 +1299,7 @@ InitButtonEvent
 (
 nsMouseEvent
 &
-aEvent
+event
 QMouseEvent
 *
 aEvent

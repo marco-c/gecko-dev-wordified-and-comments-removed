@@ -43,6 +43,13 @@ endif
 #
 include
 <
+limits
+.
+h
+>
+#
+include
+<
 qdir
 .
 h
