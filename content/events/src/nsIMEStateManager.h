@@ -369,10 +369,6 @@ sInstalledMenuKeyboardListener
 ;
 static
 bool
-sInSecureInputMode
-;
-static
-bool
 sIsTestingIME
 ;
 static

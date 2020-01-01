@@ -1824,16 +1824,6 @@ ThemeGeometry
 aThemeGeometries
 )
 ;
-NS_IMETHOD
-BeginSecureKeyboardInput
-(
-)
-;
-NS_IMETHOD
-EndSecureKeyboardInput
-(
-)
-;
 void
 HidePlugin
 (

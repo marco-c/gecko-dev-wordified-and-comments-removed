@@ -1336,16 +1336,6 @@ return
 mInputContext
 ;
 }
-NS_IMETHOD
-BeginSecureKeyboardInput
-(
-)
-;
-NS_IMETHOD
-EndSecureKeyboardInput
-(
-)
-;
 void
 SetPopupWindowLevel
 (
