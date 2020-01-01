@@ -215,7 +215,7 @@ src
 if
 defined
 (
-MOZ_MEMORY_ANDROID
+WIN32_NEW_STYLE_JEMALLOC
 )
 size_t
 je_malloc_usable_size
@@ -224,17 +224,6 @@ void
 *
 ptr
 )
-#
-else
-size_t
-je_malloc_usable_size
-(
-const
-void
-*
-ptr
-)
-;
 #
 endif
 #
