@@ -217,6 +217,11 @@ successWasCalledAfterClear
 =
 false
 ;
+var
+firstCallback
+=
+true
+;
 function
 failureCallback
 (
@@ -280,6 +285,11 @@ successWasCalledAfterClear
 true
 ;
 }
+if
+(
+firstCallback
+)
+{
 SimpleTest
 .
 executeSoon
@@ -287,6 +297,11 @@ executeSoon
 clearWatch
 )
 ;
+firstCallback
+=
+false
+;
+}
 }
 function
 clearWatch
