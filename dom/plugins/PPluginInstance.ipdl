@@ -1088,11 +1088,6 @@ PluginGotFocus
 (
 )
 ;
-async
-ProcessNativeEventsInRPCCall
-(
-)
-;
 child
 :
 rpc
