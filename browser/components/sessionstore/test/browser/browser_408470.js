@@ -68,7 +68,9 @@ function
 aEvent
 )
 {
-this
+tab
+.
+linkedBrowser
 .
 removeEventListener
 (
@@ -143,7 +145,9 @@ function
 aEvent
 )
 {
-this
+newTab
+.
+linkedBrowser
 .
 removeEventListener
 (
@@ -308,7 +312,9 @@ function
 aEvent
 )
 {
-this
+newTab
+.
+linkedBrowser
 .
 removeEventListener
 (
