@@ -3792,7 +3792,7 @@ rp
 -
 callDepth
 ;
-clearFrameSlotsFromTracker
+clearCurrentFrameSlotsFromTracker
 (
 nativeFrameTracker
 )
