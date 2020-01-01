@@ -6274,12 +6274,6 @@ ifdef
 MOZ_B2G_RIL
 NS_DEFINE_CLASSINFO_DATA
 (
-MozWifiStatusChangeEvent
-nsDOMGenericSH
-DOM_DEFAULT_SCRIPTABLE_FLAGS
-)
-NS_DEFINE_CLASSINFO_DATA
-(
 MozWifiConnectionInfoEvent
 nsDOMGenericSH
 DOM_DEFAULT_SCRIPTABLE_FLAGS
@@ -6661,10 +6655,6 @@ WheelEvent
 #
 ifdef
 MOZ_B2G_RIL
-NS_DEFINE_EVENT_CTOR
-(
-MozWifiStatusChangeEvent
-)
 NS_DEFINE_EVENT_CTOR
 (
 MozWifiConnectionInfoEvent

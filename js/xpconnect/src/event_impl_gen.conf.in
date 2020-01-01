@@ -165,6 +165,9 @@ MOZ_B2G_RIL
 '
 ICCCardLockErrorEvent
 '
+'
+MozWifiStatusChangeEvent
+'
 #
 endif
 '
