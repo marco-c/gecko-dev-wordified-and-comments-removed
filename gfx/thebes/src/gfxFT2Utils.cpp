@@ -20,7 +20,7 @@ include
 FT_TRUETYPE_TABLES_H
 #
 ifdef
-CAIRO_HAS_FC_FONT
+HAVE_FONTCONFIG_FCFREETYPE_H
 #
 include
 <
@@ -1443,7 +1443,7 @@ return
 ;
 #
 ifdef
-CAIRO_HAS_FC_FONT
+HAVE_FONTCONFIG_FCFREETYPE_H
 if
 (
 !
