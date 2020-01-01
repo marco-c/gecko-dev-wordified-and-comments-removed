@@ -552,6 +552,14 @@ bug449778_window
 .
 xul
 \
+test_bug449780
+.
+xul
+\
+bug449780_window
+.
+xul
+\
 test_bug454235
 .
 xul

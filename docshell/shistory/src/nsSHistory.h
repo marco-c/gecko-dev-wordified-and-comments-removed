@@ -247,7 +247,7 @@ EvictGlobalContentViewer
 ;
 static
 void
-EvictAllContentViewers
+EvictAllContentViewersGlobally
 (
 )
 ;
