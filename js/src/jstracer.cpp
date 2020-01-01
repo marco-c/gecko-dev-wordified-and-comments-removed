@@ -44910,6 +44910,8 @@ d2i
 LIns
 *
 f
+bool
+resultCanBeImpreciseIfFractional
 )
 {
 if
@@ -45260,6 +45262,17 @@ args
 }
 }
 return
+resultCanBeImpreciseIfFractional
+?
+lir
+-
+>
+ins1
+(
+LIR_d2i
+f
+)
+:
 lir
 -
 >
@@ -45385,6 +45398,7 @@ x
 d2i
 (
 f
+true
 )
 ;
 guard
