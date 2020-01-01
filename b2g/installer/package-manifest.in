@@ -803,6 +803,13 @@ BINPATH
 /
 components
 /
+dom_audiochannel
+.
+xpt
+BINPATH
+/
+components
+/
 dom_base
 .
 xpt
