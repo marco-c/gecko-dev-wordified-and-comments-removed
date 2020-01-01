@@ -11707,15 +11707,9 @@ return
 opp
 -
 >
-GetConnectionStatus
+IsTransferring
 (
 )
-=
-=
-SocketConnectionStatus
-:
-:
-SOCKET_CONNECTED
 ;
 }
 return

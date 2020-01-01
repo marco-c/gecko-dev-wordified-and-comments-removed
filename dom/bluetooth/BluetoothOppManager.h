@@ -240,6 +240,11 @@ HandleShutdown
 (
 )
 ;
+bool
+IsTransferring
+(
+)
+;
 private
 :
 BluetoothOppManager
