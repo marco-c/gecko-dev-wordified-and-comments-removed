@@ -1662,9 +1662,12 @@ height
 :
 h
 }
-'
-animate350
-'
+{
+duration
+:
+350
+complete
+:
 function
 (
 )
@@ -1745,6 +1748,7 @@ resize
 true
 )
 ;
+}
 }
 )
 ;
@@ -2042,9 +2046,12 @@ width
 /
 2
 }
-'
-animate300
-'
+{
+duration
+:
+300
+complete
+:
 function
 (
 )
@@ -2055,6 +2062,7 @@ remove
 (
 )
 ;
+}
 }
 )
 ;
