@@ -13399,6 +13399,7 @@ arrayWithObjects
 :
 NSFilenamesPboardType
 NSStringPboardType
+NSHTMLPboardType
 NSURLPboardType
 NSFilesPromisePboardType
 kWildcardPboardType
