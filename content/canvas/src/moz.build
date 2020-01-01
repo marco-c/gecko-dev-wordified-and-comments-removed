@@ -220,6 +220,11 @@ WebGLContextBuffers
 cpp
 '
 '
+WebGLContextLossTimer
+.
+cpp
+'
+'
 WebGLContextGL
 .
 cpp
