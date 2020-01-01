@@ -109,7 +109,7 @@ MOZ_FINAL
 {
 public
 :
-nsAutoRefCnt
+nsCycleCollectingAutoRefCnt
 mRefCnt
 ;
 nsAutoPtr
@@ -120,7 +120,7 @@ mFirst
 ;
 public
 :
-NS_IMETHOD_
+NS_METHOD_
 (
 nsrefcnt
 )
@@ -128,7 +128,7 @@ AddRef
 (
 )
 ;
-NS_IMETHOD_
+NS_METHOD_
 (
 nsrefcnt
 )
