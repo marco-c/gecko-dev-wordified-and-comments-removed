@@ -3296,6 +3296,7 @@ DeleteNextInFlowChild
 (
 aPresContext
 kidNextInFlow
+PR_TRUE
 )
 ;
 }
@@ -4536,6 +4537,8 @@ aPresContext
 nsIFrame
 *
 aNextInFlow
+PRBool
+aDeletingEmptyFrames
 )
 {
 #
@@ -4674,6 +4677,7 @@ DeleteNextInFlowChild
 (
 aPresContext
 delFrame
+aDeletingEmptyFrames
 )
 ;
 }

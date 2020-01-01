@@ -220,6 +220,8 @@ aPresContext
 nsIFrame
 *
 aNextInFlow
+PRBool
+aDeletingEmptyFrames
 )
 ;
 static
