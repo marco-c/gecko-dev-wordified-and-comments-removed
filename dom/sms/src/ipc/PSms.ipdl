@@ -634,6 +634,16 @@ PRUint64
 aProcessId
 )
 ;
+NotifyRequestGotNextMessage
+(
+SmsMessageData
+aMessageData
+PRInt32
+aRequestId
+PRUint64
+aProcessId
+)
+;
 parent
 :
 sync
