@@ -511,6 +511,14 @@ browser_inspector_keybindings
 .
 js
 \
+browser_inspector_breadcrumbs
+.
+html
+\
+browser_inspector_breadcrumbs
+.
+js
+\
 (
 NULL
 )
