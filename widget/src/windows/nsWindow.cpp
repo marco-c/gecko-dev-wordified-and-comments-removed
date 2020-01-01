@@ -34126,6 +34126,11 @@ if
 rollup
 )
 {
+PRBool
+consumeRollupEvent
+=
+gRollupConsumeRollupEvent
+;
 gRollupListener
 -
 >
@@ -34156,7 +34161,7 @@ NULL
 ;
 if
 (
-gRollupConsumeRollupEvent
+consumeRollupEvent
 &
 &
 inMsg
