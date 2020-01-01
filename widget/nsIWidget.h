@@ -1522,7 +1522,7 @@ nsnull
 ;
 virtual
 void
-DrawOver
+DrawWindowOverlay
 (
 LayerManager
 *

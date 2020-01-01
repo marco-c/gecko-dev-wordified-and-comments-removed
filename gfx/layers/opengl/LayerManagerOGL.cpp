@@ -3916,7 +3916,7 @@ nsIntPoint
 mWidget
 -
 >
-DrawOver
+DrawWindowOverlay
 (
 this
 rect
