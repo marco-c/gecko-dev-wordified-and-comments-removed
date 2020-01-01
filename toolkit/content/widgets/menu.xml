@@ -504,7 +504,7 @@ Components
 .
 interfaces
 .
-nsIMenuBoxObject
+nsIMenuBoxObject_MOZILLA_2_0_BRANCH
 )
 .
 openedWithKey
