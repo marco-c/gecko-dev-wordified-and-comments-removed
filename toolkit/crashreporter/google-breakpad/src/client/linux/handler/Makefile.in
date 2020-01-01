@@ -458,14 +458,6 @@ exception_handler
 .
 cc
 \
-minidump_generator
-.
-cc
-\
-linux_thread
-.
-cc
-\
 (
 NULL
 )
