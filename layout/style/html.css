@@ -2067,7 +2067,6 @@ outline
 dotted
 ;
 }
-area
 base
 basefont
 head
@@ -2081,6 +2080,15 @@ param
 display
 :
 none
+;
+}
+area
+{
+display
+:
+none
+!
+important
 ;
 }
 video
