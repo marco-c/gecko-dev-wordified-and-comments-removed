@@ -245,10 +245,6 @@ nsSVGPathGeometryElement
 .
 cpp
 \
-nsSVGPatternElement
-.
-cpp
-\
 nsSVGPolyElement
 .
 cpp
@@ -458,6 +454,10 @@ SVGPathSegUtils
 cpp
 \
 SVGPathSegListSMILType
+.
+cpp
+\
+SVGPatternElement
 .
 cpp
 \
@@ -731,6 +731,10 @@ SVGMPathElement
 h
 \
 SVGPathElement
+.
+h
+\
+SVGPatternElement
 .
 h
 \
