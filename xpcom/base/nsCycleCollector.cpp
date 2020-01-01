@@ -2000,7 +2000,10 @@ private
 :
 Block
 *
+&
 mFirstBlock
+;
+Block
 *
 mCurBlock
 ;
