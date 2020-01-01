@@ -468,8 +468,6 @@ rf
 DIST
 )
 /
-dist
-/
 bin
 (
 RM
