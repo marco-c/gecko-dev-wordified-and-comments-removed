@@ -453,8 +453,8 @@ NPStream
 aStream
 )
 ;
-bool
-InternalInvalidateRect
+void
+InvalidateRect
 (
 NPRect
 *
