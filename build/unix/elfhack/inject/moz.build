@@ -96,11 +96,3 @@ MPL
 NO_DIST_INSTALL
 =
 True
-DIRS
-+
-=
-[
-'
-inject
-'
-]
