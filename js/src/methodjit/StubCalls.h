@@ -330,6 +330,15 @@ VMFrame
 f
 )
 ;
+void
+JS_FASTCALL
+ObjToStr
+(
+VMFrame
+&
+f
+)
+;
 JSBool
 JS_FASTCALL
 ValueToBoolean
