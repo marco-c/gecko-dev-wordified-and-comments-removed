@@ -66,7 +66,7 @@ nsIController
 struct
 PRThread
 ;
-struct
+class
 OnLinkClickEvent
 ;
 typedef
@@ -243,7 +243,7 @@ aEvent
 )
 ;
 friend
-struct
+class
 OnLinkClickEvent
 ;
 protected
