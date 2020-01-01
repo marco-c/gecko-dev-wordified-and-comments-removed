@@ -4170,6 +4170,14 @@ do_QueryInterface
 cert
 )
 ;
+if
+(
+!
+pipCert
+)
+return
+NS_ERROR_FAILURE
+;
 CERTCertificate
 *
 nsscert
