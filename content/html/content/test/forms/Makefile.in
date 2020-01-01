@@ -228,6 +228,10 @@ test_form_attribute
 .
 html
 \
+test_option_disabled
+.
+html
+\
 (
 NULL
 )
