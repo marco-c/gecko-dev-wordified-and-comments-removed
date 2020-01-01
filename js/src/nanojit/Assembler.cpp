@@ -3891,6 +3891,10 @@ RegAllocMap
 branchStateMap
 )
 {
+internalReset
+(
+)
+;
 _thisfrag
 =
 frag
