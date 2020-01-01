@@ -3216,6 +3216,16 @@ mState
 =
 DECODER_STATE_BUFFERING
 ;
+if
+(
+mPlaying
+)
+{
+StopPlayback
+(
+)
+;
+}
 LOG
 (
 PR_LOG_DEBUG
