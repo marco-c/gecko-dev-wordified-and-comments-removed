@@ -858,6 +858,8 @@ shell_start
 (
 )
 {
+try
+{
 let
 cr
 =
@@ -885,8 +887,6 @@ Ci
 nsICrashReporter
 )
 ;
-try
-{
 try
 {
 let
