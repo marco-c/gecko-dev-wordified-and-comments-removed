@@ -79,7 +79,7 @@ mk
 MODULE
 =
 dom
-DIRS
+PARALLEL_DIRS
 =
 \
 interfaces
@@ -180,13 +180,6 @@ interfaces
 /
 smil
 \
-(
-NULL
-)
-DIRS
-+
-=
-\
 interfaces
 /
 apps
@@ -194,7 +187,7 @@ apps
 (
 NULL
 )
-DIRS
+PARALLEL_DIRS
 +
 =
 \
@@ -265,7 +258,7 @@ NULL
 )
 ifdef
 MOZ_B2G_RIL
-DIRS
+PARALLEL_DIRS
 +
 =
 \
@@ -279,7 +272,7 @@ NULL
 endif
 ifdef
 MOZ_B2G_BT
-DIRS
+PARALLEL_DIRS
 +
 =
 \
