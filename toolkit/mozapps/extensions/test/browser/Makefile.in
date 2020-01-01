@@ -303,6 +303,10 @@ browser_pluginprefs
 .
 js
 \
+browser_CTP_plugins
+.
+js
+\
 (
 NULL
 )
@@ -476,6 +480,10 @@ xul
 options
 .
 xul
+\
+plugin_test
+.
+html
 \
 redirect
 .

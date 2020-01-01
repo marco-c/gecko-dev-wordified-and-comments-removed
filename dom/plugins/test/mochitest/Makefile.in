@@ -302,10 +302,6 @@ test_bug777098
 .
 html
 \
-test_bug751809
-.
-html
-\
 test_bug813906
 .
 html
@@ -473,7 +469,15 @@ test_bug479979
 .
 xul
 \
+test_bug751809
+.
+html
+\
 test_refresh_navigator_plugins
+.
+html
+\
+test_plugin_tag_clicktoplay
 .
 html
 \
