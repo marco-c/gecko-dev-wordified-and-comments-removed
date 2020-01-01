@@ -3735,7 +3735,9 @@ mozcrash
 .
 check_for_crashes
 (
-test_dir
+self
+.
+tempDir
 self
 .
 symbolsPath
