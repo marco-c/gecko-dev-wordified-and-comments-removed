@@ -5579,6 +5579,9 @@ STAGEPATH
 (
 MOZ_PKG_DIR
 )
+(
+_BINPATH
+)
 /
 chrome
 ifndef
