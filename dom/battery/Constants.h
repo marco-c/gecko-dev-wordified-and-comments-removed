@@ -29,6 +29,14 @@ kDefaultCharging
 =
 true
 ;
+static
+const
+double
+kUnknownRemainingTime
+=
+-
+1
+;
 }
 }
 }
