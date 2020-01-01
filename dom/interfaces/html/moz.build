@@ -398,6 +398,11 @@ nsIDOMHTMLUListElement
 idl
 '
 '
+nsIDOMHTMLUnknownElement
+.
+idl
+'
+'
 nsIDOMHTMLVideoElement
 .
 idl
