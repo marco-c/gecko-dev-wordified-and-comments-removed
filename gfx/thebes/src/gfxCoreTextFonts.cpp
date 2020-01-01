@@ -5057,8 +5057,9 @@ location
 }
 if
 (
-baseCharIndex
+endCharIndex
 <
+=
 aLayoutStart
 |
 |
@@ -5081,6 +5082,14 @@ charEnd
 continue
 ;
 }
+baseCharIndex
+=
+PR_MAX
+(
+baseCharIndex
+aLayoutStart
+)
+;
 endCharIndex
 =
 PR_MIN
