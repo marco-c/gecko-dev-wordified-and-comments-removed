@@ -1177,6 +1177,8 @@ Element
 *
 *
 aResult
+bool
+aIsRoot
 )
 ;
 nsresult

@@ -9726,6 +9726,7 @@ getter_AddRefs
 (
 root
 )
+true
 )
 ;
 if
@@ -11630,6 +11631,7 @@ getter_AddRefs
 (
 child
 )
+false
 )
 ;
 if
@@ -14215,6 +14217,8 @@ Element
 *
 *
 aResult
+bool
+aIsRoot
 )
 {
 NS_PRECONDITION
@@ -14327,6 +14331,7 @@ Create
 aPrototype
 this
 true
+aIsRoot
 getter_AddRefs
 (
 result
@@ -14513,6 +14518,7 @@ getter_AddRefs
 (
 element
 )
+false
 )
 ;
 if

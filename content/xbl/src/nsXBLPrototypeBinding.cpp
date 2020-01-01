@@ -8361,6 +8361,7 @@ Create
 prototype
 aDocument
 false
+false
 getter_AddRefs
 (
 result
