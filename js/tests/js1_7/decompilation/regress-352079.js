@@ -233,11 +233,11 @@ function
 (
 )
 {
-delete
 p
 (
 3
 )
+true
 ;
 }
 '
