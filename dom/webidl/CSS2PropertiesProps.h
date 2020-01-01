@@ -52,14 +52,12 @@ pref
 )
 #
 define
-CSS_PROP_DOMPROP_PREFIXED
+CSS_PROP_PUBLIC_OR_PRIVATE
 (
-val
+publicname_
+privatename_
 )
-Moz
-#
-#
-val
+publicname_
 #
 define
 CSS_PROP_LIST_EXCLUDE_INTERNAL
@@ -75,7 +73,7 @@ undef
 CSS_PROP_LIST_EXCLUDE_INTERNAL
 #
 undef
-CSS_PROP_DOMPROP_PREFIXED
+CSS_PROP_PUBLIC_OR_PRIVATE
 #
 undef
 CSS_PROP_SHORTHAND

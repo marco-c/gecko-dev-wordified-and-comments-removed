@@ -6957,11 +6957,12 @@ eCSSProperty_COUNT_no_shorthands
 {
 #
 define
-CSS_PROP_DOMPROP_PREFIXED
+CSS_PROP_PUBLIC_OR_PRIVATE
 (
-prop_
+publicname_
+privatename_
 )
-prop_
+privatename_
 #
 define
 NSCSSPROPS_INNER_MACRO
@@ -7005,7 +7006,7 @@ undef
 NSCSSPROPS_INNER_MACRO
 #
 undef
-CSS_PROP_DOMPROP_PREFIXED
+CSS_PROP_PUBLIC_OR_PRIVATE
 }
 ;
 #

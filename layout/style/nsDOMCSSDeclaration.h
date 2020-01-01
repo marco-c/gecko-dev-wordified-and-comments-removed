@@ -236,14 +236,12 @@ MOZ_OVERRIDE
 ;
 #
 define
-CSS_PROP_DOMPROP_PREFIXED
+CSS_PROP_PUBLIC_OR_PRIVATE
 (
-prop_
+publicname_
+privatename_
 )
-Moz
-#
-#
-prop_
+publicname_
 #
 define
 CSS_PROP
@@ -408,7 +406,7 @@ undef
 CSS_PROP
 #
 undef
-CSS_PROP_DOMPROP_PREFIXED
+CSS_PROP_PUBLIC_OR_PRIVATE
 virtual
 void
 IndexedGetter
