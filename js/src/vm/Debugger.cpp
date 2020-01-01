@@ -16924,6 +16924,14 @@ script
 argsObjAliasesFormals
 (
 )
+&
+&
+fp
+-
+>
+hasArgsObj
+(
+)
 )
 arg
 =
@@ -16948,6 +16956,7 @@ fp
 unaliasedActual
 (
 i
+DONT_CHECK_ALIASING
 )
 ;
 }

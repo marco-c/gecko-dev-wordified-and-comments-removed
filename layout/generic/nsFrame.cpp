@@ -2137,6 +2137,12 @@ PresContext
 (
 )
 )
+|
+|
+!
+GetParent
+(
+)
 #
 ifdef
 DEBUG

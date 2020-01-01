@@ -1750,9 +1750,6 @@ send
 .
 *
 /
-[
-implicit_jscontext
-]
 void
 send
 (
@@ -1830,9 +1827,6 @@ discarded
 .
 *
 /
-[
-implicit_jscontext
-]
 void
 sendAsBinary
 (

@@ -196,16 +196,8 @@ aBuilder
 bool
 *
 aSnap
-bool
-*
-aForceTransparentSurface
 )
 {
-*
-aForceTransparentSurface
-=
-false
-;
 *
 aSnap
 =

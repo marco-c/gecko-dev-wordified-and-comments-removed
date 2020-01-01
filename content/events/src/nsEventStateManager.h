@@ -1236,10 +1236,6 @@ static
 nsIntPoint
 sLastRefPoint
 ;
-static
-nsIntPoint
-sLastScreenOffset
-;
 nsIntPoint
 mGestureDownPoint
 ;
@@ -1451,13 +1447,6 @@ aWidget
 nsIContent
 *
 aElement
-)
-;
-nsIntPoint
-GetMouseCoords
-(
-nsIntRect
-aBounds
 )
 ;
 static

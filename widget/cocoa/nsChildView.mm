@@ -1952,6 +1952,9 @@ mParentView
 =
 (
 NSView
+<
+mozView
+>
 *
 )
 aParent
@@ -2018,6 +2021,9 @@ mParentView
 reinterpret_cast
 <
 NSView
+<
+mozView
+>
 *
 >
 (
@@ -2063,6 +2069,13 @@ r
 mView
 =
 [
+(
+NSView
+<
+mozView
+>
+*
+)
 CreateCocoaView
 (
 r
@@ -4034,6 +4047,9 @@ newParentView
 =
 (
 NSView
+<
+mozView
+>
 *
 )
 aNewParent
