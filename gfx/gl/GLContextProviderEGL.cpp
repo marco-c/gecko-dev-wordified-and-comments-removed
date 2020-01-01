@@ -2754,7 +2754,7 @@ false
 if
 (
 !
-ResizeOffscreenFBO
+ResizeOffscreenFBOs
 (
 pbsize
 false
@@ -2971,7 +2971,7 @@ false
 if
 (
 !
-ResizeOffscreenFBO
+ResizeOffscreenFBOs
 (
 aNewSize
 true
@@ -3012,7 +3012,7 @@ aNewSize
 {
 if
 (
-ResizeOffscreenFBO
+ResizeOffscreenFBOs
 (
 aNewSize
 true
@@ -3025,7 +3025,7 @@ true
 #
 endif
 return
-ResizeOffscreenFBO
+ResizeOffscreenFBOs
 (
 aNewSize
 true
@@ -8010,7 +8010,7 @@ ContextFlagsGlobal
 glContext
 -
 >
-ResizeOffscreenFBO
+ResizeOffscreenFBOs
 (
 fboSize
 !
@@ -8079,7 +8079,7 @@ ContextFlagsGlobal
 glContext
 -
 >
-ResizeOffscreenFBO
+ResizeOffscreenFBOs
 (
 glContext
 -
@@ -8153,7 +8153,7 @@ gUseBackingSurface
 glContext
 -
 >
-ResizeOffscreenFBO
+ResizeOffscreenFBOs
 (
 glContext
 -

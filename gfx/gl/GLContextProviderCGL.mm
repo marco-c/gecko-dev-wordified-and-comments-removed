@@ -1435,7 +1435,7 @@ false
 if
 (
 !
-ResizeOffscreenFBO
+ResizeOffscreenFBOs
 (
 aNewSize
 false
@@ -1500,7 +1500,7 @@ true
 ;
 }
 return
-ResizeOffscreenFBO
+ResizeOffscreenFBOs
 (
 aNewSize
 true
@@ -2907,7 +2907,7 @@ Init
 glContext
 -
 >
-ResizeOffscreenFBO
+ResizeOffscreenFBOs
 (
 aSize
 false
@@ -2968,7 +2968,7 @@ Init
 glContext
 -
 >
-ResizeOffscreenFBO
+ResizeOffscreenFBOs
 (
 aSize
 true
