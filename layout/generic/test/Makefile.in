@@ -571,6 +571,10 @@ test_bug470212
 .
 html
 \
+test_bug488417
+.
+html
+\
 test_movement_by_characters
 .
 html
@@ -597,11 +601,6 @@ temporarily
 test_plugin_position
 .
 xhtml
-\
-#
-test_bug488417
-.
-html
 \
 libs
 :
