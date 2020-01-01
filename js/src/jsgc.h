@@ -764,14 +764,13 @@ JSTRACE_ATOM
 endif
 extern
 void
-js_CallGCThingTracer
+js_CallValueTracerIfGCThing
 (
 JSTracer
 *
 trc
-void
-*
-thing
+jsval
+v
 )
 ;
 extern
