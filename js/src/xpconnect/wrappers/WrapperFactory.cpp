@@ -1650,7 +1650,11 @@ proxy
 wrapper
 =
 &
+FilteringWrapper
+<
 XrayProxy
+CrossOriginAccessiblePropertiesOnly
+>
 :
 :
 singleton
