@@ -596,6 +596,12 @@ test
 .
 js
 \
+chrome
+-
+harness
+.
+js
+\
 ipc
 -
 overlay

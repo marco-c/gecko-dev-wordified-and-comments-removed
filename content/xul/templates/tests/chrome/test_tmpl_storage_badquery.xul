@@ -328,6 +328,15 @@ reset
 (
 )
 ;
+copyToProfile
+(
+'
+animals
+.
+sqlite
+'
+)
+;
 expectedConsoleMessages
 .
 push
@@ -404,6 +413,8 @@ rows
 datasources
 =
 "
+profile
+:
 animals
 .
 sqlite

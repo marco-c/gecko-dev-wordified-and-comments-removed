@@ -249,6 +249,15 @@ script
 [
 CDATA
 [
+copyToProfile
+(
+'
+animals
+.
+sqlite
+'
+)
+;
 SimpleTest
 .
 waitForExplicitFinish
@@ -680,6 +689,8 @@ flex
 datasources
 =
 "
+profile
+:
 animals
 .
 sqlite
@@ -794,6 +805,8 @@ flex
 datasources
 =
 "
+profile
+:
 animals
 .
 sqlite
@@ -913,6 +926,8 @@ flex
 datasources
 =
 "
+profile
+:
 animals
 .
 sqlite
@@ -1051,6 +1066,8 @@ flex
 datasources
 =
 "
+profile
+:
 animals
 .
 sqlite
@@ -1195,6 +1212,8 @@ flex
 datasources
 =
 "
+profile
+:
 animals
 .
 sqlite
@@ -1339,6 +1358,8 @@ flex
 datasources
 =
 "
+profile
+:
 animals
 .
 sqlite
