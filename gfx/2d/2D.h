@@ -28,13 +28,6 @@ h
 #
 include
 "
-ZoomScale
-.
-h
-"
-#
-include
-"
 Matrix
 .
 h
