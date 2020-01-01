@@ -571,6 +571,10 @@ test_parse_url
 .
 html
 \
+test_parser_diagnostics_unprintables
+.
+html
+\
 test_pixel_lengths
 .
 html
