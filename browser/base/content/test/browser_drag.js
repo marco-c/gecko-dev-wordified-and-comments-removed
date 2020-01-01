@@ -175,4 +175,16 @@ pageproxystate
 oldstate
 )
 ;
+EventUtils
+.
+synthesizeKey
+(
+"
+VK_ESCAPE
+"
+{
+}
+window
+)
+;
 }
