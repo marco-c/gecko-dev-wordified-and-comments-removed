@@ -13,13 +13,9 @@ x
 y
 )
 {
-\
-n
 return
 arguments
 ;
-\
-n
 }
 2
 4

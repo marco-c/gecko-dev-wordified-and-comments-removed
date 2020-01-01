@@ -91,9 +91,8 @@ a
 print
 (
 +
-b
 +
-1
+b
 )
 ;
 return

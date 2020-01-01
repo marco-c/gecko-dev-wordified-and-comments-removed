@@ -58,6 +58,7 @@ ev
 )
 ;
 }
+;
 XPCNativeWrapper
 .
 unwrap
@@ -87,6 +88,7 @@ data
 )
 ;
 }
+;
 XPCNativeWrapper
 .
 unwrap
@@ -116,6 +118,7 @@ e
 )
 ;
 }
+;
 content
 .
 fireContextMenu
