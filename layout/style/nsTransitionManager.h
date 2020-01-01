@@ -76,16 +76,6 @@ nsTransitionManager
 (
 )
 ;
-void
-Disconnect
-(
-)
-{
-mPresContext
-=
-nsnull
-;
-}
 already_AddRefed
 <
 nsIStyleRule
@@ -103,7 +93,7 @@ nsStyleContext
 aNewStyleContext
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_ISUPPORTS_INHERITED
 NS_IMETHOD
 RulesMatching
 (
