@@ -548,10 +548,6 @@ nsSliderFrame
 .
 cpp
 \
-nsNativeScrollbarFrame
-.
-cpp
-\
 nsRepeatService
 .
 cpp

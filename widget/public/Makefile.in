@@ -634,10 +634,6 @@ nsIFullScreen
 .
 idl
 \
-nsINativeScrollbar
-.
-idl
-\
 nsIScreen
 .
 idl
