@@ -1118,10 +1118,10 @@ line
 256
 ]
 ;
-fprintf
+fputs
 (
-gOutFile
 prompt
+gOutFile
 )
 ;
 fflush
