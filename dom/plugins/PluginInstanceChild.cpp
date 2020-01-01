@@ -622,6 +622,9 @@ endif
 #
 ifdef
 MOZ_X11
+#
+ifndef
+MOZ_PLATFORM_MAEMO
 const
 char
 *
@@ -688,6 +691,8 @@ QUIRK_FLASH_EXPOSE_COORD_TRANSLATION
 ;
 }
 }
+#
+endif
 #
 endif
 }
