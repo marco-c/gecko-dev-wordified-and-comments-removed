@@ -344,6 +344,7 @@ global
 numberbox
 .
 css
+*
 skin
 /
 classic
@@ -3378,6 +3379,7 @@ global
 numberbox
 .
 css
+*
 skin
 /
 classic
@@ -3389,6 +3391,13 @@ global
 notification
 .
 css
+(
+notification
+-
+aero
+.
+css
+)
 skin
 /
 classic
