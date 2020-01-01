@@ -300,6 +300,7 @@ const
 MIGRATED_TYPES
 =
 [
+128
 4
 16
 8
