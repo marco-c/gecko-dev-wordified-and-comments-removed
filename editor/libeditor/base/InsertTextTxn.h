@@ -114,6 +114,7 @@ InsertTextTxn
 (
 )
 ;
+NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 InsertTextTxn
@@ -129,19 +130,6 @@ aTransaction
 PRBool
 *
 aDidMerge
-)
-;
-NS_IMETHOD
-QueryInterface
-(
-const
-nsIID
-&
-aIID
-void
-*
-*
-aInstancePtr
 )
 ;
 NS_IMETHOD
