@@ -17,13 +17,6 @@ h
 #
 include
 "
-nsIDOMPopStateEvent_MOZILLA_2_BRANCH
-.
-h
-"
-#
-include
-"
 nsDOMEvent
 .
 h
@@ -49,8 +42,6 @@ public
 nsDOMEvent
 public
 nsIDOMPopStateEvent
-public
-nsIDOMPopStateEvent_MOZILLA_2_BRANCH
 {
 public
 :
@@ -84,7 +75,6 @@ nsDOMPopStateEvent
 nsDOMEvent
 )
 NS_DECL_NSIDOMPOPSTATEEVENT
-NS_DECL_NSIDOMPOPSTATEEVENT_MOZILLA_2_BRANCH
 NS_FORWARD_TO_NSDOMEVENT
 protected
 :
@@ -93,9 +83,6 @@ nsCOMPtr
 nsIVariant
 >
 mState
-;
-PRBool
-mIsInitial
 ;
 }
 ;

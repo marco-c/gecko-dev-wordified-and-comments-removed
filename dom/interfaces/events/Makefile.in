@@ -574,10 +574,6 @@ nsIDOMPopStateEvent
 .
 idl
 \
-nsIDOMPopStateEvent_MOZILLA_2_BRANCH
-.
-idl
-\
 nsIDOMCloseEvent
 .
 idl

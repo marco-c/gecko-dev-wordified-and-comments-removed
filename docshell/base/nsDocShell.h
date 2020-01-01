@@ -2084,9 +2084,6 @@ mSavingOldViewer
 PRPackedBool
 mDynamicallyCreated
 ;
-PRPackedBool
-mSuppressPopstate
-;
 #
 ifdef
 DEBUG
