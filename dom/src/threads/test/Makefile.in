@@ -547,6 +547,14 @@ xhr_worker
 .
 js
 \
+test_xhrAbort
+.
+html
+\
+xhrAbort_worker
+.
+js
+\
 testXHR
 .
 txt
