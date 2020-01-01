@@ -263,6 +263,9 @@ enum
 TestEnum
 {
 "
+1
+"
+"
 a
 "
 "
