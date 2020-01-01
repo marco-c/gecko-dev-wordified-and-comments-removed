@@ -1142,9 +1142,12 @@ sizeof
 nsFramesetSpec
 )
 <
-2
-^
+(
+1
+<
+<
 30
+)
 )
 ;
 PRInt32
