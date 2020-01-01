@@ -223,7 +223,8 @@ PRInt32
 aContentOffset
 )
 ;
-nsresult
+nsAccessible
+*
 DOMPointToHypertextOffset
 (
 nsIDOMNode
@@ -234,12 +235,6 @@ aNodeOffset
 PRInt32
 *
 aHypertextOffset
-nsIAccessible
-*
-*
-aFinalAccessible
-=
-nsnull
 PRBool
 aIsEndOffset
 =
