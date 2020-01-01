@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLLabelElement
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLFormElement
 .
 h
@@ -131,8 +124,6 @@ public
 nsGenericHTMLFormElement
 public
 nsIDOMHTMLLabelElement
-public
-nsIDOMNSHTMLLabelElement
 {
 public
 :
@@ -171,7 +162,6 @@ nsGenericHTMLFormElement
 :
 )
 NS_DECL_NSIDOMHTMLLABELELEMENT
-NS_DECL_NSIDOMNSHTMLLABELELEMENT
 NS_IMETHOD_
 (
 PRUint32
@@ -417,11 +407,10 @@ NS_INTERFACE_TABLE_HEAD
 (
 nsHTMLLabelElement
 )
-NS_HTML_CONTENT_INTERFACE_TABLE2
+NS_HTML_CONTENT_INTERFACE_TABLE1
 (
 nsHTMLLabelElement
 nsIDOMHTMLLabelElement
-nsIDOMNSHTMLLabelElement
 )
 NS_HTML_CONTENT_INTERFACE_TABLE_TO_MAP_SEGUE
 (

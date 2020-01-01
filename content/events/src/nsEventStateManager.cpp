@@ -155,7 +155,7 @@ h
 #
 include
 "
-nsIDOMNSHTMLLabelElement
+nsIDOMHTMLLabelElement
 .
 h
 "
@@ -17661,7 +17661,7 @@ aLabel
 {
 nsCOMPtr
 <
-nsIDOMNSHTMLLabelElement
+nsIDOMHTMLLabelElement
 >
 label
 =
