@@ -244,6 +244,17 @@ handled
 )
 ;
 }
+NS_OVERRIDE
+virtual
+bool
+RecvWindowPosChanged
+(
+const
+NPRemoteEvent
+&
+event
+)
+;
 virtual
 bool
 AnswerNPP_Destroy
