@@ -406,6 +406,12 @@ mContext
 ;
 nsCOMPtr
 <
+nsIPrincipal
+>
+mPrincipal
+;
+nsCOMPtr
+<
 nsIChannel
 >
 mChannel
