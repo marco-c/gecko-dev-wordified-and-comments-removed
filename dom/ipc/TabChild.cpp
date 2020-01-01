@@ -5254,6 +5254,10 @@ nsIFrameMessageManager
 )
 NS_INTERFACE_MAP_ENTRY
 (
+nsISyncMessageSender
+)
+NS_INTERFACE_MAP_ENTRY
+(
 nsIContentFrameMessageManager
 )
 NS_INTERFACE_MAP_ENTRY
