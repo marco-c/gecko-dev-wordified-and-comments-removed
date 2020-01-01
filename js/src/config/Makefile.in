@@ -330,6 +330,8 @@ pyc
 pyc
 FORCE
 :
+ifndef
+COMPILER_DEPEND
 ifdef
 MKDEPEND_DIR
 clean
@@ -346,4 +348,5 @@ MKDEPEND_DIR
 (
 MAKE
 )
+endif
 endif
