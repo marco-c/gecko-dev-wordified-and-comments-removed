@@ -1956,15 +1956,7 @@ flags
 #
 define
 JSV2F_CONSTRUCT
-(
-(
-uintN
-)
-js
-:
-:
-INVOKE_CONSTRUCTOR
-)
+CONSTRUCT
 #
 define
 JSV2F_SEARCH_STACK
