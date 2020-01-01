@@ -662,6 +662,7 @@ border
 ref
 .
 html
+random
 =
 =
 borderhandling
@@ -680,3 +681,12 @@ border
 ref
 .
 html
+#
+bug
+540360
+(
+depends
+on
+bug
+540256
+)
