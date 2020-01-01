@@ -591,6 +591,14 @@ defined
 (
 WINCE
 )
+*
+result
+=
+PR_FALSE
+;
+#
+if
+0
 MEMORYSTATUS
 stat
 ;
@@ -620,6 +628,8 @@ dwTotalPhys
 .
 1
 ;
+#
+endif
 #
 elif
 defined
