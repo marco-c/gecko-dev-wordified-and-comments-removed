@@ -483,14 +483,6 @@ window_popup_preventdefault_chrome
 .
 xul
 \
-test_largemenu
-.
-xul
-\
-window_largemenu
-.
-xul
-\
 (
 NULL
 )

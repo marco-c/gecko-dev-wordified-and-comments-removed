@@ -4281,6 +4281,10 @@ parentPos
 .
 y
 ;
+mShouldAutoPosition
+=
+PR_FALSE
+;
 }
 nsPIDOMWindow
 *
