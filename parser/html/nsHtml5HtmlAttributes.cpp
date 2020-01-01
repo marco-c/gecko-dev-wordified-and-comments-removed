@@ -109,6 +109,13 @@ h
 #
 include
 "
+nsAHtml5TreeBuilderState
+.
+h
+"
+#
+include
+"
 nsHtml5Tokenizer
 .
 h
@@ -917,6 +924,9 @@ nsHtml5HtmlAttributes
 :
 cloneAttributes
 (
+nsHtml5AtomTable
+*
+interner
 )
 {
 nsHtml5HtmlAttributes
@@ -958,6 +968,7 @@ i
 >
 cloneAttributeName
 (
+interner
 )
 nsHtml5Portability
 :

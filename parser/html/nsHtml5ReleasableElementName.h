@@ -32,6 +32,16 @@ release
 (
 )
 ;
+virtual
+nsHtml5ElementName
+*
+cloneElementName
+(
+nsHtml5AtomTable
+*
+interner
+)
+;
 }
 ;
 #

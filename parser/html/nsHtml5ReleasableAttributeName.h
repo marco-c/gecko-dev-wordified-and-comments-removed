@@ -12,6 +12,9 @@ nsHtml5AttributeName
 h
 "
 class
+nsHtml5AtomTable
+;
+class
 nsHtml5ReleasableAttributeName
 :
 public
@@ -39,6 +42,9 @@ nsHtml5AttributeName
 *
 cloneAttributeName
 (
+nsHtml5AtomTable
+*
+aInterner
 )
 ;
 virtual
