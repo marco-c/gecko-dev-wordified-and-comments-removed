@@ -2877,14 +2877,14 @@ fplugin
 -
 arg
 =
-"
+'
 (
 DEHYDRA_SCRIPT
 )
 (
 DEHYDRA_ARGS
 )
-"
+'
 ifdef
 DEHYDRA_PATH
 OS_CXXFLAGS
