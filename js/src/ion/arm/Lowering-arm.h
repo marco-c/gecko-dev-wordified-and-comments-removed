@@ -341,6 +341,14 @@ MPhi
 phi
 )
 ;
+bool
+visitGuardShape
+(
+MGuardShape
+*
+ins
+)
+;
 }
 ;
 typedef

@@ -443,14 +443,6 @@ ins
 )
 ;
 bool
-visitGuardShape
-(
-MGuardShape
-*
-ins
-)
-;
-bool
 visitTypeBarrier
 (
 MTypeBarrier
