@@ -162,7 +162,7 @@ aFormat
 CGColorSpaceRef
 colorSpace
 =
-nullptr
+NULL
 ;
 CGBitmapInfo
 bitinfo
@@ -172,7 +172,7 @@ bitinfo
 CGDataProviderRef
 dataProvider
 =
-nullptr
+NULL
 ;
 int
 bitsPerComponent
@@ -371,7 +371,7 @@ aStride
 colorSpace
 bitinfo
 dataProvider
-nullptr
+NULL
 true
 kCGRenderingIntentDefault
 )
@@ -391,7 +391,7 @@ return
 mImage
 !
 =
-nullptr
+NULL
 ;
 }
 DataSourceSurfaceCG
@@ -478,7 +478,7 @@ aFormat
 CGColorSpaceRef
 colorSpace
 =
-nullptr
+NULL
 ;
 CGBitmapInfo
 bitinfo
@@ -488,7 +488,7 @@ bitinfo
 CGDataProviderRef
 dataProvider
 =
-nullptr
+NULL
 ;
 int
 bitsPerComponent
@@ -665,7 +665,7 @@ aStride
 colorSpace
 bitinfo
 dataProvider
-nullptr
+NULL
 true
 kCGRenderingIntentDefault
 )
@@ -805,7 +805,7 @@ if
 mCg
 =
 =
-nullptr
+NULL
 )
 {
 return
@@ -950,7 +950,7 @@ mCg
 ;
 mImage
 =
-nullptr
+NULL
 ;
 }
 void
@@ -971,7 +971,7 @@ mImage
 CGColorSpaceRef
 colorSpace
 =
-nullptr
+NULL
 ;
 CGBitmapInfo
 bitinfo
@@ -981,7 +981,7 @@ bitinfo
 CGDataProviderRef
 dataProvider
 =
-nullptr
+NULL
 ;
 int
 bitsPerComponent
@@ -1016,7 +1016,7 @@ mCg
 {
 info
 =
-nullptr
+NULL
 ;
 }
 else
@@ -1065,7 +1065,7 @@ mStride
 colorSpace
 bitinfo
 dataProvider
-nullptr
+NULL
 true
 kCGRenderingIntentDefault
 )
@@ -1156,15 +1156,15 @@ mImage
 ;
 mImage
 =
-nullptr
+NULL
 ;
 mCg
 =
-nullptr
+NULL
 ;
 mDrawTarget
 =
-nullptr
+NULL
 ;
 }
 }
@@ -1264,7 +1264,7 @@ GetHeight
 ;
 mImage
 =
-nullptr
+NULL
 ;
 aDrawTarget
 -
@@ -1361,7 +1361,7 @@ mImage
 CGColorSpaceRef
 colorSpace
 =
-nullptr
+NULL
 ;
 CGBitmapInfo
 bitinfo
@@ -1371,7 +1371,7 @@ bitinfo
 CGDataProviderRef
 dataProvider
 =
-nullptr
+NULL
 ;
 int
 bitsPerComponent
@@ -1431,7 +1431,7 @@ mStride
 colorSpace
 bitinfo
 dataProvider
-nullptr
+NULL
 true
 kCGRenderingIntentDefault
 )

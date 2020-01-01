@@ -289,7 +289,7 @@ mDrawTarget
 {
 mDrawTarget
 =
-nullptr
+NULL
 ;
 cairo_surface_t
 *
@@ -383,7 +383,7 @@ this
 ;
 mDrawTarget
 =
-nullptr
+NULL
 ;
 }
 }

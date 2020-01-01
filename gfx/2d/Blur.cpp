@@ -1630,7 +1630,7 @@ aBlurRadius
 )
 mData
 (
-nullptr
+NULL
 )
 {
 Rect
@@ -2037,7 +2037,7 @@ mDirtyRect
 ;
 }
 return
-nullptr
+NULL
 ;
 }
 void

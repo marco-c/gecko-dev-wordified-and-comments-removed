@@ -921,7 +921,7 @@ sCGContextGetTypePtr
 CGContextRef
 )
 =
-nullptr
+NULL
 ;
 CFStringRef
 MacIOSurfaceLib
@@ -1245,7 +1245,7 @@ if
 sIOSurfaceContextCreate
 )
 return
-nullptr
+NULL
 ;
 return
 sIOSurfaceContextCreate
@@ -1276,7 +1276,7 @@ if
 sIOSurfaceContextCreateImage
 )
 return
-nullptr
+NULL
 ;
 return
 sIOSurfaceContextCreateImage
@@ -1301,7 +1301,7 @@ if
 sIOSurfaceContextGetSurface
 )
 return
-nullptr
+NULL
 ;
 return
 sIOSurfaceContextGetSurface
@@ -1839,7 +1839,7 @@ cfWidth
 :
 CFNumberCreate
 (
-nullptr
+NULL
 kCFNumberSInt32Type
 &
 aWidth
@@ -1852,7 +1852,7 @@ cfHeight
 :
 CFNumberCreate
 (
-nullptr
+NULL
 kCFNumberSInt32Type
 &
 aHeight
@@ -1865,7 +1865,7 @@ cfBytesPerElem
 :
 CFNumberCreate
 (
-nullptr
+NULL
 kCFNumberSInt32Type
 &
 bytesPerElem
@@ -2195,7 +2195,7 @@ IOSurfaceLock
 (
 mIOSurfacePtr
 READ_ONLY
-nullptr
+NULL
 )
 ;
 }
@@ -2214,7 +2214,7 @@ IOSurfaceUnlock
 (
 mIOSurfacePtr
 READ_ONLY
-nullptr
+NULL
 )
 ;
 }
@@ -3222,7 +3222,7 @@ kCGImageAlphaPremultipliedFirst
 |
 kCGBitmapByteOrder32Host
 dataProvider
-nullptr
+NULL
 true
 kCGRenderingIntentDefault
 )
@@ -4245,7 +4245,7 @@ set
 /
 it
 to
-nullptr
+NULL
 in
 case
 we
@@ -4259,7 +4259,7 @@ ready
 *
 aOutCGImage
 =
-nullptr
+NULL
 ;
 }
 if
@@ -4536,7 +4536,7 @@ beginFrameAtTime
 caTime
 timeStamp
 :
-nullptr
+NULL
 ]
 ;
 [
@@ -4833,7 +4833,7 @@ bytesPerRow
 )
 *
 4
-nullptr
+NULL
 )
 ;
 /
@@ -4875,7 +4875,7 @@ kCGImageAlphaPremultipliedFirst
 |
 kCGBitmapByteOrder32Host
 dataProvider
-nullptr
+NULL
 true
 kCGRenderingIntentDefault
 )
@@ -5156,7 +5156,7 @@ bytesPerRow
 )
 *
 4
-nullptr
+NULL
 )
 ;
 /
@@ -5204,7 +5204,7 @@ kCGImageAlphaPremultipliedFirst
 |
 kCGBitmapByteOrder32Host
 dataProvider
-nullptr
+NULL
 true
 kCGRenderingIntentDefault
 )
@@ -5303,9 +5303,9 @@ url
 :
 CFURLCreateWithString
 (
-nullptr
+NULL
 cfStr
-nullptr
+NULL
 )
 ;
 :
@@ -5328,7 +5328,7 @@ count
 CFDictionaryRef
 options
 =
-nullptr
+NULL
 ;
 CGImageDestinationRef
 dest
@@ -5356,7 +5356,7 @@ CGImageDestinationAddImage
 (
 dest
 cgImage
-nullptr
+NULL
 )
 ;
 :

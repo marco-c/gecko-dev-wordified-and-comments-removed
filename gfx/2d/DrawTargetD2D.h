@@ -423,7 +423,7 @@ GlyphRenderingOptions
 *
 aRenderingOptions
 =
-nullptr
+NULL
 )
 ;
 virtual
