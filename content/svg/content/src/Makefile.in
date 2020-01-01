@@ -382,6 +382,10 @@ SVGFEPointLightElement
 .
 cpp
 \
+SVGFESpotLightElement
+.
+cpp
+\
 SVGFETileElement
 .
 cpp
@@ -808,6 +812,10 @@ SVGFEOffsetElement
 h
 \
 SVGFEPointLightElement
+.
+h
+\
+SVGFESpotLightElement
 .
 h
 \
