@@ -719,15 +719,6 @@ NIns
 ;
 \
 void
-CALL
-(
-const
-CallInfo
-*
-)
-;
-\
-void
 B_cond_chk
 (
 ConditionCode
