@@ -90,6 +90,12 @@ mcc_iso3166_table
 .
 jsm
 \
+(
+NULL
+)
+EXTRA_PP_JS_MODULES
+=
+\
 PhoneNumberUtils
 .
 jsm

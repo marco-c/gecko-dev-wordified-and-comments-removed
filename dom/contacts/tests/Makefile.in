@@ -99,6 +99,10 @@ test_contacts_blobs
 .
 html
 \
+test_contacts_international
+.
+html
+\
 (
 NULL
 )
