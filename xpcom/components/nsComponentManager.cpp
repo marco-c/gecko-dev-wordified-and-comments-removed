@@ -1232,7 +1232,7 @@ XPCOMComponentManagerReporter
 MOZ_FINAL
 :
 public
-MemoryReporterBase
+MemoryUniReporter
 {
 public
 :
@@ -1240,7 +1240,7 @@ XPCOMComponentManagerReporter
 (
 )
 :
-MemoryReporterBase
+MemoryUniReporter
 (
 "
 explicit

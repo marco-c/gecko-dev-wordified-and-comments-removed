@@ -295,7 +295,7 @@ GfxD2DSurfaceCacheReporter
 MOZ_FINAL
 :
 public
-MemoryReporterBase
+MemoryUniReporter
 {
 public
 :
@@ -303,7 +303,7 @@ GfxD2DSurfaceCacheReporter
 (
 )
 :
-MemoryReporterBase
+MemoryUniReporter
 (
 "
 gfx
@@ -442,7 +442,7 @@ GfxD2DSurfaceVramReporter
 MOZ_FINAL
 :
 public
-MemoryReporterBase
+MemoryUniReporter
 {
 public
 :
@@ -450,7 +450,7 @@ GfxD2DSurfaceVramReporter
 (
 )
 :
-MemoryReporterBase
+MemoryUniReporter
 (
 "
 gfx
@@ -519,7 +519,7 @@ GfxD2DVramDrawTargetReporter
 MOZ_FINAL
 :
 public
-MemoryReporterBase
+MemoryUniReporter
 {
 public
 :
@@ -527,7 +527,7 @@ GfxD2DVramDrawTargetReporter
 (
 )
 :
-MemoryReporterBase
+MemoryUniReporter
 (
 "
 gfx
@@ -578,7 +578,7 @@ GfxD2DVramSourceSurfaceReporter
 MOZ_FINAL
 :
 public
-MemoryReporterBase
+MemoryUniReporter
 {
 public
 :
@@ -586,7 +586,7 @@ GfxD2DVramSourceSurfaceReporter
 (
 )
 :
-MemoryReporterBase
+MemoryUniReporter
 (
 "
 gfx
@@ -835,10 +835,10 @@ ppImmediateContext
 )
 ;
 class
-GPUAdapterMultiReporter
+GPUAdapterReporter
 :
 public
-nsIMemoryMultiReporter
+nsIMemoryReporter
 {
 static
 bool
@@ -960,7 +960,7 @@ NS_OK
 NS_IMETHOD
 CollectReports
 (
-nsIMemoryMultiReporterCallback
+nsIMemoryReporterCallback
 *
 aCb
 nsISupports
@@ -1527,8 +1527,8 @@ NS_OK
 ;
 NS_IMPL_ISUPPORTS1
 (
-GPUAdapterMultiReporter
-nsIMemoryMultiReporter
+GPUAdapterReporter
+nsIMemoryReporter
 )
 static
 __inline
@@ -1655,16 +1655,16 @@ UpdateRenderMode
 (
 )
 ;
-mGPUAdapterMultiReporter
+mGPUAdapterReporter
 =
 new
-GPUAdapterMultiReporter
+GPUAdapterReporter
 (
 )
 ;
-NS_RegisterMemoryMultiReporter
+NS_RegisterMemoryReporter
 (
-mGPUAdapterMultiReporter
+mGPUAdapterReporter
 )
 ;
 }
@@ -1676,9 +1676,9 @@ gfxWindowsPlatform
 (
 )
 {
-NS_UnregisterMemoryMultiReporter
+NS_UnregisterMemoryReporter
 (
-mGPUAdapterMultiReporter
+mGPUAdapterReporter
 )
 ;
 mDeviceManager

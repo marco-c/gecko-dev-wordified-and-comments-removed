@@ -29,7 +29,7 @@ GfxTexturesReporter
 MOZ_FINAL
 :
 public
-MemoryReporterBase
+MemoryUniReporter
 {
 public
 :
@@ -37,7 +37,7 @@ GfxTexturesReporter
 (
 )
 :
-MemoryReporterBase
+MemoryUniReporter
 (
 "
 gfx

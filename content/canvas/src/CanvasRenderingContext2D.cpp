@@ -733,7 +733,7 @@ Canvas2dPixelsReporter
 MOZ_FINAL
 :
 public
-MemoryReporterBase
+MemoryUniReporter
 {
 public
 :
@@ -741,7 +741,7 @@ Canvas2dPixelsReporter
 (
 )
 :
-MemoryReporterBase
+MemoryUniReporter
 (
 "
 canvas

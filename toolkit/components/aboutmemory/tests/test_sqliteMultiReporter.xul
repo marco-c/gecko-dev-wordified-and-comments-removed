@@ -429,8 +429,6 @@ close
 Invoke
 all
 the
-multi
--
 reporters
 .
 The
@@ -481,7 +479,7 @@ e
 =
 mgr
 .
-enumerateMultiReporters
+enumerateReporters
 (
 )
 ;
@@ -507,7 +505,7 @@ QueryInterface
 (
 Ci
 .
-nsIMemoryMultiReporter
+nsIMemoryReporter
 )
 ;
 r
