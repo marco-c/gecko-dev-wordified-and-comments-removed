@@ -915,8 +915,7 @@ gint
 aY
 guint
 aTime
-void
-*
+gpointer
 aData
 )
 ;
@@ -951,7 +950,6 @@ aY
 guint
 aTime
 gpointer
-*
 aData
 )
 ;

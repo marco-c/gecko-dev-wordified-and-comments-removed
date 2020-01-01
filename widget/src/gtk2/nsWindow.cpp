@@ -1092,7 +1092,6 @@ aY
 guint
 aTime
 gpointer
-*
 aData
 )
 ;
@@ -15094,7 +15093,6 @@ aY
 guint
 aTime
 gpointer
-*
 aData
 )
 {
@@ -25464,7 +25462,6 @@ aY
 guint
 aTime
 gpointer
-*
 aData
 )
 {
