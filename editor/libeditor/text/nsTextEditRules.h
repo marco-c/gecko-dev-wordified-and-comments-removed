@@ -482,7 +482,7 @@ aTruncated
 void
 RemoveIMETextFromPWBuf
 (
-PRUint32
+PRInt32
 &
 aStart
 nsAString
