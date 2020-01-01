@@ -13228,6 +13228,10 @@ nsIPrefLocalizedString
 ;
 let
 defaultEngine
+;
+try
+{
+defaultEngine
 =
 defaultPrefB
 .
@@ -13241,6 +13245,13 @@ nsIPLS
 .
 data
 ;
+}
+catch
+(
+ex
+)
+{
+}
 return
 this
 .
