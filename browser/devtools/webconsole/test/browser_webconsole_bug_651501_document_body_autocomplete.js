@@ -724,6 +724,8 @@ content
 .
 document
 )
+.
+wrappedObject
 )
 {
 if
