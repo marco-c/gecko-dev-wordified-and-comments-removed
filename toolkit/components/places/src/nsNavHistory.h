@@ -1357,6 +1357,11 @@ InitDB
 )
 ;
 nsresult
+InitAdditionalDBItems
+(
+)
+;
+nsresult
 InitTempTables
 (
 )
