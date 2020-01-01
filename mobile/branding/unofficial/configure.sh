@@ -4,7 +4,9 @@ org
 .
 mozilla
 .
-fennec_unofficial
+fennec_
+echo
+USER
 MOZ_APP_DISPLAYNAME
 =
 Fennec
