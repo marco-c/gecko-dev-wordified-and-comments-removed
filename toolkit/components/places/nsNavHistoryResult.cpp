@@ -12543,6 +12543,12 @@ nsINavHistoryObserver
 ATTRIBUTE_FAVICON
 :
 {
+NS_ConvertUTF16toUTF8
+newFavicon
+(
+aNewValue
+)
+;
 PRBool
 onlyOneEntry
 =
@@ -12585,10 +12591,7 @@ PR_FALSE
 spec
 setFaviconCallback
 &
-NS_ConvertUTF16toUTF8
-(
-aNewValue
-)
+newFavicon
 )
 ;
 NS_ENSURE_SUCCESS
