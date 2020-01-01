@@ -448,6 +448,16 @@ nsDOMEventListenerWrapper
 aWrapper
 )
 {
+if
+(
+!
+aWrapper
+)
+{
+return
+nsnull
+;
+}
 nsCOMPtr
 <
 nsIXPConnectJSObjectHolder
