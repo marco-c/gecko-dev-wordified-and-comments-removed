@@ -3286,6 +3286,8 @@ Ci
 .
 nsILocalFile
 )
+;
+bookmarksFile
 .
 append
 (
