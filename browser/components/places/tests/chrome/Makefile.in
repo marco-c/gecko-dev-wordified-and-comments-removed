@@ -488,6 +488,10 @@ test_editBookmarkOverlay_tags_liveUpdate
 .
 xul
 \
+test_bug631374_tags_selector_scroll
+.
+xul
+\
 (
 NULL
 )

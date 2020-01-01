@@ -698,6 +698,8 @@ PRInt64
 >
 &
 aResult
+bool
+aSkipTags
 )
 ;
 PRInt64
