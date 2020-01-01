@@ -107,13 +107,6 @@ progress
 -
 bar
 {
--
-moz
--
-appearance
-:
-none
-;
 border
 -
 radius

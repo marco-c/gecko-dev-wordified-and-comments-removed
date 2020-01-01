@@ -158,7 +158,6 @@ PR_UINT32_MAX
 NS_STYLE_CONTEXT_TYPE_SHIFT
 )
 >
-=
 nsCSSPseudoElements
 :
 :

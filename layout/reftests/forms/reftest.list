@@ -896,12 +896,3 @@ output
 reftest
 .
 list
-#
-progress
-element
-include
-progress
-/
-reftest
-.
-list
