@@ -3634,7 +3634,7 @@ SetAsEmpty
 )
 ;
 return
-NS_OK
+OK
 ;
 }
 nsRefPtr
@@ -4712,7 +4712,7 @@ SetAsEmpty
 )
 ;
 return
-NS_OK
+OK
 ;
 }
 nsRefPtr
