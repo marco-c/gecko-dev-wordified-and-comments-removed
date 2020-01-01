@@ -1488,7 +1488,7 @@ flags
 =
 MB_ICONINFORMATION
 ;
-MessageBox
+MessageBoxA
 (
 NULL
 msg

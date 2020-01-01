@@ -645,6 +645,10 @@ DEFINES
 =
 -
 DWIN32_LEAN_AND_MEAN
+-
+DUNICODE
+-
+D_UNICODE
 else
 ifeq
 (

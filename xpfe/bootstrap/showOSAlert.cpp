@@ -178,7 +178,7 @@ defined
 (
 XP_WIN
 )
-MessageBox
+MessageBoxA
 (
 NULL
 message_copy
