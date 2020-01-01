@@ -242,7 +242,6 @@ return
 struct
 UEnumeration
 ;
-SUPPRESS_UNUSED_WARNING
 static
 int32_t
 uenum_count
@@ -275,7 +274,6 @@ return
 0
 ;
 }
-SUPPRESS_UNUSED_WARNING
 static
 const
 char
@@ -313,7 +311,6 @@ return
 NULL
 ;
 }
-SUPPRESS_UNUSED_WARNING
 static
 void
 uenum_close
@@ -397,7 +394,6 @@ UCOL_LESS
 1
 }
 ;
-SUPPRESS_UNUSED_WARNING
 static
 int32_t
 ucol_countAvailable
@@ -420,7 +416,6 @@ return
 0
 ;
 }
-SUPPRESS_UNUSED_WARNING
 static
 const
 char
@@ -446,7 +441,6 @@ return
 NULL
 ;
 }
-SUPPRESS_UNUSED_WARNING
 static
 UCollator
 *
@@ -481,7 +475,6 @@ return
 NULL
 ;
 }
-SUPPRESS_UNUSED_WARNING
 static
 void
 ucol_setAttribute
@@ -515,7 +508,6 @@ status
 U_UNSUPPORTED_ERROR
 ;
 }
-SUPPRESS_UNUSED_WARNING
 static
 UCollationResult
 ucol_strcoll
@@ -556,7 +548,6 @@ UCollationResult
 0
 ;
 }
-SUPPRESS_UNUSED_WARNING
 static
 void
 ucol_close
@@ -578,7 +569,6 @@ disabled
 )
 ;
 }
-SUPPRESS_UNUSED_WARNING
 static
 UEnumeration
 *
