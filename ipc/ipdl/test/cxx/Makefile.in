@@ -497,6 +497,8 @@ TestMultiMgrs
 \
 TestNestedLoops
 \
+TestOpens
+\
 TestRPCErrorCleanup
 \
 TestRPCRaces

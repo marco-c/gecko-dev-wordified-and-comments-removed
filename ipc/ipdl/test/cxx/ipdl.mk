@@ -97,6 +97,14 @@ PTestNestedLoops
 .
 ipdl
 \
+PTestOpens
+.
+ipdl
+\
+PTestOpensOpened
+.
+ipdl
+\
 PTestRaceDeferral
 .
 ipdl
