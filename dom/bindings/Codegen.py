@@ -3490,6 +3490,13 @@ set
 (
 )
         
+declareIncludes
+=
+set
+(
+declareIncludes
+)
+        
 def
 addHeadersForType
 (
@@ -3660,6 +3667,22 @@ NoSuchDescriptorError
                             
 continue
                         
+if
+dictionary
+:
+                            
+declareIncludes
+.
+add
+(
+typeDesc
+.
+headerFile
+)
+                        
+else
+:
+                            
 implementationIncludes
 .
 add
@@ -3852,13 +3875,6 @@ split
 .
 h
 "
-)
-        
-declareIncludes
-=
-set
-(
-declareIncludes
 )
         
 for
