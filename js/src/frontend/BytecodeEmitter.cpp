@@ -19121,16 +19121,6 @@ false
 ;
 if
 (
-NewSrcNote
-(
-cx
-bce
-SRC_ENDBRACE
-)
-<
-0
-|
-|
 Emit1
 (
 cx
