@@ -1509,6 +1509,12 @@ wrapObjectCallback
 JSPreWrapCallback
 preWrapObjectCallback
 ;
+js
+:
+:
+PreserveWrapperCallback
+preserveWrapperCallback
+;
 int32
 inOOMReport
 ;
