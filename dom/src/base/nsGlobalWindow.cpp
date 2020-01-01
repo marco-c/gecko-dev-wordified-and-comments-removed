@@ -3755,13 +3755,6 @@ mDoc
 RemoveReference
 (
 tmp
--
->
-mDoc
-.
-get
-(
-)
 )
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK_NSCOMPTR

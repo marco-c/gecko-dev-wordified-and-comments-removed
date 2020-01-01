@@ -22107,6 +22107,13 @@ OnDocumentDestroy
 this
 )
 ;
+delete
+mContentWrapperHash
+;
+mContentWrapperHash
+=
+nsnull
+;
 }
 already_AddRefed
 <
