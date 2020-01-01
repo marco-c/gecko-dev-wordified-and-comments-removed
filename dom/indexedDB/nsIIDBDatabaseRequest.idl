@@ -529,10 +529,10 @@ nsIIDBRequest
 createObjectStore
 (
 in
-DOMString
+AString
 name
 in
-DOMString
+AString
 keyPath
 [
 optional
@@ -554,7 +554,7 @@ nsIIDBRequest
 openObjectStore
 (
 in
-DOMString
+AString
 name
 [
 optional
@@ -574,13 +574,13 @@ nsIIDBRequest
 createIndex
 (
 in
-DOMString
+AString
 name
 in
-DOMString
+AString
 storeName
 in
-DOMString
+AString
 keyPath
 [
 optional
@@ -599,7 +599,7 @@ nsIIDBRequest
 openIndex
 (
 in
-DOMString
+AString
 name
 )
 ;
@@ -607,7 +607,7 @@ nsIIDBRequest
 removeObjectStore
 (
 in
-DOMString
+AString
 name
 )
 ;
@@ -615,7 +615,7 @@ nsIIDBRequest
 removeIndex
 (
 in
-DOMString
+AString
 indexName
 )
 ;
@@ -623,7 +623,7 @@ nsIIDBRequest
 setVersion
 (
 in
-DOMString
+AString
 version
 )
 ;

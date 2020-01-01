@@ -539,10 +539,10 @@ nsIIDBDatabaseRequest
 open
 (
 in
-DOMString
+AString
 name
 in
-DOMString
+AString
 description
 [
 optional
