@@ -1855,6 +1855,13 @@ int
 value
 )
 ;
+void
+Subtract
+(
+int
+value
+)
+;
 virtual
 void
 AddBoolean
