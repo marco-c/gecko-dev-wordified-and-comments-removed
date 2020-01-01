@@ -182,7 +182,7 @@ wrapper
 class
 JS_FRIEND_API
 (
-IndirectWrapper
+AbstractWrapper
 )
 :
 public
@@ -193,7 +193,7 @@ IndirectProxyHandler
 public
 :
 explicit
-IndirectWrapper
+AbstractWrapper
 (
 unsigned
 flags

@@ -633,10 +633,10 @@ CROSS_COMPARTMENT
 )
 ;
 }
-IndirectWrapper
+AbstractWrapper
 :
 :
-IndirectWrapper
+AbstractWrapper
 (
 unsigned
 flags
@@ -728,7 +728,7 @@ action
 GET
 )
 bool
-IndirectWrapper
+AbstractWrapper
 :
 :
 getPropertyDescriptor
@@ -777,7 +777,7 @@ GET
 ;
 }
 bool
-IndirectWrapper
+AbstractWrapper
 :
 :
 getOwnPropertyDescriptor
@@ -822,7 +822,7 @@ GET
 ;
 }
 bool
-IndirectWrapper
+AbstractWrapper
 :
 :
 defineProperty
@@ -856,7 +856,7 @@ desc
 ;
 }
 bool
-IndirectWrapper
+AbstractWrapper
 :
 :
 getOwnPropertyNames
@@ -892,7 +892,7 @@ props
 ;
 }
 bool
-IndirectWrapper
+AbstractWrapper
 :
 :
 delete_
@@ -931,7 +931,7 @@ bp
 ;
 }
 bool
-IndirectWrapper
+AbstractWrapper
 :
 :
 enumerate
