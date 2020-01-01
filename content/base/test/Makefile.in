@@ -1403,6 +1403,10 @@ xml
 headers
 ^
 \
+test_bug461555
+.
+html
+\
 (
 NULL
 )
