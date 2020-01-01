@@ -221,6 +221,15 @@ size_t
 1
 )
 ;
+header
+(
+)
+-
+>
+seqno
+=
+0
+;
 #
 endif
 InitLoggingVariables
