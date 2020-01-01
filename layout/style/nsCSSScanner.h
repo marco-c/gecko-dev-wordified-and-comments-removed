@@ -460,8 +460,6 @@ aResult
 bool
 ParseAtKeyword
 (
-int32_t
-aChar
 nsCSSToken
 &
 aResult
