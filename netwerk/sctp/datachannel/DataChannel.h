@@ -485,6 +485,14 @@ aChannel
 )
 ;
 void
+CloseInt
+(
+DataChannel
+*
+aChannel
+)
+;
+void
 CloseAll
 (
 )
