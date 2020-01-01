@@ -2518,6 +2518,13 @@ scope
 .
 expand
 (
+true
+)
+;
+scope
+.
+addToHierarchy
+(
 )
 ;
 }
