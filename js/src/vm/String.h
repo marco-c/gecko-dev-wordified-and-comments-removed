@@ -1169,9 +1169,12 @@ inline
 bool
 needWriteBarrierPre
 (
-JSCompartment
+JS
+:
+:
+Zone
 *
-comp
+zone
 )
 ;
 static

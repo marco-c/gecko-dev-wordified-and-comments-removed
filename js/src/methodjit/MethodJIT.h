@@ -3917,7 +3917,7 @@ jit
 getJIT
 (
 constructing
-compartment
+zone
 (
 )
 -
