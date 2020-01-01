@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsDoubleHashtable
-.
-h
-"
-#
-include
-"
 nsIURI
 .
 h
