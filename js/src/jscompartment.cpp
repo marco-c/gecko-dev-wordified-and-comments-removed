@@ -1554,7 +1554,10 @@ isObject
 )
 )
 {
+DebugOnly
+<
 RawObject
+>
 obj
 =
 &

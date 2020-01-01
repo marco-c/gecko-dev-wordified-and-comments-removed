@@ -18754,7 +18754,10 @@ offset
 )
 )
 ;
+DebugOnly
+<
 ptrdiff_t
+>
 bodyBegin
 =
 bce
@@ -18829,7 +18832,10 @@ slotCount
 )
 )
 ;
+DebugOnly
+<
 ptrdiff_t
+>
 bodyEnd
 =
 bce
