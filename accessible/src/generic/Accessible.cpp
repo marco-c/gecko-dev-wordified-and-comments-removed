@@ -11879,6 +11879,11 @@ idx
 {
 NS_ASSERTION
 (
+static_cast
+<
+uint32_t
+>
+(
 mChildren
 [
 idx
@@ -11886,6 +11891,7 @@ idx
 -
 >
 mIndexInParent
+)
 =
 =
 idx
@@ -12081,6 +12087,11 @@ idx
 {
 NS_ASSERTION
 (
+static_cast
+<
+uint32_t
+>
+(
 mChildren
 [
 idx
@@ -12088,6 +12099,7 @@ idx
 -
 >
 mIndexInParent
+)
 =
 =
 idx
