@@ -493,6 +493,13 @@ h
 #
 include
 "
+sampler
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h
