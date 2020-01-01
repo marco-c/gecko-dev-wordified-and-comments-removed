@@ -544,6 +544,16 @@ NPError
 rv
 )
 ;
+rpc
+NP_Shutdown
+(
+)
+returns
+(
+NPError
+rv
+)
+;
 parent
 :
 /
