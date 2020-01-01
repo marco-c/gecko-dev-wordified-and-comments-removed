@@ -758,13 +758,6 @@ gfx
 /
 src
 /
-photon
-/
-Makefile
-gfx
-/
-src
-/
 thebes
 /
 Makefile
