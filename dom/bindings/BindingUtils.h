@@ -866,6 +866,16 @@ flags
 JSCLASS_DOM_GLOBAL
 )
 ;
+if
+(
+!
+HasProtoOrIfaceArray
+(
+obj
+)
+)
+return
+;
 JSObject
 *
 *
