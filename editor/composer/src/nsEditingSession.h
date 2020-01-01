@@ -351,6 +351,9 @@ mDocStateControllerId
 PRUint32
 mHTMLCommandControllerId
 ;
+nsWeakPtr
+mDocShell
+;
 }
 ;
 #
