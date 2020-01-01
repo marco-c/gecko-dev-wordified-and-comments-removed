@@ -4308,15 +4308,6 @@ tokentype
 !
 =
 TOK_LET
-&
-&
-kw
--
->
-tokentype
-!
-=
-TOK_YIELD
 )
 return
 true
