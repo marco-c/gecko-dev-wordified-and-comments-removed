@@ -41913,11 +41913,6 @@ cachedTempTypeMap
 =
 NULL
 ;
-PodZero
-(
-tm
-)
-;
 }
 JS_REQUIRES_STACK
 void
