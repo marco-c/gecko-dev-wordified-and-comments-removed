@@ -7513,6 +7513,10 @@ GLsizei
 primcount
 )
 {
+BeforeGLDrawCall
+(
+)
+;
 BEFORE_GL_CALL
 ;
 ASSERT_SYMBOL_PRESENT
@@ -7532,6 +7536,10 @@ primcount
 ;
 AFTER_GL_CALL
 ;
+AfterGLDrawCall
+(
+)
+;
 }
 void
 fDrawElementsInstanced
@@ -7550,6 +7558,10 @@ GLsizei
 primcount
 )
 {
+BeforeGLDrawCall
+(
+)
+;
 BEFORE_GL_CALL
 ;
 ASSERT_SYMBOL_PRESENT
@@ -7569,6 +7581,10 @@ primcount
 )
 ;
 AFTER_GL_CALL
+;
+AfterGLDrawCall
+(
+)
 ;
 }
 public
