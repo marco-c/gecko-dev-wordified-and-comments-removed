@@ -189,9 +189,6 @@ EnsureInitialized
 (
 )
 {
-nsresult
-rv
-;
 if
 (
 mInitialized
@@ -221,6 +218,9 @@ if
 mEGLLibrary
 )
 {
+nsresult
+rv
+;
 nsCOMPtr
 <
 nsIFile
