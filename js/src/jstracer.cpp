@@ -9498,8 +9498,11 @@ gc
 )
 VerboseWriter
 (
-&
-gc
+*
+traceMonitor
+-
+>
+allocator
 lir
 lirbuf
 -

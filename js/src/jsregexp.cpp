@@ -16183,8 +16183,8 @@ gc
 )
 VerboseWriter
 (
-&
-gc
+*
+alloc
 lir
 lirbuf
 -
