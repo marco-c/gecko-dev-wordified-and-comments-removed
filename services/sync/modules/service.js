@@ -5606,9 +5606,7 @@ if
 (
 !
 (
-"
-crypto
-"
+CRYPTO_COLLECTION
 in
 info
 )
@@ -5656,8 +5654,9 @@ failed
 if
 (
 info
-.
-crypto
+[
+CRYPTO_COLLECTION
+]
 <
 serverModified
 )
