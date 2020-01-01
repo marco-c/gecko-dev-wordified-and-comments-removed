@@ -881,6 +881,14 @@ FLAG_DISABLE_SNAPPING
 <
 1
 )
+FLAG_DESTINED_FOR_SCREEN
+=
+(
+1
+<
+<
+2
+)
 }
 ;
 void
