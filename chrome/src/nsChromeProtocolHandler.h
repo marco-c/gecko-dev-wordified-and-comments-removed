@@ -19,6 +19,15 @@ nsWeakReference
 h
 "
 #
+include
+"
+mozilla
+/
+Attributes
+.
+h
+"
+#
 define
 NS_CHROMEPROTOCOLHANDLER_CID
 \
@@ -57,6 +66,7 @@ NS_CHROMEPROTOCOLHANDLER_CID
 }
 class
 nsChromeProtocolHandler
+MOZ_FINAL
 :
 public
 nsIProtocolHandler
