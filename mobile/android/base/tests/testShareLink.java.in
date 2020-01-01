@@ -1342,7 +1342,7 @@ getView
 (
 i
 null
-null
+shareMenu
 )
 ;
 if
