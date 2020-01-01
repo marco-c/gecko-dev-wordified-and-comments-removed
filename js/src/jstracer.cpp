@@ -7216,7 +7216,7 @@ d
 "
 *
 (
-bool
+JSBool
 *
 )
 slot
@@ -7720,7 +7720,7 @@ BOOLEAN_TO_JSVAL
 (
 *
 (
-bool
+JSBool
 *
 )
 slot
@@ -7739,7 +7739,7 @@ d
 "
 *
 (
-bool
+JSBool
 *
 )
 slot
