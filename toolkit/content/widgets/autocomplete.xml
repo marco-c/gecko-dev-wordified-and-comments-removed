@@ -4506,7 +4506,7 @@ mController
 .
 handleText
 (
-false
+true
 )
 ;
 "
