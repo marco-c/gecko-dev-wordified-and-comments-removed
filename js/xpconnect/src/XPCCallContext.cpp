@@ -1846,6 +1846,14 @@ mJSContext
 )
 )
 ;
+if
+(
+!
+fun
+)
+return
+nullptr
+;
 MOZ_ASSERT
 (
 js
