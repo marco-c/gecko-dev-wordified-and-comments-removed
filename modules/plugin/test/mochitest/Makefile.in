@@ -645,6 +645,10 @@ test_crash_notify
 .
 xul
 \
+test_crash_notify_no_report
+.
+xul
+\
 (
 NULL
 )
