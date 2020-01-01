@@ -12503,7 +12503,7 @@ thisVal
 js
 :
 :
-GetProxyCall
+GetProxyPrivate
 (
 proxy
 )
@@ -12597,8 +12597,10 @@ callable
 )
 nullptr
 sandboxProtoProxy
-callable
-callable
+js
+:
+:
+ProxyIsCallable
 )
 ;
 }

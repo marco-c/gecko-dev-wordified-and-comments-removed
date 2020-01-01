@@ -216,10 +216,9 @@ isCallable
 (
 )
 ?
-obj
+ProxyIsCallable
 :
-NULL
-NULL
+ProxyNotCallable
 )
 ;
 }
