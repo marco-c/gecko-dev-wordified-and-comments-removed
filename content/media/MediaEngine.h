@@ -118,7 +118,10 @@ nsAString
 0
 ;
 virtual
-nsresult
+already_AddRefed
+<
+nsDOMMediaStream
+>
 Allocate
 (
 )

@@ -99,6 +99,14 @@ FileBlockCache
 .
 h
 \
+MediaEngine
+.
+h
+\
+MediaEngineDefault
+.
+h
+\
 MediaResource
 .
 h
@@ -174,6 +182,10 @@ AudioSegment
 cpp
 \
 FileBlockCache
+.
+cpp
+\
+MediaEngineDefault
 .
 cpp
 \
@@ -295,10 +307,6 @@ PARALLEL_DIRS
 =
 plugins
 endif
-PARALLEL_DIRS
-+
-=
-webrtc
 TEST_DIRS
 +
 =
