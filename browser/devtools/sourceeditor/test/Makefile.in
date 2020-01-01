@@ -161,6 +161,10 @@ browser_bug744021_next_prev_bracket_jump
 .
 js
 \
+browser_bug725392_mouse_coords_char_offset
+.
+js
+\
 head
 .
 js
