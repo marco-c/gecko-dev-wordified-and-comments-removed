@@ -6263,10 +6263,6 @@ target
 )
 -
 >
-scopeChain
-(
-)
-.
 global
 (
 )
@@ -6607,7 +6603,8 @@ target
 scopeChain
 (
 )
-.
+-
+>
 compartment
 (
 )
@@ -22333,7 +22330,6 @@ hasfp
 )
 parent
 =
-&
 cx
 -
 >

@@ -6922,10 +6922,6 @@ global
 stackfp
 -
 >
-scopeChain
-(
-)
-.
 global
 (
 )

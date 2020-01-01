@@ -240,10 +240,6 @@ comp
 fp
 -
 >
-scopeChain
-(
-)
-.
 compartment
 (
 )
@@ -1904,10 +1900,6 @@ proto
 fp
 -
 >
-scopeChain
-(
-)
-.
 global
 (
 )

@@ -8568,7 +8568,6 @@ hasfp
 )
 )
 return
-&
 cx
 -
 >
@@ -38652,10 +38651,6 @@ fp
 )
 -
 >
-scopeChain
-(
-)
-.
 global
 (
 )

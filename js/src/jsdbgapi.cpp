@@ -2466,7 +2466,8 @@ fp
 scopeChain
 (
 )
-.
+-
+>
 principals
 (
 cx
@@ -2591,7 +2592,6 @@ AutoCompartment
 ac
 (
 cx
-&
 fp
 -
 >
@@ -2707,7 +2707,6 @@ AutoCompartment
 ac
 (
 cx
-&
 fp
 -
 >
@@ -2811,7 +2810,6 @@ AutoCompartment
 ac
 (
 cx
-&
 fp
 -
 >

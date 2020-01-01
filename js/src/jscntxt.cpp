@@ -4229,7 +4229,6 @@ hasfp
 {
 scopeobj
 =
-&
 fp
 (
 )

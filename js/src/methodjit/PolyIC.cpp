@@ -5210,10 +5210,6 @@ fp
 )
 -
 >
-scopeChain
-(
-)
-.
 global
 (
 )
@@ -11741,7 +11737,6 @@ cc
 (
 f
 script
-&
 f
 .
 fp
@@ -11887,7 +11882,6 @@ cc
 (
 f
 script
-&
 f
 .
 fp

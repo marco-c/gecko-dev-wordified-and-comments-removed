@@ -1756,10 +1756,6 @@ observesGlobal
 fp
 -
 >
-scopeChain
-(
-)
-.
 global
 (
 )
