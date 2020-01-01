@@ -4575,7 +4575,7 @@ x
 ;
 scaleDiff
 .
-height
+width
 =
 NS_MIN
 (
@@ -4637,7 +4637,7 @@ x
 ;
 scaleDiff
 .
-height
+width
 =
 tempScaleDiffX
 ;
@@ -4668,7 +4668,7 @@ y
 ;
 scaleDiff
 .
-width
+height
 =
 NS_MIN
 (
@@ -4730,7 +4730,7 @@ y
 ;
 scaleDiff
 .
-width
+height
 =
 tempScaleDiffY
 ;
