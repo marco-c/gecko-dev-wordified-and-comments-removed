@@ -611,6 +611,10 @@ browser_console_variables_view_while_debugging_and_inspecting
 .
 js
 \
+browser_webconsole_bug_686937_autocomplete_JSTerm_helpers
+.
+js
+\
 head
 .
 js

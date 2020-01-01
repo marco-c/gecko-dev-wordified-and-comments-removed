@@ -2965,10 +2965,6 @@ matchProp
 matches
 :
 matches
-.
-sort
-(
-)
 }
 ;
 }
