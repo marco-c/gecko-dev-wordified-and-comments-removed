@@ -374,7 +374,7 @@ do_check_eq
 rootNode
 .
 childCount
-0
+1
 )
 ;
 query
