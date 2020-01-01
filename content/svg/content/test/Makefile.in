@@ -675,6 +675,10 @@ test_SVGPathSegList
 .
 xhtml
 \
+test_SVGPointList
+.
+xhtml
+\
 test_SVGStyleElement
 .
 xhtml

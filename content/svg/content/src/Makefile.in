@@ -981,6 +981,14 @@ SVGNumberList
 .
 h
 \
+SVGPoint
+.
+h
+\
+SVGPointList
+.
+h
+\
 (
 NULL
 )
