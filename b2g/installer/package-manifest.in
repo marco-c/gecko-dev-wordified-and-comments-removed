@@ -4157,6 +4157,13 @@ components
 PaymentGlue
 .
 js
+BINPATH
+/
+components
+/
+YoutubeProtocolHandler
+.
+js
 #
 ifdef
 XP_MACOSX
