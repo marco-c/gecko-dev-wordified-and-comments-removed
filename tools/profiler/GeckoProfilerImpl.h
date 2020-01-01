@@ -102,6 +102,13 @@ PseudoStack
 h
 "
 #
+include
+"
+nsISupports
+.
+h
+"
+#
 ifdef
 MOZ_WIDGET_QT
 #

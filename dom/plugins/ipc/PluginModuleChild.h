@@ -628,6 +628,15 @@ RecvProcessNativeEventsInRPCCall
 )
 MOZ_OVERRIDE
 ;
+virtual
+bool
+AnswerGeckoGetProfile
+(
+nsCString
+*
+aProfile
+)
+;
 public
 :
 PluginModuleChild

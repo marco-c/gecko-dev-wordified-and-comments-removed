@@ -209,6 +209,10 @@ TableTicker
 .
 cpp
 \
+SaveProfileTask
+.
+cpp
+\
 BreakpadSampler
 .
 cpp

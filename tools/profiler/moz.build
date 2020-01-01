@@ -111,6 +111,11 @@ XPIDL_SOURCES
 =
 [
 '
+nsIProfileSaveEvent
+.
+idl
+'
+'
 nsIProfiler
 .
 idl

@@ -509,6 +509,16 @@ uint32_t
 processType
 )
 ;
+rpc
+GeckoGetProfile
+(
+)
+returns
+(
+nsCString
+aProfile
+)
+;
 parent
 :
 /
