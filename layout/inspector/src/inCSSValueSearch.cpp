@@ -99,6 +99,13 @@ h
 #
 include
 "
+nsIDocument
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h
@@ -112,11 +119,11 @@ inCSSValueSearch
 :
 mResults
 (
-nullptr
+nsnull
 )
 mProperties
 (
-nullptr
+nsnull
 )
 mResultCount
 (
@@ -961,7 +968,7 @@ getter_AddRefs
 baseURL
 )
 href
-nullptr
+nsnull
 aBaseURL
 )
 ;
@@ -1382,7 +1389,7 @@ getter_AddRefs
 uri
 )
 url
-nullptr
+nsnull
 aBaseURL
 )
 ;
