@@ -2066,9 +2066,6 @@ return
 nsnull
 ;
 }
-#
-ifndef
-XPCONNECT_STANDALONE
 class
 SameOriginCheckedComponent
 :
@@ -2278,8 +2275,6 @@ NS_OK
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-#
-endif
 NS_IMETHODIMP
 nsXPCWrappedJSClass
 :
@@ -2688,9 +2683,6 @@ return
 NS_OK
 ;
 }
-#
-ifndef
-XPCONNECT_STANDALONE
 if
 (
 aIID
@@ -2884,8 +2876,6 @@ NS_OK
 ;
 }
 }
-#
-endif
 JSObject
 *
 jsobj

@@ -5799,9 +5799,6 @@ interfaceArray
 C
 +
 +
-#
-ifndef
-XPCONNECT_STANDALONE
 /
 *
 *
@@ -5877,8 +5874,6 @@ const
 =
 0
 ;
-#
-endif
 virtual
 char
 *

@@ -13426,9 +13426,6 @@ return
 NS_OK
 ;
 }
-#
-ifndef
-XPCONNECT_STANDALONE
 nsIPrincipal
 *
 XPCWrappedNative
@@ -13500,8 +13497,6 @@ return
 principal
 ;
 }
-#
-endif
 NS_IMETHODIMP
 XPCWrappedNative
 :

@@ -1,18 +1,4 @@
 #
-if
-!
-defined
-(
-XPCONNECT_STANDALONE
-)
-&
-&
-!
-defined
-(
-NO_SUBSCRIPT_LOADER
-)
-#
 include
 "
 mozJSSubScriptLoader
@@ -1727,5 +1713,3 @@ return
 NS_OK
 ;
 }
-#
-endif

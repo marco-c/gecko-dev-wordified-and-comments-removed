@@ -410,15 +410,10 @@ mPrototypeNoHelper
 (
 nsnull
 )
-#
-ifndef
-XPCONNECT_STANDALONE
 mScriptObjectPrincipal
 (
 nsnull
 )
-#
-endif
 {
 {
 XPCAutoLock
@@ -659,9 +654,6 @@ mGlobalJSObject
 =
 aGlobal
 ;
-#
-ifndef
-XPCONNECT_STANDALONE
 mScriptObjectPrincipal
 =
 nsnull
@@ -758,8 +750,6 @@ mScriptObjectPrincipal
 sop
 ;
 }
-#
-endif
 {
 AutoJSErrorAndExceptionEater
 eater
@@ -1557,9 +1547,6 @@ mGlobalJSObject
 =
 nsnull
 ;
-#
-ifndef
-XPCONNECT_STANDALONE
 cur
 -
 >
@@ -1567,8 +1554,6 @@ mScriptObjectPrincipal
 =
 nsnull
 ;
-#
-endif
 if
 (
 prev

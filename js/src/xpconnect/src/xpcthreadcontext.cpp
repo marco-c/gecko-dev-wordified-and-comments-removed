@@ -720,9 +720,6 @@ JSObject
 obj
 )
 {
-#
-ifndef
-XPCONNECT_STANDALONE
 nsIScriptObjectPrincipal
 *
 sop
@@ -744,8 +741,6 @@ NS_IF_RELEASE
 sop
 )
 ;
-#
-endif
 }
 static
 JSClass
@@ -755,19 +750,11 @@ global_class
 "
 global_for_XPCJSContextStack_SafeJSContext
 "
-#
-ifndef
-XPCONNECT_STANDALONE
 JSCLASS_HAS_PRIVATE
 |
 JSCLASS_PRIVATE_IS_NSISUPPORTS
 |
 JSCLASS_GLOBAL_FLAGS
-#
-else
-0
-#
-endif
 JS_PropertyStub
 JS_PropertyStub
 JS_PropertyStub
@@ -797,9 +784,6 @@ if
 mSafeJSContext
 )
 {
-#
-ifndef
-XPCONNECT_STANDALONE
 nsRefPtr
 <
 nsNullPrincipal
@@ -863,8 +847,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-#
-endif
 JSRuntime
 *
 rt
@@ -982,9 +964,6 @@ glob
 =
 nsnull
 ;
-#
-ifndef
-XPCONNECT_STANDALONE
 if
 (
 glob
@@ -1031,8 +1010,6 @@ nsnull
 ;
 }
 }
-#
-endif
 if
 (
 glob
