@@ -10163,6 +10163,10 @@ escapeFound
 =
 true
 ;
+-
+-
+length
+;
 }
 else
 {
