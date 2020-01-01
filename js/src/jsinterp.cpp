@@ -13021,7 +13021,6 @@ fun
 define
 MONITOR_BRANCH
 (
-n
 )
 \
 JS_BEGIN_MACRO
@@ -13082,11 +13081,6 @@ ENABLE_TRACER
 js_LoopEdge
 (
 cx
-regs
-.
-pc
-+
-n
 )
 )
 ;
@@ -13142,6 +13136,14 @@ n
 \
 JS_BEGIN_MACRO
 \
+regs
+.
+pc
++
+=
+n
+;
+\
 if
 (
 n
@@ -13153,7 +13155,6 @@ n
 \
 MONITOR_BRANCH
 (
-n
 )
 ;
 \
@@ -13166,7 +13167,7 @@ CHECK_BRANCH
 \
 DO_NEXT_OP
 (
-n
+0
 )
 ;
 \
