@@ -1050,11 +1050,6 @@ srcdir
 /
 wifi
 endif
-DEFINES
-+
-=
--
-DNECKO_OFFLINE_CACHE
 include
 (
 topsrcdir
