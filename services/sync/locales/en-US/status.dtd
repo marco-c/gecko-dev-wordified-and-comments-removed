@@ -10,16 +10,3 @@ with
 Weave
 "
 >
-<
-!
-ENTITY
-status
-.
-idle
-"
-Weave
-sync
-on
-quit
-"
->
