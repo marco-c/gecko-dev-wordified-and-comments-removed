@@ -1869,6 +1869,9 @@ generateRandomBytes
 (
 9
 )
+GeckoAppShell
+.
+BASE64_URL_SAFE
 )
 ;
 return

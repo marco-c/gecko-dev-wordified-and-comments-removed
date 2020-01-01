@@ -2730,6 +2730,9 @@ GeckoAppShell
 decodeBase64
 (
 base64
+GeckoAppShell
+.
+BASE64_DEFAULT
 )
 ;
 ByteArrayInputStream
