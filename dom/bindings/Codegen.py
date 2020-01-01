@@ -817,9 +817,6 @@ JSCLASS_NO_INTERNAL_MEMBERS
   
 %
 s
-  
--
-1
 }
 ;
 "
@@ -11812,6 +11809,14 @@ treatUndefinedAs
 "
 Default
 "
+                                    
+isEnforceRange
+=
+False
+                                    
+isClamp
+=
+False
 )
 :
     
@@ -12056,6 +12061,50 @@ value
 for
 this
 conversion
+    
+If
+isEnforceRange
+is
+true
+we
+'
+re
+converting
+an
+integer
+and
+throwing
+if
+the
+    
+value
+is
+out
+of
+range
+.
+    
+If
+isClamp
+is
+true
+we
+'
+re
+converting
+an
+integer
+and
+clamping
+if
+the
+    
+value
+is
+out
+of
+range
+.
     
 The
 return
@@ -12789,6 +12838,14 @@ None
 return
 templateBody
     
+assert
+not
+(
+isEnforceRange
+and
+isClamp
+)
+    
 if
 type
 .
@@ -12818,6 +12875,13 @@ isSequence
 (
 )
 :
+        
+assert
+not
+isEnforceRange
+and
+not
+isClamp
         
 if
 isMember
@@ -15262,6 +15326,13 @@ isGeckoInterface
 )
 :
         
+assert
+not
+isEnforceRange
+and
+not
+isClamp
+        
 descriptor
 =
 descriptorProvider
@@ -15963,6 +16034,13 @@ isSpiderMonkeyInterface
 )
 :
         
+assert
+not
+isEnforceRange
+and
+not
+isClamp
+        
 if
 isMember
 :
@@ -16413,6 +16491,13 @@ isString
 )
 :
         
+assert
+not
+isEnforceRange
+and
+not
+isClamp
+        
 treatAs
 =
 {
@@ -16858,6 +16943,13 @@ isEnum
 )
 :
         
+assert
+not
+isEnforceRange
+and
+not
+isClamp
+        
 if
 type
 .
@@ -17178,6 +17270,13 @@ isCallback
 )
 :
         
+assert
+not
+isEnforceRange
+and
+not
+isClamp
+        
 if
 isMember
 :
@@ -17335,6 +17434,13 @@ isAny
 )
 :
         
+assert
+not
+isEnforceRange
+and
+not
+isClamp
+        
 if
 isMember
 :
@@ -17420,6 +17526,13 @@ isObject
 (
 )
 :
+        
+assert
+not
+isEnforceRange
+and
+not
+isClamp
         
 if
 isMember
@@ -17772,6 +17885,32 @@ tag
 )
 ]
     
+conversionBehavior
+=
+"
+eDefault
+"
+    
+if
+isEnforceRange
+:
+        
+conversionBehavior
+=
+"
+eEnforceRange
+"
+    
+elif
+isClamp
+:
+        
+conversionBehavior
+=
+"
+eClamp
+"
+    
 if
 type
 .
@@ -17870,6 +18009,8 @@ ValueToPrimitive
 <
 %
 s
+%
+s
 >
 (
 cx
@@ -17901,6 +18042,7 @@ n
 (
 nullCondition
 typeName
+conversionBehavior
 dataLoc
 )
 )
@@ -17959,6 +18101,8 @@ ValueToPrimitive
 <
 %
 s
+%
+s
 >
 (
 cx
@@ -17989,6 +18133,7 @@ n
 %
 (
 typeName
+conversionBehavior
 dataLoc
 )
 )
@@ -19373,6 +19518,22 @@ self
 argument
 .
 treatUndefinedAs
+                                            
+isEnforceRange
+=
+self
+.
+argument
+.
+enforceRange
+                                            
+isClamp
+=
+self
+.
+argument
+.
+clamp
 )
             
 self
@@ -25373,6 +25534,18 @@ treatUndefinedAs
 interfaceMember
 .
 treatUndefinedAs
+        
+self
+.
+enforceRange
+=
+False
+        
+self
+.
+clamp
+=
+False
 class
 CGSetterCall
 (
@@ -36315,6 +36488,9 @@ GetArrayIndexFromId
 cx
 id
 )
+>
+=
+0
 )
 {
 \
@@ -36720,6 +36896,14 @@ n
 n
 "
 +
+                    
+"
+return
+true
+;
+\
+n
+"
                     
 "
 }
