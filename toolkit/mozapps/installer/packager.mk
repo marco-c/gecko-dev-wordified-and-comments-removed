@@ -2174,6 +2174,12 @@ shlibsign
 ssltunnel
 *
 \
+certutil
+*
+\
+pk12util
+*
+\
 winEmbed
 .
 exe
