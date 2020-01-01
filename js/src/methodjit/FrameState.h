@@ -568,14 +568,6 @@ JSValueType
 type
 RegisterID
 payload
-bool
-popGuaranteed
-=
-false
-bool
-fastTyped
-=
-false
 )
 ;
 inline
@@ -584,6 +576,10 @@ pushNumber
 (
 MaybeRegisterID
 payload
+bool
+asInt32
+=
+false
 )
 ;
 inline
