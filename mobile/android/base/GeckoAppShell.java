@@ -2071,6 +2071,11 @@ loadMozGlue
 (
 )
 ;
+loadLibsSetup
+(
+context
+)
+;
 loadSQLiteLibsNative
 (
 apkName
