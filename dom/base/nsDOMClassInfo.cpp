@@ -34770,6 +34770,13 @@ cache
 node
 ;
 }
+else
+{
+result
+=
+nsnull
+;
+}
 if
 (
 result
