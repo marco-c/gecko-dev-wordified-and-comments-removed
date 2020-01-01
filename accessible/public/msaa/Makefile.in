@@ -613,6 +613,11 @@ MIDL
 MIDL_FLAGS
 )
 -
+I
+(
+srcdir
+)
+-
 Oicf
 (
 srcdir
