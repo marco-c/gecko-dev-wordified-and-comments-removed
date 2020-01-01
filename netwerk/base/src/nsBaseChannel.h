@@ -716,6 +716,15 @@ mListenerContext
 nsresult
 mStatus
 ;
+uint32_t
+mContentDispositionHint
+;
+nsAutoPtr
+<
+nsString
+>
+mContentDispositionFilename
+;
 }
 ;
 #
