@@ -817,6 +817,10 @@ test_readyState
 .
 html
 \
+test_seek
+.
+html
+\
 test_seek2
 .
 html
@@ -832,11 +836,6 @@ js
 (
 NULL
 )
-#
-test_seek
-.
-html
-\
 #
 Ogg
 sample
