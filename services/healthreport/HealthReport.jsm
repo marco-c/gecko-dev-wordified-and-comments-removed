@@ -30,6 +30,9 @@ PlacesProvider
 ProfileMetadataProvider
 "
 "
+SearchesProvider
+"
+"
 SessionsProvider
 "
 "
