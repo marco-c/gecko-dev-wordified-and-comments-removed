@@ -1518,7 +1518,8 @@ LineReflowStatus
 aLineReflowStatus
 )
 ;
-nsresult
+nsIFrame
+*
 PullFrame
 (
 nsBlockReflowState
@@ -1526,13 +1527,10 @@ nsBlockReflowState
 aState
 line_iterator
 aLine
-nsIFrame
-*
-&
-aFrameResult
 )
 ;
-PRBool
+nsIFrame
+*
 PullFrameFrom
 (
 nsBlockReflowState
@@ -1551,10 +1549,6 @@ nsLineList
 :
 iterator
 aFromLine
-nsIFrame
-*
-&
-aFrameResult
 )
 ;
 void
