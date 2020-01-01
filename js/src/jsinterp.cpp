@@ -1776,10 +1776,15 @@ JS_ASSERT
 script
 )
 ;
+#
+ifdef
+JS_METHODJIT_SPEW
 JMCheckLogging
 (
 )
 ;
+#
+endif
 AutoInterpPreparer
 prepareInterp
 (
