@@ -7425,14 +7425,6 @@ DARWIN
 !
 defined
 (
-NEXTSTEP
-)
-\
-&
-&
-!
-defined
-(
 QNX
 )
 \

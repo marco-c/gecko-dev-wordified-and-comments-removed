@@ -187,12 +187,6 @@ _PR_DEFAULT_LD_FLAGS
 PR_LD_LAZY
 #
 if
-defined
-(
-SUNOS4
-)
-|
-|
 (
 defined
 (
@@ -206,12 +200,6 @@ USE_MACH_DYLD
 )
 )
 \
-|
-|
-defined
-(
-NEXTSTEP
-)
 |
 |
 defined

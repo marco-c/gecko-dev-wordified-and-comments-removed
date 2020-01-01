@@ -283,8 +283,6 @@ ifeq
 filter
 -
 out
-NEC
-NEXTSTEP
 QNX
 SCOOS
 UNIXWARE

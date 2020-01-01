@@ -8873,12 +8873,6 @@ tp_dst_offset
 ;
 #
 if
-defined
-(
-SUNOS4
-)
-|
-|
 (
 __GLIBC__
 >

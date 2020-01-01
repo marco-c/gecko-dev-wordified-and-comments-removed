@@ -33,13 +33,6 @@ defined
 (
 DARWIN
 )
-&
-&
-!
-defined
-(
-NEXTSTEP
-)
 #
 ifndef
 FD_SETSIZE
@@ -474,13 +467,6 @@ DEBUG
 defined
 (
 DARWIN
-)
-&
-&
-!
-defined
-(
-NEXTSTEP
 )
 #
 if

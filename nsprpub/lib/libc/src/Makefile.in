@@ -380,8 +380,6 @@ LIBNSPR
 )
 #
 On
-NCR
-and
 SCOOS
 we
 can
@@ -435,16 +433,6 @@ the
 o
 files
 .
-ifeq
-(
-(
-OS_ARCH
-)
-NCR
-)
-EXTRA_LIBS
-=
-endif
 ifeq
 (
 (
