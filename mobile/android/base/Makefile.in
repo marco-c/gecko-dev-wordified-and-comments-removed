@@ -645,6 +645,12 @@ java
 \
 gfx
 /
+PanningPerfAPI
+.
+java
+\
+gfx
+/
 PlaceholderLayerClient
 .
 java
