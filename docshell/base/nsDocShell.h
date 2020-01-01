@@ -386,6 +386,13 @@ nsIChannelClassifier
 .
 h
 "
+#
+include
+"
+nsILoadContext
+.
+h
+"
 class
 nsIScrollableView
 ;
@@ -549,6 +556,8 @@ public
 nsIAuthPromptProvider
 public
 nsIObserver
+public
+nsILoadContext
 {
 friend
 class
@@ -584,6 +593,7 @@ NS_DECL_NSIEDITORDOCSHELL
 NS_DECL_NSIWEBPAGEDESCRIPTOR
 NS_DECL_NSIAUTHPROMPTPROVIDER
 NS_DECL_NSIOBSERVER
+NS_DECL_NSILOADCONTEXT
 NS_IMETHOD
 Stop
 (
