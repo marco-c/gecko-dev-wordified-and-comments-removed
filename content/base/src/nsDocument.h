@@ -3410,6 +3410,17 @@ virtual
 void
 RegisterFileDataUri
 (
+const
+nsACString
+&
+aUri
+)
+;
+virtual
+void
+UnregisterFileDataUri
+(
+const
 nsACString
 &
 aUri
