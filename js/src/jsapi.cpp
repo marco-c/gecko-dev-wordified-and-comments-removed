@@ -2660,12 +2660,6 @@ maxbytes
 if
 (
 !
-js_InitDtoa
-(
-)
-|
-|
-!
 js_InitGC
 (
 this
@@ -2679,11 +2673,9 @@ js_InitAtomState
 this
 )
 )
-{
 return
 false
 ;
-}
 deflatedStringCache
 =
 new
@@ -3525,10 +3517,6 @@ js_DumpReprMeter
 ;
 #
 endif
-js_FinishDtoa
-(
-)
-;
 #
 ifdef
 JS_THREADSAFE

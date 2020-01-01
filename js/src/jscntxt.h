@@ -49,6 +49,13 @@ h
 #
 include
 "
+jsdtoa
+.
+h
+"
+#
+include
+"
 jsgc
 .
 h
@@ -1451,6 +1458,10 @@ evalCacheMeter
 ;
 #
 endif
+DtoaState
+*
+dtoaState
+;
 #
 define
 NATIVE_ENUM_CACHE_LOG2
@@ -1500,7 +1511,7 @@ nativeEnumCache
 NATIVE_ENUM_CACHE_SIZE
 ]
 ;
-void
+bool
 init
 (
 )

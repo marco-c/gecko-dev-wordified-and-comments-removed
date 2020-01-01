@@ -2457,8 +2457,15 @@ vp
 ;
 numStr
 =
-JS_dtostr
+js_dtostr
 (
+JS_THREAD_DATA
+(
+cx
+)
+-
+>
+dtoaState
 numBuf
 sizeof
 numBuf
