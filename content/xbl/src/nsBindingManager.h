@@ -446,14 +446,6 @@ void
 aResult
 )
 ;
-PRBool
-ShouldBuildChildFrames
-(
-nsIContent
-*
-aContent
-)
-;
 nsresult
 WalkRules
 (

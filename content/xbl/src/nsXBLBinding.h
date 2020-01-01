@@ -295,12 +295,6 @@ aIID
 )
 const
 ;
-PRBool
-ShouldBuildChildFrames
-(
-)
-const
-;
 void
 GenerateAnonymousContent
 (
