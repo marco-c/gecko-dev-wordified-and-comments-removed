@@ -27759,7 +27759,7 @@ shape
 slot
 )
 ;
-GC_POKE
+GCPoke
 (
 cx
 v
@@ -31268,10 +31268,12 @@ slot
 v
 )
 ;
-GC_POKE
+GCPoke
 (
 cx
-JS_NULL
+NullValue
+(
+)
 )
 ;
 return
