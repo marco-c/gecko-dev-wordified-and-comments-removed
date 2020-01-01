@@ -201,6 +201,10 @@ EXPORTS_mozilla
 dom
 =
 \
+Comment
+.
+h
+\
 DOMImplementation
 .
 h
@@ -214,6 +218,10 @@ NULL
 )
 CPPSRCS
 =
+\
+Comment
+.
+cpp
 \
 DirectionalityUtils
 .
@@ -244,10 +252,6 @@ nsCCUncollectableMarker
 cpp
 \
 nsChannelPolicy
-.
-cpp
-\
-nsCommentNode
 .
 cpp
 \
