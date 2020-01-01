@@ -14293,6 +14293,9 @@ nrefs
 0
 )
 {
+#
+ifdef
+JS_TRACER
 Fragment
 *
 fragment
@@ -14321,6 +14324,8 @@ blacklist
 (
 )
 ;
+#
+endif
 if
 (
 re
