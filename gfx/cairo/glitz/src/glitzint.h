@@ -5,6 +5,15 @@ GLITZINT_H_INCLUDED
 define
 GLITZINT_H_INCLUDED
 #
+include
+"
+cairo
+-
+platform
+.
+h
+"
+#
 ifdef
 _MSC_VER
 #
