@@ -2713,6 +2713,9 @@ ExecutablePool
 *
 shimPool
 ;
+bool
+mustDestroyEntryChunk
+;
 #
 ifdef
 JS_MONOIC
@@ -2996,6 +2999,11 @@ trc
 ;
 void
 purgeCaches
+(
+)
+;
+void
+disableScriptEntry
 (
 )
 ;
