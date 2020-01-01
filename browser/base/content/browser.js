@@ -7948,6 +7948,11 @@ ex
 )
 ;
 }
+#
+ifdef
+MOZ_E10S_COMPAT
+#
+else
 gBrowser
 .
 addProgressListener
@@ -7966,6 +7971,8 @@ window
 TabsProgressListener
 )
 ;
+#
+endif
 gBrowser
 .
 addEventListener
@@ -8704,6 +8711,11 @@ ex
 )
 ;
 }
+#
+ifdef
+MOZ_E10S_COMPAT
+#
+else
 let
 NP
 =
@@ -8736,6 +8748,8 @@ trackBrowserWindow
 window
 )
 ;
+#
+endif
 try
 {
 Cc
@@ -9000,6 +9014,11 @@ false
 true
 )
 ;
+#
+ifdef
+MOZ_E10S_COMPAT
+#
+else
 if
 (
 Win7Features
@@ -9010,6 +9029,8 @@ onOpenWindow
 (
 )
 ;
+#
+endif
 window
 .
 addEventListener
@@ -22157,6 +22178,11 @@ throbber
 "
 )
 ;
+#
+ifdef
+MOZ_E10S_COMPAT
+#
+else
 var
 securityUI
 =
@@ -22181,6 +22207,8 @@ securityUI
 state
 )
 ;
+#
+endif
 }
 destroy
 :
