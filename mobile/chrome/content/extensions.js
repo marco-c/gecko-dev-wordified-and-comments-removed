@@ -3421,7 +3421,8 @@ false
 let
 appendedAddons
 =
-0
+[
+]
 ;
 for
 (
@@ -3535,10 +3536,6 @@ this
 continue
 ;
 }
-appendedAddons
-+
-+
-;
 let
 types
 =
@@ -3671,6 +3668,13 @@ listitem
 "
 repo
 "
+)
+;
+appendedAddons
+.
+push
+(
+listitem
 )
 ;
 aShowCount
@@ -4169,6 +4173,8 @@ aBrowseAddons
 true
 minOverflow
 )
+.
+length
 ;
 let
 totalAddons
@@ -4443,7 +4449,7 @@ return
 ;
 }
 let
-firstItem
+firstAdded
 =
 this
 .
@@ -4452,10 +4458,16 @@ appendSearchResults
 aAddons
 true
 )
+[
+0
+]
 ;
 if
 (
 aSelectFirstResult
+&
+&
+firstAdded
 )
 {
 this
@@ -4464,7 +4476,7 @@ _list
 .
 selectItem
 (
-firstItem
+firstAdded
 )
 ;
 this
@@ -4475,7 +4487,7 @@ scrollBoxObject
 .
 scrollToElement
 (
-firstItem
+firstAdded
 )
 ;
 }
@@ -5656,7 +5668,6 @@ displaySearchResults
 (
 aAddons
 aTotalResults
-false
 this
 .
 selectFirstResult
