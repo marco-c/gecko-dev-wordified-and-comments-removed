@@ -1698,7 +1698,7 @@ js
 :
 :
 Bindings
-*
+&
 bindings
 JSObject
 *

@@ -1841,7 +1841,7 @@ INLINE_STUBCALL
 stubs
 :
 :
-GetCallObject
+CreateFunCallObject
 )
 ;
 }
@@ -12928,15 +12928,9 @@ if
 fp
 -
 >
-isEvalFrame
+isStrictEvalFrame
 (
 )
-&
-&
-script
--
->
-strictModeCode
 )
 {
 prepareStubCall
@@ -12956,7 +12950,7 @@ INLINE_STUBCALL
 stubs
 :
 :
-PutStrictEvalCallObject
+PutActivationObjects
 )
 ;
 }

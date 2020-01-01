@@ -594,7 +594,7 @@ js
 :
 :
 Bindings
-*
+&
 bindings
 JSObject
 *
@@ -615,8 +615,7 @@ false
 map
 =
 bindings
--
->
+.
 lastShape
 (
 )
@@ -624,8 +623,7 @@ lastShape
 if
 (
 bindings
--
->
+.
 extensibleParents
 (
 )
