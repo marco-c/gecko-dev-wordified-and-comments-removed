@@ -1181,6 +1181,10 @@ social_sidebar
 .
 html
 \
+social_window
+.
+html
+\
 social_worker
 .
 js
