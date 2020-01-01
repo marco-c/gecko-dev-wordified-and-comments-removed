@@ -552,6 +552,10 @@ nsDOMSimpleGestureEvent
 .
 cpp
 \
+nsDOMMozTouchEvent
+.
+cpp
+\
 nsDOMEventTargetHelper
 .
 cpp

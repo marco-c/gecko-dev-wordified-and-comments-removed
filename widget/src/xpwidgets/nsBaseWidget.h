@@ -776,6 +776,16 @@ nsIntMargin
 margins
 )
 ;
+NS_IMETHOD
+RegisterTouchWindow
+(
+)
+;
+NS_IMETHOD
+UnregisterTouchWindow
+(
+)
+;
 nsPopupLevel
 PopupLevel
 (

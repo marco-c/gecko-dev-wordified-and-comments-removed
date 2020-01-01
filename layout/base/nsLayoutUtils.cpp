@@ -3705,6 +3705,15 @@ aEvent
 eventStructType
 !
 =
+NS_MOZTOUCH_EVENT
+&
+&
+aEvent
+-
+>
+eventStructType
+!
+=
 NS_QUERY_CONTENT_EVENT
 )
 )

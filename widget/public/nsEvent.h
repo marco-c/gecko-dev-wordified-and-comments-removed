@@ -94,6 +94,9 @@ class
 nsSimpleGestureEvent
 ;
 class
+nsMozTouchEvent
+;
+class
 nsContentCommandEvent
 ;
 #
