@@ -86,6 +86,10 @@ function
 (
 )
 {
+remove_all_JSON_backups
+(
+)
+;
 do_check_true
 (
 bs
@@ -133,6 +137,7 @@ check_bookmarks_html
 ;
 check_JSON_backup
 (
+true
 )
 ;
 do_check_true
@@ -483,16 +488,6 @@ do_test_finished
 }
 )
 ;
-function
-finish_test
-(
-)
-{
-do_test_finished
-(
-)
-;
-}
 var
 testIndex
 =
@@ -504,10 +499,6 @@ next_test
 )
 {
 remove_bookmarks_html
-(
-)
-;
-remove_all_JSON_backups
 (
 )
 ;

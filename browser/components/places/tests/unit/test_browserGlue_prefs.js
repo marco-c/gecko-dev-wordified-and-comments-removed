@@ -1285,6 +1285,10 @@ html
 "
 )
 ;
+remove_all_JSON_backups
+(
+)
+;
 create_JSON_backup
 (
 "
