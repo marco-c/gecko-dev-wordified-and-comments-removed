@@ -2513,7 +2513,7 @@ propp
 )
 ;
 extern
-JSBool
+int
 js_LookupPropertyWithFlags
 (
 JSContext
@@ -2539,7 +2539,7 @@ propp
 extern
 JS_FRIEND_API
 (
-JSBool
+int
 )
 js_FindProperty
 (

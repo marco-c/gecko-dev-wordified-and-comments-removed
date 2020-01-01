@@ -94,8 +94,11 @@ JSParseNode
 *
 body
 ;
-uint32
+uint16
 flags
+;
+uint16
+sclen
 ;
 }
 func
@@ -261,6 +264,14 @@ pn_u
 func
 .
 flags
+#
+define
+pn_sclen
+pn_u
+.
+func
+.
+sclen
 #
 define
 pn_head

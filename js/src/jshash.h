@@ -290,7 +290,7 @@ allocPriv
 ;
 #
 ifdef
-HASHMETER
+JS_HASHMETER
 uint32
 nlookups
 ;

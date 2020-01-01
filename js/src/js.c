@@ -7762,7 +7762,6 @@ JS_FALSE
 ;
 if
 (
-!
 js_FindProperty
 (
 cx
@@ -7777,6 +7776,8 @@ obj2
 &
 prop
 )
+<
+0
 )
 return
 JS_FALSE
