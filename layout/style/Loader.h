@@ -642,6 +642,17 @@ mEnabled
 aEnabled
 ;
 }
+nsIDocument
+*
+GetDocument
+(
+)
+const
+{
+return
+mDocument
+;
+}
 PRBool
 HasPendingLoads
 (

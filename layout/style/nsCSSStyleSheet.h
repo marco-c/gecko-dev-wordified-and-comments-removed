@@ -388,6 +388,13 @@ nsIDocument
 aDocument
 )
 ;
+virtual
+PRUint64
+FindOwningWindowID
+(
+)
+const
+;
 #
 ifdef
 DEBUG

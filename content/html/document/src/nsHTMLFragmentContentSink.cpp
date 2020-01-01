@@ -4041,6 +4041,14 @@ GetBaseURI
 }
 nsCSSParser
 parser
+(
+mTargetDocument
+-
+>
+CSSLoader
+(
+)
+)
 ;
 nsCOMPtr
 <
