@@ -21,16 +21,6 @@ height
 <
 !
 ENTITY
-done
-.
-label
-"
-Done
-"
->
-<
-!
-ENTITY
 canceled
 .
 label
