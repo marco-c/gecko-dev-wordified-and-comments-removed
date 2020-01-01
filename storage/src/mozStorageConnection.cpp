@@ -1199,6 +1199,8 @@ initialize
 nsIFile
 *
 aDatabaseFile
+int
+aFlags
 )
 {
 NS_ASSERTION
@@ -1225,6 +1227,13 @@ rv
 mDatabaseFile
 =
 aDatabaseFile
+;
+int
+flags
+=
+aFlags
+|
+SQLITE_OPEN_CREATE
 ;
 if
 (
@@ -1254,7 +1263,7 @@ srv
 =
 :
 :
-sqlite3_open
+sqlite3_open_v2
 (
 NS_ConvertUTF16toUTF8
 (
@@ -1266,6 +1275,8 @@ get
 )
 &
 mDBConn
+flags
+NULL
 )
 ;
 }
@@ -1275,7 +1286,7 @@ srv
 =
 :
 :
-sqlite3_open
+sqlite3_open_v2
 (
 "
 :
@@ -1284,6 +1295,8 @@ memory
 "
 &
 mDBConn
+flags
+NULL
 )
 ;
 }

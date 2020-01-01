@@ -124,6 +124,8 @@ initialize
 nsIFile
 *
 aDatabaseFile
+int
+aFlags
 )
 ;
 sqlite3
