@@ -614,6 +614,17 @@ html
 ref
 .
 html
+random
+-
+if
+(
+MOZ_WIDGET_TOOLKIT
+=
+=
+"
+gtk2
+"
+)
 HTTP
 (
 .
@@ -631,3 +642,6 @@ html
 ref
 .
 html
+#
+bug
+476137
