@@ -31,13 +31,13 @@ android
 .
 widget
 .
-LinearLayout
+RelativeLayout
 ;
 public
 class
 BrowserToolbarLayout
 extends
-LinearLayout
+GeckoRelativeLayout
 {
 private
 static
