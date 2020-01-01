@@ -1173,12 +1173,6 @@ nsCOMPtr
 <
 mozIStorageStatement
 >
-mDBUrlToUrlResult
-;
-nsCOMPtr
-<
-mozIStorageStatement
->
 mDBBookmarkToUrlResult
 ;
 NS_DECL_NSICHARSETRESOLVER
