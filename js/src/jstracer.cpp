@@ -49892,7 +49892,9 @@ jsval
 v
 )
 {
-v
+jsval
+&
+vr
 =
 js_GetUpvar
 (
@@ -49910,6 +49912,10 @@ index
 ]
 )
 ;
+v
+=
+vr
+;
 LIns
 *
 upvar_ins
@@ -49917,7 +49923,7 @@ upvar_ins
 get
 (
 &
-v
+vr
 )
 ;
 if
