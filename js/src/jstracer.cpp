@@ -3953,10 +3953,12 @@ map
 )
 )
 )
+{
 type
 =
 JSVAL_DOUBLE
 ;
+}
 *
 m
 +
@@ -8963,7 +8965,7 @@ printf
 Trace
 rejected
 :
-excess
+excessive
 stack
 use
 .
