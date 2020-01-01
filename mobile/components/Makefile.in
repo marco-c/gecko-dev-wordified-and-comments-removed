@@ -473,6 +473,10 @@ downloadManagerUI
 .
 js
 \
+helperAppDialog
+.
+js
+\
 (
 NULL
 )
