@@ -1359,8 +1359,10 @@ uintN
 nargs
 uintN
 flags
-JSObject
-*
+js
+:
+:
+HandleObject
 parent
 JSAtom
 *
@@ -1451,8 +1453,10 @@ js_DefineFunction
 JSContext
 *
 cx
-JSObject
-*
+js
+:
+:
+HandleObject
 obj
 jsid
 id

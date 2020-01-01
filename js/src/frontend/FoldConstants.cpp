@@ -1366,13 +1366,6 @@ accum
 )
 {
 {
-AutoStringRooter
-tvr
-(
-cx
-accum
-)
-;
 str
 =
 (

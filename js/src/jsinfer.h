@@ -2337,6 +2337,17 @@ TypeObject
 type
 )
 ;
+static
+inline
+ThingRootKind
+rootKind
+(
+)
+{
+return
+THING_ROOT_TYPE_OBJECT
+;
+}
 private
 :
 inline

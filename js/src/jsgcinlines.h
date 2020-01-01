@@ -1465,6 +1465,17 @@ cx
 ;
 #
 endif
+js
+:
+:
+gc
+:
+:
+MaybeCheckStackRoots
+(
+cx
+)
+;
 JSCompartment
 *
 comp
