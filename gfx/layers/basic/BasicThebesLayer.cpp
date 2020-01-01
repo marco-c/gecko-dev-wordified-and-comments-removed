@@ -2112,6 +2112,13 @@ void
 aCallbackData
 )
 {
+mValidRegion
+.
+SimplifyInward
+(
+8
+)
+;
 Base
 :
 :
