@@ -290,6 +290,11 @@ WebGLExtensionTextureFloatLinear
 cpp
 '
 '
+WebGLExtensionVertexArray
+.
+cpp
+'
+'
 WebGLFramebuffer
 .
 cpp
@@ -331,6 +336,11 @@ cpp
 '
 '
 WebGLUniformLocation
+.
+cpp
+'
+'
+WebGLVertexArray
 .
 cpp
 '
