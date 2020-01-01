@@ -287,6 +287,11 @@ numActiveChunks_
 =
 1
 ;
+setCurrentChunk
+(
+0
+)
+;
 }
 void
 js
@@ -319,6 +324,10 @@ start
 )
 ;
 numActiveChunks_
+=
+0
+;
+currentEnd_
 =
 0
 ;
