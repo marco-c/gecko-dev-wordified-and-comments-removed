@@ -1194,6 +1194,9 @@ jsval
 *
 jsargv
 ;
+nsresult
+rv
+=
 jsarray
 -
 >
@@ -1215,6 +1218,12 @@ jsargv
 ;
 if
 (
+NS_SUCCEEDED
+(
+rv
+)
+&
+&
 jsargv
 &
 &
