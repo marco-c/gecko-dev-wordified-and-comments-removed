@@ -1133,7 +1133,7 @@ function
 setTimeout
 (
 loaded
-0
+1000
 )
 ;
 }
