@@ -4911,14 +4911,14 @@ mColor
 }
 ;
 class
-nsDisplayBackground
+nsDisplayBackgroundImage
 :
 public
 nsDisplayItem
 {
 public
 :
-nsDisplayBackground
+nsDisplayBackgroundImage
 (
 nsDisplayListBuilder
 *
@@ -4938,7 +4938,7 @@ aBackgroundStyle
 ;
 virtual
 ~
-nsDisplayBackground
+nsDisplayBackgroundImage
 (
 )
 ;
@@ -4955,7 +4955,7 @@ aFrame
 nsDisplayList
 *
 aList
-nsDisplayBackground
+nsDisplayBackgroundImage
 *
 *
 aBackground
