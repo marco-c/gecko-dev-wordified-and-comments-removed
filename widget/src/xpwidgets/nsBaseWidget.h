@@ -780,7 +780,7 @@ return
 NS_ERROR_UNEXPECTED
 ;
 }
-void
+PRBool
 StoreWindowClipRegion
 (
 const
