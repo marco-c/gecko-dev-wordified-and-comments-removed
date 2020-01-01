@@ -1215,7 +1215,13 @@ html
 ref
 .
 html
-random
+fails
+-
+if
+(
+!
+winWidget
+)
 HTTP
 (
 .
