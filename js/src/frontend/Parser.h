@@ -1020,6 +1020,8 @@ unaryExpr
 Node
 memberExpr
 (
+TokenKind
+tt
 bool
 allowCallSyntax
 )
