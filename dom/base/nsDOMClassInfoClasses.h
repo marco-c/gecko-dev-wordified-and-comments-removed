@@ -932,10 +932,6 @@ SVGEvent
 )
 DOMCI_CLASS
 (
-SVGException
-)
-DOMCI_CLASS
-(
 SVGLength
 )
 DOMCI_CLASS
@@ -1109,10 +1105,6 @@ XSLTProcessor
 DOMCI_CLASS
 (
 XPathEvaluator
-)
-DOMCI_CLASS
-(
-XPathException
 )
 DOMCI_CLASS
 (

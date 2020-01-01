@@ -95,10 +95,6 @@ nsIDOMXPathEvaluator
 .
 idl
 \
-nsIDOMXPathException
-.
-idl
-\
 nsIDOMXPathExpression
 .
 idl
