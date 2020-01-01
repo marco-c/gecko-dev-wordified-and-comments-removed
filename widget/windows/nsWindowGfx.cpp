@@ -2443,6 +2443,11 @@ break
 ;
 #
 endif
+case
+LAYERS_CLIENT
+:
+break
+;
 default
 :
 NS_ERROR
