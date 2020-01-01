@@ -113,8 +113,6 @@ top
 ;
 outputNode
 .
-firstChild
-.
 focus
 (
 )
