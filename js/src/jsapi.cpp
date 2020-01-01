@@ -14524,7 +14524,7 @@ equality
 cx
 -
 >
-markTypeObjectHasSpecialEquality
+markTypeObjectFlags
 (
 obj
 -
@@ -14532,6 +14532,7 @@ obj
 getType
 (
 )
+OBJECT_FLAG_SPECIAL_EQUALITY
 )
 ;
 obj
@@ -14649,9 +14650,10 @@ hasSpecialEquality
 cx
 -
 >
-markTypeObjectHasSpecialEquality
+markTypeObjectFlags
 (
 type
+OBJECT_FLAG_SPECIAL_EQUALITY
 )
 ;
 if

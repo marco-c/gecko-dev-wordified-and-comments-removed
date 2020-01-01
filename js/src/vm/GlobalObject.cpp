@@ -452,9 +452,13 @@ equality
 cx
 -
 >
-markTypeObjectHasSpecialEquality
+markTypeObjectFlags
 (
 type
+types
+:
+:
+OBJECT_FLAG_SPECIAL_EQUALITY
 )
 ;
 type
