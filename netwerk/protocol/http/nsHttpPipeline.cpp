@@ -1889,11 +1889,6 @@ mClosed
 =
 PR_TRUE
 ;
-NS_IF_RELEASE
-(
-mConnection
-)
-;
 PRUint32
 i
 count
@@ -2041,6 +2036,11 @@ Clear
 )
 ;
 }
+NS_IF_RELEASE
+(
+mConnection
+)
+;
 }
 nsresult
 nsHttpPipeline
