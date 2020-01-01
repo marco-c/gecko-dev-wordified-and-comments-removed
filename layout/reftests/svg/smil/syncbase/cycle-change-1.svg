@@ -50,6 +50,14 @@ document
 .
 documentElement
 .
+pauseAnimations
+(
+)
+;
+document
+.
+documentElement
+.
 setCurrentTime
 (
 0
@@ -72,7 +80,7 @@ beginElementAt
 setTimeAndSnapshot
 (
 2
-true
+false
 )
 "
 >
