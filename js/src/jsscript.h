@@ -65,6 +65,9 @@ h
 namespace
 js
 {
+class
+BytecodeEmitter
+;
 namespace
 ion
 {
