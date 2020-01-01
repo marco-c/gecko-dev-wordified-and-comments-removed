@@ -234,6 +234,14 @@ test_stylesheetPI
 .
 html
 \
+test_showModalDialog
+.
+html
+\
+file_showModalDialog
+.
+html
+\
 (
 NULL
 )
