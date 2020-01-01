@@ -2679,7 +2679,7 @@ GetStringFromName
 NS_LITERAL_STRING
 (
 "
-UnfiledBookmarksFolderTitle
+UnsortedBookmarksFolderTitle
 "
 )
 .
