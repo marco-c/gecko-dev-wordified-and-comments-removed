@@ -1440,7 +1440,7 @@ Group
 .
 prototype
 =
-iQ
+Utils
 .
 extend
 (
@@ -2180,7 +2180,7 @@ titleHeight
 }
 if
 (
-iQ
+Utils
 .
 isEmptyObject
 (
@@ -2658,7 +2658,7 @@ length
 var
 toClose
 =
-iQ
+Utils
 .
 merge
 (
@@ -3619,7 +3619,7 @@ this
 var
 toRemove
 =
-iQ
+Utils
 .
 merge
 (
@@ -3970,7 +3970,7 @@ this
 .
 _children
 box
-iQ
+Utils
 .
 extend
 (
@@ -4107,7 +4107,7 @@ copy
 options
 )
 ;
-iQ
+Utils
 .
 extend
 (
@@ -6178,7 +6178,7 @@ true
 }
 )
 ;
-iQ
+Utils
 .
 timeout
 (
@@ -6399,7 +6399,7 @@ remove
 (
 )
 ;
-iQ
+Utils
 .
 timeout
 (
@@ -6989,7 +6989,7 @@ Group
 (
 [
 ]
-iQ
+Utils
 .
 extend
 (
@@ -7737,7 +7737,7 @@ function
 var
 toRemove
 =
-iQ
+Utils
 .
 merge
 (

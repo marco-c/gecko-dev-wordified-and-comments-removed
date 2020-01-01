@@ -2559,7 +2559,7 @@ startSent
 {
 if
 (
-iQ
+Utils
 .
 isFunction
 (
@@ -2609,7 +2609,7 @@ true
 }
 if
 (
-iQ
+Utils
 .
 isFunction
 (
@@ -2724,7 +2724,7 @@ if
 dropOptions
 &
 &
-iQ
+Utils
 .
 isFunction
 (
@@ -2803,7 +2803,7 @@ if
 dropOptions
 &
 &
-iQ
+Utils
 .
 isFunction
 (
@@ -2847,7 +2847,7 @@ if
 dropOptions
 &
 &
-iQ
+Utils
 .
 isFunction
 (
@@ -2924,7 +2924,7 @@ if
 dropOptions
 &
 &
-iQ
+Utils
 .
 isFunction
 (
@@ -2951,7 +2951,7 @@ if
 startSent
 &
 &
-iQ
+Utils
 .
 isFunction
 (
@@ -3508,7 +3508,7 @@ true
 ;
 if
 (
-iQ
+Utils
 .
 isFunction
 (
@@ -3578,7 +3578,7 @@ handleMouseUp
 ;
 if
 (
-iQ
+Utils
 .
 isFunction
 (
@@ -3702,7 +3702,7 @@ x
 ;
 if
 (
-iQ
+Utils
 .
 isFunction
 (

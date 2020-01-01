@@ -906,7 +906,7 @@ TabItem
 .
 prototype
 =
-iQ
+Utils
 .
 extend
 (
@@ -1411,7 +1411,7 @@ y
 ;
 if
 (
-iQ
+Utils
 .
 isEmptyObject
 (
@@ -2720,7 +2720,7 @@ true
 ;
 if
 (
-iQ
+Utils
 .
 isFunction
 (
@@ -3340,7 +3340,7 @@ showCachedData
 tabData
 )
 ;
-iQ
+Utils
 .
 timeout
 (

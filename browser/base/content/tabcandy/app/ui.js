@@ -567,7 +567,7 @@ firstTime
 groupsData
 |
 |
-iQ
+Utils
 .
 isEmptyObject
 (
@@ -1645,7 +1645,7 @@ function
 (
 )
 {
-iQ
+Utils
 .
 timeout
 (
@@ -1790,7 +1790,7 @@ _closedSelectedTabInTabCandy
 =
 false
 ;
-iQ
+Utils
 .
 timeout
 (
@@ -4461,7 +4461,7 @@ data
 {
 if
 (
-iQ
+Utils
 .
 isEmptyObject
 (

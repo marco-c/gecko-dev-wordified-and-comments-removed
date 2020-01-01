@@ -420,7 +420,7 @@ window
 .
 TabsManager
 =
-iQ
+Utils
 .
 extend
 (

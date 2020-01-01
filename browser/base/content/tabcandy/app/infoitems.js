@@ -339,7 +339,7 @@ InfoItem
 .
 prototype
 =
-iQ
+Utils
 .
 extend
 (
@@ -611,7 +611,7 @@ height
 ;
 if
 (
-iQ
+Utils
 .
 isEmptyObject
 (

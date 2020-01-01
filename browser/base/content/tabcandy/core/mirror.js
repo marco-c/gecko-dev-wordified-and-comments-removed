@@ -685,7 +685,7 @@ Mirror
 .
 prototype
 =
-iQ
+Utils
 .
 extend
 (
@@ -990,7 +990,7 @@ tab
 =
 this
 ;
-iQ
+Utils
 .
 timeout
 (
@@ -1028,7 +1028,7 @@ evt
 .
 tab
 ;
-iQ
+Utils
 .
 timeout
 (
@@ -1066,7 +1066,7 @@ evt
 .
 tab
 ;
-iQ
+Utils
 .
 timeout
 (
@@ -1109,7 +1109,7 @@ tab
 =
 this
 ;
-iQ
+Utils
 .
 timeout
 (
@@ -1589,7 +1589,7 @@ self
 =
 this
 ;
-iQ
+Utils
 .
 timeout
 (
