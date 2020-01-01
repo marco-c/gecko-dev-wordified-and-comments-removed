@@ -3825,6 +3825,7 @@ kShy
 =
 {
 CH_SHY
+0
 }
 ;
 patAutoStr
