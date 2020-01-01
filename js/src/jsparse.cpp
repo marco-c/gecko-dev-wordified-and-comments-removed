@@ -13849,7 +13849,7 @@ name
 ;
 }
 return
-JS_FALSE
+false
 ;
 }
 n
@@ -13892,7 +13892,7 @@ overflow
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -13907,7 +13907,7 @@ true
 )
 )
 return
-JS_FALSE
+false
 ;
 pn
 -
@@ -13955,7 +13955,7 @@ n
 )
 )
 return
-JS_FALSE
+false
 ;
 uintN
 slot
@@ -13993,11 +13993,9 @@ slot
 1
 )
 )
-{
 return
-JS_FALSE
+false
 ;
-}
 blockObj
 -
 >
@@ -14025,7 +14023,7 @@ pn
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
