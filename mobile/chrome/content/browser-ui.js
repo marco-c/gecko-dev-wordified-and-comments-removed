@@ -2728,12 +2728,6 @@ init
 (
 )
 ;
-PageActions
-.
-init
-(
-)
-;
 FullScreenVideo
 .
 init
@@ -2741,12 +2735,6 @@ init
 )
 ;
 NewTabPopup
-.
-init
-(
-)
-;
-CharsetMenu
 .
 init
 (
