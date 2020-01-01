@@ -564,6 +564,9 @@ lgkgfx
 -
 lthebes
 \
+-
+llayers
+\
 (
 MOZ_JS_LIBS
 )
@@ -578,6 +581,10 @@ GLIB_LIBS
 \
 (
 QCMS_LIBS
+)
+\
+(
+XEXT_LIBS
 )
 \
 (
