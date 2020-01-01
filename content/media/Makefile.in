@@ -103,6 +103,10 @@ AudioSegment
 .
 h
 \
+BufferMediaResource
+.
+h
+\
 DecoderTraits
 .
 h
