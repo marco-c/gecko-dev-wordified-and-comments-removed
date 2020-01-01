@@ -55,6 +55,15 @@ nsAutoJSValHolder
 &
 aOther
 )
+:
+mVal
+(
+JSVAL_NULL
+)
+mRt
+(
+nullptr
+)
 {
 *
 this
