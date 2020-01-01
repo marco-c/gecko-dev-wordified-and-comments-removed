@@ -523,10 +523,6 @@ nsIAsyncStreamCopier
 .
 idl
 \
-nsISafeOutputStream
-.
-idl
-\
 nsIBufferedStreams
 .
 idl

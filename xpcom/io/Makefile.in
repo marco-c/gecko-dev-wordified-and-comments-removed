@@ -834,6 +834,10 @@ nsIIOUtil
 .
 idl
 \
+nsISafeOutputStream
+.
+idl
+\
 (
 NULL
 )
