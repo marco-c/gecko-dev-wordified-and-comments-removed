@@ -1870,9 +1870,11 @@ rate
 format
 )
 ;
-NS_ADDREF
-(
 parent
+-
+>
+AddRef
+(
 )
 ;
 return
