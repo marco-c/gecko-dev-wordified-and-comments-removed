@@ -520,6 +520,10 @@ nsWinGesture
 .
 cpp
 \
+nsIdleServiceWin
+.
+cpp
+\
 (
 NULL
 )
@@ -597,10 +601,6 @@ nsBidiKeyboard
 cpp
 \
 nsSound
-.
-cpp
-\
-nsIdleServiceWin
 .
 cpp
 \
