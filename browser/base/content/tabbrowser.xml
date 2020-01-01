@@ -4843,6 +4843,9 @@ CDATA
 if
 (
 TabView
+&
+&
+TabView
 .
 isVisible
 (
@@ -9645,6 +9648,10 @@ length
 {
 if
 (
+!
+TabView
+|
+|
 !
 TabView
 .
