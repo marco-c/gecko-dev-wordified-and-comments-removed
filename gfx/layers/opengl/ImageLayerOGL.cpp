@@ -2718,14 +2718,7 @@ tex
 if
 defined
 (
-MOZ_X11
-)
-&
-&
-!
-defined
-(
-MOZ_PLATFORM_MAEMO
+GL_PROVIDER_GLX
 )
 if
 (

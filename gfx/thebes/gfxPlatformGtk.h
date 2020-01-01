@@ -469,6 +469,13 @@ GetOffscreenFormat
 (
 )
 ;
+virtual
+int
+GetScreenDepth
+(
+)
+const
+;
 protected
 :
 static
