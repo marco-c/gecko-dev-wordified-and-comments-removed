@@ -3452,7 +3452,7 @@ cache
 cache
 -
 >
-ClearWrapperIfProxy
+ClearWrapper
 (
 )
 ;
