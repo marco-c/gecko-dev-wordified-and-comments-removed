@@ -360,14 +360,8 @@ JAVASCRIPT
 JS
 :
 :
-AutoEnterScriptCompartment
+AutoCompartment
 ac
-;
-if
-(
-ac
-.
-enter
 (
 cx
 desc
@@ -380,8 +374,7 @@ i
 .
 script
 )
-)
-{
+;
 const
 char
 *
