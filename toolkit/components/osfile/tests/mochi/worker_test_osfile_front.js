@@ -4649,7 +4649,7 @@ getTime
 (
 )
 -
-1000
+2500
 ;
 let
 stopMs
@@ -4660,7 +4660,7 @@ getTime
 (
 )
 +
-1000
+2500
 ;
 (
 function
