@@ -53,8 +53,11 @@ Depends
 }
 xulrunner
 (
+>
 =
-GRE_MILESTONE
+1
+.
+9pre
 )
 Description
 :

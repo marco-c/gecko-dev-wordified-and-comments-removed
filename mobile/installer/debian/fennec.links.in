@@ -21,7 +21,7 @@ applications
 /
 hildon
 /
-browser
+fennec
 .
 desktop
 etc
@@ -30,8 +30,6 @@ others
 -
 menu
 /
-extra_applications
-/
-0112_browser
+0112_fennec
 .
 desktop
