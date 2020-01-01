@@ -503,7 +503,7 @@ nsIPresShell
 :
 :
 eTreeChange
-NS_FRAME_IS_DIRTY
+NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
 }
@@ -637,7 +637,7 @@ nsIPresShell
 :
 :
 eTreeChange
-NS_FRAME_IS_DIRTY
+NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
 }
@@ -891,7 +891,7 @@ nsIPresShell
 :
 :
 eTreeChange
-NS_FRAME_IS_DIRTY
+NS_FRAME_HAS_DIRTY_CHILDREN
 )
 ;
 }
