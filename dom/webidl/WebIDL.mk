@@ -767,6 +767,10 @@ SVGFEBlendElement
 .
 webidl
 \
+SVGFEColorMatrixElement
+.
+webidl
+\
 SVGFEComponentTransferElement
 .
 webidl

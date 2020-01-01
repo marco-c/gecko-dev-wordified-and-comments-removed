@@ -311,10 +311,6 @@ undef
 LoadImage
 #
 endif
-#
-define
-NUM_ENTRIES_IN_4x5_MATRIX
-20
 using
 namespace
 mozilla
