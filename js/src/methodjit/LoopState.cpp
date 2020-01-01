@@ -974,7 +974,7 @@ alloc
 cx
 -
 >
-analysisLifoAlloc
+typeLifoAlloc
 (
 )
 .
@@ -1030,7 +1030,7 @@ function
 {
 if
 (
-HeapTypeSet
+TypeSet
 :
 :
 HasObjectFlags
@@ -4229,7 +4229,7 @@ objConstant
 return
 NULL
 ;
-StackTypeSet
+TypeSet
 *
 objTypes
 =
@@ -4248,6 +4248,7 @@ objTypes
 >
 isMagicArguments
 (
+cx
 )
 )
 {
@@ -4513,6 +4514,14 @@ OBJECT_FLAG_NON_TYPED_ARRAY
 )
 )
 {
+objTypes
+-
+>
+addFreeze
+(
+cx
+)
+;
 uint32_t
 which
 =
@@ -4697,6 +4706,14 @@ return
 NULL
 ;
 }
+objTypes
+-
+>
+addFreeze
+(
+cx
+)
+;
 uint32_t
 which
 =
@@ -5052,7 +5069,7 @@ id
 return
 NULL
 ;
-HeapTypeSet
+TypeSet
 *
 propertyTypes
 =
@@ -5080,7 +5097,7 @@ if
 propertyTypes
 -
 >
-definiteProperty
+isDefiniteProperty
 (
 )
 |
@@ -5097,6 +5114,14 @@ true
 )
 return
 NULL
+;
+objTypes
+-
+>
+addFreeze
+(
+cx
+)
 ;
 uint32_t
 which
@@ -6191,7 +6216,7 @@ return
 false
 ;
 }
-StackTypeSet
+TypeSet
 *
 lhsTypes
 =
@@ -6214,6 +6239,7 @@ lhsTypes
 >
 getKnownTypeTag
 (
+cx
 )
 !
 =
@@ -8433,6 +8459,7 @@ one
 >
 getKnownTypeTag
 (
+cx
 )
 !
 =
@@ -8450,6 +8477,7 @@ two
 >
 getKnownTypeTag
 (
+cx
 )
 !
 =
@@ -8880,7 +8908,7 @@ SSAValue
 index
 )
 {
-StackTypeSet
+TypeSet
 *
 objTypes
 =
@@ -8892,7 +8920,7 @@ getValueTypes
 obj
 )
 ;
-StackTypeSet
+TypeSet
 *
 elemTypes
 =
@@ -8911,6 +8939,7 @@ objTypes
 >
 getKnownTypeTag
 (
+cx
 )
 !
 =
@@ -8922,6 +8951,7 @@ elemTypes
 >
 getKnownTypeTag
 (
+cx
 )
 !
 =
@@ -9493,7 +9523,7 @@ pc
 1
 )
 ;
-StackTypeSet
+TypeSet
 *
 objTypes
 =
@@ -9505,7 +9535,7 @@ getValueTypes
 objValue
 )
 ;
-StackTypeSet
+TypeSet
 *
 elemTypes
 =
@@ -9532,6 +9562,7 @@ elemTypes
 >
 getKnownTypeTag
 (
+cx
 )
 !
 =
@@ -9545,6 +9576,14 @@ true
 break
 ;
 }
+objTypes
+-
+>
+addFreeze
+(
+cx
+)
+;
 for
 (
 unsigned
@@ -9745,6 +9784,14 @@ true
 break
 ;
 }
+objTypes
+-
+>
+addFreeze
+(
+cx
+)
+;
 for
 (
 unsigned
@@ -9978,6 +10025,7 @@ pc
 >
 getKnownTypeTag
 (
+cx
 )
 ;
 if
@@ -10023,6 +10071,7 @@ pc
 >
 getKnownTypeTag
 (
+cx
 )
 ;
 if

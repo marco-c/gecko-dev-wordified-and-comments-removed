@@ -1273,11 +1273,6 @@ hasDebugScript
 :
 1
 ;
-bool
-hasFreezeConstraints
-:
-1
-;
 private
 :
 bool
@@ -1674,12 +1669,6 @@ analyze
 ScriptAnalysis
 *
 analysis
-(
-)
-;
-inline
-void
-clearPropertyReadTypes
 (
 )
 ;
