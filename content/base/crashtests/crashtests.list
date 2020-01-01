@@ -671,3 +671,7 @@ load
 786854
 .
 html
+load
+xhr_empty_datauri
+.
+html
