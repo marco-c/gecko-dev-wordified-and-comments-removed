@@ -3311,11 +3311,13 @@ Initialize
 {
 execAlloc
 =
-new
 JSC
 :
 :
 ExecutableAllocator
+:
+:
+create
 (
 )
 ;
