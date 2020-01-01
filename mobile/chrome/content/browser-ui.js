@@ -3680,7 +3680,7 @@ cmd_zoomin
 :
 Browser
 .
-canvasBrowser
+_browserView
 .
 zoom
 (
@@ -3697,7 +3697,7 @@ cmd_zoomout
 :
 Browser
 .
-canvasBrowser
+_browserView
 .
 zoom
 (
