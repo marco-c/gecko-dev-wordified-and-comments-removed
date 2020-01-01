@@ -831,6 +831,15 @@ PR_IntervalNow
 (
 )
 ;
+event
+.
+inputSource
+=
+nsIDOMMouseEvent
+:
+:
+MOZ_SOURCE_UNKNOWN
+;
 nsEventStatus
 status
 =
