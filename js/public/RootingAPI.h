@@ -524,7 +524,9 @@ return
 ptr
 ;
 }
+const
 T
+&
 get
 (
 )
@@ -536,7 +538,9 @@ ptr
 ;
 }
 operator
+const
 T
+&
 (
 )
 const
@@ -1564,7 +1568,9 @@ prev
 #
 endif
 operator
+const
 T
+&
 (
 )
 const
