@@ -742,7 +742,7 @@ JSObjectFromInterface
 nsISupports
 *
 aSup
-void
+JSObject
 *
 aScript
 JSObject
