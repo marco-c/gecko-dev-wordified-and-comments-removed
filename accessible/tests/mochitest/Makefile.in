@@ -458,6 +458,10 @@ common
 .
 js
 \
+namerules
+.
+xml
+\
 nsIAccessible_actions
 .
 js
