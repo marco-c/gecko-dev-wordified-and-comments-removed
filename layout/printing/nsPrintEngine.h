@@ -934,8 +934,10 @@ mIsDoingPrintPreview
 PRPackedBool
 mProgressDialogIsShown
 ;
+nsCOMPtr
+<
 nsIDocumentViewerPrint
-*
+>
 mDocViewerPrint
 ;
 nsISupports

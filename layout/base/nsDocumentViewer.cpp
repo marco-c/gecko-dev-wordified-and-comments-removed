@@ -4599,10 +4599,6 @@ mClosingWhilePrinting
 =
 PR_TRUE
 ;
-NS_ADDREF_THIS
-(
-)
-;
 }
 else
 #
@@ -15094,10 +15090,6 @@ nsnull
 mClosingWhilePrinting
 =
 PR_FALSE
-;
-NS_RELEASE_THIS
-(
-)
 ;
 }
 if

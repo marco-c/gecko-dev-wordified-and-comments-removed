@@ -1068,10 +1068,6 @@ mProgressDialogIsShown
 (
 PR_FALSE
 )
-mDocViewerPrint
-(
-nsnull
-)
 mContainer
 (
 nsnull
@@ -1175,6 +1171,10 @@ nsnull
 }
 #
 endif
+mDocViewerPrint
+=
+nsnull
+;
 }
 void
 nsPrintEngine
