@@ -724,7 +724,7 @@ mozprefs
 .
 js
 \
-pywebsocket_ignore_sigint
+pywebsocket_wrapper
 .
 py
 \
