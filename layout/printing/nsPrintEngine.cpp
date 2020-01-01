@@ -2523,11 +2523,6 @@ nsIPrintSettings
 :
 :
 kEnableSelectionRB
-!
-mDisallowSelectionPrint
-&
-&
-(
 isSelection
 |
 |
@@ -2535,7 +2530,6 @@ mPrt
 -
 >
 mIsIFrameSelected
-)
 )
 ;
 nsCOMPtr
@@ -4520,6 +4514,13 @@ nsIDOMWindow
 aDOMWin
 )
 {
+if
+(
+mDisallowSelectionPrint
+)
+return
+false
+;
 nsCOMPtr
 <
 nsIPresShell
