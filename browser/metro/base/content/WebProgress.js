@@ -754,12 +754,6 @@ scrolledAreaChanged
 true
 )
 ;
-aTab
-.
-updateThumbnailSource
-(
-)
-;
 }
 )
 ;
