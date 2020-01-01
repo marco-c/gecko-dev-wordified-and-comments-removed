@@ -15434,6 +15434,10 @@ mRootNode
 (
 aRoot
 )
+mNeedsToApplySortingMode
+(
+PR_FALSE
+)
 mIsHistoryObserver
 (
 PR_FALSE
@@ -15443,10 +15447,6 @@ mIsBookmarkFolderObserver
 PR_FALSE
 )
 mIsAllBookmarksObserver
-(
-PR_FALSE
-)
-mNeedsToApplySortingMode
 (
 PR_FALSE
 )
