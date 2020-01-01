@@ -10806,6 +10806,7 @@ NS_OK
 ;
 }
 }
+}
 #
 endif
 nsCOMPtr
