@@ -715,12 +715,12 @@ fragmento
 fragmento
 ;
 }
-JSTraceRecorder
+TraceRecorder
 *
 recorder
 =
 new
-JSTraceRecorder
+TraceRecorder
 (
 regs
 )
@@ -1141,7 +1141,7 @@ recorder
 NULL
 )
 {
-JSTraceRecorder
+TraceRecorder
 *
 recorder
 =
