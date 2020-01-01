@@ -97,6 +97,12 @@ regress
 3
 .
 js
+script
+regress
+-
+429241
+.
+js
 silentfail
 skip
 -
