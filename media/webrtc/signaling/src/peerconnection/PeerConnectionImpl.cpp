@@ -188,7 +188,7 @@ h
 #
 include
 "
-nsDOMDataChannel
+nsDOMDataChannelDeclarations
 .
 h
 "

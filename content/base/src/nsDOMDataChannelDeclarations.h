@@ -1,9 +1,9 @@
 #
 ifndef
-nsDOMDataChannel_h__
+nsDOMDataChannelDeclarations_h
 #
 define
-nsDOMDataChannel_h__
+nsDOMDataChannelDeclarations_h
 #
 include
 "

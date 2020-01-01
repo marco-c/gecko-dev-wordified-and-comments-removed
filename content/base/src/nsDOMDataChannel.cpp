@@ -54,7 +54,7 @@ args
 #
 include
 "
-nsDOMDataChannel
+nsDOMDataChannelDeclarations
 .
 h
 "
