@@ -917,6 +917,14 @@ flexbox_layout_testcases
 .
 js
 \
+file_flexbox_order
+.
+html
+\
+test_flexbox_order
+.
+html
+\
 (
 NULL
 )
