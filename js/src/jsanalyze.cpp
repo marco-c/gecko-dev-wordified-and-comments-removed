@@ -2334,6 +2334,9 @@ JSOP_LOOPHEAD
 case
 JSOP_LOOPENTRY
 :
+case
+JSOP_ACTUALSFILLED
+:
 break
 ;
 default
