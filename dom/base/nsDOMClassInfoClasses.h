@@ -127,10 +127,6 @@ DeviceRotationRate
 )
 DOMCI_CLASS
 (
-HTMLDocument
-)
-DOMCI_CLASS
-(
 HTMLFormElement
 )
 DOMCI_CLASS
