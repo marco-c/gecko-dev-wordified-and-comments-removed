@@ -77,7 +77,7 @@ namespace
 mozilla
 {
 class
-MediaDecoder
+AbstractMediaDecoder
 ;
 class
 nsVideoInfo
@@ -1096,7 +1096,7 @@ public
 :
 MediaDecoderReader
 (
-MediaDecoder
+AbstractMediaDecoder
 *
 aDecoder
 )
@@ -1437,7 +1437,7 @@ return
 mVideoQueue
 ;
 }
-MediaDecoder
+AbstractMediaDecoder
 *
 GetDecoder
 (
@@ -1504,7 +1504,7 @@ int64_t
 aTarget
 )
 ;
-MediaDecoder
+AbstractMediaDecoder
 *
 mDecoder
 ;

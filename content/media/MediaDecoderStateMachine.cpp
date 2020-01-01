@@ -312,7 +312,7 @@ nsRunnable
 {
 private
 :
-nsCOMPtr
+nsRefPtr
 <
 MediaDecoder
 >
@@ -6817,7 +6817,7 @@ void
 MediaDecoderStateMachine
 :
 :
-SetEndTime
+SetMediaEndTime
 (
 int64_t
 aEndTime

@@ -257,7 +257,7 @@ MediaStreamSource
 MediaResource
 *
 aResource
-MediaDecoder
+AbstractMediaDecoder
 *
 aDecoder
 )
@@ -467,7 +467,7 @@ OmxDecoder
 MediaResource
 *
 aResource
-MediaDecoder
+AbstractMediaDecoder
 *
 aDecoder
 )

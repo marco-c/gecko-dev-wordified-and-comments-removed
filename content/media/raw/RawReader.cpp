@@ -8,7 +8,7 @@ h
 #
 include
 "
-MediaDecoder
+AbstractMediaDecoder
 .
 h
 "
@@ -42,7 +42,7 @@ RawReader
 :
 RawReader
 (
-MediaDecoder
+AbstractMediaDecoder
 *
 aDecoder
 )
@@ -523,12 +523,7 @@ GetReentrantMonitor
 mDecoder
 -
 >
-GetStateMachine
-(
-)
--
->
-SetDuration
+SetMediaDuration
 (
 USECS_PER_S
 *
@@ -728,7 +723,7 @@ decoded
 =
 0
 ;
-MediaDecoder
+AbstractMediaDecoder
 :
 :
 AutoNotifyDecoded
@@ -1430,11 +1425,6 @@ GetReentrantMonitor
 if
 (
 mDecoder
--
->
-GetStateMachine
-(
-)
 -
 >
 IsShutdown

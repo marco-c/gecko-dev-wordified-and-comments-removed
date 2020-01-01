@@ -35,7 +35,7 @@ public
 :
 RawReader
 (
-MediaDecoder
+AbstractMediaDecoder
 *
 aDecoder
 )

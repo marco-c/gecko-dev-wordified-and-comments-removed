@@ -359,7 +359,7 @@ public
 :
 WebMReader
 (
-MediaDecoder
+AbstractMediaDecoder
 *
 aDecoder
 )

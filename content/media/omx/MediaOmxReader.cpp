@@ -49,6 +49,13 @@ MediaOmxDecoder
 .
 h
 "
+#
+include
+"
+AbstractMediaDecoder
+.
+h
+"
 using
 namespace
 android
@@ -61,7 +68,7 @@ MediaOmxReader
 :
 MediaOmxReader
 (
-MediaDecoder
+AbstractMediaDecoder
 *
 aDecoder
 )
@@ -223,12 +230,7 @@ GetReentrantMonitor
 mDecoder
 -
 >
-GetStateMachine
-(
-)
--
->
-SetDuration
+SetMediaDuration
 (
 durationUs
 )
@@ -511,7 +513,7 @@ decoded
 =
 0
 ;
-MediaDecoder
+AbstractMediaDecoder
 :
 :
 AutoNotifyDecoded

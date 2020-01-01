@@ -22,9 +22,6 @@ namespace
 mozilla
 {
 class
-MediaDecoder
-;
-class
 WaveReader
 :
 public
@@ -34,7 +31,7 @@ public
 :
 WaveReader
 (
-MediaDecoder
+AbstractMediaDecoder
 *
 aDecoder
 )

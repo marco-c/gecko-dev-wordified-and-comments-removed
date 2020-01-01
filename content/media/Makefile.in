@@ -91,6 +91,10 @@ LIBXUL_LIBRARY
 EXPORTS
 =
 \
+AbstractMediaDecoder
+.
+h
+\
 AudioSampleFormat
 .
 h

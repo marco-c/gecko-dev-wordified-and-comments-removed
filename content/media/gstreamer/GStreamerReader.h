@@ -64,7 +64,7 @@ namespace
 mozilla
 {
 class
-MediaDecoder
+AbstractMediaDecoder
 ;
 class
 GStreamerReader
@@ -76,7 +76,7 @@ public
 :
 GStreamerReader
 (
-MediaDecoder
+AbstractMediaDecoder
 *
 aDecoder
 )

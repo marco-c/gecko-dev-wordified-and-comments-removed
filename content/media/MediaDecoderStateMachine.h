@@ -170,7 +170,7 @@ aDuration
 )
 ;
 void
-SetEndTime
+SetMediaEndTime
 (
 int64_t
 aEndTime
