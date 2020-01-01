@@ -1838,9 +1838,6 @@ nsIFrame
 *
 PullFrameFrom
 (
-nsBlockReflowState
-&
-aState
 nsLineBox
 *
 aLine
