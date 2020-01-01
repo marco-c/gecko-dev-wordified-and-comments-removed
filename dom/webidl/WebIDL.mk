@@ -231,6 +231,10 @@ CSSValueList
 .
 webidl
 \
+DataContainerEvent
+.
+webidl
+\
 DelayNode
 .
 webidl
