@@ -142,6 +142,11 @@ enable_protobuf
 :
 0
 '
+include_pulse_audio
+'
+:
+0
+'
 include_tests
 '
 :
