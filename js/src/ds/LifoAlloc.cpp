@@ -5,11 +5,6 @@ LifoAlloc
 .
 h
 "
-#
-include
-<
-new
->
 using
 namespace
 js

@@ -1,11 +1,6 @@
 #
 include
 <
-new
->
-#
-include
-<
 stdlib
 .
 h

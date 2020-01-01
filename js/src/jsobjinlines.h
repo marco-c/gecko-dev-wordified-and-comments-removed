@@ -6,11 +6,6 @@ define
 jsobjinlines_h___
 #
 include
-<
-new
->
-#
-include
 "
 jsapi
 .

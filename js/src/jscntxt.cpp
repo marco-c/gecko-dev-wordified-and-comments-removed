@@ -8,11 +8,6 @@ h
 #
 include
 <
-new
->
-#
-include
-<
 stdarg
 .
 h
