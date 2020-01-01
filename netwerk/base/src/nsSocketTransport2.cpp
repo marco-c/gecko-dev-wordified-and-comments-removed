@@ -6414,6 +6414,14 @@ mFDconnected
 PR_FALSE
 ;
 }
+if
+(
+NS_FAILED
+(
+mCondition
+)
+)
+{
 mCallbacks
 =
 nsnull
@@ -6422,6 +6430,7 @@ mEventSink
 =
 nsnull
 ;
+}
 }
 }
 NS_IMPL_THREADSAFE_ISUPPORTS4
