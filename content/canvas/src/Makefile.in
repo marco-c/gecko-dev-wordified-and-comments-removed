@@ -429,6 +429,10 @@ LIBXUL_LIBRARY
 EXPORTS
 =
 \
+CustomQS_Canvas
+.
+h
+\
 CustomQS_Canvas2D
 .
 h
