@@ -2316,9 +2316,11 @@ ac
 ;
 if
 (
-JS_GetGlobalForObject
+js
+:
+:
+GetGlobalForObjectCrossCompartment
 (
-cx
 parent
 )
 !
