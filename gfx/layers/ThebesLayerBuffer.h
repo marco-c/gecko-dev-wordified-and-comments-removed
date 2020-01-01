@@ -367,15 +367,6 @@ mBuffer
 nullptr
 ;
 }
-else
-{
-MOZ_ASSERT
-(
-!
-mBuffer
-)
-;
-}
 }
 already_AddRefed
 <
