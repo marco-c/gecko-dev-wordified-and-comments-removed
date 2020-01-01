@@ -5746,14 +5746,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-MOZ_ASSERT
-(
-!
-NS_IsMainThread
-(
-)
-)
-;
 nsRefPtr
 <
 BluetoothReplyRunnable
@@ -5796,8 +5788,6 @@ NS_WARNING
 "
 Cannot
 dispatch
-firmware
-loading
 task
 !
 "
