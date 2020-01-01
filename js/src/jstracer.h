@@ -1292,6 +1292,9 @@ numStackSlotsBelowCurrentFrame
 ExitType
 exitType
 ;
+uintN
+lookupFlags
+;
 uintptr_t
 nativeCalleeWord
 ;

@@ -16273,6 +16273,17 @@ nativeCalleeWord
 =
 0
 ;
+exit
+-
+>
+lookupFlags
+=
+js_InferFlags
+(
+cx
+0
+)
+;
 memcpy
 (
 getFullTypeMap
