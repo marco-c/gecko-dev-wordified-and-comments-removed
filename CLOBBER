@@ -151,14 +151,8 @@ o
 /
 #
 Bug
-880917
+855130
 needs
 a
 clobber
-for
-the
-removal
-of
-testVersion
 .
-cpp
