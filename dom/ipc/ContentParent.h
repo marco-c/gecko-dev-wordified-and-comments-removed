@@ -1413,10 +1413,8 @@ nsConsoleService
 >
 mConsoleService
 ;
-already_AddRefed
-<
 nsConsoleService
->
+*
 GetConsoleService
 (
 )
