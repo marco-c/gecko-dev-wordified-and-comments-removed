@@ -111,7 +111,9 @@ number
 ;
 contentWindow
 .
-hideSearch
+Search
+.
+hide
 (
 null
 )

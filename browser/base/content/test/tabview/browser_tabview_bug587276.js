@@ -131,7 +131,9 @@ ok
 (
 contentWindow
 .
-isSearchEnabled
+Search
+.
+isEnabled
 (
 )
 "
@@ -179,7 +181,9 @@ ok
 !
 contentWindow
 .
-isSearchEnabled
+Search
+.
+isEnabled
 (
 )
 "
