@@ -671,7 +671,7 @@ const
 mozilla
 :
 :
-CSSIntPoint
+LayoutDeviceIntPoint
 &
 aPoint
 )
@@ -683,7 +683,7 @@ const
 mozilla
 :
 :
-CSSIntPoint
+LayoutDeviceIntPoint
 &
 aPoint
 )
@@ -695,7 +695,7 @@ const
 mozilla
 :
 :
-CSSIntPoint
+LayoutDeviceIntPoint
 &
 aPoint
 )
