@@ -3293,6 +3293,17 @@ html
 #
 bug
 368085
+random
+-
+if
+(
+MOZ_WIDGET_TOOLKIT
+=
+=
+"
+gtk2
+"
+)
 =
 =
 368020
@@ -3307,6 +3318,9 @@ html
 ref
 .
 html
+#
+bug
+388591
 =
 =
 368155
