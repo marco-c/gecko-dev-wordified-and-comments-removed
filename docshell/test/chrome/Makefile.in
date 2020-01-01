@@ -365,6 +365,10 @@ subframe
 .
 xul
 \
+test_bug453650
+.
+xul
+\
 test_bug456980
 .
 xul
