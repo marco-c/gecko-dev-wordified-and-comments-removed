@@ -717,6 +717,9 @@ linkedBrowser
 contentWindow
 ;
 }
+return
+null
+;
 }
 get
 name
