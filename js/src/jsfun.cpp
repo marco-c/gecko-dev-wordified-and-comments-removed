@@ -5246,9 +5246,8 @@ vp
 #
 if
 JS_HAS_XDR
-static
 JSBool
-fun_xdrObject
+js_XDRFunctionObject
 (
 JSXDRState
 *
@@ -6231,7 +6230,7 @@ out
 else
 #
 define
-fun_xdrObject
+js_XDRFunctionObject
 NULL
 #
 endif
@@ -6721,7 +6720,7 @@ NULL
 NULL
 NULL
 NULL
-fun_xdrObject
+js_XDRFunctionObject
 fun_hasInstance
 JS_CLASS_TRACE
 (

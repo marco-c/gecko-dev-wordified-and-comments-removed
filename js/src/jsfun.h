@@ -986,7 +986,7 @@ fp
 ;
 extern
 JSBool
-js_XDRFunction
+js_XDRFunctionObject
 (
 JSXDRState
 *
