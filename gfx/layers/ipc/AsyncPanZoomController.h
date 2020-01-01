@@ -264,15 +264,6 @@ aCompositorParent
 )
 ;
 void
-SetPageRect
-(
-const
-CSSRect
-&
-aCSSPageRect
-)
-;
-void
 SetDPI
 (
 int

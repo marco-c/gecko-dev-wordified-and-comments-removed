@@ -11907,10 +11907,6 @@ aOffset
 float
 aZoom
 const
-LayerIntRect
-&
-aPageRect
-const
 CSSRect
 &
 aCssPageRect
@@ -11936,7 +11932,6 @@ SetFirstPaintViewport
 (
 aOffset
 aZoom
-aPageRect
 aCssPageRect
 )
 ;
