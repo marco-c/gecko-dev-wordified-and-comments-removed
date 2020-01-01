@@ -1349,6 +1349,11 @@ thingSize
 )
 ;
 }
+template
+<
+AllowGC
+allowGC
+>
 static
 void
 *

@@ -795,8 +795,9 @@ JS_ASSERT
 pobj
 -
 >
-nativeContainsNoAllocation
+nativeContains
 (
+cx
 name
 )
 )

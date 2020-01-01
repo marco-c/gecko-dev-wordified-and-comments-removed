@@ -1554,6 +1554,7 @@ gc
 NewGCThing
 <
 IonCode
+ALLOW_GC
 >
 (
 cx

@@ -7602,8 +7602,9 @@ expando
 expando
 -
 >
-nativeLookupNoAllocation
+nativeLookup
 (
+cx
 name
 )
 =

@@ -10637,6 +10637,7 @@ gc
 NewGCThing
 <
 TypeObject
+ALLOW_GC
 >
 (
 cx
