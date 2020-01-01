@@ -405,6 +405,8 @@ get
 (
 path
 )
+.
+exports
 ;
 }
 modules
@@ -412,7 +414,7 @@ modules
 set
 (
 path
-exports
+module
 )
 ;
 let
@@ -639,6 +641,13 @@ freeze
 module
 .
 exports
+)
+;
+Object
+.
+freeze
+(
+module
 )
 ;
 return
