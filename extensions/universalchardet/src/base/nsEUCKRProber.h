@@ -35,7 +35,13 @@ public
 :
 nsEUCKRProber
 (
-void
+PRBool
+aIsPreferredLanguage
+)
+:
+mIsPreferredLanguage
+(
+aIsPreferredLanguage
 )
 {
 mCodingSM
@@ -145,6 +151,9 @@ mLastChar
 [
 2
 ]
+;
+PRBool
+mIsPreferredLanguage
 ;
 }
 ;

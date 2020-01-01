@@ -245,6 +245,7 @@ mContextAnalyser
 .
 GetConfidence
 (
+mIsPreferredLanguage
 )
 ;
 float
@@ -254,6 +255,7 @@ mDistributionAnalyser
 .
 GetConfidence
 (
+mIsPreferredLanguage
 )
 ;
 return

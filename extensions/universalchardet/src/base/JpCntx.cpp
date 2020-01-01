@@ -7281,10 +7281,15 @@ JapaneseContextAnalysis
 :
 GetConfidence
 (
+PRBool
+aIsPreferredLanguage
 )
 {
 if
 (
+aIsPreferredLanguage
+|
+|
 mTotalRel
 >
 MINIMUM_DATA_THRESHOLD
