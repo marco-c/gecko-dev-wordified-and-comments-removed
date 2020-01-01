@@ -1989,10 +1989,8 @@ aResult
 nsresult
 rv
 ;
+const
 PRUint32
-size
-i
-;
 size
 =
 mBundles
@@ -2003,6 +2001,7 @@ Count
 ;
 for
 (
+PRUint32
 i
 =
 0
@@ -2011,9 +2010,9 @@ i
 <
 size
 ;
++
++
 i
-+
-+
 )
 {
 nsIStringBundle
@@ -2074,14 +2073,10 @@ aResult
 )
 {
 nsresult
-res
-=
-NS_OK
+rv
 ;
+const
 PRUint32
-size
-i
-;
 size
 =
 mBundles
@@ -2092,6 +2087,7 @@ Count
 ;
 for
 (
+PRUint32
 i
 =
 0
@@ -2100,9 +2096,9 @@ i
 <
 size
 ;
++
++
 i
-+
-+
 )
 {
 nsIStringBundle
@@ -2119,7 +2115,7 @@ if
 bundle
 )
 {
-res
+rv
 =
 bundle
 -
@@ -2134,7 +2130,7 @@ if
 (
 NS_SUCCEEDED
 (
-res
+rv
 )
 )
 return
@@ -3164,8 +3160,6 @@ NS_ERROR_NULL_POINTER
 ;
 nsresult
 res
-=
-NS_OK
 ;
 nsExtensibleStringBundle
 *
