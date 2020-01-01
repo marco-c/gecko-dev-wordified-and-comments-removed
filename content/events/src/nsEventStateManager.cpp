@@ -5384,6 +5384,11 @@ nsGUIEvent
 aEvent
 )
 ;
+FlushPendingEvents
+(
+aPresContext
+)
+;
 break
 ;
 case
