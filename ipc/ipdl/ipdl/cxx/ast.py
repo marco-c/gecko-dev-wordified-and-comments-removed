@@ -3888,6 +3888,14 @@ assert
 not
 isinstance
 (
+init
+list
+)
+        
+assert
+not
+isinstance
+(
 decl
 tuple
 )
