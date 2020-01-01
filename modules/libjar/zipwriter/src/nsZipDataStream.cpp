@@ -173,7 +173,7 @@ AsyncConvertData
 uncompressed
 "
 "
-deflate
+rawdeflate
 "
 mOutput
 nsnull
