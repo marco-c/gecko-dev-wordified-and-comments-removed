@@ -106,6 +106,17 @@ mozilla
 namespace
 plugins
 {
+PRLogModuleInfo
+*
+gPluginLog
+=
+PR_NewLogModule
+(
+"
+IPCPlugins
+"
+)
+;
 void
 DeferNPObjectLastRelease
 (
