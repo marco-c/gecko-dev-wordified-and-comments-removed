@@ -712,7 +712,7 @@ mParser
 0
 ;
 }
-nsresult
+NS_IMETHODIMP
 CViewSourceHTML
 :
 :
@@ -1094,12 +1094,6 @@ aParser
 nsITokenizer
 *
 aTokenizer
-nsITokenObserver
-*
-anObserver
-nsIContentSink
-*
-aSink
 )
 {
 nsresult
@@ -2081,9 +2075,6 @@ anErrorCode
 nsIParser
 *
 aParser
-nsIContentSink
-*
-aSink
 )
 {
 nsresult
@@ -2311,7 +2302,10 @@ aEnabled
 )
 {
 }
+NS_IMETHODIMP_
+(
 PRBool
+)
 CViewSourceHTML
 :
 :
@@ -2333,7 +2327,10 @@ return
 result
 ;
 }
+NS_IMETHODIMP_
+(
 PRBool
+)
 CViewSourceHTML
 :
 :
@@ -3200,7 +3197,7 @@ return
 result
 ;
 }
-NS_IMETHODIMP
+nsresult
 CViewSourceHTML
 :
 :

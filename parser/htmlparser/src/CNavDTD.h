@@ -260,6 +260,17 @@ aCount
 const
 ;
 nsresult
+HandleToken
+(
+CToken
+*
+aToken
+nsIParser
+*
+aParser
+)
+;
+nsresult
 HandleStartToken
 (
 CToken
@@ -338,9 +349,6 @@ aType
 nsIParser
 *
 aParser
-nsIContentSink
-*
-aSink
 )
 ;
 nsresult
