@@ -649,6 +649,14 @@ aFlags
 END_DEFAULT
 )
 ;
+void
+FlashWidgetUpdateArea
+(
+gfxContext
+*
+aContext
+)
+;
 nsIWidget
 *
 mWidget
