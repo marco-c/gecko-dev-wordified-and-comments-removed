@@ -214,7 +214,7 @@ tier_base_dirs
 =
 memory
 /
-jemalloc
+mozjemalloc
 tier_base_dirs
 +
 =

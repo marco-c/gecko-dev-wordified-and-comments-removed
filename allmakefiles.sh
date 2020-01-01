@@ -302,7 +302,7 @@ add_makefiles
 "
 memory
 /
-jemalloc
+mozjemalloc
 /
 Makefile
 memory
