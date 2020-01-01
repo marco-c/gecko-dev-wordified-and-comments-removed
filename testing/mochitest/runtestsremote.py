@@ -3312,7 +3312,7 @@ TEST
 -
 UNEXPECTED
 -
-ERROR
+FAIL
 |
 %
 s
@@ -3421,7 +3421,7 @@ TEST
 -
 UNEXPECTED
 -
-ERROR
+FAIL
 |
 %
 s
