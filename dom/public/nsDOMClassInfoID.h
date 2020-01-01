@@ -351,7 +351,6 @@ MOZ_MATHML
 eDOMClassInfo_MathMLElement_id
 #
 endif
-eDOMClassInfo_Worker_id
 eDOMClassInfoIDCount
 }
 ;
