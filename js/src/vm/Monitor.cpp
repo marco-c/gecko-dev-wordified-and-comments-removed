@@ -1,9 +1,7 @@
 #
 include
 "
-vm
-/
-monitor
+Monitor
 .
 h
 "
