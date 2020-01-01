@@ -1139,7 +1139,6 @@ sprop
 -
 >
 shortid
-NULL
 )
 ;
 if

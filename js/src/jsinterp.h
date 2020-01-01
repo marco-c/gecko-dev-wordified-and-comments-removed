@@ -850,6 +850,9 @@ uint32
 disfills
 ;
 uint32
+oddfills
+;
+uint32
 modfills
 ;
 uint32
@@ -1211,6 +1214,8 @@ cx
 JSObject
 *
 obj
+jsuword
+kshape
 uintN
 scopeIndex
 uintN
@@ -1221,8 +1226,6 @@ pobj
 JSScopeProperty
 *
 sprop
-JSBool
-cacheByPrevShape
 JSPropCacheEntry
 *
 *
