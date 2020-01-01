@@ -1733,6 +1733,14 @@ ins
 ;
 if
 (
+ins
+-
+>
+fallible
+(
+)
+&
+&
 !
 assignSnapshot
 (
