@@ -13,7 +13,7 @@ i
 ;
 i
 <
-4
+10
 ;
 i
 +
@@ -48,7 +48,7 @@ getDebuggees
 length
 <
 =
-1
+4
 true
 )
 ;
