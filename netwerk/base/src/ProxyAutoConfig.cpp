@@ -3089,7 +3089,7 @@ true
 ;
 }
 static
-JSBool
+bool
 PACDnsResolve
 (
 JSContext
@@ -3247,7 +3247,7 @@ true
 ;
 }
 static
-JSBool
+bool
 PACMyIpAddress
 (
 JSContext
@@ -3314,7 +3314,7 @@ object
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 return
@@ -3328,7 +3328,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 PACProxyAlert
 (
 JSContext

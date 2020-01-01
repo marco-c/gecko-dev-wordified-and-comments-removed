@@ -1843,7 +1843,7 @@ ASM_EXPORT_INDEX_SLOT
 1
 ;
 static
-JSBool
+bool
 CallAsmJS
 (
 JSContext
@@ -3352,7 +3352,7 @@ true
 #
 endif
 static
-JSBool
+bool
 LinkAsmJS
 (
 JSContext
@@ -3945,7 +3945,7 @@ maybeNative
 native
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -4008,7 +4008,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js
 :
 :

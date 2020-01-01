@@ -408,7 +408,7 @@ return
 true
 ;
 }
-JSBool
+bool
 num_parseInt
 (
 JSContext
@@ -451,7 +451,7 @@ dp
 )
 ;
 extern
-JSBool
+bool
 js_num_toString
 (
 JSContext
@@ -468,7 +468,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 js_num_valueOf
 (
 JSContext

@@ -180,7 +180,7 @@ mozilla
 PodZero
 ;
 static
-JSBool
+bool
 Exception
 (
 JSContext
@@ -2730,7 +2730,7 @@ filename
 ;
 }
 static
-JSBool
+bool
 Exception
 (
 JSContext
@@ -3160,7 +3160,7 @@ true
 ;
 }
 static
-JSBool
+bool
 exn_toString
 (
 JSContext
@@ -3563,7 +3563,7 @@ true
 if
 JS_HAS_TOSOURCE
 static
-JSBool
+bool
 exn_toSource
 (
 JSContext

@@ -150,7 +150,7 @@ mem
 )
 ;
 static
-JSBool
+bool
 TypeThrowError
 (
 JSContext
@@ -173,7 +173,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 DataThrowError
 (
 JSContext
@@ -1906,7 +1906,7 @@ template
 typename
 T
 >
-JSBool
+bool
 NumericType
 <
 T
@@ -2052,7 +2052,7 @@ unsigned
 int
 N
 >
-JSBool
+bool
 NumericTypeToString
 (
 JSContext
@@ -3414,7 +3414,7 @@ return
 obj
 ;
 }
-JSBool
+bool
 ArrayType
 :
 :
@@ -3608,7 +3608,7 @@ return
 true
 ;
 }
-JSBool
+bool
 DataInstanceUpdate
 (
 JSContext
@@ -3934,7 +3934,7 @@ return
 true
 ;
 }
-JSBool
+bool
 ArrayType
 :
 :
@@ -4117,7 +4117,7 @@ return
 true
 ;
 }
-JSBool
+bool
 ArrayType
 :
 :
@@ -4655,7 +4655,7 @@ return
 obj
 ;
 }
-JSBool
+bool
 BinaryArray
 :
 :
@@ -4893,7 +4893,7 @@ blockRefOwner
 ;
 }
 }
-JSBool
+bool
 BinaryArray
 :
 :
@@ -4971,7 +4971,7 @@ return
 true
 ;
 }
-JSBool
+bool
 BinaryArray
 :
 :
@@ -5411,7 +5411,7 @@ return
 true
 ;
 }
-JSBool
+bool
 BinaryArray
 :
 :
@@ -8211,7 +8211,7 @@ return
 obj
 ;
 }
-JSBool
+bool
 StructType
 :
 :
@@ -8505,7 +8505,7 @@ type
 ;
 }
 }
-JSBool
+bool
 StructType
 :
 :
@@ -9069,7 +9069,7 @@ return
 obj
 ;
 }
-JSBool
+bool
 BinaryStruct
 :
 :

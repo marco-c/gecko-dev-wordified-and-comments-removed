@@ -6007,7 +6007,7 @@ true
 }
 }
 static
-JSBool
+bool
 XrayToString
 (
 JSContext

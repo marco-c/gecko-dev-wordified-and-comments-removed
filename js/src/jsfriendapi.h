@@ -961,7 +961,7 @@ ifdef
 OLD_GETTER_SETTER_METHODS
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 obj_defineGetter
 (
@@ -980,7 +980,7 @@ vp
 ;
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 obj_defineSetter
 (

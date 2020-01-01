@@ -397,7 +397,7 @@ toPrivate
 ;
 }
 static
-JSBool
+bool
 Print
 (
 JSContext
@@ -468,7 +468,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 JSAutoByteString
 bytes
@@ -483,7 +483,7 @@ if
 bytes
 )
 return
-JS_FALSE
+false
 ;
 fprintf
 (
@@ -539,7 +539,7 @@ JSVAL_VOID
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -600,7 +600,7 @@ JS_TRUE
 ;
 }
 static
-JSBool
+bool
 Dump
 (
 JSContext
@@ -633,7 +633,7 @@ if
 argc
 )
 return
-JS_TRUE
+true
 ;
 str
 =
@@ -656,7 +656,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 JSAutoByteString
 bytes
@@ -671,7 +671,7 @@ if
 bytes
 )
 return
-JS_FALSE
+false
 ;
 fputs
 (
@@ -689,11 +689,11 @@ stdout
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
-JSBool
+bool
 Load
 (
 JSContext
@@ -748,7 +748,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 JS
 :
@@ -798,7 +798,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 argv
 [
@@ -823,7 +823,7 @@ if
 filename
 )
 return
-JS_FALSE
+false
 ;
 FILE
 *
@@ -869,7 +869,7 @@ ptr
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JS
@@ -953,7 +953,7 @@ if
 script
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -972,7 +972,7 @@ address
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -984,11 +984,11 @@ JSVAL_VOID
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
-JSBool
+bool
 Version
 (
 JSContext
@@ -1067,11 +1067,11 @@ argv
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
-JSBool
+bool
 BuildDate
 (
 JSContext
@@ -1106,11 +1106,11 @@ __TIME__
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
-JSBool
+bool
 Quit
 (
 JSContext
@@ -1149,11 +1149,11 @@ SetIsQuitting
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 static
-JSBool
+bool
 DumpXPC
 (
 JSContext
@@ -1200,7 +1200,7 @@ depth
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 nsCOMPtr
@@ -1242,11 +1242,11 @@ JSVAL_VOID
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
-JSBool
+bool
 GC
 (
 JSContext
@@ -1295,14 +1295,14 @@ JSVAL_VOID
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 #
 ifdef
 JS_GC_ZEAL
 static
-JSBool
+bool
 GCZeal
 (
 JSContext
@@ -1349,7 +1349,7 @@ zeal
 )
 )
 return
-JS_FALSE
+false
 ;
 JS_SetGCZeal
 (
@@ -1362,7 +1362,7 @@ JS_DEFAULT_ZEAL_FREQ
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 #
@@ -1371,7 +1371,7 @@ endif
 ifdef
 DEBUG
 static
-JSBool
+bool
 DumpHeap
 (
 JSContext
@@ -1495,7 +1495,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 *
 vp
@@ -1517,7 +1517,7 @@ str
 )
 )
 return
-JS_FALSE
+false
 ;
 }
 vp
@@ -1667,7 +1667,7 @@ depth
 )
 )
 return
-JS_FALSE
+false
 ;
 maxDepth
 =
@@ -1785,7 +1785,7 @@ errno
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -1864,7 +1864,7 @@ argv
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 #

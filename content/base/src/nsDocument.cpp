@@ -22514,7 +22514,7 @@ forget
 ;
 }
 static
-JSBool
+bool
 CustomElementConstructor
 (
 JSContext

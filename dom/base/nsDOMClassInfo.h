@@ -1768,7 +1768,7 @@ obj
 )
 ;
 static
-JSBool
+bool
 CallToGetPropMapper
 (
 JSContext

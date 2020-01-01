@@ -101,7 +101,7 @@ jsfuncs
 ]
 ;
 static
-JSBool
+bool
 byteLengthGetter
 (
 JSContext
@@ -115,7 +115,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 fun_slice
 (
 JSContext
@@ -129,7 +129,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 class_constructor
 (
 JSContext
@@ -188,7 +188,7 @@ args
 )
 ;
 static
-JSBool
+bool
 createDataViewForThis
 (
 JSContext
@@ -223,7 +223,7 @@ typename
 T
 >
 static
-JSBool
+bool
 createTypedArrayFromBuffer
 (
 JSContext
@@ -2149,7 +2149,7 @@ view
 )
 >
 static
-JSBool
+bool
 getter
 (
 JSContext
@@ -2400,7 +2400,7 @@ getPrivate
 ;
 }
 static
-JSBool
+bool
 class_constructor
 (
 JSContext
@@ -2481,7 +2481,7 @@ args
 )
 ;
 static
-JSBool
+bool
 fun_getInt8
 (
 JSContext
@@ -2506,7 +2506,7 @@ args
 )
 ;
 static
-JSBool
+bool
 fun_getUint8
 (
 JSContext
@@ -2531,7 +2531,7 @@ args
 )
 ;
 static
-JSBool
+bool
 fun_getInt16
 (
 JSContext
@@ -2556,7 +2556,7 @@ args
 )
 ;
 static
-JSBool
+bool
 fun_getUint16
 (
 JSContext
@@ -2581,7 +2581,7 @@ args
 )
 ;
 static
-JSBool
+bool
 fun_getInt32
 (
 JSContext
@@ -2606,7 +2606,7 @@ args
 )
 ;
 static
-JSBool
+bool
 fun_getUint32
 (
 JSContext
@@ -2631,7 +2631,7 @@ args
 )
 ;
 static
-JSBool
+bool
 fun_getFloat32
 (
 JSContext
@@ -2656,7 +2656,7 @@ args
 )
 ;
 static
-JSBool
+bool
 fun_getFloat64
 (
 JSContext
@@ -2681,7 +2681,7 @@ args
 )
 ;
 static
-JSBool
+bool
 fun_setInt8
 (
 JSContext
@@ -2706,7 +2706,7 @@ args
 )
 ;
 static
-JSBool
+bool
 fun_setUint8
 (
 JSContext
@@ -2731,7 +2731,7 @@ args
 )
 ;
 static
-JSBool
+bool
 fun_setInt16
 (
 JSContext
@@ -2756,7 +2756,7 @@ args
 )
 ;
 static
-JSBool
+bool
 fun_setUint16
 (
 JSContext
@@ -2781,7 +2781,7 @@ args
 )
 ;
 static
-JSBool
+bool
 fun_setInt32
 (
 JSContext
@@ -2806,7 +2806,7 @@ args
 )
 ;
 static
-JSBool
+bool
 fun_setUint32
 (
 JSContext
@@ -2831,7 +2831,7 @@ args
 )
 ;
 static
-JSBool
+bool
 fun_setFloat32
 (
 JSContext
@@ -2856,7 +2856,7 @@ args
 )
 ;
 static
-JSBool
+bool
 fun_setFloat64
 (
 JSContext

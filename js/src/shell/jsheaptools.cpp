@@ -2146,7 +2146,7 @@ return
 result
 ;
 }
-JSBool
+bool
 FindReferences
 (
 JSContext

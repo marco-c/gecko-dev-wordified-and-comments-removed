@@ -2909,7 +2909,7 @@ JSClass
 global_class
 ;
 static
-JSBool
+bool
 Version
 (
 JSContext
@@ -3520,7 +3520,7 @@ buffer
 ;
 }
 static
-JSBool
+bool
 Options
 (
 JSContext
@@ -4031,7 +4031,7 @@ true
 ;
 }
 static
-JSBool
+bool
 Load
 (
 JSContext
@@ -4055,7 +4055,7 @@ false
 ;
 }
 static
-JSBool
+bool
 LoadScriptRelativeToScript
 (
 JSContext
@@ -4368,7 +4368,7 @@ cx_
 }
 ;
 static
-JSBool
+bool
 Evaluate
 (
 JSContext
@@ -6067,7 +6067,7 @@ obj
 ;
 }
 static
-JSBool
+bool
 Run
 (
 JSContext
@@ -6338,7 +6338,7 @@ true
 ;
 }
 static
-JSBool
+bool
 ReadLine
 (
 JSContext
@@ -6672,7 +6672,7 @@ true
 ;
 }
 static
-JSBool
+bool
 PutStr
 (
 JSContext
@@ -6778,7 +6778,7 @@ true
 ;
 }
 static
-JSBool
+bool
 Now
 (
 JSContext
@@ -6973,7 +6973,7 @@ true
 ;
 }
 static
-JSBool
+bool
 Print
 (
 JSContext
@@ -7005,7 +7005,7 @@ gOutFile
 ;
 }
 static
-JSBool
+bool
 PrintErr
 (
 JSContext
@@ -7037,7 +7037,7 @@ gErrFile
 ;
 }
 static
-JSBool
+bool
 Help
 (
 JSContext
@@ -7051,7 +7051,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 Quit
 (
 JSContext
@@ -7180,7 +7180,7 @@ string
 ;
 }
 static
-JSBool
+bool
 AssertEq
 (
 JSContext
@@ -7576,7 +7576,7 @@ script
 ;
 }
 static
-JSBool
+bool
 SetDebug
 (
 JSContext
@@ -8000,7 +8000,7 @@ JSTRAP_CONTINUE
 ;
 }
 static
-JSBool
+bool
 Trap
 (
 JSContext
@@ -8174,7 +8174,7 @@ str
 ;
 }
 static
-JSBool
+bool
 Untrap
 (
 JSContext
@@ -8298,7 +8298,7 @@ closure
 ;
 }
 static
-JSBool
+bool
 SetDebuggerHandler
 (
 JSContext
@@ -8395,7 +8395,7 @@ true
 ;
 }
 static
-JSBool
+bool
 SetThrowHook
 (
 JSContext
@@ -8494,7 +8494,7 @@ true
 ;
 }
 static
-JSBool
+bool
 LineToPC
 (
 JSContext
@@ -8679,7 +8679,7 @@ true
 ;
 }
 static
-JSBool
+bool
 PCToLine
 (
 JSContext
@@ -9595,7 +9595,7 @@ n
 }
 }
 static
-JSBool
+bool
 Notes
 (
 JSContext
@@ -10617,7 +10617,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DisassembleToString
 (
 JSContext
@@ -10714,7 +10714,7 @@ true
 ;
 }
 static
-JSBool
+bool
 Disassemble
 (
 JSContext
@@ -10804,7 +10804,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DisassFile
 (
 JSContext
@@ -11089,7 +11089,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DisassWithSrc
 (
 JSContext
@@ -11624,7 +11624,7 @@ undef
 LINE_BUF_LEN
 }
 static
-JSBool
+bool
 DumpHeap
 (
 JSContext
@@ -12165,7 +12165,7 @@ false
 ;
 }
 static
-JSBool
+bool
 DumpObject
 (
 JSContext
@@ -12244,7 +12244,7 @@ true
 #
 endif
 static
-JSBool
+bool
 BuildDate
 (
 JSContext
@@ -12299,7 +12299,7 @@ true
 ;
 }
 static
-JSBool
+bool
 Intern
 (
 JSContext
@@ -12407,7 +12407,7 @@ true
 ;
 }
 static
-JSBool
+bool
 Clone
 (
 JSContext
@@ -12750,7 +12750,7 @@ true
 ;
 }
 static
-JSBool
+bool
 GetPDA
 (
 JSContext
@@ -13087,7 +13087,7 @@ ok
 ;
 }
 static
-JSBool
+bool
 GetSLX
 (
 JSContext
@@ -13152,7 +13152,7 @@ true
 ;
 }
 static
-JSBool
+bool
 ToInt32
 (
 JSContext
@@ -13209,7 +13209,7 @@ true
 ;
 }
 static
-JSBool
+bool
 ThrowError
 (
 JSContext
@@ -13564,7 +13564,7 @@ obj
 ;
 }
 static
-JSBool
+bool
 EvalInContext
 (
 JSContext
@@ -13951,7 +13951,7 @@ true
 ;
 }
 static
-JSBool
+bool
 EvalInFrame
 (
 JSContext
@@ -14275,7 +14275,7 @@ ok
 ;
 }
 static
-JSBool
+bool
 ShapeOf
 (
 JSContext
@@ -14989,7 +14989,7 @@ JS_ConvertStub
 }
 ;
 static
-JSBool
+bool
 Resolver
 (
 JSContext
@@ -15130,7 +15130,7 @@ t2
 ;
 }
 static
-JSBool
+bool
 Sleep_fn
 (
 JSContext
@@ -16090,7 +16090,7 @@ true
 ;
 }
 static
-JSBool
+bool
 Timeout
 (
 JSContext
@@ -16258,7 +16258,7 @@ t
 ;
 }
 static
-JSBool
+bool
 Elapsed
 (
 JSContext
@@ -16340,7 +16340,7 @@ false
 ;
 }
 static
-JSBool
+bool
 Parent
 (
 JSContext
@@ -16483,7 +16483,7 @@ true
 ;
 }
 static
-JSBool
+bool
 Compile
 (
 JSContext
@@ -16663,7 +16663,7 @@ ok
 ;
 }
 static
-JSBool
+bool
 Parse
 (
 JSContext
@@ -16892,7 +16892,7 @@ true
 ;
 }
 static
-JSBool
+bool
 SyntaxParse
 (
 JSContext
@@ -17155,7 +17155,7 @@ true
 ifdef
 JS_THREADSAFE
 static
-JSBool
+bool
 OffThreadCompileScript
 (
 JSContext
@@ -17777,7 +17777,7 @@ true
 ;
 }
 static
-JSBool
+bool
 Snarf
 (
 JSContext
@@ -17801,7 +17801,7 @@ false
 ;
 }
 static
-JSBool
+bool
 ReadRelativeToScript
 (
 JSContext
@@ -17825,7 +17825,7 @@ true
 ;
 }
 static
-JSBool
+bool
 System
 (
 JSContext
@@ -18069,7 +18069,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DecompileBody
 (
 JSContext
@@ -18093,7 +18093,7 @@ JS_DecompileFunctionBody
 ;
 }
 static
-JSBool
+bool
 DecompileFunction
 (
 JSContext
@@ -18117,7 +18117,7 @@ JS_DecompileFunction
 ;
 }
 static
-JSBool
+bool
 DecompileThisScript
 (
 JSContext
@@ -18221,7 +18221,7 @@ true
 ;
 }
 static
-JSBool
+bool
 ThisFilename
 (
 JSContext
@@ -18335,7 +18335,7 @@ true
 ;
 }
 static
-JSBool
+bool
 Wrap
 (
 JSContext
@@ -18469,7 +18469,7 @@ true
 ;
 }
 static
-JSBool
+bool
 WrapWithProto
 (
 JSContext
@@ -18619,7 +18619,7 @@ true
 ;
 }
 static
-JSBool
+bool
 Serialize
 (
 JSContext
@@ -18774,7 +18774,7 @@ true
 ;
 }
 static
-JSBool
+bool
 Deserialize
 (
 JSContext
@@ -19002,7 +19002,7 @@ options
 )
 ;
 static
-JSBool
+bool
 NewGlobal
 (
 JSContext
@@ -19207,7 +19207,7 @@ true
 ;
 }
 static
-JSBool
+bool
 EnableStackWalkingAssertion
 (
 JSContext
@@ -19293,7 +19293,7 @@ true
 ;
 }
 static
-JSBool
+bool
 GetMaxArgs
 (
 JSContext
@@ -19321,7 +19321,7 @@ true
 ;
 }
 static
-JSBool
+bool
 ObjectEmulatingUndefined
 (
 JSContext
@@ -19390,7 +19390,7 @@ true
 ;
 }
 static
-JSBool
+bool
 GetSelfHostedValue
 (
 JSContext
@@ -22462,7 +22462,7 @@ help
 ;
 }
 static
-JSBool
+bool
 Help
 (
 JSContext
@@ -22757,7 +22757,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 its_get_customNative
 (
 JSContext
@@ -22771,7 +22771,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 its_set_customNative
 (
 JSContext
@@ -23730,7 +23730,7 @@ true
 ;
 }
 static
-JSBool
+bool
 its_get_customNative
 (
 JSContext
@@ -23802,7 +23802,7 @@ true
 ;
 }
 static
-JSBool
+bool
 its_set_customNative
 (
 JSContext
@@ -25285,7 +25285,7 @@ DOM_OBJECT_SLOT
 0
 ;
 static
-JSBool
+bool
 dom_genericGetter
 (
 JSContext
@@ -25302,7 +25302,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 dom_genericSetter
 (
 JSContext
@@ -25319,7 +25319,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 dom_genericMethod
 (
 JSContext
@@ -25695,7 +25695,7 @@ dom_class
 #
 endif
 static
-JSBool
+bool
 dom_genericGetter
 (
 JSContext
@@ -25837,7 +25837,7 @@ args
 ;
 }
 static
-JSBool
+bool
 dom_genericSetter
 (
 JSContext
@@ -26008,7 +26008,7 @@ true
 ;
 }
 static
-JSBool
+bool
 dom_genericMethod
 (
 JSContext
@@ -26173,7 +26173,7 @@ void
 ;
 }
 static
-JSBool
+bool
 dom_constructor
 (
 JSContext

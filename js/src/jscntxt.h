@@ -3391,7 +3391,7 @@ cx_
 }
 }
 ;
-JSBool
+bool
 intrinsic_ToObject
 (
 JSContext
@@ -3404,7 +3404,7 @@ Value
 vp
 )
 ;
-JSBool
+bool
 intrinsic_IsCallable
 (
 JSContext
@@ -3417,7 +3417,7 @@ Value
 vp
 )
 ;
-JSBool
+bool
 intrinsic_ThrowError
 (
 JSContext
@@ -3430,7 +3430,7 @@ Value
 vp
 )
 ;
-JSBool
+bool
 intrinsic_NewDenseArray
 (
 JSContext
@@ -3443,7 +3443,7 @@ Value
 vp
 )
 ;
-JSBool
+bool
 intrinsic_UnsafePutElements
 (
 JSContext
@@ -3456,7 +3456,7 @@ Value
 vp
 )
 ;
-JSBool
+bool
 intrinsic_UnsafeSetReservedSlot
 (
 JSContext
@@ -3469,7 +3469,7 @@ Value
 vp
 )
 ;
-JSBool
+bool
 intrinsic_UnsafeGetReservedSlot
 (
 JSContext
@@ -3482,7 +3482,7 @@ Value
 vp
 )
 ;
-JSBool
+bool
 intrinsic_NewObjectWithClassPrototype
 (
 JSContext
@@ -3495,7 +3495,7 @@ Value
 vp
 )
 ;
-JSBool
+bool
 intrinsic_HaveSameClass
 (
 JSContext
@@ -3508,7 +3508,7 @@ Value
 vp
 )
 ;
-JSBool
+bool
 intrinsic_ShouldForceSequential
 (
 JSContext
@@ -3521,7 +3521,7 @@ Value
 vp
 )
 ;
-JSBool
+bool
 intrinsic_NewParallelArray
 (
 JSContext

@@ -181,7 +181,7 @@ JSObject
 obj
 )
 ;
-JSBool
+bool
 js_Date
 (
 JSContext

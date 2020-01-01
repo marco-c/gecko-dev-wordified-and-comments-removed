@@ -126,7 +126,7 @@ true
 ;
 }
 static
-JSBool
+bool
 CustomMethod
 (
 JSContext

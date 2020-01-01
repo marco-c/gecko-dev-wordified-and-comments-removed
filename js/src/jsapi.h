@@ -14299,7 +14299,7 @@ idp
 extern
 JS_PUBLIC_API
 (
-JSBool
+bool
 )
 JS_ArrayIterator
 (

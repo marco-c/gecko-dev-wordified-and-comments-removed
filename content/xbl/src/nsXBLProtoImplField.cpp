@@ -1058,7 +1058,7 @@ true
 ;
 }
 static
-JSBool
+bool
 FieldGetter
 (
 JSContext
@@ -1267,7 +1267,7 @@ true
 ;
 }
 static
-JSBool
+bool
 FieldSetter
 (
 JSContext

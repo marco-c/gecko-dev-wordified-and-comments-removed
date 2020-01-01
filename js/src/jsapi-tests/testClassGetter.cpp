@@ -48,7 +48,7 @@ JS_TRUE
 ;
 }
 static
-JSBool
+bool
 PTest
 (
 JSContext
@@ -80,7 +80,7 @@ JS_ConvertStub
 }
 ;
 static
-JSBool
+bool
 PTest
 (
 JSContext
@@ -111,7 +111,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 JS_SET_RVAL
 (
@@ -124,11 +124,11 @@ obj
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
-JSBool
+bool
 test_fn
 (
 JSContext
@@ -146,7 +146,7 @@ called_test_fn
 +
 ;
 return
-JS_TRUE
+true
 ;
 }
 static

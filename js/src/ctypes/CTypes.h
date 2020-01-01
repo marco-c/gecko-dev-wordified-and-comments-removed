@@ -1999,7 +1999,7 @@ JSObject
 obj
 )
 ;
-JSBool
+bool
 Cast
 (
 JSContext
@@ -2012,7 +2012,7 @@ jsval
 vp
 )
 ;
-JSBool
+bool
 GetRuntime
 (
 JSContext

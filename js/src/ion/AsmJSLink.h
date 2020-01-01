@@ -41,7 +41,7 @@ native
 )
 ;
 extern
-JSBool
+bool
 IsAsmJSModule
 (
 JSContext
@@ -58,7 +58,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 IsAsmJSFunction
 (
 JSContext
@@ -89,7 +89,7 @@ false
 ;
 }
 inline
-JSBool
+bool
 IsAsmJSFunction
 (
 JSContext
@@ -130,7 +130,7 @@ true
 ;
 }
 inline
-JSBool
+bool
 IsAsmJSModule
 (
 JSContext

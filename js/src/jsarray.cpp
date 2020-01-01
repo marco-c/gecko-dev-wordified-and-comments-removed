@@ -3904,7 +3904,8 @@ return
 true
 ;
 }
-JSBool
+static
+bool
 array_toSource
 (
 JSContext
@@ -4596,7 +4597,7 @@ true
 ;
 }
 static
-JSBool
+bool
 array_toString
 (
 JSContext
@@ -4796,7 +4797,7 @@ true
 ;
 }
 static
-JSBool
+bool
 array_toLocaleString
 (
 JSContext
@@ -4835,7 +4836,7 @@ true
 ;
 }
 static
-JSBool
+bool
 array_join
 (
 JSContext
@@ -5472,7 +5473,7 @@ true
 ;
 }
 static
-JSBool
+bool
 array_reverse
 (
 JSContext
@@ -7930,7 +7931,7 @@ vec
 ;
 }
 }
-JSBool
+bool
 js
 :
 :
@@ -8867,7 +8868,7 @@ vp
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -9177,7 +9178,7 @@ newlength
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -9406,7 +9407,7 @@ initlen
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -9788,7 +9789,7 @@ newlen
 ;
 }
 static
-JSBool
+bool
 array_unshift
 (
 JSContext
@@ -10403,7 +10404,7 @@ getDenseInitializedLength
 ;
 }
 static
-JSBool
+bool
 array_splice
 (
 JSContext
@@ -11516,7 +11517,7 @@ true
 }
 #
 endif
-JSBool
+bool
 js
 :
 :
@@ -11935,7 +11936,7 @@ length
 ;
 }
 static
-JSBool
+bool
 array_slice
 (
 JSContext
@@ -12359,7 +12360,7 @@ true
 ;
 }
 static
-JSBool
+bool
 array_filter
 (
 JSContext
@@ -12763,7 +12764,7 @@ true
 ;
 }
 static
-JSBool
+bool
 array_isArray
 (
 JSContext
@@ -12998,7 +12999,7 @@ true
 ;
 }
 static
-JSBool
+bool
 array_of
 (
 JSContext
@@ -13765,7 +13766,7 @@ endif
 JS_FS_END
 }
 ;
-JSBool
+bool
 js_Array
 (
 JSContext
@@ -15237,7 +15238,7 @@ arr
 #
 ifdef
 DEBUG
-JSBool
+bool
 js_ArrayInfo
 (
 JSContext

@@ -418,7 +418,7 @@ cx
 ;
 }
 static
-JSBool
+bool
 str_decodeURI
 (
 JSContext
@@ -432,7 +432,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 str_decodeURI_Component
 (
 JSContext
@@ -446,7 +446,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 str_encodeURI
 (
 JSContext
@@ -460,7 +460,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 str_encodeURI_Component
 (
 JSContext
@@ -474,7 +474,7 @@ vp
 )
 ;
 static
-JSBool
+bool
 str_escape
 (
 JSContext
@@ -1350,7 +1350,7 @@ true
 ;
 }
 static
-JSBool
+bool
 str_unescape
 (
 JSContext
@@ -1687,7 +1687,7 @@ ENSURE_BUILDING
 if
 JS_HAS_UNEVAL
 static
-JSBool
+bool
 str_uneval
 (
 JSContext
@@ -1959,7 +1959,7 @@ true
 ;
 }
 static
-JSBool
+bool
 str_resolve
 (
 JSContext
@@ -2426,7 +2426,7 @@ StringObject
 if
 JS_HAS_TOSOURCE
 static
-JSBool
+bool
 str_quote
 (
 JSContext
@@ -2649,7 +2649,7 @@ return
 true
 ;
 }
-JSBool
+bool
 str_toSource
 (
 JSContext
@@ -2762,7 +2762,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js_str_toString
 (
 JSContext
@@ -3175,7 +3175,7 @@ len
 ;
 }
 static
-JSBool
+bool
 str_substring
 (
 JSContext
@@ -3676,7 +3676,7 @@ true
 ;
 }
 static
-JSBool
+bool
 str_toLowerCase
 (
 JSContext
@@ -3702,7 +3702,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 str_toLocaleLowerCase
 (
 JSContext
@@ -4024,7 +4024,7 @@ true
 ;
 }
 static
-JSBool
+bool
 str_toUpperCase
 (
 JSContext
@@ -4050,7 +4050,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 str_toLocaleUpperCase
 (
 JSContext
@@ -4177,7 +4177,7 @@ if
 !
 ENABLE_INTL_API
 static
-JSBool
+bool
 str_localeCompare
 (
 JSContext
@@ -4354,7 +4354,7 @@ true
 }
 #
 endif
-JSBool
+bool
 js_str_charAt
 (
 JSContext
@@ -4605,7 +4605,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js_str_charCodeAt
 (
 JSContext
@@ -6533,7 +6533,7 @@ true
 ;
 }
 static
-JSBool
+bool
 str_contains
 (
 JSContext
@@ -6804,7 +6804,7 @@ true
 ;
 }
 static
-JSBool
+bool
 str_indexOf
 (
 JSContext
@@ -7084,7 +7084,7 @@ true
 ;
 }
 static
-JSBool
+bool
 str_lastIndexOf
 (
 JSContext
@@ -7526,7 +7526,7 @@ true
 ;
 }
 static
-JSBool
+bool
 str_startsWith
 (
 JSContext
@@ -7810,7 +7810,7 @@ true
 ;
 }
 static
-JSBool
+bool
 str_endsWith
 (
 JSContext
@@ -8269,7 +8269,7 @@ true
 ;
 }
 static
-JSBool
+bool
 str_trim
 (
 JSContext
@@ -8293,7 +8293,7 @@ JS_TRUE
 ;
 }
 static
-JSBool
+bool
 str_trimLeft
 (
 JSContext
@@ -8317,7 +8317,7 @@ JS_FALSE
 ;
 }
 static
-JSBool
+bool
 str_trimRight
 (
 JSContext
@@ -9825,7 +9825,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -10027,7 +10027,7 @@ regExp
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -14679,7 +14679,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -16030,7 +16030,7 @@ true
 }
 }
 ;
-JSBool
+bool
 js
 :
 :
@@ -16477,7 +16477,7 @@ true
 ;
 }
 static
-JSBool
+bool
 str_substr
 (
 JSContext
@@ -16746,7 +16746,7 @@ true
 ;
 }
 static
-JSBool
+bool
 str_concat
 (
 JSContext
@@ -16938,7 +16938,7 @@ true
 ;
 }
 static
-JSBool
+bool
 str_slice
 (
 JSContext
@@ -17826,7 +17826,7 @@ args
 ;
 }
 static
-JSBool
+bool
 str_bold
 (
 JSContext
@@ -17858,7 +17858,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 str_italics
 (
 JSContext
@@ -17890,7 +17890,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 str_fixed
 (
 JSContext
@@ -17922,7 +17922,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 str_fontsize
 (
 JSContext
@@ -17955,7 +17955,7 @@ font
 ;
 }
 static
-JSBool
+bool
 str_fontcolor
 (
 JSContext
@@ -17988,7 +17988,7 @@ font
 ;
 }
 static
-JSBool
+bool
 str_link
 (
 JSContext
@@ -18021,7 +18021,7 @@ a
 ;
 }
 static
-JSBool
+bool
 str_anchor
 (
 JSContext
@@ -18054,7 +18054,7 @@ a
 ;
 }
 static
-JSBool
+bool
 str_strike
 (
 JSContext
@@ -18086,7 +18086,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 str_small
 (
 JSContext
@@ -18118,7 +18118,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 str_big
 (
 JSContext
@@ -18150,7 +18150,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 str_blink
 (
 JSContext
@@ -18182,7 +18182,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 str_sup
 (
 JSContext
@@ -18214,7 +18214,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 str_sub
 (
 JSContext
@@ -18666,7 +18666,7 @@ JS_ArrayIterator
 JS_FS_END
 }
 ;
-JSBool
+bool
 js_String
 (
 JSContext
@@ -18804,7 +18804,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -23446,7 +23446,7 @@ false
 ;
 }
 static
-JSBool
+bool
 str_decodeURI
 (
 JSContext
@@ -23507,7 +23507,7 @@ rval
 ;
 }
 static
-JSBool
+bool
 str_decodeURI_Component
 (
 JSContext
@@ -23568,7 +23568,7 @@ rval
 ;
 }
 static
-JSBool
+bool
 str_encodeURI
 (
 JSContext
@@ -23630,7 +23630,7 @@ rval
 ;
 }
 static
-JSBool
+bool
 str_encodeURI_Component
 (
 JSContext

@@ -118,7 +118,7 @@ mozilla
 ArrayLength
 ;
 static
-JSBool
+bool
 GetBuildConfiguration
 (
 JSContext
@@ -897,7 +897,7 @@ true
 ;
 }
 static
-JSBool
+bool
 GC
 (
 JSContext
@@ -1139,7 +1139,7 @@ true
 ;
 }
 static
-JSBool
+bool
 MinorGC
 (
 JSContext
@@ -1271,7 +1271,7 @@ JSGC_MARK_STACK_LIMIT
 }
 ;
 static
-JSBool
+bool
 GCParameter
 (
 JSContext
@@ -1329,7 +1329,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 vp
 [
@@ -1640,7 +1640,7 @@ true
 ;
 }
 static
-JSBool
+bool
 IsProxy
 (
 JSContext
@@ -1745,7 +1745,7 @@ true
 ;
 }
 static
-JSBool
+bool
 InternalConst
 (
 JSContext
@@ -1868,7 +1868,7 @@ true
 ;
 }
 static
-JSBool
+bool
 GCPreserveCode
 (
 JSContext
@@ -1923,7 +1923,7 @@ arguments
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 cx
@@ -1944,14 +1944,14 @@ vp
 JSVAL_VOID
 ;
 return
-JS_TRUE
+true
 ;
 }
 #
 ifdef
 JS_GC_ZEAL
 static
-JSBool
+bool
 GCZeal
 (
 JSContext
@@ -2010,7 +2010,7 @@ arguments
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -2034,7 +2034,7 @@ zeal
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -2058,7 +2058,7 @@ frequency
 )
 )
 return
-JS_FALSE
+false
 ;
 JS_SetGCZeal
 (
@@ -2076,11 +2076,11 @@ vp
 JSVAL_VOID
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
-JSBool
+bool
 ScheduleGC
 (
 JSContext
@@ -2135,7 +2135,7 @@ arguments
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -2242,11 +2242,11 @@ vp
 JSVAL_VOID
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
-JSBool
+bool
 SelectForGC
 (
 JSContext
@@ -2341,7 +2341,7 @@ true
 ;
 }
 static
-JSBool
+bool
 VerifyPreBarriers
 (
 JSContext
@@ -2392,7 +2392,7 @@ arguments
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 gc
@@ -2418,11 +2418,11 @@ vp
 JSVAL_VOID
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
-JSBool
+bool
 VerifyPostBarriers
 (
 JSContext
@@ -2468,7 +2468,7 @@ arguments
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 gc
@@ -2494,11 +2494,11 @@ vp
 JSVAL_VOID
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
-JSBool
+bool
 GCState
 (
 JSContext
@@ -2668,7 +2668,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DeterministicGC
 (
 JSContext
@@ -2723,7 +2723,7 @@ arguments
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 gc
@@ -2747,13 +2747,13 @@ vp
 JSVAL_VOID
 ;
 return
-JS_TRUE
+true
 ;
 }
 #
 endif
 static
-JSBool
+bool
 GCSlice
 (
 JSContext
@@ -2817,7 +2817,7 @@ arguments
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 if
@@ -2871,11 +2871,11 @@ vp
 JSVAL_VOID
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
-JSBool
+bool
 ValidateGC
 (
 JSContext
@@ -2930,7 +2930,7 @@ arguments
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 gc
@@ -2954,11 +2954,11 @@ vp
 JSVAL_VOID
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
-JSBool
+bool
 FullCompartmentChecks
 (
 JSContext
@@ -3013,7 +3013,7 @@ arguments
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 gc
@@ -3037,12 +3037,12 @@ vp
 JSVAL_VOID
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
-JSBool
-NondeterminsticGetWeakMapKeys
+bool
+NondeterministicGetWeakMapKeys
 (
 JSContext
 *
@@ -3504,7 +3504,7 @@ JSTRACE_STRING
 }
 ;
 static
-JSBool
+bool
 CountHeap
 (
 JSContext
@@ -3609,7 +3609,7 @@ thing
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -3646,7 +3646,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 JSFlatString
 *
@@ -3664,7 +3664,7 @@ if
 flatStr
 )
 return
-JS_FALSE
+false
 ;
 for
 (
@@ -3750,7 +3750,7 @@ ptr
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -3786,7 +3786,7 @@ cx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 countTracer
@@ -3989,7 +3989,7 @@ true
 ifdef
 DEBUG
 static
-JSBool
+bool
 OOMAfterAllocations
 (
 JSContext
@@ -4136,7 +4136,7 @@ finalize_counter_finalize
 }
 ;
 static
-JSBool
+bool
 MakeFinalizeObserver
 (
 JSContext
@@ -4204,7 +4204,7 @@ true
 ;
 }
 static
-JSBool
+bool
 FinalizeCount
 (
 JSContext
@@ -4230,7 +4230,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DumpHeapComplete
 (
 JSContext
@@ -4396,7 +4396,7 @@ true
 ;
 }
 static
-JSBool
+bool
 Terminate
 (
 JSContext
@@ -4415,11 +4415,11 @@ cx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 static
-JSBool
+bool
 EnableSPSProfilingAssertions
 (
 JSContext
@@ -4565,7 +4565,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DisableSPSProfiling
 (
 JSContext
@@ -4614,7 +4614,7 @@ true
 ;
 }
 static
-JSBool
+bool
 DisplayName
 (
 JSContext
@@ -4761,7 +4761,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -4873,7 +4873,7 @@ true
 ;
 }
 static
-JSBool
+bool
 SetObjectMetadataCallback
 (
 JSContext
@@ -5013,7 +5013,7 @@ true
 ;
 }
 static
-JSBool
+bool
 SetObjectMetadata
 (
 JSContext
@@ -5131,7 +5131,7 @@ metadata
 ;
 }
 static
-JSBool
+bool
 GetObjectMetadata
 (
 JSContext
@@ -5214,7 +5214,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -6203,7 +6203,7 @@ JS_FN_HELP
 "
 nondeterministicGetWeakMapKeys
 "
-NondeterminsticGetWeakMapKeys
+NondeterministicGetWeakMapKeys
 1
 0
 "

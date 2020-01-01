@@ -126,7 +126,7 @@ JS_ConvertStub
 }
 ;
 static
-JSBool
+bool
 test_fn
 (
 JSContext
@@ -144,11 +144,11 @@ max_stack
 psize
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
-JSBool
+bool
 test_fn2
 (
 JSContext
@@ -196,7 +196,7 @@ r
 ;
 }
 static
-JSBool
+bool
 enable
 (
 JSContext
@@ -224,11 +224,11 @@ true
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
-JSBool
+bool
 disable
 (
 JSContext
@@ -256,11 +256,11 @@ false
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
-JSBool
+bool
 Prof
 (
 JSContext
@@ -291,7 +291,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 JS_SET_RVAL
 (
@@ -304,7 +304,7 @@ obj
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static

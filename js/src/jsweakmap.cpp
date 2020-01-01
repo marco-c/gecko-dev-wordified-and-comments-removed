@@ -820,7 +820,8 @@ return
 true
 ;
 }
-JSBool
+static
+bool
 WeakMap_has
 (
 JSContext
@@ -925,7 +926,8 @@ return
 true
 ;
 }
-JSBool
+static
+bool
 WeakMap_clear
 (
 JSContext
@@ -1142,7 +1144,8 @@ return
 true
 ;
 }
-JSBool
+static
+bool
 WeakMap_get
 (
 JSContext
@@ -1335,7 +1338,8 @@ return
 true
 ;
 }
-JSBool
+static
+bool
 WeakMap_delete
 (
 JSContext
@@ -1844,7 +1848,8 @@ return
 true
 ;
 }
-JSBool
+static
+bool
 WeakMap_set
 (
 JSContext
@@ -2209,7 +2214,7 @@ endif
 }
 }
 static
-JSBool
+bool
 WeakMap_construct
 (
 JSContext

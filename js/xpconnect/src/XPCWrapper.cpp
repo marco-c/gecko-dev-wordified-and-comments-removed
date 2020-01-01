@@ -77,7 +77,7 @@ false
 ;
 }
 static
-JSBool
+bool
 UnwrapNW
 (
 JSContext
@@ -213,7 +213,7 @@ true
 ;
 }
 static
-JSBool
+bool
 XrayWrapperConstructor
 (
 JSContext

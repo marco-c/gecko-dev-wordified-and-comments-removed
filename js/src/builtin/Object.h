@@ -29,7 +29,7 @@ object_static_methods
 ]
 ;
 extern
-JSBool
+bool
 obj_construct
 (
 JSContext

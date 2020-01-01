@@ -81,7 +81,7 @@ mozilla
 :
 ArrayLength
 ;
-JSBool
+bool
 js
 :
 :
@@ -199,7 +199,7 @@ true
 ;
 }
 static
-JSBool
+bool
 obj_propertyIsEnumerable
 (
 JSContext
@@ -392,7 +392,7 @@ true
 if
 JS_HAS_TOSOURCE
 static
-JSBool
+bool
 obj_toSource
 (
 JSContext
@@ -1484,7 +1484,7 @@ finishString
 ;
 }
 static
-JSBool
+bool
 obj_toString
 (
 JSContext
@@ -1633,7 +1633,7 @@ true
 ;
 }
 static
-JSBool
+bool
 obj_toLocaleString
 (
 JSContext
@@ -1721,7 +1721,7 @@ rval
 ;
 }
 static
-JSBool
+bool
 obj_valueOf
 (
 JSContext
@@ -2089,7 +2089,7 @@ true
 }
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 js
 :
@@ -2120,7 +2120,7 @@ vp
 }
 JS_FRIEND_API
 (
-JSBool
+bool
 )
 js
 :
@@ -2150,7 +2150,7 @@ vp
 ;
 }
 static
-JSBool
+bool
 obj_lookupGetter
 (
 JSContext
@@ -2198,7 +2198,7 @@ id
 )
 )
 return
-JS_FALSE
+false
 ;
 RootedObject
 obj
@@ -2221,7 +2221,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -2269,7 +2269,7 @@ desc
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -2308,7 +2308,7 @@ getter
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 RootedObject
@@ -2341,7 +2341,7 @@ shape
 )
 )
 return
-JS_FALSE
+false
 ;
 args
 .
@@ -2403,11 +2403,11 @@ getterValue
 }
 }
 return
-JS_TRUE
+true
 ;
 }
 static
-JSBool
+bool
 obj_lookupSetter
 (
 JSContext
@@ -2455,7 +2455,7 @@ id
 )
 )
 return
-JS_FALSE
+false
 ;
 RootedObject
 obj
@@ -2478,7 +2478,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -2526,7 +2526,7 @@ desc
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -2565,7 +2565,7 @@ setter
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 RootedObject
@@ -2598,7 +2598,7 @@ shape
 )
 )
 return
-JS_FALSE
+false
 ;
 args
 .
@@ -2660,12 +2660,12 @@ setterValue
 }
 }
 return
-JS_TRUE
+true
 ;
 }
 #
 endif
-JSBool
+bool
 obj_getPrototypeOf
 (
 JSContext
@@ -2988,7 +2988,7 @@ true
 ;
 }
 static
-JSBool
+bool
 obj_watch
 (
 JSContext
@@ -3164,7 +3164,7 @@ callable
 ;
 }
 static
-JSBool
+bool
 obj_unwatch
 (
 JSContext
@@ -3275,7 +3275,7 @@ NULL
 #
 endif
 static
-JSBool
+bool
 obj_hasOwnProperty
 (
 JSContext
@@ -3566,7 +3566,7 @@ true
 ;
 }
 static
-JSBool
+bool
 obj_isPrototypeOf
 (
 JSContext
@@ -3685,7 +3685,7 @@ true
 ;
 }
 static
-JSBool
+bool
 obj_create
 (
 JSContext
@@ -3930,7 +3930,7 @@ true
 ;
 }
 static
-JSBool
+bool
 obj_getOwnPropertyDescriptor
 (
 JSContext
@@ -3975,7 +3975,7 @@ obj
 )
 )
 return
-JS_FALSE
+false
 ;
 RootedId
 id
@@ -4003,7 +4003,7 @@ id
 )
 )
 return
-JS_FALSE
+false
 ;
 return
 GetOwnPropertyDescriptor
@@ -4020,7 +4020,7 @@ rval
 ;
 }
 static
-JSBool
+bool
 obj_keys
 (
 JSContext
@@ -4279,7 +4279,7 @@ true
 ;
 }
 static
-JSBool
+bool
 obj_is
 (
 JSContext
@@ -4345,7 +4345,7 @@ true
 ;
 }
 static
-JSBool
+bool
 obj_getOwnPropertyNames
 (
 JSContext
@@ -4597,7 +4597,7 @@ true
 ;
 }
 static
-JSBool
+bool
 obj_defineProperty
 (
 JSContext
@@ -4670,7 +4670,7 @@ id
 )
 )
 return
-JS_FALSE
+false
 ;
 JSBool
 junk
@@ -4713,7 +4713,7 @@ true
 ;
 }
 static
-JSBool
+bool
 obj_defineProperties
 (
 JSContext
@@ -4845,7 +4845,7 @@ props
 ;
 }
 static
-JSBool
+bool
 obj_isExtensible
 (
 JSContext
@@ -4928,7 +4928,7 @@ true
 ;
 }
 static
-JSBool
+bool
 obj_preventExtensions
 (
 JSContext
@@ -5027,7 +5027,7 @@ obj
 ;
 }
 static
-JSBool
+bool
 obj_freeze
 (
 JSContext
@@ -5098,7 +5098,7 @@ obj
 ;
 }
 static
-JSBool
+bool
 obj_isFrozen
 (
 JSContext
@@ -5181,7 +5181,7 @@ true
 ;
 }
 static
-JSBool
+bool
 obj_seal
 (
 JSContext
@@ -5252,7 +5252,7 @@ obj
 ;
 }
 static
-JSBool
+bool
 obj_isSealed
 (
 JSContext

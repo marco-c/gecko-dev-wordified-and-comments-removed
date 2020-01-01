@@ -8800,7 +8800,7 @@ nsTraceMalloc
 h
 "
 static
-JSBool
+bool
 CheckUniversalXPConnectForTraceMalloc
 (
 JSContext
@@ -8818,7 +8818,7 @@ IsCallerChrome
 )
 )
 return
-JS_TRUE
+true
 ;
 JS_ReportError
 (
@@ -8834,11 +8834,11 @@ UniversalXPConnect
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 static
-JSBool
+bool
 TraceMallocDisable
 (
 JSContext
@@ -8863,7 +8863,7 @@ cx
 )
 )
 return
-JS_FALSE
+false
 ;
 NS_TraceMallocDisable
 (
@@ -8877,11 +8877,11 @@ JSVAL_VOID
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
-JSBool
+bool
 TraceMallocEnable
 (
 JSContext
@@ -8906,7 +8906,7 @@ cx
 )
 )
 return
-JS_FALSE
+false
 ;
 NS_TraceMallocEnable
 (
@@ -8920,11 +8920,11 @@ JSVAL_VOID
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
-JSBool
+bool
 TraceMallocOpenLogFile
 (
 JSContext
@@ -8956,7 +8956,7 @@ cx
 )
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -8995,7 +8995,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 JSAutoByteString
 filename
@@ -9010,7 +9010,7 @@ if
 filename
 )
 return
-JS_FALSE
+false
 ;
 fd
 =
@@ -9062,7 +9062,7 @@ errno
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -9077,11 +9077,11 @@ fd
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
-JSBool
+bool
 TraceMallocChangeLogFD
 (
 JSContext
@@ -9106,7 +9106,7 @@ cx
 )
 )
 return
-JS_FALSE
+false
 ;
 int32_t
 fd
@@ -9147,7 +9147,7 @@ fd
 )
 )
 return
-JS_FALSE
+false
 ;
 oldfd
 =
@@ -9171,7 +9171,7 @@ cx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 }
@@ -9186,11 +9186,11 @@ oldfd
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
-JSBool
+bool
 TraceMallocCloseLogFD
 (
 JSContext
@@ -9215,7 +9215,7 @@ cx
 )
 )
 return
-JS_FALSE
+false
 ;
 int32_t
 fd
@@ -9235,7 +9235,7 @@ argc
 0
 )
 return
-JS_TRUE
+true
 ;
 if
 (
@@ -9256,7 +9256,7 @@ fd
 )
 )
 return
-JS_FALSE
+false
 ;
 NS_TraceMallocCloseLogFD
 (
@@ -9267,11 +9267,11 @@ fd
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
-JSBool
+bool
 TraceMallocLogTimestamp
 (
 JSContext
@@ -9296,7 +9296,7 @@ cx
 )
 )
 return
-JS_FALSE
+false
 ;
 JSString
 *
@@ -9325,7 +9325,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 JSAutoByteString
 caption
@@ -9340,7 +9340,7 @@ if
 caption
 )
 return
-JS_FALSE
+false
 ;
 NS_TraceMallocLogTimestamp
 (
@@ -9359,11 +9359,11 @@ JSVAL_VOID
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
-JSBool
+bool
 TraceMallocDumpAllocations
 (
 JSContext
@@ -9388,7 +9388,7 @@ cx
 )
 )
 return
-JS_FALSE
+false
 ;
 JSString
 *
@@ -9417,7 +9417,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 JSAutoByteString
 pathname
@@ -9432,7 +9432,7 @@ if
 pathname
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -9475,7 +9475,7 @@ errno
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JS_SET_RVAL
@@ -9486,7 +9486,7 @@ JSVAL_VOID
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
@@ -9582,7 +9582,7 @@ namespace
 dmd
 {
 static
-JSBool
+bool
 ReportAndDump
 (
 JSContext
@@ -9625,7 +9625,7 @@ if
 str
 )
 return
-JS_FALSE
+false
 ;
 JSAutoByteString
 pathname
@@ -9640,7 +9640,7 @@ if
 pathname
 )
 return
-JS_FALSE
+false
 ;
 FILE
 *
@@ -9691,7 +9691,7 @@ errno
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 dmd
@@ -9755,7 +9755,7 @@ JSVAL_VOID
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 }
@@ -9851,7 +9851,7 @@ NS_JProfClearCircular
 )
 ;
 static
-JSBool
+bool
 JProfStartProfilingJS
 (
 JSContext
@@ -9872,7 +9872,7 @@ NS_JProfStartProfiling
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 void
@@ -9981,7 +9981,7 @@ n
 ;
 }
 static
-JSBool
+bool
 JProfStopProfilingJS
 (
 JSContext
@@ -10002,7 +10002,7 @@ NS_JProfStopProfiling
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 void
@@ -10017,7 +10017,7 @@ SIGUSR1
 ;
 }
 static
-JSBool
+bool
 JProfClearCircularJS
 (
 JSContext
@@ -10038,7 +10038,7 @@ NS_JProfClearCircular
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 void
@@ -10053,7 +10053,7 @@ SIGUSR2
 ;
 }
 static
-JSBool
+bool
 JProfSaveCircularJS
 (
 JSContext
@@ -10078,7 +10078,7 @@ NS_JProfStartProfiling
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static

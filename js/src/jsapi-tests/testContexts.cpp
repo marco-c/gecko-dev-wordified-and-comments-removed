@@ -59,7 +59,7 @@ true
 ;
 }
 static
-JSBool
+bool
 chk
 (
 JSContext
@@ -103,7 +103,7 @@ cx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 bool

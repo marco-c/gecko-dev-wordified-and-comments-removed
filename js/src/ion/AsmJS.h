@@ -250,7 +250,7 @@ endif
 ifdef
 JS_ION
 extern
-JSBool
+bool
 IsAsmJSCompilationAvailable
 (
 JSContext
@@ -269,7 +269,7 @@ vp
 #
 else
 inline
-JSBool
+bool
 IsAsmJSCompilationAvailable
 (
 JSContext

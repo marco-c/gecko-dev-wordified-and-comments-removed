@@ -32,7 +32,7 @@ LIBRARY_SLOTS
 namespace
 Library
 {
-JSBool
+bool
 Name
 (
 JSContext
@@ -76,7 +76,7 @@ JSObject
 obj
 )
 ;
-JSBool
+bool
 Open
 (
 JSContext

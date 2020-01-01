@@ -63,7 +63,7 @@ class
 JSObject
 ;
 typedef
-JSBool
+bool
 (
 *
 JSNative
@@ -109,7 +109,7 @@ vp
 )
 ;
 typedef
-JSBool
+bool
 (
 *
 JSThreadSafeNative
@@ -137,7 +137,7 @@ JSThreadSafeNative
 threadSafeNative
 >
 inline
-JSBool
+bool
 JSNativeThreadSafeWrapper
 (
 JSContext

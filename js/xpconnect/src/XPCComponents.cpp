@@ -11176,7 +11176,7 @@ nsIGlobalObject
 nsISupportsWeakReference
 )
 static
-JSBool
+bool
 SandboxDump
 (
 JSContext
@@ -11354,7 +11354,7 @@ true
 ;
 }
 static
-JSBool
+bool
 SandboxDebug
 (
 JSContext
@@ -11387,7 +11387,7 @@ true
 endif
 }
 static
-JSBool
+bool
 SandboxImport
 (
 JSContext
@@ -11674,7 +11674,7 @@ true
 ;
 }
 static
-JSBool
+bool
 CreateXMLHttpRequest
 (
 JSContext
@@ -17823,7 +17823,7 @@ return
 NS_OK
 ;
 }
-JSBool
+bool
 FunctionWrapper
 (
 JSContext
@@ -17894,7 +17894,7 @@ obj
 )
 {
 return
-JS_FALSE
+false
 ;
 }
 return

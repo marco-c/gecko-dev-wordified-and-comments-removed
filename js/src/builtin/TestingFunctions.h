@@ -24,7 +24,7 @@ HandleObject
 obj
 )
 ;
-JSBool
+bool
 testingFunc_inParallelSection
 (
 JSContext
@@ -37,7 +37,7 @@ jsval
 vp
 )
 ;
-JSBool
+bool
 testingFunc_bailout
 (
 JSContext

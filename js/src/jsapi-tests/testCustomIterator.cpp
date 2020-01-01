@@ -22,7 +22,7 @@ count
 0
 ;
 static
-JSBool
+bool
 IterNext
 (
 JSContext
@@ -159,7 +159,7 @@ false
 }
 }
 ;
-JSBool
+bool
 IterClassConstructor
 (
 JSContext

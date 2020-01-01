@@ -45,7 +45,7 @@ namespace
 js
 {
 extern
-JSBool
+bool
 intl_Collator
 (
 JSContext
@@ -59,7 +59,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 intl_Collator_availableLocales
 (
 JSContext
@@ -73,7 +73,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 intl_availableCollations
 (
 JSContext
@@ -87,7 +87,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 intl_CompareStrings
 (
 JSContext
@@ -101,7 +101,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 intl_NumberFormat
 (
 JSContext
@@ -115,7 +115,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 intl_NumberFormat_availableLocales
 (
 JSContext
@@ -129,7 +129,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 intl_numberingSystem
 (
 JSContext
@@ -143,7 +143,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 intl_FormatNumber
 (
 JSContext
@@ -157,7 +157,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 intl_DateTimeFormat
 (
 JSContext
@@ -171,7 +171,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 intl_DateTimeFormat_availableLocales
 (
 JSContext
@@ -185,7 +185,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 intl_availableCalendars
 (
 JSContext
@@ -199,7 +199,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 intl_patternForSkeleton
 (
 JSContext
@@ -213,7 +213,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 intl_FormatDateTime
 (
 JSContext

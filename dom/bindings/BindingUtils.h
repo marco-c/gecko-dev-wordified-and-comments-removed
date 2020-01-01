@@ -6342,7 +6342,7 @@ return
 true
 ;
 }
-JSBool
+bool
 QueryInterface
 (
 JSContext
@@ -6429,7 +6429,7 @@ aGlobal
 }
 }
 ;
-JSBool
+bool
 ThrowingConstructor
 (
 JSContext
@@ -8702,7 +8702,7 @@ CONSTRUCTOR_NATIVE_HOLDER_RESERVED_SLOT
 CONSTRUCTOR_XRAY_EXPANDO_SLOT
 }
 ;
-JSBool
+bool
 Constructor
 (
 JSContext

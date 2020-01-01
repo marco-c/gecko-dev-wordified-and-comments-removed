@@ -17,7 +17,7 @@ namespace
 js
 {
 extern
-JSBool
+bool
 IndirectEval
 (
 JSContext

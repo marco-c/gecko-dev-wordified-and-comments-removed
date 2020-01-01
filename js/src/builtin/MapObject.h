@@ -430,7 +430,7 @@ obj
 )
 ;
 static
-JSBool
+bool
 construct
 (
 JSContext
@@ -478,7 +478,7 @@ args
 )
 ;
 static
-JSBool
+bool
 size
 (
 JSContext
@@ -503,7 +503,7 @@ args
 )
 ;
 static
-JSBool
+bool
 get
 (
 JSContext
@@ -528,7 +528,7 @@ args
 )
 ;
 static
-JSBool
+bool
 has
 (
 JSContext
@@ -553,7 +553,7 @@ args
 )
 ;
 static
-JSBool
+bool
 set
 (
 JSContext
@@ -578,7 +578,7 @@ args
 )
 ;
 static
-JSBool
+bool
 delete_
 (
 JSContext
@@ -603,7 +603,7 @@ args
 )
 ;
 static
-JSBool
+bool
 keys
 (
 JSContext
@@ -628,7 +628,7 @@ args
 )
 ;
 static
-JSBool
+bool
 values
 (
 JSContext
@@ -653,7 +653,7 @@ args
 )
 ;
 static
-JSBool
+bool
 entries
 (
 JSContext
@@ -678,7 +678,7 @@ args
 )
 ;
 static
-JSBool
+bool
 clear
 (
 JSContext
@@ -794,7 +794,7 @@ obj
 )
 ;
 static
-JSBool
+bool
 construct
 (
 JSContext
@@ -842,7 +842,7 @@ args
 )
 ;
 static
-JSBool
+bool
 size
 (
 JSContext
@@ -867,7 +867,7 @@ args
 )
 ;
 static
-JSBool
+bool
 has
 (
 JSContext
@@ -892,7 +892,7 @@ args
 )
 ;
 static
-JSBool
+bool
 add
 (
 JSContext
@@ -917,7 +917,7 @@ args
 )
 ;
 static
-JSBool
+bool
 delete_
 (
 JSContext
@@ -942,7 +942,7 @@ args
 )
 ;
 static
-JSBool
+bool
 values
 (
 JSContext
@@ -967,7 +967,7 @@ args
 )
 ;
 static
-JSBool
+bool
 entries
 (
 JSContext
@@ -992,7 +992,7 @@ args
 )
 ;
 static
-JSBool
+bool
 clear
 (
 JSContext

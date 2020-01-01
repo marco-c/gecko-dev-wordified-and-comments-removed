@@ -7494,7 +7494,7 @@ self
 descriptor
 name
 '
-JSBool
+bool
 '
 args
 )
@@ -38660,7 +38660,7 @@ vp
 returnType
 =
 "
-JSBool
+bool
 "
 )
 :
@@ -39035,7 +39035,7 @@ self
 descriptor
 name
 "
-JSBool
+bool
 "
 args
 )
@@ -40195,6 +40195,11 @@ callArgs
 =
 "
 "
+returnType
+=
+"
+JSBool
+"
 )
     
 def
@@ -40436,6 +40441,11 @@ getThisObj
 callArgs
 =
 "
+"
+returnType
+=
+"
+JSBool
 "
 )
     
@@ -52388,11 +52398,6 @@ callArgs
 =
 "
 "
-returnType
-=
-"
-bool
-"
 )
     
 def
@@ -52757,11 +52762,6 @@ getThisObj
 callArgs
 =
 "
-"
-returnType
-=
-"
-bool
 "
 )
     
@@ -74537,7 +74537,7 @@ _Create
 "
                         
 "
-JSBool
+bool
 "
                         
 [

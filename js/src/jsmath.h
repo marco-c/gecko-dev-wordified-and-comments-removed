@@ -271,7 +271,7 @@ cx
 )
 ;
 extern
-JSBool
+bool
 js_math_random
 (
 JSContext
@@ -288,7 +288,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 js_math_abs
 (
 JSContext
@@ -305,7 +305,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 js_math_ceil
 (
 JSContext
@@ -322,7 +322,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 js_math_floor
 (
 JSContext
@@ -339,7 +339,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 js_math_max
 (
 JSContext
@@ -356,7 +356,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 js_math_min
 (
 JSContext
@@ -373,7 +373,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 js_math_round
 (
 JSContext
@@ -390,7 +390,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 js_math_sqrt
 (
 JSContext
@@ -407,7 +407,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 js_math_pow
 (
 JSContext
@@ -443,7 +443,7 @@ namespace
 js
 {
 extern
-JSBool
+bool
 math_imul
 (
 JSContext
@@ -460,7 +460,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 math_log
 (
 JSContext
@@ -488,7 +488,7 @@ x
 )
 ;
 extern
-JSBool
+bool
 math_sin
 (
 JSContext
@@ -516,7 +516,7 @@ x
 )
 ;
 extern
-JSBool
+bool
 math_cos
 (
 JSContext
@@ -544,7 +544,7 @@ x
 )
 ;
 extern
-JSBool
+bool
 math_exp
 (
 JSContext
@@ -572,7 +572,7 @@ x
 )
 ;
 extern
-JSBool
+bool
 math_tan
 (
 JSContext
@@ -600,7 +600,7 @@ x
 )
 ;
 extern
-JSBool
+bool
 math_log10
 (
 JSContext
@@ -617,7 +617,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 math_log2
 (
 JSContext
@@ -634,7 +634,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 math_log1p
 (
 JSContext
@@ -651,7 +651,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 math_expm1
 (
 JSContext
@@ -668,7 +668,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 math_cosh
 (
 JSContext
@@ -685,7 +685,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 math_sinh
 (
 JSContext
@@ -702,7 +702,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 math_tanh
 (
 JSContext
@@ -719,7 +719,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 math_acosh
 (
 JSContext
@@ -736,7 +736,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 math_asinh
 (
 JSContext
@@ -753,7 +753,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 math_atanh
 (
 JSContext
@@ -770,7 +770,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 math_hypot
 (
 JSContext
@@ -784,7 +784,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 math_trunc
 (
 JSContext
@@ -798,7 +798,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 math_sign
 (
 JSContext
@@ -812,7 +812,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 math_cbrt
 (
 JSContext
@@ -826,7 +826,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 math_asin
 (
 JSContext
@@ -840,7 +840,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 math_acos
 (
 JSContext
@@ -854,7 +854,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 math_atan
 (
 JSContext
@@ -868,7 +868,7 @@ vp
 )
 ;
 extern
-JSBool
+bool
 math_atan2
 (
 JSContext
@@ -903,7 +903,7 @@ x
 )
 ;
 extern
-JSBool
+bool
 math_atan
 (
 JSContext
@@ -931,7 +931,7 @@ x
 )
 ;
 extern
-JSBool
+bool
 math_asin
 (
 JSContext
@@ -959,7 +959,7 @@ x
 )
 ;
 extern
-JSBool
+bool
 math_acos
 (
 JSContext
@@ -996,7 +996,7 @@ y
 )
 ;
 extern
-JSBool
+bool
 math_imul
 (
 JSContext

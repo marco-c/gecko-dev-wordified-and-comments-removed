@@ -1343,7 +1343,7 @@ TOSTRING_NAME_RESERVED_SLOT
 1
 }
 ;
-JSBool
+bool
 InterfaceObjectToString
 (
 JSContext
@@ -1619,7 +1619,7 @@ vp
 )
 ;
 }
-JSBool
+bool
 Constructor
 (
 JSContext
@@ -3613,7 +3613,7 @@ return
 true
 ;
 }
-JSBool
+bool
 QueryInterface
 (
 JSContext
@@ -3989,7 +3989,7 @@ return
 true
 ;
 }
-JSBool
+bool
 ThrowingConstructor
 (
 JSContext

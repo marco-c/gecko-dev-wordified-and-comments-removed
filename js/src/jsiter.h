@@ -547,7 +547,7 @@ NumSlots
 }
 ;
 static
-JSBool
+bool
 next
 (
 JSContext
@@ -715,7 +715,7 @@ JSObject
 obj
 )
 ;
-JSBool
+bool
 IteratorConstructor
 (
 JSContext

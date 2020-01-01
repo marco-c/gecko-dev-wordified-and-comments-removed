@@ -197,7 +197,7 @@ eventsMeasured
 undef
 GETTER
 static
-JSBool
+bool
 pm_start
 (
 JSContext
@@ -225,7 +225,7 @@ if
 p
 )
 return
-JS_FALSE
+false
 ;
 p
 -
@@ -235,11 +235,11 @@ start
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
-JSBool
+bool
 pm_stop
 (
 JSContext
@@ -267,7 +267,7 @@ if
 p
 )
 return
-JS_FALSE
+false
 ;
 p
 -
@@ -277,11 +277,11 @@ stop
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
-JSBool
+bool
 pm_reset
 (
 JSContext
@@ -309,7 +309,7 @@ if
 p
 )
 return
-JS_FALSE
+false
 ;
 p
 -
@@ -319,11 +319,11 @@ reset
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static
-JSBool
+bool
 pm_canMeasureSomething
 (
 JSContext
@@ -351,7 +351,7 @@ if
 p
 )
 return
-JS_FALSE
+false
 ;
 JS_SET_RVAL
 (
@@ -369,7 +369,7 @@ canMeasureSomething
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 const
@@ -642,7 +642,7 @@ EventMask
 undef
 CONSTANT
 static
-JSBool
+bool
 pm_construct
 (
 JSContext
@@ -687,7 +687,7 @@ pm_finalize
 }
 ;
 static
-JSBool
+bool
 pm_construct
 (
 JSContext
@@ -723,7 +723,7 @@ mask
 )
 )
 return
-JS_FALSE
+false
 ;
 JS
 :
@@ -747,7 +747,7 @@ if
 obj
 )
 return
-JS_FALSE
+false
 ;
 if
 (
@@ -759,7 +759,7 @@ obj
 )
 )
 return
-JS_FALSE
+false
 ;
 PerfMeasurement
 *
@@ -794,7 +794,7 @@ cx
 )
 ;
 return
-JS_FALSE
+false
 ;
 }
 JS_SetPrivate
@@ -812,7 +812,7 @@ obj
 )
 ;
 return
-JS_TRUE
+true
 ;
 }
 static

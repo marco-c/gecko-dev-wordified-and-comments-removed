@@ -5398,7 +5398,7 @@ signature
 (
 "
 static
-JSBool
+bool
 \
 n
 "

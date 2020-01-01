@@ -2834,7 +2834,7 @@ JSThreadSafeNative
 threadSafeNative
 >
 inline
-JSBool
+bool
 JSNativeThreadSafeWrapper
 (
 JSContext

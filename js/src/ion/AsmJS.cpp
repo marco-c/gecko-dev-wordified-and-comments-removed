@@ -38211,7 +38211,7 @@ compilationTimeReport
 )
 ;
 }
-JSBool
+bool
 js
 :
 :

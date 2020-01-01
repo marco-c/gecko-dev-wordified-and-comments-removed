@@ -17522,7 +17522,7 @@ OuterWindowProxyObject
 class_
 ;
 static
-JSBool
+bool
 proxy_Call
 (
 JSContext
@@ -17582,7 +17582,7 @@ args
 ;
 }
 static
-JSBool
+bool
 proxy_Construct
 (
 JSContext
@@ -18442,7 +18442,7 @@ UndefinedValue
 ;
 }
 static
-JSBool
+bool
 proxy
 (
 JSContext
@@ -18656,7 +18656,7 @@ true
 ;
 }
 static
-JSBool
+bool
 proxy_create
 (
 JSContext
@@ -18853,7 +18853,7 @@ true
 ;
 }
 static
-JSBool
+bool
 proxy_createFunction
 (
 JSContext

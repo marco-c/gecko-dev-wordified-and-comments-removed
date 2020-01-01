@@ -2125,7 +2125,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js
 :
 :

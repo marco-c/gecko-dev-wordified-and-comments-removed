@@ -331,7 +331,7 @@ aObj
 ;
 }
 static
-JSBool
+bool
 Construct
 (
 JSContext
@@ -703,7 +703,7 @@ true
 ;
 }
 static
-JSBool
+bool
 Slice
 (
 JSContext
@@ -1309,7 +1309,7 @@ NULL
 ;
 }
 static
-JSBool
+bool
 Construct
 (
 JSContext

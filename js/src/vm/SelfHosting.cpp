@@ -468,7 +468,7 @@ JS_ConvertStub
 NULL
 }
 ;
-JSBool
+bool
 js
 :
 :
@@ -539,7 +539,7 @@ true
 ;
 }
 static
-JSBool
+bool
 intrinsic_ToInteger
 (
 JSContext
@@ -596,7 +596,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -664,7 +664,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -918,7 +918,7 @@ false
 ;
 }
 static
-JSBool
+bool
 intrinsic_AssertionFailed
 (
 JSContext
@@ -1045,7 +1045,7 @@ false
 ;
 }
 static
-JSBool
+bool
 intrinsic_MakeConstructible
 (
 JSContext
@@ -1202,7 +1202,7 @@ true
 ;
 }
 static
-JSBool
+bool
 intrinsic_MakeWrappable
 (
 JSContext
@@ -1302,7 +1302,7 @@ true
 ;
 }
 static
-JSBool
+bool
 intrinsic_DecompileArg
 (
 JSContext
@@ -1414,7 +1414,7 @@ true
 ;
 }
 static
-JSBool
+bool
 intrinsic_SetScriptHints
 (
 JSContext
@@ -1671,7 +1671,7 @@ true
 #
 ifdef
 DEBUG
-JSBool
+bool
 intrinsic_Dump
 (
 ThreadSafeContext
@@ -1762,7 +1762,7 @@ intrinsic_Dump
 >
 )
 ;
-JSBool
+bool
 intrinsic_ParallelSpew
 (
 ThreadSafeContext
@@ -1896,7 +1896,7 @@ intrinsic_ParallelSpew
 #
 endif
 static
-JSBool
+bool
 intrinsic_ForkJoin
 (
 JSContext
@@ -1927,7 +1927,7 @@ args
 ;
 }
 static
-JSBool
+bool
 intrinsic_ForkJoinSlices
 (
 JSContext
@@ -1967,7 +1967,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -2095,7 +2095,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -2305,7 +2305,7 @@ return
 false
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -2593,7 +2593,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -2693,7 +2693,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -2789,7 +2789,7 @@ true
 ;
 }
 static
-JSBool
+bool
 intrinsic_NewClassPrototype
 (
 JSContext
@@ -2879,7 +2879,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -2989,7 +2989,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -3091,7 +3091,7 @@ true
 ;
 }
 static
-JSBool
+bool
 intrinsic_ParallelTestsShouldPass
 (
 JSContext
@@ -3131,7 +3131,7 @@ return
 true
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -3203,7 +3203,7 @@ true
 ;
 }
 static
-JSBool
+bool
 intrinsic_RuntimeDefaultLocale
 (
 JSContext

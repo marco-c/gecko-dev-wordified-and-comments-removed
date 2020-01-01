@@ -33,7 +33,7 @@ found
 =
 NULL
 ;
-JSBool
+bool
 CheckEnclosing
 (
 JSContext

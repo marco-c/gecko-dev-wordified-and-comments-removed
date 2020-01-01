@@ -1654,7 +1654,7 @@ true
 ;
 }
 static
-JSBool
+bool
 setStepMode
 (
 JSContext

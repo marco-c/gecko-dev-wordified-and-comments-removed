@@ -341,7 +341,7 @@ return
 true
 ;
 }
-JSBool
+bool
 ParallelArrayObject
 :
 :
@@ -561,7 +561,7 @@ return
 result
 ;
 }
-JSBool
+bool
 ParallelArrayObject
 :
 :

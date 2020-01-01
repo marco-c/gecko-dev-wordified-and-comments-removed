@@ -47,7 +47,7 @@ trusted_fun
 =
 NULL
 ;
-JSBool
+bool
 CallTrusted
 (
 JSContext
@@ -69,12 +69,12 @@ cx
 )
 )
 return
-JS_FALSE
+false
 ;
-JSBool
+bool
 ok
 =
-JS_FALSE
+false
 ;
 {
 JSAutoCompartment

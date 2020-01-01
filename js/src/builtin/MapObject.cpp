@@ -3854,7 +3854,7 @@ args
 )
 ;
 static
-JSBool
+bool
 next
 (
 JSContext
@@ -4627,7 +4627,7 @@ return
 true
 ;
 }
-JSBool
+bool
 MapIteratorObject
 :
 :
@@ -5418,7 +5418,7 @@ map
 )
 ;
 }
-JSBool
+bool
 MapObject
 :
 :
@@ -5943,7 +5943,7 @@ return
 true
 ;
 }
-JSBool
+bool
 MapObject
 :
 :
@@ -6075,7 +6075,7 @@ return
 true
 ;
 }
-JSBool
+bool
 MapObject
 :
 :
@@ -6182,7 +6182,7 @@ return
 true
 ;
 }
-JSBool
+bool
 MapObject
 :
 :
@@ -6328,7 +6328,7 @@ return
 true
 ;
 }
-JSBool
+bool
 MapObject
 :
 :
@@ -6455,7 +6455,7 @@ return
 true
 ;
 }
-JSBool
+bool
 MapObject
 :
 :
@@ -6619,7 +6619,7 @@ Keys
 )
 ;
 }
-JSBool
+bool
 MapObject
 :
 :
@@ -6676,7 +6676,7 @@ Values
 )
 ;
 }
-JSBool
+bool
 MapObject
 :
 :
@@ -6733,7 +6733,7 @@ Entries
 )
 ;
 }
-JSBool
+bool
 MapObject
 :
 :
@@ -6847,7 +6847,7 @@ return
 true
 ;
 }
-JSBool
+bool
 MapObject
 :
 :
@@ -7008,7 +7008,7 @@ args
 )
 ;
 static
-JSBool
+bool
 next
 (
 JSContext
@@ -7741,7 +7741,7 @@ return
 true
 ;
 }
-JSBool
+bool
 SetIteratorObject
 :
 :
@@ -8168,7 +8168,7 @@ set
 )
 ;
 }
-JSBool
+bool
 SetObject
 :
 :
@@ -8572,7 +8572,7 @@ return
 true
 ;
 }
-JSBool
+bool
 SetObject
 :
 :
@@ -8676,7 +8676,7 @@ return
 true
 ;
 }
-JSBool
+bool
 SetObject
 :
 :
@@ -8807,7 +8807,7 @@ return
 true
 ;
 }
-JSBool
+bool
 SetObject
 :
 :
@@ -8931,7 +8931,7 @@ return
 true
 ;
 }
-JSBool
+bool
 SetObject
 :
 :
@@ -9095,7 +9095,7 @@ Values
 )
 ;
 }
-JSBool
+bool
 SetObject
 :
 :
@@ -9152,7 +9152,7 @@ Entries
 )
 ;
 }
-JSBool
+bool
 SetObject
 :
 :
@@ -9266,7 +9266,7 @@ return
 true
 ;
 }
-JSBool
+bool
 SetObject
 :
 :

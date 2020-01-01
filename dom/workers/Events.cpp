@@ -847,7 +847,7 @@ JSVAL_FALSE
 private
 :
 static
-JSBool
+bool
 Construct
 (
 JSContext
@@ -1088,7 +1088,7 @@ true
 ;
 }
 static
-JSBool
+bool
 StopPropagation
 (
 JSContext
@@ -1159,7 +1159,7 @@ true
 ;
 }
 static
-JSBool
+bool
 StopImmediatePropagation
 (
 JSContext
@@ -1230,7 +1230,7 @@ true
 ;
 }
 static
-JSBool
+bool
 PreventDefault
 (
 JSContext
@@ -1325,7 +1325,7 @@ true
 ;
 }
 static
-JSBool
+bool
 InitEvent
 (
 JSContext
@@ -2273,7 +2273,7 @@ aSource
 ;
 }
 static
-JSBool
+bool
 Construct
 (
 JSContext
@@ -2567,7 +2567,7 @@ true
 ;
 }
 static
-JSBool
+bool
 InitMessageEvent
 (
 JSContext
@@ -3325,7 +3325,7 @@ aLineNumber
 ;
 }
 static
-JSBool
+bool
 Construct
 (
 JSContext
@@ -3503,7 +3503,7 @@ true
 ;
 }
 static
-JSBool
+bool
 InitErrorEvent
 (
 JSContext
@@ -4184,7 +4184,7 @@ aTotal
 ;
 }
 static
-JSBool
+bool
 Construct
 (
 JSContext

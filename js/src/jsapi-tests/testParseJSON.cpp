@@ -1431,7 +1431,7 @@ END_TEST
 testParseJSON_error
 )
 static
-JSBool
+bool
 Censor
 (
 JSContext

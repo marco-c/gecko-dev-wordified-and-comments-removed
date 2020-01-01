@@ -1567,7 +1567,8 @@ args
 )
 ;
 }
-JSBool
+static
+bool
 regexp_compile
 (
 JSContext
@@ -1602,7 +1603,7 @@ args
 ;
 }
 static
-JSBool
+bool
 regexp_construct
 (
 JSContext
@@ -1770,7 +1771,8 @@ return
 true
 ;
 }
-JSBool
+static
+bool
 regexp_toString
 (
 JSContext
@@ -3353,7 +3355,7 @@ UpdateRegExpStatics
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -3388,7 +3390,7 @@ args
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -3601,7 +3603,7 @@ RegExpRunStatus_Error
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
@@ -3636,7 +3638,7 @@ args
 )
 ;
 }
-JSBool
+bool
 js
 :
 :
