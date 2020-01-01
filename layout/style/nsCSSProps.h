@@ -109,6 +109,7 @@ eStyleAnimType_Sides_Bottom
 eStyleAnimType_Sides_Left
 eStyleAnimType_nscoord
 eStyleAnimType_Color
+eStyleAnimType_PaintServer
 eStyleAnimType_None
 }
 ;
