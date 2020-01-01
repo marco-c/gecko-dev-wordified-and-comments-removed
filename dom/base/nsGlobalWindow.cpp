@@ -26856,12 +26856,10 @@ SetReadyForFocus
 )
 )
 ;
-if
-(
-!
+PRBool
+oldNeedsFocus
+=
 mNeedsFocus
-)
-return
 ;
 mNeedsFocus
 =
@@ -26888,6 +26886,7 @@ fm
 WindowShown
 (
 this
+oldNeedsFocus
 )
 ;
 }

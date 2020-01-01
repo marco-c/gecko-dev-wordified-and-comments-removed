@@ -3463,6 +3463,8 @@ WindowShown
 nsIDOMWindow
 *
 aWindow
+PRBool
+aNeedsFocus
 )
 {
 nsCOMPtr
@@ -3658,6 +3660,11 @@ window
 return
 NS_OK
 ;
+if
+(
+aNeedsFocus
+)
+{
 nsCOMPtr
 <
 nsPIDOMWindow
@@ -3694,6 +3701,14 @@ PR_FALSE
 PR_FALSE
 )
 ;
+}
+else
+{
+EnsureCurrentWidgetFocused
+(
+)
+;
+}
 return
 NS_OK
 ;
