@@ -2149,12 +2149,6 @@ bool
 gcExactScanningEnabled
 ;
 bool
-gcInTransplant
-;
-unsigned
-gcObjectsMarkedInDeadCompartments
-;
-bool
 gcPoke
 ;
 enum

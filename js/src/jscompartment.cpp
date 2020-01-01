@@ -326,14 +326,6 @@ active
 (
 false
 )
-scheduledForDestruction
-(
-false
-)
-maybeAlive
-(
-true
-)
 lastAnimationTime
 (
 0
