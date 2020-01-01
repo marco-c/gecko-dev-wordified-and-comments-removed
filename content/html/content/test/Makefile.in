@@ -815,6 +815,10 @@ test_bug383383
 .
 html
 \
+test_bug383383_2
+.
+xhtml
+\
 test_bug384419
 .
 html
