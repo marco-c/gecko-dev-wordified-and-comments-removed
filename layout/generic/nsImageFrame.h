@@ -86,6 +86,9 @@ nsImageFrame
 class
 nsTransform2D
 ;
+class
+nsImageLoadingContent
+;
 namespace
 mozilla
 {
@@ -803,6 +806,10 @@ friend
 class
 nsImageListener
 ;
+friend
+class
+nsImageLoadingContent
+;
 nsresult
 OnStartContainer
 (
@@ -855,6 +862,16 @@ const
 nsIntRect
 *
 aDirtyRect
+)
+;
+void
+NotifyNewCurrentRequest
+(
+imgIRequest
+*
+aRequest
+nsresult
+aStatus
 )
 ;
 private
