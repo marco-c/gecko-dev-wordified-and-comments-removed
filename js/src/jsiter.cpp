@@ -588,7 +588,7 @@ JSObject
 *
 aobj
 =
-js_NewArrayObject
+NewDenseCopiedArray
 (
 cx
 2

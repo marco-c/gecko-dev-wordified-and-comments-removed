@@ -8583,7 +8583,7 @@ JSObject
 *
 aobj
 =
-js_NewArrayObject
+NewDenseCopiedArray
 (
 cx
 jsuint
@@ -12181,7 +12181,7 @@ JSObject
 *
 aobj
 =
-js_NewArrayObject
+NewDenseCopiedArray
 (
 cx
 vals

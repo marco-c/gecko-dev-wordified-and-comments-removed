@@ -28505,11 +28505,9 @@ JSObject
 *
 arrayobj
 =
-js_NewArrayObject
+NewDenseEmptyArray
 (
 cx
-0
-NULL
 )
 ;
 if

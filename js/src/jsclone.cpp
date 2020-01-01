@@ -4043,13 +4043,11 @@ tag
 SCTAG_ARRAY_OBJECT
 )
 ?
-js_NewArrayObject
+NewDenseEmptyArray
 (
 context
 (
 )
-0
-NULL
 )
 :
 NewBuiltinClassInstance
