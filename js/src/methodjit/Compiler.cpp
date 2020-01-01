@@ -23604,15 +23604,6 @@ discardFe
 origThis
 )
 ;
-if
-(
-cx
--
->
-typeInferenceEnabled
-(
-)
-)
 masm
 .
 storeValue
