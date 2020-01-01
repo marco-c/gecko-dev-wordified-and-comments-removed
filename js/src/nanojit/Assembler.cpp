@@ -4660,6 +4660,9 @@ break
 ;
 }
 case
+LIR_float
+:
+case
 LIR_quad
 :
 {

@@ -2762,11 +2762,10 @@ None
 )
 OPDEF64
 (
-unused54_64
+float
 54
--
-1
-None
+0
+I64
 )
 /
 /
