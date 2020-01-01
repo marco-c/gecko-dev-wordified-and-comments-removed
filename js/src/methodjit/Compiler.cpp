@@ -9265,15 +9265,15 @@ resetRegState
 Label
 invoke
 ;
+Jump
+j
+;
 if
 (
 !
 typeKnown
 )
 {
-Jump
-j
-;
 if
 (
 !
@@ -9334,6 +9334,7 @@ argc
 )
 )
 ;
+}
 j
 =
 masm
@@ -9399,7 +9400,6 @@ stubs
 SlowCall
 )
 ;
-}
 Address
 funPrivate
 (
