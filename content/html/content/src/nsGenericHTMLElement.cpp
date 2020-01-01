@@ -89,13 +89,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLDocument
-.
-h
-"
-#
-include
-"
 nsIDOMNSHTMLElement
 .
 h

@@ -273,13 +273,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLDocument
-.
-h
-"
-#
-include
-"
 nsDisplayList
 .
 h

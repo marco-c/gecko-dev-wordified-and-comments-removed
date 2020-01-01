@@ -710,10 +710,6 @@ nsIDOMHTMLUnknownElement
 .
 idl
 \
-nsIDOMNSHTMLDocument
-.
-idl
-\
 nsIDOMNSHTMLElement
 .
 idl

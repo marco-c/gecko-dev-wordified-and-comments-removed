@@ -22,7 +22,7 @@ h
 #
 include
 "
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 h
 "
@@ -2519,14 +2519,13 @@ IsWriting
 {
 nsCOMPtr
 <
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 >
 htmlDomDoc
-(
+=
 do_QueryInterface
 (
 doc
-)
 )
 ;
 nsAutoString

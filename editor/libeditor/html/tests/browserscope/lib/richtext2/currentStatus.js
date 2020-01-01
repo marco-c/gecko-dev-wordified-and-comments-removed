@@ -78349,7 +78349,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 execCommand
 ]
@@ -78933,7 +78933,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 execCommand
 ]
@@ -85517,7 +85517,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 execCommand
 ]
@@ -272420,7 +272420,7 @@ code
 NS_ERROR_INVALID_POINTER
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 execCommand
 ]
@@ -272544,7 +272544,7 @@ code
 NS_ERROR_INVALID_POINTER
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 execCommand
 ]
@@ -342222,7 +342222,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 execCommand
 ]
@@ -342346,7 +342346,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 execCommand
 ]
@@ -342470,7 +342470,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 execCommand
 ]
@@ -342605,7 +342605,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 execCommand
 ]
@@ -342729,7 +342729,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 execCommand
 ]
@@ -342853,7 +342853,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 execCommand
 ]
@@ -348995,7 +348995,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -349119,7 +349119,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -349243,7 +349243,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -349375,7 +349375,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -349499,7 +349499,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -349623,7 +349623,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -349755,7 +349755,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -349879,7 +349879,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -350003,7 +350003,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -350135,7 +350135,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -350259,7 +350259,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -350383,7 +350383,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -350515,7 +350515,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -350639,7 +350639,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -350763,7 +350763,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -350893,7 +350893,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -351017,7 +351017,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -351141,7 +351141,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -351273,7 +351273,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -351397,7 +351397,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -351521,7 +351521,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -351651,7 +351651,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -351775,7 +351775,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -351899,7 +351899,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -352031,7 +352031,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -352155,7 +352155,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -352279,7 +352279,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -352411,7 +352411,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -352535,7 +352535,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -352659,7 +352659,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -352791,7 +352791,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -352915,7 +352915,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -353039,7 +353039,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -353171,7 +353171,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -353295,7 +353295,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -353419,7 +353419,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -353551,7 +353551,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -353675,7 +353675,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -353799,7 +353799,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -353931,7 +353931,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -354055,7 +354055,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -354179,7 +354179,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -354311,7 +354311,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -354435,7 +354435,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -354559,7 +354559,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -354691,7 +354691,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -354815,7 +354815,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -354939,7 +354939,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -355071,7 +355071,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -355195,7 +355195,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -355319,7 +355319,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -355451,7 +355451,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -355575,7 +355575,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -355699,7 +355699,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -355831,7 +355831,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -355955,7 +355955,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -356079,7 +356079,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -356211,7 +356211,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -356335,7 +356335,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -356459,7 +356459,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -356591,7 +356591,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -356715,7 +356715,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -356839,7 +356839,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -356971,7 +356971,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -357095,7 +357095,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -357219,7 +357219,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -357351,7 +357351,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -357475,7 +357475,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -357599,7 +357599,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -357731,7 +357731,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -357855,7 +357855,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -357979,7 +357979,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -358111,7 +358111,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -358235,7 +358235,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -358359,7 +358359,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -358491,7 +358491,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -358615,7 +358615,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -358739,7 +358739,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -358871,7 +358871,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -358995,7 +358995,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -359119,7 +359119,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -359251,7 +359251,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -359375,7 +359375,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -359499,7 +359499,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -359631,7 +359631,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -359755,7 +359755,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -359879,7 +359879,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -360011,7 +360011,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -360135,7 +360135,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -360259,7 +360259,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -360391,7 +360391,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -360515,7 +360515,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -360639,7 +360639,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -360771,7 +360771,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -360895,7 +360895,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -361019,7 +361019,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -361151,7 +361151,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -361275,7 +361275,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -361399,7 +361399,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -361531,7 +361531,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -361655,7 +361655,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -361779,7 +361779,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -361911,7 +361911,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -362035,7 +362035,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -362159,7 +362159,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -362291,7 +362291,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -362415,7 +362415,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -362539,7 +362539,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -362671,7 +362671,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -362795,7 +362795,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -362919,7 +362919,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -363051,7 +363051,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -363175,7 +363175,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -363299,7 +363299,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -363431,7 +363431,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -363555,7 +363555,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -363679,7 +363679,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -363811,7 +363811,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -363935,7 +363935,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -364059,7 +364059,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -364191,7 +364191,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -364315,7 +364315,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -364439,7 +364439,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -364571,7 +364571,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -364695,7 +364695,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -364819,7 +364819,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -364951,7 +364951,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -365075,7 +365075,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -365199,7 +365199,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -365331,7 +365331,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -365455,7 +365455,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -365579,7 +365579,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -365711,7 +365711,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -365835,7 +365835,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -365959,7 +365959,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -366091,7 +366091,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -366215,7 +366215,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -366339,7 +366339,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -366471,7 +366471,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -366595,7 +366595,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -366719,7 +366719,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -366853,7 +366853,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -366977,7 +366977,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -367101,7 +367101,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandSupported
 ]
@@ -367346,7 +367346,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandEnabled
 ]
@@ -367470,7 +367470,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandEnabled
 ]
@@ -367594,7 +367594,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandEnabled
 ]
@@ -369140,7 +369140,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandEnabled
 ]
@@ -369264,7 +369264,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandEnabled
 ]
@@ -369388,7 +369388,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandEnabled
 ]
@@ -369823,7 +369823,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandEnabled
 ]
@@ -369947,7 +369947,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandEnabled
 ]
@@ -370071,7 +370071,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandEnabled
 ]
@@ -370304,7 +370304,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandEnabled
 ]
@@ -370428,7 +370428,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandEnabled
 ]
@@ -370552,7 +370552,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandEnabled
 ]
@@ -371896,7 +371896,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandEnabled
 ]
@@ -372020,7 +372020,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandEnabled
 ]
@@ -372144,7 +372144,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandEnabled
 ]
@@ -372276,7 +372276,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandEnabled
 ]
@@ -372400,7 +372400,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandEnabled
 ]
@@ -372524,7 +372524,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandEnabled
 ]
@@ -373466,7 +373466,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandEnabled
 ]
@@ -373590,7 +373590,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandEnabled
 ]
@@ -373714,7 +373714,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandEnabled
 ]
@@ -373858,7 +373858,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -373982,7 +373982,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -374106,7 +374106,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -374238,7 +374238,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -374362,7 +374362,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -374486,7 +374486,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -374618,7 +374618,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -374742,7 +374742,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -374866,7 +374866,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -374998,7 +374998,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -375122,7 +375122,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -375246,7 +375246,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -375984,7 +375984,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -376108,7 +376108,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -376232,7 +376232,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -376364,7 +376364,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -376488,7 +376488,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -376612,7 +376612,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -376845,7 +376845,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -376969,7 +376969,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -377093,7 +377093,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -377225,7 +377225,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -377349,7 +377349,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -377473,7 +377473,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -377605,7 +377605,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -377729,7 +377729,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -377853,7 +377853,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -377985,7 +377985,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -378109,7 +378109,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -378233,7 +378233,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -378668,7 +378668,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -378792,7 +378792,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -378916,7 +378916,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -379048,7 +379048,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -379172,7 +379172,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -379296,7 +379296,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -379428,7 +379428,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -379552,7 +379552,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -379676,7 +379676,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -379808,7 +379808,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -379932,7 +379932,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -380056,7 +380056,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -380188,7 +380188,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -380312,7 +380312,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -380436,7 +380436,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -381073,7 +381073,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -381197,7 +381197,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -381321,7 +381321,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -381453,7 +381453,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -381577,7 +381577,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -381701,7 +381701,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -381833,7 +381833,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -381957,7 +381957,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -382081,7 +382081,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -382213,7 +382213,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -382337,7 +382337,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -382461,7 +382461,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -382593,7 +382593,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -382717,7 +382717,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -382841,7 +382841,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -382973,7 +382973,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -383097,7 +383097,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -383221,7 +383221,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -383353,7 +383353,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -383477,7 +383477,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -383601,7 +383601,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -384137,7 +384137,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -384261,7 +384261,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -384385,7 +384385,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -384517,7 +384517,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -384641,7 +384641,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -384765,7 +384765,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -384897,7 +384897,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -385021,7 +385021,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -385145,7 +385145,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -385277,7 +385277,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -385401,7 +385401,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -385525,7 +385525,7 @@ code
 NS_ERROR_FAILURE
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -385659,7 +385659,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -385783,7 +385783,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]
@@ -385907,7 +385907,7 @@ code
 NS_ERROR_NOT_IMPLEMENTED
 )
 [
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 queryCommandIndeterm
 ]

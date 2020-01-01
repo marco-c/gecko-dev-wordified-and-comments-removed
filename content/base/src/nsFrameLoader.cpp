@@ -262,7 +262,7 @@ h
 #
 include
 "
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 .
 h
 "
@@ -3241,7 +3241,7 @@ presShell
 {
 nsCOMPtr
 <
-nsIDOMNSHTMLDocument
+nsIDOMHTMLDocument
 >
 doc
 =

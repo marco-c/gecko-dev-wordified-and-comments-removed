@@ -393,13 +393,6 @@ h
 #
 include
 "
-nsIDOMNSHTMLDocument
-.
-h
-"
-#
-include
-"
 nsIDOMHTMLCollection
 .
 h
