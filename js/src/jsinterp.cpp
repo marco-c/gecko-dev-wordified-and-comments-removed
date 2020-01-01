@@ -35578,6 +35578,15 @@ cx
 s
 )
 ;
+JS_TRACE_MONITOR
+(
+cx
+)
+.
+freq
+=
+0
+;
 RESTORE_STATE
 (
 &
