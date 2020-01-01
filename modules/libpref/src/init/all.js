@@ -28188,7 +28188,7 @@ flushtimer
 .
 initialdelay
 "
-200
+120
 )
 ;
 pref

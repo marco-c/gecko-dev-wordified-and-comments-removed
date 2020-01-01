@@ -102,7 +102,7 @@ nsHtml5StreamParser
 :
 sTimerInitialDelay
 =
-200
+120
 ;
 PRInt32
 nsHtml5StreamParser
@@ -110,7 +110,7 @@ nsHtml5StreamParser
 :
 sTimerSubsequentDelay
 =
-100
+120
 ;
 void
 nsHtml5StreamParser
