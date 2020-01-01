@@ -71,8 +71,6 @@ https
 /
 /
 aus2
--
-staging
 .
 mozilla
 .
