@@ -7,7 +7,7 @@ nsISO88599ToUnicode_h___
 #
 include
 "
-nsISupports
+nsCP1254ToUnicode
 .
 h
 "
