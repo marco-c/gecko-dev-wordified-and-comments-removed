@@ -372,10 +372,6 @@ nsIDOMValidityState
 .
 idl
 \
-nsIDOMDOMStringMap
-.
-idl
-\
 nsIDOMMozBrowserFrame
 .
 idl

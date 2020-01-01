@@ -1187,10 +1187,6 @@ MozURLProperty
 )
 DOMCI_CLASS
 (
-DOMStringMap
-)
-DOMCI_CLASS
-(
 ModalContentWindow
 )
 DOMCI_CLASS

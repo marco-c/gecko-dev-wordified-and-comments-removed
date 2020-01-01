@@ -106,9 +106,6 @@ nsIVariant
 idl
 "
 interface
-nsIDOMDOMStringMap
-;
-interface
 nsIDOMHTMLMenuElement
 ;
 interface
@@ -267,7 +264,7 @@ className
 ;
 readonly
 attribute
-nsIDOMDOMStringMap
+nsISupports
 dataset
 ;
 attribute

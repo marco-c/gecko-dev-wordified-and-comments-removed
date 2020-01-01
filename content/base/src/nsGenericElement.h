@@ -134,13 +134,6 @@ h
 #
 include
 "
-nsIDOMDOMStringMap
-.
-h
-"
-#
-include
-"
 nsDOMClassInfoID
 .
 h

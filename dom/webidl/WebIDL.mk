@@ -135,6 +135,10 @@ DOMSettableTokenList
 .
 webidl
 \
+DOMStringMap
+.
+webidl
+\
 Function
 .
 webidl
