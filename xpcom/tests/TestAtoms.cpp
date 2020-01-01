@@ -1315,6 +1315,9 @@ test_invalid
 "
 test_invalid
 }
+#
+if
+0
 {
 "
 test_atomtable
@@ -1327,6 +1330,8 @@ test_permanent
 "
 test_permanent
 }
+#
+endif
 {
 nsnull
 nsnull
