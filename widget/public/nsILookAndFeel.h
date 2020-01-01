@@ -186,6 +186,7 @@ eMetric_TreeScrollDelay
 eMetric_TreeScrollLinesMax
 eMetric_TabFocusModel
 eMetric_AlertNotificationOrigin
+eMetric_ScrollToClick
 }
 nsMetricID
 ;

@@ -484,6 +484,17 @@ PR_FALSE
 nsLookAndFeelTypeInt
 0
 }
+{
+"
+ui
+.
+scrollToClick
+"
+eMetric_ScrollToClick
+PR_FALSE
+nsLookAndFeelTypeInt
+0
+}
 }
 ;
 nsLookAndFeelFloatPref

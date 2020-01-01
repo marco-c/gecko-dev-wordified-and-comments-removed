@@ -642,6 +642,16 @@ tabfocus_applies_to_xul
 false
 )
 ;
+pref
+(
+"
+ui
+.
+scrollToClick
+"
+0
+)
+;
 #
 else
 pref
