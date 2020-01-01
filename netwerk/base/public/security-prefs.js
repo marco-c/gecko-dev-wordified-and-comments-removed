@@ -47,6 +47,16 @@ pref
 "
 security
 .
+enable_tls_session_tickets
+"
+true
+)
+;
+pref
+(
+"
+security
+.
 ssl2
 .
 rc4_128
