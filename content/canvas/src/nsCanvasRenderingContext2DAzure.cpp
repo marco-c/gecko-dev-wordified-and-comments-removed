@@ -21089,12 +21089,12 @@ LayerManager
 aManager
 )
 {
-EnsureTarget
-(
-)
-;
 if
 (
+!
+mTarget
+|
+|
 !
 IsTargetValid
 (
