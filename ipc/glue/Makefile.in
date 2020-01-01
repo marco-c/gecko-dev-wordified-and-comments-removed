@@ -607,6 +607,10 @@ ScopedXREEmbed
 .
 cpp
 \
+SharedMemory
+.
+cpp
+\
 Shmem
 .
 cpp

@@ -59,6 +59,13 @@ h
 #
 ifdef
 MOZ_HAVE_SHMIMAGE
+using
+namespace
+mozilla
+:
+:
+ipc
+;
 static
 PRBool
 gShmAvailable
@@ -184,6 +191,11 @@ nsnull
 size_t
 size
 =
+SharedMemory
+:
+:
+PageAlignedSize
+(
 shm
 -
 >
@@ -199,6 +211,7 @@ mImage
 -
 >
 height
+)
 ;
 shm
 -
