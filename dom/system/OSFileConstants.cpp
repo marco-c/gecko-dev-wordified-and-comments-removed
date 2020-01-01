@@ -2044,6 +2044,12 @@ get
 )
 )
 ;
+NS_ENSURE_TRUE
+(
+strValue
+false
+)
+;
 jsval
 valValue
 =
