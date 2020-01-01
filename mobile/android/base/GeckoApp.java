@@ -1100,8 +1100,6 @@ String
 PackageManager
 pm
 =
-this
-.
 mAppContext
 .
 getPackageManager
@@ -1887,8 +1885,6 @@ ClassNotFoundException
 Context
 pluginContext
 =
-this
-.
 mAppContext
 .
 createPackageContext
@@ -2020,13 +2016,13 @@ aMenu
 .
 add
 (
-aMenu
+Menu
 .
 NONE
 item
 .
 id
-aMenu
+Menu
 .
 NONE
 item
@@ -7331,8 +7327,6 @@ getTab
 tabId
 )
 ;
-mAppContext
-.
 mDoorHangerPopup
 .
 addDoorHanger

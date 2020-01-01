@@ -3134,8 +3134,6 @@ if
 (
 GeckoApp
 .
-mAppContext
-.
 checkLaunchState
 (
 GeckoApp
@@ -3768,8 +3766,6 @@ onXreExit
 )
 {
 GeckoApp
-.
-mAppContext
 .
 setLaunchState
 (
@@ -8031,10 +8027,6 @@ countdown
 try
 {
 Thread
-.
-currentThread
-(
-)
 .
 sleep
 (

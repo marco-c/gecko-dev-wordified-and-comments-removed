@@ -2124,7 +2124,7 @@ list
 int
 childPosition
 =
-exList
+ExpandableListView
 .
 getPackedPositionChild
 (
@@ -2136,7 +2136,7 @@ packedPosition
 int
 groupPosition
 =
-exList
+ExpandableListView
 .
 getPackedPositionGroup
 (
