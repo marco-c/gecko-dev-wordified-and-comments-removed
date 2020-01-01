@@ -507,7 +507,16 @@ Service
 .
 clusterURL
 =
-TEST_CLUSTER_URL
+"
+http
+:
+/
+/
+dummy
+:
+9000
+/
+"
 ;
 Service
 .

@@ -423,11 +423,13 @@ handlers
 function
 setUp
 (
+server
 )
 {
 new
 SyncTestingInfrastructure
 (
+server
 "
 johndoe
 "
@@ -659,6 +661,7 @@ handler
 ;
 setUp
 (
+server
 )
 ;
 try
@@ -875,6 +878,7 @@ handler
 ;
 setUp
 (
+server
 )
 ;
 try
@@ -1121,6 +1125,7 @@ handler
 ;
 setUp
 (
+server
 )
 ;
 try
@@ -1455,6 +1460,7 @@ service_unavailable
 ;
 setUp
 (
+server
 )
 ;
 _
@@ -1729,6 +1735,7 @@ handler
 ;
 setUp
 (
+server
 )
 ;
 try
@@ -2033,6 +2040,7 @@ handler
 ;
 setUp
 (
+server
 )
 ;
 try
@@ -2351,6 +2359,7 @@ handler
 ;
 setUp
 (
+server
 )
 ;
 try
@@ -2607,6 +2616,7 @@ handler
 ;
 setUp
 (
+server
 )
 ;
 try
@@ -2940,6 +2950,7 @@ handler
 ;
 setUp
 (
+server
 )
 ;
 try

@@ -167,7 +167,9 @@ Service
 .
 serverURL
 =
-TEST_SERVER_URL
+server
+.
+baseURI
 ;
 _
 (
