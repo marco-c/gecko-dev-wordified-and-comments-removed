@@ -523,6 +523,10 @@ browser_sidebarpanels_click
 .
 js
 \
+browser_library_infoBox
+.
+js
+\
 (
 NULL
 )
