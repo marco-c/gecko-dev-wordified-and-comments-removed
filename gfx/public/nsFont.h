@@ -115,7 +115,7 @@ variant
 :
 7
 ;
-PRPackedBool
+PRUint8
 familyNameQuirks
 :
 1
