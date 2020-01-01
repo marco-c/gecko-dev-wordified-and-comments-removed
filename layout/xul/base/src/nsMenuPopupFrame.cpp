@@ -4914,7 +4914,7 @@ mRect
 height
 )
 -
-screenHeightTwips
+screenBottomTwips
 ;
 if
 (
