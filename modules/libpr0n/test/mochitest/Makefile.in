@@ -715,6 +715,10 @@ test_bullet_animation
 .
 html
 \
+test_background_image_anim
+.
+html
+\
 (
 NULL
 )
