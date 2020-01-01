@@ -326,6 +326,7 @@ if
 peek
 (
 -
+int32_t
 (
 i
 +

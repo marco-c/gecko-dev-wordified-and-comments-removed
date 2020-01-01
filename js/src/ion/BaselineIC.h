@@ -4476,7 +4476,9 @@ mainFallbackStub
 )
 firstMonitorStub_
 (
-this
+thisFromCtor
+(
+)
 )
 lastMonitorStubPtrAddr_
 (
@@ -4498,6 +4500,16 @@ argumentIndex_
 argumentIndex
 )
 {
+}
+ICTypeMonitor_Fallback
+*
+thisFromCtor
+(
+)
+{
+return
+this
+;
 }
 void
 addOptimizedMonitorStub
