@@ -324,15 +324,6 @@ nsAnonymousContentList
 )
 NS_DECL_NSIDOMNODELIST
 virtual
-nsIContent
-*
-GetNodeAt
-(
-PRUint32
-aIndex
-)
-;
-virtual
 PRInt32
 IndexOf
 (
