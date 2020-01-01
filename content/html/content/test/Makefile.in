@@ -1243,6 +1243,10 @@ test_bug838582
 .
 html
 \
+test_bug839913
+.
+html
+\
 test_bug841466
 .
 html
