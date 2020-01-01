@@ -309,8 +309,6 @@ i
 ]
 .
 fe
-(
-)
 ;
 if
 (
@@ -373,8 +371,6 @@ evictFromFrame
 ]
 .
 fe
-(
-)
 ;
 SyncEntry
 &
@@ -395,8 +391,6 @@ evictFromFrame
 ]
 .
 type
-(
-)
 =
 =
 RematInfo
@@ -1419,8 +1413,6 @@ reg
 ]
 .
 fe
-(
-)
 )
 {
 avail
@@ -1498,8 +1490,6 @@ reg
 ]
 .
 fe
-(
-)
 )
 {
 avail
