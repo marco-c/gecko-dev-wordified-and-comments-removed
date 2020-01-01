@@ -440,6 +440,14 @@ test_bug42976
 .
 html
 \
+test_bug49312
+.
+html
+\
+iframe_bug49312
+.
+html
+\
 test_bug159849
 .
 html
