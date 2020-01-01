@@ -1536,13 +1536,6 @@ Shutdown
 (
 )
 ;
-FrameLayerBuilder
-:
-:
-Shutdown
-(
-)
-;
 #
 ifdef
 MOZ_MEDIA_PLUGINS
