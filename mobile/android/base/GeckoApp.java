@@ -12377,6 +12377,10 @@ e
 }
 }
 }
+"
+DNSPrefetcher
+Thread
+"
 )
 .
 start
