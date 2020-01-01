@@ -550,6 +550,10 @@ test_bug493187
 .
 html
 \
+test_bug495145
+.
+html
+\
 test_can_play_type_ogg
 .
 html
@@ -850,6 +854,10 @@ test_bug465498
 html
 \
 test_bug468190_wav
+.
+html
+\
+test_bug495145_wav
 .
 html
 \

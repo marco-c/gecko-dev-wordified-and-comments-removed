@@ -6385,6 +6385,12 @@ mPlayState
 =
 =
 PLAY_STATE_SEEKING
+|
+|
+mPlayState
+=
+=
+PLAY_STATE_ENDED
 )
 {
 mNextState

@@ -862,6 +862,12 @@ mState
 =
 =
 STATE_BUFFERING
+|
+|
+mState
+=
+=
+STATE_ENDED
 )
 {
 mNextState
