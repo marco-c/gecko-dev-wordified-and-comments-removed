@@ -202,6 +202,12 @@ onupgradeneeded
 =
 grabEventAndContinueHandler
 ;
+request
+.
+onsuccess
+=
+grabEventAndContinueHandler
+;
 let
 event
 =
@@ -992,6 +998,8 @@ threw
 )
 ;
 }
+yield
+;
 request
 =
 db
