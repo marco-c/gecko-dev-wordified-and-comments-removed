@@ -1397,6 +1397,8 @@ toExtended
 )
 const
 ;
+public
+:
 inline
 bool
 isExtended
@@ -1446,8 +1448,6 @@ EXTENDED
 )
 ;
 }
-public
-:
 inline
 void
 initializeExtended
@@ -1771,6 +1771,17 @@ FunctionExtended
 public
 JSFunction
 {
+public
+:
+static
+const
+unsigned
+NUM_EXTENDED_SLOTS
+=
+2
+;
+private
+:
 friend
 class
 JSFunction
@@ -1778,7 +1789,7 @@ JSFunction
 HeapValue
 extendedSlots
 [
-2
+NUM_EXTENDED_SLOTS
 ]
 ;
 }
