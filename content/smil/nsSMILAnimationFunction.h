@@ -599,6 +599,7 @@ aCanCacheSoFar
 )
 const
 ;
+virtual
 nsresult
 GetValues
 (

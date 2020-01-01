@@ -396,6 +396,17 @@ aMatrix
 ;
 virtual
 void
+SetAnimateMotionTransform
+(
+const
+gfxMatrix
+*
+aMatrix
+)
+{
+}
+virtual
+void
 DidChangeLength
 (
 PRUint8

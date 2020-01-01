@@ -970,9 +970,11 @@ if
 mLastValue
 )
 {
+const
 nsSMILValue
+&
 last
-(
+=
 values
 [
 values
@@ -983,7 +985,6 @@ Length
 -
 1
 ]
-)
 ;
 result
 =
