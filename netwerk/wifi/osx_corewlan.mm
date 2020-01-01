@@ -66,6 +66,15 @@ Cocoa
 h
 >
 #
+import
+<
+CoreWLAN
+/
+CoreWLAN
+.
+h
+>
+#
 include
 <
 mach
