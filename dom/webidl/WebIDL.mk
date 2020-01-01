@@ -1151,6 +1151,10 @@ XPathEvaluator
 .
 webidl
 \
+XULDocument
+.
+webidl
+\
 XULElement
 .
 webidl
