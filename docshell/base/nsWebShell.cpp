@@ -3415,8 +3415,10 @@ refererDoc
 NS_ERROR_UNEXPECTED
 )
 ;
+nsCOMPtr
+<
 nsIURI
-*
+>
 referer
 =
 refererDoc
