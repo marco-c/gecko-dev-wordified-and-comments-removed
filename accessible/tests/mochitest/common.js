@@ -592,6 +592,16 @@ true
 :
 false
 ;
+const
+kEmbedChar
+=
+String
+.
+fromCharCode
+(
+0xfffc
+)
+;
 var
 gAccRetrieval
 =
