@@ -545,7 +545,7 @@ Ci
 nsIXULAppInfo
 )
 .
-appBuildID
+platformBuildID
 ;
 let
 localeBuildID
