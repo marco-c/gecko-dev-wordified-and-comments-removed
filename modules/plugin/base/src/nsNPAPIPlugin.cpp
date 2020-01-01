@@ -361,6 +361,10 @@ PluginModuleParent
 #
 endif
 static
+NPNetscapeFuncs
+sBrowserFuncs
+;
+static
 PRLock
 *
 sPluginThreadAsyncCallLock
@@ -497,19 +501,12 @@ runTime
 )
 ;
 }
-NPNetscapeFuncs
-nsNPAPIPlugin
-:
-:
-CALLBACKS
-;
 void
 nsNPAPIPlugin
 :
 :
 CheckClassInitialized
 (
-void
 )
 {
 static
@@ -524,16 +521,16 @@ initialized
 )
 return
 ;
-CALLBACKS
+sBrowserFuncs
 .
 size
 =
 sizeof
 (
-CALLBACKS
+sBrowserFuncs
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 version
 =
@@ -546,7 +543,7 @@ NP_VERSION_MAJOR
 +
 NP_VERSION_MINOR
 ;
-CALLBACKS
+sBrowserFuncs
 .
 geturl
 =
@@ -557,7 +554,7 @@ NPN_GetURLProcPtr
 _geturl
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 posturl
 =
@@ -568,7 +565,7 @@ NPN_PostURLProcPtr
 _posturl
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 requestread
 =
@@ -579,7 +576,7 @@ NPN_RequestReadProcPtr
 _requestread
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 newstream
 =
@@ -590,7 +587,7 @@ NPN_NewStreamProcPtr
 _newstream
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 write
 =
@@ -601,7 +598,7 @@ NPN_WriteProcPtr
 _write
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 destroystream
 =
@@ -612,7 +609,7 @@ NPN_DestroyStreamProcPtr
 _destroystream
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 status
 =
@@ -623,7 +620,7 @@ NPN_StatusProcPtr
 _status
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 uagent
 =
@@ -634,7 +631,7 @@ NPN_UserAgentProcPtr
 _useragent
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 memalloc
 =
@@ -645,7 +642,7 @@ NPN_MemAllocProcPtr
 _memalloc
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 memfree
 =
@@ -656,7 +653,7 @@ NPN_MemFreeProcPtr
 _memfree
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 memflush
 =
@@ -667,7 +664,7 @@ NPN_MemFlushProcPtr
 _memflush
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 reloadplugins
 =
@@ -678,7 +675,7 @@ NPN_ReloadPluginsProcPtr
 _reloadplugins
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 getJavaEnv
 =
@@ -689,7 +686,7 @@ NPN_GetJavaEnvProcPtr
 _getJavaEnv
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 getJavaPeer
 =
@@ -700,7 +697,7 @@ NPN_GetJavaPeerProcPtr
 _getJavaPeer
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 geturlnotify
 =
@@ -711,7 +708,7 @@ NPN_GetURLNotifyProcPtr
 _geturlnotify
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 posturlnotify
 =
@@ -722,7 +719,7 @@ NPN_PostURLNotifyProcPtr
 _posturlnotify
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 getvalue
 =
@@ -733,7 +730,7 @@ NPN_GetValueProcPtr
 _getvalue
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 setvalue
 =
@@ -744,7 +741,7 @@ NPN_SetValueProcPtr
 _setvalue
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 invalidaterect
 =
@@ -755,7 +752,7 @@ NPN_InvalidateRectProcPtr
 _invalidaterect
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 invalidateregion
 =
@@ -766,7 +763,7 @@ NPN_InvalidateRegionProcPtr
 _invalidateregion
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 forceredraw
 =
@@ -777,7 +774,7 @@ NPN_ForceRedrawProcPtr
 _forceredraw
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 getstringidentifier
 =
@@ -788,7 +785,7 @@ NPN_GetStringIdentifierProcPtr
 _getstringidentifier
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 getstringidentifiers
 =
@@ -799,7 +796,7 @@ NPN_GetStringIdentifiersProcPtr
 _getstringidentifiers
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 getintidentifier
 =
@@ -810,7 +807,7 @@ NPN_GetIntIdentifierProcPtr
 _getintidentifier
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 identifierisstring
 =
@@ -821,7 +818,7 @@ NPN_IdentifierIsStringProcPtr
 _identifierisstring
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 utf8fromidentifier
 =
@@ -832,7 +829,7 @@ NPN_UTF8FromIdentifierProcPtr
 _utf8fromidentifier
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 intfromidentifier
 =
@@ -843,7 +840,7 @@ NPN_IntFromIdentifierProcPtr
 _intfromidentifier
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 createobject
 =
@@ -854,7 +851,7 @@ NPN_CreateObjectProcPtr
 _createobject
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 retainobject
 =
@@ -865,7 +862,7 @@ NPN_RetainObjectProcPtr
 _retainobject
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 releaseobject
 =
@@ -876,7 +873,7 @@ NPN_ReleaseObjectProcPtr
 _releaseobject
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 invoke
 =
@@ -887,7 +884,7 @@ NPN_InvokeProcPtr
 _invoke
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 invokeDefault
 =
@@ -898,7 +895,7 @@ NPN_InvokeDefaultProcPtr
 _invokeDefault
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 evaluate
 =
@@ -909,7 +906,7 @@ NPN_EvaluateProcPtr
 _evaluate
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 getproperty
 =
@@ -920,7 +917,7 @@ NPN_GetPropertyProcPtr
 _getproperty
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 setproperty
 =
@@ -931,7 +928,7 @@ NPN_SetPropertyProcPtr
 _setproperty
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 removeproperty
 =
@@ -942,7 +939,7 @@ NPN_RemovePropertyProcPtr
 _removeproperty
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 hasproperty
 =
@@ -953,7 +950,7 @@ NPN_HasPropertyProcPtr
 _hasproperty
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 hasmethod
 =
@@ -964,7 +961,7 @@ NPN_HasMethodProcPtr
 _hasmethod
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 enumerate
 =
@@ -975,7 +972,7 @@ NPN_EnumerateProcPtr
 _enumerate
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 construct
 =
@@ -986,7 +983,7 @@ NPN_ConstructProcPtr
 _construct
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 releasevariantvalue
 =
@@ -997,7 +994,7 @@ NPN_ReleaseVariantValueProcPtr
 _releasevariantvalue
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 setexception
 =
@@ -1008,7 +1005,7 @@ NPN_SetExceptionProcPtr
 _setexception
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 pushpopupsenabledstate
 =
@@ -1019,7 +1016,7 @@ NPN_PushPopupsEnabledStateProcPtr
 _pushpopupsenabledstate
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 poppopupsenabledstate
 =
@@ -1030,7 +1027,7 @@ NPN_PopPopupsEnabledStateProcPtr
 _poppopupsenabledstate
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 pluginthreadasynccall
 =
@@ -1041,7 +1038,7 @@ NPN_PluginThreadAsyncCallProcPtr
 _pluginthreadasynccall
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 getvalueforurl
 =
@@ -1052,7 +1049,7 @@ NPN_GetValueForURLPtr
 _getvalueforurl
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 setvalueforurl
 =
@@ -1063,7 +1060,7 @@ NPN_SetValueForURLPtr
 _setvalueforurl
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 getauthenticationinfo
 =
@@ -1074,7 +1071,7 @@ NPN_GetAuthenticationInfoPtr
 _getauthenticationinfo
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 scheduletimer
 =
@@ -1085,7 +1082,7 @@ NPN_ScheduleTimerPtr
 _scheduletimer
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 unscheduletimer
 =
@@ -1096,7 +1093,7 @@ NPN_UnscheduleTimerPtr
 _unscheduletimer
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 popupcontextmenu
 =
@@ -1107,7 +1104,7 @@ NPN_PopUpContextMenuPtr
 _popupcontextmenu
 )
 ;
-CALLBACKS
+sBrowserFuncs
 .
 convertpoint
 =
@@ -1179,24 +1176,24 @@ void
 *
 )
 &
-fCallbacks
+mPluginFuncs
 0
 sizeof
 (
-fCallbacks
+mPluginFuncs
 )
 )
 ;
-fCallbacks
+mPluginFuncs
 .
 size
 =
 sizeof
 (
-fCallbacks
+mPluginFuncs
 )
 ;
-fLibrary
+mLibrary
 =
 nsnull
 ;
@@ -1228,7 +1225,7 @@ aLibrary
 NP_GetEntryPoints
 (
 &
-fCallbacks
+mPluginFuncs
 &
 gepError
 )
@@ -1252,7 +1249,7 @@ NS_ASSERTION
 (
 HIBYTE
 (
-fCallbacks
+mPluginFuncs
 .
 version
 )
@@ -1348,10 +1345,7 @@ NP_Initialize
 (
 &
 (
-nsNPAPIPlugin
-:
-:
-CALLBACKS
+sBrowserFuncs
 )
 &
 initError
@@ -1404,7 +1398,7 @@ NPERR_NO_ERROR
 )
 return
 ;
-fCallbacks
+mPluginFuncs
 .
 version
 =
@@ -1412,7 +1406,7 @@ np_callbacks
 .
 version
 ;
-fCallbacks
+mPluginFuncs
 .
 newp
 =
@@ -1423,7 +1417,7 @@ np_callbacks
 .
 newp
 ;
-fCallbacks
+mPluginFuncs
 .
 destroy
 =
@@ -1434,7 +1428,7 @@ np_callbacks
 .
 destroy
 ;
-fCallbacks
+mPluginFuncs
 .
 setwindow
 =
@@ -1445,7 +1439,7 @@ np_callbacks
 .
 setwindow
 ;
-fCallbacks
+mPluginFuncs
 .
 newstream
 =
@@ -1456,7 +1450,7 @@ np_callbacks
 .
 newstream
 ;
-fCallbacks
+mPluginFuncs
 .
 destroystream
 =
@@ -1467,7 +1461,7 @@ np_callbacks
 .
 destroystream
 ;
-fCallbacks
+mPluginFuncs
 .
 asfile
 =
@@ -1478,7 +1472,7 @@ np_callbacks
 .
 asfile
 ;
-fCallbacks
+mPluginFuncs
 .
 writeready
 =
@@ -1489,7 +1483,7 @@ np_callbacks
 .
 writeready
 ;
-fCallbacks
+mPluginFuncs
 .
 write
 =
@@ -1500,7 +1494,7 @@ np_callbacks
 .
 write
 ;
-fCallbacks
+mPluginFuncs
 .
 print
 =
@@ -1511,7 +1505,7 @@ np_callbacks
 .
 print
 ;
-fCallbacks
+mPluginFuncs
 .
 event
 =
@@ -1522,7 +1516,7 @@ np_callbacks
 .
 event
 ;
-fCallbacks
+mPluginFuncs
 .
 urlnotify
 =
@@ -1533,7 +1527,7 @@ np_callbacks
 .
 urlnotify
 ;
-fCallbacks
+mPluginFuncs
 .
 getvalue
 =
@@ -1544,7 +1538,7 @@ np_callbacks
 .
 getvalue
 ;
-fCallbacks
+mPluginFuncs
 .
 setvalue
 =
@@ -1564,7 +1558,7 @@ void
 *
 )
 &
-fCallbacks
+mPluginFuncs
 (
 void
 *
@@ -1572,17 +1566,17 @@ void
 callbacks
 sizeof
 (
-fCallbacks
+mPluginFuncs
 )
 )
 ;
 #
 endif
-fLibrary
+mLibrary
 =
 aLibrary
 ;
-fLibrary
+mLibrary
 -
 >
 SetPlugin
@@ -1606,18 +1600,18 @@ void
 *
 )
 &
-fCallbacks
+mPluginFuncs
 0
 sizeof
 (
-fCallbacks
+mPluginFuncs
 )
 )
 ;
 delete
-fLibrary
+mLibrary
 ;
-fLibrary
+mLibrary
 =
 NULL
 ;
@@ -1638,7 +1632,7 @@ short
 aRefNum
 )
 {
-fPluginRefNum
+mPluginRefNum
 =
 aRefNum
 ;
@@ -2116,10 +2110,7 @@ NP_Initialize
 (
 &
 (
-nsNPAPIPlugin
-:
-:
-CALLBACKS
+sBrowserFuncs
 )
 &
 callbacks
@@ -2162,7 +2153,7 @@ void
 plptr
 -
 >
-fCallbacks
+mPluginFuncs
 )
 (
 void
@@ -2257,10 +2248,7 @@ NP_Initialize
 (
 &
 (
-nsNPAPIPlugin
-:
-:
-CALLBACKS
+sBrowserFuncs
 )
 &
 initError
@@ -2616,10 +2604,7 @@ pfnInitialize
 (
 &
 (
-nsNPAPIPlugin
-:
-:
-CALLBACKS
+sBrowserFuncs
 )
 )
 ;
@@ -2709,8 +2694,6 @@ CurResFile
 short
 pluginRefNum
 ;
-#
-endif
 nsCOMPtr
 <
 nsILocalFile
@@ -2736,9 +2719,6 @@ pluginFile
 pluginPath
 )
 ;
-#
-ifndef
-__LP64__
 pluginRefNum
 =
 pluginFile
@@ -2956,10 +2936,7 @@ pfnInitialize
 (
 &
 (
-nsNPAPIPlugin
-:
-:
-CALLBACKS
+sBrowserFuncs
 )
 &
 callbacks
@@ -2982,7 +2959,7 @@ void
 plptr
 -
 >
-fCallbacks
+mPluginFuncs
 )
 (
 void
@@ -3038,8 +3015,8 @@ nsNPAPIPluginInstance
 (
 this
 &
-fCallbacks
-fLibrary
+mPluginFuncs
+mLibrary
 )
 ;
 if
@@ -3077,13 +3054,12 @@ nsNPAPIPlugin
 :
 Initialize
 (
-void
 )
 {
 if
 (
 !
-fLibrary
+mLibrary
 )
 return
 NS_ERROR_FAILURE
@@ -3098,7 +3074,6 @@ nsNPAPIPlugin
 :
 Shutdown
 (
-void
 )
 {
 NPP_PLUGIN_LOG
@@ -3126,7 +3101,7 @@ this
 NPError
 shutdownError
 ;
-fLibrary
+mLibrary
 -
 >
 NP_Shutdown
@@ -3146,7 +3121,7 @@ shutdownError
 NS_OK
 &
 &
-fPluginRefNum
+mPluginRefNum
 >
 0
 )
@@ -3154,7 +3129,7 @@ fPluginRefNum
 :
 CloseResFile
 (
-fPluginRefNum
+mPluginRefNum
 )
 ;
 #
@@ -3179,7 +3154,7 @@ resultingDesc
 nsresult
 gmdResult
 =
-fLibrary
+mLibrary
 -
 >
 NP_GetMIMEDescription
@@ -3246,7 +3221,7 @@ variable
 NPError
 gvError
 ;
-fLibrary
+mLibrary
 -
 >
 NP_GetValue
@@ -3557,7 +3532,6 @@ NPStream
 *
 GetNPStream
 (
-void
 )
 {
 return
@@ -4032,7 +4006,6 @@ nsNPAPIStreamWrapper
 ~
 nsNPAPIStreamWrapper
 (
-void
 )
 {
 fStream
@@ -11350,7 +11323,6 @@ void
 NP_CALLBACK
 _getJavaEnv
 (
-void
 )
 {
 NPN_PLUGIN_LOG
