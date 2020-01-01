@@ -794,12 +794,14 @@ window
 .
 Tabs
 )
+{
 this
 .
 init
 (
 )
 ;
+}
 else
 {
 var
