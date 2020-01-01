@@ -311,6 +311,9 @@ focusEventCount
 int32_t
 eventModel
 ;
+bool
+closeStream
+;
 }
 InstanceData
 ;
