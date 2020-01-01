@@ -101,8 +101,7 @@ BINPATH
 chrome
 /
 AB_CD
-.
-jar
+JAREXT
 BINPATH
 /
 chrome
@@ -2344,8 +2343,7 @@ BINPATH
 chrome
 /
 browser
-.
-jar
+JAREXT
 BINPATH
 /
 chrome
@@ -2435,8 +2433,7 @@ BINPATH
 chrome
 /
 toolkit
-.
-jar
+JAREXT
 BINPATH
 /
 chrome
@@ -3105,8 +3102,7 @@ BINPATH
 chrome
 /
 pippki
-.
-jar
+JAREXT
 BINPATH
 /
 chrome
