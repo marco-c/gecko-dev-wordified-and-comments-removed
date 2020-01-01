@@ -617,6 +617,10 @@ hasIDIV
 (
 )
 {
+#
+if
+defined
+HWCAP_IDIVA
 return
 js
 :
@@ -630,6 +634,13 @@ getFlags
 &
 HWCAP_IDIVA
 ;
+#
+else
+return
+false
+;
+#
+endif
 }
 }
 }
