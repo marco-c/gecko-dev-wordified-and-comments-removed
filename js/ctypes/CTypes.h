@@ -368,7 +368,8 @@ JSObject
 proto
 TypeCode
 type
-jsval
+JSString
+*
 name
 jsval
 size
