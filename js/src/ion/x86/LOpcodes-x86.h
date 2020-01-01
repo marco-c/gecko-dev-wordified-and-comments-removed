@@ -68,7 +68,7 @@ AsmJSLoadFuncPtr
 \
 _
 (
-AsmJSDivOrMod
+UDivOrMod
 )
 #
 endif

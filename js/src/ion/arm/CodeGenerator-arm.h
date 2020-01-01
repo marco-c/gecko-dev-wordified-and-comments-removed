@@ -993,9 +993,9 @@ ins
 )
 ;
 bool
-visitAsmJSDivOrMod
+visitUDivOrMod
 (
-LAsmJSDivOrMod
+LUDivOrMod
 *
 ins
 )

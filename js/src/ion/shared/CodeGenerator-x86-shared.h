@@ -635,9 +635,9 @@ ins
 ;
 virtual
 bool
-visitAsmJSDivOrMod
+visitUDivOrMod
 (
-LAsmJSDivOrMod
+LUDivOrMod
 *
 ins
 )
