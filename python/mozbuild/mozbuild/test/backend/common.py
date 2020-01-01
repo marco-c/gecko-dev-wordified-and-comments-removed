@@ -474,17 +474,9 @@ _emit
 (
 self
 name
-env
-=
-None
 )
 :
         
-if
-not
-env
-:
-            
 env
 =
 self
@@ -527,9 +519,6 @@ _consume
 self
 name
 cls
-env
-=
-None
 )
 :
         
@@ -541,9 +530,6 @@ self
 _emit
 (
 name
-env
-=
-env
 )
         
 backend
