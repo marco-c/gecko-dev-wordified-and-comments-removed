@@ -21746,6 +21746,11 @@ tabindex
 -
 1
 "
+clickthrough
+=
+"
+never
+"
 class
 =
 "
