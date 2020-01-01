@@ -4456,6 +4456,14 @@ database
 "
 )
 ;
+setMigratedBookmarks
+(
+)
+;
+setMigratedHistory
+(
+)
+;
 return
 ;
 }
