@@ -442,7 +442,7 @@ Debug
 else
 BUILDSTYLE
 =
-Deployment
+Release
 endif
 PROJECT
 =
