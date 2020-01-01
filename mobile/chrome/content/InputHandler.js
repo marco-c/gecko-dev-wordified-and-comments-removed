@@ -279,7 +279,6 @@ new
 ChromeInputModule
 (
 this
-browserCanvas
 )
 )
 ;
@@ -2969,14 +2968,6 @@ lockAxis
 (
 sX
 sY
-)
-;
-Browser
-.
-canvasBrowser
-.
-startPanning
-(
 )
 ;
 }
