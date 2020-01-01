@@ -19719,13 +19719,6 @@ false
 ;
 }
 }
-JS_NOT_REACHED
-(
-"
-bad
-"
-)
-;
 return
 true
 ;
