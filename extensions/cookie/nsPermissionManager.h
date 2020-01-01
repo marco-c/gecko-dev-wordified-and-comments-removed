@@ -492,6 +492,8 @@ aExactHostMatch
 nsresult
 InitDB
 (
+PRBool
+aRemoveFile
 )
 ;
 nsresult
