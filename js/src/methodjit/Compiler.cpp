@@ -9825,7 +9825,6 @@ PC
 .
 exceptionEntry
 )
-{
 masm
 .
 loadPtr
@@ -9840,11 +9839,6 @@ offsetOfFp
 JSFrameReg
 )
 ;
-interruptCheckHelper
-(
-)
-;
-}
 if
 (
 trap
