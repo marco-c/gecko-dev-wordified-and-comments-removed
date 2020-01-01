@@ -5657,6 +5657,9 @@ LIR_qiand
 case
 LIR_qilsh
 :
+case
+LIR_qior
+:
 {
 asm_qbinop
 (

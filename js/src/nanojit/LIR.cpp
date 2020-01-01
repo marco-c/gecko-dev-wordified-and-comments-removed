@@ -512,7 +512,7 @@ i2f
 u2f
 "
 "
-108
+qior
 "
 "
 qilsh
@@ -10478,6 +10478,9 @@ LIR_qiand
 :
 case
 LIR_qilsh
+:
+case
+LIR_qior
 :
 sprintf
 (
