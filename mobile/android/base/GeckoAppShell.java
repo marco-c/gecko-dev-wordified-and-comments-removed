@@ -490,8 +490,6 @@ setLayerClient
 (
 GeckoLayerClient
 client
-int
-type
 )
 ;
 public
@@ -2874,17 +2872,6 @@ GeckoApp
 mAppContext
 .
 getLayerClient
-(
-)
-GeckoApp
-.
-mAppContext
-.
-getLayerClient
-(
-)
-.
-getType
 (
 )
 )
