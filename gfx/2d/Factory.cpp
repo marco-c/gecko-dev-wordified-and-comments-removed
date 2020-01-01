@@ -222,6 +222,10 @@ XP_MACOSX
 |
 defined
 ANDROID
+|
+|
+defined
+LINUX
 #
 ifdef
 USE_SKIA

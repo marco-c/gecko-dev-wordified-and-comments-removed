@@ -1981,11 +1981,11 @@ SkFontHost_FreeType
 .
 cpp
 \
-SkFontHost_linux
+SkFontHost_gamma_none
 .
 cpp
 \
-SkFontHost_gamma
+SkFontHost_linux
 .
 cpp
 \
