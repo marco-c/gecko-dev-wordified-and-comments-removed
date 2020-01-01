@@ -313,8 +313,7 @@ aResult
 nsPresContext
 *
 aPresContext
-class
-nsBeforePageUnloadEvent
+nsEvent
 *
 aEvent
 )
