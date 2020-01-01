@@ -955,10 +955,13 @@ if
 timerData
 .
 callback
-instanceof
-Ci
+&
+&
+timerData
 .
-nsITimerCallback
+callback
+.
+notify
 )
 {
 try
@@ -1276,6 +1279,10 @@ _timer
 .
 delay
 =
+Math
+.
+max
+(
 this
 .
 lastTimerReset
@@ -1286,6 +1293,8 @@ Date
 .
 now
 (
+)
+0
 )
 ;
 }
