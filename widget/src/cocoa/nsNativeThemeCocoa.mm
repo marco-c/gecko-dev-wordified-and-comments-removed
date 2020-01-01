@@ -10183,7 +10183,7 @@ inBoxRect
 size
 .
 width
-=
+>
 =
 [
 aWindow
