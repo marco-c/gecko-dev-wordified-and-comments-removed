@@ -734,6 +734,10 @@ test_bug382113
 .
 html
 \
+test_bug382871
+.
+html
+\
 test_bug383430
 .
 html
