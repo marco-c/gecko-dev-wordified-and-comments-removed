@@ -5283,7 +5283,7 @@ i
 ;
 i
 <
-mGLMaxTextureImageUnits
+mGLMaxTextureUnits
 ;
 +
 +
@@ -5516,7 +5516,7 @@ i
 ;
 i
 <
-mGLMaxTextureImageUnits
+mGLMaxTextureUnits
 ;
 +
 +
@@ -5629,7 +5629,7 @@ i
 ;
 i
 <
-mGLMaxTextureImageUnits
+mGLMaxTextureUnits
 ;
 +
 +
