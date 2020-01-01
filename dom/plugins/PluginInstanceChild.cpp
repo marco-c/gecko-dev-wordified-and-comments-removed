@@ -1531,6 +1531,8 @@ AssertPluginThread
 NPObject
 *
 object
+=
+nsnull
 ;
 NPError
 result
@@ -1626,6 +1628,13 @@ result
 NPERR_GENERIC_ERROR
 ;
 }
+else
+{
+result
+=
+NPERR_GENERIC_ERROR
+;
+}
 *
 aValue
 =
@@ -1673,7 +1682,7 @@ return
 true
 ;
 }
-long
+NPBool
 v
 =
 value
