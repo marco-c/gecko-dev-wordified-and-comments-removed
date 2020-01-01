@@ -1021,6 +1021,9 @@ EXTRA_DSO_LDOPTS
 +
 =
 (
+LIBS_DIR
+)
+(
 EXTRA_DSO_LIBS
 )
 ifdef
