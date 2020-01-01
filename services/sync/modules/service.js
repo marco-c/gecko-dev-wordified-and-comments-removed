@@ -6795,14 +6795,10 @@ engine
 in
 engines
 )
-yield
 engine
 .
 resetClient
 (
-self
-.
-cb
 )
 ;
 try

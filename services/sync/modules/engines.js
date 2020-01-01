@@ -1164,7 +1164,6 @@ resetClient
 function
 Engine_resetClient
 (
-onComplete
 )
 {
 if
@@ -1186,7 +1185,7 @@ method
 ;
 this
 .
-_notifyAsync
+_notify
 (
 "
 reset
@@ -1200,11 +1199,7 @@ this
 .
 _resetClient
 )
-.
-async
 (
-this
-onComplete
 )
 ;
 }
@@ -1220,14 +1215,10 @@ self
 =
 yield
 ;
-yield
 this
 .
 resetClient
 (
-self
-.
-cb
 )
 ;
 this
@@ -3205,11 +3196,6 @@ SyncEngine__resetClient
 (
 )
 {
-let
-self
-=
-yield
-;
 this
 .
 resetLastSync
