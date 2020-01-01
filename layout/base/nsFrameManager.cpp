@@ -4091,7 +4091,10 @@ newContext
 }
 #
 endif
+DebugOnly
+<
 nsChangeHint
+>
 styleChange
 =
 oldContext

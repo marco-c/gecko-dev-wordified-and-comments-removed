@@ -2421,7 +2421,10 @@ nppPusher
 mNPP
 )
 ;
+DebugOnly
+<
 NPError
+>
 error
 ;
 NS_TRY_SAFE_CALL_RETURN
@@ -2548,6 +2551,9 @@ window
 clipRect
 .
 right
+(
+NPError
+)
 error
 )
 )

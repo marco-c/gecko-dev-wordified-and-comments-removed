@@ -268,11 +268,6 @@ Consumption
 aConsuming
 )
 {
-const
-char
-*
-state
-;
 DOM_CAMERA_LOGT
 (
 "
@@ -293,6 +288,14 @@ __func__
 __LINE__
 this
 )
+;
+#
+ifdef
+PR_LOGGING
+const
+char
+*
+state
 ;
 switch
 (
@@ -347,6 +350,8 @@ n
 state
 )
 ;
+#
+endif
 nsCOMPtr
 <
 nsIRunnable

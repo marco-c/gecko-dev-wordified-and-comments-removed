@@ -2543,9 +2543,14 @@ if
 info
 )
 {
+#
+ifdef
+PR_LOGGING
 double
 connectTime
 ;
+#
+endif
 double
 readTime
 ;
@@ -2571,6 +2576,9 @@ info
 >
 mTotalTime
 ;
+#
+ifdef
+PR_LOGGING
 connectTime
 =
 (
@@ -2588,6 +2596,8 @@ mConnectTime
 .
 0
 ;
+#
+endif
 readTime
 =
 (
