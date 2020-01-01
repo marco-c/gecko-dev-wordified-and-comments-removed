@@ -1255,11 +1255,8 @@ drawable
 ;
 XSync
 (
-GDK_DISPLAY_XDISPLAY
+GDK_DISPLAY
 (
-gdk_display_get_default
-(
-)
 )
 False
 )
