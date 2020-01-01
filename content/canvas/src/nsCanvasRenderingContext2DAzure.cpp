@@ -4396,7 +4396,7 @@ HTMLCanvasElement
 gfxRect
 tmpR
 =
-GFXRect
+ThebesRect
 (
 r
 )
