@@ -534,6 +534,10 @@ browser_blank_02
 .
 html
 \
+browser_blank_03
+.
+html
+\
 browser_bookmarks
 .
 js
@@ -543,6 +547,10 @@ browser_contacts
 js
 \
 browser_dragger
+.
+js
+\
+browser_escape
 .
 js
 \
