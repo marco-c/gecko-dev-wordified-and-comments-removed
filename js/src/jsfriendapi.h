@@ -2020,10 +2020,10 @@ ifdef
 JS_THREADSAFE
 JS_FRIEND_API
 (
-JSThread
+void
 *
 )
-GetContextThread
+GetOwnerThread
 (
 const
 JSContext
@@ -2318,7 +2318,7 @@ JS_FRIEND_API
 (
 void
 )
-TriggerOperationCallbacksForActiveContexts
+TriggerOperationCallback
 (
 JSRuntime
 *

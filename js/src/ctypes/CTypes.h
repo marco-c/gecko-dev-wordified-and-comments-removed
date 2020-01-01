@@ -1303,14 +1303,6 @@ ffi_closure
 *
 closure
 ;
-#
-ifdef
-DEBUG
-intptr_t
-cxThread
-;
-#
-endif
 ClosureInfo
 (
 JSRuntime
