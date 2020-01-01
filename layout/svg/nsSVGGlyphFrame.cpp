@@ -890,6 +890,15 @@ GetStateBits
 &
 NS_FRAME_FIRST_REFLOW
 )
+|
+|
+(
+GetStateBits
+(
+)
+&
+NS_STATE_SVG_NONDISPLAY_CHILD
+)
 )
 {
 ClearTextRun
