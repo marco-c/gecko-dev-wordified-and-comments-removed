@@ -61,6 +61,13 @@ PRBool
 aKeepGoing
 )
 ;
+nsresult
+ExpireOrphans
+(
+PRUint32
+aNumToExpire
+)
+;
 protected
 :
 nsNavHistory

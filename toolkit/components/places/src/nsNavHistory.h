@@ -75,6 +75,13 @@ nsPIPlacesDatabase
 h
 "
 #
+include
+"
+nsPIPlacesHistoryListenersNotifier
+.
+h
+"
+#
 ifdef
 MOZ_XUL
 #
@@ -488,6 +495,8 @@ public
 nsICharsetResolver
 public
 nsPIPlacesDatabase
+public
+nsPIPlacesHistoryListenersNotifier
 #
 ifdef
 MOZ_XUL
@@ -524,6 +533,7 @@ NS_DECL_NSIDOWNLOADHISTORY
 NS_DECL_NSIBROWSERHISTORY
 NS_DECL_NSIOBSERVER
 NS_DECL_NSPIPLACESDATABASE
+NS_DECL_NSPIPLACESHISTORYLISTENERSNOTIFIER
 #
 ifdef
 MOZ_XUL
