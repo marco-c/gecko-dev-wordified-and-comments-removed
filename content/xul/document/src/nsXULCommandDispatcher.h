@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsIDOMFocusListener
-.
-h
-"
-#
-include
-"
 nsWeakReference
 .
 h

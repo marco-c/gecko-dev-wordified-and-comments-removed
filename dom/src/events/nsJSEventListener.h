@@ -21,7 +21,7 @@ h
 #
 include
 "
-nsIDOMMouseListener
+nsIDOMEventListener
 .
 h
 "

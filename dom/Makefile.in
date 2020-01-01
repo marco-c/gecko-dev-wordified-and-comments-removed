@@ -510,10 +510,6 @@ DIRS
 +
 =
 \
-public
-/
-coreEvents
-\
 base
 \
 src

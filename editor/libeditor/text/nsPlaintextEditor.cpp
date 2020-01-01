@@ -71,13 +71,6 @@ h
 #
 include
 "
-nsIDOMMouseListener
-.
-h
-"
-#
-include
-"
 nsISelection
 .
 h

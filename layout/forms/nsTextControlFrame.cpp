@@ -344,13 +344,6 @@ h
 #
 include
 "
-nsIDOMFocusListener
-.
-h
-"
-#
-include
-"
 nsIDOMCharacterData
 .
 h
@@ -434,13 +427,6 @@ h
 include
 "
 nsContentCreatorFunctions
-.
-h
-"
-#
-include
-"
-nsIDOMKeyListener
 .
 h
 "
