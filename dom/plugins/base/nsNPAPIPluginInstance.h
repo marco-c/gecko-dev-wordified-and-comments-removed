@@ -1302,6 +1302,11 @@ PluginEventRunnable
 r
 )
 ;
+void
+OnSurfaceTextureFrameAvailable
+(
+)
+;
 PRUint32
 mFullScreenOrientation
 ;
