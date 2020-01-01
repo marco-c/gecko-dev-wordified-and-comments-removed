@@ -243,6 +243,15 @@ collapsed
 =
 true
 ;
+indicator
+.
+parentNode
+.
+appendChild
+(
+indicator
+)
+;
 return
 null
 ;

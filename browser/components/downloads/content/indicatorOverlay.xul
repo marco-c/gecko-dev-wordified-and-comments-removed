@@ -413,6 +413,11 @@ event
 )
 ;
 "
+skipintoolbarset
+=
+"
+true
+"
 >
 <
 !
