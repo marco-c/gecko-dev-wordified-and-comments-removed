@@ -1549,6 +1549,12 @@ BY
 imacro_asm
 .
 js
+FROM
+"
++
+filename
++
+"
 -
 -
 DO

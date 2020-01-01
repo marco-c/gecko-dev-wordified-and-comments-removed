@@ -5,6 +5,13 @@ BY
 imacro_asm
 .
 js
+FROM
+.
+.
+/
+imacros
+.
+jsasm
 -
 -
 DO
