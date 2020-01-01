@@ -2336,9 +2336,20 @@ added
 TEST
 '
 ]
+                
 loader
 .
 topsrcdir
+.
+replace
+(
+os
+.
+sep
+'
+/
+'
+)
 )
     
 def
@@ -2584,9 +2595,20 @@ e
 exception
 .
 path
+                
 mozconfig
 .
 name
+.
+replace
+(
+os
+.
+sep
+'
+/
+'
+)
 )
             
 self
