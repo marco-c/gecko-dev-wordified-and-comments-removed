@@ -3889,9 +3889,9 @@ installState
 ;
 this
 .
-manifest
+_manifest
 =
-app
+msg
 .
 manifest
 ;
