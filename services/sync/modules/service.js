@@ -4944,6 +4944,13 @@ NoOpAuthenticator
 let
 data
 =
+"
+"
+;
+try
+{
+data
+=
 res
 .
 get
@@ -4974,6 +4981,13 @@ return
 available
 "
 ;
+}
+catch
+(
+ex
+)
+{
+}
 return
 this
 .
