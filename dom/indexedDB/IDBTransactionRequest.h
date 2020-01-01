@@ -167,6 +167,11 @@ ReleaseSavepoint
 (
 )
 ;
+void
+RollbackSavepoint
+(
+)
+;
 already_AddRefed
 <
 mozIStorageStatement
