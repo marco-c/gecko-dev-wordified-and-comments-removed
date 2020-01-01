@@ -222,6 +222,16 @@ NS_SVGEnabled
 )
 ;
 #
+ifdef
+MOZ_SMIL
+PRBool
+NS_SMILEnabled
+(
+)
+;
+#
+endif
+#
 undef
 CLIP_MASK
 class

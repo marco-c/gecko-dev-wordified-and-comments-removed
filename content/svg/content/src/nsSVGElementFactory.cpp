@@ -1819,6 +1819,13 @@ ifdef
 MOZ_SMIL
 if
 (
+NS_SMILEnabled
+(
+)
+)
+{
+if
+(
 name
 =
 =
@@ -1868,6 +1875,7 @@ aResult
 aNodeInfo
 )
 ;
+}
 #
 endif
 return
