@@ -742,11 +742,7 @@ PR_Now
 (
 )
 -
-(
 maximumAge
-*
-PR_MSEC_PER_SEC
-)
 >
 =
 cachedPositionTime
