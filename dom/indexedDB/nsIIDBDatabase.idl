@@ -470,6 +470,20 @@ nsIIDBTransaction
 interface
 nsIDOMDOMStringList
 ;
+%
+{
+C
++
++
+#
+include
+"
+jsapi
+.
+h
+"
+%
+}
 /
 *
 *
@@ -555,6 +569,9 @@ attribute
 nsIDOMDOMStringList
 objectStoreNames
 ;
+[
+implicit_jscontext
+]
 nsIIDBRequest
 createObjectStore
 (
@@ -577,6 +594,9 @@ boolean
 autoIncrement
 )
 ;
+[
+implicit_jscontext
+]
 nsIIDBRequest
 removeObjectStore
 (
@@ -585,6 +605,9 @@ AString
 name
 )
 ;
+[
+implicit_jscontext
+]
 nsIIDBRequest
 setVersion
 (
@@ -595,6 +618,7 @@ version
 ;
 [
 optional_argc
+implicit_jscontext
 ]
 nsIIDBTransaction
 transaction
@@ -636,6 +660,7 @@ timeout
 ;
 [
 optional_argc
+implicit_jscontext
 ]
 nsIIDBObjectStore
 objectStore
