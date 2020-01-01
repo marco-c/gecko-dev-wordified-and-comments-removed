@@ -483,6 +483,10 @@ test_cursors
 .
 html
 \
+test_cursor_mutation
+.
+html
+\
 test_cursor_update_updates_indexes
 .
 html
