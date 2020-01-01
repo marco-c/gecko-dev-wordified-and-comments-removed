@@ -1336,6 +1336,9 @@ NotifyPluginCrashed
 (
 )
 ;
+#
+ifdef
+MOZ_ENABLE_PROFILER_SPS
 void
 InitPluginProfiling
 (
@@ -1346,6 +1349,8 @@ ShutdownPluginProfiling
 (
 )
 ;
+#
+endif
 PluginProcessParent
 *
 mSubprocess
