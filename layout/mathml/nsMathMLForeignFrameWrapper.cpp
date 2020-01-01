@@ -57,13 +57,6 @@ h
 #
 include
 "
-nsIFontMetrics
-.
-h
-"
-#
-include
-"
 nsMathMLForeignFrameWrapper
 .
 h

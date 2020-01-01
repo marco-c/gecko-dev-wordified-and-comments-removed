@@ -109,13 +109,6 @@ h
 #
 include
 "
-nsIThebesFontMetrics
-.
-h
-"
-#
-include
-"
 nsTextFrame
 .
 h

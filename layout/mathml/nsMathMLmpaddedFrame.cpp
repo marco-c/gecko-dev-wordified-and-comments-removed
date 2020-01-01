@@ -43,13 +43,6 @@ h
 #
 include
 "
-nsIFontMetrics
-.
-h
-"
-#
-include
-"
 nsMathMLmpaddedFrame
 .
 h

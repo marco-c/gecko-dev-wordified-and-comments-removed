@@ -64,13 +64,6 @@ h
 #
 include
 "
-nsIFontMetrics
-.
-h
-"
-#
-include
-"
 nsIPrintSettings
 .
 h

@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsIFontMetrics
-.
-h
-"
-#
-include
-"
 nsFormControlFrame
 .
 h

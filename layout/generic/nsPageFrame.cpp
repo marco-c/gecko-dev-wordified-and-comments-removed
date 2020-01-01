@@ -118,13 +118,6 @@ endif
 #
 include
 "
-nsIFontMetrics
-.
-h
-"
-#
-include
-"
 nsIPrintSettings
 .
 h

@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsIFontMetrics
-.
-h
-"
-#
-include
-"
 nsMathMLmphantomFrame
 .
 h

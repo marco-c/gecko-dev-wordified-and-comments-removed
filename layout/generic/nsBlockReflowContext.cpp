@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsIFontMetrics
-.
-h
-"
-#
-include
-"
 nsPresContext
 .
 h

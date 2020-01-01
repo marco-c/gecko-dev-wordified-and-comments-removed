@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsIFontMetrics
-.
-h
-"
-#
-include
-"
 nsRenderingContext
 .
 h

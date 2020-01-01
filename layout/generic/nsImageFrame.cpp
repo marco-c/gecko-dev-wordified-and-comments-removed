@@ -204,13 +204,6 @@ h
 #
 include
 "
-nsIFontMetrics
-.
-h
-"
-#
-include
-"
 nsCSSRendering
 .
 h

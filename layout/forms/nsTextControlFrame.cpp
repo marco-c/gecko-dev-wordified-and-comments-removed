@@ -524,13 +524,6 @@ h
 #
 include
 "
-nsIFontMetrics
-.
-h
-"
-#
-include
-"
 nsIDOMNSHTMLElement
 .
 h
