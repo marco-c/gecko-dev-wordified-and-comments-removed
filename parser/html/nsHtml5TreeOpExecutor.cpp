@@ -374,10 +374,13 @@ NS_OK
 }
 if
 (
-!
 mRunsToCompletion
 )
 {
+return
+NS_OK
+;
+}
 GetParser
 (
 )
@@ -387,7 +390,6 @@ DropStreamParser
 (
 )
 ;
-}
 DidBuildModelImpl
 (
 aTerminated
