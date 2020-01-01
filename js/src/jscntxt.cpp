@@ -5229,6 +5229,15 @@ clearPendingException
 ;
 if
 (
+!
+IsAtomsCompartment
+(
+compartment
+(
+)
+)
+&
+&
 compartment
 (
 )
