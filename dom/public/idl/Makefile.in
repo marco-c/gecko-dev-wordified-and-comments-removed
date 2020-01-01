@@ -460,6 +460,13 @@ DIRS
 =
 svg
 endif
+ifdef
+MOZ_SMIL
+DIRS
++
+=
+smil
+endif
 include
 (
 topsrcdir

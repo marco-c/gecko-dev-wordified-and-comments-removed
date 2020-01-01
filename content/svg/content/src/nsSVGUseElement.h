@@ -103,6 +103,8 @@ aResult
 nsINodeInfo
 *
 aNodeInfo
+PRBool
+aFromParser
 )
 ;
 typedef

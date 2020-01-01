@@ -171,6 +171,13 @@ ifdef
 MOZ_SVG
 eDOMClassInfo_SVGDocument_id
 eDOMClassInfo_SVGAElement_id
+#
+ifdef
+MOZ_SMIL
+eDOMClassInfo_SVGAnimateElement_id
+eDOMClassInfo_SVGSetElement_id
+#
+endif
 eDOMClassInfo_SVGCircleElement_id
 eDOMClassInfo_SVGClipPathElement_id
 eDOMClassInfo_SVGDefsElement_id
