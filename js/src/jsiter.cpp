@@ -5769,6 +5769,13 @@ isNative
 )
 attrs
 =
+IsImplicitProperty
+(
+prop
+)
+?
+JSPROP_ENUMERATE
+:
 prop
 -
 >
