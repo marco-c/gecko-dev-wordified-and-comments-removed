@@ -133,8 +133,6 @@ const
 nsACString
 &
 aCharset
-PRInt32
-aBidiOptions
 )
 ;
 nsresult
@@ -149,18 +147,6 @@ nsACString
 aResult
 )
 ;
-nsresult
-UnicodeToNewBytes
-(
-const
-nsAString
-&
-aStr
-nsACString
-&
-aOut
-)
-;
 nsCString
 mCharset
 ;
@@ -169,9 +155,6 @@ nsCOMPtr
 nsISaveAsCharset
 >
 mEncoder
-;
-PRInt32
-mBidiOptions
 ;
 }
 ;
