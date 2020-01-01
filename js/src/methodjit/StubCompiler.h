@@ -409,6 +409,11 @@ STUB_CALL_TYPE
 BoolStubEqualityIC
 )
 ;
+STUB_CALL_TYPE
+(
+VoidPtrStubTraceIC
+)
+;
 #
 endif
 #

@@ -4928,17 +4928,6 @@ INVALID_SHAPE
 break
 ;
 }
-case
-ic
-:
-:
-MICInfo
-:
-:
-TRACER
-:
-break
-;
 default
 :
 JS_NOT_REACHED

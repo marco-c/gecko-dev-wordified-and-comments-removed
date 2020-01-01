@@ -2052,6 +2052,9 @@ closedArgs
 SlotVector
 closedVars
 ;
+uint16
+traceIndex
+;
 JSCodeGenerator
 (
 js
