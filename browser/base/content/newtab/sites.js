@@ -462,7 +462,10 @@ _updateAttributes
 true
 )
 ;
-PageThumbs
+#
+ifndef
+RELEASE_BUILD
+BackgroundPageThumbs
 .
 captureIfStale
 (
@@ -471,6 +474,8 @@ this
 url
 )
 ;
+#
+endif
 this
 .
 refreshThumbnail

@@ -57,6 +57,9 @@ toolkit
 .
 jar
 :
+#
+ifndef
+RELEASE_BUILD
 +
 content
 /
@@ -72,3 +75,5 @@ backgroundPageThumbsContent
 .
 js
 )
+#
+endif
