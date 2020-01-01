@@ -601,10 +601,6 @@ test_bug373293
 .
 html
 \
-test_bug373875
-.
-html
-\
 test_bug377947
 .
 html
