@@ -227,11 +227,9 @@ R
 ENTITY
 restorepage
 .
-cancelButton
+closeButton
 "
-Start
-New
-Session
+Close
 "
 >
 <
@@ -239,11 +237,11 @@ Session
 ENTITY
 restorepage
 .
-cancel
+close
 .
 access
 "
-S
+C
 "
 >
 <
