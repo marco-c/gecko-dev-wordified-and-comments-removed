@@ -9036,6 +9036,10 @@ if
 (
 !
 wasInBackground
+&
+&
+!
+mIsRestoringActivity
 )
 {
 Telemetry
