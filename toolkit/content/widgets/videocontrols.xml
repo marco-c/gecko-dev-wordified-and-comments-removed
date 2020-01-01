@@ -3257,12 +3257,16 @@ this
 .
 randomID
 )
+{
 this
 .
 terminateEventListeners
 (
 )
 ;
+return
+;
+}
 switch
 (
 aEvent
