@@ -426,6 +426,13 @@ Truncate
 (
 )
 ;
+if
+(
+!
+mTreeView
+)
+return
+;
 nsCOMPtr
 <
 nsITreeSelection
