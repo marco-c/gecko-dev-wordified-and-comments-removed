@@ -2025,12 +2025,6 @@ sys
 stderr
 e
                 
-print
->
->
-sys
-.
-stderr
 traceback
 .
 print_exc
@@ -2038,21 +2032,8 @@ print_exc
 )
                 
 return
-(
-e
-.
-code
-if
-isinstance
-(
-e
-.
-code
-int
-)
-else
-1
-)
+-
+127
         
 finally
 :

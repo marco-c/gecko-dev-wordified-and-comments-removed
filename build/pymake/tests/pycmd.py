@@ -244,3 +244,18 @@ args
   
 return
 arg0
+def
+asplode_raise
+(
+args
+)
+:
+  
+raise
+Exception
+(
+args
+[
+0
+]
+)
