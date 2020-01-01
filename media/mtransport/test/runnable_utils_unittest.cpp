@@ -197,7 +197,6 @@ NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
 Destructor
 )
-;
 private
 :
 bool
