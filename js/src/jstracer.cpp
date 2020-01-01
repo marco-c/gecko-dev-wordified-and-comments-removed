@@ -33711,7 +33711,7 @@ regs
 >
 sp
 ;
-jsuint
+jsint
 n
 =
 cx
