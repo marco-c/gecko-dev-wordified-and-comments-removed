@@ -3832,7 +3832,7 @@ stub
 p
 (
 %
-d
+lu
 bytes
 )
 \
@@ -3842,6 +3842,10 @@ cs
 .
 executableAddress
 (
+)
+(
+unsigned
+long
 )
 masm
 .
@@ -4029,9 +4033,16 @@ funGuard
 executableAddress
 (
 )
+static_cast
+<
+void
+*
+>
+(
 ic
 .
 fastGuardedObject
+)
 )
 ;
 return
@@ -4267,7 +4278,7 @@ stub
 p
 (
 %
-d
+lu
 bytes
 )
 \
@@ -4277,6 +4288,10 @@ cs
 .
 executableAddress
 (
+)
+(
+unsigned
+long
 )
 masm
 .
@@ -5352,7 +5367,7 @@ stub
 p
 (
 %
-d
+lu
 bytes
 )
 \
@@ -5362,6 +5377,10 @@ cs
 .
 executableAddress
 (
+)
+(
+unsigned
+long
 )
 masm
 .

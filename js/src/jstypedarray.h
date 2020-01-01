@@ -346,7 +346,6 @@ FIELD_BYTEOFFSET
 FIELD_BYTELENGTH
 FIELD_TYPE
 FIELD_BUFFER
-FIELD_DATA
 FIELD_MAX
 }
 ;
@@ -558,18 +557,6 @@ getDataOffset
 JSObject
 *
 obj
-)
-;
-static
-void
-*
-offsetData
-(
-JSObject
-*
-obj
-uint32
-offs
 )
 ;
 public

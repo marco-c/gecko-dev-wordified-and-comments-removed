@@ -1577,6 +1577,9 @@ setPrivate
 void
 *
 )
+(
+size_t
+)
 length
 )
 ;
