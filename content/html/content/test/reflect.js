@@ -323,13 +323,6 @@ link
 crossOrigin
 "
 ]
-script
-:
-[
-"
-crossOrigin
-"
-]
 source
 :
 [

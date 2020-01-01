@@ -323,6 +323,10 @@ HTMLPropertiesCollection
 .
 webidl
 \
+HTMLScriptElement
+.
+webidl
+\
 HTMLSpanElement
 .
 webidl
