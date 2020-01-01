@@ -5119,7 +5119,7 @@ aWorkerRunnable
 )
 {
 }
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_IMETHOD
 Dispatch
 (
@@ -5195,7 +5195,7 @@ NS_OK
 }
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 WorkerRunnableEventTarget
 nsIEventTarget
@@ -6430,7 +6430,7 @@ private
 }
 #
 endif
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 WorkerRunnable
 nsIRunnable
@@ -7462,7 +7462,7 @@ mAlreadyMappedToAddon
 ;
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 MemoryReporter
 (
 WorkerPrivate
@@ -7894,7 +7894,7 @@ explicitLength
 }
 }
 ;
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 WorkerPrivate
 :

@@ -55,10 +55,9 @@ leak
 "
 )
 ;
-NS_AtomicIncrementRefcnt
-(
++
++
 mRefCnt
-)
 ;
 return
 ;
@@ -122,10 +121,9 @@ leak
 nsrefcnt
 count
 =
-NS_AtomicDecrementRefcnt
-(
+-
+-
 mRefCnt
-)
 ;
 if
 (

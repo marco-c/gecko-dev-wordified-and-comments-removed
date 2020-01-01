@@ -230,7 +230,7 @@ uint32_t
 aFileAttributes
 )
 ;
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 bool
 IsAvailable
 (

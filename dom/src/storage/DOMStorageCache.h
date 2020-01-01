@@ -172,9 +172,10 @@ LoadWait
 ;
 protected
 :
-nsAutoRefCnt
+ThreadSafeAutoRefCnt
 mRefCnt
 ;
+NS_DECL_OWNINGTHREAD
 }
 ;
 class

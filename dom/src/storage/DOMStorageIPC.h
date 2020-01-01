@@ -377,9 +377,10 @@ ScopesHavingData
 (
 )
 ;
-nsAutoRefCnt
+ThreadSafeAutoRefCnt
 mRefCnt
 ;
+NS_DECL_OWNINGTHREAD
 nsRefPtr
 <
 DOMLocalStorageManager
@@ -802,9 +803,10 @@ nsACString
 aScope
 )
 ;
-nsAutoRefCnt
+ThreadSafeAutoRefCnt
 mRefCnt
 ;
+NS_DECL_OWNINGTHREAD
 bool
 mIPCOpen
 ;

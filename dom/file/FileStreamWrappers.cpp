@@ -47,7 +47,7 @@ nsIRunnable
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIRUNNABLE
 ProgressRunnable
 (
@@ -99,7 +99,7 @@ nsIRunnable
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIRUNNABLE
 CloseRunnable
 (
@@ -133,7 +133,7 @@ nsIRunnable
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIRUNNABLE
 DestroyRunnable
 (
@@ -309,7 +309,7 @@ thread
 }
 }
 }
-NS_IMPL_THREADSAFE_ISUPPORTS0
+NS_IMPL_ISUPPORTS0
 (
 FileStreamWrapper
 )
@@ -1211,7 +1211,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 ProgressRunnable
 nsIRunnable
@@ -1253,7 +1253,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 CloseRunnable
 nsIRunnable
@@ -1293,7 +1293,7 @@ return
 NS_OK
 ;
 }
-NS_IMPL_THREADSAFE_ISUPPORTS1
+NS_IMPL_ISUPPORTS1
 (
 DestroyRunnable
 nsIRunnable

@@ -239,7 +239,7 @@ mOrigin
 ;
 public
 :
-NS_DECL_ISUPPORTS
+NS_DECL_THREADSAFE_ISUPPORTS
 RemoteInputStream
 (
 nsIDOMBlob
@@ -1137,11 +1137,11 @@ mSeekableStream
 }
 }
 ;
-NS_IMPL_THREADSAFE_ADDREF
+NS_IMPL_ADDREF
 (
 RemoteInputStream
 )
-NS_IMPL_THREADSAFE_RELEASE
+NS_IMPL_RELEASE
 (
 RemoteInputStream
 )

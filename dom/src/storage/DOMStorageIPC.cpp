@@ -45,7 +45,7 @@ mozilla
 namespace
 dom
 {
-NS_IMPL_THREADSAFE_ADDREF
+NS_IMPL_ADDREF
 (
 DOMStorageDBChild
 )
@@ -1074,11 +1074,11 @@ return
 true
 ;
 }
-NS_IMPL_THREADSAFE_ADDREF
+NS_IMPL_ADDREF
 (
 DOMStorageDBParent
 )
-NS_IMPL_THREADSAFE_RELEASE
+NS_IMPL_RELEASE
 (
 DOMStorageDBParent
 )
