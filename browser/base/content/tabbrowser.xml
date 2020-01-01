@@ -4858,12 +4858,6 @@ null
 )
 ;
 }
-if
-(
-this
-.
-mFaviconService
-)
 this
 .
 mFaviconService
@@ -5563,12 +5557,6 @@ null
 )
 ;
 }
-if
-(
-this
-.
-mFaviconService
-)
 return
 this
 .
@@ -5578,9 +5566,6 @@ isFailedFavicon
 (
 aURI
 )
-;
-return
-null
 ;
 ]
 ]
