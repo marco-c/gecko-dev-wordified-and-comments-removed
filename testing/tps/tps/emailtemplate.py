@@ -105,7 +105,7 @@ central
 /
 file
 /
-tip
+default
 /
 services
 /
@@ -194,6 +194,10 @@ services
 -
 central
 /
+file
+/
+default
+/
 services
 /
 sync
@@ -201,10 +205,6 @@ sync
 tests
 /
 tps
-/
-file
-/
-tip
 /
 {
 name
