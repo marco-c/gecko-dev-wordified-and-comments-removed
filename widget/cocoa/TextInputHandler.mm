@@ -19217,7 +19217,7 @@ r
 mWidget
 -
 >
-GetDefaultScale
+BackingScaleFactor
 (
 )
 )
