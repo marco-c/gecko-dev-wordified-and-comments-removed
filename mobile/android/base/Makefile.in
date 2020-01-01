@@ -1071,12 +1071,6 @@ java
 \
 gfx
 /
-GLThread
-.
-java
-\
-gfx
-/
 ImmutableViewportMetrics
 .
 java
@@ -1126,12 +1120,6 @@ java
 gfx
 /
 PanningPerfAPI
-.
-java
-\
-gfx
-/
-PlaceholderLayerClient
 .
 java
 \

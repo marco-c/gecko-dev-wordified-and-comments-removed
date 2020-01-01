@@ -1182,6 +1182,11 @@ nsIDOMXULDocument
 .
 getBoxObjectFor
 '
+'
+nsIDOMMutationRecord
+.
+*
+'
 #
 dom
 /
@@ -2858,6 +2863,13 @@ nsIDOMTouchList
 :
 '
 nsIDOMTouchEvent
+'
+'
+nsIDOMMutationRecord
+'
+:
+'
+nsIDOMMutationObserver
 '
 '
 nsITelephoneCallback

@@ -45,13 +45,6 @@ h
 #
 include
 "
-jsdhash
-.
-h
-"
-#
-include
-"
 jsprf
 .
 h

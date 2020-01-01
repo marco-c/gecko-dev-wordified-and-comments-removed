@@ -3115,6 +3115,13 @@ keepcurrentinview
 )
 GK_ATOM
 (
+keepobjectsalive
+"
+keepobjectsalive
+"
+)
+GK_ATOM
+(
 key
 "
 key
@@ -13080,6 +13087,13 @@ GK_ATOM
 crh
 "
 crh
+"
+)
+GK_ATOM
+(
+nl
+"
+nl
 "
 )
 GK_ATOM

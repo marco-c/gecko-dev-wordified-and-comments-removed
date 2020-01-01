@@ -401,6 +401,11 @@ leaked
 "
 )
 ;
+if
+(
+mFileCache
+)
+{
 mFileCache
 -
 >
@@ -412,6 +417,7 @@ mFileCache
 =
 nsnull
 ;
+}
 MOZ_COUNT_DTOR
 (
 nsMediaCache

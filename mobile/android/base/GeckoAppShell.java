@@ -10742,7 +10742,7 @@ e
 {
 Log
 .
-i
+e
 (
 LOGTAG
 "
@@ -10750,6 +10750,7 @@ handleGeckoMessage
 throws
 "
 +
+e
 e
 )
 ;

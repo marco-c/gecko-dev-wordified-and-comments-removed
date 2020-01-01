@@ -113,9 +113,8 @@ phase
 void
 beginSlice
 (
-JSCompartment
-*
-comp
+bool
+full
 gcreason
 :
 :
@@ -214,9 +213,8 @@ fp
 bool
 fullFormat
 ;
-JSCompartment
-*
-compartment
+bool
+wasFullGC
 ;
 const
 char
@@ -374,9 +372,8 @@ AutoGCSlice
 Statistics
 &
 stats
-JSCompartment
-*
-comp
+bool
+full
 gcreason
 :
 :
@@ -396,7 +393,7 @@ stats
 .
 beginSlice
 (
-comp
+full
 reason
 )
 ;

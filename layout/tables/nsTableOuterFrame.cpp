@@ -1263,17 +1263,6 @@ aLists
 {
 if
 (
-!
-IsVisibleInSelection
-(
-aBuilder
-)
-)
-return
-NS_OK
-;
-if
-(
 mCaptionFrames
 .
 IsEmpty

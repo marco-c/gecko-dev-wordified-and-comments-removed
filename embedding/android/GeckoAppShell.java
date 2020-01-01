@@ -3841,6 +3841,17 @@ view
 )
 ;
 }
+public
+static
+void
+enableLocationHighAccuracy
+(
+final
+boolean
+enable
+)
+{
+}
 private
 static
 final

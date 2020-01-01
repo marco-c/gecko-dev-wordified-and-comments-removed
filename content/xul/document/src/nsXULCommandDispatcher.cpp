@@ -995,6 +995,12 @@ aElement
 return
 NS_ERROR_NULL_POINTER
 ;
+NS_ENSURE_TRUE
+(
+mDocument
+NS_ERROR_UNEXPECTED
+)
+;
 nsresult
 rv
 =
