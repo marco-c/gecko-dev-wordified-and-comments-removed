@@ -144,15 +144,6 @@ config
 autoconf
 .
 mk
-PARALLEL_DIRS
-:
-=
-\
-mpd
-\
-(
-NULL
-)
 include
 (
 topsrcdir
