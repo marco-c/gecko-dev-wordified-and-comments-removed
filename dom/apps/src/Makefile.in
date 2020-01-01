@@ -111,10 +111,6 @@ Webapps
 .
 jsm
 \
-AppsUtils
-.
-jsm
-\
 (
 NULL
 )
@@ -123,6 +119,10 @@ EXTRA_JS_MODULES
 =
 \
 AppsServiceChild
+.
+jsm
+\
+AppsUtils
 .
 jsm
 \
