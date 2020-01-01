@@ -675,7 +675,7 @@ expected
 ]
 options
 .
-encodedBodyLength
+encodedFullBodyLength
 )
 ;
 do_check_eq
@@ -1184,7 +1184,7 @@ expected
 ]
 options
 .
-encodedBodyLength
+encodedFullBodyLength
 )
 ;
 do_check_eq
