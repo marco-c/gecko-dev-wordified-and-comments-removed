@@ -12,7 +12,7 @@ Components
 .
 classes
 ;
-var
+const
 NetUtil
 =
 {
