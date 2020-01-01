@@ -698,6 +698,7 @@ if
 !
 CanSetCallbacks
 (
+aCallbacks
 )
 )
 {
@@ -731,6 +732,7 @@ if
 !
 CanSetLoadGroup
 (
+aLoadGroup
 )
 )
 {

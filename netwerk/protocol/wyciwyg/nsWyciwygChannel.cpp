@@ -642,6 +642,7 @@ if
 !
 CanSetLoadGroup
 (
+aLoadGroup
 )
 )
 {
@@ -901,6 +902,7 @@ if
 !
 CanSetCallbacks
 (
+aNotificationCallbacks
 )
 )
 {
