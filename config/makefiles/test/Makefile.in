@@ -84,6 +84,10 @@ config
 autoconf
 .
 mk
+STANDALONE_MAKEFILE
+:
+=
+1
 USE_AUTOTARGETS_MK
 =
 1

@@ -93,6 +93,10 @@ config
 config
 .
 mk
+STANDALONE_MAKEFILE
+:
+=
+1
 XPI_NAME
 =
 test_jar_mn
