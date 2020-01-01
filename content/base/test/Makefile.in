@@ -1030,7 +1030,6 @@ bug435425_redirect
 .
 sjs
 \
-#
 test_bug438519
 .
 html
