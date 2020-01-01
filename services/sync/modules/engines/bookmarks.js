@@ -1015,16 +1015,9 @@ switch
 (
 record
 .
-cleartext
-.
 type
 )
 {
-case
-"
-query
-"
-:
 case
 "
 bookmark
@@ -1052,8 +1045,6 @@ bookmark
 "
 +
 record
-.
-cleartext
 .
 title
 +
@@ -1150,8 +1141,6 @@ is
 +
 record
 .
-cleartext
-.
 title
 )
 ;
@@ -1169,8 +1158,6 @@ record
 .
 sortindex
 record
-.
-cleartext
 .
 title
 )
@@ -1194,8 +1181,6 @@ tagURI
 uri
 record
 .
-cleartext
-.
 tags
 )
 ;
@@ -1208,16 +1193,12 @@ setKeywordForBookmark
 newId
 record
 .
-cleartext
-.
 keyword
 )
 ;
 if
 (
 record
-.
-cleartext
 .
 description
 )
@@ -1236,8 +1217,6 @@ description
 "
 record
 .
-cleartext
-.
 description
 0
 this
@@ -1251,8 +1230,6 @@ EXPIRE_NEVER
 if
 (
 record
-.
-cleartext
 .
 type
 =
@@ -1291,8 +1268,6 @@ bookmarks
 staticTitle
 "
 record
-.
-cleartext
 .
 staticTitle
 |
@@ -1408,8 +1383,6 @@ folder
 +
 record
 .
-cleartext
-.
 title
 +
 "
@@ -1429,8 +1402,6 @@ createFolder
 parentId
 record
 .
-cleartext
-.
 title
 record
 .
@@ -1440,8 +1411,6 @@ sortindex
 if
 (
 record
-.
-cleartext
 .
 outgoingSharedAnno
 !
@@ -1458,8 +1427,6 @@ setItemAnnotation
 newId
 OUTGOING_SHARED_ANNO
 record
-.
-cleartext
 .
 outgoingSharedAnno
 0
@@ -1479,8 +1446,6 @@ setItemAnnotation
 newId
 SERVER_PATH_ANNO
 record
-.
-cleartext
 .
 serverPathAnno
 0
@@ -1516,8 +1481,6 @@ livemark
 +
 record
 .
-cleartext
-.
 title
 +
 "
@@ -1536,8 +1499,6 @@ createLivemark
 (
 parentId
 record
-.
-cleartext
 .
 title
 Utils
@@ -1589,8 +1550,6 @@ share
 +
 record
 .
-cleartext
-.
 title
 +
 "
@@ -1610,8 +1569,6 @@ createFolder
 parentId
 record
 .
-cleartext
-.
 title
 record
 .
@@ -1627,8 +1584,6 @@ setItemAnnotation
 newId
 INCOMING_SHARED_ANNO
 record
-.
-cleartext
 .
 incomingSharedAnno
 0
@@ -1648,8 +1603,6 @@ setItemAnnotation
 newId
 SERVER_PATH_ANNO
 record
-.
-cleartext
 .
 serverPathAnno
 0
@@ -1715,8 +1668,6 @@ type
 "
 +
 record
-.
-cleartext
 .
 type
 )
