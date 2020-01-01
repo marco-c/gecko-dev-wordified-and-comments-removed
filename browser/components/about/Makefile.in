@@ -91,12 +91,9 @@ browserabout_s
 FORCE_STATIC_LIB
 =
 1
-ifndef
-MOZ_MEMORY
 USE_STATIC_LIBS
 =
 1
-endif
 EXPORTS_NAMESPACES
 =
 mozilla
