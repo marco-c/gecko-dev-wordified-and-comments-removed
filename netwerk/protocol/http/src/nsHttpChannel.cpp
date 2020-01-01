@@ -6553,11 +6553,12 @@ accessRequested
 ;
 if
 (
+offline
+|
+|
+(
 mLoadFlags
 &
-(
-LOAD_ONLY_FROM_CACHE
-|
 INHIBIT_CACHING
 )
 )
@@ -8075,9 +8076,7 @@ Adopt
 ;
 if
 (
-mLoadFlags
-&
-LOAD_ONLY_FROM_CACHE
+mLoadedFromApplicationCache
 |
 |
 (

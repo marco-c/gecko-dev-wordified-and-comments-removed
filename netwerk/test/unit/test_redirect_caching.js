@@ -213,7 +213,7 @@ Ci
 .
 nsICachingChannel
 .
-LOAD_ONLY_FROM_CACHE
+LOAD_FROM_CACHE
 ;
 chan
 .
