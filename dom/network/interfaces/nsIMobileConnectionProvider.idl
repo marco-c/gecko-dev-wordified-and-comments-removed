@@ -286,6 +286,11 @@ cardState
 ;
 readonly
 attribute
+long
+retryCount
+;
+readonly
+attribute
 nsIDOMMozMobileICCInfo
 iccInfo
 ;

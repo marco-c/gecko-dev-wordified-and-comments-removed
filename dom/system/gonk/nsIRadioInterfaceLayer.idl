@@ -340,6 +340,11 @@ cardState
 ;
 readonly
 attribute
+long
+retryCount
+;
+readonly
+attribute
 DOMString
 imsi
 ;
