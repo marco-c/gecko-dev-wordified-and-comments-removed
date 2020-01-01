@@ -94,13 +94,6 @@ h
 #
 endif
 #
-include
-"
-gtk2compat
-.
-h
-"
-#
 endif
 #
 include

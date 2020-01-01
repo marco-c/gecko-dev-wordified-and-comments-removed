@@ -25,13 +25,6 @@ gtkprintunixdialog
 h
 >
 #
-include
-"
-gtk2compat
-.
-h
-"
-#
 else
 #
 include

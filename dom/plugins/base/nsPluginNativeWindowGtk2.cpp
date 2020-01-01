@@ -56,13 +56,6 @@ h
 #
 include
 "
-gtk2compat
-.
-h
-"
-#
-include
-"
 gtk2xtbin
 .
 h
