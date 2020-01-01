@@ -1188,7 +1188,7 @@ NS_SealStaticAtomTable
 (
 )
 ;
-nsDOMMemoryReporter
+nsDOMMemoryMultiReporter
 :
 :
 Init
