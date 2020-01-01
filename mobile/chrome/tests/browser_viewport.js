@@ -158,7 +158,7 @@ messageManager
 addMessageListener
 (
 "
-MozScrolledAreaChanged
+pageshow
 "
 function
 (
