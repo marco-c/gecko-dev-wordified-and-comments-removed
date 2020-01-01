@@ -477,6 +477,10 @@ browser_bug562899
 .
 js
 \
+browser_bug572561
+.
+js
+\
 browser_dragdrop
 .
 js

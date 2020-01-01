@@ -111,12 +111,13 @@ end_test
 (
 )
 {
+close_manager
+(
 gManagerWindow
-.
-close
+function
 (
 )
-;
+{
 LightweightThemeManager
 .
 forgetUsedTheme
@@ -128,6 +129,9 @@ test
 ;
 finish
 (
+)
+;
+}
 )
 ;
 }
