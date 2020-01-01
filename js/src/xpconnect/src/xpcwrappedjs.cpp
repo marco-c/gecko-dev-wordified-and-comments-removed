@@ -2211,6 +2211,13 @@ mJSObj
 =
 nsnull
 ;
+JS_RemoveRootRT
+(
+rt
+&
+mJSObj
+)
+;
 if
 (
 mNext

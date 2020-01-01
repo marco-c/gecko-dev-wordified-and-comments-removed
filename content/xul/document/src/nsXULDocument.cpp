@@ -12358,7 +12358,9 @@ NS_ERROR_UNEXPECTED
 aScriptProto
 -
 >
-Set
+mScriptObject
+.
+set
 (
 newScriptObject
 )

@@ -450,15 +450,6 @@ nsIXPConnect
 .
 idl
 "
-[
-ptr
-]
-native
-JSTracerPtr
-(
-JSTracer
-)
-;
 %
 {
 C

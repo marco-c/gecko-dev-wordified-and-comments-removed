@@ -2624,6 +2624,7 @@ p
 FlatJSObjectFinalized
 (
 cx
+obj
 )
 ;
 }
@@ -2663,7 +2664,7 @@ GetGlobalJSObject
 ;
 NS_ASSERTION
 (
-obj
+scope
 "
 bad
 scope
@@ -4130,6 +4131,7 @@ wrapper
 FlatJSObjectFinalized
 (
 cx
+obj
 )
 ;
 }
