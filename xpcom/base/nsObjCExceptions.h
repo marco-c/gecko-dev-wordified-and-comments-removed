@@ -717,7 +717,7 @@ _exn
 )
 {
 \
-nsObjCExceptionLogAbort
+nsObjCExceptionLog
 (
 _exn
 )
@@ -759,7 +759,7 @@ _exn
 )
 {
 \
-nsObjCExceptionLogAbort
+nsObjCExceptionLog
 (
 _exn
 )
@@ -789,7 +789,7 @@ _exn
 )
 {
 \
-nsObjCExceptionLogAbort
+nsObjCExceptionLog
 (
 _exn
 )
@@ -813,7 +813,7 @@ _exn
 )
 {
 \
-nsObjCExceptionLogAbort
+nsObjCExceptionLog
 (
 _exn
 )
@@ -841,7 +841,7 @@ _exn
 )
 {
 \
-nsObjCExceptionLogAbort
+nsObjCExceptionLog
 (
 _exn
 )
@@ -869,7 +869,7 @@ _exn
 )
 {
 \
-nsObjCExceptionLogAbort
+nsObjCExceptionLog
 (
 _exn
 )
@@ -900,7 +900,7 @@ _exn
 )
 {
 \
-nsObjCExceptionLogAbort
+nsObjCExceptionLog
 (
 _exn
 )
