@@ -1623,6 +1623,14 @@ AppendElement
 aFontEntry
 )
 ;
+aFontEntry
+-
+>
+SetFamily
+(
+this
+)
+;
 }
 void
 SetHasStyles

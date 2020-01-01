@@ -479,14 +479,6 @@ AddFontEntry
 fe
 )
 ;
-fe
--
->
-SetFamily
-(
-family
-)
-;
 family
 -
 >
