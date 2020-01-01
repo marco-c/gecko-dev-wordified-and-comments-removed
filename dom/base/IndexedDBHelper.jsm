@@ -2,6 +2,7 @@
 use
 strict
 "
+;
 let
 DEBUG
 =
@@ -253,7 +254,7 @@ dbName
 +
 self
 .
-dbName
+dbVersion
 )
 ;
 self
@@ -349,6 +350,7 @@ version
 :
 "
 +
+(
 aEvent
 .
 newVersion
@@ -357,6 +359,7 @@ newVersion
 this
 .
 dbVersion
+)
 )
 ;
 }
@@ -607,6 +610,11 @@ callback
 "
 )
 ;
+if
+(
+successCb
+)
+{
 successCb
 (
 txn
@@ -614,6 +622,7 @@ txn
 result
 )
 ;
+}
 }
 ;
 txn
@@ -641,12 +650,18 @@ transaction
 ;
 if
 (
+failureCb
+)
+{
+if
+(
 event
 .
 target
 .
 error
 )
+{
 failureCb
 (
 event
@@ -658,7 +673,9 @@ error
 name
 )
 ;
+}
 else
+{
 failureCb
 (
 "
@@ -666,6 +683,8 @@ UnknownError
 "
 )
 ;
+}
+}
 }
 ;
 callback
