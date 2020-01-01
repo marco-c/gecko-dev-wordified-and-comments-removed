@@ -5324,6 +5324,12 @@ newThis
 jsval
 v
 ;
+xpcObjectHelper
+helper
+(
+newThis
+)
+;
 JSBool
 ok
 =
@@ -5336,9 +5342,8 @@ ccx
 &
 v
 nsnull
-newThis
+helper
 newWrapperIID
-nsnull
 nsnull
 obj
 PR_FALSE
