@@ -925,14 +925,6 @@ js
 ductwork
 /
 debugger
-tier_platform_dirs
-+
-=
-other
--
-licenses
-/
-snappy
 ifdef
 APP_LIBXUL_STATICDIRS
 #
