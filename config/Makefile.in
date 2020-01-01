@@ -687,6 +687,8 @@ srcdir
 nsinstall
 .
 py
+-
+t
 stl_wrappers
 (
 DIST
