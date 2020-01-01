@@ -18312,6 +18312,9 @@ allextract
 MKSHLIB_UNFORCE_ALL
 =
 '
+-
+z
+defaultextract
 '
 DSO_LDOPTS
 =
