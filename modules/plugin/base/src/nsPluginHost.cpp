@@ -1051,14 +1051,6 @@ DEFAULT_NUMBER_OF_STOPPED_PLUGINS
 define
 MAGIC_REQUEST_CONTEXT
 0x01020304
-nsresult
-PostPluginUnloadEvent
-(
-PRLibrary
-*
-aLibrary
-)
-;
 static
 nsPluginInstanceTagList
 *
