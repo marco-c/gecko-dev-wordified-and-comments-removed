@@ -411,8 +411,6 @@ config
 config
 .
 mk
-ifndef
-SUITE_USING_XPFE_DM
 DIRS
 =
 src
@@ -422,7 +420,6 @@ DIRS
 +
 =
 tests
-endif
 endif
 include
 (

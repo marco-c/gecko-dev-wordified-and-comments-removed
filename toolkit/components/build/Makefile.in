@@ -710,8 +710,6 @@ REQUIRES
 parentalcontrols
 endif
 endif
-ifndef
-SUITE_USING_XPFE_DM
 ifdef
 MOZ_RDF
 SHARED_LIBRARY_LIBS
@@ -732,7 +730,6 @@ download_s
 (
 LIB_SUFFIX
 )
-endif
 endif
 ifdef
 ALERTS_SERVICE

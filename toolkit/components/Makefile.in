@@ -569,8 +569,6 @@ MOZ_XUL
 endif
 #
 MOZ_THUNDERBIRD
-ifndef
-SUITE_USING_XPFE_DM
 ifdef
 MOZ_RDF
 DIRS
@@ -578,9 +576,6 @@ DIRS
 =
 downloads
 endif
-endif
-#
-SUITE_USING_XPFE_DM
 ifdef
 MOZ_URL_CLASSIFIER
 DIRS
