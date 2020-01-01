@@ -483,14 +483,6 @@ DBusMessage
 reply
 )
 ;
-int
-dbus_returns_uint32
-(
-DBusMessage
-*
-reply
-)
-;
 }
 }
 #
