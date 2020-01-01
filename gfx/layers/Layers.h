@@ -594,7 +594,7 @@ aCallbackData
 )
 ;
 virtual
-void
+bool
 EndTransaction
 (
 DrawThebesLayerCallback
@@ -606,6 +606,16 @@ aCallbackData
 =
 0
 ;
+virtual
+bool
+IsNullTransactionSupported
+(
+)
+{
+return
+false
+;
+}
 PRBool
 IsSnappingEffectiveTransforms
 (

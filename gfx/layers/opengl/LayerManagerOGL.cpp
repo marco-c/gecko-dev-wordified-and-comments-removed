@@ -1501,7 +1501,7 @@ mTarget
 aTarget
 ;
 }
-void
+bool
 LayerManagerOGL
 :
 :
@@ -1557,6 +1557,7 @@ manager
 )
 ;
 return
+false
 ;
 }
 mRoot
@@ -1623,6 +1624,9 @@ EndTransaction
 ;
 #
 endif
+return
+true
+;
 }
 already_AddRefed
 <

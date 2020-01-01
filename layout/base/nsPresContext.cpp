@@ -10183,6 +10183,10 @@ mNeedsToUpdatePluginGeometry
 (
 PR_FALSE
 )
+mUpdateLayerTree
+(
+false
+)
 {
 mRegisteredPlugins
 .

@@ -227,7 +227,7 @@ EndConstruction
 )
 ;
 virtual
-void
+bool
 EndTransaction
 (
 DrawThebesLayerCallback
