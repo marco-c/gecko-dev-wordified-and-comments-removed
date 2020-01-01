@@ -32,7 +32,7 @@ static
 nsresult
 CreateStackFrameLocation
 (
-PRUint32
+uint32_t
 aLanguage
 const
 char
