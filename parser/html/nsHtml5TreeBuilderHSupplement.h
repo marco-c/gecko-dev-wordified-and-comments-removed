@@ -117,15 +117,6 @@ nsHtml5TreeBuilder
 )
 ;
 void
-StartPlainTextViewSource
-(
-const
-nsAutoString
-&
-aTitle
-)
-;
-void
 StartPlainText
 (
 )

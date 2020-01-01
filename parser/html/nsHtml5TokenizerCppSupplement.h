@@ -50,10 +50,6 @@ nsHtml5Tokenizer
 :
 StartViewSource
 (
-const
-nsAutoString
-&
-aTitle
 )
 {
 mViewSource
@@ -61,7 +57,6 @@ mViewSource
 >
 Start
 (
-aTitle
 )
 ;
 }

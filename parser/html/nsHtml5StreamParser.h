@@ -128,7 +128,6 @@ eParserMode
 NORMAL
 VIEW_SOURCE_HTML
 VIEW_SOURCE_XML
-VIEW_SOURCE_PLAIN
 PLAIN_TEXT
 LOAD_AS_DATA
 }
@@ -380,14 +379,6 @@ const
 PRUnichar
 *
 aEncoding
-)
-;
-void
-SetViewSourceTitle
-(
-nsIURI
-*
-aURL
 )
 ;
 private
@@ -678,9 +669,6 @@ nsCOMPtr
 nsIRequestObserver
 >
 mObserver
-;
-nsCString
-mViewSourceTitle
 ;
 nsCOMPtr
 <
