@@ -4026,6 +4026,15 @@ eStyleUnit_Radian
 ;
 break
 ;
+case
+eCSSUnit_Turn
+:
+unit
+=
+eStyleUnit_Turn
+;
+break
+;
 default
 :
 NS_NOTREACHED
