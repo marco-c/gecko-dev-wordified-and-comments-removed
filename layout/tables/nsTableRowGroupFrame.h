@@ -648,7 +648,7 @@ aOriginalKidRect
 const
 nsRect
 &
-aOriginalKidOverflowRect
+aOriginalKidVisualOverflow
 )
 ;
 void

@@ -1325,7 +1325,7 @@ aOrigRect
 const
 nsRect
 &
-aOrigOverflowRect
+aOrigVisualOverflow
 PRBool
 aIsFirstReflow
 )
@@ -1522,7 +1522,7 @@ aOriginalKidRect
 const
 nsRect
 &
-aOriginalKidOverflowRect
+aOriginalKidVisualOverflow
 )
 ;
 void
