@@ -927,6 +927,12 @@ Ci
 nsIDOMWindow
 )
 ;
+win
+.
+focus
+(
+)
+;
 switch
 (
 testPhase
