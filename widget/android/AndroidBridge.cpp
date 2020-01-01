@@ -7378,7 +7378,6 @@ sview
 .
 GetSurfaceHolder
 (
-env
 &
 jniFrame
 )

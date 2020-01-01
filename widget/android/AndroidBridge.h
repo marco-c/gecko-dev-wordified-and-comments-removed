@@ -2241,6 +2241,16 @@ Push
 ;
 }
 }
+JNIEnv
+*
+GetEnv
+(
+)
+{
+return
+mJNIEnv
+;
+}
 bool
 CheckForException
 (
