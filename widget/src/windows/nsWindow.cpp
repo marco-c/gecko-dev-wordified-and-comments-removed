@@ -12520,6 +12520,14 @@ mIsAltDown
 )
 &
 &
+!
+gKbdLayout
+.
+IsDeadKey
+(
+)
+&
+&
 KeyboardLayout
 :
 :
