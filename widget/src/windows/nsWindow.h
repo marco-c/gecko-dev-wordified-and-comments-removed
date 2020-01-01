@@ -2213,7 +2213,7 @@ ifdef
 MOZ_XUL
 nsRefPtr
 <
-gfxWindowsSurface
+gfxASurface
 >
 mTransparentSurface
 ;
