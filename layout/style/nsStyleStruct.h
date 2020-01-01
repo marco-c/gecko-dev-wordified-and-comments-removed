@@ -281,7 +281,7 @@ nscoord
 mSize
 ;
 PRUint8
-mFlags
+mGenericID
 ;
 #
 ifdef

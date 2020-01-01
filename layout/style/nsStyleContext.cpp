@@ -2773,7 +2773,7 @@ mSize
 font
 -
 >
-mFlags
+mGenericID
 )
 ;
 IndentBy

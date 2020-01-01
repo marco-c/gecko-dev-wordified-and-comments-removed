@@ -371,9 +371,9 @@ mFont
 (
 aFont
 )
-mFlags
+mGenericID
 (
-NS_STYLE_FONT_DEFAULT
+kGenericFont_NONE
 )
 {
 mSize
@@ -447,11 +447,11 @@ aSrc
 .
 mSize
 )
-mFlags
+mGenericID
 (
 aSrc
 .
-mFlags
+mGenericID
 )
 #
 ifdef
@@ -507,9 +507,9 @@ kPresContext_DefaultVariableFont_ID
 )
 )
 )
-mFlags
+mGenericID
 (
-NS_STYLE_FONT_DEFAULT
+kGenericFont_NONE
 )
 {
 mSize
