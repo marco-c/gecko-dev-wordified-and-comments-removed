@@ -472,6 +472,12 @@ openLocationLastURL
 .
 jsm
 \
+content
+/
+NetworkPrioritizer
+.
+jsm
+\
 (
 NULL
 )

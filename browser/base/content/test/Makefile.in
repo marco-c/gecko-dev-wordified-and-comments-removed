@@ -877,6 +877,10 @@ browser_contextSearchTabPosition
 .
 js
 \
+browser_NetworkPrioritizer
+.
+js
+\
 (
 NULL
 )
