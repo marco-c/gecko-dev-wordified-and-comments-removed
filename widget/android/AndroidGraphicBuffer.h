@@ -13,15 +13,6 @@ h
 "
 #
 include
-<
-GLES2
-/
-gl2
-.
-h
->
-#
-include
 "
 nsRect
 .
@@ -165,8 +156,6 @@ mHeight
 bool
 Bind
 (
-GLenum
-target
 )
 ;
 static

@@ -387,8 +387,6 @@ AndroidDirectTexture
 :
 Bind
 (
-GLenum
-target
 )
 {
 MutexAutoLock
@@ -427,7 +425,6 @@ mFrontBuffer
 >
 Bind
 (
-target
 )
 ;
 }
